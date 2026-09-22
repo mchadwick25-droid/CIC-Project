@@ -3,7 +3,7 @@ id: desert.story.virgin-who-hid-athanasius
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I

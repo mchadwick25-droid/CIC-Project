@@ -3,7 +3,7 @@ id: desert.force.origenist-controversy
 world_id: desert-monasticism
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: [F6-I, F3-I]
 confidence:

@@ -3,7 +3,7 @@ id: hal.dw.church-failure
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P

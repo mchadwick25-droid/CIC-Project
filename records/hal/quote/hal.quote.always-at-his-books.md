@@ -3,7 +3,7 @@ id: hal.quote.always-at-his-books
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-E

@@ -3,7 +3,7 @@ id: cappadocian.dw.want-to-believe
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P

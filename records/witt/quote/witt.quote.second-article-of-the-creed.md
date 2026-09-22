@@ -3,7 +3,7 @@ id: witt.quote.second-article-of-the-creed
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T

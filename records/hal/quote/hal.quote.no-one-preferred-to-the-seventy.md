@@ -3,7 +3,7 @@ id: hal.quote.no-one-preferred-to-the-seventy
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-T

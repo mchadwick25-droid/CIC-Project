@@ -3,7 +3,7 @@ id: syr.quote.the-wedding-feast-continues-for-but-seven-days
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T

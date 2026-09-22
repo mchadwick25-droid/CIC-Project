@@ -927,3 +927,177 @@ own commit) - separate, standard next step, matching every prior
 voice_craft revision in this project's own history. Folding this
 requirement into the standing build-cycle checklist for future worlds
 (Entry 28's second scope item) is also still outstanding.
+
+**Entry 35 — 2026-09-22.** Stage 6 begins. Mark's own converged, ordered
+build plan (6a-6f), display design already fixed by R8/R9/R10/R16/R17
+(merged #390) - one PR per sub-stage, only participant-facing words
+escalated to Mark. **Announcing 6a's own promotion sweep here first, per
+Mark's own sequencing instruction, so P3's gate run sequences after it -
+not yet run as of this entry.**
+
+**6a's exact mechanism, verified against real code before running
+anything (not assumed):**
+
+- **"Sits in an admitted world's currently pinned package"** =
+  `record["id"]` appears in that world's currently-pinned
+  `compiled/repository.json`. Verified precisely on alx: 197 records
+  under `records/alx/`, 179 in `repository.json` - the 18-record gap is
+  exactly `facilitator_brief` (1) + `search_record` (16) + `world_front`
+  (1), the three record_types `engine/m2/builders.py`'s own
+  `_PACKAGE_EXCLUDED_RECORD_TYPES` names. Every other type - quote,
+  figure, voice_craft, term, story, etc. - is in `repository.json`
+  fully, confirmed by a direct type-count comparison, not assumed from
+  the builder's own docstring.
+- **"Passes every m1 gate"** = the record's own id does not appear as
+  the subject of any finding from `engine.m1.gates.run_all(records,
+  load_fleet_records(), registry)`, across all 19 gates, called the
+  same way `engine/m9/enforce.py`'s own `collect_findings()` calls it
+  (per-world `records`, fleet-wide `_fleet` records, NOT a
+  `{world_key: records}` nesting - a first attempt at this got that
+  wrong and produced 244 false findings on alx alone; the corrected call
+  gives 0, matching every gate this workstream has already run clean on
+  alx this session). **This ignores `engine/m9/enforce.py`'s own
+  `ACCEPTED_OPEN` waivers entirely, on purpose** - a waiver keeps CI
+  green while a known defect is pending fix; it does not certify the
+  specific records behind it as ready for confidence display. Verified
+  on don: `gates.run_all` reports 52 reciprocity findings (matching
+  `ACCEPTED_OPEN`'s own recorded `m1:reciprocity/don` count exactly)
+  naming 25 distinct records - those 25 stay draft under this rule,
+  waiver or not.
+- **Promotion rule:** for every record currently `status: draft` in an
+  admitted world, flip to `ready` only if both hold; leave everything
+  else untouched. Never assign `frozen` (not this pass's decision to
+  make). Records of the three package-excluded types are structurally
+  never eligible (they never sit in the package at all).
+- **After flipping:** `engine.m2.cli build <world>` (fresh package),
+  `engine.m2.cli determinism-check <world>`, then repoint
+  `records/worlds/<world>.yaml`'s `package.manifest_hash`/`location` at
+  the new package - the exact sequence Entry 34's own package-rebuild
+  fix already validated works cleanly for a records-only change.
+
+Mechanical execution (11 worlds, the actual status-flip + rebuild loop)
+delegated to a Haiku subagent per Mark's own instruction, following a
+script written and reviewed here first rather than left to the
+subagent's own judgment, given what this directly feeds (the live
+confidence display). Counts per world follow in a later entry once run.
+
+**Entry 36 — 2026-09-22.** 6a's sweep run (PR #394): 2033 records
+promoted draft -> ready across the 11 admitted worlds, exactly matching
+the script's own dry-run counts from Entry 35's design (no drift between
+plan and execution).
+
+| World | Promoted | Draft before |
+|---|---|---|
+| alx | 179 | 197 |
+| cappadocian | 275 | 278 |
+| desert | 182 | 200 |
+| don | 211 | 248 |
+| gallic | 193 | 199 |
+| hal | 162 | 175 |
+| ijc | 158 | 186 |
+| pahc | 147 | 162 |
+| rzg | 108 | 110 |
+| syr | 167 | 187 |
+| witt | 251 | 252 |
+| **Total** | **2033** | |
+
+don's remaining 25 draft-and-flagged records (52 gate findings behind
+them, matching `ACCEPTED_OPEN`'s own recorded `m1:reciprocity/don`
+count) stay draft, waiver or not - the rule from Entry 35 applied
+exactly as designed, not loosened at execution time. The smaller
+flagged counts in cappadocian (1), desert (1), gallic (3), pahc (2),
+and syr (1) were likewise left untouched.
+
+Each of the 11 worlds' packages rebuilt (`engine.m2.cli build`),
+determinism-checked, and repinned
+(`records/worlds/<world>.yaml`'s `package.manifest_hash`/`location`).
+Verified: fleet-wide `engine.m2.cli restore` -> `pass: true` (all 12
+worlds), `staleness-check` -> `pass: true`, `python -m pytest
+engine/api/tests -q` -> 130 passed. A diff scan confirmed every
+`records/` change in this PR is exactly a `status: draft`/`ready` flip
+inside the record's own frontmatter block - no body-prose content
+touched anywhere, and no `frozen` status assigned anywhere (not this
+pass's decision to make, per Entry 35).
+
+Mechanical execution (script run, per-world build/determinism-check/
+repin/restore loop) ran on a Haiku subagent as Entry 35 said it would,
+against the script written and reviewed there first. Its report was
+independently re-verified against the actual repo state before this
+commit - not taken on trust - via a direct re-run of `restore`,
+`staleness-check`, and `pytest`, a `git status` file-count check, and
+the diff scan above. PR #394.
+
+**Entry 37 — 2026-09-22.** Stage 6d's engineering half built: a new M7
+instrument, `level1_element_density`, counting Level-1 (inline,
+directly-in-text) transparency marks per turn. Report-only, no cap
+enforced - per `Adjusted-Design.md`'s own N2 note, R17 splits into
+"RULING R17 on numbers" (still Mark's to set) and engineering (this).
+(Numbering note: PR #395, Stage 6b/6c work carrying Entries 37-38, was
+opened before this one but is still pending Mark's wording as of this
+entry - branched from `main` before either landed, so this entry is
+also 37 here; whichever PR merges first keeps its numbers per this
+file's own "never renumber a past entry" rule, the other renumbers on
+merge, same as Entry 32's own precedent.)
+
+`engine/m7/session_reader.py`'s `VoiceTurnRecord` gains `figures_used`,
+`glosses`, and `transparency`, lifted verbatim off the `voice_turn`
+event's own payload - same pattern `citations` already used.
+`engine/m7/instruments.py`'s new `level1_element_density(s)` counts,
+per turn: story/witness citation marks (grouped by the SAME
+`run_start_sentence`/`run_end_sentence`/`record_type` logic
+`VoiceTurnBody.tsx`'s `renderFromTransparencyPlan` uses, reproduced
+independently in Python - a known, named limitation, not a shared
+implementation), figure marks, and gloss marks, against the turn's own
+sentence count. Wired into `run_all()` under its own key, metrics only
+(same shape as `register_mechanical`'s own metrics half) - no Finding
+objects, nothing enforced.
+
+2 new tests (grouping fidelity against a constructed transparency
+plan; confirmation this stays report-only). `engine/m7` suite 34/34;
+full suite 832/832.
+
+**Still open, not guessed at here:** the actual cap number/formula.
+R17's own ruled text ("a small, capped number of inline marks per
+turn, scaling gently with sentence count") is deliberately
+unspecific - no formula or drop order is decided anywhere in
+`Rulings-Pending.md` or this log. A specific formula
+(`max(3, min(8, ceil(sentences/2)))`) and drop order
+(glosses→figures→stories, never witness quotes) existed only in this
+session's own pre-compaction working notes, not in anything Mark
+actually ruled - flagged rather than built against, the same
+discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
+once set, is what the renderer fixture test (R17's other engineering
+half) will assert against; that test is not yet written. PR #397.
+
+**Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
+Mark's own direct answer this session - cap = `max(3, min(8,
+ceil(sentences/2)))`, drop order glosses -> figures -> stories, witness
+marks never drop. `VoiceTurnBody.tsx`'s `renderFromTransparencyPlan`
+(the anchor-driven renderer, still behind the still-default-off
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` flag) split into two passes: pass
+1 detects every candidate Level-1 element in document order without
+rendering, so the cap applies against the full-turn total before any
+single mark is decided; pass 2 renders using pass 1's own detection.
+The legacy renderer, still the live default, is untouched - out of
+scope, being retired by Stage 6e's own flag flip rather than extended
+here.
+
+**Real bug caught before it shipped:** the original single-pass code's
+own "every word mark counts as already-shown-inline" line, ported
+forward naively, would have blanket-added every DETECTED word mark -
+including ones the cap just dropped - into the set General References
+checks against, wrongly excluding a dropped mark from both the inline
+text and General References at once. Caught and removed before commit,
+not after.
+
+2 new tests prove the mechanism actually engages on a seeded over-cap
+fixture, not just that it doesn't regress under-cap behavior (every
+prior fixture already happened to sit under the floor of 3, so those
+stay provably identical). One, in the course of writing it, exposed a
+real pre-existing gap: this test suite has no `afterEach(cleanup)`
+wired up anywhere, so a document-wide `getByText` query can collide
+with an earlier test's still-mounted DOM - fixed locally by scoping
+the new test's own query to its own render container, not by touching
+the shared test setup (out of this PR's own scope; the gap itself is
+worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
+run build` both clean. PR pending.

@@ -3,7 +3,7 @@ id: witt.quote.article-ii-of-original-sin
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T

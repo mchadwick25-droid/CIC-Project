@@ -3,7 +3,7 @@ id: witt.dw.what-we-have-never-settled
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I

@@ -3,7 +3,7 @@ id: rzg.quote.zwinglis-last-words
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P

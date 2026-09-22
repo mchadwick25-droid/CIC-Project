@@ -3,7 +3,7 @@ id: gallic.term.massilians
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F1-I

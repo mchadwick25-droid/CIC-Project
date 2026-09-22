@@ -3,7 +3,7 @@ id: gallic.term.commonitory-peregrinus
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

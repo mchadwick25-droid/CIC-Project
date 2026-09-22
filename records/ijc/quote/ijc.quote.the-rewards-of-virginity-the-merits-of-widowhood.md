@@ -3,7 +3,7 @@ id: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T

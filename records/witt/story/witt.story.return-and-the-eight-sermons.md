@@ -3,7 +3,7 @@ id: witt.story.return-and-the-eight-sermons
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

@@ -3,7 +3,7 @@ id: desert.figure.pachomius
 world_id: desert-monasticism
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-I, F4-I]
 confidence:

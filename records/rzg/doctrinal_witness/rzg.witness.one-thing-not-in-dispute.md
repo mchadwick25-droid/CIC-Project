@@ -3,7 +3,7 @@ id: rzg.witness.one-thing-not-in-dispute
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I

@@ -3,7 +3,7 @@ id: ijc.quote.ammianus-sicininus-massacre
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I

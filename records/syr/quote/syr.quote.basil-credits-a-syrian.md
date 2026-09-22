@@ -3,7 +3,7 @@ id: syr.quote.basil-credits-a-syrian
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I

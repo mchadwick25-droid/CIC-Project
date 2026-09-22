@@ -3,7 +3,7 @@ id: syr.quote.death-knew-his-kingdom-was-to-be-made-void
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T

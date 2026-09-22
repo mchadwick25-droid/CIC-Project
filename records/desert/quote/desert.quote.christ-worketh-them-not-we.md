@@ -3,7 +3,7 @@ id: desert.quote.christ-worketh-them-not-we
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I, C-P]
 confidence:

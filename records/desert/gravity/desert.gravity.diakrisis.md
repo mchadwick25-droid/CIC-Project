@@ -3,7 +3,7 @@ id: desert.gravity.diakrisis
 world_id: desert-monasticism
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: [F4-I]
 confidence:

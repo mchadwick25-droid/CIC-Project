@@ -17,6 +17,7 @@ from engine.m7.instruments import (
     governance,
     guard_proximity,
     isolation,
+    level1_element_density,
     offer_rates,
     register_frame,
     repetition,
@@ -213,6 +214,60 @@ def test_guard_proximity_reads_at_defect_severity_and_leaves_the_generic_bucket(
 
     generic_findings = unread_outputs(session)
     assert not [f for f in generic_findings if f.instrument == "output_defects"]
+
+
+def test_level1_element_density_groups_marks_the_same_way_the_renderer_does(tmp_path):
+    """Stage 6d / R17: report-only counting, no cap enforced here (the
+    number is still Mark's to set). Proves the grouping matches
+    VoiceTurnBody.tsx's renderFromTransparencyPlan - two story anchors at
+    the SAME run_end_sentence collapse to one mark (one StoryMark, two
+    sources), a witness anchor at a different placement is its own mark,
+    and a non-story/witness anchor (gravity) gets no inline mark at all."""
+    store = Store(tmp_path / "events.db")
+    sid = "density-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    text = "First sentence. Second sentence. Third sentence."
+    _append(store, sid, "voice_turn", _voice(
+        "des", text,
+        [{"sentence": "First sentence.", "record_ids": ["des.story.a"]}],
+        glosses=[{"id": "des.term.one"}],
+        figures_used=[{"id": "des.figure.antony"}],
+        transparency={
+            "world_key": "des",
+            "anchors": [
+                {"record_id": "des.story.a", "record_type": "story", "run_start_sentence": 0, "run_end_sentence": 1, "repeat": False, "confidence": None},
+                {"record_id": "des.story.b", "record_type": "quote", "run_start_sentence": 0, "run_end_sentence": 1, "repeat": False, "confidence": None},
+                {"record_id": "des.witness.c", "record_type": "doctrinal_witness", "run_start_sentence": 2, "run_end_sentence": 2, "repeat": False, "confidence": None},
+                {"record_id": "des.gravity.d", "record_type": "gravity", "run_start_sentence": 1, "run_end_sentence": 1, "repeat": False, "confidence": None},
+            ],
+            "references": [],
+            "unverified_claims": {"count": 0, "sentence_indexes": []},
+        },
+    ))
+    session = read_session(store, sid)
+
+    metrics = level1_element_density(session)
+    assert len(metrics) == 1
+    m = metrics[0]
+    assert m["citation_marks"] == 2  # one story group (both story anchors share run_end_sentence=1) + one witness group
+    assert m["figure_marks"] == 1
+    assert m["gloss_marks"] == 1
+    assert m["level1_total"] == 4
+    assert m["sentence_count"] == 3
+
+
+def test_level1_element_density_report_only_no_findings(tmp_path):
+    """No cap is enforced yet (Adjusted-Design.md: "RULING R17 on numbers"
+    is still open) - this instrument returns metrics, never Finding
+    objects, and run_all() carries it under its own key, not findings."""
+    store, i_sid, _ = _sessions(tmp_path)
+    result = run_all(read_session(store, i_sid))
+    assert "level1_element_density" in result
+    assert all(isinstance(m, dict) for m in result["level1_element_density"])
+    assert not any(f.instrument == "level1_element_density" for f in result["findings"])
 
 
 def test_isolation_flags_foreign_citation_only(tmp_path):

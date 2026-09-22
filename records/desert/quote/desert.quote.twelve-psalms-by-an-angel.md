@@ -3,7 +3,7 @@ id: desert.quote.twelve-psalms-by-an-angel
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I

@@ -3,7 +3,7 @@ id: cappadocian.quote.julian-galilaeans
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-E

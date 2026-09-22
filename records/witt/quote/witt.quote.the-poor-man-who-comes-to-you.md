@@ -3,7 +3,7 @@ id: witt.quote.the-poor-man-who-comes-to-you
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T

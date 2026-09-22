@@ -3,7 +3,7 @@ id: pahc.demo.center-coming-to-belief
 world_id: post-apostolic-house-church
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P

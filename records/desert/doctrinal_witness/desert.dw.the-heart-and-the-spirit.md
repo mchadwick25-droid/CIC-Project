@@ -3,7 +3,7 @@ id: desert.dw.the-heart-and-the-spirit
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-I, F1-P]
 confidence:

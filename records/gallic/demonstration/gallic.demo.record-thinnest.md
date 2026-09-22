@@ -3,7 +3,7 @@ id: gallic.demo.record-thinnest
 world_id: gallic-monastic-ascetic-christianity
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F2-E]
 confidence:

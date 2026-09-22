@@ -3,7 +3,7 @@ id: alx.limit.marriage
 world_id: alexandria-catechetical
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T

@@ -3,7 +3,7 @@ id: don.dw.silver-and-the-goods-of-the-poor
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T

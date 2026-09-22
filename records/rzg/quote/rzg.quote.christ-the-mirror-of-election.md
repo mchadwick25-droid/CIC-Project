@@ -3,7 +3,7 @@ id: rzg.quote.christ-the-mirror-of-election
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P

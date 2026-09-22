@@ -3,7 +3,7 @@ id: desert.force.economic-embeddedness-ongoing
 world_id: desert-monasticism
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: [F5-E, F5-I]
 confidence:

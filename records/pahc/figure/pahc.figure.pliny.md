@@ -3,7 +3,7 @@ id: pahc.figure.pliny
 world_id: post-apostolic-house-church
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

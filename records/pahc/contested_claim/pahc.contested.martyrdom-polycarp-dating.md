@@ -3,7 +3,7 @@ id: pahc.contested.martyrdom-polycarp-dating
 world_id: post-apostolic-house-church
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-E

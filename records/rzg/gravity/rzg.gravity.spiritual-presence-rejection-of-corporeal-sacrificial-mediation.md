@@ -3,7 +3,7 @@ id: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
