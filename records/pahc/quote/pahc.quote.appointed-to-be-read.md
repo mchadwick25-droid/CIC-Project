@@ -60,6 +60,6 @@ pahc.source.athanasius-festal-39 carries the reasoning.
 
 Quote-verbatim gate fix (2026-09-22): the record's own period after "read" was invented - the source's
 sentence continues with a semicolon to a natural, complete close ("nor is there in any place a mention
-of apocryphal writings."). Restored through that close; doesn't change the canon/read distinction this
-record cites. The next sentence (a new topic - apocryphal writings as heretical inventions) is not
+of apocryphal writings."). Restored through that close; doesn't change the canon-versus-read distinction
+this record cites. The next sentence (a new topic - apocryphal writings as heretical inventions) is not
 included.
