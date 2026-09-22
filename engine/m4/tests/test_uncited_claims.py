@@ -1,6 +1,7 @@
 """Pins R27's own two motivating sentences (Decision-Log.md Entry 50/51,
 2026-09-22) as real, real-world-shaped regression cases, plus the
 verified finding that claim_markers alone would miss one of them."""
+from engine.m4.grounding_net import check_turn
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
     classify_neighbour_named,
@@ -103,6 +104,71 @@ def test_classify_other_tradition_turn_leaves_ordinary_turns_alone():
     offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
     upgraded = classify_other_tradition_turn(offense, is_other_tradition_turn=False)
     assert upgraded["class"] == "uncited_claim"
+
+
+# R27 build item 3's own must-pass case, named directly by the reviewer
+# thread's build order: "Dionysius deathbed sentence (alx.dw.church-
+# failure)" - real record text (records/alx/doctrinal_witness/alx.dw.
+# church-failure.md), not a synthetic paraphrase, so this pins the actual
+# fleet language rather than a stand-in for it. Same hermetic-fixture
+# discipline as engine.m4.tests.test_grounding_net's own REPOSITORY -
+# built from the real record's own text, not tied to a compiled package
+# path, so this runs with no package on disk.
+_REAL_CHURCH_FAILURE_TEXT = (
+    "Your churches had failures too - what did you do with them? Our "
+    "record leaves the wounds visible. Our greatest teacher was driven out, not "
+    "by pagans, but by his own bishop. The church remembered both men rather than "
+    "erasing either. Under persecution, many gave way. Some sacrificed to the "
+    "gods. When peace came, the community fought "
+    "bitterly over them. The strict party demanded they stay out. The tradition "
+    "that won here brought the repentant back in, even at the deathbed, and "
+    "Dionysius defended doing so. After Nicaea, the church itself learned to use "
+    "exile and condemnation, and some of what was done with that power our own "
+    "sources report without pride. At our best, we refused the two easy "
+    "exits: we did not pretend the failure away, and we did not make the failed "
+    "unforgivable. At our worst, we did what churches with power do. That, too, "
+    "is in our record."
+)
+_REAL_REPOSITORY = {
+    "alx.dw.church-failure": {
+        "id": "alx.dw.church-failure",
+        "record_type": "doctrinal_witness",
+        "text": _REAL_CHURCH_FAILURE_TEXT,
+    }
+}
+
+
+def test_real_dionysius_deathbed_sentence_properly_cited_never_flags():
+    # End-to-end through the real check_turn pipeline, not a hand-built
+    # sent() dict: confirms the real sentence both survives grounding_net
+    # (verdict "ok", not withheld) AND is never flagged as uncited when
+    # tagged to its own real record - the must-pass case a false positive
+    # here would cost a genuinely well-cited answer.
+    sentence = (
+        "The tradition that won here brought the repentant back in, even at the deathbed, and "
+        "Dionysius defended doing so"
+    )
+    tagged = f"{sentence} [[alx.dw.church-failure]]."
+    result = check_turn(tagged, _REAL_REPOSITORY)
+    assert result["sentences"][0]["verdict"] == "ok"
+    assert find_uncited_claims(result["sentences"]) == []
+
+
+def test_real_dionysius_deathbed_sentence_uncited_is_withheld_upstream_not_reported_by_this_module():
+    # The same real sentence, uncited: grounding_net withholds it before
+    # find_uncited_claims ever runs (a specific claim naming Dionysius,
+    # no citation tag) - it never reaches the participant, so this module
+    # correctly reports nothing on it. R27's own check is scoped to
+    # verdict == "ok" sentences by design (module docstring); this test
+    # pins that the two modules' fallback ladders don't double-report the
+    # same real defect shape.
+    sentence = (
+        "The tradition that won here brought the repentant back in, even at the deathbed, and "
+        "Dionysius defended doing so."
+    )
+    result = check_turn(sentence, _REAL_REPOSITORY)
+    assert result["sentences"][0]["verdict"] == "withhold"
+    assert find_uncited_claims(result["sentences"]) == []
 
 
 def test_a_facilitator_turn_is_never_checked_by_this_module():
