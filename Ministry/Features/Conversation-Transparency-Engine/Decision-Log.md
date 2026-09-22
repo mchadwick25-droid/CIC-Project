@@ -1027,9 +1027,59 @@ commit - not taken on trust - via a direct re-run of `restore`,
 `staleness-check`, and `pytest`, a `git status` file-count check, and
 the diff scan above. PR #394.
 
-**Entry 37 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
+**Entry 37 — 2026-09-22.** Stage 6d's engineering half built: a new M7
+instrument, `level1_element_density`, counting Level-1 (inline,
+directly-in-text) transparency marks per turn. Report-only, no cap
+enforced - per `Adjusted-Design.md`'s own N2 note, R17 splits into
+"RULING R17 on numbers" (still Mark's to set) and engineering (this).
+(Numbering note: PR #395, Stage 6b/6c work carrying Entries 37-38, was
+opened before this one but is still pending Mark's wording as of this
+entry - branched from `main` before either landed, so this entry is
+also 37 here; whichever PR merges first keeps its numbers per this
+file's own "never renumber a past entry" rule, the other renumbers on
+merge, same as Entry 32's own precedent. Resolution, logged in the
+entries immediately below rather than edited here, since a past entry
+is never rewritten: this PR (#397) merged first, so it keeps 37; PR
+#395's own Entries 37-38 renumber to 38-39.)
+
+`engine/m7/session_reader.py`'s `VoiceTurnRecord` gains `figures_used`,
+`glosses`, and `transparency`, lifted verbatim off the `voice_turn`
+event's own payload - same pattern `citations` already used.
+`engine/m7/instruments.py`'s new `level1_element_density(s)` counts,
+per turn: story/witness citation marks (grouped by the SAME
+`run_start_sentence`/`run_end_sentence`/`record_type` logic
+`VoiceTurnBody.tsx`'s `renderFromTransparencyPlan` uses, reproduced
+independently in Python - a known, named limitation, not a shared
+implementation), figure marks, and gloss marks, against the turn's own
+sentence count. Wired into `run_all()` under its own key, metrics only
+(same shape as `register_mechanical`'s own metrics half) - no Finding
+objects, nothing enforced.
+
+2 new tests (grouping fidelity against a constructed transparency
+plan; confirmation this stays report-only). `engine/m7` suite 34/34;
+full suite 832/832.
+
+**Still open, not guessed at here:** the actual cap number/formula.
+R17's own ruled text ("a small, capped number of inline marks per
+turn, scaling gently with sentence count") is deliberately
+unspecific - no formula or drop order is decided anywhere in
+`Rulings-Pending.md` or this log. A specific formula
+(`max(3, min(8, ceil(sentences/2)))`) and drop order
+(glosses→figures→stories, never witness quotes) existed only in this
+session's own pre-compaction working notes, not in anything Mark
+actually ruled - flagged rather than built against, the same
+discipline Entry 39 (PR #395, renumbered per the note above) applied
+to Stage 6c. Mark's own number, once set, is what the renderer
+fixture test (R17's other engineering half) will assert against; that
+test is not yet written. PR #397.
+
+**Entry 38 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
 into the Level 2 citation card, the mechanism R16 (Entry 29) and Stage
-6a (Entries 35-36) exist to make trustworthy.
+6a (Entries 35-36) exist to make trustworthy. (Renumbered from this
+PR's own original 37 to 38 on merge with `main` - PR #397's Entry 37
+landed first; see that entry's own numbering note. Never edit a past
+entry once merged, so this renumbering happens here, on this
+not-yet-merged branch, rather than after the fact.)
 
 The data plumbing already existed end-to-end before this entry -
 `engine/m1/schemas.py`'s five-value enum,
@@ -1073,14 +1123,16 @@ a confidence-less card renders no phrase line at all. Full suite
 see its own description for the same proposal table, open for Mark's
 wording before merge.
 
-**Entry 38 — 2026-09-22.** Stage 6c scope resolved, no code needed:
+**Entry 39 — 2026-09-22.** Stage 6c scope resolved, no code needed:
 Mark's own direct answer, given a real finding before it was asked -
 R9's ruled scope (Decision-Log.md Entry 29: "a quiet hollow-glyph
 variant of the existing citation mark, no new color, no new verb") was
 already fully built (the `.citation-mark--contested` CSS class,
-merged before this session) and Stage 6b (Entry 37, PR #395) adds the
+merged before this session) and Stage 6b (Entry 38, PR #395) adds the
 plain phrase on tap. Mark confirmed that is the whole of Stage 6c -
 no further record-specific "hedge" content beyond the generic phrase.
+(Renumbered from this PR's own original 38 to 39 on merge with `main`
+- same reason and rule as Entry 38's own note above.)
 
 **The finding that prompted the question, worth keeping on record:**
 before asking, checked whether `confidence.divergence_note` could
