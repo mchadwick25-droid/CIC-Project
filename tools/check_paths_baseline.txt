@@ -2,7 +2,6 @@ Ministry/Communication/Brand-Assets/CiC_Brand_Mark_TableChair_V0_1.md: Ministry/
 Ministry/Communication/Brand-Assets/CiC_World_Icon_and_Table_Template_Spec_V0_1.md: Ministry/Technology/CiC_Representative_Appearance_Third_Identity_Element_V0_1.md
 Ministry/Communication/Brand-Assets/Representative-Portraits/lpc/Datus_Portrait_Prompt.md: Ministry/Communication/Brand-Assets/Representative-Portraits/Latin
 Ministry/Communication/Brand-Assets/Representative-Portraits/witt/Nikolaus_Portrait_Prompt.md: World-Builds/Lutheran-Wittenberg
-Ministry/Communication/CiC_Demo_Conversation_Captures_V0_1.md: .claude/launch.json
 Ministry/Communication/CiC_Messaging_Branding_Kit_QuickRef_V0_1.md: Ministry/Features/Brand-Messaging-Rework/Decision-Log.md
 Ministry/Communication/CiC_Messaging_Branding_Kit_V0_1_DRAFT.md: Ministry/Features/Brand-Messaging-Rework
 Ministry/Communication/CiC_Messaging_Branding_Kit_V0_1_DRAFT.md: Ministry/Technology/CiC_Full_UX_Design_V0_1_DRAFT.md
@@ -12,7 +11,6 @@ Ministry/Features/Atlas-World-Map/Design/CiC_World_Map_Integration_Assessment_V0
 Ministry/Features/Atlas-World-Map/Integration-Notes.md: Ministry/Technology/CiC_Website_Alexandria_Status_Fix_Thread_Launch_2026-07-20.md
 Ministry/Features/Conversation-Transparency-Engine/Adjusted-Design.md: engine/m5/reports/safety-script-run-1..8.json
 Ministry/Features/Full-UX-Design/Design/CiC_Logo_and_Motion_Brief_V1_0.md: Ministry/Communication/CiC_Logo_Motion_Study_V0_1.html
-Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Ministry/Communication/CiC_Logo_Motion_Study_V0_1.html
 Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Ministry/Technology/CiC_FrontEnd_Brand_Alignment_Review_V0_1.md
 Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Ministry/Technology/CiC_Logo_and_Motion_Brief_V1_0.md
 Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V0_1.md: cic-poc/backend/app/config.py
@@ -23,9 +21,6 @@ Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logistics_V
 Ministry/Features/Guided-Questions/CiC_Answer_Bank_SH11_V0_1.md: cic-poc/backend/data/answer_bank
 Ministry/Features/Guided-Questions/Design/CiC_Guided_Questions_Design_Study_V0_1.md: cic-poc/backend/app/world_manifest.py
 Ministry/Features/Guided-Questions/README.md: cic-poc/backend
-Ministry/Features/Hosted-Tour/Design/CiC_Hosted_Tour_Design_Note_V0_1.md: cic-poc/backend/data/pahc_world
-Ministry/Features/Hosted-Tour/Design/CiC_Hosted_Tour_Integration_Note_V0_1.md: Ministry/Technology/CiC_Tour_Experience_Module_Strategy_V0_1_DRAFT.md
-Ministry/Features/Hosted-Tour/README.md: cic-poc/backend/data
 Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: cic/engine/corpus_map.load
 Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: engine/m4/grounding_net._normalize
 Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: records/worlds.yaml
@@ -47,13 +42,11 @@ Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-match.md
 Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-match.md: records/worlds.yaml
 Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-match.md: tools/gen_shelf.py
 Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-I5-complement-sweep.md: records/worlds.yaml
-Ministry/Features/Prototype-Testing/CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md: cic-poc/backend/app/message_cap.py
-Ministry/Features/Prototype-Testing/CiC_Prototype_Testing_Pilot_Plan_DRAFT_V0_1.md: cic-website/pilot.html
+Ministry/Features/Website-V2/CiC_Website_Design_V2.md: Ministry/Scholarly-Review/CiC_World1_Brief_for_Reviewers_Source.md
 Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md: cic-website/assets/tour-captures/theon-confidence.png
 Ministry/Features/Website-V2/Sandbox/CiC_Website_V2_D0_Inheritance_Note.md: cic-website/tour.html
 Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/README.md: records/worlds.yaml
 Ministry/Features/Website-V2/Sandbox/D2-struggle/05-product-led-clarity-defense.md: cic-website/assets/tour-captures
-Ministry/Marketplace/CiC_Positioning_Brief_DRAFT_V0_1.md: Ministry/Features/Brand-Messaging-Rework/Decision-Log.md
 Ministry/Technology/table_phase0/Texts_Acquisition_Wantlist.md: cic/records
 Ministry/Technology/table_phase0/Texts_Scrub_alexandria.md: cic/records/alexandria/source/srcALX001
 README.md: records/worlds.yaml
@@ -145,6 +138,7 @@ records/hal/doctrinal_witness/hal.dw.practices.md: Ministry/Technology/CiC_Regis
 records/hal/doctrinal_witness/hal.dw.record.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/hal/doctrinal_witness/hal.dw.sin-grace.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/hal/doctrinal_witness/hal.dw.suffering.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
+records/hal/facilitator_brief/hal.facilitator_brief.hieronymian-ascetic-literary.md: Ministry/Scholarly-Review/CiC_WorldBrief_Hieronymian_V0_1_DRAFT.md
 records/hal/quote/hal.quote.a-follower-of-cicero-and-not-of-christ.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/hal/quote/hal.quote.city-taken.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
 records/hal/quote/hal.quote.detestable-monks.md: Ministry/Technology/CiC_Register_Bar_2026-08-29.md
@@ -200,6 +194,7 @@ reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md: reference/L3D-Encounte
 reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md: cic-poc/backend/app/prompts/facilitator_prompts.py
 reference/L3D-Encounter-Methodology/CiC_L3D_Table_Process_ThreeRepresentative_V1.0.md: cic-poc/backend/app/main.py
 reference/L4-Templates/World_Facilitation_Brief_Template.md: cic-poc/backend/wrs/views/facilitation_brief.py
+reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: Ministry/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx
 reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: cic-poc/backend/data
 reference/Project-Reference/CiC_Cleaning_Pattern_Log.md: worlds/Alexandria
 reference/Project-Reference/CiC_Coach_Standard_Review_Checklist.md: cic-poc/backend/data
@@ -377,6 +372,7 @@ worlds/latap/Step0_Movement_Scope_Confirmation.md: cic/corpus-map/tertullian-s-v
 worlds/latap/Step0_Movement_Scope_Confirmation.md: records/lpc
 worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: worlds/history
+worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Doc_01_...md
@@ -697,6 +693,7 @@ worlds/witt/witt_Doc03_Review_Round3.md: World-Builds/Lutheran-Wittenberg
 worlds/witt/witt_Doc03_Review_Round4.md: World-Builds/Lutheran-Wittenberg/Open_Gaps_Tracking.md
 worlds/witt/witt_Doc08_Review_Round1.md: World-Builds/Lutheran-Wittenberg
 worlds/witt/witt_Doc08_Review_Round2.md: World-Builds/Lutheran-Wittenberg
+worlds/witt/witt_Doc08_Review_Round3.md: Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
 worlds/witt/witt_Doc_01_World_Identification_Boundaries_Orientation.md: World-Builds/Reformed-Zurich-and-Geneva/Step0_Movement_Scope_Confirmation.md
 worlds/witt/witt_Doc_03_Lexicon_Candidate_List.md: World-Builds/Lutheran-Wittenberg/Open_Gaps_Tracking.md
 worlds/witt/witt_Doc_10_Representative_Construction_Notes_Nikolaus.md: World-Builds/Lutheran-Wittenberg
@@ -720,3 +717,4 @@ worlds/witt/witt_GoLive_Adversarial_Review_Round1.md: packages/witt/2026-09-19T2
 worlds/witt/witt_PhaseC_Scoping_Note.md: cic-poc/backend
 worlds/witt/witt_PhaseC_Scoping_Note.md: records/worlds.yaml
 worlds/witt/witt_World_Profile.md: World-Builds/Lutheran-Wittenberg
+Ministry/Features/Full-UX-Design/Design/CiC_UX_Design_Brand_Brief_V1_0.md: Archive/Ministry-Early-Days-2026-07/Communication/CiC_Logo_Motion_Study_V0_1.html
