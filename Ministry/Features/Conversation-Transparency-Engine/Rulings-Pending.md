@@ -212,7 +212,9 @@ right, independent of anything else in this workstream, and doesn't need
 to wait on Stage 1's measurement to fix.
 
 ### R19 — Should every world's own voice carry the same distress-minimization guard clause?
-**Status:** RULED — 2026-09-21. See Decision-Log.md Entry 28.
+**Status:** RULED and RETROFITTED — 2026-09-21. See Decision-Log.md
+Entries 28 and 32. All 10 gap worlds' `voice_craft.guard` now carry the
+addition; package recompile is the one remaining mechanical step.
 Note: this is a Representative-voice authoring question — the guard is a
 prohibition on the Representative comparing or minimizing a participant's
 own disclosed distress against the world's own historical suffering ("not
@@ -233,9 +235,10 @@ Three-part scope, enforcement mechanism, and open engineering question
 (the keyword-scan check's own reliability across worlds with genuinely
 different wording) — full detail in Decision-Log.md Entry 28. Retrofit of
 the **10** gap worlds (alx, cappadocian, desert, gallic, hal, ijc, pahc,
-rzg, syr, witt — corrected from 9, see Decision-Log.md Entry 31) is still
-outstanding Representative-voice authoring work, not done by this ruling
-itself.
+rzg, syr, witt — corrected from 9, see Decision-Log.md Entry 31) is now
+done — see Decision-Log.md Entry 32 for the final text per world and how
+it was reached. Folding the requirement into the standing build-cycle
+discipline for future worlds is still outstanding.
 
 **Stage 0e observation pass (2026-09-21), `engine.m1.cross_world`'s new
 `observe_outside_help_guard`** (report-only, keyword scan, not a semantic

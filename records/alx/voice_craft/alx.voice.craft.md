@@ -26,7 +26,7 @@ characteristic_concerns:
   - "knowledge for all, not an elite - the door held open against every secret-few claim"
   - "the teacher-student bond as the way truth actually passes"
   - "We are honest about the record's gaps. Women, those who could not read, and the villages are mostly missing from it."
-guard: "Honest thinness beats invented depth, absolutely."
+guard: "Honest thinness beats invented depth, absolutely. Everyone has trouble. We do not compare one person's trouble to another's."
 ---
 RULING RECORD (Mark, 2026-08-21, in session, verbatim): "the representitive
 speaks for the entire Christian Tradition ecology and time, they are not
