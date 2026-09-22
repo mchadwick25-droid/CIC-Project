@@ -1223,7 +1223,155 @@ expected); `npx tsc --noEmit` clean.
 are approved as-is") - the same confirmation that landed Entry 39's
 phrases. PR #398 merging.
 
-**Entry 42 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+**Entry 42 — 2026-09-22.** R16 correction: Entry 29's R16 wording is
+superseded by Mark's direct ruling today. Entry 29 ruled part (b) now
+(confidence display draws only from the confidence field, never
+`status`) and left part (a) - a per-world promotion pass - for "each
+world as it comes up for its next real touch," not as a dedicated
+fleet-wide project. **That sequencing is superseded.** Mark's ruling
+today: **promote by admission now, fleet-wide**, not deferred per-world.
+
+**What "ready" means, stated as a mechanical test, not a judgment call:**
+a record is ready when (1) it sits in an admitted world's currently
+pinned package - concretely, `records/worlds/<code>.yaml`'s `state` is
+`admitted` and `engine.m2.checks.staleness_sweep` reports that world
+`stale: False`, so the pinned package's manifest actually reflects the
+record as it stands now - and (2) it passes every M1 gate -
+`engine.m1.gates.run_all` produces no finding that names that record's
+own id, across all twenty gates in `gates.GATES`. Both conditions
+mechanical, no new judgment introduced beyond what the gate battery
+already renders. `status` stays pure workflow bookkeeping either way
+(Entry 29's part (b), unaffected, re-confirmed by this entry): grepped
+`engine/m4/evidence.py`, `engine/m4/transparency_plan.py`, and
+`engine/m4/turn.py` for any read of a record's `status` field feeding
+confidence display - none exists; `formation_confidence` is the only
+field the participant-facing path ever consults. Promoting `status`
+fleet-wide changes no participant-visible behavior by itself.
+
+**Fleet-wide gate run, done before this entry lands** (all 11 admitted
+worlds: alx, cappadocian, desert, don, gallic, hal, ijc, pahc, rzg, syr,
+witt), confirms every one is `stale: False` - each world's pinned
+package already matches its current records, so condition (1) holds
+fleet-wide already, with no rebuild needed. Condition (2) does not hold
+uniformly: **six of the eleven worlds have live M1 gate findings** naming
+specific records - `reciprocity` (desert 2, don 50, gallic 11, pahc 3, a
+relations-declared-one-way-only defect, pre-existing and unrelated to
+this ruling) and `voice-perspective` (cappadocian 1, syr 1, a
+~70%-precision outside-vantage-phrasing heuristic). Those named records
+do not promote in this pass; every other draft record fleet-wide does.
+Exact counts land in the next entry, once the sweep that applies this
+ruling has actually run.
+
+**This entry is also the required announcement, ahead of running that
+sweep**, per Mark's own instruction: the Conversation & Transparency
+Engine's `records/` are about to be touched fleet-wide (a `status` field
+flip only, on ~2,100 files, no other field touched), and a separate
+Fidelity-Gate package is expected to be touching `records/` after this
+lands - sequencing this sweep's own PR first, and landing it before that
+package's fleet run starts, avoids the two threads racing the same
+files.
+
+**Entry 43 — 2026-09-22.** The Entry 42 sweep ran. Of 2,194 `status:
+draft` records fleet-wide (11 admitted worlds), **2,126 promoted to
+`status: ready`**; **68 stayed `draft`**, named by pre-existing M1 gate
+findings, none newly introduced by this pass:
+
+| World | Draft records | Promoted | Stayed draft | Reason |
+|---|---|---|---|---|
+| alx | 197 | 197 | 0 | — |
+| cappadocian | 278 | 277 | 1 | `voice-perspective` (`cappadocian.dw.reading-scripture`) |
+| desert | 200 | 198 | 2 | `reciprocity` (`desert.limit.communal-wrong-unrepaired`, `desert.story.moses-leaking-jug`) |
+| don | 248 | 198 | 50 | `reciprocity`, 50 records across 24 one-way `associated-with`/`illustrates` pairs |
+| gallic | 199 | 188 | 11 | `reciprocity`, 11 records around `gallic.story.circuses-amid-the-ruins` and `gallic.term.bagaudae` |
+| hal | 175 | 175 | 0 | — |
+| ijc | 186 | 186 | 0 | — |
+| pahc | 162 | 159 | 3 | `reciprocity` (`pahc.limit.enslaved-voices`, `pahc.limit.womens-own-words`, `pahc.quote.two-female-slaves-who-were-called-deaconesses`) |
+| rzg | 110 | 110 | 0 | — |
+| syr | 187 | 186 | 1 | `voice-perspective` (`syr.dw.death-judgment`) |
+| witt | 252 | 252 | 0 | — |
+| **Total** | **2,194** | **2,126** | **68** | |
+
+**Method, exactly as Entry 42 specified:** for each admitted world, ran
+`engine.m1.gates.run_all` against `engine.m1.loader.load_world_records`
+plus `load_fleet_records`, and `engine.m2.checks.staleness_sweep` against
+the registry. All 11 worlds reported `stale: False` before any edit (the
+pinned package already matched current records), so condition (1) held
+fleet-wide without a rebuild. For condition (2), a draft record promotes
+unless some gate finding names its own record id (word-boundary match,
+not bare substring - `cappadocian.dw.reading-scripture` does not
+false-match inside a longer id, and the `.text`/`.field` suffix some
+gates append after a colon is handled as a boundary, not part of the
+id). The two families of blocking findings are unrelated to this ruling
+and pre-exist it: `reciprocity` (a record declares an
+`associated-with`/`illustrates` relation the target record doesn't
+declare back - desert 2, don 50, gallic 11, pahc 3) and
+`voice-perspective` (a ~70%-precision "the world's..." outside-vantage
+phrasing heuristic, report-only by its own design - cappadocian 1, syr
+1). Neither family is fixed by this entry; the 68 records stay `draft`
+until their own gate finding clears, whenever that work happens.
+
+**Applied as a single mechanical script** (draft→ready front-matter line
+only, nothing else touched - verified by diff: 2,126 files, one line
+changed each) rather than 2,126 individual edits, run directly rather
+than dispatched to a Haiku subagent as such (the sweep's own logic - the
+mechanical test above - is what needed the care; applying an
+already-computed, already-verified list of file paths is one script
+execution either way, so a subagent added no cost saving here beyond
+what running the script once already gave).
+
+**Packages repinned for all 11 admitted worlds** after the sweep (the
+edit changes what a fresh compile produces): rebuilt via `engine.m2.cli
+build`, each `records/worlds/<code>.yaml` repointed at its new
+`package_id`/`manifest_hash`, old manifest.json removed per
+`.gitignore`. `engine.m2.cli staleness-check` now reports `pass: true`,
+zero stale worlds, across all 12 registry entries (`fix` included,
+untouched by this sweep). `engine/m1/tests` and `engine/m2/tests` both
+green (67 passed) after a `engine.m2.cli restore` matching CI's own
+setup step.
+
+**Confidence display, re-confirmed unaffected:** this sweep changes only
+`status`; `formation_confidence` is untouched on every record, and
+Entry 42's grep already showed the participant-facing path never reads
+`status`. No behavior change ships with this entry.
+
+**Entry 44 — 2026-09-22.** R18 correction: PR #383's reword (this same
+day, Entry 29 - "we compare its wording against those same records to
+catch anything that doesn't trace back to them... What the records don't
+cover, it's built to tell you it doesn't have") is itself superseded by
+Mark's direct ruling on the exact replacement text. `SYSTEM_NATURE`
+(`engine/m4/facilitator_turns.py`) now reads, verbatim as ruled:
+
+> Before you see an answer, each claim in it is checked to make sure its
+> words come from the record it names. The record itself was checked
+> against the sources when the world was built. Where the record is
+> silent, the voice is built to say so, not to fill the gap.
+
+Two things this version adds that PR #383's did not: the record's own
+fidelity provenance ("checked against the sources when the world was
+built" - the mechanical claim `CLAUDE.md`'s Source fidelity section
+already makes, now stated to the participant too) and a single sentence
+covering both what PR #383 held in two ("What the records don't cover,
+it's built to tell you it doesn't have, not to invent" folds into "Where
+the record is silent, the voice is built to say so, not to fill the
+gap").
+
+`cic-website/about.html`'s "How It Works" section, participant-facing
+copy in the same honesty register, corrected to match: "We check every
+quotation and claim in that record directly against those sources, and
+label each for how well it's attested" (was "We check every claim
+directly against those sources, and label it for how well it's
+attested" - the same word-overlap mechanism, named more precisely:
+quotations and claims are both checked, not only "claims" read broadly).
+
+**New test, closing the gap PR #383's own test plan named:** PR #383
+confirmed no test anywhere asserted `SYSTEM_NATURE`'s exact string, which
+is exactly how its own wording needed a same-week second correction
+without any test catching the drift either way. `engine/m4/tests/
+test_facilitator_turns.py` (new) pins the three ruled sentences verbatim
+and asserts the R18-defect phrasing they replaced does not reappear.
+`engine/m4` and `engine/m5` suites: 437 passed (435 + 2 new).
+
+**Entry 45 — 2026-09-22. Correction to Entry 33.** After an unshallowed
 check, the reviewer thread found the real merge base is the 2026-09-20
 merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
 Entry 32/33 were working from, and directed a plain `git merge origin/live`
@@ -1291,11 +1439,12 @@ This workstream's own coordination boundary held throughout: no edits to
 merge itself brought in verbatim from `live`; the four files this entry
 lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
 only hand-edited conflict resolutions, and none of them touch this
-workstream's own in-flight Stage 5+/6 work. (Numbered 42, not 34, 37, 38,
-39, 40, or 41 as earlier drafts had it — this workstream landed its own
-Entries 34–36 concurrently across two more merge rounds, and PR #397, PR
-#399, PR #395, and PR #398 each landed a Stage 6 entry above claiming 37,
-38, 39, 40, and 41 first in turn, every one of them landing on `main`
-while this branch's own merge was still open; renumbered each time on
-merge per this file's own "never renumber a past entry" rule, which binds
-the later arrival.)
+workstream's own in-flight Stage 5+/6 work. (Numbered 45, not 34, 37, 38,
+39, 40, 41, or 42 as earlier drafts had it — this workstream landed its
+own Entries 34–36 concurrently across two more merge rounds; five further
+rounds of `main` then landed their own entries above claiming 37, 38, 39,
+40/41, and finally 42–44 in turn (PR #397, PR #399, PR #395, PR #398, and
+PR #390 respectively) — every one of them landing on `main` while this
+branch's own merge was still open; renumbered each time on merge per this
+file's own "never renumber a past entry" rule, which binds the later
+arrival.)
