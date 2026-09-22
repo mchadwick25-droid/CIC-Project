@@ -1072,3 +1072,29 @@ a confidence-less card renders no phrase line at all. Full suite
 23/23; `npx tsc --noEmit` and `npm run build` both clean. PR pending -
 see its own description for the same proposal table, open for Mark's
 wording before merge.
+
+**Entry 38 — 2026-09-22.** Stage 6c scope resolved, no code needed:
+Mark's own direct answer, given a real finding before it was asked -
+R9's ruled scope (Decision-Log.md Entry 29: "a quiet hollow-glyph
+variant of the existing citation mark, no new color, no new verb") was
+already fully built (the `.citation-mark--contested` CSS class,
+merged before this session) and Stage 6b (Entry 37, PR #395) adds the
+plain phrase on tap. Mark confirmed that is the whole of Stage 6c -
+no further record-specific "hedge" content beyond the generic phrase.
+
+**The finding that prompted the question, worth keeping on record:**
+before asking, checked whether `confidence.divergence_note` could
+safely supply any such record-specific content. It cannot -
+fleet-wide, it is internal build/authoring-process commentary, not
+participant content (e.g. `records/rzg/figure/rzg.figure.faber.md`:
+`"This figure's own bridge_line is drawn from already-reviewed
+construction documents"`; `records/rzg/doctrinal_witness/
+rzg.witness.defending-the-anabaptist-suppression.md`: `"Built directly
+from rzg.contested.anabaptist-schism-legitimacy's own
+already-verified..."`). 1005 non-null `divergence_note` values
+fleet-wide, all of the same provenance/authoring-note character on
+inspection. Rendering this field to a participant would have been a
+real process leak - flagged and confirmed unusable before any code was
+written against it, not after.
+
+Stage 6c is done. Nothing further to build once PR #395 merges.
