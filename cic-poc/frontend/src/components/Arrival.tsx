@@ -6,6 +6,16 @@
  * screen, whose own header traced each sentence to the Program-Spec
  * (SS9/SS165/SS166) - this move relocates approved prose, it does not
  * compose new prose.
+ *
+ * ONE EXCEPTION, deliberate and flagged rather than silent: the final
+ * sentence of `arrival__disclosure` (the ✲ mark explainer) IS new prose,
+ * not relocated - Stage 6e (Ministry/Features/Conversation-Transparency-
+ * Engine/Decision-Log.md), R10's own "label copy" requirement, per
+ * Mark's own direction to extend this existing disclosure rather than
+ * add a new first-tap UI element (respects R17's per-screen element
+ * budget by construction - no new component, no new state). DRAFT
+ * COPY, not yet Mark's own word - built so the mechanism is complete,
+ * per the same discipline Stage 6b's confidence phrases followed.
  */
 import type { WorldEntry } from '../data/worlds';
 
@@ -52,6 +62,7 @@ export function Arrival({ world }: ArrivalProps) {
           will reveal Christ's faithfulness — it is never a pushed objective.
         </p>
         <p>{world.representativeName}'s name is ours; every quote and claim is theirs, and you can check each one.</p>
+        <p>Look for the ✲ mark after a claim — tap it to see exactly where it comes from.</p>
       </div>
     </div>
   );
