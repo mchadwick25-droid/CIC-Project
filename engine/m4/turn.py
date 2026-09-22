@@ -57,6 +57,7 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
+from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import build_transparency_plan
@@ -351,6 +352,26 @@ def _build_turn_directive(
     return "\n".join(parts)
 
 
+def _append_seat_identity_correction(turn_directive: str | None, offending_prefix: str) -> str:
+    """The seat-identity guard's one regeneration (Decision-Log.md Entry
+    47): named to the voice, in the same private-directive channel
+    _build_turn_directive already owns (measured to win over a competing
+    pressure sitting in the user turn - see that function's own docstring)
+    - never a second, separately-timed call or a rewrite of the world
+    prompt itself. Appended onto whatever _build_turn_directive already
+    produced (which may be None) rather than replacing it: the retry is
+    still the same turn, same asks, same evidence, minus the one thing
+    that went wrong."""
+    correction = (
+        "\n## Correction (your last attempt failed this)\n"
+        f'Your previous answer opened a new line or sentence with "{offending_prefix}" - writing as if you '
+        "were the Facilitator or another seat at this Table. You are only ever yourself: answer strictly in "
+        "your own voice, with no speaker labels, no \"Name:\" prefixes, and no attributed dialogue for anyone "
+        "else at the Table."
+    )
+    return (turn_directive or "") + correction
+
+
 def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
@@ -412,6 +433,7 @@ def _run_ordinary_voice_turn(
     secondary_context: str | None = None,
     table_engagement: str | None = None,
     usage_world_key: str | None = None,
+    guard_labels: list[str] | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -434,7 +456,23 @@ def _run_ordinary_voice_turn(
     through to evidence.assemble_evidence's own parameter of the same name -
     fills only the cell slots the participant's own message left empty,
     never displaces a real match. Same repository_records this call already
-    has; no new read, no model call, no per-turn cost growth."""
+    has; no new read, no model call, no per-turn cost growth.
+
+    guard_labels (Decision-Log.md Entry 47, 2026-09-22): the seat-identity
+    guard's own opt-in - None on every interview call (interview has no
+    other seats to impersonate and never builds the attributed-transcript
+    convention this defect echoes), so that path stays byte-identical too.
+    engine.api.table_wiring passes the Facilitator's label plus every
+    OTHER seated voice's label (full "Name (World)" and bare "Name" forms)
+    - never the speaking voice's own label; see
+    engine.m4.seat_identity_guard's own module docstring for why. A caught
+    turn regenerates once, with the violation named in the retry's own
+    directive (_append_seat_identity_correction); a second catch is
+    reported back to the caller via this turn's additive
+    seat_identity_violations/seat_identity_guard_exhausted fields rather
+    than raised, so a caller that never passes guard_labels (every
+    interview call) can go on reading this function's return shape exactly
+    as it always has."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -478,17 +516,48 @@ def _run_ordinary_voice_turn(
     if context_prefix:
         user_message = f"{context_prefix}\n\n{user_message}"
 
+    turn_directive = _build_turn_directive(directive, figures_already_named, table_engagement)
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
-        turn_directive=_build_turn_directive(directive, figures_already_named, table_engagement),
-        message=user_message, history=history,
+        turn_directive=turn_directive, message=user_message, history=history,
     )
     if stream_outcome.status != "ok":
         raise RuntimeError(f"voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
     if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id, world_key=usage_world_key):
         usage_records.append(rec)
 
-    answer_text, citations, net_result = apply_net(stream_outcome.value.text, repository_records=repository_records, thin_topics=thin_topics)
+    # SEAT-IDENTITY GUARD (Decision-Log.md Entry 47, 2026-09-22) - reject,
+    # regenerate once with the violation named, and if that also catches,
+    # report it back rather than raise: guard_labels is only ever non-empty
+    # on a Table call (see this function's own docstring), so this whole
+    # block is a no-op, zero-cost on every interview call.
+    raw_text = stream_outcome.value.text
+    seat_identity_violations: list[dict] = []
+    seat_identity_guard_exhausted = False
+    offending = find_seat_identity_violation(raw_text, guard_labels) if guard_labels else None
+    if offending:
+        seat_identity_violations.append({"world_key": world.world_key, "offending_prefix": offending, "attempt": "first"})
+        retry_outcome = stream_voice_turn(
+            voice_client, voice_model_id, system_prompt=world.prompt_text,
+            turn_directive=_append_seat_identity_correction(turn_directive, offending),
+            message=user_message, history=history,
+        )
+        if retry_outcome.status != "ok":
+            raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
+        if rec := _maybe_record_usage(
+            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
+        ):
+            usage_records.append(rec)
+        retry_text = retry_outcome.value.text
+        retry_offending = find_seat_identity_violation(retry_text, guard_labels)
+        if retry_offending:
+            seat_identity_violations.append({"world_key": world.world_key, "offending_prefix": retry_offending, "attempt": "regenerated"})
+            seat_identity_guard_exhausted = True
+            raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
+        else:
+            raw_text = retry_text
+
+    answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 
     # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
@@ -556,6 +625,20 @@ def _run_ordinary_voice_turn(
             answer_text, history=history, participant_message=participant_message,
             citations=citations, repository_records=repository_records,
         ),
+        # Additive, same discipline as transparency above: absent/empty on
+        # every call that never passes guard_labels (every interview call,
+        # and any Table call that generated clean on its first attempt),
+        # so no existing reader of this dict needs to change.
+        # seat_identity_violations is 0-2 partial payloads (world_key,
+        # offending_prefix, attempt) - the caller fills in round_no/
+        # position and persists one seat_identity_violation event per
+        # entry. seat_identity_guard_exhausted true means answer_text is
+        # deliberately "" (the voice's text is not shown) - the caller
+        # substitutes a facilitator_turn (engine.m4.facilitator_turns.
+        # table_seat_correction_turn) rather than surfacing this voice_turn
+        # as this seat's real answer.
+        "seat_identity_violations": seat_identity_violations,
+        "seat_identity_guard_exhausted": seat_identity_guard_exhausted,
     }
     return voice_event, usage_records
 

@@ -707,3 +707,77 @@ def test_usage_records_carry_world_attribution(store, usage_store, world_loader,
     assert {r.world_key for r in by_kind["reader_call"]} == {None}
     assert {r.world_key for r in by_kind["turn_selector"]} == {"alx"}
     assert {r.world_key for r in by_kind["voice_generation"]} == {"alx"}
+
+
+# --- seat-identity guard (Decision-Log.md Entry 47, 2026-09-22) ---
+
+
+def test_seat_identity_guard_regenerates_once_then_ships_the_clean_retry(store, usage_store, world_loader, registry, alx_world, desert_world):
+    clean_sentence, rid = grounded_sentence(alx_world)
+    violating = "The Facilitator: I will speak for both of us now."
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[[violating], [clean_sentence]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers=auth).json()
+    assert result["voice"]["speaker"] == "alx"
+    # The clean regenerated text ships, not the caught first attempt.
+    assert "Facilitator" not in result["voice"]["text"]
+    assert rid in [c["record_ids"][0] for c in result["voice"]["citations"]]
+
+    violations = [e for e in store.read_events(session_id) if e.event_type == "seat_identity_violation"]
+    assert len(violations) == 1
+    assert violations[0].payload["attempt"] == "first"
+    assert violations[0].payload["offending_prefix"] == "The Facilitator:"
+    assert violations[0].payload["world_key"] == "alx"
+    assert violations[0].payload["round_no"] == 1 and violations[0].payload["position"] == 1
+
+    # Two real stream calls were made for this one turn - the guard's one
+    # regeneration actually happened, not silently skipped.
+    assert len(client.messages.stream_calls) == 2
+
+    # No facilitator fallback fired - the retry succeeded.
+    assert not any(f["kind"] == "seat_correction" for f in result["facilitator"])
+
+
+def test_seat_identity_guard_exhausted_hands_the_turn_to_the_facilitator(store, usage_store, world_loader, registry, alx_world, desert_world):
+    desert_label = f"{desert_world.frame['representative']['name']} ({desert_world.frame['display_name']})"
+    violating_1 = "The Facilitator: I will speak for both of us now."
+    violating_2 = f"{desert_label}: I agree with what was just said."
+    client = _table_client(
+        selector_script=[{"next": "alx", "reason": "opening"}],
+        stream_scripts=[[violating_1], [violating_2]],
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+
+    result = http.post(f"/api/session/{session_id}/message", json={"text": "who is jesus"}, headers=auth).json()
+    assert result["voice"]["speaker"] == "alx"
+    # The voice's text is not shown.
+    assert result["voice"]["text"] == ""
+    # The round still advanced (position/turn bookkeeping intact) rather than stalling.
+    assert result["position"] == 1 and result["round_open"]
+
+    fallback = [f for f in result["facilitator"] if f["kind"] == "seat_correction"]
+    assert len(fallback) == 1
+    assert alx_world.frame["representative"]["name"] in fallback[0]["text"]
+
+    violations = [e for e in store.read_events(session_id) if e.event_type == "seat_identity_violation"]
+    assert [v.payload["attempt"] for v in violations] == ["first", "regenerated"]
+    assert [v.payload["offending_prefix"] for v in violations] == ["The Facilitator:", f"{desert_label}:"]
+
+    stored_facilitator_events = [
+        e for e in store.read_events(session_id) if e.event_type == "facilitator_turn" and e.payload["kind"] == "seat_correction"
+    ]
+    assert len(stored_facilitator_events) == 1
+
+    # Round bookkeeping stayed intact: alx counts as having spoken this
+    # round (the voice_turn event was still written, empty text and all),
+    # which is what keeps the next selection from immediately re-picking
+    # the same seat that just failed (turn_selector's own no-immediate-
+    # self-repeat rule, engine.m4.turn_selector.eligible_worlds).
+    projected = [e for e in store.read_events(session_id) if e.event_type == "voice_turn"]
+    assert len(projected) == 1 and projected[0].payload["speaker"] == "alx"

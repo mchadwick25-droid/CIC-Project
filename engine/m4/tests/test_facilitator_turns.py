@@ -71,3 +71,14 @@ def test_system_nature_does_not_overclaim_truth_verification():
     the underlying history, not just the record's own wording."""
     assert "checked against the record it came from" not in SYSTEM_NATURE.text
     assert "every specific claim in it is checked against the record" not in SYSTEM_NATURE.text
+
+
+def test_table_seat_correction_turn_names_the_seat_and_carries_its_own_kind():
+    """The seat-identity guard's fallback line (Decision-Log.md Entry 47) -
+    pinned so a future edit can't silently drop the seat's own name or
+    drift its kind back onto an existing one ("safety" is a different,
+    unrelated situation - TABLE_DEPENDENCY_CHECK's own)."""
+    event = facilitator_turns.table_seat_correction_turn("Papnoute")
+    assert event["kind"] == "seat_correction"
+    assert "Papnoute" in event["text"]
+    assert "Facilitator" in event["text"]

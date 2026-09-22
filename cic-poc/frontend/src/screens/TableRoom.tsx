@@ -94,6 +94,17 @@ export function TableRoom({
         </div>
 
         {turns.map((turn, i) => {
+          // The seat-identity guard's own exhausted case (Decision-Log.md
+          // Entry 47): engine.api.table_wiring writes this voice_turn with
+          // deliberately empty text - "the voice's text is not shown" -
+          // and a facilitator_turn (kind: seat_correction) carries the
+          // honest line instead. Rendering an empty turn--voice bubble
+          // here (portrait, name, nothing underneath) would still be
+          // showing that this seat had a turn, just with blank content -
+          // not the same as not shown.
+          if (turn.speaker !== 'participant' && turn.speaker !== 'facilitator' && !turn.text) {
+            return null;
+          }
           if (turn.speaker === 'participant') {
             return (
               <div key={i} className="turn turn--participant">
