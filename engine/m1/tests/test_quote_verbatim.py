@@ -7,6 +7,7 @@ from pathlib import Path
 
 from engine.m1.quote_verbatim import (
     TEXTS_DIR,
+    collapse_linewrap_hyphens,
     resolve_vendored_paths,
     strip_xml_markup,
     verify_quote_record,
@@ -52,6 +53,52 @@ def test_ellipsis_marks_a_real_elision_and_passes():
     )
     assert r.verified is True
     assert "ellipsis" in r.classes_used
+
+
+def test_bracket_wrapped_ellipsis_is_one_marker_not_a_bracket_around_nothing():
+    """Mark's third ruling (2026-09-22, after the #403 triage):
+    cappadocian.quote.basil-against-eunomius-ant marks its own elision as
+    "[...]" - splitting on bare "..." alone leaves an orphaned literal
+    "[" at the end of one segment and "]" at the start of the next."""
+    r = _verify(
+        "the fox ran [...] and the dog slept",
+        "the fox ran quickly through the tall grass and the dog slept soundly",
+    )
+    assert r.verified is True
+    assert "ellipsis" in r.classes_used
+    assert "bracket" not in r.classes_used  # the brackets ARE the ellipsis marker, not a separate insertion
+
+
+def test_line_wrap_hyphenation_in_source_passes():
+    """Mark's third ruling: a source hyphenating a word across a line
+    break ("eter-\\nnity") is ordinary print typesetting, not a content
+    difference - collapsed before matching."""
+    r = _verify(
+        "he spoke of eternity and grace",
+        "he spoke of eter-\nnity and grace",
+    )
+    assert r.verified is True
+
+
+def test_line_wrap_hyphenation_collapse_does_not_manufacture_a_false_match():
+    """The collapse only joins a hyphen-broken word back into itself - it
+    must not make unrelated text on either side of it start matching
+    something the quote didn't actually say."""
+    r = _verify(
+        "he spoke of eternity",
+        "he spoke of grace, not eter-\nnity",
+    )
+    assert r.verified is False  # "eternity" is real, but not adjacent to "of" - still a genuine mismatch
+    r2 = _verify(
+        "he spoke of graceful things",
+        "he spoke of eter-\nnity",
+    )
+    assert r2.verified is False
+
+
+def test_collapse_linewrap_hyphens_joins_across_two_consecutive_wraps():
+    assert collapse_linewrap_hyphens("com-\nmu-\nnity") == "community"
+    assert collapse_linewrap_hyphens("well-being") == "well-being"  # no line break, no collapse
 
 
 def test_bracketed_insertion_not_required_in_source():
@@ -195,3 +242,31 @@ def test_real_unmarked_omission_still_fails_after_the_verse_number_ruling():
 def test_texts_dir_points_at_the_real_vendored_library():
     assert TEXTS_DIR.name == "texts"
     assert TEXTS_DIR.exists()
+
+
+def test_rzg_line_wrap_hyphenation_records_now_verify():
+    """rzg.quote.christ-the-mirror-of-election and rzg.quote.mass-not-a-
+    sacrifice were the #403 triage's own "other" cases: 100% verbatim,
+    failing only because the vendored .txt hyphenates across line breaks
+    ("predes-\\ntination", "eter-\\nnity", "where-\\nfrom",
+    "remem-\\nbrance"). Both must verify now."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("rzg")
+    fleet = load_fleet_records()
+    for rid in ["rzg.quote.christ-the-mirror-of-election", "rzg.quote.mass-not-a-sacrifice"]:
+        result = verify_quote_record(records[rid], records, fleet)
+        assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
+
+
+def test_cappadocian_bracket_wrapped_ellipsis_record_now_verifies():
+    """cappadocian.quote.basil-against-eunomius-ant marks its own elision
+    as "[...]" - the #403 triage's own third flagged pattern."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.basil-against-eunomius-ant"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+    assert "ellipsis" in result.classes_used

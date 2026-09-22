@@ -34,18 +34,22 @@ registration comment when that PR lands.
 HOW A DIFFERENCE CLASS IS DETECTED. Rather than normalizing the source
 text and losing track of where a match actually sits, the record's own
 `text` is compiled into a regex and searched directly against the
-ORIGINAL vendored text (only XML/ThML markup stripped first, for
-XML-sourced quotes). Whitespace runs become a flexible run-of-whitespace match, quote/apostrophe/dash
+ORIGINAL vendored text (XML/ThML markup stripped first for XML-sourced
+quotes, then any word hyphenated across a line break - "eter-\nnity" -
+collapsed back to one word, both before any matching happens). Whitespace
+runs become a flexible run-of-whitespace match, quote/apostrophe/dash
 characters become a bracketed class of their known Unicode variants, and
 `re.IGNORECASE` folds case - so the match span, when found, is the exact
-original source substring, with no position-remapping needed to report
-it. A bracketed span in the record's own text (`[truly]`) compiles to a
-free `.*?` (may or may not appear in source - it's a labeled editorial
-insertion either way). An ellipsis (`...` or the single-character `…`)
-splits the record's text into ordered segments, each searched
-independently, left to right, after the previous segment's own match
-- so a real elision is never required to "explain" what's missing, only
-to mark that something was.
+(post-collapse) source substring, with no position-remapping needed to
+report it. A bracketed span in the record's own text (`[truly]`)
+compiles to a free `.*?` (may or may not appear in source - it's a
+labeled editorial insertion either way). An ellipsis (`...`, the
+single-character `…`, or either wrapped in its own brackets as `[...]`/
+`[…]` - one marker, not a bracketed insertion around nothing) splits the
+record's text into ordered segments, each searched independently, left
+to right, after the previous segment's own match - so a real elision is
+never required to "explain" what's missing, only to mark that something
+was.
 """
 from __future__ import annotations
 
@@ -60,10 +64,10 @@ TEXTS_DIR = REPO_ROOT / "cic" / "texts"
 # not paraphrased, so a reader never has to trust a summary of what was
 # actually allowed.
 ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
-    "whitespace": "A run of spaces, tabs, or line breaks differs from the source's own - collapsed on both sides before comparing.",
+    "whitespace": "A run of spaces, tabs, or line breaks differs from the source's own - collapsed on both sides before comparing. Includes a source that hyphenates a word across a line break (\"eter-\\nnity\") - collapsed to the joined word before comparing, never left as two.",
     "case": "A letter's capitalization differs from the source (e.g. a quote opening mid-sentence, capitalized to open a sentence here).",
     "punctuation": "A quote mark, apostrophe, or dash is a different Unicode form of the same mark (curly vs. straight, hyphen vs. en/em dash) - never a different mark entirely (a colon read as a dash still fails).",
-    "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them.",
+    "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
 }
@@ -73,6 +77,14 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # different mark (e.g. a straight double quote where the source has a
 # curly single quote marking an inner quotation) - is NOT. That stays a
 # failure and gets fixed in the record, not accommodated here.
+
+# RULED (Mark, 2026-09-22, third ruling, after the #403 triage): two of
+# the three patterns the triage flagged (not the stray-backslash one,
+# left for the record-fix session) fold into the whitespace/ellipsis
+# handling above rather than becoming new classes - each is a source-
+# side typesetting/notation quirk, not a difference in what's actually
+# said. The third (stray backslash) is a record-authoring bug, out of
+# scope for this module.
 
 # DISALLOWED, stated explicitly so a report finding can name which rule a
 # quote actually broke: a substituted word, a silent omission (no
@@ -87,9 +99,22 @@ _PUNCT_CLASSES = {c: _QUOTE_VARIANTS for c in _QUOTE_VARIANTS} | {c: _APOS_VARIA
     c: _DASH_VARIANTS for c in _DASH_VARIANTS
 }
 
-_ELLIPSIS_RE = re.compile(r"\s*(?:\.\.\.|…)\s*")
+# `[...]`/`[…]` (the ellipsis wrapped in its own brackets, no other
+# content) is tried first, as a single unit - splitting it the same as a
+# bare `...` would otherwise leave a stray unmatched "[" at the end of
+# one segment and "]" at the start of the next, both then required as
+# literal characters (a real defect this ruling fixes: cappadocian.quote.
+# basil-against-eunomius-ant marks its own elision exactly this way).
+_ELLIPSIS_RE = re.compile(r"\s*(?:\[(?:\.\.\.|…)\]|\.\.\.|…)\s*")
 _BRACKET_RE = re.compile(r"\[[^\[\]]*\]")
 _WHITESPACE_SPLIT_RE = re.compile(r"(\s+)")
+# A source that hyphenates a word across a line break ("eter-\nnity") -
+# ordinary print-typesetting justification, not a content difference.
+# Plain hyphen only (not an en/em dash - those mark real punctuation,
+# not a word broken mid-line), collapsed before any matching happens so
+# the quote's own unbroken word matches directly. Applied as a fixed-
+# point loop for the rare case of two consecutive wraps ("a-\nb-\nc").
+_LINEWRAP_HYPHEN_RE = re.compile(r"(\w)-\s*\n\s*(\w)")
 # An inline verse/section number the source may carry at a word-boundary
 # gap in the quote's own text (e.g. "...day. 2. First..." where the
 # quote just has "...day. First..."). Bare digits + period only - never
@@ -112,6 +137,16 @@ def strip_xml_markup(raw: str) -> str:
     keep whatever text it wrapped."""
     text = _NOTE_BLOCK_RE.sub(" ", raw)
     text = _TAG_RE.sub("", text)
+    return text
+
+
+def collapse_linewrap_hyphens(text: str) -> str:
+    """"eter-\\nnity" -> "eternity". A fixed-point loop, not a single
+    `sub`, so a word wrapped twice in a row still fully joins."""
+    prev = None
+    while prev != text:
+        prev = text
+        text = _LINEWRAP_HYPHEN_RE.sub(r"\1\2", text)
     return text
 
 
@@ -219,6 +254,7 @@ def _nearest_context(segment: str, source_full: str, window: int = 30) -> str:
 
 def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) -> VerifyResult:
     source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
+    source_full = collapse_linewrap_hyphens(source_full)
     raw_segments = [s for s in _ELLIPSIS_RE.split(quote_text) if s.strip()]
     if not raw_segments:
         return VerifyResult(verified=False, failed_segment=quote_text, nearest_context="(quote text is empty)")
