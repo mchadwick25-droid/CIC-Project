@@ -1,33 +1,52 @@
-"""R27 build item 4 (Decision-Log.md Entry 51, reviewer thread build order,
-2026-09-22): a real, billed live run measuring the report-only uncited-
-claims check's actual catch rate per world, before Mark sets an
-enforcement threshold. Like engine/m4/live_table_battery.py and
+"""R27 build item 4 (Decision-Log.md Entry 51) + fix list F3 (reviewer
+thread "CiC — Tech Review & Funding Readiness Prep", 2026-09-22, after
+item 4's first run): a real, billed live run measuring the report-only
+uncited-claims check's actual catch rate per world, and - new in F3 -
+simulating the enforcement shape battery-only (no participant path) so
+Mark can set item 5's threshold against a post-regeneration number, not
+the raw rate. Like engine/m4/live_table_battery.py and
 engine/m8/live_cost_run.py, a by-hand, credentialed run - not a CI job.
 
-Interview mode, two turns per admitted formation world:
-  1. A generic in-scope conflict-history ask - the kind of substantive,
+Interview mode, TWO SEPARATE fresh single-turn sessions per admitted
+formation world (not two turns of one session - the item-4 run's own
+disclosed bug):
+  A. A generic in-scope conflict-history ask - the kind of substantive,
      citation-heavy answer the check exists to watch, with no built-in
      bias toward either offense class.
-  2. A named-other-tradition ask (built per world from a real OTHER
-     admitted formation world's own card_name) - the R26 shape this
-     check's "neighbour_named" and "own_doctrine_in_other_tradition_turn"
-     classes exist to catch.
+  B. A direct, context-free other-tradition ask - F3(a)'s own fix: "Use a
+     direct first-turn ask that needs no history, the staging one: 'What
+     was your relationship with the Donatists?' for alx, and per world a
+     named neighbour from the registry." Being turn 1 of its own fresh
+     session (not turn 2 riding on turn 1's dangling "this"), the reader
+     sees a complete, self-contained other-tradition question and can
+     actually fire out_of_scope_class == "other_tradition" - the thing
+     the item-4 run's own probe never managed.
 
-Plus one small table session (3 worlds, 2 rounds) to prove the table
-caller path (engine.api.table_wiring._advance_open_round's own
-uncited_claims wiring, PR #415) produces the same events live, not only
-against synthetic dicts in test_uncited_claims.py.
+For every turn that produces at least one offense (after F1/F2's fixed
+exemptions), F3(b)'s own simulation: regenerate once, in the same turn
+(same world, same participant message, same directive, same
+is_other_tradition_first_ask), with a correction naming the exact
+offending sentences (engine.m4.turn._run_ordinary_voice_turn's new,
+opt-in `correction` parameter - unset on every real caller; see that
+function's own docstring). Re-check the regenerated answer and report
+BOTH the raw and the post-regeneration offense count/rate, per world -
+F3(b)'s own words: "That post-regeneration number is what Mark sets the
+threshold on; the raw rate is not."
 
-Every voice_event's own "uncited_claims" field (engine.m4.turn's report-
-only, additive field - present whether or not this script's own refined
-event fires) is read back directly rather than re-derived, then refined
-through the same build_uncited_claims_event() both real callers already
-use, so this report counts exactly what production would have logged.
+Calls engine.m4.turn.run_gate and _run_ordinary_voice_turn directly
+(rather than the top-level run_turn) so this script can drive the exact
+same voice call twice with an added correction on the second - the same
+private-helper-reuse precedent engine.m4.live_table_battery.py already
+sets by importing engine.api.wiring._load_world directly rather than
+re-deriving world loading.
 
-Cost, M8-style (engine.m8.cost/summary, same published rate card
+Plus one small table session (3 worlds, 2 rounds), unchanged from item
+4's own first run - the table caller path (PR #415) already proved
+correct there.
+
+Cost, M8-style (engine.m8.cost, same published rate card
 engine.m8.live_cost_run already cites) - reused, not re-priced from
-scratch, so a second live run's price table can't quietly drift from the
-first's.
+scratch.
 """
 import argparse
 import json
@@ -39,7 +58,7 @@ from engine.api.table_wiring import continue_table_round, create_table_session, 
 from engine.m1.registry import load_registry
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
-from engine.m4.turn import run_turn
+from engine.m4.turn import _run_ordinary_voice_turn, run_gate
 from engine.m4.uncited_claims import build_uncited_claims_event
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
@@ -55,38 +74,91 @@ CONFLICT_TURN = (
     "who was on each side, and how did it end?"
 )
 
+# The staging repro sentence, verbatim, per F3(a) - reused exactly for alx
+# rather than paraphrased, since it is the specific sentence already known
+# to matter.
+_ALX_STAGING_OTHER_TRADITION_TURN = "What was your relationship with the Donatists?"
+
 
 def _other_tradition_turn(world_key: str, registry: dict) -> str:
-    # A real other admitted formation world's own card_name (not
-    # known_tradition_names, which also mixes in representative names for
-    # the classifier's own sentence-matching purpose - a tradition's own
-    # name reads naturally in this sentence, a person's given name would
-    # not). First alphabetically for a deterministic, reproducible report
-    # across re-runs.
+    if world_key == "alx":
+        return _ALX_STAGING_OTHER_TRADITION_TURN
+    # A real, named neighbour from the registry (F3(a)'s own words) - a
+    # direct, self-contained ask, same "What was your relationship with
+    # X?" shape as the alx staging sentence. No inserted "the": a
+    # card_name that already carries one ("The Church of the Martyrs")
+    # reads correctly bare, and one that doesn't ("Alexandrian
+    # Christianity") would read wrong with one added.
     card_names = sorted(
         entry["card_name"]
         for key, entry in registry.items()
         if key != world_key and entry.get("kind") == "formation" and entry.get("card_name")
     )
-    return f"What did {card_names[0]} believe about this same kind of conflict?"
+    return f"What was your relationship with {card_names[0]}?"
 
 
 def _price_for_call_kind(call_kind: str):
     return HAIKU_4_5_PRICE_TABLE if call_kind in ("safety_call", "reader_call", "turn_selector") else SONNET_4_5_PRICE_TABLE
 
 
-def _run_interview_turn(*, client, voice_model_id, safety_model_id, world, session_id, message, usage_store):
-    result = run_turn(
-        session_id=session_id,
-        voice_client=client, voice_model_id=voice_model_id,
-        safety_client=client, safety_model_id=safety_model_id,
-        world=world, participant_message=message,
-        pressed={}, anachronistic_term_ids=set(),
+def _build_correction(offenses: list[dict]) -> str:
+    named = "; ".join(f'"{o["sentence"]}"' for o in offenses)
+    return (
+        "\n## Correction (your last answer had uncited claims)\n"
+        f"These sentences from your last answer carried no citation: {named} "
+        "Answer again: cite every specific claim to one of your own records with an inline [[record.id]] tag, "
+        "or, where your own records are silent, say so plainly instead of stating it without one."
     )
-    for rec in result.usage_records:
+
+
+def _offenses_for(voice_event: dict | None, *, registry: dict, world_key: str, is_other_tradition_turn: bool) -> list[dict]:
+    if voice_event is None:
+        return []
+    event = build_uncited_claims_event(voice_event, registry=registry, is_other_tradition_turn=is_other_tradition_turn)
+    return event["offenses"] if event else []
+
+
+def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key, registry, session_id, message, usage_store):
+    """run_gate + _run_ordinary_voice_turn directly (module docstring) -
+    the same two calls run_turn makes internally for voice_with_directive/
+    voice_pass_through, exposed here so the correction regeneration below
+    can reuse the identical directive/is_other_tradition_first_ask a
+    second time. Returns (raw_offenses, post_regen_offenses_or_None,
+    out_of_scope_class, routing_action, usage cost already appended)."""
+    gate_run = run_gate(
+        session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
+        participant_message=message, pressed={}, anachronistic_term_ids=set(),
+    )
+    for rec in gate_run.usage_records:
         usage_store.append(rec)
-    out_of_scope_class = (result.gate.get("out_of_scope") or {}).get("class")
-    return result, out_of_scope_class
+    action = gate_run.gate_result.routing.action
+    out_of_scope_class = (gate_run.gate_result.routing.out_of_scope_class if action == "voice_with_directive" else None)
+    if action not in ("voice_with_directive", "voice_pass_through"):
+        return [], None, out_of_scope_class, action
+
+    is_other_tradition = out_of_scope_class == "other_tradition"
+    voice_event, usage_records = _run_ordinary_voice_turn(
+        voice_client=client, voice_model_id=voice_model_id, world=world,
+        participant_message=message, directive=gate_run.gate_result.routing.directive,
+        session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
+    )
+    for rec in usage_records:
+        usage_store.append(rec)
+    raw_offenses = _offenses_for(voice_event, registry=registry, world_key=world_key, is_other_tradition_turn=is_other_tradition)
+
+    post_regen_offenses = None
+    if raw_offenses:
+        regen_event, regen_usage = _run_ordinary_voice_turn(
+            voice_client=client, voice_model_id=voice_model_id, world=world,
+            participant_message=message, directive=gate_run.gate_result.routing.directive,
+            session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
+            correction=_build_correction(raw_offenses),
+        )
+        for rec in regen_usage:
+            usage_store.append(rec)
+        post_regen_offenses = _offenses_for(regen_event, registry=registry, world_key=world_key, is_other_tradition_turn=is_other_tradition)
+
+    return raw_offenses, post_regen_offenses, out_of_scope_class, action
 
 
 def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> dict:
@@ -106,54 +178,62 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
                 world_key, package_dir=REPO_ROOT / entry["package"]["location"],
                 expected_manifest_hash=entry["package"]["manifest_hash"],
             )
-            session_id = f"uncited-claims-battery-{world_key}"
-            turns_info = []
-            offenses_by_class: dict[str, int] = {}
-            turns_with_offense = 0
+            probes = {"A-conflict": CONFLICT_TURN, "B-other-tradition": _other_tradition_turn(world_key, registry)}
+            probe_results = {}
+            raw_with_offense = post_with_offense = 0
+            raw_offense_total = post_offense_total = 0
+            probes_run = 0
 
-            for message in (CONFLICT_TURN, _other_tradition_turn(world_key, registry)):
-                result, out_of_scope_class = _run_interview_turn(
+            for probe_id, message in probes.items():
+                # Each probe is turn 1 of its own fresh session (F3(a)'s
+                # own fix: a direct first-turn ask needing no history) -
+                # never the same session_id twice.
+                session_id = f"uncited-claims-battery-{world_key}-{probe_id}"
+                raw_offenses, post_offenses, out_of_scope_class, action = _run_probe_turn(
                     client=client, voice_model_id=voice_model_id, safety_model_id=safety_model_id,
-                    world=world, session_id=session_id, message=message, usage_store=usage_store,
+                    world=world, world_key=world_key, registry=registry,
+                    session_id=session_id, message=message, usage_store=usage_store,
                 )
-                voice_event = result.voice_event
-                event = (
-                    build_uncited_claims_event(
-                        voice_event, registry=registry,
-                        is_other_tradition_turn=(result.routing_action == "voice_with_directive" and out_of_scope_class == "other_tradition"),
-                    )
-                    if voice_event is not None else None
-                )
-                offenses = event["offenses"] if event else []
-                if offenses:
-                    turns_with_offense += 1
-                for o in offenses:
-                    offenses_by_class[o["class"]] = offenses_by_class.get(o["class"], 0) + 1
-                turns_info.append(
-                    {
-                        "message": message,
-                        "routing_action": result.routing_action,
-                        "out_of_scope_class": out_of_scope_class,
-                        "voice_present": voice_event is not None,
-                        "offenses": offenses,
-                    }
-                )
+                probes_run += 1
+                if raw_offenses:
+                    raw_with_offense += 1
+                    raw_offense_total += len(raw_offenses)
+                if post_offenses is not None:
+                    if post_offenses:
+                        post_with_offense += 1
+                        post_offense_total += len(post_offenses)
+                probe_results[probe_id] = {
+                    "message": message,
+                    "routing_action": action,
+                    "out_of_scope_class": out_of_scope_class,
+                    "raw_offenses": raw_offenses,
+                    "post_regeneration_offenses": post_offenses,
+                }
 
-            records = usage_store.read_for_session(session_id)
+            records = usage_store.read_for_session(f"uncited-claims-battery-{world_key}-A-conflict") + usage_store.read_for_session(
+                f"uncited-claims-battery-{world_key}-B-other-tradition"
+            )
             session_dollars = sum(estimate_cost(r.usage, _price_for_call_kind(r.call_kind)).dollars for r in records) if records else 0.0
             per_world[world_key] = {
                 "card_name": entry.get("card_name"),
-                "turns": turns_info,
-                "turns_run": len(turns_info),
-                "turns_with_uncited_offense": turns_with_offense,
-                "uncited_turn_rate": turns_with_offense / len(turns_info),
-                "offenses_by_class": offenses_by_class,
+                "probes": probe_results,
+                "probes_run": probes_run,
+                "raw_turns_with_offense": raw_with_offense,
+                "raw_offense_total": raw_offense_total,
+                "raw_turn_rate": raw_with_offense / probes_run,
+                "post_regeneration_turns_with_offense": post_with_offense,
+                "post_regeneration_offense_total": post_offense_total,
+                # Denominator is the turns that had a raw offense at all
+                # (the ones a regeneration was even attempted on) - a turn
+                # with no raw offense was never regenerated and stays
+                # clean by construction, not something this rate should
+                # dilute.
+                "post_regeneration_residual_rate": (post_with_offense / raw_with_offense) if raw_with_offense else 0.0,
                 "session_dollars": session_dollars,
             }
 
-        # The table path (PR #415's own caller wiring) - one small session,
-        # proving the same events fire live through _advance_open_round,
-        # not only interview's handle_message.
+        # The table path (PR #415's own caller wiring), unchanged from
+        # item 4's own first run - already proven correct there.
         store = Store(Path(tmp) / "live-uncited-claims-battery-events.db")
         table_session_id, _code = create_table_session(store=store, world_loader=loader, registry=registry, world_keys=table_world_keys)
         call_kwargs = dict(
@@ -173,8 +253,9 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
         table_records = usage_store.read_for_session(table_session_id)
         table_dollars = sum(estimate_cost(r.usage, _price_for_call_kind(r.call_kind)).dollars for r in table_records) if table_records else 0.0
 
-    total_turns = sum(w["turns_run"] for w in per_world.values())
-    total_with_offense = sum(w["turns_with_uncited_offense"] for w in per_world.values())
+    total_probes = sum(w["probes_run"] for w in per_world.values())
+    total_raw_with_offense = sum(w["raw_turns_with_offense"] for w in per_world.values())
+    total_post_with_offense = sum(w["post_regeneration_turns_with_offense"] for w in per_world.values())
     total_dollars = sum(w["session_dollars"] for w in per_world.values()) + table_dollars
 
     return {
@@ -182,9 +263,11 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
         "price_table_source": PRICE_TABLE_SOURCE,
         "interview": {
             "worlds": per_world,
-            "overall_turns_run": total_turns,
-            "overall_turns_with_uncited_offense": total_with_offense,
-            "overall_uncited_turn_rate": total_with_offense / total_turns if total_turns else 0.0,
+            "overall_probes_run": total_probes,
+            "overall_raw_turns_with_offense": total_raw_with_offense,
+            "overall_raw_turn_rate": total_raw_with_offense / total_probes if total_probes else 0.0,
+            "overall_post_regeneration_turns_with_offense": total_post_with_offense,
+            "overall_post_regeneration_residual_rate": (total_post_with_offense / total_raw_with_offense) if total_raw_with_offense else 0.0,
         },
         "table": {
             "world_keys": table_world_keys,
@@ -196,8 +279,10 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
         "total_dollars": total_dollars,
         "note": (
             "Priced against a published rate card, not a reconciled AWS invoice (spec principle 13). "
-            "2 turns per world x 11 worlds + one small table session - an order-of-magnitude first look "
-            "at the real uncited-claim rate, not a statistically powered sample."
+            "2 fresh single-turn probes per world x 11 worlds (each with a regeneration where the raw probe "
+            "had an offense) + one small table session - an order-of-magnitude first look, not a "
+            "statistically powered sample. post_regeneration_residual_rate, not raw_turn_rate, is what "
+            "F3(b) asks Mark's threshold to be set against."
         ),
     }
 
@@ -214,15 +299,20 @@ def main() -> int:
     args = parser.parse_args()
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
     table_world_keys = [k.strip() for k in args.table_worlds.split(",") if k.strip()]
-    print(f"LIVE, BILLED battery: uncited-claims rate, {len(world_keys)} worlds x 2 interview turns + 1 table session, region {args.region}", flush=True)
+    print(
+        f"LIVE, BILLED battery: uncited-claims rate + enforcement simulation, {len(world_keys)} worlds x 2 fresh probes "
+        f"+ 1 table session, region {args.region}", flush=True,
+    )
     report = run(args.region, world_keys=world_keys, table_world_keys=table_world_keys)
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"report written: {out}")
     print(
-        f"overall interview uncited-turn rate: {report['interview']['overall_uncited_turn_rate']:.0%} "
-        f"({report['interview']['overall_turns_with_uncited_offense']}/{report['interview']['overall_turns_run']}); "
+        f"raw turn rate: {report['interview']['overall_raw_turn_rate']:.0%} "
+        f"({report['interview']['overall_raw_turns_with_offense']}/{report['interview']['overall_probes_run']}); "
+        f"post-regeneration residual rate: {report['interview']['overall_post_regeneration_residual_rate']:.0%} "
+        f"({report['interview']['overall_post_regeneration_turns_with_offense']}/{report['interview']['overall_raw_turns_with_offense']}); "
         f"table uncited_claims events: {len(report['table']['uncited_claims_events'])}; "
         f"total cost: ${report['total_dollars']:.4f}"
     )

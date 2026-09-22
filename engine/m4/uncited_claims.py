@@ -42,11 +42,46 @@ from engine.prose import SCAFFOLD_MARKERS, SELF_NAMING_MARKER, claim_markers
 # right bar here, not a guess.
 R26_HONEST_LIMIT_SENTENCE = "our record doesn't mention that christian tradition"
 
+# F1 (reviewer thread fix list, 2026-09-22, after the item-4 live battery):
+# the fleet's own real honest-limit forms the battery's offense list
+# actually showed - "How it ended among us is not in our record.",
+# "Here is the honest limit.", "No rule of ours survives that explains the
+# difference." - a closed list local to R27's own detection, deliberately
+# NOT added to engine.prose.SCAFFOLD_MARKERS: that vocabulary also feeds
+# engine.m4.grounding_net.verdict_for_sentence's own withhold/ok decision
+# fleet-wide, and widening it would change more than this check's own
+# exemption. Fixed phrases, no model call, same discipline SCAFFOLD_MARKERS
+# already sets.
+_RECORD_ABSENCE_PHRASES = (
+    "not in our record",
+    "our record does not",
+    "our record is silent",
+    "the honest limit",
+)
+# "survives"/"reached us" negations (fix list's own naming) - a record-
+# absence claim doesn't always use one of the fixed phrases above ("No
+# rule of ours survives that explains the difference." names nothing
+# absent by the word "record" at all). A short-window regex, not a second
+# model call: a negator and survives/reached-us within the same clause,
+# so a genuine citable claim ("The letter survives in three copies.",
+# no negator) is untouched.
+_RECORD_ABSENCE_NEGATION = re.compile(
+    r"\b(no|none|nothing|not|never)\b[^.!?]{0,40}\b(survives?|survived|reached us|reaches us)\b"
+)
+
 _FIRST_PERSON_OPENERS = {
     "i", "i'd", "i've", "i'll", "i'm",
     "we", "we'd", "we've", "we'll", "we're",
     "my", "our",
 }
+# F2 (same fix list): the opener-only check below misses a conditional
+# offer whose MAIN clause is first-person - "If you name the conflict you
+# mean, I will tell you plainly..." opens with "If", not "I". A fixed,
+# closed set of clause markers, checked anywhere in the sentence rather
+# than sentence-initial only; claim_markers(sentence) is still the real
+# guard against exempting a sentence that also happens to contain one of
+# these words while making a real claim elsewhere in it.
+_FIRST_PERSON_CLAUSE_MARKERS = ("i will", "i can", "we will", "we can")
 
 _WORD = re.compile(r"[A-Za-z']+")
 
@@ -60,12 +95,19 @@ def _is_honest_limit(sentence_lower: str) -> bool:
         return True
     if SELF_NAMING_MARKER in sentence_lower:
         return True
-    return any(marker in sentence_lower for marker in SCAFFOLD_MARKERS)
+    if any(marker in sentence_lower for marker in SCAFFOLD_MARKERS):
+        return True
+    if any(phrase in sentence_lower for phrase in _RECORD_ABSENCE_PHRASES):
+        return True
+    return bool(_RECORD_ABSENCE_NEGATION.search(sentence_lower))
 
 
 def _is_first_person_no_claim(sentence: str) -> bool:
     words = _WORD.findall(sentence)
-    if not words or words[0].lower() not in _FIRST_PERSON_OPENERS:
+    starts_first_person = bool(words) and words[0].lower() in _FIRST_PERSON_OPENERS
+    lower = sentence.lower()
+    has_first_person_clause = any(marker in lower for marker in _FIRST_PERSON_CLAUSE_MARKERS)
+    if not starts_first_person and not has_first_person_clause:
         return False
     return not claim_markers(sentence)
 
