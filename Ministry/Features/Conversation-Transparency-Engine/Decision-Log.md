@@ -1026,3 +1026,49 @@ independently re-verified against the actual repo state before this
 commit - not taken on trust - via a direct re-run of `restore`,
 `staleness-check`, and `pytest`, a `git status` file-count check, and
 the diff scan above. PR #394.
+
+**Entry 37 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
+into the Level 2 citation card, the mechanism R16 (Entry 29) and Stage
+6a (Entries 35-36) exist to make trustworthy.
+
+The data plumbing already existed end-to-end before this entry -
+`engine/m1/schemas.py`'s five-value enum,
+`engine/m4/transparency_plan.py` attaching the full `confidence`
+envelope verbatim to every anchor and reference card, `engine/m4/
+turn.py`/`projection.py` passing it through the API untouched. Nothing
+on the backend changed. Only the frontend's own read of it was
+missing: `SourceCard.confidence` existed in the real API response but
+was never declared on the TS type (now added, optional, so every
+predating fixture still typechecks), and nothing rendered it.
+
+New `cic-poc/frontend/src/lib/confidence.ts`: a pure five-entry lookup
+(`confidencePhrase()`) from `formation_confidence` to one plain
+phrase, returning null - never inventing one - for a missing or
+unrecognized value, including "Not Attested" (R8, RULED c: not a
+sixth `formation_confidence` value). Wired into `StoryMark.tsx` and
+`WitnessMark.tsx`'s existing Level 2 content, one new line per cited
+record. No new mark type, no new color - R17's own house rule ("no
+new mark types beyond R9's hollow-glyph variant") reads this as
+content inside an existing card, not a new disclosure element.
+
+**DRAFT COPY, not yet Mark's own word** - per his own Stage 6
+instruction ("phrases... worded by me"), flagged as draft in the
+module's own docstring and built only so the mechanism is testable
+end-to-end:
+
+| formation_confidence | Proposed phrase |
+|---|---|
+| Documented | "Recorded directly in a source from the time." |
+| Widely Accepted | "What historians broadly agree happened." |
+| Dominant Modern Reconstruction | "The leading modern reading of the evidence." |
+| Contested | "Historians disagree about this." |
+| Inferential-Thin | "Based on thin evidence, mostly inference." |
+
+9 new tests: `confidence.test.ts` covers all 5 phrases plus null/
+undefined/missing-field/unrecognized-value edge cases; two new
+`VoiceTurnBody.test.tsx` integration tests prove the phrase actually
+renders on a real Level 2 card open (`fireEvent.mouseEnter`) and that
+a confidence-less card renders no phrase line at all. Full suite
+23/23; `npx tsc --noEmit` and `npm run build` both clean. PR pending -
+see its own description for the same proposal table, open for Mark's
+wording before merge.
