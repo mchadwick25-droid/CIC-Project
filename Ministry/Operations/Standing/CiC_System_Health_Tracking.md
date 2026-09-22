@@ -1048,3 +1048,36 @@ content accuracy), which is a separate gate, remains open fleet-wide, and
 is untouched by this entry. No world's `Open_Gaps_Tracking.md` or waiver
 file was changed by this entry. Raised and clarified in conversation
 before logging, to avoid exactly this conflation.
+
+---
+
+## 2026-09-22 00:31 UTC — Periodic sweep: two red PRs flagged (both PR-specific, not fixed), 7 new PRs subscribed
+
+Main green (run 1170). A large amount of new activity landed overnight -
+the Transparency Engine's own R5-R19 rulings cycle plus Stage 4a/4b work,
+and a new "Tech-Readiness" audit (dispatched from the "CiC - Tech Review &
+Funding Readiness Prep" thread opened earlier this session) producing
+Security and Operations hardening packages. Spot-checked the engine-
+touching commits (R19 guard-scan fix, R13 holdings-check cycle start,
+Stage 4b guard_proximity, Stage 4a evidence.py riders, R8/R18 copy fixes
+including a CLAUDE.md confidence-vocabulary correction) - all clean,
+well-documented, Decision-Log entries correctly placed, no stray notes.
+
+7 new open PRs found and subscribed: #384, #382, #380, #379, #378, #377,
+#376. Two are currently red or conflicted - both confirmed PR-specific
+(reproduced/ruled out against main's own clean tip), so flagged to their
+owning threads rather than fixed here:
+
+- **PR #384** (Ministry archive housekeeping, from the Tech-Readiness
+  thread): `check_paths.py` failing twice in a row. Confirmed clean on
+  main's own tip - caused by this PR's own 90-file archive move leaving
+  its own dangling citations, not a repo-wide break. That thread's own
+  active PR to finish.
+- **PR #380** (record six Transparency Engine rulings): real merge
+  conflict on `Decision-Log.md` and `Rulings-Pending.md` - both append-
+  only files, edited concurrently by other PRs that landed on main first
+  (Entries 25-27 landed while this PR's own draft still called itself
+  "Entry 25"). PR-specific content conflict on two files this thread has
+  no standing to resolve on another thread's behalf.
+
+Fleet size unchanged at 11, still below the 15 log threshold.
