@@ -1068,3 +1068,36 @@ actually ruled - flagged rather than built against, the same
 discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
 once set, is what the renderer fixture test (R17's other engineering
 half) will assert against; that test is not yet written. PR #397.
+
+**Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
+Mark's own direct answer this session - cap = `max(3, min(8,
+ceil(sentences/2)))`, drop order glosses -> figures -> stories, witness
+marks never drop. `VoiceTurnBody.tsx`'s `renderFromTransparencyPlan`
+(the anchor-driven renderer, still behind the still-default-off
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` flag) split into two passes: pass
+1 detects every candidate Level-1 element in document order without
+rendering, so the cap applies against the full-turn total before any
+single mark is decided; pass 2 renders using pass 1's own detection.
+The legacy renderer, still the live default, is untouched - out of
+scope, being retired by Stage 6e's own flag flip rather than extended
+here.
+
+**Real bug caught before it shipped:** the original single-pass code's
+own "every word mark counts as already-shown-inline" line, ported
+forward naively, would have blanket-added every DETECTED word mark -
+including ones the cap just dropped - into the set General References
+checks against, wrongly excluding a dropped mark from both the inline
+text and General References at once. Caught and removed before commit,
+not after.
+
+2 new tests prove the mechanism actually engages on a seeded over-cap
+fixture, not just that it doesn't regress under-cap behavior (every
+prior fixture already happened to sit under the floor of 3, so those
+stay provably identical). One, in the course of writing it, exposed a
+real pre-existing gap: this test suite has no `afterEach(cleanup)`
+wired up anywhere, so a document-wide `getByText` query can collide
+with an earlier test's still-mounted DOM - fixed locally by scoping
+the new test's own query to its own render container, not by touching
+the shared test setup (out of this PR's own scope; the gap itself is
+worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
+run build` both clean. PR pending.
