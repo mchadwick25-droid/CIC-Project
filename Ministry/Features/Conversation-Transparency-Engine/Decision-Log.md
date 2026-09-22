@@ -1068,17 +1068,50 @@ unspecific - no formula or drop order is decided anywhere in
 (glosses→figures→stories, never witness quotes) existed only in this
 session's own pre-compaction working notes, not in anything Mark
 actually ruled - flagged rather than built against, the same
-discipline Entry 39 (PR #395, renumbered per the note above) applied
+discipline Entry 40 (PR #395, renumbered per the note below) applied
 to Stage 6c. Mark's own number, once set, is what the renderer
 fixture test (R17's other engineering half) will assert against; that
 test is not yet written. PR #397.
 
-**Entry 38 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
+**Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
+Mark's own direct answer this session - cap = `max(3, min(8,
+ceil(sentences/2)))`, drop order glosses -> figures -> stories, witness
+marks never drop. `VoiceTurnBody.tsx`'s `renderFromTransparencyPlan`
+(the anchor-driven renderer, still behind the still-default-off
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` flag) split into two passes: pass
+1 detects every candidate Level-1 element in document order without
+rendering, so the cap applies against the full-turn total before any
+single mark is decided; pass 2 renders using pass 1's own detection.
+The legacy renderer, still the live default, is untouched - out of
+scope, being retired by Stage 6e's own flag flip rather than extended
+here.
+
+**Real bug caught before it shipped:** the original single-pass code's
+own "every word mark counts as already-shown-inline" line, ported
+forward naively, would have blanket-added every DETECTED word mark -
+including ones the cap just dropped - into the set General References
+checks against, wrongly excluding a dropped mark from both the inline
+text and General References at once. Caught and removed before commit,
+not after.
+
+2 new tests prove the mechanism actually engages on a seeded over-cap
+fixture, not just that it doesn't regress under-cap behavior (every
+prior fixture already happened to sit under the floor of 3, so those
+stay provably identical). One, in the course of writing it, exposed a
+real pre-existing gap: this test suite has no `afterEach(cleanup)`
+wired up anywhere, so a document-wide `getByText` query can collide
+with an earlier test's still-mounted DOM - fixed locally by scoping
+the new test's own query to its own render container, not by touching
+the shared test setup (out of this PR's own scope; the gap itself is
+worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
+run build` both clean. PR #399, merged.
+
+**Entry 39 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
 into the Level 2 citation card, the mechanism R16 (Entry 29) and Stage
-6a (Entries 35-36) exist to make trustworthy. (Renumbered from this
-PR's own original 37 to 38 on merge with `main` - PR #397's Entry 37
-landed first; see that entry's own numbering note. Never edit a past
-entry once merged, so this renumbering happens here, on this
+6a (Entries 35-36) exist to make trustworthy. (Renumbered twice on
+this branch: 37 -> 38 when PR #397 landed its own Entry 37 first, then
+38 -> 39 when PR #399 landed its own Entry 38 first - never editing a
+past entry once merged, so each renumbering happens here, on this
 not-yet-merged branch, rather than after the fact.)
 
 The data plumbing already existed end-to-end before this entry -
@@ -1123,16 +1156,17 @@ a confidence-less card renders no phrase line at all. Full suite
 see its own description for the same proposal table, open for Mark's
 wording before merge.
 
-**Entry 39 — 2026-09-22.** Stage 6c scope resolved, no code needed:
+**Entry 40 — 2026-09-22.** Stage 6c scope resolved, no code needed:
 Mark's own direct answer, given a real finding before it was asked -
 R9's ruled scope (Decision-Log.md Entry 29: "a quiet hollow-glyph
 variant of the existing citation mark, no new color, no new verb") was
 already fully built (the `.citation-mark--contested` CSS class,
-merged before this session) and Stage 6b (Entry 38, PR #395) adds the
+merged before this session) and Stage 6b (Entry 39, PR #395) adds the
 plain phrase on tap. Mark confirmed that is the whole of Stage 6c -
 no further record-specific "hedge" content beyond the generic phrase.
-(Renumbered from this PR's own original 38 to 39 on merge with `main`
-- same reason and rule as Entry 38's own note above.)
+(Renumbered twice on this branch, same reason and rule as Entry 39's
+own note above: 38 -> 39 when PR #397 landed first, then 39 -> 40 when
+PR #399 landed first.)
 
 **The finding that prompted the question, worth keeping on record:**
 before asking, checked whether `confidence.divergence_note` could
