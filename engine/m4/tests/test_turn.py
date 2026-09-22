@@ -1006,3 +1006,23 @@ def test_gate_calls_run_concurrently_not_sequentially():
     assert gate_run.reader_outcome.status == "ok"
     # Fixed append order regardless of which future actually completed first.
     assert [r.call_kind for r in gate_run.usage_records] == ["safety_call", "reader_call"]
+
+
+def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
+    """R27 fix list F3 (reviewer thread, 2026-09-22):
+    engine.m4.live_uncited_claims_battery's own opt-in regeneration
+    channel - unset on every real interview/table caller (byte-identical
+    behavior preserved; no assertion needed for the None case, since
+    every other test in this file already exercises it without passing
+    correction). This is the one hermetic proof that the text actually
+    reaches the model, in the same uncached, per-turn system block
+    turn_directive itself rides in - not silently dropped."""
+    client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["An answer."])
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        correction="\n## Correction\nCite everything, or say plainly your record is silent.",
+    )
+    system_blocks = client.messages.captured_stream_calls[0][0]
+    directive_text = "".join(b["text"] for b in system_blocks[1:])
+    assert "Cite everything, or say plainly your record is silent." in directive_text

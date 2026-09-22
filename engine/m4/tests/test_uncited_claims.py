@@ -82,6 +82,43 @@ def test_first_person_framing_that_still_makes_a_claim_is_not_exempt():
     assert len(offenses) == 1
 
 
+# F1 (reviewer thread fix list, 2026-09-22): the fleet's own real honest-
+# limit forms, taken verbatim from the item-4 live battery's own offense
+# list (live-uncited-claims-battery-report.json) - the exact sentences the
+# raw check wrongly caught before this fix.
+def test_fix_list_f1_record_absence_forms_are_allowed_uncited():
+    sentences = [
+        sent("How it ended among us is not in our record."),
+        sent("Here is the honest limit."),
+        sent("No rule of ours survives that explains the difference."),
+    ]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_fix_list_f1_a_genuine_survives_claim_with_no_negation_is_not_exempt():
+    # The negation-proximity guard's own negative control: "survives" alone,
+    # with no negator, is a real citable claim, not a record-absence form.
+    sentences = [sent("The letter survives in three copies.")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+
+
+# F2 (same fix list): a conditional offer whose MAIN clause is first-
+# person, not its opener - the opener-only check missed this exact battery
+# sentence.
+def test_fix_list_f2_conditional_first_person_offer_is_allowed_uncited():
+    sentences = [
+        sent("If you name the conflict you mean, I will tell you plainly where our own record speaks to it and where it does not.")
+    ]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_fix_list_f2_a_first_person_clause_that_still_makes_a_claim_is_not_exempt():
+    sentences = [sent("If you ask, we can tell you Origen taught this in the year 240.")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+
+
 def test_classify_neighbour_named_upgrades_when_a_known_tradition_is_named():
     offense = {"sentence": "The Donatists refused to accept bishops who had handed over Scriptures.", "class": "uncited_claim"}
     upgraded = classify_neighbour_named(offense, known_tradition_names=["The Church of the Martyrs", "Donatists"])

@@ -461,6 +461,7 @@ def _run_ordinary_voice_turn(
     usage_world_key: str | None = None,
     guard_labels: list[str] | None = None,
     is_other_tradition_first_ask: bool = False,
+    correction: str | None = None,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -499,7 +500,18 @@ def _run_ordinary_voice_turn(
     seat_identity_violations/seat_identity_guard_exhausted fields rather
     than raised, so a caller that never passes guard_labels (every
     interview call) can go on reading this function's return shape exactly
-    as it always has."""
+    as it always has.
+
+    correction (R27 fix list F3, reviewer thread, 2026-09-22): free text
+    appended onto whatever _build_turn_directive already produced, same
+    channel and same append-not-replace shape as
+    _append_seat_identity_correction. None on every real caller
+    (engine.api.wiring, engine.api.table_wiring never pass it - "battery-
+    only, no participant path" is the fix list's own words) - it exists
+    so engine.m4.live_uncited_claims_battery can simulate one regeneration
+    naming a turn's own uncited sentences without duplicating this
+    function's evidence-assembly/generation logic in the battery script
+    itself. Purely additive: unset, this parameter changes nothing."""
     usage_records = []
     repository_records = evidence.repository_records_by_id(world.repository)
     thin_topics = evidence.thin_topics_for(repository_records)
@@ -546,6 +558,8 @@ def _run_ordinary_voice_turn(
     turn_directive = _build_turn_directive(
         directive, figures_already_named, table_engagement, is_other_tradition_first_ask=is_other_tradition_first_ask
     )
+    if correction:
+        turn_directive = (turn_directive or "") + correction
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
         turn_directive=turn_directive, message=user_message, history=history,
