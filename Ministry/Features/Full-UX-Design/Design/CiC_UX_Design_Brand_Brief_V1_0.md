@@ -9,7 +9,7 @@ the single reconciliation: what's decided, what changed under you, what's yours
 to execute.
 
 **Governing chain (unchanged):** Vision V1.1 → Constitution → **Brand Foundations**
-(`Ministry/Communication/CiC_Brand_Brief_V0_1_DRAFT.md` +
+(`Archive/Ministry-Early-Days-2026-07/Communication/CiC_Brand_Brief_V0_1_DRAFT.md` +
 `CiC_Messaging_Branding_Kit_V0_1_DRAFT.md`, header V0.2) → this brief → your
 designs. Where any screen conflicts with the Foundations, the Foundations govern
 until Mark revises them.
@@ -45,7 +45,7 @@ rendering trap) → the C drawn in one stroke from the *lower lip* around to the
 *upper lip* — the doorway completes last, beside the guest (~1.3s; never
 both-ends growth: it reads as enveloping) → the weighted sit (~0.6s) → the
 candle-breath (opacity-only, 5.5s cycle). Working pure-CSS reference:
-`Ministry/Communication/CiC_Logo_Motion_Study_V0_1.html` (V0.8) — lift it.
+`Archive/Ministry-Early-Days-2026-07/Communication/CiC_Logo_Motion_Study_V0_1.html` (V0.8) — lift it.
 
 **Binding motion rules:** the dot never enters the circle (no animation plays
 the joining at a visitor) · the opening is constant — the mark never reacts to
