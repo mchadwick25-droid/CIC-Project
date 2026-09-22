@@ -3,7 +3,7 @@ id: desert.limit.outsiders-condemned
 world_id: desert-monasticism
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-T]
 confidence:

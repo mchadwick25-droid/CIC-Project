@@ -3,7 +3,7 @@ id: desert.contested.alexandria-continuity
 world_id: desert-monasticism
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

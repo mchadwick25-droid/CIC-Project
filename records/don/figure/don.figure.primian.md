@@ -3,7 +3,7 @@ id: don.figure.primian
 world_id: donatism
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

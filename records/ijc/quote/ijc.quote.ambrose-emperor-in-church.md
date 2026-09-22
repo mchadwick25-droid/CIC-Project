@@ -3,7 +3,7 @@ id: ijc.quote.ambrose-emperor-in-church
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

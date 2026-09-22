@@ -3,7 +3,7 @@ id: witt.term.spiritual-and-temporal-estate
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

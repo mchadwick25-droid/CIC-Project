@@ -3,7 +3,7 @@ id: witt.force.reformed-rival-by-absence
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

@@ -3,7 +3,7 @@ id: syr.contested.papa-primacy
 world_id: syriac-edessa-nisibis
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I

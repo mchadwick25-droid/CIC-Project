@@ -3,7 +3,7 @@ id: syr.demo.marriage-ending
 world_id: syriac-edessa-nisibis
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T

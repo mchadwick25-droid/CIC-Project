@@ -3,7 +3,7 @@ id: hal.quote.i-gather-the-rose-from-the-thorns
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E

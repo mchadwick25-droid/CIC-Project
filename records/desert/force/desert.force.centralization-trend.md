@@ -3,7 +3,7 @@ id: desert.force.centralization-trend
 world_id: desert-monasticism
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

@@ -3,7 +3,7 @@ id: cappadocian.force.canonization-sieve
 world_id: cappadocian-trinitarian
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

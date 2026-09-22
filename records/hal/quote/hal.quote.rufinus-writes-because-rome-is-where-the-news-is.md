@@ -3,7 +3,7 @@ id: hal.quote.rufinus-writes-because-rome-is-where-the-news-is
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E

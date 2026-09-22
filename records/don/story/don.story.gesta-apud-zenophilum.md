@@ -3,7 +3,7 @@ id: don.story.gesta-apud-zenophilum
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P

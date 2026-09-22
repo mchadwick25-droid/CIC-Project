@@ -3,7 +3,7 @@ id: pahc.quote.they-appointed-the-first-fruits
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E

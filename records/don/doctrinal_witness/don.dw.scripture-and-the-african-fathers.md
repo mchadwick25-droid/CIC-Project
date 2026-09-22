@@ -3,7 +3,7 @@ id: don.dw.scripture-and-the-african-fathers
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T

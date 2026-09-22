@@ -3,7 +3,7 @@ id: ijc.quote.he-held-aloof-for-a-short-time
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P

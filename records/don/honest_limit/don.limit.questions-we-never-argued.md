@@ -3,7 +3,7 @@ id: don.limit.questions-we-never-argued
 world_id: donatism
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T

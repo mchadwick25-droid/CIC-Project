@@ -3,7 +3,7 @@ id: cappadocian.voice.craft
 world_id: cappadocian-trinitarian
 record_type: voice_craft
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

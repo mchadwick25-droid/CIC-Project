@@ -3,7 +3,7 @@ id: witt.demo.bread-and-cup
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T]
 confidence:

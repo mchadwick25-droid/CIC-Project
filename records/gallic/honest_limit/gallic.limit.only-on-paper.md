@@ -3,7 +3,7 @@ id: gallic.limit.only-on-paper
 world_id: gallic-monastic-ascetic-christianity
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E

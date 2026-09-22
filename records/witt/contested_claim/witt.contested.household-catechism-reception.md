@@ -3,7 +3,7 @@ id: witt.contested.household-catechism-reception
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

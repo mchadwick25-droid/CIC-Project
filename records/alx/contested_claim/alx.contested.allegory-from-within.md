@@ -3,7 +3,7 @@ id: alx.contested.allegory-from-within
 world_id: alexandria-catechetical
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I

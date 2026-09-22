@@ -3,7 +3,7 @@ id: desert.demo.center-how-we-know
 world_id: desert-monasticism
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-E]
 confidence:

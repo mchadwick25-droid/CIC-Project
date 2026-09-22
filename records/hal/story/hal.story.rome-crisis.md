@@ -3,7 +3,7 @@ id: hal.story.rome-crisis
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P

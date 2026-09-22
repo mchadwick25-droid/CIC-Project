@@ -3,7 +3,7 @@ id: alx.force.gnostic-challenge
 world_id: alexandria-catechetical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E

@@ -3,7 +3,7 @@ id: ijc.term.tomus
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T

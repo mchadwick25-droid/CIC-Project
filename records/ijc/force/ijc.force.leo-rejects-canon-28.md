@@ -3,7 +3,7 @@ id: ijc.force.leo-rejects-canon-28
 world_id: imperial-juridical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I

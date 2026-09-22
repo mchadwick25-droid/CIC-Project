@@ -3,7 +3,7 @@ id: don.demo.did-the-empire-change-you
 world_id: donatism
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-E]
 confidence:

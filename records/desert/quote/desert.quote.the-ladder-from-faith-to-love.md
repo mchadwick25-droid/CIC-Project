@@ -3,7 +3,7 @@ id: desert.quote.the-ladder-from-faith-to-love
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F4-P]
 confidence:

@@ -3,7 +3,7 @@ id: gallic.story.the-angel-and-the-twelve-psalms
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E

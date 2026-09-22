@@ -3,7 +3,7 @@ id: pahc.story.polycarp-forwards-letters
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P

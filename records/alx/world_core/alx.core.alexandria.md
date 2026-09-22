@@ -3,7 +3,7 @@ id: alx.core.alexandria
 world_id: alexandria-catechetical
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

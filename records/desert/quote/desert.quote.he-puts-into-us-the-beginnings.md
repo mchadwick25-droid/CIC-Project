@@ -3,7 +3,7 @@ id: desert.quote.he-puts-into-us-the-beginnings
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T, C-P]
 confidence:

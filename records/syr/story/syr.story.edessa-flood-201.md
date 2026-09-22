@@ -3,7 +3,7 @@ id: syr.story.edessa-flood-201
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E

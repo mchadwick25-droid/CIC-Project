@@ -3,7 +3,7 @@ id: syr.dw.physician
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P

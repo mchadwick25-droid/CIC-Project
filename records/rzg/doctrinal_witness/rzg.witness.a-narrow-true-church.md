@@ -3,7 +3,7 @@ id: rzg.witness.a-narrow-true-church
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T

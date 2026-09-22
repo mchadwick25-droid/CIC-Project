@@ -3,7 +3,7 @@ id: rzg.force.1541-ecclesiastical-ordinances-consistory-founding
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I

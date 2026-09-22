@@ -981,7 +981,53 @@ script written and reviewed here first rather than left to the
 subagent's own judgment, given what this directly feeds (the live
 confidence display). Counts per world follow in a later entry once run.
 
-**Entry 36 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+**Entry 36 — 2026-09-22.** 6a's sweep run (PR #394): 2033 records
+promoted draft -> ready across the 11 admitted worlds, exactly matching
+the script's own dry-run counts from Entry 35's design (no drift between
+plan and execution).
+
+| World | Promoted | Draft before |
+|---|---|---|
+| alx | 179 | 197 |
+| cappadocian | 275 | 278 |
+| desert | 182 | 200 |
+| don | 211 | 248 |
+| gallic | 193 | 199 |
+| hal | 162 | 175 |
+| ijc | 158 | 186 |
+| pahc | 147 | 162 |
+| rzg | 108 | 110 |
+| syr | 167 | 187 |
+| witt | 251 | 252 |
+| **Total** | **2033** | |
+
+don's remaining 25 draft-and-flagged records (52 gate findings behind
+them, matching `ACCEPTED_OPEN`'s own recorded `m1:reciprocity/don`
+count) stay draft, waiver or not - the rule from Entry 35 applied
+exactly as designed, not loosened at execution time. The smaller
+flagged counts in cappadocian (1), desert (1), gallic (3), pahc (2),
+and syr (1) were likewise left untouched.
+
+Each of the 11 worlds' packages rebuilt (`engine.m2.cli build`),
+determinism-checked, and repinned
+(`records/worlds/<world>.yaml`'s `package.manifest_hash`/`location`).
+Verified: fleet-wide `engine.m2.cli restore` -> `pass: true` (all 12
+worlds), `staleness-check` -> `pass: true`, `python -m pytest
+engine/api/tests -q` -> 130 passed. A diff scan confirmed every
+`records/` change in this PR is exactly a `status: draft`/`ready` flip
+inside the record's own frontmatter block - no body-prose content
+touched anywhere, and no `frozen` status assigned anywhere (not this
+pass's decision to make, per Entry 35).
+
+Mechanical execution (script run, per-world build/determinism-check/
+repin/restore loop) ran on a Haiku subagent as Entry 35 said it would,
+against the script written and reviewed there first. Its report was
+independently re-verified against the actual repo state before this
+commit - not taken on trust - via a direct re-run of `restore`,
+`staleness-check`, and `pytest`, a `git status` file-count check, and
+the diff scan above. PR #394.
+
+**Entry 37 — 2026-09-22. Correction to Entry 33.** After an unshallowed
 check, the reviewer thread found the real merge base is the 2026-09-20
 merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
 Entry 32/33 were working from, and directed a plain `git merge origin/live`
@@ -1007,11 +1053,14 @@ attempted). Executed and verified:
 - `records/worlds/*.yaml` (12 files) and their package manifests: resolved
   toward `main`, then all 12 worlds rebuilt fresh
   (`engine.m2.cli build` + repin) rather than trusting either side's stale
-  pin — `engine.m2.cli staleness-check` passes clean on all 12. A second
-  round of the same conflict landed concurrently (this file's own Entry 34
-  above, the R19 retrofit's own 10-world repin) while this merge was in
-  progress — resolved the same way, toward the newer content, then
-  rebuilt fresh again.
+  pin — `engine.m2.cli staleness-check` passes clean on all 12. Two more
+  rounds of the same conflict landed concurrently while this merge was in
+  progress (this file's own Entries 34 and 36 above, the R19 retrofit's
+  10-world repin and Stage 6a's 11-world repin) — each resolved the same
+  way and rebuilt fresh again; the third round resolved toward this
+  branch's own accumulated state rather than the incoming side, to stop
+  re-breaking the `hal` fix below on every fresh round of the identical
+  pin conflict.
 - 4 `worlds/*/Open_Gaps_Tracking.md` files (desert, gallic, hal, pahc) were
   add/add conflicts — `live` had independently created each from scratch,
   unaware of this world's own existing OG-numbered history. Unioned, not
@@ -1025,18 +1074,14 @@ attempted). Executed and verified:
   difference. No scholarly call was actually needed; resolved toward
   `main` (options and their outcome logged in `Ministry/Operations/Audits/
   Tech-Readiness-2026-09/P2-Operations/Decision-Log.md`).
-- One real regression, caught twice, fixed twice, before either merge
-  opened: an initial blanket "take one side's whole file" resolution of a
-  registry file's package-pin conflict reverted `hal.yaml`'s own
-  `living_tradition_flag` back to the stale `true` it should not carry —
-  first when resolving toward `main` against `live`, then again when
-  resolving toward `main`'s own newer content against this file's own
-  Entry 34 (R19 retrofit) landing concurrently, since neither side's
-  *package-pin* conflict resolution touches this unrelated field, and a
-  whole-file `--ours`/`--theirs` pick reverts whatever that side happens to
-  carry there regardless. Both times caught by `engine/m1/tests/
-  test_cross_world.py`'s own drift check before committing, fixed, hal
-  rebuilt again each time, full suite re-run.
+- One real regression, caught three times, fixed three times, before any
+  of the three merges committed: a whole-file "take one side's version"
+  resolution of the registry files' package-pin conflict reverts whatever
+  `hal.yaml`'s own `living_tradition_flag` happens to read on that side —
+  a field the pin conflict itself never touches, but a whole-file pick
+  clobbers regardless. Caught each time by `engine/m1/tests/
+  test_cross_world.py`'s own drift check before committing, fixed each
+  time, hal rebuilt again each time, full suite re-run.
 - Full suite: 895/895 passing. `engine.m1.cross_world`: 0 new defects.
   `engine.m9.cli check`: clean. `tools/check_paths.py`: 0 new unresolved
   citations (2 baseline entries added for package-timestamp citations that
@@ -1050,7 +1095,7 @@ This workstream's own coordination boundary held throughout: no edits to
 merge itself brought in verbatim from `live`; the four files this entry
 lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
 only hand-edited conflict resolutions, and none of them touch this
-workstream's own in-flight Stage 5+ work. (Numbered 36, not 34 as first
-drafted — this workstream landed its own Entries 34–35 concurrently;
-renumbered on merge per this file's own "never renumber a past entry"
-rule, which binds the later arrival.)
+workstream's own in-flight Stage 5+/6 work. (Numbered 37, not 34 as first
+drafted — this workstream landed its own Entries 34–36 concurrently across
+two more merge rounds; renumbered each time on merge per this file's own
+"never renumber a past entry" rule, which binds the later arrival.)
