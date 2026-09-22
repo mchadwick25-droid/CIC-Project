@@ -9,17 +9,27 @@ canon_cells:
 - F6-P
 confidence:
   citation_specificity: A
-  verification_state: verified-direct
+  verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    Quote-verbatim gate finding (2026-09-22): this vendored djvu OCR scan is corrupted beyond the two
+    artifacts already disclosed below ("1"/"I", "1 5."/"15."). Directly checked against the raw scan
+    this session: "vastuess" for "vastness", "east" for "cast" ("eyes always east on the ground"), and
+    "sober-mirfded" for "sober-minded" are all real OCR misreadings at this exact passage, not textual
+    variants. The record's own English readings are correct and were already independently verified
+    against the raw scan (see body note), but a letter-for-digit substitution like "1"/"I" and
+    genuine word-level OCR corruption aren't within the gate's six ruled difference classes, so this
+    record can't verify character-for-character against the file as scanned. No other edition of
+    Ammianus is vendored. verification_state lowered from verified-direct to verified-via-authority to
+    reflect this; not resolved further here.
 sources:
 - source_id: ijc.source.ammianus-marcellinus
   locus: "Res Gestae XXVII.3.14-15"
   license: public-domain
 text: 'I do not deny, when I consider the ostentation that reigns at Rome, that those who desire such
   rank and power may be justified in labouring with all possible exertion and vehemence to obtain their
-  wishes; since after they have succeeded, they will be secure for the future, being enriched by
+  wishes ; since after they have succeeded, they will be secure for the future, being enriched by
   offerings from matrons, riding in carriages, dressing splendidly, and feasting luxuriously, so that
   their entertainments surpass even royal banquets. And they might be really happy if, despising the
   vastness of the city, which they excite against themselves by their vices, they were to live in

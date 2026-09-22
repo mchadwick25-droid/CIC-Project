@@ -19,11 +19,24 @@ sources:
   license: public-domain
 text: For neither do we say that certain Christian emperors were therefore happy because they ruled a
   long time, or, dying a peaceful death, left their sons to succeed them in the empire, or subdued the
-  enemies of the republic. These and other gifts or comforts of this sorrowful life even certain worshippers
-  of demons have merited to receive. But we say that they are happy if they rule justly; if they are
-  not lifted up amid the praises of those who pay them sublime honors, but remember that they are men;
-  if they are slow to punish, ready to pardon; if they prefer to govern depraved desires rather than
-  any nation whatever.
+  enemies of the republic, or were able both to guard against and to suppress the attempt of hostile
+  citizens rising against them. These and other gifts or comforts of this sorrowful life even certain
+  worshippers of demons have merited to receive, who do not belong to the kingdom of God to which these
+  belong; and this is to be traced to the mercy of God, who would not have those who believe in Him
+  desire such things as the highest good. But we say that they are happy if they rule justly; if they
+  are not lifted up amid the praises of those who pay them sublime honors, and the obsequiousness of
+  those who salute them with an excessive humility, but remember that they are men; if they make their
+  power the handmaid of His majesty by using it for the greatest possible extension of His worship; if
+  they fear, love, worship God; if more than their own they love that kingdom in which they are not
+  afraid to have partners; if they are slow to punish, ready to pardon; if they apply that punishment
+  as necessary to government and defence of the republic, and not in order to gratify their own enmity;
+  if they grant pardon, not that iniquity may go unpunished, but with the hope that the transgressor may
+  amend his ways; if they compensate with the lenity of mercy and the liberality of benevolence for
+  whatever severity they may be compelled to decree; if their luxury is as much restrained as it might
+  have been unrestrained; if they prefer to govern depraved desires rather than any nation whatever; and
+  if they do all these things, not through ardent desire of empty glory, but through love of eternal
+  felicity, not neglecting to offer to the true God, who is their God, for their sins, the sacrifices of
+  humility, contrition, and prayer.
 speaker_or_author: Augustine of Hippo, writing after the sack of Rome
 license: verbatim
 modern_lens_note: >-
@@ -42,19 +55,19 @@ relations:
 Verified verbatim against the vendored file 2026-08-27 at npnf102 line
 11054, chapter number read from the markup's own n="24" attribute.
 
-DISCLOSED ELISIONS, in the discipline the milan-edict record's review
-established. Three cuts, each at a clause boundary, none altering
-punctuation within a retained clause: after "enemies of the republic"
-the file continues "or were able both to guard against and to suppress
-the attempt of hostile citizens rising against them"; after "have
-merited to receive" it continues "who do not belong to the kingdom of
-God to which these belong; and this is to be traced to the mercy of God,
-who would not have those who believe in Him desire such things as the
-highest good"; and the run of conditions is abridged, with six of the
-twelve "if" clauses retained in their original order and the final one
-("not through ardent desire of empty glory, but through love of eternal
-felicity") dropped at the chapter's continuation. The full chapter is at
-the locus and is short.
+DISCLOSED ELISIONS (superseded by the fix below): the discipline the milan-edict record's review
+established named three cuts here, but undercounted the third - the "if" list actually kept only 4 of
+12 clauses, not 6, and one kept clause was itself silently abridged mid-clause.
+
+Quote-verbatim gate fix (2026-09-22): rather than re-count and re-mark a multi-point abridgement
+(four separate gaps, one of them inside a single retained clause), the chapter's own full sentence is
+restored - the earlier two elisions in full, and all twelve "if" clauses in their original order and
+wording, through the sentence's own natural close ("the sacrifices of humility, contrition, and
+prayer"). This is Augustine's own single sentence; restoring the parts the record's abridgement had
+cut doesn't add anything from outside it or change what the record's own gloss argues (pagan emperors
+matched every conventional measure of success; what's left, for Augustine, is a list of restraints) -
+it just gives the list in full rather than a curated four-item sample. The full chapter is at the
+locus and is short.
 
 WHY THIS QUOTE AND NOT A WARMER ONE. This world's registry is otherwise
 almost entirely composed of people who approved of the alliance, writing

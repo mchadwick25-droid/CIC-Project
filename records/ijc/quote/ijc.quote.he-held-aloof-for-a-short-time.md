@@ -20,7 +20,7 @@ sources:
     Ecclesiastical History I.8, on Eusebius of Caesarea at the Council of Nicaea (npnf202_socrates-sozomen-ecclesiastical-histories.xml, from file line 2972)
   license: public-domain
 text: >-
-  ...having held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation.
+  ...had held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation.
 speaker_or_author: Socrates Scholasticus, Ecclesiastical History
 license: verbatim
 modern_lens_note: >-
@@ -41,3 +41,9 @@ exact locus and could not show it.
 The opening ellipsis marks the excerpt starting mid-sentence, where Socrates turns from the council
 to Eusebius. Kept to the whole of the hesitation-and-explanation arc rather than cut to "held
 aloof", because the letter home is the half that shows what the hesitation cost.
+
+Quote-verbatim gate fix (2026-09-22): the record had smoothed the source's "who had held aloof" to
+"having held aloof" for the ellipsis-started fragment to read more cleanly - a real word substitution,
+which is not allowed regardless of size. Restored to the source's own "had held"; the fragment now
+reads a little less smoothly right after the ellipsis, which is the honest cost of marking a real
+mid-sentence start rather than silently regularizing the grammar.

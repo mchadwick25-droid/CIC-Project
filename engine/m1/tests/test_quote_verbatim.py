@@ -225,18 +225,28 @@ def test_verse_number_ruling_fixes_a_real_previously_failing_record():
     assert "verse_number" in result.classes_used
 
 
-def test_real_unmarked_omission_still_fails_after_the_verse_number_ruling():
-    """pahc.quote.polycrates-to-victor silently drops ~15 words of real
-    source text ('when He cometh with glory from heaven and shall raise
-    again all the saints') with no ellipsis - a genuine defect, not a
-    verse-number gap. The new tolerance must not paper over it."""
+def test_polycrates_to_victor_omission_is_now_marked_and_verifies():
+    """Until the 2026-09-22 quote-fidelity record-fix pass, this record
+    silently dropped ~15 words of real source text ('when He cometh with
+    glory from heaven and shall raise again all the saints') with no
+    ellipsis - a genuine unmarked-omission defect, not a verse-number
+    gap, and this test originally asserted the new verse_number tolerance
+    did not paper over it (`verified is False`). The record-fix pass
+    corrected the defect the right way: a real ellipsis mark at the
+    dropped span, matching the record's own already-disclosed elision.
+    That means it now verifies, and the general principle this test
+    guarded - that the verse_number allowance never licenses a wider,
+    unmarked skip - is covered independently, without depending on any
+    one record's mutable content, by
+    test_verse_number_gap_does_not_license_a_wider_skip above."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("pahc")
     fleet = load_fleet_records()
     rec = records["pahc.quote.polycrates-to-victor"]
     result = verify_quote_record(rec, records, fleet)
-    assert result.verified is False
+    assert result.verified is True
+    assert "ellipsis" in result.classes_used
 
 
 def test_texts_dir_points_at_the_real_vendored_library():

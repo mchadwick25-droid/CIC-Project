@@ -22,7 +22,7 @@ text: This one and the same Jesus Christ, the only-begotten Son [of God] must be
   natures, unconfusedly, immutably, indivisibly, inseparably [united], and that without the distinction
   of natures being taken away by such union, but rather the peculiar property of each nature being
   preserved and being united in one Person and subsistence, not separated or divided into two persons,
-  but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ.
+  but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ...
 speaker_or_author: "The Council of Chalcedon (451), the Definition of Faith"
 license: verbatim
 modern_lens_note: >-
@@ -56,3 +56,8 @@ Lord Jesus Christ hath taught us, and as the Creed of the Fathers hath
 delivered to us" - the truncation is defensible (the sentence's
 doctrinal core is complete); the undisclosed punctuation substitution
 was not.
+
+Quote-verbatim gate fix (2026-09-22): the punctuation substitution the review above flagged as
+needing a fix is corrected now - the invented period is replaced with a trailing ellipsis, honestly
+marking the truncation the review already judged defensible rather than presenting it as a real full
+stop.

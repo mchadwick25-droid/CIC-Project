@@ -19,7 +19,7 @@ sources:
   license: public-domain
 text: For the Fathers rightly granted privileges to the throne of old Rome, because it was the royal city.
   And the One Hundred and Fifty most religious Bishops, actuated by the same consideration, gave equal
-  privileges to the most holy throne of New Rome, justly judging that the city which is honoured with
+  privileges...to the most holy throne of New Rome, justly judging that the city which is honoured with
   the Sovereignty and the Senate, and enjoys equal privileges with the old imperial Rome, should in
   ecclesiastical matters also be magnified as she is, and rank next after her
 speaker_or_author: "The Council of Chalcedon (451), Canon 28"
@@ -42,3 +42,8 @@ the canon continues into jurisdictional specifics). The claim's most
 consequential sentence: even OLD Rome's privileges are here said to
 rest on its having been the royal city - the premise Leo's rejection
 letters deny root and branch.
+
+Quote-verbatim gate fix (2026-09-22): the Greek gloss's omission was already disclosed above but not
+marked in the `text` field itself, which just skipped straight from "privileges" to "to the most holy
+throne" with no gap noted. Added an ellipsis there rather than leaving it silent - the gloss stays
+excluded exactly as already decided, now honestly marked.

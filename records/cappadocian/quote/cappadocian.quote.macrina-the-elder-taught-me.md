@@ -38,7 +38,7 @@ text: >-
   fashioned and formed me, while yet a child, upon the doctrines of piety.
   And when I gained the capacity of thought, my reason being matured by full
   age, I travelled over much sea and land, and whomsoever I found walking in
-  the rule of godliness delivered, those I set down as fathers.
+  the rule of godliness delivered, those I set down as fathers,]
 speaker_or_author: cappadocian.figure.basil
 license: verbatim
 modern_lens_note: >-
@@ -84,12 +84,17 @@ heading and div id this build already recorded for
 cappadocian.quote.basil-canon-on-digamy, checked again here rather than assumed.
 The quoted sentences are at id "ix.ccv-p26", lines 37060-37068. Double-spacing in
 the source file's own typesetting normalized to single spaces; no wording added,
-dropped, or reordered. **One punctuation change, disclosed because "verbatim"
-should mean it:** the source reads "those I set down as fathers,]" - a comma, then
-Newman's closing bracket, then the NPNF translator's continuation. The quotation
-ends at the bracket, and that trailing comma is rendered as a full stop. Nothing
-else differs; a character-by-character check of the whole quotation against the
-file matches to that final mark.
+dropped, or reordered.
+
+Quote-verbatim gate fix (2026-09-22): the `text` field previously closed with an
+invented full stop where the source has "those I set down as fathers,]" - a comma,
+then Newman's own closing bracket marking exactly where his translation ends (see
+below). Restored the literal comma and closing bracket in place of the invented
+period. This is not a restoration of the NPNF translator's continuation ("and made
+them my soul's guides in my journey to God") - that text is deliberately still
+excluded, for the reason given below (mixing two translators inside one quotation
+would misrepresent both); only the punctuation marking Newman's own boundary is
+now shown as the source actually prints it.
 
 WHERE THE QUOTATION STOPS, AND WHY EXACTLY THERE. This volume prints Letter CCIV
 as a braid of two English versions, and states in that letter's own prefatory
