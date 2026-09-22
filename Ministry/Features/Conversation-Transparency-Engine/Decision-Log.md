@@ -1026,3 +1026,45 @@ independently re-verified against the actual repo state before this
 commit - not taken on trust - via a direct re-run of `restore`,
 `staleness-check`, and `pytest`, a `git status` file-count check, and
 the diff scan above. PR #394.
+
+**Entry 37 — 2026-09-22.** Stage 6d's engineering half built: a new M7
+instrument, `level1_element_density`, counting Level-1 (inline,
+directly-in-text) transparency marks per turn. Report-only, no cap
+enforced - per `Adjusted-Design.md`'s own N2 note, R17 splits into
+"RULING R17 on numbers" (still Mark's to set) and engineering (this).
+(Numbering note: PR #395, Stage 6b/6c work carrying Entries 37-38, was
+opened before this one but is still pending Mark's wording as of this
+entry - branched from `main` before either landed, so this entry is
+also 37 here; whichever PR merges first keeps its numbers per this
+file's own "never renumber a past entry" rule, the other renumbers on
+merge, same as Entry 32's own precedent.)
+
+`engine/m7/session_reader.py`'s `VoiceTurnRecord` gains `figures_used`,
+`glosses`, and `transparency`, lifted verbatim off the `voice_turn`
+event's own payload - same pattern `citations` already used.
+`engine/m7/instruments.py`'s new `level1_element_density(s)` counts,
+per turn: story/witness citation marks (grouped by the SAME
+`run_start_sentence`/`run_end_sentence`/`record_type` logic
+`VoiceTurnBody.tsx`'s `renderFromTransparencyPlan` uses, reproduced
+independently in Python - a known, named limitation, not a shared
+implementation), figure marks, and gloss marks, against the turn's own
+sentence count. Wired into `run_all()` under its own key, metrics only
+(same shape as `register_mechanical`'s own metrics half) - no Finding
+objects, nothing enforced.
+
+2 new tests (grouping fidelity against a constructed transparency
+plan; confirmation this stays report-only). `engine/m7` suite 34/34;
+full suite 832/832.
+
+**Still open, not guessed at here:** the actual cap number/formula.
+R17's own ruled text ("a small, capped number of inline marks per
+turn, scaling gently with sentence count") is deliberately
+unspecific - no formula or drop order is decided anywhere in
+`Rulings-Pending.md` or this log. A specific formula
+(`max(3, min(8, ceil(sentences/2)))`) and drop order
+(glosses→figures→stories, never witness quotes) existed only in this
+session's own pre-compaction working notes, not in anything Mark
+actually ruled - flagged rather than built against, the same
+discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
+once set, is what the renderer fixture test (R17's other engineering
+half) will assert against; that test is not yet written. PR #396.
