@@ -116,8 +116,10 @@ proceeding with the design already agreed: a quiet, non-alarming hollow
 glyph — not a new color, not a new verb.
 
 ### R10 — Where a story's citation mark lands: first sentence or end of the telling
-**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29. Unblocks
-Stage 3c's renderer switch-on (label copy is still a separate step).
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29. Unblocked
+Stage 3c's renderer switch-on; label copy (its own remaining step) landed
+Entry 41, and the switch-on itself — `VITE_TRANSPARENCY_ANCHOR_RENDERER`
+defaulting on — landed Entry 49, closing this out in full.
 (a) End of the telling, as built today. (b) First sentence, uniformly.
 (c) First sentence for a witness quote, end-of-run for a story. A
 repeated re-citation gets the lighter "ibid" glyph under any of the
@@ -198,7 +200,10 @@ once that world has actually been through its promotion pass.
 
 ### R17 — A hard budget on how many new transparency elements can stack on one screen
 **Status:** RULED (approved as house rule) — 2026-09-21. See
-Decision-Log.md Entry 29.
+Decision-Log.md Entry 29. Both halves of the read-through this ruling
+itself required — the automated cap test (Entry 38, PR #399) and Mark's
+own seeker read-through, on both sides (Entry 46 mine, Entry 48 Mark's
+own, verdict: promote) — are done; gate fully closed.
 Proposal on the table: at most a small, capped number of inline marks per
 turn (scaling gently with sentence count), one collapsed references line
 instead of a scattered list, no new mark types beyond the one
