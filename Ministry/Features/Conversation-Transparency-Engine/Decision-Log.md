@@ -1037,7 +1037,10 @@ opened before this one but is still pending Mark's wording as of this
 entry - branched from `main` before either landed, so this entry is
 also 37 here; whichever PR merges first keeps its numbers per this
 file's own "never renumber a past entry" rule, the other renumbers on
-merge, same as Entry 32's own precedent.)
+merge, same as Entry 32's own precedent. Resolution, logged in the
+entries immediately below rather than edited here, since a past entry
+is never rewritten: this PR (#397) merged first, so it keeps 37; PR
+#395's own Entries 37-38 renumber to 38-39.)
 
 `engine/m7/session_reader.py`'s `VoiceTurnRecord` gains `figures_used`,
 `glosses`, and `transparency`, lifted verbatim off the `voice_turn`
@@ -1065,9 +1068,10 @@ unspecific - no formula or drop order is decided anywhere in
 (glosses→figures→stories, never witness quotes) existed only in this
 session's own pre-compaction working notes, not in anything Mark
 actually ruled - flagged rather than built against, the same
-discipline Entry 38 (PR #395) applied to Stage 6c. Mark's own number,
-once set, is what the renderer fixture test (R17's other engineering
-half) will assert against; that test is not yet written. PR #397.
+discipline Entry 40 (PR #395, renumbered per the note below) applied
+to Stage 6c. Mark's own number, once set, is what the renderer
+fixture test (R17's other engineering half) will assert against; that
+test is not yet written. PR #397.
 
 **Entry 38 — 2026-09-22.** R17's cap number confirmed and enforced:
 Mark's own direct answer this session - cap = `max(3, min(8,
@@ -1100,9 +1104,126 @@ with an earlier test's still-mounted DOM - fixed locally by scoping
 the new test's own query to its own render container, not by touching
 the shared test setup (out of this PR's own scope; the gap itself is
 worth a future look). Full suite 14/14; `npx tsc --noEmit` and `npm
-run build` both clean. PR pending.
+run build` both clean. PR #399, merged.
 
-**Entry 39 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+**Entry 39 — 2026-09-22.** Stage 6b built: `formation_confidence` wired
+into the Level 2 citation card, the mechanism R16 (Entry 29) and Stage
+6a (Entries 35-36) exist to make trustworthy. (Renumbered twice on
+this branch: 37 -> 38 when PR #397 landed its own Entry 37 first, then
+38 -> 39 when PR #399 landed its own Entry 38 first - never editing a
+past entry once merged, so each renumbering happens here, on this
+not-yet-merged branch, rather than after the fact.)
+
+The data plumbing already existed end-to-end before this entry -
+`engine/m1/schemas.py`'s five-value enum,
+`engine/m4/transparency_plan.py` attaching the full `confidence`
+envelope verbatim to every anchor and reference card, `engine/m4/
+turn.py`/`projection.py` passing it through the API untouched. Nothing
+on the backend changed. Only the frontend's own read of it was
+missing: `SourceCard.confidence` existed in the real API response but
+was never declared on the TS type (now added, optional, so every
+predating fixture still typechecks), and nothing rendered it.
+
+New `cic-poc/frontend/src/lib/confidence.ts`: a pure five-entry lookup
+(`confidencePhrase()`) from `formation_confidence` to one plain
+phrase, returning null - never inventing one - for a missing or
+unrecognized value, including "Not Attested" (R8, RULED c: not a
+sixth `formation_confidence` value). Wired into `StoryMark.tsx` and
+`WitnessMark.tsx`'s existing Level 2 content, one new line per cited
+record. No new mark type, no new color - R17's own house rule ("no
+new mark types beyond R9's hollow-glyph variant") reads this as
+content inside an existing card, not a new disclosure element.
+
+Phrases proposed as draft, then confirmed as Mark's own word without
+change ("my drafts are approved as-is"):
+
+| formation_confidence | Phrase |
+|---|---|
+| Documented | "Recorded directly in a source from the time." |
+| Widely Accepted | "What historians broadly agree happened." |
+| Dominant Modern Reconstruction | "The leading modern reading of the evidence." |
+| Contested | "Historians disagree about this." |
+| Inferential-Thin | "Based on thin evidence, mostly inference." |
+
+9 new tests: `confidence.test.ts` covers all 5 phrases plus null/
+undefined/missing-field/unrecognized-value edge cases; two new
+`VoiceTurnBody.test.tsx` integration tests prove the phrase actually
+renders on a real Level 2 card open (`fireEvent.mouseEnter`) and that
+a confidence-less card renders no phrase line at all. Full suite
+25/25; `npx tsc --noEmit` and `npm run build` both clean. PR #395,
+merged.
+
+**Entry 40 — 2026-09-22.** Stage 6c scope resolved, no code needed:
+Mark's own direct answer, given a real finding before it was asked -
+R9's ruled scope (Decision-Log.md Entry 29: "a quiet hollow-glyph
+variant of the existing citation mark, no new color, no new verb") was
+already fully built (the `.citation-mark--contested` CSS class,
+merged before this session) and Stage 6b (Entry 39, PR #395) adds the
+plain phrase on tap. Mark confirmed that is the whole of Stage 6c -
+no further record-specific "hedge" content beyond the generic phrase.
+
+**The finding that prompted the question, worth keeping on record:**
+before asking, checked whether `confidence.divergence_note` could
+safely supply any such record-specific content. It cannot -
+fleet-wide, it is internal build/authoring-process commentary, not
+participant content (e.g. `records/rzg/figure/rzg.figure.faber.md`:
+`"This figure's own bridge_line is drawn from already-reviewed
+construction documents"`; `records/rzg/doctrinal_witness/
+rzg.witness.defending-the-anabaptist-suppression.md`: `"Built directly
+from rzg.contested.anabaptist-schism-legitimacy's own
+already-verified..."`). 1005 non-null `divergence_note` values
+fleet-wide, all of the same provenance/authoring-note character on
+inspection. Rendering this field to a participant would have been a
+real process leak - flagged and confirmed unusable before any code was
+written against it, not after.
+
+Stage 6c is done. PR #395 merged.
+
+**Entry 41 — 2026-09-22.** Stage 6e's "label copy" resolved and drafted:
+R10 (Entry 29/671) named it as a separate remaining step before
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default flips, but no document
+anywhere (`Adjusted-Design.md`, `Build-Plan.md`, `Rulings-Pending.md`,
+this log) ever specified what it referred to. Asked rather than
+guessed. Mark's own answer: a first-time explainer near the ✲ mark.
+
+Checked what existed before designing it: no "first-time hint"
+mechanism exists anywhere in `cic-poc/frontend/src/` - building one
+would mean a new component and new `sessionStorage`-backed state,
+competing with R17's own per-screen element budget. Put that tradeoff
+to Mark directly; his own direction: extend `Arrival.tsx`'s existing
+disclosure paragraph (already shown once, above every transcript)
+rather than add new UI - zero new component, zero new state, respects
+R17's budget by construction.
+
+`Arrival.tsx`'s own header comment states every line in its disclosure
+block is carried VERBATIM from the retired Doorway screen - "this move
+relocates approved prose, it does not compose new prose." One
+deliberate, flagged exception: a new sentence explaining the ✲ mark
+concretely (`"Look for the ✲ mark after a claim — tap it to see
+exactly where it comes from."`). **DRAFT COPY, not yet Mark's own
+word** - same discipline Stage 6b's confidence phrases (Entry 39, PR
+#395, merged) followed at the time this was written; since confirmed
+as Mark's own word without change, same as Entry 39's own phrases.
+
+The mark itself is already live in the CURRENT default legacy
+renderer, not just the not-yet-flipped anchor renderer - so this
+explainer is correct and useful today regardless of the flag. The
+flag flip itself is explicitly NOT part of this work - held per "flip
+flag default only after their word," same as the copy above it; no
+deployment config currently sets
+`VITE_TRANSPARENCY_ANCHOR_RENDERER` at all (confirmed by search), so
+flipping it later is a deploy-config change, not a code change.
+
+New `Arrival.test.tsx` (no test file existed for this component
+before): one test pinning the explainer sentence renders. Full suite
+13/13 on this branch (cut from `main`, lacks Stage 6b's own tests -
+expected); `npx tsc --noEmit` clean.
+
+**Sentence confirmed as Mark's own word without change** ("my drafts
+are approved as-is") - the same confirmation that landed Entry 39's
+phrases. PR #398 merging.
+
+**Entry 42 — 2026-09-22. Correction to Entry 33.** After an unshallowed
 check, the reviewer thread found the real merge base is the 2026-09-20
 merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
 Entry 32/33 were working from, and directed a plain `git merge origin/live`
@@ -1170,12 +1291,11 @@ This workstream's own coordination boundary held throughout: no edits to
 merge itself brought in verbatim from `live`; the four files this entry
 lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
 only hand-edited conflict resolutions, and none of them touch this
-workstream's own in-flight Stage 5+/6 work. (Numbered 39, not 34, 37, or 38
-as earlier drafts had it — this workstream landed its own Entries 34–36
-concurrently across two more merge rounds, and PR #397's and PR #399's
-Stage 6d entries above claimed 37 and 38 first, each landing on `main`
-while this branch's own merge was still in flight; renumbered each time on
+workstream's own in-flight Stage 5+/6 work. (Numbered 42, not 34, 37, 38,
+39, 40, or 41 as earlier drafts had it — this workstream landed its own
+Entries 34–36 concurrently across two more merge rounds, and PR #397, PR
+#399, PR #395, and PR #398 each landed a Stage 6 entry above claiming 37,
+38, 39, 40, and 41 first in turn, every one of them landing on `main`
+while this branch's own merge was still open; renumbered each time on
 merge per this file's own "never renumber a past entry" rule, which binds
-the later arrival. PR #395, Stage 6b/6c work still pending as of this
-merge and itself provisionally numbered 37-38, will need the same
-renumbering when it lands.)
+the later arrival.)
