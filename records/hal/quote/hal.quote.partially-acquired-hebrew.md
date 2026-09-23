@@ -20,6 +20,10 @@ sources:
 text: 'While I myself beginning as a young man have with much toil and effort partially
   acquired the Hebrew tongue and study it now unceasingly lest if I leave it, it also may
   leave me'
+modern_rendering: >-
+  As for me, I began as a young man and with much toil and effort partially acquired the
+  Hebrew tongue. I study it now without ceasing, in case, if I leave it, it too leaves
+  me.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'
