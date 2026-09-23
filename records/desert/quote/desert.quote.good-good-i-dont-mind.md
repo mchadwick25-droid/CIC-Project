@@ -9,11 +9,13 @@ canon_cells:
 - F6-T
 confidence:
   citation_specificity: A
-  verification_state: verified-direct
+  verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
     Documented as Palladius's own report, gathered on visits he describes making. He names his informants where he has them, and marks what he heard from the man himself.
+
+    Quote-verbatim gate note (2026-09-23, item 2 of the P3 registration queue): this record's own text is missing only two bare inline endnote numbers this edition's own scan carries ("work 163 and found", "her lover 164 behaving") - independently confirmed against the file's own numbered endnotes section (163: "1 e0c a)grou~...", 164: "2 Greek, au)tou&j..."), not real content. An edition-level rule that walks the notes list in sequence to tell a footnote number from real digit content (this edition genuinely quotes "some 300 monks", "some 400 monks" elsewhere) was attempted and works on a clean synthetic case, but this file's own real sequence is interleaved with page numbers, bracketed chapter numbers, and irregular gaps closely enough that a general walk cannot be verified to track it correctly end to end without risking a false match elsewhere in the fleet - flagged for a ruling rather than shipped un-verified. verification_state lowered from verified-direct to verified-via-authority to reflect that the two digits are confirmed by direct inspection, not by an automated gate.
 sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: >-

@@ -111,14 +111,23 @@ _LANGUAGE_LINE = re.compile(r"Language:\s*(.+)|<DC\.Language>\s*([^<]+)")
 
 @dataclass(frozen=True)
 class ApparatusPattern:
-    """One named, evidenced marker form belonging to a single vendored
-    edition - see REGISTRY.yaml's own schema comment for the full
-    discipline. `pattern` is matched with `re.search` against the RAW
-    vendored text; the matched span is dropped entirely before the
-    quote-verbatim gate compares anything."""
+    """One named, evidenced marker CONVENTION belonging to a single
+    vendored edition - see REGISTRY.yaml's own schema comment for the
+    full discipline (two kinds, `regex` and `endnote-sequence`) and why a
+    per-quote-anchored pattern is exactly what R33 forbids here.
+
+    kind == "regex" (default): `pattern` is matched with `re.search`
+    against the RAW vendored text; the matched span is dropped entirely
+    before the quote-verbatim gate compares anything.
+
+    kind == "endnote-sequence": `notes_start_pattern` marks where this
+    edition's own real numbered endnotes section begins; `pattern` is
+    unused."""
 
     name: str
-    pattern: str
+    pattern: str = ""
+    kind: str = "regex"
+    notes_start_pattern: str = ""
     evidence: str = ""
 
 
@@ -147,7 +156,11 @@ def _load_entries() -> tuple[TextEntry, ...]:
             filename=d["filename"], supplied_by=d["supplied_by"],
             date_added=d["date_added"], notes=d.get("notes", ""),
             apparatus=tuple(
-                ApparatusPattern(name=a["name"], pattern=a["pattern"], evidence=a.get("evidence", ""))
+                ApparatusPattern(
+                    name=a["name"], kind=a.get("kind", "regex"),
+                    pattern=a.get("pattern", ""), notes_start_pattern=a.get("notes_start_pattern", ""),
+                    evidence=a.get("evidence", ""),
+                )
                 for a in d.get("apparatus", [])
             ),
         )

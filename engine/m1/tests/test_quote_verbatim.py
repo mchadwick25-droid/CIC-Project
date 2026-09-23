@@ -3,6 +3,7 @@ one (must fail) - the ruling's own boundary, pinned. Plus an XML-markup
 test and an integration check against a real vendored file already in
 `cic/texts/`, so the whole path-resolution + matching pipeline is proven
 against real data, not only synthetic strings."""
+import re
 from pathlib import Path
 
 from engine.m1.quote_verbatim import (
@@ -12,6 +13,7 @@ from engine.m1.quote_verbatim import (
     resolve_vendored_paths,
     strip_apparatus,
     strip_edition_apparatus,
+    strip_endnote_sequence,
     strip_xml_markup,
     verify_quote_against_notes,
     verify_quote_record,
@@ -543,43 +545,121 @@ def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
     assert strip_edition_apparatus(text, "some-edition-with-no-registry-entry.txt") == text
 
 
-def test_edition_apparatus_does_not_swallow_a_real_number_construct_the_case():
-    """The exact risk item 2 names: a blanket digit rule would swallow
-    "5000 monks" if it were real quoted content. Palladius's own
-    apparatus entries are anchored to their real evidenced context
-    ("from work ... and found", "her lover ... behaving", "Paula, ...
-    mother") and must leave an unrelated digit phrase completely alone,
-    even inside the very same file."""
-    text = "the abbot counted 5000 monks in that valley, then went from work 163 and found peace"
-    stripped = strip_edition_apparatus(text, "palladius_lausiac-history_clarke1918.txt")
+# `endnote-sequence` is exercised directly here, not through the
+# registry: real-world testing against the actual Palladius file found
+# its own sequence too interleaved with page numbers and chapter numbers
+# to track safely end to end (see the two tests below pinning that
+# finding), so no edition currently declares this kind in
+# cic/texts/REGISTRY.yaml - but the mechanism itself is real, tested,
+# and available for a future edition with a cleaner structure.
+
+
+def test_endnote_sequence_strips_only_the_number_the_real_notes_list_expects_next():
+    """The exact risk item 2 names, and R33's own review round 1 finding:
+    an edition-level rule must describe the edition's convention, not one
+    quote's own wording. `endnote-sequence` proves this structurally - a
+    synthetic source with the real Palladius marker, a clean 1-2-3 notes
+    list, and a "5000 monks" phrase placed where the walk is expecting 2,
+    not 5000: "5000" survives untouched (it is never the expected next
+    number at its own position), while 1 and 2 - genuinely next in
+    sequence - are stripped in order."""
+    source = (
+        "the abbot counted 5000 monks in the valley, then went from work 1 and found peace, "
+        "and his brother 2 came too.\n\n"
+        "[Footnotes renumbered and moved to the end]\n\n"
+        "1. A note about work.\n\n"
+        "2. A note about the brother.\n"
+    )
+    stripped = strip_endnote_sequence(source, re.compile(r"\[Footnotes renumbered and moved to the end\]"))
     assert "5000 monks" in stripped
-    assert "163" not in stripped
+    assert "went from work  and found peace" in stripped
+    assert "his brother  came too" in stripped
 
 
-def test_palladius_bare_digit_footnotes_verify_via_edition_apparatus():
+def test_endnote_sequence_leaves_a_digit_alone_when_it_is_not_yet_the_expected_number():
+    """Sequence order matters, not just membership in the notes list: a
+    "2" appearing before the walk has consumed "1" is left alone, because
+    it is not yet the expected next number."""
+    source = (
+        "he found 2 coins before he found 1 coin.\n\n"
+        "[Footnotes renumbered and moved to the end]\n\n"
+        "1. First note.\n\n"
+        "2. Second note.\n"
+    )
+    stripped = strip_endnote_sequence(source, re.compile(r"\[Footnotes renumbered and moved to the end\]"))
+    assert "he found 2 coins before he found  coin" in stripped
+
+
+def test_endnote_sequence_returns_source_unchanged_when_the_marker_is_absent():
+    """No notes-start marker found at all - never guessed at; the source
+    is returned exactly as given rather than risk misreading some other
+    numbered list as the notes section."""
+    source = "he went from work 1 and found peace, with no notes section at all"
+    assert strip_endnote_sequence(source, re.compile(r"\[Footnotes renumbered and moved to the end\]")) == source
+
+
+def test_endnote_sequence_against_the_real_palladius_file_does_not_fully_align():
+    """Pins the real-world finding that kept `endnote-sequence` out of
+    cic/texts/REGISTRY.yaml for Palladius: walking the file's own real
+    running text against its own real notes list does not reach anywhere
+    near the end of the 362-entry sequence, because page numbers and
+    bracketed chapter numbers share the same bare-digit shape and
+    occasionally coincide with the expected value, desyncing the walk.
+    Confirmed by direct inspection, not assumed - this test is the
+    record of that inspection, not a description of it."""
+    marker = re.compile(r"\[Footnotes renumbered and moved to the end\]")
+    raw = (TEXTS_DIR / "palladius_lausiac-history_clarke1918.txt").read_text(encoding="utf-8", errors="replace")
+    m = marker.search(raw)
+    assert m is not None
+    running, notes = raw[: m.start()], raw[m.start() :]
+    from engine.m1.quote_verbatim import _NOTES_ENTRY_NUM_RE
+
+    expected = [int(n) for n in _NOTES_ENTRY_NUM_RE.findall(notes)]
+    assert len(expected) == 362
+
+    candidate_re = re.compile(r"(?<![\[|~])\b\d{1,4}\b(?![\]|~])")
+    idx = 0
+    for dm in candidate_re.finditer(running):
+        if idx < len(expected) and int(dm.group()) == expected[idx]:
+            idx += 1
+    # The real walk stalls well short of 163 (the first record this
+    # mechanism would need to clear) - far from a safe fleet mechanism.
+    assert idx < 100
+
+
+def test_palladius_bare_digit_footnotes_are_verified_via_authority_not_gate():
     """desert.quote.good-good-i-dont-mind: two bare endnote numbers
     ("163", "164") glued into the running text with no wrapper of their
-    own, cleared only because this edition (and only this edition) has a
-    closed apparatus entry for them."""
+    own. `endnote-sequence` (tested against clean synthetic data above)
+    does not safely track this specific file's own real sequence end to
+    end - it is interleaved with page numbers, bracketed chapter
+    numbers, and gaps closely enough that a real walk desyncs well
+    before reaching 163 (confirmed by direct inspection, not shipped
+    un-verified) - so no apparatus entry exists for this edition, and
+    the record is verified-via-authority instead, per its own
+    divergence_note."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("desert")
     fleet = load_fleet_records()
     rec = records["desert.quote.good-good-i-dont-mind"]
+    assert rec["confidence"]["verification_state"] == "verified-via-authority"
     result = verify_quote_record(rec, records, fleet)
-    assert result.verified is True, (result.failed_segment, result.nearest_context)
+    assert result.verified is False
 
 
-def test_palladius_paula_comma_footnote_verifies_via_edition_apparatus():
-    """hal.quote.hindered-by-jerome: "Paula,276 mother" - the endnote
-    number glued directly to the comma, no space at all."""
+def test_palladius_paula_comma_footnote_is_verified_via_authority_not_gate():
+    """hal.quote.hindered-by-jerome: "Paula,276 mother" - same reasoning
+    as good-good-i-dont-mind above; no safe edition-wide rule for this
+    file, so verified-via-authority rather than a fragile mechanism."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("hal")
     fleet = load_fleet_records()
     rec = records["hal.quote.hindered-by-jerome"]
+    assert rec["confidence"]["verification_state"] == "verified-via-authority"
     result = verify_quote_record(rec, records, fleet)
-    assert result.verified is True, (result.failed_segment, result.nearest_context)
+    assert result.verified is False
 
 
 def test_ammianus_bare_digit_footnote_verifies_via_edition_apparatus():
@@ -594,38 +674,25 @@ def test_ammianus_bare_digit_footnote_verifies_via_edition_apparatus():
     assert result.verified is True, (result.failed_segment, result.nearest_context)
 
 
-def test_basil_common_life_endnote_digit_pattern_clears_but_record_still_fails():
-    """cappadocian.quote.basil-on-common-life's own "in common 1 is more"
-    endnote number is cleared by endnote-num-after-in-common (checked in
-    isolation below) - but the record still does not verify, because the
-    same span has a SEPARATE, newly-discovered defect this PR does not
-    fix: this edition's own scan reads "Tor just as the foot" where the
-    real word is "For" (a genuine OCR misread, not a footnote marker),
-    plus a stray inserted curly quote before "To begin" and two more bare
-    footnote glyphs ("?", "®") later in the same span. Recorded honestly
-    as a new Rulings-Pending entry rather than papered over by stretching
-    the apparatus mechanism to hide a real word-level corruption - see
-    this PR's own Decision-Log entry."""
+def test_basil_common_life_record_is_verified_via_authority_not_gate_verified():
+    """cappadocian.quote.basil-on-common-life: F3 (R33 review round 1) -
+    the same span has a genuine OCR word misread ("Tor" for "For"), a
+    stray inserted curly quote, a stray column letter, and two more bare
+    footnote glyphs - a source-corruption case, the same treatment
+    already ruled for the OCR-damaged don/ijc records, not an apparatus
+    question. No apparatus entry exists for this record's own "in common
+    1 is more" digit (Basil's footnote numbering does not form one clean
+    sequence the way Palladius's does, so no safe edition-wide rule was
+    found) - moot, since the record is no longer expected to clear the
+    gate at all."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("cappadocian")
     fleet = load_fleet_records()
     rec = records["cappadocian.quote.basil-on-common-life"]
+    assert rec["confidence"]["verification_state"] == "verified-via-authority"
     result = verify_quote_record(rec, records, fleet)
     assert result.verified is False
-    assert "endnote-num-after-in-common" in [p.name for p in _apparatus_entries_for_basil()]
-
-
-def _apparatus_entries_for_basil():
-    from cic.engine.texts_registry import apparatus_for
-
-    return apparatus_for("basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
-
-
-def test_basil_common_life_endnote_digit_pattern_isolated():
-    text = "the life of a number lived in common 1 is more useful in many ways"
-    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
-    assert stripped == "the life of a number lived in common  is more useful in many ways"
 
 
 def test_basil_work_and_prayer_verifies_via_four_edition_apparatus_patterns():
@@ -656,20 +723,29 @@ def test_basil_guillemet_glyph_pattern_isolated():
     assert "many other things" in stripped and "every time is suitable" in stripped
 
 
-def test_basil_stray_column_letter_pattern_isolated():
-    text = "in work with \n\nE the tongue if it is possible"
+def test_basil_lone_column_letter_pattern_isolated_at_two_independent_breaks():
+    """A general per-edition convention, not one quote's own context -
+    checked at two unrelated real breaks (231 confirmed occurrences
+    fleet-wide; these two, plus the work-and-prayer case covered by the
+    real-record test above, are independently verified here)."""
+    text = "among their number \n\nD are those who fill the virgins"
     stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
-    assert stripped == "in work with \n\n the tongue if it is possible"
+    assert stripped == "among their number \n\n are those who fill the virgins"
+
+    text2 = "the conflict of renunciation to no purpose, \n\nB since thou hast given thyself"
+    stripped2 = strip_edition_apparatus(text2, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert stripped2 == "the conflict of renunciation to no purpose, \n\n since thou hast given thyself"
 
 
-def test_basil_stray_column_letter_pattern_never_strips_a_real_one_letter_word():
-    """"I" and "A" are real English words and must never be stripped by
-    the column-letter marker, which is anchored to "in work with ...
-    the tongue" specifically and to nothing else."""
-    text = "in work with I the tongue if it is possible, and A great work it was"
+def test_basil_lone_column_letter_pattern_never_strips_a_real_one_letter_word():
+    """"I" and "A" are real English words that legitimately open a
+    paragraph on their own (23 and 42 real cases respectively in this
+    file) and must never be stripped - only B, C, D, E, none of which is
+    ever a genuine one-letter English word."""
+    text = "in work with \n\nI the tongue if it is possible, and \n\nA great work it was"
     stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
-    assert " I the tongue" in stripped
-    assert " A great work" in stripped
+    assert "\n\nI the tongue" in stripped
+    assert "\n\nA great work" in stripped
 
 
 def test_basil_unbracketed_column_locator_pattern_isolated():
