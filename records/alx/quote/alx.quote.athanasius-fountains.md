@@ -20,6 +20,11 @@ sources:
 text: These are fountains of salvation, that they who thirst may be satisfied with the living words they
   contain. In these alone is proclaimed the doctrine of godliness. Let no man add to these, neither let
   him take ought from these.
+modern_rendering: >-
+  These are fountains of salvation, so that anyone who thirsts may be
+  satisfied by the living words they hold. The teaching of godliness is
+  proclaimed in these alone. Let no one add to them, and let no one take
+  anything away.
 speaker_or_author: alx.figure.athanasius
 license: verbatim
 modern_lens_note: >

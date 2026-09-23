@@ -1081,3 +1081,83 @@ owning threads rather than fixed here:
   no standing to resolve on another thread's behalf.
 
 Fleet size unchanged at 11, still below the 15 log threshold.
+
+---
+
+## 2026-09-23 06:31 UTC (corrected 10:15 UTC) — Periodic sweep: main's CI red, root cause is a GitHub Actions billing/spending-limit block on Mark's account, not a platform outage - needs Mark's action, not fixed by this thread
+
+Main's tip (run 1299, PR #433's own merge, commit `8ce19c33e`) failed CI:
+both `Detect changed paths` and `Cited paths resolve; retired paths
+absent` died in ~2 seconds, every other job skipped as a result.
+
+What ruled out a repo content problem (still holds):
+- `check_paths.py --baseline tools/check_paths_baseline.txt` run locally
+  against that exact commit: 0 new unresolved, 0 retired - genuinely
+  clean. The failure isn't a real citation problem.
+- Checked whether this is isolated to main: it is not. PR #430's own CI
+  run (an unrelated branch, already in flight) failed the identical two
+  jobs at nearly the same time. Two independent branches failing the
+  same way, simultaneously, rules out a content cause specific to either
+  one.
+- `.github/workflows/ci.yml` has no recent changes - the last touch was
+  the live-merge reconciliation, and many runs since then (through
+  06:07 UTC) passed clean on this exact workflow file.
+
+**Original diagnosis (06:31 UTC) was wrong and is corrected here, not
+patched over:** this entry first read the failure as a platform-level
+GitHub Actions outage, on the reasoning that both jobs died in ~2
+seconds - too fast for a real scan - matching this thread's own "died
+before any test body ran" flake signature, and that the identical
+failure on a re-run (this thread's one permitted retry) confirmed it as
+"real" rather than a flake. That reasoning ruled out *content* and
+*flakiness* correctly, but never tested the actual alternative: the jobs
+weren't running and failing fast, they were never dispatched to a
+runner at all.
+
+The reviewer thread "CiC — Tech Review & Funding Readiness Prep"
+(session_01A2MhC3b5CFfKbX2khnWZuW) flagged this at 10:15 UTC, pointing
+to GitHub's own check-run annotation on the failing "Detect changed
+paths" run. That annotation URL itself was not directly readable from
+here (`api.github.com` returned 403 to an unauthenticated fetch, and
+this sandbox has no authenticated HTTP path to it) - so the claim was
+independently re-verified against GitHub's own Actions job API rather
+than taken on trust:
+- Every failing job on all three affected commits (main's `8ce19c33e`,
+  PR #430, and a third independent branch caught later, PR #435's
+  `0e5a4119`) shows `runner_id: 0`, `runner_name: ""`,
+  `runner_group_id: 0` and no `steps` array at all.
+- A normal passing run on the same workflow file minutes earlier (run
+  1295, main, commit `9da9bec5`) shows a real assigned runner
+  (`runner_id: 1000011960`, `runner_name: "GitHub Actions 1000011960"`)
+  and a full recorded step sequence (Set up job -> checkout ->
+  paths-filter -> ... -> Complete job).
+- That contrast - no runner ever assigned, no steps ever recorded, vs. a
+  real runner and a full step trace - is the signature of a job that was
+  never started, not one that ran and failed quickly. It matches exactly
+  what an Actions billing/spending-limit block looks like from the API
+  side, and it explains why `check_paths.py` passed locally: the script
+  was never executed in CI at all, so local reproduction was silent on
+  the real cause.
+
+**Corrected root cause:** GitHub Actions is refusing to start jobs on
+this account/repo because of a billing or spending-limit block (GitHub's
+own account-level message: recent payments failed, or the spending limit
+needs raising). This is not a GitHub platform outage, and it will not
+clear on its own - it needs Mark to check the "Billing & plans" section
+of the account's GitHub settings. Nothing in the repo caused this and
+nothing in the repo can fix it; this thread's mechanical-fix scope
+(config, CI YAML, build scripts) doesn't reach account billing.
+
+Surfaced to Mark directly. This is currently blocking every PR from
+merging to main, including this thread's own ledger PR for this entry -
+CI will stay red on all branches, this one included, until the account
+issue clears.
+
+**Resolved ~14:03 UTC (2026-09-23):** the block cleared - independently
+confirmed via a real, in-progress CI run on PR #437 (job `M4 event log...`
+actually executing `pytest`, with a real assigned runner, not the
+`runner_id: 0`/no-steps signature above). Total outage: roughly 7h30m
+(first observed ~06:31 UTC). No repo-side action caused the clearance;
+this is Mark's own account-side fix taking effect.
+
+Fleet size unchanged at 11.

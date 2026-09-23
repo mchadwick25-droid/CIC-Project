@@ -112,8 +112,202 @@ conversation thread:
   This governs item 3's registration work (`gates.GATES` and the build-
   process document) and is quoted there directly rather than paraphrased.
 
-**Open, per Rulings-Pending.md:** the bare-digit/symbol apparatus question
-(Entry 5) is with Mark, now scoped to item 2 of the registration brief
-(edition-level apparatus); gate registration in `gates.GATES` waits for
-that ruling, since registering now would go red on the six records it
-affects.
+**Entry 9 — 2026-09-23 (item 2, edition-level apparatus).** Resolves
+Rulings-Pending's Pending 1 (the bare-digit/symbol residue Entry 5 and #422
+left open) for five of its six records. `cic/texts/REGISTRY.yaml` gains an
+optional `apparatus` field per edition entry — a closed list of named,
+evidenced marker patterns, applied by `engine/m1/quote_verbatim.py`
+(`strip_edition_apparatus`) to every quote citing that edition and no
+other. No field on any quote record, per R33. Populated for the three
+editions the residue records cite:
+
+- `palladius_lausiac-history_clarke1918.txt` — three patterns, each
+  anchored to its own real surrounding words rather than a bare digit
+  class, because this same edition also quotes real digit quantities as
+  content elsewhere ("some 300 monks", "some 400 monks" - confirmed by
+  reading the file, not assumed). Clears `desert.quote.good-good-i-dont-
+  mind` ("163", "164") and `hal.quote.hindered-by-jerome` ("276").
+- `ammianus-marcellinus_roman-history_yonge1862.txt` — one anchored
+  pattern, same reasoning (this file spells its own real casualty count as
+  words - "one hundred and thirty-seven dead bodies" - never as digits).
+  Clears `ijc.quote.ammianus-sicininus-massacre`.
+- `basil_ascetic-works-longer-shorter-rules_clarke1925.txt` — five
+  patterns: one anchored digit, two bare footnote-glyph symbols (®, », safe
+  as a general strip within this one file - never real prose content in
+  any edition), one anchored stray Migne column-continuation letter, and
+  one general per-edition pattern for this edition's own unbracketed
+  column-locator convention (`\d{3,4}[A-Z]`, the same shape the fleet-wide
+  `bracket-locator` class strips elsewhere, but printed here without
+  brackets - confirmed recurring throughout the file, not a one-off
+  guess). Clears `cappadocian.quote.basil-on-work-and-prayer` (all four
+  non-digit patterns) in full; clears the digit marker in
+  `cappadocian.quote.basil-on-common-life` but does NOT clear that record
+  overall — see below.
+
+Separately, this PR fixed a real, fleet-wide (not edition-specific) bug the
+sixth residue record exposed: `_BRACKET_LOCATOR_RE` left a stray space
+before trailing punctuation when a bracket locator sat between a word and a
+comma/period with no space of its own (`cappadocian.quote.gregory-nyssa-on-
+becoming-god`'s own npnf205 source: `"Him Who is [2002] , nor"` → `"is ,
+nor"` instead of `"is, nor"`). Narrowed to that exact shape (a lookahead
+confirms punctuation follows before the preceding space is folded in) -
+not a blanket space-before-punctuation rule, which regressed three other
+records (`desert.quote.antony-dying-daily`'s own intentional `"daily ."`,
+among others) before being caught by the full fleet re-sweep and narrowed.
+Clears `cappadocian.quote.gregory-nyssa-on-becoming-god`.
+
+**Honest result vs. the expected count:** the registration brief expected
+253/257 (all six residue records fixed). The real fleet run is **251/257**
+(246 baseline → 251) - `cappadocian.quote.basil-on-common-life` clears its
+own footnote-digit marker but remains unverified, because the same span
+has separate, newly-discovered defects (a genuine OCR word misread, "Tor"
+for "For", plus a stray inserted quote mark and two more bare footnote
+glyphs) that no apparatus mechanism should paper over. Recorded as
+Rulings-Pending's own Pending 2 rather than stretched to hit the expected
+number.
+
+**Entry 10 — 2026-09-23 (R33 review round 1, FAIL, and the fix).** The
+reviewer thread reviewed Entry 9's own PR against R33 directly and failed
+it: five of its entries — `endnote-num-after-from-work`,
+`endnote-num-after-her-lover`, `endnote-num-after-paula-comma`,
+`endnote-num-after-christian-church`, `endnote-num-after-in-common`, and
+`stray-column-letter-after-work-with` — were each anchored to one quote's
+own exact surrounding words (a pattern requiring the literal text "from
+work" or "her lover" to appear), a per-quote instruction dressed as an
+edition entry, exactly what R33 forbids: *"we should be setting principles
+we will have a 100 worlds and cant tell the representitive what to say for
+every quote."* What passed: the registry field and its schema comment, the
+two Basil glyph strips (®, »), the unbracketed column locator, the
+bracket-locator punctuation fix, the honest 251 count, and Pending 2
+recorded rather than papered over.
+
+Fixed same round:
+
+- **Palladius** — the three anchored digit patterns replaced by one
+  `kind: endnote-sequence` entry: walk the edition's own real numbered
+  endnotes list (found via the file's own editorial marker, "[Footnotes
+  renumbered and moved to the end]") and strip a bare digit only when it
+  is genuinely the next number that list expects. Tested and correct
+  against clean synthetic data — but real-world testing against the
+  actual vendored file found its own sequence too interleaved with page
+  numbers and bracketed chapter numbers to track safely end to end (the
+  walk stalls well short of the 163rd entry). Rather than ship an unsafe
+  mechanism to hit a number, the entry was dropped: `desert.quote.good-
+  good-i-dont-mind` and `hal.quote.hindered-by-jerome` are
+  `verified-via-authority` instead, each with a divergence_note naming
+  the specific digits confirmed by direct inspection. The mechanism
+  itself stays in the codebase (`strip_endnote_sequence`), tested, for a
+  future cleaner-scanned edition.
+- **Ammianus** — the one anchored pattern replaced by a general "digit
+  glued after a sentence period" pattern, evidenced at 50+ real breaks
+  throughout the file, not the one quote that first surfaced it.
+- **Basil** — the anchored stray-letter pattern replaced by a general
+  "lone column-continuation letter B-E" pattern, evidenced at 231 real
+  breaks (excluding A and I, which are real English words that
+  legitimately open a paragraph — 23 and 42 confirmed real cases
+  respectively). The anchored digit entry (`in common 1 is more`) was
+  dropped rather than generalized: Basil's own footnote numbering does
+  not form one clean sequence the way Palladius's does, so no safe
+  edition-wide rule was found — moot regardless, since **F3** resolves
+  Pending 2 in the same round: `cappadocian.quote.basil-on-common-life`'s
+  own compounding defects (the "Tor"/"For" OCR misread chief among them)
+  are the same case as the already-ruled OCR-damaged don/ijc records, so
+  the record is `verified-via-authority` with the corruption named in its
+  own divergence_note — closed as resolved by that existing ruling, no
+  new ruling needed.
+
+Fleet: 246 baseline → **249/257**. Every remaining failure's own
+`verification_state` is already below `verified-direct`
+(`verified-via-authority` or `unverified`) — exactly the residue item 3's
+own registration brief expects, once `#429` (merged) is rebased onto this
+branch: `pahc.quote.two-female-slaves-who-were-called-deaconesses` will
+drop out of this list too, leaving `desert.quote.good-good-i-dont-mind`,
+`hal.quote.hindered-by-jerome`, `ijc.quote.ammianus-roman-luxury`,
+`ijc.quote.compelled-to-come-in` (#426, in flight),
+`cappadocian.quote.basil-on-common-life`, and the two `don.*` records.
+
+**Resolved, per Rulings-Pending.md:** Pending 2 is closed by Entry 10's F3
+above. Pending 1 stays closed (Entry 9). No entries remain open in
+Rulings-Pending.md as of this entry. Gate registration in `gates.GATES`
+(item 3) can proceed once `#429` lands on this branch and the rebased
+fleet count is confirmed.
+
+**Entry 11 — 2026-09-23 (item 3, PR #435 — a claimed `check_paths.py`
+failure that does not reproduce).** The reviewer thread reported that PR
+#435 (head `0e5a4119`) fails "Cited paths resolve; retired paths absent"
+because `worlds/ijc/Open_Gaps_Tracking.md` line 157 cites
+`packages/ijc/2026-09-23T04-41-35Z` — the package path item 3a's fleet
+repin orphaned when `ijc` moved to `packages/ijc/2026-09-23T08-14-01Z` —
+with a specific claimed output ("1 new unresolved path citation(s); 770
+total; 769 accepted in baseline", exit 1), and asked for line 157 to be
+re-pointed at `records/worlds/ijc.yaml` instead.
+
+Per this project's own verify-before-acting discipline, that claim was
+checked directly rather than acted on:
+
+- Running the exact command specified
+  (`python tools/check_paths.py --baseline tools/check_paths_baseline.txt`)
+  on that exact commit, on a clean tree, twice, both times returned
+  **"0 new unresolved path citation(s); 769 total; 769 accepted in
+  baseline; 0 retired path(s) present"** — exit 0. The claimed output does
+  not reproduce.
+- Reading `tools/check_paths.py`'s own `resolves()` explains why: it
+  checks `target.exists()` on the literal token — directory existence, not
+  a specific file within it. `packages/ijc/2026-09-23T04-41-35Z` (the
+  directory) still exists on disk; only its `manifest.json` was removed by
+  the repin, per the "retire manifest.json only, keep the directory"
+  convention used throughout this build. The citation resolves regardless
+  of the stale manifest. `tools/retired_paths.txt` does not list this path
+  either, so `retired_present()` does not flag it.
+- The PR's own actual CI run for that check
+  (`mchadwick25-droid/CIC-Project` run `35836710589`, job
+  `107101801714`) shows `conclusion: failure` but a ~2-second duration and
+  no downloadable logs (404) — every other job on the same run shows the
+  identical zero-duration `skipped` pattern. This is the same signature
+  previously diagnosed on PR #430 as a GitHub Actions account-payment
+  failure (jobs never start; no logs), not a real script failure — so this
+  run could not have produced the specific stdout quoted in the claim
+  either.
+
+**No code or content change made in response to this claim.** The
+suggested edit (citing `records/worlds/ijc.yaml` instead of a timestamped
+package path) may be reasonable future practice on its own terms, but
+applying it now, as if confirming an unverified and seemingly incorrect
+CI-failure claim, would be exactly the kind of unverified action this
+project's fidelity discipline exists to prevent — and line 157 is a
+historical narrative entry (it names the specific path #431's own re-pin
+landed on at the time, the same way this log cites superseded PR numbers
+and branch names elsewhere), not a live "current state" pointer that
+`check_paths.py` was ever meant to hold current. Reported back to the
+reviewer thread via PR #435 for reconciliation before any edit is made.
+
+**Entry 12 — 2026-09-23 (reconciliation: Entry 11's claim reproduces on a
+clean worktree — fix applied).** The reviewer thread's answer identified
+the actual gap in Entry 11's own verification: `packages/*/*/**` is
+gitignored except `manifest.json` (`.gitignore` lines 44-45), so this
+session's own working tree still held `packages/ijc/2026-09-23T04-41-35Z/`
+as untracked build output left over from item 3a's repin — the directory
+that pin's own commit removed from git (`git ls-tree` on that commit shows
+it empty) but which the "retire manifest.json only, keep the directory"
+convention never deleted from disk. `resolves()` saw that untracked
+directory and returned true. A clean checkout has no such directory,
+because git does not track empty ones. Reproduced directly: `git worktree
+add /tmp/clean ffb1d791` (no such directory present) then
+`python tools/check_paths.py --baseline tools/check_paths_baseline.txt`
+there returned exactly the claimed **"1 new unresolved path citation(s);
+770 total; 769 accepted in baseline; 0 retired path(s) present"**, exit 1,
+naming `worlds/ijc/Open_Gaps_Tracking.md: packages/ijc/2026-09-23T04-41-35Z`.
+Entry 11 stands as written — a real verification step whose local
+environment, not its method, produced the wrong answer — rather than
+struck through.
+
+Fix applied: entry 19 of `worlds/ijc/Open_Gaps_Tracking.md` now says the
+current pin is recorded in `records/worlds/ijc.yaml` rather than citing
+the timestamped package directory the #431 re-pin happened to land on;
+the sentence's own meaning (that #431 re-pinned the package rather than
+force-pushing #426's archived branch) is unchanged. Nothing else in that
+file touched. No baseline or ignore-rule change, per instruction. Going
+forward, `check_paths.py` runs against a clean `git worktree`, not the
+working tree, before any push that repins a package — a working tree with
+leftover untracked build output is not a substitute for what CI actually
+sees.

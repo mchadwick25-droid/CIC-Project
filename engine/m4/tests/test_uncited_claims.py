@@ -9,6 +9,8 @@ from engine.m4.uncited_claims import (
     find_uncited_claims,
     find_uncited_paragraphs,
     known_tradition_names,
+    match_named_tradition,
+    world_records_mention_tradition,
 )
 
 
@@ -43,10 +45,28 @@ def test_a_cited_sentence_never_flags():
     assert find_uncited_claims(sentences) == []
 
 
-def test_a_withheld_sentence_is_never_checked():
-    # It never reaches the participant (apply_net drops it) - nothing to
-    # check in a sentence that was never shown.
-    sentences = [sent("An unsupported invented claim.", verdict="withhold")]
+def test_a_withheld_sentence_is_examined_like_an_untagged_one():
+    # G6 (R39-audit retrofit, 2026-09-23): apply_net's own strip_tags
+    # removes a sentence's tag regardless of verdict - the sentence's
+    # own text still reaches the participant (Decision-Log Entry 51's
+    # own "the checks gate decoration, never the text"). This test used
+    # to pin the opposite, false premise (asserting nothing was flagged
+    # for a withheld sentence, on the theory it never reached the
+    # participant at all). Corrected: a withheld sentence carrying real
+    # declarative claim content, with no allowed-uncited shape, is
+    # examined and flagged exactly like a genuinely untagged one -
+    # because by the time it's on screen, it reads exactly the same.
+    sentences = [sent("An unsupported invented claim.", tags=["w.dw.example"], verdict="withhold")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
+
+
+def test_a_withheld_sentence_with_an_allowed_uncited_shape_still_passes():
+    # The withheld/untagged distinction never mattered to the three
+    # allowed-uncited kinds - a withheld honest-limit-shaped sentence is
+    # still allowed uncited, same as an untagged one would be.
+    sentences = [sent("Our record doesn't mention that Christian tradition.", tags=["w.dw.example"], verdict="withhold")]
     assert find_uncited_claims(sentences) == []
 
 
@@ -214,21 +234,27 @@ def test_real_dionysius_deathbed_sentence_properly_cited_never_flags():
     assert find_uncited_claims(result["sentences"]) == []
 
 
-def test_real_dionysius_deathbed_sentence_uncited_is_withheld_upstream_not_reported_by_this_module():
-    # The same real sentence, uncited: grounding_net withholds it before
-    # find_uncited_claims ever runs (a specific claim naming Dionysius,
-    # no citation tag) - it never reaches the participant, so this module
-    # correctly reports nothing on it. R27's own check is scoped to
-    # verdict == "ok" sentences by design (module docstring); this test
-    # pins that the two modules' fallback ladders don't double-report the
-    # same real defect shape.
+def test_real_dionysius_deathbed_sentence_uncited_is_caught_here_too_not_silently_shown():
+    # G6 (R39-audit retrofit, 2026-09-23): the same real sentence,
+    # uncited - grounding_net withholds it (a specific claim naming
+    # Dionysius, no citation tag at all). This test used to assert
+    # find_uncited_claims reports nothing on it, on the theory a
+    # withheld sentence never reaches the participant. It does:
+    # apply_net's own strip_tags only removes [[...]] markup, and an
+    # untagged sentence has none to remove, so this sentence's full
+    # text reaches the participant exactly as written, with no citation
+    # and no visible sign anything is wrong. R27's own check now catches
+    # this too, rather than compounding the same gap grounding_net's own
+    # withhold verdict already has at the citation-count level.
     sentence = (
         "The tradition that won here brought the repentant back in, even at the deathbed, and "
         "Dionysius defended doing so."
     )
     result = check_turn(sentence, _REAL_REPOSITORY)
     assert result["sentences"][0]["verdict"] == "withhold"
-    assert find_uncited_claims(result["sentences"]) == []
+    offenses = find_uncited_claims(result["sentences"])
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
 
 
 def test_a_facilitator_turn_is_never_checked_by_this_module():
@@ -510,3 +536,80 @@ def test_find_uncited_paragraphs_still_catches_a_genuine_inherited_ungrounded_se
     result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
     offenses = find_uncited_paragraphs(result)
     assert any(o["class"] == "inherited_ungrounded" for o in offenses)
+
+
+# R39's own reviewer-ordered fix (relayed 2026-09-23): the false fixed
+# honest-limit sentence. match_named_tradition/world_records_mention_
+# tradition are this fix's own detection half - engine.m4.turn's own
+# _other_tradition_directive tests (test_turn.py) pin the participant-
+# facing half.
+def test_match_named_tradition_finds_the_demonym_not_just_the_card_name():
+    # Same real gap F5 already found for classify_neighbour_named
+    # (module docstring above): a probe names "the Donatists", never
+    # don's own card_name "The Church of the Martyrs" - this function
+    # must resolve the demonym back to don's own world_key regardless.
+    assert match_named_tradition(
+        "What was your relationship with the Donatists?", _registry(), exclude_world_key="alx"
+    ) == "don"
+
+
+def test_match_named_tradition_returns_none_for_a_non_fleet_name():
+    # "The Arians" names no world in this fleet's own registry (Arianism
+    # is not one of the 11 formation worlds) - the caller's own fallback
+    # to the unconditional honest-limit sentence is correct here, since
+    # there is no registry world to check a real mention against.
+    assert match_named_tradition("What did the Arians believe?", _registry(), exclude_world_key="alx") is None
+
+
+_DONATISM_MENTIONING_REPOSITORY = {
+    "ijc.quote.compelled-to-come-in": {
+        "id": "ijc.quote.compelled-to-come-in", "record_type": "quote",
+        "text": (
+            "Wherefore, if the power which the Church has received by divine appointment... it seemed to "
+            "certain of the brethren, of whom I was one, that although the madness of the Donatists was..."
+        ),
+    },
+    "ijc.dw.unrelated": {
+        "id": "ijc.dw.unrelated", "record_type": "doctrinal_witness",
+        "text": "The council met at Nicaea and confessed the faith the churches already worshipped.",
+    },
+}
+
+_ALX_CHURCH_FAILURE_REPOSITORY = {
+    "alx.dw.church-failure": {
+        "id": "alx.dw.church-failure", "record_type": "doctrinal_witness",
+        "text": "Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them.",
+    },
+}
+
+
+def test_world_records_mention_tradition_finds_a_real_reference():
+    # Real-shaped, per the reviewer's own explicit ask: ijc's own records
+    # genuinely name Donatism (ijc.quote.compelled-to-come-in) - the
+    # excerpt is trimmed but the real record's own words, not invented.
+    ids = world_records_mention_tradition(_DONATISM_MENTIONING_REPOSITORY, _registry()["don"])
+    assert ids == ["ijc.quote.compelled-to-come-in"]
+
+
+def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it():
+    # alx's own church-failure record - the R37/R38 worked example's own
+    # ground - never names Donatism at all; the true "honest-limit stays
+    # exactly as it is" case.
+    ids = world_records_mention_tradition(_ALX_CHURCH_FAILURE_REPOSITORY, _registry()["don"])
+    assert ids == []
+
+
+def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
+    # The same false positive R37's own design brief already found and
+    # fixed (Decision-Log.md Entry 57, PR #438): a vendored source
+    # filename carrying an unrelated name as a substring is not real
+    # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
+    # must not count as evidence.
+    repository = {
+        "x.rec": {
+            "id": "x.rec", "record_type": "doctrinal_witness",
+            "text": "An ordinary sentence naming nobody in particular.",
+            "sources": [{"source_id": "x.source.one", "locus": "anf-hermas-tatian-donatism-appendix.xml"}],
+        }
+    }
+    assert world_records_mention_tradition(repository, _registry()["don"]) == []

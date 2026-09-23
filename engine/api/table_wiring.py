@@ -661,6 +661,7 @@ def _advance_open_round(
     facilitator: list[dict],
     out_of_scope_class: str | None = None,
     r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> TableMessageResult:
     """One voice-turn advance of the open round - selector step, then the
     selected voice's turn, then the close when the cap lands. Re-projects
@@ -856,6 +857,7 @@ def _advance_open_round(
             guard_labels=guard_labels,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
+            self_revision_enabled=self_revision_enabled,
         )
     except UnhandledRoutingAction:
         raise
@@ -957,6 +959,7 @@ def _handle_table_message_unlocked(
     config: RoundConfig | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1062,6 +1065,7 @@ def _handle_table_message_unlocked(
         degraded=opening.degraded, facilitator=opening.facilitator_events,
         out_of_scope_class=out_of_scope_class,
         r27_enforce=r27_enforce,
+        self_revision_enabled=self_revision_enabled,
     )
 
 
@@ -1079,6 +1083,7 @@ def _continue_table_round_unlocked(
     config: RoundConfig | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1104,6 +1109,7 @@ def _continue_table_round_unlocked(
         facilitator=[],
         out_of_scope_class=(gate_payload.get("out_of_scope") or {}).get("class"),
         r27_enforce=r27_enforce,
+        self_revision_enabled=self_revision_enabled,
     )
 
 

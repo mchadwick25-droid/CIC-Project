@@ -1223,3 +1223,122 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["attempts_meta"]["r27_regenerated"] is False
     assert voice_event["r27_enforcement_exhausted"] is False
     assert voice_event["paragraph_offenses"] == []
+
+
+# R39's own reviewer-ordered fix (relayed 2026-09-23): _other_tradition_
+# directive's own honest-limit sentence used to fire unconditionally,
+# even for a world (ijc) whose own records already name the tradition
+# asked about - provably false in that case. Both branches pinned
+# directly, per the reviewer's own explicit "test both branches"
+# instruction, so a future edit can't silently reintroduce either defect
+# shape (a world with real evidence still forced to deny it, or a world
+# with none suddenly handed a fabricated "your records speak to it").
+def test_other_tradition_directive_keeps_the_fixed_sentence_when_there_is_no_evidence():
+    text = turn_module._other_tradition_directive(None)
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
+    assert "your records already speak to it" not in text
+
+
+def test_other_tradition_directive_keeps_the_fixed_sentence_on_an_empty_evidence_list():
+    text = turn_module._other_tradition_directive([])
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
+
+
+def test_other_tradition_directive_skips_the_fixed_sentence_when_the_world_own_records_already_name_it():
+    text = turn_module._other_tradition_directive(["ijc.quote.compelled-to-come-in", "ijc.story.emperor-builds-another-basilica"])
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE not in text
+    assert "[[ijc.quote.compelled-to-come-in]]" in text
+    assert "[[ijc.story.emperor-builds-another-basilica]]" in text
+
+
+# R38 self-revision (Rulings-Pending.md, RULED 2026-09-23; Decision-Log.md
+# Entry 61's own 0/20 real-leak measurement) - engine.m4.self_revision's
+# own module. _world()'s real tagged record (fix.witness.who-is-jesus)
+# stands in for a real tagged record in every case below; stream_scripts'
+# second entry is always the self-revision call's own output, never a
+# second draft.
+
+_DRAFT_WITH_A_TAG = "We did not see him with our own eyes, but the elders told us so [[fix.witness.who-is-jesus]]."
+
+
+def test_self_revision_runs_only_on_other_tradition_first_asks():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_DRAFT_WITH_A_TAG], ["We were told this by our elders [[fix.witness.who-is-jesus]]."]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
+        is_other_tradition_first_ask=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # draft, then the revision pass
+    assert voice_event["attempts_meta"]["self_revision"]["ran"] is True
+    assert voice_event["text"] == "We were told this by our elders."  # the REVISED text, tag stripped - not the draft's
+
+
+def test_self_revision_never_runs_on_an_ordinary_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_DRAFT_WITH_A_TAG]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+    )
+    assert len(client.messages.captured_stream_calls) == 1  # no second call at all
+    assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
+    assert voice_event["text"] == "We did not see him with our own eyes, but the elders told us so."
+
+
+def test_self_revision_kill_switch_bypasses_it_even_on_an_other_tradition_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_DRAFT_WITH_A_TAG]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
+        is_other_tradition_first_ask=True, self_revision_enabled=False,
+    )
+    assert len(client.messages.captured_stream_calls) == 1  # kill-switch: never even attempted
+    assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
+    assert voice_event["text"] == "We did not see him with our own eyes, but the elders told us so."
+
+
+def test_self_revision_an_empty_response_falls_back_to_the_draft_not_a_blank_turn():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_DRAFT_WITH_A_TAG], [""]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
+        is_other_tradition_first_ask=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # the call was made
+    self_revision_meta = voice_event["attempts_meta"]["self_revision"]
+    assert self_revision_meta["ran"] is True
+    assert self_revision_meta["changed"] is False
+    assert self_revision_meta["fallback_reason"] == "empty_response"
+    # The DRAFT's own real text, never blank - the participant reads the
+    # draft, exactly as if self-revision had never run this turn.
+    assert voice_event["text"] == "We did not see him with our own eyes, but the elders told us so."
+
+
+def test_self_revision_a_draft_with_no_tags_never_spends_a_call():
+    # Nothing to revise against - self_revise's own "no_tagged_records"
+    # fallback fires before any second call, on an other_tradition turn
+    # whose draft happened not to tag anything (an honest-limit-only
+    # answer, for instance).
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[["Our record doesn't mention that Christian tradition."]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
+        is_other_tradition_first_ask=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 1
+    assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
+    assert voice_event["attempts_meta"]["self_revision"]["fallback_reason"] == "no_tagged_records"

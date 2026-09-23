@@ -2570,3 +2570,1382 @@ retained after each run). If Mark's own staging look wants the exact
 classes on the Table's own real turns, that needs a report-only
 paragraph-level run with per-turn class capture added, not assumed
 from this note.
+
+**Entry 57 — 2026-09-23.** The false fixed honest-limit sentence, a
+real defect the reviewer thread's own R39 audit found and ordered fixed
+directly (no new ruling needed - R26's own already-ruled words,
+Rulings-Pending.md's R26 entry, already specified the conditional
+branch this PR builds; only the shipped code never implemented it).
+
+**The defect.** `engine.m4.turn._other_tradition_directive` fired the
+fixed sentence *"Our record doesn't mention that Christian tradition."*
+unconditionally on ANY `other_tradition`-routed turn, for every world,
+regardless of whether that world's own records already named the
+tradition asked about. For `ijc` on Donatism specifically this is
+false: `ijc`'s own already-vendored records genuinely name it
+(`ijc.quote.compelled-to-come-in`, `ijc.story.emperor-builds-another-
+basilica` - real excerpts, not inferred, both cite Augustine writing to
+the imperial tribune Boniface c. 417 on "the madness of the Donatists").
+
+**The fix.** Two new functions in `engine.m4.uncited_claims`:
+`match_named_tradition(text, registry, exclude_world_key=...)` (which
+OTHER formation world's own name - card_name, display_name, demonym,
+representative name - appears in the participant's own message, the
+reverse of `classify_neighbour_named`) and
+`world_records_mention_tradition(repository_records, named_world_entry)`
+(record ids in THIS, speaking world's own package whose real prose text
+already names that OTHER world - same restricted `PROSE_KEYS` field
+allowlist the R37 design brief already proved necessary, PR #438,
+avoiding the exact locus/source-filename false positive that scan
+found). `_other_tradition_directive` now takes an optional
+`evidence_record_ids` parameter: empty/None keeps the fixed sentence
+exactly as it always was (the true "never heard of this" case - `alx`
+on Donatism, this workstream's own original worked example, stays
+unchanged); a nonempty list skips the sentence entirely and hands the
+voice those record ids as its own ground, cited under the ordinary
+citation contract, never asserting more than what its own records or
+the conversation actually give it.
+
+**Threading**, matching the existing `known_tradition_names` pattern
+exactly (caller-computed, since `_run_ordinary_voice_turn` stays
+registry-free by design): `engine.api.wiring.handle_message` computes
+`match_named_tradition`/`world_records_mention_tradition`
+unconditionally (never gated behind `r27_enforce` - this corrects an
+existing false statement, not new enforcement) and passes the result
+through `run_turn`/`_run_ordinary_voice_turn`/`_build_turn_directive`
+as `other_tradition_evidence_ids`, read only when
+`is_other_tradition_first_ask` is also true. Table mode
+(`table_wiring.py`) needed no change: checked directly, `run_voice_turn_
+for_world` (the `_run_ordinary_voice_turn` alias Table calls) is never
+passed `is_other_tradition_first_ask=True` anywhere in `table_wiring.py`
+today - `out_of_scope_class` there feeds only the post-hoc
+`build_uncited_claims_event` audit classification, never the live
+directive. Table mode's own `other_tradition` turns get no special
+directive at all currently, fixed sentence or otherwise - a real,
+separate, pre-existing gap this fix does not touch or widen into,
+noted here rather than silently discovered and dropped.
+
+**Tests**, both branches pinned directly per the reviewer's own
+explicit instruction: `engine/m4/tests/test_turn.py` pins
+`_other_tradition_directive`'s own two branches (no evidence keeps the
+fixed sentence; real evidence skips it and emits the record ids as
+`[[tag]]`s). `engine/m4/tests/test_uncited_claims.py` pins
+`match_named_tradition` (the demonym case, and a non-fleet name like
+"the Arians" correctly resolving to `None`) and
+`world_records_mention_tradition` on real, trimmed excerpts (`ijc`
+finds it, `alx`'s own real `church-failure` text does not, and a
+locus-filename coincidence is correctly ignored - the same false
+positive already found and fixed once, pinned here too). Full suite:
+1024 passed (1016 + 8 new).
+
+**The real count, fleet-wide** (per the reviewer's own explicit ask -
+`world_records_mention_tradition` run against each of the 11 admitted
+formation worlds' own real package, checked against the real battery's
+own deterministic probe target -
+`engine.m4.live_uncited_claims_battery._other_tradition_turn`'s own
+alphabetical-first-other-card-name logic, reproduced read-only): **4 of
+11 flip** - `desert` (asked about `alx`), `hal` (asked about `alx`),
+`ijc` (asked about `alx`), `pahc` (asked about `alx`) all have real
+textual evidence and now answer from their own records instead of
+saying the fixed sentence; `alx` (asked about `don`, this workstream's
+own original worked example), `cappadocian`, `don`, `gallic`, `rzg`,
+`syr`, `witt` have none and are unchanged. Full per-world table:
+
+| World | Asked about | Flips | Evidence record ids |
+|---|---|---|---|
+| alx | don | no | — |
+| cappadocian | alx | no | — |
+| desert | alx | **yes** | desert.contested.alexandria-continuity, desert.demo.center-jesus-as-god, desert.story.antony-secret-burial, desert.story.sarapion-anthropomorphite, desert.story.virgin-who-hid-athanasius |
+| don | alx | no | — |
+| gallic | alx | no | — |
+| hal | alx | **yes** | hal.dw.authority, hal.story.rufinus-rupture |
+| ijc | alx | **yes** | ijc.quote.julius-custom, ijc.quote.let-the-ancient-customs-prevail, ijc.quote.sozomen-thessalonica-law, ijc.story.letter-that-outranked-a-council |
+| pahc | alx | **yes** | pahc.contested.egypt-exclusion |
+| rzg | alx | no | — |
+| syr | alx | no | — |
+| witt | alx | no | — |
+
+Note `ijc`'s own real battery probe target is `alx` (alphabetically
+first other card_name), not `don` - the reviewer's own Donatism example
+is real and independently confirmed (`ijc` on `don` also has evidence,
+the same two records named above), but is not literally what the
+battery itself asks `ijc`; both are true and both are reported, not
+conflated.
+
+**Entry 58 — 2026-09-23.** Two display defects from Mark's own staging
+Table look (relayed via the reviewer thread), both against Papnoute's
+(Desert Fathers) and Theon's (Alexandria) turns.
+
+**Defect 1 - citation-card empty bullets.** Papnoute's turn showed
+"General references (1)" followed by five empty bullet items - "* "
+with nothing after. Traced the render path end to end:
+`GeneralReferences.tsx` -> `SourceList.tsx` (`{s.work ?? s.source_id}`
+per `<li>`, JS `??` only catches null/undefined, never an empty
+string) -> `engine/m4/citation_cards.py`'s `resolve_source_card`, the
+one function both the legacy renderer's `resolve_citation_sources` and
+the anchor-driven renderer's `transparency_plan.build_transparency_plan`
+call to build every `sources[]` entry a citation card carries.
+
+**Root cause, and why it could not be reproduced from today's data.**
+`resolve_source_card` builds each `sources[]` entry as `{source_id,
+author, work, locus, rights_status}` unconditionally - it has never
+checked whether an entry actually has anything printable before
+shipping it. The renderer's own primary field is `work ?? source_id`,
+so as long as an entry carries a real `source_id`, that id itself is
+the fallback text - never blank, even when the id is dangling (doesn't
+resolve in this world's own repository). The only shape that leaves
+truly nothing to print is an entry whose own `source_id` is missing or
+blank AND whose own `locus` is missing or blank too - both fields
+absent on the citing record's own `sources[]` entry, upstream of this
+function, a shape the grounding net's own checks don't cover since
+they verify the CITING record's id, not the internal shape of its own
+`sources[]` list. Four independent fleet-wide scans - the currently
+compiled `packages/` repository for all 12 built worlds (including
+the `fix` fixture world), every one of desert's own seven historical
+package builds (2026-09-21 through 2026-09-22T21-17-53Z, in case
+staging was serving an older build than today's `latest_complete_
+package` pick), and a fresh `compile_and_hash` straight from `records/`
+for eleven worlds (the same method `test_citation_cards.py` itself
+uses for "real, not invented" fixtures) - found **zero** `sources[]`
+entries missing `source_id` anywhere in the fleet today. This defect's
+exact historical trigger is not reproducible from current record data;
+it is either a stale-deploy artifact (staging running an older build
+than what `records/`/`packages/` hold now) or a real but currently-
+dormant shape this project has no standing invariant against. Given
+the reviewer's own framing ("find the cause... most likely a source
+group whose entries lack the fields the card prints... fix so an entry
+with nothing to print is not rendered"), the right fix is the
+structural one: close the gap at its true origin rather than chase one
+historical instance that no longer reproduces.
+
+**The fix** (`engine/m4/citation_cards.py`): `resolve_source_card` now
+drops a `sources[]` entry before it is ever built into the card, if
+every one of its five fields (`source_id`, `author`, `work`, `locus`,
+`rights_status`) is empty or blank. One check, in the one function
+both renderers already share, so no second filter is needed in the
+frontend and no caller has to know about the invariant. An entry that
+still names a real (even if dangling) `source_id`, or a real `locus`
+with no resolvable `source_id`, is kept - dropping it would discard
+real, checkable information the participant can still act on; only an
+entry with genuinely nothing printable in any field is removed.
+Two new tests in `engine/m4/tests/test_citation_cards.py` pin the
+boundary directly: a `sources[]` entry with `source_id: null` and no
+`locus` is dropped; the same entry with a real `source_id` (dangling
+or not) is kept, and so is the same missing-`source_id` entry once a
+real `locus` is added. Full existing suite green (`pytest engine -q`,
+1016 passed) after the change.
+
+**Which two records produced Theon's own "...cared.✲✲" (see Entry
+57's Defect 2, immediately below) is a separate question, reported
+there, not here** - this entry's own fix is unrelated to which records
+cite what; it only changes which entries `resolve_source_card` is
+willing to ship at all.
+
+**Defect 2 - two transparency marks on one sentence.** Theon's second
+turn: *"Origen was driven out by his own bishop, Demetrius, over
+wounded pride and contested authority, long before any emperor
+cared.✲✲"* - two mark glyphs, stacked, on one sentence. The reviewer's
+own first framing read this as a possible violation of R31 (E2, RULED:
+"a citation mark attaches with each sentence as it clears" - one mark
+per sentence). Mark corrected that framing directly, relayed verbatim:
+*"i am not sure why we can only have 1 mark per sentence, i get not
+overloading, but if a quote and a lexicon word are in the same
+sentence they should both marked."* This is R31-A, recorded in
+Rulings-Pending.md immediately below R31: one mark per distinct
+grounded element (a story, a witness quote, a term), never reduced to
+one per sentence. Two marks landing on the same sentence is not a
+count bug under R31-A - it is by design, whenever a story/quote
+record's citing run and a `doctrinal_witness` record's citing run both
+finish at the same sentence (`VoiceTurnBody.tsx`'s `finishingStoryCards`
+and `finishingWitnessCards`, or the anchor-driven renderer's own
+`storyCards`/`witnessCards` split by `STORY_RECORD_TYPES = {story,
+quote}` / `WITNESS_RECORD_TYPES = {doctrinal_witness}`). The real
+defect R31-A names is readability - a participant sees "✲✲" with no
+way to tell which mark is which record without tapping both.
+
+**Which two records back Theon's own two marks - not confirmed, and
+said honestly rather than guessed.** The exact sentence does not
+appear in any saved battery report, Corpus A pool file, or persisted
+transcript this repository or its build artifacts carry - it was a
+live staging generation whose own evidence bundle (the per-sentence
+citation record_ids `apply_net` actually attached) is not stored
+anywhere this session can read. Reproducing it exactly would need a
+fresh live regeneration against Theon's own original prompt, which is
+also not on record. What can be said without guessing: `alx.story.
+origen-demetrius` (a real `story` record) and `alx.dw.councils` (a
+real `doctrinal_witness` record) both exist in alx's own repository,
+both mention Demetrius by name, and are the two record_types whose
+mechanism (above) can produce exactly this stacked-mark shape on
+content matching this sentence's own topic - named here as the most
+likely pairing given real content, explicitly flagged as unconfirmed,
+not reported as fact. If Mark wants the exact pair pinned, that needs
+either a live regeneration against the original prompt or persisting
+`apply_net`'s own per-sentence citation output for staging turns going
+forward - neither done here.
+
+**Three readability options for R31-A, one paragraph each, no code
+change - Mark's to choose, not decided here** (the reviewer's own
+three candidate directions):
+
+**(a) Mark placed at its own element.** Instead of both marks landing
+at the end of the sentence, each mark moves to sit immediately after
+the specific span it actually grounds - the story's mark after the
+narrative clause it covers, the witness mark after the specific phrase
+its quote backs, wherever those spans fall inside the sentence. On a
+phone screen this reads the most like ordinary punctuation - each mark
+sits right where its own claim is, so a participant never has to
+match a glyph to content by process of elimination. Cost: this is the
+biggest engineering lift of the three - the current renderer places a
+mark at a SENTENCE boundary (the end of a segment), not at an
+arbitrary sub-span inside one, so this would need real span-level
+placement logic, a capability the anchor-driven renderer's own anchors
+(`run_start_sentence`/`run_end_sentence`) don't carry today; a change
+to what `transparency_plan.py`'s anchors actually record, not just how
+they render.
+
+**(b) One glyph per kind.** Keep marks at the sentence boundary (no
+placement change), but give the story mark and the witness mark
+visually distinct glyphs - not two identical ✲ characters stacked, but
+one shape for "a story is being told" and a different one for "someone
+is being quoted," the same distinction `StoryMark`/`WitnessMark`
+already carry as separate React components today, just never
+differentiated in what they actually render. On a phone screen two
+different small glyphs read as two different KINDS of thing at a
+glance, without needing a tap to find out - closest to a typical
+footnote-superscript convention (¹ ² vs a dagger/asterisk pair).
+Cost: smallest of the three - a CSS/character change inside two
+already-separate components, no data-shape change, though it does add
+a second glyph to the fleet's own "one grammar, five applications, no
+feature may introduce a sixth verb" vocabulary (Full UX Design §5.7),
+which R10's own ruling already stretched once for the repeat-citation
+opacity treatment.
+
+**(c) Single mark, hover/tap card listing all elements.** Collapse
+however many marks would land on one sentence into a single glyph;
+tapping or hovering it opens one card listing every record it actually
+covers (today's existing per-mark tap-through, just aggregated). On a
+phone screen this is the cleanest - never more than one glyph per
+sentence, however many records ground it - at the cost of hiding the
+"how many distinct things are grounding this" information the current
+stacked-glyph shape (accidentally) surfaces today; a participant has
+to tap to learn there were two things, not one. Cost: moderate - the
+per-segment mark-building logic in both renderers already groups by
+kind (`marks.push(<StoryMark.../>)`, `marks.push(<WitnessMark.../>)`);
+this would merge those into one combined mark component fed both
+groups, no anchor/data-shape change needed, only a rendering change.
+
+No recommendation between the three - the reviewer's ask was options,
+not a decision.
+
+**Entry 59 — 2026-09-23.** R39-audit retrofit brief (the reviewer's own
+seven-gap audit, this PR): G3, G4, G6, G7, and the precedent note, in
+full. G1/G2 (paragraph-anchoring + tag-is-a-promise wording, with the
+before/after battery) and G5 (the bridge-route-vs-pronoun_rule ruling
+options) are their own entries below/in Rulings-Pending.md.
+
+**G3 - the do_not_voice quote license never reaches the prompt.**
+`engine/m4/grounding.py`'s `find_do_not_voice_violation` runs only on
+the FINISHED answer text, after generation - confirmed, it never
+touches what the voice is given to work from. `engine/m4/evidence.py`'s
+`select_cell_candidates`/`_entry` builds every quote candidate (record_
+type == "quote") through the same generic path as any other record -
+reads `confidence`, `classification`, `claim_guards`, never `license`.
+A do-not-voice quote and an ordinary quote produce byte-identical
+evidence-block entries; `render_evidence_block` prints both the same
+way, with no restriction noted anywhere. The rider mechanism to reuse
+is already proven and already-shipped: R11's own `claim_guards` rider
+(`render_evidence_block`'s own `MUST NOT ASSERT: ...` line, rendered
+directly onto a candidate's own evidence line, inside the same
+`budget_chars` the candidate is already charged against) - not
+`citation_cards.py` (downstream, post-hoc source-card resolution for
+the transparency UI, unrelated to this gap).
+
+**Fleet-wide count: exactly 2** quote records fleet-wide carry
+`license: do-not-voice` - `syr.quote.aphrahat-anti-jewish-frame` (a
+real formation world, Aphrahat's *Demonstrations* XVII.1) and
+`fix.quote.private-teaching` (the fixture/test world; its own
+`divergence_note` states the license reflects that the words were
+never spoken aloud, only copied privately - it reads as built
+specifically to exercise this mechanism). No other of the eleven
+formation worlds carries one today; both existing instances currently
+reach the voice as ordinary, unrestricted evidence.
+
+**Proposed (not built): reuse the `claim_guards` rider shape.** Keep a
+do-not-voice quote as a candidate (removing it loses real citable
+substance the license does not necessarily bar - `fix.quote.private-
+teaching`'s own `divergence_note` makes the point directly: the words
+were never spoken, not that the underlying fact is unspeakable), but
+carry `license == "do-not-voice"` forward in `_entry()` the same way
+`claim_guards` already is, and render it as a rider: `" | MUST NOT
+QUOTE VERBATIM: paraphrase or cite the fact only, never reproduce this
+record's exact wording."` This is the direct generation-side
+counterpart to what the runtime check actually polices (verbatim
+reproduction, not use of the record at all), reuses an already-shipped
+rendering shape rather than inventing one, and avoids silently
+degrading answer quality on a topic the world's own record may still
+want spoken, just not quoted.
+
+**G4 - no prompt line against display markup.**
+`engine/m4/output_check.py`'s display family (`_display_findings`)
+flags residual `[[...]]` tag markup in any spelling, literal asterisks,
+markdown headings, horizontal rules - the module's own header docstring
+states the "5 of 49 live turns" figure directly and names, of this
+exact family: *"No such function was ever written"* - unlike two other
+defects the same docstring describes (each since fixed "by asking the
+prompt more insistently"), no generation-side attempt was ever made for
+display markup at all. Confirmed independently: no "no markdown / plain
+text / no formatting" instruction exists anywhere in `engine/m2/
+builders.py` or `_fleet.voice.fleet.md`.
+
+**Proposed (not built).** `register_statements` cannot take an eighth
+line - the fleet record's own ruling note says the seven are O2 verbatim,
+copied not paraphrased, "so this record and the spec can never quietly
+drift apart"; an eighth would break that parity. Add a new field
+instead, `display_discipline`, delivered the same standing-rule way
+`pronoun_rule`/`citation_contract`/`limit_discipline` already are (a
+matching `emit(...)` line in `build_fleet_preamble`), in the same
+terse, declarative register as the existing one-line statements:
+
+> "Only prose reaches the participant - no markdown, no headings, no
+> asterisks, no horizontal rules, and no bracketed tags of any kind. If
+> it would look typeset on a page, it is not spoken."
+
+**G7 - reader-failure pass-through: no standing directive.**
+`engine/m5/failure.py`'s reader-failure branch (lines 50-79 in the
+current file; the audit's own file:line citation, 46-95, overruns the
+file's actual 102 lines) returns `RoutingDecision(action="voice_pass_
+through", ...)` with no `directive` and no `out_of_scope_class` - both
+default `None`. Traced through: `_build_turn_directive` (`turn.py`)
+returns `None` outright when directive is `None` and neither
+`table_engagement` nor `is_other_tradition_first_ask` is set - all
+three are false on a reader-failure turn, so the voice genuinely runs
+with no directive text of any kind, confirmed exactly as the audit
+named it. The other-tradition rule is confirmed per-turn-only, gated on
+`is_other_tradition_first_ask`, itself computed from `out_of_scope_
+class == "other_tradition"` - a value only the READER produces. No
+reader classification, no other-tradition directive: this rule never
+reaches a reader-failure turn as things stand.
+
+*(Correcting the audit's own label: the two-condition knowledge-scope
+rule this item names is R37 ("When may a Representative's pivot draw on
+outside knowledge of a named-but-uncovered tradition?"), RULED
+2026-09-23 12:47Z - not R26, which is the earlier, broader ruling R37
+itself amends. R37 is not yet merged to `main` (open PR #438), which is
+why a search of this branch's own `Rulings-Pending.md` - cut from
+`main` - found nothing under that number; it is real, RULED, and its
+own two-condition test [(a) the world's own time_window/horizon; (b)
+revealed in this conversation] is exactly what `knowledge_scope` below
+carries.)*
+
+**Proposed (not built).** A new standing field, `knowledge_scope`,
+delivered the same always-compiled way as `pronoun_rule`/`citation_
+contract`/`limit_discipline` - the cached half of the prompt a reader
+failure cannot remove, unlike the per-turn directive channel that goes
+missing exactly when the reader fails:
+
+> "We speak of another Christian tradition, beyond our own, only two
+> ways: what we could actually have known of it within our own years,
+> because our own records genuinely hold it; or what this conversation
+> has already told us, in the participant's own words. Outside both, we
+> say plainly that our own record does not mention it, and we answer
+> the rest from what we do hold. We never claim another tradition's
+> history or doctrine as if it were ours, or as if we knew it from
+> anywhere but one of those two places."
+
+When the reader succeeds, this sits beneath the fuller, evidence-
+carrying `_other_tradition_directive` without contradicting it (strictly
+more specific and evidence-backed). When the reader fails, this
+standing line is still present in the compiled prompt - the voice
+degrades to it instead of to nothing.
+
+**Precedent - the retired honest-limit floor line, the shape every
+G-item above should follow.** `turn.py`'s own comment (current lines
+838-843, shifted from the audit's cited 781-792), left in place as a
+marker rather than deleted: *"No code-appended floor line. Program-Spec
+M5: 'In-world thinness is never intercepted - the honest limit is the
+voice's own testimony, not a system apology.' It fired on 7 of the
+turns measured today and on every one of the seven it landed after real
+surviving content... The honest limit is the voice's job, and the limit
+records are in its ground to say it from."* `fleet.md`'s own
+`limit_discipline` (line 33, unchanged): *"What the ground given for
+this turn does not support is spoken as our own honest limit, in voice,
+plainly - never asserted as though it were fact, and never apologized
+for as though honesty were a failure... Answer the question first; name
+what is missing where it touches that answer."*
+
+A code-appended floor line existed first - a runtime backstop that
+mechanically tacked an honest-limit sentence onto the answer whenever
+grounding fell short. Once `limit_discipline`, compiled into every
+world's own standing prompt, became strong enough to make the voice say
+this itself, unprompted, on real turns, the backstop was retired, not
+deleted - the comment stays as a record of why it is gone - and the
+real fix was recognized as living in the generation-side text, not a
+runtime patch appended after the fact. This is the shape every G-item
+in this audit is asking for: a runtime check exists first because
+generation cannot yet be trusted to say the right thing on its own; the
+real fix is prompt text that makes the voice say it correctly in the
+first place, after which the check becomes a rarely- or never-firing
+backstop kept for safety, not a live crutch.
+
+**G6 - the withheld-sentence bookkeeping bug (built, not merely
+proposed, this PR).** `engine/m4/uncited_claims.py`'s own module
+docstring and `find_uncited_claims`'s own filter both asserted a
+withheld sentence "never reaches the participant" and is therefore
+"nothing... to check." False, confirmed against `engine/m4/turn.py`'s
+own `apply_net`: `text = grounding_net.strip_tags(raw_text)` strips
+ONLY `[[...]]` tag markup from the raw text - every sentence's own
+prose, withheld or not, survives to the finished answer (`apply_net`'s
+own docstring, correctly: *"the checks gate decoration, never the
+text... A sentence that fails verification loses its citation and is
+carried on the event for the SS5 audit; it is not destroyed on the way
+to the screen"*). `find_uncited_claims`'s own filter (`if sent["verdict"]
+!= "ok" or sent["tags"]: continue`) skipped every withheld sentence
+unconditionally - so a sentence that WAS tagged, then withheld (tag
+stripped, text kept) reads to the participant with no citation and no
+visible sign anything is wrong, and R27's own dedicated "catch every
+uncited claim" mechanism was blind to it. Worse, and found live-testing
+the fix: a genuinely UNTAGGED sentence making a specific, uncited claim
+(the fleet's own real test fixture - "The tradition that won here
+brought the repentant back in, even at the deathbed, and Dionysius
+defended doing so," no tag at all) also gets verdict `"withhold"` from
+`check_turn` (a separate branch, gated on no-tag-plus-specific-claim,
+not the tag-verification branches) - so this same gap already
+compounded a second, distinct grounding_net.py-level blind spot too.
+
+**The fix:** the filter now reads `if sent["verdict"] == "ok" and
+sent["tags"]: continue` - the same "genuinely, successfully cited"
+idiom `grounding_net.py`'s own `substantive_survives` already uses.
+Anything else - untagged, or tagged-but-withheld - is examined exactly
+like an untagged sentence, through the same allowed-uncited checks
+(question / honest-limit / first-person-no-claim) every other candidate
+already goes through. The module's own docstring and the function's own
+inline comment are corrected to state what `apply_net` actually does,
+not what it was assumed to do. Two existing tests that pinned the old,
+false premise (`test_a_withheld_sentence_is_never_checked`, `test_real_
+dionysius_deathbed_sentence_uncited_is_withheld_upstream_not_reported_
+by_this_module`) are corrected in place to assert the real, fixed
+behavior, plus one new test confirming the three allowed-uncited kinds
+still pass a withheld sentence of that shape. Full suite green
+(`engine/m4` + `engine/api`, this PR).
+
+**Entry 60 — 2026-09-23.** G1/G2 - the fleet-wide `citation_contract`
+(`records/_fleet/fleet_voice/_fleet.voice.fleet.md`) has no paragraph-
+anchoring language (ground travels by paragraph; interpretation stays
+attached to what it interprets - `engine.m4.grounding_net.check_turn_
+with_paragraph_coverage`/`find_uncited_paragraphs` check for this at
+RUNTIME, nothing asks for it on the generation side) and no tag-is-a-
+promise content rule (R39's own gap, Entry 59: the contract's own
+verbatim-fidelity promise is scoped to quoted spans only).
+
+**Proposed wording** (`engine/m4/reports/g1_citation_contract_battery.py`,
+this PR) - appended after the contract's own stable tail sentence ("The
+tags themselves are never shown to the participant; only the sentence
+is."), present in every world's compiled prompt regardless of that
+world's own per-world example ids inside the contract's own worked
+example:
+
+> "Ground travels by paragraph, not only by sentence: an interpretive
+> or connective sentence - one that carries no tag of its own because
+> it names no person, place, text, number, or quote - stays attached to
+> the claim it interprets, and that claim's own ground is what it rides
+> on. It never drifts past a paragraph break to ride on a different
+> paragraph's ground instead; a new paragraph that opens with its own
+> claim starts its own ground fresh, and everything within that
+> paragraph, tagged or not, answers to it. A tag is a promise about
+> more than address: every specific detail in a tagged sentence - not
+> only a quoted span - must be that record's own content, stated or a
+> fair paraphrase of it, never a detail added because it sounds
+> plausible, fits the period, or belongs to a related matter this voice
+> happens to know about from outside the record. Where a sentence would
+> need one more specific detail than its tagged record actually gives,
+> it stops at what the record gives; anything further is named, if at
+> all, as our own honest limit, never folded into the tagged sentence
+> itself."
+
+**The before/after battery** (interview only - 11 admitted formation
+worlds x 2 fresh probes each, current vs proposed wording, no table
+session; reuses `engine.m4.live_uncited_claims_battery`'s own real
+`_run_probe_turn`/`CONFLICT_TURN`/`_other_tradition_turn` rather than
+reimplementing the probe/regeneration logic; each world compiled fresh
+via `compile_and_hash` rather than read from `packages/` on disk, since
+this local environment's own `packages/alx/...` registry-current
+pointer was found, mid-measurement, to point at an empty directory - a
+build artifact from this session's own heavy local test-running,
+unrelated to the fix itself). **Real cost: $3.2801, 44 calls.**
+
+**The honest result: no measurable improvement.** Raw turn rate
+identical both conditions - 95.5% (21/22). `wholly_uncited_paragraph`
+turn rate identical both conditions - 32% (7/22). Per-world raw
+sentence-offense TOTALS were noisier and, summed across the fleet,
+higher under the proposed wording (91) than current (68) - not read as
+a regression the wording caused (this is one live run per condition,
+not a paired/controlled resample of the same draft, and R27/R27-A's
+own battery numbers are known to carry real run-to-run generation
+variance at this sample size), but a real number, reported as measured
+rather than smoothed toward the hoped-for direction. **The proposed
+wording does not move the R27/R27-A raw offense rate at this sample
+size.** This does not contradict R38's own self-revision result (Entry
+61) - R27/R27-A's own checks (uncited claims, paragraph coverage) and
+R38's own leak class (a specific fabricated detail riding a real tag)
+are different things; a generation-side line aimed at one is not
+expected to move the other. No new "safe to leave enforcement off"
+threshold is justified by this measurement; R36's own existing
+threshold discussion (Rulings-Pending.md) stands unchanged. Full
+per-world numbers: `g1-citation-contract-battery-2026-09-23.json`.
+
+**Entry 61 — 2026-09-23.** Mark's own follow-up ask, before this PR
+opens: the precision of the detector (`engine.m4.uncited_claims.find_
+uncited_claims`) that produced Entry 60's own 95.5% raw rate. Entry
+60's own battery script only persisted aggregate counts, not the real
+flagged-sentence text, so it could not be sampled directly - an honest
+methodology note, not glossed over: `engine/m4/reports/g1_precision_
+sample_measure.py` re-runs the identical battery mechanism, CURRENT
+citation-contract wording only (Entry 60's own finding - the proposed
+wording made no measurable difference to the raw rate - means which
+condition this sample is drawn from does not bear on the detector's
+own precision), 11 worlds x 2 probes = 22 fresh probes, keeping every
+raw offense's own sentence text this time. **Real cost: $1.6527, 22
+probes, 155 raw offenses captured.**
+
+**Sample:** 40 of the 155, stratified across all 11 worlds (2-5 per
+world, proportional to each world's own share), hand-read against each
+world's own real, freshly-compiled records (`engine.m2.compiler.
+compile_and_hash`, not assumed from general historical knowledge - a
+sample of the "supported" classifications below was independently
+verified by searching each world's own compiled repository for the
+specific named claim, not trusted on plausibility alone, given this
+whole investigation is about not trusting plausible-sounding, unverified
+claims).
+
+**The three counts Mark asked for: 0 unsupported, 14 supported but
+untagged, 26 interpretive or connective.**
+
+- **Unsupported (0 of 40):** none found. Not one of the 40 sampled
+  sentences asserted a claim this hand-read could not find real support
+  for, somewhere in the speaking world's own repository.
+- **Supported but untagged (14 of 40):** the record makes the claim,
+  the voice simply never attached a tag to it. Three verified directly
+  against the compiled repository: *"Traveling through Palestine,
+  Origen was ordained a presbyter by the bishops there, without his own
+  bishop's consent"* (alx) - matches `alx.story.origen-demetrius` and
+  `alx.quote.demetrius-accused-him-bitterly` almost verbatim.
+  *"Slaves encouraged to despise their masters and leave them"*
+  (cappadocian) - matches `cappadocian.story.slave-market-sermon` and
+  `cappadocian.force.ascetic-ferment` directly. *"Those customs - the
+  twelve psalms at evening and at night, received from an angel..."*
+  (gallic) - matches `gallic.core.gallic` and `gallic.figure.cassian`
+  directly, specific enough (two numbers, a named source) that it reads
+  as an oversight, not an interpretive choice. Also in this bucket:
+  witt's own quoted confession language ("freely justified for Christ's
+  sake through faith...") - real quoted text with no tag, a citation-
+  contract violation in its own right (the contract's own verbatim-
+  fidelity promise applies to quotes specifically) distinct from R27's
+  own uncited-claim class, surfaced by this same sample.
+- **Interpretive or connective (26 of 40):** the contract already says
+  these need no tag - transitional framing ("So there were two
+  arguments at once," "It did not end cleanly"), rhetorical summary
+  ("The whole world knew it," "The wound had a shape before it had a
+  name"), and analytical synthesis connecting two already-cited ideas
+  rather than naming a new one. Two sub-cases worth naming separately,
+  both real detector-precision gaps rather than ordinary connective
+  prose: (a) two sentences (ijc, pahc) are honest-limit in function -
+  *"Our record doesn't mention 'Alexandrian Christianity' as though it
+  were a separate tradition from our own"* - but got caught by the
+  `neighbour_named` upgrade specifically because they name a fleet
+  world while denying knowledge of it; (b) one sentence (syr) -
+  *"Beyond that, the record runs thin"* - is honest-limit scaffolding
+  in plain English that `engine.prose.SCAFFOLD_MARKERS`'s own fixed
+  phrase list does not happen to cover, a real, narrow gap in that
+  vocabulary's own coverage, not a judgment call.
+
+**Three options for Mark, one paragraph each, no decision - what each
+does to the participant's transcript and to the Facilitator step-in
+rate:**
+
+**(i) R27 stays report-only, the contract stands as written, the
+detector is kept as an instrument with its measured precision.** The
+participant's transcript is unaffected either way - report-only already
+means nothing the detector flags ever reaches the participant
+differently today. The Facilitator step-in rate stays exactly where R36
+already set it (`wholly_uncited_paragraph` only, `neighbour_named` a
+hard per-sentence failure). This option treats the 0/14/26 split as
+useful measurement, not as a reason to touch anything - the detector
+over-flags real declarative prose relative to what it's actually FOR
+(R27's own stated job is catching a genuinely uncited claim, and 26 of
+40 flags here are prose the contract already exempts), but nothing here
+currently acts on a flag without a human step, so the cost of that
+over-flagging is borne by review effort, not by a participant.
+
+**(ii) The contract adopts the paragraph rule and enforcement returns
+once a generation-side change moves the raw rate, which this run says
+wording does not.** No participant-facing change today - this option
+is conditional on a FUTURE result this measurement did not produce.
+If a real generation-side fix is later found that does move the raw
+rate down, enforcement (regenerate-once-then-Facilitator, R36's own
+existing shape) returns on the improved population; the Facilitator
+step-in rate would then track whatever residual rate that future fix
+leaves, not the 95.5%/32% measured here. Until such a fix exists, this
+option is functionally identical to (i) - it names a bar for
+re-enabling enforcement rather than changing anything now.
+
+**(iii) The detector is rebuilt around "unsupported" only, with the two
+honest kinds (supported-but-untagged, interpretive-or-connective)
+exempt, and re-measured before any enforcement.** This would require
+real new work - `find_uncited_claims` becomes a support check against
+the world's own records (closer in shape to candidate C, R38's own
+Entry 57/59, than to the current lexical/pattern gate), not the fixed-
+pattern exemption list it is today. If built and re-measured with
+precision closer to 1.0 on "unsupported" specifically, the participant-
+facing transcript would see far fewer false triggers on honest,
+supported prose (only the 0-of-40 unsupported class would ever
+regenerate a paragraph), and the Facilitator step-in rate would fall to
+track genuine fabrication rather than tagging completeness and
+connective-sentence false positives - but this sample's own 0/40 real
+unsupported count on a small hand-read is not itself evidence the
+rebuilt detector would perform well; that needs its own live
+measurement once built, the same discipline every other candidate in
+this project has been held to.
+**Entry 62 — 2026-09-23.** R38 build (Mark's own "GO" on the 0/20 real-
+leak measurement - the full ruling, mechanism, and measurement live on
+PR #436, not duplicated here; this entry covers only what this PR
+itself adds, the real code). `engine/m4/self_revision.py` (new module):
+`self_revise(...)` - after the voice's draft, if the draft carries any
+tags, a second same-model, same-system-prompt call is given the draft
+plus the exact, full text of every tagged record (`REVISION_INSTRUCTION`,
+carried over unchanged from the measurement in PR #436) and told to trim
+any untagged-record detail. Wired into `engine/m4/turn.py`'s
+`_run_ordinary_voice_turn`, between the seat-identity guard and
+`apply_net` - the revised text (or the draft, on any fallback) is what
+`apply_net`, the net, and the participant all see; nothing downstream
+needed to change.
+
+**Scope and kill-switch, exactly as specified.** Fires only when
+`is_other_tradition_first_ask` is true (the caller-computed flag every
+other other_tradition-scoped mechanism in this file already gates on -
+`_other_tradition_directive`, R37's own evidence-offering) and the
+draft actually carries a tag (an other_tradition turn that answered
+with the honest-limit sentence and nothing else spends no extra call -
+`self_revise`'s own `no_tagged_records` fallback). `self_revision_
+enabled` threads caller-computed through `run_turn`/`_run_ordinary_
+voice_turn`, `engine.api.wiring.handle_message`, `engine.api.
+table_wiring`'s own three round-advance functions, and `engine.api.
+config.Settings` - the identical parameter-threading shape `r27_enforce`
+already established, reused rather than invented. `CIC_SELF_REVISION`
+(`engine/api/config.py`) is the kill-switch, **default ON** - the
+opposite sense from `CIC_R27_ENFORCE`'s default-off, since this ships
+as generation (Mark's own ruling, not a staged rollout behind a flag);
+set to `0`/`false`/`no` for cost or incident use only.
+
+**Fallback, never a blank turn.** `self_revise` always returns usable
+text: `no_tagged_records` (nothing to revise against, draft kept, no
+call spent), `call_failed:<status>` (the revision call itself failed,
+draft kept), or `empty_response` (the call succeeded but returned
+nothing usable after stripping, draft kept) - every fallback keeps the
+DRAFT's own real text, the same text the participant would have read
+had self-revision never run this turn, never an empty string. Every
+outcome, including which fallback (if any) fired, rides on
+`voice_event["attempts_meta"]["self_revision"]`: `ran`, `changed`,
+`draft_length`, `revised_length`, `fallback_reason`,
+`latency_seconds` - the same always-present, additive shape
+`attempts_meta["r27_regenerated"]` already established, so every
+existing reader of `attempts_meta` needs no change and a real
+production run can be audited per-turn without a schema change.
+Cost/latency: the revision call's own usage is recorded with
+`call_kind="self_revision"` (a distinct kind from `"voice_generation"`),
+so its own real marginal tokens/dollars are now separable from the
+draft call - the exact gap Entry 61 named as unmeasured in the live
+harness. `latency_seconds` wraps the revision call itself with
+`time.perf_counter()`.
+
+**7b/R30 compatibility**, stated in `self_revision.py`'s own module
+docstring: the draft-then-revise pair is one atomic pre-stream step;
+the guard check (and any streaming, whenever 7b is built) never starts
+on the draft text, only on whatever this module returns - R30's own
+"hold the opening until the guard has checked it" rule already
+describes exactly this shape, so 7b needs no new mechanism for this,
+only to call self-revision (or skip it, per the kill-switch) before it
+begins emitting anything.
+
+**Tests** (`engine/m4/tests/test_turn.py`, five new, `FakeBedrockClient`'s
+own `stream_scripts` - one script per sequential call, the identical
+harness the seat-identity-guard and R27-enforcement tests already use):
+fires only on an `other_tradition` first ask, not on an ordinary turn;
+the kill-switch bypasses it even on an `other_tradition` turn; the
+revised text (tag stripped) replaces the draft's own text end to end
+through a real `run_voice_turn_for_world` call; an empty revision
+response falls back to the exact draft text, flagged
+`fallback_reason: "empty_response"`, never blank; a draft with no tags
+at all spends no second call (`no_tagged_records`). Plus three new
+`engine/api/tests/test_config.py` tests pinning `CIC_SELF_REVISION`'s
+own default-on/kill-switch behavior. Full `engine/m4` + `engine/api`
+suites green (the pre-existing local package-cache 503s on
+`test_admission_gate`/`test_app::test_list_worlds`/`test_bridge_
+history`/`test_table_api`/`test_table_isolation`/`test_wiring` are the
+same environment artifact named in Entries 57/58, reproduced identically
+on a clean `origin/main` checkout, unrelated to this PR).
+
+**Exposure - how many `other_tradition` turns the last live battery
+had, named honestly rather than guessed.** The most recent live battery
+that calls the real reader (`engine.m4.turn.run_gate`, not bypassed -
+see the correction below) is this PR's own precursor work, G1's
+precision-sample run (`r39-audit-g1-g7-retrofit`#444, 22 probes,
+`engine.m4.live_uncited_claims_battery._run_probe_turn`), which ran the
+`B-other-tradition` probe once per world - **11 of 22 probes, by
+design** (Entry 54's own F3(a) fix: "a direct first-turn ask that needs
+no history... can actually fire `out_of_scope_class == "other_
+tradition"`" - the whole point of that probe's own shape). That run did
+not log each probe's own real `out_of_scope_class`, so the exact number
+that actually ROUTED as `other_tradition` (versus some other class)
+isn't available from it - a real, named gap, not filled in with an
+assumed 11/11.
+
+*Correction, caught re-reading this entry before it shipped rather than
+after: the R38/R39 measurement scripts (PR #436, including Entry 61's
+own self-revision run) do NOT call the real reader at all -
+`build_evidence_and_message` builds the evidence block and directive
+directly via `engine.m4.evidence.assemble_evidence`, deliberately
+bypassing `run_gate` to hold the generation-side variable (directive
+text, evidence offered) fixed across every run rather than re-deriving
+routing each time. Those 40+ calls are real evidence about what the
+VOICE does once already routed `other_tradition`, never evidence that
+the REAL reader would route the Theon/Donatists message there - that
+confirmation exists only from the actual staging occurrence Mark found
+and from the F3(a)-shaped battery probe above, not from anything this
+PR or #436's own measurement scripts ran.*
+
+**Round-1 review fix, same PR:** the reviewer caught that
+`REVISION_INSTRUCTION` (`engine/m4/self_revision.py`) read "the
+participant's question about the Donatists" - the measurement probe's
+own text (PR #436), carried unchanged into this entry's own production
+code, where the question can be about any tradition or none. Fixed:
+`participant_message` now threads from `turn.py`'s own already-in-scope
+parameter of that name through `build_revision_message`/`self_revise`;
+the instruction reads "the participant's question, given in full
+below" and interpolates the real text, no tradition named in the
+constant. New `engine/m4/tests/test_self_revision.py` pins both: the
+constant names no tradition, and the built message carries whatever
+question is actually passed to it.
+
+
+**Entry 63 — 2026-09-23.** Mark's staging look (`CIC_R27_ENFORCE=1`,
+first result, interview, Theon on the Donatists) found a fabrication the
+net let stream: the R26 opener fired correctly ("Our record doesn't
+mention that Christian tradition."), but the answer that followed it
+included, tagged to `alx.dw.church-failure`: *"Under persecution, some
+gave way - they sacrificed to the gods, or they handed over the sacred
+books."* The record's own text is "Under persecution, many gave way.
+Some sacrificed to the gods." - nothing in `records/alx` mentions
+handing over books, traditores, or surrender of scriptures (grep
+confirms). The added clause is the traditor charge, specifically
+Donatist - the very tradition the question named and the opener said
+this world's own record does not cover. Per the reviewer thread's own
+instruction: report-only measurement first (R34's own discipline), no
+net code change until Mark rules. `alx.dw.church-failure` was not
+touched - its text is correct; the defect is the check, not the record.
+
+**Correcting the reviewer thread's own first diagnosis, verified before
+anything else was built on it** (the same "re-verify, don't repeat a
+claim unchecked" rule this project already applies to a quoted source,
+applied here to a technical one): the reviewer's message named
+`engine.m4.grounding_net._span_in_records` (the quoted-span, any-6-word-
+window verbatim check) as the mechanism. Run directly against the real
+code and the real record before this entry was written -
+`verdict_for_sentence("Under persecution, some gave way - they
+sacrificed to the gods, or they handed over the sacred books.",
+["alx.dw.church-failure"], ...)` - the worked example carries no literal
+quote marks, so it never reaches `_quoted_spans`/`_span_in_records` at
+all. `claim_markers()` on this sentence is empty (no proper noun,
+number, or enumeration), which routes it into `verdict_for_sentence`'s
+"THE TAG IS THE CLAIM" branch instead (the `if not markers:` block) -
+gated on ANY NONZERO content-word overlap with the tagged record, no
+ratio floor at all. The sentence's own content words are {way, gods,
+gave, books, sacred, sacrificed, persecution, handed}; five of eight are
+in the record's own vocabulary (way, gods, gave, sacrificed,
+persecution); three (books, handed, sacred) are not, and nothing in
+this branch ever looks at that. This is a MORE permissive mechanism
+than a window check, not the same one - worth Mark and the reviewer
+thread both knowing precisely, since a fix aimed at `_span_in_records`
+alone would not have caught the worked example at all.
+
+**The measurement** (`engine/m4/reports/net_remainder_measure.py`,
+report `net-remainder-measure-2026-09-23.json`, both this PR). Corpus:
+every `engine/m4/reports/live-turn-report*.json` file carrying a
+`voice_event.grounding.sentences[]` array for a real fleet world (the
+same Corpus A pool `grounding_fooling_measure.py` already established),
+re-run against the CURRENT compiled packages and CURRENT
+`verdict_for_sentence` rather than the verdict saved at generation time
+- 34 turns, 529 sentences scanned. The other file pattern the reviewer
+named, `live-uncited-claims-battery-report*.json`, was checked directly
+and confirmed to carry zero `"ok"` verdicts anywhere - by design, the
+storage-bloat-avoidance discipline this workstream has kept throughout
+persists only reduced `{sentence, class}` OFFENSE lists, so it cannot
+supply grounded-sentence text at all; Corpus A is the only real source
+of "whatever turn captures you hold" with the detail this measurement
+needs.
+
+311 tag-bearing sentences were marked grounded via a real grounding
+decision (excludes untagged "no checkable claim"/exempt sentences,
+which were never graded at all): 199 via the zero-floor "tag is the
+claim" branch, 100 via the ratio-floor branch (>=40% grounded), 12 via
+the quoted-span window branch. For each, "remainder" is the sentence's
+own content words absent from the union of its tagged records'
+vocabulary. Distribution: 0 words unmatched - 150 (48.2%); 1 - 43; 2 -
+27; 3 - 21; 4 - 14; 5+ - 56. **6 of the 311 have a remainder that is not
+scattered but sits together as one coordinating clause** (an "or"/
+"and"/"but"/dash-led fragment, 3+ content words, every one of them
+unmatched) - the worked example's own shape. All six carry a remainder
+of 3 or more words; none with a smaller remainder shows this pattern in
+this corpus. A handful of remainder-1/2 sentences were read by hand
+(Entry text below) and are ordinary single-word paraphrase, not
+fabrication - "kinsmen," "reached," "begins," "hardened" each sit alone
+in an otherwise fully-grounded sentence.
+
+**All six own-clause sentences, read by hand and named, per the
+reviewer thread's own re-check against the report - stated plainly
+because Mark needs this before he chooses between the candidates
+below:**
+1. `alx`, ratio-floor - "...was the one we met in every text, Old
+   Testament and New alike." - the "Old Testament and New alike" clause,
+   ordinary framing language, not a claim.
+2. `alx`, quoted-span-window - "...but the whole of Scripture is one
+   voice, and that voice is Christ." - an Origen paraphrase, not a
+   fabrication.
+3. `cappadocian`, zero-floor - "...high plateau and river valleys,
+   estates and hungry villages..." - descriptive geography, not a
+   fabricated claim.
+4. `desert`, zero-floor - "...that is not the form our record takes." -
+   an honest-limit scaffold sentence in substance, even though it did
+   not match this build's own fixed-phrase exemption list verbatim.
+5. `desert`, zero-floor - "...but the stilling of what otherwise drives
+   you." - an apatheia paraphrase, explaining a term already named, not
+   inventing one.
+6. `hal`, zero-floor - "...we will say that plainly first." - pure
+   first-person framing, no claim content at all.
+
+**None of the six is a fabrication.** The only confirmed fabrication in
+this whole entry is the staging worked example itself, and it is NOT in
+this corpus (it came from Mark's own live staging session, not from any
+saved `live-turn-report*.json`). Stated as the reviewer thread's own
+correction, and confirmed correct on re-reading each of the six above:
+**on this corpus, the own-clause shape has 0 of 6 precision** - lexical
+remainder alone cannot distinguish "handed over the sacred books" from
+"the whole of Scripture is one voice." Both candidates below withhold
+real, honest paraphrase specifically TO catch a class that has zero
+confirmed real instances anywhere in this corpus. That does not mean
+the worked example isn't real, or that the net doesn't need a fix - it
+means a bag-of-words remainder measurement is the wrong INSTRUMENT for
+telling the two apart, whatever threshold it uses. See candidate (C)
+below, added for exactly this reason.
+
+**Two general candidates, numbers from the measurement above, neither
+built:**
+
+**(A) Full coverage - every content word must be in the tagged
+records' own vocabulary (remainder must be 0), and a quoted span over
+six words must be covered by matched windows across its ENTIRE length,
+not just one internal window.** Closes every gap this measurement
+found, including the quoted-span branch's own separate structural gap
+(a span >6 words today only needs one true 6-word window inside it to
+match - Origen's real "the first fruits of all the Scriptures" quote
+would still pass, but nothing stops an added clause past that quote's
+own boundary from riding along uninspected the same way the worked
+example's non-quoted clause did). Cost: 161 of 311 (51.8%) of currently-
+grounded sentences would newly withhold - roughly half. That is a large
+share of ordinary, honest paraphrase (the remainder-1/2 examples above)
+being treated the same as the worked example's genuine fabrication.
+
+**(B) Bounded remainder - a sentence is marked grounded only if its
+remainder is N content words or fewer**, N chosen from the six known
+own-clause cases above, every one of which carries a remainder of 3 or
+more: **N=2** is the exact boundary between the small single-word
+paraphrase this corpus shows as harmless and a whole unmatched clause
+riding along - stated precisely, a remainder of 0, 1, or 2 passes; 3 or
+more withholds. At N=2: 91 of 311 (29.3%, the 3/4/5+ remainder buckets
+from the distribution above) would newly withhold - catches every one
+of the six known own-clause cases (including, re-run directly, the
+worked example itself: remainder 3), while leaving the remainder-1/2
+paraphrase sentences untouched. This candidate needs its own separate
+rule for the quoted-span branch (remainder-count doesn't
+describe a partial window-match the same way), most naturally the same
+full-span-coverage requirement (A) already proposes for that branch
+specifically.
+
+**(C) A live reader-model support check**, ordered by the reviewer
+thread's own verdict on this PR's first pass, specifically because (A)
+and (B) both measure a lexical PROXY (word overlap) for the real
+question, and the six own-clause cases above prove that proxy has zero
+precision on this corpus. Candidate C asks the real question directly:
+for a tagged sentence, does the tagged record's own text support every
+claim in it - `supported` / `partly_supported` / `not_supported`,
+naming the unsupported clause. Built on the same forced-tool-use
+mechanism the safety and reader calls already use
+(`engine.m5.live_calls._forced_tool_call`, reused directly, not
+reimplemented), Haiku 4.5. Script + output:
+`engine/m4/reports/net_support_check_measure.py` +
+`net-support-check-measure-2026-09-23.json` (this PR).
+
+**Cost, stated before running per the reviewer's own instruction**:
+estimated ~$0.30-0.60 for 312 calls before the run; **real cost
+$0.6391** (312 calls, region us-east-1) - within the estimate, nowhere
+near the $100 ceiling. Average 1,776.5 input / 54.4 output tokens per
+call, **$0.00205 per sentence checked** - cheap enough that running
+this on every zero-floor-branch sentence a live turn actually generates
+would add a small, bounded per-turn cost, not a material one. First
+attempt hit Bedrock's own rate limit (429) at full sequential speed -
+fixed with the same 2s/4s/8s backoff convention this project's own live
+runs already use, plus a 0.4s pacing delay between calls; the retried
+run completed cleanly.
+
+**The real numbers.** Full 311: **45 (14.5%) come back partly or not
+supported** - lower than both (A) (51.8%) and (B) (29.3%), meaning
+candidate C is LESS aggressive overall while still catching the real
+fabrication. C1 (zero-floor branch, 199 sentences): 28 (14.1%) not
+fully supported. **C2 (other_tradition-routed turns): 0 of 0** - stated
+plainly, not forced to a number: the Corpus A pool predates the
+B-other-tradition probe shape entirely, confirmed directly (every
+result's own `routing_reason` scanned for "tradition" - zero hits in
+any of the 11 worlds' own files), so this scope is genuinely empty on
+this corpus, not merely small. **The worked example is caught**:
+`partly_supported`, unsupported clause "they handed over the sacred
+books" - naming the exact fabricated content, not just flagging the
+sentence.
+
+**The six own-clause examples: 2 of 6 pass** (`desert`'s apatheia
+paraphrase, `hal`'s "we will say that plainly first" framing sentence).
+The other four come back `partly_supported` or `not_supported`:
+the `alx` Logos/"Old Testament and New alike" sentence, the `alx`
+Origen-quote sentence ("the whole of Scripture is one voice, and that
+voice is Christ" - a real theological gloss, not a fabrication, still
+flagged), the `cappadocian` geography sentence ("the great city and the
+small sees the winters shut in"), and the `desert` honest-limit
+sentence, which candidate C flags as `not_supported` across nearly its
+whole length - the sentence the reviewer's own hand-read called "an
+honest scaffold sentence in substance." **Stated plainly: candidate C
+does not solve the precision problem either.** It catches the one
+confirmed real fabrication, correctly, by name - a real strength
+neither (A) nor (B) can match, since neither ever names WHAT is
+unsupported -
+but its own precision on the six known-honest cases (2/6, 33%) is not
+meaningfully better than a coin flip, and lower than what (B)'s own
+N=2 threshold happens to achieve on the SAME six cases by construction
+(6/6 caught as offenses under B too, since B was never claiming
+precision on this set - the comparison that matters is false-positive
+rate on genuinely honest content, and C still misses it on four of six).
+
+**A genuinely new finding, not asked for but surfaced by re-running one
+example twice**: candidate C is **not deterministic**. The `hal`
+"Someone divorced could belong among us" sentence was checked twice
+against the identical record, minutes apart - once as a standalone
+spot-check (`not_supported`), once inside this PR's own official 312-
+call batch (`supported`). Same model, same prompt, same input, two
+different verdicts. This is a real, structural difference from (A)/(B)
+- both fully deterministic, string-ops only, reproducible byte-for-byte
+- and a genuine cost of an LLM-judge-based check that a threshold
+choice between (A) and (B) does not carry: an enforcement mechanism
+built on candidate C would need its own answer to what a live turn does
+when a regeneration retry's own support check disagrees with the raw
+attempt's, which neither (A) nor (B) needs to answer at all.
+
+**No recommendation offered between the three here** - the tradeoff is
+real and is Mark's own call: (A) is simple and closes the whole family
+of gaps this branch shares, at the cost of rejecting roughly half of
+today's grounded sentences, many of them honest; (B) is more surgical,
+costs less honest paraphrase, but leaves a real (if measured-small)
+residue of 1-2-word unexamined content per sentence, forever, by
+construction; (C) is the only one that can NAME the unsupported clause
+and catches the real fabrication precisely, but is non-deterministic,
+costs a real (if small) per-sentence dollar amount, and is not
+meaningfully more precise than (A)/(B) on the six known-honest cases.
+Any of the three requires its own live re-battery before an
+enforcement number is trusted, the same "measure before a threshold is
+set" discipline R36 itself was built on.
+
+**The R26 leak class, named and checked against the real code (not
+assumed):** the worked example's own sentence carried a real citation
+tag and the net marked it grounded - `engine.m4.uncited_claims.
+find_uncited_claims` (R27's own base check) explicitly skips every
+tagged sentence outright (`if sent["verdict"] != "ok" or sent["tags"]:
+continue` - a sentence WITH tags is never examined by this function at
+all), and `classify_other_tradition_turn` only ever upgrades an offense
+`find_uncited_claims` already produced, so it inherits the same blind
+spot. R26/R27's entire apparatus checks citation PRESENCE, never
+citation ACCURACY or completeness - a different axis, and a tagged,
+partially-fabricated sentence is invisible to all of it, other_tradition
+turn or not. Checked directly: `engine.m4.turn`'s own "reader" (the
+pre-generation classification call) runs BEFORE the voice generates and
+only steers routing/the directive text given to the model - it has no
+visibility into what the voice actually writes, so it cannot be the
+site of a post-hoc check either. Confirmed: no check anywhere in this
+pipeline looks at what a TAGGED sentence's own content actually says
+once it clears the net, in an `other_tradition` turn or otherwise.
+
+**A general check, proposed, not built:** for a turn routed
+`other_tradition`, take each tagged sentence's own remainder (the same
+measurement this entry already computes) and test it against the
+DISCLAIMED tradition's own vocabulary, not just against "unmatched, full
+stop" - a remainder that happens to overlap heavily with the neighbour
+world's own attested vocabulary is a stronger signal than an ordinary
+unmatched remainder alone. This needs cross-world vocabulary access this
+module does not have today (repository_records is scoped to the
+speaking world's own package) - a real added piece, not a small one,
+and worth Mark and the reviewer thread weighing directly against
+candidate (A)/(B) above, which would already catch this specific worked
+example without any cross-world lookup at all (the traditor clause fails
+on remainder alone, regardless of which tradition it happens to belong
+to). Whether the narrower, cross-world-aware check is still worth
+building on top of (A)/(B), or whether closing the general remainder gap
+already covers what R26 was trying to guard, is itself part of what
+Mark's ruling on R38 (Rulings-Pending.md) needs to settle.
+
+**R33, correctly cited** (a first pass here wrongly reported it as not
+found - checked only this workstream's own two files, not the fleet's
+other audit trails): `Ministry/Operations/Audits/Tech-Readiness-2026-09/
+P3-Fidelity-Gate/Decision-Log.md` Entry 7 and that audit's own
+Rulings-Pending.md, same date. Mark's own words there: *"we should be
+setting principles we will have a 100 worlds and cant tell the
+representitive what to say for every quote."* R33 is an edition-level
+principle for that gate - a general mechanism at the point of checking,
+never a per-record or per-quote instruction (there, replacing a
+proposed per-record `source_note_id` field with a gate-level running-
+text-then-note-body fallback that needs no record ever named). The same
+principle this entry has followed throughout: `alx.dw.church-failure`
+untouched, both candidates above (A)/(B) are general net-mechanism
+rules, not an instruction about this one quote or this one record.
+
+**Entry 64 — 2026-09-23.** R37's own design brief lives in its own PR,
+**#438** (a separate branch, kept there rather than duplicated here so
+two independently-editable copies of the same ruling can't drift apart
+- an earlier revision of this entry duplicated the whole write-up on
+this branch too, including a path citation to a script that was never
+actually committed here; this branch's own "cited paths resolve" check
+caught it, and the fix is to point at #438 rather than re-duplicate the
+content correctly). Full ruling text, the four-item design brief, and
+its own script/report: PR #438. The one finding from that brief that
+mattered most for THIS PR's own scope - `ijc`'s own real records
+already naming Donatism, making `_other_tradition_directive`'s own
+fixed honest-limit sentence false for `ijc` - is fixed directly, its
+own small PR, **#440** (built, not merely proposed; full detail
+there, including the fleet-wide flip count).
+
+**Entry 65 — 2026-09-23.** R39, Mark's own principle, relayed in his
+own words: *"our goal is to generate the right conversation, not
+correct it. it fine to have checks, but idealiy they are not used
+because the engine is generating it correctly."* Ordered as an
+amendment to R38's own round-2 brief above, ahead of the net
+candidates: find out why the voice wrote "or they handed over the
+sacred books" at all, and whether a generation-side fix stops it at
+the source. Report-only, no engine change on main. Script + output:
+`engine/m4/reports/r39_generation_side_measure.py` +
+`r39-generation-side-measure-2026-09-23.json` (this PR).
+
+**Item 1 - the cause, reconstructed against the real code and the real
+package, not assumed.** Two things checked directly. First: the turn's
+own assembled evidence block for the exact worked-example message
+(`engine.m4.evidence.assemble_evidence`/`render_evidence_block`, the
+identical call `_run_ordinary_voice_turn` makes) does NOT offer
+`alx.dw.church-failure` at all - it cell-matched four transmission/
+gravity records instead. The record the fabrication was tagged to was
+never in this turn's own recommended ground. Second: it did not need
+to be - the world's own compiled system prompt (`world.prompt_text`,
+60,254 characters) already contains `alx.dw.church-failure`'s real text
+verbatim, confirmed by direct substring check ("Under persecution, many
+gave way" is IN it). The fleet-wide citation contract
+(`records/_fleet/fleet_voice/_fleet.voice.fleet.md`) explicitly
+sanctions citing "from a section heading's own 'cite as' id" - not only
+from the turn's own evidence block - so reaching into the full prompt
+for this record was legitimate under the contract as written.
+
+**So the failure is not "the voice had no ground and invented one."**
+It had the real ground, directly in its own context, and used it
+correctly for the first two-thirds of the sentence, then extended the
+same tagged sentence with one more clause the record does not support.
+**The gap, stated precisely:** the citation contract's own verbatim-
+fidelity promise ("words not found in the tagged record, is not
+spoken") is written to cover QUOTED spans only. For an ordinary,
+non-quoted, paraphrased sentence, the contract only requires the TAG
+(the id) to be real and correctly copied - never that the sentence's
+own non-quoted CONTENT stay limited to what that record supports. A tag
+is a promise about the ADDRESS, not the CONTENT. Separately,
+`_other_tradition_directive` instructs the voice not to speak AS IF it
+knows the OTHER tradition's own history directly - it does not
+anticipate the more specific failure that actually occurred: a
+plausible, topic-adjacent detail (the traditor charge, from the
+voice's own general training knowledge of Donatism, activated by the
+participant's own question) bleeding into a sentence nominally about
+the SPEAKER'S OWN record, not about the other tradition at all.
+Neither existing instruction names this shape.
+
+**Item 2 - the proposed directive** (general wording, not per-record;
+not built into main). `CURRENT_OTHER_TRADITION_DIRECTIVE` is
+`_other_tradition_directive()`'s own real text, imported directly, so
+this measurement's "before" condition is byte-identical to what ships
+today. `PROPOSED_OTHER_TRADITION_DIRECTIVE` appends two things: (a) the
+tag-is-a-promise rule ("every specific detail in a sentence you tag
+must be this record's own content... never a detail added because it
+sounds plausible, fits the period, or belongs to a related controversy
+you happen to know about"), and (b) R37's own two-condition knowledge
+scope, stated plainly rather than implied. Full text in the script.
+
+**Item 3 - measured at generation, live.** 20 regenerations of the
+exact Theon/Donatists probe under the current directive, 20 under the
+proposed one - same evidence block, same world, same model, only the
+directive text differs. Real cost: **$0.4227, 40 calls** (prompt
+caching brought this well under the $2-4 pre-estimate). Every tagged
+sentence from all 40 raw outputs was hand-read against its own tagged
+record's real text - per the reviewer's own explicit instruction, NOT
+the lexical remainder (R38's own candidates A/B, already shown 0/6
+precision above) and not blind trust in candidate C's own flags either:
+candidate C was run as a triage pass (flagged 23/73 current, 27/89
+proposed), then every flagged sentence was read by hand against the
+real record text, since candidate C's own known imprecision (2/6 on
+the own-clause set, non-determinism) makes its raw flag count alone
+unusable as the leak count.
+
+**Most of the raw flags are false positives on inspection** - honest
+paraphrase ("the church fought bitterly over them" vs. the record's own
+"the community fought bitterly over them"; "they were more robust" vs.
+"more robust, needing no teacher"), interpretive/bridge framing
+candidate C over-flags as needing direct support ("how we handled a
+question that sounds like theirs"), and even one honest-limit sentence
+candidate C flagged as "not supported" for stating an absence -
+`"Whether the same controversy burned elsewhere under a different
+name... our own sources do not tell us."` - which is not a claim at
+all, it is R26's own mechanism working correctly. A separate, real
+artifact also showed up twice under the proposed directive: the
+honest-limit scaffold sentence itself ("Our record doesn't mention
+that Christian tradition.") mis-tagged to a record id - a tagging
+quirk, not a content fabrication, and not counted as a leak below.
+
+**The real leaks, counted per run (a run counts once if it carries at
+least one genuine unsupported specific detail, the same severity class
+as the worked example - not scattered honest paraphrase):**
+
+**Current directive: 3 of 20 runs.** Two distinct real leak shapes,
+both recurring:
+- run 2: *"the church did not demand re-baptism"* - an invented
+  specific detail (re-baptism is a Donatist-controversy-specific
+  issue), and, same run: *"We ourselves held that the sacraments did
+  not depend on the minister's worthiness - the grace was Christ's,
+  not the man's - and that repentance could restore even the lapsed."*
+  - this is the SAME Augustinian doctrine Decision-Log.md Entry 50
+  already named as the project's own original R26 motivating defect
+  ("Even a broken priest could not block his grace" - Augustine's own
+  doctrine, a century later, not alx's) - recurring at generation time,
+  independently reproduced here.
+- run 10: *"The sacraments worked through Christ's hand, not the
+  minister's cleanness."* - same recurring Augustinian-doctrine leak.
+- run 17: *"The sacraments worked because Christ worked through them,
+  not because the minister was spotless."* + *"all held to work by
+  Christ's own action rather than by human merit"* - same leak, third
+  occurrence.
+
+**Proposed directive: 2 of 20 runs** - both the SAME leak shape as the
+original staging worked example, near-verbatim:
+- run 1: *"handed over the scriptures"* (tagged `alx.term.lapsi`) -
+  the identical traditor detail, reworded.
+- run 5: *"some handed over the scriptures, some paid bribes to avoid
+  doing either"* - the traditor detail again, PLUS a second, separately
+  notable recurrence: "paid bribes" is the libellatici detail
+  `alx.dw.church-failure`'s own build history already removed once by
+  hand (2026-09-08, this same record's own corrected-body note: "removed
+  'some bought false certificates'... Neither cited locus supports it")
+  - the model re-invented, unprompted, at generation time, a specific
+  fabrication this project had already found and fixed once in the
+  record itself.
+
+**Stated plainly, per the reviewer's own instruction:** the proposed
+directive reduced the raw leak rate (3/20 to 2/20 - a real, modest
+reduction, not dramatic) and appears to have suppressed the Augustinian-
+doctrine leak shape entirely in this sample (zero recurrences in 20
+runs, versus three in the current-directive sample) - but did NOT
+eliminate leaks, and the exact traditor/"handed over the
+scriptures/sacred books" detail recurred twice, independently, under
+the fixed directive. Twenty runs each is a real but small sample; this
+is evidence of a real, partial improvement, not proof of a fully closed
+gap. The net stays necessary - Mark's own R39 principle names checks as
+the fallback, not the primary, and this measurement is exactly why:
+generation-side wording narrows the leak, it does not close it.
+
+**Item 4 - the net candidates, reframed as the backstop, with the
+number that matters: the expected fire rate once the generation-side
+fix is in.** Candidates A and B (R38's own lexical remainder rules,
+Entry 63 above) are NOT well-suited as that backstop: their own fire
+rate is driven by lexical mismatch against honest paraphrase, a
+population the generation-side fix does not target and does not
+shrink - A's/B's own measured rates (51.8%/29.3% of the 311-sentence
+corpus) should be expected to stay roughly where they are even after
+the directive fix ships, since most of what they flag was never a real
+leak to begin with (0/6 precision on the six known-honest cases,
+unchanged by anything this entry measures). **Candidate C is the
+better-aligned backstop**: it asks the same real question the
+generation-side fix targets (does the tagged record support this
+claim), it caught the worked example by name, and this entry's own
+hand-read shows it also catches the real recurring leaks above - so its
+own fire rate should be expected to track the real leak rate, not the
+raw flag rate. The real, hand-verified leak rate this entry measured is
+roughly 3/20 turns (15%) before the directive fix and 2/20 turns (10%)
+after - **candidate C's own expected fire rate once the generation-side
+fix ships is in that neighborhood, materially below its own currently-
+measured 14.5% raw flag rate** (which mixes real leaks with candidate
+C's own false positives on honest paraphrase, framing, and mis-tagging
+artifacts - all real costs of candidate C on their own, unaffected by
+the generation-side fix, and still worth Mark's own eyes before
+choosing it as the backstop). Near zero, the number Mark asked for, is
+not what either measurement shows today - a real, if reduced, residual
+leak rate remains, which is exactly why this entry recommends neither
+"ship the directive fix alone" nor "ship the net alone," but treats
+them as sequential: the directive fix first (it measurably helps and
+costs nothing extra at generation time), the net as the backstop for
+what it doesn't catch, re-measured after the directive fix actually
+ships rather than assumed from this one 20-and-20 sample.
+
+**Entry 66 — 2026-09-23.** The reviewer's own follow-up to Entry 65: its
+own JSON showed the lever precisely -
+`evidence_offers_church_failure` is False, `prompt_contains_church_
+failure_text` is True. The voice tagged a record that was never in the
+turn's own assembled ground at all; it reached into the compiled world
+prompt (always present, the full system context) and filled the
+missing detail from memory rather than from anything this turn
+actually offered. Two more conditions, same worked example, same
+world, same model, same 20-per-condition count, hand-read the same
+way, `engine/m4/reports/r39_d1_d2_measure.py` +
+`r39-d1-d2-measure-2026-09-23.json` (this PR). **Real cost: $0.5062,
+40 calls.**
+
+**D1 - the retrieval fix.** Proposed directive (Entry 65's own,
+unchanged) plus `alx.dw.church-failure` actually offered in this
+turn's own evidence block - not the usual one-sentence head
+(`render_evidence_block`'s own first-sentence truncation), but its
+real, full `text` field verbatim, appended as one additional evidence
+line. The record the question most needs is genuinely in front of the
+voice this time, word for word. **Real leak rate: 2 of 20** (runs 1
+and 8 - "handed over the scriptures, to save their lives" / "handed
+over the scriptures to be burned") - **identical to Entry 65's own
+proposed-directive-alone condition (2/20)**. Putting the record's full
+real text directly in front of the voice made no measurable
+difference over the directive fix alone on this sample - the gap
+Entry 65 named (a tag is a promise about the address, not the content)
+is not closed by better retrieval; the voice can hold the real text
+and still add one more clause that text does not support.
+
+**D2 - D1 plus one explicit line.** Added to D1's own directive,
+stated plainly: *"Tag only records offered in this turn's own evidence
+block above; a record you remember from elsewhere, even if it is real
+and even if it is in your own world's compiled prompt, is not ground
+for THIS turn."* Ground and prompt are not the same channel -
+`render_evidence_block`'s own docstring already draws exactly this
+distinction for a different confusion (AVAILABLE is not the same as
+ALREADY SAID); this is the same shape, AVAILABLE ANYWHERE in the
+prompt is not the same as OFFERED THIS TURN. **Real leak rate: 4 of 20**
+(runs 5, 6, 7, 12) - **not an improvement; numerically worse than D1's
+2/20**, though at n=20 a 2-vs-4 gap is not a reliable difference on its
+own (real hand-verified count, not treated as a confirmed regression
+without a larger sample). One of the four, run 6, is a different and
+milder failure than the other three: *"The North African disputes over
+the lapsed and over bishops who had handed over scriptures under
+persecution - those were their own regional struggle, not ours."* -
+this correctly refuses to claim the traditor detail as ALX's own (the
+content itself is honestly framed), but the sentence is still tagged
+to `alx.dw.church-failure`, a record that names none of this (no North
+Africa, no scripture-surrender, anywhere in its text) - a citation-
+fidelity failure with honest content riding on a fabricated address,
+the mirror image of Entry 65's own worked example (fabricated content
+riding a real address). Runs 5, 7, and 12 are the same shape as D1's
+own two and Entry 65's own original worked example: the traditor
+detail asserted as ALX's own failure.
+
+**Neither D1 nor D2 beats the directive fix alone.** Across all three
+generation-side conditions now measured on this exact worked example -
+proposed directive alone (Entry 65, 2/20), proposed directive plus the
+record's real full text (D1, 2/20), and D1 plus the explicit ground-
+scope line (D2, 4/20) - the real leak rate never drops below 10%, and
+the two additions tested here (better retrieval, an explicit
+ground-scope instruction) neither one measurably helps beyond what
+Entry 65's directive fix alone already does. This is the honest
+finding, not the one hoped for: the residual leak is not a retrieval
+problem and not (on this sample) fixed by naming the ground/prompt
+distinction explicitly either. What R39's own principle asks for -
+generating the right conversation, not correcting it - is not yet
+achieved by any generation-side lever tried so far; every condition
+measured still needs a real backstop.
+
+**Candidate C's own expected fire rate, on top of the best condition
+(D1, and Entry 65's directive-alone, tied at 2/20 = 10% real leak
+rate).** Candidate C's own precision on this exact leak shape (Entry
+57's own round-2 report): 2 of 6 known own-clause cases correctly
+flagged - roughly one in three, not the near-total catch rate its own
+14.5% raw flag rate on the full corpus might suggest (that raw rate is
+dominated by false positives on honest paraphrase, Entry 63's own
+finding, unaffected by anything measured here). Candidate C is also
+non-deterministic (Entry 63): the same sentence against the same
+record, checked twice, has already returned two different verdicts.
+Applying that same roughly-one-in-three real-catch rate to D1's own
+10% leak rate: **candidate C should be expected to catch on the order
+of 3-4% of turns' real leaks as a backstop, leaving roughly 6-7% of
+turns with an uncaught real leak even with the net running** - well
+short of near zero, and alongside a real, separate false-positive cost
+on honest paraphrase the net brings regardless of how well the
+generation-side fix performs. Full numbers this entry cites: Entry 63
+(candidate C's own round-2 report) and Entry 65 (the directive-alone
+condition).
+
+**Entry 67 — 2026-09-23.** R38, Mark's own ruling: self-revision at
+generation, measured before candidate C (the lexical-remainder net
+rules, A/B, were already closed - Entry 63's own 0/6 precision).
+`engine/m4/reports/r38_self_revision_measure.py` +
+`r38-self-revision-measure-2026-09-23.json`, this PR. Full mechanism,
+proposed build, and Rulings-Pending's own RULED status: R38 above.
+
+**Real cost: $0.5207, 40 calls** (20 drafts under the proposed directive,
+Entry 65's own unchanged text; 20 unconditional self-revision passes -
+every draft revised, not only ones known to leak, matching real
+production behavior). **Revision changed the text in 20 of 20 runs.**
+
+**Leak rate: 0 of 20.** Scanned every draft and revised full text for
+the known leak phrase (`handed over` / `sacred books` / `libellatici` /
+`certificate`) - 8 of 20 drafts carried it, all 8 removed in revision,
+zero survived to the final text. Three representative pairs, verbatim:
+
+- Run 0 draft: *"...they sacrificed to the gods, or handed over the
+  scriptures, to save their lives [[alx.dw.church-failure]]."* Run 0
+  revised: *"Some sacrificed to the gods [[alx.dw.church-failure]]."*
+- Run 7 draft: *"...people sacrificed to the gods, or handed over the
+  scriptures, and when the danger passed they asked to return
+  [[alx.dw.church-failure]]."* Run 7 revised: *"Some sacrificed to the
+  gods [[alx.dw.church-failure]]."*
+- Run 13 draft: *"...the lapsed - those who had sacrificed to the gods
+  or handed over the Scriptures - could never lead the church again,
+  could perhaps never return at all [[alx.term.lapsi]]."* Run 13
+  revised: *"...the lapsed could never return [[alx.term.lapsi]]."*
+
+**Over-trimming: none found**, hand-read against `alx.dw.church-
+failure`'s own real text (quoted in full, Entry 66 above) on a
+representative sample of the 20 pairs. Every trim checked removed
+either the fabricated traditor clause itself, or a separate unsupported
+interpretive elaboration the draft had added and the record's own words
+never state - run 1's own draft, for instance, included *"We thought
+the church had authority to forgive what Christ forgave, and we used
+it"* (tagged to `alx.dw.church-failure`), trimmed entirely in revision;
+the real record never says anything about "authority to forgive," only
+that "the tradition that won here brought the repentant back in" and
+"we did not make the failed unforgivable" - a real theological gloss,
+correctly caught as not the record's own content, the identical shape
+R39's own tag-is-a-promise gap names (Entry 65). Revision also
+sometimes RESTORED real, record-supported detail a draft had omitted -
+run 1's own revised text added *"The strict party demanded they stay
+out"*, genuine `alx.dw.church-failure` text absent from that draft -
+evidence the pass is comparing against the real record's own content in
+both directions, not merely deleting.
+
+**Latency, measured indirectly (not logged per call):** the full
+40-call sequential run took ~330 seconds wall clock, ~8.25s/call
+average. Self-revision adds one call of that same order to an
+`other_tradition` turn.
+
+**Not measured, and named as a real gap rather than estimated past what
+was actually logged:** draft-call and revision-call cost were not
+recorded separately - the $0.013/call figure in Rulings-Pending's own
+build proposal is the blended average across both call shapes, not a
+true marginal-cost number. A follow-up run, before this ships, should
+log usage per call kind so the real added cost of the revision call
+specifically is known, not inferred.

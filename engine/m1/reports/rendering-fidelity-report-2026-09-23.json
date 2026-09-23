@@ -1,0 +1,635 @@
+{
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "worlds": {
+    "pahc": {
+      "world": "pahc",
+      "total_quotes": 25,
+      "graded_count": 9,
+      "no_modern_rendering_count": 16,
+      "no_modern_rendering": [
+        "pahc.quote.appointed-to-be-read",
+        "pahc.quote.first-clement-apostolic-chain",
+        "pahc.quote.hermas-doubting",
+        "pahc.quote.ignatius-marriage-bishop",
+        "pahc.quote.ignatius-truly-born",
+        "pahc.quote.jesus-christ-our-god",
+        "pahc.quote.justin-flame-kindled",
+        "pahc.quote.justin-reasonable-livers",
+        "pahc.quote.lucian-all-brothers",
+        "pahc.quote.moses-is-more-ancient",
+        "pahc.quote.not-every-one-that-speaketh-in-the-spirit",
+        "pahc.quote.put-away-doubting-from-you",
+        "pahc.quote.tacitus-hatred-against-mankind",
+        "pahc.quote.the-memoirs-of-the-apostles-are-read",
+        "pahc.quote.they-appointed-those-already-mentioned",
+        "pahc.quote.those-who-lived-reasonably-are-christians"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 5,
+        "summary": 1,
+        "expansion": 1,
+        "mixed": 2
+      },
+      "findings": [
+        {
+          "id": "pahc.quote.asia-rejected-new-prophecy",
+          "verdict": "expansion",
+          "reasoning": "The modern rendering adds \"the followers of the New Prophecy were\" - identifying specifically who \"they\" refers to and adding a historical label (\"New Prophecy\") not present in the original, which simply describes the people as \"the faithful\" and \"they\" without naming the sect. The rendering preserves all the core clauses of the original (meetings, examination, judgment as false/heretical, rejection, expulsion from church, deprivation of communion) but introduces interpretive identification that goes beyond faithful translation.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "pahc.quote.melito-no-phantom",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops significant content from the original: the phrase \"to persons of intelligence\" (which qualifies who doesn't need proof), and the clause explaining that Christ \"by reason of His low estate as regards the flesh\" concealed the signs of His Deity. Additionally, it adds explanatory language not in the original—\"There's no need for a long proof here. Just look at what Christ did\" compresses and reframes the opening rather than translating it, and \"because he lived as a humble, ordinary man\" expands on the original's meaning rather than merely translating \"low estate as regards the flesh.\"",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "pahc.quote.polycrates-to-victor",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops several clauses from the original: \"scrupulously\" (manner), \"For in Asia great luminaries have gone to their rest, who shall rise again in the day of the coming of the Lord\" (this is given as the reason for observing the day, not a separate assertion), the phrase \"in accordance with the tradition of my relatives, some of whom I have succeeded\" (specifies the nature of the tradition), and crucially \"my relatives always observed the day when the people put away the leaven\" (a specific practice that grounds the observation). Additionally, the rendering adds \"men\" in \"Lights of the faith\" and \"have met believers from all over\" (softening \"fallen in with the brethren in all parts\"), which slightly expands or alters meaning, and restructures the complex Polycrates self-presentation into simpler clauses. The original's logical connection between Asia's luminaries and the observance is also flattened.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+          "verdict": "summary",
+          "reasoning": "The modern rendering omits a significant clause from the original: \"in order to ascertain the truth.\" The original text explicitly states the purpose of the examination was to ascertain truth, but the modern version drops this motivating clause, compressing the sentence and losing this real content of the original.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "syr": {
+      "world": "syr",
+      "total_quotes": 34,
+      "graded_count": 18,
+      "no_modern_rendering_count": 16,
+      "no_modern_rendering": [
+        "syr.quote.aphrahat-anti-jewish-frame",
+        "syr.quote.aphrahat-one-innocent",
+        "syr.quote.aphrahat-persecuted-litany",
+        "syr.quote.aphrahat-sure-thing",
+        "syr.quote.basil-credits-a-syrian",
+        "syr.quote.chronicle-flood-line",
+        "syr.quote.dem6-visit-the-sick",
+        "syr.quote.nisibene-death-trembled",
+        "syr.quote.palladius-hospitaller",
+        "syr.quote.permitted-to-erect-churches",
+        "syr.quote.sozomen-melodies",
+        "syr.quote.symeon-and-usthazanes",
+        "syr.quote.tatian-barbaric-writings",
+        "syr.quote.tatian-born-assyrian",
+        "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+        "syr.quote.the-temple-of-the-church-of-the-christians"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 15,
+        "summary": 1,
+        "expansion": 2,
+        "mixed": 0
+      },
+      "findings": [
+        {
+          "id": "syr.quote.ephrem-only-begotten-dwelling",
+          "verdict": "expansion",
+          "reasoning": "The rendering adds \"the way we are all born\" which is an explanation not present in the original's phrase \"a common manner of birth.\" The original states he became brother of many \"though only-begotten\" (acknowledging the paradox), but the rendering drops \"though only-begotten,\" losing this important qualification about how he remained uniquely only-begotten even while becoming brother to many.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "syr.quote.ephrem-resurrection-pledge",
+          "verdict": "expansion",
+          "reasoning": "The rendering adds interpretive content not in the original. The original states \"the Kingdom which admits the invited with distinction\" (meaning it discriminates among those admitted, distinguishing the invited from the uninvited); the rendering adds \"and knows each one,\" which personalizes this beyond what the original claims. Additionally, the original's parallel structure—\"receives the departed without distinction\" versus \"admits the invited with distinction\"—is replaced with a different formulation that softens the original's stark contrast between indiscriminate reception in Sheol versus discriminate admission in the Kingdom.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "syr.quote.warned-before-baptism",
+          "verdict": "summary",
+          "reasoning": "The rendering omits several specific clauses from the original: it drops \"to those who choose for themselves virginity and holiness\" as a distinct category of warning recipients, it removes \"lest, perhaps\" from multiple conditional warnings (reducing their epistemic force), and it compresses \"choose the natural state of fellowship (i.e. in matrimony)\" into simply \"marriage\" without the explanatory framing. Most significantly, it combines and condenses distinct warnings that the original presents as separate exhortations, losing the original's fuller articulation of each condition.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "desert": {
+      "world": "desert",
+      "total_quotes": 60,
+      "graded_count": 14,
+      "no_modern_rendering_count": 46,
+      "no_modern_rendering": [
+        "desert.quote.an-old-man-in-the-next-village",
+        "desert.quote.antony-arians-serpents",
+        "desert.quote.antony-dying-daily",
+        "desert.quote.antony-nicene-formula",
+        "desert.quote.antony-not-worsted",
+        "desert.quote.antony-on-living-near-kin",
+        "desert.quote.arch-drawn-from-the-centre",
+        "desert.quote.arsenius-flee-tace-quiesce",
+        "desert.quote.charity-is-the-offspring-of-apatheia",
+        "desert.quote.composed-by-bishop-palladius-for-the-prefect-lausus",
+        "desert.quote.discretion-greatest-prize",
+        "desert.quote.ethiopic-rule-eat-and-drink",
+        "desert.quote.for-thirty-two-years-i-touched-no-fruit",
+        "desert.quote.god-is-not-a-body",
+        "desert.quote.good-good-i-dont-mind",
+        "desert.quote.he-healed-by-the-name",
+        "desert.quote.he-longed-to-suffer-martyrdom",
+        "desert.quote.he-puts-into-us-the-beginnings",
+        "desert.quote.in-real-experience-and-feeling",
+        "desert.quote.ladder-from-compunction",
+        "desert.quote.melania-to-the-governor",
+        "desert.quote.monks-like-hyenas",
+        "desert.quote.moses-sins-run-out",
+        "desert.quote.never-held-communion-with-the-schismatics",
+        "desert.quote.no-one-seize-the-hand",
+        "desert.quote.origen-on-the-sinning-brother",
+        "desert.quote.origen-to-gregory-handmaidens",
+        "desert.quote.pachomius-angel-tablet",
+        "desert.quote.rule-for-the-weak",
+        "desert.quote.talida-key-never-taken",
+        "desert.quote.taor-not-compelled-to-market",
+        "desert.quote.the-deeds-of-christ-prove-him",
+        "desert.quote.the-eight-generic-thoughts",
+        "desert.quote.the-kingdom-is-apatheia",
+        "desert.quote.the-ladder-from-faith-to-love",
+        "desert.quote.the-main-share-is-not-our-works",
+        "desert.quote.the-noonday-demon",
+        "desert.quote.the-nous-beholds-its-own-radiance",
+        "desert.quote.the-soul-becomes-all-eye",
+        "desert.quote.the-word-took-a-human-body",
+        "desert.quote.three-hundred-acres-to-the-villagers",
+        "desert.quote.three-kinds-of-monks",
+        "desert.quote.three-renunciations-solomon",
+        "desert.quote.three-years-a-servant",
+        "desert.quote.when-the-cross-of-christ-arose",
+        "desert.quote.womens-house-across-the-river"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 7,
+        "summary": 6,
+        "expansion": 0,
+        "mixed": 1
+      },
+      "findings": [
+        {
+          "id": "desert.quote.eight-principal-faults",
+          "verdict": "summary",
+          "reasoning": "The modern rendering drops several clauses present in the original. It omits the original terms (gastrimargia, fornication, philargyria, acedia, cenodoxia) that are explicitly named in the original alongside their definitions. Most significantly, it compresses \"dejection\" and \"acedia\" into a single \"deep sadness,\" losing the distinction that the original maintains by listing dejection as the fifth fault separately from acedia (listlessness) as the sixth fault. The rendering also removes the phrase \"i.e.\" definitions and the explicit clarifications like \"love of money\" for philargyria and \"boasting or vain glory\" for cenodoxia, reducing these to single terms.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "desert.quote.equal-measure-of-strength",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses several distinct clauses and drops real content. The original states that God gave women \"an equal measure of strength of will as unto men, so that they might have no cause for being feeble\" — the purpose clause \"so that\" expresses God's intentional design. The rendering collapses this into \"So they had no excuse for weakness,\" which loses the causal relationship God's gift has to their capability and transforms it into a mere logical inference about responsibility rather than God's purposeful enablement. Additionally, \"the labour of ascetic excellence\" is shortened to \"the hard work of this way of life,\" dropping the specific theological language of ascetic excellence.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "desert.quote.grace-and-free-will-in-harmony",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and drops real content from the original. Most significantly, it omits the clause \"we gather from the system of goodness that we ought to have\" and replaces it with the vaguer \"Goodness itself tells us we need to hold on to both.\" The original specifies that we *gather* (deduce/conclude) from *the system of goodness* that we *ought* to have both; the rendering replaces this epistemic and ethical structure with a weaker assertion about what \"Goodness itself tells us we need to hold on to,\" losing the specific logical derivation and the normative force of \"ought.\"",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "desert.quote.never-kneel-saturday-to-sunday",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and drops real content from the original. The original specifies three distinct practices (never kneel, do not observe a rule of fasting, and implied: do not fast), and it carefully specifies two time periods with precise language (\"from the evening of Saturday which precedes the Sunday, up to the following evening\" and \"from Easter to Whitsuntide\"). The rendering collapses these details into simplified paraphrases: \"never knelt to pray\" loses the nuance of the original's \"never kneel,\" and \"didn't fast\" compresses the original's distinction between not observing \"a rule of fasting\" versus not fasting. Additionally, the rendering adds \"monks\" and \"to pray,\" which do not appear in the original text.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "desert.quote.so-perfectly-silent",
+          "verdict": "summary",
+          "reasoning": "The rendering omits several specific clauses from the original: \"the aforementioned rites\" (the synaxes are explicitly presented as answering what rites), \"which they term synaxes\" (re-ordered rather than preserved), the elaboration \"or noise of coughing\" as distinct from coughing itself, \"sleepy yawning with open mouths, and gaping\" (compressed into just \"yawning\"), \"or groans or sighs\" (rendered as one \"sighing\"), and the causal clause \"likely to distract those standing near\" (collapsed into a brief noun phrase). The rendering significantly compresses the original's catalog of specific behaviors and their elaborate descriptive detail into a much shorter list.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "desert.quote.they-have-taken-away-my-god",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops the opening exclamation \"Alas!\" and compresses \"I have now none to lay hold of; and whom to worship and address I know not\" into two separate clauses; notably, it adds \"pray to\" which is not present in the original (the original says only \"worship and address\"), making this both a summary of the final clause and an expansion that introduces a new concept.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "desert.quote.twelve-psalms-by-an-angel",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and drops multiple substantive clauses: it omits the characterization of the disagreement as \"holy\" and arising from \"pious discussion on the rule of their religion,\" it omits the detail that verses were \"evenly enunciated,\" and it substantially abbreviates the account of the singing itself (\"he had sung eleven Psalms, separated by prayers introduced between them, verse after verse being evenly enunciated, he finished the twelfth\") into a single sentence. Most critically, it drops the clause describing the resolution of the dispute (\"by his sudden disappearance from the eyes of all, put an end at once to their discussion\"), reducing a miraculous intervention to a simple factual ending.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "hal": {
+      "world": "hal",
+      "total_quotes": 32,
+      "graded_count": 13,
+      "no_modern_rendering_count": 19,
+      "no_modern_rendering": [
+        "hal.quote.a-man-truly-catholic",
+        "hal.quote.always-at-his-books",
+        "hal.quote.boxwood-letters",
+        "hal.quote.buried-beneath-the-church",
+        "hal.quote.fabiola-hospital",
+        "hal.quote.helmeted-preface",
+        "hal.quote.hindered-by-jerome",
+        "hal.quote.i-gather-the-rose-from-the-thorns",
+        "hal.quote.let-her-be-brought-up-in-a-monastery",
+        "hal.quote.no-one-preferred-to-the-seventy",
+        "hal.quote.oea-tumult",
+        "hal.quote.partially-acquired-hebrew",
+        "hal.quote.paula-escaped-his-envy",
+        "hal.quote.rome-resounded",
+        "hal.quote.rufinus-writes-because-rome-is-where-the-news-is",
+        "hal.quote.she-put-on-sackcloth",
+        "hal.quote.the-city-which-had-taken-the-whole-world",
+        "hal.quote.they-have-left-untold-the-name",
+        "hal.quote.those-of-my-own-order"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 6,
+        "summary": 4,
+        "expansion": 1,
+        "mixed": 2
+      },
+      "findings": [
+        {
+          "id": "hal.quote.dispute-to-learn",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops the clause \"nor would she at once acquiesce in my explanations\" (present in \"would not simply accept\" but loses the qualifier \"at once\" which implies immediate resistance), and adds \"about the scriptures\" which is not stated in the original—the original refers to \"them\" (antecedent unclear in isolation) and \"my statements,\" not specifically scripture. The rendering also compresses \"those objections which might, as she saw, be made\" into \"objections she could see might be raised,\" which is broadly faithful but loses the specificity of \"those objections\" as distinct from general ones. Overall, this is a mixed case of both compression/omission and addition.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "hal.quote.ever-let-the-bridegroom-sport-with-you",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops the clause \"ever let the Bridegroom sport with you within\" (replacing \"sport with\" by \"delight with\" alone omits the element of playful engagement), and it omits the full conditional \"Do you pray? You speak...\" structure that frames prayer and reading as direct acts of speech. Additionally, it adds \"always\" twice, which does not appear in the original (\"ever\" is already present once). The phrase \"come behind and put His hand through the hole of the door\" is altered to \"come behind the wall and put his hand through the opening of the door,\" which adds the explanatory detail \"the wall\" and changes \"hole\" to \"opening\"—both additions or modifications not in the original text.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "hal.quote.eyes-of-faith",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and restructures the original in ways that drop real content. The original states she \"protested\" (a stronger claim about her assertion/defense of this vision) that she \"could behold,\" while the rendering softens this to \"she told me this herself\" and \"she said she could see it.\" More critically, the original's clause \"the shepherds coming by night\" is rendered as merely \"the shepherds coming by night\" without specifying \"by night\"—wait, that clause is present. However, the rendering does compress the poetic structure and emphasis of the original's serial listing into shorter paraphrased units, and reduces \"swaddling clothes\" to merely \"cloths,\" losing the specific religious significance of \"swaddling.\" The core vision elements are retained but the original's emphatic, detailed enumeration is summarized into a more conversational paraphrase.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "hal.quote.house-destroyed",
+          "verdict": "summary",
+          "reasoning": "The rendering drops the original phrase \"so far as fleshly wealth is concerned,\" which qualifies and limits the scope of the destruction claim to material wealth specifically. The original emphasizes this limitation as a protective clause; the rendering compresses this away, making the statement less precisely qualified. Additionally, \"To live on bread is better than to lose the faith\" is compressed to \"Better to live on bread than to lose the faith\"—a minor reordering that does not substantially drop content, but combined with the first omission, this constitutes a summary rather than a full translation.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "hal.quote.innocent-ravages",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and drops real content from the original. Most significantly, it omits the explicit claim that the women \"have deplored to me\" (expressing their feelings directly to the speaker), replacing this with a vaguer \"told me what happened.\" More critically, it drops the phrase \"with wonderful clemency and generosity they have left untold\"—changing the structure of the original's statement about *why* they showed mercy. The original presents their silence about the human agent as an act of deliberate clemency and generosity; the rendering merely says \"they never named\" without capturing that these virtues motivated their silence. The original's multi-clause structure is compressed into shorter, simpler statements that lose the original's specific framing of their virtuous motivation.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "hal.quote.paula-hebrew-psalms",
+          "verdict": "summary",
+          "reasoning": "The rendering drops a specific clause from the original. The original states that Paula could speak the language \"without a trace of the pronunciation peculiar to Latin,\" which is a distinctive description of her achievement. The modern rendering simplifies this to \"with no trace of a Latin accent,\" which compresses the original's more formal phrasing but loses the nuance of \"pronunciation peculiar to Latin\" being explicitly about the Latin language's specific phonetic characteristics.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "hal.quote.recourse-to-marcella",
+          "verdict": "expansion",
+          "reasoning": "The rendering adds interpretive scaffolding not in the original: \"this is what happened\" and \"She was the one who settled it\" (with emphasis) are additions that add explicative force beyond what the original states. The original simply reports the fact of recourse being had and settlement occurring, while the rendering adds interpretive framing that \"she was the one\"—a stronger claim of exclusive authority than the original's more neutral description.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "alx": {
+      "world": "alx",
+      "total_quotes": 26,
+      "graded_count": 1,
+      "no_modern_rendering_count": 25,
+      "no_modern_rendering": [
+        "alx.quote.a-doctrine-they-would-not-have-taught",
+        "alx.quote.appointed-by-the-fathers-to-be-read",
+        "alx.quote.athanasius-death-trampled-down",
+        "alx.quote.athanasius-fountains",
+        "alx.quote.athanasius-made-god",
+        "alx.quote.clement-bee",
+        "alx.quote.clement-instructor",
+        "alx.quote.clement-new-song",
+        "alx.quote.clement-possessions",
+        "alx.quote.clement-rash-martyrdom",
+        "alx.quote.clement-schoolmaster",
+        "alx.quote.couches-and-trenchers-and-bowls",
+        "alx.quote.demetrius-accused-him-bitterly",
+        "alx.quote.dionysius-nepos",
+        "alx.quote.dionysius-plague",
+        "alx.quote.dionysius-too-high-for-me-to-grasp",
+        "alx.quote.ecclesiastical-and-apostolical-tradition",
+        "alx.quote.gregory-spark",
+        "alx.quote.no-festal-letter-was-written",
+        "alx.quote.no-sun-no-moon-no-sky",
+        "alx.quote.origen-gospel-firstfruits",
+        "alx.quote.origen-punishment-heals",
+        "alx.quote.origen-scripture-senses",
+        "alx.quote.the-grades-here-in-the-church",
+        "alx.quote.to-believe-or-disbelieve"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 1,
+        "summary": 0,
+        "expansion": 0,
+        "mixed": 0
+      },
+      "findings": []
+    },
+    "ijc": {
+      "world": "ijc",
+      "total_quotes": 39,
+      "graded_count": 4,
+      "no_modern_rendering_count": 35,
+      "no_modern_rendering": [
+        "ijc.quote.a-fine-talent-for-making-verses",
+        "ijc.quote.ambrose-blessing-changes-nature",
+        "ijc.quote.ambrose-cannot-surrender",
+        "ijc.quote.ambrose-emperor-in-church",
+        "ijc.quote.ammianus-roman-luxury",
+        "ijc.quote.ammianus-sicininus-massacre",
+        "ijc.quote.augustine-vigil-hymns",
+        "ijc.quote.canon28-equal-privileges",
+        "ijc.quote.canon3-new-rome",
+        "ijc.quote.chalcedon-definition",
+        "ijc.quote.compelled-to-come-in",
+        "ijc.quote.constantine-bishop-outside",
+        "ijc.quote.happy-christian-emperors",
+        "ijc.quote.he-deferred-it-in-the-hope",
+        "ijc.quote.he-held-aloof-for-a-short-time",
+        "ijc.quote.hymns-and-psalms-should-be-sung",
+        "ijc.quote.jerome-damasus-verses",
+        "ijc.quote.julius-custom",
+        "ijc.quote.lactantius-dream",
+        "ijc.quote.leo-rome-apostles",
+        "ijc.quote.leo-things-secular",
+        "ijc.quote.leo-tome-each-form",
+        "ijc.quote.let-the-ancient-customs-prevail",
+        "ijc.quote.milan-edict",
+        "ijc.quote.nicene-creed",
+        "ijc.quote.no-power-but-of-god",
+        "ijc.quote.nothing-further-can-it-add",
+        "ijc.quote.peter-has-spoken",
+        "ijc.quote.secular-ruler-ecclesiastical-cause",
+        "ijc.quote.sin-is-not-done-away-but-by-tears",
+        "ijc.quote.socrates-damasus-election",
+        "ijc.quote.sozomen-thessalonica-law",
+        "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+        "ijc.quote.the-rudiments-of-the-creed",
+        "ijc.quote.vc-conquer-by-this"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 4,
+        "summary": 0,
+        "expansion": 0,
+        "mixed": 0
+      },
+      "findings": []
+    },
+    "cappadocian": {
+      "world": "cappadocian",
+      "total_quotes": 20,
+      "graded_count": 20,
+      "no_modern_rendering_count": 0,
+      "no_modern_rendering": [],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 9,
+        "summary": 6,
+        "expansion": 2,
+        "mixed": 3
+      },
+      "findings": [
+        {
+          "id": "cappadocian.quote.basil-against-delaying-baptism",
+          "verdict": "expansion",
+          "reasoning": "The modern rendering adds explanatory glosses not present in the original. Most notably, \"the provisions you'll need for the road ahead\" expands the original's simple \"viaticum\" (a travel-provision or allowance) with interpretive elaboration (\"the road ahead\"). Similarly, \"Then\" appears twice as a conjunction in the modern version where the original uses no connective. The rendering also adds clarifying language (\"your protection\" for \"thy safeguard\" and \"we ought to already be keeping\") that goes beyond faithful translation into interpretation.",
+          "verification_state": "verified-via-authority"
+        },
+        {
+          "id": "cappadocian.quote.basil-canon-on-digamy",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and drops several distinct clauses from the original. Most significantly, it omits the explicit statement that the rule for trigamy and polygamy is applied \"in proportion, as in the case of digamy\" - reducing this structural parallel to merely \"scaled up.\" More critically, it drops the original's careful distinction that the rule separates \"men\" specifically and omits the word \"authorities\" in specifying that \"some authorities say two years.\" The phrase \"nay rather\" in the original, which marks a deliberate rhetorical escalation (moving from \"polygamy\" to \"limited fornication\"), is rendered as mere emphasis rather than the original's stronger logical contrast. These omissions, while preserving the general sense, compress real doctrinal content into a shorter paraphrase.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.basil-on-antiphonal-psalmody",
+          "verdict": "summary",
+          "reasoning": "The rendering omits several substantive clauses from the original: \"continual tears\" is dropped (only \"tears\" remains), the phrase \"at last rise from their prayers\" is compressed into \"then they get up,\" and critically, the original's specific clause about psalms \"confirming their study of the Gospels, and at the same time producing for themselves a heedful temper and a heart free from distraction\" is condensed into looser paraphrase that loses the original's parallel structure and the specific connection to their prior study. Additionally, the original states they \"again commit the prelude of the strain to one,\" a specific technical musical term whose meaning is obscured in the rendering's vaguer \"one voice starts a psalm.\"",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.basil-on-the-doxology-challenge",
+          "verdict": "summary",
+          "reasoning": "The rendering drops several significant clauses and qualifications present in the original. It omits \"using the full doxology\" (reducing to just \"I used the doxology\"), loses the explicit purpose clause \"chiefly with the view of benefiting them,\" condenses \"or, if they are wholly incurable, for the security of such as may fall in with them\" to a parenthetical aside, and most importantly drops the entire final clause about laying down \"some admitted principle\" for discussion, replacing it with the weakened \"starting points we can agree on.\" These are material omissions that compress the author's meaning.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.basil-on-work-and-prayer",
+          "verdict": "expansion",
+          "reasoning": "The rendering adds interpretive material not present in the original. The original states \"if it is possible, and conducive to the edification of the faith\"—a single compound condition about what makes outward prayer suitable. The rendering expands this into two separate concerns: \"if the task allows it\" (practical feasibility) and \"it won't pull anyone else's mind off the faith\" (an explicit new claim about others' mental state that is not stated in the original text). The original is about whether the practice edifies faith generally; the rendering adds a specific concern about distracting others that goes beyond the original clause.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.gregory-nyssa-on-becoming-god",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops several substantive clauses: the original's careful distinction between \"two forms of God's presence\" (stated explicitly), the clause explaining that the earlier divine presence \"is not the same as that former presence,\" and the original's explicit assertion that \"His existence amongst us equally both then and now is evidenced.\" The rendering also adds interpretive language not in the original, such as \"the same God who was never really absent from us to begin with\" (a paraphrase and inference rather than a clause present in the source) and \"at the incarnation\" (exegetical framing). The rendering compresses multiple distinct theological claims into shorter paraphrases that lose their original precision and separation.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.julian-galilaeans",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops the original's clause \"to expound Matthew and Luke\"—it moves this to a separate sentence in what appears to be reported paraphrase rather than command. More significantly, it adds \"After all\" as a causal connector and restructures \"since you Galilaeans are obeying them\" into \"you Galilaeans obey those books,\" which shifts the meaning from simultaneity (supporting a command) to a standalone claim. The original contains a conditional clause (\"If...they think...then let them...since you...are obeying them\") that the rendering fragments and weakens by introducing the explanatory \"After all\"—adding interpretive logic not in the original text.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.macrina-refuses-remarriage",
+          "verdict": "summary",
+          "reasoning": "The rendering omits a crucial theological/philosophical claim present in the original. The original states she \"considered him who lived to God, thanks to the hope of the resurrection, to be absent only, not dead,\" expressing the idea that through resurrection hope, the deceased is actively living to God—a specific religious claim about the nature of his continued existence. The modern rendering compresses this to \"she believed he was alive with God,\" which loses the precise logical chain about how the hope of resurrection makes him present to God. Additionally, the original's opening directly states \"her father's intention was equivalent to a marriage,\" whereas the rendering softens this to \"counted as good as an actual marriage\"—a meaningful shift in philosophical claim.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.ousia-and-hypostasis",
+          "verdict": "summary",
+          "reasoning": "The rendering omits several significant clauses from the original: it drops \"The indefinite meaning of the word strikes a certain vague sense upon the ears\" (replacing it with the compressed phrase \"the word is vague\"), removes \"The nature is indicated, but what subsists and is specially and peculiarly indicated by the name is not made plain\" (compressing these two distinct claims into \"it points to the nature in general, but not to any one particular person\"), and simplifies \"We set forth, by what is indicated by the name, the nature subsisting\" into \"we point to a particular, existing nature.\" These compressions substantially condense the original's deliberate, layered explanations into shorter paraphrases that lose the specific philosophical distinctions being drawn.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.reading-scripture-hexaemeron",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops the explicit clause \"in the open firmament\" (rendering only \"across the dome of the sky\"), and it also adds \"Think of...\" and \"Think how...\" imperatives that are not present in the original, which only uses interrogative \"How\" questions (\"What a difference...How He has divided...How He has characterized\"). These additions shift the tone from questioning wonder to direct imperative address.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "cappadocian.quote.what-is-the-written-source",
+          "verdict": "summary",
+          "reasoning": "The rendering omits or compresses several distinct clauses present in the original: the conditional phrase \"If it be granted that, as we are baptized, so also under the obligation to believe, we make our confession in like terms as our baptism, in accordance with the tradition of our baptism and in conformity with the principles of true religion\" is heavily condensed into \"We were baptized using those words, and we believe using those same words, following the tradition handed down to us at our baptism,\" which drops the explicit grounding in \"obligation to believe\" and the appeal to \"principles of true religion.\" Additionally, the phrase \"the other matters which we have enumerated\" becomes simply \"everything else I have just named,\" losing the specific reference to enumeration of concrete matters earlier discussed.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "don": {
+      "world": "don",
+      "total_quotes": 5,
+      "graded_count": 5,
+      "no_modern_rendering_count": 0,
+      "no_modern_rendering": [],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 1,
+        "summary": 4,
+        "expansion": 0,
+        "mixed": 0
+      },
+      "findings": [
+        {
+          "id": "don.quote.deo-laudes",
+          "verdict": "summary",
+          "reasoning": "The original \"DEO LAVDES\" is literally \"praises to God\" or \"God praises\" (the dative case \"DEO\" indicates the praises are directed to/for God). The modern rendering compresses this to \"Praise to God,\" which drops the plural construction and shifts from the noun form \"praises/lauds\" to an imperative verb, thereby omitting the actual statement of the original in favor of a shorter command.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "don.quote.emeritus-magno-argumento",
+          "verdict": "summary",
+          "reasoning": "The rendering drops several clauses and compresses the original's structure. The original specifies that truth is hidden \"by a great trick/argument\" (magno argumento), that something \"small\" or \"meager\" (modicum quid) is put forward \"from the adversary's side\" (ex parte adversa) in response to \"our inquiry\" (ad inquisitionem nostram), and that \"the rest are silenced\" (cetera sileantur). The rendering conflates these distinct propositions into a simplified narrative (\"We answer in full. They give us a little bit, and call the rest closed\") that loses the Latin's precise logical structure and omits the explicit reference to magnitude of the argument and the meagerness of what is conceded.",
+          "verification_state": "verified-via-authority"
+        },
+        {
+          "id": "don.quote.petilian-conscience-of-the-giver",
+          "verdict": "summary",
+          "reasoning": "The rendering omits the causal mechanism central to the original: the original states that the giver's conscience is what \"abluat\" (cleanses/washes away) the recipient's conscience—a specific relational claim of how one person's moral state affects another's. The rendering compresses this into \"the giver's character makes the one receiving it clean,\" losing the explicit transitive act of cleansing and the moral causality the original asserts. Additionally, \"What matters is the giver's own character\" is an interpretive reduction rather than a translation of the original's stated focus on examining the giver's conscience itself.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "don.quote.the-shores-are-covered",
+          "verdict": "summary",
+          "reasoning": "The rendering drops several clauses from the original: it omits the specific reference to \"shipwrecked members of certain men,\" condenses \"the shores are covered with the bodies of the dying\" into \"their bodies lie all along the shore\" (losing \"dying\"), and removes the explicit statement \"they fail to find so much as burial\" by merely saying the waters \"will not even give them a grave\"—a paraphrase that loses the original's distinct idea that burial is denied them after death.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "gallic": {
+      "world": "gallic",
+      "total_quotes": 3,
+      "graded_count": 3,
+      "no_modern_rendering_count": 0,
+      "no_modern_rendering": [],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 3,
+        "summary": 0,
+        "expansion": 0,
+        "mixed": 0
+      },
+      "findings": []
+    },
+    "rzg": {
+      "world": "rzg",
+      "total_quotes": 6,
+      "graded_count": 6,
+      "no_modern_rendering_count": 0,
+      "no_modern_rendering": [],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 0,
+        "summary": 6,
+        "expansion": 0,
+        "mixed": 0
+      },
+      "findings": [
+        {
+          "id": "rzg.quote.christ-the-mirror-of-election",
+          "verdict": "summary",
+          "reasoning": "The rendering drops the explicit rejection clause (\"We reject those who seek out of Christ\") and compresses the mirror metaphor into a simpler reflective image. The original states a doctrinal position (\"we reject\") and then prescribes Christ as the mirror for beholding predestination; the rendering reduces this to a direct instruction about where to look for election, losing the emphatic rejection of alternative seeking and the specific theological language of \"predestination\" in favor of the more general \"election.\"",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "rzg.quote.mass-not-a-sacrifice",
+          "verdict": "summary",
+          "reasoning": "The rendering omits several key clauses from the original: (1) that Christ's sacrifice is \"to eternity a certain and valid sacrifice for the sins of all faithful,\" (2) the logical connector \"wherefrom it follows,\" and (3) \"assurance of the salvation which Christ has given us.\" The rendering condenses the original's two-part theological argument into a simple statement about what the Mass does not do, losing the substantive claims about the eternal validity of Christ's sacrifice and the Mass as an assurance of salvation.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "rzg.quote.seniors-selected-from-the-people",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and omits several specific clauses from the original: it drops \"seniors selected from the people\" (reducing them to just \"ordinary people, chosen from among us\"), omits \"to unite with the bishops\" (replacing it with the vaguer \"join the pastors\"), and notably condenses \"pronouncing censures and exercising discipline\" into the single concept \"judging conduct\"—losing the distinct actions of pronouncement and discipline that the original specifies.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "rzg.quote.signs-and-things-signified",
+          "verdict": "summary",
+          "reasoning": "The rendering compresses and loses several real clauses of the original. The original states (1) \"we ought\" to distinguish between signs and things signified—a normative claim about duty or propriety; (2) \"we do not disjoin the reality from the signs\"—a negative statement about non-disjunction. The modern version drops the modal \"ought\" (the prescriptive force) and conflates the two distinct actions into a single contrast (\"tell apart\" vs. \"pull them apart\"), losing the original's emphasis on both the proper distinction and the maintained connection between them.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "rzg.quote.taught-better-from-scripture",
+          "verdict": "summary",
+          "reasoning": "The rendering substantially compresses and drops real content from the original. It omits: (1) the identification of the speaker as \"Ulrich Zwingli\"; (2) the specific venue \"the worthy city of Zurich\"; (3) the list format (\"the articles and opinions below\"); (4) the explicit theological claim that the Scriptures \"are called inspired by God\"; and (5) the conditional \"where I have not now correctly understood\" which frames the willingness to be corrected as dependent on future misreading, not a present admission. These are not stylistic choices but substantive deletions that reduce the original's scope and specificity.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "rzg.quote.zwinglis-last-words",
+          "verdict": "summary",
+          "reasoning": "The rendering omits a significant clause from the original: \"it is true\" (a concessive qualifier that acknowledges the validity of the premise before the contrast). Additionally, the original's parallel construction \"able...to kill the body but not the soul\" is compressed into two separate declarative sentences, and the qualifier \"able\" is dropped, changing \"they are able...to kill\" to simply \"they can kill.\" The rendering also shifts from the general \"this\" and impersonal \"they\" to the personal \"my body\" and \"my soul,\" adding a first-person specificity not present in the original's more universal phrasing.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    },
+    "witt": {
+      "world": "witt",
+      "total_quotes": 7,
+      "graded_count": 7,
+      "no_modern_rendering_count": 0,
+      "no_modern_rendering": [],
+      "error_count": 0,
+      "errors": [],
+      "verdict_counts": {
+        "translation": 4,
+        "summary": 2,
+        "expansion": 0,
+        "mixed": 1
+      },
+      "findings": [
+        {
+          "id": "witt.quote.article-ii-of-original-sin",
+          "verdict": "mixed",
+          "reasoning": "The rendering drops a significant clause: the original states that the disease/vice \"is truly sin, even now condemning and bringing eternal death upon those not born again\"—meaning it condemns even now; the modern version separates these into sequential ideas and loses the force of \"even now\" applying to the condemnation itself. Additionally, the rendering adds interpretive language not in the original: \"Their desires are turned the wrong way\" expands on \"concupiscence\" with an explanation not explicitly stated, and \"They are born\" is repeated three times for emphasis in a way that amplifies the original phrasing.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "witt.quote.article-ix-of-baptism",
+          "verdict": "summary",
+          "reasoning": "The modern rendering compresses and drops several real clauses from the original. The original explicitly states that children \"being offered to God through Baptism are received into God's grace\" as a conditional consequence of baptism, and that the Anabaptists \"reject the baptism of children\" and make a specific claim that \"children are saved without Baptism\"—all distinct propositions. The rendering condenses these into shorter paraphrases (\"A child is offered to God through baptism. By that, the child is received into God's grace\" and \"They say children should not be baptized. They say children are saved without it\"), losing the specific grammatical structure and causal relationship expressed in the original's more complex syntax, and the concluding \"We do not agree\" adds an interpretive summary not explicitly stated in the original text.",
+          "verification_state": "verified-direct"
+        },
+        {
+          "id": "witt.quote.nothing-that-varies",
+          "verdict": "summary",
+          "reasoning": "The rendering drops a significant clause from the original: \"in order that it might be understood that in doctrine and ceremonies nothing has been received on our part against Scripture or the Church Catholic\" is compressed into two short statements without capturing the causal relationship (\"in order that\") that ties the recounting of things to the demonstration of doctrinal fidelity. The original's logical structure—that specific things were recounted *so that* readers would understand the doctrinal position—is lost in the modernization, which merely states the doctrinal position flatly as two separate clauses.",
+          "verification_state": "verified-direct"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "total_quotes": 257,
+    "graded_count": 100,
+    "no_modern_rendering_count": 157,
+    "error_count": 0,
+    "verdict_counts": {
+      "translation": 55,
+      "summary": 30,
+      "expansion": 6,
+      "mixed": 9
+    }
+  }
+}

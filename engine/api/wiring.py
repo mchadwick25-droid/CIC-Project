@@ -17,8 +17,14 @@ from engine.m4.entrance import open_session
 from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
+from engine.m4 import evidence as ev
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
-from engine.m4.uncited_claims import build_uncited_claims_event, known_tradition_names
+from engine.m4.uncited_claims import (
+    build_uncited_claims_event,
+    known_tradition_names,
+    match_named_tradition,
+    world_records_mention_tradition,
+)
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
@@ -458,6 +464,7 @@ def handle_message(
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -537,6 +544,22 @@ def handle_message(
 
     turn_no = state.turn_count + 1
 
+    # R39's own reviewer-ordered fix (2026-09-23): unconditional, never
+    # gated behind r27_enforce - this corrects an existing false statement
+    # (_other_tradition_directive's own fixed honest-limit sentence, said
+    # even when this world's own records already name the tradition
+    # asked about) rather than adding new enforcement. match_named_
+    # tradition works from the raw participant text, independent of
+    # whatever the reader ends up classifying - harmless to compute even
+    # on a turn the reader does not route other_tradition, since
+    # _build_turn_directive only ever reads it when is_other_tradition_
+    # first_ask is also true.
+    named_tradition_key = match_named_tradition(text, registry, exclude_world_key=state.world_key)
+    other_tradition_evidence_ids = (
+        world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
+        if named_tradition_key else None
+    )
+
     try:
         result: TurnResult = run_turn(
             session_id=session_id,
@@ -556,6 +579,8 @@ def handle_message(
             history=history,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
+            other_tradition_evidence_ids=other_tradition_evidence_ids,
+            self_revision_enabled=self_revision_enabled,
         )
     except UnhandledRoutingAction:
         # Deleted 2026-08-24, not weakened: this used to catch the raise and
