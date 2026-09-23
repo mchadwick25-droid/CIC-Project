@@ -41,12 +41,23 @@ schema alone, not on a temperature setting this API does not offer.
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 
-from anthropic import APIError, APITimeoutError
+from anthropic import APIError, APITimeoutError, RateLimitError
 
 from engine.m1.loader import load_world_records
 from engine.m5.failure import CallOutcome
+
+# A sequential fleet sweep of ~80 live calls ran into this account's real
+# Bedrock rate limit mid-run (2026-09-23 first live run: 21/100 calls hit a
+# 429 with no retry, an incomplete sweep silently reported as though it
+# were the whole fleet). The SDK client's own default retry budget was not
+# enough on its own; retry here explicitly, with real exponential backoff,
+# rather than accept a partial report - RateLimitError only, since that is
+# the actual observed failure mode, not any transient error class.
+_RATE_LIMIT_MAX_RETRIES = 5
+_RATE_LIMIT_BASE_DELAY_SECONDS = 2.0
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "rendering-fidelity-report-2026-09-23.json"
@@ -93,20 +104,28 @@ _VERDICT_TOOL = {
 
 def grade_rendering(client, model_id: str, *, original: str, modern_rendering: str, timeout: float = 8.0) -> CallOutcome:
     user_content = f"Original:\n{original}\n\nModern rendering:\n{modern_rendering}"
-    try:
-        response = client.messages.create(
-            model=model_id,
-            max_tokens=512,
-            system=SYSTEM_PROMPT,
-            tools=[_VERDICT_TOOL],
-            tool_choice={"type": "tool", "name": _VERDICT_TOOL["name"]},
-            messages=[{"role": "user", "content": user_content}],
-            timeout=timeout,
-        )
-    except APITimeoutError:
-        return CallOutcome(status="timeout")
-    except APIError as e:
-        return CallOutcome(status="error", value={"error": str(e)})
+    delay = _RATE_LIMIT_BASE_DELAY_SECONDS
+    for attempt in range(_RATE_LIMIT_MAX_RETRIES + 1):
+        try:
+            response = client.messages.create(
+                model=model_id,
+                max_tokens=512,
+                system=SYSTEM_PROMPT,
+                tools=[_VERDICT_TOOL],
+                tool_choice={"type": "tool", "name": _VERDICT_TOOL["name"]},
+                messages=[{"role": "user", "content": user_content}],
+                timeout=timeout,
+            )
+            break
+        except APITimeoutError:
+            return CallOutcome(status="timeout")
+        except RateLimitError as e:
+            if attempt == _RATE_LIMIT_MAX_RETRIES:
+                return CallOutcome(status="error", value={"error": f"rate limited after {_RATE_LIMIT_MAX_RETRIES} retries: {e}"})
+            time.sleep(delay)
+            delay *= 2
+        except APIError as e:
+            return CallOutcome(status="error", value={"error": str(e)})
 
     tool_uses = [b for b in response.content if b.type == "tool_use" and b.name == _VERDICT_TOOL["name"]]
     if not tool_uses:

@@ -1,13 +1,24 @@
 """Mocked-grader tests (no live AWS/Bedrock call) for
-engine.m1.rendering_fidelity: the forced-tool-use call shape (temperature
-0, structured verdict, no salvage parsing), and sweep_world's aggregation -
-skipping records with no modern_rendering, counting each verdict, and
-landing a timeout/parse-failure in errors rather than crashing the sweep."""
+engine.m1.rendering_fidelity: the forced-tool-use call shape (structured
+verdict, no salvage parsing), rate-limit retry with backoff (the real
+first fleet sweep hit this - 21/100 calls 429'd with no retry, an
+incomplete sweep silently reported as the whole fleet), and sweep_world's
+aggregation - skipping records with no modern_rendering, counting each
+verdict, and landing a timeout/parse-failure/exhausted-retry in errors
+rather than crashing the sweep."""
 from types import SimpleNamespace
 
-from anthropic import APITimeoutError
+import httpx2
+from anthropic import APITimeoutError, RateLimitError
 
 from engine.m1.rendering_fidelity import grade_rendering, sweep_world
+import engine.m1.rendering_fidelity as rendering_fidelity
+
+
+def _rate_limit_error():
+    request = httpx2.Request("POST", "https://example.com")
+    response = httpx2.Response(429, request=request)
+    return RateLimitError("rate limited", response=response, body=None)
 
 
 class _FakeToolUse:
@@ -88,6 +99,34 @@ def test_no_tool_use_block_returns_parse_failure():
     outcome = grade_rendering(client, "fake-model", original="X.", modern_rendering="X.")
     assert outcome.status == "parse_failure"
     assert outcome.failed is True
+
+
+# --- RateLimitError retry with backoff -----------------------------------
+
+
+def test_rate_limit_retries_then_succeeds(monkeypatch):
+    slept = []
+    monkeypatch.setattr(rendering_fidelity.time, "sleep", lambda s: slept.append(s))
+    client = FakeGraderClient([_rate_limit_error(), _rate_limit_error(), {"verdict": "translation", "reasoning": "ok"}])
+
+    outcome = grade_rendering(client, "fake-model", original="X.", modern_rendering="X.")
+
+    assert outcome.status == "ok"
+    assert outcome.value["verdict"] == "translation"
+    assert len(client.captured_calls) == 3  # two 429s, then the real call
+    assert slept == [2.0, 4.0]  # real exponential backoff, not a fixed pause
+
+
+def test_rate_limit_exhausted_retries_returns_error_outcome_not_a_crash(monkeypatch):
+    monkeypatch.setattr(rendering_fidelity.time, "sleep", lambda s: None)
+    client = FakeGraderClient([_rate_limit_error()] * (rendering_fidelity._RATE_LIMIT_MAX_RETRIES + 1))
+
+    outcome = grade_rendering(client, "fake-model", original="X.", modern_rendering="X.")
+
+    assert outcome.status == "error"
+    assert outcome.failed is True
+    assert "rate limited" in outcome.value["error"]
+    assert len(client.captured_calls) == rendering_fidelity._RATE_LIMIT_MAX_RETRIES + 1
 
 
 # --- sweep_world: aggregation over a world's quote records ---------------
