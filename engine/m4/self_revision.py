@@ -43,13 +43,14 @@ from engine.m5.failure import CallOutcome
 
 REVISION_INSTRUCTION = (
     "REVISION PASS - not a new question, and not addressed to the participant. You wrote the draft answer "
-    "below to the participant's question about the Donatists. Review it against the real, full text of "
-    "every record you tagged in it, given in full below. For each TAGGED sentence: keep only what that "
+    "below to the participant's question, given in full below. Review it against the real, full text of "
+    "every record you tagged in it, also given in full below. For each TAGGED sentence: keep only what that "
     "record actually says, or a fair paraphrase of it - trim any specific detail the record does not give, "
     "even if you believe it to be true. Do not add anything. Do not add, remove, or change any [[tag]]. Do "
     "not touch any UNTAGGED sentence at all, even to reword it. Return the complete revised answer, in the "
     "exact same format as the draft (the same tag grammar, the same structure), and nothing else - no "
     "preamble, no explanation of what you changed.\n\n"
+    "THE PARTICIPANT'S QUESTION:\n{participant_message}\n\n"
     "YOUR DRAFT:\n{draft}\n\n"
     "THE RECORDS YOU TAGGED, IN FULL:\n{records_block}"
 )
@@ -65,7 +66,9 @@ def _tagged_record_ids(raw_text: str) -> list[str]:
     return sorted({rid for s in parsed for rid in (s.get("tags") or [])})
 
 
-def build_revision_message(*, draft_text: str, tagged_record_ids: list[str], repository_records: dict[str, dict]) -> str:
+def build_revision_message(
+    *, participant_message: str, draft_text: str, tagged_record_ids: list[str], repository_records: dict[str, dict],
+) -> str:
     lines = []
     for rid in tagged_record_ids:
         record = repository_records.get(rid)
@@ -73,11 +76,12 @@ def build_revision_message(*, draft_text: str, tagged_record_ids: list[str], rep
             continue
         lines.append(f"[[{rid}]]: {_full_text_for_record(record)}")
     records_block = "\n\n".join(lines)
-    return REVISION_INSTRUCTION.format(draft=draft_text, records_block=records_block)
+    return REVISION_INSTRUCTION.format(participant_message=participant_message, draft=draft_text, records_block=records_block)
 
 
 def self_revise(
-    *, client, model_id: str, system_prompt: str, draft_raw_text: str, repository_records: dict[str, dict],
+    *, client, model_id: str, system_prompt: str, participant_message: str, draft_raw_text: str,
+    repository_records: dict[str, dict],
 ) -> dict:
     """Returns a dict, always usable text on the `revised_text` key even
     on failure - the caller never needs to special-case a blank turn:
@@ -107,7 +111,8 @@ def self_revise(
         }
 
     revision_message = build_revision_message(
-        draft_text=draft_raw_text, tagged_record_ids=tagged_record_ids, repository_records=repository_records,
+        participant_message=participant_message, draft_text=draft_raw_text,
+        tagged_record_ids=tagged_record_ids, repository_records=repository_records,
     )
     start = time.perf_counter()
     outcome: CallOutcome = stream_voice_turn(

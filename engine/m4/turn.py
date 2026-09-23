@@ -747,7 +747,8 @@ def _run_ordinary_voice_turn(
     if raw_text and is_other_tradition_first_ask and self_revision_enabled:
         self_revision_result = self_revise(
             client=voice_client, model_id=voice_model_id, system_prompt=world.prompt_text,
-            draft_raw_text=raw_text, repository_records=repository_records,
+            participant_message=participant_message, draft_raw_text=raw_text,
+            repository_records=repository_records,
         )
         if self_revision_result["call_outcome"] is not None:
             if rec := _maybe_record_usage(
