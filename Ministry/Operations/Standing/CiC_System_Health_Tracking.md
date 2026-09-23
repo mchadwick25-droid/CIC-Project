@@ -1081,3 +1081,45 @@ owning threads rather than fixed here:
   no standing to resolve on another thread's behalf.
 
 Fleet size unchanged at 11, still below the 15 log threshold.
+
+---
+
+## 2026-09-23 06:31 UTC — Periodic sweep: main's CI red, diagnosed as a platform-level outage, not a content break - flagged to Mark, not fixed
+
+Main's tip (run 1299, PR #433's own merge, commit `8ce19c33e`) failed CI:
+both `Detect changed paths` and `Cited paths resolve; retired paths
+absent` died in ~2 seconds, every other job skipped as a result.
+
+Diagnosis, not a guess:
+- `check_paths.py --baseline tools/check_paths_baseline.txt` run locally
+  against that exact commit: 0 new unresolved, 0 retired - genuinely
+  clean. The failure isn't a real citation problem.
+- Both jobs dying in ~2 seconds, before either could plausibly have
+  finished a real repo scan, matches this thread's own established
+  "died before any test body ran" flake signature - re-ran the failed
+  jobs once, per that protocol. Same failure again, identically, on the
+  retry.
+- Checked whether this is isolated to main: it is not. PR #430's own CI
+  run (an unrelated branch, already in flight) failed the identical two
+  jobs at nearly the same time. Two independent branches failing the
+  same way, simultaneously, rules out a content cause specific to either
+  one.
+- `.github/workflows/ci.yml` has no recent changes - the last touch was
+  the live-merge reconciliation, and many runs since then (through
+  06:07 UTC) passed clean on this exact workflow file.
+- Could not read the actual job logs (this sandbox's egress proxy blocks
+  the Azure blob-storage domain GitHub serves Actions logs from - a
+  204/403-class block, not a missing capability) or reach
+  githubstatus.com to check for a known incident (also egress-blocked).
+  Both are genuine access limits, not skipped steps.
+
+This is outside what this thread can fix or diagnose further from here -
+not a repo content problem, not this thread's own mechanical-fix scope
+(nothing in the repo to edit), and re-running past the one-retry flake
+protocol without new information would just be guessing. Surfaced to
+Mark directly rather than retried further; this is currently blocking
+every PR from merging to main, including this thread's own ledger PR for
+this very entry, which will very likely hit the same failure on its own
+CI run.
+
+Fleet size unchanged at 11.
