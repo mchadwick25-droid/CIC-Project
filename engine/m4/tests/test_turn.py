@@ -37,12 +37,18 @@ class _FakeStreamCtx:
 
 
 class _FakeMessages:
-    def __init__(self, *, safety_response, reader_response, stream_chunks):
+    def __init__(self, *, safety_response, reader_response, stream_chunks, stream_scripts=None):
         self._responses = {
             "submit_safety_classification": safety_response,
             "submit_reader_output": reader_response,
         }
         self._stream_chunks = stream_chunks
+        # R27 build item 5's own enforcement tests need a DIFFERENT raw
+        # answer on the retry than on the raw attempt (a real regeneration
+        # call) - stream_scripts is a list of chunk-lists, one per call,
+        # popped in order; None (every other test's own default) keeps the
+        # original single-script behavior unchanged.
+        self._stream_scripts = list(stream_scripts) if stream_scripts is not None else None
         self.captured_stream_calls = []  # [(system, messages), ...] - lets a test see what the voice call actually received
 
     def create(self, *, model, max_tokens, tools, tool_choice, messages, system=None, timeout=None):
@@ -51,12 +57,16 @@ class _FakeMessages:
 
     def stream(self, *, model, max_tokens, system=None, messages, timeout=None):
         self.captured_stream_calls.append((system, messages))
-        return _FakeStreamCtx(self._stream_chunks)
+        chunks = self._stream_scripts.pop(0) if self._stream_scripts is not None else self._stream_chunks
+        return _FakeStreamCtx(chunks)
 
 
 class FakeBedrockClient:
-    def __init__(self, *, safety_response, reader_response, stream_chunks=()):
-        self.messages = _FakeMessages(safety_response=safety_response, reader_response=reader_response, stream_chunks=stream_chunks)
+    def __init__(self, *, safety_response, reader_response, stream_chunks=(), stream_scripts=None):
+        self.messages = _FakeMessages(
+            safety_response=safety_response, reader_response=reader_response,
+            stream_chunks=stream_chunks, stream_scripts=stream_scripts,
+        )
 
 
 def _reader(**overrides):
@@ -1073,3 +1083,143 @@ def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
     )
     assert capture["raw_tagged_text"] == "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
     assert "[[fix.witness.who-is-jesus]]" not in voice_event["text"]  # apply_net's own strip, unaffected by the capture
+
+
+# R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
+# 2026-09-23): the flag-gated enforcement's own required test list, per
+# the reviewer thread's own item 5 message. r27_enforce=False (every
+# existing test above, and every real caller until Mark flips
+# CIC_R27_ENFORCE) is already proven byte-identical by the full suite
+# passing unchanged; these are the flag-ON cases.
+def _donatist_schism_world() -> LoadedWorld:
+    """Same world as _world() above, plus a second record whose own text
+    genuinely shares ground with "For years they held together." - the
+    real alx conflict-turn shape (Decision-Log.md Entry 55's own pinned
+    case), needed here so test 5 below is a real pass, not a rigged one."""
+    world = _world()
+    repo = dict(world.repository)
+    repo["records"] = [
+        *repo["records"],
+        {
+            "id": "fix.witness.donatist-schism", "record_type": "doctrinal_witness",
+            "text": (
+                "The two communities argued for years before the final break came, but for years they "
+                "held together despite the strain between them."
+            ),
+        },
+    ]
+    return LoadedWorld(**{**world.__dict__, "repository": repo})
+
+
+def test_r27_enforce_regenerates_a_wholly_uncited_paragraph_and_clears_on_a_clean_retry():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],
+            ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[],
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # the one allowed regeneration, no more
+    assert voice_event["attempts_meta"]["r27_regenerated"] is True
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["paragraph_offenses"] == []
+    assert voice_event["uncited_claims"] == []
+
+
+def test_r27_enforce_hands_the_turn_to_the_facilitator_when_the_regeneration_still_fails():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],
+            ["Even a broken priest could not block his grace."],
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[],
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # one attempt, one regeneration, never a third
+    assert voice_event["attempts_meta"]["r27_regenerated"] is True
+    assert voice_event["r27_enforcement_exhausted"] is True
+    assert voice_event["text"] == ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
+    assert voice_event["paragraph_offenses"] == []
+    assert voice_event["uncited_claims"] == []
+
+
+def test_r27_enforce_never_regenerates_an_inherited_ungrounded_only_turn():
+    # R36's own scope decision: inherited_ungrounded stays report-only.
+    # "That was not the only one." carries no tag of its own but rides in
+    # a cited paragraph whose inherited check fails - a real
+    # inherited_ungrounded finding, reported, but not one of the two
+    # classes item 5 enforces.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]. That was not the only one."],
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[],
+    )
+    assert len(client.messages.captured_stream_calls) == 1  # never regenerated
+    assert voice_event["attempts_meta"]["r27_regenerated"] is False
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["paragraph_offenses"] == [{"sentence": "That was not the only one.", "class": "inherited_ungrounded"}]
+
+
+def test_r27_enforce_still_fails_the_augustinian_pair_inside_an_other_tradition_turn():
+    # R26's own motivating sentence (Entry 50/51), routed via
+    # other_tradition (is_other_tradition_first_ask=True) - proves the
+    # narrowing at item 1 (own_doctrine_in_other_tradition_turn requiring
+    # a real paragraph failure) does not somehow exempt a turn from
+    # wholly_uncited_paragraph enforcement itself; the routing context is
+    # irrelevant to whether this class enforces.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],
+            ["Even a broken priest could not block his grace."],
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="What was your relationship with the Donatists?", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], is_other_tradition_first_ask=True,
+    )
+    assert voice_event["r27_enforcement_exhausted"] is True
+    assert voice_event["text"] == ""
+
+
+def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_without_regenerating():
+    # alx's own conflict-turn shape (PR #427's own report:
+    # uncited_in_cited_paragraph), same fixture discipline as
+    # test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_
+    # cited_other_tradition_paragraph in test_uncited_claims.py - a real
+    # record whose own text grounds the frame sentence, not a rigged pass.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            [
+                "The two sides argued for years before the break finally came [[fix.witness.donatist-schism]]. "
+                "For years they held together."
+            ],
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_donatist_schism_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[],
+    )
+    assert len(client.messages.captured_stream_calls) == 1  # never regenerated
+    assert voice_event["attempts_meta"]["r27_regenerated"] is False
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["paragraph_offenses"] == []

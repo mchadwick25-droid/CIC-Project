@@ -62,6 +62,7 @@ class Deps:
     enforce_admission: bool
     admin_token: str | None = None
     package_cache_dir: Path | None = None
+    r27_enforce: bool = False
 
 
 class SessionCreateRequest(BaseModel):
@@ -238,6 +239,7 @@ def create_app(
     anon_visitor_secret: str | None = None,
     anon_daily_session_limit: int = anon_cap.DEFAULT_DAILY_SESSION_LIMIT,
     anon_daily_turn_limit: int = anon_cap.DEFAULT_DAILY_TURN_LIMIT,
+    r27_enforce: bool = False,
 ) -> FastAPI:
     """All dependencies pre-built and injected - never touches env vars or
     makes a real Bedrock call itself. This is what tests call with fakes.
@@ -288,6 +290,7 @@ def create_app(
         default_world_key=default_world_key,
         enforce_admission=enforce_admission,
         package_cache_dir=package_cache_dir,
+        r27_enforce=r27_enforce,
     )
 
     @app.get("/health")
@@ -372,6 +375,7 @@ def create_app(
             text=req.text,
             client_msg_id=req.client_msg_id,
             package_cache_dir=deps.package_cache_dir,
+            r27_enforce=deps.r27_enforce,
         )
         started = time.monotonic()
         try:
@@ -570,6 +574,7 @@ def _build_real_app() -> FastAPI:
         anon_visitor_secret=settings.anon_visitor_secret,
         anon_daily_session_limit=settings.anon_daily_session_limit,
         anon_daily_turn_limit=settings.anon_daily_turn_limit,
+        r27_enforce=settings.r27_enforce,
     )
 
 

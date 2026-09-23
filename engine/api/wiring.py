@@ -18,7 +18,7 @@ from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
-from engine.m4.uncited_claims import build_uncited_claims_event
+from engine.m4.uncited_claims import build_uncited_claims_event, known_tradition_names
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
@@ -457,6 +457,7 @@ def handle_message(
     text: str,
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
+    r27_enforce: bool = False,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -553,6 +554,8 @@ def handle_message(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            r27_enforce=r27_enforce,
+            known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
         )
     except UnhandledRoutingAction:
         # Deleted 2026-08-24, not weakened: this used to catch the raise and
@@ -656,6 +659,22 @@ def handle_message(
         if uncited_event is not None:
             events.validate("uncited_claims", uncited_event)
             store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
+
+        # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md
+        # R36, 2026-09-23): the interview-mode analog of
+        # engine.api.table_wiring's own seat_identity_guard_exhausted
+        # handling below - the voice_turn just persisted above already
+        # carries empty text (engine.m4.turn sets it that way), so the
+        # Facilitator's own turn is what a participant actually reads.
+        # "Last one wins" (this function's own established convention
+        # for facilitator_payload) is correct here too: an r27-exhausted
+        # turn is a real generation failure for this turn, which
+        # supersedes any other facilitator_event the same turn produced.
+        if result.voice_event.get("r27_enforcement_exhausted"):
+            fallback_event = facilitator_turns.voice_rejected_turn(world.frame["representative"]["name"])
+            events.validate("facilitator_turn", fallback_event)
+            store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
+            facilitator_payload = fallback_event
 
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
 

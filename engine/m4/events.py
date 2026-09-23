@@ -75,8 +75,14 @@ ENUMS: dict[tuple[str, str], set[str]] = {
     # the seat-identity guard exhausted its one regeneration - a distinct
     # kind from "safety" (TABLE_DEPENDENCY_CHECK's own kind), which is
     # about a participant leaning on the conversation, not a generation
-    # defect.
-    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "seat_correction"},
+    # defect. grounding_correction (Entry 56, R27 build item 5): the same
+    # "Facilitator takes a turn back" shape, this time for R27's own
+    # enforcement (engine.m4.facilitator_turns.voice_rejected_turn) - a
+    # distinct kind from seat_correction because the underlying defect is
+    # different (unsupported/uncited content, not identity impersonation),
+    # even though the mechanism (regenerate once, then hand off) is the
+    # same one reused.
+    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "seat_correction", "grounding_correction"},
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
     ("session_closed", "reason"): {"participant", "idle", "cap"},
