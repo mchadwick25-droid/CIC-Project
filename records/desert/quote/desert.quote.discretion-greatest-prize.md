@@ -24,6 +24,12 @@ text: You see then that the gift of discretion is no earthly thing and no slight
   with unerring judgment the spirits that rise up in him, he is sure to go wrong, as if in the darkness
   of night and dense blackness, and not merely to fall down dangerous pits and precipices, but also
   to make frequent mistakes in matters that are plain and straightforward.
+modern_rendering: >-
+  So you see: the gift of discretion is not an earthly thing, and not a small matter. It is the
+  greatest prize that divine grace gives. Unless a monk pursues it with all his zeal, and gains the
+  power to judge without error the thoughts that rise up in him, he is sure to go wrong. It will be
+  like walking in the dark of night, in thick blackness. He will not only fall into dangerous pits
+  and cliffs. He will also make frequent mistakes in matters that are plain and simple.
 speaker_or_author: Abbot Moses of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-

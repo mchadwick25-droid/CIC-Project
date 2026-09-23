@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: '[The sands are] my sins which are running down behind me and I cannot see them, and I, even I, have
   come this day to judge shortcomings which are not mine.'
+modern_rendering: >-
+  [The sands are] my sins, running down behind me. I cannot see them. And I -- I myself -- have come
+  this day to judge faults that are not my own.
 speaker_or_author: Abba Moses
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote''s own vocabulary or imagery:

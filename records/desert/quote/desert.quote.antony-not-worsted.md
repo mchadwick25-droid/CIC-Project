@@ -17,6 +17,11 @@ sources:
   locus: "SS9 - Antony's own words to the demons attacking him in beast form"
   license: public-domain
 text: "If there had been any power in you, it would have sufficed had one of you come, but since the Lord hath made you weak, you attempt to terrify me by numbers: and a proof of your weakness is that you take the shapes of brute beasts... If you are able, and have received power against me, delay not to attack; but if you are unable, why trouble me in vain? For faith in our Lord is a seal and a wall of safety to us."
+modern_rendering: >-
+  If you had any real power, it would have been enough for just one of you to come. But the Lord has
+  made you weak. So you try to frighten me with your numbers. Taking the shapes of wild animals is
+  proof of your weakness. ... If you have the power to attack me, do not wait -- attack now. But if
+  you cannot, why trouble me for nothing? Faith in our Lord is a seal and a wall that keeps us safe.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "The demons' \"shapes of brute beasts\" risks two opposite modern misreadings: taken as a literal supernatural claim, or dismissed outright as primitive superstition with nothing to say. This world's own record holds it as neither - see desert.story.antony-tomb-combat's own explicit instruction that this material is not neutral incident report."
