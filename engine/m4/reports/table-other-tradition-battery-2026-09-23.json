@@ -1,9 +1,9 @@
 {
   "asof": "2026-09-23T20:28:47.505063+00:00",
   "region": "us-east-1",
-  "total_dollars": 0.5379,
-  "total_calls": 27,
-  "directive_fired": "2/3",
+  "total_dollars": 0.6486,
+  "total_calls": 30,
+  "directive_fired": "3/3",
   "facilitator_step_in": "0/3",
   "self_revision_ran": "3/3",
   "self_revision_changed": "3/3",
@@ -601,75 +601,10 @@
       "routing_action": "voice_with_directive",
       "routing_reason": "other_tradition, first ask - in-world answer",
       "voice_speaker": "alx",
-      "voice_text": "We were not two churches - we were one. The martyrs were ours, and we were theirs. When the boy Origen's father Leonides was beheaded under Severus, the church did not stand aside and watch. It kept the memory, raised the widow's children, and made the son a teacher. When the young woman Potamiaena died under boiling pitch, her courage entered our tradition as witness - told and retold, because what she had done mattered to us. The martyrs were not a separate community we admired from outside. They were members of the one assembly, the ekklesia, and their blood was part of our formation.\n\nBut there was a tension inside that unity, and our record does not hide it. Some among us saw the martyr's death as the highest act of formation - the soul proved and perfected in one moment of refusal. Others saw formation as a long ascent: years of reading, praying, being shaped by a teacher. Clement himself warned against those who rush toward death - people who give themselves up, he said, dying out of hatred for the Creator, throwing themselves onto a pointless death. He said these people banish themselves from true martyrdom even though they suffer publicly.\n\nThe church held both. When the great plague came to Alexandria, our people did not run. They stayed, nursed the sick, caught the sickness themselves, and died of it - not in an arena, but in sickrooms, doing the same work the martyrs' courage had shown. That was martyrdom's fruit in ordinary streets: love that did not count the cost. And at the same time, in the years between persecutions, our teachers kept teaching - forming souls slowly, through Scripture and argument and the long discipline of a student under a master. The student Gregory, looking back on five years under Origen, said it was like being in paradise.\n\nSo our relationship with the martyrs' church was this: we were it. We kept their names. We sang their courage. Some of us went to the prisons to encourage those about to die. And we also believed that what the martyrs had done in an hour, others were called to grow toward across a lifetime. Both were real formation. Both were ours. The tension between them was never resolved, and we did not try to resolve it.",
+      "voice_text": "The Chair of the Martyrs has not yet spoken in this room, and until it does, I know only the name seated here beside me - and that is enough to answer you honestly.\n\nWe were not two churches. We were one church, and the martyrs' witness ran through the middle of us. Our teacher's own father was beheaded when the boy was sixteen. Our students were tortured. Bishop Dionysius wrote from inside the plague years that many of the brothers and sisters caught the sickness from those they nursed and 'died most joyfully, as though they were drawing their neighbors' pain onto themselves'. We remembered a young woman, Potamiaena, by name, for generations - her courage won over the very soldier who led her out. We did not keep martyrdom and learning in separate rooms. They were two ways the same formation showed its depth.\n\nBut here is what we also held, and it was real tension, not easy harmony. Some among us rushed toward death, volunteers, and Clement said plainly they sprang from rash impulse, not from the Spirit's leading. And our deepest teachers spent lifetimes in study - Origen taught for decades before the persecution finally took him. So the question we lived with was this: which picture of the fully formed life do you hold up? The martyr's single witness, or the teacher's long climb? We honored both. We did not always know how to weigh them.\n\nThe Chair beside me may tell a different story - may say we were the school that forgot the blood, or the elite that left the suffering to others. If it does, you should listen. Our own record shows the wound as well as the witness.",
       "citations": [
         {
-          "sentence": "We were not two churches - we were one.",
-          "record_ids": [
-            "alx.dw.one-church"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.dw.one-church",
-              "record_type": "doctrinal_witness",
-              "label": "Was your church 'Catholic'? Is there a church today that is yours? In our own time we cal\u2026",
-              "sources": [
-                {
-                  "source_id": "alx.source.athanasius-festal-letters",
-                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
-                  "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here.",
-                  "locus": "the communion-of-churches frame",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the letters to other sees",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.clement-stromateis",
-                  "author": "Clement of Alexandria (c. 150-215 CE)",
-                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
-                  "locus": "II.3-8 (for \"Gnostic schools\": Clement names and answers \"the followers of Basilides\" and \"the followers of Valentinus\" by name repeatedly through these chapters, e.g. anf02 lines 32104-32722)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "When the boy Origen's father Leonides was beheaded under Severus, the church did not stand aside and watch.",
-          "record_ids": [
-            "alx.force.persecution"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.force.persecution",
-              "record_type": "force",
-              "label": "Episodic Persecution, c. 165-311",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2, VI.39-42",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the persecution letters",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "They were members of the one assembly, the ekklesia, and their blood was part of our formation.",
+          "sentence": "We were one church, and the martyrs' witness ran through the middle of us.",
           "record_ids": [
             "alx.term.ekklesia"
           ],
@@ -698,236 +633,28 @@
           ]
         },
         {
-          "sentence": "But there was a tension inside that unity, and our record does not hide it.",
+          "sentence": "Our own record shows the wound as well as the witness.",
           "record_ids": [
-            "alx.gravity.martyrdom-contemplative-tension"
+            "alx.dw.church-failure"
           ],
           "sources": [
             {
-              "record_id": "alx.gravity.martyrdom-contemplative-tension",
-              "record_type": "gravity",
-              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "record_id": "alx.dw.church-failure",
+              "record_type": "doctrinal_witness",
+              "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds\u2026",
               "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2, VI.39 (persecution narratives)",
-                  "rights_status": "public-domain"
-                },
                 {
                   "source_id": "alx.source.dionysius-extant-fragments",
                   "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
                   "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the Decian-era letters",
+                  "locus": "the lapsed letters",
                   "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "Others saw formation as a long ascent: years of reading, praying, being shaped by a teacher.",
-          "record_ids": [
-            "alx.gravity.martyrdom-contemplative-tension"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.gravity.martyrdom-contemplative-tension",
-              "record_type": "gravity",
-              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
-              "sources": [
+                },
                 {
                   "source_id": "alx.source.eusebius-historia-ecclesiastica",
                   "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
                   "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2, VI.39 (persecution narratives)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the Decian-era letters",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "Clement himself warned against those who rush toward death - people who give themselves up, he said, dying out of hatred for the Creator, throwing themselves onto a pointless death.",
-          "record_ids": [
-            "alx.quote.clement-rash-martyrdom"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.quote.clement-rash-martyrdom",
-              "record_type": "quote",
-              "label": "Stromateis, IV.4 \u2014 Clement",
-              "sources": [
-                {
-                  "source_id": "alx.source.clement-stromateis",
-                  "author": "Clement of Alexandria (c. 150-215 CE)",
-                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
-                  "locus": "IV.4 (anf02 lines 37819-37827, matching the text field below)",
-                  "rights_status": "public-domain"
-                }
-              ],
-              "original_wording": "Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred to the Creator )\u2014these, we say, banish themselves without being martyrs, even though they are punished publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they have not known the only true God, but give themselves up to a vain death, as the Gymnosophists of the Indians to useless fire.",
-              "spoken_rendering": "Now we too say this about those who rush toward death. There are some, not truly one of us but bearing the name only, who are eager to give themselves up, poor wretches, dying out of hatred for the Creator. These people, we say, banish themselves from true martyrdom even though they suffer publicly for it. They do not carry the mark of a believing martyr's death, because they have not known the one true God. They give themselves up to a pointless death, like the naked sages of the Indians, who throw themselves onto a useless fire."
-            }
-          ]
-        },
-        {
-          "sentence": "He said these people banish themselves from true martyrdom even though they suffer publicly.",
-          "record_ids": [
-            "alx.quote.clement-rash-martyrdom"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.quote.clement-rash-martyrdom",
-              "record_type": "quote",
-              "label": "Stromateis, IV.4 \u2014 Clement",
-              "sources": [
-                {
-                  "source_id": "alx.source.clement-stromateis",
-                  "author": "Clement of Alexandria (c. 150-215 CE)",
-                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
-                  "locus": "IV.4 (anf02 lines 37819-37827, matching the text field below)",
-                  "rights_status": "public-domain"
-                }
-              ],
-              "original_wording": "Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred to the Creator )\u2014these, we say, banish themselves without being martyrs, even though they are punished publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they have not known the only true God, but give themselves up to a vain death, as the Gymnosophists of the Indians to useless fire.",
-              "spoken_rendering": "Now we too say this about those who rush toward death. There are some, not truly one of us but bearing the name only, who are eager to give themselves up, poor wretches, dying out of hatred for the Creator. These people, we say, banish themselves from true martyrdom even though they suffer publicly for it. They do not carry the mark of a believing martyr's death, because they have not known the one true God. They give themselves up to a pointless death, like the naked sages of the Indians, who throw themselves onto a useless fire."
-            }
-          ]
-        },
-        {
-          "sentence": "When the great plague came to Alexandria, our people did not run.",
-          "record_ids": [
-            "alx.story.plague-nursing"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.plague-nursing",
-              "record_type": "story",
-              "label": "a true account from Bishop Dionysius's own letter, written while the plague still burned",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VII.22 (npnf201 lines 41084-41127, reaching 'buried its dead with open hands' at line ~41112 (\u00a79) and the pagan contrast, 'deserted those who began to be sick, and fled from their dearest friends,' at lines ~41120-41122 (\u00a710))",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the plague letter",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "They stayed, nursed the sick, caught the sickness themselves, and died of it - not in an arena, but in sickrooms, doing the same work the martyrs' courage had shown.",
-          "record_ids": [
-            "alx.story.plague-nursing"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.plague-nursing",
-              "record_type": "story",
-              "label": "a true account from Bishop Dionysius's own letter, written while the plague still burned",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VII.22 (npnf201 lines 41084-41127, reaching 'buried its dead with open hands' at line ~41112 (\u00a79) and the pagan contrast, 'deserted those who began to be sick, and fled from their dearest friends,' at lines ~41120-41122 (\u00a710))",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the plague letter",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "And at the same time, in the years between persecutions, our teachers kept teaching - forming souls slowly, through Scripture and argument and the long discipline of a student under a master.",
-          "record_ids": [
-            "alx.story.gregory-formation"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.gregory-formation",
-              "record_type": "story",
-              "label": "the student Gregory's own account of how Origen taught him, told at his farewell",
-              "sources": [
-                {
-                  "source_id": "alx.source.gregory-address-to-origen",
-                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                  "locus": "VI-XVI (anf06 from line 2288)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "The student Gregory, looking back on five years under Origen, said it was like being in paradise.",
-          "record_ids": [
-            "alx.story.gregory-formation"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.gregory-formation",
-              "record_type": "story",
-              "label": "the student Gregory's own account of how Origen taught him, told at his farewell",
-              "sources": [
-                {
-                  "source_id": "alx.source.gregory-address-to-origen",
-                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                  "locus": "VI-XVI (anf06 from line 2288)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "The tension between them was never resolved, and we did not try to resolve it.",
-          "record_ids": [
-            "alx.gravity.martyrdom-contemplative-tension"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.gravity.martyrdom-contemplative-tension",
-              "record_type": "gravity",
-              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2, VI.39 (persecution narratives)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the Decian-era letters",
+                  "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
                   "rights_status": "public-domain"
                 }
               ]
@@ -935,19 +662,19 @@
           ]
         }
       ],
-      "directive_fired": false,
-      "opening_turn_directive_text": null,
+      "directive_fired": true,
+      "opening_turn_directive_text": "This question asks about a Christian tradition seated at this table under the name \"The Church of the Martyrs\", with its own Representative present - not your own world. Never speak for that tradition, and never claim its name, history, or witness as your own. You may respond only to the bare fact that it is seated here under that name, and to what that chair has actually said in this conversation so far - if it has not spoken yet, you know nothing more about it than its name. Where your own world's records genuinely bear on the question, answer from them as always, cited as always, but never let that stand in for the other tradition's own voice.",
       "facilitator_step_in": false,
       "self_revision": {
         "ran": true,
         "changed": true,
-        "draft_length": 2638,
-        "revised_length": 2653,
+        "draft_length": 2059,
+        "revised_length": 1816,
         "fallback_reason": null,
-        "latency_seconds": 6.539
+        "latency_seconds": 4.678
       },
-      "calls_made": 9,
-      "dollars": 0.2583,
+      "calls_made": 12,
+      "dollars": 0.369,
       "message": "Theon, what was your relationship with The Church of the Martyrs?"
     }
   ]

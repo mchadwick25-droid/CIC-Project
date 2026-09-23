@@ -993,14 +993,21 @@ def test_a_seat_drawn_back_in_the_same_round_does_not_repeat_the_fixed_sentence(
     assert "Answer only from what your own world's records actually hold about it" in second_turn_directive
 
 
-def test_a_seated_tradition_with_no_evidence_suppresses_the_directive_entirely(
+def test_a_seated_tradition_with_no_evidence_gets_its_own_directive_not_silence(
     store, usage_store, world_loader, registry, alx_world, don_world
 ):
     # don is the OTHER seat at this table - the fixed sentence would be
     # false (that tradition's own Representative sits right there), and
     # alx's own records never mention Donatism, so there is no evidence
-    # branch either. The Table's own seat-to-seat clause governs; this
-    # function has nothing left to add.
+    # branch either. Round-1 assumed the Table's own seat-to-seat clause
+    # (table_engagement) governed instead and returned None - but this
+    # IS the round's opening turn (the very message naming don), and
+    # table_engagement is never built on an opening turn (only when
+    # other_voice_has_spoken) - so round 1 left the voice completely
+    # ungoverned here. Round-2 review fix: a real seated-tradition
+    # directive fires instead, naming don's own card_name and limiting
+    # this seat to what that chair has actually said (R37(b)) - never
+    # the fixed honest-limit sentence, which would be false.
     alx_sentence, _ = grounded_sentence(alx_world)
     theon = alx_world.frame["representative"]["name"]
     don_card_name = registry["don"]["card_name"]
@@ -1017,8 +1024,11 @@ def test_a_seated_tradition_with_no_evidence_suppresses_the_directive_entirely(
     ).json()
     assert result["voice"]["speaker"] == "alx"
     directive_text = _other_tradition_directive_text(client)
-    assert "another Christian tradition" not in directive_text
     assert R26_HONEST_LIMIT_SENTENCE not in directive_text
+    assert don_card_name in directive_text
+    assert "seated at this table" in directive_text
+    assert "Never speak for that tradition" in directive_text
+    assert "what that chair has actually said in this conversation" in directive_text
 
 
 def test_a_seated_tradition_with_evidence_still_gets_the_records_branch(

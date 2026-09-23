@@ -280,7 +280,11 @@ R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition
 
 
 def _other_tradition_directive(
-    evidence_record_ids: list[str] | None = None, *, tradition_seated: bool = False, repeat_turn: bool = False,
+    evidence_record_ids: list[str] | None = None,
+    *,
+    tradition_seated: bool = False,
+    tradition_seated_name: str | None = None,
+    repeat_turn: bool = False,
 ) -> str | None:
     """R26 (Decision-Log.md Entry 50, 2026-09-22), Mark's own words: "The
     representative should only know its own sources unless they would
@@ -290,8 +294,9 @@ def _other_tradition_directive(
     The fixed sentence here is engine.m4.uncited_claims.
     R26_HONEST_LIMIT_SENTENCE, matched exactly (case-insensitive) by that
     module's own allowed-uncited detection - the two must stay identical
-    by construction, not by convention. Returns None when there is
-    genuinely nothing to add (tradition_seated, no evidence - see below).
+    by construction, not by convention. Always returns real text when
+    called (never None - see tradition_seated's own note below for why
+    that changed).
 
     evidence_record_ids (R39's own reviewer-ordered fix, relayed
     2026-09-23): engine.m4.uncited_claims.world_records_mention_tradition's
@@ -309,24 +314,45 @@ def _other_tradition_directive(
     under the ordinary citation contract, the same as any other turn.
 
     tradition_seated (Table parity round-1 fix, Decision-Log.md, 2026-09-
-    23): the named tradition's own world is SEATED at this table - the
-    fixed honest-limit sentence would be false (this seat's neighbour
-    speaks for that tradition directly, right there), so it is never
-    said regardless of evidence. The evidence branch above still applies
-    if this seat's own records happen to name it (unchanged); with no
-    evidence, the Table's own seat-to-seat clause (table_engagement)
-    already governs this case correctly (R37(b) - a seat may know a
-    seated tradition through what it has said at the Table) and this
-    function has nothing left to add.
+    23; corrected round-2, same date): the named tradition's own world is
+    SEATED at this table - the fixed honest-limit sentence would be
+    false (this seat's neighbour speaks for that tradition directly,
+    right there), so it is never said regardless of evidence. The
+    evidence branch above still applies if this seat's own records
+    happen to name it (unchanged).
 
-    repeat_turn (same fix): this seat's own SECOND OR LATER turn within
-    the same round (turn_selector may draw a seat back in - the fixed
-    sentence said once already stays true, but repeating it verbatim
-    every return turn is not what interview's own single-ask shape ever
-    produces). No evidence, not seated: keep R37's own knowledge-scope
-    framing ("this is another tradition, answer only from your own
-    records") but drop the "if nothing, say exactly..." clause - it was
-    already said on this seat's first turn this round."""
+    Round 1 returned None here with no evidence, reasoning that the
+    Table's own seat-to-seat clause (table_engagement) already governed.
+    That was wrong, and the round-2 review caught a real failure it
+    produces, not just a missing belt-and-suspenders: table_engagement
+    is built only when other_voice_has_spoken (_table_engagement_
+    directive's own docstring) - NEVER on a round's true opening turn.
+    The opening turn is exactly the turn that names the seated tradition
+    in the first place, so returning None there left the model
+    completely ungoverned on it. The live battery's own OT3 probe
+    (Decision-Log.md, Entry 68's round-2 addendum) caught the real
+    result: asked about the seated tradition by its card name, the voice
+    answered "we were it" - claiming that tradition's own name and
+    witness as its own, the exact thing R37 forbids. tradition_seated_
+    name (the seated tradition's own registry card_name, passed through
+    from table_wiring.py so this function never has to know about the
+    registry itself) now carries a real directive instead: this seat may
+    respond only to the bare fact that a tradition under that name is
+    seated here with its own Representative, and to what that chair has
+    actually said in this conversation so far (R37(b), Mark's own words:
+    "only if it would have known in its own time, or if something was
+    revealed in the facilitator's introduction or user, but limited only
+    to what was told to them in the conversation") - never claiming that
+    tradition's own name, history, or witness as this seat's own.
+
+    repeat_turn (same round-1 fix): this seat's own SECOND OR LATER turn
+    within the same round (turn_selector may draw a seat back in - the
+    fixed sentence said once already stays true, but repeating it
+    verbatim every return turn is not what interview's own single-ask
+    shape ever produces). No evidence, not seated: keep R37's own
+    knowledge-scope framing ("this is another tradition, answer only
+    from your own records") but drop the "if nothing, say exactly..."
+    clause - it was already said on this seat's first turn this round."""
     if evidence_record_ids:
         ids_text = ", ".join(f"[[{rid}]]" for rid in evidence_record_ids)
         return (
@@ -337,7 +363,16 @@ def _other_tradition_directive(
             "conversation."
         )
     if tradition_seated:
-        return None
+        name_text = f' under the name "{tradition_seated_name}"' if tradition_seated_name else ""
+        return (
+            f"This question asks about a Christian tradition seated at this table{name_text}, with its own "
+            "Representative present - not your own world. Never speak for that tradition, and never claim "
+            "its name, history, or witness as your own. You may respond only to the bare fact that it is "
+            "seated here under that name, and to what that chair has actually said in this conversation so "
+            "far - if it has not spoken yet, you know nothing more about it than its name. Where your own "
+            "world's records genuinely bear on the question, answer from them as always, cited as always, "
+            "but never let that stand in for the other tradition's own voice."
+        )
     if repeat_turn:
         return (
             "This question asks about another Christian tradition, not your own world. Answer only from "
@@ -360,6 +395,7 @@ def _build_turn_directive(
     is_other_tradition_first_ask: bool = False,
     other_tradition_evidence_ids: list[str] | None = None,
     other_tradition_seated: bool = False,
+    other_tradition_seated_name: str | None = None,
     other_tradition_repeat_turn: bool = False,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
@@ -386,14 +422,23 @@ def _build_turn_directive(
     speech itself into context_prefix (real conversational content, not an
     instruction) - only the behavioral rule about it moved.
 
-    Returns None when there is no directive and no table_engagement (the
-    crisis path), which leaves the call with the world prompt alone -
-    exactly what it sent before. Also None on an other_tradition-only
-    turn where _other_tradition_directive itself has nothing to add
-    (other_tradition_seated with no evidence - see that function's own
-    docstring) and nothing else this turn would add anything either;
-    checked at the end (below), not here, since that outcome depends on
-    what _other_tradition_directive actually returns."""
+    Returns None only when there is no directive, no table_engagement, and
+    is_other_tradition_first_ask is False (the crisis path), which leaves
+    the call with the world prompt alone - exactly what it sent before.
+    other_tradition_seated (round-2 review fix, 2026-09-23): _other_
+    tradition_directive ALWAYS returns real text now, never None - a
+    round's opening turn never gets table_engagement (built only when
+    other_voice_has_spoken, see _table_engagement_directive's own
+    docstring), so an other-tradition-only opening turn with the named
+    tradition seated and no evidence used to reach the model completely
+    ungoverned: nothing told it the tradition it was just asked about is
+    the seat beside it, and the live battery caught the real failure this
+    produces (Decision-Log.md, Entry 68's own round-2 addendum) - the
+    voice claimed the seated tradition's own name and witness as its own,
+    exactly what R37 forbids. There is no genuinely redundant case left
+    to return None for: table_engagement (when it does fire, on a later
+    turn) is a different job entirely (engage what was just said) and
+    composes with this branch rather than duplicating it."""
     if directive is None and not table_engagement and not is_other_tradition_first_ask:
         return None
     # The leading newline is kept from when this text was concatenated onto
@@ -439,14 +484,19 @@ def _build_turn_directive(
         parts.append(table_engagement)
     if is_other_tradition_first_ask:
         other_tradition_text = _other_tradition_directive(
-            other_tradition_evidence_ids, tradition_seated=other_tradition_seated, repeat_turn=other_tradition_repeat_turn,
+            other_tradition_evidence_ids,
+            tradition_seated=other_tradition_seated,
+            tradition_seated_name=other_tradition_seated_name,
+            repeat_turn=other_tradition_repeat_turn,
         )
         if other_tradition_text:
             parts.append(other_tradition_text)
     if len(parts) == 1:
-        # Nothing was actually added (the only case: an other_tradition-
-        # only turn where _other_tradition_directive returned None,
-        # tradition_seated with no evidence) - the header line alone is
+        # Nothing was actually added. _other_tradition_directive always
+        # returns real text now when called (round-2 review fix - see
+        # this function's own docstring), so this path is only reachable
+        # when is_other_tradition_first_ask is False and directive/
+        # table_engagement were both falsy too - the header line alone is
         # not a real directive, return None exactly as the no-directive
         # path above does.
         return None
@@ -568,6 +618,7 @@ def _run_ordinary_voice_turn(
     is_other_tradition_first_ask: bool = False,
     other_tradition_evidence_ids: list[str] | None = None,
     other_tradition_seated: bool = False,
+    other_tradition_seated_name: str | None = None,
     other_tradition_repeat_turn: bool = False,
     correction: str | None = None,
     debug_capture: dict | None = None,
@@ -735,6 +786,7 @@ def _run_ordinary_voice_turn(
         is_other_tradition_first_ask=is_other_tradition_first_ask,
         other_tradition_evidence_ids=other_tradition_evidence_ids,
         other_tradition_seated=other_tradition_seated,
+        other_tradition_seated_name=other_tradition_seated_name,
         other_tradition_repeat_turn=other_tradition_repeat_turn,
     )
     if correction:

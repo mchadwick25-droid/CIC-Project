@@ -4169,3 +4169,134 @@ table-other-tradition-battery-2026-09-23.json` (this PR, regenerated
 under the fixed instrumentation - the earlier committed version, from
 before the measurement bug was caught, is superseded, not kept
 alongside it).
+
+**Round-2 review fix (reviewer thread, 2026-09-23, verdict on
+62cfdac5b, FAIL round 2 of 3).** FIX 1, the rename, and the
+instrumentation fix all passed unchanged. One real defect in FIX 2,
+caught from the OT3 transcript itself, not from a rule reading:
+
+**FIX 2's own `None` return was wrong, and the live battery had
+already shown why.** Round 1 reasoned that with no evidence, the
+Table's own seat-to-seat clause (`table_engagement`) already governed
+a seated tradition with no evidence, so `_other_tradition_directive`
+returned `None` and added nothing. That reasoning doesn't hold on a
+round's OPENING turn: `table_wiring.py`'s own `_advance_open_round`
+only builds `table_engagement` when `other_voice_has_spoken`
+(`_table_engagement_directive`'s own docstring says this plainly -
+"None... on a round's true opening turn"). The opening turn is exactly
+the turn that names the seated tradition in the first place - the
+turn OT3 exists to test. Returning `None` there left the model
+completely ungoverned on it, and the OT3 transcript already committed
+in this PR showed the real cost of that gap, in plain sight: Theon
+answered "We were not two churches - we were one... So our
+relationship with the martyrs' church was this: we were it," claiming
+don's own name and witness as alx's own - exactly what R37 forbids,
+and the round-1 test at the old
+`test_a_seated_tradition_with_no_evidence_suppresses_the_directive_
+entirely` enshrined the absence rather than catching the failure it
+produced.
+
+**The fix.** `_other_tradition_directive`'s `tradition_seated` branch
+no longer returns `None` - it now builds a real directive, under R37
+(b), Mark's own words: "only if it would have known in its own time,
+or if something was revealed in the facilitator's introduction or
+user, but limited only to what was told to them in the conversation."
+The new branch takes a `tradition_seated_name` parameter (the seated
+tradition's own registry `card_name`, resolved in `table_wiring.py`
+and threaded through `_run_ordinary_voice_turn` /
+`_build_turn_directive` the same way `other_tradition_seated` already
+was) and tells the voice: a tradition under that name is seated at
+this table with its own Representative; never speak for it or claim
+its name, history, or witness; respond only to the bare fact of its
+seating and to what that chair has actually said in this conversation
+so far; where this seat's own records genuinely bear on the question,
+answer from them as always, cited as always, but never let that stand
+in for the other tradition's own voice. The evidence branch still
+takes precedence unchanged (checked first, same as before) - being
+seated only ever governs the no-evidence case.
+
+**Test rewritten**, not patched: the old
+`test_a_seated_tradition_with_no_evidence_suppresses_the_directive_
+entirely` asserted the directive's absence - exactly the defect. Now
+`test_a_seated_tradition_with_no_evidence_gets_its_own_directive_not_
+silence` asserts the real seated directive fires (don's own card_name
+present, "seated at this table," "Never speak for that tradition,"
+"what that chair has actually said in this conversation" all present)
+and the fixed sentence does not. `engine/api/tests/test_table_api.py`
+in full: re-run against real compiled worlds under the same temporary
+monkeypatch discipline as every round before this one.
+
+**OT3 re-run alone** (the reviewer's own instruction - one probe, kept
+cheap - rather than the full three-probe battery again), under the
+fixed directive. **$0.369, 12 calls. directive_fired: True.
+facilitator_step_in: False.** Captured directive text:
+
+> "This question asks about a Christian tradition seated at this
+> table under the name "The Church of the Martyrs", with its own
+> Representative present - not your own world. Never speak for that
+> tradition, and never claim its name, history, or witness as your
+> own. You may respond only to the bare fact that it is seated here
+> under that name, and to what that chair has actually said in this
+> conversation so far - if it has not spoken yet, you know nothing
+> more about it than its name. Where your own world's records
+> genuinely bear on the question, answer from them as always, cited
+> as always, but never let that stand in for the other tradition's
+> own voice."
+
+And the transcript itself now meets the reviewer's own bar - Theon
+treats the name as the chair beside him, never as his own community:
+
+> "The Chair of the Martyrs has not yet spoken in this room, and until
+> it does, I know only the name seated here beside me - and that is
+> enough to answer you honestly.
+>
+> We were not two churches. We were one church, and the martyrs'
+> witness ran through the middle of us. Our teacher's own father was
+> beheaded when the boy was sixteen. Our students were tortured.
+> Bishop Dionysius wrote from inside the plague years that many of the
+> brothers and sisters caught the sickness from those they nursed and
+> 'died most joyfully, as though they were drawing their neighbors'
+> pain onto themselves'. We remembered a young woman, Potamiaena, by
+> name, for generations - her courage won over the very soldier who
+> led her out. We did not keep martyrdom and learning in separate
+> rooms. They were two ways the same formation showed its depth.
+>
+> But here is what we also held, and it was real tension, not easy
+> harmony. Some among us rushed toward death, volunteers, and Clement
+> said plainly they sprang from rash impulse, not from the Spirit's
+> leading. And our deepest teachers spent lifetimes in study - Origen
+> taught for decades before the persecution finally took him. So the
+> question we lived with was this: which picture of the fully formed
+> life do you hold up? The martyr's single witness, or the teacher's
+> long climb? We honored both. We did not always know how to weigh
+> them.
+>
+> The Chair beside me may tell a different story - may say we were the
+> school that forgot the blood, or the elite that left the suffering
+> to others. If it does, you should listen. Our own record shows the
+> wound as well as the witness."
+
+`engine/m4/reports/table-other-tradition-battery-2026-09-23.json`
+updated in place: OT3's own record replaced with this re-run, and the
+report's aggregate fields recomputed against all three probes -
+**directive_fired: 3/3, facilitator_step_in: 0/3, self_revision ran:
+3/3, changed: 3/3, real cost: $0.6486, 30 calls total** (OT1 $0.106/9
+calls and OT2 $0.1736/9 calls unchanged from the round-1 re-run, OT3
+replaced at $0.369/12 calls).
+
+**Bookkeeping finding, investigated and not applied.** The reviewer
+flagged that this PR "adds Entry 66 and Entry 68 with no 67."
+Checked directly against a fresh `origin/main` fetch (current tip
+`3ff251d62`, the same commit this branch was rebased onto before the
+round-1 push the reviewer reviewed): `git diff $(git merge-base HEAD
+origin/main)..HEAD -- Decision-Log.md` shows this PR's entire diff
+against current main adds exactly one entry, this one (68) - Entry 66
+and Entry 67 already exist on `origin/main` itself, byte-identical to
+this branch's own copies of them, added by other PRs this same
+session drove to merge (#436's R39-audit work landed Entry 66; #445's
+R38 self-revision build landed Entry 67) before this branch's own
+round-1 rebase picked them up. There is no hole and nothing to
+renumber - 68 correctly follows the 67 that is already on main. Not
+self-certified: the diff and the byte-comparison against `origin/
+main`'s own committed content are both reproducible directly from the
+sha given in this same reply.
