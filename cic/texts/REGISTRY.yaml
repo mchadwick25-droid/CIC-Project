@@ -37,6 +37,72 @@
 #   notes:         free-form, optional — anything about this specific file's
 #                  provenance, conversion, or caveats that isn't recoverable
 #                  by reading the file or scanning records/
+#   apparatus:     optional, and rare — a CLOSED list of this edition's own
+#                  footnote/column-marker CONVENTIONS that the quote-verbatim
+#                  gate (engine/m1/quote_verbatim.py) strips before matching,
+#                  because this one vendored file's own typesetting inlines
+#                  them with no wrapper the gate's fleet-wide `apparatus`
+#                  class already recognizes (soft hyphen, tilde-digit,
+#                  pipe-page, bracketed locator). Never a per-record field,
+#                  and never a per-QUOTE pattern either — R33 (2026-09-23,
+#                  Mark, on this file's own first draft, which anchored five
+#                  entries to one quote's exact wording each): "we should be
+#                  setting principles we will have a 100 worlds and cant
+#                  tell the representitive what to say for every quote."
+#                  An entry describes the EDITION's own convention, evidenced
+#                  against the real file, and applies to every quote citing
+#                  it - never a shape written to fit one quote's own words.
+#                  Two kinds:
+#                    kind: regex (the default, omit the key) - a plain
+#                      Python regex naming a real, recurring, self-
+#                      contained marker shape (a symbol that is never real
+#                      prose, a locator glued to its own wrapper, a bare
+#                      letter from a closed, non-word set) - never a bare
+#                      unwrapped digit, which no shape can safely tell apart
+#                      from a real digit quantity without more structure
+#                      (this registry's own history: Palladius and Ammianus
+#                      both quote real digit quantities as content - "some
+#                      300 monks", "some 400 monks" - so "any bare digit" is
+#                      never a safe edition-wide regex).
+#                    kind: endnote-sequence - for a bare digit run with no
+#                      wrapper of its own, when the edition's own numbered
+#                      endnotes section (real entries, "N. ...", found at
+#                      `notes_start_pattern`) gives independent, structural
+#                      proof that a given digit is that edition's own next
+#                      footnote number, not content: the gate walks the
+#                      running text once, tracking the next expected
+#                      endnote number from that real list, and strips a
+#                      bare digit token only when it exactly equals that
+#                      expected number - never any bare digit on its own.
+#                      "300 monks" survives untouched unless 300 is
+#                      genuinely the very next endnote in the sequence at
+#                      that point, which the real notes list, read fresh
+#                      every run, decides - never guessed.
+#                  Fields, per entry:
+#                    name:               short, descriptive, unique within
+#                                        this file
+#                    kind:               "regex" (default) or
+#                                        "endnote-sequence"
+#                    pattern:            (kind: regex only) a Python regex
+#                                        (re.search) matched against the RAW
+#                                        vendored text before any other
+#                                        stripping; the matched span is
+#                                        removed entirely (replaced with "")
+#                    notes_start_pattern: (kind: endnote-sequence only) a
+#                                        Python regex (re.MULTILINE,
+#                                        re.search), quoting the real first
+#                                        line of this edition's own numbered
+#                                        endnotes section verbatim - text
+#                                        before its match is "running text"
+#                                        to walk; text from its match
+#                                        onward is parsed for the real
+#                                        ordered endnote numbers
+#                    evidence:           the real break(s) this convention
+#                                        was traced to - quoted directly
+#                                        from the vendored file, never a
+#                                        generalization from a description
+#                                        of it, and never just the one quote
+#                                        record that first surfaced it
 #
 # Validated by cic/engine/texts_registry.py:
 #   python cic/engine/texts_registry.py                 # report
@@ -702,6 +768,49 @@
     also translated this project's already-vendored palladius_lausiac-history_clarke1918.txt,
     and (per this book's own back-cover listing) 'The Life of St. Macrina' - a separate, still-needed
     acquisition for this world.
+  apparatus:
+    - name: footnote-glyph-registered-mark
+      pattern: '®'
+      evidence: >-
+        '"' There is a time for everything." ® But for prayer and psalmody' - the docx-to-text
+        extraction of this scan's own footnote-reference mark surfaced as a bare registered-
+        trademark glyph. Never real prose content in a 1925 English translation of Basil -
+        safe as a general symbol strip within this one file, the same tier as the fleet-wide
+        soft-hyphen class (an unambiguous character, not a shape that could coincide with
+        real quoted text).
+    - name: footnote-glyph-guillemet
+      pattern: '»'
+      evidence: >-
+        Same sentence, a few words on - "for prayer and psalmody, as for many other things, »"
+        - a second footnote-reference mark from the same extraction, rendered as a right
+        guillemet. Same reasoning as footnote-glyph-registered-mark.
+    - name: lone-column-continuation-letter
+      pattern: '(?<=\n\n)[B-E](?=[ \t])'
+      evidence: >-
+        This edition's own recurring convention, not one instance: after a Migne column
+        number is printed once (see unbracketed-column-locator below - "382A" a few lines
+        before the case that first surfaced this), later sub-sections of the SAME column are
+        printed as a bare capital letter alone on its own line, the column number not
+        repeated - confirmed at 231 real occurrences of a lone B/C/D/E starting its own
+        paragraph throughout this one file (e.g. "among their number \n\nD are those who
+        fill", "while we move our hands in work with \n\nE the tongue if it is possible",
+        "aid if they have to toil, but let us rejoice that \n\nE they will be glorified",
+        "the conflict of renunciation to no purpose, \n\nB since thou hast given thyself").
+        Restricted to B-E, never A or I: those two letters are real English
+        words that legitimately open a paragraph on their own ("\n\nA busy man who
+        promises...", "\n\nI began to work on the notes...", 23 and 42 such real cases
+        respectively, confirmed by reading the file) and must never be stripped; no
+        genuine one-letter English word is ever "B", "C", "D", or "E".
+    - name: unbracketed-column-locator
+      pattern: '\b\d{3,4}[A-Z]\b'
+      evidence: >-
+        "commands us to labour and work with our hands that which is 382A" and dozens more
+        across this file (213D, 218E, 317D, 318D, 323D, 323E, 327A, 337B, 360B, 368D, 415E,
+        430A, 431A, 506B...) - this edition's own Migne column-reference convention, the same
+        shape the fleet-wide bracket-locator class already strips elsewhere, but printed here
+        without brackets. Safe as a general per-edition pattern (not anchored to one instance)
+        because the shape - 3-4 digits immediately followed by one capital letter, word-
+        bounded - is specific enough that no real quoted quantity in this file takes it.
 - filename: gregory-nazianzen_second-invective-against-julian_king1888.txt
   supplied_by: Mark
   date_added: '2026-08-30'
@@ -1983,6 +2092,22 @@
     above. Raw djvu OCR text, same whitespace-only normalization applied, no wording
     changed. Book XXVII.3.12-13 verified directly against this file and now carries its
     own verbatim quote record, ijc.quote.ammianus-sicininus-massacre.
+  apparatus:
+    - name: endnote-num-glued-after-period
+      pattern: '(?<=[a-zA-Z]\.)\d{1,2}(?=\s)'
+      evidence: >-
+        This edition's own recurring footnote convention, not one sentence's: a bare 1-2
+        digit endnote number glued directly to a sentence-ending period with no space,
+        confirmed at over fifty real breaks throughout the file, restarting from 1 every
+        few pages (a numbering-per-page convention) - "running at will through all the
+        elements.1", "the district of the Canini.2", "those alps were called the Penine
+        Alps.3", "the Tricorii.1", "he plundered openly.1", "as with the testudo.1", and
+        (the record this convention was first found for) "found in the Basilica of
+        Sicininus, which is a Christian church.1\nAnd the populace". Never a bare digit
+        elsewhere: this edition spells its own real casualty count as words ("one hundred
+        and thirty-seven dead bodies"), never as digits, and the lookbehind requires a
+        letter immediately before the period - never matching a numbered heading like
+        "10. Publius" (digit before the period, not a letter).
 - filename: calvin_institutes-christian-religion-vol1_beveridge1845.txt
   supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
     Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
