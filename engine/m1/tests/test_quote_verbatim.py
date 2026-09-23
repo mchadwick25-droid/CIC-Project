@@ -9,6 +9,7 @@ from engine.m1.quote_verbatim import (
     TEXTS_DIR,
     collapse_linewrap_hyphens,
     resolve_vendored_paths,
+    strip_apparatus,
     strip_xml_markup,
     verify_quote_record,
     verify_quote_text,
@@ -280,3 +281,123 @@ def test_cappadocian_bracket_wrapped_ellipsis_record_now_verifies():
     result = verify_quote_record(rec, records, fleet)
     assert result.verified is True, (result.failed_segment, result.nearest_context)
     assert "ellipsis" in result.classes_used
+
+
+# --- apparatus (fourth round, 2026-09-23) -------------------------------
+
+
+def test_soft_hyphen_in_source_passes():
+    r = _verify("he did not suppose it", "he did not sup\xadpose it possible")
+    assert r.verified is True
+
+
+def test_tilde_wrapped_digit_with_no_surrounding_space_passes():
+    r = _verify("the covenant of God before baptism", "the covenant of God~1~before baptism, and")
+    assert r.verified is True
+
+
+def test_pipe_digit_page_marker_passes():
+    r = _verify("he renounced the world in the days", "he renounced the world |146 in the days of Julian")
+    assert r.verified is True
+
+
+def test_bracketed_migne_column_locator_passes():
+    r = _verify("linked to her by her parents", "linked to her by her [964D] parents' arrangement")
+    assert r.verified is True
+
+
+def test_bracketed_page_reference_passes():
+    r = _verify("darkness like a hyena", "darkness [p. 687] like a hyena")
+    assert r.verified is True
+
+
+def test_bracketed_author_page_line_citation_passes():
+    r = _verify("goes a little from the way", "goes [Ov. p. 53, l. 2.] a little from the way")
+    assert r.verified is True
+
+
+def test_short_bracketed_digit_is_not_treated_as_apparatus():
+    """The 3-4 digit floor is deliberate: a record's own `[1]`, `[2]`...
+    section numbering (desert.quote.the-noonday-demon's own convention)
+    is real quoted content already tolerated by the `bracket` class, not
+    apparatus - stripping it out of the SOURCE broke the word-adjacency
+    that tolerance depends on (a real regression caught before this PR
+    shipped). A 1-2 digit bracket must stay untouched by strip_apparatus,
+    so a genuinely dropped one-digit bracket still fails as an omission."""
+    assert strip_apparatus("it [1] still here") == "it [1] still here"
+    assert strip_apparatus("it [12] still here") == "it [12] still here"
+    assert strip_apparatus("it [964] gone") == "it gone"
+
+
+def test_bare_unwrapped_footnote_digit_is_not_silently_tolerated():
+    """Deliberately NOT part of `apparatus`: a bare digit with no pipe,
+    bracket, or tilde marker of its own (cappadocian.quote.basil-on-
+    common-life's real failure: " 1 is more useful" for a footnote
+    reference with no wrapper) still fails - the fourth-round docstring
+    note explains why a safe, narrow rule for this shape wasn't found."""
+    r = _verify(
+        "the life of a number lived in common is more useful",
+        "the life of a number lived in common 1 is more useful in many ways",
+    )
+    assert r.verified is False
+
+
+def test_alx_soft_hyphen_record_now_verifies():
+    """alx.quote.no-sun-no-moon-no-sky: 334 literal U+00AD characters in
+    its vendored file, the #413-triage's own soft-hyphen finding."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("alx")
+    fleet = load_fleet_records()
+    rec = records["alx.quote.no-sun-no-moon-no-sky"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+def test_syr_apparatus_records_now_verify():
+    """syr.quote.warned-before-baptism (tilde-digit) and syr.quote.the-
+    blasphemy-of-madmen (bracketed author/page/line citation)."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("syr")
+    fleet = load_fleet_records()
+    for rid in ["syr.quote.warned-before-baptism", "syr.quote.the-blasphemy-of-madmen"]:
+        result = verify_quote_record(records[rid], records, fleet)
+        assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
+
+
+def test_desert_pipe_page_marker_records_now_verify():
+    """desert.quote.for-thirty-two-years-i-touched-no-fruit,
+    desert.quote.pachomius-angel-tablet, and desert.quote.monks-like-
+    hyenas all cleared the pipe-plus-digits page marker; desert.quote.
+    good-good-i-dont-mind still has a bare-digit footnote (" 163 ") not
+    covered here, and desert.quote.the-noonday-demon (its own [1]-[6]
+    section numbering) must stay verified throughout - the regression
+    this round caught and fixed."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("desert")
+    fleet = load_fleet_records()
+    for rid in [
+        "desert.quote.for-thirty-two-years-i-touched-no-fruit",
+        "desert.quote.pachomius-angel-tablet",
+        "desert.quote.monks-like-hyenas",
+        "desert.quote.the-noonday-demon",
+    ]:
+        result = verify_quote_record(records[rid], records, fleet)
+        assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
+    result = verify_quote_record(records["desert.quote.good-good-i-dont-mind"], records, fleet)
+    assert result.verified is False
+
+
+def test_cappadocian_macrina_pipe_and_bracket_locator_record_now_verifies():
+    """cappadocian.quote.macrina-refuses-remarriage hits both a pipe-page
+    marker ("|25") and a bracketed Migne column locator ("[964D]") in the
+    same quote - both must clear."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.macrina-refuses-remarriage"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)

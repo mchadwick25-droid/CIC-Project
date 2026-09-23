@@ -5,7 +5,8 @@
     "punctuation": "A quote mark, apostrophe, or dash is a different Unicode form of the same mark (curly vs. straight, hyphen vs. en/em dash) - never a different mark entirely (a colon read as a dash still fails).",
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
-    "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission."
+    "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
+    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. Never a bare, unwrapped digit or symbol with no marker of its own - that stays a failure (see the module docstring's fourth-ruling note)."
   },
   "audited_worlds": [
     "pahc",
@@ -39,7 +40,8 @@
         "punctuation": 3,
         "ellipsis": 3,
         "bracket": 5,
-        "verse_number": 4
+        "verse_number": 4,
+        "apparatus": 0
       },
       "failures": [
         {
@@ -54,75 +56,41 @@
     "syr": {
       "world": "syr",
       "total_quotes": 34,
-      "verified_count": 32,
-      "failed_count": 2,
-      "exact_no_diff_count": 8,
+      "verified_count": 34,
+      "failed_count": 0,
+      "exact_no_diff_count": 10,
       "class_counts": {
         "whitespace": 23,
         "case": 1,
         "punctuation": 4,
         "ellipsis": 0,
         "bracket": 3,
-        "verse_number": 1
+        "verse_number": 1,
+        "apparatus": 0
       },
-      "failures": [
-        {
-          "id": "syr.quote.the-blasphemy-of-madmen",
-          "source_file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
-          "failed_segment": "But we are not venturing to blaspheme against the Good, but (this is said) in order that by means of what is considered blasphemous, though it is not blasphemous, the blasphemy of madmen may perchance be refuted. For one cannot bring into the way a man who is walking outside of the way, unless one goes a little from the way after him into the wilderness.",
-          "nearest_context": "tations of Mani, Marcion, and Bardaisan\n      Creator(s): Eph",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "syr.quote.warned-before-baptism",
-          "source_file": "cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt",
-          "failed_segment": "For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: \"He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict\".",
-          "nearest_context": "o bore witness con-cerning Him: \"He did not iniquity, neither was ",
-          "recorded_verification_state": "verified-direct"
-        }
-      ]
+      "failures": []
     },
     "desert": {
       "world": "desert",
       "total_quotes": 60,
-      "verified_count": 56,
-      "failed_count": 4,
-      "exact_no_diff_count": 9,
+      "verified_count": 59,
+      "failed_count": 1,
+      "exact_no_diff_count": 10,
       "class_counts": {
-        "whitespace": 37,
+        "whitespace": 38,
         "case": 3,
         "punctuation": 7,
-        "ellipsis": 9,
+        "ellipsis": 10,
         "bracket": 11,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": [
-        {
-          "id": "desert.quote.for-thirty-two-years-i-touched-no-fruit",
-          "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
-          "failed_segment": "He renounced the world in the days of Julian the infamous Emperor, and spoke to him with boldness. Julian ordered him to be shaved and buffeted by boys. He endured the ordeal patiently and expressed his thanks to Julian, as he told us himself.",
-          "nearest_context": "Title: Palladius: The Lausiac History\n      Creator(s): Palla",
-          "recorded_verification_state": "verified-direct"
-        },
         {
           "id": "desert.quote.good-good-i-dont-mind",
           "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
           "failed_segment": "A certain Paul, a rustic peasant, exceedingly guileless and simple, was wedded to a most beautiful woman of depraved character, who for a very long while concealed her sins from him. However, Paul came in suddenly from work and found his wife and her lover behaving shamefully, Providence thus guiding Paul to what was best for himself. And laughing discreetly he called to them and said: \"Good, good. I don't mind, truly. By Jesus, I'll take her no longer. Go, you have her and her children, for I am going to become a monk.\"",
           "nearest_context": "he cauldron.\" But she answered and said: \"God forbid that there should be ",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "desert.quote.monks-like-hyenas",
-          "source_file": "cic/texts/pachomius_rules-ethiopic_schodde1885.txt",
-          "failed_segment": "Those that are like the hyenas which thou hast seen are those monks who abide with their brethren of the association as far as their names are concerned, but their actions are like those of the hyena. They spend the day fasting with the holy brethren, and in the evening, at the time for sleeping, instead of the watch of the night, they go forth in the darkness like a hyena.",
-          "nearest_context": "_________________\n\n           Title: The Rules of Pachomius, ",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "desert.quote.pachomius-angel-tablet",
-          "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
-          "failed_segment": "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating",
-          "nearest_context": "_________________\n\n           Title: Palladius: The Lausiac H",
           "recorded_verification_state": "verified-direct"
         }
       ]
@@ -139,7 +107,8 @@
         "punctuation": 5,
         "ellipsis": 1,
         "bracket": 0,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": [
         {
@@ -154,26 +123,19 @@
     "alx": {
       "world": "alx",
       "total_quotes": 26,
-      "verified_count": 25,
-      "failed_count": 1,
+      "verified_count": 26,
+      "failed_count": 0,
       "exact_no_diff_count": 2,
       "class_counts": {
-        "whitespace": 23,
+        "whitespace": 24,
         "case": 0,
         "punctuation": 1,
         "ellipsis": 1,
         "bracket": 0,
-        "verse_number": 3
+        "verse_number": 3,
+        "apparatus": 0
       },
-      "failures": [
-        {
-          "id": "alx.quote.no-sun-no-moon-no-sky",
-          "source_file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
-          "failed_segment": "For who that has understanding will suppose that the first, and second, and third day, and the evening and the morning, existed without a sun, and moon, and stars? and that the first day was, as it were, also without a sky? And who is so foolish as to suppose that God, after the manner of a husbandman, planted a paradise in Eden, towards the east, and placed in it a tree of life, visible and palpable, so that one tasting of the fruit by the bodily teeth obtained life?",
-          "nearest_context": " ten-volume \nset, Ante-Nicene Fathers, brings together the wo",
-          "recorded_verification_state": "verified-direct"
-        }
-      ]
+      "failures": []
     },
     "ijc": {
       "world": "ijc",
@@ -187,7 +149,8 @@
         "punctuation": 6,
         "ellipsis": 5,
         "bracket": 2,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": [
         {
@@ -216,16 +179,17 @@
     "cappadocian": {
       "world": "cappadocian",
       "total_quotes": 20,
-      "verified_count": 16,
-      "failed_count": 4,
-      "exact_no_diff_count": 1,
+      "verified_count": 17,
+      "failed_count": 3,
+      "exact_no_diff_count": 2,
       "class_counts": {
         "whitespace": 15,
         "case": 0,
         "punctuation": 3,
         "ellipsis": 1,
         "bracket": 0,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": [
         {
@@ -248,13 +212,6 @@
           "failed_segment": "That Deity should be born in our nature, ought not reasonably to present any strangeness to the minds of those who do not take too narrow a view of things. For who, when he takes a survey of the universe, is so simple as not to believe that there is Deity in everything, penetrating it, embracing it, and seated in it? For all things depend on Him Who is, nor can there be anything which has not its being in Him Who is. If, therefore, all things are in Him, and He in all things, why are they scandalized at the plan of Revelation when it teaches that God was born among men, that same God Whom we are convinced is even now not outside mankind? For although this last form of God's presence amongst us is not the same as that former presence, still His existence amongst us equally both then and now is evidenced; only now He Who holds together Nature in existence is transfused in us; while at that other time He was transfused throughout our nature, in order that our nature might by this transfusion of the Divine become itself divine, rescued as it was from death, and put beyond the reach of the caprice of the antagonist. For His return from death becomes to our mortal race the commencement of our return to the immortal life.",
           "nearest_context": "_________________\n\n           Title: NPNF2-05. Gregory of Nys",
           "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "cappadocian.quote.macrina-refuses-remarriage",
-          "source_file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
-          "failed_segment": "But when the plan formed for her was shattered by the young man's death, she said her father's intention was equivalent to a marriage, and resolved to remain single henceforward, just as if the intention had become accomplished fact. And indeed her determination was more steadfast than could have been expected from her age. For when her parents brought proposals of marriage to her, as often happened owing to the number of suitors that came attracted by the fame of her beauty, she would say that it was absurd and unlawful not to be faithful to the marriage that had been arranged for her by her father, but to be compelled to consider another; since in the nature of things there was but one marriage, as there is one birth and one death. She persisted that the man who had been linked to her by her parents' arrangement was not dead, but that she considered him who lived to God, thanks to the hope of the resurrection, to be absent only, not dead; it was wrong not to keep faith with the bridegroom who was away.",
-          "nearest_context": "ated by W. K. Lowther Clarke, B.D.)\nPublisher: Society for Pr",
-          "recorded_verification_state": "verified-direct"
         }
       ]
     },
@@ -270,7 +227,8 @@
         "punctuation": 0,
         "ellipsis": 0,
         "bracket": 0,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": [
         {
@@ -301,7 +259,8 @@
         "punctuation": 1,
         "ellipsis": 0,
         "bracket": 0,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": []
     },
@@ -317,7 +276,8 @@
         "punctuation": 0,
         "ellipsis": 2,
         "bracket": 1,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": []
     },
@@ -333,14 +293,15 @@
         "punctuation": 0,
         "ellipsis": 0,
         "bracket": 0,
-        "verse_number": 0
+        "verse_number": 0,
+        "apparatus": 0
       },
       "failures": []
     }
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 239,
-    "failed_count": 18
+    "verified_count": 246,
+    "failed_count": 11
   }
 }
