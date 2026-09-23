@@ -2424,3 +2424,99 @@ the R26 honest-limit sentence's own utterance rate on `other_tradition`
 probes whose records are silent, alx-on-Donatists first; and the count
 of wholly uncited paragraphs that are exactly one sentence long), item 5
 (enforcement, flag-gated, only on Mark's word after item 4).
+
+**Entry 56 — 2026-09-23.** R27-A build order item 4's own live numbers
+(PR #427, real, billed, region us-east-1, $2.0871: 11 admitted formation
+worlds x 2 fresh probes + one small table session), the hand-sort of the
+inherited check's own withheld sentences the reviewer thread ordered off
+those numbers, and Mark's own ruling, R36, choosing item 5's enforcement
+scope from what both showed. Full numbers: PR #427's own body and
+`engine/m4/reports/live-uncited-claims-battery-report.json`.
+
+**Item 4's own headline numbers.** 22 interview probes: sentence-level
+raw rate 91% (20/22), post-regeneration residual 65% (13/20) -
+unchanged measurement, kept beside the new numbers for comparison.
+Paragraph-level (the real mechanism, item 2): `wholly_uncited_paragraph`
+raw turn rate 23% (5/22), `inherited_ungrounded` raw turn rate 45%
+(10/22). A simulated paragraph-unit enforcement (regenerate once on
+either class, Facilitator takes a turn a real one survives) would have
+touched 55% of turns (12/22); of those, 42% (5/12) would still have
+reached the Facilitator after the one allowed regeneration. R26's own
+fixed honest-limit sentence fired in 10 of 11 worlds' own
+`B-other-tradition` probes (alx-on-Donatists first, per the reviewer's
+own ask) - only `ijc` did not say it, and `ijc`'s own raw answer carried
+zero offenses of any kind, so this reads as a different still-grounded
+answer shape, not a real miss. 10 wholly-uncited paragraphs across the
+run were exactly one sentence long. The net's own inherited-check
+verdicts split 81 ok / 50 withhold.
+
+**The hand-sort (reviewer-ordered, measurement-only, no PR).** The 50
+withhold tally needed its own correction first, verified with a
+synthetic repro rather than assumed: it includes sentences whose own
+base verdict was already `withhold` for reasons unrelated to paragraph
+inheritance (e.g. an untagged quoted span always withholds regardless
+of what its paragraph cites) - those never reach
+`find_uncited_paragraphs`'s own `inherited_ungrounded` branch, so their
+text was never persisted anywhere (the same "report the reduced finding,
+not the raw dump" discipline this build has followed throughout, Entry
+55's own item 2 included). Only 28 of the 50 are actual
+`inherited_ungrounded` offenses with recoverable sentence text. Hand-
+classified: **3 genuinely unsupported** (specific, datable/nameable
+claims - "By the mid-370s they were adversaries, not allies.",
+"Rome's bishop was drawn in.", "Ursinus was exiled by imperial order and
+never returned."); **19 supported in substance but failing on word
+overlap** (narrative frame, paraphrase, pronoun reference - e.g.
+"That was not the only one." / "After that the weather changed." /
+"This controversy was different."); **6 that should have been exempt
+under R27's own allowed-uncited kinds and weren't** - a real bug, not a
+measurement artifact: `find_uncited_paragraphs`'s `inherited_ungrounded`
+branch never applies the question/honest-limit/first-person exemptions
+its own `wholly_uncited_paragraph` branch already does. One of the 6 is
+R26's own fixed honest-limit sentence itself, near-verbatim ("Our record
+doesn't mention that Christian tradition by that name."); another is a
+literal question ("How did it end?"). This exemption asymmetry inflates
+`inherited_ungrounded`'s own numbers and is a fix owed before that
+class's own numbers can be trusted for a threshold.
+
+**Mark's ruling, R36** (Rulings-Pending.md's own R36 entry has the full
+text): enforcement (item 5) covers `wholly_uncited_paragraph` only, for
+now. `inherited_ungrounded` stays report-only until the exemption bug is
+fixed and re-measured - Mark rules on it separately once that question
+is settled. `neighbour_named` stays a per-sentence hard failure,
+unchanged. `own_doctrine_in_other_tradition_turn`, already narrowed per
+Entry 55 to fire only on a real paragraph-level failure, therefore fires
+in practice only through a `wholly_uncited_paragraph` finding while
+`inherited_ungrounded` stays report-only - the narrowing rule itself is
+unchanged, only which paragraph classes actually reach it in practice.
+
+**Item 5's own build order** (reviewer thread, same message as R36):
+flag-gated, default off (e.g. `CIC_R27_ENFORCE`), nothing changes for
+any participant until Mark flips it. On a `wholly_uncited_paragraph` or
+`neighbour_named` offense: regenerate once with the failures named (the
+same correction shape the seat-identity guard and the battery already
+use), re-check, and if a hard offense survives, the Facilitator takes
+the turn through the existing fallback - any new participant-facing
+words that needs gets drafted as options and escalated to Mark before
+building; an existing ruled line, if one fits, gets used with which one
+named. Single pass: paragraph coverage folds into the one `check_turn`
+call `apply_net` already makes, so a live turn never pays the net twice
+(the storage-bloat-avoidance note from item 2's own PR, #424). Table and
+interview both, through `_run_ordinary_voice_turn`, same wiring as the
+report-only path. Tests: flag off leaves every existing test and the
+report-only events untouched; flag on: a wholly uncited narrative
+paragraph regenerates and clears, one that survives goes to the
+Facilitator, an `inherited_ungrounded`-only turn is never regenerated,
+the Augustinian pair in an `other_tradition` turn still fails, the alx
+frame sentence in a cited paragraph still passes. One live battery with
+the flag on, same probes as #427, reporting regenerations, Facilitator
+takeovers, and cost - then stop for Mark's staging look before the flag
+is flipped anywhere. One PR, three-round cap, no self-merge.
+
+**After item 5 has a verdict:** Stage 7b-7e proceeds in the order
+already recorded (7b engine streaming module behind
+`CIC_API_STREAMING`, sentence-gated, R30's hold-the-opening-paragraph
+built in; 7c frontend consumer behind `VITE_STREAMING` with R31's
+per-sentence marks; 7d guards proven in per-sentence mode against the
+staging Papnoute text; 7e a live battery with streaming on), each its
+own PR, then stop for Mark's staging look. Streaming does not ship to
+participants before R27-A's own enforcement is on.
