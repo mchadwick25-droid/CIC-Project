@@ -18,6 +18,11 @@ sources:
   locus: "Mandate 9 (the Shepherd's own instruction, spoken to Hermas)"
   license: public-domain
 text: "Put away doubting from you and do not hesitate to ask of the Lord... For He is not like men, who remember evils done against them; but He Himself remembers not evils, and has compassion on His own creature... For those who doubt regarding God are double-souled, and obtain not one of their requests."
+modern_rendering: >-
+  Put doubting away from you, and do not hesitate to ask the Lord... He is not like men,
+  who remember the wrongs done against them. He himself remembers no wrongs, and has
+  compassion on his own creation... Those who doubt about God are double-souled, and they
+  get none of what they ask for.
 speaker_or_author: "the Shepherd, addressing Hermas"
 license: verbatim
 modern_lens_note: >
