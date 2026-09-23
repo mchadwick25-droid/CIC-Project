@@ -18,6 +18,8 @@ sources:
   locus: XVII.1
   license: public-domain
 text: a reply against the Jews, who blaspheme the people gathered from among the Gentiles
+modern_rendering: >-
+  A reply to the Jews, who blaspheme the people gathered from among the Gentiles.
 speaker_or_author: syr.figure.aphrahat
 license: do-not-voice
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'

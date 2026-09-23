@@ -18,6 +18,8 @@ sources:
   locus: VI (the covenant exhortation)
   license: public-domain
 text: Let us visit our Lord in the persons of the sick
+modern_rendering: >-
+  Let us visit our Lord in the persons of the sick.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'

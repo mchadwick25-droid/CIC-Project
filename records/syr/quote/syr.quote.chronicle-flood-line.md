@@ -18,6 +18,8 @@ sources:
   locus: the year-513 entry
   license: public-domain
 text: And they destroyed the temple of the church of the Christians.
+modern_rendering: >-
+  And they destroyed the temple of the church of the Christians.
 speaker_or_author: syr.source.chronicle-of-edessa (the anonymous chronicler, from the city archives)
 license: verbatim
 modern_lens_note: '''Temple'' names this world''s own church building in the
