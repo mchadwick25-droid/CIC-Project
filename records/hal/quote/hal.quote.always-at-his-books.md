@@ -20,6 +20,9 @@ sources:
   license: public-domain
 text: 'He is always occupied in reading, always at his books with his whole heart: he
   takes no rest day or night; he is perpetually either reading or writing something.'
+modern_rendering: >-
+  He is always occupied with reading. He gives his whole heart to his books. He never
+  rests, day or night. He is always either reading or writing something.
 speaker_or_author: 'Sulpitius Severus, Dialogues I.9 (the traveler Postumianus speaking; trans. Roberts)'
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'

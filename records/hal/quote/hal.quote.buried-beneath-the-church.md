@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   One after another they chanted the psalms, now in Greek, now in Latin, now in Syriac; and this not merely for the three days which elapsed before she was buried beneath the church and close to the cave of the Lord, but throughout the remainder of the week.
+modern_rendering: >-
+  One after another, they chanted the psalms -- now in Greek, now in Latin, now in Syriac.
+  They did this not only for the three days before she was buried beneath the church,
+  close to the cave of the Lord, but for the rest of that week as well.
 speaker_or_author: Jerome, Letter CVIII, the memorial of Paula
 license: verbatim
 modern_lens_note: >-
