@@ -66,3 +66,23 @@ No violations found beyond the above. No invented biography, no accidental first
 **SUBSTANTIAL REVISION REQUIRED — 1 HIGH, 2 MEDIUM, 2 COSMETIC.** This matches the severity calibration already established by this document's own build chain (Phase One and Phase Two Round 1 reviews both treated "content true but citation misattributed to a section that doesn't contain it" as MEDIUM, and a factually wrong specific claim citing sources that contradict it as HIGH). All five findings are narrowly scoped fixes and none requires reopening Phase One or Phase Two.
 
 All findings independently re-verified against the same primary sources this review cites before being applied (the HIGH finding against `Source_Registry.md` row 204 directly), per this build thread's standing discipline of not taking a fabrication-class finding on a review's word alone.
+
+---
+
+## Targeted Recheck (Round 2) — scoped to the five changed sites only, not a full re-review
+
+**Reviewer:** a second, independent isolated subagent, uninvolved in Round 1 or in applying its fixes.
+
+**1. HIGH fix (Section 6 fallback, Perpetua/row 204) — VERIFIED CORRECT.** `Source_Registry.md` row 204 states, verbatim: "**Perpetua's Passion: Out-of-Boundary for this world by prior ruling** — assigned to `tertullian-s-voice`, not `latin-pastoral-congregational-christianity`..." — a cross-world corpus-assignment reason, not a date boundary. Row 28 (Scillitan Martyrs) separately carries the 66-year/180 CE date-boundary reason. The fixed text matches both rows exactly, including the "roughly four decades" figure (246−203=43, consistent with Doc_09's own "four decades" language).
+
+**2. MEDIUM fix #1 (Section 2 "scandalous" citation) — VERIFIED CORRECT.** `lpc_Rep_Phase1_Ecology_Assessment.md` §1.2 contains the "scandalous" list near-verbatim (bishop-leaves-flock, peace-without-office, baptism-validity-dispute).
+
+**3. MEDIUM fix #2 (Section 1 "World Profile §2, the G3 entry") — VERIFIED CORRECT.** World Profile §2's G3 entry directly supports the "clearest structural signature" claim. Also confirmed applied to `lpc_Rep_Phase2_Formation_Calibration.md`, with its own disclosed post-disposition Revision-Log note.
+
+**4. COSMETIC fix #1 (Section 6 entry 8 quotation) — VERIFIED CORRECT.** The vendored source's actual sentence, checked directly, now matches the quotation word-for-word with the leading ellipsis correctly signaling the dropped clause.
+
+**5. COSMETIC fix #2 (Sermons 280–281 availability) — VERIFIED CORRECT.** Doc_09 §8 item 5 states the sermons are "unavailable, not unread" — matching the corrected text exactly.
+
+**6. Surrounding-text coherence — no new defects found.** The full Section 6 fallback paragraph reads cleanly end-to-end; no dangling clauses, no orphaned references, no reintroduced errors.
+
+**Overall verdict: CLEARED — no substantial revision needed.** All 5 Round 1 findings landed correctly against independently-checked primary sources, and no new defect was introduced by the fix pass, either in this document or in the linked Phase Two correction.
