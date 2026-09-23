@@ -1153,4 +1153,11 @@ merging to main, including this thread's own ledger PR for this entry -
 CI will stay red on all branches, this one included, until the account
 issue clears.
 
+**Resolved ~14:03 UTC (2026-09-23):** the block cleared - independently
+confirmed via a real, in-progress CI run on PR #437 (job `M4 event log...`
+actually executing `pytest`, with a real assigned runner, not the
+`runner_id: 0`/no-steps signature above). Total outage: roughly 7h30m
+(first observed ~06:31 UTC). No repo-side action caused the clearance;
+this is Mark's own account-side fix taking effect.
+
 Fleet size unchanged at 11.
