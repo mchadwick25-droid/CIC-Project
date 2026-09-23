@@ -37,6 +37,33 @@ text: For neither do we say that certain Christian emperors were therefore happy
   if they do all these things, not through ardent desire of empty glory, but through love of eternal
   felicity, not neglecting to offer to the true God, who is their God, for their sins, the sacrifices of
   humility, contrition, and prayer.
+modern_rendering: >-
+  We do not say that certain Christian emperors were happy simply because they ruled for a
+  long time. We do not say they were happy because they died a peaceful death and left
+  their sons to succeed them in the empire. We do not say they were happy because they
+  defeated the enemies of the republic. We do not say they were happy because they could
+  guard against hostile citizens who rose up against them, and crush those attempts. Even
+  certain worshippers of demons have earned to receive these and other gifts and comforts
+  of this sorrowful life — people who do not belong to the kingdom of God, to which
+  Christian emperors belong. This is to be traced to the mercy of God, who does not want
+  those who believe in him to desire such things as the highest good. But we say they are
+  happy if they rule justly. They are happy if they are not carried away by the praise of
+  those who give them grand honors, and by the flattery of those who greet them with
+  excessive humility — if instead they remember that they are men. They are happy if they
+  make their power the servant of God's majesty, using it to spread his worship as widely
+  as possible. They are happy if they fear, love, and worship God. They are happy if they
+  love that kingdom, where they are not afraid to have partners, more than their own. They
+  are happy if they are slow to punish and quick to pardon. They are happy if they apply
+  punishment as necessary for governing and defending the republic, and not to satisfy
+  their own hatred. They are happy if they grant pardon, not so that wrongdoing goes
+  unpunished, but in the hope that the wrongdoer may change his ways. They are happy if
+  they balance whatever severity they are forced to decree with the gentleness of mercy
+  and the generosity of kindness. They are happy if their indulgence is held back as much
+  as it could have run free. They are happy if they would rather rule over their own
+  wicked desires than over any nation at all. And they are happy if they do all these
+  things, not out of a burning desire for empty glory, but out of love for eternal
+  happiness — and if they do not fail to offer to the true God, who is their God, the
+  sacrifices of humility, sorrow for sin, and prayer, for their own sins.
 speaker_or_author: Augustine of Hippo, writing after the sack of Rome
 license: verbatim
 modern_lens_note: >-

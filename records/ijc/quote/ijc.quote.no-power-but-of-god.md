@@ -35,6 +35,19 @@ text: >-
   about the thing in itself. For that there should be rulers, and some rule and others be ruled,
   and that all things should not just be carried on in one confusion, the people swaying like waves
   in this direction and that; this, I say, is the work of God's wisdom.
+modern_rendering: >-
+  To show that these rules are for everyone — even for priests and monks, not only for
+  people in secular occupations — he lays out this plan from the very start, by saying:
+  'Let every soul be subject to the higher powers,' even if you are an Apostle, an
+  Evangelist, a Prophet, or anything else at all, since this subjection does not undermine
+  religion. And he does not merely say 'obey,' but 'be subject.' The first claim this
+  command makes on us, and the reasoning that fits the faithful, is that all this comes
+  from God's own appointment. 'For there is no power,' he says, 'except from God.' 'What
+  are you saying?' it may be asked; 'is every ruler, then, elected by God?' 'That is not
+  what I say,' he answers. 'Nor am I now speaking about particular rulers, but about the
+  thing itself. That there should be rulers, that some should rule and others be ruled,
+  and that everything should not simply run on in one confusion, with people swaying like
+  waves this way and that — this, I say, is the work of God's wisdom.'
 speaker_or_author: John Chrysostom, preaching on Romans 13
 license: verbatim
 modern_lens_note: >-

@@ -23,6 +23,12 @@ text: 'For He who is true God is also true man: and in this union there is no li
   of pity, so man is not swallowed up by the dignity. For each form does what is proper to it with the
   co-operation of the other ; that is the Word performing what appertains to the Word, and the flesh
   carrying out what appertains to the flesh.'
+modern_rendering: >-
+  He who is true God is also true man. In this union there is no falsehood, since the
+  lowliness of manhood and the majesty of the Godhead both meet there. Just as God is not
+  changed by showing mercy, so man is not swallowed up by that dignity. Each form does
+  what belongs to it, working together with the other: the Word performs what belongs to
+  the Word, and the flesh carries out what belongs to the flesh.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-

@@ -23,6 +23,13 @@ text: This one and the same Jesus Christ, the only-begotten Son [of God] must be
   of natures being taken away by such union, but rather the peculiar property of each nature being
   preserved and being united in one Person and subsistence, not separated or divided into two persons,
   but one and the same Son and only-begotten, God the Word, our Lord Jesus Christ...
+modern_rendering: >-
+  We must confess that this one and the same Jesus Christ, the only-begotten Son [of God],
+  exists in two natures — without confusion, without change, without division, without
+  separation [united]. The distinction between the two natures is not destroyed by this
+  union. Instead, each nature's own property is kept, and both are united in one Person
+  and one subsistence. He is not separated or divided into two persons. He is one and the
+  same Son, the only-begotten, God the Word, our Lord Jesus Christ...
 speaker_or_author: "The Council of Chalcedon (451), the Definition of Faith"
 license: verbatim
 modern_lens_note: >-

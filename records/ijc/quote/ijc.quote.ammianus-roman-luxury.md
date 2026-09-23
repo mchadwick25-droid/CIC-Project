@@ -36,6 +36,17 @@ text: 'I do not deny, when I consider the ostentation that reigns at Rome, that 
   imitation of some of the priests in the provinces, whom the most rigid abstinence in eating and
   drinking, and plainness of apparel, and eyes always cast on the ground, recommend to the everlasting
   Deity and his true worshippers as pure and sober-minded men.'
+modern_rendering: >-
+  I do not deny this: when I consider the show of wealth that rules in Rome, I think those
+  who want such rank and power may be right to work for it with all the effort and force
+  they can. Once they succeed, they will be secure for the rest of their lives. They grow
+  rich from gifts given by married women. They ride in carriages. They dress in splendid
+  clothes. They feast so lavishly that their banquets outdo even royal ones. They might
+  truly be happy if they scorned the vastness of the city, which their own vices provoke
+  against them, and lived instead like some of the priests in the provinces. Those priests
+  are recommended to the everlasting God and to his true worshippers as pure, sober-minded
+  men, by their strict abstinence in food and drink, their plain clothing, and their eyes
+  always cast down.
 speaker_or_author: "Ammianus Marcellinus, Res Gestae XXVII.3 (a pagan historian's outside verdict on the 366 election's stakes)"
 license: verbatim
 modern_lens_note: >-

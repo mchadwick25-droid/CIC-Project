@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   I have written this, not in order to confound you, but that the examples of these kings may stir you up to put away this sin from your kingdom, for you will do it away by humbling your soul before God. You are a man, and it has come upon you, conquer it. Sin is not done away but by tears and penitence. Neither angel can do it, nor archangel. The Lord Himself, Who alone can say, “I am with you,” if we have sinned, does not forgive any but those who repent.
+modern_rendering: >-
+  I have written this, not to confound you, but so that the examples of these kings might
+  stir you to put this sin away from your kingdom — for you will put it away by humbling
+  your soul before God. You are a man, and this sin has come upon you; conquer it. Sin is
+  done away with only by tears and repentance. Neither an angel can do it, nor an
+  archangel. If we have sinned, the Lord himself, who alone can say, 'I am with you,' does
+  not forgive anyone, except those who repent.
 speaker_or_author: Ambrose of Milan, Letter LI to Theodosius, sec. 11
 license: verbatim
 modern_lens_note: >-
