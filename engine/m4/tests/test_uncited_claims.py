@@ -463,3 +463,50 @@ def test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_cited_othe
         for o in base_offenses
     ]
     assert all(o["class"] != "own_doctrine_in_other_tradition_turn" for o in refined)
+
+
+# R36's own hand-sort finding (Decision-Log.md Entry 56, 2026-09-23): the
+# inherited_ungrounded branch of find_uncited_paragraphs never applied the
+# question/honest-limit/first-person exemptions its own wholly_uncited_
+# paragraph branch already applies - catching R26's own fixed sentence and
+# a literal question among the withheld inherited sentences #427's own live
+# run surfaced. Fixed as part of item 5's own PR (a correctness fix to
+# report-only logic, not a change to what enforcement covers - Rulings-
+# Pending.md R36).
+_INHERITED_EXEMPTION_REPOSITORY = {
+    "x.rec": {"id": "x.rec", "record_type": "doctrinal_witness", "text": "The synod met and decided the matter after long debate."}
+}
+
+
+def test_find_uncited_paragraphs_never_counts_r26s_own_fixed_sentence_as_inherited_ungrounded():
+    tagged = (
+        "The synod met and decided the matter after long debate [[x.rec]]. "
+        "Our record doesn't mention that Christian tradition."
+    )
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert all(o["class"] != "inherited_ungrounded" for o in offenses)
+
+
+def test_find_uncited_paragraphs_never_counts_a_literal_question_as_inherited_ungrounded():
+    tagged = "The synod met and decided the matter after long debate [[x.rec]]. How did it end?"
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert all(o["class"] != "inherited_ungrounded" for o in offenses)
+
+
+def test_find_uncited_paragraphs_never_counts_first_person_no_claim_as_inherited_ungrounded():
+    tagged = "The synod met and decided the matter after long debate [[x.rec]]. I feel the weight of what you're asking."
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert all(o["class"] != "inherited_ungrounded" for o in offenses)
+
+
+def test_find_uncited_paragraphs_still_catches_a_genuine_inherited_ungrounded_sentence():
+    # The exemption fix must not swallow the real catch alongside the false
+    # ones - a genuine unsupported claim inside a cited paragraph still
+    # fails.
+    tagged = "The synod met and decided the matter after long debate [[x.rec]]. Ursinus was exiled by imperial order."
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert any(o["class"] == "inherited_ungrounded" for o in offenses)

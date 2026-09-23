@@ -67,6 +67,19 @@ lines, same text apply_net itself checks) - no second model call, no
 re-derivation; item 4 keeps this same capture, only replaces what runs
 on it.
 
+R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
+2026-09-23): `--enforce` runs a SEPARATE, simpler mode (run_enforced
+below) against the SAME probes, with the flag actually on
+(r27_enforce=True) - a real generation call, one regeneration if a
+wholly_uncited_paragraph or neighbour_named offense fires, then the
+Facilitator if that survives, exactly as engine.m4.turn's own
+enforcement now runs for a real participant. No external correction
+loop here (unlike the report-only run() above) - the correction and
+the one retry are internal to _run_ordinary_voice_turn itself when
+r27_enforce=True, so this mode calls it once per probe, not twice, and
+reads the result's own attempts_meta["r27_regenerated"]/
+r27_enforcement_exhausted fields rather than re-deriving them.
+
 Calls engine.m4.turn.run_gate and _run_ordinary_voice_turn directly
 (rather than the top-level run_turn) so this script can drive the exact
 same voice call twice with an added correction on the second - the same
@@ -94,8 +107,8 @@ from engine.m4 import evidence
 from engine.m4.grounding_net import check_turn_with_paragraph_coverage
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
-from engine.m4.turn import _run_ordinary_voice_turn, run_gate
-from engine.m4.uncited_claims import R26_HONEST_LIMIT_SENTENCE, build_uncited_claims_event, find_uncited_paragraphs
+from engine.m4.turn import _append_r27_correction, _run_ordinary_voice_turn, run_gate
+from engine.m4.uncited_claims import R26_HONEST_LIMIT_SENTENCE, build_uncited_claims_event, find_uncited_paragraphs, known_tradition_names
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE, PRICE_TABLE_SOURCE, SONNET_4_5_PRICE_TABLE
@@ -141,16 +154,6 @@ def _other_tradition_turn(world_key: str, registry: dict) -> str:
 
 def _price_for_call_kind(call_kind: str):
     return HAIKU_4_5_PRICE_TABLE if call_kind in ("safety_call", "reader_call", "turn_selector") else SONNET_4_5_PRICE_TABLE
-
-
-def _build_correction(offenses: list[dict]) -> str:
-    named = "; ".join(f'"{o["sentence"]}"' for o in offenses)
-    return (
-        "\n## Correction (your last answer had uncited claims)\n"
-        f"These sentences from your last answer carried no citation: {named} "
-        "Answer again: cite every specific claim to one of your own records with an inline [[record.id]] tag, "
-        "or, where your own records are silent, say so plainly instead of stating it without one."
-    )
 
 
 def _offenses_for(voice_event: dict | None, *, registry: dict, world_key: str, is_other_tradition_turn: bool) -> list[dict]:
@@ -265,7 +268,13 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
             voice_client=client, voice_model_id=voice_model_id, world=world,
             participant_message=message, directive=gate_run.gate_result.routing.directive,
             session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-            correction=_build_correction(named), debug_capture=regen_capture,
+            # `correction=` is appended onto _run_ordinary_voice_turn's own
+            # turn_directive internally, so only the suffix is wanted here -
+            # _append_r27_correction(None, ...) returns exactly that
+            # ("" + suffix). engine.m4.turn._append_r27_correction is the
+            # single, canonical owner of this wording now (Entry 56) - no
+            # local duplicate.
+            correction=_append_r27_correction(None, named), debug_capture=regen_capture,
         )
         for rec in regen_usage:
             usage_store.append(rec)
@@ -524,6 +533,141 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
     }
 
 
+def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> dict:
+    """R27 build item 5's own live run: the SAME probes as run() above,
+    with r27_enforce actually on - one real generation call per probe
+    (not two; the one allowed regeneration is internal to
+    _run_ordinary_voice_turn when r27_enforce=True), reporting whether
+    it regenerated, whether it reached the Facilitator, and cost. See
+    this module's own docstring for the full item-5 shape."""
+    registry = load_registry()
+    loader = LazyWorldLoader()
+    voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
+    safety_model_id = resolve_model_id("us.anthropic.claude-haiku-4-5", region)
+    client = make_client(region)
+
+    per_world = {}
+    with tempfile.TemporaryDirectory() as tmp:
+        usage_store = UsageLogStore(Path(tmp) / "live-uncited-claims-enforced-battery-usage.db")
+
+        for world_key in world_keys:
+            entry = registry[world_key]
+            world, _timing = loader.load(
+                world_key, package_dir=REPO_ROOT / entry["package"]["location"],
+                expected_manifest_hash=entry["package"]["manifest_hash"],
+            )
+            names = known_tradition_names(registry, exclude_world_key=world_key)
+            probes = {"A-conflict": CONFLICT_TURN, "B-other-tradition": _other_tradition_turn(world_key, registry)}
+            probe_results = {}
+            probes_run = regenerated_turns = facilitator_takeover_turns = 0
+
+            for probe_id, message in probes.items():
+                session_id = f"uncited-claims-enforced-battery-{world_key}-{probe_id}"
+                gate_run = run_gate(
+                    session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
+                    participant_message=message, pressed={}, anachronistic_term_ids=set(),
+                )
+                for rec in gate_run.usage_records:
+                    usage_store.append(rec)
+                action = gate_run.gate_result.routing.action
+                out_of_scope_class = gate_run.gate_result.routing.out_of_scope_class if action == "voice_with_directive" else None
+                probes_run += 1
+                if action not in ("voice_with_directive", "voice_pass_through"):
+                    probe_results[probe_id] = {"message": message, "routing_action": action, "out_of_scope_class": out_of_scope_class}
+                    continue
+                is_other_tradition = out_of_scope_class == "other_tradition"
+                voice_event, usage_records = _run_ordinary_voice_turn(
+                    voice_client=client, voice_model_id=voice_model_id, world=world,
+                    participant_message=message, directive=gate_run.gate_result.routing.directive,
+                    session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
+                    r27_enforce=True, known_tradition_names=names,
+                )
+                for rec in usage_records:
+                    usage_store.append(rec)
+                regenerated = bool(voice_event["attempts_meta"]["r27_regenerated"])
+                exhausted = bool(voice_event["r27_enforcement_exhausted"])
+                if regenerated:
+                    regenerated_turns += 1
+                if exhausted:
+                    facilitator_takeover_turns += 1
+                probe_results[probe_id] = {
+                    "message": message, "routing_action": action, "out_of_scope_class": out_of_scope_class,
+                    "regenerated": regenerated, "facilitator_takeover": exhausted,
+                }
+
+            records = usage_store.read_for_session(f"uncited-claims-enforced-battery-{world_key}-A-conflict") + usage_store.read_for_session(
+                f"uncited-claims-enforced-battery-{world_key}-B-other-tradition"
+            )
+            session_dollars = sum(estimate_cost(r.usage, _price_for_call_kind(r.call_kind)).dollars for r in records) if records else 0.0
+            per_world[world_key] = {
+                "card_name": entry.get("card_name"), "probes": probe_results, "probes_run": probes_run,
+                "regenerated_turns": regenerated_turns, "facilitator_takeover_turns": facilitator_takeover_turns,
+                "session_dollars": session_dollars,
+            }
+
+        # The table path, r27_enforce=True threaded straight through the
+        # same real caller signatures wiring.py/table_wiring.py now
+        # accept - no battery-specific table code path, unlike the
+        # interview loop above (which calls run_gate/_run_ordinary_voice_
+        # turn directly, the same private-helper-reuse precedent this
+        # module's own docstring already sets).
+        store = Store(Path(tmp) / "live-uncited-claims-enforced-battery-events.db")
+        table_session_id, _code = create_table_session(store=store, world_loader=loader, registry=registry, world_keys=table_world_keys)
+        call_kwargs = dict(
+            store=store, usage_store=usage_store, world_loader=loader, registry=registry,
+            voice_client=client, voice_model_id=voice_model_id,
+            safety_client=client, safety_model_id=safety_model_id, session_id=table_session_id,
+            r27_enforce=True,
+        )
+        table_turns = []
+        for message in (CONFLICT_TURN, f"{registry[table_world_keys[1]].get('representative', {}).get('name')}, what do you make of that?"):
+            results = [handle_table_message(**call_kwargs, text=message)]
+            while results[-1].round_open:
+                results.append(continue_table_round(**{k: v for k, v in call_kwargs.items() if k != "text"}))
+            table_turns.extend(results)
+
+        table_voice_turns = [r.voice for r in table_turns if r.voice]
+        table_regenerated = sum(1 for v in table_voice_turns if v["attempts_meta"]["r27_regenerated"])
+        table_facilitator_takeovers = sum(1 for v in table_voice_turns if v["r27_enforcement_exhausted"])
+        table_records = usage_store.read_for_session(table_session_id)
+        table_dollars = sum(estimate_cost(r.usage, _price_for_call_kind(r.call_kind)).dollars for r in table_records) if table_records else 0.0
+
+    total_probes = sum(w["probes_run"] for w in per_world.values())
+    total_regenerated = sum(w["regenerated_turns"] for w in per_world.values())
+    total_facilitator_takeovers = sum(w["facilitator_takeover_turns"] for w in per_world.values())
+    total_dollars = sum(w["session_dollars"] for w in per_world.values()) + table_dollars
+
+    return {
+        "region": region, "voice_model_id": voice_model_id, "safety_model_id": safety_model_id,
+        "price_table_source": PRICE_TABLE_SOURCE, "r27_enforce": True,
+        "interview": {
+            "worlds": per_world,
+            "overall_probes_run": total_probes,
+            "overall_regenerated_turns": total_regenerated,
+            "overall_regenerated_rate": total_regenerated / total_probes if total_probes else 0.0,
+            "overall_facilitator_takeover_turns": total_facilitator_takeovers,
+            "overall_facilitator_takeover_rate": (total_facilitator_takeovers / total_regenerated) if total_regenerated else 0.0,
+        },
+        "table": {
+            "world_keys": table_world_keys, "session_id": table_session_id,
+            "voice_turns": len(table_voice_turns),
+            "regenerated_turns": table_regenerated, "facilitator_takeover_turns": table_facilitator_takeovers,
+            "session_dollars": table_dollars,
+        },
+        "total_dollars": total_dollars,
+        "note": (
+            "Priced against a published rate card, not a reconciled AWS invoice (spec principle 13). "
+            "Real enforcement (CIC_R27_ENFORCE equivalent, r27_enforce=True), same probes as the report-only "
+            "run() - 2 fresh single-turn probes per world x 11 worlds + one small table session. "
+            "overall_facilitator_takeover_rate is out of overall_regenerated_turns (the turns a regeneration "
+            "was even attempted on), not overall_probes_run, same denominator discipline the report-only "
+            "run's own post_regeneration_residual_rate already uses. This is a live proof the flag-gated "
+            "mechanism works end to end, and Mark's own staging-look numbers before the flag is flipped "
+            "anywhere - not a second threshold-setting run (that was #427's own job)."
+        ),
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--region", required=True)
@@ -533,16 +677,42 @@ def main() -> int:
     )
     parser.add_argument("--table-worlds", default="alx,don,rzg", help="2-3 comma-separated world keys (table mode)")
     parser.add_argument("--out", default=str(REPORT_PATH))
+    parser.add_argument(
+        "--enforce", action="store_true",
+        help="R27 build item 5: run with r27_enforce=True (run_enforced) instead of the report-only run()",
+    )
     args = parser.parse_args()
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
     table_world_keys = [k.strip() for k in args.table_worlds.split(",") if k.strip()]
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    if args.enforce:
+        print(
+            f"LIVE, BILLED battery: R27 ENFORCEMENT (r27_enforce=True), {len(world_keys)} worlds x 2 fresh probes "
+            f"+ 1 table session, region {args.region}", flush=True,
+        )
+        report = run_enforced(args.region, world_keys=world_keys, table_world_keys=table_world_keys)
+        out = out.with_name(out.stem + "-enforced" + out.suffix) if out == REPORT_PATH else out
+        out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"report written: {out}")
+        interview = report["interview"]
+        print(
+            f"regenerated: {interview['overall_regenerated_rate']:.0%} "
+            f"({interview['overall_regenerated_turns']}/{interview['overall_probes_run']}); "
+            f"reached Facilitator: {interview['overall_facilitator_takeover_rate']:.0%} "
+            f"({interview['overall_facilitator_takeover_turns']}/{interview['overall_regenerated_turns']}); "
+            f"table regenerated/takeover: {report['table']['regenerated_turns']}/{report['table']['facilitator_takeover_turns']} "
+            f"of {report['table']['voice_turns']} voice turns; "
+            f"total cost: ${report['total_dollars']:.4f}"
+        )
+        return 0
+
     print(
         f"LIVE, BILLED battery: uncited-claims rate + enforcement simulation, {len(world_keys)} worlds x 2 fresh probes "
         f"+ 1 table session, region {args.region}", flush=True,
     )
     report = run(args.region, world_keys=world_keys, table_world_keys=table_world_keys)
-    out = Path(args.out)
-    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"report written: {out}")
     interview = report["interview"]

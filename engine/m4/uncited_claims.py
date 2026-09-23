@@ -223,9 +223,22 @@ def find_uncited_paragraphs(paragraph_check: dict) -> list[dict]:
             for i, sent in enumerate(para_sentences):
                 if sent["verdict"] != "ok" or sent["tags"]:
                     continue
+                text = sent["sentence"]
+                # R36's own hand-sort (Decision-Log.md Entry 56, 2026-09-23)
+                # found this branch catching sentences the wholly_uncited
+                # branch above already exempts - a literal question, R26's
+                # own fixed honest-limit sentence itself, a first-person
+                # no-claim line - because this branch never applied the
+                # same three checks. A sentence's own shape doesn't change
+                # depending on whether its paragraph happens to carry a
+                # citation elsewhere; the exemption has to be the same
+                # question asked in both branches, or the inherited check
+                # ends up flagging text R27 itself was never meant to catch.
+                if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
+                    continue
                 inherited = para["inherited_verdicts"].get(i)
                 if inherited is not None and inherited["verdict"] == "withhold":
-                    offenses.append({"sentence": sent["sentence"], "class": "inherited_ungrounded"})
+                    offenses.append({"sentence": text, "class": "inherited_ungrounded"})
     return offenses
 
 

@@ -100,6 +100,18 @@ class Settings:
     anon_visitor_secret: str | None
     anon_daily_session_limit: int
     anon_daily_turn_limit: int
+    # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
+    # 2026-09-23): OFF by default, everywhere, including a real deploy -
+    # Mark flips this after his own staging look at item 5's own live
+    # battery (the reviewer thread's own explicit instruction: "stop for
+    # Mark's staging look before the flag is flipped anywhere"). When on,
+    # a wholly_uncited_paragraph or neighbour_named offense regenerates
+    # once, then hands the turn to the Facilitator if it survives that -
+    # see engine.m4.turn._run_ordinary_voice_turn's own docstring for the
+    # full shape. inherited_ungrounded stays report-only regardless of
+    # this flag (R36's own scope decision, not something this flag
+    # widens).
+    r27_enforce: bool
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -134,4 +146,5 @@ class Settings:
                 os.environ.get("CIC_API_ANON_DAILY_SESSION_LIMIT", _DEFAULT_ANON_DAILY_SESSION_LIMIT)
             ),
             anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
+            r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
         )

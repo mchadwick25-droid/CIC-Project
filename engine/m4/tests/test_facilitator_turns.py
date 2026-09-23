@@ -82,3 +82,18 @@ def test_table_seat_correction_turn_names_the_seat_and_carries_its_own_kind():
     assert event["kind"] == "seat_correction"
     assert "Papnoute" in event["text"]
     assert "Facilitator" in event["text"]
+
+
+def test_voice_rejected_turn_names_the_representative_and_carries_its_own_kind():
+    """R27 build item 5's own interview-mode fallback (Decision-Log.md
+    Entry 56/Rulings-Pending.md R36) - Option A, Mark's own word, chosen
+    directly 2026-09-23. Pinned so a future edit can't silently drop the
+    representative's own name, reuse "seat_correction" (a different,
+    identity-impersonation-specific situation), or reintroduce Table-only
+    language ("the Table is still open") that makes no sense with one
+    voice."""
+    event = facilitator_turns.voice_rejected_turn("Vera")
+    assert event["kind"] == "grounding_correction"
+    assert "Vera" in event["text"]
+    assert "Facilitator" in event["text"]
+    assert "Table" not in event["text"]
