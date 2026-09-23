@@ -363,3 +363,48 @@ standing authorization.
 **Ruled:** a citation mark attaches with each sentence as it clears. An
 R17 cap demotion at turn end moves an already-shown mark to the
 references line — it never removes a sentence or a claim.
+
+### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
+**Status:** RULED — 2026-09-23. Mark chose this from three options put
+to him after PR #427's own live numbers (Decision-Log.md Entry 54's own
+data: 22 interview probes, 55% would-regenerate at the paragraph unit
+[12/22], 42% of those [5/12] would still reach the Facilitator after one
+regeneration; the net's own inherited-check verdicts split 81 ok / 50
+withhold). Via the reviewer thread's standing authorization.
+
+**Ruled:** enforcement (item 5) covers `wholly_uncited_paragraph` only,
+for now. `inherited_ungrounded` stays report-only until the hand-sort
+of the withheld inherited sentences shows the inherited check measures
+substance rather than mere word overlap — Mark rules on it separately
+once that question is settled (see the hand-sort finding below).
+`neighbour_named` stays a per-sentence hard failure, unchanged from
+R27-A's own base ruling. `own_doctrine_in_other_tradition_turn`, already
+narrowed per Entry 55 to fire only on a real paragraph-level failure,
+therefore fires in practice only through a `wholly_uncited_paragraph`
+finding while `inherited_ungrounded` stays report-only — its own
+narrowing rule is unchanged, only which paragraph classes actually
+reach it in practice.
+
+**The hand-sort finding this threshold rests on** (reported to the
+reviewer thread 2026-09-23, from #427's own report): of the 50 raw
+"withhold" inherited-check tallies, only 28 correspond to an actual
+reported `inherited_ungrounded` offense with recoverable sentence text
+(the other 22 were sentences whose own base verdict was already
+`withhold` for reasons unrelated to paragraph inheritance, e.g. an
+untagged quoted span — verified directly with a synthetic repro, not
+assumed). Of those 28: 3 genuinely unsupported, 19 supported in
+substance but failing on word overlap (narrative frame, paraphrase,
+pronoun reference), and 6 that should have been exempt under R27's own
+allowed-uncited kinds (a question, an honest-limit sentence, a hedge —
+one of the 6 is R26's own fixed honest-limit sentence, near-verbatim)
+but weren't, because `find_uncited_paragraphs`'s `inherited_ungrounded`
+branch never applies the question/honest-limit/first-person exemptions
+its own `wholly_uncited_paragraph` branch already does. That exemption
+asymmetry is a real bug, not a measurement artifact, and inflates the
+`inherited_ungrounded` numbers a threshold would be set against — hence
+report-only until it's fixed and re-measured.
+
+**Rollout:** flag-gated, default off (`CIC_R27_ENFORCE` or equivalent),
+nothing changes for any participant until Mark flips it after a staging
+look. Same regenerate-once-then-Facilitator shape as R27/R27-A's own
+base ruling. Full build order: Decision-Log.md's own R36 entry.
