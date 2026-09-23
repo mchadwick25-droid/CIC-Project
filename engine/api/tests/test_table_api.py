@@ -15,6 +15,7 @@ from engine.api.wiring import _load_world
 from engine.m4.grounding_net import all_text, content_words
 from engine.m4 import evidence
 from engine.m4.round import TABLE_SESSION_ROUND_CAP
+from engine.m4.turn import R26_HONEST_LIMIT_SENTENCE
 
 _FAKE_USAGE = SimpleNamespace(input_tokens=100, output_tokens=50, cache_creation_input_tokens=0, cache_read_input_tokens=0)
 
@@ -118,6 +119,11 @@ def desert_world(world_loader, registry):
 @pytest.fixture
 def pahc_world(world_loader, registry):
     return _load_world(world_loader, registry, "pahc")
+
+
+@pytest.fixture
+def ijc_world(world_loader, registry):
+    return _load_world(world_loader, registry, "ijc")
 
 
 # --- creation ---
@@ -781,3 +787,165 @@ def test_seat_identity_guard_exhausted_hands_the_turn_to_the_facilitator(store, 
     # self-repeat rule, engine.m4.turn_selector.eligible_worlds).
     projected = [e for e in store.read_events(session_id) if e.event_type == "voice_turn"]
     assert len(projected) == 1 and projected[0].payload["speaker"] == "alx"
+
+
+# --- other-tradition parity with interview (reviewer thread, 2026-09-23) ---
+# table_wiring.py never threaded is_other_tradition_first_ask into a
+# selected seat's own directive, so R26/#440/R37/R38 self-revision never
+# fired at the Table even when the gate classified a message
+# other_tradition - a seated voice answering about an absent tradition got
+# only the seat-to-seat clause, never the honest-limit/evidence directive.
+# These pin the fix directly against a real, currently-classified-
+# other_tradition round.
+
+
+def _other_tradition_directive_text(client, call_index=0):
+    system = client.messages.stream_calls[call_index]["system"]
+    return system[1]["text"] if len(system) > 1 else ""
+
+
+def test_a_table_turn_classified_other_tradition_gets_the_directive(store, usage_store, world_loader, registry, alx_world, desert_world):
+    alx_sentence, _ = grounded_sentence(alx_world)
+    theon = alx_world.frame["representative"]["name"]
+    client = _table_client(
+        selector_script=[],
+        # Two scripts: alx_sentence carries a tag, so self-revision (R38)
+        # fires on this other_tradition turn too - the draft is call 0
+        # regardless, which is all this test checks.
+        stream_scripts=[[alx_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{theon}, what did you make of the Donatists?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "alx"
+    directive_text = _other_tradition_directive_text(client)
+    assert "another Christian tradition" in directive_text
+
+
+def test_a_seat_whose_own_records_mention_the_named_tradition_gets_the_records_branch(
+    store, usage_store, world_loader, registry, ijc_world, desert_world
+):
+    # ijc's own real records (ijc.quote.compelled-to-come-in, ijc.story.
+    # emperor-builds-another-basilica) genuinely name Donatism - the same
+    # real pair #440's own interview-level fix used.
+    ijc_sentence, _ = grounded_sentence(ijc_world)
+    john = ijc_world.frame["representative"]["name"]
+    client = _table_client(
+        selector_script=[],
+        # Second script: the tagged draft also triggers self-revision on
+        # this other_tradition turn - see the "gets the directive" test's
+        # own note. The draft (call 0) is what this test checks.
+        stream_scripts=[[ijc_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("ijc", "desert"))
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{john}, what did you make of the Donatists?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "ijc"
+    directive_text = _other_tradition_directive_text(client)
+    assert "your own records already speak to it" in directive_text
+    assert "[[ijc.quote.compelled-to-come-in]]" in directive_text
+    assert R26_HONEST_LIMIT_SENTENCE not in directive_text
+
+
+def test_a_seat_whose_own_records_do_not_mention_it_gets_the_fixed_sentence(store, usage_store, world_loader, registry, alx_world, desert_world):
+    # alx's own real records never mention Donatism (Decision-Log.md
+    # Entry 66/#436's own worked example) - the honest-limit branch.
+    alx_sentence, _ = grounded_sentence(alx_world)
+    theon = alx_world.frame["representative"]["name"]
+    client = _table_client(
+        selector_script=[],
+        # Second script: same self-revision note as the sibling tests above.
+        stream_scripts=[[alx_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{theon}, what did you make of the Donatists?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "alx"
+    directive_text = _other_tradition_directive_text(client)
+    assert R26_HONEST_LIMIT_SENTENCE in directive_text
+
+
+def test_self_revision_runs_on_an_other_tradition_table_turn_and_not_on_an_ordinary_one(
+    store, usage_store, world_loader, registry, ijc_world, desert_world
+):
+    ijc_sentence, ijc_rid = grounded_sentence(ijc_world)
+    john = ijc_world.frame["representative"]["name"]
+    revised = f"A shorter, revised answer [[{ijc_rid}]]."
+    client = _table_client(
+        selector_script=[],
+        stream_scripts=[[ijc_sentence], [revised]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("ijc", "desert"))
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{john}, what did you make of the Donatists?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "ijc"
+    # Two stream calls: the draft, then the self-revision pass - the exact
+    # same shape engine/m4/tests/test_turn.py already pins at the unit
+    # level, now proven wired at the Table too.
+    assert len(client.messages.stream_calls) == 2
+    assert result["voice"]["text"] == "A shorter, revised answer."
+
+
+def test_self_revision_does_not_run_on_an_ordinary_table_turn(store, usage_store, world_loader, registry, alx_world, desert_world):
+    alx_sentence, _ = grounded_sentence(alx_world)
+    client = _table_client(selector_script=[], stream_scripts=[[alx_sentence]])
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    theon = alx_world.frame["representative"]["name"]
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{theon}, who was Jesus?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "alx"
+    assert len(client.messages.stream_calls) == 1
+
+
+def test_seat_to_seat_engagement_clause_is_unchanged_by_the_other_tradition_directive(
+    store, usage_store, world_loader, registry, alx_world, ijc_world
+):
+    # Two turns, same round (one gate classification governs the whole
+    # round, exactly as engine.api.table_wiring._continue_table_round_
+    # unlocked re-reads the round's own opening out_of_scope_class rather
+    # than re-classifying per turn): alx opens, ijc returns second and
+    # gets BOTH directive parts in the same system block - the Table's own
+    # seat-to-seat clause never suppressed by, and never suppressing, the
+    # other_tradition directive _build_turn_directive composes them into.
+    alx_sentence, _ = grounded_sentence(alx_world)
+    ijc_sentence, _ = grounded_sentence(ijc_world)
+    client = _table_client(
+        selector_script=[{"next": "ijc", "reason": "r1"}],
+        # Both drafts carry a tag on an other_tradition round, so each
+        # turn's own self-revision pass consumes a script too: call 0 =
+        # alx draft, call 1 = alx self-revision, call 2 = ijc draft (what
+        # this test checks), call 3 = ijc self-revision.
+        stream_scripts=[
+            [alx_sentence], ["(revision, no change needed)"],
+            [ijc_sentence], ["(revision, no change needed)"],
+        ],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "ijc"))
+    theon = alx_world.frame["representative"]["name"]
+    http.post(f"/api/session/{session_id}/message", json={"text": f"{theon}, what did you make of the Donatists?"}, headers=auth).json()
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["voice"]["speaker"] == "ijc"
+    directive_text = _other_tradition_directive_text(client, call_index=2)
+    assert "You are being brought into a Table round, not answering alone" in directive_text
+    assert "your own records already speak to it" in directive_text
