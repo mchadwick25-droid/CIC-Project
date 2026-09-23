@@ -271,31 +271,127 @@ def _demonym_forms(name: str) -> set[str]:
     return forms
 
 
+def _names_for_world(entry: dict) -> list[str]:
+    """One world's own card_name, representative name, display_name,
+    world_id (hyphens read as spaces - "alexandria-catechetical" ->
+    "alexandria catechetical" - a voice's own prose would never emit the
+    raw hyphenated id, but the words inside it are real candidate names),
+    and each of those names' own closed demonym derivation
+    (_demonym_forms). Factored out of known_tradition_names (below) so
+    the false-fixed-sentence fix (match_named_tradition/
+    world_records_mention_tradition) can derive the identical name list
+    for ONE world without re-deriving the fleet-wide flat list and
+    filtering it back down - one name-derivation, two real callers."""
+    names = []
+    if card_name := entry.get("card_name"):
+        names.append(card_name)
+        names.extend(_demonym_forms(card_name))
+    if rep_name := (entry.get("representative") or {}).get("name"):
+        names.append(rep_name)
+    if display_name := entry.get("display_name"):
+        names.append(display_name)
+        names.extend(_demonym_forms(display_name))
+    if world_id := entry.get("world_id"):
+        names.append(world_id.replace("-", " "))
+    return names
+
+
 def known_tradition_names(registry: dict, *, exclude_world_key: str) -> list[str]:
-    """Every OTHER formation world's own card_name, representative name,
-    display_name, world_id (hyphens read as spaces - "alexandria-
-    catechetical" -> "alexandria catechetical" - a voice's own prose
-    would never emit the raw hyphenated id, but the words inside it are
-    real candidate names), and each of those names' own closed demonym
-    derivation (_demonym_forms) - straight from the registry, no
-    package/frame load needed, so this is cheap enough to call every
-    turn. Excludes the speaking world itself: naming your OWN tradition
-    is not the R26 violation shape."""
+    """Every OTHER formation world's own names (_names_for_world) - straight
+    from the registry, no package/frame load needed, so this is cheap
+    enough to call every turn. Excludes the speaking world itself: naming
+    your OWN tradition is not the R26 violation shape."""
     names = []
     for key, entry in registry.items():
         if key == exclude_world_key or entry.get("kind") != "formation":
             continue
-        if card_name := entry.get("card_name"):
-            names.append(card_name)
-            names.extend(_demonym_forms(card_name))
-        if rep_name := (entry.get("representative") or {}).get("name"):
-            names.append(rep_name)
-        if display_name := entry.get("display_name"):
-            names.append(display_name)
-            names.extend(_demonym_forms(display_name))
-        if world_id := entry.get("world_id"):
-            names.append(world_id.replace("-", " "))
+        names.extend(_names_for_world(entry))
     return names
+
+
+# R39's own reviewer-ordered fix (relayed 2026-09-23, "the false fixed
+# sentence is a defect, and it is yours to fix now"): _other_tradition_
+# directive's own honest-limit sentence ("Our record doesn't mention that
+# Christian tradition.") fires unconditionally on ANY other_tradition
+# routing, regardless of whether the SPEAKING world's own records already
+# name the tradition asked about - false for ijc on Donatism, whose own
+# records (ijc.quote.compelled-to-come-in, ijc.story.emperor-builds-
+# another-basilica) genuinely do. These two functions are the fix's own
+# detection half; engine.m4.turn._other_tradition_directive (the
+# participant-facing text) is the other half - no new words there, only
+# a condition around the existing ones, since R26's own ruling already
+# named the exception ("unless they would have known the sources from
+# another in reality") and only the mechanism was missing.
+def match_named_tradition(text: str, registry: dict, *, exclude_world_key: str) -> str | None:
+    """Which OTHER formation world's own name is present in `text`, if
+    any - the reverse of classify_neighbour_named (that function checks
+    whether a GENERATED sentence names a neighbour; this checks whether
+    the PARTICIPANT's own message does) and returns WHICH world_key
+    matched (registry iteration order; first match wins) rather than a
+    flat combined list, so a caller can look up that ONE world's own
+    records specifically. Scoped to the 11 fleet formation worlds' own
+    registry names only, same as every other R26/R27 name-matching
+    mechanism - a non-fleet historical group ("the Arians") matches
+    nothing here, and the caller falls back to the unconditional honest-
+    limit sentence for exactly that case, which is correct: there is no
+    registry world to check a mention of "the Arians" against."""
+    lower = text.lower()
+    for key, entry in registry.items():
+        if key == exclude_world_key or entry.get("kind") != "formation":
+            continue
+        if any(name.lower() in lower for name in _names_for_world(entry) if name):
+            return key
+    return None
+
+
+# The same restricted prose-field allowlist R37's own design brief
+# (Decision-Log.md Entry 57, PR #438) already proved necessary: a first
+# attempt against engine.prose.all_text (which reaches into a record's
+# own sources[].locus strings) produced a false positive there - a
+# vendored source filename carrying an unrelated name as a substring, not
+# real prose. Kept identical here rather than re-derived, since the two
+# call sites need to agree on what counts as "this world's own records
+# really say this," not merely both avoid the SAME already-found bug by
+# coincidence.
+_TRADITION_EVIDENCE_PROSE_KEYS = {
+    "text", "statement", "claim", "absent_detail", "plain_meaning", "quick_meaning",
+    "bridge_line", "why_sources_cannot_answer", "positions", "tensions", "modern_lens_note",
+}
+
+
+def _prose_text_for_evidence_scan(rec: dict) -> str:
+    parts: list[str] = []
+
+    def walk(value, key=None):
+        if isinstance(value, str):
+            if key in _TRADITION_EVIDENCE_PROSE_KEYS:
+                parts.append(value)
+        elif isinstance(value, dict):
+            for k, v in value.items():
+                walk(v, k)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item, key)
+
+    walk(rec)
+    return " ".join(parts)
+
+
+def world_records_mention_tradition(repository_records: dict[str, dict], named_world_entry: dict) -> list[str]:
+    """Record ids in THIS (speaking) world's own package whose real prose
+    text already names the OTHER, named world (named_world_entry, the
+    registry entry match_named_tradition resolved to) - sorted, so the
+    caller's own directive text is deterministic across a call with the
+    same inputs. Empty list means genuinely no textual evidence, the
+    honest-limit sentence's own true case."""
+    names = [n for n in _names_for_world(named_world_entry) if n]
+    if not names:
+        return []
+    lowered = [n.lower() for n in names]
+    return sorted(
+        rid for rid, rec in repository_records.items()
+        if any(n in _prose_text_for_evidence_scan(rec).lower() for n in lowered)
+    )
 
 
 def build_uncited_claims_event(voice_event: dict, *, registry: dict, is_other_tradition_turn: bool) -> dict | None:

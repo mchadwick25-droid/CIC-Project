@@ -299,6 +299,24 @@ citation; a doctrine belonging to a different world asserted as the
 answering world's own, inside an `other_tradition` turn) are not a
 separate guard — they are violation classes inside R27's own check.
 
+**Built, 2026-09-23 (R39's own audit found the gap; no new ruling
+needed — this closes an implementation gap against R26's own already-
+ruled words above, "if the records do hold something, the voice speaks
+only from those records, cited," which the shipped code never actually
+branched on):** `_other_tradition_directive` (`engine/m4/turn.py`) used
+to say the fixed honest-limit sentence unconditionally, regardless of
+whether the speaking world's own records already named the tradition
+asked about — provably false for `ijc` on Donatism, whose own records
+(`ijc.quote.compelled-to-come-in`, `ijc.story.emperor-builds-another-
+basilica`) genuinely do. Now conditional: `engine.m4.uncited_claims.
+match_named_tradition`/`world_records_mention_tradition` detect real
+evidence in the speaking world's own package before the directive is
+built; a world with real evidence gets the record ids as its own
+ground instead of the honest-limit sentence, a world with none gets the
+sentence exactly as it always was. Full detail, the real per-world
+count (4 of 11 built-fleet worlds flip), and tests: Decision-Log.md's
+new entry.
+
 ### R27 — A hard requirement: every declarative claim sentence carries a citation
 **Status:** RULED (option A) — 2026-09-22. Via the reviewer thread's
 standing authorization (see Decision-Log.md Entry 50).

@@ -2570,3 +2570,104 @@ retained after each run). If Mark's own staging look wants the exact
 classes on the Table's own real turns, that needs a report-only
 paragraph-level run with per-turn class capture added, not assumed
 from this note.
+
+**Entry 57 — 2026-09-23.** The false fixed honest-limit sentence, a
+real defect the reviewer thread's own R39 audit found and ordered fixed
+directly (no new ruling needed - R26's own already-ruled words,
+Rulings-Pending.md's R26 entry, already specified the conditional
+branch this PR builds; only the shipped code never implemented it).
+
+**The defect.** `engine.m4.turn._other_tradition_directive` fired the
+fixed sentence *"Our record doesn't mention that Christian tradition."*
+unconditionally on ANY `other_tradition`-routed turn, for every world,
+regardless of whether that world's own records already named the
+tradition asked about. For `ijc` on Donatism specifically this is
+false: `ijc`'s own already-vendored records genuinely name it
+(`ijc.quote.compelled-to-come-in`, `ijc.story.emperor-builds-another-
+basilica` - real excerpts, not inferred, both cite Augustine writing to
+the imperial tribune Boniface c. 417 on "the madness of the Donatists").
+
+**The fix.** Two new functions in `engine.m4.uncited_claims`:
+`match_named_tradition(text, registry, exclude_world_key=...)` (which
+OTHER formation world's own name - card_name, display_name, demonym,
+representative name - appears in the participant's own message, the
+reverse of `classify_neighbour_named`) and
+`world_records_mention_tradition(repository_records, named_world_entry)`
+(record ids in THIS, speaking world's own package whose real prose text
+already names that OTHER world - same restricted `PROSE_KEYS` field
+allowlist the R37 design brief already proved necessary, PR #438,
+avoiding the exact locus/source-filename false positive that scan
+found). `_other_tradition_directive` now takes an optional
+`evidence_record_ids` parameter: empty/None keeps the fixed sentence
+exactly as it always was (the true "never heard of this" case - `alx`
+on Donatism, this workstream's own original worked example, stays
+unchanged); a nonempty list skips the sentence entirely and hands the
+voice those record ids as its own ground, cited under the ordinary
+citation contract, never asserting more than what its own records or
+the conversation actually give it.
+
+**Threading**, matching the existing `known_tradition_names` pattern
+exactly (caller-computed, since `_run_ordinary_voice_turn` stays
+registry-free by design): `engine.api.wiring.handle_message` computes
+`match_named_tradition`/`world_records_mention_tradition`
+unconditionally (never gated behind `r27_enforce` - this corrects an
+existing false statement, not new enforcement) and passes the result
+through `run_turn`/`_run_ordinary_voice_turn`/`_build_turn_directive`
+as `other_tradition_evidence_ids`, read only when
+`is_other_tradition_first_ask` is also true. Table mode
+(`table_wiring.py`) needed no change: checked directly, `run_voice_turn_
+for_world` (the `_run_ordinary_voice_turn` alias Table calls) is never
+passed `is_other_tradition_first_ask=True` anywhere in `table_wiring.py`
+today - `out_of_scope_class` there feeds only the post-hoc
+`build_uncited_claims_event` audit classification, never the live
+directive. Table mode's own `other_tradition` turns get no special
+directive at all currently, fixed sentence or otherwise - a real,
+separate, pre-existing gap this fix does not touch or widen into,
+noted here rather than silently discovered and dropped.
+
+**Tests**, both branches pinned directly per the reviewer's own
+explicit instruction: `engine/m4/tests/test_turn.py` pins
+`_other_tradition_directive`'s own two branches (no evidence keeps the
+fixed sentence; real evidence skips it and emits the record ids as
+`[[tag]]`s). `engine/m4/tests/test_uncited_claims.py` pins
+`match_named_tradition` (the demonym case, and a non-fleet name like
+"the Arians" correctly resolving to `None`) and
+`world_records_mention_tradition` on real, trimmed excerpts (`ijc`
+finds it, `alx`'s own real `church-failure` text does not, and a
+locus-filename coincidence is correctly ignored - the same false
+positive already found and fixed once, pinned here too). Full suite:
+1024 passed (1016 + 8 new).
+
+**The real count, fleet-wide** (per the reviewer's own explicit ask -
+`world_records_mention_tradition` run against each of the 11 admitted
+formation worlds' own real package, checked against the real battery's
+own deterministic probe target -
+`engine.m4.live_uncited_claims_battery._other_tradition_turn`'s own
+alphabetical-first-other-card-name logic, reproduced read-only): **4 of
+11 flip** - `desert` (asked about `alx`), `hal` (asked about `alx`),
+`ijc` (asked about `alx`), `pahc` (asked about `alx`) all have real
+textual evidence and now answer from their own records instead of
+saying the fixed sentence; `alx` (asked about `don`, this workstream's
+own original worked example), `cappadocian`, `don`, `gallic`, `rzg`,
+`syr`, `witt` have none and are unchanged. Full per-world table:
+
+| World | Asked about | Flips | Evidence record ids |
+|---|---|---|---|
+| alx | don | no | — |
+| cappadocian | alx | no | — |
+| desert | alx | **yes** | desert.contested.alexandria-continuity, desert.demo.center-jesus-as-god, desert.story.antony-secret-burial, desert.story.sarapion-anthropomorphite, desert.story.virgin-who-hid-athanasius |
+| don | alx | no | — |
+| gallic | alx | no | — |
+| hal | alx | **yes** | hal.dw.authority, hal.story.rufinus-rupture |
+| ijc | alx | **yes** | ijc.quote.julius-custom, ijc.quote.let-the-ancient-customs-prevail, ijc.quote.sozomen-thessalonica-law, ijc.story.letter-that-outranked-a-council |
+| pahc | alx | **yes** | pahc.contested.egypt-exclusion |
+| rzg | alx | no | — |
+| syr | alx | no | — |
+| witt | alx | no | — |
+
+Note `ijc`'s own real battery probe target is `alx` (alphabetically
+first other card_name), not `don` - the reviewer's own Donatism example
+is real and independently confirmed (`ijc` on `don` also has evidence,
+the same two records named above), but is not literally what the
+battery itself asks `ijc`; both are true and both are reported, not
+conflated.
