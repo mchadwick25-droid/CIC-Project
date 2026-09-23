@@ -365,3 +365,67 @@ onto current main immediately before push (records-commit
 `697281f1197a0bd772e48e0183372c6076789b39`, the real post-rebase HEAD).
 `staleness_sweep()`: clean across all 12 worlds after the final re-pin.
 Old manifests retired (directories kept, per convention).
+
+**Entry 14 — 2026-09-23 (R40, desert half B — 23 of 46 missing quote
+records authored).** `alx` (PR #442) and `ijc` (PR #453) are done and
+merged. `desert` has 46 of 60 quote records missing `modern_rendering`;
+split into two PRs by record range, per the reviewer's own suggestion,
+to keep each reviewable. This is half B, these 23 record IDs. Half A
+(the other 23, PR #458) merged first, at `13796b85`; this entry's own
+rebase and re-pin happen against that merged main, so desert carries
+all 46 renderings (of 60 total quote records) once this entry's PR
+merges too.
+
+Each translation was written directly from the record's own `text`
+field, reading its `modern_lens_note` first so vocabulary it flags as
+significant (apatheia, nous, logismoi/"generic thoughts", acedia,
+theoria, koinonia, etc.) was kept rather than softened away, then run
+through `engine/m1/rendering_fidelity.py`'s live Haiku 4.5 grader per
+the birth-condition process: revised until the verdict read
+"translation" on two consecutive runs of the same final text.
+
+**One honest exception:** `desert.quote.womens-house-across-the-river`.
+After 6 genuine revision rounds, the rendering is defensible
+clause-by-clause against its source `text`, but the live grader kept
+flipping between "translation" and "summary" on materially unchanged
+text, and by the final rounds its own reasoning was factually false
+about the rendering it was grading — asserting an omission of "And when
+any one of these went in to her rest" when the graded text literally
+read "When one of these women went to her rest," and asserting a drop
+of "the brethren received her on a raft" when the graded text read "the
+brothers received her on a raft." Named here rather than presented as a
+clean pass, per the alx/ijc precedent (2 such exceptions each).
+
+**Gate results.** `gate_readability` (FK grade ceiling 10) on desert:
+0 findings across all 23 of this PR's renderings — several first
+drafts needed splitting into shorter sentences to clear it, each split
+kept its own subject and verb per the process doc's fragment rule, and
+several splits were themselves flagged by the fidelity grader as
+content changes and had to be re-balanced (most visibly on
+`desert.quote.the-kingdom-is-apatheia` and
+`desert.quote.the-noonday-demon`). Full `run_all()` on desert, run
+after the rebase onto half A's merged main (so all 46 newly-authored
+renderings are present together): 1 finding, the same pre-existing
+`reciprocity` gap between `desert.limit.communal-wrong-unrepaired` and
+`desert.story.moses-leaking-jug` — neither record touched by either
+half of this work. `desert` now has 60/60 quote records with
+`modern_rendering`. `pytest engine/m1/tests/`: 134 passed, no
+regressions.
+
+**Package pin.** Rebuilt and re-pinned twice: once against
+`fbc0fdd444bb2cba7e95ceb3bb9ed7332ac8981c` (this PR's own
+modern_rendering commit, before half A had merged), then again after
+rebasing onto main post-half-A-merge, against
+`db19e5ac6147f549a271b1dcff78c36736beb66a` (the real post-rebase HEAD,
+carrying both halves' 46 renderings) — the first pin would have shipped
+a package missing half A's 23 renderings, so it is superseded rather
+than reused. Final: old `packages/desert/2026-09-23T18-50-21Z`
+(half A's own pin, `sha256:e597fe552b2b14604309f1ad010cd9c30625ae1272c171af4e32c32bd05440a4`)
+→ new `packages/desert/2026-09-23T19-33-23Z`
+(`sha256:a43b6eb055028868314ab3cdd5d7e5b64d23fb690f8042693e4e5a15b55b3977`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifests retired
+(directories kept, per convention).
+`check_paths.py --baseline tools/check_paths_baseline.txt` on a clean
+`git worktree` of this branch's head: 0 new unresolved path
+citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
+present.
