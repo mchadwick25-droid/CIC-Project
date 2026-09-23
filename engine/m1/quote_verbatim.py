@@ -36,7 +36,8 @@ text and losing track of where a match actually sits, the record's own
 `text` is compiled into a regex and searched directly against the
 ORIGINAL vendored text (XML/ThML markup stripped first for XML-sourced
 quotes, then any word hyphenated across a line break - "eter-\nnity" -
-collapsed back to one word, both before any matching happens). Whitespace
+collapsed back to one word, then the four closed apparatus forms
+(`strip_apparatus`) dropped, all before any matching happens). Whitespace
 runs become a flexible run-of-whitespace match, quote/apostrophe/dash
 characters become a bracketed class of their known Unicode variants, and
 `re.IGNORECASE` folds case - so the match span, when found, is the exact
@@ -70,6 +71,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
+    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. Never a bare, unwrapped digit or symbol with no marker of its own - that stays a failure (see the module docstring's fourth-ruling note).",
 }
 
 # RULED (Mark, 2026-09-22, second ruling): class six (verse_number) above
@@ -85,6 +87,23 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # side typesetting/notation quirk, not a difference in what's actually
 # said. The third (stray backslash) is a record-authoring bug, out of
 # scope for this module.
+
+# FOURTH ROUND (2026-09-23, after PR #413's record-fix pass left 13
+# non-escalated failures, all apparatus the gate didn't yet strip): four
+# closed, evidenced forms fold into the new `apparatus` class above -
+# soft hyphen, tilde-digit, pipe-page, bracket-locator - each confirmed
+# against the real vendored file before being added, never guessed. Left
+# UNRESOLVED and explicitly NOT covered by `apparatus` above: a bare,
+# unwrapped footnote digit or symbol with no marker character of its own
+# (` 1 is more useful`, `Paula,276 mother`, `church.1\nAnd`, ` 163 and
+# found`, ` ® But for prayer`) - stripping a bare digit globally risks
+# silently swallowing a real number that's part of what a quote actually
+# says elsewhere in the same file, and no safe, narrow rule for telling
+# the two apart was found. Flagged for a ruling, same as every other
+# candidate class this module has surfaced - not silently added and not
+# silently ignored. See the fleet report for the six records this still
+# blocks (five apparatus-only, one - `cappadocian.quote.basil-on-work-
+# and-prayer` - already nested-mark-fixed by #413 but blocked here too).
 
 # DISALLOWED, stated explicitly so a report finding can name which rule a
 # quote actually broke: a substituted word, a silent omission (no
@@ -121,6 +140,38 @@ _LINEWRAP_HYPHEN_RE = re.compile(r"(\w)-\s*\n\s*(\w)")
 # a wider skip, which is exactly the "no fuzzy score" line the ruling
 # draws.
 _VERSE_NUMBER_GAP = r"(?:\d{1,4}\.\s+)?"
+# Four closed, evidenced apparatus forms (2026-09-23, fourth round) -
+# each confirmed against a real vendored file's own break point before
+# being added here, not a generic heuristic:
+#   - a literal soft hyphen (U+00AD), always invisible, never content
+#     (alx.quote.no-sun-no-moon-no-sky's own source: "sup\xadpose").
+#   - a tilde-wrapped digit, this edition's own footnote convention,
+#     with no surrounding whitespace at all in the raw source
+#     (syr.quote.warned-before-baptism: "God~1~before").
+#   - a pipe-plus-digits page marker, flanked by real whitespace
+#     (desert.quote.pachomius-angel-tablet and others: "|113 And").
+#   - a bracketed locator: 3-4 bare digits with an optional trailing
+#     capital letter (a Migne-style column reference, "[964D]"), a
+#     "[p. NNN]" page reference, or an abbreviated "[Author. p. NNN,
+#     l. N.]" citation - all three confirmed against real breaks, not
+#     invented shapes. The digit form is deliberately 3-4 digits only,
+#     never 1-2: a record's own `[1]`, `[2]`... section numbering inside
+#     its OWN quoted text is real content already tolerated by the
+#     existing `bracket` class (desert.quote.the-noonday-demon uses
+#     exactly this convention) - a 1-2 digit floor here would strip that
+#     numbering out of the SOURCE and break the adjacency the quote's own
+#     bracket-tolerance depends on. A real Migne/PG column reference is
+#     always 3+ digits, so this floor costs nothing evidenced.
+_SOFT_HYPHEN_RE = re.compile("­")
+_TILDE_DIGIT_RE = re.compile(r"~\d{1,4}~")
+_PIPE_PAGE_RE = re.compile(r"\|\d{1,4}\s*")
+_BRACKET_LOCATOR_RE = re.compile(
+    r"\["
+    r"(?:\d{3,4}[A-Z]?"
+    r"|p\.\s*\d{1,4}"
+    r"|[A-Z][a-z]{0,4}\.\s*p\.\s*\d{1,4}(?:,\s*l\.\s*\d{1,4})?\.?"
+    r")\]\s*"
+)
 _NOTE_BLOCK_RE = re.compile(r"<note\b[^>]*>.*?</note>", re.IGNORECASE | re.DOTALL)
 _TAG_RE = re.compile(r"<[^>]+>")
 # A cited path can be hard-wrapped mid-filename in a record's free-text
@@ -147,6 +198,19 @@ def collapse_linewrap_hyphens(text: str) -> str:
     while prev != text:
         prev = text
         text = _LINEWRAP_HYPHEN_RE.sub(r"\1\2", text)
+    return text
+
+
+def strip_apparatus(text: str) -> str:
+    """Drop the four closed, evidenced apparatus forms above - soft
+    hyphen, tilde-digit, pipe-page, bracket-locator - each a source
+    edition's own page/column bookkeeping, never real quoted content.
+    Deliberately NOT a bare unwrapped digit or symbol - see the fourth-
+    round docstring note on why that stays unhandled here."""
+    text = _SOFT_HYPHEN_RE.sub("", text)
+    text = _TILDE_DIGIT_RE.sub(" ", text)
+    text = _PIPE_PAGE_RE.sub("", text)
+    text = _BRACKET_LOCATOR_RE.sub("", text)
     return text
 
 
@@ -255,6 +319,7 @@ def _nearest_context(segment: str, source_full: str, window: int = 30) -> str:
 def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) -> VerifyResult:
     source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
     source_full = collapse_linewrap_hyphens(source_full)
+    source_full = strip_apparatus(source_full)
     raw_segments = [s for s in _ELLIPSIS_RE.split(quote_text) if s.strip()]
     if not raw_segments:
         return VerifyResult(verified=False, failed_segment=quote_text, nearest_context="(quote text is empty)")
