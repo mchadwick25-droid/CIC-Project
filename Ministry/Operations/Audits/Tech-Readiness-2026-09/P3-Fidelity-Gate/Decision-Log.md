@@ -786,3 +786,21 @@ re-pinned once against this PR's own commit
 (`sha256:941257d57d913b7715bfc8bd6fe8579a8e393cb160d1d9edde35fa0ec31ba7db`).
 `staleness_sweep()`: clean across all 12 worlds. Old manifest retired
 (directory kept, per convention).
+
+**A second, separate staleness gate, discovered here for the first
+time in this decision log.** CI's "Site staleness sweep" job failed on
+the first push (head `e5bd8004`): `engine.m2.site_cli staleness-check`
+reported `cappadocian` stale (`diff: ["narrative"]`). This checks a
+different compiled artifact than the M2 package pin above -
+`cic-website/data/worlds/<census_id>.json`, built by
+`engine.m2.site_cli build <world> --records-commit <sha>
+--compiler-version <version>` - and R40's world-by-world PRs never
+tripped it because none of those touched a record that this compiled
+JSON's "narrative" section draws from. R43's re-authoring apparently
+does. Fixed by rebuilding that JSON against the real resolved HEAD;
+`engine.m2.site_cli staleness-check` now reports `pass: true`
+fleet-wide, and `pytest engine/m1/tests/ engine/m2/tests/` (191 tests)
+passes. **Going forward, every remaining R43 world PR (rzg, don, witt,
+then the Group B re-read pass) rebuilds both this site JSON and the M2
+package pin as a standard part of its own re-pin step, not just the
+world whose CI happens to catch it.**
