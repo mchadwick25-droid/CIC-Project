@@ -408,3 +408,12 @@ report-only until it's fixed and re-measured.
 nothing changes for any participant until Mark flips it after a staging
 look. Same regenerate-once-then-Facilitator shape as R27/R27-A's own
 base ruling. Full build order: Decision-Log.md's own R36 entry.
+
+**The enforced-run baseline** (PR #432, real, billed, region us-east-1,
+flag actually on): interview, 7 of 22 turns regenerated, 2 of those 7
+reached the Facilitator. Table (alx/don/rzg), 7 of 10 voice turns
+regenerated, 4 of those 7 reached the Facilitator - see Decision-Log.md
+Entry 56's own note on what that Table rate means and the likeliest
+cause. This is the baseline number set Mark looks at on
+`cic-engine-staging` (`CIC_R27_ENFORCE=1`) before the flag is flipped
+anywhere real.
