@@ -21,6 +21,15 @@ sources:
   license: public-domain
 text: >-
   Now if by the sign of the Cross, and by faith in Christ, death is trampled down, it must be evident before the tribunal of truth that it is none other than Christ Himself that has displayed trophies and triumphs over death, and made him lose all his strength. And if, while previously death was strong, and for that reason terrible, now after the sojourn of the Saviour and the death and Resurrection of His body it is despised, it must be evident that death has been brought to nought and conquered by the very Christ that ascended the Cross.
+modern_rendering: >-
+  Now, faith in Christ and the sign of the cross trample death down. So
+  this must be plain before the court of truth: it is Christ himself, and
+  no one else, who has paraded his trophies and triumphs over death. He
+  has stripped death of all its strength. Death was once strong, and for
+  that reason terrifying. But now, after the Saviour lived among us, and
+  after the death and resurrection of his body, death is despised. So this
+  too must be plain: death has been brought to nothing. It has been
+  conquered - by the very Christ who went up on the cross.
 speaker_or_author: Athanasius of Alexandria, On the Incarnation sec. 29
 license: verbatim
 modern_lens_note: >-

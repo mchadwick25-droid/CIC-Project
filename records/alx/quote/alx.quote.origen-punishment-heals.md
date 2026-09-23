@@ -28,6 +28,10 @@ relations:
   target: alx.term.apokatastasis
 text: And so we think that every threat and pain and punishment, things that come from God, are never
   inflicted to injure the sufferers, but always to do them good.
+modern_rendering: >-
+  And so we believe that every threat, every pain, every punishment that
+  comes from God is never inflicted to harm the sufferer. Instead, it is
+  always meant to do that person good.
 speaker_or_author: alx.figure.origen
 license: verbatim
 modern_lens_note: >

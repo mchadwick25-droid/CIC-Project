@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   so, seeing there are many who think they hold the opinions of Christ, and yet some of these think differently from their predecessors, yet as the teaching of the Church, transmitted in orderly succession from the apostles, and remaining in the Churches to the present day, is still preserved, that alone is to be accepted as truth which differs in no respect from ecclesiastical and apostolical tradition.
+modern_rendering: >-
+  So then - there are many who think they hold the opinions of Christ. Yet
+  some of them think differently from those who came before. Still, the
+  teaching of the Church remains preserved. It has been handed down in
+  careful succession from the apostles, and it is still kept in the
+  churches today. Only what agrees with this ecclesiastical and apostolic
+  tradition, in every respect, is to be accepted as the truth.
 speaker_or_author: Origen of Alexandria, On First Principles, preface 2
 license: verbatim
 modern_lens_note: >-
