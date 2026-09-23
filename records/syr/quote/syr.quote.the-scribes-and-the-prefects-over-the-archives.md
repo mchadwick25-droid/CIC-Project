@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Now Mar Yahab Bar Shemesh, and Kajuma Bar Magartat, the scribes of Edessa, recorded this event, and the command of Abgar the king: and Bar Din and Bulid, who are prefects over the archives of Edessa, received and deposited it within them as trusted of the city (i.e., archivists.)
+modern_rendering: >-
+  Mar Yahab Bar Shemesh and Kajuma Bar Magartat were the scribes of Edessa. They recorded
+  this event, and the command of king Abgar. Bar Din and Bulid were the prefects over the
+  archives of Edessa. They received the record and placed it within the archives, as
+  trusted officers of the city -- that is, as archivists.
 speaker_or_author: the Chronicle of Edessa, the close of the year-513 entry
 license: verbatim
 modern_lens_note: >-
