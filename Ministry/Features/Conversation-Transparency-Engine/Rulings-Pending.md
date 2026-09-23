@@ -610,3 +610,284 @@ with G6's fix (this PR) now merged, R27's detector examines withheld
 sentences too, so any battery numbers quoted after this merge are not
 directly comparable to Entry 56's own pre-G6 numbers - say so wherever
 they're quoted.
+
+
+### R38 — A fabricated clause rode a real citation match past the net: what general rule closes it?
+**Status:** RULED — 2026-09-23, via the reviewer thread's standing
+authorization. A SIBLING question the same worked example raised -
+whether the PIVOT itself (steering to "the lapsed" on a Donatist
+question at all) was legitimate - is R37, RULED separately; see R37
+immediately below. Found on Mark's own staging look
+(`CIC_R27_ENFORCE=1`, first result), full detail in Decision-Log.md
+Entry 63.
+
+**Ruled: self-revision at generation** - not candidate (a) or (b) (the
+lexical-remainder net rules, CLOSED: they withhold honest paraphrase to
+catch a class with 0 of 6 precision) and not candidate (c) (the live
+support-check reader) as the primary mechanism - (c) stays the fallback
+only, and is not needed: the real, measured leak rate under self-
+revision is 0 of 20, at or under the bar Mark set ("if leaks are 0 or 1
+of 20, propose the build").
+
+**What self-revision is:** after the voice drafts its turn, a second
+voice call - same model, same system prompt - is given its own draft
+plus the exact, full text of every record it tagged, and told: for each
+tagged sentence, keep only what that record says or exactly paraphrases;
+trim any detail the record does not give, even if believed true; do not
+add, do not re-tag, do not change any untagged sentence; return the
+revised turn. The revised turn is what `apply_net` sees and the
+participant reads - generation, not correction: no withhold, no
+Facilitator, no regeneration loop. Scoped to `other_tradition`-routed
+turns only, where the leak class lives.
+
+**Measured** (`engine/m4/reports/r38_self_revision_measure.py` +
+`r38-self-revision-measure-2026-09-23.json`, this PR): the Theon/
+Donatists worked example, 20 runs, proposed directive (Entry 65) plus
+self-revision, unconditional on every run (not gated on a pre-check of
+which drafts need it - matches how it would actually run in
+production). **Real cost: $0.5207, 40 calls** (20 drafts + 20 revision
+passes). The revision pass changed the text in 20 of 20 runs - real
+work, not a no-op most of the time. **Real leak rate: 0 of 20** - all 8
+draft occurrences of the traditor/scripture-surrender detail ("handed
+over the scriptures"/"the Scriptures", the same unsupported clause
+named in Entries 57/59/60) were removed in revision; none reached the
+final, participant-facing text. Hand-read for over-trimming (a true,
+record-supported detail lost, not just the known leak shape) on a
+representative sample of the 20 pairs - no case found; every trim
+checked removed either the fabricated clause itself or a separate
+unsupported interpretive elaboration ("we thought the church had
+authority to forgive what Christ forgave" - a real theological gloss,
+but not the record's own words or a fair paraphrase of them), and real
+supported detail the draft had omitted was sometimes correctly restored
+too ("The strict party demanded they stay out" - genuine record text,
+absent from one draft, present after revision). Full per-run pairs:
+Decision-Log.md Entry 67.
+
+**Candidate C's own numbers stand as measured** (Entry 63: 2/6
+own-clause precision, non-deterministic, 14.5% raw flag rate dominated
+by false positives) but are not needed as the primary mechanism given
+self-revision's own 0/20 - C remains available as a documented fallback
+if a larger sample later shows self-revision's real rate above 0.
+
+**Built** - PR #445 (`engine/m4/self_revision.py`), exactly as proposed
+below: same call site, same scope, same kill-switch shape as `r27_
+enforce`'s own parameter-threading. `CIC_SELF_REVISION`, default ON.
+Real per-turn cost/latency from a live run are not available yet (not
+deployed live); PR #445 closes the cost-separation gap this entry
+names below by logging the revision call under its own `call_kind=
+"self_revision"`, distinct from the draft call's `"voice_generation"`.
+
+**Proposed build** (per Mark's own ask - propose since leaks are ≤1/20):
+- **Where it sits:** `engine/m4/turn.py`, inside `_run_ordinary_voice_
+turn`, immediately after the draft's own `stream_voice_turn` call
+succeeds and before `apply_net(raw_text, ...)` runs - the revised text
+replaces `raw_text` going into `apply_net`, so the entire existing
+downstream pipeline (net check, citation resolution, transparency plan)
+runs on the revised text unchanged, with no new caller-side branching.
+- **Scope:** gated on `is_other_tradition_first_ask=True` only (the
+same flag `_other_tradition_directive` already gates on) - an ordinary
+turn never pays the extra call.
+- **Cost:** this measurement did not log draft-call and revision-call
+cost separately (a real gap - a follow-up run should), so the number
+here is the blended average across both call shapes: **~$0.013/call**
+($0.5207 / 40). The marginal cost of self-revision (the one new call
+per `other_tradition` turn) is of that same order - roughly doubling
+the AI cost of an already-rare turn class, not the fleet's average
+turn cost.
+- **Latency:** not logged per call either; the real, measured wall-
+clock for the whole 40-call sequential run was ~330 seconds, ~8.25s/
+call average end to end. Self-revision adds one more sequential call of
+that same order to an `other_tradition` turn - roughly doubling that
+turn's own latency before anything reaches the participant.
+- **Streaming (7b/R30):** R30's own ruling already holds the opening
+paragraph until the guard has checked it, then streams from a point
+already known clean. Self-revision fits the same shape without a new
+mechanism: the draft-then-revise pair completes as one atomic pre-
+stream step - the guard check (and streaming) never starts on the
+DRAFT text, only on the already-revised one. This makes the "hold"
+phase longer specifically for `other_tradition` turns (the rare class
+this measurement scopes to), consistent with, not competing against,
+R30's own rule that the opening is never released before it is known
+clean.
+
+**The worked example:** interview, Theon on the Donatists. The R26
+opener fired correctly; the answer that followed included, tagged to
+`alx.dw.church-failure`: *"Under persecution, some gave way - they
+sacrificed to the gods, or they handed over the sacred books."* The
+record's own text supports "many gave way. Some sacrificed to the
+gods." - nothing in `records/alx` supports handing over books
+(traditores) - and the added clause is specifically the Donatist
+traditor charge, the very tradition the opener said this world's own
+record does not cover. `alx.dw.church-failure` is not touched by
+anything here; its text is correct.
+
+**The mechanism, verified against the real code (not assumed from the
+first report of it):** the sentence carries no literal quote marks, so
+it never reaches the quoted-span window check
+(`engine.m4.grounding_net._span_in_records`) at all. It has no proper
+noun/number/enumeration, so `verdict_for_sentence` routes it into its
+own "TAG IS THE CLAIM" branch - gated on ANY nonzero content-word
+overlap with the tagged record, no ratio floor. Five of the sentence's
+eight content words are in the record's own vocabulary; three (books,
+handed, sacred) are not, and nothing in this branch ever examines that.
+Full detail and the correction to the reviewer's own first diagnosis
+(which named a different branch): Decision-Log.md Entry 63.
+
+**The measurement** (report-only, `engine/m4/reports/
+net_remainder_measure.py` + `net-remainder-measure-2026-09-23.json`,
+this PR): 311 tag-bearing sentences across the real Corpus A pool
+(34 turns, 529 sentences scanned, re-run against current packages) were
+marked grounded via a real grounding decision. Remainder (content words
+absent from the tagged records' own vocabulary) distribution: 0 words -
+150; 1 - 43; 2 - 27; 3 - 21; 4 - 14; 5+ - 56. 6 of the 311 have a
+remainder that forms one coordinating clause of its own (3+ content
+words, all unmatched) - the worked example's own shape; every one of
+those six carries a remainder of 3 or more words.
+
+**None of the six is a fabrication** (named and checked individually,
+Decision-Log.md's own entry has all six) - one Origen paraphrase, one
+"Old Testament and New alike" framing clause, descriptive geography, an
+honest-limit scaffold sentence in substance, an apatheia paraphrase,
+and pure first-person framing. **On this corpus, the own-clause shape
+has 0 of 6 precision** - the only confirmed fabrication anywhere in
+this entry is the staging worked example itself, which is not in this
+corpus at all. Lexical remainder cannot tell "handed over the sacred
+books" from "the whole of Scripture is one voice"; both candidates
+below withhold real, honest paraphrase to catch a class with zero
+confirmed real instances here. Candidate (c) below is proposed for
+exactly this reason.
+
+**Three candidates, numbers from the measurement, none built:**
+(a) **Full coverage** - remainder must be 0, and a quoted span over six
+words must be covered end-to-end, not by one internal window. Closes
+every gap found, including the quoted-span branch's own separate one
+(a >6-word quote today only needs one true 6-word window inside it).
+Cost: 161 of 311 (51.8%) of currently-grounded sentences would newly
+withhold - roughly half, and most of that half reads as ordinary,
+honest paraphrase on inspection, not fabrication.
+(b) **Bounded remainder, N=2** - a sentence is grounded only if its
+remainder is 2 content words or fewer (0, 1, or 2 passes; 3 or more
+withholds). Catches all six known own-clause cases (including the
+worked example, remainder 3) while leaving harmless single-word
+paraphrase untouched. Cost: 91 of 311 (29.3%, the 3/4/5+ remainder
+buckets) would newly withhold. Needs its own rule for the quoted-span branch
+(most naturally (a)'s own full-span-coverage requirement, applied to
+that branch alone).
+(c) **A live Haiku 4.5 reader support check** - real record: does the
+tagged record's own text support every claim in the sentence, naming
+the unsupported clause. Real cost $0.6391/312 calls ($0.00205/sentence,
+estimated before running, within the pre-estimate). **Catches the
+worked example exactly** (`partly_supported`, names "they handed over
+the sacred books"). Full 311: 45 (14.5%) not fully supported - less
+aggressive than (a)/(b). **Own-clause precision: 2 of 6** - not
+meaningfully better than (a)/(b) on the six known-honest cases; four of
+six, including a real theological gloss and the `desert` honest-limit
+sentence, get flagged too. **Not deterministic** - the same sentence
+against the same record, checked twice minutes apart, returned two
+different verdicts; a real structural cost (a)/(b) do not carry. Full
+numbers: Decision-Log.md's own entry.
+**No recommendation between the three** - (a) is simple and closes the
+whole family at the cost of roughly half of today's honest paraphrase;
+(b) is more surgical but leaves a small, permanent unexamined residue by
+construction; (c) is the only one that names what's unsupported and
+catches the real fabrication precisely, but is non-deterministic and no
+more precise than (a)/(b) on the six known-honest cases. Any of the
+three needs its own live re-battery before an enforcement number is
+trusted, same discipline R36 itself was built on.
+
+**Separately, the R26 leak class** (also Decision-Log.md Entry 63):
+`engine.m4.uncited_claims.find_uncited_claims` skips every TAGGED
+sentence outright, so a correctly-cited-but-partially-fabricated
+sentence is invisible to the entire R26/R27 apparatus - checks citation
+presence, never citation accuracy. Confirmed no check anywhere in the
+pipeline (including the pre-generation "reader," which never sees what
+the voice actually writes) looks at a tagged sentence's own content
+once it clears the net. Proposed, not built: for an `other_tradition`
+turn, test a tagged sentence's own remainder against the DISCLAIMED
+tradition's own vocabulary specifically - needs cross-world lookup this
+module does not have today, a real added piece. Note: candidates (a)/(b)
+above would already catch this specific worked example without any
+cross-world lookup at all (the clause fails on remainder alone,
+regardless of which tradition it belongs to) - whether the narrower,
+tradition-aware check is still worth building on top is part of what
+this ruling needs to settle.
+
+**R39, Mark's own principle** (relayed 2026-09-23): *"our goal is to
+generate the right conversation, not correct it... checks are fine but
+ideally unused because the engine generates it correctly."* Amends R38
+above, ahead of choosing between (a)/(b)/(c): the real cause (the tag
+promises the ADDRESS is real, never that non-quoted CONTENT stays
+inside the record - `_other_tradition_directive` never anticipated
+topic-adjacent outside knowledge bleeding into a tagged sentence about
+the SPEAKER'S OWN record) and a proposed generation-side directive fix
+(tag-is-a-promise + R37's own knowledge scope), measured live: 20
+regenerations of the worked example under the current directive versus
+20 under the proposed one. Hand-read, not lexical remainder or candidate
+C's own raw flags (R38's own precision problem applies to C too - most
+of its 23/73 and 27/89 raw flags are honest paraphrase on inspection).
+**Real leak rate: 3 of 20 runs before, 2 of 20 after** - a real but
+partial improvement; the exact traditor detail ("handed over the
+scriptures") recurred twice under the fixed directive, once alongside
+the libellatici detail this project's own build already removed once
+by hand from `alx.dw.church-failure`. Candidate (c) is the better-
+aligned backstop of the three (tracks the real leak rate, not lexical
+mismatch on honest content); its own expected fire rate once the
+directive fix ships is in the 10-15% neighborhood, not the "near zero"
+Mark asked for and not what its own currently-measured 14.5% raw rate
+shows either (that rate mixes real leaks with (c)'s own false
+positives). Full detail: Decision-Log.md Entry 65.
+
+**R39 follow-up** (the reviewer's own next ask, 2026-09-23): two more
+conditions on the same worked example - D1, the proposed directive
+plus `alx.dw.church-failure` offered in the evidence block with its
+real, full text (the retrieval fix); D2, D1 plus one explicit line
+("tag only records offered in this turn's own ground"). **Real cost
+$0.5062, 40 calls. D1: 2 of 20 - identical to the directive-alone
+condition above.** Offering the record's real full text made no
+measurable difference over the directive fix alone. **D2: 4 of 20 -**
+not an improvement, numerically worse than D1 (not a confirmed
+regression at n=20, but a real, hand-verified count). Neither addition
+tested here beats R39's own directive fix alone; the residual leak is
+not a retrieval problem and is not closed by stating the ground/prompt
+distinction explicitly either, on this sample. Candidate (c)'s own
+expected fire rate on top of the best condition (10% real leak rate,
+tied between the directive-alone condition and D1): roughly one in
+three of real leaks, per its own 2/6 own-clause precision (R38 above)
+- expected to catch on the order of 3-4% of turns' real leaks, leaving
+roughly 6-7% uncaught even with the net running as backstop. Full
+detail: Decision-Log.md Entry 66.
+
+### R37 — When may a Representative's pivot draw on outside knowledge of a named-but-uncovered tradition?
+**Status:** RULED — 2026-09-23, 12:47Z. Mark's own words, via the
+reviewer thread's standing authorization. A genuinely separate question
+from R38's own net-mechanism question above, raised by the same worked
+example (the Theon/Donatists turn): not whether the fabricated clause
+should have streamed (R38's own question, the net's job), but whether
+Theon was even allowed to steer toward "the lapsed" at all on a
+question naming a tradition his own world's records never mention.
+**Full ruling text, the design brief, and its own script/report live in
+their own PR, #438** (a separate branch, kept there rather than
+duplicated here to avoid two independently-editable copies drifting
+apart - this entry moved earlier revisions of itself there, correcting
+a broken path citation this branch's own CI caught: the design brief's
+script was never committed to this branch). The one finding that
+mattered most for this PR's own scope - `ijc`'s own real records
+already naming Donatism, so `_other_tradition_directive`'s own fixed
+honest-limit sentence was false for `ijc` - is fixed directly, its own
+small PR, **#440** (built, not merely proposed; 4 of 11 admitted
+formation worlds flip).
+
+**R37-A — the asymmetric window reading (RULED, 2026-09-23, relayed via
+the reviewer thread's standing authorization).** #438's own design
+brief left open which reading of "would have known in its own time"
+(R37's condition (a)) a world-level known-tradition-in-window list
+should use. Mark ruled the ASYMMETRIC reading: a Representative may
+know of any tradition that arose before or during its own window, up
+to its own horizon; only a tradition that had NOT yet arisen by the
+window's end sits outside condition (a) - not a symmetric same-window-
+only reading. On #438's own battery this makes 11 of 11 other-tradition
+pivots defensible. The test for #438's own world-level rows: the named
+tradition's from-year is at or before the speaking world's own
+`time_window` end. Full design-brief detail stays on #438, per the
+pointer above; this entry records only the ruling itself, since #438
+is where the rows this ruling governs actually get built.
