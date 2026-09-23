@@ -1161,3 +1161,61 @@ actually executing `pytest`, with a real assigned runner, not the
 this is Mark's own account-side fix taking effect.
 
 Fleet size unchanged at 11.
+
+---
+
+## 2026-09-23 17:39 UTC — CI cost consolidation merged (PR #439): 20 jobs -> 9, draft PRs skip heavy jobs
+
+Separate from the billing block above, the reviewer thread ("CiC — Tech
+Review & Funding Readiness Prep") relayed a real cost problem: $75 over
+the plan this cycle by 14:00Z, root-caused via the runs API to GitHub's
+per-job minute rounding - a full run is ~14 minutes of actual runner
+time but ~20 minutes billed, because `.github/workflows/ci.yml` split
+the engine suite into 11 separate short jobs, each paying a full
+minute's checkout/setup overhead. Squarely this thread's own standing
+CI-YAML mechanical-fix mandate.
+
+Built and verified before touching anything: eleven jobs sharing the
+identical `engine == 'true'` gate (M1 selftest, prose primitives, canon
+v1, M3, M4, M5, provider seam, M8, M2 compiler checks, M6 census sync,
+engine/api tests) folded into one `engine-tests` job - checked job-by-
+job first that all eleven used that exact single condition, not a
+superset, so nothing changed trigger. M2 staleness and M9 confinement
+kept in their own separate merged job (`staleness-and-confinement`)
+rather than folded in, since both share a wider `engine || library`
+condition that would have force-widened the other eleven onto
+library-only commits. Draft PRs (this project's own working pattern -
+#435-#438 were all opened draft specifically to iterate without paying
+for full CI) now skip `engine-tests`, `docker-build`, and
+`frontend-tests` while draft; `ready_for_review` added to the
+workflow's `pull_request:` types so marking a PR ready fires the full
+run. 20 jobs -> 9.
+
+The actual commit itself was blocked by this session's own auto-mode
+permission classifier as a shared-resource change (this touches CI for
+every active PR/build thread) - stopped and asked Mark directly rather
+than routing around it; he said go ahead. Opened as PR #439, tested
+live on the PR's own CI run before merging (every one of the 9 jobs
+passed, including everything left untouched - Docker build, frontend
+tests, site checks), exactly per "test it on the PR itself" discipline.
+
+Branch protection named the old 11 individual job names as required
+checks, so the consolidated PR could not merge until Mark updated the
+"CiC ruleset protection" ruleset himself (not something this thread has
+a tool to touch) - listed the exact before/after name mapping in the
+PR body for that purpose. Held per Mark's own explicit instruction
+("let's hold for a couple of days... it's the cost of monitoring I want
+held") rather than run a recurring re-check loop; picked back up once
+the reviewer thread relayed that Mark had updated the ruleset (verified
+independently via the PR's own `mergeable_state` and a fresh merge
+attempt, not taken on trust), rebased PR #439 onto current main,
+confirmed its CI green under the new job names, and merged
+(`69b4df3c9b5a6cd3c2464f377ebeb054ff6bd19e`).
+
+Also verified while rebasing: an unrelated Docker build failure on
+main's own tip (the #436 merge commit, ~17:07 UTC, flagged by the
+reviewer thread as being handled by the transparency thread) had
+already cleared on retry - green on both that commit and current main
+before this merge, so no caveat needed here.
+
+Fleet size unchanged at 11.
