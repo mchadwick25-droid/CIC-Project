@@ -51,23 +51,15 @@ relations:
 - type: associated-with
   target: cappadocian.dw.psalms-teach-the-singer
 modern_rendering: >-
-  Here is what actually happens among us. People come to the house of
-  prayer at night. In the middle of real distress and tears, they make
-  their confession to God. Then they get up from praying and start
-  singing psalms - split into two groups, singing back and forth to
-  each other.
-
-
-  That alone does two things at once. It reinforces everything they
-  have absorbed from the Gospels. And it settles them into a steady,
-  undistracted frame of mind.
-
-
-  After that, one voice starts a psalm and the rest pick it up. This
-  continues all night, through different psalms, with prayers worked
-  in between. Then, as day is breaking, everyone comes together - as
-  if with one voice and one heart - to raise the psalm of confession
-  to the Lord. Each person puts his own repentance into it.
+  Among us, the people go to the house of prayer at night. In distress, affliction, and
+  continual tears, they make confession to God. At last they rise from their prayers and
+  begin to sing psalms. Then, divided into two parts, they sing antiphonally with one
+  another. This confirms their study of the Gospels, and at the same time produces in them
+  a heedful temper and a heart free from distraction. Afterwards, one again begins the
+  strain, and the rest take it up. So, after passing the night in various psalmody,
+  praying at intervals as the day begins to dawn, all together, as with one voice and one
+  heart, raise the psalm of confession to the Lord. Each one forms his own expressions of
+  penitence.
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml. `grep -n "antiphonal"
