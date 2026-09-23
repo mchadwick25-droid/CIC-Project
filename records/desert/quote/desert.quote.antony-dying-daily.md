@@ -17,6 +17,10 @@ sources:
   locus: "SS19 - from Antony's extended discourse to the gathered brothers"
   license: public-domain
 text: "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, \"I die daily .\" For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
+modern_rendering: >-
+  Let us hold on to our discipline. Let us not grow careless. ... To avoid carelessness, it helps to
+  remember the Apostle's words: "I die daily." If we too live each day as if we were dying, we will
+  not sin. ... Our life is uncertain by nature. Providence gives it to us one day at a time.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "\"I die daily\" risks a modern misreading as describing depression, chronic suffering, or a wish for death - the phrase's most available modern register. The quote's own words guard against exactly that reading in the same breath (\"if we too live as though dying daily, we shall not sin\"): this names a daily readiness for mortality as fuel for discipline, not a description of despair."
