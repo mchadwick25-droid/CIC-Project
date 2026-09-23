@@ -479,3 +479,62 @@ rebase was needed before this build). Old
 `git worktree` of this branch's head: 0 new unresolved path
 citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
 present.
+
+**Entry 16 — 2026-09-23 (R40, pahc — 16 of 25 missing quote records
+authored).** hal (PR #462) is done and merged. Next in the reviewer's
+stated order (hal, pahc, syr, fix): `pahc` had 16 of 25 quote records
+missing `modern_rendering`. One PR, one world, authored directly in
+this session (no parallel background subagents), per the standing
+budget-driven sequencing note.
+
+Each rendering was written directly from the record's own `text`
+field, split into short sentences where needed for readability, each
+resulting sentence keeping its own subject and verb and one whole
+thought of the original. Run through `engine/m1/rendering_fidelity.py`'s
+live Haiku 4.5 grader: 2 of the 16 needed real revision against genuine
+findings on the first pass. `moses-is-more-ancient` had dropped
+"whatever" and "both" from its source clause on compression; revised to
+keep both, then confirmed twice. `those-who-lived-reasonably-are-
+christians` was flagged twice, consistently, for inventing the
+connector phrases "this means"/"it means" to introduce its list of
+names — a genuine finding, not grader noise (it repeated on unchanged
+text), and this is the same construction `pahc.quote.justin-reasonable-
+livers` also uses and which happened not to get flagged there; revised
+to supply the list's own elided copula ("such people were") instead of
+an interpretive connector, and confirmed twice. One record,
+`put-away-doubting-from-you`, showed the grader flip to "summary" on
+materially unchanged text on two separate occasions (out of 5 total
+calls), each time citing a clause ("saying to yourself," the closing
+"tender mercies" clause) that is plainly present in the graded
+rendering — the same inconsistency pattern already documented for
+alx/ijc/desert/hal; each time it returned to "translation" on immediate
+re-runs of the identical text, so no rewrite was made and it is not an
+honest exception. **No honest exceptions this pass.** A full-world run
+of all 16 (after both real fixes) came back 16/16 "translation";
+`put-away-doubting-from-you` was independently reconfirmed "translation"
+3/3 on its own before that run.
+
+**Gate results.** `gate_readability` (FK ceiling 10): 0 findings across
+all 16 (range 4.5-9.5). Full `run_all()` (all M1 gates) on pahc: 2
+findings, both the same pre-existing `reciprocity` gap between
+`pahc.limit.enslaved-voices` / `pahc.limit.womens-own-words` and
+`pahc.quote.two-female-slaves-who-were-called-deaconesses` (confirmed
+present on main before this branch, untouched by this PR's 16 records).
+`pytest engine/m1/tests/`: 134 passed, no regressions. No field other
+than `modern_rendering` touched on any record; no per-record notes
+added, per R33.
+
+**Package pin.** Rebuilt and re-pinned once, against
+`ed15e545d3f490eebef9693c19765a23965b93f5` (this PR's own
+modern_rendering commit; main had not moved since branching, so no
+rebase was needed before this build). Old
+`packages/pahc/2026-09-23T08-14-12Z`
+(`sha256:172013415ac56df97f88d122917329fc41c5b6d4a76909912f628eb7f0e1ff22`)
+→ new `packages/pahc/2026-09-23T21-19-18Z`
+(`sha256:fac1498358c0ef5d7577b6bb86263b1741a3d227b875f572b168109e53c2f8af`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifest retired
+(directory kept, per convention).
+`check_paths.py --baseline tools/check_paths_baseline.txt` on a clean
+`git worktree` of this branch's head: 0 new unresolved path
+citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
+present.
