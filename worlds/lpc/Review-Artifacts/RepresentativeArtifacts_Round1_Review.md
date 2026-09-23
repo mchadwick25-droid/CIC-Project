@@ -57,6 +57,17 @@ Template structural compliance (all sections present, correct headers, Capsule C
 
 ---
 
+---
+
+## Targeted recheck (scoped to the six Round 1 fixes only, not a full re-review)
+
+Run the same day. Found H-1, M-2, M-3, M-4, and M-5 all correctly applied with no new issue. Found M-1 incomplete on two points:
+
+1. **An undocumented factual correction had ridden along inside the "sentence breaks only" pass.** The Capsule Core's original draft called Hippo Regius both "inland" and "coastal" in the same clause — a genuine pre-existing internal contradiction, not flagged by Round 1. The M-1 fix silently resolved it (removing "inland," correctly, per Doc_01 §2's own description of Hippo as "a substantial port city on the North African coast") while splitting the same sentence for length. Correct fix, wrongly undisclosed as its own item. **Disclosed here as its own small technical correction**, per CO-022's allowance for such corrections: Hippo Regius is stated as coastal only, consistent with Doc_01 §2. No substantive claim about geography was otherwise affected.
+2. **14 non-boilerplate, non-quotation sentences remained over ~40 words** (9 in the Permanent Prompt, 5 in the Capsule Core) after the first fix pass, contradicting that pass's own completeness claim. **Fix applied:** all 14 broken at existing clause boundaries, content and imagery unchanged. Re-scanned after fixing: no remaining non-boilerplate, non-direct-quotation sentence over 40 words in either document (remaining hits over that length are either the protected Section 1 backstop boilerplate, direct historical quotations, or automated sentence-splitter artifacts merging text across section dividers/headers, not real single long sentences).
+
+Re-verified after this second pass: the full Section 1 backstop block remains byte-for-byte identical to the template; no analytical-distance-marker regression; word counts remain within the same range as before (Permanent Prompt ~4,044 words, Capsule Core ~3,049 words).
+
 ## Overall verdict
 
 Narrow substantial-revision round (per `cic-build-cycle`'s own definition) — not a wholesale rebuild. All six findings were precision fixes (a boilerplate restoration, mechanical sentence-splitting, restoring already-approved Phase Two/Three content that had been over-compressed) rather than new claims requiring fresh research or changing any claim's substance, confidence rating, sourcing conclusion, or scope boundary in a way that contradicts prior phases. Recommendation: apply all six directly (as done above), note them in the Revision Log, and proceed to self-disposition — no escalation category applies. Both artifacts are jointly ready to support Phase Five (Boundary Testing) once the fixes are applied and re-verified, which this build thread has now done.
