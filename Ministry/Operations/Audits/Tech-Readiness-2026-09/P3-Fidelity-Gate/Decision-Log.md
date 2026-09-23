@@ -166,11 +166,68 @@ glyphs) that no apparatus mechanism should paper over. Recorded as
 Rulings-Pending's own Pending 2 rather than stretched to hit the expected
 number.
 
-**Open, per Rulings-Pending.md:** Pending 2 (the newly-discovered
-compounding defects in `cappadocian.quote.basil-on-common-life`) is with
-Mark. Gate registration in `gates.GATES` (item 3) still waits — now on
-Pending 2 alone, plus the three already-escalated OCR-damaged records
-(`don.quote.donatus-quid-est-imperatori`, `don.quote.emeritus-magno-
-argumento`, `ijc.quote.ammianus-roman-luxury`) and `ijc.quote.compelled-to-
-come-in` (#426, in flight) - the expected residue item 3's own brief
-already names.
+**Entry 10 — 2026-09-23 (R33 review round 1, FAIL, and the fix).** The
+reviewer thread reviewed Entry 9's own PR against R33 directly and failed
+it: five of its entries — `endnote-num-after-from-work`,
+`endnote-num-after-her-lover`, `endnote-num-after-paula-comma`,
+`endnote-num-after-christian-church`, `endnote-num-after-in-common`, and
+`stray-column-letter-after-work-with` — were each anchored to one quote's
+own exact surrounding words (a pattern requiring the literal text "from
+work" or "her lover" to appear), a per-quote instruction dressed as an
+edition entry, exactly what R33 forbids: *"we should be setting principles
+we will have a 100 worlds and cant tell the representitive what to say for
+every quote."* What passed: the registry field and its schema comment, the
+two Basil glyph strips (®, »), the unbracketed column locator, the
+bracket-locator punctuation fix, the honest 251 count, and Pending 2
+recorded rather than papered over.
+
+Fixed same round:
+
+- **Palladius** — the three anchored digit patterns replaced by one
+  `kind: endnote-sequence` entry: walk the edition's own real numbered
+  endnotes list (found via the file's own editorial marker, "[Footnotes
+  renumbered and moved to the end]") and strip a bare digit only when it
+  is genuinely the next number that list expects. Tested and correct
+  against clean synthetic data — but real-world testing against the
+  actual vendored file found its own sequence too interleaved with page
+  numbers and bracketed chapter numbers to track safely end to end (the
+  walk stalls well short of the 163rd entry). Rather than ship an unsafe
+  mechanism to hit a number, the entry was dropped: `desert.quote.good-
+  good-i-dont-mind` and `hal.quote.hindered-by-jerome` are
+  `verified-via-authority` instead, each with a divergence_note naming
+  the specific digits confirmed by direct inspection. The mechanism
+  itself stays in the codebase (`strip_endnote_sequence`), tested, for a
+  future cleaner-scanned edition.
+- **Ammianus** — the one anchored pattern replaced by a general "digit
+  glued after a sentence period" pattern, evidenced at 50+ real breaks
+  throughout the file, not the one quote that first surfaced it.
+- **Basil** — the anchored stray-letter pattern replaced by a general
+  "lone column-continuation letter B-E" pattern, evidenced at 231 real
+  breaks (excluding A and I, which are real English words that
+  legitimately open a paragraph — 23 and 42 confirmed real cases
+  respectively). The anchored digit entry (`in common 1 is more`) was
+  dropped rather than generalized: Basil's own footnote numbering does
+  not form one clean sequence the way Palladius's does, so no safe
+  edition-wide rule was found — moot regardless, since **F3** resolves
+  Pending 2 in the same round: `cappadocian.quote.basil-on-common-life`'s
+  own compounding defects (the "Tor"/"For" OCR misread chief among them)
+  are the same case as the already-ruled OCR-damaged don/ijc records, so
+  the record is `verified-via-authority` with the corruption named in its
+  own divergence_note — closed as resolved by that existing ruling, no
+  new ruling needed.
+
+Fleet: 246 baseline → **249/257**. Every remaining failure's own
+`verification_state` is already below `verified-direct`
+(`verified-via-authority` or `unverified`) — exactly the residue item 3's
+own registration brief expects, once `#429` (merged) is rebased onto this
+branch: `pahc.quote.two-female-slaves-who-were-called-deaconesses` will
+drop out of this list too, leaving `desert.quote.good-good-i-dont-mind`,
+`hal.quote.hindered-by-jerome`, `ijc.quote.ammianus-roman-luxury`,
+`ijc.quote.compelled-to-come-in` (#426, in flight),
+`cappadocian.quote.basil-on-common-life`, and the two `don.*` records.
+
+**Resolved, per Rulings-Pending.md:** Pending 2 is closed by Entry 10's F3
+above. Pending 1 stays closed (Entry 9). No entries remain open in
+Rulings-Pending.md as of this entry. Gate registration in `gates.GATES`
+(item 3) can proceed once `#429` lands on this branch and the rebased
+fleet count is confirmed.
