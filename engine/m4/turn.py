@@ -278,7 +278,7 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
 R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition."
 
 
-def _other_tradition_directive() -> str:
+def _other_tradition_directive(evidence_record_ids: list[str] | None = None) -> str:
     """R26 (Decision-Log.md Entry 50, 2026-09-22), Mark's own words: "The
     representative should only know its own sources unless they would
     have known the sources from another in reality." This is the
@@ -287,7 +287,31 @@ def _other_tradition_directive() -> str:
     The fixed sentence here is engine.m4.uncited_claims.
     R26_HONEST_LIMIT_SENTENCE, matched exactly (case-insensitive) by that
     module's own allowed-uncited detection - the two must stay identical
-    by construction, not by convention."""
+    by construction, not by convention.
+
+    evidence_record_ids (R39's own reviewer-ordered fix, relayed
+    2026-09-23): engine.m4.uncited_claims.world_records_mention_tradition's
+    own result - record ids in THIS world's own package that already,
+    genuinely name the tradition asked about. R26's own ruling already
+    named this exception ("unless they would have known the sources from
+    another in reality"); only the mechanism was missing until now. Empty
+    or None (the true "never heard of this tradition" case, e.g. alx on
+    Donatism) keeps the fixed honest-limit sentence exactly as it always
+    was - nothing here changes that branch. A nonempty list (e.g. ijc on
+    Donatism, whose own ijc.quote.compelled-to-come-in and
+    ijc.story.emperor-builds-another-basilica already name it) skips the
+    honest-limit sentence entirely, since saying it would be false, and
+    hands the voice those record ids as its own ground instead - cited
+    under the ordinary citation contract, the same as any other turn."""
+    if evidence_record_ids:
+        ids_text = ", ".join(f"[[{rid}]]" for rid in evidence_record_ids)
+        return (
+            "This question asks about another Christian tradition, not your own world - but your own "
+            f"records already speak to it: {ids_text}. Answer from what those records actually say, cited "
+            "as always, under the ordinary citation contract. Never speak as if you know more about that "
+            "other tradition than what your own records give you and what has actually been said in this "
+            "conversation."
+        )
     return (
         "This question asks about another Christian tradition, not your own world. Answer only from what "
         "your own world's records actually hold about it. If your own records say nothing about the "
@@ -302,6 +326,7 @@ def _build_turn_directive(
     figures_already_named: list[str] | None = None,
     table_engagement: str | None = None,
     is_other_tradition_first_ask: bool = False,
+    other_tradition_evidence_ids: list[str] | None = None,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -374,7 +399,7 @@ def _build_turn_directive(
     if table_engagement:
         parts.append(table_engagement)
     if is_other_tradition_first_ask:
-        parts.append(_other_tradition_directive())
+        parts.append(_other_tradition_directive(other_tradition_evidence_ids))
     return "\n".join(parts)
 
 
@@ -491,6 +516,7 @@ def _run_ordinary_voice_turn(
     usage_world_key: str | None = None,
     guard_labels: list[str] | None = None,
     is_other_tradition_first_ask: bool = False,
+    other_tradition_evidence_ids: list[str] | None = None,
     correction: str | None = None,
     debug_capture: dict | None = None,
     r27_enforce: bool = False,
@@ -592,7 +618,17 @@ def _run_ordinary_voice_turn(
     known_tradition_names already produces for the report-only
     build_uncited_claims_event path, computed by the caller (which has
     registry access this function does not) and passed straight
-    through."""
+    through.
+
+    other_tradition_evidence_ids (R39's own reviewer-ordered fix,
+    2026-09-23, unconditional - never gated behind r27_enforce, since
+    this corrects an existing false statement rather than adding new
+    enforcement): engine.m4.uncited_claims.world_records_mention_
+    tradition's own result for the tradition THIS turn's message names,
+    if any - same caller-computed, registry-access-needed shape as
+    known_tradition_names. Read only inside _build_turn_directive, only
+    when is_other_tradition_first_ask is also true; harmless (and
+    correctly ignored) to pass on any other turn."""
     if r27_enforce and known_tradition_names is None:
         raise ValueError(
             "r27_enforce=True requires known_tradition_names (see engine.m4.uncited_claims.known_tradition_names) "
@@ -642,7 +678,9 @@ def _run_ordinary_voice_turn(
         user_message = f"{context_prefix}\n\n{user_message}"
 
     turn_directive = _build_turn_directive(
-        directive, figures_already_named, table_engagement, is_other_tradition_first_ask=is_other_tradition_first_ask
+        directive, figures_already_named, table_engagement,
+        is_other_tradition_first_ask=is_other_tradition_first_ask,
+        other_tradition_evidence_ids=other_tradition_evidence_ids,
     )
     if correction:
         turn_directive = (turn_directive or "") + correction
@@ -915,6 +953,7 @@ def run_turn(
     history: list[dict] | None = None,
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
+    other_tradition_evidence_ids: list[str] | None = None,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1140,6 +1179,7 @@ def run_turn(
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
             is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
+            other_tradition_evidence_ids=other_tradition_evidence_ids,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
         )
         return TurnResult(

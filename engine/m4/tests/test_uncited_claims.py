@@ -9,6 +9,8 @@ from engine.m4.uncited_claims import (
     find_uncited_claims,
     find_uncited_paragraphs,
     known_tradition_names,
+    match_named_tradition,
+    world_records_mention_tradition,
 )
 
 
@@ -510,3 +512,80 @@ def test_find_uncited_paragraphs_still_catches_a_genuine_inherited_ungrounded_se
     result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
     offenses = find_uncited_paragraphs(result)
     assert any(o["class"] == "inherited_ungrounded" for o in offenses)
+
+
+# R39's own reviewer-ordered fix (relayed 2026-09-23): the false fixed
+# honest-limit sentence. match_named_tradition/world_records_mention_
+# tradition are this fix's own detection half - engine.m4.turn's own
+# _other_tradition_directive tests (test_turn.py) pin the participant-
+# facing half.
+def test_match_named_tradition_finds_the_demonym_not_just_the_card_name():
+    # Same real gap F5 already found for classify_neighbour_named
+    # (module docstring above): a probe names "the Donatists", never
+    # don's own card_name "The Church of the Martyrs" - this function
+    # must resolve the demonym back to don's own world_key regardless.
+    assert match_named_tradition(
+        "What was your relationship with the Donatists?", _registry(), exclude_world_key="alx"
+    ) == "don"
+
+
+def test_match_named_tradition_returns_none_for_a_non_fleet_name():
+    # "The Arians" names no world in this fleet's own registry (Arianism
+    # is not one of the 11 formation worlds) - the caller's own fallback
+    # to the unconditional honest-limit sentence is correct here, since
+    # there is no registry world to check a real mention against.
+    assert match_named_tradition("What did the Arians believe?", _registry(), exclude_world_key="alx") is None
+
+
+_DONATISM_MENTIONING_REPOSITORY = {
+    "ijc.quote.compelled-to-come-in": {
+        "id": "ijc.quote.compelled-to-come-in", "record_type": "quote",
+        "text": (
+            "Wherefore, if the power which the Church has received by divine appointment... it seemed to "
+            "certain of the brethren, of whom I was one, that although the madness of the Donatists was..."
+        ),
+    },
+    "ijc.dw.unrelated": {
+        "id": "ijc.dw.unrelated", "record_type": "doctrinal_witness",
+        "text": "The council met at Nicaea and confessed the faith the churches already worshipped.",
+    },
+}
+
+_ALX_CHURCH_FAILURE_REPOSITORY = {
+    "alx.dw.church-failure": {
+        "id": "alx.dw.church-failure", "record_type": "doctrinal_witness",
+        "text": "Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them.",
+    },
+}
+
+
+def test_world_records_mention_tradition_finds_a_real_reference():
+    # Real-shaped, per the reviewer's own explicit ask: ijc's own records
+    # genuinely name Donatism (ijc.quote.compelled-to-come-in) - the
+    # excerpt is trimmed but the real record's own words, not invented.
+    ids = world_records_mention_tradition(_DONATISM_MENTIONING_REPOSITORY, _registry()["don"])
+    assert ids == ["ijc.quote.compelled-to-come-in"]
+
+
+def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it():
+    # alx's own church-failure record - the R37/R38 worked example's own
+    # ground - never names Donatism at all; the true "honest-limit stays
+    # exactly as it is" case.
+    ids = world_records_mention_tradition(_ALX_CHURCH_FAILURE_REPOSITORY, _registry()["don"])
+    assert ids == []
+
+
+def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
+    # The same false positive R37's own design brief already found and
+    # fixed (Decision-Log.md Entry 57, PR #438): a vendored source
+    # filename carrying an unrelated name as a substring is not real
+    # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
+    # must not count as evidence.
+    repository = {
+        "x.rec": {
+            "id": "x.rec", "record_type": "doctrinal_witness",
+            "text": "An ordinary sentence naming nobody in particular.",
+            "sources": [{"source_id": "x.source.one", "locus": "anf-hermas-tatian-donatism-appendix.xml"}],
+        }
+    }
+    assert world_records_mention_tradition(repository, _registry()["don"]) == []

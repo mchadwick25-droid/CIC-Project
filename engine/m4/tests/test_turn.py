@@ -1223,3 +1223,29 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["attempts_meta"]["r27_regenerated"] is False
     assert voice_event["r27_enforcement_exhausted"] is False
     assert voice_event["paragraph_offenses"] == []
+
+
+# R39's own reviewer-ordered fix (relayed 2026-09-23): _other_tradition_
+# directive's own honest-limit sentence used to fire unconditionally,
+# even for a world (ijc) whose own records already name the tradition
+# asked about - provably false in that case. Both branches pinned
+# directly, per the reviewer's own explicit "test both branches"
+# instruction, so a future edit can't silently reintroduce either defect
+# shape (a world with real evidence still forced to deny it, or a world
+# with none suddenly handed a fabricated "your records speak to it").
+def test_other_tradition_directive_keeps_the_fixed_sentence_when_there_is_no_evidence():
+    text = turn_module._other_tradition_directive(None)
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
+    assert "your records already speak to it" not in text
+
+
+def test_other_tradition_directive_keeps_the_fixed_sentence_on_an_empty_evidence_list():
+    text = turn_module._other_tradition_directive([])
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
+
+
+def test_other_tradition_directive_skips_the_fixed_sentence_when_the_world_own_records_already_name_it():
+    text = turn_module._other_tradition_directive(["ijc.quote.compelled-to-come-in", "ijc.story.emperor-builds-another-basilica"])
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE not in text
+    assert "[[ijc.quote.compelled-to-come-in]]" in text
+    assert "[[ijc.story.emperor-builds-another-basilica]]" in text
