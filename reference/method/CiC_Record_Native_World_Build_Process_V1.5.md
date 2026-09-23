@@ -207,7 +207,12 @@ holds it, and it holds nothing else. Concretely:
   accumulate anywhere in this process.
 - Quote records author their `modern_rendering` at birth. The spoken
   form is a modern-English translation, never the archaic original; the
-  original stays as the record's `text` for Level 3.
+  original stays as the record's `text` for Level 3. **A rendering may
+  be split into shorter sentences to pass readability only where each
+  resulting sentence has its own subject and verb and carries one whole
+  thought of the original (2026-09-23, R40 alx `modern_rendering` pass,
+  PR #442) — a fragment is never an acceptable rendering, whatever the
+  grader or the FK score says.**
 - **The verbatim gate is a birth condition (2026-09-23, item 3 of the P3
   registration brief).** `gate_quote_verbatim` (`engine/m1/gates.py`,
   `engine/m1/quote_verbatim.py`) runs on each quote record as it is
