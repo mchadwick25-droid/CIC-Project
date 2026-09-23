@@ -148,15 +148,15 @@
     "ijc": {
       "world": "ijc",
       "total_quotes": 39,
-      "verified_count": 36,
-      "failed_count": 3,
+      "verified_count": 37,
+      "failed_count": 2,
       "exact_no_diff_count": 2,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 34,
+        "whitespace": 35,
         "case": 0,
         "punctuation": 6,
-        "ellipsis": 5,
+        "ellipsis": 6,
         "bracket": 2,
         "verse_number": 0,
         "apparatus": 0
@@ -176,13 +176,6 @@
           "failed_segment": "Damasus and Ursinus, being both immoderately eager to obtain the bishopric, formed parties and carried on the conflict with great asperity, the partisans of each carrying their violence to actual battle, in which men were wounded and killed. And as Juventius was unable to put an end to, or even to soften these disorders, he was at last by their violence compelled to withdraw to the suburbs. Ultimately Damasus got the best of the strife by the strenuous efforts of his partisans. It is certain that on one day one hundred and thirty-seven dead bodies were found in the Basilica of Sicininus, which is a Christian church. And the populace who had been thus roused to a state of ferocity were with great difficulty restored to order.",
           "nearest_context": "               Yonge, Charles Duke (Translator)\n     Print Ba",
           "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "ijc.quote.compelled-to-come-in",
-          "source_file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
-          "failed_segment": "However, before those laws were sent into Africa by which men are compelled to come in to the sacred Supper, it seemed to certain of the brethren, of whom I was one, that although the madness of the Donatists was to be checked, it should be by other means.",
-          "nearest_context": "t. Augustine, such as On the \nHoly Trinity, Christian Doctrine",
-          "recorded_verification_state": "unverified"
         }
       ]
     },
@@ -321,8 +314,8 @@
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 247,
-    "failed_count": 10,
+    "verified_count": 248,
+    "failed_count": 9,
     "note_verified_count": 1
   }
 }
