@@ -79,6 +79,14 @@
       ]
     },
     {
+      "id": "retrieval-negatives-structured-dnrw-regression",
+      "gate": "retrieval-negatives-structured",
+      "status": "caught",
+      "findings": [
+        "fix.term.the-way: retrieval.do_not_retrieve_when is populated (1 line(s)) - R11's split retired this field; move each line to prefer_instead or claim_guards"
+      ]
+    },
+    {
       "id": "confidence-crosscheck-unjustified-null-divergence",
       "gate": "confidence-crosscheck",
       "status": "caught",
@@ -199,6 +207,14 @@
       "status": "caught",
       "findings": [
         "fix.front.fixture-synthetic: quotation-mark span 'We did not ask what a person had been before the water. We asked only what they '... matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (Mark's standing quote ruling)"
+      ]
+    },
+    {
+      "id": "quote-verbatim-word-substitution",
+      "gate": "quote-verbatim",
+      "status": "caught",
+      "findings": [
+        "fix.quote.witness-saying: does not verify against cic/texts/fixture-synthetic_witness-scroll.txt - failed segment 'I did not see him. I only saw what his enemies could not stop telling.'; nearest source text: '_______________________\\n\\nTHE WITNESS SCROLL\\n(a fixture text -'"
       ]
     },
     {

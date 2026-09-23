@@ -24,12 +24,13 @@ score: two texts that are 99% alike by any fuzzy metric still fail here
 if the 1% is a substituted word, because that 1% is exactly the shape of
 fabrication CLAUDE.md's "Source fidelity" section exists to catch.
 
-REPORT-ONLY, not yet in gates.GATES (this PR). `gate_quote_verbatim`
-below is written in the exact `gate_*(records, fleet, registry) -> list[str]`
-shape every other gate uses, specifically so promoting it later is the
-one-line change CLAUDE.md's own default-actions table calls for
-("CI/infra mechanical fix... Just do it") - see gates.py's own
-registration comment when that PR lands.
+REGISTERED IN gates.GATES (item 3 of the registration brief, 2026-09-23) -
+report-only through PR #422; `gate_quote_verbatim` below was always
+written in the exact `gate_*(records, fleet, registry) -> list[str]` shape
+every other gate uses, specifically so promoting it was the one-line
+change CLAUDE.md's own default-actions table calls for ("CI/infra
+mechanical fix... Just do it") - see gates.py's own registration comment
+for the fleet-wide package-rebuild that promotion required.
 
 HOW A DIFFERENCE CLASS IS DETECTED. Rather than normalizing the source
 text and losing track of where a match actually sits, the record's own
@@ -578,12 +579,31 @@ def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> Verif
     return best
 
 
+# R35 (Mark, item 3, registration): "this is about the build quality, not
+# fix on fix." Registered in gates.GATES - see that module's own
+# registration comment for the fleet-wide package-rebuild this requires.
+# A record below `_REQUIRED_VERIFICATION_STATE` has already been through
+# its own escalation (verified-via-authority, named-not-rechecked,
+# unverified) precisely because this gate - or a human reading its own
+# report - could not or should not confirm it automatically; the gate
+# skips it rather than re-relitigating that escalation every build. Pinned
+# by name, not inlined, so a future change to which states are in scope is
+# a one-line, evidenced decision, not a silent drift.
+_REQUIRED_VERIFICATION_STATE = "verified-direct"
+
+
 def gate_quote_verbatim(records, fleet, registry) -> list[str]:
-    """Same `gate_*` shape as everything in gates.GATES - not registered
-    there yet (report-only, this PR)."""
+    """Registered in gates.GATES (item 3). Skips any quote record whose
+    own `confidence.verification_state` is below
+    `_REQUIRED_VERIFICATION_STATE` - already escalated, out of this
+    gate's scope by design, not silently ignored (each such record's own
+    `divergence_note` states why)."""
     findings = []
     for rid, rec in records.items():
         if rec.get("record_type") != "quote":
+            continue
+        state = (rec.get("confidence") or {}).get("verification_state")
+        if state != _REQUIRED_VERIFICATION_STATE:
             continue
         result = verify_quote_record(rec, records, fleet)
         if not result.verified:

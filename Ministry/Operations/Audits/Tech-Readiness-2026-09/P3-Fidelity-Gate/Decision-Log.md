@@ -231,3 +231,83 @@ above. Pending 1 stays closed (Entry 9). No entries remain open in
 Rulings-Pending.md as of this entry. Gate registration in `gates.GATES`
 (item 3) can proceed once `#429` lands on this branch and the rebased
 fleet count is confirmed.
+
+**Entry 11 — 2026-09-23 (item 3, PR #435 — a claimed `check_paths.py`
+failure that does not reproduce).** The reviewer thread reported that PR
+#435 (head `0e5a4119`) fails "Cited paths resolve; retired paths absent"
+because `worlds/ijc/Open_Gaps_Tracking.md` line 157 cites
+`packages/ijc/2026-09-23T04-41-35Z` — the package path item 3a's fleet
+repin orphaned when `ijc` moved to `packages/ijc/2026-09-23T08-14-01Z` —
+with a specific claimed output ("1 new unresolved path citation(s); 770
+total; 769 accepted in baseline", exit 1), and asked for line 157 to be
+re-pointed at `records/worlds/ijc.yaml` instead.
+
+Per this project's own verify-before-acting discipline, that claim was
+checked directly rather than acted on:
+
+- Running the exact command specified
+  (`python tools/check_paths.py --baseline tools/check_paths_baseline.txt`)
+  on that exact commit, on a clean tree, twice, both times returned
+  **"0 new unresolved path citation(s); 769 total; 769 accepted in
+  baseline; 0 retired path(s) present"** — exit 0. The claimed output does
+  not reproduce.
+- Reading `tools/check_paths.py`'s own `resolves()` explains why: it
+  checks `target.exists()` on the literal token — directory existence, not
+  a specific file within it. `packages/ijc/2026-09-23T04-41-35Z` (the
+  directory) still exists on disk; only its `manifest.json` was removed by
+  the repin, per the "retire manifest.json only, keep the directory"
+  convention used throughout this build. The citation resolves regardless
+  of the stale manifest. `tools/retired_paths.txt` does not list this path
+  either, so `retired_present()` does not flag it.
+- The PR's own actual CI run for that check
+  (`mchadwick25-droid/CIC-Project` run `35836710589`, job
+  `107101801714`) shows `conclusion: failure` but a ~2-second duration and
+  no downloadable logs (404) — every other job on the same run shows the
+  identical zero-duration `skipped` pattern. This is the same signature
+  previously diagnosed on PR #430 as a GitHub Actions account-payment
+  failure (jobs never start; no logs), not a real script failure — so this
+  run could not have produced the specific stdout quoted in the claim
+  either.
+
+**No code or content change made in response to this claim.** The
+suggested edit (citing `records/worlds/ijc.yaml` instead of a timestamped
+package path) may be reasonable future practice on its own terms, but
+applying it now, as if confirming an unverified and seemingly incorrect
+CI-failure claim, would be exactly the kind of unverified action this
+project's fidelity discipline exists to prevent — and line 157 is a
+historical narrative entry (it names the specific path #431's own re-pin
+landed on at the time, the same way this log cites superseded PR numbers
+and branch names elsewhere), not a live "current state" pointer that
+`check_paths.py` was ever meant to hold current. Reported back to the
+reviewer thread via PR #435 for reconciliation before any edit is made.
+
+**Entry 12 — 2026-09-23 (reconciliation: Entry 11's claim reproduces on a
+clean worktree — fix applied).** The reviewer thread's answer identified
+the actual gap in Entry 11's own verification: `packages/*/*/**` is
+gitignored except `manifest.json` (`.gitignore` lines 44-45), so this
+session's own working tree still held `packages/ijc/2026-09-23T04-41-35Z/`
+as untracked build output left over from item 3a's repin — the directory
+that pin's own commit removed from git (`git ls-tree` on that commit shows
+it empty) but which the "retire manifest.json only, keep the directory"
+convention never deleted from disk. `resolves()` saw that untracked
+directory and returned true. A clean checkout has no such directory,
+because git does not track empty ones. Reproduced directly: `git worktree
+add /tmp/clean ffb1d791` (no such directory present) then
+`python tools/check_paths.py --baseline tools/check_paths_baseline.txt`
+there returned exactly the claimed **"1 new unresolved path citation(s);
+770 total; 769 accepted in baseline; 0 retired path(s) present"**, exit 1,
+naming `worlds/ijc/Open_Gaps_Tracking.md: packages/ijc/2026-09-23T04-41-35Z`.
+Entry 11 stands as written — a real verification step whose local
+environment, not its method, produced the wrong answer — rather than
+struck through.
+
+Fix applied: entry 19 of `worlds/ijc/Open_Gaps_Tracking.md` now says the
+current pin is recorded in `records/worlds/ijc.yaml` rather than citing
+the timestamped package directory the #431 re-pin happened to land on;
+the sentence's own meaning (that #431 re-pinned the package rather than
+force-pushing #426's archived branch) is unchanged. Nothing else in that
+file touched. No baseline or ignore-rule change, per instruction. Going
+forward, `check_paths.py` runs against a clean `git worktree`, not the
+working tree, before any push that repins a package — a working tree with
+leftover untracked build output is not a substitute for what CI actually
+sees.

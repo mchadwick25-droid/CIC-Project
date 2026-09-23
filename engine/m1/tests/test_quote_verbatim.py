@@ -753,3 +753,61 @@ def test_basil_unbracketed_column_locator_pattern_isolated():
     stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
     assert "382A" not in stripped
     assert "that which is" in stripped and "written" in stripped
+
+
+# --- gate registration (item 3, R33/R35) --------------------------------
+
+
+def _quote_record(rid: str, text: str, verification_state: str) -> dict:
+    return {
+        "id": rid,
+        "record_type": "quote",
+        "text": text,
+        "confidence": {"verification_state": verification_state},
+    }
+
+
+def test_gate_quote_verbatim_skips_a_record_below_verified_direct():
+    """A record whose own verification_state is already escalated
+    (verified-via-authority, named-not-rechecked, unverified) is out of
+    this gate's scope by design - it never produces a finding, no matter
+    how badly its own `text` would fail to verify, because that
+    escalation already says a human looked at this one directly."""
+    from engine.m1.quote_verbatim import gate_quote_verbatim
+
+    for state in ["verified-via-authority", "named-not-rechecked", "unverified"]:
+        records = {"w.quote.x": _quote_record("w.quote.x", "words that appear nowhere in any source", state)}
+        findings = gate_quote_verbatim(records, {}, {})
+        assert findings == [], (state, findings)
+
+
+def test_gate_quote_verbatim_still_checks_a_verified_direct_record():
+    """The one state this gate actually acts on - a verified-direct
+    record with unresolvable text still produces a finding."""
+    from engine.m1.quote_verbatim import gate_quote_verbatim
+
+    records = {"w.quote.x": _quote_record("w.quote.x", "words that appear nowhere in any source", "verified-direct")}
+    findings = gate_quote_verbatim(records, {}, {})
+    assert len(findings) == 1
+    assert "w.quote.x" in findings[0]
+
+
+def test_gate_quote_verbatim_registered_in_gates_dict():
+    from engine.m1.gates import GATES
+
+    assert "quote-verbatim" in GATES
+    assert GATES["quote-verbatim"].__name__ == "gate_quote_verbatim"
+
+
+def test_gate_quote_verbatim_via_run_all_skips_residue_and_finds_nothing_fleet_wide():
+    """The real, registered gate, run the same way `run_all` runs every
+    gate, across a real admitted world with known escalated residue
+    (don, whose two OCR-damaged records are both verified-via-authority)
+    - zero findings, because the residue is skipped, not silently wrong."""
+    from engine.m1.gates import GATES
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("don")
+    fleet = load_fleet_records()
+    findings = GATES["quote-verbatim"](records, fleet, {})
+    assert findings == []

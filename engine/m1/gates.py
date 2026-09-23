@@ -14,6 +14,7 @@ from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade
+from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS
 
@@ -1327,6 +1328,23 @@ GATES = {
     # re-pinned again to pick up this gate's own findings (0, fleet-wide,
     # confirmed before registering).
     "quote-mark-fidelity": gate_quote_mark_fidelity,
+    # gate_quote_verbatim (engine/m1/quote_verbatim.py): registered
+    # 2026-09-23, item 3 of the P3 registration brief, R35 (Mark, in his
+    # own words): "this is about the build quality, not fix on fix." Was
+    # report-only through PR #422/#429/#430 while the tolerance classes
+    # (whitespace/case/punctuation/ellipsis/bracket/verse_number/
+    # apparatus - fleet-wide and per-edition) were still being ruled and
+    # built. Same package-rebuild consequence as quote-mark-fidelity's own
+    # registration above: validation/gates-report.json is baked into
+    # every already-built world's committed package manifest, so adding
+    # this gate changes that file for every world, real or fixture, the
+    # instant it is registered - every world's package was rebuilt and
+    # re-pinned to pick up this gate's own findings (0, fleet-wide,
+    # confirmed before registering: the gate skips any record whose own
+    # verification_state is below verified-direct - see
+    # quote_verbatim.py's own `_REQUIRED_VERIFICATION_STATE` - and every
+    # record still at verified-direct already verifies).
+    "quote-verbatim": gate_quote_verbatim,
     # flag_cross_record_consistency and check_mode3_claim_fidelity are
     # NOT registered here, and are not deferred-pending-a-rebuild the way
     # quote-mark-fidelity was - each has its own, permanent reason to sit

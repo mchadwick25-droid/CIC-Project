@@ -245,6 +245,14 @@ defects:
     mutation: {op: set_field, path: "skim.tile.text", value: "Testland's own record speaks for itself: \"We did not ask what a person had been before the water. We asked only what they carried after it.\""}
     expected_failure: "quotation-mark span matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (Mark's standing quote ruling)"
 
+  - id: quote-verbatim-word-substitution
+    gate: quote-verbatim
+    layer: M1
+    note: "item 3 registration (2026-09-23), R33/R35. fix.quote.witness-saying's own text is verbatim against cic/texts/fixture-synthetic_witness-scroll.txt (line 1.4); this mutation substitutes one word for a near-synonym - the exact shape the module's own docstring names as always-disallowed, regardless of how small: a word substitution is never a tolerated difference class, unlike an ellipsis-marked elision or a bracketed editorial insertion."
+    target_record: records/fix/quote/fix.quote.witness-saying.md
+    mutation: {op: set_field, path: text, value: "I did not see him. I only saw what his enemies could not stop telling."}
+    expected_failure: "\"enemies\" for \"witnesses\" is a substituted word, not an allowed difference class (whitespace/case/punctuation/ellipsis/bracket/verse_number/apparatus) - verify_quote_text fails the segment"
+
   - id: inertness-proof
     gate: inertness
     layer: M1
