@@ -3092,3 +3092,116 @@ expected to move the other. No new "safe to leave enforcement off"
 threshold is justified by this measurement; R36's own existing
 threshold discussion (Rulings-Pending.md) stands unchanged. Full
 per-world numbers: `g1-citation-contract-battery-2026-09-23.json`.
+
+**Entry 61 — 2026-09-23.** Mark's own follow-up ask, before this PR
+opens: the precision of the detector (`engine.m4.uncited_claims.find_
+uncited_claims`) that produced Entry 60's own 95.5% raw rate. Entry
+60's own battery script only persisted aggregate counts, not the real
+flagged-sentence text, so it could not be sampled directly - an honest
+methodology note, not glossed over: `engine/m4/reports/g1_precision_
+sample_measure.py` re-runs the identical battery mechanism, CURRENT
+citation-contract wording only (Entry 60's own finding - the proposed
+wording made no measurable difference to the raw rate - means which
+condition this sample is drawn from does not bear on the detector's
+own precision), 11 worlds x 2 probes = 22 fresh probes, keeping every
+raw offense's own sentence text this time. **Real cost: $1.6527, 22
+probes, 155 raw offenses captured.**
+
+**Sample:** 40 of the 155, stratified across all 11 worlds (2-5 per
+world, proportional to each world's own share), hand-read against each
+world's own real, freshly-compiled records (`engine.m2.compiler.
+compile_and_hash`, not assumed from general historical knowledge - a
+sample of the "supported" classifications below was independently
+verified by searching each world's own compiled repository for the
+specific named claim, not trusted on plausibility alone, given this
+whole investigation is about not trusting plausible-sounding, unverified
+claims).
+
+**The three counts Mark asked for: 0 unsupported, 14 supported but
+untagged, 26 interpretive or connective.**
+
+- **Unsupported (0 of 40):** none found. Not one of the 40 sampled
+  sentences asserted a claim this hand-read could not find real support
+  for, somewhere in the speaking world's own repository.
+- **Supported but untagged (14 of 40):** the record makes the claim,
+  the voice simply never attached a tag to it. Three verified directly
+  against the compiled repository: *"Traveling through Palestine,
+  Origen was ordained a presbyter by the bishops there, without his own
+  bishop's consent"* (alx) - matches `alx.story.origen-demetrius` and
+  `alx.quote.demetrius-accused-him-bitterly` almost verbatim.
+  *"Slaves encouraged to despise their masters and leave them"*
+  (cappadocian) - matches `cappadocian.story.slave-market-sermon` and
+  `cappadocian.force.ascetic-ferment` directly. *"Those customs - the
+  twelve psalms at evening and at night, received from an angel..."*
+  (gallic) - matches `gallic.core.gallic` and `gallic.figure.cassian`
+  directly, specific enough (two numbers, a named source) that it reads
+  as an oversight, not an interpretive choice. Also in this bucket:
+  witt's own quoted confession language ("freely justified for Christ's
+  sake through faith...") - real quoted text with no tag, a citation-
+  contract violation in its own right (the contract's own verbatim-
+  fidelity promise applies to quotes specifically) distinct from R27's
+  own uncited-claim class, surfaced by this same sample.
+- **Interpretive or connective (26 of 40):** the contract already says
+  these need no tag - transitional framing ("So there were two
+  arguments at once," "It did not end cleanly"), rhetorical summary
+  ("The whole world knew it," "The wound had a shape before it had a
+  name"), and analytical synthesis connecting two already-cited ideas
+  rather than naming a new one. Two sub-cases worth naming separately,
+  both real detector-precision gaps rather than ordinary connective
+  prose: (a) two sentences (ijc, pahc) are honest-limit in function -
+  *"Our record doesn't mention 'Alexandrian Christianity' as though it
+  were a separate tradition from our own"* - but got caught by the
+  `neighbour_named` upgrade specifically because they name a fleet
+  world while denying knowledge of it; (b) one sentence (syr) -
+  *"Beyond that, the record runs thin"* - is honest-limit scaffolding
+  in plain English that `engine.prose.SCAFFOLD_MARKERS`'s own fixed
+  phrase list does not happen to cover, a real, narrow gap in that
+  vocabulary's own coverage, not a judgment call.
+
+**Three options for Mark, one paragraph each, no decision - what each
+does to the participant's transcript and to the Facilitator step-in
+rate:**
+
+**(i) R27 stays report-only, the contract stands as written, the
+detector is kept as an instrument with its measured precision.** The
+participant's transcript is unaffected either way - report-only already
+means nothing the detector flags ever reaches the participant
+differently today. The Facilitator step-in rate stays exactly where R36
+already set it (`wholly_uncited_paragraph` only, `neighbour_named` a
+hard per-sentence failure). This option treats the 0/14/26 split as
+useful measurement, not as a reason to touch anything - the detector
+over-flags real declarative prose relative to what it's actually FOR
+(R27's own stated job is catching a genuinely uncited claim, and 26 of
+40 flags here are prose the contract already exempts), but nothing here
+currently acts on a flag without a human step, so the cost of that
+over-flagging is borne by review effort, not by a participant.
+
+**(ii) The contract adopts the paragraph rule and enforcement returns
+once a generation-side change moves the raw rate, which this run says
+wording does not.** No participant-facing change today - this option
+is conditional on a FUTURE result this measurement did not produce.
+If a real generation-side fix is later found that does move the raw
+rate down, enforcement (regenerate-once-then-Facilitator, R36's own
+existing shape) returns on the improved population; the Facilitator
+step-in rate would then track whatever residual rate that future fix
+leaves, not the 95.5%/32% measured here. Until such a fix exists, this
+option is functionally identical to (i) - it names a bar for
+re-enabling enforcement rather than changing anything now.
+
+**(iii) The detector is rebuilt around "unsupported" only, with the two
+honest kinds (supported-but-untagged, interpretive-or-connective)
+exempt, and re-measured before any enforcement.** This would require
+real new work - `find_uncited_claims` becomes a support check against
+the world's own records (closer in shape to candidate C, R38's own
+Entry 57/59, than to the current lexical/pattern gate), not the fixed-
+pattern exemption list it is today. If built and re-measured with
+precision closer to 1.0 on "unsupported" specifically, the participant-
+facing transcript would see far fewer false triggers on honest,
+supported prose (only the 0-of-40 unsupported class would ever
+regenerate a paragraph), and the Facilitator step-in rate would fall to
+track genuine fabrication rather than tagging completeness and
+connective-sentence false positives - but this sample's own 0/40 real
+unsupported count on a small hand-read is not itself evidence the
+rebuilt detector would perform well; that needs its own live
+measurement once built, the same discipline every other candidate in
+this project has been held to.
