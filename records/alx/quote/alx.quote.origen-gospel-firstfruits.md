@@ -19,6 +19,10 @@ sources:
   license: public-domain
 text: We may therefore make bold to say that the Gospels are the first fruits of all the Scriptures, but
   that of the Gospels that of John is the first fruits.
+modern_rendering: >-
+  So we may boldly say that the Gospels are the firstfruits of all the
+  Scriptures. And among the Gospels, the Gospel of John is the
+  firstfruits.
 speaker_or_author: alx.figure.origen
 license: verbatim
 modern_lens_note: >

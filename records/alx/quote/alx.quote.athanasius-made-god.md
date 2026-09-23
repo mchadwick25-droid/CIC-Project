@@ -27,6 +27,7 @@ relations:
 - type: associated-with
   target: alx.term.theosis
 text: For He was made man that we might be made God...
+modern_rendering: For he was made man, so that we might be made God...
 speaker_or_author: alx.figure.athanasius
 license: verbatim
 modern_lens_note: >

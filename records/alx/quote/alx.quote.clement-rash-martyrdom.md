@@ -23,6 +23,15 @@ text: Now we, too, say that those who have rushed on death (for there are some, 
   publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they
   have not known the only true God, but give themselves up to a vain death,
   as the Gymnosophists of the Indians to useless fire.
+modern_rendering: >-
+  Now we too say this about those who rush toward death. There are some,
+  not truly one of us but bearing the name only, who are eager to give
+  themselves up, poor wretches, dying out of hatred for the Creator. These
+  people, we say, banish themselves from true martyrdom even though they
+  suffer publicly for it. They do not carry the mark of a believing
+  martyr's death, because they have not known the one true God. They give
+  themselves up to a pointless death, like the naked sages of the Indians,
+  who throw themselves onto a useless fire.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

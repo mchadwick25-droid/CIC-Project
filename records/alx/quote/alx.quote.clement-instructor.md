@@ -19,6 +19,9 @@ sources:
   locus: I.2 (anf02 line 18785)
   license: public-domain
 text: Our Instructor, the Word, therefore cures the unnatural passions of the soul by means of exhortations.
+modern_rendering: >-
+  Our Instructor, the Word, therefore heals the soul's unnatural passions
+  by means of appeals.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

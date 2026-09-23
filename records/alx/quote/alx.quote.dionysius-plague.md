@@ -38,6 +38,13 @@ text: The most of our brethren were unsparing in their exceeding love and brothe
   fast to each other and visited the sick fearlessly, and ministered to them continually, serving them
   in Christ. And they died with them most joyfully, taking the affliction of others, and drawing the sickness
   from their neighbors to themselves and willingly receiving their pains.
+modern_rendering: >-
+  Most of our people held nothing back in their overflowing love and
+  kindness toward one another. They stayed close to each other, visited
+  the sick without fear, and cared for them continually, serving them in
+  Christ. And they died alongside them most joyfully. They took on
+  others' suffering, drawing the sickness from their neighbors onto
+  themselves, and willingly taking on their pain.
 speaker_or_author: alx.figure.dionysius
 license: verbatim
 modern_lens_note: >
