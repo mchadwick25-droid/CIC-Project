@@ -151,17 +151,82 @@ def classify_neighbour_named(offense: dict, known_tradition_names: list[str]) ->
     return offense
 
 
-def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: bool) -> dict:
+# R27-A item 1 (Decision-Log.md Entry 55, 2026-09-23), PASS-verdicted in
+# PR #421: as built in PR #420, this upgrade fired on EVERY base
+# uncited_claim inside an other_tradition turn unconditionally - 24/24 in
+# that run's own live data, which under a per-sentence hard failure would
+# fail nearly every other_tradition turn on its own narrative frame, the
+# exact over-flagging problem R27-A itself exists to stop. Narrowed: a
+# sentence is own_doctrine_in_other_tradition_turn only when it ALSO
+# appears in failing_paragraph_sentences - the set find_uncited_paragraphs
+# below already flagged as a real paragraph-level failure (wholly
+# uncited, or its own inherited check failed). A frame sentence whose
+# paragraph the net actually grounds is not upgraded, even inside an
+# other_tradition turn - R26 was never "tag every sentence," it was
+# "don't assert what this world's own records don't hold," and a
+# paragraph-grounded frame sentence is not that.
+def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: bool, failing_paragraph_sentences: set[str]) -> dict:
     """Upgrades a base "uncited_claim" offense to
     "own_doctrine_in_other_tradition_turn" when the whole turn was routed
     via the other_tradition out-of-scope classification
     (engine.m5.routing.PRESSABLE_CLASSES, RoutingDecision.
     out_of_scope_class) - routing context the caller already has
     (engine.m5.failure.resolve_gate's own result), not something this
-    module re-derives."""
-    if is_other_tradition_turn and offense["class"] == "uncited_claim":
+    module re-derives - AND that same sentence is a real paragraph-level
+    failure per find_uncited_paragraphs (module docstring above)."""
+    if is_other_tradition_turn and offense["class"] == "uncited_claim" and offense["sentence"] in failing_paragraph_sentences:
         return {**offense, "class": "own_doctrine_in_other_tradition_turn"}
     return offense
+
+
+# R27-A item 2 (Decision-Log.md Entry 55): a paragraph-level offense
+# list, additive and separate from find_uncited_claims's own sentence-
+# level offenses above (which stays exactly as it is - Entry 54/55's own
+# build order). paragraph_check is
+# engine.m4.grounding_net.check_turn_with_paragraph_coverage's own whole
+# result - "sentences" and "paragraph_coverage" are read from the SAME
+# call, so a paragraph's own sentence_count partitions "sentences" back
+# into groups with no risk of drift against a second, independently-
+# computed sentence list.
+#
+# Two failure kinds, reported with distinct classes so a battery can
+# count them separately (the reviewer thread's own instruction, PR #421's
+# verdict):
+#   "wholly_uncited_paragraph" - every sentence in the paragraph carries
+#     no citation anywhere in it, and at least one of its sentences is a
+#     real, non-exempt claim - the same three allowed-uncited kinds
+#     find_uncited_claims already exempts (a question, an honest-limit
+#     sentence, first-person framing with no claim), reused here via the
+#     identical checks, not reinvented.
+#   "inherited_ungrounded" - the sentence carries no tag of its own, its
+#     paragraph (or, for a one-sentence paragraph, the paragraph
+#     immediately before it - Entry 55's own recommendation) DOES carry a
+#     citation, but the inherited check against that citation's own
+#     records still fails - a sentence the paragraph's own evidence
+#     cannot actually support, not merely one riding along uncited.
+def find_uncited_paragraphs(paragraph_check: dict) -> list[dict]:
+    sentences = paragraph_check.get("sentences") or []
+    offenses = []
+    index = 0
+    for para in paragraph_check.get("paragraph_coverage") or []:
+        para_sentences = sentences[index : index + para["sentence_count"]]
+        index += para["sentence_count"]
+        if para["wholly_uncited"]:
+            for sent in para_sentences:
+                if sent["verdict"] != "ok":
+                    continue
+                text = sent["sentence"]
+                if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
+                    continue
+                offenses.append({"sentence": text, "class": "wholly_uncited_paragraph"})
+        else:
+            for i, sent in enumerate(para_sentences):
+                if sent["verdict"] != "ok" or sent["tags"]:
+                    continue
+                inherited = para["inherited_verdicts"].get(i)
+                if inherited is not None and inherited["verdict"] == "withhold":
+                    offenses.append({"sentence": sent["sentence"], "class": "inherited_ungrounded"})
+    return offenses
 
 
 # F5 (reviewer thread fix list, 2026-09-22, after PR #419's own re-run):
@@ -221,21 +286,32 @@ def known_tradition_names(registry: dict, *, exclude_world_key: str) -> list[str
 
 
 def build_uncited_claims_event(voice_event: dict, *, registry: dict, is_other_tradition_turn: bool) -> dict | None:
-    """The full pipeline from a turn.py voice_event's own additive
-    "uncited_claims" field (base "uncited_claim" offenses only) to the
-    persisted uncited_claims event's payload, refined with both
-    classify_* functions. Returns None when there is nothing to report -
-    the clean case, and by far the common one - so callers can skip
-    validate()/store.append() outright rather than persisting an empty
-    event every turn."""
+    """The full pipeline from a turn.py voice_event's own two additive
+    fields - "uncited_claims" (base "uncited_claim" offenses, sentence-
+    level, unchanged since R27 item 2) and "paragraph_offenses"
+    (find_uncited_paragraphs's own already-computed output, R27-A item 2
+    - turn.py computes it, not this function, the same "compute the base
+    list where the raw check result already is, refine it here where the
+    registry is" split "uncited_claims" already uses) - to the persisted
+    uncited_claims event's payload. "offenses" stays exactly the shape it
+    always was; "paragraph_offenses" rides beside it, per R27-A's own
+    build order ("the uncited_claims event gains a paragraph-level
+    shape... while the existing offenses list stays"). Returns None only
+    when BOTH are empty - the clean case, and by far the common one - so
+    callers can skip validate()/store.append() outright rather than
+    persisting an empty event every turn."""
     offenses = voice_event.get("uncited_claims") or []
-    if not offenses:
+    paragraph_offenses = voice_event.get("paragraph_offenses") or []
+    if not offenses and not paragraph_offenses:
         return None
     names = known_tradition_names(registry, exclude_world_key=voice_event["speaker"])
-    refined = [
+    failing_paragraph_sentences = {o["sentence"] for o in paragraph_offenses}
+    refined_offenses = [
         classify_other_tradition_turn(
-            classify_neighbour_named(offense, names), is_other_tradition_turn=is_other_tradition_turn
+            classify_neighbour_named(offense, names),
+            is_other_tradition_turn=is_other_tradition_turn,
+            failing_paragraph_sentences=failing_paragraph_sentences,
         )
         for offense in offenses
     ]
-    return {"speaker": voice_event["speaker"], "offenses": refined}
+    return {"speaker": voice_event["speaker"], "offenses": refined_offenses, "paragraph_offenses": paragraph_offenses}

@@ -6,7 +6,7 @@ verification (against the current alx/pahc/ijc packages) is a separate,
 manual step recorded in the session's own commit history, not repeated
 here as a hermetic test.
 """
-from engine.m4.grounding_net import build_figure_lexicon, check_turn, parse_tagged, scope_completion, strip_tags, verdict_for_sentence
+from engine.m4.grounding_net import build_figure_lexicon, check_turn, check_turn_with_paragraph_coverage, parse_tagged, scope_completion, split_into_paragraphs, strip_tags, verdict_for_sentence
 from engine.m4.grounding_net import _drop_truncated_tail
 
 TERM_RECORD = {
@@ -401,3 +401,87 @@ def test_verdict_for_sentence_withholds_an_unresolvable_tag_with_no_turn_context
     )
     assert entry["verdict"] == "withhold"
     assert "unresolvable" in entry["why"]
+
+
+# R27-A item 2 (Decision-Log.md Entry 55, 2026-09-23): split_into_paragraphs
+# and check_turn_with_paragraph_coverage's own baseline hermetic tests -
+# additive, report-only, never touched by check_turn/apply_net's own live
+# path (this file's own module docstring: real-data verification is
+# separate; these stay synthetic and hermetic like every other test here).
+def test_split_into_paragraphs_splits_on_blank_lines():
+    assert split_into_paragraphs("para one.\n\npara two.") == ["para one.", "para two."]
+
+
+def test_split_into_paragraphs_ignores_single_newlines():
+    # A single line break inside a paragraph is not a paragraph boundary -
+    # only a blank line (two or more \n) is.
+    assert split_into_paragraphs("one line\nstill one paragraph.") == ["one line\nstill one paragraph."]
+
+
+def test_split_into_paragraphs_falls_back_to_the_whole_text_when_no_blank_line():
+    assert split_into_paragraphs("just one paragraph, no blank line at all.") == ["just one paragraph, no blank line at all."]
+
+
+def test_check_turn_with_paragraph_coverage_matches_check_turn_on_sentences_and_truncation():
+    # Same equivalence discipline as
+    # test_verdict_for_sentence_matches_check_turn_called_on_the_same_sentence
+    # above: a caller reading only "sentences"/"substantive_survives"/
+    # "truncated" cannot tell this function's result apart from check_turn's
+    # own - the module's own docstring promise, proven here rather than
+    # just asserted.
+    text = "What reached everyone was the thanksgiving meal of bread and cup at the heart of the community's worship [[fix.term.eucharistia]]."
+    via_check_turn = check_turn(text, REPOSITORY)
+    via_paragraph_coverage = check_turn_with_paragraph_coverage(text, REPOSITORY)
+    assert via_paragraph_coverage["sentences"] == via_check_turn["sentences"]
+    assert via_paragraph_coverage["substantive_survives"] == via_check_turn["substantive_survives"]
+    assert via_paragraph_coverage["truncated"] == via_check_turn["truncated"]
+
+
+def test_check_turn_with_paragraph_coverage_reports_per_paragraph_cited_record_ids():
+    text = (
+        "What reached everyone was the thanksgiving meal of bread and cup at the heart of the community's worship [[fix.term.eucharistia]].\n\n"
+        "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
+    )
+    result = check_turn_with_paragraph_coverage(text, REPOSITORY)
+    coverage = result["paragraph_coverage"]
+    assert len(coverage) == 2
+    assert coverage[0]["cited_record_ids"] == ["fix.term.eucharistia"]
+    assert coverage[0]["wholly_uncited"] is False
+    assert coverage[1]["cited_record_ids"] == ["fix.witness.who-is-jesus"]
+
+
+def test_check_turn_with_paragraph_coverage_a_wholly_uncited_paragraph_is_marked():
+    text = "It mattered to everyone who came."
+    result = check_turn_with_paragraph_coverage(text, REPOSITORY)
+    coverage = result["paragraph_coverage"][0]
+    assert coverage["cited_record_ids"] == []
+    assert coverage["wholly_uncited"] is True
+    assert coverage["inherited_from_preceding"] is False
+
+
+def test_check_turn_with_paragraph_coverage_a_one_sentence_paragraph_inherits_the_preceding_paragraphs_citations():
+    text = (
+        "What reached everyone was the thanksgiving meal of bread and cup at the heart of the community's worship [[fix.term.eucharistia]].\n\n"
+        "It mattered to everyone who came."
+    )
+    result = check_turn_with_paragraph_coverage(text, REPOSITORY)
+    first, second = result["paragraph_coverage"]
+    assert first["inherited_from_preceding"] is False
+    assert second["inherited_from_preceding"] is True
+    assert second["cited_record_ids"] == ["fix.term.eucharistia"]
+    # The inherited check actually ran (verdict_for_sentence against the
+    # inherited id set, not a rubber stamp) - this sentence shares no
+    # content word with fix.term.eucharistia's own text, so the inherited
+    # check itself withholds it, exactly the shape find_uncited_paragraphs
+    # reports as inherited_ungrounded.
+    inherited = second["inherited_verdicts"][0]
+    assert inherited["verdict"] == "withhold"
+
+
+def test_check_turn_with_paragraph_coverage_a_one_sentence_paragraph_never_inherits_from_a_wholly_uncited_predecessor():
+    text = "It mattered to everyone who came.\n\nIt mattered again the next day."
+    result = check_turn_with_paragraph_coverage(text, REPOSITORY)
+    first, second = result["paragraph_coverage"]
+    assert first["wholly_uncited"] is True
+    assert second["inherited_from_preceding"] is False
+    assert second["wholly_uncited"] is True

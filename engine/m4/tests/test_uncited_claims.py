@@ -1,12 +1,13 @@
 """Pins R27's own two motivating sentences (Decision-Log.md Entry 50/51,
 2026-09-22) as real, real-world-shaped regression cases, plus the
 verified finding that claim_markers alone would miss one of them."""
-from engine.m4.grounding_net import check_turn
+from engine.m4.grounding_net import check_turn, check_turn_with_paragraph_coverage
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
     classify_neighbour_named,
     classify_other_tradition_turn,
     find_uncited_claims,
+    find_uncited_paragraphs,
     known_tradition_names,
 )
 
@@ -131,15 +132,37 @@ def test_classify_neighbour_named_leaves_unrelated_offenses_alone():
     assert upgraded["class"] == "uncited_claim"
 
 
-def test_classify_other_tradition_turn_upgrades_when_the_turn_was_routed_there():
+# R27-A item 1 (Entry 55/PR #421): the upgrade now also requires the
+# sentence to be a real paragraph-level failure (failing_paragraph_
+# sentences) - not just "the turn was routed via other_tradition" alone,
+# per PR #420's own live finding that the unconditional upgrade fired
+# 24/24 and would fail nearly every other_tradition turn.
+def test_classify_other_tradition_turn_upgrades_when_the_turn_was_routed_there_and_the_sentence_is_a_paragraph_failure():
     offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
-    upgraded = classify_other_tradition_turn(offense, is_other_tradition_turn=True)
+    upgraded = classify_other_tradition_turn(
+        offense,
+        is_other_tradition_turn=True,
+        failing_paragraph_sentences={"Even a broken priest could not block his grace."},
+    )
     assert upgraded["class"] == "own_doctrine_in_other_tradition_turn"
 
 
 def test_classify_other_tradition_turn_leaves_ordinary_turns_alone():
     offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
-    upgraded = classify_other_tradition_turn(offense, is_other_tradition_turn=False)
+    upgraded = classify_other_tradition_turn(
+        offense,
+        is_other_tradition_turn=False,
+        failing_paragraph_sentences={"Even a broken priest could not block his grace."},
+    )
+    assert upgraded["class"] == "uncited_claim"
+
+
+def test_classify_other_tradition_turn_leaves_a_paragraph_grounded_frame_sentence_alone():
+    # Routed via other_tradition, but this exact sentence is NOT in
+    # failing_paragraph_sentences (its own paragraph is grounded) - the
+    # narrowing this test pins.
+    offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
+    upgraded = classify_other_tradition_turn(offense, is_other_tradition_turn=True, failing_paragraph_sentences=set())
     assert upgraded["class"] == "uncited_claim"
 
 
@@ -277,11 +300,18 @@ def test_build_uncited_claims_event_returns_none_when_clean():
 
 
 def test_build_uncited_claims_event_refines_both_classes():
+    # own_doctrine_in_other_tradition_turn now requires the sentence to
+    # also be a real paragraph-level failure (R27-A item 1) - the fixture
+    # below puts "Even a broken priest..." in paragraph_offenses so the
+    # upgrade still fires.
     voice_event = {
         "speaker": "alx",
         "uncited_claims": [
             {"sentence": "The Church of the Martyrs split over the treatment of traditores.", "class": "uncited_claim"},
             {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"},
+        ],
+        "paragraph_offenses": [
+            {"sentence": "Even a broken priest could not block his grace.", "class": "wholly_uncited_paragraph"},
         ],
     }
     event = build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=True)
@@ -289,3 +319,72 @@ def test_build_uncited_claims_event_refines_both_classes():
     classes = {o["class"] for o in event["offenses"]}
     assert "neighbour_named" in classes
     assert "own_doctrine_in_other_tradition_turn" in classes
+    assert event["paragraph_offenses"] == voice_event["paragraph_offenses"]
+
+
+def test_build_uncited_claims_event_returns_none_when_both_lists_are_empty():
+    voice_event = {"speaker": "alx", "uncited_claims": [], "paragraph_offenses": []}
+    assert build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=False) is None
+
+
+def test_build_uncited_claims_event_fires_on_paragraph_offenses_alone():
+    # A turn with no sentence-level offenses at all, but a real paragraph-
+    # level one, still needs an event - build_uncited_claims_event's own
+    # docstring: "None only when BOTH are empty."
+    voice_event = {
+        "speaker": "alx",
+        "uncited_claims": [],
+        "paragraph_offenses": [{"sentence": "A whole narrative paragraph with no citation anywhere in it.", "class": "wholly_uncited_paragraph"}],
+    }
+    event = build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=False)
+    assert event is not None
+    assert event["offenses"] == []
+    assert len(event["paragraph_offenses"]) == 1
+
+
+# R27-A item 2 (Entry 55): find_uncited_paragraphs's own baseline cases -
+# built from check_turn_with_paragraph_coverage's real output, not a
+# hand-built paragraph_check dict, so these exercise the real join
+# between grounding_net's paragraph_coverage and this module's own
+# reduction, the same end-to-end discipline the real-Dionysius tests
+# above already use for the sentence-level check.
+def test_find_uncited_paragraphs_a_wholly_uncited_narrative_paragraph_fails():
+    # "Even a broken priest could not block his grace." carries no proper
+    # noun/number (claim_markers finds nothing), so real check_turn gives
+    # it verdict "ok" with no tag - exactly the gap R27's own module
+    # docstring names (claim_markers alone misses it). No citation
+    # anywhere in its own (single-sentence) paragraph, so it's a real
+    # wholly_uncited_paragraph failure.
+    tagged = "Even a broken priest could not block his grace."
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "wholly_uncited_paragraph"
+
+
+def test_find_uncited_paragraphs_a_properly_cited_paragraph_passes():
+    tagged = "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]]."
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    assert find_uncited_paragraphs(result) == []
+
+
+def test_find_uncited_paragraphs_an_honest_limit_only_paragraph_passes():
+    tagged = "Our record doesn't mention that Christian tradition."
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    assert find_uncited_paragraphs(result) == []
+
+
+def test_find_uncited_paragraphs_a_one_sentence_paragraph_inherits_the_preceding_cited_paragraph():
+    tagged = (
+        "The tradition that won here brought the repentant back in, even at the deathbed, and "
+        "Dionysius defended doing so [[alx.dw.church-failure]].\n\n"
+        "That, too, is in our record."
+    )
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    coverage = result["paragraph_coverage"]
+    assert len(coverage) == 2
+    assert coverage[1]["inherited_from_preceding"] is True
+    # Whatever the net's own verdict on the inherited check, it must never
+    # be reported as wholly_uncited_paragraph - it has a cited_record_ids
+    # set (inherited), so the wholly_uncited branch never applies to it.
+    assert all(o["sentence"] != "That, too, is in our record." or o["class"] != "wholly_uncited_paragraph" for o in find_uncited_paragraphs(result))
