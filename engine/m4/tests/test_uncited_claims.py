@@ -45,10 +45,28 @@ def test_a_cited_sentence_never_flags():
     assert find_uncited_claims(sentences) == []
 
 
-def test_a_withheld_sentence_is_never_checked():
-    # It never reaches the participant (apply_net drops it) - nothing to
-    # check in a sentence that was never shown.
-    sentences = [sent("An unsupported invented claim.", verdict="withhold")]
+def test_a_withheld_sentence_is_examined_like_an_untagged_one():
+    # G6 (R39-audit retrofit, 2026-09-23): apply_net's own strip_tags
+    # removes a sentence's tag regardless of verdict - the sentence's
+    # own text still reaches the participant (Decision-Log Entry 51's
+    # own "the checks gate decoration, never the text"). This test used
+    # to pin the opposite, false premise (asserting nothing was flagged
+    # for a withheld sentence, on the theory it never reached the
+    # participant at all). Corrected: a withheld sentence carrying real
+    # declarative claim content, with no allowed-uncited shape, is
+    # examined and flagged exactly like a genuinely untagged one -
+    # because by the time it's on screen, it reads exactly the same.
+    sentences = [sent("An unsupported invented claim.", tags=["w.dw.example"], verdict="withhold")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
+
+
+def test_a_withheld_sentence_with_an_allowed_uncited_shape_still_passes():
+    # The withheld/untagged distinction never mattered to the three
+    # allowed-uncited kinds - a withheld honest-limit-shaped sentence is
+    # still allowed uncited, same as an untagged one would be.
+    sentences = [sent("Our record doesn't mention that Christian tradition.", tags=["w.dw.example"], verdict="withhold")]
     assert find_uncited_claims(sentences) == []
 
 
@@ -216,21 +234,27 @@ def test_real_dionysius_deathbed_sentence_properly_cited_never_flags():
     assert find_uncited_claims(result["sentences"]) == []
 
 
-def test_real_dionysius_deathbed_sentence_uncited_is_withheld_upstream_not_reported_by_this_module():
-    # The same real sentence, uncited: grounding_net withholds it before
-    # find_uncited_claims ever runs (a specific claim naming Dionysius,
-    # no citation tag) - it never reaches the participant, so this module
-    # correctly reports nothing on it. R27's own check is scoped to
-    # verdict == "ok" sentences by design (module docstring); this test
-    # pins that the two modules' fallback ladders don't double-report the
-    # same real defect shape.
+def test_real_dionysius_deathbed_sentence_uncited_is_caught_here_too_not_silently_shown():
+    # G6 (R39-audit retrofit, 2026-09-23): the same real sentence,
+    # uncited - grounding_net withholds it (a specific claim naming
+    # Dionysius, no citation tag at all). This test used to assert
+    # find_uncited_claims reports nothing on it, on the theory a
+    # withheld sentence never reaches the participant. It does:
+    # apply_net's own strip_tags only removes [[...]] markup, and an
+    # untagged sentence has none to remove, so this sentence's full
+    # text reaches the participant exactly as written, with no citation
+    # and no visible sign anything is wrong. R27's own check now catches
+    # this too, rather than compounding the same gap grounding_net's own
+    # withhold verdict already has at the citation-count level.
     sentence = (
         "The tradition that won here brought the repentant back in, even at the deathbed, and "
         "Dionysius defended doing so."
     )
     result = check_turn(sentence, _REAL_REPOSITORY)
     assert result["sentences"][0]["verdict"] == "withhold"
-    assert find_uncited_claims(result["sentences"]) == []
+    offenses = find_uncited_claims(result["sentences"])
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
 
 
 def test_a_facilitator_turn_is_never_checked_by_this_module():

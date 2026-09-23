@@ -483,3 +483,130 @@ Entry 56's own note on what that Table rate means and the likeliest
 cause. This is the baseline number set Mark looks at on
 `cic-engine-staging` (`CIC_R27_ENFORCE=1`) before the flag is flipped
 anywhere real.
+
+### R41 — G5, R39-audit: should a modern/anachronistic word be answered by the Representative itself, or always intercepted by the Facilitator first?
+**Status:** RULED — 2026-09-23, via the reviewer thread's standing
+authorization. Not strictly (a) or (b) below: Mark asked first for the
+risks of letting the Representative handle a modern word directly
+(definition leak, a false mapping of the modern term onto the world's
+nearest concept, dating the term from outside the record, the seam
+hidden inside the Representative's own turn, loss of per-term control),
+then ruled on those risks. **The Representative acknowledges the
+participant's own word and answers from its record only - it never
+defines the modern word.** The Facilitator's modern-sense explanation
+moves out of a spoken turn entirely, into the term's hover card. **The
+bridge route stays exactly as built until a measurement shows the risks
+above are near zero** - see R41-A below for the framing this sits
+inside, and the follow-up measurement queued after 7b in this program's
+own build order.
+
+**Found by the reviewer's own R39-audit retrofit brief:** `pronoun_rule` (`_fleet.voice.
+fleet.md` line 31) and the bridge route (`turn.py`, the `bridge_turn`
+action) instruct two different answers to the same question, and are
+never both live on the same turn - for any term actually on the fleet's
+own `anachronistic_term_ids` registry, routing sends the turn to the
+bridge route before the voice ever sees it, so `pronoun_rule`'s own
+clause (below) can never fire for that term in practice. This is a
+governance/methodology question - how the voice and the Facilitator
+divide this kind of moment - one of CLAUDE.md's own standing escalation
+categories, not a default either thread should pick on its own. Full
+file:line evidence and both mechanisms quoted verbatim: Decision-Log.md
+Entry 59 (this PR).
+
+**`pronoun_rule`'s own clause, verbatim:** *"when a participant's own
+question brings it, we name it as theirs - 'the later word
+transubstantiation you are calling it' - and answer from what we
+actually had; that stays exactly as it is."* One turn, one speaker: the
+Representative names the modern word as the participant's own, then
+answers from what the world actually held, all in its own voice.
+
+**The bridge route, as actually built:** the reader detects a
+registered term, routes to `bridge_turn`; the Facilitator composes and
+speaks a message naming the modern word and its modern sense in the
+Facilitator's own etic voice, then hands the Representative only a
+term-free rephrasing of the underlying question - the voice never sees
+or utters the participant's original word at all.
+
+**(a) Let `pronoun_rule` govern.** Stop routing a term already covered
+by `pronoun_rule`'s own clause to the bridge route (or narrow which
+terms the bridge route actually intercepts). What a participant reads:
+one continuous turn - the Representative's own answer opens by naming
+the word as the participant's own, then answers from what the world
+actually held, no separate Facilitator message before it.
+
+**(b) Keep the bridge route as the one actually exercised for
+registered terms.** `pronoun_rule`'s own clause describes an ideal that
+is unreachable for any term on the registry as things stand - routing
+overrides it before the voice ever runs. What a participant reads: two
+turns, two speakers - a Facilitator message, openly outside any world's
+voice, naming the modern word and its modern sense, then a separate
+Representative turn answering only the translated, term-free question,
+with no trace of the participant's original word in it at all, not even
+an acknowledgment it was asked.
+
+No code changes to either mechanism have been made under this entry;
+both stay exactly as built until Mark's R41 ruling above takes effect
+in a future build (queued after 7b - see R41-A immediately below for
+what that build must cover).
+
+### R41-A — the participant-facing frame R41's ruling sits inside, and three build-proposal requirements
+**Status:** RULED — 2026-09-23, via the reviewer thread's standing
+authorization, amending R41. **The participant-facing framing is a
+universal translator.** The about text will say, once, that everything
+a Representative says reaches the participant through a translator, and
+that a modern word with no equivalent in the Representative's world
+comes through untranslated: the Representative names it as the
+participant's own word and answers from what its world had.
+`pronoun_rule`'s own clause (quoted above) is therefore load-bearing
+and stays exactly as written - it is the translator declaring "no
+equivalent." The modern sense of the word lives on the term's hover
+card, in no one's voice. **Mark writes the about-page wording
+himself** - no participant-facing words for this are to be drafted
+here. The Facilitator bridge turn retires once the R41 measurement
+(definitions, false mappings, dating claims, out of twenty - see R41's
+own queued follow-up) comes back near zero.
+
+**Three additions required of the eventual R41 build proposal**, not
+of this entry: (a) where the about text lives in the frontend and how
+it is loaded, so Mark's wording drops in without a code change; (b)
+the bridge route's own retirement path - routing no longer sends
+registered terms to `bridge_turn`, the term-free rewrite goes away,
+`bridge_turn` itself stays in code, unreachable, until a later cleanup;
+(c) confirmation that the hover card already shows the modern sense
+for registered terms via `term_glosses`, or a plain statement of what
+is missing if it doesn't. All three land when the R41 build itself is
+proposed (queued after 7b), not before.
+
+### R42 — R27 detector precision follow-up: which of the three options?
+**Status:** RULED — 2026-09-23, via the reviewer thread's standing
+authorization. Mark's own follow-up question to G1's null result
+(Entry 60, this PR): the precision of the `uncited_claims` detector
+behind that entry's own 95.5% raw flag rate. Measured in Entry 61 (this
+PR) - 40 sentences sampled across all 11 worlds from a fresh 22-probe
+run, hand-read against each world's own freshly compiled records: **0
+of 40 genuinely unsupported, 14 of 40 real record-supported claims the
+voice simply never tagged, 26 of 40 interpretive or connective prose
+the citation contract already exempts.**
+
+**Ruled: option (i).** R27 stays report-only; the citation contract
+stands as written; enforcement is off. `CIC_R27_ENFORCE` remains
+default off in `engine/api/config.py`, and Mark is turning it off on
+staging himself. The detector is kept as a measured instrument, its
+precision on record here rather than assumed. Candidates (ii) (the
+contract adopts the paragraph rule, with enforcement returning once a
+generation-side change moves the raw rate) and (iii) (rebuild the
+detector around "unsupported" only) are closed.
+
+**Follow-up, queued after 7b, not before - a generation-side item, not
+a check:** the 14 of 40 sentences that were true but carried no tag are
+a citation-completeness gap on the generation side. Propose one
+report-only directive line asking the voice to tag any sentence that
+draws on a record even when it names no person, number, or quote;
+measure it on the same 22-probe run by the same hand-read method (count
+of true-but-untagged before and after); report the two counts and the
+cost. No enforcement follows from the number either way - this is a
+generation-side improvement or nothing. Note for whoever runs this:
+with G6's fix (this PR) now merged, R27's detector examines withheld
+sentences too, so any battery numbers quoted after this merge are not
+directly comparable to Entry 56's own pre-G6 numbers - say so wherever
+they're quoted.
