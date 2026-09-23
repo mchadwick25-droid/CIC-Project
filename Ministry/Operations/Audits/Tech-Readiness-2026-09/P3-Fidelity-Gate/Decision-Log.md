@@ -112,8 +112,65 @@ conversation thread:
   This governs item 3's registration work (`gates.GATES` and the build-
   process document) and is quoted there directly rather than paraphrased.
 
-**Open, per Rulings-Pending.md:** the bare-digit/symbol apparatus question
-(Entry 5) is with Mark, now scoped to item 2 of the registration brief
-(edition-level apparatus); gate registration in `gates.GATES` waits for
-that ruling, since registering now would go red on the six records it
-affects.
+**Entry 9 — 2026-09-23 (item 2, edition-level apparatus).** Resolves
+Rulings-Pending's Pending 1 (the bare-digit/symbol residue Entry 5 and #422
+left open) for five of its six records. `cic/texts/REGISTRY.yaml` gains an
+optional `apparatus` field per edition entry — a closed list of named,
+evidenced marker patterns, applied by `engine/m1/quote_verbatim.py`
+(`strip_edition_apparatus`) to every quote citing that edition and no
+other. No field on any quote record, per R33. Populated for the three
+editions the residue records cite:
+
+- `palladius_lausiac-history_clarke1918.txt` — three patterns, each
+  anchored to its own real surrounding words rather than a bare digit
+  class, because this same edition also quotes real digit quantities as
+  content elsewhere ("some 300 monks", "some 400 monks" - confirmed by
+  reading the file, not assumed). Clears `desert.quote.good-good-i-dont-
+  mind` ("163", "164") and `hal.quote.hindered-by-jerome` ("276").
+- `ammianus-marcellinus_roman-history_yonge1862.txt` — one anchored
+  pattern, same reasoning (this file spells its own real casualty count as
+  words - "one hundred and thirty-seven dead bodies" - never as digits).
+  Clears `ijc.quote.ammianus-sicininus-massacre`.
+- `basil_ascetic-works-longer-shorter-rules_clarke1925.txt` — five
+  patterns: one anchored digit, two bare footnote-glyph symbols (®, », safe
+  as a general strip within this one file - never real prose content in
+  any edition), one anchored stray Migne column-continuation letter, and
+  one general per-edition pattern for this edition's own unbracketed
+  column-locator convention (`\d{3,4}[A-Z]`, the same shape the fleet-wide
+  `bracket-locator` class strips elsewhere, but printed here without
+  brackets - confirmed recurring throughout the file, not a one-off
+  guess). Clears `cappadocian.quote.basil-on-work-and-prayer` (all four
+  non-digit patterns) in full; clears the digit marker in
+  `cappadocian.quote.basil-on-common-life` but does NOT clear that record
+  overall — see below.
+
+Separately, this PR fixed a real, fleet-wide (not edition-specific) bug the
+sixth residue record exposed: `_BRACKET_LOCATOR_RE` left a stray space
+before trailing punctuation when a bracket locator sat between a word and a
+comma/period with no space of its own (`cappadocian.quote.gregory-nyssa-on-
+becoming-god`'s own npnf205 source: `"Him Who is [2002] , nor"` → `"is ,
+nor"` instead of `"is, nor"`). Narrowed to that exact shape (a lookahead
+confirms punctuation follows before the preceding space is folded in) -
+not a blanket space-before-punctuation rule, which regressed three other
+records (`desert.quote.antony-dying-daily`'s own intentional `"daily ."`,
+among others) before being caught by the full fleet re-sweep and narrowed.
+Clears `cappadocian.quote.gregory-nyssa-on-becoming-god`.
+
+**Honest result vs. the expected count:** the registration brief expected
+253/257 (all six residue records fixed). The real fleet run is **251/257**
+(246 baseline → 251) - `cappadocian.quote.basil-on-common-life` clears its
+own footnote-digit marker but remains unverified, because the same span
+has separate, newly-discovered defects (a genuine OCR word misread, "Tor"
+for "For", plus a stray inserted quote mark and two more bare footnote
+glyphs) that no apparatus mechanism should paper over. Recorded as
+Rulings-Pending's own Pending 2 rather than stretched to hit the expected
+number.
+
+**Open, per Rulings-Pending.md:** Pending 2 (the newly-discovered
+compounding defects in `cappadocian.quote.basil-on-common-life`) is with
+Mark. Gate registration in `gates.GATES` (item 3) still waits — now on
+Pending 2 alone, plus the three already-escalated OCR-damaged records
+(`don.quote.donatus-quid-est-imperatori`, `don.quote.emeritus-magno-
+argumento`, `ijc.quote.ammianus-roman-luxury`) and `ijc.quote.compelled-to-
+come-in` (#426, in flight) - the expected residue item 3's own brief
+already names.

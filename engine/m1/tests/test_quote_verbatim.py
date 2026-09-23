@@ -11,6 +11,7 @@ from engine.m1.quote_verbatim import (
     iter_source_notes,
     resolve_vendored_paths,
     strip_apparatus,
+    strip_edition_apparatus,
     strip_xml_markup,
     verify_quote_against_notes,
     verify_quote_record,
@@ -372,10 +373,12 @@ def test_desert_pipe_page_marker_records_now_verify():
     """desert.quote.for-thirty-two-years-i-touched-no-fruit,
     desert.quote.pachomius-angel-tablet, and desert.quote.monks-like-
     hyenas all cleared the pipe-plus-digits page marker; desert.quote.
-    good-good-i-dont-mind still has a bare-digit footnote (" 163 ") not
-    covered here, and desert.quote.the-noonday-demon (its own [1]-[6]
-    section numbering) must stay verified throughout - the regression
-    this round caught and fixed."""
+    the-noonday-demon (its own [1]-[6] section numbering) must stay
+    verified throughout - the regression this round caught and fixed.
+    desert.quote.good-good-i-dont-mind's own bare-digit footnotes
+    (" 163 ", " 164 ") are cleared separately, by item 2's per-edition
+    apparatus (Palladius) - see test_palladius_bare_digit_footnotes_
+    verify_via_edition_apparatus below."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("desert")
@@ -388,8 +391,6 @@ def test_desert_pipe_page_marker_records_now_verify():
     ]:
         result = verify_quote_record(records[rid], records, fleet)
         assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
-    result = verify_quote_record(records["desert.quote.good-good-i-dont-mind"], records, fleet)
-    assert result.verified is False
 
 
 def test_cappadocian_macrina_pipe_and_bracket_locator_record_now_verifies():
@@ -512,3 +513,167 @@ def test_ordinary_running_text_records_are_unaffected_by_the_note_fallback():
         result = verify_quote_record(records[rid], records, fleet)
         assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
         assert result.verified_in == "running_text"
+# --- bracket-locator orphaned-space fix (item 2, fleet-wide, not per-edition) ---
+
+
+def test_bracket_locator_before_punctuation_no_longer_leaves_orphaned_space():
+    """npnf205's own "Him Who is [2002] , nor can there" - stripping
+    "[2002] " alone used to leave "is , nor" (a stray space before the
+    comma) where the quote's own clean text has "is, nor". The fix
+    collapses that leftover space the same way line-wrap hyphenation
+    collapses its own typesetting artifact."""
+    assert strip_apparatus("Him Who is [2002] , nor can there") == "Him Who is, nor can there"
+
+
+def test_cappadocian_gregory_nyssa_becoming_god_record_now_verifies():
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.gregory-nyssa-on-becoming-god"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+# --- edition-level apparatus (item 2, R33: gate/edition-level, never a record field) ---
+
+
+def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
+    text = "some text with a 300 in it and a [964D] locator too"
+    assert strip_edition_apparatus(text, "some-edition-with-no-registry-entry.txt") == text
+
+
+def test_edition_apparatus_does_not_swallow_a_real_number_construct_the_case():
+    """The exact risk item 2 names: a blanket digit rule would swallow
+    "5000 monks" if it were real quoted content. Palladius's own
+    apparatus entries are anchored to their real evidenced context
+    ("from work ... and found", "her lover ... behaving", "Paula, ...
+    mother") and must leave an unrelated digit phrase completely alone,
+    even inside the very same file."""
+    text = "the abbot counted 5000 monks in that valley, then went from work 163 and found peace"
+    stripped = strip_edition_apparatus(text, "palladius_lausiac-history_clarke1918.txt")
+    assert "5000 monks" in stripped
+    assert "163" not in stripped
+
+
+def test_palladius_bare_digit_footnotes_verify_via_edition_apparatus():
+    """desert.quote.good-good-i-dont-mind: two bare endnote numbers
+    ("163", "164") glued into the running text with no wrapper of their
+    own, cleared only because this edition (and only this edition) has a
+    closed apparatus entry for them."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("desert")
+    fleet = load_fleet_records()
+    rec = records["desert.quote.good-good-i-dont-mind"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+def test_palladius_paula_comma_footnote_verifies_via_edition_apparatus():
+    """hal.quote.hindered-by-jerome: "Paula,276 mother" - the endnote
+    number glued directly to the comma, no space at all."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("hal")
+    fleet = load_fleet_records()
+    rec = records["hal.quote.hindered-by-jerome"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+def test_ammianus_bare_digit_footnote_verifies_via_edition_apparatus():
+    """ijc.quote.ammianus-sicininus-massacre: "Christian church.1" - the
+    endnote number glued to the sentence-ending period."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("ijc")
+    fleet = load_fleet_records()
+    rec = records["ijc.quote.ammianus-sicininus-massacre"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+def test_basil_common_life_endnote_digit_pattern_clears_but_record_still_fails():
+    """cappadocian.quote.basil-on-common-life's own "in common 1 is more"
+    endnote number is cleared by endnote-num-after-in-common (checked in
+    isolation below) - but the record still does not verify, because the
+    same span has a SEPARATE, newly-discovered defect this PR does not
+    fix: this edition's own scan reads "Tor just as the foot" where the
+    real word is "For" (a genuine OCR misread, not a footnote marker),
+    plus a stray inserted curly quote before "To begin" and two more bare
+    footnote glyphs ("?", "®") later in the same span. Recorded honestly
+    as a new Rulings-Pending entry rather than papered over by stretching
+    the apparatus mechanism to hide a real word-level corruption - see
+    this PR's own Decision-Log entry."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.basil-on-common-life"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is False
+    assert "endnote-num-after-in-common" in [p.name for p in _apparatus_entries_for_basil()]
+
+
+def _apparatus_entries_for_basil():
+    from cic.engine.texts_registry import apparatus_for
+
+    return apparatus_for("basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+
+
+def test_basil_common_life_endnote_digit_pattern_isolated():
+    text = "the life of a number lived in common 1 is more useful in many ways"
+    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert stripped == "the life of a number lived in common  is more useful in many ways"
+
+
+def test_basil_work_and_prayer_verifies_via_four_edition_apparatus_patterns():
+    """cappadocian.quote.basil-on-work-and-prayer: the registered-mark and
+    guillemet footnote glyphs, the stray column-continuation letter "E",
+    and an unbracketed Migne column locator ("383A") - all four in one
+    record's own span."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.basil-on-work-and-prayer"]
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+def test_basil_registered_mark_glyph_pattern_isolated():
+    text = 'Ecclesiastes says: "There is a time for everything." ® But for prayer'
+    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert "®" not in stripped
+    assert "everything." in stripped and "But for prayer" in stripped
+
+
+def test_basil_guillemet_glyph_pattern_isolated():
+    text = "as for many other things, » every time is suitable"
+    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert "»" not in stripped
+    assert "many other things" in stripped and "every time is suitable" in stripped
+
+
+def test_basil_stray_column_letter_pattern_isolated():
+    text = "in work with \n\nE the tongue if it is possible"
+    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert stripped == "in work with \n\n the tongue if it is possible"
+
+
+def test_basil_stray_column_letter_pattern_never_strips_a_real_one_letter_word():
+    """"I" and "A" are real English words and must never be stripped by
+    the column-letter marker, which is anchored to "in work with ...
+    the tongue" specifically and to nothing else."""
+    text = "in work with I the tongue if it is possible, and A great work it was"
+    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert " I the tongue" in stripped
+    assert " A great work" in stripped
+
+
+def test_basil_unbracketed_column_locator_pattern_isolated():
+    text = "commands us to labour and work with our hands that which is 382A written"
+    stripped = strip_edition_apparatus(text, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert "382A" not in stripped
+    assert "that which is" in stripped and "written" in stripped

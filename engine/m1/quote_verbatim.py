@@ -71,7 +71,7 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
-    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. Never a bare, unwrapped digit or symbol with no marker of its own - that stays a failure (see the module docstring's fourth-ruling note).",
+    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class.",
 }
 
 # RULED (Mark, 2026-09-22, second ruling): class six (verse_number) above
@@ -104,6 +104,30 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # silently ignored. See the fleet report for the six records this still
 # blocks (five apparatus-only, one - `cappadocian.quote.basil-on-work-
 # and-prayer` - already nested-mark-fixed by #413 but blocked here too).
+
+# FIFTH ROUND (2026-09-23, item 2 of the registration brief; R33, Mark:
+# "we should be setting principles we will have a 100 worlds and cant
+# tell the representitive what to say for every quote" - never a
+# per-record field or per-quote instruction). The FOURTH ROUND's bare-
+# digit/symbol question above is resolved not as a new fleet-wide class
+# (a blanket digit rule is unsafe - Palladius and Ammianus both quote
+# real digit quantities as content elsewhere, e.g. "some 300 monks") but
+# as an EDITION-level property: `cic/texts/REGISTRY.yaml`'s own
+# `apparatus` field on an edition entry, a closed list of named,
+# evidenced marker patterns applied ONLY to quotes citing that edition
+# (see `_edition_apparatus_patterns` below and that file's own schema
+# comment). Populated for the three editions the six residue records
+# cite - Palladius (`palladius_lausiac-history_clarke1918.txt`), Basil
+# (`basil_ascetic-works-longer-shorter-rules_clarke1925.txt`), Ammianus
+# (`ammianus-marcellinus_roman-history_yonge1862.txt`) - each pattern
+# anchored to the real surrounding words it was traced to, never a bare
+# unanchored digit/letter class, for the same reason the fleet-wide rule
+# was unsafe. No field on any quote record. Separately, this round also
+# fixed a real bug the sixth residue record (`cappadocian.quote.gregory-
+# nyssa-on-becoming-god`) exposed in the EXISTING (fleet-wide)
+# bracket-locator handling - not edition-specific, see the narrowed
+# `_BRACKET_LOCATOR_RE` above (its own comment explains why the fix is
+# scoped to that one shape, not a blanket space-before-punctuation rule).
 
 # DISALLOWED, stated explicitly so a report finding can name which rule a
 # quote actually broke: a substituted word, a silent omission (no
@@ -184,12 +208,26 @@ _VERSE_NUMBER_GAP = r"(?:\d{1,4}\.\s+)?"
 _SOFT_HYPHEN_RE = re.compile("­")
 _TILDE_DIGIT_RE = re.compile(r"~\d{1,4}~")
 _PIPE_PAGE_RE = re.compile(r"\|\d{1,4}\s*")
-_BRACKET_LOCATOR_RE = re.compile(
+_BRACKET_LOCATOR_CONTENT = (
     r"\["
     r"(?:\d{3,4}[A-Z]?"
     r"|p\.\s*\d{1,4}"
     r"|[A-Z][a-z]{0,4}\.\s*p\.\s*\d{1,4}(?:,\s*l\.\s*\d{1,4})?\.?"
-    r")\]\s*"
+    r")\]"
+)
+# A bracket locator sitting between a word and its own trailing sentence
+# punctuation ("Him Who is [2002] , nor" - npnf205's own ThML export of
+# Gregory of Nyssa) leaves the SPACE that stood before the bracket
+# orphaned once the bracket and ITS trailing space are removed - "is ,
+# nor", not "is, nor". No real sentence in English has a space before a
+# comma or period, so that preceding space is folded into the same
+# removal, but ONLY when a lookahead confirms this exact shape - never a
+# blanket "space before punctuation" cleanup applied to the whole source,
+# which would just as readily eat a quote's OWN intentional "word ."
+# spacing (desert.quote.antony-dying-daily's own "I die daily ." is real
+# and must survive untouched).
+_BRACKET_LOCATOR_RE = re.compile(
+    r"(?: (?=" + _BRACKET_LOCATOR_CONTENT + r"\s*[,.;:!?]))?" + _BRACKET_LOCATOR_CONTENT + r"\s*"
 )
 _NOTE_BLOCK_RE = re.compile(r"<note\b[^>]*>.*?</note>", re.IGNORECASE | re.DOTALL)
 _TAG_RE = re.compile(r"<[^>]+>")
@@ -430,6 +468,32 @@ def _extract_texts_filenames(text: str) -> list[str]:
     return list(dict.fromkeys(names))
 
 
+_EDITION_APPARATUS_CACHE: dict[str, tuple[re.Pattern, ...]] = {}
+
+
+def _edition_apparatus_patterns(filename: str) -> tuple[re.Pattern, ...]:
+    """This edition's own compiled, closed apparatus list from
+    `cic/texts/REGISTRY.yaml` (fifth round, R33) - `()` for every edition
+    with no entry, which is every edition but the ones this round
+    populated. Compiled once per filename, not once per quote."""
+    if filename not in _EDITION_APPARATUS_CACHE:
+        from cic.engine.texts_registry import apparatus_for
+
+        _EDITION_APPARATUS_CACHE[filename] = tuple(re.compile(p.pattern) for p in apparatus_for(filename))
+    return _EDITION_APPARATUS_CACHE[filename]
+
+
+def strip_edition_apparatus(source_raw: str, filename: str) -> str:
+    """Applies this one edition's own closed, evidenced marker patterns
+    (if any) to the RAW vendored text, before any other stripping - each
+    pattern's matched span is dropped entirely. An edition with no
+    `apparatus` entry is returned unchanged, exactly as before this field
+    existed."""
+    for pattern in _edition_apparatus_patterns(filename):
+        source_raw = pattern.sub("", source_raw)
+    return source_raw
+
+
 def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> VerifyResult:
     paths = resolve_vendored_paths(quote_record, records, fleet)
     if not paths:
@@ -441,6 +505,7 @@ def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> Verif
         if not path.exists():
             continue
         source_raw = path.read_text(encoding="utf-8", errors="replace")
+        source_raw = strip_edition_apparatus(source_raw, path.name)
         result = verify_quote_text(quote_text, source_raw, source_is_xml=path.suffix == ".xml")
         result.source_file = str(path.relative_to(REPO_ROOT))
         if result.verified:

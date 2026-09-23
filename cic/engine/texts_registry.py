@@ -110,11 +110,25 @@ _LANGUAGE_LINE = re.compile(r"Language:\s*(.+)|<DC\.Language>\s*([^<]+)")
 
 
 @dataclass(frozen=True)
+class ApparatusPattern:
+    """One named, evidenced marker form belonging to a single vendored
+    edition - see REGISTRY.yaml's own schema comment for the full
+    discipline. `pattern` is matched with `re.search` against the RAW
+    vendored text; the matched span is dropped entirely before the
+    quote-verbatim gate compares anything."""
+
+    name: str
+    pattern: str
+    evidence: str = ""
+
+
+@dataclass(frozen=True)
 class TextEntry:
     filename: str
     supplied_by: str
     date_added: str
     notes: str = ""
+    apparatus: tuple[ApparatusPattern, ...] = ()
 
 
 REGISTRY_FILE = TEXTS_DIR / "REGISTRY.yaml"
@@ -129,13 +143,29 @@ def _load_entries() -> tuple[TextEntry, ...]:
     import yaml
     data = yaml.safe_load(REGISTRY_FILE.read_text(encoding="utf-8")) or []
     return tuple(
-        TextEntry(filename=d["filename"], supplied_by=d["supplied_by"],
-                  date_added=d["date_added"], notes=d.get("notes", ""))
+        TextEntry(
+            filename=d["filename"], supplied_by=d["supplied_by"],
+            date_added=d["date_added"], notes=d.get("notes", ""),
+            apparatus=tuple(
+                ApparatusPattern(name=a["name"], pattern=a["pattern"], evidence=a.get("evidence", ""))
+                for a in d.get("apparatus", [])
+            ),
+        )
         for d in data
     )
 
 
 ENTRIES: tuple[TextEntry, ...] = _load_entries()
+
+
+def apparatus_for(filename: str) -> tuple[ApparatusPattern, ...]:
+    """This edition's own closed apparatus list, or `()` for every edition
+    with no entry - which behaves exactly as it did before this field
+    existed (`quote_verbatim.py` skips the whole per-edition step)."""
+    for entry in ENTRIES:
+        if entry.filename == filename:
+            return entry.apparatus
+    return ()
 
 
 def read_header(path: Path, lines: int = 100) -> str:
