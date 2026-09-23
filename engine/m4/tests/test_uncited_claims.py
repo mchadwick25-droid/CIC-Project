@@ -388,3 +388,78 @@ def test_find_uncited_paragraphs_a_one_sentence_paragraph_inherits_the_preceding
     # be reported as wholly_uncited_paragraph - it has a cited_record_ids
     # set (inherited), so the wholly_uncited branch never applies to it.
     assert all(o["sentence"] != "That, too, is in our record." or o["class"] != "wholly_uncited_paragraph" for o in find_uncited_paragraphs(result))
+
+
+# R27-A item 3 (Decision-Log.md Entry 55's own "Pinned for item 3's own
+# tests" section, 2026-09-23) - the two cases the reviewer named directly,
+# real sentences, not invented ones.
+def test_r27a_narrowed_rule_still_catches_both_augustinian_sentences_as_real_paragraph_failures():
+    # R26's own motivating pair (Entry 50/51): "What the sacrament does,
+    # it does by Christ's power, not the minister's purity." and "Even a
+    # broken priest could not block his grace." - genuinely unsupported
+    # by anything in alx's own records, real doctrine belonging to a
+    # different world. Entry 55: "the narrowed rule must still fail
+    # both." This is classify_other_tradition_turn's own narrowing logic
+    # in isolation (hand-built offenses, the same discipline the other
+    # classify_other_tradition_turn tests above already use) - both
+    # sentences marked as real paragraph-level failures
+    # (failing_paragraph_sentences), both upgraded. (The two sentences
+    # together do not both survive as verdict "ok" through the real
+    # check_turn pipeline in one turn - "Christ's" alone trips
+    # claim_markers and withholds the first sentence upstream, the same
+    # fallback-ladder split test_real_dionysius_deathbed_sentence_
+    # uncited_is_withheld_upstream_not_reported_by_this_module already
+    # documents - so this pins the classification rule itself, which is
+    # what Entry 55 is actually specifying.)
+    sentence_a = "What the sacrament does, it does by Christ's power, not the minister's purity."
+    sentence_b = "Even a broken priest could not block his grace."
+    failing_paragraph_sentences = {sentence_a, sentence_b}
+    offenses = [{"sentence": sentence_a, "class": "uncited_claim"}, {"sentence": sentence_b, "class": "uncited_claim"}]
+    refined = [
+        classify_other_tradition_turn(o, is_other_tradition_turn=True, failing_paragraph_sentences=failing_paragraph_sentences)
+        for o in offenses
+    ]
+    assert all(o["class"] == "own_doctrine_in_other_tradition_turn" for o in refined)
+
+
+# alx's own conflict-turn shape (PR #420's own live report: a frame
+# sentence, "For years they held together.", riding inside a paragraph
+# the report already shows fully cited - uncited_in_cited_paragraph: 7).
+# Hermetic fixture, same discipline _REAL_CHURCH_FAILURE_TEXT above
+# already uses (real record content, no live package) - a record whose
+# own text shares real ground with the frame sentence, so the inherited
+# check has something genuine to find, not a rigged pass.
+_HELD_TOGETHER_REPOSITORY = {
+    "alx.dw.donatist-schism": {
+        "id": "alx.dw.donatist-schism",
+        "record_type": "doctrinal_witness",
+        "text": (
+            "The two communities argued for years before the final break came, "
+            "but for years they held together despite the strain between them."
+        ),
+    }
+}
+
+
+def test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_cited_other_tradition_paragraph():
+    # is_other_tradition_turn=True is forced on this - the whole point of
+    # Entry 55's own pinned case is to prove the NARROWED rule, not
+    # merely R27-A's own base paragraph coverage, is what passes this
+    # sentence: a frame sentence the paragraph's own citation genuinely
+    # grounds is not own_doctrine_in_other_tradition_turn even inside an
+    # other_tradition turn.
+    tagged = (
+        "The two sides argued for years before the break finally came [[alx.dw.donatist-schism]]. "
+        "For years they held together."
+    )
+    result = check_turn_with_paragraph_coverage(tagged, _HELD_TOGETHER_REPOSITORY)
+    paragraph_offenses = find_uncited_paragraphs(result)
+    assert paragraph_offenses == []  # the paragraph is cited and the inherited check grounds it
+
+    base_offenses = find_uncited_claims(result["sentences"])
+    failing_paragraph_sentences = {o["sentence"] for o in paragraph_offenses}
+    refined = [
+        classify_other_tradition_turn(o, is_other_tradition_turn=True, failing_paragraph_sentences=failing_paragraph_sentences)
+        for o in base_offenses
+    ]
+    assert all(o["class"] != "own_doctrine_in_other_tradition_turn" for o in refined)
