@@ -6,7 +6,7 @@
     "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
-    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. Never a bare, unwrapped digit or symbol with no marker of its own - that stays a failure (see the module docstring's fourth-ruling note)."
+    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class."
   },
   "audited_worlds": [
     "pahc",
@@ -95,7 +95,7 @@
           "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
           "failed_segment": "A certain Paul, a rustic peasant, exceedingly guileless and simple, was wedded to a most beautiful woman of depraved character, who for a very long while concealed her sins from him. However, Paul came in suddenly from work and found his wife and her lover behaving shamefully, Providence thus guiding Paul to what was best for himself. And laughing discreetly he called to them and said: \"Good, good. I don't mind, truly. By Jesus, I'll take her no longer. Go, you have her and her children, for I am going to become a monk.\"",
           "nearest_context": "he cauldron.\" But she answered and said: \"God forbid that there should be ",
-          "recorded_verification_state": "verified-direct"
+          "recorded_verification_state": "verified-via-authority"
         }
       ]
     },
@@ -122,7 +122,7 @@
           "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
           "failed_segment": "Among them was the Roman lady Paula, mother of Toxotius, a woman of great distinction in the spiritual life. She was hindered by a certain Jerome from Dalmatia. For though she was able to surpass all, having great abilities, he hindered her by his jealousy, having induced her to serve his own plan.",
           "nearest_context": "________________________\n\nPREFACE TO THE LIFE OF THE HOLY FAT",
-          "recorded_verification_state": "verified-direct"
+          "recorded_verification_state": "verified-via-authority"
         }
       ]
     },
@@ -148,17 +148,17 @@
     "ijc": {
       "world": "ijc",
       "total_quotes": 39,
-      "verified_count": 37,
-      "failed_count": 2,
+      "verified_count": 38,
+      "failed_count": 1,
       "exact_no_diff_count": 2,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 35,
+        "whitespace": 36,
         "case": 0,
         "punctuation": 6,
         "ellipsis": 6,
         "bracket": 2,
-        "verse_number": 0,
+        "verse_number": 1,
         "apparatus": 0
       },
       "note_verified": [],
@@ -169,27 +169,20 @@
           "failed_segment": "I do not deny, when I consider the ostentation that reigns at Rome, that those who desire such rank and power may be justified in labouring with all possible exertion and vehemence to obtain their wishes ; since after they have succeeded, they will be secure for the future, being enriched by offerings from matrons, riding in carriages, dressing splendidly, and feasting luxuriously, so that their entertainments surpass even royal banquets. And they might be really happy if, despising the vastness of the city, which they excite against themselves by their vices, they were to live in imitation of some of the priests in the provinces, whom the most rigid abstinence in eating and drinking, and plainness of apparel, and eyes always cast on the ground, recommend to the everlasting Deity and his true worshippers as pure and sober-minded men.",
           "nearest_context": "            directly from the Internet Archive scan (identifi",
           "recorded_verification_state": "verified-via-authority"
-        },
-        {
-          "id": "ijc.quote.ammianus-sicininus-massacre",
-          "source_file": "cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt",
-          "failed_segment": "Damasus and Ursinus, being both immoderately eager to obtain the bishopric, formed parties and carried on the conflict with great asperity, the partisans of each carrying their violence to actual battle, in which men were wounded and killed. And as Juventius was unable to put an end to, or even to soften these disorders, he was at last by their violence compelled to withdraw to the suburbs. Ultimately Damasus got the best of the strife by the strenuous efforts of his partisans. It is certain that on one day one hundred and thirty-seven dead bodies were found in the Basilica of Sicininus, which is a Christian church. And the populace who had been thus roused to a state of ferocity were with great difficulty restored to order.",
-          "nearest_context": "               Yonge, Charles Duke (Translator)\n     Print Ba",
-          "recorded_verification_state": "verified-direct"
         }
       ]
     },
     "cappadocian": {
       "world": "cappadocian",
       "total_quotes": 20,
-      "verified_count": 17,
-      "failed_count": 3,
+      "verified_count": 19,
+      "failed_count": 1,
       "exact_no_diff_count": 2,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 15,
+        "whitespace": 17,
         "case": 0,
-        "punctuation": 3,
+        "punctuation": 4,
         "ellipsis": 1,
         "bracket": 0,
         "verse_number": 0,
@@ -202,21 +195,7 @@
           "source_file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
           "failed_segment": "I recognise that the life of a number lived in common is more useful in many ways. To begin with, none of us is self-sufficient even as regards bodily needs, but we need one another's help in getting necessaries. For just as the foot has certain powers but lacks others, and without the help of the other limbs neither finds its own strength sufficient for endurance nor has the support of what is lacking, so in the solitary life both what we have becomes useless and what we lack becomes unprocurable, since God the Creator ordained that we need one another, as it is written, in order that we may be linked with one another.",
           "nearest_context": "Christian Literature,\" Series I: Greek Texts\nPublication Date",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "cappadocian.quote.basil-on-work-and-prayer",
-          "source_file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
-          "failed_segment": "Now since some get off work under pretext of prayers and psalmody, you must know that for each separate task there is a special time, as Ecclesiastes says: \"' There is a time for everything.\" But for prayer and psalmody, as for many other things, every time is suitable; so that we praise God with psalms and hymns and spiritual songs while we move our hands in work with the tongue if it is possible, and conducive to the edification of the faith,—but if not, then in the heart, giving thanks to Him Who gave both strength of hand to work and wisdom of brain to know how to work, and also bestowed means by which to work both in the tools we use and the arts we practise, whatever the work be. We pray moreover that the works of our hands may be directed towards the mark of pleasing God.",
-          "nearest_context": "nowledge (London); Macmillan (New York and Toronto) -- \"Trans",
-          "recorded_verification_state": "verified-direct"
-        },
-        {
-          "id": "cappadocian.quote.gregory-nyssa-on-becoming-god",
-          "source_file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
-          "failed_segment": "That Deity should be born in our nature, ought not reasonably to present any strangeness to the minds of those who do not take too narrow a view of things. For who, when he takes a survey of the universe, is so simple as not to believe that there is Deity in everything, penetrating it, embracing it, and seated in it? For all things depend on Him Who is, nor can there be anything which has not its being in Him Who is. If, therefore, all things are in Him, and He in all things, why are they scandalized at the plan of Revelation when it teaches that God was born among men, that same God Whom we are convinced is even now not outside mankind? For although this last form of God's presence amongst us is not the same as that former presence, still His existence amongst us equally both then and now is evidenced; only now He Who holds together Nature in existence is transfused in us; while at that other time He was transfused throughout our nature, in order that our nature might by this transfusion of the Divine become itself divine, rescued as it was from death, and put beyond the reach of the caprice of the antagonist. For His return from death becomes to our mortal race the commencement of our return to the immortal life.",
-          "nearest_context": "_________________\n\n           Title: NPNF2-05. Gregory of Nys",
-          "recorded_verification_state": "verified-direct"
+          "recorded_verification_state": "verified-via-authority"
         }
       ]
     },
@@ -314,8 +293,8 @@
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 248,
-    "failed_count": 9,
+    "verified_count": 251,
+    "failed_count": 6,
     "note_verified_count": 1
   }
 }
