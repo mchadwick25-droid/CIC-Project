@@ -17,6 +17,12 @@ sources:
   locus: "SS75 - the same disputation, on why the philosophers mock the Cross but pass over the resurrection and the healings"
   license: public-domain
 text: "Or why when you make mention of the Cross are you silent about the dead who were raised, the blind who received their sight, the paralytics who were healed, the lepers who were cleansed, the walking upon the sea, and the rest of the signs and wonders, which shew that Christ is no longer a man but God? ... But read and see that the deeds of Christ prove Him to be God come upon earth for the salvation of men."
+modern_rendering: >-
+  When you mention the Cross, why do you say nothing of the dead raised, the blind given
+  sight, the lame healed, the lepers cleansed, the walking on the sea, and the rest of
+  the signs and wonders? All of these show that Christ is no longer a man, but God. ...
+  But read the accounts, and see that the deeds of Christ prove him to be God, come to
+  earth for the salvation of mankind.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "\"Proof\" here is not evidential in the modern sense - Antony is not offering testimony to be weighed but pointing to deeds he treats as self-evidently divine. The ellipsis marks two omitted sentences of rebuke to the philosophers, not a change of subject."

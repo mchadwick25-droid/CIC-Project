@@ -31,6 +31,12 @@ text: >-
   grieving themselves; but the perfect do not desire for themselves an ordinance, for they
   themselves in their dwellings have resigned their whole lives to the Lord who sees it; but these
   things I have ordained for those who have no advisers...
+modern_rendering: >-
+  Pachomius answered the angel, saying, "These prayers are too few." The angel said to
+  him: I have commanded this so that even the weak may keep this rule without being
+  crushed by it. But the perfect do not want a rule for themselves, because they have
+  already given their whole lives, in their own dwellings, to the Lord who sees them. I
+  have ordained these things for those who have no one to advise them...
 speaker_or_author: Pachomius and the angel of the Lord, in the Ethiopic recension of the Rule
 license: verbatim
 modern_lens_note: >-
