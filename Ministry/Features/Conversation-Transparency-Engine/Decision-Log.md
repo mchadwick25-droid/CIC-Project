@@ -3205,3 +3205,123 @@ unsupported count on a small hand-read is not itself evidence the
 rebuilt detector would perform well; that needs its own live
 measurement once built, the same discipline every other candidate in
 this project has been held to.
+**Entry 62 — 2026-09-23.** R38 build (Mark's own "GO" on the 0/20 real-
+leak measurement - the full ruling, mechanism, and measurement live on
+PR #436, not duplicated here; this entry covers only what this PR
+itself adds, the real code). `engine/m4/self_revision.py` (new module):
+`self_revise(...)` - after the voice's draft, if the draft carries any
+tags, a second same-model, same-system-prompt call is given the draft
+plus the exact, full text of every tagged record (`REVISION_INSTRUCTION`,
+carried over unchanged from the measurement in PR #436) and told to trim
+any untagged-record detail. Wired into `engine/m4/turn.py`'s
+`_run_ordinary_voice_turn`, between the seat-identity guard and
+`apply_net` - the revised text (or the draft, on any fallback) is what
+`apply_net`, the net, and the participant all see; nothing downstream
+needed to change.
+
+**Scope and kill-switch, exactly as specified.** Fires only when
+`is_other_tradition_first_ask` is true (the caller-computed flag every
+other other_tradition-scoped mechanism in this file already gates on -
+`_other_tradition_directive`, R37's own evidence-offering) and the
+draft actually carries a tag (an other_tradition turn that answered
+with the honest-limit sentence and nothing else spends no extra call -
+`self_revise`'s own `no_tagged_records` fallback). `self_revision_
+enabled` threads caller-computed through `run_turn`/`_run_ordinary_
+voice_turn`, `engine.api.wiring.handle_message`, `engine.api.
+table_wiring`'s own three round-advance functions, and `engine.api.
+config.Settings` - the identical parameter-threading shape `r27_enforce`
+already established, reused rather than invented. `CIC_SELF_REVISION`
+(`engine/api/config.py`) is the kill-switch, **default ON** - the
+opposite sense from `CIC_R27_ENFORCE`'s default-off, since this ships
+as generation (Mark's own ruling, not a staged rollout behind a flag);
+set to `0`/`false`/`no` for cost or incident use only.
+
+**Fallback, never a blank turn.** `self_revise` always returns usable
+text: `no_tagged_records` (nothing to revise against, draft kept, no
+call spent), `call_failed:<status>` (the revision call itself failed,
+draft kept), or `empty_response` (the call succeeded but returned
+nothing usable after stripping, draft kept) - every fallback keeps the
+DRAFT's own real text, the same text the participant would have read
+had self-revision never run this turn, never an empty string. Every
+outcome, including which fallback (if any) fired, rides on
+`voice_event["attempts_meta"]["self_revision"]`: `ran`, `changed`,
+`draft_length`, `revised_length`, `fallback_reason`,
+`latency_seconds` - the same always-present, additive shape
+`attempts_meta["r27_regenerated"]` already established, so every
+existing reader of `attempts_meta` needs no change and a real
+production run can be audited per-turn without a schema change.
+Cost/latency: the revision call's own usage is recorded with
+`call_kind="self_revision"` (a distinct kind from `"voice_generation"`),
+so its own real marginal tokens/dollars are now separable from the
+draft call - the exact gap Entry 61 named as unmeasured in the live
+harness. `latency_seconds` wraps the revision call itself with
+`time.perf_counter()`.
+
+**7b/R30 compatibility**, stated in `self_revision.py`'s own module
+docstring: the draft-then-revise pair is one atomic pre-stream step;
+the guard check (and any streaming, whenever 7b is built) never starts
+on the draft text, only on whatever this module returns - R30's own
+"hold the opening until the guard has checked it" rule already
+describes exactly this shape, so 7b needs no new mechanism for this,
+only to call self-revision (or skip it, per the kill-switch) before it
+begins emitting anything.
+
+**Tests** (`engine/m4/tests/test_turn.py`, five new, `FakeBedrockClient`'s
+own `stream_scripts` - one script per sequential call, the identical
+harness the seat-identity-guard and R27-enforcement tests already use):
+fires only on an `other_tradition` first ask, not on an ordinary turn;
+the kill-switch bypasses it even on an `other_tradition` turn; the
+revised text (tag stripped) replaces the draft's own text end to end
+through a real `run_voice_turn_for_world` call; an empty revision
+response falls back to the exact draft text, flagged
+`fallback_reason: "empty_response"`, never blank; a draft with no tags
+at all spends no second call (`no_tagged_records`). Plus three new
+`engine/api/tests/test_config.py` tests pinning `CIC_SELF_REVISION`'s
+own default-on/kill-switch behavior. Full `engine/m4` + `engine/api`
+suites green (the pre-existing local package-cache 503s on
+`test_admission_gate`/`test_app::test_list_worlds`/`test_bridge_
+history`/`test_table_api`/`test_table_isolation`/`test_wiring` are the
+same environment artifact named in Entries 57/58, reproduced identically
+on a clean `origin/main` checkout, unrelated to this PR).
+
+**Exposure - how many `other_tradition` turns the last live battery
+had, named honestly rather than guessed.** The most recent live battery
+that calls the real reader (`engine.m4.turn.run_gate`, not bypassed -
+see the correction below) is this PR's own precursor work, G1's
+precision-sample run (`r39-audit-g1-g7-retrofit`#444, 22 probes,
+`engine.m4.live_uncited_claims_battery._run_probe_turn`), which ran the
+`B-other-tradition` probe once per world - **11 of 22 probes, by
+design** (Entry 54's own F3(a) fix: "a direct first-turn ask that needs
+no history... can actually fire `out_of_scope_class == "other_
+tradition"`" - the whole point of that probe's own shape). That run did
+not log each probe's own real `out_of_scope_class`, so the exact number
+that actually ROUTED as `other_tradition` (versus some other class)
+isn't available from it - a real, named gap, not filled in with an
+assumed 11/11.
+
+*Correction, caught re-reading this entry before it shipped rather than
+after: the R38/R39 measurement scripts (PR #436, including Entry 61's
+own self-revision run) do NOT call the real reader at all -
+`build_evidence_and_message` builds the evidence block and directive
+directly via `engine.m4.evidence.assemble_evidence`, deliberately
+bypassing `run_gate` to hold the generation-side variable (directive
+text, evidence offered) fixed across every run rather than re-deriving
+routing each time. Those 40+ calls are real evidence about what the
+VOICE does once already routed `other_tradition`, never evidence that
+the REAL reader would route the Theon/Donatists message there - that
+confirmation exists only from the actual staging occurrence Mark found
+and from the F3(a)-shaped battery probe above, not from anything this
+PR or #436's own measurement scripts ran.*
+
+**Round-1 review fix, same PR:** the reviewer caught that
+`REVISION_INSTRUCTION` (`engine/m4/self_revision.py`) read "the
+participant's question about the Donatists" - the measurement probe's
+own text (PR #436), carried unchanged into this entry's own production
+code, where the question can be about any tradition or none. Fixed:
+`participant_message` now threads from `turn.py`'s own already-in-scope
+parameter of that name through `build_revision_message`/`self_revise`;
+the instruction reads "the participant's question, given in full
+below" and interpolates the real text, no tradition named in the
+constant. New `engine/m4/tests/test_self_revision.py` pins both: the
+constant names no tradition, and the built message carries whatever
+question is actually passed to it.
