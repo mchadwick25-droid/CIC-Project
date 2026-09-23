@@ -311,3 +311,57 @@ forward, `check_paths.py` runs against a clean `git worktree`, not the
 working tree, before any push that repins a package — a working tree with
 leftover untracked build output is not a substitute for what CI actually
 sees.
+
+**Entry 13 — 2026-09-23 (R40, desert half A — 23 of 46 missing quote
+records authored).** Continues R40 world by world after alx (PR #442)
+and ijc (PR #453): desert, split into two PRs by record range on the
+reviewer's own suggestion to keep each PR reviewable, half A here and
+half B in parallel on a separate branch/PR. desert had 46 of 60 quote
+records missing `modern_rendering` (14 already had it); this PR authors
+half A's 23.
+
+Each rendering was written directly from the record's own `text` field
+(never from memory of the source), reading `modern_lens_note` first so
+flagged technical/theological vocabulary (apatheia, praktike, Essence,
+Μονάς/῾Ενάς, diakrisis/discretion, compunction/penthos, and others) was
+kept rather than softened away. Every rendering was checked against
+`engine/m1/fk.py`'s `fk_grade()` locally before any live call, then run
+through `engine/m1/rendering_fidelity.py`'s live Haiku 4.5 grader per
+the birth-condition process, revised until the verdict read
+"translation" on two consecutive runs of the same final text. **No
+honest exceptions this pass** — all 23 cleared two consecutive
+"translation" verdicts inside the normal revision process; five records
+needed real revision (2-3 rounds) against grader findings of dropped or
+added clauses, and one round on an already-revised record showed the
+grader giving internally self-contradictory reasoning (calling a
+rendering "mixed" while its own final sentence concluded the rendering
+was faithful) before resolving to "translation" on the very next
+consecutive run, so no exception was invoked.
+
+One fidelity-mechanics catch along the way, worth recording: an early
+draft of `desert.quote.god-is-not-a-body`'s rendering retyped its
+source's polytonic Greek (Μονάς, ῾Ενάς) by hand and silently landed on
+different Unicode codepoints for the accented alpha and the rough-
+breathing mark than the source actually uses (monotonic vs. polytonic
+forms, invisible to the eye, exactly the class of defect
+`desert.quote.god-is-not-a-body`'s own record body already names for
+its `text` field). Caught before commit by comparing codepoints
+directly; the final rendering's Greek was extracted programmatically
+from the record's own `text` field rather than retyped, to guarantee an
+exact match.
+
+`engine/m1/gates.py`'s `gate_readability` (FK ceiling 10): 0 findings
+across the 23 (range 1.6-8.7). Full `run_all()` on desert: 0 findings
+referencing any of the 23 (one pre-existing, unrelated `reciprocity`
+finding on `desert.limit.communal-wrong-unrepaired` /
+`desert.story.moses-leaking-jug` remains untouched by this work).
+`pytest engine/m1/tests/`: 134 passed, no regressions. No field other
+than `modern_rendering` touched on any record; no per-record notes
+added, per R33.
+
+Package re-pinned twice: once after authoring (records-commit
+`02e0a1dc6431b5d123dbf8d64037776cadb98b4d`), then again after rebasing
+onto current main immediately before push (records-commit
+`697281f1197a0bd772e48e0183372c6076789b39`, the real post-rebase HEAD).
+`staleness_sweep()`: clean across all 12 worlds after the final re-pin.
+Old manifests retired (directories kept, per convention).
