@@ -382,6 +382,54 @@ standing authorization.
 R17 cap demotion at turn end moves an already-shown mark to the
 references line — it never removes a sentence or a claim.
 
+### R31-A — Amendment: marks are per distinct grounded element, not per sentence; how should more than one on the same sentence be told apart?
+**Status:** RULED (option a) — 2026-09-23. Via the reviewer thread's
+standing authorization. Mark's own correction, relayed verbatim, of the
+reviewer's first framing of a staging defect report: *"i am not sure
+why we can only have 1 mark per sentence, i get not overloading, but if
+a quote and a lexicon word are in the same sentence they should both
+marked."* Found on Mark's own staging Table look, full detail in
+Decision-Log.md Entry 58.
+
+**Ruled (the count question):** a mark is per distinct grounded
+element — a story, a witness quote, a term — never reduced to one per
+sentence. Theon's own turn (*"...long before any emperor cared.✲✲"*)
+showing two marks stacked on one sentence is not a bug under this
+reading; it is what today's renderer already does whenever a
+story/quote record and a `doctrinal_witness` record both finish their
+citing run at the same sentence.
+
+**Ruled (the readability question): option (a), mark placed at its own
+element.** Each mark sits at the element it marks — a quote's mark
+follows the quoted words, a term's mark follows the term, a claim's
+mark ends the sentence. One mark per distinct grounded element, none
+duplicated. The three options weighed, one-paragraph-each with cost:
+(a) **Mark placed at its own element (RULED)** — each mark moves to sit
+after the specific span inside the sentence it actually grounds, not at
+the sentence's end. Reads most like ordinary punctuation; needs new
+span-level placement data the anchors don't carry today - the design
+brief for this build is queued after the G1-G7 retrofit PR, before
+Stage 7b, since 7b's own per-sentence marks must be built to this rule.
+(b) **One glyph per kind** — marks stay at the sentence boundary, but
+the story mark and the witness mark get visually distinct glyphs
+instead of two identical ✲. Smallest change of the three; adds a
+second glyph to the fleet's "one grammar, five applications" rule. Not
+chosen.
+(c) **Single mark, tap/hover card listing all elements** — collapse
+however many marks land on one sentence into one glyph; tapping opens
+a card listing everything it covers. Cleanest on a phone screen; hides
+the "there were two things here" signal a participant gets today
+without tapping. Not chosen.
+
+**Also unresolved:** which two real records produced Theon's own two
+marks was not confirmed — the exact sentence has no saved report, pool
+file, or transcript this repository can read, and pinning it needs
+either a live regeneration against the original prompt or persisting
+`apply_net`'s own per-sentence citations for staging turns going
+forward. The two records named as the likely (not confirmed) pairing
+in Decision-Log.md Entry 58 are real alx records on the same topic,
+offered honestly as the best evidence available, not as fact.
+
 ### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
 **Status:** RULED — 2026-09-23. Mark chose this from three options put
 to him after PR #427's own live numbers (Decision-Log.md Entry 54's own
