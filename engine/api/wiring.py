@@ -464,6 +464,7 @@ def handle_message(
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -579,6 +580,7 @@ def handle_message(
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
             other_tradition_evidence_ids=other_tradition_evidence_ids,
+            self_revision_enabled=self_revision_enabled,
         )
     except UnhandledRoutingAction:
         # Deleted 2026-08-24, not weakened: this used to catch the raise and

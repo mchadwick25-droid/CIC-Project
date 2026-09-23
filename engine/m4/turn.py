@@ -58,6 +58,7 @@ from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
+from engine.m4.self_revision import self_revise
 from engine.m4.uncited_claims import classify_neighbour_named, find_uncited_claims, find_uncited_paragraphs
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
@@ -521,6 +522,7 @@ def _run_ordinary_voice_turn(
     debug_capture: dict | None = None,
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
+    self_revision_enabled: bool = True,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -724,6 +726,45 @@ def _run_ordinary_voice_turn(
         else:
             raw_text = retry_text
 
+    # SELF-REVISION (R38, RULED 2026-09-23 - Rulings-Pending.md; build
+    # proposed Decision-Log.md Entry 61, measured 0/20 real leaks) - the
+    # generation-side fix for a fabricated detail riding a real citation
+    # tag, engine.m4.self_revision's own module docstring carries the
+    # full mechanism and the 7b/R30 compatibility note. Runs only on
+    # other_tradition-routed turns (is_other_tradition_first_ask), where
+    # the leak class lives, and only when the draft survived the seat-
+    # identity guard above (raw_text is never truthy after that guard's
+    # own exhaustion path, so this never spends a call revising a blank
+    # turn). self_revision_enabled is the caller-computed CIC_SELF_
+    # REVISION kill-switch (engine.api.config, same pattern as
+    # r27_enforce/CIC_R27_ENFORCE) - default True, cost/incident use
+    # only; unlike r27_enforce this is generation, not enforcement, so
+    # it needs no known_tradition_names/registry access of its own.
+    self_revision_meta: dict = {
+        "ran": False, "changed": False, "draft_length": None, "revised_length": None,
+        "fallback_reason": None, "latency_seconds": 0.0,
+    }
+    if raw_text and is_other_tradition_first_ask and self_revision_enabled:
+        self_revision_result = self_revise(
+            client=voice_client, model_id=voice_model_id, system_prompt=world.prompt_text,
+            draft_raw_text=raw_text, repository_records=repository_records,
+        )
+        if self_revision_result["call_outcome"] is not None:
+            if rec := _maybe_record_usage(
+                self_revision_result["call_outcome"], session_id=session_id, call_kind="self_revision",
+                model_id=voice_model_id, world_key=usage_world_key,
+            ):
+                usage_records.append(rec)
+        raw_text = self_revision_result["revised_text"]
+        self_revision_meta = {
+            "ran": self_revision_result["ran"],
+            "changed": self_revision_result["changed"],
+            "draft_length": self_revision_result["draft_length"],
+            "revised_length": self_revision_result["revised_length"],
+            "fallback_reason": self_revision_result["fallback_reason"],
+            "latency_seconds": round(self_revision_result["latency_seconds"], 3),
+        }
+
     if debug_capture is not None:
         # R27 F6 (reviewer thread fix list, 2026-09-22): the raw, still-
         # tagged, still-paragraphed answer - never part of voice_event
@@ -873,7 +914,10 @@ def _run_ordinary_voice_turn(
         # meta carries no schema-validated shape (engine.m4.events'
         # REQUIRED_KEYS only requires the key's presence), so this rides
         # here rather than needing a catalog change.
-        "attempts_meta": {"empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated},
+        "attempts_meta": {
+            "empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated,
+            "self_revision": self_revision_meta,
+        },
         "grounding": net_result,
         "transparency": transparency,
         "do_not_voice_violation": do_not_voice_hit,
@@ -954,6 +998,7 @@ def run_turn(
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     other_tradition_evidence_ids: list[str] | None = None,
+    self_revision_enabled: bool = True,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1158,6 +1203,7 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
+            self_revision_enabled=self_revision_enabled,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -1181,6 +1227,7 @@ def run_turn(
             is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
             other_tradition_evidence_ids=other_tradition_evidence_ids,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
+            self_revision_enabled=self_revision_enabled,
         )
         return TurnResult(
             routing_action=action,
