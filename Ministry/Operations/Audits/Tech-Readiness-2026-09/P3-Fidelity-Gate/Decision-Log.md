@@ -607,3 +607,49 @@ Old `packages/syr/2026-09-23T08-14-23Z`
 `git worktree` of this branch's head: 0 new unresolved path
 citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
 present.
+
+**Entry 18 — 2026-09-23 (R40, fix — 2 of 3 missing quote records
+authored; R40 pass complete).** syr (PR #464) is done and merged.
+Last world in the reviewer's stated order (hal, pahc, syr, fix): `fix`
+(the sealed fixture world, `fixture-synthetic`, used to exercise the
+engine's own defect-detection harness) had 2 of its 3 quote records
+missing `modern_rendering`. One PR, its own pin, per the standing
+process.
+
+Both records were already short, plain modern English in their own
+`text` field (`fix.quote.private-teaching`, license `do-not-voice`;
+`fix.quote.witness-saying`, license `verbatim`), so each rendering is
+a near-verbatim carry-over of the source rather than a restructuring —
+nothing to split, nothing dense to simplify. Run through
+`engine/m1/rendering_fidelity.py`'s live Haiku 4.5 grader: both read
+"translation" cleanly on the first attempt and again on a second
+consecutive run — no revision needed, no honest exceptions.
+
+**Gate results.** `gate_readability` (FK ceiling 10): 0 findings
+across both (2.3 and 6.1). Full `run_all()` (all M1 gates) on fix: 0
+findings. `pytest engine/m1/tests/`: 134 passed, no regressions. No
+field other than `modern_rendering` touched on either record; no
+per-record notes added, per R33.
+
+**Package pin.** Main had not moved since branching; rebuilt and
+re-pinned once against this PR's own commit
+`51c6f1e9fb05130e1942abd2b275c1ef82b3cc02`. Old
+`packages/fix/2026-09-23T08-13-49Z`
+(`sha256:ce011062ca438b5ddd51cef1d922124d1e67d78abd0ab80d00c0c6c3fb24840b`)
+→ new `packages/fix/2026-09-23T22-10-53Z`
+(`sha256:2c6f153eca0ad264fd186270769e987847a42226a653eecd0f79a17af7b76f53`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifest retired
+(directory kept, per convention).
+`check_paths.py --baseline tools/check_paths_baseline.txt` on a clean
+`git worktree` of this branch's head: 0 new unresolved path
+citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
+present.
+
+**This closes the R40 pass.** Combined with alx (PR #442), ijc (PR
+#453), desert (PRs #458/#459), hal (PR #462), pahc (PR #463), and syr
+(PR #464), every quote record across the fleet's 12 worlds now has a
+`modern_rendering`. Next, per Mark's ruling (2026-09-23, 20:16Z): R43,
+a fleet-wide `rendering_fidelity.py` sweep of the 45 pre-existing
+renderings the grader had already marked summary or expansion before
+this pass began, to produce a flagged-records-by-world list for the
+reviewer to read before any re-authoring starts.

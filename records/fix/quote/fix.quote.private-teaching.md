@@ -15,6 +15,9 @@ confidence:
 sources:
   - {source_id: fix.source.secondary-summary, locus: "5.1", license: public-domain}
 text: "What is written for the initiate alone is not for the crowd, and not for the voice to speak."
+modern_rendering: >-
+  What is written for the initiate alone is not for the crowd, and not for the voice to
+  speak.
 speaker_or_author: fix.figure.the-elder
 license: do-not-voice
 modern_lens_note: "No significant modern-lens risk identified for this quote."
