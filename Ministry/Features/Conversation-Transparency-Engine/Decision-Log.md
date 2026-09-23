@@ -2259,3 +2259,168 @@ takes the turn).
 Sequencing for this session (reviewer thread's own words): the F4-F6 PR
 already in flight finishes first, then R27-A items 1-4, then Stage 7b-7e
 (streaming does not ship before R27-A's own enforcement is on).
+
+**Entry 55 — 2026-09-23.** R27-A build order item 1: the paragraph-
+coverage design, stated exactly, per the reviewer thread's own build
+order (Entry 54) plus two further design points the reviewer put to
+this entry directly, arising from PR #420's own live numbers. Design
+only - no code in this entry or its PR; item 2 builds the module.
+
+**1. How a paragraph is delimited.** Blank-line blocks in the voice's
+raw tagged text - `engine.m4.live_uncited_claims_battery`'s own
+`_PARAGRAPH_SPLIT` regex (`\n\s*\n`) already does exactly this, proven
+against real live text across two battery runs (#419, #420); item 2
+moves this into `engine.m4.grounding_net` itself rather than leaving it
+battery-only. The existing sentence split (`quote_aware_sentences`,
+`parse_tagged`'s own machinery) runs INSIDE each paragraph block,
+completely unchanged - a paragraph is a sequence of the same sentences
+`check_turn` already produces, grouped by which blank-line block they
+fell in, nothing about how a sentence itself is found or tagged changes.
+
+**2. How "the paragraph's cited records" is formed.** The union of every
+record id tagged anywhere in that paragraph, across however many of its
+own sentences carry a tag. `engine.m4.live_uncited_claims_battery`'s own
+`_paragraph_coverage` already computes the boolean form of this (does
+the paragraph carry a tag at all); item 2's own module needs the actual
+id set, not just the boolean, since step 3 below checks an untagged
+sentence's content against those specific records, not merely against
+"some record or other."
+
+**3. What the grounding net does with an untagged sentence in a cited
+paragraph.** The exact same per-sentence check `verdict_for_sentence`
+already runs on a TAGGED sentence - claim_markers, grounding_ratio
+against the record set's own content words - run again, unchanged, but
+fed the paragraph's own inherited record set in place of the sentence's
+own (empty) `tags` list. Concretely: `verdict_for_sentence(text, tags,
+...)` already takes `tags` as a plain list of ids; the paragraph
+wrapper's whole design is "compute `tags` differently before the call,
+change nothing after it" - an untagged sentence's own inherited call is
+`verdict_for_sentence(sentence_text, list(paragraph_record_ids), ...)`,
+the identical function, no new logic inside it, no new model call
+(Constraint A holds by construction: this is string comparison against
+already-loaded records, exactly what every other verdict on this turn
+already does). This is real reuse, not a description of reuse - the one
+function already does exactly what an inherited check needs; the wrapper
+only changes which `tags` value it hands that function for one class of
+sentence.
+
+**4. What verdict an untagged sentence gets when its own inherited check
+fails - two options, recommending one.**
+- *(a) Withhold the sentence exactly as a failed tagged sentence is
+  withheld today.* The one sentence silently drops from what a
+  participant sees; the rest of the paragraph, and the rest of the turn,
+  streams as normal.
+- *(b) Count it as a paragraph failure that triggers regeneration,
+  without itself being withheld. (Recommended.)* Nothing is dropped
+  sentence-by-sentence; the WHOLE TURN is what regenerates, via the
+  seat-guard shape R27 already ruled for enforcement (Rulings-Pending.md
+  R27: "regenerate once with the violations named, then the Facilitator
+  takes the turn") - the same mechanism already ruled, applied to a new
+  failure kind, not a new mechanism.
+
+**Recommending (b), and this does not need to go to Mark**, for exactly
+the reason the reviewer's own instruction names as the escalation test:
+(a) is a genuinely NEW participant-visible shape nobody has ruled -
+a paragraph the participant reads with one sentence silently missing
+from the middle of it, a hole in the prose no one asked for and R27-A's
+own reasoning ("a paragraph must carry at least one citation" - the
+paragraph is the unit, not its individual sentences) argues directly
+against treating as sound. (b) is not a new shape at all - it is R27's
+own already-ruled enforcement mechanism, whole-turn regeneration,
+applied to a paragraph-level failure instead of a sentence-level one.
+Nothing about what a participant would ever see is being decided fresh
+here; the choice is only which of two already-adjacent behaviors a new
+failure kind maps onto, and only one of them (b) maps onto something
+already ruled.
+
+**5. Narrowing `own_doctrine_in_other_tradition_turn` - the reviewer's
+first further point, from #420's own numbers.** As built (PR #420),
+`classify_other_tradition_turn` upgrades EVERY base `uncited_claim`
+offense inside an `other_tradition` turn, unconditionally - 24 of 24 in
+that run's own live data. Under a per-sentence hard failure (R26's own
+two classes stay per-sentence under R27-A - Entry 54), that would fail
+nearly every `other_tradition` turn on its own narrative frame, the
+exact over-flagging problem R27-A itself exists to stop, just relocated
+from R27's base class to R26's two classes.
+
+**Narrowed rule:** inside an `other_tradition` turn, a sentence is
+`own_doctrine_in_other_tradition_turn` only when either (i) it sits in a
+wholly uncited paragraph, or (ii) it sits in a cited paragraph but its
+own inherited check (item 3 above) fails to ground it against that
+paragraph's own records. A sentence the net successfully grounds via
+paragraph inheritance is NOT this class, even inside an `other_tradition`
+turn - a frame sentence a paragraph's own citations genuinely support is
+a formatting fact (no tag of its own), not an unsupported doctrinal
+claim, and R26's whole point was never "every sentence in this kind of
+turn needs its own tag," it was "don't assert what this world's own
+records don't hold."
+
+**Pinned for item 3's own tests, real sentences, not invented ones:**
+- **Must still catch (own_doctrine_in_other_tradition_turn):** the two
+  Augustinian sacramental sentences from R26's own motivating incident
+  (Decision-Log Entry 50/51: *"What the sacrament does, it does by
+  Christ's power, not the minister's purity."*, *"Even a broken priest
+  could not block his grace."*) - genuinely unsupported by anything in
+  alx's own records, real doctrine belonging to a different world,
+  wholly uncited by construction; the narrowed rule must still fail
+  both.
+- **Must pass (not this class):** a grounded frame sentence inside a
+  real `other_tradition` turn, from PR #420's own live data - alx's own
+  answer on the Donatists probe (`probes["B-other-tradition"]`) put six
+  sentences (*"When the great persecution ended, many who had given way
+  - sacrificed to the gods, handed over the scriptures - wanted back
+  in."*, *"The strict party said no: the church is holy, the defiled
+  cannot pollute it."*, *"The wound was real on both sides."*, *"Those
+  who had held fast felt betrayed."*, *"Those who had broken felt cast
+  out."*, *"That is what our own record shows us wrestling with."*) in
+  one WHOLLY UNCITED paragraph, all correctly still catching under (i)
+  above - the real test case the narrowed rule needs is the OTHER shape,
+  a frame sentence riding inside a CITED other_tradition paragraph (the
+  alx conflict-turn shape already proven live: *"For years they held
+  together."*, inside a paragraph #420's own report already shows fully
+  cited, `uncited_in_cited_paragraph: 7`) - constructed as a hermetic
+  fixture the same way `test_uncited_claims.py`'s own
+  `_REAL_CHURCH_FAILURE_TEXT` already pins real record content without a
+  live package, with `is_other_tradition_turn=True` forced on it to
+  prove the narrowed rule, not merely R27-A's own base paragraph
+  coverage, is what passes it.
+
+**6. One-sentence paragraphs - the reviewer's second further point, and
+mine to decide, not Mark's** (his own words: "that choice changes
+nothing participant-visible"). #420's own data: 11 uncited sentences
+sit in wholly uncited paragraphs across 14 turns that had any -
+`witt`'s own `A-conflict` turn is a real, live example, two sentences (
+*"In our own time, it did not."*, *"The tension stands in the confession
+itself."*) with zero citations anywhere in that turn's paragraph at all.
+A short, standalone line set apart by its own blank lines - a dramatic
+beat, not a developed claim - fails paragraph coverage on its own by
+construction, every time, if a one-sentence paragraph is scored as its
+own isolated unit.
+
+**Recommendation: a one-sentence paragraph inherits the immediately
+preceding paragraph's own cited records for coverage purposes - it does
+not stand as its own isolated unit.** Reasoning: a real paragraph
+develops an idea across more than one sentence; a single sentence set
+apart by blank lines on either side is, structurally, a rhetorical
+device continuing the thought the PRECEDING paragraph just made, not a
+new, independently-argued claim starting fresh with no support of its
+own. Scoring it as an isolated unit resurrects R27-A's own reason for
+existing - punishing narrative shape rather than actual unsupported
+content - just relocated from "the last sentence of a paragraph" to
+"any sentence a voice sets off alone for emphasis," a pattern a voice
+would learn to avoid not because it makes fewer unsupported claims but
+because it stopped using a legitimate rhetorical form. Inheritance from
+the paragraph BEFORE (never the one after, and never both) keeps the
+rule simple and matches how a reader actually experiences the line - as
+the close of what was just said, not the opening of what comes next.
+
+**Build order, unchanged from Entry 54:** item 2 (report-only module,
+paragraph coverage + the narrowed R26 classes + inherited-check logging,
+no participant-visible change), item 3 (tests, this entry's own pinned
+cases plus the honest-limit-paragraph and wholly-uncited-narrative-
+paragraph cases Entry 54 already named), item 4 (battery under the
+paragraph unit - also now reporting, per the reviewer's own added asks:
+the R26 honest-limit sentence's own utterance rate on `other_tradition`
+probes whose records are silent, alx-on-Donatists first; and the count
+of wholly uncited paragraphs that are exactly one sentence long), item 5
+(enforcement, flag-gated, only on Mark's word after item 4).
