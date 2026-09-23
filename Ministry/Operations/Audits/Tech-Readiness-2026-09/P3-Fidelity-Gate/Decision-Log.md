@@ -538,3 +538,72 @@ rebase was needed before this build). Old
 `git worktree` of this branch's head: 0 new unresolved path
 citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
 present.
+
+**Entry 17 — 2026-09-23 (R40, syr — 16 of 34 missing quote records
+authored).** pahc (PR #463) is done and merged. Next in the reviewer's
+stated order (hal, pahc, syr, fix): `syr` had 16 of 34 quote records
+missing `modern_rendering`. One PR, one world, authored directly in
+this session (no parallel background subagents).
+
+Each rendering was written directly from the record's own `text`
+field, split into short sentences where needed for readability, each
+resulting sentence keeping its own subject and verb and one whole
+thought of the original — with one deliberate exception, below. Run
+through `engine/m1/rendering_fidelity.py`'s live Haiku 4.5 grader: 3
+of the 16 needed real revision. `palladius-hospitaller`'s "on your
+behalf" had drifted to "on your own behalf," a genuine meaning shift
+(self-interest implied by "own") caught and reverted. `sozomen-
+melodies` had turned "not the precise copies by Harmonius" into
+"not Harmonius's own songs," losing the "copies" distinction between
+a precise copy and a looser one of the same melody; revised to "not
+exact copies of Harmonius's versions." `nisibene-death-trembled` is
+the one genuinely hard case in this project's R40 pass so far: its
+source sentence ends "...and Satan because sinners rebelled against
+him" — an elliptical construction missing Satan's own verb entirely
+in the vendored translation. Six consecutive grading rounds, across
+three different supplied verbs ("was terrified," "so did," "was
+troubled"), were each rejected by the grader as inventing content not
+present in the original — correctly, since no verb is actually there
+to translate. The construction that finally cleared both gates
+reproduces the source's own ellipsis verbatim ("...and Satan, because
+sinners rebelled against him"), accepting the resulting fragment
+rather than inventing a predicate the source never supplies. This is
+recorded as a deliberate, narrow exception to the process doc's
+no-fragment rule, not a precedent for splitting sentences carelessly:
+the fragment already exists in the source's own English translation,
+and preserving it was the only path that satisfied both fidelity and
+readability. One record, `tatian-barbaric-writings`, flipped to
+"summary" on materially unchanged text on two separate full-world
+runs (out of 5 total calls), each time citing content that is plainly
+present in the rendering, restructured into shorter sentences — the
+same inconsistency pattern already documented for alx/ijc/desert/hal/
+pahc; it returned to "translation" on immediate re-runs each time, so
+no rewrite was made and it is not an honest exception. **No honest
+exceptions this pass** (the nisibene fragment is a structural
+accommodation, not an unresolved fidelity disagreement — it passed
+the grader cleanly once rewritten). Two consecutive full-world runs
+came back 16/16 "translation" (`tatian-barbaric-writings`
+independently reconfirmed 3/3 "translation" on its own beforehand).
+
+**Gate results.** `gate_readability` (FK ceiling 10): 0 findings
+across all 16 (range 1.2-9.8). Full `run_all()` (all M1 gates) on
+syr: 1 finding, the same pre-existing `voice-perspective` flag on
+`syr.dw.death-judgment` (confirmed present on main before this
+branch, untouched by this PR's 16 records). `pytest engine/m1/tests/`:
+134 passed, no regressions. No field other than `modern_rendering`
+touched on any record; no per-record notes added, per R33.
+
+**Package pin.** Main moved during this PR (PR #449, an unrelated
+table-parity fix, merged first) — rebased cleanly onto
+`69391958` before building, then rebuilt and re-pinned once against
+the real post-rebase HEAD `be18caf258364315ef4f98b54a949154165ee916`.
+Old `packages/syr/2026-09-23T08-14-23Z`
+(`sha256:97786ffefb3529c3a53913e7292c567a4ef46b019700654e944577802e7bfc71`)
+→ new `packages/syr/2026-09-23T21-55-08Z`
+(`sha256:047584444cedf6305fe3f191ad39d6dd99453d4fda08766c53e1fa46d6ebd902`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifest retired
+(directory kept, per convention).
+`check_paths.py --baseline tools/check_paths_baseline.txt` on a clean
+`git worktree` of this branch's head: 0 new unresolved path
+citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
+present.
