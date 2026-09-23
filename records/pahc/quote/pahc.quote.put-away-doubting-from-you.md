@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Put away doubting from you and do not hesitate to ask of the Lord, saying to yourself, 'How can I ask of the Lord and receive from Him, seeing I have sinned so much against Him? 'Do not thus reason with yourself, but with all your heart turn to the Lord and ask of Him without doubting, and you will know the multitude of His tender mercies...
+modern_rendering: >-
+  Put doubting away from you, and do not hesitate to ask the Lord. Do not say to yourself,
+  'How can I ask the Lord and receive from him, when I have sinned against him so much?'
+  Do not reason with yourself this way. Instead, turn to the Lord with your whole heart,
+  and ask him without doubting. Then you will know the abundance of his tender mercies...
 speaker_or_author: the Shepherd of Hermas, Commandment Ninth
 license: verbatim
 modern_lens_note: >-

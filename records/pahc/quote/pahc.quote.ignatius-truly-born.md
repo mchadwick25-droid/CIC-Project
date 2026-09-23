@@ -18,6 +18,13 @@ sources:
   locus: "Trallians 9, shorter (middle) recension"
   license: public-domain
 text: "Stop your ears, therefore, when any one speaks to you at variance with Jesus Christ, who was descended from David, and was also of Mary; who was truly born, and did eat and drink. He was truly persecuted under Pontius Pilate; He was truly crucified, and [truly] died, in the sight of beings in heaven, and on earth, and under the earth. He was also truly raised from the dead, His Father quickening Him, even as after the same manner His Father will so raise up us who believe in Him by Christ Jesus, apart from whom we do not possess the true life."
+modern_rendering: >-
+  So stop your ears when anyone speaks to you against Jesus Christ. He was descended from
+  David, and also from Mary. He was truly born, and he truly ate and drank. He was truly
+  persecuted under Pontius Pilate. He was truly crucified, and he truly died, in sight of
+  beings in heaven, on earth, and under the earth. He was also truly raised from the dead
+  -- his Father brought him back to life. In the same way, his Father will raise us too,
+  if we believe in him through Christ Jesus. Apart from Christ, we do not have true life.
 speaker_or_author: pahc.figure.ignatius
 license: verbatim
 modern_lens_note: >
