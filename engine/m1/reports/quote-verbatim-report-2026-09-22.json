@@ -31,11 +31,12 @@
     "pahc": {
       "world": "pahc",
       "total_quotes": 25,
-      "verified_count": 24,
-      "failed_count": 1,
+      "verified_count": 25,
+      "failed_count": 0,
       "exact_no_diff_count": 4,
+      "note_verified_count": 1,
       "class_counts": {
-        "whitespace": 20,
+        "whitespace": 21,
         "case": 0,
         "punctuation": 3,
         "ellipsis": 3,
@@ -43,15 +44,14 @@
         "verse_number": 4,
         "apparatus": 0
       },
-      "failures": [
+      "note_verified": [
         {
           "id": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
           "source_file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-          "failed_segment": "I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministræ), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.",
-          "nearest_context": " mcgiffert\n    Grand Rapids, MI: Christian Classics Ethereal ",
-          "recorded_verification_state": "verified-via-authority"
+          "note_id": "iii.viii.xxxiii-p2.2"
         }
-      ]
+      ],
+      "failures": []
     },
     "syr": {
       "world": "syr",
@@ -59,6 +59,7 @@
       "verified_count": 34,
       "failed_count": 0,
       "exact_no_diff_count": 10,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 23,
         "case": 1,
@@ -68,6 +69,7 @@
         "verse_number": 1,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": []
     },
     "desert": {
@@ -76,6 +78,7 @@
       "verified_count": 59,
       "failed_count": 1,
       "exact_no_diff_count": 10,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 38,
         "case": 3,
@@ -85,6 +88,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": [
         {
           "id": "desert.quote.good-good-i-dont-mind",
@@ -101,6 +105,7 @@
       "verified_count": 31,
       "failed_count": 1,
       "exact_no_diff_count": 1,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 30,
         "case": 0,
@@ -110,6 +115,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": [
         {
           "id": "hal.quote.hindered-by-jerome",
@@ -126,6 +132,7 @@
       "verified_count": 26,
       "failed_count": 0,
       "exact_no_diff_count": 2,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 24,
         "case": 0,
@@ -135,6 +142,7 @@
         "verse_number": 3,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": []
     },
     "ijc": {
@@ -143,6 +151,7 @@
       "verified_count": 36,
       "failed_count": 3,
       "exact_no_diff_count": 2,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 34,
         "case": 0,
@@ -152,6 +161,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": [
         {
           "id": "ijc.quote.ammianus-roman-luxury",
@@ -182,6 +192,7 @@
       "verified_count": 17,
       "failed_count": 3,
       "exact_no_diff_count": 2,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 15,
         "case": 0,
@@ -191,6 +202,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": [
         {
           "id": "cappadocian.quote.basil-on-common-life",
@@ -221,6 +233,7 @@
       "verified_count": 3,
       "failed_count": 2,
       "exact_no_diff_count": 1,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 2,
         "case": 0,
@@ -230,6 +243,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": [
         {
           "id": "don.quote.donatus-quid-est-imperatori",
@@ -253,6 +267,7 @@
       "verified_count": 3,
       "failed_count": 0,
       "exact_no_diff_count": 0,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 3,
         "case": 0,
@@ -262,6 +277,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": []
     },
     "rzg": {
@@ -270,6 +286,7 @@
       "verified_count": 6,
       "failed_count": 0,
       "exact_no_diff_count": 0,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 5,
         "case": 0,
@@ -279,6 +296,7 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": []
     },
     "witt": {
@@ -287,6 +305,7 @@
       "verified_count": 7,
       "failed_count": 0,
       "exact_no_diff_count": 0,
+      "note_verified_count": 0,
       "class_counts": {
         "whitespace": 7,
         "case": 0,
@@ -296,12 +315,14 @@
         "verse_number": 0,
         "apparatus": 0
       },
+      "note_verified": [],
       "failures": []
     }
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 246,
-    "failed_count": 11
+    "verified_count": 247,
+    "failed_count": 10,
+    "note_verified_count": 1
   }
 }

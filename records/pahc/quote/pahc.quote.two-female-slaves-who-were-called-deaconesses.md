@@ -11,24 +11,23 @@ canon_cells:
 - F6-P
 confidence:
   citation_specificity: A
-  verification_state: verified-via-authority
+  verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Documented
   divergence_note: >-
     Documented as Pliny's own report to Trajan, c. 112, and it is the outside witness this world's record most depends on. It is a governor explaining his own procedure to an emperor, written by a man who says plainly he had never handled such a case before; what he reports of Christian practice he got under interrogation and torture.
 
-    Quote-verbatim gate note (2026-09-22): this passage sits inside a translator's endnote (id
-    iii.viii.xxxiii-p2.2, a long editorial note identifying Pliny and quoting his letter to Trajan in
-    full) rather than in Eusebius's own primary running text. The gate strips all `<note>` blocks as
-    editorial apparatus before matching, on the reasoning that a note is commentary about the text, not
-    the text itself - which is right for most notes but not this one, where the note's own body IS the
-    primary-source quotation. Independently confirmed character-for-character correct against the raw
-    XML (the only difference was "ministrae" for the edition's own ligature "ministræ", now corrected
-    below) once that stripping is bypassed. verification_state lowered to verified-via-authority to
-    reflect that the gate's current note-handling can't confirm this directly, not because the quote is
-    actually in doubt. Flagged for Mark: whether the gate's note-stripping should distinguish a note
-    that embeds a full primary-source quotation from ordinary editorial commentary is a real design
-    question, not something resolved here.
+    Quote-verbatim gate note (2026-09-22, resolved by R33 on 2026-09-23): this passage sits inside a
+    translator's endnote (id iii.viii.xxxiii-p2.2, a long editorial note identifying Pliny and quoting
+    his letter to Trajan in full) rather than in Eusebius's own primary running text. The gate strips
+    all `<note>` blocks as editorial apparatus when checking the running text, which is right for most
+    notes but not this one, where the note's own body IS the primary-source quotation. Rather than a
+    per-record field naming the note (Mark's R33 ruling: a hundred-world fleet can't carry a hand-set
+    pointer for every such case), the gate itself now falls back to checking every `<note>` body in the
+    same source file once the running text fails - no record change needed to opt in.
+    verification_state restored to verified-direct: the gate verifies this record's text character for
+    character against that note's own content (the only difference was "ministrae" for the edition's
+    own ligature "ministræ", already corrected below).
 sources:
 - source_id: pahc.source.pliny-letters
   locus: >-

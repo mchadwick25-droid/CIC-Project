@@ -111,6 +111,25 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # its own detector - they are simply what's left when a segment fails to
 # match under every allowance above.
 
+# R33 (Mark, 2026-09-23, in his own words): "we should be setting
+# principles we will have a 100 worlds and cant tell the representitive
+# what to say for every quote." A quote whose primary-source text sits
+# inside a translator's own `<note>` rather than the running text
+# (pahc.quote.two-female-slaves-who-were-called-deaconesses: Pliny's
+# letter to Trajan, quoted in full inside a translator's endnote, not in
+# Eusebius's own running text) is handled by a gate-level fallback, never
+# a per-record pointer: once the running text fails to verify, every
+# `<note>` body in the same vendored source file is tried in turn, same
+# tolerances as everywhere else. No record ever names which note - this
+# supersedes R28 (2026-09-23, PR #423, not merged), which had a quote
+# record opt in with its own `source_note_id` field naming the note
+# directly; R33 ruled a mechanism at the gate level instead, since a
+# hundred-world fleet can't carry a hand-set field on every record this
+# pattern might touch. `VerifyResult.verified_in` records which path
+# actually verified a quote ("running_text" or "note", with `note_id` set
+# for the latter) so a note-verified record is always reported as what it
+# is, never folded silently into an ordinary running-text pass.
+
 _QUOTE_VARIANTS = '"“”„«»'
 _APOS_VARIANTS = "'‘’ʼ"
 _DASH_VARIANTS = "-–—−"
@@ -275,6 +294,13 @@ class VerifyResult:
     classes_used: set[str] = field(default_factory=set)
     failed_segment: str | None = None
     nearest_context: str | None = None
+    # R33 (2026-09-23): which pass actually verified this quote -
+    # "running_text" (the ordinary path, notes stripped) or "note" (the
+    # fallback below matched inside a specific `<note>` body). `note_id`
+    # is set only for the latter, and is the note's own `id` attribute
+    # when it has one, else its 0-based position among notes in the file.
+    verified_in: str = "running_text"
+    note_id: str | None = None
 
 
 def _classify_match(segment: str, source_full: str, start: int) -> set[str]:
@@ -347,6 +373,40 @@ def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) 
     return VerifyResult(verified=True, classes_used=classes_used)
 
 
+_NOTE_TAG_RE = re.compile(r"<note\b([^>]*)>(.*?)</note>", re.IGNORECASE | re.DOTALL)
+_NOTE_ID_ATTR_RE = re.compile(r'\bid="([^"]*)"')
+
+
+def iter_source_notes(source_raw: str):
+    """Yield `(note_id, plain_text)` for every `<note>` block in a raw
+    vendored source, in document order, tags stripped from each note's
+    own body. A note with no `id` attribute of its own is identified by
+    its 0-based position among the notes in this file, so the fallback
+    below can still name which one verified a quote."""
+    for i, m in enumerate(_NOTE_TAG_RE.finditer(source_raw)):
+        id_match = _NOTE_ID_ATTR_RE.search(m.group(1))
+        note_id = id_match.group(1) if id_match else f"#{i}"
+        yield note_id, _TAG_RE.sub("", m.group(2))
+
+
+def verify_quote_against_notes(quote_text: str, source_raw: str) -> VerifyResult | None:
+    """R33's gate-level fallback: once the running text (notes stripped)
+    has failed to verify a quote, try every `<note>` body in the same
+    source file in turn - the rare case where a translator's endnote,
+    not the primary running text, carries the actual primary-source
+    quotation. Returns None (never a failing VerifyResult) if no note in
+    the file verifies, so the caller's own running-text failure -
+    reporting the more informative "nearest context" against the fuller
+    running text - is what gets surfaced."""
+    for note_id, note_text in iter_source_notes(source_raw):
+        result = verify_quote_text(quote_text, note_text, source_is_xml=False)
+        if result.verified:
+            result.verified_in = "note"
+            result.note_id = note_id
+            return result
+    return None
+
+
 def resolve_vendored_paths(quote_record: dict, records: dict, fleet: dict) -> list[Path]:
     """The quote's own body prose is the more specific, more commonly
     present citation (`texts_registry.citing_records`' own docstring
@@ -385,6 +445,10 @@ def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> Verif
         result.source_file = str(path.relative_to(REPO_ROOT))
         if result.verified:
             return result
+        note_result = verify_quote_against_notes(quote_text, source_raw)
+        if note_result is not None:
+            note_result.source_file = str(path.relative_to(REPO_ROOT))
+            return note_result
         if best is None:
             best = result
     if best is None:
@@ -430,11 +494,13 @@ def sweep_world(world_key: str, fleet: dict) -> dict:
     quotes = {rid: r for rid, r in records.items() if r.get("record_type") == "quote"}
     class_counts = {name: 0 for name in ALLOWED_DIFFERENCE_CLASSES}
     exact_count = 0
-    verified, failed = [], []
+    verified, failed, note_verified = [], [], []
     for rid, rec in sorted(quotes.items()):
         result = verify_quote_record(rec, records, fleet)
         if result.verified:
             verified.append(rid)
+            if result.verified_in == "note":
+                note_verified.append({"id": rid, "source_file": result.source_file, "note_id": result.note_id})
             if result.classes_used:
                 for cls in result.classes_used:
                     class_counts[cls] += 1
@@ -456,7 +522,9 @@ def sweep_world(world_key: str, fleet: dict) -> dict:
         "verified_count": len(verified),
         "failed_count": len(failed),
         "exact_no_diff_count": exact_count,
+        "note_verified_count": len(note_verified),
         "class_counts": class_counts,
+        "note_verified": note_verified,
         "failures": failed,
     }
 
@@ -484,6 +552,7 @@ def fleet_report() -> dict:
             "total_quotes": sum(w["total_quotes"] for w in worlds.values()),
             "verified_count": sum(w["verified_count"] for w in worlds.values()),
             "failed_count": sum(w["failed_count"] for w in worlds.values()),
+            "note_verified_count": sum(w["note_verified_count"] for w in worlds.values()),
         },
     }
 
@@ -497,9 +566,13 @@ def main(argv: list[str] | None = None) -> int:
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     t = report["totals"]
-    print(f"quote-verbatim sweep: {t['verified_count']}/{t['total_quotes']} verified, {t['failed_count']} failed")
+    print(
+        f"quote-verbatim sweep: {t['verified_count']}/{t['total_quotes']} verified "
+        f"({t['note_verified_count']} via a note), {t['failed_count']} failed"
+    )
     for w in report["worlds"].values():
-        print(f"  {w['world']:12} verified={w['verified_count']:4} failed={w['failed_count']:3} classes={w['class_counts']}")
+        note_tag = f" note_verified={w['note_verified_count']}" if w["note_verified_count"] else ""
+        print(f"  {w['world']:12} verified={w['verified_count']:4} failed={w['failed_count']:3}{note_tag} classes={w['class_counts']}")
     if report["registry_mismatch"]["admitted_but_not_in_report_worlds"] or report["registry_mismatch"]["report_worlds_not_admitted"]:
         print(f"  REGISTRY MISMATCH: {report['registry_mismatch']}")
     print(f"\nfull report written to {REPORT_PATH.relative_to(REPO_ROOT)}")

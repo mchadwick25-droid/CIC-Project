@@ -8,9 +8,11 @@ from pathlib import Path
 from engine.m1.quote_verbatim import (
     TEXTS_DIR,
     collapse_linewrap_hyphens,
+    iter_source_notes,
     resolve_vendored_paths,
     strip_apparatus,
     strip_xml_markup,
+    verify_quote_against_notes,
     verify_quote_record,
     verify_quote_text,
 )
@@ -401,3 +403,112 @@ def test_cappadocian_macrina_pipe_and_bracket_locator_record_now_verifies():
     rec = records["cappadocian.quote.macrina-refuses-remarriage"]
     result = verify_quote_record(rec, records, fleet)
     assert result.verified is True, (result.failed_segment, result.nearest_context)
+
+
+# --- note-body fallback (R33, 2026-09-23) -------------------------------
+#
+# Supersedes R28/#423's per-record `source_note_id` field (never merged):
+# the gate itself falls back to every <note> body in the source file once
+# the running text fails, so no record carries a pointer to a note.
+
+
+def test_iter_source_notes_yields_id_and_plain_text_in_order():
+    raw = (
+        "<p>Running text</p>"
+        '<note place="end" n="1" id="my-note-id">'
+        "<p>Pliny wrote to Trajan: <i>ministræ</i>, he called them.</p>"
+        "</note>"
+        '<note place="end" n="2">A note with no id attribute at all.</note>'
+    )
+    notes = list(iter_source_notes(raw))
+    assert [n[0] for n in notes] == ["my-note-id", "#1"]
+    assert "Pliny wrote to Trajan" in notes[0][1]
+    assert "ministræ" in notes[0][1]
+    assert "<i>" not in notes[0][1]
+    assert "A note with no id attribute at all." in notes[1][1]
+
+
+def test_verify_quote_against_notes_finds_a_match_in_the_second_note():
+    raw = (
+        '<note id="unrelated">Nothing relevant here.</note>'
+        '<note id="quoted-note">The governor wrote: I found nothing except a superstition.</note>'
+    )
+    result = verify_quote_against_notes("I found nothing except a superstition", raw)
+    assert result is not None
+    assert result.verified is True
+    assert result.verified_in == "note"
+    assert result.note_id == "quoted-note"
+
+
+def test_verify_quote_against_notes_returns_none_when_no_note_matches():
+    raw = '<note id="unrelated">Nothing relevant here at all.</note>'
+    assert verify_quote_against_notes("words that appear nowhere in this file", raw) is None
+
+
+def test_running_text_match_never_falls_through_to_a_note():
+    """A quote present in the running text verifies as running_text, even
+    when the same source file also has a note whose text would match -
+    the running text is always tried first and wins."""
+    raw = (
+        "<p>The quick brown fox jumps over the lazy dog.</p>"
+        '<note id="decoy">The quick brown fox jumps over the lazy dog.</note>'
+    )
+    result = verify_quote_text("The quick brown fox jumps over the lazy dog.", raw, source_is_xml=True)
+    assert result.verified is True
+    assert result.verified_in == "running_text"
+
+
+def test_a_quote_matching_only_note_commentary_is_reported_as_note_verified_not_hidden():
+    """The whole point of `verified_in`/`note_id`: a record verified only
+    via a note must be visibly distinguishable from an ordinary
+    running-text pass, never silently folded into the same bucket."""
+    raw = (
+        "<p>The primary narrative says nothing about this at all.</p>"
+        '<note id="translator-comment">Here the translator quotes the original at length: '
+        "a superstition depraved and immoderate.</note>"
+    )
+    running_text_result = verify_quote_text("a superstition depraved and immoderate", raw, source_is_xml=True)
+    assert running_text_result.verified is False
+    note_result = verify_quote_against_notes("a superstition depraved and immoderate", raw)
+    assert note_result is not None
+    assert note_result.verified is True
+    assert note_result.verified_in == "note"
+    assert note_result.note_id == "translator-comment"
+
+
+def test_pahc_deaconesses_record_verifies_via_the_note_fallback_with_no_record_field():
+    """pahc.quote.two-female-slaves-who-were-called-deaconesses: R33's own
+    real case. Pliny's letter to Trajan is quoted in full inside
+    Eusebius's translator's endnote id iii.viii.xxxiii-p2.2, not in the
+    running text. No `source_note_id` field on the record - the gate's
+    own fallback finds it, restoring verified-direct."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("pahc")
+    fleet = load_fleet_records()
+    rec = records["pahc.quote.two-female-slaves-who-were-called-deaconesses"]
+    assert "source_note_id" not in rec
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+    assert result.verified_in == "note"
+    assert result.note_id == "iii.viii.xxxiii-p2.2"
+    assert rec["confidence"]["verification_state"] == "verified-direct"
+
+
+def test_ordinary_running_text_records_are_unaffected_by_the_note_fallback():
+    """A representative sample of already-verified running-text records
+    across worlds must still verify the same way (verified_in stays
+    "running_text") now that the note fallback exists alongside them."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    fleet = load_fleet_records()
+    cases = [
+        ("pahc", "pahc.quote.tacitus-hatred-against-mankind"),
+        ("cappadocian", "cappadocian.quote.macrina-refuses-remarriage"),
+        ("rzg", "rzg.quote.christ-the-mirror-of-election"),
+    ]
+    for world_key, rid in cases:
+        records = load_world_records(world_key)
+        result = verify_quote_record(records[rid], records, fleet)
+        assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
+        assert result.verified_in == "running_text"
