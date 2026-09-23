@@ -1959,4 +1959,8 @@ Four MEDIUM findings also applied: the Doc_08-informs-thinness-mapping instructi
 
 **Status: drafted, Round 1 corrections applied — not yet disposed.** Per this project's capped-review-cycle discipline, the next step is a targeted recheck of only what changed (not a full re-review), before this document is eligible for Approved to proceed and Phase Two (Formation Calibration) begins.
 
+**Targeted recheck run, same day — Cleared Review.** Appended to `Phase1_EcologyAssessment_Round1_Review.md`. All six Round 1 fixes re-verified independently against the same sources Round 1 cited (Doc_08's own interaction matrix, the World Profile, Doc_07 §2D, the extracted Framework text) — all hold. One new COSMETIC-only issue found and fixed in the same pass: the document's own Revision Log had overstated where one fix landed (claimed §1.4 and §3; only §1.4). No collateral disturbance elsewhere in the document.
+
+**Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies — Representative identity was decided 2026-09-15 and is not reopened here; no portfolio-level, governance/methodology, or unresolved-tension finding surfaced by either review round. **This unblocks Phase Two (Formation Calibration).**
+
 ---
