@@ -2570,3 +2570,172 @@ retained after each run). If Mark's own staging look wants the exact
 classes on the Table's own real turns, that needs a report-only
 paragraph-level run with per-turn class capture added, not assumed
 from this note.
+
+**Entry 57 — 2026-09-23.** R37's own design brief (Rulings-Pending.md
+R37 has the ruling itself in full): a report-only implementation
+proposal for Mark's ruling on when a Representative's pivot may draw on
+outside knowledge of a named-but-uncovered tradition. No code built.
+Script + output: `engine/m4/reports/r37_ruling_design_measure.py` +
+`r37-ruling-design-measure-2026-09-23.json` (this PR). Item 4's own
+headline numbers (9/11 symmetric, 11/11 asymmetric, both readings of
+"window and horizon" left genuinely open) are in Rulings-Pending.md's
+own R37 entry, not repeated here.
+
+**Item 1 - the world-level "known in its own time" list.**
+`records/worlds/<world>.yaml` is the right home, matching the
+reviewer's own guess exactly: it already carries `time_window: {start,
+end}` per world (zero new field needed for the chronology half), and
+it is the one place every other per-world registry fact already lives
+(`card_name`, `representative`, `place`) - a new sibling list here
+reads and is edited the same way everything else about a world already
+is, rather than opening a second file format for one more fact.
+Proposed row shape, additive, nothing existing touched:
+
+```yaml
+known_traditions_in_window:
+  - tradition: don          # the OTHER world's own registry key
+    confidence: Documented  # this project's own five-level formation_confidence vocabulary - reused, not invented
+    source: [ijc.quote.compelled-to-come-in, ijc.story.emperor-builds-another-basilica]  # record ids in THIS world's own package that already reference it, or [] if none
+```
+
+Confidence is this project's own existing five-level
+`formation_confidence` vocabulary (CLAUDE.md's own "Source fidelity"
+section), not a new scale invented for this one field - a row backed by
+a real record citation gets that record's own confidence tag (or
+`Documented` when the record itself says so, as it does for `ijc` here
+- see below); a row with no textual evidence, chronology/geography
+alone, is `Inferential-Thin` by construction, the same tier CLAUDE.md
+already reserves for exactly this shape of claim.
+
+**Populated, not committed** (this PR's own script output, spot-check
+before trusting): every row is derivable purely from data already in
+`records/worlds/*.yaml` (time_window - zero invention) plus a scan of
+each world's own already-built, already-vendored records for a genuine
+textual reference to another tradition's own name. That scan needed one
+real correction before its output could be trusted: a first pass
+against `engine.prose.all_text` (which reaches into a record's own
+`sources[].locus` strings) produced a false positive - `desert`'s own
+record on the Anthropomorphite controversy names a historical
+4th-century Alexandrian bishop, Theophilus; `rzg`'s own, entirely
+unrelated, 16th-century Representative happens to ALSO be named
+Theophilus (a world-build naming coincidence, `rzg`'s own window
+1519-1650 does not even overlap `desert`'s, 320-430) - and the
+record's OWN cited source filename
+(`anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml`)
+carries the word "theophilus" as a vendored-volume artifact, not
+prose. Restricted to genuine prose fields only (the same
+`TEXT_LIKE_KEYS` `grounding_fooling_measure.py`'s own Corpus C already
+uses, plus `positions`/`tensions`/`modern_lens_note`), that false
+positive disappeared and every remaining hit read as a real reference
+on inspection. Full table in the JSON report; the clearest real example:
+`ijc`'s own already-built records genuinely reference both `alx`
+(`ijc.quote.julius-custom` and three more) and `don`/Donatism by name
+(`ijc.quote.compelled-to-come-in`, `ijc.story.emperor-builds-another-
+basilica`) - real, cited, `Documented`-tier evidence, not inferred from
+outside knowledge. Every other row this scan found is chronology-only
+(`Inferential-Thin`) - textual evidence is the exception, not the rule,
+across this fleet's current 11 worlds.
+
+**Consumption:** `engine.m4.turn._other_tradition_directive` already
+exists as the one place this needs to reach - it is called exactly once
+per `other_tradition`-routed turn, already knows which world is
+speaking (via `_run_ordinary_voice_turn`'s own `world` argument), and
+already carries the R26 blanket honest-limit sentence this ruling's
+own condition (a) needs to make conditional. Proposed shape: the
+caller (`wiring.py`/`table_wiring.py`, matching the existing
+`known_tradition_names` pattern exactly - derived by the caller, passed
+in, `_run_ordinary_voice_turn` stays registry-free) reads
+`registry[world_key].get("known_traditions_in_window", [])`, checks
+whether the reader's own `out_of_scope` target world_key is in that
+list, and passes a new bool (e.g. `pivot_licensed_under_a`) into
+`_other_tradition_directive` alongside the existing
+`is_other_tradition_first_ask`. The reader itself needs no new
+knowledge - it already classifies `out_of_scope_class == "other_tradition"`
+and (per `engine.m5`, unread in this pass, flagged for whoever builds
+this) may already resolve which world was named; if it does not yet,
+that resolution is this brief's own missing piece, not assumed solved
+here.
+
+**Item 2 - what was revealed in this conversation.** Checked directly:
+`engine.api.wiring.history_from_transcript` already, deliberately,
+excludes every Facilitator turn from the `history` list sent to the
+voice model - its own docstring states why: "Facilitator turns are left
+out: they belong to a different voice, and folding them in would put
+the Facilitator's words in the Representative's mouth." This ruling's
+own condition (b) cannot be built by loosening that exclusion - doing
+so would reintroduce exactly the misattribution risk that docstring
+already guards against, for an unrelated reason arriving at the same
+fix. The right shape instead: a SEPARATE, clearly-labeled context block
+(not conversation history), assembled by the same caller that already
+builds `history` and `known_tradition_names`, from two real, already-
+recorded sources - `state.transcript` entries with `speaker ==
+"facilitator"` (the door/table-door introduction; `table_door_turn`
+already names every seated world's own `card_name` in its own text,
+confirmed by direct read), and `state.transcript` entries with
+`speaker == "participant"` (every message the participant has actually
+sent, including the current one - the current message is what makes
+the reader classify `other_tradition` in the first place, so it is
+always in scope). Proposed shape: `conversation_revealed_traditions:
+dict[str, list[str]]`, keyed by which of `known_tradition_names`'s own
+entries appears verbatim in one of those two sources, valued with the
+EXACT sentence(s) it appeared in - never a paraphrase, never a summary,
+the same "only what was actually said in the transcript, nothing
+beyond it" the ruling itself requires. The directive text this feeds
+would read something like: *"The participant's own words in this
+conversation named {tradition}: {quoted excerpt(s)}. That is the ONLY
+thing you know about {tradition} from this conversation - nothing
+beyond what is quoted here."* - a genuinely new directive shape, not
+built here, shown only so item 3 below has something concrete to check
+against the existing classes.
+
+**Item 3 - interaction with existing classes and wording.**
+`known_tradition_names(registry, exclude_world_key=...)` needs no
+change - it already produces exactly the name list both item 1's
+world-level scan and item 2's conversation scan above reuse; one
+function, one name list, three consumers now instead of two.
+`neighbour_named` (R27-A's own per-sentence hard-failure class,
+`classify_neighbour_named`) is a CITATION check, not a content-license
+check - it fires on any uncited sentence naming a neighbour, regardless
+of whether R37 would license that naming. These are different axes,
+confirmed by re-reading both modules directly: R37 decides whether
+the Representative may draw on outside knowledge to CHOOSE its own
+pivot; `neighbour_named` decides whether a sentence that happens to
+NAME a neighbour needs a citation it doesn't have. A licensed pivot
+under (a)/(b) does not by itself need to name the other tradition
+at all in its own answer - Theon could describe "the lapsed
+controversy" without the word "Donatist" ever appearing in his own
+sentence, since the participant's own question already supplied it.
+Whether the directive should specifically instruct "steer, but do not
+re-name the other tradition in your own words" is a real, open design
+question this brief surfaces rather than resolves - it would remove
+most of the interaction with `neighbour_named` at the source, but is a
+genuinely new instruction, not something either existing class already
+enforces. `own_doctrine_in_other_tradition_turn` (misattributing THIS
+world's own doctrine to the OTHER named tradition) stays unchanged in
+shape - it is the same axis as R38's own net-remainder question (a
+separate PR, #436, not yet merged - content fabrication), not this
+ruling's own pivot-legitimacy question, and needs no interaction fix
+here. The R26 fixed honest-limit sentence - see Rulings-Pending.md
+R37's own closing note (the `ijc`/Donatism finding: `ijc`'s own records
+already, genuinely, mention Donatism by name, so the current blanket
+sentence is provably false for `ijc` on that specific question today)
+- is the one piece that most clearly needs new wording, not just new
+gating logic: a sentence built to be said UNCONDITIONALLY cannot
+become conditional by adding a check around it alone, since the fixed
+text itself asserts universal silence.
+**Wording candidates, not decisions** (Mark's own words alone settle
+these, per CLAUDE.md's own escalation categories):
+- (i) keep `R26_HONEST_LIMIT_SENTENCE` exactly as it is, reserved for a
+  world with NO row at all for the named tradition (no window overlap,
+  no textual evidence) - the true "I have never heard of this" case;
+- (ii) a second, parallel fixed sentence for a world with a row but no
+  textual evidence (`Inferential-Thin` - "I know of them, but nothing
+  in our own record speaks to it directly");
+- (iii) a third shape for a world with real textual evidence (`ijc`'s
+  own case) - closer to an ordinary cited answer than an honest-limit
+  one at all, since the record genuinely isn't silent.
+No sentence text is proposed for (ii)/(iii) here - that is exactly the
+kind of new participant-facing words this project's own escalation
+rule reserves for Mark directly, the same discipline R27 build item
+5's own interview-mode fallback line already followed (Decision-Log.md
+Entry 56).

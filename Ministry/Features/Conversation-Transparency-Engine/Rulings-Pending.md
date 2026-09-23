@@ -417,3 +417,89 @@ Entry 56's own note on what that Table rate means and the likeliest
 cause. This is the baseline number set Mark looks at on
 `cic-engine-staging` (`CIC_R27_ENFORCE=1`) before the flag is flipped
 anywhere real.
+
+### R37 — When may a Representative's pivot draw on outside knowledge of a named-but-uncovered tradition?
+**Status:** RULED — 2026-09-23, 12:47Z. Mark's own words, via the
+reviewer thread's standing authorization. Found on Mark's own staging
+look (`CIC_R27_ENFORCE=1`, first result): interview, Theon on the
+Donatists. The R26 opener fired correctly ("Our record doesn't mention
+that Christian tradition."), but the answer that followed steered to
+Theon's own lapsed controversy - a real, correct pivot - even though
+his own world's records never mention Donatism by name. A genuinely
+separate question from whether the ANSWER's own content was fabricated
+(a sibling PR, #436, not yet merged, tracks that one as R38): not
+whether the fabricated clause should have streamed, but whether Theon
+was even allowed to steer toward "the lapsed" on a question naming a
+tradition his own records never cover.
+
+**Ruled, stated in full:** when a question names a tradition outside
+the Representative's own record, the Representative may use knowledge
+of that tradition to choose which part of its own record to answer
+from only under two conditions. **(a)** It would have known of that
+tradition in its own time - a world-level fact about which neighbouring
+traditions fall inside the world's own window and horizon. **(b)** The
+Facilitator's own introduction or the participant revealed it in this
+conversation, and then only what was actually said in the transcript,
+nothing beyond it. Outside those two, the pivot must come from the
+question's own words alone. **In every case, content about the other
+tradition still never enters the answer from outside the record** -
+that stays R38's own question (PR #436), unaffected by this ruling.
+Under (a), Theon (Alexandria, window 150-400) steering to his own
+lapsed on a Donatist question is allowed - the pivot itself was
+correct. "Handed over the sacred books" remains a leak either way,
+R38's own question, not this one's.
+
+**The design brief** (report-only, this ruling's own implementation
+proposal, no code built): `engine/m4/reports/r37_ruling_design_measure.py`
++ `r37-ruling-design-measure-2026-09-23.json` (this PR). Four parts,
+per the reviewer thread's own brief: (1) where a world-level "known
+traditions in its own window" list would live and what it would hold,
+populated (not committed) for the 11 admitted formation worlds; (2) how
+a turn would assemble "what was revealed in this conversation" without
+folding the Facilitator's own words into the Representative's
+`history` (an existing, deliberate exclusion,
+`wiring.history_from_transcript`'s own docstring); (3) how
+`known_tradition_names`, `neighbour_named`,
+`own_doctrine_in_other_tradition_turn`, and the R26 fixed honest-limit
+sentence interact with this ruling - wording candidates only, never
+decided here; (4) the real count, on today's actual battery, of how
+many of the 11 `B-other-tradition` probes are defensible under (a).
+
+**Item 4's own headline numbers:** of today's 11 real battery probes,
+**9/11 are defensible under a strict, symmetric reading of "window"**
+(the asking and named worlds' own `time_window` ranges literally
+overlap) - `rzg` and `witt` (both 1500s) fail this reading when asked
+about `alx` (150-400), a plain 1100-year gap. **11/11 are defensible
+under an asymmetric reading** ("known in its own time" includes
+ordinary retrospective historical awareness of an earlier-or-
+contemporary tradition, excluding only genuine foreknowledge of one
+that has not arisen yet by the asking world's own window's end) -
+`rzg`/`witt` CAN plausibly know of ancient Alexandria as received
+church history, the same way a modern historian does; what neither can
+ever plausibly know is a tradition that starts after their own window
+closes. **Mark's own wording ("window and horizon") does not by itself
+settle which reading is meant - flagged here as a real, unresolved
+question this ruling's own implementation needs, not resolved by this
+brief.** Full per-world table in the JSON report.
+
+**A directly relevant, adjacent finding, surfaced by this brief's own
+item-1 scan (not asked for, but bears on item 3):** `ijc`'s own already-
+built, already-vendored records genuinely reference both `alx`
+(`ijc.quote.julius-custom`, `ijc.quote.let-the-ancient-customs-prevail`,
+`ijc.quote.sozomen-thessalonica-law`, `ijc.story.letter-that-outranked-
+a-council`) and `don`/Donatism by name (`ijc.quote.compelled-to-come-
+in`, `ijc.story.emperor-builds-another-basilica`) - real, cited textual
+evidence, not inferred. The CURRENT, already-shipped `_other_tradition_
+directive` (`engine.m4.turn`) fires the same blanket honest-limit
+sentence - *"Our record doesn't mention that Christian tradition."* -
+on ANY `other_tradition` routing, for every world, unconditionally,
+with no check of whether that world's OWN records already say
+otherwise. For `ijc` asked about Donatism specifically, that sentence
+would be false today - `ijc`'s own records do mention it, at length.
+Note this directive's own docstring already cites Mark's own R26
+ruling in full: *"The representative should only know its own sources
+unless they would have known the sources from another in reality."* -
+this asymmetry (the ruling already named the exception; the shipped
+directive never implemented it) predates R37 and is not new to it,
+but R37's own implementation is the natural place to close it -
+proposed, not decided, in the Decision-Log entry.
