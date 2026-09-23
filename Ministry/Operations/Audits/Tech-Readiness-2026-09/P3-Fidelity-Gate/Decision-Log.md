@@ -653,3 +653,48 @@ a fleet-wide `rendering_fidelity.py` sweep of the 45 pre-existing
 renderings the grader had already marked summary or expansion before
 this pass began, to produce a flagged-records-by-world list for the
 reviewer to read before any re-authoring starts.
+
+**Entry 19 — 2026-09-23 (one-record fix, syr — Mark's direct ruling on
+the Nisibene ellipsis).** fix (PR #465) is done and merged; the R40
+pass is closed fleet-wide. Before the R43 list, Mark ruled directly
+(reviewer session, 22:27Z) on the judgment call Entry 17/PR #464
+reported to him: `syr.quote.nisibene-death-trembled`'s rendering had
+carried the source's own elliptical "and Satan because sinners
+rebelled against him" over verbatim as a fragment, after six revision
+rounds each rejected a supplied verb as invented. Mark's ruling: finish
+the ellipsis into a whole sentence rather than keep the fragment,
+supplying the verb the source's own parallel structure implies —
+"Sin and Hell were terrified: Death trembled and the dead rebelled;
+and Satan [did likewise] because sinners rebelled against him." This
+supersedes PR #464's structural-accommodation approach for this one
+record only; it is not a reversal of R34 generally, since Mark
+explicitly modeled the completion himself rather than asking the
+pipeline to keep guessing.
+
+Rendering rewritten to: "Sin and Hell were terrified. Death trembled,
+and the dead rebelled. And Satan did likewise, because sinners
+rebelled against him." `gate_readability` (FK ceiling 10): clean (6.5).
+Run through the live grader per Mark's own instruction to expect and
+accept the rejection rather than loop: 2 consecutive runs, both
+"expansion" (adding "did likewise" as content not in the source). This
+is the exact strictness Mark's ruling anticipated and told this
+pipeline not to argue with. **Documented honest exception, by Mark's
+own direct instruction**, not a pipeline judgment call: the human
+reading of the source's own parallel structure stands over the
+grader's stricter-than-useful reading of ellipsis completion.
+
+**Gate results.** Full `run_all()` (all M1 gates) on syr: 1 finding,
+the same pre-existing `voice-perspective` flag on
+`syr.dw.death-judgment`, untouched by this change. `pytest
+engine/m1/tests/`: 134 passed, no regressions. Only this one record's
+`modern_rendering` value changed; no other field touched.
+
+**Package pin.** Main had not moved since branching; rebuilt and
+re-pinned once against this PR's own commit
+`d88d74c7915666823a9d080b4c01e66990da1b38`. Old
+`packages/syr/2026-09-23T21-55-08Z`
+(`sha256:047584444cedf6305fe3f191ad39d6dd99453d4fda08766c53e1fa46d6ebd902`)
+→ new `packages/syr/2026-09-23T22-31-05Z`
+(`sha256:412606009d30cb497180eaa881b1a02d3e5782ad44c1352f44f52cc5cd5a91b3`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifest retired
+(directory kept, per convention).
