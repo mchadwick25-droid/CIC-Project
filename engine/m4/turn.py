@@ -58,7 +58,7 @@ from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
-from engine.m4.uncited_claims import find_uncited_claims
+from engine.m4.uncited_claims import find_uncited_claims, find_uncited_paragraphs
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import build_transparency_plan
@@ -635,6 +635,29 @@ def _run_ordinary_voice_turn(
     # second pass over the text.
     uncited_claims = find_uncited_claims(net_result["sentences"])
 
+    # R27-A item 2 (Decision-Log.md Entry 55, 2026-09-23): a SEPARATE,
+    # independent call to the paragraph-coverage variant, on the SAME
+    # raw_text apply_net already checked above - deliberately not shared
+    # computation with apply_net's own check_turn call. This keeps the
+    # paragraph module genuinely separable (Constraint B: "separate,
+    # flag-gated, deletable module") - nothing about what a participant
+    # ever sees can depend on this call, because apply_net's own result
+    # (answer_text, citations, net_result) is already finalized above it.
+    # Redundant per-sentence work, accepted deliberately: deterministic,
+    # string-only, no model call, and the safety of provable separation
+    # is worth more here than saving one extra pass. Only the FINISHED
+    # paragraph_offenses list rides on voice_event, not the whole
+    # check_turn_with_paragraph_coverage result - that result's own
+    # per-sentence verdict dump is real analysis weight with no reason to
+    # sit in the permanent event log forever; find_uncited_paragraphs
+    # reduces it to the same small {sentence, class} shape
+    # uncited_claims already uses, computed here rather than by the
+    # caller for exactly that reason (uncited_claims's own precedent).
+    paragraph_check = grounding_net.check_turn_with_paragraph_coverage(
+        raw_text, repository_records=repository_records, thin_topics=thin_topics
+    )
+    paragraph_offenses = find_uncited_paragraphs(paragraph_check)
+
     # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
     # for both the citations a sentence already carries and whichever
@@ -718,6 +741,13 @@ def _run_ordinary_voice_turn(
         # R27, additive (Entry 51): [] on every clean turn. Base class
         # "uncited_claim" only - see this function's own note above.
         "uncited_claims": uncited_claims,
+        # R27-A item 2, additive (Entry 55): [] on every clean turn, same
+        # shape/scale discipline as uncited_claims above - base classes
+        # "wholly_uncited_paragraph"/"inherited_ungrounded" only; the
+        # caller (registry/routing context this function doesn't have)
+        # cross-references this against "uncited_claims" to narrow
+        # "own_doctrine_in_other_tradition_turn" (Entry 55's own rule).
+        "paragraph_offenses": paragraph_offenses,
     }
     return voice_event, usage_records
 

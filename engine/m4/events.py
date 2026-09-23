@@ -60,8 +60,12 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     # uncited declarative claim sentence - mode-agnostic (both interview
     # and table), so no round_no/position here the way seat_identity_
     # violation carries (table-only bookkeeping). offenses:
-    # list[{"sentence": str, "class": str}].
-    "uncited_claims": {"speaker", "offenses"},
+    # list[{"sentence": str, "class": str}]. paragraph_offenses (R27-A
+    # item 2, Entry 55, 2026-09-23), additive: the SAME shape, a second,
+    # independent list - a wholly-uncited-paragraph or inherited-
+    # ungrounded failure, never merged into offenses (which stays exactly
+    # the sentence-level list it always was).
+    "uncited_claims": {"speaker", "offenses", "paragraph_offenses"},
 }
 
 ENUMS: dict[tuple[str, str], set[str]] = {
@@ -126,17 +130,25 @@ def _validate_session_started_shape(payload: dict) -> None:
 # own small shape check rather than stretching ENUMS to cover a shape it
 # was never built for (Decision-Log.md Entry 51's own flagged gap).
 _UNCITED_CLAIM_CLASSES = {"uncited_claim", "neighbour_named", "own_doctrine_in_other_tradition_turn"}
+# R27-A item 2 (Entry 55, 2026-09-23): paragraph_offenses' own closed set,
+# distinct from _UNCITED_CLAIM_CLASSES above - a paragraph-level failure
+# is never one of the sentence-level classes, and vice versa.
+_PARAGRAPH_OFFENSE_CLASSES = {"wholly_uncited_paragraph", "inherited_ungrounded"}
+
+
+def _validate_offense_list_shape(field_name: str, offenses, allowed_classes: set[str]) -> None:
+    if not isinstance(offenses, list):
+        raise EventValidationError(f"uncited_claims.{field_name} must be a list, got {offenses!r}")
+    for offense in offenses:
+        if not isinstance(offense, dict) or set(offense) != {"sentence", "class"}:
+            raise EventValidationError(f"uncited_claims.{field_name} entry must be exactly {{'sentence', 'class'}}, got {offense!r}")
+        if offense["class"] not in allowed_classes:
+            raise EventValidationError(f"uncited_claims.{field_name} class {offense['class']!r} not in {sorted(allowed_classes)}")
 
 
 def _validate_uncited_claims_shape(payload: dict) -> None:
-    offenses = payload["offenses"]
-    if not isinstance(offenses, list):
-        raise EventValidationError(f"uncited_claims.offenses must be a list, got {offenses!r}")
-    for offense in offenses:
-        if not isinstance(offense, dict) or set(offense) != {"sentence", "class"}:
-            raise EventValidationError(f"uncited_claims.offenses entry must be exactly {{'sentence', 'class'}}, got {offense!r}")
-        if offense["class"] not in _UNCITED_CLAIM_CLASSES:
-            raise EventValidationError(f"uncited_claims offense class {offense['class']!r} not in {sorted(_UNCITED_CLAIM_CLASSES)}")
+    _validate_offense_list_shape("offenses", payload["offenses"], _UNCITED_CLAIM_CLASSES)
+    _validate_offense_list_shape("paragraph_offenses", payload["paragraph_offenses"], _PARAGRAPH_OFFENSE_CLASSES)
 
 
 def validate(event_type: str, payload: dict) -> None:

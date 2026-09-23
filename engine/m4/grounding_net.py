@@ -413,6 +413,133 @@ def check_turn(
     return {"sentences": results, "substantive_survives": substantive_survives, "truncated": truncated}
 
 
+# R27-A item 1 (Decision-Log.md Entry 55, 2026-09-23): blank-line blocks -
+# the exact regex engine.m4.live_uncited_claims_battery's own
+# _PARAGRAPH_SPLIT already proved live across two battery runs (#419,
+# #420), moved here per item 2's own build order. A paragraph is a
+# sequence of the same sentences parse_tagged already produces, grouped by
+# which blank-line block they fell in - nothing about how a sentence
+# itself is found or tagged changes.
+_PARAGRAPH_SPLIT = re.compile(r"\n\s*\n")
+
+
+def split_into_paragraphs(tagged_text: str) -> list[str]:
+    paragraphs = [p for p in _PARAGRAPH_SPLIT.split(tagged_text) if p.strip()]
+    return paragraphs or [tagged_text]
+
+
+def check_turn_with_paragraph_coverage(
+    tagged_text: str,
+    repository_records: dict[str, dict],
+    *,
+    thin_topics: list[dict] | None = None,
+    grounding_floor: float = WITHHOLD_FLOOR,
+) -> dict:
+    """check_turn's own base per-sentence pass, reproduced exactly (same
+    truncation backoff, same verdict_for_sentence calls, same sentence
+    list, same substantive_survives/truncated meaning - a caller reading
+    only this result's own "sentences"/"substantive_survives"/"truncated"
+    keys cannot tell it apart from check_turn's), PLUS an additive,
+    report-only "paragraph_coverage" layer (R27-A item 2, Decision-Log
+    Entry 55). Nothing here changes what apply_net does with a turn -
+    apply_net calls check_turn directly, never this function; this exists
+    for engine.m4.uncited_claims's own paragraph-level detection to read.
+
+    paragraph_coverage is a list, one entry per blank-line paragraph
+    (split_into_paragraphs), each:
+      sentence_count        - how many of this result's own "sentences"
+                               belong to this paragraph (they sit
+                               contiguously, in order - a caller partitions
+                               the flat sentence list by walking these
+                               counts, the same way this function itself
+                               does below)
+      cited_record_ids       - EFFECTIVE record ids this paragraph's own
+                               coverage check uses: the union of every tag
+                               in this paragraph's own sentences, UNLESS
+                               this is a one-sentence paragraph carrying no
+                               tag of its own, in which case it is the
+                               immediately PRECEDING paragraph's own
+                               cited_record_ids instead (Entry 55's own
+                               recommendation - coverage only; see
+                               inherited_from_preceding below)
+      wholly_uncited         - true when cited_record_ids is empty - this
+                               paragraph carries no citation anywhere, not
+                               even by inheritance
+      inherited_from_preceding - true only for a one-sentence paragraph
+                               that borrowed its own cited_record_ids from
+                               the paragraph before it
+      inherited_verdicts     - {sentence index WITHIN this paragraph:
+                               verdict_for_sentence's own result}, one
+                               entry per sentence that carries no tag of
+                               its own but whose paragraph's own
+                               cited_record_ids is non-empty - the exact
+                               same function real per-sentence checking
+                               already runs, fed this paragraph's own
+                               inherited ids instead of that sentence's
+                               own (empty) tags. No new checking logic, no
+                               new model call: this is the identical
+                               verdict_for_sentence a tagged sentence
+                               already gets, called a second time for an
+                               untagged one, against a different id set.
+    """
+    tagged_text, truncated = _drop_truncated_tail(tagged_text)
+    figure_names = build_figure_lexicon(repository_records)
+    paragraphs_raw = split_into_paragraphs(tagged_text)
+
+    all_sentences: list[dict] = []
+    paragraph_coverage: list[dict] = []
+    for paragraph_text in paragraphs_raw:
+        parsed = parse_tagged(paragraph_text)
+        verdicts = [
+            verdict_for_sentence(
+                sent["text"], sent["tags"],
+                repository_records=repository_records,
+                figure_names=figure_names,
+                thin_topics=thin_topics,
+                grounding_floor=grounding_floor,
+            )
+            for sent in parsed
+        ]
+        all_sentences.extend(verdicts)
+
+        own_record_ids = sorted({t for sent in parsed for t in sent["tags"]})
+        inherited_from_preceding = False
+        if len(parsed) == 1 and not own_record_ids and paragraph_coverage and paragraph_coverage[-1]["cited_record_ids"]:
+            cited_record_ids = paragraph_coverage[-1]["cited_record_ids"]
+            inherited_from_preceding = True
+        else:
+            cited_record_ids = own_record_ids
+
+        inherited_verdicts: dict[int, dict] = {}
+        if cited_record_ids:
+            for i, sent in enumerate(parsed):
+                if sent["tags"]:
+                    continue  # already carries its own real tag - no inheritance needed
+                inherited_verdicts[i] = verdict_for_sentence(
+                    sent["text"], cited_record_ids,
+                    repository_records=repository_records,
+                    figure_names=figure_names,
+                    thin_topics=thin_topics,
+                    grounding_floor=grounding_floor,
+                )
+
+        paragraph_coverage.append({
+            "sentence_count": len(parsed),
+            "cited_record_ids": cited_record_ids,
+            "wholly_uncited": not cited_record_ids,
+            "inherited_from_preceding": inherited_from_preceding,
+            "inherited_verdicts": inherited_verdicts,
+        })
+
+    substantive_survives = any(r["verdict"] == "ok" and r["tags"] for r in all_sentences)
+    return {
+        "sentences": all_sentences,
+        "substantive_survives": substantive_survives,
+        "truncated": truncated,
+        "paragraph_coverage": paragraph_coverage,
+    }
+
+
 def scope_completion(record_ids: list[str], repository_records: dict[str, dict]) -> list[str]:
     """The anti-conflation rule from the design's retrieval section: never
     serve one pole of a recorded tension without the record that names the
