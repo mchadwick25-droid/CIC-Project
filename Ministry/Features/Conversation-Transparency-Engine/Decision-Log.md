@@ -2520,3 +2520,53 @@ per-sentence marks; 7d guards proven in per-sentence mode against the
 staging Papnoute text; 7e a live battery with streaming on), each its
 own PR, then stop for Mark's staging look. Streaming does not ship to
 participants before R27-A's own enforcement is on.
+
+**Note, added 2026-09-23 after PR #432's own PASS verdict and live
+numbers, for Mark to read before his staging look:** item 5's live
+battery (flag on, real, billed) regenerated 7 of 22 interview turns
+(32%), 2 of those 7 reaching the Facilitator (29% residual). The Table
+session (alx/don/rzg) regenerated 7 of 10 voice turns (70%), 4 of those
+7 reaching the Facilitator (57% residual) - an overall Table
+Facilitator-takeover rate of 40% (4/10) against interview's 9% (2/22).
+That gap is real and worth Mark's own eyes on before he judges the
+Table on staging, not a run-to-run fluke - both of the reviewer's own
+named candidate causes check out against real, already-committed
+evidence, and both contribute:
+
+- **Table turns cite less, by a wide, already-measured margin.** Item
+  4's own report-only run (#427, same table_world_keys, same probe
+  shape - a real live measurement, not this run's own inference) found
+  `wholly_uncited_paragraph` in 7 of that run's own 10 table turns
+  (70%) versus 23% of interview turns (`overall_raw_paragraph_turn_rate_by_class`
+  in `engine/m4/reports/live-uncited-claims-battery-report.json`). Item
+  5's own enforced run regenerated the identical count, 7 of 10 table
+  turns - consistent with, not merely similar to, that 70% wholly-
+  uncited-paragraph rate, even though the two are separate, non-
+  deterministic live generations.
+- **`neighbour_named` fires almost exclusively in Table mode**, and by
+  a stark margin: across all 22 interview probes in #427's own report,
+  `neighbour_named` never fired once (0 turns, 0 offenses) - a Table
+  turn is structurally the only shape where a voice is in live
+  conversation with another SEATED tradition and can name it directly;
+  an interview probe has no other seated voice to name. In that same
+  #427 table session, 5 of 10 turns carried at least one
+  `neighbour_named` offense. Since `known_tradition_names` is derived
+  per-turn from the registry excluding only the SPEAKING world (not the
+  other seated worlds), every other seat at the Table is, by
+  construction, a name `neighbour_named` can catch - a structural
+  fact about the Table's own design, not a defect in this build.
+
+Both causes point the same direction: a Table turn is simply more
+likely to carry an enforced-class offense than an interview turn is,
+on the same content a participant would recognize as normal cross-
+voice conversation, not a broken answer. Item 5's own enforced run
+(this PR) did not persist per-turn offense-class detail (only the
+aggregate regenerated/took-over counts, by design - the same
+"report the reduced finding, not the raw dump" discipline this build
+has followed throughout), so the two data points above are #427's own
+already-committed measurement, not a re-derivation from #432's own
+raw data, which no longer exists (the battery's own temp store is not
+retained after each run). If Mark's own staging look wants the exact
+classes on the Table's own real turns, that needs a report-only
+paragraph-level run with per-turn class capture added, not assumed
+from this note.
