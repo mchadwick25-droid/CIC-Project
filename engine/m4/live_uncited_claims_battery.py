@@ -33,6 +33,20 @@ BOTH the raw and the post-regeneration offense count/rate, per world -
 F3(b)'s own words: "That post-regeneration number is what Mark sets the
 threshold on; the raw rate is not."
 
+F6 (reviewer thread fix list, 2026-09-22, after PR #419's own report):
+a second metric, side by side with the sentence-level one, never
+changing what R27's own check does. The reviewer's own reading of
+#419's raw offense sentences ("For years they held together.", "The
+school's fame filled the city.", "It ended in separation.") named the
+real shape: narrative frame sentences sitting INSIDE an otherwise-cited
+paragraph, not stray uncited claims on their own. Paragraph coverage
+measures exactly that - a sentence counts as covered when its own
+paragraph carries at least one citation tag, even if the sentence itself
+carries none. Uses engine.m4.turn._run_ordinary_voice_turn's new
+`debug_capture` parameter to get the real raw tagged text (paragraphs
+split on blank lines, same text apply_net itself checks) - no second
+model call, no re-derivation.
+
 Calls engine.m4.turn.run_gate and _run_ordinary_voice_turn directly
 (rather than the top-level run_turn) so this script can drive the exact
 same voice call twice with an added correction on the second - the same
@@ -50,12 +64,14 @@ scratch.
 """
 import argparse
 import json
+import re
 import sys
 import tempfile
 from pathlib import Path
 
 from engine.api.table_wiring import continue_table_round, create_table_session, handle_table_message
 from engine.m1.registry import load_registry
+from engine.m4.grounding_net import strip_tags
 from engine.m4.projection import project_fresh
 from engine.m4.store import Store
 from engine.m4.turn import _run_ordinary_voice_turn, run_gate
@@ -65,6 +81,9 @@ from engine.m8.cost import estimate_cost
 from engine.m8.live_cost_run import HAIKU_4_5_PRICE_TABLE, PRICE_TABLE_SOURCE, SONNET_4_5_PRICE_TABLE
 from engine.m8.log_store import UsageLogStore
 from engine.provider.bedrock import make_client, resolve_model_id
+
+_PARAGRAPH_SPLIT = re.compile(r"\n\s*\n")
+_TAG = re.compile(r"\[\[[a-z0-9_.-]+\]\]")
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-uncited-claims-battery-report.json"
@@ -118,13 +137,51 @@ def _offenses_for(voice_event: dict | None, *, registry: dict, world_key: str, i
     return event["offenses"] if event else []
 
 
+def _paragraph_coverage(raw_tagged_text: str | None, offenses: list[dict]) -> dict:
+    """F6's own metric (module docstring). A paragraph "carries a
+    citation" when its own raw (still-tagged) text contains at least one
+    [[record.id]] tag anywhere in it - tags only ever attach to a
+    sentence, so that is exactly "at least one of this paragraph's own
+    sentences is cited," the same fact a reader skimming the finished
+    text would see. Each offense (already tag-stripped, from
+    grounding_net's own sentence text) is matched back to its paragraph
+    by substring - the paragraphs are stripped the same way before the
+    search, so a straight `in` check is enough; no offense should span a
+    paragraph break by construction (grounding_net splits on sentences,
+    strictly inside one paragraph or the next, never across the blank
+    line between them)."""
+    if not raw_tagged_text:
+        return {"paragraphs": 0, "turn_has_wholly_uncited_paragraph": False, "uncited_in_cited_paragraph": 0, "uncited_in_uncited_paragraph": 0}
+    paragraphs = [p for p in _PARAGRAPH_SPLIT.split(raw_tagged_text) if p.strip()] or [raw_tagged_text]
+    stripped = [strip_tags(p).strip() for p in paragraphs]
+    has_tag = [bool(_TAG.search(p)) for p in paragraphs]
+
+    in_cited = in_uncited = 0
+    for offense in offenses:
+        idx = next((i for i, p in enumerate(stripped) if offense["sentence"] in p), None)
+        if idx is None:
+            continue  # not expected to happen (see docstring) - skipped rather than mis-attributed
+        if has_tag[idx]:
+            in_cited += 1
+        else:
+            in_uncited += 1
+    return {
+        "paragraphs": len(paragraphs),
+        "turn_has_wholly_uncited_paragraph": any(not t for t in has_tag),
+        "uncited_in_cited_paragraph": in_cited,
+        "uncited_in_uncited_paragraph": in_uncited,
+    }
+
+
 def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key, registry, session_id, message, usage_store):
     """run_gate + _run_ordinary_voice_turn directly (module docstring) -
     the same two calls run_turn makes internally for voice_with_directive/
     voice_pass_through, exposed here so the correction regeneration below
     can reuse the identical directive/is_other_tradition_first_ask a
-    second time. Returns (raw_offenses, post_regen_offenses_or_None,
-    out_of_scope_class, routing_action, usage cost already appended)."""
+    second time. Returns a dict: raw_offenses, post_regen_offenses (None
+    when nothing was regenerated), raw_paragraph_coverage,
+    post_regen_paragraph_coverage (F6), out_of_scope_class,
+    routing_action - usage cost already appended to usage_store."""
     gate_run = run_gate(
         session_id=session_id, safety_client=client, safety_model_id=safety_model_id,
         participant_message=message, pressed={}, anachronistic_term_ids=set(),
@@ -134,31 +191,45 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
     action = gate_run.gate_result.routing.action
     out_of_scope_class = (gate_run.gate_result.routing.out_of_scope_class if action == "voice_with_directive" else None)
     if action not in ("voice_with_directive", "voice_pass_through"):
-        return [], None, out_of_scope_class, action
+        return {
+            "raw_offenses": [], "post_regen_offenses": None,
+            "raw_paragraph_coverage": _paragraph_coverage(None, []), "post_regen_paragraph_coverage": None,
+            "out_of_scope_class": out_of_scope_class, "routing_action": action,
+        }
 
     is_other_tradition = out_of_scope_class == "other_tradition"
+    raw_capture: dict = {}
     voice_event, usage_records = _run_ordinary_voice_turn(
         voice_client=client, voice_model_id=voice_model_id, world=world,
         participant_message=message, directive=gate_run.gate_result.routing.directive,
         session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
+        debug_capture=raw_capture,
     )
     for rec in usage_records:
         usage_store.append(rec)
     raw_offenses = _offenses_for(voice_event, registry=registry, world_key=world_key, is_other_tradition_turn=is_other_tradition)
+    raw_paragraph_coverage = _paragraph_coverage(raw_capture.get("raw_tagged_text"), raw_offenses)
 
     post_regen_offenses = None
+    post_regen_paragraph_coverage = None
     if raw_offenses:
+        regen_capture: dict = {}
         regen_event, regen_usage = _run_ordinary_voice_turn(
             voice_client=client, voice_model_id=voice_model_id, world=world,
             participant_message=message, directive=gate_run.gate_result.routing.directive,
             session_id=session_id, usage_world_key=world_key, is_other_tradition_first_ask=is_other_tradition,
-            correction=_build_correction(raw_offenses),
+            correction=_build_correction(raw_offenses), debug_capture=regen_capture,
         )
         for rec in regen_usage:
             usage_store.append(rec)
         post_regen_offenses = _offenses_for(regen_event, registry=registry, world_key=world_key, is_other_tradition_turn=is_other_tradition)
+        post_regen_paragraph_coverage = _paragraph_coverage(regen_capture.get("raw_tagged_text"), post_regen_offenses)
 
-    return raw_offenses, post_regen_offenses, out_of_scope_class, action
+    return {
+        "raw_offenses": raw_offenses, "post_regen_offenses": post_regen_offenses,
+        "raw_paragraph_coverage": raw_paragraph_coverage, "post_regen_paragraph_coverage": post_regen_paragraph_coverage,
+        "out_of_scope_class": out_of_scope_class, "routing_action": action,
+    }
 
 
 def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> dict:
@@ -183,31 +254,44 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             raw_with_offense = post_with_offense = 0
             raw_offense_total = post_offense_total = 0
             probes_run = 0
+            # F6: turns whose RAW answer had at least one wholly-uncited
+            # paragraph, and the sentence-level split of raw offenses by
+            # whether their own paragraph carried a citation elsewhere.
+            turns_with_uncited_paragraph = 0
+            uncited_in_cited_paragraph_total = 0
+            uncited_in_uncited_paragraph_total = 0
 
             for probe_id, message in probes.items():
                 # Each probe is turn 1 of its own fresh session (F3(a)'s
                 # own fix: a direct first-turn ask needing no history) -
                 # never the same session_id twice.
                 session_id = f"uncited-claims-battery-{world_key}-{probe_id}"
-                raw_offenses, post_offenses, out_of_scope_class, action = _run_probe_turn(
+                result = _run_probe_turn(
                     client=client, voice_model_id=voice_model_id, safety_model_id=safety_model_id,
                     world=world, world_key=world_key, registry=registry,
                     session_id=session_id, message=message, usage_store=usage_store,
                 )
+                raw_offenses, post_offenses = result["raw_offenses"], result["post_regen_offenses"]
+                raw_cov = result["raw_paragraph_coverage"]
                 probes_run += 1
                 if raw_offenses:
                     raw_with_offense += 1
                     raw_offense_total += len(raw_offenses)
-                if post_offenses is not None:
-                    if post_offenses:
-                        post_with_offense += 1
-                        post_offense_total += len(post_offenses)
+                if post_offenses is not None and post_offenses:
+                    post_with_offense += 1
+                    post_offense_total += len(post_offenses)
+                if raw_cov["turn_has_wholly_uncited_paragraph"]:
+                    turns_with_uncited_paragraph += 1
+                uncited_in_cited_paragraph_total += raw_cov["uncited_in_cited_paragraph"]
+                uncited_in_uncited_paragraph_total += raw_cov["uncited_in_uncited_paragraph"]
                 probe_results[probe_id] = {
                     "message": message,
-                    "routing_action": action,
-                    "out_of_scope_class": out_of_scope_class,
+                    "routing_action": result["routing_action"],
+                    "out_of_scope_class": result["out_of_scope_class"],
                     "raw_offenses": raw_offenses,
                     "post_regeneration_offenses": post_offenses,
+                    "raw_paragraph_coverage": raw_cov,
+                    "post_regeneration_paragraph_coverage": result["post_regen_paragraph_coverage"],
                 }
 
             records = usage_store.read_for_session(f"uncited-claims-battery-{world_key}-A-conflict") + usage_store.read_for_session(
@@ -229,6 +313,11 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
                 # clean by construction, not something this rate should
                 # dilute.
                 "post_regeneration_residual_rate": (post_with_offense / raw_with_offense) if raw_with_offense else 0.0,
+                # F6's own side-by-side metric, sentence rate above,
+                # paragraph rate here - same denominator (probes_run).
+                "uncited_paragraph_turn_rate": turns_with_uncited_paragraph / probes_run,
+                "uncited_sentences_in_cited_paragraph": uncited_in_cited_paragraph_total,
+                "uncited_sentences_in_uncited_paragraph": uncited_in_uncited_paragraph_total,
                 "session_dollars": session_dollars,
             }
 
@@ -257,6 +346,9 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
     total_raw_with_offense = sum(w["raw_turns_with_offense"] for w in per_world.values())
     total_post_with_offense = sum(w["post_regeneration_turns_with_offense"] for w in per_world.values())
     total_dollars = sum(w["session_dollars"] for w in per_world.values()) + table_dollars
+    total_uncited_paragraph_turns = sum(round(w["uncited_paragraph_turn_rate"] * w["probes_run"]) for w in per_world.values())
+    total_uncited_in_cited_paragraph = sum(w["uncited_sentences_in_cited_paragraph"] for w in per_world.values())
+    total_uncited_in_uncited_paragraph = sum(w["uncited_sentences_in_uncited_paragraph"] for w in per_world.values())
 
     return {
         "region": region, "voice_model_id": voice_model_id, "safety_model_id": safety_model_id,
@@ -268,6 +360,10 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             "overall_raw_turn_rate": total_raw_with_offense / total_probes if total_probes else 0.0,
             "overall_post_regeneration_turns_with_offense": total_post_with_offense,
             "overall_post_regeneration_residual_rate": (total_post_with_offense / total_raw_with_offense) if total_raw_with_offense else 0.0,
+            # F6's own side-by-side metric.
+            "overall_uncited_paragraph_turn_rate": total_uncited_paragraph_turns / total_probes if total_probes else 0.0,
+            "overall_uncited_sentences_in_cited_paragraph": total_uncited_in_cited_paragraph,
+            "overall_uncited_sentences_in_uncited_paragraph": total_uncited_in_uncited_paragraph,
         },
         "table": {
             "world_keys": table_world_keys,
@@ -282,7 +378,8 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             "2 fresh single-turn probes per world x 11 worlds (each with a regeneration where the raw probe "
             "had an offense) + one small table session - an order-of-magnitude first look, not a "
             "statistically powered sample. post_regeneration_residual_rate, not raw_turn_rate, is what "
-            "F3(b) asks Mark's threshold to be set against."
+            "F3(b) asks Mark's threshold to be set against. uncited_paragraph_turn_rate (F6) is the second, "
+            "side-by-side metric - measurement only, does not change what R27's own check does."
         ),
     }
 
@@ -313,6 +410,7 @@ def main() -> int:
         f"({report['interview']['overall_raw_turns_with_offense']}/{report['interview']['overall_probes_run']}); "
         f"post-regeneration residual rate: {report['interview']['overall_post_regeneration_residual_rate']:.0%} "
         f"({report['interview']['overall_post_regeneration_turns_with_offense']}/{report['interview']['overall_raw_turns_with_offense']}); "
+        f"uncited-paragraph turn rate: {report['interview']['overall_uncited_paragraph_turn_rate']:.0%}; "
         f"table uncited_claims events: {len(report['table']['uncited_claims_events'])}; "
         f"total cost: ${report['total_dollars']:.4f}"
     )

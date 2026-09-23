@@ -1008,6 +1008,32 @@ def test_gate_calls_run_concurrently_not_sequentially():
     assert [r.call_kind for r in gate_run.usage_records] == ["safety_call", "reader_call"]
 
 
+def test_gate_carries_an_other_tradition_reader_classification_through_to_routing():
+    """R27 F4 (reviewer thread fix list, 2026-09-22): a mocked-reader
+    routing test to complement engine.m5.tests.test_routing's own pure-
+    function coverage of route() - this proves the layer ABOVE it,
+    run_gate's own real dispatch through resolve_gate, correctly carries
+    a reader classification of "other_tradition" into
+    gate_result.routing.out_of_scope_class end to end. The reader's own
+    classification decision (does the real model actually read "What was
+    your relationship with the Donatists?" as other_tradition) is a live
+    model behavior no mock can test - engine.m5.live_calls.READER_SYSTEM_
+    PROMPT's own rubric text is what changed for that, verified live,
+    separately, not here. This test pins the deterministic half: once the
+    reader SAYS other_tradition, nothing downstream loses it."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"),
+        reader_response=_reader(out_of_scope={"class": "other_tradition"}),
+    )
+    gate_run = run_gate(
+        session_id="test-session", safety_client=client, safety_model_id="m",
+        participant_message="What was your relationship with the Donatists?",
+        pressed={}, anachronistic_term_ids=set(),
+    )
+    assert gate_run.gate_result.routing.action == "voice_with_directive"
+    assert gate_run.gate_result.routing.out_of_scope_class == "other_tradition"
+
+
 def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
     """R27 fix list F3 (reviewer thread, 2026-09-22):
     engine.m4.live_uncited_claims_battery's own opt-in regeneration
@@ -1026,3 +1052,24 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
     system_blocks = client.messages.captured_stream_calls[0][0]
     directive_text = "".join(b["text"] for b in system_blocks[1:])
     assert "Cite everything, or say plainly your record is silent." in directive_text
+
+
+def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
+    """R27 fix list F6 (reviewer thread, 2026-09-22):
+    engine.m4.live_uncited_claims_battery's own opt-in paragraph-coverage
+    channel - unset on every real caller, never part of voice_event. This
+    is the one hermetic proof the captured text is the real raw stream
+    output, tags and all, not a placeholder or a post-apply_net (already
+    stripped) copy."""
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    capture: dict = {}
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        debug_capture=capture,
+    )
+    assert capture["raw_tagged_text"] == "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
+    assert "[[fix.witness.who-is-jesus]]" not in voice_event["text"]  # apply_net's own strip, unaffected by the capture

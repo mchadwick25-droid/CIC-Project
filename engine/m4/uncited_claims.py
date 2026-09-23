@@ -164,21 +164,59 @@ def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: boo
     return offense
 
 
+# F5 (reviewer thread fix list, 2026-09-22, after PR #419's own re-run):
+# known_tradition_names read card_name only - a real gap the #419 report
+# itself surfaced, twice: the battery's own other-tradition probe named
+# "the Donatists" (a demonym, what a voice's own prose actually says),
+# never don's own card_name "The Church of the Martyrs", so
+# classify_neighbour_named had nothing in its own name list to match
+# against. A closed, deterministic derivation - two suffix rules, no
+# model call, no per-world lookup table:
+#   -ism  -> stem+"ist", stem+"ist"+"s"   ("Donatism" -> "Donatist"/"Donatists")
+#   -ian  -> stem+"ia"                     ("Alexandrian" -> "Alexandria";
+#                                            the "-ian" adjective form itself
+#                                            is already present verbatim in
+#                                            display_name/card_name, so it
+#                                            needs no separate derivation)
+# Applied to the first word of a name (where an English demonym actually
+# attaches - "Alexandrian Christianity"'s own demonym is carried by
+# "Alexandrian", not "Christianity"), not the whole multi-word string.
+def _demonym_forms(name: str) -> set[str]:
+    first_word = (name.split() or [""])[0].lower()
+    forms = set()
+    if first_word.endswith("ism"):
+        stem = first_word[: -len("ism")]
+        forms.add(stem + "ist")
+        forms.add(stem + "ist" + "s")
+    if first_word.endswith("ian"):
+        forms.add(first_word[: -len("ian")] + "ia")
+    return forms
+
+
 def known_tradition_names(registry: dict, *, exclude_world_key: str) -> list[str]:
-    """Every OTHER formation world's own card_name and representative
-    name, straight from the registry - both fields already sit directly
-    on a world's records/worlds/<code>.yaml entry (no package/frame load
-    needed, so this is cheap enough to call every turn). Excludes the
-    speaking world itself: naming your OWN tradition is not the R26
-    violation shape."""
+    """Every OTHER formation world's own card_name, representative name,
+    display_name, world_id (hyphens read as spaces - "alexandria-
+    catechetical" -> "alexandria catechetical" - a voice's own prose
+    would never emit the raw hyphenated id, but the words inside it are
+    real candidate names), and each of those names' own closed demonym
+    derivation (_demonym_forms) - straight from the registry, no
+    package/frame load needed, so this is cheap enough to call every
+    turn. Excludes the speaking world itself: naming your OWN tradition
+    is not the R26 violation shape."""
     names = []
     for key, entry in registry.items():
         if key == exclude_world_key or entry.get("kind") != "formation":
             continue
         if card_name := entry.get("card_name"):
             names.append(card_name)
+            names.extend(_demonym_forms(card_name))
         if rep_name := (entry.get("representative") or {}).get("name"):
             names.append(rep_name)
+        if display_name := entry.get("display_name"):
+            names.append(display_name)
+            names.extend(_demonym_forms(display_name))
+        if world_id := entry.get("world_id"):
+            names.append(world_id.replace("-", " "))
     return names
 
 

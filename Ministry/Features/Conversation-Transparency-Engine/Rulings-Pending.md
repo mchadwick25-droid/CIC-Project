@@ -318,3 +318,48 @@ the Facilitator takes the turn). Mark sets the enforcement threshold
 once the measured rate is in (build order item 4, Decision-Log.md Entry
 51). Full build order, engineering detail, and the R26 first-ask
 directive wiring: Decision-Log.md Entry 51.
+
+### R27-A — Amendment: the unit of enforcement is the paragraph, not the sentence
+**Status:** RULED — 2026-09-22. Mark chose this from three options put
+to him after PR #419's own live numbers (Decision-Log.md Entry 52's own
+data: 86% raw sentence-level rate, 84% residual after one regeneration).
+Via the reviewer thread's standing authorization.
+
+**Ruled shape:** a paragraph must carry at least one citation. The
+grounding net checks every sentence in that paragraph against the union
+of that paragraph's own cited records, not only the tagged sentence — an
+untagged sentence inside a cited paragraph is checked against that
+paragraph's own citations, the same way a tagged sentence already is. A
+wholly uncited paragraph fails, unless every sentence in it is one of
+R27's own allowed-uncited kinds (question back, honest-limit,
+first-person no-claim). R26's two classes — `neighbour_named` and
+`own_doctrine_in_other_tradition_turn` — stay per-sentence hard
+failures; the paragraph unit is R27's own base check only.
+
+**Rollout unchanged from R27 itself:** report-only with rates first,
+Mark sets the threshold, then flag-gated enforcement with the same
+seat-guard shape (regenerate once with the failures named, then the
+Facilitator takes the turn). Full build order (design entry, report-only
+module change, tests, battery, enforcement): Decision-Log.md's own R27-A
+entry.
+
+### R30 — Stage 7 streaming, E1: what a participant sees on a mid-stream guard catch
+**Status:** RULED (option c) — 2026-09-22. Via the reviewer thread's
+standing authorization.
+
+**Ruled:** hold the opening paragraph until the guard has checked it,
+then stream sentence by sentence from a point already known to be clean.
+A mid-stream catch after that point follows the seat-guard shape already
+ruled (regenerate once, then the Facilitator takes the turn) — the 7b
+design entry states exactly what the participant sees in that residual
+case, and anything other than the Facilitator closing the turn with the
+sentences already shown left in place escalates to Mark before it is
+built.
+
+### R31 — Stage 7 streaming, E2: when a citation mark attaches during a stream
+**Status:** RULED (option a) — 2026-09-22. Via the reviewer thread's
+standing authorization.
+
+**Ruled:** a citation mark attaches with each sentence as it clears. An
+R17 cap demotion at turn end moves an already-shown mark to the
+references line — it never removes a sentence or a claim.

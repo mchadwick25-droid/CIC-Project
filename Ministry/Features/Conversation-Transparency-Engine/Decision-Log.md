@@ -2178,3 +2178,84 @@ reviewer thread's own sequencing, restated here as the gate it is.
 Escalating E1 and E2 to Mark now, per the four standing escalation
 categories (participant-facing words) - no 7b code starts until both are
 ruled.
+
+**Addendum to Entry 53 - 2026-09-22.** Mark's own rulings on E1/E2,
+relayed via the reviewer thread under his standing authorization
+(Rulings-Pending.md R30/R31):
+
+**R30 (E1): option (c).** Hold the opening paragraph until the guard has
+checked it, then stream sentence by sentence from a point already known
+to be clean. A mid-stream catch after that point follows the seat-guard
+shape already ruled (regenerate once, then the Facilitator takes the
+turn) - the 7b design entry states exactly what the participant sees in
+that residual case, and anything other than the Facilitator closing the
+turn with the sentences already shown left in place escalates before it
+is built.
+
+**R31 (E2): option (a).** Citation marks attach with each sentence as it
+clears. An R17 cap demotion at turn end moves an already-shown mark to
+the references line and never removes a sentence or a claim.
+
+No 7b code starts yet even with both ruled - the reviewer thread's own
+sequencing puts R27-A's build order (Entry 54) ahead of it.
+
+**Entry 54 — 2026-09-22.** R27-A: Mark's own ruling that the unit of
+R27's enforcement is the paragraph, not the sentence - chosen from three
+options put to him after PR #419's own live numbers (86% raw sentence
+rate, 84% residual after one regeneration; Entry 52's own data). Via the
+reviewer thread's standing authorization. Recorded in full in
+Rulings-Pending.md's own R27-A entry; restated here because this is
+where the build order lives.
+
+**Ruled shape:** a paragraph must carry at least one citation. The
+grounding net checks every sentence in that paragraph against the union
+of that paragraph's own cited records - an untagged sentence inside a
+cited paragraph gets the SAME per-sentence check a tagged sentence
+already gets, just against the paragraph's own citation set rather than
+its own bare tag. A wholly uncited paragraph fails, unless every
+sentence in it is one of R27's own allowed-uncited kinds. R26's two
+classes (`neighbour_named`, `own_doctrine_in_other_tradition_turn`) stay
+per-sentence hard failures - the paragraph unit belongs to R27's own base
+check only, not to those two.
+
+**Rollout, unchanged from R27 itself:** report-only with rates first,
+Mark sets the threshold, then flag-gated enforcement with the seat-guard
+shape (regenerate once with the failures named, then the Facilitator
+takes the turn).
+
+**Build order, each its own PR, three-round cap, no self-merge:**
+1. Design entry - how a paragraph is delimited in the voice's raw tagged
+   text (blank-line blocks, the existing sentence split running inside
+   each one); how "the paragraph's cited records" is formed (the union
+   of every tag appearing anywhere in that paragraph); what the
+   grounding net does with an untagged sentence in a cited paragraph (the
+   same per-sentence check it already runs on a tagged sentence, against
+   that union instead of the sentence's own bare tag); what verdict an
+   untagged sentence gets when that check fails - two named options to
+   choose between and recommend, escalating to Mark only if the choice is
+   participant-visible in a way he hasn't already ruled: (a) withhold the
+   sentence exactly as a failed tagged sentence is withheld today, or (b)
+   count it as a paragraph failure that triggers regeneration without
+   itself being withheld. Constraint A holds (no new model call).
+2. Report-only module change: paragraph coverage computed beside the
+   existing sentence check; the `uncited_claims` event gains a
+   paragraph-level shape (stated in item 1's own design entry) while the
+   existing `offenses` list stays exactly as it is; the grounding net
+   extended to check inherited sentences, logging its verdict without
+   withholding anything yet. No participant-visible change in this PR.
+3. Tests: the alx Origen paragraph from the #419 report ("For years they
+   held together." inside a cited paragraph) must pass paragraph coverage
+   and be net-checked; a wholly uncited narrative paragraph must fail; a
+   paragraph of only honest-limit sentences must pass; the Augustinian
+   sentences inside an `other_tradition` turn must still fail per
+   sentence (R26's own classes, unchanged by this amendment).
+4. Battery: per-world rates under the paragraph unit, raw and
+   post-regeneration, plus the net's own verdict distribution on
+   inherited sentences (how many would be withheld under option (a)
+   above). Cost reported in the PR body. Mark sets the threshold on these
+   numbers, not item 4's own sentence-level ones (Entry 52).
+5. Enforcement, flag-gated, only on Mark's own word after item 4.
+
+Sequencing for this session (reviewer thread's own words): the F4-F6 PR
+already in flight finishes first, then R27-A items 1-4, then Stage 7b-7e
+(streaming does not ship before R27-A's own enforcement is on).
