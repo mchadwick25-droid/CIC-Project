@@ -44,6 +44,7 @@ from engine.api.wiring import (
 )
 from engine.m1.loader import load_fleet_records
 from engine.m4 import events, facilitator_turns, session_code
+from engine.m4 import evidence as ev
 from engine.m4.entrance import open_session
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.round import (
@@ -56,7 +57,12 @@ from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
 from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
-from engine.m4.uncited_claims import build_uncited_claims_event, known_tradition_names
+from engine.m4.uncited_claims import (
+    build_uncited_claims_event,
+    known_tradition_names,
+    match_named_tradition,
+    world_records_mention_tradition,
+)
 
 import threading
 from contextlib import contextmanager
@@ -828,6 +834,65 @@ def _advance_open_round(
         guard_labels.append(labels[k])
         guard_labels.append(w.frame["representative"]["name"])
 
+    # OTHER-TRADITION PARITY WITH INTERVIEW (reviewer thread, 2026-09-23,
+    # round 1 fixes applied): this seat's own directive gets the R26/R37/
+    # R38 treatment on exactly the same condition engine.m4.turn.run_turn
+    # uses for interview - out_of_scope_class == "other_tradition" - never
+    # re-derived per turn within a round (out_of_scope_class, above, is
+    # the round's own opening classification, read back unchanged on
+    # every continue; see _continue_table_round_unlocked). The evidence
+    # lookup is #440's own fix, scoped to THIS SEAT'S world (not a single
+    # fixed world the way interview's one-voice session is): does this
+    # seat's own package already name the tradition asked about, from the
+    # participant's own raw text. The Table's own seat-to-seat clause
+    # (table_engagement, below) is a separate channel in
+    # _build_turn_directive and composes with this one - neither
+    # suppresses the other.
+    #
+    # FIX 1 (a seat drawn back in repeats the fixed sentence): turn_
+    # selector may draw the same seat back into the SAME round (is_
+    # second_pass, computed above) - interview never repeats a first-ask
+    # answer (its own second ask routes to etic_turn instead), so this
+    # seat's own SECOND OR LATER turn this round must drop the fixed
+    # honest-limit sentence while keeping R37's own knowledge-scope
+    # framing and any evidence ids - engine.m4.turn._other_tradition_
+    # directive's own repeat_turn parameter.
+    #
+    # FIX 2 (the named tradition is seated at this Table), corrected
+    # round 2: match_named_tradition only ever excludes the SPEAKING
+    # seat, so a tradition seated ELSEWHERE at this same table can still
+    # match - the fixed sentence would then be false (that tradition's
+    # own Representative sits right there). tradition_seated suppresses
+    # the fixed sentence unconditionally; the evidence branch still
+    # applies if this seat's own records happen to name the seated
+    # tradition.
+    #
+    # Round 1 assumed that with no evidence, the Table's own seat-to-seat
+    # clause (table_engagement) already governed, and returned None. That
+    # was wrong: table_engagement is built only when other_voice_has_
+    # spoken (below) - NEVER on a round's true opening turn, which is
+    # exactly the turn that names the seated tradition in the first
+    # place. Returning None there left the model completely ungoverned
+    # on it, and the round-2 live battery caught the real result (a
+    # voice claiming the seated tradition's own name as its own -
+    # Decision-Log.md, Entry 68's round-2 addendum). other_tradition_
+    # seated_name (the seated tradition's own registry card_name) now
+    # threads through so engine.m4.turn._other_tradition_directive can
+    # build a real seated-tradition directive instead of returning None.
+    is_other_tradition_first_ask = out_of_scope_class == "other_tradition"
+    other_tradition_evidence_ids = None
+    other_tradition_seated = False
+    other_tradition_seated_name = None
+    other_tradition_repeat_turn = is_second_pass
+    if is_other_tradition_first_ask:
+        named_tradition_key = match_named_tradition(participant_text, registry, exclude_world_key=selection.world_key)
+        other_tradition_seated = named_tradition_key in state.world_keys if named_tradition_key else False
+        other_tradition_seated_name = registry[named_tradition_key]["card_name"] if other_tradition_seated else None
+        other_tradition_evidence_ids = (
+            world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
+            if named_tradition_key else None
+        )
+
     try:
         voice_event, voice_usage = run_voice_turn_for_world(
             voice_client=voice_client,
@@ -855,6 +920,11 @@ def _advance_open_round(
             ),
             usage_world_key=selection.world_key,
             guard_labels=guard_labels,
+            is_other_tradition_first_ask=is_other_tradition_first_ask,
+            other_tradition_evidence_ids=other_tradition_evidence_ids,
+            other_tradition_seated=other_tradition_seated,
+            other_tradition_seated_name=other_tradition_seated_name,
+            other_tradition_repeat_turn=other_tradition_repeat_turn,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
             self_revision_enabled=self_revision_enabled,
