@@ -2671,3 +2671,168 @@ is real and independently confirmed (`ijc` on `don` also has evidence,
 the same two records named above), but is not literally what the
 battery itself asks `ijc`; both are true and both are reported, not
 conflated.
+
+**Entry 58 — 2026-09-23.** Two display defects from Mark's own staging
+Table look (relayed via the reviewer thread), both against Papnoute's
+(Desert Fathers) and Theon's (Alexandria) turns.
+
+**Defect 1 - citation-card empty bullets.** Papnoute's turn showed
+"General references (1)" followed by five empty bullet items - "* "
+with nothing after. Traced the render path end to end:
+`GeneralReferences.tsx` -> `SourceList.tsx` (`{s.work ?? s.source_id}`
+per `<li>`, JS `??` only catches null/undefined, never an empty
+string) -> `engine/m4/citation_cards.py`'s `resolve_source_card`, the
+one function both the legacy renderer's `resolve_citation_sources` and
+the anchor-driven renderer's `transparency_plan.build_transparency_plan`
+call to build every `sources[]` entry a citation card carries.
+
+**Root cause, and why it could not be reproduced from today's data.**
+`resolve_source_card` builds each `sources[]` entry as `{source_id,
+author, work, locus, rights_status}` unconditionally - it has never
+checked whether an entry actually has anything printable before
+shipping it. The renderer's own primary field is `work ?? source_id`,
+so as long as an entry carries a real `source_id`, that id itself is
+the fallback text - never blank, even when the id is dangling (doesn't
+resolve in this world's own repository). The only shape that leaves
+truly nothing to print is an entry whose own `source_id` is missing or
+blank AND whose own `locus` is missing or blank too - both fields
+absent on the citing record's own `sources[]` entry, upstream of this
+function, a shape the grounding net's own checks don't cover since
+they verify the CITING record's id, not the internal shape of its own
+`sources[]` list. Four independent fleet-wide scans - the currently
+compiled `packages/` repository for all 12 built worlds (including
+the `fix` fixture world), every one of desert's own seven historical
+package builds (2026-09-21 through 2026-09-22T21-17-53Z, in case
+staging was serving an older build than today's `latest_complete_
+package` pick), and a fresh `compile_and_hash` straight from `records/`
+for eleven worlds (the same method `test_citation_cards.py` itself
+uses for "real, not invented" fixtures) - found **zero** `sources[]`
+entries missing `source_id` anywhere in the fleet today. This defect's
+exact historical trigger is not reproducible from current record data;
+it is either a stale-deploy artifact (staging running an older build
+than what `records/`/`packages/` hold now) or a real but currently-
+dormant shape this project has no standing invariant against. Given
+the reviewer's own framing ("find the cause... most likely a source
+group whose entries lack the fields the card prints... fix so an entry
+with nothing to print is not rendered"), the right fix is the
+structural one: close the gap at its true origin rather than chase one
+historical instance that no longer reproduces.
+
+**The fix** (`engine/m4/citation_cards.py`): `resolve_source_card` now
+drops a `sources[]` entry before it is ever built into the card, if
+every one of its five fields (`source_id`, `author`, `work`, `locus`,
+`rights_status`) is empty or blank. One check, in the one function
+both renderers already share, so no second filter is needed in the
+frontend and no caller has to know about the invariant. An entry that
+still names a real (even if dangling) `source_id`, or a real `locus`
+with no resolvable `source_id`, is kept - dropping it would discard
+real, checkable information the participant can still act on; only an
+entry with genuinely nothing printable in any field is removed.
+Two new tests in `engine/m4/tests/test_citation_cards.py` pin the
+boundary directly: a `sources[]` entry with `source_id: null` and no
+`locus` is dropped; the same entry with a real `source_id` (dangling
+or not) is kept, and so is the same missing-`source_id` entry once a
+real `locus` is added. Full existing suite green (`pytest engine -q`,
+1016 passed) after the change.
+
+**Which two records produced Theon's own "...cared.✲✲" (see Entry
+57's Defect 2, immediately below) is a separate question, reported
+there, not here** - this entry's own fix is unrelated to which records
+cite what; it only changes which entries `resolve_source_card` is
+willing to ship at all.
+
+**Defect 2 - two transparency marks on one sentence.** Theon's second
+turn: *"Origen was driven out by his own bishop, Demetrius, over
+wounded pride and contested authority, long before any emperor
+cared.✲✲"* - two mark glyphs, stacked, on one sentence. The reviewer's
+own first framing read this as a possible violation of R31 (E2, RULED:
+"a citation mark attaches with each sentence as it clears" - one mark
+per sentence). Mark corrected that framing directly, relayed verbatim:
+*"i am not sure why we can only have 1 mark per sentence, i get not
+overloading, but if a quote and a lexicon word are in the same
+sentence they should both marked."* This is R31-A, recorded in
+Rulings-Pending.md immediately below R31: one mark per distinct
+grounded element (a story, a witness quote, a term), never reduced to
+one per sentence. Two marks landing on the same sentence is not a
+count bug under R31-A - it is by design, whenever a story/quote
+record's citing run and a `doctrinal_witness` record's citing run both
+finish at the same sentence (`VoiceTurnBody.tsx`'s `finishingStoryCards`
+and `finishingWitnessCards`, or the anchor-driven renderer's own
+`storyCards`/`witnessCards` split by `STORY_RECORD_TYPES = {story,
+quote}` / `WITNESS_RECORD_TYPES = {doctrinal_witness}`). The real
+defect R31-A names is readability - a participant sees "✲✲" with no
+way to tell which mark is which record without tapping both.
+
+**Which two records back Theon's own two marks - not confirmed, and
+said honestly rather than guessed.** The exact sentence does not
+appear in any saved battery report, Corpus A pool file, or persisted
+transcript this repository or its build artifacts carry - it was a
+live staging generation whose own evidence bundle (the per-sentence
+citation record_ids `apply_net` actually attached) is not stored
+anywhere this session can read. Reproducing it exactly would need a
+fresh live regeneration against Theon's own original prompt, which is
+also not on record. What can be said without guessing: `alx.story.
+origen-demetrius` (a real `story` record) and `alx.dw.councils` (a
+real `doctrinal_witness` record) both exist in alx's own repository,
+both mention Demetrius by name, and are the two record_types whose
+mechanism (above) can produce exactly this stacked-mark shape on
+content matching this sentence's own topic - named here as the most
+likely pairing given real content, explicitly flagged as unconfirmed,
+not reported as fact. If Mark wants the exact pair pinned, that needs
+either a live regeneration against the original prompt or persisting
+`apply_net`'s own per-sentence citation output for staging turns going
+forward - neither done here.
+
+**Three readability options for R31-A, one paragraph each, no code
+change - Mark's to choose, not decided here** (the reviewer's own
+three candidate directions):
+
+**(a) Mark placed at its own element.** Instead of both marks landing
+at the end of the sentence, each mark moves to sit immediately after
+the specific span it actually grounds - the story's mark after the
+narrative clause it covers, the witness mark after the specific phrase
+its quote backs, wherever those spans fall inside the sentence. On a
+phone screen this reads the most like ordinary punctuation - each mark
+sits right where its own claim is, so a participant never has to
+match a glyph to content by process of elimination. Cost: this is the
+biggest engineering lift of the three - the current renderer places a
+mark at a SENTENCE boundary (the end of a segment), not at an
+arbitrary sub-span inside one, so this would need real span-level
+placement logic, a capability the anchor-driven renderer's own anchors
+(`run_start_sentence`/`run_end_sentence`) don't carry today; a change
+to what `transparency_plan.py`'s anchors actually record, not just how
+they render.
+
+**(b) One glyph per kind.** Keep marks at the sentence boundary (no
+placement change), but give the story mark and the witness mark
+visually distinct glyphs - not two identical ✲ characters stacked, but
+one shape for "a story is being told" and a different one for "someone
+is being quoted," the same distinction `StoryMark`/`WitnessMark`
+already carry as separate React components today, just never
+differentiated in what they actually render. On a phone screen two
+different small glyphs read as two different KINDS of thing at a
+glance, without needing a tap to find out - closest to a typical
+footnote-superscript convention (¹ ² vs a dagger/asterisk pair).
+Cost: smallest of the three - a CSS/character change inside two
+already-separate components, no data-shape change, though it does add
+a second glyph to the fleet's own "one grammar, five applications, no
+feature may introduce a sixth verb" vocabulary (Full UX Design §5.7),
+which R10's own ruling already stretched once for the repeat-citation
+opacity treatment.
+
+**(c) Single mark, hover/tap card listing all elements.** Collapse
+however many marks would land on one sentence into a single glyph;
+tapping or hovering it opens one card listing every record it actually
+covers (today's existing per-mark tap-through, just aggregated). On a
+phone screen this is the cleanest - never more than one glyph per
+sentence, however many records ground it - at the cost of hiding the
+"how many distinct things are grounding this" information the current
+stacked-glyph shape (accidentally) surfaces today; a participant has
+to tap to learn there were two things, not one. Cost: moderate - the
+per-segment mark-building logic in both renderers already groups by
+kind (`marks.push(<StoryMark.../>)`, `marks.push(<WitnessMark.../>)`);
+this would merge those into one combined mark component fed both
+groups, no anchor/data-shape change needed, only a rendering change.
+
+No recommendation between the three - the reviewer's ask was options,
+not a decision.
