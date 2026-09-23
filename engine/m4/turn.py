@@ -279,7 +279,9 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
 R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition."
 
 
-def _other_tradition_directive(evidence_record_ids: list[str] | None = None) -> str:
+def _other_tradition_directive(
+    evidence_record_ids: list[str] | None = None, *, tradition_seated: bool = False, repeat_turn: bool = False,
+) -> str | None:
     """R26 (Decision-Log.md Entry 50, 2026-09-22), Mark's own words: "The
     representative should only know its own sources unless they would
     have known the sources from another in reality." This is the
@@ -288,7 +290,8 @@ def _other_tradition_directive(evidence_record_ids: list[str] | None = None) -> 
     The fixed sentence here is engine.m4.uncited_claims.
     R26_HONEST_LIMIT_SENTENCE, matched exactly (case-insensitive) by that
     module's own allowed-uncited detection - the two must stay identical
-    by construction, not by convention.
+    by construction, not by convention. Returns None when there is
+    genuinely nothing to add (tradition_seated, no evidence - see below).
 
     evidence_record_ids (R39's own reviewer-ordered fix, relayed
     2026-09-23): engine.m4.uncited_claims.world_records_mention_tradition's
@@ -303,7 +306,27 @@ def _other_tradition_directive(evidence_record_ids: list[str] | None = None) -> 
     ijc.story.emperor-builds-another-basilica already name it) skips the
     honest-limit sentence entirely, since saying it would be false, and
     hands the voice those record ids as its own ground instead - cited
-    under the ordinary citation contract, the same as any other turn."""
+    under the ordinary citation contract, the same as any other turn.
+
+    tradition_seated (Table parity round-1 fix, Decision-Log.md, 2026-09-
+    23): the named tradition's own world is SEATED at this table - the
+    fixed honest-limit sentence would be false (this seat's neighbour
+    speaks for that tradition directly, right there), so it is never
+    said regardless of evidence. The evidence branch above still applies
+    if this seat's own records happen to name it (unchanged); with no
+    evidence, the Table's own seat-to-seat clause (table_engagement)
+    already governs this case correctly (R37(b) - a seat may know a
+    seated tradition through what it has said at the Table) and this
+    function has nothing left to add.
+
+    repeat_turn (same fix): this seat's own SECOND OR LATER turn within
+    the same round (turn_selector may draw a seat back in - the fixed
+    sentence said once already stays true, but repeating it verbatim
+    every return turn is not what interview's own single-ask shape ever
+    produces). No evidence, not seated: keep R37's own knowledge-scope
+    framing ("this is another tradition, answer only from your own
+    records") but drop the "if nothing, say exactly..." clause - it was
+    already said on this seat's first turn this round."""
     if evidence_record_ids:
         ids_text = ", ".join(f"[[{rid}]]" for rid in evidence_record_ids)
         return (
@@ -312,6 +335,14 @@ def _other_tradition_directive(evidence_record_ids: list[str] | None = None) -> 
             "as always, under the ordinary citation contract. Never speak as if you know more about that "
             "other tradition than what your own records give you and what has actually been said in this "
             "conversation."
+        )
+    if tradition_seated:
+        return None
+    if repeat_turn:
+        return (
+            "This question asks about another Christian tradition, not your own world. Answer only from "
+            "what your own world's records actually hold about it, cited as always. Never speak as if you "
+            "know that other tradition's own history or doctrine - only your own, and only what you can cite."
         )
     return (
         "This question asks about another Christian tradition, not your own world. Answer only from what "
@@ -328,6 +359,8 @@ def _build_turn_directive(
     table_engagement: str | None = None,
     is_other_tradition_first_ask: bool = False,
     other_tradition_evidence_ids: list[str] | None = None,
+    other_tradition_seated: bool = False,
+    other_tradition_repeat_turn: bool = False,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -355,7 +388,12 @@ def _build_turn_directive(
 
     Returns None when there is no directive and no table_engagement (the
     crisis path), which leaves the call with the world prompt alone -
-    exactly what it sent before."""
+    exactly what it sent before. Also None on an other_tradition-only
+    turn where _other_tradition_directive itself has nothing to add
+    (other_tradition_seated with no evidence - see that function's own
+    docstring) and nothing else this turn would add anything either;
+    checked at the end (below), not here, since that outcome depends on
+    what _other_tradition_directive actually returns."""
     if directive is None and not table_engagement and not is_other_tradition_first_ask:
         return None
     # The leading newline is kept from when this text was concatenated onto
@@ -400,7 +438,18 @@ def _build_turn_directive(
     if table_engagement:
         parts.append(table_engagement)
     if is_other_tradition_first_ask:
-        parts.append(_other_tradition_directive(other_tradition_evidence_ids))
+        other_tradition_text = _other_tradition_directive(
+            other_tradition_evidence_ids, tradition_seated=other_tradition_seated, repeat_turn=other_tradition_repeat_turn,
+        )
+        if other_tradition_text:
+            parts.append(other_tradition_text)
+    if len(parts) == 1:
+        # Nothing was actually added (the only case: an other_tradition-
+        # only turn where _other_tradition_directive returned None,
+        # tradition_seated with no evidence) - the header line alone is
+        # not a real directive, return None exactly as the no-directive
+        # path above does.
+        return None
     return "\n".join(parts)
 
 
@@ -518,6 +567,8 @@ def _run_ordinary_voice_turn(
     guard_labels: list[str] | None = None,
     is_other_tradition_first_ask: bool = False,
     other_tradition_evidence_ids: list[str] | None = None,
+    other_tradition_seated: bool = False,
+    other_tradition_repeat_turn: bool = False,
     correction: str | None = None,
     debug_capture: dict | None = None,
     r27_enforce: bool = False,
@@ -683,6 +734,8 @@ def _run_ordinary_voice_turn(
         directive, figures_already_named, table_engagement,
         is_other_tradition_first_ask=is_other_tradition_first_ask,
         other_tradition_evidence_ids=other_tradition_evidence_ids,
+        other_tradition_seated=other_tradition_seated,
+        other_tradition_repeat_turn=other_tradition_repeat_turn,
     )
     if correction:
         turn_directive = (turn_directive or "") + correction

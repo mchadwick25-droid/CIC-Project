@@ -834,23 +834,48 @@ def _advance_open_round(
         guard_labels.append(labels[k])
         guard_labels.append(w.frame["representative"]["name"])
 
-    # OTHER-TRADITION PARITY WITH INTERVIEW (reviewer thread, 2026-09-23):
-    # this seat's own directive gets the R26/R37/R38 treatment on exactly
-    # the same condition engine.m4.turn.run_turn uses for interview -
-    # out_of_scope_class == "other_tradition" - never re-derived per turn
-    # within a round (out_of_scope_class, above, is the round's own opening
-    # classification, read back unchanged on every continue; see
-    # _continue_table_round_unlocked). The evidence lookup is #440's own
-    # fix, scoped to THIS SEAT'S world (not a single fixed world the way
-    # interview's one-voice session is): does this seat's own package
-    # already name the tradition asked about, from the participant's own
-    # raw text. The Table's own seat-to-seat clause (table_engagement,
-    # below) is a separate channel in _build_turn_directive and composes
-    # with this one - neither suppresses the other.
+    # OTHER-TRADITION PARITY WITH INTERVIEW (reviewer thread, 2026-09-23,
+    # round 1 fixes applied): this seat's own directive gets the R26/R37/
+    # R38 treatment on exactly the same condition engine.m4.turn.run_turn
+    # uses for interview - out_of_scope_class == "other_tradition" - never
+    # re-derived per turn within a round (out_of_scope_class, above, is
+    # the round's own opening classification, read back unchanged on
+    # every continue; see _continue_table_round_unlocked). The evidence
+    # lookup is #440's own fix, scoped to THIS SEAT'S world (not a single
+    # fixed world the way interview's one-voice session is): does this
+    # seat's own package already name the tradition asked about, from the
+    # participant's own raw text. The Table's own seat-to-seat clause
+    # (table_engagement, below) is a separate channel in
+    # _build_turn_directive and composes with this one - neither
+    # suppresses the other.
+    #
+    # FIX 1 (a seat drawn back in repeats the fixed sentence): turn_
+    # selector may draw the same seat back into the SAME round (is_
+    # second_pass, computed above) - interview never repeats a first-ask
+    # answer (its own second ask routes to etic_turn instead), so this
+    # seat's own SECOND OR LATER turn this round must drop the fixed
+    # honest-limit sentence while keeping R37's own knowledge-scope
+    # framing and any evidence ids - engine.m4.turn._other_tradition_
+    # directive's own repeat_turn parameter.
+    #
+    # FIX 2 (the named tradition is seated at this Table): match_named_
+    # tradition only ever excludes the SPEAKING seat, so a tradition
+    # seated ELSEWHERE at this same table can still match - the fixed
+    # sentence would then be false (that tradition's own Representative
+    # sits right there). tradition_seated suppresses the fixed sentence
+    # unconditionally; the evidence branch still applies if this seat's
+    # own records happen to name the seated tradition, and with no
+    # evidence the Table's own seat-to-seat clause already governs (R37
+    # (b) - a seat may know a seated tradition through what it has said
+    # at the Table) - _other_tradition_directive returns None in that
+    # last case, adding nothing beyond table_engagement.
     is_other_tradition_first_ask = out_of_scope_class == "other_tradition"
     other_tradition_evidence_ids = None
+    other_tradition_seated = False
+    other_tradition_repeat_turn = is_second_pass
     if is_other_tradition_first_ask:
         named_tradition_key = match_named_tradition(participant_text, registry, exclude_world_key=selection.world_key)
+        other_tradition_seated = named_tradition_key in state.world_keys if named_tradition_key else False
         other_tradition_evidence_ids = (
             world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
             if named_tradition_key else None
@@ -885,6 +910,8 @@ def _advance_open_round(
             guard_labels=guard_labels,
             is_other_tradition_first_ask=is_other_tradition_first_ask,
             other_tradition_evidence_ids=other_tradition_evidence_ids,
+            other_tradition_seated=other_tradition_seated,
+            other_tradition_repeat_turn=other_tradition_repeat_turn,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
             self_revision_enabled=self_revision_enabled,

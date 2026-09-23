@@ -4052,7 +4052,120 @@ handed ijc `ijc.quote.compelled-to-come-in` and `ijc.story.emperor-
 builds-another-basilica` (verified directly, same real ids #440's own
 fix uses) - and the voice cited both of them directly, answering from
 its own real record of the Catholic/Donatist basilica dispute rather
-than claiming outside knowledge of Donatism's own doctrine. Full
-transcripts, citations, and self_revision meta for both probes:
-`engine/m4/reports/table-other-tradition-battery-2026-09-23.json`
-(this PR).
+than claiming outside knowledge of Donatism's own doctrine.
+
+**Round-1 review fixes (reviewer thread, 2026-09-23, verdict on
+830f8548, FAIL round 1 of 3).** Three required changes, all in this
+same PR:
+
+**FIX 1 - a seat drawn back into the same round repeated the fixed
+sentence.** `turn_selector` can return the same seat twice within one
+open round (`is_second_pass = selection.world_key in state.round_
+speakers`, pre-existing in `table_wiring.py`, reused directly as the
+new `other_tradition_repeat_turn` signal). Interview never has this
+shape - one ask, one answer - so the gap was Table-only. `engine.m4.
+turn._other_tradition_directive` gained a `repeat_turn` branch: same
+R37 knowledge-scope framing ("answer only from what your own world's
+records actually hold about it... never speak as if you know that
+other tradition's own history or doctrine"), with the "if nothing, say
+exactly..." clause dropped - it was already said once this round.
+
+**FIX 2 - a named tradition seated at the same table still got "our
+record doesn't mention."** When the tradition asked about is itself
+SEATED at this table (`named_tradition_key in state.world_keys`,
+checked separately from `match_named_tradition`'s own `exclude_
+world_key`, which only ever excludes the speaking seat), the fixed
+sentence is false on its face - that tradition's own Representative is
+sitting right there. `_other_tradition_directive` gained a `tradition_
+seated` branch returning `None` outright (the evidence branch still
+applies unchanged if this seat's own records happen to name the
+tradition); with no evidence, the Table's own seat-to-seat engagement
+clause governs instead, exactly as R37(b) already provides.
+
+**RENAME** - the battery's own `step_ins` field measured whether the
+other-tradition directive fired, not a Facilitator step-in ("step-in"
+means a Facilitator takeover in this program - the voice never speaks,
+a Facilitator turn substitutes instead). Renamed to `directive_fired`
+throughout; added a real `facilitator_step_in` field (`voice is None`)
+and reported it separately and honestly, rather than conflating the
+two under one name.
+
+**Tests added** (`engine/api/tests/test_table_api.py`, a new `don_
+world` fixture plus three new tests, all passing against real compiled
+worlds): a seat drawn back into the same round gets the repeat-turn
+framing on its second turn, not the fixed sentence again (asserts the
+sentence appears on the first captured directive and not the second,
+and that the repeat-turn framing does); a seated tradition with no
+evidence suppresses the directive entirely (alx+don seated, alx asked
+- asserts neither "another Christian tradition" nor the fixed sentence
+appears); a seated tradition with real evidence still gets the records
+branch (ijc+don seated, ijc asked - asserts "your own records already
+speak to it" and the real `ijc.quote.compelled-to-come-in` id both
+appear, i.e. FIX 2's seated-check and the evidence branch compose
+correctly rather than one silently overriding the other). `engine/api/
+tests/test_table_api.py` in full: **32 passed** (verified against real
+compiled worlds via the same temporary local monkeypatch discipline as
+before - not committed, CI's own fresh compile makes it unnecessary
+there).
+
+**The battery's own measurement was wrong, and got caught rather than
+reported uncritically.** The first re-run after FIX 1/FIX 2 (renamed
+fields only, old detection logic) showed `directive_fired=True` on
+OT3 - which should be impossible, since OT3 exists specifically to
+prove FIX 2's suppression. The detection was `R26_HONEST_LIMIT_
+SENTENCE in text OR any citations present` - the citations half is a
+standing false positive on any ordinary in-world answer, which always
+cites its own records for reasons that have nothing to do with the
+other-tradition directive; OT3's alx answer has seven citations to its
+own `alx.*` records and never claims ignorance, so the heuristic fired
+on citations that were never evidence of the directive at all. Root-
+caused and fixed properly rather than patched: `_run_probe` now wraps
+`engine.m4.turn._other_tradition_directive` itself (call-through, no
+behavior change) and reads its real return value for the round's
+opening turn - the one function whose return value the seated/repeat-
+turn/evidence/default branches actually decide, not an inference from
+what the voice went on to say. The flawed run's numbers were never
+reported anywhere outside this session and are discarded, not
+reconciled - the same standing discipline this Decision-Log already
+follows for a discarded live run (Entry 66/#436).
+
+**Re-run under the fixed instrumentation - real numbers.** Three
+probes (OT1 unseated/no-evidence, OT2 unseated/has-evidence, OT3
+SEATED/no-evidence - don itself seated as the other chair). **Real
+cost: $0.5379, 27 calls. directive_fired: 2/3 (OT1, OT2). facilitator_
+step_in: 0/3 (every round reached a real voice turn - no Facilitator
+takeover on any probe). self_revision ran: 3/3, changed: 3/3.**
+
+OT1 (alx, unseated, no evidence): the captured directive text is
+exactly the fixed-sentence branch ("...say exactly: \"Our record
+doesn't mention that Christian tradition.\"..."); the voice opened
+with that sentence, then answered from its own real records (`alx.
+force.persecution`, `alx.quote.clement-rash-martyrdom`, and others) -
+$0.106, 9 calls.
+
+OT2 (ijc, unseated, has evidence): the captured directive text is
+exactly the evidence branch, citing `[[ijc.quote.compelled-to-come-
+in]]` and `[[ijc.story.emperor-builds-another-basilica]]` by id; the
+voice cited both directly, answering from its own real record of the
+Catholic/Donatist basilica dispute - $0.1736, 9 calls.
+
+OT3 (alx, SEATED - don is the other chair, no evidence): the captured
+directive text is `None` - FIX 2 suppressed it outright, exactly as
+designed. The transcript (Theon, alx's Representative, asked "what was
+your relationship with The Church of the Martyrs?" - don's own real
+registry `card_name`) never claims ignorance and never treats don as a
+tradition it has no knowledge of; it answers from its own real records
+under the ordinary citation contract (`alx.dw.one-church`, `alx.force.
+persecution`, `alx.term.ekklesia`, `alx.gravity.martyrdom-
+contemplative-tension`, `alx.quote.clement-rash-martyrdom`, `alx.
+story.plague-nursing`, `alx.story.gregory-formation` - twelve citation
+spans total): "We were not two churches - we were one. The martyrs
+were ours, and we were theirs... The martyrs were not a separate
+community we admired from outside. They were members of the one
+assembly, the ekklesia, and their blood was part of our formation."
+$0.2583, 9 calls. Full transcripts, citations, captured directive
+text, and self_revision meta for all three probes: `engine/m4/reports/
+table-other-tradition-battery-2026-09-23.json` (this PR, regenerated
+under the fixed instrumentation - the earlier committed version, from
+before the measurement bug was caught, is superseded, not kept
+alongside it).

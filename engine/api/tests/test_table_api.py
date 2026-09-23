@@ -126,6 +126,11 @@ def ijc_world(world_loader, registry):
     return _load_world(world_loader, registry, "ijc")
 
 
+@pytest.fixture
+def don_world(world_loader, registry):
+    return _load_world(world_loader, registry, "don")
+
+
 # --- creation ---
 
 
@@ -949,3 +954,94 @@ def test_seat_to_seat_engagement_clause_is_unchanged_by_the_other_tradition_dire
     directive_text = _other_tradition_directive_text(client, call_index=2)
     assert "You are being brought into a Table round, not answering alone" in directive_text
     assert "your own records already speak to it" in directive_text
+
+
+# --- round-1 review fixes (reviewer thread, 2026-09-23) ---
+
+
+def test_a_seat_drawn_back_in_the_same_round_does_not_repeat_the_fixed_sentence(
+    store, usage_store, world_loader, registry, alx_world, desert_world
+):
+    # turn_selector may draw a seat back into the same round (its own
+    # no-immediate-self-repeat rule only blocks the VERY NEXT pick, not
+    # a later one) - alx speaks turn 1, desert turn 2, alx turn 3. The
+    # fixed honest-limit sentence is true and said once; repeating it
+    # verbatim on the return turn is not what interview's own single-ask
+    # shape ever produces.
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    theon = alx_world.frame["representative"]["name"]
+    client = _table_client(
+        selector_script=[{"next": "desert", "reason": "r1"}, {"next": "alx", "reason": "r2"}],
+        stream_scripts=[
+            [alx_sentence], ["(revision, no change needed)"],
+            [desert_sentence], ["(revision, no change needed)"],
+            [alx_sentence], ["(revision, no change needed)"],
+        ],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    http.post(f"/api/session/{session_id}/message", json={"text": f"{theon}, what did you make of the Donatists?"}, headers=auth)
+    http.post(f"/api/session/{session_id}/continue", headers=auth)  # desert's turn
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()  # alx, again
+    assert result["voice"]["speaker"] == "alx"
+    first_turn_directive = _other_tradition_directive_text(client, call_index=0)
+    second_turn_directive = _other_tradition_directive_text(client, call_index=4)
+    assert R26_HONEST_LIMIT_SENTENCE in first_turn_directive
+    assert R26_HONEST_LIMIT_SENTENCE not in second_turn_directive
+    assert "Answer only from what your own world's records actually hold about it" in second_turn_directive
+
+
+def test_a_seated_tradition_with_no_evidence_suppresses_the_directive_entirely(
+    store, usage_store, world_loader, registry, alx_world, don_world
+):
+    # don is the OTHER seat at this table - the fixed sentence would be
+    # false (that tradition's own Representative sits right there), and
+    # alx's own records never mention Donatism, so there is no evidence
+    # branch either. The Table's own seat-to-seat clause governs; this
+    # function has nothing left to add.
+    alx_sentence, _ = grounded_sentence(alx_world)
+    theon = alx_world.frame["representative"]["name"]
+    don_card_name = registry["don"]["card_name"]
+    client = _table_client(
+        selector_script=[],
+        stream_scripts=[[alx_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "don"))
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{theon}, what was your relationship with {don_card_name}?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "alx"
+    directive_text = _other_tradition_directive_text(client)
+    assert "another Christian tradition" not in directive_text
+    assert R26_HONEST_LIMIT_SENTENCE not in directive_text
+
+
+def test_a_seated_tradition_with_evidence_still_gets_the_records_branch(
+    store, usage_store, world_loader, registry, ijc_world, don_world
+):
+    # don is seated AND ijc's own records genuinely mention it (#440's
+    # own fix) - the evidence branch still applies; being seated only
+    # ever suppresses the FIXED sentence, never the evidence branch.
+    ijc_sentence, _ = grounded_sentence(ijc_world)
+    john = ijc_world.frame["representative"]["name"]
+    don_card_name = registry["don"]["card_name"]
+    client = _table_client(
+        selector_script=[],
+        stream_scripts=[[ijc_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("ijc", "don"))
+    result = http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{john}, what was your relationship with {don_card_name}?"}, headers=auth,
+    ).json()
+    assert result["voice"]["speaker"] == "ijc"
+    directive_text = _other_tradition_directive_text(client)
+    assert "your own records already speak to it" in directive_text
+    assert "[[ijc.quote.compelled-to-come-in]]" in directive_text

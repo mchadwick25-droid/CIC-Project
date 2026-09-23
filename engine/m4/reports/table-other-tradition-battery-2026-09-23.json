@@ -1,161 +1,45 @@
 {
-  "asof": "2026-09-23T17:25:36.959227+00:00",
+  "asof": "2026-09-23T20:28:47.505063+00:00",
   "region": "us-east-1",
-  "total_dollars": 0.2275,
-  "total_calls": 18,
-  "step_ins": "2/2",
-  "self_revision_ran": "2/2",
-  "self_revision_changed": "2/2",
+  "total_dollars": 0.5379,
+  "total_calls": 27,
+  "directive_fired": "2/3",
+  "facilitator_step_in": "0/3",
+  "self_revision_ran": "3/3",
+  "self_revision_changed": "3/3",
   "probes": [
     {
-      "probe_id": "OT1-no-evidence",
+      "probe_id": "OT1-unseated-no-evidence",
       "world_key": "alx",
+      "other_seat_key": "desert",
       "routing_action": "voice_with_directive",
-      "out_of_scope_class": null,
       "routing_reason": "other_tradition, first ask - in-world answer",
       "voice_speaker": "alx",
-      "voice_text": "Our record doesn't mention that Christian tradition.\n\nWhat we do hold about martyrdom is double, and the tension runs through our whole formation ecology. The martyr's witness - death itself made formation's final act - stood at one pole. Our teacher Clement warned against seeking it rashly: 'Now we, too, say that those who have rushed on death... are not to be reckoned as martyrs'. Origen's father Leonides died under the beheading. Potamiaena we remembered by name, for generations. The witness unto death was real formation.\n\nBut at the other pole stood the long contemplative path - years in the school, the soul's patient ascent through knowledge toward vision of God. Gregory spent five years under Origen's teaching. Those two pictures of the fully formed life never quite resolved.\n\nAnd here is what our own wounds show. The persecutions came in waves. Many held fast. Many gave way - the lapsi, the lapsed - and when peace returned, the community fought bitterly over them.",
+      "voice_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is what martyrdom meant among us - and how it sat, sometimes uncomfortably, with the rest of our formation teaching. The martyrs were our witnesses - the word martys means witness first - and their blood sealed the faith they proclaimed. We remembered them by name: Leonides, Origen's own father, martyred under Severus. Potamiaena, the young woman who stood fast under torture. When the great plague came to the city, our people nursed the sick without running, and many caught the sickness from those they tended and died - Bishop Dionysius wrote that they died most joyfully, as if drawing their neighbors' pain onto themselves. Martyrdom was one picture of the fully formed life among us.\n\nBut we held another picture beside it, and the two pulled against each other. The school tradition taught the long path - years of patient study, the soul's slow transformation. Gregory, one of our students, spent five years with Origen, learning logic first, then the natural world, then ethics, and only then theology - and he said that under all of it something else was happening: love was being kindled in him for the Word. That path took time. And it sat uneasily with the martyr's sudden, total gift.\n\nOur record does not resolve the tension. Both were real. Both were honored. The witness sealed in blood, and the wisdom grown over time - we held them both, and we never made them fit neatly together.",
       "citations": [
         {
-          "sentence": "Our teacher Clement warned against seeking it rashly: 'Now we, too, say that those who have rushed on death... are not to be reckoned as martyrs'.",
+          "sentence": "The martyrs were our witnesses - the word martys means witness first - and their blood sealed the faith they proclaimed.",
           "record_ids": [
-            "alx.quote.clement-rash-martyrdom"
+            "alx.term.martys"
           ],
           "sources": [
             {
-              "record_id": "alx.quote.clement-rash-martyrdom",
-              "record_type": "quote",
-              "label": "Stromateis, IV.4 \u2014 Clement",
+              "record_id": "alx.term.martys",
+              "record_type": "term",
+              "label": "martys",
               "sources": [
                 {
                   "source_id": "alx.source.clement-stromateis",
                   "author": "Clement of Alexandria (c. 150-215 CE)",
                   "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
-                  "locus": "IV.4 (anf02 lines 37819-37827, matching the text field below)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "Origen's father Leonides died under the beheading.",
-          "record_ids": [
-            "alx.story.leonides-martyrdom"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.leonides-martyrdom",
-              "record_type": "story",
-              "label": "the remembered account of how the persecution entered Origen's boyhood house",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2 (the Origen-childhood chapters)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "Potamiaena we remembered by name, for generations.",
-          "record_ids": [
-            "alx.story.potamiaena"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.potamiaena",
-              "record_type": "story",
-              "label": "the tradition of Potamiaena, a young woman martyred at Alexandria, as the church remembered it",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.5 (npnf201 div iii.xi.v, from line 32928)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "The witness unto death was real formation.",
-          "record_ids": [
-            "alx.gravity.martyrdom-contemplative-tension"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.gravity.martyrdom-contemplative-tension",
-              "record_type": "gravity",
-              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
-              "sources": [
-                {
-                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
-                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
-                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "locus": "IV.4",
                   "rights_status": "public-domain"
                 },
                 {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the Decian-era letters",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "Gregory spent five years under Origen's teaching.",
-          "record_ids": [
-            "alx.story.gregory-formation"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.story.gregory-formation",
-              "record_type": "story",
-              "label": "the student Gregory's own account of how Origen taught him, told at his farewell",
-              "sources": [
-                {
-                  "source_id": "alx.source.gregory-address-to-origen",
-                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
-                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
-                  "locus": "VI-XVI (anf06 from line 2288)",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "Those two pictures of the fully formed life never quite resolved.",
-          "record_ids": [
-            "alx.gravity.martyrdom-contemplative-tension"
-          ],
-          "sources": [
-            {
-              "record_id": "alx.gravity.martyrdom-contemplative-tension",
-              "record_type": "gravity",
-              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
-              "sources": [
-                {
                   "source_id": "alx.source.eusebius-historia-ecclesiastica",
                   "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
                   "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.1-2, VI.39 (persecution narratives)",
-                  "rights_status": "public-domain"
-                },
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the Decian-era letters",
+                  "locus": "VI.1-5",
                   "rights_status": "public-domain"
                 }
               ]
@@ -163,7 +47,7 @@
           ]
         },
         {
-          "sentence": "The persecutions came in waves.",
+          "sentence": "We remembered them by name: Leonides, Origen's own father, martyred under Severus.",
           "record_ids": [
             "alx.force.persecution"
           ],
@@ -192,28 +76,195 @@
           ]
         },
         {
-          "sentence": "Many gave way - the lapsi, the lapsed - and when peace returned, the community fought bitterly over them.",
+          "sentence": "When the great plague came to the city, our people nursed the sick without running, and many caught the sickness from those they tended and died - Bishop Dionysius wrote that they died most joyfully, as if drawing their neighbors' pain onto themselves.",
           "record_ids": [
-            "alx.dw.church-failure"
+            "alx.story.plague-nursing"
           ],
           "sources": [
             {
-              "record_id": "alx.dw.church-failure",
-              "record_type": "doctrinal_witness",
-              "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds\u2026",
+              "record_id": "alx.story.plague-nursing",
+              "record_type": "story",
+              "label": "a true account from Bishop Dionysius's own letter, written while the plague still burned",
               "sources": [
-                {
-                  "source_id": "alx.source.dionysius-extant-fragments",
-                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
-                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
-                  "locus": "the lapsed letters",
-                  "rights_status": "public-domain"
-                },
                 {
                   "source_id": "alx.source.eusebius-historia-ecclesiastica",
                   "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
                   "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
-                  "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                  "locus": "VII.22 (npnf201 lines 41084-41127, reaching 'buried its dead with open hands' at line ~41112 (\u00a79) and the pagan contrast, 'deserted those who began to be sick, and fled from their dearest friends,' at lines ~41120-41122 (\u00a710))",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the plague letter",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "Martyrdom was one picture of the fully formed life among us.",
+          "record_ids": [
+            "alx.gravity.martyrdom-contemplative-tension"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.martyrdom-contemplative-tension",
+              "record_type": "gravity",
+              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the Decian-era letters",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "The school tradition taught the long path - years of patient study, the soul's slow transformation.",
+          "record_ids": [
+            "alx.gravity.learning-formation"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.learning-formation",
+              "record_type": "gravity",
+              "label": "Learning-Formation Integration",
+              "sources": [
+                {
+                  "source_id": "alx.source.gregory-address-to-origen",
+                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
+                  "locus": "VII-IX, XIII (\"theology\" in the manifestations list below is Argument XIII (\"The Method Which Origen Used in His Theological and Metaphysical Instructions,\" anf06 line 3661), outside the VII-IX range; VII=logic, VIII=physics/geometry/astronomy, IX=ethics)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "I-II",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "Gregory, one of our students, spent five years with Origen, learning logic first, then the natural world, then ethics, and only then theology - and he said that under all of it something else was happening: love was being kindled in him for the Word.",
+          "record_ids": [
+            "alx.story.gregory-formation"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.story.gregory-formation",
+              "record_type": "story",
+              "label": "the student Gregory's own account of how Origen taught him, told at his farewell",
+              "sources": [
+                {
+                  "source_id": "alx.source.gregory-address-to-origen",
+                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
+                  "locus": "VI-XVI (anf06 from line 2288)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "That path took time.",
+          "record_ids": [
+            "alx.gravity.learning-formation"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.learning-formation",
+              "record_type": "gravity",
+              "label": "Learning-Formation Integration",
+              "sources": [
+                {
+                  "source_id": "alx.source.gregory-address-to-origen",
+                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
+                  "locus": "VII-IX, XIII (\"theology\" in the manifestations list below is Argument XIII (\"The Method Which Origen Used in His Theological and Metaphysical Instructions,\" anf06 line 3661), outside the VII-IX range; VII=logic, VIII=physics/geometry/astronomy, IX=ethics)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "I-II",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "And it sat uneasily with the martyr's sudden, total gift.",
+          "record_ids": [
+            "alx.gravity.martyrdom-contemplative-tension"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.martyrdom-contemplative-tension",
+              "record_type": "gravity",
+              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the Decian-era letters",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "The witness sealed in blood, and the wisdom grown over time - we held them both, and we never made them fit neatly together.",
+          "record_ids": [
+            "alx.gravity.martyrdom-contemplative-tension"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.martyrdom-contemplative-tension",
+              "record_type": "gravity",
+              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the Decian-era letters",
                   "rights_status": "public-domain"
                 }
               ]
@@ -221,44 +272,46 @@
           ]
         }
       ],
-      "stepped_in": true,
+      "directive_fired": true,
+      "opening_turn_directive_text": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite.",
+      "facilitator_step_in": false,
       "self_revision": {
         "ran": true,
         "changed": true,
-        "draft_length": 1560,
-        "revised_length": 1260,
+        "draft_length": 2081,
+        "revised_length": 1828,
         "fallback_reason": null,
-        "latency_seconds": 4.165
+        "latency_seconds": 4.829
       },
       "calls_made": 9,
-      "dollars": 0.1024,
+      "dollars": 0.106,
       "message": "Theon, what was your relationship with The Church of the Martyrs?"
     },
     {
-      "probe_id": "OT2-has-evidence",
+      "probe_id": "OT2-unseated-has-evidence",
       "world_key": "ijc",
+      "other_seat_key": "desert",
       "routing_action": "voice_with_directive",
-      "out_of_scope_class": null,
       "routing_reason": "other_tradition, first ask - in-world answer",
       "voice_speaker": "ijc",
-      "voice_text": "We entered that world through the back of a question they had already answered, badly, once. When Constantine first came into Africa's church quarrel - the split between Catholics and Donatists over whether those who had handed over scriptures under persecution could be bishops afterward - he called councils. They ruled for the Catholics. It settled nothing. The Donatists still held basilicas the Catholics said were theirs, including one Constantine himself had built for Catholic use. He did not send soldiers. He left the Donatists where they were and paid for another church to be built - again at his own expense. That restraint, honestly told, is part of our own inheritance. But it did not last past his lifetime.\n\nBy our own era's middle years Augustine was writing from that same African ground to an imperial tribune named Boniface. The question was whether force could rightly be used to bring people into the church - and Augustine's answer, drawing on the parable, was yes: \"Wherefore, if the power which the Church has received by divine appointment in its due season, through the religious character and the faith of kings, be the instrument by which those who are found in the highways and hedges - that is, in heresies and schisms - are compelled to come in, then let them not find fault with being compelled\". That is our own side's voice arguing for coercion, from our own record, not their complaint against us. The Church of the Martyrs - if by that name you mean the Donatists - never surrendered the claim that drove the split in the first place: that a church defiled by those who handed over the scriptures under persecution had no authority to ordain or bind. We called that teaching haeresis - a judgment that placed it outside what the church would recognize, and more and more outside the law itself.\n\nThe honest answer is this. We inherited one emperor's restraint and built a different tool. That other tradition's own voice does not survive in our hands to answer for itself. What does survive is our own willingness to use force, stated plainly, by one of our own most honored teachers.",
+      "voice_text": "We were their heirs, their judges, and sometimes their weapons.\n\nThe martyrs were our own dead - those who had kept faith under persecution and paid for it with their lives. By the time our world begins, the age of persecution had ended. What remained were graves we honored. Damasus built pilgrim roads of verse to make his see's apostolic memory visible. The martyr shrines were not decoration. They spoke for the see's own standing.\n\nBut we also used martyrs' memory as a tool. When the imperial establishment under Constantius and Valens confessed the Son as like the Father - homoios - and exiled bishops who would not, both sides claimed the martyrs had died for their own confession, not the other's. Ancient custom was our strongest currency, and each side said the martyrs' blood had bought what they themselves now held. Heresy - haeresis - was the word we used for teachings we judged outside the church. Once that judgment fell, the machinery of the state could follow. The alliance between church and throne made heresy a legal question, not only a doctrinal one.\n\nWe did not make the martyrs. We inherited them. What we made was the contest over whose faith they had actually died for, and whose teaching could rightly call itself theirs.",
       "citations": [
         {
-          "sentence": "We entered that world through the back of a question they had already answered, badly, once.",
+          "sentence": "The martyrs were our own dead - those who had kept faith under persecution and paid for it with their lives.",
           "record_ids": [
-            "ijc.story.emperor-builds-another-basilica"
+            "ijc.term.martyrium"
           ],
           "sources": [
             {
-              "record_id": "ijc.story.emperor-builds-another-basilica",
-              "record_type": "story",
-              "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+              "record_id": "ijc.term.martyrium",
+              "record_type": "term",
+              "label": "martyrium",
               "sources": [
                 {
-                  "source_id": "ijc.source.optatus-imperial-dossier",
-                  "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
-                  "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
-                  "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                  "source_id": "ijc.source.jerome-de-viris",
+                  "author": "Jerome (c. 347-420), sometime secretary to Damasus",
+                  "work": "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world",
+                  "locus": "ch. 103 (the verse program's contemporary witness)",
                   "rights_status": "public-domain"
                 }
               ]
@@ -266,21 +319,21 @@
           ]
         },
         {
-          "sentence": "When Constantine first came into Africa's church quarrel - the split between Catholics and Donatists over whether those who had handed over scriptures under persecution could be bishops afterward - he called councils.",
+          "sentence": "By the time our world begins, the age of persecution had ended.",
           "record_ids": [
-            "ijc.story.emperor-builds-another-basilica"
+            "ijc.limit.earlier-windows"
           ],
           "sources": [
             {
-              "record_id": "ijc.story.emperor-builds-another-basilica",
-              "record_type": "story",
-              "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+              "record_id": "ijc.limit.earlier-windows",
+              "record_type": "honest_limit",
+              "label": "You ask about testimony forced out of tortured slaves, and about believers who ran toward\u2026",
               "sources": [
                 {
-                  "source_id": "ijc.source.optatus-imperial-dossier",
-                  "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
-                  "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
-                  "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                  "source_id": "ijc.source.socrates-he",
+                  "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                  "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                  "locus": "IV.29 (where this world's own hard evidence actually lives)",
                   "rights_status": "public-domain"
                 }
               ]
@@ -288,21 +341,42 @@
           ]
         },
         {
-          "sentence": "They ruled for the Catholics.",
+          "sentence": "Damasus built pilgrim roads of verse to make his see's apostolic memory visible.",
           "record_ids": [
-            "ijc.story.emperor-builds-another-basilica"
+            "ijc.dw.ancient-custom"
           ],
           "sources": [
             {
-              "record_id": "ijc.story.emperor-builds-another-basilica",
-              "record_type": "story",
-              "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+              "record_id": "ijc.dw.ancient-custom",
+              "record_type": "doctrinal_witness",
+              "label": "How did we know our practices went back to the apostles? We asked that exact question abo\u2026",
               "sources": [
                 {
-                  "source_id": "ijc.source.optatus-imperial-dossier",
-                  "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
-                  "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
-                  "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                  "source_id": "ijc.source.canons-nicaea",
+                  "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                  "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                  "locus": "Canon 6 (\"let the ancient customs prevail\")",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+                  "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
+                  "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
+                  "locus": "Apol. c. Ar. 35 (Julius's appeal to custom)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.augustine-confessions",
+                  "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                  "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                  "locus": "IX.7 (a practice's beginning honestly dated)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.hilary-de-synodis",
+                  "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                  "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                  "locus": "the volume's own introduction to Hilary (npnf209:3707-3741), on his fame as the earliest Latin hymn writer and the introduction's own judgment that he never succeeded in bringing hymns into public worship, an honor it credits to Ambrose",
                   "rights_status": "public-domain"
                 }
               ]
@@ -310,21 +384,21 @@
           ]
         },
         {
-          "sentence": "It settled nothing.",
+          "sentence": "They spoke for the see's own standing.",
           "record_ids": [
-            "ijc.story.emperor-builds-another-basilica"
+            "ijc.term.martyrium"
           ],
           "sources": [
             {
-              "record_id": "ijc.story.emperor-builds-another-basilica",
-              "record_type": "story",
-              "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+              "record_id": "ijc.term.martyrium",
+              "record_type": "term",
+              "label": "martyrium",
               "sources": [
                 {
-                  "source_id": "ijc.source.optatus-imperial-dossier",
-                  "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
-                  "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
-                  "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                  "source_id": "ijc.source.jerome-de-viris",
+                  "author": "Jerome (c. 347-420), sometime secretary to Damasus",
+                  "work": "De Viris Illustribus (Lives of Illustrious Men, 392/393) - used narrowly for its notices of this world's own figures, above all ch. 103 on Damasus (his verse epigrams) - NARROWLY LICENSED: Jerome's wider corpus belongs to the Hieronymian world",
+                  "locus": "ch. 103 (the verse program's contemporary witness)",
                   "rights_status": "public-domain"
                 }
               ]
@@ -332,21 +406,64 @@
           ]
         },
         {
-          "sentence": "The Donatists still held basilicas the Catholics said were theirs, including one Constantine himself had built for Catholic use.",
+          "sentence": "When the imperial establishment under Constantius and Valens confessed the Son as like the Father - homoios - and exiled bishops who would not, both sides claimed the martyrs had died for their own confession, not the other's.",
           "record_ids": [
-            "ijc.story.emperor-builds-another-basilica"
+            "ijc.force.imperial-policy-oscillation",
+            "ijc.term.homoios"
           ],
           "sources": [
             {
-              "record_id": "ijc.story.emperor-builds-another-basilica",
-              "record_type": "story",
-              "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+              "record_id": "ijc.force.imperial-policy-oscillation",
+              "record_type": "force",
+              "label": "Imperial Religious Policy Oscillation",
               "sources": [
                 {
-                  "source_id": "ijc.source.optatus-imperial-dossier",
-                  "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
-                  "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
-                  "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                  "source_id": "ijc.source.socrates-he",
+                  "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                  "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                  "locus": "II (Constantius II's councils); IV (Valens)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.sozomen-he",
+                  "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                  "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                  "locus": "VII.4 (the Theodosian reversal)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.hilary-de-synodis",
+                  "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                  "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                  "locus": "the formulae of the enforced confessions",
+                  "rights_status": "public-domain"
+                }
+              ]
+            },
+            {
+              "record_id": "ijc.term.homoios",
+              "record_type": "term",
+              "label": "homoios",
+              "sources": [
+                {
+                  "source_id": "ijc.source.hilary-de-synodis",
+                  "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                  "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                  "locus": "the quoted creed formulae (\"like the Father\", from npnf209 line 8067)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.auxentius-letter-ulfila",
+                  "author": "Auxentius of Durostorum (later, on the dominant scholarly identification, the Homoian bishop of Milan confronted by Ambrose in 386 under his predecessor's own name - see ijc.figure.ambrose), foster-son and pupil of Ulfila",
+                  "work": "Letter on the life and faith of Ulfila - the one substantial piece of near-primary Homoian SELF-testimony available to this world's registry; preserved fragmentarily within the Dissertatio Maximini contra Ambrosium (Maximinus, a Homoian bishop writing against Ambrose), as marginal scholia later partly erased, in a single manuscript (Paris lat. 8907), recovered by modern paleographic work",
+                  "locus": "the fragment (referenced-only; no quotation licensed)",
+                  "rights_status": "referenced-only; no vendorable public-domain English edition (fails closed for quotation)"
+                },
+                {
+                  "source_id": "ijc.source.socrates-he",
+                  "author": "Socrates Scholasticus (c. 380-after 439), Constantinopolitan lay lawyer",
+                  "work": "Historia Ecclesiastica (covering 305-439) - the world's principal continuous narrative for the Homoian-establishment decades (Constantius II, Valens) and for Rome's contested episcopal election of 366",
+                  "locus": "II (the councils of Ariminum and Seleucia; the Constantinople creed of 360)",
                   "rights_status": "public-domain"
                 }
               ]
@@ -354,21 +471,42 @@
           ]
         },
         {
-          "sentence": "He left the Donatists where they were and paid for another church to be built - again at his own expense.",
+          "sentence": "Ancient custom was our strongest currency, and each side said the martyrs' blood had bought what they themselves now held.",
           "record_ids": [
-            "ijc.story.emperor-builds-another-basilica"
+            "ijc.dw.ancient-custom"
           ],
           "sources": [
             {
-              "record_id": "ijc.story.emperor-builds-another-basilica",
-              "record_type": "story",
-              "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+              "record_id": "ijc.dw.ancient-custom",
+              "record_type": "doctrinal_witness",
+              "label": "How did we know our practices went back to the apostles? We asked that exact question abo\u2026",
               "sources": [
                 {
-                  "source_id": "ijc.source.optatus-imperial-dossier",
-                  "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
-                  "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)",
-                  "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                  "source_id": "ijc.source.canons-nicaea",
+                  "author": "The Council of Nicaea (325) - 318 bishops by tradition, convened by Constantine",
+                  "work": "The Creed and Canons of the First Ecumenical Council (esp. the Creed with its anathemas; Canon 6 on the ancient customary jurisdictions of Alexandria, Rome, and Antioch)",
+                  "locus": "Canon 6 (\"let the ancient customs prevail\")",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.athanasius-apologia-contra-arianos",
+                  "author": "Julius I, bishop of Rome (337-352), quoted by Athanasius of Alexandria",
+                  "work": "Letter of Julius to the Eusebian party (the anti-Nicene faction named for Eusebius of Nicomedia, not Eusebius of Caesarea the historian) at Antioch (341), preserved only through Athanasius's quotation of it in Apologia contra Arianos 21-35 - NARROWLY LICENSED: this record licenses the Julius letter alone, not the surrounding Athanasian corpus",
+                  "locus": "Apol. c. Ar. 35 (Julius's appeal to custom)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.augustine-confessions",
+                  "author": "Augustine of Hippo (354-430), then a young professor of rhetoric at Milan",
+                  "work": "Confessions, Book 9 ch. 7 ONLY - eyewitness testimony to the 386 basilica crisis: the congregation's vigil, the introduction of hymn-singing after the manner of the East, and the finding of Gervasius and Protasius - NARROWLY LICENSED: Augustine's corpus generally belongs to the Latin pastoral world",
+                  "locus": "IX.7 (a practice's beginning honestly dated)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.hilary-de-synodis",
+                  "author": "Hilary of Poitiers (c. 310-367), Western pro-Nicene bishop, exiled to Phrygia under Constantius II",
+                  "work": "De Synodis (On the Councils, 358/359) - a contemporary Western bishop's own quotation and assessment of the Eastern creed formulae of the Homoian-establishment years, including the Sirmium formulations; written to explain the Eastern councils to the bishops of Gaul; also the volume's own general introduction/Prolegomena on Hilary's biography, his fame as the earliest Latin hymn writer, and its own judgment that he never succeeded in bringing hymns into public worship - added at a follow-up confirmation review (2026-08-22) to inform ijc.dw.ancient-custom's treatment of Augustine's 386 hymn-singing witness",
+                  "locus": "the volume's own introduction to Hilary (npnf209:3707-3741), on his fame as the earliest Latin hymn writer and the introduction's own judgment that he never succeeded in bringing hymns into public worship, an honor it credits to Ambrose",
                   "rights_status": "public-domain"
                 }
               ]
@@ -376,29 +514,7 @@
           ]
         },
         {
-          "sentence": "The question was whether force could rightly be used to bring people into the church - and Augustine's answer, drawing on the parable, was yes: \"Wherefore, if the power which the Church has received by divine appointment in its due season, through the religious character and the faith of kings, be the instrument by which those who are found in the highways and hedges - that is, in heresies and schisms - are compelled to come in, then let them not find fault with being compelled\".",
-          "record_ids": [
-            "ijc.quote.compelled-to-come-in"
-          ],
-          "sources": [
-            {
-              "record_id": "ijc.quote.compelled-to-come-in",
-              "record_type": "quote",
-              "label": "The Correction of the Donatists, chs. 6-7 \u2014 Augustine of Hippo, writing to the imperial tribune Boniface c. 417",
-              "sources": [
-                {
-                  "source_id": "ijc.source.augustine-correction-donatists",
-                  "author": "Augustine of Hippo (354-430), bishop of Hippo Regius, writing to the imperial tribune Boniface",
-                  "work": "The Correction of the Donatists (De Correctione Donatistarum, Letter 185), c. 417 - the sustained defence of using imperial law to compel schismatics into communion, including Augustine's own account of having previously held the opposite view",
-                  "locus": "chs. 6-7 (npnf104, line 19617); the concession at line 19704",
-                  "rights_status": "public-domain"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "sentence": "We called that teaching haeresis - a judgment that placed it outside what the church would recognize, and more and more outside the law itself.",
+          "sentence": "Heresy - haeresis - was the word we used for teachings we judged outside the church.",
           "record_ids": [
             "ijc.term.haeresis"
           ],
@@ -425,20 +541,414 @@
               ]
             }
           ]
+        },
+        {
+          "sentence": "The alliance between church and throne made heresy a legal question, not only a doctrinal one.",
+          "record_ids": [
+            "ijc.gravity.church-state-alliance"
+          ],
+          "sources": [
+            {
+              "record_id": "ijc.gravity.church-state-alliance",
+              "record_type": "gravity",
+              "label": "Church-State Alliance and Its Limits",
+              "sources": [
+                {
+                  "source_id": "ijc.source.lactantius-de-mortibus",
+                  "author": "Lactantius (c. 250-325 CE), tutor at Constantine's own court",
+                  "work": "De Mortibus Persecutorum (Of the Manner in Which the Persecutors Died) - esp. ch. 44 (the dream before the Milvian Bridge) and ch. 48 (the text of the Milan agreement of 313)",
+                  "locus": "48 (the Milan agreement's text)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.eusebius-vita-constantini",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE)",
+                  "work": "Vita Constantini (The Life of Constantine), with the Oration of Constantine appended in this edition",
+                  "locus": "I.28-32; IV.24",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "ijc.source.sozomen-he",
+                  "author": "Sozomen (c. 400-c. 450), lawyer of Constantinople with monastic sympathies",
+                  "work": "Historia Ecclesiastica (covering c. 324-425) - overlapping Socrates with independent material; the fullest narrative witness to the Edict of Thessalonica's content and enforcement (VII.4)",
+                  "locus": "VII.4 (the Thessalonica law)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
         }
       ],
-      "stepped_in": true,
+      "directive_fired": true,
+      "opening_turn_directive_text": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[ijc.quote.compelled-to-come-in]], [[ijc.story.emperor-builds-another-basilica]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation.",
+      "facilitator_step_in": false,
       "self_revision": {
         "ran": true,
         "changed": true,
-        "draft_length": 2490,
-        "revised_length": 2455,
+        "draft_length": 1576,
+        "revised_length": 1503,
         "fallback_reason": null,
-        "latency_seconds": 5.602
+        "latency_seconds": 4.125
       },
       "calls_made": 9,
-      "dollars": 0.1251,
+      "dollars": 0.1736,
       "message": "Marius, what was your relationship with The Church of the Martyrs?"
+    },
+    {
+      "probe_id": "OT3-seated-no-evidence",
+      "world_key": "alx",
+      "other_seat_key": "don",
+      "routing_action": "voice_with_directive",
+      "routing_reason": "other_tradition, first ask - in-world answer",
+      "voice_speaker": "alx",
+      "voice_text": "We were not two churches - we were one. The martyrs were ours, and we were theirs. When the boy Origen's father Leonides was beheaded under Severus, the church did not stand aside and watch. It kept the memory, raised the widow's children, and made the son a teacher. When the young woman Potamiaena died under boiling pitch, her courage entered our tradition as witness - told and retold, because what she had done mattered to us. The martyrs were not a separate community we admired from outside. They were members of the one assembly, the ekklesia, and their blood was part of our formation.\n\nBut there was a tension inside that unity, and our record does not hide it. Some among us saw the martyr's death as the highest act of formation - the soul proved and perfected in one moment of refusal. Others saw formation as a long ascent: years of reading, praying, being shaped by a teacher. Clement himself warned against those who rush toward death - people who give themselves up, he said, dying out of hatred for the Creator, throwing themselves onto a pointless death. He said these people banish themselves from true martyrdom even though they suffer publicly.\n\nThe church held both. When the great plague came to Alexandria, our people did not run. They stayed, nursed the sick, caught the sickness themselves, and died of it - not in an arena, but in sickrooms, doing the same work the martyrs' courage had shown. That was martyrdom's fruit in ordinary streets: love that did not count the cost. And at the same time, in the years between persecutions, our teachers kept teaching - forming souls slowly, through Scripture and argument and the long discipline of a student under a master. The student Gregory, looking back on five years under Origen, said it was like being in paradise.\n\nSo our relationship with the martyrs' church was this: we were it. We kept their names. We sang their courage. Some of us went to the prisons to encourage those about to die. And we also believed that what the martyrs had done in an hour, others were called to grow toward across a lifetime. Both were real formation. Both were ours. The tension between them was never resolved, and we did not try to resolve it.",
+      "citations": [
+        {
+          "sentence": "We were not two churches - we were one.",
+          "record_ids": [
+            "alx.dw.one-church"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.dw.one-church",
+              "record_type": "doctrinal_witness",
+              "label": "Was your church 'Catholic'? Is there a church today that is yours? In our own time we cal\u2026",
+              "sources": [
+                {
+                  "source_id": "alx.source.athanasius-festal-letters",
+                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                  "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here.",
+                  "locus": "the communion-of-churches frame",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the letters to other sees",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "II.3-8 (for \"Gnostic schools\": Clement names and answers \"the followers of Basilides\" and \"the followers of Valentinus\" by name repeatedly through these chapters, e.g. anf02 lines 32104-32722)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "When the boy Origen's father Leonides was beheaded under Severus, the church did not stand aside and watch.",
+          "record_ids": [
+            "alx.force.persecution"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.force.persecution",
+              "record_type": "force",
+              "label": "Episodic Persecution, c. 165-311",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39-42",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the persecution letters",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "They were members of the one assembly, the ekklesia, and their blood was part of our formation.",
+          "record_ids": [
+            "alx.term.ekklesia"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.term.ekklesia",
+              "record_type": "term",
+              "label": "ekklesia",
+              "sources": [
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "VII.5 (the Church as \"the assemblage of the elect\" made holy \"through knowledge\")",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.athanasius-festal-letters",
+                  "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                  "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here.",
+                  "locus": "(annual formation calendar)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "But there was a tension inside that unity, and our record does not hide it.",
+          "record_ids": [
+            "alx.gravity.martyrdom-contemplative-tension"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.martyrdom-contemplative-tension",
+              "record_type": "gravity",
+              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the Decian-era letters",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "Others saw formation as a long ascent: years of reading, praying, being shaped by a teacher.",
+          "record_ids": [
+            "alx.gravity.martyrdom-contemplative-tension"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.martyrdom-contemplative-tension",
+              "record_type": "gravity",
+              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the Decian-era letters",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "Clement himself warned against those who rush toward death - people who give themselves up, he said, dying out of hatred for the Creator, throwing themselves onto a pointless death.",
+          "record_ids": [
+            "alx.quote.clement-rash-martyrdom"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.quote.clement-rash-martyrdom",
+              "record_type": "quote",
+              "label": "Stromateis, IV.4 \u2014 Clement",
+              "sources": [
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "IV.4 (anf02 lines 37819-37827, matching the text field below)",
+                  "rights_status": "public-domain"
+                }
+              ],
+              "original_wording": "Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred to the Creator )\u2014these, we say, banish themselves without being martyrs, even though they are punished publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they have not known the only true God, but give themselves up to a vain death, as the Gymnosophists of the Indians to useless fire.",
+              "spoken_rendering": "Now we too say this about those who rush toward death. There are some, not truly one of us but bearing the name only, who are eager to give themselves up, poor wretches, dying out of hatred for the Creator. These people, we say, banish themselves from true martyrdom even though they suffer publicly for it. They do not carry the mark of a believing martyr's death, because they have not known the one true God. They give themselves up to a pointless death, like the naked sages of the Indians, who throw themselves onto a useless fire."
+            }
+          ]
+        },
+        {
+          "sentence": "He said these people banish themselves from true martyrdom even though they suffer publicly.",
+          "record_ids": [
+            "alx.quote.clement-rash-martyrdom"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.quote.clement-rash-martyrdom",
+              "record_type": "quote",
+              "label": "Stromateis, IV.4 \u2014 Clement",
+              "sources": [
+                {
+                  "source_id": "alx.source.clement-stromateis",
+                  "author": "Clement of Alexandria (c. 150-215 CE)",
+                  "work": "Stromateis (Miscellanies), Books I-II and IV-VIII in English; Book III present in Latin only",
+                  "locus": "IV.4 (anf02 lines 37819-37827, matching the text field below)",
+                  "rights_status": "public-domain"
+                }
+              ],
+              "original_wording": "Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred to the Creator )\u2014these, we say, banish themselves without being martyrs, even though they are punished publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they have not known the only true God, but give themselves up to a vain death, as the Gymnosophists of the Indians to useless fire.",
+              "spoken_rendering": "Now we too say this about those who rush toward death. There are some, not truly one of us but bearing the name only, who are eager to give themselves up, poor wretches, dying out of hatred for the Creator. These people, we say, banish themselves from true martyrdom even though they suffer publicly for it. They do not carry the mark of a believing martyr's death, because they have not known the one true God. They give themselves up to a pointless death, like the naked sages of the Indians, who throw themselves onto a useless fire."
+            }
+          ]
+        },
+        {
+          "sentence": "When the great plague came to Alexandria, our people did not run.",
+          "record_ids": [
+            "alx.story.plague-nursing"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.story.plague-nursing",
+              "record_type": "story",
+              "label": "a true account from Bishop Dionysius's own letter, written while the plague still burned",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VII.22 (npnf201 lines 41084-41127, reaching 'buried its dead with open hands' at line ~41112 (\u00a79) and the pagan contrast, 'deserted those who began to be sick, and fled from their dearest friends,' at lines ~41120-41122 (\u00a710))",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the plague letter",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "They stayed, nursed the sick, caught the sickness themselves, and died of it - not in an arena, but in sickrooms, doing the same work the martyrs' courage had shown.",
+          "record_ids": [
+            "alx.story.plague-nursing"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.story.plague-nursing",
+              "record_type": "story",
+              "label": "a true account from Bishop Dionysius's own letter, written while the plague still burned",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VII.22 (npnf201 lines 41084-41127, reaching 'buried its dead with open hands' at line ~41112 (\u00a79) and the pagan contrast, 'deserted those who began to be sick, and fled from their dearest friends,' at lines ~41120-41122 (\u00a710))",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the plague letter",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "And at the same time, in the years between persecutions, our teachers kept teaching - forming souls slowly, through Scripture and argument and the long discipline of a student under a master.",
+          "record_ids": [
+            "alx.story.gregory-formation"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.story.gregory-formation",
+              "record_type": "story",
+              "label": "the student Gregory's own account of how Origen taught him, told at his farewell",
+              "sources": [
+                {
+                  "source_id": "alx.source.gregory-address-to-origen",
+                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
+                  "locus": "VI-XVI (anf06 from line 2288)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "The student Gregory, looking back on five years under Origen, said it was like being in paradise.",
+          "record_ids": [
+            "alx.story.gregory-formation"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.story.gregory-formation",
+              "record_type": "story",
+              "label": "the student Gregory's own account of how Origen taught him, told at his farewell",
+              "sources": [
+                {
+                  "source_id": "alx.source.gregory-address-to-origen",
+                  "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                  "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship",
+                  "locus": "VI-XVI (anf06 from line 2288)",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentence": "The tension between them was never resolved, and we did not try to resolve it.",
+          "record_ids": [
+            "alx.gravity.martyrdom-contemplative-tension"
+          ],
+          "sources": [
+            {
+              "record_id": "alx.gravity.martyrdom-contemplative-tension",
+              "record_type": "gravity",
+              "label": "Martyrdom-as-Formation vs Contemplative-Ascent-as-Formation",
+              "sources": [
+                {
+                  "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                  "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                  "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents",
+                  "locus": "VI.1-2, VI.39 (persecution narratives)",
+                  "rights_status": "public-domain"
+                },
+                {
+                  "source_id": "alx.source.dionysius-extant-fragments",
+                  "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                  "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')",
+                  "locus": "the Decian-era letters",
+                  "rights_status": "public-domain"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "directive_fired": false,
+      "opening_turn_directive_text": null,
+      "facilitator_step_in": false,
+      "self_revision": {
+        "ran": true,
+        "changed": true,
+        "draft_length": 2638,
+        "revised_length": 2653,
+        "fallback_reason": null,
+        "latency_seconds": 6.539
+      },
+      "calls_made": 9,
+      "dollars": 0.2583,
+      "message": "Theon, what was your relationship with The Church of the Martyrs?"
     }
   ]
 }
