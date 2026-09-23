@@ -20,6 +20,11 @@ sources:
 text: 'After the reading of the foregoing epistle, the most reverend bishops cried out: This is the
   faith of the fathers, this is the faith of the Apostles. So we all believe, thus the orthodox believe.
   Anathema to him who does not thus believe. Peter has spoken thus through Leo.'
+modern_rendering: >-
+  After the reading of the letter mentioned above, the most reverend bishops cried out:
+  'This is the faith of the fathers, this is the faith of the Apostles. So we all believe;
+  this is what the orthodox believe. Let him be cursed and cut off who does not believe
+  this. Peter has spoken in this way through Leo.'
 speaker_or_author: "The bishops at Chalcedon, Session II (451), as the session record reports their acclamation"
 license: verbatim
 modern_lens_note: >-

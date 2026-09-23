@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   For what learning has he acquired about the pages of the New and Old Testament, who has not even grasped the rudiments of the Creed? And that which, throughout the world, is professed by the mouth of every one who is to be born again , is not yet taken in by the heart of this old man.
+modern_rendering: >-
+  This man has not even grasped the basics of the Creed. So what has he learned about the
+  pages of the New and Old Testament? That which, throughout the world, is spoken by the
+  mouth of everyone who is about to be born again is not yet taken into the heart of this
+  old man.
 speaker_or_author: Leo of Rome, Letter XXVIII (the Tome), sec. 1
 license: verbatim
 modern_lens_note: >-

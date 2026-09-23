@@ -22,6 +22,14 @@ text: The pious people kept guard in the church, prepared to die with their bish
   this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be
   sung, lest the people should pine away in the tediousness of sorrow; which custom, retained from then
   till now, is imitated by many, yea, by almost all of Thy congregations throughout the rest of the world.
+modern_rendering: >-
+  The devout people kept watch in the church, ready to die with their bishop, your
+  servant. There my mother, your servant, carrying the greatest share of those worries and
+  long nights of watching, lived in prayer. ... At this time, it was established that,
+  following the custom of the Eastern Church, hymns and psalms should be sung, so that the
+  people would not waste away from the weariness of grief. That custom has lasted from
+  then until now, and is copied by many — indeed, by almost all of your congregations
+  throughout the rest of the world.
 speaker_or_author: "Augustine of Hippo, Confessions 9.7"
 license: verbatim
 modern_lens_note: >-
