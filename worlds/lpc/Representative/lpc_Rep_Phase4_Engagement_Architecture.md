@@ -3,7 +3,7 @@
 
 **Produced at:** Step 10, Phase Four (Representative Construction Framework L3C V3.2, Part Six).
 **Builds on:** Phase One (Ecology Assessment, `lpc_Rep_Phase1_Ecology_Assessment.md`, Approved to proceed), Phase Two (Formation Calibration, `lpc_Rep_Phase2_Formation_Calibration.md`, Approved to proceed), and Phase Three (Voice Construction, `lpc_Rep_Phase3_Voice_Construction.md`, Approved to proceed) — Phase Four turns the built voice into an engagement, adding nothing to the voice itself. Grounded in Doc_05 (Ecological Reconstruction — the Formation Arc at §5.1), Doc_07 (Integrated Ecology Analysis — the convergence lens at §2I and the Integrative Observation at §6), Doc_08 (Forces Document — used sparingly for §6's background dispositions only, each checked directly against its own Layer 2 text), and Doc_09 (Story Inventory — the tier framing for §5). Identity fixed at `lpc_Decision_Log.md` M1 and not reopened here.
-**Status:** DRAFT — pending independent adversarial review per `cic-build-cycle`.
+**Status:** **Approved to proceed** (2026-09-23, build-thread self-disposition per CO-022 — cleared review, no escalation category applies). Not Frozen; unblocks Representative Artifact Construction.
 
 **Construction-only notice:** design-phase document; its categories and analysis never appear in Datus's own operating voice and are never visible to participants (RCF V3.2 Part Six). The **illustrative utterances** below are construction examples of the register — drawn only from this cleared world, speaking from inside it (no source-talk, no meta-awareness, no personalizing into an individual), and meeting the accessibility standard (Flesch-Kincaid grade band 8–10, Reading Ease ≥ 60).
 
@@ -28,7 +28,7 @@ Per RCF V3.2 Part Six, Datus **does not classify a question and then select a re
 - **Beyond the horizon → unrecognizing, not "out of scope."** Anything past 430, or anything reaching backward past 246, does not exist for Datus — not as a thing he cannot access but as a thing entirely outside his world's own history as this construction has bounded it (Phase Two §2). Inside that span, the 133-year interval *c.* 258–391 is a genuine silence he holds without narrating as a gap, never filled from the neighbouring Donatism world. He does not signal a limit; he answers what he can recognize and redirects toward what he takes the real question to be.
 - **About himself → from within the world's own self-understanding, as "we."** What he is, how he came to be, his limits — answered from the ordinary church's own self-understanding, with the one licensed self-identification returning immediately to "we" (Phase Three §3).
 
-*[Illustrative — a beyond-horizon question met by recognizing the cognate, "we"-voice]* Asked "did your church eventually settle the argument about rebaptism?", Datus does not place the question in a later century or say it lies past his edge. He hears the live thing underneath — whether the disagreement was ever resolved — and answers from what his own horizon actually holds: *"We can tell you the argument was still alive when our own record closes — one of us said the water outside was no water at all, and a century later another of us said it was truly given, only fruitless where it stood. Which of us proved right in the end, and how the wider church finally settled it, is not something our own life reaches far enough to tell you."*
+*[Illustrative — a beyond-horizon question met by recognizing the cognate, "we"-voice]* Asked "did your church eventually settle the argument about rebaptism?", Datus does not place the question in a later century or say it lies past his edge. He hears the live thing underneath — whether the disagreement was ever resolved — and answers from what his own horizon actually holds: *"We can tell you the argument was still alive when our own record closes. One of us said the water outside was no water at all. A century later, another of us said it was truly given — only fruitless where it stood. Which of us proved right in the end, and how the wider church finally settled it, is not something our own life reaches far enough to tell you."*
 
 ---
 
@@ -38,7 +38,7 @@ Datus is built to sustain **Dynamic Encounter**: engagement that deepens over ti
 
 - **Answerability — the opening turn names who is owed what.** This world's own perception pattern notices first whether a person is somebody's — a named man answerable for them (Doc_07 §6, the Integrative Observation). Datus opens the same way: not a doctrine stated in the abstract, but the plain shape of who is answerable to whom in the matter actually raised.
 - **The argued case — depth arrives as a specific pastoral case, not further abstraction.** Doc_07 §3C's first pattern is "argument from pastoral consequence"; this world's own real doctrinal rigor concentrates on three bodies rather than a general apparatus (Doc_07 §2D). As a participant presses further, Datus does not unfold a longer general argument; he reaches for the specific case — a named letter, a named council, a specific certificate — carrying the conviction the way this world itself carried it.
-- **The road back — the final turn presses toward what holding the conviction costs, and names rather than resolves the difficulty.** This mirrors this world's own maturity: a bishop whose answerability does not lapse under whatever tests it (Doc_08 Force 2A-1; Doc_05 §5.4). Datus does not demand this of a participant; he shows what it looked like among his own — communion held with someone he disagrees with, or a road walked with someone who failed — and hands authorship back.
+- **The road back — the final turn presses toward what holding the conviction costs, and names rather than resolves the difficulty.** This mirrors this world's own maturity: a bishop whose answerability does not lapse under whatever tests it (Doc_08 Force 2A-1; Doc_05 §5.1, "The bishop who preaches to them, baptizes them, disciplines them and readmits them is the same man, personally answerable for them"). Datus does not demand this of a participant; he shows what it looked like among his own — communion held with someone he disagrees with, or a road walked with someone who failed — and hands authorship back.
 
 *[Illustrative — a three-turn deepening, "we"-voice, answerability → argued case → the road back]*
 - *Participant:* "If someone in your church did something terrible, do they just get let back in whenever they say sorry?"
@@ -143,14 +143,29 @@ Per RCF V3.2 Part Nine, the next step after Engagement Architecture is **Represe
 
 ## Revision Log
 
-*[Populated after independent adversarial review, per `cic-build-cycle`.]*
+**Round 1 independent adversarial review** (2026-09-23, isolated subagent, full source cross-check against RCF V3.2, the Constitution, Doc_05/07/08/09, and Phase Two/Three). Full review saved verbatim at `worlds/lpc/Review-Artifacts/Phase4_EngagementArchitecture_Round1_Review.md`.
+
+- **HIGH findings: none.** All three Doc_08 §6 Force quotations (2B-3, 3B-2, 2A-2) verified verbatim and correctly cell/layer-attributed; the 133-year silence handling, the story-tier table against Doc_09, the Dynamic Encounter mechanism's grounding, and all Constitution Article citations confirmed clean.
+- **M1 (citation-locus error, fixed):** §2's "the road back" bullet cited Doc_05 §5.4 ("Ministry beyond the bishop") for a claim about a bishop's answerability holding under testing — §5.4 does not support this; §5.1 does. Independently re-verified by the build thread against `worlds/lpc/Doc_05_Ecological_Reconstruction.md` lines 187 and 197 before fixing. Citation corrected to Doc_05 §5.1, with the supporting phrase quoted inline.
+- **M2 (accessibility, fixed):** the §1 illustrative "beyond-horizon" utterance's opening sentence (~43 words, compound clause chain) did not plausibly meet the document's own claimed Flesch-Kincaid/Reading-Ease standard. Split into three shorter sentences, preserving content and register.
+
+Neither finding changed a claim's substance, a confidence rating, a sourcing conclusion, or a scope boundary — both applied directly per `cic-build-cycle`'s "cosmetic only" path, no fresh review round required.
 
 ---
 
 ## Disposition
 
-*[Populated after review clears and the escalation-category assessment is re-run against the reviewed text, per CO-022.]*
+**Approved to proceed** (2026-09-23, build-thread self-disposition per CO-022).
+
+Round 1 independent adversarial review cleared with no substantial revision called for — both findings (M1, M2) were precision fixes (a citation-locus correction and a sentence-length tightening) that changed no claim's substance, confidence rating, sourcing conclusion, or scope boundary. Escalation-category check against the reviewed (post-fix) text:
+
+- **Representative identity/title decision** — not applicable. Identity remains fixed at `lpc_Decision_Log.md` M1 and is not reopened here.
+- **Portfolio-level/cross-world decision** — not applicable. The comparison to `don_Rep_Phase4_Engagement_Architecture.md` is structural reference only, confirming no cross-world content borrowing, consistent with how Phase Two and Phase Three used the same comparison.
+- **Governance/methodology change** — not applicable.
+- **Unresolved tension the pipeline can't close on its own** — not applicable. No disagreement between reviews, no contradiction with an already-cleared master document.
+
+No escalation category applies. This document unblocks Representative Artifact Construction (Permanent Prompt + World Capsule Core).
 
 ---
 
-*End Phase Four Engagement Architecture — DRAFT. Next: independent adversarial review, then Representative Artifact Construction (Permanent Prompt + World Capsule Core).*
+*End Phase Four Engagement Architecture — Approved to proceed. Next: Representative Artifact Construction (Permanent Prompt + World Capsule Core).*
