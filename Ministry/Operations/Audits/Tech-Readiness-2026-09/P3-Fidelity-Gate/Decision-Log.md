@@ -403,23 +403,28 @@ kept its own subject and verb per the process doc's fragment rule, and
 several splits were themselves flagged by the fidelity grader as
 content changes and had to be re-balanced (most visibly on
 `desert.quote.the-kingdom-is-apatheia` and
-`desert.quote.the-noonday-demon`). Full `run_all()` on desert: 1
-finding, a pre-existing `reciprocity` gap between
-`desert.limit.communal-wrong-unrepaired` and
-`desert.story.moses-leaking-jug` — neither record is among this PR's
-23, and neither was touched by this change (expected: half A's other
-23 records aren't present on this branch, so desert shows as
-incomplete for `modern_rendering` coverage generally, which is not a
-new finding). `pytest engine/m1/tests/`: 134 passed, no regressions.
+`desert.quote.the-noonday-demon`). Full `run_all()` on desert, run
+after the rebase onto half A's merged main (so all 46 newly-authored
+renderings are present together): 1 finding, the same pre-existing
+`reciprocity` gap between `desert.limit.communal-wrong-unrepaired` and
+`desert.story.moses-leaking-jug` — neither record touched by either
+half of this work. `desert` now has 60/60 quote records with
+`modern_rendering`. `pytest engine/m1/tests/`: 134 passed, no
+regressions.
 
-**Package pin.** Rebuilt and re-pinned against
-`fbc0fdd444bb2cba7e95ceb3bb9ed7332ac8981c` (the modern_rendering commit,
-post-rebase onto current `main`): old
-`packages/desert/2026-09-23T08-13-32Z`
-(`sha256:4e52cb6ce661ec68b1bc05086d996094c635e00257f5066ec5d76702be7c2ec4`)
-→ new `packages/desert/2026-09-23T18-54-56Z`
-(`sha256:b0389eee071cf02740c3cc0331c838998f319679099bf7bf44cc84740ca4948f`).
-`staleness_sweep()`: clean across all 12 worlds.
+**Package pin.** Rebuilt and re-pinned twice: once against
+`fbc0fdd444bb2cba7e95ceb3bb9ed7332ac8981c` (this PR's own
+modern_rendering commit, before half A had merged), then again after
+rebasing onto main post-half-A-merge, against
+`db19e5ac6147f549a271b1dcff78c36736beb66a` (the real post-rebase HEAD,
+carrying both halves' 46 renderings) — the first pin would have shipped
+a package missing half A's 23 renderings, so it is superseded rather
+than reused. Final: old `packages/desert/2026-09-23T18-50-21Z`
+(half A's own pin, `sha256:e597fe552b2b14604309f1ad010cd9c30625ae1272c171af4e32c32bd05440a4`)
+→ new `packages/desert/2026-09-23T19-33-23Z`
+(`sha256:a43b6eb055028868314ab3cdd5d7e5b64d23fb690f8042693e4e5a15b55b3977`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifests retired
+(directories kept, per convention).
 `check_paths.py --baseline tools/check_paths_baseline.txt` on a clean
 `git worktree` of this branch's head: 0 new unresolved path
 citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
