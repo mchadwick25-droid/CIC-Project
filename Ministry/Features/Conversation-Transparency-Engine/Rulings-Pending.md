@@ -483,3 +483,52 @@ Entry 56's own note on what that Table rate means and the likeliest
 cause. This is the baseline number set Mark looks at on
 `cic-engine-staging` (`CIC_R27_ENFORCE=1`) before the flag is flipped
 anywhere real.
+
+### R41 — G5, R39-audit: should a modern/anachronistic word be answered by the Representative itself, or always intercepted by the Facilitator first?
+**Status:** PENDING (two options below, no recommendation). Found by the
+reviewer's own R39-audit retrofit brief: `pronoun_rule` (`_fleet.voice.
+fleet.md` line 31) and the bridge route (`turn.py`, the `bridge_turn`
+action) instruct two different answers to the same question, and are
+never both live on the same turn - for any term actually on the fleet's
+own `anachronistic_term_ids` registry, routing sends the turn to the
+bridge route before the voice ever sees it, so `pronoun_rule`'s own
+clause (below) can never fire for that term in practice. This is a
+governance/methodology question - how the voice and the Facilitator
+divide this kind of moment - one of CLAUDE.md's own standing escalation
+categories, not a default either thread should pick on its own. Full
+file:line evidence and both mechanisms quoted verbatim: Decision-Log.md
+Entry 59 (this PR).
+
+**`pronoun_rule`'s own clause, verbatim:** *"when a participant's own
+question brings it, we name it as theirs - 'the later word
+transubstantiation you are calling it' - and answer from what we
+actually had; that stays exactly as it is."* One turn, one speaker: the
+Representative names the modern word as the participant's own, then
+answers from what the world actually held, all in its own voice.
+
+**The bridge route, as actually built:** the reader detects a
+registered term, routes to `bridge_turn`; the Facilitator composes and
+speaks a message naming the modern word and its modern sense in the
+Facilitator's own etic voice, then hands the Representative only a
+term-free rephrasing of the underlying question - the voice never sees
+or utters the participant's original word at all.
+
+**(a) Let `pronoun_rule` govern.** Stop routing a term already covered
+by `pronoun_rule`'s own clause to the bridge route (or narrow which
+terms the bridge route actually intercepts). What a participant reads:
+one continuous turn - the Representative's own answer opens by naming
+the word as the participant's own, then answers from what the world
+actually held, no separate Facilitator message before it.
+
+**(b) Keep the bridge route as the one actually exercised for
+registered terms.** `pronoun_rule`'s own clause describes an ideal that
+is unreachable for any term on the registry as things stand - routing
+overrides it before the voice ever runs. What a participant reads: two
+turns, two speakers - a Facilitator message, openly outside any world's
+voice, naming the modern word and its modern sense, then a separate
+Representative turn answering only the translated, term-free question,
+with no trace of the participant's original word in it at all, not even
+an acknowledgment it was asked.
+
+No code changes to either mechanism have been made under this entry;
+both stay exactly as built until Mark rules.

@@ -9,10 +9,19 @@ Runs on engine.m4.grounding_net.check_turn's own per-sentence output
 (net_result["sentences"]) rather than a second sentence-splitter - two
 independent splitters risking disagreement is a real correctness class of
 bug this avoids by construction, the same "one implementation, owned
-once" discipline engine.prose.claim_markers already follows. Scoped to
-verdict == "ok" sentences only: a withheld sentence never reaches the
-participant (engine.m4.turn.apply_net drops it), so there is nothing here
-to check in one that was never shown.
+once" discipline engine.prose.claim_markers already follows.
+
+A sentence is only skipped as genuinely cited when verdict == "ok" AND
+it carries tags (the same "substantive_survives" idiom grounding_net.py
+itself uses). A withheld sentence (verdict != "ok") still had tags
+going in, but engine.m4.turn.apply_net's own strip_tags removes them
+from what the participant actually reads regardless of verdict - the
+sentence's own text is NOT dropped (Program-Spec M4/Artifact-5 SS2/SS5:
+"the checks gate decoration, never the text" - a corrected claim: an
+earlier revision of this docstring said a withheld sentence never
+reaches the participant at all, which apply_net's own text does not
+do). So a withheld sentence reads exactly like an untagged one by the
+time it's on screen, and is examined here the same way - not skipped.
 
 The three allowed-uncited kinds reuse real, already fleet-calibrated
 vocabulary rather than invented heuristics: engine.prose.SCAFFOLD_MARKERS
@@ -129,7 +138,15 @@ def find_uncited_claims(sentences: list[dict]) -> list[dict]:
     own."""
     offenses = []
     for sent in sentences:
-        if sent["verdict"] != "ok" or sent["tags"]:
+        # Genuinely cited only when verdict == "ok" AND it carries tags -
+        # the same "substantive_survives" idiom grounding_net.py itself
+        # uses (check_turn/check_turn_with_paragraph_coverage). A
+        # withheld sentence (verdict != "ok") still had tags going in,
+        # but apply_net's own strip_tags removes them from what the
+        # participant actually reads regardless of verdict (G6, R39-audit
+        # retrofit brief) - so it reads exactly like an untagged sentence
+        # and is examined the same way here, not skipped.
+        if sent["verdict"] == "ok" and sent["tags"]:
             continue
         text = sent["sentence"]
         if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
