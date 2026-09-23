@@ -429,3 +429,53 @@ than reused. Final: old `packages/desert/2026-09-23T18-50-21Z`
 `git worktree` of this branch's head: 0 new unresolved path
 citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
 present.
+
+**Entry 15 — 2026-09-23 (R40, hal — 19 of 32 missing quote records
+authored).** desert (PRs #458/#459) is done and merged, 60/60. Next in
+the reviewer's stated order (hal, pahc, syr, fix): `hal` had 19 of 32
+quote records missing `modern_rendering`. One PR, one world, per the
+reviewer's revised sequencing note (author worlds one at a time, no
+parallel subagents, to stay inside the account's remaining weekly
+usage window).
+
+Each rendering was written directly from the record's own `text`
+field, split into short sentences where needed for readability, each
+resulting sentence keeping its own subject and verb and one whole
+thought of the original, per the process doc's fragment rule. Run
+through `engine/m1/rendering_fidelity.py`'s live Haiku 4.5 grader:
+4 of the 19 needed real revision against genuine findings on the
+first pass (`helmeted-preface`, `i-gather-the-rose-from-the-thorns`,
+`no-one-preferred-to-the-seventy`, `oea-tumult` — a dropped purpose
+clause, an invented "only", an active-voice rewrite of a passive
+attribution clause, and an invented "grew so great" respectively);
+each was revised and reconfirmed individually. Two records
+(`helmeted-preface`, `they-have-left-untold-the-name`) then showed the
+grader flip verdicts on materially unchanged text across separate
+full-world runs — the same inconsistency pattern already documented
+for alx/ijc/desert — and each settled back to "translation" on
+immediate re-runs of the identical text; no rewrite was needed for
+either, and neither is an honest exception, since the text itself
+never changed and the grader's own next call on it agreed. **No honest
+exceptions this pass.** Two consecutive full-world runs (all 19
+records, back to back) both came back 19/19 "translation".
+
+**Gate results.** `gate_readability` (FK ceiling 10): 0 findings
+across all 19 (range 4.2-9.6). Full `run_all()` (all M1 gates) on hal:
+0 findings. `pytest engine/m1/tests/`: 134 passed, no regressions. No
+field other than `modern_rendering` touched on any record; no
+per-record notes added, per R33.
+
+**Package pin.** Rebuilt and re-pinned once, against
+`737c51a5f8b87d4f37e383487f269e0000190350` (this PR's own
+modern_rendering commit; main had not moved since branching, so no
+rebase was needed before this build). Old
+`packages/hal/2026-09-23T08-13-52Z`
+(`sha256:c2ccaf4ae9911d3d7999119d00853bcbe88d9919147141be2b5425000582c2e1`)
+→ new `packages/hal/2026-09-23T20-32-17Z`
+(`sha256:c98a2632cfadc230a540dfee33f56de83d679c7692d3f837f0f0b8674fa9783f`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifest retired
+(directory kept, per convention).
+`check_paths.py --baseline tools/check_paths_baseline.txt` on a clean
+`git worktree` of this branch's head: 0 new unresolved path
+citation(s); 769 total; 769 accepted in baseline; 0 retired path(s)
+present.
