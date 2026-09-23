@@ -30,26 +30,18 @@
     "pahc": {
       "world": "pahc",
       "total_quotes": 25,
-      "verified_count": 24,
-      "failed_count": 1,
+      "verified_count": 25,
+      "failed_count": 0,
       "exact_no_diff_count": 4,
       "class_counts": {
-        "whitespace": 20,
+        "whitespace": 21,
         "case": 0,
         "punctuation": 3,
         "ellipsis": 3,
         "bracket": 5,
         "verse_number": 4
       },
-      "failures": [
-        {
-          "id": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
-          "source_file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-          "failed_segment": "I therefore considered it the more necessary to examine, even with the use of torture, two female slaves who were called deaconesses (ministræ), in order to ascertain the truth. But I found nothing except a superstition depraved and immoderate; and therefore, postponing further inquiry, I have turned to thee for advice.",
-          "nearest_context": " mcgiffert\n    Grand Rapids, MI: Christian Classics Ethereal ",
-          "recorded_verification_state": "verified-via-authority"
-        }
-      ]
+      "failures": []
     },
     "syr": {
       "world": "syr",
@@ -340,7 +332,7 @@
   },
   "totals": {
     "total_quotes": 257,
-    "verified_count": 239,
-    "failed_count": 18
+    "verified_count": 240,
+    "failed_count": 17
   }
 }

@@ -86,6 +86,22 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # said. The third (stray backslash) is a record-authoring bug, out of
 # scope for this module.
 
+# R28 (Mark, 2026-09-23): `strip_xml_markup` drops every `<note>` block
+# wholesale, on the reasoning that a note is commentary ABOUT the text,
+# not the text itself - right for ordinary editorial notes, wrong for
+# the rare note whose own body IS the primary-source quotation
+# (pahc.quote.two-female-slaves-who-were-called-deaconesses: Pliny's
+# letter to Trajan, quoted in full inside a translator's endnote, not in
+# Eusebius's own running text). A quote record opts in with
+# `source_note_id`, naming that note's own `id` attribute; `extract_note_
+# text` then pulls just that note's own inner content (tags stripped,
+# not otherwise touched) and verification runs against it character for
+# character, same tolerances as everywhere else. Every other quote
+# record leaves `source_note_id` absent - the default (strip all notes)
+# is unchanged, and a record can't opt an unrelated note in by mistake:
+# a stale or wrong id simply fails to resolve, it never falls back to
+# matching against the wrong note.
+
 # DISALLOWED, stated explicitly so a report finding can name which rule a
 # quote actually broke: a substituted word, a silent omission (no
 # ellipsis), or an addition that isn't inside brackets. None of these has
@@ -305,18 +321,40 @@ def _extract_texts_filenames(text: str) -> list[str]:
     return list(dict.fromkeys(names))
 
 
+def extract_note_text(source_raw: str, note_id: str) -> str | None:
+    """R28 (Mark, 2026-09-23): the rare opt-in path for a quote whose
+    primary-source text sits inside a translator's own `<note>` rather
+    than the running text - pulls that one note's inner content by its
+    `id` attribute, tags stripped, so it can be matched directly instead
+    of being discarded as editorial commentary by `strip_xml_markup`.
+    Returns None if no note with that id exists in this source file."""
+    pattern = re.compile(r'<note\b[^>]*\bid="' + re.escape(note_id) + r'"[^>]*>(.*?)</note>', re.IGNORECASE | re.DOTALL)
+    m = pattern.search(source_raw)
+    if not m:
+        return None
+    return _TAG_RE.sub("", m.group(1))
+
+
 def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> VerifyResult:
     paths = resolve_vendored_paths(quote_record, records, fleet)
     if not paths:
         return VerifyResult(verified=False, failed_segment=None, nearest_context="no cic/texts/ file could be resolved from this record's body or its source_id's edition field")
 
     quote_text = quote_record.get("text") or ""
+    note_id = quote_record.get("source_note_id")
     best: VerifyResult | None = None
     for path in paths:
         if not path.exists():
             continue
         source_raw = path.read_text(encoding="utf-8", errors="replace")
-        result = verify_quote_text(quote_text, source_raw, source_is_xml=path.suffix == ".xml")
+        if note_id:
+            note_text = extract_note_text(source_raw, note_id)
+            if note_text is None:
+                result = VerifyResult(verified=False, nearest_context=f"no <note id={note_id!r}> found in this source file - source_note_id may be stale")
+            else:
+                result = verify_quote_text(quote_text, note_text, source_is_xml=False)
+        else:
+            result = verify_quote_text(quote_text, source_raw, source_is_xml=path.suffix == ".xml")
         result.source_file = str(path.relative_to(REPO_ROOT))
         if result.verified:
             return result

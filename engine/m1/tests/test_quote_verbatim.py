@@ -8,6 +8,7 @@ from pathlib import Path
 from engine.m1.quote_verbatim import (
     TEXTS_DIR,
     collapse_linewrap_hyphens,
+    extract_note_text,
     resolve_vendored_paths,
     strip_xml_markup,
     verify_quote_record,
@@ -280,3 +281,59 @@ def test_cappadocian_bracket_wrapped_ellipsis_record_now_verifies():
     result = verify_quote_record(rec, records, fleet)
     assert result.verified is True, (result.failed_segment, result.nearest_context)
     assert "ellipsis" in result.classes_used
+
+
+# --- source_note_id / note-embedded quotation (R28, 2026-09-23) --------
+
+
+def test_extract_note_text_returns_the_named_notes_own_content():
+    raw = (
+        '<p>Running text</p>'
+        '<note place="end" n="1" id="my-note-id">'
+        "<p>Pliny wrote to Trajan: <i>ministræ</i>, he called them.</p>"
+        "</note>"
+        '<note place="end" n="2" id="other-note">A different note entirely.</note>'
+    )
+    extracted = extract_note_text(raw, "my-note-id")
+    assert extracted is not None
+    assert "Pliny wrote to Trajan" in extracted
+    assert "ministræ" in extracted
+    assert "<i>" not in extracted
+    assert "A different note entirely" not in extracted
+
+
+def test_extract_note_text_returns_none_for_an_unknown_id():
+    raw = '<note place="end" id="real-id">content</note>'
+    assert extract_note_text(raw, "no-such-id") is None
+
+
+def test_quote_record_with_source_note_id_verifies_against_that_note_only():
+    """A synthetic record: the quote text lives only inside a <note>, so
+    verification without source_note_id would fail (strip_xml_markup
+    drops the whole note) - with it, the gate verifies directly."""
+    source = (
+        "<p>Some unrelated running text about something else entirely.</p>"
+        '<note place="end" id="quoted-note">'
+        "The governor wrote: I found nothing except a superstition."
+        "</note>"
+    )
+    note_text = extract_note_text(source, "quoted-note")
+    result = verify_quote_text("I found nothing except a superstition", note_text, source_is_xml=False)
+    assert result.verified is True
+
+
+def test_pahc_deaconesses_record_verifies_via_its_source_note_id():
+    """pahc.quote.two-female-slaves-who-were-called-deaconesses: R28's own
+    real case. Pliny's letter to Trajan is quoted in full inside
+    Eusebius's translator's endnote id iii.viii.xxxiii-p2.2, not in the
+    running text - opted in via source_note_id, restored to
+    verified-direct in the same PR that added the field."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("pahc")
+    fleet = load_fleet_records()
+    rec = records["pahc.quote.two-female-slaves-who-were-called-deaconesses"]
+    assert rec.get("source_note_id") == "iii.viii.xxxiii-p2.2"
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is True, (result.failed_segment, result.nearest_context)
+    assert rec["confidence"]["verification_state"] == "verified-direct"

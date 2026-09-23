@@ -498,6 +498,17 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # solely this field, confirmed before this fix). Not yet in
         # COMPLETION_REQUIRED - existing quote records validate unchanged.
         "modern_rendering": {"type": "string"},
+        # R28 (Mark, 2026-09-23, reviewer thread): the quote-verbatim gate
+        # strips every <note> block as editorial apparatus by default -
+        # right for ordinary commentary, wrong for the rare note whose own
+        # body IS the primary-source quotation (pahc.quote.two-female-
+        # slaves-who-were-called-deaconesses: Pliny's letter, quoted in
+        # full inside a translator's endnote). A record opts in by naming
+        # that note's own `id` attribute here; the gate then verifies
+        # against that specific note's own text, character for character,
+        # instead of stripping it. Absent on every other quote record -
+        # the default (strip all notes) is unchanged.
+        "source_note_id": {"type": "string"},
     },
     "figure": {
         "names": {
