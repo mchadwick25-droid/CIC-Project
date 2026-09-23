@@ -15,6 +15,18 @@ REPORT-ONLY. Not registered in gates.GATES - R35's build-quality principle
 Phase B), not a repair pass to run today. This script is the measurement
 that decision will act on, not yet the gate itself.
 
+HOW A BIRTH CONDITION USES THIS (reviewer verdict on item 4, 2026-09-23):
+a single live model call is not deterministic enough to gate on by
+itself - this session's own two fleet runs, and the transparency thread's
+reader check the same day, both saw real run-to-run variance on the same
+input. So the birth-condition use is: the builder authoring a
+`modern_rendering` runs this grader at authoring time; a person reads the
+verdict's own `reasoning`, not just its enum value; the record is revised
+until the verdict reads "translation" on two consecutive runs of the same
+input, not accepted on one clean pass. This module itself stays
+report-only regardless - it is never registered in gates.GATES as a
+blocking check unless Mark rules otherwise.
+
 SCOPE, decided here rather than left implicit: every quote record with a
 non-empty `modern_rendering` is graded, regardless of its own
 `confidence.verification_state`. Rendering fidelity (does the modern
