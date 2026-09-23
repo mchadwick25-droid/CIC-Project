@@ -28,7 +28,8 @@ text: >-
   he was versed in the knowledge of the Truth. He said, then, that the Syriac word was more
   expressive, and that being more analogous to the Hebrew term it was a nearer approach to the
   scriptural sense. This is the meaning of the word; by "was borne" the Syrians, he says,
-  understand: it cherished.
+  understand: it cherished the nature of the waters as one sees a bird cover the eggs with her body
+  and impart to them vital force from her own warmth.
 speaker_or_author: Basil of Caesarea, in the Hexaemeron
 license: verbatim
 modern_lens_note: >-
@@ -54,9 +55,22 @@ relations:
 ---
 Verified verbatim 2026-08-27 against the vendored file at line 16729.
 DISCLOSED: the NPNF prints an endnote marker after "Syrian," carrying the
-Tillemont and Benedictine identifications, and scripture-reference markup
-after "cherished"; both are excised here and the endnote's content is
+Tillemont and Benedictine identifications; excised here and its content
 carried in divergence_note rather than dropped.
+
+Quote-verbatim gate fix (2026-09-22): the 2026-08-27 note above was wrong
+about what follows "cherished" - it is not scripture-reference markup,
+it is Basil's own sentence continuing past that verb to its direct
+object and the bird-and-eggs image ("cherished the nature of the waters
+as one sees a bird cover the eggs..."). The record's own period after
+"cherished" was invented, silently cutting the sentence there. Restored
+through the sentence's own natural end at "her own warmth." - this is
+the exact bird-brooding image modern_lens_note below already describes
+("renders a verb of brooding, as a bird over eggs"), so the fix brings
+the quote in line with what the record already claimed about it, rather
+than changing the claim. The following sentence ("Such is, as nearly as
+possible, the meaning of these words...") is Basil's own restatement of
+the same point and is not included.
 
 Registered against syr.gravity.raza-shrara-method because the passage is
 an outsider testifying to what that gravity claims from inside: that this

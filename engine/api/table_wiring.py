@@ -56,6 +56,7 @@ from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
 from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
+from engine.m4.uncited_claims import build_uncited_claims_event, known_tradition_names
 
 import threading
 from contextlib import contextmanager
@@ -180,7 +181,9 @@ def create_table_session(
         {
             "representative_name": w.frame["representative"]["name"],
             "role_label": w.frame["representative"]["role_label"],
-            "display_name": w.frame["display_name"],
+            # card_name over display_name: see door_turn's own docstring
+            # (Built-World Voice Alignment, Mark's ruling 2026-09-17).
+            "world_name": registry[w.world_key].get("card_name") or w.frame["display_name"],
         }
         for w in worlds
     ]
@@ -645,6 +648,7 @@ def _advance_open_round(
     store: Store,
     usage_store: UsageLogStore,
     worlds: dict[str, LoadedWorld],
+    registry: dict,
     voice_client,
     voice_model_id: str,
     safety_client,
@@ -655,6 +659,8 @@ def _advance_open_round(
     routing_reason: str,
     degraded: bool,
     facilitator: list[dict],
+    out_of_scope_class: str | None = None,
+    r27_enforce: bool = False,
 ) -> TableMessageResult:
     """One voice-turn advance of the open round - selector step, then the
     selected voice's turn, then the close when the cap lands. Re-projects
@@ -809,6 +815,18 @@ def _advance_open_round(
     if is_second_pass and engage_name:
         pending = _scoped_pending(pending, keep_labels={PARTICIPANT_LABEL, FACILITATOR_LABEL, engage_name})
 
+    # SEAT-IDENTITY GUARD (Decision-Log.md Entry 47, 2026-09-22): the
+    # Facilitator's label plus every OTHER seated voice's label, both full
+    # ("Name (World)") and bare ("Name") forms - never the speaking voice's
+    # own label (self-labeling is a separate, milder, out-of-scope defect;
+    # see engine.m4.seat_identity_guard's own module docstring).
+    guard_labels = [FACILITATOR_LABEL]
+    for k, w in worlds.items():
+        if k == selection.world_key:
+            continue
+        guard_labels.append(labels[k])
+        guard_labels.append(w.frame["representative"]["name"])
+
     try:
         voice_event, voice_usage = run_voice_turn_for_world(
             voice_client=voice_client,
@@ -835,6 +853,9 @@ def _advance_open_round(
                 else None
             ),
             usage_world_key=selection.world_key,
+            guard_labels=guard_labels,
+            r27_enforce=r27_enforce,
+            known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
         )
     except UnhandledRoutingAction:
         raise
@@ -848,8 +869,58 @@ def _advance_open_round(
         raise ProviderCallFailed(str(exc)) from exc
 
     usage_records.extend(voice_usage)
+
+    # SEAT-IDENTITY GUARD, continued (Decision-Log.md Entry 47): log every
+    # catch (0, 1, or 2 - round_no/position filled in here, the only
+    # things engine.m4.turn's own call couldn't know), then either persist
+    # this as a normal voice_turn (clean on the first try, or clean after
+    # one regeneration) or - on the guard's own second catch - persist it
+    # with empty text (voice_event["text"] is already "" from turn.py) and
+    # hand this turn to the Facilitator instead, so the voice's text is
+    # never shown.
+    for violation in voice_event.get("seat_identity_violations", []):
+        violation_payload = {**violation, "round_no": state.round_no, "position": position}
+        events.validate("seat_identity_violation", violation_payload)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="seat_identity_violation", payload=violation_payload)
+
     events.validate("voice_turn", voice_event)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=voice_event)
+
+    # R27 (Decision-Log.md Entry 51, 2026-09-22), report-only: same
+    # out_of_scope_class the caller already read off the opening gate_decision
+    # (or, on a continue, the round's last one) - not re-derived here. A
+    # voice_event with no "uncited_claims" key (a Facilitator-authored
+    # fallback never runs find_uncited_claims) is treated as clean, same as
+    # an empty list.
+    uncited_event = build_uncited_claims_event(
+        voice_event,
+        registry=registry,
+        is_other_tradition_turn=(routing_action == "voice_with_directive" and out_of_scope_class == "other_tradition"),
+    )
+    if uncited_event is not None:
+        events.validate("uncited_claims", uncited_event)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
+
+    if voice_event.get("seat_identity_guard_exhausted"):
+        fallback_event = facilitator_turns.table_seat_correction_turn(world.frame["representative"]["name"])
+        events.validate("facilitator_turn", fallback_event)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
+        common["facilitator"] = [*common["facilitator"], fallback_event]
+
+    # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
+    # 2026-09-23): the same "existing fallback" the reviewer thread's own
+    # item 5 message asked for - table_seat_correction_turn reused as-is,
+    # same kind, same wording, since the participant-facing outcome (this
+    # seat's own turn didn't hold together, so it's set aside) reads
+    # correctly for either cause. Only interview mode needed new wording
+    # (engine.m4.facilitator_turns.voice_rejected_turn) - see that
+    # function's own docstring for why.
+    if voice_event.get("r27_enforcement_exhausted"):
+        fallback_event = facilitator_turns.table_seat_correction_turn(world.frame["representative"]["name"])
+        events.validate("facilitator_turn", fallback_event)
+        store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
+        common["facilitator"] = [*common["facilitator"], fallback_event]
+
     for rec in usage_records:
         usage_store.append(rec)
 
@@ -885,6 +956,7 @@ def _handle_table_message_unlocked(
     client_msg_id: str | None = None,
     config: RoundConfig | None = None,
     package_cache_dir: Path | None = None,
+    r27_enforce: bool = False,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -982,12 +1054,14 @@ def _handle_table_message_unlocked(
         )
 
     return _advance_open_round(
-        store=store, usage_store=usage_store, worlds=worlds,
+        store=store, usage_store=usage_store, worlds=worlds, registry=registry,
         voice_client=voice_client, voice_model_id=voice_model_id,
         safety_client=safety_client, safety_model_id=safety_model_id,
         session_id=session_id, config=config,
         routing_action=opening.routing_action, routing_reason=opening.routing_reason,
         degraded=opening.degraded, facilitator=opening.facilitator_events,
+        out_of_scope_class=out_of_scope_class,
+        r27_enforce=r27_enforce,
     )
 
 
@@ -1004,6 +1078,7 @@ def _continue_table_round_unlocked(
     session_id: str,
     config: RoundConfig | None = None,
     package_cache_dir: Path | None = None,
+    r27_enforce: bool = False,
 ) -> TableMessageResult:
     config = config or RoundConfig()
     state = project_fresh(session_id, store)
@@ -1019,7 +1094,7 @@ def _continue_table_round_unlocked(
     worlds = _seated_worlds(state, world_loader, registry, package_cache_dir=package_cache_dir)
     gate_payload = _last_gate_payload(state)
     return _advance_open_round(
-        store=store, usage_store=usage_store, worlds=worlds,
+        store=store, usage_store=usage_store, worlds=worlds, registry=registry,
         voice_client=voice_client, voice_model_id=voice_model_id,
         safety_client=safety_client, safety_model_id=safety_model_id,
         session_id=session_id, config=config,
@@ -1027,6 +1102,8 @@ def _continue_table_round_unlocked(
         routing_reason="continuing the open round",
         degraded=bool(gate_payload.get("degraded")),
         facilitator=[],
+        out_of_scope_class=(gate_payload.get("out_of_scope") or {}).get("class"),
+        r27_enforce=r27_enforce,
     )
 
 

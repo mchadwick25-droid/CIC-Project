@@ -18,10 +18,10 @@ sources:
 - source_id: ijc.source.leo-letters
   locus: Ep. XXVIII (the Tome), ch. IV (npnf212 lines 5365-5381)
   license: public-domain
-text: 'For He who is true God is also true man: and in this union there is no lie, since the humility
+text: 'For He who is true God is also true man: and in this union there is no lie , since the humility
   of manhood and the loftiness of the Godhead both meet there. For as God is not changed by the showing
   of pity, so man is not swallowed up by the dignity. For each form does what is proper to it with the
-  co-operation of the other; that is the Word performing what appertains to the Word, and the flesh
+  co-operation of the other ; that is the Word performing what appertains to the Word, and the flesh
   carrying out what appertains to the flesh.'
 speaker_or_author: ijc.figure.leo
 license: verbatim
@@ -42,3 +42,6 @@ appertains to the flesh" completes the sentence past the extraction
 window, verified in place). The Tome's most-quoted movement - the
 two-natures teaching Chalcedon's Definition takes up, in the letter
 that carried Rome's standing to a council its bishop did not attend.
+
+Quote-verbatim gate fix (2026-09-22): restored the source's own spaces before two punctuation marks
+("lie ," and "other ;") that the record had closed up. No wording changed.

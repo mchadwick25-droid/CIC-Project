@@ -38,9 +38,14 @@ class _FakeStreamCtx:
 
 
 class _FakeMessages:
-    def __init__(self, *, safety_response, reader_response, stream_chunks):
+    def __init__(self, *, safety_response, reader_response, stream_chunks, stream_scripts=None):
         self._responses = {"submit_safety_classification": safety_response, "submit_reader_output": reader_response}
         self._stream_chunks = stream_chunks
+        # R27 build item 5's own enforcement tests need a different raw
+        # answer on the retry than on the raw attempt - a list of chunk-
+        # lists, one per call, popped in order; None (every other test's
+        # own default) keeps the original single-script behavior.
+        self._stream_scripts = list(stream_scripts) if stream_scripts is not None else None
         # Every generation call's kwargs, recorded so a test can assert what
         # the voice was actually handed (system prefix, history, message).
         self.stream_calls = []
@@ -57,12 +62,16 @@ class _FakeMessages:
 
     def stream(self, *, model, max_tokens, system=None, messages, timeout=None):
         self.stream_calls.append({"system": system, "messages": messages})
-        return _FakeStreamCtx(self._stream_chunks)
+        chunks = self._stream_scripts.pop(0) if self._stream_scripts is not None else self._stream_chunks
+        return _FakeStreamCtx(chunks)
 
 
 class FakeBedrockClient:
-    def __init__(self, *, safety_response, reader_response, stream_chunks=()):
-        self.messages = _FakeMessages(safety_response=safety_response, reader_response=reader_response, stream_chunks=stream_chunks)
+    def __init__(self, *, safety_response, reader_response, stream_chunks=(), stream_scripts=None):
+        self.messages = _FakeMessages(
+            safety_response=safety_response, reader_response=reader_response,
+            stream_chunks=stream_chunks, stream_scripts=stream_scripts,
+        )
 
 
 def reader_response(**overrides):

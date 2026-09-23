@@ -800,7 +800,22 @@ def build_figures_json(records: dict) -> bytes:
 #
 # M1 gates still validate everything on the records themselves - this
 # changes what ships, never what is authored or checked.
-_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "facilitator_brief", "world_front"}
+#
+# world_front/facilitator_brief added to this set 2026-09-19 (Website V2
+# world_front design, approved to proceed) for a sharper reason than build
+# residue: this is the ONE place in the M2 compiler that processes every
+# record type by default (a denylist, not an allowlist like CHUNK_DIR_BY_
+# TYPE/build_prompt/build_capsule above). Left unexcluded, either type
+# would ship into compiled/repository.json - which engine.m4.evidence's
+# own _fulltext_fallback_candidates() then walks with NO record-type
+# filter at all (its own docstring: "searches _fallback_search_text(),
+# ... this stage needs the wider net to find the record at all") - so a
+# participant's word choice sharing a term with a world_front's own
+# etic prose could surface a website-authoring record as live evidence in
+# a real turn. That is exactly the reach into the Representative's own
+# voice assembly this record type must never have, so both types are
+# excluded here, not just left off the chunk/prompt/capsule allowlists.
+_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "world_front", "facilitator_brief"}
 _PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"}
 
 

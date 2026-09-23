@@ -28,7 +28,7 @@ text: >-
   from the Greek, but from the Hebrew. But although the Jews acknowledge this very learned labor of
   his to be faithful, while they contend that the Septuagint translators have erred in many places,
   still the churches of Christ judge that no one should be preferred to the authority of so many
-  men, chosen for this very great work by Eleazar, who was then high priest.
+  men, chosen for this very great work by Eleazar, who was then high priest...
 speaker_or_author: Augustine of Hippo, in the City of God
 license: verbatim
 modern_lens_note: >-
@@ -63,3 +63,10 @@ Declared `tension-with` hal.gravity.hebraica-veritas rather than
 `illustrates` anything. This is the position that gravity was formed
 against, stated at full strength by someone who admired the man he was
 overruling.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "high priest" was invented -
+the source's sentence continues with a semicolon into a further, separate argument (that a sign of
+divinity appearing in the seventy translators, not just scholarly consensus, validates them). Marked
+with a trailing ellipsis rather than restored: the record's gloss is specifically about the
+concession-then-refusal structure, complete at "high priest"; the further argument is a different
+theological point modern_lens_note doesn't address.

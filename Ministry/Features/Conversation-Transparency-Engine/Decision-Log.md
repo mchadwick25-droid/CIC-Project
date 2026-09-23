@@ -1271,68 +1271,22 @@ lands - sequencing this sweep's own PR first, and landing it before that
 package's fleet run starts, avoids the two threads racing the same
 files.
 
-**Entry 43 — 2026-09-22.** The Entry 42 sweep ran. Of 2,194 `status:
-draft` records fleet-wide (11 admitted worlds), **2,126 promoted to
-`status: ready`**; **68 stayed `draft`**, named by pre-existing M1 gate
-findings, none newly introduced by this pass:
+**Entry 43 — 2026-09-22.** Correction to this entry's own original text
+below: it reported the Entry 42 re-sweep as landed. It had not. The
+re-sweep was run against this branch and produced 2,126 promotions, but
+those changes were withdrawn from PR #390 before merge, on Mark's direct
+ruling, and never reached `main`.
 
-| World | Draft records | Promoted | Stayed draft | Reason |
-|---|---|---|---|---|
-| alx | 197 | 197 | 0 | — |
-| cappadocian | 278 | 277 | 1 | `voice-perspective` (`cappadocian.dw.reading-scripture`) |
-| desert | 200 | 198 | 2 | `reciprocity` (`desert.limit.communal-wrong-unrepaired`, `desert.story.moses-leaking-jug`) |
-| don | 248 | 198 | 50 | `reciprocity`, 50 records across 24 one-way `associated-with`/`illustrates` pairs |
-| gallic | 199 | 188 | 11 | `reciprocity`, 11 records around `gallic.story.circuses-amid-the-ruins` and `gallic.term.bagaudae` |
-| hal | 175 | 175 | 0 | — |
-| ijc | 186 | 186 | 0 | — |
-| pahc | 162 | 159 | 3 | `reciprocity` (`pahc.limit.enslaved-voices`, `pahc.limit.womens-own-words`, `pahc.quote.two-female-slaves-who-were-called-deaconesses`) |
-| rzg | 110 | 110 | 0 | — |
-| syr | 187 | 186 | 1 | `voice-perspective` (`syr.dw.death-judgment`) |
-| witt | 252 | 252 | 0 | — |
-| **Total** | **2,194** | **2,126** | **68** | |
+Stage 6a's own sweep (Entry 36, PR #394) had already landed on `main`
+before this branch's re-sweep could reach it. Mark ruled 6a's own
+operational rule - a record is ready once it sits in an admitted world's
+currently pinned package and passes every M1 gate, no other condition -
+as R16's actual operational form. Stage 6a's sweep is the sweep of
+record: 2,033 promoted `draft` -> `ready`; **161 held** - 130
+never-packaged types, 31 with open M1 gate findings. Those 161 held
+records stand.
 
-**Method, exactly as Entry 42 specified:** for each admitted world, ran
-`engine.m1.gates.run_all` against `engine.m1.loader.load_world_records`
-plus `load_fleet_records`, and `engine.m2.checks.staleness_sweep` against
-the registry. All 11 worlds reported `stale: False` before any edit (the
-pinned package already matched current records), so condition (1) held
-fleet-wide without a rebuild. For condition (2), a draft record promotes
-unless some gate finding names its own record id (word-boundary match,
-not bare substring - `cappadocian.dw.reading-scripture` does not
-false-match inside a longer id, and the `.text`/`.field` suffix some
-gates append after a colon is handled as a boundary, not part of the
-id). The two families of blocking findings are unrelated to this ruling
-and pre-exist it: `reciprocity` (a record declares an
-`associated-with`/`illustrates` relation the target record doesn't
-declare back - desert 2, don 50, gallic 11, pahc 3) and
-`voice-perspective` (a ~70%-precision "the world's..." outside-vantage
-phrasing heuristic, report-only by its own design - cappadocian 1, syr
-1). Neither family is fixed by this entry; the 68 records stay `draft`
-until their own gate finding clears, whenever that work happens.
-
-**Applied as a single mechanical script** (draft→ready front-matter line
-only, nothing else touched - verified by diff: 2,126 files, one line
-changed each) rather than 2,126 individual edits, run directly rather
-than dispatched to a Haiku subagent as such (the sweep's own logic - the
-mechanical test above - is what needed the care; applying an
-already-computed, already-verified list of file paths is one script
-execution either way, so a subagent added no cost saving here beyond
-what running the script once already gave).
-
-**Packages repinned for all 11 admitted worlds** after the sweep (the
-edit changes what a fresh compile produces): rebuilt via `engine.m2.cli
-build`, each `records/worlds/<code>.yaml` repointed at its new
-`package_id`/`manifest_hash`, old manifest.json removed per
-`.gitignore`. `engine.m2.cli staleness-check` now reports `pass: true`,
-zero stale worlds, across all 12 registry entries (`fix` included,
-untouched by this sweep). `engine/m1/tests` and `engine/m2/tests` both
-green (67 passed) after a `engine.m2.cli restore` matching CI's own
-setup step.
-
-**Confidence display, re-confirmed unaffected:** this sweep changes only
-`status`; `formation_confidence` is untouched on every record, and
-Entry 42's grep already showed the participant-facing path never reads
-`status`. No behavior change ships with this entry.
+No record or package file changes ship in PR #390.
 
 **Entry 44 — 2026-09-22.** R18 correction: PR #383's reword (this same
 day, Entry 29 - "we compare its wording against those same records to
@@ -1370,3 +1324,1515 @@ without any test catching the drift either way. `engine/m4/tests/
 test_facilitator_turns.py` (new) pins the three ruled sentences verbatim
 and asserts the R18-defect phrasing they replaced does not reappear.
 `engine/m4` and `engine/m5` suites: 437 passed (435 + 2 new).
+
+**Entry 45 — 2026-09-22. Correction to Entry 33.** After an unshallowed
+check, the reviewer thread found the real merge base is the 2026-09-20
+merge of PR #327 (`20264dec`), not the stale shallow-clone comparison
+Entry 32/33 were working from, and directed a plain `git merge origin/live`
+into a branch off `main` instead of the reconciliation-PR approach Entry 33
+described. **A merge PR does not revert live-only content** — Entry 33's
+"risk the merge resolving `engine/m2/`, `engine/m6/`, and `cic-website/`
+toward `main`'s side" concern does not apply to an actual 3-way merge (only
+to a naive "copy specific paths from main" approach, which was never
+attempted). Executed and verified:
+
+- `cic-poc/frontend`: confirmed zero changes on `live`'s side since the
+  real base — the 28-file diff against `main` is entirely `main`'s own
+  independent evolution (Stage 0b/3c and others); nothing of `live`'s own
+  to lose there.
+- Real conflicts, resolved: `.github/workflows/ci.yml` (two independently
+  added CI job blocks, unioned), `engine/m1/cross_world.py` (`live`'s
+  fuller `ACCEPTED_OPEN` closure for ijc/alx/pahc/hal kept over `main`'s
+  incomplete one, which had left the now-stale `census-living-flag/hal`
+  waiver active), `engine/m2/builders.py` (same exclusion set, live's
+  fuller comment kept), `engine/m4/facilitator_turns.py` (`live`'s docstring
+  update kept — `main`'s claimed a `{display_name}` DOOR template slot that
+  doesn't exist anywhere in the actual, shared, unconflicted code).
+- `records/worlds/*.yaml` (12 files) and their package manifests: resolved
+  toward `main`, then all 12 worlds rebuilt fresh
+  (`engine.m2.cli build` + repin) rather than trusting either side's stale
+  pin — `engine.m2.cli staleness-check` passes clean on all 12. Two more
+  rounds of the same conflict landed concurrently while this merge was in
+  progress (this file's own Entries 34 and 36 above, the R19 retrofit's
+  10-world repin and Stage 6a's 11-world repin) — each resolved the same
+  way and rebuilt fresh again; the third round resolved toward this
+  branch's own accumulated state rather than the incoming side, to stop
+  re-breaking the `hal` fix below on every fresh round of the identical
+  pin conflict.
+- 4 `worlds/*/Open_Gaps_Tracking.md` files (desert, gallic, hal, pahc) were
+  add/add conflicts — `live` had independently created each from scratch,
+  unaware of this world's own existing OG-numbered history. Unioned, not
+  chosen between: `live`'s entries appended and renumbered to continue each
+  file's own sequence, nothing dropped.
+- 6 further add/add record conflicts, initially thought to need this
+  workstream's or a build thread's own scholarly judgment (Report.md's
+  original framing) — checked against the real base and found to be
+  false alarms: 5 were `main` simply ahead of `live` on the completed
+  Stage 4a R11 schema split (Entry 24), one was a pure line-wrap
+  difference. No scholarly call was actually needed; resolved toward
+  `main` (options and their outcome logged in `Ministry/Operations/Audits/
+  Tech-Readiness-2026-09/P2-Operations/Decision-Log.md`).
+- One real regression, caught three times, fixed three times, before any
+  of the three merges committed: a whole-file "take one side's version"
+  resolution of the registry files' package-pin conflict reverts whatever
+  `hal.yaml`'s own `living_tradition_flag` happens to read on that side —
+  a field the pin conflict itself never touches, but a whole-file pick
+  clobbers regardless. Caught each time by `engine/m1/tests/
+  test_cross_world.py`'s own drift check before committing, fixed each
+  time, hal rebuilt again each time, full suite re-run.
+- Full suite: 895/895 passing. `engine.m1.cross_world`: 0 new defects.
+  `engine.m9.cli check`: clean. `tools/check_paths.py`: 0 new unresolved
+  citations (2 baseline entries added for package-timestamp citations that
+  went stale purely from the fresh rebuild above, one dangling citation in
+  the merged `hal` Open_Gaps entry repointed to
+  `Archive/Ministry-Early-Days-2026-07/Scholarly-Review/` — `main`'s own
+  prior, deliberate archive move of that file, not a broken reference).
+
+This workstream's own coordination boundary held throughout: no edits to
+`engine/m4/`, `records/` content, or the frontend renderer beyond what the
+merge itself brought in verbatim from `live`; the four files this entry
+lists as "resolved" in `engine/m1/`, `engine/m2/`, and `.github/` are the
+only hand-edited conflict resolutions, and none of them touch this
+workstream's own in-flight Stage 5+/6 work. (Numbered 45, not 34, 37, 38,
+39, 40, 41, or 42 as earlier drafts had it — this workstream landed its
+own Entries 34–36 concurrently across two more merge rounds; five further
+rounds of `main` then landed their own entries above claiming 37, 38, 39,
+40/41, and finally 42–44 in turn (PR #397, PR #399, PR #395, PR #398, and
+PR #390 respectively) — every one of them landing on `main` while this
+branch's own merge was still open; renumbered each time on merge per this
+file's own "never renumber a past entry" rule, which binds the later
+arrival.)
+
+**Entry 46 — 2026-09-22.** Stage 6f, my own half of R17's required
+seeker read-through: 3 real conversation turns per admitted world (11
+worlds, 33 turns total), run locally against a dev server rather than
+staging (no staging access this session; per Mark's direct instruction
+this stands as the read-through, not a placeholder for one on
+`cic-engine-staging`) - `engine.api.app` on `:8000` (region `us-east-1`,
+`CIC_ENFORCE_ADMISSION=1`) behind the frontend's own dev proxy, with
+`VITE_TRANSPARENCY_ANCHOR_RENDERER=on` so the not-yet-defaulted anchor
+renderer is what actually rendered every turn.
+
+**Method:** a genuinely free-text seeker, not the starter chips - 3
+varied, in-character questions per world (identity/basic, personal,
+and a skeptical/outside-framed challenge), typed and sent through the
+real composer, waiting for each real model response. Driven by a small
+Playwright script (Chromium, 420px viewport - the participant's own
+phone width) rather than by hand, so all 33 turns could run against the
+same real backend in one pass; the reading and judgment on each
+transcript is my own, not the script's. Captured per turn: the full
+rendered text, inline mark count, contested/repeat mark counts,
+General References label, and (tapping up to 2 marks per turn, 54 taps
+total) the actual Level 2 card content a participant would see on tap.
+Two turns (witt, rzg) hit the script's own 90s timeout under parallel
+load on the first pass and were re-run individually, cleanly, right
+after - a driver-script artifact, not a product one.
+
+**Findings, all clean:**
+
+- **No AI tells.** Scanned all 33 transcripts against a list of common
+  disclaimer/hedge/assistant-voice phrases ("as an AI," "I cannot," "please
+  note," "as a language model," "unverified," etc.) - one match, a false
+  positive ("Augustine sent the story... as a warning:" in hal's own prose,
+  a narrative use of the word, not a label). Every voice turn read as the
+  world's own distinctive register - concrete, first-person, no hedging
+  filler, no generic-AI flatness. The two-track hedge distinction (Stage
+  6b/6c's own ground) held: Facilitator turns speak plainly from outside
+  every world ("Papnoute answers only from what's actually known of this
+  world, and will tell you plainly when the record runs out"), Representative
+  turns never break character to hedge.
+- **Confidence phrases (Stage 6b) work and read naturally in real content,**
+  not just fixtures: sampled Level 2 cards actually returned "Recorded
+  directly in a source from the time.", "Historians disagree about this.",
+  and "Based on thin evidence, mostly inference." on real citations, each
+  attached to real source attribution text, not a bare label.
+- **R9's hollow-glyph contested mark and R10's repeat mark both engaged on
+  real generated content** (not only Stage 6d's seeded fixture) -
+  contested marks appeared in 8 of 33 turns, repeat marks in 9 of 33.
+  Visually, per `app.css`'s own design (`.citation-mark--contested`: same
+  color, same size, `-webkit-text-stroke` hollow rather than a new color
+  or glyph): quiet, easy to miss unless looked for, never alarming.
+- **R17's cap held under real pressure.** 6 of the 33 turns (all 3 of hal's,
+  1 each of cappadocian/gallic/ijc) landed their rendered mark count
+  exactly on the computed cap (`max(3, min(8, ceil(sentences/2)))`) -
+  the densest real content this pass produced. Every one of those still
+  read as complete, coherent prose with a sensible General References
+  count (1-7 across all 33 turns, always the one collapsed line, never a
+  scattered list) - nothing read as visibly cut short or missing a
+  citation it should have had.
+- **The ✲ mark explainer (Stage 6e, Entry 41) is live and correct** in
+  every one of the 11 worlds' Arrival screens sampled.
+- **54 of 54 sampled mark taps opened cleanly** - real Level 2 card
+  content every time, zero broken taps, zero empty cards.
+
+**One friction note, not a defect:** on the 420px viewport, a Level 2
+card can visually sit over part of the paragraph underneath it while
+open (the card is a positioned overlay, per `Level2Card.tsx`'s own
+design) - a participant reads it as a normal tap-to-reveal popover (tap
+elsewhere closes it, the text underneath was never altered), but it's
+worth a look if a future pass wants the card to reflow rather than
+overlay on narrow screens. Not blocking; not acted on here.
+
+**What this does and doesn't close:** this is my own half only. Mark's
+own read-through (`cic-engine-staging`, his own six-item checklist,
+per his direct instruction) is separate and still his to run.
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default stays held until both
+halves are done and logged, per R17's own "before Stage 6 ever ships"
+gate (Rulings-Pending.md) - not flipped by this entry.
+
+Raw transcripts/screenshots are local scratch (ephemeral, not
+committed) - this entry is the retained record.
+
+**Entry 47 — 2026-09-22.** Seat-identity guard, built enforcing per Mark's
+direct instruction (before Stage 7, its own PR).
+
+**The finding, from Mark on `cic-engine-staging`:** a Table round (Theon,
+Papnoute, Chloe; "who is jesus") produced a turn labelled Papnoute whose
+text began `"The Facilitator: Papnoute has already given his witness. Let
+me bring in someone who hasn't spoken yet. Theon, you named him the
+Logos..."` and continued `"Theon (Alexandrian Christianity): In practice,
+it meant..."` for a full paragraph - a voice spoke as the Facilitator and
+as another seat, under the wrong name, uncited (zero ✲ marks on the whole
+block). Confirmed pre-existing, not a Stage 6 regression: the August
+live-table-battery reports already show the same defect *class* in a
+milder shape - `engine/m4/reports/live-table-battery-F1-2026-08-28.json`,
+probe `L4-no-foreknowledge`, Papnoute's own turn opening `"Papnoute
+(Desert Monasticism): Theon has answered you rightly..."` (a seat
+prefixing its OWN label onto its own turn, "cosmetic" per that report's
+own framing, distinct from the constitutional-boundary breach the staging
+case shows).
+
+**Prior art checked before building anything new:** PR #10 (closed,
+unmerged, 2026-08-10 - "Table: cost architecture, Haiku evidence, and the
+build") carried a `speaker_label_repair.py` fix for the identical defect
+family, built against the codebase's pre-`engine/`-restructure layout.
+Its own measurement across six regression arms found the defect
+Haiku-only at the time (Sonnet: 0/0 leading and mid-turn labels on both
+its arms; Haiku: 1-12 depending on arm) and its fix was a silent
+deterministic *repair* at emission, never merged, dormant pending a
+Haiku go-live that never happened. Today's staging finding is on Sonnet,
+in production - refutes that PR's own "table-shaped, Haiku imitating the
+transcript" read as the whole story. Not revived: the old `app/` path no
+longer exists, and Mark's own spec here (reject + regenerate once +
+Facilitator fallback) is a materially different, stricter design than a
+silent repair - kept separate rather than resurrected.
+
+**Design, matching Mark's own spec exactly:**
+
+1. **Detection** (`engine/m4/seat_identity_guard.py`,
+   `find_seat_identity_violation`): a label - the Facilitator's own, or
+   any OTHER seated voice's, both full `"Name (World):"` and bare
+   `"Name:"` forms - caught at a line start or right after a sentence-
+   ending punctuation + whitespace, matching exactly the shape the real
+   leaks took (an attributed-transcript line opening mid-paragraph). The
+   *speaking* voice's own label is never guarded against - self-labeling
+   is the separate, milder, out-of-scope defect the August evidence
+   already named distinctly. A bare `"<Name>:"` mid-prose false positive
+   is a real, accepted tradeoff of Mark's own third pattern shape, not
+   narrowed further.
+2. **Reject, regenerate once, violation named:** modeled directly on
+   `engine.m4.turn_selector.select_speaker`'s own retry-once-then-
+   fallback shape - `engine.m4.turn._run_ordinary_voice_turn` gained an
+   opt-in `guard_labels` parameter (`None` on every interview call, so
+   that path is untouched, not merely undisturbed - interview has no
+   other seats to impersonate and never builds the attributed-transcript
+   convention this defect echoes). A catch appends a correction block
+   naming the exact offending prefix to the retry's own turn-directive
+   channel (`_append_seat_identity_correction`, same channel
+   `_build_turn_directive` already owns, measured to win over a competing
+   user-turn pressure) and regenerates once, same evidence, same history.
+3. **Exhausted -> the Facilitator takes the turn:** a second catch sets
+   `voice_event["text"] = ""` (the voice's text is not shown) and a new
+   additive `seat_identity_guard_exhausted` flag; `engine.api.
+   table_wiring._advance_open_round` reads it and appends a new fixed
+   Facilitator template (`engine.m4.facilitator_turns.
+   table_seat_correction_turn`, kind `seat_correction` - a new
+   `facilitator_turn` kind, distinct from `TABLE_DEPENDENCY_CHECK`'s
+   `"safety"`, since this is a generation defect, not a participant
+   leaning on the conversation). **DRAFT COPY, not yet Mark's own word**
+   - same discipline Stage 6b/6c/6e's own participant-facing text
+   followed (Entries 39, 41): the mechanism ships enforcing now, per
+   Mark's own instruction, with this line as its working default pending
+   his confirmation of the exact words:
+   > "This is the Facilitator, stepping in for a moment -
+   > {representative_name}'s last answer didn't hold together the way it
+   > should have, so I'm setting it aside rather than passing it on to
+   > you. Ask again, or bring another voice into it - the Table is still
+   > open."
+4. **The voice_turn event still writes** (empty text, additive
+   `seat_identity_violations`/`seat_identity_guard_exhausted` fields) -
+   deliberately, not suppressed: `engine.m4.projection`'s own fold only
+   advances `round_turns`/`round_speakers` on a `voice_turn` event, never
+   a bare `facilitator_turn` (confirmed by reading `_fold` directly, not
+   assumed) - writing nothing here would leave this seat uncounted as
+   having spoken and risk the next selection immediately re-picking the
+   same seat that just failed. `apply_net("")` was checked directly
+   (empty in, empty/false out, no crash) before relying on it - the
+   pipeline already treats a genuinely empty stream as a legitimate case
+   (`StreamResult.empty`), so this reuses an existing precedent rather
+   than inventing new empty-text handling.
+5. **Logging - one event per catch, not one summary per turn:** a new
+   `seat_identity_violation` event type (`engine.m4.events.
+   REQUIRED_KEYS`/`ENUMS`), fields `round_no, position, world_key,
+   offending_prefix, attempt` (`attempt`: `"first"` then, only if the
+   regenerated attempt ALSO caught, `"regenerated"`) - modeled on
+   `turn_selected`/`round_closed`'s own "the round's audit surface, not
+   recoverable from voice_turn alone" role. `world_key`/`offending_prefix`
+   /`attempt` come back from `engine.m4.turn` (which knows the speaking
+   voice but not round bookkeeping); `round_no`/`position` are filled in
+   by `table_wiring` (which knows the round but not the guard's own
+   internals) - kept split at exactly that seam rather than threading
+   round state into `engine.m4.turn`, which has no other reason to know
+   it.
+6. **A small, flagged addition beyond the literal backend spec:**
+   `TableRoom.tsx` now skips rendering a `turn--voice` block whose text
+   is empty. Without this, "the voice's text is not shown" would be
+   false in practice - the seat's own portrait and name would still
+   render, just over a blank body, which is still showing that seat had
+   a turn. Two lines, Table-only (the interview path never produces an
+   empty voice turn from this guard, since it never receives
+   `guard_labels`), pinned by a new `TableRoom.test.tsx` (the screen had
+   no test file before this).
+
+**Tests:** `engine/m4/tests/test_seat_identity_guard.py` (9 cases,
+including the exact staging repro text verbatim, the exact August-battery
+repro text, and the self-labeling-is-out-of-scope case), a new pinning
+test on `table_seat_correction_turn`
+(`test_facilitator_turns.py`), and two real end-to-end integration tests
+against `create_app()` with a scripted fake client
+(`test_table_api.py`): one where the retry ships clean (asserts exactly
+one `seat_identity_violation` event, the clean text ships, two real
+stream calls were made), one where both attempts catch (asserts two
+violation events with `attempt` `"first"`/`"regenerated"`, `voice.text ==
+""`, the `seat_correction` facilitator turn appears in both the API
+response and the store, and round bookkeeping still counted the seat as
+having spoken). `engine/m4/tests` (377 total) and the Table API suite (42
+total) both green; frontend `tsc --noEmit` clean, `vitest` 28/28.
+
+**Live table battery, run once per item 4** (real, billed Bedrock calls,
+`python -m engine.m4.live_table_battery --region us-east-1 --worlds
+alx,desert,pahc`, report at `engine/m4/reports/live-table-battery-seat-
+identity-guard-2026-09-22.json`): **0 seat-identity catches** across both
+sessions (8 probes, 2 round-cap closes). Consistent with PR #10's own
+old Sonnet-arm measurement (0/0) and with today's guard never having a
+real violation to catch in this one run - this number is an incidence-
+rate/no-regression check on a small live sample, not a correctness proof
+of the guard mechanism itself (that's what the mocked unit/integration
+tests above establish, by forcing a violation through). One pre-existing
+probe, `L2-each-of-you`, recorded `FAIL` (a selector-behavior question -
+speakers were `['desert', 'alx', 'pahc', 'desert', 'pahc']`, genuinely 3
+distinct voices, so the FAIL is in the direct-address-short-circuit half
+of that probe's own condition) - unrelated to seat-identity, not
+investigated further here, out of this PR's own scope.
+
+**Interview path:** confirmed untouched by construction, not merely by
+absence of a failing test - `guard_labels` defaults to `None`,
+`_run_ordinary_voice_turn`'s two interview call sites (`engine.m4.turn.
+run_turn`) never pass it, and every new field on `voice_event` is
+additive.
+
+**Not done here, by Mark's own scope:** no change to what's shown for the
+interview path's own empty-text case (pre-existing, unrelated to this
+guard). No attempt to fix `L2-each-of-you`. No promotion decision - "Mark
+decides whether promotion waits for it," per his own instruction.
+
+**Entry 48 — 2026-09-22.** Mark's own half of R17's required seeker
+read-through, on `cic-engine-staging` at current `main`, his own
+six-item checklist:
+
+1. **Pass.** Leave stayed available while an interview answer was in
+   flight, and closed cleanly.
+2. **Pass.** Leave worked mid-round at the Table.
+3. **Pass.** ✲ marks present; General References opened with text.
+   **Correction to this checklist's own wording, not the code:** glossed
+   terms actually render as plain Tyrian-purple text with no underline
+   (`.name-bridge-mark`'s own `text-decoration: none`, `app.css`) - the
+   "dotted underline" description came from the original design spec
+   (`CiC_Full_UX_Design_V1_0.md` §4.3-4.5, `CiC_Full_UX_Storyboard_V1_0.md`
+   §2.4), never updated when the shipped implementation diverged from it.
+   The CSS is identical on `live` and `main` - no drift, nothing to fix in
+   code.
+4. **Pass.** No `VITE_*` variables set on staging - the flag was reading
+   its real, unconfigured default the whole time this checklist ran.
+5. **Pass.** The Table closed after 3 rounds; the closing line said 3.
+6. **Pass.** rzg: *"Hard weeks are not a contest, and I will not line
+   yours up next to ours as though only the sharper suffering deserves to
+   be named."*
+
+**Two further findings from the same session, neither a checklist item:**
+the first Table turn returned a 502 during a Render deploy race and
+cleared cleanly on retry - an infra timing artifact, not a code defect,
+no action taken. And: the seat-identity leak PR #408 (Entry 47) fixed was
+seen once more in this same session, **before the guard had landed** -
+consistent with Entry 47's own read that the defect is real but rare on
+Sonnet, not evidence against the fix.
+
+**Verdict: promote.** Both halves of R17's read-through are now done and
+logged (mine, Entry 46; Mark's, this entry) - the last condition Entry 41
+and Rulings-Pending.md's own R10/R17 entries named before
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default could flip. See Entry 49
+for that flip, done immediately after this entry per Mark's own
+instruction ("log it, then begin Stage 7").
+
+**Entry 49 — 2026-09-22.** `VITE_TRANSPARENCY_ANCHOR_RENDERER`'s default
+flipped: the anchor-driven renderer (`VoiceTurnBody.tsx`'s
+`renderFromTransparencyPlan`) is now what a participant sees by default,
+the legacy renderer only reachable by an explicit `off` or on an older
+logged turn with no `transparency` plan attached. Stage 6e (R10) is
+closed.
+
+**Gate, closed in full:** R17's own text named this as blocked on "an
+automated test [Stage 6d, PR #399] plus Mark's own read-through as a
+seeker with no background before Stage 6 ever ships." Both halves are now
+done and logged - mine (Entry 46) and Mark's (Entry 48, verdict:
+promote). No deployment config anywhere sets this variable (confirmed by
+search before Stage 6f and re-confirmed here), so the flip is a code
+change to `lib/flags.ts`, not a config one - nothing on `live` or `main`
+needs a separate deploy-side toggle.
+
+**The change itself, one line, same safety discipline inverted:**
+`useAnchorRenderer` read `=== 'on'` (default off, opt in); now reads `!==
+'off'` (default on, opt out) - a misconfigured or accidentally-empty env
+var still can never silently flip participant-facing behavior, it just
+now silently STAYS on the ruled-and-tested renderer rather than the
+legacy one.
+
+**Verified live, not just in unit tests** (both existing test files
+mock or omit the flag directly, so neither would have caught a real
+wiring mistake): local dev stack, backend and frontend, `VITE_
+TRANSPARENCY_ANCHOR_RENDERER` genuinely unset in the environment - a
+real turn against `alx` rendered 6 inline marks, a working "General
+references (1)" collapsed line, and a populated Level 2 card on tap,
+exactly the anchor renderer's own shape, with no flag set at all.
+
+**Docs corrected alongside the flip**, not left stale:
+`VoiceTurnBody.legacy-default.test.tsx`'s own docstring and `describe`
+title no longer claim the flag itself defaults to legacy (it doesn't
+anymore) - retitled to what the file actually proves now: the legacy
+renderer stays genuinely reachable whenever a turn carries no
+`transparency` plan (an older logged session, or one from before Stage
+3b), independent of the flag. `VoiceTurnBody.test.tsx`'s own
+cross-reference updated to match.
+
+**Tests:** frontend `tsc --noEmit` clean, `vitest` 28/28 (no count
+change - both existing suites were already exercising each renderer
+directly, by mock or by omission, so the flip needed no new test to stay
+covered, only the docstring correction above).
+
+Rulings-Pending.md's R10 and R17 entries updated to note this closure.
+
+**Entry 50 — 2026-09-22.** Two governance rulings from Mark tonight,
+relayed via the reviewer thread ("CiC — Tech Review & Funding Readiness
+Prep") under Mark's own standing authorization (pasted into this session
+2026-09-22: that thread "speaks for me on merge orders, fix lists,
+sequencing, and pass/fail verdicts... participant-facing words,
+Representative identity, governance and methodology, and unresolved
+tensions still go to Mark himself" - both rulings below are Mark's own
+words, this entry only records them).
+
+**R26 — may a Representative speak about another tradition, or claim a
+doctrine its own world's records don't hold.** Mark's own words:
+
+> "The representative should only know its own sources unless they would
+> have known the sources from another in reality."
+
+Ruled shape: on a first ask about another Christian tradition, if the
+asked world's own records hold nothing on it, the voice answers "Our
+record doesn't mention that Christian tradition." and then answers the
+rest of the question from its own records. If the records do hold
+something, the voice speaks only from those records, cited. The
+Facilitator's existing `other_tradition` etic turn stays as the
+mechanism for a second press.
+
+**The real defect this closes**, found on `cic-engine-staging`: Theon/alx
+asked "what was your relationship with the donatists." alx holds zero
+records mentioning Donatists (grep-confirmed). The voice described
+Donatist history uncited, and separately attributed to Alexandria itself
+a sacramental doctrine no alx record holds - "what the sacrament does,
+it does by Christ's power, not the minister's purity"; "even a broken
+priest could not block his grace" - which is Augustine's own doctrine, a
+century later than alx's own world, not alx's to claim.
+
+**R27 — a hard requirement: every declarative claim sentence carries a
+citation.** Ruled option A: every declarative claim sentence in a voice
+turn must carry a citation, or be one of a short, closed allowed-uncited
+list - the honest-limit sentence (R26's own form, and the world's
+existing honest-limit forms), a question back to the participant, and
+first-person framing making no historical or doctrinal claim.
+Deterministic check, no new model call. R26's two violation shapes (a
+neighbour tradition named without citation; a doctrine belonging to
+another world asserted as the answering world's own, inside an
+`other_tradition` turn) are violation classes inside R27's own check, not
+a separate guard.
+
+**Rollout:** report-only for one week to measure the real per-world
+uncited-claim rate, then enforced with the seat-guard's own shape
+(regenerate once with the violations named, then the Facilitator takes
+the turn) - the same pattern PR #408 (Entry 47) already built and proved.
+Mark sets the enforcement threshold once the measured rate is in.
+
+Both rulings recorded in `Rulings-Pending.md` (new R26, R27 entries)
+alongside this one. Full engineering design for R27's detection
+mechanism and the build order - each item its own PR, three-round review
+cap per PR - in Entry 51.
+
+**Entry 51 — 2026-09-22.** R27 build order item 1: the detection design
+for "every declarative claim sentence carries a citation, or is one of a
+short allowed-uncited list" (Rulings-Pending.md R27, Entry 50). No code
+in this entry - the check module itself is item 2, its own PR. Everything
+below was verified against the real modules it reuses, not assumed.
+
+**Input: reuse `engine.m4.grounding_net.check_turn`'s own per-sentence
+output, not a second splitter.** `check_turn` already runs
+`parse_tagged()` (the production sentence+tag splitter grounding_net.py
+itself is built around - quote-balanced, tag-aware) and returns
+`net_result["sentences"]`, one `{"sentence": str, "tags": list[str],
+"verdict": "ok"|"withhold", "why": str|None}` per sentence. The R27
+module takes this same list as input (computed once, already in
+`engine.m4.turn._run_ordinary_voice_turn` before `apply_net`), not the
+raw text again - two independent sentence-splitters risking disagreement
+is a real correctness class of bug this avoids by construction, the same
+"one implementation, owned once" discipline `claim_markers` itself
+already follows. **Scoped to `verdict == "ok"` sentences only** - a
+`withhold`ed sentence never reaches the participant (apply_net drops it),
+so R27 has nothing to check in one that was never shown.
+
+**"Carries a citation"** = `bool(sent["tags"])`. Simple; already computed.
+
+**The three allowed-uncited kinds, in the order checked:**
+
+1. **A question back to the participant** - `sentence.strip()` ends in
+   `?` (trailing quote/bracket chars stripped first). Deterministic, no
+   open question here.
+
+2. **An honest-limit sentence.** Two sub-cases, both real, both
+   verified:
+   - R26's own new fixed sentence, exact (case-insensitive) match:
+     `"our record doesn't mention that christian tradition"`. This is
+     the literal directive text item 2 wires into the `other_tradition`
+     first-ask path (below) - the voice is TOLD to say these words, so
+     an exact match is the right bar, not a guess.
+   - **The fleet's own existing honest-limit vocabulary already exists
+     and is already calibrated** - `engine.prose.SCAFFOLD_MARKERS` (16
+     phrases: "we do not have", "we cannot", "we will not draw one", "we
+     find none of these", etc.) and `SELF_NAMING_MARKER`, the exact list
+     `grounding_net.verdict_for_sentence` already uses for its own
+     `"exempt: honesty scaffolding"` verdict, calibrated against 17 real
+     live turns per that module's own docstring. Reusing this list
+     directly is a stronger design than a new keyword set built from
+     nothing: it's already fleet-proven vocabulary, not a guess at what
+     an honest-limit sentence sounds like. (`evidence.py`'s own
+     `honest_limit` record type is a normally-CITED record - a
+     properly-generated honest-limit sentence usually already carries
+     its own `[[honest_limit.id]]` tag and passes R27 on citation alone;
+     this category is the safety net for the case where the voice
+     paraphrases one without carrying the tag forward - a real, already-
+     seen failure shape this whole workstream exists to catch.)
+
+3. **First-person framing making no historical or doctrinal claim.**
+   Sentence opens (first token, case-insensitive) with a first-person
+   subject - `i`, `i'd`, `i've`, `i'll`, `i'm`, `we`, `we'd`, `we've`,
+   `we'll`, `we're`, `my`, `our` - **and** `engine.prose.claim_markers
+   (sentence)` returns empty. `claim_markers`'s own docstring: "empty
+   result means it's interpretive/values framing - skip it outright" -
+   exactly category 3's own definition, and reusing it here (unlike as
+   the overall gate below) is a direct, justified fit.
+
+**Verified finding that shapes the whole design - `claim_markers` cannot
+be R27's own overall gate.** The natural first instinct is "a sentence
+needs a citation only when `claim_markers` flags it as a claim" - tested
+directly against the R26 motivating sentences and it fails:
+```
+claim_markers("What the sacrament does, it does by Christ's power, not the minister's purity.")
+  -> ['proper-noun:["christ\'s"]']   # catches, but only by an accident of
+                                      # the possessive form slipping past
+                                      # _is_common_vocab's bare "christ" check
+claim_markers("Even a broken priest could not block his grace.")
+  -> []                              # MISSES - a real, uncited doctrinal
+                                      # claim, zero markers
+```
+The second sentence is exactly the shape R26/R27 exist to catch and
+`claim_markers` alone returns nothing. `claim_markers` was built for a
+narrower job (grounding-ratio gating on strongly-attributable factual
+claims) with a default-EXEMPT polarity ("empty means skip it"); R27's own
+ruling is the opposite polarity by construction ("every declarative claim
+sentence... must carry a citation, or be one of a short list"): default-
+REQUIRED, narrow exemption. So the module is built as: not-a-question,
+not-an-honest-limit, not-first-person-without-a-claim -> requires a
+citation, full stop - never "only if claim_markers agrees." `claim_markers`
+is reused only inside category 3's own narrower question, where its
+actual, verified meaning ("no checkable claim") is exactly what's being
+asked.
+
+**R26's own two violation classes are caller-side labels on top of the
+same base check, not separate detection:**
+- `neighbour_named` - an `uncited_claim` sentence that also names another
+  admitted world's own `card_name`/representative name (the same fleet
+  name list `engine.api.table_wiring._labels` and
+  `facilitator_turns.table_door_turn` already build from the registry -
+  item 2 reuses that construction, not a new list).
+- `own_doctrine_in_other_tradition_turn` - an `uncited_claim` sentence
+  inside a turn routed via the `other_tradition` out-of-scope
+  classification (`engine.m5.routing.PRESSABLE_CLASSES`). This is
+  ROUTING context, not sentence content - the caller (which already
+  knows `gate_result.routing`) attaches the class, the detection module
+  itself stays pure (sentences in, offenses out, no routing knowledge).
+
+**Routing, checked directly against `engine/m5/routing.py`'s own
+`route()` before writing anything about it here - the first draft of
+this paragraph guessed wrong and was corrected before committing.** The
+routing shape R26 wants already exists: `other_tradition` (a
+`PRESSABLE_CLASSES` member) routes to `voice_with_directive` - an
+ordinary in-world voice answer - on the first ask (`route()`'s own
+`reason=f"{out_of_scope_class}, first ask - in-world answer"`), and only
+to the Facilitator's `etic_turn` on a second press
+(`pressed.get(out_of_scope_class)`). Nothing in the routing table itself
+needs to change for R26. What's actually missing: `assemble_directive`
+(the function that builds the first-ask's own directive) builds a plain
+directive today - asks, register note, ambiguity options - with **no
+special instruction for the other-tradition case at all**, which is
+consistent with how the real staging defect happened: the voice, given
+no guardrail distinguishing this question from an ordinary one, answered
+freely. Item 2's real work here is a new directive component (same shape
+as `table_engagement`/`figures_already_named` in
+`engine.m4.turn._build_turn_directive` - an additional instruction
+string, not a routing change) carrying R26's own rule and its exact
+fixed sentence, added specifically on an `other_tradition` first ask.
+
+**Event shape, new type in `engine.m4.events`:**
+```
+"uncited_claims": {"speaker", "offenses"}
+```
+`offenses`: list of `{"sentence": str, "class": "uncited_claim" |
+"neighbour_named" | "own_doctrine_in_other_tradition_turn"}`. **A real
+gap in the existing schema, flagged for item 2:** `events.py`'s own
+`ENUMS` mechanism validates `(event_type, field) -> {value}` against a
+scalar payload value - it has no way to constrain a value living inside a
+list of dicts. Item 2 either extends `validate()` to walk `offenses[].class`
+against a closed set, or accepts this one field unvalidated at the schema
+layer (relying on the module's own tests for correctness instead) -
+item 2's own call, not a blocker on this design.
+
+**Facilitator turns are never checked** - `facilitator_turns.py`'s own
+templates are code-owned, never model-generated (same discipline
+`output_check.py` and the seat-identity guard both already rest on); the
+R27 module only ever runs on `voice_turn` text.
+
+**Report-only in this PR, per Rulings-Pending.md R27:** item 2 writes the
+`uncited_claims` event, nothing participant-visible changes. Item 4
+(live battery + M8 cost-study prompts, check on) is where the real
+per-world rate gets measured - the `SCAFFOLD_MARKERS`-based honest-limit
+detection above is a first pass calibrated on prior evidence, not this
+specific check; that measurement is exactly where a real gap in it would
+show up as an inflated false-positive rate, safely, before anything
+enforces.
+
+Next: item 2, its own PR, three-round review cap per Mark's own
+standing rule (CLAUDE.md, "Scaling the build").
+
+**Entry 52 — 2026-09-22.** R27 fix list (reviewer thread, relayed after
+item 4's own first live battery run, PR #417 - `live-uncited-claims-
+battery-report.json`, 86% of interview turns and 100% of table voice
+turns carrying at least one raw offense). The reviewer thread's own
+verdict on that run: the raw rate itself is real but two real gaps in
+the allowed-uncited list were inflating it, and the run's own
+other-tradition probe never actually exercised R26's own routing
+classification. Three fixes, one PR, three-round cap:
+
+**F1 - the honest-limit exemption missed real fleet honest-limit
+forms.** The battery's own offense list named the exact sentences: *"How
+it ended among us is not in our record."*, *"Here is the honest limit."*,
+*"No rule of ours survives that explains the difference."* A new closed
+list, local to `engine.m4.uncited_claims` and deliberately **not** added
+to `engine.prose.SCAFFOLD_MARKERS`: that vocabulary also drives
+`grounding_net.verdict_for_sentence`'s own withhold/ok decision
+fleet-wide, and widening it there would change more than this one
+check's own exemption - the same "one implementation, owned once"
+discipline this module's own docstring already argues for cuts the other
+way here: two DIFFERENT jobs (a withhold gate; an uncited-claim
+exemption) sharing one vocabulary would be the coupling, not the
+reuse. Two shapes of fixed pattern:
+- Four fixed phrases: `"not in our record"`, `"our record does not"`,
+  `"our record is silent"`, `"the honest limit"`.
+- A short-window regex for the "survives"/"reached us" negation shape
+  the fixed phrases above don't cover (`"No rule of ours survives..."`
+  names nothing "absent" by the word "record" at all): a negator (`no`,
+  `none`, `nothing`, `not`, `never`) within 40 characters of `survive(s)`/
+  `survived`/`reached us`/`reaches us`, same clause. Proximity-bounded
+  and negation-gated on purpose - a genuine citable claim like *"The
+  letter survives in three copies."* carries no negator and stays a real
+  offense, pinned as its own negative-control test.
+
+**F2 - the first-person no-claim exemption was opener-only.** A
+conditional offer whose MAIN clause is first-person but whose SENTENCE
+doesn't open that way - *"If you name the conflict you mean, I will tell
+you plainly where our own record speaks to it and where it does not."* -
+was wrongly caught: the check only looked at the sentence's first word.
+Fixed clause markers (`"i will"`, `"i can"`, `"we will"`, `"we can"`),
+checked anywhere in the sentence rather than sentence-initial only.
+`claim_markers(sentence)` stays the real guard, unchanged - a sentence
+that happens to contain one of these words while making a real claim
+elsewhere (*"If you ask, we can tell you Origen taught this in the year
+240."*) is still caught, pinned as its own test.
+
+**F3 plumbing - a battery-only regeneration channel, not a production
+change.** `engine.m4.turn._run_ordinary_voice_turn` gained one new
+optional parameter, `correction: str | None = None`, appended onto
+whatever `_build_turn_directive` already produced - same append-not-
+replace shape `_append_seat_identity_correction` already uses for the
+seat-identity guard's own one retry. **Unset on every real caller**
+(`engine.api.wiring`, `engine.api.table_wiring` never pass it) - this is
+plumbing for `engine.m4.live_uncited_claims_battery` to simulate one
+regeneration naming a turn's own uncited sentences, battery-only, no
+participant path (the fix list's own words), without duplicating this
+function's evidence-assembly/generation logic inside the battery script
+itself. A hermetic test (`test_correction_is_appended_to_the_turn_
+directive_the_model_actually_sees`) proves the text reaches the model's
+own system prompt; no other caller's behavior changes, since the
+parameter defaults to `None` everywhere else.
+
+**F3(a) and F3(b) - what the fix list asked the re-run to measure -
+belong in that PR's own body**, per the reviewer thread's standing
+convention ("the reviewer reads PRs, not this session"): F3(a) fixes the
+other-tradition probe into a direct, context-free first turn of its own
+fresh session (the item-4 run's own probe rode on a SECOND turn of the
+same session with no history threaded between the two `run_turn` calls,
+so the reader never saw a complete other-tradition question and
+`out_of_scope_class` read `"none"` on every turn); F3(b) adds one
+regeneration, battery-only, for every turn the raw probe caught, and
+reports the post-regeneration residual rate alongside the raw one -
+"that post-regeneration number is what Mark sets the threshold on; the
+raw rate is not," in the reviewer thread's own words.
+
+**Process rule, effective this entry on:** self-merging stops. A PR
+opens, carries its own report in the body, and waits for the reviewer
+thread's own verdict fire before it merges - PRs #414-417 are accepted
+as already merged under the prior rule; every PR from here on follows
+the new one.
+
+**Entry 53 — 2026-09-22.** Stage 7a: recording the streaming design
+brief, in my own words, per the reviewer thread's own instruction -
+design only, no code in this entry or its PR. **A gap this entry closes
+by substitution, not by finding the file:** `Build-Plan.md`'s own line
+("Stages 6-9... are specified in full in the Fable design pass's own
+report - ask Mark for it when `Rulings-Pending.md` starts clearing")
+names a report that does not exist as a file in this repository. The
+reviewer thread's own message said so directly and supplied the design
+input in its place; what follows is that input, restated, not a
+transcription of a document that was never actually written.
+
+**Where a stream would have to slot in.** Today, `engine/api` returns a
+whole finished turn as one JSON response; the frontend fetches per turn,
+nothing sooner. `engine/provider/bedrock.py` already accounts usage
+correctly for a streaming response (the SDK call underneath
+`stream_voice_turn` already streams token-by-token; nothing currently
+reads those tokens before the full text is assembled). The real pipeline
+a stream would have to survive, in order: `engine.m4.turn`'s seat-
+identity guard first (reject/regenerate/fallback on a Facilitator-label
+or another-seat leak), then `apply_net` (the grounding net, per sentence,
+tag-checked - this is where a sentence either streams or is withheld),
+then `output_check` (report-only, R14 - reads the FINISHED text), then
+the transparency plan (citations/glosses/figures, built over the whole
+answer). `R17`'s own display cap is applied at render, on the frontend
+side, not inside this pipeline.
+
+**Three candidate shapes, one already rejected.**
+
+- **Shape C (rejected outright): raw token streaming with retraction on
+  a failed check.** Stream every token as Bedrock emits it, then pull
+  words back if a later check (grounding net, do-not-voice, seat-
+  identity) fails on them. Rejected on one ground, not weighed against
+  the others: **a participant must never see words and then lose them.**
+  That's not a performance tradeoff to negotiate - it's the same
+  "reports, never edits" discipline `output_check`'s own module docstring
+  already rests the whole net on, applied to what a screen shows in
+  real time instead of what a log records after the fact.
+- **Shape A: perceived streaming.** The whole pipeline stays exactly as
+  it is today - one full turn generated, checked, and finished server-
+  side, then handed to the frontend whole. The frontend alone reveals the
+  already-checked, already-finished turn sentence by sentence, at a
+  reading pace, as if it were arriving live. Zero new risk (nothing
+  participant-facing changes about WHEN a check runs), but also zero real
+  gain: first-word latency is unchanged, since the participant still
+  waits for the full generation to finish before anything appears.
+- **Shape B (recommended): sentence-gated streaming.** The server itself
+  streams from Bedrock, buffers to sentence boundaries (not token
+  boundaries), and runs the SAME per-sentence checks the whole-turn path
+  already runs - grounding net, do-not-voice, the seat-identity prefix
+  check, and, once R27 is enforced, R27's own per-sentence check - on
+  each completed sentence as soon as it's complete, not after the whole
+  turn. A sentence that clears is emitted immediately over a server-sent-
+  events endpoint; a sentence that fails never reaches the transport at
+  all (the same withhold the whole-turn path already does, just moved
+  earlier). Citation marks attach at sentence boundaries, as each cleared
+  sentence lands; the transparency plan still finalizes at turn end (it's
+  a whole-answer artifact by design, not a per-sentence one). R17's
+  display cap still enforces at turn end, and specifically **demotes a
+  mark that's already been shown to the references line - it never
+  deletes a mark the participant already saw**, the same "never revoke
+  something already shown" discipline Shape C's own rejection rests on,
+  applied to the cap instead of the net.
+
+**Rules that hold regardless of which shape ships:**
+- **Constraint A - no added tokens.** Streaming is a transport change,
+  not a content change; nothing about what gets generated or said is
+  different because it arrived sentence-by-sentence instead of whole.
+- **Constraint B - separate, flag-gated, deletable module.** Not woven
+  into the existing whole-turn path; a self-contained addition that can
+  be removed cleanly if it doesn't work out, never a rewrite of what
+  already ships.
+- **Facilitator turns never stream** - they're code-owned templates
+  (`facilitator_turns.py`'s own module docstring), not model-generated
+  text arriving token by token; nothing about them benefits from or needs
+  a streaming transport.
+- **Nothing streams before its own sentence has passed the same checks
+  the whole-turn path already applies to it** - Shape B's whole design is
+  this rule moved earlier in time, not a relaxation of it.
+- **Table rounds stream one seat at a time** - the selector and round
+  mechanics (`engine.m4.turn_selector`, `engine.m4.round`) are entirely
+  unchanged; only the chosen seat's own voice turn streams, the same way
+  it already generates as one call today.
+- **Flag-gated, default off, flipped only after Mark's own staging
+  look** - same discipline `useAnchorRenderer`/R10 already set as
+  precedent (Decision-Log Entry 49): built behind a flag, proven on
+  staging, then switched on by Mark's own word, never auto-enabled by a
+  merge.
+
+**Two participant-facing choices, Mark's alone - drafted here, not
+decided.** Per this file's own working rules (real options with
+explanations and a recommendation, never a flat conclusion with no
+alternatives shown):
+
+**E1 - what happens mid-stream when a guard catches a violation
+(seat-identity, or R27 once enforced) partway through a turn that's
+already shown some sentences to the participant?**
+- *(a) Keep what's shown, stop, append a Facilitator line.* The sentences
+  already on screen stay exactly as they were; the stream simply stops
+  there, and a Facilitator line closes out the turn honestly (something
+  in the shape of the seat-identity guard's own existing fallback -
+  Decision-Log Entry 47's `table_seat_correction_turn`). Simple and
+  honest about what happened, but a participant reads a turn that visibly
+  trails off mid-thought.
+- *(b) Replace the whole turn, collapse what was shown behind a
+  "withdrawn" note.* The sentences already on screen are hidden again
+  behind a label saying the turn was withdrawn, and a full replacement
+  (regenerated, or the Facilitator's own turn) takes its place. Never
+  literally shows a participant something and then deletes it in place
+  (the still-live sentences are labeled, not erased outright) - but it IS
+  taking back an experience the participant already had, which is close
+  enough to Shape C's own rejected shape that it deserves real scrutiny,
+  not a quick approval.
+- *(c) Hold the first paragraph until the guard has already seen it, then
+  stream from there. (Recommended.)* Don't start streaming at sentence
+  one - wait until the guard has checked at least the opening paragraph,
+  THEN begin the sentence-by-sentence reveal from a point already known
+  to be clean. This trades away a little of the first-word-latency gain
+  Shape B exists to capture (an opening delay, not the full wait Shape A
+  has), in exchange for making the catch-mid-stream case in (a) and (b)
+  rare rather than routine - most of a turn's own risk concentrates in
+  its opening framing, the same place a seat-identity leak or an uncited
+  claim is most likely to land early. Recommended because it doesn't ask
+  Mark to accept either "the participant sees a trailed-off turn" or "the
+  participant sees something taken back" as the routine case - it makes
+  both rare, at a real but small latency cost.
+
+**E2 - when does a citation mark attach, during a stream?**
+- *(a) With each sentence, as it clears. (Recommended.)* A mark appears
+  the instant its own sentence lands, matching what the participant is
+  actually reading at that moment - the mark and the claim it supports
+  arrive together, which is the whole point of a mark in the first place
+  (Decision-Log Entry 49's own R10 rationale: a citation is evidence
+  shown at the point of the claim, not detached from it).
+- *(b) All attached at turn end.* Marks wait for the whole turn to
+  finish, then appear together - simpler to implement (one pass over the
+  finished transparency plan, same as today), but breaks the very
+  point-of-claim association (a) preserves: a participant reads five
+  sentences with no marks, then five marks appear retroactively, and has
+  to work backward to match each one to what it was for.
+- **How an R17 cap demotion reads under (a):** a mark shown live, sentence
+  by sentence, that later gets demoted to the references line once R17's
+  display cap is reached at turn end is not a mark being taken away in
+  the Shape-C sense - the sentence and its claim stay exactly as shown;
+  only where the citation's own detail lives moves (inline mark →
+  references line), the same demotion the whole-turn path already does
+  today, just now happening to a mark the participant watched arrive
+  live rather than one that was never shown inline in the first place.
+  Worth saying to Mark plainly when this is put to him: this is the one
+  place a streamed turn's own citation display can visibly change after
+  the fact, even though nothing about the underlying claim or its
+  grounding does.
+
+**Build order, after R27 items 1-4 (unchanged from the reviewer thread's
+own words):** 7a this entry; 7b the engine streaming module itself,
+behind `CIC_API_STREAMING`, the existing whole-turn message endpoint left
+completely untouched; 7c the frontend consumer, behind `VITE_STREAMING`,
+built on the Stage 6 renderer only (no second renderer); 7d the seat-
+identity guard and R27 moved into per-sentence mode, with tests including
+the staging Papnoute leak text (Decision-Log Entry 47) run through the
+streaming path specifically; 7e a live battery with streaming on,
+reporting catch counts and first-word latency, then a stop for Mark's own
+staging look before anything ships to a real participant. **Streaming
+does not ship to participants before R27's own enforcement is on** - the
+reviewer thread's own sequencing, restated here as the gate it is.
+
+Escalating E1 and E2 to Mark now, per the four standing escalation
+categories (participant-facing words) - no 7b code starts until both are
+ruled.
+
+**Addendum to Entry 53 - 2026-09-22.** Mark's own rulings on E1/E2,
+relayed via the reviewer thread under his standing authorization
+(Rulings-Pending.md R30/R31):
+
+**R30 (E1): option (c).** Hold the opening paragraph until the guard has
+checked it, then stream sentence by sentence from a point already known
+to be clean. A mid-stream catch after that point follows the seat-guard
+shape already ruled (regenerate once, then the Facilitator takes the
+turn) - the 7b design entry states exactly what the participant sees in
+that residual case, and anything other than the Facilitator closing the
+turn with the sentences already shown left in place escalates before it
+is built.
+
+**R31 (E2): option (a).** Citation marks attach with each sentence as it
+clears. An R17 cap demotion at turn end moves an already-shown mark to
+the references line and never removes a sentence or a claim.
+
+No 7b code starts yet even with both ruled - the reviewer thread's own
+sequencing puts R27-A's build order (Entry 54) ahead of it.
+
+**Entry 54 — 2026-09-22.** R27-A: Mark's own ruling that the unit of
+R27's enforcement is the paragraph, not the sentence - chosen from three
+options put to him after PR #419's own live numbers (86% raw sentence
+rate, 84% residual after one regeneration; Entry 52's own data). Via the
+reviewer thread's standing authorization. Recorded in full in
+Rulings-Pending.md's own R27-A entry; restated here because this is
+where the build order lives.
+
+**Ruled shape:** a paragraph must carry at least one citation. The
+grounding net checks every sentence in that paragraph against the union
+of that paragraph's own cited records - an untagged sentence inside a
+cited paragraph gets the SAME per-sentence check a tagged sentence
+already gets, just against the paragraph's own citation set rather than
+its own bare tag. A wholly uncited paragraph fails, unless every
+sentence in it is one of R27's own allowed-uncited kinds. R26's two
+classes (`neighbour_named`, `own_doctrine_in_other_tradition_turn`) stay
+per-sentence hard failures - the paragraph unit belongs to R27's own base
+check only, not to those two.
+
+**Rollout, unchanged from R27 itself:** report-only with rates first,
+Mark sets the threshold, then flag-gated enforcement with the seat-guard
+shape (regenerate once with the failures named, then the Facilitator
+takes the turn).
+
+**Build order, each its own PR, three-round cap, no self-merge:**
+1. Design entry - how a paragraph is delimited in the voice's raw tagged
+   text (blank-line blocks, the existing sentence split running inside
+   each one); how "the paragraph's cited records" is formed (the union
+   of every tag appearing anywhere in that paragraph); what the
+   grounding net does with an untagged sentence in a cited paragraph (the
+   same per-sentence check it already runs on a tagged sentence, against
+   that union instead of the sentence's own bare tag); what verdict an
+   untagged sentence gets when that check fails - two named options to
+   choose between and recommend, escalating to Mark only if the choice is
+   participant-visible in a way he hasn't already ruled: (a) withhold the
+   sentence exactly as a failed tagged sentence is withheld today, or (b)
+   count it as a paragraph failure that triggers regeneration without
+   itself being withheld. Constraint A holds (no new model call).
+2. Report-only module change: paragraph coverage computed beside the
+   existing sentence check; the `uncited_claims` event gains a
+   paragraph-level shape (stated in item 1's own design entry) while the
+   existing `offenses` list stays exactly as it is; the grounding net
+   extended to check inherited sentences, logging its verdict without
+   withholding anything yet. No participant-visible change in this PR.
+3. Tests: the alx Origen paragraph from the #419 report ("For years they
+   held together." inside a cited paragraph) must pass paragraph coverage
+   and be net-checked; a wholly uncited narrative paragraph must fail; a
+   paragraph of only honest-limit sentences must pass; the Augustinian
+   sentences inside an `other_tradition` turn must still fail per
+   sentence (R26's own classes, unchanged by this amendment).
+4. Battery: per-world rates under the paragraph unit, raw and
+   post-regeneration, plus the net's own verdict distribution on
+   inherited sentences (how many would be withheld under option (a)
+   above). Cost reported in the PR body. Mark sets the threshold on these
+   numbers, not item 4's own sentence-level ones (Entry 52).
+5. Enforcement, flag-gated, only on Mark's own word after item 4.
+
+Sequencing for this session (reviewer thread's own words): the F4-F6 PR
+already in flight finishes first, then R27-A items 1-4, then Stage 7b-7e
+(streaming does not ship before R27-A's own enforcement is on).
+
+**Entry 55 — 2026-09-23.** R27-A build order item 1: the paragraph-
+coverage design, stated exactly, per the reviewer thread's own build
+order (Entry 54) plus two further design points the reviewer put to
+this entry directly, arising from PR #420's own live numbers. Design
+only - no code in this entry or its PR; item 2 builds the module.
+
+**1. How a paragraph is delimited.** Blank-line blocks in the voice's
+raw tagged text - `engine.m4.live_uncited_claims_battery`'s own
+`_PARAGRAPH_SPLIT` regex (`\n\s*\n`) already does exactly this, proven
+against real live text across two battery runs (#419, #420); item 2
+moves this into `engine.m4.grounding_net` itself rather than leaving it
+battery-only. The existing sentence split (`quote_aware_sentences`,
+`parse_tagged`'s own machinery) runs INSIDE each paragraph block,
+completely unchanged - a paragraph is a sequence of the same sentences
+`check_turn` already produces, grouped by which blank-line block they
+fell in, nothing about how a sentence itself is found or tagged changes.
+
+**2. How "the paragraph's cited records" is formed.** The union of every
+record id tagged anywhere in that paragraph, across however many of its
+own sentences carry a tag. `engine.m4.live_uncited_claims_battery`'s own
+`_paragraph_coverage` already computes the boolean form of this (does
+the paragraph carry a tag at all); item 2's own module needs the actual
+id set, not just the boolean, since step 3 below checks an untagged
+sentence's content against those specific records, not merely against
+"some record or other."
+
+**3. What the grounding net does with an untagged sentence in a cited
+paragraph.** The exact same per-sentence check `verdict_for_sentence`
+already runs on a TAGGED sentence - claim_markers, grounding_ratio
+against the record set's own content words - run again, unchanged, but
+fed the paragraph's own inherited record set in place of the sentence's
+own (empty) `tags` list. Concretely: `verdict_for_sentence(text, tags,
+...)` already takes `tags` as a plain list of ids; the paragraph
+wrapper's whole design is "compute `tags` differently before the call,
+change nothing after it" - an untagged sentence's own inherited call is
+`verdict_for_sentence(sentence_text, list(paragraph_record_ids), ...)`,
+the identical function, no new logic inside it, no new model call
+(Constraint A holds by construction: this is string comparison against
+already-loaded records, exactly what every other verdict on this turn
+already does). This is real reuse, not a description of reuse - the one
+function already does exactly what an inherited check needs; the wrapper
+only changes which `tags` value it hands that function for one class of
+sentence.
+
+**4. What verdict an untagged sentence gets when its own inherited check
+fails - two options, recommending one.**
+- *(a) Withhold the sentence exactly as a failed tagged sentence is
+  withheld today.* The one sentence silently drops from what a
+  participant sees; the rest of the paragraph, and the rest of the turn,
+  streams as normal.
+- *(b) Count it as a paragraph failure that triggers regeneration,
+  without itself being withheld. (Recommended.)* Nothing is dropped
+  sentence-by-sentence; the WHOLE TURN is what regenerates, via the
+  seat-guard shape R27 already ruled for enforcement (Rulings-Pending.md
+  R27: "regenerate once with the violations named, then the Facilitator
+  takes the turn") - the same mechanism already ruled, applied to a new
+  failure kind, not a new mechanism.
+
+**Recommending (b), and this does not need to go to Mark**, for exactly
+the reason the reviewer's own instruction names as the escalation test:
+(a) is a genuinely NEW participant-visible shape nobody has ruled -
+a paragraph the participant reads with one sentence silently missing
+from the middle of it, a hole in the prose no one asked for and R27-A's
+own reasoning ("a paragraph must carry at least one citation" - the
+paragraph is the unit, not its individual sentences) argues directly
+against treating as sound. (b) is not a new shape at all - it is R27's
+own already-ruled enforcement mechanism, whole-turn regeneration,
+applied to a paragraph-level failure instead of a sentence-level one.
+Nothing about what a participant would ever see is being decided fresh
+here; the choice is only which of two already-adjacent behaviors a new
+failure kind maps onto, and only one of them (b) maps onto something
+already ruled.
+
+**5. Narrowing `own_doctrine_in_other_tradition_turn` - the reviewer's
+first further point, from #420's own numbers.** As built (PR #420),
+`classify_other_tradition_turn` upgrades EVERY base `uncited_claim`
+offense inside an `other_tradition` turn, unconditionally - 24 of 24 in
+that run's own live data. Under a per-sentence hard failure (R26's own
+two classes stay per-sentence under R27-A - Entry 54), that would fail
+nearly every `other_tradition` turn on its own narrative frame, the
+exact over-flagging problem R27-A itself exists to stop, just relocated
+from R27's base class to R26's two classes.
+
+**Narrowed rule:** inside an `other_tradition` turn, a sentence is
+`own_doctrine_in_other_tradition_turn` only when either (i) it sits in a
+wholly uncited paragraph, or (ii) it sits in a cited paragraph but its
+own inherited check (item 3 above) fails to ground it against that
+paragraph's own records. A sentence the net successfully grounds via
+paragraph inheritance is NOT this class, even inside an `other_tradition`
+turn - a frame sentence a paragraph's own citations genuinely support is
+a formatting fact (no tag of its own), not an unsupported doctrinal
+claim, and R26's whole point was never "every sentence in this kind of
+turn needs its own tag," it was "don't assert what this world's own
+records don't hold."
+
+**Pinned for item 3's own tests, real sentences, not invented ones:**
+- **Must still catch (own_doctrine_in_other_tradition_turn):** the two
+  Augustinian sacramental sentences from R26's own motivating incident
+  (Decision-Log Entry 50/51: *"What the sacrament does, it does by
+  Christ's power, not the minister's purity."*, *"Even a broken priest
+  could not block his grace."*) - genuinely unsupported by anything in
+  alx's own records, real doctrine belonging to a different world,
+  wholly uncited by construction; the narrowed rule must still fail
+  both.
+- **Must pass (not this class):** a grounded frame sentence inside a
+  real `other_tradition` turn, from PR #420's own live data - alx's own
+  answer on the Donatists probe (`probes["B-other-tradition"]`) put six
+  sentences (*"When the great persecution ended, many who had given way
+  - sacrificed to the gods, handed over the scriptures - wanted back
+  in."*, *"The strict party said no: the church is holy, the defiled
+  cannot pollute it."*, *"The wound was real on both sides."*, *"Those
+  who had held fast felt betrayed."*, *"Those who had broken felt cast
+  out."*, *"That is what our own record shows us wrestling with."*) in
+  one WHOLLY UNCITED paragraph, all correctly still catching under (i)
+  above - the real test case the narrowed rule needs is the OTHER shape,
+  a frame sentence riding inside a CITED other_tradition paragraph (the
+  alx conflict-turn shape already proven live: *"For years they held
+  together."*, inside a paragraph #420's own report already shows fully
+  cited, `uncited_in_cited_paragraph: 7`) - constructed as a hermetic
+  fixture the same way `test_uncited_claims.py`'s own
+  `_REAL_CHURCH_FAILURE_TEXT` already pins real record content without a
+  live package, with `is_other_tradition_turn=True` forced on it to
+  prove the narrowed rule, not merely R27-A's own base paragraph
+  coverage, is what passes it.
+
+**6. One-sentence paragraphs - the reviewer's second further point, and
+mine to decide, not Mark's** (his own words: "that choice changes
+nothing participant-visible"). #420's own data: 11 uncited sentences
+sit in wholly uncited paragraphs across 14 turns that had any -
+`witt`'s own `A-conflict` turn is a real, live example, two sentences (
+*"In our own time, it did not."*, *"The tension stands in the confession
+itself."*) with zero citations anywhere in that turn's paragraph at all.
+A short, standalone line set apart by its own blank lines - a dramatic
+beat, not a developed claim - fails paragraph coverage on its own by
+construction, every time, if a one-sentence paragraph is scored as its
+own isolated unit.
+
+**Recommendation: a one-sentence paragraph inherits the immediately
+preceding paragraph's own cited records for coverage purposes - it does
+not stand as its own isolated unit.** Reasoning: a real paragraph
+develops an idea across more than one sentence; a single sentence set
+apart by blank lines on either side is, structurally, a rhetorical
+device continuing the thought the PRECEDING paragraph just made, not a
+new, independently-argued claim starting fresh with no support of its
+own. Scoring it as an isolated unit resurrects R27-A's own reason for
+existing - punishing narrative shape rather than actual unsupported
+content - just relocated from "the last sentence of a paragraph" to
+"any sentence a voice sets off alone for emphasis," a pattern a voice
+would learn to avoid not because it makes fewer unsupported claims but
+because it stopped using a legitimate rhetorical form. Inheritance from
+the paragraph BEFORE (never the one after, and never both) keeps the
+rule simple and matches how a reader actually experiences the line - as
+the close of what was just said, not the opening of what comes next.
+
+**Build order, unchanged from Entry 54:** item 2 (report-only module,
+paragraph coverage + the narrowed R26 classes + inherited-check logging,
+no participant-visible change), item 3 (tests, this entry's own pinned
+cases plus the honest-limit-paragraph and wholly-uncited-narrative-
+paragraph cases Entry 54 already named), item 4 (battery under the
+paragraph unit - also now reporting, per the reviewer's own added asks:
+the R26 honest-limit sentence's own utterance rate on `other_tradition`
+probes whose records are silent, alx-on-Donatists first; and the count
+of wholly uncited paragraphs that are exactly one sentence long), item 5
+(enforcement, flag-gated, only on Mark's word after item 4).
+
+**Entry 56 — 2026-09-23.** R27-A build order item 4's own live numbers
+(PR #427, real, billed, region us-east-1, $2.0871: 11 admitted formation
+worlds x 2 fresh probes + one small table session), the hand-sort of the
+inherited check's own withheld sentences the reviewer thread ordered off
+those numbers, and Mark's own ruling, R36, choosing item 5's enforcement
+scope from what both showed. Full numbers: PR #427's own body and
+`engine/m4/reports/live-uncited-claims-battery-report.json`.
+
+**Item 4's own headline numbers.** 22 interview probes: sentence-level
+raw rate 91% (20/22), post-regeneration residual 65% (13/20) -
+unchanged measurement, kept beside the new numbers for comparison.
+Paragraph-level (the real mechanism, item 2): `wholly_uncited_paragraph`
+raw turn rate 23% (5/22), `inherited_ungrounded` raw turn rate 45%
+(10/22). A simulated paragraph-unit enforcement (regenerate once on
+either class, Facilitator takes a turn a real one survives) would have
+touched 55% of turns (12/22); of those, 42% (5/12) would still have
+reached the Facilitator after the one allowed regeneration. R26's own
+fixed honest-limit sentence fired in 10 of 11 worlds' own
+`B-other-tradition` probes (alx-on-Donatists first, per the reviewer's
+own ask) - only `ijc` did not say it, and `ijc`'s own raw answer carried
+zero offenses of any kind, so this reads as a different still-grounded
+answer shape, not a real miss. 10 wholly-uncited paragraphs across the
+run were exactly one sentence long. The net's own inherited-check
+verdicts split 81 ok / 50 withhold.
+
+**The hand-sort (reviewer-ordered, measurement-only, no PR).** The 50
+withhold tally needed its own correction first, verified with a
+synthetic repro rather than assumed: it includes sentences whose own
+base verdict was already `withhold` for reasons unrelated to paragraph
+inheritance (e.g. an untagged quoted span always withholds regardless
+of what its paragraph cites) - those never reach
+`find_uncited_paragraphs`'s own `inherited_ungrounded` branch, so their
+text was never persisted anywhere (the same "report the reduced finding,
+not the raw dump" discipline this build has followed throughout, Entry
+55's own item 2 included). Only 28 of the 50 are actual
+`inherited_ungrounded` offenses with recoverable sentence text. Hand-
+classified: **3 genuinely unsupported** (specific, datable/nameable
+claims - "By the mid-370s they were adversaries, not allies.",
+"Rome's bishop was drawn in.", "Ursinus was exiled by imperial order and
+never returned."); **19 supported in substance but failing on word
+overlap** (narrative frame, paraphrase, pronoun reference - e.g.
+"That was not the only one." / "After that the weather changed." /
+"This controversy was different."); **6 that should have been exempt
+under R27's own allowed-uncited kinds and weren't** - a real bug, not a
+measurement artifact: `find_uncited_paragraphs`'s `inherited_ungrounded`
+branch never applies the question/honest-limit/first-person exemptions
+its own `wholly_uncited_paragraph` branch already does. One of the 6 is
+R26's own fixed honest-limit sentence itself, near-verbatim ("Our record
+doesn't mention that Christian tradition by that name."); another is a
+literal question ("How did it end?"). This exemption asymmetry inflates
+`inherited_ungrounded`'s own numbers and is a fix owed before that
+class's own numbers can be trusted for a threshold.
+
+**Mark's ruling, R36** (Rulings-Pending.md's own R36 entry has the full
+text): enforcement (item 5) covers `wholly_uncited_paragraph` only, for
+now. `inherited_ungrounded` stays report-only until the exemption bug is
+fixed and re-measured - Mark rules on it separately once that question
+is settled. `neighbour_named` stays a per-sentence hard failure,
+unchanged. `own_doctrine_in_other_tradition_turn`, already narrowed per
+Entry 55 to fire only on a real paragraph-level failure, therefore fires
+in practice only through a `wholly_uncited_paragraph` finding while
+`inherited_ungrounded` stays report-only - the narrowing rule itself is
+unchanged, only which paragraph classes actually reach it in practice.
+
+**Item 5's own build order** (reviewer thread, same message as R36):
+flag-gated, default off (e.g. `CIC_R27_ENFORCE`), nothing changes for
+any participant until Mark flips it. On a `wholly_uncited_paragraph` or
+`neighbour_named` offense: regenerate once with the failures named (the
+same correction shape the seat-identity guard and the battery already
+use), re-check, and if a hard offense survives, the Facilitator takes
+the turn through the existing fallback - any new participant-facing
+words that needs gets drafted as options and escalated to Mark before
+building; an existing ruled line, if one fits, gets used with which one
+named. Single pass: paragraph coverage folds into the one `check_turn`
+call `apply_net` already makes, so a live turn never pays the net twice
+(the storage-bloat-avoidance note from item 2's own PR, #424). Table and
+interview both, through `_run_ordinary_voice_turn`, same wiring as the
+report-only path. Tests: flag off leaves every existing test and the
+report-only events untouched; flag on: a wholly uncited narrative
+paragraph regenerates and clears, one that survives goes to the
+Facilitator, an `inherited_ungrounded`-only turn is never regenerated,
+the Augustinian pair in an `other_tradition` turn still fails, the alx
+frame sentence in a cited paragraph still passes. One live battery with
+the flag on, same probes as #427, reporting regenerations, Facilitator
+takeovers, and cost - then stop for Mark's staging look before the flag
+is flipped anywhere. One PR, three-round cap, no self-merge.
+
+**After item 5 has a verdict:** Stage 7b-7e proceeds in the order
+already recorded (7b engine streaming module behind
+`CIC_API_STREAMING`, sentence-gated, R30's hold-the-opening-paragraph
+built in; 7c frontend consumer behind `VITE_STREAMING` with R31's
+per-sentence marks; 7d guards proven in per-sentence mode against the
+staging Papnoute text; 7e a live battery with streaming on), each its
+own PR, then stop for Mark's staging look. Streaming does not ship to
+participants before R27-A's own enforcement is on.
+
+**Note, added 2026-09-23 after PR #432's own PASS verdict and live
+numbers, for Mark to read before his staging look:** item 5's live
+battery (flag on, real, billed) regenerated 7 of 22 interview turns
+(32%), 2 of those 7 reaching the Facilitator (29% residual). The Table
+session (alx/don/rzg) regenerated 7 of 10 voice turns (70%), 4 of those
+7 reaching the Facilitator (57% residual) - an overall Table
+Facilitator-takeover rate of 40% (4/10) against interview's 9% (2/22).
+That gap is real and worth Mark's own eyes on before he judges the
+Table on staging, not a run-to-run fluke - both of the reviewer's own
+named candidate causes check out against real, already-committed
+evidence, and both contribute:
+
+- **Table turns cite less, by a wide, already-measured margin.** Item
+  4's own report-only run (#427, same table_world_keys, same probe
+  shape - a real live measurement, not this run's own inference) found
+  `wholly_uncited_paragraph` in 7 of that run's own 10 table turns
+  (70%) versus 23% of interview turns (`overall_raw_paragraph_turn_rate_by_class`
+  in `engine/m4/reports/live-uncited-claims-battery-report.json`). Item
+  5's own enforced run regenerated the identical count, 7 of 10 table
+  turns - consistent with, not merely similar to, that 70% wholly-
+  uncited-paragraph rate, even though the two are separate, non-
+  deterministic live generations.
+- **`neighbour_named` fires almost exclusively in Table mode**, and by
+  a stark margin: across all 22 interview probes in #427's own report,
+  `neighbour_named` never fired once (0 turns, 0 offenses) - a Table
+  turn is structurally the only shape where a voice is in live
+  conversation with another SEATED tradition and can name it directly;
+  an interview probe has no other seated voice to name. In that same
+  #427 table session, 5 of 10 turns carried at least one
+  `neighbour_named` offense. Since `known_tradition_names` is derived
+  per-turn from the registry excluding only the SPEAKING world (not the
+  other seated worlds), every other seat at the Table is, by
+  construction, a name `neighbour_named` can catch - a structural
+  fact about the Table's own design, not a defect in this build.
+
+Both causes point the same direction: a Table turn is simply more
+likely to carry an enforced-class offense than an interview turn is,
+on the same content a participant would recognize as normal cross-
+voice conversation, not a broken answer. Item 5's own enforced run
+(this PR) did not persist per-turn offense-class detail (only the
+aggregate regenerated/took-over counts, by design - the same
+"report the reduced finding, not the raw dump" discipline this build
+has followed throughout), so the two data points above are #427's own
+already-committed measurement, not a re-derivation from #432's own
+raw data, which no longer exists (the battery's own temp store is not
+retained after each run). If Mark's own staging look wants the exact
+classes on the Table's own real turns, that needs a report-only
+paragraph-level run with per-turn class capture added, not assumed
+from this note.
+
+**Entry 57 — 2026-09-23.** The false fixed honest-limit sentence, a
+real defect the reviewer thread's own R39 audit found and ordered fixed
+directly (no new ruling needed - R26's own already-ruled words,
+Rulings-Pending.md's R26 entry, already specified the conditional
+branch this PR builds; only the shipped code never implemented it).
+
+**The defect.** `engine.m4.turn._other_tradition_directive` fired the
+fixed sentence *"Our record doesn't mention that Christian tradition."*
+unconditionally on ANY `other_tradition`-routed turn, for every world,
+regardless of whether that world's own records already named the
+tradition asked about. For `ijc` on Donatism specifically this is
+false: `ijc`'s own already-vendored records genuinely name it
+(`ijc.quote.compelled-to-come-in`, `ijc.story.emperor-builds-another-
+basilica` - real excerpts, not inferred, both cite Augustine writing to
+the imperial tribune Boniface c. 417 on "the madness of the Donatists").
+
+**The fix.** Two new functions in `engine.m4.uncited_claims`:
+`match_named_tradition(text, registry, exclude_world_key=...)` (which
+OTHER formation world's own name - card_name, display_name, demonym,
+representative name - appears in the participant's own message, the
+reverse of `classify_neighbour_named`) and
+`world_records_mention_tradition(repository_records, named_world_entry)`
+(record ids in THIS, speaking world's own package whose real prose text
+already names that OTHER world - same restricted `PROSE_KEYS` field
+allowlist the R37 design brief already proved necessary, PR #438,
+avoiding the exact locus/source-filename false positive that scan
+found). `_other_tradition_directive` now takes an optional
+`evidence_record_ids` parameter: empty/None keeps the fixed sentence
+exactly as it always was (the true "never heard of this" case - `alx`
+on Donatism, this workstream's own original worked example, stays
+unchanged); a nonempty list skips the sentence entirely and hands the
+voice those record ids as its own ground, cited under the ordinary
+citation contract, never asserting more than what its own records or
+the conversation actually give it.
+
+**Threading**, matching the existing `known_tradition_names` pattern
+exactly (caller-computed, since `_run_ordinary_voice_turn` stays
+registry-free by design): `engine.api.wiring.handle_message` computes
+`match_named_tradition`/`world_records_mention_tradition`
+unconditionally (never gated behind `r27_enforce` - this corrects an
+existing false statement, not new enforcement) and passes the result
+through `run_turn`/`_run_ordinary_voice_turn`/`_build_turn_directive`
+as `other_tradition_evidence_ids`, read only when
+`is_other_tradition_first_ask` is also true. Table mode
+(`table_wiring.py`) needed no change: checked directly, `run_voice_turn_
+for_world` (the `_run_ordinary_voice_turn` alias Table calls) is never
+passed `is_other_tradition_first_ask=True` anywhere in `table_wiring.py`
+today - `out_of_scope_class` there feeds only the post-hoc
+`build_uncited_claims_event` audit classification, never the live
+directive. Table mode's own `other_tradition` turns get no special
+directive at all currently, fixed sentence or otherwise - a real,
+separate, pre-existing gap this fix does not touch or widen into,
+noted here rather than silently discovered and dropped.
+
+**Tests**, both branches pinned directly per the reviewer's own
+explicit instruction: `engine/m4/tests/test_turn.py` pins
+`_other_tradition_directive`'s own two branches (no evidence keeps the
+fixed sentence; real evidence skips it and emits the record ids as
+`[[tag]]`s). `engine/m4/tests/test_uncited_claims.py` pins
+`match_named_tradition` (the demonym case, and a non-fleet name like
+"the Arians" correctly resolving to `None`) and
+`world_records_mention_tradition` on real, trimmed excerpts (`ijc`
+finds it, `alx`'s own real `church-failure` text does not, and a
+locus-filename coincidence is correctly ignored - the same false
+positive already found and fixed once, pinned here too). Full suite:
+1024 passed (1016 + 8 new).
+
+**The real count, fleet-wide** (per the reviewer's own explicit ask -
+`world_records_mention_tradition` run against each of the 11 admitted
+formation worlds' own real package, checked against the real battery's
+own deterministic probe target -
+`engine.m4.live_uncited_claims_battery._other_tradition_turn`'s own
+alphabetical-first-other-card-name logic, reproduced read-only): **4 of
+11 flip** - `desert` (asked about `alx`), `hal` (asked about `alx`),
+`ijc` (asked about `alx`), `pahc` (asked about `alx`) all have real
+textual evidence and now answer from their own records instead of
+saying the fixed sentence; `alx` (asked about `don`, this workstream's
+own original worked example), `cappadocian`, `don`, `gallic`, `rzg`,
+`syr`, `witt` have none and are unchanged. Full per-world table:
+
+| World | Asked about | Flips | Evidence record ids |
+|---|---|---|---|
+| alx | don | no | — |
+| cappadocian | alx | no | — |
+| desert | alx | **yes** | desert.contested.alexandria-continuity, desert.demo.center-jesus-as-god, desert.story.antony-secret-burial, desert.story.sarapion-anthropomorphite, desert.story.virgin-who-hid-athanasius |
+| don | alx | no | — |
+| gallic | alx | no | — |
+| hal | alx | **yes** | hal.dw.authority, hal.story.rufinus-rupture |
+| ijc | alx | **yes** | ijc.quote.julius-custom, ijc.quote.let-the-ancient-customs-prevail, ijc.quote.sozomen-thessalonica-law, ijc.story.letter-that-outranked-a-council |
+| pahc | alx | **yes** | pahc.contested.egypt-exclusion |
+| rzg | alx | no | — |
+| syr | alx | no | — |
+| witt | alx | no | — |
+
+Note `ijc`'s own real battery probe target is `alx` (alphabetically
+first other card_name), not `don` - the reviewer's own Donatism example
+is real and independently confirmed (`ijc` on `don` also has evidence,
+the same two records named above), but is not literally what the
+battery itself asks `ijc`; both are true and both are reported, not
+conflated.
+
+**Entry 58 — 2026-09-23.** Two display defects from Mark's own staging
+Table look (relayed via the reviewer thread), both against Papnoute's
+(Desert Fathers) and Theon's (Alexandria) turns.
+
+**Defect 1 - citation-card empty bullets.** Papnoute's turn showed
+"General references (1)" followed by five empty bullet items - "* "
+with nothing after. Traced the render path end to end:
+`GeneralReferences.tsx` -> `SourceList.tsx` (`{s.work ?? s.source_id}`
+per `<li>`, JS `??` only catches null/undefined, never an empty
+string) -> `engine/m4/citation_cards.py`'s `resolve_source_card`, the
+one function both the legacy renderer's `resolve_citation_sources` and
+the anchor-driven renderer's `transparency_plan.build_transparency_plan`
+call to build every `sources[]` entry a citation card carries.
+
+**Root cause, and why it could not be reproduced from today's data.**
+`resolve_source_card` builds each `sources[]` entry as `{source_id,
+author, work, locus, rights_status}` unconditionally - it has never
+checked whether an entry actually has anything printable before
+shipping it. The renderer's own primary field is `work ?? source_id`,
+so as long as an entry carries a real `source_id`, that id itself is
+the fallback text - never blank, even when the id is dangling (doesn't
+resolve in this world's own repository). The only shape that leaves
+truly nothing to print is an entry whose own `source_id` is missing or
+blank AND whose own `locus` is missing or blank too - both fields
+absent on the citing record's own `sources[]` entry, upstream of this
+function, a shape the grounding net's own checks don't cover since
+they verify the CITING record's id, not the internal shape of its own
+`sources[]` list. Four independent fleet-wide scans - the currently
+compiled `packages/` repository for all 12 built worlds (including
+the `fix` fixture world), every one of desert's own seven historical
+package builds (2026-09-21 through 2026-09-22T21-17-53Z, in case
+staging was serving an older build than today's `latest_complete_
+package` pick), and a fresh `compile_and_hash` straight from `records/`
+for eleven worlds (the same method `test_citation_cards.py` itself
+uses for "real, not invented" fixtures) - found **zero** `sources[]`
+entries missing `source_id` anywhere in the fleet today. This defect's
+exact historical trigger is not reproducible from current record data;
+it is either a stale-deploy artifact (staging running an older build
+than what `records/`/`packages/` hold now) or a real but currently-
+dormant shape this project has no standing invariant against. Given
+the reviewer's own framing ("find the cause... most likely a source
+group whose entries lack the fields the card prints... fix so an entry
+with nothing to print is not rendered"), the right fix is the
+structural one: close the gap at its true origin rather than chase one
+historical instance that no longer reproduces.
+
+**The fix** (`engine/m4/citation_cards.py`): `resolve_source_card` now
+drops a `sources[]` entry before it is ever built into the card, if
+every one of its five fields (`source_id`, `author`, `work`, `locus`,
+`rights_status`) is empty or blank. One check, in the one function
+both renderers already share, so no second filter is needed in the
+frontend and no caller has to know about the invariant. An entry that
+still names a real (even if dangling) `source_id`, or a real `locus`
+with no resolvable `source_id`, is kept - dropping it would discard
+real, checkable information the participant can still act on; only an
+entry with genuinely nothing printable in any field is removed.
+Two new tests in `engine/m4/tests/test_citation_cards.py` pin the
+boundary directly: a `sources[]` entry with `source_id: null` and no
+`locus` is dropped; the same entry with a real `source_id` (dangling
+or not) is kept, and so is the same missing-`source_id` entry once a
+real `locus` is added. Full existing suite green (`pytest engine -q`,
+1016 passed) after the change.
+
+**Which two records produced Theon's own "...cared.✲✲" (see Entry
+57's Defect 2, immediately below) is a separate question, reported
+there, not here** - this entry's own fix is unrelated to which records
+cite what; it only changes which entries `resolve_source_card` is
+willing to ship at all.
+
+**Defect 2 - two transparency marks on one sentence.** Theon's second
+turn: *"Origen was driven out by his own bishop, Demetrius, over
+wounded pride and contested authority, long before any emperor
+cared.✲✲"* - two mark glyphs, stacked, on one sentence. The reviewer's
+own first framing read this as a possible violation of R31 (E2, RULED:
+"a citation mark attaches with each sentence as it clears" - one mark
+per sentence). Mark corrected that framing directly, relayed verbatim:
+*"i am not sure why we can only have 1 mark per sentence, i get not
+overloading, but if a quote and a lexicon word are in the same
+sentence they should both marked."* This is R31-A, recorded in
+Rulings-Pending.md immediately below R31: one mark per distinct
+grounded element (a story, a witness quote, a term), never reduced to
+one per sentence. Two marks landing on the same sentence is not a
+count bug under R31-A - it is by design, whenever a story/quote
+record's citing run and a `doctrinal_witness` record's citing run both
+finish at the same sentence (`VoiceTurnBody.tsx`'s `finishingStoryCards`
+and `finishingWitnessCards`, or the anchor-driven renderer's own
+`storyCards`/`witnessCards` split by `STORY_RECORD_TYPES = {story,
+quote}` / `WITNESS_RECORD_TYPES = {doctrinal_witness}`). The real
+defect R31-A names is readability - a participant sees "✲✲" with no
+way to tell which mark is which record without tapping both.
+
+**Which two records back Theon's own two marks - not confirmed, and
+said honestly rather than guessed.** The exact sentence does not
+appear in any saved battery report, Corpus A pool file, or persisted
+transcript this repository or its build artifacts carry - it was a
+live staging generation whose own evidence bundle (the per-sentence
+citation record_ids `apply_net` actually attached) is not stored
+anywhere this session can read. Reproducing it exactly would need a
+fresh live regeneration against Theon's own original prompt, which is
+also not on record. What can be said without guessing: `alx.story.
+origen-demetrius` (a real `story` record) and `alx.dw.councils` (a
+real `doctrinal_witness` record) both exist in alx's own repository,
+both mention Demetrius by name, and are the two record_types whose
+mechanism (above) can produce exactly this stacked-mark shape on
+content matching this sentence's own topic - named here as the most
+likely pairing given real content, explicitly flagged as unconfirmed,
+not reported as fact. If Mark wants the exact pair pinned, that needs
+either a live regeneration against the original prompt or persisting
+`apply_net`'s own per-sentence citation output for staging turns going
+forward - neither done here.
+
+**Three readability options for R31-A, one paragraph each, no code
+change - Mark's to choose, not decided here** (the reviewer's own
+three candidate directions):
+
+**(a) Mark placed at its own element.** Instead of both marks landing
+at the end of the sentence, each mark moves to sit immediately after
+the specific span it actually grounds - the story's mark after the
+narrative clause it covers, the witness mark after the specific phrase
+its quote backs, wherever those spans fall inside the sentence. On a
+phone screen this reads the most like ordinary punctuation - each mark
+sits right where its own claim is, so a participant never has to
+match a glyph to content by process of elimination. Cost: this is the
+biggest engineering lift of the three - the current renderer places a
+mark at a SENTENCE boundary (the end of a segment), not at an
+arbitrary sub-span inside one, so this would need real span-level
+placement logic, a capability the anchor-driven renderer's own anchors
+(`run_start_sentence`/`run_end_sentence`) don't carry today; a change
+to what `transparency_plan.py`'s anchors actually record, not just how
+they render.
+
+**(b) One glyph per kind.** Keep marks at the sentence boundary (no
+placement change), but give the story mark and the witness mark
+visually distinct glyphs - not two identical ✲ characters stacked, but
+one shape for "a story is being told" and a different one for "someone
+is being quoted," the same distinction `StoryMark`/`WitnessMark`
+already carry as separate React components today, just never
+differentiated in what they actually render. On a phone screen two
+different small glyphs read as two different KINDS of thing at a
+glance, without needing a tap to find out - closest to a typical
+footnote-superscript convention (¹ ² vs a dagger/asterisk pair).
+Cost: smallest of the three - a CSS/character change inside two
+already-separate components, no data-shape change, though it does add
+a second glyph to the fleet's own "one grammar, five applications, no
+feature may introduce a sixth verb" vocabulary (Full UX Design §5.7),
+which R10's own ruling already stretched once for the repeat-citation
+opacity treatment.
+
+**(c) Single mark, hover/tap card listing all elements.** Collapse
+however many marks would land on one sentence into a single glyph;
+tapping or hovering it opens one card listing every record it actually
+covers (today's existing per-mark tap-through, just aggregated). On a
+phone screen this is the cleanest - never more than one glyph per
+sentence, however many records ground it - at the cost of hiding the
+"how many distinct things are grounding this" information the current
+stacked-glyph shape (accidentally) surfaces today; a participant has
+to tap to learn there were two things, not one. Cost: moderate - the
+per-segment mark-building logic in both renderers already groups by
+kind (`marks.push(<StoryMark.../>)`, `marks.push(<WitnessMark.../>)`);
+this would merge those into one combined mark component fed both
+groups, no anchor/data-shape change needed, only a rendering change.
+
+No recommendation between the three - the reviewer's ask was options,
+not a decision.

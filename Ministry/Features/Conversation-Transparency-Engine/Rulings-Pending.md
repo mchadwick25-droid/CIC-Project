@@ -116,8 +116,10 @@ proceeding with the design already agreed: a quiet, non-alarming hollow
 glyph — not a new color, not a new verb.
 
 ### R10 — Where a story's citation mark lands: first sentence or end of the telling
-**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29. Unblocks
-Stage 3c's renderer switch-on (label copy is still a separate step).
+**Status:** RULED (c) — 2026-09-21. See Decision-Log.md Entry 29. Unblocked
+Stage 3c's renderer switch-on; label copy (its own remaining step) landed
+Entry 41, and the switch-on itself — `VITE_TRANSPARENCY_ANCHOR_RENDERER`
+defaulting on — landed Entry 49, closing this out in full.
 (a) End of the telling, as built today. (b) First sentence, uniformly.
 (c) First sentence for a witness quote, end-of-run for a story. A
 repeated re-citation gets the lighter "ibid" glyph under any of the
@@ -198,7 +200,10 @@ once that world has actually been through its promotion pass.
 
 ### R17 — A hard budget on how many new transparency elements can stack on one screen
 **Status:** RULED (approved as house rule) — 2026-09-21. See
-Decision-Log.md Entry 29.
+Decision-Log.md Entry 29. Both halves of the read-through this ruling
+itself required — the automated cap test (Entry 38, PR #399) and Mark's
+own seeker read-through, on both sides (Entry 46 mine, Entry 48 Mark's
+own, verdict: promote) — are done; gate fully closed.
 Proposal on the table: at most a small, capped number of inline marks per
 turn (scaling gently with sentence count), one collapsed references line
 instead of a scattered list, no new mark types beyond the one
@@ -265,3 +270,216 @@ rzg as already covered. Fixed word-boundary, per Decision-Log.md Entry
 31; rzg moved from "carries" to the gap list here.) Editing any
 `voice_craft.guard` field is a Representative-voice change (`Build-Plan.md`'s
 own escalation category), so no world's guard text is touched here.
+
+### R26 — May a Representative speak about another tradition, or claim a doctrine its own world's records don't hold?
+**Status:** RULED — 2026-09-22. Mark's own words, via the reviewer
+thread's standing authorization (see Decision-Log.md Entry 50):
+> "The representative should only know its own sources unless they would
+> have known the sources from another in reality."
+
+**Ruled shape:** on a first ask about another Christian tradition — if
+the asked world's own records hold nothing on it, the voice answers
+*"Our record doesn't mention that Christian tradition."* and then
+answers the rest of the question from its own records. If the records
+do hold something, the voice speaks only from those records, cited. The
+Facilitator's existing `other_tradition` etic turn stays as the
+mechanism for a second press.
+
+**Origin, the real staging defect this closes:** `cic-engine-staging`,
+Theon/alx asked "what was your relationship with the donatists"; alx
+holds zero records mentioning Donatists (grep-confirmed). The voice
+described Donatist history uncited, and attributed to Alexandria itself
+a sacramental doctrine no alx record holds ("what the sacrament does,
+it does by Christ's power, not the minister's purity"; "even a broken
+priest could not block his grace") — Augustine's own doctrine, a
+century later, not alx's.
+
+R26's two violation shapes (a neighbour tradition named without
+citation; a doctrine belonging to a different world asserted as the
+answering world's own, inside an `other_tradition` turn) are not a
+separate guard — they are violation classes inside R27's own check.
+
+**Built, 2026-09-23 (R39's own audit found the gap; no new ruling
+needed — this closes an implementation gap against R26's own already-
+ruled words above, "if the records do hold something, the voice speaks
+only from those records, cited," which the shipped code never actually
+branched on):** `_other_tradition_directive` (`engine/m4/turn.py`) used
+to say the fixed honest-limit sentence unconditionally, regardless of
+whether the speaking world's own records already named the tradition
+asked about — provably false for `ijc` on Donatism, whose own records
+(`ijc.quote.compelled-to-come-in`, `ijc.story.emperor-builds-another-
+basilica`) genuinely do. Now conditional: `engine.m4.uncited_claims.
+match_named_tradition`/`world_records_mention_tradition` detect real
+evidence in the speaking world's own package before the directive is
+built; a world with real evidence gets the record ids as its own
+ground instead of the honest-limit sentence, a world with none gets the
+sentence exactly as it always was. Full detail, the real per-world
+count (4 of 11 built-fleet worlds flip), and tests: Decision-Log.md's
+new entry.
+
+### R27 — A hard requirement: every declarative claim sentence carries a citation
+**Status:** RULED (option A) — 2026-09-22. Via the reviewer thread's
+standing authorization (see Decision-Log.md Entry 50).
+
+**Ruled:** every declarative claim sentence in a voice turn must carry a
+citation, or be one of a short, closed list of allowed uncited kinds:
+(1) an honest-limit sentence — R26's own form above, and the world's
+existing honest-limit forms; (2) a question back to the participant;
+(3) first-person framing that makes no historical or doctrinal claim.
+Deterministic check, no new model call (Constraint A holds — see
+Decision-Log.md Entry 51 for the exact detection design).
+
+**Rollout, report-only first:** ships report-only for one week to
+measure the real per-world uncited-claim rate, then enforced with the
+seat-guard's own shape (regenerate once with the violations named, then
+the Facilitator takes the turn). Mark sets the enforcement threshold
+once the measured rate is in (build order item 4, Decision-Log.md Entry
+51). Full build order, engineering detail, and the R26 first-ask
+directive wiring: Decision-Log.md Entry 51.
+
+### R27-A — Amendment: the unit of enforcement is the paragraph, not the sentence
+**Status:** RULED — 2026-09-22. Mark chose this from three options put
+to him after PR #419's own live numbers (Decision-Log.md Entry 52's own
+data: 86% raw sentence-level rate, 84% residual after one regeneration).
+Via the reviewer thread's standing authorization.
+
+**Ruled shape:** a paragraph must carry at least one citation. The
+grounding net checks every sentence in that paragraph against the union
+of that paragraph's own cited records, not only the tagged sentence — an
+untagged sentence inside a cited paragraph is checked against that
+paragraph's own citations, the same way a tagged sentence already is. A
+wholly uncited paragraph fails, unless every sentence in it is one of
+R27's own allowed-uncited kinds (question back, honest-limit,
+first-person no-claim). R26's two classes — `neighbour_named` and
+`own_doctrine_in_other_tradition_turn` — stay per-sentence hard
+failures; the paragraph unit is R27's own base check only.
+
+**Rollout unchanged from R27 itself:** report-only with rates first,
+Mark sets the threshold, then flag-gated enforcement with the same
+seat-guard shape (regenerate once with the failures named, then the
+Facilitator takes the turn). Full build order (design entry, report-only
+module change, tests, battery, enforcement): Decision-Log.md's own R27-A
+entry.
+
+### R30 — Stage 7 streaming, E1: what a participant sees on a mid-stream guard catch
+**Status:** RULED (option c) — 2026-09-22. Via the reviewer thread's
+standing authorization.
+
+**Ruled:** hold the opening paragraph until the guard has checked it,
+then stream sentence by sentence from a point already known to be clean.
+A mid-stream catch after that point follows the seat-guard shape already
+ruled (regenerate once, then the Facilitator takes the turn) — the 7b
+design entry states exactly what the participant sees in that residual
+case, and anything other than the Facilitator closing the turn with the
+sentences already shown left in place escalates to Mark before it is
+built.
+
+### R31 — Stage 7 streaming, E2: when a citation mark attaches during a stream
+**Status:** RULED (option a) — 2026-09-22. Via the reviewer thread's
+standing authorization.
+
+**Ruled:** a citation mark attaches with each sentence as it clears. An
+R17 cap demotion at turn end moves an already-shown mark to the
+references line — it never removes a sentence or a claim.
+
+### R31-A — Amendment: marks are per distinct grounded element, not per sentence; how should more than one on the same sentence be told apart?
+**Status:** RULED (option a) — 2026-09-23. Via the reviewer thread's
+standing authorization. Mark's own correction, relayed verbatim, of the
+reviewer's first framing of a staging defect report: *"i am not sure
+why we can only have 1 mark per sentence, i get not overloading, but if
+a quote and a lexicon word are in the same sentence they should both
+marked."* Found on Mark's own staging Table look, full detail in
+Decision-Log.md Entry 58.
+
+**Ruled (the count question):** a mark is per distinct grounded
+element — a story, a witness quote, a term — never reduced to one per
+sentence. Theon's own turn (*"...long before any emperor cared.✲✲"*)
+showing two marks stacked on one sentence is not a bug under this
+reading; it is what today's renderer already does whenever a
+story/quote record and a `doctrinal_witness` record both finish their
+citing run at the same sentence.
+
+**Ruled (the readability question): option (a), mark placed at its own
+element.** Each mark sits at the element it marks — a quote's mark
+follows the quoted words, a term's mark follows the term, a claim's
+mark ends the sentence. One mark per distinct grounded element, none
+duplicated. The three options weighed, one-paragraph-each with cost:
+(a) **Mark placed at its own element (RULED)** — each mark moves to sit
+after the specific span inside the sentence it actually grounds, not at
+the sentence's end. Reads most like ordinary punctuation; needs new
+span-level placement data the anchors don't carry today - the design
+brief for this build is queued after the G1-G7 retrofit PR, before
+Stage 7b, since 7b's own per-sentence marks must be built to this rule.
+(b) **One glyph per kind** — marks stay at the sentence boundary, but
+the story mark and the witness mark get visually distinct glyphs
+instead of two identical ✲. Smallest change of the three; adds a
+second glyph to the fleet's "one grammar, five applications" rule. Not
+chosen.
+(c) **Single mark, tap/hover card listing all elements** — collapse
+however many marks land on one sentence into one glyph; tapping opens
+a card listing everything it covers. Cleanest on a phone screen; hides
+the "there were two things here" signal a participant gets today
+without tapping. Not chosen.
+
+**Also unresolved:** which two real records produced Theon's own two
+marks was not confirmed — the exact sentence has no saved report, pool
+file, or transcript this repository can read, and pinning it needs
+either a live regeneration against the original prompt or persisting
+`apply_net`'s own per-sentence citations for staging turns going
+forward. The two records named as the likely (not confirmed) pairing
+in Decision-Log.md Entry 58 are real alx records on the same topic,
+offered honestly as the best evidence available, not as fact.
+
+### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
+**Status:** RULED — 2026-09-23. Mark chose this from three options put
+to him after PR #427's own live numbers (Decision-Log.md Entry 54's own
+data: 22 interview probes, 55% would-regenerate at the paragraph unit
+[12/22], 42% of those [5/12] would still reach the Facilitator after one
+regeneration; the net's own inherited-check verdicts split 81 ok / 50
+withhold). Via the reviewer thread's standing authorization.
+
+**Ruled:** enforcement (item 5) covers `wholly_uncited_paragraph` only,
+for now. `inherited_ungrounded` stays report-only until the hand-sort
+of the withheld inherited sentences shows the inherited check measures
+substance rather than mere word overlap — Mark rules on it separately
+once that question is settled (see the hand-sort finding below).
+`neighbour_named` stays a per-sentence hard failure, unchanged from
+R27-A's own base ruling. `own_doctrine_in_other_tradition_turn`, already
+narrowed per Entry 55 to fire only on a real paragraph-level failure,
+therefore fires in practice only through a `wholly_uncited_paragraph`
+finding while `inherited_ungrounded` stays report-only — its own
+narrowing rule is unchanged, only which paragraph classes actually
+reach it in practice.
+
+**The hand-sort finding this threshold rests on** (reported to the
+reviewer thread 2026-09-23, from #427's own report): of the 50 raw
+"withhold" inherited-check tallies, only 28 correspond to an actual
+reported `inherited_ungrounded` offense with recoverable sentence text
+(the other 22 were sentences whose own base verdict was already
+`withhold` for reasons unrelated to paragraph inheritance, e.g. an
+untagged quoted span — verified directly with a synthetic repro, not
+assumed). Of those 28: 3 genuinely unsupported, 19 supported in
+substance but failing on word overlap (narrative frame, paraphrase,
+pronoun reference), and 6 that should have been exempt under R27's own
+allowed-uncited kinds (a question, an honest-limit sentence, a hedge —
+one of the 6 is R26's own fixed honest-limit sentence, near-verbatim)
+but weren't, because `find_uncited_paragraphs`'s `inherited_ungrounded`
+branch never applies the question/honest-limit/first-person exemptions
+its own `wholly_uncited_paragraph` branch already does. That exemption
+asymmetry is a real bug, not a measurement artifact, and inflates the
+`inherited_ungrounded` numbers a threshold would be set against — hence
+report-only until it's fixed and re-measured.
+
+**Rollout:** flag-gated, default off (`CIC_R27_ENFORCE` or equivalent),
+nothing changes for any participant until Mark flips it after a staging
+look. Same regenerate-once-then-Facilitator shape as R27/R27-A's own
+base ruling. Full build order: Decision-Log.md's own R36 entry.
+
+**The enforced-run baseline** (PR #432, real, billed, region us-east-1,
+flag actually on): interview, 7 of 22 turns regenerated, 2 of those 7
+reached the Facilitator. Table (alx/don/rzg), 7 of 10 voice turns
+regenerated, 4 of those 7 reached the Facilitator - see Decision-Log.md
+Entry 56's own note on what that Table rate means and the likeliest
+cause. This is the baseline number set Mark looks at on
+`cic-engine-staging` (`CIC_R27_ENFORCE=1`) before the flag is flipped
+anywhere real.

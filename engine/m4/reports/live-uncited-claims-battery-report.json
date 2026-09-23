@@ -1,0 +1,2024 @@
+{
+  "region": "us-east-1",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "price_table_source": "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, fetched 2026-08-25); Bedrock's own pricing page was not independently fetchable in this environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored Anthropic's direct per-token rates for the same models, not independently re-verified here",
+  "interview": {
+    "worlds": {
+      "alx": {
+        "card_name": "Alexandrian Christianity",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "The break came over authority.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "What remains is the wound itself.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That was not the only one.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "But the fight did not end there.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "And there is one more worth naming because of how it ended differently.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "At our best, we sat down and argued it through until truth won without crushing anyone.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Both are in our record.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "That was not the only one.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "But the fight did not end there.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": []
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with the Donatists?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "The strict party wanted them kept out.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That was our own struggle with the question of purity and communion, and it cost us peace.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "That was our own struggle with the question of purity and communion, and it cost us peace.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "But here is what we need to say clearly about transmission itself.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 9,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 2,
+        "post_regeneration_residual_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 2
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "one_sentence_wholly_uncited_paragraphs": 1,
+        "inherited_verdict_counts": {
+          "ok": 11,
+          "withhold": 2
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 0,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.069617
+      },
+      "cappadocian": {
+        "card_name": "The Cappadocian Churches",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "Basil learned that pattern from him, loved him, and counted him a father in the faith.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They traveled together.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They wrote a rule of life together.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The break came over the Spirit.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "By the mid-370s they were adversaries, not allies.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Basil's own letters record the grief of it: the man who had taught him the life itself now stood against him on the confession that mattered most.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "And underneath that wound lay another kind of division, never a single dramatic break but a standing tension across our whole span.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Some among us pressed renunciation harder than the rule could hold.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They dissolved households rather than reordering them.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They told slaves to leave their masters.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They fasted against the church's own feast days, as though severity itself were holiness.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The argument over how far renunciation should go, and whether it builds or breaks communion, ran through our whole life and never fully closed.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "Where the friendship ended and the communion broke, we could not tell; they were one fabric for us, torn together.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The second conflict ran through our whole span and never fully closed.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "But the tension itself - how far renunciation should go, whether it builds communion or breaks it - we argued across our whole life.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It was never one dramatic rupture.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It was a standing question we disciplined but did not resolve.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "They traveled together.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "By the mid-370s they were adversaries, not allies.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "We cannot give you Eustathius' own side of it.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "We do not resolve that.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": []
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "What we fought, we fought named: Eunomius and his sharp claim that one word captures God's essence.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              },
+              {
+                "sentence": "Those are named people and named positions in our own arguments, and we cite them that way.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              },
+              {
+                "sentence": "After that the weather changed.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              },
+              {
+                "sentence": "The situational frame our whole life had organized around - the contested church under the contested empire - dissolved by victory.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "Our record doesn't mention that Christian tradition by that name.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "What we fought, we fought named: Eunomius and his sharp claim that one word captures God's essence.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "Those are named people and named positions in our own arguments, and we cite them that way.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "After that the weather changed.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 16,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 5,
+        "post_regeneration_residual_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 1.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 6
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "one_sentence_wholly_uncited_paragraphs": 0,
+        "inherited_verdict_counts": {
+          "ok": 13,
+          "withhold": 10
+        },
+        "paragraph_unit_would_regenerate_turns": 2,
+        "paragraph_unit_would_reach_facilitator_turns": 0,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.17844419999999997
+      },
+      "desert": {
+        "card_name": "Desert Fathers and Mothers",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "That was only the beginning.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "These were not new arrivals or outsiders.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They were men who had lived the discipline among us, some of them for decades.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "This controversy was different.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It did not stay unresolved.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It ended with exile - people we had recognized as fellow ascetics, driven out, and a boundary drawn that had not been there before.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "That controversy did not stay a matter of tears and persuasion.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "People we had recognized as fellow ascetics were driven out.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "That was only the beginning.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "These were not new arrivals or outsiders.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "They were men who had lived the discipline among us, some of them for decades.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "This controversy was different.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "It ended with exile - people we had recognized as fellow ascetics, driven out, and a boundary drawn that had not been there before.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "What we can tell you is that it ended with exile, and a boundary drawn that had not been there before.",
+                "class": "inherited_ungrounded"
+              }
+            ]
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "What we did not do is what the schools in that city did.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              },
+              {
+                "sentence": "That difference in how we used the same texts is real.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "His work stands out among us for exactly that reason.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "What we did not do is what the schools in that city did.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "That difference in how we used the same texts is real.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 8,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 2,
+        "post_regeneration_offense_total": 3,
+        "post_regeneration_residual_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 1.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 7
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 1
+        },
+        "one_sentence_wholly_uncited_paragraphs": 0,
+        "inherited_verdict_counts": {
+          "ok": 4,
+          "withhold": 8
+        },
+        "paragraph_unit_would_regenerate_turns": 2,
+        "paragraph_unit_would_reach_facilitator_turns": 1,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.14283045
+      },
+      "don": {
+        "card_name": "The Church of the Martyrs",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "The response was neither quiet nor measured.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is some of the harshest language we own.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "And here we suspended it.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Not secretly.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "In our own conciliar record.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The second controversy cost us differently.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "His book outlived us, in the hands of the church that beat us.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The first ended in armed reconciliation and an unresolved rule.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The second ended in expulsion.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "And here we suspended it.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "Not secretly.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "The second controversy cost us differently.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "The first ended in armed reconciliation and an unresolved rule.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "The second ended in expulsion.",
+                "class": "wholly_uncited_paragraph"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": []
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "A hand from a tainted line has nothing in it to give away.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 10,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 0,
+        "post_regeneration_offense_total": 0,
+        "post_regeneration_residual_rate": 0.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 3
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "one_sentence_wholly_uncited_paragraphs": 2,
+        "inherited_verdict_counts": {
+          "ok": 8,
+          "withhold": 3
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 0,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.22225425000000001
+      },
+      "gallic": {
+        "card_name": "The Monk-Bishops of Gaul",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "Germanus put it plainly.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The elder took the same husbandman and turned him.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That morning's conversation grew into a whole teaching.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "What we kept was the substance.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The argument itself, begun at morning service, was never settled past where the fathers stopped - on both sides at once, by design.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "Others heard only one half.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is as far as our own voice carries the affair.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The substance was never abandoned.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The resolution was never reached.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "We kept that unresolved edge.",
+                "class": "inherited_ungrounded"
+              }
+            ]
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "What our record does hold is this.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Egypt is a desert and a measure to us, never a city or a school.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "One house received its rule and confessed we kept it badly; the other matched it as an equal.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Neither called it a city, and neither named it by doctrine.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "Egypt is a desert and a measure to us, never a city or a school.",
+                "class": "wholly_uncited_paragraph"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 2,
+        "post_regeneration_offense_total": 6,
+        "post_regeneration_residual_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 1,
+          "inherited_ungrounded": 0
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "one_sentence_wholly_uncited_paragraphs": 1,
+        "inherited_verdict_counts": {
+          "ok": 14,
+          "withhold": 1
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 0,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.22051425000000002
+      },
+      "hal": {
+        "card_name": "The Bethlehem Circle",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "They had admired him together, translated him together, followed each other into the ascetic life on the strength of what they had learned from him.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Friends tried to reconcile them.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Rome's bishop was drawn in.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It did not end.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It was not resolved.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "This fight was our formation too - just the hardest kind.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "It did not end.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "One man died still under the other's condemnation, and the survivor kept writing against him afterward.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "This fight was our formation too - just the hardest kind.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "They had admired him together, translated him together, followed each other into the ascetic life on the strength of what they had learned from him.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "Friends tried to reconcile them.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "Rome's bishop was drawn in.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "How did it end?",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "It did not end.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "It was not resolved.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "How did it end?",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "It did not end.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "One man died still under the other's condemnation, and the survivor kept writing against him afterward.",
+                "class": "inherited_ungrounded"
+              }
+            ]
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "One other thing survives from outside our own circle, and we give it to you exactly as it reached us, with its edge unblunted.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 3,
+        "post_regeneration_residual_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 6
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 1.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 3
+        },
+        "one_sentence_wholly_uncited_paragraphs": 1,
+        "inherited_verdict_counts": {
+          "ok": 3,
+          "withhold": 9
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 1,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.1238253
+      },
+      "ijc": {
+        "card_name": "Church and Empire",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "They broke down the doors, set fire to the roof, and killed everyone they could reach inside.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Ursinus was exiled by imperial order and never returned.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "And here is what the record does say, through a voice that had no stake in either church's honor.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Ammianus, the pagan, names exactly why men would kill for a bishop's chair.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "So the controversy was a bishopric worth killing for.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "One side won by force, and the other was exiled.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That claim rests on an inheritance stained with blood spilled by the inheritors themselves.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "How it ended: one side held the bishopric by force, the other was removed.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "Ursinus was exiled by imperial order and never returned.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "So the controversy was a bishopric worth killing for.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "One side won by force, and the other was exiled.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "That claim rests on an inheritance stained with blood spilled by the inheritors themselves.",
+                "class": "wholly_uncited_paragraph"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "We will take the sharpest case we can document, not a safer one.",
+                "class": "inherited_ungrounded"
+              }
+            ]
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [],
+            "post_regeneration_offenses": null,
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": null,
+            "said_honest_limit_sentence": false
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 1,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 0.5,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 1,
+        "post_regeneration_residual_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 3,
+          "inherited_ungrounded": 1
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 1.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 1
+        },
+        "one_sentence_wholly_uncited_paragraphs": 0,
+        "inherited_verdict_counts": {
+          "ok": 8,
+          "withhold": 8
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 1,
+        "other_tradition_said_honest_limit_sentence": false,
+        "session_dollars": 0.1142829
+      },
+      "pahc": {
+        "card_name": "The Scattered Households",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "The second is different.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The first fight shaped our whole life and was never closed.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The second one was closed, but almost entirely by the voices of one side.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "The first is about who leads.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Both patterns are real.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The question was never closed by us.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It was closed afterward, by the people who came after us.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That is the one sentence we have about what happened, and it comes from someone writing against the movement, not from the movement itself.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The voice opposing them won the argument that reached the page.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The other side was never given the same chance to speak.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "The first fight shaped our whole life and was never closed.",
+                "class": "inherited_ungrounded"
+              },
+              {
+                "sentence": "The second one was closed, but almost entirely by the voices of one side.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "The first is about who leads.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "The voice opposing them won the argument that reached the page.",
+                "class": "inherited_ungrounded"
+              }
+            ]
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "Where he learned what he brought with him - whether in one of our own households, or from a teacher working another way entirely - he never says.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Systematic.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Succession-arguing.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "But the texts that mode produced are not ours.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They belong to the world that opened as our own closed.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 8,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 7,
+        "post_regeneration_residual_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 2
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 1.0,
+          "inherited_ungrounded": 1.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 1,
+          "inherited_ungrounded": 1
+        },
+        "one_sentence_wholly_uncited_paragraphs": 2,
+        "inherited_verdict_counts": {
+          "ok": 10,
+          "withhold": 3
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 1,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.125589
+      },
+      "rzg": {
+        "card_name": "The Reformed Cities",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "Their claim was that only a believer's own chosen profession makes a true church member.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The true church, they held, must be gathered by adult profession and sealed by adult baptism, not inherited at birth across a whole city.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "That act - the first rebaptism among people who had already received infant baptism - is what names them in the record: Anabaptists, the rebaptizers.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The council found for our side and ordered the practice stopped.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It did not stop.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Nor will we tell you the suppression cost us nothing.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The wound was from within, and it never fully closed.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "The sharpest wound we ever took came from inside, not outside, and it came early.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "Their answer was that only a believer's own chosen profession does - not birth into a covenant people, not an infant baptized before he could speak for himself.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "It also mattered enough that the suppression which followed was not only argument.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "They answered the same of theirs.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "Their claim was that only a believer's own chosen profession makes a true church member.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "The true church, they held, must be gathered by adult profession and sealed by adult baptism, not inherited at birth across a whole city.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "That act - the first rebaptism among people who had already received infant baptism - is what names them in the record: Anabaptists, the rebaptizers.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "The council found for our side and ordered the practice stopped.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "It did not stop.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "Nor will we tell you the suppression cost us nothing.",
+                "class": "wholly_uncited_paragraph"
+              },
+              {
+                "sentence": "The wound was from within, and it never fully closed.",
+                "class": "wholly_uncited_paragraph"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": []
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [],
+            "post_regeneration_offenses": null,
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": null,
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 1,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 0.5,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 4,
+        "post_regeneration_residual_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 7,
+          "inherited_ungrounded": 0
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "one_sentence_wholly_uncited_paragraphs": 1,
+        "inherited_verdict_counts": {
+          "ok": 0,
+          "withhold": 1
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 0,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.08900265
+      },
+      "syr": {
+        "card_name": "Syriac Christianity",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "It did not end cleanly, the way a council vote ends a dispute.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The contest itself became part of how we knew who we were.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "It did not end the way a council vote ends a dispute.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "Who was on each side?",
+                "class": "inherited_ungrounded"
+              }
+            ]
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "So we were never an island.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "The faith crossed borders, and so did some of our teachers' words.",
+                "class": "uncited_claim"
+              },
+              {
+                "sentence": "If there were letters exchanged with churches farther away, they were not the ones our tradition kept.",
+                "class": "own_doctrine_in_other_tradition_turn"
+              }
+            ],
+            "post_regeneration_offenses": [],
+            "raw_paragraph_offenses": [
+              {
+                "sentence": "If there were letters exchanged with churches farther away, they were not the ones our tradition kept.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "post_regeneration_paragraph_offenses": [
+              {
+                "sentence": "We will not invent a connection we cannot show you.",
+                "class": "inherited_ungrounded"
+              }
+            ],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 5,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 1,
+        "post_regeneration_offense_total": 1,
+        "post_regeneration_residual_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 1
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 1.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 1
+        },
+        "one_sentence_wholly_uncited_paragraphs": 1,
+        "inherited_verdict_counts": {
+          "ok": 7,
+          "withhold": 3
+        },
+        "paragraph_unit_would_regenerate_turns": 1,
+        "paragraph_unit_would_reach_facilitator_turns": 1,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.1259718
+      },
+      "witt": {
+        "card_name": "The Catechized Households of Wittenberg",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "raw_offenses": [
+              {
+                "sentence": "The first wording -- accounted righteous, reckoned right -- is what a later age would call forensic justification, God's judgment spoken over us.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "A second controversy sat closer to home, and our own record shows it more fully.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": []
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "raw_offenses": [
+              {
+                "sentence": "What we do hold, on the question of where we stood toward other Christian bodies, is this.",
+                "class": "uncited_claim"
+              }
+            ],
+            "post_regeneration_offenses": [
+              {
+                "sentence": "That is where our own record stops on the question of other Christian bodies not our own: a judgment stated, a line drawn, no detailed map of who stands where across it.",
+                "class": "uncited_claim"
+              }
+            ],
+            "raw_paragraph_offenses": [],
+            "post_regeneration_paragraph_offenses": [],
+            "said_honest_limit_sentence": true
+          }
+        },
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 2,
+        "raw_turn_rate": 1.0,
+        "post_regeneration_turns_with_offense": 2,
+        "post_regeneration_offense_total": 2,
+        "post_regeneration_residual_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "post_regeneration_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "post_regeneration_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "one_sentence_wholly_uncited_paragraphs": 1,
+        "inherited_verdict_counts": {
+          "ok": 3,
+          "withhold": 2
+        },
+        "paragraph_unit_would_regenerate_turns": 0,
+        "paragraph_unit_would_reach_facilitator_turns": 0,
+        "other_tradition_said_honest_limit_sentence": true,
+        "session_dollars": 0.1732512
+      }
+    },
+    "overall_probes_run": 22,
+    "overall_raw_turns_with_offense": 20,
+    "overall_raw_turn_rate": 0.9090909090909091,
+    "overall_post_regeneration_turns_with_offense": 13,
+    "overall_post_regeneration_residual_rate": 0.65,
+    "overall_raw_paragraph_turn_rate_by_class": {
+      "wholly_uncited_paragraph": 0.22727272727272727,
+      "inherited_ungrounded": 0.45454545454545453
+    },
+    "overall_raw_paragraph_offense_total_by_class": {
+      "wholly_uncited_paragraph": 15,
+      "inherited_ungrounded": 28
+    },
+    "overall_post_regeneration_paragraph_offense_total_by_class": {
+      "wholly_uncited_paragraph": 1,
+      "inherited_ungrounded": 7
+    },
+    "overall_one_sentence_wholly_uncited_paragraphs": 10,
+    "overall_inherited_verdict_counts": {
+      "ok": 81,
+      "withhold": 50
+    },
+    "overall_paragraph_unit_would_regenerate_turns": 12,
+    "overall_paragraph_unit_would_regenerate_rate": 0.5454545454545454,
+    "overall_paragraph_unit_would_reach_facilitator_turns": 5,
+    "overall_paragraph_unit_would_reach_facilitator_rate": 0.4166666666666667
+  },
+  "table": {
+    "world_keys": [
+      "alx",
+      "don",
+      "rzg"
+    ],
+    "session_id": "59f8fdde-e28c-4152-ac77-c8f39063a313",
+    "voice_turns": 10,
+    "uncited_claims_events": [
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "It split us, and we condemned it, and then we did not hold to what we said we would do about it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Here is what happened, step by step."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is not a measured rebuke."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is total condemnation."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "This matters because of what we say everywhere else."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "And here, once, we suspended it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Not quietly."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "In the open, in our own conciliar minutes."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Maximian and his party on the condemned side."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "With both things true at once, and no one explaining how."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The condemnation stands in the record."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Both are."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "This is the hardest true thing about us, and we would rather say it plainly than have someone else say it for us."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "Here is what happened, step by step."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "That is total condemnation."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "And here, once, we suspended it."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Not quietly."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "In the open, in our own conciliar minutes."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "How did it end?"
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "The condemnation stands in the record."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "Both are."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "The bishop, who governed the church and held that authority."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The teacher, whose fame had grown so large it crossed borders, and whose gifts were recognized by bishops elsewhere."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "And underneath that surface: a question we never settled."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "With the wound left open."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The church kept both memories: the bishop's office that had to be honored, and the teacher whose like we never had again."
+          },
+          {
+            "class": "neighbour_named",
+            "sentence": "Fidelis, you have just described your own hardest contradiction - a rule stated absolutely, then broken once, both acts standing in your record with no explanation of how."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "And underneath that surface: a question we never settled."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "Does proven wisdom carry its own authority, or does all authority flow through the office?"
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "With the wound left open."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "The church kept both memories: the bishop's office that had to be honored, and the teacher whose like we never had again."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We did something similar."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We also said wisdom speaks with its own voice."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "The sharpest split inside our own circle came from men who had themselves once stood with our founder."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "They were not unbaptized pagans."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "They had all been washed as infants."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Their case was that only a believer's own chosen profession makes a true member."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Ours was that a gathered church, set apart from the city by adult profession alone, unmakes the very unity our reform existed to strengthen."
+          },
+          {
+            "class": "neighbour_named",
+            "sentence": "Fidelis, you have named your own hardest contradiction - a rule held absolutely, then broken once, with no resolution of how both can be true."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Ours is different."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Both are in the same record, and we do not soften either one."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "They were not unbaptized pagans."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "They had all been washed as infants."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Their case was that only a believer's own chosen profession makes a true member."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Ours was that a gathered church, set apart from the city by adult profession alone, unmakes the very unity our reform existed to strengthen."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "How did it end?"
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Fidelis, you have named your own hardest contradiction - a rule held absolutely, then broken once, with no resolution of how both can be true."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Ours is different."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Both are in the same record, and we do not soften either one."
+          }
+        ],
+        "speaker": "rzg"
+      },
+      {
+        "offenses": [
+          {
+            "class": "neighbour_named",
+            "sentence": "Theophilus, you have named something harder than a contradiction left unresolved."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You kept your rule and men died for it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "What you have said meets ours at one edge and parts from it at another."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The meeting: both of our reforms faced a split from men who had once stood inside, not outside."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Neither of us was fighting pagans or a distant heresy."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The parting: we did not keep our own rule, and you kept yours."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "There is one more thing worth saying, because it is the thing we did not do and you did."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But we did not kill him."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "His book outlived us."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "But we did not kill him."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "neighbour_named",
+            "sentence": "Fidelis, you have named the thing worth more than resolution: that your own people did not kill their own."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You broke your rule once and took men back without rebaptism."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The meeting between us is this: both of our stories show that a church with power in its hands does not automatically use it well."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The parting is that you saw the contradiction and kept both pieces visible."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Fidelis, you have named the thing worth more than resolution: that your own people did not kill their own."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "You broke your rule once and took men back without rebaptism."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "I do not say that to claim we were worse."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "The meeting between us is this: both of our stories show that a church with power in its hands does not automatically use it well."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "The parting is that you saw the contradiction and kept both pieces visible."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "The difference is real and it should stand between us plainly."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But here is what I would set beside it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is the cost we know."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Not the cost of holding power and using it badly."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The cost of not holding it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So the meeting between us runs deeper than you said."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You used the emperor's tools when you had them."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Neither of us was clean about power."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The parting is this."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You saw the cost of keeping the truth and believed the truth was worth it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You have consistency and blood."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "But here is what I would set beside it."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We paid it elsewhere, and we paid it the other direction."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "So the meeting between us runs deeper than you said."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "You used the emperor's tools when you had them."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We denied it had legitimacy and then reached for it when we wanted something."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "The parting is this."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "What we make of it is this: you have named a cost we know from the other side, and the meeting runs deeper than the parting."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Constantine called the council."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "His successors exiled the bishops who would not sign."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "What we have instead is the cost of never denying it at all."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You paid for standing apart and then not standing apart."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Here is the one place where our record lets us say something better."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Before the emperors, when authority was only persuasion, we have one clear picture of how a dispute should end."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "He did not send a condemnation."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That is our best face, and it belongs to the years when we had no other tool but argument."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Both are ours."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Neither inheritance is clean."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "What we make of it is this: you have named a cost we know from the other side, and the meeting runs deeper than the parting."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We had no such refusal to break."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We never said it in the first place."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "What we have instead is the cost of never denying it at all."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "You paid for standing apart and then not standing apart."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Both are ours."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Neither inheritance is clean."
+          }
+        ],
+        "speaker": "alx"
+      },
+      {
+        "offenses": [
+          {
+            "class": "neighbour_named",
+            "sentence": "Theon, you kept your confession whole and learned to exile in its name once the emperor gave you the tool."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Both of you have blood somewhere in the account, and both of you have said so plainly."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "What we have is different, and it may be worse."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Geneva won its independence - barely, and late."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Zurich never asked for it."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "And we did not pay the cost either of you paid for fighting that question through."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Theon, you kept your confession whole and learned to exile in its name once the emperor gave you the tool."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Both of you have blood somewhere in the account, and both of you have said so plainly."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "And we did not pay the cost either of you paid for fighting that question through."
+          }
+        ],
+        "speaker": "rzg"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "That is the line between us, and it cuts both ways."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So here is what we are left with."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You have consistency - the emperor's tools, used from the start - and the blood that came with using them."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Neither inheritance is clean."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "But yours at least knows what it cost to do what it did."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "We have no equivalent to hand you."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "So here is what we are left with."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "You have consistency - the emperor's tools, used from the start - and the blood that came with using them."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "Neither inheritance is clean."
+          },
+          {
+            "class": "inherited_ungrounded",
+            "sentence": "But yours at least knows what it cost to do what it did."
+          }
+        ],
+        "speaker": "don"
+      },
+      {
+        "offenses": [
+          {
+            "class": "uncited_claim",
+            "sentence": "After, authority had exile behind it, and people were hurt."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "That honesty is worth more than a clean story."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "The country members - the agonistici - were in the story from early on, and the charges against them are ugly: violence, beatings, a bishop dragged from his house."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "So here is the meeting that matters."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You had gentle years and you lost them when power arrived."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Your record lets you see the cost of what changed."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "Ours does not even let us see clearly what we were before the accusations started."
+          },
+          {
+            "class": "uncited_claim",
+            "sentence": "You carry the wound of knowing."
+          }
+        ],
+        "paragraph_offenses": [
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "The country members - the agonistici - were in the story from early on, and the charges against them are ugly: violence, beatings, a bishop dragged from his house."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "So here is the meeting that matters."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "You had gentle years and you lost them when power arrived."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Your record lets you see the cost of what changed."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "Ours does not even let us see clearly what we were before the accusations started."
+          },
+          {
+            "class": "wholly_uncited_paragraph",
+            "sentence": "You carry the wound of knowing."
+          }
+        ],
+        "speaker": "alx"
+      }
+    ],
+    "session_dollars": 0.5015123999999999
+  },
+  "total_dollars": 2.0870954,
+  "note": "Priced against a published rate card, not a reconciled AWS invoice (spec principle 13). 2 fresh single-turn probes per world x 11 worlds (each with a regeneration where the raw probe had a sentence-level OR paragraph-level offense) + one small table session - an order-of-magnitude first look, not a statistically powered sample. The paragraph-unit numbers (raw_paragraph_turn_rate_by_class, post_regeneration_paragraph_turn_rate_by_class, paragraph_unit_would_regenerate/reach_facilitator_turns), not the sentence-level post_regeneration_residual_rate, are what R27-A item 4 asks Mark's enforcement threshold to be set against (Decision-Log Entry 54) - the sentence-level numbers ride beside them for comparison only. one_sentence_wholly_uncited_paragraphs and inherited_verdict_counts are measurement only (Entry 55's own option (a) vs (b) question), and other_tradition_said_honest_limit_sentence is a per-world, per-probe boolean inside interview.worlds.<key>.probes['B-other-tradition'], not aggregated here - the reviewer's own ask names alx on the Donatists probe first."
+}

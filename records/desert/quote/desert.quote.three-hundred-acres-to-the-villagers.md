@@ -20,7 +20,7 @@ sources:
     Vita Antonii SS2 (npnf204_athanasius-select-works-letters.xml)
   license: public-domain
 text: >-
-  Antony, as though God had put him in mind of the Saints, and the passage had been read on his account, went out immediately from the church, and gave the possessions of his forefathers to the villagers—they were three hundred acres, productive and very fair—that they should be no more a clog upon himself and his sister.
+  Antony, as though God had put him in mind of the Saints, and the passage had been read on his account, went out immediately from the church, and gave the possessions of his forefathers to the villagers—they were three hundred acres , productive and very fair—that they should be no more a clog upon himself and his sister .
 speaker_or_author: Athanasius, Life of Antony
 license: verbatim
 modern_lens_note: >-
@@ -41,3 +41,6 @@ Opened 2026-08-27 for F3-E, served by desert.dw.strangest alone. The witness cit
 The lens note carries the edition's own alternative reading rather than choosing silently between
 them. A cell asking what is hard to believe about this world should not be handed a version of the
 story with its ambiguity quietly resolved.
+
+Quote-verbatim gate fix (2026-09-22): restored the source's own spaces before two punctuation marks
+("acres , productive" and "his sister .") that the record had closed up. No wording changed.

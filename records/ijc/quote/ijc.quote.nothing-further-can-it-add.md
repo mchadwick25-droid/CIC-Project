@@ -20,7 +20,7 @@ sources:
     Extracts from the Acts, Session IV (Labbe and Cossart, Concilia IV, col. 469; npnf214_seven-ecumenical-councils.xml)
   license: public-domain
 text: >-
-  As the holy and blessed and Ecumenical Synod holds fast and follows the rule of faith which was set forth by the fathers at Nice, it also confirms the faith set forth by the Synod of 150 fathers gathered at Constantinople at the bidding of the great Theodosius of blessed memory. Moreover the exposition of their faith, of the illustrious Cyril of blessed memory set forth at the Council of Ephesus (in which Nestorius was condemned) is received. And in the third place the writings of that blessed man, Leo, Archbishop of all the churches, who condemned the heresy of Nestorius and Eutyches, shew what the true faith is. Likewise the holy Synod holds this faith, this it follows - nothing further can it add nor can it take aught away.
+  As the holy and blessed and Ecumenical Synod holds fast and follows the rule of faith...which was set forth by the fathers at Nice, it also confirms the faith set forth by the Synod of 150 fathers gathered at Constantinople at the bidding of the great Theodosius of blessed memory. Moreover the exposition of their faith, of the illustrious Cyril of blessed memory set forth at the Council of Ephesus (in which Nestorius was condemned) is received. And in the third place the writings of that blessed man, Leo, Archbishop of all the churches, who condemned the heresy of Nestorius and Eutyches, shew what the true faith is. Likewise the holy Synod holds this faith, this it follows—nothing further can it add nor can it take aught away.
 speaker_or_author: Paschasinus, legate of Rome, at Chalcedon, Session IV
 license: verbatim
 modern_lens_note: >-
@@ -41,3 +41,7 @@ memory, and could not show it.
 
 The legate's recitation was chosen over the bishops' acclamation that answers it, because the cell asks
 what the world HAD: the acclamation is assent, the recitation is the actual list.
+
+Quote-verbatim gate fix (2026-09-22): the already-disclosed Latin-gloss omission had no ellipsis mark
+in the `text` field itself - added. Also fixed the closing dash's spacing to match the source's
+unspaced em dash ("follows—nothing", not "follows - nothing").

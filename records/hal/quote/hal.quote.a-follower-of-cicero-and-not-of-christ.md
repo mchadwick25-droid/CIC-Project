@@ -21,7 +21,7 @@ sources:
     Letter XXII (to Eustochium), sec. 30 - the dream at Antioch during the illness of 374 (npnf206_jerome-principal-works.xml)
   license: public-domain
 text: >-
-  Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: \"I am a Christian.\" But He who presided said: \"Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'\" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience.
+  Suddenly I was caught up in the spirit and dragged before the judgment seat of the Judge; and here the light was so bright, and those who stood around were so radiant, that I cast myself upon the ground and did not dare to look up. Asked who and what I was I replied: "I am a Christian." But He who presided said: "Thou liest, thou art a follower of Cicero and not of Christ. For 'where thy treasure is, there will thy heart be also.'" Instantly I became dumb, and amid the strokes of the lash—for He had ordered me to be scourged—I was tortured more severely still by the fire of conscience...
 modern_rendering: >-
   Suddenly I was caught up in the spirit and dragged before the Judge's seat.
   The light was so bright, and the people standing around so radiant, that I
@@ -33,7 +33,7 @@ modern_rendering: >-
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
-  The accusation is not that reading Cicero is sinful. It is that a man may be able to say \"I am a Christian\" truthfully about his beliefs and untruthfully about where his attention actually lives - 'where thy treasure is'. That is a question about attention rather than doctrine, which is why it still reaches a modern reader who has never opened Cicero.
+  The accusation is not that reading Cicero is sinful. It is that a man may be able to say "I am a Christian" truthfully about his beliefs and untruthfully about where his attention actually lives - 'where thy treasure is'. That is a question about attention rather than doctrine, which is why it still reaches a modern reader who has never opened Cicero.
 retrieval:
   tier: 1
   retrieve_when:
@@ -56,3 +56,13 @@ either world makes.
 MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+
+Quote-verbatim gate fix (2026-09-22): removed stray literal backslash characters before quote marks
+in `text` and `modern_lens_note` (a YAML folded-scalar authoring bug - backslash isn't an escape
+character there, so these were literal characters in the source's own words, not real punctuation).
+Separately, the record's own period after "fire of conscience" was invented - the source's sentence
+continues with a comma into an extended repentance narrative (crying out for mercy, the bystanders
+pleading on the dreamer's behalf, mercy granted). Marked with a trailing ellipsis rather than restored:
+the record's gloss and retrieval framing are about the accusation-and-punishment moment, not its
+resolution, and importing the repentance/mercy narrative would change what this quote is being used to
+show, not just extend it.

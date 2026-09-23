@@ -27,7 +27,7 @@ sources:
   license: public-domain
 text: "This, too, we ought to know,—that from the evening of Saturday which precedes the Sunday, up
   to the following evening, among the Egyptians they never kneel, nor from Easter to Whitsuntide; nor
-  do they at these times observe a rule of fasting."
+  do they at these times observe a rule of fasting..."
 modern_rendering: >-
   There's one more thing worth knowing: from Saturday evening through
   Sunday evening, and from Easter until Pentecost, the Egyptian monks
@@ -59,6 +59,9 @@ reason to the later Conferences and apologizing for brevity ("the
 reason for which shall be explained... lest our book exceed its due
 limits") - cut because it adds nothing beyond authorial throat-clearing,
 not because it changes the claim.
+
+Quote-verbatim gate fix (2026-09-22): the already-disclosed truncation above had no ellipsis mark in
+the `text` field itself - added.
 
 WHY THIS IS FLAGGED, NOT JUST ADDED. The vendored file's own endnote at
 this passage cites Tertullian's De Corona Militis and a fragment of

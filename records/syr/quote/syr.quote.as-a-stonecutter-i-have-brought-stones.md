@@ -20,14 +20,16 @@ sources:
     Demonstration I (Of Faith), closing section, in the NPNF translation (npnf213_gregory-great-ephraim-syrus-aphrahat.xml)
   license: public-domain
 text: >-
-  Nor are these things sufficient; but hear thou these things from me without wrangling, and enquire concerning them with brethren who are apt for persuasion. Whatsoever thou hearest that assuredly edifies, receive; and whatever builds up strange doctrines, overthrow and utterly demolish. For wrangling cannot edify. But I, my beloved, as a stonecutter have brought stones for the building, and let wise architects carve them out and lay them in the building.
+  Nor are these things sufficient; but hear thou these things from me without wrangling, and enquire concerning them with brethren who are apt for persuasion. Whatsoever thou hearest that assuredly edifies, receive; and whatever builds up strange doctrines, overthrow and utterly demolish. For wrangling cannot edify. But I, my beloved, as a stonecutter have brought stones for the building, and let wise architects carve them out and lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house.
 modern_rendering: >-
   These things are not enough by themselves. Hear them from me without
   quarreling, and ask about them among brothers who are open to persuasion.
   Whatever you hear that truly builds up, receive; and whatever builds up
   strange teachings, overthrow and demolish completely - for quarreling cannot
   build anything up. But I, my beloved, like a stonecutter have brought stones
-  for the building. Let wise architects carve them and set them in place.
+  for the building. Let wise architects carve them and set them in place; and
+  everyone who labors on the building will have their reward from the Lord
+  of the house.
 speaker_or_author: Aphrahat, the Persian Sage, Demonstration I
 license: verbatim
 modern_lens_note: >-
@@ -51,3 +53,5 @@ saying so, and saying it in the register that matters here - enquire, receive wh
 demolish what does not, and let others carve the stones I brought.
 
 MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "lay them in the building" was invented - the source's sentence continues with a semicolon, not a full stop ("...lay them in the building; and all the labourers that toil in the building shall receive reward from the Lord of the house."). Restored the full sentence rather than using an ellipsis: it is the same building metaphor's own natural continuation (laborers rewarded by the Lord of the house), doesn't change or complicate the witness this record cites it for, and modern_rendering is extended to match.

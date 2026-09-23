@@ -4,9 +4,10 @@
  * one-mark-per-run house rule (see VoiceTurnBody.tsx's own docstring:
  * "ONE ✲ per story/quote source per turn... never one per cited
  * sentence"). These exercise the anchor-driven renderer directly (the
- * flag mocked on) - see VoiceTurnBody.legacy-default.test.tsx for the
- * proof that the flag is off by default and the legacy renderer's own
- * completeness gap is what these fixtures are written against.
+ * flag mocked on, though it now defaults on too - Decision-Log.md Entry
+ * 49) - see VoiceTurnBody.legacy-default.test.tsx for the legacy
+ * renderer's own completeness gap, still reachable with no transparency
+ * plan on the turn, which is what these fixtures are written against.
  */
 import { fireEvent, render } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';

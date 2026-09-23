@@ -31,7 +31,8 @@ text: >-
   purity, and they led a life of happiness under the teaching of this good old woman, whom they
   loved, and on whom they depended; and because of the great affection which they poured out upon
   her, the key was never taken away from any one of them, as is customary in other religious houses
-  for women. Now this old woman arrived at such a state of impassibility that when I entered into
+  for women, and through her divine doctrine she changed them into a state of incorruptibility. Now
+  this old woman arrived at such a state of impassibility that when I entered into
   her presence and sat down by her side, she stretched out her hands and laid them upon my
   shoulders, in the boldness and freedom which she had acquired in Christ.
 speaker_or_author: Palladius, on Mother Talida of Antinoe
@@ -67,3 +68,8 @@ amma running a house of sixty under her own teaching, a named informant
 chain, a first-hand scene, an incidental fact about how OTHER women's
 houses were run, and a technical claim about apatheia attached to a
 woman - all in one paragraph.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "for women" was invented - the
+source's sentence continues with a real clause ("and through her divine doctrine she changed them
+into a state of incorruptibility"), silently dropped. Restored; a natural continuation of the same
+point about her teaching, not a change of claim.

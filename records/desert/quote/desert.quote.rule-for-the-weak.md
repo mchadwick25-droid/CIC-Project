@@ -30,7 +30,7 @@ text: >-
   This I have commanded that also the weak may be able to attain and to do this ordinance without
   grieving themselves; but the perfect do not desire for themselves an ordinance, for they
   themselves in their dwellings have resigned their whole lives to the Lord who sees it; but these
-  things I have ordained for those who have no advisers.
+  things I have ordained for those who have no advisers...
 speaker_or_author: Pachomius and the angel of the Lord, in the Ethiopic recension of the Rule
 license: verbatim
 modern_lens_note: >-
@@ -60,6 +60,9 @@ sentence then crosses the p. 683 page break at a hyphenated word
 ("com- / manded"), and the vendored file's own header forbids quoting
 across a break without saying so. The clause that follows is intact and
 readable in the file; it simply is not carried here.
+
+Quote-verbatim gate fix (2026-09-22): the already-disclosed truncation above had no ellipsis mark in
+the `text` field itself - added.
 
 This is the deepest thing in the document for this world's own central
 tension. desert.gravity.authority-tension holds the written rule and the

@@ -22,16 +22,26 @@ line - `"door"` has been a valid facilitator_turn kind in engine.m4.events
 since the event catalog was written, but nothing ever emitted one.
 
 DEPENDENCY_CHECK's `{representative_name}` slot (and DOOR's
-`{representative_name}`/`{role_label}`/`{display_name}`) are filled at
-call time from `world.frame["representative"]["name"]`/`["role_label"]`
-and `world.frame["display_name"]` - the same registry-authored fields
-records/worlds.yaml carries per world (compiled into compiled/frame.json
-by engine.m2.builders.build_frame_json) and already used for the doorway
-screen. The Facilitator names itself plainly as "the
-Facilitator" - no invented persona name for the Facilitator itself - while
-the Representative is named by its own registry name, so the participant
-can tell the two presences apart in the one moment they speak in the same
-beat (SS4.3a).
+`{representative_name}`/`{role_label}`) are filled at call time from
+`world.frame["representative"]["name"]`/`["role_label"]` - the same
+registry-authored fields records/worlds.yaml carries per world (compiled
+into compiled/frame.json by engine.m2.builders.build_frame_json) and
+already used for the doorway screen. Mark's own ruling: the Facilitator
+names itself plainly as "the Facilitator" - no invented persona name for
+the Facilitator itself - while the Representative is named by its own
+registry name, so the participant can tell the two presences apart in the
+one moment they speak in the same beat (SS4.3a).
+
+STATUS, 2026-09-17: DOOR's (and TABLE_DOOR's) world-name slot sources
+`registry[world_key]["card_name"]`, not `world.frame["display_name"]` -
+Built-World Voice Alignment found the two diverge for 7 of the 8 built
+worlds (e.g. ijc's display_name "Imperial and Juridical Christianity" vs.
+its card_name "Church and Empire", the name every other participant-facing
+surface actually uses), and Mark ruled on the fix directly: "it is fine to
+come from the facilitator, but the words of the facilitator should align
+with the text the world has." See door_turn's own docstring for the
+fallback rule. Logged in Ministry/Technology/CiC_FrontEnd_Decision_Log.md
+alongside DOOR's original approval.
 
 One thing below is NOT yet finished, flagged rather than hidden:
 
@@ -84,7 +94,7 @@ DOOR = FacilitatorTurn(
     kind="door",
     text=(
         "Welcome - I'm the Facilitator. I don't belong to any world; I'm just here to keep this space "
-        "honest. You're about to speak with {representative_name}, {role_label} of {display_name}. Ask "
+        "honest. You're about to speak with {representative_name}, {role_label} of {world_name}. Ask "
         "anything you like - {representative_name} answers only from what's actually known of this "
         "world, and will tell you plainly when the record runs out."
     ),
@@ -172,12 +182,24 @@ def dependency_check_turn(representative_name: str) -> dict:
     return {"kind": DEPENDENCY_CHECK.kind, "text": text, "resources_appended": False}
 
 
-def door_turn(*, representative_name: str, role_label: str, display_name: str) -> dict:
-    """All three slots come from world.frame (registry-authored, compiled by
-    engine.m2.builders.build_frame_json) - the same fields the doorway
-    screen already showed before the participant clicked "Begin", not
-    composed here."""
-    text = DOOR.text.format(representative_name=representative_name, role_label=role_label, display_name=display_name)
+def door_turn(*, representative_name: str, role_label: str, world_name: str) -> dict:
+    """representative_name/role_label come from world.frame (registry-
+    authored, compiled by engine.m2.builders.build_frame_json) - the same
+    fields the doorway screen already showed before the participant clicked
+    "Begin", not composed here.
+
+    world_name is deliberately NOT world.frame["display_name"] - that field
+    is the registry's scholarly name (e.g. "Imperial and Juridical
+    Christianity"), never spoken elsewhere in plain voice; Arrival only
+    surfaces it as a small, secondary "studied as..." line. Every other
+    participant-facing surface (homepage tile, Atlas card, Arrival's own
+    kicker) names the world by its registry card_name instead (e.g. "Church
+    and Empire"). Mark's ruling, 2026-09-17 (Built-World Voice Alignment):
+    "it is fine to come from the facilitator, but the words of the
+    facilitator should align with the text the world has" - so callers pass
+    registry[world_key]["card_name"], falling back to display_name only for
+    an entry that has none (the fix fixture)."""
+    text = DOOR.text.format(representative_name=representative_name, role_label=role_label, world_name=world_name)
     return {"kind": DOOR.kind, "text": text}
 
 
@@ -278,10 +300,11 @@ TABLE_DOOR = FacilitatorTurn(
 
 def table_door_turn(seated: list[dict]) -> dict:
     """seated: one dict per world in seating order, each carrying
-    representative_name/role_label/display_name straight from that world's
-    compiled frame.json - the same registry-authored fields the interview's
-    door_turn fills its slots from, composed here only with punctuation."""
-    parts = [f"{s['representative_name']}, {s['role_label']} of {s['display_name']}" for s in seated]
+    representative_name/role_label straight from that world's compiled
+    frame.json and world_name per door_turn's own card_name/display_name
+    rule - the same registry-authored fields the interview's door_turn
+    fills its slots from, composed here only with punctuation."""
+    parts = [f"{s['representative_name']}, {s['role_label']} of {s['world_name']}" for s in seated]
     if len(parts) == 2:
         seated_sentence = f"{parts[0]}, and {parts[1]}"
     else:
@@ -342,6 +365,62 @@ def table_session_cap_turn(representative_names: list[str]) -> dict:
     cuts the other way here and is still unreconciled."""
     text = TABLE_SESSION_CAP.text.format(names_phrase=names_or_phrase(representative_names))
     return {"kind": TABLE_SESSION_CAP.kind, "text": text}
+
+
+TABLE_SEAT_CORRECTION = FacilitatorTurn(
+    kind="seat_correction",
+    text=(
+        "This is the Facilitator, stepping in for a moment - {representative_name}'s last answer didn't "
+        "hold together the way it should have, so I'm setting it aside rather than passing it on to you. "
+        "Ask again, or bring another voice into it - the Table is still open."
+    ),
+)
+
+
+def table_seat_correction_turn(representative_name: str) -> dict:
+    """The seat-identity guard's own fallback line (Decision-Log.md Entry
+    47, 2026-09-22): engine.m4.seat_identity_guard caught a generated turn
+    writing itself as the Facilitator or another seated voice, regenerated
+    once, and caught it again - so this voice's own text is never shown
+    (engine.api.table_wiring writes that turn's voice_turn event with an
+    empty text, same as any other genuinely empty stream; this facilitator
+    turn is what the participant actually reads instead).
+
+    DRAFT COPY, not yet Mark's own word - same discipline Stage 6b/6c/6e's
+    own participant-facing text followed (Decision-Log.md Entries 39, 41):
+    the mechanism ships enforcing now, per Mark's own instruction, with
+    this line as its working default pending his confirmation of the exact
+    words."""
+    return {"kind": TABLE_SEAT_CORRECTION.kind, "text": TABLE_SEAT_CORRECTION.text.format(representative_name=representative_name)}
+
+
+VOICE_REJECTED = FacilitatorTurn(
+    kind="grounding_correction",
+    text=(
+        "This is the Facilitator, stepping in for a moment - {representative_name}'s last answer didn't "
+        "hold together the way it should have, so I'm setting it aside rather than passing it on to you. "
+        "Ask again, or ask something else - I'm still here."
+    ),
+)
+
+
+def voice_rejected_turn(representative_name: str) -> dict:
+    """R27 build item 5's own interview-mode fallback (Decision-Log.md
+    Entry 56/Rulings-Pending.md R36, 2026-09-23): the interview-mode
+    analog of table_seat_correction_turn above, for the one case
+    engine.m4.turn's seat-identity guard never covers in interview mode -
+    a generated voice turn that hard-failed R27's own paragraph-unit
+    check (wholly_uncited_paragraph or neighbour_named), survived one
+    named regeneration, and still hard-failed
+    (voice_event["r27_enforcement_exhausted"] is True; that turn's own
+    text is deliberately empty, same convention seat_identity_guard_
+    exhausted already sets). Interview mode has no other seats to "bring
+    into it" the way the Table line closes, so this is new wording, not
+    a reuse of TABLE_SEAT_CORRECTION - drafted as three options and
+    escalated to Mark before being built (per the reviewer thread's own
+    instruction on item 5); this is Option A, Mark's own word, chosen
+    directly in session 2026-09-23 - RULED, not draft copy."""
+    return {"kind": VOICE_REJECTED.kind, "text": VOICE_REJECTED.text.format(representative_name=representative_name)}
 
 
 def bridge_turn(terms: list[dict]) -> tuple[dict, str]:

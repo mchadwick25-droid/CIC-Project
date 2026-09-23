@@ -34,7 +34,7 @@ text: >-
   kneeling down, and she made bowings and entreaties unto God, saying, "O Lord, Thou Judge of the
   earth, Who hast no pleasure in whatever is iniquitous, O my Lord, when the prayer which Thine
   handmaiden prayeth and her supplication reach Thee, let Thy power transfix [the enemy] in the
-  spot wherein they are."
+  spot wherein they are"...
 modern_rendering: >-
   The elders of the village were afraid. They fell at her feet and begged her:
   'We do not dare go out to meet them. We know how cruel and arrogant they
@@ -70,6 +70,14 @@ relations:
 Verified verbatim 2026-08-27 against the vendored file.
 
 The square brackets around "[the enemy]" are Budge's.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "wherein they are" was invented -
+the source's sentence continues with a semicolon into the narrative outcome (the attackers fettered
+three miles off). Marked with a trailing ellipsis rather than restored: this record's own
+divergence_note already says the outcome/miracle is deliberately not what the record carries ("this
+world does not adjudicate that... What the quote carries is not the outcome but the position"), so
+restoring it would add exactly the material the record already says it isn't citing for.
+modern_rendering extended to mark the same stop.
 
 Registered against desert.gravity.economic-embeddedness rather than
 against any of this world's withdrawal material, deliberately. The
