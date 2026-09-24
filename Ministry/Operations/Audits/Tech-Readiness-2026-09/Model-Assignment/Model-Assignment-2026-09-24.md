@@ -149,3 +149,35 @@ This runs on session credits, not Bedrock. It measures exactly the writing skill
 - AWS account access for Opus 5.5 and Sonnet 5: Mark with AWS. Study 2 and the Sonnet 5 re-run of Study 1 both wait on this.
 - Authoring-model change: needs Mark's ruling, because it changes a CLAUDE.md usage rule. The proposed 12-record re-authoring test would give the evidence first.
 - Grader scope (grammar and register): stays out of the grader unless Mark rules otherwise. Thread C's check covers fragments.
+
+## Addendum — authoring test results (2026-09-24)
+
+This reports the results only. The choice of authoring model, and any change to the CLAUDE.md usage rule, is Mark's.
+
+**What ran.**
+- Two fresh subagents re-wrote the 12 renderings that the round-two human read had rejected.
+- Both got the same brief (`Authoring-Brief-12-Records.md`). It held each record's verbatim `text`, with no prior rendering, no grader verdict and no hint of what went wrong.
+- They reported their own model ids as `claude-sonnet-5` and `claude-opus-5-5`.
+- The 24 renderings were blinded as A and B per record, and read against the bar: every clause present, nothing added, modern English, whole sentences of one thought each, nothing past about 25 words, and no word whose modern sense misleads.
+- The key was sealed by SHA-256 before the read and opened after it.
+- Full verdicts and the unsealed table: `Authoring-Test-Blind-Read.md`.
+
+| | Opus 5.5 | Sonnet 5 |
+|---|---|---|
+| Passed the blind read | 12 of 12 | 3 of 12 |
+| Preferred, of 10 records that were not ties | 9 | 1 |
+| Flagged by either grader (Haiku 4.5, Sonnet 4.6), by majority | 3 | 1 |
+| Sentence-completeness flags | 0 | 1 (a misparse) |
+
+- Sonnet 5 failed mainly on sentence length: 8 renderings kept sentences of about 45 to 90 words.
+- Its other failures were three word choices whose modern sense misleads or loses something: "sick of love", "too godly", and "these words" for "syllables".
+- The graders pointed the other way from the human read. They are not asked about sentence length.
+- The reader raised three rule questions for Mark:
+  - whether an editor's bracketed supplement may be voiced (both authors did);
+  - a small restructuring by Opus 5.5 in the Polycrates record;
+  - dropping a leading "Since" where the excerpt has no main clause (both authors did).
+- **Limits of the test:**
+  - It is 12 records, one run per author.
+  - Each author's style is consistent, so the reader could have grouped renderings by author, though not named the model.
+  - The authoring ran on session credits.
+  - $0.63 of Bedrock spend graded the 24 renderings, under the earlier brief.

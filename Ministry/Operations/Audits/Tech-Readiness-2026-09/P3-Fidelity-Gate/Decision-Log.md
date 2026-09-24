@@ -1717,3 +1717,44 @@ unchanged, after the reviewer's go.
    Claude Code, then grade them blind. This would settle whether
    authoring moves to Opus, which would change a CLAUDE.md usage rule.
    Not started; if approved, it comes back to thread E as a dispatch.
+
+**Entry 32 — 2026-09-24 (the authoring test: 12 renderings, two
+authors, blind read).** Thread E, PR #493. Results only; the choice of
+authoring model is Mark's.
+
+**What ran.**
+- Two fresh subagents re-wrote the 12 renderings that the round-two
+  human read had rejected (Entry 31's labeled set).
+- Both had one brief, holding each record's verbatim `text` at
+  `c057a8c2` and no prior rendering or verdict.
+- Their self-reported ids were `claude-sonnet-5` and `claude-opus-5-5`.
+- The 24 renderings were blinded A/B per record, with the key sealed
+  by SHA-256. The managing thread read them blind before the key was
+  opened.
+- Files: `Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/Authoring-Test-Blind-Read.md`.
+  The memo addendum is in the same folder.
+
+**Result.**
+
+| | Opus 5.5 | Sonnet 5 |
+|---|---|---|
+| Passed the blind read | 12 of 12 | 3 of 12 |
+| Preferred, of 10 non-tied records | 9 | 1 |
+
+- Sonnet 5's failures were mostly sentences of about 45 to 90 words.
+  The rest were three misleading word choices.
+- The graders (Haiku 4.5 and Sonnet 4.6, 3 runs each) flagged 3 Opus
+  renderings and 1 Sonnet rendering, the reverse of the human read.
+  The graders are not asked about sentence length.
+
+**Spend.** Bedrock $0.63, for the grader runs on the 24 renderings.
+They ran under the reviewer thread's brief, before the managing
+thread's rule of no new Bedrock spend without a go. The authoring
+itself was on session credits.
+
+**Open, with Mark:**
+1. The authoring model and the CLAUDE.md usage rule.
+2. Three rule questions raised by the reader:
+   - voicing an editor's bracketed supplement ("[truly] died");
+   - a small restructuring in the Polycrates rendering;
+   - dropping a leading "Since" where the excerpt has no main clause.
