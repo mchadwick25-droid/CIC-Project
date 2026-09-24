@@ -129,12 +129,7 @@ Where the answer is a **new census entry**, that is a change to `cic-website/dat
 
 ## Placement questions surfaced by the Live-Surface-Cleanup pass, 2026-09-24
 
-Not `needs-ruling` works (their `confidence` stays `assigned`/`provisional` as it was) — real, open editorial
-questions the corpus-map surface's own notes used to carry inline, worded as an aside to "Mark" or "a
-reviewer." That program's own rule (`CLAUDE.md`, "Keep the live/canonical surfaces clean") is that a live
-file states only the current, settled placement and its present-tense reason; an open question about that
-placement belongs here instead. None of these are resolved by moving them — every one is exactly as open as
-it was in the source note, just no longer asserted-with-a-question-mark inside the live file itself.
+Open editorial questions about a work's placement — not `needs-ruling` works; each one's `confidence` stays `assigned`/`provisional` as it was, and only the open question about where else it might belong sits here.
 
 **Address to the Greeks / Oratio ad Graecos (Tatian)** · `tatian` · `anf02` · `post-apostolic-house-church`, `syriac-edessa-nisibis`, `greek-apologists-second-century`
 > A pupil of Justin writing in Rome (pahc's window and region), later returned east and claimed as a forefather by the Syriac tradition (which syr already reaches through his Diatessaron), and later still branded an Encratite. Where his voice ultimately sits between pahc and syr is open.

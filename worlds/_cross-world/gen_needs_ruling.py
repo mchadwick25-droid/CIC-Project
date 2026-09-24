@@ -27,10 +27,13 @@ producing nothing.
 EVERYTHING BELOW `HAND_MAINTAINED_MARKER` IN THE OUTPUT FILE IS PRESERVED, NOT
 GENERATED. A later editorial pass can add a section there (a cross-world
 finding, a placement question that doesn't fit this script's own per-work
-`needs-ruling` model) and a regeneration will not touch it - `main()` reads
-whatever already follows the marker in the existing file and reproduces it
-verbatim. This exists because a run once didn't do that and silently dropped
-a hand-added section (found 2026-09-24). See `extract_hand_maintained()`.
+`needs-ruling` model), and a regeneration reproduces it verbatim rather than
+touching it - `main()` reads whatever already follows the marker in the
+existing file. An existing file with no marker at all makes `main()` refuse
+to write rather than guess: a missing marker on a real file could mean real
+hand-added content sits below some other heading, and treating "no marker
+found" as "nothing to preserve" would lose it silently. See
+`extract_hand_maintained()`.
 
     python worlds/_cross-world/gen_needs_ruling.py
 """
@@ -46,13 +49,12 @@ MAP = ROOT / "cic" / "corpus-map"
 TARGET_FILE = pathlib.Path(__file__).resolve().parent / "NEEDS-RULING.md"
 
 # Everything from this marker to the end of the file is hand-maintained, not
-# derived from cic/corpus-map/ — later cleanup/editorial passes that add a
-# section here (a cross-world finding, a placement question that isn't a
-# per-work needs-ruling row) do not fit this script's own data model, and a
-# naive rewrite silently dropped exactly one such section (found 2026-09-24,
-# Live-Surface-Cleanup item 4 rulings) because nothing preserved it. A run
-# now reads whatever already follows this marker and reproduces it verbatim,
-# rather than overwriting it with the script's own fixed prose.
+# derived from cic/corpus-map/ — a regeneration reads whatever already
+# follows this marker in the existing file and reproduces it verbatim,
+# rather than overwriting it with the script's own fixed prose. An existing
+# file with no marker at all makes main() refuse to write: a missing marker
+# could mean real hand-added content sits below some other heading rather
+# than none at all, and guessing wrong would lose it silently.
 HAND_MAINTAINED_MARKER = (
     "<!-- HAND-MAINTAINED BELOW THIS LINE -->"
 )
@@ -65,6 +67,15 @@ HAND_MAINTAINED_PLACEHOLDER = (
     "surfaced by a later editorial pass, and the like) — a regeneration "
     "preserves everything from the marker line onward, verbatim.\n"
 )
+
+
+class MissingMarkerError(RuntimeError):
+    """Raised when an existing NEEDS-RULING.md has no HAND_MAINTAINED_MARKER.
+
+    Only a genuinely first run (no existing file at all) gets the
+    placeholder; an existing file that has lost its marker is refused
+    outright, since silently treating it as empty is exactly the data-loss
+    bug this class exists to prevent."""
 
 # The recurring questions, keyed by the entry the works were parked against.
 # Each is a ruling that clears everything beneath it at once.
@@ -105,14 +116,20 @@ def extract_hand_maintained(existing_text: str | None) -> str:
     """Returns the hand-maintained tail of a previous run's output, verbatim,
     for re-appending to a fresh run. `existing_text` is the previous
     NEEDS-RULING.md content, or None if the file doesn't exist yet (first
-    run). Falls back to a placeholder section if the marker is missing from
-    existing content, so a future addition always has somewhere to go rather
-    than being silently unrecoverable."""
-    if existing_text is not None:
-        idx = existing_text.find(HAND_MAINTAINED_MARKER)
-        if idx != -1:
-            return existing_text[idx:].rstrip("\n") + "\n"
-    return HAND_MAINTAINED_PLACEHOLDER
+    run, when the placeholder section is returned instead). An existing file
+    that has lost its marker raises `MissingMarkerError` rather than falling
+    back to the placeholder, since a missing marker on a real file could mean
+    real hand-added content sits below some other heading."""
+    if existing_text is None:
+        return HAND_MAINTAINED_PLACEHOLDER
+    idx = existing_text.find(HAND_MAINTAINED_MARKER)
+    if idx == -1:
+        raise MissingMarkerError(
+            f"existing {TARGET_FILE.name} has no {HAND_MAINTAINED_MARKER!r} — "
+            "refusing to regenerate, since any hand-maintained content in this "
+            "file would be lost without a marker to preserve it from."
+        )
+    return existing_text[idx:].rstrip("\n") + "\n"
 
 
 def load() -> dict:
@@ -395,7 +412,11 @@ def main() -> None:
             print(f"  {o}")
 
     existing = TARGET_FILE.read_text(encoding="utf-8") if TARGET_FILE.exists() else None
-    out.append(extract_hand_maintained(existing))
+    try:
+        out.append(extract_hand_maintained(existing))
+    except MissingMarkerError as exc:
+        print(f"refusing to write: {exc}")
+        return
 
     TARGET_FILE.write_text("\n".join(out).rstrip("\n") + "\n", encoding="utf-8")
     try:

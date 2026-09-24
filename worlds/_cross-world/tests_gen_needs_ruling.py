@@ -1,16 +1,18 @@
 """Tests for gen_needs_ruling.py's hand-maintained-tail preservation.
 
-Root-cause regression test for the bug found 2026-09-24 (Live-Surface-Cleanup
-item 4 rulings): a naive regeneration overwrote the whole file, silently
-dropping a hand-appended section (a cross-world finding) that the generator
-itself never produced and had no way to reproduce. `extract_hand_maintained()`
-is the fix - everything from `HAND_MAINTAINED_MARKER` to end of file is read
-back from the previous run and reproduced verbatim, rather than regenerated.
+Everything from `HAND_MAINTAINED_MARKER` to end of file in an existing
+NEEDS-RULING.md is hand-maintained, not derived from cic/corpus-map/: a
+regeneration reads it back from the previous run and reproduces it verbatim
+rather than overwriting it. An existing file that has lost its marker makes
+`main()` refuse to write, since treating a missing marker as "nothing to
+preserve" would lose real hand-added content silently.
 
     python -m pytest worlds/_cross-world/tests_gen_needs_ruling.py
 """
 import pathlib
 import sys
+
+import pytest
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
@@ -44,13 +46,14 @@ def test_extract_hand_maintained_survives_a_second_extraction():
     assert tail_1.rstrip("\n") == tail_2.rstrip("\n")
 
 
-def test_extract_hand_maintained_falls_back_to_placeholder_when_marker_missing():
-    # A file with no marker at all (e.g. never migrated, or corrupted) must
-    # not raise or silently return generated content as if it were the tail -
-    # it gets a fresh, clearly-labelled placeholder instead.
-    tail = g.extract_hand_maintained("# Needs-ruling\n\nNo marker anywhere in this file.\n")
-    assert tail == g.HAND_MAINTAINED_PLACEHOLDER
-    assert g.HAND_MAINTAINED_MARKER in tail
+def test_extract_hand_maintained_refuses_when_an_existing_file_lacks_the_marker():
+    # An existing (non-None) file with no marker at all must not be treated
+    # as if it had nothing to preserve - that is exactly the data-loss bug
+    # this function exists to prevent. It raises instead of falling back to
+    # a placeholder that would silently discard any real content below some
+    # other heading.
+    with pytest.raises(g.MissingMarkerError):
+        g.extract_hand_maintained("# Needs-ruling\n\nNo marker anywhere in this file.\n")
 
 
 def test_extract_hand_maintained_handles_first_run_with_no_existing_file():
@@ -79,6 +82,22 @@ def test_real_needs_ruling_file_hand_maintained_tail_survives_a_real_regeneratio
     after = scratch.read_text(encoding="utf-8")
     after_tail = after[after.index(g.HAND_MAINTAINED_MARKER):].rstrip()
     assert before_tail == after_tail, "hand-maintained tail must survive a real regeneration unchanged"
+
+
+def test_main_refuses_to_write_when_an_existing_file_lacks_the_marker(tmp_path, monkeypatch, capsys):
+    """End-to-end: `main()` against a scratch file that exists but has no
+    marker must leave that file untouched rather than overwrite it - the
+    exact case the round-1 data-loss bug missed."""
+    scratch = tmp_path / "NEEDS-RULING.md"
+    before = "# Needs-ruling\n\nSome prior content, no marker at all.\n"
+    scratch.write_text(before, encoding="utf-8")
+
+    monkeypatch.setattr(g, "TARGET_FILE", scratch)
+    g.main()
+
+    after = scratch.read_text(encoding="utf-8")
+    assert after == before, "a missing marker on an existing file must not be written over"
+    assert "refusing to write" in capsys.readouterr().out
 
 
 def test_generator_is_idempotent_on_a_second_run(tmp_path, monkeypatch):
