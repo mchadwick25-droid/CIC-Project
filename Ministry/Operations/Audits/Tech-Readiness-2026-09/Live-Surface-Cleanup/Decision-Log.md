@@ -798,3 +798,78 @@ PR.
   in the PR).
 
 ---
+
+## Entry 5 — Program stopped: worlds/, fixtures/, and reference/ cleanup dropped
+
+**2026-09-24, Mark (via the managing thread, delegated verdict and
+sequencing authority).** Scope change, delivered after PR #510 merged
+and desert (item 4, the smallest world) was underway: stop the
+`worlds/` construction-document cleanup now, including the in-progress
+desert work, and drop the remaining program items — `fixtures/`
+(item 5) and `reference/` (item 6) — entirely. Reason given: those
+three surfaces are not participant-facing, and the cost of continuing
+the pass across them (twelve worlds' construction documents, at up to
+79 files for the largest) is not justified once weighed against that.
+`tools/check_live_commentary.py` stays in place as a report-only scan
+— it keeps whatever commentary remains in these surfaces visible on
+every CI run, without gating anything, so the count is not lost even
+though the pass to bring it to zero does not continue.
+
+Items 1–3 (`cic-website/`, `cic-poc/frontend/`, `cic/corpus-map/` —
+PRs #501, #503, #508) and the `gen_needs_ruling.py` data-loss fix
+(PR #510) are unaffected and stand as completed, merged work.
+
+**In-progress desert work at the time of the stop, for the record:**
+a branch (`step4-desert-live-surface-cleanup`, pushed but no PR
+opened) held two pieces of work, abandoned per this stop directive
+rather than merged:
+
+- A `tools/check_live_commentary.py` fix protecting per-world
+  `worlds/<code>/*_Decision_Log.md` files from being flagged
+  (ruling 2 for item 4: these are the legitimate audit-trail
+  destination this program routes provenance *to*, not a construction
+  document leaking it — the checker did not yet know that when item 4
+  began).
+- `worlds/desert/CiC_W3_Doc01_World_Identification.md` and
+  `CiC_W3_Doc02_Source_Ecology.md`, cleaned of inline "per Round N
+  review, Finding X" provenance and a duplicated "Document log"
+  section (already fully carried by `CiC_W3_Decision_Log.md` and the
+  still-protected `Doc_0N_Review_RoundN.md` files), as the worked
+  model for the other eight canonical Doc files. Doc_03 was in
+  progress, unverified, when work stopped; its edit was discarded.
+
+None of this is merged, none of it is lost — the branch remains on
+the remote, unreferenced by any open PR, should this program resume
+later.
+
+**Process-note move candidates identified, for the record** (per
+item 4 ruling 4(b): these were never in scope to strip, only to list
+as candidates for a later, separate structural move to
+`worlds/<code>/build/` or `Ministry/`, a move this stop directive also
+does not authorize):
+
+- **Desert-specific**, confirmed directly: `CiC_W3_Guided_Starters_V0_1_DRAFT.md`
+  and `CiC_W3_Phase6_Facilitation_Brief_DRAFT.md`.
+- **The general shape**, named in the original item-4 ruling but not
+  re-enumerated per world before the stop (most worlds' own file lists
+  were never individually surveyed): `STATUS-FOR-SOURCE-THREAD.md`;
+  `G0`/`G1`/`B1a`/`B8`/`B9`/`PhaseC` scoping/coverage notes;
+  `Phase*_DRAFT.md`; dated Step 0 confirmations; a world's own
+  `Source_Acquisition_Manifest` where it is a working log rather than
+  a settled record.
+- **`worlds/_cross-world/`**, per item-4 ruling 5 (that surface's own
+  PR, never started): dated audit/brief documents —
+  `CiC_Cross_System_Consistency_Audit_2026-08-26.md`, `BRIEF-*`,
+  `CASE-*`, `CORPUS-PARTITION-BRIEF`, `PLAN-*` — were identified as
+  candidates to move to `Ministry/`, distinct from that surface's
+  registers (`NEEDS-RULING.md`, `WANTS-REGISTER.md`,
+  `SOURCE-READINESS`, `DOWNLOAD-QUEUE.md`, dossiers), which were
+  ruled to stay and keep their ROUTE hits as their own function.
+
+**Disposition:** the Live-Surface-Cleanup program closes here. Items 1–3
+and the `gen_needs_ruling.py` fix are the program's completed scope;
+items 4–6 are stopped, not deferred to a later phase of this same
+program — any future work on `worlds/`, `fixtures/`, or `reference/`
+commentary is a new decision, not a resumption of this one.
+
+---
