@@ -1,0 +1,23 @@
+# Closes a Verified Acquisition Lead from the Reformed Cities dossier
+# (Atlas VI.2) - see calvin_letters-vol1_bonnet1858.yaml for the full
+# 4-volume set's status.
+source_file: calvin_letters-vol4_bonnet1858.txt
+
+assignments:
+  - work: "Letters of John Calvin, Compiled from the Original Manuscripts
+      and Edited with Historical Notes, Vol. IV"
+    author: calvin
+    locus: "whole file - Vol. IV"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Continues Calvin's correspondence into his later years - this
+      volume's own cumulative index (which references entries across all
+      four volumes by Roman-numeral volume number) confirms it is the
+      set's final volume, closing with "THE END" - same set and vendoring
+      basis as Vols. I-II. Translator differs from those volumes: this
+      volume's own title page names Marcus Robert Gilchrist as translator,
+      where Vols. I-II name no individual translator - see this file's
+      own intake header.

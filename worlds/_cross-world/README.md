@@ -99,6 +99,35 @@ see the dossier's own §2 and §5, which also flags a real locus error the
 verification turned up in `desert-monasticism.yaml`'s own existing Sozomen
 note (a citation to Book VI chapters that don't exist in this edition).
 
+**Vendoring pass against an existing dossier, 2026-09-25** —
+`the-reformed-cities-zurich-and-geneva` (VI.2), one of the six Era VII/VI
+candidates from the 2026-09-15 batch above. Not a new dossier (still 22
+written); this pass re-verified and closed most of that dossier's own §3
+Verified Acquisition Leads. Found on arrival that this world was not
+actually a cold start the way its own dossier's header still claimed: a
+same-day 2026-09-15 pass (concurrent with the dossier's own drafting) had
+already vendored and assigned 10 works across 8 files to
+`cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml`, including
+closing the dossier's own §4 "genuinely open" Consensus Tigurinus item —
+none of that closure had ever been written back into the dossier's own §1
+before this pass. Independently re-verified all of it (direct archive.org
+metadata re-fetch, not trust in the prior "verified by" notes) rather than
+propagating a stale premise forward, then vendored 6 more works across 6
+more files to close 3 further §3 leads: Zwingli's *Latin Works*, Vol. III
+(1929, "De Vera et Falsa Religione"), the two-volume Genesis Commentary
+(Calvin, trans. King, 1847, a deliberate partial acquisition against the
+dossier's own ~22-volume Calvin Translation Society Commentaries lead),
+and two of the four volumes of the Bonnet-edited *Letters of John Calvin*
+(1858) — the set's Vol. III genuinely could not be located across three
+checked identifier families and is disclosed as an open gap, not
+substituted. Current total: 16 works across 14 files, 2 leads still open
+(Letters Vol. III; the ~20 remaining CTS Commentary volumes). Also
+surfaced and flagged, not acted on this pass: this world's own
+`worlds/rzg/Source_Registry.md` independently tracks five further,
+higher-priority acquisition gaps (Ecclesiastical Ordinances, the Genevan
+Psalter, Beza, Dentière, a PD substitute for the Consistory Registers) —
+see that dossier's own §5.
+
 **Backlog — not yet written:** none at Era 1/2 Tier 1 as of 2026-09-21.
 `donatism` (I.4) and `gallic-monastic-ascetic-christianity` (I.27) are far
 enough into their own builds that a retroactive dossier is lower priority
