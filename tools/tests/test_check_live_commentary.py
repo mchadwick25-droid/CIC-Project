@@ -187,6 +187,98 @@ def test_iso_date_inside_prose_rewrites(tmp_path):
 
 
 # ---------------------------------------------------------------------------
+# Spoken-field grading/provenance vocabulary (SPOKEN_VOCAB_PATTERNS)
+# ---------------------------------------------------------------------------
+
+def _world_core_record(thinness: str) -> str:
+    return (
+        "---\n"
+        "id: rzg.core.example\n"
+        "record_type: world_core\n"
+        f"thinness: '{thinness}'\n"
+        "status: draft\n"
+        "---\n"
+    )
+
+
+def test_spoken_field_grading_vocab_rewrites(tmp_path):
+    # The real rzg.core.the-reformed-cities-zurich-and-geneva.md sentence
+    # this pattern set was written to catch.
+    text = _world_core_record(
+        "rests on Confidence D/E, unacquired evidence (Source_Registry.md row 13) "
+        "- the general doctrine is Documented, but the vivid detail is not."
+    )
+    hits = _hits_for(text, tmp_path, "records/rzg/world_core/rzg.core.example.md")
+    by_line = {h.line: h for h in hits}
+    hit = by_line[4]
+    assert hit.category == "REWRITE"
+    assert {"confidence-grade", "source-registry-ref", "confidence-predicate"} <= set(hit.patterns)
+
+
+def test_doc_and_section_ref_in_spoken_field_rewrites(tmp_path):
+    text = _world_core_record("as Doc_04 SS3.4 and Doc_08 SS2C both note, evidence is thin here.")
+    hits = _hits_for(text, tmp_path, "records/rzg/world_core/rzg.core.example.md")
+    assert hits[0].category == "REWRITE"
+    assert "doc-ref" in hits[0].patterns
+    assert "section-ref" in hits[0].patterns
+
+
+def test_grading_vocab_outside_a_spoken_field_not_flagged_by_new_patterns(tmp_path):
+    # `sources` isn't a declared SPOKEN_FIELDS entry for world_core - a
+    # Doc_04/Confidence mention there is untouched by SPOKEN_VOCAB_PATTERNS
+    # (it may still be flagged by the ordinary global PATTERNS, which is a
+    # separate, pre-existing concern this test doesn't assert on).
+    text = (
+        "---\n"
+        "id: rzg.core.example\n"
+        "record_type: world_core\n"
+        "sources: []\n"
+        "notes_field_not_declared_spoken: 'Confidence B per Doc_04 SS2'\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/rzg/world_core/rzg.core.example.md")
+    # Not a declared spoken field, and none of these words trip the global
+    # PATTERNS on their own - no hit at all, not just an unflagged one.
+    assert hits == []
+
+
+def test_honest_limit_and_contested_claim_excluded_from_spoken_vocab_patterns(tmp_path):
+    text = (
+        "---\n"
+        "id: rzg.limit.example\n"
+        "record_type: honest_limit\n"
+        "statement: 'Doc_02 SS6 states this directly (Source_Registry.md row 17); "
+        "the general claim is Documented at Confidence B.'\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/rzg/honest_limit/rzg.limit.example.md")
+    # honest_limit is excluded from SPOKEN_VOCAB_PATTERNS entirely, and
+    # none of these words trip the global PATTERNS on their own.
+    assert hits == []
+
+
+def test_formation_confidence_field_itself_stays_protected(tmp_path):
+    record = (
+        "---\n"
+        "id: rzg.core.example\n"
+        "record_type: world_core\n"
+        "confidence:\n"
+        "  citation_specificity: B\n"
+        "  formation_confidence: Documented\n"
+        "thinness: 'plain statement, no leaked vocabulary here'\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _hits_for(record, tmp_path, "records/rzg/world_core/rzg.core.example.md")
+    # formation_confidence's own value never matches "is Documented" (no
+    # "is" word present) or any other SPOKEN_VOCAB_PATTERNS - confirms the
+    # field needs no special-case matching, only stays out of the way.
+    assert hits == []
+
+
+# ---------------------------------------------------------------------------
 # Hand-labelled sample: precision/recall (PR A's own required measurement)
 # ---------------------------------------------------------------------------
 

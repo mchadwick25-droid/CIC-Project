@@ -56,6 +56,19 @@ Within an unprotected line: ROUTE if it carries an open-item cue (still
 unresolved, not yet fixed); else REWRITE if it carries a provenance cue
 (the primary patterns below, besides ROUTE's own); else KEEP.
 
+A second, narrower rule (SPOKEN_VOCAB_PATTERNS below) catches a different
+failure inside records/: the project's own grading and provenance
+vocabulary (a Confidence letter, a Doc_0N/SS-section citation, a
+Source_Registry reference, the five-level formation_confidence vocabulary
+used as a spoken predicate - "is Documented") leaking into a field
+engine/m1/spoken_fields.py's own SPOKEN_FIELDS registry declares SPOKEN -
+compiled into what the model actually says back to a participant, not
+just into a comment. Always classifies REWRITE (never a KEEP false
+positive worth carving out yet). contested_claim and honest_limit are
+excluded record types: their own designed subject matter is this
+project's uncertainty vocabulary, and telling that apart from a genuinely
+leaked term needs a human read, not a regex.
+
 SCOPE
 
 engine/, cic/engine/, cic/corpus-map/, records/, worlds/ (construction
@@ -86,6 +99,15 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent if HERE.name == "tools" else Path.cwd()
+
+# engine/m1/spoken_fields.py is the engine's own single declared registry of
+# which record fields ever reach a participant or the model speaking to
+# them - reused here rather than hand-listing spoken fields a second time
+# (a second list is exactly how `story.tellable_as` and `voice_craft.*`
+# fell out of sync with gate_readability's own coverage before this
+# registry existed; see that module's own docstring).
+sys.path.insert(0, str(REPO))
+from engine.m1.spoken_fields import SPOKEN_FIELDS  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Scope: the live/canonical surfaces named in CLAUDE.md's "Keep the
@@ -131,6 +153,30 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "review-round": re.compile(r"\bround\s+\d+\b", re.IGNORECASE),
     "ruled": re.compile(r"\bRULED\b"),
     "iso-date": re.compile(r"\b20\d\d-\d\d-\d\d\b"),
+}
+
+# Grading and provenance vocabulary inside a record's own SPOKEN fields
+# (see SPOKEN_FIELDS below) - the project's internal evidentiary bookkeeping
+# leaking into text the model actually says back to a participant, a
+# different failure from PATTERNS above (which catch build/review
+# narration wherever it appears). Real example found live: records/rzg/
+# world_core/rzg.core.*.md's `thinness` (a declared voice-diet field,
+# compiled into every rzg turn's prompt by engine/m2/builders.py) reads
+# "...rests on Confidence D/E, unacquired evidence (Source_Registry.md row
+# 13) - the general doctrine is Documented, but the vivid, formation-
+# defining..." - three of these four patterns firing on one sentence.
+# Scope note: these only apply within a spoken field, computed per-file
+# below (_spoken_field_lines) - not everywhere PATTERNS above already
+# scans, since e.g. "Doc_04" is an entirely normal thing for a construction
+# document or a Decision-Log to cite about itself.
+SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
+    "confidence-grade": re.compile(r"\bConfidence\s+[A-E](/[A-E])?\b"),
+    "doc-ref": re.compile(r"\bDoc_0\d\b"),
+    "section-ref": re.compile(r"\bSS\d+[A-Za-z]?(\.\d+)?\b|§\s?\d+"),
+    "source-registry-ref": re.compile(r"\bSource_Registry\b"),
+    "confidence-predicate": re.compile(
+        r"\bis\s+(Documented|Widely Accepted|Dominant Modern Reconstruction|Contested|Inferential-Thin)\b"
+    ),
 }
 
 # A line whose ENTIRE value is a bare date - `sealed_at: '2026-08-20'`,
@@ -196,19 +242,26 @@ PROTECTED_CONTENT_FIELDS = {"modern_rendering"}
 _YAML_KEY = re.compile(r"^(\s*)([A-Za-z_][A-Za-z0-9_]*):\s*(.*)$")
 
 
-def _protected_record_field_lines(text: str) -> set[int]:
-    """Line numbers (1-indexed) inside a record .md's YAML front matter
-    that fall under a protected field's key or its own indented value
-    block (a multi-line scalar, or a `text:` field while inside a
-    `record_type: quote` file)."""
+def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | None]:
+    """Every top-level YAML front-matter key's own line-number set (the key
+    line plus its indented/blank continuation lines - a multi-line scalar
+    or block), and the record's `record_type` value. Shared groundwork for
+    both PROTECTED field detection and spoken-field detection below, so the
+    block-tracking logic (what counts as "still this field's value") is
+    written and gets it right exactly once."""
     lines = text.splitlines()
-    protected: set[int] = set()
     if not lines or lines[0].strip() != "---":
-        return protected
+        return {}, None
     end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
     if end is None:
-        return protected
-    is_quote = any(re.match(r"^record_type:\s*quote\s*$", ln.strip()) for ln in lines[1:end])
+        return {}, None
+    record_type = None
+    for ln in lines[1:end]:
+        m = re.match(r"^record_type:\s*(\S+)\s*$", ln.strip())
+        if m:
+            record_type = m.group(1)
+            break
+    fields: dict[str, set[int]] = {}
     active_field: str | None = None
     active_indent = -1
     for i in range(1, end + 1):
@@ -216,20 +269,57 @@ def _protected_record_field_lines(text: str) -> set[int]:
         m = _YAML_KEY.match(line)
         if m and len(m.group(1)) == 0:
             key = m.group(2)
-            protected_here = key in PROTECTED_RECORD_FIELDS or key in PROTECTED_CONTENT_FIELDS
-            protected_here = protected_here or (is_quote and key == "text")
-            if protected_here:
-                active_field, active_indent = key, 0
-                protected.add(i)
-            else:
-                active_field, active_indent = None, -1
+            active_field, active_indent = key, 0
+            fields.setdefault(key, set()).add(i)
             continue
         if active_field is not None:
             if line.strip() == "" or (len(line) - len(line.lstrip(" ")) > active_indent):
-                protected.add(i)
+                fields[active_field].add(i)
             else:
                 active_field, active_indent = None, -1
+    return fields, record_type
+
+
+def _protected_record_field_lines(field_lines: dict[str, set[int]], record_type: str | None) -> set[int]:
+    """Line numbers under a protected field's key or value block (a
+    multi-line scalar, or a `text:` field while inside a `record_type:
+    quote` file)."""
+    protected: set[int] = set()
+    is_quote = record_type == "quote"
+    for key, key_lines in field_lines.items():
+        if key in PROTECTED_RECORD_FIELDS or key in PROTECTED_CONTENT_FIELDS or (is_quote and key == "text"):
+            protected |= key_lines
     return protected
+
+
+# contested_claim and honest_limit exist specifically to hold this
+# project's own uncertainty/confidence vocabulary as their designed
+# subject matter (CLAUDE.md's formation_confidence taxonomy; honest_limit
+# models "our record does not answer this" as data) - the addendum that
+# asked for SPOKEN_VOCAB_PATTERNS names both explicitly as staying
+# untouched by the new patterns, the same way historical content whose
+# subject IS a ruling stays out of PATTERNS' own ruling/RULED scan above.
+# Telling a record's own designed epistemic-limit language apart from a
+# genuinely leaked project vocabulary term needs a human read, not a
+# regex - out of scope for this report-only classifier.
+_SPOKEN_VOCAB_EXCLUDED_RECORD_TYPES = {"contested_claim", "honest_limit"}
+
+
+def _spoken_field_lines(field_lines: dict[str, set[int]], record_type: str | None) -> set[int]:
+    """Line numbers under a field SPOKEN_FIELDS declares spoken for this
+    record type (any role - instruction, voice-diet, evidence-head,
+    participant-label all reach a participant or the model one way or
+    another) - where SPOKEN_VOCAB_PATTERNS is worth checking at all."""
+    if record_type in _SPOKEN_VOCAB_EXCLUDED_RECORD_TYPES:
+        return set()
+    spoken_names = set(SPOKEN_FIELDS.get(record_type, {}))
+    if not spoken_names:
+        return set()
+    lines: set[int] = set()
+    for key, key_lines in field_lines.items():
+        if key in spoken_names:
+            lines |= key_lines
+    return lines
 
 
 def _is_review_doc(rel: Path) -> bool:
@@ -361,12 +451,17 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         return []
 
     protected_field_lines: set[int] = set()
+    spoken_field_lines: set[int] = set()
     if path.suffix == ".md" and rel.parts[0] == "records":
-        protected_field_lines = _protected_record_field_lines(text)
+        field_lines, record_type = _front_matter_field_lines(text)
+        protected_field_lines = _protected_record_field_lines(field_lines, record_type)
+        spoken_field_lines = _spoken_field_lines(field_lines, record_type)
 
     hits: list[Hit] = []
     for i, line in enumerate(text.splitlines(), start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
+        if i in spoken_field_lines:
+            matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(line)]
         if not matched:
             continue
         if is_protected(rel, i, protected_field_lines):
