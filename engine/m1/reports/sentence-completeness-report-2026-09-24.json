@@ -1,0 +1,389 @@
+{
+  "parsers": [
+    "en_core_web_lg",
+    "en_core_web_sm"
+  ],
+  "worlds": {
+    "pahc": {
+      "world": "pahc",
+      "total_quotes": 25,
+      "renderings_checked": 25,
+      "sentences_checked": 120,
+      "renderings_flagged": 1,
+      "sentences_flagged": 1,
+      "category_counts": {
+        "no_finite_verb": 1,
+        "no_subject": 0
+      },
+      "findings": [
+        {
+          "id": "pahc.quote.first-concerning-the-cup",
+          "flagged_sentences": [
+            {
+              "sentence": "Now about the Thanksgiving - the Eucharist.",
+              "category": "no_finite_verb"
+            }
+          ]
+        }
+      ]
+    },
+    "syr": {
+      "world": "syr",
+      "total_quotes": 34,
+      "renderings_checked": 34,
+      "sentences_checked": 114,
+      "renderings_flagged": 0,
+      "sentences_flagged": 0,
+      "category_counts": {
+        "no_finite_verb": 0,
+        "no_subject": 0
+      },
+      "findings": []
+    },
+    "desert": {
+      "world": "desert",
+      "total_quotes": 60,
+      "renderings_checked": 60,
+      "sentences_checked": 308,
+      "renderings_flagged": 8,
+      "sentences_flagged": 10,
+      "category_counts": {
+        "no_finite_verb": 7,
+        "no_subject": 3
+      },
+      "findings": [
+        {
+          "id": "desert.quote.antony-not-worsted",
+          "flagged_sentences": [
+            {
+              "sentence": "But if you cannot, why trouble me for nothing?",
+              "category": "no_subject"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.arsenius-flee-tace-quiesce",
+          "flagged_sentences": [
+            {
+              "sentence": "Arsenius, flee.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.eight-principal-faults",
+          "flagged_sentences": [
+            {
+              "sentence": "First is gastrimargia, which means gluttony.",
+              "category": "no_subject"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.he-healed-by-the-name",
+          "flagged_sentences": [
+            {
+              "sentence": "Antony, in any case, healed not by giving commands, but by prayer and by speaking the name of Christ.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.ladder-from-compunction",
+          "flagged_sentences": [
+            {
+              "sentence": "From the fear of the Lord comes healing compunction.",
+              "category": "no_subject"
+            },
+            {
+              "sentence": "From compunction of heart springs renunciation -- that is, owning nothing, and holding all possessions in contempt.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.they-have-taken-away-my-god",
+          "flagged_sentences": [
+            {
+              "sentence": "Alas!",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.twelve-psalms-by-an-angel",
+          "flagged_sentences": [
+            {
+              "sentence": "Each strove, in different degrees, according to his own powers, to fix an enormous number of psalms.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "He chanted eleven psalms, separated by prayers introduced between them, every verse evenly sung.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "desert.quote.womens-house-across-the-river",
+          "flagged_sentences": [
+            {
+              "sentence": "At her instigation, virgins and widows collected together and became truly good.",
+              "category": "no_finite_verb"
+            }
+          ]
+        }
+      ]
+    },
+    "hal": {
+      "world": "hal",
+      "total_quotes": 32,
+      "renderings_checked": 32,
+      "sentences_checked": 110,
+      "renderings_flagged": 1,
+      "sentences_flagged": 1,
+      "category_counts": {
+        "no_finite_verb": 1,
+        "no_subject": 0
+      },
+      "findings": [
+        {
+          "id": "hal.quote.hail-bethlehem",
+          "flagged_sentences": [
+            {
+              "sentence": "Hail, Bethlehem, house of bread - where the Bread that came down from heaven was born.",
+              "category": "no_finite_verb"
+            }
+          ]
+        }
+      ]
+    },
+    "alx": {
+      "world": "alx",
+      "total_quotes": 26,
+      "renderings_checked": 26,
+      "sentences_checked": 110,
+      "renderings_flagged": 4,
+      "sentences_flagged": 12,
+      "category_counts": {
+        "no_finite_verb": 12,
+        "no_subject": 0
+      },
+      "findings": [
+        {
+          "id": "alx.quote.athanasius-death-trampled-down",
+          "flagged_sentences": [
+            {
+              "sentence": "Now, faith in Christ and the sign of the cross trample death down.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "alx.quote.couches-and-trenchers-and-bowls",
+          "flagged_sentences": [
+            {
+              "sentence": "Silver couches.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "Pans and vinegar-dishes.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "Trenchers and bowls.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "And besides these, vessels of silver and gold, some for serving food, others for other uses which I am ashamed to name, of easily-split cedar and thyine wood, and of ebony.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "Tripods made of ivory.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "Couches with silver feet, inlaid with ivory.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "Folding bed-doors studded with gold and patterned with tortoise-shell.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "And bedclothes of purple and other colors hard to produce - proofs of tasteless luxury, cunning devices of envy and effeminacy.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "alx.quote.timothy-ordinary-questions",
+          "flagged_sentences": [
+            {
+              "sentence": "Answer: No.",
+              "category": "no_finite_verb"
+            },
+            {
+              "sentence": "Answer: No.",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "alx.quote.to-believe-or-disbelieve",
+          "flagged_sentences": [
+            {
+              "sentence": "For example, to philosophize or not, to believe or to disbelieve.",
+              "category": "no_finite_verb"
+            }
+          ]
+        }
+      ]
+    },
+    "ijc": {
+      "world": "ijc",
+      "total_quotes": 39,
+      "renderings_checked": 39,
+      "sentences_checked": 178,
+      "renderings_flagged": 3,
+      "sentences_flagged": 3,
+      "category_counts": {
+        "no_finite_verb": 1,
+        "no_subject": 2
+      },
+      "findings": [
+        {
+          "id": "ijc.quote.ambrose-dare-not-offer",
+          "flagged_sentences": [
+            {
+              "sentence": "Is something that is not allowed after the blood of one innocent person has been shed, allowed after the blood of many?",
+              "category": "no_subject"
+            }
+          ]
+        },
+        {
+          "id": "ijc.quote.eutropius-right-of-refuge",
+          "flagged_sentences": [
+            {
+              "sentence": "Yes!",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "ijc.quote.he-held-aloof-for-a-short-time",
+          "flagged_sentences": [
+            {
+              "sentence": "...had held back for a short time.",
+              "category": "no_subject"
+            }
+          ]
+        }
+      ]
+    },
+    "cappadocian": {
+      "world": "cappadocian",
+      "total_quotes": 20,
+      "renderings_checked": 20,
+      "sentences_checked": 118,
+      "renderings_flagged": 2,
+      "sentences_flagged": 2,
+      "category_counts": {
+        "no_finite_verb": 2,
+        "no_subject": 0
+      },
+      "findings": [
+        {
+          "id": "cappadocian.quote.basil-on-the-doxology-challenge",
+          "flagged_sentences": [
+            {
+              "sentence": "At another, 'through the Son, in the Holy Spirit.'",
+              "category": "no_finite_verb"
+            }
+          ]
+        },
+        {
+          "id": "cappadocian.quote.macrina-refuses-remarriage",
+          "flagged_sentences": [
+            {
+              "sentence": "Her resolve held firmer than anyone would have expected from someone her age.",
+              "category": "no_finite_verb"
+            }
+          ]
+        }
+      ]
+    },
+    "don": {
+      "world": "don",
+      "total_quotes": 5,
+      "renderings_checked": 5,
+      "sentences_checked": 10,
+      "renderings_flagged": 1,
+      "sentences_flagged": 1,
+      "category_counts": {
+        "no_finite_verb": 1,
+        "no_subject": 0
+      },
+      "findings": [
+        {
+          "id": "don.quote.deo-laudes",
+          "flagged_sentences": [
+            {
+              "sentence": "Praise to God.",
+              "category": "no_finite_verb"
+            }
+          ]
+        }
+      ]
+    },
+    "gallic": {
+      "world": "gallic",
+      "total_quotes": 3,
+      "renderings_checked": 3,
+      "sentences_checked": 12,
+      "renderings_flagged": 0,
+      "sentences_flagged": 0,
+      "category_counts": {
+        "no_finite_verb": 0,
+        "no_subject": 0
+      },
+      "findings": []
+    },
+    "rzg": {
+      "world": "rzg",
+      "total_quotes": 6,
+      "renderings_checked": 6,
+      "sentences_checked": 15,
+      "renderings_flagged": 0,
+      "sentences_flagged": 0,
+      "category_counts": {
+        "no_finite_verb": 0,
+        "no_subject": 0
+      },
+      "findings": []
+    },
+    "witt": {
+      "world": "witt",
+      "total_quotes": 7,
+      "renderings_checked": 7,
+      "sentences_checked": 54,
+      "renderings_flagged": 0,
+      "sentences_flagged": 0,
+      "category_counts": {
+        "no_finite_verb": 0,
+        "no_subject": 0
+      },
+      "findings": []
+    }
+  },
+  "totals": {
+    "total_quotes": 257,
+    "renderings_checked": 257,
+    "sentences_checked": 1149,
+    "renderings_flagged": 20,
+    "sentences_flagged": 30,
+    "category_counts": {
+      "no_finite_verb": 25,
+      "no_subject": 5
+    }
+  }
+}
