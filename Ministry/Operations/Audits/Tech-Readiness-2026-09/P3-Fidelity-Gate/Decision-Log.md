@@ -1791,5 +1791,5 @@ result rests on the human read, not on an automated score.
 
 **Scope.** This changes authoring of modern-English renderings only
 (a quote's `modern_rendering` and any re-rendering of it). Every other
-drafting task - records, review rounds, documentation, build work -
-stays on Sonnet, per the existing rule.
+drafting task - records, intermediate review rounds, documentation,
+build work - stays on Sonnet, per the existing rule.
