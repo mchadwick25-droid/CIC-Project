@@ -1087,17 +1087,14 @@ def _run_ordinary_voice_turn(
 
     do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
 
-    # THE TRANSPARENCY PLAN (Build-Plan.md Stage 3a) - a deterministic
-    # transform over citations/net_result already computed above, no new
-    # evidence, no new model call. Additive: not in
-    # engine.m4.events.REQUIRED_KEYS["voice_turn"], so this changes
-    # nothing about what any existing caller (including M3 admission,
-    # which reads this same voice_event shape) already relies on. Not
-    # rendered anywhere yet - the frontend switch-on is its own,
-    # separately-ruled step (R10, Ministry/Features/Conversation-
-    # Transparency-Engine/Rulings-Pending.md).
+    # THE TRANSPARENCY PLAN - a deterministic transform over what is
+    # already computed above (citations, net_result, the word marks), no
+    # new evidence, no new model call. Additive: not in
+    # engine.m4.events.REQUIRED_KEYS["voice_turn"], so nothing an existing
+    # caller (including M3 admission) relies on changes.
     transparency = build_transparency_plan(
         citations=citations, net_result=net_result, repository_records=repository_records, world_key=world.world_key,
+        text=answer_text, glosses=glosses, figures_used=figures_used,
     )
 
     voice_event = {

@@ -146,7 +146,12 @@ def strip_tags(text: str) -> str:
 # thing this whole design refuses to do (the fallback ladder appends, it
 # never revises), and a display defect is a signal that something upstream
 # is wrong, not something to paper over on the way out.
-def _quoted_spans(text: str) -> list[str]:
+def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
+    """Every paired quotation in `text`, left to right: (start, end,
+    inner) - `start` is the opening quotation mark's own offset, `end` is
+    just past the closing quotation mark, `inner` is the quoted words
+    between them. engine.m4.transparency_plan places a quote's mark at
+    `end` (R31-A: a quote's mark follows the quoted words)."""
     spans = []
     pos = 0
     while True:
@@ -156,8 +161,12 @@ def _quoted_spans(text: str) -> list[str]:
         close_m = QUOTE_CLOSE.search(text, open_m.end())
         if not close_m:
             return spans
-        spans.append(text[open_m.end() : close_m.start()])
+        spans.append((open_m.end() - 1, close_m.end(), text[open_m.end() : close_m.start()]))
         pos = close_m.end()
+
+
+def _quoted_spans(text: str) -> list[str]:
+    return [inner for _start, _end, inner in quoted_span_positions(text)]
 
 
 def _normalize(text: str) -> str:

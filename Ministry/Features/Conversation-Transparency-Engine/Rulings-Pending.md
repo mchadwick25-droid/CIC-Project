@@ -442,6 +442,18 @@ rather than marked inside it. The design brief that builds to R31,
 R31-A and R31-B together is Decision-Log.md Entry 69; the questions it
 leaves open are listed there with who decides each one.
 
+**Ruled 2026-09-24 (Mark, directly in the building thread: "Q1 yes, Q2
+yes, go with your recommendations"):** a `doctrinal_witness` record is
+a general reference, collected at the end of the reply; this retires
+R10(c)'s witness-at-run-start placement for any turn built on
+per-element placement. Figure names stay marked inline, at the name,
+like lexicon terms. Entry 69's Q3 (story placement: end of the telling,
+added when the next sentence clears) and Q4 (a quote mark is exempt from
+the R17 cap) were decided by the reviewer thread. Q5 (whether the end
+list shows open) and the three pieces of wording Entry 69 §5 names
+remain Mark's; the build (Decision-Log.md Entry 70) keeps today's
+collapsed list and today's wording until he rules.
+
 ### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
 **Status:** RULED — 2026-09-23. Mark chose this from three options put
 to him after PR #427's own live numbers (Decision-Log.md Entry 54's own

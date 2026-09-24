@@ -139,7 +139,8 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
     engine.m4.name_bridge.find_figures_used:
 
     - Word-boundary, case-insensitive; matched_name is the text's own
-      substring (the frontend locates it with a plain indexOf).
+      substring, and text_start is where it begins in `text` (read by
+      engine.m4.transparency_plan to place the word's own mark).
     - Two records tying on the exact same (position, matched text) - e.g.
       alx.term.baptism's "photismos" piece against alx.term.photismos
       itself - resolve deterministically to the lowest id, consuming one
@@ -182,13 +183,14 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
     hits.sort(key=lambda h: h[0])
 
     out = []
-    for _pos, record, matched_name in hits:
+    for pos, record, matched_name in hits:
         sentence = next((c for c in citations if matched_name in c.get("sentence", "")), None)
         sourced_by = [source for card in (sentence.get("sources") or [] if sentence else []) for source in card["sources"]]
         out.append(
             {
                 "id": record["id"],
                 "matched_name": matched_name,
+                "text_start": pos,
                 "plain_meaning": record.get("plain_meaning"),
                 "quick_meaning": record.get("quick_meaning"),
                 "translational_sense": (record.get("senses") or {}).get("translational"),
