@@ -74,3 +74,36 @@ assignments:
       notice of Ephraim and Syriac letters. Books I-IV narrate the
       Arian/homoian ascendancy; Book VIII is a book-length account of
       Chrysostom. Each id above rests on sustained treatment, not mention.
+
+  # ---- also assigned to cappadocian-nicene-pastoral-monastic-tradition ----
+  - work: "The Ecclesiastical History of Socrates Scholasticus"
+    author: socrates
+    locus: "div1 2, Book II, Chapter XLI (id ii.v.xli) - the Synod of Constantinople, 360 CE"
+    atlas_ids:
+      - cappadocian-nicene-pastoral-monastic-tradition
+    role: context
+    confidence: assigned
+    note: >
+      Found by cappadocian.source.church-historians-socrates-sozomen-theodoret
+      (kind: vendored), whose own verification_state was
+      `named-not-rechecked` - "files present since 2026-08-15, not
+      re-verified against the specific loci Doc_02 cites this session."
+      That review is done here. The record cites "Constantinople 360 (via
+      Socrates HE 2.41, SS2)" for "the Homoian-establishment
+      reconstruction" - read directly at that exact chapter: it opens on
+      the Acacian party's Synod at Constantinople after Ariminum, and
+      transcribes the creed itself in full, including its explicit
+      rejection of "ousia" and "hypostasis" language ("we affirm that
+      the Son is like the Father, in such a manner as the sacred
+      Scriptures declare and teach... Let therefore all heresies... be
+      anathema") - the historical Homoian confession of 360 the record's
+      own framing points to, genuinely present and substantive, not a
+      bare mention. `role: context`: an outside Constantinopolitan lay
+      historian's narrative, never this world's own voice, matching the
+      source record's own explicit framing verbatim ("secondary
+      narrative sources, never this world's own voice"). The record's
+      other named claim ("the Julian-persecution episode") is also
+      genuinely present in this volume (Socrates Book II, chs. 11-12, and
+      Sozomen Book III, chs. 3, 5, 17, all on Julian's measures against
+      Christians) but was not checked against a specific quoted claim, so
+      it is noted rather than separately asserted as verified content.
