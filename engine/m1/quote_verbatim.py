@@ -24,7 +24,7 @@ if the 1% is a substituted word, because that 1% is exactly the shape of
 fabrication CLAUDE.md's "Source fidelity" section exists to catch.
 
 REGISTERED IN gates.GATES -
-report-only through PR #422; `gate_quote_verbatim` below was always
+`gate_quote_verbatim` below was always
 written in the exact `gate_*(records, fleet, registry) -> list[str]` shape
 every other gate uses, specifically so promoting it was the one-line
 change CLAUDE.md's own default-actions table calls for ("CI/infra
@@ -87,8 +87,8 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # said. The third (stray backslash) is a record-authoring bug, out of
 # scope for this module.
 
-# After PR #413's record-fix pass left 13 non-escalated failures, all
-# apparatus the gate didn't yet strip: four closed, evidenced forms fold
+# Of the apparatus the gate didn't yet strip, 13 non-escalated failures
+# remain: four closed, evidenced forms fold
 # into the new `apparatus` class above -
 # soft hyphen, tilde-digit, pipe-page, bracket-locator - each confirmed
 # against the real vendored file before being added, never guessed. Left

@@ -1196,8 +1196,8 @@ def test_r27_enforce_still_fails_the_augustinian_pair_inside_an_other_tradition_
 
 
 def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_without_regenerating():
-    # alx's own conflict-turn shape (PR #427's own report:
-    # uncited_in_cited_paragraph), same fixture discipline as
+    # alx's own conflict-turn shape (a real report's own
+    # uncited_in_cited_paragraph finding), same fixture discipline as
     # test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_
     # cited_other_tradition_paragraph in test_uncited_claims.py - a real
     # record whose own text grounds the frame sentence, not a rigged pass.
@@ -1221,10 +1221,9 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["paragraph_offenses"] == []
 
 
-# The R39 fix that corrects a false honest-limit statement:
-# _other_tradition_directive's own honest-limit sentence used to fire
-# unconditionally, even for a world (ijc) whose own records already name
-# the tradition asked about - provably false in that case. Both branches
+# _other_tradition_directive's own honest-limit sentence must never fire
+# unconditionally: a world (e.g. ijc) whose own records already name
+# the tradition asked about must not be made to deny it. Both branches
 # pinned directly, so a future edit can't silently reintroduce either
 # defect shape (a world with real evidence still forced to deny it, or a
 # world with none suddenly handed a fabricated "your records speak to

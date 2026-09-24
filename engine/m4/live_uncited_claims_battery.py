@@ -83,7 +83,7 @@ sets by importing engine.api.wiring._load_world directly rather than
 re-deriving world loading.
 
 Plus one small table session (3 worlds, 2 rounds), unchanged from an
-earlier run - the table caller path (PR #415) already proved
+earlier run - the table caller path already proved
 correct there.
 
 Cost, M8-style (engine.m8.cost, same published rate card
@@ -437,7 +437,7 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
                 "session_dollars": session_dollars,
             }
 
-        # The table path (PR #415's own caller wiring), unchanged from
+        # The table path (the real caller wiring), unchanged from
         # an earlier run - already proven correct there.
         store = Store(Path(tmp) / "live-uncited-claims-battery-events.db")
         table_session_id, _code = create_table_session(store=store, world_loader=loader, registry=registry, world_keys=table_world_keys)

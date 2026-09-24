@@ -1070,7 +1070,7 @@ def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
     regardless of whether it happens to match.
 
     This is the mechanical version of a defect that has already shipped
-    live, twice, on hand-authored site copy (commits fbb6557, 763c48d): a
+    live, twice, on hand-authored site copy: a
     tradition page rendered a clause in quotation marks
     that the records themselves had already declared unquotable. This
     gate cannot catch a hand-drafted HTML page (out of the M1 gate
@@ -1129,14 +1129,14 @@ def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
 # does not need to be a hard, deterministic pass/fail gate - model it as a
 # lower-precision, flag-for-review check," the same standing
 # gate_voice_perspective's own "the world's..." pattern already carries
-# (see its docstring). Motivated by a real, already-shipped defect
-# (commit fbb6557): desert.story.sarah-answer and
+# (see its docstring). Motivated by a real, already-shipped defect:
+# desert.story.sarah-answer and
 # desert.quote.sarah-man-among-you are related via `associated-with` and
 # both narrate the same saying of Amma Sarah in free text; one was
 # corrected to drop a clause the sources cannot support, the other never
-# was, and nothing in the gate battery compared them. As that fix's own
-# commit message says: "No existing gate catches this... nothing compares
-# free-text content across related records for consistency."
+# was, and nothing in the gate battery compared them: no existing gate
+# catches this, since nothing compares free-text content across related
+# records for consistency.
 # ---------------------------------------------------------------------------
 
 # Free-text-claim-bearing types: records whose primary content is prose
@@ -1159,7 +1159,7 @@ def flag_cross_record_consistency(records: dict, fleet: dict, registry: dict) ->
        supports, without any one record itself being at fault.
     2. Two free-text-claim-bearing records (see _FREE_TEXT_CLAIM_TYPES)
        connected by an `associated-with` relation - the same relation
-       type commit fbb6557's own sibling records used. Both narrate or
+       type the sibling records in the motivating defect above used. Both narrate or
        quote the same underlying material in their own free text, so a
        correction to one's wording is exactly the kind of change that can
        silently leave the other stale.
@@ -1225,11 +1225,10 @@ def flag_cross_record_consistency(records: dict, fleet: dict, registry: dict) ->
 # NOT a string-match gate and NOT registered in GATES/run_all.
 #
 # WHY A STRING MATCH CANNOT DO THIS JOB, with a real, already-shipped
-# counterexample for each direction a trim can go wrong (commit 763c48d -
-# the standing decision, landed the same day as this fix:
-# "an in-progress content-system redesign... now requires an LLM-judged
-# check (not a string-match gate) on any length-constrained trim of
-# record prose"):
+# counterexample for each direction a trim can go wrong (the standing
+# decision: "an in-progress content-system redesign... now requires an
+# LLM-judged check (not a string-match gate) on any length-constrained
+# trim of record prose"):
 #
 #   BROADENS the claim - desert-monasticism.html trimmed
 #   desert.limit.communal-wrong-unrepaired's statement ("...a community of
@@ -1241,7 +1240,7 @@ def flag_cross_record_consistency(records: dict, fleet: dict, registry: dict) ->
 #   broadened, less accurate claim this gate exists to catch. A shorter
 #   string is not a safer one.
 #
-#   The companion defect in the same commit pair (fbb6557) shows the
+#   The companion defect from the same already-shipped incident shows the
 #   opposite failure mode reads identically to a metric: a record's own
 #   `text` field carried a clause its sibling record had already declared
 #   unquotable, and the string that shipped was a VERBATIM, high-
