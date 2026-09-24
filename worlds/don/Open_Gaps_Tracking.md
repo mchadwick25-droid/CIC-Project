@@ -602,6 +602,10 @@ independent Opus confirming review required, and the branch was rebased onto `ma
 opened as its own PR per the 2026-09-14 rebase-note entry. This review did not independently
 verify that PR's current merge status — named here rather than assumed either way.
 
+### OG-14. **don-T2's stray Genesis paragraph is a record-structure defect, not contamination — found 2026-09-24, Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md Entry 70 ("Recorded, not fixed"), root-caused here.** Entry 70 states plainly: "don-T2 ends on a paragraph unrelated to the question: 'Genesis as a question about how the world was made - no'." That entry records the symptom; this is the mechanism. `don.dw.scripture-and-the-african-fathers.md`'s own `retrieval.retrieve_when` carries two triggers — "participant asks whether we held the Bible as the only authority" and "participant asks whether we read Genesis as modern people argue about it" — but its `text` field bundles the answers to *both* into one block (verified directly, lines 46–78): two paragraphs on the Cyprian/African-conciliar-precedent argument (answering trigger 1), followed immediately, with no section break beyond a paragraph gap, by "Genesis as a question about how the world was made - no. We have to tell you that nothing survives from us on it at all. That was not our fight, and we will not invent a position in it." (answering trigger 2). Because retrieval works at the whole-record level, retrieving this record for trigger 1 (the Bible-authority question, don-T2's actual question) surfaces the Genesis-refusal paragraph too, and the voice reproduced it verbatim — exactly what Entry 70 observed. No invented content anywhere; the record's own two answers simply share one `text` field. Not fixed by this thread — the fix (splitting `text` per trigger, or restructuring retrieval to sub-block granularity) is a record-authoring/retrieval-design decision outside a docs-only pass.
+
+### OG-15. **One fragment/verbless `modern_rendering` sentence, found by `engine/m1/sentence_completeness.py`'s report-only sweep — current as of `engine/m1/reports/sentence-completeness-report-2026-09-24.json`, not yet human-reviewed.** `don.quote.deo-laudes`'s own `modern_rendering` reads, in full: "Praise to God." — flagged `no_finite_verb`. Report-only check (not in `gates.GATES`); its own docstring requires a human read against the actual fragment rule before treating this as a defect — a short liturgical acclamation may be a legitimate fragment, not a violation. Logged as found and current, not adjudicated. See `worlds/pahc/Open_Gaps_Tracking.md`'s own entry on this same `sentence_completeness.py` report-run, filed 2026-09-24, for the full fleet-wide context (30 sentences flagged across 8 worlds).
+
 ---
 
 ## Closed items — verified in this review, not merely inherited from the Decision Log
@@ -724,7 +728,7 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-13 are disclosed, routed, or
+Relational Safety's own current scope. OG-5 through OG-15 are disclosed, routed, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
