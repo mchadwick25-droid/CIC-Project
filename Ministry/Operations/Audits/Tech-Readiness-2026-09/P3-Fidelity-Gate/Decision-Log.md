@@ -1419,3 +1419,34 @@ staleness-check` report clean fleet-wide.
 `check_paths.py`, run on a clean `git worktree` of this branch's head:
 0 new unresolved path citations; 769 total; 769 accepted in baseline;
 0 retired paths present.
+
+**Round 2 — closing-sentence and register fix (2026-09-24), reviewer's
+own human read.** PASS on 3 of 5 fixed records; FAIL round 1 on
+`warned-before-baptism`'s closing sentence, with a carry-fix on
+`tatian-barbaric-writings`. `warned-before-baptism`: the closing
+sentence had drifted from the source on three points - "grows fierce"
+changed the condition (the source is the battle going *against* him,
+not merely intensifying), "to save it" invented a motive not stated in
+the source, and "that is a disgrace" dropped the source's general
+maxim form ("there is disgrace to him who turns back"). Rendered close
+to the source: "when the battle goes against you, you may remember
+your possessions and turn back to them, for there is disgrace for the
+one who turns back from the fight." `tatian-barbaric-writings`: "They
+showed real foreknowledge of future events" had added "real," not
+present in the source's "the foreknowledge displayed of future
+events" - removed.
+
+Both re-graded 3/3 translation. `gate_readability` and full
+`run_all()`: clean on both (only the pre-existing, unrelated
+`voice-perspective` finding remains fleet-wide, naming a different
+record this PR does not touch). `pytest engine/m1/tests/
+engine/m2/tests/`: 191 passed.
+
+Re-pinned against this fix's own commit
+`84c2257afe7620909ae2bb9d33c78bc3087f2652`: old
+`packages/syr/2026-09-24T05-14-56Z`
+(`sha256:5d017b74530785cbd0c675c6ff7b722a175c52e38f3084ecb301c901c1bfab43`)
+→ new `packages/syr/2026-09-24T05-26-17Z`
+(`sha256:2434894870ed7ff0e29b872427fa86648a2b0883b694ac933b45e118151f06f0`).
+Site JSON rebuilt against the same commit. Both staleness checks clean
+fleet-wide.
