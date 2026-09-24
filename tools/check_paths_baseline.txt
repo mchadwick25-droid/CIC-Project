@@ -254,6 +254,7 @@ worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic-poc/fr
 worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: cic/texts/npnf211_...xml
 worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md: records/worlds.yaml
 worlds/_cross-world/dossiers/lollardy_Source_Readiness_Dossier.md: cic/corpus-map/lollardy.yaml
+worlds/_cross-world/dossiers/roman-church-gregorian_Source_Readiness_Dossier.md: worlds/rcg
 worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md: cic/corpus-map/the-society-of-jesus.yaml
 worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md: cic/corpus-map/the-tridentine-church.yaml
 worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md: packages/alx/2026-09-04T16-41-49Z
