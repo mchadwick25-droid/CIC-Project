@@ -2030,3 +2030,22 @@ Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defect
 `"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (checked against an
 actually-cleaned `packages/` tree again, per the now-standing discipline from OG-29/OG-30); `table.html`'s
 own `WORLDS` array literal re-validated with `node --check` and a direct `eval` after editing.
+
+## OG-32. Two corpus-map source-quality items touching witt, surfaced by the Live-Surface-Cleanup pass on `cic/corpus-map/`, 2026-09-24 — not resolved here.
+
+That pass found two `_staging/` notes describing a real, current source-quality limitation that had
+been phrased as an outstanding task ("has not yet been..."), and moved the task itself here per that
+pass's own PR (see `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md`,
+Entry 3), leaving the corpus-map note stating only the current limitation. Both works are held at
+`confidence: provisional` rather than `assigned` in `cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml`:
+
+- `luther_works-v3-selected_various1930.txt`'s own Contents page is OCR-degraded; exact locus
+  boundaries for this volume's several works are not independently confirmed against the body text
+  section-by-section — a Doc_02-scale task, not done here.
+- `luther_bondage-of-the-will_cole1823.txt`'s own OCR quality (see that file's own `REGISTRY.yaml`
+  note) has not been spot-checked at the specific passages a future Doc_02/Doc_04 pass would actually
+  cite; each citation needs its own character-by-character re-verification against the vendored text
+  before use, not a one-time general clearance.
+
+Not decided or done here — flagged for whoever next does source-quality verification work on this
+world's Luther volumes.

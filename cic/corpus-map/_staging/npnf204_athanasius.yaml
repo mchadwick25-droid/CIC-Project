@@ -1,11 +1,11 @@
-# SEEDED WORKED EXAMPLE, 2026-08-26 - two real works, both already vendored and
-# already cited by the worlds they are assigned to. Nothing here is invented.
-# One staging file per source volume; a worker owns its file and no other, which
-# is why parallel assignment cannot race.
-# EXTENDED 2026-08-26 by the assignment run: the rest of the volume's works
-# added below the seeded Vita Antonii entry, which is unchanged. The 86,682-word
-# Prolegomena (div1 5), all per-work Introductions, Excursus and indexes are
-# nineteenth-century apparatus and are skipped.
+# Worked example: two real works, both already vendored and already
+# cited by the worlds they are assigned to. Nothing here is invented.
+# One staging file per source volume; a worker owns its file and no
+# other, which is why parallel assignment cannot race. The rest of the
+# volume's works are assigned below the seeded Vita Antonii entry,
+# which is unchanged. The 86,682-word Prolegomena (div1 5), all
+# per-work Introductions, Excursus and indexes are nineteenth-century
+# apparatus and are skipped.
 source_file: npnf204_athanasius-select-works-letters.xml
 authors_ruled:
   historia_acephala:
@@ -53,8 +53,7 @@ assignments:
   confidence: assigned
   note: 'Second half of the diptych and the classic statement of Alexandrian incarnational
     theology. Brief §3 marks imperial-juridical-christianity as ''arguably'' a second home;
-    not asserted here - the work predates the Constantinian entanglement of the later corpus
-    - but flagged for Mark if ijc wants it.
+    not asserted here - the work predates the Constantinian entanglement of the later corpus.
 
     '
 - work: Deposition of Arius (Depositio Arii, with Alexander's Encyclical)

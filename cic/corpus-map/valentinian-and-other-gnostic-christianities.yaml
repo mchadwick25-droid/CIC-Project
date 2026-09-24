@@ -11,9 +11,9 @@ works:
   note: 'The Stromata quotes and describes Valentinus, Basilides, Isidore and Carpocrates
     at length (27 ''Valentin'' and 35 ''Basilides'' hits in the file) - much of what survives
     of these teachers survives here. Context, not tradition: Clement describes them from outside.
-    Provisional because the material is dispersed through eight books; a reviewer may want
-    locus-level extracts. The file''s 30 ''Marcion'' hits could ground a marcion-marcionism
-    context assignment too - left for review.
+    Provisional because the material is dispersed through eight books; locus-level extracts
+    would sharpen this entry. The file''s 30 ''Marcion'' hits could also ground a marcion-marcionism
+    context assignment; that question is still open.
 
     '
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
@@ -22,17 +22,14 @@ works:
   locus: div2 4.3
   role: context
   confidence: needs-ruling
-  note: 'Corrected 2026-09-08, records/alx audit (see alx.source.excerpts-of-theodotus.md):
-    this row previously carried this text here as "actual Valentinian voice"; that is disproven.
-    Despite its ANF title, the text is the Eclogae Propheticae, not the genuine Excerpta ex
-    Theodoto - a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
-    and "Theodotus" appears only in the editorial title, which the ANF editor''s own headnote
-    disowns ("corrupt or forged documents, for which Clement''s name has been borrowed"),
-    guessing an unknown Montanist compiler instead. Downgraded to needs-ruling: whether this
-    text belongs in this entry at all, now that its Valentinian content is disproven, is a
-    question for Mark - held here rather than dropped per the no-atlas_ids convention above.
-    Do not cite this as a Valentinian source; the genuine Excerpta ex Theodoto is not vendored
-    anywhere in this corpus.
+  note: 'Despite its ANF title, the text is the Eclogae Propheticae, not the genuine Excerpta
+    ex Theodoto - a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/
+    Ogdoad, and "Theodotus" appears only in the editorial title, which the ANF editor''s own
+    headnote disowns ("corrupt or forged documents, for which Clement''s name has been borrowed"),
+    guessing an unknown Montanist compiler instead. Its Valentinian content is disproven,
+    so whether this text belongs in this entry at all is still open - held here rather than
+    dropped per the no-atlas_ids convention above. Do not cite this as a Valentinian source;
+    the genuine Excerpta ex Theodoto is not vendored anywhere in this corpus.
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -86,18 +83,17 @@ works:
   confidence: assigned
   note: 'An ancient heresy catalogue, not 19th-century editorial matter, though STRUCTURE.md''s
     apparatus marker caught it via its "Appendix" title - flagged rather than silently skipped.
-    The volume''s own editor calls it spurious (see ruling above). Needs a ruling on both
-    counts: whether a pseudo-Tertullianic catalogue is wanted at all, and where; its notices
-    cover many more movements than these two entries. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    The volume''s own editor calls it spurious (see the pseudonymity note above). Its notices
+    cover many more movements than these two entries. This follows one principle rather than
+    a case-by-case call - nine works across six entries raise the same question, whether a
+    spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. Detaching the spurious corpora from their attributed
+    authors instead is a possible alternative shelving choice.'
   source_file: anf03_tertullian.xml
 - work: Against the Valentinians
   author: tertullian
@@ -128,7 +124,8 @@ works:
   note: 'Names Marcion, Apelles, Valentinus and Hermogenes as its targets (ch. 30 and passim).
     Context: description and refutation from outside, only ever drawable as register: etic.
     Provisional because it describes the heresies far more thinly than Against Marcion or
-    Against the Valentinians do - a reviewer may judge it adds little to those buckets.
+    Against the Valentinians do - it may add little to those buckets beyond what those works
+    already establish.
 
     '
   source_file: anf03_tertullian.xml

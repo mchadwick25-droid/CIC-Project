@@ -94,6 +94,53 @@ Five are shelves for material the corpus carries *about* a movement, registered 
 
 ---
 
+## Placement questions surfaced by the Live-Surface-Cleanup pass, 2026-09-24
+
+Not `needs-ruling` works (their `confidence` stays `assigned`/`provisional` as it was) — real, open editorial
+questions the corpus-map surface's own notes used to carry inline, worded as an aside to "Mark" or "a
+reviewer." That program's own rule (`CLAUDE.md`, "Keep the live/canonical surfaces clean") is that a live
+file states only the current, settled placement and its present-tense reason; an open question about that
+placement belongs here instead. None of these are resolved by moving them — every one is exactly as open as
+it was in the source note, just no longer asserted-with-a-question-mark inside the live file itself.
+
+**Address to the Greeks / Oratio ad Graecos (Tatian)** · `tatian` · `anf02` · `post-apostolic-house-church`, `syriac-edessa-nisibis`, `greek-apologists-second-century`
+> A pupil of Justin writing in Rome (pahc's window and region), later returned east and claimed as a forefather by the Syriac tradition (which syr already reaches through his Diatessaron), and later still branded an Encratite. Where his voice ultimately sits between pahc and syr is open.
+
+**The Epistle of Barnabas** · `barnabas` · `anf01` · `post-apostolic-house-church`
+> c. 70-135, general church. An Alexandrian provenance is often argued; `alexandria-catechetical`'s window opens c. 150, so it is not currently added. Worth reconsidering if the window is read more loosely.
+
+**The Gospel of Peter** · `gospel-of-peter` · `anf09` · `post-apostolic-house-church`, `apocryphal-and-pseudepigraphal-literature`
+> 2nd-century passion gospel in use at Rhossus, in Antioch's orbit (pahc's era and region) — but Serapion of Antioch, pahc's own bishop, condemned its docetic use. Whether a gospel the entry's own bishops rejected counts as pahc `tradition` is open; it is currently assigned rather than dropped because it is not Scripture in the sense brief §6.5 excludes.
+
+**Eulogy on S. Ignatius (Chrysostom)** · `chrysostom` · `npnf109` · `antiochene-exegetical-christianity-chrysostom-ce`, `post-apostolic-house-church`
+> Fourth-century Antiochene panegyric on Ignatius, a central figure of pahc. The second id is offered as evidence of how pahc's own figure was later remembered and venerated (the Vita Antonii pattern) — but this is 4th-century cult evidence, not 2nd-century evidence, so whether pahc should carry it at all is open.
+
+**On the Incarnation of the Word (De Incarnatione), Athanasius** · `athanasius` · `npnf204` · `alexandria-catechetical`
+> Brief §3 marks `imperial-juridical-christianity` as "arguably" a second home for this work — not currently asserted, since the work predates the Constantinian entanglement of the later corpus. Open, for ijc's own build thread to decide if it wants it.
+
+**The Correction of the Donatists (De Correctione Donatistarum, Letter 185), Augustine** · `augustine` · `npnf104` · `imperial-juridical-christianity`
+> Direct evidence for ijc's core question — the church's use of imperial law. Provisional because Augustine stands outside the Rome-Constantinople-Milan orbit; whether ijc should instead reach this through the imperial laws themselves, rather than through their North African advocate, is open.
+
+**The Institutes of John Cassian** · `cassian` · `npnf211` · `desert-monasticism`, `gallic-monastic-ascetic-christianity`, `early-benedictine-italian-monasticism`
+> Cassian lived years in the Egyptian desert before writing; the Institutes are the Latin transmission of Egyptian coenobitic practice by a participant — desert is the primary home. Written c. 420 for Gallic monasteries and commended by the Rule of Benedict ch. 73; the two later monastic entries are reception homes that both postdate Cassian. Whether strict era fit should trim those two reception entries, leaving only desert, is open.
+
+**Soliloquies (Soliloquia), Augustine** · `augustine` · `npnf107` · `latin-pastoral-congregational-christianity`
+> Written 386-387 at Cassiciacum near Milan, before baptism and long before ordination — a philosophical dialogue, not pastoral work from Hippo. Held in Augustine's own entry for want of a better home; whether the Cassiciacum period should also touch `ambrosian-milan-standalone` (Ambrose's entry, not Augustine's) is open.
+
+**The Chronicle of Edessa** · `chronicle-of-edessa` · `chronicle-of-edessa_cowper` · `syriac-orthodox-west-syriac-christianity`
+> Composed c. 540s, ending at 540 — the opening of this entry's era. Context, not tradition: the chronicler was Chalcedonian and documents the West Syriac world's ground from the rival side of 451. Whether a composition-era placement is wanted here at all is open.
+
+**Gesta Collationis Carthaginiensis (Acts of the 411 Conference of Carthage)** · `collatio-carthaginiensis` · `pl11-zeno-optatus-collatio-carthaginiensis_migne` · `donatism`, `latin-pastoral-congregational-christianity`
+> The official acts of the 411 conference, marked `context` (an official proceeding record, not either side's own composed voice). The Donatist bishops' own recorded speech inside these acts may deserve separate tradition-role consideration — open, and not yet read with that question in mind.
+
+**Two Luther volumes' own Contents-page/OCR quality** · `luther` · `luther_works-v3-selected_various1930`, `luther_bondage-of-the-will_cole1823` · `lutheran-wittenberg-and-its-congregations`
+> Both held at `confidence: provisional` rather than `assigned`. `luther_works-v3-selected_various1930.txt`'s own Contents page is OCR-degraded, and exact locus boundaries for its several works are not independently confirmed against the body text. `luther_bondage-of-the-will_cole1823.txt`'s own OCR quality (see its `REGISTRY.yaml` note) means each citation needs its own character-by-character re-verification against the vendored text before use. Open task for whoever next cites either file precisely.
+
+**`WORKS.yaml` gap, not a corpus-map assignment question: `palladius_paradise-v1-syriac_budge1907.txt` is an unresolved multi-work compilation.** · `palladius`, `athanasius`, `budge` · `palladius_paradise-v1-syriac_budge1907`
+> One vendored file, three distinct works assigned in `cic/corpus-map/_staging/palladius_paradise-v1-syriac_budge1907.yaml`: Palladius' own Paradise Book I (Syriac recension), a Syriac recension of Athanasius' *Life of Antony* (a second, independently-modeled expression of the same underlying Work `athanasius-vita-antonii` already carries in Greek), and Budge's own 1907 editorial Preface. `WORKS.yaml`'s FRBR-style Work/Expression schema has no entries for any of the three yet — it is hand-maintained and seeded, not complete, per its own header. Open: whether the Syriac Vita gets modeled as a second `expressions` entry under `athanasius-vita-antonii` (the schema's own paradigm case for exactly this), and whether Palladius' Paradise and Budge's Preface get their own `work_id` entries at all, given `WORKS.yaml`'s own no-guessed-identifiers discipline.
+
+---
+
 ## Four questions that are not per-work
 
 These came out of the ten workers' reports rather than out of any single assignment, so they have no row above. Three are yours; one is a defect.

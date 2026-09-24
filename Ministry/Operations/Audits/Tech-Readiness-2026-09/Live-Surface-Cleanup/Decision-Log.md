@@ -465,3 +465,279 @@ tools/tests/test_check_live_commentary.py` → 85/85 passed; `check_paths.py`
 → 0 new/retired.
 
 ---
+
+## Entry 3 — cic/corpus-map/ (Step 2, surface 3 of 6)
+
+`tools/check_live_commentary.py --surface cic-corpus-map` read 761 hits
+before this PR (0 KEEP, 761 REWRITE, 0 ROUTE — the checker's own
+ROUTE_CUES limitation reads a ROUTE line as REWRITE; see Entry 1/2's
+same note) and 0 after. This is the largest surface so far: 133
+`_staging/<volume>.yaml` source files (the only files a worker ever
+hand-edits), 58 generated per-tradition bucket files plus
+`UNATTRIBUTED.yaml` (regenerated from staging via
+`cic/engine/corpus_map_merge.py`, never hand-edited), and a handful of
+top-level docs/scripts.
+
+**Never touched anywhere in this PR:** `work:`, `author:`, `locus:`
+(except the two boundary cases below), `atlas_ids:` (which tradition a
+work maps to), `role:`, or `confidence:` field values. Every edit is to
+`note:`/`evidence:` prose or `#` comments.
+
+### What changed, by category
+
+1. **46 "header-only" `_staging/` files** (all their hits confined to
+   the file's own leading `#` header block) — a single-pass script
+   dropped "Worker notes, `<date>`.", "Worker: `<thread>`, `<date>`.",
+   "Vendored `<date>`[, supplied by Mark].", "Written `<date>` by `<X>`
+   sweep.", "RULED, Mark, `<date>`:", and "SEEDED WORKED EXAMPLE,
+   `<date>` -"/"EXTENDED `<date>` by..." framing from each header,
+   keeping every still-true reason (Pearse-file/ThML notes, why a
+   volume was proactively vendored, the Cyprian granularity rule,
+   Morison's own scholarly-framing methodology, npnf204's own
+   worked-example shape) restated in present tense. Diff spot-checked
+   file by file before running; re-verified 0 remaining hits across all
+   46 afterward.
+2. **87 further `_staging/` files** with hits inside per-work `note:`
+   fields (not just the header) — done via six parallel workers, each
+   given the same litmus test, worked examples, and the CRITICAL
+   boundary list above, then reconciled by hand. The dominant pattern,
+   repeated hundreds of times: `"<date>: <atlas_id> added alongside -
+   the entry the corpus assignment showed was missing, for <reason>.
+   <X> is kept: <reason>."` → `"<atlas_id> holds this work for
+   <reason>; <X> is kept because <reason>."` Also fixed throughout:
+   "RULED BY MARK", "Re-pointed `<date>`", "Cross-linked `<date>` from a
+   Source Readiness Dossier finding", "NOTE, corrected `<date>` (OG-N)",
+   "Split `<date>` on Mark's ruling", review-round citations
+   ("independent review Round N", "lpc Round 28/29"), and several
+   multi-sentence "this note previously said X, that was withdrawn,
+   corrected here" self-correction paragraphs (codex-theodosianus'
+   Donatism-bucket note, perpetua-scillitan's Tertullian-voice note) —
+   each condensed to the current true state only, with the withdrawn
+   history dropped rather than narrated.
+3. **Two boundary cases the parallel workers correctly declined to
+   touch**, fixed by hand afterward: `cyprian_opera-spuria-vita-pontius-
+   lat_hartel-csel3-pars3.yaml` and `didymus-alexandria_de-trinitate-
+   lat-grc_mingarelli1769.yaml` each had review/date narration sitting
+   inside a `locus:` field's own string value rather than in `note:`.
+   For the Cyprian one, the real reasoning (why the work stays under
+   Cyprian's name — the transmitted-author shelf, not re-attributed)
+   was moved into `note:`, restated in present tense, and `locus:`
+   trimmed back to a physical description. For the Didymus one, the
+   locus's current line number was already correct; only the "corrected
+   `<date>`, Round 2 Opus review, from a stale reference the Round 1
+   header fix itself invalidated" narrative was dropped, since it
+   carried no standing information the corrected locus doesn't already
+   state.
+4. **Top-level docs, hand-edited directly** (not generated):
+   `README.md` (7 spots — a Mark quote/date explaining why this sits
+   outside `records/`, a stale count-snapshot date, "both were added
+   `<date>`", two stale seeded-count-as-of-date table cells, a code
+   comment's dated usage note, a coverage-feed sign-off date, a
+   Mark-sign-off parenthetical on the `address` field's own semantics);
+   `AUTHOR-IDS.yaml` (dropped the verification date, kept "verified via
+   WebSearch"); `PAIRS.yaml` (dropped a bare "Decision-Log entry 4"
+   pointer, kept the still-live CM-3/D3§3 spec references);
+   `WORKS.yaml` (5 spots — a Mark-sign-off date on the `work_id` field's
+   own contract, three "verified via WebSearch, `<date>`" tags, one
+   "confirmed by direct read ..., `<date>`" tag — all restated dropping
+   only the date); `work_coverage_diff.py` (a dated worked-example
+   citation, and "fooled a human reviewer" restated as "found").
+   `fixture-synthetic.yaml` (the one HAND-AUTHORED bucket file — see
+   its own header) had one "Decision-Log entry 10" pointer dropped the
+   same way as `PAIRS.yaml`'s.
+5. **`ATLAS-TARGETS.md`** is generated by `cic/engine/atlas_targets.py`
+   from `cic-website/data/world-census.json`; the committed file was
+   also measurably stale (7 vs. 11 `Built & Live` entries, an old
+   tradition name) — the same shape as item 1's `atlas-v3.html` embedded
+   census. Fixed the one hardcoded process-narration string still in the
+   generator's own `render()` (a "hand-typed... caught `<date>`" clause;
+   the rest of the generator was already clean) and regenerated the
+   file — the drifted count and name fixed themselves as a byproduct.
+6. **`CELL-VOICE-WORKLIST.md`** and **`RETRIEVAL-HINTS.md`** were the
+   two densest cases in this surface: both read as full engineering
+   retrospectives (specific probes run, specific bugs found and fixed,
+   "Measured/Recorded/FIXED `<date>`" narration) rather than the
+   reference documents their own titles promise ("the standing check",
+   "the discipline"). The checker caught only one or two lines in each
+   (bare dates); a full manual pass, per the litmus test, restructured
+   both down to durable rules/architecture facts stated in present
+   tense (the locator-token discriminator and ruling table in
+   `CELL-VOICE-WORKLIST.md`; the seven hint-writing rules, the two
+   honest remedies, and the scorer's known weighting/follow-up behavior
+   in `RETRIEVAL-HINTS.md`), dropping the day-by-day investigation
+   narrative and specific probe-by-probe journal entries. Nothing
+   asserted in the trimmed versions is invented — every kept sentence
+   restates a finding the original text already stated, without the
+   who/when wrapper.
+
+### Regenerated (not hand-edited)
+
+Ran `python3 cic/engine/corpus_map_merge.py` once all 133 staging files
+were clean: writes all 58 generated per-tradition bucket files plus
+`UNATTRIBUTED.yaml` from the now-clean `_staging/` sources. `--check`
+first (clean); the real run reported `877 work assignment(s) across 58
+Atlas entry(ies)... valid.` and one pre-existing, unrelated finding
+(`fixture-synthetic.yaml` is hand-written and not staging-derived — as
+documented, expected, left alone).
+
+### Left open — genuinely unresolved editorial questions (ROUTE)
+
+None of these were resolved by this program, per its own scope (never
+alter which work maps to which tradition; a ROUTE item's job here is to
+stop attributing the question to "Mark"/"a reviewer" and state it
+plainly, not to answer it). All were already open before this PR;
+several already carry `confidence: needs-ruling` in their own
+`_staging/` entry. Listed here rather than filed into a world's own
+`Open_Gaps_Tracking.md`, because most of the atlas_ids below are not
+built worlds (no per-world gaps file exists to receive them), and
+because attempting to regenerate `worlds/_cross-world/NEEDS-RULING.md`
+myself surfaced a real defect (below) that made hand-filing safer than
+mechanical regeneration this round. Recommend the corpus-map thread (or
+whoever owns that cross-world file) do the actual filing/regeneration
+with the full context these items need.
+
+- `anf01`, *Epistle of Barnabas* (`post-apostolic-house-church`):
+  whether to also add `alexandria-catechetical`, given argued
+  Alexandrian provenance vs. that entry's c.150 window start.
+- `anf01`, *Against Heresies* `ebionite-nazoraean-current` context row:
+  whether a locus-level extract, not the whole work, is the better fit.
+- `anf03`, *Apology* (Tertullian) `post-apostolic-house-church` row:
+  whether pahc should reach this work through `latin-apologists`
+  instead of citing it directly.
+- `anf03`, *The Prescription Against Heretics* context row
+  (`valentinian-and-other-gnostic-christianities`,
+  `marcion-marcionism`): whether its thinner heresiological description
+  still justifies the context assignment.
+- `anf03`, *Passion of Perpetua and Felicitas* (`latin-apologists`):
+  whether `montanism-the-new-prophecy` should also be added, given real
+  but not-yet-chosen New Prophecy affinity scholarship.
+- `anf03`, *Against Praxeas* (`montanism-the-new-prophecy`) row: still
+  literally reads "a ruling for Mark, not a parsing fact" — not caught
+  by the checker (no date/ruling-keyword match), flagged here as a
+  gap in the checker's own patterns as well as a genuinely open item.
+- `anf05` header and several Hippolytus-of-Rome rows (Refutation,
+  Christ and Antichrist, Against Noetus, Exegetical/Dogmatical/
+  historical fragments, Appendix) plus the Caius row: Hippolytus has no
+  census entry at all; every row sits provisionally under
+  `roman-church-third-century` pending a ruling on a proper shelf.
+- `anf06`, *The Passion of St. Symphorosa and Her Seven Sons*
+  (`post-apostolic-house-church`, `confidence: needs-ruling`): both the
+  attribution to Julius Africanus and the shelf assignment are open.
+- `anf06`, *Of the Manichaeans* (Alexander of Lycopolis)
+  (`manichaeism`): whether the author is an orthodox bishop or a pagan
+  Platonist is unresolved, which affects whether `role: context` is
+  even the right call.
+- `npnf214`, *The Canons of the Council of Ancyra* and five sibling
+  provincial-canon entries (Neocaesarea, Gangra, Antioch-in-Encaeniis,
+  Laodicea, Constantinople-394) (`imperial-juridical-christianity`):
+  whether a finer/more specific home should exist for provincial
+  disciplinary canons.
+- `npnf214`, *The Apostolical Canons* (`imperial-juridical-christianity`,
+  `apocryphal-and-pseudepigraphal-literature`): whether this should be
+  placed with its sibling text, the Apostolic Constitutions (assigned
+  separately in `anf07`), under one unified ruling.
+- Duplicate census entries `cyrilline-miaphysite-egyptian-tradition`
+  and `cyrilline-miaphysite-egyptian-christianity`: which should carry
+  corpus assignments generally (affects `npnf214`'s Council of Ephesus
+  431 tradition row and `npnf212`'s Letters of Leo the Great).
+- `anf02`, *Address to the Greeks*/*Oratio ad Graecos* (Tatian): whether
+  his later Encratite branding and eastern/Syriac career mean his voice
+  belongs with pahc or the Syriac tradition instead.
+- `anf02`, *Plea for the Christians*/*Resurrection of the Dead*
+  (Athenagoras): whether a better home than the era-1 mainstream entry
+  may turn up in a later survey.
+- `anf02`, *The Stromata* context row (Clement of Alexandria)
+  (`valentinian-and-other-gnostic-christianities`): whether
+  locus-level extracts should be added for the Valentinus/Basilides/
+  Isidore/Carpocrates material, and whether the Marcion material
+  should ground a separate `marcion-marcionism` context assignment.
+- `codex-theodosianus`, second assignment (`donatism`, `confidence:
+  needs-ruling`): whether/how CTh belongs in Donatism's bucket —
+  context, antecedent, or narrower (CTh 16.5/16.6).
+- `codex-theodosianus`, third assignment
+  (`imperial-juridical-christianity`, `confidence: needs-ruling`):
+  whether CTh is that entry's own context or tradition, pending that
+  world's Doc_01/Doc_02.
+- `npnf210`, *On the Holy Spirit* (Ambrose): a `homoian-arian-
+  christianity` id could be added by analogy with *De Fide*.
+- `npnf203`, Rufinus' translation prefaces (`alexandria-catechetical`):
+  may be worth dropping to sub-work-level instead of a grouped context
+  row.
+- `npnf209`, *De Fide Orthodoxa* (John of Damascus)
+  (`melkite-arabic-christianity`): a Byzantine-imperial-church id could
+  be argued for instead of or alongside.
+- `npnf101`, Manichaeism context row (Confessions Books III-V)
+  (`manichaeism`): `npnf104`'s dedicated refutations could carry that
+  bucket alone instead.
+- `ephraim_prose-refutations`, *Against Bardaisan's "Domnus"* and
+  *Against Bardaisan (A Discourse Against Bardaisan)*
+  (`bardaisanite-current`): whether a dedicated Bardaisan/Daisanite
+  entry, or folding into the Syriac world alone, fits better than the
+  current floor entry.
+- `chronicle-of-edessa`, *The Chronicle of Edessa*
+  (`syriac-orthodox-west-syriac-christianity`): whether a
+  composition-era (c. 540s) placement is wanted for this entry at all.
+- `npnf104`, *The Correction of the Donatists* (Letter 185)
+  (`imperial-juridical-christianity`): whether ijc should instead be
+  reached through the imperial laws themselves rather than through
+  Augustine as North African advocate.
+- `npnf107`, *Soliloquies* (`latin-pastoral-congregational-
+  christianity`): whether the Cassiciacum period should also touch
+  `ambrosian-milan-standalone`.
+- `anf08`, *Excerpts of Theodotus* context row
+  (`valentinian-and-other-gnostic-christianities`): now that the text
+  is confirmed to be the Eclogae Propheticae rather than genuine
+  Valentinian material, whether it belongs in this context entry at
+  all.
+- `anf08`, Fragment of Maximus of Jerusalem
+  (`palestinian-church-pre-constantinian`): attribution disputed (the
+  fragment circulates with Methodius' material).
+
+### Flagged, not fixed (out of scope here)
+
+- **`worlds/_cross-world/NEEDS-RULING.md` / `gen_needs_ruling.py` has a
+  real data-loss bug.** The file's own header claims it is fully
+  "Generated by `gen_needs_ruling.py`", but its committed copy carries
+  a fourth, hand-appended "question that is not per-work" (a
+  multi-paragraph methodology finding about the census `era` field)
+  that does not exist anywhere in the generator's own source. Running
+  `gen_needs_ruling.py` after this PR's corpus-map fixes (to pick up
+  the reworded `needs-ruling` notes and the corrected 5→6 work count)
+  silently dropped that fourth question and relabeled the section
+  "Three questions". Reverted that regeneration rather than ship the
+  loss (`git checkout -- worlds/_cross-world/NEEDS-RULING.md`);
+  `worlds/_cross-world/` is untouched by this PR. Flagged for whoever
+  owns that file: either the generator needs to actually incorporate
+  that fourth finding as data, or the file needs a documented
+  hand-maintained section the generator preserves on rewrite — right
+  now, running it as-is is destructive.
+- The ROUTE items above are not filed into any per-world
+  `Open_Gaps_Tracking.md` or `WANTS-REGISTER.md`, for the reasons
+  stated in that section.
+
+### Validation
+
+- `python3 -c "..."` YAML parse check across all 133 `_staging/*.yaml`
+  files → 0 bad.
+- `python3 cic/engine/corpus_map_merge.py --check` → clean, then the
+  real run → `877 work assignment(s) across 58 Atlas entry(ies)...
+  valid.`
+- `tools/check_live_commentary.py --surface cic-corpus-map` → **0 hits**
+  (was 761).
+- `tools/check_live_commentary.py` (full repo) → every other surface's
+  count unchanged from before this PR (cic-website 1, cic-poc-frontend
+  1, cic-engine 19, engine 1229, records 2841, reference 261, worlds
+  16541, fixtures 8, canon 28, packages 0).
+- `tools/check_paths.py --baseline tools/check_paths_baseline.txt` → 0
+  new/retired.
+- `tools/check_no_embedded_world_data.py` → exit 0.
+- `cic/engine/works_registry.py --check` → OK, 4 works, all external_ids
+  and item addresses valid.
+- `cic/engine/author_ids.py --check` → OK, 5 authors, all well-formed.
+- `pytest tools/tests/test_check_live_commentary.py` → **88/88 passed**
+  (refreshed 17 stale `HAND_LABELS` entries this cleanup itself made
+  stop matching, moving them to fresh `worlds/` examples — item 4, not
+  yet touched by this program; table grew from 85 to 88 entries in the
+  process, still well above the ≥60 floor).
+
+---

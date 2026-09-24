@@ -724,11 +724,13 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
   recommendation"** — fabrication corrected, disorientation-side risk explicitly accepted
   (narrowly, per OG-4's own caution), don re-admitted.
 
+### OG-16. **One corpus-map placement question touching don, surfaced by the Live-Surface-Cleanup pass on `cic/corpus-map/`, 2026-09-24 — not resolved here.** That pass found a `_staging/` note carrying an open editorial question, and moved it to `worlds/_cross-world/NEEDS-RULING.md`'s own "Placement questions surfaced by the Live-Surface-Cleanup pass" section per that pass's own PR (see `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md`, Entry 3): the *Gesta Collationis Carthaginiensis* (Acts of the 411 Conference of Carthage, `pl11-zeno-optatus-collatio-carthaginiensis_migne`) is currently assigned `role: context` to `donatism`; whether the Donatist bishops' own recorded speech inside these acts deserves separate `tradition`-role consideration is open, and the acts have not yet been read with that question in mind. Full text in `NEEDS-RULING.md`; not decided here.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-15 are disclosed, routed, or
+Relational Safety's own current scope. OG-5 through OG-16 are disclosed, routed, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
