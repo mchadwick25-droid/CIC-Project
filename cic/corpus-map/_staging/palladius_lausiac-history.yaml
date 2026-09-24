@@ -49,3 +49,47 @@ assignments:
       Judean-desert monks as this movement's own voice, on the same
       footing as Jerome's Hilarion and Malchus, is a judgement this
       dossier pass is not positioned to make on its own.
+
+  - work: "Lausiac History"
+    author: palladius
+    locus: "Chapter IV: Didymus the Blind"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: assigned
+    note: >
+      Verified directly against the vendored file (line 211): "Among
+      these was Didymus the blind author. I met him four times in all,
+      visiting him at intervals during a period of ten years... He was
+      blind, having lost his sight at the age of four, so he told me,
+      and he had never learned to read nor gone to school." An
+      outsider-visitor's eyewitness vignette (Palladius wrote c.
+      419-420, at the horizon's edge) used in alx ONLY for this
+      personally-witnessed Alexandria-adjacent material, never for
+      received desert accounts, which stay this candidate's own
+      cross-build attribution question (alx.source.palladius-lausiac-
+      history). Context, not tradition: an outsider's late testimony
+      about the man, not the catechetical tradition's own texts.
+
+  - work: "Lausiac History"
+    author: palladius
+    locus: "Chapter XL: Ephraim"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: context
+    confidence: assigned
+    note: >
+      Verified directly against the vendored file (line 471): "You must
+      have heard particulars about Ephraim, the deacon of the Church of
+      Edessa..." followed by the famine-relief narrative (Ephrem raises
+      money, partitions the porticoes, sets up 300 beds, and nurses
+      Edessa's famine-stricken before his death). Registered mid-ecology
+      when figure work needed the earliest witness to this tradition:
+      Palladius (writing c. 420, within living memory of Ephrem's death)
+      and Sozomen III.16 carry the same famine-relief story independently
+      enough to corroborate its age, and Palladius directly attests the
+      "deacon of the Church of Edessa" title (syr.source.palladius-
+      lausiac-history). Context: a devotionally-shaped outsider witness,
+      not Ephrem's own voice. Cross-build note carried from that record:
+      the same vendored file serves the Alexandria and Desert worlds too;
+      only this Ephraim chapter is licensed material for syr.

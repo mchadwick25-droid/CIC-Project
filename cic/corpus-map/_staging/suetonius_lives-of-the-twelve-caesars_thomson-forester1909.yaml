@@ -1,0 +1,33 @@
+source_file: suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt
+
+assignments:
+  - work: "The Lives of the Twelve Caesars"
+    author: suetonius
+    locus: "Life of Claudius 25.4 (the 'Chrestus' expulsion notice, c. 49 CE) and Life of Nero 16.2 (Christians
+      punished, listed among public-order measures)"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: context
+    confidence: assigned
+    note: >
+      Verified directly against the vendored file, matching pahc's own
+      source record word for word: Claudius 25.4 (line 10640) - "He
+      banished from Rome all the Jews, who were continually making
+      disturbances at the instigation of one Chrestus"; Nero 16.2 (line
+      11613) - "He likewise inflicted punishments on the Christians, a
+      sort of people who held a new and impious superstition." Also
+      confirmed directly: the fire-to-Christians link this world's own
+      records have always treated as Inferential-Thin appears only in
+      this edition's own 1909 editorial footnote to ch. 39 (line 20772),
+      never inside Suetonius's own ch. 16 text - a caution the vendored
+      file itself now carries evidence for, rather than one taken on
+      faith from secondary description. Context, not tradition: this is
+      external Roman-imperial evidence used to corroborate the world's
+      own "state pressure" gravity/force (pahc.gravity.state-pressure,
+      pahc.force.state-pressure), not the house-church movement's own
+      voice. Both cited passages exist in two independently fetched and
+      cross-checked digitizations of the identical 1909 Bohn printing
+      (Project Gutenberg #6400, vendored; archive.org
+      livesoftwelvecae0000suet_o9f1, cross-checked) - see
+      pahc.source.suetonius-lives and pahc.search.suetonius-english-pd
+      for the full acquisition history.

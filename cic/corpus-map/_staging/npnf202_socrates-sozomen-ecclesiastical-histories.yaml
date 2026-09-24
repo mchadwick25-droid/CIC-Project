@@ -39,6 +39,30 @@ assignments:
       is a primary narrative of Chrysostom's episcopate and fall. Movements
       merely mentioned are not assigned.
 
+  - work: "The Ecclesiastical History of Socrates Scholasticus"
+    author: socrates
+    locus: "div1 2 — IV.20 (Athanasius's death and 46-year episcopate) and IV.25 (Of Didymus the Blind Man)"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: assigned
+    note: >
+      Two figure-testimonia loci, verified directly against the file:
+      IV.20 (lines 13310-13322) states Athanasius "departed this life in
+      the second consulate of Gratian and Probus, having governed that
+      church amidst the greatest perils forty-six years" - the edition's
+      own endnote reads that consulate as 371 and flags Jerome's Chronicle
+      as placing it in 373 (the now-accepted date), a discrepancy alx's
+      own source record carries honestly rather than silently picking one.
+      IV.25 (line 13797) is the third independent Didymus testimonium
+      beside Palladius and Jerome - its own endnote cross-references
+      Sozomen III.15, Theodoret IV.26 and Palladius Hist. Lausiac. 4,
+      confirming this is the same figure-attestation cluster those other
+      staging files also carry. Context, not tradition: Socrates is a
+      later (c. 439) Constantinopolitan outsider to the Alexandrian
+      catechetical tradition, used only for testimonia, never as
+      in-world voice (alx.source.socrates-historia-ecclesiastica).
+
   # ---- Sozomen (div1 3) ----
   - work: "The Ecclesiastical History of Sozomen"
     author: sozomen

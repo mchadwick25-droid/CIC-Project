@@ -54,6 +54,23 @@ assignments:
     through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
+- work: The Ecclesiastical History of Theodoret
+  author: theodoret
+  locus: div2 3.8 — II.26 (the siege of Nisibis and 'the apostolic conversation' of Bishop Jacobus), IV.26
+    (Of Didymus of Alexandria and Ephraim the Syrian)
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'Two Syriac-relevant loci verified directly against the file: II.26 (line 11049) is the chapter
+    "Of the siege of the city of Nisibis, and the apostolic conversation of Bishop Jacobus" - the church''s
+    own remembered story of the 350 siege (Jacob''s prayer, the gnat plague), which places Jacob alive at
+    that siege, one pole of the open 338-vs-350 death-year conflict this world already tracks (world_core
+    caution 10). IV.26 (line 15044) states "at Edessa flourished the admirable Ephraim" - an independent
+    5th-century witness to Ephrem''s standing, verified verbatim. Context, not tradition: Theodoret writes
+    a century after the events, hagiographically shaping the Nisibis narrative (syr.source.theodoret-historia-ecclesiastica).
+
+    '
 - work: Dialogues (Eranistes)
   author: theodoret
   locus: div2 3.9 — The 'Eranistes' or 'Polymorphus'
@@ -120,6 +137,21 @@ assignments:
     literary self-positioning, ending with himself. Belongs to the built hal world. The rest
     of Jerome is in npnf206 (another worker''s volume); only this and the Apology Against
     Rufinus below are in npnf203.
+
+    '
+- work: Lives of Illustrious Men (De Viris Illustribus)
+  author: jerome
+  locus: div2 4.3 — the 'Bardesanes the heresiarch' and 'Ephrem the deacon' chapters
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'Same catalogue, context row for its two Syriac-relevant chapters, verified directly against
+    the file (line 41542): Jerome states Ephrem "became so distinguished that his writings are repeated
+    publicly in some churches, after the reading of the Scriptures" - independent late-4th-century attestation
+    of his diaconate and reputation. The Bardesanes chapter transmits the heresiological framing Jerome
+    received, read with the same screen. Context, not tradition: Jerome writes at one remove (he read
+    Ephrem in Greek translation), outside the Edessa/Nisibis tradition itself (syr.source.jerome-de-viris).
 
     '
 - work: Gennadius, Lives of Illustrious Men (continuation)
