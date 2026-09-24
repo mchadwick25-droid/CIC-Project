@@ -2048,3 +2048,11 @@ Not a new defect: the record's own prior text already carried this as a locally-
 ("Doc_01 open item 1 / §7") that the cleanup pass removed as commentary per its own discipline
 (open-item framing doesn't belong inline in a live record); this entry is that same open item,
 now durable here instead. No other action taken on the underlying acquisition gap by this pass.
+
+## OG-33. Analytic framework vocabulary in spoken `force`/`gravity` description fields — witt's own instance of the fleet-wide gap
+
+**Status: OPEN, not attempted by the Live-Surface-Cleanup pass — flagged by the managing thread's round-2 verdict on witt's PR #506, 2026-09-24.**
+
+Fleet-wide gap, already filed at `worlds/rzg/Open_Gaps_Tracking.md` #47 ("Project confidence/grading vocabulary leaking into spoken fields," found 2026-09-24, measured directly against `tools/check_live_commentary.py`'s `SPOKEN_VOCAB_PATTERNS`): 600 lines fleet-wide, across 10 of 11 worlds, carry internal grading vocabulary inside a declared `voice-diet`/`evidence-head` spoken field. That measurement counts witt at 67 lines. The Live-Surface-Cleanup pass on PR #506 rewrote the specific instances the checker's own regex flagged (9 `confidence-predicate`/`doc-ref` hits — see that PR's own before/after table), but a broader, unflagged layer remains in witt's `force.description`/`gravity.description` fields: analytic scaffolding language the tool's patterns don't literally match but that still reads as internal build apparatus rather than a world's own voice — "at Layer 1"/"at Layer 2", "CONFIDENCE/GRAVITY CROSS-CHECK", "could argue Primary", "classify this Supporting", "SIX-TEST SUMMARY", "a reviewer may..." used as a structural heading rather than the hypothetical-reader hedge sense already confirmed KEEP elsewhere.
+
+Not a token-swap fix: this is the LAYER 1/LAYER 2/SIX-TEST framing these fields are structurally built around, not an isolated leaked citation. Per the managing thread's own instruction, resolving it needs a proper re-voicing pass of the field's whole style — the same class of fix `rzg.craft.theophilus-voice`'s readability rewrite (`worlds/rzg/Open_Gaps_Tracking.md` #46) already used as precedent for a full content rewrite rather than a patch — not attempted here.
