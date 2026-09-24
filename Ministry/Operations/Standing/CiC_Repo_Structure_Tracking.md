@@ -622,3 +622,33 @@ left to Mark rather than assumed.
 **Convention applied:** Superseded material → `Archive/`; nothing deleted without instruction (CLAUDE.md line 55). Every path moved recorded in `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md` per this tracking file's own standing rule (P11 of the frozen target tree, 2026-09-14).
 
 **Status:** ready for path check and PR.
+
+---
+
+## 2026-09-24 — Build Process file renamed to the version it holds (V1.5 → V1.7)
+
+**Context.** `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` already held
+V1.6 (its heading read "V1.6 (2026-09-23)"). The converged Build Process addendum
+(Mark, 2026-09-24, "converged, auto mode"; item 0.1) bumps it to V1.7 and renames the
+file to match.
+
+**Action.** `git mv` to `reference/method/CiC_Record_Native_World_Build_Process_V1.7.md`,
+heading set to "V1.7 (2026-09-24)". Inbound citations rewritten in the same commit:
+`reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` (2),
+`reference/L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` (1),
+`tools/check_paths_baseline.txt` (the file's own entries re-keyed).
+
+**Left citing the old name, on purpose:**
+- `worlds/` (14 files — cappadocian, gallic, pahc, witt build notes and review rounds):
+  the addendum's scope excludes `worlds/`. Baselined in `tools/check_paths_baseline.txt`
+  for the owning world threads.
+- `engine/m1/sentence_completeness.py` docstring (1): `engine/` is out of this change's
+  scope. Not scanned by `check_paths.py` (Markdown only).
+- Dated history (`Ministry/Operations/Audits/`, launch prompts, decision logs) and
+  `records/` describe the tree as it was, per the standing rule.
+
+**Path check:** `python tools/check_paths.py --baseline tools/check_paths_baseline.txt`:
+0 new unresolved, 0 retired paths present. One baseline entry healed (the old
+Completion Standard V1.0 pointer, fixed by item 0.2) and removed.
+
+Every path recorded in `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`.

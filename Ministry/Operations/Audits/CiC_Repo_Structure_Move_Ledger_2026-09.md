@@ -250,3 +250,13 @@ Mark's tech-review stress test (thread "CiC — Tech Review & Funding Readiness 
 
 `python3 tools/check_paths.py --baseline tools/check_paths_baseline.txt`: 0 new unresolved citations, 0 retired paths present. Executed without --baseline first to gather the delta; all 90 moves produced citations within the expected Ministry/Operations audit and decision-log files describing them. Baseline regenerated with `--regenerate` after verifying all are Ministry-internal prose references or file-move audit records.
 
+
+## Build Process version rename — 2026-09-24
+
+Citations rewritten in current documents outside `worlds/`, `records/` and `engine/`
+(3 replacements in 2 files, plus the check-paths baseline). See
+`Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`, 2026-09-24 entry.
+
+| from | to | kind |
+|---|---|---|
+| `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` | `reference/method/CiC_Record_Native_World_Build_Process_V1.7.md` | file |
