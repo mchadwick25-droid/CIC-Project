@@ -914,6 +914,18 @@ authors:
     kind: metadata-omission
     evidence: div2 10.13 'Serapion, Bishop of Antioch'.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  society-of-jesus:
+    kind: anonymous
+    evidence: 'The Constitutions were principally drafted by Ignatius of Loyola, but this
+      printed edition''s own title page presents the text as the Society''s own corporate
+      governing document, approved and issued by the order as a body (confirmed by Popes Paul
+      III, Julius III, and Paul IV per the title page''s own "Institutum... confirmatum" language)
+      rather than as an individually authored work under Ignatius''s own name. Used here as
+      a collective-body slug, the same footing this file''s own `authors_ruled` convention
+      gives an anonymous or institutionally-issued work.
+
+      '
+    from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
   sulpiciusseverus:
     kind: metadata-omission
     evidence: 'div1 title "The Works of Sulpitius Severus."; npnf211 DC.Creator already lists
@@ -923,6 +935,17 @@ authors:
 
       '
     from_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+  swiss-brethren:
+    kind: anonymous
+    evidence: 'The Schleitheim Confession''s own historical authorship is traditionally associated
+      with Michael Sattler, but this vendored translation (McGlothlin, 1911, pp. 3-9) carries
+      no individual author attribution in its own text or headnote - it is presented as a
+      collective confessional statement issued by the assembled Swiss Brethren, not a named
+      individual''s own composition. Used here as a collective-body slug, the same footing
+      this file''s own `authors_ruled` convention gives an anonymous work.
+
+      '
+    from_file: mcglothlin_baptist-confessions-of-faith_1911.txt
   symmachus:
     kind: metadata-omission
     evidence: 'div2 titles "Memorial of Symmachus, the Prefect of the City." (5.1) and "The

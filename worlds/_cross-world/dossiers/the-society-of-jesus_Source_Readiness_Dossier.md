@@ -6,16 +6,44 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `the-society-of-jesus`
 **Time window:** 1540–1650
 **Region(s):** Rome, then worldwide
-**Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** 2026-09-15 — nothing vendored for this era yet.
+**Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-24
+**Corpus-map / `cic/texts/` state as of:** 2026-09-24 — the four §3 leads
+below (as of 2026-09-15), Xavier Vol. 2, and three new finds from a deeper
+2026-09-24 pass (Canisius, the Jesuit Constitutions' Latin original,
+Nadal's own Latin original) have all been vendored, headered, registered,
+and assigned. See §1 below for current state.
 
 ## 1. Already assigned
 
-None. No `cic/corpus-map/the-society-of-jesus.yaml` exists; confirmed via directory listing — a fully cold start.
+**Updated 2026-09-24 — no longer a cold start.** Ten works vendored and
+assigned to `cic/corpus-map/the-society-of-jesus.yaml`:
+
+| work | author | role | confidence | source file |
+|---|---|---|---|---|
+| The Spiritual Exercises of St. Ignatius | ignatius-loyola | tradition | assigned | `ignatius-loyola_spiritual-exercises_mullan1914.txt` |
+| The Autobiography of St. Ignatius | ignatius-loyola | tradition | assigned | `ignatius-loyola_autobiography_oconor1900.txt` |
+| Letters and Instructions of St. Ignatius Loyola, Vol. I | ignatius-loyola | tradition | assigned | `ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt` |
+| The Canons and Decrees of the Council of Trent | council-of-trent | context | provisional | `council-of-trent_canons-and-decrees_waterworth1848.txt` |
+| The Life and Letters of St. Francis Xavier, Vol. I | francis-xavier | tradition | assigned | `francis-xavier_life-and-letters-v1_coleridge1872.txt` |
+| The Life and Letters of St. Francis Xavier, Vol. II | francis-xavier | tradition | assigned | `francis-xavier_life-and-letters-v2_coleridge1872.txt` |
+| A Summe of Christian Doctrine (Canisius) | canisius | tradition | assigned | `canisius_summe-of-christian-doctrine_anon1622.txt` |
+| The Life of the Blessed Peter Favre (Faber) | boero | context | provisional | `boero_life-of-peter-faber_coleridge1873.txt` |
+| Constitutiones Societatis Iesu, cum earum Declarationibus | society-of-jesus | tradition | assigned | `jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt` |
+| Adnotationes et Meditationes in Evangelia (Nadal) | nadal | tradition | assigned | `nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt` |
+
+Two are Latin originals and PRIMARY content, not second witnesses — the
+Constitutions (the Society's own governing document, closing what §4
+originally flagged as "a real gap for a movement whose governing document
+is this central") and Nadal's own Adnotationes — since no PD English
+translation of either exists (checked directly, not assumed; see §4's
+updated entries). Canisius is a genuine first find: no prior pass had
+checked for any Canisius material at all.
 
 ## 2. Cross-link opportunities
 
-None applicable — no Reformation-era text is vendored anywhere in the corpus yet.
+Resolved as of 2026-09-24 — see §1: the Trent Canons/Decrees are vendored
+and double-placed to the sibling `the-tridentine-church` candidate (VI.22),
+consistent with §5's own reasoning below.
 
 ## 3. Verified acquisition leads
 
@@ -33,9 +61,12 @@ None applicable — no Reformation-era text is vendored anywhere in the corpus y
 
 | candidate | why it looked promising | why it's closed |
 |---|---|---|
-| Jesuit Constitutions | The order's own governing document — should be central | Only English translation found is George Ganss, S.J. (1970/1996, Institute of Jesuit Sources) — archive.org `constitutionsof00jesu` is access-restricted, in-copyright, lending only. No PD English translation found. **A real gap for a movement whose governing document is this central.** |
-| Jerónimo Nadal, *Annotations and Meditations on the Gospels* | A major first-generation Jesuit theological voice | Only English translation is Frederick Homann, S.J. (Saint Joseph's Univ. Press, 2003) — print-disabled/restricted on archive.org. In copyright. |
-| Peter Faber's *Memoriale* | His own spiritual diary | No standalone PD English translation found. Partial excerpts appear inside Giuseppe Boero's 19th-c. biography *The Life of Blessed Peter Favre* (archive.org `lifeofpeterfavre00boeruoft`, appears PD by age/imprint but **not yet directly confirmed on the item page** — worth a follow-up fetch to verify status and how much Memoriale text it actually contains, since it's a biography quoting the diary, not a full translation of it). |
+| Jesuit Constitutions, **English** translation | The order's own governing document — should be central | Only English translation found is George Ganss, S.J. (1970/1996, Institute of Jesuit Sources) — archive.org `constitutionsof00jesu` is access-restricted, in-copyright, lending only. No PD English translation found. **Superseded, not simply closed** — checked for the Latin original 2026-09-24 and found multiple PD 16th-19th-c. editions; the 1606 Rome printing is now vendored as PRIMARY content for this world (§1). |
+| Jerónimo Nadal, *Annotations and Meditations on the Gospels*, **English** translation | A major first-generation Jesuit theological voice | Only English translation is Frederick Homann, S.J. (Saint Joseph's Univ. Press, 2003) — print-disabled/restricted on archive.org. In copyright. **Superseded, not simply closed** — checked for the Latin original 2026-09-24 and found a PD 1595 edition, now vendored as PRIMARY content for this world (§1). |
+| Peter Faber's *Memoriale* (full translation) | His own spiritual diary | No standalone PD English translation found. **Partially resolved 2026-09-24**: Giuseppe Boero's 19th-c. biography *The Life of Blessed Peter Favre* (archive.org `lifeofpeterfavre00boeruoft`) confirmed `NOT_IN_COPYRIGHT` and vendored (§1, role `context`) — but it remains a biography quoting the Memoriale, not a full translation of it; how much of the diary's own words it actually reproduces verbatim is still unchecked and flagged for a future pass before any passage is cited as Faber's own words. |
+| Peter Canisius, any primary source | A major first-generation Jesuit (catechisms widely translated) — not previously checked at all | Checked 2026-09-24 and **found, not closed**: a 1622 English translation of his own *Summe of Christian Doctrine*, unambiguously PD (Early English Books, 1475-1640), now vendored (§1). Listed here to record that the search happened, not because it failed. |
+| Diego Laynez (2nd Superior General), any primary source | A major early Jesuit figure | Checked 2026-09-24: no English translation of anything in his own hand exists; only a 19th-c. Spanish-language secondary biography (Rivadeneira, 1868) was found. Genuinely closed. |
+| Xavier Vol. II, Letters Vol. II+ | Named as "likely exists, not yet checked" in the original 2026-09-15 pass | Checked 2026-09-24: Xavier Vol. II confirmed and vendored (§1, Public Domain Mark). A second volume of the O'Leary/Goodier Letters series (beyond 1524-1547) was searched for and not conclusively found — one low-confidence, unverifiable archive.org item surfaced but was not pursued further. |
 
 ## 5. Open cross-world questions
 
