@@ -4656,8 +4656,51 @@ $0. It runs the engine's own functions on real packages:
   condition (a) (rzg on witt), and 1 takes the records branch (witt on
   the Reformed Cities, genuine).
 
-No live model battery was run. Whether the voice actually follows the
-clause is a separate credit decision for the reviewer or Mark.
+**Live battery, run on Mark's own ask (2026-09-24).**
+`engine/m4/reports/r37_live_battery.py` +
+`r37-live-battery-2026-09-24.json`. Real Bedrock calls through the
+production wiring at production defaults (self-revision on, R27
+enforcement off): $0.3136, 23 calls, four probes, every answer
+hand-read.
+- **L1, alx on the Donatists (condition (a)).** The R26 sentence is said,
+  then the pivot goes to alx's own lapsed controversy, cited to
+  `alx.dw.church-failure`. That pivot is exactly what R37 licenses. But
+  two uncited sentences follow that no alx record holds: "whether a
+  bishop who had once given way could still validly baptize, or ordain"
+  and "We held that the power was Christ's, not the minister's, and a
+  fallen bishop restored through repentance could minister again". This
+  is R26's own original motivating defect: Augustine's anti-Donatist
+  doctrine, stated as Alexandria's own, on the same Theon question. The
+  R37 clause ("It never lets you say anything about that tradition
+  itself beyond what your own records hold") did not prevent it.
+  R27's detector flagged both sentences, but only as the base
+  `uncited_claim` class, never as `own_doctrine_in_other_tradition_turn`.
+  They share a paragraph with a cited sentence, and the paragraph-
+  inheritance check passed them on that tag, so no paragraph offense was
+  recorded. R38's self-revision reads tagged sentences only. With
+  enforcement off, both sentences reached the participant. This is a
+  failure of the R27/R38 net, not of R37's wiring. One sample does not
+  give a rate.
+- **L2, alx on the Reformed Cities (tradition arose later).** Correct.
+  The R26 sentence, then an answer wholly from alx's own transmission
+  records, all cited, and "we lived before those reformations, and our
+  record holds nothing of them". That is inferred from the question's
+  own word "Reformed", as the clause asks. No outside names. The screen's
+  one marker hit ("Reformation") is that same inference, a false
+  positive on hand read.
+- **L3, condition (b) in interview.** Not reached, and the reason is
+  structural. Turn 1 named the Donatists, so the reader routed it
+  `other_tradition` itself, and turn 2's second ask went to the
+  Facilitator's etic turn as designed. A participant's earlier mention
+  can only become a (b) revelation in interview when that earlier
+  message was not itself routed `other_tradition`. The Table is where
+  (b) really runs.
+- **T1, R37-B at the Table (ijc first, alx second).** Correct. ijc
+  answered from its own Donatist records. alx received 5 of ijc's
+  sentences as quoted lines, said the R26 sentence, said "Africa's
+  church quarrels lie outside what our sources name", engaged what ijc
+  had said, and answered from its own cited records (the John-and-the-
+  robber story, the Arsinoite conference). It added no Donatist facts.
 
 **Known limits, stated plainly:**
 - Condition (b) captures only sentences that name the tradition. A
