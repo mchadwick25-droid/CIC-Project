@@ -19,7 +19,7 @@ This finding was commissioned on the understanding — paraphrased, not quoted, 
 Verified directly on `main` at `f07eb91`:
 
 - `records/worlds.yaml`, `ijc` entry: `state: admitted`, pinned at `packages/ijc/2026-09-04T18-49-02Z` with a `manifest_hash`.
-- `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` §"Fleet-wide facts": all six original worlds including `ijc` were **admitted 2026-08-28**, Mark in session ("yes i admit all six worlds"), certified by that day's fleet-parity battery (28/28 sealed probes), report at `engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json`.
+- `records/WORLDS_REGISTRY_LOG.md` §"Fleet-wide facts": all six original worlds including `ijc` were **admitted 2026-08-28**, Mark in session ("yes i admit all six worlds"), certified by that day's fleet-parity battery (28/28 sealed probes), report at `engine/m3/reports/live-admission-report-fleet-parity-2026-08-28.json`.
 - Same section: `render.yaml` has carried `CIC_ENFORCE_ADMISSION: "1"` since Mark's 2026-08-28 flip. Doors are open, fleet-wide.
 
 The text the stale premise almost certainly rests on is `worlds/ijc/build/BUILD-LOG.md` §Header, which still reads "**Compile (6), admission (7), open (8): intentionally NOT started**." That was true when written (2026-08-22) and was overtaken six days later. The BUILD-LOG is stale in a second, smaller way as well: §1 records "154 records in `records/ijc/`," while the tree now holds 182 — a like-for-like comparison, not a record-to-file mismatch: `find records/ijc -type f` returns 182, all `.md`, all inside typed record directories, and the pinned manifest lists 182 `records/` entries (Round 1, L15). Both are flagged in §5 as documentation drift, not as defects in the world's content.

@@ -18,7 +18,7 @@
 - `World-Builds/Lutheran-Wittenberg/Step0_Movement_Scope_Confirmation.md` §2 A3
 - `World-Builds/Reformed-Zurich-and-Geneva/CiC_Reformed_Zurich_Geneva_World_Build_Thread_Launch_2026-09-15.md` (read in full — new since Round 2)
 - `World-Builds/Donatism/Doc_01...md` §1 and §8; `don_Decision_Log.md`
-- `World-Builds/Gallic-Monastic-Ascetic-Christianity/` (full listing + grep); `World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`; `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`; `records/worlds/`
+- `World-Builds/Gallic-Monastic-Ascetic-Christianity/` (full listing + grep); `World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md`; `records/WORLDS_REGISTRY_LOG.md`; `records/worlds/`
 - `world-build-docs/_cross-world/` (listing, `NEEDS-RULING.md`)
 - `Open_Gaps_Tracking.md`, `rzg_Decision_Log.md`; `CLAUDE.md`; the `cic-build-cycle` skill
 
@@ -73,7 +73,7 @@ The skill lists "content fabricated-attributed to 'the project lead'" as one of 
 
 I checked every instance of that standard in the repository. **All three record the project lead's verbatim words alongside the date:**
 
-- `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` (the actual home of the quoted phrase — see L3): "**ADMITTED, 2026-09-13.** Mark's own word, in session, in direct response to the M3 report above: **'yes, admit it.'**"
+- `records/WORLDS_REGISTRY_LOG.md` (the actual home of the quoted phrase — see L3): "**ADMITTED, 2026-09-13.** Mark's own word, in session, in direct response to the M3 report above: **'yes, admit it.'**"
 - `World-Builds/Gallic-Monastic-Ascetic-Christianity/gallic_Representative_Construction_Notes_Renatus.md` §285: "CONFIRMED, 2026-09-12. Mark's own word, in session, in response to the presentation below: **'Confirm as drafted.'**"
 - `World-Builds/Cappadocian/CAPPADOCIAN_BUILD_LEDGER.md` §188: "**Status: CONFIRMED, 2026-08-31.** Mark's own word, in session, in response to the presentation above: **'Confirm as drafted.'**"
 
@@ -200,7 +200,7 @@ It is again not accurate. Two Round 2 Low findings are still open, which I verif
 
 **L2.** `Open_Gaps_Tracking.md`'s trailing status block still reads "**Doc_01 — World Identification, Boundaries, and Orientation.** DRAFT, **Revision 3** as of 2026-09-15" — immediately above a bullet describing Revision 4.
 
-**L3.** §9's precedent citation is pathless and mislocated. "Gallic's own 'ADMITTED... Mark's own word, in session'" — the elided quotation is character-exact on both retained fragments, and the entry it comes from is genuinely about Gallic, but it lives in `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` (a fleet-level file), not in `World-Builds/Gallic-Monastic-Ascetic-Christianity/`, where a reader told it is "Gallic's own" would look. Gallic's own build folder uses "CONFIRMED," not "ADMITTED." Every other source in this document is path-cited; this one is not. (The substantive problem with this citation is H1; this is the locus half.)
+**L3.** §9's precedent citation is pathless and mislocated. "Gallic's own 'ADMITTED... Mark's own word, in session'" — the elided quotation is character-exact on both retained fragments, and the entry it comes from is genuinely about Gallic, but it lives in `records/WORLDS_REGISTRY_LOG.md` (a fleet-level file), not in `World-Builds/Gallic-Monastic-Ascetic-Christianity/`, where a reader told it is "Gallic's own" would look. Gallic's own build folder uses "CONFIRMED," not "ADMITTED." Every other source in this document is path-cited; this one is not. (The substantive problem with this citation is H1; this is the locus half.)
 
 **L4.** Round 2's L1 is unfixed — VI.9's `relationsSummary` quotation in §7 is still not character-exact (see M4 for the diff). Round 2 noted that the VI.26 quotations in the same bullet list *are* exact, which makes the inconsistency internal to one bullet.
 

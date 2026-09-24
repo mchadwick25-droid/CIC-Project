@@ -1,6 +1,6 @@
 # Representative Structure Confirmation — The Reformed Cities: Zurich & Geneva (2026-09-16)
 
-Filed per the same standard this project's other build threads meet for a project-lead decision (`CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md`; `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s "Mark's own word, in session..."; `gallic_Representative_Construction_Notes_Renatus.md` §285's comparable record) — reproducing the question and options as actually presented and the answer as actually given, rather than reasserting the conclusion without a checkable record.
+Filed per the same standard this project's other build threads meet for a project-lead decision (`CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md`; `records/WORLDS_REGISTRY_LOG.md`'s "Mark's own word, in session..."; `gallic_Representative_Construction_Notes_Renatus.md` §285's comparable record) — reproducing the question and options as actually presented and the answer as actually given, rather than reasserting the conclusion without a checkable record.
 
 This is a **structural** confirmation — single-versus-multi-figure Representative — not the Representative's own identity, name, title, or voice, which remains a separate, subsequent decision per `cic-build-cycle`'s own escalation categories and is not decided by this record.
 
