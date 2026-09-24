@@ -3,7 +3,7 @@
 
 **Produced at:** Step 10, Phase Six (Representative Construction Framework L3C V3.2, Part Nine — "Phase Six: Facilitator Coordination"; universal Facilitator-Governance V3.6).
 **Builds on:** Phase One (`lpc_Rep_Phase1_Ecology_Assessment.md` §2, the Thinness Mapping Part Nine names as this phase's required input, Approved to proceed), Phases Two through Four (all Approved to proceed), Phase Five (`lpc_Rep_Phase5_Boundary_Testing_Round1.md`, Approved to proceed — its Probe 11 finding is this document's own starting brief), and the two deployed artifacts (`lpc_Representative_Permanent_Prompt_Datus.txt`, `lpc_World_Capsule_Core.md`).
-**Status:** DRAFT — pending independent adversarial review per `cic-build-cycle`.
+**Status:** **Approved to proceed** (2026-09-24, build-thread self-disposition per CO-022 — cleared review, no escalation category applies). Not Frozen; unblocks Phase Seven.
 
 > **Constitution Article 31 marking:** Simulated / construction-time design — informational only, not an Article 31 substitute for governed live-runtime validation. Every claim below about the current runtime's own behavior is a direct read of the code as it exists on `main` at drafting time, cited to its own file and line, not from memory or a prior document's claim.
 
@@ -67,14 +67,25 @@ Consistent with the authority boundary at §0: this document does not propose, r
 
 ## Revision Log
 
-*[Populated after independent adversarial review, per `cic-build-cycle`.]*
+**Round 1 independent adversarial review** (2026-09-24, isolated subagent; full review at `Review-Artifacts/Phase6_FacilitatorCoordination_Round1_Review.md`).
+
+- **HIGH findings: none.** The document's central, highest-stakes claim — that `engine/m4/turn.py`'s `ACUTE_DISTRESS` branch suppresses the Representative's own voice unconditionally, with no per-world gate — was independently re-derived by the reviewer directly against the live code, not trusted from this document's own quotation, and confirmed accurate.
+- **M1 (citation fix):** the "never fill lpc's silence from Donatism" instruction was cited to Facilitator-Governance §11 alone, though §11's own general multi-world provision argues the opposite instinct in the general case. Reground in Phase One's own world-integrity finding, with the tension against §11's general provision named and resolved explicitly.
+- **M2 (Thinness Mapping conflation, fixed):** "Worship and liturgical life" (Thin, no longer empty, a positive 2026-09-19 finding) had been folded into an undifferentiated bucket with "Physical setting and material conditions" (genuinely thin). Split into two correctly-characterized items.
+- **M3 (risk-check completeness, fixed):** the original "no comparable tension" finding did not consider a second, more central resonance risk grounded in this world's own single most-repeated finding (answerability; a bishop who leaves his flock as this world's own definition of scandal). Named explicitly, with its "not large enough to deviate from portfolio default" conclusion grounded in Facilitator-Governance's own actual threshold-voice design.
+
+**Targeted recheck** (isolated subagent, scoped to the three fixes only): all three **PASS**, each fix's own reasoning independently re-confirmed against the cited primary sources.
 
 ---
 
 ## Disposition
 
-*[Populated after review clears and the escalation-category assessment is re-run, per CO-022.]*
+**Approved to proceed (build-thread self-disposition, CO-022).** Review outcome: substantial revision required (3 MEDIUM findings, 0 HIGH), all applied and confirmed correct at the targeted recheck. Review artifacts: `Review-Artifacts/Phase6_FacilitatorCoordination_Round1_Review.md` (Round 1 plus the targeted recheck).
+
+**Escalation-category assessment, run against the reviewed and corrected text.** *Representative identity/title:* does not apply. *Portfolio-level/cross-world:* does not apply in the decision sense — this document reports on an already-resolved portfolio decision (the Facilitator-only routing default) and verifies it against the live code, rather than deciding anything new at the portfolio level; it also checks and disclaims any need for a world-specific deviation from that default. *Governance/methodology:* does not apply — no change is proposed to `engine/`, Facilitator-Governance V3.6, or any L3D document; this document's own authority boundary (§0) states this explicitly and the review confirmed it is honored throughout. *Unresolved tensions:* does not apply — the one apparent tension found (the §11 citation) was resolved on the record, not left open.
+
+**This unblocks Phase Seven (Encounter Ecology Mapping).**
 
 ---
 
-*End Phase Six Facilitator Coordination Round 1 — DRAFT. Next: independent adversarial review, then Phase Seven (Encounter Ecology Mapping).*
+*End Phase Six Facilitator Coordination Round 1 — Approved to proceed. Next: Phase Seven (Encounter Ecology Mapping).*
