@@ -432,4 +432,36 @@ Decision-Log entry per Entry 1's own note); `npx tsc --noEmit` → 0
 errors; `npm test` (vitest) → 31/31 passed; `check_paths.py` → 0
 new/retired.
 
+**Round 3 (FAIL round 2 fixes, four leftovers the checker's own patterns
+don't catch):**
+1. `VoiceTurnBody.legacy-default.test.tsx:2-4`: "The flag now defaults
+   ON - this file's own title predates that flip..." restated as the
+   file's present-tense purpose - it tests the legacy renderer, which
+   stays reachable whenever a turn has no `transparency` plan,
+   regardless of the flag's own default.
+2. `data/worlds.ts:24-26`: "per site-portrait/witt's own now-closed
+   cross_world entry" dropped; kept only where the portrait lives
+   (GitHub, as `nikolaus.jpg`).
+3. `types/conversation.ts:35`: "every fixture/test predating Stage 6b
+   built a SourceCard without it" restated as the contract itself - the
+   field is optional because a caller may omit it; a real API response
+   always includes the key (possibly null).
+4. `lib/confidence.test.ts:4`: dropped "(Stage 6b)" from the `describe`
+   block title.
+
+Not touched: the several other `Stage N (Build-Plan.md)`/`PHASE-1-
+LAUNCH.md Stage N` citations elsewhere in this surface
+(`conversation.ts`, `app.css`, `ChatInput.tsx`/`.test.tsx`,
+`useWorlds.ts`, `useTable.ts`) - these cite the governing spec document
+by name as the source of a still-current technical rule (a round-cap
+value, a disabled-prop contract), not a ruling/decision date or
+attribution; the round-2 verdict named exactly the four items above as
+the remainder, and these weren't among them.
+
+Re-validated: `check_live_commentary.py --surface cic-poc-frontend` → 1
+hit (unchanged, the documented `FigureBridgeMark.tsx:3` false
+positive); `npx vitest run` → 31/31 passed; `pytest
+tools/tests/test_check_live_commentary.py` → 85/85 passed; `check_paths.py`
+→ 0 new/retired.
+
 ---

@@ -1,7 +1,6 @@
 /**
- * The flag now defaults ON - this file's own title
- * predates that flip and is kept only because the legacy renderer stays
- * genuinely reachable, not because the flag defaults to it anymore. No
+ * Tests the legacy renderer, which stays reachable whenever a turn has no
+ * `transparency` plan - regardless of the flag's own default. No
  * mock here: exercises VoiceTurnBody exactly as a caller with no
  * `transparency` plan on the turn does (an older logged session, or a
  * turn whose transparency plan was never computed) - VoiceTurnBody's own top-level export falls

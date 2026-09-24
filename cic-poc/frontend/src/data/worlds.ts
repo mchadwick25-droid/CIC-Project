@@ -22,8 +22,7 @@ export interface WorldAssets {
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
 // without a portrait. witt's Representative portrait, Nikolaus,
-// lives in GitHub as nikolaus.jpg, per site-portrait/witt's own
-// now-closed cross_world entry.
+// lives in GitHub as nikolaus.jpg.
 export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt'];
 
 // Every accentColor below is a lightened variant of the hue each per-world
