@@ -1758,3 +1758,38 @@ itself was on session credits.
    - voicing an editor's bracketed supplement ("[truly] died");
    - a small restructuring in the Polycrates rendering;
    - dropping a leading "Since" where the excerpt has no main clause.
+
+**Entry 33 — 2026-09-24 (the authoring model: Mark's ruling, a change
+order to the CLAUDE.md usage rule).** Closes item 1 of Entry 32's own
+open list.
+
+**Ruling: option A of three**, put to Mark directly.
+- A — Opus authors every modern-English rendering the voice speaks (a
+  quote's `modern_rendering`, and any re-rendering of it); Sonnet
+  keeps every other drafting task, per the existing usage rule.
+- B — Sonnet keeps authoring renderings, with a hard length check
+  added to catch the failure mode directly.
+- C — Sonnet drafts renderings and Opus fixes whatever a review round
+  finds wrong with them.
+
+**Mark chose A.** `CLAUDE.md`'s "Usage/credit discipline" section
+gains one bullet, directly after the existing "Opus is for the final
+adversarial-review gate only" line, as plain rule text: modern-English
+renderings the voice speaks are authored by Opus; everything else
+still drafts on Sonnet.
+
+**Evidence.** The authoring test (Entry 32, this file):
+`Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/Authoring-Test-Blind-Read.md`.
+Opus 5.5 passed the blind read on 12 of 12 renderings; Sonnet 5 on 3
+of 12. Sonnet 5's failures were mostly sentences of about 45 to 90
+words, plus three misleading word choices.
+
+**The test's limits.** 12 records, one authoring run per model per
+record - not a large sample, and not repeated. The graders (Haiku 4.5,
+Sonnet 4.6) missed most of what the human blind read caught, so the
+result rests on the human read, not on an automated score.
+
+**Scope.** This changes authoring of modern-English renderings only
+(a quote's `modern_rendering` and any re-rendering of it). Every other
+drafting task - records, intermediate review rounds, documentation,
+build work - stays on Sonnet, per the existing rule.
