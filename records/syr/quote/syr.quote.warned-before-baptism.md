@@ -30,9 +30,9 @@ modern_rendering: >-
   baptism. Otherwise you may fall in the fight and be killed. And if you are
   afraid of this part of the fight, turn back now, so that you do not break
   your brothers' hearts along with your own. And if you love your
-  possessions, turn back from the army too - or else, when the battle grows
-  fierce, you may remember what you own and retreat to save it, and that is
-  a disgrace.
+  possessions, turn back from the army too - or else, when the battle goes
+  against you, you may remember your possessions and turn back to them, for
+  there is disgrace for the one who turns back from the fight.
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
