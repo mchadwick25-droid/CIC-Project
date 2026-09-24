@@ -804,3 +804,27 @@ passes. **Going forward, every remaining R43 world PR (rzg, don, witt,
 then the Group B re-read pass) rebuilds both this site JSON and the M2
 package pin as a standard part of its own re-pin step, not just the
 world whose CI happens to catch it.**
+
+**Round 1 FAIL, reviewer's human read (2026-09-24, head `f1c07aad`).**
+The grader passed all 12 on the batch above, but a human re-read
+against the process doc's own fragment rule (V1.6, Phase B) caught
+three fragments the grader cannot see, since it grades meaning, not
+grammar: `basil-canon-to-amphilochius`'s "In the third, to penance."
+and "In the fourth, to standing..." dropped the implied "they may be
+received" the source's own elliptical series carries across all three
+year-clauses; `basil-on-the-doxology-challenge`'s "Or, if they are
+wholly incurable, for the security of those who might fall in with
+them." was split off from the purpose clause it modifies, leaving it
+verbless; `what-is-the-written-source` paraphrased "Time will fail me
+if I attempt to recount" as "I could spend the rest of the day
+naming" where the original survives plainly in modern English and
+should have been kept. All three re-authored (each fragment given its
+own subject and verb, the paraphrase reverted to direct translation);
+grader confirmed "translation" twice on all three; `gate_readability`
+clean (6.4, 7.8, 9.7); full M1 `run_all()`: still only the same
+pre-existing `voice-perspective` finding; `pytest engine/m1/tests/
+engine/m2/tests/`: 191 passed. Re-pinned again against the real
+resolved HEAD `c773bc43a044bc08a69bc04680c134efd70ec9ad` (both the M2
+package, `packages/cappadocian/2026-09-24T00-06-02Z`
+(`sha256:d553f510b634f92d38e7d1160c121805e19340dea0be50933da32fdb8ef1ec52`),
+and the site-compiled JSON); both staleness checks clean.
