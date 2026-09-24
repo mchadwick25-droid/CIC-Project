@@ -1212,3 +1212,38 @@ staleness-check` report clean fleet-wide.
 `check_paths.py`, run on a clean `git worktree` of this branch's head:
 0 new unresolved path citations; 769 total; 769 accepted in baseline;
 0 retired paths present.
+
+**Round 2 — fragment and register fix (2026-09-24), reviewer's own
+human read.** PASS on 5 of 7 fixed records and on the one grader
+disagreement; two records still needed a fix before merge.
+`dispute-to-learn`'s "Not for argument's sake, but to learn the answers
+to those objections which might, as she saw, be made to my statements"
+stood as its own sentence with no subject or verb - the exact fragment
+rule (process doc V1.6, Phase B) the grader does not catch. Joined to
+the clause before it ("...she would dispute them, not for argument's
+sake..."), and the earlier "Nor would she at once acquiesce in my
+explanations" split into its own complete sentence to keep the result
+under the readability ceiling (FK 11.3→8.1) without reopening a
+fragment. `ever-let-the-bridegroom-sport-with-you`'s "Ever let" was not
+everyday modern English (the same rule that turned rzg's "Wherefore"
+into "Therefore"); changed to "Always let" in both halves of the
+anaphora. "Delight" for "sport" and the lowercase divine pronouns were
+confirmed correct as already written.
+
+Both re-graded: `ever-let-the-bridegroom-sport-with-you` cleared 2/2
+translation. `dispute-to-learn` continued to carry its own pre-existing,
+already-documented disagreement ("about the scriptures," verified by
+the record's own body note) across re-grades - expected, not a new
+finding, and not grounds for a further round per the reviewer's own
+"documented exception if the grader is stricter than the text."
+`gate_readability` and full `run_all()`: clean on both. `pytest
+engine/m1/tests/ engine/m2/tests/`: 191 passed.
+
+Re-pinned against this fix's own commit
+`f882c2f54f7323459f3b61021cdbd1cf4433df87`: old
+`packages/hal/2026-09-24T03-27-07Z`
+(`sha256:297a2b974640df9ae642ad49c364cb76791dcf7a8063433503c2191c66a96ec5`)
+→ new `packages/hal/2026-09-24T03-53-40Z`
+(`sha256:e4d70c99d7d1056660d420c442c535ffa08b3bbccf5532ed4bbeb29c25039829`).
+Site JSON rebuilt against the same commit. Both staleness checks clean
+fleet-wide.
