@@ -1,22 +1,22 @@
 """Item 4 of the P3 registration brief: does a quote record's
 `modern_rendering` actually TRANSLATE its `text`, rather than summarize or
-expand it? R34 (Mark, 2026-09-23 P3 relaunch thread), in his own words:
-"the representitive translates it into modern english, this is
-translation, not summation." A rendering that silently drops a clause the
+expand it? The standard, in the project lead's own words: "the
+representitive translates it into modern english, this is translation, not
+summation." A rendering that silently drops a clause the
 original states, or adds a clause the original never states, fails this
 standard regardless of how natural or well-written it reads - the same
 "no invented ... no invented ..." discipline CLAUDE.md's Source fidelity
 section applies to a record's own `text`, extended to what a Representative
 would actually say from it.
 
-REPORT-ONLY. Not registered in gates.GATES - R35's build-quality principle
-("this is about the build quality, not fix on fix") names this gate as
-`modern_rendering`'s own future birth condition (build-process doc V1.6,
-Phase B), not a repair pass to run today. This script is the measurement
-that decision will act on, not yet the gate itself.
+REPORT-ONLY. Not registered in gates.GATES: this is about build quality,
+not fix on fix. It names this gate as `modern_rendering`'s own future
+birth condition (build-process doc V1.6, Phase B), not a repair pass to
+run today. This script is the measurement that decision will act on, not
+yet the gate itself.
 
-HOW A BIRTH CONDITION USES THIS (reviewer verdict on item 4, 2026-09-23):
-a single live model call is not deterministic enough to gate on by
+HOW A BIRTH CONDITION USES THIS: a single live model call is not
+deterministic enough to gate on by
 itself - this session's own two fleet runs, and the transparency thread's
 reader check the same day, both saw real run-to-run variance on the same
 input. So the birth-condition use is: the builder authoring a
@@ -35,7 +35,7 @@ source-verbatim fidelity (does `text` itself match the vendored source? -
 quote_verbatim.py's own question) - a record already escalated below
 verified-direct for a source-fidelity reason still needs its rendering
 checked, and vice versa. Each finding below carries the record's own
-`verification_state` for context, never as a filter. Per R33, there is no
+`verification_state` for context, never as a filter. There is no
 per-record field or instruction anywhere in this module - one general
 grading standard, applied the same way to every world.
 
@@ -62,12 +62,12 @@ from engine.m1.loader import load_world_records
 from engine.m5.failure import CallOutcome
 
 # A sequential fleet sweep of ~80 live calls ran into this account's real
-# Bedrock rate limit mid-run (2026-09-23 first live run: 21/100 calls hit a
-# 429 with no retry, an incomplete sweep silently reported as though it
-# were the whole fleet). The SDK client's own default retry budget was not
-# enough on its own; retry here explicitly, with real exponential backoff,
-# rather than accept a partial report - RateLimitError only, since that is
-# the actual observed failure mode, not any transient error class.
+# Bedrock rate limit mid-run (21 of 100 calls hit a 429 with no retry, an
+# incomplete sweep silently reported as though it were the whole fleet).
+# The SDK client's own default retry budget was not enough on its own;
+# retry here explicitly, with real exponential backoff, rather than accept
+# a partial report - RateLimitError only, since that is the actual
+# observed failure mode, not any transient error class.
 _RATE_LIMIT_MAX_RETRIES = 5
 _RATE_LIMIT_BASE_DELAY_SECONDS = 2.0
 
