@@ -62,6 +62,7 @@ from engine.api import wiring
 from engine.api.wiring import create_session, handle_message, _load_world
 from engine.m1.loader import load_fleet_records
 from engine.m1.registry import load_registry
+from engine.m4 import turn as turn_module
 from engine.m4.store import Store
 from engine.m4.world_loader import LazyWorldLoader
 from engine.m8.cost import estimate_cost
@@ -126,6 +127,14 @@ CONTROL_PROBES = {
     "witt": ("witt.term.catechism", "catechism"),
 }
 CONTROL_TEMPLATE = "{name}, what did {word} mean to your people?"
+
+# Later-tradition probes: a world asked about a formation world that arose
+# after its own window. Graded with the test fields, the tradition's name
+# standing as the word.
+LATER_TRADITION_PROBES = {"alx": "rzg", "desert": "rzg"}
+LATER_TEMPLATE = "What was your relationship with {word}?"
+MODERN_WORD_LINE_MARKER = "a word your world did not have"
+LATER_TRADITION_LIMIT_MARKER = "never tell the participant when that tradition arose"
 
 TEST_RISKS = ("defines_modern_word", "false_mapping", "dating_claim_outside_record", "etic_seam")
 
@@ -258,8 +267,17 @@ def _run_turn(*, world_key, message, bypass_bridge, client, voice_model_id, safe
     store, usage_store = Store(tmp / "events.db"), UsageLogStore(tmp / "usage.db")
     session_id, _code = create_session(store=store, world_loader=loader, registry=registry, world_key=world_key)
     original = wiring.compute_anachronistic_term_ids
+    original_build = turn_module._build_turn_directive
+    directives = []
+
+    def _capturing_build(*args, **kwargs):
+        text = original_build(*args, **kwargs)
+        directives.append(text)
+        return text
+
     if bypass_bridge:
         wiring.compute_anachronistic_term_ids = lambda *_a, **_k: set()
+    turn_module._build_turn_directive = _capturing_build
     try:
         result = handle_message(
             store=store, usage_store=usage_store, world_loader=loader, registry=registry,
@@ -269,9 +287,10 @@ def _run_turn(*, world_key, message, bypass_bridge, client, voice_model_id, safe
         )
     finally:
         wiring.compute_anachronistic_term_ids = original
+        turn_module._build_turn_directive = original_build
     records = usage_store.read_for_session(session_id)
     dollars = sum((estimate_cost(r.usage, _price_for_call_kind(r.call_kind)).dollars or 0.0) for r in records)
-    return result, len(records), dollars
+    return result, len(records), dollars, (directives[0] if directives else None)
 
 
 def run(region: str) -> dict:
@@ -289,6 +308,8 @@ def run(region: str) -> dict:
             specs.append(("test", f"{world_key}-T{i}", world_key, word, None))
     for world_key, (record_id, word) in CONTROL_PROBES.items():
         specs.append(("control", f"{world_key}-C", world_key, word, record_id))
+    for world_key, later_key in LATER_TRADITION_PROBES.items():
+        specs.append(("later", f"{world_key}-L", world_key, registry[later_key]["card_name"], None))
 
     probes, running, aborted = [], 0.0, None
     for kind, probe_id, world_key, word, record_id in specs:
@@ -300,9 +321,10 @@ def run(region: str) -> dict:
         name = world.frame["representative"]["name"]
         window = world.frame["time_window"]
         registered = sorted(wiring.compute_anachronistic_term_ids(fleet, window))
-        message = (MODERN_WORDS[word][0] if kind == "test" else CONTROL_TEMPLATE).format(name=name, word=word)
+        template = {"test": MODERN_WORDS[word][0] if kind == "test" else None, "control": CONTROL_TEMPLATE, "later": LATER_TEMPLATE}[kind]
+        message = template.format(name=name, word=word)
         print(f"{probe_id}: {message}", flush=True)
-        result, calls, dollars = _run_turn(
+        result, calls, dollars, directive_text = _run_turn(
             world_key=world_key, message=message, bypass_bridge=(kind == "test"), client=client,
             voice_model_id=voice_model_id, safety_model_id=safety_model_id, registry=registry, loader=loader,
         )
@@ -310,7 +332,8 @@ def run(region: str) -> dict:
         reply = voice.get("text") or ""
         grades, settled = [], None
         if reply:
-            system, tool = (TEST_SYSTEM_PROMPT, TEST_TOOL) if kind == "test" else (CONTROL_SYSTEM_PROMPT, CONTROL_TOOL)
+            graded_as_test = kind in ("test", "later")
+            system, tool = (TEST_SYSTEM_PROMPT, TEST_TOOL) if graded_as_test else (CONTROL_SYSTEM_PROMPT, CONTROL_TOOL)
             user_content = (
                 f"World: {registry[world_key]['display_name']}, {window['start']}-{window['end']} AD.\n"
                 f"The participant's word: {word}\nThe participant asked: {message}\n\nThe reply:\n{reply}"
@@ -319,7 +342,7 @@ def run(region: str) -> dict:
                 g, d = grade_once(client, grader_model_id, system=system, tool=tool, user_content=user_content)
                 grades.append(g)
                 dollars += d
-            fields = (("names_as_participants_word",) + TEST_RISKS) if kind == "test" else ("treated_as_foreign", "etic_seam")
+            fields = (("names_as_participants_word",) + TEST_RISKS) if graded_as_test else ("treated_as_foreign", "etic_seam")
             settled = settle(grades, fields, reply)
         running += dollars
         probes.append({
@@ -330,6 +353,9 @@ def run(region: str) -> dict:
             "message": message, "routing_action": result.routing_action, "routing_reason": result.routing_reason,
             "voice_reached": bool(reply), "facilitator_text": (result.facilitator or {}).get("text"),
             "voice_text": reply, "citations": voice.get("citations", []),
+            "modern_word_line_fired": MODERN_WORD_LINE_MARKER in (directive_text or ""),
+            "later_tradition_limit_fired": LATER_TRADITION_LIMIT_MARKER in (directive_text or ""),
+            "directive_text": directive_text,
             "grades": grades, "settled": settled, "calls_made": calls + len(grades), "dollars": round(dollars, 4),
         })
         print(f"  routing={result.routing_action} settled={settled} ${dollars:.4f} (running ${running:.4f})", flush=True)
@@ -364,7 +390,14 @@ def summarize(probes, region, aborted):
         "voice_turns": len(probes),
         "test_probes": len(tests),
         "test_probes_voice_reached": sum(1 for p in tests if p["voice_reached"]),
-        "control_probes": len(probes) - len(tests),
+        "test_probes_modern_word_line_fired": sum(1 for p in tests if p.get("modern_word_line_fired")),
+        "control_probes": sum(1 for p in probes if p["kind"] == "control"),
+        "controls_modern_word_line_fired": sum(1 for p in probes if p["kind"] == "control" and p.get("modern_word_line_fired")),
+        "later_tradition_probes": {
+            p["probe_id"]: {"settled": p["settled"], "limit_fired": p.get("later_tradition_limit_fired"),
+                            "routing_action": p["routing_action"]}
+            for p in probes if p["kind"] == "later"
+        },
         "per_risk": per_risk,
         "controls_treated_as_foreign": {"yes": count("control", "treated_as_foreign", "yes"),
                                         "unsettled": count("control", "treated_as_foreign", "unsettled")},
@@ -378,11 +411,13 @@ def summarize(probes, region, aborted):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--region", default="us-east-1")
+    parser.add_argument("--out", default=str(REPORT_PATH))
     args = parser.parse_args()
     start = time.monotonic()
     report = run(args.region)
-    REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    out = pathlib.Path(args.out)
+    out.write_text(json.dumps(report, indent=2, ensure_ascii=False))
     print(f"\nReal cost: ${report['total_dollars']} ({report['total_calls']} calls, {report['voice_turns']} voice turns), "
           f"{time.monotonic() - start:.1f}s")
     print(json.dumps(report["per_risk"], indent=2))
-    print(f"Report: {REPORT_PATH}")
+    print(f"Report: {out}")

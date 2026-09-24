@@ -1431,3 +1431,33 @@ def test_self_revision_a_draft_with_no_tags_never_spends_a_call():
     assert len(client.messages.captured_stream_calls) == 1
     assert voice_event["attempts_meta"]["self_revision"]["ran"] is False
     assert voice_event["attempts_meta"]["self_revision"]["fallback_reason"] == "no_tagged_records"
+
+
+# A participant's modern word: named as theirs, never dated or defined.
+
+
+def test_modern_word_line_names_the_word_and_bars_dating_and_definition():
+    from engine.m5.routing import Directive
+
+    text = turn_module._build_turn_directive(Directive(asks=[{"order": 1, "text": "were you Protestant"}], modern_words=["Protestant"]))
+    assert 'a word your world did not have: "Protestant"' in text
+    assert "You may say it is their word, not yours" in text
+    assert "Never say when that word arose" in text
+    assert "Never say what it means" in text
+
+
+def test_modern_word_line_absent_without_a_flagged_word():
+    from engine.m5.routing import Directive
+
+    text = turn_module._build_turn_directive(Directive(asks=[{"order": 1, "text": "what is prayer"}]))
+    assert "a word your world did not have" not in text
+    assert turn_module._build_turn_directive(None) is None
+
+
+def test_later_tradition_steering_bars_telling_the_participant_when_it_arose():
+    later = turn_module._pivot_scope_clause(False, has_excerpts=False)
+    assert "arose after your own world's time" in later
+    assert "never tell the participant when that tradition arose or that it came after your time" in later
+    assert "never say what it is or what it holds" in later
+    for known in (True, None):
+        assert "never tell the participant when that tradition arose" not in turn_module._pivot_scope_clause(known, has_excerpts=False)

@@ -64,6 +64,11 @@ class Directive:
     register_note: str | None = None
     suspend_register_statement_1: bool = False
     ambiguity_options: list[str] = field(default_factory=list)
+    # Modern words the reader flagged in the participant's message, as the
+    # participant wrote them. A registered anachronistic term never reaches
+    # a voice turn with this set: it routes to bridge_turn, and
+    # directive_without_terms clears it there.
+    modern_words: list[str] = field(default_factory=list)
 
 
 @dataclass(frozen=True)
@@ -87,7 +92,17 @@ def assemble_directive(reader: dict) -> Directive:
         register_note="witness-before-answer licensed" if personal_wound else None,
         suspend_register_statement_1=personal_wound,
         ambiguity_options=list(reader.get("ambiguity_options") or []),
+        modern_words=_modern_words(reader),
     )
+
+
+def _modern_words(reader: dict) -> list[str]:
+    words: list[str] = []
+    for term in reader.get("modern_terms") or []:
+        display = (term.get("display") or "").strip()
+        if display and display.lower() not in {w.lower() for w in words}:
+            words.append(display)
+    return words
 
 
 def directive_without_terms(reader: dict, display_terms: list[str]) -> Directive | None:
@@ -112,7 +127,9 @@ def directive_without_terms(reader: dict, display_terms: list[str]) -> Directive
     options = [o for o in directive.ambiguity_options if not mentions_term(o, display_terms)]
     if not asks and not options:
         return None
-    return replace(directive, asks=asks, ambiguity_options=options)
+    # The bridged voice never sees the participant's modern word at all, so
+    # it gets no modern-word line naming one either.
+    return replace(directive, asks=asks, ambiguity_options=options, modern_words=[])
 
 
 def route(

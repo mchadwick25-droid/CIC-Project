@@ -69,3 +69,9 @@ def test_only_pahc_trinity_needs_the_bridge_bypass():
     registered = {w: anachronistic_term_ids(fleet, registry[w]["time_window"]) for w in battery.TEST_PROBES}
     assert {w for w, ids in registered.items() if ids} == {"pahc"}
     assert "Trinity" in battery.TEST_PROBES["pahc"]
+
+
+def test_later_tradition_probes_name_a_world_that_began_after_the_asking_world_ended():
+    registry = load_registry()
+    for world_key, later_key in battery.LATER_TRADITION_PROBES.items():
+        assert registry[later_key]["time_window"]["start"] > registry[world_key]["time_window"]["end"]

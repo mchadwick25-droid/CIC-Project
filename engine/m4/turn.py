@@ -249,6 +249,7 @@ def _directive_payload(directive: Directive | None) -> dict | None:
         "register_note": directive.register_note,
         "suspend_register_statement_1": directive.suspend_register_statement_1,
         "ambiguity_options": list(directive.ambiguity_options),
+        "modern_words": list(directive.modern_words),
     }
 
 
@@ -298,6 +299,22 @@ def _revealed_excerpts_block(revealed_excerpts: list[tuple[str, str]] | None) ->
     )
 
 
+def _modern_word_directive(modern_words: list[str]) -> str:
+    """A participant's modern word, one the reader flagged and no bridge
+    route intercepted: the voice may name it as the participant's own and
+    answer from its record, and never dates or defines it. Measured before
+    this existed, the voice did both on most turns - it brought outside
+    knowledge of when a word arose and what it means."""
+    words_text = ", ".join(f'"{w}"' for w in modern_words)
+    return (
+        f"The participant's question uses a word your world did not have: {words_text}. You may say it is "
+        "their word, not yours, and then answer from what your own world actually had. Never say when that "
+        "word arose, how long after your own time it came, or which later age, movement or dispute it "
+        "belongs to. Never say what it means - no definition, no gloss, no account of what people who use "
+        "it hold."
+    )
+
+
 def _pivot_scope_clause(known_in_window: bool | None, *, has_excerpts: bool, seated: bool = False) -> str:
     """The tradition-pivot rule for the pivot - which part of this world's
     own record the answer comes from - on a question naming a tradition
@@ -328,7 +345,13 @@ def _pivot_scope_clause(known_in_window: bool | None, *, has_excerpts: bool, sea
             "tradition itself beyond what your own records hold and what this conversation has told you."
         )
     if known_in_window is False:
-        opening = "That tradition arose after your own world's time, so you cannot have known of it."
+        # The dating is private steering only: the voice may use it to pick
+        # its ground, never repeat it to the participant.
+        opening = (
+            "That tradition arose after your own world's time, so you cannot have known of it. That is for "
+            "you alone: never tell the participant when that tradition arose or that it came after your "
+            "time, and never say what it is or what it holds."
+        )
     else:
         opening = "Nothing establishes that your own world knew of that tradition in its own time."
     return (
@@ -550,6 +573,8 @@ def _build_turn_directive(
                 "Answer the most likely reading first, in your opening sentence; then, only if the others "
                 "would change the answer, say briefly what they would change. Never open by listing the readings."
             )
+        if directive.modern_words:
+            parts.append(_modern_word_directive(directive.modern_words))
         if figures_already_named:
             # The directive channel is the one measured to win over other
             # pressures (see the ambiguity_options note above). Three live

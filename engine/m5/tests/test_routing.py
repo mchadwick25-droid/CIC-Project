@@ -318,3 +318,29 @@ def test_a_single_bridged_ask_leaves_no_directive_at_all():
         _reader(asks=[{"order": 1, "text": "did you believe in the Trinity"}]),
         ["Trinity"],
     ) is None
+
+
+def test_unregistered_modern_words_ride_the_directive_deduplicated():
+    reader = _reader(modern_terms=[
+        {"term_id": "lib_theo", "display": "liberation theology"},
+        {"term_id": "lib_theo_2", "display": "Liberation Theology"},
+        {"term_id": "prot", "display": " Protestant "},
+    ])
+    decision = route(safety=_safety(), reader=reader, pressed={}, anachronistic_term_ids=ANACHRONISTIC, message="was your faith a kind of liberation theology")
+    assert decision.action == "voice_with_directive"
+    assert decision.directive.modern_words == ["liberation theology", "Protestant"]
+
+
+def test_no_modern_words_without_flagged_terms():
+    decision = route(safety=_safety(), reader=_reader(), pressed={}, anachronistic_term_ids=ANACHRONISTIC, message="who was Jesus")
+    assert decision.directive.modern_words == []
+
+
+def test_bridged_directive_carries_no_modern_words():
+    reader = _reader(
+        asks=[{"order": 1, "text": "tell me about the rapture"}, {"order": 2, "text": "and about prayer"}],
+        modern_terms=[{"term_id": "_fleet.modern.rapture", "display": "rapture"}, {"term_id": "x", "display": "megachurch"}],
+    )
+    directive = directive_without_terms(reader, ["rapture"])
+    assert directive is not None
+    assert directive.modern_words == []

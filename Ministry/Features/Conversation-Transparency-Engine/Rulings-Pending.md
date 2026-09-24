@@ -612,6 +612,19 @@ for registered terms via `term_glosses`, or a plain statement of what
 is missing if it doesn't. All three land when the R41 build itself is
 proposed (queued after 7b), not before.
 
+### R41-B — the Representative names a modern word as the participant's, and never dates or defines it
+**Status:** RULED — 2026-09-24. Mark chose this option in a select box
+at about 15:05Z, after Decision-Log.md Entry 70's measurement. It was
+relayed through the reviewer thread and confirmed by Mark directly in
+thread D: *"R41-B and R37-C confirmed"*. It is recorded as his ruling of
+that option, not his verbatim words: *"Add a rule: name the word as the
+participant's, never date or define it."*
+
+The voice may say the modern word is not its own, and answer from its
+own record. It never says when the word arose or what it means. The
+bridge route stays unchanged. The same battery is re-run after the
+change and compared against Entry 70.
+
 ### R42 — R27 detector precision follow-up: which of the three options?
 **Status:** RULED — 2026-09-23, via the reviewer thread's standing
 authorization. Mark's own follow-up question to G1's null result
@@ -944,3 +957,16 @@ reading R37-A declined).
 Condition (b)'s sources are therefore three: the Facilitator's
 introduction, the participant, and another Representative - each only
 for what was actually said in this conversation.
+
+**R37-C — a later tradition is never dated to the participant
+(2026-09-24).** Mark chose this option in a select box at about 15:25Z.
+It was relayed through the reviewer thread and confirmed by Mark
+directly in thread D: *"R41-B and R37-C confirmed"*. It is recorded as
+his ruling of that option, not his verbatim words. When a participant
+names a tradition that arose after the Representative's time, the
+Representative says only that its record does not mention it. It never
+tells the participant when that tradition arose, and never says what the
+tradition is or holds. The engine keeps using the time windows privately
+to steer which part of the record the answer comes from. Condition (a)
+is unchanged. This makes R37's later-tradition case consistent with
+R41-B.

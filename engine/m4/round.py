@@ -284,6 +284,7 @@ def _directive_payload(directive: Directive | None) -> dict | None:
         "register_note": directive.register_note,
         "suspend_register_statement_1": directive.suspend_register_statement_1,
         "ambiguity_options": list(directive.ambiguity_options),
+        "modern_words": list(directive.modern_words),
     }
 
 
@@ -298,6 +299,7 @@ def directive_from_payload(payload: dict | None) -> Directive | None:
         register_note=payload.get("register_note"),
         suspend_register_statement_1=bool(payload.get("suspend_register_statement_1")),
         ambiguity_options=list(payload.get("ambiguity_options") or []),
+        modern_words=list(payload.get("modern_words") or []),
     )
 
 
