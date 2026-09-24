@@ -59,8 +59,10 @@ from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate
 from engine.m4.turn_selector import Selection, select_speaker
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
+    conversation_revealed_excerpts,
     known_tradition_names,
     match_named_tradition,
+    tradition_known_in_window,
     world_records_mention_tradition,
 )
 
@@ -884,6 +886,8 @@ def _advance_open_round(
     other_tradition_seated = False
     other_tradition_seated_name = None
     other_tradition_repeat_turn = is_second_pass
+    other_tradition_known_in_window = None
+    other_tradition_revealed = None
     if is_other_tradition_first_ask:
         named_tradition_key = match_named_tradition(participant_text, registry, exclude_world_key=selection.world_key)
         other_tradition_seated = named_tradition_key in state.world_keys if named_tradition_key else False
@@ -892,6 +896,25 @@ def _advance_open_round(
             world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
             if named_tradition_key else None
         )
+        # R37 (Rulings-Pending.md R37, R37-A, R37-B), per seat: condition
+        # (a) is THIS seat's own window against the named tradition's;
+        # condition (b) is what the Facilitator, the participant, and -
+        # R37-B - every other seat have actually said about it, read from
+        # the same replayed transcript this seat's own history is built
+        # from. The round's own opening participant message is the
+        # question itself, not a revelation, so it is dropped; every seat
+        # turn after it in this round still counts.
+        if named_tradition_key:
+            other_tradition_known_in_window = tradition_known_in_window(
+                registry[selection.world_key], registry[named_tradition_key]
+            )
+            question_index = max(i for i, t in enumerate(transcript) if t.get("speaker") == "participant")
+            other_tradition_revealed = conversation_revealed_excerpts(
+                transcript[:question_index] + transcript[question_index + 1:],
+                registry[named_tradition_key],
+                speaking_world_key=selection.world_key,
+                labels=labels,
+            )
 
     try:
         voice_event, voice_usage = run_voice_turn_for_world(
@@ -925,6 +948,8 @@ def _advance_open_round(
             other_tradition_seated=other_tradition_seated,
             other_tradition_seated_name=other_tradition_seated_name,
             other_tradition_repeat_turn=other_tradition_repeat_turn,
+            other_tradition_known_in_window=other_tradition_known_in_window,
+            other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
             self_revision_enabled=self_revision_enabled,
