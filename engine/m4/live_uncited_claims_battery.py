@@ -1,10 +1,8 @@
-"""R27 build item 4 (Decision-Log.md Entry 51) + fix list F3 (reviewer
-thread "CiC — Tech Review & Funding Readiness Prep", 2026-09-22, after
-item 4's first run): a real, billed live run measuring the report-only
-uncited-claims check's actual catch rate per world, and - new in F3 -
-simulating the enforcement shape battery-only (no participant path) so
-Mark can set item 5's threshold against a post-regeneration number, not
-the raw rate. Like engine/m4/live_table_battery.py and
+"""R27 build item 4 + fix list F3: a real, billed live run measuring the
+report-only uncited-claims check's actual catch rate per world, and -
+new in F3 - simulating the enforcement shape battery-only (no
+participant path) so the threshold can be set against a
+post-regeneration number, not the raw rate. Like engine/m4/live_table_battery.py and
 engine/m8/live_cost_run.py, a by-hand, credentialed run - not a CI job.
 
 Interview mode, TWO SEPARATE fresh single-turn sessions per admitted
@@ -33,10 +31,9 @@ BOTH the raw and the post-regeneration offense count/rate, per world -
 F3(b)'s own words: "That post-regeneration number is what Mark sets the
 threshold on; the raw rate is not."
 
-R27-A item 4 (Decision-Log.md Entry 54's own build order, item 2's
-module merged in #424): the paragraph-unit numbers Mark sets the
-enforcement threshold on, replacing F6's own heuristic substring
-metric below with the real mechanism R27-A item 2 built -
+The paragraph-unit numbers the
+enforcement threshold is set on, replacing F6's own heuristic substring
+metric below with the real mechanism -
 engine.m4.grounding_net.check_turn_with_paragraph_coverage and
 engine.m4.uncited_claims.find_uncited_paragraphs, called directly here
 (battery-only, the same "call the real function a second time on
@@ -46,8 +43,8 @@ and post-regeneration turn rates by paragraph class
 (wholly_uncited_paragraph, inherited_ungrounded), the sentence-level
 numbers beside them, how many wholly-uncited paragraphs are exactly
 one sentence long, the net's own verdict distribution on inherited
-sentences (how many would be withheld under Entry 55's option (a), had
-it been chosen instead of (b)), and - per world, alx on the Donatists
+sentences (how many would be withheld under the paragraph-check's
+option (a), had it been chosen instead of (b)), and - per world, alx on the Donatists
 probe first - whether the B-other-tradition probe's raw answer actually
 said R26's own fixed honest-limit sentence or answered as if it knew.
 The correction-and-regenerate simulation now fires on either a
@@ -55,8 +52,7 @@ sentence-level or a paragraph-level raw offense (previously sentence-
 level only), naming the union of both in the correction, since a
 paragraph-unit enforcement would regenerate on either.
 
-F6 (reviewer thread fix list, 2026-09-22, after PR #419's own report,
-SUPERSEDED above): the first, heuristic version of this same idea,
+F6 (SUPERSEDED above): the first, heuristic version of this same idea,
 kept only as prior art in this docstring's own history - a sentence
 counted as covered when its own paragraph carried a citation tag
 ANYWHERE, found by substring match on the raw text rather than the
@@ -67,8 +63,7 @@ lines, same text apply_net itself checks) - no second model call, no
 re-derivation; item 4 keeps this same capture, only replaces what runs
 on it.
 
-R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
-2026-09-23): `--enforce` runs a SEPARATE, simpler mode (run_enforced
+R27 build item 5: `--enforce` runs a SEPARATE, simpler mode (run_enforced
 below) against the SAME probes, with the flag actually on
 (r27_enforce=True) - a real generation call, one regeneration if a
 wholly_uncited_paragraph or neighbour_named offense fires, then the
@@ -166,8 +161,8 @@ def _offenses_for(voice_event: dict | None, *, registry: dict, world_key: str, i
 def _paragraph_check(raw_tagged_text: str | None, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> dict | None:
     """Item 4's own replacement for F6's substring heuristic above: the
     real check_turn_with_paragraph_coverage, called directly on the
-    captured raw text - the identical function turn.py itself now calls
-    (R27-A item 2), so this battery measures the actual mechanism, not
+    captured raw text - the identical function turn.py itself now calls,
+    so this battery measures the actual mechanism, not
     an approximation of it. None when there is no raw text to check
     (routing never reached voice)."""
     if not raw_tagged_text:
@@ -178,7 +173,7 @@ def _paragraph_check(raw_tagged_text: str | None, *, repository_records: dict[st
 def _one_sentence_wholly_uncited_paragraphs(paragraph_check: dict | None) -> int:
     """How many of this turn's own paragraphs are wholly uncited AND
     exactly one sentence long - a shape question about the paragraph
-    itself (Entry 54 item 4's own ask), independent of whether that
+    itself, independent of whether that
     paragraph actually produced a reported offense (an exempt one-
     sentence paragraph - a question, an honest-limit line - still
     counts here)."""
@@ -189,7 +184,7 @@ def _one_sentence_wholly_uncited_paragraphs(paragraph_check: dict | None) -> int
 
 def _inherited_verdict_counts(paragraph_check: dict | None) -> dict[str, int]:
     """The net's own verdict distribution on every inherited-check call
-    this turn ran (Entry 55's own point 4: how many would be withheld
+    this turn ran (how many would be withheld
     under option (a), had that been chosen over (b) instead) - tallied
     directly off inherited_verdicts, not re-derived."""
     counts = {"ok": 0, "withhold": 0}
@@ -272,7 +267,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
             # turn_directive internally, so only the suffix is wanted here -
             # _append_r27_correction(None, ...) returns exactly that
             # ("" + suffix). engine.m4.turn._append_r27_correction is the
-            # single, canonical owner of this wording now (Entry 56) - no
+            # single, canonical owner of this wording now - no
             # local duplicate.
             correction=_append_r27_correction(None, named), debug_capture=regen_capture,
         )
@@ -325,8 +320,8 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             post_paragraph_offense_total_by_class = {c: 0 for c in _PARAGRAPH_OFFENSE_CLASSES}
             one_sentence_wholly_uncited_paragraphs = 0
             inherited_verdict_counts = {"ok": 0, "withhold": 0}
-            # Enforcement-at-the-paragraph-unit simulation (Entry 54 item
-            # 4's own ask): would this turn have regenerated at all (a
+            # Enforcement-at-the-paragraph-unit simulation: would this
+            # turn have regenerated at all (a
             # real raw paragraph-level offense), and would it still have
             # one left for the Facilitator after that one regeneration.
             would_regenerate_turns = 0
@@ -411,8 +406,7 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
                 "probes": probe_results,
                 "probes_run": probes_run,
                 # Sentence-level numbers, unchanged, kept beside the
-                # paragraph-level ones below for direct comparison
-                # (Entry 54 item 4's own ask).
+                # paragraph-level ones below for direct comparison.
                 "raw_turns_with_offense": raw_with_offense,
                 "raw_offense_total": raw_offense_total,
                 "raw_turn_rate": raw_with_offense / probes_run,
@@ -424,8 +418,8 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
                 # clean by construction, not something this rate should
                 # dilute.
                 "post_regeneration_residual_rate": (post_with_offense / raw_with_offense) if raw_with_offense else 0.0,
-                # Item 4's own paragraph-unit numbers, real mechanism
-                # (R27-A item 2), by class.
+                # Item 4's own paragraph-unit numbers, real mechanism,
+                # by class.
                 "raw_paragraph_turn_rate_by_class": {c: raw_paragraph_turns_by_class[c] / probes_run for c in _PARAGRAPH_OFFENSE_CLASSES},
                 "raw_paragraph_offense_total_by_class": raw_paragraph_offense_total_by_class,
                 "post_regeneration_paragraph_turn_rate_by_class": {
@@ -522,13 +516,13 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             "magnitude first look, not a statistically powered sample. The paragraph-unit numbers "
             "(raw_paragraph_turn_rate_by_class, post_regeneration_paragraph_turn_rate_by_class, "
             "paragraph_unit_would_regenerate/reach_facilitator_turns), not the sentence-level "
-            "post_regeneration_residual_rate, are what R27-A item 4 asks Mark's enforcement threshold to "
-            "be set against (Decision-Log Entry 54) - the sentence-level numbers ride beside them for "
+            "post_regeneration_residual_rate, are what the enforcement threshold is meant to "
+            "be set against - the sentence-level numbers ride beside them for "
             "comparison only. one_sentence_wholly_uncited_paragraphs and inherited_verdict_counts are "
-            "measurement only (Entry 55's own option (a) vs (b) question), and "
+            "measurement only (the option (a) vs (b) question), and "
             "other_tradition_said_honest_limit_sentence is a per-world, per-probe boolean inside "
-            "interview.worlds.<key>.probes['B-other-tradition'], not aggregated here - the reviewer's own "
-            "ask names alx on the Donatists probe first."
+            "interview.worlds.<key>.probes['B-other-tradition'], not aggregated here - "
+            "alx on the Donatists probe is reported first."
         ),
     }
 
@@ -662,8 +656,8 @@ def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[s
             "overall_facilitator_takeover_rate is out of overall_regenerated_turns (the turns a regeneration "
             "was even attempted on), not overall_probes_run, same denominator discipline the report-only "
             "run's own post_regeneration_residual_rate already uses. This is a live proof the flag-gated "
-            "mechanism works end to end, and Mark's own staging-look numbers before the flag is flipped "
-            "anywhere - not a second threshold-setting run (that was #427's own job)."
+            "mechanism works end to end, and a staging look at the numbers before the flag is flipped "
+            "anywhere - not a second threshold-setting run."
         ),
     }
 
