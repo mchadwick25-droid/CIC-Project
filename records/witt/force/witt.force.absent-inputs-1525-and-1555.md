@@ -20,7 +20,7 @@ sources:
   locus: 'LC 3190-3196: the only Layer-2 trace this library carries of 1525, unnamed. The Peasants'' War
     and its 1525 tracts are not independently vendored anywhere in this library; this record''s own Layer
     1 characterization draws on a tertiary secondary account (Widely Accepted as to content, no phrase
-    quoted, R94), disclosed here rather than cited as a source'
+    quoted), disclosed here rather than cited as a source'
   license: public-domain
 relations:
 - type: associated-with

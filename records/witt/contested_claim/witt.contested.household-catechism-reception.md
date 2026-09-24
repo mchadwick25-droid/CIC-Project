@@ -34,7 +34,7 @@ sources:
     other pole of the reception debate (Source Registry row 71)'
   license: public-domain
 - source_id: witt.source.james-successes-and-failures-in-the-german
-  locus: 'Citation details (journal, volume, year, pages) independently confirmed by a Round 1 reviewer from
+  locus: 'Citation details (journal, volume, year, pages) independently confirmed from
     prior knowledge; the article itself not read. Named by the census as a critic of Strauss (Source Registry
     row 72)'
   license: public-domain

@@ -22,7 +22,7 @@ sources:
 - source_id: witt.source.luther-large-catechism
   locus: 'LC 3190-3196: the unnamed ''riot'' quelled by prayer. The 1525 tracts are not independently
     vendored anywhere in this library; this record''s own 1525 characterization draws on a tertiary
-    secondary account (Widely Accepted as to content, no phrase quoted, R94), disclosed here rather than
+    secondary account (Widely Accepted as to content, no phrase quoted), disclosed here rather than
     cited as a source'
   license: public-domain
 relations:
