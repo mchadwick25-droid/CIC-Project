@@ -25,10 +25,10 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 /* Dark is the default site-wide; .optin, .hint, .mailto-fallback, and the
    form fields/textarea below are all colored for that directly rather than
    through --vellum/--iron-gall/--muted, which still hold their light-mode
-   values everywhere on this site (2026-09-17: form fields and .optin's
-   background were the last light leftovers here - --iron-gall text on a
-   --vellum field would have gone invisible once the field itself went
-   dark, so both were fixed together). */
+   values everywhere on this site (form fields and .optin's background were
+   the last light leftovers here - --iron-gall text on a --vellum field
+   would have gone invisible once the field itself went dark, so both were
+   fixed together). */
 </style>
 </head>
 <body>
@@ -127,7 +127,7 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 /* Was action="mailto:..." + enctype="text/plain" ALONE -- an actual FORM POST
    to a mailto: action, which several major browsers silently no-op instead of
    opening the mail client (real, unreliable, and gave the visitor no signal
-   that nothing happened -- flagged 2026-08-25). A plain mailto: link click is
+   that nothing happened). A plain mailto: link click is
    reliably supported everywhere a form-post-to-mailto isn't, so this builds
    the same link by hand from the field values and navigates to it exactly
    the way clicking an <a href="mailto:..."> would. The form still carries its
@@ -143,10 +143,10 @@ const form = document.getElementById('feedbackForm');
    formal spec limit - ~2000 chars is the commonly-cited safe ceiling (old
    Internet Explorer/Outlook territory, but still the tightest real target).
    Six free-text fields can exceed that easily, which would silently cut off
-   or drop exactly the answers this form most wants to hear (2026-08-25 full
-   review finding - the same failure class the mailto rebuild above was
-   written to fix, just triggered by content length instead of browser
-   behavior). Long answers fall back to a copy/paste box instead of a
+   or drop exactly the answers this form most wants to hear - the same
+   failure class the mailto rebuild above was written to fix, just
+   triggered by content length instead of browser behavior. Long answers
+   fall back to a copy/paste box instead of a
    mailto: link that might arrive truncated with no signal that it was. */
 const MAILTO_SAFE_LENGTH = 1800;
 form.addEventListener('submit', function(e){

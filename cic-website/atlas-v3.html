@@ -101,9 +101,9 @@ svg#world{display:block;overflow:visible}
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
    over whatever's underneath, the way a map halos its place-names.
-   2026-09-17: was fixed (not theme-variable) dark-ink-on-light-card colors, written
-   for the old era break band -- a light card that always sat behind this text (see
-   the Decision-Log). That card is gone (it blocked the map); this text now sits
+   Previously fixed (not theme-variable) dark-ink-on-light-card colors, written
+   for the old era break band -- a light card that always sat behind this text.
+   That card is gone (it blocked the map); this text now sits
    directly over the rivers like every other label on the map, so it follows the
    same var()-based theme tokens and the same 3px halo width .lbl below already
    uses, rather than the old fixed dark fill + thick 5px light halo, which read as
@@ -414,7 +414,6 @@ const DATA = {
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "generated": "2026-08-02",
   "totalEntries": 292,
   "liveCount": 7,
   "statusCounts": {
@@ -430,7 +429,7 @@ const DATA = {
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
-  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html as of 2026-07-22, reading this file at runtime instead of each keeping its own embedded copy). The xlsx census (V0.13) still shows both Alexandrian Catechetical Christianity and Imperial and Juridical Christianity as 'Selected - Not Yet Built'; this asset overrides both to 'Built & Live' because world_manifest.py (the real deployment source of truth) confirms Alexandria/Theon and Church-and-Empire/Marius are now live, bringing the live count to 6. Imperial and Juridical Christianity's 'living' flag stays false per world_manifest.py's own caution that Article 29 Living Tradition Status has not yet been formally confirmed for it. Movements now also carry numeric start/end year fields (added 2026-07-22, sourced from the Wall Chart’s verified per-entry timeline data) so any surface can sort chronologically without re-parsing the display \"dates\" string.",
+  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). The xlsx census (V0.13) still shows both Alexandrian Catechetical Christianity and Imperial and Juridical Christianity as 'Selected - Not Yet Built'; this asset overrides both to 'Built & Live' because world_manifest.py (the real deployment source of truth) confirms Alexandria/Theon and Church-and-Empire/Marius are now live, bringing the live count to 6. Imperial and Juridical Christianity's 'living' flag stays false per world_manifest.py's own caution that Article 29 Living Tradition Status has not yet been formally confirmed for it. Movements now also carry numeric start/end year fields (sourced from the Wall Chart’s verified per-entry timeline data) so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2
  },
  "eras": [
@@ -480,7 +479,7 @@ const DATA = {
     "Justinian's Plague begins (541)"
    ],
    "tag": "The communions take their lasting shapes after Chalcedon",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -497,7 +496,7 @@ const DATA = {
     "Charlemagne crowned emperor (800)"
    ],
    "tag": "Christianity under new empires, from Ireland to China",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -514,7 +513,7 @@ const DATA = {
     "Sack of Constantinople (1204)"
    ],
    "tag": "Reform, renewal, and the new orders",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02 (III.1→IV.22 spine question open)",
+   "stepStatus": "Step 0 run complete — era frozen (III.1→IV.22 spine question open)",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -531,7 +530,7 @@ const DATA = {
     "Western Schism (1378–1417)"
    ],
    "tag": "Crisis and devotion on the eve of reform",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -548,7 +547,7 @@ const DATA = {
     "Peace of Westphalia (1648)"
    ],
    "tag": "The Western church remade - several ways at once",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-02",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -565,7 +564,7 @@ const DATA = {
     "French Revolution's dechristianization campaign (1790s)"
    ],
    "tag": "Established churches, awakened hearts",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-03",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#E3E0CB",
    "groundDark": "#1E1C16",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -582,7 +581,7 @@ const DATA = {
     "American Civil War (1861–65)"
    ],
    "tag": "Revival, missions, and a globalizing faith",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-03",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#D8E4E5",
    "groundDark": "#151A1E",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -599,7 +598,7 @@ const DATA = {
     "Second Vatican Council (1962–65)"
    ],
    "tag": "The center of gravity moves south and east",
-   "stepStatus": "Step 0 run complete — era FROZEN by Mark 2026-08-14",
+   "stepStatus": "Step 0 run complete — era frozen",
    "ground": "#EFDDB3",
    "groundDark": "#241A0C",
    "rec": "The Step 0 assessment for this era has not yet run — entries below carry signals, not verdicts."
@@ -39875,7 +39874,7 @@ eraH=eraH.map(h=>h/hSum*TOTAL_H); // renormalize after the floor
 // plotted inside it (see the yearToY and per-y density-sampling changes
 // below), so the streams entering the band are visible passing under the
 // caption without a single world's dot or label competing with it.
-// 2026-09-17: raised 190->230 alongside the era-header font-size/wrap
+// Raised from 190 to 230 alongside the era-header font-size/wrap
 // changes above (bigger text, narrower context wrap so lines fit on
 // screen when zoomed in) -- the tallest header block is now up to 5
 // context lines at the new sizing (computed: worst case ~184px to the
@@ -40271,7 +40270,7 @@ const WORLD_CONTEXT={
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
-// Era header context wrap width, in characters (2026-09-17, was a fixed 200
+// Era header context wrap width, in characters (previously a fixed 200
 // inlined at each call site): narrow enough that a wrapped line fits on
 // screen at a comfortable reading zoom rather than spanning near the full
 // width of the map, which only worked at the fully-zoomed-out view.
@@ -40419,26 +40418,14 @@ function render(){
     // body -- painting it is a no-op (10 full-width rects that render
     // nothing), so skip it there; dark mode's real cycling still paints.
     if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // Era divider (Mark, 2026-09-17: the old break band was a thick,
-    // ~120px-tall, near-opaque bar bled across the full width -- it read
-    // as a wall blocking the map underneath it, not a divider). Replaced
-    // with a thin line, not a block that competes with the rivers for the
-    // whole gutter.
-    // 2026-09-17: Mark's next report -- the text was crisp now but too
-    // small to read comfortably, and zooming in to read it ran the
-    // (still-wrapped-wide) lines off the screen. Font sizes bumped (see
-    // the .era-label/.era-tag/.era-context rules above) and the context
-    // wrap narrowed from 200 to ERA_CONTEXT_WRAP chars so a line stays
-    // short enough to fit on screen at a comfortable reading zoom instead
-    // of spanning the whole map's width.
-    // 2026-09-18: Mark's next report -- the line sat *under* the header
-    // text, which put the text right against the previous era's own
-    // content with nothing marking it as the start of a new one; the line
-    // only separated the text from this era's own rivers below it, so the
-    // text read as trailing the era above rather than opening the era
-    // below. Flipped: the line now sits right at the top of the era
-    // band, and the header text drops below it -- the line marks where
-    // the era starts, and the text reads as inside it.
+    // Era divider: a thin line, not the old thick, near-opaque bar that
+    // read as a wall blocking the map underneath it rather than a
+    // divider. Font sizes (see the .era-label/.era-tag/.era-context
+    // rules above) and the context wrap (ERA_CONTEXT_WRAP chars) keep
+    // the header text readable at a comfortable zoom instead of running
+    // off-screen or spanning the whole map's width. The line sits at the
+    // top of the era band with the header text below it, so it reads as
+    // marking where the era starts rather than trailing the one above.
     const dividerY=eraY0[i]+16;
     // Drawn on top of the rivers (band-fade's old spot) so the line stays
     // crisp regardless of what color river crosses under it, with a slim,
@@ -40463,7 +40450,7 @@ function render(){
       // at a comfortable reading zoom, not just at the fully-zoomed-out
       // view -- was wrapped at 200 chars, close to the full width of the
       // map itself, which ran off-screen the moment anyone zoomed in
-      // enough to actually read the smaller text (Mark, 2026-09-17).
+      // enough to actually read the smaller text.
       wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
         const tspan=el('tspan',{x:24,dy:li===0?0:19});
         tspan.textContent=line;
@@ -40939,8 +40926,8 @@ function sectionSources(list){
   if(!list||!list.length)return '';
   return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
 }
-// Website V2 world_front design, site cutover Part 3 (approved to proceed
-// 2026-09-19): the 8 built worlds' own deep Orientation-tier content
+// Website V2 world_front design, site cutover Part 3 (approved to
+// proceed): the 8 built worlds' own deep Orientation-tier content
 // (story/documentedStories/voices/floorNote/legacy/relationsSummary/
 // sourcing) no longer lives in DATA above - it's fetched at panel-open
 // time from cic-website/data/worlds/<census_id>.json (engine.m2.
@@ -41093,7 +41080,7 @@ function openPanel(m){
     }).join('');
     h+='</details>';
   }
-  // Full source registry (2026-09-03): distinct from the curated Sources
+  // Full source registry: distinct from the curated Sources
   // section above -- that's a hand-picked "read these first" list; this is
   // every vendored, rights-checked work cic/corpus-map/*.yaml actually
   // assigns to this entry, generated by cic/engine/corpus_coverage.py.
@@ -41444,8 +41431,8 @@ stage.addEventListener('wheel',(ev)=>{
 },{passive:false});
 
 // Pointer Events with capture, not mousedown/mousemove/mouseup on window --
-// Mark, 2026-09-20: "hard to do the hand and grab scroll". Without capture, a
-// drag that outruns the mouse's own hit-testing (a fast flick, or the pointer
+// without capture, a drag that outruns the mouse's own hit-testing (a fast
+// flick, or the pointer
 // crossing another element like #legend/#panel) can silently drop the
 // in-progress drag; setPointerCapture pins move/up delivery to #stage
 // regardless of what's under the pointer afterward, the same fix a native
@@ -41483,8 +41470,8 @@ function endDrag(ev){
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);
 
-// Manual pan controls -- Mark, 2026-09-20: the atlas had no way to move
-// around besides drag or scroll-to-zoom, and drag alone read as hard to use.
+// Manual pan controls: the atlas had no way to move around besides drag
+// or scroll-to-zoom, and drag alone read as hard to use.
 // A fixed pixel nudge per press/hold, independent of zoom level, the same
 // units the drag handlers above already use for tx/ty.
 const PAN_STEP=90;
@@ -41551,8 +41538,8 @@ document.getElementById('scopeClose').addEventListener('click',()=>document.getE
 // where the topbar used to end, and its own dismiss button (float:right on
 // the note's first line) lands behind the now-taller topbar, unreachable.
 // Measure the real chrome above it instead of assuming a fixed height --
-// 2026-09-18: .feature-bar (Church Family Tree / Conversation with One /
-// Build a Table) sits between the topbar and this note now, and has the
+// .feature-bar (Church Family Tree / Conversation with One / Build a
+// Table) sits between the topbar and this note, and has the
 // exact same problem the topbar always had (its own height isn't fixed --
 // it wraps on a narrow screen too), so it gets the same treatment: measured,
 // not assumed.

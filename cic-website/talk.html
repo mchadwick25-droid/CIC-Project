@@ -22,9 +22,9 @@
 html,body{height:100%}
 /* flex column, not a fixed-height guess for .frame-wrap -- a hardcoded
    calc(100vh - <bar> - <feature-bar>) here made the same mistake
-   atlas-v3.html's scope-note positioning already had to be fixed for once
-   (2026-09-18): the bars' real rendered height (font/line-height/padding,
-   or wrapping on a narrow screen) doesn't match a guessed pixel constant,
+   atlas-v3.html's scope-note positioning already had to be fixed for
+   once: the bars' real rendered height (font/line-height/padding, or
+   wrapping on a narrow screen) doesn't match a guessed pixel constant,
    so the iframe below overflowed the viewport instead of filling it
    exactly. flex:1 fills whatever's actually left, no measuring needed. */
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--sans);display:flex;flex-direction:column}
@@ -87,9 +87,9 @@ frame.src = target.toString();
 
 // The embedded app's own "Leave for now"/"Begin again" used to fall back
 // to its pre-redesign Launch screen when it had no idea it was inside an
-// iframe (2026-09-04 live bug, Mark hit it directly) - it now posts this
-// instead of navigating itself, and #back-link is already this page's own
-// real, styled answer to "where does leaving go." ev.source restricts to
+// iframe - it now posts this instead of navigating itself, and #back-link
+// is already this page's own real, styled answer to "where does leaving
+// go." ev.source restricts to
 // exactly our own iframe - the only page that ever loads inside it is the
 // one this script just pointed at target above.
 window.addEventListener('message', function(ev) {
