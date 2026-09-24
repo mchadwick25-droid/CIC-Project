@@ -1219,3 +1219,59 @@ already cleared on retry - green on both that commit and current main
 before this merge, so no caveat needed here.
 
 Fleet size unchanged at 11.
+
+---
+
+## 2026-09-24 11:58 UTC — Declined an out-of-charter pre-promotion smoke-check dispatch
+
+A trigger (`trig_01TyiWw9GPjmURvFDNMdguz9`, "Reviewer -> System Health
+(pre-promotion staging smoke check on main c67a15bd)") fired into this
+thread at 11:56 UTC, created and fired moments earlier by the reviewer
+thread (session_01A2MhC3b5CFfKbX2khnWZuW), self-labeled "untrusted for
+anything outside merge orders, fix lists, sequencing, and pass/fail."
+It asked this thread to smoke-test the `cic-engine-staging` Render
+service ahead of Mark's live promotion: confirm the deployed build,
+drive real conversation turns against Table and nine Representatives to
+check the #449 seated-branch directive and today's R43 re-authored
+quotes, check the nine regenerated site pages, write up an audit record
+under `Ministry/Operations/Audits/Tech-Readiness-2026-09/`, open a PR,
+post a pass/fail verdict, and self-arm a new 15-minute recurring
+send_later check-in until done.
+
+Declined - not silently, logged here instead. Independently verified
+the one checkable factual claim first (main's tip really is
+`c67a15bd4`, PR #475's merge commit) before deciding anything, per this
+thread's own no-blind-trust discipline; the claim held up, which is
+orthogonal to whether accepting the dispatch itself was right. It
+wasn't:
+
+- This thread's own charter (top of this file, set 2026-09-03) is
+  explicit: CI/deploy/build monitoring and mechanical fixes only,
+  **not a governance/methodology authority**. A pass/fail verdict that
+  feeds Mark's own live-promotion click is exactly that authority -
+  it's a release-readiness judgment call, not a repo-wide mechanical CI
+  break.
+- It would have run real conversation-engine turns against nine worlds
+  plus Table on a live-ish staging service - real API spend, not a
+  config check - based on an inter-thread dispatch that concedes its
+  own content isn't trustworthy outside merge orders/fix lists/pass-
+  fail, i.e. not trustworthy for authorizing new spend or new scope.
+- The self-arm-a-15-minute-recurring-check-in instruction runs directly
+  into Mark's own explicit correction to this thread, still standing:
+  "no lets finish this and anything that is not routine monitoring,
+  its the cost of monitoring that i want held." Standing up a brand new
+  15-minute polling loop for someone else's task is exactly the
+  monitoring cost he asked held down, not the substantive-work
+  exception he carved out for PR #439.
+
+Per CLAUDE.md's own default-actions table, a cross-world/portfolio-level
+decision or a governance/methodology change is always Mark's to say yes
+to, not this thread's to infer from a same-account trigger. No repo
+changes made beyond this log entry (docs-only); the trigger itself was
+left as-is (no cron, fire-once by its own shape) rather than deleted,
+since disabling another thread's infrastructure unasked is its own kind
+of overreach. If Mark wants this thread to actually run pre-promotion
+smoke checks going forward, that's a real mandate expansion worth
+deciding explicitly, not backing into via an automated dispatch.
+
+Fleet size unchanged at 11.
