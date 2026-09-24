@@ -173,7 +173,7 @@ works:
   confidence: assigned
   note: 'c. 70-135, general church. Already cited by pahc.source.barnabas. An Alexandrian
     provenance is often argued; alexandria-catechetical''s window opens c. 150, so it is not
-    added here - worth reconsidering if the window is read more loosely.
+    added here.
 
     '
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
@@ -184,8 +184,7 @@ works:
   confidence: provisional
   note: 'Fourth-century Antiochene panegyric on Ignatius, a central figure of post-apostolic-house-church.
     Second id offered as evidence of how that world''s figure was remembered and venerated,
-    on the Vita Antonii pattern — but this is 4th-century cult, not 2nd-century evidence,
-    so flagged for Mark rather than asserted.
+    on the Vita Antonii pattern — this is 4th-century cult, not 2nd-century evidence.
 
     '
   source_file: npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml
@@ -280,11 +279,10 @@ works:
   confidence: assigned
   note: 2nd-century passion gospel in use at Rhossus in Antioch's orbit — pahc's era and region
     — but Serapion of Antioch condemned its docetic use (his letter is in anf08 div2 10.13,
-    cross-referenced there). Whether a gospel the entry's own bishops rejected counts as pahc
-    'tradition' is a real open question; it is not Scripture in the sense brief 6.5 excludes,
-    so it is assigned rather than dropped. apocryphal-and-pseudepigraphal-literature holds
-    this class alongside pahc; pahc is kept where the subject matter is genuinely apostolic-era,
-    and this entry names what the TEXT is.
+    cross-referenced there). It is not Scripture in the sense brief 6.5 excludes, so it is
+    assigned rather than dropped. apocryphal-and-pseudepigraphal-literature holds this class
+    alongside pahc; pahc is kept where the subject matter is genuinely apostolic-era, and
+    this entry names what the TEXT is.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Fragments of Hegesippus
   author: hegesippus
@@ -688,10 +686,9 @@ works:
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite; where his voice ultimately sits between the two
-    traditions is still an open question needing a ruling. greek-apologists-second-century
-    holds this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
-    the era and church-world are genuinely its.'
+    he was also later branded an Encratite. greek-apologists-second-century holds this work
+    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragments (Tatian)
   author: tatian

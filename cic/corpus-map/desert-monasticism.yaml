@@ -8,13 +8,12 @@ works:
   locus: whole file; fourteen thematic chapters plus the Questions and Answers, sayings numbered
   role: tradition
   confidence: assigned
-  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, and the source
-    its build was structured around while having no readable edition of it until now. THE
-    RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek alphabetical collection: numbering
-    and often wording differ, so any quote is verbatim FOR BUDGE and must say so in its locus.
-    Amma Sarah is present (six sayings, as "Mother Sarah"); Syncletica and Theodora are NOT,
-    under any spelling - the Greek collection carries them and has no public-domain English
-    (desert.search.greek-alphabetical-pd-english).
+  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, the source its
+    build is structured around. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek
+    alphabetical collection: numbering and often wording differ, so any quote is verbatim
+    FOR BUDGE and must say so in its locus. Amma Sarah is present (six sayings, as "Mother
+    Sarah"); Syncletica and Theodora are NOT, under any spelling - the Greek collection carries
+    them and has no public-domain English (desert.search.greek-alphabetical-pd-english).
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
@@ -111,10 +110,9 @@ works:
     home, and this directly addresses the audit''s finding that desert answers from too narrow
     a base. Written c. 420 for Gallic monasteries (dedicated to Castor of Apt) and commended
     by the Rule of Benedict ch. 73: the two later monastic entries are reception homes that
-    both postdate Cassian. Whether strict era fit should trim those two reception entries,
-    leaving only desert, is an open question. Same placement as the Sulpitius works for the
-    Gallic entry: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian
-    Gaul entry rather than the later Merovingian entry this work antedates.'
+    both postdate Cassian. Same placement as the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
+    entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
@@ -212,9 +210,8 @@ works:
   role: context
   confidence: assigned
   note: 'Opened for one narrow reason: this world''s closing force is the Origenist controversy,
-    and until now it could report that a fight happened over Origen without stating a line
-    of what was fought over. Book I ch. 1 is the anthropomorphite dispute''s actual content
-    - if God has no body then the image of God in Genesis is not a face.
+    and Book I ch. 1 is the anthropomorphite dispute''s actual content - if God has no body
+    then the image of God in Genesis is not a face.
 
     THE TEXT IS RUFINUS'', NOT ORIGEN''S GREEK, and Rufinus translated it in 398, during the
     controversy, saying in his own prologue that he corrected what he judged corrupted. A

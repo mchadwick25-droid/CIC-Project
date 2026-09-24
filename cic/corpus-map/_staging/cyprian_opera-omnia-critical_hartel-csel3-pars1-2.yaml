@@ -28,7 +28,9 @@ assignments:
       actually wrote them in. ANF05 itself follows Migne's text, not
       Hartel's, so this is also an independent critical check on that
       translation's own base text, not merely a duplicate. Does not cover
-      CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness
+      CSEL 3 Pars III (spuria/indices) - vendored separately, see
+      `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.yaml`.
+      Second-witness
       caveat applies per cic/texts/INTAKE.md: legitimate for cross-checking
       a specific reading against the vendored English translation a
       world's own source record actually cites, never primary evidence for

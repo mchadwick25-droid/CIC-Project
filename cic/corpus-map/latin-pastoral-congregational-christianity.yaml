@@ -652,8 +652,7 @@ works:
   confidence: provisional
   note: 'Written 386-387 at Cassiciacum near Milan, before baptism and long before ordination
     — a philosophical dialogue, not pastoral work from Hippo. Held in Augustine''s own entry
-    for want of a better home; whether the Cassiciacum period should also touch ambrosian-milan-standalone,
-    which is Ambrose''s entry, not Augustine''s, remains an open question — not asserted here.
+    for want of a better home.
 
     '
   source_file: npnf107_augustine-homilies-john-soliloquies.xml
@@ -745,12 +744,11 @@ works:
     previously entirely absent from this corpus in any language. Marked context (an official
     proceeding record, not either side''s own composed voice) consistent with how this entry
     already treats the Optatus appendix and Council acts; provisional because the Donatist
-    bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration
-    once actually read, which this entry has not yet done. Also assigned to latin-pastoral-congregational-christianity
-    (Source_Registry.md row 65, which resolves that row''s own flagged cross-world resource
-    question): Augustine speaks in his own words in at least fourteen numbered acts of these
-    proceedings, a live primary-voice route this world''s own Registry names but does not
-    yet use.
+    bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration.
+    Also assigned to latin-pastoral-congregational-christianity (Source_Registry.md row 65,
+    which resolves that row''s own flagged cross-world resource question): Augustine speaks
+    in his own words in at least fourteen numbered acts of these proceedings, a live primary-voice
+    route this world''s own Registry names but does not yet use.
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
@@ -931,10 +929,10 @@ works:
     - not a new voice, the same tradition''s own words in the language Cyprian actually wrote
     them in. ANF05 itself follows Migne''s text, not Hartel''s, so this is also an independent
     critical check on that translation''s own base text, not merely a duplicate. Does not
-    cover CSEL 3 Pars III (spuria/indices) - not yet acquired. Second-witness caveat applies
-    per cic/texts/INTAKE.md: legitimate for cross-checking a specific reading against the
-    vendored English translation a world''s own source record actually cites, never primary
-    evidence for a Representative on its own.
+    cover CSEL 3 Pars III (spuria/indices) - vendored separately, see `cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.yaml`.
+    Second-witness caveat applies per cic/texts/INTAKE.md: legitimate for cross-checking a
+    specific reading against the vendored English translation a world''s own source record
+    actually cites, never primary evidence for a Representative on its own.
 
     '
   source_file: cyprian_opera-omnia-critical_hartel-csel3-pars1-2.txt
@@ -1135,10 +1133,9 @@ works:
   note: 'Augustine''s own companion for decades, and the Augustine-side counterpart to Pontius''s
     already-vendored Life of Cyprian (this same bucket, anf05) -- closes the one-sided formation-narrative
     gap this world''s own Doc_02 names, and is the underlying source, via NPNF''s own editorial
-    apparatus, for the Megalius/primate-of-Numidia identification Doc_01 discloses as resting
-    on an unvendored work until now. Bilingual edition; the English translation is primary
-    evidence in the ordinary sense, the accompanying Latin text and apparatus are useful for
-    checking a specific reading against it.
+    apparatus, for the Megalius/primate-of-Numidia identification Doc_01 discloses. Bilingual
+    edition; the English translation is primary evidence in the ordinary sense, the accompanying
+    Latin text and apparatus are useful for checking a specific reading against it.
 
     '
   source_file: possidius_vita-augustini_weiskotten1919.txt

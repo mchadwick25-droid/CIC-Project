@@ -11,10 +11,10 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      1521. Confidence held at provisional rather than assigned because the
-      file's own OCR-degraded Contents page has not yet been cross-checked
-      section-by-section against the body text to confirm exact locus
-      boundaries for each of this volume's several works - a Doc_02 task.
+      1521. Confidence held at provisional rather than assigned: the
+      file's own Contents page is OCR-degraded, and exact locus
+      boundaries for each of this volume's several works are not
+      independently confirmed against the body text.
   - work: "An Earnest Exhortation for All Christians, Warning Them Against Insurrection"
     author: luther
     locus: "see file's own Contents page (OCR-degraded, verify against section headings)"

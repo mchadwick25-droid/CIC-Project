@@ -34,8 +34,7 @@ authors_ruled:
     kind: pseudonymous
     evidence: 'div1 6 is titled "Pseudo-Clementine Literature" in the volume''s own markup.
       CCEL''s DC.Creator carries clement_rome for the volume, but the volume itself rules
-      the attribution pseudonymous in its section title and Introductory Notice; ruled explicitly
-      per the brief''s open question 4.
+      the attribution pseudonymous in its section title and Introductory Notice.
 
       '
   protevangelium-of-james:
@@ -384,7 +383,7 @@ assignments:
   - ebionite-nazoraean-current
   role: tradition
   confidence: assigned
-  note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
+  note: 'Attributed to Clement of
     Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
     sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
     — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr;
@@ -402,7 +401,7 @@ assignments:
   - syriac-edessa-nisibis
   role: transmission
   confidence: assigned
-  note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
+  note: 'Attributed to Clement of
     Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
     sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
     — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr;

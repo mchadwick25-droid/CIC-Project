@@ -420,8 +420,7 @@ works:
     tongue
   role: tradition
   confidence: assigned
-  note: 'A SYRIAC WORLD READING ITS OWN FOUNDING POET IN A SYRIAC RECENSION, where until now
-    every word of Palladius on Ephrem came through Greek and then Edwardian English. The divergences
+  note: 'A SYRIAC WORLD READING ITS OWN FOUNDING POET IN A SYRIAC RECENSION. The divergences
     from the Greek fall exactly where that matters: TWO VISIONS the Greek line does not carry
     at all (the angels finding no saint fit to hold the roll except Ephraim; the vine from
     his tongue filling the heavens while the birds eat and the clusters only grow), and a
@@ -455,22 +454,22 @@ works:
   locus: div2 6.3
   role: transmission
   confidence: assigned
-  note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
-    Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
-    sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
-    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr;
-    the Latin survives via Rufinus. BOTH placements stand, and they are not in competition:
-    ebionite-nazoraean-current because the Kerygmata Petrou source-stratum behind the Clementina
-    is the principal window onto Jewish Christianity anywhere in this corpus, and that entry
-    is `Contested - Evidentiary`, which exists for exactly a disputed record; syriac-edessa-nisibis
-    because composition in Syria c. 300-320 falls inside its window. The residual stretch,
-    stated rather than hidden: the entry''s region is Edessa and Nisibis specifically, and
-    Syrian is not the same as Edessene. Non-exclusive assignment is what lets both facts be
-    true at once. The `transmission` role - the fourth relation - marks CUSTODY: this tradition
-    preserved a work that is not its own voice. Syriac preserves part of the Clementine corpus;
-    composition was Syrian but not demonstrably Edessene, and this entry is Edessa and Nisibis.
-    The VOICE assignment is ebionite-nazoraean-current, which stays `tradition`. Custody here,
-    voice there - which is what the role exists to say.'
+  note: 'Attributed to Clement of Rome, not his, so filed under the ruled entity pseudo-clement.
+    Scholarship ties the Clementina''s sources (Kerygmata Petrou etc.) to Jewish-Christian
+    circles — hence ebionite-nazoraean-current — and its composition to 3rd/4th-century Syria
+    (partly preserved in Syriac) — hence syr; the Latin survives via Rufinus. BOTH placements
+    stand, and they are not in competition: ebionite-nazoraean-current because the Kerygmata
+    Petrou source-stratum behind the Clementina is the principal window onto Jewish Christianity
+    anywhere in this corpus, and that entry is `Contested - Evidentiary`, which exists for
+    exactly a disputed record; syriac-edessa-nisibis because composition in Syria c. 300-320
+    falls inside its window. The residual stretch, stated rather than hidden: the entry''s
+    region is Edessa and Nisibis specifically, and Syrian is not the same as Edessene. Non-exclusive
+    assignment is what lets both facts be true at once. The `transmission` role - the fourth
+    relation - marks CUSTODY: this tradition preserved a work that is not its own voice. Syriac
+    preserves part of the Clementine corpus; composition was Syrian but not demonstrably Edessene,
+    and this entry is Edessa and Nisibis. The VOICE assignment is ebionite-nazoraean-current,
+    which stays `tradition`. Custody here, voice there - which is what the role exists to
+    say.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -496,10 +495,9 @@ works:
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite; where his voice ultimately sits between the two
-    traditions is still an open question needing a ruling. greek-apologists-second-century
-    holds this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
-    the era and church-world are genuinely its.'
+    he was also later branded an Encratite. greek-apologists-second-century holds this work
+    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragments (Tatian)
   author: tatian

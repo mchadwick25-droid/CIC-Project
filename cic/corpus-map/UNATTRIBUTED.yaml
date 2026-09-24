@@ -845,8 +845,7 @@ authors:
     kind: pseudonymous
     evidence: 'div1 6 is titled "Pseudo-Clementine Literature" in the volume''s own markup.
       CCEL''s DC.Creator carries clement_rome for the volume, but the volume itself rules
-      the attribution pseudonymous in its section title and Introductory Notice; ruled explicitly
-      per the brief''s open question 4.
+      the attribution pseudonymous in its section title and Introductory Notice.
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

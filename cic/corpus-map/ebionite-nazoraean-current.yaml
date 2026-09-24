@@ -60,18 +60,17 @@ works:
   locus: div2 6.3
   role: tradition
   confidence: assigned
-  note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
-    Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
-    sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
-    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr;
-    the Latin survives via Rufinus. BOTH placements stand, and they are not in competition:
-    ebionite-nazoraean-current because the Kerygmata Petrou source-stratum behind the Clementina
-    is the principal window onto Jewish Christianity anywhere in this corpus, and that entry
-    is `Contested - Evidentiary`, which exists for exactly a disputed record; syriac-edessa-nisibis
-    because composition in Syria c. 300-320 falls inside its window. The residual stretch,
-    stated rather than hidden: the entry''s region is Edessa and Nisibis specifically, and
-    Syrian is not the same as Edessene. Non-exclusive assignment is what lets both facts be
-    true at once.'
+  note: 'Attributed to Clement of Rome, not his, so filed under the ruled entity pseudo-clement.
+    Scholarship ties the Clementina''s sources (Kerygmata Petrou etc.) to Jewish-Christian
+    circles — hence ebionite-nazoraean-current — and its composition to 3rd/4th-century Syria
+    (partly preserved in Syriac) — hence syr; the Latin survives via Rufinus. BOTH placements
+    stand, and they are not in competition: ebionite-nazoraean-current because the Kerygmata
+    Petrou source-stratum behind the Clementina is the principal window onto Jewish Christianity
+    anywhere in this corpus, and that entry is `Contested - Evidentiary`, which exists for
+    exactly a disputed record; syriac-edessa-nisibis because composition in Syria c. 300-320
+    falls inside its window. The residual stretch, stated rather than hidden: the entry''s
+    region is Edessa and Nisibis specifically, and Syrian is not the same as Edessene. Non-exclusive
+    assignment is what lets both facts be true at once.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
