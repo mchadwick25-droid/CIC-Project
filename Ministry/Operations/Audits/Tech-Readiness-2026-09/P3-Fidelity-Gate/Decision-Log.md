@@ -992,3 +992,59 @@ the same commit. Both `engine.m2.checks.staleness_sweep()` and
 `check_paths.py`, run on a clean `git worktree` of this branch's head:
 0 new unresolved path citations; 769 total; 769 accepted in baseline;
 0 retired paths present.
+
+**Entry 23 — 2026-09-24 (R43 Group A, world 4 of 4: witt — 3
+pre-existing renderings re-authored, completing Group A).** don (PR
+#469) is done and merged. All 3 of witt's findings were read against
+the record's own `text` field first, checked for genuine vs. noise by
+re-grading the unmodified rendering 3x before touching anything (per
+the lesson that a mid-range split like 2/3 "translation" still needs a
+closer read, not an automatic pass): `article-ii-of-original-sin`
+graded 0/3, `nothing-that-varies` graded 0/3, and `article-ix-of-
+baptism` graded 2/3 but was still fixed rather than accepted, since the
+one "mixed" run named a real, specific drop (the restrictive "being
+offered to God through Baptism" clause) rather than reading as noise.
+
+All 3 were genuine. `article-ii-of-original-sin` had replaced
+"concupiscence" with an interpretive gloss ("desires turned the wrong
+way") rather than a direct term-for-term translation, and had lost "to
+obscure the glory of Christ's merit and benefits" as the Pelagians' own
+stated motive, substituting a generic hypothetical ("a person could
+obscure Christ's own merit") instead. `article-ix-of-baptism` had
+dropped "being offered to God through Baptism" as the condition tied to
+the children being baptized, and had added an invented "We do not
+agree" with no source anchor. `nothing-that-varies` had split "against
+Scripture or the Church Catholic" into two disconnected claims, dropped
+"on our part," weakened "most diligent care" to "the greatest care,"
+lost the purpose clause "in order that it might be understood," and
+added an invented "in fact."
+
+**No honest exceptions, no "grader disagreement" entries, no second
+revision round needed.** All three cleared 3/3 "translation" on the
+first rewrite.
+
+**Gate results.** `gate_readability` (FK ceiling 10): all 3 clean (5.4,
+5.5, 9.3). Full `run_all()` (all M1 gates) on witt: 0 findings.
+`pytest engine/m1/tests/ engine/m2/tests/`: 191 passed, no
+regressions. No field other than `modern_rendering` touched on any of
+the 3 records, per R33.
+
+**Package pin rebuilt from the start; no site JSON to rebuild.**
+Rebuilt and re-pinned once against this PR's own commit
+`9bd503f2bdb3e26872dd24303f90194eab50fb54`. Old
+`packages/witt/2026-09-23T08-14-29Z`
+(`sha256:ba693f3c0d7d16c35a30462adedbeba24494c1fb56a1dd9860c914233a98b088`)
+→ new `packages/witt/2026-09-24T02-18-24Z`
+(`sha256:f0ebc05d889ff9569e57e3d74e3f26b4fe30a8feb3dd46e9e16707258ba69f08`).
+witt has no `world_front` record yet and is confirmed absent from
+`engine.m2.site_cli staleness-check`'s own world list - not a gap
+introduced by this fix, so there is no second artifact to rebuild here.
+`engine.m2.checks.staleness_sweep()` reports clean fleet-wide;
+`engine.m2.site_cli staleness-check` reports `pass: true` over its own
+(witt-less) world list.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+clean, matching the baseline exactly.
+
+**This completes R43 Group A** (cappadocian, rzg, don, witt). R43
+Group B (desert, hal, pahc, syr, alx re-read pass) starts next.
