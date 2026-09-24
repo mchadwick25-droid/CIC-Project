@@ -1666,46 +1666,71 @@ brief); whether the 18 are re-authored, and whether a source's own
 verbless form (inventory, acclamation) is ever an accepted exception,
 is not this thread's call.
 
-**Entry 30 — 2026-09-24 (process doc V1.7: rendering gates as birth
-conditions).** Build thread C, item 3 of the reviewer thread's brief.
-Numbered after Entry 29 (PR #481, same thread), which merges first.
-Docs only; no record, code or participant-facing text touched.
+**Entry 30 — 2026-09-24 (process doc: rendering gates as authoring
+birth conditions).** Build thread C, item 3 of the reviewer thread's
+brief; PR #483. Docs only; no record, code or participant-facing text
+touched. Numbered 30 after Entry 29 (PR #481); Entry 31 (PR #480)
+landed on main first and left 30 free.
 
-`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`
-(heading V1.6 → V1.7; filename unchanged, since it is cited across the
-tree), Phase B, "The register bar is a birth condition":
-- **Fragment rule** (V1.6 bullet, kept verbatim) gains its practice
-  from R43: the builder reads every sentence for its own subject and
-  verb before the record leaves authoring, because neither the grader
-  nor FK sees a fragment (Entries 20, 25, 26); a source's own ellipsis
-  is finished with the verb its structure implies, not carried over
-  (Mark's `nisibene-death-trembled` ruling, Entry 19); a readability
-  conflict is solved by splitting differently or trimming, never by
-  reopening a fragment (Entry 26).
-- **Register rule**, new bullet: everyday modern English; the original
-  word stays only where it survives plainly (cappadocian's "Time will
-  fail me", Entry 20); otherwise translate to the modern sense. Written
-  as a principle, with "Wherefore"/"disjoin" (rzg, Entry 21), "Ever
-  let" (hal, Entry 25) and "quickening" (pahc, Entry 26, the round-2
-  human read, which overrode the round-1 decision to keep it) as worked
-  cases, explicitly not a word list - the doc's own register-bar
-  section says no banned-word lists exist in this process.
-- **Rendering-fidelity gate**, new bullet replacing the "not yet
-  registered ... once it lands" placeholder: R34's standard; the
-  builder runs the grader at authoring, reads its reasoning against
-  `text`, and revises to two consecutive "translation" verdicts (the
-  reviewer's item-4 verdict, `rendering_fidelity.py` docstring); the
-  grader stays report-only and the fragment and register rules win
-  where it disagrees (Entry 26). A persistent grader objection after a
-  full human read is recorded in the world's `Open_Gaps_Tracking.md`
-  (CLAUDE.md's standing rule for review outcomes) - flagged for the
-  reviewer as the one line here that is not already a recorded R43
-  practice; R43 recorded these in this log and the PR instead.
-- **Sentence-completeness pointer** (reviewer's round-1 hold on PR
-  #483, added once Entry 29's PR #481 merged): the fragment rule names
-  `engine/m1/sentence_completeness.py` as a report-only aid to the
-  builder's read, never a replacement for it (Entry 29: 60% precision,
-  recall unmeasured).
+**Where it lands.** `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`,
+Phase B, "The register bar is a birth condition". The doc is a live
+surface under CLAUDE.md "Keep the live/canonical surfaces clean", so
+each clause there is the rule only - no ruling numbers, dates,
+attributions or log pointers (managing thread's condition, 2026-09-24);
+the heading is left as it was. Provenance is here:
+- **Fragment rule practice** (from the R43 human reads): the builder
+  reads every sentence for its own subject and verb before the record
+  leaves authoring, because neither the grader nor FK sees a fragment
+  (Entries 20, 25, 26); a readability conflict is solved by splitting
+  differently or trimming, never by reopening a fragment (Entry 26).
+  The fragment rule names `engine/m1/sentence_completeness.py` (Entry
+  29) as a report-only aid that supports the read and never replaces
+  it, and says it still flags the source-spoken forms R44 accepts.
+- **R44 (source-spoken forms)** - Mark's ruling, 2026-09-24 (~15:00Z),
+  answering the question Entry 29 raised. Mark chose this option in a
+  select box, so it is recorded as his ruling of that option: *"Interjections
+  and answers stay; lists become one sentence; true ellipses get
+  finished."* Meaning: an acclamation, interjection or elliptical answer
+  the source itself speaks stays as the source speaks it; an inventory
+  is rendered as one list sentence; a source sentence cut short
+  mid-thought is finished with the verb its structure implies (as
+  `syr.quote.nisibene-death-trembled`, Entry 19); a split made during
+  rendering that leaves a clause without subject and verb is still a
+  fragment. Relayed by the reviewer and managing threads; confirmed by
+  Mark directly in thread C's session, 2026-09-24. Applied to Entry 29's
+  18 real fragments: "Alas!", "Yes!", "Praise to God.", "Hail,
+  Bethlehem, ..." and "Answer: No." (x2) stay; the 8-sentence
+  `alx.quote.couches-and-trenchers-and-bowls` inventory becomes one list
+  sentence; the rest are reread against the clause. Re-authoring the
+  affected records is a separate dispatch, not this PR's.
+- **Register rule**, new: everyday modern English; the original word
+  stays only where it survives plainly (cappadocian's "Time will fail
+  me", Entry 20); otherwise translate to the modern sense. Written as a
+  principle, with "Wherefore"/"disjoin" (rzg, Entry 21), "Ever let"
+  (hal, Entry 25) and "quickening" (pahc, Entry 26, the round-2 human
+  read, which overrode round 1's decision to keep it) as worked cases,
+  explicitly not a word list - the doc's register-bar section says no
+  banned-word lists exist in this process.
+- **Rendering-fidelity gate**, replacing the "not yet registered ...
+  once it lands" placeholder: R34's standard (translation, not
+  summation); the builder runs the grader at authoring, reads its
+  reasoning against `text`, and revises to two consecutive
+  "translation" verdicts (the reviewer's item-4 verdict, recorded in
+  `rendering_fidelity.py`'s docstring); graders stay report-only and the
+  fragment and register rules win where they disagree (Entry 26). A
+  persistent grader objection after a full human read is recorded in
+  the world's `Open_Gaps_Tracking.md` (CLAUDE.md's standing rule for
+  review outcomes; the reviewer kept this line in round 1).
+- **R45 (two graders at authoring)** - Mark's ruling, 2026-09-24
+  (~15:50Z), chosen in a select box and recorded as his ruling of that
+  option: *"Yes, two graders, either flag counts."* Meaning: Haiku 4.5
+  and Sonnet 4.6 both run at authoring; a flag from either counts; the
+  two-consecutive-runs bar applies to both; Sonnet 5 replaces 4.6 once
+  the account can invoke it and the grader study is re-run. Evidence:
+  Entry 31 / PR #480's memo (Sonnet 4.6 93% same-flag stability against
+  Haiku's 70%; both together caught 46 of 52 fixed defects; under two
+  cents per record). Relayed by the reviewer and managing threads;
+  confirmed by Mark directly in thread C's session, 2026-09-24.
 
 **Entry 31 — 2026-09-24 (model assignment: rendering-grader study;
 voice study blocked at the AWS account).** Thread E, PR #480. Memo:
