@@ -103,6 +103,29 @@ assignments:
     a real body inside this volume; measured, they do not. The substance is in npnf105, which
     is where the anti-Pelagian treatises are and where pelagianism draws 15 works from. Recorded
     because an absence someone expected is worth as much as a presence.'
+- work: The Confessions
+  author: augustine
+  locus: div1 6 — The Confessions, Book IX ch. 7 ONLY
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: 'Deliberately narrow, per this world''s own source record (ijc.source.augustine-confessions):
+    only Book 9 ch. 7 is licensed - Augustine''s eyewitness account, as a young Milan rhetoric
+    professor, of the 386 basilica standoff: the congregation''s vigil, the introduction of
+    antiphonal hymn-singing "after the manner of the Eastern Church," and the finding of Gervasius
+    and Protasius. Verified directly against the file: "after the manner of the Eastern Church,
+    hymns and psalms should be sung" (line 13771), matching this world''s own quote record
+    (ijc.quote.hymns-and-psalms-should-be-sung) verbatim.
+
+    `role: context`, not `tradition`, per that source record''s own explicit Boundary Check ruling
+    (legacy Registry rows 8/26): "Augustine''s formation, theology, and the rest of the Confessions
+    belong to the Latin Pastoral-Congregational world... do not extend this license." This one
+    passage is Native to ijc only as independent eyewitness corroboration of Ambrose''s own conduct
+    in the standoff - "the only such corroboration this world''s record has for any of Ambrose''s
+    own claims about his own confrontations" - not as a claim on the rest of the work.
+
+    '
 - author: augustine
   work: 'Letters of St. Augustin: the general correspondence'
   atlas_ids:
