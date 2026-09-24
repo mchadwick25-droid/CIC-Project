@@ -34,8 +34,8 @@ modern_rendering: >-
   relatives, some of whom I have succeeded. Seven of my relatives were
   bishops, and I am the eighth, and my relatives always observed the day
   when the people put away the leaven. I myself, brothers, am
-  sixty-five years old in the Lord. I have fallen in with the brethren
-  in all parts of the world, and have read through all Holy Scripture. I
+  sixty-five years old in the Lord. I have met with the brothers in all
+  parts of the world, and have read through all Holy Scripture. I
   am not frightened by the things which are said to terrify us. For
   those who are greater than I have said: 'We ought to obey God rather
   than men.'

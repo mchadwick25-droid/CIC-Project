@@ -42,11 +42,11 @@ modern_rendering: >-
   the deeds Christ did after his baptism, and especially his miracles,
   gave indication and assurance to the world of the Deity hidden in his
   flesh. For, being at once both God and perfect man, he gave us sure
-  indications of his two natures. Of his Deity, by his miracles during
-  the three years after his baptism. Of his humanity, during the thirty
-  similar years before his baptism. In those years, by reason of his
-  low estate in the flesh, he concealed the signs of his Deity, though
-  he was true God existing before all ages.
+  indications of his two natures. He showed his Deity by his miracles
+  in the three years after his baptism. He showed his humanity in the
+  thirty similar years before his baptism. In those years, because of
+  his lowly condition in the flesh, he hid the signs of his Deity,
+  though he was true God from before all ages.
 speaker_or_author: "Melito, bishop of Sardis (attributed - see this record's own confidence note on
   how securely)"
 license: verbatim

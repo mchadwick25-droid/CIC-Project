@@ -23,8 +23,8 @@ modern_rendering: >-
   David, and also from Mary. He was truly born, and he truly ate and drank. He was truly
   persecuted under Pontius Pilate. He was truly crucified, and he truly died, in sight of
   beings in heaven, on earth, and under the earth. He was also truly raised from the dead,
-  his Father quickening him. In the same way, his Father will so raise up us who believe in
-  him, by Christ Jesus, apart from whom we do not possess the true life.
+  his Father bringing him back to life. In the same way, his Father will raise us up too, we
+  who believe in him, by Christ Jesus, apart from whom we do not have true life.
 speaker_or_author: pahc.figure.ignatius
 license: verbatim
 modern_lens_note: >
