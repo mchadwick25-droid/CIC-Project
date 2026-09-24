@@ -76,20 +76,6 @@ is sin, and who, to obscure the glory of Christ's merit and benefits, / argue th
 before God by his own strength and reason."). The `text` field quotes the condemnation clause to the
 sentence's own actual end. No word added, dropped, substituted, or reordered within the quoted span.
 
-CORRECTION: this record's `text` field
-previously closed the condemnation clause at "is sin," with no ellipsis and a substituted terminal
-period, silently dropping the sentence's own continuation into the second Pelagian error (denying that
-Christ's own merit, not human strength and reason, justifies) - the more load-bearing half for a
-Lutheran confession, and this world's own central conviction (faith alone, apart from works). The prior
-body note characterized the cut clause as "a separate charge... not needed to state the doctrine itself"
-and disclosed it in full - this was not the rzg-class defect (no invented composite, no splice across
-distant loci) - but a silently re-punctuated boundary in a participant-facing `text` field is a defect
-under this project's own "every quote is re-verified verbatim" rule even when disclosed elsewhere, per
-CLAUDE.md's own explicit instruction not to resolve this by strengthening the body note. Fixed by
-extending the quotation to the sentence's actual end, in `text` and `modern_rendering` both, rather than
-adding an ellipsis - the continuation is short, directly bears on this world's own faith-alone conviction,
-and a closed sentence reads more cleanly to a participant than a mid-sentence ellipsis would.
-
 This is the fuller span behind witt.term.sin's own informational sense, which already carries "born with
 sin, that is, without the fear of God, without trust in God, and with concupiscence" from this same
 article (F1-I) but whose own divergence_note discloses "the Apology's own Article II... remains unread by
@@ -99,9 +85,3 @@ without editing witt.term.sin. Ground for witt.dw.born-in-sin-fed-at-the-table (
 alongside faith alone and the bread and cup) and, via the baptism/new-birth clause in the same sentence,
 for witt.dw.a-death-begun-that-a-child-receives (F4-T: infant baptism and being "born again"). Reciprocal
 associated-with declared on both.
-
-CORRECTION: speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
-of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
-field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
-participant. Substance unchanged, only the internal record-id reference removed.

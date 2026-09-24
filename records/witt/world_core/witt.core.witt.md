@@ -24,8 +24,8 @@ confidence:
     1543 treatise's own content characterization -- that the treatise recommends specific measures against
     the Jews is Widely Accepted but explicitly NOT Documented, resting on a tertiary source (a Wikipedia
     article, per witt_Doc_02_Source_Ecology.md SS12.3) rather than a read primary or secondary text, and is
-    held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked)
-    -- go-live adversarial review M-3/M-4. .thinness, .cautions, and .thin_topics below state only that the
+    held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked).
+    .thinness, .cautions, and .thin_topics below state only that the
     treatise is real and that its argument is not the Representative's to voice, neither of which depends
     on or restates the tertiary characterization; the fuller scholarly contest over the treatise's own later
     historical effect is carried in witt.contested.1543-treatise-later-effect, not repeated here.
