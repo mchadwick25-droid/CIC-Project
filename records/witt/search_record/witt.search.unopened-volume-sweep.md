@@ -62,28 +62,25 @@ note: "NOTHING NEW FOUND SITTING UNOPENED OR UNROWED. cic/texts/REGISTRY.yaml
   external_ids.witt_source_registry_row field; the 89 values recovered are
   1-32, 34-54, 56, 59-93 -- exactly the Registry's 89 live Native rows, with
   no duplicate and no row skipped inside that set. The six absent numbers
-  (33, 55, 57, 58, 94, 95) are exactly the Registry's own six Excluded rows
-  (R33 Out-of-Boundary; R55, R57, R58, R94 Named Comparandum; R95
-  superseded-Excluded, correctly carrying no live record of its own since
-  R55 now covers its material directly). No Native row lacks a record; no
+  (33, 55, 57, 58, 94, 95) are exactly the Registry's own six Excluded rows.
+  No Native row lacks a record; no
   Excluded row has one it should not. This is a clean, exhaustive 1:1
   mapping, not a sampled check.
   CANDIDATES CHECKED AND CLEARED, not waved through on a keyword match
   alone: (1) Melanchthon's Loci Communes (1521) is quoted only as an
-  incidental phrase inside R32's own Verification Note ('Lauterbach's notes
+  incidental phrase inside Verification Note ('Lauterbach's notes
   collected into sure and certain Loci Communes,' the Table Talk's own
   collection method as Aurifaber describes it) -- not Melanchthon's 1521
   systematic theology itself, which is not vendored and has no row. This is
   a real absence, but it is a wider-literature gap (Step 3 below), not an
   unopened file sitting in cic/texts/: no vendored Loci Communes text
   exists in this project's library for a sweep to find. (2) The Weimarer
-  Ausgabe (WA) -- named only inside R63's own Verification Note as
+  Ausgabe (WA) -- named only inside Verification Note as
   editorial background ('Weimar/Erlangen/Berlin/Walch/Clemen,' the German
   critical-edition lineage the Philadelphia editors describe themselves
   working from) -- not a text this world's own documents draw claims from,
   correctly unrowed. (3) The four corpus-map gaps Doc_02 SS0 and SS16 item 1
-  already name (v1 Prefaces 1539/1545 = R1; v2 Doctrines of Men = R16; v3
-  Magnificat = R18; v3's three Emser writings = R21-R23) -- checked against
+  already name -- checked against
   cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml directly:
   all four are genuinely absent from the corpus-map's own work list even
   though the underlying vendored files hold them and the Registry rows them
@@ -99,7 +96,7 @@ note: "NOTHING NEW FOUND SITTING UNOPENED OR UNROWED. cic/texts/REGISTRY.yaml
   already-rowed row's own apparatus, or a named, already-disclosed absence
   outside this project's vendored library entirely. This is consistent
   with, not surprising given, witt_Source_Registry.md's own five-revision
-  review history (Round 1 through the Round 5 ZellFinalCheck) plus an
+  review history plus an
   independent post-approval script re-verification of all 95 rows at 11
   columns -- a Registry put through more successive independent rounds than
   either the Cappadocian or Gallic precedent before this sweep began, so a
@@ -118,7 +115,7 @@ one hunting specifically for missing, mistiered, or mishandled sources
 across five successive revisions, plus a script-run independent
 re-verification of the finished table's own schema and statistics. By the
 time this sweep started, the obvious misses -- and several non-obvious ones,
-including a undisclosed evidentiary-basis upgrade caught only at Round 5 --
+including a undisclosed evidentiary-basis upgrade --
 were already found and fixed by that process, not by this one. What a
 discovery sweep run after that kind of scrutiny should expect to find is
 not a pile of overlooked volumes but, at most, a small residue. This pass
@@ -163,28 +160,28 @@ them rather than re-deriving a separate list:
   is overwhelmingly the founder's own argued doctrine (~90% of the words
   across the ten files).
 - No woman's own text is vendored (Doc_02 SS12.1): the library holds no
-  primary source written by a woman. Grumbach's 1523 letter (R54) is Native
+  primary source written by a woman. Grumbach's 1523 letter is Native
   by a session-verified naming claim but the primary edition (Matheson
-  1995) is itself unread; Zell's corpus (R55) is Excluded by a disclosed
+  1995) is itself unread; Zell's corpus is Excluded by a disclosed
   conservative default, not a demonstrated finding, and remains real,
   named, and unvendored.
 - No ordinary parish record is vendored (Doc_02 SS12.2, SS7): the 1527-28
   Saxon visitation protocols exist and were written by this world's own
-  movement, but sit untranslated and unvendored (R51, R52) -- this world's
+  movement, but sit untranslated and unvendored -- this world's
   Representative has not read them, and this build cannot construct the
   parish's own experience of being inspected from anything currently in
   hand.
 - The two texts most consequential to this world's ethical record -- *On
-  the Jews and Their Lies* (1543, R49) and *Against the Murderous, Thieving
-  Hordes of Peasants* (1525, R48) -- are both genuinely unvendored (rights
+  the Jews and Their Lies* (1543) and *Against the Murderous, Thieving
+  Hordes of Peasants* (1525) -- are both genuinely unvendored (rights
   and hosting barriers, G1 Part B, not neglect), characterized in this
-  build only from tertiary description (R83), and explicitly barred by R94
+  build only from tertiary description, and explicitly barred
   from ever being reached for as if in hand.
 - The Reformed and Roman Catholic contemporaries appear only as this
-  world's own texts represent them (the "(context)" rows, R36, R39-R43),
-  never in their own voice; the Marburg Articles (R56), signed by this
+  world's own texts represent them (the "(context)" rows),
+  never in their own voice; the Marburg Articles, signed by this
   world's own leaders, remain a located but unread lead.
-- A period-specific German/Latin lexicon is not vendored (R87); Doc_03's
+- A period-specific German/Latin lexicon is not vendored; Doc_03's
   term work draws only on the translators' own glossing footnotes, not a
   period reference work.
 

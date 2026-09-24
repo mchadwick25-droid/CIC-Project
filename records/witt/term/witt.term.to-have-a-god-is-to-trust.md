@@ -65,6 +65,6 @@ senses:
 quick_meaning: A god is whatever the heart trusts for good. To have a god is simply to trust.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.4 ('to have a god is to trust', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [AS][DR][RT]. Author Gravity: Luther-only, cross-register -- confirmed. Source Registry rows cited: R25, R26, R31. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.4 ('to have a god is to trust', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [AS][DR][RT]. Author Gravity: Luther-only, cross-register -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

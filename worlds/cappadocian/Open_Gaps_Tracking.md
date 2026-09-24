@@ -410,7 +410,7 @@ against the full gate battery before the next:
 This file was assembled from `CAPPADOCIAN_BUILD_LEDGER.md` (52 sections), the Source
 Registry and its four review-round sets, `cappadocian_Unused_Source_Verification_2026-09-09.md`,
 `cappadocian_Representative_Identity_Options.md`, the two G3 Permanent Prompt review
-rounds, `records/worlds/cappadocian.yaml`, `records/WORLDS_REGISTRY_LOG.md`'s own
+rounds, `records/worlds/cappadocian.yaml`, `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own
 Cappadocian section, and the fleet-level `CiC_GoLive_Pipeline_Status.md` and
 `CiC_System_Health_Tracking.md`. It does not re-verify every review round's own findings
 against the underlying primary sources a second time — where the ledger itself already

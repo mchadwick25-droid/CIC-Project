@@ -82,8 +82,3 @@ answer different canon questions: this one defines what a church IS, in our own 
 states that OUR OWN teaching does not depart from that universal Church or from Scripture. Reciprocal
 associated-with declared on witt.dw.one-holy-church-forever.
 
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("the 1530 Diet of Augsburg") -- caught by
-engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this field as one both the
-Level-3 citation card and the compiled prompt's quote index print verbatim to a participant. Substance
-unchanged, only the internal record-id reference removed.

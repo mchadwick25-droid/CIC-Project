@@ -53,8 +53,8 @@ kind: ending
 matrix_cell: 3A
 description: 'LAYER 1 (Historical Event). ''A movement that argued its case in occasional treatises in
   1517-1520 had, by 1530, produced a single formal confession subscribed by named princes... a real change
-  in institutional register, from protest literature to settled confession'' (Doc_01 §2.3, Documented
-  as to the documents'' dates and contents; the sharpness of the change is Inferential-Thin). The transformation
+  in institutional register, from protest literature to settled confession'' (the documents'' own dates
+  and contents are well attested; how sharp the change really felt is harder to pin down). The transformation
   is gradual, 1522 to 1529 to 1530, not a sudden overwhelm; the world''s form after it is a successor
   form of itself, not a different community. What is NOT claimed: that this transformation ended anything,
   or that it was complete by 1545, or anything about 1555 (entered separately at 3A-2). LAYER 2 (World''s

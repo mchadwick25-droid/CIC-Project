@@ -13,8 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Documented: a directly attested, dated, signed institutional document - the strongest
     evidentiary class this library holds for any single episode. The preface and the nine signatures are
-    read and verified directly, not reconstructed from a later account (Doc_09 witt-S09; Source Registry
-    R37).'
+    read and verified directly, not reconstructed from a later account.'
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: The Preface, addressed to "Most Invincible Emperor, Caesar Augustus, Most Clement Lord," and
@@ -81,7 +80,7 @@ modern_contrast: 'A modern reader may picture a reform movement''s central confe
 ---
 Converted at B-4 from Doc_09 witt-S09 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/melanchthon_augsburg-confession_anon-
-pg275.txt, lines 47-53 (Preface opening) and 1555-1568 (signatures). Source Registry R37 (Native,
+pg275.txt, lines 47-53 (Preface opening) and 1555-1568 (signatures). Source Registry (Native,
 Primary).
 
 Register note: close-third-person throughout, deliberately institutional rather than personalizing, per

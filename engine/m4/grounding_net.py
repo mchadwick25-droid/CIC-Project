@@ -1,6 +1,6 @@
 """Live-turn grounding for CITATION-TAGGED output (Live-Generation Design
-§6, all four forks signed off 2026-08-22 - see engine/m4/LIVE-GENERATION-
-DESIGN.md §9.5). Promoted from the design's own companion prototype
+§6 - see engine/m4/LIVE-GENERATION-DESIGN.md §9.5, all four forks signed
+off). Promoted from the design's own companion prototype
 (grounding_experimental.py, claude/cic-design-assignment-ecoxh2), which
 proved this exact logic against the real alx package (§6.2's run log) -
 ported unchanged except this docstring; the calibration history below is
@@ -76,10 +76,11 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # tag strip_tags removes can never disagree about what counts as one - so
 # an opener that never closed is never matched by either, and unlike
 # _ANY_TAG (which needs no closing bracket to be well-formed, just to be
-# present) there is no complete pattern here to widen to catch it. Found
-# 2026-09-19, rebuilding a Table transcript for transparency markup: one
-# turn's raw text ended inside an unclosed "[[don.dw.room-for-diss", which
-# strip_tags' own re.sub below left untouched, verbatim, brackets and all.
+# present) there is no complete pattern here to widen to catch it. A real
+# generation call cut off exactly this way once, while rebuilding a Table
+# transcript for transparency markup: one turn's raw text ended inside an
+# unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
+# left untouched, verbatim, brackets and all.
 _DANGLING_TAG = re.compile(r"\[\[[a-z0-9_.-]*\Z")
 
 
@@ -125,11 +126,11 @@ def strip_tags(text: str) -> str:
 # the question, the net withheld the echo, and the `---` under it survived
 # glued to the next sentence.
 #
-# Residual [[...]] was observed exactly once before this comment was
-# updated (2026-09-19, an unclosed [[don.dw.room-for-diss left by a
-# generation call cut off mid-tag - see _DANGLING_TAG and
-# _drop_truncated_tail above, which now back strip_tags off past it). What
-# is still true, and still here because the citation contract makes an
+# Residual [[...]] was observed exactly once, an unclosed
+# [[don.dw.room-for-diss left by a generation call cut off mid-tag - see
+# _DANGLING_TAG and _drop_truncated_tail above, which now back strip_tags
+# off past it. What is still true, and still here because the citation
+# contract makes an
 # explicit promise - "the tags themselves are never shown to the
 # participant" - that strip_tags only keeps for tags the model spells
 # correctly: a COMPLETE but malformed tag, spelled outside strip_tags'
@@ -228,7 +229,7 @@ def _thin_topic_hits(sentence_lower: str, thin_topics: list[dict] | None) -> lis
     return hits
 
 
-# M-1 (witt go-live adversarial review, 2026-09-20). The scaffold exemption
+# The scaffold exemption
 # below used to exempt an entire sentence the moment ANY SCAFFOLD_MARKERS
 # phrase appeared anywhere in it - so "...our founder wrote against the
 # peasants' rising, and that writing is part of our own history EVEN WHEN
@@ -422,10 +423,9 @@ def check_turn(
     return {"sentences": results, "substantive_survives": substantive_survives, "truncated": truncated}
 
 
-# R27-A item 1 (Decision-Log.md Entry 55, 2026-09-23): blank-line blocks -
-# the exact regex engine.m4.live_uncited_claims_battery's own
-# _PARAGRAPH_SPLIT already proved live across two battery runs (#419,
-# #420), moved here per item 2's own build order. A paragraph is a
+# Blank-line blocks - the exact regex
+# engine.m4.live_uncited_claims_battery's own _PARAGRAPH_SPLIT already
+# proved live across two battery runs (#419, #420). A paragraph is a
 # sequence of the same sentences parse_tagged already produces, grouped by
 # which blank-line block they fell in - nothing about how a sentence
 # itself is found or tagged changes.
@@ -449,10 +449,10 @@ def check_turn_with_paragraph_coverage(
     list, same substantive_survives/truncated meaning - a caller reading
     only this result's own "sentences"/"substantive_survives"/"truncated"
     keys cannot tell it apart from check_turn's), PLUS an additive,
-    report-only "paragraph_coverage" layer (R27-A item 2, Decision-Log
-    Entry 55). Nothing here changes what apply_net does with a turn -
-    apply_net calls check_turn directly, never this function; this exists
-    for engine.m4.uncited_claims's own paragraph-level detection to read.
+    report-only "paragraph_coverage" layer. Nothing here changes what
+    apply_net does with a turn - apply_net calls check_turn directly,
+    never this function; this exists for engine.m4.uncited_claims's own
+    paragraph-level detection to read.
 
     paragraph_coverage is a list, one entry per blank-line paragraph
     (split_into_paragraphs), each:
@@ -468,9 +468,8 @@ def check_turn_with_paragraph_coverage(
                                this is a one-sentence paragraph carrying no
                                tag of its own, in which case it is the
                                immediately PRECEDING paragraph's own
-                               cited_record_ids instead (Entry 55's own
-                               recommendation - coverage only; see
-                               inherited_from_preceding below)
+                               cited_record_ids instead (coverage only;
+                               see inherited_from_preceding below)
       wholly_uncited         - true when cited_record_ids is empty - this
                                paragraph carries no citation anywhere, not
                                even by inheritance
