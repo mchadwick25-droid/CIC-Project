@@ -17,9 +17,9 @@ query: "Philocalia of Origen, George Lewis English translation (T&T Clark, 1911)
 channel: "web search (WebSearch), 2026-08-20; verified on archive.org and tertullian.org"
 result: found
 found_sources: [alx.source.origen-philocalia]
-note: "2026-08-21 update: supplied by Mark (commit 311b132) as cic/texts/origen_philocalia_lewis1911.txt, from the same Pearse transcription this search located; rights verified from the file's own header and the transcriber's footer declaration. Source record created; the De Principiis relation this note asked for is now in place (reciprocal associated-with). Original finding: Lewis 1911, scan https://archive.org/details/philocaliaoforig00orig - the Greek anthology of Origen compiled by Basil and Gregory Nazianzen, preserving key passages (incl. De Principiis IV on the senses of Scripture) unsoftened by Rufinus."
+note: "Supplied as cic/texts/origen_philocalia_lewis1911.txt, from the same Pearse transcription this search located; rights verified from the file's own header and the transcriber's footer declaration. Source record created; the De Principiis relation this note asked for is now in place (reciprocal associated-with). Original finding: Lewis 1911, scan https://archive.org/details/philocaliaoforig00orig - the Greek anthology of Origen compiled by Basil and Gregory Nazianzen, preserving key passages (incl. De Principiis IV on the senses of Scripture) unsoftened by Rufinus."
 ---
-Search run 2026-08-20. Valuable precisely because of Origen's transmission
+Valuable precisely because of Origen's transmission
 problem: where a passage exists both in Rufinus's Latin (via ANF 4) and in
 the Philocalia's Greek, the Greek-derived text is the stronger witness. The
 source record for De Principiis should carry a relation to this one when both

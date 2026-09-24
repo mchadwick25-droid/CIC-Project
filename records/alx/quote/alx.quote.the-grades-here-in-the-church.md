@@ -41,5 +41,5 @@ relations:
 - type: associated-with
   target: alx.term.episkopos
 ---
-Opened 2026-08-27 for F3-T, served by alx.term.episkopos alone, which cites this exact section
+Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.

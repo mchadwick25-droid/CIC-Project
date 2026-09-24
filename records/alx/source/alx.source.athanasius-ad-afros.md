@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "created 2026-09-08, records/alx audit: located to correct a broken citation in alx.dw.was-jesus-god.md, which cited the triadic baptismal formula to alx.source.athanasius-de-decretis and alx.source.origen-comm-john, neither of which contains it; the actual vendored support is this work, previously without a source record in this registry"
 external_ids: {ccel_volume: "npnf204", thml_div: "xxiv"}
 ---
-Rights verified 2026-09-08, same DC.Rights header (Public Domain) already
+Rights verified, same DC.Rights header (Public Domain) already
 established for this volume by the other npnf204 source records (e.g.
 alx.source.athanasius-de-decretis, alx.source.athanasius-festal-letters).
 Work presence verified: div1 "Synodal Letter to the Bishops of Africa. (Ad

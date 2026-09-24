@@ -49,22 +49,6 @@ The F1-T cell (original sin / bread-and-cup / faith-alone questions
 share the cell; eucharistia's senses carry the second, and the
 faith-works question is answered inside the faith-to-gnosis material).
 
-REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
+REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-CORRECTED 2026-09-08, records/alx audit: this file had two top-level
-`retrieval:` keys - an early one (tier: 1, empty triggers) and a later one
-(tier: 2, three retrieve_when triggers about infant baptism). YAML
-last-wins, so the file was silently shipping as tier-2 retrieval-gated
-instead of the intended tier-1 always-available chunk, unlike every other
-doctrinal_witness file in this registry (all confirmed tier 1). Merged to
-one `retrieval:` block, tier 1, matching sibling DW files' empty-array
-pattern. The dropped tier-2 triggers, kept here for documentation only
-since no other tier-1 DW file carries live retrieve_when entries: "participant
-asks whether you baptised babies, infants or children, or only adults";
-"participant asks who could be baptised and at what age"; "participant
-asks whether you baptise or baptize babies, infants and children, or only
-adults" - all already answered inline by this cell's own text ("Infant
-baptism they received as custom, and they discussed its reason rather than
-defining it").
+BAR SWEEP: text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "located in the vendored CCEL corpus during manifest revision (2026-08-20), correcting the manifest's own first pass, which had wrongly treated the 1919 Loeb as the only expected-PD English; rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "anf02", thml_div: "vi.v"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: div2 title "Who is the Rich Man that shall
 be saved?" at file line 56126.
 

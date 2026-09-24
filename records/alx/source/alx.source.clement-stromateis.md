@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.clement-anf2); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "anf02", thml_div: "vi.iv"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: DC.Title "The Stromata, or Miscellanies" at
 file line 27244; the philosophy-as-schoolmaster passage (Strom. I.5)
 confirmed at lines 27890-27894.

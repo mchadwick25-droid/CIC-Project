@@ -328,3 +328,15 @@ NO disposition, and this entry remains OPEN for the project lead** — clearing 
 disposing of the finding.
 
 ### OG-7. **Four fragment/verbless `modern_rendering` sentences (12 flagged sentences total), found by `engine/m1/sentence_completeness.py`'s report-only sweep — current as of `engine/m1/reports/sentence-completeness-report-2026-09-24.json`, not yet human-reviewed.** Report-only check (not in `gates.GATES`); its own docstring requires a human read before treating any of these as a real defect — `alx.quote.couches-and-trenchers-and-bowls`'s eight flagged sentences in particular are an itemized inventory list ("Silver couches." / "Pans and vinegar-dishes." / "Tripods made of ivory." / etc.) and `alx.quote.timothy-ordinary-questions`'s two ("Answer: No." x2) are a catechetical Q&A format — both plausibly legitimate stylistic fragments, not violations. Full findings, all `no_finite_verb`: `alx.quote.athanasius-death-trampled-down` ("Now, faith in Christ and the sign of the cross trample death down."); `alx.quote.couches-and-trenchers-and-bowls` (8 sentences, the inventory list above); `alx.quote.timothy-ordinary-questions` (2 sentences, "Answer: No." each); `alx.quote.to-believe-or-disbelieve` ("For example, to philosophize or not, to believe or to disbelieve."). Logged as found and current, not adjudicated. See `worlds/pahc/Open_Gaps_Tracking.md`'s own entry on this same `sentence_completeness.py` report-run, filed 2026-09-24, for the full fleet-wide context.
+
+### OG-8. Didymus's Tura material — no public-domain English translation, a build-made Greek→English translation is future work, not a current task
+
+Found during the Live-Surface-Cleanup pass on `alx.search.didymus-tura-english.md`. The fleet wantlist's Tier 4 candidate — a build-made Greek→English translation of Didymus's Tura commentary material — remains an unresolved review question, not something this build attempts. The underlying rights situation (no public-domain English edition exists) is settled and stays in the record's own `note` field; only the open "should we build our own translation" question moved here.
+
+Status: OPEN, future work — not blocking, not attempted here.
+
+### OG-9. `alx.source.origen-on-prayer-curtis` — unresolved chain-of-custody caution on the CCEL Curtis translation
+
+Found during the Live-Surface-Cleanup pass. The CCEL edition of Curtis's translation of Origen's *On Prayer* reached CCEL via two intermediaries from private papers, undated; a supplied ThML export did not resolve the provenance question. The record's own settled outcome (accepted as an absence for now, NOT vendored) stays in `note`; the open chain-of-custody caution moved here rather than sitting unresolved in a live field.
+
+Status: OPEN — no action needed now; revisit if this source is ever proposed for vendoring.

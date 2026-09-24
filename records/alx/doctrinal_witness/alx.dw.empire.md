@@ -50,7 +50,3 @@ relations:
 ---
 The Constantine cell, answered from inside the one community that
 experienced both sides within living memory.
-
-REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

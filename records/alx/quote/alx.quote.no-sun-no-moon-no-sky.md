@@ -45,7 +45,7 @@ relations:
 - type: associated-with
   target: alx.term.allegoria
 ---
-Opened 2026-08-27 for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
+Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.
 
 The cell's second question asks whether Genesis was read the way modern people argue about it. The

@@ -17,9 +17,9 @@ query: "Palladius, Lausiac History, W.K. Lowther Clarke translation (SPCK 1918),
 channel: "web search (WebSearch), 2026-08-20; verified on archive.org and tertullian.org"
 result: found
 found_sources: [alx.source.palladius-lausiac-history]
-note: "2026-08-20 update: the exact searched-for edition (Clarke, SPCK 1918) was already vendored as cic/texts/palladius_lausiac-history_clarke1918.txt (Mark, 2026-08-15, via Roger Pearse's morefathers transcription); source record created with rights verified from the file's own prepended header, the Didymus eyewitness passage confirmed at line 211. The cross-build flag and the bounded Alexandria-adjacent purpose are stated in the source record's work field."
+note: "The exact searched-for edition (Clarke, SPCK 1918) was already vendored as cic/texts/palladius_lausiac-history_clarke1918.txt (via Roger Pearse's morefathers transcription); source record created with rights verified from the file's own prepended header, the Didymus eyewitness passage confirmed at line 211. The cross-build flag and the bounded Alexandria-adjacent purpose are stated in the source record's work field."
 ---
-Search run 2026-08-20. Included in the manifest for one bounded purpose: the
+Included in the manifest for one bounded purpose: the
 personally-witnessed Alexandria-adjacent material (notably Palladius's own
 meeting with Didymus - the only vivid account of Didymus available in
 expected-PD English, given alx.search.didymus-tura-english came back empty).

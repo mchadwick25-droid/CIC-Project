@@ -24,8 +24,7 @@ statement: 'What marriage meant among us is a thing our fullest treatment of it 
   place of formation. The detail we must leave in the sources.'
 why_sources_cannot_answer: Stromateis III - the corpus's most direct treatment of marriage, sexuality,
   and the body - has no public-domain English translation (ANF left it in Latin; the modern translations
-  are in copyright). Mark's ruling of 2026-08-21 accepts this absence for now, with translate-from-Greek
-  noted as a future possibility.
+  are in copyright). Translate-from-Greek noted as a future possibility.
 nearest_material:
 - alx.quote.clement-possessions
 - alx.term.eucharistia
@@ -36,12 +35,3 @@ data, in voice, FK-checked. The cell is substantively covered for its
 money/poverty questions (clement-possessions); this limit answers the
 marriage question inside it. Also nearest material for the F6
 identity-collision divorce cells at step 5.
-
-Corrected 2026-09-08, records/alx audit: the `statement` field
-previously told participants the book "has come down in Latin," which
-reads as a transmission/manuscript-loss story. The true story is a
-translation-policy gap: Stromateis III survives in Clement's own Greek
-(the `why_sources_cannot_answer` field already said this correctly --
-"ANF left it in Latin"); no one has translated it into public-domain
-English. Reworded the in-voice statement to match the analytical field
-instead of contradicting it.

@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.clement-anf2); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "anf02", thml_div: "vi.iii"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: DC.Title "The Instructor" at file line
 18639. This id matches the source_id the Artifact-1 worked examples already
 cite (alx.source.clement-paidagogos) - kept deliberately so those examples

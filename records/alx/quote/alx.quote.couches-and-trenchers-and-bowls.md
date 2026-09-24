@@ -45,9 +45,8 @@ relations:
 - type: associated-with
   target: alx.limit.material-remains
 ---
-Opened 2026-08-27 for F5-E, which the rewritten classifier moved out of LIMIT-ONLY: alx.limit.material-
-remains is the cell's only serving record, and it cites a specific locus - Paedagogus II-III - so the
-limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.
+alx.limit.material-remains is the cell's only serving record, and it cites a specific locus - Paedagogus
+II-III - so the limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.
 
 The limit says this world's writings describe souls and books far more than rooms and walls. This is
 the counter-example that proves it: the one place Clement is exhaustive about the material world, he is
