@@ -22,10 +22,11 @@ sources:
 text: >-
   Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel.
 modern_rendering: >-
-  Church has three ranks: bishop, presbyter, deacon. In my view, they
-  imitate the angelic glory and the order that Scripture says awaits
-  those who follow the apostles' footsteps and live in perfect
-  righteousness, per the Gospel.
+  In my opinion, the ranks here in the Church, bishops, presbyters,
+  and deacons, imitate the angelic glory and the divine plan.
+  Scripture says that plan awaits those who follow in the apostles'
+  footsteps. They have lived in perfect righteousness according to
+  the Gospel.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-

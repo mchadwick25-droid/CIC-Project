@@ -1450,3 +1450,131 @@ Re-pinned against this fix's own commit
 (`sha256:2434894870ed7ff0e29b872427fa86648a2b0883b694ac933b45e118151f06f0`).
 Site JSON rebuilt against the same commit. Both staleness checks clean
 fleet-wide.
+
+**Entry 28 — 2026-09-24 (R43 Group B, world 5 of 5: alx — special
+#442 re-verification, both flagged records).** syr (PR #474) is done
+and merged; this closes R43 Group B. Unlike the other four Group B
+worlds, alx's two flagged records were not a fresh sweep finding to
+triage cold - they were named directly, with an instruction to re-read
+each against the fresh grader reasoning and say whether the earlier
+#442 human read still holds.
+
+**It does not hold for either record.** `no-sun-no-moon-no-sky`: the
+R40 rendering broke Origen's single continuous rhetorical question
+into a declarative closing clause ("...would obtain life" as a
+statement), dropping the "so that...obtained life" logical connector
+the source uses to tie the tree's visibility and palpability to the
+consequence of tasting it. Restored the question structure, splitting
+the sentence at "planted a garden in Eden, toward the east?" / "Who
+would think he placed in it a tree of life...so that..." so the causal
+clause stays attached to its own question rather than being severed
+into a bare declarative. 5/5 translation on re-grade, FK 8.57.
+
+`the-grades-here-in-the-church`: the R40 rendering dropped "according
+to my opinion" (paraphrased to "In my view") and lost the perfect
+tense on "have lived" (rendered as present "live"). Restored both.
+"Economy" (Greek *oikonomia*) is translated as "the divine plan" - the
+term does not survive plainly in modern English and no other alx
+record explains it, so R34's register rule (translate jargon the
+grader's "interpretive" objection notwithstanding) governs. The
+apostles'-footsteps clause and "according to the Gospel" are kept
+close to the source's own wording. This record needed 6+ substantive
+revisions, more than any other record in Group A or B, and the
+residual grader complaint never stabilized: one revision was faulted
+for adding an "economy, the divine plan" gloss not in the source; the
+next, which dropped the gloss and translated the term directly, was
+faulted for losing the term; tense and clause-order faults appeared
+and disappeared the same way across attempts with no wording that
+cleared all of them at once while holding FK under 10. This is the
+same subordinate-clause-splitting tension already logged for desert's
+`the-shores-are-covered` and pahc's `melito-no-phantom`: the source is
+one ~60-word periodic sentence, and no split that fits the FK-10
+ceiling escapes a strict grader reading the split itself as
+"compression," independent of whether the content is actually still
+there. It is: every clause the reasoning cites as dropped is present,
+just distributed across two sentences instead of one. Kept the
+FK-compliant, content-complete version and log the residual as an
+accepted tension rather than a fixable defect - this is the
+disposition Group B was explicitly opened to allow, used here because
+careful re-reading shows the grader's remaining objection is about
+sentence-boundary placement, not missing content.
+
+Both hand-checked for fragments (mandatory since the grader grades
+meaning, not grammar): clean.
+
+**Gate results.** `gate_readability` (FK ceiling 10): both clean (8.57,
+9.97). Full `run_all()` (all M1 gates), read directly from this
+build's own `validation/gates-report.json` rather than a
+partial-fleet script: `overall_pass: true`, no findings on either
+record or fleet-wide. `pytest engine/m1/tests/ engine/m2/tests/`: 191
+passed, no regressions. No field other than `modern_rendering` touched
+on either record, per R33.
+
+**Package pin and site JSON, both rebuilt from the start.** Rebuilt
+and re-pinned against this PR's own commit
+`3d75cbc10f619499536edbabb5a1982705b114de`. Old
+`packages/alx/2026-09-23T17-10-40Z`
+(`sha256:9d27e87d31c8df91e5a49a217dec80949974d5b8c06f02319538cb977c30beae`)
+→ new `packages/alx/2026-09-24T05-58-09Z`
+(`sha256:d3786be48aa2af2552519f4a1503500b28eb0e427ae3f65e3fcf8c796f50e6b5`).
+Site JSON (`cic-website/data/worlds/alexandria-catechetical.json`)
+rebuilt against the same commit. Both
+`engine.m2.checks.staleness_sweep()` and `engine.m2.site_cli
+staleness-check` report clean fleet-wide.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+0 new unresolved path citations; 769 total; 769 accepted in baseline;
+0 retired paths present.
+
+**Round 2 — register and omission fix (2026-09-24), reviewer's own
+human read.** PASS on `no-sun-no-moon-no-sky` (question structure held,
+5/5 translation, FK 8.57). FAIL round 1 on
+`the-grades-here-in-the-church`, three problems in the first two
+sentences: (a) "Church has three ranks" dropped both the definite
+article and "here" - the source's "the grades here in the Church" sets
+the earthly ranks against "the angelic glory," and "here" carries that
+contrast; (b) "three" is not in the source, which lists the ranks
+without counting them; (c) "According to my opinion" is the source's
+own wording carried forward unmodernized - the idiom is "In my
+opinion," which an earlier revision already had before this fix
+regressed it. The reviewer's own suggested wording restores all three
+("In my opinion, the ranks here in the Church, bishops, presbyters,
+and deacons, imitate the angelic glory and the divine plan. Scripture
+says that plan awaits those who, following in the apostles' footsteps,
+have lived in perfect righteousness according to the Gospel.") but
+scores FK 11.7, over the readability ceiling as a two-sentence
+rendering. Split the second sentence's embedded relative clause into
+two independent sentences ("...those who follow in the apostles'
+footsteps. They have lived in perfect righteousness according to the
+Gospel.") to bring FK to 8.66 while keeping every element of the fix
+intact: "here" restored, no count added, "In my opinion," "economy" as
+"the divine plan," perfect tense on "have lived," "according to the
+Gospel" kept close to the source.
+
+Re-grading the three-sentence split shows a residual complaint (5/5
+mixed) that separating "those who...have lived" loses the conditional
+unity linking apostolic footsteps to the divine plan's promise - the
+same subordinate-clause-splitting tension already logged earlier in
+this entry and for desert's `the-shores-are-covered` and pahc's
+`melito-no-phantom`. Every clause the automated grader cites as lost is
+present in the rendering; flagged explicitly for the reviewer's own
+human read (which already stands over the grader elsewhere in this
+entry) rather than silently choosing between the reviewer's exact
+wording and the FK gate, since the two cannot both be satisfied without
+a split.
+
+Re-pinned against this fix's own commit
+`d808787dbd58bde53f8d8cf640cfb33de454cd54`: old
+`packages/alx/2026-09-24T05-58-09Z`
+(`sha256:d3786be48aa2af2552519f4a1503500b28eb0e427ae3f65e3fcf8c796f50e6b5`)
+→ new `packages/alx/2026-09-24T06-31-34Z`
+(`sha256:096977f80d5131fe112272a390b9dacf5a750a489697ecc534a5109440a5ad3f`).
+Site JSON rebuilt against the same commit. Both staleness checks clean
+fleet-wide. `check_paths.py` on a clean worktree of this commit: 0 new
+unresolved path citations; 769 total; 769 accepted in baseline; 0
+retired paths present. `pytest engine/m1/tests/ engine/m2/tests/`: 191
+passed.
+
+**This closes R43 Group B (desert, hal, pahc, syr, alx) and the whole
+R43 fleet-wide rendering-fidelity re-authoring campaign**, once this
+PR merges.
