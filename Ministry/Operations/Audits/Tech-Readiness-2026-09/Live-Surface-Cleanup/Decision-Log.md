@@ -737,7 +737,64 @@ with the full context these items need.
 
 ---
 
-## Entry 4 — witt: REWRITE removals, PR #506 (branch `step1-live-surface-cleanup-pr-witt`)
+## Entry 4 — `worlds/_cross-world/gen_needs_ruling.py` data-loss fix (PR #510)
+
+Fixes the data-loss bug flagged in Entry 3's "Flagged, not fixed" note
+above. `gen_needs_ruling.py` regenerates `NEEDS-RULING.md` from
+`cic/corpus-map/`; the committed file also carried a hand-appended
+fourth "question that is not per-work" the generator's own source
+never produced. A regeneration after Entry 3's corpus-map fixes
+silently overwrote that section.
+
+**2026-09-24, Mark (via the managing thread, delegated verdict
+authority).** Round 1: FAIL. The marker-preserving design (everything
+below `HAND_MAINTAINED_MARKER` in the output file is read back from
+the existing file and reproduced verbatim, rather than regenerated)
+was confirmed correct, but the fix was still in the same data-loss
+class — `extract_hand_maintained()` fell back to a placeholder,
+silently discarding real content, whenever an *existing* file's marker
+was missing, rather than only doing that on a genuine first run (file
+absent). Required before round 2: (1) make a missing marker on an
+existing file a refusal to write, not a placeholder; (2) remove this
+bug's own "found 2026-09-24" story from the live script's and test's
+docstrings/comments, since `worlds/` is itself a live surface this
+program governs — the story belongs here instead; (3) cut
+`NEEDS-RULING.md`'s new "Placement questions" section intro down to
+one present-tense line describing what the section holds, not a
+narration of the cleanup program that produced it; (4) wire the new
+test file into somewhere CI actually collects it.
+
+Round 2 (this entry): `extract_hand_maintained()` now raises
+`MissingMarkerError` when given a non-`None` existing text with no
+marker, and `main()` catches it, prints an error, and returns without
+writing — a first run (no file at all) still gets the placeholder.
+`worlds/_cross-world/tests_gen_needs_ruling.py`'s fallback test now
+asserts the raise, and a new end-to-end test drives `main()` itself
+against a scratch file with no marker and asserts the file is left
+byte-for-byte unchanged. The script's docstring, its
+`HAND_MAINTAINED_MARKER` comment, and the test file's own docstring
+were rewritten present-tense (the guarantee, not the story of finding
+the bug). `NEEDS-RULING.md`'s "Placement questions" intro is now one
+line. `.github/workflows/ci.yml` gained a `crossworld` path-filter
+output (`worlds/_cross-world/**`, `cic/corpus-map/**`) and a new
+`cross-world-tests` job that installs `pyyaml`+`pytest` and runs
+`tests_gen_needs_ruling.py` — this suite had nowhere in CI before this
+PR.
+
+### Validation
+
+- `python3 -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q`
+  → 7 passed (the original 6, plus a new
+  `test_main_refuses_to_write_when_an_existing_file_lacks_the_marker`).
+- Three consecutive `python3 worlds/_cross-world/gen_needs_ruling.py`
+  runs against the real file → idempotent, hand-maintained tail
+  byte-for-byte unchanged each time.
+- CI run on this PR's branch, `cross-world-tests` job → green (linked
+  in the PR).
+
+---
+
+## Entry 5 — witt: REWRITE removals, PR #506 (branch `step1-live-surface-cleanup-pr-witt`)
 
 **What was removed.** Every line `tools/check_live_commentary.py` classified REWRITE across `records/witt/*.md` (252 line-hits, roughly 150 distinct files), resolved by pure word/token/sentence deletion — no wording invented. Two shapes:
 
@@ -751,7 +808,7 @@ with the full context these items need.
 
 **Where the settled-history detail lives.** `worlds/witt/build/BUILD-LOG.md` (created; witt had no build log before this PR) carries the fuller account of the five whole-paragraph removals in item 2, including what each record's own current fields say and how that was confirmed before deleting the narrative. This entry is the pointer; that file has the reasoning.
 
-**One open item ROUTE'd, not REWRITE'd.** `witt.source.marburg-articles`'s inline "Doc_01 open item 1 / §7" note moved to `worlds/witt/Open_Gaps_Tracking.md` OG-33 (the Marburg Articles remain unvendored) — a still-open acquisition gap, not settled history, so it belongs there rather than here. (Renumbered from this entry's original OG-32 to OG-33 on rebase past `Entry 3`'s own corpus-map PR, which claimed OG-32 for witt first — see `worlds/witt/Open_Gaps_Tracking.md`.)
+**One open item ROUTE'd, not REWRITE'd.** `witt.source.marburg-articles`'s inline "Doc_01 open item 1 / §7" note moved to `worlds/witt/Open_Gaps_Tracking.md` OG-33 (the Marburg Articles remain unvendored) — a still-open acquisition gap, not settled history, so it belongs there rather than here. (Renumbered twice during rebase past concurrently-merged PRs: originally filed as OG-32/Entry 1, then OG-33/Entry 4 once `Entry 3`'s own corpus-map PR claimed OG-32 for witt first, then this entry itself moved to Entry 5 once PR #510 claimed Entry 4 — see `worlds/witt/Open_Gaps_Tracking.md`.)
 
 **Eighteen items left unedited**, flagged Words-for-Mark in PR #506's own body: pure deletion would break grammar or destroy real content (most commonly a formation_confidence word fused as a sentence's own verb — "is Documented", "is Contested" — with no way to remove it without either inventing a replacement or losing the clause's only content). Awaiting Mark's wording, not resolved here.
 

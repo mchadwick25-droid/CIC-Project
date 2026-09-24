@@ -130,6 +130,7 @@ jobs:
       census: ${{ steps.filter.outputs.census }}
       library: ${{ steps.filter.outputs.library }}
       site: ${{ steps.filter.outputs.site }}
+      crossworld: ${{ steps.filter.outputs.crossworld }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -177,6 +178,16 @@ jobs:
               - 'cic-website/**'
               - 'records/**'
               - 'engine/**'
+              - '.github/workflows/**'
+            # gen_needs_ruling.py's own test suite (worlds/_cross-world/
+            # tests_gen_needs_ruling.py) previously ran nowhere in CI - a
+            # change to the generator or to its hand-maintained-tail
+            # preservation could regress without any check catching it.
+            # Also fires on a corpus-map change, since the generator's
+            # end-to-end test runs against the real cic/corpus-map/ data.
+            crossworld:
+              - 'worlds/_cross-world/**'
+              - 'cic/corpus-map/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -437,6 +448,29 @@ jobs:
       # `records/**` and would otherwise run no CI at all.
       - run: python -m pytest engine/m9/tests -q
       - run: python -m engine.m9.cli check
+
+  # gen_needs_ruling.py generates worlds/_cross-world/NEEDS-RULING.md from
+  # cic/corpus-map/; its hand-maintained-tail preservation (everything below
+  # HAND_MAINTAINED_MARKER survives a regeneration verbatim, and a run
+  # refuses to write if an existing file has lost the marker) is proven by
+  # worlds/_cross-world/tests_gen_needs_ruling.py, which had nowhere in this
+  # workflow that collected it. NOT folded into engine-tests: that job's
+  # requirements install anthropic/boto3/jsonschema this suite doesn't need,
+  # and its `engine`-only path filter wouldn't fire on a worlds/_cross-world/
+  # or cic/corpus-map/-only change anyway.
+  cross-world-tests:
+    needs: changes
+    if: needs.changes.outputs.crossworld == 'true'
+    name: Cross-world needs-ruling generator tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install pyyaml pytest
+      - run: python -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q
 
   docker-build:
     needs: changes
