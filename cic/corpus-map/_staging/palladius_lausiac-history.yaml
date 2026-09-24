@@ -93,3 +93,34 @@ assignments:
       not Ephrem's own voice. Cross-build note carried from that record:
       the same vendored file serves the Alexandria and Desert worlds too;
       only this Ephraim chapter is licensed material for syr.
+
+  - work: "Lausiac History"
+    author: palladius
+    locus: >
+      Chapters XXXVI (Posidonius on Jerome's temper and the prophecy about
+      Paula, file line 435) and XLI (Holy Women: Paula "hindered by a
+      certain Jerome from Dalmatia," Eustochium's convent of fifty virgins,
+      file line 475)
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: context
+    confidence: assigned
+    note: >
+      This world's own source record (hal.source.palladius-lausiac) names
+      this "the principal hostile independent near-contemporary witness to
+      this world." Verified directly against the file: ch. 36 (line 435)
+      carries Posidonius's remark that Jerome "showed qualities of temper so
+      disastrous that they threw into the shade his splendid achievements"
+      and his prophecy that Paula "will die first and be freed from his bad
+      temper"; ch. 41 (line 475) states Paula "was hindered by a certain
+      Jerome from Dalmatia... he hindered her by his jealousy, having
+      induced her to serve his own plan," and gives Eustochium's Bethlehem
+      convent as "fifty virgins" - the only extant headcount for either
+      Bethlehem community, uncorroborated elsewhere. Both passages match
+      this world's own source record exactly.
+
+      `role: context`, not `tradition`: Palladius writes from an
+      Origenist-adjacent, Evagrian-influenced milieu, about a community that
+      defined itself against Origenism - hostile testimony, valuable
+      precisely for its independence, not this world's own voice. See
+      hal.contested.paula-jerome-relationship.

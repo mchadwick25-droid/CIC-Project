@@ -77,6 +77,33 @@ assignments:
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`. The homoian context assignment is the firm half
     throughout.'
+- work: De Synodis (On the Councils)
+  author: hilary_poit
+  locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: 'Added for ijc, per this world''s own source record (ijc.source.hilary-de-synodis): De
+    Synodis is the closest vendorable witness to the actual creed formulae of the Homoian-
+    establishment years, quoted and assessed at length by a contemporary Western bishop writing
+    to explain the Eastern councils to the bishops of Gaul - used to satisfy the binding Homoian-
+    recentering obligation (Step 0 SS4.1) where the one piece of Homoian self-testimony the legacy
+    Registry names (Auxentius on Ulfila) has no public-domain English translation. Verified directly:
+    the "De Synodis or On the Councils" division opens at div2 2.4 (file line 7536), with the
+    Sirmium/"like the Father" formula discussed from line 8067 onward, matching the record''s own
+    citation exactly. The same volume''s Prolegomena (div2 2.3, apparatus, not a separate work)
+    also informed ijc.dw.ancient-custom''s treatment of Augustine''s 386 hymn-singing witness, per
+    that source record''s own discovery_channel note (Hilary''s own attempted and unsuccessful
+    introduction of hymns into public worship, contrasted with the Milan basilica-crisis hymnody
+    that did take) - not assigned as its own row since it is editorial apparatus, not Hilary''s
+    own text.
+
+    `role: context`, not `tradition`: hostile in allegiance (pro-Nicene) and used here only for
+    the era''s formulae and texture, "never as Homoian self-testimony, which it is not" - the same
+    distinction already governing the homoian-arian-christianity context row above.
+
+    '
 - work: Homilies on Psalms I, LIII, CXXX
   author: hilary_poit
   locus: div2 2.6 (~12,517 words), nested under the apparatus-flagged div1 2

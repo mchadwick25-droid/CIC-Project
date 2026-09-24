@@ -137,6 +137,36 @@ works:
 
     '
   source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+- work: Gennadius, Lives of Illustrious Men (continuation)
+  author: gennadius
+  locus: div2 4.4, chapters XIX (Sulpitius Severus), LXII (Cassianus/Cassian), LXIV (Eucherius
+    of Lyons), LXV (Vincentius of Lerins), LXX (Hilary of Arles), LXXXV (Prosper of Aquitaine),
+    LXXXVI (Faustus of Riez)
+  role: context
+  confidence: assigned
+  note: 'Independent, near-contemporary corroboration for seven of this world''s own figures,
+    all in one continuation-of-Jerome chapter set: Sulpitius Severus, Cassian, Eucherius,
+    Vincentius, Hilary of Arles, Prosper, and Faustus. Verified directly against the file,
+    chapter by chapter: ch. XIX opens "Severus the presbyter... surnamed Sulpitius"; ch. LXII
+    "Cassianus, Scythian by race... a presbyter at Marseilles, founded two monasteries"; ch.
+    LXIV "Eucherius, bishop of the church at Lyons"; ch. LXV "Vincentius, the Gaul, presbyter
+    in the Monastery on the Island of Lerins"; ch. LXX "Hilary, bishop of the church at Arles";
+    ch. LXXXV "Prosper of Aquitania"; ch. LXXXVI "Faustus the bishop" (title) - all seven
+    chapter titles and contents confirmed at their own loci, matching this world''s own source
+    record (gallic.source.gennadius-de-viris- illustribus, Source Registry row 30) exactly.
+
+    `role: context`, not `tradition`: that same record states Gennadius was "writing c. 495,
+    just after this world''s own working ceiling" (c. 360-450) and calls the material "Corroborating
+    rather than load-bearing: this world''s Representative draws on the IN-WINDOW facts Gennadius
+    attests, never on Gennadius''s own post-window words as this world''s own voice." A second,
+    distinct editorial layer sits in the same file - Richardson''s own bracketed dating endnotes
+    to these same chapters (gallic.source.richardson-gennadius-endnotes, Source Registry row
+    42), used by this world for dating attributions but kept deliberately distinct from Gennadius''s
+    own ancient text per that world''s own Doc_02 SS0 discipline - not assigned as a separate
+    row here since it is modern apparatus, not itself vendored ancient text.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)
   author: hilary-arles
   locus: the sermon itself, Migne PL 50 (extracted excerpt, see file's own header for boundaries

@@ -36,3 +36,32 @@ assignments:
       nothing in it); the attribution rests on the standard tradition
       (Gregory Nazianzen, Ep. 115) outside the file, so it is stated here
       as transmission history, not derived from the markup.
+
+  - work: "The Philocalia of Origen"
+    author: origen
+    locus: >
+      Chapter I, esp. its own self-description "From the work on
+      'Principles'" (file line 44)
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: context
+    confidence: assigned
+    note: >
+      This world's own source record (hal.source.origen-philocalia) uses the
+      Philocalia as the control on Rufinus: the Origenist controversy at
+      hal's own center turns on whether Rufinus's Latin De Principiis
+      softened what Origen actually wrote, and the Greek of De Principiis is
+      otherwise lost. The Philocalia preserves genuine surviving Greek
+      excerpts from that very work - Chapter I states of itself "From the
+      work on 'Principles'", verified directly at the file's own opening
+      line (line 44), matching the source record's claim exactly.
+
+      `role: context`, not `tradition`: evidence FOR testing the
+      Rufinus-vs-Jerome dispute, not itself Hieronymian voice or tradition -
+      a fourth-century anthology (traditionally, though not textually,
+      ascribed to Basil and Gregory Nazianzen) that lets the accusation be
+      checked against surviving Greek rather than repeated on faith. hal's
+      own record is explicit about the limit: this may not be treated as
+      the whole of Origen, or the selection's mildness taken as proof the
+      controversy was manufactured - hal.contested.origenist-substance
+      holds that question open and this is evidence in it, not a verdict.
