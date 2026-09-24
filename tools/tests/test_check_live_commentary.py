@@ -316,12 +316,22 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("cic-poc/frontend/src/components/StoryMark.tsx", 15, "REWRITE"),
     ("cic-poc/frontend/src/components/StoryMark.tsx", 16, "REWRITE"),
     ("cic-poc/frontend/src/components/Arrival.tsx", 14, "REWRITE"),
-    ("cic-website/traditions/cappadocian-nicene-pastoral-monastic-tradition.html", 245, "REWRITE"),
-    ("cic-website/data/world-census.json", 18087, "REWRITE"),
-    ("cic-website/index.html", 315, "REWRITE"),
-    ("cic-website/data/world-census.json", 12306, "REWRITE"),
-    ("cic-website/atlas-v3.html", 39878, "REWRITE"),
-    ("cic-website/index.html", 396, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
+    # original 6 cic-website samples here were cleaned by that PR and
+    # stopped matching. cic-website is now clean apart from one known
+    # false positive (below); the other 5 slots move to cic/corpus-map,
+    # not yet touched by the cleanup program, to keep this table at >=60
+    # real, currently-matching examples.
+    # Hand label KEEP: "external reviewer" here is real body copy about
+    # wanting an academic reviewer for the project's own scholarship, not
+    # narration of this project's internal review process - the same
+    # `reviewer`-pattern gap already hand-labelled for reference/ above.
+    ("cic-website/support.html", 127, "KEEP"),
+    ("cic/corpus-map/_staging/anf01_apostolic-fathers-justin-irenaeus.yaml", 145, "REWRITE"),
+    ("cic/corpus-map/_staging/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.yaml", 60, "REWRITE"),
+    ("cic/corpus-map/_staging/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.yaml", 297, "REWRITE"),
+    ("cic/corpus-map/roman-church-third-century.yaml", 16, "REWRITE"),
+    ("cic/corpus-map/README.md", 43, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     ("engine/m9/enforce.py", 111, "KEEP"),
     ("engine/m4/tests/test_turn.py", 1268, "REWRITE"),

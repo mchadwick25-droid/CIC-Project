@@ -136,4 +136,48 @@ tools/validate-census.mjs` → 0 errors; `engine/m6/tests`,
 `engine/m2/tests/test_site_{compiler,staleness}.py` → all green.
 `cic-poc/frontend` untouched by this PR.
 
+**Round 2 (managing-thread verdict, FAIL round 1, 2026-09-24):**
+
+1. Round 1 only stripped the `(Mark, <date>)` parenthetical, leaving the
+   surrounding process sentence itself on the live site: "Edge written at
+   the Era 9 Freeze.", "Added at the Era 4 gate.", "ADOPTED at the Era 10
+   Freeze.", and several mid-sentence variants ("banked at the Era 9
+   gate", "written at the Era 9 gate", "made at the Era 9 gate", "ruled
+   REGISTER over Outside-A4 at the Era 9 Freeze") — 105 occurrences
+   across `world-census.json` and its 1 mirrored occurrence in
+   `atlas-v3.html`'s embedded copy, plus the 7 already-regenerated
+   `tree/*.html` pages. Removed the whole clause in every case, keeping
+   the sourcing sentence before it (e.g. "Added at the Era 3 gate —
+   proposed by the Era 3 Step 0 run..." → "Proposed by the Era 3 Step 0
+   run..."). Four `statusDescription` fields carried nothing but the
+   process clause itself, with the real status already stated in the
+   sibling `statusWord` field — emptied to `""` rather than left
+   half-sentence. `stepStatus` fields ("Step 0 run complete — era
+   frozen") were left as-is per the verdict: they state current status,
+   not process history. Regenerated `tree/*.html` from the fixed data.
+2. Refreshed `tools/tests/test_check_live_commentary.py`'s 6 stale
+   cic-website `HAND_LABELS` entries (all 6 pointed at lines this PR's
+   round 1 had already cleaned). cic-website now has only one real
+   remaining hit — hand-labelled `KEEP` (`support.html:127`, "external
+   reviewer" — a checker false positive on real body copy about an
+   academic reviewer, per the managing thread's own explicit ruling that
+   this is not a Words-for-Mark item) — so the other 5 slots moved to
+   fresh `cic/corpus-map` examples (untouched, stable) to keep the table
+   at its required ≥60 real, currently-matching samples.
+   `cic-poc/frontend`'s 3 stale entries are PR #503's own fix, not this
+   PR's.
+3. Registered `atlas-v3.html`'s stale embedded-census finding (liveCount
+   7 vs. `world-census.json`'s 11) as a comment on its
+   `tools/embedded-world-data-baseline.txt` entry — the baseline format
+   supports `#`-prefixed comment lines (skipped by the loader, so the
+   exclusion itself is unaffected). Not fixed here, per the verdict's own
+   instruction ("Don't fix the migration here").
+
+Re-validated: `check_live_commentary.py --surface cic-website` → 1 hit
+(the documented KEEP false positive); `check_no_embedded_world_data.py`
+→ exit 0; `check_paths.py` → 0 new/retired; `node
+tools/validate-census.mjs` → 0 errors; `pytest
+tools/tests/test_check_live_commentary.py` → 4 failures remaining, all
+`cic-poc/frontend` (PR #503's own stale entries, not this PR's).
+
 ---
