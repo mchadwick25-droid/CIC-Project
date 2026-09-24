@@ -4518,7 +4518,112 @@ tests. Frontend: `src/types/conversation.ts`, `VoiceTurnBody.tsx`,
 `Arrival.tsx` (placeholder only), `app.css`, and their tests. No
 `records/` change under story option (a).
 
-**Entry 70 — 2026-09-24.** R37's design brief, carried forward onto
+**Entry 70 — 2026-09-24.** R41 measurement (thread D, item 1). This entry builds to R41 and
+R41-A (Rulings-Pending.md, both ruled 2026-09-23). The question: when a participant's
+question carries a modern word with no equivalent in the world, does the voice define the
+word, falsely map it onto its world's nearest concept, or date it from outside its record?
+R41-A retires the Facilitator bridge turn once these come back near zero. **They do not come
+back near zero.** Whether to act on that is Mark's call. This entry only counts and quotes.
+
+**Scope, verified on main at 7d34e2c.** R41 is not built, and the bridge route is unchanged.
+The fleet `modern_term` registry holds one record, `_fleet.modern.trinity` (origin_year 325).
+Among the real worlds, only pahc (70-200) counts it as anachronistic. So for 10 of 11 real
+worlds, every modern word already reaches the voice today, under `pronoun_rule`. Most of
+this battery therefore measures behaviour participants can already reach.
+
+For pahc's "Trinity" alone, the harness replaced `wiring.compute_anachronistic_term_ids` with
+an empty set for that one call. This was harness-side only; production code is unchanged.
+
+**Battery.** Harness: `engine/m4/reports/r41_modern_word_battery.py`. Report:
+`engine/m4/reports/r41-modern-word-battery-2026-09-24.json`.
+- 11 real worlds, 2 test probes each (22 in total).
+- 11 in-window controls, each using that world's own term record `world_word`.
+- Every one of the 33 turns reached the voice. None reached the Facilitator.
+- Routing, test probes: 14 "ordinary turn", 7 "later_age, first ask", 1 "other_tradition,
+  first ask" (rzg, "Pentecostal").
+- Grader: Haiku 4.5 with forced tool use, 2 runs per reply. A yes needs both runs to agree
+  and a verbatim quote for that same item.
+- Real cost: **$2.4347, 166 calls**. The pre-run estimate was $1.60 against a $3.00 cap.
+  Voice turns averaged about $0.07, not the engine/m8 mean of $0.04 the estimate used.
+
+**Results, out of 22 test replies.** Two readers:
+- the grader, settled yes (plus unsettled);
+- this thread's own read of all 22 replies in full (clear, plus borderline).
+
+| Risk | Grader | Thread read |
+|---|---|---|
+| Defines the modern word | 11 (+2) | 13 (+3) |
+| Dates it from outside the record | 12 (+1) | 13 (+2) |
+| False mapping | 0 (+2) | 0 (+2) |
+| Etic seam in the voice's own turn | 3 | 6 |
+| Names the word as the participant's own | 21 | 9 (+4 partial) |
+
+- Only 4 of 22 replies are clean on all four risks by the thread's read: cappadocian-T2,
+  don-T1, don-T2, gallic-T1.
+- In the thread's read, 18 of 22 carry at least one clear definition or dating claim.
+- Controls: 0 of 11 treated the world's own word as foreign.
+- The grader reads "names as participant's word" far more generously than the text
+  supports. Its 21 counts replies that never say whose word it is (e.g. don-T1, gallic-T1,
+  rzg-T1). Treat the grader's figure for that item as unreliable. The counts for the four
+  risks agree closely between the two readers.
+- The thread's read is not independent confirmation. It needs the reviewer's own read
+  before any number here is relied on.
+
+**Shape of the failures.** Quotes are verbatim from the report.
+- *Dating, the commonest form:* "it names a division that came over a thousand years
+  after our own time closed. We lived c. 320-430; the break that word marks happened in
+  the 1500s" (desert-T1).
+  - The same form appears in cappadocian-T1, gallic-T2, ijc-T2, syr-T1 and witt-T2 ("centuries
+    after our own span closed in 1580").
+  - ijc-T1 dates it wrongly as well: infallibility "comes from your own century". The
+    definition was 1870.
+- *Definition:* "papal infallibility, the teaching that the Roman bishop speaks for the whole
+  church without error when he defines doctrine" (alx-T1). "Liberation in the sense the
+  modern phrase carries - a program of analysis aimed at systemic oppression, centered on the
+  poor as a class" (hal-T2).
+- *Borderline false mapping:* "Our faith meant freedom ... That is the liberation we
+  proclaimed" (alx-T2). hal-T2 has the same pattern. Both then separate the two senses
+  explicitly.
+- *Seam, knowledge of the world's own later reception:* "the councils we helped write became
+  law and liturgy for the traditions that trace themselves through us - Orthodox and Catholic
+  both, and Protestant dogmatics more distantly" (cappadocian-T1).
+- *Seam, later naming:* "what your people would later call the Old Testament" (pahc-T2).
+- *Correct form (pahc-T1, Trinity, bypassed):* "We never used that word. It does not belong
+  to us - what we can give you is our own." It still dates the word at its close: "belong to
+  a world that came after ours closed".
+
+**Root cause, as far as this run shows.** Dating claims appear on both routing paths: 5 of 8
+turns with a directive and 8 of 14 ordinary turns. So they do not come from the later_age
+directive alone. They come from generation. The voice supplies outside knowledge of when a
+word arose, and the only instruction that covers this case (`pronoun_rule`'s own clause) does
+not forbid it. This run does not test whether a prompt-side fix, a guard, or keeping the
+bridge is the right answer. That is a governance/methodology question for Mark.
+
+**What this means for the bridge (not decided here).** The bridge covers one word ("Trinity")
+in one world. By this measurement, the risks R41 lists already occur, unbridged, for every
+other modern word in every real world. So keeping the bridge "until near zero" does not keep
+these risks away from participants today. It keeps them away only for "Trinity" in pahc.
+Escalated to Mark. It is not resolved by this thread.
+
+**R41-A item (c).** The hover card does not show the modern sense of a registered term.
+`modern_sense` is read only by `facilitator_turns.bridge_turn` (l.426-443). No frontend code
+reads it, and `term_glosses` covers world term records, not fleet `modern_term` records. This
+is missing, and it is stated here as R41-A asks. Nothing is built for it.
+
+**Fleet-record question, flagged and not touched.** `_fleet.modern.trinity` gives
+origin_year 325. Its `underlying_subject` says "before the word 'Trinity' existed". Theophilus
+of Antioch's *trias* (Ad Autolycum II.15, c. 180) would fall inside pahc's own window. That
+reference is not re-verified here against a vendored source. It is a lead for the records
+owner, and the claim's confidence may be Contested.
+
+**Defects seen in passing, outside R41. Recorded, not fixed.**
+- rzg-T2 breaks strict we-voice: "ask plainly, and I'll tell you what we have".
+- don-T2 ends on a paragraph unrelated to the question: "Genesis as a question about how the
+  world was made - no".
+- rzg-C puts the project's own confidence vocabulary into the voice: "The doctrine is
+  Documented".
+
+**Entry 71 — 2026-09-24.** R37's design brief, carried forward onto
 `main` from PR #438, which is closed as superseded (Mark's own call,
 2026-09-24: "Fresh branch off main, close #438 as superseded"). #438 was
 one commit on an old `main` and conflicted on both Ministry files. The
@@ -4529,7 +4634,7 @@ the script reproduces the committed report exactly, apart from its
 timestamp. The ruling itself - R37, R37-A, and R37-B - now lives in
 full in Rulings-Pending.md's R37 entry, not on a PR branch. The brief's
 original text stays readable on closed PR #438. Below is each of its
-four items, with R37-B folded in and what the build (Entry 71) did with
+four items, with R37-B folded in and what the build (Entry 72) did with
 it.
 
 **Item 1 - the world-level "known in its own time" list.** The brief
@@ -4570,12 +4675,12 @@ the private directive.
 
 **Item 4 - the battery count.** 9 of 11 under the symmetric reading and
 11 of 11 under the asymmetric reading. R37-A chose the asymmetric one.
-The build's own battery (Entry 71) confirms 11 of 11 against the
+The build's own battery (Entry 72) confirms 11 of 11 against the
 engine's real code path.
 
-**Entry 71 — 2026-09-24.** R37 build: the pivot's own licence, for
+**Entry 72 — 2026-09-24.** R37 build: the pivot's own licence, for
 interview and the Table. Rulings: R37, R37-A, R37-B (Rulings-Pending.md
-R37). Brief: Entry 70.
+R37). Brief: Entry 71.
 
 **What the voice now gets.** On every `other_tradition` turn,
 `engine.m4.turn._other_tradition_directive` adds one pivot-scope clause

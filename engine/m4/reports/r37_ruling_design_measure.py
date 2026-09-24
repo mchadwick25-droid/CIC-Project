@@ -1,4 +1,4 @@
-"""R37 ruling design brief (Decision-Log.md Entry 70, Rulings-Pending.md
+"""R37 ruling design brief (Decision-Log.md Entry 71, Rulings-Pending.md
 R37), report-only, no engine change. Mark's own ruling on
 R37 (relayed 2026-09-23): a Representative may use outside knowledge of
 a named-but-uncovered tradition to choose WHICH PART of its own record

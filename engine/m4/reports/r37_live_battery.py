@@ -1,5 +1,5 @@
 """R37 live battery (Rulings-Pending.md R37, R37-A, R37-B; Decision-Log.md
-Entry 71): real, billed Bedrock calls through the production wiring -
+Entry 72): real, billed Bedrock calls through the production wiring -
 engine.api.wiring.handle_message for interview, engine.api.table_wiring
 for the Table - with production defaults (self-revision on, R27
 enforcement off). engine/m4/reports/r37_build_battery.py already proves

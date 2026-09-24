@@ -871,8 +871,8 @@ detail: Decision-Log.md Entry 66.
 
 ### R37 — When may a Representative's pivot draw on outside knowledge of a named-but-uncovered tradition?
 **Status:** RULED — 2026-09-23, 12:47Z; R37-A the same day; R37-B
-2026-09-24. **BUILT** — Decision-Log.md Entry 70 (the design brief,
-carried forward from PR #438, now closed as superseded) and Entry 71
+2026-09-24. **BUILT** — Decision-Log.md Entry 71 (the design brief,
+carried forward from PR #438, now closed as superseded) and Entry 72
 (the build). All three via the reviewer thread's standing authorization.
 
 **Mark's own words (R37):**
