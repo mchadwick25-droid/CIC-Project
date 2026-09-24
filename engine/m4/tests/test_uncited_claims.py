@@ -1,6 +1,6 @@
-"""Pins R27's own two motivating sentences (Decision-Log.md Entry 50/51,
-2026-09-22) as real, real-world-shaped regression cases, plus the
-verified finding that claim_markers alone would miss one of them."""
+"""Pins R27's own two motivating sentences as real, real-world-shaped
+regression cases, plus the verified finding that claim_markers alone
+would miss one of them."""
 from engine.m4.grounding_net import check_turn, check_turn_with_paragraph_coverage
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
@@ -30,8 +30,7 @@ def test_catches_the_uncited_donatist_history_sentence():
 
 def test_catches_both_r26_augustinian_sacramental_sentences():
     # engine.prose.claim_markers on its own MISSES the second of these
-    # two sentences outright (Decision-Log.md Entry 51's own verified
-    # finding) - this test pins that find_uncited_claims still catches
+    # two sentences outright - this test pins that find_uncited_claims still catches
     # it, confirming the module does not silently rely on claim_markers
     # as its gate.
     sentences = [
@@ -49,10 +48,10 @@ def test_a_cited_sentence_never_flags():
 
 
 def test_a_withheld_sentence_is_examined_like_an_untagged_one():
-    # G6 (R39-audit retrofit, 2026-09-23): apply_net's own strip_tags
+    # apply_net's own strip_tags
     # removes a sentence's tag regardless of verdict - the sentence's
-    # own text still reaches the participant (Decision-Log Entry 51's
-    # own "the checks gate decoration, never the text"). This test used
+    # own text still reaches the participant ("the checks gate
+    # decoration, never the text"). This test used
     # to pin the opposite, false premise (asserting nothing was flagged
     # for a withheld sentence, on the theory it never reached the
     # participant at all). Corrected: a withheld sentence carrying real
@@ -106,8 +105,8 @@ def test_first_person_framing_that_still_makes_a_claim_is_not_exempt():
     assert len(offenses) == 1
 
 
-# F1 (reviewer thread fix list, 2026-09-22): the fleet's own real honest-
-# limit forms, taken verbatim from the item-4 live battery's own offense
+# F1: the fleet's own real honest-
+# limit forms, taken verbatim from a live battery's own offense
 # list (live-uncited-claims-battery-report.json) - the exact sentences the
 # raw check wrongly caught before this fix.
 def test_fix_list_f1_record_absence_forms_are_allowed_uncited():
@@ -155,11 +154,11 @@ def test_classify_neighbour_named_leaves_unrelated_offenses_alone():
     assert upgraded["class"] == "uncited_claim"
 
 
-# R27-A item 1 (Entry 55/PR #421): the upgrade now also requires the
+# The upgrade requires the
 # sentence to be a real paragraph-level failure (failing_paragraph_
 # sentences) - not just "the turn was routed via other_tradition" alone,
-# per PR #420's own live finding that the unconditional upgrade fired
-# 24/24 and would fail nearly every other_tradition turn.
+# since the unconditional upgrade fired 24/24 in live data and would
+# fail nearly every other_tradition turn.
 def test_classify_other_tradition_turn_upgrades_when_the_turn_was_routed_there_and_the_sentence_is_a_paragraph_failure():
     offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
     upgraded = classify_other_tradition_turn(
@@ -189,8 +188,7 @@ def test_classify_other_tradition_turn_leaves_a_paragraph_grounded_frame_sentenc
     assert upgraded["class"] == "uncited_claim"
 
 
-# R27 build item 3's own must-pass case, named directly by the reviewer
-# thread's build order: "Dionysius deathbed sentence (alx.dw.church-
+# R27's own must-pass case: "Dionysius deathbed sentence (alx.dw.church-
 # failure)" - real record text (records/alx/doctrinal_witness/alx.dw.
 # church-failure.md), not a synthetic paraphrase, so this pins the actual
 # fleet language rather than a stand-in for it. Same hermetic-fixture
@@ -238,7 +236,7 @@ def test_real_dionysius_deathbed_sentence_properly_cited_never_flags():
 
 
 def test_real_dionysius_deathbed_sentence_uncited_is_caught_here_too_not_silently_shown():
-    # G6 (R39-audit retrofit, 2026-09-23): the same real sentence,
+    # The same real sentence,
     # uncited - grounding_net withholds it (a specific claim naming
     # Dionysius, no citation tag at all). This test used to assert
     # find_uncited_claims reports nothing on it, on the theory a
@@ -293,8 +291,7 @@ def test_known_tradition_names_excludes_the_speaking_world_and_fixtures():
     assert "Fixture World" not in names  # kind != "formation"
 
 
-# F5 (reviewer thread fix list, 2026-09-22, after PR #419's own re-run):
-# a real gap the run itself surfaced - the battery's own probe named "the
+# F5: a real gap a live run surfaced - the battery's own probe named "the
 # Donatists" (a demonym, what a voice's own prose actually says), never
 # don's own card_name "The Church of the Martyrs", so
 # classify_neighbour_named had nothing to match. Pinned to the fix list's
@@ -330,7 +327,7 @@ def test_build_uncited_claims_event_returns_none_when_clean():
 
 def test_build_uncited_claims_event_refines_both_classes():
     # own_doctrine_in_other_tradition_turn now requires the sentence to
-    # also be a real paragraph-level failure (R27-A item 1) - the fixture
+    # also be a real paragraph-level failure - the fixture
     # below puts "Even a broken priest..." in paragraph_offenses so the
     # upgrade still fires.
     voice_event = {
@@ -371,7 +368,7 @@ def test_build_uncited_claims_event_fires_on_paragraph_offenses_alone():
     assert len(event["paragraph_offenses"]) == 1
 
 
-# R27-A item 2 (Entry 55): find_uncited_paragraphs's own baseline cases -
+# find_uncited_paragraphs's own baseline cases -
 # built from check_turn_with_paragraph_coverage's real output, not a
 # hand-built paragraph_check dict, so these exercise the real join
 # between grounding_net's paragraph_coverage and this module's own
@@ -419,16 +416,14 @@ def test_find_uncited_paragraphs_a_one_sentence_paragraph_inherits_the_preceding
     assert all(o["sentence"] != "That, too, is in our record." or o["class"] != "wholly_uncited_paragraph" for o in find_uncited_paragraphs(result))
 
 
-# R27-A item 3 (Decision-Log.md Entry 55's own "Pinned for item 3's own
-# tests" section, 2026-09-23) - the two cases the reviewer named directly,
-# real sentences, not invented ones.
+# The two cases pinned here are real sentences, not invented ones.
 def test_r27a_narrowed_rule_still_catches_both_augustinian_sentences_as_real_paragraph_failures():
-    # R26's own motivating pair (Entry 50/51): "What the sacrament does,
+    # R26's own motivating pair: "What the sacrament does,
     # it does by Christ's power, not the minister's purity." and "Even a
     # broken priest could not block his grace." - genuinely unsupported
     # by anything in alx's own records, real doctrine belonging to a
-    # different world. Entry 55: "the narrowed rule must still fail
-    # both." This is classify_other_tradition_turn's own narrowing logic
+    # different world. The narrowed rule must still fail
+    # both. This is classify_other_tradition_turn's own narrowing logic
     # in isolation (hand-built offenses, the same discipline the other
     # classify_other_tradition_turn tests above already use) - both
     # sentences marked as real paragraph-level failures
@@ -438,8 +433,7 @@ def test_r27a_narrowed_rule_still_catches_both_augustinian_sentences_as_real_par
     # claim_markers and withholds the first sentence upstream, the same
     # fallback-ladder split test_real_dionysius_deathbed_sentence_
     # uncited_is_withheld_upstream_not_reported_by_this_module already
-    # documents - so this pins the classification rule itself, which is
-    # what Entry 55 is actually specifying.)
+    # documents - so this pins the classification rule itself.)
     sentence_a = "What the sacrament does, it does by Christ's power, not the minister's purity."
     sentence_b = "Even a broken priest could not block his grace."
     failing_paragraph_sentences = {sentence_a, sentence_b}
@@ -451,9 +445,9 @@ def test_r27a_narrowed_rule_still_catches_both_augustinian_sentences_as_real_par
     assert all(o["class"] == "own_doctrine_in_other_tradition_turn" for o in refined)
 
 
-# alx's own conflict-turn shape (PR #420's own live report: a frame
+# alx's own conflict-turn shape: a frame
 # sentence, "For years they held together.", riding inside a paragraph
-# the report already shows fully cited - uncited_in_cited_paragraph: 7).
+# a live report already shows fully cited (uncited_in_cited_paragraph: 7).
 # Hermetic fixture, same discipline _REAL_CHURCH_FAILURE_TEXT above
 # already uses (real record content, no live package) - a record whose
 # own text shares real ground with the frame sentence, so the inherited
@@ -472,8 +466,8 @@ _HELD_TOGETHER_REPOSITORY = {
 
 def test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_cited_other_tradition_paragraph():
     # is_other_tradition_turn=True is forced on this - the whole point of
-    # Entry 55's own pinned case is to prove the NARROWED rule, not
-    # merely R27-A's own base paragraph coverage, is what passes this
+    # this pinned case is to prove the NARROWED rule, not
+    # merely the base paragraph coverage, is what passes this
     # sentence: a frame sentence the paragraph's own citation genuinely
     # grounds is not own_doctrine_in_other_tradition_turn even inside an
     # other_tradition turn.
@@ -494,14 +488,13 @@ def test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_cited_othe
     assert all(o["class"] != "own_doctrine_in_other_tradition_turn" for o in refined)
 
 
-# R36's own hand-sort finding (Decision-Log.md Entry 56, 2026-09-23): the
+# A hand-sort finding: the
 # inherited_ungrounded branch of find_uncited_paragraphs never applied the
 # question/honest-limit/first-person exemptions its own wholly_uncited_
 # paragraph branch already applies - catching R26's own fixed sentence and
-# a literal question among the withheld inherited sentences #427's own live
-# run surfaced. Fixed as part of item 5's own PR (a correctness fix to
-# report-only logic, not a change to what enforcement covers - Rulings-
-# Pending.md R36).
+# a literal question among the withheld inherited sentences a live run
+# surfaced. A correctness fix to report-only logic, not a change to what
+# enforcement covers.
 _INHERITED_EXEMPTION_REPOSITORY = {
     "x.rec": {"id": "x.rec", "record_type": "doctrinal_witness", "text": "The synod met and decided the matter after long debate."}
 }
@@ -541,7 +534,7 @@ def test_find_uncited_paragraphs_still_catches_a_genuine_inherited_ungrounded_se
     assert any(o["class"] == "inherited_ungrounded" for o in offenses)
 
 
-# R39's own reviewer-ordered fix (relayed 2026-09-23): the false fixed
+# A real fix: the false fixed
 # honest-limit sentence. match_named_tradition/world_records_mention_
 # tradition are this fix's own detection half - engine.m4.turn's own
 # _other_tradition_directive tests (test_turn.py) pin the participant-
@@ -587,7 +580,7 @@ _ALX_CHURCH_FAILURE_REPOSITORY = {
 
 
 def test_world_records_mention_tradition_finds_a_real_reference():
-    # Real-shaped, per the reviewer's own explicit ask: ijc's own records
+    # Real-shaped: ijc's own records
     # genuinely name Donatism (ijc.quote.compelled-to-come-in) - the
     # excerpt is trimmed but the real record's own words, not invented.
     ids = world_records_mention_tradition(_DONATISM_MENTIONING_REPOSITORY, _registry()["don"])
@@ -604,7 +597,7 @@ def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it(
 
 def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
     # The same false positive R37's own design brief already found and
-    # fixed (Decision-Log.md Entry 71, first PR #438): a vendored source
+    # fixed: a vendored source
     # filename carrying an unrelated name as a substring is not real
     # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
     # must not count as evidence.
@@ -618,7 +611,7 @@ def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
     assert world_records_mention_tradition(repository, _registry()["don"]) == []
 
 
-# R37 (Rulings-Pending.md R37, R37-A, R37-B). tradition_known_in_window
+# R37: tradition_known_in_window
 # is condition (a) under R37-A's asymmetric reading; conversation_
 # revealed_excerpts is condition (b) with R37-B's third source. The
 # directive half is pinned in test_turn.py; the wiring in test_wiring.py
@@ -733,7 +726,7 @@ def test_world_records_mention_tradition_never_counts_a_representative_s_persona
 
 
 def test_conversation_revealed_excerpts_counts_only_the_facilitator_s_introduction():
-    # Mark's words name "the facilitators introduction" - the door turn.
+    # The ruling names "the facilitators introduction" - the door turn.
     # A later Facilitator turn (threshold, bridge, safety, correction,
     # close) is not a revelation R37 licenses.
     transcript = [

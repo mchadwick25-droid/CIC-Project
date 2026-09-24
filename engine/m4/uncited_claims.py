@@ -1,7 +1,7 @@
-"""R27 (Decision-Log.md Entry 51, 2026-09-22): every declarative claim
+"""R27: every declarative claim
 sentence in a voice turn must carry a citation, or be one of a short,
-closed allowed-uncited list. Report-only in this build (Rulings-Pending.md
-R27) - writes an audit event, never withholds or edits text (same
+closed allowed-uncited list. Report-only in this build - writes an audit
+event, never withholds or edits text (same
 "reports, never edits" discipline engine.m4.output_check already rests
 on); enforcement is a later, separately-ruled, flag-gated PR.
 
@@ -31,7 +31,7 @@ limit/self-naming scaffolding, calibrated against 17 real live turns per
 that module's own docstring.
 
 claim_markers cannot be this module's own overall gate - verified
-directly (Decision-Log.md Entry 51), not assumed: it returns nothing for
+directly, not assumed: it returns nothing for
 "Even a broken priest could not block his grace." (one of R26's own two
 motivating sentences), because claim_markers was built for a narrower
 job with the opposite polarity (empty means skip it; R27 means the
@@ -44,15 +44,13 @@ import re
 
 from engine.prose import SCAFFOLD_MARKERS, SELF_NAMING_MARKER, claim_markers, quote_aware_sentences
 
-# R26's own new fixed sentence (Rulings-Pending.md R26, Decision-Log.md
-# Entry 50), the literal directive text wired into the other_tradition
-# first-ask path (engine.m4.turn._other_tradition_directive) - the voice
-# is TOLD to say these words, so an exact (case-insensitive) match is the
-# right bar here, not a guess.
+# R26's own fixed sentence, the literal directive text wired into the
+# other_tradition first-ask path (engine.m4.turn._other_tradition_directive)
+# - the voice is TOLD to say these words, so an exact (case-insensitive)
+# match is the right bar here, not a guess.
 R26_HONEST_LIMIT_SENTENCE = "our record doesn't mention that christian tradition"
 
-# F1 (reviewer thread fix list, 2026-09-22, after the item-4 live battery):
-# the fleet's own real honest-limit forms the battery's offense list
+# F1: the fleet's own real honest-limit forms a live battery's offense list
 # actually showed - "How it ended among us is not in our record.",
 # "Here is the honest limit.", "No rule of ours survives that explains the
 # difference." - a closed list local to R27's own detection, deliberately
@@ -143,8 +141,8 @@ def find_uncited_claims(sentences: list[dict]) -> list[dict]:
         # uses (check_turn/check_turn_with_paragraph_coverage). A
         # withheld sentence (verdict != "ok") still had tags going in,
         # but apply_net's own strip_tags removes them from what the
-        # participant actually reads regardless of verdict (G6, R39-audit
-        # retrofit brief) - so it reads exactly like an untagged sentence
+        # participant actually reads regardless of verdict - so it reads
+        # exactly like an untagged sentence
         # and is examined the same way here, not skipped.
         if sent["verdict"] == "ok" and sent["tags"]:
             continue
@@ -168,12 +166,11 @@ def classify_neighbour_named(offense: dict, known_tradition_names: list[str]) ->
     return offense
 
 
-# R27-A item 1 (Decision-Log.md Entry 55, 2026-09-23), PASS-verdicted in
-# PR #421: as built in PR #420, this upgrade fired on EVERY base
+# As first built, this upgrade fired on EVERY base
 # uncited_claim inside an other_tradition turn unconditionally - 24/24 in
-# that run's own live data, which under a per-sentence hard failure would
+# a real run's own live data, which under a per-sentence hard failure would
 # fail nearly every other_tradition turn on its own narrative frame, the
-# exact over-flagging problem R27-A itself exists to stop. Narrowed: a
+# exact over-flagging problem this exists to stop. Narrowed: a
 # sentence is own_doctrine_in_other_tradition_turn only when it ALSO
 # appears in failing_paragraph_sentences - the set find_uncited_paragraphs
 # below already flagged as a real paragraph-level failure (wholly
@@ -196,10 +193,9 @@ def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: boo
     return offense
 
 
-# R27-A item 2 (Decision-Log.md Entry 55): a paragraph-level offense
+# A paragraph-level offense
 # list, additive and separate from find_uncited_claims's own sentence-
-# level offenses above (which stays exactly as it is - Entry 54/55's own
-# build order). paragraph_check is
+# level offenses above (which stays exactly as it is). paragraph_check is
 # engine.m4.grounding_net.check_turn_with_paragraph_coverage's own whole
 # result - "sentences" and "paragraph_coverage" are read from the SAME
 # call, so a paragraph's own sentence_count partitions "sentences" back
@@ -207,8 +203,7 @@ def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: boo
 # computed sentence list.
 #
 # Two failure kinds, reported with distinct classes so a battery can
-# count them separately (the reviewer thread's own instruction, PR #421's
-# verdict):
+# count them separately:
 #   "wholly_uncited_paragraph" - every sentence in the paragraph carries
 #     no citation anywhere in it, and at least one of its sentences is a
 #     real, non-exempt claim - the same three allowed-uncited kinds
@@ -217,7 +212,7 @@ def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: boo
 #     identical checks, not reinvented.
 #   "inherited_ungrounded" - the sentence carries no tag of its own, its
 #     paragraph (or, for a one-sentence paragraph, the paragraph
-#     immediately before it - Entry 55's own recommendation) DOES carry a
+#     immediately before it) DOES carry a
 #     citation, but the inherited check against that citation's own
 #     records still fails - a sentence the paragraph's own evidence
 #     cannot actually support, not merely one riding along uncited.
@@ -241,7 +236,7 @@ def find_uncited_paragraphs(paragraph_check: dict) -> list[dict]:
                 if sent["verdict"] != "ok" or sent["tags"]:
                     continue
                 text = sent["sentence"]
-                # R36's own hand-sort (Decision-Log.md Entry 56, 2026-09-23)
+                # A hand review of live output
                 # found this branch catching sentences the wholly_uncited
                 # branch above already exempts - a literal question, R26's
                 # own fixed honest-limit sentence itself, a first-person
@@ -259,8 +254,7 @@ def find_uncited_paragraphs(paragraph_check: dict) -> list[dict]:
     return offenses
 
 
-# F5 (reviewer thread fix list, 2026-09-22, after PR #419's own re-run):
-# known_tradition_names read card_name only - a real gap the #419 report
+# F5: known_tradition_names read card_name only - a real gap a live report
 # itself surfaced, twice: the battery's own other-tradition probe named
 # "the Donatists" (a demonym, what a voice's own prose actually says),
 # never don's own card_name "The Church of the Martyrs", so
@@ -340,9 +334,8 @@ def known_tradition_names(registry: dict, *, exclude_world_key: str) -> list[str
     return names
 
 
-# R39's own reviewer-ordered fix (relayed 2026-09-23, "the false fixed
-# sentence is a defect, and it is yours to fix now"): _other_tradition_
-# directive's own honest-limit sentence ("Our record doesn't mention that
+# A real fix: _other_tradition_directive's own honest-limit sentence
+# ("Our record doesn't mention that
 # Christian tradition.") fires unconditionally on ANY other_tradition
 # routing, regardless of whether the SPEAKING world's own records already
 # name the tradition asked about - false for ijc on Donatism, whose own
@@ -376,7 +369,7 @@ def match_named_tradition(text: str, registry: dict, *, exclude_world_key: str) 
 
 
 # The same restricted prose-field allowlist R37's own design brief
-# (Decision-Log.md Entry 71, first PR #438) already proved necessary: a first
+# already proved necessary: a first
 # attempt against engine.prose.all_text (which reaches into a record's
 # own sources[].locus strings) produced a false positive there - a
 # vendored source filename carrying an unrelated name as a substring, not
@@ -428,8 +421,7 @@ def world_records_mention_tradition(repository_records: dict[str, dict], named_w
 
 
 
-# R37 (Rulings-Pending.md R37, ruled 2026-09-23; R37-A the same day;
-# R37-B 2026-09-24): a Representative may use knowledge of a named-but-
+# R37: a Representative may use knowledge of a named-but-
 # uncovered tradition to choose which part of its own record to answer
 # from only when (a) it would have known of that tradition in its own
 # time, or (b) the Facilitator, the participant, or another
@@ -475,7 +467,7 @@ def conversation_revealed_excerpts(
 
     Of the Facilitator's turns, only the introduction counts - kind
     "door", the interview's DOOR and the Table's TABLE_DOOR (engine.m4.
-    facilitator_turns). Mark's words name "the facilitators
+    facilitator_turns). The ruling names "the facilitators
     introduction", not every Facilitator turn: a threshold, bridge,
     safety, correction or close turn is not a revelation this ruling
     licenses.
