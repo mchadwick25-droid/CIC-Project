@@ -187,6 +187,134 @@ def test_iso_date_inside_prose_rewrites(tmp_path):
 
 
 # ---------------------------------------------------------------------------
+# Checker refinements (2026-09-24, checker-refinements PR)
+# ---------------------------------------------------------------------------
+
+def test_plain_prose_open_item_routes_with_no_other_pattern(tmp_path):
+    # Real failure mode: cic/corpus-map entries naming an open item in plain
+    # prose, with no ruling number, date, or other PATTERNS hit on the line
+    # at all - before the ROUTE_CUES root-cause fix, scan_file's own
+    # `if not matched: continue` meant these were silently skipped rather
+    # than routed.
+    text = "Whether this source counts as native is worth reconsidering.\n"
+    hits = _hits_for(text, tmp_path, "cic/corpus-map/witt.map.md")
+    assert len(hits) == 1
+    assert hits[0].category == "ROUTE"
+
+
+def test_flagged_for_mark_and_needing_a_ruling_route(tmp_path):
+    for text in (
+        "This attribution is flagged for Mark.\n",
+        "The tradition boundary here is needing a ruling.\n",
+        "This cross-check has not yet been done for the second edition.\n",
+    ):
+        hits = _hits_for(text, tmp_path, "cic/corpus-map/witt.map.md")
+        assert hits and hits[0].category == "ROUTE", text
+
+
+def test_era_gate_freeze_narration_rewrites(tmp_path):
+    # cic-website/data/world-census.json's own "at the Freeze"/"at the gate"
+    # construction - previously invisible (no ruling number, no date, no
+    # other PATTERNS hit).
+    text = '"statusDescription": "Its start was corrected at the gate from 330 to 451."\n'
+    hits = _hits_for(text, tmp_path, "cic-website/data/world-census.json")
+    assert hits[0].category == "REWRITE"
+    assert "era-gate" in hits[0].patterns
+
+
+def test_era_frozen_status_phrase_not_flagged_as_era_gate(tmp_path):
+    # The legitimate current-status phrasing the era-gate pattern must not
+    # catch: "era frozen" is not "at the ... Freeze/gate".
+    text = '"stepStatus": "Step 0 run complete - era frozen"\n'
+    hits = _hits_for(text, tmp_path, "cic-website/data/world-census.json")
+    assert not any("era-gate" in h.patterns for h in hits)
+
+
+def test_generic_reviewer_keeps(tmp_path):
+    # cic-website/support.html:127 and reference/Project-Reference/
+    # CiC_Cleaning_Pattern_Log.md's own real KEEP examples: a generic or
+    # hypothetical third-party reviewer, not this project's own review
+    # process.
+    for text in (
+        "If you know a scholar who might serve as an external reviewer, introduce us.\n",
+        "A reviewer checking only for names would still miss this.\n",
+    ):
+        hits = _hits_for(text, tmp_path, "cic-website/support.html")
+        assert hits == [] or hits[0].category == "KEEP", text
+
+
+def test_named_project_reviewer_still_rewrites(tmp_path):
+    # The carve-out must not blanket-suppress a genuine provenance mention.
+    text = "Per Mark's ruling, the reviewer's own note (R26, 2026-08-21) still applies.\n"
+    hits = _hits_for(text, tmp_path, "engine/m4/turn.py")
+    assert hits[0].category == "REWRITE"
+
+
+def test_source_registry_row_id_keeps(tmp_path):
+    for text in (
+        "Doc_09 witt-S07; Source Registry R45.\n",
+        "Named absence; vol. IV carries R48 and R61. (Source Registry row 62; Confidence B.)\n",
+        "the Iserloh row (R76) is cited but not read.\n",
+    ):
+        hits = _hits_for(text, tmp_path, "records/witt/story/witt.story.example.md")
+        assert hits == [] or hits[0].category == "KEEP", text
+
+
+def test_source_registry_row_id_inside_source_record_body_keeps(tmp_path):
+    record = (
+        "---\n"
+        "id: witt.source.example\n"
+        "record_type: source\n"
+        "status: ready\n"
+        "---\n"
+        "Named absence; vol. IV carries R48 and R61.\n"
+    )
+    hits = _hits_for(record, tmp_path, "records/witt/source/witt.source.example.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(6, "KEEP") == "KEEP"
+
+
+def test_ruling_number_outside_source_registry_context_still_rewrites(tmp_path):
+    # The carve-out is scoped to Source Registry/row context and source
+    # record bodies - a bare ruling number elsewhere in a story record's
+    # body still rewrites.
+    text = "Per Mark's ruling R26, this scene stays as narrated.\n"
+    hits = _hits_for(text, tmp_path, "records/witt/story/witt.story.example.md")
+    assert hits[0].category == "REWRITE"
+
+
+def test_change_history_cue_widens_to_whole_paragraph(tmp_path):
+    # records/witt/voice_craft/witt.voice.craft.md's own real shape: a
+    # CORRECTION paragraph whose other sentences cite process artifacts in
+    # shapes no PATTERNS entry catches on its own (a bare "OG-15" gap ID,
+    # a "Doc_10" single-digit citation).
+    text = (
+        "CORRECTION (go-live adversarial review, Round 1 re-confirmation pass):\n"
+        "the first fix gave the guard field a real instruction, but that\n"
+        "instruction was itself factually inaccurate (Doc_10; OG-15).\n"
+        "The library is not silent on 1525; it holds real content.\n"
+        "\n"
+        "A fully unrelated paragraph after a blank line.\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/witt/voice_craft/witt.voice.craft.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(1) == "REWRITE"
+    assert by_line.get(2) == "REWRITE"  # no PATTERNS hit of its own
+    assert by_line.get(3) == "REWRITE"  # "OG-15"/"Doc_10" match nothing on their own
+    assert by_line.get(4) == "REWRITE"
+    assert 6 not in by_line  # the next paragraph is untouched
+
+
+def test_change_history_cue_case_sensitivity(tmp_path):
+    # CORRECTION/BLOCKING stay case-sensitive (all-caps only), same
+    # reasoning as the existing "ruled" pattern - ordinary lowercase
+    # engineering prose must not be swept in.
+    text = "A correction to one's wording is exactly the kind of change that can happen.\n"
+    hits = _hits_for(text, tmp_path, "engine/m1/gates.py")
+    assert hits == [] or hits[0].category == "KEEP"
+
+
+# ---------------------------------------------------------------------------
 # Spoken-field grading/provenance vocabulary (SPOKEN_VOCAB_PATTERNS)
 # ---------------------------------------------------------------------------
 
@@ -354,7 +482,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     ("engine/m9/enforce.py", 111, "KEEP"),
-    ("engine/m4/tests/test_turn.py", 1268, "REWRITE"),
+    # Refreshed 2026-09-24 (checker-refinements PR): the line this entry
+    # pinned before Step 2 PR C's own edit pass no longer matches anything;
+    # re-pinned to a still-live r27_enforce assertion in the same file.
+    ("engine/m4/tests/test_turn.py", 1124, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     ("engine/m9/enforce.py", 139, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
