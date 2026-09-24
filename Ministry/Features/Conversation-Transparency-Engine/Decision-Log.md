@@ -4849,16 +4849,16 @@ only change it makes now.
 to Entry 69's brief as passed, with the rulings that closed its open
 questions.
 
-**Rulings this build rests on.** Mark, directly in this thread: Q1 yes -
-a `doctrinal_witness` record is a general reference, at the end of the
-reply (R10(c)'s witness-at-run-start placement is retired for every
-turn built on per-element placement); Q2 yes - figure names stay inline
-at the name. The reviewer thread, on Entry 69's own §6: Q3 - a story's
+**Rulings this build rests on.** Mark's choice of Entry 69's own
+options (R31-C): Q1 - a `doctrinal_witness` record is a general
+reference, at the end of the reply, and R10(c)'s witness-at-run-start
+placement is retired for every turn built on per-element placement; Q2 -
+figure names stay inline at the name, like a lexicon term. The reviewer thread, on Entry 69's own §6: Q3 - a story's
 mark sits at the end of its telling, and under streaming is added to
 sentence k when sentence k+1 clears without it, or at turn end, add-only;
 Q4 - a quote mark is exempt from the R17 cap. Q5 (end list open or
 collapsed) is still Mark's; the collapsed list stays until he rules.
-All recorded in Rulings-Pending.md under R31-B.
+All recorded in Rulings-Pending.md as R31-C.
 
 **Engine.**
 - `engine/m4/transparency_plan.py` replaces sentence-run `anchors` with

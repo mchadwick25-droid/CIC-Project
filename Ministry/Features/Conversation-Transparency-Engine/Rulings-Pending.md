@@ -442,17 +442,28 @@ rather than marked inside it. The design brief that builds to R31,
 R31-A and R31-B together is Decision-Log.md Entry 69; the questions it
 leaves open are listed there with who decides each one.
 
-**Ruled 2026-09-24 (Mark, directly in the building thread: "Q1 yes, Q2
-yes, go with your recommendations"):** a `doctrinal_witness` record is
-a general reference, collected at the end of the reply; this retires
-R10(c)'s witness-at-run-start placement for any turn built on
-per-element placement. Figure names stay marked inline, at the name,
-like lexicon terms. Entry 69's Q3 (story placement: end of the telling,
+### R31-C — Entry 69's open questions: witness records and figure names
+**Status:** RULED — 2026-09-24. Mark chose between the options Decision-
+Log.md Entry 69 §6 put to him (Q1, Q2), each with its recommendation -
+by the reviewer thread's select box, and directly in the building thread
+("Q1 yes, Q2 yes, go with your recommendations"). The rulings are his
+choice of those written options, not his own wording of them.
+
+**Ruled (Q1):** a `doctrinal_witness` record is a general reference,
+listed at the end of the reply. Witness marks lose their inline
+placement, and R10(c)'s witness-at-run-start rule is retired for every
+turn built on per-element placement.
+
+**Ruled (Q2):** figure marks stay inline, at the name, treated like a
+lexicon term, with no end reference.
+
+**Not ruled (Q5):** whether the end-of-reply list shows open or stays
+collapsed. The build keeps today's collapsed list until Mark rules.
+
+Entry 69's Q3 (story mark at the end of its telling; under streaming,
 added when the next sentence clears) and Q4 (a quote mark is exempt from
-the R17 cap) were decided by the reviewer thread. Q5 (whether the end
-list shows open) and the three pieces of wording Entry 69 §5 names
-remain Mark's; the build (Decision-Log.md Entry 70) keeps today's
-collapsed list and today's wording until he rules.
+the R17 cap) were decided by the reviewer thread. Build: Decision-Log.md
+Entry 70.
 
 ### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
 **Status:** RULED — 2026-09-23. Mark chose this from three options put
