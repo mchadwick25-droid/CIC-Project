@@ -924,3 +924,71 @@ old `packages/rzg/2026-09-24T00-32-15Z`
 (`sha256:ec3bfe6c959c029e45c97015b8dd751f81535606fb44d98b833a71724e9ad775`).
 Site JSON rebuilt against the same commit. Both staleness checks
 clean fleet-wide.
+
+**Entry 22 — 2026-09-24 (R43 Group A, world 3 of 4: don — 3
+pre-existing renderings re-authored).** rzg (PR #468) is done and
+merged, including its own round-2 register fix. All 3 of don's
+findings were read by hand against the record's own `text` field
+before re-authoring, and every rewrite was hand-checked against the
+process doc's fragment rule before pushing.
+
+All 3 were genuine. `emeritus-magno-argumento` had dropped the "great
+argument" (magno argumento) concept entirely and lost the original's
+causal `ut cum` structure (the small answer from the other side is
+what triggers the rest going unanswered). `petilian-conscience-of-
+the-giver` had dropped "him who gives in holiness" and flattened
+"receives not faith, but guilt" into a single negation that lost the
+original's explicit not-X-but-Y contrast. `the-shores-are-covered`
+had dropped "shipwrecked members," "certain men," and "intensified in
+death itself," and had condensed the Egyptian comparison so that the
+specific image of shores covered with bodies was lost.
+
+Two records needed more than one round. `emeritus-magno-argumento`'s
+first fix added an unwarranted modal ("can hide") and was read by the
+grader as adding a causal frame not in the Latin; removing the modal
+and keeping the passive ("truth is hidden by...") cleared it, and a
+lone "expansion" flag on an unchanged re-run afterward was the
+established grader-noise pattern (4 "translation" out of 5 total
+runs). `petilian-conscience-of-the-giver` needed three attempts: the
+first dropped "conscience" as a term and blurred the not-faith-but-
+guilt contrast; the second restored "conscience" but the added "so
+that it may cleanse" was flagged as an invented causal claim not in
+the Latin's plain infinitive; the third, closest to the original's
+own clause order ("to cleanse that of the recipient"), cleared 3/3.
+`the-shores-are-covered` needed a readability-driven revision after
+the record's own first fix scored FK 12.7 (a long sentence built from
+an inserted mid-clause, "the shores, ... are covered ..."); splitting
+into shorter independent sentences brought it to FK 6.9, but that same
+split had replaced the original's causal "since ... after their life
+has been wrung ... they fail to find" with a bare "and," which the
+grader caught reproducibly (4 of 5 runs) as a real dropped clause, not
+noise; restoring "Since the avenging waters have wrung their life from
+them" cleared 3/3 at FK 6.9.
+
+**No honest exceptions, no "grader disagreement" entries this world.**
+Every record read "translation" on at least two consecutive runs of
+its final wording once genuine drops were fixed.
+
+**Gate results.** `gate_readability` (FK ceiling 10): all 3 clean
+(6.4, 7.8, 6.9). Full `run_all()` (all M1 gates) on don: only the
+pre-existing `reciprocity` findings (52, confirmed unrelated and
+present identically on unmodified main - none of the 52 name any of
+the 3 records touched here, and none is this PR's to fix).
+`pytest engine/m1/tests/ engine/m2/tests/`: 191 passed, no
+regressions. No field other than `modern_rendering` touched on any of
+the 3 records, per R33.
+
+**Package pin and site JSON, both rebuilt from the start.** Main had
+not moved since branching; rebuilt and re-pinned once against this
+PR's own commit `5be7b57c31e3b226bfdd14da5008b16b9d0006c0`. Old
+`packages/don/2026-09-23T08-13-44Z`
+(`sha256:a69aab7d7b4a00fec1f9d7658e454e52609ecaabd40b4845c06c3dd97751f9f1`)
+→ new `packages/don/2026-09-24T01-48-30Z`
+(`sha256:8abee285d1ae498dc27d64686d40ec13cc38ce1d8d3b772a4135ded01dbbefde`).
+Site JSON (`cic-website/data/worlds/donatism.json`) rebuilt against
+the same commit. Both `engine.m2.checks.staleness_sweep()` and
+`engine.m2.site_cli staleness-check` report clean fleet-wide.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+0 new unresolved path citations; 769 total; 769 accepted in baseline;
+0 retired paths present.
