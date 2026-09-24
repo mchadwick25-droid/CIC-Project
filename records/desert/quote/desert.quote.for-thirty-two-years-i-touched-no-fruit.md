@@ -25,8 +25,8 @@ modern_rendering: >-
   He renounced the world in the days of the infamous Emperor Julian. He spoke to Julian with
   boldness. Julian ordered him shaved and beaten by boys. He endured this ordeal patiently, and he
   expressed his thanks to Julian, as he himself told us. ... He told us this: "For thirty-two years,
-  I did not touch fruit." Once, when fear attacked him, he shut himself in a tomb for six years, in
-  order to get rid of it.
+  I did not touch fruit." Once, when fear attacked him, in order to get rid of it, he shut himself in
+  a tomb for six years.
 speaker_or_author: Palladius, reporting Philoromus of Galatia in his own words
 license: verbatim
 modern_lens_note: >-
