@@ -1048,3 +1048,93 @@ clean, matching the baseline exactly.
 
 **This completes R43 Group A** (cappadocian, rzg, don, witt). R43
 Group B (desert, hal, pahc, syr, alx re-read pass) starts next.
+
+**Entry 24 — 2026-09-24 (R43 Group B, world 1 of 5: desert — 8 of 11
+flagged findings re-authored, 3 grader disagreements).** witt (PR #470)
+is done and merged, closing Group A at 24 records. This is the first
+Group B world: unlike Group A, every flagged finding is re-graded 3x
+unmodified before any change is made, to separate a genuine drop from
+grader noise, and a record where the grader's own reading is wrong is
+left unchanged and listed as a disagreement rather than rewritten to
+satisfy it.
+
+**3 of 11 are grader disagreement, human read stands, unchanged.**
+`an-old-man-in-the-next-village` (3/3 translation on re-grade): the
+grader's original flag wanted the "after he had seen this man" causal
+link stated explicitly, but the rendering's own clause order (saw, then
+imitated) already carries that sequence; nothing is dropped or added.
+`monks-like-hyenas` (3/3 translation): the grader's flag claimed the
+hyena-actions comparison was lost, but the rendering states it as its
+own explicit sentence ("Their actions are like those of the hyena");
+the flag does not match the actual text. `never-kneel-saturday-to-
+sunday` (3/3 summary on re-grade, but the grader is wrong): re-reading
+the source's own "nor...nor" structure directly shows that both
+no-kneeling and no-fasting apply to BOTH periods (the weekly Saturday-
+evening-to-Sunday-evening span and the Easter-to-Whitsuntide season),
+exactly what the rendering already states; the grader misparses the
+sentence as restricting fasting to only one period, which the Latin
+does not support and standard patristic-liturgical practice (no
+kneeling or fasting through the whole Paschal season) confirms.
+
+**8 of 11 were genuine**, each requiring 2-3 revision rounds (re-graded
+3-5x per round) before clearing on a translation majority: `eight-
+principal-faults` had dropped the Greek/Latin technical terms
+(gastrimargia, philargyria, acedia, cenodoxia) and split their glosses;
+`equal-measure-of-strength` had dropped the causal "so that" framing
+and "the labour of ascetic excellence" as the named domain;
+`for-thirty-two-years-i-touched-no-fruit` had moved the purpose clause
+("in order to get rid of it") out of its original position, changing
+the emphasis; `grace-and-free-will-in-harmony` had dropped "the system
+of" and the prescriptive "ought to have"; `so-perfectly-silent` had
+dropped the "celebrate their rites" framing before naming the synaxis;
+`they-have-taken-away-my-god` had dropped "Alas!" and compressed
+"worship and address" into a single loosely-matched pair;
+`the-deeds-of-christ-prove-him` had detached "which shew that Christ is
+no longer a man but God" from the miracle list into a separate
+sentence and dropped the "Or why...are you silent" rhetorical
+structure - the record also carried an incidental defect independent
+of the flagged issue (`paralytics` had been swapped for `lame`, a
+different medical condition, though `paralytics` itself survives
+plainly in modern English and needed no translation) - restoring the
+relative-clause structure and the original term both were required
+before it cleared 5/5. `twelve-psalms-by-an-angel` needed the most
+rounds: an early revision introduced its own defect (an invented
+"The elders once argued..." framing sentence not in the source, caught
+5/5 as "expansion" once the surrounding content was restored) before a
+version translating directly from the source's own opening clause,
+with no invented frame, cleared on a 3/5 translation majority - the
+residual 2/5 "summary" flags on that final version cite only minor
+word-level compression ("quite easy" vs "easy," dropped "considering")
+with no further clause actually missing, so majority-translation is
+accepted rather than chased further, per the standing grader-noise
+protocol.
+
+**Gate results.** `gate_readability` (FK ceiling 10): all 8 re-authored
+records clean, including two that needed a dedicated readability pass
+after their first content-restoring rewrite scored above ceiling
+(`twelve-psalms-by-an-angel` 22.6→9.6, `the-deeds-of-christ-prove-him`
+12.4→9.0) - both re-cleared the fidelity gate again after the
+readability-driven rewrite, since splitting a sentence for FK can
+itself drop content if done carelessly, which happened once on each
+before the version that held both gates at once. Full `run_all()` (all
+M1 gates) on desert: only the pre-existing `reciprocity` finding (1,
+confirmed identical on unmodified main, naming a record this PR does
+not touch - not this PR's to fix). `pytest engine/m1/tests/
+engine/m2/tests/`: 191 passed, no regressions. No field other than
+`modern_rendering` touched on any of the 8 re-authored records, per
+R33; the 3 disagreement records are untouched entirely.
+
+**Package pin and site JSON, both rebuilt from the start.** Rebuilt and
+re-pinned once against this PR's own commit
+`edc5832ba1b749e07fa9c78577ddcadedb7ece8f`. Old
+`packages/desert/2026-09-23T19-33-23Z`
+(`sha256:a43b6eb055028868314ab3cdd5d7e5b64d23fb690f8042693e4e5a15b55b3977`)
+→ new `packages/desert/2026-09-24T03-04-22Z`
+(`sha256:f7c861054e70389fb7405bf1175a35ff4018785774c2366d6d8fc026c8273491`).
+Site JSON (`cic-website/data/worlds/desert-monasticism.json`) rebuilt
+against the same commit. Both `engine.m2.checks.staleness_sweep()` and
+`engine.m2.site_cli staleness-check` report clean fleet-wide.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+0 new unresolved path citations; 769 total; 769 accepted in baseline;
+0 retired paths present.

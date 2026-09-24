@@ -20,8 +20,9 @@ text: "Alas! wretched man that I am! they have taken away my God from me, and I 
 speaker_or_author: "Abbot Sarapion of Scete, as Cassian records him - a different named elder from the Abbot Serapion of Conference V (the eight-principal-faults teaching); the surviving text marks the two with different spellings"
 license: verbatim
 modern_rendering: >-
-  I am a wretched man! They have taken my God away from me. Now I have
-  no one to hold on to. I do not know who to worship, or who to pray to.
+  Alas! I am a wretched man! They have taken my God away from me. Now I
+  have no one to hold on to. I do not know whom to worship, or whom to
+  address.
 modern_lens_note: >-
   A modern reader may hear this as simple attachment to a comforting mental
   picture, easy to set aside once a truer idea arrives. Read in context, the
