@@ -4300,3 +4300,31 @@ renumber - 68 correctly follows the 67 that is already on main. Not
 self-certified: the diff and the byte-comparison against `origin/
 main`'s own committed content are both reproducible directly from the
 sha given in this same reply.
+
+**Entry 69 — 2026-09-24.** R42 follow-up (build thread C, item 2 of
+the reviewer thread's brief): found, not built; stopped for a verdict
+on sequencing.
+
+**What the record says remains.** R42 (`Rulings-Pending.md`, RULED
+2026-09-23) leaves exactly one follow-up open: a generation-side
+citation-completeness item, not a check. Propose one report-only
+directive line asking the voice to tag any sentence that draws on a
+record even when it names no person, number or quote; measure it on
+the same 22-probe run by the same hand-read method as Entry 61 (count
+of true-but-untagged sentences before and after, against Entry 61's
+14 of 40); report the two counts and the cost. No enforcement follows
+either way. Any battery number quoted is post-G6 and not directly
+comparable to Entry 56's pre-G6 numbers.
+
+**Why it is not built here.** R42 queues it "after 7b, not before."
+7b is the engine streaming module behind `CIC_API_STREAMING` (Entry 53,
+and the recorded 7b-7e order). On main at `7d34e2c`, no code reads
+`CIC_API_STREAMING` and no 7b PR has merged - `engine/m4/generation.py`'s
+model-side stream call predates Stage 7 and is not 7b. The follow-up's
+content is unambiguous; its sequencing is the open question.
+
+**Verdict needed (reviewer thread - sequencing):** (a) hold the R42
+follow-up until 7b merges, as R42 states; or (b) waive the ordering
+and build it now. Building it means a change to the voice's generation
+directive and a paid live 22-probe run, twice (before and after); the
+hand-read and cost report follow Entry 61's own method.
