@@ -20,16 +20,15 @@ works:
     LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
-    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
-    exchange, exactly) and by keyword count where it does not, taking the natural break in
-    the distribution rather than a chosen threshold. The four parts partition the 168 with
-    no overlap. This part is exact: every letter whose title names Jerome, in both directions.
-    `tradition` for BOTH entries deliberately - the exchange contains Jerome''s own letters,
-    which are the Hieronymian world''s voice, and Augustine''s, which are the Latin pastoral
-    world''s. A two-sided correspondence has voice on both sides. It is also the largest single
-    thing in this volume after the Confessions.'
+  note: 'Derived from the volume''s own markup rather than from a reading list: each letter
+    is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
+    where the title names one (the Jerome exchange, exactly) and by keyword count where it
+    does not, taking the natural break in the distribution rather than a chosen threshold.
+    The four parts partition the 168 with no overlap. This part is exact: every letter whose
+    title names Jerome, in both directions. `tradition` for BOTH entries deliberately - the
+    exchange contains Jerome''s own letters, which are the Hieronymian world''s voice, and
+    Augustine''s, which are the Latin pastoral world''s. A two-sided correspondence has voice
+    on both sides. It is also the largest single thing in this volume after the Confessions.'
   source_file: npnf101_augustine-confessions-letters.xml
 - work: The City of God, Book XVIII, chapters 42-44 (the authority of the Septuagint)
   author: augustine
@@ -56,16 +55,12 @@ works:
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: context
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
-    project, not membership of his circle.'
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no obvious
+    census home at first glance - merovingian-gallic-christianity (c. 480-620) seems to start
+    as he ends - but Gennadius died c. 496, which is INSIDE that window rather than before
+    it: the overlap is real and he falls in it. Assigned there as his home, with hieronymian-ascetic-literary
+    kept as context: the direct continuation of Jerome''s literary project, not membership
+    of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Against Jovinianus
   author: jerome
@@ -149,7 +144,7 @@ works:
     (Rufinus'' Commentary on the Apostles'' Creed), and these four short letters are primary-voice
     correspondence naming Aquileian and Concordian figures by name and role, not about the
     church from outside it. Surfaced by a source-research pass on Aquileian Christianity''s
-    (I.41) sourcing gaps, 2026-09-13.
+    (I.41) sourcing gaps.
 
     '
   source_file: npnf206_jerome-principal-works.xml
@@ -216,8 +211,7 @@ works:
   confidence: assigned
   note: 'Same doubt as the Hilarion: Syrian setting, monastic subject, and no census entry
     for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
-    not). Desert-monasticism as nearest monastic bucket, flagged. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.'
+    not). palestinian-ascetic-monasticism-early, added for this movement, holds it directly.'
   source_file: npnf206_jerome-principal-works.xml
 - work: The Life of Paulus the First Hermit
   author: jerome
@@ -235,10 +229,9 @@ works:
   role: tradition
   confidence: assigned
   note: Hilarion carries Antony's pattern to Palestine, so the subject is monasticism outside
-    the desert entry's stated region (Egypt, Nile Valley). No census entry covers fourth-century
-    Palestinian monasticism (the Judean-desert/Gaza entry begins c. 450), so desert-monasticism
-    is the nearest bucket; flagged rather than silently stretched. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.
+    the desert entry's stated region (Egypt, Nile Valley). No census entry covered fourth-century
+    Palestinian monasticism until palestinian-ascetic-monasticism-early was added for this
+    movement; it holds it directly now.
   source_file: npnf206_jerome-principal-works.xml
 - work: The Perpetual Virginity of Blessed Mary (Against Helvidius)
   author: jerome
@@ -256,8 +249,8 @@ works:
   confidence: assigned
   note: 'Origenist-controversy polemic against the bishop of Jerusalem. It describes the Jerusalem
     church only as an adversary in a Christian quarrel, so it is not assigned to the Jerusalem
-    entry and is not `context` under Mark''s definition (Jerome speaks as a Christian); noted
-    here in case a reviewer wants the Jerusalem cross-reference.
+    entry and is not `context` under this project''s own definition (Jerome speaks as a Christian);
+    flagged here as a cross-reference to the Jerusalem entry.
 
     '
   source_file: npnf206_jerome-principal-works.xml
@@ -338,12 +331,11 @@ works:
   locus: div2 6.2
   role: transmission
   confidence: assigned
-  note: 'Added 2026-08-27 with the `transmission` role. The commentary is Victorinus'' - his
-    voice is on danubian-latin-christianity - but the text anyone can read is Jerome''s reissue,
-    with the millenarian ending rewritten. The relation is custody: this entry''s people are
-    why we still have it, and why we do not have quite what was written. That is the boundary
+  note: 'Carries the `transmission` role. The commentary is Victorinus'' - his voice is on
+    danubian-latin-christianity - but the text anyone can read is Jerome''s reissue, with
+    the millenarian ending rewritten. The relation is custody: this entry''s people are why
+    we still have it, and why we do not have quite what was written. That is the boundary
     the role was defined on.
-
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml

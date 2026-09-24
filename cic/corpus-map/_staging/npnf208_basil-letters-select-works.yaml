@@ -16,10 +16,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Basil''s defense of the Spirit''s equal glory against the Pneumatomachians, and the
-    classic appeal to the church''s unwritten liturgical tradition (ch. 27). The party argued
-    against has no census entry (there is no Macedonian/Pneumatomachian bucket), so the work
-    stays with its author''s entry; noted rather than forced. 2026-08-26: pneumatomachian-current
-    added alongside - the party this work argues with now has an entry of its own.'
+    classic appeal to the church''s unwritten liturgical tradition (ch. 27). pneumatomachian-current
+    holds the party this work argues with, alongside the author''s own entry.'
 - work: De Spiritu Sancto (On the Holy Spirit)
   author: basil
   locus: div1 7 (~53,414 words), thirty chapters at div2 7.2-7.31
@@ -28,10 +26,8 @@ assignments:
   role: context
   confidence: assigned
   note: 'Basil''s defense of the Spirit''s equal glory against the Pneumatomachians, and the
-    classic appeal to the church''s unwritten liturgical tradition (ch. 27). The party argued
-    against has no census entry (there is no Macedonian/Pneumatomachian bucket), so the work
-    stays with its author''s entry; noted rather than forced. 2026-08-26: pneumatomachian-current
-    added alongside - the party this work argues with now has an entry of its own.
+    classic appeal to the church''s unwritten liturgical tradition (ch. 27). pneumatomachian-current
+    holds the party this work argues with, alongside the author''s own entry.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on

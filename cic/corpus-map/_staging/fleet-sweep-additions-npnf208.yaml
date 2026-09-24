@@ -1,5 +1,5 @@
-# Written 2026-08-27 by the fleet unopened-volume sweep. The volume was already
-# vendored; this row records that syriac-edessa-nisibis now opens it.
+# The volume was already vendored; this row records that
+# syriac-edessa-nisibis now opens it.
 source_file: npnf208_basil-letters-select-works.xml
 assignments:
 - work: The Hexaemeron, Homily II (on Genesis 1:2)

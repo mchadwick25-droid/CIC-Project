@@ -1,6 +1,7 @@
-# Vendored 2026-08-27, supplied by Mark. Fulfils part of the acquisition
+# Fulfils part of the acquisition
 # pahc.search.roman-historians-english-pd left open as not_found.
-# ONE CHAPTER, not the Annals - see the vendored file's own SCOPE block.
+# ONE CHAPTER, not the Annals - see the vendored file's own SCOPE
+# block.
 source_file: tacitus_annals-15-44_church-brodribb1876.txt
 authors_ruled:
   church_brodribb:

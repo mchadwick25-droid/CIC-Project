@@ -1,7 +1,7 @@
-# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
-# the Reformed Cities build (Atlas VI.2), per this world's own Source
-# Readiness Dossier. A partial extract (two sections only) from a much
-# larger Schaff reference volume - see the file's own intake header.
+# Proactively vendored ahead of the Reformed Cities build (Atlas VI.2),
+# per this world's own Source Readiness Dossier. A partial extract
+# (two sections only) from a much larger Schaff reference volume - see
+# the file's own intake header.
 source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
 
 authors_ruled:

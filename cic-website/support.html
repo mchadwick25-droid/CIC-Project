@@ -1,169 +1,30 @@
 <!--
-  Replaced 2026-08-06 (Funding Strategy thread) - previous version ("Help us open
-  more seats at the Table", single undifferentiated giving pool) is superseded.
-  This version was built live with Mark across an extended session: real cost
-  figures grounded in Ministry/Features/Funding-Strategy/CiC_Cost_Study_Per_Transaction_V0_1.md,
-  the "door" framing chosen deliberately over "Table/chairs" (both considered,
-  door picked because it's already part of the brand and reads as an easier ask),
-  and two named, separately-designated funds (Accessibility, Academic Review)
-  replacing the old single pool. Full derivation and every intermediate
-  decision live in Ministry/Features/Funding-Strategy/Decision-Log.md.
+  Get Involved page: real cost figures, the Accessibility Fund's two Stripe
+  Payment Links (one-time and monthly), and what a gift supports. Full
+  derivation and revision history live in the funding-strategy decision
+  record under Ministry/Features/Funding-Strategy/.
 
-  SUPERSEDED 2026-08-25 (Mark, direct instruction): Academic Review Fund is
-  dropped from this page for now - not doing that ask yet. Just one fund,
-  Accessibility, with the two Payment Links below (see the next comment)
-  as its two ways to give. Academic review itself is still real mission
-  work (see whats-next.html's own Academic Review section, which asks for
-  volunteers/funding by email, not through this page) - only the Stripe
-  giving-fund framing on THIS page is cut, not the underlying ambition.
+  Real Stripe checkout for the Accessibility Fund is
+  live via the two Payment Links below (no server, no account created
+  anywhere, same "no accounts, no gatekeeping" shape as the rest of this
+  site) - split by gift frequency, one-time and monthly recurring, not by
+  fund. If either Payment Link is ever rotated: get the replacement ID via
+  a real copy-paste from the Stripe Dashboard's own "Copy link" action
+  rather than retyping it, and confirm the new link's checkout mode
+  (one-time vs. recurring) by opening it directly - the domain name
+  (buy.stripe.com vs. donate.stripe.com) is not a reliable signal of
+  which mode a link uses.
 
-  Per Mark's explicit instruction (2026-08-06): this pass is TEXT ONLY. The
-  interactive Stripe checkout (amount buttons, /api/support/checkout call) from
-  the old version is intentionally NOT carried over yet - replaced with a plain
-  "contact us" prompt. Wiring real checkout to two separately-designated funds
-  is real, separate follow-up work (the current endpoint only supports one
-  undifferentiated amount, not a fund selection) - do not build that silently
-  into a future pass without flagging it as its own step.
-
-  SUPERSEDED 2026-08-25: real checkout is live. Mark resolved the Stripe
-  compliance flag that used to block this (an account-level "fundraising by
-  nonprofits/charities" restricted-category flag - Faithways is a for-profit
-  PBC, not a charity) and built two Stripe Payment Links himself, tested with
-  a real $5 contribution - no server, no /api/support/checkout, no account
-  created anywhere, same "no accounts, no feature-gating" shape as the rest
-  of this site. Split by GIFT FREQUENCY, not by fund, per Mark's own naming:
-  "Keeping the Door Open" (one-time) and "Open the Door Wider" (monthly
-  recurring) - NOT reliably predictable from the domain (buy.stripe.com
-  vs. donate.stripe.com): see the 2026-08-26 correction below, which
-  found the actual one-time/monthly assignment is the reverse of what
-  the domain names would suggest. Both fund the single
-  Accessibility Fund (see the comment above - Academic Review Fund dropped
-  the same day), so there's no fund-designation ambiguity to route to email
-  anymore; the two links are just the two ways to give toward the one ask.
-  These are plain hyperlinks - no comment or copy elsewhere on this page
-  needs updating if Mark rotates or replaces either link, only the two href
-  attributes on the buttons themselves.
-
-  CORRECTED 2026-08-26: both Payment Link IDs above were wrong as first
-  pasted by Mark - both buttons returned Stripe's "the page you were
-  looking for could not be found" error once live. Root cause: one
-  character in each ID (position identical in both links, right after
-  "...egE"/"...igE") sits in a font-ambiguous zone (I / 1 / l / could
-  even misread as 0 nearby) - four different re-transcriptions across
-  the debugging thread produced four different characters at that exact
-  spot before Mark did a real clipboard copy from the Stripe Dashboard's
-  own "Copy link" action and confirmed lowercase L. If these ever need
-  touching again: get the ID via a real copy-paste from that same Copy
-  link button, never by reading/retyping it, and if anything looks off
-  again, verify the specific character in question explicitly (letter
-  vs. digit, spelled out in words) rather than trusting another retype.
-
-  CORRECTED AGAIN 2026-08-26, same day: once the IDs above worked, Mark
-  reported the two were swapped - clicking "Keeping the Door Open" (meant
-  to be one-time) actually opened the monthly-recurring checkout, and
-  vice versa. Fixed by swapping which href goes on which button; the IDs
-  themselves are untouched from the previous correction. Confirms the
-  domain name (buy.stripe.com vs. donate.stripe.com) is NOT a reliable
-  signal of which Payment Link is one-time vs. recurring - that's set by
-  the Price object behind the link on Stripe's side, not the URL prefix.
-  If either link is ever rotated again: don't assume from the domain
-  which button it belongs on - verify by actually opening the link and
-  checking which checkout mode Stripe shows.
-
-  Cost section updated 2026-08-25 at Mark's direction ("this new system is
-  higher quality and better cost control, we need to update the online
-  messaging"). The $2/$5-per-hour figures above were the old cic-poc
-  architecture's own published rate (CiC_Cost_Study_Per_Transaction_V0_1.md,
-  2026-07-30, now suspended per gate 6). The replacement figure (29 cents
-  per full ten-exchange conversation) is a real, measured total from a
-  live, billed run on the new engine/ architecture
-  (engine/m8/live_memory_growth_run.py's own committed report,
-  engine/m8/reports/live-memory-growth-report.json), not an estimate -
-  priced against Anthropic's published rate card, not yet a reconciled AWS
-  invoice (same caveat that report itself carries). Framed as "per
-  conversation" rather than "per hour" because the product's real shape
-  changed with it: SESSION_TURN_CAP now bounds every conversation at ten
-  exchanges, so a per-conversation figure is the more honest and more
-  useful number to publish. The multi-voice Table experience does not yet
-  exist on the new architecture, so its own $5/hour figure is dropped
-  rather than carried forward unmeasured - not silently, noted here and in
-  the section text itself.
-
-  Revised same day, second pass, on Mark's direct follow-up correction:
-  "for the online cost, it is more than API, we have server fees,
-  developmental costs, etc. I do think we need to not be too literal in
-  the API only cost, or we will never cover our total costs." The first
-  pass above stated 29 cents as though it were the cost of running a
-  conversation, full stop - accurate to what was measured, but not to what
-  it actually costs to run this project, and asking for exactly the
-  measured slice risks permanently underfunding everything the measurement
-  doesn't cover. No real figure exists yet in this repo for hosting,
-  storage, or developmental cost (Artifact-6-Operations.md names the AWS
-  topology - ECS Fargate/App Runner, RDS, S3, CloudFront - with no dollar
-  figures attached; nothing here is fabricated to fill that gap, per this
-  project's own "never quote a $ figure until measured" discipline).
-  Instead the 29-cent figure is now explicitly scoped as the AI-generation
-  slice alone, with a plain follow-on sentence naming what it does not
-  cover, so a reader cannot mistake the specific number for the whole ask.
-  This is a partial, deliberate departure from Ministry/Features/Funding-
-  Strategy/Decision-Log.md's 2026-07-2x entry recording that the API-
-  designated "door" tracks against API spend specifically and "the page
-  never states this split to the giver" - that entry predates this
-  correction and governed the old system's page; Mark's instruction here
-  is more recent and specific to this exact section, so it takes
-  precedence, flagged rather than silently overridden.
-
-  Revised again same day, third pass, on Mark's further correction: the
-  second pass above over-corrected into itemized cost accounting (naming
-  hosting, security, and safeguarding work as specific line items not
-  covered by the 29-cent figure). Mark's own framing: "we don't have to be
-  specific or transparent on every cost detail. our transparency is on
-  scholar rigor, this is a business/public benefit corporation. most
-  businesses or nonprofits don't go out and [say] how much everything
-  costs in detail." This project's public transparency commitment is
-  about sourcing and historical rigor (no fabricated claims, everything
-  checked against a real record) - not a financial itemization of what a
-  gift is and isn't covering, which is exactly the kind of granular cost
-  detail an ordinary PBC or nonprofit does not publish. The precise
-  29-cents-per-conversation figure and its itemized non-coverage list are
-  both dropped from the section text below in favor of a plainer,
-  qualitative statement: real cost exists, the new architecture cut it
-  substantially, and giving covers the whole of what it takes to run this
-  well - not a specific dollar figure or an accounting of what that
-  figure omits. The underlying measured numbers stay real and available
-  in engine/m8/reports/ and this comment history; they're just no longer
-  the public-facing framing.
-
-  Revised again same day, fourth pass, on two further corrections from
-  Mark. First: "we rebuilt this year" (in this section and in the first
-  "What We're Doing About It" bullet) implied a prior public release the
-  participant would remember and compare against - but the old cic-poc
-  architecture was never actually released publicly, so that framing read
-  as suspicious rather than honest. Replaced with ongoing-work framing
-  ("we keep working to make the system more efficient and lower runtime
-  costs") in both places, per Mark's own suggested wording. Second: the
-  cost paragraph was still too long for what it needed to say - cut
-  roughly in half.
-
-  Reverted same day, fifth pass, on Mark's final call: put the cost
-  section and the "Bringing the cost down" bullet back to their original
-  pre-2026-08-25 wording and structure entirely, changing only the two
-  dollar figures - $2/hour to $1/hour, $5/hour to $2/hour. This
-  supersedes every intermediate pass above: no new-architecture figure
-  (29 cents per conversation, ~$0.35/hr extrapolated) is published in
-  this section after all. That measurement work stays real and available
-  in engine/m8/reports/ and in this comment history; it just isn't what
-  this section reports. The $1/$2 figures are Mark's own editorial
-  choice, not derived from either the old or new measured numbers - a
-  simpler, rounder pair in the same $/hour framing this page has always
-  used, in the same ballpark as (though not equal to) what this session
-  actually measured.
+  The cost section deliberately states that cost is real and per-turn,
+  that real effort has gone into lowering it, and asks for help keeping
+  it that way - with no dollar figure and no itemized cost breakdown.
+  The underlying measured numbers stay real and available in
+  engine/m8/reports/; they are not the public-facing framing. See the
+  funding-strategy decision record for why.
 -->
 
-<!-- DRAFT, pending Mark's review before this is treated as final -
-     matching the same "text only, sign off before it ships" discipline
-     the section above already documents for this exact file. The specific
-     numbers are real and measured; the framing/wording is not yet
+<!-- Pending review before this is treated as final - the specific
+     figures are real and measured; the framing/wording is not yet
      confirmed as this project's chosen public voice for it. -->
 <!DOCTYPE html>
 <html lang="en">
@@ -178,12 +39,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <style>
-/* .fine-print replaces two inline style="color:var(--muted)" paragraphs
-   (2026-08-25 full review finding): --muted is never redefined for dark
-   mode anywhere on this site, and an inline color always outranks the
+/* .fine-print replaces two inline style="color:var(--muted)" paragraphs:
+   --muted is never redefined for dark mode anywhere on this site, and an
+   inline color always outranks the
    shared stylesheet's own .page-section p{color:#B8AEA1} dark-mode rule
-   by specificity - so the inline version silently defeated the fix that
-   was already sitting right there. A real class lets the same dark-mode
+   by specificity - so an inline color silently defeats the fix that's
+   already sitting right there. A real class lets the same dark-mode
    override apply the way it already does for the rest of this page's text. */
 .fine-print{font-family:'Alegreya Sans',sans-serif;font-size:.95rem;color:#B8AEA1}
 </style>
@@ -228,36 +89,20 @@
 
   <section class="page-section" id="cost">
     <h2>What It Actually Costs</h2>
-    <!-- Second correction same day, 2026-08-30: the $0.35/hour figure
-         from the previous pass (still accurate, see
-         engine/m8/reports/reconciliation-2026-08-28-worksheet.md) was
-         pulled entirely on Mark's direct instruction. Not a math
-         problem - a framing one, and one this page has already worked
-         through once before: see the "Cost section updated 2026-08-25"
-         history in the comment block at the top of this file, five
-         passes ending in the same place - drop the precise measured
-         slice, because a specific number reads as the whole cost of
-         running this and invites "how much, exactly," which the page
-         can't honestly answer (server fees, developmental cost, and
-         everything else in Ministry/ carry no measured dollar figure
-         yet). Mark's own framing this time: state that cost is real and
-         per-turn, that real effort has gone into lowering it, and ask
-         for help keeping it that way - no dollar figure, no claim about
-         what was or wasn't "checked," since even naming that sets up
-         the question this section is deliberately not answering.
-
-         Widened same session, two more passes: (1) Mark wanted the
-         scope of "cost" broadened beyond per-turn generation, in
-         general terms only, same discipline as above - hosting,
-         storage, and ongoing maintenance named as categories, no dollar
-         split, no itemized coverage claim (pass 2's rejected approach
-         from the 08-25 history); and that costs grow with real growth
-         (more traditions, more people), stated generally - no target
-         numbers, since neither a user count nor a world count is a
-         decided public roadmap commitment. (2) Mark didn't like "cost
-         even more" for the Table sentence - not itemized wording, just
-         a plainer register; replaced with "increase that cost" on his
-         own pick among three options offered. -->
+    <!-- Deliberately no dollar figure and no itemized cost breakdown
+         here: a specific number reads as the whole cost of running this
+         and invites "how much, exactly," which this page can't honestly
+         answer (server fees, developmental cost, and everything else in
+         Ministry/ carry no measured dollar figure yet). States only
+         that cost is real and per-turn, that real effort has gone into
+         lowering it, that Multi-voice Table conversations add to it
+         since each additional voice generates its own response, and
+         that costs grow with real growth (more traditions, more people)
+         - in general terms only, with no target numbers, since neither
+         a user count nor a world count is a decided public roadmap
+         commitment. See the funding-strategy decision record under
+         Ministry/Features/Funding-Strategy/ for the full revision
+         history. -->
     <p>Every conversation has a real cost, turn by turn. Multi-voice Table conversations increase that cost, since each additional voice generates its own response. That's not the whole picture, either. Keeping this running also means hosting, storage, and the ongoing work of maintaining it. And as we grow — adding more Christian traditions and reaching more people — those costs grow with us. Keeping the door open to as many people as possible is where we need your help.</p>
   </section>
 

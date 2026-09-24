@@ -10,8 +10,7 @@ works:
   confidence: assigned
   note: 'Same doubt as the Hilarion: Syrian setting, monastic subject, and no census entry
     for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
-    not). Desert-monasticism as nearest monastic bucket, flagged. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.'
+    not). palestinian-ascetic-monasticism-early, added for this movement, holds it directly.'
   source_file: npnf206_jerome-principal-works.xml
 - work: The Life of S. Hilarion
   author: jerome
@@ -19,10 +18,9 @@ works:
   role: tradition
   confidence: assigned
   note: Hilarion carries Antony's pattern to Palestine, so the subject is monasticism outside
-    the desert entry's stated region (Egypt, Nile Valley). No census entry covers fourth-century
-    Palestinian monasticism (the Judean-desert/Gaza entry begins c. 450), so desert-monasticism
-    is the nearest bucket; flagged rather than silently stretched. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.
+    the desert entry's stated region (Egypt, Nile Valley). No census entry covered fourth-century
+    Palestinian monasticism until palestinian-ascetic-monasticism-early was added for this
+    movement; it holds it directly now.
   source_file: npnf206_jerome-principal-works.xml
 - work: Lausiac History
   author: palladius
@@ -30,25 +28,25 @@ works:
     the Elder Melania'
   role: tradition
   confidence: provisional
-  note: 'Surfaced during the source-readiness dossier pass on I.34 (2026-09-21), not by a
-    build thread''s own search - added directly per this candidate''s own dossier §2 and the
-    Ambrosian-Milan/Theodoret precedent for a dossier-found cross-link. Checked directly against
-    the vendored text, not assumed from a title or a summary: Ch. XLVIII (Elpidius) is set
-    "in the caves of the Amorites round about Jericho," with Palladius himself an eyewitness
-    participant ("I too lived with him") for twenty-five years; Ch. XLIX (Sisinnius) is his
-    direct disciple; Ch. L (Gaddanas) names its subject directly, "an old Palestinian... in
-    the region round the Jordan... region round the Dead Sea"; Ch. LI (Elias) is stated to
-    dwell "in the same parts"; Ch. LII (Sabas) is "a native of Jericho... the ascetics of
-    the Jordan"; Ch. LIII (Abramius) sits in the same unbroken block with no contrary region
-    marker; Ch. LIV (the Elder Melania) closes with her founding "a monastery in Jerusalem."
-    Seven consecutive chapters, not a stray mention, and squarely inside this candidate''s
-    own region (Gaza, the Judean desert, Sinai road) and window (c. 330-450) - Palladius wrote
-    c. 419-420 describing decades he lived through. `role: tradition` on the same footing
-    as this candidate''s existing Jerome entries (participant-observer material, not later
-    external commentary); `provisional` because whether Doc_02''s own gravity work treats
-    an Egypt-centered author''s testimony about neighboring Judean-desert monks as this movement''s
-    own voice, on the same footing as Jerome''s Hilarion and Malchus, is a judgement this
-    dossier pass is not positioned to make on its own.
+  note: 'Surfaced during the source-readiness dossier pass on I.34, not by a build thread''s
+    own search - added directly per this candidate''s own dossier §2 and the Ambrosian-Milan/Theodoret
+    precedent for a dossier-found cross-link. Checked directly against the vendored text,
+    not assumed from a title or a summary: Ch. XLVIII (Elpidius) is set "in the caves of the
+    Amorites round about Jericho," with Palladius himself an eyewitness participant ("I too
+    lived with him") for twenty-five years; Ch. XLIX (Sisinnius) is his direct disciple; Ch.
+    L (Gaddanas) names its subject directly, "an old Palestinian... in the region round the
+    Jordan... region round the Dead Sea"; Ch. LI (Elias) is stated to dwell "in the same parts";
+    Ch. LII (Sabas) is "a native of Jericho... the ascetics of the Jordan"; Ch. LIII (Abramius)
+    sits in the same unbroken block with no contrary region marker; Ch. LIV (the Elder Melania)
+    closes with her founding "a monastery in Jerusalem." Seven consecutive chapters, not a
+    stray mention, and squarely inside this candidate''s own region (Gaza, the Judean desert,
+    Sinai road) and window (c. 330-450) - Palladius wrote c. 419-420 describing decades he
+    lived through. `role: tradition` on the same footing as this candidate''s existing Jerome
+    entries (participant-observer material, not later external commentary); `provisional`
+    because whether Doc_02''s own gravity work treats an Egypt-centered author''s testimony
+    about neighboring Judean-desert monks as this movement''s own voice, on the same footing
+    as Jerome''s Hilarion and Malchus, is a judgement this dossier pass is not positioned
+    to make on its own.
 
     '
   source_file: palladius_lausiac-history_clarke1918.txt

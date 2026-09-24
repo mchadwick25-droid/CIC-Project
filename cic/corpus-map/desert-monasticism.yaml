@@ -8,13 +8,12 @@ works:
   locus: whole file; fourteen thematic chapters plus the Questions and Answers, sayings numbered
   role: tradition
   confidence: assigned
-  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, and the source
-    its build was structured around while having no readable edition of it. Vendored at last
-    on 2026-08-27. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek alphabetical
-    collection: numbering and often wording differ, so any quote is verbatim FOR BUDGE and
-    must say so in its locus. Amma Sarah is present (six sayings, as "Mother Sarah"); Syncletica
-    and Theodora are NOT, under any spelling - the Greek collection carries them and has no
-    public-domain English (desert.search.greek-alphabetical-pd-english).
+  note: 'The Apophthegmata Patrum - this world''s central teaching corpus, the source its
+    build is structured around. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek
+    alphabetical collection: numbering and often wording differ, so any quote is verbatim
+    FOR BUDGE and must say so in its locus. Amma Sarah is present (six sayings, as "Mother
+    Sarah"); Syncletica and Theodora are NOT, under any spelling - the Greek collection carries
+    them and has no public-domain English (desert.search.greek-alphabetical-pd-english).
 
     '
   source_file: anan-isho_paradise-v2-sayings_budge1907.txt
@@ -78,13 +77,12 @@ works:
     question from a single source. This is the desert tradition''s own author writing Christology
     - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
     archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
-    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis
-    as the Institutes and Conferences rows above - Cassian''s own authored corpus, written
-    while he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era
-    2, c. 360-450) even though its content is Christological rather than about Gallic monastic
+    of Ephesus, which is ijc''s world. Also filed under the Gallic monastic-ascetic entry
+    (era 2, c. 360-450) on the same author-tradition basis as the Institutes and Conferences
+    rows above: Cassian''s own authored corpus, written while he led the Marseilles houses,
+    belongs there even though its content is Christological rather than about Gallic monastic
     life directly. The case document that surfaced the entry (CASE-gallic-monasticism.md)
-    counted this work in Cassian''s own 364,648-word figure but the corpus map had not yet
-    been re-pointed to match.
+    counts this work in Cassian''s own 364,648-word figure.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -97,10 +95,10 @@ works:
     - the largest body of desert teaching anywhere in the vendored corpus, and desert''s best
     route out of single-source answers. Same Gallic and Benedictine reception homes as the
     Institutes, with the same era caveat. Conference XIII is the classic so-called semi-Pelagian
-    text; a pelagianism context link is arguable but not asserted here. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    text; a pelagianism context link is arguable but not asserted here. Same placement as
+    the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity (era 2,
+    c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry this
+    work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
@@ -112,10 +110,9 @@ works:
     home, and this directly addresses the audit''s finding that desert answers from too narrow
     a base. Written c. 420 for Gallic monasteries (dedicated to Castor of Apt) and commended
     by the Rule of Benedict ch. 73: the two later monastic entries are reception homes that
-    both postdate Cassian - a reviewer who wants strict era fit should trim those two, not
-    desert. Re-pointed 2026-08-26: the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity
-    (era 2, c. 360-450) was added to the census on record, and this work now names it rather
-    than the Merovingian entry it antedates.'
+    both postdate Cassian. Same placement as the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
+    entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Rules of Pachomius, Part III (the symbolical homily on the ten associations)
   author: ethiopic_homily_on_the_ten_associations
@@ -174,15 +171,15 @@ works:
   locus: whole file
   role: tradition
   confidence: assigned
-  note: 'RULED, Mark, 2026-09-02: confirmed assigned. The attribution itself is genuinely
-    contested (traditional "Macarius the Egyptian" vs. modern scholarship''s "Pseudo-Macarius,"
-    likely 4th-5th c. Syrian, tied to the Messalian movement - the file''s own header states
-    both positions at length), but the placement was never actually in question: whichever
-    the true authorship, the homilies sit squarely in the Egyptian desert ascetic-teaching
-    tradition and are already cited by desert.source.macarian-homilies and desert.quote.sin-and-
-    grace-in-one-soul. Per the brief''s own scope (SS9), the identity question is a content
-    matter for whichever world cites it, not a corpus-map placement question - carried forward
-    here as a caveat, not as a reason to withhold assignment.
+  note: 'Confirmed assigned. The attribution itself is genuinely contested (traditional "Macarius
+    the Egyptian" vs. modern scholarship''s "Pseudo-Macarius," likely 4th-5th c. Syrian, tied
+    to the Messalian movement - the file''s own header states both positions at length), but
+    the placement was never actually in question: whichever the true authorship, the homilies
+    sit squarely in the Egyptian desert ascetic-teaching tradition and are already cited by
+    desert.source.macarian-homilies and desert.quote.sin-and- grace-in-one-soul. Per the brief''s
+    own scope (SS9), the identity question is a content matter for whichever world cites it,
+    not a corpus-map placement question - carried forward here as a caveat, not as a reason
+    to withhold assignment.
 
     '
   source_file: macarius_fifty-spiritual-homilies_mason1921.txt
@@ -213,9 +210,8 @@ works:
   role: context
   confidence: assigned
   note: 'Opened for one narrow reason: this world''s closing force is the Origenist controversy,
-    and until now it could report that a fight happened over Origen without stating a line
-    of what was fought over. Book I ch. 1 is the anthropomorphite dispute''s actual content
-    - if God has no body then the image of God in Genesis is not a face.
+    and Book I ch. 1 is the anthropomorphite dispute''s actual content - if God has no body
+    then the image of God in Genesis is not a face.
 
     THE TEXT IS RUFINUS'', NOT ORIGEN''S GREEK, and Rufinus translated it in 398, during the
     controversy, saying in his own prologue that he corrected what he judged corrupted. A
@@ -366,9 +362,7 @@ works:
   confidence: assigned
   note: 'Dialogue I is Postumianus'' first-hand travel account of the Egyptian desert monks
     - direct evidence for the built desert world from a Gallic visitor, which is why desert
-    leads. Dialogues II-III continue the Martin material and carry the same Gallic-gap doubt
-    as the Life; provisional for that reason, not for the desert claim. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    leads. Dialogues II-III continue the Martin material and take the same placement as the
+    Life: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul
+    entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml

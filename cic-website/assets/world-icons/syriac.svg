@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
-  <!-- CiC world icon (V0.1 DRAFT, 2026-07-18) - Mar Yausep, covenant-teacher (malpana of the qyama),
+  <!-- CiC world icon (LOCKED) - Mar Yausep, covenant-teacher (malpana of the qyama),
        SYRIAC CHRISTIANITY (Edessa-Nisibis). ERA 2 (sits on the Era-2 ground #EDDEB9 light / #221A0E dark;
-       the figure style is the same round-dome family template as Era 1). Supersedes the old pre-template
-       V0.6 (old viewBox/teal bust). Verified against the world's own construction docs.
+       the figure style is the same round-dome family template as Era 1). Verified against the world's own construction docs.
        ROLE (DOCUMENTED): a covenant-teacher being formed toward the Ihidaya (the "Single One") - explicitly
        NOT a bishop ("never a bishop's standing conferred by the laying on of hands") and NOT a desert monk
        (town-resident bnay qyama). So: no mitre, no episcopal insignia, no desert cowl, no cross.
@@ -13,10 +12,9 @@
        Rabbula-style illumination (586 CE, out of window), vow-token; and NO anti-Jewish/supersessionist motif.
        APPEARANCE = SILENT (garments, the old "girdle", beard, hair, complexion all absent from the record).
        Kept emblematic, INFERENCE flagged: muted-terracotta mantle, dark hair + dark beard (a younger
-       town-teacher, vs Papnoute's grey desert beard), Levantine olive skin (#B58A5A - Option 3, Mark; deeper
+       town-teacher, vs Papnoute's grey desert beard), Levantine olive skin (#B58A5A; deeper
        than Theon's Alexandrian tone, not as weathered as Papnoute's desert). World manifest
-       colour is amber (#eab06b) - garment tint provisional pending role-pigment/era-tint.
-       LOCKED V0.2 - Mark approved 2026-07-18 (skin Option 3 set); base copy _working-base/yausep_LOCKED_v0_2.svg. -->
+       colour is amber (#eab06b) - garment tint provisional pending role-pigment/era-tint. -->
   <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#9C6350" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
   <path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#B58A5A" stroke="#2A2521" stroke-width="2"/>
   <path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/>
