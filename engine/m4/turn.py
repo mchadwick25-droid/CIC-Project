@@ -6,12 +6,12 @@ failure semantics, this module's own generation/grounding/crisis_resources)
 itself (engine.m4.store/events) - that's the caller's job, so this stays
 testable against a plain TurnResult rather than a database.
 
-Scope note, rewritten 2026-08-24: all seven routing actions now have turn
-content. Four of them did not until this date - check_in_turn,
-system_nature_turn, bridge_turn, etic_turn and Track B's own safety_turn
-were real, tested routing outcomes that raised UnhandledRoutingAction
-rather than answering. Two of those four could not be reached by a live
-session at all; both were proven unreachable live, then wired. What the
+Scope note: all seven routing actions now have turn content. Four of them
+did not until recently - check_in_turn, system_nature_turn, bridge_turn,
+etic_turn and Track B's own safety_turn were real, tested routing
+outcomes that raised UnhandledRoutingAction rather than answering. Two
+of those four could not be reached by a live session at all; both were
+proven unreachable live, then wired. What the
 voice generates here is still only the ordinary answer path and the acute
 safety turn; the other five are the Facilitator's own words, owned by code
 in engine.m4.facilitator_turns and carrying that module's craft note.
@@ -26,7 +26,7 @@ does with the M4 event log. A call whose CallOutcome carries no raw_usage
 out at all) produces no record - there is nothing to attribute, not a gap.
 
 M4 implementation, step 5 (LIVE-GENERATION-DESIGN.md, forks signed off
-§9.5, 2026-08-22): the two-call shape (a free-text stream, then a forced-
+§9.5): the two-call shape (a free-text stream, then a forced-
 tool-use follow-up guessing which records it drew on) is retired. One
 call now carries both the answer and its own grounding, via inline
 [[record.id]] tags the compiled prompt's fleet preamble (§5.2) teaches
@@ -79,7 +79,7 @@ class UnhandledRoutingAction(NotImplementedError):
     """An eighth routing action, added to engine.m5.routing without a branch
     here.
 
-    Unreachable as of 2026-08-24 - all seven actions the router can return
+    Unreachable as things stand - all seven actions the router can return
     are handled below - and kept anyway, because the cost is one line and
     the failure it guards is a silent fall-through: a new route quietly
     returning a turn with no content rather than saying so. engine.api.
@@ -91,8 +91,8 @@ class UnhandledRoutingAction(NotImplementedError):
 class GateRun:
     """One participant message's gate pass, whole - the two sealed-tier
     calls, the resolved routing, the event payloads they produce, and the
-    usage they cost. Extracted from run_turn (2026-08-28, Artifact-7) so a
-    table round can gate ONCE per participant message and then run several
+    usage they cost. Extracted from run_turn (Artifact-7) so a table round
+    can gate ONCE per participant message and then run several
     voice turns against the same decision - the gate is message-level and
     world-agnostic, so running it per voice would be paying twice for the
     same answer. run_turn's own behavior is unchanged: it calls run_gate and
@@ -142,7 +142,7 @@ def run_gate(
     # downstream reads them - so routing's intersection and the bridge's
     # re-derivation below see the same list instead of each deriving one.
     # Two passes, and the second is not a belt-and-braces duplicate of the
-    # first; they fix different failures, both measured live on 2026-08-24:
+    # first; they fix different failures, both measured live:
     #
     #   resolve_term_ids  - the reader is INSTRUCTED to invent its term_id
     #     (engine.m5.live_calls' own prompt), and routing matches those
@@ -344,21 +344,21 @@ def _other_tradition_directive(
     known_in_window: bool | None = None,
     revealed_excerpts: list[tuple[str, str]] | None = None,
 ) -> str | None:
-    """R26 (Decision-Log.md Entry 50, 2026-09-22), Mark's own words: "The
-    representative should only know its own sources unless they would
-    have known the sources from another in reality." This is the
-    directive text an other_tradition first ask now carries - see
-    _build_turn_directive's own is_other_tradition_first_ask parameter.
-    The fixed sentence here is engine.m4.uncited_claims.
-    R26_HONEST_LIMIT_SENTENCE, matched exactly (case-insensitive) by that
-    module's own allowed-uncited detection - the two must stay identical
-    by construction, not by convention. Always returns real text when
-    called (never None - see tradition_seated's own note below for why
-    that changed).
+    """R26, the project lead's own words: "The representative should only
+    know its own sources unless they would have known the sources from
+    another in reality." This is the directive text an other_tradition
+    first ask now carries - see _build_turn_directive's own
+    is_other_tradition_first_ask parameter. The fixed sentence here is
+    engine.m4.uncited_claims.R26_HONEST_LIMIT_SENTENCE, matched exactly
+    (case-insensitive) by that module's own allowed-uncited detection -
+    the two must stay identical by construction, not by convention.
+    Always returns real text when called (never None - see
+    tradition_seated's own note below for why that changed).
 
-    evidence_record_ids (R39's own reviewer-ordered fix, relayed
-    2026-09-23): engine.m4.uncited_claims.world_records_mention_tradition's
-    own result - record ids in THIS world's own package that already,
+    evidence_record_ids (the R39 fix that lets a world's own records stand
+    in for the honest limit when they already speak to the question):
+    engine.m4.uncited_claims.world_records_mention_tradition's own
+    result - record ids in THIS world's own package that already,
     genuinely name the tradition asked about. R26's own ruling already
     named this exception ("unless they would have known the sources from
     another in reality"); only the mechanism was missing until now. Empty
@@ -371,61 +371,60 @@ def _other_tradition_directive(
     hands the voice those record ids as its own ground instead - cited
     under the ordinary citation contract, the same as any other turn.
 
-    tradition_seated (Table parity round-1 fix, Decision-Log.md, 2026-09-
-    23; corrected round-2, same date): the named tradition's own world is
-    SEATED at this table - the fixed honest-limit sentence would be
-    false (this seat's neighbour speaks for that tradition directly,
-    right there), so it is never said regardless of evidence. The
-    evidence branch above still applies if this seat's own records
+    tradition_seated (the Table-parity fix): the named tradition's own
+    world is SEATED at this table - the fixed honest-limit sentence
+    would be false (this seat's neighbour speaks for that tradition
+    directly, right there), so it is never said regardless of evidence.
+    The evidence branch above still applies if this seat's own records
     happen to name it (unchanged).
 
-    Round 1 returned None here with no evidence, reasoning that the
-    Table's own seat-to-seat clause (table_engagement) already governed.
-    That was wrong, and the round-2 review caught a real failure it
-    produces, not just a missing belt-and-suspenders: table_engagement
-    is built only when other_voice_has_spoken (_table_engagement_
-    directive's own docstring) - NEVER on a round's true opening turn.
-    The opening turn is exactly the turn that names the seated tradition
-    in the first place, so returning None there left the model
-    completely ungoverned on it. The live battery's own OT3 probe
-    (Decision-Log.md, Entry 68's round-2 addendum) caught the real
-    result: asked about the seated tradition by its card name, the voice
-    answered "we were it" - claiming that tradition's own name and
-    witness as its own, the exact thing R37 forbids. tradition_seated_
-    name (the seated tradition's own registry card_name, passed through
-    from table_wiring.py so this function never has to know about the
-    registry itself) now carries a real directive instead: this seat may
-    respond only to the bare fact that a tradition under that name is
-    seated here with its own Representative, and to what that chair has
-    actually said in this conversation so far (R37(b), Mark's own words:
-    "only if it would have known in its own time, or if something was
-    revealed in the facilitator's introduction or user, but limited only
-    to what was told to them in the conversation") - never claiming that
-    tradition's own name, history, or witness as this seat's own.
+    The first version of this fix returned None here with no evidence,
+    reasoning that the Table's own seat-to-seat clause (table_engagement)
+    already governed. That was wrong, and catching it exposed a real
+    failure it produces, not just a missing belt-and-suspenders:
+    table_engagement is built only when other_voice_has_spoken
+    (_table_engagement_directive's own docstring) - NEVER on a round's
+    true opening turn. The opening turn is exactly the turn that names
+    the seated tradition in the first place, so returning None there
+    left the model completely ungoverned on it. The live battery's own
+    OT3 probe caught the real result: asked about the seated tradition by
+    its card name, the voice answered "we were it" - claiming that
+    tradition's own name and witness as its own, the exact thing R37
+    forbids. tradition_seated_name (the seated tradition's own registry
+    card_name, passed through from table_wiring.py so this function
+    never has to know about the registry itself) now carries a real
+    directive instead: this seat may respond only to the bare fact that
+    a tradition under that name is seated here with its own
+    Representative, and to what that chair has actually said in this
+    conversation so far (R37(b), the project lead's own words: "only if
+    it would have known in its own time, or if something was revealed in
+    the facilitator's introduction or user, but limited only to what was
+    told to them in the conversation") - never claiming that tradition's
+    own name, history, or witness as this seat's own.
 
-    repeat_turn (same round-1 fix): this seat's own SECOND OR LATER turn
-    within the same round (turn_selector may draw a seat back in - the
-    fixed sentence said once already stays true, but repeating it
-    verbatim every return turn is not what interview's own single-ask
+    repeat_turn (the same Table-parity fix): this seat's own SECOND OR
+    LATER turn within the same round (turn_selector may draw a seat back
+    in - the fixed sentence said once already stays true, but repeating
+    it verbatim every return turn is not what interview's own single-ask
     shape ever produces). No evidence, not seated: keep R37's own
     knowledge-scope framing ("this is another tradition, answer only
     from your own records") but drop the "if nothing, say exactly..."
     clause - it was already said on this seat's first turn this round.
 
-    known_in_window and revealed_excerpts (R37 build, Rulings-Pending.md
-    R37, R37-A, R37-B): the pivot itself. Mark's words: "only if it
-    would have known in its own time, or if something what revealed in
-    the facilitators introduction or user, but limited only to what was
-    told to them in the conversation" - and R37-B, "add or what another
-    representitive revials in the conversation". known_in_window is
-    condition (a); revealed_excerpts is condition (b) with R37-B's third
-    source - see _pivot_scope_clause and _revealed_excerpts_block. The
-    no-evidence branches each carry both. The evidence branch carries
-    only the quoted lines: there the world's own records already name
-    the tradition, so the record itself is the ground for the pivot.
-    None of this changes R26_HONEST_LIMIT_SENTENCE or when it is said -
-    under (a) the record still does not mention the tradition, so the
-    sentence stays true."""
+    known_in_window and revealed_excerpts (the R37 build): the pivot
+    itself. The project lead's own words: "only if it would have known
+    in its own time, or if something what revealed in the facilitators
+    introduction or user, but limited only to what was told to them in
+    the conversation" - and R37-B, "add or what another representitive
+    revials in the conversation". known_in_window is condition (a);
+    revealed_excerpts is condition (b) with R37-B's third source - see
+    _pivot_scope_clause and _revealed_excerpts_block. The no-evidence
+    branches each carry both. The evidence branch carries only the
+    quoted lines: there the world's own records already name the
+    tradition, so the record itself is the ground for the pivot. None of
+    this changes R26_HONEST_LIMIT_SENTENCE or when it is said - under
+    (a) the record still does not mention the tradition, so the sentence
+    stays true."""
     excerpts_block = _revealed_excerpts_block(revealed_excerpts)
     if evidence_record_ids:
         ids_text = ", ".join(f"[[{rid}]]" for rid in evidence_record_ids)
@@ -507,7 +506,7 @@ def _build_turn_directive(
     Returns None only when there is no directive, no table_engagement, and
     is_other_tradition_first_ask is False (the crisis path), which leaves
     the call with the world prompt alone - exactly what it sent before.
-    other_tradition_seated (round-2 review fix, 2026-09-23): _other_
+    other_tradition_seated (the Table-parity fix): _other_
     tradition_directive ALWAYS returns real text now, never None - a
     round's opening turn never gets table_engagement (built only when
     other_voice_has_spoken, see _table_engagement_directive's own
@@ -515,12 +514,12 @@ def _build_turn_directive(
     tradition seated and no evidence used to reach the model completely
     ungoverned: nothing told it the tradition it was just asked about is
     the seat beside it, and the live battery caught the real failure this
-    produces (Decision-Log.md, Entry 68's own round-2 addendum) - the
-    voice claimed the seated tradition's own name and witness as its own,
-    exactly what R37 forbids. There is no genuinely redundant case left
-    to return None for: table_engagement (when it does fire, on a later
-    turn) is a different job entirely (engage what was just said) and
-    composes with this branch rather than duplicating it."""
+    produces - the voice claimed the seated tradition's own name and
+    witness as its own, exactly what R37 forbids. There is no genuinely
+    redundant case left to return None for: table_engagement (when it
+    does fire, on a later turn) is a different job entirely (engage what
+    was just said) and composes with this branch rather than
+    duplicating it."""
     if directive is None and not table_engagement and not is_other_tradition_first_ask:
         return None
     # The leading newline is kept from when this text was concatenated onto
@@ -588,8 +587,8 @@ def _build_turn_directive(
 
 
 def _append_seat_identity_correction(turn_directive: str | None, offending_prefix: str) -> str:
-    """The seat-identity guard's one regeneration (Decision-Log.md Entry
-    47): named to the voice, in the same private-directive channel
+    """The seat-identity guard's one regeneration: named to the voice, in
+    the same private-directive channel
     _build_turn_directive already owns (measured to win over a competing
     pressure sitting in the user turn - see that function's own docstring)
     - never a second, separately-timed call or a rewrite of the world
@@ -608,14 +607,12 @@ def _append_seat_identity_correction(turn_directive: str | None, offending_prefi
 
 
 def _append_r27_correction(turn_directive: str | None, hard_offenses: list[dict]) -> str:
-    """R27 build item 5's own one regeneration (Decision-Log.md Entry
-    56/Rulings-Pending.md R36, 2026-09-23): same append-not-replace
-    channel and shape as _append_seat_identity_correction above - the
-    exact wording engine.m4.live_uncited_claims_battery's own
-    `_build_correction` already proved live across #419/#420/#427
-    (F3(b)'s own simulation), now the canonical, single-owned copy;
-    the battery imports this function rather than keeping its own
-    duplicate (Entry 56 note)."""
+    """R27's own one regeneration: same append-not-replace channel and
+    shape as _append_seat_identity_correction above - the exact wording
+    engine.m4.live_uncited_claims_battery's own `_build_correction`
+    already proved live in the battery's own simulation, now the
+    canonical, single-owned copy; the battery imports this function
+    rather than keeping its own duplicate."""
     named = "; ".join(f'"{o["sentence"]}"' for o in hard_offenses)
     correction = (
         "\n## Correction (your last answer had uncited claims)\n"
@@ -642,24 +639,23 @@ def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics
     verdict, tags, and why, same as the M7 audit input the design names in
     §6.3.
 
-    Public on purpose (2026-08-28 foundation audit): M3's LiveModelAnswerer
+    Public on purpose (a foundation audit found): M3's LiveModelAnswerer
     used to re-implement this shape and drifted - it deleted withheld
     sentences and appended a floor line, both behaviors this function's own
     history had measured and rejected - so admission was grading a text no
     participant would ever read. Admission now calls this function, making
     parity structural rather than asserted. A change here changes what the
     admission battery measures, by design: they are the same thing."""
-    # R27 build item 5 (Decision-Log.md Entry 56, 2026-09-23): calls
-    # check_turn_with_paragraph_coverage instead of check_turn - proven
-    # equivalent on "sentences"/"substantive_survives"/"truncated"
-    # (test_grounding_net.py's own equivalence test), so text/citations
-    # below are unchanged; net_result now additionally carries
-    # "paragraph_coverage", unused by any reader that doesn't ask for it.
-    # This is the single-pass fold the reviewer's own item 5 message
-    # asked for: _run_ordinary_voice_turn below reads paragraph coverage
-    # off THIS SAME net_result rather than making a second, independent
-    # check_turn_with_paragraph_coverage call - a live turn now pays the
-    # net once, not twice, in both report-only and enforced modes.
+    # R27: calls check_turn_with_paragraph_coverage instead of check_turn
+    # - proven equivalent on "sentences"/"substantive_survives"/
+    # "truncated" (test_grounding_net.py's own equivalence test), so
+    # text/citations below are unchanged; net_result now additionally
+    # carries "paragraph_coverage", unused by any reader that doesn't ask
+    # for it. This is the single-pass fold: _run_ordinary_voice_turn
+    # below reads paragraph coverage off THIS SAME net_result rather than
+    # making a second, independent check_turn_with_paragraph_coverage
+    # call - a live turn now pays the net once, not twice, in both
+    # report-only and enforced modes.
     net_result = grounding_net.check_turn_with_paragraph_coverage(raw_text, repository_records, thin_topics=thin_topics)
     # THE CHECKS GATE DECORATION, NEVER THE TEXT. Program-Spec M4, and
     # again in Artifact-5 SS2 ("they gate decoration, not text"), and again
@@ -735,10 +731,10 @@ def _run_ordinary_voice_turn(
     never displaces a real match. Same repository_records this call already
     has; no new read, no model call, no per-turn cost growth.
 
-    guard_labels (Decision-Log.md Entry 47, 2026-09-22): the seat-identity
-    guard's own opt-in - None on every interview call (interview has no
-    other seats to impersonate and never builds the attributed-transcript
-    convention this defect echoes), so that path stays byte-identical too.
+    guard_labels: the seat-identity guard's own opt-in - None on every
+    interview call (interview has no other seats to impersonate and
+    never builds the attributed-transcript convention this defect
+    echoes), so that path stays byte-identical too.
     engine.api.table_wiring passes the Facilitator's label plus every
     OTHER seated voice's label (full "Name (World)" and bare "Name" forms)
     - never the speaking voice's own label; see
@@ -751,10 +747,10 @@ def _run_ordinary_voice_turn(
     interview call) can go on reading this function's return shape exactly
     as it always has.
 
-    correction (R27 fix list F3, reviewer thread, 2026-09-22): free text
-    appended onto whatever _build_turn_directive already produced, same
-    channel and same append-not-replace shape as
-    _append_seat_identity_correction. None on every real caller
+    correction (R27 fix F3): free text appended onto whatever
+    _build_turn_directive already produced, same channel and same
+    append-not-replace shape as _append_seat_identity_correction. None
+    on every real caller
     (engine.api.wiring, engine.api.table_wiring never pass it - "battery-
     only, no participant path" is the fix list's own words) - it exists
     so engine.m4.live_uncited_claims_battery can simulate one regeneration
@@ -762,9 +758,9 @@ def _run_ordinary_voice_turn(
     function's evidence-assembly/generation logic in the battery script
     itself. Purely additive: unset, this parameter changes nothing.
 
-    debug_capture (R27 fix list F6, reviewer thread, 2026-09-22): an
-    optional caller-supplied dict this function mutates in place, setting
-    "raw_tagged_text" to the exact text apply_net is about to check -
+    debug_capture (R27 fix F6): an optional caller-supplied dict this
+    function mutates in place, setting "raw_tagged_text" to the exact
+    text apply_net is about to check -
     same battery-only, unset-on-every-real-caller shape as correction
     above. Never part of voice_event (no schema key for it, so it can
     never reach the real event log through this channel) - exists so the
@@ -772,17 +768,16 @@ def _run_ordinary_voice_turn(
     raw text apply_net already has, without a second model call or a
     second copy of this function's own generation logic.
 
-    r27_enforce/known_tradition_names (R27 build item 5, Decision-Log.md
-    Entry 56/Rulings-Pending.md R36, 2026-09-23): the flag-gated
-    enforcement this build order authorizes, OFF by default so every
-    existing caller and every existing test is byte-identical until a
-    caller opts in. When True: after the net's own check (below), a
-    wholly_uncited_paragraph offense or a neighbour_named offense (the
-    two classes R36 actually enforces - inherited_ungrounded stays
-    report-only) triggers exactly one regeneration, in the same turn,
-    with the violations named in the retry's own directive (the same
-    append-not-replace correction channel and the same "regenerate once,
-    then hand off" shape the seat-identity guard above and
+    r27_enforce/known_tradition_names (R27's flag-gated enforcement):
+    OFF by default so every existing caller and every existing test is
+    byte-identical until a caller opts in. When True: after the net's
+    own check (below), a wholly_uncited_paragraph offense or a
+    neighbour_named offense (the two classes this enforces -
+    inherited_ungrounded stays report-only) triggers exactly one
+    regeneration, in the same turn, with the violations named in the
+    retry's own directive (the same append-not-replace correction
+    channel and the same "regenerate once, then hand off" shape the
+    seat-identity guard above and
     engine.m4.live_uncited_claims_battery's own `correction` parameter
     already use - not a third mechanism). The regenerated answer is
     re-checked the identical way; if a hard offense still survives, this
@@ -792,36 +787,35 @@ def _run_ordinary_voice_turn(
     True on the returned voice_event, for the caller to substitute a
     Facilitator turn (engine.m4.facilitator_turns.
     table_seat_correction_turn on a Table call, the same existing
-    fallback; voice_turn_rejected_turn on an interview call, the new
-    line Mark chose 2026-09-23) exactly as it already does for
-    seat_identity_guard_exhausted. own_doctrine_in_other_tradition_turn
-    is deliberately not computed here: R36 narrowed it (Entry 55) to
-    fire only on a real paragraph-level failure, so every sentence it
-    would catch is already a wholly_uncited_paragraph offense this
-    function catches directly - own_doctrine_in_other_tradition_turn
-    itself still needs registry/routing context this function doesn't
-    have and stays the caller's own refinement (build_uncited_claims_
-    event), unchanged, for the persisted audit event.
-    known_tradition_names is required when r27_enforce is True (fails
-    loudly rather than silently skipping the neighbour_named check if
-    omitted) - the same pre-derived list engine.m4.uncited_claims.
-    known_tradition_names already produces for the report-only
-    build_uncited_claims_event path, computed by the caller (which has
-    registry access this function does not) and passed straight
-    through.
+    fallback; voice_turn_rejected_turn on an interview call) exactly as
+    it already does for seat_identity_guard_exhausted.
+    own_doctrine_in_other_tradition_turn is deliberately not computed
+    here: this enforcement is narrowed to fire only on a real
+    paragraph-level failure, so every sentence it would catch is already
+    a wholly_uncited_paragraph offense this function catches directly -
+    own_doctrine_in_other_tradition_turn itself still needs
+    registry/routing context this function doesn't have and stays the
+    caller's own refinement (build_uncited_claims_event), unchanged, for
+    the persisted audit event. known_tradition_names is required when
+    r27_enforce is True (fails loudly rather than silently skipping the
+    neighbour_named check if omitted) - the same pre-derived list
+    engine.m4.uncited_claims.known_tradition_names already produces for
+    the report-only build_uncited_claims_event path, computed by the
+    caller (which has registry access this function does not) and
+    passed straight through.
 
-    other_tradition_evidence_ids (R39's own reviewer-ordered fix,
-    2026-09-23, unconditional - never gated behind r27_enforce, since
-    this corrects an existing false statement rather than adding new
-    enforcement): engine.m4.uncited_claims.world_records_mention_
-    tradition's own result for the tradition THIS turn's message names,
-    if any - same caller-computed, registry-access-needed shape as
-    known_tradition_names. Read only inside _build_turn_directive, only
-    when is_other_tradition_first_ask is also true; harmless (and
+    other_tradition_evidence_ids (the R39 fix that corrects a false
+    honest-limit statement, unconditional - never gated behind
+    r27_enforce, since this corrects an existing false statement rather
+    than adding new enforcement): engine.m4.uncited_claims.world_records_
+    mention_tradition's own result for the tradition THIS turn's message
+    names, if any - same caller-computed, registry-access-needed shape
+    as known_tradition_names. Read only inside _build_turn_directive,
+    only when is_other_tradition_first_ask is also true; harmless (and
     correctly ignored) to pass on any other turn.
 
-    other_tradition_known_in_window and other_tradition_revealed (R37
-    build): engine.m4.uncited_claims.tradition_known_in_window and
+    other_tradition_known_in_window and other_tradition_revealed (the
+    R37 build): engine.m4.uncited_claims.tradition_known_in_window and
     conversation_revealed_excerpts, for the same named tradition - the
     same caller-computed shape as other_tradition_evidence_ids, read at
     the same single place (_other_tradition_directive)."""
@@ -894,9 +888,9 @@ def _run_ordinary_voice_turn(
     if rec := _maybe_record_usage(stream_outcome, session_id=session_id, call_kind="voice_generation", model_id=voice_model_id, world_key=usage_world_key):
         usage_records.append(rec)
 
-    # SEAT-IDENTITY GUARD (Decision-Log.md Entry 47, 2026-09-22) - reject,
-    # regenerate once with the violation named, and if that also catches,
-    # report it back rather than raise: guard_labels is only ever non-empty
+    # SEAT-IDENTITY GUARD - reject, regenerate once with the violation
+    # named, and if that also catches, report it back rather than raise:
+    # guard_labels is only ever non-empty
     # on a Table call (see this function's own docstring), so this whole
     # block is a no-op, zero-cost on every interview call.
     raw_text = stream_outcome.value.text
@@ -925,11 +919,10 @@ def _run_ordinary_voice_turn(
         else:
             raw_text = retry_text
 
-    # SELF-REVISION (R38, RULED 2026-09-23 - Rulings-Pending.md; build
-    # proposed Decision-Log.md Entry 61, measured 0/20 real leaks) - the
-    # generation-side fix for a fabricated detail riding a real citation
-    # tag, engine.m4.self_revision's own module docstring carries the
-    # full mechanism and the 7b/R30 compatibility note. Runs only on
+    # SELF-REVISION (R38, measured 0/20 real leaks) - the generation-side
+    # fix for a fabricated detail riding a real citation tag,
+    # engine.m4.self_revision's own module docstring carries the full
+    # mechanism and the 7b/R30 compatibility note. Runs only on
     # other_tradition-routed turns (is_other_tradition_first_ask), where
     # the leak class lives, and only when the draft survived the seat-
     # identity guard above (raw_text is never truthy after that guard's
@@ -966,45 +959,42 @@ def _run_ordinary_voice_turn(
         }
 
     if debug_capture is not None:
-        # R27 F6 (reviewer thread fix list, 2026-09-22): the raw, still-
-        # tagged, still-paragraphed answer - never part of voice_event
-        # (no schema key for it, never persisted to the real event log),
-        # a side channel purely for engine.m4.live_uncited_claims_battery
-        # to compute paragraph-coverage from, the same "mutate a caller-
-        # supplied dict, opt-in, unset on every real caller" shape
-        # `correction` already uses. This is the exact text apply_net is
-        # about to strip and check below - nothing recomputed, nothing
+        # R27 F6: the raw, still-tagged, still-paragraphed answer - never
+        # part of voice_event (no schema key for it, never persisted to
+        # the real event log), a side channel purely for
+        # engine.m4.live_uncited_claims_battery to compute
+        # paragraph-coverage from, the same "mutate a caller-supplied
+        # dict, opt-in, unset on every real caller" shape `correction`
+        # already uses. This is the exact text apply_net is about to
+        # strip and check below - nothing recomputed, nothing
         # re-derived.
         debug_capture["raw_tagged_text"] = raw_text
 
     answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
 
-    # R27 (Decision-Log.md Entry 51, 2026-09-22): report-only, no
-    # participant-visible effect unless r27_enforce (below), every
-    # declarative claim sentence carrying no citation, base class
-    # "uncited_claim" (the caller, which has registry/routing context
-    # this function does not, refines into "neighbour_named"/
+    # R27: report-only, no participant-visible effect unless r27_enforce
+    # (below), every declarative claim sentence carrying no citation,
+    # base class "uncited_claim" (the caller, which has registry/routing
+    # context this function does not, refines into "neighbour_named"/
     # "own_doctrine_in_other_tradition_turn" via engine.m4.uncited_claims.
     # classify_* before persisting the uncited_claims event). Runs on
     # net_result's own sentence list, not a second pass over the text.
     uncited_claims = find_uncited_claims(net_result["sentences"])
 
-    # R27-A item 2 (Entry 55) / item 5's own single-pass fold (Entry 56,
-    # 2026-09-23): paragraph_coverage now rides on THIS SAME net_result
-    # (apply_net calls check_turn_with_paragraph_coverage - see that
-    # function's own docstring) rather than a second, independent
+    # paragraph_coverage now rides on THIS SAME net_result (apply_net
+    # calls check_turn_with_paragraph_coverage - see that function's own
+    # docstring) rather than a second, independent
     # check_turn_with_paragraph_coverage call - the net runs once per
-    # attempt, not twice. Only the FINISHED paragraph_offenses list rides
-    # on voice_event, not the whole net_result: that result's own
-    # per-sentence verdict dump is real analysis weight with no reason to
-    # sit in the permanent event log forever; find_uncited_paragraphs
-    # reduces it to the same small {sentence, class} shape uncited_claims
-    # already uses.
+    # attempt, not twice, folded into the R27 enforcement pass below.
+    # Only the FINISHED paragraph_offenses list rides on voice_event, not
+    # the whole net_result: that result's own per-sentence verdict dump
+    # is real analysis weight with no reason to sit in the permanent
+    # event log forever; find_uncited_paragraphs reduces it to the same
+    # small {sentence, class} shape uncited_claims already uses.
     paragraph_offenses = find_uncited_paragraphs(net_result)
 
-    # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
-    # 2026-09-23): flag-gated enforcement, OFF by default (see this
-    # function's own docstring for the full shape). r27_enforcement_exhausted
+    # R27's flag-gated enforcement, OFF by default (see this function's
+    # own docstring for the full shape). r27_enforcement_exhausted
     # and attempts_meta["r27_regenerated"] are always set (False/absent
     # when r27_enforce is False or nothing tripped it), so every reader of
     # voice_event can check them unconditionally, the same
@@ -1104,13 +1094,13 @@ def _run_ordinary_voice_turn(
         "glosses": glosses,
         "figures_used": figures_used,
         "quote_offers": [],
-        # r27_regenerated (Entry 56): whether item 5's own enforcement
-        # attempted the one allowed regeneration this turn - False when
-        # r27_enforce is off (every real caller until Mark flips the
-        # flag) or when nothing hard-failed on the raw attempt. attempts_
-        # meta carries no schema-validated shape (engine.m4.events'
-        # REQUIRED_KEYS only requires the key's presence), so this rides
-        # here rather than needing a catalog change.
+        # r27_regenerated: whether R27's own enforcement attempted the one
+        # allowed regeneration this turn - False when r27_enforce is off
+        # (every real caller until the flag is flipped on) or when
+        # nothing hard-failed on the raw attempt. attempts_meta carries
+        # no schema-validated shape (engine.m4.events' REQUIRED_KEYS only
+        # requires the key's presence), so this rides here rather than
+        # needing a catalog change.
         "attempts_meta": {
             "empty_stream_retries": 0, "r27_regenerated": attempts_meta_r27_regenerated,
             "self_revision": self_revision_meta,
@@ -1142,17 +1132,17 @@ def _run_ordinary_voice_turn(
         # as this seat's real answer.
         "seat_identity_violations": seat_identity_violations,
         "seat_identity_guard_exhausted": seat_identity_guard_exhausted,
-        # R27, additive (Entry 51): [] on every clean turn. Base class
+        # R27, additive: [] on every clean turn. Base class
         # "uncited_claim" only - see this function's own note above.
         "uncited_claims": uncited_claims,
-        # R27-A item 2, additive (Entry 55): [] on every clean turn, same
-        # shape/scale discipline as uncited_claims above - base classes
+        # Additive: [] on every clean turn, same shape/scale discipline
+        # as uncited_claims above - base classes
         # "wholly_uncited_paragraph"/"inherited_ungrounded" only; the
         # caller (registry/routing context this function doesn't have)
         # cross-references this against "uncited_claims" to narrow
-        # "own_doctrine_in_other_tradition_turn" (Entry 55's own rule).
+        # "own_doctrine_in_other_tradition_turn".
         "paragraph_offenses": paragraph_offenses,
-        # R27 build item 5, additive (Entry 56/R36): False unless
+        # R27's flag-gated enforcement, additive: False unless
         # r27_enforce was on AND the one allowed regeneration still left
         # a hard offense (wholly_uncited_paragraph or neighbour_named)
         # standing. True means answer_text is deliberately "" (the
@@ -1238,14 +1228,14 @@ def run_turn(
     already holds and for the same SS210 reason (see
     engine.m5.safety_accumulation's own module docstring).
 
-    r27_enforce/known_tradition_names (R27 build item 5, Entry 56):
+    r27_enforce/known_tradition_names (R27's flag-gated enforcement):
     threaded straight through to every _run_ordinary_voice_turn call this
     function makes (the ordinary path and the bridge route both generate
     a real voice answer that can carry the same offenses) - see that
     function's own docstring for the full enforcement shape. Both default
     off/None, byte-identical to before either existed."""
-    # The gate pass, extracted whole to run_gate (2026-08-28, Artifact-7 -
-    # a table round gates once per message, then runs several voice turns
+    # The gate pass, extracted whole to run_gate (Artifact-7 - a table
+    # round gates once per message, then runs several voice turns
     # against the same decision). The locals below keep their old names so
     # every branch under them is untouched.
     gate_run = run_gate(
@@ -1307,9 +1297,9 @@ def run_turn(
                 usage_records=usage_records,
             )
 
-        # Governed (CiC_System_Hub_Decision_Log.md, portfolio decision
-        # 2026-09-08): no voice speaks once ACUTE_DISTRESS fires, in the
-        # interview any more than at a table (engine.m4.round's own
+        # Governed (CiC_System_Hub_Decision_Log.md, a portfolio decision):
+        # no voice speaks once ACUTE_DISTRESS fires, in the interview any
+        # more than at a table (engine.m4.round's own
         # is_acute_crisis branch, Artifact-7 SS2) - the Representative
         # never steps out of its world, full stop, and the crisis-resources
         # append below never depended on a voice call's output anyway
