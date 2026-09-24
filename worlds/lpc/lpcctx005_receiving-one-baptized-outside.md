@@ -21,7 +21,8 @@ Do-Not-Retrieve-When:   the question is the abstract doctrinal disagreement
                         is about reconciling a sinner from within (lpcctx004, a
                         different rite despite the similar name)
 Related-Chunks:         lpcctx004_the-road-walked-in-stages,
-                        lpcctx002_the-questions-at-the-water
+                        lpcctx002_the-questions-at-the-water,
+                        lpcctx003_what-the-water-seals
 ```
 
 ## Primary Content
