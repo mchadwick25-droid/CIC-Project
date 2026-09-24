@@ -627,8 +627,10 @@ worlds/lpc/lpc_Decision_Log.md: Ministry/Formation
 worlds/lpc/lpc_Decision_Log.md: World-Builds/Donatism/scripts
 worlds/lpc/lpc_Decision_Log.md: World-Builds/Latin-Pastoral-Congregational-Christianity
 worlds/lpc/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
+worlds/lpc/lpc_Decision_Log.md: packages/lpc
 worlds/lpc/lpc_Decision_Log.md: records/lpc
 worlds/lpc/lpc_Decision_Log.md: records/worlds.yaml
+worlds/lpc/lpc_Decision_Log.md: records/worlds/lpc.yaml
 worlds/lpc/lpc_World_Profile.md: World-Builds/Donatism/don_Decision_Log.md
 worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md: Ministry/Operations/CiC_L1-L5_Systematic_Audit_2026-07-19.md
 worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md: cic-poc/docs/engineering-notes
