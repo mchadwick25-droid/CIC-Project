@@ -33,9 +33,9 @@ description: 'At Geneva, a body of pastors and lay elders, not the civil magistr
   ordinary conduct answerable to what we profess. Its own founding act - the 1541 Ecclesiastical Ordinances
   - built the independence claim into the institution from the start, a claim the Perrinist crisis tested
   decades later and substantially resolved in the Consistory''s own favor only by 1555. The general doctrine
-  is Documented, Confidence A, directly in Calvin''s own words; Geneva''s own specific weekly operation
+  is well attested, directly in Calvin''s own words; Geneva''s own specific weekly operation
   - the actual case-by-case discipline the census itself selected this world for - rests on the still-unacquired
-  1541 Ordinances, Confidence E. We classify this Supporting, not Primary: real and formation-central
+  1541 Ordinances. We classify this Supporting, not Primary: real and formation-central
   at Geneva, but not cross-strand attested, since Zurich''s own council governed church and city as one
   body from the start and built no comparable institution.'
 manifestations:
