@@ -1526,6 +1526,55 @@ staleness-check` report clean fleet-wide.
 0 new unresolved path citations; 769 total; 769 accepted in baseline;
 0 retired paths present.
 
+**Round 2 — register and omission fix (2026-09-24), reviewer's own
+human read.** PASS on `no-sun-no-moon-no-sky` (question structure held,
+5/5 translation, FK 8.57). FAIL round 1 on
+`the-grades-here-in-the-church`, three problems in the first two
+sentences: (a) "Church has three ranks" dropped both the definite
+article and "here" - the source's "the grades here in the Church" sets
+the earthly ranks against "the angelic glory," and "here" carries that
+contrast; (b) "three" is not in the source, which lists the ranks
+without counting them; (c) "According to my opinion" is the source's
+own wording carried forward unmodernized - the idiom is "In my
+opinion," which an earlier revision already had before this fix
+regressed it. The reviewer's own suggested wording restores all three
+("In my opinion, the ranks here in the Church, bishops, presbyters,
+and deacons, imitate the angelic glory and the divine plan. Scripture
+says that plan awaits those who, following in the apostles' footsteps,
+have lived in perfect righteousness according to the Gospel.") but
+scores FK 11.7, over the readability ceiling as a two-sentence
+rendering. Split the second sentence's embedded relative clause into
+two independent sentences ("...those who follow in the apostles'
+footsteps. They have lived in perfect righteousness according to the
+Gospel.") to bring FK to 8.66 while keeping every element of the fix
+intact: "here" restored, no count added, "In my opinion," "economy" as
+"the divine plan," perfect tense on "have lived," "according to the
+Gospel" kept close to the source.
+
+Re-grading the three-sentence split shows a residual complaint (5/5
+mixed) that separating "those who...have lived" loses the conditional
+unity linking apostolic footsteps to the divine plan's promise - the
+same subordinate-clause-splitting tension already logged earlier in
+this entry and for desert's `the-shores-are-covered` and pahc's
+`melito-no-phantom`. Every clause the automated grader cites as lost is
+present in the rendering; flagged explicitly for the reviewer's own
+human read (which already stands over the grader elsewhere in this
+entry) rather than silently choosing between the reviewer's exact
+wording and the FK gate, since the two cannot both be satisfied without
+a split.
+
+Re-pinned against this fix's own commit
+`d808787dbd58bde53f8d8cf640cfb33de454cd54`: old
+`packages/alx/2026-09-24T05-58-09Z`
+(`sha256:d3786be48aa2af2552519f4a1503500b28eb0e427ae3f65e3fcf8c796f50e6b5`)
+→ new `packages/alx/2026-09-24T06-31-34Z`
+(`sha256:096977f80d5131fe112272a390b9dacf5a750a489697ecc534a5109440a5ad3f`).
+Site JSON rebuilt against the same commit. Both staleness checks clean
+fleet-wide. `check_paths.py` on a clean worktree of this commit: 0 new
+unresolved path citations; 769 total; 769 accepted in baseline; 0
+retired paths present. `pytest engine/m1/tests/ engine/m2/tests/`: 191
+passed.
+
 **This closes R43 Group B (desert, hal, pahc, syr, alx) and the whole
 R43 fleet-wide rendering-fidelity re-authoring campaign**, once this
 PR merges.
