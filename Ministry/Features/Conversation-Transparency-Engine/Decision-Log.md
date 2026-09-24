@@ -5060,3 +5060,13 @@ Measured against `engine.m1.fk.fk_grade` (this project's own hermetic
 FK implementation): grade 8.77, seven sentences, longest 23 words,
 average 14.4 words/sentence - inside the CLAUDE.md target band (FK 8-10,
 sentences 12-20 words average, nothing over 25).
+
+Mark approved the participant wording with three edits to
+`distinguishing_claim` (`underlying_subject` approved as it stood):
+"older than you might assume" -> "older than the doctrine it now
+names"; "To him, it already sounded familiar, not new" -> "He seems to
+use it as a word his readers already knew"; and the closing sentence
+reworded to "Scholars still disagree about whether Theophilus meant
+the same thing that doctrine later named." Re-measured after the
+edits: FK grade 7.68, longest sentence 23 words, average 15.1
+words/sentence.
