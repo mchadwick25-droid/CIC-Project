@@ -40692,10 +40692,10 @@ function render(){
     const dot=el('circle',{cx:m._x,cy:m._y,r:built?4.4:2.6,
       fill: built?col:'var(--graphite)',
       stroke: built?'var(--iron-gall)':'none', 'stroke-width':built?1:0,
-      // 0.55 (Mark, live-site review) blended graphite down to within a few
-      // steps of the parchment ground -- barely there until a hover halo
-      // gave it away. 0.78 keeps not-yet-built worlds visibly quieter than
-      // the full-opacity built dots beside them, without disappearing at rest.
+      // 0.55 would blend graphite down to within a few steps of the parchment
+      // ground -- barely visible until a hover halo reveals it. 0.78 keeps
+      // not-yet-built worlds visibly quieter than the full-opacity built
+      // dots beside them, without disappearing at rest.
       opacity: built?1:0.78});
     // Only shown at organic (zoomed-in) detail -- applyDetail() toggles .lbl the
     // same way it toggles the rivers, so a crowded era stays a river at full

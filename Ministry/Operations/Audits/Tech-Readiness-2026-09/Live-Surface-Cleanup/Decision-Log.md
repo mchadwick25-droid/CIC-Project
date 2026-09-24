@@ -269,4 +269,17 @@ FAILED tools/tests/test_check_live_commentary.py::test_precision_and_recall_on_h
 ```
 ).
 
+**Round 3 verdict: PASS**, with one remaining line flagged: `atlas-v3.html`
+line ~40695, "0.55 (Mark, live-site review) blended graphite down to
+within a few steps..." carried an attribution the checker's own regexes
+don't catch (no ISO date, no ruling number). Fixed: dropped the
+attribution and restated the rejected 0.55 alternative in the
+conditional ("would blend...") alongside the kept reasoning for 0.78,
+matching the same rejected-alternative pattern already used and kept
+elsewhere in this file (e.g. `empire.svg`'s dalmatic alternative).
+Re-validated: `check_live_commentary.py --surface cic-website` → 1 hit
+(unchanged, the documented KEEP false positive); `check_no_embedded_world_data.py`
+→ exit 0; `check_paths.py` → 0 new/retired; `node tools/validate-census.mjs`
+→ 0 errors, 292/69/10 unchanged.
+
 ---
