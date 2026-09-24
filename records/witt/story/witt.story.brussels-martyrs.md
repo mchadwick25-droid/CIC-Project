@@ -18,8 +18,7 @@ confidence:
     martyrs'' last words rendered as reported speech are exactly what CF V7.4 names as hagiographic narrative,
     the named subtype within Tier 3 - "the idealized portrait... shaped by recognizable hagiographic conventions."
     The two men are named "John" and "Henry" in the vendored text itself; "Augustinian" does not occur
-    anywhere in that text in connection with them, and the Registry''s own technical correction
-    fixed an earlier, unverified "Augustinian friars" wording to what the text actually supports.'
+    anywhere in that text in connection with them.'
 sources:
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
   locus: Hymn V, "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain in

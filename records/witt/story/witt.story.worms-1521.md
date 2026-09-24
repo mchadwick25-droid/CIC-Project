@@ -116,7 +116,7 @@ modern_contrast: A modern reader almost certainly knows Worms through one senten
   but only one of them is this library's own directly attested wording from Luther's own mouth.
 ---
 Converted at B-4 from Doc_09 witt-S03 (witt_Doc_09_Story_Inventory.md SS2), including that document's
-own corrected handling of the "tiles"/"Here I stand" quotation question - carried forward
+own handling of the "tiles"/"Here I stand" quotation question - carried forward
 exactly, not re-litigated. Quotations verified verbatim by this authoring pass directly against
 cic/texts/luther_table-talk_bell1886.txt, lines 3495-3593 ("Of Luther's Journey and Proceedings at the
 Imperial Diet at Worms"). Source Registry (Primary); (the "Here I stand" caution, Secondary, as

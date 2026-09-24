@@ -17,8 +17,7 @@ confidence:
     fact of their names and their deaths: the ballad that is this library''s only source for them is composed
     in a hagiographic, commemorative register, and supplies no family name, age, or biographical detail
     for either man beyond "John" and "Henry." "Augustinian" does not occur anywhere in the vendored text
-    in connection with them; the Registry''s own technical correction fixed an earlier, unverified
-    "Augustinian friars" wording to what the text actually supports.'
+    in connection with them.'
 sources:
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
   locus: Hymn V's own heading and stanzas 1-6, naming "one of these youths... called John, and Henry was
