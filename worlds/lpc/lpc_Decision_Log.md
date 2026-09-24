@@ -1809,7 +1809,7 @@ Applied by a fresh thread on the instruction that the failure mode to avoid was 
 
 ### 2026-09-16 — Project lead's ruling: this world's three names
 
-- **Decided by the project lead, in this build thread's own conversation, when the options were put directly.** The registry carries two name registers per the project lead's own ruling of 2026-08-28, recorded at `records/WORLDS_REGISTRY_LOG.md`: `card_name` is *"the friendly participant-facing name ('the right picture in their mind')"* and `display_name` is the scholarly one *"to show rigor."*
+- **Decided by the project lead, in this build thread's own conversation, when the options were put directly.** The registry carries two name registers per the project lead's own ruling of 2026-08-28, recorded at `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`: `card_name` is *"the friendly participant-facing name ('the right picture in their mind')"* and `display_name` is the scholarly one *"to show rigor."*
 
 | Field | Value |
 |---|---|

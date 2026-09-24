@@ -11,7 +11,7 @@ review/decision files against roughly 139 total files in this folder, the great 
 are the 81 Lexicon-Chunks and 14 Story-Chunks (content, not process record). This ledger draws only
 on what is genuinely review or decision history: the Doc_01–Doc_10 review/spot-check files, the
 G1/B-9/Phase C scoping notes, the Representative identity and construction records, and
-`records/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section. Where a document's build history could
+`Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section. Where a document's build history could
 not be reconstructed from what is on disk, that is said plainly rather than filled in.
 
 ---
@@ -209,7 +209,7 @@ world.*
   world; makes the Representative freeze-eligible on that gate specifically (the world overall
   remained not freeze-eligible on the separate Article 31 gate — see OG-3). Recorded at
   `gallic_Representative_Construction_Notes_Renatus.md` §6 and its Document Log, and at
-  `records/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section.
+  `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section.
 - **B-8 (first compile), 2026-09-12** — `state: built`, `census_id` deliberately null (post-admission
   work). **B-9, 2026-09-12** — scoped and disposed: contributes nothing beyond B-8, for a first-ever
   build with no prior hand-authored deployment to swap away from, matching Cappadocian's own B-9
@@ -259,7 +259,7 @@ world.*
   against Cappadocian's Chilo, checked against the actual image files.
 - **Census link, content upgrade, tradition page, homepage card, status flip — all 2026-09-13,** each
   on Mark's own explicit word ("yes, start on 1-4"; "yes, flip it"). Full detail in
-  `records/WORLDS_REGISTRY_LOG.md`'s `## gallic` section — `census_id` set, `cic-website` tradition
+  `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s `## gallic` section — `census_id` set, `cic-website` tradition
   page and homepage card built from this build's own grounded records (not invented copy), and the
   fleet's four-entry `ACCEPTED_OPEN` disclosure block for gallic closed outright once every surface
   agreed.
@@ -403,7 +403,7 @@ re-inspection of the current files, not assumed from the commit message alone.
 
 Beyond OG-4, OG-8, and OG-9 above (each already a cross-world/fleet-level finding that names gallic
 by name), no further portfolio-level audit reviewed in the course of building this ledger named
-gallic or "the Monk-Bishops of Gaul" specifically. `records/WORLDS_REGISTRY_LOG.md`'s own `## gallic`
+gallic or "the Monk-Bishops of Gaul" specifically. `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic`
 section is the fleet's authoritative quick-reference for this world's post-approval history and was
 read in full to build the Representative build log and the open-items list above; it states plainly
 that "everything about this world's own build is tracked in" this world's own documents, matching

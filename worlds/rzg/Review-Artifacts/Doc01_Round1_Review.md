@@ -15,7 +15,7 @@
 - `cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml`
 - `CLAUDE.md`; the `cic-build-cycle` skill
 - Prior Doc_01s for comparison: Donatism, Imperial-Juridical Christianity, Alexandria; `World-Builds/Donatism/Review-Artifacts/Doc01_Round1_Review.md`
-- `records/`, `packages/`, `records/WORLDS_REGISTRY_LOG.md` for the file-code check
+- `records/`, `packages/`, `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` for the file-code check
 - Historical verification against standard Reformation scholarship (Gordon, *Calvin* and *The Swiss Reformation*; Potter, *Zwingli*; Kingdon; Stayer/Packull/Deppermann on Anabaptist polygenesis; the standard Dort literature)
 
 ---
@@ -338,7 +338,7 @@ Two smaller points in the same item. Article 20 does not "name women for special
 
 **L10.** §5's inherited-transmission quotation is character-exact ✓, but the census text it quotes applies "total depravity, unconditional election, and irresistible grace" to Calvin's *Institutes*. Those are categories derived from the Canons of Dort (1619), sixty years after the 1559 Institutes. The draft adopts the anachronism without comment — worth a note in a document that elsewhere argues Dort is out of scope.
 
-**L11.** `rzg` is assigned in the masthead and registered nowhere. The no-collision check is accurate ✓ — `packages/` and `records/` hold exactly `alx`, `cappadocian`, `desert`, `don`, `fix`, `gallic`, `hal`, `ijc`, `pahc`, `syr`, the ten codes listed. But neither `records/worlds.yaml` nor `records/WORLDS_REGISTRY_LOG.md` carries an `rzg` entry, and the masthead does not say where the code is to be registered.
+**L11.** `rzg` is assigned in the masthead and registered nowhere. The no-collision check is accurate ✓ — `packages/` and `records/` hold exactly `alx`, `cappadocian`, `desert`, `don`, `fix`, `gallic`, `hal`, `ijc`, `pahc`, `syr`, the ten codes listed. But neither `records/worlds.yaml` nor `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` carries an `rzg` entry, and the masthead does not say where the code is to be registered.
 
 **L12.** No `Open_Gaps_Tracking.md` exists for this world. `CLAUDE.md`: "Every known gap, open question, or review outcome belongs in that world's `Open_Gaps_Tracking.md` — never left to live only in a conversation thread. Entries are append-only and numbered." §7's ten open items — several of them binding on Doc_02 — live only inside Doc_01. Sibling worlds (Syriac, Alexandria) maintain the file and are cited by number from other documents.
 

@@ -164,7 +164,7 @@ entry was itself imprecise, is **not determined by this pass** — named honestl
 open discrepancy rather than assumed in either direction.
 
 Separately, and not in tension with the above once the two senses of the word are
-kept apart: `records/WORLDS_REGISTRY_LOG.md` confirms Desert was **admitted** (a
+kept apart: `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` confirms Desert was **admitted** (a
 distinct, later, engine-level M3/sealed-probe certification, not the construction-cycle
 "Frozen" status OG-2 tracks) on **2026-08-28**, alongside all six original worlds, on
 Mark's own direct instruction in session ("yes i admit all six worlds") — see Build Log
@@ -481,7 +481,7 @@ and review-round history only.)*
 
 ## Admission / deployment status (distinct from either build log's "Frozen" status — see OG-4)
 
-Per `records/WORLDS_REGISTRY_LOG.md`: Desert was **admitted 2026-08-28**, alongside all
+Per `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`: Desert was **admitted 2026-08-28**, alongside all
 six original formation worlds, on Mark's own direct instruction in session ("yes i
 admit all six worlds"), certified by that day's fleet-parity battery (28/28 sealed
 probes). The registry log records this was not a ceremonial sign-off — Mark read every

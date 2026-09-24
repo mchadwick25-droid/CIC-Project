@@ -17,7 +17,7 @@
 - `cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml` — all nine work rows
 - `World-Builds/Reformed-Zurich-and-Geneva/Step0_Movement_Scope_Confirmation.md`; `World-Builds/Lutheran-Wittenberg/Step0_Movement_Scope_Confirmation.md`
 - `world-build-docs/_cross-world/dossiers/the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md`
-- `records/`, `records/worlds/`, `records/WORLDS_REGISTRY_LOG.md`, `packages/`
+- `records/`, `records/worlds/`, `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`, `packages/`
 - `World-Builds/Donatism/Doc_01...md` and `don_Decision_Log.md`; `World-Builds/Imperial-Juridical-Christianity/` (folder contents and launch record)
 - The two new supporting files: `Open_Gaps_Tracking.md`, `rzg_Decision_Log.md`
 - `CLAUDE.md`; the `cic-build-cycle` skill
