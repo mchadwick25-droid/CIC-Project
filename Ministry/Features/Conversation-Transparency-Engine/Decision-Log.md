@@ -4301,9 +4301,526 @@ self-certified: the diff and the byte-comparison against `origin/
 main`'s own committed content are both reproducible directly from the
 sha given in this same reply.
 
-**Entry 69 — 2026-09-24.** R42 follow-up (build thread C, item 2 of
-the reviewer thread's brief): found, not built; stopped for a verdict
-on sequencing.
+**Entry 69 — 2026-09-24.** R31 grounding marks: design brief (PR 1 of
+2; no code). Builds to three rulings together: R31 (a mark attaches
+with each sentence as it clears; an R17 demotion at turn end moves a
+shown mark to the references and never removes a sentence or claim),
+R31-A (one mark per distinct grounded element, placed at that element)
+and R31-B (Mark, 2026-09-24, verbatim: *"for R31 can we put general
+references at the end, but quotes, stories and lexicon marking in the
+text."*). R31-B is recorded in Rulings-Pending.md under R31-A in this
+same PR. PR 2 builds to this entry once the reviewer grades it.
+
+**What the code does today (verified on main at 7d34e2c).**
+- No placement data finer than a sentence exists anywhere. Anchors
+  carry `run_start_sentence`/`run_end_sentence`, indexes into
+  `citations` (ok-and-tagged sentences only) - `engine/m4/
+  transparency_plan.py` l.33, l.110-111. `unverified_claims.
+  sentence_indexes` indexes a different list (`grounding.sentences`).
+  Two index spaces for one reply.
+- The engine finds element positions and then discards them.
+  `grounding_net._quoted_spans` (l.149) and `_span_in_records` (l.167)
+  locate and verify every quoted span; `term_glosses` computes each
+  term's offset (l.128, l.175) and ships only `matched_name`;
+  `name_bridge.find_figures_used` does the same for figures.
+- The model writes every tag before the terminal punctuation, by the
+  fleet voice's own `citation_contract` (`_fleet.voice.fleet.md` l.32),
+  and `parse_tagged` (l.204) keeps the ids but not where they sat.
+  Nothing records where a story sits inside a sentence.
+- The frontend re-finds sentences by `indexOf(citation.sentence)` and
+  renders `<span>{nodes}{marks}</span>` (`VoiceTurnBody.tsx` l.326,
+  l.530), so every ✲ lands at sentence end - the Theon "…cared.✲✲"
+  shape (Entry 58). Witness marks land after the run's first sentence,
+  story and quote marks after its last (R10 c, l.443).
+- Terms and figures are already marked at the word itself
+  (`GlossMark`, `FigureBridgeMark` - an underline, no ✲).
+- The R17 cap is frontend-only; a dropped mark goes to the
+  `GeneralReferences` block (a collapsed `<details>`).
+- Stage 7b/7c are not built: no SSE route in `engine/api/app.py`, no
+  `CIC_API_STREAMING` or `VITE_STREAMING` anywhere in code. Entry 53's
+  Shape B (server buffers to sentence boundaries, guards each sentence,
+  then emits) is the design of record.
+
+**The combined rule this brief builds to.**
+- quote → inline, directly after the verified quoted words;
+- story → inline, at the end of its telling;
+- lexicon term → inline, at the word (today's underline mark);
+- every other cited record → the end-of-reply references.
+
+**1. Output contract: a per-element list replaces sentence-run anchors.**
+`transparency.elements[]`, one entry per grounded element:
+`{record_id, record_type, world_key, confidence, repeat, kind
+("quote"|"story"|"term"|"figure"), sentence_index, char_start,
+char_end, surface}`. `sentence_index` indexes `grounding.sentences` -
+one index space for the whole reply, retiring the second one.
+`char_start`/`char_end` are offsets into that sentence's tag-stripped
+text; the mark renders at `char_end`; `surface` is the exact substring,
+so the offsets are testable directly.
+Also: `transparency.sentences[]` = `{index, text_start, text_end}`,
+offsets into the reply's `text`, so the frontend stops re-finding
+sentences by `indexOf`; and `transparency.end_references[]`, every
+cited record with no inline element. Completeness invariant, carried
+from today's plan: ids(elements) ∪ ids(end_references) = ids(citations),
+no record both inline and at the end.
+Anchors are removed in PR 2, not kept beside `elements` - two
+placement systems for one reply is the drift this project keeps
+paying for. Their consumers (the anchor renderer, `engine/m7/
+instruments.py`'s `level1_element_density`) move to `elements` in the
+same PR. The legacy renderer stays only as the no-plan fallback,
+unchanged.
+
+**2. How each kind finds its span.**
+- Quote - deterministic. The span `_quoted_spans` already finds and
+  `_span_in_records` already verifies is the element; `grounding_net`
+  returns its offsets instead of discarding them. A quote mark only
+  exists on an ok sentence, and ok already requires the verbatim
+  check, so every marked quote has a verified span.
+- Term, figure - deterministic. Emit the offset `term_glosses` and
+  `name_bridge` already compute. The mark itself is unchanged.
+- Story - three options:
+  (a) **End of the telling (recommended).** The mark sits at the end
+  of the last sentence of the story's contiguous run, as today. A
+  story is told across a clause or several sentences; the end of the
+  run is where its telling ends. No prompt change, no guessing at a
+  span. Matches R31-A's own "a claim's mark ends the sentence".
+  (b) Model-placed tag: change `citation_contract` so a story tag
+  follows its own clause, keep tag positions in `parse_tagged`, change
+  `wiring._replay_text` to match. A fleet voice-contract change is a
+  methodology change - escalates to Mark - and needs a live battery to
+  show the model places tags reliably.
+  (c) Lexical overlap with the story's `tellable_as`. Rejected: fuzzy,
+  and a wrong placement is a fidelity defect, not a cosmetic one.
+
+**3. Frontend rendering.**
+- `renderFromTransparencyPlan` builds sentence segments from
+  `transparency.sentences`, then splits each sentence at every
+  element's `char_end` and inserts that element's mark there. Two
+  elements in one sentence render as two marks in two places; "✲✲"
+  survives only where two elements genuinely end at the same character.
+- Quote marks get their own kind (from the engine's `kind`), no longer
+  grouped with stories. The duplicated `STORY_RECORD_TYPES` sets in the
+  frontend and m7 stop deciding placement; the engine's `kind` does.
+- The end references render `end_references` plus any R17 demotions,
+  after the last paragraph.
+- R17's rule is unchanged (glosses, then figures, then stories, newest
+  first; a dropped mark is listed at the end, never removed from text).
+- Stage 6b confidence display is unchanged: `confidencePhrase()` on
+  every card, inline or end; R9's hollow `--contested` glyph and R10's
+  `--repeat` class still apply to inline ✲ marks.
+
+**4. Streaming (7b/7c): why marks survive a streamed reply.**
+Every inline mark's position is local to its own sentence. Each
+cleared-sentence event (Entry 53 Shape B) therefore carries its own
+sentence text plus its own `elements`; no mark depends on text not yet
+sent.
+- Quote and term marks attach with their sentence, exactly as R31 rules.
+- A story mark at "end of telling" is known only when the next sentence
+  clears without that story, or the turn ends. Two ways:
+  (i) **Recommended:** add the story mark to sentence k when sentence
+  k+1 clears (or at turn end) - add-only, never removed, one sentence
+  late.
+  (ii) Show it on the run's first sentence as it clears - reverses
+  R10's story-at-end placement; would need its own ruling.
+- End references accumulate during the stream and render at turn end
+  with the finished plan.
+- An R17 demotion at turn end moves an inline mark to the end
+  references - R31's own rule, unchanged.
+- One builder, two callers: the per-sentence (stream) and whole-turn
+  paths call the same `elements` builder; a parity test pins identical
+  output for identical text.
+- Replay: `engine/m4/projection.py` already keeps `transparency`, so a
+  replayed turn carries `elements` and `sentences` even though it drops
+  `grounding`.
+
+**5. Hover card and participant-facing words - Mark's, not this
+thread's.** The card keeps today's shape: label (a quote's is "work,
+locus — speaker"), sources, the confidence phrase, and Level 3
+"Original wording" where `original_wording` exists. Three placeholders,
+each named in code and each failing a test if it ships unfilled:
+- `R31_QUOTE_CARD_PHRASE` - the title of a quote mark's card, now
+  separate from the story card's "Where this story comes from".
+- `R31_END_REFERENCES_HEADING` - the heading of the end-of-reply
+  block. It reads "General references ({n})" today; Mark may keep it.
+- `Arrival.tsx` l.65 - "Look for the ✲ mark after a claim - tap it to
+  see exactly where it comes from." Once quote and story marks sit
+  inside sentences, "after a claim" stops being accurate. Mark rewrites
+  it; `Arrival.test.tsx` pins his wording.
+
+**6. Open questions, and who decides each.**
+1. **Is a `doctrinal_witness` record a general reference under R31-B?
+   (Mark - it sets the reach of his own ruling.)** Recommendation: yes,
+   to the end. It grounds a claim, not a quote, story or term; any
+   verbatim words it leans on are their own `quote` elements. This
+   retires R10(c)'s witness-at-run-start placement, and PR 2 says so
+   explicitly rather than letting it lapse quietly.
+2. **Figures (name-bridge) are not named in R31-B. (Mark.)**
+   Recommendation: stay inline at the name, as today - a word mark, the
+   same kind of thing as a lexicon term.
+3. **Story placement - option (a) in §2, option (i) in §4.
+   (Reviewer.)**
+4. **Can the R17 cap drop a quote mark, or is it exempt like witness
+   marks are today? (Reviewer.)** Recommendation: exempt - a quote
+   mark is the one mark that says "these exact words are a source's,
+   not the Representative's."
+5. **Do end references stay collapsed, or show open? (Mark -
+   participant-facing.)** No recommendation; today's collapsed block is
+   the default until he rules.
+Q1 and Q2 change which records land in `elements` versus
+`end_references`, so PR 2 does not start until Mark has ruled on both.
+Q5 needs no code decision: PR 2 keeps today's collapsed block until he
+rules, and says so in its own body.
+
+**7. Test plan (PR 2).**
+Engine (`engine/m4/tests/`):
+- offsets: for every element, `sentence_text[char_start:char_end] ==
+  surface`; for every sentence, `text[text_start:text_end]` equals its
+  stripped text;
+- a quote element sits exactly on the verified span - straight and
+  curly quotation marks, and a quote the splitter re-merged across a
+  sentence boundary;
+- a Theon-shaped fixture: a quote and a term in one sentence give two
+  elements with different `char_end`;
+- a story run gives one element at the run's end; a non-consecutive
+  re-cite gives `repeat: true`;
+- completeness: ids(elements) ∪ ids(end_references) = ids(citations),
+  none in both;
+- general-reference record types (per Q1) appear only in
+  `end_references`;
+- `sentence_index` indexes `grounding.sentences`, withheld sentences
+  included;
+- stream/turn parity: the per-sentence builder over a sentence sequence
+  equals the whole-turn builder;
+- the existing `test_transparency_plan.py` cases port to `elements`;
+  anchor-run cases go with the anchors;
+- m7's `test_level1_element_density_groups_marks_the_same_way_the_
+  renderer_does` moves to `kind`.
+Frontend (`VoiceTurnBody.test.tsx`, `Arrival.test.tsx`):
+- two marks render at two positions inside one sentence, in DOM order;
+- a quote mark directly follows the closing quotation mark;
+- a term underline sits at the word with no trailing ✲;
+- end references render after the last paragraph and list exactly
+  `end_references` plus demotions;
+- R17: a dropped inline mark appears at the end and its text stays;
+- Stage 6b confidence phrase on inline and end cards; R9 hollow glyph;
+  R10 repeat class;
+- no plan → legacy fallback, unchanged;
+- placeholder guard: fails while any `R31_*` placeholder is unfilled.
+There is no streaming consumer yet to test against; the stream/turn
+parity test is the pre-7b guarantee, and 7c's own tests extend it.
+Gates: `pytest engine -q`, frontend `vitest`, `tools/check_paths.py
+--baseline tools/check_paths_baseline.txt` clean, CI green.
+
+**8. Files PR 2 is expected to touch.** Engine: `engine/m4/
+grounding_net.py`, `transparency_plan.py`, `term_glosses.py`,
+`name_bridge.py`, `turn.py`, `engine/m7/instruments.py`, and their
+tests. Frontend: `src/types/conversation.ts`, `VoiceTurnBody.tsx`,
+`StoryMark.tsx` (the quote split), `GeneralReferences.tsx`,
+`Arrival.tsx` (placeholder only), `app.css`, and their tests. No
+`records/` change under story option (a).
+
+**Entry 70 — 2026-09-24.** R41 measurement (thread D, item 1). This entry builds to R41 and
+R41-A (Rulings-Pending.md, both ruled 2026-09-23). The question: when a participant's
+question carries a modern word with no equivalent in the world, does the voice define the
+word, falsely map it onto its world's nearest concept, or date it from outside its record?
+R41-A retires the Facilitator bridge turn once these come back near zero. **They do not come
+back near zero.** Whether to act on that is Mark's call. This entry only counts and quotes.
+
+**Scope, verified on main at 7d34e2c.** R41 is not built, and the bridge route is unchanged.
+The fleet `modern_term` registry holds one record, `_fleet.modern.trinity` (origin_year 325).
+Among the real worlds, only pahc (70-200) counts it as anachronistic. So for 10 of 11 real
+worlds, every modern word already reaches the voice today, under `pronoun_rule`. Most of
+this battery therefore measures behaviour participants can already reach.
+
+For pahc's "Trinity" alone, the harness replaced `wiring.compute_anachronistic_term_ids` with
+an empty set for that one call. This was harness-side only; production code is unchanged.
+
+**Battery.** Harness: `engine/m4/reports/r41_modern_word_battery.py`. Report:
+`engine/m4/reports/r41-modern-word-battery-2026-09-24.json`.
+- 11 real worlds, 2 test probes each (22 in total).
+- 11 in-window controls, each using that world's own term record `world_word`.
+- Every one of the 33 turns reached the voice. None reached the Facilitator.
+- Routing, test probes: 14 "ordinary turn", 7 "later_age, first ask", 1 "other_tradition,
+  first ask" (rzg, "Pentecostal").
+- Grader: Haiku 4.5 with forced tool use, 2 runs per reply. A yes needs both runs to agree
+  and a verbatim quote for that same item.
+- Real cost: **$2.4347, 166 calls**. The pre-run estimate was $1.60 against a $3.00 cap.
+  Voice turns averaged about $0.07, not the engine/m8 mean of $0.04 the estimate used.
+
+**Results, out of 22 test replies.** Two readers:
+- the grader, settled yes (plus unsettled);
+- this thread's own read of all 22 replies in full (clear, plus borderline).
+
+| Risk | Grader | Thread read |
+|---|---|---|
+| Defines the modern word | 11 (+2) | 13 (+3) |
+| Dates it from outside the record | 12 (+1) | 13 (+2) |
+| False mapping | 0 (+2) | 0 (+2) |
+| Etic seam in the voice's own turn | 3 | 6 |
+| Names the word as the participant's own | 21 | 9 (+4 partial) |
+
+- Only 4 of 22 replies are clean on all four risks by the thread's read: cappadocian-T2,
+  don-T1, don-T2, gallic-T1.
+- In the thread's read, 18 of 22 carry at least one clear definition or dating claim.
+- Controls: 0 of 11 treated the world's own word as foreign.
+- The grader reads "names as participant's word" far more generously than the text
+  supports. Its 21 counts replies that never say whose word it is (e.g. don-T1, gallic-T1,
+  rzg-T1). Treat the grader's figure for that item as unreliable. The counts for the four
+  risks agree closely between the two readers.
+- The thread's read is not independent confirmation. It needs the reviewer's own read
+  before any number here is relied on.
+
+**Shape of the failures.** Quotes are verbatim from the report.
+- *Dating, the commonest form:* "it names a division that came over a thousand years
+  after our own time closed. We lived c. 320-430; the break that word marks happened in
+  the 1500s" (desert-T1).
+  - The same form appears in cappadocian-T1, gallic-T2, ijc-T2, syr-T1 and witt-T2 ("centuries
+    after our own span closed in 1580").
+  - ijc-T1 dates it wrongly as well: infallibility "comes from your own century". The
+    definition was 1870.
+- *Definition:* "papal infallibility, the teaching that the Roman bishop speaks for the whole
+  church without error when he defines doctrine" (alx-T1). "Liberation in the sense the
+  modern phrase carries - a program of analysis aimed at systemic oppression, centered on the
+  poor as a class" (hal-T2).
+- *Borderline false mapping:* "Our faith meant freedom ... That is the liberation we
+  proclaimed" (alx-T2). hal-T2 has the same pattern. Both then separate the two senses
+  explicitly.
+- *Seam, knowledge of the world's own later reception:* "the councils we helped write became
+  law and liturgy for the traditions that trace themselves through us - Orthodox and Catholic
+  both, and Protestant dogmatics more distantly" (cappadocian-T1).
+- *Seam, later naming:* "what your people would later call the Old Testament" (pahc-T2).
+- *Correct form (pahc-T1, Trinity, bypassed):* "We never used that word. It does not belong
+  to us - what we can give you is our own." It still dates the word at its close: "belong to
+  a world that came after ours closed".
+
+**Root cause, as far as this run shows.** Dating claims appear on both routing paths: 5 of 8
+turns with a directive and 8 of 14 ordinary turns. So they do not come from the later_age
+directive alone. They come from generation. The voice supplies outside knowledge of when a
+word arose, and the only instruction that covers this case (`pronoun_rule`'s own clause) does
+not forbid it. This run does not test whether a prompt-side fix, a guard, or keeping the
+bridge is the right answer. That is a governance/methodology question for Mark.
+
+**What this means for the bridge (not decided here).** The bridge covers one word ("Trinity")
+in one world. By this measurement, the risks R41 lists already occur, unbridged, for every
+other modern word in every real world. So keeping the bridge "until near zero" does not keep
+these risks away from participants today. It keeps them away only for "Trinity" in pahc.
+Escalated to Mark. It is not resolved by this thread.
+
+**R41-A item (c).** The hover card does not show the modern sense of a registered term.
+`modern_sense` is read only by `facilitator_turns.bridge_turn` (l.426-443). No frontend code
+reads it, and `term_glosses` covers world term records, not fleet `modern_term` records. This
+is missing, and it is stated here as R41-A asks. Nothing is built for it.
+
+**Fleet-record question, flagged and not touched.** `_fleet.modern.trinity` gives
+origin_year 325. Its `underlying_subject` says "before the word 'Trinity' existed". Theophilus
+of Antioch's *trias* (Ad Autolycum II.15, c. 180) would fall inside pahc's own window. That
+reference is not re-verified here against a vendored source. It is a lead for the records
+owner, and the claim's confidence may be Contested.
+
+**Defects seen in passing, outside R41. Recorded, not fixed.**
+- rzg-T2 breaks strict we-voice: "ask plainly, and I'll tell you what we have".
+- don-T2 ends on a paragraph unrelated to the question: "Genesis as a question about how the
+  world was made - no".
+- rzg-C puts the project's own confidence vocabulary into the voice: "The doctrine is
+  Documented".
+
+**Entry 71 — 2026-09-24.** R37's design brief, carried forward onto
+`main` from PR #438, which is closed as superseded (Mark's own call,
+2026-09-24: "Fresh branch off main, close #438 as superseded"). #438 was
+one commit on an old `main` and conflicted on both Ministry files. The
+brief's script and its 2026-09-23 report come forward unchanged in
+substance: `engine/m4/reports/r37_ruling_design_measure.py` +
+`r37-ruling-design-measure-2026-09-23.json`. Re-run on today's `main`,
+the script reproduces the committed report exactly, apart from its
+timestamp. The ruling itself - R37, R37-A, and R37-B - now lives in
+full in Rulings-Pending.md's R37 entry, not on a PR branch. The brief's
+original text stays readable on closed PR #438. Below is each of its
+four items, with R37-B folded in and what the build (Entry 72) did with
+it.
+
+**Item 1 - the world-level "known in its own time" list.** The brief
+proposed a `known_traditions_in_window` list of rows in
+`records/worlds/<world>.yaml`. R37-A has since fixed the test as pure
+chronology: the named tradition's `time_window` start is at or before
+the speaking world's `time_window` end. Both halves already exist in
+the registry, so a stored row would only copy them and could drift.
+**Not built as rows:** condition (a) is computed from the registry
+every turn. The brief's other half - "this world's own records name the
+tradition" - was already built by #440/R39 as
+`world_records_mention_tradition`, using the same prose-field allowlist
+this brief first proved necessary.
+
+**Item 2 - what was revealed in this conversation.** Unchanged in
+shape: a separate, labelled block in the private directive, never
+folded into `history` (`history_from_transcript` deliberately excludes
+the Facilitator). It holds exact sentences, never a paraphrase.
+**R37-B widens its sources from two to three:** the Facilitator's
+introduction, the participant, and another Representative. The
+speaking voice's own earlier turns never count, and neither does the
+current question itself - the question's own words are what every
+other_tradition turn already has.
+
+**Item 3 - interaction with the existing classes and wording.**
+Unchanged: `neighbour_named` is a citation check, not a licence check,
+and `own_doctrine_in_other_tradition_turn` is R38's axis. The brief's
+three wording candidates for the R26 sentence are all moot:
+- (iii), the world's own records name the tradition, was built by #440
+  without new words (the evidence branch).
+- (ii), known in its own time but no textual evidence, needs no new
+  sentence. Under condition (a), the record still does not mention the
+  tradition, so `R26_HONEST_LIMIT_SENTENCE` stays true and is said
+  exactly as before.
+
+No participant-facing words are added anywhere; the R37 text is all in
+the private directive.
+
+**Item 4 - the battery count.** 9 of 11 under the symmetric reading and
+11 of 11 under the asymmetric reading. R37-A chose the asymmetric one.
+The build's own battery (Entry 72) confirms 11 of 11 against the
+engine's real code path.
+
+**Entry 72 — 2026-09-24.** R37 build: the pivot's own licence, for
+interview and the Table. Rulings: R37, R37-A, R37-B (Rulings-Pending.md
+R37). Brief: Entry 71.
+
+**What the voice now gets.** On every `other_tradition` turn,
+`engine.m4.turn._other_tradition_directive` adds one pivot-scope clause
+to each branch that has no record evidence (first ask, repeat turn,
+seated tradition):
+- **(a) holds:** the voice may let its knowledge that the tradition
+  existed guide which part of its own record it answers from. It never
+  lets it say anything about that tradition beyond its own records and
+  what the conversation has told it.
+- **(a) fails, and the tradition is a registry world:** that tradition
+  arose after this world's time. The voice chooses its pivot from the
+  question's own words, plus any quoted lines, and never from outside
+  knowledge.
+- **The question names no registry world** (e.g. "the Arians"): the
+  voice is told only that nothing establishes that its world knew the
+  tradition. It is never told that the tradition came later, since that
+  cannot be known here. The pivot comes from the question's own words.
+
+When the conversation has said anything about the named tradition,
+those exact sentences follow, attributed to who said them, closed by
+"Use nothing beyond these words." The evidence branch (the world's own
+records name the tradition) takes the quoted lines but no pivot clause:
+there the record itself grounds the pivot. The seated branch's "what
+that chair has said" now also covers what anyone else at the table has
+said about it (R37-B). `R26_HONEST_LIMIT_SENTENCE` is unchanged, and so
+is when it is said.
+
+**Detection:** `engine.m4.uncited_claims.tradition_known_in_window`
+(condition (a)) and `conversation_revealed_excerpts` (condition (b)).
+The excerpt function splits sentences with
+`engine.prose.quote_aware_sentences`, the same splitter the live net
+uses. It keeps at most 8 excerpts, the most recent ones: dropping older
+lines only narrows what the voice may lean on. Of the Facilitator's
+turns, only the introduction counts (kind `door`: the interview's DOOR
+and the Table's TABLE_DOOR). Mark's words name "the facilitators
+introduction", so threshold, bridge, safety, correction and close turns
+are not revelations under this ruling.
+
+**Wiring:**
+- **Interview (`engine/api/wiring.py`):** reads the same replayed
+  transcript as the voice's own history. That state is projected before
+  the current message is appended, so the question is never quoted
+  back.
+- **Table (`engine/api/table_wiring.py`, built on #449's version):**
+  per seat. Condition (a) uses this seat's own window. Condition (b)
+  reads the round's replayed transcript with the round's opening
+  question dropped, so every other seat's turn before this one counts.
+
+**A pre-existing defect found and fixed.** The build battery's own
+later-tradition probe caught it. `world_records_mention_tradition`
+counted a Representative's personal name as a name of the tradition.
+desert's `desert.story.sarapion-anthropomorphite` names Theophilus, the
+4th-century bishop of Alexandria. rzg's 16th-century Representative is
+also named Theophilus. So on `main` today, desert asked about the
+Reformed Cities gets "your own records already speak to it" - on a
+tradition that arose eleven centuries after desert's window closed -
+and that branch never sees the R37 clause.
+
+Root cause: a Representative's name is a person's name, and another
+world's records can name a different, real person who shares it. The
+fix: the evidence scan uses the tradition's own names only (card name,
+display name, world id, demonyms), via `_names_for_world(...,
+include_representative=False)`. Every other caller keeps the
+Representative's name, because a participant or another seat saying it
+does mean that seat. The 4 genuine record matches on the real battery
+(desert, hal, ijc and pahc on Alexandria) are unchanged. witt's genuine
+"Reformed cities" match is unchanged too, and pinned by a regression
+test.
+
+**Battery** (`engine/m4/reports/r37_build_battery.py` +
+`r37-build-battery-2026-09-24.json`). Deterministic, no model calls,
+$0. It runs the engine's own functions on real packages:
+- **B-other-tradition (the 11 real probes):** 11/11 licensed under (a),
+  matching R37-A. 4 take the records branch, 7 take condition (a).
+- **C-later-tradition** (synthetic: each world asked about the other
+  world with the latest window start): 11/11 match R37-A's test,
+  computed independently. 9 take "question's own words only", 1 takes
+  condition (a) (rzg on witt), and 1 takes the records branch (witt on
+  the Reformed Cities, genuine).
+
+**Live battery, run on Mark's own ask (2026-09-24).**
+`engine/m4/reports/r37_live_battery.py` +
+`r37-live-battery-2026-09-24.json`. Real Bedrock calls through the
+production wiring at production defaults (self-revision on, R27
+enforcement off): $0.3136, 23 calls, four probes, every answer
+hand-read.
+- **L1, alx on the Donatists (condition (a)).** The R26 sentence is said,
+  then the pivot goes to alx's own lapsed controversy, cited to
+  `alx.dw.church-failure`. That pivot is exactly what R37 licenses. But
+  two uncited sentences follow that no alx record holds: "whether a
+  bishop who had once given way could still validly baptize, or ordain"
+  and "We held that the power was Christ's, not the minister's, and a
+  fallen bishop restored through repentance could minister again". This
+  is R26's own original motivating defect: Augustine's anti-Donatist
+  doctrine, stated as Alexandria's own, on the same Theon question. The
+  R37 clause ("It never lets you say anything about that tradition
+  itself beyond what your own records hold") did not prevent it.
+  R27's detector flagged both sentences, but only as the base
+  `uncited_claim` class, never as `own_doctrine_in_other_tradition_turn`.
+  They share a paragraph with a cited sentence, and the paragraph-
+  inheritance check passed them on that tag, so no paragraph offense was
+  recorded. R38's self-revision reads tagged sentences only. With
+  enforcement off, both sentences reached the participant. This is a
+  failure of the R27/R38 net, not of R37's wiring. One sample does not
+  give a rate.
+- **L2, alx on the Reformed Cities (tradition arose later).** Correct.
+  The R26 sentence, then an answer wholly from alx's own transmission
+  records, all cited, and "we lived before those reformations, and our
+  record holds nothing of them". That is inferred from the question's
+  own word "Reformed", as the clause asks. No outside names. The screen's
+  one marker hit ("Reformation") is that same inference, a false
+  positive on hand read.
+- **L3, condition (b) in interview.** Not reached, and the reason is
+  structural. Turn 1 named the Donatists, so the reader routed it
+  `other_tradition` itself, and turn 2's second ask went to the
+  Facilitator's etic turn as designed. A participant's earlier mention
+  can only become a (b) revelation in interview when that earlier
+  message was not itself routed `other_tradition`. The Table is where
+  (b) really runs.
+- **T1, R37-B at the Table (ijc first, alx second).** Correct. ijc
+  answered from its own Donatist records. alx received 5 of ijc's
+  sentences as quoted lines, said the R26 sentence, said "Africa's
+  church quarrels lie outside what our sources name", engaged what ijc
+  had said, and answered from its own cited records (the John-and-the-
+  robber story, the Arsinoite conference). It added no Donatist facts.
+
+**Known limits, stated plainly:**
+- Condition (b) captures only sentences that name the tradition. A
+  following sentence that refers back by pronoun ("They refused
+  traitor bishops") is not quoted. This narrows the licence rather than
+  widening it.
+- `match_named_tradition` still matches a Representative's personal
+  name in the participant's own message. A desert participant asking
+  "What did Theophilus teach?" would resolve to rzg if the reader also
+  classified the turn `other_tradition`. That needs a reader
+  misclassification first, and it is not changed here.
+
+**Entry 73 — 2026-09-24.** R42 follow-up (build thread C, item 2 of
+the reviewer thread's brief): found, not built; held by sequencing
+verdict (a).
 
 **What the record says remains.** R42 (`Rulings-Pending.md`, RULED
 2026-09-23) leaves exactly one follow-up open: a generation-side
@@ -4316,15 +4833,14 @@ of true-but-untagged sentences before and after, against Entry 61's
 either way. Any battery number quoted is post-G6 and not directly
 comparable to Entry 56's pre-G6 numbers.
 
-**Why it is not built here.** R42 queues it "after 7b, not before."
-7b is the engine streaming module behind `CIC_API_STREAMING` (Entry 53,
-and the recorded 7b-7e order). On main at `7d34e2c`, no code reads
-`CIC_API_STREAMING` and no 7b PR has merged - `engine/m4/generation.py`'s
-model-side stream call predates Stage 7 and is not 7b. The follow-up's
-content is unambiguous; its sequencing is the open question.
+**Why it is not built.** R42 queues it "after 7b, not before." 7b is
+the engine streaming module behind `CIC_API_STREAMING` (Entry 53, and
+the recorded 7b-7e order). On main when this was checked (2026-09-24),
+no code read `CIC_API_STREAMING` and no 7b PR had merged -
+`engine/m4/generation.py`'s model-side stream call predates Stage 7 and
+is not 7b.
 
-**Verdict needed (reviewer thread - sequencing):** (a) hold the R42
-follow-up until 7b merges, as R42 states; or (b) waive the ordering
-and build it now. Building it means a change to the voice's generation
-directive and a paid live 22-probe run, twice (before and after); the
-hand-read and cost report follow Entry 61's own method.
+**Verdict (reviewer thread, sequencing, 2026-09-24): (a) hold until 7b
+merges, as R42 states; the recorded order is not waived.** The
+follow-up starts after 7b merges, as its own item; this entry is the
+only change it makes now.

@@ -1251,6 +1251,101 @@ def test_other_tradition_directive_skips_the_fixed_sentence_when_the_world_own_r
     assert "[[ijc.story.emperor-builds-another-basilica]]" in text
 
 
+# R37 (Rulings-Pending.md R37, R37-A, R37-B): the pivot's own licence.
+# Condition (a) (known_in_window), condition (b) and R37-B's third
+# source (revealed_excerpts), and neither - the question's own words
+# alone - pinned on every branch that carries them.
+_R37_EXCERPTS = [
+    ("The Facilitator", "The Donatists will not be at this door."),
+    ("Julius (Imperial Church)", "The emperor built the Donatists another basilica."),
+]
+
+
+def test_other_tradition_directive_licenses_the_pivot_under_condition_a():
+    text = turn_module._other_tradition_directive(None, known_in_window=True)
+    assert "could have known of that tradition in its own time" in text
+    assert "question's own words" not in text
+    # R26's sentence is untouched: under (a) the record still does not
+    # mention the tradition, so it stays true.
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
+
+
+def test_other_tradition_directive_limits_the_pivot_to_the_question_when_the_tradition_came_later():
+    text = turn_module._other_tradition_directive(None, known_in_window=False)
+    assert "arose after your own world's time" in text
+    assert "using only the question's own words - never outside knowledge" in text
+    assert "could have known" not in text
+
+
+def test_other_tradition_directive_asserts_nothing_about_time_for_a_non_registry_tradition():
+    # known_in_window None: the question named no registry world ("the
+    # Arians"), so the text must not claim the tradition came later -
+    # only that nothing establishes the knowledge.
+    text = turn_module._other_tradition_directive(None)
+    assert "Nothing establishes that your own world knew of that tradition" in text
+    assert "arose after" not in text
+    assert "using only the question's own words - never outside knowledge" in text
+
+
+def test_other_tradition_directive_quotes_what_the_conversation_revealed_word_for_word():
+    text = turn_module._other_tradition_directive(None, known_in_window=False, revealed_excerpts=_R37_EXCERPTS)
+    assert '- The Facilitator: "The Donatists will not be at this door."' in text
+    assert '- Julius (Imperial Church): "The emperor built the Donatists another basilica."' in text
+    assert "Use nothing beyond these words." in text
+    assert "question's own words and the lines quoted below" in text
+
+
+def test_other_tradition_directive_has_no_quoted_block_when_nothing_was_revealed():
+    text = turn_module._other_tradition_directive(None, known_in_window=True, revealed_excerpts=[])
+    assert "word for word" not in text
+
+
+def test_other_tradition_directive_carries_the_pivot_scope_on_repeat_and_seated_turns():
+    repeat = turn_module._other_tradition_directive(None, repeat_turn=True, known_in_window=False)
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE not in repeat
+    assert "arose after your own world's time" in repeat
+    seated = turn_module._other_tradition_directive(
+        None, tradition_seated=True, tradition_seated_name="The Church of the Martyrs",
+        known_in_window=True, revealed_excerpts=_R37_EXCERPTS,
+    )
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE not in seated
+    assert "what anyone else here has said about it" in seated
+    assert "could have known of that tradition in its own time" in seated
+    assert '- Julius (Imperial Church): "The emperor built the Donatists another basilica."' in seated
+
+
+def test_a_seated_later_tradition_s_own_speech_stays_a_source_for_the_pivot():
+    # The seated chair need not name its own tradition to have said
+    # something in this conversation - its speech is a source (R37-B),
+    # so the pivot clause must not narrow the seated branch to the
+    # question's words alone.
+    seated = turn_module._other_tradition_directive(
+        None, tradition_seated=True, tradition_seated_name="The Reformed Cities", known_in_window=False,
+    )
+    assert "arose after your own world's time" in seated
+    assert "using only the question's own words and what that chair has said - never outside knowledge" in seated
+
+
+def test_other_tradition_directive_evidence_branch_takes_the_quoted_lines_but_no_pivot_clause():
+    # The world's own records already name the tradition: the record is
+    # the pivot's ground, so no (a)/neither clause - but R37-B's quoted
+    # lines still ride, since they are what this conversation said.
+    text = turn_module._other_tradition_directive(
+        ["ijc.quote.compelled-to-come-in"], known_in_window=True, revealed_excerpts=_R37_EXCERPTS,
+    )
+    assert "could have known" not in text
+    assert "question's own words" not in text
+    assert '- The Facilitator: "The Donatists will not be at this door."' in text
+
+
+def test_build_turn_directive_threads_the_r37_inputs():
+    text = turn_module._build_turn_directive(
+        None, is_other_tradition_first_ask=True,
+        other_tradition_known_in_window=False, other_tradition_revealed=_R37_EXCERPTS,
+    )
+    assert "arose after your own world's time" in text
+    assert "The Donatists will not be at this door." in text
+
 # R38 self-revision (Rulings-Pending.md, RULED 2026-09-23; Decision-Log.md
 # Entry 61's own 0/20 real-leak measurement) - engine.m4.self_revision's
 # own module. _world()'s real tagged record (fix.witness.who-is-jesus)
