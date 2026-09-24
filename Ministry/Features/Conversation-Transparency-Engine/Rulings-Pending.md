@@ -430,6 +430,18 @@ forward. The two records named as the likely (not confirmed) pairing
 in Decision-Log.md Entry 58 are real alx records on the same topic,
 offered honestly as the best evidence available, not as fact.
 
+### R31-B — Amendment: which marks sit in the text, which collect at the end
+**Status:** RULED — 2026-09-24. Mark's own words, relayed verbatim by
+the reviewer thread: *"for R31 can we put general references at the
+end, but quotes, stories and lexicon marking in the text."*
+
+**Ruled:** quote, story, and lexicon marks sit inline, each at the
+element it grounds (R31-A's own placement rule, unchanged). Every other
+cited record is a general reference, collected at the end of the reply
+rather than marked inside it. The design brief that builds to R31,
+R31-A and R31-B together is Decision-Log.md Entry 69; the questions it
+leaves open are listed there with who decides each one.
+
 ### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
 **Status:** RULED — 2026-09-23. Mark chose this from three options put
 to him after PR #427's own live numbers (Decision-Log.md Entry 54's own
@@ -859,8 +871,8 @@ detail: Decision-Log.md Entry 66.
 
 ### R37 — When may a Representative's pivot draw on outside knowledge of a named-but-uncovered tradition?
 **Status:** RULED — 2026-09-23, 12:47Z; R37-A the same day; R37-B
-2026-09-24. **BUILT** — Decision-Log.md Entry 69 (the design brief,
-carried forward from PR #438, now closed as superseded) and Entry 70
+2026-09-24. **BUILT** — Decision-Log.md Entry 70 (the design brief,
+carried forward from PR #438, now closed as superseded) and Entry 71
 (the build). All three via the reviewer thread's standing authorization.
 
 **Mark's own words (R37):**

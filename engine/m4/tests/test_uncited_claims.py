@@ -604,7 +604,7 @@ def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it(
 
 def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
     # The same false positive R37's own design brief already found and
-    # fixed (Decision-Log.md Entry 69, first PR #438): a vendored source
+    # fixed (Decision-Log.md Entry 70, first PR #438): a vendored source
     # filename carrying an unrelated name as a substring is not real
     # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
     # must not count as evidence.

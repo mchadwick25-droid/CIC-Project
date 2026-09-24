@@ -4301,7 +4301,224 @@ self-certified: the diff and the byte-comparison against `origin/
 main`'s own committed content are both reproducible directly from the
 sha given in this same reply.
 
-**Entry 69 — 2026-09-24.** R37's design brief, carried forward onto
+**Entry 69 — 2026-09-24.** R31 grounding marks: design brief (PR 1 of
+2; no code). Builds to three rulings together: R31 (a mark attaches
+with each sentence as it clears; an R17 demotion at turn end moves a
+shown mark to the references and never removes a sentence or claim),
+R31-A (one mark per distinct grounded element, placed at that element)
+and R31-B (Mark, 2026-09-24, verbatim: *"for R31 can we put general
+references at the end, but quotes, stories and lexicon marking in the
+text."*). R31-B is recorded in Rulings-Pending.md under R31-A in this
+same PR. PR 2 builds to this entry once the reviewer grades it.
+
+**What the code does today (verified on main at 7d34e2c).**
+- No placement data finer than a sentence exists anywhere. Anchors
+  carry `run_start_sentence`/`run_end_sentence`, indexes into
+  `citations` (ok-and-tagged sentences only) - `engine/m4/
+  transparency_plan.py` l.33, l.110-111. `unverified_claims.
+  sentence_indexes` indexes a different list (`grounding.sentences`).
+  Two index spaces for one reply.
+- The engine finds element positions and then discards them.
+  `grounding_net._quoted_spans` (l.149) and `_span_in_records` (l.167)
+  locate and verify every quoted span; `term_glosses` computes each
+  term's offset (l.128, l.175) and ships only `matched_name`;
+  `name_bridge.find_figures_used` does the same for figures.
+- The model writes every tag before the terminal punctuation, by the
+  fleet voice's own `citation_contract` (`_fleet.voice.fleet.md` l.32),
+  and `parse_tagged` (l.204) keeps the ids but not where they sat.
+  Nothing records where a story sits inside a sentence.
+- The frontend re-finds sentences by `indexOf(citation.sentence)` and
+  renders `<span>{nodes}{marks}</span>` (`VoiceTurnBody.tsx` l.326,
+  l.530), so every ✲ lands at sentence end - the Theon "…cared.✲✲"
+  shape (Entry 58). Witness marks land after the run's first sentence,
+  story and quote marks after its last (R10 c, l.443).
+- Terms and figures are already marked at the word itself
+  (`GlossMark`, `FigureBridgeMark` - an underline, no ✲).
+- The R17 cap is frontend-only; a dropped mark goes to the
+  `GeneralReferences` block (a collapsed `<details>`).
+- Stage 7b/7c are not built: no SSE route in `engine/api/app.py`, no
+  `CIC_API_STREAMING` or `VITE_STREAMING` anywhere in code. Entry 53's
+  Shape B (server buffers to sentence boundaries, guards each sentence,
+  then emits) is the design of record.
+
+**The combined rule this brief builds to.**
+- quote → inline, directly after the verified quoted words;
+- story → inline, at the end of its telling;
+- lexicon term → inline, at the word (today's underline mark);
+- every other cited record → the end-of-reply references.
+
+**1. Output contract: a per-element list replaces sentence-run anchors.**
+`transparency.elements[]`, one entry per grounded element:
+`{record_id, record_type, world_key, confidence, repeat, kind
+("quote"|"story"|"term"|"figure"), sentence_index, char_start,
+char_end, surface}`. `sentence_index` indexes `grounding.sentences` -
+one index space for the whole reply, retiring the second one.
+`char_start`/`char_end` are offsets into that sentence's tag-stripped
+text; the mark renders at `char_end`; `surface` is the exact substring,
+so the offsets are testable directly.
+Also: `transparency.sentences[]` = `{index, text_start, text_end}`,
+offsets into the reply's `text`, so the frontend stops re-finding
+sentences by `indexOf`; and `transparency.end_references[]`, every
+cited record with no inline element. Completeness invariant, carried
+from today's plan: ids(elements) ∪ ids(end_references) = ids(citations),
+no record both inline and at the end.
+Anchors are removed in PR 2, not kept beside `elements` - two
+placement systems for one reply is the drift this project keeps
+paying for. Their consumers (the anchor renderer, `engine/m7/
+instruments.py`'s `level1_element_density`) move to `elements` in the
+same PR. The legacy renderer stays only as the no-plan fallback,
+unchanged.
+
+**2. How each kind finds its span.**
+- Quote - deterministic. The span `_quoted_spans` already finds and
+  `_span_in_records` already verifies is the element; `grounding_net`
+  returns its offsets instead of discarding them. A quote mark only
+  exists on an ok sentence, and ok already requires the verbatim
+  check, so every marked quote has a verified span.
+- Term, figure - deterministic. Emit the offset `term_glosses` and
+  `name_bridge` already compute. The mark itself is unchanged.
+- Story - three options:
+  (a) **End of the telling (recommended).** The mark sits at the end
+  of the last sentence of the story's contiguous run, as today. A
+  story is told across a clause or several sentences; the end of the
+  run is where its telling ends. No prompt change, no guessing at a
+  span. Matches R31-A's own "a claim's mark ends the sentence".
+  (b) Model-placed tag: change `citation_contract` so a story tag
+  follows its own clause, keep tag positions in `parse_tagged`, change
+  `wiring._replay_text` to match. A fleet voice-contract change is a
+  methodology change - escalates to Mark - and needs a live battery to
+  show the model places tags reliably.
+  (c) Lexical overlap with the story's `tellable_as`. Rejected: fuzzy,
+  and a wrong placement is a fidelity defect, not a cosmetic one.
+
+**3. Frontend rendering.**
+- `renderFromTransparencyPlan` builds sentence segments from
+  `transparency.sentences`, then splits each sentence at every
+  element's `char_end` and inserts that element's mark there. Two
+  elements in one sentence render as two marks in two places; "✲✲"
+  survives only where two elements genuinely end at the same character.
+- Quote marks get their own kind (from the engine's `kind`), no longer
+  grouped with stories. The duplicated `STORY_RECORD_TYPES` sets in the
+  frontend and m7 stop deciding placement; the engine's `kind` does.
+- The end references render `end_references` plus any R17 demotions,
+  after the last paragraph.
+- R17's rule is unchanged (glosses, then figures, then stories, newest
+  first; a dropped mark is listed at the end, never removed from text).
+- Stage 6b confidence display is unchanged: `confidencePhrase()` on
+  every card, inline or end; R9's hollow `--contested` glyph and R10's
+  `--repeat` class still apply to inline ✲ marks.
+
+**4. Streaming (7b/7c): why marks survive a streamed reply.**
+Every inline mark's position is local to its own sentence. Each
+cleared-sentence event (Entry 53 Shape B) therefore carries its own
+sentence text plus its own `elements`; no mark depends on text not yet
+sent.
+- Quote and term marks attach with their sentence, exactly as R31 rules.
+- A story mark at "end of telling" is known only when the next sentence
+  clears without that story, or the turn ends. Two ways:
+  (i) **Recommended:** add the story mark to sentence k when sentence
+  k+1 clears (or at turn end) - add-only, never removed, one sentence
+  late.
+  (ii) Show it on the run's first sentence as it clears - reverses
+  R10's story-at-end placement; would need its own ruling.
+- End references accumulate during the stream and render at turn end
+  with the finished plan.
+- An R17 demotion at turn end moves an inline mark to the end
+  references - R31's own rule, unchanged.
+- One builder, two callers: the per-sentence (stream) and whole-turn
+  paths call the same `elements` builder; a parity test pins identical
+  output for identical text.
+- Replay: `engine/m4/projection.py` already keeps `transparency`, so a
+  replayed turn carries `elements` and `sentences` even though it drops
+  `grounding`.
+
+**5. Hover card and participant-facing words - Mark's, not this
+thread's.** The card keeps today's shape: label (a quote's is "work,
+locus — speaker"), sources, the confidence phrase, and Level 3
+"Original wording" where `original_wording` exists. Three placeholders,
+each named in code and each failing a test if it ships unfilled:
+- `R31_QUOTE_CARD_PHRASE` - the title of a quote mark's card, now
+  separate from the story card's "Where this story comes from".
+- `R31_END_REFERENCES_HEADING` - the heading of the end-of-reply
+  block. It reads "General references ({n})" today; Mark may keep it.
+- `Arrival.tsx` l.65 - "Look for the ✲ mark after a claim - tap it to
+  see exactly where it comes from." Once quote and story marks sit
+  inside sentences, "after a claim" stops being accurate. Mark rewrites
+  it; `Arrival.test.tsx` pins his wording.
+
+**6. Open questions, and who decides each.**
+1. **Is a `doctrinal_witness` record a general reference under R31-B?
+   (Mark - it sets the reach of his own ruling.)** Recommendation: yes,
+   to the end. It grounds a claim, not a quote, story or term; any
+   verbatim words it leans on are their own `quote` elements. This
+   retires R10(c)'s witness-at-run-start placement, and PR 2 says so
+   explicitly rather than letting it lapse quietly.
+2. **Figures (name-bridge) are not named in R31-B. (Mark.)**
+   Recommendation: stay inline at the name, as today - a word mark, the
+   same kind of thing as a lexicon term.
+3. **Story placement - option (a) in §2, option (i) in §4.
+   (Reviewer.)**
+4. **Can the R17 cap drop a quote mark, or is it exempt like witness
+   marks are today? (Reviewer.)** Recommendation: exempt - a quote
+   mark is the one mark that says "these exact words are a source's,
+   not the Representative's."
+5. **Do end references stay collapsed, or show open? (Mark -
+   participant-facing.)** No recommendation; today's collapsed block is
+   the default until he rules.
+Q1 and Q2 change which records land in `elements` versus
+`end_references`, so PR 2 does not start until Mark has ruled on both.
+Q5 needs no code decision: PR 2 keeps today's collapsed block until he
+rules, and says so in its own body.
+
+**7. Test plan (PR 2).**
+Engine (`engine/m4/tests/`):
+- offsets: for every element, `sentence_text[char_start:char_end] ==
+  surface`; for every sentence, `text[text_start:text_end]` equals its
+  stripped text;
+- a quote element sits exactly on the verified span - straight and
+  curly quotation marks, and a quote the splitter re-merged across a
+  sentence boundary;
+- a Theon-shaped fixture: a quote and a term in one sentence give two
+  elements with different `char_end`;
+- a story run gives one element at the run's end; a non-consecutive
+  re-cite gives `repeat: true`;
+- completeness: ids(elements) ∪ ids(end_references) = ids(citations),
+  none in both;
+- general-reference record types (per Q1) appear only in
+  `end_references`;
+- `sentence_index` indexes `grounding.sentences`, withheld sentences
+  included;
+- stream/turn parity: the per-sentence builder over a sentence sequence
+  equals the whole-turn builder;
+- the existing `test_transparency_plan.py` cases port to `elements`;
+  anchor-run cases go with the anchors;
+- m7's `test_level1_element_density_groups_marks_the_same_way_the_
+  renderer_does` moves to `kind`.
+Frontend (`VoiceTurnBody.test.tsx`, `Arrival.test.tsx`):
+- two marks render at two positions inside one sentence, in DOM order;
+- a quote mark directly follows the closing quotation mark;
+- a term underline sits at the word with no trailing ✲;
+- end references render after the last paragraph and list exactly
+  `end_references` plus demotions;
+- R17: a dropped inline mark appears at the end and its text stays;
+- Stage 6b confidence phrase on inline and end cards; R9 hollow glyph;
+  R10 repeat class;
+- no plan → legacy fallback, unchanged;
+- placeholder guard: fails while any `R31_*` placeholder is unfilled.
+There is no streaming consumer yet to test against; the stream/turn
+parity test is the pre-7b guarantee, and 7c's own tests extend it.
+Gates: `pytest engine -q`, frontend `vitest`, `tools/check_paths.py
+--baseline tools/check_paths_baseline.txt` clean, CI green.
+
+**8. Files PR 2 is expected to touch.** Engine: `engine/m4/
+grounding_net.py`, `transparency_plan.py`, `term_glosses.py`,
+`name_bridge.py`, `turn.py`, `engine/m7/instruments.py`, and their
+tests. Frontend: `src/types/conversation.ts`, `VoiceTurnBody.tsx`,
+`StoryMark.tsx` (the quote split), `GeneralReferences.tsx`,
+`Arrival.tsx` (placeholder only), `app.css`, and their tests. No
+`records/` change under story option (a).
+
+**Entry 70 — 2026-09-24.** R37's design brief, carried forward onto
 `main` from PR #438, which is closed as superseded (Mark's own call,
 2026-09-24: "Fresh branch off main, close #438 as superseded"). #438 was
 one commit on an old `main` and conflicted on both Ministry files. The
@@ -4312,7 +4529,7 @@ the script reproduces the committed report exactly, apart from its
 timestamp. The ruling itself - R37, R37-A, and R37-B - now lives in
 full in Rulings-Pending.md's R37 entry, not on a PR branch. The brief's
 original text stays readable on closed PR #438. Below is each of its
-four items, with R37-B folded in and what the build (Entry 70) did with
+four items, with R37-B folded in and what the build (Entry 71) did with
 it.
 
 **Item 1 - the world-level "known in its own time" list.** The brief
@@ -4353,12 +4570,12 @@ the private directive.
 
 **Item 4 - the battery count.** 9 of 11 under the symmetric reading and
 11 of 11 under the asymmetric reading. R37-A chose the asymmetric one.
-The build's own battery (Entry 70) confirms 11 of 11 against the
+The build's own battery (Entry 71) confirms 11 of 11 against the
 engine's real code path.
 
-**Entry 70 — 2026-09-24.** R37 build: the pivot's own licence, for
+**Entry 71 — 2026-09-24.** R37 build: the pivot's own licence, for
 interview and the Table. Rulings: R37, R37-A, R37-B (Rulings-Pending.md
-R37). Brief: Entry 69.
+R37). Brief: Entry 70.
 
 **What the voice now gets.** On every `other_tradition` turn,
 `engine.m4.turn._other_tradition_directive` adds one pivot-scope clause

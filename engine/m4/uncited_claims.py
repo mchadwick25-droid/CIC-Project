@@ -376,7 +376,7 @@ def match_named_tradition(text: str, registry: dict, *, exclude_world_key: str) 
 
 
 # The same restricted prose-field allowlist R37's own design brief
-# (Decision-Log.md Entry 69, first PR #438) already proved necessary: a first
+# (Decision-Log.md Entry 70, first PR #438) already proved necessary: a first
 # attempt against engine.prose.all_text (which reaches into a record's
 # own sources[].locus strings) produced a false positive there - a
 # vendored source filename carrying an unrelated name as a substring, not
