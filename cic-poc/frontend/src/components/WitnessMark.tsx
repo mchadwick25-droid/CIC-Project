@@ -21,7 +21,7 @@
  * dedup as StoryMark - a multi-sentence answer built on one witness record
  * gets one mark, not one per sentence, matching the same rule already
  * applied to story/quote. Placed at the run's FIRST sentence, not its
- * last (R10, RULED c, 2026-09-21) - a participant should see "this is
+ * last - a participant should see "this is
  * someone else's words" before reading them, the opposite of a story's
  * own placement at the run's end.
  *

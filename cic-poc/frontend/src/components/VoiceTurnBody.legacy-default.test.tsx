@@ -1,6 +1,5 @@
 /**
- * Decision-Log.md Entry 49: the flag now defaults ON (R10 and label copy
- * both ruled, Mark's own read-through passed) - this file's own title
+ * The flag now defaults ON - this file's own title
  * predates that flip and is kept only because the legacy renderer stays
  * genuinely reachable, not because the flag defaults to it anymore. No
  * mock here: exercises VoiceTurnBody exactly as a caller with no

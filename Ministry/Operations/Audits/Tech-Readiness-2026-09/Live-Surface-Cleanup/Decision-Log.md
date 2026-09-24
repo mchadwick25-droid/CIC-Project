@@ -283,3 +283,92 @@ Re-validated: `check_live_commentary.py --surface cic-website` → 1 hit
 → 0 errors, 292/69/10 unchanged.
 
 ---
+
+## Entry 2 — cic-poc/frontend/ (Step 2, surface 2 of 6)
+
+`tools/check_live_commentary.py
+--surface cic-poc-frontend` read 48 hits before this PR (0 KEEP, 48
+REWRITE) and 1 after (a checker false positive left open, see below). No
+UI-facing string content was changed anywhere in this PR — every edit is
+to a `/**...*/` or `//` code comment; every rendered string in
+`src/data/worlds.ts`, `src/lib/confidence.ts`, `src/components/
+Arrival.tsx`, and the citation-mark copy is untouched.
+
+**Removed, by file (see this PR's diff for exact before/after text):**
+
+- `src/app.css` — a "2026-09-17 dark-mode change order" date on the
+  `:root` token comment and the a11y-sweep comment above it; `R9 (RULED
+  a, 2026-09-21)` and `R10 (RULED c, 2026-09-21)` ruling numbers/dates on
+  the citation-mark comments; `R16/R9`'s ruling-number cross-reference on
+  the confidence-phrase comment; three further dated change-order
+  comments (`2026-08-26` transparency audit, `2026-09-17` dark-mode
+  error-background change, `2026-08-28` "Trust package"). Reason kept in
+  every case (why the token/color/rule is shaped this way).
+- `src/components/Arrival.tsx`, `Arrival.test.tsx` — `Stage 6e
+  (Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md)`,
+  `R10`'s "label copy" citation, and "per Mark's own direction" removed
+  from the header comment explaining why one sentence in the disclosure
+  block is new prose rather than relocated. **The comment's open-status
+  flag was kept, reworded from "DRAFT COPY, not yet Mark's own word" to
+  "DRAFT COPY, not yet approved as final wording"** — this is a real,
+  still-open item (the ✲-mark explainer sentence in `arrival__disclosure`
+  is unconfirmed copy), not settled history, so it stays flagged in the
+  file rather than being treated as resolved provenance to remove.
+- `src/lib/confidence.ts` — same pattern: `Stage 6b (...Decision-Log.md,
+  Entry 35 family)`, `R16 (RULED c, Decision-Log.md Entry 29)` removed;
+  "DRAFT COPY - not yet worded by Mark... until Decision-Log.md records
+  his own word on it" reworded to "DRAFT COPY - not yet approved as
+  final wording... until it is confirmed" — same reasoning: `
+  CONFIDENCE_PHRASES`' values are still-unapproved copy, a live open
+  item, not history.
+- `src/components/StoryMark.tsx`, `WitnessMark.tsx`,
+  `VoiceTurnBody.tsx`, `VoiceTurnBody.legacy-default.test.tsx` — `R9`/
+  `R10`/`R17` ruling-number cross-references, one `RULED c, 2026-09-21`
+  date, one `Rulings-Pending.md, Decision-Log.md Entry 29` pointer, and
+  `Decision-Log.md Entry 49`/`R10 and label copy both ruled, Mark's own
+  read-through passed` removed from header/inline comments. Reason kept
+  throughout (why a mark sits where it sits, why the drop-cap and
+  tie-break rules are shaped as they are).
+- `src/lib/flags.ts` — `R10`, `Rulings-Pending.md`, `Decision-Log.md
+  Entry 41`, `Mark's own seeker read-through`, `Entries 46, 48, 49`
+  removed from the header comment explaining why the flag now defaults
+  ON; the functional explanation (what the flag does, why "off" is the
+  only string that reverts it) is untouched.
+- `src/screens/TableRoom.tsx`, `TableRoom.test.tsx` — `Decision-Log.md
+  Entry 47 (2026-09-22)` removed from both comments describing the
+  seat-identity guard's empty-text case.
+- `src/data/worlds.ts` — nine separate dated comments (`2026-08-24`
+  design-review date, `as of 2026-09-20`, `2026-09-17` dark-mode-order
+  date x3, and four "world N, added/admitted/re-admitted `<date>`"
+  per-world comments) — every one kept the "which world, in what order,
+  why this color" reasoning and dropped only the calendar date.
+- `src/hooks/useConversation.ts`, `src/lib/api.ts` — one dated
+  parenthetical each (`2026-08-28 audit fix`, `2026-09-04` bug-fix
+  date).
+
+**Left open (1 remaining hit):** `src/components/FigureBridgeMark.tsx:3`
+— cites `VR_1A_Transparency_Gap_2026-08-09.md`, a real file at
+`Ministry/Operations/Audits/CiC_VoiceRebuild_Blueprint_2026-08-08/
+decisions/` whose date is part of its actual filename, not a change-date
+attached to prose. Rewording or dropping the date would break the
+citation. Left unchanged; flagged for Cleanup 1 as a second candidate for
+a bare-filename-citation carve-out (alongside the `reviewer`-pattern gap
+already flagged in Entry 1).
+
+One further false-positive fixed rather than left open: `src/app.css`'s
+padded-hit-area comment read "the mark's own position:relative" —
+`marks-word`'s pattern is case-insensitive and fired on the CSS term
+"mark" (as in citation mark), nothing to do with Mark. Reworded to "the
+citation mark's position:relative" — same meaning, no provenance to
+preserve, so fixed outright rather than documented as an exception.
+
+Validated: `check_live_commentary.py --surface cic-poc-frontend` → 1 hit
+(was 48); `check_paths.py --baseline tools/check_paths_baseline.txt` → 0
+new/retired; `check_no_embedded_world_data.py` → exit 0; `npx tsc
+--noEmit` → 0 errors; `npm test` (vitest) → 31/31 passed, 6/6 files.
+`npm run lint` fails on this branch with a pre-existing "ESLint couldn't
+find a configuration file" error, unrelated to this PR's changes
+(comment-only edits) — not fixed here, flagged for whoever owns
+`cic-poc/frontend`'s tooling config.
+
+---

@@ -50,7 +50,7 @@ function participantMessage(status: number, detail: string): { message: string; 
     return { message: "The voice couldn't be reached just now. Give it a moment, then send again.", recoverable: false };
   }
   if (status === 503) {
-    // recoverable: true (2026-09-04) - was false, which left a live bug
+    // recoverable: true - was false, which left a live bug
     // with no clickable remedy but "Leave for now" (see App.tsx's
     // isEmbedded handling of onRestart/onEnd for why that used to be its
     // own dead end too). The message already promises "try again in a
