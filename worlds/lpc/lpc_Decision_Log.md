@@ -2211,3 +2211,23 @@ Two COSMETIC findings (token-length on the low end for two chunks; a lead-in phr
 **OG-1 is now fully closed, on all three fronts:** the object decision (`lpc-og1-object-resolution`, PR #513), the generation prompt text (`lpc-og1-portrait-prompt-update`, PR #514), and the image itself (this entry). Nothing about Datus's portrait remains open.
 
 ---
+
+### 2026-09-24 (later still) — Correction: Article 31 is not a go-live gate, and this thread repeated that error after being told directly
+
+**The error, stated plainly.** This thread's own "what's left to go live" summary described Article 31 (external scholarly review) as a real, outstanding blocker alongside registration, freeze, and live-runtime validation — "a separate gate, not yet done." **The project lead corrected this directly: "the external scholarly review is not true anymore, it is aspirational and we have said this 100 times now. article 31 is not true anymore."** He is right, and the record backs him fully.
+
+**The actual, dated rulings**, checked directly at `Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`:
+- **2026-07-21:** *"It is a great thing, but I cant make the financial numbers work at this stage, we will readjust or wording to be a[s]perational but no longer a dependency to go live. still fully transparent."* Article 31 reworded from a go-live dependency to aspirational.
+- **2026-08-02:** *"we are setting this as a year 2 project... the cost is to high to do this right. Article 31 is reset as an aspirational goal in year two of the 5 year timeline."* A firm placement, not an open-ended hold.
+
+**Both rulings predate this world's own build start (2026-09-01) and are portfolio-wide** — they govern every world in the fleet, not a per-world decision `lpc` could independently reach or need to wait on. `cappadocian`'s own OG-4 already states this correctly: *"Article 31 — external scholarly review. Outstanding, and (per Mark's standing ruling) non-blocking."*
+
+**This world's own record did not say that, repeatedly, across four separate entries:**
+1. The 2026-09-16 Article 29 confirmation's "Consequences" (item 1: *"Article 31's external scholarly review is a separate gate and is untouched by this"*).
+2. The 2026-09-23 Phase Five (Boundary Testing) entry, describing simulated probes as a stand-in for a still-pending Article 31 requirement.
+3. `Open_Gaps_Tracking.md`'s own OG-2 entry (world-freeze compilation), which named Article 31 as unreached alongside registration.
+4. This thread's own direct answer to the project lead's "what's left to go live" question, today — the most recent instance of an error already four entries deep in this world's own record before this thread repeated it a fifth time.
+
+**None of those four entries is edited in place** — this Log stays append-only, and the record of having gotten this wrong four times is itself worth keeping, not erasing. `Open_Gaps_Tracking.md` carries the full correction, cross-referenced against each of the four sites, in its own Closed-items section (this same date). **What actually changes:** Article 31 is removed from every future "what's left to go live" accounting for `lpc`. **What does not change:** OG-11 (no live AWS Bedrock / M3 sealed-probe validation run) is a separate, genuinely open technical gate — internal live-model validation, not human external review — and stays exactly as open as it was.
+
+---

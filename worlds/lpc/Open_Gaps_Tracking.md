@@ -681,6 +681,29 @@ OG-1 is now fully closed — decision, prompt text, and image all agree. OG-1's 
 entry above is left as written, per this file's
 append-only discipline; this closing note is the record of its resolution.
 
+**Article 31 (external scholarly review) — this file's own repeated framing was wrong, and
+is corrected here.** OG-2 above and the Phase Five entry both describe Article 31 as a still-
+live gate lpc has "not yet reached" and treat it as parallel to OG-11's genuine open item
+(no live Bedrock validation run). **It is not a live gate.** Per Mark's own direct, dated
+rulings — `Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, 2026-07-21 ("Article
+31 external scholarly review: reworded to aspirational, no longer a go-live dependency...
+we will readjust or wording to be aspirational but no longer a dependency to go live. still
+fully transparent") and 2026-08-02 ("we are setting this as a year 2 project... Article 31 is
+reset as an aspirational goal in year two of the 5 year timeline") — **Article 31 is
+provisional-by-design and non-blocking through freeze and admission, for every world in the
+fleet, `lpc` included.** `cappadocian`'s own OG-4 already states this correctly ("outstanding,
+and (per Mark's standing ruling) non-blocking... the same standing every other live fleet
+world carries"); this file's own OG-2 and Phase Five entries did not, and neither did the
+2026-09-16 M1-consequences entry or the 2026-09-23 Phase Five entry in `lpc_Decision_Log.md`
+— all corrected by cross-reference here rather than by rewriting those dated entries. **What
+this does not change:** the Article 35 simulated-review labeling requirement stays in force
+(every AI-run review round is still marked "Simulated review — informational only, not an
+Article 31 substitute") — what changed is only whether Article 31 blocks go-live, not whether
+reviews must disclose that they aren't it. **What this also does not touch:** OG-11 (no live
+AWS Bedrock / M3 sealed-probe validation run against lpc's own artifacts) is a genuinely
+separate, still-real, still-open technical gate — internal live-model validation, not human
+external scholarly review — and nothing about it is resolved by this correction.
+
 ---
 
 ## Project-lead decisions, dated (summary index)
