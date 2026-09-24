@@ -1,43 +1,43 @@
-"""R27 build item 4 + fix list F3: a real, billed live run measuring the
-report-only uncited-claims check's actual catch rate per world, and -
-new in F3 - simulating the enforcement shape battery-only (no
+"""The uncited-claims rule's own live measurement: a real, billed live
+run measuring the report-only uncited-claims check's actual catch rate
+per world, and simulating the enforcement shape battery-only (no
 participant path) so the threshold can be set against a
 post-regeneration number, not the raw rate. Like engine/m4/live_table_battery.py and
 engine/m8/live_cost_run.py, a by-hand, credentialed run - not a CI job.
 
 Interview mode, TWO SEPARATE fresh single-turn sessions per admitted
-formation world (not two turns of one session - the item-4 run's own
+formation world (not two turns of one session - an earlier run's own
 disclosed bug):
   A. A generic in-scope conflict-history ask - the kind of substantive,
      citation-heavy answer the check exists to watch, with no built-in
      bias toward either offense class.
-  B. A direct, context-free other-tradition ask - F3(a)'s own fix: "Use a
+  B. A direct, context-free other-tradition ask: "Use a
      direct first-turn ask that needs no history, the staging one: 'What
      was your relationship with the Donatists?' for alx, and per world a
      named neighbour from the registry." Being turn 1 of its own fresh
      session (not turn 2 riding on turn 1's dangling "this"), the reader
      sees a complete, self-contained other-tradition question and can
      actually fire out_of_scope_class == "other_tradition" - the thing
-     the item-4 run's own probe never managed.
+     an earlier run's own probe never managed.
 
-For every turn that produces at least one offense (after F1/F2's fixed
-exemptions), F3(b)'s own simulation: regenerate once, in the same turn
+For every turn that produces at least one offense (after the fixed
+exemptions), this simulation regenerates once, in the same turn
 (same world, same participant message, same directive, same
 is_other_tradition_first_ask), with a correction naming the exact
 offending sentences (engine.m4.turn._run_ordinary_voice_turn's new,
 opt-in `correction` parameter - unset on every real caller; see that
 function's own docstring). Re-check the regenerated answer and report
 BOTH the raw and the post-regeneration offense count/rate, per world -
-F3(b)'s own words: "That post-regeneration number is what Mark sets the
-threshold on; the raw rate is not."
+the threshold is meant to be set against that post-regeneration
+number; the raw rate is not.
 
 The paragraph-unit numbers the
-enforcement threshold is set on, replacing F6's own heuristic substring
+enforcement threshold is set on, replacing an earlier heuristic substring
 metric below with the real mechanism -
 engine.m4.grounding_net.check_turn_with_paragraph_coverage and
 engine.m4.uncited_claims.find_uncited_paragraphs, called directly here
 (battery-only, the same "call the real function a second time on
-captured raw text" pattern F6 itself already used, now pointed at the
+captured raw text" pattern already used below, now pointed at the
 real module instead of a local approximation). Reports, per world: raw
 and post-regeneration turn rates by paragraph class
 (wholly_uncited_paragraph, inherited_ungrounded), the sentence-level
@@ -46,13 +46,13 @@ one sentence long, the net's own verdict distribution on inherited
 sentences (how many would be withheld under the paragraph-check's
 option (a), had it been chosen instead of (b)), and - per world, alx on the Donatists
 probe first - whether the B-other-tradition probe's raw answer actually
-said R26's own fixed honest-limit sentence or answered as if it knew.
+said the honest-limit rule's own fixed sentence or answered as if it knew.
 The correction-and-regenerate simulation now fires on either a
 sentence-level or a paragraph-level raw offense (previously sentence-
 level only), naming the union of both in the correction, since a
 paragraph-unit enforcement would regenerate on either.
 
-F6 (SUPERSEDED above): the first, heuristic version of this same idea,
+SUPERSEDED above: the first, heuristic version of this same idea,
 kept only as prior art in this docstring's own history - a sentence
 counted as covered when its own paragraph carried a citation tag
 ANYWHERE, found by substring match on the raw text rather than the
@@ -60,10 +60,10 @@ real net's own paragraph-coverage/inheritance logic. Uses
 engine.m4.turn._run_ordinary_voice_turn's own `debug_capture`
 parameter to get the real raw tagged text (paragraphs split on blank
 lines, same text apply_net itself checks) - no second model call, no
-re-derivation; item 4 keeps this same capture, only replaces what runs
-on it.
+re-derivation; this measurement still keeps this same capture, only
+replaces what runs on it.
 
-R27 build item 5: `--enforce` runs a SEPARATE, simpler mode (run_enforced
+The flag-gated enforcement mode: `--enforce` runs a SEPARATE, simpler mode (run_enforced
 below) against the SAME probes, with the flag actually on
 (r27_enforce=True) - a real generation call, one regeneration if a
 wholly_uncited_paragraph or neighbour_named offense fires, then the
@@ -82,8 +82,8 @@ private-helper-reuse precedent engine.m4.live_table_battery.py already
 sets by importing engine.api.wiring._load_world directly rather than
 re-deriving world loading.
 
-Plus one small table session (3 worlds, 2 rounds), unchanged from item
-4's own first run - the table caller path (PR #415) already proved
+Plus one small table session (3 worlds, 2 rounds), unchanged from an
+earlier run - the table caller path (PR #415) already proved
 correct there.
 
 Cost, M8-style (engine.m8.cost, same published rate card
@@ -124,7 +124,7 @@ CONFLICT_TURN = (
     "who was on each side, and how did it end?"
 )
 
-# The staging repro sentence, verbatim, per F3(a) - reused exactly for alx
+# The staging repro sentence, verbatim - reused exactly for alx
 # rather than paraphrased, since it is the specific sentence already known
 # to matter.
 _ALX_STAGING_OTHER_TRADITION_TURN = "What was your relationship with the Donatists?"
@@ -133,7 +133,7 @@ _ALX_STAGING_OTHER_TRADITION_TURN = "What was your relationship with the Donatis
 def _other_tradition_turn(world_key: str, registry: dict) -> str:
     if world_key == "alx":
         return _ALX_STAGING_OTHER_TRADITION_TURN
-    # A real, named neighbour from the registry (F3(a)'s own words) - a
+    # A real, named neighbour from the registry - a
     # direct, self-contained ask, same "What was your relationship with
     # X?" shape as the alx staging sentence. No inserted "the": a
     # card_name that already carries one ("The Church of the Martyrs")
@@ -159,7 +159,8 @@ def _offenses_for(voice_event: dict | None, *, registry: dict, world_key: str, i
 
 
 def _paragraph_check(raw_tagged_text: str | None, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> dict | None:
-    """Item 4's own replacement for F6's substring heuristic above: the
+    """The real-mechanism replacement for the earlier substring heuristic
+    above: the
     real check_turn_with_paragraph_coverage, called directly on the
     captured raw text - the identical function turn.py itself now calls,
     so this battery measures the actual mechanism, not
@@ -202,7 +203,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
     voice_pass_through, exposed here so the correction regeneration below
     can reuse the identical directive/is_other_tradition_first_ask a
     second time. Returns a dict: raw_offenses, post_regen_offenses,
-    raw_paragraph_offenses, post_regen_paragraph_offenses (item 4's own
+    raw_paragraph_offenses, post_regen_paragraph_offenses (the
     real paragraph-unit check; None on each *_regen_* key when nothing
     was regenerated), raw_paragraph_check (the full
     check_turn_with_paragraph_coverage result, for the one-sentence-
@@ -212,7 +213,7 @@ def _run_probe_turn(*, client, voice_model_id, safety_model_id, world, world_key
 
     The regeneration simulation fires on EITHER a raw sentence-level
     offense or a raw paragraph-level one (previously sentence-level
-    only, F3(b)) - a paragraph-unit enforcement would regenerate on
+    only) - a paragraph-unit enforcement would regenerate on
     either, and the correction below names the union of both so the
     simulated regeneration sees the same violation list a real
     paragraph-unit enforcement would name."""
@@ -307,7 +308,7 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             raw_with_offense = post_with_offense = 0
             raw_offense_total = post_offense_total = 0
             probes_run = 0
-            # Item 4's own paragraph-unit tallies, by class
+            # The paragraph-unit tallies, by class
             # (wholly_uncited_paragraph, inherited_ungrounded), raw and
             # post-regeneration - turn counts (a turn counts once per
             # class even if it carries several offenses of that class)
@@ -329,8 +330,8 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             other_tradition_said_honest_limit_sentence = None  # bool, set only for B-other-tradition below
 
             for probe_id, message in probes.items():
-                # Each probe is turn 1 of its own fresh session (F3(a)'s
-                # own fix: a direct first-turn ask needing no history) -
+                # Each probe is turn 1 of its own fresh session (a direct
+                # first-turn ask needing no history) -
                 # never the same session_id twice.
                 session_id = f"uncited-claims-battery-{world_key}-{probe_id}"
                 result = _run_probe_turn(
@@ -418,7 +419,7 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
                 # clean by construction, not something this rate should
                 # dilute.
                 "post_regeneration_residual_rate": (post_with_offense / raw_with_offense) if raw_with_offense else 0.0,
-                # Item 4's own paragraph-unit numbers, real mechanism,
+                # The paragraph-unit numbers, real mechanism,
                 # by class.
                 "raw_paragraph_turn_rate_by_class": {c: raw_paragraph_turns_by_class[c] / probes_run for c in _PARAGRAPH_OFFENSE_CLASSES},
                 "raw_paragraph_offense_total_by_class": raw_paragraph_offense_total_by_class,
@@ -437,7 +438,7 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             }
 
         # The table path (PR #415's own caller wiring), unchanged from
-        # item 4's own first run - already proven correct there.
+        # an earlier run - already proven correct there.
         store = Store(Path(tmp) / "live-uncited-claims-battery-events.db")
         table_session_id, _code = create_table_session(store=store, world_loader=loader, registry=registry, world_keys=table_world_keys)
         call_kwargs = dict(
@@ -490,7 +491,7 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
             "overall_raw_turn_rate": total_raw_with_offense / total_probes if total_probes else 0.0,
             "overall_post_regeneration_turns_with_offense": total_post_with_offense,
             "overall_post_regeneration_residual_rate": (total_post_with_offense / total_raw_with_offense) if total_raw_with_offense else 0.0,
-            # Item 4's own paragraph-unit numbers, real mechanism, by class.
+            # The paragraph-unit numbers, real mechanism, by class.
             "overall_raw_paragraph_turn_rate_by_class": {c: overall_raw_paragraph_turns_by_class[c] / total_probes if total_probes else 0.0 for c in _PARAGRAPH_OFFENSE_CLASSES},
             "overall_raw_paragraph_offense_total_by_class": overall_raw_paragraph_offense_total_by_class,
             "overall_post_regeneration_paragraph_offense_total_by_class": overall_post_paragraph_offense_total_by_class,
@@ -528,12 +529,13 @@ def run(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> d
 
 
 def run_enforced(region: str, *, world_keys: list[str], table_world_keys: list[str]) -> dict:
-    """R27 build item 5's own live run: the SAME probes as run() above,
+    """The flag-gated enforcement mode's own live run: the SAME probes as
+    run() above,
     with r27_enforce actually on - one real generation call per probe
     (not two; the one allowed regeneration is internal to
     _run_ordinary_voice_turn when r27_enforce=True), reporting whether
     it regenerated, whether it reached the Facilitator, and cost. See
-    this module's own docstring for the full item-5 shape."""
+    this module's own docstring for the full shape."""
     registry = load_registry()
     loader = LazyWorldLoader()
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
@@ -673,7 +675,7 @@ def main() -> int:
     parser.add_argument("--out", default=str(REPORT_PATH))
     parser.add_argument(
         "--enforce", action="store_true",
-        help="R27 build item 5: run with r27_enforce=True (run_enforced) instead of the report-only run()",
+        help="run with r27_enforce=True (run_enforced) instead of the report-only run()",
     )
     args = parser.parse_args()
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
@@ -683,7 +685,7 @@ def main() -> int:
 
     if args.enforce:
         print(
-            f"LIVE, BILLED battery: R27 ENFORCEMENT (r27_enforce=True), {len(world_keys)} worlds x 2 fresh probes "
+            f"LIVE, BILLED battery: uncited-claims enforcement (r27_enforce=True), {len(world_keys)} worlds x 2 fresh probes "
             f"+ 1 table session, region {args.region}", flush=True,
         )
         report = run_enforced(args.region, world_keys=world_keys, table_world_keys=table_world_keys)

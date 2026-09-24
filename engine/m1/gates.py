@@ -639,28 +639,29 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
 # lists; see that module's own docstring. Same values, same behavior.
 _ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 
-# Each pattern below is justified by one of the 4 real leaks found in a
-# hand audit (world/alexandria c0a105a), not a generic guess:
-#   - _ISO_DATE: alx.core.alexandria.thinness ("the project lead's 2026-08-21 ruling
-#     accepts this"), alx.voice.craft.identity and .flavor_notes both
-#     carried "2026-08-21" next to the attribution. In-world historical
-#     prose in this register dates things "c. 150-400 CE" / "325 CE" -
-#     never ISO format - so this is a near-zero-false-positive signal on
-#     its own, and alone would have caught 3 of the 4 leaks.
-#   - _RULED_BY: alx.voice.craft.identity's "(RULED by [name], 2026-08-21:
-#     ...)". Deliberately the exact phrase "ruled by" (passive,
-#     agent-attributed), not bare "ruled"/"ruling" - those fired as false
-#     positives in the hand audit on real historical content ("the
-#     council... ruling on the disputed confession", "his book ruled
-#     whole congregations") that has no "by <name>" attribution shape.
-#     Not zero-risk itself (a real sentence could read "the villages were
-#     ruled by their bishop") - a finding here is still worth a human's
-#     eyes before treating it as confirmed, same as any other gate finding
-#     in this battery.
-#   - _STALE_STATUS: alx.core.alexandria.horizon's "WORKING SCOPE, NOT A
-#     RULING: world identity is the project lead's touchpoint; this record is draft
-#     until that ruling and revises with it" - the one leak with no ISO
-#     date in it at all, so it needed its own pattern.
+# Each pattern below is justified by one of 4 real leaks found in a hand
+# audit, not a generic guess. Synthetic examples of the same shapes below
+# (this file stays live, so it never quotes the actual leaked text):
+#   - _ISO_DATE: a build-decision date sitting next to a build-attribution
+#     phrase inside a voice-craft field - e.g. "the 2026-01-01 decision
+#     accepts this" inside a record's own identity/flavor prose. In-world
+#     historical prose in this register dates things "c. 150-400 CE" /
+#     "325 CE" - never ISO format - so this is a near-zero-false-positive
+#     signal on its own, and alone would have caught most of the leaks.
+#   - _RULED_BY: e.g. "(RULED by [name], 2026-01-01: ...)". Deliberately
+#     the exact phrase "ruled by" (passive, agent-attributed), not bare
+#     "ruled"/"ruling" - those fired as false positives in the hand audit
+#     on real historical content ("the council... ruling on the disputed
+#     confession", "his book ruled whole congregations") that has no "by
+#     <name>" attribution shape. Not zero-risk itself (a real sentence
+#     could read "the villages were ruled by their bishop") - a finding
+#     here is still worth a human's eyes before treating it as confirmed,
+#     same as any other gate finding in this battery.
+#   - _STALE_STATUS: e.g. "WORKING SCOPE, NOT A RULING: world identity is
+#     still open; this record is draft until that decision and revises
+#     with it" - the one leak shape with no ISO date in it at all, so it
+#     needed its own pattern (the pattern matches the literal phrase
+#     "NOT A RULING", the marker a record author would actually type).
 _ISO_DATE = re.compile(r"\b20\d{2}-\d{2}-\d{2}\b")
 _RULED_BY = re.compile(r"\bruled by\b", re.IGNORECASE)
 _STALE_STATUS = re.compile(r"\bWORKING SCOPE\b|\bNOT A RULING\b", re.IGNORECASE)
@@ -681,7 +682,7 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     """Built from a real defect, not a hypothetical: a hand
     audit of every field build_prompt() actually compiles found 4 places
     where build-process attribution (a date, "RULED by [name]", a direct
-    quote of the project lead) had leaked into voice_craft.identity and
+    quote attributed by name) had leaked into voice_craft.identity and
     world_core.horizon - the sections a live model reads as its own
     self-description and its historical scope (compiled as "Who we are",
     above the prompt's ground line, and "Horizon", below it).
@@ -772,7 +773,7 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
 # on real prose. Deferred here on purpose, to land together with the
 # content-migration stage that will actually have world_front prose to
 # run it against; not silently dropped, and flagged again in this
-# implementation's own report to the project lead.
+# implementation's own report.
 # Relocated to engine/m1/spoken_fields.py (PERSPECTIVE_FIELDS) -
 # same registry as _ATTRIBUTION_FIELDS above. Same values, same behavior.
 _PERSPECTIVE_FIELDS = PERSPECTIVE_FIELDS
@@ -1063,7 +1064,7 @@ def _quote_field_index(records: dict, fleet: dict) -> dict:
 def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
     """Any text a world_front record renders inside quotation marks must
     match a quote record's `modern_rendering` field exactly - never `text`
-    (Mark's standing quote ruling; see this module's own comment above).
+    (the quote-rendering rule; see this module's own comment above).
     Material whose license is `paraphrase-only` or `do-not-voice` must
     never appear inside quotation marks at all, from either field,
     regardless of whether it happens to match.
@@ -1117,7 +1118,7 @@ def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
                             f"{rid}: quotation-mark span {span[:80]!r}... matches "
                             f"{quote_id}'s own `text` field verbatim - `text` is "
                             f"Apparatus/Level-3-only; the quoted form must come "
-                            f"from `modern_rendering` (Mark's standing quote ruling)"
+                            f"from `modern_rendering` (the quote-rendering rule)"
                         )
     return findings
 
@@ -1225,7 +1226,7 @@ def flag_cross_record_consistency(records: dict, fleet: dict, registry: dict) ->
 #
 # WHY A STRING MATCH CANNOT DO THIS JOB, with a real, already-shipped
 # counterexample for each direction a trim can go wrong (commit 763c48d -
-# a direct decision from the project lead, landed the same day as this fix:
+# the standing decision, landed the same day as this fix:
 # "an in-progress content-system redesign... now requires an LLM-judged
 # check (not a string-match gate) on any length-constrained trim of
 # record prose"):
@@ -1327,10 +1328,10 @@ GATES = {
     # re-pinned again to pick up this gate's own findings (0, fleet-wide,
     # confirmed before registering).
     "quote-mark-fidelity": gate_quote_mark_fidelity,
-    # gate_quote_verbatim (engine/m1/quote_verbatim.py): registered per
-    # item 3 of the P3 registration brief - "this is about the build
-    # quality, not fix on fix," in the project lead's own words. Was
-    # report-only through PR #422/#429/#430 while the tolerance classes
+    # gate_quote_verbatim (engine/m1/quote_verbatim.py): registered because
+    # "this is about the build
+    # quality, not fix on fix." Was
+    # report-only while the tolerance classes
     # (whitespace/case/punctuation/ellipsis/bracket/verse_number/
     # apparatus - fleet-wide and per-edition) were still being ruled and
     # built. Same package-rebuild consequence as quote-mark-fidelity's own

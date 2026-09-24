@@ -1,4 +1,4 @@
-"""Pins R27's own two motivating sentences as real, real-world-shaped
+"""Pins the uncited-claims rule's own two motivating sentences as real, real-world-shaped
 regression cases, plus the verified finding that claim_markers alone
 would miss one of them."""
 from engine.m4.grounding_net import check_turn, check_turn_with_paragraph_coverage
@@ -105,7 +105,7 @@ def test_first_person_framing_that_still_makes_a_claim_is_not_exempt():
     assert len(offenses) == 1
 
 
-# F1: the fleet's own real honest-
+# The fleet's own real honest-
 # limit forms, taken verbatim from a live battery's own offense
 # list (live-uncited-claims-battery-report.json) - the exact sentences the
 # raw check wrongly caught before this fix.
@@ -126,7 +126,7 @@ def test_fix_list_f1_a_genuine_survives_claim_with_no_negation_is_not_exempt():
     assert len(offenses) == 1
 
 
-# F2 (same fix list): a conditional offer whose MAIN clause is first-
+# A conditional offer whose MAIN clause is first-
 # person, not its opener - the opener-only check missed this exact battery
 # sentence.
 def test_fix_list_f2_conditional_first_person_offer_is_allowed_uncited():
@@ -188,7 +188,7 @@ def test_classify_other_tradition_turn_leaves_a_paragraph_grounded_frame_sentenc
     assert upgraded["class"] == "uncited_claim"
 
 
-# R27's own must-pass case: "Dionysius deathbed sentence (alx.dw.church-
+# The uncited-claims rule's own must-pass case: "Dionysius deathbed sentence (alx.dw.church-
 # failure)" - real record text (records/alx/doctrinal_witness/alx.dw.
 # church-failure.md), not a synthetic paraphrase, so this pins the actual
 # fleet language rather than a stand-in for it. Same hermetic-fixture
@@ -244,8 +244,8 @@ def test_real_dionysius_deathbed_sentence_uncited_is_caught_here_too_not_silentl
     # apply_net's own strip_tags only removes [[...]] markup, and an
     # untagged sentence has none to remove, so this sentence's full
     # text reaches the participant exactly as written, with no citation
-    # and no visible sign anything is wrong. R27's own check now catches
-    # this too, rather than compounding the same gap grounding_net's own
+    # and no visible sign anything is wrong. The uncited-claims rule now
+    # catches this too, rather than compounding the same gap grounding_net's own
     # withhold verdict already has at the citation-count level.
     sentence = (
         "The tradition that won here brought the repentant back in, even at the deathbed, and "
@@ -291,11 +291,11 @@ def test_known_tradition_names_excludes_the_speaking_world_and_fixtures():
     assert "Fixture World" not in names  # kind != "formation"
 
 
-# F5: a real gap a live run surfaced - the battery's own probe named "the
+# A real gap a live run surfaced - the battery's own probe named "the
 # Donatists" (a demonym, what a voice's own prose actually says), never
 # don's own card_name "The Church of the Martyrs", so
-# classify_neighbour_named had nothing to match. Pinned to the fix list's
-# own two named examples.
+# classify_neighbour_named had nothing to match. Pinned to two named
+# examples.
 def test_known_tradition_names_includes_display_name_and_world_id():
     names = known_tradition_names(_registry(), exclude_world_key="alx")
     assert "Donatism" in names
@@ -377,8 +377,8 @@ def test_build_uncited_claims_event_fires_on_paragraph_offenses_alone():
 def test_find_uncited_paragraphs_a_wholly_uncited_narrative_paragraph_fails():
     # "Even a broken priest could not block his grace." carries no proper
     # noun/number (claim_markers finds nothing), so real check_turn gives
-    # it verdict "ok" with no tag - exactly the gap R27's own module
-    # docstring names (claim_markers alone misses it). No citation
+    # it verdict "ok" with no tag - exactly the gap the uncited-claims
+    # rule's own module docstring names (claim_markers alone misses it). No citation
     # anywhere in its own (single-sentence) paragraph, so it's a real
     # wholly_uncited_paragraph failure.
     tagged = "Even a broken priest could not block his grace."
@@ -418,7 +418,7 @@ def test_find_uncited_paragraphs_a_one_sentence_paragraph_inherits_the_preceding
 
 # The two cases pinned here are real sentences, not invented ones.
 def test_r27a_narrowed_rule_still_catches_both_augustinian_sentences_as_real_paragraph_failures():
-    # R26's own motivating pair: "What the sacrament does,
+    # The honest-limit rule's own motivating pair: "What the sacrament does,
     # it does by Christ's power, not the minister's purity." and "Even a
     # broken priest could not block his grace." - genuinely unsupported
     # by anything in alx's own records, real doctrine belonging to a
@@ -491,7 +491,7 @@ def test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_cited_othe
 # A hand-sort finding: the
 # inherited_ungrounded branch of find_uncited_paragraphs never applied the
 # question/honest-limit/first-person exemptions its own wholly_uncited_
-# paragraph branch already applies - catching R26's own fixed sentence and
+# paragraph branch already applies - catching the honest-limit rule's own fixed sentence and
 # a literal question among the withheld inherited sentences a live run
 # surfaced. A correctness fix to report-only logic, not a change to what
 # enforcement covers.
@@ -540,7 +540,7 @@ def test_find_uncited_paragraphs_still_catches_a_genuine_inherited_ungrounded_se
 # _other_tradition_directive tests (test_turn.py) pin the participant-
 # facing half.
 def test_match_named_tradition_finds_the_demonym_not_just_the_card_name():
-    # Same real gap F5 already found for classify_neighbour_named
+    # Same real gap already found for classify_neighbour_named
     # (module docstring above): a probe names "the Donatists", never
     # don's own card_name "The Church of the Martyrs" - this function
     # must resolve the demonym back to don's own world_key regardless.
@@ -588,16 +588,16 @@ def test_world_records_mention_tradition_finds_a_real_reference():
 
 
 def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it():
-    # alx's own church-failure record - the R37/R38 worked example's own
-    # ground - never names Donatism at all; the true "honest-limit stays
+    # alx's own church-failure record - the tradition-pivot/self-revision
+    # worked example's own ground - never names Donatism at all; the true "honest-limit stays
     # exactly as it is" case.
     ids = world_records_mention_tradition(_ALX_CHURCH_FAILURE_REPOSITORY, _registry()["don"])
     assert ids == []
 
 
 def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
-    # The same false positive R37's own design brief already found and
-    # fixed: a vendored source
+    # The same false positive the tradition-pivot rule's own design brief
+    # already found and fixed: a vendored source
     # filename carrying an unrelated name as a substring is not real
     # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
     # must not count as evidence.
@@ -611,13 +611,13 @@ def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
     assert world_records_mention_tradition(repository, _registry()["don"]) == []
 
 
-# R37: tradition_known_in_window
-# is condition (a) under R37-A's asymmetric reading; conversation_
-# revealed_excerpts is condition (b) with R37-B's third source. The
+# The tradition-pivot rule: tradition_known_in_window
+# is condition (a) under its asymmetric reading; conversation_
+# revealed_excerpts is condition (b) with its third source. The
 # directive half is pinned in test_turn.py; the wiring in test_wiring.py
 # and test_table_api.py.
 def test_tradition_known_in_window_matches_r37_a_on_every_real_world_pair():
-    # The whole real fleet, every ordered pair, against R37-A's own test
+    # The whole real fleet, every ordered pair, against condition (a)'s own test
     # written out independently here: known iff the named world's start
     # is at or before the speaking world's end.
     registry = load_registry()
@@ -632,14 +632,14 @@ def test_tradition_known_in_window_matches_r37_a_on_every_real_world_pair():
 
 
 def test_tradition_known_in_window_is_asymmetric():
-    # R37-A's own worked cases: a 16th-century world knows ancient
+    # The asymmetric reading's own worked cases: a 16th-century world knows ancient
     # Alexandria as received church history; Alexandria cannot know a
     # tradition that arose eleven centuries after its window closed.
     registry = load_registry()
     assert tradition_known_in_window(registry["rzg"], registry["alx"]) is True
     assert tradition_known_in_window(registry["witt"], registry["alx"]) is True
     assert tradition_known_in_window(registry["alx"], registry["rzg"]) is False
-    # R37's own motivating turn: Theon (alx, window 150-400) on the
+    # The tradition-pivot rule's own motivating turn: Theon (alx, window 150-400) on the
     # Donatists (don, from 311) - the pivot was licensed under (a).
     assert tradition_known_in_window(registry["alx"], registry["don"]) is True
 
@@ -671,7 +671,8 @@ def test_conversation_revealed_excerpts_quotes_each_source_verbatim():
 
 
 def test_conversation_revealed_excerpts_counts_another_representative_r37_b():
-    # R37-B: "add or what another representitive revials in the
+    # The tradition-pivot rule's third source: "add or what another
+    # representitive revials in the
     # conversation". Another seat's own sentence naming the tradition is
     # a revelation, labelled with that seat's spoken label.
     transcript = [
@@ -707,7 +708,7 @@ def test_conversation_revealed_excerpts_keeps_only_the_most_recent_and_never_rep
 
 
 def test_world_records_mention_tradition_never_counts_a_representative_s_personal_name():
-    # The real collision the R37 build battery found: desert's own
+    # The real collision the tradition-pivot rule's build battery found: desert's own
     # record names Theophilus, the 4th-century bishop of Alexandria;
     # rzg's 16th-century Representative is also named Theophilus. That
     # is two people sharing a name, not desert's records naming the
@@ -726,9 +727,9 @@ def test_world_records_mention_tradition_never_counts_a_representative_s_persona
 
 
 def test_conversation_revealed_excerpts_counts_only_the_facilitator_s_introduction():
-    # The ruling names "the facilitators introduction" - the door turn.
+    # The rule names "the facilitators introduction" - the door turn.
     # A later Facilitator turn (threshold, bridge, safety, correction,
-    # close) is not a revelation R37 licenses.
+    # close) is not a revelation the tradition-pivot rule licenses.
     transcript = [
         {"speaker": "facilitator", "kind": "threshold", "text": "Historians describe the Donatists as a rigorist church."},
         {"speaker": "facilitator", "kind": "bridge", "text": "The Donatists come later in this story."},

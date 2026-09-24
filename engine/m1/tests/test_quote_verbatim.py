@@ -76,7 +76,7 @@ def test_bracket_wrapped_ellipsis_is_one_marker_not_a_bracket_around_nothing():
 
 
 def test_line_wrap_hyphenation_in_source_passes():
-    """Mark's third ruling: a source hyphenating a word across a line
+    """A source hyphenating a word across a line
     break ("eter-\\nnity") is ordinary print typesetting, not a content
     difference - collapsed before matching."""
     r = _verify(
@@ -376,9 +376,9 @@ def test_desert_pipe_page_marker_records_now_verify():
     desert.quote.pachomius-angel-tablet, and desert.quote.monks-like-
     hyenas all cleared the pipe-plus-digits page marker; desert.quote.
     the-noonday-demon (its own [1]-[6] section numbering) must stay
-    verified throughout - the regression this round caught and fixed.
+    verified throughout - a real regression caught and fixed.
     desert.quote.good-good-i-dont-mind's own bare-digit footnotes
-    (" 163 ", " 164 ") are cleared separately, by item 2's per-edition
+    (" 163 ", " 164 ") are cleared separately, by the per-edition
     apparatus (Palladius) - see test_palladius_bare_digit_footnotes_
     verify_via_edition_apparatus below."""
     from engine.m1.loader import load_fleet_records, load_world_records
@@ -516,7 +516,7 @@ def test_ordinary_running_text_records_are_unaffected_by_the_note_fallback():
         result = verify_quote_record(records[rid], records, fleet)
         assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
         assert result.verified_in == "running_text"
-# --- bracket-locator orphaned-space fix (item 2, fleet-wide, not per-edition) ---
+# --- bracket-locator orphaned-space fix (fleet-wide, not per-edition) ---
 
 
 def test_bracket_locator_before_punctuation_no_longer_leaves_orphaned_space():

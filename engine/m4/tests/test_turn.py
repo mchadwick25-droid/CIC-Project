@@ -43,7 +43,7 @@ class _FakeMessages:
             "submit_reader_output": reader_response,
         }
         self._stream_chunks = stream_chunks
-        # R27's own enforcement tests need a DIFFERENT raw answer on the
+        # The uncited-claims rule's own enforcement tests need a DIFFERENT raw answer on the
         # retry than on the raw attempt (a real regeneration
         # call) - stream_scripts is a list of chunk-lists, one per call,
         # popped in order; None (every other test's own default) keeps the
@@ -1019,7 +1019,7 @@ def test_gate_calls_run_concurrently_not_sequentially():
 
 
 def test_gate_carries_an_other_tradition_reader_classification_through_to_routing():
-    """R27 F4: a mocked-reader routing test to complement
+    """A mocked-reader routing test to complement
     engine.m5.tests.test_routing's own pure-function coverage of route()
     - this proves the layer ABOVE it, run_gate's own real dispatch
     through resolve_gate, correctly carries
@@ -1045,7 +1045,7 @@ def test_gate_carries_an_other_tradition_reader_classification_through_to_routin
 
 
 def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
-    """R27 fix F3: engine.m4.live_uncited_claims_battery's own opt-in
+    """The `correction` parameter: engine.m4.live_uncited_claims_battery's own opt-in
     regeneration channel - unset on every real interview/table caller
     (byte-identical behavior preserved; no assertion needed for the None
     case, since every other test in this file already exercises it
@@ -1064,7 +1064,7 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
 
 
 def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
-    """R27 fix F6: engine.m4.live_uncited_claims_battery's own opt-in
+    """The `debug_capture` parameter: engine.m4.live_uncited_claims_battery's own opt-in
     paragraph-coverage channel - unset on every real caller, never part
     of voice_event. This is the one hermetic proof the captured text is
     the real raw stream output, tags and all, not a placeholder or a
@@ -1083,7 +1083,7 @@ def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
     assert "[[fix.witness.who-is-jesus]]" not in voice_event["text"]  # apply_net's own strip, unaffected by the capture
 
 
-# R27's flag-gated enforcement's own required test list. r27_enforce=False
+# The flag-gated enforcement's own required test list. r27_enforce=False
 # (every existing test above, and every real caller until the flag is
 # flipped on) is already proven byte-identical by the full suite
 # passing unchanged; these are the flag-ON cases.
@@ -1173,7 +1173,7 @@ def test_r27_enforce_never_regenerates_an_inherited_ungrounded_only_turn():
 
 
 def test_r27_enforce_still_fails_the_augustinian_pair_inside_an_other_tradition_turn():
-    # R26's own motivating sentence, routed via other_tradition
+    # The honest-limit rule's own motivating sentence, routed via other_tradition
     # (is_other_tradition_first_ask=True) - proves the narrowing
     # (own_doctrine_in_other_tradition_turn requiring
     # a real paragraph failure) does not somehow exempt a turn from
@@ -1247,8 +1247,8 @@ def test_other_tradition_directive_skips_the_fixed_sentence_when_the_world_own_r
     assert "[[ijc.story.emperor-builds-another-basilica]]" in text
 
 
-# R37, R37-A, R37-B: the pivot's own licence.
-# Condition (a) (known_in_window), condition (b) and R37-B's third
+# The tradition-pivot rule: the pivot's own licence.
+# Condition (a) (known_in_window), condition (b) and its third
 # source (revealed_excerpts), and neither - the question's own words
 # alone - pinned on every branch that carries them.
 _R37_EXCERPTS = [
@@ -1261,7 +1261,7 @@ def test_other_tradition_directive_licenses_the_pivot_under_condition_a():
     text = turn_module._other_tradition_directive(None, known_in_window=True)
     assert "could have known of that tradition in its own time" in text
     assert "question's own words" not in text
-    # R26's sentence is untouched: under (a) the record still does not
+    # The honest-limit sentence is untouched: under (a) the record still does not
     # mention the tradition, so it stays true.
     assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
 
@@ -1312,8 +1312,8 @@ def test_other_tradition_directive_carries_the_pivot_scope_on_repeat_and_seated_
 
 def test_a_seated_later_tradition_s_own_speech_stays_a_source_for_the_pivot():
     # The seated chair need not name its own tradition to have said
-    # something in this conversation - its speech is a source (R37-B),
-    # so the pivot clause must not narrow the seated branch to the
+    # something in this conversation - its speech is a source (the
+    # third-source rule), so the pivot clause must not narrow the seated branch to the
     # question's words alone.
     seated = turn_module._other_tradition_directive(
         None, tradition_seated=True, tradition_seated_name="The Reformed Cities", known_in_window=False,
@@ -1324,8 +1324,8 @@ def test_a_seated_later_tradition_s_own_speech_stays_a_source_for_the_pivot():
 
 def test_other_tradition_directive_evidence_branch_takes_the_quoted_lines_but_no_pivot_clause():
     # The world's own records already name the tradition: the record is
-    # the pivot's ground, so no (a)/neither clause - but R37-B's quoted
-    # lines still ride, since they are what this conversation said.
+    # the pivot's ground, so no (a)/neither clause - but the third
+    # source's quoted lines still ride, since they are what this conversation said.
     text = turn_module._other_tradition_directive(
         ["ijc.quote.compelled-to-come-in"], known_in_window=True, revealed_excerpts=_R37_EXCERPTS,
     )
@@ -1342,7 +1342,7 @@ def test_build_turn_directive_threads_the_r37_inputs():
     assert "arose after your own world's time" in text
     assert "The Donatists will not be at this door." in text
 
-# R38 self-revision (0/20 real-leak measurement) -
+# Self-revision -
 # engine.m4.self_revision's own module. _world()'s real tagged record
 # (fix.witness.who-is-jesus) stands in for a real tagged record in every
 # case below; stream_scripts' second entry is always the self-revision

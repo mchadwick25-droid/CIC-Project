@@ -282,7 +282,7 @@ def table_history_for(world_key: str, transcript: list[dict], labels: dict[str, 
 
 def _own_world_named(world_key: str, worlds: dict, message: str) -> bool:
     """THE ROUND-DESIGN FIX ("make the round design fix, papnoute confirms
-    from his own witness" - the project lead's own words). Deterministic:
+    from his own witness"). Deterministic:
     the participant's message names this voice's own representative or its
     world's display name -> this voice's world is the SUBJECT under
     discussion, and its turn is framed as the witness confirming, never as
@@ -393,8 +393,7 @@ def _table_engagement_directive(
     message it used to live in entirely.
 
     BUG FIX ("Table mode gives independent monologues instead of
-    cross-voice engagement on broad questions" - the project lead's own
-    report). Root
+    cross-voice engagement on broad questions"). Root
     cause traced, not assumed: the turn selector (engine.m4.turn_selector)
     only ever decides WHO speaks next - it has no access to and no effect
     on HOW the selected voice answers, so "prefer an unheard voice" and
@@ -408,7 +407,7 @@ def _table_engagement_directive(
     guard was dead code, since pending also carries the participant's own
     message and Facilitator turns).
 
-    DESIGN ENHANCEMENT (the project lead's own words: "the
+    DESIGN ENHANCEMENT ("the
     quality of the voice doesn't change... a little increase of pressure
     to shorten... no hard cap or post conversation monitoring"), revised
     after independent adversarial review found real gaps:
@@ -469,7 +468,7 @@ def _table_engagement_directive(
     instruction, opening this whole directive so it's the first thing
     read, before the risky phrase's own echo even has room to land.
 
-    STRUCTURAL FIX (the project lead's own words, after a live
+    STRUCTURAL FIX (after a live
     round closed at the floor on a full-table synthesis - "the three of
     us are saying one thing, from different rooms in the same house":
     "i dont want the voices closing the conversation as it can
@@ -623,8 +622,8 @@ def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, 
     is deliberately absent here: the poc implemented it as a conservative
     model judgment, so it runs in the live battery, not the round loop.
 
-    selector_reason (the project lead's own question: "why isn't it
-    reaching second passes?"): the real turn-selector call's own free-text
+    selector_reason (motivated by a real question: why isn't a round
+    reaching second passes?): the real turn-selector call's own free-text
     Selection.reason USED TO BE DISCARDED ENTIRELY on a genuine selector
     close - `reason="selector_closed"` is only ever the fixed ENUM
     category (round_closed.reason's own allowed values), never the
@@ -726,7 +725,7 @@ def _advance_open_round(
         selector_outcomes = []
     else:
         selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
-        # Presentation order only (the project lead's own report: "it
+        # Presentation order only (a real observation: "it
         # always answers in the same order... can we simply randomize the
         # order with everyone still participating") - a fresh shuffle of this
         # session's own world_keys, re-rolled on every selector call, never
@@ -875,9 +874,9 @@ def _advance_open_round(
     # other_voice_has_spoken (below) - NEVER on a round's true opening
     # turn, which is exactly the turn that names the seated tradition in
     # the first place. Returning None there left the model completely
-    # ungoverned on it, and the live battery caught the real result (a
-    # voice claiming the seated tradition's own name as its own - see the
-    # Decision-Log). other_tradition_seated_name (the seated tradition's
+    # ungoverned on it, and the live battery caught the real result: a
+    # voice claiming the seated tradition's own name as its own.
+    # other_tradition_seated_name (the seated tradition's
     # own registry card_name) now threads through so
     # engine.m4.turn._other_tradition_directive can build a real
     # seated-tradition directive instead of returning None.
@@ -1223,8 +1222,8 @@ def continue_table_round(*, session_id: str, **kwargs) -> TableMessageResult:
 
 def get_round_close_reasons(store: Store, session_id: str) -> list[dict]:
     """Every round_closed event's own payload, oldest round first -
-    diagnostic-only read (the project lead's own question on a real
-    production round: "why did it close there?"). selector_reason is
+    diagnostic-only read (motivated by a real production round's own
+    question: "why did it close there?"). selector_reason is
     present only on a genuine selector close (_close_round); the cap and
     floor_unmet_exhausted paths carry reason/turns/governance with no
     model free-text to show."""

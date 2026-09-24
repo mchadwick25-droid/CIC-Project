@@ -104,13 +104,13 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # blocks (five apparatus-only, one - `cappadocian.quote.basil-on-work-
 # and-prayer` - already nested-mark-fixed by #413 but blocked here too).
 
-# The rule, stated directly by the project lead: "we should be setting
-# principles we will have a 100 worlds and cant tell the representitive
-# what to say for every quote" - never a per-record field or per-quote
-# instruction. The bare-digit/symbol question from above is resolved not
-# as a new fleet-wide class (a blanket digit rule is unsafe - Palladius
-# and Ammianus both quote real digit quantities as content elsewhere,
-# e.g. "some 300 monks") but as an EDITION-level property:
+# The rule: fleet-wide principles, since a hundred worlds cannot each be
+# told individually what to say for every quote - never a per-record
+# field or per-quote instruction. The bare-digit/symbol question from
+# above is resolved not as a new fleet-wide class (a blanket digit rule
+# is unsafe - Palladius and Ammianus both quote real digit quantities
+# as content elsewhere, e.g. "some 300 monks") but as an EDITION-level
+# property:
 # `cic/texts/REGISTRY.yaml`'s own `apparatus` field on an edition entry,
 # a closed list of named, evidenced marker CONVENTIONS applied ONLY to
 # quotes citing that edition (see `strip_edition_apparatus` below and
@@ -138,8 +138,12 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # clean sequence the way Palladius's does, so no safe edition-wide rule
 # was found for it, and the record it would have served
 # (`cappadocian.quote.basil-on-common-life`) is downgraded to
-# `verified-via-authority` anyway (see Rulings-Pending Pending 2 /
-# Decision-Log) for a separate, unrelated reason.
+# `verified-via-authority` anyway: that vendored source file carries
+# compounding OCR/scan anomalies beyond the footnote-digit marker (a
+# stray inserted quotation mark, a misread letter, an uncaptioned
+# column-continuation letter), so its numbering does not track safely
+# against this mechanism end to end - unrelated to Ammianus's or
+# Basil's own edition-wide patterns above.
 
 # DISALLOWED, stated explicitly so a report finding can name which rule a
 # quote actually broke: a substituted word, a silent omission (no
@@ -147,9 +151,8 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # its own detector - they are simply what's left when a segment fails to
 # match under every allowance above.
 
-# The same rule, stated directly by the project lead: "we should be
-# setting principles we will have a 100 worlds and cant tell the
-# representitive what to say for every quote." A quote whose
+# The same rule, applied here too: fleet-wide principles, not a
+# per-record or per-quote instruction. A quote whose
 # primary-source text sits inside a translator's own `<note>` rather than
 # the running text (pahc.quote.two-female-slaves-who-were-called-
 # deaconesses: Pliny's letter to Trajan, quoted in full inside a
@@ -590,7 +593,7 @@ _REQUIRED_VERIFICATION_STATE = "verified-direct"
 
 
 def gate_quote_verbatim(records, fleet, registry) -> list[str]:
-    """Registered in gates.GATES (item 3). Skips any quote record whose
+    """Registered in gates.GATES. Skips any quote record whose
     own `confidence.verification_state` is below
     `_REQUIRED_VERIFICATION_STATE` - already escalated, out of this
     gate's scope by design, not silently ignored (each such record's own

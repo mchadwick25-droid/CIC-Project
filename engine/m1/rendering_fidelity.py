@@ -1,6 +1,6 @@
-"""Item 4 of the P3 registration brief: does a quote record's
+"""Does a quote record's
 `modern_rendering` actually TRANSLATE its `text`, rather than summarize or
-expand it? The standard, in the project lead's own words: "the
+expand it? The standard: "the
 representitive translates it into modern english, this is translation, not
 summation." A rendering that silently drops a clause the
 original states, or adds a clause the original never states, fails this
@@ -24,8 +24,7 @@ input. So the birth-condition use is: the builder authoring a
 verdict's own `reasoning`, not just its enum value; the record is revised
 until the verdict reads "translation" on two consecutive runs of the same
 input, not accepted on one clean pass. This module itself stays
-report-only regardless - it is never registered in gates.GATES as a
-blocking check unless Mark rules otherwise.
+report-only - it is not registered in gates.GATES as a blocking check.
 
 SCOPE, decided here rather than left implicit: every quote record with a
 non-empty `modern_rendering` is graded, regardless of its own
