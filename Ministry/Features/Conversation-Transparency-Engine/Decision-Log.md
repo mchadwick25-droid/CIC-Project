@@ -4300,3 +4300,155 @@ renumber - 68 correctly follows the 67 that is already on main. Not
 self-certified: the diff and the byte-comparison against `origin/
 main`'s own committed content are both reproducible directly from the
 sha given in this same reply.
+
+**Entry 69 — 2026-09-24.** R37's design brief, carried forward onto
+`main` from PR #438, which is closed as superseded (Mark's own call,
+2026-09-24: "Fresh branch off main, close #438 as superseded"). #438 was
+one commit on an old `main` and conflicted on both Ministry files. The
+brief's script and its 2026-09-23 report come forward unchanged in
+substance: `engine/m4/reports/r37_ruling_design_measure.py` +
+`r37-ruling-design-measure-2026-09-23.json`. Re-run on today's `main`,
+the script reproduces the committed report exactly, apart from its
+timestamp. The ruling itself - R37, R37-A, and R37-B - now lives in
+full in Rulings-Pending.md's R37 entry, not on a PR branch. The brief's
+original text stays readable on closed PR #438. Below is each of its
+four items, with R37-B folded in and what the build (Entry 70) did with
+it.
+
+**Item 1 - the world-level "known in its own time" list.** The brief
+proposed a `known_traditions_in_window` list of rows in
+`records/worlds/<world>.yaml`. R37-A has since fixed the test as pure
+chronology: the named tradition's `time_window` start is at or before
+the speaking world's `time_window` end. Both halves already exist in
+the registry, so a stored row would only copy them and could drift.
+**Not built as rows:** condition (a) is computed from the registry
+every turn. The brief's other half - "this world's own records name the
+tradition" - was already built by #440/R39 as
+`world_records_mention_tradition`, using the same prose-field allowlist
+this brief first proved necessary.
+
+**Item 2 - what was revealed in this conversation.** Unchanged in
+shape: a separate, labelled block in the private directive, never
+folded into `history` (`history_from_transcript` deliberately excludes
+the Facilitator). It holds exact sentences, never a paraphrase.
+**R37-B widens its sources from two to three:** the Facilitator's
+introduction, the participant, and another Representative. The
+speaking voice's own earlier turns never count, and neither does the
+current question itself - the question's own words are what every
+other_tradition turn already has.
+
+**Item 3 - interaction with the existing classes and wording.**
+Unchanged: `neighbour_named` is a citation check, not a licence check,
+and `own_doctrine_in_other_tradition_turn` is R38's axis. The brief's
+three wording candidates for the R26 sentence are all moot:
+- (iii), the world's own records name the tradition, was built by #440
+  without new words (the evidence branch).
+- (ii), known in its own time but no textual evidence, needs no new
+  sentence. Under condition (a), the record still does not mention the
+  tradition, so `R26_HONEST_LIMIT_SENTENCE` stays true and is said
+  exactly as before.
+
+No participant-facing words are added anywhere; the R37 text is all in
+the private directive.
+
+**Item 4 - the battery count.** 9 of 11 under the symmetric reading and
+11 of 11 under the asymmetric reading. R37-A chose the asymmetric one.
+The build's own battery (Entry 70) confirms 11 of 11 against the
+engine's real code path.
+
+**Entry 70 — 2026-09-24.** R37 build: the pivot's own licence, for
+interview and the Table. Rulings: R37, R37-A, R37-B (Rulings-Pending.md
+R37). Brief: Entry 69.
+
+**What the voice now gets.** On every `other_tradition` turn,
+`engine.m4.turn._other_tradition_directive` adds one pivot-scope clause
+to each branch that has no record evidence (first ask, repeat turn,
+seated tradition):
+- **(a) holds:** the voice may let its knowledge that the tradition
+  existed guide which part of its own record it answers from. It never
+  lets it say anything about that tradition beyond its own records and
+  what the conversation has told it.
+- **(a) fails, and the tradition is a registry world:** that tradition
+  arose after this world's time. The voice chooses its pivot from the
+  question's own words, plus any quoted lines, and never from outside
+  knowledge.
+- **The question names no registry world** (e.g. "the Arians"): the
+  voice is told only that nothing establishes that its world knew the
+  tradition. It is never told that the tradition came later, since that
+  cannot be known here. The pivot comes from the question's own words.
+
+When the conversation has said anything about the named tradition,
+those exact sentences follow, attributed to who said them, closed by
+"Use nothing beyond these words." The evidence branch (the world's own
+records name the tradition) takes the quoted lines but no pivot clause:
+there the record itself grounds the pivot. The seated branch's "what
+that chair has said" now also covers what anyone else at the table has
+said about it (R37-B). `R26_HONEST_LIMIT_SENTENCE` is unchanged, and so
+is when it is said.
+
+**Detection:** `engine.m4.uncited_claims.tradition_known_in_window`
+(condition (a)) and `conversation_revealed_excerpts` (condition (b)).
+The excerpt function splits sentences with
+`engine.prose.quote_aware_sentences`, the same splitter the live net
+uses. It keeps at most 8 excerpts, the most recent ones: dropping older
+lines only narrows what the voice may lean on. Of the Facilitator's
+turns, only the introduction counts (kind `door`: the interview's DOOR
+and the Table's TABLE_DOOR). Mark's words name "the facilitators
+introduction", so threshold, bridge, safety, correction and close turns
+are not revelations under this ruling.
+
+**Wiring:**
+- **Interview (`engine/api/wiring.py`):** reads the same replayed
+  transcript as the voice's own history. That state is projected before
+  the current message is appended, so the question is never quoted
+  back.
+- **Table (`engine/api/table_wiring.py`, built on #449's version):**
+  per seat. Condition (a) uses this seat's own window. Condition (b)
+  reads the round's replayed transcript with the round's opening
+  question dropped, so every other seat's turn before this one counts.
+
+**A pre-existing defect found and fixed.** The build battery's own
+later-tradition probe caught it. `world_records_mention_tradition`
+counted a Representative's personal name as a name of the tradition.
+desert's `desert.story.sarapion-anthropomorphite` names Theophilus, the
+4th-century bishop of Alexandria. rzg's 16th-century Representative is
+also named Theophilus. So on `main` today, desert asked about the
+Reformed Cities gets "your own records already speak to it" - on a
+tradition that arose eleven centuries after desert's window closed -
+and that branch never sees the R37 clause.
+
+Root cause: a Representative's name is a person's name, and another
+world's records can name a different, real person who shares it. The
+fix: the evidence scan uses the tradition's own names only (card name,
+display name, world id, demonyms), via `_names_for_world(...,
+include_representative=False)`. Every other caller keeps the
+Representative's name, because a participant or another seat saying it
+does mean that seat. The 4 genuine record matches on the real battery
+(desert, hal, ijc and pahc on Alexandria) are unchanged. witt's genuine
+"Reformed cities" match is unchanged too, and pinned by a regression
+test.
+
+**Battery** (`engine/m4/reports/r37_build_battery.py` +
+`r37-build-battery-2026-09-24.json`). Deterministic, no model calls,
+$0. It runs the engine's own functions on real packages:
+- **B-other-tradition (the 11 real probes):** 11/11 licensed under (a),
+  matching R37-A. 4 take the records branch, 7 take condition (a).
+- **C-later-tradition** (synthetic: each world asked about the other
+  world with the latest window start): 11/11 match R37-A's test,
+  computed independently. 9 take "question's own words only", 1 takes
+  condition (a) (rzg on witt), and 1 takes the records branch (witt on
+  the Reformed Cities, genuine).
+
+No live model battery was run. Whether the voice actually follows the
+clause is a separate credit decision for the reviewer or Mark.
+
+**Known limits, stated plainly:**
+- Condition (b) captures only sentences that name the tradition. A
+  following sentence that refers back by pronoun ("They refused
+  traitor bishops") is not quoted. This narrows the licence rather than
+  widening it.
+- `match_named_tradition` still matches a Representative's personal
+  name in the participant's own message. A desert participant asking
+  "What did Theophilus teach?" would resolve to rzg if the reader also
+  classified the turn `other_tradition`. That needs a reader
+  misclassification first, and it is not changed here.

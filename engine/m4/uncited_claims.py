@@ -42,7 +42,7 @@ exactly the question being asked.
 """
 import re
 
-from engine.prose import SCAFFOLD_MARKERS, SELF_NAMING_MARKER, claim_markers
+from engine.prose import SCAFFOLD_MARKERS, SELF_NAMING_MARKER, claim_markers, quote_aware_sentences
 
 # R26's own new fixed sentence (Rulings-Pending.md R26, Decision-Log.md
 # Entry 50), the literal directive text wired into the other_tradition
@@ -288,7 +288,7 @@ def _demonym_forms(name: str) -> set[str]:
     return forms
 
 
-def _names_for_world(entry: dict) -> list[str]:
+def _names_for_world(entry: dict, *, include_representative: bool = True) -> list[str]:
     """One world's own card_name, representative name, display_name,
     world_id (hyphens read as spaces - "alexandria-catechetical" ->
     "alexandria catechetical" - a voice's own prose would never emit the
@@ -298,12 +298,26 @@ def _names_for_world(entry: dict) -> list[str]:
     the false-fixed-sentence fix (match_named_tradition/
     world_records_mention_tradition) can derive the identical name list
     for ONE world without re-deriving the fleet-wide flat list and
-    filtering it back down - one name-derivation, two real callers."""
+    filtering it back down - one name-derivation, two real callers.
+
+    include_representative=False drops the Representative's own personal
+    name, for world_records_mention_tradition alone: a Representative's
+    name is a person's name, and another world's records can name a
+    different, real person who shares it - desert's own desert.story.
+    sarapion-anthropomorphite names Theophilus, the 4th-century bishop
+    of Alexandria, and rzg's 16th-century Representative is also named
+    Theophilus. Counted as a name of the TRADITION, that matched desert's
+    records to the Reformed Cities and handed desert's voice "your own
+    records already speak to it" on a tradition that arose eleven
+    centuries after its window closed (found by the R37 build battery's
+    own C-later-tradition probe, engine/m4/reports/r37_build_battery.py).
+    A participant or another seat saying a Representative's name does
+    refer to that seat, so every other caller keeps it."""
     names = []
     if card_name := entry.get("card_name"):
         names.append(card_name)
         names.extend(_demonym_forms(card_name))
-    if rep_name := (entry.get("representative") or {}).get("name"):
+    if include_representative and (rep_name := (entry.get("representative") or {}).get("name")):
         names.append(rep_name)
     if display_name := entry.get("display_name"):
         names.append(display_name)
@@ -362,7 +376,7 @@ def match_named_tradition(text: str, registry: dict, *, exclude_world_key: str) 
 
 
 # The same restricted prose-field allowlist R37's own design brief
-# (Decision-Log.md Entry 57, PR #438) already proved necessary: a first
+# (Decision-Log.md Entry 69, first PR #438) already proved necessary: a first
 # attempt against engine.prose.all_text (which reaches into a record's
 # own sources[].locus strings) produced a false positive there - a
 # vendored source filename carrying an unrelated name as a substring, not
@@ -400,8 +414,10 @@ def world_records_mention_tradition(repository_records: dict[str, dict], named_w
     registry entry match_named_tradition resolved to) - sorted, so the
     caller's own directive text is deterministic across a call with the
     same inputs. Empty list means genuinely no textual evidence, the
-    honest-limit sentence's own true case."""
-    names = [n for n in _names_for_world(named_world_entry) if n]
+    honest-limit sentence's own true case. The tradition's own names
+    only, never its Representative's personal name - see _names_for_
+    world's include_representative."""
+    names = [n for n in _names_for_world(named_world_entry, include_representative=False) if n]
     if not names:
         return []
     lowered = [n.lower() for n in names]
@@ -409,6 +425,89 @@ def world_records_mention_tradition(repository_records: dict[str, dict], named_w
         rid for rid, rec in repository_records.items()
         if any(n in _prose_text_for_evidence_scan(rec).lower() for n in lowered)
     )
+
+
+
+# R37 (Rulings-Pending.md R37, ruled 2026-09-23; R37-A the same day;
+# R37-B 2026-09-24): a Representative may use knowledge of a named-but-
+# uncovered tradition to choose which part of its own record to answer
+# from only when (a) it would have known of that tradition in its own
+# time, or (b) the Facilitator, the participant, or another
+# Representative revealed it in this conversation - and then only what
+# was actually said. These two functions are the detection half of both
+# conditions; engine.m4.turn._other_tradition_directive is the other.
+def tradition_known_in_window(speaking_entry: dict, named_entry: dict) -> bool:
+    """R37 condition (a), under R37-A's asymmetric reading: the named
+    tradition's own time_window start is at or before the speaking
+    world's own time_window end. A tradition that arose before or during
+    the speaking world's window is inside what it could have known; only
+    one that had not yet arisen by the window's end is outside. Derived
+    from the registry's existing time_window fields, never stored twice.
+    A missing time_window on either side is False - nothing establishes
+    the knowledge, so the question's own words stay the only licence."""
+    speaking_window = speaking_entry.get("time_window") or {}
+    named_window = named_entry.get("time_window") or {}
+    if speaking_window.get("end") is None or named_window.get("start") is None:
+        return False
+    return named_window["start"] <= speaking_window["end"]
+
+
+# Enough to carry every revelation a real conversation makes about one
+# tradition, bounded so a long session cannot grow the directive without
+# limit. The most recent lines are kept: dropping older ones only narrows
+# what the voice may lean on, never widens it.
+MAX_REVEALED_EXCERPTS = 8
+
+
+def conversation_revealed_excerpts(
+    transcript: list[dict],
+    named_entry: dict,
+    *,
+    speaking_world_key: str,
+    labels: dict[str, str] | None = None,
+) -> list[tuple[str, str]]:
+    """R37 condition (b), widened by R37-B: every sentence said in this
+    conversation - in the Facilitator's introduction, by the participant,
+    or by another Representative - that names the tradition asked about,
+    as (who said it, the exact sentence). Verbatim, never paraphrased:
+    the ruling is "limited only to what was told to them in the
+    conversation."
+
+    Of the Facilitator's turns, only the introduction counts - kind
+    "door", the interview's DOOR and the Table's TABLE_DOOR (engine.m4.
+    facilitator_turns). Mark's words name "the facilitators
+    introduction", not every Facilitator turn: a threshold, bridge,
+    safety, correction or close turn is not a revelation this ruling
+    licenses.
+
+    The speaking voice's own earlier turns are excluded - what a voice
+    said itself is not something it was told. transcript must not hold
+    the current question: the question's own words are the baseline
+    every other_tradition turn already has, not a revelation (the
+    interview's own state.transcript is projected before the current
+    participant_message is appended; the Table's caller drops it).
+    labels maps a seat's world_key to its spoken label; a speaker
+    missing from it reads as its raw key."""
+    names = [n.lower() for n in _names_for_world(named_entry) if n]
+    if not names:
+        return []
+    excerpts: list[tuple[str, str]] = []
+    for entry in transcript:
+        speaker = entry.get("speaker")
+        if speaker is None or speaker == speaking_world_key:
+            continue
+        if speaker == "facilitator":
+            if entry.get("kind") != "door":
+                continue
+            who = "The Facilitator"
+        elif speaker == "participant":
+            who = "The participant"
+        else:
+            who = (labels or {}).get(speaker, speaker)
+        for sentence in quote_aware_sentences(entry.get("text") or ""):
+            if any(n in sentence.lower() for n in names) and (who, sentence) not in excerpts:
+                excerpts.append((who, sentence))
+    return excerpts[-MAX_REVEALED_EXCERPTS:]
 
 
 def build_uncited_claims_event(voice_event: dict, *, registry: dict, is_other_tradition_turn: bool) -> dict | None:

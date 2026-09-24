@@ -858,36 +858,54 @@ roughly 6-7% uncaught even with the net running as backstop. Full
 detail: Decision-Log.md Entry 66.
 
 ### R37 — When may a Representative's pivot draw on outside knowledge of a named-but-uncovered tradition?
-**Status:** RULED — 2026-09-23, 12:47Z. Mark's own words, via the
-reviewer thread's standing authorization. A genuinely separate question
-from R38's own net-mechanism question above, raised by the same worked
-example (the Theon/Donatists turn): not whether the fabricated clause
-should have streamed (R38's own question, the net's job), but whether
-Theon was even allowed to steer toward "the lapsed" at all on a
-question naming a tradition his own world's records never mention.
-**Full ruling text, the design brief, and its own script/report live in
-their own PR, #438** (a separate branch, kept there rather than
-duplicated here to avoid two independently-editable copies drifting
-apart - this entry moved earlier revisions of itself there, correcting
-a broken path citation this branch's own CI caught: the design brief's
-script was never committed to this branch). The one finding that
-mattered most for this PR's own scope - `ijc`'s own real records
-already naming Donatism, so `_other_tradition_directive`'s own fixed
-honest-limit sentence was false for `ijc` - is fixed directly, its own
-small PR, **#440** (built, not merely proposed; 4 of 11 admitted
-formation worlds flip).
+**Status:** RULED — 2026-09-23, 12:47Z; R37-A the same day; R37-B
+2026-09-24. **BUILT** — Decision-Log.md Entry 69 (the design brief,
+carried forward from PR #438, now closed as superseded) and Entry 70
+(the build). All three via the reviewer thread's standing authorization.
 
-**R37-A — the asymmetric window reading (RULED, 2026-09-23, relayed via
-the reviewer thread's standing authorization).** #438's own design
-brief left open which reading of "would have known in its own time"
-(R37's condition (a)) a world-level known-tradition-in-window list
-should use. Mark ruled the ASYMMETRIC reading: a Representative may
-know of any tradition that arose before or during its own window, up
-to its own horizon; only a tradition that had NOT yet arisen by the
-window's end sits outside condition (a) - not a symmetric same-window-
-only reading. On #438's own battery this makes 11 of 11 other-tradition
-pivots defensible. The test for #438's own world-level rows: the named
-tradition's from-year is at or before the speaking world's own
-`time_window` end. Full design-brief detail stays on #438, per the
-pointer above; this entry records only the ruling itself, since #438
-is where the rows this ruling governs actually get built.
+**Mark's own words (R37):**
+> "only if it would have known in its own time, or if something what
+> revealed in the facilitators introduction or user, but limited only
+> to what was told to them in the conversation"
+
+R37 refines R26 (above, "The representative should only know its own
+sources unless they would have known the sources from another in
+reality").
+
+**Origin:** Mark's own staging look (`CIC_R27_ENFORCE=1`, first
+result): interview, Theon on the Donatists. The R26 opener fired
+correctly ("Our record doesn't mention that Christian tradition."), and
+the answer then steered to Theon's own lapsed controversy - even though
+alx's records never mention Donatism by name. A separate question from
+whether the answer's own content was fabricated (R38, above): not
+whether the fabricated clause should have streamed, but whether Theon
+was allowed to steer toward "the lapsed" at all.
+
+**Ruled, stated in full:** when a question names a tradition outside
+the Representative's own record, the Representative may use knowledge
+of that tradition to choose which part of its own record to answer
+from only under two conditions. **(a)** It would have known of that
+tradition in its own time. **(b)** It was revealed in this
+conversation, and then only what was actually said, nothing beyond it.
+Outside those two, the pivot must come from the question's own words
+alone. **In every case, content about the other tradition still never
+enters the answer from outside the record** - that stays R38's
+question. Under (a), Theon (alx, window 150-400) steering to his own
+lapsed on a Donatist question is allowed; "handed over the sacred
+books" remains a leak either way (R38).
+
+**R37-A — the asymmetric window reading (2026-09-23).** A
+Representative may know of any tradition that arose before or during
+its own window; only a tradition that had NOT yet arisen by the
+window's end sits outside condition (a). The test: the named
+tradition's `time_window` start is at or before the speaking world's
+own `time_window` end. On the design brief's battery this makes 11 of
+11 other-tradition probes defensible (9 of 11 under the symmetric
+reading R37-A declined).
+
+**R37-B — another Representative (2026-09-24).** Mark's own words:
+> "add or what another representitive revials in the conversation R37"
+
+Condition (b)'s sources are therefore three: the Facilitator's
+introduction, the participant, and another Representative - each only
+for what was actually said in this conversation.

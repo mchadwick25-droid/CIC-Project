@@ -1055,3 +1055,80 @@ def test_a_seated_tradition_with_evidence_still_gets_the_records_branch(
     directive_text = _other_tradition_directive_text(client)
     assert "your own records already speak to it" in directive_text
     assert "[[ijc.quote.compelled-to-come-in]]" in directive_text
+
+
+# --- R37 (Rulings-Pending.md R37, R37-A, R37-B) ---
+# The pivot's own licence, per seat: condition (a) from THIS seat's own
+# window against the named tradition's; condition (b) from what the
+# Facilitator, the participant, and - R37-B - every other seat actually
+# said. The round's own opening question is never quoted back.
+
+
+def test_a_seat_that_could_have_known_the_tradition_is_licensed_under_condition_a(
+    store, usage_store, world_loader, registry, alx_world, desert_world
+):
+    # alx (150-400) on the Donatists (from 311): R37's own worked example,
+    # the pivot licensed under (a).
+    alx_sentence, _ = grounded_sentence(alx_world)
+    theon = alx_world.frame["representative"]["name"]
+    client = _table_client(
+        selector_script=[],
+        stream_scripts=[[alx_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    http.post(f"/api/session/{session_id}/message", json={"text": f"{theon}, what did you make of the Donatists?"}, headers=auth)
+    directive_text = _other_tradition_directive_text(client)
+    assert "could have known of that tradition in its own time" in directive_text
+    assert "word for word" not in directive_text
+
+
+def test_a_seat_asked_about_a_later_tradition_is_limited_to_the_question(
+    store, usage_store, world_loader, registry, alx_world, desert_world
+):
+    alx_sentence, _ = grounded_sentence(alx_world)
+    theon = alx_world.frame["representative"]["name"]
+    client = _table_client(
+        selector_script=[],
+        stream_scripts=[[alx_sentence], ["(revision, no change needed)"]],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    http.post(
+        f"/api/session/{session_id}/message",
+        json={"text": f"{theon}, what would you say to {registry['rzg']['card_name']}?"}, headers=auth,
+    )
+    directive_text = _other_tradition_directive_text(client)
+    assert "arose after your own world's time" in directive_text
+    assert "using only the question's own words - never outside knowledge" in directive_text
+
+
+def test_what_another_representative_said_reaches_the_next_seat_r37_b(
+    store, usage_store, world_loader, registry, alx_world, desert_world
+):
+    # R37-B: alx names the Donatists in its own turn; desert, drawn in
+    # second, is given that exact sentence, attributed to alx's own label.
+    alx_sentence, _ = grounded_sentence(alx_world)
+    desert_sentence, _ = grounded_sentence(desert_world)
+    theon = alx_world.frame["representative"]["name"]
+    alx_turn = f"{alx_sentence} The Donatists were far from Alexandria."
+    client = _table_client(
+        selector_script=[{"next": "desert", "reason": "r1"}],
+        stream_scripts=[
+            [alx_turn], [alx_turn],
+            [desert_sentence], ["(revision, no change needed)"],
+        ],
+        reader=reader_response(out_of_scope={"class": "other_tradition"}),
+    )
+    http = _http(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, client=client)
+    session_id, auth = _create_table(http, world_keys=("alx", "desert"))
+    http.post(f"/api/session/{session_id}/message", json={"text": f"{theon}, what did you make of the Donatists?"}, headers=auth)
+    result = http.post(f"/api/session/{session_id}/continue", headers=auth).json()
+    assert result["voice"]["speaker"] == "desert"
+    directive_text = _other_tradition_directive_text(client, call_index=2)
+    assert ': "The Donatists were far from Alexandria."' in directive_text
+    assert f"- {theon}" in directive_text
+    # The round's own question is still never quoted back.
+    assert "what did you make of the Donatists?" not in directive_text

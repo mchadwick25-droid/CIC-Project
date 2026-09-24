@@ -6,12 +6,15 @@ from engine.m4.uncited_claims import (
     build_uncited_claims_event,
     classify_neighbour_named,
     classify_other_tradition_turn,
+    conversation_revealed_excerpts,
     find_uncited_claims,
     find_uncited_paragraphs,
     known_tradition_names,
     match_named_tradition,
+    tradition_known_in_window,
     world_records_mention_tradition,
 )
+from engine.m1.registry import load_registry
 
 
 def sent(text: str, tags: list[str] | None = None, verdict: str = "ok") -> dict:
@@ -601,7 +604,7 @@ def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it(
 
 def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
     # The same false positive R37's own design brief already found and
-    # fixed (Decision-Log.md Entry 57, PR #438): a vendored source
+    # fixed (Decision-Log.md Entry 69, first PR #438): a vendored source
     # filename carrying an unrelated name as a substring is not real
     # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
     # must not count as evidence.
@@ -613,3 +616,128 @@ def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
         }
     }
     assert world_records_mention_tradition(repository, _registry()["don"]) == []
+
+
+# R37 (Rulings-Pending.md R37, R37-A, R37-B). tradition_known_in_window
+# is condition (a) under R37-A's asymmetric reading; conversation_
+# revealed_excerpts is condition (b) with R37-B's third source. The
+# directive half is pinned in test_turn.py; the wiring in test_wiring.py
+# and test_table_api.py.
+def test_tradition_known_in_window_matches_r37_a_on_every_real_world_pair():
+    # The whole real fleet, every ordered pair, against R37-A's own test
+    # written out independently here: known iff the named world's start
+    # is at or before the speaking world's end.
+    registry = load_registry()
+    formation = {k: v for k, v in registry.items() if v.get("kind") == "formation"}
+    assert len(formation) == 11
+    for speaking_key, speaking in formation.items():
+        for named_key, named in formation.items():
+            if named_key == speaking_key:
+                continue
+            expected = named["time_window"]["start"] <= speaking["time_window"]["end"]
+            assert tradition_known_in_window(speaking, named) is expected, (speaking_key, named_key)
+
+
+def test_tradition_known_in_window_is_asymmetric():
+    # R37-A's own worked cases: a 16th-century world knows ancient
+    # Alexandria as received church history; Alexandria cannot know a
+    # tradition that arose eleven centuries after its window closed.
+    registry = load_registry()
+    assert tradition_known_in_window(registry["rzg"], registry["alx"]) is True
+    assert tradition_known_in_window(registry["witt"], registry["alx"]) is True
+    assert tradition_known_in_window(registry["alx"], registry["rzg"]) is False
+    # R37's own motivating turn: Theon (alx, window 150-400) on the
+    # Donatists (don, from 311) - the pivot was licensed under (a).
+    assert tradition_known_in_window(registry["alx"], registry["don"]) is True
+
+
+def test_tradition_known_in_window_boundary_start_equal_to_end_is_known():
+    # "at or before" - a tradition arising in the speaking world's own
+    # last window year is inside it.
+    assert tradition_known_in_window({"time_window": {"start": 70, "end": 200}}, {"time_window": {"start": 200, "end": 410}})
+    assert not tradition_known_in_window({"time_window": {"start": 70, "end": 200}}, {"time_window": {"start": 201, "end": 410}})
+
+
+def test_tradition_known_in_window_is_false_when_either_window_is_missing():
+    assert tradition_known_in_window({}, {"time_window": {"start": 100, "end": 200}}) is False
+    assert tradition_known_in_window({"time_window": {"start": 100, "end": 200}}, {}) is False
+
+
+def test_conversation_revealed_excerpts_quotes_each_source_verbatim():
+    transcript = [
+        {"speaker": "facilitator", "kind": "door", "text": "Welcome. Theon speaks for Alexandria. The Donatists will not be at this door."},
+        {"speaker": "participant", "text": "My grandmother told me about the Donatists. She said they refused traitor bishops."},
+        {"speaker": "alx", "text": "I can speak only from Alexandria's own record."},
+        {"speaker": "participant", "text": "Tell me about Origen."},
+    ]
+    excerpts = conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx")
+    assert excerpts == [
+        ("The Facilitator", "The Donatists will not be at this door."),
+        ("The participant", "My grandmother told me about the Donatists."),
+    ]
+
+
+def test_conversation_revealed_excerpts_counts_another_representative_r37_b():
+    # R37-B: "add or what another representitive revials in the
+    # conversation". Another seat's own sentence naming the tradition is
+    # a revelation, labelled with that seat's spoken label.
+    transcript = [
+        {"speaker": "ijc", "text": "The emperor built the Donatists another basilica. We did not agree."},
+    ]
+    excerpts = conversation_revealed_excerpts(
+        transcript, _registry()["don"], speaking_world_key="alx", labels={"ijc": "Julius (Imperial Church)"}
+    )
+    assert excerpts == [("Julius (Imperial Church)", "The emperor built the Donatists another basilica.")]
+
+
+def test_conversation_revealed_excerpts_never_counts_the_speaking_voice_itself():
+    # What a voice said itself is not something it was told.
+    transcript = [{"speaker": "alx", "text": "The Donatists are not in our record."}]
+    assert conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx") == []
+
+
+def test_conversation_revealed_excerpts_empty_when_nothing_named_it():
+    transcript = [
+        {"speaker": "facilitator", "kind": "door", "text": "Welcome to Alexandria."},
+        {"speaker": "participant", "text": "What did Clement teach?"},
+    ]
+    assert conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx") == []
+
+
+def test_conversation_revealed_excerpts_keeps_only_the_most_recent_and_never_repeats():
+    transcript = [{"speaker": "participant", "text": f"Question {i} about the Donatists."} for i in range(12)]
+    transcript.append({"speaker": "participant", "text": "Question 11 about the Donatists."})
+    excerpts = conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx")
+    assert len(excerpts) == 8
+    assert excerpts[-1] == ("The participant", "Question 11 about the Donatists.")
+    assert excerpts[0] == ("The participant", "Question 4 about the Donatists.")
+
+
+def test_world_records_mention_tradition_never_counts_a_representative_s_personal_name():
+    # The real collision the R37 build battery found: desert's own
+    # record names Theophilus, the 4th-century bishop of Alexandria;
+    # rzg's 16th-century Representative is also named Theophilus. That
+    # is two people sharing a name, not desert's records naming the
+    # Reformed Cities.
+    registry = load_registry()
+    repository = {
+        "desert.story.sarapion-anthropomorphite": {
+            "absent_detail": "whether he was still at Scete when Theophilus reversed course is not recorded.",
+        }
+    }
+    assert registry["rzg"]["representative"]["name"] == "Theophilus"
+    assert world_records_mention_tradition(repository, registry["rzg"]) == []
+    # The tradition's own name still counts (witt's real record).
+    repository = {"witt.dw.one-holy-church-forever": {"text": "our own boundary against the Reformed cities"}}
+    assert world_records_mention_tradition(repository, registry["rzg"]) == ["witt.dw.one-holy-church-forever"]
+
+
+def test_conversation_revealed_excerpts_counts_only_the_facilitator_s_introduction():
+    # Mark's words name "the facilitators introduction" - the door turn.
+    # A later Facilitator turn (threshold, bridge, safety, correction,
+    # close) is not a revelation R37 licenses.
+    transcript = [
+        {"speaker": "facilitator", "kind": "threshold", "text": "Historians describe the Donatists as a rigorist church."},
+        {"speaker": "facilitator", "kind": "bridge", "text": "The Donatists come later in this story."},
+    ]
+    assert conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx") == []
