@@ -2253,3 +2253,21 @@ Script re-run after both fixes; gate battery independently re-run and confirmed 
 **Not yet done:** canon-cell tagging (a later pipeline stage, per `don`'s own precedent) and Parts 2 through 9 of the compilation (term; story/figure/quote; gravity/force; contested_claim/honest_limit/doctrinal_witness/ambient; the remaining pipeline steps through a real `engine.m2` compile).
 
 ---
+
+### 2026-09-24 (later still) — Record-native compilation, Part 2 (term records): drafted, reviewed, disposed
+
+**Part 2 (term records) drafted** at `worlds/lpc/scripts/wb_lpc_s22.py` (named `s22`, not `s22_s23` as `don`'s own script was — unlike `don`, all 19 of `lpc`'s lexicon terms already had fully-authored, independently-reviewed Lexicon-Chunks, so there was no "authoring from a one-line candidate" task to combine with compilation). Run to produce all 19 files in `records/lpc/term/`: 19 in, 19 out, no split/merge/exclusion — 7 Tier 1, 12 Tier 2, matching `Doc_06`'s own final tiering exactly (Doc_03's preliminary tiering is not what was compiled).
+
+**Independently re-verified by this thread before review:** file count (19, matching 19 Lexicon-Chunks); gate battery (227 records load — 208 from Part 1 plus 19 term — only `gate-canon-coverage` fires at 28, pre-existing and unchanged); the relations graph independently recomputed from the 19 on-disk files directly (122 directed links, 61 pairs, all fully reciprocal — matches both the drafting agent's claim and `Lexicon_Deployment_Index.md`'s own stated count); and two disclosed tensions spot-checked directly — `lpclex007_grace.md`'s own verbatim-duplicated sentence (confirmed present in the source chunk itself, not invented by the script) and `suffrage`'s missing `[DR]` tag (confirmed as an already-disclosed, unresolved tension recorded at `Lexicon_Deployment_Index.md` line 92, not a silent override).
+
+**Round 1 independent adversarial review run** (isolated subagent, no involvement in drafting; full review: `Review-Artifacts/RecordCompilation_Part2_Round1_Review.md`). **Verdict: CLEARED REVIEW — 0 HIGH, 1 MEDIUM, 2 LOW, 1 COSMETIC.** The review's own independent checks: all 19 `sources` cross-references resolve to real Part 1 records (zero misses); the full relations graph re-parsed directly from disk with an exact match (zero one-way links, zero duplicates); every confidence/tier/distortion_risk enum value checked against `engine/m1/schemas.py`'s declared set; all 19 records' quotes and tier assignments cross-checked against all 19 Lexicon-Chunks directly (not a sample); and five records read byte-for-byte against the script's own literal source, confirming no post-generation drift.
+
+**Both fixable findings applied, then independently re-verified (targeted recheck):**
+1. **M1** — `bishop-of-bishops` and `plenary-council` both set `evidentiary_weight: load-bearing` despite neither chunk using that term (a defensible, disclosed authored inference — each formula is the sole textual ground of a real Documented Supporting gravity, independent of its Tier 2 placement — but not flagged as an authored call in the same explicit register the script's own docstring uses elsewhere). Both divergence_notes now open with an explicit "AUTHORED call, not chunk-stated" marker.
+2. **COSMETIC** — a wrong record-id string ("lpc.term.certificates" instead of "lpc.term.certificates-letters-of-peace") in two free-text divergence_notes, not affecting any resolved field. Corrected in both occurrences.
+
+Script re-run after both fixes; gate battery and both fixes independently re-verified in the regenerated output (227 load, only `gate-canon-coverage` at 28, unchanged). The two LOW findings are disclosed, non-blocking observations (the already-carried `suffrage` DR-tag tension, and duplicated-not-cross-referenced reasoning between the two paired conciliar-formula records) the review does not recommend acting on.
+
+**Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies. **This unblocks Part 3 (story/figure/quote records).**
+
+---
