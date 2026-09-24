@@ -103,9 +103,14 @@ works:
       generated CORPUS-USE.md snapshot is read. A Syriac recension of the
       same underlying Life is also in this corpus, carried inside
       palladius_paradise-v1-syriac_budge1907.txt rather than as its own
-      file (see that work's own item note, not modeled as a separate
-      expression here yet -- Budge's volume is itself an unresolved
-      multi-work compilation, flagged under palladius-paradise-vol1 below).
+      file (see that work's own item note in
+      cic/corpus-map/_staging/palladius_paradise-v1-syriac_budge1907.yaml).
+      Not yet modeled as a separate expression here -- that volume holds
+      three distinct works (Palladius' own Paradise, this Syriac Vita, and
+      Budge's editorial Preface) under one vendored file, a multi-work
+      compilation this schema doesn't yet have entries for; see
+      worlds/_cross-world/NEEDS-RULING.md's own "Placement questions"
+      section.
 
   - work_id: augustine-confessiones
     title: "Confessions (Confessiones)"

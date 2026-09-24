@@ -136,6 +136,9 @@ it was in the source note, just no longer asserted-with-a-question-mark inside t
 **Two Luther volumes' own Contents-page/OCR quality** · `luther` · `luther_works-v3-selected_various1930`, `luther_bondage-of-the-will_cole1823` · `lutheran-wittenberg-and-its-congregations`
 > Both held at `confidence: provisional` rather than `assigned`. `luther_works-v3-selected_various1930.txt`'s own Contents page is OCR-degraded, and exact locus boundaries for its several works are not independently confirmed against the body text. `luther_bondage-of-the-will_cole1823.txt`'s own OCR quality (see its `REGISTRY.yaml` note) means each citation needs its own character-by-character re-verification against the vendored text before use. Open task for whoever next cites either file precisely.
 
+**`WORKS.yaml` gap, not a corpus-map assignment question: `palladius_paradise-v1-syriac_budge1907.txt` is an unresolved multi-work compilation.** · `palladius`, `athanasius`, `budge` · `palladius_paradise-v1-syriac_budge1907`
+> One vendored file, three distinct works assigned in `cic/corpus-map/_staging/palladius_paradise-v1-syriac_budge1907.yaml`: Palladius' own Paradise Book I (Syriac recension), a Syriac recension of Athanasius' *Life of Antony* (a second, independently-modeled expression of the same underlying Work `athanasius-vita-antonii` already carries in Greek), and Budge's own 1907 editorial Preface. `WORKS.yaml`'s FRBR-style Work/Expression schema has no entries for any of the three yet — it is hand-maintained and seeded, not complete, per its own header. Open: whether the Syriac Vita gets modeled as a second `expressions` entry under `athanasius-vita-antonii` (the schema's own paradigm case for exactly this), and whether Palladius' Paradise and Budge's Preface get their own `work_id` entries at all, given `WORKS.yaml`'s own no-guessed-identifiers discipline.
+
 ---
 
 ## Four questions that are not per-work
