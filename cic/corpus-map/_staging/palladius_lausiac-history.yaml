@@ -1,4 +1,4 @@
-# SEEDED WORKED EXAMPLE, 2026-08-26 - see npnf204_athanasius.yaml.
+# SEEDED WORKED EXAMPLE - see npnf204_athanasius.yaml.
 source_file: palladius_lausiac-history_clarke1918.txt
 
 assignments:
@@ -24,8 +24,8 @@ assignments:
     role: tradition
     confidence: provisional
     note: >
-      Surfaced during the source-readiness dossier pass on I.34
-      (2026-09-21), not by a build thread's own search - added directly
+      Surfaced during the source-readiness dossier pass on I.34,
+      not by a build thread's own search - added directly
       per this candidate's own dossier §2 and the Ambrosian-Milan/Theodoret
       precedent for a dossier-found cross-link. Checked directly against
       the vendored text, not assumed from a title or a summary: Ch. XLVIII
