@@ -1314,3 +1314,51 @@ staleness-check` report clean fleet-wide.
 `check_paths.py`, run on a clean `git worktree` of this branch's head:
 0 new unresolved path citations; 769 total; 769 accepted in baseline;
 0 retired paths present.
+
+**Round 2 — fragment and register fix (2026-09-24), reviewer's own
+human read.** FAIL on 3 of the 6 records on grounds the grader cannot
+see. `melito-no-phantom`: "Of his Deity, by his miracles during the
+three years after his baptism." and "Of his humanity, during the
+thirty similar years before his baptism." each stood as a fragment
+with no subject or verb - fixed by supplying the verb the parallel
+gives ("He showed his Deity...", "He showed his humanity..."), the
+same fragment rule (V1.6, Phase B) that caught cappadocian and rzg's
+own fragments earlier in R43. Also translated the archaic "by reason of
+his low estate as regards the flesh" to "because of his lowly condition
+in the flesh." The fix pushed FK to 10.36; a further trim ("during" ->
+"in" twice, "concealed" -> "hid", "existing before" -> "from before")
+brought it to 9.82 without reopening a fragment. The record's own
+documented tension (the grader penalizing the subordinate-clause split
+even with no content lost) persists after the fix (2/3 translation on
+re-grade) - not a new finding, not chased further, per the reviewer's
+own instruction that the fragment and register rules win over the
+grader here.
+
+`ignatius-truly-born`: "his Father quickening him" is archaic in the
+bring-to-life sense (the same category as "wherefore" in rzg and "Ever
+let" in hal); translated to "his Father bringing him back to life" -
+a documented exception, since an earlier grading round's own
+"interpretive" objection to exactly this phrasing is the grader being
+stricter than the text, not a real defect; the human read stands. Also
+modernized the archaic word order "will so raise up us who believe in
+him by Christ Jesus" to "will raise us up too, we who believe in him,
+by Christ Jesus." Cleared 2/2 translation.
+
+`polycrates-to-victor`: "fallen in with the brethren" kept an archaic
+idiom and an archaic word ("brethren") the same rendering already
+translates elsewhere as "brothers" - changed to "met with the
+brothers." Cleared 2/2 translation.
+
+All three hand-checked for fragments before pushing. `gate_readability`
+and full `run_all()`: clean on all three (only the pre-existing,
+unrelated `reciprocity` findings remain fleet-wide). `pytest
+engine/m1/tests/ engine/m2/tests/`: 191 passed.
+
+Re-pinned against this fix's own commit
+`5a15111272ad8571124041137c22bbeddac94c57`: old
+`packages/pahc/2026-09-24T04-22-27Z`
+(`sha256:7549fb4c6945e92baf28c76db6484bb4f50ae82eae2e993e25ae54f95ca59279`)
+→ new `packages/pahc/2026-09-24T04-53-27Z`
+(`sha256:6e0a30f0bf49d9413dd9442b8ef18d1855bb1e4a893fce5532de964d0b382269`).
+Site JSON rebuilt against the same commit. Both staleness checks clean
+fleet-wide.
