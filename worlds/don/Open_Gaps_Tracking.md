@@ -728,9 +728,21 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
 
 ---
 
+### OG-17. Analytic six-test/LAYER framework vocabulary in spoken `gravity`/`force` `description` fields — don's own instance of the fleet-wide gap
+
+**Status: OPEN, not attempted by this pass — found during the Live-Surface-Cleanup program's batch-2 scope (desert/hal/ijc/don), 2026-09-24.**
+
+Fleet-wide gap, already filed at `worlds/rzg/Open_Gaps_Tracking.md` #47 and confirmed in witt (OG-34), pahc (OG-15), and desert (OG-16). don's own instance is the most extensively developed of the four found so far: `tools/check_live_commentary.py --surface records` scoped to `records/don/` found 227 `SPOKEN_VOCAB_PATTERNS` hits inside declared spoken fields. 22, all in `don.core.donatism`'s own `world_core` fields (`horizon`/`formation_logic`/`thinness`/`cautions`), were clean, isolable `Doc_0N`/`§N` citations appended to the end of otherwise plain-language sentences — removed as a pure word-swap this pass (full before/after in this PR's own body).
+
+The remaining 205, across all 11 `gravity` records and 21 `force` records this world has, are not separable citations — every one of these 32 records opens its `description` field with a "Confirmed PRIMARY (Doc_04 SS...)" / "Classified SUPPORTING... (Doc_04 SS...)" / "Doc_08 Cell _, Force _-_. LAYER 1 -- HISTORICAL EVENT" header and develops a full six-test writeup inline (REPETITION/DEPENDENCY/FORMATION/EXPLANATORY/PERSISTENCE/INTERACTION, each individually graded PASS/FAIL with reasoning, an AUTHOR-GRAVITY-RISK rating, and a CONFIDENCE/GRAVITY CROSS-CHECK line) — the same shape pahc's OG-15 already names, but present in every one of don's gravity and force records rather than a handful. `don.gravity.refusal-of-imperial-legitimacy` is representative and among the heaviest (22 hits in one field): "SIX-TEST REASONING CARRIED IN FULL (Doc_04 SS3.7). REPETITION - PASS (strong): Doc_01 SS3... DEPENDENCY - PASS (strong)... FORMATION - PASS (strong)... EXPLANATORY - PASS (strong)... PERSISTENCE - PASS, WITH THE QUALIFICATION T1 EXISTS TO NAME... INTERACTION - PASS (strong)... WHY PRIMARY RATHER THAN SUPPORTING (Doc_04 SS4)... CONFIDENCE/GRAVITY CROSS-CHECK - CONSISTENT, WITH ONE FLAGGED DIVERGENCE..." Affected records (all `gravity`, all `force`): `caecilianist-victory-selects-survivors`, `church-of-the-martyrs`, `circumcellion-agonistici`, `conference-of-411-verdict`, `conference-of-carthage-verdict`, `cyprianic-rigorist-inheritance`, `diocletianic-persecution-traditio-demand`, `diocletianic-traditio-demand`, `felix-accusation-majorinus-consecration`, `institutional-attrition`, `macarian-repression`, `martyr-cult-commemoration`, `martyr-cult-confessor-memory`, `martyr-cult-identity`, `maximianist-fracture`, `ministerial-purity`, `oscillating-imperial-policy`, `parallel-hierarchy`, `parallel-institutional-hierarchy`, `principled-refusal-vs-pragmatic-recourse`, `purity-rigor-vs-institutional-reception`, `rebaptism-boundary`, `rebaptism-boundary-marking`, `refusal-against-recourse`, `refusal-of-imperial-legitimacy`, `rigor-against-reception`, `sustained-purity-and-rebaptism`, `sustained-purity-rebaptism-practice`, `transmission-caecilianist-victory`, `transmission-hostile-manuscript-tradition`, `transmission-through-hostile-hands`, `vandal-capture-of-carthage`.
+
+Not a token-swap fix, and larger in scope than a single-world re-voicing pass should attempt without its own dedicated review: this is don's entire gravity/force layer written in the six-test framework's own internal structure from the ground up, not an isolated leaked citation on top of otherwise plain prose. Resolving it well needs the same class of full-field readability rewrite `rzg.craft.theophilus-voice` used as precedent (`worlds/rzg/Open_Gaps_Tracking.md` #46), applied across all 32 records — not attempted here.
+
+---
+
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-16 are disclosed, routed, or
+Relational Safety's own current scope. OG-5 through OG-17 are disclosed, routed, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
