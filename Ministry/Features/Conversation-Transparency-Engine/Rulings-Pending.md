@@ -463,7 +463,7 @@ collapsed. The build keeps today's collapsed list until Mark rules.
 Entry 69's Q3 (story mark at the end of its telling; under streaming,
 added when the next sentence clears) and Q4 (a quote mark is exempt from
 the R17 cap) were decided by the reviewer thread. Build: Decision-Log.md
-Entry 70.
+Entry 74.
 
 ### R36 — R27-A's own enforcement threshold: which paragraph classes are enforced
 **Status:** RULED — 2026-09-23. Mark chose this from three options put
