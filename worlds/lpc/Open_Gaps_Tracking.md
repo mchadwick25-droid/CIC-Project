@@ -658,6 +658,27 @@ apply to `lpc`.** That fix targeted `records/<world>/source/*.md` files across `
 OG-2), so it carries no `rights_status` fields to have been affected — confirmed directly by
 the absence of the directory, not by a clean sweep of it.
 
+**OG-1, the Datus portrait-object silhouette collision with Theon and Albina — RESOLVED,
+2026-09-24, by the project lead.** Presented directly with the three options this file's own
+OG-1 entry above names — (a) keep the certificate and record the collision, (b) substitute
+the ransom purse of `lpcstory004`, (c) drop the object as Fidelis resolved — **the project
+lead chose (b), the ransom purse.** Reasoning given: it resolves the Theon/Albina collision
+outright, and unlike (c), it preserves the held-object-vs-empty-hands lever that separates
+Datus from Fidelis, the sharpest visual adjacency in the fleet, which dropping the object
+would have re-opened. Applied to `Datus_Portrait_Prompt.md` the same day: the certificate
+marked superseded (not rejected on source-fidelity grounds — it remains a true, attested
+object; it is superseded solely by the silhouette constraint), grounded instead in Cyprian's
+*Epistle* LIX (the hundred thousand sesterces sent to the Numidian bishops for captives'
+ransom — G3 and G1, not G2/G8), and a correction recorded in the same edit: the prompt file's
+own prior dismissal of the purse as reading "generic almsgiving" was not accurate to
+`lpcstory004`'s source, which is a specific, checkable act of collegial obligation, not
+generic charity. **Not yet applied:** the committed portrait image (`Datus_Portrait.jpg`)
+still depicts the certificate and has not been regenerated to the purse — no image-generation
+tool was available to the thread that recorded this decision; regenerating the image is a
+separate, real production step, flagged here rather than silently left to diverge from the
+disposed object. OG-1's own original entry above is left as written, per this file's
+append-only discipline; this closing note is the record of its resolution.
+
 ---
 
 ## Project-lead decisions, dated (summary index)
