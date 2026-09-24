@@ -587,6 +587,8 @@ worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: reference/method/CiC_Record_
 worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md: World-Builds/Donatism/don_Decision_Log.md
 worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md: World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md
 worlds/lpc/Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
+worlds/lpc/Review-Artifacts/OpenGapsTracking_Round1_Review.md: packages/lpc
+worlds/lpc/Review-Artifacts/OpenGapsTracking_Round1_Review.md: records/lpc
 worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Donatism
 worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
 worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity

@@ -246,13 +246,14 @@ listing.)*
   undetected, purely because no reviewer happened to quote that specific sentence. Built as a
   structural control: `Doc09_Claims_Register.md` + `scripts/check_claims.py`, which derives
   every corpus-absence claim from the deliverables and halts on an unregistered claim or a
-  stale register entry. **At disposition (2026-09-15): 142 claims derived and registered, 6
-  carrying a recorded check (136 UNVERIFIED).** A separate structural pass the same day
-  extracted 76 correction-history notices (3,266 words) out of the deliverables and deleted
-  `notice_strip.py` (387 lines) once it was no longer needed. Carried open at disposition: the
-  CF V7.4 Tier 3 escalation for `lpcstory006` (governance/methodology, unresolved); the Round
-  8 fix pass itself unreviewed; Possidius *Vita* XIX–XXVII unread; 136 of 142 claims
-  UNVERIFIED.
+  stale register entry. **At disposition (2026-09-15): 142 claims derived and registered, with
+  137 of the 142 remaining UNVERIFIED** (Decision Log's own disposition entry, item 4;
+  registration is the control, verification separate work). A separate structural pass the
+  same day extracted 76 correction-history notices (3,266 words) out of the deliverables and
+  deleted `notice_strip.py` (387 lines) once it was no longer needed. Carried open at
+  disposition: the CF V7.4 Tier 3 escalation for `lpcstory006` (governance/methodology,
+  unresolved); the Round 8 fix pass itself unreviewed; Possidius *Vita* XIX–XXVII unread; 137
+  of 142 claims UNVERIFIED.
 - **World Profile** (`lpc_World_Profile.md`, drafted 2026-09-14, inferred as this world's
   next document by comparison with `desert`, Donatism, and `hal`'s own sibling precedent, per
   its own 2026-09-15 disclosure — **never separately confirmed by the project lead as this
@@ -474,10 +475,11 @@ here, per the discipline `don`'s own OG-4 and `cappadocian`'s own OG-9/OG-10 alr
 because it is exactly the kind of accepted, narrowly-scoped resolution that should be named
 rather than silently dropped. **One loose end this review could not independently verify:**
 `Source_Registry.md` row 65 (act 158) was, per Round 11's own recommendation (2026-09-14
-entry, "Round 11's H2, H3 and H4 applied"), *flagged rather than amended* — the amendment was
-explicitly left to `Source_Registry.md`'s own separate independent review track, "not this
-document's act." Whether row 65 has since been annotated with that explanation was not
-checked directly in this review.
+entry, "Round 11's H2, H3 and H4 applied"), *flagged rather than amended*: "Row 65 is flagged,
+not amended. Round 11 recommends appending the explanation to `Source_Registry.md` row 65.
+That document is *returned to independent review*; the amendment belongs to that review, and
+Open Item 6 says so in terms." Whether row 65 has since been annotated with that explanation
+was not checked directly in this review.
 
 ### OG-5. A recurring citation-locus error across the Representative-construction phases — the same failure class `don`'s own Doc_08 is tracked for, distributed across this world's Representative phases instead of concentrated in one document.
 
@@ -496,8 +498,9 @@ evidence, at real and repeated risk of exactly this error class.
 
 ### OG-6. Doc_09's Claims Register — the great majority of registered corpus-absence claims remain UNVERIFIED.
 
-At Doc_09's own disposition (2026-09-15): 142 claims derived and registered, 6 carrying a
-recorded check (136 UNVERIFIED). The most recent count this review could independently locate
+At Doc_09's own disposition (2026-09-15): 142 claims derived and registered, with 137 of the
+142 remaining UNVERIFIED (registration is the control; verification is separate work). The
+most recent count this review could independently locate
 (2026-09-16 controls check, part of the Possidius *Vita* ch. VIII correction pass) states 142
 claims against 142 register entries, **9** carrying a recorded check — 133 UNVERIFIED, a
 small improvement over the disposition-time count. Per the register's own explicit
@@ -577,10 +580,17 @@ not yet been reached for `lpc`.
 `Ministry/Communication/Brand-Assets/Representative-Portraits/README.md` states the naming
 convention plainly: *"files are named `Name_Portrait.png`."* The committed file, verified
 directly in this review, is `Ministry/Communication/Brand-Assets/Representative-Portraits/lpc/Datus_Portrait.jpg`
-— `.jpg`, not `.png`. More substantively: the 2026-09-15 M1 entry itself named a second
-serving location the finished image would need, `cic-website/assets/portraits/`; **this
-review searched both `cic-website/` and `cic-poc/` directly and found no file named for
-Datus anywhere in either tree.** This is exactly the "approved but never placed" gap `don`'s
+— `.jpg`, not `.png`. This same drift already exists, disclosed, elsewhere in the fleet — both
+`rzg/Theophilus_Portrait.jpg` and `witt/Nikolaus_Portrait.jpg` are `.jpg` against the identical
+stated `.png` convention, and `rzg`'s own `Open_Gaps_Tracking.md` names it directly ("kept as
+`.jpg`, the actual generated format, not re-encoded"); named here as `lpc`'s own instance of
+an already-accepted fleet pattern, not a novel one. More substantively: the 2026-09-15 M1
+entry itself named a second serving location the finished image would need,
+`cic-website/assets/portraits/`; **this review searched both `cic-website/` and `cic-poc/`
+directly and found no file named for Datus anywhere in either tree** (an atlas-level
+placeholder page, `cic-website/tree/latin-pastoral-congregational-christianity.html`, already
+exists for this world but carries no portrait reference). This is exactly the "approved but
+never placed" gap `don`'s
 own Open Gaps file names as a precedent to avoid (contrasting its own portrait, which shipped
 to `cic-poc/frontend/public/images/portraits/donatism.png` and was wired into
 `cic-poc/frontend/src/data/worlds.ts` and `cic-website/traditions/donatism.html` in the same
@@ -684,8 +694,9 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
 - **2026-09-15** — Representative identity and image (M1): **Datus, Bishop of the Kept
   Flock**, certificate of peace, painterly oil portrait — decided as one packaged choice.
 - **2026-09-16** — Possidius *Vita* ch. VIII ruling: corrects Doc_01 §2's congregational-consent
-  finding across six documents (three verification passes before it was confirmed
-  propagated).
+  finding — six documents named at the ruling, **eight found and fixed** once a second sweep
+  caught two more stating the same caution in different words (three verification passes
+  before propagation was confirmed).
 - **2026-09-16** — This world's three names ruled: `world_id` `latin-pastoral-congregational`,
   `display_name` "Latin Pastoral-Congregational Christianity," `card_name` **"The Ordinary
   Church."**
@@ -696,7 +707,10 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
 - **2026-09-19** — World Profile approved to proceed, on direct instruction — the build
   thread's own earlier self-application of this disposition (2026-09-16) was explicitly
   refused as self-approval.
-- **2026-09-21** — Branch reconciliation approved (PR #353) — portrait merged into place;
+- **2026-09-21** — Branch reconciliation approved (branch `lpc-reconcile-branches`, pushed to
+  `origin`; this review could not independently confirm a specific PR number for it — "PR #353"
+  appears once elsewhere in the log, in an unrelated 2026-09-23 entry's parenthetical listing
+  several PR numbers together, and is not itself confirmation) — portrait merged into place;
   registration explicitly **not** done, routed back to the project lead.
 - **2026-09-23 to 2026-09-24** — RCF V3.2 Phases One through Seven, Representative Artifact
   Construction, World Context Layer, and Voice Configuration each drafted, independently
