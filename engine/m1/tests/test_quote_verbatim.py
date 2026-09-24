@@ -62,7 +62,7 @@ def test_ellipsis_marks_a_real_elision_and_passes():
 
 
 def test_bracket_wrapped_ellipsis_is_one_marker_not_a_bracket_around_nothing():
-    """Mark's third ruling (2026-09-22, after the #403 triage):
+    """A shape a triage found (#403):
     cappadocian.quote.basil-against-eunomius-ant marks its own elision as
     "[...]" - splitting on bare "..." alone leaves an orphaned literal
     "[" at the end of one segment and "]" at the start of the next."""
@@ -119,7 +119,7 @@ def test_bracketed_span_that_is_also_literally_in_source_still_passes():
 
 
 def test_inline_verse_number_at_a_sentence_boundary_passes():
-    """Mark's second ruling (2026-09-22): class six. A real shape, seen
+    """Class six (verse_number): a real shape, seen
     across six ANF/NPNF-sourced quotes: 'thus give thanks. 2. First,'
     in the source, 'thus give thanks. First,' in the record."""
     r = _verify(
@@ -217,10 +217,10 @@ def test_resolve_and_verify_a_real_pahc_record():
 
 
 def test_verse_number_ruling_fixes_a_real_previously_failing_record():
-    """pahc.quote.first-concerning-the-cup failed the first fleet sweep
-    (2026-09-22) on exactly the inline-verse-number pattern the second
-    ruling was made to cover ('thus give thanks. 2. First,' in
-    anf07's Didache text). Must pass now."""
+    """pahc.quote.first-concerning-the-cup failed an early fleet sweep on
+    exactly the inline-verse-number pattern class six was made to cover
+    ('thus give thanks. 2. First,' in anf07's Didache text). Must pass
+    now."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("pahc")
@@ -232,7 +232,7 @@ def test_verse_number_ruling_fixes_a_real_previously_failing_record():
 
 
 def test_polycrates_to_victor_omission_is_now_marked_and_verifies():
-    """Until the 2026-09-22 quote-fidelity record-fix pass, this record
+    """Before its own quote-fidelity record-fix pass, this record
     silently dropped ~15 words of real source text ('when He cometh with
     glory from heaven and shall raise again all the saints') with no
     ellipsis - a genuine unmarked-omission defect, not a verse-number
@@ -288,7 +288,7 @@ def test_cappadocian_bracket_wrapped_ellipsis_record_now_verifies():
     assert "ellipsis" in result.classes_used
 
 
-# --- apparatus (fourth round, 2026-09-23) -------------------------------
+# --- apparatus -----------------------------------------------------------
 
 
 def test_soft_hyphen_in_source_passes():
@@ -408,11 +408,12 @@ def test_cappadocian_macrina_pipe_and_bracket_locator_record_now_verifies():
     assert result.verified is True, (result.failed_segment, result.nearest_context)
 
 
-# --- note-body fallback (R33, 2026-09-23) -------------------------------
+# --- note-body fallback ---------------------------------------------------
 #
-# Supersedes R28/#423's per-record `source_note_id` field (never merged):
-# the gate itself falls back to every <note> body in the source file once
-# the running text fails, so no record carries a pointer to a note.
+# An earlier draft's per-record `source_note_id` field (never merged, #423)
+# is superseded: the gate itself falls back to every <note> body in the
+# source file once the running text fails, so no record carries a pointer
+# to a note.
 
 
 def test_iter_source_notes_yields_id_and_plain_text_in_order():
@@ -480,8 +481,8 @@ def test_a_quote_matching_only_note_commentary_is_reported_as_note_verified_not_
 
 
 def test_pahc_deaconesses_record_verifies_via_the_note_fallback_with_no_record_field():
-    """pahc.quote.two-female-slaves-who-were-called-deaconesses: R33's own
-    real case. Pliny's letter to Trajan is quoted in full inside
+    """pahc.quote.two-female-slaves-who-were-called-deaconesses: the real
+    case behind this rule. Pliny's letter to Trajan is quoted in full inside
     Eusebius's translator's endnote id iii.viii.xxxiii-p2.2, not in the
     running text. No `source_note_id` field on the record - the gate's
     own fallback finds it, restoring verified-direct."""
@@ -537,7 +538,7 @@ def test_cappadocian_gregory_nyssa_becoming_god_record_now_verifies():
     assert result.verified is True, (result.failed_segment, result.nearest_context)
 
 
-# --- edition-level apparatus (item 2, R33: gate/edition-level, never a record field) ---
+# --- edition-level apparatus (gate/edition-level, never a record field) ---
 
 
 def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
@@ -555,9 +556,8 @@ def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
 
 
 def test_endnote_sequence_strips_only_the_number_the_real_notes_list_expects_next():
-    """The exact risk item 2 names, and R33's own review round 1 finding:
-    an edition-level rule must describe the edition's convention, not one
-    quote's own wording. `endnote-sequence` proves this structurally - a
+    """The exact risk a review found: an edition-level rule must describe
+    the edition's convention, not one quote's own wording. `endnote-sequence` proves this structurally - a
     synthetic source with the real Palladius marker, a clean 1-2-3 notes
     list, and a "5000 monks" phrase placed where the walk is expecting 2,
     not 5000: "5000" survives untouched (it is never the expected next
@@ -675,8 +675,8 @@ def test_ammianus_bare_digit_footnote_verifies_via_edition_apparatus():
 
 
 def test_basil_common_life_record_is_verified_via_authority_not_gate_verified():
-    """cappadocian.quote.basil-on-common-life: F3 (R33 review round 1) -
-    the same span has a genuine OCR word misread ("Tor" for "For"), a
+    """cappadocian.quote.basil-on-common-life: the same span has a genuine
+    OCR word misread ("Tor" for "For"), a
     stray inserted curly quote, a stray column letter, and two more bare
     footnote glyphs - a source-corruption case, the same treatment
     already ruled for the OCR-damaged don/ijc records, not an apparatus
@@ -755,7 +755,7 @@ def test_basil_unbracketed_column_locator_pattern_isolated():
     assert "that which is" in stripped and "written" in stripped
 
 
-# --- gate registration (item 3, R33/R35) --------------------------------
+# --- gate registration -----------------------------------------------------
 
 
 def _quote_record(rid: str, text: str, verification_state: str) -> dict:

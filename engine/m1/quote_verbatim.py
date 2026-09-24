@@ -8,23 +8,22 @@ else - `engine.prose.content_words`, `grounding_ratio`,
 `output_check`'s guard checks - is bag-of-words overlap, no ordering, no
 substring test).
 
-RULED (Mark, 2026-09-22, P3 relaunch thread, two rulings): editorial-
-tolerant, no fuzzy score, no threshold. A quote passes only when every
-difference between its `text` and the vendored source is one of the six
-classes in ALLOWED_DIFFERENCE_CLASSES below - a sixth, `verse_number`,
-added by Mark's second ruling the same day after the first fleet sweep
-surfaced it as a real, distinct pattern (inline ANF/NPNF verse/section
-numbering, not a fidelity defect). A seventh candidate the same sweep
-found - a nested quotation mark rendered as a different mark - was ruled
-NOT allowed: that stays a failure, fixed in the record, not accommodated
-here. A word substitution, an omission with no ellipsis, or an addition
+Editorial-tolerant, no fuzzy score, no threshold. A quote passes only when
+every difference between its `text` and the vendored source is one of the
+six classes in ALLOWED_DIFFERENCE_CLASSES below - a sixth, `verse_number`,
+added after the first fleet sweep surfaced it as a real, distinct pattern
+(inline ANF/NPNF verse/section numbering, not a fidelity defect). A
+seventh candidate the same sweep found - a nested quotation mark rendered
+as a different mark - was ruled NOT allowed: that stays a failure, fixed
+in the record, not accommodated here. A word substitution, an omission
+with no ellipsis, or an addition
 outside square brackets fails - always, regardless of how small. This is
 a membership test against a fixed, published grammar, not a similarity
 score: two texts that are 99% alike by any fuzzy metric still fail here
 if the 1% is a substituted word, because that 1% is exactly the shape of
 fabrication CLAUDE.md's "Source fidelity" section exists to catch.
 
-REGISTERED IN gates.GATES (item 3 of the registration brief, 2026-09-23) -
+REGISTERED IN gates.GATES -
 report-only through PR #422; `gate_quote_verbatim` below was always
 written in the exact `gate_*(records, fleet, registry) -> list[str]` shape
 every other gate uses, specifically so promoting it was the one-line
@@ -75,23 +74,22 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
     "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class.",
 }
 
-# RULED (Mark, 2026-09-22, second ruling): class six (verse_number) above
-# is allowed; class seven - a nested quotation mark rendered as a
-# different mark (e.g. a straight double quote where the source has a
-# curly single quote marking an inner quotation) - is NOT. That stays a
-# failure and gets fixed in the record, not accommodated here.
+# Class six (verse_number) above is allowed; class seven - a nested
+# quotation mark rendered as a different mark (e.g. a straight double
+# quote where the source has a curly single quote marking an inner
+# quotation) - is NOT. That stays a failure and gets fixed in the record,
+# not accommodated here.
 
-# RULED (Mark, 2026-09-22, third ruling, after the #403 triage): two of
-# the three patterns the triage flagged (not the stray-backslash one,
-# left for the record-fix session) fold into the whitespace/ellipsis
+# Two of the three patterns a #403 triage flagged (not the stray-backslash
+# one, left for the record-fix session) fold into the whitespace/ellipsis
 # handling above rather than becoming new classes - each is a source-
 # side typesetting/notation quirk, not a difference in what's actually
 # said. The third (stray backslash) is a record-authoring bug, out of
 # scope for this module.
 
-# FOURTH ROUND (2026-09-23, after PR #413's record-fix pass left 13
-# non-escalated failures, all apparatus the gate didn't yet strip): four
-# closed, evidenced forms fold into the new `apparatus` class above -
+# After PR #413's record-fix pass left 13 non-escalated failures, all
+# apparatus the gate didn't yet strip: four closed, evidenced forms fold
+# into the new `apparatus` class above -
 # soft hyphen, tilde-digit, pipe-page, bracket-locator - each confirmed
 # against the real vendored file before being added, never guessed. Left
 # UNRESOLVED and explicitly NOT covered by `apparatus` above: a bare,
@@ -106,28 +104,27 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # blocks (five apparatus-only, one - `cappadocian.quote.basil-on-work-
 # and-prayer` - already nested-mark-fixed by #413 but blocked here too).
 
-# FIFTH ROUND (2026-09-23, item 2 of the registration brief; R33, Mark:
-# "we should be setting principles we will have a 100 worlds and cant
-# tell the representitive what to say for every quote" - never a
-# per-record field or per-quote instruction). The FOURTH ROUND's bare-
-# digit/symbol question above is resolved not as a new fleet-wide class
-# (a blanket digit rule is unsafe - Palladius and Ammianus both quote
-# real digit quantities as content elsewhere, e.g. "some 300 monks") but
-# as an EDITION-level property: `cic/texts/REGISTRY.yaml`'s own
-# `apparatus` field on an edition entry, a closed list of named,
-# evidenced marker CONVENTIONS applied ONLY to quotes citing that
-# edition (see `strip_edition_apparatus` below and that file's own
-# schema comment). This round also fixed a real bug the sixth residue
-# record (`cappadocian.quote.gregory-nyssa-on-becoming-god`) exposed in
-# the EXISTING (fleet-wide) bracket-locator handling - not
+# The rule, stated directly by the project lead: "we should be setting
+# principles we will have a 100 worlds and cant tell the representitive
+# what to say for every quote" - never a per-record field or per-quote
+# instruction. The bare-digit/symbol question from above is resolved not
+# as a new fleet-wide class (a blanket digit rule is unsafe - Palladius
+# and Ammianus both quote real digit quantities as content elsewhere,
+# e.g. "some 300 monks") but as an EDITION-level property:
+# `cic/texts/REGISTRY.yaml`'s own `apparatus` field on an edition entry,
+# a closed list of named, evidenced marker CONVENTIONS applied ONLY to
+# quotes citing that edition (see `strip_edition_apparatus` below and
+# that file's own schema comment). This also fixed a real bug the sixth
+# residue record (`cappadocian.quote.gregory-nyssa-on-becoming-god`)
+# exposed in the EXISTING (fleet-wide) bracket-locator handling - not
 # edition-specific, see the narrowed `_BRACKET_LOCATOR_RE` above.
 #
-# FIFTH ROUND, REVIEW ROUND 1 (2026-09-23, R33 review, FAIL): the round's
-# first draft passed the glyph/locator/bracket-fix work above but named
-# five entries anchored to one quote's own exact surrounding words each
-# (e.g. a pattern requiring the literal text "from work" or "her lover")
-# - a per-quote instruction dressed as an edition entry, exactly what
-# R33 forbids. Corrected same round: Palladius's three anchored digit
+# An early draft of the edition-apparatus work above passed the
+# glyph/locator/bracket-fix work but named five entries anchored to one
+# quote's own exact surrounding words each (e.g. a pattern requiring the
+# literal text "from work" or "her lover") - a per-quote instruction
+# dressed as an edition entry, exactly what the rule above forbids.
+# Corrected: Palladius's three anchored digit
 # patterns replaced by one `kind: endnote-sequence` entry (walks the
 # edition's own real numbered endnotes list, strips a bare digit only
 # when it is genuinely the next number that list expects - see
@@ -150,20 +147,20 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # its own detector - they are simply what's left when a segment fails to
 # match under every allowance above.
 
-# R33 (Mark, 2026-09-23, in his own words): "we should be setting
-# principles we will have a 100 worlds and cant tell the representitive
-# what to say for every quote." A quote whose primary-source text sits
-# inside a translator's own `<note>` rather than the running text
-# (pahc.quote.two-female-slaves-who-were-called-deaconesses: Pliny's
-# letter to Trajan, quoted in full inside a translator's endnote, not in
-# Eusebius's own running text) is handled by a gate-level fallback, never
-# a per-record pointer: once the running text fails to verify, every
-# `<note>` body in the same vendored source file is tried in turn, same
-# tolerances as everywhere else. No record ever names which note - this
-# supersedes R28 (2026-09-23, PR #423, not merged), which had a quote
-# record opt in with its own `source_note_id` field naming the note
-# directly; R33 ruled a mechanism at the gate level instead, since a
-# hundred-world fleet can't carry a hand-set field on every record this
+# The same rule, stated directly by the project lead: "we should be
+# setting principles we will have a 100 worlds and cant tell the
+# representitive what to say for every quote." A quote whose
+# primary-source text sits inside a translator's own `<note>` rather than
+# the running text (pahc.quote.two-female-slaves-who-were-called-
+# deaconesses: Pliny's letter to Trajan, quoted in full inside a
+# translator's endnote, not in Eusebius's own running text) is handled by
+# a gate-level fallback, never a per-record pointer: once the running
+# text fails to verify, every `<note>` body in the same vendored source
+# file is tried in turn, same tolerances as everywhere else. No record
+# ever names which note - an earlier draft had a quote record opt in
+# with its own `source_note_id` field naming the note directly; a
+# gate-level mechanism was ruled instead, since a hundred-world fleet
+# can't carry a hand-set field on every record this
 # pattern might touch. `VerifyResult.verified_in` records which path
 # actually verified a quote ("running_text" or "note", with `note_id` set
 # for the latter) so a note-verified record is always reported as what it
@@ -198,7 +195,7 @@ _LINEWRAP_HYPHEN_RE = re.compile(r"(\w)-\s*\n\s*(\w)")
 # a wider skip, which is exactly the "no fuzzy score" line the ruling
 # draws.
 _VERSE_NUMBER_GAP = r"(?:\d{1,4}\.\s+)?"
-# Four closed, evidenced apparatus forms (2026-09-23, fourth round) -
+# Four closed, evidenced apparatus forms -
 # each confirmed against a real vendored file's own break point before
 # being added here, not a generic heuristic:
 #   - a literal soft hyphen (U+00AD), always invisible, never content
@@ -347,7 +344,7 @@ class VerifyResult:
     classes_used: set[str] = field(default_factory=set)
     failed_segment: str | None = None
     nearest_context: str | None = None
-    # R33 (2026-09-23): which pass actually verified this quote -
+    # Which pass actually verified this quote -
     # "running_text" (the ordinary path, notes stripped) or "note" (the
     # fallback below matched inside a specific `<note>` body). `note_id`
     # is set only for the latter, and is the note's own `id` attribute
@@ -443,7 +440,7 @@ def iter_source_notes(source_raw: str):
 
 
 def verify_quote_against_notes(quote_text: str, source_raw: str) -> VerifyResult | None:
-    """R33's gate-level fallback: once the running text (notes stripped)
+    """The gate-level fallback: once the running text (notes stripped)
     has failed to verify a quote, try every `<note>` body in the same
     source file in turn - the rare case where a translator's endnote,
     not the primary running text, carries the actual primary-source
@@ -498,9 +495,9 @@ _NOTES_ENTRY_NUM_RE = re.compile(r"^(\d+)\.\s", re.MULTILINE)
 
 def _edition_apparatus_entries(filename: str):
     """This edition's own closed apparatus list from
-    `cic/texts/REGISTRY.yaml` (fifth/sixth round, R33) - `()` for every
-    edition with no entry, which is every edition but the ones this round
-    populated. Loaded once per filename, not once per quote."""
+    `cic/texts/REGISTRY.yaml` - `()` for every edition with no entry,
+    which is every edition but the ones populated so far. Loaded once per
+    filename, not once per quote."""
     if filename not in _EDITION_APPARATUS_CACHE:
         from cic.engine.texts_registry import apparatus_for
 
@@ -509,8 +506,8 @@ def _edition_apparatus_entries(filename: str):
 
 
 def strip_endnote_sequence(source_raw: str, notes_start_pattern: re.Pattern) -> str:
-    """kind: endnote-sequence (R33, sixth round - replaces the first
-    draft's per-quote-anchored patterns). `notes_start_pattern` marks
+    """kind: endnote-sequence (replaces an earlier draft's
+    per-quote-anchored patterns). `notes_start_pattern` marks
     where this edition's own real numbered endnotes section begins;
     everything before it is the running text to walk, left to right,
     tracking the next endnote number the real list (read from everything
@@ -579,7 +576,7 @@ def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> Verif
     return best
 
 
-# R35 (Mark, item 3, registration): "this is about the build quality, not
+# "This is about the build quality, not
 # fix on fix." Registered in gates.GATES - see that module's own
 # registration comment for the fleet-wide package-rebuild this requires.
 # A record below `_REQUIRED_VERIFICATION_STATE` has already been through
@@ -616,10 +613,9 @@ def gate_quote_verbatim(records, fleet, registry) -> list[str]:
 
 # --- fleet report (report-only sweep; this module's own CLI) -----------
 
-# The six worlds the 2026-08-28 admission pass already claimed
-# verified-direct with a documented cic/texts/ pass, vs. the five that
-# have never had one - the split Mark's ruling asked the first report to
-# carry. Read off each world's own quote records' confidence.verification_state
+# The six worlds an earlier admission pass already claimed verified-direct
+# with a documented cic/texts/ pass, vs. the five that have never had one.
+# Read off each world's own quote records' confidence.verification_state
 # at run time (REPORT_WORLDS below), not hardcoded, so a world's real
 # state always wins over this list if the two ever disagree.
 AUDITED_WORLDS = ("pahc", "syr", "desert", "hal", "alx", "ijc")
