@@ -50,19 +50,16 @@ relations:
 - type: associated-with
   target: cappadocian.dw.confession-not-a-vote
 modern_rendering: >-
-  Not long ago, praying with the congregation, I used the full
-  doxology to God the Father in both of its forms. At one point, "with
-  the Son, together with the Holy Spirit." At another, "through the
-  Son, in the Holy Spirit." Some of those present attacked me for it.
-  They said I was introducing new and self-contradictory language.
-
-
-  You, though, suggested something better - mainly to help them, or,
-  if they can't be helped, to protect anyone who might be taken in by
-  them. You suggested that some clear teaching ought to be put out,
-  explaining what these words actually mean. So I will write as
-  briefly as I can. I will try to lay down some starting points we can
-  agree on for the discussion.
+  Not long ago, praying with the congregation, I used the full doxology to God the Father
+  in both of its forms. At one point I said, 'with the Son, together with the Holy
+  Spirit.' At another, 'through the Son, in the Holy Spirit.' Some of those present
+  attacked me for this. They said I was introducing terms that were novel and, at the same
+  time, mutually contradictory. You, however, have expressed a different opinion --
+  chiefly with a view to benefiting them, or, if they are wholly incurable, for the
+  security of those who might fall in with them. You said that some clear instruction
+  ought to be published concerning the force underlying the syllables we use. I will
+  therefore write as briefly as I can. I will try to lay down some agreed principle for
+  the discussion.
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml. Located via `grep -n 'div1'

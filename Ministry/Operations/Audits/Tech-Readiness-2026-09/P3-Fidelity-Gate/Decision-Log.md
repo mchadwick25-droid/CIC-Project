@@ -698,3 +698,133 @@ re-pinned once against this PR's own commit
 (`sha256:412606009d30cb497180eaa881b1a02d3e5782ad44c1352f44f52cc5cd5a91b3`).
 `staleness_sweep()`: clean across all 12 worlds. Old manifest retired
 (directory kept, per convention).
+
+**Entry 20 — 2026-09-23 (R43 Group A, world 1 of 4: cappadocian — 12
+pre-existing renderings re-authored).** The R40 pass (Entries 13-18)
+and the Nisibene fix (Entry 19) are merged. The reviewer's fleet-wide
+`rendering_fidelity.py` sweep (reported on PR #465/#466) flagged 57
+records that never went through the birth-condition grading process:
+this is Group A, the four worlds whose renderings pre-date the gate
+entirely (cappadocian 12, rzg 6, don 3, witt 3), ordered ahead of
+Group B (today's R40 work re-read against fresh flags). This entry is
+cappadocian, the first of the four.
+
+For each of the 12 flagged records, read the grader's own reasoning
+against the record's `text` field directly, rather than trusting or
+dismissing the verdict on its label alone. All 12 were genuine: real
+dropped clauses (`basil-canon-to-amphilochius`'s four distinct
+penance-year restrictions collapsed together;
+`basil-on-antiphonal-psalmody`'s two named effects of antiphonal
+singing; `basil-on-the-doxology-challenge`'s full list of
+qualifications on the doxology dispute; `gregory-nyssa-on-becoming-
+god`'s concessive "although...still" clause connecting the two forms
+of divine presence; `julian-galilaeans`'s causal "since" clause;
+`macrina-refuses-remarriage`'s "compelled to consider another";
+`ousia-and-hypostasis`'s description of how the word "strikes...the
+ears"; `reading-scripture-hexaemeron`'s "open" firmament and its
+distinct-qualities clause; `we-look-to-the-east`'s two separately-
+stated unknowns conflated into one; `what-is-the-written-source`'s
+"under the obligation to believe" and "principles of true religion")
+or genuine invented framing (`basil-against-delaying-baptism`'s
+over-explained "viaticum" and doubled invented "then" connectors).
+None were dismissed as grader disagreement — no "human read stands"
+exceptions this entry.
+
+One structural pattern recurred and is worth naming for future
+re-authoring passes: the grader consistently penalizes converting a
+subordinate clause (a relative clause, a concessive "although...still",
+a causal "since") into a separate paratactic sentence, even when no
+content is lost — it reads the restructuring itself as dropping the
+grammatical connection. `basil-on-work-and-prayer` needed two rounds
+for exactly this reason: splitting "giving thanks to Him who gave both
+X...and also Y" into "we give thanks to him. He gave us X...He also
+gave us Y" was flagged as content loss on 5 consecutive calls despite
+carrying every clause; keeping it as one relative-clause sentence
+attached to "him" cleared on the first re-check. `gregory-nyssa-on-
+becoming-god` needed the same fix for its "although...still" clause,
+flagged 4 times before being restored to a genuine concessive
+construction. Where FK forced a sentence break regardless (`julian-
+galilaeans`), splitting the causal clause into a new sentence
+introduced by "That is because" (rather than the drop-in connector
+tried first) produced a passing, if inconsistent, verdict — 3 of 4
+total calls read "translation" on the identical final text, matching
+the established grader-noise pattern rather than a live disagreement.
+
+**A real script bug, caught and fixed before commit.** The batch-
+replacement script used to swap out these 12 pre-existing renderings
+inherited a defect from how the file is split on the literal string
+"---": when `modern_rendering` was the last field in a record's front
+matter (true for all 12, since these were appended at the end by an
+earlier, pre-R40 process), the script's own blank-line-skipping logic
+also consumed the trailing empty split-artifact that normally
+preserves the newline before the closing "---", gluing the last
+rendering line directly onto it (`...pleasing him.---`). Caught by
+inspecting the diff before committing, not by the grader or any gate
+(the files remained parseable, since `content.split('---')` doesn't
+care about line position). Fixed with a single targeted regex pass
+restoring the missing newline in each of the 12 files, verified against
+a clean `git diff` showing only `modern_rendering` values changed. No
+gate currently checks front-matter line hygiene directly; noted here
+rather than filed as a gap, since the fix is complete and the defect
+never reached a commit.
+
+**Gate results.** `gate_readability` (FK ceiling 10): 0 findings
+across all 12 (range 2.7-9.5). Full `run_all()` (all M1 gates) on
+cappadocian: 1 finding, the same pre-existing `voice-perspective` flag
+on `cappadocian.dw.reading-scripture` (confirmed present on main
+before this branch, untouched by these 12 records). `pytest
+engine/m1/tests/`: 134 passed, no regressions. No field other than
+`modern_rendering` touched on any of the 12 records; no per-record
+notes added, per R33.
+
+**Package pin.** Main had not moved since branching; rebuilt and
+re-pinned once against this PR's own commit
+`39db2f7adc8b3a5b7d4d2ae7b7f1313047d776b4`. Old
+`packages/cappadocian/2026-09-23T08-13-26Z`
+(`sha256:6cd515e5e88423f7c2fa60dec47ad3a927790821b6e8426cf9f09bb0c4e07ced`)
+→ new `packages/cappadocian/2026-09-23T23-43-39Z`
+(`sha256:941257d57d913b7715bfc8bd6fe8579a8e393cb160d1d9edde35fa0ec31ba7db`).
+`staleness_sweep()`: clean across all 12 worlds. Old manifest retired
+(directory kept, per convention).
+
+**A second, separate staleness gate, discovered here for the first
+time in this decision log.** CI's "Site staleness sweep" job failed on
+the first push (head `e5bd8004`): `engine.m2.site_cli staleness-check`
+reported `cappadocian` stale (`diff: ["narrative"]`). This checks a
+different compiled artifact than the M2 package pin above -
+`cic-website/data/worlds/<census_id>.json`, built by
+`engine.m2.site_cli build <world> --records-commit <sha>
+--compiler-version <version>` - and R40's world-by-world PRs never
+tripped it because none of those touched a record that this compiled
+JSON's "narrative" section draws from. R43's re-authoring apparently
+does. Fixed by rebuilding that JSON against the real resolved HEAD;
+`engine.m2.site_cli staleness-check` now reports `pass: true`
+fleet-wide, and `pytest engine/m1/tests/ engine/m2/tests/` (191 tests)
+passes. **Going forward, every remaining R43 world PR (rzg, don, witt,
+then the Group B re-read pass) rebuilds both this site JSON and the M2
+package pin as a standard part of its own re-pin step, not just the
+world whose CI happens to catch it.**
+
+**Round 1 FAIL, reviewer's human read (2026-09-24, head `f1c07aad`).**
+The grader passed all 12 on the batch above, but a human re-read
+against the process doc's own fragment rule (V1.6, Phase B) caught
+three fragments the grader cannot see, since it grades meaning, not
+grammar: `basil-canon-to-amphilochius`'s "In the third, to penance."
+and "In the fourth, to standing..." dropped the implied "they may be
+received" the source's own elliptical series carries across all three
+year-clauses; `basil-on-the-doxology-challenge`'s "Or, if they are
+wholly incurable, for the security of those who might fall in with
+them." was split off from the purpose clause it modifies, leaving it
+verbless; `what-is-the-written-source` paraphrased "Time will fail me
+if I attempt to recount" as "I could spend the rest of the day
+naming" where the original survives plainly in modern English and
+should have been kept. All three re-authored (each fragment given its
+own subject and verb, the paraphrase reverted to direct translation);
+grader confirmed "translation" twice on all three; `gate_readability`
+clean (6.4, 7.8, 9.7); full M1 `run_all()`: still only the same
+pre-existing `voice-perspective` finding; `pytest engine/m1/tests/
+engine/m2/tests/`: 191 passed. Re-pinned again against the real
+resolved HEAD `c773bc43a044bc08a69bc04680c134efd70ec9ad` (both the M2
+package, `packages/cappadocian/2026-09-24T00-06-02Z`
+(`sha256:d553f510b634f92d38e7d1160c121805e19340dea0be50933da32fdb8ef1ec52`),
+and the site-compiled JSON); both staleness checks clean.
