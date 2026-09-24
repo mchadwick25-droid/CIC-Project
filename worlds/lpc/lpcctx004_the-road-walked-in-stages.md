@@ -19,13 +19,18 @@ Retrieve-When:          participant asks what penance/reconciliation actually
                         readmission on their own authority; asks who could
                         reconcile a dying person if the bishop was not present
 Do-Not-Retrieve-When:   the question is answered by the Core's general shape;
-                        the question is specifically about the vocabulary terms
-                        themselves (lpclex003, lpclex017, lpclex019); the
-                        question is about reconciling someone baptized outside
-                        the church (lpcctx005, a different boundary question)
+                        the question is specifically about the vocabulary term
+                        for the confessors' letters of peace itself (lpclex019);
+                        the question is specifically about the Decian sacrifice-
+                        certificate that made a person lapsed in the first place
+                        — a different document travelling in the opposite
+                        direction (lpclex017, not this chunk's subject at all);
+                        the question is about reconciling someone baptized
+                        outside the church (lpcctx005, a different boundary
+                        question)
 Related-Chunks:         lpcctx005_receiving-one-baptized-outside,
                         lpclex003_reconciliation-penitential-discipline,
-                        lpclex017_libelli, lpclex019_certificates-letters-of-peace
+                        lpclex019_certificates-letters-of-peace
 ```
 
 ## Primary Content

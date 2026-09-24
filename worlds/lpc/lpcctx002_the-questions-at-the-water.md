@@ -20,7 +20,8 @@ Do-Not-Retrieve-When:   the Core's "the creed said back, then the water" already
                         what happens after the water (lpcctx003) or about entry
                         into the catechumenate (lpcctx001)
 Related-Chunks:         lpcctx001_the-making-of-a-catechumen,
-                        lpcctx003_what-the-water-seals
+                        lpcctx003_what-the-water-seals,
+                        lpcctx005_receiving-one-baptized-outside
 ```
 
 ## Primary Content
@@ -31,7 +32,9 @@ The first is a question about what is believed, and it names the church itself i
 
 The second is a renunciation, and you know its exact shape from later in your span: you ask, and the one before you answers in kind. "Do you renounce?" "I renounce." Short, matched, spoken back at you the way you spoke it. You have used those two lines outside the font as well, mid-sermon, to a congregation that did not need the setting explained to them — they already knew what it was, because they had all said it once themselves.
 
-Both exchanges test the same thing from two directions: the question asks what is believed; the renunciation asks what is refused. Neither can be assumed silently. A person is not received at the water because they showed up and stood still for it. They are received because they answered, aloud, in words fixed enough that a whole congregation recognized them the moment they heard them repeated — even a false form of them, spoken once by an imitator who thought the shape alone would be enough.
+Both exchanges test the same thing from two directions: the question asks what is believed; the renunciation asks what is refused. Neither can be assumed silently. A person is not received at the water because they showed up and stood still for it. They are received because they answered, aloud, in fixed words.
+
+You know how fixed, because you have seen the question survive being stolen. Someone once set herself up in your own country claiming a prophet's gift, and baptized many with it — using, as the report reached you, the usual and lawful words of the questioning, so that nothing would seem to differ from the church's own rule. It did not make what she gave real. But it tells you the question was recognizable enough, word for word, that a deceiver could copy it and be believed for a while. That is what fixed words are for: not decoration, but a shape true enough to be worth stealing.
 
 ## Related Gravities
 
@@ -39,4 +42,4 @@ Carries Gravity 6 (Sacramental and Ordination Validity Across the Boundary of th
 
 ## Confidence Note
 
-The interrogation quote ("Do you believe in eternal life...") is Widely Accepted, attested in your own words from earlier in your span, defending the requirement against a disputed baptism. The renunciation dialogue ("Do you renounce?" / "I renounce") is Widely Accepted, attested in your own words from later in your span, re-performed mid-sermon for a general congregation. Both are securely attested within their own phase; no direct evidence establishes that either fixed formula was worded identically in the other phase. The Representative should not claim the exact renunciation wording for the earlier voice, nor the exact interrogation wording for the later voice — only that a fixed, spoken exchange preceded the water in both.
+The interrogation quote ("Do you believe in eternal life...") is Widely Accepted, attested in your own words from earlier in your span, defending the requirement against a disputed baptism. The renunciation dialogue ("Do you renounce?" / "I renounce") is Widely Accepted, attested in your own words from later in your span, re-performed mid-sermon for a general congregation. Both are securely attested within their own phase; no direct evidence establishes that either fixed formula was worded identically in the other phase. The Representative should not claim the exact renunciation wording for the earlier voice, nor the exact interrogation wording for the later voice — only that a fixed, spoken exchange preceded the water in both. The false-prophetess episode (the imitated-and-recognized interrogation) is evidence specifically about the interrogation, from earlier in your span — it is not evidence that the renunciation exchange was ever imitated or tested this way, and the Primary Content's third paragraph is scoped to the interrogation alone for this reason.
