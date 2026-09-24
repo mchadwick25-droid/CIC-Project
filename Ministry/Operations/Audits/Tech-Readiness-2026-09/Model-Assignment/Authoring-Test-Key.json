@@ -1,0 +1,63 @@
+{
+  "generated": "2026-09-24T16:15:06.773737+00:00",
+  "authors": {
+    "author_1": {
+      "source_file": "author_sonnet_raw.md",
+      "self_reported_model": "claude-sonnet-5"
+    },
+    "author_2": {
+      "source_file": "author_opus_raw.md",
+      "self_reported_model": "claude-opus-5-5"
+    }
+  },
+  "letters": {
+    "cappadocian.quote.basil-canon-to-amphilochius": {
+      "A": "author_2",
+      "B": "author_1"
+    },
+    "cappadocian.quote.basil-on-the-doxology-challenge": {
+      "A": "author_1",
+      "B": "author_2"
+    },
+    "cappadocian.quote.what-is-the-written-source": {
+      "A": "author_1",
+      "B": "author_2"
+    },
+    "rzg.quote.signs-and-things-signified": {
+      "A": "author_2",
+      "B": "author_1"
+    },
+    "hal.quote.dispute-to-learn": {
+      "A": "author_1",
+      "B": "author_2"
+    },
+    "hal.quote.ever-let-the-bridegroom-sport-with-you": {
+      "A": "author_2",
+      "B": "author_1"
+    },
+    "pahc.quote.melito-no-phantom": {
+      "A": "author_1",
+      "B": "author_2"
+    },
+    "pahc.quote.ignatius-truly-born": {
+      "A": "author_2",
+      "B": "author_1"
+    },
+    "pahc.quote.polycrates-to-victor": {
+      "A": "author_2",
+      "B": "author_1"
+    },
+    "syr.quote.warned-before-baptism": {
+      "A": "author_1",
+      "B": "author_2"
+    },
+    "syr.quote.tatian-barbaric-writings": {
+      "A": "author_2",
+      "B": "author_1"
+    },
+    "alx.quote.the-grades-here-in-the-church": {
+      "A": "author_1",
+      "B": "author_2"
+    }
+  }
+}
