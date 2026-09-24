@@ -83,7 +83,7 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   form states this as its own reason for existing, G3''s and G4''s examination clauses presuppose it,
   G8''s 1529 reversal is its effect; Formation passes in the NEGATIVE and as program -- it shapes what
   the movement DOES (daily exhortation, examination, food withheld, hymnals revised with names attached),
-  but as a description of participants it is Inferential-Thin and Contested (the Strauss debate: does
+  but as a description of participants the evidence is thin and disputed (the Strauss debate: does
   the visitation evidence show failure, or measure the wrong thing? nothing in the library adjudicates);
   Explanatory passes -- it explains why the 1529 catechisms exist at all, why the Small Catechism is scripted
   for a father rather than addressed to a believer, and why the 1543 hymnal names its authors; Persistence
@@ -98,14 +98,14 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   reference) is its answer. It does not organize broadly -- it generates programs, not content. It is
   NOT ''lay experience'' under another name: this gravity is what the founder said; lay experience is
   what no vendored source says. CONFIDENCE/GRAVITY CROSS-CHECK: DIVERGENCE, flagged and BARRED FROM UPGRADE
-  in a specific direction -- organizing strength is high (it generated the entire 1529 corpus), evidential
-  confidence is Documented for the testimony, Contested/Inferential-Thin for the state of affairs it describes.
+  in a specific direction -- organizing strength is high (it generated the entire 1529 corpus); the
+  testimony itself is well attested, but the state of affairs it describes remains disputed and thin.
   Classified Tensional on the Documented half; NO DOWNSTREAM USE OF THIS RECORD MAY CITE IT AS EVIDENCE
   THAT SAXON CONGREGATIONS WERE IGNORANT, COLD, OR NEGLIGENT. Register-and-voice spread: 2/4, the only
   candidate below 3/4 -- no Melanchthon (the Apology''s reception passage is POSITIVE and is not this
   gravity), congregational-facing registers and conversation only. Reception-side status: THIS CANDIDATE
   IS ITSELF THE FOUNDER''S RECEPTION REPORT, which is exactly why it cannot stand in for reception. FORCES-CONNECTION
-  NOTATION: this gravity IS Layer 2 of a force Doc_02 §13 could not document
+  NOTATION: this gravity IS Layer 2 of a force this library could not document
   at Layer 1 -- the parish''s actual state, the territorial force''s own inspecting arm, absent from the
   library [2A-3]; its object shifts three times -- 1522 one congregation''s conduct, 1529 the parishes''
   pastors, people and nobles, 1543 the print market -- and the founder''s response shifts with it, rebuke,

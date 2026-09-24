@@ -106,11 +106,11 @@ description: 'The three parts every Christian must know, prescribed to be taught
   for the prescriptive corpus; Widely Accepted for Walter; Inferential-Thin for any household''s actual
   practice; Contested at the scholarly level for how reception should be read at all (the Strauss debate).
   CLASSIFICATION: PRIMARY, on the scope as generated -- the evidence supporting the candidate as scoped
-  (the bulk of the 1529 output plus the confessional pair) is Documented; a reviewer who reads the Framework''s
+  (the bulk of the 1529 output plus the confessional pair) is well attested; a reviewer who reads the Framework''s
   rule as requiring the whole gravity, reception included, would classify this Supporting instead, and
   this document states that alternative rather than hiding it. CONFIDENCE/GRAVITY CROSS-CHECK:
   DIVERGENCE, flagged and the build''s highest-stakes -- organizing strength is Primary-grade for the
-  program; evidential confidence is Documented for the program, Inferential-Thin for reception. Not upgraded
+  program; the program itself is well attested, but the evidence for reception is thin. Not upgraded
   across that line; the I/T side is named as outside what the classification covers. Register-and-voice
   spread: 4/4 for the program; Luther-only for the household-father mechanism specifically. Reception-side
   status: absent -- the single largest reception gap in the build. FORCES-CONNECTION NOTATION: generated in response to what replaces the indulgence-confession-sacrament system

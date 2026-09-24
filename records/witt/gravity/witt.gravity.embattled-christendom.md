@@ -83,7 +83,7 @@ description: '''here we battle not against pope or bishop, but against the devil
   register; Interaction passes, an almost uniformly reinforcing row -- reinforcing G1-G6 and G13, thinly
   G7, G9, G10, G11, RESHAPING G8 (the adversary frame gives G8''s restraint its urgency). EVIDENTIAL CONFIDENCE:
   Documented for what the texts say; the apocalyptic interpretive frame some scholarship places over it
-  is Dominant Modern Reconstruction at most and unread -- this record builds nothing on it. CLASSIFICATION:
+  is the leading modern reading at most and unread -- this record builds nothing on it. CLASSIFICATION:
   SUPPORTING -- it passes all six strongly and a reviewer could argue Primary, but what it organizes is
   the ecology''s AFFECTIVE AND ADVERSARIAL FRAME, the Layer-2 consciousness of the forces in the Forces
   Framework''s own terms, and the Word it wields is G2''s own: ''One little word can fell him.'' It functions

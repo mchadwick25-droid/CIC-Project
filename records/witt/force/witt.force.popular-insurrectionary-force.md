@@ -42,7 +42,7 @@ description: 'LAYER 1 (Historical Event). Documented: AN EARNEST EXHORTATION FOR
   unnamed ''murder, and riot of our enemies'' quelled by prayer (LC 3190-3196, Documented as text, event
   unnamed). ABSENT: AGAINST THE MURDEROUS, THIEVING HORDES OF PEASANTS (May 1525) and the companion 1525
   tracts -- not vendored, characterized only from a tertiary article, Widely Accepted as to content, no
-  phrase quoted. Blickle''s ''revolution of the common man'' is Dominant Modern Reconstruction, and the
+  phrase quoted. Blickle''s ''revolution of the common man'' is the leading modern scholarly account, and the
   1522 Exhortation ''reads very differently against it than the 1525 tract does.'' LAYER 2 (World''s Own
   Experience). In 1522, a bloodshed the Word made unnecessary: ''I could have brought great bloodshed
   upon Germany... I did nothing; I left it to the Word'' (v2 14932-14935); a wrong with a real cause the

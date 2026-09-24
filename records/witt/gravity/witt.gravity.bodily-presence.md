@@ -74,7 +74,7 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   the bodily presence organizes little beyond the Supper itself; this does not doubt that the doctrine
   mattered enormously to this world''s boundary, only that the evidence for that mattering is not yet
   vendored. CONFIDENCE/GRAVITY CROSS-CHECK: DIVERGENCE, of the INVERSE kind -- the assigned world-boundary
-  weight exceeds what the library shows organizing, while the doctrine''s own evidence is Documented;
+  weight exceeds what the library shows organizing, while the doctrine''s own evidence is well attested;
   the classification follows the library and does not import weight from outside it. ''Supporting'' is
   not to be read as ''minor.'' Register-and-voice spread: 3/4, no non-founder trace. Reception-side status:
   the founder''s own 1520 claim about ''the simple faith... among the common people'' -- Documented as
