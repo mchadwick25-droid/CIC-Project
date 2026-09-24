@@ -9,10 +9,10 @@ works:
   locus: div2 17.23 (~242 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: Address to Young Men on the Right Use of Greek Literature
   author: basil
   locus: whole file - Outline, chapters I-X, closing paragraph, 68 footnotes
@@ -29,11 +29,9 @@ works:
   locus: div1 7 (~53,414 words), thirty chapters at div2 7.2-7.31
   role: tradition
   confidence: assigned
-  note: 'Basil''s defense of the Spirit''s equal glory against the Pneumatomachians, and the
-    classic appeal to the church''s unwritten liturgical tradition (ch. 27). The party argued
-    against has no census entry (there is no Macedonian/Pneumatomachian bucket), so the work
-    stays with its author''s entry; noted rather than forced. 2026-08-26: pneumatomachian-current
-    added alongside - the party this work argues with now has an entry of its own.'
+  note: Basil's defense of the Spirit's equal glory against the Pneumatomachians, and the
+    classic appeal to the church's unwritten liturgical tradition (ch. 27). pneumatomachian-current
+    holds the party this work argues with, alongside the author's own entry.
   source_file: npnf208_basil-letters-select-works.xml
 - work: Introduction/Proem to the Longer Rules and to the Shorter Rules (Appendices A and
     B of Morison's book - Basil's own words, translated in full, not Morison's paraphrase)
@@ -99,12 +97,12 @@ works:
   locus: div2 17.11-17.20 (10 pieces, ~4,604 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. The largest part of the collection
-    by a wide margin, and the reason the split is worth making: Basil''s canonical letters
-    are a quarter of these canons and belong with Basil.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. The largest part of the collection by a wide margin, and the reason the split
+    is worth making: Basil''s canonical letters are a quarter of these canons and belong with
+    Basil.'
 - work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9 — creed 9.3, letter to Theodosius 9.6, canons 9.8, synodical letter 9.9
@@ -113,9 +111,8 @@ works:
   note: 'Theodosius'' council and the Nicene-Constantinopolitan creed. The cappadocian id
     is the arguable one: Gregory Nazianzen presided for part of the council and its pneumatology
     ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
-    2026-08-26: canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
-    as separate parties; each now has its own entry and this work is the record of all of
-    them.'
+    Canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as
+    separate parties; each now has its own entry and this work is the record of all of them.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: The Canons of the Council of Gangra
   author: council-of-gangra
@@ -141,12 +138,11 @@ works:
     name"). `confidence: provisional`, not `assigned`, for the same reason as the Thaumaturgus
     rows in this file and in npnf214/anf06: third-century, a century before this entry''s
     360-380s census range, and no census entry for 3rd-c. Cappadocia/Pontus itself. Split
-    2026-09-09 on Mark''s ruling (`cappadocian_Unused_Source_Verification_2026-09-09.md` §2.2),
-    following the 2026-08-26 npnf214 per-father split precedent below (`Split 2026-08-26 on
-    Mark''s ruling`) for the same reason that split gave: one work by one author, distinguishable
-    from its shared-corpus row, is worth a row of its own rather than an added atlas_id, since
-    the shared Epistles-of-Cyprian row is `confidence: assigned` and this assignment is not.
-    Doc_02 §1.6 cites this letter under both numberings ("Epistle 74 in the ANF/older numbering,
+    out from the shared Epistles-of-Cyprian row, following the same npnf214 per-father split
+    precedent used elsewhere in this file: one work by one author, distinguishable from its
+    shared-corpus row, is worth a row of its own rather than an added atlas_id, since the
+    shared Epistles-of-Cyprian row is `confidence: assigned` and this assignment is not. Doc_02
+    §1.6 cites this letter under both numberings ("Epistle 74 in the ANF/older numbering,
     Epistle 75 in the modern CSEL/Hartel numbering; cite both forms") - both carried in `work:`
     above so a reader searching either number finds this row.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
@@ -218,10 +214,10 @@ works:
   locus: div2 17.22 (~196 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: Select Letters of Saint Gregory Nazianzen
   author: gregory_naz
   locus: 'div1 4 (~37,693 words) - one body of letters in three editorial groups: Letters
@@ -231,10 +227,9 @@ works:
     '
   role: tradition
   confidence: assigned
-  note: 'The Apollinarian group (the letters to Cledonius) is foundational Christological
-    material, but the census has no Apollinarian entry, so the party argued against has nowhere
-    to receive it; noted rather than forced into an unrelated bucket. 2026-08-26: apollinarian-christianity
-    added alongside - the party this work argues with now has an entry of its own.'
+  note: The Apollinarian group (the letters to Cledonius) is foundational Christological material.
+    apollinarian-christianity holds the party this work argues with, alongside the author's
+    own entry.
   source_file: npnf207_cyril-jerusalem-gregory-nazianzen.xml
 - work: Select Orations of Saint Gregory Nazianzen
   author: gregory_naz
@@ -274,10 +269,11 @@ works:
     '
   role: tradition
   confidence: provisional
-  note: 'Cappadocian home is firm. The second id is the doubt: this is anti-EUNOMIAN (Anomoean)
-    polemic, and the census''s only Arian bucket is named for the Homoian party - a different
-    wing of the controversy. Assigned there as the nearest entry for material about fourth-century
-    Arianism; a reviewer may strike it or Mark may want a distinct bucket.
+  note: 'Cappadocian home is firm. This is anti-EUNOMIAN (Anomoean) polemic, and the census''s
+    only Arian bucket was named for the Homoian party - a different wing of the controversy
+    - so anomoean-eunomian-christianity (era 2, Floor Question) was added to the census; the
+    context row below carries that assignment, naming the party this material actually argues
+    with rather than the Homoian wing it split from in 360.
 
     '
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
@@ -367,20 +363,18 @@ works:
   locus: txt heading at line 27918
   role: tradition
   confidence: assigned
-  note: 'Anti-Pneumatomachian treatise. The census has no Macedonian/ Pneumatomachian entry
-    at all, so the party it argues against has nowhere to receive it; noted rather than forced.
-    2026-08-26: pneumatomachian-current added alongside - the party this work argues with
-    now has an entry of its own.'
+  note: Anti-Pneumatomachian treatise. pneumatomachian-current has since been added to the
+    census, giving the party this work argues with an entry of its own; that assignment is
+    carried in the context row below.
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
 - work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
   locus: txt heading at line 28938
   role: tradition
   confidence: assigned
-  note: 'Trinitarian letter-treatise; printed with an extract of Basil''s Letter 189 immediately
+  note: Trinitarian letter-treatise; printed with an extract of Basil's Letter 189 immediately
     before it (line 29245), which some editors give to Nyssa - the volume flags the overlap
-    itself. 2026-08-26: pneumatomachian-current added alongside - the party this work argues
-    with now has an entry of its own.'
+    itself. pneumatomachian-current holds this work alongside, for the party it argues with.
   source_file: npnf205_gregory-nyssa-dogmatic-treatises.txt
 - work: On the Making of Man
   author: gregory_nyssa
@@ -409,10 +403,10 @@ works:
   locus: div2 17.21 (~503 words)
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: The Great Catechism
   author: gregory_nyssa
   locus: txt part heading 'IV.--Apologetic Works' (line 42012); work at line 42016
@@ -440,17 +434,17 @@ works:
   locus: div3 under 3.3 'Acknowledged Writings'
   role: tradition
   confidence: provisional
-  note: 'Added 2026-09-09. A second row rather than an extra atlas_id on the row above, matching
-    the shape this file already uses for The Oration and Panegyric Addressed to Origen: the
-    two assignments carry different confidences and a single row cannot. Provisional for the
-    same reason both sibling Thaumaturgus rows give - he predates the Cappadocian entry''s
-    360-380s range by a century, and there is no census entry for 3rd-c. Pontus itself. The
-    Cappadocians inherited these penitential canons as their own regional disciplinary practice:
-    this world''s Doc_02 SS1.6 names the Canonical Epistle as Documented and its Source Registry
-    row 66 already carries it, and Basil appeals to the Thaumaturgan inheritance explicitly.
-    This world already holds the volume''s two other Thaumaturgus works; this one was the
-    gap. Kept alongside the anatolian-church-third-century row, not moved - non-exclusive
-    by default per the corpus-map README. '
+  note: 'A second row rather than an extra atlas_id on the row above, matching the shape this
+    file already uses for The Oration and Panegyric Addressed to Origen: the two assignments
+    carry different confidences and a single row cannot. Provisional for the same reason both
+    sibling Thaumaturgus rows give - he predates the Cappadocian entry''s 360-380s range by
+    a century, and there is no census entry for 3rd-c. Pontus itself. The Cappadocians inherited
+    these penitential canons as their own regional disciplinary practice: this world''s Doc_02
+    SS1.6 names the Canonical Epistle as Documented and its Source Registry row 66 already
+    carries it, and Basil appeals to the Thaumaturgan inheritance explicitly. This world already
+    holds the volume''s two other Thaumaturgus works; this one was the gap. Kept alongside
+    the anatolian-church-third-century row, not moved - non-exclusive by default per the corpus-map
+    README. '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Oration and Panegyric Addressed to Origen
   author: gregory_thau

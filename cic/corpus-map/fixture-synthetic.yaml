@@ -6,7 +6,7 @@
 # corpus-map's own thread builds those for real data; this workstream needs
 # them now, on synthetic data, to prove engine/m9 fires. corpus_map.py's
 # validate() tolerates this file via `fixture: true` (CM-6, Library Access
-# Gate D3 section 3, Decision-Log entry 10).
+# Gate D3 section 3).
 atlas_id: fixture-synthetic
 fixture: true
 works:

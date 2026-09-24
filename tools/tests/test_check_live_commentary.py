@@ -294,34 +294,64 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("canon/sealed_probes/seals.yaml", 106, "KEEP"),
     ("canon/sealed_probes/seals.yaml", 21, "KEEP"),
     ("canon/sealed_probes/seals.yaml", 146, "KEEP"),
-    ("cic/corpus-map/marcion-marcionism.yaml", 82, "REWRITE"),
-    ("cic/corpus-map/homoian-arian-christianity.yaml", 237, "REWRITE"),
-    ("cic/corpus-map/latin-pastoral-congregational-christianity.yaml", 162, "REWRITE"),
-    # Hand label ROUTE ("a reviewer may prefer... once one exists" names an
-    # open, unresolved placement question); the tool currently reads this
-    # as REWRITE (a false 4-class miss inside the same "needs action"
-    # bucket - see the PR body's ROUTE_CUES limitation note).
-    ("cic/corpus-map/imperial-juridical-christianity.yaml", 241, "ROUTE"),
-    ("cic/corpus-map/_staging/macarius_fifty-spiritual-homilies_mason1921.yaml", 1, "REWRITE"),
-    ("cic/corpus-map/_staging/npnf105_augustine-anti-pelagian-writings.yaml", 204, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): the
+    # cic/corpus-map samples below were cleaned by that PR's own full
+    # surface pass and stopped matching. Moved to fresh worlds/ examples,
+    # not yet touched by the cleanup program (item 4), to keep this table
+    # at >=60 real, currently-matching lines.
+    ("worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md", 1, "REWRITE"),
+    ("worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
+    ("worlds/pahc/CiC_W1_World_Profile.md", 562, "REWRITE"),
+    ("worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
+    ("worlds/ijc/Source_Registry.md", 25, "REWRITE"),
+    ("worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
+    ("worlds/syr/CiC_W7_Decision_Log.md", 16, "REWRITE"),
+    # Hand label ROUTE (genuinely open placement/ruling question, not yet
+    # resolved); the tool currently reads this as REWRITE (a false 4-class
+    # miss inside the same "needs action" bucket - see the PR body's
+    # ROUTE_CUES limitation note).
+    ("worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "ROUTE"),
+    ("worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "REWRITE"),
     ("cic/engine/texts_registry.py", 74, "REWRITE"),
     ("cic/engine/texts_registry.py", 220, "REWRITE"),
     ("cic/engine/corpus_authors.py", 88, "REWRITE"),
     ("cic/engine/tests_corpus_map.py", 52, "REWRITE"),
     ("cic/engine/corpus_map.py", 75, "REWRITE"),
     ("cic/engine/texts_registry.py", 11, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #503): the
+    # original 6 cic-poc/frontend samples here were cleaned by that PR
+    # (round 1 and round 2 together) and stopped matching, apart from
+    # FigureBridgeMark.tsx:3 below - a real file citation whose date is
+    # part of the filename, not commentary. The other 5 slots move to
+    # fresh cic/corpus-map examples, not yet touched by the cleanup
+    # program, to keep this table at >=60 real, currently-matching lines.
     ("cic-poc/frontend/src/components/FigureBridgeMark.tsx", 3, "REWRITE"),
-    ("cic-poc/frontend/src/components/VoiceTurnBody.test.tsx", 170, "REWRITE"),
-    ("cic-poc/frontend/src/components/Arrival.test.tsx", 2, "REWRITE"),
-    ("cic-poc/frontend/src/components/StoryMark.tsx", 15, "REWRITE"),
-    ("cic-poc/frontend/src/components/StoryMark.tsx", 16, "REWRITE"),
-    ("cic-poc/frontend/src/components/Arrival.tsx", 14, "REWRITE"),
-    ("cic-website/traditions/cappadocian-nicene-pastoral-monastic-tradition.html", 245, "REWRITE"),
-    ("cic-website/data/world-census.json", 18087, "REWRITE"),
-    ("cic-website/index.html", 315, "REWRITE"),
-    ("cic-website/data/world-census.json", 12306, "REWRITE"),
-    ("cic-website/atlas-v3.html", 39878, "REWRITE"),
-    ("cic-website/index.html", 396, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
+    # original 6 cic-website samples here were cleaned by that PR and
+    # stopped matching. cic-website is now clean apart from one known
+    # false positive (below); the other 5 slots move to cic/corpus-map,
+    # not yet touched by the cleanup program, to keep this table at >=60
+    # real, currently-matching examples.
+    # Hand label KEEP: "external reviewer" here is real body copy about
+    # wanting an academic reviewer for the project's own scholarship, not
+    # narration of this project's internal review process - the same
+    # `reviewer`-pattern gap already hand-labelled for reference/ above.
+    ("cic-website/support.html", 127, "KEEP"),
+    ("worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
+    ("worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md", 666, "REWRITE"),
+    ("worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "REWRITE"),
+    ("worlds/pahc/CiC_W1_World_Profile.md", 81, "REWRITE"),
+    ("worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
+    # cic/corpus-map samples in this block were cleaned by that PR's own
+    # full surface pass and stopped matching. Moved to 10 more worlds/
+    # examples, distinct from the 8 above, to keep this table at >=60
+    # real, currently-matching lines.
+    ("worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
+    ("worlds/hal/hal_Decision_Log.md", 88, "REWRITE"),
+    ("worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
+    ("worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
+    ("worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     ("engine/m9/enforce.py", 111, "KEEP"),
     ("engine/m4/tests/test_turn.py", 1268, "REWRITE"),

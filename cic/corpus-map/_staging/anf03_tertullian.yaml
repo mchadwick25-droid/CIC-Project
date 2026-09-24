@@ -28,8 +28,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Carthage, 197 - the opening date of this candidate''s own corpus, and of the whole
-    Latin apologetic enterprise (previously the opening date of the separate tertullian-s-voice
-    entry, I.17, merged into this candidate on Mark''s 2026-09-10 ruling).
+    Latin apologetic enterprise (also the opening date of the tertullian-s-voice material,
+    which this candidate now includes).
 
     '
 - work: Apology (Apologeticus)
@@ -41,9 +41,8 @@ assignments:
   confidence: provisional
   note: 'pahc already cites this work (pahc.source.tertullian-apologeticus) as an out-of-window,
     out-of-region witness with a stated use discipline. Provisional: the assignment records
-    that existing use; Mark may prefer pahc to reach it through latin-apologists instead
-    (the id tertullian-s-voice itself pointed to is retired, merged into latin-apologists,
-    2026-09-10).
+    that existing use; pahc reaching it through latin-apologists instead is worth considering
+    (the id tertullian-s-voice itself pointed to is retired; latin-apologists now covers it).
 
     '
 - work: On Idolatry
@@ -149,7 +148,8 @@ assignments:
   note: 'Names Marcion, Apelles, Valentinus and Hermogenes as its targets (ch. 30 and passim).
     Context: description and refutation from outside, only ever drawable as register: etic.
     Provisional because it describes the heresies far more thinly than Against Marcion or
-    Against the Valentinians do - a reviewer may judge it adds little to those buckets.
+    Against the Valentinians do - it may add little to those buckets beyond what those works
+    already establish.
 
     '
 - work: The Five Books Against Marcion
@@ -263,9 +263,8 @@ assignments:
   - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'The trinitarian treatise against Praxeas'' monarchianism. The census has no entry
-    for monarchianism/patripassianism, so that face has no bucket. 2026-08-26: modalist-monarchianism
-    added alongside - the party this work argues with now has an entry of its own.'
+  note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism holds
+    that face: the party this work argues with has an entry of its own.'
 - work: Against Praxeas
   author: tertullian
   locus: div2 5.9 under div1 'Anti-Marcion.'
@@ -273,9 +272,8 @@ assignments:
   - modalist-monarchianism
   role: context
   confidence: assigned
-  note: 'The trinitarian treatise against Praxeas'' monarchianism. The census has no entry
-    for monarchianism/patripassianism, so that face has no bucket. 2026-08-26: modalist-monarchianism
-    added alongside - the party this work argues with now has an entry of its own.
+  note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism holds
+    that face: the party this work argues with has an entry of its own.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
@@ -314,18 +312,17 @@ assignments:
   confidence: assigned
   note: 'An ancient heresy catalogue, not 19th-century editorial matter, though STRUCTURE.md''s
     apparatus marker caught it via its "Appendix" title - flagged rather than silently skipped.
-    The volume''s own editor calls it spurious (see ruling above). Needs a ruling on both
-    counts: whether a pseudo-Tertullianic catalogue is wanted at all, and where; its notices
-    cover many more movements than these two entries. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    The volume''s own editor calls it spurious (see the pseudonymity note above). Its notices
+    cover many more movements than these two entries. This follows one principle rather than
+    a case-by-case call - nine works across six entries raise the same question, whether a
+    spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it and
+    how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. Detaching the spurious corpora from their attributed
+    authors instead is a possible alternative shelving choice.'
 - work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian
   locus: div2 5.11 under div1 'Anti-Marcion.' (marked apparatus in STRUCTURE.md)
@@ -335,18 +332,17 @@ assignments:
   confidence: assigned
   note: 'An ancient heresy catalogue, not 19th-century editorial matter, though STRUCTURE.md''s
     apparatus marker caught it via its "Appendix" title - flagged rather than silently skipped.
-    The volume''s own editor calls it spurious (see ruling above). Needs a ruling on both
-    counts: whether a pseudo-Tertullianic catalogue is wanted at all, and where; its notices
-    cover many more movements than these two entries. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    The volume''s own editor calls it spurious (see the pseudonymity note above). Its notices
+    cover many more movements than these two entries. This follows one principle rather than
+    a case-by-case call - nine works across six entries raise the same question, whether a
+    spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it and
+    how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. Detaching the spurious corpora from their attributed
+    authors instead is a possible alternative shelving choice.'
 - work: On Repentance
   author: tertullian
   locus: div2 6.2 under div1 'Ethical.'
@@ -396,18 +392,14 @@ assignments:
   confidence: assigned
   note: 'Carthage, 203 - inside this candidate''s own window and city, transmitted with his
     corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
-    affinities are long argued. Best guesses only: a first-person martyr diary by a woman
-    is precious enough that where it lives should be Mark''s call, not a worker''s. RULED
-    BY MARK, 2026-08-26: tertullian-s-voice (Carthage 203, inside that entry''s window and
-    city, transmitted with Tertullian''s corpus and edited by him on the volume''s own reading,
-    against the long-argued New Prophecy affinities) over montanism-the-new-prophecy, so the
-    latter guess was dropped rather than left standing as a second best-guess Mark did not
-    choose. Restoring it is one id if he wants both: the affinity claim is real scholarship,
-    not a shelving convenience, and nothing in this note argues against it. SUPERSEDED IN PART
-    BY MARK''S FURTHER RULING, 2026-09-10: tertullian-s-voice itself (I.17) is merged into
-    latin-apologists (I.43), so the 2026-08-26 ruling now resolves here rather than to a
-    separate entry - the choice it made (Carthage/Tertullian''s corpus over the New Prophecy
-    guess) is unaffected and still stands.'
+    affinities are long argued. A first-person martyr diary by a woman is precious enough
+    that the shelving deserves care: this assignment favors the Carthage/Tertullian''s-corpus
+    reading (inside window and city, transmitted with Tertullian''s corpus and edited by him
+    on the volume''s own reading) over montanism-the-new-prophecy. The affinity claim is real
+    scholarship, not a shelving convenience - adding montanism-the-new-prophecy alongside this
+    id remains worth considering. tertullian-s-voice itself is merged into latin-apologists,
+    so this assignment resolves there rather than to a separate entry; the underlying choice
+    (Carthage/Tertullian''s corpus over the New Prophecy reading) is unaffected.'
 - work: On Patience
   author: tertullian
   locus: div2 6.7 under div1 'Ethical.'

@@ -28,10 +28,11 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: provisional
-  note: 'Cappadocian home is firm. The second id is the doubt: this is anti-EUNOMIAN (Anomoean)
-    polemic, and the census''s only Arian bucket is named for the Homoian party - a different
-    wing of the controversy. Assigned there as the nearest entry for material about fourth-century
-    Arianism; a reviewer may strike it or Mark may want a distinct bucket.
+  note: 'Cappadocian home is firm. This is anti-EUNOMIAN (Anomoean) polemic, and the census''s
+    only Arian bucket was named for the Homoian party - a different wing of the controversy
+    - so anomoean-eunomian-christianity (era 2, Floor Question) was added to the census; the
+    context row below carries that assignment, naming the party this material actually argues
+    with rather than the Homoian wing it split from in 360.
 
     '
 - work: Against Eunomius (Books I-XII, with the Answer to Eunomius' Second Book)
@@ -45,17 +46,13 @@ assignments:
   - anomoean-eunomian-christianity
   role: context
   confidence: assigned
-  note: 'Cappadocian home is firm. The second id is the doubt: this is anti-EUNOMIAN (Anomoean)
-    polemic, and the census''s only Arian bucket is named for the Homoian party - a different
-    wing of the controversy. Assigned there as the nearest entry for material about fourth-century
-    Arianism; a reviewer may strike it or Mark may want a distinct bucket.
-
+  note: 'Cappadocian home is firm. This is anti-EUNOMIAN (Anomoean) polemic, and the census''s
+    only Arian bucket was named for the Homoian party - a different wing of the controversy.
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
-    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
-    on record, so anti-Eunomian material now names the party it actually argues with rather
-    than the Homoian wing it split from in 360.'
+    floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor
+    Question) was added to the census so that anti-Eunomian material names the party it
+    actually argues with rather than the Homoian wing it split from in 360.'
 - work: On the Holy Spirit (Against the Followers of Macedonius)
   author: gregory_nyssa
   locus: txt heading at line 27918
@@ -63,10 +60,9 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: assigned
-  note: 'Anti-Pneumatomachian treatise. The census has no Macedonian/ Pneumatomachian entry
-    at all, so the party it argues against has nowhere to receive it; noted rather than forced.
-    2026-08-26: pneumatomachian-current added alongside - the party this work argues with
-    now has an entry of its own.'
+  note: 'Anti-Pneumatomachian treatise. pneumatomachian-current has since been added to the
+    census, giving the party this work argues with an entry of its own; that assignment is
+    carried in the context row below.'
 - work: On the Holy Spirit (Against the Followers of Macedonius)
   author: gregory_nyssa
   locus: txt heading at line 27918
@@ -74,14 +70,10 @@ assignments:
   - pneumatomachian-current
   role: context
   confidence: assigned
-  note: 'Anti-Pneumatomachian treatise. The census has no Macedonian/ Pneumatomachian entry
-    at all, so the party it argues against has nowhere to receive it; noted rather than forced.
-    2026-08-26: pneumatomachian-current added alongside - the party this work argues with
-    now has an entry of its own.
-
-    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
-    from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`.'
+  note: 'Anti-Pneumatomachian treatise. pneumatomachian-current gives the party this work
+    argues with an entry of its own. Role normalised to `context` for the doctrinal-floor
+    entry: this work describes that movement from outside rather than speaking as it, and
+    the brief allows a built world to draw on floor material only as `register: etic`.'
 - work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
   locus: txt heading at line 28938
@@ -91,8 +83,7 @@ assignments:
   confidence: assigned
   note: 'Trinitarian letter-treatise; printed with an extract of Basil''s Letter 189 immediately
     before it (line 29245), which some editors give to Nyssa - the volume flags the overlap
-    itself. 2026-08-26: pneumatomachian-current added alongside - the party this work argues
-    with now has an entry of its own.'
+    itself. pneumatomachian-current holds this work alongside, for the party it argues with.'
 - work: On the Holy Trinity, and of the Godhead of the Holy Spirit (to Eustathius)
   author: gregory_nyssa
   locus: txt heading at line 28938
@@ -102,10 +93,8 @@ assignments:
   confidence: assigned
   note: 'Trinitarian letter-treatise; printed with an extract of Basil''s Letter 189 immediately
     before it (line 29245), which some editors give to Nyssa - the volume flags the overlap
-    itself. 2026-08-26: pneumatomachian-current added alongside - the party this work argues
-    with now has an entry of its own.
-
-    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
+    itself. pneumatomachian-current holds this work, for the party it argues with. Role
+    normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
     floor material only as `register: etic`.'
 - work: On "Not Three Gods" (To Ablabius)

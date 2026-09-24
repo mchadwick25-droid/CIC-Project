@@ -1,5 +1,5 @@
 /**
- * Decision-Log.md Entry 47 (2026-09-22): the seat-identity guard's own
+ * The seat-identity guard's own
  * exhausted case writes a voice_turn with deliberately empty text -
  * pinned here so a future change can't silently reintroduce a blank
  * "turn--voice" bubble (portrait, name, nothing underneath) where the

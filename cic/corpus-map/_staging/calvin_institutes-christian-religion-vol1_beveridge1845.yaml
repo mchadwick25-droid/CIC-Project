@@ -1,7 +1,6 @@
-# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
-# the Reformed Cities build (Atlas VI.2), per this world's own Source
-# Readiness Dossier. No cross-link opportunities found against sibling
-# Era VII/VI candidates (dossier §5).
+# Proactively vendored ahead of the Reformed Cities build (Atlas VI.2),
+# per this world's own Source Readiness Dossier. No cross-link
+# opportunities found against sibling Era VII/VI candidates (dossier §5).
 source_file: calvin_institutes-christian-religion-vol1_beveridge1845.txt
 
 assignments:

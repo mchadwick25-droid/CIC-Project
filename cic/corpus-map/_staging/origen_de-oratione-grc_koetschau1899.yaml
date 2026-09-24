@@ -27,11 +27,11 @@ assignments:
       and must be labelled as such, never presented as a Representative's
       English evidence. Origen's own text throughout, addressed to Ambrose
       and Tatiana (ch. II, XXXIV); tradition for the world whose
-      catechetical school he led. Vendored 2026-09-08 after an adversarial
-      review found this world's build had struck its De Oratione citations
-      as "never vendored — no pre-1929 English edition exists" while the
-      same commit vendored an original-language Didymus edition by the
-      identical route. Whether any of the struck claims (alexlex028_prayer,
+      catechetical school he led. This world's build had struck its De
+      Oratione citations as "never vendored — no pre-1929 English edition
+      exists" while the same commit vendored an original-language Didymus
+      edition by the identical route; this file closes that inconsistency.
+      Whether any of the struck claims (alexlex028_prayer,
       alexlex027_fasting, alexlex044_holy-spirit, alexlex007_participation,
       alexlex002_divine-pedagogy, alexstory010, Doc_02 §3.6, Doc_04 C2,
       Doc_05) can be re-grounded on this Greek text is a build-thread

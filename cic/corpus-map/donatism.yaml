@@ -108,18 +108,17 @@ works:
     CLXXIII (11 letters, ~54,523 words)
   role: context
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
-    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
-    exchange, exactly) and by keyword count where it does not, taking the natural break in
-    the distribution rather than a chosen threshold. The four parts partition the 168 with
-    no overlap. Cut at eight or more occurrences of the Donatist vocabulary (Donatist, Donatus,
-    Circumcellion, Petilian, Emeritus, rebaptism), which is where the distribution breaks
-    - the next letters down carry five and read as asides - plus Letter LXXVI, whose title
-    addresses the Donatists as a body. Letter XCIII to Vincentius is the largest at 18,595
-    words and carries 31 of the hits on its own. `context`, not `tradition`: Augustine is
-    the Catholic opponent, per the role normalisation already applied to his anti-Donatist
-    treatises.'
+  note: 'Derived from the volume''s own markup rather than from a reading list: each letter
+    is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
+    where the title names one (the Jerome exchange, exactly) and by keyword count where it
+    does not, taking the natural break in the distribution rather than a chosen threshold.
+    The four parts partition the 168 with no overlap. Cut at eight or more occurrences of
+    the Donatist vocabulary (Donatist, Donatus, Circumcellion, Petilian, Emeritus, rebaptism),
+    which is where the distribution breaks - the next letters down carry five and read as
+    asides - plus Letter LXXVI, whose title addresses the Donatists as a body. Letter XCIII
+    to Vincentius is the largest at 18,595 words and carries 31 of the hits on its own. `context`,
+    not `tradition`: Augustine is the Catholic opponent, per the role normalisation already
+    applied to his anti-Donatist treatises.'
   source_file: npnf101_augustine-confessions-letters.xml
 - work: On Baptism, Against the Donatists
   author: augustine
@@ -193,12 +192,11 @@ works:
     previously entirely absent from this corpus in any language. Marked context (an official
     proceeding record, not either side''s own composed voice) consistent with how this entry
     already treats the Optatus appendix and Council acts; provisional because the Donatist
-    bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration
-    once actually read, which this entry has not yet done. Also assigned to latin-pastoral-congregational-christianity
-    (Source_Registry.md row 65, per the project lead''s 2026-09-13 decision on that row''s
-    own flagged cross-world resource question): Augustine speaks in his own words in at least
-    fourteen numbered acts of these proceedings, a live primary-voice route this world''s
-    own Registry names but does not yet use.
+    bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration.
+    Also assigned to latin-pastoral-congregational-christianity (Source_Registry.md row 65,
+    which resolves that row''s own flagged cross-world resource question): Augustine speaks
+    in his own words in at least fourteen numbered acts of these proceedings, a live primary-voice
+    route this world''s own Registry names but does not yet use.
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
@@ -245,11 +243,11 @@ works:
   role: antecedent
   confidence: assigned
   note: 'FLAG as with the Epistles: the lapsed/traditor problem is exactly the question Donatism
-    reopened after the Diocletianic persecution. Ruled 2026-08-26: `role: antecedent`, a third
-    relation added to the corpus-map schema for exactly this. Cyprian is not a Donatist, so
-    `tradition` was false; he died fifty years before the schism, so `context` - describing
-    a movement from outside - was false too. He is the authority both sides argued FROM. The
-    rule the new role carries: an antecedent assignment requires that the entry''s own vendored
+    reopened after the Diocletianic persecution. `role: antecedent`, a third relation in the
+    corpus-map schema for exactly this. Cyprian is not a Donatist, so `tradition` would be
+    false; he died fifty years before the schism, so `context` - describing a movement from
+    outside - would be false too. He is the authority both sides argued FROM. The rule the
+    antecedent role carries: an antecedent assignment requires that the entry''s own vendored
     sources argue from the text. Measured here rather than asserted - Augustine''s On Baptism,
     Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
@@ -259,10 +257,9 @@ works:
   role: antecedent
   confidence: assigned
   note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
-    text, and it was written against the Novatianist schism among others. Needs a ruling on
-    antecedent-tradition status. Ruled 2026-08-26: `role: antecedent` for donatism. Both sides
-    of that controversy argued from this text and Augustine''s On Baptism works through it
-    at length; Cyprian himself predates the schism by fifty years.'
+    text, and it was written against the Novatianist schism among others. `role: antecedent`
+    for donatism: both sides of that controversy argued from this text and Augustine''s On
+    Baptism works through it at length; Cyprian himself predates the schism by fifty years.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Epistles of Cyprian
   author: cyprian
@@ -271,15 +268,13 @@ works:
   confidence: assigned
   note: 'FLAG, not assertion (per group instruction): the Donatists claimed Cyprian - his
     rebaptism practice and purity-of-clergy ecclesiology - as their charter authority, and
-    Augustine''s anti-Donatist works argue with Cyprian''s letters at length. Whether the
-    Cyprianic corpus files as antecedent tradition for donatism needs Mark''s ruling. Ruled
-    2026-08-26: `role: antecedent`, a third relation added to the corpus-map schema for exactly
-    this. Cyprian is not a Donatist, so `tradition` was false; he died fifty years before
-    the schism, so `context` - describing a movement from outside - was false too. He is the
-    authority both sides argued FROM. The rule the new role carries: an antecedent assignment
-    requires that the entry''s own vendored sources argue from the text. Measured here rather
-    than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian 306 times,
-    Agrippinus 28, in 92,000 words.'
+    Augustine''s anti-Donatist works argue with Cyprian''s letters at length. `role: antecedent`,
+    a third relation in the corpus-map schema for exactly this: Cyprian is not a Donatist,
+    so `tradition` would be false; he died fifty years before the schism, so `context` - describing
+    a movement from outside - would be false too. He is the authority both sides argued FROM.
+    The rule the antecedent role carries: an antecedent assignment requires that the entry''s
+    own vendored sources argue from the text. Measured here rather than asserted - Augustine''s
+    On Baptism, Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics)
   author: cyprian
@@ -288,13 +283,13 @@ works:
   confidence: assigned
   note: 'FLAG: the 256 rebaptism council was the Donatists'' standing proof that African tradition
     required rebaptism of those baptized outside the church. Same antecedent-tradition question
-    as the Epistles. Ruled 2026-08-26: `role: antecedent`, a third relation added to the corpus-map
-    schema for exactly this. Cyprian is not a Donatist, so `tradition` was false; he died
-    fifty years before the schism, so `context` - describing a movement from outside - was
-    false too. He is the authority both sides argued FROM. The rule the new role carries:
-    an antecedent assignment requires that the entry''s own vendored sources argue from the
-    text. Measured here rather than asserted - Augustine''s On Baptism, Against the Donatists
-    names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
+    as the Epistles. `role: antecedent`, a third relation in the corpus-map schema for exactly
+    this. Cyprian is not a Donatist, so `tradition` would be false; he died fifty years before
+    the schism, so `context` - describing a movement from outside - would be false too. He
+    is the authority both sides argued FROM. The rule the antecedent role carries: an antecedent
+    assignment requires that the entry''s own vendored sources argue from the text. Measured
+    here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
+    306 times, Agrippinus 28, in 92,000 words.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: 'Sermo Donatistae cujusdam de vexatione Donatistarum temporibus Leontii et Ursatii
     (MS title: De passione sanctorum Donati et Advocati)'
@@ -451,23 +446,15 @@ works:
   locus: whole text
   role: context
   confidence: needs-ruling
-  note: 'Not a claim this staging entry is positioned to argue well — flagged for that world''s
-    own build thread to rule on. CORRECTED 2026-09-09 (lpc Round 28 fix pass, at the project
-    lead''s explicit direction): this note previously stated, on the authority of Source_Registry.md
-    row 44, that the Donatism build''s G3 request for the Mommsen-Meyer edition was "not acquired
-    after five attempts" and that "that build settled for a substitute, Boyd''s 1905 translation
-    of the ecclesiastical edicts." That is no longer true and the clause is withdrawn. Donatism''s
-    own Decision Log records G3 FULLY DISCHARGED on 2026-09-07: the correct text volume (Voluminis
-    I Pars Posterior, archive.org item theodosianilibr01sirmgoog) was located and vendored
-    on that branch as cic/texts/theodosianus-16_mommsen-meyer1905.txt. Boyd remains a valid
-    corroborating secondary source but is no longer that build''s sole primary-text route.
-    This entry''s own earlier claim that Donatism''s corpus-map bucket "does not yet list
-    this work" is withdrawn as self-refuting inside the generated file (Round 29''s own C2):
-    once merged, this assignment IS that bucket''s listing of the work, so the sentence denied
-    itself at the site a reader meets it. It was true of the bucket as it stood before this
-    staging entry was first written. Whether it belongs there as context, antecedent, or something
-    narrower — CTh 16.5/16.6 carry the anti-Donatist and anti-heretic legislation most likely
-    relevant — is a call for that world''s own build thread, not asserted here from outside.
+  note: 'Not a claim this staging entry is positioned to argue well — this is for that world''s
+    own build thread to rule on. Source_Registry.md row 44 names this work as relevant. The
+    correct text volume (Voluminis I Pars Posterior, archive.org item theodosianilibr01sirmgoog)
+    is vendored on the Donatism branch as cic/texts/theodosianus-16_mommsen-meyer1905.txt,
+    and this assignment is that bucket''s own listing of the work. Boyd''s 1905 translation
+    of the ecclesiastical edicts remains a valid corroborating secondary source alongside
+    it. Whether it belongs there as context, antecedent, or something narrower — CTh 16.5/16.6
+    carry the anti-Donatist and anti-heretic legislation most likely relevant — is a call
+    for that world''s own build thread, not asserted here from outside.
 
     '
   source_file: codex-theodosianus_latinlibrary.txt

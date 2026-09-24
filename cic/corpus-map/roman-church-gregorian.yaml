@@ -8,12 +8,9 @@ works:
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: tradition
   confidence: assigned
-  note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register
-    is placed with the entries its correspondence founds or documents'' - roman-church-gregorian
-    (II.18) now exists, so the Register comes home. This row is the TRADITION row: fourteen
-    years of a bishop administering a city, which is this entry''s own voice and nobody else''s.
-    The four entries the letters describe keep their rows, as `context`, which is what they
-    always were.
+  note: 'roman-church-gregorian (II.18) is the Register''s home. This row is the TRADITION
+    row: fourteen years of a bishop administering a city, which is this entry''s own voice
+    and nobody else''s. The four entries the letters describe keep their rows, as `context`.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
@@ -23,12 +20,9 @@ works:
     I-VIII)
   role: tradition
   confidence: assigned
-  note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register
-    is placed with the entries its correspondence founds or documents'' - roman-church-gregorian
-    (II.18) now exists, so the Register comes home. This row is the TRADITION row: fourteen
-    years of a bishop administering a city, which is this entry''s own voice and nobody else''s.
-    The four entries the letters describe keep their rows, as `context`, which is what they
-    always were.
+  note: 'roman-church-gregorian (II.18) is the Register''s home. This row is the TRADITION
+    row: fourteen years of a bishop administering a city, which is this entry''s own voice
+    and nobody else''s. The four entries the letters describe keep their rows, as `context`.
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
@@ -37,11 +31,10 @@ works:
   locus: div2 3.4 — The Book of Pastoral Rule
   role: tradition
   confidence: assigned
-  note: 'RULED 2026-08-27: roman-church-gregorian (II.18, c. 560-604) was minted, and the
-    worker''s objection is answered directly - the Pastoral Rule is an episcopal manual, not
-    a monastic one, and now sits with the episcopate rather than with the monastery. Its enormous
-    later reception (Carolingian legislation, Alfred''s translation) stays noted rather than
-    asserted as assignments.
+  note: 'roman-church-gregorian (II.18, c. 560-604) holds this: the Pastoral Rule is an episcopal
+    manual, not a monastic one, so it sits with the episcopate rather than with the monastery.
+    Its enormous later reception (Carolingian legislation, Alfred''s translation) stays noted
+    rather than asserted as assignments.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
