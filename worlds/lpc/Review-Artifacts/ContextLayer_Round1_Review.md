@@ -60,3 +60,9 @@ Read the L4 template (`reference/L4-Templates/World_Context_Layer_Chunk_Template
 ## Overall verdict
 
 Substantial revision round (per `cic-build-cycle`'s own definition — the two HIGH findings changed a sourcing conclusion and corrected a fabricated-exactness claim). All findings independently re-verified against source before fixing; one (M1) was re-verified and found not to hold, and was left unchanged rather than fixed on the strength of the review's own assertion. The underlying grounding, phase attribution, and voice discipline were confirmed sound throughout — the defects were concentrated in specific, identifiable claims, mostly in a single chunk (lpcctx003), not a wholesale problem with the set's own method.
+
+---
+
+## Targeted recheck (isolated subagent, scoped to the fixes above)
+
+**Verdict: 6 of 8 items PASS outright; 2 items PASS-on-substance with a small defect introduced by the fix pass itself.** All six substantive fixes (H1, H2, M2, M3, M4's two named gaps, M5) independently reconfirmed against their cited primary sources. The M1 non-fix was independently re-derived and agreed with. Two non-substantive defects found, both cross-reference accuracy issues rather than scholarly or fidelity problems: lpcctx002's Confidence Note misidentified which Primary Content paragraph the false-prophetess content sits in ("third" instead of "fifth," since the fix itself had added a new paragraph); and a third, previously-uncaught Related-Chunks reciprocity gap (lpcctx005 lacked a return link to lpcctx003, alongside the two gaps M4 had already fixed). Both corrected in a follow-up commit on the same branch; no scholarly claim, quotation, phase attribution, or voice-discipline finding required any further change. General fabrication/voice/consistency check: clean across all five chunks.
