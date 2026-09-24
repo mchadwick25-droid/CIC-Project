@@ -22,7 +22,7 @@ sources:
 text: >-
   Now concerning the Thanksgiving (Eucharist), thus give thanks. First, concerning the cup: We thank thee, our Father, for the holy vine of David Thy servant, which Thou madest known to us through Jesus Thy Servant; to Thee be the glory for ever.
 modern_rendering: >-
-  Now about the Thanksgiving - the Eucharist. Give thanks this way. First,
+  Now, about the Thanksgiving - the Eucharist - give thanks this way. First,
   over the cup: We thank you, our Father, for the holy vine of David your
   servant, which you made known to us through Jesus your Servant. To you be
   the glory forever.

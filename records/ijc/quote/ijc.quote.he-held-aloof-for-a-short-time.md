@@ -22,11 +22,11 @@ sources:
 text: >-
   ...had held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation.
 modern_rendering: >-
-  ...had held back for a short time. After careful thought about whether he ought to
-  accept this statement of the faith, he finally agreed to it and signed it along with
-  everyone else. He also sent the people in his charge a copy of the Creed. It came with
-  an explanation of the word homoousios, so that no one could question his motives because
-  of his earlier hesitation.
+  He had held back for a short time. After careful thought about whether he
+  ought to accept this statement of the faith, he finally agreed to it and
+  signed it along with everyone else. He also sent the people in his charge a
+  copy of the Creed. It came with an explanation of the word homoousios, so
+  that no one could question his motives because of his earlier hesitation.
 speaker_or_author: Socrates Scholasticus, Ecclesiastical History
 license: verbatim
 modern_lens_note: >-
