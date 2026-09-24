@@ -1247,3 +1247,70 @@ Re-pinned against this fix's own commit
 (`sha256:e4d70c99d7d1056660d420c442c535ffa08b3bbccf5532ed4bbeb29c25039829`).
 Site JSON rebuilt against the same commit. Both staleness checks clean
 fleet-wide.
+
+**Entry 26 — 2026-09-24 (R43 Group B, world 3 of 5: pahc — all 6
+flagged findings re-authored, no full grader disagreements).** hal (PR
+#472) is done and merged. Every flagged finding re-graded 3x unmodified
+before any change, same discipline as desert and hal.
+
+**All 6 were genuine**, each needing 2-3 revision rounds.
+`asia-rejected-new-prophecy`'s first attempted fix over-specified "the
+followers of the New Prophecy" for the original's ambiguous "they" -
+the record's own context (modern_lens_note, retrieve_when) makes that
+referent likely, but unlike hal's `dispute-to-learn` there is no
+explicit body-note verification of the antecedent within the text's
+own reach, so this specification was removed as a genuine
+over-correction rather than kept as a documented disagreement; the
+remaining fix (restoring "for deliberation on this subject" and the
+two distinct expulsion/debarment actions) cleared 3/3 translation after
+a readability split (FK 11.2→9.0). `ignatius-truly-born` had replaced
+"quickening" with an interpretive "giving him life" and lost "by
+Christ Jesus" and "so raise up" from the resurrection parallel;
+restoring "quickening" verbatim (a modern-survivable term, register-
+appropriate to keep rather than translate) and the fuller parallel
+cleared it. `melito-no-phantom` needed the most rounds: one revision
+reintroduced dropped content but over-fixed readability (FK 19.2)
+before a version balancing both gates was found (FK 9.97); it carries
+a documented, previously-established tension - the same pattern don's
+`the-shores-are-covered` showed in R43 Group A - where the grader
+penalizes splitting a subordinate clause even when no content is lost,
+and keeping the clause attached costs the readability ceiling. The
+FK-compliant split is kept; the residual grader complaint (three
+straight "summary" runs on the same single clause-attachment point) is
+disclosed here rather than chased further. `polycrates-to-victor` had
+dropped "scrupulously," the luminaries' resurrection clause, "in
+accordance with the tradition of my relatives," and "the things which
+are said to terrify us" - needing a further round after its own first
+fix scored above the FK ceiling and a second round after that fix
+dropped "Moreover I also" and "For in Asia." `two-female-slaves-who-
+were-called-deaconesses` had compressed the necessity/purpose clause
+and the tie between postponing inquiry and the preceding findings, and
+needed one readability-driven revision (FK 11.97→9.4). `two-ways-one-
+of-life-and-one-of-death` had lost the explicit parallel/reciprocal
+phrasing of the golden rule's negative form ("all things whatsoever
+thou wouldst... thou also to another do not do").
+
+**Gate results.** `gate_readability` (FK ceiling 10): all 6 clean.
+Full `run_all()` (all M1 gates) on pahc: only the pre-existing
+`reciprocity` findings (2, confirmed identical on unmodified main,
+naming a record - `two-female-slaves-who-were-called-deaconesses` - as
+the reciprocal-relation target but not touching that record's own
+content; not this PR's to fix). `pytest engine/m1/tests/
+engine/m2/tests/`: 191 passed, no regressions. No field other than
+`modern_rendering` touched on any of the 6 records, per R33.
+
+**Package pin and site JSON, both rebuilt from the start.** Rebuilt and
+re-pinned once against this PR's own commit
+`882fb275e7905f4d68b21e8e2cd5c66bf2b003bd`. Old
+`packages/pahc/2026-09-23T21-19-18Z`
+(`sha256:fac1498358c0ef5d7577b6bb86263b1741a3d227b875f572b168109e53c2f8af`)
+→ new `packages/pahc/2026-09-24T04-22-27Z`
+(`sha256:7549fb4c6945e92baf28c76db6484bb4f50ae82eae2e993e25ae54f95ca59279`).
+Site JSON (`cic-website/data/worlds/post-apostolic-house-church.json`)
+rebuilt against the same commit. Both
+`engine.m2.checks.staleness_sweep()` and `engine.m2.site_cli
+staleness-check` report clean fleet-wide.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+0 new unresolved path citations; 769 total; 769 accepted in baseline;
+0 retired paths present.
