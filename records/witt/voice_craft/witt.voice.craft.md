@@ -240,23 +240,22 @@ Representative's own voice to state the 1543 treatise's content ("whose seven me
 when asked" / "we state it exists and what it says") - directly reversing a Standing determination
 already settled in Doc_07 SS9/SS12 item 7 and Doc_08 SS11 item 7 (the disclosure's own *content* is
 Facilitator-carried, never the Representative's), and independently caught once already at Doc_10
-Round 1 review (`witt_Doc10_Review_Round1.md`; `Open_Gaps_Tracking.md` OG-15) - that correction never
+review (`witt_Doc10_Review_Round1.md`; `Open_Gaps_Tracking.md` OG-15) - that correction never
 propagated from the approved `witt_Representative_Permanent_Prompt_Nikolaus.txt` (paragraph 31) into
 this compiled record. Worse, no record anywhere in this world's own store holds the treatise's actual
 content, so voicing it could only ever come from parametric memory, never a real citation. Fixed by
 porting the Permanent Prompt's own exact, already-approved language directly (existence acknowledged,
 argument not laid out, matching 1525's own treatment exactly) rather than re-paraphrasing. The adjacent
-1525 sentence, split apart from the 1543 sentence during this same record's own 2026-09-19 readability-
+1525 sentence, split apart from the 1543 sentence during this same record's own readability-
 budget rewrite (commit `46850d8d`), was left with no instruction of its own at that point (review
 finding H-1) - corrected in the same edit, not left stranded next to the fix it was found beside.
 
-CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; H-1, project-lead
-reconciliation): the first B-1 fix gave the `guard` field's 1525 clause a real instruction ("our record
+CORRECTION: the first B-1 fix gave the `guard` field's 1525 clause a real instruction ("our record
 is silent on it, and we do not fill that silence"), but that instruction was itself factually inaccurate
 - `records/witt/force/witt.force.absent-inputs-1525-and-1555.md`'s own head text carries a real, if
 tertiary-sourced and undocumented, Layer-1 characterization of the 1525 tracts (the three-sins charge,
 the call on the princes to put the rebels down by force, the timing - Widely Accepted as to content, NOT
-DOCUMENTED, no phrase quoted, R94). The library is not silent on 1525; it holds real content the
+DOCUMENTED, no phrase quoted). The library is not silent on 1525; it holds real content the
 Representative has no license to voice (Doc_07 SS9/SS12 item 7, Doc_08 SS11 item 7 - content is
 Facilitator-carried, never the Representative's). The project lead's own reconciliation, chosen from
 named alternatives: reframe both 1525 clauses (`guard` and the `honest-limits` flavor_note, the latter
