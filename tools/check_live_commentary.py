@@ -352,6 +352,18 @@ def _is_gaps_ledger(rel: Path) -> bool:
     return len(parts) >= 2 and parts[0] == "worlds" and parts[-1] == "Open_Gaps_Tracking.md"
 
 
+def _is_world_decision_log(rel: Path) -> bool:
+    """worlds/<code>/*_Decision_Log.md is that world's own designated
+    decision-log destination (Live-Surface-Cleanup item 4 rulings) - the
+    legitimate audit-trail home CLAUDE.md's "Keep the live/canonical
+    surfaces clean" rule sends ruling numbers, dates, and reviewer names
+    to, not a construction document leaking them. Scanning it would flag
+    its own required shape as if it were the corruption it exists to
+    hold."""
+    parts = rel.parts
+    return len(parts) >= 2 and parts[0] == "worlds" and parts[-1].endswith("_Decision_Log.md")
+
+
 # Historical content whose own subject matter is a ruling/verdict, not this
 # project's: named explicitly rather than pattern-matched, per the launch
 # brief ("historical content where 'ruling', 'verdict' etc. are the subject
@@ -399,7 +411,13 @@ def is_protected(rel: Path, line_no: int, protected_field_lines: set[int]) -> bo
         return True
     if rel_s in PROTECTED_HISTORICAL_FILES:
         return True
-    if _is_review_doc(rel) or _is_world_build_dir(rel) or _is_gaps_ledger(rel) or _is_engine_report(rel):
+    if (
+        _is_review_doc(rel)
+        or _is_world_build_dir(rel)
+        or _is_gaps_ledger(rel)
+        or _is_world_decision_log(rel)
+        or _is_engine_report(rel)
+    ):
         return True
     if line_no in protected_field_lines:
         return True

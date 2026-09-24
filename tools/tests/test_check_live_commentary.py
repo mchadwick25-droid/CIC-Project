@@ -305,7 +305,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
     ("worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     ("worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
-    ("worlds/syr/CiC_W7_Decision_Log.md", 16, "REWRITE"),
+    # Per-world *_Decision_Log.md is now PROTECTED (Live-Surface-Cleanup
+    # item 4 ruling 2): it is the designated audit-trail destination this
+    # program routes ruling numbers, dates, and reviewer names TO, not a
+    # construction document leaking them - re-labelled from REWRITE once
+    # is_protected() gained _is_world_decision_log().
+    ("worlds/syr/CiC_W7_Decision_Log.md", 16, "PROTECTED"),
     # Hand label ROUTE (genuinely open placement/ruling question, not yet
     # resolved); the tool currently reads this as REWRITE (a false 4-class
     # miss inside the same "needs action" bucket - see the PR body's
@@ -348,7 +353,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # examples, distinct from the 8 above, to keep this table at >=60
     # real, currently-matching lines.
     ("worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
-    ("worlds/hal/hal_Decision_Log.md", 88, "REWRITE"),
+    # Per-world *_Decision_Log.md is now PROTECTED (Live-Surface-Cleanup
+    # item 4 ruling 2) - see the twin note on the syr example above.
+    ("worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
     ("worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
     ("worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
     ("worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
