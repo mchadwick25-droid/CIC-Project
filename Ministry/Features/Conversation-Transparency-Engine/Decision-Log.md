@@ -4844,3 +4844,143 @@ is not 7b.
 merges, as R42 states; the recorded order is not waived.** The
 follow-up starts after 7b merges, as its own item; this entry is the
 only change it makes now.
+
+**Entry 74 — 2026-09-24.** R31 grounding marks: the build (PR 2 of 2),
+to Entry 69's brief as passed, with the rulings that closed its open
+questions.
+
+**Rulings this build rests on.** Mark's choice of Entry 69's own
+options (R31-C): Q1 - a `doctrinal_witness` record is a general
+reference, at the end of the reply, and R10(c)'s witness-at-run-start
+placement is retired for every turn built on per-element placement; Q2 -
+figure names stay inline at the name, like a lexicon term. The reviewer thread, on Entry 69's own §6: Q3 - a story's
+mark sits at the end of its telling, and under streaming is added to
+sentence k when sentence k+1 clears without it, or at turn end, add-only;
+Q4 - a quote mark is exempt from the R17 cap. Q5 (end list open or
+collapsed) is still Mark's; the collapsed list stays until he rules.
+All recorded in Rulings-Pending.md as R31-C.
+
+**Engine.**
+- `engine/m4/transparency_plan.py` replaces sentence-run `anchors` with
+  `sentences` (each net sentence's span in the reply text), `elements`
+  (one per grounded element: quote, story, term, figure, each with its
+  sentence index and in-sentence offsets) and `end_references` (every
+  cited record with no inline element). `references` is unchanged, and
+  so is its completeness invariant.
+- `ElementBuilder` builds the quote and story elements one sentence at a
+  time, add-only; the whole-turn path feeds the same builder, which is
+  what 7b's per-sentence path will call.
+- A story run is now broken by any sentence that does not cite the
+  story (withheld, untagged, or citing something else). The anchor-era
+  runs skipped over uncited sentences; the reviewer's Q3 streaming rule
+  ("added when k+1 clears") needs the run to end at the first sentence
+  without the story, so both paths now agree on that.
+- A quote element sits on the first quotation in its sentence whose
+  words `grounding_net` verifies verbatim in that quote record
+  (`quoted_span_positions`, new, shared with `_quoted_spans`). A quote
+  record cited on a sentence that quotes none of its words has no
+  quoted words to follow; its mark ends the sentence.
+- `term_glosses.find_glosses_used` and `name_bridge.find_figures_used`
+  now return each word's `text_start` - the offset both already
+  computed and then dropped. The plan places word elements from it; the
+  frontend no longer searches for them.
+- An element on a sentence the plan cannot find in the reply text falls
+  back to `end_references` (disclosed, not dropped).
+- `engine/m7/instruments.py`'s `level1_element_density` counts from
+  `elements`; a stored plan with no `elements` is still counted from its
+  anchors.
+
+**Frontend.**
+- `VoiceTurnBody.tsx`: `renderFromElements` replaces the anchor
+  renderer. It places each mark by offset: a quote's ✲ after its
+  closing quotation mark, a story's ✲ after its last sentence, a term
+  or figure mark on the word. One mark per element, never merged.
+  Everything with no inline element, plus anything the R17 cap drops,
+  is listed at the end.
+- R17's cap now counts the engine's own sentences, not a second regex
+  split. Drop order is unchanged (glosses, figures, stories); quote
+  marks never drop.
+- A turn whose plan has no `elements` (a stored transcript) still
+  renders through the legacy renderer.
+- R9's hollow glyph, R10's repeat class and Stage 6b's confidence phrase
+  are unchanged, on every inline mark.
+
+**Change order against Entry 69 §5, named rather than made quietly.**
+The brief said each placeholder would fail a test while unfilled. That
+would hold CI red until Mark writes three pieces of wording, blocking
+the build on a decision that isn't a build decision. Instead:
+`cic-poc/frontend/src/lib/markCopy.ts` holds `QUOTE_CARD_PHRASE` and
+`END_REFERENCES_HEADING` (Entry 69 §5's `R31_QUOTE_CARD_PHRASE` and
+`R31_END_REFERENCES_HEADING`, renamed so no identifier in live code
+carries a ruling number) at the exact wording the app already showed
+in those places before this change, and `pendingMarkWording` names both
+plus the `Arrival.tsx` disclosure line. A test pins each pending value
+to its pre-R31 wording, so no thread-written copy can reach a
+participant. When Mark's words arrive, each value changes and its name
+leaves the list. Until then, a quote card is still titled "Where this
+story comes from", and the Arrival line still says the ✲ comes "after a
+claim". Both are inaccurate now that marks sit inside sentences, and
+both are his to replace.
+
+**Tests.** Engine: `engine/m4/tests/test_transparency_plan.py` is
+rewritten to the element contract (18 tests - exact offsets, the Theon
+shape of a quote and a term on one sentence, story runs and repeats,
+the completeness invariant, witness/gravity/unsaid term at the end,
+stream-versus-whole-turn parity with an add-only check), plus one m7
+test for element counting. Frontend: `VoiceTurnBody.test.tsx` is
+rewritten to the element renderer (16 tests - positions read back as
+text, R9, R10, Stage 6b, R17 with quote exemption, legacy fallback, the
+pending-wording guard).
+
+**Provenance, kept here rather than in code.** The live files this build
+touches (`engine/`, `cic-poc/frontend/`) say only what the code does; the
+managing thread's round-1 verdict on #490 failed an earlier head for
+carrying ruling numbers, entry numbers and attributions in comments,
+docstrings and test names, per CLAUDE.md's "Keep the live/canonical
+surfaces clean". Where each piece of behaviour comes from:
+- one mark per distinct grounded element, placed at that element - R31-A;
+- quote, story and lexicon marks inline, every other cited record at the
+  end of the reply - R31-B;
+- a witness record listed at the end, and R10(c)'s witness-at-run-start
+  placement retired for turns built on per-element placement - R31-C Q1;
+- figure names inline at the name - R31-C Q2;
+- a story's mark at the end of its telling, added when the next sentence
+  clears (`ElementBuilder`) - Q3, the reviewer thread's decision on
+  Entry 69 §6;
+- a quote mark never dropped by the cap - Q4, likewise;
+- marks attach as each sentence clears, and a cap demotion moves a mark
+  to the end list without removing a sentence or claim - R31, with Entry
+  53's Shape B as the streaming design these marks are built for;
+- the repeat and hollow glyphs kept on inline marks - R10 and R9; the
+  confidence phrase on every card - Stage 6b; the cap itself - R17;
+- the quote-and-term-on-one-sentence test fixture - the Theon staging
+  defect (Entry 58).
+
+**A defect the round-2 tests exposed, fixed in the same push.** The
+managing thread's content verdict on #490 asked for Entry 69 §7's two
+missing placement tests: a quote in curly quotation marks, and a
+quotation the splitter re-merged across a stop.
+- The re-merge case already placed correctly; its test pins it.
+- The curly case did not. `engine/prose.py`'s `QUOTE_OPEN`/`QUOTE_CLOSE`
+  knew only straight marks, so a “…” or ‘…’ quotation was never seen as
+  a quotation. The quote's mark fell back to the end of its sentence.
+- The same root cause went further than placement, and predates this
+  PR. The grounding net's verbatim-quote rule never ran on curly-quoted
+  words. A coined quotation in curly marks, tagged to a real quote
+  record, streamed as `ok` whenever it shared a content word with that
+  record. The identical sentence in straight marks is withheld ("quoted
+  span not found verbatim"). Reproduced on alx before the fix.
+- Fixed at the root: both patterns now also accept “ ” ‘ ’. The splitter,
+  the net, and placement all read those shared patterns, so all three
+  now treat curly marks as quotation marks. The one comment line naming
+  which marks the patterns cover is updated to match; no other existing
+  line changed.
+- Effect on live turns: a curly-quoted span now gets the same verbatim
+  check as a straight-quoted one. A coined curly quotation loses its
+  citation (its text stays, as for every withheld sentence).
+- Tests: curly marks hold a sentence together, and a curly apostrophe
+  inside a word opens nothing (`engine/tests/test_prose.py`); a verbatim
+  curly quote passes and a coined one is withheld
+  (`test_grounding_net.py`); curly placement and re-merged placement
+  (`test_transparency_plan.py`). Without the fix, the four curly tests
+  fail; with it, all pass.

@@ -27,8 +27,11 @@
  *
  * `repeat` and `contested` are CSS-only modifiers (app.css
  * .citation-mark--repeat/--contested) - same glyph, same color, same
- * verb, per R9's and R10's own design constraints; see VoiceTurnBody.tsx's
- * renderFromTransparencyPlan for where these are computed.
+ * verb.
+ *
+ * Drawn only by VoiceTurnBody.tsx's legacy renderer (a stored turn whose
+ * plan predates per-element placement). The element renderer lists a
+ * witness record at the end of the reply, not inline.
  */
 import type { SourceCard } from '../types/conversation';
 import { confidencePhrase } from '../lib/confidence';
