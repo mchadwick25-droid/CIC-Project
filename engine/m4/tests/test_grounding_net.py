@@ -80,6 +80,22 @@ def test_coined_quote_under_real_tag_is_withheld():
     assert "not found verbatim" in entry["why"]
 
 
+def test_verbatim_quote_in_curly_marks_passes():
+    text = "As it was sung, “Behold the might of the new song! It has made men out of stones, men out of beasts.” [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
+def test_coined_quote_in_curly_marks_is_withheld():
+    """Curly quotation marks are quotation marks: coined words inside them
+    get the same verbatim check as coined words inside straight ones."""
+    text = "As it was sung, “Behold the wonder of the ancient hymn, made new for us.” [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "withhold"
+    assert "not found verbatim" in entry["why"]
+
+
 def test_quote_with_no_tag_is_withheld_even_if_verbatim():
     text = "As it was sung, 'Behold the might of the new song! It has made men out of stones, men out of beasts.'"
     result = check_turn(text, REPOSITORY)

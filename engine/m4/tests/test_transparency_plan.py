@@ -9,6 +9,7 @@ hoped for out of whatever a live turn happens to produce.
 import json
 
 from engine.m2.compiler import compile_and_hash
+from engine.m4.grounding_net import check_turn_with_paragraph_coverage, strip_tags
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import ElementBuilder, build_transparency_plan
 
@@ -96,6 +97,29 @@ def test_single_quotation_marks_place_the_same_way():
     _text, plan = _plan([(sentence, [QUOTE_ID], "ok")])
     [element] = _of(plan, QUOTE_ID)
     assert element["surface"] == f"'{QUOTED_WORDS}'"
+
+
+def test_curly_quotation_marks_place_the_same_way():
+    sentence = f"He wrote that it was “{QUOTED_WORDS}” and kept to it."
+    _text, plan = _plan([(sentence, [QUOTE_ID], "ok")])
+    [element] = _of(plan, QUOTE_ID)
+    assert element["surface"] == f"“{QUOTED_WORDS}”"
+    assert sentence[element["char_end"]:].startswith(" and kept")
+
+
+def test_a_quotation_the_splitter_re_merged_across_a_stop_is_one_element():
+    """A stop inside the quotation does not end the sentence, so the
+    quote's mark follows the whole quotation, not its first half."""
+    raw = f'Origen spoke. He wrote "{QUOTED_WORDS}. The disciples taught it." and kept to it [[{QUOTE_ID}]]. Then more.'
+    net_result = check_turn_with_paragraph_coverage(raw, REPO)
+    text = strip_tags(raw)
+    citations = [{"sentence": s["sentence"], "record_ids": s["tags"]} for s in net_result["sentences"] if s["verdict"] == "ok" and s["tags"]]
+    plan = build_transparency_plan(citations=citations, net_result=net_result, repository_records=REPO, world_key="alx", text=text)
+    [element] = _of(plan, QUOTE_ID)
+    assert element["surface"] == f'"{QUOTED_WORDS}. The disciples taught it."'
+    span = plan["sentences"][element["sentence_index"]]
+    sentence = text[span["text_start"]:span["text_end"]]
+    assert sentence[element["char_end"]:] == " and kept to it."
 
 
 def test_a_quote_record_whose_words_are_not_quoted_ends_its_sentence():

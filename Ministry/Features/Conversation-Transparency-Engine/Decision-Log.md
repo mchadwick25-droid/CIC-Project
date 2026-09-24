@@ -4955,3 +4955,32 @@ surfaces clean". Where each piece of behaviour comes from:
   confidence phrase on every card - Stage 6b; the cap itself - R17;
 - the quote-and-term-on-one-sentence test fixture - the Theon staging
   defect (Entry 58).
+
+**A defect the round-2 tests exposed, fixed in the same push.** The
+managing thread's content verdict on #490 asked for Entry 69 §7's two
+missing placement tests: a quote in curly quotation marks, and a
+quotation the splitter re-merged across a stop.
+- The re-merge case already placed correctly; its test pins it.
+- The curly case did not. `engine/prose.py`'s `QUOTE_OPEN`/`QUOTE_CLOSE`
+  knew only straight marks, so a “…” or ‘…’ quotation was never seen as
+  a quotation. The quote's mark fell back to the end of its sentence.
+- The same root cause went further than placement, and predates this
+  PR. The grounding net's verbatim-quote rule never ran on curly-quoted
+  words. A coined quotation in curly marks, tagged to a real quote
+  record, streamed as `ok` whenever it shared a content word with that
+  record. The identical sentence in straight marks is withheld ("quoted
+  span not found verbatim"). Reproduced on alx before the fix.
+- Fixed at the root: both patterns now also accept “ ” ‘ ’. The splitter,
+  the net, and placement all read those shared patterns, so all three
+  now treat curly marks as quotation marks. The one comment line naming
+  which marks the patterns cover is updated to match; no other existing
+  line changed.
+- Effect on live turns: a curly-quoted span now gets the same verbatim
+  check as a straight-quoted one. A coined curly quotation loses its
+  citation (its text stays, as for every withheld sentence).
+- Tests: curly marks hold a sentence together, and a curly apostrophe
+  inside a word opens nothing (`engine/tests/test_prose.py`); a verbatim
+  curly quote passes and a coined one is withheld
+  (`test_grounding_net.py`); curly placement and re-merged placement
+  (`test_transparency_plan.py`). Without the fix, the four curly tests
+  fail; with it, all pass.
