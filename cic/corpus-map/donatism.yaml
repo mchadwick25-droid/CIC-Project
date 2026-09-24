@@ -132,6 +132,35 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: On Christian Doctrine, Book III, chs. 30-37 ("The Rules of Tichonius the Donatist
+    Examined")
+  author: augustine
+  locus: div1 5 — Book III, Chapter 30 (v.vi.xxx) through Chapter 37, at file lines ~53014-54200
+  role: context
+  confidence: assigned
+  note: 'Found by don.source.augustine-de-doctrina-christiana-book3 and its near-duplicate
+    don.source.augustine-de-doctrina-christiana-iii (same claim, two separate record ids —
+    worth a housekeeping pass to deduplicate, flagged here, not fixed, since it''s outside
+    a corpus-map assignment''s own scope). Both records confirmed the file''s presence and
+    27 occurrences of "Tichonius" but explicitly left Book III''s own Tyconian-rules content
+    unread, flagging it for "priority second-opinion review before supporting any claim more
+    specific than the influence relationship itself." That review is done here: read directly
+    at the cited locus, not trusted from either record''s own account. Chapter 30 (line 53014)
+    opens "One Tichonius, who, although a Donatist himself, has written most triumphantly
+    against the Donatists... wrote a book which he called the Book of Rules, because in it
+    he laid down seven rules" and names all seven (the Lord and his body; the Lord''s body''s
+    twofold division; the promises and the law; species and genus; times; recapitulation;
+    the devil and his body). Chapters 31-37 each expound one rule in turn with Augustine''s
+    own critical commentary. Genuine, substantial, verified content — not a bare name-check.
+    `role: context`: this is Augustine (the movement''s principal doctrinal opponent, writing
+    as a Catholic bishop) examining a Donatist theologian''s own work from outside — real
+    corroborating evidence for the world''s own note that Tyconius is its "one substantial
+    interpretive theologian," but not itself Donatism''s own primary voice. `confidence: assigned`
+    because, unlike the two source records this draws on, the specific content at this exact
+    locus has now actually been independently read and confirms the claim.
+
+    '
+  source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
 - work: Psalmus contra Partem Donati
   author: augustine
   locus: Pars I, opening item
