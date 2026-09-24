@@ -944,8 +944,8 @@ assignments:
     dialogue on fate and freedom was penned by his disciple Philippus, which the note records
     rather than minting a second slug. Bardaisan''s later condemnation is a fact about him
     the syr world already carries; the work is still Edessene tradition, not outside context.
-    2026-08-26: bardaisanite-current added alongside - the party this work argues with now
-    has an entry of its own.'
+    bardaisanite-current is added alongside, since the party this work argues with now has an
+    entry of its own.'
 - work: A Letter of Mara, Son of Serapion
   author: mara-bar-serapion
   locus: div2 9.17
@@ -967,14 +967,13 @@ assignments:
   confidence: provisional
   note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
     per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
-    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
-    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
-    that survives only in Syriac - the volume''s own headnote says the original was Greek,
-    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
-    to the Greeks. So greek-apologists-second-century is added, which is where the argument
-    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
-    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
-    piece is undated - not because the Syriac half is in doubt.'
+    only where the Syriac transmission preserved it. This is Greek apologetic that survives
+    only in Syriac - the volume''s own headnote says the original was Greek, because the
+    Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse to the
+    Greeks. So greek-apologists-second-century is where the argument belongs, and
+    syriac-edessa-nisibis is kept, which is how it reached us. `provisional` because the
+    APOLOGIST half is a date question - the entry''s window is 124-200 and this piece is
+    undated - not because the Syriac half is in doubt.'
 - work: 'Ambrose: a memorial (hypomnemata) addressed to the Greeks'
   author: ambrose-hypomnemata
   locus: div2 9.18
@@ -984,18 +983,16 @@ assignments:
   confidence: provisional
   note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
     per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
-    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
-    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
-    that survives only in Syriac - the volume''s own headnote says the original was Greek,
-    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
-    to the Greeks. So greek-apologists-second-century is added, which is where the argument
-    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
-    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
-    piece is undated - not because the Syriac half is in doubt. Role ruled 2026-08-26: `transmission`,
-    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
-    preserved a work that is not its own voice. The volume''s own headnote says the original
-    was Greek, because the Syriac mistranslates it in places. Syriac scribes are why it exists
-    at all; the argument in it is not theirs.'
+    only where the Syriac transmission preserved it. This is Greek apologetic that survives
+    only in Syriac - the volume''s own headnote says the original was Greek, because the
+    Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse to the
+    Greeks. So greek-apologists-second-century is where the argument belongs, and
+    syriac-edessa-nisibis is kept, which is how it reached us. `provisional` because the
+    APOLOGIST half is a date question - the entry''s window is 124-200 and this piece is
+    undated - not because the Syriac half is in doubt. The `transmission` role - the fourth
+    relation - marks CUSTODY: this tradition preserved a work that is not its own voice. The
+    volume''s own headnote says the original was Greek, because the Syriac mistranslates it
+    in places. Syriac scribes are why it exists at all; the argument in it is not theirs.'
 - work: Fragments of Quadratus
   author: quadratus
   locus: div2 10.3
@@ -1005,9 +1002,9 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'The earliest apologist (c. 125, to Hadrian); Athens is outside pahc''s named regions
-    but the era and church-world are pahc''s. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+    but the era and church-world are pahc''s. greek-apologists-second-century holds this work
+    for the era''s outward-facing writing; pahc is kept because the era and church-world are
+    genuinely its.'
 - work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
@@ -1019,9 +1016,8 @@ assignments:
   confidence: assigned
   note: 'Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
     from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
-    by the fragments. 2026-08-26: greek-apologists-second-century added alongside - the entry
-    the corpus assignment showed was missing, for the era''s outward-facing writing. pahc
-    is kept: the era and church-world really are its.'
+    by the fragments. greek-apologists-second-century holds this work for the era''s
+    outward-facing writing; pahc is kept because the era and church-world are genuinely its.'
 - work: Fragments of Melito of Sardis
   author: melito-of-sardis
   locus: div2 10.5
@@ -1031,9 +1027,9 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Bishop of Sardis, 2nd-century Asia Minor: apology, Paschal (Quartodeciman) material,
-    the first known Christian OT canon list — core pahc evidence. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+    the first known Christian OT canon list — core pahc evidence. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
 - work: Fragments of Hegesippus
   author: hegesippus
   locus: div2 10.6
@@ -1084,13 +1080,12 @@ assignments:
   role: tradition
   confidence: needs-ruling
   note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
-    Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
-    of this large fragment is itself disputed (it circulates with Methodius'' material), which
-    the notice acknowledges. Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
-    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
-    be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231. STILL `needs-ruling`: the attribution
-    doubt in this note is untouched by a new entry.'
+    Jerusalem entry exists (the Jerusalem entry begins 325); pahc was a stand-in for it.
+    palestinian-church-pre-constantinian (era 1, c. 185-312) fills that hole - the same hole
+    behind several other works in this volume that had been standing in on Alexandria, on the
+    strength of correspondence with Origen, who himself moved to Caesarea around 231. Still
+    `needs-ruling`: the attribution of this large fragment is itself disputed (it circulates
+    with Methodius'' material, per the notice), and that doubt is untouched by the new entry.'
 - work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
@@ -1109,14 +1104,14 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: assigned
-  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding: this same div
-    is headed in the source itself "Claudius Apollinaris, Bishop of Hierapolis, and Apologist,"
-    and states directly that he "addressed his Apology... to M. Antoninus, the emperor" and
-    also wrote Adversus Gentes and De Veritate. The surviving fragment quoted here (via Eusebius,
-    HE v.5) is the Thundering Legion narrative - an apologetic argument that Christian soldiers''
-    prayer, not the emperor''s virtue, brought the rain that saved Marcus Aurelius'' army against
-    the Quadi (174 CE). Distinct from the anti-Montanist material the other two rows at this
-    locus correctly cover; this row captures the apologetic content specifically.
+  note: 'This same div is headed in the source itself "Claudius Apollinaris, Bishop of
+    Hierapolis, and Apologist," and states directly that he "addressed his Apology... to M.
+    Antoninus, the emperor" and also wrote Adversus Gentes and De Veritate. The surviving
+    fragment quoted here (via Eusebius, HE v.5) is the Thundering Legion narrative - an
+    apologetic argument that Christian soldiers'' prayer, not the emperor''s virtue, brought
+    the rain that saved Marcus Aurelius'' army against the Quadi (174 CE). Distinct from the
+    anti-Montanist material the other two rows at this locus cover; this row captures the
+    apologetic content specifically.
 
     '
 - work: Fragments of Claudius Apollinaris
