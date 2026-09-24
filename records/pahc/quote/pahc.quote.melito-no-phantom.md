@@ -3,7 +3,7 @@ id: pahc.quote.melito-no-phantom
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -36,15 +36,17 @@ text: "For there is no need, to persons of intelligence, to attempt to prove, fr
   as regards the flesh, He concealed the signs of His Deity, although He was the true God existing
   before all ages."
 modern_rendering: >-
-  There's no need for a long proof here. Just look at what Christ did
-  after he was baptized. His body and soul were real. He was a real human
-  being, like us - not a trick of the mind. His miracles after his
-  baptism showed the world that God was hidden in his flesh. He was God
-  and a real man at the same time. His miracles in his last three years
-  proved he was God. The thirty years before that proved he was human. In
-  those years he kept his God-nature hidden, because he lived as a
-  humble, ordinary man - even though he was true God from before all time
-  began.
+  For persons of intelligence, there is no need to prove, from what
+  Christ did after his baptism, that his soul and his body, his human
+  nature like ours, were real, and no phantom of the imagination. For
+  the deeds Christ did after his baptism, and especially his miracles,
+  gave indication and assurance to the world of the Deity hidden in his
+  flesh. For, being at once both God and perfect man, he gave us sure
+  indications of his two natures. He showed his Deity by his miracles
+  in the three years after his baptism. He showed his humanity in the
+  thirty similar years before his baptism. In those years, because of
+  his lowly condition in the flesh, he hid the signs of his Deity,
+  though he was true God from before all ages.
 speaker_or_author: "Melito, bishop of Sardis (attributed - see this record's own confidence note on
   how securely)"
 license: verbatim
@@ -59,7 +61,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - "participant asks whether more than one person made this argument about Christ's body being real"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks for settled proof that Melito himself said this - the attribution is contested"
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}

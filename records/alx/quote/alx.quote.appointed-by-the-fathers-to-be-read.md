@@ -3,7 +3,7 @@ id: alx.quote.appointed-by-the-fathers-to-be-read
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   But for greater exactness I add this also, writing of necessity; that there are other books besides these not indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us, and who wish for instruction in the word of godliness. The Wisdom of Solomon, and the Wisdom of Sirach, and Esther, and Judith, and Tobit, and that which is called the Teaching of the Apostles, and the Shepherd.
+modern_rendering: >-
+  For the sake of greater accuracy, I must add this too. There are other
+  books, besides these, that are not included in the Canon. But the
+  Fathers appointed them to be read by newcomers to the faith. These are
+  people who want instruction in godly living. The books are: the Wisdom
+  of Solomon, the Wisdom of Sirach, Esther, Judith, Tobit, the book called
+  the Teaching of the Apostles, and the Shepherd.
 speaker_or_author: Athanasius of Alexandria, Festal Letter XXXIX
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +38,6 @@ retrieval:
   - "participant asks which writings this world treated as scripture"
   - "participant asks how the canon was decided or who decided it"
   - "participant asks about books that did not make it into the Bible"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.apostolic

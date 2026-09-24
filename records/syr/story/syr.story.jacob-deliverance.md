@@ -3,7 +3,7 @@ id: syr.story.jacob-deliverance
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - the Nisibis sieges; Jacob's standing as the city's intercessor
   - how the frontier city remembered surviving
-  do_not_retrieve_when:
+  prefer_instead:
   - any telling that makes Ephrem the miracle-worker (documented misattribution)
   - blending with the Nicaea story (different reliability levels)
 relations:

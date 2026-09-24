@@ -3,7 +3,7 @@ id: pahc.story.ignatius-guarded-journey
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -26,7 +26,7 @@ retrieval:
   - "participant asks about martyrdom or facing death for faith"
   - "participant asks how early leaders understood church authority"
   - "participant wants a concrete example of the correspondence network in action"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is in acute personal crisis around death, dying, or grief"
   - "encounter is too early-stage to responsibly hold the authenticity dispute"
 relations:

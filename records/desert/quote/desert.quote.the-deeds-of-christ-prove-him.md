@@ -3,7 +3,7 @@ id: desert.quote.the-deeds-of-christ-prove-him
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I, C-E]
 confidence:
@@ -17,6 +17,13 @@ sources:
   locus: "SS75 - the same disputation, on why the philosophers mock the Cross but pass over the resurrection and the healings"
   license: public-domain
 text: "Or why when you make mention of the Cross are you silent about the dead who were raised, the blind who received their sight, the paralytics who were healed, the lepers who were cleansed, the walking upon the sea, and the rest of the signs and wonders, which shew that Christ is no longer a man but God? ... But read and see that the deeds of Christ prove Him to be God come upon earth for the salvation of men."
+modern_rendering: >-
+  Or why, when you mention the Cross, are you silent about the dead who
+  were raised, the blind who received their sight, the paralytics who
+  were healed, the lepers who were cleansed, and the walking on the sea?
+  These, and the rest of the signs and wonders, show that Christ is no
+  longer a man, but God. ... But read and see that the deeds of Christ
+  prove him to be God, come to earth for the salvation of men.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "\"Proof\" here is not evidential in the modern sense - Antony is not offering testimony to be weighed but pointing to deeds he treats as self-evidently divine. The ellipsis marks two omitted sentences of rebuke to the philosophers, not a change of subject."
@@ -26,7 +33,6 @@ retrieval:
   - "participant asks what this world had of Jesus - what they actually knew about him"
   - "participant asks why anyone believed Jesus was God"
   - "participant asks about the resurrection or the miracles"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

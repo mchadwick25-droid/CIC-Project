@@ -3,7 +3,7 @@ id: witt.figure.melanchthon
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -14,8 +14,7 @@ confidence:
   divergence_note: Documented as the Augsburg Confession's own drafter, directly attested by the document's
     own title page and preface as read in this library's vendored edition. No vendored source in this
     library supplies any biographical detail about Melanchthon beyond this role - no birth or death date,
-    no personal history, no direct quotation of his own outside the Confession's own institutional voice
-    (Doc_09 witt-S09; Source Registry R37).
+    no personal history, no direct quotation of his own outside the Confession's own institutional voice.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: Title page ("Melanchthon (drafter)") and Preface, addressed to the Emperor at the 1530 Diet of
@@ -26,9 +25,9 @@ retrieval:
   retrieve_when:
   - a participant asks who drafted the Augsburg Confession, or who Melanchthon was
   - a participant asks how the movement's teaching was put into a single institutional document
-  do_not_retrieve_when:
-  - a participant wants a personal biography, a quotation in Melanchthon's own private voice, or any detail
-    this library does not attest - only the Confession's own institutional role is documented here
+claim_guards:
+- a participant wants a personal biography, a quotation in Melanchthon's own private voice, or any detail
+  this library does not attest - only the Confession's own institutional role is documented here
 names:
 - name: Melanchthon
   tag: in-world

@@ -3,7 +3,7 @@ id: alx.term.katechesis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - how someone joined/became a Christian
   - formation process questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.gravity.soul-transformation

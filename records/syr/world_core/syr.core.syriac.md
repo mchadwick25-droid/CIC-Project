@@ -3,7 +3,7 @@ id: syr.core.syriac
 world_id: syriac-edessa-nisibis
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

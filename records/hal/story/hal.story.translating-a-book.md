@@ -3,7 +3,7 @@ id: hal.story.translating-a-book
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - how the translation work was actually done
   - scholarly work as daily labor
-  do_not_retrieve_when:
+  prefer_instead:
   - never as a specific attested episode - this is typical practice, one man's
 relations:
 - type: illustrates

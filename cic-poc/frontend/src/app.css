@@ -8,8 +8,7 @@
  * request/response per turn (see hooks/useConversation.ts).
  */
 :root {
-  /* 2026-09-17 dark-mode change order (supersedes CiC_Full_UX_Design_V1_0.md
-     §2.1's "Dark mode: deferred"). Ground/surface/text/
+  /* Dark mode. Ground/surface/text/
      muted are cic-website's own shipping dark tokens (--ground/--surface/
      --text/--muted), reused verbatim so the app matches the site exactly.
      Every accent below is a lightened, contrast-recomputed variant of its
@@ -18,17 +17,14 @@
      2.12:1 against this ground) all fail WCAG AA as text on a dark ground.
      Every value below is verified >=4.5:1 against both --color-background
      and --color-surface (script-computed, not eyeballed), continuing the
-     same discipline as the 2026-08-28 a11y sweep below. */
+     same discipline as the a11y sweep below. */
   --color-background: #17130F;
   --color-surface: #1E1913;
   --color-text: #F1E9DD;
   --color-text-muted: #B8AEA1;
-  /* 2026-08-28 a11y sweep: was #8A837C - 3.38:1 on the cream background,
-     below AA, and it carried load-bearing copy (the Facilitator's own
-     disclosure turns, the exit button, placeholders, waiting notes).
-     #6C6257 (the muted tone already in this palette) measured 5.39:1 on
-     the light ground; #B8AEA1 (this dark palette's own muted tone)
-     measures 8.45:1 on the new dark ground. */
+  /* #B8AEA1 measures 8.45:1 on the dark ground - well clear of AA, needed
+     since this token carries load-bearing copy (the Facilitator's own
+     disclosure turns, the exit button, placeholders, waiting notes). */
   --color-text-light: #B8AEA1;
 
   /* Dark-safe graphite: reuses cic-website's --control (#A39B92, 6.74:1) -
@@ -484,6 +480,30 @@ button {
   font-family: inherit;
 }
 
+/* A hollow variant of the same glyph for a
+   citation whose record's formation_confidence reads Contested or
+   Inferential-Thin - hollow glyph, no new color, no new verb.
+   Solid still means solidly attested; hollow means worth a second look,
+   not "something is wrong" - quiet, not alarming. Falls back to the same
+   solid mark (never invisible) where -webkit-text-stroke isn't supported. */
+.citation-mark--contested {
+  color: var(--color-tyrian);
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .citation-mark--contested {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--color-tyrian);
+  }
+}
+
+/* The lighter mark for a repeat citation of a
+   record already marked earlier in this turn - same glyph, same color,
+   quieter weight, so it reads as "again," not a fresh disclosure. */
+.citation-mark--repeat {
+  opacity: 0.55;
+}
+
 .turn__sources-card + .turn__sources-card {
   margin-top: 8px;
 }
@@ -541,6 +561,17 @@ button {
   color: var(--color-text-muted);
 }
 
+/* The plain formation_confidence phrase (lib/confidence.ts),
+   set apart from the source lines above by italics rather than a new
+   color - the citation marks' own "no new color/verb" constraint applies
+   here too, even though this isn't the contested mark itself. */
+.story-mark__confidence {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
 /* Original wording of a quote spoken in its modern rendering: the click
    page carries both forms. */
 .story-mark__original {
@@ -580,6 +611,14 @@ button {
 .witness-mark__source {
   margin-top: 2px !important;
   font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+/* Identical treatment to .story-mark__confidence above. */
+.witness-mark__confidence {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
   color: var(--color-text-muted);
 }
 
@@ -647,7 +686,7 @@ button {
 /* A padded hit area on an inline text mark without disturbing the text's
    own layout (CiC_Full_UX_Design_V1_0.md §2.4: "≥44px padded hit area on
    every interactive inline element") - an invisible absolutely-positioned
-   sibling box, sized off the mark's own position:relative, rather than
+   sibling box, sized off the citation mark's position:relative, rather than
    real padding (which would force gaps into the running prose). */
 .name-bridge-mark::after,
 .citation-mark::after {
@@ -681,7 +720,7 @@ button {
   margin: 0;
 }
 
-/* Cross-world transparency audit, 2026-08-26: some worlds' authored
+/* Some worlds' authored
    fields (a story's own tellable_as, a source's own rights_status) run
    many times longer than others', for reasons of content and sourcing
    complexity, not a bug in any one of them - but the same hover card
@@ -895,8 +934,7 @@ button {
 .conversation__error {
   margin: 0 var(--spacing-lg);
   padding: var(--spacing-sm) var(--spacing-md);
-  /* dark-mode change order, 2026-09-17: was #FBEAEA (light pink); this
-     dark red-brown wash keeps --color-error at 5.14:1 on top of it,
+  /* This dark red-brown wash keeps --color-error at 5.14:1 on top of it,
      matching the subtlety of the other washes in this file. */
   background: #2E1A17;
   border: 1px solid var(--color-error);
@@ -1326,7 +1364,7 @@ button {
   cursor: default;
 }
 
-/* Trust package (2026-08-28): the wait has a voice, and no error is a
+/* The wait has a voice, and no error is a
    dead end. */
 .waiting-note {
   font-size: 0.8rem;

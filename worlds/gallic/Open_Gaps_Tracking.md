@@ -11,7 +11,7 @@ review/decision files against roughly 139 total files in this folder, the great 
 are the 81 Lexicon-Chunks and 14 Story-Chunks (content, not process record). This ledger draws only
 on what is genuinely review or decision history: the Doc_01–Doc_10 review/spot-check files, the
 G1/B-9/Phase C scoping notes, the Representative identity and construction records, and
-`records/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section. Where a document's build history could
+`Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section. Where a document's build history could
 not be reconstructed from what is on disk, that is said plainly rather than filled in.
 
 ---
@@ -209,7 +209,7 @@ world.*
   world; makes the Representative freeze-eligible on that gate specifically (the world overall
   remained not freeze-eligible on the separate Article 31 gate — see OG-3). Recorded at
   `gallic_Representative_Construction_Notes_Renatus.md` §6 and its Document Log, and at
-  `records/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section.
+  `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section.
 - **B-8 (first compile), 2026-09-12** — `state: built`, `census_id` deliberately null (post-admission
   work). **B-9, 2026-09-12** — scoped and disposed: contributes nothing beyond B-8, for a first-ever
   build with no prior hand-authored deployment to swap away from, matching Cappadocian's own B-9
@@ -259,7 +259,7 @@ world.*
   against Cappadocian's Chilo, checked against the actual image files.
 - **Census link, content upgrade, tradition page, homepage card, status flip — all 2026-09-13,** each
   on Mark's own explicit word ("yes, start on 1-4"; "yes, flip it"). Full detail in
-  `records/WORLDS_REGISTRY_LOG.md`'s `## gallic` section — `census_id` set, `cic-website` tradition
+  `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s `## gallic` section — `census_id` set, `cic-website` tradition
   page and homepage card built from this build's own grounded records (not invented copy), and the
   fleet's four-entry `ACCEPTED_OPEN` disclosure block for gallic closed outright once every surface
   agreed.
@@ -403,8 +403,22 @@ re-inspection of the current files, not assumed from the commit message alone.
 
 Beyond OG-4, OG-8, and OG-9 above (each already a cross-world/fleet-level finding that names gallic
 by name), no further portfolio-level audit reviewed in the course of building this ledger named
-gallic or "the Monk-Bishops of Gaul" specifically. `records/WORLDS_REGISTRY_LOG.md`'s own `## gallic`
+gallic or "the Monk-Bishops of Gaul" specifically. `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic`
 section is the fleet's authoritative quick-reference for this world's post-approval history and was
 read in full to build the Representative build log and the open-items list above; it states plainly
 that "everything about this world's own build is tracked in" this world's own documents, matching
 this ledger's own discipline of not duplicating content that already lives at its own source.
+
+---
+
+**Reconciliation note, 2026-09-22 (live→main merge).** `live` had independently
+created its own `Open_Gaps_Tracking.md` for this world on 2026-09-19, unaware
+of this file's own history above (`main` and `live` had diverged since
+2026-09-20). Its one entry, found during the `world_front` migration pass, is
+appended below as OG-10, renumbered on merge — `live`'s own numbering (1)
+restarted from zero against a file this world's real OG-1 through OG-9
+already existed.
+
+### OG-10. **No canon cell in this world's own build has both a `demonstration` record and a `doctrinal_witness` record — unlike all three prior `world_front` builds.** `narrative.questions` (the `world_front` schema's `{cell, demonstration, cite}` field) is built in every prior world by pairing a demonstration and a doctrinal_witness that share the same canon cell: desert paired C-E and C-I, syriac paired C-I and F3-I, cappadocian paired C-I and C-T. A direct check of this world's own record set found no such pair anywhere: this world's nine `demonstration` records were all built for F-cells (F1-T, F1-I, F2-E, F3-I, F3-P, F4-P, F5-I, F6-I, and F6-P twice), while its four `doctrinal_witness` records were all built for C-cells plus one F-cell with no matching demonstration (C-I, C-P, C-T, F3-E). Cross-checking every demo cell against every dw cell returns zero shared cells. **Not fixed here, and out of this pass's own scope:** the `world_front` record (`records/gallic/world_front/gallic.front.gallic-monastic-ascetic-christianity.md`) leaves `narrative.questions` empty rather than either (a) pairing a demonstration and doctrinal_witness on different cells, which would misrepresent to a participant what the paired "cell" actually covers, given the field's own established fleet convention, or (b) authoring a new demonstration record for a C-cell, which is Doc_08/Doc_09 content this pass has no mandate to add. This is most likely a real gap in this world's own Doc_08 (Forces) / Doc_09 (Story Inventory) build — no demonstration record was ever written for any C-cell (Christ/Trinity) — rather than something specific to the `world_front` migration. Whoever next touches this world's Doc_08/Doc_09 material should decide, as an actual build-cycle decision, whether a C-cell demonstration is worth adding; until then, this world's `world_front` record correctly ships without a `narrative.questions` section rather than papering over the gap.
+
+### OG-11. **One corpus-map placement question touching gallic, surfaced by the Live-Surface-Cleanup pass on `cic/corpus-map/`, 2026-09-24 — not resolved here.** That pass found a `_staging/` note carrying an open editorial question, and moved it to `worlds/_cross-world/NEEDS-RULING.md`'s own "Placement questions surfaced by the Live-Surface-Cleanup pass" section per that pass's own PR (see `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md`, Entry 3): *The Institutes of John Cassian* (`npnf211`) currently carries three atlas_ids — `desert-monasticism` (the primary home), gallic, and `early-benedictine-italian-monasticism` (both reception homes that postdate Cassian, written c. 420 for Gallic monasteries and commended by the Rule of Benedict ch. 73). Whether strict era fit should trim the two reception entries, leaving only desert, is open. Full text in `NEEDS-RULING.md`; not decided here.

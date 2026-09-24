@@ -3,7 +3,7 @@ id: syr.source.diatessaron-arabic-harmony
 world_id: syriac-edessa-nisibis
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Dominant Modern Reconstruction
   divergence_note: null
 sources: []
-author: Tatian (composed c. 172 CE); the vendored text is an English rendering of the Arabic recension
+author: Tatian (composed c. 172 CE); the surviving text is an English rendering of the Arabic recension
 work: The Diatessaron of Tatian - the single continuous-narrative Gospel harmony that served as this world's
   standard Gospel text until the early fifth century
 edition: trans. Hope W. Hogg from the Arabic (Ciasca's 1888 text), ANF vol. 9 (1896); vendored as cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml

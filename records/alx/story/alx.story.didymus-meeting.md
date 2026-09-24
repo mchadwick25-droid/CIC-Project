@@ -3,7 +3,7 @@ id: alx.story.didymus-meeting
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - disability, limitation, and formation
   - the late-horizon school
-  do_not_retrieve_when: []
 narrative_tier: 1
 narrative_tier_justification: 'Tier 1 (documented historical narrative) for the meeting itself: Palladius''s
   eyewitness testimony (''I met him four times in all''); the biographical details are what Didymus himself

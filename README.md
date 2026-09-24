@@ -49,13 +49,13 @@ of promotion. See "How things move" for the promotion path.
 
 | entry | what it is |
 |---|---|
-| `Ministry/` | decisions, features, funding, communication, organization, scholarly review, audits. `Ministry/Operations/Standing/` holds the standing tracking documents; `Ministry/Operations/Audits/` the dated one-off analyses and the move ledger; `Ministry/Features/<name>/` each in-development feature |
+| `Ministry/` | decisions, features, funding, communication, organization, scholarly review, audits. `Ministry/Operations/Standing/` holds the standing tracking documents, including the fleet-wide world registry's own decision history (`WORLDS_REGISTRY_LOG.md`, moved out of `records/` 2026-09-24 — CLAUDE.md's "Keep the live/canonical surfaces clean"); `Ministry/Operations/Audits/` the dated one-off analyses and the move ledger; `Ministry/Features/<name>/` each in-development feature |
 
 ## History
 
 | entry | what it is |
 |---|---|
-| `Archive/` | everything superseded, by category and date: former versions, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, superseded housekeeping. Nothing here is current; nothing here is deleted without instruction |
+| `Archive/` | everything superseded, by category and date: former versions, the Ministry-Early-Days-2026-07 strategy drafts, the Syriac-Build stratum of 2026-07, the Pass2 voice-rebuild evidence of 2026-08, the Tour-Experience-Module-Phase2, superseded housekeeping. Nothing here is current; nothing here is deleted without instruction |
 
 ## How a world is named
 

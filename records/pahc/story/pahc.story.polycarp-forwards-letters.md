@@ -3,7 +3,7 @@ id: pahc.story.polycarp-forwards-letters
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks for a small, concrete example of how the correspondence network functioned"
   - "participant asks about Polycarp specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs the fuller, higher-stakes correspondence story - use Story 001 or 002 instead"
 relations:
 - type: associated-with

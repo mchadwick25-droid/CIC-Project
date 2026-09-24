@@ -3,7 +3,7 @@ id: gallic.story.the-three-lentil-beans
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -35,7 +35,7 @@ retrieval:
   - participant uses "rules," "discipline," "penance," "property," "stewardship"
   - conversation reaches the interior road at the level of a lentil, or penance and satisfaction, and needs its story
   - Representative needs the south's own picture of accountability for things
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about Marmoutier's common property (a different, northern, descriptive text - retrieve gallic.term.monastery-coenobium)
   - participant wants the sanction of suspension from prayer as doctrine (retrieve gallic.term.communion, gallic.term.penance-satisfaction)
   - participant is asking about Egypt's own practice for its own sake - this is Eastern coenobitic custom carried here because Gaul was told to keep it, and the origin must be disclosed

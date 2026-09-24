@@ -3,7 +3,7 @@ id: syr.quote.aphrahat-stone-foundation
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they thought faith was built on"
   - "participant asks how a teacher explained the whole structure of belief to ordinary people"
-  do_not_retrieve_when: []
 ---
 Verified verbatim against the vendored npnf213 text (Demonstration I.2). The faith-and-works house teaching's cornerstone line.
 

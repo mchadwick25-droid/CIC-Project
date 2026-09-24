@@ -3,7 +3,7 @@ id: witt.term.sacrament
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -41,7 +41,7 @@ retrieval:
   - sacrament, in general
   - how many sacraments we count, and why
   - what makes something a sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means one specific sacrament's own content (retrieve baptism, or Sacrament of the
     Altar, or confession/absolution)
 relations:
@@ -99,6 +99,6 @@ senses:
 quick_meaning: God's promise joined to a visible sign. Two or three, never seven. Useless without faith.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 5.1 (sacrament, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none -- both voices. Source Registry rows cited: R3, R9, R12, R25, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.1 (sacrament, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

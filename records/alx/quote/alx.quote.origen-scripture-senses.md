@@ -3,7 +3,7 @@ id: alx.quote.origen-scripture-senses
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -23,6 +23,9 @@ sources:
   license: public-domain
 text: As man consists of body, soul, and spirit, so too does Scripture which has been granted by God for
   the salvation of men.
+modern_rendering: >-
+  Just as a human being consists of body, soul, and spirit, so too does
+  Scripture. It too was given by God, for the salvation of humankind.
 speaker_or_author: alx.figure.origen
 license: verbatim
 modern_lens_note: >
@@ -35,7 +38,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they read scripture and what they looked for in it"
   - "participant asks whether they read a text literally or found other meanings beneath it"
-  do_not_retrieve_when: []
 ---
 The multi-sense reading doctrine in the GREEK-derived transmission (the
 Philocalia), preferred over the Rufinus-mediated ANF text per the

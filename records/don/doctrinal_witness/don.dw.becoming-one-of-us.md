@@ -3,7 +3,7 @@ id: don.dw.becoming-one-of-us
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -65,7 +65,6 @@ retrieval:
   - participant asks whether joining us was ever forced rather than chosen
   - participant asks how wrongdoing in the community was handled and whether someone could come back
   - participant asks about our prayer, our fasting, or the meal we shared
-  do_not_retrieve_when: []
 text: >-
   Walk it through. You come to us from the other communion, and we put
   you in the water. That is the step, and everything else follows from

@@ -3,7 +3,7 @@ id: syr.quote.on-a-certain-day-a-pearl
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -39,7 +39,6 @@ retrieval:
   - "participant asks how this world read its scriptures or what it looked for in them"
   - "participant asks whether Genesis or scripture was read as science or as history"
   - "participant asks why this world taught in poetry and images rather than argument"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.reading

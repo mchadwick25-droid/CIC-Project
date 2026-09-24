@@ -3,7 +3,7 @@ id: witt.contested.household-catechism-reception
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -34,7 +34,7 @@ sources:
     other pole of the reception debate (Source Registry row 71)'
   license: public-domain
 - source_id: witt.source.james-successes-and-failures-in-the-german
-  locus: 'Citation details (journal, volume, year, pages) independently confirmed by a Round 1 reviewer from
+  locus: 'Citation details (journal, volume, year, pages) independently confirmed from
     prior knowledge; the article itself not read. Named by the census as a critic of Strauss (Source Registry
     row 72)'
   license: public-domain
@@ -72,7 +72,7 @@ held_against:
   None of the four secondary works this contest turns on has been read by this build. Strauss, Scribner, and
   Karant-Nunn are Source Registry rows verified only by a search of published reviews and catalogue records,
   at confidence B, existence and publication details only; Kittelson's article is cited from prior knowledge,
-  its citation details independently confirmed by a Round 1 reviewer but the article's own argument not read
+  its citation details independently confirmed but the article's own argument not read
   (Source Registry rows 70-73). The contest is real and rowed, unlike the two Doc_06 [CT] tags this world
   otherwise carries - but rowed is not read, and nothing here has checked either side's own argument against
   the visitation evidence directly.
@@ -118,8 +118,8 @@ language forward.
 
 This is, on the evidence, the best-evidenced of this batch's four claims by one real measure and the
 weakest by another, and both are stated rather than smoothed over. It is the only one of the four resting on
-scholarly sources that are actually rowed in the Source Registry with names, dates, and publication facts
-(R70-R73), rather than on in-text tension (the two [CT] tags) or an existence-only search hit (the
+scholarly sources that are actually rowed in the Source Registry with names, dates, and publication facts,
+rather than on in-text tension (the two [CT] tags) or an existence-only search hit (the
 door-posting's Iserloh row) - a materially sturdier footing for calling it a live scholarly contest at all.
 It is also the one furthest from anything this library can check directly: all four secondary works remain
 unread, and the primary evidence they argue about - the visitation protocols - is not vendored in any form,

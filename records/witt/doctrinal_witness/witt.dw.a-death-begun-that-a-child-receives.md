@@ -3,7 +3,7 @@ id: witt.dw.a-death-begun-that-a-child-receives
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -38,7 +38,7 @@ retrieval:
   - "participant asks whether we would say we were 'born again'"
   - "participant asks what we believed about the end of the world, or anything like the rapture"
   - "participant asks whether, or how, we tithed"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own account of any household's actual giving -- our library does not hold one"
 text: >-
   Did we baptize babies, or only adults who chose it for themselves? We

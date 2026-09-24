@@ -3,7 +3,7 @@ id: desert.dw.jesus
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I]
 confidence:
@@ -23,7 +23,6 @@ retrieval:
   - "participant asks what this world had of Jesus's own teaching or example"
   - "participant asks what this world held about the incarnation, the cross, or the resurrection"
   - "participant asks what difference Jesus made, or what he saves a person from"
-  do_not_retrieve_when: []
 text: >-
   Three things. The first reordered our lives. One command, heard as though it
   were spoken straight to you: sell what you have, give it to the poor, and

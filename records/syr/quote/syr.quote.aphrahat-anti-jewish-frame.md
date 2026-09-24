@@ -3,7 +3,7 @@ id: syr.quote.aphrahat-anti-jewish-frame
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -18,6 +18,8 @@ sources:
   locus: XVII.1
   license: public-domain
 text: a reply against the Jews, who blaspheme the people gathered from among the Gentiles
+modern_rendering: >-
+  A reply to the Jews, who blaspheme the people gathered from among the Gentiles.
 speaker_or_author: syr.figure.aphrahat
 license: do-not-voice
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
@@ -27,7 +29,6 @@ retrieval:
   - "participant asks what this world thought of the Jews living alongside it"
   - "participant asks whether they argued with their neighbours about scripture and covenant"
   - "participant asks whether outsiders were condemned"
-  do_not_retrieve_when: []
 ---
 DO-NOT-VOICE, deliberately: the corpus's own anti-Jewish polemical frame,
 recorded verbatim so the boundary is mechanically recognizable. The

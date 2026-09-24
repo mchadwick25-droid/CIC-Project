@@ -3,7 +3,7 @@ id: syr.dw.gospel-harmony
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   What we actually had about Jesus was the Gospel woven into one
   continuous story: the harmony our churches read in worship - the Ewangeliyon

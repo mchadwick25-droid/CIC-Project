@@ -3,7 +3,7 @@ id: pahc.quote.they-appointed-the-first-fruits
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -22,7 +22,7 @@ sources:
     First Epistle to the Corinthians, ch. XLII, in the ANF translation (anf01_apostolic-fathers-justin-irenaeus.xml)
   license: public-domain
 text: >-
-  And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe. Nor was this any new thing, since indeed many ages before it was written concerning bishops and deacons. For thus saith the Scripture in a certain place, \"I will appoint their bishops in righteousness, and their deacons in faith.\"
+  And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe. Nor was this any new thing, since indeed many ages before it was written concerning bishops and deacons. For thus saith the Scripture in a certain place, "I will appoint their bishops in righteousness, and their deacons in faith."
 modern_rendering: >-
   So they preached through countries and cities. And they appointed their
   first converts, after testing them by the Spirit, to be bishops and deacons
@@ -39,7 +39,6 @@ retrieval:
   - "participant asks how this world used its scriptures in an argument"
   - "participant asks whether the writings were quoted accurately"
   - "participant asks how leaders came to be appointed"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.scripture-and-testimony
@@ -64,6 +63,10 @@ writes bishops in the plural for one city, and pahc.quote.jesus-christ-our-god
 has Ignatius binding a congregation to THE bishop, singular. Two records
 opened the same day, from the same corpus, that do not agree about how a
 church is governed. Neither is corrected toward the other.
+
+Quote-verbatim gate fix (2026-09-22): removed a stray literal backslash before each quote mark
+around the Isaiah citation (a YAML folded-scalar authoring bug, not a real source character) and
+matched the source's actual quote marks. No wording changed.
 
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
 

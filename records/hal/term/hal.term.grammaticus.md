@@ -3,7 +3,7 @@ id: hal.term.grammaticus
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - Jerome's education and what made the scholarship possible
   - children's schooling and classical training
-  do_not_retrieve_when: []
 plain_meaning: The Roman grammar-school stage of training in Latin language and literature. Jerome
   trained under the famous grammarian Donatus.
 world_word: grammaticus

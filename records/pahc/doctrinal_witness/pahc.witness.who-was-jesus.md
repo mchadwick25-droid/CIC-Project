@@ -3,7 +3,7 @@ id: pahc.witness.who-was-jesus
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - "participant asks who Jesus was to this world's own communities"
   - "participant asks what this world believed happened to Jesus"
-  do_not_retrieve_when:
+  prefer_instead:
   - "a modern systematic Christology question with no connection to this period"
 relations: []
 positions:

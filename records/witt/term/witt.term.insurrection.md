@@ -3,7 +3,7 @@ id: witt.term.insurrection
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -34,7 +34,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - insurrection, or 'the common man,' specifically in 1522
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks about the 1525 Peasants' War tract itself -- its own wording is not in our library
     and is not ours to voice
 relations:
@@ -73,6 +73,6 @@ senses:
 quick_meaning: 'Our 1522 stance: sympathy for real grievance, but a refusal of violence.'
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 7.4 (insurrection / 'the common man' (1522 only), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: Luther-only, cross-register, period-bound to 1521-22 -- confirmed. Source Registry rows cited: R11, R15, R19, R48. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 7.4 (insurrection / 'the common man' (1522 only), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT][PV]. Author Gravity: Luther-only, cross-register, period-bound to 1521-22 -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

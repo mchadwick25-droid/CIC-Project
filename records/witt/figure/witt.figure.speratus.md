@@ -3,7 +3,7 @@ id: witt.figure.speratus
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -16,7 +16,7 @@ confidence:
     for everything else: the window anecdote itself is Tier 3, related rather than documented, and - on
     this record''s own direct re-reading of the vendored text - does not actually name Speratus as the
     anecdote''s own wanderer; only the hymn is his. No biographical detail about Speratus survives in
-    this library beyond his authorship of the hymns themselves (Doc_09 witt-S10; Source Registry R66).'
+    this library beyond his authorship of the hymns themselves.'
 sources:
 - source_id: witt.source.leonard-introduction-to-the-hymns-of-martin
   locus: Bacon's own bibliographic note naming "not less than three" of the 1524 hymn-book's four hymns
@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - a participant asks who wrote the hymn sung under Luther's window
   - a participant asks about the authors of Wittenberg's first hymn-book beyond Luther himself
-  do_not_retrieve_when:
+  prefer_instead:
   - claiming Speratus himself was physically present, singing under Luther's window - the vendored text
     names only an unnamed wanderer as the singer, Speratus only as the hymn's author
   - narrating any biographical detail about Speratus beyond his authorship of these hymns - none is attested

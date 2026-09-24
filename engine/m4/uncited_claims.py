@@ -1,0 +1,539 @@
+"""The uncited-claims rule: every declarative claim
+sentence in a voice turn must carry a citation, or be one of a short,
+closed allowed-uncited list. Report-only in this build - writes an audit
+event, never withholds or edits text (same
+"reports, never edits" discipline engine.m4.output_check already rests
+on); enforcement is a later, separately-ruled, flag-gated PR.
+
+Runs on engine.m4.grounding_net.check_turn's own per-sentence output
+(net_result["sentences"]) rather than a second sentence-splitter - two
+independent splitters risking disagreement is a real correctness class of
+bug this avoids by construction, the same "one implementation, owned
+once" discipline engine.prose.claim_markers already follows.
+
+A sentence is only skipped as genuinely cited when verdict == "ok" AND
+it carries tags (the same "substantive_survives" idiom grounding_net.py
+itself uses). A withheld sentence (verdict != "ok") still had tags
+going in, but engine.m4.turn.apply_net's own strip_tags removes them
+from what the participant actually reads regardless of verdict - the
+sentence's own text is NOT dropped (Program-Spec M4/Artifact-5 SS2/SS5:
+"the checks gate decoration, never the text" - a corrected claim: an
+earlier revision of this docstring said a withheld sentence never
+reaches the participant at all, which apply_net's own text does not
+do). So a withheld sentence reads exactly like an untagged one by the
+time it's on screen, and is examined here the same way - not skipped.
+
+The three allowed-uncited kinds reuse real, already fleet-calibrated
+vocabulary rather than invented heuristics: engine.prose.SCAFFOLD_MARKERS
+and SELF_NAMING_MARKER are the exact phrases
+engine.m4.grounding_net.verdict_for_sentence already treats as honest-
+limit/self-naming scaffolding, calibrated against 17 real live turns per
+that module's own docstring.
+
+claim_markers cannot be this module's own overall gate - verified
+directly, not assumed: it returns nothing for
+"Even a broken priest could not block his grace." (one of the
+honest-limit rule's own two motivating sentences), because claim_markers
+was built for a narrower job with the opposite polarity (empty means
+skip it; the uncited-claims rule means the
+opposite - every declarative sentence needs a citation unless it's one
+of the three kinds below). claim_markers is reused only inside kind 3
+below, where its real, documented meaning ("no checkable claim") is
+exactly the question being asked.
+"""
+import re
+
+from engine.prose import SCAFFOLD_MARKERS, SELF_NAMING_MARKER, claim_markers, quote_aware_sentences
+
+# The honest-limit rule's own fixed sentence, the literal directive text
+# wired into the other_tradition first-ask path
+# (engine.m4.turn._other_tradition_directive) - the voice is TOLD to say
+# these words, so an exact (case-insensitive) match is the right bar
+# here, not a guess.
+R26_HONEST_LIMIT_SENTENCE = "our record doesn't mention that christian tradition"
+
+# The fleet's own real honest-limit forms a live battery's offense list
+# actually showed - "How it ended among us is not in our record.",
+# "Here is the honest limit.", "No rule of ours survives that explains the
+# difference." - a closed list local to this rule's own detection, deliberately
+# NOT added to engine.prose.SCAFFOLD_MARKERS: that vocabulary also feeds
+# engine.m4.grounding_net.verdict_for_sentence's own withhold/ok decision
+# fleet-wide, and widening it would change more than this check's own
+# exemption. Fixed phrases, no model call, same discipline SCAFFOLD_MARKERS
+# already sets.
+_RECORD_ABSENCE_PHRASES = (
+    "not in our record",
+    "our record does not",
+    "our record is silent",
+    "the honest limit",
+)
+# "survives"/"reached us" negations - a record-
+# absence claim doesn't always use one of the fixed phrases above ("No
+# rule of ours survives that explains the difference." names nothing
+# absent by the word "record" at all). A short-window regex, not a second
+# model call: a negator and survives/reached-us within the same clause,
+# so a genuine citable claim ("The letter survives in three copies.",
+# no negator) is untouched.
+_RECORD_ABSENCE_NEGATION = re.compile(
+    r"\b(no|none|nothing|not|never)\b[^.!?]{0,40}\b(survives?|survived|reached us|reaches us)\b"
+)
+
+_FIRST_PERSON_OPENERS = {
+    "i", "i'd", "i've", "i'll", "i'm",
+    "we", "we'd", "we've", "we'll", "we're",
+    "my", "our",
+}
+# The opener-only check below misses a conditional
+# offer whose MAIN clause is first-person - "If you name the conflict you
+# mean, I will tell you plainly..." opens with "If", not "I". A fixed,
+# closed set of clause markers, checked anywhere in the sentence rather
+# than sentence-initial only; claim_markers(sentence) is still the real
+# guard against exempting a sentence that also happens to contain one of
+# these words while making a real claim elsewhere in it.
+_FIRST_PERSON_CLAUSE_MARKERS = ("i will", "i can", "we will", "we can")
+
+_WORD = re.compile(r"[A-Za-z']+")
+
+
+def _is_question(sentence: str) -> bool:
+    return sentence.rstrip(" \t\"'”’)]").endswith("?")
+
+
+def _is_honest_limit(sentence_lower: str) -> bool:
+    if R26_HONEST_LIMIT_SENTENCE in sentence_lower:
+        return True
+    if SELF_NAMING_MARKER in sentence_lower:
+        return True
+    if any(marker in sentence_lower for marker in SCAFFOLD_MARKERS):
+        return True
+    if any(phrase in sentence_lower for phrase in _RECORD_ABSENCE_PHRASES):
+        return True
+    return bool(_RECORD_ABSENCE_NEGATION.search(sentence_lower))
+
+
+def _is_first_person_no_claim(sentence: str) -> bool:
+    words = _WORD.findall(sentence)
+    starts_first_person = bool(words) and words[0].lower() in _FIRST_PERSON_OPENERS
+    lower = sentence.lower()
+    has_first_person_clause = any(marker in lower for marker in _FIRST_PERSON_CLAUSE_MARKERS)
+    if not starts_first_person and not has_first_person_clause:
+        return False
+    return not claim_markers(sentence)
+
+
+def find_uncited_claims(sentences: list[dict]) -> list[dict]:
+    """sentences: engine.m4.grounding_net.check_turn(...)["sentences"],
+    each {"sentence": str, "tags": list[str], "verdict": str, "why": ...}.
+
+    Returns a list of {"sentence": str, "class": "uncited_claim"} - one
+    per declarative claim sentence carrying no citation and matching none
+    of the three allowed-uncited kinds (a question, an honest-limit
+    sentence, or first-person framing making no claim), in sentence
+    order. Callers that know more context - a known-tradition name list,
+    whether this turn was routed via other_tradition - may refine
+    "uncited_claim" into "neighbour_named" or
+    "own_doctrine_in_other_tradition_turn" via classify_neighbour_named/
+    classify_other_tradition_turn below; this function stays pure,
+    sentences in, offenses out, no registry or routing knowledge of its
+    own."""
+    offenses = []
+    for sent in sentences:
+        # Genuinely cited only when verdict == "ok" AND it carries tags -
+        # the same "substantive_survives" idiom grounding_net.py itself
+        # uses (check_turn/check_turn_with_paragraph_coverage). A
+        # withheld sentence (verdict != "ok") still had tags going in,
+        # but apply_net's own strip_tags removes them from what the
+        # participant actually reads regardless of verdict - so it reads
+        # exactly like an untagged sentence
+        # and is examined the same way here, not skipped.
+        if sent["verdict"] == "ok" and sent["tags"]:
+            continue
+        text = sent["sentence"]
+        if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
+            continue
+        offenses.append({"sentence": text, "class": "uncited_claim"})
+    return offenses
+
+
+def classify_neighbour_named(offense: dict, known_tradition_names: list[str]) -> dict:
+    """Upgrades a base "uncited_claim" offense to "neighbour_named" when
+    its own sentence names another admitted world's own card_name or
+    representative name. The caller supplies that list - built from the
+    registry, the same source engine.api.table_wiring._labels and
+    engine.m4.facilitator_turns.table_door_turn already draw theirs from -
+    since this module has no registry access of its own."""
+    lower = offense["sentence"].lower()
+    if any(name.lower() in lower for name in known_tradition_names):
+        return {**offense, "class": "neighbour_named"}
+    return offense
+
+
+# As first built, this upgrade fired on EVERY base
+# uncited_claim inside an other_tradition turn unconditionally - 24/24 in
+# a real run's own live data, which under a per-sentence hard failure would
+# fail nearly every other_tradition turn on its own narrative frame, the
+# exact over-flagging problem this exists to stop. Narrowed: a
+# sentence is own_doctrine_in_other_tradition_turn only when it ALSO
+# appears in failing_paragraph_sentences - the set find_uncited_paragraphs
+# below already flagged as a real paragraph-level failure (wholly
+# uncited, or its own inherited check failed). A frame sentence whose
+# paragraph the net actually grounds is not upgraded, even inside an
+# other_tradition turn - the honest-limit rule was never "tag every sentence," it was
+# "don't assert what this world's own records don't hold," and a
+# paragraph-grounded frame sentence is not that.
+def classify_other_tradition_turn(offense: dict, *, is_other_tradition_turn: bool, failing_paragraph_sentences: set[str]) -> dict:
+    """Upgrades a base "uncited_claim" offense to
+    "own_doctrine_in_other_tradition_turn" when the whole turn was routed
+    via the other_tradition out-of-scope classification
+    (engine.m5.routing.PRESSABLE_CLASSES, RoutingDecision.
+    out_of_scope_class) - routing context the caller already has
+    (engine.m5.failure.resolve_gate's own result), not something this
+    module re-derives - AND that same sentence is a real paragraph-level
+    failure per find_uncited_paragraphs (module docstring above)."""
+    if is_other_tradition_turn and offense["class"] == "uncited_claim" and offense["sentence"] in failing_paragraph_sentences:
+        return {**offense, "class": "own_doctrine_in_other_tradition_turn"}
+    return offense
+
+
+# A paragraph-level offense
+# list, additive and separate from find_uncited_claims's own sentence-
+# level offenses above (which stays exactly as it is). paragraph_check is
+# engine.m4.grounding_net.check_turn_with_paragraph_coverage's own whole
+# result - "sentences" and "paragraph_coverage" are read from the SAME
+# call, so a paragraph's own sentence_count partitions "sentences" back
+# into groups with no risk of drift against a second, independently-
+# computed sentence list.
+#
+# Two failure kinds, reported with distinct classes so a battery can
+# count them separately:
+#   "wholly_uncited_paragraph" - every sentence in the paragraph carries
+#     no citation anywhere in it, and at least one of its sentences is a
+#     real, non-exempt claim - the same three allowed-uncited kinds
+#     find_uncited_claims already exempts (a question, an honest-limit
+#     sentence, first-person framing with no claim), reused here via the
+#     identical checks, not reinvented.
+#   "inherited_ungrounded" - the sentence carries no tag of its own, its
+#     paragraph (or, for a one-sentence paragraph, the paragraph
+#     immediately before it) DOES carry a
+#     citation, but the inherited check against that citation's own
+#     records still fails - a sentence the paragraph's own evidence
+#     cannot actually support, not merely one riding along uncited.
+def find_uncited_paragraphs(paragraph_check: dict) -> list[dict]:
+    sentences = paragraph_check.get("sentences") or []
+    offenses = []
+    index = 0
+    for para in paragraph_check.get("paragraph_coverage") or []:
+        para_sentences = sentences[index : index + para["sentence_count"]]
+        index += para["sentence_count"]
+        if para["wholly_uncited"]:
+            for sent in para_sentences:
+                if sent["verdict"] != "ok":
+                    continue
+                text = sent["sentence"]
+                if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
+                    continue
+                offenses.append({"sentence": text, "class": "wholly_uncited_paragraph"})
+        else:
+            for i, sent in enumerate(para_sentences):
+                if sent["verdict"] != "ok" or sent["tags"]:
+                    continue
+                text = sent["sentence"]
+                # A hand review of live output
+                # found this branch catching sentences the wholly_uncited
+                # branch above already exempts - a literal question, the
+                # honest-limit rule's own fixed sentence itself, a
+                # first-person no-claim line - because this branch never
+                # applied the same three checks. A sentence's own shape
+                # doesn't change depending on whether its paragraph happens
+                # to carry a citation elsewhere; the exemption has to be the
+                # same question asked in both branches, or the inherited
+                # check ends up flagging text this rule itself was never
+                # meant to catch.
+                if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
+                    continue
+                inherited = para["inherited_verdicts"].get(i)
+                if inherited is not None and inherited["verdict"] == "withhold":
+                    offenses.append({"sentence": text, "class": "inherited_ungrounded"})
+    return offenses
+
+
+# known_tradition_names read card_name only - a real gap a live report
+# itself surfaced, twice: the battery's own other-tradition probe named
+# "the Donatists" (a demonym, what a voice's own prose actually says),
+# never don's own card_name "The Church of the Martyrs", so
+# classify_neighbour_named had nothing in its own name list to match
+# against. A closed, deterministic derivation - two suffix rules, no
+# model call, no per-world lookup table:
+#   -ism  -> stem+"ist", stem+"ist"+"s"   ("Donatism" -> "Donatist"/"Donatists")
+#   -ian  -> stem+"ia"                     ("Alexandrian" -> "Alexandria";
+#                                            the "-ian" adjective form itself
+#                                            is already present verbatim in
+#                                            display_name/card_name, so it
+#                                            needs no separate derivation)
+# Applied to the first word of a name (where an English demonym actually
+# attaches - "Alexandrian Christianity"'s own demonym is carried by
+# "Alexandrian", not "Christianity"), not the whole multi-word string.
+def _demonym_forms(name: str) -> set[str]:
+    first_word = (name.split() or [""])[0].lower()
+    forms = set()
+    if first_word.endswith("ism"):
+        stem = first_word[: -len("ism")]
+        forms.add(stem + "ist")
+        forms.add(stem + "ist" + "s")
+    if first_word.endswith("ian"):
+        forms.add(first_word[: -len("ian")] + "ia")
+    return forms
+
+
+def _names_for_world(entry: dict, *, include_representative: bool = True) -> list[str]:
+    """One world's own card_name, representative name, display_name,
+    world_id (hyphens read as spaces - "alexandria-catechetical" ->
+    "alexandria catechetical" - a voice's own prose would never emit the
+    raw hyphenated id, but the words inside it are real candidate names),
+    and each of those names' own closed demonym derivation
+    (_demonym_forms). Factored out of known_tradition_names (below) so
+    the false-fixed-sentence fix (match_named_tradition/
+    world_records_mention_tradition) can derive the identical name list
+    for ONE world without re-deriving the fleet-wide flat list and
+    filtering it back down - one name-derivation, two real callers.
+
+    include_representative=False drops the Representative's own personal
+    name, for world_records_mention_tradition alone: a Representative's
+    name is a person's name, and another world's records can name a
+    different, real person who shares it - desert's own desert.story.
+    sarapion-anthropomorphite names Theophilus, the 4th-century bishop
+    of Alexandria, and rzg's 16th-century Representative is also named
+    Theophilus. Counted as a name of the TRADITION, that matched desert's
+    records to the Reformed Cities and handed desert's voice "your own
+    records already speak to it" on a tradition that arose eleven
+    centuries after its window closed (found by the tradition-pivot rule's
+    own build battery's own C-later-tradition probe,
+    engine/m4/reports/r37_build_battery.py).
+    A participant or another seat saying a Representative's name does
+    refer to that seat, so every other caller keeps it."""
+    names = []
+    if card_name := entry.get("card_name"):
+        names.append(card_name)
+        names.extend(_demonym_forms(card_name))
+    if include_representative and (rep_name := (entry.get("representative") or {}).get("name")):
+        names.append(rep_name)
+    if display_name := entry.get("display_name"):
+        names.append(display_name)
+        names.extend(_demonym_forms(display_name))
+    if world_id := entry.get("world_id"):
+        names.append(world_id.replace("-", " "))
+    return names
+
+
+def known_tradition_names(registry: dict, *, exclude_world_key: str) -> list[str]:
+    """Every OTHER formation world's own names (_names_for_world) - straight
+    from the registry, no package/frame load needed, so this is cheap
+    enough to call every turn. Excludes the speaking world itself: naming
+    your OWN tradition is not the honest-limit rule's violation shape."""
+    names = []
+    for key, entry in registry.items():
+        if key == exclude_world_key or entry.get("kind") != "formation":
+            continue
+        names.extend(_names_for_world(entry))
+    return names
+
+
+# A real fix: _other_tradition_directive's own honest-limit sentence
+# ("Our record doesn't mention that
+# Christian tradition.") fires unconditionally on ANY other_tradition
+# routing, regardless of whether the SPEAKING world's own records already
+# name the tradition asked about - false for ijc on Donatism, whose own
+# records (ijc.quote.compelled-to-come-in, ijc.story.emperor-builds-
+# another-basilica) genuinely do. These two functions are the fix's own
+# detection half; engine.m4.turn._other_tradition_directive (the
+# participant-facing text) is the other half - no new words there, only
+# a condition around the existing ones, since the honest-limit rule
+# already named the exception ("unless they would have known the sources from
+# another in reality") and only the mechanism was missing.
+def match_named_tradition(text: str, registry: dict, *, exclude_world_key: str) -> str | None:
+    """Which OTHER formation world's own name is present in `text`, if
+    any - the reverse of classify_neighbour_named (that function checks
+    whether a GENERATED sentence names a neighbour; this checks whether
+    the PARTICIPANT's own message does) and returns WHICH world_key
+    matched (registry iteration order; first match wins) rather than a
+    flat combined list, so a caller can look up that ONE world's own
+    records specifically. Scoped to the 11 fleet formation worlds' own
+    registry names only, same as every other honest-limit/uncited-claims
+    name-matching mechanism - a non-fleet historical group ("the Arians") matches
+    nothing here, and the caller falls back to the unconditional honest-
+    limit sentence for exactly that case, which is correct: there is no
+    registry world to check a mention of "the Arians" against."""
+    lower = text.lower()
+    for key, entry in registry.items():
+        if key == exclude_world_key or entry.get("kind") != "formation":
+            continue
+        if any(name.lower() in lower for name in _names_for_world(entry) if name):
+            return key
+    return None
+
+
+# The same restricted prose-field allowlist the tradition-pivot rule's
+# own design brief already proved necessary: a first
+# attempt against engine.prose.all_text (which reaches into a record's
+# own sources[].locus strings) produced a false positive there - a
+# vendored source filename carrying an unrelated name as a substring, not
+# real prose. Kept identical here rather than re-derived, since the two
+# call sites need to agree on what counts as "this world's own records
+# really say this," not merely both avoid the SAME already-found bug by
+# coincidence.
+_TRADITION_EVIDENCE_PROSE_KEYS = {
+    "text", "statement", "claim", "absent_detail", "plain_meaning", "quick_meaning",
+    "bridge_line", "why_sources_cannot_answer", "positions", "tensions", "modern_lens_note",
+}
+
+
+def _prose_text_for_evidence_scan(rec: dict) -> str:
+    parts: list[str] = []
+
+    def walk(value, key=None):
+        if isinstance(value, str):
+            if key in _TRADITION_EVIDENCE_PROSE_KEYS:
+                parts.append(value)
+        elif isinstance(value, dict):
+            for k, v in value.items():
+                walk(v, k)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item, key)
+
+    walk(rec)
+    return " ".join(parts)
+
+
+def world_records_mention_tradition(repository_records: dict[str, dict], named_world_entry: dict) -> list[str]:
+    """Record ids in THIS (speaking) world's own package whose real prose
+    text already names the OTHER, named world (named_world_entry, the
+    registry entry match_named_tradition resolved to) - sorted, so the
+    caller's own directive text is deterministic across a call with the
+    same inputs. Empty list means genuinely no textual evidence, the
+    honest-limit sentence's own true case. The tradition's own names
+    only, never its Representative's personal name - see _names_for_
+    world's include_representative."""
+    names = [n for n in _names_for_world(named_world_entry, include_representative=False) if n]
+    if not names:
+        return []
+    lowered = [n.lower() for n in names]
+    return sorted(
+        rid for rid, rec in repository_records.items()
+        if any(n in _prose_text_for_evidence_scan(rec).lower() for n in lowered)
+    )
+
+
+
+# The tradition-pivot rule: a Representative may use knowledge of a
+# named-but-uncovered tradition to choose which part of its own record
+# to answer from only when (a) it would have known of that tradition in
+# its own time, or (b) the Facilitator, the participant, or another
+# Representative revealed it in this conversation - and then only what
+# was actually said. These two functions are the detection half of both
+# conditions; engine.m4.turn._other_tradition_directive is the other.
+def tradition_known_in_window(speaking_entry: dict, named_entry: dict) -> bool:
+    """The tradition-pivot rule's condition (a), under its asymmetric
+    reading: the named tradition's own time_window start is at or before the speaking
+    world's own time_window end. A tradition that arose before or during
+    the speaking world's window is inside what it could have known; only
+    one that had not yet arisen by the window's end is outside. Derived
+    from the registry's existing time_window fields, never stored twice.
+    A missing time_window on either side is False - nothing establishes
+    the knowledge, so the question's own words stay the only licence."""
+    speaking_window = speaking_entry.get("time_window") or {}
+    named_window = named_entry.get("time_window") or {}
+    if speaking_window.get("end") is None or named_window.get("start") is None:
+        return False
+    return named_window["start"] <= speaking_window["end"]
+
+
+# Enough to carry every revelation a real conversation makes about one
+# tradition, bounded so a long session cannot grow the directive without
+# limit. The most recent lines are kept: dropping older ones only narrows
+# what the voice may lean on, never widens it.
+MAX_REVEALED_EXCERPTS = 8
+
+
+def conversation_revealed_excerpts(
+    transcript: list[dict],
+    named_entry: dict,
+    *,
+    speaking_world_key: str,
+    labels: dict[str, str] | None = None,
+) -> list[tuple[str, str]]:
+    """The tradition-pivot rule's condition (b), widened by its third
+    source: every sentence said in this
+    conversation - in the Facilitator's introduction, by the participant,
+    or by another Representative - that names the tradition asked about,
+    as (who said it, the exact sentence). Verbatim, never paraphrased:
+    the rule is "limited only to what was told to them in the
+    conversation."
+
+    Of the Facilitator's turns, only the introduction counts - kind
+    "door", the interview's DOOR and the Table's TABLE_DOOR (engine.m4.
+    facilitator_turns). The ruling names "the facilitators
+    introduction", not every Facilitator turn: a threshold, bridge,
+    safety, correction or close turn is not a revelation this ruling
+    licenses.
+
+    The speaking voice's own earlier turns are excluded - what a voice
+    said itself is not something it was told. transcript must not hold
+    the current question: the question's own words are the baseline
+    every other_tradition turn already has, not a revelation (the
+    interview's own state.transcript is projected before the current
+    participant_message is appended; the Table's caller drops it).
+    labels maps a seat's world_key to its spoken label; a speaker
+    missing from it reads as its raw key."""
+    names = [n.lower() for n in _names_for_world(named_entry) if n]
+    if not names:
+        return []
+    excerpts: list[tuple[str, str]] = []
+    for entry in transcript:
+        speaker = entry.get("speaker")
+        if speaker is None or speaker == speaking_world_key:
+            continue
+        if speaker == "facilitator":
+            if entry.get("kind") != "door":
+                continue
+            who = "The Facilitator"
+        elif speaker == "participant":
+            who = "The participant"
+        else:
+            who = (labels or {}).get(speaker, speaker)
+        for sentence in quote_aware_sentences(entry.get("text") or ""):
+            if any(n in sentence.lower() for n in names) and (who, sentence) not in excerpts:
+                excerpts.append((who, sentence))
+    return excerpts[-MAX_REVEALED_EXCERPTS:]
+
+
+def build_uncited_claims_event(voice_event: dict, *, registry: dict, is_other_tradition_turn: bool) -> dict | None:
+    """The full pipeline from a turn.py voice_event's own two additive
+    fields - "uncited_claims" (base "uncited_claim" offenses, sentence-
+    level, unchanged) and "paragraph_offenses"
+    (find_uncited_paragraphs's own already-computed output
+    - turn.py computes it, not this function, the same "compute the base
+    list where the raw check result already is, refine it here where the
+    registry is" split "uncited_claims" already uses) - to the persisted
+    uncited_claims event's payload. "offenses" stays exactly the shape it
+    always was; "paragraph_offenses" rides beside it, added later
+    ("the uncited_claims event gains a paragraph-level
+    shape... while the existing offenses list stays"). Returns None only
+    when BOTH are empty - the clean case, and by far the common one - so
+    callers can skip validate()/store.append() outright rather than
+    persisting an empty event every turn."""
+    offenses = voice_event.get("uncited_claims") or []
+    paragraph_offenses = voice_event.get("paragraph_offenses") or []
+    if not offenses and not paragraph_offenses:
+        return None
+    names = known_tradition_names(registry, exclude_world_key=voice_event["speaker"])
+    failing_paragraph_sentences = {o["sentence"] for o in paragraph_offenses}
+    refined_offenses = [
+        classify_other_tradition_turn(
+            classify_neighbour_named(offense, names),
+            is_other_tradition_turn=is_other_tradition_turn,
+            failing_paragraph_sentences=failing_paragraph_sentences,
+        )
+        for offense in offenses
+    ]
+    return {"speaker": voice_event["speaker"], "offenses": refined_offenses, "paragraph_offenses": paragraph_offenses}

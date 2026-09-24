@@ -3,7 +3,7 @@ id: ijc.quote.the-reading-of-all-the-documents
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -35,7 +35,6 @@ retrieval:
   - "participant asks how much of this world's account would survive scholarly checking"
   - "participant asks whether the record is legend written up long afterwards"
   - "participant asks how disputes here were actually settled, and on what evidence"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.record-under-question

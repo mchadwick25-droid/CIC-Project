@@ -3,7 +3,7 @@ id: hal.figure.eustochium
 world_id: hieronymian-ascetic-literary
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -34,7 +34,7 @@ dates:
   born: 'c. 368 (modern reconstruction from Ep. 22''s address to her as a young virgin
     in 384)'
   died: '418, 419, or 420 - contested across a three-year window depending on the
-    reference consulted; never resolved to a single year in this record set'
+    reference consulted; never resolved to a single year here'
   floruit: 'Rome until 385 (consecrated virgin from youth, the addressee of Ep. 22);
     Bethlehem 386-death; head of the women''s community after Paula''s death in 404'
 narratable: true

@@ -3,7 +3,7 @@ id: ijc.story.vision-and-alliance
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -24,7 +24,7 @@ retrieval:
   - how this world's alliance with imperial power began
   - Constantine's conversion
   - the Milvian Bridge or the Edict of Milan
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks specifically about Lactantius's differently-detailed account (the dream story instead, or both together if the divergence itself is the question)
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}

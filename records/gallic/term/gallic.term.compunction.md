@@ -3,7 +3,7 @@ id: gallic.term.compunction
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -36,7 +36,7 @@ retrieval:
   - why tears were valued, or whether growing holier meant feeling worse
   - participant uses "compunction," "guilt," "remorse," "conscience," "tears," or "contrition"
   - Serapion's sobs, "From the fear of the Lord arises salutary compunction," Institutes XII.15, or the angel's word to Martin after the Ithacian communion
-  do_not_retrieve_when:
+  prefer_instead:
   - the public discipline for a fault (retrieve penance / satisfaction)
   - the emotional ascent as a whole (retrieve fear -> hope -> love)
   - modern guilt or shame as pathology

@@ -86,6 +86,25 @@
 # Scheduled WITH persistence, not after it: retention/TTL and the
 # deletion_requested writer (audit move 6) - persistence without
 # retention converts data LOSS into unbounded GROWTH.
+#
+# Backups (Tech-Readiness Package 2, 2026-09-21 -
+# Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md). The disk
+# above is the only copy of events.db/usage.db until this is set up - a
+# 1GB Render Disk is not itself a backup target (it IS the primary; a
+# backup that lives beside what it backs up protects against nothing).
+# engine/api/db_backup.py runs a daily in-process online backup (same
+# in-process-daily-thread pattern as engine/m7/scheduler.py and
+# engine/m4/idle_close.py, for the same reason: a Render Cron Job or
+# one-off Job cannot reach a disk already attached to this service) and
+# uploads to a SEPARATE Cloudflare R2 bucket from CIC_API_PACKAGE_BUCKET
+# above - these backups carry real participant transcripts and usage
+# records, a different sensitivity class from compiled world packages,
+# so they get their own credential rather than widening the package
+# bucket's own blast radius. sync: false, unset until Mark completes the
+# runbook's one-time bucket setup; until then the daily thread backs up
+# locally, verifies, and discards without uploading (logged, not fatal -
+# same deferred-until-configured pattern CIC_API_PACKAGE_BUCKET already
+# uses above).
 services:
   - type: web
     name: cic-engine
@@ -142,6 +161,19 @@ services:
       # accidentally ship a guessable one.
       - key: CIC_API_ADMIN_TOKEN
         sync: false
+      # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
+      # 2026-09-21 - engine/api/anon_cap.py). Declared here, explicitly
+      # off, rather than left unset entirely: this is the escalation this
+      # package raised (mechanism/numbers proposed, not yet decided by
+      # Mark - see that package's Report.md), so the switch should have a
+      # visible, reviewable home in config-as-code once he decides, not a
+      # dashboard-only toggle nobody else can see the state of. Flipping
+      # to "1" also requires setting CIC_API_ANON_VISITOR_SECRET below (any
+      # random string) - the app refuses to start otherwise.
+      - key: CIC_API_ANON_CAP_ENABLED
+        value: "0"
+      - key: CIC_API_ANON_VISITOR_SECRET
+        sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
         value: /data/packages-cache
       - key: CIC_API_PACKAGE_BUCKET
@@ -151,6 +183,17 @@ services:
       - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
         sync: false
       - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
+        sync: false
+      # DB backups (see this file's top-of-file note) - own bucket, own
+      # credential, never CIC_API_PACKAGE_BUCKET*'s. Unset until Mark
+      # completes CiC_Backup_Restore_Runbook.md's one-time setup.
+      - key: CIC_API_BACKUP_BUCKET
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY
         sync: false
 
   # STAGING (D3, phase 3, 2026-09-15). Deploys every push to `main` -
@@ -202,6 +245,11 @@ services:
         sync: false
       - key: CIC_API_ADMIN_TOKEN
         sync: false
+      # Same feature, own secret - see cic-engine's own comment above.
+      - key: CIC_API_ANON_CAP_ENABLED
+        value: "0"
+      - key: CIC_API_ANON_VISITOR_SECRET
+        sync: false
       - key: CIC_API_PACKAGE_CACHE_DIR
         value: /data/packages-cache
       # Same bucket as cic-engine (see this file's own top-of-file note) -
@@ -217,4 +265,19 @@ services:
       - key: CIC_API_PACKAGE_BUCKET_ACCESS_KEY_ID
         sync: false
       - key: CIC_API_PACKAGE_BUCKET_SECRET_ACCESS_KEY
+        sync: false
+      # DB backups - own bucket, distinct from BOTH cic-engine's backup
+      # bucket AND this service's own CIC_API_PACKAGE_BUCKET above, unlike
+      # the package bucket's sharing above: staging's events.db is
+      # synthetic verification traffic, never a real participant
+      # transcript, and has no legitimate reason to read or write into
+      # prod's own backup history - same "own credentials, own scope"
+      # reasoning this service's AWS keys already follow, applied here.
+      - key: CIC_API_BACKUP_BUCKET
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ENDPOINT
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_ACCESS_KEY_ID
+        sync: false
+      - key: CIC_API_BACKUP_BUCKET_SECRET_ACCESS_KEY
         sync: false

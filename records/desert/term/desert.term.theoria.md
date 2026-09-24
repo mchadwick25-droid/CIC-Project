@@ -3,7 +3,7 @@ id: desert.term.theoria
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I]
 confidence:
@@ -23,7 +23,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - questions about contemplation or the higher reaches of prayer
-  do_not_retrieve_when:
+  prefer_instead:
   - questions about ordinary daily prayer across the movement - the Psalter, not this term, is that answer
 relations:
 - type: associated-with

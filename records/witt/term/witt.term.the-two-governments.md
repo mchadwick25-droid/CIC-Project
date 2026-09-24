@@ -3,7 +3,7 @@ id: witt.term.the-two-governments
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -41,7 +41,7 @@ retrieval:
   - the two governments, or 'two kingdoms'
   - why we would not force reform with the sword
   - the prince's own role among us
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a modern political-theology reading of 'two kingdoms' -- we characterize no
     present-day tradition's use of the term
 relations:
@@ -111,7 +111,7 @@ senses:
 quick_meaning: 'God''s two rules: the Word governs Christians, the sword restrains evil. Never confused.'
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 7.1 (the two governments, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT][CT]. Author Gravity: none -- both voices. Source Registry rows cited: R15, R20, R29, R34, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 7.1 (the two governments, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][TC][DR][RT][CT]. Author Gravity: none -- both voices. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 CT status carried from Doc_06 SS2.2: contest type historical scope -- whether the later systematic label 'two kingdoms doctrine' applies as broadly to our founder's own usage as claimed. No secondary source is rowed in the Source Registry; Doc_06 names leads for the Registry owner (Cargill Thompson's 1969 article; Wright's 2010 study) but cites neither as a source.
 

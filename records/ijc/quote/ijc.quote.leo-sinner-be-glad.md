@@ -3,7 +3,7 @@ id: ijc.quote.leo-sinner-be-glad
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they preached to ordinary people at a feast"
   - "participant asks what was said to someone who felt they did not belong"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.limit.jesus-to-you}
 ---

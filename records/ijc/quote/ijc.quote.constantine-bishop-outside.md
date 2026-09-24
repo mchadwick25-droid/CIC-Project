@@ -3,7 +3,7 @@ id: ijc.quote.constantine-bishop-outside
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'You are bishops whose jurisdiction is within the Church: I also am a bishop, ordained by God to
   overlook whatever is external to the Church.'
+modern_rendering: >-
+  You are bishops whose authority lies within the Church. I too am a bishop, appointed by
+  God to oversee whatever lies outside the Church.
 speaker_or_author: ijc.figure.constantine
 license: verbatim
 modern_lens_note: >-
@@ -30,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks what role the emperor claimed in the church"
   - "participant asks whether a ruler could call himself a kind of bishop"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---

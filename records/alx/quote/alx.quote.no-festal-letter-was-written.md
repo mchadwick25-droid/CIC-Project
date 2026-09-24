@@ -3,7 +3,7 @@ id: alx.quote.no-festal-letter-was-written
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Then Georgius entered on the thirtieth of Mechir, and acted with excessive violence. But Athanasius, the Bishop, had fled, and was sought for in the city with much oppression, many being in danger on this account. Therefore no Festal Letter was written
+modern_rendering: >-
+  Then George entered the city on the thirtieth of Mechir and acted with
+  excessive violence. But Athanasius the Bishop had fled and was hunted for
+  in the city with much oppression; many people were put in danger because
+  of it. Therefore no Festal Letter was written.
 speaker_or_author: the Festal Index of the Alexandrian church, year XXIX (356-7)
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   - "participant asks whether the empire changed the church once it became Christian"
   - "participant asks whether Christians were ever in hiding, and from whom"
   - "participant asks what a Christian emperor did to bishops who disagreed"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.empire

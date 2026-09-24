@@ -3,7 +3,7 @@ id: hal.dw.sin-grace
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -51,7 +51,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether you baptised babies, infants or children, or only adults"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.let-her-be-brought-up-in-a-monastery

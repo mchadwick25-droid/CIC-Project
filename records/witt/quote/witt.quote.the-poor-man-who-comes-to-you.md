@@ -3,7 +3,7 @@ id: witt.quote.the-poor-man-who-comes-to-you
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -24,7 +24,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks how we looked at money and poverty, or whether we would call anyone among us rich"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants our own account of a specific rich or poor person -- our library names no individual by wealth"
 text: >-
   But beware of this: When the poor man comes to you (of whom there are

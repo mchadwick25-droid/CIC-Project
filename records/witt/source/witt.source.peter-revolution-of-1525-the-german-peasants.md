@@ -3,7 +3,7 @@ id: witt.source.peter-revolution-of-1525-the-german-peasants
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -24,4 +24,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 77; WebSearch; 2
 external_ids:
   witt_source_registry_row: 77
 ---
-The Dominant Modern Reconstruction of the Peasants' War, against which R19 and R48 are read. (Source Registry row 77; Confidence B.)
+The Dominant Modern Reconstruction of the Peasants' War. (Source Registry row 77; Confidence B.)

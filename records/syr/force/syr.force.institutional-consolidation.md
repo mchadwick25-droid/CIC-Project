@@ -3,7 +3,7 @@ id: syr.force.institutional-consolidation
 world_id: syriac-edessa-nisibis
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I

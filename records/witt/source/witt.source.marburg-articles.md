@@ -3,7 +3,7 @@ id: witt.source.marburg-articles
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -26,4 +26,4 @@ discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source
 external_ids:
   witt_source_registry_row: 56
 ---
-Doc_01 open item 1 / §7: a partly-native primary document — the fourteen agreed articles and the fifteenth's stated Eucharistic disagreement, as a text this world's own leaders (Luther, Melanchthon, Jonas, Osiander, Agricola, Brenz among the signatories) put their names to. Named absence and acquisition lead until read; when read, licensed for the Lutheran position and the break as the signed text states them, never for Zwingli's or Oecolampadius's position beyond the signed wording — the Reformed side's own account is R57 (Excluded). Not a context-marked row: it is not an opponent text this world answered, and Revision 0's marker mis-licensed it (Round 1 S9). (Source Registry row 56; Confidence B.)
+a partly-native primary document — the fourteen agreed articles and the fifteenth's stated Eucharistic disagreement, as a text this world's own leaders (Luther, Melanchthon, Jonas, Osiander, Agricola, Brenz among the signatories) put their names to. Named absence and acquisition lead until read; when read, licensed for the Lutheran position and the break as the signed text states them, never for Zwingli's or Oecolampadius's position beyond the signed wording — the Reformed side's own account is R57 (Excluded). Not a context-marked row: it is not an opponent text this world answered, and Revision 0's marker mis-licensed it. (Source Registry row 56; Confidence B.)

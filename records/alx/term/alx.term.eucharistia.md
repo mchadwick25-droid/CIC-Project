@@ -3,7 +3,7 @@ id: alx.term.eucharistia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - worship/meal questions
   - transubstantiation translational questions
-  do_not_retrieve_when: []
 plain_meaning: 'The thanksgiving: the shared meal of bread and cup at the heart of the community''s worship.'
 world_word: eucharistia
 false_friend:

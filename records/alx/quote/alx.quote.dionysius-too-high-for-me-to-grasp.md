@@ -3,7 +3,7 @@ id: alx.quote.dionysius-too-high-for-me-to-grasp
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -21,6 +21,15 @@ sources:
   license: public-domain
 text: >-
   But I could not venture to reject the book, as many brethren hold it in high esteem. But I suppose that it is beyond my comprehension, and that there is a certain concealed and more wonderful meaning in every part. For if I do not understand I suspect that a deeper sense lies beneath the words. I do not measure and judge them by my own reason, but leaving the more to faith I regard them as too high for me to grasp. And I do not reject what I cannot comprehend, but rather wonder because I do not understand it.
+modern_rendering: >-
+  But I could not bring myself to reject the book, since many of our people
+  hold it in high regard. I suppose, instead, that it is beyond my
+  understanding, and that there is a hidden and more wonderful meaning in
+  every part of it. When I do not understand something, I suspect a deeper
+  sense lies beneath the words. I do not measure and judge them by my own
+  reasoning; instead, I leave the greater part to faith, and I regard them
+  as too high for me to grasp. I do not reject what I cannot comprehend - I
+  marvel at it all the more, precisely because I do not understand it.
 speaker_or_author: Dionysius of Alexandria, quoted at Eusebius, Church History VII.25
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +40,6 @@ retrieval:
   - "participant asks whether this world examined its own texts critically or only received them"
   - "participant asks how a disputed book was judged and by what standard"
   - "participant asks whether anyone questioned authorship before modern scholarship"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.record

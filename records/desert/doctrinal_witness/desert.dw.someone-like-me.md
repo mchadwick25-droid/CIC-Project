@@ -3,7 +3,7 @@ id: desert.dw.someone-like-me
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-P]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether someone like them - with a shameful past, or nothing to recommend them - would have had a place in this world"
   - "participant asks whether a genuinely bad past (violence, crime) was disqualifying"
-  do_not_retrieve_when: []
 text: "We remember a man named Moses who had been a robber and, by report, a murderer before he came to us - a man other people were afraid of. He was received, and in time he became one of the most trusted and honored among us. His struggle with his old habits was long and real, not erased in a moment. But he was not turned away for what he had been. We also remember Paul, an old man, simple and without guile. He was thought too old for this life and refused at the door at first. He was received all the same, tested, and found to have a perfect soul. If you are asking whether someone like you would have had a place among us - with a past you are ashamed of, or nothing special to recommend you - the answer is yes. That is not the exception in what we remember. It is close to the rule."
 positions:
 - "a genuinely violent past (robbery, killing) was not treated as disqualifying"

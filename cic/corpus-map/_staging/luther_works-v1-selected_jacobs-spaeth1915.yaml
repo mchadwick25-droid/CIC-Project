@@ -1,8 +1,8 @@
-# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
-# the Lutheran Wittenberg build (Atlas VI.1), per this world's own
-# Source Readiness Dossier. First Era VII vendoring pass - no sibling
-# Era VII/VI world has any corpus yet to cross-link against (dossier
-# section 5, "Open cross-world questions": none found).
+# Proactively vendored ahead of the Lutheran Wittenberg build (Atlas
+# VI.1), per this world's own Source Readiness Dossier. First Era VII
+# vendoring pass - no sibling Era VII/VI world has any corpus yet to
+# cross-link against (dossier section 5, "Open cross-world questions":
+# none found).
 source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
 
 assignments:

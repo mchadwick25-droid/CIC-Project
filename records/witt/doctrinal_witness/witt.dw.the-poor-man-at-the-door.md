@@ -3,7 +3,7 @@ id: witt.dw.the-poor-man-at-the-door
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - "participant asks what marriage meant to us, or whether we had weddings"
   - "participant asks how we looked at money and poverty, or whether we would call anyone among us rich"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a description of an actual wedding day among us -- our library holds no such account"
 text: >-
   What did marriage mean to us -- did we have weddings? Marriage itself

@@ -51,7 +51,7 @@ assignments:
     Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
     is a near-contemporary (c. 449) external account of Ambrose''s own single most famous act,
     a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely. Surfaced
-    by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+    through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
 - work: Dialogues (Eranistes)
@@ -129,15 +129,11 @@ assignments:
   - merovingian-gallic-christianity
   role: tradition
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no
+    obvious census home at first glance - merovingian-gallic-christianity (c. 480-620) seems
+    to start as he ends - but Gennadius died c. 496, which is INSIDE that window rather than
+    before it: the overlap is real and he falls in it. Assigned there as his home, with
+    hieronymian-ascetic-literary kept as context: the direct continuation of Jerome''s literary
     project, not membership of his circle.'
 - work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
@@ -146,15 +142,11 @@ assignments:
   - hieronymian-ascetic-literary
   role: context
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no
+    obvious census home at first glance - merovingian-gallic-christianity (c. 480-620) seems
+    to start as he ends - but Gennadius died c. 496, which is INSIDE that window rather than
+    before it: the overlap is real and he falls in it. Assigned there as his home, with
+    hieronymian-ascetic-literary kept as context: the direct continuation of Jerome''s literary
     project, not membership of his circle.'
 - work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
@@ -243,8 +235,8 @@ assignments:
   - aquileian-christianity
   role: tradition
   confidence: assigned
-  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404). RULED 2026-08-27:
-    aquileian-christianity (I.41) was minted for it. The worker''s objection was exact - the content has
+  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404).
+    aquileian-christianity (I.41) was minted for it: the content has
     nothing to do with the Jerome quarrel, and hieronymian-ascetic-literary is a controversy while this
     is a catechesis. It is also the earliest evidence that the Western churches did not all say the same
     words at the font: Rufinus expounds his own church''s creed and notes where Rome''s differs.
@@ -261,7 +253,7 @@ assignments:
   confidence: provisional
   note: 'Grouped as one small body: Rufinus'' own prefaces to his translations, documenting
     how and why Origen and the Clementine literature were carried into Latin. Context for
-    alexandria as transmission evidence. Provisional because these are paratexts; a reviewer
-    may prefer to drop them as sub-work-level.
+    alexandria as transmission evidence. Provisional because these are paratexts; they may
+    be worth dropping to sub-work-level instead.
 
     '

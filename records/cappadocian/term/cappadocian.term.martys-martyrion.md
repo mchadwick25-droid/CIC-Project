@@ -3,7 +3,7 @@ id: cappadocian.term.martys-martyrion
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -34,7 +34,6 @@ retrieval:
   - martyrs, relics, or shrines
   - the Forty of Sebaste specifically
   - why recent martyrdom mattered so much to this community
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.anastasis

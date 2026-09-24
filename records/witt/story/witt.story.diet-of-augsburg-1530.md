@@ -3,7 +3,7 @@ id: witt.story.diet-of-augsburg-1530
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -13,8 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Documented: a directly attested, dated, signed institutional document - the strongest
     evidentiary class this library holds for any single episode. The preface and the nine signatures are
-    read and verified directly, not reconstructed from a later account (Doc_09 witt-S09; Source Registry
-    R37).'
+    read and verified directly, not reconstructed from a later account.'
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: The Preface, addressed to "Most Invincible Emperor, Caesar Augustus, Most Clement Lord," and
@@ -26,7 +25,7 @@ retrieval:
   - a participant asks how the movement confessed itself institutionally, or what happened at Augsburg
     in 1530
   - a participant asks who signed the Augsburg Confession, or why
-  do_not_retrieve_when:
+  prefer_instead:
   - personalizing it as one figure's own drama - it is a signed, corporate act, and Luther himself was
     not among its signatories in this library's own record
   - a participant wants a village congregation's own experience of the confession - no such account survives
@@ -81,7 +80,7 @@ modern_contrast: 'A modern reader may picture a reform movement''s central confe
 ---
 Converted at B-4 from Doc_09 witt-S09 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/melanchthon_augsburg-confession_anon-
-pg275.txt, lines 47-53 (Preface opening) and 1555-1568 (signatures). Source Registry R37 (Native,
+pg275.txt, lines 47-53 (Preface opening) and 1555-1568 (signatures). Source Registry (Native,
 Primary).
 
 Register note: close-third-person throughout, deliberately institutional rather than personalizing, per

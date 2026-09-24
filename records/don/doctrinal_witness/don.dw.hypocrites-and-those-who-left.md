@@ -3,7 +3,7 @@ id: don.dw.hypocrites-and-those-who-left
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -45,7 +45,6 @@ retrieval:
   - participant asks whether any of us ever wanted to leave, or what we would say to someone who did
   - participant asks where God was when they suffered, or whether a woman could carry authority among
     us
-  do_not_retrieve_when: []
 text: >-
   Did that happen among us? It is in the court record. A charge came
   against one of our bishops, and another bishop wrote to him privately -

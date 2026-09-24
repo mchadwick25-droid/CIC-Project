@@ -3,7 +3,7 @@ id: witt.source.melanchthon-deuttung-der-zwo-grewlichen-figuren-bapstesels
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -27,4 +27,4 @@ discovery_channel: builder-direct-read; Source Registry row 86; Cole file; WebSe
 external_ids:
   witt_source_registry_row: 86
 ---
-Image-polemic as a material register (with R71); the identification at Widely Accepted (Doc_02 §6). (Source Registry row 86; Confidence A (Cole's advertisement read; the 1523 print's catalogue record checked).)
+Image-polemic as a material register; the identification at Widely Accepted (Doc_02 §6). (Source Registry row 86; Confidence A (Cole's advertisement read; the 1523 print's catalogue record checked).)

@@ -3,7 +3,7 @@ id: witt.force.internal-fracture-fenced
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -44,8 +44,7 @@ description: 'LAYER 1 (Historical Event). The library attests the BEGINNING of a
   than constituting a second pattern within it.'' The world''s own confessional testimony that the fracture
   was not internal: ''in our Churches no Anabaptists have arisen'' (Ap 4701, Documented as Melanchthon''s
   claim); the Confession''s five condemnations by name. No successor community is generated FROM WITHIN
-  this world in any vendored text; the 1522 episode is ''a transition event, not a strand'' (Doc_01 §6,
-  re-tested and confirmed at Doc_04 §4). LAYER 2 (World''s Own Experience). The fracture''s edge named
+  this world in any vendored text; the 1522 episode is ''a transition event, not a strand''. LAYER 2 (World''s Own Experience). The fracture''s edge named
   as brothers not yet won and as sects wearing a borrowed name: ''there are also brothers and sisters
   on the other side who belong to us, and must still be won'' (v2 14728-14729); ''sects and false teachers,
   who all wear the holy name as a cover and sham for their doctrines of devils'' (LC 3272-3273). The fence

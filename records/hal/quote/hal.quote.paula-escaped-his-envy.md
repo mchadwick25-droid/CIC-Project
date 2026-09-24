@@ -3,7 +3,7 @@ id: hal.quote.paula-escaped-his-envy
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I
@@ -35,7 +35,14 @@ text: >-
   degree that the excellence of his very great skill and ability was entirely hidden. Now the
   blessed man Possidonius had dwelt with him for many days, and he told me that the free-woman
   Paula, who had taken care of him, departed from this world before her time in order that she
-  might escape from his envy.
+  might escape from his envy...
+modern_rendering: >-
+  A certain elder named Hieronymus lived in these parts. He was extremely skilled in the
+  art and practice of grammar and eloquence. He was also greatly skilled in the Latin
+  language. But he had the vices of envy and evil-eyedness. These vices entirely hid the
+  excellence of his very great skill and ability. The blessed man Possidonius had lived
+  with him for many days. He told me that the free-woman Paula, who had taken care of him,
+  left this world before her time in order to escape his envy...
 speaker_or_author: Palladius, reporting Possidonius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-
@@ -51,7 +58,6 @@ retrieval:
   retrieve_when:
   - "participant asks what outsiders made of the relationship at the centre of this circle"
   - "participant asks whether the man was as difficult as his enemies said"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.quote.hindered-by-jerome
@@ -75,3 +81,10 @@ recension has no Paula in its women's chapters at all. The chapter
 Clarke numbers 41, which opens with her and carries the "hindered by a
 certain Jerome" sentence, has no counterpart naming her. Searched
 directly - her name occurs once in the whole file, here.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "his envy" was invented - the
+source's sentence continues with a comma into an account of the same man's envy against other,
+unrelated people (his own brother, then several named monks). Marked with a trailing ellipsis rather
+than restored: this record's scope, per its own divergence_note and modern_lens_note, is specifically
+Paula's death as a consequence of his envy; the further victims are a different, broader claim this
+record isn't making.

@@ -3,7 +3,7 @@ id: ijc.quote.leo-rome-apostles
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -18,8 +18,13 @@ sources:
   locus: Sermon LXXXII, ch. 1 (npnf212 lines 20995-21010)
   license: public-domain
 text: These are they who promoted thee to such glory, that being made a holy nation, a chosen people,
-  a priestly and royal state, and the head of the world through the blessed Peter's holy See thou didst
+  a priestly and royal state , and the head of the world through the blessed Peter's holy See thou didst
   attain a wider sway by the worship of God than by earthly government.
+modern_rendering: >-
+  These are the ones who raised you to such glory. You were made a holy nation, a chosen
+  people, a priestly and royal state, and the head of the world through the blessed
+  Peter's holy see. Through this, you gained a wider rule by the worship of God than by
+  earthly government.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks what Rome claimed for itself and on what grounds"
   - "participant asks why Peter and Paul mattered to that claim"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
@@ -44,3 +48,6 @@ the worship of God than by earthly government" is Rome's own answer to
 the charge that its claim is merely political, and simultaneously the
 clearest exhibit of sanctity being converted into institutional
 standing (the Tensional gravity's Strand A face).
+
+Quote-verbatim gate fix (2026-09-22): restored the source's own space before a comma ("state ,") that
+the record had closed up. No wording changed.

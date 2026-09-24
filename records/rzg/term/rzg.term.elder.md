@@ -3,7 +3,7 @@ id: rzg.term.elder
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks about elder (lay elder, geneva)
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.term.consistory

@@ -3,7 +3,7 @@ id: pahc.quote.lucian-orphans-and-widows
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I
@@ -57,7 +57,6 @@ retrieval:
   - "participant asks what they did for prisoners, widows and orphans"
   - "participant asks how an unfriendly outsider described their behaviour"
   - "participant asks how organised they actually were"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: pahc.gravity.translocal-network

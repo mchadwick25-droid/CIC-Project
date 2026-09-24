@@ -1,10 +1,10 @@
 # Doc_01 — World Identification, Boundaries, and Orientation: Latin Pastoral-Congregational Christianity
 ## Round 5 Independent Adversarial Review
 
-**Document reviewed:** `worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md` (DRAFT — revision responding to Round 4, 2026-09-01, commit `4d10afe9`, committed 18:53:30 UTC)
+**Document reviewed:** `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_01_World_Identification_Boundaries_Orientation.md` (DRAFT — revision responding to Round 4, 2026-09-01, commit `4d10afe9`, committed 18:53:30 UTC)
 **Review date:** 2026-09-01
 **Reviewer:** independent adversarial review thread. Did not draft the document under review, did not draft this world's Step 0, and did not write the Round 1–4 Doc_01 reviews. **Round 4's own findings, citations, quotations, arithmetic and suggested fix-texts were treated as claims to be re-derived, not as authority.** That discipline paid at three separate points this round: one of Round 4's own suggested fix-texts is defective and the revision applied it verbatim (M2); one of Round 4's own quantities is wrong and the revision transcribed it wrong in a different direction (C5); and Round 4's "everything else is clean" certification did not extend to a governing-document claim it never checked (see *What was checked and found clean*, item 2).
-**Governed by:** `cic-build-cycle` (CO-022) *Review*, *Revision decision*, *Escalation categories*, *Disposition*, *Naming and term propagation*, *Cross-document fact consistency* and *Coach verification* sections; Construction Framework V7.4 Part I, Step 0/Step 1 boundary, Record Integrity Principle, Part III; Constitution V2.2 Articles 3, 4, 15, 21, 23, 29; `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`; this world's own cleared `Step0_Movement_Scope_Confirmation.md`.
+**Governed by:** `cic-build-cycle` (CO-022) *Review*, *Revision decision*, *Escalation categories*, *Disposition*, *Naming and term propagation*, *Cross-document fact consistency* and *Coach verification* sections; Construction Framework V7.4 Part I, Step 0/Step 1 boundary, Record Integrity Principle, Part III; Constitution V2.2 Articles 3, 4, 15, 21, 23, 29; `CiC_Step0_Conclusion_FINAL_v2.docx`; this world's own cleared `Step0_Movement_Scope_Confirmation.md`.
 
 Marking per Constitution Article 31: Simulated review — informational only, not an Article 31 substitute.
 
@@ -30,13 +30,13 @@ Behind both sits the same underlying weakness: **the document's characterization
 
 Nothing was taken on the document's, Round 4's, or any prior round's word.
 
-- **`reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` extracted and read end to end** (89 paragraphs), not only the World #8 entry — specifically to see whether "orthogonality" appears anywhere else in the portfolio document that could disambiguate it (it does not; it appears exactly once), and to read the *Selection method* paragraph, which turns out to be the phrase's real interpretive context and which no prior round has quoted.
+- **`CiC_Step0_Conclusion_FINAL_v2.docx` extracted and read end to end** (89 paragraphs), not only the World #8 entry — specifically to see whether "orthogonality" appears anywhere else in the portfolio document that could disambiguate it (it does not; it appears exactly once), and to read the *Selection method* paragraph, which turns out to be the phrase's real interpretive context and which no prior round has quoted.
 - **The live `cic-build-cycle` skill** at `/root/.claude/skills/synced/…/cic-build-cycle/SKILL.md`, read in full — the four escalation categories, the "if any apply, stop and escalate" rule at the head of that section, the Disposition eligibility sentence, the Record-Integrity-adjacent *Cross-document fact consistency* section, and the write-scope sentence in *Coach verification* ("A build thread's write access is scoped to its own world's build folder").
 - **This world's own cleared Step 0 read in full**, including §6's complete disposition history — which is where the controlling escalation precedent is, and which no prior Doc_01 review has cited.
 - **The vendored primary corpus, read directly**, with loci recomputed from the XML `div3`/`div4` structure rather than trusted: `anf05` — the 256 Council preface *in full context including the proœmium heading and both interpolated ANF editorial glosses*, and Ep. 67's congregational-rejection clause; `npnf104` — I.1.2 (Book I ch. 1), II.3 (Book II ch. 3, `div3 id="v.iv.iv"`), Book III ch. 2 (`v.iv.v`), Book VI ch. 2 (`v.iv.viii`), and Letter 185's censured-kings/Nebuchadnezzar passage in full; `npnf101` — Letter XCIII §17 (`div3 id="vii.1.XCIII" title="To Vincentius"`), read with 1,500 characters of surrounding context.
 - **Governing text re-extracted from `.docx` this session:** `CiC_L1_Constitution_V2_2.docx` — Articles 3 (in full, including the bulleted "should possess sufficient: historical coherence…" list and the "influences nothing above it" paragraph), 15, 21, 29, plus an exhaustive `coheren` search across every XML part in the package; `CiC_L3B_Formation_World_Construction_Framework_V7.4.docx` — the Step 0/Step 1 entry *with its surrounding context*, Part I's Distinct World Criteria, Temporal Scope, World Separation Criteria, Strand Determination and World Continuity & Distinction, and the Record Integrity Principle.
 - **The sibling branch fetched fresh and interrogated per commit** — `git fetch origin claude/record-native-world-build-v2-e2s0dt`; the branch has moved again, to `c915ed69` (18:31 UTC). Marker counts computed at seven commits (`27314aa2`, `79f65c17`, `58ee86a5`, `cb178333`, `4788e5c5`, `9caf7bea`, `c915ed69`) plus `27314aa2^`; `cb178333`'s full commit message read; Donatism's Step 0 §3 B3 and §4 item 4 and its Round 2 review L8 read at the *current* head, not at the head the document names.
-- **Neighbour-world documents at source:** IJC's `Doc_01` §4 (all three strand definitions and the closing governing-consequence paragraph) and §6; IJC's `Step0_Movement_Scope_Confirmation.md` §3 and §4 item 3; **IJC's `Doc_04_Gravity_Discovery.md`** — Candidate 2 in full and the whole Classification Summary table, which no prior round has consulted and which bears directly on §7's central claim; `hal_Doc_01…md` §4, §8.1 in full, and its bipolar-network/Aventine material; `Archive/Syriac-Build-2026-07/CiC_Coach3_Step0_Critique_2026-07-06.md`.
+- **Neighbour-world documents at source:** IJC's `Doc_01` §4 (all three strand definitions and the closing governing-consequence paragraph) and §6; IJC's `Step0_Movement_Scope_Confirmation.md` §3 and §4 item 3; **IJC's `Doc_04_Gravity_Discovery.md`** — Candidate 2 in full and the whole Classification Summary table, which no prior round has consulted and which bears directly on §7's central claim; `hal_Doc_01…md` §4, §8.1 in full, and its bipolar-network/Aventine material; `Syriac-Build/CiC_Coach3_Step0_Critique_2026-07-06.md`.
 - **Both corpus-maps**, at the row level: the Letter 185 rows in `latin-pastoral-congregational-christianity.yaml` (`confidence: assigned`, "Also assigned to imperial-juridical-christianity below") and `imperial-juridical-christianity.yaml` (`confidence: provisional`, note read verbatim); the 17-letter Augustine–Jerome row (`~52,892 words`, the `tradition`-to-both note read to its end, including "A two-sided correspondence has voice on both sides. It is also the largest single thing in this volume after the Confessions."); the general-correspondence row that vendors Letter XCIII ("the remaining 138 letters"); the hal mirror row.
 - **Every `§n` pointer extracted programmatically — 232 occurrences** — mapped to its containing section and checked mechanically for target existence and for above/below direction, then a sample of the evidentiary ones opened and tested for whether the target actually contains the claim. One direction failure (L1); zero non-existent targets; the M1 repoint verified landed.
 - **A duplicate-sentence, duplicate-clause and repeated-shingle sweep** of the whole file (normalised sentences ≥60 chars, clauses ≥90 chars, 14-word shingles). **No stranded duplicates.** The end of §9 and the document's last two lines were read separately, character by character.
@@ -55,7 +55,7 @@ This is the document's central new reasoning and the single most consequential j
 
 ### 1. Where the phrase actually comes from — confirmed, and Round 4 was right
 
-I extracted `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` directly. The World #8 entry reads, in full and verbatim:
+I extracted `CiC_Step0_Conclusion_FINAL_v2.docx` directly. The World #8 entry reads, in full and verbatim:
 
 > *"8. Latin Pastoral-Congregational Christianity. c. 240s–430 CE. Carthage and Hippo Regius. Cyprian as working pastor navigating the Decian persecution and its aftermath (not the schism-crisis angle, which belongs to world #4), Augustine's preaching, catechesis, and ordinary sacramental administration for his own congregation at Hippo. Ordinary lay formation, preaching, and sacramental life under episcopal office — **confirmed distinct from world #6 (non-overlapping authority structure, orthogonality to state power, temporal overlap rather than sequence)**. Cyprian and Augustine confirmed to hold together despite the roughly century-long gap between them (with Donatism occupying and contesting the interval)…"*
 
@@ -63,7 +63,7 @@ Provenance, checked in all four places the brief names:
 
 | Document | What it does with the phrase |
 |---|---|
-| `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` | **Originates it.** Sole occurrence of "orthogonality" in the whole document. |
+| `CiC_Step0_Conclusion_FINAL_v2.docx` | **Originates it.** Sole occurrence of "orthogonality" in the whole document. |
 | This world's own Step 0 §1 (line 18) | Quotes the entry verbatim in a block quotation, as "quoted verbatim from the Step 0 Conclusion." |
 | This world's own Step 0 §3 B3 (line 103) | Quotes the three-item formula again, attributing it to the Step 0 Conclusion "and independently re-affirmed in IJC's own Step 0 confirmation (§3 of that document)." |
 | IJC's own Step 0 §3 | Quotes the three-item formula, attributing it to "the Step 0 Conclusion itself." |
@@ -113,7 +113,7 @@ That is the controlling practice, set in this world, in the document Doc_01's ow
 
 A document that says the project lead should weigh a question, and self-disposes so that the project lead is never asked to, has identified an unresolved tension it cannot close and then closed it anyway. And note the limb's verb: "cuts against," not "contradicts." A finding that requires a portfolio determination's stated ground to be re-read in a narrower sense than its plain words in order to remain true *cuts against* that determination even where it does not flatly contradict it. §7 concedes as much in its own terms: it holds one reading of the clause "false," and describes what it does as "a real precision of the portfolio phrase."
 
-**(d) The instrument is out of reach.** `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` is marked "Status: Closed," sits at the portfolio level outside any world-build folder, and CO-022 provides that "**a build thread's write access is scoped to its own world's build folder**." A build thread therefore cannot amend the phrase, cannot annotate it, and cannot record its adopted reading anywhere the next reader of the portfolio document will see it. The document's chosen substitute — §8 item 12, "named here for whoever next reviews this document's disposition" — is a note inside the document whose own disposition is the thing in question. That is the definition of a tension the pipeline can't close on its own.
+**(d) The instrument is out of reach.** `CiC_Step0_Conclusion_FINAL_v2.docx` is marked "Status: Closed," sits at the portfolio level outside any world-build folder, and CO-022 provides that "**a build thread's write access is scoped to its own world's build folder**." A build thread therefore cannot amend the phrase, cannot annotate it, and cannot record its adopted reading anywhere the next reader of the portfolio document will see it. The document's chosen substitute — §8 item 12, "named here for whoever next reviews this document's disposition" — is a note inside the document whose own disposition is the thing in question. That is the definition of a tension the pipeline can't close on its own.
 
 **(e) One further consequence nobody has recorded.** IJC's Doc_01 §6 repeats the same three-item formula. If the ground reading is adopted, IJC's own cleared boundary statement is re-glossed by it. Round 3's version of §7 at least flagged this ("for whoever next touches IJC's Doc_01"); Round 4 correctly found the flag mis-aimed, and the revision removed it rather than re-aiming it. Nothing in the document now records that a second cleared world's boundary statement is affected. That is a cross-world consequence of a portfolio-level reading — squarely category 2 — and it is unrecorded (L8).
 
@@ -131,7 +131,7 @@ Escalate to the project lead, with a short escalation note stating: (i) the phra
 
 I fetched the branch fresh. **It has moved again**: the head is now `c915ed69` (18:31 UTC), one commit past the `9caf7bea` the document names.
 
-Marker occurrences of "(scope corrected, v3 — Round 2 L8)" in `worlds/don/Step0_Movement_Scope_Confirmation.md`, counted per commit this session:
+Marker occurrences of "(scope corrected, v3 — Round 2 L8)" in `World-Builds/Donatism/Step0_Movement_Scope_Confirmation.md`, counted per commit this session:
 
 | commit | time (UTC) | marker |
 |---|---|---|
@@ -221,7 +221,7 @@ Category 2's second sentence ("Label it explicitly as portfolio-level in whateve
 **Why it matters.** Four ways.
 
 1. **The document has written the argument for escalating and then declined to draw it.** Limb 3's own closing sentence asks that "the project lead or a coach pass reviewing this disposition can weigh the same evidence and reach a different call if the reading is wrong," and §8 item 12 states that on the other reading "CO-022's disposition rule would point toward escalation rather than self-disposition." A document that says the project lead should weigh a question, and disposes so that they are not asked, has identified a tension the pipeline cannot close and closed it anyway. That is category 4's own header.
-2. **The instrument is out of reach either way.** `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx` is marked "Closed," sits outside any world-build folder, and CO-022 scopes a build thread's write access "to its own world's build folder." The document cannot record its adopted reading anywhere a future reader of the portfolio document will encounter it. §8 item 12 is a note inside the very document whose disposition is at issue.
+2. **The instrument is out of reach either way.** `CiC_Step0_Conclusion_FINAL_v2.docx` is marked "Closed," sits outside any world-build folder, and CO-022 scopes a build thread's write access "to its own world's build folder." The document cannot record its adopted reading anywhere a future reader of the portfolio document will encounter it. §8 item 12 is a note inside the very document whose disposition is at issue.
 3. **The channel exists and has been used.** Step 0 records an escalation taken to the project lead and answered the same day. Escalation here costs one note, not a stall.
 4. **The reading's support is defective.** See H2 and M1. Even a reader inclined to accept the ground reading should not accept it on the evidence currently offered for it.
 
@@ -281,7 +281,7 @@ The words are verbatim. Their status is not. In IJC Doc_01 §4 they appear insid
 
 That is an illustration of what a strong cross-strand *candidate* would look like, explicitly deferred to Step 4 — not a settled statement of what unites the strands. §7 promotes it to "states plainly," and then uses it as the single organizing concern from which both halves of the boundary run.
 
-**And IJC ran Step 4.** `worlds/ijc/Doc_04_Gravity_Discovery.md` records three confirmed Primary gravities:
+**And IJC ran Step 4.** `World-Builds/Imperial-Juridical-Christianity/Doc_04_Gravity_Discovery.md` records three confirmed Primary gravities:
 
 | Candidate | Cross-strand status | Classification |
 |---|---|---|

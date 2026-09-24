@@ -3,7 +3,7 @@ id: alx.quote.athanasius-fountains
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -20,6 +20,11 @@ sources:
 text: These are fountains of salvation, that they who thirst may be satisfied with the living words they
   contain. In these alone is proclaimed the doctrine of godliness. Let no man add to these, neither let
   him take ought from these.
+modern_rendering: >-
+  These are fountains of salvation, so that anyone who thirsts may be
+  satisfied by the living words they hold. The teaching of godliness is
+  proclaimed in these alone. Let no one add to them, and let no one take
+  anything away.
 speaker_or_author: alx.figure.athanasius
 license: verbatim
 modern_lens_note: >
@@ -31,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks which books they treated as scripture and who decided"
   - "participant asks whether their Bible was the same as a modern one"
-  do_not_retrieve_when: []
 ---
 The canon list's own summation - the bishop telling all Egypt which
 books the church receives. Serves F2-I ('which writings did your people

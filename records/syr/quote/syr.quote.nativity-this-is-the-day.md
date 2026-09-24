@@ -3,7 +3,7 @@ id: syr.quote.nativity-this-is-the-day
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they kept the feasts and what they sang at them"
   - "participant asks what the birth of Jesus meant to them"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Nativity Hymn I, Morris's translation as revised by Gwynn).
 

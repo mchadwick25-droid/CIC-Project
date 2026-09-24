@@ -3,7 +3,7 @@ id: desert.term.apotage
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F5-T]
 confidence:
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - how a person actually joined this life
   - questions about money, property, and giving things up
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.anachoresis

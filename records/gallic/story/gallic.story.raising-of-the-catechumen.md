@@ -3,7 +3,7 @@ id: gallic.story.raising-of-the-catechumen
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -36,7 +36,7 @@ retrieval:
   - participant uses "raised the dead," "power," "virtus"
   - conversation reaches virtus and needs the episode the northern literature itself treats as the first and founding one
   - Representative needs to show what "the power present" meant at Tours
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking whether the miracle "really happened" - this story carries Tier 3 register and does not assess that (gallic.term.virtus carries Reported-Experience Status for the same reason)
   - participant is asking about Marseilles, where Cassian refused to tell such stories on principle (retrieve gallic.term.virtus, southern half, or gallic.term.possessed-exorcism)
   - participant wants the later, better-documented life of the community rather than its first wonder

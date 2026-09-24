@@ -3,7 +3,7 @@ id: desert.quote.three-years-a-servant
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -28,6 +28,10 @@ text: >-
   But he that comes to dwell with them, let them not receive him into the association before he
   has completed three years, but they shall employ him only as a servant; and after his completion
   of three years, let him enter.
+modern_rendering: >-
+  If a man comes to live with them, they must not accept him into the community until he
+  has completed three years. During that time, they shall employ him only as a servant.
+  After he completes three years, let him enter.
 speaker_or_author: the angel of the Lord, in the Ethiopic recension of the Rule
 license: verbatim
 modern_lens_note: >-
@@ -41,7 +45,6 @@ retrieval:
   retrieve_when:
   - "participant asks how someone joined and how long it took to belong"
   - "participant asks whether newcomers were tested, and what they did while waiting"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

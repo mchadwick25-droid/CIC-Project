@@ -1,0 +1,300 @@
+{
+  "allowed_difference_classes": {
+    "whitespace": "A run of spaces, tabs, or line breaks differs from the source's own - collapsed on both sides before comparing. Includes a source that hyphenates a word across a line break (\"eter-\\nnity\") - collapsed to the joined word before comparing, never left as two.",
+    "case": "A letter's capitalization differs from the source (e.g. a quote opening mid-sentence, capitalized to open a sentence here).",
+    "punctuation": "A quote mark, apostrophe, or dash is a different Unicode form of the same mark (curly vs. straight, hyphen vs. en/em dash) - never a different mark entirely (a colon read as a dash still fails).",
+    "ellipsis": "`...` or `…` in the record's text marks a real elision - the words on either side must still match, in order; nothing is required of what's between them. `[...]`/`[…]` (the ellipsis wrapped in its own brackets) is the same single marker, not a bracketed insertion around nothing.",
+    "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
+    "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
+    "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class."
+  },
+  "audited_worlds": [
+    "pahc",
+    "syr",
+    "desert",
+    "hal",
+    "alx",
+    "ijc"
+  ],
+  "other_worlds": [
+    "cappadocian",
+    "don",
+    "gallic",
+    "rzg",
+    "witt"
+  ],
+  "registry_mismatch": {
+    "admitted_but_not_in_report_worlds": [],
+    "report_worlds_not_admitted": []
+  },
+  "worlds": {
+    "pahc": {
+      "world": "pahc",
+      "total_quotes": 25,
+      "verified_count": 25,
+      "failed_count": 0,
+      "exact_no_diff_count": 4,
+      "note_verified_count": 1,
+      "class_counts": {
+        "whitespace": 21,
+        "case": 0,
+        "punctuation": 3,
+        "ellipsis": 3,
+        "bracket": 5,
+        "verse_number": 4,
+        "apparatus": 0
+      },
+      "note_verified": [
+        {
+          "id": "pahc.quote.two-female-slaves-who-were-called-deaconesses",
+          "source_file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+          "note_id": "iii.viii.xxxiii-p2.2"
+        }
+      ],
+      "failures": []
+    },
+    "syr": {
+      "world": "syr",
+      "total_quotes": 34,
+      "verified_count": 34,
+      "failed_count": 0,
+      "exact_no_diff_count": 10,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 23,
+        "case": 1,
+        "punctuation": 4,
+        "ellipsis": 0,
+        "bracket": 3,
+        "verse_number": 1,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": []
+    },
+    "desert": {
+      "world": "desert",
+      "total_quotes": 60,
+      "verified_count": 59,
+      "failed_count": 1,
+      "exact_no_diff_count": 10,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 38,
+        "case": 3,
+        "punctuation": 7,
+        "ellipsis": 10,
+        "bracket": 11,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": [
+        {
+          "id": "desert.quote.good-good-i-dont-mind",
+          "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+          "failed_segment": "A certain Paul, a rustic peasant, exceedingly guileless and simple, was wedded to a most beautiful woman of depraved character, who for a very long while concealed her sins from him. However, Paul came in suddenly from work and found his wife and her lover behaving shamefully, Providence thus guiding Paul to what was best for himself. And laughing discreetly he called to them and said: \"Good, good. I don't mind, truly. By Jesus, I'll take her no longer. Go, you have her and her children, for I am going to become a monk.\"",
+          "nearest_context": "he cauldron.\" But she answered and said: \"God forbid that there should be ",
+          "recorded_verification_state": "verified-via-authority"
+        }
+      ]
+    },
+    "hal": {
+      "world": "hal",
+      "total_quotes": 32,
+      "verified_count": 31,
+      "failed_count": 1,
+      "exact_no_diff_count": 1,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 30,
+        "case": 0,
+        "punctuation": 5,
+        "ellipsis": 1,
+        "bracket": 0,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": [
+        {
+          "id": "hal.quote.hindered-by-jerome",
+          "source_file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+          "failed_segment": "Among them was the Roman lady Paula, mother of Toxotius, a woman of great distinction in the spiritual life. She was hindered by a certain Jerome from Dalmatia. For though she was able to surpass all, having great abilities, he hindered her by his jealousy, having induced her to serve his own plan.",
+          "nearest_context": "________________________\n\nPREFACE TO THE LIFE OF THE HOLY FAT",
+          "recorded_verification_state": "verified-via-authority"
+        }
+      ]
+    },
+    "alx": {
+      "world": "alx",
+      "total_quotes": 26,
+      "verified_count": 26,
+      "failed_count": 0,
+      "exact_no_diff_count": 2,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 24,
+        "case": 0,
+        "punctuation": 1,
+        "ellipsis": 1,
+        "bracket": 0,
+        "verse_number": 3,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": []
+    },
+    "ijc": {
+      "world": "ijc",
+      "total_quotes": 39,
+      "verified_count": 38,
+      "failed_count": 1,
+      "exact_no_diff_count": 2,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 36,
+        "case": 0,
+        "punctuation": 6,
+        "ellipsis": 6,
+        "bracket": 2,
+        "verse_number": 1,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": [
+        {
+          "id": "ijc.quote.ammianus-roman-luxury",
+          "source_file": "cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt",
+          "failed_segment": "I do not deny, when I consider the ostentation that reigns at Rome, that those who desire such rank and power may be justified in labouring with all possible exertion and vehemence to obtain their wishes ; since after they have succeeded, they will be secure for the future, being enriched by offerings from matrons, riding in carriages, dressing splendidly, and feasting luxuriously, so that their entertainments surpass even royal banquets. And they might be really happy if, despising the vastness of the city, which they excite against themselves by their vices, they were to live in imitation of some of the priests in the provinces, whom the most rigid abstinence in eating and drinking, and plainness of apparel, and eyes always cast on the ground, recommend to the everlasting Deity and his true worshippers as pure and sober-minded men.",
+          "nearest_context": "            directly from the Internet Archive scan (identifi",
+          "recorded_verification_state": "verified-via-authority"
+        }
+      ]
+    },
+    "cappadocian": {
+      "world": "cappadocian",
+      "total_quotes": 20,
+      "verified_count": 19,
+      "failed_count": 1,
+      "exact_no_diff_count": 2,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 17,
+        "case": 0,
+        "punctuation": 4,
+        "ellipsis": 1,
+        "bracket": 0,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": [
+        {
+          "id": "cappadocian.quote.basil-on-common-life",
+          "source_file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+          "failed_segment": "I recognise that the life of a number lived in common is more useful in many ways. To begin with, none of us is self-sufficient even as regards bodily needs, but we need one another's help in getting necessaries. For just as the foot has certain powers but lacks others, and without the help of the other limbs neither finds its own strength sufficient for endurance nor has the support of what is lacking, so in the solitary life both what we have becomes useless and what we lack becomes unprocurable, since God the Creator ordained that we need one another, as it is written, in order that we may be linked with one another.",
+          "nearest_context": "Christian Literature,\" Series I: Greek Texts\nPublication Date",
+          "recorded_verification_state": "verified-via-authority"
+        }
+      ]
+    },
+    "don": {
+      "world": "don",
+      "total_quotes": 5,
+      "verified_count": 3,
+      "failed_count": 2,
+      "exact_no_diff_count": 1,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 2,
+        "case": 0,
+        "punctuation": 0,
+        "ellipsis": 0,
+        "bracket": 0,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": [
+        {
+          "id": "don.quote.donatus-quid-est-imperatori",
+          "source_file": "cic/texts/optatus_against-the-donatists.txt",
+          "failed_segment": "\"Quid est imperatori cum ecclesia?\" (\"What has the Emperor to do with the Church?\")",
+          "nearest_context": " dost ask, \"Who has touched Me?\"'\n\nand Christ asked:\n\n'Who, I ",
+          "recorded_verification_state": "verified-via-authority"
+        },
+        {
+          "id": "don.quote.emeritus-magno-argumento",
+          "source_file": "cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt",
+          "failed_segment": "\"Magno argumento veritas occultatur; ut cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit, cetera sileantur.\"",
+          "nearest_context": "                 volume's own \"Monumenta vetera\" section (col.",
+          "recorded_verification_state": "verified-via-authority"
+        }
+      ]
+    },
+    "gallic": {
+      "world": "gallic",
+      "total_quotes": 3,
+      "verified_count": 3,
+      "failed_count": 0,
+      "exact_no_diff_count": 0,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 3,
+        "case": 0,
+        "punctuation": 1,
+        "ellipsis": 0,
+        "bracket": 0,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": []
+    },
+    "rzg": {
+      "world": "rzg",
+      "total_quotes": 6,
+      "verified_count": 6,
+      "failed_count": 0,
+      "exact_no_diff_count": 0,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 5,
+        "case": 0,
+        "punctuation": 0,
+        "ellipsis": 2,
+        "bracket": 1,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": []
+    },
+    "witt": {
+      "world": "witt",
+      "total_quotes": 7,
+      "verified_count": 7,
+      "failed_count": 0,
+      "exact_no_diff_count": 0,
+      "note_verified_count": 0,
+      "class_counts": {
+        "whitespace": 7,
+        "case": 0,
+        "punctuation": 0,
+        "ellipsis": 0,
+        "bracket": 0,
+        "verse_number": 0,
+        "apparatus": 0
+      },
+      "note_verified": [],
+      "failures": []
+    }
+  },
+  "totals": {
+    "total_quotes": 257,
+    "verified_count": 251,
+    "failed_count": 6,
+    "note_verified_count": 1
+  }
+}

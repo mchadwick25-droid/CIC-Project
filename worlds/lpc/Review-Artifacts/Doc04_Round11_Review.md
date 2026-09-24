@@ -7,9 +7,9 @@
 
 **Documents reviewed, at commit `619cca3c` (prior state `3d45c279`), branch `lpc-doc04-round2`, working tree clean:**
 
-- `worlds/lpc/Doc_04_Gravity_Discovery.md` (251 lines)
-- `worlds/lpc/Doc_04_Superseded_Claims.md` (61 lines)
-- `worlds/lpc/lpc_Decision_Log.md` (all seven 2026-09-14 entries and every in-place `[CORRECTION]` / `[FURTHER CORRECTION]` / `[SUPERSEDED]` notice)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Gravity_Discovery.md` (251 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_04_Superseded_Claims.md` (61 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (all seven 2026-09-14 entries and every in-place `[CORRECTION]` / `[FURTHER CORRECTION]` / `[SUPERSEDED]` notice)
 
 **Read for context and used as the test standard, not reviewed:** `Source_Registry.md` row 65 in full; `cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` at lines 121700–121800, 118166, 126796, 126874, 128393, 128716, 129009; `L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md` §§4, 5, 6, 7, 9; `Doc04_Round3_Review.md` L6, `Doc04_Round7_Review.md` H8, `Doc04_Round8_Review.md` H8, `Doc04_Round10_Review.md` in full; the Doc_04 and appendix blobs at `3d45c279`.
 

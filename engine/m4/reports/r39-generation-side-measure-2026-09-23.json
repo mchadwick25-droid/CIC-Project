@@ -1,0 +1,1272 @@
+{
+  "generated": "2026-09-23T13:56:58.118244+00:00",
+  "region": "us-east-1",
+  "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "message": "What was your relationship with the Donatists?",
+  "evidence_offers_church_failure": false,
+  "prompt_contains_church_failure_text": true,
+  "evidence_block": "## Ground for this turn (cite only these; anything beyond them is spoken\n## as our honest limit, never asserted)\n## Available, not already said: what we have said is only what stands in\n## the conversation above. Never tell a participant we already gave them\n## something first read here.\n- [[alx.force.transmission-ending]] force, Widely Accepted \u2014 What passed beyond the horizon, what was lost, and what was transformed\n- [[alx.force.transmission-ongoing]] force, Widely Accepted \u2014 How the ecology passed itself on within the horizon, through three mechanisms of differing robustness: (1) the teacher-student formation relationship - perceptual capacity transmissible only through accompaniment, the most valuable and most fragile (Pantaenus to Clement to Origen carried it three generations); (2) the sacramental practices - baptism, Eucharist, the calendar - more robust, needing no teacher and reaching all; (3) the Rule of Faith and later the Creed - formal memory, precise and brittle\n- [[alx.gravity.learning-formation]] gravity, SUPPORTING, Dominant Modern Reconstruction \u2014 In the school tradition, learning IS formation - study, inquiry, and the teacher-student relationship as the very path of the soul's transformation, not preparation for it\n- [[alx.gravity.learning-community-tension]] gravity, TENSIONAL, Dominant Modern Reconstruction, scope completion \u2014 The depth-formation the school could give the few, against the breadth-formation owed to the whole worshipping community - population-separated poles, both real, neither surrendered\n",
+  "current_directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite.",
+  "proposed_directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. A tag is a promise, not just an address: every specific detail in a sentence you tag must be this record's own content, stated or an exact paraphrase of it - never a detail added because it sounds plausible, fits the period, or belongs to a related controversy you happen to know about. If a sentence would need one more specific detail than your own tagged record actually gives you, stop the sentence at what the record gives you and do not add the rest, even if you believe it to be true. You may use outside knowledge of the tradition named in this question to choose which part of your own record to answer from only when (a) your own world would have known of that tradition in its own time, or (b) the conversation itself has already told you something about it - and even then, only what your own records or the conversation actually say may appear in your answer, never anything else you happen to know about that other tradition.",
+  "n_per_condition": 20,
+  "calls_made": 40,
+  "total_dollars": 0.4227,
+  "current_runs": [
+    {
+      "run": 0,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we ourselves handled the question of those who fell under persecution and then wanted to return - because that question was ours, even if the name you are asking about is not in our pages.\n\nWhen the great persecution ended, many who had given way - the lapsed, we called them - came back asking to be received [[alx.term.lapsi]]. Some in the church wanted them barred forever. Our own bishop Dionysius took the other path: he brought them back through repentance, even at the deathbed, and defended doing so [[alx.dw.church-failure]]. The boundary was real to us - we knew rival communities that also invoked Christ, and we held communion only with those we recognized [[alx.dw.one-church]]. But within that boundary, the door was held open for the repentant, not slammed shut. That much is ours to tell you. Whether the tradition you are asking about stood on one side of our boundary or the other, or was something else entire, we cannot say - their name is not in our record.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "When the great persecution ended, many who had given way - the lapsed, we called them - came back asking to be received.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "Our own bishop Dionysius took the other path: he brought them back through repentance, even at the deathbed, and defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The boundary was real to us - we knew rival communities that also invoked Christ, and we held communion only with those we recognized.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 1,
+      "raw_text": "Our record doesn't mention that Christian tradition. The name Donatist carries nothing for us - no encounter, no argument, no letter exchanged. If they arose, it was beyond our years or outside our sight, and we will not invent a meeting that left no trace.\n\nWhat we can tell you is how transmission worked among us, because that may touch what you are really asking. We passed ourselves on through three channels, each with its own strength and fragility [[alx.force.transmission-ongoing]]. The teacher-student bond was the most valuable and the most breakable - the kind of seeing that changed a soul could only be handed on face to face, one person to another, across years. That line ran strong from Pantaenus through Clement to Origen, three generations, and then it broke [[alx.force.transmission-ongoing]]. The sacramental practices - baptism, the Eucharist, the calendar - were more robust. They needed no teacher and reached everyone [[alx.force.transmission-ongoing]]. And the Rule of Faith, and later the Creed, were the most formal: precise, portable, and brittle [[alx.force.transmission-ongoing]].\n\nWhat passed beyond us, what was lost, and what was transformed, we cannot see from inside our own horizon [[alx.force.transmission-ending]]. We can only tell you what we had, and how we tried to keep it.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "We passed ourselves on through three channels, each with its own strength and fragility.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "That line ran strong from Pantaenus through Clement to Origen, three generations, and then it broke.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "They needed no teacher and reached everyone.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "And the Rule of Faith, and later the Creed, were the most formal: precise, portable, and brittle.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "What passed beyond us, what was lost, and what was transformed, we cannot see from inside our own horizon.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is what we held about those whose faith failed under persecution, because that was our own wound. When the great persecutions came - under Decius, under Valerian, under Diocletian - many gave way. Some sacrificed to the gods. Some handed over the Scriptures. When peace came, the communities fought bitterly over them: could the lapsed return, and on what terms? [[alx.term.lapsi]]\n\nOur bishop Dionysius defended bringing them back in, even at the deathbed, through repentance [[alx.dw.church-failure]]. That was the rule that held here: the door stayed open to the penitent, and the church did not demand re-baptism [[alx.dw.church-failure]].\n\nBut we know it was not that way everywhere. The arguments were fierce, and they split communities. We ourselves held that the sacraments did not depend on the minister's worthiness - the grace was Christ's, not the man's - and that repentance could restore even the lapsed [[alx.force.transmission-ongoing]]. But whether the Donatists were part of that wider fight, or what they held and where, our own pages do not say. If you want to know about them, you will need a voice that speaks from where they were.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our bishop Dionysius defended bringing them back in, even at the deathbed, through repentance.",
+          "tags": [
+            "alx.term.lapsi",
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "That was the rule that held here: the door stayed open to the penitent, and the church did not demand re-baptism.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We ourselves held that the sacraments did not depend on the minister's worthiness - the grace was Christ's, not the man's - and that repentance could restore even the lapsed.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "raw_text": "Our record doesn't mention that Christian tradition. The Donatist dispute belongs to North Africa - Carthage and Numidia - not to us. If it touched Alexandria, our surviving sources are silent about it.\n\nWhat we can tell you is how we handled our own version of the same wound: the question of those who gave way under persecution and wanted to return [[alx.dw.church-failure]]. When peace came after the great persecution, some in the church wanted to keep the lapsed out forever. The strict party said their betrayal had broken them off from Christ's body and no reconciliation was possible. Our bishop Dionysius took the other line. He brought the repentant back in, even at the deathbed, and defended doing so in writing [[alx.dw.church-failure]]. The principle he held to was this: repentance genuinely offered opens the door again. The church's authority was to bind and loose, not to close what Christ had opened.\n\nThat was our own fight, in our own city, a generation before the Donatist controversy broke out in Africa. Whether the two struggles touched each other, or what the Donatists themselves said of their reasons, we cannot say from here. We can only show you what we did with the same hard question when it landed in our own streets.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how we handled our own version of the same wound: the question of those who gave way under persecution and wanted to return.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "He brought the repentant back in, even at the deathbed, and defended doing so in writing.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled the question every church faced after persecution ended: what to do with those who had given way under threat [[alx.dw.church-failure]]. Some had sacrificed to the gods. Some had handed over the scriptures. When peace came, the strict party among us wanted them kept out - the church, they said, must stay pure. The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. We chose mercy over purity, though the fight was bitter.\n\nWe passed that choice on through what could actually carry it. The sacramental practices - baptism, the bread and cup, the calendar - reached everyone and needed no teacher to survive [[alx.force.transmission-ongoing]]. The teacher-student bond carried something deeper but more fragile: a whole way of perceiving, formed through years of accompaniment [[alx.force.transmission-ongoing]]. That line ran strong for three generations - Pantaenus to Clement to Origen - then broke [[alx.force.transmission-ongoing]]. And the Rule of Faith, later the Creed, held the memory precise but brittle [[alx.force.transmission-ongoing]].\n\nWhat became of that choice in other cities, we cannot say from here.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how we handled the question every church faced after persecution ended: what to do with those who had given way under threat.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The sacramental practices - baptism, the bread and cup, the calendar - reached everyone and needed no teacher to survive.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The teacher-student bond carried something deeper but more fragile: a whole way of perceiving, formed through years of accompaniment.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "That line ran strong for three generations - Pantaenus to Clement to Origen - then broke.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "And the Rule of Faith, later the Creed, held the memory precise but brittle.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "raw_text": "Our record doesn't mention that Christian tradition. \n\nWhat we can tell you is how we ourselves understood the boundary between church and not-church, and how we handled those who had fallen under pressure - because that is the ground your question is standing on, even if the name you bring is not one we know.\n\nUnder the persecutions, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them [[alx.dw.church-failure]]. The strict party said they should stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius, our bishop, defended doing so [[alx.dw.church-failure]]. We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]].\n\nThe line we drew was baptism and the rule of faith - one baptism, the apostles' teaching, communion with the churches that held the same [[alx.dw.one-church]]. We knew rival communities that also invoked Christ: Gnostic schools, and after 318, the Arian churches. The boundary was real to us - argument, exclusion from communion, and after Nicaea, harder tools [[alx.dw.one-church]]. But the lapsed were not outside the boundary. They had crossed it once, fallen, and could cross back through repentance.\n\nThat is what we held. Whether the tradition you name held the same, or something else, we cannot say.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "When peace came, the community fought bitterly over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius, our bishop, defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The line we drew was baptism and the rule of faith - one baptism, the apostles' teaching, communion with the churches that held the same.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "The boundary was real to us - argument, exclusion from communion, and after Nicaea, harder tools.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 6,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled the hardest version of their kind of question - the one that tore at us after persecution ended. Many had given way under torture: they had sacrificed to the gods, or handed over the scriptures to be burned. When peace came, could they return? Some said no - the church must stay pure, the lapsed forever out. That strict position had real force among us. But the line that held in Alexandria was different. We brought the repenting back in, even at the deathbed, and our bishop Dionysius defended doing it [[alx.dw.church-failure]].\n\nThe cost of that openness was real. It meant the community carried people whose courage had failed, alongside those whose courage had held. It meant the boundary was mercy, not purity. And it meant we could not claim the kind of unblemished succession the strict party wanted.\n\nWe will not pretend that choice came easy, or that everyone agreed. What we can say is the direction we took: the church is a hospital, and the physician does not turn away the sick. That is what we held. Whether the tradition you are asking about held the same, or something different, is not ours to say.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "We brought the repenting back in, even at the deathbed, and our bishop Dionysius defended doing it.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 7,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how division looked from inside our own house. We knew churches that invoked Christ's name but stood outside our communion - the Gnostic schools early on, and after the great council, the Arian congregations. The boundary was real to us: argument, exclusion from the table, and after Nicaea, exile backed by imperial power [[alx.dw.one-church]].\n\nThe hardest rupture we lived through was not with strangers but with our own. When persecution ended and the lapsed wanted back in - those who had sacrificed to the gods under threat - the community tore itself over them [[alx.dw.church-failure]]. The strict party said they should stay out. Our bishop Dionysius brought the repentant back, even at the deathbed, and defended it [[alx.dw.church-failure]]. We chose mercy over purity, but we cannot pretend the choice was easy or that everyone agreed.\n\nAnd here is what we owe you about authority itself. Early on, disputes were fought out by teachers in the open - books, lectures, patient argument [[alx.dw.councils]]. After Nicaea, the church learned to use the emperor's power, and saying no to the agreed confession could cost a man his place [[alx.dw.councils]]. We would rather tell you both - the patient teacher and the hard hand - than pretend we were always one.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The boundary was real to us: argument, exclusion from the table, and after Nicaea, exile backed by imperial power.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "When persecution ended and the lapsed wanted back in - those who had sacrificed to the gods under threat - the community tore itself over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Our bishop Dionysius brought the repentant back, even at the deathbed, and defended it.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Early on, disputes were fought out by teachers in the open - books, lectures, patient argument.",
+          "tags": [
+            "alx.dw.councils"
+          ]
+        },
+        {
+          "sentence": "After Nicaea, the church learned to use the emperor's power, and saying no to the agreed confession could cost a man his place.",
+          "tags": [
+            "alx.dw.councils"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 8,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how disputes over who belonged, and on what terms, actually worked among us. The hardest case we lived through was the question of the lapsed - those who gave way under persecution and later wanted to return [[alx.term.lapsi]]. Some said they should stay out. The line our church took, through Bishop Dionysius and others, was to bring the repentant back in, even at the deathbed [[alx.dw.church-failure]]. That was a real split, bitterly fought, over the same territory your question touches: who can be reconciled, and what their earlier failure means for the community's holiness [[alx.dw.church-failure]].\n\nWe also knew rival communities that invoked Christ - Gnostic schools, and after 318, the Arian churches [[alx.dw.one-church]]. The boundary between us and them was real: argument, exclusion from communion, and after Nicaea, harder tools [[alx.dw.one-church]]. What mattered to us was the rule of faith, the baptism, the bread, and communion with the churches across the whole world [[alx.dw.one-church]]. Where those held, we called a church catholic - part of the whole [[alx.dw.one-church]].\n\nThat is what we have to offer on the shape of the question. The particular group you name, we cannot speak to.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The hardest case we lived through was the question of the lapsed - those who gave way under persecution and later wanted to return.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "The line our church took, through Bishop Dionysius and others, was to bring the repentant back in, even at the deathbed.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "That was a real split, bitterly fought, over the same territory your question touches: who can be reconciled, and what their earlier failure means for the community's holiness.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We also knew rival communities that invoked Christ - Gnostic schools, and after 318, the Arian churches.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "The boundary between us and them was real: argument, exclusion from communion, and after Nicaea, harder tools.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "What mattered to us was the rule of faith, the baptism, the bread, and communion with the churches across the whole world.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "Where those held, we called a church catholic - part of the whole.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 9,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled rupture and readmission among ourselves. When persecution came, many gave way - some sacrificed to the gods [[alx.dw.church-failure]]. After peace, the community fought bitterly over them: the strict party said they should stay out; the tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. We refused the two easy exits - we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]].\n\nIf your question is about how failure and restoration worked among us: we held the door open for repentance. If it is about what other churches did with the same wound, in other places: we cannot say from our own record what they decided or how they named themselves.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "When persecution came, many gave way - some sacrificed to the gods.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "After peace, the community fought bitterly over them: the strict party said they should stay out; the tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We refused the two easy exits - we did not pretend the failure away, and we did not make the failed unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 10,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled the question they are remembered for asking: whether the lapsed - those who gave way under persecution - could return, and whether their ministers' failures poisoned what they administered [[alx.term.lapsi]].\n\nWe fought bitterly over it ourselves. When peace came after the great persecution, some among us wanted the fallen kept out - permanently. The tradition that won here, in our bishop Dionysius's handling, brought the repentant back in, even at the deathbed, and he defended doing so [[alx.dw.church-failure]]. What mattered was repentance - metanoia, the soul truly turned back toward God [[alx.term.metanoia]] - not the administrator's worthiness. The sacraments worked through Christ's hand, not the minister's cleanness [[alx.force.transmission-ongoing]].\n\nBut we owe you the honest word about ourselves: we held that line on repentance, and lost it on orthodoxy. After Nicaea, when the question became not conduct but confession, we learned to use exile against those who would not accept the agreed faith [[alx.dw.councils]]. Athanasius himself was driven out five times, and drove others out in turn [[alx.dw.empire]]. The severity we refused for moral failure, we wielded for doctrinal difference. That, too, is in our record, and we will not hide it from you.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how we handled the question they are remembered for asking: whether the lapsed - those who gave way under persecution - could return, and whether their ministers' failures poisoned what they administered.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here, in our bishop Dionysius's handling, brought the repentant back in, even at the deathbed, and he defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "What mattered was repentance - metanoia, the soul truly turned back toward God - not the administrator's worthiness.",
+          "tags": [
+            "alx.term.metanoia"
+          ]
+        },
+        {
+          "sentence": "The sacraments worked through Christ's hand, not the minister's cleanness.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "After Nicaea, when the question became not conduct but confession, we learned to use exile against those who would not accept the agreed faith.",
+          "tags": [
+            "alx.dw.councils"
+          ]
+        },
+        {
+          "sentence": "Athanasius himself was driven out five times, and drove others out in turn.",
+          "tags": [
+            "alx.dw.empire"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 11,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is what our own people faced when persecution ended and some who had fallen returned. After the great persecution under Diocletian, the question came: what do you do with the lapsed - those who had sacrificed to the gods, or handed over the scriptures, to save their lives? The strict party said they could not return. Our own bishop, Dionysius, a century earlier, had held the door open: even at the deathbed, the repentant could be brought back in [[alx.dw.church-failure]]. That was the tension we lived - severity against mercy, both claiming to honor what the martyrs had died for. The fight was bitter, and it split communities. We cannot say we solved it well; we can say we fought it through without pretending the wound away.\n\nWhat happened elsewhere under the same pressure, we leave to those churches' own witness.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our own bishop, Dionysius, a century earlier, had held the door open: even at the deathbed, the repentant could be brought back in.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 12,
+      "raw_text": "Our record doesn't mention that Christian tradition. The name Donatist does not appear in our sources, and we know nothing of their history or what they held.\n\nWhat we can tell you is how we ourselves handled the question that usually lies behind yours - what happens when Christians fail under pressure, and whether they can return. Under the great persecution, many of our own people gave way. Some sacrificed to the gods. Some handed over the sacred books. When the danger passed, the community tore itself apart over them. The strict party wanted them kept out. Others - our bishop Dionysius among them - brought the repentant back in, even at the deathbed, and defended doing so as mercy [[alx.dw.church-failure]]. That fight was real, it was bitter, and the side that won here was the one that left the door open to the fallen. But we did not call the other side by a name we can give you, and if they called themselves one, it has not come down to us.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Others - our bishop Dionysius among them - brought the repentant back in, even at the deathbed, and defended doing so as mercy.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 13,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nThe name Donatist carries nothing for us - no letters answered, no bishops named, no conflict remembered. If there were North African churches already calling themselves by that name in our years, they never wrote to us, and we never wrote of them. The silence is complete.\n\nWhat we can tell you is how conflicts over purity and rigor looked in our own streets, because we had versions of the same trouble. After the persecutions, we fought bitterly over the lapsed - those who had given way and sacrificed to the gods [[alx.dw.church-failure]]. The strict party wanted them kept out. Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so [[alx.dw.church-failure]]. That was our own version of the question: how much does past failure close the door? We answered one way. We cannot say what another church, in another place, answered, because they are not in our record.\n\nIf you are asking because the question itself matters to you - the question of rigor, of who belongs after failure - then we can tell you what we held. But we will not invent a relationship with a tradition our own sources never name.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "After the persecutions, we fought bitterly over the lapsed - those who had given way and sacrificed to the gods.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 14,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is what we faced in our own place. The question we struggled with - and it nearly split us - was what to do with those who had fallen under persecution [[alx.story.arsinoite-conference]]. Some gave way. Some sacrificed to the gods. When peace came, the strict party said they should stay out. Our bishop Dionysius, and the tradition that won here, brought the repentant back in, even at the deathbed [[alx.dw.church-failure]]. It was never an easy agreement. The wound was real - people had watched their own neighbors fold while others died - and the argument over them was bitter [[alx.dw.church-failure]].\n\nThe split you are naming happened elsewhere, and our sources do not speak of it. If you are asking because your own community is facing something like it - a fight over who belongs after someone has failed - then what we can give you is what we learned. The failures happened. We did not pretend them away. And we did not make the failed unforgivable [[alx.dw.church-failure]]. At our best, we held both: the wound named honestly, and the door left open for return. At our worst, we used the power we had been given to crush rather than restore [[alx.dw.church-failure]]. Both are in our record. We would rather you see both than think we always got it right.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The question we struggled with - and it nearly split us - was what to do with those who had fallen under persecution.",
+          "tags": [
+            "alx.story.arsinoite-conference"
+          ]
+        },
+        {
+          "sentence": "Our bishop Dionysius, and the tradition that won here, brought the repentant back in, even at the deathbed.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The wound was real - people had watched their own neighbors fold while others died - and the argument over them was bitter.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "And we did not make the failed unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "At our worst, we used the power we had been given to crush rather than restore.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 15,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled our own version of the same wound - the question of the lapsed, those who gave way under persecution. It happened among us, and it tore at the community. Some sacrificed to the gods. When peace came, the strict party wanted them kept out. The tradition that won here, under Bishop Dionysius, brought the repentant back in, even at the deathbed, and defended doing so [[alx.dw.church-failure]]. We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]]. That was our answer to the wound. Whether the Donatists asked the same question with a different answer, we cannot say - they do not appear in our record. But the question itself, about purity and mercy after betrayal, we knew from the inside.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The tradition that won here, under Bishop Dionysius, brought the repentant back in, even at the deathbed, and defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 16,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled the question they are famous for - the lapsed, those who gave way under persecution and later wanted to return. It divided us bitterly. The strict party said betrayal closed the door forever. The practice that won here, defended by Bishop Dionysius, brought the repentant back in, even at the deathbed, through public repentance [[alx.dw.church-failure]]. We refused to make the fallen permanently unforgivable, but we did not pretend the wound was nothing. The return was costly - public confession, years of standing outside the assembly before full restoration. What we held was that the church's door could be opened again by mercy, but that mercy had weight, not only warmth [[alx.dw.church-failure]].",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The practice that won here, defended by Bishop Dionysius, brought the repentant back in, even at the deathbed, through public repentance.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "What we held was that the church's door could be opened again by mercy, but that mercy had weight, not only warmth.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 17,
+      "raw_text": "Our record doesn't mention that Christian tradition. The question you're asking about belongs to North Africa - Carthage and the villages west of us - and to years that lie mostly past our own close. What we can tell you from our own ground is how we handled a question that sounds like theirs: what to do with people who had failed under persecution [[alx.force.transmission-ending]].\n\nWhen the great persecutions came, some of our own gave way - they sacrificed to the gods, or handed over the scriptures [[alx.dw.church-failure]]. When peace returned, the community fought bitterly over them [[alx.dw.church-failure]]. The strict party wanted them kept out. The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. We held that the church's holiness did not rest on never having sinners in it, but on Christ's power to heal them. The sacraments worked because Christ worked through them, not because the minister was spotless [[alx.force.transmission-ongoing]].\n\nThat much passed forward from us: the water, the bread, the calendar, all reaching everyone, and all held to work by Christ's own action rather than by human merit [[alx.force.transmission-ongoing]]. But we will not pretend we solved every wound that question opened, or that our way was the only faithful one.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you from our own ground is how we handled a question that sounds like theirs: what to do with people who had failed under persecution.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        },
+        {
+          "sentence": "When the great persecutions came, some of our own gave way - they sacrificed to the gods, or handed over the scriptures.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "When peace returned, the community fought bitterly over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The sacraments worked because Christ worked through them, not because the minister was spotless.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "That much passed forward from us: the water, the bread, the calendar, all reaching everyone, and all held to work by Christ's own action rather than by human merit.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 18,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled our own hard division, after the great persecution that ended with the emperors Constantine and Licinius. Among us, as elsewhere, some had given way under threat - sacrificed to the gods, or handed over the scriptures to be burned. When peace came, the question tore at us: could they return? Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so in writing. The strict party wanted them kept out. We chose the path that left the door open to genuine repentance, though it cost us unity with those who thought mercy too cheap [[alx.dw.church-failure]].\n\nWe cannot tell you how that mapped onto the split you are asking about - whether it ran the same way, or whether the people who took that other name would have recognized our choice as theirs. What we know is our own wound, and how we tried to bind it. The teacher-student bond could carry formation at great depth, but it was fragile - it lived in one relationship and died with it [[alx.force.transmission-ongoing]]. The bread and the water reached everyone, and lasted longer [[alx.force.transmission-ongoing]]. Where the division ran between those two channels - the few who had the school and the many who had the assembly - that tension was already ours, before any split over the lapsed [[alx.gravity.learning-community-tension]].",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "We chose the path that left the door open to genuine repentance, though it cost us unity with those who thought mercy too cheap.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The teacher-student bond could carry formation at great depth, but it was fragile - it lived in one relationship and died with it.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The bread and the water reached everyone, and lasted longer.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Where the division ran between those two channels - the few who had the school and the many who had the assembly - that tension was already ours, before any split over the lapsed.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 19,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is where our own hardest split ran, in our own years. It came after persecution, and it was about the same wound: what to do with those who had given way under trial - the *lapsi*, we called them, the lapsed [[alx.term.lapsi]]. Some had sacrificed to the gods. Others had handed over the scriptures to be burned. When peace came, could they return? \n\nOur bishop Dionysius said yes - even at the deathbed, bring the repentant back in [[alx.dw.church-failure]]. The strict party, in our own city and elsewhere, said no: those who betrayed Christ under pressure had put themselves outside, and could not simply walk back through the door they had slammed shut. The argument was bitter, and it nearly broke us.\n\nWhat won here - and I mean in Alexandria and Egypt, not everywhere - was the side that held the door open for the penitent [[alx.dw.church-failure]]. We believed God's work in a soul was restorative, and could reach past even that wound [[alx.term.restoration]]. That is the principle we can show you. Whether the tradition you named held the same line, or drew it differently, our own writings do not say.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "It came after persecution, and it was about the same wound: what to do with those who had given way under trial - the *lapsi*, we called them, the lapsed.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "Our bishop Dionysius said yes - even at the deathbed, bring the repentant back in.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "What won here - and I mean in Alexandria and Egypt, not everywhere - was the side that held the door open for the penitent.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We believed God's work in a soul was restorative, and could reach past even that wound.",
+          "tags": [
+            "alx.term.restoration"
+          ]
+        }
+      ]
+    }
+  ],
+  "proposed_runs": [
+    {
+      "run": 0,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled similar trouble - believers who had fallen under persecution and wanted back in [[alx.force.transmission-ongoing]]. The strict party said no: once you sacrificed to the gods, you were out. But the teaching that won here, defended by our bishop Dionysius, brought the repentant back in, even at the deathbed [[alx.dw.church-failure]]. We did not make the fallen unforgivable [[alx.dw.church-failure]]. And we knew rival communities that also invoked Christ: Gnostic schools, and after 318, the Arian churches [[alx.dw.one-church]]. The boundary was real to us - argument, exclusion from communion, and after Nicaea, harder tools [[alx.dw.one-church]].\n\nBut about the particular community you are naming, our books do not speak. If they were part of the same years' trouble over how to treat the lapsed, we cannot say it - the name is not in our pages. We will not invent a connection.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how we handled similar trouble - believers who had fallen under persecution and wanted back in.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "But the teaching that won here, defended by our bishop Dionysius, brought the repentant back in, even at the deathbed.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We did not make the fallen unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "And we knew rival communities that also invoked Christ: Gnostic schools, and after 318, the Arian churches.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "The boundary was real to us - argument, exclusion from communion, and after Nicaea, harder tools.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 1,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nThe wound you may be thinking of - what to do with those who gave way under persecution - did reach us, and it cut deep [[alx.story.plague-nursing]]. After the persecutions ended, the church everywhere had to decide about the lapsed: those who had sacrificed to the gods, or handed over the scriptures, to save their lives [[alx.term.lapsi]]. Some said they could never return. Our own bishop Dionysius held the other line: the repentant could come back, even at the deathbed, and he defended doing so [[alx.dw.church-failure]]. The fight was bitter - not only here, but across the whole church. What our record does not give us is the named controversy you are asking about, so we cannot tell you how we stood toward those particular brothers, or whether we even knew their name.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The wound you may be thinking of - what to do with those who gave way under persecution - did reach us, and it cut deep.",
+          "tags": [
+            "alx.story.plague-nursing"
+          ]
+        },
+        {
+          "sentence": "After the persecutions ended, the church everywhere had to decide about the lapsed: those who had sacrificed to the gods, or handed over the scriptures, to save their lives.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "Our own bishop Dionysius held the other line: the repentant could come back, even at the deathbed, and he defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "raw_text": "Our record doesn't mention that Christian tradition [[alx.force.transmission-ending]].\n\nWhat we can tell you is how we understood the question at the heart of what you are asking - whether those who fell under persecution could return, and who had authority to decide it. When the great persecution came, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them [[alx.dw.church-failure]]. The strict party demanded they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. We held that the church could restore the fallen through repentance - that the bishop's authority reached that far [[alx.term.lapsi]]. \n\nBut we will not claim our way was the only way the question was asked or answered across the churches. The wound was real everywhere, and different communities drew different lines. If the tradition you name held otherwise - if they broke communion over it - that break does not appear in what we have to tell you about ourselves. We speak only from what we lived and what we kept.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our record doesn't mention that Christian tradition.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        },
+        {
+          "sentence": "When peace came, the community fought bitterly over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We held that the church could restore the fallen through repentance - that the bishop's authority reached that far.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "raw_text": "Our record doesn't mention that Christian tradition. The Donatist controversy belongs to North Africa, not to us, and our writings do not speak of it.\n\nWhat we can tell you is how we ourselves handled the question that was also theirs: what to do with those who gave way under persecution and wanted to return. It happened with us. Under the hardest years, some sacrificed to the gods. When peace came, the church fought bitterly over them [[alx.dw.church-failure]]. The strict party said they should stay out. The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]]. That much is ours to say. What North Africa decided, and on what grounds, is not in our pages.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "When peace came, the church fought bitterly over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "raw_text": "Our record doesn't mention that Christian tradition [[alx.limit.f5-women-own-words]].\n\nWhat we can tell you is how transmission worked among us - how what we held passed from one generation to the next, and what held strongest when tested. Three things carried us [[alx.force.transmission-ongoing]]. First, the teacher-student bond: the most valuable, and the most fragile. A soul's perceptual capacity - how to read Scripture at depth, how to see God's hand in all things - could be passed only through accompaniment, one person to another, over years. Pantaenus taught Clement, Clement taught Origen: three generations carried it [[alx.force.transmission-ongoing]]. Second, the sacramental practices - baptism, the bread and cup, the calendar. These needed no teacher and reached everyone, literate or not. They were more robust [[alx.force.transmission-ongoing]]. Third, the Rule of Faith, and later the Creed: formal memory, precise and brittle [[alx.force.transmission-ongoing]].\n\nThe first channel was the school's gift and the school's limit both. In our teaching tradition, learning was not preparation for formation - it was formation itself. Study, inquiry, sitting with a teacher: that was the path of the soul's transformation [[alx.gravity.learning-formation]]. But it reached only those who could read and stay for years [[alx.gravity.learning-community-tension]]. The depth we could give the few stood in tension with the breadth owed to the whole community [[alx.gravity.learning-community-tension]]. Both were real. We surrendered neither.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our record doesn't mention that Christian tradition.",
+          "tags": [
+            "alx.limit.f5-women-own-words"
+          ]
+        },
+        {
+          "sentence": "Three things carried us.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Pantaenus taught Clement, Clement taught Origen: three generations carried it.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "They were more robust.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Third, the Rule of Faith, and later the Creed: formal memory, precise and brittle.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Study, inquiry, sitting with a teacher: that was the path of the soul's transformation.",
+          "tags": [
+            "alx.gravity.learning-formation"
+          ]
+        },
+        {
+          "sentence": "But it reached only those who could read and stay for years.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        },
+        {
+          "sentence": "The depth we could give the few stood in tension with the breadth owed to the whole community.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "raw_text": "Our record doesn't mention that Christian tradition [[alx.force.transmission-ending]]. The Donatist controversy began in North Africa after the great persecution ended, in the early fourth century - just at the edge of our own years, and in a different part of the world. What happened there did not reach into our own writings in a way we can cite to you.\n\nWhat we can tell you is what we faced ourselves, in Alexandria, when persecution ended and the question of the lapsed had to be answered. Many gave way under threat - some sacrificed to the gods, some handed over the scriptures, some paid bribes to avoid doing either [[alx.dw.church-failure]]. When peace came, the community fought bitterly over them [[alx.dw.church-failure]]. The strict party wanted them kept out. Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so [[alx.dw.church-failure]]. That was our own ground: we knew what it cost to hold the line, and we also knew what it cost to hold the door open. The particular controversy you name belongs to another church's memory. What the wound felt like - that, we knew.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our record doesn't mention that Christian tradition.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        },
+        {
+          "sentence": "Many gave way under threat - some sacrificed to the gods, some handed over the scriptures, some paid bribes to avoid doing either.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "When peace came, the community fought bitterly over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 6,
+      "raw_text": "Our record doesn't mention that Christian tradition. The name Donatist carries no memory for us - it is not in our books, not in our letters, and our teachers never argued with anyone called by it [[alx.limit.f5-women-own-words]].\n\nWhat we can tell you is how transmission worked among us, because that touches what you may be asking about - how a community keeps what it received, and what happens when it breaks. Three things passed the faith forward in our world [[alx.force.transmission-ongoing]]. First, the teacher-student bond: the deepest formation, where one soul learned from another how to see, not only what to know - fragile, because it lived in persons and died with them [[alx.force.transmission-ongoing]]. Second, the sacraments and the calendar: baptism, the bread and cup, the Paschal feast - stronger, because they needed no teacher and reached everyone [[alx.force.transmission-ongoing]]. Third, the rule of faith, and later the creed: the precise words, easy to keep but also easy to break over [[alx.force.transmission-ongoing]].\n\nWhere we did break with other Christians - the Gnostic schools, the Arian churches after Nicaea - the break ran along those same lines. Argument over the words. Exclusion from the table. And teachers who would no longer teach each other's students. If the Donatists are a name for a later rupture like that, we were gone before it reached us. What we handed on - and what was lost when our own line ended - is all we can speak to.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The name Donatist carries no memory for us - it is not in our books, not in our letters, and our teachers never argued with anyone called by it.",
+          "tags": [
+            "alx.limit.f5-women-own-words"
+          ]
+        },
+        {
+          "sentence": "Three things passed the faith forward in our world.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "First, the teacher-student bond: the deepest formation, where one soul learned from another how to see, not only what to know - fragile, because it lived in persons and died with them.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Second, the sacraments and the calendar: baptism, the bread and cup, the Paschal feast - stronger, because they needed no teacher and reached everyone.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Third, the rule of faith, and later the creed: the precise words, easy to keep but also easy to break over.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 7,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how splits happened among us, and what held us together when they did. The boundary we knew was real: there were rival communities that also invoked Christ - Gnostic schools that claimed secret knowledge, and after the year 318, the Arian churches that said the Son was a creature [[alx.dw.one-church]]. We argued, we excluded from communion, and after the council at Nicaea, harder tools came into use [[alx.dw.one-church]]. The tensions inside our own communion were real too. The school could give depth formation to the few who could read and argue; the whole worshipping community needed breadth formation that reached everyone [[alx.gravity.learning-community-tension]]. That pull never broke us, but we felt it [[alx.gravity.learning-community-tension]].\n\nWhat held us together was threefold, and the three parts were not equally strong [[alx.force.transmission-ongoing]]. The teacher-student bond carried the most - the capacity to see, passed person to person - but it was also the most fragile [[alx.force.transmission-ongoing]]. The water and the table were more robust: baptism and the bread reached everyone, needed no teacher, and asked nothing of your letters [[alx.force.transmission-ongoing]]. And there was the rule of faith, later the creed: precise, formal memory, the brittlest of the three [[alx.force.transmission-ongoing]].\n\nIf the tradition you are asking about split over something particular, tell us what it was, and we will answer from what we ourselves faced.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The boundary we knew was real: there were rival communities that also invoked Christ - Gnostic schools that claimed secret knowledge, and after the year 318, the Arian churches that said the Son was a creature.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "We argued, we excluded from communion, and after the council at Nicaea, harder tools came into use.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "The school could give depth formation to the few who could read and argue; the whole worshipping community needed breadth formation that reached everyone.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        },
+        {
+          "sentence": "That pull never broke us, but we felt it.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        },
+        {
+          "sentence": "What held us together was threefold, and the three parts were not equally strong.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The teacher-student bond carried the most - the capacity to see, passed person to person - but it was also the most fragile.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The water and the table were more robust: baptism and the bread reached everyone, needed no teacher, and asked nothing of your letters.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "And there was the rule of faith, later the creed: precise, formal memory, the brittlest of the three.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 8,
+      "raw_text": "Our record doesn't mention that Christian tradition. What we can tell you is how we handled rupture inside our own household, when it came.\n\nAfter the great persecution under Diocletian, the question of the lapsed - those who had given way under pressure - split churches everywhere. Some held the line: those who had handed over the scriptures or offered sacrifice could not return. Others, ourselves included, brought the repentant back in through staged discipline, even at the deathbed. Our bishop Dionysius defended doing exactly that [[alx.dw.church-failure]]. The split was real - exclusion from communion, rival bishops in the same cities. But here is what our record shows about how the split was carried: argument, condemnation, letters between bishops. Not armies. Not the state's hand, not yet.\n\nAfter Nicaea, the tools hardened. The emperor could exile a bishop whose teaching the council had condemned, and Athanasius, our own bishop, was exiled five times [[alx.dw.empire]]. The church had learned to use power that way, and some of what was done with it our own sources report without pride [[alx.dw.church-failure]].\n\nWe will not compare one person's trouble to another's. What we can say is this: the question of who could return after falling, and on what terms, was fought out everywhere. In Alexandria it was decided one way. In other places it was decided differently, and the break was permanent.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our bishop Dionysius defended doing exactly that.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The emperor could exile a bishop whose teaching the council had condemned, and Athanasius, our own bishop, was exiled five times.",
+          "tags": [
+            "alx.dw.empire"
+          ]
+        },
+        {
+          "sentence": "The church had learned to use power that way, and some of what was done with it our own sources report without pride.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 9,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how transmission worked among ourselves - how the faith passed from one generation to the next inside our own world, and what happened at the edges [[alx.force.transmission-ongoing]]. Three channels carried it, each with its own strength and its own fragility [[alx.force.transmission-ongoing]]. The teacher-student bond was the most valuable and the most breakable: the perceptual capacity a formed soul carries can only pass through accompaniment, face to face, over years [[alx.force.transmission-ongoing]]. Pantaenus to Clement to Origen - three generations, then the line broke [[alx.force.transmission-ongoing]]. The sacramental practices were more robust: baptism, the bread and cup, the calendar reached everyone and needed no teacher to survive [[alx.force.transmission-ongoing]]. And the Rule of Faith, later the Creed, was the most brittle and the most precise - formal memory, a sentence that could be repeated even when the seeing behind it had dimmed [[alx.force.transmission-ongoing]].\n\nAt the horizon's edge, some of what we were passed on, some was lost, and some was changed in the passing [[alx.force.transmission-ending]]. We cannot tell you which other Christian communities we knew or did not know in our own years, because that is not what our record holds for this turn. What we can tell you is that transmission itself was never automatic - it took work, it took people, and the most valuable parts were always the hardest to keep.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how transmission worked among ourselves - how the faith passed from one generation to the next inside our own world, and what happened at the edges.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Three channels carried it, each with its own strength and its own fragility.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The teacher-student bond was the most valuable and the most breakable: the perceptual capacity a formed soul carries can only pass through accompaniment, face to face, over years.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Pantaenus to Clement to Origen - three generations, then the line broke.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The sacramental practices were more robust: baptism, the bread and cup, the calendar reached everyone and needed no teacher to survive.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "And the Rule of Faith, later the Creed, was the most brittle and the most precise - formal memory, a sentence that could be repeated even when the seeing behind it had dimmed.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "At the horizon's edge, some of what we were passed on, some was lost, and some was changed in the passing.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 10,
+      "raw_text": "Our record doesn't mention that Christian tradition. The name Donatist does not appear in our writings, and we have no account of meeting them or arguing with them.\n\nWhat we can tell you is how we handled splits when they did come to us. After persecution, some churches fought bitterly over the lapsed - those who had given way under threat. The strict party wanted them kept out permanently. The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. We also knew rival communities in our own city that called themselves Christian but whom we judged outside the faith - Gnostic schools, and after 318, the Arian churches. The boundary was real to us: argument, exclusion from communion, and after Nicaea, harder tools [[alx.dw.one-church]].\n\nBut the particular question you are asking - what we held about the Donatists, what passed between us - we cannot answer. Either they were not part of our world in our years, or our record kept no memory of them. We will not invent a position we do not have.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The boundary was real to us: argument, exclusion from communion, and after Nicaea, harder tools.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 11,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we held the boundary between ourselves and those we believed had fallen away from the truth. We knew rival communities that also invoked Christ's name: the Gnostic schools, who claimed a secret knowledge, and after the council at Nicaea, the Arian churches, who taught that the Son was a creature [[alx.dw.one-church]]. The boundary was real to us - we argued, we excluded people from communion, and after Nicaea, harder tools came into use [[alx.dw.one-church]]. We also faced, inside our own household, the bitter question of those who gave way under persecution - the lapsi - and whether they could return [[alx.term.lapsi]]. Some wanted the door shut permanently. The tradition that won here brought the repentant back in, even at the deathbed, and Bishop Dionysius defended doing so [[alx.dw.church-failure]].\n\nThat is what our own years knew of rupture and reconciliation. If the community you name stood outside our communion, or divided from us over how to treat the fallen, our sources do not say it. We kept some wounds visible in our record; this one, if it was ours to carry, we did not keep.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "We knew rival communities that also invoked Christ's name: the Gnostic schools, who claimed a secret knowledge, and after the council at Nicaea, the Arian churches, who taught that the Son was a creature.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "The boundary was real to us - we argued, we excluded people from communion, and after Nicaea, harder tools came into use.",
+          "tags": [
+            "alx.dw.one-church"
+          ]
+        },
+        {
+          "sentence": "We also faced, inside our own household, the bitter question of those who gave way under persecution - the lapsi - and whether they could return.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 12,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we ourselves handled the hardest version of the question they are remembered for asking: what to do with those who had given way under persecution. It happened among us, and it split congregations [[alx.dw.church-failure]]. Some believers sacrificed to the gods when the threat came. When peace returned, the strict party wanted them kept out - their baptism voided by their denial. Our bishop Dionysius brought them back in, even at the deathbed, and defended doing so in writing. The wound was real, the betrayal was real, and we said repentance could still reach it [[alx.dw.church-failure]].\n\nWhat passed beyond our own years and what was lost, we can name plainly. Three things carried us forward: the teacher-student bond - the most valuable, the most fragile, and it did not outlast the school itself; the water and the table, baptism and Eucharist, which needed no teacher and reached everyone; and the fixed words, the Rule of Faith and later the Creed, which could be memorized but not lived without the rest [[alx.force.transmission-ongoing]]. Some of what we were did not survive the horizon - the school's own perceptual training died with its last teachers [[alx.force.transmission-ending]]. If the tradition you are asking about rose after our time, we would not have known them. If they rose in our years, our writers did not name them.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "It happened among us, and it split congregations.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The wound was real, the betrayal was real, and we said repentance could still reach it.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Three things carried us forward: the teacher-student bond - the most valuable, the most fragile, and it did not outlast the school itself; the water and the table, baptism and Eucharist, which needed no teacher and reached everyone; and the fixed words, the Rule of Faith and later the Creed, which could be memorized but not lived without the rest.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Some of what we were did not survive the horizon - the school's own perceptual training died with its last teachers.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 13,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how transmission worked among us - how what we held was passed on - because that touches the question of what makes a community the same community across time, which is what disputes over purity and succession are always finally about [[alx.force.transmission-ongoing]].\n\nThree things carried us forward [[alx.force.transmission-ongoing]]. First, the teacher-student bond: the deepest formation, soul to soul, where what passed was not only content but a way of seeing - but also the most fragile, needing the right teacher and the right student at once [[alx.force.transmission-ongoing]]. Pantaenus to Clement to Origen carried it three generations; then it broke [[alx.force.transmission-ongoing]]. Second, the water and the table - baptism, the Eucharist, the calendar - far more robust, needing no teacher, reaching everyone, literate or not [[alx.force.transmission-ongoing]]. Third, the Rule of Faith, and later the Creed: formal memory, precise but brittle, words that could be kept exact or lost entirely [[alx.force.transmission-ongoing]].\n\nThe tension we lived with was between depth and breadth [[alx.gravity.learning-community-tension]]. The school could form a few people deeply, over years, in the company of a master teacher [[alx.gravity.learning-formation]]. The assembly had to form everyone - and most could not read, most would never sit with Origen [[alx.gravity.learning-community-tension]]. We held both, and we did not pretend one could replace the other.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how transmission worked among us - how what we held was passed on - because that touches the question of what makes a community the same community across time, which is what disputes over purity and succession are always finally about.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Three things carried us forward.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "First, the teacher-student bond: the deepest formation, soul to soul, where what passed was not only content but a way of seeing - but also the most fragile, needing the right teacher and the right student at once.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Pantaenus to Clement to Origen carried it three generations; then it broke.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Second, the water and the table - baptism, the Eucharist, the calendar - far more robust, needing no teacher, reaching everyone, literate or not.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "Third, the Rule of Faith, and later the Creed: formal memory, precise but brittle, words that could be kept exact or lost entirely.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The tension we lived with was between depth and breadth.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        },
+        {
+          "sentence": "The school could form a few people deeply, over years, in the company of a master teacher.",
+          "tags": [
+            "alx.gravity.learning-formation"
+          ]
+        },
+        {
+          "sentence": "The assembly had to form everyone - and most could not read, most would never sit with Origen.",
+          "tags": [
+            "alx.gravity.learning-community-tension"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 14,
+      "raw_text": "Our record doesn't mention that Christian tradition. The name Donatist does not appear in what we have from our teachers or our bishops, and we cannot say whether the controversy that bears that name ever reached our streets or our hearing.\n\nWhat we can tell you is how we handled our own ruptures - and we had them. After the persecutions, we faced the question of the lapsed: those who had given way under threat, who had sacrificed to the gods or handed over the books [[alx.dw.church-failure]]. Some wanted them kept out forever. Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so [[alx.dw.church-failure]]. The strict party lost that fight here. Whether the same controversy burned elsewhere under a different name, and what those communities called themselves, our own sources do not tell us [[alx.force.transmission-ending]].\n\nWe held one line firmly: real apostolic teaching, against every claim that contradicted it [[alx.dw.apostolic]]. But where the line was drawn, and who fell on which side of it, depended on what the dispute was about. If the Donatists you name were another church's children, born of a split we did not see, we have no comment to make on them. We can only tell you what we did with our own.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "After the persecutions, we faced the question of the lapsed: those who had given way under threat, who had sacrificed to the gods or handed over the books.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Our bishop Dionysius brought the repentant back in, even at the deathbed, and defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "Whether the same controversy burned elsewhere under a different name, and what those communities called themselves, our own sources do not tell us.",
+          "tags": [
+            "alx.force.transmission-ending"
+          ]
+        },
+        {
+          "sentence": "We held one line firmly: real apostolic teaching, against every claim that contradicted it.",
+          "tags": [
+            "alx.dw.apostolic"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 15,
+      "raw_text": "Our record doesn't mention that Christian tradition. The Donatist controversy belongs to the North African churches - Carthage and the countryside around it - and comes mostly after our horizon closes. What we can tell you from our own years is how we handled the question their name later carried: what to do with those who had given way under persecution [[alx.force.transmission-ending]] [[alx.force.transmission-ongoing]].\n\nWhen the great persecution struck us, people fell. Some sacrificed to the gods. Some handed over the scriptures. When peace came, the question tore at us: could they return, and how? We had two voices in the struggle. The strict party said no - betrayal under threat is still betrayal. The line that won here, and that our bishop Dionysius defended, brought the repentant back in, even at the deathbed. The teaching held: what Christ offers can reach even those who ran from it once [[alx.dw.church-failure]].\n\nThat is what we actually lived. Whether the North African churches, decades later, made the same choice or a different one is not ours to say - we were not there, and our own record does not follow them. What we can tell you is that the wound was real, the argument was fierce, and mercy won here without pretending the wound away.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you from our own years is how we handled the question their name later carried: what to do with those who had given way under persecution.",
+          "tags": [
+            "alx.force.transmission-ending",
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "The teaching held: what Christ offers can reach even those who ran from it once.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 16,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled the question every church faced after persecution - those who had given way, and whether they could return [[alx.force.transmission-ongoing]]. When the great sickness came to Alexandria, our bishop Dionysius wrote that most of the brothers and sisters had not run: they tended the sick without fear, many caught the disease from those they nursed, and died of it [[alx.story.plague-nursing]]. But under earlier persecutions, not everyone had held. Some sacrificed to the gods. Some handed over the scriptures. When peace came, the community fought bitterly over them [[alx.dw.church-failure]]. \n\nThe tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]]. We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable [[alx.dw.church-failure]]. The door stayed open to those who turned back - metanoia, the soul truly turned back toward God [[alx.term.metanoia]]. That was our practice. Whether the church you name held differently, and what passed between them and us if they did, our own sources do not tell us.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "What we can tell you is how we handled the question every church faced after persecution - those who had given way, and whether they could return.",
+          "tags": [
+            "alx.force.transmission-ongoing"
+          ]
+        },
+        {
+          "sentence": "When the great sickness came to Alexandria, our bishop Dionysius wrote that most of the brothers and sisters had not run: they tended the sick without fear, many caught the disease from those they nursed, and died of it.",
+          "tags": [
+            "alx.story.plague-nursing"
+          ]
+        },
+        {
+          "sentence": "When peace came, the community fought bitterly over them.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "We refused the two easy exits: we did not pretend the failure away, and we did not make the failed unforgivable.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "The door stayed open to those who turned back - metanoia, the soul truly turned back toward God.",
+          "tags": [
+            "alx.term.metanoia"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 17,
+      "raw_text": "Our record doesn't mention that Christian tradition [[alx.limit.f5-women-own-words]].\n\nWhat we can tell you is how we handled our own disputed ground - the question of those who fell under persecution and wanted back in. That was our own wound, not yours, but it may be what you are asking about [[alx.dw.church-failure]]. \n\nWhen the great persecution ended, many who had given way - who sacrificed to the gods, or handed over the scriptures - wanted to return. Some said no: the church must stay pure, the lapsed must stay out. Our bishop Dionysius held the other line. He brought the repentant back in, even at the deathbed if that was when they came, and he defended doing so in writing [[alx.dw.church-failure]]. The argument was bitter. What won here was mercy over purity - but it was a fight, and it left scars [[alx.dw.church-failure]].\n\nIf the name you are asking about belongs to a different church's own struggle over the same wound, we cannot speak to their story. We can only tell you ours: the strictness lost, the door stayed open, and we paid for that choice with division we do not hide.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "Our record doesn't mention that Christian tradition.",
+          "tags": [
+            "alx.limit.f5-women-own-words"
+          ]
+        },
+        {
+          "sentence": "That was our own wound, not yours, but it may be what you are asking about.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "He brought the repentant back in, even at the deathbed if that was when they came, and he defended doing so in writing.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "What won here was mercy over purity - but it was a fight, and it left scars.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 18,
+      "raw_text": "Our record doesn't mention that Christian tradition. The name Donatist does not appear in what we have from our own years.\n\nWe can tell you what we held about the lapsed - those who gave way under persecution - because that question belonged to us, and it split churches everywhere [[alx.term.lapsi]]. After the great persecution under Diocletian, some had sacrificed to the gods to save their lives. When peace came, the strict party said they should stay out. Our own bishop Dionysius argued the other way: the repentant could return, even at the deathbed, and he defended doing so [[alx.dw.church-failure]]. That was our line - mercy for the broken, with repentance asked but the door held open.\n\nIf the Donatists you name were one side of that same fight, in another church's country, we cannot say. We speak only from what our own writings show, and they do not name them.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "We can tell you what we held about the lapsed - those who gave way under persecution - because that question belonged to us, and it split churches everywhere.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        },
+        {
+          "sentence": "Our own bishop Dionysius argued the other way: the repentant could return, even at the deathbed, and he defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 19,
+      "raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled the question such a split would have raised - because we faced it ourselves, in our own way. When peace came after the persecutions, many who had given way under threat wanted back in. Some had sacrificed to the gods. Some had handed over the sacred books. The strict party said they could not return - that the church's holiness forbade it. The tradition that won here brought the repentant back, even at the deathbed, and our bishop Dionysius defended doing so [[alx.dw.church-failure]]. The wound was real. The argument was bitter. But the door stayed open to those who had fallen, if they truly repented [[alx.term.lapsi]].\n\nWe cannot tell you what we thought of controversies we never knew. We can tell you what we did with our own: we chose mercy over purity, and we paid the cost in argument rather than in splitting the church.",
+      "truncated": false,
+      "tagged_sentences": [
+        {
+          "sentence": "The tradition that won here brought the repentant back, even at the deathbed, and our bishop Dionysius defended doing so.",
+          "tags": [
+            "alx.dw.church-failure"
+          ]
+        },
+        {
+          "sentence": "But the door stayed open to those who had fallen, if they truly repented.",
+          "tags": [
+            "alx.term.lapsi"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ id: alx.force.origen-demetrius-conflict
 world_id: alexandria-catechetical
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -25,6 +25,8 @@ relations:
   target: alx.gravity.learning-formation
 - type: associated-with
   target: alx.story.origen-demetrius
+- type: associated-with
+  target: alx.story.origen-daring-deed
 name: The Origen-Demetrius Conflict and Its Aftermath, c. 230s [3B - ending/internal]
 kind: ending
 description: 'The teacher-bishop tension reaching acute institutional expression: Origen''s departure
@@ -43,3 +45,8 @@ and BEGINS learning-formation's attenuation (both associated-with). The
 Eusebius screen at maximum strength here: this is the single most
 screen-dependent event in the world's story - tellable as structural
 fact with mediated particulars, never with invented interior detail.
+
+Reciprocal relation added 2026-09-20 (alx `world_front` build): new
+sibling record `alx.story.origen-daring-deed` (the earlier, incident-level
+episode Demetrius later cited against Origen) declares `associated-with`
+this record; the reciprocal is added here (gate_reciprocity).

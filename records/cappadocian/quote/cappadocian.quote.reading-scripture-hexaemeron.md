@@ -3,7 +3,7 @@ id: cappadocian.quote.reading-scripture-hexaemeron
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -44,18 +44,15 @@ retrieval:
   retrieve_when:
   - "participant asks how this world's teachers actually read Genesis - for bare facts, for hidden codes, or something else"
   - "participant asks how looking closely at ordinary created things counts as real theology in this tradition"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.reading-scripture
 modern_rendering: >-
-  If we just read the words of Scripture, we find only a few short
-  syllables: "Let the waters bring forth flying creatures above the
-  earth, across the dome of the sky." But ask what those words
-  actually mean, and the sheer wonder of the Creator's wisdom comes
-  into view. Think of the differences he foresaw among all the flying
-  creatures. Think how he sorted them into kinds, and gave each one
-  its own distinguishing features!
+  If we simply read the words of Scripture, we find only a few short syllables: "Let the
+  waters bring forth flying creatures that fly above the earth in the open firmament of
+  heaven." But if we ask what these words mean, the great wonder of the Creator's wisdom
+  appears. What a difference he foresaw among the winged creatures! How he divided them by
+  kinds! How he marked each one with its own distinct qualities!
 ---
 Verified verbatim 2026-09-02 directly against the vendored
 npnf208_basil-letters-select-works.xml. Located with `grep -n -i "if we

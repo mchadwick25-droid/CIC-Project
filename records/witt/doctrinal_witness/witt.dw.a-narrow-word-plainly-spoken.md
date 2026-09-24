@@ -3,7 +3,7 @@ id: witt.dw.a-narrow-word-plainly-spoken
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -27,7 +27,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether we believed outsiders were going to hell"
   - "participant asks whether we thought Christianity was too narrow -- one way, out of all the world's ways"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks specifically about divorce and remarriage -- our library was not independently verified on this question by this authoring pass, and this record does not answer it"
 text: >-
   Did we believe outsiders were going to hell? Our confession states the

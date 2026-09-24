@@ -3,7 +3,7 @@ id: alx.quote.dionysius-plague
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -31,7 +31,6 @@ retrieval:
   - "participant asks what happened in an epidemic and what Christians did"
   - "participant asks how they cared for the dying and buried the dead"
   - "participant asks what outsiders noticed about their behaviour in a crisis"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.plague-nursing
@@ -39,6 +38,13 @@ text: The most of our brethren were unsparing in their exceeding love and brothe
   fast to each other and visited the sick fearlessly, and ministered to them continually, serving them
   in Christ. And they died with them most joyfully, taking the affliction of others, and drawing the sickness
   from their neighbors to themselves and willingly receiving their pains.
+modern_rendering: >-
+  Most of our people held nothing back in their overflowing love and
+  kindness toward one another. They stayed close to each other, visited
+  the sick without fear, and cared for them continually, serving them in
+  Christ. And they died alongside them most joyfully. They took on
+  others' suffering, drawing the sickness from their neighbors onto
+  themselves, and willingly taking on their pain.
 speaker_or_author: alx.figure.dionysius
 license: verbatim
 modern_lens_note: >

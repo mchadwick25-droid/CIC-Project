@@ -3,7 +3,7 @@ id: ijc.quote.leo-tome-each-form
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -18,11 +18,17 @@ sources:
 - source_id: ijc.source.leo-letters
   locus: Ep. XXVIII (the Tome), ch. IV (npnf212 lines 5365-5381)
   license: public-domain
-text: 'For He who is true God is also true man: and in this union there is no lie, since the humility
+text: 'For He who is true God is also true man: and in this union there is no lie , since the humility
   of manhood and the loftiness of the Godhead both meet there. For as God is not changed by the showing
   of pity, so man is not swallowed up by the dignity. For each form does what is proper to it with the
-  co-operation of the other; that is the Word performing what appertains to the Word, and the flesh
+  co-operation of the other ; that is the Word performing what appertains to the Word, and the flesh
   carrying out what appertains to the flesh.'
+modern_rendering: >-
+  He who is true God is also true man. In this union there is no falsehood, since the
+  lowliness of manhood and the majesty of the Godhead both meet there. Just as God is not
+  changed by showing mercy, so man is not swallowed up by that dignity. Each form does
+  what belongs to it, working together with the other: the Word performs what belongs to
+  the Word, and the flesh carries out what belongs to the flesh.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-
@@ -33,7 +39,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they held together Jesus being God and being a man"
   - "participant asks what a bishop wrote to settle a dispute about it"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.tome-that-would-not-bend}
 ---
@@ -43,3 +48,6 @@ appertains to the flesh" completes the sentence past the extraction
 window, verified in place). The Tome's most-quoted movement - the
 two-natures teaching Chalcedon's Definition takes up, in the letter
 that carried Rome's standing to a council its bishop did not attend.
+
+Quote-verbatim gate fix (2026-09-22): restored the source's own spaces before two punctuation marks
+("lie ," and "other ;") that the record had closed up. No wording changed.

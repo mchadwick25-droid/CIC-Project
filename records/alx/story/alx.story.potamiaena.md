@@ -3,7 +3,7 @@ id: alx.story.potamiaena
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - martyrdom remembered
   - women in the community's memory
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: alx.gravity.martyrdom-contemplative-tension

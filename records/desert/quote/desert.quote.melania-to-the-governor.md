@@ -3,7 +3,7 @@ id: desert.quote.melania-to-the-governor
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -30,6 +30,11 @@ text: >-
   handmaiden of Christ. Do not treat lightly my poor garb and estate, for I have the power to exalt
   myself if it pleaseth me to do so, and thou hast no authority either to hamper me in this fashion
   or to carry off any of my property.
+modern_rendering: >-
+  I am the daughter of such-and-such a man, and the wife of such-and-such a man, and I am the
+  handmaid of Christ. Do not treat my poor clothing and condition lightly. I have the power to raise
+  myself up again, if it pleases me to do so. And you have no authority either to hold me like this,
+  or to carry off any of my property.
 speaker_or_author: Melania the Great, as Palladius reports her to the governor of Palestine
 license: verbatim
 modern_lens_note: >-
@@ -47,7 +52,6 @@ retrieval:
   - "participant asks what wealthy people did with their money and property"
   - "participant asks whether rank and family still counted after someone gave everything away"
   - "participant asks how they dealt with officials and the authorities"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

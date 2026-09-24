@@ -3,7 +3,7 @@ id: cappadocian.dw.doubt-and-unfinished-growth
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -33,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether doubt was treated as sin here, or whether there was room for it"
   - "participant says they were baptized long ago and feel like the same person still"
-  do_not_retrieve_when: []
 text: >-
   Doubt was not, for us, the opposite of faith - overconfidence was. We
   built our whole way of speaking about God around one honest limit: no

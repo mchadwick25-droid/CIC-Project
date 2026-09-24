@@ -3,7 +3,7 @@ id: alx.quote.clement-rash-martyrdom
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -19,10 +19,19 @@ sources:
   license: public-domain
 text: Now we, too, say that those who have rushed on death (for there are some, not belonging to us, but
   sharing the name merely, who are in haste to give themselves up, the poor wretches dying through hatred
-  to the Creator)—these, we say, banish themselves without being martyrs, even though they are punished
+  to the Creator )—these, we say, banish themselves without being martyrs, even though they are punished
   publicly. For they do not preserve the characteristic mark of believing martyrdom, inasmuch as they
   have not known the only true God, but give themselves up to a vain death,
   as the Gymnosophists of the Indians to useless fire.
+modern_rendering: >-
+  Now we too say this about those who rush toward death. There are some,
+  not truly one of us but bearing the name only, who are eager to give
+  themselves up, poor wretches, dying out of hatred for the Creator. These
+  people, we say, banish themselves from true martyrdom even though they
+  suffer publicly for it. They do not carry the mark of a believing
+  martyr's death, because they have not known the one true God. They give
+  themselves up to a pointless death, like the naked sages of the Indians,
+  who throw themselves onto a useless fire.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -33,7 +42,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether wanting to die for the faith was healthy or a death wish"
   - "participant asks whether they ever thought someone went looking for martyrdom too eagerly"
-  do_not_retrieve_when: []
 ---
 The world's own answer to the 'martyrdom is a death wish' charge (F6-E):
 its greatest teacher CENSURED rushing on death - witness is not
@@ -46,3 +54,8 @@ themselves up to a vain death, as the Gymnosophists of the Indians to
 useless fire." The text field matches this full sentence verbatim. (The
 word "Demiurgus" attached mid-sentence to "the Creator" is a separate
 editor's footnote, not primary text, and is excluded.)
+
+Quote-verbatim gate fix (2026-09-22): the record's own text had dropped
+the source's space before the closing parenthesis ("Creator)—these"
+where the source reads "Creator )—these") - restored; no wording
+changed.

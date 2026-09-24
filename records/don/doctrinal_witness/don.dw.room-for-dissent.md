@@ -3,7 +3,7 @@ id: don.dw.room-for-dissent
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -44,7 +44,6 @@ retrieval:
   - participant asks whether there was room for doubt among us
   - participant asks what someone did when they could not believe what their own church taught
   - participant asks whether God could be felt and experienced among us or only believed
-  do_not_retrieve_when: []
 text: >-
   Was there room for doubt? We can show you two rooms, and you should
   look at both.

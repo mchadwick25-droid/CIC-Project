@@ -3,7 +3,7 @@ id: pahc.witness.coming-to-belief
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant expresses wanting to believe but struggling to"
   - "participant asks what coming to belief was actually like for someone in this world"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "One of this world's own voices, Justin, describes coming to belief not as a sudden certainty but as the end of a long search - he had already tried other philosophies before an old man's conversation left him with 'a flame was kindled in my soul,' and he calls what followed 'this philosophy alone... safe and profitable.'"

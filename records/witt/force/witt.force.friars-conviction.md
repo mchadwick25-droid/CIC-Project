@@ -3,7 +3,7 @@ id: witt.force.friars-conviction
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -36,11 +36,11 @@ name: A friar-professor's conviction that the church's practice rested on an aut
 kind: initiating
 matrix_cell: 1B
 description: 'LAYER 1 (Historical Event). A conviction ''argued first over the specific, bounded question
-  of indulgence sales, then rapidly generalized'' (Doc_01 §7, Documented). Its documented object is what
+  of indulgence sales, then rapidly generalized''. Its documented object is what
   the church claims to hold and dispense -- a treasury of merit exchangeable for the remission of penalty
   -- the specific mechanism the Theses attack, and this world''s own generating occasion. The conviction''s
   own narrative is NOT in the library: the 1545 preface stops before the ''tower experience'' passage,
-  and the dating of any ''breakthrough'' is Contested and moot for this library. What IS in the library
+  and the dating of any ''breakthrough'' remains disputed and moot for this library. What IS in the library
   is the conviction''s public form: the Theses and the 1520 treatises. LAYER 2 (World''s Own Experience).
   The founder''s own account of how it began is a preface written in 1545 with an explicit frame -- ''Such
   a Saul was I at that time'' (v1 365); he ''fell, quite unexpectedly, into this wrangling and contention''

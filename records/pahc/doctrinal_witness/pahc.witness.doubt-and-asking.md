@@ -3,7 +3,7 @@ id: pahc.witness.doubt-and-asking
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -22,7 +22,6 @@ retrieval:
   retrieve_when:
   - "participant expresses doubt and fears it is treated as a failure"
   - "participant asks whether this world made room for doubt"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "One of this world's own voices, Hermas, treats doubt as a named condition - being 'double-souled' - not as an unforgivable failure, but as something to recognize, name, and work against, with the Lord's own patience assumed rather than denied."

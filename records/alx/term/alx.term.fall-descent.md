@@ -3,7 +3,7 @@ id: alx.term.fall-descent
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - Origen's pre-existence or pre-cosmic fall teaching specifically
   - what "the Alexandrian view of the Fall" was, beyond the confessed core
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about sin, death, or fallenness as lived and confessed (retrieve alx.term.hamartia or
     alx.term.thanatos, not the speculative stratum)
   - asking about the later 553 condemnation as settled history - out of this world's horizon

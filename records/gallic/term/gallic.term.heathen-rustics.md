@@ -3,7 +3,7 @@ id: gallic.term.heathen-rustics
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -40,7 +40,7 @@ retrieval:
   - who the "rustics" were, or how the countryside was converted
   - participant uses "pagan," "heathen," "peasants," "temple," "idol," "mission," "evangelize"
   - the veiled images; the burned temple; the sacred pine; the assassin; "very few, nay, almost none ... had received the name of Christ"
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Cassian's "heathen" philosophers or "ingrained heathen habits" - a different referent
   - the question is about the Roman province politically (retrieve Gaul)
   - the south, where no pagan countryside appears at all

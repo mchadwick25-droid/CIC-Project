@@ -3,7 +3,7 @@ id: ijc.quote.he-deferred-it-in-the-hope
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   Being at length convinced that his life was drawing to a close, he felt the time was come at which he should seek purification from sins of his past career, firmly believing that whatever errors he had committed as a mortal man, his soul would be purified from them through the efficacy of the mystical words and the salutary waters of baptism. Impressed with these thoughts, he poured forth his supplications and confessions to God, kneeling on the pavement in the church itself, in which he also now for the first time received the imposition of hands with prayer.
+modern_rendering: >-
+  At last convinced that his life was drawing to a close, he felt that the time had come
+  to seek purification from the sins of his past. He firmly believed that whatever errors
+  he had committed as a mortal man, his soul would be cleansed of them through the power
+  of the mystical words and the healing waters of baptism. Moved by these thoughts, he
+  poured out his prayers and confessions to God, kneeling on the floor of the church
+  itself. There, for the first time, he also received the laying on of hands with prayer.
 speaker_or_author: Eusebius of Caesarea, Life of Constantine
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +38,6 @@ retrieval:
   - "participant asks when people here were baptised, or whether babies were"
   - "participant asks whether the emperors were really Christians"
   - "participant asks what baptism did for a person in this world"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.baptism-threshold

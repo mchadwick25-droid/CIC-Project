@@ -3,7 +3,7 @@ id: syr.story.jacob-nicaea
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - how this world connects to Nicaea or the imperial church's councils
   - Jacob of Nisibis's standing
-  do_not_retrieve_when:
+  prefer_instead:
   - requests to blend this with the siege-deliverance miracle (separate story, different reliability)
 relations:
 - type: associated-with

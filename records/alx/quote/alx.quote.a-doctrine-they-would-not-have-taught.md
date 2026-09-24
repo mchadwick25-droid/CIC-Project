@@ -3,7 +3,7 @@ id: alx.quote.a-doctrine-they-would-not-have-taught
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   But a clear and unmistakeable proof of the fact I hold to be the undertaking of His disciples, who devoted themselves to the teaching of a doctrine which was attended with danger to human life,—a doctrine which they would not have taught with such courage had they invented the resurrection of Jesus from the dead; and who also, at the same time, not only prepared others to despise death, but were themselves the first to manifest their disregard for its terrors.
+modern_rendering: >-
+  I hold this to be clear, unmistakable proof: his disciples committed
+  themselves to teaching a doctrine that put their own lives in danger. It
+  was a doctrine they would not have taught with such courage if they had
+  invented the resurrection of Jesus from the dead. And at the same time,
+  they did not just prepare others to despise death. They were themselves
+  the first to show their disregard for its terrors.
 speaker_or_author: Origen of Alexandria, Against Celsus
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +38,6 @@ retrieval:
   - "participant asks how anyone knows the resurrection really happened"
   - "participant asks what evidence this world had for its central claim"
   - "participant asks whether the disciples could have invented it"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.dw.resurrection

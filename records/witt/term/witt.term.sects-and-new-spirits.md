@@ -3,7 +3,7 @@ id: witt.term.sects-and-new-spirits
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -38,7 +38,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - sects, new spirits, fanatics, enthusiasts, or Anabaptists
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the radicals' own account of themselves -- our library does not carry it
 relations:
 - type: associated-with
@@ -87,6 +87,6 @@ senses:
 quick_meaning: Our own names for the radicals, charged with claiming the Spirit apart from the Word.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 6.8 (sects / 'new spirits' / Anabaptists, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Source Registry rows cited: R7, R25, R28, R34, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 6.8 (sects / 'new spirits' / Anabaptists, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

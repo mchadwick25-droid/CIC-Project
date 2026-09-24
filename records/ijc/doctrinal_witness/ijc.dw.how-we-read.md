@@ -3,7 +3,7 @@ id: ijc.dw.how-we-read
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   We read our scriptures the way we read everything else: as binding
   authority. Where other Christian eras read the Bible for private

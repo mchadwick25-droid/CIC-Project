@@ -3,7 +3,7 @@ id: pahc.story.grandsons-before-domitian
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -28,7 +28,6 @@ retrieval:
   - what ordinary Christians were like - poor, working, unlettered
   - whether the first Christians were rich or educated
   - what happened to Jesus' own family
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: pahc.gravity.state-pressure}
 narrative_tier: 1

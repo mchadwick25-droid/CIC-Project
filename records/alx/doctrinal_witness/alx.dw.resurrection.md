@@ -3,7 +3,7 @@ id: alx.dw.resurrection
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How did we know the resurrection happened? We pointed first to what
   we could see: lives. Origen answered the pagan critic Celsus point by point,

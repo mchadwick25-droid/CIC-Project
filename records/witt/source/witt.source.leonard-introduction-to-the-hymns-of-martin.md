@@ -3,7 +3,7 @@ id: witt.source.leonard-introduction-to-the-hymns-of-martin
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -24,4 +24,4 @@ discovery_channel: builder-direct-read; Source Registry row 66; hymns file; 2026
 external_ids:
   witt_source_registry_row: 66
 ---
-Hymn chronology and edition history (Doc_02 §5); Walter/Spangenberg quotations (R45, R47); Narrative Source Author Gravity entry (§3.4); the Speratus-under-the-window anecdote (Tier 3). (Source Registry row 66; Confidence A.)
+Hymn chronology and edition history (Doc_02 §5); Walter/Spangenberg quotations; Narrative Source Author Gravity entry (§3.4); the Speratus-under-the-window anecdote (Tier 3). (Source Registry row 66; Confidence A.)

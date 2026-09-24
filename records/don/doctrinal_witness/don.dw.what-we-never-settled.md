@@ -3,7 +3,7 @@ id: don.dw.what-we-never-settled
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -44,7 +44,6 @@ retrieval:
   retrieve_when:
   - participant asks what troubled us about our own community
   - participant asks what we never settled, or what the hardest true thing about us is
-  do_not_retrieve_when: []
 text: >-
   Three things, and we will give them to you in the order that hurts.
 

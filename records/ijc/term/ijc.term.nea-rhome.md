@@ -3,7 +3,7 @@ id: ijc.term.nea-rhome
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -24,7 +24,7 @@ retrieval:
   retrieve_when:
   - why Constantinople calls itself "New Rome"
   - the city's founding as an imperial capital
-  do_not_retrieve_when:
+  prefer_instead:
   - the question concerns the rank-claim itself rather than the city's designation (presbeia instead)
 relations:
 - {type: associated-with, target: ijc.term.presbeia}

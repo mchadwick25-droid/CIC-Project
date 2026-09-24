@@ -3,7 +3,7 @@ id: alx.term.apokatastasis
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -24,7 +24,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - hell/judgment questions with room for the world's real range
-  do_not_retrieve_when:
+  prefer_instead:
   - simple afterlife comfort questions where the contested framing would mislead
 relations:
 - type: associated-with

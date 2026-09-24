@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-to-the-chorepiscopi
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -45,7 +45,6 @@ retrieval:
   - "participant asks who held authority among this world's people, or how anyone came to have it"
   - "participant asks how this world's faith first spread to the region"
   - "participant asks whether bishops were appointed, elected, or something else"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.authority-and-spread

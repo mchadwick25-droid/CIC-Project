@@ -3,7 +3,7 @@ id: pahc.quote.they-appointed-those-already-mentioned
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   For this reason, therefore, inasmuch as they had obtained a perfect fore-knowledge of this, they appointed those [ministers] already mentioned, and afterwards gave instructions, that when these should fall asleep, other approved men should succeed them in their ministry.
+modern_rendering: >-
+  For this reason, they appointed the ministers already mentioned. They had full
+  foreknowledge of this. Afterward, they gave instructions: when these men died, other
+  approved men should succeed them in their ministry.
 speaker_or_author: the letter known as First Clement, to the church at Corinth
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +35,6 @@ retrieval:
   - "participant asks how this world knew what it knew about Jesus and the apostles"
   - "participant asks whether there was a chain back to the apostles"
   - "participant asks who was allowed to lead and on what authority"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.how-we-know

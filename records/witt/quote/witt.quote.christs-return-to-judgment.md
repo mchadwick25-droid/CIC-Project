@@ -3,7 +3,7 @@ id: witt.quote.christs-return-to-judgment
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -29,7 +29,7 @@ retrieval:
   - "participant asks whether we believed outsiders were going to hell"
   - "participant asks whether we believed only one way, out of all the world's ways, was the true one"
   - "participant asks what we believed about the end of the world, or anything like what they call the rapture"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants pastoral comfort language for someone grieving -- this article states the doctrine's hard edge, not a comfort text; retrieve comfort or given-for-you instead"
 text: >-
   Also they teach that at the Consummation of the World Christ will appear
@@ -90,9 +90,3 @@ witt.dw.a-narrow-word-plainly-spoken (F6-T: outsiders and hell, one way among ma
 opening clause ("at the Consummation of the World Christ will appear for judgment"), for
 witt.dw.a-death-begun-that-a-child-receives (F4-T: the end of the world question, alongside infant
 baptism). Reciprocal associated-with declared on both.
-
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
-of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
-field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
-participant. Substance unchanged, only the internal record-id reference removed.

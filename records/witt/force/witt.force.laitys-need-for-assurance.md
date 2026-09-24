@@ -3,7 +3,7 @@ id: witt.force.laitys-need-for-assurance
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -44,12 +44,11 @@ kind: initiating
 matrix_cell: 1B
 description: 'LAYER 1 (Historical Event). ''The practical and pastoral problem... of a laity taught to
   rely on indulgences, private confession to a priest, and the church''s own sacramental system for assurance
-  of salvation'' (Doc_01 §7, Widely Accepted). Coded Internal rather than External on the ground that
+  of salvation''. Coded Internal rather than External on the ground that
   the apparatus that taught the laity so is the inheritance (1B-3) and the parent church (1A-2), while
   the NEED itself sat inside the community whose own founder was a friar under vows and whose own 1529
   confession speaks of ''we'' who ''went from mere compulsion and fear.'' A reviewer may read this as
-  External instead (the Framework''s own wording for External nearly matches Doc_01 §7''s heading here);
-  the placement is disclosed, and nothing in the Forces-and-Gravities Synthesis depends on which side
+  External instead; the placement is disclosed, and nothing in the Forces-and-Gravities Synthesis depends on which side
   of the line it sits. LAYER 2 (World''s Own Experience). Not remembered as an institution; remembered
   as a bodily habit of fear: ''the old way under the Pope, in which a person tortured himself to be so
   perfectly pure that God could not find the least blemish in us... one week trails another, and one half

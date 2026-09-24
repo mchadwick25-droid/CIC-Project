@@ -3,7 +3,7 @@ id: alx.quote.timothy-ordinary-questions
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -17,12 +17,12 @@ sources:
 - source_id: alx.source.alexandrian-canonical-answers
   locus: 'Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, line 44104)'
   license: public-domain
-text: 'Question. If a lad of seven years old, or a man, being a catechumen, being present at the oblation,
+text: 'Question I. If a lad of seven years old, or a man, being a catechumen, being present at the oblation,
   does eat of it through ignorance, what shall be done in this case? Answer. Let him be illuminated, i.e.
-  baptized, for he is called by God. Question. Ought a woman in child-bed to keep the Paschal
-  fast? Answer. No. Question. Is a sick man obliged to keep the Paschal fast? Answer. No. Question. If
-  a clergyman be called to celebrate a marriage, and have heard that it is incestuous; ought he to comply,
-  and perform the oblation? Answer. No; he must not be partaker of other men''s sins.'
+  baptized, for he is called by God. ... Question VIII. Ought a woman in child-bed to keep the Paschal
+  fast? Answer. No. ... Question X. Is a sick man obliged to keep the Paschal fast? Answer. No. Question
+  XI. If a clergyman be called to celebrate a marriage, and have heard that it is incestuous; ought he to
+  comply, and perform the oblation? Answer. No; he must not be partaker of other men''s sins.'
 modern_rendering: >-
   Question: If a boy of seven, or a grown man who is still a catechumen, is
   present at the offering and eats of it without knowing better, what should
@@ -44,16 +44,26 @@ retrieval:
   - "participant asks about the ordinary problems people brought to a bishop"
   - "participant asks who could receive communion and under what conditions"
   - "participant asks how rules met real situations that the rules did not anticipate"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: alx.gravity.learning-community-tension}
 ---
 Verified verbatim against the vendored file 2026-08-27 at npnf214 line
 44104. DISCLOSED: these are Questions I, VIII, X and XI of a longer
 series, presented in the file's own order with the intervening questions
-omitted and each question's Roman numeral dropped; no words are altered
-inside any retained question or answer, and the editor's inline note
-("Beveridge's Synodicon gives notes by Balsamon only") is excluded.
+omitted; no words are altered inside any retained question or answer,
+and the editor's inline note ("Beveridge's Synodicon gives notes by
+Balsamon only") is excluded.
+
+Quote-verbatim gate fix (2026-09-22): the `text` field itself previously
+dropped the Roman numerals and marked no gap between the four selected
+questions, so it read as one continuous exchange rather than the
+disclosed, deliberate selection the body prose below already describes.
+Restored each Roman numeral ("Question I.", "Question VIII.", "Question
+X.", "Question XI.") and inserted an ellipsis at the two points where
+intervening numbered questions (II-VII, IX) are skipped - none between
+Question X and XI, which are genuinely adjacent in the source. This
+brings the quoted text into line with what the DISCLOSED paragraph
+already claimed; the selection itself and its reasoning are unchanged.
 
 WHY THESE FOUR AND NOT THE OTHERS. Timothy's series runs to eighteen
 questions and several of the omitted ones rule on women's bodies -

@@ -3,7 +3,7 @@ id: witt.source.johannes-reception-of-luthers-writings
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -25,4 +25,4 @@ discovery_channel: WebFetch of R83 bibliography; WebSearch; Source Registry row 
 external_ids:
   witt_source_registry_row: 92
 ---
-One pole of the Contested question of the 1543 treatise's later effect (Doc_02 §8 debate 3, §12.3): the argument that it "was in fact largely ignored during the 18th and 19th centuries" (as the Wikipedia article [R83] summarizes him). Its subject is the reception of this world's own text. (Source Registry row 92; Confidence B.)
+One pole of the Contested question of the 1543 treatise's later effect (Doc_02 §8 debate 3, §12.3): the argument that it "was in fact largely ignored during the 18th and 19th centuries" (as the Wikipedia article summarizes him). Its subject is the reception of this world's own text. (Source Registry row 92; Confidence B.)

@@ -3,7 +3,7 @@ id: rzg.quote.mass-not-a-sacrifice
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -25,7 +25,8 @@ speaker_or_author: Huldrych Zwingli
 license: verbatim
 modern_lens_note: A modern reader may hear a minor liturgical technicality. We hear the single sharpest
   doctrine separating us from Rome - what kind of sacrifice Christ's own death actually was.
-modern_rendering: Christ offered himself once, for good. So the Mass does not repeat that offering. It
-  remembers it.
+modern_rendering: Christ sacrificed himself once. That sacrifice is, to eternity, a certain and valid
+  offering for the sins of all the faithful. From this it follows that the Mass is not a sacrifice.
+  It is a remembrance of that sacrifice, and an assurance of the salvation Christ has given us.
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

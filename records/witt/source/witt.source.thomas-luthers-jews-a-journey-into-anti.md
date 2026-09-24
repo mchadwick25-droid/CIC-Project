@@ -3,7 +3,7 @@ id: witt.source.thomas-luthers-jews-a-journey-into-anti
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -24,4 +24,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 75; WebSearch; 2
 external_ids:
   witt_source_registry_row: 75
 ---
-The current specialist treatment of R49–R50; the continuity-vs-reversal debate (Contested). (Source Registry row 75; Confidence B.)
+The current specialist treatment; the continuity-vs-reversal debate (Contested).

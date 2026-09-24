@@ -3,7 +3,7 @@ id: alx.story.arsinoite-conference
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - disagreement inside the church and how it was handled
   - end-times/millennium questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.contested.allegory-from-within

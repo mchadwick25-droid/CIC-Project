@@ -3,7 +3,7 @@ id: ijc.dw.collections-discipline
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -20,7 +20,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did we tithe, and how did we decide what to give? We had a real
   giving discipline. It was preached at least twice in the sermons that

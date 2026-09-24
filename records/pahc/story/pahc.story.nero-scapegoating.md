@@ -3,7 +3,7 @@ id: pahc.story.nero-scapegoating
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - "participant asks why this world's formation logic is 'argued, not inherited'"
   - "participant asks about this world's origin or generative starting point"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs specific internal community detail - this story is entirely outside/etic and names no Christian individual"
 relations:
 - type: associated-with

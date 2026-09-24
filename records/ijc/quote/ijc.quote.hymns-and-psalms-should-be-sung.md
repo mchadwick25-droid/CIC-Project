@@ -3,7 +3,7 @@ id: ijc.quote.hymns-and-psalms-should-be-sung
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -22,6 +22,14 @@ sources:
   license: public-domain
 text: >-
   There my mother, Thy handmaid, bearing a chief part of those cares and watchings, lived in prayer. We, still unmelted by the heat of Thy Spirit, were yet moved by the astonished and disturbed city. At this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be sung, lest the people should pine away in the tediousness of sorrow; which custom, retained from then till now, is imitated by many, yea, by almost all of Thy congregations throughout the rest of the world.
+modern_rendering: >-
+  There my mother, your servant, lived in prayer, carrying the greatest share of those
+  worries and long nights of watching. We ourselves, not yet melted by the heat of your
+  Spirit, were still moved by the astonished and troubled city. At this time, a new custom
+  was established: hymns and psalms were to be sung, following the practice of the Eastern
+  Church. This kept the people from wasting away in the weariness of grief. That custom
+  has lasted from then until now, and is copied by many — indeed, by almost all of your
+  congregations throughout the rest of the world.
 speaker_or_author: Augustine of Hippo, Confessions
 license: verbatim
 modern_lens_note: >-
@@ -32,7 +40,6 @@ retrieval:
   - "participant asks whether this world's practices went back to the apostles"
   - "participant asks where a practice like hymn-singing actually came from"
   - "participant asks what it was like inside one of their gatherings"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.dw.ancient-custom

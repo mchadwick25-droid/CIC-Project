@@ -3,7 +3,7 @@ id: witt.gravity.hearers-and-repeaters-of-words
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -78,13 +78,12 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   say of the doctrine which is preached to you, of faith and of love. This is not surprising; an ass can
   almost intone the lessons... God does not want hearers and repeaters of words, but doers and followers''
   (v2 14676-14688, 1522); ''the common people regard the Gospel altogether too lightly, and we accomplish
-  nothing extraordinary even though we use all diligence'' (LC 80-82, 1529). SIX-TEST SUMMARY (Doc_04
-  §3 G13): Repetition passes across sermon, catechesis, hymnal preface and conversation -- four registers
+  nothing extraordinary even though we use all diligence'' (LC 80-82, 1529). SIX-TEST SUMMARY: Repetition passes across sermon, catechesis, hymnal preface and conversation -- four registers
   across two decades, the one register with a household voice; Dependency passes -- G4''s pastor-facing
   form states this as its own reason for existing, G3''s and G4''s examination clauses presuppose it,
   G8''s 1529 reversal is its effect; Formation passes in the NEGATIVE and as program -- it shapes what
   the movement DOES (daily exhortation, examination, food withheld, hymnals revised with names attached),
-  but as a description of participants it is Inferential-Thin and Contested (the Strauss debate: does
+  but as a description of participants the evidence is thin and disputed (the Strauss debate: does
   the visitation evidence show failure, or measure the wrong thing? nothing in the library adjudicates);
   Explanatory passes -- it explains why the 1529 catechisms exist at all, why the Small Catechism is scripted
   for a father rather than addressed to a believer, and why the 1543 hymnal names its authors; Persistence
@@ -99,20 +98,20 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   reference) is its answer. It does not organize broadly -- it generates programs, not content. It is
   NOT ''lay experience'' under another name: this gravity is what the founder said; lay experience is
   what no vendored source says. CONFIDENCE/GRAVITY CROSS-CHECK: DIVERGENCE, flagged and BARRED FROM UPGRADE
-  in a specific direction -- organizing strength is high (it generated the entire 1529 corpus), evidential
-  confidence is Documented for the testimony, Contested/Inferential-Thin for the state of affairs it describes.
+  in a specific direction -- organizing strength is high (it generated the entire 1529 corpus); the
+  testimony itself is well attested, but the state of affairs it describes remains disputed and thin.
   Classified Tensional on the Documented half; NO DOWNSTREAM USE OF THIS RECORD MAY CITE IT AS EVIDENCE
   THAT SAXON CONGREGATIONS WERE IGNORANT, COLD, OR NEGLIGENT. Register-and-voice spread: 2/4, the only
   candidate below 3/4 -- no Melanchthon (the Apology''s reception passage is POSITIVE and is not this
   gravity), congregational-facing registers and conversation only. Reception-side status: THIS CANDIDATE
   IS ITSELF THE FOUNDER''S RECEPTION REPORT, which is exactly why it cannot stand in for reception. FORCES-CONNECTION
-  NOTATION (Doc_04 §3 G13; Doc_08 §5, 2B-3): this gravity IS Layer 2 of a force Doc_02 §13 could not document
+  NOTATION: this gravity IS Layer 2 of a force this library could not document
   at Layer 1 -- the parish''s actual state, the territorial force''s own inspecting arm, absent from the
   library [2A-3]; its object shifts three times -- 1522 one congregation''s conduct, 1529 the parishes''
   pastors, people and nobles, 1543 the print market -- and the founder''s response shifts with it, rebuke,
   then program, then print-control [2B-1, read as the devil''s work; 2B-4, its late object]; its occasion
   by subtraction is the Easter compulsion''s own lifting, reported by the founder as why some now go years
-  without the Sacrament [2A-1, beyond Doc_04]; the one text that would give it an institutional rather
+  without the Sacrament [2A-1]; the one text that would give it an institutional rather
   than homiletic form, the Small Catechism''s 1529 preface, was never vendored [2B-2/3B-2]. Never resolved
   in the library; that is what makes it Tensional.'
 manifestations:

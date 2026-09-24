@@ -9,7 +9,7 @@ from engine.api.tests.conftest import FakeBedrockClient, reader_response, safety
 from engine.api.wiring import history_from_transcript as _history_from
 
 
-def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix"):
+def _client(*, store, usage_store, world_loader, registry, voice_client=None, safety_client=None, default_world_key="fix", r27_enforce=False):
     client = voice_client or FakeBedrockClient(safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response())
     app = create_app(
         voice_client=client,
@@ -21,6 +21,7 @@ def _client(*, store, usage_store, world_loader, registry, voice_client=None, sa
         world_loader=world_loader,
         registry=registry,
         default_world_key=default_world_key,
+        r27_enforce=r27_enforce,
     )
     return TestClient(app)
 
@@ -89,6 +90,26 @@ def test_message_happy_path(store, usage_store, world_loader, registry):
     body = resp.json()
     assert body["routing_action"] == "voice_with_directive"
     assert body["voice"]["text"] == "We did not claim to have seen him ourselves."
+
+
+def test_message_over_the_length_cap_is_refused_before_any_provider_call(store, usage_store, world_loader, registry):
+    """2026-09-21, closing adversarial review: participant text had no
+    length bound anywhere in the request path - unbounded input forwarded
+    to Bedrock twice per turn (safety gate + voice) is exactly what OWASP
+    LLM Top 10 calls unbounded consumption. Pydantic's own validation
+    rejects an over-length body before the route handler (and so before
+    any provider call) ever runs."""
+    from engine.api.app import _MAX_MESSAGE_LENGTH
+
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry)
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
+
+    resp = http.post(
+        f"/api/session/{created['session_id']}/message",
+        headers={"Authorization": f"Session {created['session_code']}"},
+        json={"text": "x" * (_MAX_MESSAGE_LENGTH + 1)},
+    )
+    assert resp.status_code == 422
 
 
 def test_message_wrong_code_and_missing_session_are_identical_401(store, usage_store, world_loader, registry):
@@ -298,3 +319,37 @@ def test_the_eleventh_message_closes_gracefully_and_a_twelfth_is_refused(store, 
 
     refused = http.post(f"/api/session/{created['session_id']}/message", headers=headers, json={"text": "are you there"})
     assert refused.status_code == 409
+
+
+def test_r27_enforce_hands_a_twice_rejected_turn_to_the_facilitator_end_to_end(store, usage_store, world_loader, registry):
+    """R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
+    2026-09-23), full wiring: create_app(r27_enforce=True) through
+    wiring.handle_message, not the unit-level engine.m4.turn test - the
+    voice's raw answer hard-fails (a real wholly_uncited_paragraph
+    offense - "Even a broken priest could not block his grace." carries
+    no proper noun, so it reaches verdict "ok" with no tag), the one
+    allowed regeneration fails the same way, and the Facilitator's own
+    new interview-mode line (voice_rejected_turn, Mark's own word) is
+    what the response actually carries."""
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"), reader_response=reader_response(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],
+            ["Even a broken priest could not block his grace."],
+        ],
+    )
+    http = _client(store=store, usage_store=usage_store, world_loader=world_loader, registry=registry, voice_client=client, r27_enforce=True)
+    created = http.post("/api/session", json={"world_key": "fix"}).json()
+
+    resp = http.post(
+        f"/api/session/{created['session_id']}/message",
+        headers={"Authorization": f"Session {created['session_code']}"},
+        json={"text": "who was Jesus"},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert len(client.messages.stream_calls) == 2  # the one allowed regeneration, no more
+    assert body["voice"]["text"] == ""
+    assert body["voice"]["r27_enforcement_exhausted"] is True
+    assert body["facilitator"]["kind"] == "grounding_correction"
+    assert "Vera" in body["facilitator"]["text"]

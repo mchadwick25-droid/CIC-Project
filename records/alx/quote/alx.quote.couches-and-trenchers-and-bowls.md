@@ -3,7 +3,7 @@ id: alx.quote.couches-and-trenchers-and-bowls
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -21,6 +21,16 @@ sources:
   license: public-domain
 text: >-
   And silver couches, and pans and vinegar-saucers, and trenchers and bowls; and besides these, vessels of silver and gold, some for serving food, and others for other uses which I am ashamed to name, of easily cleft cedar and thyine wood, and ebony, and tripods fashioned of ivory, and couches with silver feet and inlaid with ivory, and folding-doors of beds studded with gold and variegated with tortoise-shell, and bed-clothes of purple and other colours difficult to produce, proofs of tasteless luxury, cunning devices of envy and effeminacy,—are all to be relinquished, as having nothing whatever worth our pains.
+modern_rendering: >-
+  Silver couches. Pans and vinegar-dishes. Trenchers and bowls. And besides
+  these, vessels of silver and gold, some for serving food, others for
+  other uses which I am ashamed to name, of easily-split cedar and thyine
+  wood, and of ebony. Tripods made of ivory. Couches with silver feet,
+  inlaid with ivory. Folding bed-doors studded with gold and patterned
+  with tortoise-shell. And bedclothes of purple and other colors hard to
+  produce - proofs of tasteless luxury, cunning devices of envy and
+  effeminacy. All these are to be relinquished, as having nothing whatever
+  worth our pains.
 speaker_or_author: Clement of Alexandria, Paedagogus II.3
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +41,6 @@ retrieval:
   - "participant asks what would be found if the place this community met were excavated"
   - "participant asks what the physical setting of this world actually looked like"
   - "participant asks what ordinary possessions or household life looked like here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.limit.material-remains

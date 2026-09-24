@@ -3,7 +3,7 @@ id: don.term.episcopus
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -39,7 +39,7 @@ retrieval:
   - a participant asks how these churches were organised, or why one city had two bishops
   - a participant asks about a specific council, the Maximianist affair, or the 411 Conference
   - the conversation reaches who holds legitimate church office
-  do_not_retrieve_when:
+  prefer_instead:
   - the office of bishop is being asked about generically, with no bearing on the rival-hierarchy situation
 relations:
 - type: presupposes

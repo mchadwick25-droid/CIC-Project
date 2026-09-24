@@ -3,7 +3,7 @@ id: witt.story.letter-to-albrecht-and-theses-circulation
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -17,7 +17,7 @@ confidence:
     detail are a separate, weaker matter, disclosed rather than folded in: the door-posting narrative
     this library holds ("It was not night, but mid-day") is the 1915 editor''s own unsourced narrative
     claim, not Luther''s text or a period document, and the modern historiographical dispute over whether
-    any posting happened at all (Iserloh, Source Registry R76) is cited in this library only as an unread,
+    any posting happened at all (Iserloh) is cited in this library only as an unread,
     existence-verified title, not a read argument. "Contested" for the posting therefore means an unread
     secondary source is understood to dispute a modern editor''s own unsourced claim, not that two primary
     accounts conflict - a thinner evidentiary situation than "documented dispute" can sound, and this
@@ -38,7 +38,7 @@ retrieval:
   - a participant asks how the movement began, or about the Theses specifically
   - a participant asks about the letter to Albrecht, or what Luther actually did in October 1517
   - a participant wants to know whether the Theses were really nailed to a door
-  do_not_retrieve_when:
+  prefer_instead:
   - the posting detail would be told as settled fact - it is contested and must carry its contest every
     time it is used
   - a participant wants the Theses' own theological content in detail (that belongs to the term records
@@ -116,7 +116,7 @@ Albrecht and the circulation of the Ninety-Five Theses"). Quotations carried fro
 and cross-checked directly against the vendored file this authoring pass (cic/texts/luther_works-v1-
 selected_jacobs-spaeth1915.txt, lines ~995-1085 for the letter, ~473-474 for the editor's posting
 narrative) - all quoted phrases verified verbatim at those loci by this record's own author, not
-carried unchecked. Source Registry R2 (Native, Primary); the Iserloh row (R76) is cited but not
+carried unchecked. Source Registry (Native, Primary); the Iserloh row is cited but not
 independently read, disclosed as such in confidence.divergence_note per Doc_09's own instruction.
 
 Register note: written close-third-person throughout ("a friar... sat down to write," "that is the act

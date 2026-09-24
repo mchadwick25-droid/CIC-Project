@@ -3,7 +3,7 @@ id: alx.term.logikos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - what rational nature or logikos means in this tradition
   - Origen's rational-natures cosmology or the grades of rational beings
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the Evagrian/desert technical logikoi framework - that belongs to the Desert
     Christianity world, not this one
   - asking about the nous as contemplative faculty specifically (retrieve alx.term.nous first)

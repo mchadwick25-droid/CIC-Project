@@ -3,7 +3,7 @@ id: don.story.acta-purgationis-felicis
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -31,7 +31,7 @@ retrieval:
     over Caecilian's legitimacy - was actually investigated
   - participant asks for the strongest documented evidence on the founding legal question
   - participant asks directly whether the case against Felix held up
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about the Lucilla and treasury strand - don.story.lucilla-affair and don.story.gesta-apud-zenophilum
     cover that
   - participant wants why the traditio question mattered doctrinally rather than what one inquiry found

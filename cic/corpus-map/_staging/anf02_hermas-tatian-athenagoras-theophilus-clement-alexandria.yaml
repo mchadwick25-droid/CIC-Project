@@ -33,10 +33,9 @@ assignments:
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite - Mark may want a ruling on where his voice sits.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+    he was also later branded an Encratite. greek-apologists-second-century
+    holds this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
+    the era and church-world are genuinely its.'
 - work: Fragments (Tatian)
   author: tatian
   locus: div2 3.3 under div1 'TATIAN'
@@ -57,9 +56,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Theophilus, bishop of Antioch, c. 180 - squarely in the entry''s window and named
-    region. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
-    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
-    era and church-world really are its.'
+    region. greek-apologists-second-century holds this work alongside pahc, for the era''s
+    outward-facing writing; pahc is kept because the era and church-world are genuinely its.'
 - work: A Plea for the Christians
   author: athenagoras
   locus: div2 5.2 under div1 'ATHENAGORAS'
@@ -69,10 +67,10 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Athenian apologist, c. 177 - in the entry''s window but not its named regions, and
-    the census has no Greek-apologist entry. Placed with the era-1 mainstream entry; flagged
-    so Mark can move him if a better home appears in a later survey. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+    the census has no Greek-apologist entry. Placed with the era-1 mainstream entry; a better
+    home may appear in a later survey. greek-apologists-second-century holds this work alongside
+    pahc, for the era''s outward-facing writing; pahc is kept because the era and church-world
+    are genuinely its.'
 - work: The Resurrection of the Dead
   author: athenagoras
   locus: div2 5.3 under div1 'ATHENAGORAS'
@@ -81,9 +79,9 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: assigned
-  note: 'Same placement doubt as the Plea. 2026-08-26: greek-apologists-second-century added
-    alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: 'Same placement doubt as the Plea. greek-apologists-second-century holds this work
+    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
 - work: Exhortation to the Heathen (Protrepticus)
   author: clement_alex
   locus: div2 6.2 under div1 'CLEMENT OF ALEXANDRIA'
@@ -125,9 +123,9 @@ assignments:
   note: 'The Stromata quotes and describes Valentinus, Basilides, Isidore and Carpocrates
     at length (27 ''Valentin'' and 35 ''Basilides'' hits in the file) - much of what survives
     of these teachers survives here. Context, not tradition: Clement describes them from outside.
-    Provisional because the material is dispersed through eight books; a reviewer may want
-    locus-level extracts. The file''s 30 ''Marcion'' hits could ground a marcion-marcionism
-    context assignment too - left for review.
+    Provisional because the material is dispersed through eight books; locus-level extracts
+    would sharpen this entry. The file''s 30 ''Marcion'' hits could also ground a marcion-marcionism
+    context assignment; that question is still open.
 
     '
 - work: Who is the Rich Man that shall be saved?

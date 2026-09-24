@@ -3,7 +3,7 @@ id: hal.quote.detestable-monks
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -24,9 +24,9 @@ text: 'Is not this what we have often said. She weeps for her daughter, killed w
   them or hurl them into the Tiber?'
 modern_rendering: >-
   Isn't this what we have said all along? She weeps for her daughter, killed
-  by fasting. She wanted her to marry again and give her grandchildren. How
-  long before we drive these detestable monks out of Rome? Why don't we stone
-  them, or throw them into the Tiber?
+  by fasting. She wanted her to marry again, so that she might have
+  grandchildren. How long must we refrain from driving these detestable
+  monks out of Rome? Why don't we stone them, or throw them into the Tiber?
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote; "monks" reads cleanly to a modern ear (see hal.term.monachus, one of the few terms in this corpus with low translation distortion).'
@@ -36,7 +36,6 @@ retrieval:
   - "participant asks what ordinary people thought of the ascetic life"
   - "participant asks whether the fasting went too far and whether anyone died of it"
   - "participant asks whether the neighbours were hostile"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 39 sec. 6,
 div v.XXXIX). ATTRIBUTION SHAPE: the Roman funeral crowd's whispers as

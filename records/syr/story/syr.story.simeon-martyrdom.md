@@ -3,7 +3,7 @@ id: syr.story.simeon-martyrdom
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - how this world remembers the persecution's martyrs; what refusing the state cost
   - the martyrdom-death-wish question (the record shows refusal under arrest, not death-seeking)
-  do_not_retrieve_when:
+  prefer_instead:
   - requests for the twenty-year vacancy's inside story (none survives - honest limit)
   - improvised scenes for the other named martyrs
 relations:

@@ -3,7 +3,7 @@ id: cappadocian.dw.marriage-ending
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -36,7 +36,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks whether someone divorced could belong among this world's people, or marry again"
-  do_not_retrieve_when: []
 text: >-
   Yes - though we will be honest that our own practice here was a
   concession, not an endorsement. A second marriage, after a first one had

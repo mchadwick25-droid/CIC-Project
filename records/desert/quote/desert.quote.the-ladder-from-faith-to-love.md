@@ -3,7 +3,7 @@ id: desert.quote.the-ladder-from-faith-to-love
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F4-P]
 confidence:
@@ -17,6 +17,13 @@ sources:
   locus: "Praktikos prologue SS8, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
   license: cc-by-4.0
 text: "The habit, then is like a symbol which summarizes [these] things. And these are the words the fathers always say to them: [when conferring it] : \"Faith, o [my] child is steadied by the fear of God And [this fear] in turn [is strengthened] by continence. This latter [virtue] is made unshakable by patient endurance and hope: from these is born apatheia [dispassion], which brings into being love. Love is the door to knowledge of nature which leads to theology and the supreme blessedness.\""
+modern_rendering: >-
+  The habit, then, is like a symbol that sums up these things. These are the words the
+  fathers always say when they give it: "Faith, my child, is made firm by the fear of
+  God. This fear, in turn, is strengthened by self-control. Self-control is made
+  unshakable by patient endurance and hope. From these is born apatheia, dispassion, and
+  apatheia gives birth to love. Love is the door to the knowledge of nature, which leads
+  to theology and the highest blessedness."
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "Read as a self-improvement sequence this is badly misheard. Each step is what makes the next one possible, not a level to be cleared and left behind, and the whole ladder is presented as words the elders say when handing over the habit - a formula recited at a clothing, not a private programme."
@@ -26,7 +33,6 @@ retrieval:
   - "participant asks how the stages of this life fitted together"
   - "participant asks what the fasting, the silence and the discipline were actually for"
   - "participant asks what apatheia was for, or what came after it"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

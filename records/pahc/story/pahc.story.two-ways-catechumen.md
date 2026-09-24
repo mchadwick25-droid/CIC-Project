@@ -3,7 +3,7 @@ id: pahc.story.two-ways-catechumen
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks how someone joined this world's community"
   - "participant asks about the Two Ways ethical schema specifically"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs this presented as a network-wide, universal initiation pattern"
 relations:
 - type: associated-with

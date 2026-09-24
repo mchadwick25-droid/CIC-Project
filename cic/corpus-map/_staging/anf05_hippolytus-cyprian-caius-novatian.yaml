@@ -1,5 +1,3 @@
-# Worker notes, 2026-08-26.
-#
 # CCEL DC.Creator for this volume: caius, cyprian, hippolytus, novatian. ANF
 # div1s are author sections: 3 Hippolytus, 4 Cyprian, 5 Caius, 6 Novatian,
 # 7 Appendix.
@@ -86,8 +84,8 @@ assignments:
   note: The author's OWN tradition home. Hippolytus of Rome (c. 170-236) has no census entry;
     post-apostolic-house-church is the nearest Roman antecedent but its range ends 200 CE,
     before he wrote. Needs a ruling on where the early 3rd-c. Roman church files - the same
-    gap affects Caius and (differently) Novatian. Re-pointed 2026-08-26 to the census entry
-    added on record for this movement.
+    gap affects Caius and (differently) Novatian. Points to the census entry added for this
+    movement in the meantime.
 - work: Treatise on Christ and Antichrist
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Treatise on Christ and Antichrist
@@ -97,7 +95,7 @@ assignments:
   confidence: assigned
   note: The one complete treatise in the extant-works section; early Christian eschatology
     from Rome, c. 200. needs-ruling only for the shelf - no census home for Hippolytus (see
-    Refutation row). Re-pointed 2026-08-26 to the census entry added on record for this movement.
+    Refutation row). Points to the census entry added for this movement in the meantime.
 - work: Against the Heresy of One Noetus
   author: hippolytus
   locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
@@ -107,8 +105,8 @@ assignments:
   confidence: assigned
   note: Foundational anti-monarchian treatise. The census has no entry for modalist Monarchianism
     (Noetians/Sabellians), so the work it argues against has no bucket either - flagged; shelved
-    with its author's needs-ruling home. Re-pointed 2026-08-26 to the census entry added on
-    record for this movement.
+    with its author's needs-ruling home. Points to the census entry added for this movement
+    in the meantime.
 - work: Exegetical fragments of Hippolytus
   author: hippolytus
   locus: div2 3.4, 'Exegetical' - fragments on Hexaemeron through Matthew and Luke (assigned
@@ -119,8 +117,8 @@ assignments:
   confidence: assigned
   note: Commentary fragments (Genesis, Psalms, Proverbs, Song of Songs, Daniel, etc.), assigned
     as one body per the granularity rule for fragment collections. Shelf needs-ruling as for
-    all Hippolytus (no census home). Re-pointed 2026-08-26 to the census entry added on record
-    for this movement.
+    all Hippolytus (no census home). Points to the census entry added for this movement in
+    the meantime.
 - work: Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron
     and Helix, On the Holy Theophany, Expository Treatise Against the Jews)
   author: hippolytus
@@ -131,8 +129,8 @@ assignments:
   confidence: assigned
   note: Smaller pieces and fragments, several of disputed authenticity (Against Beron and
     Helix is generally held later; the Theophany discourse is questioned). One body per the
-    fragment-collection rule; shelf needs-ruling as for all Hippolytus. Re-pointed 2026-08-26
-    to the census entry added on record for this movement.
+    fragment-collection rule; shelf needs-ruling as for all Hippolytus. Points to the census
+    entry added for this movement in the meantime.
 - work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
   author: hippolytus
   locus: div2 3.5 - incl. discourse on the end of the world, lists of the Twelve and Seventy
@@ -144,18 +142,17 @@ assignments:
   confidence: assigned
   note: 'STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
     material (editor''s own title says dubious and spurious), kept rather than dropped. Needs
-    a ruling both on the shelf (no Hippolytus home) and on whether a spurious corpus files
-    under the attributed name. Re-pointed 2026-08-26 to the census entry added on record for
-    this movement. RULED 2026-08-26, under a principle rather than one by one - nine works
-    across six entries were asking the same question, whether a spurious corpus files under
-    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
-    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
-    shelf stands: that is how the corpus presents it and how a reader will look for it. And
-    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
-    name that is not its author''s is a pseudepigraphon by definition. The two together say
-    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
-    can reverse this in one pass if he wants the spurious corpora detached from their attributed
-    authors instead.'
+    a ruling on the shelf (no Hippolytus home) - points to the census entry added for this
+    movement in the meantime. On whether a spurious corpus files under the attributed name:
+    it does, and it also files as what it is - one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
+    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
+    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
+    circulating under a name that is not its author''s is a pseudepigraphon by definition.
+    The two together say the whole truth - where it sits, and what it is - without re-attributing
+    anything. The spurious corpora could instead be detached from their attributed authors
+    in a future pass, if that reading is preferred.'
 - work: The Life and Passion of Cyprian, Bishop and Martyr
   author: pontius
   locus: div2 4.3
@@ -195,15 +192,13 @@ assignments:
   confidence: assigned
   note: 'FLAG, not assertion (per group instruction): the Donatists claimed Cyprian - his
     rebaptism practice and purity-of-clergy ecclesiology - as their charter authority, and
-    Augustine''s anti-Donatist works argue with Cyprian''s letters at length. Whether the
-    Cyprianic corpus files as antecedent tradition for donatism needs Mark''s ruling. Ruled
-    2026-08-26: `role: antecedent`, a third relation added to the corpus-map schema for exactly
-    this. Cyprian is not a Donatist, so `tradition` was false; he died fifty years before
-    the schism, so `context` - describing a movement from outside - was false too. He is the
-    authority both sides argued FROM. The rule the new role carries: an antecedent assignment
-    requires that the entry''s own vendored sources argue from the text. Measured here rather
-    than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian 306 times,
-    Agrippinus 28, in 92,000 words.'
+    Augustine''s anti-Donatist works argue with Cyprian''s letters at length. `role: antecedent`,
+    a third relation in the corpus-map schema for exactly this: Cyprian is not a Donatist,
+    so `tradition` would be false; he died fifty years before the schism, so `context` - describing
+    a movement from outside - would be false too. He is the authority both sides argued FROM.
+    The rule the antecedent role carries: an antecedent assignment requires that the entry''s
+    own vendored sources argue from the text. Measured here rather than asserted - Augustine''s
+    On Baptism, Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
 - work: 'Epistle LXXIV (ANF/older numbering) / LXXV (modern CSEL-Hartel numbering) - Firmilian,
     Bishop of Caesarea in Cappadocia, to Cyprian, Against the Letter of Stephen. A.D. 256'
   author: cyprian
@@ -218,15 +213,14 @@ assignments:
     row above already discloses ("the corpus embeds letters by others... under Cyprian''s name").
     `confidence: provisional`, not `assigned`, for the same reason as the Thaumaturgus rows
     in this file and in npnf214/anf06: third-century, a century before this entry''s 360-380s
-    census range, and no census entry for 3rd-c. Cappadocia/Pontus itself. Split 2026-09-09
-    on Mark''s ruling (`cappadocian_Unused_Source_Verification_2026-09-09.md` §2.2), following
-    the 2026-08-26 npnf214 per-father split precedent below (`Split 2026-08-26 on Mark''s ruling`)
-    for the same reason that split gave: one work by one author, distinguishable from its
-    shared-corpus row, is worth a row of its own rather than an added atlas_id, since the
-    shared Epistles-of-Cyprian row is `confidence: assigned` and this assignment is not. Doc_02
-    §1.6 cites this letter under both numberings ("Epistle 74 in the ANF/older numbering, Epistle
-    75 in the modern CSEL/Hartel numbering; cite both forms") - both carried in `work:` above
-    so a reader searching either number finds this row.'
+    census range, and no census entry for 3rd-c. Cappadocia/Pontus itself. Split out from the
+    shared Epistles-of-Cyprian row, following the same npnf214 per-father split precedent used
+    elsewhere in this file: one work by one author, distinguishable from its shared-corpus
+    row, is worth a row of its own rather than an added atlas_id, since the shared Epistles-of-Cyprian
+    row is `confidence: assigned` and this assignment is not. Doc_02 §1.6 cites this letter
+    under both numberings ("Epistle 74 in the ANF/older numbering, Epistle 75 in the modern
+    CSEL/Hartel numbering; cite both forms") - both carried in `work:` above so a reader searching
+    either number finds this row.'
 - work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
@@ -246,10 +240,9 @@ assignments:
   role: antecedent
   confidence: assigned
   note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
-    text, and it was written against the Novatianist schism among others. Needs a ruling on
-    antecedent-tradition status. Ruled 2026-08-26: `role: antecedent` for donatism. Both sides
-    of that controversy argued from this text and Augustine''s On Baptism works through it
-    at length; Cyprian himself predates the schism by fifty years.'
+    text, and it was written against the Novatianist schism among others. `role: antecedent`
+    for donatism: both sides of that controversy argued from this text and Augustine''s On
+    Baptism works through it at length; Cyprian himself predates the schism by fifty years.'
 - work: On the Unity of the Church (De Unitate)
   author: cyprian
   locus: div3 under 4.5 - Treatise I
@@ -258,11 +251,10 @@ assignments:
   role: context
   confidence: assigned
   note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
-    text, and it was written against the Novatianist schism among others. Needs a ruling on
-    antecedent-tradition status. Ruled 2026-08-26: `role: context` for novatianism. The two
-    targets needed DIFFERENT relations, so the row was split - Cyprian is the authority Donatism
-    claimed, and a contemporary opponent of the Novatian schism he lived through. One work,
-    two relations, two rows.'
+    text, and it was written against the Novatianist schism among others. `role: context`
+    for novatianism. The two targets needed DIFFERENT relations, so the row is split - Cyprian
+    is the authority Donatism claimed, and a contemporary opponent of the Novatian schism he
+    lived through. One work, two relations, two rows.'
 - work: On the Dress of Virgins (De Habitu Virginum)
   author: cyprian
   locus: div3 under 4.5 - Treatise II
@@ -292,11 +284,11 @@ assignments:
   role: antecedent
   confidence: assigned
   note: 'FLAG as with the Epistles: the lapsed/traditor problem is exactly the question Donatism
-    reopened after the Diocletianic persecution. Ruled 2026-08-26: `role: antecedent`, a third
-    relation added to the corpus-map schema for exactly this. Cyprian is not a Donatist, so
-    `tradition` was false; he died fifty years before the schism, so `context` - describing
-    a movement from outside - was false too. He is the authority both sides argued FROM. The
-    rule the new role carries: an antecedent assignment requires that the entry''s own vendored
+    reopened after the Diocletianic persecution. `role: antecedent`, a third relation in the
+    corpus-map schema for exactly this. Cyprian is not a Donatist, so `tradition` would be
+    false; he died fifty years before the schism, so `context` - describing a movement from
+    outside - would be false too. He is the authority both sides argued FROM. The rule the
+    antecedent role carries: an antecedent assignment requires that the entry''s own vendored
     sources argue from the text. Measured here rather than asserted - Augustine''s On Baptism,
     Against the Donatists names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
 - work: On the Lord's Prayer (De Dominica Oratione)
@@ -320,6 +312,20 @@ assignments:
     from inside the Latin pastoral world.
 
     '
+- work: An Address to Demetrianus (Ad Demetrianum)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise V
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: assigned
+  note: 'Cross-linked from a Source Readiness Dossier finding. Cyprian himself
+    is not one of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian);
+    this is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
+    pagan outsider (Demetrianus, a proconsul blaming Christians for plague, famine, and war)
+    - squarely the genre this entry exists to hold, not merely an adjacent congregational text.
+
+    '
 - work: On the Vanity of Idols (Quod Idola Dii Non Sint)
   author: cyprian
   locus: div3 under 4.5 - Treatise VI
@@ -329,6 +335,20 @@ assignments:
   confidence: provisional
   note: 'Authenticity has been questioned (it compiles Tertullian and Minucius Felix), but
     it is transmitted in the Cyprianic corpus and CCEL prints it among the genuine treatises.
+
+    '
+- work: On the Vanity of Idols (Quod Idola Dii Non Sint)
+  author: cyprian
+  locus: div3 under 4.5 - Treatise VI
+  atlas_ids:
+  - latin-apologists
+  role: transmission
+  confidence: provisional
+  note: 'Cross-linked from a Source Readiness Dossier finding. Filed as transmission,
+    not tradition, given the same disputed authorship already noted above - but that dependency
+    cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix, both
+    already primary authors here, which makes it a plausible transmission-tier link even while
+    its own authorship stays contested.
 
     '
 - work: On the Mortality (De Mortalitate)
@@ -414,13 +434,13 @@ assignments:
   confidence: assigned
   note: 'FLAG: the 256 rebaptism council was the Donatists'' standing proof that African tradition
     required rebaptism of those baptized outside the church. Same antecedent-tradition question
-    as the Epistles. Ruled 2026-08-26: `role: antecedent`, a third relation added to the corpus-map
-    schema for exactly this. Cyprian is not a Donatist, so `tradition` was false; he died
-    fifty years before the schism, so `context` - describing a movement from outside - was
-    false too. He is the authority both sides argued FROM. The rule the new role carries:
-    an antecedent assignment requires that the entry''s own vendored sources argue from the
-    text. Measured here rather than asserted - Augustine''s On Baptism, Against the Donatists
-    names Cyprian 306 times, Agrippinus 28, in 92,000 words.'
+    as the Epistles. `role: antecedent`, a third relation in the corpus-map schema for exactly
+    this. Cyprian is not a Donatist, so `tradition` would be false; he died fifty years before
+    the schism, so `context` - describing a movement from outside - would be false too. He
+    is the authority both sides argued FROM. The rule the antecedent role carries: an antecedent
+    assignment requires that the entry''s own vendored sources argue from the text. Measured
+    here rather than asserted - Augustine''s On Baptism, Against the Donatists names Cyprian
+    306 times, Agrippinus 28, in 92,000 words.'
 - work: Treatises attributed to Cyprian on questionable authority (On the Public Shows; On
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
@@ -433,17 +453,17 @@ assignments:
   confidence: assigned
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
-    in modern scholarship, which is why novatianism appears here - needs a ruling on whether
-    the attribution question should move them. RULED 2026-08-26, under a principle rather
-    than one by one - nine works across six entries were asking the same question, whether
-    a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    in modern scholarship, which is why novatianism appears here. On whether the attribution
+    question should move them: this is one of nine works across six entries asking the same
+    underlying question, whether a spurious corpus files under the attributed name at all -
+    resolved under a single principle rather than one by one. IT DOES, AND IT ALSO FILES AS
     WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
     knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
     and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
     because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
 - work: Fragments of Caius (Dialogue Against Proclus; Against the Heresy of Artemon; Canon
     Muratorianus)
   author: caius
@@ -457,9 +477,8 @@ assignments:
     party - hence the montanism assignment (argued-against entry). ANF also prints the Muratorian
     Canon here though its authorship is editorial conjecture, and the anti-Artemon fragment
     targets adoptionist Monarchianism, which has no census entry. Shelf shares the Hippolytus
-    problem (Rome just after pahc''s 200 CE line) - provisional. Re-pointed 2026-08-26: Caius
-    is a Roman presbyter of exactly these decades, and roman-church-third-century was added
-    on record to hold them.'
+    problem (Rome just after pahc''s 200 CE line) - provisional. Caius is a Roman presbyter
+    of exactly these decades, and roman-church-third-century holds them.'
 - work: A Treatise of Novatian Concerning the Trinity
   author: novatian
   locus: div2 6.3
@@ -471,9 +490,8 @@ assignments:
   note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
     the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
     for the entry that bears his name; also pre-schism Roman theology in its own right, the
-    same reasoning Caius (above) was re-pointed on 2026-08-26 once roman-church-third-century
-    was added on record. Surfaced by a source-research pass on that world''s (I.33) sourcing
-    gaps, 2026-09-13.
+    same reasoning that holds Caius (above) under roman-church-third-century. Surfaced by a
+    source-research pass on that world''s (I.33) sourcing gaps.
 
     '
 - work: On the Jewish Meats (De Cibis Judaicis)

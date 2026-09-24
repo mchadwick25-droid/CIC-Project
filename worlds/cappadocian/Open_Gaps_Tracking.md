@@ -410,7 +410,7 @@ against the full gate battery before the next:
 This file was assembled from `CAPPADOCIAN_BUILD_LEDGER.md` (52 sections), the Source
 Registry and its four review-round sets, `cappadocian_Unused_Source_Verification_2026-09-09.md`,
 `cappadocian_Representative_Identity_Options.md`, the two G3 Permanent Prompt review
-rounds, `records/worlds/cappadocian.yaml`, `records/WORLDS_REGISTRY_LOG.md`'s own
+rounds, `records/worlds/cappadocian.yaml`, `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own
 Cappadocian section, and the fleet-level `CiC_GoLive_Pipeline_Status.md` and
 `CiC_System_Health_Tracking.md`. It does not re-verify every review round's own findings
 against the underlying primary sources a second time — where the ledger itself already
@@ -420,3 +420,5 @@ carried here with an explicit "last known status, not reverified now" caveat rat
 a flat claim: OG-8 (Doc_06 §23's Basileias naming) and OG-7 (the ~110 unaudited Source
 Registry rows) — both are honestly still open by the ledger's own most recent word on
 them, not resolved by anything found while writing this file.
+
+### OG-12. **Two fragment/verbless `modern_rendering` sentences, found by `engine/m1/sentence_completeness.py`'s report-only sweep — current as of `engine/m1/reports/sentence-completeness-report-2026-09-24.json`, not yet human-reviewed.** `cappadocian.quote.basil-on-the-doxology-challenge` ("At another, 'through the Son, in the Holy Spirit.'", `no_finite_verb`); `cappadocian.quote.macrina-refuses-remarriage` ("Her resolve held firmer than anyone would have expected from someone her age.", `no_finite_verb`). Report-only check (not in `gates.GATES`); its own docstring requires a human read against the actual fragment rule before treating either as a real defect. Logged as found and current, not adjudicated. See `worlds/pahc/Open_Gaps_Tracking.md`'s own entry on this same `sentence_completeness.py` report-run, filed 2026-09-24, for the full fleet-wide context.

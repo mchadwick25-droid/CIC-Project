@@ -3,7 +3,7 @@ id: ijc.quote.socrates-damasus-election
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -23,6 +23,13 @@ text: This ordination was made, not in a church, but in a retired place called t
   or heresy, but simply as to who should be bishop. Hence frequent conflicts arose, insomuch that many
   lives were sacrificed in this contention; and many of the clergy as well as laity were punished on
   that account by Maximin, the prefect of the city.
+modern_rendering: >-
+  This ordination took place, not in a church, but in a secluded place called the Palace
+  of Sicine. This led to conflict among the people. Their disagreement was not about any
+  article of faith or any heresy, but simply about who should be bishop. Because of this,
+  frequent clashes broke out, so many lives were lost in this struggle. Many of the
+  clergy, as well as ordinary people, were punished for this by Maximin, the prefect of
+  the city.
 speaker_or_author: "Socrates Scholasticus, Ecclesiastical History IV.29"
 license: verbatim
 modern_lens_note: >-
@@ -34,7 +41,6 @@ retrieval:
   - "participant asks how a bishop was chosen and what happened when it was contested"
   - "participant asks whether these elections turned violent"
   - "participant presses this world on violence done from inside it"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.figure.damasus}
 - {type: associated-with, target: ijc.limit.earlier-windows}

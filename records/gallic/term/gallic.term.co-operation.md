@@ -3,7 +3,7 @@ id: gallic.term.co-operation
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -38,7 +38,7 @@ retrieval:
   - what God does while the monk labours, or how they prayed about it
   - participant uses "cooperate," "synergy," "synergism," "work together," "help," "God helps those who help themselves"
   - Conf. XIII.13; "Not I, but the grace of God with me"; the titles Protector, Saviour, Helper, Sponsor
-  do_not_retrieve_when:
+  prefer_instead:
   - the broader doctrine is the question (retrieve grace (of God))
   - the participant means the modern label "synergism" as a confessional position to affirm or refute
   - any attempt to source this term from Salvian

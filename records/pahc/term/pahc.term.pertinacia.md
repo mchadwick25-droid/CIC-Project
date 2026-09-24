@@ -3,7 +3,7 @@ id: pahc.term.pertinacia
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I
@@ -21,7 +21,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - Pliny's interrogation, why Christians were punished, what Romans objected to
-  do_not_retrieve_when:
+  prefer_instead:
   - stubbornness in a general sense with no connection to Roman persecution
 relations:
 - type: associated-with

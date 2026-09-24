@@ -3,7 +3,7 @@ id: pahc.story.didache-eucharist
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -24,7 +24,7 @@ retrieval:
   - "participant asks about eucharistic diversity across this world's communities"
   - "participant asks whether 'the early eucharist' looked the same everywhere"
   - "participant asks what the kingdom of God meant to this community"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant needs Strand A's or Strand B's own eucharistic material specifically - do not substitute this story for either"
 relations:
 - type: associated-with

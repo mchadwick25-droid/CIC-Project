@@ -39,6 +39,21 @@ def test_all_text_drops_identifiers_so_slugs_never_become_keywords():
     assert prose.all_text(rec) == "real prose"
 
 
+def test_claim_guards_is_excluded_same_as_do_not_retrieve_when():
+    """Stage 4a (Build-Plan.md), R11's split: claim_guards is the
+    honesty-guard half do_not_retrieve_when is split into, and must be
+    excluded everywhere do_not_retrieve_when already is - a forbidding
+    sentence necessarily shares the forbidden claim's own vocabulary, the
+    same reasoning that put do_not_retrieve_when and formation_claim_barred
+    here. Landed before any real data exists in the field on purpose (the
+    stage's own "first" ordering): the exclusion has to be live before a
+    single claim_guards value is ever authored."""
+    assert "claim_guards" in prose.NON_PROSE_KEYS
+    assert "claim_guards" in prose.FALLBACK_EXCLUDED_KEYS
+    rec = {"claim_guards": ["Brictio did not succeed Martin as bishop"], "text": "real prose"}
+    assert prose.all_text(rec) == "real prose"
+
+
 def test_a_list_inherits_the_key_it_hangs_under():
     """Filtering is by key name at any depth, and a list's items are walked
     under the parent's key - so a list of ids is dropped whole, not
@@ -161,6 +176,20 @@ def test_a_stop_inside_a_quotation_does_not_end_the_sentence():
 def test_single_and_double_quotes_both_hold_a_sentence_together():
     single = "He said: 'Go out. Sit in your cell.'"
     assert prose.quote_aware_sentences(single) == [single]
+
+
+def test_curly_quotation_marks_hold_a_sentence_together():
+    double = "Clement wrote: “Behold the might of the new song! It has made men out of stones.”"
+    single = "He said: ‘Go out. Sit in your cell.’"
+    assert prose.quote_aware_sentences(double) == [double]
+    assert prose.quote_aware_sentences(single) == [single]
+
+
+def test_a_curly_apostrophe_inside_a_word_opens_nothing():
+    text = "God’s word is first. The rest follows."
+    assert prose.quote_aware_sentences(text) == [
+        "God’s word is first.", "The rest follows.",
+    ]
 
 
 def test_an_apostrophe_inside_a_word_opens_nothing():

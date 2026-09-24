@@ -3,7 +3,7 @@ id: witt.force.reformed-rival-by-absence
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -33,13 +33,13 @@ relations:
 name: The Reformed rival, refused at Marburg (1529) -- a force held by located absence [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
-description: 'LAYER 1 (Historical Event). Doc_01 §7 named the refusal; Doc_02 §13 tested it: ''Zwingli''
+description: 'LAYER 1 (Historical Event). ''Zwingli''
   and ''Marburg'' return zero hits in all ten files; ''Oecolampadius'' once, in an editor''s footnote;
   ''Sacramentarians'' in Luther''s own voice exactly once, in BONDAGE. The Marburg Articles (3 October
   1529), signed by Luther and Melanchthon among others, are a located, unvendored lead. Finding: the silence
   is CHRONOLOGICAL AND GENERIC, not suppressive -- the rival is absent because the vendored texts are
   early or confessional, not because anyone removed it (Documented as to the searches). The world-boundary
-  weight assigned to this force (Doc_01 §8.1''s ''diverge sharply and specifically at the Eucharist'')
+  weight assigned to this force (''diverge sharply and specifically at the Eucharist'')
   rests on the census and sibling documents and is left UNTAGGED, pending the Marburg Articles'' acquisition.
   LAYER 2 (World''s Own Experience). The library gives the world one clause, one word, and a generic label
   for this edge: ''they reject those that teach otherwise'' (AC 322-324); ''Sacramentarians, Donatists,

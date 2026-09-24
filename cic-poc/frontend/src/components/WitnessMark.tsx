@@ -19,36 +19,57 @@
  *
  * Same purple, same ✲, same InlineBridge grammar, same one-mark-per-run
  * dedup as StoryMark - a multi-sentence answer built on one witness record
- * gets one mark at the end of the run, not one per sentence, matching the
- * same rule already applied to story/quote.
+ * gets one mark, not one per sentence, matching the same rule already
+ * applied to story/quote. Placed at the run's FIRST sentence, not its
+ * last - a participant should see "this is
+ * someone else's words" before reading them, the opposite of a story's
+ * own placement at the run's end.
+ *
+ * `repeat` and `contested` are CSS-only modifiers (app.css
+ * .citation-mark--repeat/--contested) - same glyph, same color, same
+ * verb.
+ *
+ * Drawn only by VoiceTurnBody.tsx's legacy renderer (a stored turn whose
+ * plan predates per-element placement). The element renderer lists a
+ * witness record at the end of the reply, not inline.
  */
 import type { SourceCard } from '../types/conversation';
+import { confidencePhrase } from '../lib/confidence';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
 interface WitnessMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "doctrinal_witness"
+  repeat?: boolean;
+  contested?: boolean;
 }
 
-export function WitnessMark({ sources }: WitnessMarkProps) {
+export function WitnessMark({ sources, repeat, contested }: WitnessMarkProps) {
+  const markClassName = ['citation-mark', 'witness-mark', repeat && 'citation-mark--repeat', contested && 'citation-mark--contested']
+    .filter(Boolean)
+    .join(' ');
   return (
     <InlineBridge
       label=" ✲"
-      markClassName="citation-mark witness-mark"
+      markClassName={markClassName}
       ariaLabel="Where this comes from"
       level2={
         <>
-          {sources.map((card) => (
-            <div key={card.record_id} className="witness-mark__entry">
-              <p className="witness-mark__title">{card.label}</p>
-              {card.sources.map((s) => (
-                <p key={s.source_id} className="witness-mark__source">
-                  {s.work ?? s.source_id}
-                  {s.author && ` — ${s.author}`}
-                </p>
-              ))}
-            </div>
-          ))}
+          {sources.map((card) => {
+            const phrase = confidencePhrase(card.confidence);
+            return (
+              <div key={card.record_id} className="witness-mark__entry">
+                <p className="witness-mark__title">{card.label}</p>
+                {card.sources.map((s) => (
+                  <p key={s.source_id} className="witness-mark__source">
+                    {s.work ?? s.source_id}
+                    {s.author && ` — ${s.author}`}
+                  </p>
+                ))}
+                {phrase && <p className="witness-mark__confidence">{phrase}</p>}
+              </div>
+            );
+          })}
         </>
       }
       level3Title="Where this comes from"

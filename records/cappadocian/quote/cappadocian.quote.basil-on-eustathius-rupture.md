@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-on-eustathius-rupture
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -48,7 +48,6 @@ retrieval:
   retrieve_when:
   - "participant asks why Basil broke off communion with his old friend and mentor Eustathius"
   - "participant asks what the actual doctrinal disagreement over the Holy Spirit was about"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.catholic-and-its-rivals

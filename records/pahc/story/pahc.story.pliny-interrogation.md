@@ -3,7 +3,7 @@ id: pahc.story.pliny-interrogation
 world_id: post-apostolic-house-church
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - "participant asks how Roman authorities actually treated Christians in this period"
   - "participant asks what outside, non-Christian evidence exists for this world at all"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is vulnerable around themes of torture, sexual violence, or slavery, or has not signaled readiness for content of this weight"
 relations:
 - type: associated-with

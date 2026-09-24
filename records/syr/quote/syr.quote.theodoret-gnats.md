@@ -3,7 +3,7 @@ id: syr.quote.theodoret-gnats
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the miracle stories can be believed"
   - "participant asks what outside historians wrote about their holy men"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (NPNF2-03, including the edition's own awkward 'than to that' - kept exactly as printed). Hagiographic-tier framing per syr.story.jacob-deliverance; canon_cells empty (the story carries the cell).
 

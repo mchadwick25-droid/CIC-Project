@@ -3,7 +3,7 @@ id: gallic.term.heretic-heresy
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -40,7 +40,7 @@ retrieval:
   - why Martin defended the Priscillianists
   - participant uses "heretic," "heresy," "orthodox," "Priscillian," "Arian," "persecution"
   - Vincent's "definite name ... place ... time"; Trier and the sword; Cassian's monk enticed by "grace of style"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the rule that detects heresy (retrieve the rule)
   - the question is about the specific foil (retrieve Pelagians as foil)
   - Priscillianism's own content - another world's territory

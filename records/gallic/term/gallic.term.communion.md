@@ -3,7 +3,7 @@ id: gallic.term.communion
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -44,7 +44,7 @@ retrieval:
   - what it meant to be "suspended from prayer"
   - participant uses "communion," "eucharist," "fellowship," "excommunicate," "in communion with"
   - the Saragossa decree; the Ithacian bishops; Inst. II.16; Vincent's "unity of communion"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is only about the eucharistic rite and its frequency - the Gallic evidence for that is an editor's footnote citing an omitted book
   - the question is about penance as such (retrieve penance / satisfaction)
 relations:

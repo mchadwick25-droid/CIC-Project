@@ -3,7 +3,7 @@ id: desert.quote.so-perfectly-silent
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I
@@ -32,11 +32,14 @@ text: "When, then, they meet together to celebrate the aforementioned rites, whi
   there is no spitting, no clearing of the throat, or noise of coughing, no sleepy yawning with open
   mouths, and gaping, and no groans or sighs are uttered, likely to distract those standing near."
 modern_rendering: >-
-  They called their gathering the synaxis. When they met, the whole
-  group stayed silent. You would have thought no one was there, except
-  the one person standing to chant the psalm. This was true most of all
-  during prayer. No spitting. No throat-clearing. No coughing or
-  yawning. No sighing. Nothing to distract the people standing nearby.
+  They met to celebrate their rites, which they called synaxes. Though a
+  large number of the brethren were gathered, they stayed so perfectly
+  silent that you would have thought no one was there, except the one
+  person standing to chant the psalm in the midst. This was true most of
+  all during prayer. There was no spitting, no clearing of the throat,
+  and no coughing. There was no sleepy yawning with open mouths and
+  gaping. No groans or sighs were uttered, of the kind likely to distract
+  those standing near.
 speaker_or_author: John Cassian, describing Egyptian monastic prayer gatherings
 license: verbatim
 modern_lens_note: >-
@@ -51,7 +54,6 @@ retrieval:
   retrieve_when:
   - "participant asks what it was actually like to be in the room during the gathering"
   - "participant asks what the word for their weekly gathering meant or where it came from"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.term.synaxis}
 ---

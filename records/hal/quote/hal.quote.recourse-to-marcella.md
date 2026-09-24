@@ -3,7 +3,7 @@ id: hal.quote.recourse-to-marcella
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -21,8 +21,8 @@ sources:
 text: 'Consequently after my departure from Rome, in case of a dispute arising as to the
   testimony of scripture on any subject, recourse was had to her to settle it.'
 modern_rendering: >-
-  So after I left Rome, this is what happened. Whenever people disagreed
-  about what scripture said, they went to her. She was the one who settled
+  So after I left Rome, people turned to her whenever a dispute arose
+  about what scripture said on any subject. She was the one who settled
   it.
 speaker_or_author: hal.figure.jerome
 license: verbatim
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks who people went to when they disagreed about a text"
   - "participant asks whether a woman held any recognised authority"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec. 7).
 THE sole attestation of Marcella's post-385 standing - Documented as

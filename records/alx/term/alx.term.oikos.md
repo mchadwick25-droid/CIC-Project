@@ -3,7 +3,7 @@ id: alx.term.oikos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - where formation happens for ordinary believers who cannot enter the catechetical school
   - household life, or where enslaved persons, women, and rural believers were formed
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about the catechetical school as a formal structure (retrieve alx.term.didaskalos)
   - asking about marriage as a theological category rather than the household as a formation setting
 relations: []

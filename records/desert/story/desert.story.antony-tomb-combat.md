@@ -3,7 +3,7 @@ id: desert.story.antony-tomb-combat
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -22,7 +22,7 @@ retrieval:
   - "participant says they can't quiet their own mind, or asks if this way of life has anything for someone struggling internally"
   - "participant asks what spiritual combat or fighting temptation actually looked like"
   - "participant asks for the most extreme example of what this world's own discipline demanded"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is in acute personal crisis around self-harm, psychiatric crisis, or dissociation - this story's own violent imagery is not meant as guidance for a real mental-health emergency"
 relations:
 - type: associated-with

@@ -3,16 +3,31 @@ id: cappadocian.quote.basil-on-common-life
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
 confidence:
   citation_specificity: A
-  verification_state: verified-direct
+  verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: null
+  divergence_note: >-
+    This record's own body (2026-09-02) already documents correcting this passage's `text`
+    against two plain OCR misreads in the vendored basil_ascetic-works-longer-shorter-rules_clarke1925.txt
+    scan - "Tor just as" for "For just as", and a stray leading curly-quote mark before "To
+    begin" - and dropping three inline footnote-marker artifacts as apparatus, not text.
+    Quote-verbatim gate note (2026-09-23, item 2 of the P3 registration queue): the gate's
+    own edition-level apparatus (cic/texts/REGISTRY.yaml) now strips the recurring,
+    evidenced marker conventions this same edition uses elsewhere in this passage (the
+    "?" and "®" footnote glyphs, the stray column-continuation letter), but the "Tor"/"For"
+    difference is a genuine scan misread, not a marker - the vendored file itself reads
+    "Tor", not what Basil wrote. No apparatus mechanism should correct a raw word-level OCR
+    error; that stays a fact about the scan, not a fidelity defect in this record. Same
+    treatment already ruled for don.quote.donatus-quid-est-imperatori and its OCR-damaged
+    neighbors: verification_state lowered from verified-direct to verified-via-authority to
+    reflect that the corrected text rests on the 2026-09-02 human correction against the raw
+    scan, not a direct character match to the vendored file as it actually reads.
 sources:
 - source_id: cappadocian.source.basil-asketikon-longer-shorter-rules
   locus: "The Longer Rules (Regulae Fusius Tractatae), Rule/Question VII, opening
@@ -52,7 +67,6 @@ retrieval:
     their own"
   - "participant asks why the brotherhood held goods and necessities in common rather than each member
     keeping their own"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.becoming-one-of-us

@@ -3,7 +3,7 @@ id: ijc.dw.baptism-threshold
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Were we 'born again'? We would have pointed to baptism, and we took it so
   seriously that some of our most famous men put it off for years. Baptism

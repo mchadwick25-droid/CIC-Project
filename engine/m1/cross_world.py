@@ -55,11 +55,50 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    "census-living-flag/alx": "F-06 - census `living` says false, registry says true; which is correct is a per-world Living Tradition touchpoint, not a build thread's to settle",
-    "census-living-flag/pahc": "F-06 - as alx",
-    "census-living-flag/hal": "F-06 - as alx",
-    "census-living-flag/ijc": "F-06 - as alx",
-    # F-07/F-08 CLOSED 2026-08-28: the registry wins - the census now derives its representative name/title from
+    # ijc CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry. ijc's own construction record (Doc_01 SS1,
+    # ijc.core.imperial-juridical) had explicitly disclosed `true` as a
+    # fail-safe default pending Mark's own Article 29 confirmation -
+    # unlike alx/pahc below, this one had genuinely never been made. Put
+    # to Mark directly using pahc's own four-option framing; ruling:
+    # "Multiple traditions, partial claims" (Roman Catholic + Eastern
+    # Orthodoxy). ijc_World_Profile.md SS9 updated PENDING->CONFIRMED;
+    # see worlds/ijc/Open_Gaps_Tracking.md for the full record. F-06 is
+    # now closed across all four of its original instances.
+    #
+    # alx CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry, which was already correct - Mark confirmed Article 29
+    # Living Tradition Status in session 2026-07-17 (Coptic Orthodox
+    # Church as primary heir), independently corroborated across Doc_01,
+    # the World Profile, Open_Gaps_Tracking.md OG-1, the Facilitation
+    # Brief, and the M1 record alx.force.chalcedonian-fracture. The
+    # census's false was simply never updated after that confirmation.
+    #
+    # pahc CLOSED 2026-09-20: census `living` synced true -> matches
+    # registry, which was already correct - Mark confirmed Living
+    # Tradition Status in session 2026-07-08, via a direct, deliberated
+    # choice among four options ("Multiple traditions, partial claims":
+    # Roman Catholic and Eastern Orthodox apostolic-succession claims,
+    # certain Anglican/episcopal-polity traditions, more loosely any
+    # tradition drawing on the Apostolic Fathers), recorded in
+    # CiC_W1_World_Profile.md SS9 with a documented tooling-failure/retry
+    # history. See worlds/pahc/Open_Gaps_Tracking.md item 2.
+    #
+    # hal CLOSED 2026-09-20 by Mark's ruling: false, matching the
+    # construction-stage documents' own reasoned "confirmed NO" finding
+    # (two named candidates considered and rejected) over the registry's
+    # unreviewed true default. records/worlds/hal.yaml's own
+    # living_tradition_flag flipped to false to match the census, which
+    # already had this right (worlds/hal/Open_Gaps_Tracking.md item 1).
+    #
+    # Corroborated independently 2026-09-21 (website-card-redesign-to-main,
+    # PR #351): alx/pahc/ijc's own world_front/world_core build separately
+    # resolved the same Living Tradition determinations and found the
+    # compiled census `living` flag already matching the registry for all
+    # three by the time that PR landed on main - two independent paths
+    # reaching the same closure, not a second, competing ruling.
+    # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
+    # wins"): the census now derives its representative name/title from
     # records/worlds.yaml (syr's registry entry took the ruled values Mar
     # Yausep / Teacher of the Covenant Order), so these five accepted-open
     # entries are deleted and the checks ENFORCE - identity drift between
@@ -990,6 +1029,19 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
     return findings
 
 
+# Word-boundary matched, not a bare substring: a first version matched
+# "weigh" as a substring, which silently caught rzg's guard on "the felt
+# WEIGHt of either" (honest-thinness prose, no distress-comparison content
+# at all) - a real false positive, not a hypothetical one, found while
+# starting R19's retrofit and confirmed by reading rzg's guard field
+# directly (records/rzg/voice_craft/rzg.craft.theophilus-voice.md). \b
+# boundaries block a match inside "weight"/"weighted"/"outweigh" while
+# still catching "weigh"/"weighs"/"weighed"/"weighing" as their own words.
+_OUTSIDE_HELP_GUARD_SIGNALS = re.compile(
+    r"measured against|not the same weight|\bweigh(?:s|ed|ing)?\b", re.IGNORECASE
+)
+
+
 def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
     """Stage 0e (Build-Plan.md): does this world's voice_craft.guard carry
     a categorical prohibition against measuring a participant's own
@@ -1007,17 +1059,19 @@ def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
 
     A keyword scan over guard's own free text, not a semantic judgment - it
     can only ever say a guard field NAMES this concern in roughly don's own
-    words, never that a world's actual behavior honors it. Report-only:
+    words, never that a world's actual behavior honors it (and, being a
+    keyword scan, can still miss a world that names the same concern in
+    genuinely different words - see _OUTSIDE_HELP_GUARD_SIGNALS' own note
+    on the one false positive already found and fixed here). Report-only:
     nothing here fails a build. The printed world list is filed under R19
     in Rulings-Pending.md for a real ruling on whether and how to promote
     this to a gate.
     """
-    signals = ("measured against", "weigh", "not the same weight", "weighing")
     findings = []
     for w in worlds:
         crafts = [r for r in records[w].values() if r["record_type"] == "voice_craft"]
-        guard_text = " ".join(str(r.get("guard") or "") for r in crafts).lower()
-        hit = any(s in guard_text for s in signals)
+        guard_text = " ".join(str(r.get("guard") or "") for r in crafts)
+        hit = bool(_OUTSIDE_HELP_GUARD_SIGNALS.search(guard_text))
         findings.append(_observation(
             "outside-help-guard", w,
             f"voice_craft.guard {'carries' if hit else 'does not carry'} don-style distress-comparison language"

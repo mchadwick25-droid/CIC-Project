@@ -3,7 +3,7 @@ id: rzg.term.confession-of-faith
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -25,7 +25,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks about confession (of faith)
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: A confession is a formal, public statement of our own doctrine. The Second Helvetic Confession,
   from Zurich, is our own most mature example.

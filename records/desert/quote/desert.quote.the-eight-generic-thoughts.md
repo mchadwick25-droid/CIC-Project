@@ -3,7 +3,7 @@ id: desert.quote.the-eight-generic-thoughts
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -18,6 +18,13 @@ sources:
   address: "cic:evagrius_praktikos_dysinger.txt:6"
   license: cc-by-4.0
 text: "There are eight generic [tempting-] thoughts (logismoi), that contain within themselves every [tempting-]thought: first is that of gluttony; and with it, sexual immorality; third, love of money; fourth, sadness; fifth, anger; sixth acedia; seventh, vainglory; eighth, pride. Whether these thoughts are able to disturb the soul or not is not up to us; but whether they linger or not, and whether they arouse passions or not; that is up to us."
+modern_rendering: >-
+  There are eight basic tempting thoughts, called logismoi, and every tempting thought
+  comes from one of these eight. The first is gluttony. With it comes sexual immorality.
+  The third is love of money. The fourth is sadness. The fifth is anger. The sixth is
+  acedia. The seventh is vainglory. The eighth is pride. Whether these thoughts can
+  disturb the soul is not up to us. But whether they stay, and whether they stir up
+  strong desires, is up to us.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "The list is not a catalogue of sins. A logismos is an intruding thought, and the closing clause is the whole ethic: whether it arrives is not up to you, whether it stays is. A modern reader who hears 'eight deadly sins' has already lost the distinction this chapter is drawing. 'acedia' is left untranslated because no English word carries it - see desert.quote.the-noonday-demon for what it actually looks like. The vendored file reads 'sixth acedia' without the comma the other seven have; that is the file, not a silent edit here."
@@ -28,7 +35,6 @@ retrieval:
   - "participant describes unwanted thoughts they cannot stop, or thoughts they hate having"
   - "participant asks where the seven deadly sins came from"
   - "participant asks whether a bad thought is already a sin"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.logismoi

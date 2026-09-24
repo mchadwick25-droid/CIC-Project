@@ -3,7 +3,7 @@ id: ijc.story.vigil-in-basilica
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -32,7 +32,6 @@ retrieval:
   - how a bishop could resist an emperor
   - worship under threat; Milan's own hymn-singing custom, begun that night
   - what belonging cost in this world
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}

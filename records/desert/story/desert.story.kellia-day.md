@@ -3,7 +3,7 @@ id: desert.story.kellia-day
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F5-E]
 confidence:
@@ -29,7 +29,6 @@ retrieval:
   - "participant asks what an ordinary day actually looked like in this world"
   - "participant asks about the cell, the settlement, or what physical remains would show"
   - "participant asks how prayer, work, and communal gathering fit together in the daily rhythm"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal

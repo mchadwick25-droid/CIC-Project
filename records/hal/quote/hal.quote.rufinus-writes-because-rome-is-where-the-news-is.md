@@ -3,7 +3,7 @@ id: hal.quote.rufinus-writes-because-rome-is-where-the-news-is
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   It has been brought to my knowledge that certain persons, in the course of a controversy which they have been raising in your Holiness’ jurisdiction on matters of faith or on other points, have made mention of my name. I venture to believe that your Holiness, who have been trained from your infancy in the strict principles of the Church, has refused to listen to any calumnies which may have been directed against an absent person, and one who has been favourably known to you as united with you in the faith and love of God. Nevertheless, since I hear it reported that my reputation has been attacked, I have thought it right to make my position clear to your Holiness in writing.
+modern_rendering: >-
+  It has come to my knowledge that certain persons have mentioned my name. They did this
+  in a controversy they have raised in your Holiness's jurisdiction, on matters of faith
+  or on other points. I venture to believe one thing: your Holiness was trained since
+  infancy in the Church's strict principles, and so has refused to listen to any slander
+  against an absent person. That person is one already known to you, united with you in
+  faith and love of God. All the same, I hear that my reputation has been attacked. So I
+  have thought it right to make my position clear to your Holiness in writing.
 speaker_or_author: Rufinus of Aquileia, Apology to Anastasius, sec. 1
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +39,6 @@ retrieval:
   - "participant asks who had the right to settle a dispute about belief, and how that worked"
   - "participant asks whether a council or a bishop simply decided doctrine"
   - "participant asks how an accusation of heresy actually reached someone"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.authority

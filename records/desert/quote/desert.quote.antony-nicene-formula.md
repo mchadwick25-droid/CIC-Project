@@ -3,7 +3,7 @@ id: desert.quote.antony-nicene-formula
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-T]
 confidence:
@@ -17,6 +17,10 @@ sources:
   locus: "SS69 - Antony, summoned to Alexandria by the bishops, publicly teaching against the Arians"
   license: public-domain
 text: "...the Son of God was not a created being, neither had He come into being from non-existence, but that He was the Eternal Word and Wisdom of the Essence of the Father. And therefore it was impious to say, 'there was a time when He was not,' for the Word was always co-existent with the Father."
+modern_rendering: >-
+  ... the Son of God was not created. He did not come into being out of nothing. He was the eternal
+  Word and Wisdom, from the Father's own Essence. So it was impious to say, "There was a time when
+  he did not exist." The Word had always existed together with the Father.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: the vocabulary here (Word, Essence, co-existent) is dense fourth-century Trinitarian argument, not language that has drifted meaning for a modern reader - it reads as unfamiliar and technical, not as something that misleadingly sounds familiar."
@@ -25,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether people outside the councils had settled views about who Jesus was"
   - "participant asks whether the creed reached ordinary members or stayed with bishops"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.antony-arians-serpents

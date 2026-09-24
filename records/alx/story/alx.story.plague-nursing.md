@@ -3,7 +3,7 @@ id: alx.story.plague-nursing
 world_id: alexandria-catechetical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -28,7 +28,6 @@ retrieval:
   retrieve_when:
   - sickness, death, plague, care for the dying
   - how the community treated outsiders' judgment
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.dionysius-plague

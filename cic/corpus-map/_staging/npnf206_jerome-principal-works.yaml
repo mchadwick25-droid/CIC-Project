@@ -71,7 +71,7 @@ assignments:
     (Rufinus'' Commentary on the Apostles'' Creed), and these four short letters are primary-voice
     correspondence naming Aquileian and Concordian figures by name and role, not about the
     church from outside it. Surfaced by a source-research pass on Aquileian Christianity''s
-    (I.41) sourcing gaps, 2026-09-13.
+    (I.41) sourcing gaps.
 
     '
 - work: The Life of Paulus the First Hermit
@@ -95,10 +95,9 @@ assignments:
   role: tradition
   confidence: assigned
   note: Hilarion carries Antony's pattern to Palestine, so the subject is monasticism outside
-    the desert entry's stated region (Egypt, Nile Valley). No census entry covers fourth-century
-    Palestinian monasticism (the Judean-desert/Gaza entry begins c. 450), so desert-monasticism
-    is the nearest bucket; flagged rather than silently stretched. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.
+    the desert entry's stated region (Egypt, Nile Valley). No census entry covered fourth-century
+    Palestinian monasticism until palestinian-ascetic-monasticism-early was added for this
+    movement; it holds it directly now.
 - work: The Life of Malchus, the Captive Monk
   author: jerome
   locus: div2 6.3 (~3,513 words)
@@ -109,8 +108,7 @@ assignments:
   confidence: assigned
   note: 'Same doubt as the Hilarion: Syrian setting, monastic subject, and no census entry
     for fourth-century Syrian monasticism outside the Edessa/ Nisibis entry (which this is
-    not). Desert-monasticism as nearest monastic bucket, flagged. Re-pointed 2026-08-26 to
-    the census entry added on record for this movement.'
+    not). palestinian-ascetic-monasticism-early, added for this movement, holds it directly.'
 - work: The Dialogue Against the Luciferians
   author: jerome
   locus: div2 6.4 (~16,292 words)
@@ -182,8 +180,8 @@ assignments:
   confidence: assigned
   note: 'Origenist-controversy polemic against the bishop of Jerusalem. It describes the Jerusalem
     church only as an adversary in a Christian quarrel, so it is not assigned to the Jerusalem
-    entry and is not `context` under Mark''s definition (Jerome speaks as a Christian); noted
-    here in case a reviewer wants the Jerusalem cross-reference.
+    entry and is not `context` under this project''s own definition (Jerome speaks as a Christian);
+    flagged here as a cross-reference to the Jerusalem entry.
 
     '
 - work: Against the Pelagians

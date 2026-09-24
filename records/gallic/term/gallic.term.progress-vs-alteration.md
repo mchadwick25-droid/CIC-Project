@@ -3,7 +3,7 @@ id: gallic.term.progress-vs-alteration
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -43,7 +43,7 @@ retrieval:
   - how a council can use a new word
   - participant uses "development," "progress," "change," "evolve," "growth," "Newman"
   - Comm. ch. 23; the child and the man; the seed and the harvest; "an old article of the faith ... a new name"
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about what is kept (retrieve the deposit)
   - the question is about the test (retrieve the rule)
   - Newman's theory of development as such - that is this term's afterlife, not its world meaning

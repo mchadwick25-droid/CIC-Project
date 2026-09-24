@@ -3,7 +3,7 @@ id: pahc.source.anti-montanist-fragments
 world_id: post-apostolic-house-church
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

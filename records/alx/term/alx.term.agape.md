@@ -3,7 +3,7 @@ id: alx.term.agape
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what Christian love is here, or whether it is a feeling
   - how love connects to knowledge of God, or what proves formation has actually happened
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about God's love for humanity rather than the soul's own love as a fruit of formation
   - asking about specific moral commands rather than love's source
 relations: []

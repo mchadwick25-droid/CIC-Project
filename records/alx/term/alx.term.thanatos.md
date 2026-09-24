@@ -3,7 +3,7 @@ id: alx.term.thanatos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - death used in a theological sense, or what sin leads to
   - how a soul can be "dead" while biologically alive, or why martyrdom makes sense
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about death as a personal matter of grief rather than a theological one
   - asking primarily about resurrection as the reversal (retrieve alx.term.anastasis)
 relations: []

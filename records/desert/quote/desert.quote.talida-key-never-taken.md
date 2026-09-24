@@ -3,7 +3,7 @@ id: desert.quote.talida-key-never-taken
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -31,9 +31,19 @@ text: >-
   purity, and they led a life of happiness under the teaching of this good old woman, whom they
   loved, and on whom they depended; and because of the great affection which they poured out upon
   her, the key was never taken away from any one of them, as is customary in other religious houses
-  for women. Now this old woman arrived at such a state of impassibility that when I entered into
+  for women, and through her divine doctrine she changed them into a state of incorruptibility. Now
+  this old woman arrived at such a state of impassibility that when I entered into
   her presence and sat down by her side, she stretched out her hands and laid them upon my
   shoulders, in the boldness and freedom which she had acquired in Christ.
+modern_rendering: >-
+  Sixty virgins lived with her, following the path and rule of the ascetic life in
+  purity. They lived a happy life under the teaching of this good old woman, whom they
+  loved and depended on. They poured out such great affection on her that the key was
+  never taken away from any one of them. This was unlike the custom in other religious
+  houses for women. Through her divine teaching, she changed them into a state of
+  incorruption. This old woman reached such a state of dispassion that when I came into
+  her presence and sat down beside her, she stretched out her hands and laid them on my
+  shoulders. She did this with the boldness and freedom she had gained in Christ.
 speaker_or_author: Palladius, on Mother Talida of Antinoe
 license: verbatim
 modern_lens_note: >-
@@ -52,7 +62,6 @@ retrieval:
   - "participant asks who was in charge of the women's communities"
   - "participant asks whether women were shut in, and who held the keys"
   - "participant asks what an old woman's authority rested on"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.elder-authority
@@ -68,3 +77,8 @@ amma running a house of sixty under her own teaching, a named informant
 chain, a first-hand scene, an incidental fact about how OTHER women's
 houses were run, and a technical claim about apatheia attached to a
 woman - all in one paragraph.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "for women" was invented - the
+source's sentence continues with a real clause ("and through her divine doctrine she changed them
+into a state of incorruptibility"), silently dropped. Restored; a natural continuation of the same
+point about her teaching, not a change of claim.

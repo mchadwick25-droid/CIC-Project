@@ -3,7 +3,7 @@ id: desert.limit.doubt-and-doctrine
 world_id: desert-monasticism
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-T, F1-P]
 confidence:

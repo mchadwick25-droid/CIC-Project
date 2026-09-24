@@ -3,7 +3,7 @@ id: don.quote.the-shores-are-covered
 world_id: donatism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -61,16 +61,17 @@ retrieval:
   - participant asks what we never settled, or what troubled us about ourselves
   - participant asks how we treated a group that broke away from us
   - participant asks whether we lived up to our own rule
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about an actual shipwreck, drowning, or violent death - the imagery is figurative
 relations:
 - type: associated-with
   target: don.dw.what-we-never-settled
 modern_rendering: >-
-  The waves of truth have thrown these men on the rocks and broken them.
-  Like the Egyptians in the sea, their bodies lie all along the shore.
-  Death is not the end of what they suffer. The waters that took their
-  lives will not even give them a grave.
+  Certain men's shipwrecked members have been dashed by the waves of
+  truth onto the sharp rocks. After the fashion of the Egyptians, the
+  shores are covered with the bodies of the dying. Their punishment is
+  intensified in death itself. Since the avenging waters have wrung
+  their life from them, they fail to find so much as burial.
 ---
 Verified verbatim against the vendored
 `npnf104_augustine-anti-manichaean-anti-donatist.xml`, in the passage

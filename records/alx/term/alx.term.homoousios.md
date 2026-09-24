@@ -3,7 +3,7 @@ id: alx.term.homoousios
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -28,7 +28,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - Trinity/council questions
-  do_not_retrieve_when:
+  prefer_instead:
   - pre-Nicene contexts - the word does not exist yet
 relations:
 - type: associated-with

@@ -1,0 +1,21 @@
+/**
+ * One plain phrase per `formation_confidence` value
+ * (engine/m1/schemas.py's five-value enum), shown on a citation's Level 2
+ * card. Confidence display reads
+ * `confidence.formation_confidence` only, never a record's `status` -
+ * `status` is the eligibility gate for which records can carry
+ * a confidence display at all, not the value shown here.
+ */
+const CONFIDENCE_PHRASES: Record<string, string> = {
+  Documented: 'Recorded directly in a source from the time.',
+  'Widely Accepted': 'What historians broadly agree happened.',
+  'Dominant Modern Reconstruction': 'The leading modern reading of the evidence.',
+  Contested: 'Historians disagree about this.',
+  'Inferential-Thin': 'Based on thin evidence, mostly inference.',
+};
+
+export function confidencePhrase(confidence: Record<string, unknown> | null | undefined): string | null {
+  const level = confidence?.formation_confidence;
+  if (typeof level !== 'string') return null;
+  return CONFIDENCE_PHRASES[level] ?? null;
+}

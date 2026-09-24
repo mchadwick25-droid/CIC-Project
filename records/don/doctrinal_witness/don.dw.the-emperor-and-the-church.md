@@ -3,7 +3,7 @@ id: don.dw.the-emperor-and-the-church
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -43,7 +43,6 @@ retrieval:
   - participant asks whether Constantine or the empire corrupted the church
   - participant asks whether Christians hid in the catacombs
   - participant asks what outsiders and neighbours said about us, or found strangest
-  do_not_retrieve_when: []
 text: >-
   Did the empire change what the church was? That is not a question to
   us. That is our whole case, and we are the party that answered yes.

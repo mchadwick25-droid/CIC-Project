@@ -3,7 +3,7 @@ id: cappadocian.dw.becoming-one-of-us
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -35,7 +35,6 @@ retrieval:
   - "participant asks how a person actually became one of this world's people, step by step"
   - "participant asks how this world fasted and why, or what happened when someone wronged the
     community"
-  do_not_retrieve_when: []
 text: >-
   It began at the font. You were signed into the Name, Father, Son, and
   Holy Spirit, plunged three times into the water, and taught to believe

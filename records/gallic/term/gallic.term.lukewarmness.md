@@ -3,7 +3,7 @@ id: gallic.term.lukewarmness
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -44,7 +44,7 @@ retrieval:
   - what happened to a monk who lost his fervour, or why old age was no guarantee
   - participant uses "lukewarm," "burnout," "losing zeal," "backsliding," or "cooling off"
   - the steward's cupboard, the elders who "pass their old age in a lukewarmness," Sarabaites "cast down into hell," or Salvian's Revelation 3
-  do_not_retrieve_when:
+  prefer_instead:
   - the specific noonday assault on the cell (retrieve accidie)
   - the climate of Gaul as such (retrieve Gaul - the Conf. Pref. II sentence is a pun, not an attestation)
   - lukewarm as mild modern disapproval

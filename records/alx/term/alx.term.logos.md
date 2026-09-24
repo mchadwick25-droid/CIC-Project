@@ -3,7 +3,7 @@ id: alx.term.logos
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -29,7 +29,6 @@ retrieval:
   retrieve_when:
   - any question about who Jesus was to this world
   - philosophy-and-faith questions
-  do_not_retrieve_when: []
 plain_meaning: 'The Word: God''s own reason and speech, through whom all things were made, and who became
   flesh in Jesus.'
 world_word: Logos

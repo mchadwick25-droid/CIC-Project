@@ -3,7 +3,7 @@ id: witt.story.prayer-for-rain-1532
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -16,8 +16,7 @@ confidence:
     the precise sequence and timing of the rain said to have followed. The account is dated with unusual
     precision for a Table Talk entry - 9 June 1532, stated twice within the passage itself - which speaks
     to the tradition's own care in preserving it, but does not convert a collected reminiscence, reaching
-    this library through Table Talk's own compilers, into a contemporaneous document of the day itself
-    (Doc_09 witt-S12; Source Registry R31).
+    this library through Table Talk's own compilers, into a contemporaneous document of the day itself.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: '"Of Luther''s Prayer for a gracious Rain," TT lines 3154-3192: the 1532 drought, "Luther called
@@ -30,7 +29,7 @@ retrieval:
   - a participant asks about the whole congregation, communal prayer, or this world's anxiety about complacency
   - a participant asks whether ordinary people, not just Luther and his students, ever appear together
     in this library
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting the rain's timing as independently verified meteorological fact
   - a participant wants a story of a village's own ordinary Sunday - this is a documented public event,
     not typical parish life (see witt-ABS-01, the refused candidate, for why no such story exists)

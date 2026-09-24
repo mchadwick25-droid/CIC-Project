@@ -3,7 +3,7 @@ id: witt.gravity.estate-office-and-calling
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -77,7 +77,7 @@ classification: supporting
 description: '''It is pure invention that pope, bishops, priests and monks are to be called the "spiritual
   estate"... all Christians are truly of the "spiritual estate," and there is among them no difference
   at all but that of office'' (v2 2159-2164); good works done ''when they work at their trade, walk, stand,
-  eat, drink, sleep'' (v1 6863-6865). SIX-TEST SUMMARY (Doc_04 §3 G7): Repetition passes across seven
+  eat, drink, sleep'' (v1 6863-6865). SIX-TEST SUMMARY: Repetition passes across seven
   streams; Dependency passes -- G4''s father-catechist is this gravity in practice, G9''s married estate
   is its ''most common and noblest'' instance, G3''s priest is an office-holder of Word and sacrament;
   Formation passes as taught, Inferential-Thin as reception; Explanatory passes -- the first of the ''three
@@ -92,8 +92,7 @@ description: '''It is pure invention that pope, bishops, priests and monks are t
   It is also the gravity whose 1520 form is most visibly fenced by 1530, which is Supporting-shaped behavior
   -- it bends to the Primaries and to the forces rather than organizing them. CONFIDENCE/GRAVITY CROSS-CHECK:
   agree; no divergence. Register-and-voice spread: 3/4 -- no non-founder voice; the Brussels monks are
-  narrated by the founder, not by a witness. Reception-side status: absent. FORCES-CONNECTION NOTATION
-  (Doc_04 §3 G7; Doc_08 §5): generated as the refusal of the first wall, the clerical estate''s claim
+  narrated by the founder, not by a witness. Reception-side status: absent. FORCES-CONNECTION NOTATION: generated as the refusal of the first wall, the clerical estate''s claim
   to be ''spiritual'' over against the ''temporal'' [1B-3 with 1A-2]; intensified in its monastic form
   -- the Teutonic knights, the martyrs'' ''monkish garb'' [1B-3]; FENCED under the reform''s own internal
   pressure -- the universal priesthood of 1520 acquires, by the Sermons of 1522 and Article XIV of 1530,

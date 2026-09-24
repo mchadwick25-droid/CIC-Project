@@ -2,7 +2,7 @@
 ## Round 22 Independent Adversarial Review — scoped to verifying the Round 21 fix pass (all thirteen findings), a fourth spot-check of Round 19's declined C1, an independent re-run of the sequential-pairing-versus-CommonMark bold-nesting test, and a cold sweep weighted toward claims dated outside the 2026-09-08 batch
 
 **Documents reviewed (committed state — `git status --porcelain` clean, 0 lines, at `f0be10a`, "lpc: fix Round 21 review findings on Doc_02 revision (13 of 13)", 2026-09-08 09:17:50 UTC, on branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (156 lines by `wc -l`, as are all counts in this list; §1 through §10 read in full, cold)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (156 lines by `wc -l`, as are all counts in this list; §1 through §10 read in full, cold)
 - `Source_Registry.md` (329 lines; all 212 rows re-parsed by column position — **every column, not only the Verification Note**, which is where this round's HIGH finding sits)
 - `Source_Acquisition_Manifest.md` (89 lines, read in full — front matter, §1's nine G-items with every fulfillment paragraph, §2, §3, and the closing "Decision from the project lead" section)
 - `lpc_Decision_Log.md` (338 lines, read in full — every entry, with the 2026-09-05 G1/G3/G4 intake entries read against the vendored files they describe rather than against the rows that summarize them)

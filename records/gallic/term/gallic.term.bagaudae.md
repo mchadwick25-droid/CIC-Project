@@ -55,7 +55,7 @@ retrieval:
   - participant asks about poverty, taxation, corrupt officials, or why anyone would side with the barbarians
   - participant uses "Bagaudae," "peasant revolt," "tax," "corruption," or "oppression"
   - what happened to ordinary people while the monasteries were being built
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about monastic poverty or renunciation - retrieve gallic.term.renunciation
   - the question is about the barbarians as a military or theological threat to the church itself - retrieve gallic.force.barbarian-fiscal-ruin
   - the question is about the grace controversy - this term is not licensed for it

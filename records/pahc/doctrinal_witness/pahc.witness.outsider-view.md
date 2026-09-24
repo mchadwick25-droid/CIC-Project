@@ -3,7 +3,7 @@ id: pahc.witness.outsider-view
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -23,7 +23,6 @@ retrieval:
   - "participant asks about catacombs"
   - "participant asks about Constantine"
   - "participant asks what an outsider would have found strangest"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.two-female-slaves-who-were-called-deaconesses

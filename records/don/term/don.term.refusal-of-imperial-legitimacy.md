@@ -3,7 +3,7 @@ id: don.term.refusal-of-imperial-legitimacy
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -43,7 +43,7 @@ retrieval:
   - a participant asks about the relationship to the Roman state, or why imperial rulings were rejected
   - a participant quotes Donatus's retort, or asks whether the opposition to imperial power was consistent
   - the conversation reaches the 313/314 councils, the Macarian repression, or the 411 Conference
-  do_not_retrieve_when:
+  prefer_instead:
   - Roman imperial religious policy is being asked about generally, with no bearing on this communion's stance
 relations:
 - type: associated-with

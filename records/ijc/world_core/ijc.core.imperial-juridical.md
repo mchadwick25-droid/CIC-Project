@@ -3,7 +3,7 @@ id: ijc.core.imperial-juridical
 world_id: imperial-juridical
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -99,9 +99,11 @@ the 312/451 boundary reasoning, the Homoian-recentering obligation
 (Step 0 SS4.1), and the elite/literate/male/urban skew disclosure
 (Step 0 SS4.2) are all carried from those documents.
 
-Living Tradition Status: PENDING Mark's confirmation (Doc_01 SS1) - the
-registry entry fails toward disclosure meanwhile (living_tradition_flag
-true with a pending note).
+Living Tradition Status: CONFIRMED 2026-09-20 by Mark - "Multiple
+traditions, partial claims" (Roman Catholic and Eastern Orthodoxy, each a
+partial and contested heir). See ijc_World_Profile.md SS9 and
+worlds/ijc/Open_Gaps_Tracking.md for the full ruling; living_tradition_flag
+now true as a confirmed determination, not a pending default.
 
 ABSENT STORIES (the required Doc_09 question, answered specifically and
 carried forward from the reviewed legacy Doc_09_Story_Inventory SS5, with

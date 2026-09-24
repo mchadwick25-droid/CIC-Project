@@ -3,7 +3,7 @@ id: rzg.source.genevan-psalter
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

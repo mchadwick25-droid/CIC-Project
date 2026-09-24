@@ -197,6 +197,48 @@ def _tier_prior(record: dict) -> float:
     tier = (record.get("retrieval") or {}).get("tier")
     return _TIER_PRIOR.get(tier, 0.0)
 
+
+# R11's redirect half (Rulings-Pending.md; Decision-Log.md Entries 21-25):
+# "prefer_instead demotes, never excludes" (Build-Plan.md Stage 4a). Each
+# note is free text - a condition ("participant asks X") plus its own
+# " - retrieve <id>" redirect - authored for a human reader, not a
+# machine-parseable rule, so this asks the identical word-overlap question
+# every other scoring pass here already asks rather than attempting real
+# NLU: does the participant's own query share content words with the
+# note's condition half? A hit means a better-matching record almost
+# certainly exists for what was actually asked (the note's own author
+# already named it), so THIS record's relevance is halved - proportional,
+# not a flat penalty, so a strongly-relevant record can still surface if
+# its redirect target isn't in the same candidate pool, and a marginal
+# one correctly falls away. Applied to overlap_coefficient's own share of
+# the score only, never to _tier_prior - a record's tier is a property of
+# the record, not of whether this one query happened to match a redirect
+# note.
+_PREFER_INSTEAD_DEMOTION_FACTOR = 0.5
+
+# The note-authoring convention itself, not a real participant's own
+# words - measured directly (fleet-wide, 702 real prefer_instead notes):
+# over a third open with "participant"/"the participant"/"a participant",
+# and "question"/"asking"/"wants"/"needs"/"asks" are close behind as the
+# condition's own scaffolding verbs, none of them in engine.prose's
+# global _STOPWORDS (that set is tuned against ordinary prose, not this
+# note format's own meta-language). Left in, "What do you all believe
+# about baptism?" would match ANY note opening "the participant asks..."
+# on "asks" alone, demoting a record for a reason that has nothing to do
+# with what was actually asked - scoped to this one function, not added
+# to the global stopword list, since nothing else in this file scores
+# against text written in this authoring convention.
+_PREFER_INSTEAD_CONDITION_STOPWORDS = {"participant", "question", "asking", "asks", "wants", "needs"}
+
+
+def _prefer_instead_demotes(query_words: set[str], record: dict) -> bool:
+    for note in (record.get("retrieval") or {}).get("prefer_instead") or []:
+        condition = note.split(" - retrieve", 1)[0]
+        condition_words = content_words(condition) - _PREFER_INSTEAD_CONDITION_STOPWORDS
+        if query_words & condition_words:
+            return True
+    return False
+
 # Stage A2: a
 # genuinely last-resort net under Stage A, not a replacement for it. Fires
 # from assemble_evidence ONLY when match_asks_to_cells found no cell at
@@ -669,7 +711,10 @@ def _retrieval_fill_scores(*, record_type: str, query_words: set[str], repositor
         shared = query_words & words
         if not shared:
             continue
-        scored.append((rid, len(shared) / min(len(query_words), len(words)) + _tier_prior(record)))
+        base = len(shared) / min(len(query_words), len(words))
+        if _prefer_instead_demotes(query_words, record):
+            base *= _PREFER_INSTEAD_DEMOTION_FACTOR
+        scored.append((rid, base + _tier_prior(record)))
     scored.sort(key=lambda t: (-t[1], t[0]))
     return scored
 
@@ -686,7 +731,11 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
     Stage 4d). An entry also carries "retrieval_fill": True when the
     coverage entry had no candidates of that type at all and Stage B2
     filled the slot instead (see the comment on _retrieval_fill_scores) -
-    absent, not False, on every ordinary coverage-seeded entry."""
+    absent, not False, on every ordinary coverage-seeded entry. An entry
+    also carries "claim_guards": [...] when the record has any - R11's
+    guard half (Rulings-Pending.md), rendered as a rider on this exact
+    candidate's own line by render_evidence_block, not a separate section
+    - absent, not an empty list, on every record with none."""
     query_words = _query_words(message, asks)
     selected: list[dict] = []
     used_chars = 0
@@ -696,7 +745,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
         if record is None:
             return None
         head = _head_text(record)
-        return {
+        entry = {
             "id": rid,
             "record_type": record_type,
             "score": round(score, 3) if score is not None else None,
@@ -704,13 +753,23 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             "confidence": (record.get("confidence") or {}).get("formation_confidence"),
             "classification": record.get("classification"),
         }
+        guards = record.get("claim_guards")
+        if guards:
+            entry["claim_guards"] = guards
+        return entry
+
+    def _entry_chars(entry: dict) -> int:
+        # The rider rides inside the same budget it's counted against -
+        # Build-Plan.md Stage 4a's own "riders in render_evidence_block
+        # inside existing budget_chars" - never a separate allowance.
+        return len(entry["head"]) + sum(len(g) for g in entry.get("claim_guards") or [])
 
     for rid in coverage_entry.get("honest_limit") or []:
         entry = _entry(rid, "honest_limit", None)
         if entry is None:
             continue
         selected.append(entry)
-        used_chars += len(entry["head"])
+        used_chars += _entry_chars(entry)
 
     for record_type, floor in _TYPE_FLOORS.items():
         cov_key = _COVERAGE_KEY_BY_TYPE[record_type]
@@ -724,7 +783,10 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
                 record = repository_records.get(rid)
                 if record is None:
                     continue
-                scored.append((rid, overlap_coefficient(query_words, record) + _tier_prior(record)))
+                base = overlap_coefficient(query_words, record)
+                if _prefer_instead_demotes(query_words, record):
+                    base *= _PREFER_INSTEAD_DEMOTION_FACTOR
+                scored.append((rid, base + _tier_prior(record)))
             scored.sort(key=lambda t: (-t[1], t[0]))
         used_keys = {
             _source_key(repository_records[rid])
@@ -740,7 +802,7 @@ def select_cell_candidates(*, cell: str, coverage_entry: dict, repository_record
             if retrieval_fill:
                 entry["retrieval_fill"] = True
             selected.append(entry)
-            used_chars += len(entry["head"])
+            used_chars += _entry_chars(entry)
 
     return selected
 
@@ -1072,7 +1134,17 @@ def render_evidence_block(evidence: dict) -> str:
             descriptors.append("scope completion")
         if candidate.get("already_told_this_session"):
             descriptors.append("already told this session")
-        lines.append(f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}")
+        line = f"- [[{candidate['id']}]] {', '.join(descriptors)} — {head}"
+        guards = candidate.get("claim_guards")
+        if guards:
+            # R11's guard half, rendered as a rider on this exact
+            # candidate's own line (Adjusted-Design.md: "Guards render as
+            # a rider on the candidate line inside the existing evidence
+            # budget - upstream prevention, the mechanism that actually
+            # works") - directly beside the one record it barred a claim
+            # about, never a separate section a skim could miss.
+            line += " | MUST NOT ASSERT: " + "; ".join(guards)
+        lines.append(line)
     for topic in evidence["thin_ground"]:
         keywords = ", ".join(topic.get("keywords") or [])
         lines.append(f"- THIN GROUND (do not claim past it): {keywords} — {topic.get('note')}")

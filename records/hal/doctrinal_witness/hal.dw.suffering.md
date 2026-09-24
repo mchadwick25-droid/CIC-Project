@@ -3,7 +3,7 @@ id: hal.dw.suffering
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Where was God when it happened? We were not spared the question. We
   wrote from inside it. Rome fell in our own lifetime - the scholar's voice

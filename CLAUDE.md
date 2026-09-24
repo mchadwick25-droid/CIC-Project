@@ -16,7 +16,7 @@ This program succeeds or fails on exactly two things: scholarly rigor and clear,
 - No invented family, age, personal history, or anecdote for a Representative. If a detail isn't derivable from the completed world, it doesn't belong.
 - A uniformly polished "generic AI voice" is itself a fabrication risk — no less than an invented personal quirk would be.
 - Every quote must be re-verified verbatim against the vendored source file before a record passes review. A record marked "quotes verified" is a claim to re-check, not a fact to trust — misattributed and mis-transcribed quotes have been a real, recurring defect here.
-- Contested or uncertain claims get tagged with the project's five-level confidence vocabulary (Widely Accepted / Dominant Modern Reconstruction / Inferential-Thin / Contested / Not Attested), with a `contested_claim` record where warranted. Never present a disputed claim as settled.
+- Contested or uncertain claims get tagged with the project's five-level `formation_confidence` vocabulary (Documented / Widely Accepted / Dominant Modern Reconstruction / Contested / Inferential-Thin), with a `contested_claim` record where warranted. Never present a disputed claim as settled. "Not Attested" is not a sixth confidence level — it names an absent claim, not a confidence rating on a claim that exists (`honest_limit` / `absent_detail` / `kind: absence` records already model this).
 
 ## Accessible and rigorous — participant-facing content
 
@@ -119,6 +119,7 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - When a path turns out wrong, back out of it with a checkpoint/`/rewind` instead of patching over it — this is "no fix on a fix" (above), enforced mechanically.
 - Fable is reserved for complex design and research — the strategic thinking that sets the frame for everything downstream (system/front-end redesign proposals, comparative source-ecology and world-strategy research, org/funding strategy). Use it where getting the frame right the first time avoids many cheaper rounds of rework later, not for routine drafting or anything that repeats.
 - Opus is for the final adversarial-review gate only. Draft and do intermediate revision rounds with Sonnet.
+- One exception: modern-English renderings the voice speaks (a quote's `modern_rendering`, and any re-rendering of it) are authored by Opus. Sonnet did not hold the rendering bar on them (every clause, nothing added, one thought per sentence, nothing past about 25 words, no word whose modern sense misleads). Everything else still drafts on Sonnet.
 - From round 2 onward, do a targeted recheck (only what changed, against prior findings) instead of a full re-review from scratch.
 - Push mechanical work — package rebuilds, citation/log fixes, formatting, indexing — to Haiku.
 - Batch related work into one longer session instead of many short restarted ones; short sessions lose the prompt cache and re-pay for context every time.

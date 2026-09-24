@@ -3,7 +3,7 @@ id: pahc.witness.our-own-failures
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -21,7 +21,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - "participant raises institutional harm or the use of power against dissent"
-  do_not_retrieve_when: []
 relations: []
 positions:
 - "This world's clearest record of institutional conflict is Rome's own long letter to Corinth, written because Corinth had removed presbyters from office - the deposed men had, in Rome's own account, served blamelessly."

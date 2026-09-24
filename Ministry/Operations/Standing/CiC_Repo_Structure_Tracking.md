@@ -600,3 +600,39 @@ then on, and reaching participants requires the promotion PR the runbook describ
 **Not decided:** whether `cic-website`'s Cloudflare Workers Build production deployment
 should also move from `main` to `live` — flagged in the runbook's own closing section,
 left to Mark rather than assumed.
+
+---
+
+## 2026-09-21 — Ministry tree housekeeping: early-days strategy archive
+
+**Context.** Mark's tech-review stress test (thread "CiC — Tech Review & Funding Readiness Prep") completed. Verdict: system withstands technical review and does not pass one clean. Cut line (Mark's decision): what is live online now, the Conversation & Transparency Engine upgrade being installed, and the ongoing world builds. All early-days strategy drafts (Funding, Marketplace, Organization, Scholarly-Review, Website, Communication from 2026-07-* era, and partial Features and Operations directories from pre-2026-08-20) identified as superseded by the system redesign.
+
+**Action.** Mark reviewed all items one at a time and decided: move early-days drafts to `Archive/Ministry-Early-Days-2026-07/` preserving the Ministry subpath structure. Five documents kept with supersession banners (cic-poc go-live cost model, LLM provider options, business roadmap, two cost studies). Organizational Covenant's "always-free core access" commitment searched but not found as a distinct phrase; business roadmap already references this as an open task (line 54). FAQ and Letter to Friends kept as source material with standing status written to a new `Ministry/Communication/README.md`.
+
+**Execution (this PR).** 90 files (13 Funding, 3 Marketplace, 7 Organization, 6 Scholarly-Review, 4 Funding-Strategy features, 1 Prototype-Testing, 33 Launch-Prompts, 3 Markup-Queue, 19 Communication) + 4 directories (Increment-1-Build, Level2-Mobile-Popover, Hosted-Tour, Prototype-Testing subfolder, Markup-Queue) moved via `git mv`. Three Website files not found (already archived or renamed). Undated Faithways PDFs left in place per byte-check difference test and "when in doubt leave it" instruction.
+
+**Banners added to 5 kept files:** supersession notices at top of Business Roadmap, two cost studies, Go-Live model, LLM provider options — all linking to current engine (`engine/m8/`) and decision logs where they belong.
+
+**Tracking files updated:** `Ministry/Operations/README.md` notes Markup-Queue archived 2026-09-21; `CiC_Org_Funding_Decision_Log.md` carries 2026-09-21 entry with full tech-review context and entity supplement exploration; `Ministry/Features/README.md` notes Hosted-Tour, Increment-1-Build, Level2-Mobile-Popover as archived with destinations; new `Ministry/Communication/README.md` carries standing status for FAQ and Letter to Friends.
+
+**Path check:** `python3 tools/check_paths.py --baseline tools/check_paths_baseline.txt`: 0 new unresolved, 0 retired paths present. All move-related citations are within Ministry audit/decision-log prose (the expected baseline for a Ministry-only move).
+
+**Root README.md Archive entry:** checked for "Ministry-Early-Days-2026-07" category — if listed, add it. Otherwise, note in PR description that root README.md Archive row may need updating once this PR lands.
+
+**Convention applied:** Superseded material → `Archive/`; nothing deleted without instruction (CLAUDE.md line 55). Every path moved recorded in `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md` per this tracking file's own standing rule (P11 of the frozen target tree, 2026-09-14).
+
+**Status:** ready for path check and PR.
+
+---
+
+## 2026-09-24 — Live-Surface-Cleanup (witt PR): `records/WORLDS_REGISTRY_LOG.md` moved out of `records/`
+
+**Context.** Live-Surface-Cleanup program (`tools/check_live_commentary.py`, merged PR #498): `records/` is a live/canonical surface and must hold only current, compiled content, not decision logs. `records/WORLDS_REGISTRY_LOG.md` is itself a decision log by its own header ("this file holds why it says what it says") — the check tool's own `PROTECTED_REGISTRY_LOG` rule already recognizes it as the registry's designated decision-log rather than a fresh commentary finding, so the move relocates it to where CLAUDE.md says decision logs belong rather than treating its content as something to edit.
+
+**Action.** `git mv records/WORLDS_REGISTRY_LOG.md Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`, contents untouched. Root `README.md`'s `Ministry/` row updated to name the file's new location and the reason for the move; `records/` row needed no change (it never named this file individually).
+
+**Tracking:** entry also added to `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md` per this file's own standing rule.
+
+**Path check:** `python3 tools/check_paths.py --baseline tools/check_paths_baseline.txt` run after the move (see this PR's own body for the full result).
+
+**Status:** part of the witt PR, the first of the Live-Surface-Cleanup program's per-world PRs.

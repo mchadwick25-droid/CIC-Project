@@ -3,7 +3,7 @@ id: rzg.term.reformation
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -25,7 +25,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - participant asks about reformation
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: Reformation is our own name for our whole central project. We test every inherited practice
   against Scripture. We let go of what will not stand.

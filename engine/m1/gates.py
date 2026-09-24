@@ -10,10 +10,11 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from engine.prose import quote_aware_sentences
+from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade
+from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS
 
@@ -102,6 +103,57 @@ def gate_schema_validation(records, fleet, registry) -> list[str]:
     return findings
 
 
+def _world_front_referenced_ids(rec: dict) -> set[str]:
+    """Every id a world_front (or facilitator_brief) record points at from
+    outside its own envelope: mode-1/mode-3 units' `grounded_in`, mode-3's
+    `from`, mode-2's bare-id fields (`quiet`, `documented_stories[].story_id`,
+    `voices[].figure`, `pull_quotes`, `glossary`, `read_first[].source`,
+    `who_speaks.figures`, `questions[].demonstration`/`.cite`). Added for
+    the Website V2 world_front design - gate_referential validated
+    every other record type's own reference fields already; world_front's
+    were added to the schema in the infrastructure pass but never wired in
+    here, so a typo'd `grounded_in` id validated cleanly (schema only checks
+    it's a string) and resolved silently to nothing at compile time. The
+    desert pilot's own manual check (not this gate) is what first caught
+    this gap - see worlds/desert/Open_Gaps_Tracking.md.
+    """
+    ids: set[str] = set()
+
+    def walk(node):
+        if isinstance(node, dict):
+            grounded = node.get("grounded_in")
+            if isinstance(grounded, list):
+                ids.update(g for g in grounded if isinstance(g, str))
+            from_id = node.get("from")
+            if isinstance(from_id, str):
+                ids.add(from_id)
+            for key in ("story_id", "figure", "source", "demonstration"):
+                value = node.get(key)
+                if isinstance(value, str):
+                    ids.add(value)
+            cite = node.get("cite")
+            if isinstance(cite, list):
+                ids.update(c for c in cite if isinstance(c, str))
+            for value in node.values():
+                walk(value)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+        elif isinstance(node, str):
+            pass
+
+    quiet = rec.get("narrative", {}).get("quiet") if isinstance(rec.get("narrative"), dict) else None
+    if isinstance(quiet, str):
+        ids.add(quiet)
+    figures = rec.get("narrative", {}).get("who_speaks", {}).get("figures") if isinstance(rec.get("narrative"), dict) else None
+    if isinstance(figures, list):
+        ids.update(f for f in figures if isinstance(f, str))
+    for section_name in ("skim", "orientation", "narrative"):
+        walk(rec.get(section_name))
+
+    return ids
+
+
 def gate_referential(records, fleet, registry) -> list[str]:
     findings = []
     all_ids = set(records) | set(fleet)
@@ -121,6 +173,10 @@ def gate_referential(records, fleet, registry) -> list[str]:
         for cell in rec.get("canon_cells") or []:
             if cell not in cells:
                 findings.append(f"{rid}: canon_cells entry {cell!r} is not a cell in the canon")
+        if rec.get("record_type") == "world_front":
+            for ref_id in sorted(_world_front_referenced_ids(rec)):
+                if ref_id not in all_ids:
+                    findings.append(f"{rid}: referenced id {ref_id!r} does not resolve to any record")
     return findings
 
 
@@ -224,6 +280,52 @@ def gate_alias_safety(records, fleet, registry) -> list[str]:
                         f"{rid}: false_friend {alias!r} exactly matches {other_id}'s world_word with no "
                         f"disambiguating context - unsafe alias collision"
                     )
+    return findings
+
+
+def gate_retrieval_negatives_structured(records, fleet, registry) -> list[str]:
+    """Build-Plan.md Stage 4a splits the one field that
+    used to carry both an ordinary retrieval-scoping redirect and a barred-
+    claim honesty guard into two real fields with two different jobs:
+    `retrieval.prefer_instead` (redirect) and envelope-level `claim_guards`
+    (guard). `do_not_retrieve_when` stays in the schema only for
+    additive-only compatibility (engine/m1/schemas.py) - it is never
+    populated by real authoring again, and nothing else in the gate
+    battery enforces that on its own (schema-validation alone would happily
+    accept a populated one). Three structural invariants, not just field
+    presence:
+
+    1. `do_not_retrieve_when` must stay empty/absent - a populated one is a
+       regression to the pre-split shape this stage retired.
+    2. every `claim_guards` entry must read as a genuine barred-claim guard
+       (matches `engine.prose.GUARD_MARKERS`, the same keyword set Stage
+       1's own D1 measurement was run against) - not a retrieval-scoping
+       note that landed in the wrong field.
+    3. no `retrieval.prefer_instead` entry may read as a guard clause - the
+       mirror check, catching a guard clause that leaked back into the
+       redirect-only field and would go unenforced there.
+    """
+    findings = []
+    for rid, rec in records.items():
+        retrieval = rec.get("retrieval") or {}
+        dnrw = retrieval.get("do_not_retrieve_when")
+        if dnrw:
+            findings.append(
+                f"{rid}: retrieval.do_not_retrieve_when is populated ({len(dnrw)} line(s)) - this field "
+                f"is retired; move each line to prefer_instead or claim_guards"
+            )
+        for guard in rec.get("claim_guards") or []:
+            if not is_guard_marker_line(guard):
+                findings.append(
+                    f"{rid}: claim_guards entry does not read as a barred-claim guard "
+                    f"(no GUARD_MARKERS phrase): {guard!r}"
+                )
+        for redirect in retrieval.get("prefer_instead") or []:
+            if is_guard_marker_line(redirect):
+                findings.append(
+                    f"{rid}: prefer_instead entry reads as a guard clause, not a redirect "
+                    f"(matches GUARD_MARKERS): {redirect!r} - move it to claim_guards"
+                )
     return findings
 
 
@@ -406,8 +508,8 @@ def gate_readability(records, fleet, registry) -> list[str]:
             continue
         # FK grade is a paragraph-level heuristic (this module's own header:
         # "good enough to gate obviously dense prose, not lexicographic
-        # precision") and it misfires on short strings: found 2026-09-19
-        # when alx's own guard field - "Honest thinness beats invented
+        # precision") and it misfires on short strings: found when alx's own
+        # guard field - "Honest thinness beats invented
         # depth, absolutely.", 7 words, plainly clear - scored FK 14.3,
         # purely because a handful of multi-syllable words dominate the
         # formula's syllables/word term when there are too few words for
@@ -441,13 +543,13 @@ def gate_readability(records, fleet, registry) -> list[str]:
 VOICE_CRAFT_WORD_CEILING = 900
 
 # Per-world exceptions are ruled at the project level, not a build thread's
-# self-granted exemption. gallic: after the 2026-09-19 trim (1802 -> 1483
+# self-granted exemption. gallic: after an earlier trim (1802 -> 1483
 # words, every readability finding fixed, nothing load-bearing cut - see
 # gallic.voice.craft's own revision history), closing the remaining 583
 # words would mean cutting the three verified quotations, the six named
 # points of disagreement between its two households, or other specifics
 # this pass deliberately kept. witt: same shape of tradeoff, same ruling.
-# After the 2026-09-19 trim (2127 -> 1399 words - the record originally
+# After a trim (2127 -> 1399 words - the record originally
 # carried the Permanent Prompt Template's own backstop paragraphs near-
 # verbatim per check 5d, before that instruction's scope was clarified at
 # the source, reference/L3B-World-Build-Methodology/
@@ -479,7 +581,7 @@ def gate_voice_craft_prompt_budget(records, fleet, registry) -> list[str]:
     the only record type with that property. gate_readability (above)
     catches individual sentences that are too dense; it does not catch a
     record that is simply too LONG, sentence by short sentence - exactly
-    gallic's own failure mode after its 2026-09-18 partial fix (identity
+    gallic's own failure mode after an earlier partial fix (identity
     tightened to 20.0 words/sentence, comfortably under FK_CEILING, while
     flavor_notes stayed at 1072 words - the fix's own record says so
     directly). A separate gate, not a second check bolted onto
@@ -516,7 +618,7 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
     return findings
 
 
-# Admitted 2026-08-21 from engine/m1/gates_experimental.py (own defect-
+# Admitted from engine/m1/gates_experimental.py (own defect-
 # catalog entry: fixtures/seeded_defects.yaml id
 # no-build-attribution-leaked-ruling; selftest-proven per the file's own
 # admission bar). Scoped to exactly the fields engine/m2/builders.py's
@@ -527,38 +629,39 @@ def gate_canon_coverage(records, fleet, registry) -> list[str]:
 # gravity/force/contested_claim/search_record/source are NOT compiled and
 # are legitimate places for build-process language to live - scanning
 # them would drown real findings in noise. Proven necessary, not assumed:
-# checked against alx's real corpus (2026-08-21) and found three more
+# checked against alx's real corpus and found three more
 # name occurrences beyond the four real leaks this gate exists to catch
 # - alx.dw.one-church's `tensions` field, alx.limit.marriage's
 # `why_sources_cannot_answer`, and a figure's trailing body - all
 # correctly outside this field map, all legitimate.
-# Relocated to engine/m1/spoken_fields.py (ATTRIBUTION_FIELDS) 2026-09-19 -
+# Relocated to engine/m1/spoken_fields.py (ATTRIBUTION_FIELDS) -
 # one declared spoken-field registry instead of six/seven independent
 # lists; see that module's own docstring. Same values, same behavior.
 _ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 
-# Each pattern below is justified by one of the 4 real leaks found in a
-# hand audit (world/alexandria c0a105a), not a generic guess:
-#   - _ISO_DATE: alx.core.alexandria.thinness ("the project lead's 2026-08-21 ruling
-#     accepts this"), alx.voice.craft.identity and .flavor_notes both
-#     carried "2026-08-21" next to the attribution. In-world historical
-#     prose in this register dates things "c. 150-400 CE" / "325 CE" -
-#     never ISO format - so this is a near-zero-false-positive signal on
-#     its own, and alone would have caught 3 of the 4 leaks.
-#   - _RULED_BY: alx.voice.craft.identity's "(RULED by [name], 2026-08-21:
-#     ...)". Deliberately the exact phrase "ruled by" (passive,
-#     agent-attributed), not bare "ruled"/"ruling" - those fired as false
-#     positives in the hand audit on real historical content ("the
-#     council... ruling on the disputed confession", "his book ruled
-#     whole congregations") that has no "by <name>" attribution shape.
-#     Not zero-risk itself (a real sentence could read "the villages were
-#     ruled by their bishop") - a finding here is still worth a human's
-#     eyes before treating it as confirmed, same as any other gate finding
-#     in this battery.
-#   - _STALE_STATUS: alx.core.alexandria.horizon's "WORKING SCOPE, NOT A
-#     RULING: world identity is the project lead's touchpoint; this record is draft
-#     until that ruling and revises with it" - the one leak with no ISO
-#     date in it at all, so it needed its own pattern.
+# Each pattern below is justified by one of 4 real leaks found in a hand
+# audit, not a generic guess. Synthetic examples of the same shapes below
+# (this file stays live, so it never quotes the actual leaked text):
+#   - _ISO_DATE: a build-decision date sitting next to a build-attribution
+#     phrase inside a voice-craft field - e.g. "the 2026-01-01 decision
+#     accepts this" inside a record's own identity/flavor prose. In-world
+#     historical prose in this register dates things "c. 150-400 CE" /
+#     "325 CE" - never ISO format - so this is a near-zero-false-positive
+#     signal on its own, and alone would have caught most of the leaks.
+#   - _RULED_BY: e.g. "(RULED by [name], 2026-01-01: ...)". Deliberately
+#     the exact phrase "ruled by" (passive, agent-attributed), not bare
+#     "ruled"/"ruling" - those fired as false positives in the hand audit
+#     on real historical content ("the council... ruling on the disputed
+#     confession", "his book ruled whole congregations") that has no "by
+#     <name>" attribution shape. Not zero-risk itself (a real sentence
+#     could read "the villages were ruled by their bishop") - a finding
+#     here is still worth a human's eyes before treating it as confirmed,
+#     same as any other gate finding in this battery.
+#   - _STALE_STATUS: e.g. "WORKING SCOPE, NOT A RULING: world identity is
+#     still open; this record is draft until that decision and revises
+#     with it" - the one leak shape with no ISO date in it at all, so it
+#     needed its own pattern (the pattern matches the literal phrase
+#     "NOT A RULING", the marker a record author would actually type).
 _ISO_DATE = re.compile(r"\b20\d{2}-\d{2}-\d{2}\b")
 _RULED_BY = re.compile(r"\bruled by\b", re.IGNORECASE)
 _STALE_STATUS = re.compile(r"\bWORKING SCOPE\b|\bNOT A RULING\b", re.IGNORECASE)
@@ -579,7 +682,7 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     """Built from a real defect, not a hypothetical: a hand
     audit of every field build_prompt() actually compiles found 4 places
     where build-process attribution (a date, "RULED by [name]", a direct
-    quote of the project lead) had leaked into voice_craft.identity and
+    quote attributed by name) had leaked into voice_craft.identity and
     world_core.horizon - the sections a live model reads as its own
     self-description and its historical scope (compiled as "Who we are",
     above the prompt's ground line, and "Horizon", below it).
@@ -633,14 +736,51 @@ def gate_no_build_attribution(records, fleet, registry) -> list[str]:
 # something the voice ever says). voice_craft.* is standing instruction,
 # already first-person we-voice by construction (build_prompt()'s own
 # instruct() vs emit() split - see its comment above). Full trace:
-# CiC_Cross_System_Analysis_Tracking.md, 2026-09-04 entry.
-# Relocated to engine/m1/spoken_fields.py (PERSPECTIVE_FIELDS) 2026-09-19 -
+# CiC_Cross_System_Analysis_Tracking.md's own entry.
+#
+# world_front/facilitator_brief are deliberately NOT added here, and this
+# is a real judgment call the Website V2 world_front design flagged rather
+# than resolved, not an oversight. The design's own reasoning is right on
+# its face: mode-2/mode-3 rendered text (narrative.quiet's verbatim
+# honest_limit statement, narrative.pull_quotes' modern_rendering, any
+# {from, text, no_new_claims} adaptation) becomes something close to the
+# record's or a figure's own speech and plausibly SHOULD be checked here;
+# mode-1 authored connective/etic prose (skim.tile, orientation.story,
+# orientation.relations_summary, ...) is legitimately site-voice, not
+# Representative-voice, and plausibly should not be.
+#
+# What stops this from being a one-line field-list addition is a real
+# mechanism mismatch, not a policy disagreement. _PERSPECTIVE_FIELDS maps
+# record_type -> a flat list of TOP-LEVEL field names, and this function's
+# own lookup is `rec.get(f)` - a single string field, read directly off
+# the record. Every world_front field that would actually need checking
+# is not shaped that way: it sits inside a list of mode-tagged unit
+# objects nested under skim/orientation/narrative (a `text` string next to
+# a `from` or `grounded_in` sibling, several layers deep, and the SAME
+# field name - "text" - appears on both mode-1 units this gate should
+# skip and mode-3 units it should check). Reusing the existing lookup
+# would either check nothing (no top-level field is literally named
+# "text") or, if pointed at the wrong level, silently treat every mode-1
+# unit's fresh authored prose as Representative speech - the opposite of
+# the design's own stated split.
+#
+# Extending gate_voice_perspective to walk mode-tagged nested units
+# correctly is real, scoped mechanism work, and doing it now, with no
+# world_front record yet in existence (content migration is a separate,
+# later stage), means building and freezing that mechanism against a
+# schema shape with no real authored content to test it against - a
+# structural change with nothing yet to validate it did the right thing
+# on real prose. Deferred here on purpose, to land together with the
+# content-migration stage that will actually have world_front prose to
+# run it against; not silently dropped, and flagged again in this
+# implementation's own report.
+# Relocated to engine/m1/spoken_fields.py (PERSPECTIVE_FIELDS) -
 # same registry as _ATTRIBUTION_FIELDS above. Same values, same behavior.
 _PERSPECTIVE_FIELDS = PERSPECTIVE_FIELDS
 
 # Form 1: the builder's-eye phrase itself - "this world[,'s]" - a name for
 # a world from outside it, never an inhabitant's own way of naming their
-# own. Measured 2026-09-04: 250 genuine instances / 166 fields across all
+# own. Measured: 250 genuine instances / 166 fields across all
 # 8 built worlds (cappadocian alone: 73, concentrated in
 # term.plain_meaning/quick_meaning - a systematic lexicon-authoring
 # pattern, not scattered error), 99.2% precision once the two exceptions
@@ -672,7 +812,7 @@ _THE_WORLDS_POSSESSIVE = re.compile(r"\bthe world's\b", re.IGNORECASE)
 #     here as a close paraphrase of Hegesippus verified against the
 #     vendored source (pahc.story.grandsons-before-domitian, anf08 line
 #     71558)
-# Found by hand-checking every Form-1/3 hit fleet-wide 2026-09-04; no
+# Found by hand-checking every Form-1/3 hit fleet-wide; no
 # others turned up under two independent keyword sweeps for cosmological
 # vocabulary (maker, ruler, prince, wisdom, kingdom, depart, foundation).
 _MAKER_OF_THIS_WORLD = re.compile(r"\bmaker of this world\b", re.IGNORECASE)
@@ -718,14 +858,14 @@ def gate_voice_perspective(records, fleet, registry) -> list[str]:
     world"); an inhabitant of it does not, any more than a person says
     "this country" about their own.
 
-    Root cause (full trace in CiC_Cross_System_Analysis_Tracking.md,
-    2026-09-04 entry): the approved exemplar is already followed correctly
+    Root cause (full trace in CiC_Cross_System_Analysis_Tracking.md's own
+    entry): the approved exemplar is already followed correctly
     everywhere it is actually checked against, but the Register Bar's own
     documented properties never named perspective as one of them - only
     readability (word choice, sentence length, FK/FRE via M7). This gate
     is the missing mechanical check; CiC_Register_Bar_2026-08-29.md and
     the Record-Native Build Process's Phase-B birth conditions were
-    updated the same day to name perspective as a bar property going
+    updated at the same time to name perspective as a bar property going
     forward, so new records are born past this, not swept afterward.
 
     Scoped to exactly the fields build_prompt()/_chunk_text() turn into
@@ -828,6 +968,329 @@ def gate_id_convention(records, fleet, registry) -> list[str]:
     return findings
 
 
+# ---------------------------------------------------------------------------
+# world_front gates (Website V2 world_front design, approved to proceed).
+# Three checks, of three different shapes, because the design
+# itself calls for three different shapes here - not a stylistic choice:
+#
+#   gate_quote_mark_fidelity   deterministic, registered below in GATES -
+#                              exact string matching is the right tool for
+#                              "does this quoted span equal that field."
+#   flag_cross_record_consistency
+#                              a report generator, NOT registered in GATES/
+#                              run_all - the design's own words are "does
+#                              not need to be a hard, deterministic
+#                              pass/fail gate," the same standing several
+#                              existing gates already carry (see
+#                              gate_voice_perspective's own docstring).
+#   check_mode3_claim_fidelity LLM-judged scaffolding, NOT registered - a
+#                              trim or adaptation either broadens, narrows,
+#                              or preserves a claim, and nothing short of a
+#                              model call can tell those apart (see its own
+#                              docstring for why a string-similarity metric
+#                              provably cannot).
+# ---------------------------------------------------------------------------
+
+# The standing quote rule (restated in every desert quote
+# record's own body notes, e.g. records/desert/quote/desert.quote.sarah-
+# man-among-you.md: "spoken form is a modern-English translation, not a
+# summary - original wording stays as text, shown at Level 3"). `text` is
+# the archaic original, Apparatus/Level-3-only; `modern_rendering` is the
+# only field ever meant to be voiced or quoted on a participant-facing
+# surface. engine.m2.builders already reads it this way in two places
+# (_quote_opening, build_quotes_json's own comment) - this gate is the
+# missing mechanical check that a world_front record's own authored prose
+# actually followed that rule, rather than trusting review to catch it by
+# eye every time.
+_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only", "do-not-voice"}
+
+# Straight or curly double quotation marks only - deliberately not single
+# quotes/apostrophes (') or curly single quotes (' '): those collide with
+# ordinary contractions and possessives ("don't", "the world's own") at a
+# rate that would drown any real finding in noise, and every quote record
+# in this corpus is voiced with double quotes in its own modern_rendering
+# (verified against the desert quote records this gate's docstring cites).
+# A minimum length keeps this from firing on short scare-quoted single
+# words in etic prose ("a term the world calls \"the Way\""), which are
+# essentially never a rendering of a quote record's own field.
+_QUOTED_SPAN_RE = re.compile(r'"([^"\n]{8,})"|“([^”\n]{8,})”')
+
+
+def _normalize_quoted(text: str) -> str:
+    return " ".join((text or "").split())
+
+
+def _world_front_prose_strings(record: dict) -> list[str]:
+    """Every authored-prose string on a world_front record - skim/
+    orientation/narrative only, never the envelope (id, world_id,
+    census_id, relations, sources, confidence, ...), none of which is
+    prose a participant reads inside quotation marks."""
+    texts: list[str] = []
+
+    def walk(value):
+        if isinstance(value, str):
+            texts.append(value)
+        elif isinstance(value, dict):
+            for v in value.values():
+                walk(v)
+        elif isinstance(value, list):
+            for v in value:
+                walk(v)
+
+    for section in ("skim", "orientation", "narrative"):
+        walk(record.get(section))
+    return texts
+
+
+def _quote_field_index(records: dict, fleet: dict) -> dict:
+    """{"text": {normalized -> [(quote_id, license), ...]}, "modern_rendering":
+    {...}} across every quote record this world can see (its own records
+    plus the fleet) - built once per gate run, looked up once per quoted
+    span found."""
+    index = {"text": {}, "modern_rendering": {}}
+    for rec in {**fleet, **records}.values():
+        if rec.get("record_type") != "quote":
+            continue
+        license_ = rec.get("license")
+        for field in ("text", "modern_rendering"):
+            value = rec.get(field)
+            if not value:
+                continue
+            key = _normalize_quoted(value)
+            index[field].setdefault(key, []).append((rec.get("id"), license_))
+    return index
+
+
+def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
+    """Any text a world_front record renders inside quotation marks must
+    match a quote record's `modern_rendering` field exactly - never `text`
+    (the quote-rendering rule; see this module's own comment above).
+    Material whose license is `paraphrase-only` or `do-not-voice` must
+    never appear inside quotation marks at all, from either field,
+    regardless of whether it happens to match.
+
+    This is the mechanical version of a defect that has already shipped
+    live, twice, on hand-authored site copy: a
+    tradition page rendered a clause in quotation marks
+    that the records themselves had already declared unquotable. This
+    gate cannot catch a hand-drafted HTML page (out of the M1 gate
+    battery's own scope - it runs over records, not compiled site
+    output), but it is the first check of its kind, run over world_front's
+    own authored prose before that prose is ever compiled to a site
+    surface at all.
+
+    Deliberately silent on a quoted span that matches no known quote
+    record: this is a fidelity check, not a permission list for
+    quotation marks in general - etic connective prose legitimately
+    quotes a term, a title, or a phrase that traces to no `quote` record,
+    and flagging every such span would drown the real findings in noise.
+    """
+    findings = []
+    index = _quote_field_index(records, fleet)
+    for rid, rec in records.items():
+        if rec.get("record_type") != "world_front":
+            continue
+        for prose in _world_front_prose_strings(rec):
+            for match in _QUOTED_SPAN_RE.finditer(prose):
+                span = _normalize_quoted(match.group(1) or match.group(2))
+                if not span:
+                    continue
+                text_hits = index["text"].get(span, [])
+                rendering_hits = index["modern_rendering"].get(span, [])
+                for quote_id, license_ in text_hits + rendering_hits:
+                    if license_ in _QUOTE_NEVER_QUOTABLE_LICENSES:
+                        findings.append(
+                            f"{rid}: quotation-mark span {span[:80]!r}... matches "
+                            f"{quote_id}, whose license is {license_!r} - this "
+                            f"material must never be rendered inside quotation "
+                            f"marks at all, from either field"
+                        )
+                # A verbatim quote's own `text` reused in quotation marks,
+                # where modern_rendering (if authored) says something
+                # different - the exact shape of the mode-2 fidelity rule.
+                for quote_id, license_ in text_hits:
+                    if license_ in _QUOTE_NEVER_QUOTABLE_LICENSES:
+                        continue  # already reported above
+                    if span not in index["modern_rendering"] or all(
+                        qid != quote_id for qid, _ in rendering_hits
+                    ):
+                        findings.append(
+                            f"{rid}: quotation-mark span {span[:80]!r}... matches "
+                            f"{quote_id}'s own `text` field verbatim - `text` is "
+                            f"Apparatus/Level-3-only; the quoted form must come "
+                            f"from `modern_rendering` (the quote-rendering rule)"
+                        )
+    return findings
+
+
+# ---------------------------------------------------------------------------
+# Cross-record consistency flag (b) - a REPORT, not a hard gate, and
+# deliberately not added to GATES/run_all. The design's own words: "This
+# does not need to be a hard, deterministic pass/fail gate - model it as a
+# lower-precision, flag-for-review check," the same standing
+# gate_voice_perspective's own "the world's..." pattern already carries
+# (see its docstring). Motivated by a real, already-shipped defect:
+# desert.story.sarah-answer and
+# desert.quote.sarah-man-among-you are related via `associated-with` and
+# both narrate the same saying of Amma Sarah in free text; one was
+# corrected to drop a clause the sources cannot support, the other never
+# was, and nothing in the gate battery compared them: no existing gate
+# catches this, since nothing compares free-text content across related
+# records for consistency.
+# ---------------------------------------------------------------------------
+
+# Free-text-claim-bearing types: records whose primary content is prose
+# that could drift out of sync with a related record's own prose about the
+# same underlying material. Propositional/analytical types (gravity,
+# force, source, canon_question, ...) are excluded - "associated-with" to
+# a source record, for instance, is a citation relationship, not two
+# retellings of the same event that could contradict each other.
+_FREE_TEXT_CLAIM_TYPES = {"story", "quote", "doctrinal_witness", "honest_limit", "contested_claim", "term"}
+
+
+def flag_cross_record_consistency(records: dict, fleet: dict, registry: dict) -> list[dict]:
+    """Flags pairs of records worth a human's own cross-check, in two
+    shapes - never a verdict that either record is actually wrong, only
+    that the pairing is worth reading side by side:
+
+    1. A world_front unit whose `grounded_in` names more than one record.
+       Drawing one authored claim from several records at once is exactly
+       where a claim can drift from what any single one of them actually
+       supports, without any one record itself being at fault.
+    2. Two free-text-claim-bearing records (see _FREE_TEXT_CLAIM_TYPES)
+       connected by an `associated-with` relation - the same relation
+       type the sibling records in the motivating defect above used. Both narrate or
+       quote the same underlying material in their own free text, so a
+       correction to one's wording is exactly the kind of change that can
+       silently leave the other stale.
+
+    Callers run this against a world's whole record set and read the
+    report; it is not consulted by gates.run_all or the stage-1 selftest.
+    """
+    findings: list[dict] = []
+
+    for rid, rec in records.items():
+        if rec.get("record_type") != "world_front":
+            continue
+
+        def walk(value, path):
+            if isinstance(value, dict):
+                if "grounded_in" in value and isinstance(value.get("grounded_in"), list):
+                    if len(value["grounded_in"]) > 1:
+                        findings.append(
+                            {
+                                "kind": "multi-grounded-unit",
+                                "world_front": rid,
+                                "field_path": path,
+                                "grounded_in": list(value["grounded_in"]),
+                            }
+                        )
+                for k, v in value.items():
+                    walk(v, f"{path}.{k}" if path else k)
+            elif isinstance(value, list):
+                for i, v in enumerate(value):
+                    walk(v, f"{path}[{i}]")
+
+        for section in ("skim", "orientation", "narrative"):
+            walk(rec.get(section), section)
+
+    seen_pairs: set[tuple[str, str]] = set()
+    for rid, rec in records.items():
+        if rec.get("record_type") not in _FREE_TEXT_CLAIM_TYPES:
+            continue
+        for rel in rec.get("relations") or []:
+            if rel.get("type") != "associated-with":
+                continue
+            target = rel.get("target")
+            target_rec = records.get(target) or fleet.get(target)
+            if target_rec is None or target_rec.get("record_type") not in _FREE_TEXT_CLAIM_TYPES:
+                continue
+            pair = tuple(sorted((rid, target)))
+            if pair in seen_pairs:
+                continue
+            seen_pairs.add(pair)
+            findings.append(
+                {
+                    "kind": "related-pair-shared-material",
+                    "record_a": pair[0],
+                    "record_b": pair[1],
+                    "relation": "associated-with",
+                }
+            )
+    return findings
+
+
+# ---------------------------------------------------------------------------
+# check_mode3_claim_fidelity (c) - LLM-judged scaffolding, deliberately
+# NOT a string-match gate and NOT registered in GATES/run_all.
+#
+# WHY A STRING MATCH CANNOT DO THIS JOB, with a real, already-shipped
+# counterexample for each direction a trim can go wrong (the standing
+# decision: "an in-progress content-system redesign... now requires an
+# LLM-judged check (not a string-match gate) on any length-constrained
+# trim of record prose"):
+#
+#   BROADENS the claim - desert-monasticism.html trimmed
+#   desert.limit.communal-wrong-unrepaired's statement ("...a community of
+#   ours that harmed someone and then made it right: named the harm, went
+#   to the one harmed, restored what was taken") down to "...made it
+#   right," dropping the three-part definition of repair entirely. Any
+#   substring/edit-distance metric would score that trim as HIGH
+#   similarity (it removed text, added none) - and it is exactly the
+#   broadened, less accurate claim this gate exists to catch. A shorter
+#   string is not a safer one.
+#
+#   The companion defect from the same already-shipped incident shows the
+#   opposite failure mode reads identically to a metric: a record's own
+#   `text` field carried a clause its sibling record had already declared
+#   unquotable, and the string that shipped was a VERBATIM, high-
+#   similarity match of the (wrong) source record. Similarity to the
+#   source proves nothing about whether the source itself, or the
+#   adaptation of it, still says only what the world's own record set can
+#   support - which is a question about MEANING, not about edit distance.
+#
+# So this is a judgment call an LLM has to make, structured exactly like
+# any other judgment call this project already routes to a model rather
+# than to code (the readability grade is measured; whether a trim changed
+# a claim is not measurable the same way). No existing gate in this file
+# calls out to a live model - grep confirms it - so there is no established
+# pattern here to follow; this function is the scaffolding for the call,
+# clearly marked as unimplemented, rather than a guessed-at API shape.
+# ---------------------------------------------------------------------------
+
+
+def check_mode3_claim_fidelity(source_text: str, adapted_text: str, *, source_field: str | None = None) -> dict:
+    """Judge whether `adapted_text` (a world_front mode-3 unit's own
+    `text`) says only what `source_text` (the `from` record's relevant
+    field) already says - no broadened claim, no narrowed claim, no
+    claim substituted for a different one.
+
+    Returns {"consistent": bool, "reasoning": str} - a structured
+    judgment, not a pass/fail boolean alone, because "yes it drifted" is
+    only useful to a reviewer alongside WHERE it drifted (see the module
+    comment above: a trim can broaden a claim by DELETING qualifying
+    text, which no similarity score distinguishes from a safe trim).
+
+    NOT IMPLEMENTED: this function does not yet call a model. Wiring the
+    actual call is follow-on work for whenever this gate is first put in
+    front of real mode-3 content (content migration is a separate, later
+    stage from this one - no world_front record exists yet to adapt
+    anything from). The prompt this call should send is exactly the two
+    real failure cases above, restated as instruction: given a record's
+    own field and a proposed shorter/adapted rendering of it, does the
+    rendering assert anything the source does not, omit a qualification
+    that changes what is actually being claimed, or otherwise say
+    something different from - not just shorter than - the source.
+    """
+    raise NotImplementedError(
+        "check_mode3_claim_fidelity needs a live model call wired in (no existing "
+        "gate in this file calls out to one - see this function's own module "
+        "comment for why a string-match/similarity implementation is actively "
+        "wrong here, not just unavailable). Scaffolding only: source_text="
+        f"{source_text!r}, adapted_text={adapted_text!r}, source_field={source_field!r}."
+    )
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -838,6 +1301,7 @@ GATES = {
     "quote-recording": gate_quote_recording,
     "alias-safety": gate_alias_safety,
     "distribution-health": gate_distribution_health,
+    "retrieval-negatives-structured": gate_retrieval_negatives_structured,
     "confidence-crosscheck": gate_confidence_crosscheck,
     "rights": gate_rights,
     "edition-rights-consistency": gate_edition_rights_consistency,
@@ -848,6 +1312,54 @@ GATES = {
     "no-build-attribution": gate_no_build_attribution,
     "voice-perspective": gate_voice_perspective,
     "id-convention": gate_id_convention,
+    # gate_quote_mark_fidelity: registered now that all 8
+    # built worlds' world_front records exist to actually check (content
+    # migration - see worlds/desert/Open_Gaps_Tracking.md and each other
+    # world's own build - is what this gate was written for). Deferred at
+    # the infrastructure stage specifically because validation/gates-
+    # report.json (built by engine.m2.validation.build_gates_report, from
+    # this exact GATES dict) is baked into every already-built world's
+    # committed package manifest - adding ANY gate here changes that file
+    # for every world, real or fixture, the instant it is registered.
+    # That package rebuild already happened for an unrelated reason (the
+    # world_front content itself), so the original reason to hold this
+    # back no longer applies; every world's package was rebuilt and
+    # re-pinned again to pick up this gate's own findings (0, fleet-wide,
+    # confirmed before registering).
+    "quote-mark-fidelity": gate_quote_mark_fidelity,
+    # gate_quote_verbatim (engine/m1/quote_verbatim.py): registered because
+    # "this is about the build
+    # quality, not fix on fix." Was
+    # report-only while the tolerance classes
+    # (whitespace/case/punctuation/ellipsis/bracket/verse_number/
+    # apparatus - fleet-wide and per-edition) were still being ruled and
+    # built. Same package-rebuild consequence as quote-mark-fidelity's own
+    # registration above: validation/gates-report.json is baked into
+    # every already-built world's committed package manifest, so adding
+    # this gate changes that file for every world, real or fixture, the
+    # instant it is registered - every world's package was rebuilt and
+    # re-pinned to pick up this gate's own findings (0, fleet-wide,
+    # confirmed before registering: the gate skips any record whose own
+    # verification_state is below verified-direct - see
+    # quote_verbatim.py's own `_REQUIRED_VERIFICATION_STATE` - and every
+    # record still at verified-direct already verifies).
+    "quote-verbatim": gate_quote_verbatim,
+    # flag_cross_record_consistency and check_mode3_claim_fidelity are
+    # NOT registered here, and are not deferred-pending-a-rebuild the way
+    # quote-mark-fidelity was - each has its own, permanent reason to sit
+    # outside this battery, documented at its own definition above:
+    # flag_cross_record_consistency returns list[dict] (paired records to
+    # read side by side), not this dict's own list[str] contract, and is
+    # explicitly designed as "a REPORT, not a hard gate" the design itself
+    # calls lower-precision and human-reviewed, the same standing
+    # gate_voice_perspective already has for one of its own patterns -
+    # but expressed as a report a caller runs and reads, not a battery
+    # entry with its own pass/fail signal. check_mode3_claim_fidelity
+    # isn't even this shape (records, fleet, registry) - it takes two
+    # texts and a judgment is only checkable once a real model call is
+    # wired in (still NotImplementedError; see its own docstring) - no
+    # world_front record built so far uses mode 3, so nothing depends on
+    # it yet.
 }
 
 

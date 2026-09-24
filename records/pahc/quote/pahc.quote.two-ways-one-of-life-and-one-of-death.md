@@ -3,7 +3,7 @@ id: pahc.quote.two-ways-one-of-life-and-one-of-death
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -25,8 +25,9 @@ text: >-
 modern_rendering: >-
   There are two ways: one of life and one of death, and there is a great
   difference between the two ways. The way of life is this. First, you shall
-  love God, who made you; second, your neighbor as yourself. And whatever you
-  would not want to happen to you, do not do to another.
+  love God, who made you; second, your neighbor as yourself. And all the
+  things you would not want to happen to you, you also must not do to
+  another.
 speaker_or_author: the manual known as the Didache, or the Teaching of the Twelve Apostles
 license: verbatim
 modern_lens_note: >-
@@ -37,7 +38,6 @@ retrieval:
   - "participant asks what a newcomer to this world was actually taught"
   - "participant asks how this world handled the hard or frightening parts of its teaching"
   - "participant asks what this world thought the moral life came down to"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.hard-texts

@@ -3,7 +3,7 @@ id: hal.quote.they-have-left-untold-the-name
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   The holy virgins Eustochium and Paula have deplored to me the ravages, murders, fires and outrages of all kinds, which they say that the devil has perpetrated in the district belonging to their church; for with wonderful clemency and generosity they have left untold the name and motive of his human agent.
+modern_rendering: >-
+  The holy virgins Eustochium and Paula have told me about the ravages. They speak of
+  murders, fires, and outrages of every kind, which they say the devil did in their
+  church's district. Yet with remarkable clemency and generosity, they have left untold
+  the name and motive of his human agent.
 speaker_or_author: Innocent of Rome, Letter to John of Jerusalem (Jerome, Ep. CXXXVII)
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   - "participant asks whether anyone here was martyred, or died for the faith"
   - "participant asks about violence suffered by this community"
   - "participant asks how reliable this world's account of its own worst events is"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.limit.martyrdom

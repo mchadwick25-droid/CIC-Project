@@ -3,7 +3,7 @@ id: gallic.story.discharge-before-caesar
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -37,7 +37,7 @@ retrieval:
   - participant uses "conscientious objector," "military," "oath," "Caesar"
   - conversation reaches the soldier of Christ at its literal origin, the renunciation that opens the monk-bishop's path, or the army as the "before" of every founding biography
   - Representative needs the hinge scene for the change of service
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the earlier cloak story (retrieve gallic.story.the-cloak-at-amiens, Tier 3 - together when the whole arc is wanted)
   - participant is asking about the south's dress-mysticism sense of the soldier (retrieve gallic.term.soldier-of-christ, Marseilles half)
   - participant is asking about the barbarian invasions as history - this scene names them only as its occasion

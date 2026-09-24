@@ -3,7 +3,7 @@ id: pahc.gravity.martyrdom-meaning
 world_id: post-apostolic-house-church
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-E
@@ -37,6 +37,8 @@ relations:
   target: pahc.story.ignatius-guarded-journey
 - type: associated-with
   target: pahc.story.martyrdom-of-polycarp
+- type: associated-with
+  target: pahc.story.quintus-recantation
 - type: illustrated-by
   target: pahc.quote.lucian-all-brothers
 name: "Martyrdom as Formation-Shaping Meaning-Response [SUPPORTING, Strand A only]"
@@ -82,3 +84,10 @@ own honest record: the community that produced this text explicitly did
 NOT commend those who volunteered for suffering - martyrdom-readiness
 and death-seeking are not the same thing in this world's own account,
 directly relevant to the fleet canon's own F6-E-02 question.
+
+RELATION ADDED 2026-09-19 (pahc `world_front` build): reciprocal
+`associated-with` edge to the new `pahc.story.quintus-recantation`,
+authored the same pass to reconcile a `documentedStories` entry on the
+live site with no existing story record. This gravity's own
+manifestations[] already named the Quintus material; the new story
+record gives it a first-class narrative home.

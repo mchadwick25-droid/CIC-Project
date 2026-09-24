@@ -3,7 +3,7 @@ id: desert.dw.strangest
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-E]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks what an outsider would have found strangest about this world's own practice"
   - "participant asks what total renunciation and physical seclusion actually looked like"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.three-hundred-acres-to-the-villagers

@@ -3,7 +3,7 @@ id: desert.limit.original-sin-eucharist-faith
 world_id: desert-monasticism
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T]
 confidence:
@@ -42,7 +42,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether you baptised babies, infants or children, or only adults"
   - "participant asks whether you baptise or baptize babies, infants and children, or only adults"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

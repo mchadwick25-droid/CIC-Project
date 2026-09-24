@@ -3,7 +3,7 @@ id: witt.term.comfort
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -45,7 +45,7 @@ retrieval:
   retrieve_when:
   - comfort, or consolation
   - what our whole doctrine is 'for'
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means assurance/certainty specifically as a separate word (retrieve assurance)
 relations:
 - type: associated-with
@@ -84,6 +84,6 @@ senses:
 quick_meaning: What faith gives a troubled conscience. Never earned by works.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 9.1 (comfort / consolation, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Source Registry rows cited: R3, R15, R25, R27, R28, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 9.1 (comfort / consolation, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

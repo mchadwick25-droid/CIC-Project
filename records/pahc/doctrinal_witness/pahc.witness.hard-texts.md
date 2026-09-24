@@ -3,7 +3,7 @@ id: pahc.witness.hard-texts
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant says they find scripture confusing or boring"
   - "participant says violence in scripture troubles them"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.two-ways-one-of-life-and-one-of-death

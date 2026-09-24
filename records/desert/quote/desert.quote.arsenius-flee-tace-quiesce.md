@@ -3,7 +3,7 @@ id: desert.quote.arsenius-flee-tace-quiesce
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -22,6 +22,9 @@ sources:
   license: public-domain
 text: Arsenius, flee, keep silence, and lead a life of silent contemplation, for these are the fundamental
   causes which prevent a man from committing sin.
+modern_rendering: >-
+  Arsenius, flee. Keep silence. Live a life of silent contemplation. These are the basic causes that
+  keep a person from sinning.
 speaker_or_author: a voice Arsenius reports having heard
 license: verbatim
 modern_lens_note: '"Flee" risks a modern misreading as anxious avoidance - running from a problem rather
@@ -33,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks why anyone would leave people behind to live alone"
   - "participant asks what silence was for and whether it was lonely"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.story.arsenius-flee

@@ -3,7 +3,7 @@ id: syr.dw.doubt
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Was there room for doubt among us? Our word for the life of
   belief was not certainty but faith. Faith, the sage taught, is a building:

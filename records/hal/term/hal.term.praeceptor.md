@@ -3,7 +3,7 @@ id: hal.term.praeceptor
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - what it meant to name someone as a teacher in this world, or Jerome's own training under Donatus
   - how Jerome directed the Bethlehem community's study
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: A formal bond between a teacher and a student, named and lasting, in scholarship or
   scripture.

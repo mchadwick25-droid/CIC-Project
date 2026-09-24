@@ -3,7 +3,7 @@ id: don.dw.older-than-the-schism
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -41,7 +41,6 @@ retrieval:
   retrieve_when:
   - participant asks how we know our practices go back to the apostles
   - participant asks whether what we did was a later invention
-  do_not_retrieve_when: []
 text: >-
   We would not put the claim where you have put it. We never argued that
   our practice came down from the apostles in an unbroken chain of

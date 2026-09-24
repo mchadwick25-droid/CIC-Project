@@ -3,7 +3,7 @@ id: pahc.quote.tacitus-hatred-against-mankind
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F3-I
@@ -37,6 +37,16 @@ text: >-
   centre and become popular. Accordingly, an arrest was first made of all who pleaded guilty; then,
   upon their information, an immense multitude was convicted, not so much of the crime of firing
   the city, as of hatred against mankind.
+modern_rendering: >-
+  So, to get rid of the rumor, Nero blamed a group hated for their vile acts. The people
+  called them Christians. He put them through the most exquisite tortures. Christus, from
+  whom the name came, was executed under Tiberius. One of our governors, Pontius Pilate,
+  carried out the execution. This harmful superstition was checked for a moment. But it
+  broke out again. It broke out not only in Judea, where the evil began, but even in Rome.
+  In Rome, every horrible and shameful thing from the whole world gathers and becomes
+  popular. So those who confessed were arrested first. Then, from their information, a
+  huge number were convicted. They were convicted not so much for burning the city as for
+  hatred of mankind.
 speaker_or_author: Tacitus, in the Annals
 license: verbatim
 modern_lens_note: >-
@@ -53,7 +63,6 @@ retrieval:
   - "participant asks whether it was really dangerous to be a Christian"
   - "participant asks what a Roman writer said about them and why they were disliked"
   - "participant asks whether they were blamed for things they had not done"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.story.nero-scapegoating

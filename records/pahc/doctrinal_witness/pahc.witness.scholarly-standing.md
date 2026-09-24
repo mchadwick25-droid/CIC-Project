@@ -3,7 +3,7 @@ id: pahc.witness.scholarly-standing
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -26,7 +26,6 @@ retrieval:
   - "participant asks how scholarly this world's own record actually is"
   - "participant asks whether this world's own texts are legend"
   - "participant asks whether some gospels were suppressed or left out"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.contested.ignatius-dating

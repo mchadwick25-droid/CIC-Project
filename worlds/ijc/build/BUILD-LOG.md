@@ -1,6 +1,6 @@
 # Imperial and Juridical Christianity (`ijc`) — Record-Set Build Log
 
-**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compiled, admitted, and live** — admitted 2026-08-28 alongside the other five original worlds (`records/WORLDS_REGISTRY_LOG.md`), doors open fleet-wide.
+**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compiled, admitted, and live** — admitted 2026-08-28 alongside the other five original worlds (`Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`), doors open fleet-wide.
 
 **Settled ground built from (not reopened):** the per-world Step 0 confirmation (2026-07-19, Approved to proceed, Round 3) and Doc_01 (Approved to proceed, Round 2 cosmetic only) — identity ("office-holders, not congregants"), window 312–451, three strands, Homoian recentering, skew disclosure, Living Tradition PENDING.
 
@@ -34,7 +34,7 @@ Built one stage at a time with gates run and a self-review pass between stages, 
 ## 5. Flagged for Mark (nothing here decided by this build)
 
 1. **Representative identity under the new spec (step 5a touchpoint):** the registry carries Marius / "Deacon of the Letters" from Mark's own 2026-07-20/22 decisions (Open_Gaps items 13, 15) — carried as his standing decision, explicitly NOT re-confirmed under the new spec.
-2. **Living Tradition Status: PENDING** (Doc_01 §1); registry `living_tradition_flag: true` meanwhile, failing toward doorway disclosure.
+2. ~~**Living Tradition Status: PENDING**~~ — **RESOLVED 2026-09-20**: Mark confirmed "Multiple traditions, partial claims" (Roman Catholic + Eastern Orthodoxy). See `ijc_World_Profile.md` §9 and `Open_Gaps_Tracking.md` for the full ruling.
 3. **Open source requests (P3, non-blocking):** Paulinus's Vita in the 1928 Kaniecka translation (would upgrade the bees story's verifiability); Ammianus (Yonge 1862) for the Damasus-election account. See SOURCE-REQUEST-MANIFEST §2.
 4. **"Church and Empire"** is the census/card short name (Mark, 2026-07-20); the registry `census_id` maps to the Atlas entry `imperial-juridical-christianity`.
 

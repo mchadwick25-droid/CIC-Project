@@ -3,7 +3,7 @@ id: rzg.witness.a-quieted-mind
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -21,7 +21,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - participant asks what this world's own way of life offered someone whose own mind would not settle
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.quote.christ-the-mirror-of-election

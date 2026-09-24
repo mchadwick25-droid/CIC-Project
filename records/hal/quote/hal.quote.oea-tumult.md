@@ -3,7 +3,7 @@ id: hal.quote.oea-tumult
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -21,6 +21,10 @@ text: 'Thereupon arose such a tumult in the congregation, especially among the G
   correcting what had been read, and denouncing the translation as false, that the
   bishop was compelled to ask the testimony of the Jewish residents (it was in the town
   of Oea).'
+modern_rendering: >-
+  Then such a tumult arose in the assembly -- especially among the Greeks, correcting what
+  had been read and denouncing the translation as false -- that the bishop had to ask the
+  Jewish residents to testify. This was in the town of Oea.
 speaker_or_author: hal.figure.augustine
 license: verbatim
 modern_lens_note: '"The Greeks" names the Greek-speaking portion of a North African congregation, not people from Greece.'
@@ -29,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks what happened when a congregation heard an unfamiliar reading"
   - "participant asks whether changing a familiar text caused trouble"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf101 (div
 vii.1.LXXI). The Oea gourd incident in Augustine's own hand - the

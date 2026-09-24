@@ -1,6 +1,6 @@
 # Robinson's 1891 edition: Latin/Greek text of both the Passio S. Perpetuae
 # and, as its own stated Appendix, the Passio Sanctorum Scillitanorum.
-# Vendored 2026-09-08. Two distinct works, two distinct existing corpus-map
+# Two distinct works, two distinct existing corpus-map
 # placements -- see each assignment's own note.
 source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
 
@@ -25,22 +25,18 @@ assignments:
     author: passion_of_perpetua
     locus: "pp. 60-95 of the printed volume"
     atlas_ids:
-      - tertullian-s-voice
+      - latin-apologists
     role: tradition
     confidence: assigned
     note: >
       Latin/Greek second witness for the ALREADY-PRESENT English-language
-      entry in tertullian-s-voice.yaml (source_file anf03_tertullian.xml,
-      corrected here, independent review Round 25's own L5, from an
-      earlier draft's own "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml,"
-      carried over by mistake from the sibling Scillitan-Martyrs assignment
-      above in this same file; anf03_tertullian.xml carries the work in
-      full, printed as an Appendix, while anf09 names it only in editorial
-      footnotes), per Mark's own 2026-08-26 ruling assigning this work
-      there rather than to any Latin-pastoral bucket. This file does not
-      reassign it -- mirrors the existing ruling exactly. (Contrary to
-      this file's own accompanying task brief, which described Perpetua's
-      Passion as "not yet assigned to any world's corpus map" --
-      independently checked before writing this entry and found already
-      assigned, per the ruling cited above; corrected here rather than
-      silently re-asserted.)
+      entry in latin-apologists.yaml (source_file anf03_tertullian.xml;
+      anf03_tertullian.xml carries the work in full, printed as an Appendix,
+      while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
+      it only in editorial footnotes, so anf03 is the correct sibling entry,
+      not anf09). This work belongs with latin-apologists rather than any
+      Latin-pastoral bucket. This file does not reassign it -- mirrors the
+      existing assignment exactly. The atlas_id here is latin-apologists
+      (I.43); tertullian-s-voice (I.17), which this entry once named, has
+      since been merged into it, along with the rest of Tertullian's own
+      works in anf03/anf04.

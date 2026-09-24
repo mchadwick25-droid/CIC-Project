@@ -3,7 +3,7 @@ id: witt.gravity.two-governments
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -85,7 +85,7 @@ description: 'The temporal sword ordained of God, obeyed ''save only when comman
   people need no secular sword or law. And if all the world were composed of real Christians... no prince,
   king, lord, sword, or law would be needed'' (v3 12139-12191); ''lawful civil ordinances are good works
   of God... Christians are necessarily bound to obey their own magistrates and laws save only when commanded
-  to sin'' (AC 411-428). SIX-TEST SUMMARY (Doc_04 §3 G6): Repetition passes across six streams; Dependency
+  to sin'' (AC 411-428). SIX-TEST SUMMARY: Repetition passes across six streams; Dependency
   passes -- G4''s program presupposes territorial support for pastors, G3''s public form is settled ''with
   the aid of the authorities,'' the Confession is signed by princes; Formation passes as taught obedience,
   but the library shows Wittenberg''s council and the Saxon court only; Explanatory passes -- it explains
@@ -103,7 +103,7 @@ description: 'The temporal sword ordained of God, obeyed ''save only when comman
   strength this gravity almost certainly had across the whole window cannot be shown from this library,
   and the classification reflects the library, not the history. Register-and-voice spread: 3/4 -- no non-founder
   voice (the signatories and edicts are institutional, not a voice). Reception-side status: court and
-  council only. FORCES-CONNECTION NOTATION (Doc_04 §3 G6; Doc_08 §5): generated within an empire of semi-autonomous
+  council only. FORCES-CONNECTION NOTATION: generated within an empire of semi-autonomous
   princes, the only frame in which ''obtain the aid of the authorities'' means a territorial ruler [1A-1];
   shifted in direction three times -- 1520 princes summoned as priests, 1523 the limit of obedience, 1530
   princes as confessors [2A-3]; intensified under the popular-insurrectionary force in 1521-22, its climax

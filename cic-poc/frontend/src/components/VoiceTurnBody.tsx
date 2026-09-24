@@ -51,18 +51,15 @@
  *     list) - its sources still deserve disclosure, just not an inline
  *     position to anchor a mark to.
  *
- * TWO RENDERERS LIVE HERE (Build-Plan.md Stage 3c, added 2026-09-20).
- * `renderLegacy` is everything above, unchanged, and stays the default:
- * it reconstructs marks/General References by searching the finished text
- * for each citation's own sentence - real, but with a measured
- * completeness gap (see renderFromTransparencyPlan's own comment).
- * `renderFromTransparencyPlan` reads engine.m4.transparency_plan's own
- * `anchors`/`references` instead, which the engine computes with a
- * completeness guarantee no client-side reconstruction can match. Behind
- * `useAnchorRenderer` (lib/flags.ts) until R10 and label copy are ruled -
- * see that flag's own docstring for why it defaults off.
+ * TWO RENDERERS LIVE HERE. `renderFromElements` (the default) reads
+ * engine.m4.transparency_plan's own `sentences`/`elements` and places every
+ * mark by offset - see its own comment. `renderLegacy` is everything above, unchanged: it rebuilds
+ * marks by searching the finished text for each citation's own sentence,
+ * and draws any turn whose plan predates per-element placement (a stored
+ * transcript), or every turn when VITE_TRANSPARENCY_ANCHOR_RENDERER is
+ * "off" (lib/flags.ts).
  */
-import type { Citation, FigureUsed, GlossUsed, SourceCard, TransparencyAnchor, TransparencyPlan } from '../types/conversation';
+import type { Citation, FigureUsed, GlossUsed, SourceCard, TransparencyElement, TransparencyPlan } from '../types/conversation';
 import { useAnchorRenderer } from '../lib/flags';
 import { FigureBridgeMark } from './FigureBridgeMark';
 import { GeneralReferences } from './GeneralReferences';
@@ -87,6 +84,65 @@ type Mark = { start: number; end: number; matchedName: string; kind: 'figure'; f
 
 const STORY_RECORD_TYPES = new Set(['story', 'quote']);
 const WITNESS_RECORD_TYPES = new Set(['doctrinal_witness']);
+
+// "Contested" and "Inferential-Thin" are two of
+// the five formation_confidence values (CLAUDE.md's own vocabulary,
+// engine/m1/schemas.py) that name real scholarly uncertainty rather than
+// a well-attested claim - the two "contested or thin-
+// evidence claims" covers. transparency.anchors carries each cited
+// record's confidence envelope verbatim (transparency_plan.py), computed
+// but never rendered elsewhere; nothing else in this module reads
+// or renders any other confidence field.
+const THIN_EVIDENCE_CONFIDENCE_LEVELS = new Set(['Contested', 'Inferential-Thin']);
+
+function isContested(confidence: Record<string, unknown> | null): boolean {
+  const level = confidence?.formation_confidence;
+  return typeof level === 'string' && THIN_EVIDENCE_CONFIDENCE_LEVELS.has(level);
+}
+
+// Adjusted-Design.md's own N2 note splits this rule into an M7 instrument
+// (engine/m7/instruments.py's level1_element_density, already built and
+// merged) and this: the renderer fixture test + enforcement it names as
+// the other engineering half. The cap number/formula and drop order
+// below:
+// a small, capped number of inline Level-1 elements per turn, scaling
+// gently with sentence count - floor of 3 so even a short turn isn't
+// capped away entirely, ceiling of 8 regardless of length, roughly one
+// mark per two sentences in between. Over cap, drop order is glosses
+// first, then figures, then stories - quote marks (someone else's actual
+// quoted words) NEVER drop, the highest-stakes case for silently losing a
+// citation. A dropped mark still reaches the participant via
+// the collapsed General References line below - only its inline
+// prominence is lost, never its disclosure.
+function capForSentences(sentences: number): number {
+  return Math.max(3, Math.min(8, Math.ceil(sentences / 2)));
+}
+
+type CandidateKind = 'gloss' | 'figure' | 'story' | 'witness' | 'quote';
+
+interface Candidate {
+  key: string;
+  kind: CandidateKind;
+}
+
+// Drops whole candidates (never a partial mark) from the lowest-priority
+// kind first. Within a kind, drops the MOST RECENTLY occurring ones
+// first, keeping earlier disclosures visible. The drop-cap rule above
+// doesn't specify this tie-break; this file's own default.
+function selectDropped(candidates: Candidate[], cap: number): Set<string> {
+  const dropped = new Set<string>();
+  let over = candidates.length - cap;
+  if (over <= 0) return dropped;
+  for (const kind of ['gloss', 'figure', 'story'] as const) {
+    if (over <= 0) break;
+    const ofKind = candidates.filter((c) => c.kind === kind);
+    for (let i = ofKind.length - 1; i >= 0 && over > 0; i--) {
+      dropped.add(ofKind[i].key);
+      over--;
+    }
+  }
+  return dropped;
+}
 
 function splitIntoSegments(text: string, citations: Citation[]): { segments: Segment[]; orphaned: Citation[] } {
   const segments: Segment[] = [];
@@ -180,15 +236,14 @@ function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard
 
 // THE LEGACY RENDERER (kept byte-for-byte; default until the flag below is
 // explicitly on). Reconstructs marks and General References client-side by
-// searching for each citation's own sentence in the finished text - the
-// approach Build-Plan.md Stage 3c replaces, because it has a real,
-// measured completeness gap: engine.m4.transparency_plan's own docstring
+// searching for each citation's own sentence in the finished text. This
+// has a real, measured completeness gap: engine.m4.transparency_plan's own docstring
 // names it directly - a non-consecutive repeat citation of the same story
 // or witness record is silently dropped (renderedStoryIds/
 // renderedWitnessIds correctly suppress a second inline mark, but
 // story/witness sources are never passed to addReference, so the repeat's
 // sourcing disappears rather than moving to General References). See
-// renderFromTransparencyPlan below for the fix.
+// renderFromElements below for the fix.
 function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: VoiceTurnBodyProps) {
   const { segments, orphaned } = splitIntoSegments(text, citations);
   const usedIds = new Set<string>();
@@ -278,96 +333,98 @@ function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: Voice
   );
 }
 
-// THE ANCHOR-DRIVEN RENDERER (Build-Plan.md Stage 3c; behind
-// useAnchorRenderer until R10 + label copy are ruled). Same visual
-// grammar as the legacy renderer above - same StoryMark/WitnessMark/
-// GeneralReferences, same word-level figure/gloss marks - only the
-// ROUTING changes: which record gets which mark, and what's left for
-// General References, is read directly from transparency.anchors/
-// transparency.references (engine.m4.transparency_plan's own completeness
-// guarantee) instead of reconstructed by searching the finished text.
+// THE ELEMENT RENDERER.
+// Reads engine.m4.transparency_plan's own `sentences`/`elements` and
+// places every mark by offset - nothing is searched for in the text:
+// - a quote element's ✲ follows its quoted words;
+// - a story element's ✲ ends its telling (the run's last sentence);
+// - a term/figure element is the word itself (GlossMark/FigureBridgeMark);
+// - every other cited record is a general reference, listed at the end.
+// One mark per element, never merged: two elements on one sentence are
+// two marks in two places, and share a spot only when they genuinely end
+// at the same character.
 //
-// Every anchor - including a REPEAT one - gets its own mark at its own
-// run's end. That's the actual fix: the legacy renderer's
-// renderedStoryIds/renderedWitnessIds suppress a second, non-consecutive
-// citation of the same record turn-wide, which is exactly the completeness
-// gap transparency_plan.py's own docstring names. Nothing here invents a
-// distinct "repeat" glyph - Rulings-Pending.md R10 leaves that choice
-// open; this renderer's only job is to never silently lose a citation
-// regardless of which way R10 resolves.
-interface IndexedSegment {
-  text: string;
-  citation: Citation;
-  citationIndex: number; // this citation's own position in the ORIGINAL citations array - what transparency.anchors' run_end_sentence indexes into. Orphaned citations (sentence not found in text) are simply absent here; their sources still reach General References unconditionally via transparency.references.
-}
+// A repeat element (a record's later run) keeps its mark at reduced
+// opacity (.citation-mark--repeat). An element whose record reads
+// Contested or Inferential-Thin renders hollow (.citation-mark--contested).
+// The cap scales with the engine's own sentence count; over cap, glosses
+// drop first, then figures, then stories, newest first. Quote marks never
+// drop - a quote mark is the one mark saying "these exact words are a
+// source's". A dropped mark still reaches the end list: inline
+// prominence is lost, never disclosure.
+type ElementNode = { start: number; end: number; node: React.ReactNode };
 
-function splitIntoIndexedSegments(text: string, citations: Citation[]): { segments: IndexedSegment[]; trailingText: string } {
-  const segments: IndexedSegment[] = [];
-  let remaining = text;
-  citations.forEach((citation, citationIndex) => {
-    const idx = remaining.indexOf(citation.sentence);
-    if (idx === -1) return;
-    const before = remaining.slice(0, idx + citation.sentence.length);
-    segments.push({ text: before, citation, citationIndex });
-    remaining = remaining.slice(idx + citation.sentence.length);
+function renderFromElements({ text, figuresUsed = [], glosses = [], transparency }: VoiceTurnBodyProps & { transparency: TransparencyPlan }) {
+  const sentences = transparency.sentences ?? [];
+  const cardById = new Map(transparency.references.map((card) => [card.record_id, card]));
+  const figureById = new Map(figuresUsed.map((f) => [f.id, f]));
+  const glossById = new Map(glosses.map((g) => [g.id, g]));
+
+  const placeable = (transparency.elements ?? []).filter((el) => {
+    const span = sentences[el.sentence_index];
+    if (!span || span.text_start === null || span.text_end === null) return false;
+    if (el.kind === 'term') return glossById.has(el.record_id);
+    if (el.kind === 'figure') return figureById.has(el.record_id);
+    return cardById.has(el.record_id);
   });
-  return { segments, trailingText: remaining };
-}
 
-function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses = [], transparency }: VoiceTurnBodyProps & { transparency: TransparencyPlan }) {
-  const { segments, trailingText } = splitIntoIndexedSegments(text, citations);
-  const wordMarkedIds = new Set<string>();
-
-  const anchorsByRunEnd = new Map<number, TransparencyAnchor[]>();
-  for (const anchor of transparency.anchors) {
-    const list = anchorsByRunEnd.get(anchor.run_end_sentence) ?? [];
-    list.push(anchor);
-    anchorsByRunEnd.set(anchor.run_end_sentence, list);
+  // Word marks may not overlap; the later one renders as plain text.
+  const overlapped = new Set<TransparencyElement>();
+  const lastWordEnd = new Map<number, number>();
+  for (const el of placeable) {
+    if (el.kind !== 'term' && el.kind !== 'figure') continue;
+    if (el.char_start < (lastWordEnd.get(el.sentence_index) ?? 0)) overlapped.add(el);
+    else lastWordEnd.set(el.sentence_index, el.char_end);
   }
-  const referenceById = new Map(transparency.references.map((card) => [card.record_id, card]));
+  const drawn = placeable.filter((el) => !overlapped.has(el));
+
+  const candidates: Candidate[] = drawn.map((el, i) => ({ key: `el:${i}`, kind: el.kind === 'term' ? 'gloss' : el.kind }));
+  const droppedKeys = selectDropped(candidates, capForSentences(sentences.length));
+
   const inlineMarkedIds = new Set<string>();
-
-  const rendered = segments.map((segment, i) => {
-    const nodes = renderSegmentText(segment.text, figuresUsed, glosses, wordMarkedIds, `seg${i}`);
-
-    const marks: React.ReactNode[] = [];
-    const storyCards: SourceCard[] = [];
-    const witnessCards: SourceCard[] = [];
-    for (const anchor of anchorsByRunEnd.get(segment.citationIndex) ?? []) {
-      const card = referenceById.get(anchor.record_id);
-      if (!card) continue; // resolve_source_card found nothing - report only, never mark a card that isn't there
-      if (STORY_RECORD_TYPES.has(anchor.record_type)) storyCards.push(card);
-      else if (WITNESS_RECORD_TYPES.has(anchor.record_type)) witnessCards.push(card);
-      // everything else has no word or story to attach to - the General
-      // References filter below covers it, nothing to do inline here
-    }
-    if (storyCards.length) {
-      storyCards.forEach((card) => inlineMarkedIds.add(card.record_id));
-      marks.push(<StoryMark key="story" sources={storyCards} />);
-    }
-    if (witnessCards.length) {
-      witnessCards.forEach((card) => inlineMarkedIds.add(card.record_id));
-      marks.push(<WitnessMark key="witness" sources={witnessCards} />);
-    }
-
-    return (
-      <span key={i}>
-        {nodes}
-        {marks}
-      </span>
-    );
+  const bySentence = new Map<number, ElementNode[]>();
+  drawn.forEach((el, i) => {
+    if (droppedKeys.has(`el:${i}`)) return;
+    let node: React.ReactNode;
+    const key = `el${i}`;
+    if (el.kind === 'term') node = <GlossMark key={key} label={el.surface} gloss={glossById.get(el.record_id)!} />;
+    else if (el.kind === 'figure') node = <FigureBridgeMark key={key} label={el.surface} figure={figureById.get(el.record_id)!} />;
+    else
+      node = (
+        <StoryMark key={key} sources={[cardById.get(el.record_id)!]} repeat={el.repeat} contested={isContested(el.confidence)} quote={el.kind === 'quote'} />
+      );
+    inlineMarkedIds.add(el.record_id);
+    const isWord = el.kind === 'term' || el.kind === 'figure';
+    const list = bySentence.get(el.sentence_index) ?? [];
+    list.push({ start: isWord ? el.char_start : el.char_end, end: el.char_end, node });
+    bySentence.set(el.sentence_index, list);
   });
 
-  if (trailingText) {
-    rendered.push(<span key="trailing">{renderSegmentText(trailingText, figuresUsed, glosses, wordMarkedIds, 'trailing')}</span>);
-  }
+  const renderSentence = (body: string, nodes: ElementNode[]): React.ReactNode[] => {
+    const out: React.ReactNode[] = [];
+    let cursor = 0;
+    // Words before points at the same offset; a point never splits a word.
+    const ordered = [...nodes].sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+    for (const item of ordered) {
+      const at = Math.max(item.start, cursor);
+      if (at > cursor) out.push(body.slice(cursor, at));
+      out.push(item.node);
+      cursor = Math.max(cursor, item.start === item.end ? at : item.end);
+    }
+    if (cursor < body.length) out.push(body.slice(cursor));
+    return out;
+  };
 
-  // A word mark (figure/gloss) also counts as "already shown inline" for
-  // General References, same as the legacy renderer's own rule - checked
-  // once, after every segment has had its chance to word-mark a candidate,
-  // rather than per-segment (wordMarkedIds only grows, so the end state is
-  // the complete set regardless of when it's read).
-  wordMarkedIds.forEach((id) => inlineMarkedIds.add(id));
+  const rendered: React.ReactNode[] = [];
+  let cursor = 0;
+  sentences.forEach((span) => {
+    if (span.text_start === null || span.text_end === null || span.text_start < cursor) return;
+    if (span.text_start > cursor) rendered.push(text.slice(cursor, span.text_start));
+    rendered.push(<span key={`s${span.index}`}>{renderSentence(text.slice(span.text_start, span.text_end), bySentence.get(span.index) ?? [])}</span>);
+    cursor = span.text_end;
+  });
+  if (cursor < text.length) rendered.push(text.slice(cursor));
+
   const generalReferences = transparency.references.filter((card) => !inlineMarkedIds.has(card.record_id));
 
   return (
@@ -379,8 +436,9 @@ function renderFromTransparencyPlan({ text, citations, figuresUsed = [], glosses
 }
 
 export function VoiceTurnBody(props: VoiceTurnBodyProps) {
-  if (useAnchorRenderer && props.transparency) {
-    return renderFromTransparencyPlan({ ...props, transparency: props.transparency });
+  const plan = props.transparency;
+  if (useAnchorRenderer && plan?.elements && plan.sentences) {
+    return renderFromElements({ ...props, transparency: plan });
   }
   return renderLegacy(props);
 }

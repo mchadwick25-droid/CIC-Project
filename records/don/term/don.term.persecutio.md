@@ -3,7 +3,7 @@ id: don.term.persecutio
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -38,7 +38,7 @@ retrieval:
   retrieve_when:
   - a participant asks who persecuted this communion, or assumes the persecutors were pagans
   - a participant asks about Macarius, or about the difference between the two persecutions
-  do_not_retrieve_when:
+  prefer_instead:
   - Roman persecution of Christians generally is the subject, with no bearing on the intra-Christian repression
 relations:
 - type: associated-with

@@ -3,7 +3,7 @@ id: pahc.quote.not-every-one-that-speaketh-in-the-spirit
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -20,7 +20,12 @@ sources:
     The Teaching of the Twelve Apostles, ch. XI.8-9, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnotes and scriptural cross-references are removed from the text quoted here
   license: public-domain
 text: >-
-  But not every one that speaketh in the Spirit is a prophet; but only if he hold the ways of the Lord. Therefore from their ways shall the false prophet and the prophet be known. And every prophet who ordereth a meal in the Spirit eateth not from it, except indeed he be a false prophet.
+  But not every one that speaketh in the Spirit is a prophet; but only if he hold the ways of the Lord. Therefore from their ways shall the false prophet and the prophet be known. And every prophet who ordereth a meal in the Spirit eateth not from it, except indeed he be a false prophet...
+modern_rendering: >-
+  But not everyone who speaks in the Spirit is a prophet -- only if he holds to the ways
+  of the Lord. So the false prophet and the true prophet will be known by their ways. And
+  any prophet who orders a meal in the Spirit does not eat from it himself -- unless he is
+  in fact a false prophet...
 speaker_or_author: the manual known as the Didache
 license: verbatim
 modern_lens_note: >-
@@ -31,10 +36,13 @@ retrieval:
   - "participant asks who decided what was true among these people"
   - "participant asks how they told a real teacher from a fraud"
   - "participant asks what happened when someone claimed to speak for God"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.term.prophetes
 ---
 Opened 2026-08-27 for F1-E, served by pahc.term.prophetes alone, which cites chs. 11-13 and had
 nothing quotable.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "false prophet" was invented -
+the source continues into two further, separately-numbered tests (verses 10-11) outside this record's
+own cited locus (XI.8-9). Marked with a trailing ellipsis rather than restored.

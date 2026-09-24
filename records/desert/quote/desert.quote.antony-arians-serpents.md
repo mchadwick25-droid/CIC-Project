@@ -3,7 +3,7 @@ id: desert.quote.antony-arians-serpents
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F3-T]
 confidence:
@@ -17,6 +17,8 @@ sources:
   locus: "SS68 - Antony's own rejection of Melitian communion and, when Arians came to him, his response driving them away"
   license: public-domain
 text: "He drove them from the mountain, saying that their words were worse than the poison of serpents."
+modern_rendering: >-
+  He drove them off the mountain, saying that their words were worse than the poison of serpents.
 speaker_or_author: "Athanasius, narrating Antony's own action"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote's own vocabulary or imagery: \"the poison of serpents\" reads today the same way it read then, a plain image for something venomous."
@@ -26,7 +28,6 @@ retrieval:
   - "participant asks what happened to someone who taught something the community rejected"
   - "participant asks whether ordinary members took sides in the doctrinal quarrels of their day"
   - "participant asks how firmly a boundary was policed and by whom"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.figure.antony

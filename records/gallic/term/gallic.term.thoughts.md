@@ -3,7 +3,7 @@ id: gallic.term.thoughts
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -29,7 +29,7 @@ retrieval:
   - what the "mill" image means, or how the interior struggle was understood
   - participant uses "thoughts," "temptation," "intrusive thoughts," "distraction," or "mind wandering"
   - Abbot Moses on the three origins, the mill-wheel, or the money-changer
-  do_not_retrieve_when:
+  prefer_instead:
   - the practice of telling thoughts to the senior (retrieve disclosure of thoughts)
   - the judging faculty (retrieve discretion)
   - the eight faults as a list (retrieve the eight principal faults)

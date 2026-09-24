@@ -3,7 +3,7 @@ id: witt.figure.brussels-martyrs-john-and-henry
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -17,9 +17,7 @@ confidence:
     fact of their names and their deaths: the ballad that is this library''s only source for them is composed
     in a hagiographic, commemorative register, and supplies no family name, age, or biographical detail
     for either man beyond "John" and "Henry." "Augustinian" does not occur anywhere in the vendored text
-    in connection with them; the Registry''s own technical correction (2026-09-15) fixed an earlier, unverified
-    "Augustinian friars" wording to what the text actually supports (Doc_09 witt-S04; Source Registry
-    R30).'
+    in connection with them.'
 sources:
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
   locus: Hymn V's own heading and stanzas 1-6, naming "one of these youths... called John, and Henry was
@@ -30,7 +28,7 @@ retrieval:
   retrieve_when:
   - a participant asks who the two Brussels martyrs were
   - a participant asks whether this world can name anyone who died for its teaching
-  do_not_retrieve_when:
+  prefer_instead:
   - drawing any individual distinction between John and Henry - the vendored text gives them no individually
     distinguishing detail beyond their two names and their shared fate
   - narrating either man's age, family, or personal history - none is attested
@@ -72,11 +70,3 @@ not a stated religious order by name), or any individually attributed word, thou
 scholarly identification sometimes given outside this library (Hendrik Vos and Johann van Esschen, as
 Augustinian friars) is not this library's own text and is carried here, in names[], only as a disclosed
 external identification - never narrated as though the vendored ballad itself supplied it.
-
-FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G1 (Justified by faith alone [PRIMARY]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
-
-CORRECTION (Phase C recon, 2026-09-19): dates.display's own "Doc_09 and" removed -- caught by
-engine.m1.cross_world's check_participant_field_leaks, which correctly flags this field as one the
-doorway's Level-3 panel prints verbatim to a participant. The citation was accurate but belonged in this
-body note, not in a field a participant reads; substance unchanged, only the internal build-document
-reference removed.

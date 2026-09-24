@@ -3,7 +3,7 @@ id: desert.quote.ethiopic-rule-eat-and-drink
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -30,6 +30,10 @@ text: >-
   Suffer each one to eat and to drink, and according to the measure of their eating give them
   their work. And prohibit neither fasting nor eating; but only as the food for the strong is
   powerful, and is weak for the weak, give them also the food of their works.
+modern_rendering: >-
+  Allow each person to eat and drink, and give them work in proportion to how much they eat. Do not
+  forbid fasting, and do not forbid eating either; but just as food is strong for the strong and
+  weak for the weak, so also give them the food of their works.
 speaker_or_author: the angel of the Lord, in the Ethiopic recension of the Rule
 license: verbatim
 modern_lens_note: >-
@@ -44,7 +48,6 @@ retrieval:
   - "participant asks what they ate and how much, and whether fasting was required"
   - "participant asks whether everyone was held to the same standard or treated differently"
   - "participant asks how food and work were matched to a person"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

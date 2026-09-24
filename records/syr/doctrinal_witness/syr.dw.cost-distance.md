@@ -3,7 +3,7 @@ id: syr.dw.cost-distance
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Did belonging cost anything? On the Persian side of our world it could cost
   everything. When the persecution came, to be known as a Christian - above

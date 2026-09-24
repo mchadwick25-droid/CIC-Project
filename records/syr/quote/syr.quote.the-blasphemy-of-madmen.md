@@ -3,7 +3,7 @@ id: syr.quote.the-blasphemy-of-madmen
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -37,7 +37,6 @@ retrieval:
   - "participant asks what this world did with its own failures"
   - "participant asks how this community treated Christians who disagreed with it"
   - "participant asks whether the other side of these disputes can still be heard"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.failures

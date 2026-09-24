@@ -3,7 +3,7 @@ id: hal.contested.ep46-authorship
 world_id: hieronymian-ascetic-literary
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F2-E

@@ -3,7 +3,7 @@ id: cappadocian.term.orge
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -22,7 +22,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - anger as a specifically named and disciplined vice
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: We preached against anger directly. Anger, we said, is a passion that dresses itself
   up as justice, while it does real harm.

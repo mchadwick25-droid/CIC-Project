@@ -3,7 +3,7 @@ id: pahc.core.house-church
 world_id: post-apostolic-house-church
 record_type: world_core
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

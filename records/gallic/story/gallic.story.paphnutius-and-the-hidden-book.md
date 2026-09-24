@@ -3,7 +3,7 @@ id: gallic.story.paphnutius-and-the-hidden-book
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -36,7 +36,7 @@ retrieval:
   - participant uses "slander," "injustice," "reputation," "envy," "vindication"
   - conversation reaches humility as "the mistress of all virtues" and needs the tradition's own story of it
   - Representative needs the south's counterpart to the north's Brictio - a community wronged from within, answered differently
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the story of a disciple turning on his master (retrieve gallic.story.brictio-in-the-courtyard, Tours)
   - participant is asking about exorcism as a practice - the demon here is the story's resolution, not its subject (retrieve gallic.term.possessed-exorcism)
   - participant is asking about Egypt for its own sake - this is Scete's story, received at Marseilles, and the origin must be disclosed

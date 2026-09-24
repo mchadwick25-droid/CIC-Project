@@ -3,7 +3,7 @@ id: hal.term.praefatio
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - how the translation project defended itself
   - what this world sounds like arguing in its own voice
-  do_not_retrieve_when: []
 plain_meaning: Jerome's short, fighting prefaces to his translations. In them he defends his whole
   method, book by book, against real critics.
 world_word: praefatio

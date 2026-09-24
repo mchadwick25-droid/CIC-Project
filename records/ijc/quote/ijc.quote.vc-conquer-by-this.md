@@ -3,7 +3,7 @@ id: ijc.quote.vc-conquer-by-this
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -21,6 +21,11 @@ text: He said that about noon, when the day was already beginning to decline, he
   the trophy of a cross of light in the heavens, above the sun, and bearing the inscription, Conquer by
   this. At this sight he himself was struck with amazement, and his whole army also, which followed him
   on this expedition, and witnessed the miracle.
+modern_rendering: >-
+  He said that around noon, when the day had already begun to decline, he saw with his own
+  eyes a trophy: a cross of light in the sky, above the sun. It bore the inscription
+  'Conquer by this.' At this sight, he himself was struck with amazement. So was his whole
+  army, which was following him on this expedition and witnessed the miracle.
 speaker_or_author: ijc.figure.eusebius-caesarea
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the emperor came to favour the Christians"
   - "participant asks whether the vision story can be believed"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vision-and-alliance}
 ---

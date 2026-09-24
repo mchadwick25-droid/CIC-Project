@@ -3,7 +3,7 @@ id: desert.term.hesychia
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -23,8 +23,8 @@ retrieval:
   retrieve_when:
   - a participant says they cannot quiet their own head
   - questions about silence, stillness, or peace of mind
-  do_not_retrieve_when:
-  - questions about the later Byzantine hesychast method (Jesus Prayer technique) - that belongs to a much later world and must not be retrojected
+claim_guards:
+- questions about the later Byzantine hesychast method (Jesus Prayer technique) - that belongs to a much later world and must not be retrojected
 relations:
 - type: associated-with
   target: desert.term.anachoresis

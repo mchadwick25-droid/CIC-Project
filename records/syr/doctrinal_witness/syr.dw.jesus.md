@@ -3,7 +3,7 @@ id: syr.dw.jesus
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -26,7 +26,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To us, Jesus is the Only-Begotten of God - the Ihidaya, our own name
   for him. He left his place with God and made his home in the Virgin, and by

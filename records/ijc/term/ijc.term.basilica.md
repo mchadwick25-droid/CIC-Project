@@ -3,7 +3,7 @@ id: ijc.term.basilica
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -25,7 +25,7 @@ retrieval:
   retrieve_when:
   - the physical building at the center of the 386 Milan standoff
   - what archaeology would show of this world's churches
-  do_not_retrieve_when:
+  prefer_instead:
   - the real question is the standoff's meaning or Ambrose's formula (imperator-intra-ecclesiam instead)
 relations:
 - {type: associated-with, target: ijc.term.imperator-intra-ecclesiam}

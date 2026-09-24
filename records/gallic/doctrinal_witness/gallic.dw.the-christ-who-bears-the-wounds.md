@@ -3,7 +3,7 @@ id: gallic.dw.the-christ-who-bears-the-wounds
 world_id: gallic-monastic-ascetic-christianity
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -52,7 +52,7 @@ retrieval:
   - "participant asks who Jesus was to this world, or what mattered most about him"
   - "participant asks what the good news was as this world told it, or what Jesus taught that mattered most"
   - "participant asks what his death meant, or what this world believed about the resurrection"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks how this world knew the resurrection happened, or whether anyone had seen him - retrieve gallic.limit.no-one-who-saw-him"
   - "participant wants the two-natures argument itself - retrieve gallic.dw.one-person-two-substances"
 text: >-

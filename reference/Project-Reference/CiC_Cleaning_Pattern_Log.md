@@ -14,7 +14,7 @@
 
 **Description:** A document that is supposed to describe stable system architecture instead reports which specific world has cleared which gate, reached which maturity level, or progressed furthest through a validation layer. The architectural point (what a layer requires, what "mature" means for it) gets fused with a status report on one world's progress against that requirement.
 
-**Example:** "Alexandria has progressed furthest but Living Tradition Status Confirmation (Article 29) has not been confirmed for Alexandria, and the full V7 Validation Layer has not been executed end to end." (Layer 5 Maturity rating, Architecture Map)
+**Example:** "Alexandria has progressed furthest but Living Tradition Status Confirmation (Article 29) has not been confirmed for Alexandria, and the full V7 Validation Layer has not been executed end to end." (Layer 5 Maturity rating, Architecture Map — see `Archive/Ministry-Early-Days-2026-07/Funding/CiC_Ministry_Funding_Strategy_v1_0.docx` for historical context)
 
 **Why it passes surface checks:** If the world name is a permitted one (present in the five-world registry, as Alexandria is), a simple name-search contamination check will not flag it — the name itself is allowed to appear. The violation is structural, not lexical: this content belongs in Level 2C Phase Status (which tracks per-world gate status), not in a Level 2A document (which describes the gate itself, world-neutrally). Only a check against what the *document level* is permitted to contain — not just which proper nouns are permitted — catches this.
 

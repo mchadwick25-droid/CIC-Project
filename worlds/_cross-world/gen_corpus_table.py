@@ -47,9 +47,15 @@ import texts_registry  # noqa: E402
 # would come to disagree with the check it exists to illustrate.
 from engine.m1.cross_world import BY_DESIGN, COVERAGE, corpus_key as key_for, corpus_tier  # noqa: E402
 from engine.m1.cross_world import observe_second_hand_sources  # noqa: E402
+from engine.m1 import registry as world_registry  # noqa: E402
 
 TEXTS_DIR = ROOT / "cic" / "texts"
-W = ["alx", "pahc", "desert", "hal", "syr", "ijc"]
+# Every formation world with compiled records, not a hand-maintained list -
+# the prior hardcoded six (alx/pahc/desert/hal/syr/ijc) silently stopped
+# covering cappadocian, gallic, and don as each was admitted, so this report
+# went stale for three of the fleet's nine live worlds without ever saying so.
+W = [w for w in world_registry.formation_world_keys()
+     if (RECORDS_ROOT / w).is_dir()]
 
 # Short subject labels, so a reader can tell a meaningful gap from a correct
 # one without opening the volume. Taken from each file's own README title.
@@ -235,8 +241,7 @@ def main() -> None:
     out.append("")
 
     # --- the worklist Mark's "ranked, never ignored" standard implies ------
-    import yaml
-    reg = yaml.safe_load((ROOT / "records" / "worlds.yaml").read_text())["worlds"]
+    reg = world_registry.load_registry()
     out.append("\n## Worklist — in scope for a world, with no source record there\n")
     out.append(
         "Mark's standard, 2026-08-26: *every world should reach every available resource; "
@@ -254,8 +259,6 @@ def main() -> None:
         "Coverage ranges below are a **first pass asserted for correction**, not derived — "
         "a volume's dates cannot be read off the file mechanically. Argue with them.\n"
     )
-    import yaml
-    reg = yaml.safe_load((ROOT / "records" / "worlds.yaml").read_text())["worlds"]
     # tier 1 comes from the standing check itself, so this report and
     # `python -m engine.m1.cross_world` can never disagree about it.
     second_hand_by_world = {

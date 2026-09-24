@@ -3,7 +3,7 @@ id: cappadocian.quote.we-look-to-the-east
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -36,15 +36,13 @@ retrieval:
   retrieve_when:
   - "participant asks how this world knew its practices went back to the apostles"
   - "participant asks why they faced a particular direction or stood rather than knelt to pray"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.customs-from-the-apostles
 modern_rendering: >-
-  We all face east when we pray, but most of us don't even know why: we are
-  looking for our own old country - the Paradise God planted in Eden, in
-  the east. We pray standing on the first day of the week, but most of us
-  don't know the reason for that either.
+  So we all look to the East when we pray, but few of us know that we are seeking our own
+  old country -- Paradise, which God planted in Eden, in the East. We pray standing on the
+  first day of the week, but not all of us know the reason.
 ---
 Verified verbatim 2026-08-31 directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, sec.

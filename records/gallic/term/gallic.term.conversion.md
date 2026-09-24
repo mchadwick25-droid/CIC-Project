@@ -3,7 +3,7 @@ id: gallic.term.conversion
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -37,7 +37,7 @@ retrieval:
   - participant hears "conversion" as a change of religion in a passage about entering the monastery
   - participant uses "convert," "converted," "born again," or "turned to God"
   - Abbot Moses of Calamus's "compulsory conversion," Salvian's lapsed religious, or Martin's converted robber and rustics
-  do_not_retrieve_when:
+  prefer_instead:
   - the act of giving things up as such (retrieve renunciation)
   - the mission to the pagan countryside in itself (retrieve heathen / rustics)
   - conversion in a modern evangelical sense as if it were our monastic one - that is the confusion this record exists to separate

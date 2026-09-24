@@ -3,7 +3,7 @@ id: cappadocian.term.phthonos
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -22,7 +22,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - envy as a specifically named vice in this world's preaching
-  do_not_retrieve_when: []
 relations: []
 plain_meaning: We preached a whole sermon against envy by name. Envy, we said, is a sin that comes
   from the devil. It is the vice of a heart that cannot bear someone else's good fortune.

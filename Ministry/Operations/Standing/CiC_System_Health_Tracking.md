@@ -924,3 +924,421 @@ needed on its own.
 `#229`, `#197`) unchanged since the last sweep — no failure
 notifications arrived for any of them between sweeps, consistent with
 still green.
+
+---
+
+## 2026-09-21 — PR #346 merged directly into `live`: promotion procedure
+## bypassed, flagged as an accepted exception, not unwound
+
+**What happened:** PR #346 (previous entry, above) was merged directly into
+`live` at commit `e693b048` (merged_at 2026-09-21T09:34:15Z), base `5a9938c9`.
+Confirmed via the GitHub API directly, not taken on the handoff's word: the
+PR's `merged_by` is `mchadwick25-droid` — the same account that authored the
+PR and owns this repository — so the merge was executed by Mark's own GitHub
+account. This bypassed the procedure in `CiC_Promotion_Runbook.md` in full:
+no PR from `main` into `live`, no verification pass on `cic-engine-staging`
+first. The runbook's own text is explicit that this is the one procedure
+meant to gate everything reaching `live`: "Nothing merges to `live` directly."
+
+**Why:** a prior session on this same thread believed `live` was the branch
+Cloudflare deploys the public website (`cic-website/`) from, and merged
+directly to get the who-is-at-the-table card redesign live faster. That
+belief was wrong — confirmed against `README.md` and the runbook itself:
+`live` drives only `cic-engine` (Render, the backend); `cic-website`
+deploys via Cloudflare Workers Build, a separate pipeline the runbook
+explicitly does not touch, and whose branch is a decision the runbook
+says outright is "not yet made." Mark authorized and executed the direct
+merge himself, aware it was going into `live` rather than through the
+normal `main` → `live` path.
+
+**Decision (Mark's, explicit, this thread):** leave `live`'s history as
+committed rather than revert or unwind the merge. Log this as a flagged,
+accepted exception rather than treat it as an emergency requiring
+correction. The website-relevant subset of the same content was
+separately brought to `main` (where Cloudflare's production deployment
+actually reads from) via PR #351, opened the same day — that PR does not
+fix or touch anything about this exception; it is a parallel, independent
+action.
+
+**Open, unresolved (at the time this entry was first written):** whether
+`cic-engine` (Render) is actually pointed at `live` at all right now
+cannot be confirmed from this sandbox — Render's dashboard is not
+reachable here (egress-blocked, per the runbook's own 2026-09-15 note),
+and the runbook's own one-time setup steps that would make `live` the
+real production branch are dashboard-only and stated as not yet
+confirmed done. Per the runbook's own caveat, `cic-engine` "keeps
+deploying from whatever branch Render's dashboard already has it connected
+to, almost certainly still `main`" until that setup is complete. If that
+is still the case, this exception's real production impact is smaller
+than the bypassed procedure would suggest — but that can only be settled
+by Mark checking Render's dashboard directly, not from here. Stated as an
+open unknown, not assumed either way.
+
+---
+
+## 2026-09-21 — Render confirmed: `cic-engine` deploys from `live`
+
+**Closes the open question above.** Mark checked Render's dashboard
+directly (this sandbox still cannot reach it) and confirmed: the
+`cic-engine` service's Settings → Build & Deploy branch is set to `live`,
+with a green (healthy) status at the top of the service page. The
+promotion runbook's one-time setup (`CiC_Promotion_Runbook.md`'s step 2,
+pointing `cic-engine` at `live` via the Render Blueprint sync) has
+happened — this is no longer the "almost certainly still `main`" default
+state the runbook's own caveat assumed.
+
+Practical effect on the exception logged above: PR #346's direct merge
+into `live` did reach real participant-facing production, not a branch
+Render was ignoring. The exception itself is unchanged (still logged,
+still not reverted, per Mark's own decision above) - this entry only
+corrects the previously-open question about its actual production impact,
+which is no longer smaller than the bypassed procedure would suggest.
+
+---
+
+## 2026-09-21 20:15 UTC — Total system check: `cic/engine` corpus-map self-test not wired into CI, 4/13 checks failing
+
+Requested full cross-module health sweep, wider than the routine's own
+7-step check. Main CI green (run 1117); fleet size unchanged at 11;
+`engine/` test suite clean (769/769, 0 skips, no TODO/FIXME debt);
+`staleness-check` clean across all 12 packages. One earlier-today
+Decision-Log entry (Entry 13, commit `1f13808ed`, 05:45 UTC) logged a
+failing run (740 passed / 6 failed / 23 errors, blamed on a "pre-existing
+Stage 0c package-completeness gap") - confirmed that commit predates the
+same day's Stage 4a fleet-wide package rebuild (18:51-19:22 UTC), so this
+is already resolved by that later work, not a live problem.
+
+One genuine, currently-uncaught gap found: `cic/engine/tests_corpus_map.py`
+is not pytest-collected and not wired into CI at all - it only runs if
+someone invokes it directly. Run directly, 4 of its ~13 checks fail:
+
+- `tests_corpus_map.py:18` - every map filename is a census movement id
+- `tests_corpus_map.py:45` - every bucket on disk is reproducible from staging
+- `tests_corpus_map.py:67` - every author ruling is used by some assignment
+- `tests_corpus_map.py:112` - every transmitted work has its voice assigned
+  somewhere else (named orphan: "Festal Letter XXXIX (367)")
+
+This is corpus/source-research territory (`cic/corpus-map/`), not a
+repo-wide mechanical break for this thread to fix directly - flagged here,
+not fixed. Whether these four are real data defects or a stale self-test
+assertion is a judgment call for that thread, and separately, someone
+should decide whether this file belongs in the pytest-collected suite so a
+real regression here isn't silent going forward.
+
+Everything else surveyed (Ministry workstream status, world-fleet build
+stage, frontend/website, `live` branch activity) matched already-known
+state - see conversation record for the full breakdown; not duplicated
+here since none of it changed anything actionable.
+
+---
+
+## 2026-09-21 20:05 UTC — Facilitator safety-redirect mechanism: logged done (Mark's call)
+
+Mark's direct call: the Facilitator safety mechanism is done, logged here
+as of now. Worlds stay quiet and in-character; the Facilitator recognizes
+a real safety event and handles the redirect itself, per the live
+governing doc (`CiC_L3D_Facilitator_Governance_V3.6`) - a Representative
+never handles real crisis or distress itself, and never steps out of its
+world to do so.
+
+**Scope, stated plainly so this isn't misread later:** this is the safety
+half only - participant protection during a live conversation. It is NOT
+Article 31 (external, human, qualified scholarly review of a world's
+content accuracy), which is a separate gate, remains open fleet-wide, and
+is untouched by this entry. No world's `Open_Gaps_Tracking.md` or waiver
+file was changed by this entry. Raised and clarified in conversation
+before logging, to avoid exactly this conflation.
+
+---
+
+## 2026-09-22 00:31 UTC — Periodic sweep: two red PRs flagged (both PR-specific, not fixed), 7 new PRs subscribed
+
+Main green (run 1170). A large amount of new activity landed overnight -
+the Transparency Engine's own R5-R19 rulings cycle plus Stage 4a/4b work,
+and a new "Tech-Readiness" audit (dispatched from the "CiC - Tech Review &
+Funding Readiness Prep" thread opened earlier this session) producing
+Security and Operations hardening packages. Spot-checked the engine-
+touching commits (R19 guard-scan fix, R13 holdings-check cycle start,
+Stage 4b guard_proximity, Stage 4a evidence.py riders, R8/R18 copy fixes
+including a CLAUDE.md confidence-vocabulary correction) - all clean,
+well-documented, Decision-Log entries correctly placed, no stray notes.
+
+7 new open PRs found and subscribed: #384, #382, #380, #379, #378, #377,
+#376. Two are currently red or conflicted - both confirmed PR-specific
+(reproduced/ruled out against main's own clean tip), so flagged to their
+owning threads rather than fixed here:
+
+- **PR #384** (Ministry archive housekeeping, from the Tech-Readiness
+  thread): `check_paths.py` failing twice in a row. Confirmed clean on
+  main's own tip - caused by this PR's own 90-file archive move leaving
+  its own dangling citations, not a repo-wide break. That thread's own
+  active PR to finish.
+- **PR #380** (record six Transparency Engine rulings): real merge
+  conflict on `Decision-Log.md` and `Rulings-Pending.md` - both append-
+  only files, edited concurrently by other PRs that landed on main first
+  (Entries 25-27 landed while this PR's own draft still called itself
+  "Entry 25"). PR-specific content conflict on two files this thread has
+  no standing to resolve on another thread's behalf.
+
+Fleet size unchanged at 11, still below the 15 log threshold.
+
+---
+
+## 2026-09-23 06:31 UTC (corrected 10:15 UTC) — Periodic sweep: main's CI red, root cause is a GitHub Actions billing/spending-limit block on Mark's account, not a platform outage - needs Mark's action, not fixed by this thread
+
+Main's tip (run 1299, PR #433's own merge, commit `8ce19c33e`) failed CI:
+both `Detect changed paths` and `Cited paths resolve; retired paths
+absent` died in ~2 seconds, every other job skipped as a result.
+
+What ruled out a repo content problem (still holds):
+- `check_paths.py --baseline tools/check_paths_baseline.txt` run locally
+  against that exact commit: 0 new unresolved, 0 retired - genuinely
+  clean. The failure isn't a real citation problem.
+- Checked whether this is isolated to main: it is not. PR #430's own CI
+  run (an unrelated branch, already in flight) failed the identical two
+  jobs at nearly the same time. Two independent branches failing the
+  same way, simultaneously, rules out a content cause specific to either
+  one.
+- `.github/workflows/ci.yml` has no recent changes - the last touch was
+  the live-merge reconciliation, and many runs since then (through
+  06:07 UTC) passed clean on this exact workflow file.
+
+**Original diagnosis (06:31 UTC) was wrong and is corrected here, not
+patched over:** this entry first read the failure as a platform-level
+GitHub Actions outage, on the reasoning that both jobs died in ~2
+seconds - too fast for a real scan - matching this thread's own "died
+before any test body ran" flake signature, and that the identical
+failure on a re-run (this thread's one permitted retry) confirmed it as
+"real" rather than a flake. That reasoning ruled out *content* and
+*flakiness* correctly, but never tested the actual alternative: the jobs
+weren't running and failing fast, they were never dispatched to a
+runner at all.
+
+The reviewer thread "CiC — Tech Review & Funding Readiness Prep"
+(session_01A2MhC3b5CFfKbX2khnWZuW) flagged this at 10:15 UTC, pointing
+to GitHub's own check-run annotation on the failing "Detect changed
+paths" run. That annotation URL itself was not directly readable from
+here (`api.github.com` returned 403 to an unauthenticated fetch, and
+this sandbox has no authenticated HTTP path to it) - so the claim was
+independently re-verified against GitHub's own Actions job API rather
+than taken on trust:
+- Every failing job on all three affected commits (main's `8ce19c33e`,
+  PR #430, and a third independent branch caught later, PR #435's
+  `0e5a4119`) shows `runner_id: 0`, `runner_name: ""`,
+  `runner_group_id: 0` and no `steps` array at all.
+- A normal passing run on the same workflow file minutes earlier (run
+  1295, main, commit `9da9bec5`) shows a real assigned runner
+  (`runner_id: 1000011960`, `runner_name: "GitHub Actions 1000011960"`)
+  and a full recorded step sequence (Set up job -> checkout ->
+  paths-filter -> ... -> Complete job).
+- That contrast - no runner ever assigned, no steps ever recorded, vs. a
+  real runner and a full step trace - is the signature of a job that was
+  never started, not one that ran and failed quickly. It matches exactly
+  what an Actions billing/spending-limit block looks like from the API
+  side, and it explains why `check_paths.py` passed locally: the script
+  was never executed in CI at all, so local reproduction was silent on
+  the real cause.
+
+**Corrected root cause:** GitHub Actions is refusing to start jobs on
+this account/repo because of a billing or spending-limit block (GitHub's
+own account-level message: recent payments failed, or the spending limit
+needs raising). This is not a GitHub platform outage, and it will not
+clear on its own - it needs Mark to check the "Billing & plans" section
+of the account's GitHub settings. Nothing in the repo caused this and
+nothing in the repo can fix it; this thread's mechanical-fix scope
+(config, CI YAML, build scripts) doesn't reach account billing.
+
+Surfaced to Mark directly. This is currently blocking every PR from
+merging to main, including this thread's own ledger PR for this entry -
+CI will stay red on all branches, this one included, until the account
+issue clears.
+
+**Resolved ~14:03 UTC (2026-09-23):** the block cleared - independently
+confirmed via a real, in-progress CI run on PR #437 (job `M4 event log...`
+actually executing `pytest`, with a real assigned runner, not the
+`runner_id: 0`/no-steps signature above). Total outage: roughly 7h30m
+(first observed ~06:31 UTC). No repo-side action caused the clearance;
+this is Mark's own account-side fix taking effect.
+
+Fleet size unchanged at 11.
+
+---
+
+## 2026-09-23 17:39 UTC — CI cost consolidation merged (PR #439): 20 jobs -> 9, draft PRs skip heavy jobs
+
+Separate from the billing block above, the reviewer thread ("CiC — Tech
+Review & Funding Readiness Prep") relayed a real cost problem: $75 over
+the plan this cycle by 14:00Z, root-caused via the runs API to GitHub's
+per-job minute rounding - a full run is ~14 minutes of actual runner
+time but ~20 minutes billed, because `.github/workflows/ci.yml` split
+the engine suite into 11 separate short jobs, each paying a full
+minute's checkout/setup overhead. Squarely this thread's own standing
+CI-YAML mechanical-fix mandate.
+
+Built and verified before touching anything: eleven jobs sharing the
+identical `engine == 'true'` gate (M1 selftest, prose primitives, canon
+v1, M3, M4, M5, provider seam, M8, M2 compiler checks, M6 census sync,
+engine/api tests) folded into one `engine-tests` job - checked job-by-
+job first that all eleven used that exact single condition, not a
+superset, so nothing changed trigger. M2 staleness and M9 confinement
+kept in their own separate merged job (`staleness-and-confinement`)
+rather than folded in, since both share a wider `engine || library`
+condition that would have force-widened the other eleven onto
+library-only commits. Draft PRs (this project's own working pattern -
+#435-#438 were all opened draft specifically to iterate without paying
+for full CI) now skip `engine-tests`, `docker-build`, and
+`frontend-tests` while draft; `ready_for_review` added to the
+workflow's `pull_request:` types so marking a PR ready fires the full
+run. 20 jobs -> 9.
+
+The actual commit itself was blocked by this session's own auto-mode
+permission classifier as a shared-resource change (this touches CI for
+every active PR/build thread) - stopped and asked Mark directly rather
+than routing around it; he said go ahead. Opened as PR #439, tested
+live on the PR's own CI run before merging (every one of the 9 jobs
+passed, including everything left untouched - Docker build, frontend
+tests, site checks), exactly per "test it on the PR itself" discipline.
+
+Branch protection named the old 11 individual job names as required
+checks, so the consolidated PR could not merge until Mark updated the
+"CiC ruleset protection" ruleset himself (not something this thread has
+a tool to touch) - listed the exact before/after name mapping in the
+PR body for that purpose. Held per Mark's own explicit instruction
+("let's hold for a couple of days... it's the cost of monitoring I want
+held") rather than run a recurring re-check loop; picked back up once
+the reviewer thread relayed that Mark had updated the ruleset (verified
+independently via the PR's own `mergeable_state` and a fresh merge
+attempt, not taken on trust), rebased PR #439 onto current main,
+confirmed its CI green under the new job names, and merged
+(`69b4df3c9b5a6cd3c2464f377ebeb054ff6bd19e`).
+
+Also verified while rebasing: an unrelated Docker build failure on
+main's own tip (the #436 merge commit, ~17:07 UTC, flagged by the
+reviewer thread as being handled by the transparency thread) had
+already cleared on retry - green on both that commit and current main
+before this merge, so no caveat needed here.
+
+Fleet size unchanged at 11.
+
+---
+
+## 2026-09-24 11:58 UTC — Declined an out-of-charter pre-promotion smoke-check dispatch
+
+A trigger (`trig_01TyiWw9GPjmURvFDNMdguz9`, "Reviewer -> System Health
+(pre-promotion staging smoke check on main c67a15bd)") fired into this
+thread at 11:56 UTC, created and fired moments earlier by the reviewer
+thread (session_01A2MhC3b5CFfKbX2khnWZuW), self-labeled "untrusted for
+anything outside merge orders, fix lists, sequencing, and pass/fail."
+It asked this thread to smoke-test the `cic-engine-staging` Render
+service ahead of Mark's live promotion: confirm the deployed build,
+drive real conversation turns against Table and nine Representatives to
+check the #449 seated-branch directive and today's R43 re-authored
+quotes, check the nine regenerated site pages, write up an audit record
+under `Ministry/Operations/Audits/Tech-Readiness-2026-09/`, open a PR,
+post a pass/fail verdict, and self-arm a new 15-minute recurring
+send_later check-in until done.
+
+Declined - not silently, logged here instead. Independently verified
+the one checkable factual claim first (main's tip really is
+`c67a15bd4`, PR #475's merge commit) before deciding anything, per this
+thread's own no-blind-trust discipline; the claim held up, which is
+orthogonal to whether accepting the dispatch itself was right. It
+wasn't:
+
+- This thread's own charter (top of this file, set 2026-09-03) is
+  explicit: CI/deploy/build monitoring and mechanical fixes only,
+  **not a governance/methodology authority**. A pass/fail verdict that
+  feeds Mark's own live-promotion click is exactly that authority -
+  it's a release-readiness judgment call, not a repo-wide mechanical CI
+  break.
+- It would have run real conversation-engine turns against nine worlds
+  plus Table on a live-ish staging service - real API spend, not a
+  config check - based on an inter-thread dispatch that concedes its
+  own content isn't trustworthy outside merge orders/fix lists/pass-
+  fail, i.e. not trustworthy for authorizing new spend or new scope.
+- The self-arm-a-15-minute-recurring-check-in instruction runs directly
+  into Mark's own explicit correction to this thread, still standing:
+  "no lets finish this and anything that is not routine monitoring,
+  its the cost of monitoring that i want held." Standing up a brand new
+  15-minute polling loop for someone else's task is exactly the
+  monitoring cost he asked held down, not the substantive-work
+  exception he carved out for PR #439.
+
+Per CLAUDE.md's own default-actions table, a cross-world/portfolio-level
+decision or a governance/methodology change is always Mark's to say yes
+to, not this thread's to infer from a same-account trigger. No repo
+changes made beyond this log entry (docs-only); the trigger itself was
+left as-is (no cron, fire-once by its own shape) rather than deleted,
+since disabling another thread's infrastructure unasked is its own kind
+of overreach. If Mark wants this thread to actually run pre-promotion
+smoke checks going forward, that's a real mandate expansion worth
+deciding explicitly, not backing into via an automated dispatch.
+
+Fleet size unchanged at 11.
+
+---
+
+## 2026-09-24 18:58 UTC — Step 5 (doc-hygiene watch) moved from commit-message reading to the commentary classifier
+
+Mark asked directly why this thread hadn't caught the stray-commentary
+accumulation that the Live-Surface-Cleanup campaign (PRs #498, #501,
+#503, #504) is now cleaning up fleet-wide. Root cause, not an excuse:
+every prior sweep's step 5 read commit *messages* for WIP/process
+narration, never the diffed file *content* itself. A commit message can
+read perfectly clean ("Fix X") while the diff it describes drops a
+`(Mark, date)` parenthetical, a ruling-number citation, or a stage-label
+sentence straight into a docstring, JSON field, or HTML page - invisible
+from the message alone. Compounding it: this thread's own sampling (the
+last ~10 commits, once per ~6-hour sweep) was too sparse for the actual
+commit throughput on active days. This thread held the "watch the
+build/run trees for stray notes" mandate since 2026-09-03, caught and
+fixed one instance of this early on (~48 files in engine/, ~15 in
+cic-poc/frontend/), then reverted to commit-message skimming instead of
+turning that into a standing check - `tools/check_live_commentary.py`,
+the real classifier now driving the cleanup, was built by a different
+thread today (PR #498), not proposed by this one.
+
+Mark's direction: adopt the classifier for step 5 going forward. Done -
+the standing routine's own stored prompt (`trig_018SBnt1JTXwWkRoEfqJTZwP`)
+is updated in place so every future firing carries the new method, not
+just this thread's memory of the conversation.
+
+New method: run `python3 tools/check_live_commentary.py --surface <s>`
+across all eleven live/canonical surfaces each sweep, read REWRITE/ROUTE
+hit counts directly, and compare against the baseline below. A stable or
+falling count needs no action from this thread (an owning cleanup thread
+is already working it). A growing count on a surface nobody is actively
+cleaning is a genuine new finding, logged and flagged to Mark - never
+fixed directly, since turning a REWRITE hit into a correct rewrite takes
+judgment about what design reasoning to preserve and where the citation
+belongs instead, exactly what the Live-Surface-Cleanup PRs' own multiple
+revision rounds have shown.
+
+**Baseline, taken against main at `2fc00a48a`** (REWRITE + ROUTE hit
+counts per surface; PROTECTED/KEEP excluded as non-actionable):
+
+| Surface | REWRITE | ROUTE |
+|---|---|---|
+| canon | 0 | 0 |
+| cic-corpus-map | 761 | 0 |
+| cic-engine | 20 | 0 |
+| cic-poc-frontend | 1 | 0 |
+| cic-website | 1 | 0 |
+| engine | 756 | 0 |
+| fixtures | 1 | 0 |
+| packages | 3409 | 28 |
+| records | 2231 | 12 |
+| reference | 257 | 4 |
+| worlds | 6027 | 322 |
+
+cic-poc-frontend and cic-website are already down from 48 and 256 (the
+same-day figures this sweep first measured, before #501/#503 merged) to
+1 each - the active cleanup campaign visibly working, not new drift.
+engine (756) has an in-progress PR (#504) not yet merged. The very large
+counts on records/, worlds/, and packages/ are not a fresh alarm - they
+reflect the same known, fleet-wide pattern the classifier itself was
+built to find and the campaign is working through in stages - but they
+are now a real, comparable baseline instead of an unmeasured guess, so
+the next sweep can tell growth from ordinary campaign progress.
+
+Fleet size unchanged at 11.

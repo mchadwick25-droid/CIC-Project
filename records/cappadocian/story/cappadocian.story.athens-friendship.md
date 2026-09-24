@@ -3,7 +3,7 @@ id: cappadocian.story.athens-friendship
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - "participant asks about friendship, or this world's ideal of shared pursuit of God"
   - "participant asks what a classical education looked like for two future bishops"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants the friendship's later strain or wound (retrieve cappadocian.story.sasima-wound instead)"
 relations:
 - type: associated-with

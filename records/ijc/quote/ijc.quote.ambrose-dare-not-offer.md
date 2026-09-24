@@ -3,7 +3,7 @@ id: ijc.quote.ambrose-dare-not-offer
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -36,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a ruler could be refused communion"
   - "participant asks how a bishop disciplined someone more powerful than himself"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.emperor-penance}
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}

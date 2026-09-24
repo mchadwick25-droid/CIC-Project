@@ -3,7 +3,7 @@ id: gallic.term.pelagians-as-foil
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -44,7 +44,7 @@ retrieval:
   - why Vincent calls anyone frogs
   - participant uses "Pelagian," "Pelagianism," "semi-Pelagian," "free will alone"
   - Comm. ch. 24; Conf. XIII.16; Gennadius on Sulpitius's old age; Augustine's concession that the brethren are distinct from the Pelagians
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the "semi-Pelagian" label or the Marseilles party itself (retrieve Massilians)
   - the grace doctrine as such (retrieve grace (of God))
   - Pelagius's own writings - not in this world's Registry

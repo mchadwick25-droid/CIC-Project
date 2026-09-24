@@ -3,7 +3,7 @@ id: hal.term.propositum
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -25,7 +25,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - what a vowed ascetic resolve or way of life was called in this period
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting this as a term directly quoted from Jerome about these specific four women
 relations: []
 plain_meaning: The vow behind a chosen ascetic life - real period wording, not quoted for these four

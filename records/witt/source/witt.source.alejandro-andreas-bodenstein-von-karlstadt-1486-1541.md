@@ -3,7 +3,7 @@ id: witt.source.alejandro-andreas-bodenstein-von-karlstadt-1486-1541
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -27,4 +27,4 @@ discovery_channel: WebSearch (listing only; page blocked); Source Registry row 9
 external_ids:
   witt_source_registry_row: 91
 ---
-Karlstadt's post-1522 chronology (Doc_02 §15 item 10) — the one of the three that is a specialist's essay rather than an encyclopedia entry; to be preferred over R89–R90 once read. (Source Registry row 91; Confidence B.)
+Karlstadt's post-1522 chronology (Doc_02 §15 item 10) — the one of the three that is a specialist's essay rather than an encyclopedia entry; to be preferred once read. (Source Registry row 91; Confidence B.)

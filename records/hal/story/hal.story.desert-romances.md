@@ -3,7 +3,7 @@ id: hal.story.desert-romances
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -24,7 +24,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - the hero-tales this world told about the ascetic life
-  do_not_retrieve_when:
+  prefer_instead:
   - never as history about the named individuals
 relations:
 - type: illustrates

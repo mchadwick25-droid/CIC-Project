@@ -3,7 +3,7 @@ id: witt.term.we-are-all-priests
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - '''we are all priests,'' or the priesthood of all believers'
   - who may preach or administer the sacraments publicly
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the office's own definition apart from this claim (retrieve office)
 relations:
 - type: associated-with
@@ -89,6 +89,6 @@ senses:
 quick_meaning: Baptism makes every believer a priest. Public preaching still needs a proper call.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 6.2 ('we are all priests', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none, weighted to Luther for the formula. Source Registry rows cited: R11, R12, R30, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 6.2 ('we are all priests', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none, weighted to Luther for the formula. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

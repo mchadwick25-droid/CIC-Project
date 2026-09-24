@@ -3,7 +3,7 @@ id: rzg.witness.what-a-stranger-would-notice
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - participant asks what an outsider would find strangest about this world's own worship, or what neighbours
     said about it
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation

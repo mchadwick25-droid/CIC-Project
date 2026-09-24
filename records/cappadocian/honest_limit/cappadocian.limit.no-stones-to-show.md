@@ -3,7 +3,7 @@ id: cappadocian.limit.no-stones-to-show
 world_id: cappadocian-trinitarian
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E

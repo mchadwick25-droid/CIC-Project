@@ -3,7 +3,7 @@ id: desert.dw.the-heart-and-the-spirit
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-I, F1-P]
 confidence:
@@ -24,7 +24,6 @@ retrieval:
   - "participant asks what this world meant by the heart"
   - "participant says they feel unchanged after conversion, or still divided"
   - "participant asks whether God can be felt, or whether faith should feel like anything"
-  do_not_retrieve_when: []
 text: >-
   There was another voice among us, and we will not flatten it into the first.
   Our most systematic teacher had the mind clear itself until it saw its own

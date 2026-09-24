@@ -3,7 +3,7 @@ id: alx.quote.clement-instructor
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -19,6 +19,9 @@ sources:
   locus: I.2 (anf02 line 18785)
   license: public-domain
 text: Our Instructor, the Word, therefore cures the unnatural passions of the soul by means of exhortations.
+modern_rendering: >-
+  Our Instructor, the Word, therefore heals the soul's unnatural passions
+  by means of appeals.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -31,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a person was formed or changed by this way of life"
   - "participant asks what they did about anger, appetite, and unruly feeling"
-  do_not_retrieve_when: []
 ---
 The Paedagogus's picture of Christ as the soul's physician-teacher.
 Serves F4-I (how formation worked) and F4-P ('I can't quiet my own

@@ -3,7 +3,7 @@ id: desert.quote.taor-not-compelled-to-market
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -28,6 +28,8 @@ sources:
   license: public-domain
 text: >-
   I do not require [them], for I am not compelled to go down into the market.
+modern_rendering: >-
+  I do not need them, because I am not required to go down to the market.
 speaker_or_author: the virgin Taor of Antinoe, as Palladius reports her
 license: verbatim
 modern_lens_note: >-
@@ -44,7 +46,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they wore and whether clothing mattered"
   - "participant asks whether they went out, into town or to market, and how often"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

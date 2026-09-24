@@ -3,7 +3,7 @@ id: rzg.term.consistory
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -23,7 +23,7 @@ retrieval:
   retrieve_when:
   - participant asks about Geneva's own church discipline
   - participant uses "Consistory" or "lay elders"
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about Zurich's own church government, which ran through the city council directly
 relations:
 - type: associated-with

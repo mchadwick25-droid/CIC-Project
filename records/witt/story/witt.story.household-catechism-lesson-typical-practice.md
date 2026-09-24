@@ -3,7 +3,7 @@ id: witt.story.household-catechism-lesson-typical-practice
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -16,7 +16,7 @@ confidence:
     reconstruction of what the household catechism's own prescribed program required, built only from
     elements this record can cite directly to the Small Catechism, the Large Catechism, or Table Talk.
     Every concrete detail below traces to one of those three sources; none is invented or extrapolated
-    beyond what they state (Doc_09 witt-S11; Source Registry R25, R26, R31).
+    beyond what they state.
 sources:
 - source_id: witt.source.luther-small-catechism
   locus: '"The Simple Way a Father Should Present Them to His Household" (the Ten Commandments'' own heading);
@@ -38,7 +38,7 @@ retrieval:
   retrieve_when:
   - a participant asks what a household's ordinary catechism practice looked like
   - a participant asks how children and servants were actually taught the catechism, week to week
-  do_not_retrieve_when:
+  prefer_instead:
   - naming any individual as this scene's subject, or presenting any single detail without a traceable
     source - every concrete element here must point to the Small Catechism, the Large Catechism, or Table
     Talk

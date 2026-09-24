@@ -3,7 +3,7 @@ id: pahc.term.eucharistia
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - the Lord's Supper, communion, the eucharist, what happens at the table
   - the meal that forms the community
-  do_not_retrieve_when:
+  prefer_instead:
   - modern eucharistic theology debates with no connection to this period
 relations:
 - type: associated-with

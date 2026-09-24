@@ -3,7 +3,7 @@ id: alx.dw.church-failure
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Your churches had failures too - what did you do with them? Our
   record leaves the wounds visible. Our greatest teacher was driven out, not

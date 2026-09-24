@@ -3,7 +3,7 @@ id: alx.quote.gregory-spark
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -23,13 +23,18 @@ retrieval:
   retrieve_when:
   - "participant asks what it felt like to come under a teacher's influence"
   - "participant asks how someone was drawn in, and what the pull was"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.story.gregory-formation
 text: And thus, like some spark lighting upon our inmost soul, love was kindled and burst into flame within
   us,—a love at once to the Holy Word, the most lovely object of all, who attracts all irresistibly toward
   Himself by His unutterable beauty, and to this man, His friend and advocate.
+modern_rendering: >-
+  And so, like a spark falling on our innermost soul, love was kindled and
+  burst into flame within us. It was love at once for the Holy Word, the
+  most lovely object of all, who draws everyone irresistibly toward
+  himself by his unutterable beauty. And it was love for this man, his
+  friend and advocate.
 speaker_or_author: alx.figure.gregory-thaumaturgus
 license: verbatim
 modern_lens_note: >

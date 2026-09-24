@@ -3,7 +3,7 @@ id: pahc.term.agape-label
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - the love-feast, agape, common meals
   - the relationship between the meal and the eucharist
-  do_not_retrieve_when:
+  prefer_instead:
   - the word agape as love in general, with no connection to a communal meal
 relations:
 - type: associated-with

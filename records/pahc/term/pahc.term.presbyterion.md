@@ -3,7 +3,7 @@ id: pahc.term.presbyterion
 world_id: post-apostolic-house-church
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -21,7 +21,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - the council of elders, the presbytery, how presbyters function around a bishop
-  do_not_retrieve_when:
+  prefer_instead:
   - a modern presbytery or denominational structure
 relations:
 - type: presupposes

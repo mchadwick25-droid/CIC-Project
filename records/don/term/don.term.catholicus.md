@@ -3,7 +3,7 @@ id: don.term.catholicus
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -34,7 +34,7 @@ retrieval:
   retrieve_when:
   - a participant asks who the 'Catholics' were in this dispute, or whether that word settles anything
   - a participant asks how the word 'catholic' was used or contested here
-  do_not_retrieve_when:
+  prefer_instead:
   - '''Catholic'' is being used for the later Roman Catholic Church as a modern institution'
 relations:
 - type: associated-with

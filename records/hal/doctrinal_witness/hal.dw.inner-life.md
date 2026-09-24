@@ -3,7 +3,7 @@ id: hal.dw.inner-life
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   To someone who cannot quiet their own head, we would not offer calm.
   What we would offer is company and a method. Our founding scholar said his own

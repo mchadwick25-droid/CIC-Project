@@ -3,7 +3,7 @@ id: cappadocian.dw.confession-not-a-vote
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -32,7 +32,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a council basically voted Jesus into being God"
   - "participant asks who had the authority to decide a disputed belief, and how that actually worked"
-  do_not_retrieve_when: []
 text: >-
   No - and we would push back hard on the word "voted." The council did not
   invent what we already confessed. We were signed into the Name, Father,

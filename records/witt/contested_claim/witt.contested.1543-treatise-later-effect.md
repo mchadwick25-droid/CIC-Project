@@ -3,7 +3,7 @@ id: witt.contested.1543-treatise-later-effect
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Contested
   divergence_note: >-
     Contested at the scholarly level, and doubly so at this build's own remove: neither pole is read from
-    its own primary monograph, only from a tertiary intermediary (the Wikipedia article, R83) and, for
+    its own primary monograph, only from a tertiary intermediary (the Wikipedia article) and, for
     Kaufmann, from published reviews of the 2017 study rather than the study itself. That two-hop distance
     is disclosed on both source records this claim rests on and is not smoothed over here.
 sources:
@@ -51,7 +51,7 @@ held_against:
 - >-
   Neither side of this contest has been read by this build from its own primary text. Kaufmann's 2017
   monograph and Wallmann's 1987 article both reach this library only through a tertiary intermediary (the
-  Wikipedia article, R83) and, for Kaufmann, through published reviews of the study rather than the study
+  Wikipedia article) and, for Kaufmann, through published reviews of the study rather than the study
   itself (Doc_02 SS12.3). "Contested" here means, precisely: two named scholarly positions exist and
   disagree, at a remove this build has not closed by reading either one directly - not that this build has
   weighed their evidence and found them evenly matched.
@@ -75,31 +75,3 @@ concedes: >-
   so the contest is written down rather than left as a silence a Representative-voice answer could
   otherwise fill by default.
 ---
-Authored per the go-live adversarial review's M-3 finding (2026-09-20): `witt_Doc_02_Source_Ecology.md`
-SS12.3 tags the 1543 treatise's later historical effect `[Contested]` and names the dispute specifically
-(Kaufmann continuity vs. Wallmann largely-ignored), but no `contested_claim` record existed for it - the
-three lower-stakes contests already built (household-catechism-reception, justification-accounted-and-made,
-theses-door-posting) left this, the highest-stakes one, as a silence. CLAUDE.md: "Contested or uncertain
-claims get tagged with the project's five-level confidence vocabulary... with a `contested_claim` record
-where warranted. Never present a disputed claim as settled."
-
-Not compiled into any package (gravity/force/contested_claim/search_record/source are not compiled types,
-per engine/m1/gates.py's own comment) - this is scholarly apparatus, not participant-facing content, and
-closing this gap changes nothing about what a Representative can say. Its purpose is the one CLAUDE.md
-states: so this world's own record shows the contest was seen and written down, not settled by silence, if
-B-1 and B-2 are ever both resolved such that this topic reaches a participant.
-
-Sourcing built entirely from three source records already authored and verified at their own authoring
-passes (`witt.source.thomas-luthers-jews-a-journey-into-anti`, row 75; `witt.source.johannes-reception-of-
-luthers-writings`, row 92; `witt.source.wikipedia-on-the-jews-and-their-lies`, row 83) - not independently
-re-opened against any primary text by this record, since neither Kaufmann's nor Wallmann's own monograph
-is vendored or has been read by any pass of this build. The two-hop remove (primary text -> tertiary
-Wikipedia summary -> this record) is stated on the record's own face (`divergence_note`, `held_against`
-item 2) rather than smoothed into an ordinary `Contested` tag that would read as though both positions had
-been weighed directly.
-
-`relations` links to `witt.force.absent-inputs-1525-and-1555` - the one existing witt record that already
-engages the 1543 treatise as its own subject at any depth - rather than to a gravity or term record, since
-no gravity or term record in this world is about the treatise itself. Reciprocal `associated-with` declared
-on that force record's own frontmatter in the same edit, per this world's own `gate_reciprocity`
-discipline.

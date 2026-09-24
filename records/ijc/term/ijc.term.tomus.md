@@ -3,7 +3,7 @@ id: ijc.term.tomus
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - Leo's Tome specifically
   - how a see could settle a doctrinal question by letter rather than council
-  do_not_retrieve_when:
+  prefer_instead:
   - the question concerns conciliar process generally (concilium instead)
 relations:
 - type: associated-with

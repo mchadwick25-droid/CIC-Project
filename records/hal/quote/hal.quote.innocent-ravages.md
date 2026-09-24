@@ -3,7 +3,7 @@ id: hal.quote.innocent-ravages
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-P
@@ -22,10 +22,11 @@ text: 'The holy virgins Eustochium and Paula have deplored to me the ravages, mu
   district belonging to their church; for with wonderful clemency and generosity they
   have left untold the name and motive of his human agent.'
 modern_rendering: >-
-  Eustochium and Paula, two holy women, told me what happened. In their
-  church's district, they said, the devil brought destruction: murders,
-  fires, and every kind of outrage. But they showed wonderful mercy. They
-  never named who did it, or why.
+  The holy virgins Eustochium and Paula have deplored to me the ravages,
+  murders, fires, and outrages of all kinds. They say the devil has
+  perpetrated these in their church's district. But with wonderful
+  clemency and generosity, they have left untold the name and motive of
+  his human agent.
 speaker_or_author: 'Pope Innocent I, Letter 137 (to John of Jerusalem)'
 license: verbatim
 modern_lens_note: '"Outrages" in this register names violent physical injuries, not the modern primary sense of indignation or scandal. "The devil... his human agent" reflects the era''s genuine attribution of the violence to demonic agency working through an unnamed person, not rhetorical hyperbole.'
@@ -34,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they were ever attacked, and who intervened"
   - "participant asks what happened to the women of the household in a raid"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 137, div
 v.CXXXVII; 'Paula' here is the younger Paula, Eustochium's niece, per the

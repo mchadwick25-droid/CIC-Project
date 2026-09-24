@@ -3,7 +3,7 @@ id: desert.term.puritas-cordis
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I]
 confidence:
@@ -23,7 +23,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - questions about what all the discipline was FOR, in Cassian's telling
-  do_not_retrieve_when:
+  prefer_instead:
   - do not present as the desert's own Greek vocabulary - this is Cassian's Latin, at the world's edge
 relations:
 - type: associated-with

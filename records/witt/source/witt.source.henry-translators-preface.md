@@ -3,7 +3,7 @@ id: witt.source.henry-translators-preface
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -24,4 +24,4 @@ discovery_channel: builder-direct-read; Source Registry row 68; Cole file; 2026-
 external_ids:
   witt_source_registry_row: 68
 ---
-Translation principle and basis of Bondage; transmission history (Toplady/Calvinistic-Anglican interest); the woodcut-tracts advertisement (R86). (Source Registry row 68; Confidence A.)
+Translation principle and basis of Bondage; transmission history (Toplady/Calvinistic-Anglican interest); the woodcut-tracts advertisement.

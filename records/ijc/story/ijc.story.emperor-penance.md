@@ -3,7 +3,7 @@ id: ijc.story.emperor-penance
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -31,7 +31,6 @@ retrieval:
   - Thessalonica, or Ambrose and Theodosius
   - how the church answered state violence
   - penance, forgiveness, or whether power was ever held to account
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrated-by, target: ijc.quote.ambrose-dare-not-offer}

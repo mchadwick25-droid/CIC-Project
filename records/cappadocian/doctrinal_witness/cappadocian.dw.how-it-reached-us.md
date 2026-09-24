@@ -3,7 +3,7 @@ id: cappadocian.dw.how-it-reached-us
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what this world actually had about Jesus, and how it reached them"
   - "participant asks whether anyone in this world knew a chain of witnesses back to Jesus himself"
-  do_not_retrieve_when: []
 text: >-
   We did not know Jesus, and we did not know anyone who did. By the time our
   own story opens, three centuries had already passed. What reached us was

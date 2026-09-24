@@ -3,7 +3,7 @@ id: desert.quote.the-nous-beholds-its-own-radiance
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -18,6 +18,9 @@ sources:
   address: "cic:evagrius_praktikos_dysinger.txt:64"
   license: cc-by-4.0
 text: "The proof of apatheia is that the nous begins to behold its [own] proper gentle radiance; that it remains tranquil in the presence of visions during sleep; and that it looks at matters calmly."
+modern_rendering: >-
+  The proof of apatheia is this: the nous begins to see its own gentle radiance. It
+  stays calm in the presence of visions during sleep. And it looks at events calmly.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "A test, not a promise. Evagrius gives three checkable signs - the mind's own light, calm in dreams, calm before events - because the state is easy to claim and hard to have. Dreams as diagnostic of the waking soul is his own idea and recurs at ch. 56."
@@ -27,7 +30,6 @@ retrieval:
   - "participant asks how anyone could tell whether the discipline was working"
   - "participant asks how you knew you were making progress, or getting anywhere"
   - "participant asks what apatheia felt like or how it was recognised"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apatheia

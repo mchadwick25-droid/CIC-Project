@@ -3,7 +3,7 @@ id: desert.quote.the-heart-is-a-deep-gulf
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P, F1-P]
 confidence:
@@ -16,13 +16,14 @@ sources:
 - source_id: desert.source.macarian-homilies
   locus: "Homily XVII, in Mason's English"
   license: public-domain
-text: "Mere abstention from evil things is not perfection - only if thou hast entered into thy ruined mind, and hast slain the serpent that lies under the mind beneath the surface of the thoughts, and burrows into what we call the secret chambers and storehouses of the soul and murders thee - for the heart is a deep gulf."
+text: "Mere abstention from evil things is not perfection— only if thou hast entered into thy ruined mind, and hast slain the serpent that lies under the mind beneath the surface of the thoughts, and burrows into what we call the secret chambers and storehouses of the soul and murders thee — for the heart is a deep gulf — only, I say, if thou hast killed him, and cast out all the uncleanness that was in thee."
 modern_rendering: >-
   Just keeping away from evil things is not perfection. Real change means
   entering your own broken mind and killing the snake that lives beneath the
   surface of your thoughts. It burrows into what we call the soul's hidden
   rooms and storehouses, and it murders you from there. For the heart is a
-  deep gulf.
+  deep gulf. Only, I say, once you have killed it, and cast out all the
+  uncleanness that was in you.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "'Heart' here is not feeling as against thinking. It is the whole interior person including the part below what one can inspect - which is why the serpent is under the mind rather than in it. The vendored file had 'cast- out' as a scan artifact a few words later; repaired in the file, recorded in its header, and outside the text quoted here."
@@ -32,7 +33,6 @@ retrieval:
   - "participant asks what this world meant by the heart"
   - "participant says they behave well but feel unchanged inside"
   - "participant asks whether keeping the rules was enough"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.the-heart-and-the-spirit
@@ -46,5 +46,11 @@ directly against the Evagrian picture where the logismoi are observable arrivals
 watching does not reach.
 
 MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+
+Quote-verbatim gate fix (2026-09-22): fixed the dash spacing to match the source's own unspaced em
+dashes ("perfection— only", "murders thee — for"). Also restored the sentence's own close - the record's
+period after "deep gulf" was invented; the source's own suspended conditional resolves with "— only, I
+say, if thou hast killed him, and cast out all the uncleanness that was in thee," which is the same
+condition already stated, restated and closed, not a new claim. modern_rendering extended to match.
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.

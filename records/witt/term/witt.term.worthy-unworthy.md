@@ -3,7 +3,7 @@ id: witt.term.worthy-unworthy
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -32,7 +32,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - worthiness, or examination before the Sacrament
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the household's own weekly examination generally, apart from the Sacrament (retrieve
     household)
 relations:
@@ -80,6 +80,6 @@ senses:
 quick_meaning: Worthiness means believing the words 'given for you,' not being sinless.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 5.11 (worthy / unworthy, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Source Registry rows cited: R25, R26, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.11 (worthy / unworthy, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

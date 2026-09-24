@@ -3,7 +3,7 @@ id: hal.story.journey-to-bethlehem
 world_id: hieronymian-ascetic-literary
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - the founding journey and why Bethlehem
   - the holy places and what they meant
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: hal.gravity.ascetic-renunciation

@@ -3,7 +3,7 @@ id: gallic.term.free-will
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -50,7 +50,7 @@ retrieval:
   - whether monks "earned" anything, or what "free will" meant to us
   - participant uses "free will," "choice," "effort," "works," or "human nature"
   - Germanus's question, the "seeds of goodness," or Pelagius
-  do_not_retrieve_when:
+  prefer_instead:
   - grace as such (retrieve grace - the two records are a pair, and this one presupposes that one)
   - predestination as Augustine's word (retrieve predestination)
   - modern philosophical free will (determinism, compatibilism), which is not our question

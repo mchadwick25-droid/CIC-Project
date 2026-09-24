@@ -3,7 +3,7 @@ id: pahc.witness.prayer-and-struggle
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -25,7 +25,6 @@ retrieval:
   retrieve_when:
   - "participant says prayer feels like silence"
   - "participant asks how to forgive someone who isn't sorry"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.put-away-doubting-from-you

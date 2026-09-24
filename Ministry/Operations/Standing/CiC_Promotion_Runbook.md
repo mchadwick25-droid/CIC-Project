@@ -1,5 +1,13 @@
 # Promotion Runbook — `main` → `live`
 
+**Reviewed 2026-09-21 (Tech-Readiness Package 2, Operations):** checked
+against today's `render.yaml` and `README.md` — still current, no drift
+found. The one-time setup section below (GitHub branch protection, Blueprint
+sync, staging secrets) could not be re-verified as *done* from this sandbox
+(Render/GitHub dashboard state isn't readable here, same egress restriction
+this file already names); it is left exactly as this runbook already stated
+it rather than asserted complete without evidence.
+
 D3's promotion model (`CiC_Repo_Structure_Tracking.md`, Decisions 2026-09-14; executed
 phase 3, 2026-09-15): `main` is the integration sandbox — every merge deploys to
 `cic-engine-staging`. `live` is the protected branch production actually deploys from.

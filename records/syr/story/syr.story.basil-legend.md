@@ -3,7 +3,7 @@ id: syr.story.basil-legend
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -24,7 +24,7 @@ retrieval:
   retrieve_when:
   - a participant directly raises the Basil-Ephrem meeting or asks how Ephrem became a deacon via this
     story
-  do_not_retrieve_when:
+  prefer_instead:
   - general questions about Ephrem's life or diaconate (the attested record answers those)
   - offering this story unprompted
 relations:

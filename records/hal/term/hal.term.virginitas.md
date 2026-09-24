@@ -3,7 +3,7 @@ id: hal.term.virginitas
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - marriage, celibacy, and what this world held highest for women
   - Eustochium's vocation
-  do_not_retrieve_when: []
 plain_meaning: Lifelong consecrated virginity. We held it as the highest form of Christian
   life open to a woman.
 world_word: virginitas

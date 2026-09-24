@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-against-eunomius-ant
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -53,7 +53,6 @@ retrieval:
   retrieve_when:
   - "participant asks why this world thought claiming to fully understand God was itself the deeper problem, worse than doubt"
   - "participant asks what Basil actually said against the rival teacher who claimed to grasp God's own essence"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.want-to-believe

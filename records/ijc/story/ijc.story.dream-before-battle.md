@@ -3,7 +3,7 @@ id: ijc.story.dream-before-battle
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - Lactantius's version of Constantine's conversion
   - the two conversion accounts' divergence
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants the fuller Eusebian narrative (the vision story instead)
 relations:
 - {type: illustrated-by, target: ijc.quote.lactantius-dream}

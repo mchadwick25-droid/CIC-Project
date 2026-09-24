@@ -3,7 +3,7 @@ id: hal.quote.rome-resounded
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -21,6 +21,10 @@ text: 'Before I became acquainted with the family of the saintly Paula, all Rome
   resounded with my praises. Almost every one concurred in judging me worthy of the
   episcopate. Damasus, of blessed memory, spoke no words but mine. Men called me holy,
   humble, eloquent.'
+modern_rendering: >-
+  Before I became acquainted with the family of the saintly Paula, all Rome echoed with
+  my praises. Almost everyone agreed I was worthy of the episcopate. Damasus, of blessed
+  memory, spoke no words but mine. Men called me holy, humble, and eloquent.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The episcopate" names the office of bishop.'
@@ -29,7 +33,6 @@ retrieval:
   retrieve_when:
   - "participant asks why they left the city and what happened to their reputation"
   - "participant asks whether they were ever popular, and what changed"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 45 sec. 3,
 div v.XLV; the file's editorial footnote on the Latin elided). Written on

@@ -3,7 +3,7 @@ id: gallic.term.monk-solitary
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -49,7 +49,7 @@ retrieval:
   - whether a soldier could be a monk
   - the three kinds of monks (coenobite, anchorite, Sarabaite)
   - participant assumes a monk is by definition cloistered or withdrawn from public life
-  do_not_retrieve_when:
+  prefer_instead:
   - specifically why monks became bishops or what the office did to them (retrieve the monk-bishop)
   - specifically the act of entry (retrieve renunciation) or the building and its kinds (retrieve monastery / coenobium)
   - Benedictine or later medieval monasticism, which lies outside our window

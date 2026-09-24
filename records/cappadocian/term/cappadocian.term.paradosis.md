@@ -3,7 +3,7 @@ id: cappadocian.term.paradosis
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -28,7 +28,6 @@ retrieval:
   - tradition versus the Bible
   - why unwritten customs would carry doctrinal weight
   - where this world's practices (facing east, standing to pray) came from
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.baptisma-photisma

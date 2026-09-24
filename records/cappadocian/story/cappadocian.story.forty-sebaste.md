@@ -3,7 +3,7 @@ id: cappadocian.story.forty-sebaste
 world_id: cappadocian-trinitarian
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -24,7 +24,6 @@ retrieval:
   retrieve_when:
   - "participant asks for a martyr story, or about how this world remembered the recent persecutions"
   - "participant asks about relics, feasts, or the family's own connection to a cult"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.figure.forty-of-sebaste

@@ -3,7 +3,7 @@ id: ijc.quote.ambrose-emperor-in-church
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -22,6 +22,10 @@ text: For what is more full of respect than that the Emperor should be called th
   As it is said, it is said without sin, since it is said with the divine favour. For the Emperor is
   within the Church, not above it. For a good emperor seeks the aid of the Church and does not refuse
   it.
+modern_rendering: >-
+  What shows more respect than calling the Emperor a son of the Church? When this is said,
+  it is said without sin, since it is said with God's favor. The Emperor is within the
+  Church, not above it. A good emperor seeks the Church's help and does not refuse it.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
@@ -30,7 +34,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the emperor was inside the church or above it"
   - "participant asks what a bishop said to an emperor's face"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.story.vigil-in-basilica}

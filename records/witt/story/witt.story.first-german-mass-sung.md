@@ -3,7 +3,7 @@ id: witt.story.first-german-mass-sung
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -15,7 +15,7 @@ confidence:
     Walter "in his old age," reaching this library through three transmitting hands (Walter, then Praetorius,
     then Rambach in 1813, then Bacon in 1883), laudatory in tone toward Luther throughout. This is Tier
     2''s own definition exactly - collected community memory, authentic as tradition even where wording
-    cannot be independently verified (Doc_09 witt-S07; Source Registry R45).'
+    cannot be independently verified.'
 sources:
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
   locus: Walter's own letter, as quoted in Bacon's Introduction - "he kept me three weeks long at Wittenberg...
@@ -28,7 +28,7 @@ retrieval:
   retrieve_when:
   - a participant asks how the German Mass, or congregational hymn-singing, began
   - a participant asks whether anyone besides Luther himself left an account of worship in this world
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting Walter's words as his own unmediated eyewitness account - the three-hand transmission (Walter
     to Praetorius to Rambach to Bacon) must be named
   - a participant wants a full order of service - no vendored service order survives in this library
@@ -87,7 +87,7 @@ modern_contrast: A modern reader might expect the story of a new form of worship
 ---
 Converted at B-4 from Doc_09 witt-S07 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_hymns_bacon-allen.txt, lines 743-795
-(Walter's letter as quoted in Bacon's Introduction). Source Registry R45 (Native; Primary as embedded,
+(Walter's letter as quoted in Bacon's Introduction). Source Registry (Native; Primary as embedded,
 Secondary for the letter itself, not independently opened).
 
 Register note: close-third-person throughout; Walter's own remembered words are always attributed as

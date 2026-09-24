@@ -3,7 +3,7 @@ id: cappadocian.dw.unwritten-carries-too
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -27,7 +27,6 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks whether this world believed the Bible was the only authority"
-  do_not_retrieve_when: []
 text: >-
   No - and one of our own bishops built an entire book around explaining
   why not, when he was accused of praying wrongly. He had changed one small

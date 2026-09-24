@@ -3,7 +3,7 @@ id: witt.quote.congregation-of-saints
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - "participant asks whether our church is 'Catholic,' or whether it is a different church from Rome's"
   - "participant asks what actually makes a church one church, in our own definition"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks about the Reformed break specifically, or about Marburg -- retrieve the Reformed-rival material instead; this record states our own definition, not our boundary with Zurich or Geneva"
 text: >-
   Also they teach that one holy Church is to continue forever. The Church
@@ -82,8 +82,3 @@ answer different canon questions: this one defines what a church IS, in our own 
 states that OUR OWN teaching does not depart from that universal Church or from Scripture. Reciprocal
 associated-with declared on witt.dw.one-holy-church-forever.
 
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("the 1530 Diet of Augsburg") -- caught by
-engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this field as one both the
-Level-3 citation card and the compiled prompt's quote index print verbatim to a participant. Substance
-unchanged, only the internal record-id reference removed.

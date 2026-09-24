@@ -3,7 +3,7 @@ id: witt.force.papal-force-initiating
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: force
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -46,8 +46,8 @@ kind: initiating
 matrix_cell: 1A
 description: 'LAYER 1 (Historical Event). Indulgence sales, protested in the letter to Albrecht of Mainz
   with the Theses as its enclosure, subscribed ''From Wittenberg on the Vigil of All Saints, MDXVII''
-  (Documented as to the letter; the posting of the Theses itself is Contested since Iserloh 1961, against
-  the editors'' own ''mid-day'' narrative). The response: Alveld''s and Emser''s tracts, answered in 1520-21;
+  (the letter itself is well attested; whether the Theses were actually posted has been disputed since
+  Iserloh''s 1961 challenge to the editors'' own ''mid-day'' story). The response: Alveld''s and Emser''s tracts, answered in 1520-21;
   the bull EXSURGE DOMINE (15 June 1520) with its forty-one condemned articles, answered article by article
   -- all reaching the library only as quoted by the side that answered them, structurally one-sided and
   disclosed as such. Print carried the exchange: The Papacy at Rome in twelve editions. LAYER 2 (World''s

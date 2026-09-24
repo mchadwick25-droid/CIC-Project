@@ -3,7 +3,7 @@ id: alx.term.allegoria
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - how they read Scripture
   - Genesis/science and difficult-passage questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.quote.no-sun-no-moon-no-sky

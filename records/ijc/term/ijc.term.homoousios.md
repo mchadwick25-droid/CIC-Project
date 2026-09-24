@@ -3,7 +3,7 @@ id: ijc.term.homoousios
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - the Nicene Creed's central claim
   - Leo's Tome or the councils' doctrinal content directly
-  do_not_retrieve_when:
+  prefer_instead:
   - the conversation is really about the Homoian establishment (homoios instead)
 relations:
 - {type: associated-with, target: ijc.term.homoios}

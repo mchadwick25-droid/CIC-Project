@@ -3,7 +3,7 @@ id: alx.quote.to-believe-or-disbelieve
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Now that is in our power, of which equally with its opposite we are masters,—as, say to philosophize or not, to believe or disbelieve. In consequence, then, of our being equally masters of each of the opposites, what depends on us is found possible.
+modern_rendering: >-
+  Now, that is in our power of which we are equally masters, along with
+  its opposite. For example, to philosophize or not, to believe or to
+  disbelieve. Since we are equally masters of each of these opposites,
+  what depends on us is found to be possible.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   - "participant asks whether there was room for doubt among these people"
   - "participant was told doubt was sin and asks whether that held here"
   - "participant asks whether belief was thought to be a choice"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.autexousia

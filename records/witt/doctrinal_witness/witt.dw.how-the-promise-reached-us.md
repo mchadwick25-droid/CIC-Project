@@ -3,7 +3,7 @@ id: witt.dw.how-the-promise-reached-us
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -33,7 +33,7 @@ retrieval:
   - "participant asks what we actually had about Jesus, or how it reached us"
   - "participant asks whether anyone among us had known someone who saw him"
   - "participant asks how we know the resurrection really happened"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a historical-critical or eyewitness-chain argument for the resurrection -- our library holds a confession, not that kind of case"
 text: >-
   What did we have of Jesus? The Word -- his own speech, the good news

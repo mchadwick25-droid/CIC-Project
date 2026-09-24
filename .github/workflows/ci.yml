@@ -7,10 +7,62 @@ name: CI
 # would have been caught by neither check on its own - that gap is real and
 # is Wave 3's Playwright-in-CI item (P1-8), not this workflow's job.
 
+# Job-count/draft-PR consolidation, 2026-09-23. Origin: real GitHub Actions
+# billing overage ($75 over the plan this cycle by 14:00Z), diagnosed via
+# the runs API against a real full run (main 9da9bec5): actual runner time
+# per full run is ~14 minutes, but ~20 minutes are BILLED, because GitHub
+# rounds every individual job up to a whole minute and this file split the
+# engine suite into 11 separate ~20-70-second jobs - each one pays a full
+# minute's overhead (checkout, python setup, pip install) it didn't need.
+# The 2026-09-10 concurrency group and per-job path filters (both still
+# above) already cut wasted RUNS; this cut is about jobs-per-run instead.
+#
+# Two changes, both preserving every existing check on every trigger it
+# already had - nothing dropped, nothing silently narrowed:
+#
+# 1. Eleven jobs that all shared the identical `engine == 'true'` gate
+#    (M1 selftest, prose primitives, canon v1, M3, M4, M5, provider seam,
+#    M8, M2 compiler checks, M6 census sync, engine/api tests) are folded
+#    into one `engine-tests` job, one checkout/setup instead of eleven.
+#    Verified job-by-job before merging: all eleven used that exact same
+#    single condition, not a superset, so nothing now runs on a trigger it
+#    didn't before. `engine.m2.cli restore` (needed by M3/M4/api-tests/M2
+#    compiler checks) now runs once instead of four times - safe because
+#    the compiler is deterministic (M2's own gate: "byte-identical" twice).
+#    M2 staleness and M9 confinement were deliberately NOT folded in here:
+#    both share a DIFFERENT, wider condition (`engine == 'true' || library
+#    == 'true'`) from the other eleven's `engine`-only gate. Merging them
+#    into `engine-tests` would have force-widened M1/prose/canon/etc. onto
+#    library-only commits they don't currently run on - a real coverage
+#    change, not just a cost one. They get their own merged job instead
+#    (`staleness-and-confinement`), so both keep their own original,
+#    narrower-than-`engine-tests` trigger exactly as it was.
+#
+# 2. Draft PRs (this project's own working pattern - see e.g. #435-#438,
+#    opened draft specifically to iterate without paying for full CI) now
+#    run only the cheap checks (Detect changed paths, Cited paths resolve,
+#    Validate census) while still draft. `engine-tests`, `docker-build`,
+#    and `frontend-tests` - the three genuinely expensive jobs - gain
+#    `&& (github.event_name != 'pull_request' || github.event.pull_request.
+#    draft == false)`: still unconditional on every push (main/live have
+#    no `draft` field to check), gated to non-draft only on pull_request
+#    events. `ready_for_review` is added to this workflow's own
+#    `pull_request:` types so marking a PR ready actually fires the full
+#    run rather than silently waiting for the next push. `staleness-and-
+#    confinement`, `site-staleness-check`, and `no-embedded-world-data`
+#    are deliberately left un-gated by draft status - not asked for, and
+#    changing their trigger wasn't this change's brief.
+#
+# Renamed checks change what branch protection's required-checks list
+# needs to reference - the PR that carries this documents the exact
+# before/after names. This change does not touch branch-protection
+# settings itself, or repin-on-library-change.yml.
+
 on:
   push:
     branches: [main, live]
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
 
 # Added 2026-09-10 alongside the path-filter and caching changes below, same
 # minutes-exhaustion root cause: without this, a PR pushed to twice in quick
@@ -77,6 +129,9 @@ jobs:
       frontend: ${{ steps.filter.outputs.frontend }}
       census: ${{ steps.filter.outputs.census }}
       library: ${{ steps.filter.outputs.library }}
+      site: ${{ steps.filter.outputs.site }}
+      crossworld: ${{ steps.filter.outputs.crossworld }}
+      checkertests: ${{ steps.filter.outputs.checkertests }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -103,12 +158,44 @@ jobs:
             # Library Access Gate D3 SS6.3 (increment 5): a corpus-map or
             # vendored-text-only change is neither `engine/**` nor
             # `records/**` and would otherwise run no CI at all. Deliberately
-            # narrow (just m9-confinement-check + m2-staleness-check below,
-            # not the full twelve-job engine battery) - the 2026-09-10 minutes
-            # exhaustion is why this budget discipline exists.
+            # narrow (just the staleness-and-confinement job below, not the
+            # full engine-tests battery) - the 2026-09-10 minutes exhaustion
+            # is why this budget discipline exists.
             library:
               - 'cic/corpus-map/**'
               - 'cic/texts/**'
+              - '.github/workflows/**'
+            # Website V2 world_front design (approved to proceed
+            # 2026-09-19): the website compiler stage's own two jobs
+            # below (site-staleness-check, no-embedded-world-data) read
+            # cic-website/** directly, plus records/** and engine/**
+            # (the world_front record type and its compiler live there).
+            # Deliberately its own filter rather than folded into
+            # `engine` above: a cic-website/**-only change (e.g. a
+            # tradition-page copy edit) has no reason to run the
+            # engine-tests battery, the same budget discipline `library`
+            # above already exists for.
+            site:
+              - 'cic-website/**'
+              - 'records/**'
+              - 'engine/**'
+              - '.github/workflows/**'
+            # gen_needs_ruling.py's own test suite (worlds/_cross-world/
+            # tests_gen_needs_ruling.py) previously ran nowhere in CI - a
+            # change to the generator or to its hand-maintained-tail
+            # preservation could regress without any check catching it.
+            # Also fires on a corpus-map change, since the generator's
+            # end-to-end test runs against the real cic/corpus-map/ data.
+            crossworld:
+              - 'worlds/_cross-world/**'
+              - 'cic/corpus-map/**'
+              - '.github/workflows/**'
+            # tools/check_live_commentary.py's own test suite
+            # (tools/tests/test_check_live_commentary.py) previously ran
+            # nowhere in CI - the same gap crossworld above closed for
+            # gen_needs_ruling.py.
+            checkertests:
+              - 'tools/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -164,17 +251,44 @@ jobs:
           python-version: "3.11"
       - run: python tools/check_paths.py --baseline tools/check_paths_baseline.txt
 
-  m1-gates-selftest:
+  # Live-Surface-Cleanup program, Step 1 PR A (Ministry/Operations/Audits/
+  # Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md). Report-only:
+  # classifies review/decision commentary that has leaked into a
+  # live/canonical surface (CLAUDE.md, "Keep the live/canonical surfaces
+  # clean") as KEEP/REWRITE/ROUTE/PROTECTED and prints the full file:line
+  # list - never fails the build (tools/check_live_commentary.py's own
+  # `main` always returns 0; continue-on-error below is a second, redundant
+  # guarantee against an unexpected crash). The actual edits are a later,
+  # separate, reviewed step (PR C/D) - this job exists to make the count
+  # visible on every push, not to gate anything yet. Not gated on the
+  # `changes` filter: it reads text across surfaces `changes` doesn't track
+  # (reference/, worlds/, cic-website/), costs about ten seconds, and a
+  # docs-only or records-only commit is exactly the kind that moves these
+  # counts.
+  live-commentary-scan:
+    name: Live-surface commentary scan (report-only)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python tools/check_live_commentary.py
+
+  # Merged 2026-09-23 (see the top-of-file comment): eleven jobs that all
+  # shared the identical `engine == 'true'` gate, folded into one
+  # checkout/setup instead of eleven. Each sub-suite's own steps are
+  # unchanged and kept in their original relative order; `engine.m2.cli
+  # restore` runs once at the top instead of once per sub-job that needed
+  # it (M3, M4, M2 compiler checks, engine/api tests) - safe since the
+  # compiler is deterministic (M2's own gate: byte-identical twice). Gated
+  # to non-draft on pull_request events (see top-of-file comment #2) -
+  # unconditional on push, since push events have no `draft` field to check.
+  engine-tests:
     needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 1 of the redesign build (Build-Blueprint.md, branch
-    # build/phase-1). The stage-1 gate is exactly this: the gate battery
-    # passes the clean fixture world and fails every seeded-defect fixture
-    # in fixtures/seeded_defects.yaml, with an inertness check that a gate
-    # which never fires anywhere is itself a reported failure. Hermetic on
-    # purpose (no textstat/nltk network fetch - see engine/m1/fk.py) so this
-    # job needs no secrets and can't flake on an external resource.
-    name: M1 gate battery selftest (fixture world)
+    if: needs.changes.outputs.engine == 'true' && (github.event_name != 'pull_request' || github.event.pull_request.draft == false)
+    name: Engine test suite (M1-M6, M8, provider, canon, prose, api)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -182,290 +296,126 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
+          cache-dependency-path: |
+            engine/m1/requirements.txt
+            engine/m4/requirements.txt
+            engine/provider/requirements.txt
+            engine/m8/requirements.txt
+            engine/api/requirements.txt
+      # Every sub-suite's own requirements, installed once each (all use
+      # >= minimum pins with no conflicting upper bounds - checked before
+      # merging). m1's first: the compiler restore below needs its
+      # jsonschema dependency.
       - run: pip install -r engine/m1/requirements.txt
+      - run: pip install -r engine/m4/requirements.txt
+      - run: pip install -r engine/provider/requirements.txt
+      - run: pip install -r engine/m8/requirements.txt
+      - run: pip install -r engine/api/requirements.txt
+      # Compiled packages are derived and not in git (see .gitignore);
+      # rebuild the pinned ones from records once, up front - M3, M4, M2
+      # compiler checks, and engine/api tests below all read package bytes
+      # and previously each ran this same deterministic step separately.
+      - run: python -m engine.m2.cli restore
+
+      # M1 gate battery selftest (fixture world). Added stage 1 of the
+      # redesign build (Build-Blueprint.md, branch build/phase-1). The
+      # stage-1 gate is exactly this: the gate battery passes the clean
+      # fixture world and fails every seeded-defect fixture in
+      # fixtures/seeded_defects.yaml, with an inertness check that a gate
+      # which never fires anywhere is itself a reported failure. Hermetic
+      # on purpose (no textstat/nltk network fetch - see engine/m1/fk.py).
       - run: python -m pytest engine/m1/tests -q
 
-  prose-primitives:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # engine/prose.py sits under five production modules - the cell keyword
-    # corpus, compile-time demonstration tagging, Stage A/B retrieval
-    # scoring, and every per-sentence grounding verdict - and until now had
-    # no test of its own; it was exercised only sideways through M4's net
-    # tests, which check policy rather than the measurement underneath it.
-    # Needs m1's requirements because one test loads all six worlds to hold
-    # the no-abbreviation-in-prose-fields invariant.
-    name: Prose primitives (shared measurement)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
-      - run: pip install -r engine/m1/requirements.txt
+      # Prose primitives (shared measurement). engine/prose.py sits under
+      # five production modules - the cell keyword corpus, compile-time
+      # demonstration tagging, Stage A/B retrieval scoring, and every
+      # per-sentence grounding verdict - and until now had no test of its
+      # own; it was exercised only sideways through M4's net tests, which
+      # check policy rather than the measurement underneath it. One test
+      # loads all six worlds to hold the no-abbreviation-in-prose-fields
+      # invariant.
       - run: python -m pytest engine/tests -q
 
-  stage3-canon-v1:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 3 (Canon v1 as records + sealed held-out admission
-    # paraphrases). Named stage3- (not m3-) deliberately: "M3" is the
-    # admission-harness MODULE (built at stage 4, its own job below) -
-    # different thing, and this repo already has one stage/module name
-    # collision (M2=compiler, M3=admission) worth not compounding with a CI
-    # job name that reads as the wrong one. The stage-3 gate: every cell has
-    # sealed probes before any world answers it (28/28) - and the sealed
-    # plaintext stays isolated from every world-build code path, enforced
-    # here rather than trusted.
-    name: Canon v1 + sealed probe isolation
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
-      - run: pip install -r engine/m1/requirements.txt
+      # Canon v1 + sealed probe isolation. Added stage 3 (Canon v1 as
+      # records + sealed held-out admission paraphrases). The stage-3
+      # gate: every cell has sealed probes before any world answers it
+      # (28/28) - and the sealed plaintext stays isolated from every
+      # world-build code path, enforced here rather than trusted.
       - run: python -m pytest engine/canon/tests -q
       - run: python -m engine.canon.check_seal_isolation
 
-  m3-admission-harness:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 4 (M3 admission harness, Artifact-2 §1's validation/
-    # admission/). The stage-4 gate: catches a seeded register defect and a
-    # seeded fabrication on the fixture world - the two M3-layer entries in
-    # fixtures/seeded_defects.yaml that engine/m1/selftest.py deliberately
-    # left "deferred-to-stage-4". This harness runs on FixtureRecordAnswerer
-    # (a deterministic, no-model stand-in) - no live model call, no cost;
-    # but engine/m3/generation.py imports engine/m4/generation.py (for
-    # LiveModelAnswerer), which imports the anthropic SDK at module load
-    # time even when it's never called - so this job needs m4's
-    # requirements (same reasoning as the m4-event-log job below), not
-    # m1's alone, or test collection fails with ModuleNotFoundError.
-    name: M3 admission harness (mock, fixture world)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: |
-            engine/m4/requirements.txt
-            engine/m1/requirements.txt
-      - run: pip install -r engine/m4/requirements.txt
-      # Compiled packages are derived and not in git (see .gitignore); rebuild
-      # the pinned ones from records before any job that reads package bytes.
-      # restore runs the M2 compiler, so it needs the compiler's own deps
-      # (jsonschema for the M1 gates) on top of whatever this job installs.
-      - run: pip install -r engine/m1/requirements.txt
-      - run: python -m engine.m2.cli restore
+      # M3 admission harness (mock, fixture world). Added stage 4 (M3
+      # admission harness, Artifact-2 SS1's validation/admission/). The
+      # stage-4 gate: catches a seeded register defect and a seeded
+      # fabrication on the fixture world - the two M3-layer entries in
+      # fixtures/seeded_defects.yaml that engine/m1/selftest.py
+      # deliberately left "deferred-to-stage-4". Runs on
+      # FixtureRecordAnswerer (a deterministic, no-model stand-in) - no
+      # live model call, no cost.
       - run: python -m pytest engine/m3/tests -q
 
-  m4-event-log:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Started stage 5 non-model half (Artifact-3's event log/store, session
-    # projection, session codes, entrance seal - "resume across two
-    # processes incl. accumulator" and "entrance-seal test"). SQLite-backed
-    # for dev/test (DECIDABLE - see engine/m4/store.py); real deployment is
-    # managed Postgres per Artifact-6. Grew to cover the turn loop
-    # (world_loader, generation, grounding, crisis_resources, turn) once the
-    # live-model half of stage 5 started - test_turn.py/test_crisis_
-    # resources.py are hermetic (a fake client, or no client at all) even
-    # though the modules they test make real Bedrock calls when actually
-    # run; the real calls themselves are by-hand evidence runs
-    # (engine/m4/live_turn_run.py, engine/m4/lazy_load_measure.py), never CI.
-    name: M4 event log, projection, entrance seal, resume, turn loop
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: |
-            engine/m4/requirements.txt
-            engine/m1/requirements.txt
-      # engine/m4/requirements.txt (not m1's) since test_turn.py imports
-      # engine.m4.turn -> engine.m5.live_calls -> anthropic transitively -
-      # m1's requirements.txt has no reason to know that and shouldn't.
-      - run: pip install -r engine/m4/requirements.txt
-      # Compiled packages are derived and not in git (see .gitignore); rebuild
-      # the pinned ones from records before any job that reads package bytes.
-      # restore runs the M2 compiler, so it needs the compiler's own deps
-      # (jsonschema for the M1 gates) on top of whatever this job installs.
-      - run: pip install -r engine/m1/requirements.txt
-      - run: python -m engine.m2.cli restore
+      # M4 event log, projection, entrance seal, resume, turn loop.
+      # Started stage 5 non-model half (Artifact-3's event log/store,
+      # session projection, session codes, entrance seal). Grew to cover
+      # the turn loop (world_loader, generation, grounding,
+      # crisis_resources, turn) once the live-model half of stage 5
+      # started - hermetic (a fake client, or no client at all) even
+      # though the modules under test make real Bedrock calls when
+      # actually run; the real calls themselves are by-hand evidence
+      # runs, never CI.
       - run: python -m pytest engine/m4/tests -q
 
-  m5-gate-routing:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 5 (partial). The Facilitator gate's deterministic routing
-    # merge and failure/fail-open semantics (Artifact-4 SS3-4) are pure code
-    # over already-classified safety/reader outputs - testable without a
-    # live model call, unlike the classification calls themselves (blocked
-    # on Bedrock access, see reference/Redesign-Spec/BUILD-HANDOFF.md).
-    name: M5 Facilitator gate routing + failure semantics
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: |
-            engine/m4/requirements.txt
-            engine/m1/requirements.txt
-      # Same reason as m4-event-log's own identical comment above:
-      # Stage 0d's test_safety_script_run.py imports engine.m5.
-      # safety_script_run -> engine.m5.live_calls -> anthropic transitively
-      # (call_safety/call_reader's real exception handling, exercised even
-      # against a fake client) - m1's requirements.txt has no reason to
-      # know that and shouldn't.
-      - run: pip install -r engine/m4/requirements.txt
-      - run: pip install -r engine/m1/requirements.txt
+      # M5 Facilitator gate routing + failure semantics. Added stage 5
+      # (partial). The Facilitator gate's deterministic routing merge and
+      # failure/fail-open semantics (Artifact-4 SS3-4) are pure code over
+      # already-classified safety/reader outputs - testable without a
+      # live model call.
       - run: python -m pytest engine/m5/tests -q
 
-  provider-seam-unit-tests:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 5 (the model-provider seam, spec principle 16c). CI runs
-    # ONLY the mocked unit tests (model-id resolution, usage normalization)
-    # - never engine/provider/preflight.py, which makes a real, billed
-    # Bedrock call against a live AWS account and needs real credentials CI
-    # doesn't have. The preflight is a by-hand, one-time-per-provider check
-    # (spec SS7), not a CI job.
-    name: Provider seam unit tests (mocked, no live AWS call)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/provider/requirements.txt
-      - run: pip install -r engine/provider/requirements.txt
+      # Provider seam unit tests (mocked, no live AWS call). Added stage 5
+      # (the model-provider seam, spec principle 16c). CI runs ONLY the
+      # mocked unit tests (model-id resolution, usage normalization) -
+      # never engine/provider/preflight.py, which makes a real, billed
+      # Bedrock call and needs real credentials CI doesn't have.
       - run: python -m pytest engine/provider/tests -q
 
-  m8-cost-observability:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 6 (M8: usage attribution, parity, cost unit - CiC-
-    # Program-Spec.md M8, stage-6 gate: "parity against raw usage shapes;
-    # zero unattributed calls; cache economics re-measured and recorded
-    # with the band"). CI runs only the hermetic unit tests (attribution,
-    # the SQLite log store, the parity check against synthetic raw usage
-    # shapes, the cost-unit structure) - never a live Bedrock call. The
-    # lapsed-cache-window and real cache-economics re-measurement are
-    # by-hand evidence runs (engine/m8/cache_economics_measure.py), same
-    # discipline as the safety script and the preflight.
-    name: M8 cost & observability unit tests (mocked, no live AWS call)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/m8/requirements.txt
-      - run: pip install -r engine/m8/requirements.txt
+      # M8 cost & observability unit tests (mocked, no live AWS call).
+      # Added stage 6 (M8: usage attribution, parity, cost unit). CI runs
+      # only the hermetic unit tests - never a live Bedrock call.
       - run: python -m pytest engine/m8/tests -q
 
-  m2-compiler-checks:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added stage 2 (M2 compiler, Artifact-2). Covers two of the stage-2
-    # gate's three legs directly: "determinism twice (byte-identical)" and
-    # "manifest hash verified by a stub loader" (engine/m2/tests/
-    # test_compiler.py). The third leg - staleness - needs a real committed
-    # package to recompile against, so it's the separate job below rather
-    # than folded in here.
-    name: M2 compiler checks (determinism, stub loader)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
-      - run: pip install -r engine/m1/requirements.txt
-      # Compiled packages are derived and not in git (see .gitignore); rebuild
-      # the pinned ones from records before any job that reads package bytes.
-      # restore runs the M2 compiler, whose deps this job already installs.
-      - run: python -m engine.m2.cli restore
+      # M2 compiler checks (determinism, stub loader). Added stage 2 (M2
+      # compiler, Artifact-2). Covers two of the stage-2 gate's three legs
+      # directly: "determinism twice (byte-identical)" and "manifest hash
+      # verified by a stub loader". The third leg - staleness - needs a
+      # real committed package to recompile against; see
+      # staleness-and-confinement below.
       - run: python -m pytest engine/m2/tests -q
 
-  m2-staleness-check:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true'
-    # The third stage-2 gate leg: recompile every built/admitted/open world
-    # from its stored records_commit and check it still produces the package
-    # worlds.yaml is pinned to. Needs NO restore step: it compares against
-    # each package's committed manifest.json, not against stored bytes.
-    # Only fires real work once a world is actually built (packages/fix/**
-    # committed, records/worlds.yaml fix.state=built) - until then this job
-    # passes trivially by finding zero checkable worlds, which is exactly
-    # the "0% fire rate read as health" landmine (Build-Blueprint.md SS6) if
-    # nobody ever notices. engine/m2/reports/staleness-report.json is the
-    # committed evidence that it found a real world to check, not zero.
-    name: M2 staleness sweep (built/admitted/open worlds)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
-      - run: pip install -r engine/m1/requirements.txt
-      - run: python -m engine.m2.cli staleness-check
-
-  m6-census-sync-check:
-    needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # The Atlas connection (Build-Blueprint.md row 8): world-census.json's
-    # registry-derivable fields must be generated from records/worlds.yaml,
-    # never hand-synced. This job fails if the committed census has drifted
-    # from what engine.m6.census_sync would produce - run `python -m
-    # engine.m6.cli sync` locally and commit the result to fix.
-    name: M6 census sync check (Atlas connection)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: engine/m1/requirements.txt
-      - run: pip install -r engine/m1/requirements.txt
+      # M6 census sync check (Atlas connection). The Atlas connection
+      # (Build-Blueprint.md row 8): world-census.json's registry-derivable
+      # fields must be generated from records/worlds.yaml, never
+      # hand-synced. Fails if the committed census has drifted from what
+      # engine.m6.census_sync would produce - run `python -m engine.m6.cli
+      # sync` locally and commit the result to fix.
       - run: python -m pytest engine/m6/tests -q
       - run: python -m engine.m6.cli check
 
-  m9-confinement-check:
+      # engine/api tests (mocked Bedrock, fixture world). A fake Bedrock
+      # client + the real committed fixture-world package, never a live
+      # AWS call.
+      - run: python -m pytest engine/api/tests -q
+
+  # M2 staleness and M9 confinement, merged 2026-09-23 (see top-of-file
+  # comment). Deliberately kept separate from engine-tests above: both
+  # share the WIDER `engine == 'true' || library == 'true'` condition (not
+  # `engine`-only), so folding them into engine-tests would have
+  # force-widened M1/prose/canon/etc. onto library-only commits they don't
+  # currently run on. NOT gated on draft status - not asked for.
+  staleness-and-confinement:
     needs: changes
     if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true'
-    # Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
-    # D3-Converged-Design.md) increment 4 (Q3), blocking: pytest covers the
-    # confinement battery's own tests, the M9 selftest (mirrors
-    # engine/m1/selftest.py's own contract) and enforce.py's waiver-hygiene
-    # tests; `engine.m9.cli check` then runs both gate batteries against
-    # every built/admitted/open world on disk and fails the run on any
-    # un-waived finding, stale or expired waiver, or waiver naming a world
-    # grandfathering has closed to (SS4.2). ACCEPTED_OPEN in
-    # engine/m9/enforce.py is the waiver list Mark reads before merge.
-    # The `library` path-filter group (increment 5, SS6.3) runs this job
-    # and m2-staleness-check only, not the full twelve-job engine battery -
-    # a corpus-map or vendored-text-only change is neither `engine/**` nor
-    # `records/**` and would otherwise run no CI at all.
-    name: M9 confinement (compiled shelf; M1+M9 findings vs waivers)
+    name: M2 staleness + M9 confinement
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -475,20 +425,51 @@ jobs:
           cache: pip
           cache-dependency-path: engine/m1/requirements.txt
       - run: pip install -r engine/m1/requirements.txt
+
+      # M2 staleness sweep (built/admitted/open worlds). The third
+      # stage-2 gate leg: recompile every built/admitted/open world from
+      # its stored records_commit and check it still produces the package
+      # worlds.yaml is pinned to. Needs NO restore step: it compares
+      # against each package's committed manifest.json, not against
+      # stored bytes. Only fires real work once a world is actually built
+      # (packages/fix/** committed, records/worlds.yaml fix.state=built) -
+      # until then this job passes trivially by finding zero checkable
+      # worlds, which is exactly the "0% fire rate read as health"
+      # landmine (Build-Blueprint.md SS6) if nobody ever notices.
+      # engine/m2/reports/staleness-report.json is the committed evidence
+      # that it found a real world to check, not zero.
+      - run: python -m engine.m2.cli staleness-check
+
+      # M9 confinement (compiled shelf; M1+M9 findings vs waivers).
+      # Library Access Gate D3 (Ministry/Features/Library-Access-Gate/
+      # D3-Converged-Design.md) increment 4 (Q3), blocking: pytest covers
+      # the confinement battery's own tests, the M9 selftest (mirrors
+      # engine/m1/selftest.py's own contract) and enforce.py's
+      # waiver-hygiene tests; `engine.m9.cli check` then runs both gate
+      # batteries against every built/admitted/open world on disk and
+      # fails the run on any un-waived finding, stale or expired waiver,
+      # or waiver naming a world grandfathering has closed to (SS4.2).
+      # ACCEPTED_OPEN in engine/m9/enforce.py is the waiver list Mark
+      # reads before merge. The `library` path-filter group (increment 5,
+      # SS6.3) runs this whole job via the wider condition above - a
+      # corpus-map or vendored-text-only change is neither `engine/**` nor
+      # `records/**` and would otherwise run no CI at all.
       - run: python -m pytest engine/m9/tests -q
       - run: python -m engine.m9.cli check
 
-  api-tests:
+  # gen_needs_ruling.py generates worlds/_cross-world/NEEDS-RULING.md from
+  # cic/corpus-map/; its hand-maintained-tail preservation (everything below
+  # HAND_MAINTAINED_MARKER survives a regeneration verbatim, and a run
+  # refuses to write if an existing file has lost the marker) is proven by
+  # worlds/_cross-world/tests_gen_needs_ruling.py, which had nowhere in this
+  # workflow that collected it. NOT folded into engine-tests: that job's
+  # requirements install anthropic/boto3/jsonschema this suite doesn't need,
+  # and its `engine`-only path filter wouldn't fire on a worlds/_cross-world/
+  # or cic/corpus-map/-only change anyway.
+  cross-world-tests:
     needs: changes
-    if: needs.changes.outputs.engine == 'true'
-    # Added: engine/api/ (minimal test backend over the M4/M5 turn loop -
-    # HTTP shape only, no new pipeline logic; see
-    # /root/.claude/plans/linear-popping-dawn.md). Same discipline as every
-    # other job here: a fake Bedrock client + the real committed fixture-
-    # world package, never a live AWS call. engine/api/requirements.txt (not
-    # m4's) since this job also needs fastapi/uvicorn/httpx on top of
-    # everything engine.m4.turn already pulls in transitively.
-    name: engine/api tests (mocked Bedrock, fixture world)
+    if: needs.changes.outputs.crossworld == 'true'
+    name: Cross-world needs-ruling generator tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -496,21 +477,33 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-          cache-dependency-path: |
-            engine/api/requirements.txt
-            engine/m1/requirements.txt
-      - run: pip install -r engine/api/requirements.txt
-      # Compiled packages are derived and not in git (see .gitignore); rebuild
-      # the pinned ones from records before any job that reads package bytes.
-      # restore runs the M2 compiler, so it needs the compiler's own deps
-      # (jsonschema for the M1 gates) on top of whatever this job installs.
-      - run: pip install -r engine/m1/requirements.txt
-      - run: python -m engine.m2.cli restore
-      - run: python -m pytest engine/api/tests -q
+      - run: pip install pyyaml pytest
+      - run: python -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q
+
+  # tools/check_live_commentary.py's own test suite (tools/tests/
+  # test_check_live_commentary.py: the 60+ hand-labelled sample, its
+  # precision/recall measurement, and one test per classifier refinement)
+  # had nowhere in this workflow that collected it - the same gap
+  # cross-world-tests above closed for gen_needs_ruling.py. The module's
+  # own import of engine.m1.spoken_fields needs no extra install (stdlib
+  # dataclasses only).
+  checker-tests:
+    needs: changes
+    if: needs.changes.outputs.checkertests == 'true'
+    name: Live-surface commentary checker tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install pytest
+      - run: python -m pytest tools/tests/test_check_live_commentary.py -q
 
   docker-build:
     needs: changes
-    if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.frontend == 'true'
+    if: (needs.changes.outputs.engine == 'true' || needs.changes.outputs.frontend == 'true') && (github.event_name != 'pull_request' || github.event.pull_request.draft == false)
     # Added: engine/Dockerfile (PHASE-1-LAUNCH.md Stage 3 - "the container
     # builds"). GitHub Actions runners carry a real Docker daemon; the
     # sandbox this Dockerfile was originally written and verified in does
@@ -528,6 +521,10 @@ jobs:
     # covered without Docker or AWS by engine/api/tests/test_app.py::
     # test_health (TestClient + fake deps) - that is the right layer for
     # HTTP behavior; this job's job is only "does the image assemble."
+    #
+    # Draft-gated 2026-09-23 (see top-of-file comment #2) on pull_request
+    # events only - still unconditional on push, since push events have no
+    # `draft` field to check.
     name: Docker build (engine/Dockerfile)
     runs-on: ubuntu-latest
     steps:
@@ -551,7 +548,7 @@ jobs:
 
   frontend-tests:
     needs: changes
-    if: needs.changes.outputs.frontend == 'true'
+    if: needs.changes.outputs.frontend == 'true' && (github.event_name != 'pull_request' || github.event.pull_request.draft == false)
     # Build-Plan.md Stage 3c: "Add vitest + @testing-library/react, a test
     # script, and a frontend-tests CI job in .github/workflows/ci.yml gated
     # on the existing frontend path filter." tsc --noEmit is the same type
@@ -559,6 +556,10 @@ jobs:
     # everything under src/**/*.test.tsx, hermetic (jsdom, no live API, no
     # model call) - same "never a live call in CI" discipline every other
     # job here already holds.
+    #
+    # Draft-gated 2026-09-23 (see top-of-file comment #2) on pull_request
+    # events only - still unconditional on push, since push events have no
+    # `draft` field to check.
     name: Frontend tests (vitest)
     runs-on: ubuntu-latest
     defaults:
@@ -574,3 +575,55 @@ jobs:
       - run: npm ci
       - run: npx tsc --noEmit
       - run: npm test
+
+  site-staleness-check:
+    needs: changes
+    if: needs.changes.outputs.site == 'true'
+    # Website V2 world_front design (approved to proceed 2026-09-19): the
+    # site compiler stage's own staleness gate, same shape as M2 staleness
+    # above - recompile every migrated world's site JSON from its own
+    # committed file's pinned records_commit/compiler_version
+    # (engine.m2.site_cli.site_staleness_sweep), and fail if it no longer
+    # matches what's actually committed at cic-website/data/worlds/
+    # <census_id>.json. No world has a world_front record yet (content
+    # migration is a separate, later stage from this infrastructure), so
+    # this currently finds zero checkable worlds and passes trivially -
+    # the same "0% fire rate is not automatically health" landmine M2
+    # staleness's own comment already names, and the reason the comparison
+    # logic itself is real, not stubbed, so it starts doing real work the
+    # moment the first world_front record and its compiled JSON both exist.
+    name: Site staleness sweep (world_front-compiled JSON)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: engine/m1/requirements.txt
+      - run: pip install -r engine/m1/requirements.txt
+      - run: python -m pytest engine/m2/tests/test_site_compiler.py engine/m2/tests/test_site_staleness.py -q
+      - run: python -m engine.m2.site_cli staleness-check
+
+  no-embedded-world-data:
+    needs: changes
+    if: needs.changes.outputs.site == 'true'
+    # Website V2 world_front design (approved to proceed 2026-09-19): the
+    # anti-pattern this whole design exists to retire (CLAUDE.md; the two
+    # live fabrication fixes, commits fbb6557/763c48d) is participant-
+    # facing data embedded directly in a page's own <script> block instead
+    # of generated from records/<code>/ at compile time. cic-website/
+    # atlas-v3.html already has exactly this pattern (`const DATA = {...}`)
+    # and has not been migrated yet - that migration is a separate, later
+    # stage - so this job fails only on a NEW instance of the pattern
+    # appearing somewhere else, via tools/embedded-world-data-baseline.txt
+    # (the same baseline/allowlist shape tools/check_paths.py already
+    # uses), never on the one pre-existing, already-known instance.
+    name: No new embedded-world-data anti-pattern (cic-website)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python tools/check_no_embedded_world_data.py --baseline tools/embedded-world-data-baseline.txt

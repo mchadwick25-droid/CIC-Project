@@ -2,10 +2,10 @@
 ## Round 17 Independent Adversarial Review — scoped to verifying the Round 16 fix pass
 
 **Documents reviewed (committed state — `git status --porcelain` clean at `0f7ca8a`, "lpc: fix Doc_02 revision per Round 16 independent adversarial review", 2026-09-08 06:44:52 UTC, on branch `claude/record-native-world-build-v2-yq11wl`):**
-- `worlds/lpc/Doc_02_Source_Ecology.md` (157 lines; §1 and §2 read in full, fresh, without reference to any prior round's characterization of them)
-- `worlds/lpc/Source_Registry.md` (329 lines; 212 rows, all re-parsed by column position)
-- `worlds/lpc/Source_Acquisition_Manifest.md` (85 lines)
-- `worlds/lpc/lpc_Decision_Log.md` (328 lines; the new 2026-09-08 Rounds 15/16 entry read in full and checked against the diffs it describes)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Doc_02_Source_Ecology.md` (157 lines; §1 and §2 read in full, fresh, without reference to any prior round's characterization of them)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Registry.md` (329 lines; 212 rows, all re-parsed by column position)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/Source_Acquisition_Manifest.md` (85 lines)
+- `World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md` (328 lines; the new 2026-09-08 Rounds 15/16 entry read in full and checked against the diffs it describes)
 - `Doc_01_World_Identification_Boundaries_Orientation.md` (302 lines), searched in full for every phrase Doc_02 §1 and §2 attribute to it
 - `Review-Artifacts/Doc02_Round15_Review.md` and `Doc02_Round16_Review.md`, read in full and in order before any other file
 - All 19 files vendored at `c803529`, their intake headers, `cic/corpus-map/_staging/`, all 56 atlas files in `cic/corpus-map/`, `cic/texts/INTAKE.md`, `cic/texts/REGISTRY.yaml`, and `cic/engine/texts_registry.py`

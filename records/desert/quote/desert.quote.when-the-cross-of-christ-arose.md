@@ -3,7 +3,7 @@ id: desert.quote.when-the-cross-of-christ-arose
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I]
 confidence:
@@ -17,6 +17,11 @@ sources:
   locus: "SS79 - the same disputation, on what changed in the world when the Cross appeared"
   license: public-domain
 text: "When did all these things cease and grow weak except when the Cross of Christ arose? ... For when has the knowledge of God so shone forth? or when has self-control and the excellence of virginity appeared as now? or when has death been so despised except when the Cross of Christ has appeared?"
+modern_rendering: >-
+  When did all these things stop and grow weak, if not when the Cross of Christ arose?
+  ... For when has the knowledge of God shone forth like this? Or when has self-control,
+  and the excellence of virginity, appeared as they do now? Or when has death been so
+  despised, if not since the Cross of Christ appeared?
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "\"Death despised\" is not contempt for life. It names the martyr's own refusal to be coerced by the threat of death, and this world reads its own discipline as the same refusal carried on after persecution ended - see desert.force.martyrdom-unavailable."
@@ -26,7 +31,6 @@ retrieval:
   - "participant asks what difference Jesus made, or what changed because of him"
   - "participant asks what the cross meant to this world"
   - "participant asks why these people were not afraid to die"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

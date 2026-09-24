@@ -3,7 +3,7 @@ id: syr.quote.blc-one-name
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-T
@@ -23,9 +23,9 @@ text: And what shall we say of the new race of us Christians, whom Christ at His
   On one day, the first of the week, we assemble ourselves together, and on the days of the readings
 modern_rendering: >-
   And what shall we say of the new race of us Christians, whom Christ at his
-  coming planted in every country and every region? For see - wherever we are,
-  we are all called by the one name of Christ: Christians. On one day, the
-  first of the week, we gather together, and on the appointed days of the
+  coming planted in every country and in every region? For see - wherever
+  we are, we are all called by the one name of Christ: Christians. On one
+  day, the first of the week, we gather together, and on the days of the
   readings.
 speaker_or_author: syr.figure.bardaisan
 license: verbatim
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks how Christians in different countries related to one another"
   - "participant asks what held people together across such distances and customs"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Book of the Laws of Divers Countries, ANF 8).
 COMPARANDUM DISCIPLINE: the words stand in the dialogue Philip

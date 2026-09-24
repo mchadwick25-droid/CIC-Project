@@ -6,6 +6,11 @@
  * screen, whose own header traced each sentence to the Program-Spec
  * (SS9/SS165/SS166) - this move relocates approved prose, it does not
  * compose new prose.
+ *
+ * ONE EXCEPTION, deliberate and flagged rather than silent: the final
+ * sentence of `arrival__disclosure` (the ✲ mark explainer) IS new prose,
+ * not relocated - it extends this existing disclosure rather than
+ * adding a new first-tap UI element (no new component, no new state).
  */
 import type { WorldEntry } from '../data/worlds';
 
@@ -52,6 +57,7 @@ export function Arrival({ world }: ArrivalProps) {
           will reveal Christ's faithfulness — it is never a pushed objective.
         </p>
         <p>{world.representativeName}'s name is ours; every quote and claim is theirs, and you can check each one.</p>
+        <p>Look for the ✲ mark after a claim — tap it to see exactly where it comes from.</p>
       </div>
     </div>
   );

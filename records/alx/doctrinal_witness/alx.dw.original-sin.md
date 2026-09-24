@@ -3,7 +3,7 @@ id: alx.dw.original-sin
 world_id: alexandria-catechetical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Are people born already guilty? We believed something real went
   wrong at the root of humanity. Adam's fall casts its shadow over every soul.

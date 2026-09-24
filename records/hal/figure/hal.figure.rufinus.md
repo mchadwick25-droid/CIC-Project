@@ -3,7 +3,7 @@ id: hal.figure.rufinus
 world_id: hieronymian-ascetic-literary
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

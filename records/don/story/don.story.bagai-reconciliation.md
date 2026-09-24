@@ -3,7 +3,7 @@ id: don.story.bagai-reconciliation
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I
@@ -35,7 +35,7 @@ retrieval:
     came from inside
   - participant asks whether we ever made exceptions to the principle we are named for
   - participant asks about a schism within the schism
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants our relation to the Roman state specifically - the refusal-and-recourse tension is
     a different one
   - participant is asking about the martyr tradition rather than internal institutional discipline

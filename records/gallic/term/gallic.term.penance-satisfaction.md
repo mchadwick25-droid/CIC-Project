@@ -3,7 +3,7 @@ id: gallic.term.penance-satisfaction
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -42,7 +42,7 @@ retrieval:
   - what "suspended from prayer" means, or how a fault was made good
   - participant uses "penance," "confession," "absolution," "punishment," "discipline"
   - the three lentils; the broken jar; the latecomer on the ground; Paphnutius's "plan of repentance"; Brictio's repentance
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the disclosure of thoughts before sin (retrieve disclosure of thoughts)
   - the question is about the fellowship withheld as such (retrieve communion)
   - later sacramental penance and private confession - a century and more downstream

@@ -3,7 +3,7 @@ id: ijc.term.martyrium
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - Damasus's building or inscription program
   - martyr shrines and pilgrimage in this world specifically
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about martyr devotion broadly - a fuller devotional treatment belongs to another world's lexicon, not this one
 relations:
 - type: associated-with

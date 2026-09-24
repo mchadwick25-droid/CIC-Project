@@ -3,7 +3,7 @@ id: alx.gravity.scripture-formative
 world_id: alexandria-catechetical
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I

@@ -1,0 +1,12 @@
+# cic-website/atlas-v3.html: accepted per check_no_embedded_world_data.py's
+# own docstring (the embed-vs-fetch-at-runtime migration is a separate,
+# later Website V2 stage). Separately flagged (Live-Surface-Cleanup Step 2,
+# PR #501, 2026-09-24): this embedded copy has drifted stale against
+# cic-website/data/world-census.json - liveCount 7 vs. 11, differing
+# statusCounts. That is a live participant-facing data-accuracy defect on
+# a page linked from the site nav, not a commentary/provenance issue; it
+# is not fixed by this baseline entry or by the Live-Surface-Cleanup
+# program, which only strips provenance narration. Needs its own fix
+# (re-sync or complete the runtime-fetch migration) before this baseline
+# line is more than an accepted architecture exception.
+cic-website/atlas-v3.html

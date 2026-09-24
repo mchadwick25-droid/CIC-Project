@@ -3,7 +3,7 @@ id: witt.source.andreas-theses-and-sermons-of-1521-as
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:

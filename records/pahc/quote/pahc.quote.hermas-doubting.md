@@ -3,7 +3,7 @@ id: pahc.quote.hermas-doubting
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-P
@@ -18,6 +18,11 @@ sources:
   locus: "Mandate 9 (the Shepherd's own instruction, spoken to Hermas)"
   license: public-domain
 text: "Put away doubting from you and do not hesitate to ask of the Lord... For He is not like men, who remember evils done against them; but He Himself remembers not evils, and has compassion on His own creature... For those who doubt regarding God are double-souled, and obtain not one of their requests."
+modern_rendering: >-
+  Put doubting away from you, and do not hesitate to ask the Lord... He is not like men,
+  who remember the wrongs done against them. He himself remembers no wrongs, and has
+  compassion on his own creation... Those who doubt about God are double-souled, and they
+  get none of what they ask for.
 speaker_or_author: "the Shepherd, addressing Hermas"
 license: verbatim
 modern_lens_note: >
@@ -30,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether there was room for doubt among them"
   - "participant asks what someone did who could not believe what they were told"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf02_hermas-tatian-athenagoras-
 theophilus-clement-alexandria.xml, div1 ii, section iii (ii.iii.ix).

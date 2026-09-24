@@ -3,7 +3,7 @@ id: desert.story.pachomius-founding
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I, F3-I]
 confidence:
@@ -24,7 +24,6 @@ retrieval:
   - "participant asks how a solitary practice became a shared, rule-governed community"
   - "participant asks who held authority and how anyone came to have it"
   - "participant asks how this world's practice worked at scale, for many rather than one"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

@@ -3,7 +3,7 @@ id: hal.quote.portus-strangers
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they did for travellers, pilgrims and the poor"
   - "participant asks how far their reputation reached"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 77, the
 Fabiola-and-Pammachius hospice at Rome's harbor). Note: the NPNF editor's

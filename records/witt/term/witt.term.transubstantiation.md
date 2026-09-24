@@ -3,7 +3,7 @@ id: witt.term.transubstantiation
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -22,7 +22,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - transubstantiation specifically
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the presence doctrine generally (retrieve Sacrament of the Altar)
 relations:
 - type: associated-with
@@ -45,6 +45,6 @@ senses:
 quick_meaning: A monstrous word, we say. We trust the presence; we do not explain it.
 distortion_risk: medium
 ---
-Built from Doc_06 §5 entry 5.7 (transubstantiation, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC]. Author Gravity: Luther-only, single-register (Babylonian Captivity). Source Registry rows cited: R12. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.7 (transubstantiation, Tier 3, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC]. Author Gravity: Luther-only, single-register (Babylonian Captivity). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

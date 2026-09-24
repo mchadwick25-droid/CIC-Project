@@ -3,7 +3,7 @@ id: witt.term.hymn
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -50,7 +50,7 @@ retrieval:
   - hymns, or singing in German
   - what our hymns were for
   - '''A Mighty Fortress'''
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant wants a specific hymn's full text -- our library holds only openings and fragments
 relations:
 - type: associated-with
@@ -102,7 +102,7 @@ senses:
 quick_meaning: Songs in our own language, teaching those who cannot read Latin.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.9 (hymn / German singing, Tier 1 ↑ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices, plus the fullest non-founder attestation in the build. Source Registry rows cited: R25, R26, R27, R28, R37, R38, R45, R47. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.9 (hymn / German singing, Tier 1 ↑ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices, plus the fullest non-founder attestation in the build. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Reported-Experience Status (Doc_06 §5 entry 4.9): reported as our own self-understanding, not assessed for historical accuracy; the hymn's formative work is central by our own account and by the register's reach, while what was actually sung, where, and to what tune is thinly attested -- one late participant, no tune, no parish record.
 

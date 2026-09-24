@@ -3,7 +3,7 @@ id: desert.story.angel-hands-the-tablet
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -32,7 +32,7 @@ retrieval:
   - "participant asks where a monastic rule got its authority, or who was entitled to write one"
   - "participant asks whether the vision stories are later additions to a plain rule"
   - "participant asks how this world's communities justified binding other people"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is asking for the founding narrative as history - desert.story.pachomius-founding carries that"
 relations:
 - type: illustrates

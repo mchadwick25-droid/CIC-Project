@@ -3,7 +3,7 @@ id: pahc.quote.the-memoirs-of-the-apostles-are-read
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -22,6 +22,11 @@ sources:
   license: public-domain
 text: >-
   And on the day called Sunday, all who live in cities or in the country gather together to one place, and the memoirs of the apostles or the writings of the prophets are read, as long as time permits; then, when the reader has ceased, the president verbally instructs, and exhorts to the imitation of these good things.
+modern_rendering: >-
+  On the day called Sunday, everyone who lives in the cities or in the country gathers
+  together in one place. The memoirs of the apostles or the writings of the prophets are
+  read for as long as time allows. When the reader stops, the president speaks -- he
+  instructs us, and urges us to imitate these good things.
 speaker_or_author: Justin Martyr, First Apology
 license: verbatim
 modern_lens_note: >-
@@ -32,7 +37,6 @@ retrieval:
   - "participant asks how scripture was read or heard among this world"
   - "participant asks what happened when this world gathered on a Sunday"
   - "participant asks how someone who could not read received the scriptures"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.reading-scripture

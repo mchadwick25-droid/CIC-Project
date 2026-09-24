@@ -3,7 +3,7 @@ id: alx.quote.clement-bee
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -19,6 +19,10 @@ sources:
   license: public-domain
 text: He, the true, the Sicilian bee, gathering the spoil of the flowers of the prophetic and apostolic
   meadow, engendered in the souls of his hearers a deathless element of knowledge.
+modern_rendering: >-
+  He was the true Sicilian bee. He gathered the spoil of the flowers in
+  the prophetic and apostolic meadow. And he produced in the souls of his
+  listeners a deathless element of knowledge.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -32,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks how a teacher taught and what a class was like"
   - "participant asks who someone learned from and how teaching passed on"
-  do_not_retrieve_when: []
 ---
 Clement's tribute to his final teacher. PRECISION CAUTION (from the
 figure record): Clement does not name him; the identification with

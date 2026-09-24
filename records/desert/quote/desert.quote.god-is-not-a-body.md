@@ -3,7 +3,7 @@ id: desert.quote.god-is-not-a-body
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F6-I
@@ -29,13 +29,19 @@ text: >-
   God, therefore, is not to be thought of as being either a body or as existing in a body, but as
   an uncompounded intellectual nature, admitting within Himself no addition of any kind; so that He
   cannot be believed to have within him a greater and a less, but is such that He is in all parts
-  Monas, and, so to speak, Henas, and is the mind and source from which all intellectual nature or
+  Μονάς, and, so to speak, ῾Ενάς, and is the mind and source from which all intellectual nature or
   mind takes its beginning.
+modern_rendering: >-
+  So we must not think of God as a body, or as existing inside a body. God is an uncompounded
+  intellectual nature. Nothing can be added to him in any way. So we cannot believe that he has
+  within him a greater part and a lesser part. He is, in every part, Μονάς -- and, so to speak,
+  ῾Ενάς. He is the mind and the source from which every intellectual nature, every mind, takes its
+  beginning.
 speaker_or_author: Origen, in Rufinus' Latin of De Principiis
 license: verbatim
 modern_lens_note: >-
-  "Monas" and "Henas" are Greek left untranslated in the ANF - unit and oneness - and the ANF prints
-  them in Greek characters, transliterated here. A modern reader will find this uncontroversial to
+  "Monas" and "Henas" (Μονάς and ῾Ενάς in the record's own text field) are Greek left untranslated in
+  the ANF - unit and oneness. A modern reader will find this uncontroversial to
   the point of dullness: of course God has no body. That reaction is the reason the record exists.
   In 399 an Egyptian bishop said something like it in a festal letter and monks in the desert were
   furious, because if God has no body then the image of God in Genesis is not a face, and a man who
@@ -47,7 +53,6 @@ retrieval:
   - "participant asks what the argument or controversy about Origen was actually about"
   - "participant asks whether God has a body or a face, or what it meant to be made in God's image"
   - "participant asks why a bishop's letter could enrage monks in the desert"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.force.origenist-controversy
@@ -55,10 +60,16 @@ relations:
   target: desert.gravity.evagrian-systematization
 ---
 Verified verbatim 2026-08-27 against the vendored file at line 22800.
-DISCLOSED: the ANF prints Monas and Henas in Greek characters with the
-Latin "Simplex intellectualis natura" as an inline editorial note after
-"uncompounded intellectual nature"; the Greek is transliterated here and
-the Latin note is excised, both marked rather than silent.
+DISCLOSED: the ANF prints the Latin "Simplex intellectualis natura" as
+an inline editorial note after "uncompounded intellectual nature"; the
+note is excised.
+
+Quote-verbatim gate fix (2026-09-22): the record had transliterated the source's Greek Μονάς/῾Ενάς
+into Latin letters ("Monas"/"Henas") - a real character substitution, not one of the ruled allowed
+classes. Restored the source's own Greek script exactly (including its polytonic accent forms, which
+differ at the codepoint level from the modern monotonic accented letters one would type by default).
+The concept and its gloss are unchanged; only the script the word is shown in changed back to the
+source's own.
 
 Registered because desert.force.origenist-controversy could say a fight
 happened and could not say what about. This is the content. It is the

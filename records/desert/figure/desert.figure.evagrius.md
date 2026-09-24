@@ -3,7 +3,7 @@ id: desert.figure.evagrius
 world_id: desert-monasticism
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P, F6-I]
 confidence:
@@ -27,7 +27,7 @@ names:
 - name: "Evagrius Ponticus (c. 345-399)"
   tag: scholarly
 dates:
-  born: "c. 345 (derived: Palladius ch. XXXVIII gives his age at death as fifty-four; the calendar year of his death, 399, comes from desert.source.evagrius-praktikos and Doc_01 SS2.3, not from the vendored chapter itself, which carries no year)"
+  born: "c. 345 (derived: Palladius ch. XXXVIII gives his age at death as fifty-four; the calendar year of his death, 399, comes from Evagrius's own Praktikos, not from the surviving chapter itself, which carries no year)"
   died: "January 399, at Kellia - communicating in church at Epiphany, per Palladius ch. XXXVIII (the year itself from desert.source.evagrius-praktikos and Doc_01 SS2.3) - shortly before the Origenist controversy that would scatter his intellectual circle broke fully open (Doc_01 SS2.3)"
   floruit: "ordained reader by Basil of Caesarea, then deacon by Gregory Nazianzen (Palladius ch. XXXVIII), at Constantinople specifically (Socrates IV.23); withdrew to Nitria, then to Kellia c. 385 for fourteen years until his death - this world's most systematic participant-author and, by education, its most atypical"
 narratable: true

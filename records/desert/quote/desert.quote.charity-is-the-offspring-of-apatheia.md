@@ -3,7 +3,7 @@ id: desert.quote.charity-is-the-offspring-of-apatheia
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-P]
 confidence:
@@ -18,6 +18,11 @@ sources:
   address: "cic:evagrius_praktikos_dysinger.txt:81"
   license: cc-by-4.0
 text: "Charity is the offspring of apatheia; apatheia is the flower of the ascetical life (praktike). The ascetical life is constituted by keeping the commandments, and these are watched over by the fear of God, which is begotten by right belief. Belief is an indwelling good which exists naturally even in those who have not yet believed in God."
+modern_rendering: >-
+  Charity is born from apatheia. Apatheia is the flower of the ascetical life, the praktike. The
+  ascetical life consists of keeping the commandments. The fear of God watches over the
+  commandments. Right belief gives birth to the fear of God. Belief itself is a good that lives
+  within us by nature -- even in those who do not yet believe in God.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "The last sentence is the surprising one and should not be trimmed off: belief is called an indwelling good present by nature even in those who do not yet believe. That is a claim about everyone, not only about monks."
@@ -27,7 +32,6 @@ retrieval:
   - "participant asks whether you had to already believe to start"
   - "participant asks how love and discipline related for this world"
   - "participant asks whether God was thought to be at work in unbelievers"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.quote.the-ladder-from-faith-to-love

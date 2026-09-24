@@ -3,7 +3,7 @@ id: desert.quote.the-coming-of-christ-made-thee-weak
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I]
 confidence:
@@ -30,7 +30,6 @@ retrieval:
   - "participant asks what difference the coming of Jesus made to this world"
   - "participant asks how these people understood the fight against demons or thoughts"
   - "participant asks whether Jesus is spoken of as present, not only remembered"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

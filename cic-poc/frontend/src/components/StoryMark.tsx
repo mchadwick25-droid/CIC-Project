@@ -11,39 +11,59 @@
  *
  * Same purple, same ✲, same InlineBridge grammar as every other track -
  * only the content and the record_types it fires for (story, quote) are
- * different. Placed exactly where CitationMark used to sit for these
- * citations: right after the sentence that told the story.
+ * different. A story's mark sits at the end of its telling; a quote's
+ * mark follows the quoted words (VoiceTurnBody.tsx places both).
+ *
+ * `repeat` and `contested` are CSS-only modifiers (app.css
+ * .citation-mark--repeat/--contested) - same glyph, same color, same
+ * verb, per the citation marks' own design constraints; see VoiceTurnBody.tsx's
+ * renderFromElements for where these are computed.
  */
 import type { SourceCard } from '../types/conversation';
+import { confidencePhrase } from '../lib/confidence';
+import { QUOTE_CARD_PHRASE } from '../lib/markCopy';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
 interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
+  repeat?: boolean;
+  contested?: boolean;
+  // A quote element's own mark: it follows the quoted words, not the
+  // story's telling. Its card's title is QUOTE_CARD_PHRASE.
+  quote?: boolean;
 }
 
-export function StoryMark({ sources }: StoryMarkProps) {
+export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps) {
+  const title = quote ? QUOTE_CARD_PHRASE : null;
+  const markClassName = ['citation-mark', 'story-mark', repeat && 'citation-mark--repeat', contested && 'citation-mark--contested']
+    .filter(Boolean)
+    .join(' ');
   return (
     <InlineBridge
       label=" ✲"
-      markClassName="citation-mark story-mark"
-      ariaLabel={`Where this ${sources.length === 1 ? 'story' : 'story and quote'} comes from`}
+      markClassName={markClassName}
+      ariaLabel={title ?? `Where this ${sources.length === 1 ? 'story' : 'story and quote'} comes from`}
       level2={
         <>
-          {sources.map((card) => (
-            <div key={card.record_id} className="story-mark__entry">
-              <p className="story-mark__title">{card.label}</p>
-              {card.sources.map((s) => (
-                <p key={s.source_id} className="story-mark__source">
-                  {s.work ?? s.source_id}
-                  {s.author && ` — ${s.author}`}
-                </p>
-              ))}
-            </div>
-          ))}
+          {sources.map((card) => {
+            const phrase = confidencePhrase(card.confidence);
+            return (
+              <div key={card.record_id} className="story-mark__entry">
+                <p className="story-mark__title">{card.label}</p>
+                {card.sources.map((s) => (
+                  <p key={s.source_id} className="story-mark__source">
+                    {s.work ?? s.source_id}
+                    {s.author && ` — ${s.author}`}
+                  </p>
+                ))}
+                {phrase && <p className="story-mark__confidence">{phrase}</p>}
+              </div>
+            );
+          })}
         </>
       }
-      level3Title="Where this story comes from"
+      level3Title={title ?? 'Where this story comes from'}
       level3={
         <>
           {sources.map((card) => (

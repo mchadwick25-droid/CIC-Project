@@ -3,7 +3,7 @@ id: witt.quote.article-ix-of-baptism
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -25,7 +25,7 @@ retrieval:
   tier: 1
   retrieve_when:
   - "participant asks whether we baptized babies, or only adults who chose it for themselves"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant means the sacrament's general meaning apart from the age question -- retrieve the baptism term instead"
 text: >-
   Of Baptism they teach that it is necessary to salvation, and that
@@ -48,11 +48,10 @@ modern_lens_note: >-
   before it is anyone's own choice.
 modern_rendering: >-
   We teach this: baptism is necessary for salvation. Through baptism, God offers his grace. Children
-  should be baptized. A child is offered to God through baptism. By that, the child is received into
-  God's grace.
+  should be baptized. Offered to God through baptism, they are received into his grace.
 
-  We reject what the Anabaptists teach. They say children should not be baptized. They say children are
-  saved without it. We do not agree.
+  We reject what the Anabaptists teach. They reject the baptism of children. They say children are saved
+  without it.
 relations:
 - type: associated-with
   target: witt.dw.a-death-begun-that-a-child-receives
@@ -74,9 +73,3 @@ own distinct article rather than editing the existing term record. Ground for
 witt.dw.a-death-begun-that-a-child-receives (F4-T: infant baptism, alongside the born-again question),
 read together with witt.quote.article-ii-of-original-sin's own baptism/new-birth clause. Reciprocal
 associated-with declared on that record.
-
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
-of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
-field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
-participant. Substance unchanged, only the internal record-id reference removed.

@@ -3,7 +3,7 @@ id: cappadocian.term.theologia-oikonomia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -27,7 +27,6 @@ retrieval:
   retrieve_when:
   - the difference between 'theology' and 'economy' in this world's own vocabulary
   - whether a leader should ever hold back part of the truth
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

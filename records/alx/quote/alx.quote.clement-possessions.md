@@ -3,7 +3,7 @@ id: alx.quote.clement-possessions
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -26,6 +26,18 @@ text: For he who holds possessions, and gold, and silver, and houses, as the gif
   some time or other deprived of them, is able with cheerful mind to bear their removal equally with their
   abundance. This is he who is blessed by the Lord, and called poor in spirit, a meet heir of the kingdom
   of heaven, not one who could not live rich.
+modern_rendering: >-
+  Consider someone who holds possessions - gold, silver, houses - as gifts
+  from God. He ministers from them to the God who gave them, for the
+  salvation of others. He knows he holds them more for the sake of the
+  community than for himself. He is superior to the possession of them,
+  not a slave to the things he possesses. He does not carry them around in
+  his soul or let them hem in and define his life. Instead, he is always
+  at work on some good and God-given task. Even if he should one day be
+  forced to lose them, he is able, with a cheerful mind, to bear their
+  removal just as he bears their abundance. This is the one the Lord
+  blesses, the one called poor in spirit - a fit heir of the kingdom of
+  heaven, not one who could not live rich.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -39,7 +51,6 @@ retrieval:
   - "participant asks whether a rich person could belong"
   - "participant asks what they did with money and property"
   - "participant asks whether they had to give everything away"
-  do_not_retrieve_when: []
 ---
 The rich-man sermon's center: wealth held as gift and ministry, not as
 master. Serves F5-T (how did you look at money and poverty) and F4-T

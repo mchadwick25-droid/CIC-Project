@@ -3,7 +3,7 @@ id: gallic.term.trial
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -39,7 +39,7 @@ retrieval:
   - whether Martin was "tested"
   - participant uses "trial," "test," "temptation," "why does God allow," "proving"
   - Comm. ch. 10 and ch. 17; Conf. XIII.14 on Job; Martin in the burning sacristy
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means a court trial (the Priscillianist "trial" before Maximus - retrieve heretic / heresy and council / synod)
   - the question is about the athlete's combat as such (retrieve combat / athlete)
   - temptation by the devil in general (retrieve the devil / demons)

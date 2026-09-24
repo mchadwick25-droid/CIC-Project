@@ -3,7 +3,7 @@ id: syr.quote.sozomen-melodies
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -18,6 +18,9 @@ sources:
   locus: III.16
   license: public-domain
 text: even now the Syrians frequently sing, not the precise copies by Harmonius, but the same melodies
+modern_rendering: >-
+  Even now, the Syrians often sing -- not exact copies of Harmonius's versions, but the
+  same melodies.
 speaker_or_author: syr.source.sozomen-historia-ecclesiastica (Sozomen on the rival hymnody Ephrem answered)
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
@@ -26,7 +29,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they sang and whether the tunes survived"
   - "participant asks what actually happened when they gathered to worship"
-  do_not_retrieve_when: []
 ---
 Verified verbatim. The genre-contest witness: Bardaisanite song answered in kind. canon_cells empty; grounds syr.term.madrasha's evidential sense.
 

@@ -15,7 +15,9 @@ from engine.m7.instruments import (
     cross_voice_echo,
     encounter_openings,
     governance,
+    guard_proximity,
     isolation,
+    level1_element_density,
     offer_rates,
     register_frame,
     repetition,
@@ -179,6 +181,131 @@ def test_unread_outputs_all_three_severities(tmp_path):
     assert by["net_withheld"].severity == "info"
     assert by["net_withheld"].record_ids == ["des.source.apophthegmata-9"]
     assert by["degraded_by_net"].severity == "info"
+
+
+def test_guard_proximity_reads_at_defect_severity_and_leaves_the_generic_bucket(tmp_path):
+    """Build-Plan.md Stage 4b: a guard_proximity output_defect gets its own
+    dedicated instrument at defect severity, and is excluded from the
+    generic output_defects/review bucket - reported once, at the severity
+    that matches what it actually is (a live fabrication risk), not
+    twice at two different severities."""
+    store = Store(tmp_path / "events.db")
+    sid = "guard-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "gallic", "package_manifest_hash": "sha256:x",
+    })
+    guard_defect = {
+        "family": "guard_proximity",
+        "finding": "cites gallic.story.brictio-in-the-courtyard, barred from asserting the succession claim",
+        "sentence": "Brictio succeeded Martin as bishop of Tours.",
+    }
+    _append(store, sid, "voice_turn", _voice(
+        "gallic", "Brictio succeeded Martin as bishop of Tours.", [],
+        output_defects=[guard_defect],
+    ))
+    session = read_session(store, sid)
+
+    gp_findings = guard_proximity(session)
+    assert len(gp_findings) == 1
+    assert gp_findings[0].severity == "defect"
+    assert gp_findings[0].instrument == "guard_proximity"
+    assert "brictio-in-the-courtyard" in gp_findings[0].detail
+
+    generic_findings = unread_outputs(session)
+    assert not [f for f in generic_findings if f.instrument == "output_defects"]
+
+
+def test_level1_element_density_groups_legacy_anchor_plans_the_way_the_legacy_renderer_does(tmp_path):
+    """Report-only counting. A plan recorded before per-element placement
+    carries `anchors`; proves the anchor-era grouping
+    still counts it - two story anchors at
+    the SAME run_end_sentence collapse to one mark (one StoryMark, two
+    sources), a witness anchor at a different placement is its own mark,
+    and a non-story/witness anchor (gravity) gets no inline mark at all."""
+    store = Store(tmp_path / "events.db")
+    sid = "density-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    text = "First sentence. Second sentence. Third sentence."
+    _append(store, sid, "voice_turn", _voice(
+        "des", text,
+        [{"sentence": "First sentence.", "record_ids": ["des.story.a"]}],
+        glosses=[{"id": "des.term.one"}],
+        figures_used=[{"id": "des.figure.antony"}],
+        transparency={
+            "world_key": "des",
+            "anchors": [
+                {"record_id": "des.story.a", "record_type": "story", "run_start_sentence": 0, "run_end_sentence": 1, "repeat": False, "confidence": None},
+                {"record_id": "des.story.b", "record_type": "quote", "run_start_sentence": 0, "run_end_sentence": 1, "repeat": False, "confidence": None},
+                {"record_id": "des.witness.c", "record_type": "doctrinal_witness", "run_start_sentence": 2, "run_end_sentence": 2, "repeat": False, "confidence": None},
+                {"record_id": "des.gravity.d", "record_type": "gravity", "run_start_sentence": 1, "run_end_sentence": 1, "repeat": False, "confidence": None},
+            ],
+            "references": [],
+            "unverified_claims": {"count": 0, "sentence_indexes": []},
+        },
+    ))
+    session = read_session(store, sid)
+
+    metrics = level1_element_density(session)
+    assert len(metrics) == 1
+    m = metrics[0]
+    assert m["citation_marks"] == 2  # one story group (both story anchors share run_end_sentence=1) + one witness group
+    assert m["figure_marks"] == 1
+    assert m["gloss_marks"] == 1
+    assert m["level1_total"] == 4
+    assert m["sentence_count"] == 3
+
+
+def test_level1_element_density_counts_one_mark_per_element_when_the_plan_has_elements(tmp_path):
+    """A plan carrying `elements` is counted exactly as renderFromElements
+    draws it - one mark
+    per quote/story element (two on one sentence are two marks), one per
+    term/figure element, and nothing for a general reference."""
+    store = Store(tmp_path / "events.db")
+    sid = "density-el-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    text = "First sentence. Second sentence."
+    element = {"world_key": "des", "confidence": None, "repeat": False, "char_start": 0, "surface": ""}
+    _append(store, sid, "voice_turn", _voice(
+        "des", text,
+        [{"sentence": "First sentence.", "record_ids": ["des.quote.a", "des.story.b", "des.dw.c"]}],
+        glosses=[{"id": "des.term.one"}, {"id": "des.term.two"}],
+        figures_used=[{"id": "des.figure.antony"}],
+        transparency={
+            "world_key": "des",
+            "sentences": [{"index": 0, "text_start": 0, "text_end": 15}, {"index": 1, "text_start": 16, "text_end": 32}],
+            "elements": [
+                {**element, "record_id": "des.quote.a", "record_type": "quote", "kind": "quote", "sentence_index": 0, "char_end": 15},
+                {**element, "record_id": "des.story.b", "record_type": "story", "kind": "story", "sentence_index": 0, "char_end": 15},
+                {**element, "record_id": "des.term.one", "record_type": "term", "kind": "term", "sentence_index": 1, "char_end": 6},
+            ],
+            "references": [],
+            "end_references": [],
+            "unverified_claims": {"count": 0, "sentence_indexes": []},
+        },
+    ))
+    [m] = level1_element_density(read_session(store, sid))
+    assert m["citation_marks"] == 2
+    assert m["gloss_marks"] == 1  # the element list, not the raw glosses list
+    assert m["figure_marks"] == 0
+    assert m["level1_total"] == 3
+
+
+def test_level1_element_density_report_only_no_findings(tmp_path):
+    """No cap is enforced yet (Adjusted-Design.md: "RULING R17 on numbers"
+    is still open) - this instrument returns metrics, never Finding
+    objects, and run_all() carries it under its own key, not findings."""
+    store, i_sid, _ = _sessions(tmp_path)
+    result = run_all(read_session(store, i_sid))
+    assert "level1_element_density" in result
+    assert all(isinstance(m, dict) for m in result["level1_element_density"])
+    assert not any(f.instrument == "level1_element_density" for f in result["findings"])
 
 
 def test_isolation_flags_foreign_citation_only(tmp_path):

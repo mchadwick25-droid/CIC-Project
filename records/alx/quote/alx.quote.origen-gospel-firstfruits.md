@@ -3,7 +3,7 @@ id: alx.quote.origen-gospel-firstfruits
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -19,6 +19,10 @@ sources:
   license: public-domain
 text: We may therefore make bold to say that the Gospels are the first fruits of all the Scriptures, but
   that of the Gospels that of John is the first fruits.
+modern_rendering: >-
+  So we may boldly say that the Gospels are the firstfruits of all the
+  Scriptures. And among the Gospels, the Gospel of John is the
+  firstfruits.
 speaker_or_author: alx.figure.origen
 license: verbatim
 modern_lens_note: >
@@ -32,7 +36,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they ranked the books they read"
   - "participant asks what they looked for in a gospel"
-  do_not_retrieve_when: []
 ---
 How the tradition ranked what it read: all Scripture, the Gospels its
 firstfruits, John the firstfruits of the Gospels. Verified verbatim.

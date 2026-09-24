@@ -3,7 +3,7 @@ id: don.dw.what-we-did-with-the-power-we-had
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -53,7 +53,6 @@ retrieval:
   - participant asks whether our churches failed to hold their own people accountable
   - participant asks us to defend using power against Christians who disagreed
   - participant asks what happened to the temples and the old gods
-  do_not_retrieve_when: []
 text: >-
   Yes, and we can hand you the transcript.
 

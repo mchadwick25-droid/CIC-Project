@@ -3,7 +3,7 @@ id: syr.quote.tatian-born-assyrian
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -20,6 +20,10 @@ sources:
 text: These things, O Greeks, I Tatian, a disciple of the barbarian philosophy, have composed for you.
   I was born in the land of the Assyrians, having been first instructed in your doctrines, and afterwards
   in those which I now undertake to proclaim.
+modern_rendering: >-
+  I, Tatian, a follower of non-Greek philosophy, have composed these things for you,
+  Greeks. I was born in the land of the Assyrians. I was first instructed in your
+  teachings, and afterward in the ones I now proclaim.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether they felt themselves outsiders to the Greek world"
   - "participant asks what it cost to belong to a people the empire thought barbarian"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---

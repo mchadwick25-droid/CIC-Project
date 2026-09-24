@@ -3,7 +3,7 @@ id: pahc.witness.god-and-argument
 world_id: post-apostolic-house-church
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -32,7 +32,6 @@ retrieval:
   - "participant asks what this world believed about God"
   - "participant asks what this world argued about among itself"
   - "participant asks about church councils"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.those-who-lived-reasonably-are-christians

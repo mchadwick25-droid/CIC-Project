@@ -3,7 +3,7 @@ id: hal.quote.she-put-on-sackcloth
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -20,7 +20,15 @@ sources:
     Letter LXXVII (to Oceanus, on the death of Fabiola), sec. 4 (npnf206_jerome-principal-works.xml)
   license: public-domain
 text: >-
-  Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever... that at this time Fabiola came to herself? Yet it was then that she put on sackcloth to make public confession of her error. It was then that in the presence of all Rome she stood among the ranks of the penitents.
+  Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever... that at this time Fabiola came to herself? Yet it was then that she put on sackcloth to make public confession of her error. It was then that in the presence of all Rome (in the basilica which formerly belonged to that Lateranus who perished by the sword of Cæsar ) she stood in the ranks of the penitents and exposed before bishop, presbyters, and people—all of whom wept when they saw her weep—her dishevelled hair, pale features, soiled hands and unwashed neck.
+modern_rendering: >-
+  Who would believe it? After her second husband died -- at a time when most widows shake
+  off the yoke of restraint and grow careless, taking more liberty than ever... -- Fabiola
+  instead came to herself. It was then that she put on sackcloth to make public confession
+  of her wrongdoing. It was then, before all Rome, in the basilica that had once belonged
+  to Lateranus (who died by Caesar's sword), that she stood in the ranks of the penitents.
+  Bishop, presbyters, and people watched, weeping to see her weep, as she showed her
+  disheveled hair, pale features, soiled hands, and unwashed neck.
 speaker_or_author: Jerome, Letter LXXVII on the death of Fabiola
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +39,6 @@ retrieval:
   - "participant asks whether someone divorced or remarried could belong here"
   - "participant asks what happened to people who broke this world's rules"
   - "participant asks whether there was a way back after a public failure"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.marriage-ending
@@ -42,3 +49,14 @@ Opened 2026-08-27 for F6-T, served by hal.dw.marriage-ending alone, which cites 
 The closing clause is quoted from the sentence's continuation in the letter rather than paraphrased,
 and the record is deliberately the restoration rather than the offence: this world's own hard-place
 answer is that the way back existed and was walked in public.
+
+Quote-verbatim gate fix (2026-09-22): the closing sentence had three defects. It silently dropped
+Jerome's own parenthetical naming the basilica ("in the basilica which formerly belonged to that
+Lateranus who perished by the sword of Cæsar") - restored, real content, not apparatus. It read
+"stood among the ranks" where the source has "stood in the ranks" - corrected. And it invented a
+period after "penitents" where the source continues into the vivid description of the public penance
+itself ("exposed before bishop, presbyters, and people... her dishevelled hair, pale features, soiled
+hands and unwashed neck") - restored rather than elided, since this is exactly the "walked in public"
+imagery the record's own gloss already centers on, not a different point. The following rhetorical
+questions ("What sins would such a penance fail to purge away?") are a new turn in the letter's own
+argument and are not included.

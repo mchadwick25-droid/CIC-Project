@@ -3,7 +3,7 @@ id: gallic.story.trier-and-the-ithacian-communion
 world_id: gallic-monastic-ascetic-christianity
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -43,7 +43,7 @@ retrieval:
   - participant asks why Martin avoided bishops or synods, what he thought of the state judging heresy, or about the Priscillianists' execution
   - participant uses "church and state," "persecution of heretics," "excommunication," "compromise"
   - conversation reaches ambivalence toward episcopal, synodal, and imperial authority in its northern valence, power diminished by a bad communion, or the imperial court at Treves
-  do_not_retrieve_when:
+  prefer_instead:
   - participant is asking about Priscillianism as a movement - another world's territory; this story uses the affair only as its occasion
   - participant is asking about the south's opposite valence (Vincent's councils as guarantors - retrieve gallic.term.council-synod, both halves)
   - participant is asking about Martin's healing power in general rather than its one attested loss (retrieve gallic.story.raising-of-the-catechumen or gallic.term.virtus)

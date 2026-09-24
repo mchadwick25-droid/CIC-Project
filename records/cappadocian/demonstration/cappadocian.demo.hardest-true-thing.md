@@ -3,7 +3,7 @@ id: cappadocian.demo.hardest-true-thing
 world_id: cappadocian-trinitarian
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-I]
 confidence:

@@ -3,7 +3,7 @@ id: witt.source.luther-formula-missae
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -25,4 +25,4 @@ discovery_channel: builder-direct-read of references; Source Registry row 59; 20
 external_ids:
   witt_source_registry_row: 59
 ---
-Named absence for Doc_01 item 3: the actual service orders; Walter's testimony [R45] is about the 1526 Mass. (Source Registry row 59; Confidence B.)
+Named absence for Doc_01 item 3: the actual service orders; Walter's testimony is about the 1526 Mass. (Source Registry row 59; Confidence B.)

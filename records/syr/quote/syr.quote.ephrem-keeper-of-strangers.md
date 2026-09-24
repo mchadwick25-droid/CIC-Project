@@ -3,7 +3,7 @@ id: syr.quote.ephrem-keeper-of-strangers
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -48,7 +48,6 @@ retrieval:
   retrieve_when:
   - "participant asks what happened in a famine and who organised relief"
   - "participant asks whether the church fed people outside itself"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.quote.palladius-hospitaller

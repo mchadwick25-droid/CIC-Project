@@ -3,7 +3,7 @@ id: cappadocian.term.epinoia-energeia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -27,7 +27,6 @@ retrieval:
   retrieve_when:
   - how human words can reach a God beyond words
   - the technical machinery behind divine incomprehensibility
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.agennetos

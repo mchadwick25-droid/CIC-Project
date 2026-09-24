@@ -3,7 +3,7 @@ id: don.dw.the-test-we-took-from-the-text
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -38,7 +38,6 @@ retrieval:
   retrieve_when:
   - participant asks what we looked for in the scriptures that a modern reader might miss
   - participant asks whether the violence in the biblical texts troubled us
-  do_not_retrieve_when: []
 text: >-
   What would you miss? That we were not reading for comfort or for
   doctrine. We were reading for a test we could apply on a Tuesday, in a

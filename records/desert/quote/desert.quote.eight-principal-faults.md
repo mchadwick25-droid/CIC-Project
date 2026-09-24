@@ -3,7 +3,7 @@ id: desert.quote.eight-principal-faults
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -26,9 +26,11 @@ text: >-
   anger, fifthly dejection, sixthly acedia, i.e., listlessness or low spirits, seventhly cenodoxia,
   i.e., boasting or vain glory; and eighthly pride.
 modern_rendering: >-
-  There are eight main faults that attack people. First is gluttony. Second,
-  sexual sin. Third, the love of money. Fourth, anger. Fifth, deep sadness.
-  Sixth, listlessness. Seventh, showing off. And eighth, pride.
+  There are eight main faults that attack people. First is gastrimargia,
+  which means gluttony. Second is fornication. Third is philargyria, that
+  is, avarice, or the love of money. Fourth is anger. Fifth is dejection.
+  Sixth is acedia, that is, listlessness, or low spirits. Seventh is
+  cenodoxia, that is, boasting, or vain glory. Eighth is pride.
 speaker_or_author: Abbot Serapion of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-
@@ -41,7 +43,6 @@ retrieval:
   - "participant asks what temptations they worried about most"
   - "participant asks whether anger, money, food, or sex were the trouble, and how they named such things"
   - "participant asks whether they had a list or a scheme of the passions"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---

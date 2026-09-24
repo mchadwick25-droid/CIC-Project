@@ -3,7 +3,7 @@ id: ijc.demo.argued-about
 world_id: imperial-juridical
 record_type: demonstration
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-I]
 confidence:

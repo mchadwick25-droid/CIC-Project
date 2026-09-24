@@ -3,7 +3,7 @@ id: gallic.term.combat-athlete
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -33,7 +33,7 @@ retrieval:
   - in what order the vices were fought
   - participant uses "spiritual warfare," "struggle," "athlete," "training," or "contest"
   - the order of the eight faults, the full belly and the inner combat, Job as athlete, or the Olympic scrutiny
-  do_not_retrieve_when:
+  prefer_instead:
   - the soldier image as a whole and its literal origin at Tours (retrieve soldier of Christ)
   - a particular fault (retrieve the eight principal faults, accidie)
   - real military service

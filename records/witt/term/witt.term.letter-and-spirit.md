@@ -3,7 +3,7 @@ id: witt.term.letter-and-spirit
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - the letter and the spirit
   - whether Scripture has a hidden meaning beneath the plain one
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Law and Gospel as two kinds of speech (retrieve Law and Gospel) -- this is one
     sense, not two kinds
 relations:
@@ -56,6 +56,6 @@ senses:
 quick_meaning: The plain sense of Scripture is the spiritual sense. No hidden layer beneath it.
 distortion_risk: medium
 ---
-Built from Doc_06 §5 entry 3.5 (the letter and the spirit, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC]. Author Gravity: Luther-only, single-register (the Answer to Emser). Source Registry rows cited: R23, R63. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 3.5 (the letter and the spirit, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC]. Author Gravity: Luther-only, single-register (the Answer to Emser). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

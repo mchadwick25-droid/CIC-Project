@@ -3,7 +3,7 @@ id: desert.source.apophthegmata-patrum
 world_id: desert-monasticism
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -19,7 +19,7 @@ relations:
 - type: associated-with
   target: desert.source.burton-christie-word
 author: "Anonymous compilers (5th-6th c.), collecting the oral sayings tradition of the desert elders and ammas of the 4th-early 5th c."
-work: "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work, and whether strand-porousness is lived reality or editorial artifact is this build's open question, desert.contested.strand-porousness)"
+work: "Apophthegmata Patrum (Sayings of the Desert Fathers) - the Alphabetical and Systematic collections; this world's central teaching corpus and the broadest witness to its named participants including the ammas (Syncletica, Theodora, Sarah). Compiled in surviving written form AFTER this world's c. 430 close, from oral material originating inside it: every citation carries the compiler screen (selection, arrangement, and possible cross-strand harmonization are the editors' work), and whether that overlap between strands reflects lived reality or later editorial arrangement remains a genuinely open question"
 edition: "VENDORED 2026-08-27: cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt - The Paradise or Garden of the Holy Fathers, Volume II, trans. E. A. Wallis Budge (London: Chatto & Windus, 1907), the Syriac recension of 'Anan-Isho', supplied by Mark. 166,365 words, fourteen thematic chapters, sayings numbered. THIS IS THE SYRIAC, NOT THE GREEK ALPHABETICAL COLLECTION - numbering and often wording differ, so a quote verified here is verbatim FOR BUDGE and its locus says so. Greek: PG 65 (alphabetical), whose only English renderings are in copyright (Ward 1975; Wortley 2013/2014) - see desert.search.greek-alphabetical-pd-english. Modern English consult-only, never quotable: Benedicta Ward, The Sayings of the Desert Fathers (Mowbray, 1975)"
 kind: vendored
 rights_status: "ancient work public-domain; Budge 1907 English now vendored, public domain by date; modern translations copyrighted, consult-only"

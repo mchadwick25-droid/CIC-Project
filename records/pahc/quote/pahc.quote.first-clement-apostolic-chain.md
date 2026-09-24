@@ -3,7 +3,7 @@ id: pahc.quote.first-clement-apostolic-chain
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -18,6 +18,12 @@ sources:
   locus: "42"
   license: public-domain
 text: "The apostles have preached the Gospel to us from the Lord Jesus Christ; Jesus Christ [has done so] from God. Christ therefore was sent forth by God, and the apostles by Christ... And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe."
+modern_rendering: >-
+  The apostles preached the Gospel to us from the Lord Jesus Christ. Jesus Christ did the
+  same from God. So Christ was sent by God, and the apostles were sent by Christ...
+  Preaching in this way through countries and cities, they appointed the first-fruits of
+  their labor as bishops and deacons of those who would afterward believe, having first
+  tested them by the Spirit.
 speaker_or_author: "pahc.figure.church-of-rome"
 license: verbatim
 modern_lens_note: >
@@ -32,7 +38,6 @@ retrieval:
   retrieve_when:
   - "participant asks how they knew their practice went back to the apostles"
   - "participant asks who appointed leaders and on whose authority"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.quote.they-appointed-the-first-fruits

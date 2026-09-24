@@ -3,7 +3,7 @@ id: ijc.term.presbeia
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -31,7 +31,7 @@ retrieval:
   - Canon 3 of 381 or Canon 28 of 451
   - why a see's importance would follow the emperor's residence
   - the dispute at Chalcedon over rank
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is really about Rome's differently-grounded claim (primatus instead)
 relations:
 - {type: associated-with, target: ijc.term.primatus}

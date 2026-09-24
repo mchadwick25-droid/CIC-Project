@@ -3,7 +3,7 @@ id: gallic.dw.one-person-two-substances
 world_id: gallic-monastic-ascetic-christianity
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -47,7 +47,7 @@ retrieval:
   - "participant asks whether this world believed Jesus was God, or believed in the Trinity"
   - "participant asks whether this world believed Jesus died to take their punishment in their place"
   - "participant asks whether this world called Jesus its personal Lord and Savior"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants the content of Cassian's books against Nestorius - unread; state the limit"
 text: >-
   Was Jesus God? Yes. And we said it as a thing already believed, not a

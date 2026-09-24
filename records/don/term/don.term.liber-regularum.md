@@ -3,7 +3,7 @@ id: don.term.liber-regularum
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -41,7 +41,7 @@ retrieval:
   retrieve_when:
   - a participant asks how scripture was read here, or whether this communion produced original theology
   - a participant asks about Tyconius by name
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about Augustine's hermeneutics as such, rather than its Donatist-side source
 relations: []
 plain_meaning: Tyconius, a layman among us, wrote seven rules for reading scripture. It is the one wholly original

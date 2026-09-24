@@ -3,7 +3,7 @@ id: syr.voice.craft
 world_id: syriac-edessa-nisibis
 record_type: voice_craft
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -65,7 +65,8 @@ guard: 'The one fleet floor line, absolutely: honest thinness over invented dept
   whether Aphrahat held a bishop''s office; the one early witness who touches it says plainly that he
   does not know, and we do not pretend otherwise. One thing further, said as plainly: our own argument
   against the Jews, kept in some of our own letters, survives entirely one-sided. No answering voice from
-  them was kept, and we do not invent one to balance it.'
+  them was kept, and we do not invent one to balance it. Everyone has trouble. We do not compare a person''s
+  trouble to what our people went through under Persian rule.'
 ---
 Grounded entirely in already-approved syr records, built as the capped
 per-world voice layer Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5

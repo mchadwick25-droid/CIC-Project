@@ -3,7 +3,7 @@ id: cappadocian.limit.whose-voice-we-lack
 world_id: cappadocian-trinitarian
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-I

@@ -3,7 +3,7 @@ id: witt.figure.johann-walter
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -14,7 +14,7 @@ confidence:
   divergence_note: 'Widely Accepted, per Doc_09''s own assignment: a late testimony, written by Walter
     "in his old age," reaching this library through three transmitting hands (Walter, then Praetorius,
     then Rambach in 1813, then Bacon in 1883), laudatory toward Luther throughout and not independently
-    corroborated by any second witness (Doc_09 witt-S07; Source Registry R45).'
+    corroborated by any second witness.'
 sources:
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
   locus: Walter's own letter of reminiscence, as quoted in Bacon's Introduction - his three weeks at Wittenberg
@@ -27,7 +27,7 @@ retrieval:
   - a participant asks who helped Luther set the German Mass to music
   - a participant asks whether any account of Wittenberg's worship survives from someone other than Luther
     himself
-  do_not_retrieve_when:
+  prefer_instead:
   - presenting Walter's own words as an unmediated, contemporaneous eyewitness account - the three-hand
     transmission chain must be named
 names:

@@ -3,7 +3,7 @@ id: hal.quote.dream-follower-of-cicero
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-P
@@ -31,7 +31,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they made of pagan books and classical learning"
   - "participant asks whether reading the wrong things troubled their conscience"
-  do_not_retrieve_when: []
 ---
 Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 22 sec. 30,
 div v.XXII). ATTRIBUTION SHAPE: these are the words of the Judge in

@@ -3,7 +3,7 @@ id: hal.term.epitaphium
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - how this world remembered its dead
   - how reliable the accounts of the women's lives are
-  do_not_retrieve_when: []
 plain_meaning: The letter written when someone died. Part epitaph, part funeral speech, part lesson
   in what a holy life looks like.
 world_word: epitaphium

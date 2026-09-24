@@ -3,7 +3,7 @@ id: witt.gravity.bodily-presence
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -56,9 +56,9 @@ classification: supporting
 description: '''It is the true body and blood of our Lord Jesus Christ, in and under the bread and wine''
   (LC 4075-4077); ''the Body and Blood of Christ are truly present, and are distributed to those who eat
   the Supper of the Lord; and they reject those that teach otherwise'' (AC 322-324). SIX-TEST SUMMARY
-  (Doc_04 §3 G10) -- the THINNEST row in the matrix, and the Framework''s own warning sign surfaced rather
+  -- the THINNEST row in the matrix, and the Framework''s own warning sign surfaced rather
   than smoothed: Repetition passes (treatise 1519/1520, catechesis, confession, one word in Bondage);
-  Dependency scores ''p'' -- Doc_01''s world-boundary against the Reformed depends on it, and G3 depends
+  Dependency scores ''p'' -- the world-boundary against the Reformed depends on it, and G3 depends
   on it for its content at the Supper, but nothing in the formation PROGRAM depends on the mode of presence
   as distinct from the promise; Formation scores ''p'' -- taught in the catechisms, but its formative
   edge (what it meant to hold this against neighbours who did not) is not in the library; Explanatory
@@ -74,11 +74,11 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   the bodily presence organizes little beyond the Supper itself; this does not doubt that the doctrine
   mattered enormously to this world''s boundary, only that the evidence for that mattering is not yet
   vendored. CONFIDENCE/GRAVITY CROSS-CHECK: DIVERGENCE, of the INVERSE kind -- the assigned world-boundary
-  weight exceeds what the library shows organizing, while the doctrine''s own evidence is Documented;
+  weight exceeds what the library shows organizing, while the doctrine''s own evidence is well attested;
   the classification follows the library and does not import weight from outside it. ''Supporting'' is
   not to be read as ''minor.'' Register-and-voice spread: 3/4, no non-founder trace. Reception-side status:
   the founder''s own 1520 claim about ''the simple faith... among the common people'' -- Documented as
-  claim, Inferential-Thin as fact. FORCES-CONNECTION NOTATION (Doc_04 §3 G10; Doc_08 §5): held unchanged
+  claim, Inferential-Thin as fact. FORCES-CONNECTION NOTATION: held unchanged
   across every phase read -- ''truly contained'' (1520), ''in and under'' (1529), ''truly present'' (1530)
   -- no shift in the texts; intensified under a force the library cannot show -- the Marburg Colloquy
   of 1529 is visible here only as the Confession''s ''they reject those that teach otherwise'' and one

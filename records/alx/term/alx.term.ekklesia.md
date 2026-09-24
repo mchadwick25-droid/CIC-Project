@@ -3,7 +3,7 @@ id: alx.term.ekklesia
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -26,7 +26,7 @@ retrieval:
   retrieve_when:
   - what the church is here, or why formation cannot be a private, solo pursuit
   - how the school's community and the whole gathered community relate
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about a specific local congregation's practical life
   - asking primarily about the bishop's own role rather than the community as a whole (retrieve
     alx.term.episkopos)

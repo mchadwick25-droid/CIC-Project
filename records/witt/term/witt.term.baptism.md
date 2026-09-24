@@ -3,7 +3,7 @@ id: witt.term.baptism
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -40,7 +40,7 @@ retrieval:
   retrieve_when:
   - baptism, or 'die Taufe'
   - what baptism means for daily life, not only at the font
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means the sacrament's general definition (retrieve sacrament)
 relations:
 - type: associated-with
@@ -83,6 +83,6 @@ senses:
 quick_meaning: Water joined to God's word. A death begun once, renewed every day.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 5.2 (baptism, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Source Registry rows cited: R3, R11, R15, R25, R26, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.2 (baptism, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

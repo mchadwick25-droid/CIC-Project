@@ -3,7 +3,7 @@ id: witt.source.wikipedia-on-the-jews-and-their-lies
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: source
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -25,4 +25,4 @@ discovery_channel: WebFetch; Source Registry row 83; 2026-09-15
 external_ids:
   witt_source_registry_row: 83
 ---
-The content characterizations at Doc_02 §12.3–12.4 only, at Widely Accepted, not Documented; never quoted as Luther's words — no phrase from either treatise carried in quotation marks; to be replaced by R75/R77/LW 46–47 when those are read. (Source Registry row 83; Confidence B.)
+The content characterizations at Doc_02 §12.3–12.4 only, at Widely Accepted, not Documented; never quoted as Luther's words — no phrase from either treatise carried in quotation marks; to be replaced by LW 46–47 when those are read. (Source Registry row 83; Confidence B.)

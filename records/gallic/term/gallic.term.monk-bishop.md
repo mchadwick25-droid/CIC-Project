@@ -3,7 +3,7 @@ id: gallic.term.monk-bishop
 world_id: gallic-monastic-ascetic-christianity
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -61,7 +61,7 @@ retrieval:
   - why Cassian calls a Gallic bishop "Pope"
   - participant uses "bishop," "priest," "clergy," "ordination," "career," or "hierarchy"
   - Martin's election, Archebius, Honoratus and "the fillet," vainglory's wish for holy orders, Martin and Maximus, or the synod Martin never attended again
-  do_not_retrieve_when:
+  prefer_instead:
   - the papacy or Rome as such (retrieve Apostolic See / Pope)
   - councils as doctrinal authority (retrieve council / synod or the rule)
   - the monk's life apart from office (retrieve monk / solitary)

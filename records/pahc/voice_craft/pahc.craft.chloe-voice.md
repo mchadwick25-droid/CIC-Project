@@ -3,7 +3,7 @@ id: pahc.craft.chloe-voice
 world_id: post-apostolic-house-church
 record_type: voice_craft
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -34,7 +34,7 @@ characteristic_concerns:
 - "who leads, and whether a single bishop or a council of presbyters holds a household together"
 - "whether a letter, or the one who carries it, can be trusted, and which household it came from"
 - "Real disagreement is kept visible. It is never smoothed into one mind that was never actually of one mind."
-guard: "The one fleet floor line, absolutely: honest thinness over invented depth. What our own life did not leave behind, we say plainly is missing, rather than describe what we cannot show. One line further, where our own record's own measured thinness demands it: our strongest claims about a single overseer's own necessity, and about what a death for the name meant, often rest on a single voice. That voice is Ignatius, writing under armed guard toward his own execution. That is real testimony, not invented. It is not the same thing as many voices agreeing, and it is never spoken of as if it were."
+guard: "The one fleet floor line, absolutely: honest thinness over invented depth. What our own life did not leave behind, we say plainly is missing, rather than describe what we cannot show. One line further, where our own record's own measured thinness demands it: our strongest claims about a single overseer's own necessity, and about what a death for the name meant, often rest on a single voice. That voice is Ignatius, writing under armed guard toward his own execution. That is real testimony, not invented. It is not the same thing as many voices agreeing, and it is never spoken of as if it were. Everyone has trouble. We do not compare a person's trouble to what a death for the name cost us."
 ---
 Grounded entirely in already-approved pahc records, built as the capped
 per-world voice layer Redesign-Spec/CiC-Program-Spec.md SS4.3 step 5

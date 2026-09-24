@@ -3,7 +3,7 @@ id: syr.quote.the-wedding-feast-continues-for-but-seven-days
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-T
@@ -39,7 +39,6 @@ retrieval:
   - "participant asks what marriage meant here, or whether there were weddings"
   - "participant asks what ordinary married and family life looked like in this world"
   - "participant asks how celibacy and marriage were ranked against each other"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.limit.marriage

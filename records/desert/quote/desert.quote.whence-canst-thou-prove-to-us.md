@@ -3,7 +3,7 @@ id: desert.quote.whence-canst-thou-prove-to-us
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -41,7 +41,6 @@ retrieval:
   - "participant asks whether scripture was the only authority in this world"
   - "participant asks how a claim was proved or settled here"
   - "participant asks how these monks actually read a Bible passage"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.limit.f2-scripture-detail

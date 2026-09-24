@@ -3,7 +3,7 @@ id: don.dw.what-belonging-cost
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -57,7 +57,6 @@ retrieval:
   retrieve_when:
   - participant asks whether belonging cost us anything
   - participant asks what held our people together across distance or separation
-  do_not_retrieve_when: []
 text: >-
   It cost, and we can put figures on part of it, because the state wrote
   them down. Our buildings were confiscated. Our clergy were exiled. An

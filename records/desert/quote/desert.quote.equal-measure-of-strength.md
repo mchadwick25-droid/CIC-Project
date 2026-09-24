@@ -3,7 +3,7 @@ id: desert.quote.equal-measure-of-strength
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -31,9 +31,10 @@ text: >-
   also gave an equal measure of strength of will as unto men, so that they might have no cause for
   being feeble in the performance of the labour of ascetic excellence.
 modern_rendering: >-
-  Now we must also remember the chosen and mighty women. God gave them
-  strength of will equal to the men's. So they had no excuse for weakness in
-  the hard work of this way of life.
+  Now it is necessary for us to also remember the chosen and mighty women.
+  God gave them an equal measure of strength of will as he gave men. This
+  was so that they would have no cause for being feeble in the
+  performance of the labor of ascetic excellence.
 speaker_or_author: Palladius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-
@@ -48,7 +49,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether women were thought capable of this life"
   - "participant asks how the men writing these accounts spoke about women"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.spiritual-combat

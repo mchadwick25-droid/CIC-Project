@@ -3,7 +3,7 @@ id: ijc.quote.secular-ruler-ecclesiastical-cause
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-P
@@ -23,6 +23,12 @@ text: For Martin, being then settled at Treves, did not cease to importune Ithac
   in question. He maintained that it was quite sufficient punishment that, having been declared heretics
   by a sentence of the bishops, they should have been expelled from the churches; and that it was, besides,
   a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause.
+modern_rendering: >-
+  Martin was then staying at Trier. He did not stop pressing Ithacius to drop his
+  accusations, or begging Maximus not to shed the blood of these unfortunate people. He
+  argued that it was punishment enough that, once the bishops had declared them heretics,
+  they should be expelled from the churches. He also argued that it was, besides, a
+  shameful and unheard-of disgrace for a secular ruler to act as judge in a church matter.
 speaker_or_author: Sulpicius Severus, reporting Martin of Tours at Trier in 385
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +41,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the state ever executed Christians for heresy"
   - "participant asks whether anyone objected to handing a church matter to a court"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 - {type: illustrates, target: ijc.gravity.orthodoxy-enforcement}

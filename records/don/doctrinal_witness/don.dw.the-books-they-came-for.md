@@ -3,7 +3,7 @@ id: don.dw.the-books-they-came-for
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -48,7 +48,6 @@ retrieval:
   - participant asks what we actually had about Jesus - writings, memories, people
   - participant asks how the faith reached us and from where
   - participant asks whether anyone among us had known an eyewitness
-  do_not_retrieve_when: []
 text: >-
   What we had about Jesus was books. That is not a figure of speech with
   us - it is the whole of our history. When the persecution opened, the

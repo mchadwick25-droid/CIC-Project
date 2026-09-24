@@ -3,7 +3,7 @@ id: gallic.figure.honoratus
 world_id: gallic-monastic-ascetic-christianity
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -44,7 +44,7 @@ names:
 - name: Honoratus of Lerins, later bishop of Arles (d. c. 429/430)
   tag: scholarly
 dates:
-  display: "founded the community on the island of Lerins c. 400-410 (410 on the vendored volume's editorial introduction); addressed by Cassian as a brother presiding over a large monastery, then as a bishop - the see identified as Arles, from 426, only by the editorial apparatus; d. c. 429/430, the year his disciple and successor Hilary preached his life"
+  display: "founded the community on the island of Lerins c. 400-410 (410 on the surviving volume's editorial introduction); addressed by Cassian as a brother presiding over a large monastery, then as a bishop - the see identified as Arles, from 426, only by the editorial apparatus; d. c. 429/430, the year his disciple and successor Hilary preached his life"
 narratable: true
 bridge_line: >-
   The founder who went unafraid onto a serpent-haunted island with a psalm in his mouth, pitched a camp

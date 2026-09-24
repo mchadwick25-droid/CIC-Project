@@ -3,7 +3,7 @@ id: desert.quote.womens-house-across-the-river
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -37,6 +37,21 @@ text: >-
   the latter see the faces of the former. And [the women] reached the number of one hundred and
   eighty, and these [the men] three hundred and forty; and he commanded them that they should be
   exceedingly careful not to see their [the women's] faces nor hear their voices.
+modern_rendering: >-
+  His sister by blood loved the monastic life. He cut her hair, put a belt around her,
+  and made a dwelling for her alone, on the other side of the river, a mile away. At her
+  instigation, virgins and widows collected together and became truly good. No one
+  crossed over to them, except those who had been ordained by Abba Pachomius, and chosen
+  ones, on the fixed festival days of our Lord.
+
+  When one of these women went to her rest, the sisters sang psalms over her, adorned
+  her in holiness, and wrapped her in linen. And the brothers received her on a raft and
+  buried her in their own place.
+
+  But the men never saw the women's faces, and the women never saw the men's faces. The
+  women reached the number of one hundred and eighty, and the men three hundred and
+  forty. He commanded them to take great care never to see the women's faces or hear
+  their voices.
 speaker_or_author: the Ethiopic recension of the Rule, Part II
 license: verbatim
 modern_lens_note: >-
@@ -52,7 +67,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether there were women's communities and where they were"
   - "participant asks how men and women in this world were kept apart, and what crossed between them"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.koinonia

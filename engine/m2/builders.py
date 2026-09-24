@@ -778,10 +778,44 @@ def build_figures_json(records: dict) -> bytes:
 #   other fields; none of these four has a runtime consumer (verified by
 #   grep outside gates/schemas; the fallback already excluded
 #   modern_lens_note by name) and all are stripped at compile.
+# - facilitator_brief rows (added 2026-09-21, website-card-redesign-to-main):
+#   `audience: facilitator` by the record's own schema - a compiled brief
+#   for the human Facilitator, never a claim the Representative's own voice
+#   speaks from (CLAUDE.md's "Safety comes first": redirect and crisis
+#   handling are Facilitator-governed, never the Representative's). The
+#   same unfiltered fulltext fallback that motivated excluding search_record
+#   applies here with higher stakes - excluded from the package entirely,
+#   same as search_record, until a real Facilitator-surface consumer needs
+#   its own dedicated, audience-checked read path.
+# - world_front rows (added 2026-09-21, website-card-redesign-to-main): each
+#   one's own divergence_note calls it "a compiled front door over this
+#   world's own already-rated records," and its `export.include_types`
+#   names exactly those already-retrievable atomic types (story, quote,
+#   figure, term, contested_claim, honest_limit, doctrinal_witness,
+#   gravity, force, source) it rolls up. The operative, individually-cited
+#   ground already ships via those records; shipping the rollup too would
+#   let a live turn retrieve and cite its etic, third-person Atlas-panel
+#   prose instead of the primary record it was built from. Excluded from
+#   the package entirely, same reasoning as the four stripped fields above.
 #
 # M1 gates still validate everything on the records themselves - this
 # changes what ships, never what is authored or checked.
-_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record"}
+#
+# world_front/facilitator_brief added to this set 2026-09-19 (Website V2
+# world_front design, approved to proceed) for a sharper reason than build
+# residue: this is the ONE place in the M2 compiler that processes every
+# record type by default (a denylist, not an allowlist like CHUNK_DIR_BY_
+# TYPE/build_prompt/build_capsule above). Left unexcluded, either type
+# would ship into compiled/repository.json - which engine.m4.evidence's
+# own _fulltext_fallback_candidates() then walks with NO record-type
+# filter at all (its own docstring: "searches _fallback_search_text(),
+# ... this stage needs the wider net to find the record at all") - so a
+# participant's word choice sharing a term with a world_front's own
+# etic prose could surface a website-authoring record as live evidence in
+# a real turn. That is exactly the reach into the Representative's own
+# voice assembly this record type must never have, so both types are
+# excluded here, not just left off the chunk/prompt/capsule allowlists.
+_PACKAGE_EXCLUDED_RECORD_TYPES = {"search_record", "world_front", "facilitator_brief"}
 _PACKAGE_STRIPPED_FIELDS = {"why_sources_cannot_answer", "modern_lens_note", "discovery_channel", "narrative_tier_justification"}
 
 

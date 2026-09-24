@@ -1,11 +1,13 @@
 /**
- * Build-Plan.md Stage 3c: "ship behind a flag defaulting to current
- * behavior until R10 and label copy are ruled." No mock here - this file
- * exercises VoiceTurnBody exactly as every existing caller already does,
- * with VITE_TRANSPARENCY_ANCHOR_RENDERER unset, proving the flag's
- * default keeps today's production behavior untouched - including its
- * known completeness gap, reproduced here on purpose so the fix in
- * VoiceTurnBody.test.tsx has something concrete to be a fix FOR.
+ * Tests the legacy renderer, which stays reachable whenever a turn has no
+ * `transparency` plan - regardless of the flag's own default. No
+ * mock here: exercises VoiceTurnBody exactly as a caller with no
+ * `transparency` plan on the turn does (an older logged session, or a
+ * turn whose transparency plan was never computed) - VoiceTurnBody's own top-level export falls
+ * back to the legacy renderer whenever `transparency` is absent,
+ * regardless of the flag. Its known completeness gap is reproduced here
+ * on purpose, so the fix in VoiceTurnBody.test.tsx has something concrete
+ * to be a fix FOR.
  */
 import { render } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
@@ -21,7 +23,7 @@ function citation(sentence: string, recordId: string, recordType: string, label:
   return { citation: { sentence, record_ids: [recordId], sources: [c] }, card: c };
 }
 
-describe('VoiceTurnBody - legacy renderer stays the default', () => {
+describe('VoiceTurnBody - legacy renderer, reachable with no transparency plan on the turn', () => {
   it('renders an ordinary single citation the same way it always has', () => {
     const s0 = citation('An ordinary sentence with one citation.', 'fix.story.a', 'story', 'Story A');
     const { container } = render(<VoiceTurnBody text={s0.citation.sentence} citations={[s0.citation]} />);

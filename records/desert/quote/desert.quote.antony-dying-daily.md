@@ -3,7 +3,7 @@ id: desert.quote.antony-dying-daily
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I]
 confidence:
@@ -16,7 +16,11 @@ sources:
 - source_id: desert.source.athanasius-vita-antonii
   locus: "SS19 - from Antony's extended discourse to the gathered brothers"
   license: public-domain
-text: "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, 'I die daily.' For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
+text: "...let us hold fast our discipline, and let us not be careless... But to avoid being heedless, it is good to consider the word of the Apostle, \"I die daily .\" For if we too live as though dying daily, we shall not sin... For our life is naturally uncertain, and Providence allots it to us daily."
+modern_rendering: >-
+  Let us hold on to our discipline. Let us not grow careless. ... To avoid carelessness, it helps to
+  remember the Apostle's words: "I die daily." If we too live each day as if we were dying, we will
+  not sin. ... Our life is uncertain by nature. Providence gives it to us one day at a time.
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "\"I die daily\" risks a modern misreading as describing depression, chronic suffering, or a wish for death - the phrase's most available modern register. The quote's own words guard against exactly that reading in the same breath (\"if we too live as though dying daily, we shall not sin\"): this names a daily readiness for mortality as fuel for discipline, not a description of despair."
@@ -26,7 +30,6 @@ retrieval:
   - "participant asks how anyone kept going day after day at something this hard"
   - "participant asks whether they thought about dying, and whether that thought helped or frightened"
   - "participant asks what kept the practice from going stale"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.gravity.withdrawal
@@ -63,3 +66,7 @@ children," unmarked - the vendored sentence is "Wherefore, children,
 let us hold fast our discipline..." - corrected above with a leading
 ellipsis, matching the convention this record already uses for its two
 internal elisions.
+
+Quote-verbatim gate fix (2026-09-22): the nested quotation around "I die daily" used single quote
+marks (apostrophe class); the source uses double quote marks (a distinct class) with its own space
+before the closing period ("daily ."). Corrected to match the source's actual mark and spacing.

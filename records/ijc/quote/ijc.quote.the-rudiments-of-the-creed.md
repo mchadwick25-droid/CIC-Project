@@ -3,7 +3,7 @@ id: ijc.quote.the-rudiments-of-the-creed
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -20,7 +20,12 @@ sources:
     Letter XXVIII (the Tome), sec. 1 (npnf212_leo-great-gregory-great.xml, from line 5099)
   license: public-domain
 text: >-
-  For what learning has he acquired about the pages of the New and Old Testament, who has not even grasped the rudiments of the Creed? And that which, throughout the world, is professed by the mouth of every one who is to be born again, is not yet taken in by the heart of this old man.
+  For what learning has he acquired about the pages of the New and Old Testament, who has not even grasped the rudiments of the Creed? And that which, throughout the world, is professed by the mouth of every one who is to be born again , is not yet taken in by the heart of this old man.
+modern_rendering: >-
+  This man has not even grasped the basics of the Creed. So what has he learned about the
+  pages of the New and Old Testament? That which, throughout the world, is spoken by the
+  mouth of everyone who is about to be born again is not yet taken into the heart of this
+  old man.
 speaker_or_author: Leo of Rome, Letter XXVIII (the Tome), sec. 1
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   - "participant asks whether scripture was the only authority here"
   - "participant asks what a person had to know before they could read the Bible well"
   - "participant asks how the creed stood in relation to the Bible"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.term.tomus
@@ -40,3 +44,6 @@ Opened 2026-08-27 for F2-T, served by ijc.term.tomus alone. The instrument ruled
 and was wrong: the record's locus is 'Ep. XXVIII (npnf212 line 5099)', which names a letter AND a line
 number. The classifier's specific-locus pattern had no case for 'Ep.' and none for a bare line
 reference, so it read one of the most precise loci in the corpus as vague.
+
+Quote-verbatim gate fix (2026-09-22): restored the source's own space before a comma ("again ,") that
+the record had closed up. No wording changed.

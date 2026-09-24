@@ -5,7 +5,7 @@
  * round-in-progress state while voices answer in turn, and the sitting's
  * own close (the table session round cap, engine.m4.round.
  * TABLE_SESSION_ROUND_CAP, surfaced from the API rather than a guessed
- * number - Stage 0c, Build-Plan.md) rather than an open-ended end.
+ * number) rather than an open-ended end.
  *
  * The seated-arrival strip relocates the Doorway's approved disclosure
  * prose the same way the interview Arrival does; the one adaptation is
@@ -94,6 +94,17 @@ export function TableRoom({
         </div>
 
         {turns.map((turn, i) => {
+          // The seat-identity guard's own exhausted case:
+          // engine.api.table_wiring writes this voice_turn with
+          // deliberately empty text - "the voice's text is not shown" -
+          // and a facilitator_turn (kind: seat_correction) carries the
+          // honest line instead. Rendering an empty turn--voice bubble
+          // here (portrait, name, nothing underneath) would still be
+          // showing that this seat had a turn, just with blank content -
+          // not the same as not shown.
+          if (turn.speaker !== 'participant' && turn.speaker !== 'facilitator' && !turn.text) {
+            return null;
+          }
           if (turn.speaker === 'participant') {
             return (
               <div key={i} className="turn turn--participant">

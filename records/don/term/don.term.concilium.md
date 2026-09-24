@@ -3,7 +3,7 @@ id: don.term.concilium
 world_id: donatism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -37,7 +37,7 @@ retrieval:
   retrieve_when:
   - a participant asks how disputes inside this communion were settled
   - a participant asks about Cebarsussi or Bagai
-  do_not_retrieve_when:
+  prefer_instead:
   - the question is about the ecumenical councils of the same century
 relations:
 - type: enabled-by

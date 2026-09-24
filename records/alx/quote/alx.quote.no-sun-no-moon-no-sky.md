@@ -3,7 +3,7 @@ id: alx.quote.no-sun-no-moon-no-sky
 world_id: alexandria-catechetical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-T
@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   For who that has understanding will suppose that the first, and second, and third day, and the evening and the morning, existed without a sun, and moon, and stars? and that the first day was, as it were, also without a sky? And who is so foolish as to suppose that God, after the manner of a husbandman, planted a paradise in Eden, towards the east, and placed in it a tree of life, visible and palpable, so that one tasting of the fruit by the bodily teeth obtained life?
+modern_rendering: >-
+  What wise person could suppose that day one, and day two, and day
+  three, and their evenings and mornings, existed without a sun, and
+  moon, and stars? Could such a person think the first day existed
+  without a sky too? Who is foolish enough to suppose that God, like a
+  farmer, planted a garden in Eden, toward the east? Who would think he
+  placed in it a tree of life, visible and touchable, so that one who
+  tasted its fruit with bodily teeth would obtain life?
 speaker_or_author: Origen of Alexandria, On First Principles IV.1.16
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +39,6 @@ retrieval:
   - "participant asks whether the creation account was read as history or as something else"
   - "participant asks how this world read a difficult or impossible passage of scripture"
   - "participant asks whether a literal reading was the original reading"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.term.interpretation

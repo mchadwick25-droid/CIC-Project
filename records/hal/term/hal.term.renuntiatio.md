@@ -3,7 +3,7 @@ id: hal.term.renuntiatio
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - wealth, money, giving, and what it cost to join this world
   - how someone entered this way of life
-  do_not_retrieve_when: []
 plain_meaning: Giving up wealth, marriage prospects, and social rank on purpose, as an act of devotion
   to Christ.
 world_word: renuntiatio

@@ -3,7 +3,7 @@ id: syr.quote.ephrem-resurrection-pledge
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-E
@@ -21,10 +21,10 @@ sources:
 text: For our Lord gave His resurrection as a pledge to mortals, that He would remove them from Sheol,
   which receives the departed without distinction, to the Kingdom which admits the invited with distinction
 modern_rendering: >-
-  For our Lord gave his resurrection as a promise to us who die. He will move
-  us out of Sheol, the place of the dead, which takes everyone in without
-  telling anyone apart. And he will bring us into the Kingdom, which welcomes
-  the invited and knows each one.
+  For our Lord gave his resurrection as a pledge to mortals. He would
+  remove them from Sheol, which receives the departed without
+  distinction. He would bring them to the Kingdom, which admits the
+  invited with distinction.
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: '''Sheol'' is the Hebrew Bible''s own term for the realm of the dead,
@@ -35,7 +35,6 @@ retrieval:
   retrieve_when:
   - "participant asks what they believed happened after death"
   - "participant asks what they hoped for and what they feared"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Homily on Our Lord).
 

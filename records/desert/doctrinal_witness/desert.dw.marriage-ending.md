@@ -3,7 +3,7 @@ id: desert.dw.marriage-ending
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-T]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether someone whose marriage ended - through betrayal or otherwise - would have had a place in this world"
   - "participant asks whether this world held age or a plain background against someone seeking to join"
-  do_not_retrieve_when: []
 text: "There was a simple, guileless man among us named Paul, married to a woman who betrayed him. He came home one day and found her with another man. He did not rage. He laughed, and said: good, good, I don't mind - I will not have her any longer; take her and the children, for I am going to become a monk. And he walked to where the greatest of us lived and asked to be made one. He was refused at first: at sixty, he was thought too old for the desert. But he would not leave. In the end he was received, tested, and found to have a perfect soul. He went on to become one of the most honored among us, trusted even to do what others could not."
 positions:
 - "a marriage ending through a spouse's own unfaithfulness was not held against the one who was betrayed"

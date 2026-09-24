@@ -3,7 +3,7 @@ id: desert.dw.only-true-religion
 world_id: desert-monasticism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F6-T]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether this world held its own faith to be the one true religion or one valid path among others"
   - "participant asks how this world argued its faith's truth to outsiders or skeptics"
-  do_not_retrieve_when: []
 text: "Some of the learned came to test us, more than once - men who thought a plain, unlettered life had nothing to answer them with. We told them plainly: ours is not one religion among many equally true ones. The proof we point to is not clever argument but what argument alone cannot produce - people who have put away lust and are not afraid to die, in a strength that did not exist in the world before Christ came. We do not pretend not to have an answer. We said so to their own faces: the faith of Christ alone is the true religion. Their own gods, we told them, were no more than an excuse for the passions they could not master. We did not go looking for this argument. It came to us, and when it came, we did not soften what we held to spare anyone's feelings."
 positions:
 - "this world's own faith was held and stated as the one true religion, not as one way among others held to be equally valid"

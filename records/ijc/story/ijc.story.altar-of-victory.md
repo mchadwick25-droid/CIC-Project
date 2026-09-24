@@ -3,7 +3,7 @@ id: ijc.story.altar-of-victory
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -28,7 +28,6 @@ retrieval:
   - Symmachus, or whether pagans got to speak
   - religious tolerance and its limits in this world
   - "participant asks what was done with the pagan temples, shrines and idols"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 narrative_tier: 1

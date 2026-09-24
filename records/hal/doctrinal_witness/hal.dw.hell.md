@@ -3,7 +3,7 @@ id: hal.dw.hell
 world_id: hieronymian-ascetic-literary
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -23,7 +23,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   Do you believe people like me are going to hell? Here is what we
   actually held, without softening. We believed in real judgment and real

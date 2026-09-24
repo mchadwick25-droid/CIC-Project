@@ -3,7 +3,7 @@ id: desert.quote.grace-and-free-will-in-harmony
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F1-T]
 confidence:
@@ -19,8 +19,8 @@ sources:
 text: "These two then; viz., the grace of God and free will seem opposed to each other, but really are in harmony, and we gather from the system of goodness that we ought to have both alike..."
 modern_rendering: >-
   These two things - God's grace and our free will - look like opposites.
-  Really they work together. Goodness itself tells us we need to hold on to
-  both...
+  Really they work together. From the system of goodness, we gather that
+  we ought to have both alike...
 speaker_or_author: Abbot Chaeremon, as Cassian reports him in the Conferences
 license: verbatim
 modern_lens_note: "\"Free will\" here is not the modern autonomy question. It is whether a person's own effort can begin or complete their salvation - the fifth-century argument between Augustine's followers and the Gallic monks, which this Conference sits inside and which later went against it."
@@ -30,7 +30,6 @@ retrieval:
   - "participant asks whether salvation comes by faith or by works"
   - "participant asks where grace comes into a life this disciplined"
   - "participant asks whether these people thought they earned anything"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.grace-and-effort

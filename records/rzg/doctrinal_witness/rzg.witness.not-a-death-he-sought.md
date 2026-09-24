@@ -3,7 +3,7 @@ id: rzg.witness.not-a-death-he-sought
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-E
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - participant asks whether Zwingli's own death at Kappel was a sought martyrdom, or presses the 'death
     wish' framing directly
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: rzg.story.myconius-account-of-zwinglis-death

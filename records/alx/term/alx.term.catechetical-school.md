@@ -3,7 +3,7 @@ id: alx.term.catechetical-school
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -41,7 +41,7 @@ retrieval:
   retrieve_when:
   - whether the Alexandrian catechetical school was a real, formal institution
   - the succession of teachers from Pantaenus through Clement, Origen, and Didymus
-  do_not_retrieve_when:
+  prefer_instead:
   - asking what studying under a teacher was like, rather than the institutional question (retrieve
     alx.term.didaskalos)
   - the teacher's own record has already surfaced this contest in the current turn

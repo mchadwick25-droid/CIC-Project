@@ -3,7 +3,7 @@ id: alx.term.martys
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -26,7 +26,6 @@ retrieval:
   retrieve_when:
   - persecution/martyrdom questions
   - death-wish challenge questions
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: alx.gravity.martyrdom-contemplative-tension

@@ -3,7 +3,7 @@ id: pahc.quote.ignatius-truly-born
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -18,6 +18,13 @@ sources:
   locus: "Trallians 9, shorter (middle) recension"
   license: public-domain
 text: "Stop your ears, therefore, when any one speaks to you at variance with Jesus Christ, who was descended from David, and was also of Mary; who was truly born, and did eat and drink. He was truly persecuted under Pontius Pilate; He was truly crucified, and [truly] died, in the sight of beings in heaven, and on earth, and under the earth. He was also truly raised from the dead, His Father quickening Him, even as after the same manner His Father will so raise up us who believe in Him by Christ Jesus, apart from whom we do not possess the true life."
+modern_rendering: >-
+  So stop your ears when anyone speaks to you against Jesus Christ. He was descended from
+  David, and also from Mary. He was truly born, and he truly ate and drank. He was truly
+  persecuted under Pontius Pilate. He was truly crucified, and he truly died, in sight of
+  beings in heaven, on earth, and under the earth. He was also truly raised from the dead,
+  his Father bringing him back to life. In the same way, his Father will raise us up too, we
+  who believe in him, by Christ Jesus, apart from whom we do not have true life.
 speaker_or_author: pahc.figure.ignatius
 license: verbatim
 modern_lens_note: >
@@ -30,7 +37,6 @@ retrieval:
   retrieve_when:
   - "participant asks who they held Jesus to be, and whether he was really human"
   - "participant asks what they said against people teaching otherwise"
-  do_not_retrieve_when: []
 ---
 Checked directly against cic/texts/anf01_apostolic-fathers-justin-
 irenaeus.xml, div1 v (Trallians, shorter/middle recension column, ch.

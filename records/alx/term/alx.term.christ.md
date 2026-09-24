@@ -3,7 +3,7 @@ id: alx.term.christ
 world_id: alexandria-catechetical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - Christ used as though it were Jesus's surname, or asked what the title itself means
   - how Christ's death and resurrection connect to the soul's formation
-  do_not_retrieve_when:
+  prefer_instead:
   - asking about the Son's status as fully God specifically (retrieve alx.term.son-of-god)
   - asking about Scripture as the Word's living address (retrieve alx.term.word-of-god)
 relations:

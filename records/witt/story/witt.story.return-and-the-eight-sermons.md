@@ -3,7 +3,7 @@ id: witt.story.return-and-the-eight-sermons
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -15,7 +15,7 @@ confidence:
     printed text; Widely Accepted for the surrounding narrative of Luther's departure from the Wartburg
     against the Elector's own wishes and the disorder at Wittenberg under Karlstadt's leadership, per
     the editor's own dating and framing, itself corroborated by Kessler's eyewitness account of the first
-    sermon (Doc_09 witt-S05; Source Registry R15 Primary, R46 Secondary).
+    sermon.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: The Eight Wittenberg Sermons (March 1522), First Sermon, verified verbatim at "Let us beware
@@ -29,7 +29,7 @@ retrieval:
   retrieve_when:
   - a participant asks about restraint, zeal, or internal disagreement within the movement
   - a participant asks what Luther did about Karlstadt, or about the disorder at Wittenberg in his absence
-  do_not_retrieve_when:
+  prefer_instead:
   - extending Karlstadt's own portrait or trajectory beyond what this library's other sources state
   - a participant wants the Peasants' War (1525) - a different, later, and untellable episode from this
     one

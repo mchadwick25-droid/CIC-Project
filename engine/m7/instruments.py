@@ -43,8 +43,20 @@ def _record_ids(citations: list) -> list[str]:
     return ids
 
 
+def _defect_family(d) -> str | None:
+    return d.get("family") if isinstance(d, dict) else None
+
+
 def unread_outputs(s: AuditSession) -> list[Finding]:
-    """§3.1 - the four formerly-unread outputs, surfaced."""
+    """§3.1 - the four formerly-unread outputs, surfaced.
+
+    guard_proximity entries are excluded from this generic bucket - they
+    get their own dedicated instrument (guard_proximity, below) at defect
+    severity, since a barred-claim proximity hit is the one output_check
+    family that is a live fabrication risk, not a cosmetic/register issue
+    like the other three; reporting the identical finding twice at two
+    different severities in the same audit would be noise, not signal.
+    """
     findings = []
     for t in s.voice_turns:
         if t.do_not_voice_violation:
@@ -52,6 +64,8 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
                                     f"content-licensing violation on {t.speaker}'s turn (seq {t.seq}): {t.do_not_voice_violation}",
                                     excerpt=t.text[:200]))
         for d in t.output_defects:
+            if _defect_family(d) == "guard_proximity":
+                continue
             findings.append(Finding("output_defects", "review", s.session_id,
                                     f"output defect on {t.speaker}'s turn (seq {t.seq}): {d}"))
         if t.grounding:
@@ -64,6 +78,24 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
         if t.degraded_by_net:
             findings.append(Finding("degraded_by_net", "info", s.session_id,
                                     f"{t.speaker}'s turn (seq {t.seq}) had no substantive survivor"))
+    return findings
+
+
+def guard_proximity(s: AuditSession) -> list[Finding]:
+    """Build-Plan.md Stage 4b: the guard_proximity family
+    (engine.m4.output_check), read at defect severity - the one
+    output_check family that is a live fabrication risk (a sentence
+    sharing a cited record's own barred claim), not a cosmetic/register
+    issue like the other three. Feeds R14 (Rulings-Pending.md): reports
+    only, same as every instrument in this module, never a block."""
+    findings = []
+    for t in s.voice_turns:
+        for d in t.output_defects:
+            if _defect_family(d) != "guard_proximity":
+                continue
+            findings.append(Finding("guard_proximity", "defect", s.session_id,
+                                    f"{t.speaker}'s turn (seq {t.seq}): {d.get('finding')}",
+                                    excerpt=(d.get("sentence") or "")[:200]))
     return findings
 
 
@@ -132,6 +164,78 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
                 )
         metrics.append(entry)
     return [], metrics
+
+
+_STORY_RECORD_TYPES = frozenset({"story", "quote"})
+_WITNESS_RECORD_TYPES = frozenset({"doctrinal_witness"})
+
+
+def _legacy_anchor_marks(anchors: list[dict]) -> int:
+    """A plan recorded before per-element placement carries sentence-run
+    `anchors` and no `elements`; counted the way
+    the anchor-era renderer drew it - one mark per (placement, family),
+    witness runs placed at their start, story/quote runs at their end.
+    The frontend now shows such a stored turn through its legacy renderer,
+    which places the same families at run ends; this count is the
+    historical record of what those turns carried, not a live render."""
+    placements: set[tuple[int, str]] = set()
+    for a in anchors:
+        record_type = a.get("record_type")
+        if record_type in _WITNESS_RECORD_TYPES:
+            placements.add((a.get("run_start_sentence"), "witness"))
+        elif record_type in _STORY_RECORD_TYPES:
+            placements.add((a.get("run_end_sentence"), "story"))
+    return len(placements)
+
+
+def level1_element_density(s: AuditSession) -> list[dict]:
+    """Stage 6d / R17 (Rulings-Pending.md, Decision-Log.md Entry 29): "an M7
+    instrument counting Level-1 elements per turn" (Adjusted-Design.md's
+    N2). Report-only, no findings (principle 10: report-only instruments
+    stay report-only until data earns them a bar) - this measures, it
+    does not enforce. Metrics only, same shape as register_mechanical's
+    own metrics half.
+
+    A "Level-1 element" is an inline mark visible directly in the running
+    text, never a Level-2/3 tap-through. Read from transparency.elements
+    (engine.m4.transparency_plan), which is exactly
+    what VoiceTurnBody.tsx's renderFromElements draws - one mark
+    per element, placed at the element:
+    - a citation mark per `quote` or `story` element;
+    - a figure mark per `figure` element;
+    - a gloss mark per `term` element.
+    General references (end_references) are not inline and are not
+    counted. A plan with no `elements` predates per-element placement and
+    is counted from its anchors (_legacy_anchor_marks, with figures_used/
+    glosses for word marks).
+
+    Before the renderer's cap: this counts every candidate, not what
+    survives the cap.
+    """
+    metrics = []
+    for t in s.voice_turns:
+        transparency = t.transparency or {}
+        elements = transparency.get("elements")
+        if elements is not None:
+            kinds = [e.get("kind") for e in elements]
+            citation_marks = sum(k in ("quote", "story") for k in kinds)
+            figure_marks = kinds.count("figure")
+            gloss_marks = kinds.count("term")
+        else:
+            citation_marks = _legacy_anchor_marks(transparency.get("anchors") or [])
+            figure_marks = len(t.figures_used)
+            gloss_marks = len(t.glosses)
+        sentence_count = len([x for x in re.split(r"(?<=[.!?])\s+", t.text.strip()) if x.strip()])
+        metrics.append({
+            "seq": t.seq,
+            "speaker": t.speaker,
+            "citation_marks": citation_marks,
+            "figure_marks": figure_marks,
+            "gloss_marks": gloss_marks,
+            "level1_total": citation_marks + figure_marks + gloss_marks,
+            "sentence_count": sentence_count,
+        })
+    return metrics
 
 
 def ask_coverage(s: AuditSession) -> list[Finding]:
@@ -342,6 +446,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         unread_outputs(s) + isolation(s) + reg_findings + ask_coverage(s)
         + repetition(s) + cross_voice_echo(s) + safety_review(s)
         + register_frame(s, names) + encounter_openings(s) + governance(s)
+        + guard_proximity(s)
     )
     return {
         "session_id": s.session_id,
@@ -358,6 +463,7 @@ def run_all(s: AuditSession, names: dict[str, list[str]] | None = None) -> dict:
         },
         "findings": findings,
         "register_metrics": reg_metrics,
+        "level1_element_density": level1_element_density(s),
         "offer_rates": offer_rates(s),
         "cited_record_ids": cited_ids(s),
         "canon_asks": canon_candidate_asks(s),

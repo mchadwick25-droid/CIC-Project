@@ -3,7 +3,7 @@ id: hal.term.hebraica-veritas
 world_id: hieronymian-ascetic-literary
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -28,7 +28,6 @@ retrieval:
   - how this world read and translated scripture
   - why the Hebrew text mattered more than the Greek
   - the Vulgate project's principle
-  do_not_retrieve_when: []
 plain_meaning: The belief that the Hebrew text of scripture is the truest text. It stands closer
   to what God said than the Greek version the church had long used.
 world_word: Hebraica veritas

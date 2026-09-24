@@ -3,7 +3,7 @@ id: ijc.quote.ambrose-cannot-surrender
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -18,6 +18,8 @@ sources:
   locus: Ep. XX to Marcellina (npnf210 lines 41753-41755)
   license: public-domain
 text: 'I said: I cannot surrender the basilica, but I may not fight.'
+modern_rendering: >-
+  I said: I cannot give up the basilica, but I may not fight.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."
@@ -26,7 +28,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether a bishop could refuse an emperor and survive"
   - "participant asks what happened when the court demanded a church building"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.vigil-in-basilica}
 ---

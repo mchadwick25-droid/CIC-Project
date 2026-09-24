@@ -3,7 +3,7 @@ id: ijc.dw.ancient-custom
 world_id: imperial-juridical
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -31,7 +31,6 @@ sources:
 retrieval:
   tier: 1
   retrieve_when: []
-  do_not_retrieve_when: []
 text: >-
   How did we know our practices went back to the apostles? We asked
   that exact question about ourselves, constantly, because 'ancient custom' was

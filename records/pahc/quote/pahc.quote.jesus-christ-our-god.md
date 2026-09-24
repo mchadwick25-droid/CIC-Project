@@ -3,7 +3,7 @@ id: pahc.quote.jesus-christ-our-god
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-T
@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   Be on your guard, therefore, against such persons. And this will be the case with you if you are not puffed up, and continue in intimate union with Jesus Christ our God, and the bishop, and the enactments of the apostles.
+modern_rendering: >-
+  So be on your guard against such people. This will be true for you if you are not puffed
+  up with pride, and if you continue in close union with Jesus Christ our God, with the
+  bishop, and with the apostles' teachings.
 speaker_or_author: Ignatius of Antioch, to the Ephesians
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +35,6 @@ retrieval:
   - "participant asks whether these people thought Jesus was God"
   - "participant asks how they spoke about Christ"
   - "participant asks whether they believed in the Trinity"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.witness.jesus-as-god

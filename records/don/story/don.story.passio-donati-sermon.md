@@ -3,7 +3,7 @@ id: don.story.passio-donati-sermon
 world_id: donatism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -37,7 +37,7 @@ retrieval:
   - participant asks what being formed by martyrdom felt like from the inside rather than as a description
     from outside
   - participant asks whether we keep practices the rival communion does not
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants a neutral dated narrative of who did what to whom (don.story.acta-purgationis-felicis
     or don.story.council-of-cirta serve that better)
   - participant needs a text with a securely named, undisputed author

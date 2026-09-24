@@ -3,7 +3,7 @@ id: ijc.quote.lactantius-dream
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -21,6 +21,11 @@ text: Constantine was directed in a dream to cause the heavenly sign to be delin
   of his soldiers, and so to proceed to battle. He did as he had been commanded, and he marked on their
   shields the letter Χ, with a perpendicular line drawn through it and turned round thus at the top,
   being the cipher of Christ.
+modern_rendering: >-
+  In a dream, Constantine was told to have the heavenly sign drawn on his soldiers'
+  shields, and so to go into battle. He did as he had been commanded. He marked on their
+  shields the letter Χ, with a vertical line drawn through it and bent round at the top
+  like this — the cipher of Christ.
 speaker_or_author: "Lactantius, De Mortibus Persecutorum"
 license: verbatim
 modern_lens_note: >-
@@ -32,7 +37,6 @@ retrieval:
   retrieve_when:
   - "participant asks how the emperor came to favour the Christians"
   - "participant asks whether the conversion story can be believed"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.story.dream-before-battle}
 ---

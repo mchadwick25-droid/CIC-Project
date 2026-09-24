@@ -8,23 +8,22 @@ works:
   locus: div3 under 3.3 'Acknowledged Writings'
   role: tradition
   confidence: assigned
-  note: 'Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
-    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. Re-pointed
-    2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added on record, and
-    it is the entry this note was asking for - the gap is regional, not per-author. post-apostolic-house-church
-    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.'
+  note: Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
+    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. anatolian-church-third-century
+    (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
+    there and Nicaea.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
   role: tradition
   confidence: assigned
-  note: 'Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
+  note: Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
     pastoral-canonical practice from the region the Cappadocians inherited. Same missing-entry
-    problem as above. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312)
-    was added on record, and it is the entry this note was asking for - the gap is regional,
-    not per-author. post-apostolic-house-church ends at 200 and nothing catholic covers Asia
-    Minor between there and Nicaea.'
+    problem as above. anatolian-church-third-century (era 1, c. 240-312) is the entry this
+    note was asking for - the gap is regional, not per-author. post-apostolic-house-church
+    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Dubious or Spurious Writings of Gregory Thaumaturgus (Sectional Confession of Faith;
     On the Trinity; Twelve Topics on the Faith; On the Subject of the Soul; Four Homilies;
@@ -34,22 +33,19 @@ works:
   role: tradition
   confidence: assigned
   note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
-    (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
-    whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
-    under the attributed name at all is an attribution ruling no new entry answers. The Sectional
-    Confession is widely held an Apollinarian production, and apollinarian-christianity now
-    exists to receive it if the bundle is ever split. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    (the Sectional Confession is widely held an Apollinarian production). Shelved with anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    The Sectional Confession is widely held an Apollinarian production, and apollinarian-christianity
+    now exists to receive it if the bundle is ever split. On whether a spurious corpus files
+    under the attributed name at all: this is one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather
+    than re-attribute from outside knowledge, so the transmitted-author shelf stands: that
+    is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
   author: gregory_thau
@@ -57,22 +53,20 @@ works:
   locus: div2 17.7 (~495 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE: anf06 carries the
-    same work, already assigned to this entry. Two vendored witnesses to one text, which is
-    worth knowing before anyone counts words.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. A duplicate: anf06 carries the same work, already assigned to this entry.
+    Two vendored witnesses to one text, which is worth knowing before anyone counts words.'
 - work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius
   locus: div2 11.6, 11.10-11.12 - assigned as one body
   role: tradition
   confidence: assigned
-  note: 'Fragment collection including anti-Origenist and homiletic material; same shelf and
-    same missing-home flag as the rest of Methodius. Re-pointed 2026-08-26: anatolian-church-third-century
-    (era 1, c. 240-312) was added on record, and it is the entry this note was asking for
-    - the gap is regional, not per-author.'
+  note: Fragment collection including anti-Origenist and homiletic material; same shelf and
+    same missing-home flag as the rest of Methodius. anatolian-church-third-century (era 1,
+    c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Oration Concerning Simeon and Anna
   author: methodius
@@ -80,44 +74,40 @@ works:
   role: tradition
   confidence: assigned
   note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
-    (the feast''s development postdates him). Shelved with his section pending a ruling on
-    the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
-    alongside for the pseudonymous character. STILL `needs-ruling`: the question this note
-    asks - whether a spurious corpus files under the attributed name at all - is an attribution
-    ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
-    is widely held an Apollinarian production, and apollinarian-christianity now exists to
-    receive it if the bundle is ever split. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
+    (the feast''s development postdates him). Shelved with his section, in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
+    transmitted-author shelf stands: that is how the corpus presents it and how a reader will
+    look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
+    under a name that is not its author''s is a pseudepigraphon by definition. The two together
+    say the whole truth - where it sits, and what it is - without re-attributing anything.
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Oration on the Palms
   author: methodius
   locus: div2 11.9
   role: tradition
   confidence: assigned
-  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
-    a spurious corpus files under the attributed name at all - is an attribution ruling that
-    no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
-    held an Apollinarian production, and apollinarian-christianity now exists to receive it
-    if the bundle is ever split. RULED 2026-08-26, under a principle rather than one by one
-    - nine works across six entries were asking the same question, whether a spurious corpus
-    files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Shelved in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
     6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
     transmitted-author shelf stands: that is how the corpus presents it and how a reader will
     look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
     under a name that is not its author''s is a pseudepigraphon by definition. The two together
     say the whole truth - where it sits, and what it is - without re-attributing anything.
-    Mark can reverse this in one pass if he wants the spurious corpora detached from their
-    attributed authors instead.'
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Banquet of the Ten Virgins (Symposium; Concerning Chastity)
   author: methodius
@@ -128,8 +118,7 @@ works:
     a Christian rewriting of Plato''s Symposium, foundational for all later ascetic literature.
     Pre-Constantinian Anatolian asceticism has no census entry; shelved with the Cappadocian
     pastoral-monastic entry as the nearest Anatolian ascetic tradition, explicitly as a best
-    guess. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added
-    on record, and it is the entry this note was asking for - the gap is regional, not per-author.
-    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
-    there and Nicaea.'
+    guess. anatolian-church-third-century (era 1, c. 240-312) is the entry this note was asking
+    for - the gap is regional, not per-author. post-apostolic-house-church ends at 200 and
+    nothing catholic covers Asia Minor between there and Nicaea.'
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml

@@ -3,7 +3,7 @@ id: cappadocian.term.adelphotes
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - how monastic communities actually formed and were organized
   - women's ascetic communities specifically
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.askesis

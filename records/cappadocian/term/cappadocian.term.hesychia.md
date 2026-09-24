@@ -3,7 +3,7 @@ id: cappadocian.term.hesychia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -30,7 +30,6 @@ retrieval:
   - the pull between solitude and public duty or service
   - why someone might flee then accept church office
   - burnout, retreat, or the desire to withdraw
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.askesis

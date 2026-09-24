@@ -3,7 +3,7 @@ id: witt.term.the-word
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-I
@@ -55,7 +55,7 @@ retrieval:
   - why we would not force reform with a sword
   - what makes a sacrament a sacrament
   - authority over pope, councils, or fathers
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant means Scripture's authority specifically against named human traditions (retrieve
     Scripture against Fathers, Councils and pope)
 relations:
@@ -124,6 +124,6 @@ senses:
 quick_meaning: God's own speech. It makes our sacraments, and does the work of reform on its own.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 3.1 (the Word / Word of God, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the best-attested term in the lexicon. Source Registry rows cited: R1, R11, R13, R15, R16, R20, R25, R26, R29, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 3.1 (the Word / Word of God, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the best-attested term in the lexicon. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

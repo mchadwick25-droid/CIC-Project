@@ -3,7 +3,7 @@ id: ijc.term.imperator-intra-ecclesiam
 world_id: imperial-juridical
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -27,7 +27,7 @@ retrieval:
   - how a bishop could stand against an emperor
   - the 386 Milan basilica standoff, Callinicum, or Thessalonica
   - whether this world's church was simply an arm of the state
-  do_not_retrieve_when:
+  prefer_instead:
   - the question concerns Rome's or Constantinople's rank claims, which rest on different ground (primatus or presbeia instead)
 relations:
 - {type: associated-with, target: ijc.term.communio}

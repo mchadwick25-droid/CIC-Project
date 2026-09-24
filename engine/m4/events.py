@@ -45,15 +45,48 @@ REQUIRED_KEYS: dict[str, set[str]] = {
     "escalation_pressed": {"class"},
     "deletion_requested": set(),
     "session_closed": {"reason"},
+    # The seat-identity guard's own audit surface (Decision-Log.md Entry
+    # 47, 2026-09-22), same idea as turn_selected/round_closed above: a
+    # generated turn writing itself as the Facilitator or another seated
+    # voice is caught and regenerated (or, on a second catch, replaced by
+    # a facilitator_turn) before it ever reaches voice_turn - not
+    # recoverable from voice_turn alone, since the caught text is never
+    # written there. One event per catch (attempt="first" then, only if
+    # the regenerated attempt ALSO caught, attempt="regenerated") - never
+    # one summary event per turn.
+    "seat_identity_violation": {"round_no", "position", "world_key", "offending_prefix", "attempt"},
+    # R27's own audit surface (Decision-Log.md Entry 51, 2026-09-22):
+    # report-only, one event per voice_turn that carried at least one
+    # uncited declarative claim sentence - mode-agnostic (both interview
+    # and table), so no round_no/position here the way seat_identity_
+    # violation carries (table-only bookkeeping). offenses:
+    # list[{"sentence": str, "class": str}]. paragraph_offenses (R27-A
+    # item 2, Entry 55, 2026-09-23), additive: the SAME shape, a second,
+    # independent list - a wholly-uncited-paragraph or inherited-
+    # ungrounded failure, never merged into offenses (which stays exactly
+    # the sentence-level list it always was).
+    "uncited_claims": {"speaker", "offenses", "paragraph_offenses"},
 }
 
 ENUMS: dict[tuple[str, str], set[str]] = {
     ("session_started", "mode"): {"interview", "table"},  # interview: Phase 1's single-voice mode; table: Artifact-7 (2026-08-28), the multi-voice extension spec O9 priced in
     ("round_closed", "reason"): {"selector_closed", "cap", "floor_unmet_exhausted"},  # Artifact-7 SS2
-    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close"},
+    # seat_correction (Entry 47): the Facilitator taking a turn back after
+    # the seat-identity guard exhausted its one regeneration - a distinct
+    # kind from "safety" (TABLE_DEPENDENCY_CHECK's own kind), which is
+    # about a participant leaning on the conversation, not a generation
+    # defect. grounding_correction (Entry 56, R27 build item 5): the same
+    # "Facilitator takes a turn back" shape, this time for R27's own
+    # enforcement (engine.m4.facilitator_turns.voice_rejected_turn) - a
+    # distinct kind from seat_correction because the underlying defect is
+    # different (unsupported/uncited content, not identity impersonation),
+    # even though the mechanism (regenerate once, then hand off) is the
+    # same one reused.
+    ("facilitator_turn", "kind"): {"door", "threshold", "safety", "bridge", "close", "seat_correction", "grounding_correction"},
     ("safety_state", "track"): {"A", "B"},
     ("escalation_pressed", "class"): {"later_age", "other_tradition"},
     ("session_closed", "reason"): {"participant", "idle", "cap"},
+    ("seat_identity_violation", "attempt"): {"first", "regenerated"},
 }
 
 
@@ -97,6 +130,33 @@ def _validate_session_started_shape(payload: dict) -> None:
             )
 
 
+# The ENUMS mechanism above validates one scalar payload value per
+# (event_type, field) pair - it has no way to reach into a list of dicts.
+# uncited_claims' own offenses[].class needs exactly that, so it gets its
+# own small shape check rather than stretching ENUMS to cover a shape it
+# was never built for (Decision-Log.md Entry 51's own flagged gap).
+_UNCITED_CLAIM_CLASSES = {"uncited_claim", "neighbour_named", "own_doctrine_in_other_tradition_turn"}
+# R27-A item 2 (Entry 55, 2026-09-23): paragraph_offenses' own closed set,
+# distinct from _UNCITED_CLAIM_CLASSES above - a paragraph-level failure
+# is never one of the sentence-level classes, and vice versa.
+_PARAGRAPH_OFFENSE_CLASSES = {"wholly_uncited_paragraph", "inherited_ungrounded"}
+
+
+def _validate_offense_list_shape(field_name: str, offenses, allowed_classes: set[str]) -> None:
+    if not isinstance(offenses, list):
+        raise EventValidationError(f"uncited_claims.{field_name} must be a list, got {offenses!r}")
+    for offense in offenses:
+        if not isinstance(offense, dict) or set(offense) != {"sentence", "class"}:
+            raise EventValidationError(f"uncited_claims.{field_name} entry must be exactly {{'sentence', 'class'}}, got {offense!r}")
+        if offense["class"] not in allowed_classes:
+            raise EventValidationError(f"uncited_claims.{field_name} class {offense['class']!r} not in {sorted(allowed_classes)}")
+
+
+def _validate_uncited_claims_shape(payload: dict) -> None:
+    _validate_offense_list_shape("offenses", payload["offenses"], _UNCITED_CLAIM_CLASSES)
+    _validate_offense_list_shape("paragraph_offenses", payload["paragraph_offenses"], _PARAGRAPH_OFFENSE_CLASSES)
+
+
 def validate(event_type: str, payload: dict) -> None:
     if event_type.startswith("guidance_"):
         # reserved; no live guidance exists under principle 2 (spec SS3 catalog note) -
@@ -109,6 +169,8 @@ def validate(event_type: str, payload: dict) -> None:
         raise EventValidationError(f"{event_type} payload missing required keys: {sorted(missing)}")
     if event_type == "session_started":
         _validate_session_started_shape(payload)
+    if event_type == "uncited_claims":
+        _validate_uncited_claims_shape(payload)
     for field, allowed in ENUMS.items():
         etype, key = field
         if etype == event_type and payload.get(key) not in allowed:

@@ -3,7 +3,7 @@ id: witt.figure.katharina-von-bora
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -16,8 +16,7 @@ confidence:
     single student-recorded remark reaching this library through several transmitting hands (a table-companion
     to Aurifaber to Bell to Morley, with an intervening reviser Morley himself names but does not identify),
     with no second witness anywhere in the library to check it against. Documented only that Luther refers
-    to her as "Kate my wife" in a separate Table Talk saying about patience (Doc_09 witt-S08; Source Registry
-    R31).'
+    to her as "Kate my wife" in a separate Table Talk saying about patience.'
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: Her one recorded question, "Sir! how is it, that in Popedom they pray so often with great vehemence,
@@ -29,7 +28,7 @@ retrieval:
   retrieve_when:
   - a participant asks who Katharina von Bora was, or whether any woman's own words survive in this world's
     record
-  do_not_retrieve_when:
+  prefer_instead:
   - inventing any biographical detail, personality trait, or second conversation beyond the one recorded
     question - this library holds nothing else in her own voice
 names:

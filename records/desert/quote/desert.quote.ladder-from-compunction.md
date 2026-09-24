@@ -3,7 +3,7 @@ id: desert.quote.ladder-from-compunction
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-P
@@ -18,12 +18,20 @@ sources:
   locus: 'Institutes IV, the summary of the stages (npnf211 line 20066)'
   license: public-domain
 text: >-
-  The beginning of our salvation and of wisdom is, according to Scripture, the fear of the Lord. From
-  the fear of the Lord arises salutary compunction. From compunction of heart springs renunciation,
+  "The beginning" of our salvation and "of wisdom" is, according to Scripture, "the fear of the
+  Lord."...From the fear of the Lord arises salutary compunction. From compunction of heart springs renunciation,
   i.e. nakedness and contempt of all possessions. From nakedness is begotten humility; from humility
   the mortification of desires. Through mortification of desires all faults are extirpated and decay.
   By driving out faults virtues shoot up and increase. By the budding of virtues purity of heart is
   gained. By purity of heart the perfection of apostolic love is acquired.
+modern_rendering: >-
+  According to Scripture, "the beginning" of our salvation and "of wisdom" is "the fear of the
+  Lord." ... From the fear of the Lord comes healing compunction. From compunction of heart springs
+  renunciation -- that is, owning nothing, and holding all possessions in contempt. From owning
+  nothing, humility is born. From humility comes the putting to death of desires. Through the
+  putting to death of desires, all faults are uprooted and wither away. By driving out faults, the
+  virtues sprout up and grow. By the budding of the virtues, purity of heart is gained. By purity of
+  heart, the perfection of apostolic love is won.
 speaker_or_author: John Cassian, summarising what he was taught in Egypt
 license: verbatim
 modern_lens_note: >-
@@ -36,15 +44,18 @@ retrieval:
   retrieve_when:
   - "participant asks where a beginner started and what came next"
   - "participant asks whether there were stages, and what the whole thing was aiming at"
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: desert.gravity.spiritual-combat}
 ---
 Verified verbatim against the vendored file 2026-08-27 at npnf211 line
-20066. DISCLOSED: the ANF prints the two scriptural phrases in quotation
-marks with an inline reference ("Ps. cxi. 10.") after "the fear of the
-Lord"; the quotation marks and the reference are removed here and no
-words are changed. The passage is continuous to its end.
+20066. The passage is continuous to its end.
+
+Quote-verbatim gate fix (2026-09-22, supersedes the 2026-08-27 "quotation marks... removed" call
+above): the ANF's own quotation marks around "The beginning", "of wisdom" and "the fear of the Lord"
+are genuine nested marks - Cassian is directly quoting scripture (Ps. 111:10) inside his own sentence,
+not decorating it. Per Mark's ruling that a nested mark is corrected to match source, not removed,
+restored. The inline scripture reference ("Ps. cxi. 10.") is still excised, marked now with an
+ellipsis rather than silently - it is citation apparatus, not part of Cassian's own sentence.
 
 ONE SENTENCE-CHAIN CARRIES FOUR OF THIS WORLD'S TERMS. penthos
 (compunction), apotage (renunciation, nakedness), and puritas-cordis

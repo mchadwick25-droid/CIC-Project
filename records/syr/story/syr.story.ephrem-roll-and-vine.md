@@ -3,7 +3,7 @@ id: syr.story.ephrem-roll-and-vine
 world_id: syriac-edessa-nisibis
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-I
@@ -33,7 +33,7 @@ retrieval:
   - "participant asks how this world understood its own poet's authority to teach"
   - "participant asks what this world's tradition added to what outsiders wrote about it"
   - "participant asks about visions or dreams as warrants in this world"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant is asking for Ephrem's life as history - syr.story.ephrem-famine-death carries the events"
 relations:
 - type: associated-with

@@ -3,7 +3,7 @@ id: syr.dw.decides
 world_id: syriac-edessa-nisibis
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-E
@@ -27,7 +27,6 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks who appointed or ordained the bishops and the catholicos"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.quote.permitted-to-erect-churches

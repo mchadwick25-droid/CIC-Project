@@ -3,7 +3,7 @@ id: cappadocian.term.eusebeia
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -30,7 +30,6 @@ retrieval:
   retrieve_when:
   - what this world's whole formation aimed at
   - why a wrong doctrine and a hoarded granary would be treated as the same kind of failure
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.akatalepsia

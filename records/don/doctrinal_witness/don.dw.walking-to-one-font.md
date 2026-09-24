@@ -3,7 +3,7 @@ id: don.dw.walking-to-one-font
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-P
@@ -44,7 +44,6 @@ retrieval:
   - participant asks how a person came to believe among us
   - participant asks who Jesus is to me personally rather than to my church
   - participant asks whether someone like them would have been wanted
-  do_not_retrieve_when: []
 text: >-
   How did a person come to believe among us? By walking to one font and
   not the other one. That sounds small until you stand in an African town

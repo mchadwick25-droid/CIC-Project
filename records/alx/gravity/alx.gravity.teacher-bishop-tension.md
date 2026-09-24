@@ -3,7 +3,7 @@ id: alx.gravity.teacher-bishop-tension
 world_id: alexandria-catechetical
 record_type: gravity
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-I
@@ -32,6 +32,8 @@ relations:
   target: alx.force.post-nicene-authority-shift
 - type: illustrated-by
   target: alx.story.origen-demetrius
+- type: illustrated-by
+  target: alx.story.origen-daring-deed
 name: Teacher-Bishop Authority Tension [TENSIONAL]
 description: 'Two real authorities, never made one: the teacher''s (grounded in demonstrated wisdom, recognized
   by those who saw that he saw) and the bishop''s (grounded in the office handed down). Institutionally
@@ -49,3 +51,9 @@ Re-derived from Doc_04 SS3.6 T1 with its Eusebius re-grounding intact:
 confirmation rests on the STRUCTURAL coexistence of teacher and bishop
 (Widely Accepted), never on the Eusebius-mediated Origen-Demetrius
 particulars (DMR/HIGH-risk, retained as illustration only).
+
+Reciprocal relation added 2026-09-20 (alx `world_front` build): new
+sibling record `alx.story.origen-daring-deed` declares `illustrates`
+this record; the reciprocal `illustrated-by` is added here
+(gate_reciprocity). No change to this record's own classification or
+screen.

@@ -3,7 +3,7 @@ id: ijc.story.tome-that-would-not-bend
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -29,7 +29,6 @@ retrieval:
   - Leo, the Tome, or Chalcedon
   - how the world's long authority argument ended
   - the Rome-Constantinople rank dispute
-  do_not_retrieve_when: []
 relations:
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 - {type: illustrated-by, target: ijc.quote.leo-tome-each-form}

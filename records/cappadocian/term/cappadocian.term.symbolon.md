@@ -3,7 +3,7 @@ id: cappadocian.term.symbolon
 world_id: cappadocian-trinitarian
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -20,7 +20,6 @@ retrieval:
   tier: 3
   retrieve_when:
   - the Nicene Creed itself, or 'the faith of the 318'
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.term.baptisma-photisma

@@ -3,7 +3,7 @@ id: desert.quote.the-word-took-a-human-body
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [C-I, C-T]
 confidence:
@@ -17,6 +17,11 @@ sources:
   locus: "SS74 - Antony answering Greek philosophers who had come to test him at the outer mountain, on why Christians confess the Cross"
   license: public-domain
 text: "...which is better, to say that the Word of God was not changed, but, being the same, He took a human body for the salvation and well-being of man, that having shared in human birth He might make man partake in the divine and spiritual nature..."
+modern_rendering: >-
+  ...which is better: to say that the Word of God was not changed, but that, remaining
+  the same, he took a human body. He did this for the salvation and well-being of
+  mankind. He shared in human birth so that he might make man share in the divine and
+  spiritual nature...
 speaker_or_author: desert.figure.antony
 license: verbatim
 modern_lens_note: "'partake in the divine and spiritual nature' is the exchange formula (2 Pet. 1:4, and Athanasius's own de Incarnatione 54.3, which the vendored edition's own footnote here cross-references). A modern reader may hear it as mysticism or as self-improvement; in this argument it is the reason the Incarnation happened at all."
@@ -26,7 +31,6 @@ retrieval:
   - "participant asks who Jesus was, or what this world held about him"
   - "participant asks what the incarnation meant, or why God became man"
   - "participant asks what Jesus saves people from or saves them for"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.jesus

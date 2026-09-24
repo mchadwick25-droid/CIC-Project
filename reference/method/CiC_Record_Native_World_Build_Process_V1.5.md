@@ -1,4 +1,4 @@
-# CiC Record-Native World Build Process — V1.5 (2026-09-15)
+# CiC Record-Native World Build Process — V1.6 (2026-09-23)
 
 **What this document is:** the single end-to-end process for building a NEW
 formation world, from Step-0 scope confirmation through a frozen, deployed,
@@ -207,7 +207,27 @@ holds it, and it holds nothing else. Concretely:
   accumulate anywhere in this process.
 - Quote records author their `modern_rendering` at birth. The spoken
   form is a modern-English translation, never the archaic original; the
-  original stays as the record's `text` for Level 3.
+  original stays as the record's `text` for Level 3. **A rendering may
+  be split into shorter sentences to pass readability only where each
+  resulting sentence has its own subject and verb and carries one whole
+  thought of the original (2026-09-23, R40 alx `modern_rendering` pass,
+  PR #442) — a fragment is never an acceptable rendering, whatever the
+  grader or the FK score says.**
+- **The verbatim gate is a birth condition (2026-09-23, item 3 of the P3
+  registration brief).** `gate_quote_verbatim` (`engine/m1/gates.py`,
+  `engine/m1/quote_verbatim.py`) runs on each quote record as it is
+  authored, checked directly against the vendored edition in
+  `cic/texts/` under the ruled tolerance classes
+  (whitespace/case/punctuation/ellipsis/bracket/verse_number/apparatus)
+  and that edition's own closed apparatus entry in
+  `cic/texts/REGISTRY.yaml`, if one exists — not a repair pass run over
+  already-authored records after the fact. R35 (Mark, in his own
+  words): *"this is about the build quality, not fix on fix."* The
+  rendering-fidelity gate (item 4, not yet registered) is
+  `modern_rendering`'s own birth condition once it lands — the two
+  gates check the two halves of a quote record (original wording,
+  spoken translation) the same way, at the same point: authoring, not
+  review.
 - Each step's review reads every spoken field against the sample. A
   sentence the reviewer has to re-read, or has to ask the meaning of,
   fails and is rewritten before the step clears — that question IS the

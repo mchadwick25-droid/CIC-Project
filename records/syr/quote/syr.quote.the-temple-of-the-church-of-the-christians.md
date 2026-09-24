@@ -3,7 +3,7 @@ id: syr.quote.the-temple-of-the-church-of-the-christians
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-E
@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   And they destroyed the temple of the church of the Christians. And there were killed by that occurrence more than two thousand men, upon many of whom as they slept in the night the waters came suddenly, and they were drowned, and the city was filled with the sound of lamentation.
+modern_rendering: >-
+  And they destroyed the temple of the church of the Christians. More than two thousand
+  men were killed in that event. The waters came upon many of them suddenly as they slept
+  in the night, and they drowned. The city was filled with the sound of mourning.
 speaker_or_author: the Chronicle of Edessa, entry for the year 513 of the Greeks
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +35,6 @@ retrieval:
   - "participant asks what would be found if the place this community met were excavated"
   - "participant asks whether there is physical or documentary evidence of a church building this early"
   - "participant asks what outsiders recorded about this community"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: syr.dw.remains

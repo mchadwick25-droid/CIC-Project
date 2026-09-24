@@ -3,7 +3,7 @@ id: hal.quote.the-city-which-had-taken-the-whole-world
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-T
@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   My voice sticks in my throat; and, as I dictate, sobs choke my utterance. The City which had taken the whole world was itself taken; nay more famine was beforehand with the sword and but few citizens were left to be made captives.
+modern_rendering: >-
+  My voice sticks in my throat. As I dictate this, sobs choke my words. The City that had
+  taken the whole world was itself taken. Worse -- famine struck before the sword did, and
+  only a few citizens were left to become captives.
 speaker_or_author: Jerome, Letter CXXVII to Principia
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +35,6 @@ retrieval:
   - "participant asks whether there was a moment everything changed for these people"
   - "participant asks what the fall of Rome meant to this world"
   - "participant asks how this world would describe being made new"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.practices

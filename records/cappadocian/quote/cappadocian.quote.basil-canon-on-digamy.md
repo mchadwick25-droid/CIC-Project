@@ -3,7 +3,7 @@ id: cappadocian.quote.basil-canon-on-digamy
 world_id: cappadocian-trinitarian
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F6-T
@@ -41,7 +41,6 @@ retrieval:
   retrieve_when:
   - "participant asks how long the penance for a second marriage actually lasted, in this world's own terms"
   - "participant asks whether this world treated second and third marriages the same way"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: cappadocian.dw.marriage-ending

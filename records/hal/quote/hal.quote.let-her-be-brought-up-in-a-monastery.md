@@ -3,7 +3,7 @@ id: hal.quote.let-her-be-brought-up-in-a-monastery
 world_id: hieronymian-ascetic-literary
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Let her be brought up in a monastery, let her be one amid companies of virgins, let her learn to avoid swearing, let her regard lying as sacrilege, let her be ignorant of the world, let her live the angelic life, while in the flesh let her be without the flesh, and let her suppose that all human beings are like herself.
+modern_rendering: >-
+  Let her be brought up in a monastery, among companies of virgins. Let her learn to avoid
+  swearing, and let her regard lying as sacrilege. Let her stay ignorant of the world and
+  live the angelic life -- in the flesh, yet without the flesh. And let her suppose that
+  all human beings are like herself.
 speaker_or_author: Jerome, Letter CVII to Laeta
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   - "participant asks whether people here chose this life or were raised into it"
   - "participant asks how children were brought up in this world"
   - "participant asks what being born again or converted meant here"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: hal.dw.sin-grace

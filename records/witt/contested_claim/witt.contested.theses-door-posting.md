@@ -3,7 +3,7 @@ id: witt.contested.theses-door-posting
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: contested_claim
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells: []
 confidence:
@@ -56,8 +56,7 @@ held_against:
   dispute a modern editor's own unsourced narrative claim, not that two primary accounts stand in tension.
   That is a materially thinner evidentiary situation than "a documented scholarly dispute over a specific
   event" can sound like on its own, and this record states it directly rather than leaving a reader to infer
-  it (a correction the Round 1 review of Doc_09 required of that document's own first drafting pass, carried
-  forward here).
+  it.
 - >-
   The scene functions as this world's own founding image independent of what the evidence can show. It is
   the detail "a modern reader most often knows this story" by (witt.story.letter-to-albrecht-and-theses-circulation),
@@ -85,9 +84,7 @@ Doc_08, or Doc_09 name any further genuinely contested item sitting on one of th
 gravities. This one does, plainly and repeatedly across three approved build documents: Doc_02 SS10 first
 flags the posting as "[Contested] since Iserloh (1961)," Doc_04's own Layer-1 forces entry (SS0, 1A-2) names
 it again, Doc_08 SS5 and SS7 carry it as "named tension 1," and Doc_09's own witt-S01 entry states the
-evidentiary basis for the tag most fully - including a Round 1 review finding (this document's own Round 1
-review, logged at Doc_09's history) that the entry had under-disclosed exactly how thin that basis is, fixed
-at Doc_09's own Revision 1. This record's own held_against paragraph 3 carries that same disclosed weakness
+evidentiary basis for the tag most fully. This record's own held_against paragraph 3 carries that same disclosed weakness
 forward rather than letting a contested_claim record's own etic weight make the contest sound sturdier than
 Doc_09 already found it to be.
 

@@ -3,7 +3,7 @@ id: ijc.quote.eutropius-right-of-refuge
 world_id: imperial-juridical
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F3-E
@@ -20,14 +20,18 @@ sources:
 text: We are the servants of the crucified one who said "Forgive them for they know not what they do."
   But, you say, he cut off the right of refuge here by his ordinances and divers kinds of laws. Yes!
   yet now he has learned by experience what it was he did, and he himself by his own deeds has been
-  the first to break the law, and has become a spectacle to the whole world.
+  the first to break the law, and has become a spectacle to the whole world, and silent though he is,
+  he utters from thence a warning voice to all, saying "do not such things as I have done, that ye
+  suffer not such things as I suffer."
 modern_rendering: >-
   We are the servants of the crucified one, who said, 'Forgive them, for they
   do not know what they are doing.' But, you say, this man cut off the right
   of refuge here with his decrees and his many kinds of laws. Yes! And now he
   has learned by experience what it was he did. He himself, by his own
   actions, has been the first to break his law, and he has become a spectacle
-  to the whole world.
+  to the whole world. Silent though he is, he still speaks - a warning to
+  everyone: 'Do not do as I have done, so that you do not suffer as I now
+  suffer.'
 speaker_or_author: John Chrysostom, bishop of Constantinople, preaching in 399 while Eutropius clung
   to the altar behind him
 license: verbatim
@@ -40,7 +44,6 @@ retrieval:
   retrieve_when:
   - "participant asks whether the church sheltered people the state wanted"
   - "participant asks what happened to a fallen official who fled to the altar"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: ijc.quote.no-power-but-of-god
@@ -53,10 +56,15 @@ npnf109 line 17739, with the scriptural citation marker ("Luke xxiii.
 and no other change. DISCLOSED, because the milan-edict record's own
 review found an undisclosed punctuation substitution and that is not
 a mistake to repeat: the excerpt joins two consecutive sentences of one
-paragraph, and the final clause is truncated at "spectacle to the whole
-world" - the file continues "and silent though he is, he utters from
-thence a warning voice to all." Nothing is elided mid-sentence and no
-punctuation is altered.
+paragraph.
+
+Quote-verbatim gate fix (2026-09-22): the truncation at "spectacle to the whole world" was itself the
+defect the note above worried about repeating - it substituted an invented period for the source's own
+comma, silently dropping the sentence's own close ("and silent though he is, he utters from thence a
+warning voice to all, saying 'do not such things as I have done, that ye suffer not such things as I
+suffer.'"). Restored rather than elided: this is exactly the "warning voice"/public-lesson point this
+record's own body note below already reads as central ("calls his ruin a public lesson"), not a change
+of claim. modern_rendering extended to match.
 
 This is the sharpest single line in the corpus on where the alliance
 stops. Chrysostom is not arguing with the emperor here; he is arguing

@@ -3,7 +3,7 @@ id: cappadocian.dw.holy-spirit-honored
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-I
@@ -37,7 +37,6 @@ retrieval:
   - "participant asks who or what the Holy Spirit was to this world"
   - "participant asks what this world argued about most, or what the councils in this world's own time
     actually decided"
-  do_not_retrieve_when: []
 text: >-
   The Spirit was not, for us, a lesser presence trailing behind the Father
   and the Son. That was exactly what we spent a generation arguing. Our own

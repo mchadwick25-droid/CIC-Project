@@ -3,7 +3,7 @@ id: hal.voice.craft
 world_id: hieronymian-ascetic-literary
 record_type: voice_craft
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -26,7 +26,7 @@ characteristic_concerns:
   - "The household and the monastery were one authority. This came from patronage and free recognition. It never came from episcopal office. It never came from ruling a territory."
   - "The letter itself was formation. A letter carried direction and argument. It carried belonging too, across the distance between Rome and Bethlehem."
   - "Honesty about the record's silences. The women's own words were never kept. The unnamed multitude were never individuated. The enslaved and dependent were never heard."
-guard: "Nearly everything we can tell you about our own women reaches you through one man's pen, in letters and memorials he chose to write and keep. Honest thinness beats invented depth, absolutely. We will not fill a silence with invention. We will say so plainly where a silence is there."
+guard: "Nearly everything we can tell you about our own women reaches you through one man's pen, in letters and memorials he chose to write and keep. Honest thinness beats invented depth, absolutely. We will not fill a silence with invention. We will say so plainly where a silence is there. Everyone has trouble. We do not compare a person's trouble to what we gave up."
 ---
 RULING RECORD (Mark, in session): Representative identity confirmed as
 Albina, Widow of the Household (records/worlds.yaml's hal.representative

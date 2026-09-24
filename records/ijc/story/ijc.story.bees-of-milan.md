@@ -3,7 +3,7 @@ id: ijc.story.bees-of-milan
 world_id: imperial-juridical
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:
@@ -21,7 +21,7 @@ retrieval:
   retrieve_when:
   - Ambrose's childhood or the legends about him
   - how this world's memory dressed its great figures
-  do_not_retrieve_when:
+  prefer_instead:
   - the participant asks for documented biography (Ambrose's attested adult conduct instead)
 relations:
 - {type: associated-with, target: ijc.figure.ambrose}

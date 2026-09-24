@@ -3,7 +3,7 @@ id: don.dw.written-by-our-opponents
 world_id: donatism
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -47,7 +47,6 @@ retrieval:
   - participant asks how a historian would evaluate what we have said
   - participant asks whether what is said about us is mostly legend
   - participant asks where our own record is thinnest
-  do_not_retrieve_when: []
 text: >-
   A historian would ask you one question about everything we have told
   you, and it is the right question: who wrote it down? The answer, for

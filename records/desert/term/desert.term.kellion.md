@@ -3,7 +3,7 @@ id: desert.term.kellion
 world_id: desert-monasticism
 record_type: term
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F5-I, F5-E]
 confidence:
@@ -23,7 +23,6 @@ retrieval:
   retrieve_when:
   - what an ordinary day or dwelling looked like
   - what archaeologists actually found
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.synaxis

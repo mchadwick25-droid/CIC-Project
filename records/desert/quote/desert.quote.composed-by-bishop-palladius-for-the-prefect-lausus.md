@@ -3,7 +3,7 @@ id: desert.quote.composed-by-bishop-palladius-for-the-prefect-lausus
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -21,6 +21,9 @@ sources:
   license: public-domain
 text: >-
   And again, we begin, by the power of our Lord, the Third (sic) Part with the Counsels of the holy Old Men, and the Questions and the Answers [which they gave] to the Brethren
+modern_rendering: >-
+  And again, by the power of our Lord, we begin the Third Part. We begin it with the counsels of the
+  holy elders, and the questions and answers they gave to the brothers.
 speaker_or_author: the compiler's rubric opening Book the First
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +34,6 @@ retrieval:
   - "participant asks whether the sayings are legend collected long after the fact"
   - "participant asks how much of this world's account would survive scholarly checking"
   - "participant asks who actually wrote these sayings down and when"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.term.apophthegma

@@ -3,7 +3,7 @@ id: desert.quote.never-kneel-saturday-to-sunday
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: etic
 canon_cells:
 - F4-I
@@ -27,7 +27,7 @@ sources:
   license: public-domain
 text: "This, too, we ought to know,—that from the evening of Saturday which precedes the Sunday, up
   to the following evening, among the Egyptians they never kneel, nor from Easter to Whitsuntide; nor
-  do they at these times observe a rule of fasting."
+  do they at these times observe a rule of fasting..."
 modern_rendering: >-
   There's one more thing worth knowing: from Saturday evening through
   Sunday evening, and from Easter until Pentecost, the Egyptian monks
@@ -45,7 +45,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what prayer actually looked like, physically, during the weekly gathering"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant asks whether this posture rule was distinctive to ascetic communities - it was ordinary early-church practice, not a monastic invention"
 relations:
 - {type: illustrates, target: desert.term.synaxis}
@@ -59,6 +59,9 @@ reason to the later Conferences and apologizing for brevity ("the
 reason for which shall be explained... lest our book exceed its due
 limits") - cut because it adds nothing beyond authorial throat-clearing,
 not because it changes the claim.
+
+Quote-verbatim gate fix (2026-09-22): the already-disclosed truncation above had no ellipsis mark in
+the `text` field itself - added.
 
 WHY THIS IS FLAGGED, NOT JUST ADDED. The vendored file's own endnote at
 this passage cites Tertullian's De Corona Militis and a fragment of

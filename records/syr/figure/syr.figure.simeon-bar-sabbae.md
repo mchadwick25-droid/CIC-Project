@@ -3,7 +3,7 @@ id: syr.figure.simeon-bar-sabbae
 world_id: syriac-edessa-nisibis
 record_type: figure
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: []
 confidence:

@@ -29,6 +29,11 @@ export interface SourceCard {
   // the click page.
   spoken_rendering?: string | null;
   original_wording?: string | null;
+  // engine/m4/transparency_plan.py attaches the cited record's own
+  // confidence envelope verbatim (same object TransparencyAnchor.confidence
+  // carries) - optional here because a caller may omit it; a real API
+  // response always includes the key (possibly null).
+  confidence?: Record<string, unknown> | null;
 }
 
 export interface Citation {
@@ -74,18 +79,38 @@ export interface FacilitatorTurn {
   text: string;
 }
 
-// engine/m4/transparency_plan.py's build_transparency_plan (Build-Plan.md
-// Stage 3a/3c) - one complete, deterministic record of every citation this
-// turn actually made, computed once by the engine instead of left for this
-// frontend to reconstruct with its own indexOf-based guessing. `anchors`
-// indexes into this turn's own `citations` array (run_start_sentence/
-// run_end_sentence are positions in that list, not character offsets - the
-// engine adds nothing that would require re-finding a span in the raw
-// text). The completeness invariant: every record_id appearing anywhere in
-// `citations` appears in `references` exactly once, by construction - the
-// defect this closes is a non-consecutive repeat citation of the same
-// story/witness record being silently dropped by the old client-side
-// dedup logic (see VoiceTurnBody.tsx's own note on the flag gating this).
+// engine/m4/transparency_plan.py's build_transparency_plan - one complete,
+// deterministic account of every record this turn cited and where each
+// one's mark goes.
+// `sentences` gives each of the engine's own sentences its span in the
+// turn's `text`; each element sits in one of those sentences at
+// [char_start, char_end), and its mark renders at char_end. Every
+// record_id in `citations` appears in `references` exactly once, and is
+// either an element's record or in `end_references`, never both.
+export interface TransparencySentence {
+  index: number;
+  text_start: number | null;
+  text_end: number | null;
+}
+
+export type TransparencyElementKind = 'quote' | 'story' | 'term' | 'figure';
+
+export interface TransparencyElement {
+  record_id: string;
+  record_type: string | null;
+  world_key: string;
+  confidence: Record<string, unknown> | null;
+  repeat: boolean;
+  kind: TransparencyElementKind;
+  sentence_index: number;
+  char_start: number;
+  char_end: number;
+  surface: string;
+}
+
+// A turn stored before per-element placement carries sentence-run anchors
+// and none of sentences/elements/end_references; VoiceTurnBody renders it
+// with its legacy renderer.
 export interface TransparencyAnchor {
   record_id: string;
   record_type: string;
@@ -98,8 +123,11 @@ export interface TransparencyAnchor {
 
 export interface TransparencyPlan {
   world_key: string;
-  anchors: TransparencyAnchor[];
+  sentences?: TransparencySentence[];
+  elements?: TransparencyElement[];
   references: SourceCard[];
+  end_references?: SourceCard[];
+  anchors?: TransparencyAnchor[];
   unverified_claims: { count: number; sentence_indexes: number[] };
 }
 

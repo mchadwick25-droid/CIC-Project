@@ -3,7 +3,7 @@ id: witt.limit.record-thinnest
 world_id: lutheran-wittenberg-and-its-congregations
 record_type: honest_limit
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F2-E
@@ -35,7 +35,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks where our own record is thinnest"
-  do_not_retrieve_when:
+  prefer_instead:
   - "participant wants a claim about what the visitation protocols, or the Marburg argument, actually show -- our library does not hold either and states only the absence"
 statement: >-
   Where is our own record thinnest? On what any actual household or parish did with what it was given.

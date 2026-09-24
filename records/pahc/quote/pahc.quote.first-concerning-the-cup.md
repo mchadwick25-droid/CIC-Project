@@ -3,7 +3,7 @@ id: pahc.quote.first-concerning-the-cup
 world_id: post-apostolic-house-church
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F1-T
@@ -36,7 +36,6 @@ retrieval:
   - "participant asks what the bread and cup meant to these people"
   - "participant asks whether this was communion or the eucharist as we know it"
   - "participant asks about transubstantiation or the real presence"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: pahc.term.eucharistia

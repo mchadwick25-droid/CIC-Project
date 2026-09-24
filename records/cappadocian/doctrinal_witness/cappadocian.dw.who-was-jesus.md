@@ -3,7 +3,7 @@ id: cappadocian.dw.who-was-jesus
 world_id: cappadocian-trinitarian
 record_type: doctrinal_witness
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - C-I
@@ -37,7 +37,6 @@ retrieval:
   retrieve_when:
   - "participant asks who Jesus was to this world, or what mattered most about him"
   - "participant asks what the good news actually was here, or what his death and resurrection meant"
-  do_not_retrieve_when: []
 text: >-
   Jesus was the ground everything else in our life stood on. At the font we
   were signed into his name, Father, Son, and Holy Spirit together, and

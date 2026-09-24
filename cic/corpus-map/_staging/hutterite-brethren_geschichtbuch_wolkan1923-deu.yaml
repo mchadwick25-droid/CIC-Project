@@ -1,0 +1,22 @@
+source_file: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
+
+assignments:
+  - work: "Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)"
+    author: hutterite-brethren
+    locus: "whole text, 1517-1665"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The Hutterite Brethren's own communal chronicle, German original
+      (ed. Wolkan, 1923) - PRIMARY content for this world, not a second
+      witness, since the only English translation (Plough, 1987) is
+      access-restricted and in copyright; no PD English rendering of
+      this work exists anywhere. Vendored 2026-09-24 as part of a
+      pre-Doc_02 source-acquisition pass for this candidate, closing a
+      real gap an earlier dossier pass had left unresolved. Original-
+      language second-witness caveat does not apply here per
+      cic/texts/INTAKE.md, since there is no English rendering for this
+      to witness alongside - this file is the primary evidentiary text
+      itself for this world until an English translation is vendored.

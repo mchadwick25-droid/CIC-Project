@@ -3,7 +3,7 @@ id: desert.quote.an-old-man-in-the-next-village
 world_id: desert-monasticism
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-E
@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   For there were not yet so many monasteries in Egypt, and no monk at all knew of the distant desert; but all who wished to give heed to themselves practised the discipline in solitude near their own village. Now there was then in the next village an old man who had lived the life of a hermit from his youth up. Antony, after he had seen this man, imitated him in piety.
+modern_rendering: >-
+  At that time, Egypt did not yet have many monasteries. No monk knew of the far desert. So everyone
+  who wanted to pay attention to their own soul practiced this discipline alone, near their own
+  village. In the next village, there was an old man. He had lived as a hermit since he was young.
+  Antony saw this man. He imitated the man's devotion.
 speaker_or_author: Athanasius, Life of Antony
 license: verbatim
 modern_lens_note: >-
@@ -31,7 +36,6 @@ retrieval:
   - "participant asks whether these practices went back to the apostles or were invented later"
   - "participant asks who started this way of life"
   - "participant asks how old this discipline actually was"
-  do_not_retrieve_when: []
 relations:
 - type: associated-with
   target: desert.dw.apostolic

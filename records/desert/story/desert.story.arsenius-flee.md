@@ -3,7 +3,7 @@ id: desert.story.arsenius-flee
 world_id: desert-monasticism
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells: [F4-I]
 confidence:
@@ -21,7 +21,6 @@ retrieval:
   - "participant asks how someone actually became part of this life, in the shortest possible telling"
   - "participant asks what withdrawal actually meant as a strategy, not an escape"
   - "participant asks for a short, memorable saying about this world's own path"
-  do_not_retrieve_when: []
 relations:
 - type: illustrates
   target: desert.gravity.withdrawal

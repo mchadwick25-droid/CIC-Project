@@ -3,7 +3,7 @@ id: rzg.story.calvins-journey-to-zurich
 world_id: the-reformed-cities-zurich-and-geneva
 record_type: story
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F5-P
@@ -22,7 +22,7 @@ retrieval:
   retrieve_when:
   - participant asks how the Zurich/Geneva doctrinal bridge actually came about
   - participant asks about Farel's own role in this world
-  do_not_retrieve_when:
+  prefer_instead:
   - participant wants the Consensus's own actual doctrinal content
 relations:
 - type: illustrates

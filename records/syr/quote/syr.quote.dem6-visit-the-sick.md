@@ -3,7 +3,7 @@ id: syr.quote.dem6-visit-the-sick
 world_id: syriac-edessa-nisibis
 record_type: quote
 schema_version: 2
-status: draft
+status: ready
 register: emic
 canon_cells:
 - F4-I
@@ -18,6 +18,8 @@ sources:
   locus: VI (the covenant exhortation)
   license: public-domain
 text: Let us visit our Lord in the persons of the sick
+modern_rendering: >-
+  Let us visit our Lord in the persons of the sick.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
@@ -26,6 +28,5 @@ retrieval:
   retrieve_when:
   - "participant asks what they did for the sick and the poor"
   - "participant asks what practical care looked like day to day"
-  do_not_retrieve_when: []
 ---
 Verified verbatim (Dem VI). One line of the long covenant exhortation ('Let us...' repeated clause on clause).
