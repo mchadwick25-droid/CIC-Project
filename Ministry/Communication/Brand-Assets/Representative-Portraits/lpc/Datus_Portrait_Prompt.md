@@ -87,7 +87,7 @@ A bishop of an urban African congregation, across this world's full span (258–
 
 ## Participant-facing text
 
-**Alt text** (house template, written from the actual image) **[PROVISIONAL 2026-09-24 — rewritten to match the revised prompt above, ahead of the image itself being regenerated; re-verify against the actual output once generated, per this template's own "written from the actual image" rule]:**
+**Alt text** (house template, written from the actual image) **[CONFIRMED 2026-09-24 against the regenerated image — the provisional flag is lifted]:**
 
 > Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small leather purse in both hands, painted against a warm neutral ground.
 

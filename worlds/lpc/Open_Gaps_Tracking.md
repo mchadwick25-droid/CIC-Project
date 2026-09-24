@@ -672,11 +672,13 @@ object; it is superseded solely by the silhouette constraint), grounded instead 
 ransom — G3 and G1, not G2/G8), and a correction recorded in the same edit: the prompt file's
 own prior dismissal of the purse as reading "generic almsgiving" was not accurate to
 `lpcstory004`'s source, which is a specific, checkable act of collegial obligation, not
-generic charity. **Not yet applied:** the committed portrait image (`Datus_Portrait.jpg`)
-still depicts the certificate and has not been regenerated to the purse — no image-generation
-tool was available to the thread that recorded this decision; regenerating the image is a
-separate, real production step, flagged here rather than silently left to diverge from the
-disposed object. OG-1's own original entry above is left as written, per this file's
+generic charity. **Image regenerated and committed, 2026-09-24, closing the last open piece
+of OG-1.** `Datus_Portrait.jpg` now depicts the purse, generated from the corrected prompt in
+`Datus_Portrait_Prompt.md` Part Four (PR #514) via Gemini, external to this thread's own
+tooling, and reviewed and approved by the project lead directly against that prompt before
+being committed. The prompt's alt text is updated to match and its provisional flag lifted.
+OG-1 is now fully closed — decision, prompt text, and image all agree. OG-1's own original
+entry above is left as written, per this file's
 append-only discipline; this closing note is the record of its resolution.
 
 ---
