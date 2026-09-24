@@ -85,13 +85,13 @@ type Mark = { start: number; end: number; matchedName: string; kind: 'figure'; f
 const STORY_RECORD_TYPES = new Set(['story', 'quote']);
 const WITNESS_RECORD_TYPES = new Set(['doctrinal_witness']);
 
-// R9 (RULED a, 2026-09-21): "Contested" and "Inferential-Thin" are two of
+// "Contested" and "Inferential-Thin" are two of
 // the five formation_confidence values (CLAUDE.md's own vocabulary,
 // engine/m1/schemas.py) that name real scholarly uncertainty rather than
-// a well-attested claim - the two this ruling's "contested or thin-
+// a well-attested claim - the two "contested or thin-
 // evidence claims" covers. transparency.anchors carries each cited
 // record's confidence envelope verbatim (transparency_plan.py), computed
-// but never rendered until this ruling; nothing else in this module reads
+// but never rendered elsewhere; nothing else in this module reads
 // or renders any other confidence field.
 const THIN_EVIDENCE_CONFIDENCE_LEVELS = new Set(['Contested', 'Inferential-Thin']);
 
@@ -100,12 +100,11 @@ function isContested(confidence: Record<string, unknown> | null): boolean {
   return typeof level === 'string' && THIN_EVIDENCE_CONFIDENCE_LEVELS.has(level);
 }
 
-// R17 (RULED, house rule; Rulings-Pending.md, Decision-Log.md Entry 29) -
-// Adjusted-Design.md's own N2 note splits it into an M7 instrument
+// Adjusted-Design.md's own N2 note splits this rule into an M7 instrument
 // (engine/m7/instruments.py's level1_element_density, already built and
 // merged) and this: the renderer fixture test + enforcement it names as
 // the other engineering half. The cap number/formula and drop order
-// below are Mark's own confirmed answer this session, not invented here:
+// below:
 // a small, capped number of inline Level-1 elements per turn, scaling
 // gently with sentence count - floor of 3 so even a short turn isn't
 // capped away entirely, ceiling of 8 regardless of length, roughly one
@@ -128,8 +127,8 @@ interface Candidate {
 
 // Drops whole candidates (never a partial mark) from the lowest-priority
 // kind first. Within a kind, drops the MOST RECENTLY occurring ones
-// first, keeping earlier disclosures visible - R17 doesn't specify this
-// tie-break, so it's a documented default, not an implicit accident.
+// first, keeping earlier disclosures visible. The drop-cap rule above
+// doesn't specify this tie-break; this file's own default.
 function selectDropped(candidates: Candidate[], cap: number): Set<string> {
   const dropped = new Set<string>();
   let over = candidates.length - cap;
@@ -237,9 +236,8 @@ function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard
 
 // THE LEGACY RENDERER (kept byte-for-byte; default until the flag below is
 // explicitly on). Reconstructs marks and General References client-side by
-// searching for each citation's own sentence in the finished text - the
-// approach Build-Plan.md Stage 3c replaces, because it has a real,
-// measured completeness gap: engine.m4.transparency_plan's own docstring
+// searching for each citation's own sentence in the finished text. This
+// has a real, measured completeness gap: engine.m4.transparency_plan's own docstring
 // names it directly - a non-consecutive repeat citation of the same story
 // or witness record is silently dropped (renderedStoryIds/
 // renderedWitnessIds correctly suppress a second inline mark, but

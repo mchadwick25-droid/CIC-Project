@@ -1,9 +1,5 @@
 /**
- * Build-Plan.md Stage 3c: "ship behind a flag defaulting to current
- * behavior until R10 and label copy are ruled." Both are ruled now (R10:
- * Rulings-Pending.md; label copy: Decision-Log.md Entry 41) and Mark's
- * own seeker read-through, the gate R17 itself named, passed on both
- * halves (Entries 46, 48) - the flag defaults ON as of Entry 49.
+ * Defaults ON.
  *
  * VITE_ prefix required for Vite to expose it to client code at all
  * (anything without it never reaches the bundle, by Vite's own design -

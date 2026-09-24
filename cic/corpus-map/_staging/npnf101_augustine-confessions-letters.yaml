@@ -23,8 +23,8 @@ assignments:
   note: 'Books III-V are a firsthand account of nine years as a Manichaean auditor — testimony
     about the movement''s teachers (Faustus by name), cosmology and appeal that the doctrinal-floor
     entry has from almost no other Latin source. Provisional because it is testimony embedded
-    in a Catholic conversion narrative, not a treatise about the movement; a reviewer may
-    prefer to let npnf104''s dedicated refutations carry this bucket alone.
+    in a Catholic conversion narrative, not a treatise about the movement; npnf104''s dedicated
+    refutations could carry this bucket alone instead.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
@@ -52,9 +52,9 @@ assignments:
   confidence: assigned
   locus: div3 letters XXVIII, XXXIX, XL, LXVII, LXVIII, LXXI, LXXII, LXXIII, LXXV, LXXXI,
     LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. This part is exact: every letter whose title names Jerome, in both directions.
@@ -70,9 +70,9 @@ assignments:
   confidence: assigned
   locus: div3 letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX,
     CLXXIII (11 letters, ~54,523 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. Cut at eight or more occurrences of the Donatist vocabulary (Donatist, Donatus,
@@ -89,9 +89,9 @@ assignments:
   role: context
   confidence: assigned
   locus: div3 letters CXLVI, CXCI (2 letters, ~1,182 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. One extraction bug was caught and fixed before any of this was written: the
@@ -110,9 +110,9 @@ assignments:
   role: tradition
   confidence: assigned
   locus: div3, the remaining 138 letters (~258,018 words)
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
+  note: 'Derived from the volume''s own markup rather
     than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
+    them, and the sub-corpora are cut by ADDRESSEE where the title names one (the Jerome
     exchange, exactly) and by keyword count where it does not, taking the natural break in
     the distribution rather than a chosen threshold. The four parts partition the 168 with
     no overlap. Everything not claimed by the three controversies above - the bulk of the

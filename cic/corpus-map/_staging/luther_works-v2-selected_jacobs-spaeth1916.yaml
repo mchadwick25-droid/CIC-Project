@@ -1,7 +1,7 @@
-# Worker: source-research thread, 2026-09-15. Proactive vendoring ahead of
-# the Lutheran Wittenberg build (Atlas VI.1), per this world's own
-# Source Readiness Dossier. See the companion Vol. I staging file's own
-# header note - same batch, same finding (no cross-link opportunities yet).
+# Proactively vendored ahead of the Lutheran Wittenberg build (Atlas
+# VI.1), per this world's own Source Readiness Dossier. See the
+# companion Vol. I staging file's own header note - same batch, same
+# finding (no cross-link opportunities yet).
 source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
 
 assignments:

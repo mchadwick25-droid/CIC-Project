@@ -107,10 +107,9 @@ works:
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
   role: tradition
   confidence: provisional
-  note: '1521. Confidence held at provisional rather than assigned because the file''s own
-    OCR-degraded Contents page has not yet been cross-checked section-by-section against the
-    body text to confirm exact locus boundaries for each of this volume''s several works -
-    a Doc_02 task.
+  note: '1521. Confidence held at provisional rather than assigned: the file''s own Contents
+    page is OCR-degraded, and exact locus boundaries for each of this volume''s several works
+    are not independently confirmed against the body text.
 
     '
   source_file: luther_works-v3-selected_various1930.txt
@@ -164,10 +163,9 @@ works:
     Henry Cole (1823). Central to this world''s own candidate gravity of grace/justification
     (Doc_01 §1) and a genuinely different register from the shorter 1520 treatises already
     vendored - a sustained, single-opponent theological argument. Confidence held at provisional,
-    not assigned, because this file''s own OCR quality (see REGISTRY.yaml note) has not yet
-    been spot-checked at the specific passages Doc_02/Doc_04 would actually cite - each citation
-    needs its own character-by-character re-verification before use, not a one-time general
-    clearance.
+    not assigned: this file''s own OCR quality (see REGISTRY.yaml note) means each citation
+    needs its own character-by-character re-verification against the vendored text before
+    use, not a one-time general clearance.
 
     '
   source_file: luther_bondage-of-the-will_cole1823.txt

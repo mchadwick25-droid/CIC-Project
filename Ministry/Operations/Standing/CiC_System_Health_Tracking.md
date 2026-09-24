@@ -1275,3 +1275,70 @@ smoke checks going forward, that's a real mandate expansion worth
 deciding explicitly, not backing into via an automated dispatch.
 
 Fleet size unchanged at 11.
+
+---
+
+## 2026-09-24 18:58 UTC — Step 5 (doc-hygiene watch) moved from commit-message reading to the commentary classifier
+
+Mark asked directly why this thread hadn't caught the stray-commentary
+accumulation that the Live-Surface-Cleanup campaign (PRs #498, #501,
+#503, #504) is now cleaning up fleet-wide. Root cause, not an excuse:
+every prior sweep's step 5 read commit *messages* for WIP/process
+narration, never the diffed file *content* itself. A commit message can
+read perfectly clean ("Fix X") while the diff it describes drops a
+`(Mark, date)` parenthetical, a ruling-number citation, or a stage-label
+sentence straight into a docstring, JSON field, or HTML page - invisible
+from the message alone. Compounding it: this thread's own sampling (the
+last ~10 commits, once per ~6-hour sweep) was too sparse for the actual
+commit throughput on active days. This thread held the "watch the
+build/run trees for stray notes" mandate since 2026-09-03, caught and
+fixed one instance of this early on (~48 files in engine/, ~15 in
+cic-poc/frontend/), then reverted to commit-message skimming instead of
+turning that into a standing check - `tools/check_live_commentary.py`,
+the real classifier now driving the cleanup, was built by a different
+thread today (PR #498), not proposed by this one.
+
+Mark's direction: adopt the classifier for step 5 going forward. Done -
+the standing routine's own stored prompt (`trig_018SBnt1JTXwWkRoEfqJTZwP`)
+is updated in place so every future firing carries the new method, not
+just this thread's memory of the conversation.
+
+New method: run `python3 tools/check_live_commentary.py --surface <s>`
+across all eleven live/canonical surfaces each sweep, read REWRITE/ROUTE
+hit counts directly, and compare against the baseline below. A stable or
+falling count needs no action from this thread (an owning cleanup thread
+is already working it). A growing count on a surface nobody is actively
+cleaning is a genuine new finding, logged and flagged to Mark - never
+fixed directly, since turning a REWRITE hit into a correct rewrite takes
+judgment about what design reasoning to preserve and where the citation
+belongs instead, exactly what the Live-Surface-Cleanup PRs' own multiple
+revision rounds have shown.
+
+**Baseline, taken against main at `2fc00a48a`** (REWRITE + ROUTE hit
+counts per surface; PROTECTED/KEEP excluded as non-actionable):
+
+| Surface | REWRITE | ROUTE |
+|---|---|---|
+| canon | 0 | 0 |
+| cic-corpus-map | 761 | 0 |
+| cic-engine | 20 | 0 |
+| cic-poc-frontend | 1 | 0 |
+| cic-website | 1 | 0 |
+| engine | 756 | 0 |
+| fixtures | 1 | 0 |
+| packages | 3409 | 28 |
+| records | 2231 | 12 |
+| reference | 257 | 4 |
+| worlds | 6027 | 322 |
+
+cic-poc-frontend and cic-website are already down from 48 and 256 (the
+same-day figures this sweep first measured, before #501/#503 merged) to
+1 each - the active cleanup campaign visibly working, not new drift.
+engine (756) has an in-progress PR (#504) not yet merged. The very large
+counts on records/, worlds/, and packages/ are not a fresh alarm - they
+reflect the same known, fleet-wide pattern the classifier itself was
+built to find and the campaign is working through in stages - but they
+are now a real, comparable baseline instead of an unmeasured guess, so
+the next sweep can tell growth from ordinary campaign progress.
+
+Fleet size unchanged at 11.

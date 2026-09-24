@@ -502,13 +502,13 @@ authors:
   excerpts-of-theodotus:
     kind: pseudonymous
     evidence: 'div2 4.3, titled "Excerpts of Theodotus" and DC.Creator-listed under theodotus,
-      but corrected 2026-09-08 (records/alx audit; see alx.source.excerpts-of-theodotus.md):
-      the vendored text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto -
-      a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
-      and the ANF editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt
-      or forged documents, for which Clement''s name has been borrowed"), guessing an unknown
-      Montanist compiler instead. Ruled pseudonymous rather than reused as `theodotus`, which
-      would keep asserting the disproven attribution.
+      but the vendored text is actually the Eclogae Propheticae, not the genuine Excerpta
+      ex Theodoto (records/alx audit, alx.source.excerpts-of-theodotus.md) - a full-text scan
+      found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad, and the ANF
+      editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt or forged
+      documents, for which Clement''s name has been borrowed"), guessing an unknown Montanist
+      compiler instead. Classified pseudonymous rather than reused as `theodotus`, which would
+      keep asserting the disproven attribution.
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -845,8 +845,7 @@ authors:
     kind: pseudonymous
     evidence: 'div1 6 is titled "Pseudo-Clementine Literature" in the volume''s own markup.
       CCEL''s DC.Creator carries clement_rome for the volume, but the volume itself rules
-      the attribution pseudonymous in its section title and Introductory Notice; ruled explicitly
-      per the brief''s open question 4.
+      the attribution pseudonymous in its section title and Introductory Notice.
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

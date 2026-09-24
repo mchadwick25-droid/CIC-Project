@@ -16,7 +16,7 @@
  *
  * `repeat` and `contested` are CSS-only modifiers (app.css
  * .citation-mark--repeat/--contested) - same glyph, same color, same
- * verb, per R9's and R10's own design constraints; see VoiceTurnBody.tsx's
+ * verb, per the citation marks' own design constraints; see VoiceTurnBody.tsx's
  * renderFromElements for where these are computed.
  */
 import type { SourceCard } from '../types/conversation';

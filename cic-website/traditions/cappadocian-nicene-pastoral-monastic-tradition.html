@@ -40,9 +40,8 @@ p{margin:0 0 1rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four don't fit alongside the rest in one row at this header's own
-   1024px width. */
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
@@ -51,11 +50,11 @@ p{margin:0 0 1rem}
 /* Centered in the space actually available between the logo and the menu
    button, not naive full-row-width centering (that ignores the wordmark's
    and menu button's own widths and can visually collide with the
-   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
-   max-content/1fr/max-content sizes the outer two columns to the
-   wordmark's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -67,9 +66,8 @@ p{margin:0 0 1rem}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
 /* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
    real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
-   "you shouldn't have to click to get it to allow you to move in the hover
-   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   which drops :hover before the pointer reaches the menu. The ::before
+   bridges the .5rem visual gap so :hover survives the
    crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
@@ -241,11 +239,9 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <!-- Kept standalone when the "Who is speaking" section (its original home)
-           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
-           not gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves - see cic-website/traditions/*.html's
-           pre-redesign `who_speaks` section for its prior placement. -->
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
       <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
@@ -345,8 +341,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </section>
 
       <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no section
-           of their own in the old hand-built pages. Rather than two more
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
            full-width sections, they share one compact strip - pull quotes as
            blockquotes, then a small glossary grid - placed after Sources and
            before the closing Questions section. -->
@@ -355,18 +351,10 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <p class="eyebrow">In this world's own words</p>
         <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
         <div class="orient-pull-quotes">
-      <blockquote class="orient-pull-quote"><p>Here is what I mean. What is spoken of in a special, particular way is named by the word hypostasis. Suppose we say &quot;a human being&quot; - the word is vague; it points to the nature in general, but not to any one particular person who exists. Suppose instead we say &quot;Paul.&quot; Now, by the name itself, we point to a particular, existing nature.</p><cite>Letter XXXVIII, To his brother Gregory (transmitted as Basil&#39;s; a substantial body of modern scholarship reassigns it to Gregory of Nyssa - see divergence_note)</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>It shouldn&#39;t strike anyone as strange that God was born into our nature. Not if you actually look at the universe and see God present in everything - holding it all together, filling it. Everything that exists depends on him. Nothing exists apart from him. So why call it scandalous that God was born among us - the same God who was never really absent from us to begin with?
-
-      Here is the difference. Before, he sustained our nature invisibly, from within it. Now, at the incarnation, he was poured directly into our nature - so that our nature itself, through that union, might become divine. Rescued from death, and placed beyond the reach of our enemy&#39;s schemes. His own rising from death becomes, for the rest of us mortals, the beginning of our own rising into unending life.</p><cite>Gregory, bishop of Nyssa</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>When the young man died, the marriage her father had arranged for her was undone. But she said the arrangement itself counted as good as an actual marriage. So she resolved to stay single from then on, as if the marriage had really taken place. Her resolve held firmer than anyone would have expected from someone her age.
-
-      Her parents kept bringing her fresh proposals - her beauty attracted many suitors. Each time, she said the same thing. It made no sense, she said, and it wasn&#39;t right, to break faith with the marriage her father had already arranged, just to consider someone else. By nature, she said, a person has only one marriage. Just as they have one birth and one death.
-
-      She insisted that the man bound to her by her parents&#39; arrangement was not dead. Because of the hope of the resurrection, she believed he was alive with God - only away, not gone. So it would be wrong, she said, not to stay faithful to a husband who was merely absent.</p><cite>Gregory of Nyssa, narrating Macrina&#39;s own reasoning</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>Some of you try to get out of work by claiming prayer or psalm-singing needs the time instead. But understand: every task has its own proper hour, just as Ecclesiastes says, &quot;There is a time for everything.&quot; Prayer and psalm-singing are different. Any hour at all will do for those.
-
-      So we can praise God with psalms, hymns, and spiritual songs while our hands stay busy at work. Aloud, if the task allows it, and it won&#39;t pull anyone else&#39;s mind off the faith. Silently in the heart, if it won&#39;t. Either way, we give thanks to the God who gave us the strength to work with our hands, and the sense to know how. He also supplied the tools we use and the trade we practice, whatever that work may be. And we pray, too, that what our hands make will be aimed at pleasing him.</p><cite>Basil, bishop of Caesarea</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>My statement, then, is this: what is spoken of in a special and particular way is indicated by the name hypostasis. Suppose we say &quot;a man.&quot; The word&#39;s indefinite meaning strikes the ear only vaguely. It indicates the nature, but what subsists -- what is specially and particularly indicated by the name -- is not made plain. Suppose instead we say &quot;Paul.&quot; By what the name indicates, we set forth the nature subsisting.</p><cite>Letter XXXVIII, To his brother Gregory (transmitted as Basil&#39;s; a substantial body of modern scholarship reassigns it to Gregory of Nyssa - see divergence_note)</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>That God should be born in our nature ought not to seem strange to anyone who does not take too narrow a view of things. For who, when he surveys the universe, is so simple as not to believe that God is in everything -- penetrating it, embracing it, and seated in it? All things depend on him who is. Nothing can exist that does not have its being in him. If, then, all things are in him, and he is in all things, why are people scandalized at the plan of Revelation? It teaches that God was born among men -- that same God whom we are convinced is even now not outside mankind. Although this last form of God&#39;s presence among us is not the same as that former presence, his existence among us is shown equally, both then and now. Only now, he who holds nature together in existence is transfused in us. At that other time, he was transfused throughout our nature, so that our nature, through this transfusion of the divine, might itself become divine -- rescued from death, and placed beyond the reach of our enemy&#39;s caprice. His return from death becomes, for our mortal race, the beginning of our own return to immortal life.</p><cite>Gregory, bishop of Nyssa</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>When the young man died, the marriage her father had arranged for her was undone. But she said the arrangement itself counted as good as an actual marriage. So she resolved to stay single from then on, as if the marriage had really taken place. Her resolve held firmer than anyone would have expected from someone her age. Her parents kept bringing her fresh proposals -- her beauty attracted many suitors. Each time, she said it was absurd and unlawful not to keep faith with the marriage her father had arranged for her, yet be compelled to consider another. In the nature of things, she said, there is only one marriage, just as there is one birth and one death. She insisted that the man bound to her by her parents&#39; arrangement was not dead. Because of the hope of the resurrection, she believed he was alive with God -- only away, not gone. So it would be wrong, she said, not to stay faithful to a husband who was merely absent.</p><cite>Gregory of Nyssa, narrating Macrina&#39;s own reasoning</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>Now some of you try to get out of work under the pretext of prayers and psalmody. Understand that for each separate task there is a special time, as Ecclesiastes says: &#39;There is a time for everything.&#39; But for prayer and psalmody, as for many other things, every time is suitable. So we praise God with psalms, hymns, and spiritual songs while our hands stay busy at work. We do this aloud, if that is possible and helps build up the faith, but if not, then in the heart -- giving thanks to him who gave us both strength of hand to work and wisdom of mind to know how to work, and who also gave us the means to work, both in the tools we use and the arts we practice, whatever the work may be. And we pray, too, that the works of our hands may be directed toward pleasing him.</p><cite>Basil, bishop of Caesarea</cite></blockquote>
       </div><dl class="orient-glossary">
       <div class="orient-glossary-item"><dt>ousia / hypostasis</dt><dd>Ousia means what God is: one being. Hypostasis means who God is: Father, Son, and Holy Spirit, each a real, distinct someone. Together the two words let us confess one God in three, without three gods and without blurring the three into one costume.</dd></div>
       <div class="orient-glossary-item"><dt>homoousios</dt><dd>We did not invent the word homoousios -- we inherited it from the Council of Nicaea and treated it as a banner to defend. It meant the Son is fully, exactly what the Father is, not merely similar to him.</dd></div>

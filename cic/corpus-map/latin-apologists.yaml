@@ -9,13 +9,10 @@ works:
   role: tradition
   confidence: assigned
   note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius.
-    MOVED 2026-08-27 from latin-pastoral-congregational-christianity, where the worker had
-    parked it as provisional with the objection already stated in its own note: combative
-    apologetics by a recent convert, not congregational pastoralia. It was not flagged, only
-    provisional, which is why the gap looked like two works instead of three - a hundred and
-    forty thousand words of it. Note kept: books 3-7 are one of antiquity''s richest repositories
-    of Roman pagan cult detail, strong lived-ecology context value even though the author
-    is Christian.
+    Filed under latin-apologists rather than latin-pastoral-congregational-christianity: combative
+    apologetics by a recent convert, not congregational pastoralia - a hundred and forty thousand
+    words of it. Note kept: books 3-7 are one of antiquity''s richest repositories of Roman
+    pagan cult detail, strong lived-ecology context value even though the author is Christian.
 
 
     '
@@ -25,12 +22,11 @@ works:
   locus: div2 5.2 - The Instructions of Commodianus
   role: tradition
   confidence: provisional
-  note: 'Latin Christian acrostic verse instruction, moved to latin-apologists 2026-08-27
-    with the rest of the Latin apologetic body. PROVISIONAL, NOT ASSIGNED, and the reason
-    is the date rather than the shelf: proposals run from the 3rd century to the 5th, and
-    only the early ones put him inside this entry''s window. The entry is right if the usual
-    3rd-c. North African dating holds and wrong if the 5th-c. Gallic one does. Nothing in
-    the corpus settles it.
+  note: 'Latin Christian acrostic verse instruction, placed with the rest of the Latin apologetic
+    body under latin-apologists. PROVISIONAL, NOT ASSIGNED, and the reason is the date rather
+    than the shelf: proposals run from the 3rd century to the 5th, and only the early ones
+    put him inside this entry''s window. The entry is right if the usual 3rd-c. North African
+    dating holds and wrong if the 5th-c. Gallic one does. Nothing in the corpus settles it.
 
 
     '
@@ -40,9 +36,9 @@ works:
   locus: div3 under 4.5 - Treatise V
   role: tradition
   confidence: assigned
-  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Cyprian himself
-    is not one of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian);
-    this is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
+  note: 'Cross-linked from a Source Readiness Dossier finding. Cyprian himself is not one
+    of this entry''s core authors (Tertullian, Felix, Arnobius, Lactantius, Commodian); this
+    is the first Cyprian material in this bucket. A genuine apology addressed to a hostile
     pagan outsider (Demetrianus, a proconsul blaming Christians for plague, famine, and war)
     - squarely the genre this entry exists to hold, not merely an adjacent congregational
     text.
@@ -54,8 +50,8 @@ works:
   locus: div3 under 4.5 - Treatise VI
   role: transmission
   confidence: provisional
-  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding. Filed as transmission,
-    not tradition, given the same disputed authorship already noted above - but that dependency
+  note: 'Cross-linked from a Source Readiness Dossier finding. Filed as transmission, not
+    tradition, given the same disputed authorship already noted above - but that dependency
     cuts both ways for this entry specifically: it compiles Tertullian and Minucius Felix,
     both already primary authors here, which makes it a plausible transmission-tier link even
     while its own authorship stays contested.
@@ -67,12 +63,12 @@ works:
   locus: div2 4.3 - The Octavius of Minucius Felix
   role: tradition
   confidence: assigned
-  note: 'Earliest surviving Latin apologetic dialogue (Rome/Ostia, late 2nd-3rd c.). RULED
-    2026-08-27: latin-apologists (I.43) was minted for this gap, on the I.35 precedent - the
-    Greek apologists had been registered on the same reasoning and the Latin case had simply
-    never been made. Note kept for later use: the first half, Caecilius'' speech, is one of
-    the fullest surviving statements of the pagan case against Christians - strong context
-    value even though the work itself is Christian.
+  note: 'Earliest surviving Latin apologetic dialogue (Rome/Ostia, late 2nd-3rd c.). latin-apologists
+    (I.43) was minted for this gap, on the I.35 precedent - the Greek apologists had been
+    registered on the same reasoning and the Latin case had simply never been made. Note kept
+    for later use: the first half, Caecilius'' speech, is one of the fullest surviving statements
+    of the pagan case against Christians - strong context value even though the work itself
+    is Christian.
 
 
     '
@@ -83,12 +79,9 @@ works:
   role: tradition
   confidence: assigned
   note: 'Philosophical-theological treatise against Epicurean and Stoic accounts of deity.
-    Moved with the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT
-    a fresh judgement: the worker''s own note placed it on imperial-juridical ''pending the
-    ruling flagged on The Divine Institutes'', so the dependency was declared at the time
-    and this is it resolving. Confidence rises from `provisional` to `assigned` because the
-    doubt recorded was the era-straddle, and that is now settled.
-
+    It belongs with the *Divine Institutes* in `latin-apologists`, as part of Lactantius''
+    apologetic corpus. Confidence is `assigned`: the doubt this work carried was the era-straddle
+    question, and that is settled by the Institutes'' placement.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -97,13 +90,9 @@ works:
   locus: div2 3.6
   role: tradition
   confidence: assigned
-  note: 'The surviving fragments, carried with the corpus they belong to. Moved with the *Divine
-    Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT a fresh judgement: the
-    worker''s own note placed it on imperial-juridical ''pending the ruling flagged on The
-    Divine Institutes'', so the dependency was declared at the time and this is it resolving.
-    Confidence rises from `provisional` to `assigned` because the doubt recorded was the era-straddle,
-    and that is now settled.
-
+  note: 'The surviving fragments, carried with the corpus they belong to: `latin-apologists`,
+    alongside the *Divine Institutes*. Confidence is `assigned`: the doubt this work carried
+    was the era-straddle question, and that is settled by the Institutes'' placement.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -113,12 +102,9 @@ works:
   role: tradition
   confidence: assigned
   note: 'On the design of the human body, against Epicurean chance - Lactantius'' natural-theology
-    piece. Moved with the *Divine Institutes* on Mark''s ruling of 2026-08-27, and moved WITHOUT
-    a fresh judgement: the worker''s own note placed it on imperial-juridical ''pending the
-    ruling flagged on The Divine Institutes'', so the dependency was declared at the time
-    and this is it resolving. Confidence rises from `provisional` to `assigned` because the
-    doubt recorded was the era-straddle, and that is now settled.
-
+    piece. It belongs with the *Divine Institutes* in `latin-apologists`, as part of Lactantius''
+    apologetic corpus. Confidence is `assigned`: the doubt this work carried was the era-straddle
+    question, and that is settled by the Institutes'' placement.
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -127,19 +113,15 @@ works:
   locus: div2 3.2 — The Divine Institutes
   role: tradition
   confidence: assigned
-  note: 'RULED BY MARK 2026-08-27: Lactantius lives in `latin-apologists` (I.43). The straddle
-    in the old note was real - written c. 303-311 under the Great Persecution by a rhetor
-    teaching at Nicomedia, who afterwards tutored Constantine''s son at Trier - and the entry
-    that resolves it did not exist when the work was flagged. Jerome makes him Arnobius''
-    pupil at Sicca, and Arnobius is in this entry; the Institutes are the fullest Latin defence
-    anyone wrote, and most of the work predates 312.
+  note: 'Lactantius lives in `latin-apologists` (I.43): written c. 303-311 under the Great
+    Persecution by a rhetor teaching at Nicomedia, who afterwards tutored Constantine''s son
+    at Trier. Jerome makes him Arnobius'' pupil at Sicca, and Arnobius is in this entry; the
+    Institutes are the fullest Latin defence anyone wrote, and most of the work predates 312.
 
-
-    THE RULING SPLITS THE AUTHOR, WHICH IS WHAT `per work` MEANS. Lactantius'' apologetic
-    corpus moves; *Of the Manner in Which the Persecutors Died* does NOT. That is the Athanasius
+    This splits the author by work, which is what `per work` means. Lactantius'' apologetic
+    corpus is here; *Of the Manner in Which the Persecutors Died* is not. That is the Athanasius
     case the schema names - the Vita Antonii is desert''s and Against the Arians is Alexandria''s,
     one author, two entries, split by work.
-
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -150,18 +132,14 @@ works:
   confidence: assigned
   note: 'Carthage, 203 - inside this candidate''s own window and city, transmitted with his
     corpus, and the volume''s editor thinks him its editor but not author. Its New Prophecy
-    affinities are long argued. Best guesses only: a first-person martyr diary by a woman
-    is precious enough that where it lives should be Mark''s call, not a worker''s. RULED
-    BY MARK, 2026-08-26: tertullian-s-voice (Carthage 203, inside that entry''s window and
-    city, transmitted with Tertullian''s corpus and edited by him on the volume''s own reading,
-    against the long-argued New Prophecy affinities) over montanism-the-new-prophecy, so the
-    latter guess was dropped rather than left standing as a second best-guess Mark did not
-    choose. Restoring it is one id if he wants both: the affinity claim is real scholarship,
-    not a shelving convenience, and nothing in this note argues against it. SUPERSEDED IN
-    PART BY MARK''S FURTHER RULING, 2026-09-10: tertullian-s-voice itself (I.17) is merged
-    into latin-apologists (I.43), so the 2026-08-26 ruling now resolves here rather than to
-    a separate entry - the choice it made (Carthage/Tertullian''s corpus over the New Prophecy
-    guess) is unaffected and still stands.'
+    affinities are long argued. A first-person martyr diary by a woman is precious enough
+    that the shelving deserves care: this assignment favors the Carthage/Tertullian''s-corpus
+    reading (inside window and city, transmitted with Tertullian''s corpus and edited by him
+    on the volume''s own reading) over montanism-the-new-prophecy. The affinity claim is real
+    scholarship, not a shelving convenience - adding montanism-the-new-prophecy alongside
+    this id remains worth considering. tertullian-s-voice itself is merged into latin-apologists,
+    so this assignment resolves there rather than to a separate entry; the underlying choice
+    (Carthage/Tertullian''s corpus over the New Prophecy reading) is unaffected.'
   source_file: anf03_tertullian.xml
 - work: The Passion of the Holy Martyrs Perpetua and Felicitas
   author: passion_of_perpetua
@@ -169,21 +147,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin/Greek second witness for the ALREADY-PRESENT English-language entry in latin-apologists.yaml
-    (source_file anf03_tertullian.xml, corrected here, independent review Round 25''s own
-    L5, from an earlier draft''s own "anf09_gospel-of-peter-diatessaron-origen-commentaries.xml,"
-    carried over by mistake from the sibling Scillitan-Martyrs assignment above in this same
-    file; anf03_tertullian.xml carries the work in full, printed as an Appendix, while anf09
-    names it only in editorial footnotes), per Mark''s own 2026-08-26 ruling assigning this
-    work there rather than to any Latin-pastoral bucket. This file does not reassign it --
-    mirrors the existing ruling exactly. Re-pointed 2026-09-21 (source-readiness dossier pass
-    on the Greek and Latin apologist candidates): the atlas_id tertullian-s-voice this entry
-    named is retired -- Mark''s 2026-09-10 ruling (recorded in worlds/latap/Step0_Movement_Scope_Confirmation.md
-    Rev. 6) merged tertullian-s-voice (I.17) into latin-apologists (I.43), and every one of
-    Tertullian''s own 32 works in anf03/anf04 was repointed accordingly by that ruling''s
-    own merge run -- this single sibling file was missed. (Contrary to this file''s own accompanying
-    task brief, which described Perpetua''s Passion as "not yet assigned to any world''s corpus
-    map" -- independently checked before writing this entry and found already assigned, per
-    the ruling cited above; corrected here rather than silently re-asserted.)
+    (source_file anf03_tertullian.xml; anf03_tertullian.xml carries the work in full, printed
+    as an Appendix, while anf09_gospel-of-peter-diatessaron-origen-commentaries.xml names
+    it only in editorial footnotes, so anf03 is the correct sibling entry, not anf09). This
+    work belongs with latin-apologists rather than any Latin-pastoral bucket. This file does
+    not reassign it -- mirrors the existing assignment exactly. The atlas_id here is latin-apologists
+    (I.43); tertullian-s-voice (I.17), which this entry once named, has since been merged
+    into it, along with the rest of Tertullian''s own works in anf03/anf04.
 
     '
   source_file: perpetua-scillitan-martyrs-lat-grc_robinson1891.txt
@@ -230,9 +200,8 @@ works:
   locus: div2 5.9 under div1 'Anti-Marcion.'
   role: tradition
   confidence: assigned
-  note: 'The trinitarian treatise against Praxeas'' monarchianism. The census has no entry
-    for monarchianism/patripassianism, so that face has no bucket. 2026-08-26: modalist-monarchianism
-    added alongside - the party this work argues with now has an entry of its own.'
+  note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism
+    holds that face: the party this work argues with has an entry of its own.'
   source_file: anf03_tertullian.xml
 - work: Against the Valentinians
   author: tertullian
@@ -260,8 +229,8 @@ works:
   role: tradition
   confidence: assigned
   note: 'Carthage, 197 - the opening date of this candidate''s own corpus, and of the whole
-    Latin apologetic enterprise (previously the opening date of the separate tertullian-s-voice
-    entry, I.17, merged into this candidate on Mark''s 2026-09-10 ruling).
+    Latin apologetic enterprise (also the opening date of the tertullian-s-voice material,
+    which this candidate now includes).
 
     '
   source_file: anf03_tertullian.xml
@@ -274,17 +243,16 @@ works:
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
-    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
-    pieces belong. RULED 2026-08-26, under a principle rather than one by one - nine works
-    across six entries were asking the same question, whether a spurious corpus files under
-    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
-    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
-    shelf stands: that is how the corpus presents it and how a reader will look for it. And
-    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
-    name that is not its author''s is a pseudepigraphon by definition. The two together say
-    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
-    can reverse this in one pass if he wants the spurious corpora detached from their attributed
-    authors instead.'
+    Whether spurious verse files under tertullian at all, and where non-Marcion pieces belong,
+    comes down to one principle: nine works across six entries ask the same question, whether
+    a spurious corpus files under the attributed name at all. It does, and it also files as
+    what it is. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. This can be reversed in one pass if the spurious corpora
+    should be detached from their attributed authors instead.'
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 - work: De Fuga in Persecutione (Flight in Persecution)
   author: tertullian
