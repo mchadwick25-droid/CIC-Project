@@ -741,3 +741,60 @@ with the full context these items need.
   process, still well above the ≥60 floor).
 
 ---
+
+## Entry 4 — `worlds/_cross-world/gen_needs_ruling.py` data-loss fix (PR #510)
+
+Fixes the data-loss bug flagged in Entry 3's "Flagged, not fixed" note
+above. `gen_needs_ruling.py` regenerates `NEEDS-RULING.md` from
+`cic/corpus-map/`; the committed file also carried a hand-appended
+fourth "question that is not per-work" the generator's own source
+never produced. A regeneration after Entry 3's corpus-map fixes
+silently overwrote that section.
+
+**2026-09-24, Mark (via the managing thread, delegated verdict
+authority).** Round 1: FAIL. The marker-preserving design (everything
+below `HAND_MAINTAINED_MARKER` in the output file is read back from
+the existing file and reproduced verbatim, rather than regenerated)
+was confirmed correct, but the fix was still in the same data-loss
+class — `extract_hand_maintained()` fell back to a placeholder,
+silently discarding real content, whenever an *existing* file's marker
+was missing, rather than only doing that on a genuine first run (file
+absent). Required before round 2: (1) make a missing marker on an
+existing file a refusal to write, not a placeholder; (2) remove this
+bug's own "found 2026-09-24" story from the live script's and test's
+docstrings/comments, since `worlds/` is itself a live surface this
+program governs — the story belongs here instead; (3) cut
+`NEEDS-RULING.md`'s new "Placement questions" section intro down to
+one present-tense line describing what the section holds, not a
+narration of the cleanup program that produced it; (4) wire the new
+test file into somewhere CI actually collects it.
+
+Round 2 (this entry): `extract_hand_maintained()` now raises
+`MissingMarkerError` when given a non-`None` existing text with no
+marker, and `main()` catches it, prints an error, and returns without
+writing — a first run (no file at all) still gets the placeholder.
+`worlds/_cross-world/tests_gen_needs_ruling.py`'s fallback test now
+asserts the raise, and a new end-to-end test drives `main()` itself
+against a scratch file with no marker and asserts the file is left
+byte-for-byte unchanged. The script's docstring, its
+`HAND_MAINTAINED_MARKER` comment, and the test file's own docstring
+were rewritten present-tense (the guarantee, not the story of finding
+the bug). `NEEDS-RULING.md`'s "Placement questions" intro is now one
+line. `.github/workflows/ci.yml` gained a `crossworld` path-filter
+output (`worlds/_cross-world/**`, `cic/corpus-map/**`) and a new
+`cross-world-tests` job that installs `pyyaml`+`pytest` and runs
+`tests_gen_needs_ruling.py` — this suite had nowhere in CI before this
+PR.
+
+### Validation
+
+- `python3 -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q`
+  → 7 passed (the original 6, plus a new
+  `test_main_refuses_to_write_when_an_existing_file_lacks_the_marker`).
+- Three consecutive `python3 worlds/_cross-world/gen_needs_ruling.py`
+  runs against the real file → idempotent, hand-maintained tail
+  byte-for-byte unchanged each time.
+- CI run on this PR's branch, `cross-world-tests` job → green (linked
+  in the PR).
+
+---
