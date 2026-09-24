@@ -17,9 +17,9 @@ query: "Eusebius, Ecclesiastical History, McGiffert translation (NPNF series 2 v
 channel: "web search (WebSearch), 2026-08-20; verified on ccel.org, archive.org, newadvent.org"
 result: found
 found_sources: [alx.source.eusebius-historia-ecclesiastica]
-note: "2026-08-20 update: the searched-for edition (McGiffert, NPNF2-01) was supplied via the vendored corpus (cic/texts/npnf201_...xml, Mark, 2026-08-15); source record created with rights verified from the file's own DC.Rights header. The HIGH institutional-claims risk split is stated in the source record's own work field, as this record required."
+note: "The searched-for edition (McGiffert, NPNF2-01) was supplied via the vendored corpus (cic/texts/npnf201_...xml); source record created with rights verified from the file's own DC.Rights header. The HIGH institutional-claims risk split is stated in the source record's own work field, as this record required."
 ---
-Search run 2026-08-20. Eusebius is requested as a SECONDARY NARRATIVE source,
+Eusebius is requested as a SECONDARY NARRATIVE source,
 not a voice within the world: he is the near-sole scaffolding for the
 school's personnel and institutional history (Pantaenus - Clement - Origen -
 Heraclas - Dionysius), and the old build's assessment (evidence, not

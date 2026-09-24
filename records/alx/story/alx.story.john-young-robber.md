@@ -63,10 +63,7 @@ The world's best story for restoration-after-falling: serves F4-I (when
 someone wronged the community, could they come back?) and F6-P ('if
 someone left your community for good, what would you have wanted them
 to know?'). Every narrative element above is in Clement's telling;
-the dialogue is condensed and modernized in wording, not invented (corrected
-2026-09-08, records/alx audit: this note previously said the dialogue is
-"condensed, not invented," which is accurate as to invention but not as
-to wording. The vendored text (anf02, within div vi.v, lines 57244-57330)
+the dialogue is condensed and modernized in wording, not invented (the vendored text (anf02, within div vi.v, lines 57244-57330)
 splits the bishop's speech and John's interjection into two separate
 speeches; renders "He is a robber on the mountain" as "now he has taken
 possession of the mountain in front of the church, along with a band
@@ -76,8 +73,7 @@ and "Stand" (here "Stop"), while dropping "For thee I will surrender my
 life" entirely. See the vendored text at the cited lines for the
 original phrasing).
 
-CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
-and the five world read"; V1.2 birth condition applied to the existing
+CENTER-CELL MAPPING (V1.2 birth condition applied to the existing
 fleet - one story and one term per center cell where they genuinely
 belong, honest empties recorded). Added to C-P: "Would Jesus have wanted anything to do with someone like me?" - the apostle riding after the fallen young man to bring him back is this world's own handed-down answer. Content unchanged; the added
 cell and this note are the whole edit.

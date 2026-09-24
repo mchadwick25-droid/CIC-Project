@@ -19,7 +19,7 @@ result: found
 found_sources: []
 note: "The early Grenfell & Hunt volumes (vol. I, 1898, onward) are expected public domain and scanned on archive.org (e.g. https://archive.org/details/oxyrhynchuspapyr01grenuoft), with English translations and notes included for major pieces. CAVEAT: these are enormous scholarly volumes, not a curated Christian-texts corpus - identifying and extracting the Christian documentary pieces (letters, gospel fragments) is real editorial work that this manifest does NOT hide inside the request."
 ---
-Search run 2026-08-20. The documentary channel matters because it is the only
+The documentary channel matters because it is the only
 place ordinary, non-elite Egyptian Christians appear without a literary
 author's mediation (canon F5 cells; the F5-E "how do historians even know"
 cell is answered directly by what a papyrus is). The manifest proposes a

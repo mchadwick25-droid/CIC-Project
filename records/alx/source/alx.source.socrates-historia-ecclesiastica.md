@@ -27,7 +27,7 @@ discovery_channel: identified at step 3 as carrier of the only located primary-c
 external_ids:
   ccel_volume: npnf202
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Loci verified by direct read: Socrates HE IV.20 (file lines
 13310-13322): Athanasius 'departed this life in the second consulate of
 Gratian and Probus, having governed that church amidst the greatest
