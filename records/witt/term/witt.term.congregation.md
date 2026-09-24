@@ -94,6 +94,6 @@ senses:
 quick_meaning: An assembly, not a building. Known by the Word and the sacraments rightly held.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 5.8 (fellowship / congregation of saints, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the German glosses are the founder's own, in the text. Source Registry rows cited: R8, R9, R10, R12, R25, R37, R87. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.8 (fellowship / congregation of saints, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: none -- both voices; the German glosses are the founder's own, in the text. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

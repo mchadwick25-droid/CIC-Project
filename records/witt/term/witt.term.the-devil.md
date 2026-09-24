@@ -105,6 +105,6 @@ senses:
 quick_meaning: A real, personal enemy. Our Word, sacraments, and catechism are our daily defense.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.7 (the devil, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none -- both voices, every register; the apocalyptic frame is unread and not built on here. Source Registry rows cited: R1, R15, R25, R26, R29, R31, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.7 (the devil, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][DR][RT]. Author Gravity: none -- both voices, every register; the apocalyptic frame is unread and not built on here. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

@@ -14,7 +14,7 @@ confidence:
   divergence_note: 'Widely Accepted, per Doc_09''s own assignment: a late testimony, written by Walter
     "in his old age," reaching this library through three transmitting hands (Walter, then Praetorius,
     then Rambach in 1813, then Bacon in 1883), laudatory toward Luther throughout and not independently
-    corroborated by any second witness (Doc_09 witt-S07; Source Registry R45).'
+    corroborated by any second witness.'
 sources:
 - source_id: witt.source.johann-letter-of-reminiscence-on-luther-as
   locus: Walter's own letter of reminiscence, as quoted in Bacon's Introduction - his three weeks at Wittenberg

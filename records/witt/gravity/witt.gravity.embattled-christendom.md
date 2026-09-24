@@ -73,7 +73,7 @@ classification: supporting
 description: '''here we battle not against pope or bishop, but against the devil, and do you imagine he
   is asleep? He sleeps not... he would make a flank attack'' (v2 14752-14756); the hymn''s own compression,
   ''The old evil foe, / Means us deadly woe... One little word can fell him'' (Hy 3671-3705). SIX-TEST
-  SUMMARY (Doc_04 §3 G12): Repetition passes across eight streams, both voices; Dependency passes -- prayer,
+  SUMMARY: Repetition passes across eight streams, both voices; Dependency passes -- prayer,
   hymnody, the polemical register''s whole naming practice, G5''s assurance ''against the devil,'' G8''s
   ''flank attack'' all depend on it; Formation passes as sung and prayed daily by prescription, Inferential-Thin
   as reception, though even Kate''s one sentence is framed by this gravity (''the devil drives his servants...
@@ -83,13 +83,13 @@ description: '''here we battle not against pope or bishop, but against the devil
   register; Interaction passes, an almost uniformly reinforcing row -- reinforcing G1-G6 and G13, thinly
   G7, G9, G10, G11, RESHAPING G8 (the adversary frame gives G8''s restraint its urgency). EVIDENTIAL CONFIDENCE:
   Documented for what the texts say; the apocalyptic interpretive frame some scholarship places over it
-  is Dominant Modern Reconstruction at most and unread -- this record builds nothing on it. CLASSIFICATION:
+  is the leading modern reading at most and unread -- this record builds nothing on it. CLASSIFICATION:
   SUPPORTING -- it passes all six strongly and a reviewer could argue Primary, but what it organizes is
   the ecology''s AFFECTIVE AND ADVERSARIAL FRAME, the Layer-2 consciousness of the forces in the Forces
   Framework''s own terms, and the Word it wields is G2''s own: ''One little word can fell him.'' It functions
   within the context G1 and G2 set. CONFIDENCE/GRAVITY CROSS-CHECK: agree; no divergence. Register-and-voice
   spread: 4/4, Kate''s sentence sitting inside it. Reception-side status: one filtered household sentence.
-  FORCES-CONNECTION NOTATION (Doc_04 §3 G12; Doc_08 §5): THIS GRAVITY IS THE WORLD''S OWN LAYER-2 READING
+  FORCES-CONNECTION NOTATION: THIS GRAVITY IS THE WORLD''S OWN LAYER-2 READING
   OF THE EXTERNAL FORCES themselves -- its name for the papal force (''Antichrist in Rome''), for the
   Turk (''that most atrocious, hereditary, and ancient enemy''), and for the internal radical force (the
   devil''s ''flank attack''; the ''new spirits'') [2A-1, 2A-5, 2B-1]; intensified under each of them;

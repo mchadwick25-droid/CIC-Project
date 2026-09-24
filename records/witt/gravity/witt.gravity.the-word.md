@@ -90,8 +90,8 @@ description: 'Scripture''s authority against pope, councils and ''doctrines of m
   this world''s own texts keep distinct without separating: an authority sense -- ''it is a wickedly invented
   fable... that the interpretation of Scripture or the confirmation of its interpretation belongs to the
   pope alone... the keys were not given to Peter alone, but to the whole community'' (v2 2384-2390) --
-  and a restraint sense, tested first per Doc_03 3.1: ''the Word must do this thing, and not we poor sinners''
-  (v2 14917-14918); ''I did nothing; the Word did it all'' (14931). SIX-TEST SUMMARY (Doc_04 §3 G2): Repetition
+  and a restraint sense: ''the Word must do this thing, and not we poor sinners''
+  (v2 14917-14918); ''I did nothing; the Word did it all'' (14931). SIX-TEST SUMMARY: Repetition
   passes across seven streams, six of eight coded Luther registers (disputation and conversation absent);
   Dependency passes -- G3 (Word joined to element), G4 (the catechism as ''epitome of the entire Holy
   Scriptures''), G7 (office defined as ministry of the Word), G8 (the restraint sense is G8''s own warrant),
@@ -99,7 +99,7 @@ description: 'Scripture''s authority against pope, councils and ''doctrines of m
   as reception; Explanatory passes broadly -- the polemical register''s whole structure, the definition
   of a sacrament, the Confession''s condemnation of the Anabaptists, and the world''s print pattern all
   trace to it; Persistence passes 1517-1531 and into the 1539/1543 prefaces, carrying a register difference
-  (sharp vs. Melanchthon''s additive ''Scriptures... and the Church Catholic,'' AC 631-633) that Doc_04
+  (sharp vs. Melanchthon''s additive ''Scriptures... and the Church Catholic,'' AC 631-633) that
   reads as one rule stated two ways, not two rules; Interaction passes, reinforcing G1, G3, G4, G5, G7,
   G9, G11, G12, reshaping G6 and G10, competing with G8 and G13 -- the G2-G8 competition is this ecology''s
   sharpest internal tension. EVIDENTIAL CONFIDENCE: Documented -- the best-attested term in the library.
@@ -107,13 +107,12 @@ description: 'Scripture''s authority against pope, councils and ''doctrines of m
   CROSS-CHECK: agree; no divergence. Register-and-voice spread: 4/4, with Karsthans''s fictional peasant
   demanding ''the divine truth in our language'' as the non-founder trace. Reception-side status: not
   attested beyond Wittenberg''s own congregation, which the founder himself says has ''the pure Word of
-  God'' (v2 14744-14745). FORCES-CONNECTION NOTATION (Doc_04 §3 G2; Doc_08 §5): generated as the refusal
+  God'' (v2 14744-14745). FORCES-CONNECTION NOTATION: generated as the refusal
   of papal authority to bind conscience apart from Scripture, turned positive [1A-2 with 1A-1]; intensified
   into the sharp ''under the bench'' form under the bull and the Leipzig polemic [2A-1]; reshaped twice
   under the reform''s own internal pressure -- in 1522 into the restraint of ''jus verbi... but not executio''
   against Karlstadt''s pace, and in 1529-31 into an explicitly external Word (AC V) against the ''new
-  spirits'' [2B-1]; stated additively before the Emperor [2A-2]; is ''the thing printed'' [1A-3/2B-2,
-  beyond Doc_04]; and supplies the criterion (''the external Word'') at the world''s own internal edge
+  spirits'' [2B-1]; stated additively before the Emperor [2A-2]; is ''the thing printed'' [1A-3/2B-2]; and supplies the criterion (''the external Word'') at the world''s own internal edge
   at the window''s close [3B-1].'
 manifestations:
 - '"it is a wickedly invented fable... that the interpretation of Scripture or the confirmation of its

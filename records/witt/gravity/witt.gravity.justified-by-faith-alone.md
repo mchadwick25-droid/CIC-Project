@@ -97,15 +97,15 @@ description: 'That the sinner is ''freely justified for Christ''s sake, through 
   ask... He alone commands. He also alone fulfils'' (v2 11817-11820). Its first, bounded form is the 1517
   disputation''s own target -- ''The true treasure of the Church is the Most Holy Gospel of the glory
   and the grace of God'' (Th. 62) answers giving to the poor ''a better work than buying pardons'' (Th.
-  43) -- and it is carried through seven Doc_02 evidence streams in both of this world''s voices: disputation,
+  43) -- and it is carried through seven evidence streams in both of this world''s voices: disputation,
   treatise, sermon, catechesis, hymn, Bondage''s sustained argument, and Melanchthon''s confession, which
-  calls it ''the chief topic of Christian doctrine'' (Ap IV, 561-562). SIX-TEST SUMMARY (Doc_04 §3 G1):
+  calls it ''the chief topic of Christian doctrine'' (Ap IV, 561-562). SIX-TEST SUMMARY:
   Repetition passes across all seven streams; Dependency passes -- G3 (the sacrament approached ''with
   faith alone''), G5 (the whole doctrine referred to the conscience, AC 552-553), G7 (works redefined
   by faith), and G9 (vows refused as merit) each state their dependence in their own texts; Formation
   passes as prescribed and preached, and is the one candidate where the founder''s own testimony claims
   his own congregation already held it in 1522 (''you are more learned herein than I,'' v2 14665-14666)
-  -- Inferential-Thin as any wider congregation''s holding, per Doc_02 §14''s founder-prescription/congregational-reception
+  -- Inferential-Thin as any wider congregation''s holding, per the founder-prescription/congregational-reception
   line; Explanatory passes (it explains the 1517 protest''s target, the 1520 treatises'' structure, the
   catechism''s Creed-over-Commandments order, and the Confession''s own order, IV before V); Persistence
   passes 1517-1531 in every register, thinning to hymn and Table Talk only by the 1540s; Interaction passes,
@@ -113,17 +113,16 @@ description: 'That the sinner is ''freely justified for Christ''s sake, through 
   only with G13. EVIDENTIAL CONFIDENCE: Documented. CLASSIFICATION: PRIMARY, passing all six with strong
   confidence; the confession''s own voice calls it ''the chief topic.'' CONFIDENCE/GRAVITY CROSS-CHECK:
   organizing strength and evidential confidence agree; no divergence. Register-and-voice spread (the strand-singular
-  substitute, Doc_04 §4 -- this world is strand-singular per Doc_01 §6, and Article 21''s test is run
+  substitute -- this world is strand-singular, and Article 21''s test is run
   here as two scores rather than across strands): 4/4 -- both voices, six registers, and one thin household
   trace (Katharina von Bora, TT 3147-3148, on coldness in prayer rather than faith itself). Reception-side
-  status: founder-attested as received, Wittenberg only, 1522. FORCES-CONNECTION NOTATION (Doc_04 §3 G1;
-  Doc_08 §5): generated under the founding conviction [1B-1] and the laity''s need for assurance [1B-2];
+  status: founder-attested as received, Wittenberg only, 1522. FORCES-CONNECTION NOTATION: generated under the founding conviction [1B-1] and the laity''s need for assurance [1B-2];
   held and intensified once the bull and the Leipzig polemic turned an argument into the movement''s identity
   [1A-2/2A-1]; intensified again into confessional definition at Augsburg (AC IV, 1530; Ap IV''s ''chief
   topic,'' 1531) [2A-2]; re-fenced, not fractured, once the reform''s own ''new spirits'' put the formula
   to a use it was not built for -- the Large Catechism answers by 1529 that faith ''must have something
   which it believes... upon which it stands and rests'' (LC 3916-3921) [2B-1]; carried past 1531 only
-  in hymn and Table Talk [3B-2, beyond Doc_04''s own notation].'
+  in hymn and Table Talk [3B-2, beyond notation].'
 manifestations:
 - '"freely justified for Christ''s sake, through faith... This faith God imputes for righteousness" (AC
   IV, 234-239)'

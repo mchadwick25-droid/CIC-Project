@@ -98,7 +98,7 @@ senses:
 quick_meaning: God's act of naming us righteous, and of making us so, through faith, for Christ's sake.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 2.2 (justification / to justify, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT][CT]. Author Gravity: none by attestation; weighted to the Apology's technical development. Source Registry rows cited: R13, R34, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 2.2 (justification / to justify, Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR][RT][CT]. Author Gravity: none by attestation; weighted to the Apology's technical development. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 CT status carried from Doc_06 SS2.1: two contest types -- meaning within its historical context (how 'accounted' and 'made' relate) and relationship to present-day traditions (this entry characterizes none). No secondary source is rowed in the Source Registry for either contest; Doc_06 names leads for the Registry owner (McGrath's Iustitia Dei; Mannermaa's Christ Present in Faith; the 1999 Joint Declaration) but cites none as a source.
 
