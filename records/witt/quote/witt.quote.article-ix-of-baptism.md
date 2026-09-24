@@ -48,11 +48,10 @@ modern_lens_note: >-
   before it is anyone's own choice.
 modern_rendering: >-
   We teach this: baptism is necessary for salvation. Through baptism, God offers his grace. Children
-  should be baptized. A child is offered to God through baptism. By that, the child is received into
-  God's grace.
+  should be baptized. Offered to God through baptism, they are received into his grace.
 
-  We reject what the Anabaptists teach. They say children should not be baptized. They say children are
-  saved without it. We do not agree.
+  We reject what the Anabaptists teach. They reject the baptism of children. They say children are saved
+  without it.
 relations:
 - type: associated-with
   target: witt.dw.a-death-begun-that-a-child-receives

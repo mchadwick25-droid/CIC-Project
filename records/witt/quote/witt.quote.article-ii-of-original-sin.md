@@ -51,13 +51,13 @@ modern_lens_note: >-
   witt.quote.article-ix-of-baptism states from baptism's own side.
 modern_rendering: >-
   We also teach this: ever since Adam fell, everyone born the ordinary way is born already carrying sin.
-  They are born without fear of God. They are born without trust in God. Their desires are turned the
-  wrong way. This flaw we are born with is truly sin. Even now it brings condemnation. It brings death
-  without end, on everyone not born again through baptism and the Holy Spirit.
+  They are born without fear of God. They are born without trust in God. They are born with disordered
+  desire. This flaw is truly sin. Even now it condemns. It brings eternal death on everyone not born
+  again through baptism and the Holy Spirit.
 
-  We reject what the Pelagians and others teach: that this inborn flaw is not really sin, and that a
-  person could obscure Christ's own merit by claiming to be made right with God through their own
-  strength and reason instead.
+  We reject the Pelagians and others who deny that this inborn flaw is sin. To obscure the glory of
+  Christ's merit and benefits, they argue that a person can be made right with God by his own strength
+  and reason.
 relations:
 - type: associated-with
   target: witt.dw.born-in-sin-fed-at-the-table
