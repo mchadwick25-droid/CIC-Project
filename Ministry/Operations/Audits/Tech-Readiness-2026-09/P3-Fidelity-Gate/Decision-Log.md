@@ -1706,3 +1706,55 @@ tree), Phase B, "The register bar is a birth condition":
   `engine/m1/sentence_completeness.py` as a report-only aid to the
   builder's read, never a replacement for it (Entry 29: 60% precision,
   recall unmeasured).
+
+**Entry 31 — 2026-09-24 (model assignment: rendering-grader study;
+voice study blocked at the AWS account).** Thread E, PR #480. Memo:
+`Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/Model-Assignment-2026-09-24.md`.
+Recommendations only; decisions are Mark's.
+
+**Account gate on both target models.** Opus 5.5 and Sonnet 5 are
+listed as Bedrock inference profiles in us-east-1 and us-west-2, but
+every invocation returns `Error code: 403 - anthropic.claude-opus-5-5
+is not available for this account` (the same error for
+`claude-sonnet-5`), 2026-09-24. Mark saw the same error for both in
+the Bedrock console at about 15:30Z and 15:35Z, as the reviewer thread
+reports. What blocks them is the account gate, not the engine.
+Invocable: Haiku 4.5, Sonnet 4.5, Sonnet 4.6, Opus 4.5, Opus 4.6
+(`engine/provider/reports/model-availability-2026-09-24.json`).
+
+**Study 1 (rendering grader), Sonnet 4.6 standing in for Sonnet 5.**
+The R43 labeled set has 69 rows: 52 defects fixed on the grader's
+finding, 5 kept as-is, and 12 defects the grader missed and the human
+read caught, graded at their round-one commit. Each row was graded
+3 times per model through `grade_rendering`, unchanged: 414 calls,
+$1.77, 0 failures.
+- Haiku 4.5 / Sonnet 4.6, flagged by majority:
+  - on the 52, which Haiku selected: 45 / 34;
+  - on the 12 misses: 3 / 6, but only 1 / 3 of those name the defect
+    the human found;
+  - false flags on the 5 kept: 1 / 2.
+- Same flag on all 3 runs: 70% / 93%.
+- p50 latency 2.2 s / 3.2 s. Sonnet 4.6 went over the 8 s production
+  timeout on 2 of 207 calls.
+- Cost per call $0.0022 / $0.0064.
+- Neither grader caught any of the 4 fragments or 4 archaic-register
+  defects. The grader prompt asks only about clause coverage, never
+  about grammar or register.
+
+**Study 2 (voice, Sonnet 4.5 vs Opus 5.5): held.** It is blocked by
+the 403 above. No voice turn ran and there was no voice spend. The
+plan (42 + 3 turns, $12 ceiling, an additive effort / max_tokens
+passthrough on `run_turn`) is kept in the memo so it can run
+unchanged, after the reviewer's go.
+
+**Open, with Mark:**
+1. Whether the authoring-time birth condition becomes two graders
+   (Haiku plus a Sonnet-class model, a flag from either counts, human
+   read kept). This replaces the single-Haiku "translation on two
+   consecutive runs" rule (the reviewer's item-4 verdict, 2026-09-23,
+   recorded in `engine/m1/rendering_fidelity.py`).
+2. Whether to run the 12-record authoring test: re-author the 12
+   round-one-rejected renderings with Sonnet 5 and with Opus 5.5 in
+   Claude Code, then grade them blind. This would settle whether
+   authoring moves to Opus, which would change a CLAUDE.md usage rule.
+   Not started; if approved, it comes back to thread E as a dispatch.

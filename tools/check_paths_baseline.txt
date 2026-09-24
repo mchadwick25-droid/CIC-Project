@@ -421,6 +421,8 @@ worlds/latap/Step0_Movement_Scope_Confirmation.md: cic/corpus-map/tertullian-s-v
 worlds/latap/Step0_Movement_Scope_Confirmation.md: records/lpc
 worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: worlds/history
+worlds/lpc/Open_Gaps_Tracking.md: packages/lpc
+worlds/lpc/Open_Gaps_Tracking.md: records/lpc
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md
@@ -585,6 +587,8 @@ worlds/lpc/Review-Artifacts/Doc08_Round6_Review.md: reference/method/CiC_Record_
 worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md: World-Builds/Donatism/don_Decision_Log.md
 worlds/lpc/Review-Artifacts/L3_Methodology_Defects_Coach_Handoff_2026-09-16.md: World-Builds/Latin-Pastoral-Congregational-Christianity/lpc_Decision_Log.md
 worlds/lpc/Review-Artifacts/Living_Tradition_First_Limb_Analysis_2026-09-16.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
+worlds/lpc/Review-Artifacts/OpenGapsTracking_Round1_Review.md: packages/lpc
+worlds/lpc/Review-Artifacts/OpenGapsTracking_Round1_Review.md: records/lpc
 worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Donatism
 worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Imperial-Juridical-Christianity/Step0_Movement_Scope_Confirmation.md
 worlds/lpc/Review-Artifacts/Step0_Round1_Review.md: World-Builds/Latin-Pastoral-Congregational-Christianity
@@ -623,8 +627,10 @@ worlds/lpc/lpc_Decision_Log.md: Ministry/Formation
 worlds/lpc/lpc_Decision_Log.md: World-Builds/Donatism/scripts
 worlds/lpc/lpc_Decision_Log.md: World-Builds/Latin-Pastoral-Congregational-Christianity
 worlds/lpc/lpc_Decision_Log.md: cic/corpus-map/tertullian-s-voice.yaml
+worlds/lpc/lpc_Decision_Log.md: packages/lpc
 worlds/lpc/lpc_Decision_Log.md: records/lpc
 worlds/lpc/lpc_Decision_Log.md: records/worlds.yaml
+worlds/lpc/lpc_Decision_Log.md: records/worlds/lpc.yaml
 worlds/lpc/lpc_World_Profile.md: World-Builds/Donatism/don_Decision_Log.md
 worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md: Ministry/Operations/CiC_L1-L5_Systematic_Audit_2026-07-19.md
 worlds/pahc/CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md: cic-poc/docs/engineering-notes

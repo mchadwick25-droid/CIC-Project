@@ -279,12 +279,70 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
 R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition."
 
 
+def _revealed_excerpts_block(revealed_excerpts: list[tuple[str, str]] | None) -> str | None:
+    """R37(b) and R37-B's quoted-lines block: exactly what this
+    conversation has said about the named tradition, speaker by speaker,
+    word for word (engine.m4.uncited_claims.conversation_revealed_
+    excerpts). A separate, labelled block in the private directive - never
+    folded into history, which keeps engine.api.wiring.history_from_
+    transcript's own Facilitator exclusion intact. None when nothing has
+    been said."""
+    if not revealed_excerpts:
+        return None
+    lines = "\n".join(f'- {who}: "{sentence}"' for who, sentence in revealed_excerpts)
+    return (
+        "What this conversation has actually said about that tradition, word for word:\n"
+        f"{lines}\n"
+        "That is everything you have been told about it here. Use nothing beyond these words."
+    )
+
+
+def _pivot_scope_clause(known_in_window: bool | None, *, has_excerpts: bool, seated: bool = False) -> str:
+    """R37's own rule for the pivot - which part of this world's own
+    record the answer comes from - on a question naming a tradition the
+    record does not cover. known_in_window is engine.m4.uncited_claims.
+    tradition_known_in_window's result (R37 condition (a), R37-A's
+    asymmetric reading); None means the question named no registry
+    tradition at all (e.g. "the Arians"), so nothing establishes the
+    knowledge either way and the text says only that. has_excerpts is
+    condition (b): the quoted-lines block rides alongside. seated: the
+    named tradition's own chair is at this table, and everything it says
+    is itself something this conversation told the voice (R37-B), named
+    or not - so its speech is a source alongside the quoted lines, as the
+    seated branch's own text already allows. Neither condition: the
+    question's own words alone. Every branch keeps the
+    ruling's standing limit - content about the other tradition never
+    enters the answer from outside the record."""
+    sources = ["the question's own words"]
+    if seated:
+        sources.append("what that chair has said")
+    if has_excerpts:
+        sources.append("the lines quoted below")
+    sources_text = sources[0] if len(sources) == 1 else f"{', '.join(sources[:-1])} and {sources[-1]}"
+    if known_in_window:
+        return (
+            "Your own world could have known of that tradition in its own time, so you may let that knowledge "
+            "guide which part of your own record you answer from. It never lets you say anything about that "
+            "tradition itself beyond what your own records hold and what this conversation has told you."
+        )
+    if known_in_window is False:
+        opening = "That tradition arose after your own world's time, so you cannot have known of it."
+    else:
+        opening = "Nothing establishes that your own world knew of that tradition in its own time."
+    return (
+        f"{opening} Choose which part of your own record to answer from using only {sources_text} - "
+        "never outside knowledge of that tradition."
+    )
+
+
 def _other_tradition_directive(
     evidence_record_ids: list[str] | None = None,
     *,
     tradition_seated: bool = False,
     tradition_seated_name: str | None = None,
     repeat_turn: bool = False,
+    known_in_window: bool | None = None,
+    revealed_excerpts: list[tuple[str, str]] | None = None,
 ) -> str | None:
     """R26 (Decision-Log.md Entry 50, 2026-09-22), Mark's own words: "The
     representative should only know its own sources unless they would
@@ -352,40 +410,62 @@ def _other_tradition_directive(
     shape ever produces). No evidence, not seated: keep R37's own
     knowledge-scope framing ("this is another tradition, answer only
     from your own records") but drop the "if nothing, say exactly..."
-    clause - it was already said on this seat's first turn this round."""
+    clause - it was already said on this seat's first turn this round.
+
+    known_in_window and revealed_excerpts (R37 build, Rulings-Pending.md
+    R37, R37-A, R37-B): the pivot itself. Mark's words: "only if it
+    would have known in its own time, or if something what revealed in
+    the facilitators introduction or user, but limited only to what was
+    told to them in the conversation" - and R37-B, "add or what another
+    representitive revials in the conversation". known_in_window is
+    condition (a); revealed_excerpts is condition (b) with R37-B's third
+    source - see _pivot_scope_clause and _revealed_excerpts_block. The
+    no-evidence branches each carry both. The evidence branch carries
+    only the quoted lines: there the world's own records already name
+    the tradition, so the record itself is the ground for the pivot.
+    None of this changes R26_HONEST_LIMIT_SENTENCE or when it is said -
+    under (a) the record still does not mention the tradition, so the
+    sentence stays true."""
+    excerpts_block = _revealed_excerpts_block(revealed_excerpts)
     if evidence_record_ids:
         ids_text = ", ".join(f"[[{rid}]]" for rid in evidence_record_ids)
-        return (
+        text = (
             "This question asks about another Christian tradition, not your own world - but your own "
             f"records already speak to it: {ids_text}. Answer from what those records actually say, cited "
             "as always, under the ordinary citation contract. Never speak as if you know more about that "
             "other tradition than what your own records give you and what has actually been said in this "
             "conversation."
         )
+        return f"{text}\n{excerpts_block}" if excerpts_block else text
+    scope = _pivot_scope_clause(known_in_window, has_excerpts=excerpts_block is not None, seated=tradition_seated)
     if tradition_seated:
         name_text = f' under the name "{tradition_seated_name}"' if tradition_seated_name else ""
-        return (
+        text = (
             f"This question asks about a Christian tradition seated at this table{name_text}, with its own "
             "Representative present - not your own world. Never speak for that tradition, and never claim "
             "its name, history, or witness as your own. You may respond only to the bare fact that it is "
-            "seated here under that name, and to what that chair has actually said in this conversation so "
-            "far - if it has not spoken yet, you know nothing more about it than its name. Where your own "
-            "world's records genuinely bear on the question, answer from them as always, cited as always, "
-            "but never let that stand in for the other tradition's own voice."
+            "seated here under that name, to what that chair has actually said in this conversation so "
+            "far, and to what anyone else here has said about it - if nobody has, you know nothing more "
+            "about it than its name. Where your own world's records genuinely bear on the question, answer "
+            "from them as always, cited as always, but never let that stand in for the other tradition's "
+            f"own voice. {scope}"
         )
-    if repeat_turn:
-        return (
+    elif repeat_turn:
+        text = (
             "This question asks about another Christian tradition, not your own world. Answer only from "
             "what your own world's records actually hold about it, cited as always. Never speak as if you "
-            "know that other tradition's own history or doctrine - only your own, and only what you can cite."
+            "know that other tradition's own history or doctrine - only your own, and only what you can "
+            f"cite. {scope}"
         )
-    return (
-        "This question asks about another Christian tradition, not your own world. Answer only from what "
-        "your own world's records actually hold about it. If your own records say nothing about the "
-        f'tradition named, say exactly: "{R26_HONEST_LIMIT_SENTENCE}" Then answer the rest of the question '
-        "from your own records, cited as always. Never speak as if you know that other tradition's own "
-        "history or doctrine - only your own, and only what you can cite."
-    )
+    else:
+        text = (
+            "This question asks about another Christian tradition, not your own world. Answer only from what "
+            "your own world's records actually hold about it. If your own records say nothing about the "
+            f'tradition named, say exactly: "{R26_HONEST_LIMIT_SENTENCE}" Then answer the rest of the question '
+            "from your own records, cited as always. Never speak as if you know that other tradition's own "
+            f"history or doctrine - only your own, and only what you can cite. {scope}"
+        )
+    return f"{text}\n{excerpts_block}" if excerpts_block else text
 
 
 def _build_turn_directive(
@@ -397,6 +477,8 @@ def _build_turn_directive(
     other_tradition_seated: bool = False,
     other_tradition_seated_name: str | None = None,
     other_tradition_repeat_turn: bool = False,
+    other_tradition_known_in_window: bool | None = None,
+    other_tradition_revealed: list[tuple[str, str]] | None = None,
 ) -> str | None:
     """The per-turn half of the voice's system prompt, on its own - the
     world's compiled prompt is passed separately and unmodified, so that it
@@ -488,6 +570,8 @@ def _build_turn_directive(
             tradition_seated=other_tradition_seated,
             tradition_seated_name=other_tradition_seated_name,
             repeat_turn=other_tradition_repeat_turn,
+            known_in_window=other_tradition_known_in_window,
+            revealed_excerpts=other_tradition_revealed,
         )
         if other_tradition_text:
             parts.append(other_tradition_text)
@@ -620,6 +704,8 @@ def _run_ordinary_voice_turn(
     other_tradition_seated: bool = False,
     other_tradition_seated_name: str | None = None,
     other_tradition_repeat_turn: bool = False,
+    other_tradition_known_in_window: bool | None = None,
+    other_tradition_revealed: list[tuple[str, str]] | None = None,
     correction: str | None = None,
     debug_capture: dict | None = None,
     r27_enforce: bool = False,
@@ -732,7 +818,13 @@ def _run_ordinary_voice_turn(
     if any - same caller-computed, registry-access-needed shape as
     known_tradition_names. Read only inside _build_turn_directive, only
     when is_other_tradition_first_ask is also true; harmless (and
-    correctly ignored) to pass on any other turn."""
+    correctly ignored) to pass on any other turn.
+
+    other_tradition_known_in_window and other_tradition_revealed (R37
+    build): engine.m4.uncited_claims.tradition_known_in_window and
+    conversation_revealed_excerpts, for the same named tradition - the
+    same caller-computed shape as other_tradition_evidence_ids, read at
+    the same single place (_other_tradition_directive)."""
     if r27_enforce and known_tradition_names is None:
         raise ValueError(
             "r27_enforce=True requires known_tradition_names (see engine.m4.uncited_claims.known_tradition_names) "
@@ -788,6 +880,8 @@ def _run_ordinary_voice_turn(
         other_tradition_seated=other_tradition_seated,
         other_tradition_seated_name=other_tradition_seated_name,
         other_tradition_repeat_turn=other_tradition_repeat_turn,
+        other_tradition_known_in_window=other_tradition_known_in_window,
+        other_tradition_revealed=other_tradition_revealed,
     )
     if correction:
         turn_directive = (turn_directive or "") + correction
@@ -1104,6 +1198,8 @@ def run_turn(
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     other_tradition_evidence_ids: list[str] | None = None,
+    other_tradition_known_in_window: bool | None = None,
+    other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
@@ -1332,6 +1428,8 @@ def run_turn(
             history=history,
             is_other_tradition_first_ask=(gate_result.routing.out_of_scope_class == "other_tradition"),
             other_tradition_evidence_ids=other_tradition_evidence_ids,
+            other_tradition_known_in_window=other_tradition_known_in_window,
+            other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
             self_revision_enabled=self_revision_enabled,
         )
