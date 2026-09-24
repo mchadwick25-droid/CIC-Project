@@ -1578,3 +1578,39 @@ passed.
 **This closes R43 Group B (desert, hal, pahc, syr, alx) and the whole
 R43 fleet-wide rendering-fidelity re-authoring campaign**, once this
 PR merges.
+
+**Entry 30 — 2026-09-24 (process doc V1.7: rendering gates as birth
+conditions).** Build thread C, item 3 of the reviewer thread's brief.
+Numbered after Entry 29 (PR #481, same thread), which merges first.
+Docs only; no record, code or participant-facing text touched.
+
+`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`
+(heading V1.6 → V1.7; filename unchanged, since it is cited across the
+tree), Phase B, "The register bar is a birth condition":
+- **Fragment rule** (V1.6 bullet, kept verbatim) gains its practice
+  from R43: the builder reads every sentence for its own subject and
+  verb before the record leaves authoring, because neither the grader
+  nor FK sees a fragment (Entries 20, 25, 26); a source's own ellipsis
+  is finished with the verb its structure implies, not carried over
+  (Mark's `nisibene-death-trembled` ruling, Entry 19); a readability
+  conflict is solved by splitting differently or trimming, never by
+  reopening a fragment (Entry 26).
+- **Register rule**, new bullet: everyday modern English; the original
+  word stays only where it survives plainly (cappadocian's "Time will
+  fail me", Entry 20); otherwise translate to the modern sense. Written
+  as a principle, with "Wherefore"/"disjoin" (rzg, Entry 21), "Ever
+  let" (hal, Entry 25) and "quickening" (pahc, Entry 26, the round-2
+  human read, which overrode the round-1 decision to keep it) as worked
+  cases, explicitly not a word list - the doc's own register-bar
+  section says no banned-word lists exist in this process.
+- **Rendering-fidelity gate**, new bullet replacing the "not yet
+  registered ... once it lands" placeholder: R34's standard; the
+  builder runs the grader at authoring, reads its reasoning against
+  `text`, and revises to two consecutive "translation" verdicts (the
+  reviewer's item-4 verdict, `rendering_fidelity.py` docstring); the
+  grader stays report-only and the fragment and register rules win
+  where it disagrees (Entry 26). A persistent grader objection after a
+  full human read is recorded in the world's `Open_Gaps_Tracking.md`
+  (CLAUDE.md's standing rule for review outcomes) - flagged for the
+  reviewer as the one line here that is not already a recorded R43
+  practice; R43 recorded these in this log and the PR instead.

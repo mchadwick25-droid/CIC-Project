@@ -1,4 +1,4 @@
-# CiC Record-Native World Build Process — V1.6 (2026-09-23)
+# CiC Record-Native World Build Process — V1.7 (2026-09-24)
 
 **What this document is:** the single end-to-end process for building a NEW
 formation world, from Step-0 scope confirmation through a frozen, deployed,
@@ -212,7 +212,30 @@ holds it, and it holds nothing else. Concretely:
   resulting sentence has its own subject and verb and carries one whole
   thought of the original (2026-09-23, R40 alx `modern_rendering` pass,
   PR #442) — a fragment is never an acceptable rendering, whatever the
-  grader or the FK score says.**
+  grader or the FK score says.** The builder reads every sentence of the
+  rendering for its own subject and verb before the record leaves
+  authoring; neither the rendering-fidelity grader (it grades meaning, not
+  grammar) nor the FK gate can see a fragment, and in the R43 re-authoring
+  pass the human read caught fragments both had passed. Where the source's
+  own English is elliptical, the rendering finishes the sentence with the
+  verb the source's own structure implies, rather than carrying the
+  fragment over (Mark's ruling on `syr.quote.nisibene-death-trembled`,
+  2026-09-23). Where the fragment rule and readability pull apart, split
+  differently or trim words; never reopen a fragment to lower the FK score.
+- **The register rule governs every `modern_rendering` (V1.7, 2026-09-24,
+  R43 human reads).** A rendering is everyday modern English. An original
+  word or phrase stays only where it survives plainly in modern English —
+  a reader today would say it and understand it without pause ("Time will
+  fail me if I attempt to recount" stays as written; paraphrasing it away
+  is an error in the other direction). A word that does not survive
+  plainly is translated to its modern sense, including archaic function
+  words and archaic senses of familiar words; a scholar's term the world
+  keeps is glossed on first use, per the register bar above. Worked cases,
+  not a list to check against: "Wherefore" → "Therefore", "disjoin" →
+  "separate" (rzg), "Ever let" → "Always let" (hal), "quickening" in its
+  bring-to-life sense → "bringing him back to life" (pahc). Each is judged
+  by the principle on the word in its own sentence, never by matching a
+  word list — the same word can survive in one sense and not in another.
 - **The verbatim gate is a birth condition (2026-09-23, item 3 of the P3
   registration brief).** `gate_quote_verbatim` (`engine/m1/gates.py`,
   `engine/m1/quote_verbatim.py`) runs on each quote record as it is
@@ -222,12 +245,25 @@ holds it, and it holds nothing else. Concretely:
   and that edition's own closed apparatus entry in
   `cic/texts/REGISTRY.yaml`, if one exists — not a repair pass run over
   already-authored records after the fact. R35 (Mark, in his own
-  words): *"this is about the build quality, not fix on fix."* The
-  rendering-fidelity gate (item 4, not yet registered) is
-  `modern_rendering`'s own birth condition once it lands — the two
-  gates check the two halves of a quote record (original wording,
-  spoken translation) the same way, at the same point: authoring, not
-  review.
+  words): *"this is about the build quality, not fix on fix."*
+- **The rendering-fidelity gate is a birth condition (V1.7, 2026-09-24;
+  R34, R35).** The verbatim gate checks a quote record's original
+  wording; this gate checks its spoken translation, at the same point:
+  authoring, not review. R34 (Mark, in his own words): *"the
+  representitive translates it into modern english, this is
+  translation, not summation."* Every clause of `text` is present in
+  `modern_rendering`; nothing is added, nothing compressed away. The
+  builder runs `engine/m1/rendering_fidelity.py`'s grader on each
+  rendering as it is authored, reads the grader's own reasoning against
+  the record's `text` (not just its verdict), and revises until the
+  verdict reads "translation" on two consecutive runs of the same input
+  — one clean run is not enough, since the grader varies run to run. The
+  grader is report-only and never registered in `gates.GATES`: its
+  verdict informs the builder's read, and the fragment and register
+  rules above win where it disagrees with them. Where the grader keeps
+  objecting after a person has read every clause present, the read
+  stands and the disagreement is recorded in the world's
+  `Open_Gaps_Tracking.md`, not chased with further rewrites.
 - Each step's review reads every spoken field against the sample. A
   sentence the reviewer has to re-read, or has to ask the meaning of,
   fails and is rewritten before the step clears — that question IS the
