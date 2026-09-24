@@ -50,11 +50,10 @@ function participantMessage(status: number, detail: string): { message: string; 
     return { message: "The voice couldn't be reached just now. Give it a moment, then send again.", recoverable: false };
   }
   if (status === 503) {
-    // recoverable: true (2026-09-04) - was false, which left a live bug
-    // with no clickable remedy but "Leave for now" (see App.tsx's
-    // isEmbedded handling of onRestart/onEnd for why that used to be its
-    // own dead end too). The message already promises "try again in a
-    // moment" is the honest remedy; the affordance should match it.
+    // recoverable: true, so the retry affordance matches the message's
+    // own promise ("try again in a moment") instead of leaving only
+    // "Leave for now" (see App.tsx's isEmbedded handling of
+    // onRestart/onEnd).
     return { message: "This world's records are briefly unavailable — try again in a moment.", recoverable: true };
   }
   return { message: "That didn't go through. Try again in a moment, or begin a new conversation.", recoverable: false };

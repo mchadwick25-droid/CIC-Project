@@ -310,12 +310,14 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("cic/engine/tests_corpus_map.py", 52, "REWRITE"),
     ("cic/engine/corpus_map.py", 75, "REWRITE"),
     ("cic/engine/texts_registry.py", 11, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #503): the
+    # original 6 cic-poc/frontend samples here were cleaned by that PR
+    # (round 1 and round 2 together) and stopped matching, apart from
+    # FigureBridgeMark.tsx:3 below - a real file citation whose date is
+    # part of the filename, not commentary. The other 5 slots move to
+    # fresh cic/corpus-map examples, not yet touched by the cleanup
+    # program, to keep this table at >=60 real, currently-matching lines.
     ("cic-poc/frontend/src/components/FigureBridgeMark.tsx", 3, "REWRITE"),
-    ("cic-poc/frontend/src/components/VoiceTurnBody.test.tsx", 170, "REWRITE"),
-    ("cic-poc/frontend/src/components/Arrival.test.tsx", 2, "REWRITE"),
-    ("cic-poc/frontend/src/components/StoryMark.tsx", 15, "REWRITE"),
-    ("cic-poc/frontend/src/components/StoryMark.tsx", 16, "REWRITE"),
-    ("cic-poc/frontend/src/components/Arrival.tsx", 14, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
     # stopped matching. cic-website is now clean apart from one known
@@ -332,6 +334,17 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("cic/corpus-map/_staging/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.yaml", 297, "REWRITE"),
     ("cic/corpus-map/roman-church-third-century.yaml", 16, "REWRITE"),
     ("cic/corpus-map/README.md", 43, "REWRITE"),
+    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #503 round 2):
+    # the original 5 cic-poc/frontend samples here (VoiceTurnBody.test.tsx,
+    # Arrival.test.tsx, StoryMark.tsx x2, Arrival.tsx) were cleaned by that
+    # PR's own round 2 and stopped matching. Moved to 5 more cic/corpus-map
+    # examples, distinct from the 5 PR #501 already claimed above, to keep
+    # this table at >=60 real, currently-matching lines.
+    ("cic/corpus-map/latin-apologists.yaml", 71, "REWRITE"),
+    ("cic/corpus-map/PAIRS.yaml", 2, "REWRITE"),
+    ("cic/corpus-map/_staging/npnf204_athanasius.yaml", 5, "REWRITE"),
+    ("cic/corpus-map/_staging/npnf203_theodoret-jerome-gennadius-rufinus.yaml", 246, "REWRITE"),
+    ("cic/corpus-map/_staging/anf03_tertullian.yaml", 46, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     ("engine/m9/enforce.py", 111, "KEEP"),
     ("engine/m4/tests/test_turn.py", 1268, "REWRITE"),

@@ -31,9 +31,8 @@ export interface SourceCard {
   original_wording?: string | null;
   // engine/m4/transparency_plan.py attaches the cited record's own
   // confidence envelope verbatim (same object TransparencyAnchor.confidence
-  // carries) - optional here only because every fixture/test predating
-  // Stage 6b built a SourceCard without it; a real API response always
-  // includes the key (possibly null).
+  // carries) - optional here because a caller may omit it; a real API
+  // response always includes the key (possibly null).
   confidence?: Record<string, unknown> | null;
 }
 

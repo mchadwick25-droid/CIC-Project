@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { confidencePhrase } from './confidence';
 
-describe('confidencePhrase (Stage 6b)', () => {
+describe('confidencePhrase', () => {
   it.each([
     ['Documented', 'Recorded directly in a source from the time.'],
     ['Widely Accepted', 'What historians broadly agree happened.'],
