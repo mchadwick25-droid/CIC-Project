@@ -4817,3 +4817,30 @@ hand-read.
   "What did Theophilus teach?" would resolve to rzg if the reader also
   classified the turn `other_tradition`. That needs a reader
   misclassification first, and it is not changed here.
+
+**Entry 73 — 2026-09-24.** R42 follow-up (build thread C, item 2 of
+the reviewer thread's brief): found, not built; held by sequencing
+verdict (a).
+
+**What the record says remains.** R42 (`Rulings-Pending.md`, RULED
+2026-09-23) leaves exactly one follow-up open: a generation-side
+citation-completeness item, not a check. Propose one report-only
+directive line asking the voice to tag any sentence that draws on a
+record even when it names no person, number or quote; measure it on
+the same 22-probe run by the same hand-read method as Entry 61 (count
+of true-but-untagged sentences before and after, against Entry 61's
+14 of 40); report the two counts and the cost. No enforcement follows
+either way. Any battery number quoted is post-G6 and not directly
+comparable to Entry 56's pre-G6 numbers.
+
+**Why it is not built.** R42 queues it "after 7b, not before." 7b is
+the engine streaming module behind `CIC_API_STREAMING` (Entry 53, and
+the recorded 7b-7e order). On main when this was checked (2026-09-24),
+no code read `CIC_API_STREAMING` and no 7b PR had merged -
+`engine/m4/generation.py`'s model-side stream call predates Stage 7 and
+is not 7b.
+
+**Verdict (reviewer thread, sequencing, 2026-09-24): (a) hold until 7b
+merges, as R42 states; the recorded order is not waived.** The
+follow-up starts after 7b merges, as its own item; this entry is the
+only change it makes now.
