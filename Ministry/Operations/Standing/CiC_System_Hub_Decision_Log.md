@@ -5171,3 +5171,128 @@ Both follow-ups: `Ministry/Features/Prototype-Testing/CiC_Live_Deep_Interview_Sw
 **Live confirmation, 2026-09-20 (same day, Mark's own explicit "run the live Track-B probe on don and rzg" — real billed Bedrock spend).** `engine.m4.live_turn_run` run against both worlds' rebuilt packages, region `us-east-1`, using each world's own exact original probe wording that first exposed the defect (rzg: `engine/m4/reports/live-turn-report-rzg.json`'s own message-3 from the 2026-09-18 fix verification; don: `engine/m4/reports/live-turn-report-don.json`'s own message-1). Both correctly classify `HARMFUL_DYNAMIC_SIGNAL` (`routing_action: "safety_turn"`), and on both, `voice_event` is `null` — the voice never runs at all, not merely produces clean output. The Facilitator's own `dependency_check_turn` fires correctly and completely on both (the real crisis-line/outside-help redirect language, `resources_appended: false` as designed). No shipped `output_defects` on either run. Reports updated in place at their existing paths; this is now the current evidence for both worlds, superseding the pre-fix reports these same paths held before this run.
 
 **What this settles, and what it doesn't.** This closes the Track A/Track B asymmetry this log's own 2026-09-08 entry left standing (that entry settled Track A alone; Track B was a live, deliberate exception at the time, per Program-Spec SS8's then-current text). It does not touch Track B's own accumulator logic (`engine/m5/safety_accumulation.py` — unaffected; it reads the safety call's output, not the voice's), nor the question of whether Track B should append crisis resources the way Track A does (`crisis_resources.resources_for_signal` still returns `None` for `HARMFUL_DYNAMIC_SIGNAL` by design, unchanged here, a separate decision not raised in this round).
+
+## 2026-09-25 — Build Process addendum ruled (2026-09-24/25) and written in: Record-Native World Build Process V1.7
+
+**Ruling.** Mark ruled every item of the Build Process addendum on 2026-09-24, then said
+"converged, auto mode." For the three choice items (1.2, 3.6, 5.1) he chose option (a).
+No option other than (a) applies. Written into
+`reference/method/CiC_Record_Native_World_Build_Process_V1.7.md` (renamed from `_V1.5.md`,
+which held V1.6). The one CLAUDE.md line the addendum requires is in a separate PR, since
+CLAUDE.md changes are Mark's own click. Written in 2026-09-25, on the managing thread's
+relay of Mark's "release it now."
+All rulings below are dated 2026-09-24.
+
+**Part 0 — wiring errors**
+- **0.1 — Ruled.** Rename the file to the version it contains (V1.7), update inbound paths
+  in the same commit, log it in `CiC_Repo_Structure_Tracking.md`. `worlds/` and `engine/`
+  citations were left as they were because the addendum's scope excluded them; the
+  `worlds/` ones are baselined for their owning threads (see the tracking entry).
+- **0.2 — Ruled.** "What governs" item 3 now points to
+  `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` (was the stale
+  `Ministry/Technology/..._V1.0.md`).
+- **0.3 — Ruled.** Phase C carries a "Superseded" banner pointing to
+  `reference/Redesign-Spec/Artifact-2-World-Package.md` and `Artifact-6-Operations.md`,
+  until a thread that traces a real admission end to end rewrites it. No replacement
+  checklist written. Rationale: Phase C names `app/world_manifest.py`, `app/graph/nodes.py`,
+  `MessageBubble.tsx` `REPRESENTATIVE_NAMES`, `wrs/views/segments/guards.py`, `wrs/glosses/`,
+  `build_indices.py` and Docker-built vector indices; none of `app/`, `wrs/` or `gates/`
+  exists. A world now moves through `records/worlds/<code>.yaml` (`state` built → admitted →
+  open, plus a pinned `package` hash); its package comes from
+  `python -m engine.m2.cli build <code>`, which runs the M1 gate battery and writes
+  `validation/gates-report.json`; `python -m engine.m9.cli check` is the CI-blocking fleet gate.
+- **0.4 — Ruled.** The freeze package lives at `worlds/<code>/build/`, where `bar_screen`
+  already writes its artifact (was `gates/<code>_FREEZE_GATE_REPORT.md`).
+
+**Part 1 — review cycle**
+- **1.1 — Ruled.** Round cap written as §6 session rule 10. Rationale: lpc Doc_02 reached
+  review round 30, Doc_04 round 11, Doc_01 round 9; desert Step3a round 6; latap Step0 round 5.
+- **1.2 — Ruled (a).** Opus reviews every round; from round 2, a targeted recheck of prior
+  findings and the diff at lower effort; the reviewer is never the drafter. §6 session
+  rule 11. CLAUDE.md "Usage/credit discipline" line to be replaced (separate PR) with: "Opus reviews every
+  adversarial-review round; Sonnet drafts and revises. From round 2 onward, review is a
+  targeted recheck at lower effort."
+
+**Part 2 — scripted check before review**
+- **2.1 — Ruled.** New §3 paragraph "The scripted pass comes before review" (m2 build, bar
+  screen, cross_world, m9 holdings; brief states what the pass covered and what it can't —
+  whether a claim is true), with the Phase A consistency-check and scoped-locus sentence.
+
+**Part 3 — duties added since V1.6**
+- **3.1 — Ruled.** B-3, B-4, B-6 guards and redirects (R11): paragraph after the B table.
+- **3.2 — Ruled.** B-7 distress-comparison guard (R19): in the B-7 row. R19's status line in
+  `Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md` updated to say
+  the fold-in into the build process is done, citing V1.7. The `cic-build-cycle` skill
+  itself is Mark's to update (synced from his claude.ai account) and was not touched.
+- **3.3 — Ruled.** B-3 `gloss_forms` (ordinary vs technical): in the B-3 row.
+- **3.4 — Ruled.** B-4 quote verification state (R33): in the B-4 row; the Phase B verbatim
+  bullet now points to it.
+- **3.5 — Ruled; already covered on main by newer text.** Between the ruling (2026-09-24)
+  and the write-in (2026-09-25), commits 61b2ec34, 481c0a0b, 04b77510, 7f3f1316 and
+  e953e03d rewrote the same Phase B passage: the rendering-fidelity gate as a birth
+  condition, now with two graders (Haiku 4.5 and Sonnet 4.6), the fragment and register
+  rules, and R43–R47. That text carries everything 3.5 required (full translation, the
+  author runs the grader, a person reads the reasoning, two consecutive "translation"
+  verdicts, report-only) and more, so it was kept as written. 3.5's own shorter wording
+  was not added, to avoid two versions of one rule. The one sentence kept from 3.4 points
+  from the verbatim gate to B-4.
+- **3.6 — Ruled (a).** Doc_02 row of the Phase A table: holdings dispositions (R13).
+- **3.7 — Ruled.** B-3, B-4 register-profile ceilings (R6), advisory this cycle:
+  paragraph after the B table. Conflict to note: Completion Standard V1.3 says "no number
+  gates it." That sentence needs amending when R6's gate promotion happens.
+- **3.8 — Ruled.** B-8 golden set at `engine/m4/reports/bench/<code>.json` before any
+  retrieval tuning: in the B-8 row.
+- **3.9 — Ruled.** Record status (R16): §6 session rule 12.
+- **3.10 — Ruled.** B-3 to B-6 other traditions (R26): paragraph after the B table.
+
+**Part 4 — Phase D**
+- **4.1 — Ruled.** Pre-score lean-probe and Deep Interview transcripts with the no-model
+  checks (`uncited_claims`, `guard_proximity`, grounding verdicts): §5 paragraph after the
+  Deep Interview.
+- **4.2 — Ruled.** After-B-6 guard-coverage read: paragraph after the B table (its timing is
+  B-6), with a pointer from §5's fabrication-press probe. The document states it applies
+  once `engine/m4/reports/grounding_fooling_measure.py` supports a world argument — a
+  queued engine task, not done here. Engineering note: the D1 script's world argument is
+  that separate task.
+
+**Part 5 — model routing**
+- **5.1 — Ruled (a).** §6 keeps its three lanes and adds an "Effort per task" table
+  (Opus 5.5 high / xhigh / medium by round and document, Fable 5.1 high, Sonnet 5, Haiku
+  4.5 after scripts), with the grouping-by-effort-class line. Option (c), moving Doc_03/06
+  spoken-field writing from Fable to Sonnet, stays open for a later ruling.
+
+**Part 6 — windfall measurement**
+- **6.1 — Ruled.** §6 session rule 13, marked "windfall builds, 2026-09; review afterward":
+  build log at `worlds/<code>/build/` records model, effort and `/usage` before/after per
+  document and review round.
+- **6.2 — Ruled (decision log only; a one-off test, queued separately, not a standing
+  rule).** One Fable 5.1 (high) vs Opus 5.5 (xhigh) discovery test on lpc's Doc_09.
+  Threshold: Opus 5.5 counts as close enough if it misses no more than one or two more
+  items than Fable on the merged, source-checked list. The Fable row of V1.7's effort
+  table stays "unchanged pending" this test.
+
+- **3.11 — Ruled 2026-09-25.** Mark: "before a build is started the library reasearch will
+  have done a search and rendoring of source material that is much more rigorouse than the
+  current build system. so the new build process needs to utalize all the rendered
+  resources." Written as the opening of §2 (Phase A): the build doesn't start until the
+  world's library package (dossier, corpus-map assignments, vendored texts, any rendered
+  source material) is delivered; Doc_02's Source Registry gives every package item a line;
+  later documents search the world's shelf and cite the package's sources; nothing the
+  build finds goes unreported to the source-research thread. `worlds/_cross-world/SOURCE-READINESS.md`
+  updated to match (its 2026-09-15 gate was Doc_02 only and called the dossier "a starting
+  inventory"). Rationale: "uses all of it" means every item gets a written decision, not
+  that every source is cited — per `CORPUS-USE.md`, no world should draw on every volume.
+
+**Added at write-in, to keep V1.7 consistent with main:** the effort table gains a row for
+`modern_rendering` authoring on Opus 5.5, matching CLAUDE.md's rendering exception (merged
+after the addendum was drafted). Two stale pointers found by the 2026-09-25 audit were
+fixed: the V3 launch prompt now points to the V2 prompt in `Archive/` and to V1.7, and
+Completion Standard V1.3 names `engine/m1/gates.py` instead of `cic-poc/backend/wrs/gates/`.
+
+**Unchanged by this addendum:** runtime engine routing; Stage 5; the M1, M2 and M3
+checkpoints and the four escalation categories; the `cic-build-cycle` skill; fleet-level
+fixes (witt's golden set, the COVERAGE backfill, R7).
+
+**Found in passing, not fixed here (out of this ruling's scope):** CLAUDE.md's "82
+vendored files" count is stale (138 today). `reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md`
+§4.3 quotes the pre-V1.7 routing table.

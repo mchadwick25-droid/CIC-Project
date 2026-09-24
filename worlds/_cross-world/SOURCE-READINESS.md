@@ -7,11 +7,12 @@ every candidate world on the Atlas gets a Source Readiness Dossier
 ready for whichever build thread eventually needs it. Producing one is not
 tied to a build being scheduled; a world can have a dossier years before
 anyone drafts its Doc_01. The build-side consequence of this is a hard gate:
-no world's Doc_02 (Source Ecology) may begin drafting until its dossier
-exists. If none exists when a build thread reaches Doc_02, it **stops** and
-asks for one rather than starting Doc_02 from a cold search — but by the
-time most worlds reach that point, the dossier should already be sitting
-there waiting, not freshly requested.
+no world's build may start until its library package (the dossier, the
+world's corpus-map assignments, the vendored texts they point to, and any
+further rendered source material the research produced) exists. If it is
+missing, the build thread **stops** and asks for it rather than starting
+from a cold search. The full rule is in
+`reference/method/CiC_Record_Native_World_Build_Process_V1.7.md`, §2.
 
 ## Why this exists
 
@@ -98,11 +99,20 @@ file checked — not a general impression:
 
 ## What a build thread does with one
 
-Read it before starting Doc_02. It is a starting inventory, not a
-substitute for Doc_02's own analytical work — Source Ecology still does the
-ecology reasoning (author gravity, screen risk, per-world source
-architecture) that a dossier doesn't attempt. Cite it as the dossier's own
-findings get folded into the Source Registry, the same way any other
+Read it before the build starts, and account for all of it. Doc_02's
+Source Registry gives every item in the package a line: every §1 assigned
+work, §2 cross-link and §3 acquisition lead is used, deferred with a
+reason, or out of scope with a reason (a lead not yet vendored is marked
+for acquisition); every §5 open question is named and carried forward,
+not decided; every piece of rendered source material is used or set
+aside with a reason. The Doc_02 review checks that nothing is missing.
+Accounting for every item is not citing every item: a source can be out
+of scope for good reason, as long as the reason is written down.
+
+The dossier does not replace Doc_02's own analytical work. Source Ecology
+still does the ecology reasoning (author gravity, screen risk, per-world
+source architecture) that a dossier doesn't attempt. Cite the dossier as
+its findings get folded into the Source Registry, the same way any other
 already-established fact gets cited rather than silently re-derived.
 
 If a build thread's own later search finds something the dossier missed,
