@@ -24,8 +24,8 @@ text: 'she never came to see me that she did not ask me some question concerning
   which might, as she saw, be made to my statements.'
 modern_rendering: >-
   She never visited me without asking some question about the scriptures.
-  Nor would she at once acquiesce in my explanations - on the contrary,
-  she would dispute them. Not for argument's sake, but to learn the
+  Nor would she at once acquiesce in my explanations. On the contrary,
+  she would dispute them, not for argument's sake, but to learn the
   answers to those objections which might, as she saw, be made to my
   statements.
 speaker_or_author: hal.figure.jerome
