@@ -37,18 +37,15 @@ uncontested-sounding over-claim - the flat assertion is the field verbatim,
 tagged to its own record: zero transformation, zero risk of the
 construction itself corrupting the measurement.
 
-For the guard-species do_not_retrieve_when lines: this field is NOT
-uniformly a "does not say / must not invent" honesty guard - fleet-wide it
-carries 714 lines, and all but 13 are ordinary retrieval-scoping notes
-("ask about X instead, retrieve that record"), not a barred proposition at
-all. This is exactly what Rulings-Pending.md's R11 names as "the dead
-retrieval-exclusion field" - dead FOR THE HONESTY-GUARD PURPOSE, though
-technically populated. The 13 real guard-species lines (keyword-matched
-against the design doc's own quoted examples: "does not say", "must not
-supply", "not attested", "do not invent", "must not") are hand-authored
-below into flat assertions of the specific barred proposition each one
-names - small enough (13) to read and phrase correctly by hand rather than
-risk a regex mis-extracting a barred proposition from free prose. Brictio
+For the guard lines: each record's claim_guards entries - R11's
+honesty-guard half of the old do_not_retrieve_when field, which also
+carried 701 ordinary retrieval-scoping redirects that were never a barred
+proposition at all (keyword-matched apart by engine.prose.GUARD_MARKERS:
+"does not say", "must not supply", "not attested", "do not invent",
+"must not"). The fleet's 13 guard lines are hand-authored below into flat
+assertions of the specific barred proposition each one names - small
+enough (13) to read and phrase correctly by hand rather than risk a regex
+mis-extracting a barred proposition from free prose. Brictio
 (gallic.story.brictio-in-the-courtyard) is row one, per the design doc.
 
 For honest_limit.statement (50) and story absent_detail (120): both fields
@@ -82,8 +79,53 @@ honest-limit records) and reporting; any UI element implying per-sentence
 truth verification overclaims. No thresholds self-set here; numbers go to
 Mark as an Artifact.
 
+PER-WORLD GUARD COVERAGE (--world <code>). Corpus B for one world, built
+or not yet admitted, run after the world's contested-claim records exist:
+a report-only list of barred claims that pass the grounding check and
+that no claim_guards entry covers, for a person to decide which ones get
+a guard (each guard renders as a MUST NOT ASSERT rider inside the
+record's evidence budget_chars, so guarding everything crowds out
+evidence). Differences from the fleet run:
+
+- The repository is compiled in memory from the world's CURRENT records/
+  (engine.m2.builders.build_repository_json, the same builder a package
+  uses) - no package, registry entry or admission needed, and records
+  authored since the last package build are measured, not missed.
+- Rows are built by walking the world's records, so every contested_claim,
+  honest_limit, story absent_detail and claim_guards entry is accounted
+  for. A contested_claim.claim is used verbatim. The other three need a
+  phrased flat assertion; one comes from, in order: the world's own
+  worlds/<code>/build/corpus-b-flat-assertions.json (same shape as
+  corpus_b_flat_assertions.json, plus "guard": {id: [one assertion per
+  claim_guards entry, in order]}), then the fleet's
+  corpus_b_flat_assertions.json and GUARD_FLAT_ASSERTIONS. A field with
+  no phrased assertion is never skipped silently: it is listed under
+  "unphrased" with its own source text, and the run is incomplete until
+  that list is empty.
+- This script never calls a model. Phrasing is template first, as the
+  design doc asks; where a template would produce a broken sentence (the
+  regex negation-flip problem above), the assertion comes from a one-time,
+  build-time phrasing pass (a person, or a single Sonnet pass whose output
+  a person spot-checks) written into that world's file. Nothing on the
+  runtime turn path reads that file or this output.
+
+"Covers" means exactly what the runtime would enforce: an assertion is
+covered when engine.m4.output_check's guard_proximity family fires on it
+cited to its own record - that record carries a claim_guards entry whose
+barred proposition (_guard_proposition: guard markers, boilerplate and
+proper nouns stripped) shares at least _GUARD_PROXIMITY_MIN_SHARED_WORDS
+content words with the assertion. A guard on a different record never
+counts. "needs_decision" lists every row whose verdict is "ok" and that
+is not covered.
+
+Output: worlds/<code>/build/guard-coverage-<date>.json - the world's own
+build output. Measurement only: WITHHOLD_FLOOR, check_turn,
+verdict_for_sentence and every threshold are unchanged.
+
 Run: python3 -m engine.m4.reports.grounding_fooling_measure
+     python3 -m engine.m4.reports.grounding_fooling_measure --world <code>
 """
+import argparse
 import json
 import pathlib
 import sys
@@ -92,26 +134,21 @@ from datetime import date, timezone, datetime
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 
 from engine.m1 import loader
+from engine.m2 import builders
 from engine.m4 import evidence as ev
 from engine.m4 import grounding_net as gn
-from engine.prose import GUARD_MARKERS, claim_markers, content_words, all_text, quote_aware_sentences
+from engine.m4 import output_check
+from engine.prose import claim_markers, content_words, all_text, quote_aware_sentences
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 REPORTS_DIR = pathlib.Path(__file__).resolve().parent
 WORLDS = ["alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr", "witt"]
 
-# GUARD_MARKERS is now engine.prose's own (single source of truth - see
-# that module's comment): keyword-matched against the design doc's own
-# quoted examples, this is what correctly separated the fleet's 13 genuine
-# honesty-guard clauses from 701 ordinary do_not_retrieve_when redirects,
-# the measurement R11's ruling (now applied - see Decision-Log.md Entries
-# 21-24) was actually run against.
-
 # Hand-authored (see this file's own docstring for why: 13 is small enough
 # to read and phrase correctly rather than risk a regex mis-extracting the
 # barred proposition from free prose). Each one asserts, flatly and as
-# settled fact, exactly the proposition its own do_not_retrieve_when line
-# bars - tagged back to the SAME record that carries the guard.
+# settled fact, exactly the proposition its own claim_guards entry bars -
+# tagged back to the SAME record that carries the guard.
 GUARD_FLAT_ASSERTIONS = {
     "desert.term.hesychia": "By this point our monks already practiced the systematic Jesus Prayer technique of the later hesychast method.",
     "desert.term.nepsis": "Our teaching on nepsis was already the fully systematized neptic tradition that later monastic writers developed.",
@@ -142,21 +179,30 @@ def latest_complete_package(world_key: str) -> pathlib.Path:
     raise RuntimeError(f"no complete compiled package found for {world_key}")
 
 
-_REPO_CACHE: dict[str, tuple[dict, list, set]] = {}
+_REPO_CACHE: dict[tuple[str, bool], tuple[dict, list, set]] = {}
 
 
-def load_repo(world_key: str):
-    if world_key not in _REPO_CACHE:
-        C = latest_complete_package(world_key) / "compiled"
-        recs = ev.repository_records_by_id(json.loads((C / "repository.json").read_text()))
+def load_repo(world_key: str, *, from_records: bool = False):
+    """The world's compiled records, thin topics and figure lexicon.
+    Fleet corpora read the newest complete package; the per-world guard-
+    coverage run (from_records=True) compiles repository.json in memory
+    from the world's current records/, so a world with no package yet
+    can be measured."""
+    key = (world_key, from_records)
+    if key not in _REPO_CACHE:
+        if from_records:
+            raw = builders.build_repository_json(loader.load_world_records(world_key))
+        else:
+            raw = (latest_complete_package(world_key) / "compiled" / "repository.json").read_text(encoding="utf-8")
+        recs = ev.repository_records_by_id(json.loads(raw))
         thin = ev.thin_topics_for(recs)
         figures = gn.build_figure_lexicon(recs)
-        _REPO_CACHE[world_key] = (recs, thin, figures)
-    return _REPO_CACHE[world_key]
+        _REPO_CACHE[key] = (recs, thin, figures)
+    return _REPO_CACHE[key]
 
 
-def verdict(text: str, tags: list[str], world_key: str) -> dict:
-    recs, thin, figures = load_repo(world_key)
+def verdict(text: str, tags: list[str], world_key: str, *, from_records: bool = False) -> dict:
+    recs, thin, figures = load_repo(world_key, from_records=from_records)
     return gn.verdict_for_sentence(
         text, tags,
         repository_records=recs, figure_names=figures,
@@ -226,18 +272,14 @@ def collect_guard_lines() -> list[dict]:
     hits = []
     for w in WORLDS:
         for rid, r in loader.load_world_records(w).items():
-            retr = r.get("retrieval")
-            if not isinstance(retr, dict):
-                continue
-            for line in retr.get("do_not_retrieve_when") or []:
-                if any(m in line.lower() for m in GUARD_MARKERS):
-                    hits.append({"world": w, "id": rid, "line": line})
+            for line in r.get("claim_guards") or []:
+                hits.append({"world": w, "id": rid, "line": line})
     return hits
 
 
 def run_corpus_b() -> dict:
     flat_path = REPORTS_DIR / "corpus_b_flat_assertions.json"
-    flat = json.loads(flat_path.read_text()) if flat_path.exists() else {"honest_limit": {}, "absent_detail": {}}
+    flat = json.loads(flat_path.read_text(encoding="utf-8")) if flat_path.exists() else {"honest_limit": {}, "absent_detail": {}}
 
     rows = []  # {source, world, id, assertion, verdict, why}
 
@@ -247,7 +289,7 @@ def run_corpus_b() -> dict:
             if r.get("record_type") == "contested_claim" and r.get("claim"):
                 rows.append({"source": "contested_claim", "world": w, "id": rid, "assertion": r["claim"]})
 
-    # guard-species do_not_retrieve_when - hand-authored, tagged to own record
+    # claim_guards - hand-authored, tagged to own record
     for hit in collect_guard_lines():
         assertion = GUARD_FLAT_ASSERTIONS.get(hit["id"])
         if assertion:
@@ -347,6 +389,136 @@ def run_corpus_c(sample_per_world: int = 12, seed: int = 20260921) -> dict:
     }
 
 
+# ---------------------------------------------------------------------
+# Per-world guard coverage - Corpus B for one world (see docstring)
+# ---------------------------------------------------------------------
+
+WORLD_FLAT_ASSERTIONS_NAME = "corpus-b-flat-assertions.json"
+
+
+def world_build_dir(world_key: str) -> pathlib.Path:
+    return REPO_ROOT / "worlds" / world_key / "build"
+
+
+def phrased_assertions(world_key: str, world_file: pathlib.Path | None = None) -> dict[str, dict]:
+    """{"honest_limit": {id: (text, origin)}, "absent_detail": {id: (text,
+    origin)}, "guard": {id: [(text, origin), ...]}} for one world - the
+    world's own file overrides the fleet's one-time pass per record id."""
+    prefix = f"{world_key}."
+    out: dict[str, dict] = {"honest_limit": {}, "absent_detail": {}, "guard": {}}
+
+    fleet_path = REPORTS_DIR / "corpus_b_flat_assertions.json"
+    if fleet_path.exists():
+        fleet = json.loads(fleet_path.read_text(encoding="utf-8"))
+        for kind in ("honest_limit", "absent_detail"):
+            for rid, text in (fleet.get(kind) or {}).items():
+                if rid.startswith(prefix):
+                    out[kind][rid] = (text, "fleet_one_time_pass")
+    for rid, text in GUARD_FLAT_ASSERTIONS.items():
+        if rid.startswith(prefix):
+            out["guard"][rid] = [(text, "fleet_hand_authored")]
+
+    world_file = world_file if world_file is not None else world_build_dir(world_key) / WORLD_FLAT_ASSERTIONS_NAME
+    if world_file.exists():
+        own = json.loads(world_file.read_text(encoding="utf-8"))
+        for kind in ("honest_limit", "absent_detail"):
+            for rid, text in (own.get(kind) or {}).items():
+                out[kind][rid] = (text, "world_authored")
+        for rid, texts in (own.get("guard") or {}).items():
+            out["guard"][rid] = [(t, "world_authored") for t in texts]
+    return out
+
+
+def guard_coverage_rows(world_key: str, world_file: pathlib.Path | None = None) -> tuple[list[dict], list[dict]]:
+    """(rows, unphrased) for one world, in record-id order. A row is one
+    flat assertion tagged to its own record; an unphrased entry is a field
+    that needs a phrased assertion and has none yet."""
+    phrased = phrased_assertions(world_key, world_file)
+    rows, unphrased = [], []
+
+    def add(source, rid, rtype, field_text, phrasing):
+        if phrasing is None:
+            unphrased.append({"source": source, "id": rid, "record_type": rtype, "field_text": field_text})
+        else:
+            text, origin = phrasing
+            rows.append({"source": source, "id": rid, "record_type": rtype, "assertion": text, "assertion_origin": origin})
+
+    records = loader.load_world_records(world_key)
+    for rid in sorted(records):
+        r = records[rid]
+        rtype = r.get("record_type")
+        if rtype == "contested_claim" and r.get("claim"):
+            add("contested_claim", rid, rtype, r["claim"], (r["claim"], "verbatim"))
+        guard_phrasings = phrased["guard"].get(rid) or []
+        for i, line in enumerate(r.get("claim_guards") or []):
+            add("guard", rid, rtype, line, guard_phrasings[i] if i < len(guard_phrasings) else None)
+        if rtype == "honest_limit" and r.get("statement"):
+            add("honest_limit", rid, rtype, r["statement"], phrased["honest_limit"].get(rid))
+        if rtype == "story" and r.get("absent_detail"):
+            add("absent_detail", rid, rtype, r["absent_detail"], phrased["absent_detail"].get(rid))
+    return rows, unphrased
+
+
+def guard_proximity_on(assertion: str, rid: str, repository_records: dict) -> list[dict]:
+    """The runtime's own guard_proximity findings for this assertion cited
+    to its own record - the docstring's "covers" rule, by construction."""
+    return output_check._guard_proximity_findings(
+        assertion, [{"sentence": assertion, "record_ids": [rid]}], repository_records,
+    )
+
+
+def run_guard_coverage(world_key: str, world_file: pathlib.Path | None = None) -> dict:
+    if not (loader.RECORDS_ROOT / world_key).is_dir():
+        raise SystemExit(f"no records/{world_key}/ - nothing to measure")
+    recs, _thin, _figures = load_repo(world_key, from_records=True)
+    rows, unphrased = guard_coverage_rows(world_key, world_file)
+    for row in rows:
+        v = verdict(row["assertion"], [row["id"]], world_key, from_records=True)
+        row["verdict"] = v["verdict"]
+        row["why"] = v["why"]
+        findings = guard_proximity_on(row["assertion"], row["id"], recs)
+        row["covered"] = bool(findings)
+        row["guard_proximity"] = [f["finding"] for f in findings]
+
+    by_source = {}
+    for row in rows:
+        b = by_source.setdefault(row["source"], {"n": 0, "passes_ok": 0, "covered": 0, "needs_decision": 0})
+        b["n"] += 1
+        b["passes_ok"] += row["verdict"] == "ok"
+        b["covered"] += row["covered"]
+        b["needs_decision"] += row["verdict"] == "ok" and not row["covered"]
+    for u in unphrased:
+        by_source.setdefault(u["source"], {"n": 0, "passes_ok": 0, "covered": 0, "needs_decision": 0})
+        by_source[u["source"]]["unphrased"] = by_source[u["source"]].get("unphrased", 0) + 1
+
+    needs_decision = [r for r in rows if r["verdict"] == "ok" and not r["covered"]]
+    return {
+        "world": world_key,
+        "repository": "compiled in memory from current records/",
+        "complete": not unphrased,
+        "n": len(rows),
+        "needs_decision_count": len(needs_decision),
+        "unphrased_count": len(unphrased),
+        "by_source": by_source,
+        "needs_decision": needs_decision,
+        "unphrased": unphrased,
+        "rows": rows,
+    }
+
+
+def main_world(world_key: str) -> None:
+    report = {"generated": datetime.now(timezone.utc).isoformat(), **run_guard_coverage(world_key)}
+    out_dir = world_build_dir(world_key)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"guard-coverage-{date.today().isoformat()}.json"
+    out_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Guard coverage [{world_key}]: n={report['n']} needs_decision={report['needs_decision_count']} unphrased={report['unphrased_count']}")
+    print(f"  by_source: {report['by_source']}")
+    if report["unphrased_count"]:
+        print(f"  INCOMPLETE: {report['unphrased_count']} field(s) need a phrased assertion in worlds/{world_key}/build/{WORLD_FLAT_ASSERTIONS_NAME}")
+    print(f"Report written: {out_path.relative_to(REPO_ROOT)}")
+
+
 def main():
     report = {
         "generated": datetime.now(timezone.utc).isoformat(),
@@ -366,4 +538,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(prog="python -m engine.m4.reports.grounding_fooling_measure")
+    parser.add_argument("--world", help="run per-world guard coverage (Corpus B) for this registry code instead of the fleet corpora")
+    args = parser.parse_args()
+    if args.world:
+        main_world(args.world)
+    else:
+        main()
