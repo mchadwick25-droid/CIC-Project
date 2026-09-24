@@ -27,14 +27,18 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
   the world, and have read through all Holy Scripture, am not frightened at the things which are said
   to terrify us. For those who are greater than I have said, "We ought to obey God rather than men."
 modern_rendering: >-
-  As for us, we keep the exact day, adding nothing and taking nothing away.
-  Great lights of the faith have died here in Asia, and they will rise again
-  on the day the Lord comes. I, Polycrates, the least of you all, follow the
-  tradition of my family. Seven of my relatives were bishops, and I am the
-  eighth. I am sixty-five years old in the Lord, brothers. I have met
-  believers from all over the world, and I have read the whole of Holy
-  Scripture. And I am not frightened by threats. Men greater than I have said:
-  'We ought to obey God rather than men.'
+  As for us, we scrupulously keep the exact day, adding nothing and
+  taking nothing away. For in Asia great luminaries have gone to their
+  rest, who shall rise again on the day the Lord comes. Moreover I also,
+  Polycrates, the least of you all, follow the tradition of my
+  relatives, some of whom I have succeeded. Seven of my relatives were
+  bishops, and I am the eighth, and my relatives always observed the day
+  when the people put away the leaven. I myself, brothers, am
+  sixty-five years old in the Lord. I have met with the brothers in all
+  parts of the world, and have read through all Holy Scripture. I
+  am not frightened by the things which are said to terrify us. For
+  those who are greater than I have said: 'We ought to obey God rather
+  than men.'
 speaker_or_author: Polycrates, bishop of Ephesus, writing to Victor of Rome
 license: verbatim
 modern_lens_note: >-

@@ -25,8 +25,9 @@ text: >-
 modern_rendering: >-
   There are two ways: one of life and one of death, and there is a great
   difference between the two ways. The way of life is this. First, you shall
-  love God, who made you; second, your neighbor as yourself. And whatever you
-  would not want to happen to you, do not do to another.
+  love God, who made you; second, your neighbor as yourself. And all the
+  things you would not want to happen to you, you also must not do to
+  another.
 speaker_or_author: the manual known as the Didache, or the Teaching of the Twelve Apostles
 license: verbatim
 modern_lens_note: >-
