@@ -4984,3 +4984,75 @@ quotation the splitter re-merged across a stop.
   (`test_grounding_net.py`); curly placement and re-merged placement
   (`test_transparency_plan.py`). Without the fix, the four curly tests
   fail; with it, all pass.
+
+**Entry 75 — 2026-09-24.** Per-world guard coverage: the build-process
+addendum's item 4.2 (Mark approved it 2026-09-24; the addendum is still
+pre-convergence and not yet in `reference/method/`). Branch
+`claude/guard-coverage-per-world`; PR number to follow when Mark says
+push.
+
+**What it adds.** `engine/m4/reports/grounding_fooling_measure.py
+--world <code>` runs Corpus B for one world, built or not yet admitted,
+after Phase B step B-6. It is report-only. Each row carries the source
+record id, the record type, the verdict and reason from
+`verdict_for_sentence`, and whether a `claim_guards` entry covers it.
+`needs_decision` lists every row that passes and is not covered. A person
+decides which of those get a guard. Output goes to
+`worlds/<code>/build/guard-coverage-<date>.json`. The run makes no model
+call and adds nothing to the runtime turn path. `WITHHOLD_FLOOR`,
+`check_turn`, `verdict_for_sentence` and every threshold are unchanged.
+
+**Decisions made inside the build, stated in the module docstring:**
+- *Repository.* This mode compiles `repository.json` in memory from the
+  world's current `records/`, using the same builder a package uses. It
+  needs no package, registry entry or admission, and it sees records
+  authored since the last package build.
+- *How a new world gets its phrased assertions.* A `contested_claim.claim`
+  is used verbatim. `honest_limit`, story `absent_detail` and
+  `claim_guards` entries need a phrased flat assertion. Those come from
+  the world's own `worlds/<code>/build/corpus-b-flat-assertions.json`,
+  then from the fleet's existing files. The script never phrases one
+  itself. A field with no assertion is listed under `unphrased` with its
+  source text, and the report is marked incomplete. It is never skipped.
+  The phrasing comes from a one-time, build-time pass by a person, or
+  from a single Sonnet pass whose output a person spot-checks. That is
+  `Adjusted-Design.md` §4's own allowance ("template first; optional
+  one-time Sonnet phrasing").
+- *"Covers."* An assertion is covered when `output_check`'s
+  `guard_proximity` family fires on it cited to its own record. The
+  script calls that function directly, so the rule can't drift from
+  what runs live. A guard on a different record never counts.
+
+**A pre-existing defect, fixed at the root.** R11's split moved every
+guard line into `claim_guards`. `collect_guard_lines()` still read
+`retrieval.do_not_retrieve_when`, which is now empty fleet-wide. So the
+fleet Corpus B had silently lost its 13 guard rows (n 251 on 09-21, 238
+on this morning's `main`). It now reads `claim_guards`. Measured against
+a baseline run of unmodified `main`: fleet Corpus A and C are
+byte-identical. Corpus B differs only by the 13 restored guard rows (13
+rows, 11 pass), which match the committed 09-21 report exactly. The one
+`engine/prose.py` comment that listed this script as a `GUARD_MARKERS`
+importer now names `output_check.py`, which does import it.
+
+**Found, not fixed (measurement coverage, not a record defect).** Four
+fleet stories have an `absent_detail` but no authored flat assertion in
+`corpus_b_flat_assertions.json`. The fleet run has skipped them without
+saying so: `alx.story.origen-daring-deed`,
+`desert.story.antony-secret-burial`,
+`desert.story.sarapion-anthropomorphite` and
+`pahc.story.quintus-recantation`. The fleet output format was left
+unchanged. `--world` on those worlds lists them as `unphrased`.
+
+**Sample runs (not committed).** `--world gallic`: 27 rows, 0 unphrased.
+All 5 guard rows are covered by their own guard, which is the expected
+sanity check. 22 need a decision. `--world alx`: 16 rows, 1 unphrased
+(`origen-daring-deed`), 15 need a decision.
+
+**Tests.** `engine/m4/tests/test_guard_coverage.py` (8 tests) runs on
+the `fix` fixture world. It covers unphrased fields being listed rather
+than skipped, the world file supplying phrasings, `needs_decision` as
+passing-and-uncovered, a guard with no phrasing, a record's own guard
+covering its barred claim, the covers rule against the runtime function
+(a different record's guard never covers; one shared word is below the
+floor), an unknown world refusing, and fleet guard rows reading
+`claim_guards`.
