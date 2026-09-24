@@ -85,9 +85,8 @@ if (window.location.hash.indexOf('#q=') === 0) { target.hash = window.location.h
 var frame = document.getElementById('talk-frame');
 frame.src = target.toString();
 
-// The embedded app's own "Leave for now"/"Begin again" used to fall back
-// to its pre-redesign Launch screen when it had no idea it was inside an
-// iframe - it now posts this instead of navigating itself, and #back-link
+// The embedded app's own "Leave for now"/"Begin again" posts this message
+// instead of navigating itself when inside an iframe, and #back-link
 // is already this page's own real, styled answer to "where does leaving
 // go." ev.source restricts to
 // exactly our own iframe - the only page that ever loads inside it is the

@@ -1,7 +1,7 @@
 <!--
   CIC tradition-page CONTENT template (Website V2 world_front design,
-  site cutover stage: the rebuilt tradition pages render the
-  world_front's FULL content, not the old 3-section page).
+  site cutover stage: tradition pages render the world_front's FULL
+  content).
 
   This is not a whole HTML document and is never served on its own. It is
   read and filled by tools/generate_tradition_pages.py, which splices the
@@ -41,18 +41,17 @@
   inserted once before each page's own closing </style>; every rule
   already in a world's own <style> block is left untouched.
 
-  Card redesign: the full card leads with identity and substance, not
-  evidentiary caution. Two sections that
-  used to run here are gone outright - "Who is speaking" (who_speaks, a
-  meta-summary of the voice roster) and "Where we are quiet" (quiet, a
-  section built entirely around evidentiary silence) - and the Voices
-  section below renders without its "This world's own hedge" callout
-  (tools/render_orientation_cli.mjs passes {showHedge: false} to
-  renderVoices for this template only; the Atlas panel keeps hedges,
-  since it imports the renderer directly with no opts). Gap/thinness
-  content isn't deleted from the project - it's exactly what a
-  participant reaches by asking the Representative directly - it's just
-  no longer pushed into the card's own default reading flow.
+  The full card leads with identity and substance, not
+  evidentiary caution. Two sections are not rendered here - "Who is
+  speaking" (who_speaks, a meta-summary of the voice roster) and "Where
+  we are quiet" (quiet, a section built entirely around evidentiary
+  silence) - and the Voices section below renders without its "This
+  world's own hedge" callout (tools/render_orientation_cli.mjs passes
+  {showHedge: false} to renderVoices for this template only; the Atlas
+  panel keeps hedges, since it imports the renderer directly with no
+  opts). Gap/thinness content isn't deleted from the project - it's
+  exactly what a participant reaches by asking the Representative
+  directly - it's just not part of the card's own default reading flow.
 -->
 <style id="tradition-content-css">
 .orient-voices{display:flex;flex-direction:column;gap:1.1rem}
@@ -84,11 +83,9 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
 </style>
 
-<!-- Kept standalone when the "Who is speaking" section (its original home)
-     was cut in the card redesign: this is a safety disclosure, not
+<!-- This is a safety disclosure, not
      gap/thinness content, and CLAUDE.md's own safety priority holds
-     regardless of what else moves - see cic-website/traditions/*.html's
-     pre-redesign `who_speaks` section for its prior placement. -->
+     regardless of what else moves. -->
 <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
 <!--SECTION:story-->
@@ -140,8 +137,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 <!--/SECTION:sourcing-->
 
 <!-- Judgment call (flagged in this generator's own report): the glossary
-     and pull-quotes fields are the two world_front units with no section
-     of their own in the old hand-built pages. Rather than two more
+     and pull-quotes fields are the two world_front units with no
+     dedicated section of their own. Rather than two more
      full-width sections, they share one compact strip - pull quotes as
      blockquotes, then a small glossary grid - placed after Sources and
      before the closing Questions section. -->

@@ -100,14 +100,10 @@ svg#world{display:block;overflow:visible}
 /* Halo, not just a fill: gold-leaf is also FAM's Syriac-East river hue, so a solid
    river passing under this corner at full pigment can otherwise erase the label --
    same-color-on-same-color has no edge to see. A paper-toned outline keeps it legible
-   over whatever's underneath, the way a map halos its place-names.
-   Previously fixed (not theme-variable) dark-ink-on-light-card colors, written
-   for the old era break band -- a light card that always sat behind this text.
-   That card is gone (it blocked the map); this text now sits
+   over whatever's underneath, the way a map halos its place-names. Text sits
    directly over the rivers like every other label on the map, so it follows the
    same var()-based theme tokens and the same 3px halo width .lbl below already
-   uses, rather than the old fixed dark fill + thick 5px light halo, which read as
-   blurry once there was no longer a light card to halo against. */
+   uses. */
 .era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
@@ -161,10 +157,10 @@ svg#world{display:block;overflow:visible}
 .story{cursor:pointer}
 .story:focus-visible{outline:none}
 .story:hover circle.halo{opacity:.35}
-/* pointer-events was none on .lbl (twice over -- the base rule above and,
-   redundantly, here too) -- the name text floated over its own dot with no
+/* pointer-events enabled on .lbl (redundantly, alongside the base rule
+   above) -- without it, the name text floats over its own dot with no
    hit area of its own, so the only clickable/hoverable target for a
-   movement was the dot itself: r=4.4 built, r=2.6 not, genuinely hard to
+   movement is the dot itself: r=4.4 built, r=2.6 not, genuinely hard to
    land on at real zoom. The dot's own click/hover/focus handlers all live
    on the parent <g> already (this text has none of its own to duplicate),
    so enabling pointer events here just lets a click or hover on the name
@@ -39775,7 +39771,7 @@ const DATA = {
 // non-adjacent pair (e.g. two different bridge lanes) can still read
 // similarly -- an accepted, structural limit at 14 categories, not an
 // oversight.
-// k:3.6 added 2026-09: a real 14th lane, not a fix folded into an
+// k:3.6 is a real 14th lane, not a fix folded into an
 // existing one. The Persecuted-Church movement's own record calls it a
 // "3<->6 span (Greek East / Protestant)", but the census's bridge-naming
 // convention (lower lane + 0.5) collided it onto 3.5 -- the SAME slot as
@@ -39808,7 +39804,7 @@ const FAM=[
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
 // Dark is the default; prefers-color-scheme can't tell an explicit light
 // preference apart from an OS that has never been touched (both match
-// "light"), so this no longer checks it -- only an explicit data-theme
+// "light"), so this doesn't check it -- only an explicit data-theme
 // attribute (no control sets one today; a future toggle could) opts out.
 const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';
 const famColor=f=>isDark()?f.cd:f.c;
@@ -39864,22 +39860,21 @@ let eraH=rawScore.map(s=>Math.max(MIN_H, s/rawSum*TOTAL_H));
 const hSum=eraH.reduce((a,b)=>a+b,0);
 eraH=eraH.map(h=>h/hSum*TOTAL_H); // renormalize after the floor
 
-// Every band's header (title, dates, world-context caption) used to sit
-// directly on top of that era's own opening river -- a movement dated right
-// at an era's first year lands at eraY0[i] by construction, the same few
-// pixels the caption prints on, so the text and the very worlds it's
-// introducing (Alexandria, the Desert...) fought for the same ground. A
-// fixed gutter -- sized to the tallest of the ten header blocks -- reserves
-// that space at the top of every band for text alone; no movement is
-// plotted inside it (see the yearToY and per-y density-sampling changes
-// below), so the streams entering the band are visible passing under the
-// caption without a single world's dot or label competing with it.
-// Raised from 190 to 230 alongside the era-header font-size/wrap
-// changes above (bigger text, narrower context wrap so lines fit on
-// screen when zoomed in) -- the tallest header block is now up to 5
-// context lines at the new sizing (computed: worst case ~184px to the
-// divider), not the old ~146px three-line max this constant was
-// originally sized for.
+// A fixed gutter -- sized to the tallest of the ten header blocks --
+// reserves space at the top of every band for text alone (title, dates,
+// world-context caption), separate from the era's own opening river: a
+// movement dated right at an era's first year lands at eraY0[i] by
+// construction, the same few pixels the caption prints on, so without
+// this gutter the text and the very worlds it's introducing (Alexandria,
+// the Desert...) would fight for the same ground. No movement is
+// plotted inside the gutter (see the yearToY and per-y density-sampling
+// changes below), so the streams entering the band are visible passing
+// under the caption without a single world's dot or label competing
+// with it.
+// HEADER_GUTTER=230, sized alongside the era-header font-size/wrap
+// above (bigger text, narrower context wrap so lines fit on screen when
+// zoomed in): the tallest header block runs up to 5 context lines at
+// this sizing (computed: worst case ~184px to the divider).
 const HEADER_GUTTER=230;
 eraH=eraH.map(h=>h+HEADER_GUTTER);
 let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
@@ -39910,12 +39905,12 @@ const laneKeys=[...new Set(DATA.movements.map(m=>m.laneOrder))].sort((a,b)=>a-b)
 const CANVAS_W=Math.max(1400, laneKeys.length*135);
 const laneX={}; laneKeys.forEach((k,i)=>{laneX[k]=70+(i+0.5)*((CANVAS_W-140)/laneKeys.length);});
 
-// Every lane's river used to run the full sheet, top to bottom, at a floor
-// width even where it had zero active movements -- Protestant & Evangelical
-// (first entry 1517) and Global Revival & Pentecostal (first entry 1904)
-// were rendering as full rivers back in the Early Church Era, seven and
-// fourteen centuries before either existed. Genesis year -- this lane's
-// real earliest start -- is where its river is allowed to begin at all.
+// Genesis year -- a lane's real earliest start -- is where its river is
+// allowed to begin at all, rather than at a floor width for the full
+// sheet regardless of when the lane's own movements start: without that
+// gate, Protestant & Evangelical (first entry 1517) and Global Revival &
+// Pentecostal (first entry 1904) would render as full rivers back in the
+// Early Church Era, seven and fourteen centuries before either existed.
 const laneGenesisYear={}, laneGenesisY={};
 laneKeys.forEach(k=>{
   laneGenesisYear[k]=Math.min(...DATA.movements.filter(m=>m.laneOrder===k).map(m=>m.start));
@@ -40060,7 +40055,7 @@ laneKeys.forEach(k=>{
         // Inside the header gutter itself there's no real "when" to compute --
         // hold at the era's own opening year, so the river simply carries
         // whatever width it already had at that boundary through the caption
-        // zone rather than sampling a year that was never actually plotted.
+        // zone rather than sampling a year that is never actually plotted.
         const t=y<eraY0[i]+HEADER_GUTTER ? 0 : (y-eraY0[i]-HEADER_GUTTER)/(eraH[i]-HEADER_GUTTER);
         year=eraYearRange[i][0]+t*(eraYearRange[i][1]-eraYearRange[i][0]);
         break;
@@ -40077,8 +40072,8 @@ function widthAt(k,y){
   const pts=laneSamples[k]; const idx=Math.min(pts.length-1,Math.max(0,Math.round(y/STEP)));
   const cnt=pts[idx].cnt;
   // No floor: a lane with nothing active at this point in time is not a thin
-  // trickle, it does not exist yet (or has genuinely gone quiet). The old "10 +"
-  // floor kept every lane rendering at a minimum width for the whole sheet,
+  // trickle, it does not exist yet (or has genuinely gone quiet). A minimum-width
+  // floor for the whole sheet would render every lane,
   // Protestant & Evangelical included, thirteen centuries before it existed.
   return cnt===0 ? 0 : 10 + 46*Math.pow(cnt/maxCnt,0.55);
 }
@@ -40103,11 +40098,11 @@ function smoothPath(pts){
 // own. Without a documented parent, only the width ramps in; the geometry
 // never invents a lineage the record doesn't assert.
 // Kept short on purpose: most lanes' real genesis falls early in Era I, and
-// at 440 the transition swallowed nearly that whole era -- almost everything
-// visible in the map's opening was "still joining," not yet independently
-// winding, which is what actually read as "the winding is gone" even though
-// the wave itself never changed. 150 gives the join enough room for a real
-// curve, then hands the lane back to its own full-amplitude wave quickly.
+// a long transition window would swallow nearly that whole era -- almost
+// everything visible in the map's opening would read as "still joining," not
+// yet independently winding, which would look like "the winding is gone" even
+// though the wave itself never changes. 150 gives the join enough room for a
+// real curve, then hands the lane back to its own full-amplitude wave quickly.
 const MERGE_WINDOW=150;
 function riverPath(k, amp){
   const left=[], right=[];
@@ -40118,10 +40113,10 @@ function riverPath(k, amp){
     let cx=ownX, w=fullW;
     if(k!==0){
       const raw=Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));
-      // Smoothstep, not a straight ramp: a lane peeling off its parent lane
-      // was riding a linear 0-to-1 blend, which -- since the gap between two
-      // lane columns usually dwarfs the wave's own +-52px swing -- read as a
-      // straight diagonal cut wherever it happened, not a river joining
+      // Smoothstep, not a straight ramp: a straight linear 0-to-1 blend for
+      // a lane peeling off its parent lane -- since the gap between two
+      // lane columns usually dwarfs the wave's own +-52px swing -- reads as a
+      // straight diagonal cut wherever it happens, not a river joining
       // another. Easing the *rate* of the blend (zero velocity at both ends)
       // curves the transition itself; the bulge below adds an actual organic
       // arc through it. Both are scaled by amp so calm (zoomed-out, amp=0)
@@ -40209,7 +40204,7 @@ function el(tag,attrs){const e=document.createElementNS(NS,tag); for(const k in 
 const gRoot=el('g',{id:'pan-zoom'}); svg.appendChild(gRoot);
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
-// The era divider (a thin line, not the old thick break band -- see the
+// The era divider (a thin line; see the
 // eras.forEach loop below) sits directly above the rivers and nothing
 // else, so edges/nodes/labels stay crisp on top of it and the divider
 // itself stays crisp regardless of what color river crosses under it.
@@ -40255,9 +40250,8 @@ svg.appendChild(defs);
 // project's own pre-Step-0 research (CiC_World_Atlas_PreStep0_Survey_V0_1.md
 // and its External Review), not an invented date or a paraphrase claiming
 // more than that record says. Era VII's line is the census's own era tag --
-// safe to reuse here (unlike the old per-band header use of tags, REV 5's
-// fix) because it's explicitly plural on its face ("several ways at once"),
-// not one thread's story standing in for the whole band.
+// safe to reuse here because it's explicitly plural on its face ("several
+// ways at once"), not one thread's story standing in for the whole band.
 const WORLD_CONTEXT={
   1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. For the Persian church east of Rome, that divide ran backwards: persecution only intensified after 312.",
   2:"The era historians call the 'imperial church' — Christianity moves from persecuted minority to the empire's own religion, and the creeds that define it (Nicaea, then Chalcedon just after this band) get settled because an emperor now has a stake in the outcome.",
@@ -40270,17 +40264,17 @@ const WORLD_CONTEXT={
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
-// Era header context wrap width, in characters (previously a fixed 200
-// inlined at each call site): narrow enough that a wrapped line fits on
-// screen at a comfortable reading zoom rather than spanning near the full
-// width of the map, which only worked at the fully-zoomed-out view.
+// Era header context wrap width, in characters: narrow enough that a
+// wrapped line fits on screen at a comfortable reading zoom rather than
+// spanning near the full width of the map, which only works at the
+// fully-zoomed-out view.
 const ERA_CONTEXT_WRAP=65;
 
 // Per-river background, researched by the Fable model against this exact set
 // of member movements (not the map's own primary census, and not carrying
-// its confidence-rated sourcing) -- Mark asked for real historical/theological
+// its confidence-rated sourcing) -- real historical/theological
 // depth per river (why it started, doctrine, lived practice, geography, what
-// makes the grouped movements one river) since the census itself has no
+// makes the grouped movements one river), since the census itself has no
 // per-family write-up, only per-movement records. Hedged in its own prose
 // where the record is thin or contested, consistent with the rest of the
 // map's voice; several rivers (Non-Nicene above all) are stated plainly as a
@@ -40418,8 +40412,8 @@ function render(){
     // body -- painting it is a no-op (10 full-width rects that render
     // nothing), so skip it there; dark mode's real cycling still paints.
     if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
-    // Era divider: a thin line, not the old thick, near-opaque bar that
-    // read as a wall blocking the map underneath it rather than a
+    // Era divider: a thin line that doesn't block the map underneath it
+    // the way a thick, near-opaque bar would read as a wall rather than a
     // divider. Font sizes (see the .era-label/.era-tag/.era-context
     // rules above) and the context wrap (ERA_CONTEXT_WRAP chars) keep
     // the header text readable at a comfortable zoom instead of running
@@ -40427,10 +40421,10 @@ function render(){
     // top of the era band with the header text below it, so it reads as
     // marking where the era starts rather than trailing the one above.
     const dividerY=eraY0[i]+16;
-    // Drawn on top of the rivers (band-fade's old spot) so the line stays
+    // Drawn on top of the rivers so the line stays
     // crisp regardless of what color river crosses under it, with a slim,
     // low-opacity wash behind it only so the line has something to sit on
-    // against a busy stretch of the map -- not a return of the old block.
+    // against a busy stretch of the map.
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDark()?'#F6F6F2':'#2A2521',opacity:isDark()?0.1:0.06}));
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:isDark()?'#F6F6F2':'#6B5D4A',opacity:isDark()?0.85:0.65}));
     const lbl=el('text',{x:24,y:dividerY+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
@@ -40448,8 +40442,8 @@ function render(){
       const ctx=el('text',{x:24,y:dividerY+90,class:'era-context'});
       // Narrow enough (ERA_CONTEXT_WRAP chars) that a line fits on screen
       // at a comfortable reading zoom, not just at the fully-zoomed-out
-      // view -- was wrapped at 200 chars, close to the full width of the
-      // map itself, which ran off-screen the moment anyone zoomed in
+      // view, unlike a wrap close to the full width of the
+      // map itself, which runs off-screen the moment anyone zooms in
       // enough to actually read the smaller text.
       wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
         const tspan=el('tspan',{x:24,dy:li===0?0:19});
@@ -40595,14 +40589,12 @@ function render(){
   });
   // A built world's name reads as belonging to its own picture only if it
   // stays close under it. At the base 28-unit offset that's automatic (dot
-  // and portrait are already close together), but Desert's portrait had to
-  // step back to 68 and Hieronymian/Albina's to 88 to clear an unrelated
-  // dot -- and since the label was still anchored off the DOT, not the
-  // portrait, that same distance opened up as a visibly large, unrelated-
-  // looking gap between the picture and its own name. Anchoring a built
-  // label's natural position to its own portrait's bottom edge instead
-  // keeps the two together regardless of how far collision-avoidance had to
-  // push the portrait itself.
+  // and portrait are already close together), but a portrait pushed
+  // further back by collision-avoidance (Desert's steps back to 68,
+  // Hieronymian/Albina's to 88, to clear an unrelated dot) needs its label
+  // anchored to the portrait's own bottom edge, not the dot -- anchoring to
+  // the dot would open a visibly large, unrelated-looking gap between the
+  // picture and its own name however far the portrait itself had to move.
   const portraitBottomById={};
   DATA.movements.forEach(m=>{
     if(portraitOffsetById[m.id]!=null)
@@ -40627,13 +40619,10 @@ function render(){
     }
     return null;
   }
-  // Found while checking the portrait fix above, not caused by it (confirmed
-  // by diffing against a render with the new portrait-obstacle check
-  // disabled -- identical result either way): in a genuinely dense stretch,
+  // In a genuinely dense stretch,
   // this cascade has no ceiling, and a long chain of merely-nearby-in-x
   // labels can compound into one label landing hundreds of units from its
-  // own dot -- Alexandria's label (dot at y=475) was cascading all the way
-  // to y=1206, a floating label with no visible connection back to the node
+  // own dot -- a floating label with no visible connection back to the node
   // it names. A firm cap on how far any label may drift from its own
   // natural position turns that into, at worst, a rare tight overlap in an
   // already-crowded spot -- a smaller cost than a label that reads as
@@ -40641,11 +40630,11 @@ function render(){
   const MAX_LABEL_DRIFT=90;
   // Anchoring a built label's target position to its portrait (above) is not
   // enough on its own: this cascade is sequential, first-come-first-served,
-  // and it still processed every movement in real chronological order --
-  // meaning Albina's own dot (c. 386-419) still placed her label *after*
-  // Priscillianists and Ambrose's Milan (both chronologically earlier),
-  // which had already claimed the space right under her portrait by the
-  // time her own turn came up, however close her computed target was.
+  // so processing every movement in real chronological order would place
+  // Albina's own dot (c. 386-419) label *after* Priscillianists and
+  // Ambrose's Milan (both chronologically earlier), which would already
+  // have claimed the space right under her portrait by the time her own
+  // turn came up, however close her computed target was.
   // Sorting by where a label actually WANTS to render -- the portrait's
   // position for a built one, the dot for everyone else -- gives it a fair
   // turn among its true visual neighbors instead of a turn keyed to a dot
@@ -40671,17 +40660,9 @@ function render(){
     labelYById[m.id]=y;
     placedLabels.push({x:anchorX,y});
   });
-  // A first attempt at this gave every Built & Live world first claim on the
-  // space around its own name, in its own pass ahead of the general cascade
-  // above -- clean for this one cluster, but it pulled built worlds out of
-  // the map's one real chronological ordering entirely, and that had a real
-  // side effect three eras away: Alexandria's label no longer absorbed the
-  // same upstream push it used to, which rippled forward and left the
-  // unrelated Latin Apologists/Tertullian/Third-Century Rome cluster
-  // (confirmed regression-free before that change, regressed after) with
-  // three names compressed into the same few pixels. Reverted to the single
-  // chronological pass above -- known correct -- and this one specific,
-  // confirmed pair gets a small, explicit, documented correction instead:
+  // A small, explicit, documented correction for one specific case the
+  // general cascade above doesn't resolve cleanly without disturbing the
+  // map's one real chronological ordering:
   // Aksum's own natural position (its real 340s date, unchanged) sits
   // between the Desert's portrait and the Desert's own name, so its label
   // is pushed below the Desert's rather than left to land in that gap.
@@ -40790,11 +40771,11 @@ function render(){
           'stroke-linecap':'round', fill:'none'
         }));
         // The seam-mark dot belongs only to the cross-lane bridge above --
-        // it was previously appended unconditionally here, so all 75 same-lane
-        // continuesAs links (whose continuity the river itself already shows)
-        // got an unexplained, non-interactive gold-leaf dot stranded mid-river
-        // with no label, tooltip, or hover state. Nested inside the same
-        // !sameLane check as the bridge line it marks fixes it.
+        // nested inside the same !sameLane check as the bridge line it
+        // marks, so a same-lane continuesAs link (whose continuity the
+        // river itself already shows) never gets an unexplained,
+        // non-interactive gold-leaf dot stranded mid-river with no label,
+        // tooltip, or hover state.
         gEdges.appendChild(el('circle',{cx:((m._x+n._x)/2),cy:((m._y+n._y)/2),r:3,fill:'var(--gold-leaf)'}));
       }
     }
@@ -40929,7 +40910,7 @@ function sectionSources(list){
 // Website V2 world_front design, site cutover Part 3 (approved to
 // proceed): the 8 built worlds' own deep Orientation-tier content
 // (story/documentedStories/voices/floorNote/legacy/relationsSummary/
-// sourcing) no longer lives in DATA above - it's fetched at panel-open
+// sourcing) is fetched at panel-open
 // time from cic-website/data/worlds/<census_id>.json (engine.m2.
 // site_compiler's own output, Part 1) and rendered through the exact same
 // functions tools/generate_tradition_pages.py runs (via Node) to build
@@ -40949,11 +40930,10 @@ const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-cateche
 // module is long since ready by then), but the page's own deep-link
 // auto-open (bottom of this script, `?world=...`) calls openPanel() -
 // and so loadBuiltWorldOrientation() - synchronously during this
-// script's own first pass, which can race ahead of it. Found by actually
-// loading atlas-v3.html?world=desert-monasticism in a real browser
-// (this generator's own validation step), not assumed: it threw
-// "Cannot read properties of undefined (reading 'story')" until this
-// promise was added. window.OrientationRender itself (set directly, no
+// script's own first pass, which can race ahead of it. This promise lets
+// that deep-link path wait for window.OrientationRender to be ready
+// instead of reading its properties before it exists.
+// window.OrientationRender itself (set directly, no
 // promise) remains the fast path for every ordinary click.
 window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=resolve;});
 const __builtWorldCache={};
@@ -41016,13 +40996,13 @@ function openPanel(m){
   // for everything else -- is the hook every one of the 292 records was given.
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  // Built worlds: the Orientation-tier content that used to sit inline
-  // here (Story/Documented stories/Voices/Doctrinal floor note/Legacy/In
-  // its own record/Sources) is fetched, not embedded - see
+  // Built worlds: the Orientation-tier content (Story/Documented
+  // stories/Voices/Doctrinal floor note/Legacy/In its own record/Sources)
+  // is fetched, not embedded inline here - see
   // loadBuiltWorldOrientation() above, called once this panel's own HTML
   // is actually in the document (below). Everything else in this
   // function (repline, meta, teaser above; edges, sources-panel,
-  // verifiedSources, why below) is unaffected: those fields were never
+  // verifiedSources, why below) is unaffected: those fields are never
   // removed from DATA for a built world.
   if(isBuiltWorld){
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
@@ -41034,10 +41014,9 @@ function openPanel(m){
   // click for a pastor or student who wants the actual documented account,
   // not just a summary or a source list. Collapsed by default via <details>
   // so the movement's own account stays the panel's main event. `verification`
-  // is shown plainly per story because how far this entry was actually
+  // is shown plainly per story because how far this entry is actually
   // checked is a different fact from the episode's own historical tier, and
-  // both matter -- conflating them was exactly what an earlier pass on this
-  // map got right and the first gap-stories draft did not.
+  // both matter.
   if(m.documentedStories&&m.documentedStories.length){
     h+='<h3>Documented stories</h3><div class="docstories-row">'+m.documentedStories.map((s,i)=>{
       let body=`<p class="meta">${esc(s.when)} · ${esc(s.verification)}</p>`;
@@ -41100,14 +41079,11 @@ function openPanel(m){
   // Very last, on purpose: this project's own plan for the tradition -- built,
   // chosen, deferred, excluded, or not yet assessed -- in plain participant
   // language, after everything the tradition's own record has said for itself.
-  // The short status pill that used to sit here (and, before that, at the very
-  // top of the panel) is gone outright, not just moved again: every one of the
-  // 292 movements carries a `why` paragraph that already states the same fact
-  // in plain sentences ("This tradition is fully built...", "Chosen for a
-  // future build, not yet started..."), so the pill's own terse, internal-
-  // sounding build-planning label ("Deferred -- reasons on record", "Excluded
-  // -- creedal grounds stated") was pure duplication once it landed next to
-  // the paragraph that already says it better.
+  // Every one of the 292 movements carries a `why` paragraph that states
+  // this in plain sentences ("This tradition is fully built...", "Chosen
+  // for a future build, not yet started..."), needing no separate
+  // internal-sounding build-planning label ("Deferred -- reasons on
+  // record", "Excluded -- creedal grounds stated") alongside it.
   if(m.why){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     if(entry)h+=`<button type="button" class="act" data-interview-id="${esc(m.id)}">Interview ${esc(entry.representativeName)}</button>`;
@@ -41232,10 +41208,11 @@ function openPanelRiver(f,members){
   syncWorldURL(null);
 }
 // Neither trigger (a click, or Enter/Space on a node's own keydown handler)
-// moved focus anywhere -- a keyboard user who opened the panel had no
-// indication it opened at all, since focus stayed behind it on the node/edge
-// they'd just activated, and nothing here was in the Tab order until reached
-// the long way around through the other 291 nodes. lastFocused/showPanel/
+// moves focus anywhere on its own -- without this, a keyboard user who
+// opens the panel has no indication it opened at all, since focus stays
+// behind it on the node/edge they just activated, and nothing here is in
+// the Tab order until reached the long way around through the other 291
+// nodes. lastFocused/showPanel/
 // closePanel restore the standard dialog contract: move focus in on open,
 // trap Tab inside while open, give focus back to the trigger on close.
 let lastFocused=null;
@@ -41399,9 +41376,9 @@ function centerView(){
   // above shrink with the viewport, and the width term alone drops scale
   // under DETAIL_THRESHOLD on any phone-width screen (0.21 at 390px, nowhere
   // close to organic's 0.34) and on plenty of short or split desktop windows
-  // besides (0.34 at 1280x500) -- meaning the very first thing most mobile
-  // visitors, and no small share of desktop ones, ever saw was the
-  // deliberately simplified "calm" river phase: flat, undetailed, dead
+  // besides (0.34 at 1280x500) -- meaning without this floor, the very
+  // first thing most mobile visitors, and no small share of desktop ones,
+  // would see is the deliberately simplified "calm" river phase: flat, undetailed, dead
   // straight, meant for a user-initiated zoomed-out overview, not a first
   // impression. A narrower initial framing -- fewer lanes visible before
   // panning -- is a fair trade for that first view actually looking alive.
@@ -41440,12 +41417,13 @@ stage.addEventListener('wheel',(ev)=>{
 // pan/pinch handler below (real two-finger pinch-zoom math no single-pointer
 // path can replace) -- this path is explicitly mouse/pen only.
 //
-// Capturing on pointerdown itself broke every node/river/story click: once
-// setPointerCapture runs, the browser resolves the matching pointerup (and
-// the click it synthesizes from that up) against the capture target (#stage)
-// instead of the actual element under the pointer, so a plain tap on a node
-// never reached that node's own click listener -- a mousedown-to-mouseup
-// click with zero movement was being treated as a drag from the first pixel.
+// Capturing on pointerdown itself would break every node/river/story click:
+// once setPointerCapture runs, the browser resolves the matching pointerup
+// (and the click it synthesizes from that up) against the capture target
+// (#stage) instead of the actual element under the pointer, so a plain tap
+// on a node would never reach that node's own click listener -- a
+// mousedown-to-mouseup click with zero movement would be treated as a drag
+// from the first pixel.
 // Arm on pointerdown but only start dragging, and only capture, once the
 // pointer has actually moved past a small threshold; a click that never
 // moves that far leaves capture untouched and resolves normally.
@@ -41532,11 +41510,12 @@ stage.addEventListener('touchend',(ev)=>{Array.from(ev.changedTouches).forEach(t
 
 document.getElementById('resetBtn').addEventListener('click',centerView);
 document.getElementById('scopeClose').addEventListener('click',()=>document.getElementById('scopeNote').remove());
-// #scopeNote's `top` was a fixed 2.6rem, sized for a topbar that fits on one
-// line. On a narrow screen the title/tag/button don't fit and the topbar
-// wraps to two (or three) lines instead -- the note then starts underneath
-// where the topbar used to end, and its own dismiss button (float:right on
-// the note's first line) lands behind the now-taller topbar, unreachable.
+// A fixed `top` for #scopeNote, sized for a topbar that fits on one
+// line, breaks on a narrow screen: when the title/tag/button don't fit and
+// the topbar wraps to two (or three) lines instead, the note would start
+// underneath where a one-line topbar ends, and its own dismiss button
+// (float:right on the note's first line) would land behind the now-taller
+// topbar, unreachable.
 // Measure the real chrome above it instead of assuming a fixed height --
 // .feature-bar (Church Family Tree / Conversation with One / Build a
 // Table) sits between the topbar and this note, and has the

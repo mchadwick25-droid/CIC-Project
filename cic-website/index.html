@@ -61,9 +61,9 @@ p{margin:0 0 1rem}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
 /* Centered in the space actually available between the logo and the menu
-   button, not just "centered in whatever's left over" (that was tried with
-   equal flex-grow on .brand/.menu, but the wordmark's fixed width wins a
-   floor against flex-shrink so the two sides end up unequal) and not
+   button, not just "centered in whatever's left over" (equal flex-grow on
+   .brand/.menu fails because the wordmark's fixed width wins a
+   floor against flex-shrink, so the two sides end up unequal) and not
    naive full-row-width centering either (that ignores brand and menu's
    own widths entirely and visually collides with the wordmark, since
    brand is wider than menu). Grid's max-content/1fr/max-content sizes
@@ -166,16 +166,16 @@ p{margin:0 0 1rem}
    instead of the video.
    Narrowed to the width of the text column and capped in height so it
    reads as a narrow window looking in on the map, not a full-bleed
-   banner -- was width:100%;aspect-ratio:16/7.
+   banner.
    A .feature-card itself, matching the same var(--wide)-less-2.5rem
    column the chairs gallery and Unfolding Story already use -- video
-   and text no longer need their own separate width-matching math since
+   and text don't need their own separate width-matching math since
    the card they both sit inside carries it. */
 .atlas-showcase{max-width:calc(var(--wide) - 2.5rem);margin-left:auto;margin-right:auto}
-/* Trimmed 30% shorter so the title of Church Family Tree lands on the
-   first screen when the landing page loads -- was min(60vh,480px).
-   Flush at the top of the card (no side width-matching math of its own
-   now, no border of its own -- the hover affordance is a slight zoom
+/* Short enough that the title of Church Family Tree lands on the
+   first screen when the landing page loads.
+   Flush at the top of the card (no side width-matching math of its own,
+   no border of its own -- the hover affordance is a slight zoom
    instead, since a border here would sit oddly against the card's own
    rounded top corners). */
 .atlas-showcase-media{position:relative;display:block;width:100%;height:min(42vh,336px);overflow:hidden;background:var(--ground)}
@@ -241,9 +241,9 @@ p{margin:0 0 1rem}
 .chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
 /* Narrower than the container on small screens so the next card peeks in
-   at the edge -- at a 296px fixed width the card was as wide as or wider
-   than its own mobile scroll container, so nothing of the next card ever
-   showed and there was no visual hint the row scrolls at all. */
+   at the edge -- at a 296px fixed width the card would be as wide as or
+   wider than its own mobile scroll container, leaving nothing of the next
+   card showing and no visual hint the row scrolls at all. */
 @media (max-width:48rem){
   .chair{width:calc(100% - 2.5rem)}
 }
@@ -313,7 +313,7 @@ p{margin:0 0 1rem}
 .photo-credits a{color:var(--graphite);min-height:auto}
 @media print{ .site-header,.support,.skip-link{display:none} }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out, matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens and pushed "Build a Table" off the edge of the viewport instead. */
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out, matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens, which would push "Build a Table" off the edge of the viewport. */
 .feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
 .feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
 .feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}

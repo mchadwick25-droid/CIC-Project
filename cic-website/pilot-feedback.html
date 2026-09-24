@@ -124,28 +124,27 @@ form.feedback textarea{min-height:5rem;resize:vertical}
 <script>
 (function(){
 "use strict";
-/* Was action="mailto:..." + enctype="text/plain" ALONE -- an actual FORM POST
-   to a mailto: action, which several major browsers silently no-op instead of
-   opening the mail client (real, unreliable, and gave the visitor no signal
-   that nothing happened). A plain mailto: link click is
-   reliably supported everywhere a form-post-to-mailto isn't, so this builds
-   the same link by hand from the field values and navigates to it exactly
-   the way clicking an <a href="mailto:..."> would. The form still carries its
-   original action/method/enctype too, as a no-JS fallback -- worse (the
-   original unreliable behavior) but strictly better than a bare form with no
-   action at all, which a JS-disabled visitor would submit as a plain GET to
-   this same page, silently wiping every answer with no explanation. Still no
-   server, still no account created anywhere, still the participant's own
-   email client sending it -- same "no accounts, no gatekeeping" shape as the
-   rest of this site. */
+/* Builds a mailto: link by hand from the field values and navigates to it,
+   exactly the way clicking an <a href="mailto:..."> would -- not a form
+   POST to a mailto: action, which several major browsers silently no-op
+   instead of opening the mail client (real, unreliable, and gives the
+   visitor no signal that nothing happened). A plain mailto: link click is
+   reliably supported everywhere a form-post-to-mailto isn't. The form
+   still carries its original action/method/enctype too, as a no-JS
+   fallback -- less reliable than the JS path above, but strictly better
+   than a bare form with no action at all, which a JS-disabled visitor
+   would submit as a plain GET to this same page, silently wiping every
+   answer with no explanation. Still no server, still no account created
+   anywhere, still the participant's own email client sending it -- same
+   "no accounts, no gatekeeping" shape as the rest of this site. */
 const form = document.getElementById('feedbackForm');
 /* Some email clients/OSes truncate or refuse mailto: links well before any
    formal spec limit - ~2000 chars is the commonly-cited safe ceiling (old
    Internet Explorer/Outlook territory, but still the tightest real target).
    Six free-text fields can exceed that easily, which would silently cut off
    or drop exactly the answers this form most wants to hear - the same
-   failure class the mailto rebuild above was written to fix, just
-   triggered by content length instead of browser behavior. Long answers
+   failure class the mailto link above fixes for browser behavior, just
+   triggered by content length instead. Long answers
    fall back to a copy/paste box instead of a
    mailto: link that might arrive truncated with no signal that it was. */
 const MAILTO_SAFE_LENGTH = 1800;

@@ -419,7 +419,7 @@ ol.convictions li::before { border-color: #E08C74; }
   .brand .wordmark { font-size: 1.05rem; }
 }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row. Filled rust so the three stand out, matching this file's own .btn.primary fill rather than inventing a new color. */
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Filled rust so the three stand out, matching this file's own .btn.primary fill rather than inventing a new color. */
 .feature-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
 .feature-btn {
   font-family: 'Alegreya Sans', sans-serif;

@@ -180,4 +180,93 @@ tools/validate-census.mjs` → 0 errors; `pytest
 tools/tests/test_check_live_commentary.py` → 4 failures remaining, all
 `cic-poc/frontend` (PR #503's own stale entries, not this PR's).
 
+**Round 3 (managing-thread verdict, FAIL round 2, one round left under the
+three-round cap):**
+
+Round 2 only removed the tokens the checker patterns themselves catch
+(dates, ruling numbers); a comment could still narrate what used to be
+true, in plain prose the checker has no pattern for. Round 3 is a full
+manual second pass, file by file, on that question - not just the seven
+spots the verdict's own (non-exhaustive) grep found.
+
+1. `templates/tradition.html`: the "was cut in the card redesign" history
+   on the safety-disclosure comment (spliced into all 11
+   `traditions/*.html`); "Two sections that used to run here are gone
+   outright" in the header comment; "not the old 3-section page" in the
+   opening line; and "no section of their own in the old hand-built
+   pages" on the glossary/pull-quotes comment. All four restated as
+   present-tense fact; template fixed once, `traditions/*.html`
+   regenerated.
+2. `index.html`, `assets/style.css`: "was width:100%;aspect-ratio:16/7",
+   "was min(60vh,480px)", "now part of the single header row" (both
+   copies), "that was tried with equal flex-grow..." (the menu-centering
+   comment), and "the card was as wide as or wider than its own mobile
+   scroll container... nothing... ever showed" (the chair-peek comment,
+   rewritten to the hypothetical it's guarding against, not a past
+   state).
+3. `atlas-v3.html`: by far the largest share of this round - roughly 25
+   separate comments narrating a prior layout, a rejected alternative, or
+   a fixed bug, on the header-gutter sizing, the era-divider block (a
+   second location round 2 missed, plus a still-remaining "not the old
+   thick bar" phrase in the one round 2 did fix), the per-river research
+   note ("Mark asked for" attribution), the FAM color array's dated
+   addition note, the dark-mode default-detection comment, the
+   width-floor/merge-window/smoothstep river-rendering trio, the built-
+   world label-collision trio (a first-attempt-and-revert narrative
+   condensed to just the one surviving correction), the seam-mark-dot
+   fix, the orientation-fetch race-condition note (dropped the specific
+   "found by loading X in a browser, it threw Y" debugging story, kept
+   the mechanism), the panel-content and status-pill removal notes, the
+   focus-management note, the initial-zoom-floor note, the pointer-
+   capture rationale, and the scope-note positioning note. Every one
+   restated as the current design plus the (hypothetical, present-tense)
+   problem it avoids, not a past-tense account of what broke or what an
+   earlier version did. Three color-derivation methodology paragraphs
+   (how the FAM hues and the dark-mode edge-opacity constant are
+   computed, using "was" as part of describing a still-true derivation
+   method, not a superseded value) were read closely and left alone -
+   they don't say what used to be true, they say how the current value is
+   derived, which remains true.
+4. `talk.html`: "used to fall back to its pre-redesign Launch screen"
+   rewritten to the current behavior only.
+5. `pilot-feedback.html`: two spots from round 2's own re-reading (the
+   mailto-vs-form-POST comment's own "Was action=... ALONE" opening, and
+   "the mailto rebuild above was written to fix") - both restated as
+   current behavior and reason.
+6. `support.html`: "Text only for now" removed outright (stale - real
+   checkout is live, stated in the very next sentence); ".fine-print...
+   the fix that was already sitting right there" restated as present
+   tense.
+7. `assets/logo-arriving.svg`: "Opening widened to +/-50deg (was
+   +/-40)" restated as the current angle alone.
+
+Checked and left alone as real content, not commentary: the "chair" tile
+descriptions on `index.html` and every `traditions/*.html`/`tree/*.html`
+page (real historical prose - Alexandria's teachers, Donatism's rival
+bishops, Wittenberg's theses - which legitimately narrates past events
+in past tense); `support.html`'s "Pending review before this is treated
+as final" (a real, still-open item, not settled history);
+`README.md`'s "before this goes fully public" (a genuine forward-looking
+TODO); `empire.svg`'s "was considered and held in reserve" and
+`syriac.svg`'s "the old 'girdle'" (a rejected design alternative and a
+historical garment term, neither project history).
+
+Re-validated: `check_live_commentary.py --surface cic-website` → 1 hit
+(unchanged, the documented KEEP false positive); `check_no_embedded_world_data.py`
+→ exit 0; `check_paths.py` → 0 new/retired; `node tools/validate-census.mjs`
+→ 0 errors, 292/69/10 unchanged; both JSON payloads (`world-census.json`,
+`atlas-v3.html`'s embedded copy) parse; `pytest
+tools/tests/test_check_live_commentary.py` → 81/85 passed, the 4
+failures all `cic-poc/frontend` (PR #503's own surface, not this PR's -
+full output:
+
+```
+FAILED tools/tests/test_check_live_commentary.py::test_hand_label_present[cic-poc/frontend/src/components/VoiceTurnBody.test.tsx-170-REWRITE]
+FAILED tools/tests/test_check_live_commentary.py::test_hand_label_present[cic-poc/frontend/src/components/StoryMark.tsx-15-REWRITE]
+FAILED tools/tests/test_check_live_commentary.py::test_hand_label_present[cic-poc/frontend/src/components/StoryMark.tsx-16-REWRITE]
+FAILED tools/tests/test_check_live_commentary.py::test_precision_and_recall_on_hand_labelled_sample
+4 failed, 81 passed in 0.87s
+```
+).
+
 ---
