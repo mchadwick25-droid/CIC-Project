@@ -2544,3 +2544,24 @@
     world - the only English translation (Homann, 2003) is in copyright and
     restricted. OCR QUALITY FLAG: title page severely garbled; body clean on
     spot-check.
+- filename: luther_first-principles-reformation_wace-buchheim1885.txt
+  supplied_by: Claude (source-acquisition research thread, verified-leads pass for
+    lutheran-wittenberg-and-its-congregations)
+  date_added: '2026-09-25'
+  notes: >-
+    First Principles of the Reformation: or, The Ninety-Five Theses and the
+    Three Primary Works of Dr. Martin Luther Translated into English, ed.
+    Henry Wace and C. A. Buchheim (Philadelphia: Lutheran Publication
+    Society, 1885). Public domain by date. Fetched directly (curl, raw
+    bytes) from Internet Archive item firstprincipleso00luth (a Princeton
+    Theological Seminary Library scan). SUPERSEDES the item originally
+    named in this world's Source Readiness Dossier
+    (firstprinciples00buchgoog, a Google Books-derived scan): that item
+    was sampled first and found materially OCR-degraded across roughly a
+    third of six sample points (heavy character-substitution garbling);
+    this alternate scan of the same 1885 edition was sampled the same way
+    and found clean throughout. A redundant but independent early (1885)
+    English rendering of four works already vendored in cleaner, distinct
+    translations elsewhere in this corpus (luther_works-v1/v2-selected_
+    jacobs-spaeth1915/1916.txt) - kept for wording cross-checks, not for
+    new content.
