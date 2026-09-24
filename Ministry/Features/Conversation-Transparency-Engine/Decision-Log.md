@@ -4984,3 +4984,48 @@ quotation the splitter re-merged across a stop.
   (`test_grounding_net.py`); curly placement and re-merged placement
   (`test_transparency_plan.py`). Without the fix, the four curly tests
   fail; with it, all pass.
+
+**Entry 75 — 2026-09-24.** `_fleet.modern.trinity` (Entry 70's own R41
+report flagged this record's `origin_year` as open to question) carried
+a fabricated claim: `underlying_subject` said this world's people spoke
+of Father, Son, and Spirit "before the word 'Trinity' existed for them
+to use." Two vendored passages, verified verbatim, say otherwise -
+Theophilus of Antioch, *To Autolycus* II.15 (`cic/texts/anf02_hermas-
+tatian-athenagoras-theophilus-clement-alexandria.xml`, near line 8993):
+"are types of the Trinity, [Τριάδος] of God, and His Word, and His
+wisdom," with the edition's own footnote calling it "the earliest use
+of this word 'Trinity'"; internal evidence in the same work (Book
+III.28's chronology, reckoned to the death of the Emperor Verus, A.D.
+169) and the edition's introductory notice (Theophilus's episcopate,
+A.D. 168-188) together support a composition window of c. 169-188.
+Tertullian, *Against Praxeas* 2 (`cic/texts/anf03_tertullian.xml`, near
+line 51144): "which distributes the Unity into a Trinity," with the
+edition's own footnote: "Probable date not earlier than a.d. 208."
+
+**Mark's ruling: option B of three**, put to him directly. A -
+`origin_year` moves to c. 180 (the word's own earliest date) and pahc's
+modern-term bridge ends, since the word would then predate this world's
+window; C - split the record in two (a `word` record for the term's own
+history, a separate record for the doctrine). **B - `origin_year` keeps
+its meaning as when the *modern sense* `modern_sense` names took shape
+(325, Nicaea and after), not when the word was first attested; 325
+stays, and pahc keeps its modern-word bridge.**
+
+Fixed the false claim rather than patching around it: `underlying_subject`
+no longer states or implies the word did not exist; `distinguishing_claim`
+now states both dates plainly (word: c. 169-188 and 208 on; doctrine:
+325 and after) and names the referent question as open rather than
+settled either way. Two new fleet source records carry the vendored
+passages (`_fleet.source.theophilus-to-autolycus`,
+`_fleet.source.tertullian-against-praxeas`), cited from
+`_fleet.modern.trinity.sources[]`. Whether Theophilus's own triad (God,
+His Word, His Wisdom) is the same referent as the doctrine Nicaea later
+formalizes is a real, unresolved scholarly question that a bare date
+correction would have flattened into a false "yes" by omission; it is
+now its own record, `_fleet.contested.theophilus-triad-referent`
+(`formation_confidence: Contested`), holding the case each way rather
+than asserting continuity. `reference/Redesign-Spec/Artifact-1-Record-
+Schema.md` §4 gained one paragraph defining what a `modern_term`
+record's `origin_year` means (the modern-sense date, not first
+attestation) as plain rule text, so the next record of this type is
+built against a definition instead of tribal knowledge.
