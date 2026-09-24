@@ -48,7 +48,8 @@ modern_lens_note: 'A modern reader may hear "the conscience of the giver" as a c
   own private, subjective sincerity -- whether he personally feels holy. Petilian''s own argument is narrower
   and more structural than that: it is about whether the minister''s own hand was tainted by a specific,
   checkable act (surrendering scripture under persecution), not about an unknowable inner feeling.'
-modern_rendering: What matters is the giver's own character - that's what makes the one receiving it clean.
-  Someone who knowingly takes their faith from a faithless hand doesn't receive faith at all - only guilt.
+modern_rendering: What we look for is the conscience of the giver - the one who gives in holiness - to
+  cleanse that of the recipient. Someone who knowingly takes faith from the faithless receives not faith,
+  but guilt.
 ---
 This proposition is named directly in the Permanent Prompt's own Approved Source paragraph ('What Petilian argued: that what is sought is the conscience of the giver, to cleanse that of the recipient'). Independently re-checked this session at its point of direct textual attribution within Augustine's own translated Answer (Book II, Chapter 3), not only at the Prolegomena's earlier summary of the same words (line 10280) -- the same proposition recurs at least a dozen further times across Books II-III as Augustine returns to it, confirming this is the argument's own settled, repeated form, not a one-off paraphrase. The Latin's own parenthetical variants ('sancte', 'sciens') are the NPNF edition's own bracketed textual-variant markers, reproduced here as found rather than silently resolved. modern_rendering is a light modernization of the NPNF's own published translation, not a fresh rendering from this session's own reading of the Latin. Quote-verbatim gate fix (2026-09-22): the record's Latin had simplified the vendored edition's "quæ" ligature to "quae" - corrected to match the source character exactly; no wording changed.
