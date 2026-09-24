@@ -131,6 +131,7 @@ jobs:
       library: ${{ steps.filter.outputs.library }}
       site: ${{ steps.filter.outputs.site }}
       crossworld: ${{ steps.filter.outputs.crossworld }}
+      checkertests: ${{ steps.filter.outputs.checkertests }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -188,6 +189,13 @@ jobs:
             crossworld:
               - 'worlds/_cross-world/**'
               - 'cic/corpus-map/**'
+              - '.github/workflows/**'
+            # tools/check_live_commentary.py's own test suite
+            # (tools/tests/test_check_live_commentary.py) previously ran
+            # nowhere in CI - the same gap crossworld above closed for
+            # gen_needs_ruling.py.
+            checkertests:
+              - 'tools/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -471,6 +479,27 @@ jobs:
           cache: pip
       - run: pip install pyyaml pytest
       - run: python -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q
+
+  # tools/check_live_commentary.py's own test suite (tools/tests/
+  # test_check_live_commentary.py: the 60+ hand-labelled sample, its
+  # precision/recall measurement, and one test per classifier refinement)
+  # had nowhere in this workflow that collected it - the same gap
+  # cross-world-tests above closed for gen_needs_ruling.py. The module's
+  # own import of engine.m1.spoken_fields needs no extra install (stdlib
+  # dataclasses only).
+  checker-tests:
+    needs: changes
+    if: needs.changes.outputs.checkertests == 'true'
+    name: Live-surface commentary checker tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install pytest
+      - run: python -m pytest tools/tests/test_check_live_commentary.py -q
 
   docker-build:
     needs: changes

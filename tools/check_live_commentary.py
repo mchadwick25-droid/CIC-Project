@@ -153,6 +153,10 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "review-round": re.compile(r"\bround\s+\d+\b", re.IGNORECASE),
     "ruled": re.compile(r"\bRULED\b"),
     "iso-date": re.compile(r"\b20\d\d-\d\d-\d\d\b"),
+    "era-gate": re.compile(
+        r"\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?(?:gate|Freeze)\b|\bthe Freeze\b",
+        re.IGNORECASE,
+    ),
 }
 
 # Grading and provenance vocabulary inside a record's own SPOKEN fields
@@ -201,12 +205,19 @@ _BARE_DATE_HEADER_LINE = re.compile(
 )
 _STRUCTURED_DATE_KWARG = re.compile(r"\bdeadline\s*=\s*[\"']20\d\d-\d\d-\d\d[\"']")
 
-# Cues that push an already-matched line to ROUTE instead of REWRITE: the
-# line is naming something still open, not narrating a decided one.
+# Cues that mark a line as an open defect or open question rather than a
+# decided, still-true fact - ROUTE, whether or not the line also carries one
+# of the PATTERNS above. Checked directly in scan_file's own `matched`
+# computation (not only inside classify_line) so a line naming an open item
+# in plain prose - no ruling number, no date, nothing else PATTERNS would
+# catch - still gets flagged. Found live in cic/corpus-map/: entries that
+# say a cross-check "has not yet been done" or a claim is "flagged for
+# Mark" carry no other pattern at all and were being silently skipped.
 ROUTE_CUES = re.compile(
     r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
     r"unresolved|still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
-    r"needs? (a )?follow-?up)\b",
+    r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
+    r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
 )
 
@@ -214,6 +225,51 @@ ROUTE_CUES = re.compile(
 # up/down, a round object) - keeps review-round from over-firing on ordinary
 # engineering prose.
 NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b", re.IGNORECASE)
+
+# A "reviewer" hit that names a generic or hypothetical third party, not this
+# project's own review process - "an external reviewer" (a donor-facing ask
+# to introduce one), "a reviewer checking only for X" (an illustrative
+# worked example of what a reader might miss). Confirmed live in
+# cic-website/support.html:127 and reference/Project-Reference/
+# CiC_Cleaning_Pattern_Log.md (lines 35, 69, 151, 203, 305): every one of
+# these begins with an indefinite article or "external"/"academic" right
+# before "reviewer", where a genuine provenance citation instead names the
+# reviewer as a definite, specific party ("the reviewer's own note", "per
+# reviewer").
+GENERIC_REVIEWER = re.compile(r"\b(a|an|external|academic)\s+reviewer\b", re.IGNORECASE)
+
+# A "ruling-number" hit that is actually a Source Registry row ID (this
+# project's own vendored-source catalog, records/*/source/*.md's `external_
+# ids.witt_source_registry_row` and its prose citations - "Source Registry
+# R45", "Source Registry row 62", "the Iserloh row (R76)") rather than a
+# project ruling. Confirmed live across records/witt/story/*.md and
+# records/witt/source/*.md. Line-level, not per-occurrence: once a line
+# names the Source Registry or a row, every R-number on that same line is
+# read in that context.
+SOURCE_REGISTRY_REF = re.compile(
+    r"Source\s+Registry|\brow\b.{0,10}R\d+|R\d+.{0,10}\brow\b",
+    re.IGNORECASE,
+)
+
+# A change-history cue: the line isn't just naming a ruling or a date, it's
+# narrating that something was found, corrected, or reconfirmed - the whole
+# surrounding paragraph is that narration, even where the other sentences in
+# it cite process artifacts in shapes PATTERNS above misses entirely (a
+# "Doc_10" single-digit citation, a "Round1" with no space, an "OG-15" gap
+# ID). Confirmed live: records/witt/voice_craft/witt.voice.craft.md's own
+# "CORRECTION (go-live adversarial review, Round 1 re-confirmation pass,
+# ...)" paragraphs. CORRECTION/BLOCKING stay case-sensitive, same reasoning
+# as the "ruled" pattern above (all-caps is the heading convention; a bare
+# lowercase "correction" or "blocking" is ordinary engineering prose, not a
+# change-history marker) - the multi-word phrases are safe case-insensitive.
+CHANGE_HISTORY_CUES = re.compile(
+    r"\bCORRECTION\b|\bBLOCKING\b|(?i:\bcaught by\b|\badversarial review\b|\bre-?confirmations?\b)"
+)
+# Registered as a primary pattern too, so the triggering line itself is
+# tagged "change-history-cue" in the report; scan_file separately widens
+# the flag to the rest of the trigger's own paragraph (tagged
+# "change-history-block") for lines that carry no pattern of their own.
+PATTERNS["change-history-cue"] = CHANGE_HISTORY_CUES
 
 # ---------------------------------------------------------------------------
 # PROTECTED - narrow, explained rules. No baseline file: see module
@@ -322,6 +378,40 @@ def _spoken_field_lines(field_lines: dict[str, set[int]], record_type: str | Non
     return lines
 
 
+def _paragraph_lines(lines: list[str], line_no: int) -> list[int]:
+    """1-indexed line numbers of the blank-line-delimited paragraph
+    containing `line_no` (a plain text/Markdown paragraph, or a
+    Python/YAML comment block treated the same way - the line-numbering
+    scheme this whole scanner already uses)."""
+    n = len(lines)
+    start = line_no
+    while start > 1 and lines[start - 2].strip() != "":
+        start -= 1
+    end = line_no
+    while end < n and lines[end].strip() != "":
+        end += 1
+    return list(range(start, end + 1))
+
+
+def _source_record_body_lines(text: str, record_type: str | None) -> set[int]:
+    """Every line after a `record_type: source` record's own closing
+    front-matter delimiter - its own apparatus prose, where a Source
+    Registry row ID (an R-number) is that record's own subject matter, the
+    same reason PROTECTED_RECORD_FIELDS already excludes its `author`/
+    `discovery_channel`/etc. front-matter fields, extended to the body a
+    source record writes about itself (e.g. records/witt/source/
+    witt.source.marburg-articles.md's own "is R57 (Excluded)")."""
+    if record_type != "source":
+        return set()
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return set()
+    end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    if end is None:
+        return set()
+    return set(range(end + 2, len(lines) + 1))
+
+
 def _is_review_doc(rel: Path) -> bool:
     """worlds/<code>/... review documents (CLAUDE.md places reviews under
     worlds/ by design). Two real naming conventions found on disk: a
@@ -423,12 +513,17 @@ class Hit:
         return f"{self.path}:{self.line}:{self.category} ({','.join(self.patterns)})"
 
 
-def classify_line(line: str, matched: list[str]) -> str:
+def classify_line(line: str, matched: list[str], in_source_record_body: bool = False) -> str:
     if ROUTE_CUES.search(line):
         return "ROUTE"
     real_matches = [
         name for name in matched
         if not (name == "review-round" and NON_REVIEW_ROUND.search(line))
+        and not (name == "reviewer" and GENERIC_REVIEWER.search(line))
+        and not (
+            name == "ruling-number"
+            and (in_source_record_body or SOURCE_REGISTRY_REF.search(line))
+        )
         and not (
             name == "iso-date"
             and (
@@ -450,24 +545,37 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     except OSError:
         return []
 
+    raw_lines = text.splitlines()
+
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
+    source_record_body_lines: set[int] = set()
     if path.suffix == ".md" and rel.parts[0] == "records":
         field_lines, record_type = _front_matter_field_lines(text)
         protected_field_lines = _protected_record_field_lines(field_lines, record_type)
         spoken_field_lines = _spoken_field_lines(field_lines, record_type)
+        source_record_body_lines = _source_record_body_lines(text, record_type)
+
+    change_history_block_lines: set[int] = set()
+    for i, line in enumerate(raw_lines, start=1):
+        if CHANGE_HISTORY_CUES.search(line):
+            change_history_block_lines.update(_paragraph_lines(raw_lines, i))
 
     hits: list[Hit] = []
-    for i, line in enumerate(text.splitlines(), start=1):
+    for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
         if i in spoken_field_lines:
             matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(line)]
+        if not matched and ROUTE_CUES.search(line):
+            matched = ["route-cue"]
+        if not matched and i in change_history_block_lines:
+            matched = ["change-history-block"]
         if not matched:
             continue
         if is_protected(rel, i, protected_field_lines):
             category = "PROTECTED"
         else:
-            category = classify_line(line, matched)
+            category = classify_line(line, matched, i in source_record_body_lines)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 
