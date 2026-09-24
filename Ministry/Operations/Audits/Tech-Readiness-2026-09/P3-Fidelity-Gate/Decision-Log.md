@@ -1579,6 +1579,93 @@ passed.
 R43 fleet-wide rendering-fidelity re-authoring campaign**, once this
 PR merges.
 
+**Entry 29 — 2026-09-24 (sentence-completeness check on
+`modern_rendering`, report-only).** Build thread C, item 1 of the
+reviewer thread's brief. `rendering_fidelity.py`'s grader grades
+meaning, not grammar, and passed every fragment the R43 human read
+caught (Entries 20, 25, 26). `engine/m1/sentence_completeness.py`
+checks grammar only: every sentence of every quote record's
+`modern_rendering` must have a main clause with its own subject and
+finite verb (process doc V1.6, Phase B, fragment rule). Report-only
+per R39; not registered in `gates.GATES`; no record edited.
+
+**Design.** Judged on the sentence's main clause (parse root), not on
+whether any verb appears anywhere - Entry 25's "Not for argument's
+sake, but to learn the answers to those objections which might ... be
+made to my statements" has a verb only inside its relative clause.
+Two categories: `no_finite_verb`, and `no_subject` (imperatives,
+negative imperatives and subjunctives are whole and never flagged).
+Parser: spaCy `en_core_web_lg` and `en_core_web_sm`, pinned in
+`engine/m1/requirements-sentence-completeness.txt`, kept out of
+`engine/m1/requirements.txt` because the m1 suite is hermetic in CI
+(no network model fetch - `engine/m1/fk.py`). The tests use hand-built
+parse trees; the real parsers are checked on every CLI run against
+19 KNOWN_CASES (the real R43 fragments, their accepted fixes, and
+whole-sentence shapes), and the run refuses to report on any miss.
+
+**Precision, measured, not assumed.** Every flag hand-read against
+the fragment rule, three configurations on the same 257 renderings /
+1,149 sentences on main at `7d34e2c`:
+
+| Configuration | Flags | Real fragments | Borderline | Misparse |
+|---|---|---|---|---|
+| `sm` alone | 62 | 18 | 1 | 43 |
+| `lg` alone (with the readings below) | 48 | 20 | 2 | 26 |
+| **both must agree (shipped)** | **30** | **18** | **1** | **11** |
+
+The shipped rule flags a sentence only when no parser finds a whole
+main clause under any reading: as written, without a dialogue label
+("Question:", "Answer:"), and without an opening connective ("For",
+"And", "But", ...). Cost of agreement: two real fragments `lg` alone
+caught are dropped (`syr.quote.aphrahat-anti-jewish-frame` "A reply to
+the Jews, who blaspheme ...", `witt.quote.congregation-of-saints` "As
+Paul says: one faith, one baptism, ..."). Precision 18/30 (60%);
+recall is not measurable without a hand-read of all 1,149 sentences.
+
+**Fleet counts (shipped rule):** 30 sentences in 20 of 257 renderings;
+`no_finite_verb` 25, `no_subject` 5. By world: alx 12 (4 renderings),
+desert 10 (8), ijc 3 (3), cappadocian 2 (2), pahc 1, hal 1, don 1;
+syr, gallic, rzg, witt 0. Full list:
+`engine/m1/reports/sentence-completeness-report-2026-09-24.json`.
+
+**The 18 real fragments**, by shape - several carry the source's own
+verbless form, which the fragment rule as written still does not
+accept (Mark's `nisibene-death-trembled` ruling, Entry 19, finished a
+source ellipsis rather than keep it):
+- a verbless inventory, 8 sentences: `alx.quote.couches-and-trenchers-and-bowls`
+  ("Silver couches." "Pans and vinegar-dishes." ...);
+- exclamation or acclamation: `desert.quote.they-have-taken-away-my-god`
+  "Alas!", `ijc.quote.eutropius-right-of-refuge` "Yes!",
+  `don.quote.deo-laudes` "Praise to God.", `hal.quote.hail-bethlehem`
+  "Hail, Bethlehem, house of bread - ...";
+- elliptical answer or report: `alx.quote.timothy-ordinary-questions`
+  "Answer: No." (x2), `cappadocian.quote.basil-on-the-doxology-challenge`
+  "At another, 'through the Son, in the Holy Spirit.'",
+  `ijc.quote.he-held-aloof-for-a-short-time` "...had held back for a
+  short time.";
+- heading or bare phrase: `pahc.quote.first-concerning-the-cup` "Now
+  about the Thanksgiving - the Eucharist.",
+  `alx.quote.to-believe-or-disbelieve` "For example, to philosophize or
+  not, to believe or to disbelieve."
+Borderline (elliptical question, arguably whole idiom):
+`desert.quote.antony-not-worsted` "But if you cannot, why trouble me
+for nothing?".
+
+**The 11 misparses** (parser error, sentence is whole): "Arsenius,
+flee."; "First is gastrimargia, ..."; "From the fear of the Lord comes
+healing compunction." and "From compunction of heart springs
+renunciation ..." (inverted order); "Antony ... healed not by giving
+commands ..."; both `twelve-psalms-by-an-angel` sentences; "At her
+instigation, virgins and widows collected together ..."; "Now, faith
+in Christ and the sign of the cross trample death down."; "Is
+something that is not allowed ... allowed after the blood of many?";
+"Her resolve held firmer than anyone would have expected ...".
+
+**Not done here, on purpose:** no record edited (report-only, per the
+brief); whether the 18 are re-authored, and whether a source's own
+verbless form (inventory, acclamation) is ever an accepted exception,
+is not this thread's call.
+
 **Entry 30 — 2026-09-24 (process doc V1.7: rendering gates as birth
 conditions).** Build thread C, item 3 of the reviewer thread's brief.
 Numbered after Entry 29 (PR #481, same thread), which merges first.
