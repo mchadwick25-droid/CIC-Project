@@ -1138,3 +1138,77 @@ against the same commit. Both `engine.m2.checks.staleness_sweep()` and
 `check_paths.py`, run on a clean `git worktree` of this branch's head:
 0 new unresolved path citations; 769 total; 769 accepted in baseline;
 0 retired paths present.
+
+**Entry 25 — 2026-09-24 (R43 Group B, world 2 of 5: hal — 7 of 8
+flagged findings re-authored, 1 grader disagreement, 2 partial
+disagreement notes).** desert (PR #471) is done and merged. Every
+flagged finding re-graded 3x unmodified before any change, same
+discipline as desert.
+
+**1 of 8 is grader disagreement, human read stands, unchanged.**
+`eyes-of-faith` (6/7 translation across all re-grades): the flag called
+"She told me this herself, and I heard her say it" an invented framing
+addition, but this is a fair two-clause rendering of the original's own
+"she protested in my hearing" - the fact that she said it and that the
+author heard it are both already stated in that one phrase; nothing is
+added beyond restating it in two clauses instead of one.
+
+**7 of 8 were genuine**, two of which carry their own partial
+disagreement note alongside the fix. `a-follower-of-cicero-and-not-of-
+christ` had dropped "judgment" from "judgment seat" and added an
+unattested "beaten" gloss after "whipped" (the source says only
+"scourged"). `detestable-monks` had merged the separate purpose clause
+"that she might have grandchildren" into the marriage clause and
+weakened "must we refrain from" (a strong negative obligation) into a
+forward-looking question. `dispute-to-learn` had dropped "at once
+acquiesce" and "on the contrary"; its "about the scriptures" phrase,
+which the grader flagged 3/3 as an invented addition once the rest was
+fixed, is left as written and disagreed with here - the record's own
+body note independently verifies "them" = "the scriptures, from the
+preceding sentence" in the source Jerome letter, so this is
+disambiguated content already confirmed by this build, not invented.
+`ever-let-the-bridegroom-sport-with-you` had lost the "ever...ever"
+anaphora and flattened the "Do you pray? ... Do you read?" direct
+question-and-answer form into conditional statements; the version that
+cleared kept "delight" for "sport" (a defensible modernization of a
+verb whose "play/frolic" sense is now unclear) and lowercase divine
+pronouns (already this corpus's own house style), which a later re-run
+flagged but which are not fidelity defects. `house-destroyed` had
+dropped the "so far as...is concerned" scope qualifier; separately, in
+4 of 6 re-grades after that fix, the grader claimed the trailing
+"To live on bread is better than to lose the faith" clause was missing
+- it was present verbatim throughout every version checked directly
+against the file; noted here as a hallucination, not acted on.
+`innocent-ravages` had dropped "have deplored to me" and the framing of
+the women's silence as a deliberate act of "wonderful clemency and
+generosity" rather than a bare fact. `recourse-to-marcella` had added
+an invented "this is what happened" and flattened the conditional "in
+case of a dispute arising" into a narrated "whenever people disagreed."
+
+**Two records needed a readability-driven revision** after their first
+content-restoring fix scored above the FK ceiling: `innocent-ravages`
+(12.9→9.8) and `recourse-to-marcella` (10.3→6.7). Both re-cleared 3/3
+translation after the split, with no new drop introduced this time.
+
+**Gate results.** `gate_readability` (FK ceiling 10): all 7 re-authored
+records clean. Full `run_all()` (all M1 gates) on hal: 0 findings.
+`pytest engine/m1/tests/ engine/m2/tests/`: 191 passed, no
+regressions. No field other than `modern_rendering` touched on any of
+the 7 re-authored records, per R33; `eyes-of-faith` is untouched
+entirely.
+
+**Package pin and site JSON, both rebuilt from the start.** Rebuilt and
+re-pinned once against this PR's own commit
+`086ffdc35173ef82042c93b45bfbd8c6af73d916`. Old
+`packages/hal/2026-09-23T20-32-17Z`
+(`sha256:c98a2632cfadc230a540dfee33f56de83d679c7692d3f837f0f0b8674fa9783f`)
+→ new `packages/hal/2026-09-24T03-27-07Z`
+(`sha256:297a2b974640df9ae642ad49c364cb76791dcf7a8063433503c2191c66a96ec5`).
+Site JSON (`cic-website/data/worlds/hieronymian-ascetic-literary.json`)
+rebuilt against the same commit. Both
+`engine.m2.checks.staleness_sweep()` and `engine.m2.site_cli
+staleness-check` report clean fleet-wide.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+0 new unresolved path citations; 769 total; 769 accepted in baseline;
+0 retired paths present.
