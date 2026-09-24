@@ -1362,3 +1362,60 @@ Re-pinned against this fix's own commit
 (`sha256:6e0a30f0bf49d9413dd9442b8ef18d1855bb1e4a893fce5532de964d0b382269`).
 Site JSON rebuilt against the same commit. Both staleness checks clean
 fleet-wide.
+
+**Entry 27 — 2026-09-24 (R43 Group B, world 4 of 5: syr — 5 of 6
+flagged findings re-authored, 1 excluded).** pahc (PR #473) is done and
+merged. `nisibene-death-trembled` is excluded from this pass entirely:
+it was already fixed under Mark's own direct ruling (PR #466, "did
+likewise" finishing the elliptical sentence), not a new finding for
+this re-read to act on.
+
+**All 5 remaining were genuine.** `blc-one-name` had added an
+unattested "appointed" qualifier before "days of the readings" and
+dropped the repeated preposition in "in every country and in every
+region." `ephrem-only-begotten-dwelling` had expanded "a common manner
+of birth" into an invented explanatory gloss ("He was born the way we
+are all born") and dropped the "though only-begotten" paradox entirely.
+`ephrem-resurrection-pledge` had added "the place of the dead," "knows
+each one," and "us who die" - none in the source, and needed a
+readability-driven revision after the first fix scored FK 15.5.
+`tatian-barbaric-writings` had compressed "the declaration of the
+government of the universe as centred in one Being" into a shorter
+paraphrase ("one Being governs the universe"), losing the specific
+locution; needed two readability rounds (FK 15.2, then 12.0, before a
+version splitting the five-item causal list into short sentences
+cleared at FK 6.7). One grading run on the final version showed a
+verdict/reasoning mismatch worth recording as a distinct pattern: the
+verdict enum read "summary" while the reasoning text itself said "no
+content is omitted or added... a legitimate translation technique that
+preserves all original content" - the label contradicted its own
+stated reasoning, confirming grader noise rather than a real defect on
+that run. `warned-before-baptism` had dropped two of the original's
+three named groups the preachers are to warn (collapsing "those who
+choose for themselves virginity and holiness" and "those wishing to
+become holy" into "all who are choosing a holy single life") and the
+"to warn them and say:" direct-speech attribution structure.
+
+**Gate results.** `gate_readability` (FK ceiling 10): all 5 clean.
+Full `run_all()` (all M1 gates) on syr: only one pre-existing,
+unrelated `voice-perspective` finding naming a different record
+(`syr.dw.death-judgment.text`) this PR does not touch. `pytest
+engine/m1/tests/ engine/m2/tests/`: 191 passed, no regressions. No
+field other than `modern_rendering` touched on any of the 5 records,
+per R33.
+
+**Package pin and site JSON, both rebuilt from the start.** Rebuilt and
+re-pinned once against this PR's own commit
+`e4c036e2e588b5276f2e55b4e8f848e61c351c0b`. Old
+`packages/syr/2026-09-23T22-31-05Z`
+(`sha256:412606009d30cb497180eaa881b1a02d3e5782ad44c1352f44f52cc5cd5a91b3`)
+→ new `packages/syr/2026-09-24T05-14-56Z`
+(`sha256:5d017b74530785cbd0c675c6ff7b722a175c52e38f3084ecb301c901c1bfab43`).
+Site JSON (`cic-website/data/worlds/syriac-edessa-nisibis.json`)
+rebuilt against the same commit. Both
+`engine.m2.checks.staleness_sweep()` and `engine.m2.site_cli
+staleness-check` report clean fleet-wide.
+
+`check_paths.py`, run on a clean `git worktree` of this branch's head:
+0 new unresolved path citations; 769 total; 769 accepted in baseline;
+0 retired paths present.
