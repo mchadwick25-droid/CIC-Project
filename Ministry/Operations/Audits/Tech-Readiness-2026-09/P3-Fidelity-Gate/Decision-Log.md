@@ -828,3 +828,99 @@ resolved HEAD `c773bc43a044bc08a69bc04680c134efd70ec9ad` (both the M2
 package, `packages/cappadocian/2026-09-24T00-06-02Z`
 (`sha256:d553f510b634f92d38e7d1160c121805e19340dea0be50933da32fdb8ef1ec52`),
 and the site-compiled JSON); both staleness checks clean.
+
+**Entry 21 — 2026-09-24 (R43 Group A, world 2 of 4: rzg — 6
+pre-existing renderings re-authored).** cappadocian (PR #467) is done
+and merged, on its second round after the reviewer's own human read
+caught 3 fragments the grader missed. This entry applies that lesson
+from the first turn: every one of the 6 renderings below was re-read
+by hand against the process doc's fragment rule before pushing, not
+left to the grader alone.
+
+Read each grader reasoning against the record's own `text` field
+directly. All 6 were genuine: `christ-the-mirror-of-election` had
+dropped the explicit rejection of those who seek election outside
+Christ and lost the "mirror" metaphor to a paraphrase;
+`mass-not-a-sacrifice` had dropped "certain and valid sacrifice for
+the sins of all faithful" and "assurance of the salvation";
+`seniors-selected-from-the-people` had dropped the term "seniors"
+itself and "censures," and merged two distinct actions
+(pronouncing censures, exercising discipline) into one vague
+paraphrase; `signs-and-things-signified` had dropped the opening
+"Wherefore" and inverted the original's negative "we do not disjoin"
+into a positive restatement; `taught-better-from-scripture` had
+dropped Zwingli's name, "Zurich," "articles and opinions," and
+"called inspired by God"; `zwinglis-last-words` had dropped the "it
+is true" concession and flattened the parallel kill-the-body/not-the-
+soul contrast.
+
+Two of the six needed a second revision round after the first fix
+still read as summary: `christ-the-mirror-of-election` had swapped
+"behold" for an added "reflected" (removed); `seniors-selected-from-
+the-people` needed three attempts total — splitting into two
+sentences first lost the "unite with the bishops in [doing both
+things]" collaborative framing, then a single-sentence version with
+simplified verbs ("give"/"keep" for "pronounce"/"exercise") was
+flagged for the substituted vocabulary; the version that cleared kept
+the literal verbs restored ("pronounce," "exercise") while splitting
+into two sentences joined by "They," preserving both the exact
+vocabulary and a natural sentence break. `zwinglis-last-words` showed
+the established grader-noise pattern once more (a "summary" flag on
+materially unchanged text that read "translation" 3/3 on immediate
+re-runs) rather than a real defect.
+
+**No honest exceptions, no "grader disagreement" entries this world.**
+Two consecutive full-batch grader runs: 6/6 "translation" (with the
+one independently-reconfirmed noise flake above).
+
+**Gate results.** `gate_readability` (FK ceiling 10): 0 findings
+across all 6 (range 1.0-9.3). Full `run_all()` (all M1 gates) on rzg:
+0 findings. `pytest engine/m1/tests/ engine/m2/tests/`: 191 passed,
+no regressions. No field other than `modern_rendering` touched on any
+of the 6 records; no per-record notes added, per R33.
+
+**Package pin and site JSON, both rebuilt from the start this time**
+(per Entry 20's own discovery). Main had not moved since branching;
+rebuilt and re-pinned once against this PR's own commit
+`0880c259a01cb273aa56213b7f664edda4ffea34`. Old
+`packages/rzg/2026-09-23T08-14-22Z`
+(`sha256:57da83b635e38495dc8a1f636fa27ef27903d7d862172e032d9f2501986ee3de`)
+→ new `packages/rzg/2026-09-24T00-32-15Z`
+(`sha256:ebccc678a23583c6b8b34443e1a9d01d10cdcee8171e732851c9e281db554535`).
+Site JSON (`cic-website/data/worlds/the-reformed-cities-zurich-and-
+geneva.json`) rebuilt against the same commit. Both
+`engine.m2.checks.staleness_sweep()` and `engine.m2.site_cli
+staleness-check` report clean fleet-wide.
+
+**Round 2 — register fix (2026-09-24), reviewer's own human read.**
+The reviewer's verdict on the round above PASSed 5 of 6 records but
+caught a register problem the grader itself did not: `signs-and-
+things-signified`'s rendering had kept "Wherefore" and "disjoin"
+verbatim from the source. Neither survives plainly in modern spoken
+English — the rule that the original word stays where it survives
+plainly cuts the other way for these two. Changed "Wherefore" →
+"Therefore" and "disjoin" → "separate"; nothing else in the sentence
+touched (the "as we ought" qualifier, the negative "we do not ...
+the reality from the signs" structure, and the trailing genuine
+ellipsis all carried over unchanged).
+
+Five grading runs on the fixed text: 3 "translation," 2 "summary."
+The two "summary" runs' own reasoning called "separate" a "synonym"
+for "disjoin" in one clause and then, in the next, treated that same
+substitution as a lost distinction — internally inconsistent, and the
+same established grader-noise pattern documented elsewhere in this
+log (unchanged text flipping verdict with reasoning not always
+factually anchored to the text graded). Treated as noise, not a real
+defect, per the standing protocol; not rewritten further.
+
+`gate_readability`: clean. Full `run_all()` on rzg: 0 findings.
+`pytest engine/m1/tests/ engine/m2/tests/`: 191 passed. Only this one
+record's `modern_rendering` field changed from the round above.
+
+Re-pinned against this fix's own commit `05d0c74ad5e0029ed3611617fd4ccf305f38a9d0`:
+old `packages/rzg/2026-09-24T00-32-15Z`
+(`sha256:ebccc678a23583c6b8b34443e1a9d01d10cdcee8171e732851c9e281db554535`)
+→ new `packages/rzg/2026-09-24T01-14-01Z`
+(`sha256:ec3bfe6c959c029e45c97015b8dd751f81535606fb44d98b833a71724e9ad775`).
+Site JSON rebuilt against the same commit. Both staleness checks
+clean fleet-wide.
