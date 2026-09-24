@@ -2406,3 +2406,141 @@
     otherwise unaltered including its own OCR errors. The other two identifiers this
     world's own dossier named (bondagewill00colegoog, bondageofwill00mart) were not
     independently checked this pass and remain open if a cleaner scan is ever wanted.
+- filename: menno-simons_complete-works_funk1871.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    The Complete Works of Menno Simon(s), trans. John F. Funk (Elkhart, Indiana:
+    John F. Funk & Brother, 1871). Public domain by date. Fetched directly (curl,
+    raw bytes) from Internet Archive item completeworksofm00menn.
+- filename: van-braght_martyrs-mirror_sohm1886.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    The Bloody Theater, or Martyrs' Mirror, Thieleman J. van Braght (1660), trans.
+    Joseph F. Sohm (Scottdale, PA / Waterloo, ON: Herald Press, 1886 preface).
+    Public domain by date. Fetched directly (curl, raw bytes) from Internet
+    Archive item MartyrsMirror. Embeds named primary documents (Michael
+    Sattler's trial record, Anneken Jans's prison testament) not independently
+    quality-checked this pass.
+- filename: dirk-philips_enchiridion_kolb1910.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    Enchiridion, or Hand Book, Dirk Philips, trans. A.B. Kolb (Elkhart, Indiana:
+    Mennonite Publishing Company, 1910). Public domain by date. Fetched directly
+    (curl, raw bytes) from Internet Archive item enchiridionorhan00phil. OCR
+    QUALITY FLAG: front matter severely garbled; body clean on spot-check.
+- filename: mcglothlin_baptist-confessions-of-faith_1911.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    Baptist Confessions of Faith, William Joseph McGlothlin (Philadelphia:
+    American Baptist Publication Society, 1911). Public domain by date. Fetched
+    directly (curl, raw bytes) from Internet Archive item baptistconfessio00mcgl.
+    Vendored for pp. 3-9, the Schleitheim Confession (1527) - a translation of
+    Zwingli's own Latin translation, not direct from German. Rest of volume
+    (other Baptist bodies) not reviewed.
+- filename: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    Geschicht-Buch der Hutterischen Brueder, ed. Rudolf Wolkan (Standoff-Colony
+    bei Macleod, Alberta: Hutterian Brethren in America/Canada, 1923). German
+    original. Public domain by date. Fetched directly (curl, raw bytes) from
+    Internet Archive item geschichtbuchder00hutt. PRIMARY content for this
+    world - the only English translation (Plough, 1987) is in copyright and
+    access-restricted. A 1991 Columbia University Libraries microfilm
+    reproduction-restriction notice appears in the scan's own front matter,
+    disclosed in the file's own header; does not affect the underlying 1923
+    work's public-domain status.
+- filename: ignatius-loyola_spiritual-exercises_mullan1914.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Spiritual Exercises of St. Ignatius, trans. Elder Mullan, S.J. (New
+    York: P.J. Kenedy & Sons, 1914). Explicit NOT_IN_COPYRIGHT confirmed on
+    archive.org item spiritualexercis00ignauoft. Fetched directly (curl, raw
+    bytes).
+- filename: ignatius-loyola_autobiography_oconor1900.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Autobiography of St. Ignatius, ed. J.F.X. O'Conor, S.J. (New York:
+    Benziger Brothers, 1900). Public domain by date. Fetched directly (curl,
+    raw bytes) from Project Gutenberg eBook #24534 (plain-text edition).
+- filename: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547, trans.
+    D.F. O'Leary, ed. A. Goodier, S.J. (Roehampton: John Griffin, 1914). Public
+    domain by date. Fetched directly (curl, raw bytes) from Internet Archive
+    item LettersAndInstructionsOfStIgnatiusV1. Selection of 24 letters, not
+    the full corpus; a Vol. 2 was searched for and not conclusively found.
+- filename: council-of-trent_canons-and-decrees_waterworth1848.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Canons and Decrees of the Council of Trent, trans. Rev. J. Waterworth
+    (London: Burns and Oates, preface 1848, this printing c. 1888). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item thecanonsanddecr00unknuoft.
+    Fetched directly (curl, raw bytes). Also directly relevant to the
+    sibling the-tridentine-church (VI.22) candidate.
+- filename: francis-xavier_life-and-letters-v1_coleridge1872.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Life and Letters of St. Francis Xavier, Vol. I, Henry James Coleridge,
+    S.J. (London: Burns and Oates, 1872). Public domain by date. Fetched
+    directly (curl, raw bytes) from Internet Archive item
+    LifeLettersOfStFrancisXavierV1. Covers university years through the
+    Malacca/Moluccas mission (1541-1548).
+- filename: francis-xavier_life-and-letters-v2_coleridge1872.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Life and Letters of St. Francis Xavier, Vol. II, Henry James Coleridge,
+    S.J. (London: Burns and Oates, 1872). Explicit Public Domain Mark 1.0
+    confirmed on archive.org item LifeLettersOfStFrancisXavierV2. Fetched
+    directly (curl, raw bytes). Covers Japan/China missions and Xavier's
+    death (1552); companion to Vol. I.
+- filename: canisius_summe-of-christian-doctrine_anon1622.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    A Summe of Christian Doctrine, Peter Canisius (English recusant press,
+    1622; translator not named). Public domain by date (Early English Books,
+    1475-1640 collection). Fetched directly (curl, raw bytes) from archive.org
+    item bim_early-english-books-1475-1640_a-summe-of-christian-doc_canisius-petrus_1622.
+    First primary source found for Canisius in this corpus.
+- filename: boero_life-of-peter-faber_coleridge1873.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Life of the Blessed Peter Favre (Faber), Giuseppe Boero, trans. Henry
+    James Coleridge, S.J. (London: Burns and Oates, 1873). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item lifeofpeterfavre00boeruoft.
+    Fetched directly (curl, raw bytes). A biography quoting Faber's own
+    Memoriale, not a full translation of it - extent of direct quotation not
+    yet established.
+- filename: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    Constitutiones Societatis Iesu, cum earum Declarationibus (Rome: Collegio
+    Romano, 1606). Latin original. Public domain by date. Fetched directly
+    (curl, raw bytes) from Internet Archive item constitutionesso00jesu.
+    PRIMARY content for this world - the only English translation (Ganss,
+    1970/1996) is in copyright and lending-restricted. The Society's own
+    governing document.
+- filename: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    Adnotationes et Meditationes in Evangelia, Jeronimo Nadal (1595). Latin
+    original. Public domain by date. Fetched directly (curl, raw bytes) from
+    Internet Archive item adnotationesetme00nada. PRIMARY content for this
+    world - the only English translation (Homann, 2003) is in copyright and
+    restricted. OCR QUALITY FLAG: title page severely garbled; body clean on
+    spot-check.
