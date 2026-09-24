@@ -1701,3 +1701,8 @@ tree), Phase B, "The register bar is a birth condition":
   (CLAUDE.md's standing rule for review outcomes) - flagged for the
   reviewer as the one line here that is not already a recorded R43
   practice; R43 recorded these in this log and the PR instead.
+- **Sentence-completeness pointer** (reviewer's round-1 hold on PR
+  #483, added once Entry 29's PR #481 merged): the fragment rule names
+  `engine/m1/sentence_completeness.py` as a report-only aid to the
+  builder's read, never a replacement for it (Entry 29: 60% precision,
+  recall unmeasured).

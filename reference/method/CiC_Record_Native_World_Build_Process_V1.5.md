@@ -216,7 +216,11 @@ holds it, and it holds nothing else. Concretely:
   rendering for its own subject and verb before the record leaves
   authoring; neither the rendering-fidelity grader (it grades meaning, not
   grammar) nor the FK gate can see a fragment, and in the R43 re-authoring
-  pass the human read caught fragments both had passed. Where the source's
+  pass the human read caught fragments both had passed.
+  `engine/m1/sentence_completeness.py` (report-only) lists sentences with
+  no main-clause subject or finite verb as candidates for that read; it
+  misses some and misreads some, so it supports the read and never
+  replaces it. Where the source's
   own English is elliptical, the rendering finishes the sentence with the
   verb the source's own structure implies, rather than carrying the
   fragment over (Mark's ruling on `syr.quote.nisibene-death-trembled`,
