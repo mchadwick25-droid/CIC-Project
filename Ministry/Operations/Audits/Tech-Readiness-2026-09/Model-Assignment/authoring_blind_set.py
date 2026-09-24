@@ -1,7 +1,6 @@
-"""The 12-record authoring test (memo: Ministry/Operations/Audits/
-Tech-Readiness-2026-09/Model-Assignment/Model-Assignment-2026-09-24.md).
-Two authors re-wrote the same 12 renderings from one brief
-(Authoring-Brief-12-Records.md in the same folder). This script blinds
+"""The 12-record authoring test (memo: Model-Assignment-2026-09-24.md in
+this folder). Two authors re-wrote the same 12 renderings from one brief
+(Authoring-Brief-12-Records.md, also in this folder). This script blinds
 and scores their output; it never edits a record.
 
   assemble  parse both authors' raw output, put each record's two
@@ -16,9 +15,9 @@ and scores their output; it never edits a record.
 
 Real, billed Bedrock calls in `score` - a by-hand, credentialed run.
 
-Run:
-  python3 -m engine.m1.reports.authoring_blind_set assemble --author-a-raw X --author-b-raw Y --blind OUT.md --key KEY.json
-  python3 -m engine.m1.reports.authoring_blind_set score --blind OUT.md --region us-east-1
+Run (from the repository root):
+  python3 Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/authoring_blind_set.py assemble --author-a-raw X --author-b-raw Y --blind OUT.md --key KEY.json
+  python3 Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/authoring_blind_set.py score --blind OUT.md --region us-east-1
 """
 import argparse
 import hashlib
@@ -31,16 +30,15 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[5]))
 
 from engine.m1.reports.rendering_grader_model_study import MODELS
 from engine.m1.rendering_fidelity import grade_rendering
 from engine.m8.cost import estimate_cost
 from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
-BRIEF = REPO_ROOT / "Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/Authoring-Brief-12-Records.md"
-SCORE_PATH = Path(__file__).resolve().parent / "authoring-blind-set-scores-2026-09-24.json"
+BRIEF = Path(__file__).resolve().parent / "Authoring-Brief-12-Records.md"
+SCORE_PATH = Path(__file__).resolve().parent / "Authoring-Test-Scores-2026-09-24.json"
 
 _RECORD = re.compile(r"^### (\S+)\s*\nRENDERING:\s*(.+?)\s*\nNOTE:\s*(.+?)\s*$", re.M | re.S)
 _MODEL = re.compile(r"^MODEL:\s*(.+?)\s*$", re.M)
