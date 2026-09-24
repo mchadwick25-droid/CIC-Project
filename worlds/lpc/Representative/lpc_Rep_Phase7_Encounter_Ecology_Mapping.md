@@ -4,6 +4,7 @@
 **Produced at:** Step 10, Phase Seven (Representative Construction Framework L3C V3.2, Part Nine — "Phase Seven: Encounter Ecology Mapping").
 **Builds on:** Phase One through Six (all Approved to proceed — Phase One §1–§2 through Phase Four are build-thread self-dispositions; Phase Five and Phase Six are build-thread self-dispositions reached after independent adversarial review and, for both, at least one applied fix cycle), the two deployed artifacts, Doc_04 (Gravity Discovery), Doc_05 (Ecological Reconstruction), Doc_07 (Integrated Ecology Analysis), `lpc_World_Profile.md`.
 **Construction-only notice:** design-and-audit-phase document; its analysis never appears in Datus's own operating voice and is never visible to participants.
+**Status:** **Approved to proceed** (2026-09-24, build-thread self-disposition per CO-022 — cleared review, no escalation category applies). Not Frozen; unblocks the remaining deployment outputs and world-freeze gates.
 
 ---
 
@@ -98,4 +99,29 @@ Real, and stronger than a purely prospective mapping could claim, because lpc's 
 
 ---
 
-*End Phase Seven Encounter Ecology Mapping. Next: independent adversarial review, per `cic-build-cycle`.*
+## Revision Log
+
+**Round 1 independent adversarial review** (2026-09-24, isolated subagent; full review at `Review-Artifacts/Phase7_EncounterEcologyMapping_Round1_Review.md`). **Verdict: 4 HIGH, 4 MEDIUM, 1 COSMETIC.** All four HIGH findings independently re-verified against source before being applied:
+
+1. §4 inverted Doc_04's own Formation-test verdict for G5 ("Does not clearly pass," not a "narrow pass"), and misattributed the project lead's ruling to the Formation sub-test rather than the overall classification. Corrected.
+2. §7's central cross-check misattributed Probe 12's coercion-policy content to G7; Doc_04 §2 folds coercion content into G3/G6, with no relationship to G7 anywhere in the record. Corrected.
+3. §6.1 fabricated a citation to a nonexistent "Section 2A" in the deployed Permanent Prompt (which has no numbered sections at all). Removed; the accurate Phase Four §5 citation stands alone.
+4. §3 overstated that both deployed artifacts preserve Phase One's own richer 2026-09-19 liturgical finding — neither actually contains this content. Corrected to name a genuine, disclosed integration gap, carried forward as new open item §6.3.
+
+Four MEDIUM findings (probe-to-gravity citation precision for G6/G8, a spliced quotation conflating instruction and generated output, a citation-locus error, a front-matter completeness gap for Doc_05) and one COSMETIC finding (a reformatted source quotation) also applied.
+
+**Targeted recheck** (isolated subagent, scoped to the four HIGH fixes plus a spot-check of the G6/G8 citations): all **PASS**, each fix independently re-confirmed against its cited source, no new inconsistency introduced.
+
+---
+
+## Disposition
+
+**Approved to proceed (build-thread self-disposition, CO-022).** Review outcome: substantial revision required (4 HIGH, 4 MEDIUM, 1 COSMETIC), all applied and confirmed correct at the targeted recheck. Review artifact: `Review-Artifacts/Phase7_EncounterEcologyMapping_Round1_Review.md` (Round 1 plus the targeted recheck).
+
+**Escalation-category assessment, run against the reviewed and corrected text.** *Representative identity/title:* does not apply. *Portfolio-level/cross-world:* does not apply — this document reports on and cross-checks lpc's own already-approved construction record; it decides nothing new. *Governance/methodology:* does not apply — this document proposes no change to Doc_04, the deployed artifacts, or any prior phase; the one genuine integration gap it found (§6.3) is named as an open item for a future revision pass, not resolved or worked around here. *Unresolved tensions:* does not apply.
+
+**This unblocks the remaining deployment outputs and the world-freeze gates.**
+
+---
+
+*End Phase Seven Encounter Ecology Mapping — Approved to proceed. Next: remaining deployment outputs and world-freeze gates per the Completion Standard.*
