@@ -1,8 +1,5 @@
 /**
- * Build-Plan.md Stage 3c: "ship behind a flag defaulting to current
- * behavior until the design and label copy are ruled." Both are ruled
- * now, and the seeker read-through this flag's own gate named passed on
- * both halves - the flag defaults ON.
+ * Defaults ON.
  *
  * VITE_ prefix required for Vite to expose it to client code at all
  * (anything without it never reaches the bundle, by Vite's own design -

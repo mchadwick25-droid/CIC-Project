@@ -3,12 +3,8 @@
  * (engine/m1/schemas.py's five-value enum), shown on a citation's Level 2
  * card. Confidence display reads
  * `confidence.formation_confidence` only, never a record's `status` -
- * `status` is Stage 6a's own eligibility gate for which records can carry
+ * `status` is the eligibility gate for which records can carry
  * a confidence display at all, not the value shown here.
- *
- * DRAFT COPY - not yet approved as final wording. This text is a
- * proposal only, built so the mechanism is testable end-to-end. Do not
- * treat this wording as final until it is confirmed.
  */
 const CONFIDENCE_PHRASES: Record<string, string> = {
   Documented: 'Recorded directly in a source from the time.',

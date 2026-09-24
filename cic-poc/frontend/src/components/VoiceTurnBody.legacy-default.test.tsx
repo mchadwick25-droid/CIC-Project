@@ -4,7 +4,7 @@
  * genuinely reachable, not because the flag defaults to it anymore. No
  * mock here: exercises VoiceTurnBody exactly as a caller with no
  * `transparency` plan on the turn does (an older logged session, or a
- * turn from before Stage 3b) - VoiceTurnBody's own top-level export falls
+ * turn whose transparency plan was never computed) - VoiceTurnBody's own top-level export falls
  * back to the legacy renderer whenever `transparency` is absent,
  * regardless of the flag. Its known completeness gap is reproduced here
  * on purpose, so the fix in VoiceTurnBody.test.tsx has something concrete

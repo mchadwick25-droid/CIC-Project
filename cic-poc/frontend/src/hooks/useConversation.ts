@@ -62,9 +62,9 @@ const initialState: ConversationState = {
 export function useConversation() {
   const [state, setState] = useState<ConversationState>(initialState);
   // One client_msg_id per LOGICAL message: resending the same text after a
-  // failure reuses the id, so the server's idempotency check (an audit
-  // fix) can refuse the duplicate instead of double-answering and
-  // double-spending. New text = new id = a genuinely new message.
+  // failure reuses the id, so the server's idempotency check can refuse
+  // the duplicate instead of double-answering and double-spending. New
+  // text = new id = a genuinely new message.
   const lastAttemptRef = useRef<{ text: string; id: string } | null>(null);
 
   const begin = useCallback(async (worldKey: string) => {

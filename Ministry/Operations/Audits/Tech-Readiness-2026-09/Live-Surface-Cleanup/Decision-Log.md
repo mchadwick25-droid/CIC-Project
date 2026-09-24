@@ -371,4 +371,65 @@ find a configuration file" error, unrelated to this PR's changes
 (comment-only edits) — not fixed here, flagged for whoever owns
 `cic-poc/frontend`'s tooling config.
 
+**Round 2 (managing-thread verdict, FAIL round 1, 2026-09-24):**
+
+1. Round 1 only removed the ruling number/date token from each comment,
+   leaving the surrounding sentence stating what USED to be true or
+   naming a stage/ruling as the reason. Fixed throughout the PR's diff:
+   - `Arrival.tsx` and `lib/confidence.ts`'s "DRAFT COPY, not yet
+     approved" flags removed entirely (not reworded) - both are stale as
+     of the Transparency Engine Decision-Log's own 2026-09-22 entries
+     (Entry 39, Entry 41/the Arrival test's own PR #398 note): the
+     Stage 6b confidence phrases and the ✲-mark explainer sentence were
+     both "confirmed as Mark's own word without change." Status belongs
+     in Ministry, never restated in a code comment.
+   - `app.css`: "(supersedes CiC_Full_UX_Design_V1_0.md §2.1's 'Dark
+     mode: deferred')", "was #8A837C - 3.38:1", "was #FBEAEA (light
+     pink)", the "Cross-world transparency audit:" and "Trust package:"
+     stage/feature-name labels, and one remaining "Stage 6b:" label —
+     rewritten as present-tense facts (what the current color measures
+     and why), not as "was X" comparisons.
+   - `data/worlds.ts`: the file's own "used to be a hand-copied second
+     version of the registry... nothing here is invented copy... The
+     endpoint exists now" history paragraph, "Stage 7.5" cited twice as
+     the source of a design decision, every "Nth world, added/admitted/
+     re-admitted once X was locked in" ordinal-history framing (6
+     instances), and every remaining "Light-mode color was X" comparison
+     — all rewritten to state the current accent color's own grounding
+     and contrast math directly, with no addition-order or stage
+     narrative.
+   - `useConversation.ts`, `lib/api.ts`: "(an audit fix)" and
+     "recoverable: true - was false, which left a live bug..." rewritten
+     to state what the code guarantees now.
+   - `lib/flags.ts`: "Both are ruled now, and the seeker read-through...
+     passed - the flag defaults ON" reduced to "Defaults ON."; the
+     ruling/rollout history moved here.
+   - `VoiceTurnBody.tsx`: "below are the confirmed answer, not invented
+     here" and "a documented default, not an implicit accident" (process
+     voice from round 1's own rewrite) restated as the rule itself; "the
+     approach Build-Plan.md Stage 3c replaces" (still framing the legacy
+     renderer by what it's superseded by) restated as its own
+     completeness gap, stated directly.
+   - `VoiceTurnBody.legacy-default.test.tsx`, `screens/TableRoom.tsx`:
+     "turn from before Stage 3b" and "Stage 0c, Build-Plan.md" — the
+     stage label dropped, the technical condition it named stated
+     directly instead.
+2. Refreshed `tools/tests/test_check_live_commentary.py`'s
+   cic-poc/frontend `HAND_LABELS` entries a second time: round 1 fixed 3
+   of the 6 original entries' staleness in its own PR body but round 2's
+   further cleanup made 2 more (`Arrival.test.tsx:2`, `Arrival.tsx:14`)
+   stop matching too. Only `FigureBridgeMark.tsx:3` (the real
+   filename-citation false positive) is still valid; the other 5 slots
+   moved to fresh `cic/corpus-map` examples, distinct from the 5 Entry 1
+   already claimed there, to avoid a duplicate sample.
+
+Re-validated: `check_live_commentary.py --surface cic-poc-frontend` → 1
+hit (the documented `FigureBridgeMark.tsx:3` false positive); `pytest
+tools/tests/test_check_live_commentary.py` → **85/85 passed** (0
+failures - both PRs' stale-hand-label fixes are now mutually
+consistent, pending whichever merges first renumbering the other's
+Decision-Log entry per Entry 1's own note); `npx tsc --noEmit` → 0
+errors; `npm test` (vitest) → 31/31 passed; `check_paths.py` → 0
+new/retired.
+
 ---

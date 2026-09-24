@@ -8,8 +8,7 @@
  * request/response per turn (see hooks/useConversation.ts).
  */
 :root {
-  /* Dark mode (supersedes CiC_Full_UX_Design_V1_0.md §2.1's "Dark mode:
-     deferred"). Ground/surface/text/
+  /* Dark mode. Ground/surface/text/
      muted are cic-website's own shipping dark tokens (--ground/--surface/
      --text/--muted), reused verbatim so the app matches the site exactly.
      Every accent below is a lightened, contrast-recomputed variant of its
@@ -23,12 +22,9 @@
   --color-surface: #1E1913;
   --color-text: #F1E9DD;
   --color-text-muted: #B8AEA1;
-  /* a11y sweep: was #8A837C - 3.38:1 on the cream background,
-     below AA, and it carried load-bearing copy (the Facilitator's own
-     disclosure turns, the exit button, placeholders, waiting notes).
-     #6C6257 (the muted tone already in this palette) measured 5.39:1 on
-     the light ground; #B8AEA1 (this dark palette's own muted tone)
-     measures 8.45:1 on the new dark ground. */
+  /* #B8AEA1 measures 8.45:1 on the dark ground - well clear of AA, needed
+     since this token carries load-bearing copy (the Facilitator's own
+     disclosure turns, the exit button, placeholders, waiting notes). */
   --color-text-light: #B8AEA1;
 
   /* Dark-safe graphite: reuses cic-website's --control (#A39B92, 6.74:1) -
@@ -618,7 +614,7 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Stage 6b: identical treatment to .story-mark__confidence above. */
+/* Identical treatment to .story-mark__confidence above. */
 .witness-mark__confidence {
   margin-top: 4px !important;
   font-size: 0.78rem;
@@ -724,7 +720,7 @@ button {
   margin: 0;
 }
 
-/* Cross-world transparency audit: some worlds' authored
+/* Some worlds' authored
    fields (a story's own tellable_as, a source's own rights_status) run
    many times longer than others', for reasons of content and sourcing
    complexity, not a bug in any one of them - but the same hover card
@@ -938,8 +934,7 @@ button {
 .conversation__error {
   margin: 0 var(--spacing-lg);
   padding: var(--spacing-sm) var(--spacing-md);
-  /* Dark mode: was #FBEAEA (light pink); this
-     dark red-brown wash keeps --color-error at 5.14:1 on top of it,
+  /* This dark red-brown wash keeps --color-error at 5.14:1 on top of it,
      matching the subtlety of the other washes in this file. */
   background: #2E1A17;
   border: 1px solid var(--color-error);
@@ -1369,7 +1364,7 @@ button {
   cursor: default;
 }
 
-/* Trust package: the wait has a voice, and no error is a
+/* The wait has a voice, and no error is a
    dead end. */
 .waiting-note {
   font-size: 0.8rem;

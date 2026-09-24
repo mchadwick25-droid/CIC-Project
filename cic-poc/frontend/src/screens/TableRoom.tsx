@@ -5,7 +5,7 @@
  * round-in-progress state while voices answer in turn, and the sitting's
  * own close (the table session round cap, engine.m4.round.
  * TABLE_SESSION_ROUND_CAP, surfaced from the API rather than a guessed
- * number - Stage 0c, Build-Plan.md) rather than an open-ended end.
+ * number) rather than an open-ended end.
  *
  * The seated-arrival strip relocates the Doorway's approved disclosure
  * prose the same way the interview Arrival does; the one adaptation is

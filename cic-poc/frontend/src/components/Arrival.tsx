@@ -11,9 +11,6 @@
  * sentence of `arrival__disclosure` (the ✲ mark explainer) IS new prose,
  * not relocated - it extends this existing disclosure rather than
  * adding a new first-tap UI element (no new component, no new state).
- * DRAFT COPY, not yet approved as final wording - built so the
- * mechanism is complete, per the same discipline Stage 6b's confidence
- * phrases followed.
  */
 import type { WorldEntry } from '../data/worlds';
 
