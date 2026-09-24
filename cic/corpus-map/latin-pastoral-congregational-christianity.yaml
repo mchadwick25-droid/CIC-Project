@@ -98,7 +98,7 @@ works:
   confidence: assigned
   note: 'Latin critical-text original standing behind the already-vendored NPNF1-02 English
     translation of City of God (Registry row 24). Companion file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
-    (Books XIV-XXII). Vendored 2026-09-08; not a Manifest G-item.
+    (Books XIV-XXII). Not a Manifest G-item.
 
     '
   source_file: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
@@ -110,7 +110,7 @@ works:
   confidence: assigned
   note: 'Latin critical-text original standing behind the already-vendored NPNF1-02 English
     translation of City of God (Registry row 24). Companion file: augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt
-    (Books I-XIII). Vendored 2026-09-08; not a Manifest G-item.
+    (Books I-XIII). Not a Manifest G-item.
 
     '
   source_file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt
@@ -121,8 +121,8 @@ works:
   confidence: assigned
   note: 'Latin critical-text original standing behind the already-vendored NPNF1-01 English
     translation (Registry row 9) -- this world''s own founding first-person document of Augustine''s
-    conversion narrative. Vendored 2026-09-08; not a Manifest G-item, a new find closing a
-    prior total absence of an original-language witness for this text.
+    conversion narrative. Not a Manifest G-item, a new find closing a prior total absence
+    of an original-language witness for this text.
 
     '
   source_file: augustine_confessiones-lat_knoll-csel33.txt
@@ -132,8 +132,8 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin critical-text original standing behind the already-vendored NPNF1-01 English
-    translation of Augustine''s Letters (Registry rows 10-11). Vendored 2026-09-08, partially
-    closing Source_Acquisition_Manifest G4.
+    translation of Augustine''s Letters (Registry rows 10-11). Partially closes Source_Acquisition_Manifest
+    G4.
 
     '
   source_file: augustine_epistulae-1-123-lat_goldbacher-csel34.txt
@@ -143,11 +143,10 @@ works:
   role: tradition
   confidence: assigned
   note: 'Latin critical-text original standing behind the already-vendored NPNF1-04 English
-    translation of the general correspondence (rows 10-11). Corrected here (independent review,
-    Round 16): this file does NOT include Letter 185 (the Correction of the Donatists, Registry
-    row 12) -- an earlier draft of this note wrongly claimed it did. Letter 185 is at its
-    own Latin source in the CSEL 57 Pars IV file instead (augustine_epistulae-critical_goldbacher-csel57-pars4.txt).
-    Vendored 2026-09-08, partially closing Source_Acquisition_Manifest G4.
+    translation of the general correspondence (rows 10-11). This file does NOT include Letter
+    185 (the Correction of the Donatists, Registry row 12). Letter 185 is at its own Latin
+    source in the CSEL 57 Pars IV file instead (augustine_epistulae-critical_goldbacher-csel57-pars4.txt).
+    Partially closes Source_Acquisition_Manifest G4.
 
     '
   source_file: augustine_epistulae-124-184a-lat_goldbacher-csel44.txt
@@ -159,10 +158,10 @@ works:
   confidence: assigned
   note: 'Latin original (Migne''s 1861 Maurist-text printing, not a modern critical edition)
     standing behind the already-vendored NPNF1-08 English translation (Registry row 20) --
-    this world''s single largest vendored work. Vendored 2026-09-08; not a Manifest G-item,
-    closing a prior total absence of an original-language witness. One appendix (an alternate
-    Psalm 14 exposition) is flagged by the Maurist editors themselves as not Augustine''s
-    own -- see this file''s own header.
+    this world''s single largest vendored work. Not a Manifest G-item, closing a prior total
+    absence of an original-language witness. One appendix (an alternate Psalm 14 exposition)
+    is flagged by the Maurist editors themselves as not Augustine''s own -- see this file''s
+    own header.
 
     '
   source_file: augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt
@@ -186,7 +185,7 @@ works:
   note: 'Augustine''s largest work, written at Hippo 413-427. Primary evidence for his own
     entry. Deliberately NOT scattered further: Books I-X answer pagan critics and Book X engages
     Porphyry, but the census has no pagan bucket and the Platonist engagement is Augustine''s,
-    not Alexandria''s — restraint here per Mark''s per-work framing.
+    not Alexandria''s — this restraint follows a deliberate per-work framing.
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
@@ -230,31 +229,29 @@ works:
     LXXXII, CXXIII, CLXVI, CLXVII, CLXXII, CXCV, CCII (17 letters, ~52,892 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
-    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
-    exchange, exactly) and by keyword count where it does not, taking the natural break in
-    the distribution rather than a chosen threshold. The four parts partition the 168 with
-    no overlap. This part is exact: every letter whose title names Jerome, in both directions.
-    `tradition` for BOTH entries deliberately - the exchange contains Jerome''s own letters,
-    which are the Hieronymian world''s voice, and Augustine''s, which are the Latin pastoral
-    world''s. A two-sided correspondence has voice on both sides. It is also the largest single
-    thing in this volume after the Confessions.'
+  note: 'Derived from the volume''s own markup rather than from a reading list: each letter
+    is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
+    where the title names one (the Jerome exchange, exactly) and by keyword count where it
+    does not, taking the natural break in the distribution rather than a chosen threshold.
+    The four parts partition the 168 with no overlap. This part is exact: every letter whose
+    title names Jerome, in both directions. `tradition` for BOTH entries deliberately - the
+    exchange contains Jerome''s own letters, which are the Hieronymian world''s voice, and
+    Augustine''s, which are the Latin pastoral world''s. A two-sided correspondence has voice
+    on both sides. It is also the largest single thing in this volume after the Confessions.'
   source_file: npnf101_augustine-confessions-letters.xml
 - work: 'Letters of St. Augustin: the general correspondence'
   author: augustine
   locus: div3, the remaining 138 letters (~258,018 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own markup rather
-    than from a reading list: each letter is a div3 carrying n= and type="Letter", 168 of
-    them, and the sub-corpora were cut by ADDRESSEE where the title names one (the Jerome
-    exchange, exactly) and by keyword count where it does not, taking the natural break in
-    the distribution rather than a chosen threshold. The four parts partition the 168 with
-    no overlap. Everything not claimed by the three controversies above - the bulk of the
-    volume, and the ordinary work of a bishop''s correspondence: pastoral advice, administration,
-    consolation, friendship, the exchanges with Paulinus and Nebridius. It keeps `tradition`
-    for the Latin pastoral entry, which is what it is.'
+  note: 'Derived from the volume''s own markup rather than from a reading list: each letter
+    is a div3 carrying n= and type="Letter", 168 of them, and the sub-corpora are cut by ADDRESSEE
+    where the title names one (the Jerome exchange, exactly) and by keyword count where it
+    does not, taking the natural break in the distribution rather than a chosen threshold.
+    The four parts partition the 168 with no overlap. Everything not claimed by the three
+    controversies above - the bulk of the volume, and the ordinary work of a bishop''s correspondence:
+    pastoral advice, administration, consolation, friendship, the exchanges with Paulinus
+    and Nebridius. It keeps `tradition` for the Latin pastoral entry, which is what it is.'
   source_file: npnf101_augustine-confessions-letters.xml
 - work: Of Holy Virginity
   author: augustine
@@ -403,15 +400,12 @@ works:
     provoked the Gallic monks'' own pastoral objections (reported to Augustine by Prosper
     of Aquitaine and a correspondent named Hilary) that div1 21''s two treatises directly
     answer — the opponent side of that world''s own Gravity Discovery (Doc_04) needs this
-    as the provoking text, not only the two replies. Re-pointed 2026-09-08 for the Gallic
-    monastic-ascetic entry (era 2, c. 360-450), added 2026-08-26. **Corrected 2026-09-08**
-    (Doc_02 review Round 1, finding S25): this Hilary''s identity is Contested, not Hilary
-    of Arles — this world''s own vendored Commonitory introduction (npnf211) places Hilary
-    of Arles among the Massilian party being reported on, not among the reporters, and npnf105''s
-    own apparatus proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
-    §1.4). The prior correction (Doc_01 Round 2 finding N6a) was applied to this world''s
-    own corpus-map bucket but not propagated back to this staging file, the actual source
-    of the generated bucket — fixed here at the root.
+    as the provoking text, not only the two replies. This covers the Gallic monastic-ascetic
+    entry (era 2, c. 360-450). This Hilary''s identity is Contested, not Hilary of Arles —
+    this world''s own vendored Commonitory introduction (npnf211) places Hilary of Arles among
+    the Massilian party being reported on, not among the reporters, and npnf105''s own apparatus
+    proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
+    §1.4).
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -452,10 +446,9 @@ works:
   confidence: assigned
   note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
     as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
-    21 split. Re-pointed 2026-09-08 on the same basis as the Predestination treatise above
-    — addressed to the same Prosper/Hilary audience, same controversy. **Corrected 2026-09-08**
-    (Doc_02 Round 1, S25): same Hilary-identity correction as the two rows above — Contested,
-    not "of Arles."
+    21 split, addressed to the same Prosper/Hilary audience and the same controversy as the
+    Predestination treatise above. Same Hilary-identity note as the two rows above applies
+    here: Contested, not "of Arles."
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -545,14 +538,13 @@ works:
   confidence: assigned
   note: '428/429, to Prosper and a correspondent named Hilary, against the objections of the
     Gallic monks. NPNF prints two distinct treatises under one div1; this is the first. Split
-    per the granularity rule for headings holding several distinct works. Re-pointed 2026-09-08:
-    directly addressed to Prosper of Aquitaine and Hilary — the opponent''s-side documentation
-    of the Gallic monastic-ascetic entry''s own controversy over grace and predestination
-    (era 2, c. 360-450, added to the census 2026-08-26). **Corrected 2026-09-08** (Doc_02
-    Round 1, S25): "Hilary of Arles" was wrong and is removed — see the correction note on
-    the Rebuke and Grace row above. This Hilary''s identity is Contested; npnf105''s own apparatus
-    favors "Hilary of Sicily," a genuine rival to this world''s own preferred Gallic-lay-monk
-    reading (Doc_01 §10), not a confirmation of it.
+    per the granularity rule for headings holding several distinct works. Directly addressed
+    to Prosper of Aquitaine and Hilary, this is the opponent''s-side documentation of the
+    Gallic monastic-ascetic entry''s own controversy over grace and predestination (era 2,
+    c. 360-450). This Hilary''s identity is Contested, not "Hilary of Arles" — see the identity
+    note on the Rebuke and Grace row above; npnf105''s own apparatus favors "Hilary of Sicily,"
+    a genuine rival to this world''s own preferred Gallic-lay-monk reading (Doc_01 §10), not
+    a confirmation of it.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -636,9 +628,7 @@ works:
     for a Representative on its own, only for cross-checking a specific reading against the
     vendored NPNF translation. OCR quality uneven - see the file''s own header for a quantified
     apparatus-corruption assessment; apparatus-level claims specifically need independent
-    verification (corrected here, independent review Round 25''s own C1 full-corpus sweep,
-    from an earlier draft''s own line fold, which split "apparatus-level" into "apparatus-
-    level" with an inserted space).
+    verification.
 
     '
   source_file: augustine_epistulae-critical_goldbacher-csel57-pars4.txt
@@ -662,9 +652,8 @@ works:
   confidence: provisional
   note: 'Written 386-387 at Cassiciacum near Milan, before baptism and long before ordination
     — a philosophical dialogue, not pastoral work from Hippo. Held in Augustine''s own entry
-    for want of a better home; the doubt worth a reviewer''s eye is whether the Cassiciacum
-    period should also touch ambrosian-milan-standalone, which is Ambrose''s entry, not Augustine''s
-    — not asserted here.
+    for want of a better home; whether the Cassiciacum period should also touch ambrosian-milan-standalone,
+    which is Ambrose''s entry, not Augustine''s, remains an open question — not asserted here.
 
     '
   source_file: npnf107_augustine-homilies-john-soliloquies.xml
@@ -758,10 +747,10 @@ works:
     already treats the Optatus appendix and Council acts; provisional because the Donatist
     bishops'' own recorded speech inside these acts may deserve separate tradition-role consideration
     once actually read, which this entry has not yet done. Also assigned to latin-pastoral-congregational-christianity
-    (Source_Registry.md row 65, per the project lead''s 2026-09-13 decision on that row''s
-    own flagged cross-world resource question): Augustine speaks in his own words in at least
-    fourteen numbered acts of these proceedings, a live primary-voice route this world''s
-    own Registry names but does not yet use.
+    (Source_Registry.md row 65, which resolves that row''s own flagged cross-world resource
+    question): Augustine speaks in his own words in at least fourteen numbered acts of these
+    proceedings, a live primary-voice route this world''s own Registry names but does not
+    yet use.
 
     '
   source_file: pl11-zeno-optatus-collatio-carthaginiensis_migne.txt
@@ -825,13 +814,12 @@ works:
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)
   author: cyprian
-  locus: opening of file through the Vita's own preceding material; kept under Cyprian's name
-    per the corpus map's own 2026-08-26 ruling (transmitted-author shelf, not re-attributed),
-    the same treatment Registry row 6 already establishes for the English-language pseudo-Cyprianic
-    body
+  locus: opening of file through the Vita's own preceding material
   role: tradition
   confidence: provisional
-  note: 'Latin second witness for a corpus this world holds only as Confidence-C, not-currently-licensed
+  note: 'Kept under Cyprian''s name, the transmitted-author shelf (not re-attributed) - the
+    same treatment Registry row 6 already establishes for the English-language pseudo-Cyprianic
+    body. Latin second witness for a corpus this world holds only as Confidence-C, not-currently-licensed
     material (Source_Registry.md row 6). Provisional, matching that row''s own confidence,
     not upgraded by this vendoring alone.
 
@@ -995,17 +983,17 @@ works:
   confidence: assigned
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
-    in modern scholarship, which is why novatianism appears here - needs a ruling on whether
-    the attribution question should move them. RULED 2026-08-26, under a principle rather
-    than one by one - nine works across six entries were asking the same question, whether
-    a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
-    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    in modern scholarship, which is why novatianism appears here. On whether the attribution
+    question should move them: this is one of nine works across six entries asking the same
+    underlying question, whether a spurious corpus files under the attributed name at all
+    - resolved under a single principle rather than one by one. IT DOES, AND IT ALSO FILES
+    AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
     knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
     and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
     because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Les Passions des martyrs et les genres litteraires
   author: delehaye
@@ -1180,15 +1168,14 @@ works:
     not this tradition''s own voice. Source_Registry.md row 44 names the specific reason this
     world holds it: the underlying statute behind the Theodosian-law fine Augustine''s own
     Letter 185 SS25 cites (already role: tradition here, npnf101). Not currently drawn on
-    directly for a specific claim. UPDATED 2026-09-09 (lpc Round 28 fix pass): the provision
-    behind that fine reference is now identified, though not against THIS file. Letter 185
-    SS25 describes a law of Theodosius I fining heretical clergy ten pounds of GOLD; that
-    is CTh XVI.5.21 (392 Iun. 15), "denis libris auri viritim," read directly in the Mommsen-Meyer
-    1905 edition vendored on the sibling Donatism branch. It is NOT CTh XVI.5.52 (412), the
-    graduated Donatist fine schedule whose circumcellion clause is assessed in silver — an
-    equation lpc''s own Round 28 revision asserted and withdrew in the same round. Whether
-    this Latin Library file''s own text of XVI.5.21 matches has not been checked, so this
-    entry stays provisional; the identification rests on the Mommsen-Meyer file.
+    directly for a specific claim. The provision behind that fine reference is identified,
+    though not against THIS file. Letter 185 SS25 describes a law of Theodosius I fining heretical
+    clergy ten pounds of GOLD; that is CTh XVI.5.21 (392 Iun. 15), "denis libris auri viritim,"
+    read directly in the Mommsen-Meyer 1905 edition vendored on the sibling Donatism branch.
+    It is NOT CTh XVI.5.52 (412), the graduated Donatist fine schedule whose circumcellion
+    clause is assessed in silver — that equation was considered and ruled out. Whether this
+    Latin Library file''s own text of XVI.5.21 matches has not been checked, so this entry
+    stays provisional; the identification rests on the Mommsen-Meyer file.
 
     '
   source_file: codex-theodosianus_latinlibrary.txt

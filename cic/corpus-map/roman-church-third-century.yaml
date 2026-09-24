@@ -9,13 +9,12 @@ works:
   locus: div2 5.3 - three fragment groups, assigned as one body
   role: tradition
   confidence: provisional
-  note: 'Roman presbyter, fl. c. 200-220. The Dialogue disputes Proclus, leader of a Montanist
+  note: Roman presbyter, fl. c. 200-220. The Dialogue disputes Proclus, leader of a Montanist
     party - hence the montanism assignment (argued-against entry). ANF also prints the Muratorian
     Canon here though its authorship is editorial conjecture, and the anti-Artemon fragment
     targets adoptionist Monarchianism, which has no census entry. Shelf shares the Hippolytus
-    problem (Rome just after pahc''s 200 CE line) - provisional. Re-pointed 2026-08-26: Caius
-    is a Roman presbyter of exactly these decades, and roman-church-third-century was added
-    on record to hold them.'
+    problem (Rome just after pahc's 200 CE line) - provisional. Caius is a Roman presbyter
+    of exactly these decades, and roman-church-third-century holds them.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Against the Sabellians
   author: dionysius_rome
@@ -24,22 +23,20 @@ works:
   confidence: assigned
   note: 'Dionysius bishop of Rome (c. 259-268), against Sabellian and tritheist readings,
     written into the controversy with Dionysius of Alexandria and preserved by Athanasius.
-    There is no Era-1 Roman-church entry; assigned provisionally to the Alexandrian controversy
-    it addresses. A Roman bishop''s doctrinal letter filed under Alexandria needs Mark''s
-    sign-off. Re-pointed 2026-08-26: roman-church-third-century was added on record and widened
-    to 268 to hold it. Dionysius was bishop 259-268, and a Roman bishop''s doctrinal letter
-    belongs to the Roman church rather than to the Alexandrian controversy it addresses.'
+    Filed under `roman-church-third-century`: Dionysius was bishop 259-268, and a Roman bishop''s
+    doctrinal letter belongs to the Roman church rather than to the Alexandrian controversy
+    it addresses.'
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
 - work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
   locus: div1 3 — Books II-VII in particular
   role: context
   confidence: assigned
-  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
-    from outside and later, and for each of them the History is real evidence, not a passing
-    mention. Books II-V are the principal external frame for the post-apostolic church and
-    preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
-    VI is the fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
+  note: 'Same work, context row (per brief §11a): Eusebius describes these movements from
+    outside and later, and for each of them the History is real evidence, not a passing mention.
+    Books II-V are the principal external frame for the post-apostolic church and preserve
+    otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book VI is the
+    fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
     Clement and Dionysius. Book V.14-19 preserves the anti-Montanist dossier (the Anonymous,
     Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
@@ -48,7 +45,7 @@ works:
     Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
     inside this world''s own window, and his letters preserved here are primary Roman-church
     material, not merely external testimony to novatianism. Surfaced by a source-research
-    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+    pass on Roman Church Third Century''s (I.33) sourcing gaps.
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
@@ -59,8 +56,8 @@ works:
   confidence: assigned
   note: Foundational anti-monarchian treatise. The census has no entry for modalist Monarchianism
     (Noetians/Sabellians), so the work it argues against has no bucket either - flagged; shelved
-    with its author's needs-ruling home. Re-pointed 2026-08-26 to the census entry added on
-    record for this movement.
+    with its author's needs-ruling home. Points to the census entry added for this movement
+    in the meantime.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Appendix to the Works of Hippolytus (dubious and spurious pieces)
   author: hippolytus
@@ -70,18 +67,17 @@ works:
   confidence: assigned
   note: 'STRUCTURE.md marks this div2 apparatus, but the content is ancient pseudo-Hippolytean
     material (editor''s own title says dubious and spurious), kept rather than dropped. Needs
-    a ruling both on the shelf (no Hippolytus home) and on whether a spurious corpus files
-    under the attributed name. Re-pointed 2026-08-26 to the census entry added on record for
-    this movement. RULED 2026-08-26, under a principle rather than one by one - nine works
-    across six entries were asking the same question, whether a spurious corpus files under
-    the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive
-    from the markup rather than re-attribute from outside knowledge, so the transmitted-author
-    shelf stands: that is how the corpus presents it and how a reader will look for it. And
-    apocryphal-and-pseudepigraphal-literature is added, because a work circulating under a
-    name that is not its author''s is a pseudepigraphon by definition. The two together say
-    the whole truth - where it sits, and what it is - without re-attributing anything. Mark
-    can reverse this in one pass if he wants the spurious corpora detached from their attributed
-    authors instead.'
+    a ruling on the shelf (no Hippolytus home) - points to the census entry added for this
+    movement in the meantime. On whether a spurious corpus files under the attributed name:
+    it does, and it also files as what it is - one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
+    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
+    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
+    circulating under a name that is not its author''s is a pseudepigraphon by definition.
+    The two together say the whole truth - where it sits, and what it is - without re-attributing
+    anything. The spurious corpora could instead be detached from their attributed authors
+    in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Dogmatical and historical fragments of Hippolytus (incl. Against Plato, Against Beron
     and Helix, On the Holy Theophany, Expository Treatise Against the Jews)
@@ -91,8 +87,8 @@ works:
   confidence: assigned
   note: Smaller pieces and fragments, several of disputed authenticity (Against Beron and
     Helix is generally held later; the Theophany discourse is questioned). One body per the
-    fragment-collection rule; shelf needs-ruling as for all Hippolytus. Re-pointed 2026-08-26
-    to the census entry added on record for this movement.
+    fragment-collection rule; shelf needs-ruling as for all Hippolytus. Points to the census
+    entry added for this movement in the meantime.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Exegetical fragments of Hippolytus
   author: hippolytus
@@ -102,8 +98,8 @@ works:
   confidence: assigned
   note: Commentary fragments (Genesis, Psalms, Proverbs, Song of Songs, Daniel, etc.), assigned
     as one body per the granularity rule for fragment collections. Shelf needs-ruling as for
-    all Hippolytus (no census home). Re-pointed 2026-08-26 to the census entry added on record
-    for this movement.
+    all Hippolytus (no census home). Points to the census entry added for this movement in
+    the meantime.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
@@ -113,8 +109,8 @@ works:
   note: The author's OWN tradition home. Hippolytus of Rome (c. 170-236) has no census entry;
     post-apostolic-house-church is the nearest Roman antecedent but its range ends 200 CE,
     before he wrote. Needs a ruling on where the early 3rd-c. Roman church files - the same
-    gap affects Caius and (differently) Novatian. Re-pointed 2026-08-26 to the census entry
-    added on record for this movement.
+    gap affects Caius and (differently) Novatian. Points to the census entry added for this
+    movement in the meantime.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Treatise on Christ and Antichrist
   author: hippolytus
@@ -123,7 +119,7 @@ works:
   confidence: assigned
   note: The one complete treatise in the extant-works section; early Christian eschatology
     from Rome, c. 200. needs-ruling only for the shelf - no census home for Hippolytus (see
-    Refutation row). Re-pointed 2026-08-26 to the census entry added on record for this movement.
+    Refutation row). Points to the census entry added for this movement in the meantime.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: A Treatise of Novatian Concerning the Trinity
   author: novatian
@@ -133,9 +129,8 @@ works:
   note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
     the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
     for the entry that bears his name; also pre-schism Roman theology in its own right, the
-    same reasoning Caius (above) was re-pointed on 2026-08-26 once roman-church-third-century
-    was added on record. Surfaced by a source-research pass on that world''s (I.33) sourcing
-    gaps, 2026-09-13.
+    same reasoning that holds Caius (above) under roman-church-third-century. Surfaced by
+    a source-research pass on that world''s (I.33) sourcing gaps.
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml

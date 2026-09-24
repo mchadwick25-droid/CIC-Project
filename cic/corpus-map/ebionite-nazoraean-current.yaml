@@ -8,11 +8,10 @@ works:
   locus: div2 10.4
   role: tradition
   confidence: assigned
-  note: 'Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
+  note: Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
     from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
-    by the fragments. 2026-08-26: greek-apologists-second-century added alongside - the entry
-    the corpus assignment showed was missing, for the era''s outward-facing writing. pahc
-    is kept: the era and church-world really are its.'
+    by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
+    writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
@@ -36,8 +35,8 @@ works:
   confidence: provisional
   note: 'AH I.26.2 and scattered notices (20 ''Ebionites'' hits in the file) are among the
     earliest external descriptions this contested entry has. Provisional because the relevant
-    material is a small fraction of the work; a reviewer may prefer a locus-level extract
-    instead.
+    material is a small fraction of the work; a locus-level extract instead of the whole work
+    may be worth considering.
 
     '
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
@@ -46,9 +45,9 @@ works:
   locus: div2 6.4
   role: tradition
   confidence: assigned
-  note: 'Same ruling and same doubt as the Recognitions: pseudonymous Clement romance with
-    Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance c.
-    300-320. Ruled 2026-08-26. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
+  note: 'Same placement and the same doubt as the Recognitions: pseudonymous Clement romance
+    with Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance
+    c. 300-320. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
     because the Kerygmata Petrou source-stratum behind the Clementina is the principal window
     onto Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
     which exists for exactly a disputed record; syriac-edessa-nisibis because composition
@@ -64,26 +63,24 @@ works:
   note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
     Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
     sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
-    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr.
-    Both placements need Mark''s ruling; the Latin survives via Rufinus. Ruled 2026-08-26.
-    BOTH placements stand, and they are not in competition: ebionite-nazoraean-current because
-    the Kerygmata Petrou source-stratum behind the Clementina is the principal window onto
-    Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
-    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
-    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
-    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
-    same as Edessene. Non-exclusive assignment is what lets both facts be true at once.'
+    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr;
+    the Latin survives via Rufinus. BOTH placements stand, and they are not in competition:
+    ebionite-nazoraean-current because the Kerygmata Petrou source-stratum behind the Clementina
+    is the principal window onto Jewish Christianity anywhere in this corpus, and that entry
+    is `Contested - Evidentiary`, which exists for exactly a disputed record; syriac-edessa-nisibis
+    because composition in Syria c. 300-320 falls inside its window. The residual stretch,
+    stated rather than hidden: the entry''s region is Edessa and Nisibis specifically, and
+    Syrian is not the same as Edessene. Non-exclusive assignment is what lets both facts be
+    true at once.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Testaments of the Twelve Patriarchs
   author: testaments-twelve-patriarchs
   locus: div1 3 (testaments at div2 3.3-3.14)
   role: tradition
   confidence: assigned
-  note: 'Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian
-    composition on Jewish sources — the introductory notice itself rehearses the dispute.
-    The census has no entry for Jewish pseudepigrapha in Christian transmission; both ids
-    are guesses (Jewish-Christian milieu; 2nd-century Christian use) and Mark should rule
-    the class. 2026-08-26: apocryphal-and-pseudepigraphal-literature added alongside - the
-    class these notes kept saying had no bucket. pahc is kept where the subject matter is
-    genuinely apostolic-era; this entry names what the TEXT is.'
+  note: Jewish pseudepigraphon with Christian interpolations, or a 2nd-century Christian composition
+    on Jewish sources — the introductory notice itself rehearses the dispute. The census has
+    no entry of its own for Jewish pseudepigrapha in Christian transmission; apocryphal-and-pseudepigraphal-literature
+    holds that class and names what the TEXT is, and pahc is kept where the subject matter
+    is genuinely apostolic-era.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

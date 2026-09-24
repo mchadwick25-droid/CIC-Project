@@ -6,13 +6,16 @@ source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 assignments:
   - work: "Cyprian's Opera Spuria (works transmitted under Cyprian's name, of disputed authenticity)"
     author: cyprian
-    locus: "opening of file through the Vita's own preceding material; kept under Cyprian's name per the corpus map's own 2026-08-26 ruling (transmitted-author shelf, not re-attributed), the same treatment Registry row 6 already establishes for the English-language pseudo-Cyprianic body"
+    locus: "opening of file through the Vita's own preceding material"
     atlas_ids:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
     note: >
-      Latin second witness for a corpus this world holds only as
+      Kept under Cyprian's name, the transmitted-author shelf (not
+      re-attributed) - the same treatment Registry row 6 already
+      establishes for the English-language pseudo-Cyprianic body. Latin
+      second witness for a corpus this world holds only as
       Confidence-C, not-currently-licensed material (Source_Registry.md row
       6). Provisional, matching that row's own confidence, not upgraded by
       this vendoring alone.

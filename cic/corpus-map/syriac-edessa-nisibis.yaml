@@ -70,18 +70,16 @@ works:
   confidence: provisional
   note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
     per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
-    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
-    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
-    that survives only in Syriac - the volume''s own headnote says the original was Greek,
-    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
-    to the Greeks. So greek-apologists-second-century is added, which is where the argument
-    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
-    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
-    piece is undated - not because the Syriac half is in doubt. Role ruled 2026-08-26: `transmission`,
-    the fourth relation, added on Mark''s ruling. The relation is CUSTODY - this tradition
-    preserved a work that is not its own voice. The volume''s own headnote says the original
-    was Greek, because the Syriac mistranslates it in places. Syriac scribes are why it exists
-    at all; the argument in it is not theirs.'
+    only where the Syriac transmission preserved it. This is Greek apologetic that survives
+    only in Syriac - the volume''s own headnote says the original was Greek, because the Syriac
+    mistranslates it in places, and pairs it with the pseudo-Justin Discourse to the Greeks.
+    So greek-apologists-second-century is where the argument belongs, and syriac-edessa-nisibis
+    is kept, which is how it reached us. `provisional` because the APOLOGIST half is a date
+    question - the entry''s window is 124-200 and this piece is undated - not because the
+    Syriac half is in doubt. The `transmission` role - the fourth relation - marks CUSTODY:
+    this tradition preserved a work that is not its own voice. The volume''s own headnote
+    says the original was Greek, because the Syriac mistranslates it in places. Syriac scribes
+    are why it exists at all; the argument in it is not theirs.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
   author: anan-isho
@@ -164,12 +162,12 @@ works:
   locus: div2 9.16
   role: tradition
   confidence: assigned
-  note: 'Bardaisan of Edessa (154-222), the first named voice of Edessene Christianity; the
+  note: Bardaisan of Edessa (154-222), the first named voice of Edessene Christianity; the
     dialogue on fate and freedom was penned by his disciple Philippus, which the note records
-    rather than minting a second slug. Bardaisan''s later condemnation is a fact about him
+    rather than minting a second slug. Bardaisan's later condemnation is a fact about him
     the syr world already carries; the work is still Edessene tradition, not outside context.
-    2026-08-26: bardaisanite-current added alongside - the party this work argues with now
-    has an entry of its own.'
+    bardaisanite-current is added alongside, since the party this work argues with now has
+    an entry of its own.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Hexaemeron, Homily II (on Genesis 1:2)
   author: basil
@@ -197,10 +195,10 @@ works:
   note: 'Civil annalistic record of Edessa - kings, floods, bishops, buildings - from 132
     BC to AD 540, drawn from the city archives. It documents the 201 flood damaging "the temple
     of the church of the Christians" (the earliest dated church building on record) and Bardaisan''s
-    birth in 154. Ecology, not theology: per Mark''s 11a ruling ("the outside sources do add
-    an ecology level we need, but for context not theology") it carries role: context on the
-    world it surrounds. Christian-authored, but annalistic and civil rather than a voice of
-    the world''s tradition, and composed c. 540s, outside the world''s 200-410 frame.
+    birth in 154. Ecology, not theology: the outside sources add an ecology level this world
+    needs, but for context, not theology, so it carries role: context on the world it surrounds.
+    Christian-authored, but annalistic and civil rather than a voice of the world''s tradition,
+    and composed c. 540s, outside the world''s 200-410 frame.
 
     '
   source_file: chronicle-of-edessa_cowper.txt
@@ -367,15 +365,14 @@ works:
   locus: div2 12.4
   role: tradition
   confidence: provisional
-  note: 'DECLINED FOR syriac-edessa-nisibis 2026-08-27, for the same reason as the Liturgy
-    of Mark and on the same page of apparatus. The ANF prints a text "corrected after Renaudot"
-    from an 18th-c. collection, and the Early Liturgies section''s own notes date the received
+  note: 'Declined for `syriac-edessa-nisibis`, for the same reason as the Liturgy of Mark
+    and on the same page of apparatus. The ANF prints a text "corrected after Renaudot" from
+    an 18th-c. collection, and the Early Liturgies section''s own notes date the received
     forms well after the councils; syr''s window is 200-410. The East Syriac anaphora under
     Addai''s and Mari''s names is the living continuation of the world syr describes - Addai
     is its founding apostle and the Doctrine of Addai is already vendored here - and that
     continuity is exactly why the temptation to shelve it in-window is strong and wrong. Kept
     `provisional` and left unopened.
-
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -441,18 +438,17 @@ works:
   locus: div2 6.4
   role: transmission
   confidence: assigned
-  note: 'Same ruling and same doubt as the Recognitions: pseudonymous Clement romance with
-    Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance c.
-    300-320. Ruled 2026-08-26. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
+  note: 'Same placement and the same doubt as the Recognitions: pseudonymous Clement romance
+    with Jewish-Christian theology (the True Prophet, anti-Pauline edge), Syrian provenance
+    c. 300-320. BOTH placements stand, and they are not in competition: ebionite-nazoraean-current
     because the Kerygmata Petrou source-stratum behind the Clementina is the principal window
     onto Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
     which exists for exactly a disputed record; syriac-edessa-nisibis because composition
     in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
     hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
-    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. Role
-    ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s ruling. The relation
-    is CUSTODY - this tradition preserved a work that is not its own voice. As the Recognitions:
-    custody here, voice in ebionite-nazoraean-current.'
+    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. The
+    `transmission` role - the fourth relation - marks CUSTODY: this tradition preserved a
+    work that is not its own voice. As with the Recognitions: custody here, voice in ebionite-nazoraean-current.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Recognitions of Clement
   author: pseudo-clement
@@ -462,21 +458,19 @@ works:
   note: 'The pseudonymous case the brief flags (open question 4): attributed to Clement of
     Rome, not his, so filed under the ruled entity pseudo-clement. Scholarship ties the Clementina''s
     sources (Kerygmata Petrou etc.) to Jewish-Christian circles — hence ebionite-nazoraean-current
-    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr.
-    Both placements need Mark''s ruling; the Latin survives via Rufinus. Ruled 2026-08-26.
-    BOTH placements stand, and they are not in competition: ebionite-nazoraean-current because
-    the Kerygmata Petrou source-stratum behind the Clementina is the principal window onto
-    Jewish Christianity anywhere in this corpus, and that entry is `Contested - Evidentiary`,
-    which exists for exactly a disputed record; syriac-edessa-nisibis because composition
-    in Syria c. 300-320 falls inside its window. The residual stretch, stated rather than
-    hidden: the entry''s region is Edessa and Nisibis specifically, and Syrian is not the
-    same as Edessene. Non-exclusive assignment is what lets both facts be true at once. Role
-    ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s ruling. The relation
-    is CUSTODY - this tradition preserved a work that is not its own voice. Syriac preserves
-    part of the Clementine corpus; composition was Syrian but not demonstrably Edessene, and
-    this entry is Edessa and Nisibis. The VOICE assignment is ebionite-nazoraean-current,
-    which stays `tradition`. Custody here, voice there - which is what the role was added
-    to be able to say.'
+    — and its composition to 3rd/4th-century Syria (partly preserved in Syriac) — hence syr;
+    the Latin survives via Rufinus. BOTH placements stand, and they are not in competition:
+    ebionite-nazoraean-current because the Kerygmata Petrou source-stratum behind the Clementina
+    is the principal window onto Jewish Christianity anywhere in this corpus, and that entry
+    is `Contested - Evidentiary`, which exists for exactly a disputed record; syriac-edessa-nisibis
+    because composition in Syria c. 300-320 falls inside its window. The residual stretch,
+    stated rather than hidden: the entry''s region is Edessa and Nisibis specifically, and
+    Syrian is not the same as Edessene. Non-exclusive assignment is what lets both facts be
+    true at once. The `transmission` role - the fourth relation - marks CUSTODY: this tradition
+    preserved a work that is not its own voice. Syriac preserves part of the Clementine corpus;
+    composition was Syrian but not demonstrably Edessene, and this entry is Edessa and Nisibis.
+    The VOICE assignment is ebionite-nazoraean-current, which stays `tradition`. Custody here,
+    voice there - which is what the role exists to say.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Ecclesiastical History of Sozomen
   author: sozomen
@@ -502,10 +496,10 @@ works:
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite - Mark may want a ruling on where his voice sits.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+    he was also later branded an Encratite; where his voice ultimately sits between the two
+    traditions is still an open question needing a ruling. greek-apologists-second-century
+    holds this work alongside pahc, for the era''s outward-facing writing; pahc is kept because
+    the era and church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragments (Tatian)
   author: tatian
@@ -553,13 +547,12 @@ works:
   note: 'Pseudo-Clementine ascetic letters, generally placed in 3rd-century Syria/Palestine
     and preserved in Syriac. syr is a region-and-era guess, not a demonstrated Edessene provenance;
     the ascetic-celibate milieu also touches traditions with no census entry of their own.
-    Ruled 2026-08-26: kept with syriac-edessa-nisibis for the Syriac preservation and third-century
-    Syrian milieu, and given apocryphal-and-pseudepigraphal-literature alongside, which is
-    what these are - pseudo-Clementine letters written under a name that is not theirs. The
-    ascetic-milieu question in the original note is not resolved by either; it is noted and
-    not forced. Role ruled 2026-08-26: `transmission`, the fourth relation, added on Mark''s
-    ruling. The relation is CUSTODY - this tradition preserved a work that is not its own
-    voice. Pseudo-Clementine ascetic letters preserved in Syriac; the note already said syr
-    was a region-and-era guess rather than demonstrated Edessene provenance. Custody is the
-    honest claim.'
+    Kept with syriac-edessa-nisibis for the Syriac preservation and third-century Syrian milieu,
+    and given apocryphal-and-pseudepigraphal-literature alongside, which is what these are
+    - pseudo-Clementine letters written under a name that is not theirs. The ascetic-milieu
+    question in the original note is not resolved by either; it is noted and not forced. The
+    `transmission` role - the fourth relation - marks CUSTODY: this tradition preserved a
+    work that is not its own voice. Pseudo-Clementine ascetic letters preserved in Syriac;
+    syr is a region-and-era guess rather than demonstrated Edessene provenance. Custody is
+    the honest claim.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

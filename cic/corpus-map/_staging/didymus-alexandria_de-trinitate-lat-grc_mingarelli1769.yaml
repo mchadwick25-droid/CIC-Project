@@ -4,9 +4,7 @@ assignments:
   - work: "De Trinitate (On the Trinity, Three Books)"
     author: didymus-alexandria
     locus: "Book I proper begins at line 7019 of the vendored file (the file's
-      second 'LIBER PRIMUS' heading) — corrected 2026-09-08, Round 2 Opus review,
-      from a stale 'line 7002' reference the Round 1 header fix itself invalidated
-      by adding 17 lines to the file. Line 435's 'LIBER PRIMUS' heading is
+      second 'LIBER PRIMUS' heading). Line 435's 'LIBER PRIMUS' heading is
       Mingarelli's own prolegomena, not Didymus's text, and is not this locus"
     atlas_ids:
       - alexandria-catechetical
