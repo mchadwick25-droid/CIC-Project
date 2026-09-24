@@ -24,6 +24,14 @@ and pile sit one line apart and disagreement is visible on sight. A sweep key
 whose group has emptied is reported at the end of a run rather than silently
 producing nothing.
 
+EVERYTHING BELOW `HAND_MAINTAINED_MARKER` IN THE OUTPUT FILE IS PRESERVED, NOT
+GENERATED. A later editorial pass can add a section there (a cross-world
+finding, a placement question that doesn't fit this script's own per-work
+`needs-ruling` model) and a regeneration will not touch it - `main()` reads
+whatever already follows the marker in the existing file and reproduces it
+verbatim. This exists because a run once didn't do that and silently dropped
+a hand-added section (found 2026-09-24). See `extract_hand_maintained()`.
+
     python worlds/_cross-world/gen_needs_ruling.py
 """
 import collections
@@ -35,6 +43,28 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 MAP = ROOT / "cic" / "corpus-map"
+TARGET_FILE = pathlib.Path(__file__).resolve().parent / "NEEDS-RULING.md"
+
+# Everything from this marker to the end of the file is hand-maintained, not
+# derived from cic/corpus-map/ — later cleanup/editorial passes that add a
+# section here (a cross-world finding, a placement question that isn't a
+# per-work needs-ruling row) do not fit this script's own data model, and a
+# naive rewrite silently dropped exactly one such section (found 2026-09-24,
+# Live-Surface-Cleanup item 4 rulings) because nothing preserved it. A run
+# now reads whatever already follows this marker and reproduces it verbatim,
+# rather than overwriting it with the script's own fixed prose.
+HAND_MAINTAINED_MARKER = (
+    "<!-- HAND-MAINTAINED BELOW THIS LINE -->"
+)
+HAND_MAINTAINED_PLACEHOLDER = (
+    f"{HAND_MAINTAINED_MARKER}\n\n"
+    "## Hand-maintained addenda\n\n"
+    "Nothing here yet. Add a dated, hand-written section below this marker "
+    "for anything that doesn't fit the per-work `needs-ruling` model this "
+    "script generates above (a cross-world finding, a placement question "
+    "surfaced by a later editorial pass, and the like) — a regeneration "
+    "preserves everything from the marker line onward, verbatim.\n"
+)
 
 # The recurring questions, keyed by the entry the works were parked against.
 # Each is a ruling that clears everything beneath it at once.
@@ -69,6 +99,20 @@ SWEEPS = {
         "attribution and not about the shelf.",
 
 }
+
+
+def extract_hand_maintained(existing_text: str | None) -> str:
+    """Returns the hand-maintained tail of a previous run's output, verbatim,
+    for re-appending to a fresh run. `existing_text` is the previous
+    NEEDS-RULING.md content, or None if the file doesn't exist yet (first
+    run). Falls back to a placeholder section if the marker is missing from
+    existing content, so a future addition always has somewhere to go rather
+    than being silently unrecoverable."""
+    if existing_text is not None:
+        idx = existing_text.find(HAND_MAINTAINED_MARKER)
+        if idx != -1:
+            return existing_text[idx:].rstrip("\n") + "\n"
+    return HAND_MAINTAINED_PLACEHOLDER
 
 
 def load() -> dict:
@@ -350,9 +394,15 @@ def main() -> None:
         for o in orphans:
             print(f"  {o}")
 
-    target_file = pathlib.Path(__file__).resolve().parent / "NEEDS-RULING.md"
-    target_file.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"wrote {target_file.relative_to(ROOT)} — {len(works)} works, {assignments} assignments, "
+    existing = TARGET_FILE.read_text(encoding="utf-8") if TARGET_FILE.exists() else None
+    out.append(extract_hand_maintained(existing))
+
+    TARGET_FILE.write_text("\n".join(out).rstrip("\n") + "\n", encoding="utf-8")
+    try:
+        shown_path = TARGET_FILE.relative_to(ROOT)
+    except ValueError:
+        shown_path = TARGET_FILE
+    print(f"wrote {shown_path} — {len(works)} works, {assignments} assignments, "
           f"{len(filed)} groups, {sum(len(filed[t]) for t in filed if t in SWEEPS)} covered by a sweep")
 
 
