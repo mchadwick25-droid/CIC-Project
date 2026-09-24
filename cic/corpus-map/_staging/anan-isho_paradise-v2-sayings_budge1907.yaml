@@ -1,4 +1,4 @@
-# Vendored 2026-08-27, supplied by Mark, fulfilling desert manifest request G1.
+# Fulfils desert manifest request G1.
 source_file: anan-isho_paradise-v2-sayings_budge1907.txt
 assignments:
 - work: The Paradise of the Holy Fathers, Volume II - the Sayings of the Fathers of Egypt
@@ -9,8 +9,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'The Apophthegmata Patrum - this world''s central teaching corpus, and the source its
-    build was structured around while having no readable edition of it. Vendored at last on
-    2026-08-27. THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek alphabetical
+    build was structured around while having no readable edition of it until now.
+    THE RECENSION IS THE SYRIAC of ''Anan-Isho'', not the Greek alphabetical
     collection: numbering and often wording differ, so any quote is verbatim FOR BUDGE and must
     say so in its locus. Amma Sarah is present (six sayings, as "Mother Sarah"); Syncletica and
     Theodora are NOT, under any spelling - the Greek collection carries them and has no

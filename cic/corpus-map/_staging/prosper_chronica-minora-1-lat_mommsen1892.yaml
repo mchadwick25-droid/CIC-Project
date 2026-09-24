@@ -1,9 +1,9 @@
 # Mommsen's MGH Chronica Minora, Vol. I (1892): a multi-chronicle
-# compilation whose target text for this world is Prosper of Aquitaine's own
-# Epitoma Chronicon. Vendored 2026-09-08. NOTE: the same archive.org item is
-# also used, under a different filename, by a sibling Donatism-world build
-# thread for a different target text in the same volume -- see both worlds'
-# own Decision Logs.
+# compilation whose target text for this world is Prosper of
+# Aquitaine's own Epitoma Chronicon. NOTE: the same archive.org item is
+# also used, under a different filename, by a sibling Donatism-world
+# build thread for a different target text in the same volume - see
+# both worlds' own Decision Logs.
 source_file: prosper_chronica-minora-1-lat_mommsen1892.txt
 
 assignments:

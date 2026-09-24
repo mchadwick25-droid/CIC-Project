@@ -37,11 +37,10 @@
 # SCHEMA, per work:
 #   work_id:            slug, stable, referenced by canonical addresses below.
 #                       Also the foreign key a world's own `source` record can
-#                       carry in its own (optional) `work_id` field, added
-#                       2026-09-02 per Mark's sign-off: "optional/best effort
-#                       and existing where possible" - not required, not
-#                       backfilled by guessing, only set where a source
-#                       record's own author+work+edition already and
+#                       carry in its own (optional) `work_id` field -
+#                       optional/best-effort and existing where possible, not
+#                       required, not backfilled by guessing, only set where a
+#                       source record's own author+work+edition already and
 #                       unambiguously match one entry here. Cross-checked by
 #                       cic/engine/works_registry.py's record_work_id_usage(),
 #                       not by the record schema itself.
@@ -78,7 +77,7 @@ works:
     original_language: Greek
     composed: "c. 360 CE"
     external_ids:
-      cpg: "2101"          # verified via WebSearch, 2026-09-02 -- the Greek
+      cpg: "2101"          # verified via WebSearch -- the Greek
                             # original; CPG 2101a is the anonymous early
                             # Latin version, CPG 2101 (again) covers
                             # Evagrius of Antioch's Latin translation --
@@ -114,9 +113,9 @@ works:
     original_language: Latin
     composed: "397-400 CE"
     external_ids:
-      cpl: "251"            # verified via WebSearch, 2026-09-02
+      cpl: "251"            # verified via WebSearch
       cpg: null
-      wikidata: "Q372941"   # verified via WebSearch, 2026-09-02
+      wikidata: "Q372941"   # verified via WebSearch
       ccel_work: null
     expressions:
       - translator: "J. G. Pilkington"
@@ -155,7 +154,7 @@ works:
     notes: >
       ~82 individually addressable letters inside one div1 (id="iv",
       "Cyprian" -- confirmed by direct read of the vendored file's own
-      structure, 2026-09-02). Flagged in cic/texts/README.md's own ENTRIES
+      structure). Flagged in cic/texts/README.md's own ENTRIES
       note on this file as "primary-source material for the not-yet-built
       Latin Pastoral-Congregational Christianity world" and structured
       letter-by-letter specifically because that future world will need to

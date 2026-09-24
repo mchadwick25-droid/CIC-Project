@@ -1,6 +1,5 @@
-# Written 2026-08-27 by desert's unopened-volume sweep. Both volumes were
-# already vendored and assigned elsewhere; these rows record that
-# desert-monasticism now opens them and for exactly what.
+# These rows record that desert-monasticism now opens both volumes,
+# already vendored and assigned elsewhere, and for exactly what.
 source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 assignments:
 - work: De Principiis (On First Principles), in Rufinus' Latin

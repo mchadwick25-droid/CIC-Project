@@ -1,6 +1,6 @@
-# Written 2026-08-27 by the fleet unopened-volume sweep. The file was vendored
-# earlier the same day; these rows add the three further Atlas entries that now
-# open it, alongside the desert-monasticism rows already staged.
+# The file was vendored the same day these rows were written; the rows
+# add the three further Atlas entries that now open it, alongside the
+# desert-monasticism rows already staged.
 source_file: palladius_paradise-v1-syriac_budge1907.txt
 assignments:
 - work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)

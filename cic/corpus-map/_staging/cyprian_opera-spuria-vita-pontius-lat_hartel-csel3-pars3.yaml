@@ -1,6 +1,6 @@
 # Hartel's CSEL 3 Pars III (1871): Cyprian's spuria, the Vita Caecilii Cypriani
-# attributed to Pontius, and the Acta Proconsularia. Latin source vendored
-# 2026-09-08, closing Source_Acquisition_Manifest G1's own Pars III gap.
+# attributed to Pontius, and the Acta Proconsularia. This Latin source
+# closes Source_Acquisition_Manifest G1's own Pars III gap.
 source_file: cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 
 assignments:

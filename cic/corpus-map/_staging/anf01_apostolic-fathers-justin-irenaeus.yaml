@@ -96,9 +96,8 @@ assignments:
   note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
     for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
     other works belong to. Doubt is the date - some put it after the entry''s 200 CE close.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+    greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
 - work: Epistle to the Philippians (Polycarp)
   author: polycarp
   locus: div2 4.2 under div1 'POLYCARP'
@@ -140,11 +139,10 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Later pseudepigrapha (the volume''s own intro at 5.13 calls them spurious, generally
-    dated 4th c.). Best guess is the entry whose figure they impersonate, but a 4th-century
-    forgery sitting as `tradition` in a 70-200 CE entry is exactly the kind of call Mark should
-    make, not me. Resolved 2026-08-26: this is the pseudepigrapha case exactly - a 4th-century
-    forgery in a first-century figure''s name - and apocryphal-and-pseudepigraphal-literature
-    was added to hold that class. pahc is kept because the figure they impersonate is its.'
+    dated 4th c.). Best guess is the entry whose figure they impersonate. This is the pseudepigrapha
+    case exactly - a 4th-century forgery in a first-century figure''s name - and
+    apocryphal-and-pseudepigraphal-literature holds that class. pahc is kept because the figure
+    they impersonate is its.'
 - work: The Martyrdom of Ignatius
   author: martyrdom_of_ignatius
   locus: div2 5.25 under div1 'IGNATIUS'
@@ -165,7 +163,7 @@ assignments:
   confidence: assigned
   note: 'c. 70-135, general church. Already cited by pahc.source.barnabas. An Alexandrian
     provenance is often argued; alexandria-catechetical''s window opens c. 150, so it is not
-    added here - a reviewer may want to.
+    added here - worth reconsidering if the window is read more loosely.
 
     '
 - work: Fragments of Papias
@@ -186,9 +184,9 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: assigned
-  note: 'Rome, c. 155. Already cited by pahc.source.justin-first-apology. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: 'Rome, c. 155. Already cited by pahc.source.justin-first-apology. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
 - work: The Second Apology
   author: justin_martyr
   locus: div2 8.3 under div1 'JUSTIN MARTYR'
@@ -197,9 +195,9 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: assigned
-  note: 'Companion piece to the First Apology, same setting and window. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: 'Companion piece to the First Apology, same setting and window. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
 - work: Dialogue with Trypho
   author: justin_martyr
   locus: div2 8.4 under div1 'JUSTIN MARTYR'
@@ -211,9 +209,8 @@ assignments:
   note: 'Already cited by pahc.source.justin-dialogue. Ch. 47''s discussion of Torah-observant
     Christians is also one of the era''s few direct witnesses to the ebionite-nazoraean-current
     material - noted here rather than assigned, since it is a few chapters of a 75,000-word
-    work. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
-    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
-    era and church-world really are its.'
+    work. greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
 - work: The Discourse to the Greeks
   author: justin_martyr
   locus: div2 8.5 under div1 'JUSTIN MARTYR'
@@ -224,9 +221,8 @@ assignments:
   confidence: provisional
   note: 'Printed under the JUSTIN MARTYR div1; authenticity has long been questioned. Filed
     with its transmitted author per §6.2 - derive, don''t assert - with the doubt recorded.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+    greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
 - work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
@@ -235,10 +231,9 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. 2026-08-26:
-    greek-apologists-second-century added alongside - the entry the corpus assignment showed
-    was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
+    greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
 - work: On the Sole Government of God
   author: justin_martyr
   locus: div2 8.7 under div1 'JUSTIN MARTYR'
@@ -247,10 +242,9 @@ assignments:
   - greek-apologists-second-century
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. 2026-08-26:
-    greek-apologists-second-century added alongside - the entry the corpus assignment showed
-    was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted.
+    greek-apologists-second-century holds this work for the era''s outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.'
 - work: On the Resurrection (fragments)
   author: justin_martyr
   locus: div2 8.8 under div1 'JUSTIN MARTYR'
@@ -318,8 +312,8 @@ assignments:
   confidence: provisional
   note: 'AH I.26.2 and scattered notices (20 ''Ebionites'' hits in the file) are among the
     earliest external descriptions this contested entry has. Provisional because the relevant
-    material is a small fraction of the work; a reviewer may prefer a locus-level extract
-    instead.
+    material is a small fraction of the work; a locus-level extract instead of the whole work
+    may be worth considering.
 
     '
 - work: Fragments from the Lost Writings of Irenaeus
