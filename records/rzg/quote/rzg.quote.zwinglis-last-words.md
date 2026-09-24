@@ -25,6 +25,6 @@ speaker_or_author: Huldrych Zwingli, as reported by Oswald Myconius
 license: verbatim
 modern_lens_note: This is reported speech, preserved by a close friend not present at the exact moment,
   not an independently witnessed direct quotation - we hold it the same way Myconius himself did.
-modern_rendering: What is so terrible about this? They can kill my body. They cannot kill my soul.
+modern_rendering: What evil is there in this? It is true, they can kill the body, but not the soul.
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.
