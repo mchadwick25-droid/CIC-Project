@@ -48,8 +48,8 @@ relations:
 - type: associated-with
   target: cappadocian.dw.unwritten-carries-too
 modern_rendering: >-
-  I could spend the rest of the day naming the unwritten mysteries of the church. I'll say
-  nothing of the rest. But of the very confession of our faith in Father, Son, and Holy
+  Time would fail me if I attempted to recount the unwritten mysteries of the church. I'll
+  say nothing of the rest. But of the very confession of our faith in Father, Son, and Holy
   Spirit -- what is the written source? Suppose it is granted that, just as we are
   baptized, so too under the obligation to believe, we make our confession in the same
   terms as our baptism. Suppose it is granted that this follows the tradition of our

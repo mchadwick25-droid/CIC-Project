@@ -55,7 +55,7 @@ modern_rendering: >-
   Spirit.' At another, 'through the Son, in the Holy Spirit.' Some of those present
   attacked me for this. They said I was introducing terms that were novel and, at the same
   time, mutually contradictory. You, however, have expressed a different opinion --
-  chiefly with a view to benefiting them. Or, if they are wholly incurable, for the
+  chiefly with a view to benefiting them, or, if they are wholly incurable, for the
   security of those who might fall in with them. You said that some clear instruction
   ought to be published concerning the force underlying the syllables we use. I will
   therefore write as briefly as I can. I will try to lay down some agreed principle for
