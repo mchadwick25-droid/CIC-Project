@@ -28,9 +28,9 @@ modern_rendering: >-
   earnest attention to the matter, I happened to meet certain non-Greek writings -- too
   old to compare with the opinions of the Greeks, and too divine to compare with their
   errors. I was led to put faith in these writings by several things. The language was
-  plain, and the writers were unpolished. They showed real foreknowledge of future
-  events, and their precepts were excellent. They also taught that one Being governs the
-  universe.
+  plain. The writers were unpolished. They showed real foreknowledge of future events.
+  Their precepts were excellent. And there was the declaration that the government of
+  the universe is centered in one Being.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-

@@ -23,15 +23,16 @@ text: >-
   For this reason it is fitting for the sounders of trumpets, the preachers of the Church, to warn all (who are in) the covenant of God before baptism, and to those who choose for themselves virginity and holiness, young men and virgins and those (wishing to. become) holy; and for the preachers to warn them and say: "He who sets his heart upon the natural state of fellowship (i.e.~in matrimony), let him become united before baptism lest, perhaps, he fall in the conflict and be killed. And he who is afraid of this part of the struggle let him turn back lest, perhaps, he break the heart of his brethren as well as his own heart. And he who loves possessions let him turn back from the army lest, perhaps, when the battle shall prevail against him he should remember his possessions and turn back to them, for there is disgrace to him who turns back from the conflict".
 modern_rendering: >-
   For this reason it is right for the preachers of the Church - the ones who
-  sound the trumpet - to give a warning before baptism. They should warn
-  everyone entering God's covenant: the young men, the virgins, all who are
-  choosing a holy single life. The warning goes like this. If your heart is
-  set on marriage, then marry before your baptism. Otherwise you may fall in
-  the fight and be killed. And if you are afraid of this part of the fight,
-  turn back now, so that you do not break your brothers' hearts along with
-  your own. And if you love your possessions, turn back from the army too -
-  or else, when the battle grows fierce, you may remember what you own and
-  retreat to save it, and that is a disgrace.
+  sound the trumpet - to warn everyone in God's covenant before baptism: those
+  who choose for themselves virginity and holiness, the young men and the
+  virgins, and those wishing to become holy. The preachers are to warn them
+  and say this. If your heart is set on marriage, then marry before your
+  baptism. Otherwise you may fall in the fight and be killed. And if you are
+  afraid of this part of the fight, turn back now, so that you do not break
+  your brothers' hearts along with your own. And if you love your
+  possessions, turn back from the army too - or else, when the battle grows
+  fierce, you may remember what you own and retreat to save it, and that is
+  a disgrace.
 speaker_or_author: Aphrahat, Demonstration VII.20
 license: verbatim
 modern_lens_note: >-
