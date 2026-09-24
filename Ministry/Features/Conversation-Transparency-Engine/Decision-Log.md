@@ -5042,3 +5042,21 @@ Schema.md` §4 gained one paragraph defining what a `modern_term`
 record's `origin_year` means (the modern-sense date, not first
 attestation) as plain rule text, so the next record of this type is
 built against a definition instead of tribal knowledge.
+
+**Round 3 (same day, this PR's last round under the three-round cap):**
+round 2's own `distinguishing_claim` still read like a source record,
+not participant-facing prose - field names (`modern_sense`), a record
+id (`_fleet.contested.theophilus-triad-referent`), a spec citation
+("spec §5 bridge"), and one sentence of pure engine mechanism ("the
+Facilitator strips the modern label and passes the underlying subject
+to the voice term-free") all leaked into a field the Facilitator bridge
+turn (`engine/m4/facilitator_turns.py`) speaks to a participant. Rewrote
+it as plain prose carrying the same substance (earliest surviving use
+c. 169-181, with 188 disclosed; already a familiar word; the triad of
+God, His Word, His Wisdom; Tertullian's use from 208 or later; the
+developed doctrine's own later formation at Nicaea, 325; the referent
+question left open) with no field names, ids, or mechanism language.
+Measured against `engine.m1.fk.fk_grade` (this project's own hermetic
+FK implementation): grade 8.77, seven sentences, longest 23 words,
+average 14.4 words/sentence - inside the CLAUDE.md target band (FK 8-10,
+sentences 12-20 words average, nothing over 25).
