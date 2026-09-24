@@ -2030,3 +2030,21 @@ Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defect
 `"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (checked against an
 actually-cleaned `packages/` tree again, per the now-standing discipline from OG-29/OG-30); `table.html`'s
 own `WORLDS` array literal re-validated with `node --check` and a direct `eval` after editing.
+
+## OG-32. `witt.source.marburg-articles`: the Marburg Articles remain unvendored, access blocked
+
+**Status: OPEN, awaiting acquisition.**
+
+Found 2026-09-24 during the Live-Surface-Cleanup pass (`tools/check_live_commentary.py`'s ROUTE
+classification) on `records/witt/source/witt.source.marburg-articles.md`. The record's own body
+names this directly: the Marburg Articles (3 October 1529) are a partly-native primary document —
+the fourteen agreed articles and the fifteenth's stated Eucharistic disagreement, a text this
+world's own leaders put their names to — but `kind: unvendored`, `rights_status: "In-copyright; not
+vendored - access blocked"`. Doc_01 §7 names this acquisition as its own open item 1. Until
+acquired, the record is licensed for the Lutheran position and the break as the signed text states
+them, never for Zwingli's or Oecolampadius's position beyond the signed wording.
+
+Not a new defect: the record's own prior text already carried this as a locally-embedded note
+("Doc_01 open item 1 / §7") that the cleanup pass removed as commentary per its own discipline
+(open-item framing doesn't belong inline in a live record); this entry is that same open item,
+now durable here instead. No other action taken on the underlying acquisition gap by this pass.

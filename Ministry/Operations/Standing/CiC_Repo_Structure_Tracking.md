@@ -622,3 +622,17 @@ left to Mark rather than assumed.
 **Convention applied:** Superseded material → `Archive/`; nothing deleted without instruction (CLAUDE.md line 55). Every path moved recorded in `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md` per this tracking file's own standing rule (P11 of the frozen target tree, 2026-09-14).
 
 **Status:** ready for path check and PR.
+
+---
+
+## 2026-09-24 — Live-Surface-Cleanup (witt PR): `records/WORLDS_REGISTRY_LOG.md` moved out of `records/`
+
+**Context.** Live-Surface-Cleanup program (`tools/check_live_commentary.py`, merged PR #498): `records/` is a live/canonical surface and must hold only current, compiled content, not decision logs. `records/WORLDS_REGISTRY_LOG.md` is itself a decision log by its own header ("this file holds why it says what it says") — the check tool's own `PROTECTED_REGISTRY_LOG` rule already recognizes it as the registry's designated decision-log rather than a fresh commentary finding, so the move relocates it to where CLAUDE.md says decision logs belong rather than treating its content as something to edit.
+
+**Action.** `git mv records/WORLDS_REGISTRY_LOG.md Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`, contents untouched. Root `README.md`'s `Ministry/` row updated to name the file's new location and the reason for the move; `records/` row needed no change (it never named this file individually).
+
+**Tracking:** entry also added to `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md` per this file's own standing rule.
+
+**Path check:** `python3 tools/check_paths.py --baseline tools/check_paths_baseline.txt` run after the move (see this PR's own body for the full result).
+
+**Status:** part of the witt PR, the first of the Live-Surface-Cleanup program's per-world PRs.
