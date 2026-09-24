@@ -63,6 +63,8 @@ A bishop of an urban African congregation, across this world's full span (258–
 
 ## Part Four — The Gemini Generation Prompt
 
+**[REVISED 2026-09-24 — object updated from the certificate to the ransom purse, per OG-1's resolution. Everything else (pose, face, dress, palette, style lock) is unchanged from the approved 2026-09-15 brief; only the held object and its two paragraphs below differ from the original prompt.]**
+
 > A painterly fine-art oil portrait in the manner of an aged canvas — visible canvas weave and fine craquelure.
 >
 > Bust portrait: head and chest only, cropped at mid-chest, against a plain warm cream ground.
@@ -71,21 +73,23 @@ A bishop of an urban African congregation, across this world's full span (258–
 >
 > He wears a hooded African travelling cloak (*birrus*) of coarse woven oatmeal-grey wool — flat, tightly woven cloth with a visible weave. The hood is pushed back onto his shoulders, visible as a folded mass of the same flat woven cloth. Under it, a dull ochre-brown tunic. No ornament, no jewellery, no insignia.
 >
-> In both hands at chest height, turned toward the viewer, a single small flat slip of papyrus held open — one loose sheet, bearing only faint indistinct marks suggesting handwriting.
+> In both hands at chest height, held toward the viewer, a small leather drawstring purse (a *sacculus* — the ordinary money-pouch of Roman daily life, not a decorative or ceremonial object) — plain, worn, unornamented leather, cinched at the neck with its own leather cord, its body visibly full and slightly rounded with the weight of coin inside. He holds it the way a man holds something he is about to send away, not something he is keeping.
 >
 > Solid and fully opaque. No glow, halo or backlight. Wide landscape aspect ratio.
 
-**Exclude:** fleece, shearling, sheepskin, fur, quilted or napped fabric, any modern-looking coat; old, elderly, frail or gaunt appearance; white hair; grey beard; **legible or pseudo-legible writing of any kind**; grey or cool background; full-length figure; codex, bound book, rolled scroll, document case, wax tablet; halo, nimbus, glow, backlight; mitre, crozier, cross, ring, stole, pallium, any vestment; jewellery.
+**Exclude:** fleece, shearling, sheepskin, fur, quilted or napped fabric, any modern-looking coat; old, elderly, frail or gaunt appearance; white hair; grey beard; grey or cool background; full-length figure; **codex, bound book, rolled scroll, document case, wax tablet, papyrus, parchment, or any written-text object of any kind**; **visible coins, spilled coins, or coins outside the purse**; any legible or pseudo-legible writing, marking, or embroidery on the purse; a modern coin purse, wallet, velvet pouch, drawstring gift bag, or any style reading as later than the 3rd–4th century; a jeweled, tasseled, or otherwise ornamented purse; halo, nimbus, glow, backlight; mitre, crozier, cross, ring, stole, pallium, any vestment; jewellery.
 
-**Avoided, and why:** any likeness of Cyprian or Augustine, or attributes evoking them (the Representative speaks for the congregations, not for the two men who wrote about them); a rural or desert setting (Doc_05 §6.9); renunciant/monastic dress register (Albina's and Chilo's, per the 2026-07-24 cross-contamination caution); legible Latin on the certificate (**invented names on a document would be a fabrication in a build whose first rule is never to invent**, so readable pseudo-Latin is out).
+**Avoided, and why:** any likeness of Cyprian or Augustine, or attributes evoking them (the Representative speaks for the congregations, not for the two men who wrote about them); a rural or desert setting (Doc_05 §6.9); renunciant/monastic dress register (Albina's and Chilo's, per the 2026-07-24 cross-contamination caution); visible coins or an itemised sum (Cyprian's letter states the amount in words, not a countable image, and inventing a specific coin count or coinage type the letter doesn't describe would be exactly the fabrication this build's first rule bars); a purse ornate or fine enough to read as a bishop's own wealth rather than the church's collected gift (Doc_04's own grounding is corporate — "collected here … by the contributions of the clergy and people," not one man's money).
+
+**One honesty flag this revision owes the record.** Cyprian's letter states a sum and a mechanism; it does not describe a container. A plain drawstring purse is this brief's own visual stand-in for "a sum of money, sent" — the same kind of necessary, disclosed inference the object system already makes elsewhere (Theon's scroll stands for "a text," not a specific described scroll). It is INFERENCE for the *object's form*, not for the *fact* it represents, which is Documented (*Ep.* LIX §3, quoted in full above).
 
 ---
 
 ## Participant-facing text
 
-**Alt text** (house template, written from the actual image):
+**Alt text** (house template, written from the actual image) **[PROVISIONAL 2026-09-24 — rewritten to match the revised prompt above, ahead of the image itself being regenerated; re-verify against the actual output once generated, per this template's own "written from the actual image" rule]:**
 
-> Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small papyrus sheet open in both hands, painted against a warm neutral ground.
+> Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small leather purse in both hands, painted against a warm neutral ground.
 
 **Caption** (names the tradition, never describes the image — the binding rule from the 2026-09-03 change order):
 
