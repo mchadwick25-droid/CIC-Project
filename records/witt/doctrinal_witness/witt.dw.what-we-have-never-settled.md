@@ -96,8 +96,7 @@ record's own body note calling it "the build's own account... this world's own h
 concerns an origin story rather than a doctrine, because F6-I's own third canon question -- the hardest
 true thing about our people -- is squarely about self-image, and a founding image turning out thinner than
 its popular telling is exactly that kind of hard truth. The 1525/1543 material is carried at exactly the
-existence-only register witt.core.witt's own .thinness and .cautions fields now fix (corrected
-2026-09-19, go-live adversarial review Round 1, B-1), never extended past it.
+existence-only register witt.core.witt's own .thinness and .cautions fields now fix, never extended past it.
 
 CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; B-1, BLOCKING,
 NOT RESOLVED on first pass): this record was the sixth location carrying the same 1525/1543

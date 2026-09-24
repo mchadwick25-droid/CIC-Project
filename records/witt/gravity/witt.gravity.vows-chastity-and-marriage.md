@@ -72,7 +72,7 @@ description: 'The monastic estate refused, the married household and the married
   Teutonic Knights told to ''give up your unchaste chastity and to marry'' (v3 20887-20908); marriage
   as ''the most common and noblest estate, which pervades all Christendom'' (LC 1687-1727); ''men, and
   that, priests, are cruelly put to death, contrary to the intent of the Canons, for no other cause than
-  marriage'' (AC 751-767). SIX-TEST SUMMARY (Doc_04 §3 G9): Repetition passes across seven streams including
+  marriage'' (AC 751-767). SIX-TEST SUMMARY: Repetition passes across seven streams including
   institutional evidence (the Teutonic Order''s secularization); Dependency passes -- G4''s household
   site is the married household, G7''s ''most common and noblest estate,'' G6''s magistrates punish ''the
   scandals'' of impure celibacy; Formation passes as taught and as the founder''s own household (Kate,
@@ -88,7 +88,7 @@ description: 'The monastic estate refused, the married household and the married
   Augustinian order''s, is a comparative question this library cannot answer, logged as a cross-build
   item rather than resolved. Register-and-voice spread: 3/4 plus one filtered household sentence (Kate,
   as object of patience, not a voice on the term). Reception-side status: the founder''s own household,
-  at triple remove. FORCES-CONNECTION NOTATION (Doc_04 §3 G9; Doc_08 §5): generated from the inherited
+  at triple remove. FORCES-CONNECTION NOTATION: generated from the inherited
   monastic apparatus refused -- the founder was a friar, the world''s martyrs were monks, and the ''unchaste
   chastity'' it names is its own former estate [1B-3]; intensified in both directions under the papal
   and territorial forces -- married priests ''cruelly put to death'' is the confession''s own report of

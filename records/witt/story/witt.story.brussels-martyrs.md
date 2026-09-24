@@ -18,9 +18,8 @@ confidence:
     martyrs'' last words rendered as reported speech are exactly what CF V7.4 names as hagiographic narrative,
     the named subtype within Tier 3 - "the idealized portrait... shaped by recognizable hagiographic conventions."
     The two men are named "John" and "Henry" in the vendored text itself; "Augustinian" does not occur
-    anywhere in that text in connection with them, and the Registry''s own technical correction (2026-09-15)
-    fixed an earlier, unverified "Augustinian friars" wording to what the text actually supports (Doc_09
-    witt-S04; Source Registry R30).'
+    anywhere in that text in connection with them, and the Registry''s own technical correction
+    fixed an earlier, unverified "Augustinian friars" wording to what the text actually supports.'
 sources:
 - source_id: witt.source.luther-ein-neues-lied-wir-heben
   locus: Hymn V, "A Song of the Two Christian Martyrs burnt at Brussels by the Sophists of Louvain in
@@ -104,7 +103,7 @@ Converted at B-4 from Doc_09 witt-S04 (witt_Doc_09_Story_Inventory.md SS2), incl
 own sharper hagiographic-convention justification (supplied at Doc_09 Discipline 4, not present in
 Doc_02 §10's earlier split). Quotations verified verbatim by this authoring pass directly against
 cic/texts/luther_hymns_bacon-allen.txt, lines 1741-1805 (Hymn V, stanzas 1-6). Names corrected per the
-Registry's own 2026-09-15 technical correction (Source Registry R30): "two young monks, named John and
+Registry's own technical correction: "two young monks, named John and
 Henry," not "Augustinian friars" - the vendored text's own wording.
 
 Register note: close-third-person throughout; reported ballad speech is always framed as "the ballad's

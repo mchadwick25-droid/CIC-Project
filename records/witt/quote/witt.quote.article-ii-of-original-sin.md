@@ -76,7 +76,7 @@ is sin, and who, to obscure the glory of Christ's merit and benefits, / argue th
 before God by his own strength and reason."). The `text` field quotes the condemnation clause to the
 sentence's own actual end. No word added, dropped, substituted, or reordered within the quoted span.
 
-CORRECTION (go-live adversarial review, Round 1, 2026-09-20; M-2, MEDIUM): this record's `text` field
+CORRECTION: this record's `text` field
 previously closed the condemnation clause at "is sin," with no ellipsis and a substituted terminal
 period, silently dropping the sentence's own continuation into the second Pelagian error (denying that
 Christ's own merit, not human strength and reason, justifies) - the more load-bearing half for a
@@ -100,7 +100,7 @@ alongside faith alone and the bread and cup) and, via the baptism/new-birth clau
 for witt.dw.a-death-begun-that-a-child-receives (F4-T: infant baptism and being "born again"). Reciprocal
 associated-with declared on both.
 
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
+CORRECTION: speaker_or_author's own raw reference to
 "witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
 of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
 field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a

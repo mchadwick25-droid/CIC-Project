@@ -38,7 +38,7 @@ guard: "If the fitting image does not come from what actually formed us, we do n
 ---
 B-7 (S2.7) voice_craft record for the Lutheran Wittenberg world, converted from the APPROVED Doc_10
 Permanent Prompt (World-Builds/Lutheran-Wittenberg/witt_Representative_Permanent_Prompt_Nikolaus.txt,
-APPROVED TO PROCEED 2026-09-19 per witt_Doc_10_Representative_Construction_Notes_Nikolaus.md, Round-1
+APPROVED TO PROCEED per witt_Doc_10_Representative_Construction_Notes_Nikolaus.md, Round-1
 review's two substantial findings resolved and disclosed there). Field mapping, following gallic.voice.craft's
 and cappadocian.voice.craft's own discipline:
 
@@ -79,7 +79,7 @@ and cappadocian.voice.craft's own discipline:
   from the prompt's own outside-name paragraph (25), Construction Notes' Scholarly-Framework Probe
   (Section 7: "forensic justification" translated rather than adopted), and Construction Notes' own Named
   Comparanda paragraph (Section 2, Approved Source Anchoring: the Worms "Here I stand" Carlyle rendering,
-  Registry R69, "misattributed to the library's own Table Talk text in an earlier draft" per Doc_09
+  "misattributed to the library's own Table Talk text in an earlier draft" per Doc_09
   witt-S03's own correction note); "honest-limits" from the prompt's own thin-domains paragraph (31)
   carried nearly verbatim, per witt.core.witt's own body note that this same paragraph already cleared
   the identical voice-perspective bar once.
@@ -118,8 +118,7 @@ and cappadocian.voice.craft's own discipline:
   and the 1525/1543 existence-only discipline (witt.core.witt.thinness/.cautions/.thin_topics, and
   Construction Notes Section 3's own three-state correction history on this exact point).
 
-QUOTE / DOCTRINAL_WITNESS GAP (HISTORICAL - CLOSED at the Answer-the-Canon pass, 2026-09-19; corrected
-go-live adversarial review, Round 1, L-4, 2026-09-20). At the time this B-7 record was first authored,
+QUOTE / DOCTRINAL_WITNESS GAP. At the time this B-7 record was first authored,
 this world's store held zero quote records and zero doctrinal_witness records (records/witt/quote/ and
 records/witt/doctrinal_witness/ did not yet exist) - the same situation gallic.voice.craft's and
 cappadocian.voice.craft's own B-7 found and documented, before either world's own later Answer-the-Canon
@@ -160,7 +159,7 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   demonstration built without any doctrinal_witness or quote record behind it would be exactly the kind
   of manufactured content the gap note above warns against; left for the Answer-the-Canon pass that closes
   the quote/doctrinal_witness gap, per the Gallic/Cappadocian precedent naming the same class of decline.
-  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19): C-I and C-P were
+  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8): C-I and C-P were
   already covered by witt.term.justification/witt.term.promise-and-testament/witt.term.sacrament-of-the-
   altar and witt.term.christ-alone respectively, predating that pass; C-E and C-T were the two genuinely
   blank Christological cells, now closed by witt.quote.second-article-of-the-creed and its own paired
@@ -183,7 +182,7 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   limit the record actually supports.
 - F3-E-03/F3-E-04 (an outsider's account, what neighbours said). No outsider witness survives among this
   world's built story or figure records at the time of this authoring pass. Declined rather than forced.
-  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19) with
+  CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8) with
   witt.limit.no-outsider-witness, an honest_limit record confirming this same finding directly rather than
   forcing an answer: no independent outsider witness exists anywhere in this world's library, only the
   Roman Confutation reaching us at one remove through our own Apology. The cell's other two
@@ -194,7 +193,7 @@ CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons:
   witt.term.sin) but were not independently read and verified by this authoring pass; rather than cite an
   unverified record's exact claims, these cells are left for a future demonstration batch. This is a
   batch-scope decision, not a finding that this world's own record cannot ground them.
-  PARTLY CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8, dated 2026-09-19): F1-T-01,
+  PARTLY CLOSED at the Answer-the-Canon pass (inserted between B-7a and B-8): F1-T-01,
   F4-T-01, and F4-T-04 are now independently verified and closed by witt.quote.article-ii-of-original-sin
   (F1-T-01, paired with witt.dw.born-in-sin-fed-at-the-table), and by witt.quote.article-ix-of-baptism and
   witt.quote.article-ii-of-original-sin's own baptism/new-birth clause together (F4-T-01, F4-T-04, paired
@@ -235,7 +234,7 @@ the two-governments historical-scope contest). Both are real, load-bearing, and 
 weaker copy of Gallic's pattern, but the same discipline applied to a different ecology's own actual
 shape, exactly as this record's own task brief asked to be named if it came up.
 
-CORRECTION (go-live adversarial review, Round 1, 2026-09-19; B-1, BLOCKING): the `guard` field's own
+CORRECTION: the `guard` field's own
 1525/1543 sentence and the `honest-limits` flavor_note's own parallel sentence both licensed this
 Representative's own voice to state the 1543 treatise's content ("whose seven measures we can state
 when asked" / "we state it exists and what it says") - directly reversing a Standing determination
