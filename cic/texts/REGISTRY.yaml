@@ -2544,3 +2544,59 @@
     world - the only English translation (Homann, 2003) is in copyright and
     restricted. OCR QUALITY FLAG: title page severely garbled; body clean on
     spot-check.
+- filename: gregory-great_dialogues_gardner1911.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    The Dialogues of Saint Gregory, surnamed the Great (complete, all four
+    Books), tr. "P.W." (1608), re-ed. Edmund G. Gardner (London: Philip Lee
+    Warner, 1911). Explicit NOT_IN_COPYRIGHT confirmed directly on archive.org
+    item dialoguesofsaint00greg, 2026-09-24 (re-verified independently, not
+    just carried over from the 2026-09-21 dossier note). Book II is the only
+    surviving Life of St. Benedict of Nursia. Identified as a verified
+    acquisition lead in roman-church-gregorian_Source_Readiness_Dossier.md §3.
+- filename: gregory-great_moralia-in-job-books-i-x_bliss1844.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job (Moralia in Job), Vol. I, Parts I-II, Books
+    I-X (Oxford: John Henry Parker, 1844). Library of the Fathers series.
+    Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
+    moralsonbookofjo01greguoft. First of four parts vendored together this
+    session to complete the whole work (Books I-XXXV, no gaps). The
+    dossier (2026-09-21) had verified only one of the four parts
+    individually (Books XXX-XXXV, per its own note, though see that part's
+    own file for a book-range correction found this session); the other
+    three, including this one, were searched for, located, and independently
+    verified this session.
+- filename: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. II, Parts III-IV, Books XI-XXII (Oxford:
+    John Henry Parker, 1845). Explicit NOT_IN_COPYRIGHT confirmed on
+    archive.org item moralsonbookjob02igoog. Second of four parts vendored
+    together this session - see gregory-great_moralia-in-job-books-i-x_bliss1844.txt's
+    own notes.
+- filename: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. III, First Part (Parts V-VI), Books
+    XXIII-XXIX (Oxford: John Henry Parker, 1847). Explicit NOT_IN_COPYRIGHT
+    confirmed on archive.org item moralsonbookjob00igoog. Third of four parts
+    vendored together this session - see gregory-great_moralia-in-job-books-i-x_bliss1844.txt's
+    own notes. This item's own book range (Books XXIII-XXIX) was directly
+    re-verified against its own title page and contents this session,
+    correcting the source-readiness dossier's provisional note (2026-09-21),
+    which had attributed Books XXX-XXXV to this identifier - that range
+    belongs instead to gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt.
+- filename: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. III, Second Part, Books XXX-XXXV
+    (completing the work) (Oxford: John Henry Parker, 1850). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item moralsonbookjob01igoog.
+    Fourth and last of the four parts vendored together this session - see
+    gregory-great_moralia-in-job-books-i-x_bliss1844.txt's own notes.
