@@ -185,9 +185,9 @@ def test_sweep_world_counts_each_verdict_and_records_non_translation_findings(mo
     by_id = {f["id"]: f for f in report["findings"]}
     assert by_id["w.quote.b"]["verdict"] == "summary"
     assert by_id["w.quote.c"]["verdict"] == "expansion"
-    # verification_state rides along for context, never as a filter (R33/R35: one
-    # general standard, no per-record scope carve-out) - both escalated and
-    # verified-direct records get graded and can both produce findings.
+    # verification_state rides along for context, never as a filter - one
+    # general standard, no per-record scope carve-out - so both escalated
+    # and verified-direct records get graded and can both produce findings.
     assert by_id["w.quote.c"]["verification_state"] == "verified-via-authority"
 
 
