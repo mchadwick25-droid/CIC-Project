@@ -4985,22 +4985,34 @@ quotation the splitter re-merged across a stop.
   (`test_transparency_plan.py`). Without the fix, the four curly tests
   fail; with it, all pass.
 
-**Entry 75 — 2026-09-24.** `_fleet.modern.trinity` (Entry 70's own R41
-report flagged this record's `origin_year` as open to question) carried
-a fabricated claim: `underlying_subject` said this world's people spoke
-of Father, Son, and Spirit "before the word 'Trinity' existed for them
-to use." Two vendored passages, verified verbatim, say otherwise -
-Theophilus of Antioch, *To Autolycus* II.15 (`cic/texts/anf02_hermas-
-tatian-athenagoras-theophilus-clement-alexandria.xml`, near line 8993):
-"are types of the Trinity, [Τριάδος] of God, and His Word, and His
-wisdom," with the edition's own footnote calling it "the earliest use
-of this word 'Trinity'"; internal evidence in the same work (Book
-III.28's chronology, reckoned to the death of the Emperor Verus, A.D.
-169) and the edition's introductory notice (Theophilus's episcopate,
-A.D. 168-188) together support a composition window of c. 169-188.
-Tertullian, *Against Praxeas* 2 (`cic/texts/anf03_tertullian.xml`, near
-line 51144): "which distributes the Unity into a Trinity," with the
-edition's own footnote: "Probable date not earlier than a.d. 208."
+**Entry 75 — 2026-09-24, corrected in place same day (round 2, after a
+managing-thread re-verification of round 1's own quoting).** `_fleet.
+modern.trinity` (Entry 70's own R41 report flagged this record's
+`origin_year` as open to question) carried a fabricated claim:
+`underlying_subject` said this world's people spoke of Father, Son, and
+Spirit "before the word 'Trinity' existed for them to use." Two vendored
+passages, verified verbatim, say otherwise - Theophilus of Antioch, *To
+Autolycus* II.15 (`cic/texts/anf02_hermas-tatian-athenagoras-theophilus-
+clement-alexandria.xml`, near line 8993): main text "are types of the
+Trinity, ... of God, and His Word, and His wisdom," with Τριάδος itself
+appearing only as the attached footnote's own Greek gloss on "Trinity"
+(not a bracketed word inside that sentence, as round 1's own entry here
+wrongly rendered it) - that footnote calls the usage "the earliest use
+of this word 'Trinity'" and, in the same breath, "an accepted word, not
+introducing a new one." Internal evidence in the same work (Book III.28's
+chronology, reckoned to the death of the Emperor Verus, A.D. 169) and the
+edition's own introductory notice - "succeeded to the bishopric... in
+a.d. 168," "died either in a.d. 181, or in a.d. 188" (two traditions,
+both stated; the same notice's own bracketed heading uses 181 as its
+single figure) - together support c. 169-181 as the edition's own
+preferred window, with 188 an explicit, sourced alternative, not an
+invented one. Tertullian, *Against Praxeas* 2 (`cic/texts/anf03_
+tertullian.xml`, near line 51144): "which distributes the Unity into a
+Trinity," with the edition's own footnote: "Probable date not earlier
+than a.d. 208" - a floor, with no upper bound stated; round 1's own entry
+here additionally claimed this as "the earliest surviving Latin
+'Trinitas'," which the vendored (English-translation) edition does not
+support and which round 2 removed everywhere it appeared.
 
 **Mark's ruling: option B of three**, put to him directly. A -
 `origin_year` moves to c. 180 (the word's own earliest date) and pahc's
@@ -5013,10 +5025,11 @@ stays, and pahc keeps its modern-word bridge.**
 
 Fixed the false claim rather than patching around it: `underlying_subject`
 no longer states or implies the word did not exist; `distinguishing_claim`
-now states both dates plainly (word: c. 169-188 and 208 on; doctrine:
-325 and after) and names the referent question as open rather than
-settled either way. Two new fleet source records carry the vendored
-passages (`_fleet.source.theophilus-to-autolycus`,
+now states both dates plainly (word: c. 169-181, with 188 disclosed as
+the edition's own alternative; a.d. 208 or later; doctrine: 325 and
+after) and names the referent question as open rather than settled
+either way. Two new fleet source records carry the vendored passages
+(`_fleet.source.theophilus-to-autolycus`,
 `_fleet.source.tertullian-against-praxeas`), cited from
 `_fleet.modern.trinity.sources[]`. Whether Theophilus's own triad (God,
 His Word, His Wisdom) is the same referent as the doctrine Nicaea later
