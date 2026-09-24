@@ -357,7 +357,7 @@ def _other_tradition_directive(
     Always returns real text when called (never None - see
     tradition_seated's own note below for why that changed).
 
-    evidence_record_ids (the R39 fix that lets a world's own records stand
+    evidence_record_ids (lets a world's own records stand
     in for the honest limit when they already speak to the question):
     engine.m4.uncited_claims.world_records_mention_tradition's own
     result - record ids in THIS world's own package that already,
@@ -807,7 +807,7 @@ def _run_ordinary_voice_turn(
     caller (which has registry access this function does not) and
     passed straight through.
 
-    other_tradition_evidence_ids (the R39 fix that corrects a false
+    other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
     r27_enforce, since this corrects an existing false statement rather
     than adding new enforcement): engine.m4.uncited_claims.world_records_
