@@ -199,7 +199,7 @@ def level1_element_density(s: AuditSession) -> list[dict]:
     A "Level-1 element" is an inline mark visible directly in the running
     text, never a Level-2/3 tap-through. Read from transparency.elements
     (engine.m4.transparency_plan; R31, R31-A, R31-B), which is exactly
-    what VoiceTurnBody.tsx's renderFromTransparencyPlan draws - one mark
+    what VoiceTurnBody.tsx's renderFromElements draws - one mark
     per element, placed at the element:
     - a citation mark per `quote` or `story` element;
     - a figure mark per `figure` element;

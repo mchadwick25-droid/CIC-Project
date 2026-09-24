@@ -246,7 +246,7 @@ function splitCitationSources(sources: SourceCard[]): { storySources: SourceCard
 // renderedWitnessIds correctly suppress a second inline mark, but
 // story/witness sources are never passed to addReference, so the repeat's
 // sourcing disappears rather than moving to General References). See
-// renderFromTransparencyPlan below for the fix.
+// renderFromElements below for the fix.
 function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: VoiceTurnBodyProps) {
   const { segments, orphaned } = splitIntoSegments(text, citations);
   const usedIds = new Set<string>();

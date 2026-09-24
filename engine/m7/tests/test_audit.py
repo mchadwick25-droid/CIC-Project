@@ -261,7 +261,7 @@ def test_level1_element_density_groups_legacy_anchor_plans_the_way_the_legacy_re
 
 def test_level1_element_density_counts_one_mark_per_element_when_the_plan_has_elements(tmp_path):
     """R31-A/R31-B (Decision-Log.md Entry 69): a plan carrying `elements`
-    is counted exactly as renderFromTransparencyPlan draws it - one mark
+    is counted exactly as renderFromElements draws it - one mark
     per quote/story element (two on one sentence are two marks), one per
     term/figure element, and nothing for a general reference."""
     store = Store(tmp_path / "events.db")
