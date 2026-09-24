@@ -891,3 +891,36 @@ Site JSON (`cic-website/data/worlds/the-reformed-cities-zurich-and-
 geneva.json`) rebuilt against the same commit. Both
 `engine.m2.checks.staleness_sweep()` and `engine.m2.site_cli
 staleness-check` report clean fleet-wide.
+
+**Round 2 — register fix (2026-09-24), reviewer's own human read.**
+The reviewer's verdict on the round above PASSed 5 of 6 records but
+caught a register problem the grader itself did not: `signs-and-
+things-signified`'s rendering had kept "Wherefore" and "disjoin"
+verbatim from the source. Neither survives plainly in modern spoken
+English — the rule that the original word stays where it survives
+plainly cuts the other way for these two. Changed "Wherefore" →
+"Therefore" and "disjoin" → "separate"; nothing else in the sentence
+touched (the "as we ought" qualifier, the negative "we do not ...
+the reality from the signs" structure, and the trailing genuine
+ellipsis all carried over unchanged).
+
+Five grading runs on the fixed text: 3 "translation," 2 "summary."
+The two "summary" runs' own reasoning called "separate" a "synonym"
+for "disjoin" in one clause and then, in the next, treated that same
+substitution as a lost distinction — internally inconsistent, and the
+same established grader-noise pattern documented elsewhere in this
+log (unchanged text flipping verdict with reasoning not always
+factually anchored to the text graded). Treated as noise, not a real
+defect, per the standing protocol; not rewritten further.
+
+`gate_readability`: clean. Full `run_all()` on rzg: 0 findings.
+`pytest engine/m1/tests/ engine/m2/tests/`: 191 passed. Only this one
+record's `modern_rendering` field changed from the round above.
+
+Re-pinned against this fix's own commit `05d0c74ad5e0029ed3611617fd4ccf305f38a9d0`:
+old `packages/rzg/2026-09-24T00-32-15Z`
+(`sha256:ebccc678a23583c6b8b34443e1a9d01d10cdcee8171e732851c9e281db554535`)
+→ new `packages/rzg/2026-09-24T01-14-01Z`
+(`sha256:ec3bfe6c959c029e45c97015b8dd751f81535606fb44d98b833a71724e9ad775`).
+Site JSON rebuilt against the same commit. Both staleness checks
+clean fleet-wide.
