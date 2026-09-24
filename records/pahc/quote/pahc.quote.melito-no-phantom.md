@@ -36,15 +36,17 @@ text: "For there is no need, to persons of intelligence, to attempt to prove, fr
   as regards the flesh, He concealed the signs of His Deity, although He was the true God existing
   before all ages."
 modern_rendering: >-
-  There's no need for a long proof here. Just look at what Christ did
-  after he was baptized. His body and soul were real. He was a real human
-  being, like us - not a trick of the mind. His miracles after his
-  baptism showed the world that God was hidden in his flesh. He was God
-  and a real man at the same time. His miracles in his last three years
-  proved he was God. The thirty years before that proved he was human. In
-  those years he kept his God-nature hidden, because he lived as a
-  humble, ordinary man - even though he was true God from before all time
-  began.
+  For persons of intelligence, there is no need to prove, from what
+  Christ did after his baptism, that his soul and his body, his human
+  nature like ours, were real, and no phantom of the imagination. For
+  the deeds Christ did after his baptism, and especially his miracles,
+  gave indication and assurance to the world of the Deity hidden in his
+  flesh. For, being at once both God and perfect man, he gave us sure
+  indications of his two natures. Of his Deity, by his miracles during
+  the three years after his baptism. Of his humanity, during the thirty
+  similar years before his baptism. In those years, by reason of his
+  low estate in the flesh, he concealed the signs of his Deity, though
+  he was true God existing before all ages.
 speaker_or_author: "Melito, bishop of Sardis (attributed - see this record's own confidence note on
   how securely)"
 license: verbatim
