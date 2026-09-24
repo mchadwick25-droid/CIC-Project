@@ -78,8 +78,7 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   say of the doctrine which is preached to you, of faith and of love. This is not surprising; an ass can
   almost intone the lessons... God does not want hearers and repeaters of words, but doers and followers''
   (v2 14676-14688, 1522); ''the common people regard the Gospel altogether too lightly, and we accomplish
-  nothing extraordinary even though we use all diligence'' (LC 80-82, 1529). SIX-TEST SUMMARY (Doc_04
-  §3 G13): Repetition passes across sermon, catechesis, hymnal preface and conversation -- four registers
+  nothing extraordinary even though we use all diligence'' (LC 80-82, 1529). SIX-TEST SUMMARY: Repetition passes across sermon, catechesis, hymnal preface and conversation -- four registers
   across two decades, the one register with a household voice; Dependency passes -- G4''s pastor-facing
   form states this as its own reason for existing, G3''s and G4''s examination clauses presuppose it,
   G8''s 1529 reversal is its effect; Formation passes in the NEGATIVE and as program -- it shapes what
@@ -106,13 +105,13 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   candidate below 3/4 -- no Melanchthon (the Apology''s reception passage is POSITIVE and is not this
   gravity), congregational-facing registers and conversation only. Reception-side status: THIS CANDIDATE
   IS ITSELF THE FOUNDER''S RECEPTION REPORT, which is exactly why it cannot stand in for reception. FORCES-CONNECTION
-  NOTATION (Doc_04 §3 G13; Doc_08 §5, 2B-3): this gravity IS Layer 2 of a force Doc_02 §13 could not document
+  NOTATION: this gravity IS Layer 2 of a force Doc_02 §13 could not document
   at Layer 1 -- the parish''s actual state, the territorial force''s own inspecting arm, absent from the
   library [2A-3]; its object shifts three times -- 1522 one congregation''s conduct, 1529 the parishes''
   pastors, people and nobles, 1543 the print market -- and the founder''s response shifts with it, rebuke,
   then program, then print-control [2B-1, read as the devil''s work; 2B-4, its late object]; its occasion
   by subtraction is the Easter compulsion''s own lifting, reported by the founder as why some now go years
-  without the Sacrament [2A-1, beyond Doc_04]; the one text that would give it an institutional rather
+  without the Sacrament [2A-1]; the one text that would give it an institutional rather
   than homiletic form, the Small Catechism''s 1529 preface, was never vendored [2B-2/3B-2]. Never resolved
   in the library; that is what makes it Tensional.'
 manifestations:

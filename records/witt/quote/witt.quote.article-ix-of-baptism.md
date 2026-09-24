@@ -74,7 +74,7 @@ witt.dw.a-death-begun-that-a-child-receives (F4-T: infant baptism, alongside the
 read together with witt.quote.article-ii-of-original-sin's own baptism/new-birth clause. Reciprocal
 associated-with declared on that record.
 
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
+CORRECTION: speaker_or_author's own raw reference to
 "witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
 of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
 field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a

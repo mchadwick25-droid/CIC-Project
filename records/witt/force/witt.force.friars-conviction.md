@@ -36,7 +36,7 @@ name: A friar-professor's conviction that the church's practice rested on an aut
 kind: initiating
 matrix_cell: 1B
 description: 'LAYER 1 (Historical Event). A conviction ''argued first over the specific, bounded question
-  of indulgence sales, then rapidly generalized'' (Doc_01 §7, Documented). Its documented object is what
+  of indulgence sales, then rapidly generalized''. Its documented object is what
   the church claims to hold and dispense -- a treasury of merit exchangeable for the remission of penalty
   -- the specific mechanism the Theses attack, and this world''s own generating occasion. The conviction''s
   own narrative is NOT in the library: the 1545 preface stops before the ''tower experience'' passage,

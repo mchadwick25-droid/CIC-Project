@@ -24,4 +24,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 50; WebSearch; 2
 external_ids:
   witt_source_registry_row: 50
 ---
-Disclosure context for R49 only (the earlier, tolerant text); the continuity-vs-reversal debate [R75]. (Source Registry row 50; Confidence B.)
+Disclosure context (the earlier, tolerant text); the continuity-vs-reversal debate.

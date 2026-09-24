@@ -88,7 +88,7 @@ evidence that Saxon congregations were ignorant, cold, or negligent") forward in
 confidence.divergence_note and text, exactly as that bar requires. Not re-opened against the vendored
 files by this record.
 
-CORRECTION (go-live adversarial review, Round 1, 2026-09-19; H-2, HIGH): this record's own `text` field
+CORRECTION: this record's own `text` field
 originally claimed "we do not have his full answer" to Katharina von Bora's coldness-in-prayer question --
 false. The vendored library carries Luther's own answer verbatim, `cic/texts/luther_table-talk_bell1886.txt`
 lines 3147-3151 ("the devil driveth on his servants continually... but we, indeed, are ice cold therein,

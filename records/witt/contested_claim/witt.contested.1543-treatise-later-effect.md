@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Contested
   divergence_note: >-
     Contested at the scholarly level, and doubly so at this build's own remove: neither pole is read from
-    its own primary monograph, only from a tertiary intermediary (the Wikipedia article, R83) and, for
+    its own primary monograph, only from a tertiary intermediary (the Wikipedia article) and, for
     Kaufmann, from published reviews of the 2017 study rather than the study itself. That two-hop distance
     is disclosed on both source records this claim rests on and is not smoothed over here.
 sources:
@@ -51,7 +51,7 @@ held_against:
 - >-
   Neither side of this contest has been read by this build from its own primary text. Kaufmann's 2017
   monograph and Wallmann's 1987 article both reach this library only through a tertiary intermediary (the
-  Wikipedia article, R83) and, for Kaufmann, through published reviews of the study rather than the study
+  Wikipedia article) and, for Kaufmann, through published reviews of the study rather than the study
   itself (Doc_02 SS12.3). "Contested" here means, precisely: two named scholarly positions exist and
   disagree, at a remove this build has not closed by reading either one directly - not that this build has
   weighed their evidence and found them evenly matched.
@@ -75,7 +75,7 @@ concedes: >-
   so the contest is written down rather than left as a silence a Representative-voice answer could
   otherwise fill by default.
 ---
-Authored per the go-live adversarial review's M-3 finding (2026-09-20): `witt_Doc_02_Source_Ecology.md`
+Authored per the go-live adversarial review's M-3 finding: `witt_Doc_02_Source_Ecology.md`
 SS12.3 tags the 1543 treatise's later historical effect `[Contested]` and names the dispute specifically
 (Kaufmann continuity vs. Wallmann largely-ignored), but no `contested_claim` record existed for it - the
 three lower-stakes contests already built (household-catechism-reception, justification-accounted-and-made,

@@ -42,8 +42,8 @@ matrix_cell: 1A
 description: 'LAYER 1 (Historical Event). Documented almost entirely in the editorial layer: the Theses
   in three editions within two months, at Wittenberg, Nürnberg, and as far as Basel; The Papacy at Rome
   in twelve known quarto editions, printers named; Karsthans in ten editions; the Grunenberg press reaching
-  Duke George within days. Declined as a gravity in its own right (an Author-Gravity ''layer-only'' candidate,
-  Doc_04 §2.2) and carried here instead. Initiating in the strict sense: no vendored text reaches a reader
+  Duke George within days. Declined as a gravity in its own right (an Author-Gravity ''layer-only'' candidate)
+  and carried here instead. Initiating in the strict sense: no vendored text reaches a reader
   except through it, and the world''s first act was a printed disputation. LAYER 2 (World''s Own Experience).
   The world does not name the press; it names what the press does and fears it. The medium is the way
   ''the divine truth'' reaches ''us simple laymen'' -- the fictional peasant''s demand for German (v3

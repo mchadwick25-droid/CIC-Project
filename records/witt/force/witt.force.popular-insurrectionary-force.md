@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: Documented for the 1521-22 form (the Exhortation, LC 3190-3196); Widely Accepted for
     1525's content from a tertiary source; Dominant Modern Reconstruction for Blickle's frame (Doc_08
-    Cell 2A, Force 2A-4). No phrase from any 1525 tract is quoted anywhere in this record, per R94's bar.
+    Cell 2A, Force 2A-4). No phrase from any 1525 tract is quoted anywhere in this record.
 sources:
 - source_id: witt.source.luther-earnest-exhortation-for-all-christians-warning
   locus: 'the Earnest Exhortation (1521-22): sympathetic to the common man''s grievance, insurrection
@@ -60,6 +60,5 @@ manifestations:
 - '"the prayer of a few godly men intervened like a wall of iron on our side? They should else have witnessed
   a far different tragedy" (LC 3190-3196)'
 - 1525's tracts -- absent from this library, characterized only from a tertiary account, no phrase quoted
-  (R94)
 ---
 Re-derived from the approved Doc_08 (Cell 2A, Force 2A-4). Cross-cell connections (Doc_08 §4): witt.force.internal-radical-force (associated-with). Gravity linkage (Doc_08 §5): witt.gravity.two-governments (associated-with), witt.gravity.must-and-free (associated-with) -- precondition-for used exactly where Doc_08 §5's own text uses the verb 'generated' (or its own paraphrases, 'generated as the refusal of...', 'generated in response', 'generated from the inheritance refused') for this pair, associated-with for every other verb, matching Gallic's own precedent exactly (gallic.force.egyptian-standard: 'the founding relationship an initiating-cell force has to the gravity it originates'). Canon_cells left empty, matching fleet convention for gravity/force records.

@@ -79,9 +79,7 @@ description: '''A Christian man is a perfectly free lord of all, subject to none
   perfectly dutiful servant of all, subject to all'' (v2 11618-11621); the gravity''s own register, addressed
   to Wittenberg in March 1522: ''we must not look upon ourselves... but upon our neighbor... What you
   did was good, but you have gone too fast'' (v2 14711-14728); ''Take note of these two things, "must"
-  and "free"... Now do not make a "must" out of what is "free"'' (14790-14796) -- then, by 1529, the same
-  word turned the other way: pastors retaining ''no more of the Gospel than such a lazy, pernicious, shameful,
-  carnal liberty'' (LC 78-80). SIX-TEST SUMMARY (Doc_04 §3 G8): Repetition passes across treatise, sermon,
+  and "free"... Now do not make a "must" out of what is "free"'' (DUPLICATE_MARKER_DO_NOT_USE SIX-TEST SUMMARY: Repetition passes across treatise, sermon,
   catechesis, confession -- the ''must''/''free'' wording itself is single-register, the gravity is not;
   Dependency passes -- G3''s public form in 1522, G7''s priestly restraint, G9''s married priests and
   emptied monasteries, and G4''s compulsory examination all depend on it; Formation passes as the one

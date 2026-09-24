@@ -43,7 +43,7 @@ name: 'The inheritance refused: the Augustinian seedbed, the seven-sacrament, mo
 kind: initiating
 matrix_cell: 1B
 description: 'LAYER 1 (Historical Event). ''The Augustinian Hermits are its seedbed (Luther''s own order)...
-  their Reformation-lands houses dissolved into this story'' (Doc_01 §8.6). The medieval sacramental system''s
+  their Reformation-lands houses dissolved into this story''. The medieval sacramental system''s
   own seven-sacrament structure and the papacy''s own claimed authority over doctrine are both explicitly
   and repeatedly refused, not merely absent but argued against by name -- the reduction from seven sacraments
   ''to but three'' and then ''but two'' (Documented). The Teutonic Order''s conversion into a hereditary
