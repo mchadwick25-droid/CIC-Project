@@ -82,7 +82,7 @@ export interface FacilitatorTurn {
 
 // engine/m4/transparency_plan.py's build_transparency_plan - one complete,
 // deterministic account of every record this turn cited and where each
-// one's mark goes (R31, R31-A, R31-B; Decision-Log.md Entry 69).
+// one's mark goes.
 // `sentences` gives each of the engine's own sentences its span in the
 // turn's `text`; each element sits in one of those sentences at
 // [char_start, char_end), and its mark renders at char_end. Every

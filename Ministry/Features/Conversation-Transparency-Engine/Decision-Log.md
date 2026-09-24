@@ -4909,8 +4909,10 @@ All recorded in Rulings-Pending.md as R31-C.
 The brief said each placeholder would fail a test while unfilled. That
 would hold CI red until Mark writes three pieces of wording, blocking
 the build on a decision that isn't a build decision. Instead:
-`cic-poc/frontend/src/lib/markCopy.ts` holds `R31_QUOTE_CARD_PHRASE` and
-`R31_END_REFERENCES_HEADING` at the exact wording the app already showed
+`cic-poc/frontend/src/lib/markCopy.ts` holds `QUOTE_CARD_PHRASE` and
+`END_REFERENCES_HEADING` (Entry 69 §5's `R31_QUOTE_CARD_PHRASE` and
+`R31_END_REFERENCES_HEADING`, renamed so no identifier in live code
+carries a ruling number) at the exact wording the app already showed
 in those places before this change, and `pendingMarkWording` names both
 plus the `Arrival.tsx` disclosure line. A test pins each pending value
 to its pre-R31 wording, so no thread-written copy can reach a
@@ -4929,3 +4931,27 @@ test for element counting. Frontend: `VoiceTurnBody.test.tsx` is
 rewritten to the element renderer (16 tests - positions read back as
 text, R9, R10, Stage 6b, R17 with quote exemption, legacy fallback, the
 pending-wording guard).
+
+**Provenance, kept here rather than in code.** The live files this build
+touches (`engine/`, `cic-poc/frontend/`) say only what the code does; the
+managing thread's round-1 verdict on #490 failed an earlier head for
+carrying ruling numbers, entry numbers and attributions in comments,
+docstrings and test names, per CLAUDE.md's "Keep the live/canonical
+surfaces clean". Where each piece of behaviour comes from:
+- one mark per distinct grounded element, placed at that element - R31-A;
+- quote, story and lexicon marks inline, every other cited record at the
+  end of the reply - R31-B;
+- a witness record listed at the end, and R10(c)'s witness-at-run-start
+  placement retired for turns built on per-element placement - R31-C Q1;
+- figure names inline at the name - R31-C Q2;
+- a story's mark at the end of its telling, added when the next sentence
+  clears (`ElementBuilder`) - Q3, the reviewer thread's decision on
+  Entry 69 §6;
+- a quote mark never dropped by the cap - Q4, likewise;
+- marks attach as each sentence clears, and a cap demotion moves a mark
+  to the end list without removing a sentence or claim - R31, with Entry
+  53's Shape B as the streaming design these marks are built for;
+- the repeat and hollow glyphs kept on inline marks - R10 and R9; the
+  confidence phrase on every card - Stage 6b; the cap itself - R17;
+- the quote-and-term-on-one-sentence test fixture - the Theon staging
+  defect (Entry 58).

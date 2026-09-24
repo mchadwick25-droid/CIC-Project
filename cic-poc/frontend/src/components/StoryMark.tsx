@@ -12,7 +12,7 @@
  * Same purple, same ✲, same InlineBridge grammar as every other track -
  * only the content and the record_types it fires for (story, quote) are
  * different. A story's mark sits at the end of its telling; a quote's
- * mark follows the quoted words (R31-A; VoiceTurnBody.tsx places both).
+ * mark follows the quoted words (VoiceTurnBody.tsx places both).
  *
  * `repeat` and `contested` are CSS-only modifiers (app.css
  * .citation-mark--repeat/--contested) - same glyph, same color, same
@@ -21,7 +21,7 @@
  */
 import type { SourceCard } from '../types/conversation';
 import { confidencePhrase } from '../lib/confidence';
-import { R31_QUOTE_CARD_PHRASE } from '../lib/markCopy';
+import { QUOTE_CARD_PHRASE } from '../lib/markCopy';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
 
@@ -29,13 +29,13 @@ interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
   repeat?: boolean;
   contested?: boolean;
-  // A quote element's own mark (R31-A: it follows the quoted words, not
-  // the story's telling). Its card's title is R31_QUOTE_CARD_PHRASE.
+  // A quote element's own mark: it follows the quoted words, not the
+  // story's telling. Its card's title is QUOTE_CARD_PHRASE.
   quote?: boolean;
 }
 
 export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps) {
-  const title = quote ? R31_QUOTE_CARD_PHRASE : null;
+  const title = quote ? QUOTE_CARD_PHRASE : null;
   const markClassName = ['citation-mark', 'story-mark', repeat && 'citation-mark--repeat', contested && 'citation-mark--contested']
     .filter(Boolean)
     .join(' ');

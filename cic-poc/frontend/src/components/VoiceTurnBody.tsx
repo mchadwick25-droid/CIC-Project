@@ -53,8 +53,7 @@
  *
  * TWO RENDERERS LIVE HERE. `renderFromElements` (the default) reads
  * engine.m4.transparency_plan's own `sentences`/`elements` and places every
- * mark by offset (R31, R31-A, R31-B; Decision-Log.md Entry 69) - see its
- * own comment. `renderLegacy` is everything above, unchanged: it rebuilds
+ * mark by offset - see its own comment. `renderLegacy` is everything above, unchanged: it rebuilds
  * marks by searching the finished text for each citation's own sentence,
  * and draws any turn whose plan predates per-element placement (a stored
  * transcript), or every turn when VITE_TRANSPARENCY_ANCHOR_RENDERER is
@@ -336,7 +335,7 @@ function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: Voice
   );
 }
 
-// THE ELEMENT RENDERER (R31, R31-A, R31-B; Decision-Log.md Entry 69).
+// THE ELEMENT RENDERER.
 // Reads engine.m4.transparency_plan's own `sentences`/`elements` and
 // places every mark by offset - nothing is searched for in the text:
 // - a quote element's ✲ follows its quoted words;
@@ -347,14 +346,14 @@ function renderLegacy({ text, citations, figuresUsed = [], glosses = [] }: Voice
 // two marks in two places, and share a spot only when they genuinely end
 // at the same character.
 //
-// R10: a repeat element (a record's later run) keeps its mark at reduced
-// opacity (.citation-mark--repeat). R9: an element whose record reads
+// A repeat element (a record's later run) keeps its mark at reduced
+// opacity (.citation-mark--repeat). An element whose record reads
 // Contested or Inferential-Thin renders hollow (.citation-mark--contested).
-// R17: the cap scales with the engine's own sentence count; over cap,
-// glosses drop first, then figures, then stories, newest first. Quote
-// marks never drop (the reviewer's ruling on Entry 69's Q4 - the one mark
-// saying "these exact words are a source's"). A dropped mark still
-// reaches the end list: inline prominence is lost, never disclosure.
+// The cap scales with the engine's own sentence count; over cap, glosses
+// drop first, then figures, then stories, newest first. Quote marks never
+// drop - a quote mark is the one mark saying "these exact words are a
+// source's". A dropped mark still reaches the end list: inline
+// prominence is lost, never disclosure.
 type ElementNode = { start: number; end: number; node: React.ReactNode };
 
 function renderFromElements({ text, figuresUsed = [], glosses = [], transparency }: VoiceTurnBodyProps & { transparency: TransparencyPlan }) {

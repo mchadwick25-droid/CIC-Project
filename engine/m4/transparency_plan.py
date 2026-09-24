@@ -9,9 +9,8 @@ for rid in c["record_ids"])` holds for any input (this module's own
 completeness-invariant test). A record whose id resolves to nothing in the
 repository is skipped here, never crashed on.
 
-**Elements (Rulings-Pending.md R31, R31-A, R31-B; Decision-Log.md Entry
-69).** One entry per distinct grounded element, each placed at the
-element it grounds, never reduced to one mark per sentence:
+**Elements.** One entry per distinct grounded element, each placed at
+the element it grounds, never reduced to one mark per sentence:
 - `quote` - a cited `quote` record. Its mark follows the quoted words: the
   first quotation in the sentence whose words `grounding_net` verifies
   verbatim in that record. A quote record cited on a sentence that
@@ -42,8 +41,8 @@ marks by offset, never by searching the text again. A sentence not found
 in `text` gets no span, and elements on it fall back to `end_references`
 - disclosed, never dropped.
 
-**Streaming (Entry 53 Shape B; Entry 69 §4).** `ElementBuilder` is fed one
-cleared sentence at a time and only ever adds elements: a quote element
+**Streaming.** `ElementBuilder` is fed one cleared sentence at a time
+and only ever adds elements: a quote element
 is emitted with its own sentence; a story element is emitted when the
 next sentence clears without that story, or at `finish()`. The
 whole-turn path below feeds the same builder, so a streamed reply and a

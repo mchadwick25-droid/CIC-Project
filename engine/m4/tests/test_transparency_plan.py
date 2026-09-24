@@ -1,5 +1,4 @@
-"""engine.m4.transparency_plan's own tests (R31, R31-A, R31-B;
-Decision-Log.md Entry 69).
+"""engine.m4.transparency_plan's own tests: per-element mark placement.
 
 Real compiled repository content for the record lookups (same discipline
 as test_citation_cards.py). The turns themselves are constructed by hand
@@ -137,13 +136,12 @@ def test_any_sentence_not_citing_the_story_ends_its_run_and_a_later_run_repeats(
     assert sum(1 for r in plan["references"] if r["record_id"] == STORY_ID) == 1
 
 
-# ---- R31-A: one mark per element, never one per sentence ---------------
+# ---- one mark per element, never one per sentence ----------------------
 
 
 def test_a_quote_and_a_term_in_one_sentence_are_two_elements_in_two_places():
-    """The Theon shape (Decision-Log.md Entry 58): two grounded elements on
-    one sentence give two marks at two positions, not a stacked pair at
-    the sentence end."""
+    """Two grounded elements on one sentence give two marks at two
+    positions, not a stacked pair at the sentence end."""
     sentence = f'By allegoria he read it, and wrote "{QUOTED_WORDS}" of the disciples.'
     text, citations, net_result = _turn([(sentence, [QUOTE_ID, TERM_ID], "ok")])
     glosses = [g for g in find_glosses_used(text, citations, REPO) if g["id"] == TERM_ID]
@@ -169,7 +167,7 @@ def test_a_word_mark_offset_is_carried_from_the_detector_not_searched_again():
     assert term["sentence_index"] == 1 and term["char_start"] == 0
 
 
-# ---- R31-B: general references at the end ------------------------------
+# ---- general references at the end ------------------------------------
 
 
 def test_witness_gravity_and_an_unsaid_term_are_general_references_not_elements():

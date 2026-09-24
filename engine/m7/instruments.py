@@ -171,8 +171,8 @@ _WITNESS_RECORD_TYPES = frozenset({"doctrinal_witness"})
 
 
 def _legacy_anchor_marks(anchors: list[dict]) -> int:
-    """A plan recorded before per-element placement (Decision-Log.md Entry
-    69) carries sentence-run `anchors` and no `elements`; counted the way
+    """A plan recorded before per-element placement carries sentence-run
+    `anchors` and no `elements`; counted the way
     the anchor-era renderer drew it - one mark per (placement, family),
     witness runs placed at their start, story/quote runs at their end.
     The frontend now shows such a stored turn through its legacy renderer,
@@ -198,7 +198,7 @@ def level1_element_density(s: AuditSession) -> list[dict]:
 
     A "Level-1 element" is an inline mark visible directly in the running
     text, never a Level-2/3 tap-through. Read from transparency.elements
-    (engine.m4.transparency_plan; R31, R31-A, R31-B), which is exactly
+    (engine.m4.transparency_plan), which is exactly
     what VoiceTurnBody.tsx's renderFromElements draws - one mark
     per element, placed at the element:
     - a citation mark per `quote` or `story` element;
@@ -209,8 +209,8 @@ def level1_element_density(s: AuditSession) -> list[dict]:
     is counted from its anchors (_legacy_anchor_marks, with figures_used/
     glosses for word marks).
 
-    Before the R17 cap: this counts every candidate, not what survives
-    the renderer's own cap.
+    Before the renderer's cap: this counts every candidate, not what
+    survives the cap.
     """
     metrics = []
     for t in s.voice_turns:

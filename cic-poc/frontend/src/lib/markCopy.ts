@@ -1,17 +1,16 @@
 /**
- * Participant-facing words for grounding marks that are Mark's to write
- * (Decision-Log.md Entry 69 §5). Each value below is the wording the app
- * already showed in that place before per-element placement; none is new
- * copy. `pendingMarkWording` lists the ones still waiting on his words -
- * an entry leaves the list only when his own wording replaces the value.
+ * Participant-facing words for grounding marks that are placeholders
+ * until the final wording is supplied. Each value is the wording the app
+ * already showed in that place; none is new copy. `pendingMarkWording`
+ * names every placeholder still waiting; an entry leaves the list when
+ * its final wording replaces the value.
  */
 
-// Title and accessible name of a quote mark's card. Before per-element
-// placement a quote shared the story card, so this is the story card's
-// own wording.
-export const R31_QUOTE_CARD_PHRASE = 'Where this story comes from';
+// Title and accessible name of a quote mark's card. A quote used to share
+// the story card, so this is the story card's wording.
+export const QUOTE_CARD_PHRASE = 'Where this story comes from';
 
 // Heading of the end-of-reply list of general references.
-export const R31_END_REFERENCES_HEADING = 'General references';
+export const END_REFERENCES_HEADING = 'General references';
 
-export const pendingMarkWording = ['R31_QUOTE_CARD_PHRASE', 'R31_END_REFERENCES_HEADING', 'Arrival disclosure line'] as const;
+export const pendingMarkWording = ['QUOTE_CARD_PHRASE', 'END_REFERENCES_HEADING', 'Arrival disclosure line'] as const;

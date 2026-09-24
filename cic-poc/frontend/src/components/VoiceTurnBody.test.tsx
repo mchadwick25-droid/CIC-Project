@@ -1,7 +1,6 @@
 /**
- * The element renderer (R31, R31-A, R31-B; Decision-Log.md Entry 69):
- * every mark placed by the engine's own offsets, one mark per grounded
- * element, general references at the end. Plans here are built by hand
+ * The element renderer: every mark placed by the engine's own offsets,
+ * one mark per grounded element, general references at the end. Plans here are built by hand
  * in engine.m4.transparency_plan's own shape, so the positions under test
  * are pinned exactly. VoiceTurnBody.legacy-default.test.tsx covers the
  * legacy renderer, still used for a turn whose plan predates elements.
@@ -9,7 +8,7 @@
 import { fireEvent, render } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import type { Citation, FigureUsed, GlossUsed, SourceCard, TransparencyElement, TransparencyPlan } from '../types/conversation';
-import { R31_END_REFERENCES_HEADING, R31_QUOTE_CARD_PHRASE, pendingMarkWording } from '../lib/markCopy';
+import { END_REFERENCES_HEADING, QUOTE_CARD_PHRASE, pendingMarkWording } from '../lib/markCopy';
 
 vi.mock('../lib/flags', () => ({ useAnchorRenderer: true }));
 const { VoiceTurnBody } = await import('./VoiceTurnBody');
@@ -85,8 +84,8 @@ function markedText(container: HTMLElement): string {
   return walk(body).replace(/\s*\[\*\]/g, '[*]');
 }
 
-describe('VoiceTurnBody - element renderer (R31)', () => {
-  it('R31-A: a term and a quote in one sentence are two marks in two places, not a stack at the end', () => {
+describe('VoiceTurnBody - element renderer', () => {
+  it('a term and a quote in one sentence get two marks in two places, not a stack at the end', () => {
     const quoted = '"a clear and unmistakeable proof"';
     const { text, spans, sentences } = turn([`By allegoria he read it, and called it ${quoted} of the truth.`]);
     const quoteCard = card('fix.quote.proof', 'quote', 'Proof — Origen');
@@ -121,7 +120,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(container.querySelectorAll('.story-mark')).toHaveLength(2);
   });
 
-  it('R31-B: witness and gravity records are general references at the end, never inline', () => {
+  it('witness and gravity records are general references at the end, never inline', () => {
     const { text, spans } = turn(['A claim grounded twice over.']);
     const witness = card('fix.dw.a', 'doctrinal_witness', 'Witness A');
     const gravity = card('fix.gravity.b', 'gravity', 'Gravity B');
@@ -152,7 +151,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(markedText(container)).toBe('First sentence.[*]\n\nSecond sentence, after a paragraph break.');
   });
 
-  it('R10: a repeat element renders the lighter .citation-mark--repeat mark', () => {
+  it('a repeat element renders the lighter .citation-mark--repeat mark', () => {
     const { text, spans, sentences } = turn(['Told here.', 'Something else.', 'Told again.']);
     const storyCard = card('fix.story.a', 'story', 'Story A');
     const transparency = plan(spans, [el(sentences, 0, 'fix.story.a', 'story'), el(sentences, 2, 'fix.story.a', 'story', undefined, { repeat: true })], [storyCard]);
@@ -165,7 +164,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(marks[1].classList.contains('citation-mark--repeat')).toBe(true);
   });
 
-  it('R9: Contested or Inferential-Thin renders hollow; a solid claim does not', () => {
+  it('Contested or Inferential-Thin renders hollow; a solid claim does not', () => {
     const { text, spans, sentences } = turn(['A thin story.', 'A solid story.']);
     const thin = card('fix.story.thin', 'story', 'Thin');
     const solid = card('fix.story.solid', 'story', 'Solid');
@@ -185,7 +184,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(marks[1].classList.contains('citation-mark--contested')).toBe(false);
   });
 
-  it('Stage 6b: the card shows the plain formation_confidence phrase for the cited record', () => {
+  it('the card shows the plain formation_confidence phrase for the cited record', () => {
     const { text, spans, sentences } = turn(['A contested claim.']);
     const contested = card('fix.story.thin', 'story', 'Thin Story', { formation_confidence: 'Contested' });
     const transparency = plan(spans, [el(sentences, 0, 'fix.story.thin', 'story')], [contested]);
@@ -196,7 +195,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(container.querySelector('.story-mark__confidence')?.textContent).toBe('Historians disagree about this.');
   });
 
-  it('Stage 6b: a card with no confidence envelope shows no phrase line (never invents one)', () => {
+  it('a card with no confidence envelope shows no phrase line (never invents one)', () => {
     const { text, spans, sentences } = turn(['A claim with no data.']);
     const nodata = card('fix.story.nodata', 'story', 'No-Data Story');
     const transparency = plan(spans, [el(sentences, 0, 'fix.story.nodata', 'story')], [nodata]);
@@ -208,7 +207,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(container.querySelector('.story-mark__confidence')).toBeNull();
   });
 
-  it('R17: over the cap, glosses drop before figures before stories; a quote mark never drops', () => {
+  it('over the cap, glosses drop before figures before stories; a quote mark never drops', () => {
     // One sentence -> cap = 3. Six candidates: Antony, Origen (figures),
     // catechumens, baptism (glosses), a story, a quote. Three over cap:
     // baptism, catechumens, then Origen drop. Antony, the story and the
@@ -244,7 +243,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(markedText(container)).toBe(`{Antony} taught Origen about catechumens and baptism, saying ${quoted}[*] at the font.[*]`);
   });
 
-  it('R17: a dropped story mark reaches the end list and its sentence stays; quote marks are never the overflow', () => {
+  it('a dropped story mark reaches the end list and its sentence stays; quote marks are never the overflow', () => {
     // Four sentences -> cap = 3. Three stories and one quote: one over
     // cap, so the LAST story (C) drops. The quote is never a candidate.
     const quoted = '"the quoted words"';
@@ -262,7 +261,7 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     const { container } = render(<VoiceTurnBody text={text} citations={[]} transparency={transparency} />);
 
     expect(markedText(container)).toBe(`First story.[*] Second story.[*] Third story. He said ${quoted}[*] once.`);
-    expect(container.querySelector('.turn__general-references-label')?.textContent).toBe(`${R31_END_REFERENCES_HEADING} (1)`);
+    expect(container.querySelector('.turn__general-references-label')?.textContent).toBe(`${END_REFERENCES_HEADING} (1)`);
     expect(container.querySelector('.turn__general-references .turn__sources-label')?.textContent).toBe('Story C');
   });
 
@@ -276,14 +275,14 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
     expect(markedText(container)).toBe('Cites a record with no card.');
   });
 
-  it('a quote mark\'s card carries R31_QUOTE_CARD_PHRASE', () => {
+  it('a quote mark\'s card carries QUOTE_CARD_PHRASE', () => {
     const quoted = '"the quoted words"';
     const { text, spans, sentences } = turn([`He said ${quoted} once.`]);
     const transparency = plan(spans, [el(sentences, 0, 'fix.quote.d', 'quote', quoted)], [card('fix.quote.d', 'quote', 'Quote D')]);
 
     const { container } = render(<VoiceTurnBody text={text} citations={[]} transparency={transparency} />);
 
-    expect(container.querySelector('.story-mark')?.getAttribute('aria-label')).toBe(R31_QUOTE_CARD_PHRASE);
+    expect(container.querySelector('.story-mark')?.getAttribute('aria-label')).toBe(QUOTE_CARD_PHRASE);
   });
 
   it('falls back to the legacy renderer for a plan that predates elements, or no plan at all', () => {
@@ -304,16 +303,16 @@ describe('VoiceTurnBody - element renderer (R31)', () => {
   });
 });
 
-describe('mark wording still waiting on Mark (Decision-Log.md Entry 69 §5)', () => {
+describe('mark wording placeholders', () => {
   it('each pending entry still shows the wording the app used before per-element placement', () => {
-    // Remove an entry from pendingMarkWording when Mark's own words
-    // replace its value; until then its value is the pre-R31 wording, so
-    // no thread-written copy ever reaches a participant.
+    // Remove an entry from pendingMarkWording when its final wording
+    // replaces the value; until then the value is the earlier wording, so
+    // no placeholder copy ever reaches a participant.
     const before: Record<string, string> = {
-      R31_QUOTE_CARD_PHRASE: 'Where this story comes from',
-      R31_END_REFERENCES_HEADING: 'General references',
+      QUOTE_CARD_PHRASE: 'Where this story comes from',
+      END_REFERENCES_HEADING: 'General references',
     };
-    const current: Record<string, string> = { R31_QUOTE_CARD_PHRASE, R31_END_REFERENCES_HEADING };
+    const current: Record<string, string> = { QUOTE_CARD_PHRASE, END_REFERENCES_HEADING };
     for (const name of pendingMarkWording) {
       if (name in before) expect(current[name]).toBe(before[name]);
     }

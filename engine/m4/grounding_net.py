@@ -151,7 +151,7 @@ def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
     inner) - `start` is the opening quotation mark's own offset, `end` is
     just past the closing quotation mark, `inner` is the quoted words
     between them. engine.m4.transparency_plan places a quote's mark at
-    `end` (R31-A: a quote's mark follows the quoted words)."""
+    `end`: a quote's mark follows the quoted words."""
     spans = []
     pos = 0
     while True:
