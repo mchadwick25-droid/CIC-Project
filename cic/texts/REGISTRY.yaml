@@ -3309,3 +3309,21 @@
     Archive identifier BSG_8A817_2INV992RES_P1 (Bibliotheque
     Sainte-Genevieve copy), host-marked "Domaine public"; 1562 publication
     clears pd-us-by-date outright.
+- filename: romanos-melodist_cantica-grc_pitra1888.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located and rights-verified acquisition, source and
+    rights independently re-confirmed against archive.org directly before
+    vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    J.-B. Pitra's edition (Rome: Propaganda Fide, 1888). Internet Archive
+    identifier sanctusromanusve00roma; 1888 publication clears pd-us-by-date
+    outright. This scan's OCR could not read the Greek script at all - checked
+    directly, zero Greek-script Unicode characters anywhere in the file, every
+    line that should be Greek renders as Latin-letter garbage. Romanos's own
+    kontakia (printed in Greek) are not recoverable here and this file offers
+    no cross-check of them. What is genuinely readable is Pitra's own Latin
+    prefatory matter and critical apparatus - real content, but scholarly
+    apparatus about Romanos, not his own voice. LATIN APPARATUS ONLY, no
+    English; never citable as a Representative's evidence.
