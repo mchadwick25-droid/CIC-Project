@@ -17,16 +17,20 @@ confidence:
 sources:
 - source_id: alx.source.clement-stromateis
   locus: >-
-    Stromateis VI.13 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml)
+    Stromateis VI.13 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, near line 47889)
   license: public-domain
 text: >-
-  Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel.
+  Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel. For these taken up in the clouds, the apostle writes, will first minister [as deacons], then be classed in the presbyterate, by promotion in glory (for glory differs from glory) till they grow into "a perfect man."
 modern_rendering: >-
-  In my opinion, the ranks here in the Church, bishops, presbyters,
-  and deacons, imitate the angelic glory and the divine plan.
-  Scripture says that plan awaits those who follow in the apostles'
-  footsteps. They have lived in perfect righteousness according to
-  the Gospel.
+  In my view, the ranks here in the Church, bishops, presbyters and
+  deacons, mirror the glory of the angels. They also mirror the order
+  that the Scriptures say is waiting for certain people. These are the
+  people who have followed in the footsteps of the apostles. They have
+  lived fully righteous lives, as the Gospel teaches. That is why those
+  taken up in the clouds, as the apostle writes, will first serve, and
+  then be placed among the presbyters. They move up from glory to
+  glory, because one glory differs from another. They keep growing
+  until they reach full maturity.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
@@ -43,3 +47,15 @@ relations:
 ---
 Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.
+
+TEXT EXTENDED (2026-09-25): the original text stopped at "...according
+to the Gospel," which is the end of a subordinate "Since..." clause
+with no main clause of its own in the record - a truncated excerpt, not
+a wording choice. Extended verbatim through the sentence that clause
+was actually grounding ("For these taken up in the clouds..."), which
+completes the thought: the ranks mirror an economy that carries a
+progression of its own. Re-verified against the vendored file
+(engine.m1.quote_verbatim), including the translator's own bracketed
+"[as deacons]", and modern_rendering rewritten to cover the fuller
+passage, keeping "since...that is why" as the tie between the two
+sentences.
