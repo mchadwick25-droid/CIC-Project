@@ -59,71 +59,65 @@ horizon: 'The Swiss branch of the magisterial Reformation, 1519-1650: two cities
   bridge, not of prior contact between the two founding figures. The window''s close at 1650 is the census''s
   own administrative continues-cap for a still-living tradition (Era 7 Freeze), not a historical rupture:
   the Reformed pattern this world reconstructs continues unbroken past 1650 into descendant traditions
-  this world transmits to (Doc_01 SS7), and Doc_01 itself insists this distinction not be flattened into
+  this world transmits to, and this distinction must not be flattened into
   a false ending. The Synod of Dort (1618-19) falls inside this window as a transitional development:
   its international Reformed dimension (the Canons, this world''s own delegate participation, the Beza
   throughline) remains internal to this world''s own transmission; the specifically Dutch domestic controversy
-  is the actual point of hand-off, to a neighboring, differently-scoped world (Doc_01 SS7).'
+  is the actual point of hand-off, to a neighboring, differently-scoped world.'
 formation_logic: 'One conviction, tested and enacted two ways. At the center: Scripture alone is sufficient
-  to test and warrant both doctrine and civic order, and what it does not warrant no church may require
-  (G3, Confirmed Primary, the strongest cross-strand gravity in this world''s build - Doc_04 SS4). At
+  to test and warrant both doctrine and civic order, and what it does not warrant no church may require. At
   Zurich, this conviction is enacted through public Disputation: a claim argued aloud before the whole
   assembled city until the council itself judges what the text has yielded, binding every priest in its
   territory to preach accordingly. At Geneva, the same conviction is enacted through systematic construction
   and catechesis: doctrine built up article by article until the whole shape of what Scripture teaches
   stands complete, taught to the whole population through the Catechism, and tested against ordinary conduct
-  by the Consistory (G4, Confirmed Supporting, Geneva-scope-qualified - Doc_04 SS3.4). Two further convictions
+  by the Consistory. Two further convictions
   organize around this same center with equal weight: God''s own sovereign election, held not as a threat
-  but as the ground of a settled, untroubled life (G1, Confirmed Primary - Doc_04 SS3.1); and the Supper''s
+  but as the ground of a settled, untroubled life; and the Supper''s
   own refusal on both fronts at once, no repeated sacrifice and no body confined to bread, Christ given
-  truly by the Spirit''s own power to whoever receives him believing (G2, Confirmed Primary - Doc_04 SS3.2).
+  truly by the Spirit''s own power to whoever receives him believing.
   Two tensions run through this same formation without resolving inside the window: T1, Zurich''s council-led
   civic authority against Geneva''s own Consistory, fought and only by 1555 substantially won as an independent
-  disciplinary institution - a real, permanent, within-window non-convergence, not a later-resolved disagreement
-  (Doc_04 SS3.5); and T2, Zwingli''s own 1523 ''remembrance'' reading of the Supper against the 1549 Consensus
+  disciplinary institution - a real, permanent, within-window non-convergence, not a later-resolved disagreement;
+  and T2, Zwingli''s own 1523 ''remembrance'' reading of the Supper against the 1549 Consensus
   Tigurinus''s own negotiated, fuller language - two dated, directly-quoted texts this world holds together
-  rather than resolving in favor of either (Doc_04 SS3.5).'
+  rather than resolving in favor of either.'
 thinness: 'Richest in confessional and doctrinal content: Calvin''s Institutes and Catechism, Zwingli''s
   own founding statements and later writings, the Consensus Tigurinus, the Second Helvetic Confession
-  - all directly vendored and verified (Source_Registry.md rows 1-10). Thin to silent on ordinary lived
+  - all directly vendored and verified. Thin to silent on ordinary lived
   practice and daily texture: no surviving account exists of what an ordinary Sunday service, a Consistory
-  summons, or an ordinary citizen''s own experience of either Reformation actually felt like (Doc_05 SS0
-  item 4; Doc_08 Force 2B-6; Doc_09 SS7 item 1) - a genre asymmetry between richly vendored doctrinal/confessional
+  summons, or an ordinary citizen''s own experience of either Reformation actually felt like - a genre asymmetry between richly vendored doctrinal/confessional
   content and almost entirely absent daily-practice/first-person content, not a gap this build fills with
   invention. No Tier 2 (collected-tradition), Tier 3 (hagiographic), or Tier 4 (composite-reconstruction,
   held instead inside this record''s own synthesis per the Framework''s own instruction) story material
-  survives or is built (Doc_09 SS3.1) - this world''s own confessional core actively refuses the devotional
+  survives or is built - this world''s own confessional core actively refuses the devotional
   genre hagiography belongs to (image veneration, cultic memory), and the absence is evidence the refusal
-  worked, not a missing source (Doc_07 SS2C, SS2H). Three of this world''s own most consequential documented
+  worked, not a missing source. Three of this world''s own most consequential documented
   events - the Marburg Colloquy (1529), the Bolsec controversy (1551), and the Perrinist crisis (1555)
-  - have no vendored primary narrative source comparable to this world''s own three built stories (Doc_09
-  SS6, SS7 item 3). Geneva''s own specific institutional detail (the Consistory''s weekly case-by-case
-  discipline, the census''s own named selection rationale for this world) rests on Confidence D/E, unacquired
-  evidence (Source_Registry.md row 13) - the general doctrine is Documented, but the vivid, formation-defining
-  detail this world was selected for is not currently sourceable (Doc_04 SS3.4).'
+  - have no vendored primary narrative source comparable to this world''s own three built stories. Geneva''s own specific institutional detail (the Consistory''s weekly case-by-case
+  discipline, the census''s own named selection rationale for this world) rests on thin, unacquired
+  evidence - the general doctrine is well attested, but the vivid, formation-defining
+  detail this world was selected for is not currently sourceable.'
 cautions: 'Single-author concentration is real and disclosed at every load-bearing point: Calvin''s own
-  corpus runs roughly four times Zwingli''s in this world''s vendored base (Force 2B-6, Doc_08), and the
+  corpus runs roughly four times Zwingli''s in this world''s vendored base, and the
   Confidence/Gravity Cross-Check on G1 finds the core doctrine Documented cross-strand while its fully
-  systematized, later double-predestination form is substantially Calvin/Beza-concentrated (Doc_04 SS3.1)
+  systematized, later double-predestination form is substantially Calvin/Beza-concentrated
   - not smoothed into an undifferentiated ''both cities teach this equally'' claim. The CT-tagged contested
   term (Sign and the Thing Signified, rzglex008) rests on no vendored secondary scholarship on the Consensus
   Tigurinus specifically - its own contest characterization draws on the builder''s own general knowledge
-  of Reformation historiography, disclosed as such rather than presented as text-grounded (Doc_03 SS4).
+  of Reformation historiography, disclosed as such rather than presented as text-grounded.
   T2''s own characterization of whether the 1549 Consensus ''softens'' or merely restates Zwingli''s 1523
-  language in fuller form is this build''s own interpretive judgment, not an inherited scholarly finding
-  (Doc_04 SS3.5). Five Native sources remain unacquired (Source_Registry.md rows 13-17: the Ecclesiastical
+  language in fuller form is this build''s own interpretive judgment, not an inherited scholarly finding.
+  Five Native sources remain unacquired: the Ecclesiastical
   Ordinances, the Genevan Psalter, Geneva''s own consistory registers, Beza''s own works, Marie Dentiere''s
-  own works) - none of this world''s own current claims treats any of them as load-bearing (Source_Registry.md''s
-  own priority-review trigger note), but a future revision drawing on any of them should re-check claims
-  this record currently states at Confidence D/E rather than assume they hold unchanged. This world''s
+  own works - none of this world''s own current claims treats any of them as load-bearing, but a future revision drawing on any of them should re-check claims
+  this record currently states on thin evidence rather than assume they hold unchanged. This world''s
   own build record has also independently found and adjudicated one Representative-construction/Facilitator-architecture
-  risk not yet named above: rzg_Representative_Validation_Record_Theophilus.md SS4 and rzg_Representative_Phase6_Facilitator_Coordination.md
-  SS3/SS5 both find that Theophilus''s own freely-generated text, in Facilitator-absent construction-time
-  probes P11/P12, drifted into performing a crisis-redirect function itself rather than the template-anchored
+  risk not yet named above: in Facilitator-absent construction-time
+  probes P11/P12, Theophilus''s own freely-generated text drifted into performing a crisis-redirect function itself rather than the template-anchored
   handoff CLAUDE.md reserves for the Facilitator - moot on the real ACUTE_DISTRESS path (voice_event =
   None, unconditional, per engine/m4/turn.py, independently re-confirmed this pass) but untested on the
-  HARMFUL_DYNAMIC_SIGNAL (Track B) path, where the voice does still speak (Phase Six SS3; Open_Gaps_Tracking.md
-  items 34, 36, 104).'
+  HARMFUL_DYNAMIC_SIGNAL (Track B) path, where the voice does still speak.'
 thin_topics:
 - keywords:
   - ordinary

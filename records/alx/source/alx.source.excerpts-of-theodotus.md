@@ -40,18 +40,8 @@ attribution_status: "disputed by the edition's own editor; not securely Clement'
 discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; alx held four Clement sources and not this one, and had no source at all for the movement its own alx.force.gnostic-challenge is about (that gap is NOT closed by this record - see body)"
 external_ids: {ccel_volume: "anf08"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain); div1 "Excerpts of Theodotus" at line 3788.
-
-CORRECTED 2026-09-08, records/alx audit. This record formerly claimed the
-vendored text was Clement's own notebook of extracts from the Valentinian
-teacher Theodotus, and used that claim to argue this world holds one of
-only two genuine floor-movement voices in the whole corpus map. Direct
-inspection of the vendored body found no Valentinian vocabulary at all
-and confirmed the ANF editor's own headnote disowns the Clement
-attribution outright, prefering an unknown Montanist compiler. The two
-works only share a printed title in this 1886 edition; the actual
-Excerpta ex Theodoto is a different, real, not-vendored work.
 
 WHAT THIS MEANS FOR alx.force.gnostic-challenge. The gap this record was
 recruited to close - this world having no source in which Valentinian

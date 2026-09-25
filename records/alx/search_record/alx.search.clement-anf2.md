@@ -17,10 +17,9 @@ query: "Clement of Alexandria complete works in public-domain English: Ante-Nice
 channel: "web search (WebSearch), 2026-08-20; results verified on archive.org, ccel.org, en.wikisource.org"
 result: found
 found_sources: [alx.source.clement-protrepticus, alx.source.clement-paidagogos, alx.source.clement-stromateis, alx.source.clement-quis-dives]
-note: "2026-08-20 update: the searched-for edition (CCEL ANF vol. 2) was supplied via the vendored corpus (cic/texts/anf02_...xml, Mark, 2026-08-15); source records created with rights verified from the file's own DC.Rights header. Quis dives salvetur turned out to be IN this volume - a correction to the manifest's first pass, which had missed it."
+note: "The searched-for edition (CCEL ANF vol. 2) was supplied via the vendored corpus (cic/texts/anf02_...xml); source records created with rights verified from the file's own DC.Rights header."
 ---
-Search run 2026-08-20 as part of step 2 (source ecology) for the Alexandria
-world. Confirmed locations for ANF vol. 2 (Roberts-Donaldson series, Clement
+Confirmed locations for ANF vol. 2 (Roberts-Donaldson series, Clement
 translated by William Wilson, 1885, expected public domain):
 
 - https://archive.org/details/ante-nicene-fathers-vol-2 (scan of the printed volume - best provenance)

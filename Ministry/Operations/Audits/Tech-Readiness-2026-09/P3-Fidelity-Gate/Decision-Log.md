@@ -1666,6 +1666,72 @@ brief); whether the 18 are re-authored, and whether a source's own
 verbless form (inventory, acclamation) is ever an accepted exception,
 is not this thread's call.
 
+**Entry 30 — 2026-09-24 (process doc: rendering gates as authoring
+birth conditions).** Build thread C, item 3 of the reviewer thread's
+brief; PR #483. Docs only; no record, code or participant-facing text
+touched. Numbered 30 after Entry 29 (PR #481); Entry 31 (PR #480)
+landed on main first and left 30 free.
+
+**Where it lands.** `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`,
+Phase B, "The register bar is a birth condition". The doc is a live
+surface under CLAUDE.md "Keep the live/canonical surfaces clean", so
+each clause there is the rule only - no ruling numbers, dates,
+attributions or log pointers (managing thread's condition, 2026-09-24);
+the heading is left as it was. Provenance is here:
+- **Fragment rule practice** (from the R43 human reads): the builder
+  reads every sentence for its own subject and verb before the record
+  leaves authoring, because neither the grader nor FK sees a fragment
+  (Entries 20, 25, 26); a readability conflict is solved by splitting
+  differently or trimming, never by reopening a fragment (Entry 26).
+  The fragment rule names `engine/m1/sentence_completeness.py` (Entry
+  29) as a report-only aid that supports the read and never replaces
+  it, and says it still flags the source-spoken forms R44 accepts.
+- **R44 (source-spoken forms)** - Mark's ruling, 2026-09-24 (~15:00Z),
+  answering the question Entry 29 raised. Mark chose this option in a
+  select box, so it is recorded as his ruling of that option: *"Interjections
+  and answers stay; lists become one sentence; true ellipses get
+  finished."* Meaning: an acclamation, interjection or elliptical answer
+  the source itself speaks stays as the source speaks it; an inventory
+  is rendered as one list sentence; a source sentence cut short
+  mid-thought is finished with the verb its structure implies (as
+  `syr.quote.nisibene-death-trembled`, Entry 19); a split made during
+  rendering that leaves a clause without subject and verb is still a
+  fragment. Relayed by the reviewer and managing threads; confirmed by
+  Mark directly in thread C's session, 2026-09-24. Applied to Entry 29's
+  18 real fragments: "Alas!", "Yes!", "Praise to God.", "Hail,
+  Bethlehem, ..." and "Answer: No." (x2) stay; the 8-sentence
+  `alx.quote.couches-and-trenchers-and-bowls` inventory becomes one list
+  sentence; the rest are reread against the clause. Re-authoring the
+  affected records is a separate dispatch, not this PR's.
+- **Register rule**, new: everyday modern English; the original word
+  stays only where it survives plainly (cappadocian's "Time will fail
+  me", Entry 20); otherwise translate to the modern sense. Written as a
+  principle, with "Wherefore"/"disjoin" (rzg, Entry 21), "Ever let"
+  (hal, Entry 25) and "quickening" (pahc, Entry 26, the round-2 human
+  read, which overrode round 1's decision to keep it) as worked cases,
+  explicitly not a word list - the doc's register-bar section says no
+  banned-word lists exist in this process.
+- **Rendering-fidelity gate**, replacing the "not yet registered ...
+  once it lands" placeholder: R34's standard (translation, not
+  summation); the builder runs the grader at authoring, reads its
+  reasoning against `text`, and revises to two consecutive
+  "translation" verdicts (the reviewer's item-4 verdict, recorded in
+  `rendering_fidelity.py`'s docstring); graders stay report-only and the
+  fragment and register rules win where they disagree (Entry 26). A
+  persistent grader objection after a full human read is recorded in
+  the world's `Open_Gaps_Tracking.md` (CLAUDE.md's standing rule for
+  review outcomes; the reviewer kept this line in round 1).
+- **R45 (two graders at authoring)** - Mark's ruling, 2026-09-24
+  (~15:50Z), chosen in a select box and recorded as his ruling of that
+  option: *"Yes, two graders, either flag counts."* Meaning: Haiku 4.5
+  and Sonnet 4.6 both run at authoring; a flag from either counts; the
+  two-consecutive-runs bar applies to both; Sonnet 5 replaces 4.6 once
+  the account can invoke it and the grader study is re-run. Evidence:
+  Entry 31 / PR #480's memo (Sonnet 4.6 93% same-flag stability against
+  Haiku's 70%; both together caught 46 of 52 fixed defects; under two
+  cents per record). Relayed by the reviewer and managing threads;
+  confirmed by Mark directly in thread C's session, 2026-09-24.
+
 **Entry 31 — 2026-09-24 (model assignment: rendering-grader study;
 voice study blocked at the AWS account).** Thread E, PR #480. Memo:
 `Ministry/Operations/Audits/Tech-Readiness-2026-09/Model-Assignment/Model-Assignment-2026-09-24.md`.
@@ -1793,3 +1859,201 @@ result rests on the human read, not on an automated score.
 (a quote's `modern_rendering` and any re-rendering of it). Every other
 drafting task - records, intermediate review rounds, documentation,
 build work - stays on Sonnet, per the existing rule.
+
+**Entry 34 — 2026-09-24 (fleet-wide quote re-verification: results, one
+real checker fix, five already-resolved).** A full re-run of the
+quote-verbatim sweep (`engine.m1.quote_verbatim`, `verify_quote_record`)
+across every `records/*/quote/*.md` in all 12 world directories - not
+only the `fix` world-report's usual `REPORT_WORLDS` list, which omits
+the `fix` fixture world (included here; its 3 quote records all pass):
+260 checked, 254 verified, 6 failed - the same six the 2026-09-22 report
+(`engine/m1/reports/quote-verbatim-report-2026-09-22.json`) already
+named. Investigated each by hand against the vendored files directly,
+per the brief's own rule: never invent or reconstruct a quote; a
+record's `text` must match its source exactly, or stay flagged.
+
+**What the investigation actually found, against the brief's own
+assumption that all six needed fresh work:** five of the six had
+already been fully investigated and correctly resolved by an earlier
+thread on 2026-09-22, each with its own honest, dated divergence_note
+already in the record, several explicitly "flagged for Mark... not
+resolved further here." Re-verifying each by hand confirmed the earlier
+work was right, not incomplete:
+- `desert.quote.good-good-i-dont-mind` and `hal.quote.hindered-by-
+  jerome` (Palladius, `palladius_lausiac-history_clarke1918.txt`): the
+  record's own wording is correct; two bare endnote numbers ("163",
+  "164") and a digit glued to a comma ("Paula,276") are footnote
+  artifacts with no safe edition-wide rule (the endnote sequence
+  desyncs against page/chapter numbers well before reaching these -
+  confirmed by direct inspection, not assumed) - already
+  `verified-via-authority`, already tested
+  (`test_palladius_bare_digit_footnotes_are_verified_via_authority_not_gate`,
+  `test_palladius_paula_comma_footnote_is_verified_via_authority_not_gate`).
+- `ijc.quote.ammianus-roman-luxury` (`ammianus-marcellinus_roman-
+  history_yonge1862.txt`): the record's English is correct; the
+  vendored djvu OCR scan itself is corrupted at this exact passage
+  ("vastuess" for "vastness", "east" for "cast", "sober-mirfded" for
+  "sober-minded") - already disclosed and independently re-checked
+  against the raw scan on 2026-09-22, already `verified-via-authority`.
+- `don.quote.donatus-quid-est-imperatori` and `don.quote.emeritus-
+  magno-argumento`: both Latin quotes are absent from the file
+  originally cited (one carries only the English translation, the
+  other only a different, unrelated locus) but present, OCR-corrupted,
+  in a second vendored file each record's own `sources[]` already adds
+  (Ziwsa's critical edition; the Migne PL11 scan) - already re-located,
+  already given in corrected standard orthography rather than either
+  the wrong file's content or the raw OCR string, already
+  `verified-via-authority`, already flagged for Mark.
+
+None of these five needed a text, locus, or verification_state change
+today - doing so would either be a no-op or, worse, would mean
+reconstructing wording to force a mechanical match, which is exactly
+what "never invent" forbids. They are not new debt; they are the same
+five items already sitting in each record's own divergence_note,
+unchanged.
+
+**The one genuine, actionable gap: `cappadocian.quote.basil-on-common-
+life`.** Hand-confirmed against `basil_ascetic-works-longer-shorter-
+rules_clarke1925.txt`: the record's own wording is correct, but the
+passage carries three separate divergences from the raw scan, not the
+one the brief assumed:
+1. a bare footnote-reference digit with no wrapper ("common 1 is") -
+   genuinely a checker-grammar gap, now fixed;
+2. a stray extraction-artifact opening quotation mark before "To
+   begin," with no closing mark anywhere in the passage - not fixed
+   today, left as a known, already-disclosed item;
+3. "Tor just as" for "For just as" - a genuine word-level OCR misread,
+   not a marker.
+
+Fixed only item 1, as a new per-edition apparatus entry in
+`cic/texts/REGISTRY.yaml` (`bare-footnote-digit-common-is`), anchored
+on both sides to the literal words "common" and "is" rather than to
+the bare-digit shape - the module's own docstring already rules out a
+FLEET-WIDE bare-digit class as unsafe (other editions quote real digit
+quantities as content) and prescribes exactly this per-edition
+apparatus mechanism as the correct resolution path; this entry follows
+it. Checked the whole file first: the literal substring "common 1 is"
+occurs exactly once, and a blanket "digit between two words" pattern
+would hit 126 places - confirming the literal-word anchor, not a
+general digit rule, is what makes this safe. `engine/m1/tests/
+test_quote_verbatim.py` gained three tests: the entry strips exactly
+the evidenced marker; it does not mask a different digit or a real
+word at the same position; and the record's first sentence now
+verifies in isolation. The existing
+`test_bare_unwrapped_footnote_digit_is_not_silently_tolerated` still
+passes unchanged - it tests the fleet-wide mechanism only, which this
+change never touches.
+
+**Item 2 (the stray quotation mark) is deliberately not fixed today.**
+It is a real, single-occurrence, evidenced artifact, and could probably
+take the same narrow-anchor treatment as item 1. It is left alone here
+because item 3 already means this record cannot pass the mechanical
+check regardless - fixing item 2 today would not change the fleet
+sweep's result, so it stays out of scope rather than being done for its
+own sake in the same pass as item 1.
+
+**Fleet count, before and after, as asked:** 254/260 before this PR's
+one apparatus entry; **254/260 after** - unchanged. This is the correct
+result, not a failed fix: item 1's own fix is real and independently
+verified (the record's first sentence, containing the digit, now
+verifies against the real file in isolation - see the new tests), but
+`cappadocian.quote.basil-on-common-life` was never going to flip to
+fully verified from that fix alone, because of item 3 above (a genuine
+word substitution, which this module's own ruling says must never be
+maskable by any apparatus mechanism, on purpose). The brief's own
+premise - "confirm... the only difference is the bare footnote digit"
+- does not hold; reported here rather than silently fixed around.
+
+**No record text, locus, or verification_state changed.** No package
+rebuild or repin was needed - nothing in `records/` changed, only the
+corpus-map apparatus definition and the engine's own test suite.
+`python3 -m pytest engine/m1/tests -q` (156 tests, includes the 69-test
+`test_quote_verbatim.py` file) and `python3 -m engine.m2.cli
+staleness-check` both pass clean.
+
+**Entry 35 — 2026-09-25 (three rendering fixes: a bracketed supplement,
+a broken reason-to-conclusion tie, a truncated excerpt).** Applies
+Mark's two rendering-bar rulings from the authoring-test follow-up: (1)
+the voice never speaks a translator's own bracketed supplement, and the
+bracket stays in the verbatim `text` field; (2) sentences may split
+freely, but where the original ties a reason to a conclusion, the
+rendering keeps the tie with a plain linking word. `modern_rendering`
+was authored by Opus throughout (per the new CLAUDE.md usage rule,
+Entry 33) - this session is Sonnet, so a fresh Opus subagent drafted
+all three, reviewed here against both rulings, this project's own FK
+target, and source fidelity before anything was applied.
+
+**`pahc.quote.ignatius-truly-born` (Trallians 9).** The vendored
+edition prints "[truly]" in brackets before "died" - the translator's
+own supplied word; every other "truly" in the passage (born,
+persecuted, crucified, raised) is unbracketed, original. The prior
+rendering voiced all five as equally certain. Fixed: the rendering no
+longer asserts the bracketed one; the other four - the actual
+polemical point, a direct denial of a rival teaching that Christ's
+body only seemed real - are unchanged. `text` field untouched (the
+bracket was already correctly preserved there). FK grade 4.46, longest
+sentence 17 words.
+
+**`pahc.quote.polycrates-to-victor`.** The source's own grammar makes
+his age (sixty-five), his travels ("in all parts of the world"), and
+his reading ("through all Holy Scripture") the stated grounds for "am
+not frightened" - a relative clause feeding one main verb, not four
+separate facts. The prior rendering split them into disconnected
+sentences with no linking word, losing that tie. Fixed with "So I am
+not frightened..." Every other clause checked against rule 2
+separately; no other real reason-to-conclusion tie in this passage was
+broken. `text` field untouched. FK grade 5.99, longest sentence 21
+words.
+
+**`alx.quote.the-grades-here-in-the-church` (Stromateis VI.13).** The
+`text` field stopped at "...according to the Gospel" - the end of a
+"Since..." clause with no main clause of its own in the record: a
+truncated excerpt, not a wording choice. Found the full sentence in the
+vendored file (near line 47889) and extended `text` verbatim through
+"...till they grow into 'a perfect man'" - the sentence the "Since"
+clause was actually grounding, completing the thought that the
+church's ranks mirror a progression, not only a static hierarchy.
+Re-verified against the vendored file directly
+(`engine.m1.quote_verbatim.verify_quote_record`): `True`, classes
+`bracket` (the source's own "[as deacons]", not carried into the
+rendering per rule 1), `whitespace`, `punctuation` (curly vs. straight
+quotation marks). `locus` updated with a line reference.
+`modern_rendering` rewritten to cover both sentences, and rendering "a
+perfect man" (Clement's own allusion to Ephesians 4:13) as "full
+maturity" rather than literally - the literal cognate would mislead a
+modern reader into hearing a claim about becoming an adult male, which
+is not what the phrase means. FK grade 7.33, longest sentence 21 words.
+
+**Corrected the tie's own direction (same day, managing-thread
+verdict on PR #531).** The first drafted rendering joined the two
+sentences with "That is why" - a consequence reading, first sentence
+causing the second. The source's own "For" makes the second sentence
+EVIDENCE for the first sentence's claim, not something that follows
+from it: the ranks mirror the angelic economy - *for* [proof:] those
+taken up do in fact progress through it. "That is why" pointed the
+tie backward. Corrected to "For those taken up in the clouds...",
+keeping the author's own direction, per Mark's splitting rule (the tie
+must be kept, in the direction the original actually argues, not just
+any linking word). Re-verified: `True`, same classes. FK grade
+unchanged at 7.33; longest sentence 21 words (was 23, since "For" is
+shorter than "That is why").
+
+**Checks.** `engine.m1.quote_verbatim.verify_quote_record` on all three:
+verified `True`. `python -m engine.m1.gates` (via `gates.run_all`) on
+`pahc` and `alx`: `alx` clean; `pahc`'s 2 `reciprocity` findings are the
+same pre-existing, unrelated baseline count confirmed against this
+branch's own unmodified base - not new. `python3 -m pytest
+engine/m1/tests -q`: 156 passed. `python3 tools/check_paths.py
+--baseline tools/check_paths_baseline.txt`: 0 new unresolved citations.
+Packages for `pahc` and `alx` rebuilt and repinned on the corrected
+content; determinism-check and staleness-check both pass.
+
+All three FK grades sit below the CLAUDE.md target band's floor (8-10),
+not above its ceiling (`engine/m1/gates.py`'s own enforced
+`FK_CEILING = 10`) - reported as such rather than adjusted upward for
+its own sake. This matches, not contradicts, this world's own prior
+"BAR SWEEP" ruling on `pahc.quote.polycrates-to-victor` itself
+(2026-08-29, Mark: "much better thats the bar" -
+`Ministry/Technology/CiC_Register_Bar_2026-08-29.md`): short sentences
+and everyday words were the explicitly approved style for these
+renderings before this entry, not a defect this entry introduces.

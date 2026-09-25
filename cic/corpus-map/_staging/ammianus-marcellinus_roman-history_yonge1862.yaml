@@ -1,0 +1,28 @@
+source_file: ammianus-marcellinus_roman-history_yonge1862.txt
+assignments:
+- work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
+    parties
+  author: ammianus-marcellinus
+  locus: Res Gestae XXVII.3.12-13 (file lines 23186-23187 for the casualty figure; the whole episode
+    at Book 27.3)
+  atlas_ids:
+  - imperial-juridical-christianity
+  role: context
+  confidence: assigned
+  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly by ijc''s
+    own build (ijc.source.ammianus-marcellinus, ijc.quote.ammianus-sicininus-massacre). Verified
+    directly against the file: "It is certain that on one day one hundred and thirty-seven dead
+    bodies were found in the Basilica of Sicininus, which is a Christian church" (lines 23186-23187),
+    matching the quote record''s own verbatim text exactly. This is a pagan Roman historian''s own
+    outside account of the 366 Damasus-Ursinus election riot - previously carried in this build only
+    at second hand, via npnf202''s own editorial endnote quoting Ammianus; the primary text now
+    stands behind that figure directly. `role: context`, not `tradition`: Ammianus is not a Christian
+    witness and the register is etic throughout - "a hostile pagan witness writing from outside the
+    church," per ijc''s own source record - but the account is load-bearing corroboration for
+    ijc.figure.damasus and corroborates Socrates'' own inside account of the same event
+    (ijc.quote.socrates-damasus-election) with an independent casualty figure Socrates does not give.
+    No other Atlas entry in the current census plausibly draws on this specific episode; not
+    checked exhaustively against the full census beyond ijc, which is the only world this file is
+    used by anywhere in the corpus as of this pass.
+
+    '

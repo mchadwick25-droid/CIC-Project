@@ -26,7 +26,7 @@ relations:
 - type: associated-with
   target: alx.source.vita-antonii-syriac
 ---
-Rights verified 2026-08-20 from the file's own prepended header: "Rights:
+Rights verified from the file's own prepended header: "Rights:
 Public Domain" (Clarke 1918 publication; Pearse's transcriptions separately
 declared public domain). Work presence verified: header title "Palladius:
 The Lausiac History"; the Didymus eyewitness passage ("I met him four times

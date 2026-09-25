@@ -1,0 +1,24 @@
+# Closes a Verified Acquisition Lead from the Reformed Cities dossier
+# (Atlas VI.2). One of a 4-volume set; Vol. III could not be located this
+# pass (see this world's own dossier §3/§4) - not substituted or fabricated.
+source_file: calvin_letters-vol1_bonnet1858.txt
+
+assignments:
+  - work: "Letters of John Calvin, Compiled from the Original Manuscripts
+      and Edited with Historical Notes, Vol. I"
+    author: calvin
+    locus: "whole file - Vol. I"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Calvin's own private correspondence, ed. Dr. Jules Bonnet
+      (Philadelphia: Presbyterian Board of Publication, 1858) - a personal,
+      occasional-writing register alongside the Institutes, Commentaries,
+      and Catechism, useful for this world's own pastoral/relational voice
+      as distinct from its systematic-theological one. Vols. I, II, and IV
+      of the 4-volume set are vendored; Vol. III could not be located on
+      archive.org under this identifier family, the parallel 1855-57
+      Edinburgh/Constable printing, or Project Gutenberg (which holds only
+      Vols. I-II) - a genuinely open gap.

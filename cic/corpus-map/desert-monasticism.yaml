@@ -55,6 +55,31 @@ works:
 
     '
   source_file: npnf204_athanasius-select-works-letters.xml
+- work: 'Jews and Christians in Egypt, Part II: The Meletian Schism (pp. 38-99)'
+  author: bell
+  locus: Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract
+    (P.Lond. 1918, Phamenoth 23)
+  role: tradition
+  confidence: provisional
+  note: 'Found by desert.source.bell-jews-christians-egypt (no corpus-map assignment given
+    at intake time); not previously assigned to any Atlas entry. Independently re-verified
+    directly against the vendored file, not just the source record''s own account: `grep`
+    on the raw text confirms 16 occurrences of "Pageus" and 13 of "Hathor", and the 334 CE
+    contract itself is present verbatim ("In the consulship of Flavius Optatus, Patrician,
+    and Anicius Paulinus the most illustrious, Phamenoth 23. Aurelius Pageus son of Horus...")
+    naming his brother Gerontius as deputy before departing for a council at Caesarea "concerning
+    the purgation of the holy Christian body". Real, dated, primary documentary evidence of
+    an actual eastern-desert monastic community (Hathor, upper Cynopolite nome, 330s-340s)
+    — its own legal and personal papers, not later commentary about it, so `role: tradition`
+    on the same footing this build gives its other papyrus-archive evidence. `confidence:
+    provisional` because the source record''s own divergence_note flags real, unresolved doubt
+    the corpus-map inherits rather than resolves: the community is Melitian (schismatic),
+    not Nicene-communion, and whether it is representative of this world''s mainstream ascetic
+    strands is an explicitly unverified working assumption (Doc_01 open item 1) — not yet
+    cited by any quote, story, or doctrinal_witness record, only registered as available.
+
+    '
+  source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
 - work: Budge's Preface and Introduction to the Paradise (1907)
   author: budge
   locus: the opening front matter - the Mosul manuscript's discovery and contents, and Palladius'
@@ -143,6 +168,23 @@ works:
 
     '
   source_file: evagrius_praktikos_dysinger.txt
+- work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
+    (file line 42250)
+  author: gennadius
+  locus: div2 4.4, Chapter VII "Pachomius the presbyter-monk"
+  role: context
+  confidence: assigned
+  note: 'Found by desert.source.jerome-de-viris, same record as the Jerome/Antonius row above.
+    Independently re-verified directly at the cited locus: line 42250 reads "Pachomius the
+    monk, a man endowed with apostolic grace both in teaching and in performing miracles,
+    and founder of the Egyptian monasteries, wrote an Order of discipline..." with the endnote
+    "Born about 292, died 348" the record cites as a dating witness for the figure record
+    (flagged there, correctly, as the edition''s own note rather than ancient testimony).
+    `role: context` for the same reason as the Jerome row: an external biographical notice
+    about Pachomius and his writings, not desert monasticism''s own primary voice.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Letter XXII (To Eustochium, on virginity)
   author: jerome
   locus: div2 5.22 - 'To Eustochium', n=XXII, ~18,609 words
@@ -156,6 +198,26 @@ works:
 
     '
   source_file: npnf206_jerome-principal-works.xml
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
+    41173)
+  author: jerome
+  locus: div2 4.3, Chapter LXXXVIII "Antonius the monk"
+  role: context
+  confidence: assigned
+  note: 'Found by desert.source.jerome-de-viris (kind: vendored; no corpus-map assignment
+    given at intake time). Independently re-verified directly against the vendored file at
+    the record''s own cited locus: line 41173 opens "Antonius the monk...sent seven letters
+    in Coptic to various monasteries, letters truly apostolic in idea and language, and which
+    have been translated into Greek" - confirms the record''s claim that Jerome independently
+    attests seven circulating Antonian letters, cited by desert.contested.antony-literacy
+    as one leg of Rubenson''s authenticity case. `role: context`, not `tradition`: this is
+    an external literary cataloguer''s biographical notice ABOUT desert monasticism''s own
+    tradition (used as corroborating attestation), not the tradition''s own voice. The same
+    volume''s Origenist-controversy material is explicitly flagged by the source record as
+    out of this world''s own horizon and is not assigned here.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: The Life of Paulus the First Hermit
   author: jerome
   locus: div2 6.1 (~3,900 words)

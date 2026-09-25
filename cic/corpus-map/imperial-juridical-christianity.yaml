@@ -27,6 +27,32 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
+- work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
+    parties
+  author: ammianus-marcellinus
+  locus: Res Gestae XXVII.3.12-13 (file lines 23186-23187 for the casualty figure; the whole
+    episode at Book 27.3)
+  role: context
+  confidence: assigned
+  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly
+    by ijc''s own build (ijc.source.ammianus-marcellinus, ijc.quote.ammianus-sicininus-massacre).
+    Verified directly against the file: "It is certain that on one day one hundred and thirty-seven
+    dead bodies were found in the Basilica of Sicininus, which is a Christian church" (lines
+    23186-23187), matching the quote record''s own verbatim text exactly. This is a pagan
+    Roman historian''s own outside account of the 366 Damasus-Ursinus election riot - previously
+    carried in this build only at second hand, via npnf202''s own editorial endnote quoting
+    Ammianus; the primary text now stands behind that figure directly. `role: context`, not
+    `tradition`: Ammianus is not a Christian witness and the register is etic throughout -
+    "a hostile pagan witness writing from outside the church," per ijc''s own source record
+    - but the account is load-bearing corroboration for ijc.figure.damasus and corroborates
+    Socrates'' own inside account of the same event (ijc.quote.socrates-damasus-election)
+    with an independent casualty figure Socrates does not give. No other Atlas entry in the
+    current census plausibly draws on this specific episode; not checked exhaustively against
+    the full census beyond ijc, which is the only world this file is used by anywhere in the
+    corpus as of this pass.
+
+    '
+  source_file: ammianus-marcellinus_roman-history_yonge1862.txt
 - work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
   author: anti-donatist-dossier
   locus: as above
@@ -90,6 +116,29 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
+- work: The Confessions
+  author: augustine
+  locus: div1 6 — The Confessions, Book IX ch. 7 ONLY
+  role: context
+  confidence: assigned
+  note: 'Deliberately narrow, per this world''s own source record (ijc.source.augustine-confessions):
+    only Book 9 ch. 7 is licensed - Augustine''s eyewitness account, as a young Milan rhetoric
+    professor, of the 386 basilica standoff: the congregation''s vigil, the introduction of
+    antiphonal hymn-singing "after the manner of the Eastern Church," and the finding of Gervasius
+    and Protasius. Verified directly against the file: "after the manner of the Eastern Church,
+    hymns and psalms should be sung" (line 13771), matching this world''s own quote record
+    (ijc.quote.hymns-and-psalms-should-be-sung) verbatim.
+
+    `role: context`, not `tradition`, per that source record''s own explicit Boundary Check
+    ruling (legacy Registry rows 8/26): "Augustine''s formation, theology, and the rest of
+    the Confessions belong to the Latin Pastoral-Congregational world... do not extend this
+    license." This one passage is Native to ijc only as independent eyewitness corroboration
+    of Ambrose''s own conduct in the standoff - "the only such corroboration this world''s
+    record has for any of Ambrose''s own claims about his own confrontations" - not as a claim
+    on the rest of the work.
+
+    '
+  source_file: npnf101_augustine-confessions-letters.xml
 - work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
@@ -395,6 +444,32 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: De Synodis (On the Councils)
+  author: hilary_poit
+  locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
+  role: context
+  confidence: assigned
+  note: 'Added for ijc, per this world''s own source record (ijc.source.hilary-de-synodis):
+    De Synodis is the closest vendorable witness to the actual creed formulae of the Homoian-
+    establishment years, quoted and assessed at length by a contemporary Western bishop writing
+    to explain the Eastern councils to the bishops of Gaul - used to satisfy the binding Homoian-
+    recentering obligation (Step 0 SS4.1) where the one piece of Homoian self-testimony the
+    legacy Registry names (Auxentius on Ulfila) has no public-domain English translation.
+    Verified directly: the "De Synodis or On the Councils" division opens at div2 2.4 (file
+    line 7536), with the Sirmium/"like the Father" formula discussed from line 8067 onward,
+    matching the record''s own citation exactly. The same volume''s Prolegomena (div2 2.3,
+    apparatus, not a separate work) also informed ijc.dw.ancient-custom''s treatment of Augustine''s
+    386 hymn-singing witness, per that source record''s own discovery_channel note (Hilary''s
+    own attempted and unsuccessful introduction of hymns into public worship, contrasted with
+    the Milan basilica-crisis hymnody that did take) - not assigned as its own row since it
+    is editorial apparatus, not Hilary''s own text.
+
+    `role: context`, not `tradition`: hostile in allegiance (pro-Nicene) and used here only
+    for the era''s formulae and texture, "never as Homoian self-testimony, which it is not"
+    - the same distinction already governing the homoian-arian-christianity context row above.
+
+    '
+  source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
   locus: div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of
@@ -499,6 +574,32 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: Vita Ambrosii (Life of Ambrose)
+  author: paulinus-milan
+  locus: whole work (single-work volume); the infancy/bee-swarm legend at Chapter II (file
+    line 3006 onward)
+  role: context
+  confidence: assigned
+  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly
+    by ijc''s own build (ijc.source.paulinus-vita-ambrosii, ijc.story.bees-of-milan). Verified
+    directly against the file: "CHAPTER II. Birth, Youth, and Early Public Career of Saint
+    Ambrose" (line 3006) carries "suddenly a swarm of bees came and covered his face and lips
+    in such a way that they kept entering and coming forth from his mouth alternately" (lines
+    3013-3015), matching the source record''s own claim that the bee-swarm infancy legend
+    is present and confirmed. Nothing from this file is quoted verbatim in ijc''s own build
+    by design (hagiographic legend, narrated rather than quoted, per that world''s own Tier
+    3 discipline for attributed tradition) - the story record tells the episode in its own
+    words rather than citing the translation directly. `role: context`, not `tradition`: written
+    by Ambrose''s own former secretary at Augustine''s request some fifteen to twenty years
+    after Ambrose''s death - a genuine insider''s hagiography, openly written to edify, with
+    legendary material not marked off from documented biography inside the text itself. ijc''s
+    own record holds everything drawn from it to Tier 3 (attributed tradition) at most. No
+    other Atlas entry in the current census plausibly draws on this specific work; not checked
+    exhaustively against the full census beyond ijc, which is the only world this file is
+    used by anywhere in the corpus as of this pass.
+
+    '
+  source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt
 - work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions

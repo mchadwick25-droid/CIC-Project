@@ -335,16 +335,75 @@ def test_short_bracketed_digit_is_not_treated_as_apparatus():
 
 
 def test_bare_unwrapped_footnote_digit_is_not_silently_tolerated():
-    """Deliberately NOT part of `apparatus`: a bare digit with no pipe,
-    bracket, or tilde marker of its own (cappadocian.quote.basil-on-
-    common-life's real failure: " 1 is more useful" for a footnote
-    reference with no wrapper) still fails - the fourth-round docstring
-    note explains why a safe, narrow rule for this shape wasn't found."""
+    """Deliberately NOT part of the FLEET-WIDE `apparatus` classes: a bare
+    digit with no pipe, bracket, or tilde marker of its own still fails
+    here - the fourth-round docstring note explains why no safe, narrow
+    FLEET-WIDE rule for this shape was found. cappadocian.quote.basil-on-
+    common-life's own real instance of this exact shape ("common 1 is")
+    is instead resolved as a per-EDITION apparatus entry (REGISTRY.yaml's
+    own bare-footnote-digit-common-is), anchored to the literal
+    surrounding words rather than the bare-digit shape tested here - see
+    test_basil_bare_footnote_digit_apparatus_entry_strips_only_the_marker
+    and its neighbors below."""
     r = _verify(
         "the life of a number lived in common is more useful",
         "the life of a number lived in common 1 is more useful in many ways",
     )
     assert r.verified is False
+
+
+def test_basil_bare_footnote_digit_apparatus_entry_strips_only_the_marker():
+    """The new per-edition entry (REGISTRY.yaml, bare-footnote-digit-
+    common-is) is anchored on both sides to the exact evidenced words
+    ("common" before, "is" after), not a bare-digit shape - it removes
+    exactly the one footnote marker this file is known to carry there."""
+    source = "lived in common 1 is more useful"
+    stripped = strip_edition_apparatus(source, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert stripped == "lived in common is more useful"
+
+
+def test_basil_footnote_digit_apparatus_does_not_mask_a_real_word_difference():
+    """The literal-word anchoring means this entry cannot generalize into
+    a digit-swallower: a different digit at the same position, or a real
+    word substituted for the footnote marker, must both survive
+    untouched - proving a genuine single-word difference at this exact
+    spot would still be caught, not silently masked."""
+    filename = "basil_ascetic-works-longer-shorter-rules_clarke1925.txt"
+    assert strip_edition_apparatus("lived in common 2 is more useful", filename) == "lived in common 2 is more useful"
+    assert strip_edition_apparatus("lived in common wildly is more useful", filename) == "lived in common wildly is more useful"
+    assert strip_edition_apparatus("lived in common 1 is more useful", "some-other-edition.txt") == "lived in common 1 is more useful"
+
+
+def test_basil_common_life_digit_fixed_but_record_still_fails_on_a_separate_ocr_misread():
+    """The digit fix above clears one of this record's own three
+    disclosed divergences (its own body, 2026-09-02) - confirmed
+    directly: the first sentence alone now verifies against the real
+    vendored file. It does NOT flip the whole record to verified,
+    because two separate, already-disclosed issues remain in the rest of
+    the same passage: a stray extraction-artifact quotation mark before
+    "To begin" (not yet its own apparatus entry), and - the one that
+    actually matters here - "Tor just as" for "For just as", a genuine
+    word-level OCR misread. By this module's own ruling, no apparatus
+    mechanism may correct a word substitution, so the record correctly
+    stays unverified and verified-via-authority rather than
+    verified-direct; the digit fix is real and worth keeping, but this
+    one record was never going to newly pass the fleet sweep because of
+    it alone."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.basil-on-common-life"]
+
+    first_sentence = "I recognise that the life of a number lived in common is more useful in many ways."
+    from engine.m1.quote_verbatim import resolve_vendored_paths
+    paths = resolve_vendored_paths(rec, records, fleet)
+    stripped = strip_edition_apparatus(paths[0].read_text(encoding="utf-8", errors="replace"), paths[0].name)
+    assert verify_quote_text(first_sentence, stripped, source_is_xml=False).verified is True
+
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is False
+    assert rec["confidence"]["verification_state"] == "verified-via-authority"
 
 
 def test_alx_soft_hyphen_record_now_verifies():

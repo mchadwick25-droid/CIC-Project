@@ -952,3 +952,53 @@ commentary is a new decision, not a resumption of this one.
 **Known gap, not addressed by this PR.** `tools/check_live_commentary.py` is a line-based scan and does not reliably catch a multi-paragraph narrative block where only one line independently matches a pattern while the surrounding sentences carry the same process narrative without their own trigger word — found in this PR only by re-reading the paragraph around an already-flagged line, not by the tool. Both `witt.core.witt` (world_core) and `witt.voice.craft` (voice_craft) turned out to carry this shape. Other worlds' `world_core`/`voice_craft`/`world_front` records likely do too and have not been checked here — flagged in `worlds/witt/build/BUILD-LOG.md` and PR #506's own body for whoever runs the next world's pass.
 
 ---
+
+## Entry 7 — alx: REWRITE removals, PR #509 (branch `step1-live-surface-cleanup-pr-alx`)
+
+**Note on numbering:** this branch forked from `main` before witt's PR #506 merged, so it
+originally claimed "Entry 1," then renumbered twice more on rebase past concurrently-merged
+threads (Entry 6, then this final renumbering to Entry 7 once witt's own PR #506 merged and its
+entry landed on `main` as Entry 6 first).
+
+**What was removed.** Every line `tools/check_live_commentary.py` classified REWRITE across
+`records/alx/*.md` (145 line-hits at scan time, across ~90 files), resolved by pure word/token/
+whole-clause/whole-paragraph deletion — no wording invented, except two cases restated in present
+tense per witt's own round-1 verdict. Two shapes, same as witt's own entry:
+
+1. **Internal citation/ruling leaks** — a ruling number, a dated "Rights verified" opener, a
+   "REVISED"/"BAR SWEEP"/"LEXICON LABEL PASS"/"REGISTER TRANSLATION" boilerplate line. Removed in
+   place. Full file:line list is in PR #509's own body.
+2. **Settled correction/build narrative**, removed whole once the record's own current fields
+   were confirmed to already state the corrected fact: two "RULING RECORD (Mark, 2026-08-21...)"
+   blocks and a dated readability-fix narrative in `alx.voice.craft`'s body; the entire
+   builder-addressed body of `alx.front.alexandria-catechetical` (a `world_front` record — its
+   body is never read by the compiler, confirmed against `engine/m2/site_compiler.py`); and
+   roughly a dozen "CORRECTED"/"BAR SWEEP"/"Reciprocal relation added" paragraphs across
+   `doctrinal_witness`, `demonstration`, `story`, `force`, `gravity`, and `source` records.
+
+**Two lines restated in present tense rather than deleted or left broken**, per witt's own
+round-1 verdict ("if it records a still-true fact about the record, state that fact in present
+tense"): `alx.quote.athanasius-made-god`'s ellipsis-justification note and
+`alx.demo.someone-like-me`'s sanctioned-alternative note — both kept their real, still-true
+reasoning; only the dated/"Mark's own" attribution framing was dropped.
+
+**Where it moved from.** `records/alx/*.md` — bodies and free-text fields, per the file:line
+list in PR #509's own body.
+
+**Where the settled-history detail lives.** `worlds/alx/build/BUILD-LOG.md` (created; alx had no
+build log before this PR) carries the `world_front` record's own build narrative in full,
+including the now-resolved `modern_rendering` coverage finding (1/26 at build time, 26/26 now,
+per commit `da3f1a77` and two follow-ups) — recorded as settled history, not filed as a fresh gap.
+
+**Two open items ROUTE'd, not REWRITE'd:** `worlds/alx/Open_Gaps_Tracking.md` OG-9 (Didymus's
+Tura material has no public-domain English translation) and OG-10 (`alx.source.origen-on-
+prayer-curtis`'s unresolved chain-of-custody caution) — both still-open, not settled, so they
+belong there rather than here. (Renumbered from this entry's original OG-8/OG-9 once PR #508's
+own corpus-map pass claimed OG-8 for alx first — see `worlds/alx/Open_Gaps_Tracking.md`.)
+
+**Nothing left as an unresolved Words-for-Mark item.** Every candidate either resolved by
+deletion, resolved by present-tense restatement (above), or was confirmed KEEP
+(`alx.quote.timothy-ordinary-questions`'s "RULED ON" — the in-world bishop Timothy's own
+ruling, not this project's review process).
+
+---

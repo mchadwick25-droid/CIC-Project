@@ -17,9 +17,9 @@ query: "Athanasius in public-domain English: NPNF series 2 vol. 4 (Robertson, 18
 channel: "web search (WebSearch), 2026-08-20; verified on ccel.org, archive.org, tertullian.org"
 result: found
 found_sources: [alx.source.athanasius-de-incarnatione, alx.source.athanasius-vita-antonii, alx.source.athanasius-festal-letters, alx.source.athanasius-contra-arianos, alx.source.athanasius-de-decretis]
-note: "2026-08-20 update: the searched-for volume (CCEL NPNF2-04) was supplied via the vendored corpus (cic/texts/npnf204_...xml, Mark, 2026-08-15); five per-work source records created with rights verified from the file's own DC.Rights header. This volume has documented per-work translator splits (Newman/Robertson, Ellershaw, the 1854 Festal Letters rendering) - each source record carries the re-check-at-first-quote instruction."
+note: "The searched-for volume (CCEL NPNF2-04) was supplied via the vendored corpus (cic/texts/npnf204_...xml); five per-work source records created with rights verified from the file's own DC.Rights header. This volume has documented per-work translator splits (Newman/Robertson, Ellershaw, the 1854 Festal Letters rendering) - each source record carries the re-check-at-first-quote instruction."
 ---
-Search run 2026-08-20. The single richest volume in the manifest: it serves
+The single richest volume in the manifest: it serves
 the late horizon (post-325) across canon families C (On the Incarnation),
 F1 (anti-Arian corpus, De Decretis - the "did a council vote Jesus into
 being God?" cell), F3/F4 (Festal Letters as annual whole-community

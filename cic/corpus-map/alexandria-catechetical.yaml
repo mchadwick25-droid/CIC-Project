@@ -645,6 +645,23 @@ works:
 
     '
   source_file: origen_philocalia_lewis1911.txt
+- work: Lausiac History
+  author: palladius
+  locus: 'Chapter IV: Didymus the Blind'
+  role: context
+  confidence: assigned
+  note: 'Verified directly against the vendored file (line 211): "Among these was Didymus
+    the blind author. I met him four times in all, visiting him at intervals during a period
+    of ten years... He was blind, having lost his sight at the age of four, so he told me,
+    and he had never learned to read nor gone to school." An outsider-visitor''s eyewitness
+    vignette (Palladius wrote c. 419-420, at the horizon''s edge) used in alx ONLY for this
+    personally-witnessed Alexandria-adjacent material, never for received desert accounts,
+    which stay this candidate''s own cross-build attribution question (alx.source.palladius-lausiac-
+    history). Context, not tradition: an outsider''s late testimony about the man, not the
+    catechetical tradition''s own texts.
+
+    '
+  source_file: palladius_lausiac-history_clarke1918.txt
 - work: Fragments of Pamphilus (exposition on the Acts of the Apostles)
   author: pamphilus
   locus: div2 6.9
@@ -786,6 +803,26 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: The Ecclesiastical History of Socrates Scholasticus
+  author: socrates
+  locus: div1 2 — IV.20 (Athanasius's death and 46-year episcopate) and IV.25 (Of Didymus
+    the Blind Man)
+  role: context
+  confidence: assigned
+  note: 'Two figure-testimonia loci, verified directly against the file: IV.20 (lines 13310-13322)
+    states Athanasius "departed this life in the second consulate of Gratian and Probus, having
+    governed that church amidst the greatest perils forty-six years" - the edition''s own
+    endnote reads that consulate as 371 and flags Jerome''s Chronicle as placing it in 373
+    (the now-accepted date), a discrepancy alx''s own source record carries honestly rather
+    than silently picking one. IV.25 (line 13797) is the third independent Didymus testimonium
+    beside Palladius and Jerome - its own endnote cross-references Sozomen III.15, Theodoret
+    IV.26 and Palladius Hist. Lausiac. 4, confirming this is the same figure-attestation cluster
+    those other staging files also carry. Context, not tradition: Socrates is a later (c.
+    439) Constantinopolitan outsider to the Alexandrian catechetical tradition, used only
+    for testimonia, never as in-world voice (alx.source.socrates-historia-ecclesiastica).
+
+    '
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
 - work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5

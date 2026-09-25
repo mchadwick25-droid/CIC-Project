@@ -32,8 +32,7 @@ divorced from baptism or communion appears in it); the remarriage question
 is explicitly left in the sources rather than answered by invention - the
 demonstration exists to show refusing that invention gracefully.
 
-REVISED 2026-08-21 (Mark, system-level fix): "I" converted to "we"/"us"
-throughout. Tagged identity-collision, but the participant's question is
+Tagged identity-collision, but the participant's question is
 about the world's marriage doctrine, with only a closing personal-
 application acknowledgment ("you may be asking this for your own life") -
 not itself a question about the voice's nature, so no "I am a
