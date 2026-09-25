@@ -100,8 +100,8 @@ description: '''A Christian man is a perfectly free lord of all, subject to none
   It persists from 1520 to 1530, and its direction is documented as reversing: in 1522 it holds back those going
   too fast, and in 1529 it goads the slack.
 
-  It has more competing links than any other gravity in this world, which is not obvious from a plain reading of
-  "liberty bound by love." It competes with the Word, in the sharpest tension in the whole world, and also with
+  Of the patterns that do not look like tensions at first, this one pulls against the most others. It competes
+  with the Word, in the sharpest tension in the whole world, and also with
   promise and sign, and thinly with the bodily presence. It reshapes the household catechism and the two governments, while embattled Christendom and hearers
   and repeaters of words reshape it in turn. It reinforces justified by faith alone, the terrified and comforted
   conscience, and estate, office, and calling. It also reinforces vows, chastity, and marriage, and, more thinly,

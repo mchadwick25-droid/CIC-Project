@@ -108,7 +108,7 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   about any actual congregation, parish, or household rests only on thin inference.
 
   This is a persistent, unresolved pressure without which this world cannot be understood. In the founder''s own
-  testimony, this was said about most of what this world teaches, not only about this record''s own subject. This
+  testimony, every one of the core convictions we trace in this world was taught more than it was held. This
   world''s most distinctive institution, the self-checking visitation (known here only by reference), is its
   answer. This pressure does not organize the world broadly; it generates programs, not content.
 
