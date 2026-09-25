@@ -15,15 +15,14 @@ confidence:
     Documented that Sulpitius's corpus is organized this way (Vita IV, VII; Ep. I; Dial. II.4,
     III.13, III.15) and that Cassian refuses it (Inst. Pref.; Conf. XV.1, XV.6-7, XVIII.1) - both
     are the texts' own statements; Widely Accepted that Martin's fame rested on it (Gennadius ch.
-    XIX). 'The historicity of the miracles is not what this gravity asserts and is not rated.'
+    XIX). The historicity of the miracles is not what this gravity asserts and is not rated.
     Evidentiary weight set to contested because the gravity's own substance is a competition inside
-    the record - Cassian against Sulpitius, with Eucherius's Latin (row 26, Inferential/Thin
-    wording) complicating the south from within - and because whether Sulpitius's virtus-organized
-    Vita is modelled on the Vita Antonii (Stancliffe, row 18, unread; row 34 Named Comparandum) is
-    an open build item bearing on how much of G6 is this world's own (Doc_04 §7, §10 item 10; Doc_08
-    §7 item 8). Confidence/Gravity Cross-Check: no divergence for a Tensional classification; the
-    single-voice Author Gravity flag stands and is the reason this cannot rise above Tensional
-    though it organizes the northern literature completely.
+    the record - Cassian against Sulpitius, with Eucherius's own Latin (Inferential/Thin wording)
+    complicating the south from within - and because whether Sulpitius's virtus-organized Vita is
+    modelled on the Vita Antonii (a question Stancliffe raises; her study is not read for this
+    build) is an open question this record does not settle. This gravity organizes the northern literature completely, but
+    rests on one voice - Sulpitius's own - which is why it is held at Tensional rather than
+    Primary, whatever its reach within the north.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
   locus: "ch. IV 'protected by the sign of the cross, and not by shield or helmet'; ch. VII (ii.ii.viii) 'perceiving by means of the Spirit of God that power was present' (Roberts's adesse virtutem, editorial); ch. XVIII the barbarian rumour exposed; ch. XXIV false Christs discerned"
@@ -38,13 +37,13 @@ sources:
   locus: "Preface: 'Nor certainly shall I try to weave a tale of God's miracles and signs ... which minister to the reader nothing but astonishment and no instruction in the perfect life'; I.2 sackcloth 'utterly disapproved'"
   license: public-domain
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "XV.1 (iv.v.vi.i) the threefold taxonomy of healing gifts; XV.6; XV.7 (iv.v.vi.vii): 'never reckoned those as good monks or free from the fault of vainglory, who professed themselves exorcists'; 'Humility therefore is the mistress of all virtues' - new to Doc_04, the load-bearing southern witness"
+  locus: "XV.1 (iv.v.vi.i) the threefold taxonomy of healing gifts; XV.6; XV.7 (iv.v.vi.vii): 'never reckoned those as good monks or free from the fault of vainglory, who professed themselves exorcists'; 'Humility therefore is the mistress of all virtues'"
   license: public-domain
 - source_id: gallic.source.cassian-conferences-part-iii
   locus: "XVIII.1 (iv.vi.ii.i): 'not of the miracles of God, but of the institutes and pursuits of the saints'"
   license: public-domain
 - source_id: gallic.source.eucherius-de-laude-eremi
-  locus: "\u00a727 (file line c. 452): the Egyptian fathers' 'accompanying grace either in silent revelations or in crying signs' - a L\u00e9rins voice that does not share Cassian's refusal (Doc_04's rendering, Inferential/Thin)"
+  locus: "§27 (file line c. 452): the Egyptian fathers' 'accompanying grace either in silent revelations or in crying signs' - a Lérins voice that does not share Cassian's refusal, Inferential/Thin for wording"
   license: public-domain
 - source_id: gallic.source.gennadius-de-viris-illustribus
   locus: "ch. XIX: Martin 'famous for signs and wonders and virtues' (ancient text; Richardson's 'Virtues or miracles' editorial)"
@@ -108,92 +107,73 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.figure.sulpitius
-name: "Virtus - the saint as bearer of power [TENSIONAL]"
+- type: associated-with
+  target: gallic.quote.martin-power-present-catechumen-raising
+- type: associated-with
+  target: gallic.quote.abundance-of-power-not-granted-as-bishop
+- type: associated-with
+  target: gallic.quote.gennadius-martin-famous-for-signs
+- type: associated-with
+  target: gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles
+- type: associated-with
+  target: gallic.quote.humility-mistress-of-virtues-not-exorcism
+name: "Virtus - the saint as bearer of power"
 classification: tensional
 description: >-
-  Miracle, exorcism, and blessed objects as the organizing substance of the northern literature:
-  Martin 'perceiving by means of the Spirit of God that power was present' raises the catechumen
-  (Vita VII); 'such an abundance of power was by no means granted him while he was a bishop, as he
-  remembered to have possessed before he obtained that office' (Dial. II.4); after the coerced
-  Ithacian communion 'he felt a diminution of his power' (Dial. III.13); Ep. I defends the virtus
-  against a skeptic; Gennadius calls him 'a man famous for signs and wonders and virtues.' The
-  south's teacher refuses it on principle: 'Nor certainly shall I try to weave a tale of God's
-  miracles and signs' (Inst. Pref.), and - the sentence that sets the two literatures directly
-  against each other - 'our predecessors never reckoned those as good monks or free from the fault
-  of vainglory, who professed themselves exorcists among men ... nor should we ask whether the
-  devils are subject to him' (Conf. XV.7, new to Doc_04). A Lérins complication: Eucherius admires
-  the Egyptian fathers' grace shown 'in crying signs' (row 26), so 'the competition is
-  Cassian-versus-Sulpitius, not south-versus-north wholesale.' AUTHOR GRAVITY FLAG AT GENERATION
-  (Doc_04 §2.1): SINGLE-VOICE (Sulpitius) - Gennadius corroborates Martin's FAME for signs, not the
-  organizing role; Cassian refuses it. SIX-TEST SUMMARY (Doc_04 §3): Repetition passes across
-  streams (S, Gn, L, E, AA) but is one voice's organizing principle; Dependency passes in the north
-  (the Vita, Letters, and Dialogues are built of virtutes; the north's account of the episcopate -
-  power diminished by office - depends on it); Formation passes in the north (the power is what
-  draws disciples) and FAILS in the south by design (XV.7); Explanatory passes (the exorcism
-  narratives, blessed objects, the Egyptian merchant, the skeptic of Ep. I, Brictio's sneer at
-  'ridiculous fancies about visions'); Persistence FAILS across nodes - present in Tours, refused by
-  Cassian, admired of the Egyptians by Eucherius; Interaction passes with one '-' cell. CROSS-NODE:
-  node-bound (northern), with the internal southern disagreement (Cassian vs. Eucherius) recorded.
-  CLASSIFICATION: TENSIONAL - 'the persistent counter-force that prevents the ecology from being
-  reducible to G7's interior program: one node's literature is made of what the other's teacher says
-  a good monk must not proclaim. It does not organize the whole world, but the world cannot be
-  described without it.' Sackcloth (Doc_03 8.5) - worn as a weapon in the north, disapproved as
-  vanity by Cassian's Egyptians - is recorded at Doc_04 §6 point 3 as confirming the same pattern,
-  not as a separate gravity. CONFIDENCE/GRAVITY CROSS-CHECK: no divergence for Tensional; the AG
-  flag caps it. FORCES NOTATION (Doc_04 §3; Doc_08 §5): held in the north; contested from within;
-  shifted by office - under the initiating force it is the north's answer to the Egyptian standard
-  (G2's comparative mode); under institutional pressure it SHIFTED - less power as bishop (Dial.
-  II.4), a diminution after a coerced communion (Dial. III.13), 'the gravity registers the force of
-  episcopal politics on the saint's body'; under the grace controversy it is silent - the south's
-  counter-teaching (Conf. XV.7) is Egyptian, not a response to Tours; under barbarian pressure
-  Doc_08 2A-5 finds two thin touches (a rumoured inroad exposed by exorcism, Vita XVIII; Brictio's
-  barbarian captives, Dial. III.15); at the north's closing it passed 'from a living saint's power
-  to a relic's and a psalm's' (Doc_08 3B-1).
+  Miracle, exorcism, and blessed objects hold together the northern literature. The south's
+  teacher refuses this whole approach on principle.
+
+  At Tours, power is something Martin bears, and is known by. He prays over a dead catechumen. He
+  senses that God's power is present, and raises the man back to life (Vita VII). Gallus reports
+  that Martin himself used to say something else, too. He sensed less of that power as bishop than
+  he remembered having before he held the office (Dial. II.4). One of Sulpitius's letters
+  defends that same power against a skeptic. Gennadius, writing later, calls Martin a man famous for
+  signs, wonders, and virtues.
+
+  Cassian refuses this on principle. He says plainly that he will not try to tell stories about
+  God's wonders, however many he has witnessed himself. Such stories teach a reader nothing
+  about how to live well (Inst. Pref.). Abbot Nesteros goes further still. No one who declared
+  himself an exorcist before an admiring crowd was ever counted a good monk. Whether the devils
+  obeyed him was beside the point (Conf. XV.7). This is the sentence that sets the two literatures
+  directly against each other. Inside the south itself, Eucherius still admires the Egyptian
+  fathers' visible signs of grace. So the real argument runs between Cassian and Sulpitius, not
+  between south and north as a whole. Neither names the other; whether Cassian's refusal is a
+  veiled answer to Sulpitius is not settled.
+
+  This gravity organizes the north's literature completely. The Vita, the Letters, and the
+  Dialogues are all built from acts of power. The north's account of the episcopate, power lost
+  through office, depends on it too. But it rests mostly on one voice, Sulpitius's alone. Gennadius
+  confirms only that Martin was famous for signs, not that power organizes a monk's whole life.
+  Cassian refuses the whole approach outright. For that reason, this record holds virtus as a
+  tensional gravity, not a primary one. It is real and unresolved, resting on one voice rather than
+  broad agreement. It is the steady counter-force that keeps this ecology from being reduced to the
+  south's interior program alone. One house's literature is made of exactly what the other
+  house's teacher says a good monk must never proclaim. It does not organize the whole world.
+  But the world cannot be described without it. This record finds no demonstrated link between this
+  gravity and the grace controversy.
+
+  Under institutional pressure the gravity shifts rather than holds steady. Martin felt less power
+  as bishop than as monk, by his own account. He felt a further loss after a forced communion with
+  bishops he distrusted. Office itself, in this literature, registers as a real cost to the saint's
+  body. Under barbarian pressure the gravity is touched only twice, and thinly. At the north's
+  ending, it passed from a living saint's power to a relic's, and to a psalm's.
 manifestations:
 - "Martin raising the catechumen, 'perceiving by means of the Spirit of God that power was present' (Vita VII) - the founding instance"
 - "'Protected by the sign of the cross, and not by shield or helmet' (Vita IV); exorcism performed prostrate in sackcloth, 'the doors being bolted' (Dial. III.6); blessed threads and straw"
 - "Power lessened by office - less as bishop than as monk (Dial. II.4) - and by a coerced communion with the Ithacian bishops (Dial. III.13)"
 - "Ep. I's whole defense of the virtus against a skeptic; Brictio's 'ridiculous fancies about visions' policed from within (Dial. III.15)"
 - "Cassian's refusal: 'no instruction in the perfect life' (Inst. Pref.); 'never reckoned those as good monks ... who professed themselves exorcists'; 'Humility therefore is the mistress of all virtues' (Conf. XV.7)"
-- "Eucherius admiring the Egyptian fathers' grace 'in crying signs' (De Laude Eremi \u00a727, row 26) - the south not of one mind; Honoratus's serpents counted inter miracula ac merita (row 27)"
+- "Eucherius admiring the Egyptian fathers' grace 'in crying signs' (De Laude Eremi §27) - the south not of one mind; Honoratus's serpents counted inter miracula ac merita"
 ---
-Re-derived from the approved Doc_04 (§2.1 candidate G6 -> §3 G6 -> §8 row G6; Tensional).
-Interaction Matrix (Doc_04 §4, row/col G6) - three or more competing/reshaping cells, 'the signature
-of a Tensional gravity': competing (C) with G2 ('the north measures Martin against Egypt by virtutes
-... Cassian's Egypt refuses miracle-fame') and G7 ('the sharpest: "never reckoned those as good
-monks ... who professed themselves exorcists" (Conf. XV.7) vs the exorcist-saint' - Doc_04 §4 names
-'the G6-G7 competition' as one of the ecology's two structural tensions) - both carried as
-tension-with; reshaping (S) with G1 ('office reshapes power: less virtus as bishop'), G4 ('tradition
-regulates power-claims ... while Martin's own virtutes found a new one'), and G9 ('coerced communion
-with bishops diminishes power (Dial. III.13); bishops calumniate the saint'); reinforcing (R) with
-G5 ('the whole miracle corpus is authorized by eyewitness'), G8 ('power is the soldier's weaponry:
-"the sign of the cross, and not by shield or helmet"'), and G10 ('R (thin) - Antichrist read through
-the saint's discernment of false Christs (Vita XXIV)') - these six carried as associated-with, R/S
-character preserved here. DECLARED ABSENCE: no demonstrated relationship with G3 (grace) - the
-matrix's own '-' cell, disclosed by Doc_04's own S7 fix, with the cell's own reasoning quoted:
-'shared lemma gratia only; Doc_03 6.2 keeps the senses apart'; and §6 point 3: G6's
-'counter-teaching in the south (Conf. XV.7) is Egyptian, not a response to Tours - the two
-literatures do not address each other,' which Doc_04 §6 weighs as 'the strongest [argument] for two'
-nodes and hands to Step 0 unresolved; carried here the same way. Forces-connection (Doc_08 §5, A.2 -
-seven forces): its outward use produced by 1A-3 (gallic.force.unconverted-countryside - 'a principal
-reason the north's literature is made of virtutes') - carried as enabled-by, reciprocal
-precondition-for; its comparative frame shaped by 1A-1 (egyptian-standard), sustained and its
-refusal stated by 2B-4 (power-displayed-disowned - 'the world's sharpest internal tension, never
-joined as an argument'), diminished by 2A-3 (court-at-trier - the coerced communion) and by 2A-2
-(episcopal-recruitment) with 2B-3 (office-temptation-destiny - 'less power as bishop'), touched
-thinly by 2A-5 (barbarian-fiscal-ruin - twice, per Cell 2A-5's decision), and transformed at the
-north's closing by 3B-1 (fugitives-fill-the-sees) - all six associated-with. Story and figure links
-closed at B-5: illustrated-by gallic.story.raising-of-the-catechumen (the founding instance) and
-gallic.story.brictio-in-the-courtyard (virtus from its unbelieving edge); associated-with
-gallic.story.the-cloak-at-amiens (its gentlest form), gallic.story.discharge-before-caesar (named as
-weaponry), gallic.story.election-at-tours (applied to a book),
-gallic.story.trier-and-the-ithacian-communion (diminished by a communion),
-gallic.story.death-of-martin-at-condate (passing to relic and psalm),
-gallic.story.honoratus-and-the-island (admitted inside the south), and
-gallic.story.paphnutius-and-the-hidden-book (the southern counter-teaching stated as story, per that
-record's own 'not an instance' qualifier); associated-with gallic.figure.martin,
-gallic.figure.sulpitius (the Author Gravity flag is his), gallic.figure.honoratus, and
-gallic.figure.cassian (his refusal being the southern side of the split - read as included in that
-record's 'each of those gravity records,' a judgment call flagged in this step's report) -
-reciprocal edges declared on each. Canon_cells left empty, matching fleet convention for
-gravity/force records.
+Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
+Cassian) and cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius). This description
+paraphrases the primary sources in its own voice; their verbatim wording, locus, and speaker
+attribution are each carried in full in gallic.quote.martin-power-present-catechumen-raising,
+gallic.quote.abundance-of-power-not-granted-as-bishop,
+gallic.quote.gennadius-martin-famous-for-signs,
+gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles, and
+gallic.quote.humility-mistress-of-virtues-not-exorcism.
+
+This gravity's own relations to this world's other gravities and forces are declared in full in
+its own `relations[]` field above, reciprocal edges declared on each target. Canon_cells left
+empty, matching fleet convention for gravity/force records.

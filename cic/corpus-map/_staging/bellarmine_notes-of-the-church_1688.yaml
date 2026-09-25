@@ -1,0 +1,17 @@
+source_file: bellarmine_notes-of-the-church_1688.txt
+
+assignments:
+  - work: "The Notes of the Church (De Notis Ecclesiae)"
+    author: bellarmine
+    locus: "whole volume"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Bellarmine's direct English-language Tridentine-side answer to
+      Protestant claims about the marks of the true Church - a direct
+      doctrinal engagement with Protestant ecclesiology this world's
+      corpus previously lacked beyond Sarpi's narrative history and the
+      bare Canons/Decrees. Vendored 2026-09-25 as part of a
+      post-Step0-Revision-2 PD source-acquisition pass.

@@ -11,12 +11,12 @@ assignments:
     note: >
       Jeronimo Nadal's own Gospel annotations and meditations, Latin
       original (1595) - a major first-generation Jesuit theological
-      voice. PRIMARY content for this world, not a second witness, since
-      the only English translation (Homann, 2003) is in copyright and
-      restricted; no PD English rendering exists. Vendored 2026-09-24 as
-      part of a pre-Doc_02 source-acquisition pass for this candidate,
-      closing a gap an earlier dossier pass had checked and closed as
-      unresolvable in English. Original-language second-witness caveat
-      does not apply per cic/texts/INTAKE.md, since there is no English
-      rendering for this to witness alongside. OCR quality caveat: see
-      this file's own header.
+      voice. Correction (2026-09-25): this note previously called the file
+      PRIMARY content on the grounds that no PD English translation
+      exists. Under Mark's 2026-09-25 ruling
+      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), an original's
+      language no longer decides this - scan quality does, and this
+      1595 print is flagged under Mark's OCR ruling "a" as garbled. It
+      stays second witness for that reason until a cleaner edition is
+      vendored - still closing the real gap an earlier dossier pass
+      flagged, just not yet quotable verbatim.

@@ -122,7 +122,7 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - Use Plan Mode before committing to implementation on anything with uncertain scope — explore read-only first rather than burning implementation-priced turns on discovery.
 - When a path turns out wrong, back out of it with a checkpoint/`/rewind` instead of patching over it — this is "no fix on a fix" (above), enforced mechanically.
 - Fable is reserved for complex design and research — the strategic thinking that sets the frame for everything downstream (system/front-end redesign proposals, comparative source-ecology and world-strategy research, org/funding strategy). Use it where getting the frame right the first time avoids many cheaper rounds of rework later, not for routine drafting or anything that repeats.
-- Opus is for the final adversarial-review gate only. Draft and do intermediate revision rounds with Sonnet.
+- Opus reviews every adversarial-review round; Sonnet drafts and revises. From round 2 onward, review is a targeted recheck at lower effort.
 - One exception: modern-English renderings the voice speaks (a quote's `modern_rendering`, and any re-rendering of it) are authored by Opus. Sonnet did not hold the rendering bar on them (every clause, nothing added, one thought per sentence, nothing past about 25 words, no word whose modern sense misleads). Everything else still drafts on Sonnet.
 - From round 2 onward, do a targeted recheck (only what changed, against prior findings) instead of a full re-review from scratch.
 - Push mechanical work — package rebuilds, citation/log fixes, formatting, indexing — to Haiku.

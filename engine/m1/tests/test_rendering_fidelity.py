@@ -6,12 +6,18 @@ incomplete sweep silently reported as the whole fleet), and sweep_world's
 aggregation - skipping records with no modern_rendering, counting each
 verdict, and landing a timeout/parse-failure/exhausted-retry in errors
 rather than crashing the sweep."""
+from pathlib import Path
 from types import SimpleNamespace
 
 import httpx2
 from anthropic import APITimeoutError, RateLimitError
 
-from engine.m1.rendering_fidelity import grade_rendering, sweep_world
+from engine.m1.rendering_fidelity import (
+    cross_language_report,
+    grade_rendering,
+    non_english_sourced_quotes,
+    sweep_world,
+)
 import engine.m1.rendering_fidelity as rendering_fidelity
 
 
@@ -218,3 +224,132 @@ def test_sweep_world_ignores_non_quote_records(monkeypatch):
     report = sweep_world("w", client, "fake-model")
 
     assert report["total_quotes"] == 1
+
+
+# --- non_english_sourced_quotes: the cross-language scoping ---------------
+# The grader itself (SYSTEM_PROMPT, grade_rendering) is already language-
+# agnostic; what needs its own test is only the SCOPING - finding the real
+# subset of quotes whose own source declares a non-English original,
+# against real vendored-file headers (cic/engine/texts_registry.py's own
+# `Language:` convention), not a mocked language lookup.
+
+
+def _source_record(sid, *, edition):
+    return {"id": sid, "record_type": "source", "edition": edition}
+
+
+def test_non_english_sourced_quotes_finds_a_latin_source(monkeypatch, tmp_path):
+    (tmp_path / "some-latin-work.txt").write_text(
+        "Title: A Latin Work\nLanguage: lat\n\nBody text here.\n", encoding="utf-8")
+    (tmp_path / "an-english-work.txt").write_text(
+        "Title: An English Work\n\nBody text here.\n", encoding="utf-8")
+    monkeypatch.setattr(rendering_fidelity, "_TEXTS_DIR", tmp_path)
+
+    worlds = {
+        "w": {
+            "w.quote.lat": {
+                "id": "w.quote.lat", "record_type": "quote", "text": "Verbum.",
+                "modern_rendering": "The word.",
+                "sources": [{"source_id": "w.source.lat"}],
+            },
+            "w.source.lat": _source_record("w.source.lat", edition="cic/texts/some-latin-work.txt"),
+            "w.quote.eng": {
+                "id": "w.quote.eng", "record_type": "quote", "text": "Word.",
+                "modern_rendering": "The word.",
+                "sources": [{"source_id": "w.source.eng"}],
+            },
+            "w.source.eng": _source_record("w.source.eng", edition="cic/texts/an-english-work.txt"),
+        }
+    }
+
+    found = non_english_sourced_quotes(worlds)
+
+    assert [f["id"] for f in found] == ["w.quote.lat"]
+    assert found[0]["language"] == "lat"
+    assert found[0]["filename"] == "some-latin-work.txt"
+
+
+def test_non_english_sourced_quotes_skips_a_source_that_does_not_resolve(monkeypatch, tmp_path):
+    monkeypatch.setattr(rendering_fidelity, "_TEXTS_DIR", tmp_path)
+    worlds = {
+        "w": {
+            "w.quote.a": {
+                "id": "w.quote.a", "record_type": "quote", "text": "A.",
+                "sources": [{"source_id": "w.source.missing"}],
+            },
+            "w.source.missing": _source_record("w.source.missing", edition="not a real edition path"),
+        }
+    }
+
+    assert non_english_sourced_quotes(worlds) == []
+
+
+def test_non_english_sourced_quotes_decided_by_the_first_resolving_source_not_any_source(monkeypatch, tmp_path):
+    """The real bug this pins: a quote citing an English translation FIRST
+    and a Latin critical edition SECOND (the NPNF-then-Petschenig shape a
+    real fleet record actually has) must be judged by the first source -
+    English - and skipped entirely, not picked up because a LATER source
+    happens to be non-English. The record's own `text` field is whatever
+    the first-cited edition gives it (English here), so grading it against
+    the second source's language would silently compare English to
+    English under a "cross-language" label."""
+    (tmp_path / "english-translation.txt").write_text(
+        "Title: An English Translation\n\nBody text here.\n", encoding="utf-8")
+    (tmp_path / "latin-critical-edition.txt").write_text(
+        "Title: A Latin Critical Edition\nLanguage: lat\n\nBody text here.\n", encoding="utf-8")
+    monkeypatch.setattr(rendering_fidelity, "_TEXTS_DIR", tmp_path)
+
+    worlds = {
+        "w": {
+            "w.quote.eng-then-lat": {
+                "id": "w.quote.eng-then-lat", "record_type": "quote",
+                "text": "The English translation's own words.",
+                "modern_rendering": "The English translation's own words, modernized.",
+                "sources": [
+                    {"source_id": "w.source.eng"},
+                    {"source_id": "w.source.lat"},
+                ],
+            },
+            "w.source.eng": _source_record("w.source.eng", edition="cic/texts/english-translation.txt"),
+            "w.source.lat": _source_record("w.source.lat", edition="cic/texts/latin-critical-edition.txt"),
+        }
+    }
+
+    assert non_english_sourced_quotes(worlds) == []
+
+
+# --- cross_language_report: aggregation over the scoped subset ------------
+
+
+def test_cross_language_report_grades_only_the_non_english_subset(monkeypatch, tmp_path):
+    (tmp_path / "latin-work.txt").write_text("Language: lat\n\nBody.\n", encoding="utf-8")
+    monkeypatch.setattr(rendering_fidelity, "_TEXTS_DIR", tmp_path)
+    worlds = {
+        "w": {
+            "w.quote.lat": {
+                "id": "w.quote.lat", "record_type": "quote", "text": "Verbum.",
+                "modern_rendering": "The word.",
+                "sources": [{"source_id": "w.source.lat"}],
+                "confidence": {"verification_state": "verified-direct"},
+            },
+            "w.source.lat": _source_record("w.source.lat", edition="cic/texts/latin-work.txt"),
+            "w.quote.eng": {
+                "id": "w.quote.eng", "record_type": "quote", "text": "An English quote, not in scope.",
+                "modern_rendering": "An English quote, not in scope.",
+            },
+        }
+    }
+    monkeypatch.setattr("engine.m1.quote_verbatim.REPORT_WORLDS", ("w",))
+    monkeypatch.setattr(rendering_fidelity, "load_world_records", lambda world_key: worlds[world_key])
+    monkeypatch.setattr("engine.provider.bedrock.resolve_model_id", lambda pattern, region: "fake-model")
+    monkeypatch.setattr("engine.provider.bedrock.make_client",
+                        lambda region: FakeGraderClient([{"verdict": "translation", "reasoning": "ok"}]))
+
+    report = cross_language_report("fake-region")
+
+    assert report["total_non_english_sourced_quotes"] == 1
+    assert report["graded_count"] == 1
+    assert report["findings"][0]["id"] == "w.quote.lat"
+    assert report["findings"][0]["language"] == "lat"
+    assert report["findings"][0]["verdict"] == "translation"
+    assert report["grader_scope"] == "single Haiku run; first-pass screen, not a V1.8 two-grader pass"

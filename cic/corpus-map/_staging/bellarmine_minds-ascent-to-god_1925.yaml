@@ -1,0 +1,14 @@
+source_file: bellarmine_minds-ascent-to-god_1925.txt
+
+assignments:
+  - work: "The Mind's Ascent to God by a Ladder of Created Things"
+    author: bellarmine
+    locus: "whole volume"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Bellarmine devotional work in English translation (1925). Vendored
+      2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+      pass.

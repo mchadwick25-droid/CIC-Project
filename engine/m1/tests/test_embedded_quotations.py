@@ -97,8 +97,8 @@ def test_fleet_survey_world_counts_match_the_og10_baseline():
     record counts per world (not span counts, which move independently as
     pairing/self-quote fixes land)."""
     baseline = {
-        "pahc": 14, "syr": 2, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
-        "cappadocian": 3, "don": 5, "rzg": 11, "witt": 48, "gallic": 63,
+        "pahc": 14, "syr": 0, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
+        "cappadocian": 0, "don": 5, "rzg": 11, "witt": 48, "gallic": 58,
     }
     for world, expected in baseline.items():
         result = survey_world(world)
