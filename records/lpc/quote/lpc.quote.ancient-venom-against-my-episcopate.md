@@ -42,7 +42,8 @@ modern_lens_note: 'A modern listener may hear ''ancient venom'' as ordinary rhet
   a rival. Cyprian''s own point is more specific: the hostility named here is not aimed at him personally
   so much as at the act by which he became bishop at all -- our own suffrage, joined to what he calls
   God''s own judgment. Rejecting him, on his own reading, meant rejecting that acclamation itself.'
-modern_rendering: They still carry that old poison against me as bishop. That means against your own vote,
-  and God's own judgment. So they attack me again, the same way as before.
+modern_rendering: They remember their old conspiracy. They still carry that old poison against me as bishop
+  -- that is, against your own vote and God's own judgment. So they attack me again, the same as before.
+  They begin their sacrilegious plotting once more, with their usual cunning.
 ---
 Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37: 'a faction's ancient venom set against the plain suffrage of the people'), and at greater length at line 29 ('the crowd's own calling of a man to this office -- a faction's ancient venom set against the plain suffrage of the people, in one voice'). Independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 32372 -- the corrected locus (Ep. XXXIX, not Ep. XL) lpc.source.cyprian-epistles's own divergence_note already names (a citation error stood in this world's build for six days before correction); this record independently re-verifies the corrected locus directly rather than trusting the correction on the source record's own say-so, per this step's own discipline for the small set of places a confidence rating depends on a specific line actually being where it is said to be. This quotation begins mid-sentence in the source ('...since mindful of their conspiracy...'); per Doc_09 SS2's own disclosed transcription convention, the first letter is capitalised here without an opening ellipsis, and no wording is altered.

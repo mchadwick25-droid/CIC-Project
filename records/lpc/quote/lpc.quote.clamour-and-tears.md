@@ -14,7 +14,7 @@ confidence:
   divergence_note: The vendored Weiskotten scan carries a single OCR artifact inside this quotation --
     'ancf' for 'and' -- reproduced here exactly as the scan gives it (matching this record's own text
     against the raw file precisely, per this step's own discipline), not silently corrected; modern_rendering
-    gives the plain sense ('We demanded it...') rather than reproducing the artifact.
+    gives the plain sense ('they demanded it...') rather than reproducing the artifact.
 sources:
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
   locus: Vita Augustini IV; independently re-located and re-read this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt,
@@ -52,8 +52,9 @@ modern_lens_note: 'A modern listener may hear ''they demanded it with clamor'' a
   on a man standing unaware among them and refusing to let him leave until the ordination was done, while
   he wept -- the same congregational-acclamation pattern lpc.story.election-of-cyprian shows for Cyprian,
   a century and a half earlier, recurring at Hippo for Augustine.'
-modern_rendering: We already knew Augustine's own life and teaching, so we took hold of him -- he was
-  standing right there among us, with no idea what was coming. We brought him to the bishop to be ordained,
-  because all of us together wanted it done. We demanded it, loudly, while he wept.
+modern_rendering: The Catholics there already knew Augustine's life and teaching, and they took hold of
+  him -- he was standing among the people, secure and with no idea what was coming. So they laid hands
+  on him and, as was the custom, brought him to the bishop to be ordained, because everyone there wanted
+  it done, with one mind. And they demanded it, loudly and with great zeal, while he wept freely.
 ---
 Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37: 'the crowd's own clamour at a second bishop's own reluctant elevation'), and at greater length at line 29. Independently re-located this session at cic/texts/possidius_vita-augustini_weiskotten1919.txt, line 1817 -- Chapter IV, Augustine's own ordination as presbyter in 391, OUTSIDE lpc.story.the-psalms-on-the-wall's own declared SSSS28-31 span (the death and burial sequence), inside the same file row 192 already licenses; the same disclosed reach-beyond-the-story's-own-span move don's own script names for its own Optatus Book III quote. The translator's own endnote at this chapter (page 150 of the vendored edition) additionally quotes Augustine's own first-person account, Sermo CCCLV i 2: 'Apprehensus presbyter factus sum, et per hunc gradum perveni ad episcopatum' ('I was seized and made a presbyter, and through this step I arrived at the episcopate') -- independently re-located this session and named here as corroboration, not substituted for Possidius's own third-person account as this record's own `text` field, which stays the narration actually quoted rather than a different witness's own words spliced in.

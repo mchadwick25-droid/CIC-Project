@@ -614,6 +614,70 @@ prerequisite rather than only the ones still in dispute.
 
 ---
 
+### OG-14. Re-rendered all 5 of `lpc`'s quote `modern_rendering` fields under the V1.5 rendering-fidelity standard (`engine.m1.rendering_fidelity`'s own "translation, not summation" rule) — independent verification found defects in all 5, not only the ones already flagged.
+
+**Number collision, disclosed rather than silently guessed around:** this entry is filed as
+OG-14 on a branch cut fresh from `origin/main` (which carries only through OG-13). Two other
+open, unmerged `lpc` PRs each independently number their own next entry OG-14 or OG-15 on
+their own branches off the same base. This is not resolved here — it is exactly the kind of
+renumbering PR5 (Open_Gaps_Tracking hygiene) exists to do once merge order is known. Flagged
+here so the collision is visible before that pass, not discovered by it.
+
+**What was checked.** Every `quote` record in `lpc` with a non-empty `modern_rendering` (5 of
+5) was checked clause-by-clause against its own `text` field for the V1.5 standard: a
+rendering must carry every clause of the original into modern English, nothing left out,
+nothing added, nothing compressed into a shorter paraphrase that drops real content. `text`
+itself was not re-verified against the vendored corpus in this pass — all 5 records already
+carry `verification_state: verified-direct`, and rendering fidelity is a distinct question
+from source-verbatim fidelity (the same distinction `rendering_fidelity.py`'s own docstring
+draws). The live Haiku grader that module uses could not be run in this build environment (no
+`boto3`/Bedrock access here) — this check was done by direct clause-by-clause reading instead,
+the same discipline the grader formalizes.
+
+**Findings and fixes, all 5 records:**
+
+1. **`lpc.quote.bishop-of-bishops`** — dropped 3 clauses: the qualifying "according to the
+   allowance of his liberty and power"; the entire clause "and can no more be judged by
+   another than he himself can judge another"; and "of preferring us in the government of His
+   Church" (only "judging" survived, not the appointing power). All 3 restored. The first
+   restored draft scored FK 11.5, above the readability gate's ceiling of 10 — revised into
+   shorter sentences (same content, no clause dropped) to FK 6.02.
+2. **`lpc.quote.ancient-venom-against-my-episcopate`** — dropped 2 clauses: "mindful of their
+   conspiracy" (missing entirely) and "sacrilegious machinations with their accustomed craft"
+   (compressed to the contentless "the same way as before"). Both restored. First draft scored
+   FK 18.0 — revised into shorter sentences to FK 6.10.
+3. **`lpc.quote.longing-expectation-is-a-prayer-for-me`** — two defects in the opposite
+   direction from the first two records: "I imagine" (an explicit hedge/supposition in the
+   original) had been rewritten as the stronger, unhedged "I know," and the rendering had
+   *added* "not because you have to," a clause with no basis in the source text at all (a
+   fabrication under the V1.5 standard, not a summary). Fixed by restoring the hedge ("I
+   suppose") and removing the invented clause. FK 6.67.
+4. **`lpc.quote.clamour-and-tears`** — the entire rendering had been recast from Possidius's
+   own third-person narration ("The Catholics... laid hands on him... they demanded it") into
+   first-person plural ("We already knew Augustine's own life and teaching, so we took hold of
+   him..."), which asserts Possidius's own participation in the seizure — a claim the source
+   text, narrating events about "the Catholics" from outside, does not make. Restored to third
+   person, all clauses present. The record's own `divergence_note`, which illustrated the
+   OCR-artifact fix with the old first-person phrasing ("We demanded it..."), was corrected to
+   match ("they demanded it...") for internal consistency — a metadata cross-reference fix,
+   not a change to any protected field. FK 9.86.
+5. **`lpc.quote.shepherd-wounded-in-the-flock`** — not named in this PR's original brief;
+   found on independent verification. Dropped the clause "and I share in the grievous burden
+   of sorrow and mourning" entirely, and compressed "my own integrity and my personal
+   soundness" (two distinct qualities) into the single word "safety." Both restored. FK 5.03.
+
+**Protected fields.** Only `modern_rendering` was touched in all 5 records (plus the one
+`divergence_note` cross-reference in `lpc.quote.clamour-and-tears`, noted above).
+`text`, `sources`, `speaker_or_author`, `confidence`, `retrieval`, and every other field are
+byte-identical to before this pass — confirmed by diff review, not by intent alone.
+
+**Verification.** `engine.m1.gates.run_all`: all 21 gates clean except the pre-existing,
+out-of-scope `canon-coverage` gaps. `tools/check_live_commentary.py --surface records`: zero
+hits in any of the 5 touched files. FK grade on all 5 final `modern_rendering` fields: 5.03,
+6.02, 6.10, 6.67, 9.86 — all under the readability gate's ceiling of 10.
+
+---
+
 ## Closed items — verified in this review, not merely inherited from the Decision Log
 
 **Datus's portrait — committed, contra a still-live impression the M1 decision entry alone
