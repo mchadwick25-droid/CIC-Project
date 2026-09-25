@@ -47,56 +47,52 @@ relations:
 name: "Boundary-Drawing Against Contemporary Rival Movements - anti-docetic polemic [TENSIONAL, Strand A only]"
 classification: tensional
 description: "Refusing those who say the Lord's flesh was only appearance. The refusal is urgent, and
-  it is not the same in every household - it belongs most sharply to the communities with one overseer.
-  SIX-TEST SUMMARY: Repetition is weak - essentially one voice (Ignatius) within the Native evidentiary
-  base; Doc_01's disclosure that Marcion, Valentinian teaching, and the New Prophecy were live,
-  contemporary rivals is comparative/contextual analysis, not itself an independent primary-voice
-  evidence stream, and this record does not let that synthesis substitute for Repetition's actual
-  requirement. Dependency is some: Ignatius ties his obey-the-bishop program directly to his anti-docetic
-  argument, but the dependency runs mostly one direction. Formation is plausible for Ignatius's own
-  direct addressees; unestablished more broadly. Explanatory power explains Ignatius's own rhetoric;
-  does not explain Strand B material, which shows no comparable content. Persistence fails broadly - not
-  attested outside Ignatius within the Native set. Interaction: demonstrated relationships with
-  authority-consolidation, martyrdom-meaning, and liturgical-practice - all three INFERENTIAL per Doc_04's
-  own labeling (single shared Ignatian passages doing double duty, not independent corroboration). No
-  demonstrated relationship with translocal-network - Doc_04's own Interaction Matrix traces none
-  directly. On state-pressure: Doc_04's own Interaction Matrix carried this cell as Reshaping through
-  four review rounds before its own round 5 found no textual grounding anywhere and corrected it to No
-  demonstrated relationship AT THE GRAVITY LEVEL - that Doc_04 correction still stands and is not
-  reopened here. Doc_08's own later forces analysis (Section 4, Connection 5) proposes a SEPARATE,
-  new synthesis at the force level: that state legal precarity and this gravity's own boundary-drawing
-  converge on a shared formative lesson for a Strand A member, disclosed there and in this record's own
-  relations[] (the associated-with edge to pahc.force.state-pressure) as this build's own interpretive
-  extension, not an inherited Doc_04 finding - the two statements describe different grains (gravity
-  vs. force) and do not contradict each other. AUTHOR
-  GRAVITY RISK (Doc_04's own generation-stage rating): High, flagged at generation - within the Native
-  evidence streams, this candidate is substantively developed by exactly one voice. THE
-  THIRD-ASIA-MINOR-PROFILE ITEM (Doc_04 SS3, carried here alongside authority-consolidation and
-  martyrdom-meaning, all three resting on Ignatius as Asia Minor's only evidentiary voice, not merely
-  'Strand A' in the abstract): a confirmed independent third Asia Minor profile is exactly the kind of
-  new evidence that could strengthen this gravity's currently-failing Repetition and Persistence scores;
-  carried unresolved, never manufactured. SUPPLEMENTAL SOURCE REVIEW (2026-09-09, this build's own new
-  addition, not a Doc_04 finding): two already-vendored candidates were checked directly against this
-  open item. Melito of Sardis's Fragment VII ('On the Nature of Christ') makes substantively the same
-  anti-docetic argument as Ignatius's own - but it survives only via Anastasius of Sinai, a seventh-
-  century citation, not via Eusebius as most of this world's other fragment-based sources do; a
-  transmission gap of roughly five centuries from Melito's own death, materially weaker than this
-  gravity's existing Ignatius corpus. Named as a flagged candidate second voice (pahc.quote.melito-no-
-  phantom), not counted as the confirmed third-Asia-Minor-profile item this open item calls for -
-  Repetition stays essentially one voice on secured attribution. Separately, the anti-Montanist
-  fragments (pahc.source.anti-montanist-fragments; pahc.quote.asia-rejected-new-prophecy) ARE a
-  vendored, independent, primary-voice stream - not Doc_01's own comparative synthesis - attesting
-  that Asia's bishops synodically examined and rejected the New Prophecy in real time. That resolves
-  Doc_01 SS8.3's disclosure obligation, for the New Prophecy specifically, from contextual analysis to
-  a primary witness, and corroborates this gravity's own title-level claim that boundary-drawing
-  against contemporary rivals was live and multi-voiced in this world - but its content (prophetic
-  authority, not christology) does not touch the anti-docetic claim's own Repetition score, which
-  stands as Doc_04 found it. Classification unchanged: Tensional. CONFIDENCE/GRAVITY CROSS-CHECK: thin, single-voice
-  evidence prevents Primary or confident Supporting classification at any grain; the underlying
-  phenomenon - a real, live, unsettled boundary against contemporary rivals - is exactly what a
-  Tensional gravity is for: a persistent, unresolved pressure that keeps this world's ecology from
-  reading as already-settled orthodoxy, without claiming the organizing weight Primary or Supporting
-  would imply. CROSS-STRAND STATUS: strand-bound (Strand A only)."
+  it is not the same in every household. It belongs most sharply to the communities with one overseer.
+
+  Among the sources from inside this world, essentially one writer develops this: Ignatius. Other
+  teachings were real rivals at the time, among them Marcion, the followers of Valentinus, and the New
+  Prophecy. But we know that from comparing the wider setting, not from a second voice inside this
+  world, so it does not count as a second witness. Ignatius ties his call to obey the bishop directly
+  to his argument against those who deny the Lord's real flesh. But the dependence runs mostly one way.
+  His warnings plausibly shaped the churches he wrote to. Beyond them, it is not established. His
+  argument explains his own writing. It does not explain the Roman material, which shows nothing like
+  it. Outside Ignatius, no source inside this world shows this concern, so it cannot be traced across
+  places or time.
+
+  This refusal connects with leadership, the meaning of martyrdom, and shared worship. But each of
+  those links rests on a single Ignatius passage doing double duty, not on independent support. No text
+  links it directly to the letter network. No text links it directly to state pressure at the level of
+  the broad pattern either. A separate, later reading suggests something narrower. For one member in
+  Antioch or Asia Minor, legal danger and the refusal of rivals may have taught the same lesson. That
+  is an interpretation offered here, not something the sources say. It describes one member's
+  experience, not the broad pattern, so the two statements do not clash.
+
+  Because one voice carries this, the risk that it reflects one man's concerns rather than common
+  practice is high. That risk was flagged from the start. The same weakness affects leadership and the
+  meaning of martyrdom. For Asia Minor, all three rest on Ignatius as the only witness. A confirmed,
+  independent third witness from Asia Minor could strengthen the case. None has been found, and none is
+  assumed.
+
+  Two further sources have been checked against this gap. Melito of Sardis, in a fragment called 'On
+  the Nature of Christ,' makes much the same argument against a phantom Christ as Ignatius does. But
+  that fragment survives only because Anastasius of Sinai quoted it in the seventh century. Most of
+  this world's other fragments come down through Eusebius instead. The gap between Melito's death and
+  that quotation is about five centuries. That makes it much weaker evidence than Ignatius's letters.
+  It stands as a possible second voice, not a confirmed one. On secure evidence, the case still rests
+  essentially on one writer.
+
+  The second check is stronger. Fragments from writers against the New Prophecy are a separate,
+  independent, first-hand source. They show the bishops of Asia meeting together to examine the New
+  Prophecy and reject it at the time it arose. So for the New Prophecy, the rivalry is no longer just
+  background: a direct witness confirms it. This supports the broader claim that drawing lines against
+  living rivals was real in this world and had more than one voice. But that dispute was about who
+  could speak as a prophet, not about the Lord's flesh. It adds no second witness to the argument
+  against a phantom Christ.
+
+  The evidence is too thin to treat this as a central pattern, or even a firm supporting one. What it
+  does show is a real, live, unsettled line against rivals of the time. It stands as an open tension
+  that keeps this world from reading as already-settled orthodoxy, without claiming to organize the
+  whole. It belongs to Antioch and Asia Minor only."
 manifestations:
 - "'Stop your ears... when any one speaks to you at variance with Jesus Christ... He was truly persecuted under Pontius Pilate; He was truly crucified' (Ignatius, Trallians 9)"
 - "'They abstain from the Eucharist and from prayer, because they confess not the Eucharist to be the flesh of our Saviour Jesus Christ' (Ignatius, Smyrnaeans 7)"
