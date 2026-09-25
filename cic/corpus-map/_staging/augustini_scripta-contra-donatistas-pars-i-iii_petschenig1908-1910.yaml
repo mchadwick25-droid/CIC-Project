@@ -2,6 +2,22 @@
 # Latin edition. Five distinct works confirmed by their own internal
 # Explicit/Incipit markers (see file header); Pars II (CSEL 52, Contra
 # litteras Petiliani) is not present in this scan.
+#
+# 2026-09-24: four of the six assignments below double-placed to
+# latin-pastoral-congregational-christianity (lpc) as a second `tradition`
+# row, per Mark's explicit authorization and lpc's own dossier reasoning
+# (latin-pastoral-congregational-christianity_Source_Readiness_Dossier.md
+# §2) — the same same-work-different-language pairing pattern lpc already
+# uses for Cyprian/Hartel and six other Augustine works. De Baptismo and De
+# Unico Baptismo contra Petilianum are the Latin original of works lpc
+# already vendors in English as tradition/assigned (npnf104's "On Baptism,
+# Against the Donatists" and "Answer to the Letters of Petilian"); Contra
+# Cresconium and Contra Epistulam Parmeniani have no English translation
+# vendored anywhere and are genuine new primary Augustine content for lpc,
+# "not presently reachable from this world's own bucket in any form" per
+# the dossier. Psalmus contra Partem Donati and Contra (Adversus) Fulgentium
+# Donatistam are NOT part of this authorization (not named in the dossier's
+# own §2 reasoning) and stay donatism-only.
 source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 
 assignments:
@@ -26,6 +42,7 @@ assignments:
     locus: "Pars I"
     atlas_ids:
       - donatism
+      - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
     note: >
@@ -33,18 +50,28 @@ assignments:
       letter — no English translation vendored elsewhere in this corpus, so
       this is primary content on the "no English rendering exists" limb of
       the second-witness rule, not merely a check on an existing one.
+      Double-placed to latin-pastoral-congregational-christianity
+      2026-09-24 (Mark's authorization; see this file's own header note):
+      genuine new primary Augustine content for that world too, reachable
+      from no other file it holds.
 
   - work: "De Baptismo (libri septem)"
     author: augustine
     locus: "Pars I"
     atlas_ids:
       - donatism
+      - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
     note: >
       Latin critical text (CSEL 51) of the same work already vendored in
       English as "On Baptism, Against the Donatists" (npnf104). Second
-      witness for cross-checking specific renderings.
+      witness for cross-checking specific renderings. Double-placed to
+      latin-pastoral-congregational-christianity 2026-09-24 (Mark's
+      authorization; see this file's own header note): the Latin original
+      of that world's own already-vendored English npnf104 row, the same
+      same-work-different-language pairing already used there for Cyprian/
+      Hartel and six other Augustine works.
 
   - work: "Contra Cresconium (libri quattuor)"
     author: augustine
@@ -52,6 +79,7 @@ assignments:
       scan"
     atlas_ids:
       - donatism
+      - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
     note: >
@@ -60,19 +88,28 @@ assignments:
       grammarian Cresconius, who had himself answered Contra Epistulam
       Parmeniani; a documented three-way exchange (Parmenian to Tyconius/
       Petilian's circle, Cresconius's reply, Augustine's counter-reply) this
-      entry can now trace more of than before.
+      entry can now trace more of than before. Double-placed to
+      latin-pastoral-congregational-christianity 2026-09-24 (Mark's
+      authorization; see this file's own header note): genuine new primary
+      Augustine content for that world too, reachable from no other file it
+      holds.
 
   - work: "De Unico Baptismo contra Petilianum"
     author: augustine
     locus: "Pars III"
     atlas_ids:
       - donatism
+      - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
     note: >
       No English translation vendored anywhere in this corpus. Companion to
       the already-vendored "Answer to the Letters of Petilian" (npnf104) —
       a further, shorter round in the same Augustine-Petilian exchange.
+      Double-placed to latin-pastoral-congregational-christianity 2026-09-24
+      (Mark's authorization; see this file's own header note): the material
+      behind that world's own already-vendored English npnf104 "Answer to
+      the Letters of Petilian" row.
 
   - work: "Contra (Adversus) Fulgentium Donatistam"
     author: augustine

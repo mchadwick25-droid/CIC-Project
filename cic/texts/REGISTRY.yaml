@@ -811,6 +811,22 @@
         without brackets. Safe as a general per-edition pattern (not anchored to one instance)
         because the shape - 3-4 digits immediately followed by one capital letter, word-
         bounded - is specific enough that no real quoted quantity in this file takes it.
+    - name: bare-footnote-digit-common-is
+      pattern: '(?<=common) 1(?= is)'
+      evidence: >-
+        "the life of a number lived in common 1 is more useful in many ways" - a bare
+        superscript footnote-reference digit from the same docx-to-text extraction as this
+        file's other footnote-glyph entries above, this time surfaced as a plain "1" with no
+        wrapper of its own (cappadocian.quote.basil-on-common-life's own long-documented
+        failure; see that record's body, 2026-09-02). Deliberately NOT a fleet-wide bare-digit
+        class (engine/m1/quote_verbatim.py's own docstring: unsafe fleet-wide, since other
+        editions quote real digit quantities as content) - this entry is anchored on both
+        sides to the exact surrounding words ("common" before, "is" after), not a bare digit
+        shape, so it can only ever remove this one footnote marker. Checked against the whole
+        file: the literal substring "common 1 is" occurs exactly once (`grep -c`); a search
+        for any bare 1-2 digit number between two lowercase words returns 126 hits file-wide,
+        confirming a general digit rule would be unsafe here too and this narrower anchor is
+        the right scope.
 - filename: gregory-nazianzen_second-invective-against-julian_king1888.txt
   supplied_by: Mark
   date_added: '2026-08-30'
@@ -2565,3 +2581,59 @@
     translations elsewhere in this corpus (luther_works-v1/v2-selected_
     jacobs-spaeth1915/1916.txt) - kept for wording cross-checks, not for
     new content.
+- filename: gregory-great_dialogues_gardner1911.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    The Dialogues of Saint Gregory, surnamed the Great (complete, all four
+    Books), tr. "P.W." (1608), re-ed. Edmund G. Gardner (London: Philip Lee
+    Warner, 1911). Explicit NOT_IN_COPYRIGHT confirmed directly on archive.org
+    item dialoguesofsaint00greg, 2026-09-24 (re-verified independently, not
+    just carried over from the 2026-09-21 dossier note). Book II is the only
+    surviving Life of St. Benedict of Nursia. Identified as a verified
+    acquisition lead in roman-church-gregorian_Source_Readiness_Dossier.md §3.
+- filename: gregory-great_moralia-in-job-books-i-x_bliss1844.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job (Moralia in Job), Vol. I, Parts I-II, Books
+    I-X (Oxford: John Henry Parker, 1844). Library of the Fathers series.
+    Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
+    moralsonbookofjo01greguoft. First of four parts vendored together this
+    session to complete the whole work (Books I-XXXV, no gaps). The
+    dossier (2026-09-21) had verified only one of the four parts
+    individually (Books XXX-XXXV, per its own note, though see that part's
+    own file for a book-range correction found this session); the other
+    three, including this one, were searched for, located, and independently
+    verified this session.
+- filename: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. II, Parts III-IV, Books XI-XXII (Oxford:
+    John Henry Parker, 1845). Explicit NOT_IN_COPYRIGHT confirmed on
+    archive.org item moralsonbookjob02igoog. Second of four parts vendored
+    together this session - see gregory-great_moralia-in-job-books-i-x_bliss1844.txt's
+    own notes.
+- filename: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. III, First Part (Parts V-VI), Books
+    XXIII-XXIX (Oxford: John Henry Parker, 1847). Explicit NOT_IN_COPYRIGHT
+    confirmed on archive.org item moralsonbookjob00igoog. Third of four parts
+    vendored together this session - see gregory-great_moralia-in-job-books-i-x_bliss1844.txt's
+    own notes. This item's own book range (Books XXIII-XXIX) was directly
+    re-verified against its own title page and contents this session,
+    correcting the source-readiness dossier's provisional note (2026-09-21),
+    which had attributed Books XXX-XXXV to this identifier - that range
+    belongs instead to gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt.
+- filename: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. III, Second Part, Books XXX-XXXV
+    (completing the work) (Oxford: John Henry Parker, 1850). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item moralsonbookjob01igoog.
+    Fourth and last of the four parts vendored together this session - see
+    gregory-great_moralia-in-job-books-i-x_bliss1844.txt's own notes.

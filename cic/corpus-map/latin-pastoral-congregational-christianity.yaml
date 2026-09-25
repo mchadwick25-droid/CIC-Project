@@ -208,6 +208,62 @@ works:
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
+- work: Contra Cresconium (libri quattuor)
+  author: augustine
+  locus: Pars III, following Pars I without a second title page in this scan
+  role: tradition
+  confidence: assigned
+  note: 'No English translation vendored anywhere in this corpus — primary content, not a
+    second witness. Augustine''s reply to the Donatist grammarian Cresconius, who had himself
+    answered Contra Epistulam Parmeniani; a documented three-way exchange (Parmenian to Tyconius/
+    Petilian''s circle, Cresconius''s reply, Augustine''s counter-reply) this entry can now
+    trace more of than before. Double-placed to latin-pastoral-congregational-christianity
+    2026-09-24 (Mark''s authorization; see this file''s own header note): genuine new primary
+    Augustine content for that world too, reachable from no other file it holds.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: Contra Epistulam Parmeniani (libri tres)
+  author: augustine
+  locus: Pars I
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical text (CSEL 51) of Augustine''s reply to Parmenian''s own letter —
+    no English translation vendored elsewhere in this corpus, so this is primary content on
+    the "no English rendering exists" limb of the second-witness rule, not merely a check
+    on an existing one. Double-placed to latin-pastoral-congregational-christianity 2026-09-24
+    (Mark''s authorization; see this file''s own header note): genuine new primary Augustine
+    content for that world too, reachable from no other file it holds.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: De Baptismo (libri septem)
+  author: augustine
+  locus: Pars I
+  role: tradition
+  confidence: assigned
+  note: 'Latin critical text (CSEL 51) of the same work already vendored in English as "On
+    Baptism, Against the Donatists" (npnf104). Second witness for cross-checking specific
+    renderings. Double-placed to latin-pastoral-congregational-christianity 2026-09-24 (Mark''s
+    authorization; see this file''s own header note): the Latin original of that world''s
+    own already-vendored English npnf104 row, the same same-work-different-language pairing
+    already used there for Cyprian/ Hartel and six other Augustine works.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
+- work: De Unico Baptismo contra Petilianum
+  author: augustine
+  locus: Pars III
+  role: tradition
+  confidence: assigned
+  note: 'No English translation vendored anywhere in this corpus. Companion to the already-vendored
+    "Answer to the Letters of Petilian" (npnf104) — a further, shorter round in the same Augustine-Petilian
+    exchange. Double-placed to latin-pastoral-congregational-christianity 2026-09-24 (Mark''s
+    authorization; see this file''s own header note): the material behind that world''s own
+    already-vendored English npnf104 "Answer to the Letters of Petilian" row.
+
+    '
+  source_file: augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt
 - work: Expositions on the Book of Psalms (Enarrationes in Psalmos)
   author: augustine
   locus: div1 2 — Expositions on the Book of Psalms; psalm-by-psalm expositions of the whole
