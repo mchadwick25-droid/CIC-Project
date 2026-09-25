@@ -2718,3 +2718,20 @@
     NOT_IN_COPYRIGHT confirmed on archive.org item moralsonbookjob01igoog.
     Fourth and last of the four parts vendored together this session - see
     gregory-great_moralia-in-job-books-i-x_bliss1844.txt's own notes.
+- filename: hus_letters_workman-pope1904.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-hussite-and-bohemian-brethren-movement)
+  date_added: '2026-09-25'
+  notes: >-
+    The Letters of John Hus, trans. Herbert B. Workman & R. Martin Pope
+    (London: Hodder and Stoughton, 1904). Explicit NOT_IN_COPYRIGHT
+    confirmed on archive.org item lettersofjohnhus00husjuoft. Fetched
+    directly (curl, raw bytes).
+- filename: hus_de-ecclesia-the-church_schaff1915.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-hussite-and-bohemian-brethren-movement)
+  date_added: '2026-09-25'
+  notes: >-
+    De Ecclesia. The Church, trans. David S. Schaff (New York: Charles
+    Scribner's Sons, 1915). Explicit NOT_IN_COPYRIGHT confirmed on
+    archive.org item deecclesiachurc00hussgoog. Fetched directly (curl,
+    raw bytes). Hus's central ecclesiological treatise, condemned at
+    Constance.
