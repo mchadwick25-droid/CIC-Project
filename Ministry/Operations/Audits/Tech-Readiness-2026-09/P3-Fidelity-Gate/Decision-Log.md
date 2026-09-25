@@ -2018,12 +2018,25 @@ Re-verified against the vendored file directly
 `bracket` (the source's own "[as deacons]", not carried into the
 rendering per rule 1), `whitespace`, `punctuation` (curly vs. straight
 quotation marks). `locus` updated with a line reference.
-`modern_rendering` rewritten to cover both sentences, keeping
-"...that is why..." as the tie the extension restores, and rendering
-"a perfect man" (Clement's own allusion to Ephesians 4:13) as "full
+`modern_rendering` rewritten to cover both sentences, and rendering "a
+perfect man" (Clement's own allusion to Ephesians 4:13) as "full
 maturity" rather than literally - the literal cognate would mislead a
 modern reader into hearing a claim about becoming an adult male, which
-is not what the phrase means. FK grade 7.33, longest sentence 23 words.
+is not what the phrase means. FK grade 7.33, longest sentence 21 words.
+
+**Corrected the tie's own direction (same day, managing-thread
+verdict on PR #531).** The first drafted rendering joined the two
+sentences with "That is why" - a consequence reading, first sentence
+causing the second. The source's own "For" makes the second sentence
+EVIDENCE for the first sentence's claim, not something that follows
+from it: the ranks mirror the angelic economy - *for* [proof:] those
+taken up do in fact progress through it. "That is why" pointed the
+tie backward. Corrected to "For those taken up in the clouds...",
+keeping the author's own direction, per Mark's splitting rule (the tie
+must be kept, in the direction the original actually argues, not just
+any linking word). Re-verified: `True`, same classes. FK grade
+unchanged at 7.33; longest sentence 21 words (was 23, since "For" is
+shorter than "That is why").
 
 **Checks.** `engine.m1.quote_verbatim.verify_quote_record` on all three:
 verified `True`. `python -m engine.m1.gates` (via `gates.run_all`) on
