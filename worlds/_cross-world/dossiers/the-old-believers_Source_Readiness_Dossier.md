@@ -42,6 +42,16 @@ no hits.
 | The Life of the Archpriest Avvakum by Himself | Avvakum Petrov | Jane Harrison & Hope Mirrlees, preface D. S. Mirsky | 1924 | archive.org/details/bwb_C0-ARS-081 | PD by date (1924 publication, >95 years); `access-restricted-item` absent from this identifier's own metadata (confirmed distinct from two OTHER archive.org identifiers for later reprints of the same translation, both `access-restricted-item: true`) | Direct archive.org Metadata API fetch + direct unauthenticated `_djvu.txt` download, HTTP 200, 2026-09-25 |
 | Zhitie protopopa Avvakuma, im samim napisannoe (Old East Slavic/early Russian original) | Avvakum Petrov | n/a (original language) | composed c. 1673; this transcription undated | ru.wikisource.org (page cites az.lib.ru as its own source) | Underlying 17th-c. composition is PD by any measure; page's own `ЛИЦЕНЗИЯ = PD-old` infobox field | Direct MediaWiki `action=raw` fetch, HTTP 200, 2026-09-25. NOT independently verified hop-by-hop against a specific dated critical edition — az.lib.ru itself unreachable this pass (network egress allowlist). See Open_Gaps_Tracking.md. |
 
+**Not yet closed, not yet vendored (found but not downloaded this
+pass):** the extended (*prostrannaya*) redaction of *Povest' o boyaryne
+Morozovoy* (Tale of Boyarynya Morozova) — a real file was located at
+`upload.wikimedia.org/wikipedia/commons/c/c4/Повесть_о_боярыне_Морозовой_
+(пространная_редакция).pdf`, but the download itself returned HTTP 429
+(Wikimedia rate-limiting) this pass, not a rights or existence problem.
+A live lead for the next pass, not listed in §4 below since it was not
+actually run down to a closed answer — see `Open_Gaps_Tracking.md` /
+Doc_02 §10 (Missing Voices) for the same finding.
+
 ## 4. Checked and closed
 
 | candidate | why it looked promising | why it's closed |
