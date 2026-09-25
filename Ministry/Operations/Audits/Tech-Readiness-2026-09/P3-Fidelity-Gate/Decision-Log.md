@@ -2148,3 +2148,31 @@ fragment rule wins on syr; the human read of every clause stands on witt.
 
 **Counts (sentence-completeness check, fleet):** 30 flagged sentences
 before, 18 after: the 11 misparses plus the 7 source-spoken forms kept.
+
+**Entry 38 — 2026-09-25 (embedded-quotations check, `engine/m1/
+embedded_quotations.py`, registered as a standing report-only check).**
+OG-10 (`worlds/pahc/Open_Gaps_Tracking.md`) named three mechanism
+options for the embedded old-translation quotation gap this module
+finds and counts: (A) a schema extension, (B) extracting each embedded
+quote that matters into its own `quote` record with an Opus rendering,
+(C) registering the existing report-only module as a standing check.
+Mark's ruling, relayed 2026-09-25: **"c+b"** - both C (this entry) and B
+(a separate, batched workstream, not this thread's own work) adopted;
+A (the schema extension) not taken up.
+
+**Registered exactly as `engine/m1/sentence_completeness.py` already is
+(Entry 29 above)**: report-only, not added to `gates.GATES` or
+`gates.run_all`, never fails a build. `python -m engine.m1.
+embedded_quotations` writes `engine/m1/reports/embedded-quotations-
+report-<date>.json` and prints a per-world summary - the same shape
+`sentence_completeness`'s own CLI already uses. No code changed by this
+entry: the module has carried this exact report-only shape since it was
+built (`worlds/pahc/Open_Gaps_Tracking.md` OG-10's own build history);
+this entry is the formal registration, establishing it as a recognized
+standing check for whoever runs a build to invoke and read, the same
+governance step Entry 29 already gave `sentence_completeness`.
+
+Option B (extracting the quotations this module finds into real `quote`
+records, each with its own Opus-authored `modern_rendering`) is
+explicitly not this entry's own work - a separate, batched workstream
+covering the fleet's 198 flagged records, reported when it opens.
