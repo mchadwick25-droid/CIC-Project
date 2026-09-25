@@ -147,10 +147,15 @@ def _heading_dedup_key(line: str) -> str:
 
 
 def _heading_lines(text: str) -> list[tuple[int, str]]:
-    """(0-based line index, stripped heading text) for every real heading
-    line in `text` - heading-candidate lines minus running headers/footers."""
+    """(0-based line index, whitespace-normalized heading text) for every
+    real heading line in `text` - heading-candidate lines minus running
+    headers/footers. Internal whitespace (OCR justification often spaces a
+    heading's own words several characters apart) is collapsed the same
+    way a unit's own `text` field already collapses it, so `title` and the
+    start of that unit's `text` read as the same string, not two different
+    spacings of it."""
     lines = text.split("\n")
-    candidates = [(i, ln.strip()) for i, ln in enumerate(lines) if _is_heading_candidate(ln)]
+    candidates = [(i, re.sub(r"\s+", " ", ln.strip())) for i, ln in enumerate(lines) if _is_heading_candidate(ln)]
     counts: dict[str, int] = {}
     for _, heading_text in candidates:
         key = _heading_dedup_key(heading_text)
@@ -170,13 +175,21 @@ def _heading_units(text: str) -> list[dict] | None:
     if not heads:
         return None
 
-    lines = text.splitlines(keepends=True)
+    # Offsets must come from the same split _heading_lines() itself used
+    # (text.split("\n")) to index its own heading lines against, not
+    # str.splitlines() - splitlines() also breaks on \x0c (form feed) and
+    # several other line-boundary characters, which this OCR'd corpus
+    # carries as real page-break artifacts (one volume alone has 549). A
+    # form feed makes splitlines() produce a different, longer line list
+    # than split("\n"), so offsets built from it drift out of step with
+    # the heading indices and attach headings to the wrong text.
+    lines = text.split("\n")
     offsets = [0] * (len(lines) + 1)
     pos = 0
     for i, ln in enumerate(lines):
         offsets[i] = pos
-        pos += len(ln)
-    offsets[len(lines)] = pos
+        pos = min(pos + len(ln) + 1, len(text))
+    offsets[len(lines)] = len(text)
 
     units = []
     first_line_idx = heads[0][0]

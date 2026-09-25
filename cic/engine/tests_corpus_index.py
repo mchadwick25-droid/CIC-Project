@@ -94,11 +94,10 @@ with tempfile.TemporaryDirectory() as tmp:
                          raised))
 
 # ============================================================================
-# passage_units() plain-text heading/paragraph split (Mark's ruling "a",
-# 2026-09-25: split on headings, fall back to paragraphs). Synthetic
-# fixtures for shape and correctness; the real-corpus block below proves it
-# on the volumes the ruling named plus a no-text-lost sweep of the whole
-# library.
+# passage_units() plain-text heading/paragraph split: split on headings,
+# fall back to paragraphs. Synthetic fixtures for shape and correctness;
+# the real-corpus block below proves it on a sample of named volumes plus
+# a no-text-lost sweep of the whole library.
 # ============================================================================
 
 with tempfile.TemporaryDirectory() as tmp:
@@ -124,8 +123,8 @@ with tempfile.TemporaryDirectory() as tmp:
                          len(heading_units) == 3))
     results.append(check("the preamble unit (before the first heading) is untitled and carries the header block",
                          heading_units[0]["title"] == "" and "A Fixture Book" in heading_units[0]["text"]))
-    results.append(check("the first heading unit's title is the heading line itself",
-                         heading_units[1]["title"] == "LETTER I.    TO THE FIRST RECIPIENT"))
+    results.append(check("the first heading unit's title is the heading line itself, whitespace-normalized",
+                         heading_units[1]["title"] == "LETTER I. TO THE FIRST RECIPIENT"))
     results.append(check("the first heading unit's own text includes both the heading words and its body",
                          "LETTER I" in heading_units[1]["text"] and "first letter's own body" in heading_units[1]["text"]))
     results.append(check("the second heading unit runs to end of file and doesn't bleed into the first",
@@ -213,8 +212,40 @@ with tempfile.TemporaryDirectory() as tmp:
     results.append(check("a heading that doesn't match the apparatus vocabulary is not flagged",
                          apparatus_units[1]["apparatus"] is False))
 
-# --- the real volumes Mark's ruling named, plus a fleet-wide no-text-lost
-# sweep. Confirms the split actually fires (not silently falling back to
+    # --- a form feed (\x0c) doesn't drift the offsets ----------------------
+    # str.splitlines() treats \x0c (and several other characters) as a line
+    # boundary the way "\n" is, but _heading_lines() indexes its own
+    # headings against text.split("\n") only - a form feed makes those two
+    # line lists diverge, and offsets built from the wrong one attach a
+    # heading's own text to the wrong span. This corpus carries \x0c as a
+    # real OCR page-break artifact (one volume alone has 549 of them).
+    form_feed_fixture = tmp_dir / "form-feed-fixture.txt"
+    form_feed_fixture.write_text(
+        "LETTER I.    TO THE FIRST RECIPIENT\n"
+        "\n"
+        "The first letter's own body text.\n"
+        "\x0c\n"
+        "LETTER II.    TO THE SECOND RECIPIENT\n"
+        "\n"
+        "The second letter's own body text.\n"
+        "\x0c\n"
+        "LETTER III.    TO THE THIRD RECIPIENT\n"
+        "\n"
+        "The third letter's own body text.\n",
+        encoding="utf-8",
+    )
+    form_feed_units = ci.passage_units(form_feed_fixture)
+    titled = [u for u in form_feed_units if u["title"]]
+    results.append(check("every titled unit's own text starts with its own heading, form feeds present",
+                         len(titled) == 3 and all(u["text"].startswith(u["title"]) for u in titled)))
+    results.append(check("each heading unit still carries its own body text, not another heading's",
+                         "first letter's own body" in titled[0]["text"]
+                         and "second letter's own body" in titled[1]["text"]
+                         and "third letter's own body" in titled[2]["text"]))
+    results.append(check("no text lost against the form-feed fixture", _no_text_lost(form_feed_fixture)))
+
+# --- a sample of real volumes, plus a fleet-wide no-text-lost sweep.
+# Confirms the split actually fires (not silently falling back to
 # paragraphs) on the named samples and that nothing in the whole library
 # loses a character either way.
 _named_samples = [
@@ -239,6 +270,21 @@ results.append(check(f"fleet-wide: every .txt volume's passage units reassemble 
                      not _lossy))
 for _name in _lossy:
     print(f"       text lost in: {_name}")
+
+# --- fleet-wide: every titled unit's own text actually starts with its own
+# heading (the form-feed offset-drift check above, rerun against every real
+# volume rather than only the synthetic fixture).
+_misattributed: list[tuple[str, str]] = []
+for p in cs.volumes():
+    if p.suffix != ".txt":
+        continue
+    for u in ci.passage_units(p):
+        if u["title"] and not u["text"].startswith(u["title"]):
+            _misattributed.append((p.name, u["locus"]))
+results.append(check(f"fleet-wide: every titled unit's own text starts with its own heading "
+                     f"({len(_misattributed)} mismatches)", not _misattributed))
+for _name, _locus in _misattributed[:20]:
+    print(f"       heading/text mismatch: {_name} {_locus}")
 
 print("\nall passed" if all(results) else "\nFAILURES")
 sys.exit(0 if all(results) else 1)
