@@ -797,12 +797,15 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # ROUTE_CUES limitation note).
     ("worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "ROUTE"),
     ("worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "REWRITE"),
-    ("cic/engine/texts_registry.py", 74, "REWRITE"),
-    ("cic/engine/texts_registry.py", 220, "REWRITE"),
+    # texts_registry.py's own 3 slots here (lines 11, 74, 220) are retired,
+    # not repinned: PR #604's own Round 1 review fix cleaned every
+    # REWRITE-classified line the checker found in this file (the
+    # "found 2026-08-15 by hand-grepping" and "PORT NOTE (2026-08-21...)"
+    # narration), and 0 hits remain anywhere in the file to point a sample
+    # at - a real cleanup succeeding, not a rule regressing.
     ("cic/engine/corpus_authors.py", 88, "REWRITE"),
     ("cic/engine/tests_corpus_map.py", 52, "REWRITE"),
     ("cic/engine/corpus_map.py", 75, "REWRITE"),
-    ("cic/engine/texts_registry.py", 11, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #503): the
     # original 6 cic-poc/frontend samples here were cleaned by that PR
     # (round 1 and round 2 together) and stopped matching, apart from

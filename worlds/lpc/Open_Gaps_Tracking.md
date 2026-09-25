@@ -1896,8 +1896,8 @@ Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, 
    narrative spanning 391/395-396/430) and do not reduce to the three-key form without losing the disclosed
    hedge. Waived with the same disclosed-not-fixed disposition as those five sibling entries — this is a
    fleet-wide schema question, not lpc's own defect to fix alone.
-3. **Stale world_id/registry claim.** `lpc.core...`'s own trailing note still said "this world has no entry
-   in records/worlds.yaml at all" and that registering it was "a later admission-track step, out of scope" —
+3. **Stale world_id/registry claim.** `lpc.core...`'s own trailing note still said this world had no
+   registry entry at all and that registering it was "a later admission-track step, out of scope" —
    both true when first written, both false since OG-20. Corrected to state the current `world_id`
    (`latin-pastoral-congregational`) and the census join key accurately.
 4. **The full commentary strip OG-24 deferred.** OG-24 disclosed 1,724 hits (966 REWRITE) across
