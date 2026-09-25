@@ -200,7 +200,7 @@ cautions: >-
   Tyconius's Liber Regularum. The 411 conference transcript also records Donatist bishops' own
   words, without an adversary selecting them for refutation. Every one is short or occasional
   against the scale of the opposing corpus. The scanned copy of that transcript is also the
-  poorest-quality scan of any text this important.
+  poorest-quality scan of any text this important among this world's sources.
 
   3) The Frends thesis is contested, not settled. It reads this world's rural strength, and the
   Circumcellions, as native social protest. It is the most contested single argument our sources

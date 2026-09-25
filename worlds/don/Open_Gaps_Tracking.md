@@ -783,6 +783,8 @@ The fleet-wide gap item 47 names is not closed by this entry — cappadocian's a
 
 **Status: fix applied, 2026-09-25. RESOLVED status held pending the managing thread's own recheck** — do not treat the "Status: RESOLVED" line at the top of this entry as current until that recheck confirms it. Per Mark's own ruling, this is the last review round on this entry under the review cap.
 
+**Final scope corrections, 2026-09-25, applied per Mark's own exact-replacement ruling ("a"):** `worlds/pahc/Open_Gaps_Tracking.md` OG-10's own inserted passage was removed (restoring that paragraph to origin/main's own text) and replaced with a short, separately-placed update paragraph naming don's corrected count; `don.core.donatism.md`'s `cautions`, `don.gravity.ministerial-purity.md`, `don.gravity.rebaptism-boundary-marking.md`, and `don.gravity.circumcellion-agonistici.md` each had one exact wording correction applied to their `description`/`cautions` fields, tightening scope without changing any claim.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
