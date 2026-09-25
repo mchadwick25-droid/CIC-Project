@@ -1,3 +1,13 @@
+Title: The Life of the Archpriest Avvakum by Himself
+Creator: Avvakum Petrov; Jane Harrison and Hope Mirrlees (Translators); Prince D. S. Mirsky (Preface)
+Publisher: London, Leonard and Virginia Woolf at The Hogarth Press
+Publication Date: 1924
+Rights: Public Domain (pre-1930 publication by date; >95 years as of 2026, project's own rolling PD-by-date rule)
+Language: en
+Source: archive.org item bwb_C0-ARS-081 (the actual 1924 Hogarth Press first edition; title page: "Published by Leonard and Virginia Woolf at The Hogarth Press, 52 Tavistock Square, London, W.C. 1924"), full text at https://archive.org/download/bwb_C0-ARS-081/bwb_C0-ARS-081_djvu.txt. Two OTHER archive.org identifiers (lifeofarchpriest0000avva, bwb_KR-696-874) are BOTH the 1963 Archon Books/Hogarth reprint of this same translation and BOTH marked access-restricted-item (controlled digital lending); independently confirmed distinct and not used. Fetched directly (curl, raw bytes) 2026-09-25.
+Provenance note: Pre-title-page library bookplate/frontispiece-illustration OCR noise (General Theological Seminary Library accession stamp, a garbled frontispiece-image OCR block) stripped as non-body-text noise; body text (title page onward) otherwise unaltered, including its own OCR errors. Page numbers print at the foot of each page, followed by the next page's own running head -- confirmed independently at multiple page breaks in this file; any locus citing this file should derive from that convention. This translation demonstrably omits material present in the original-language witness (the plain-speech/"philosophical verses" apologia near the opening dedication) -- see this world's own Doc_02 (worlds/obel/) for the edition-comparison finding. Its own Chronological Table gives Avvakum's execution as "1681, April," one year earlier than the widely attested 14 April 1682 -- an error in this edition's own apparatus, not in the historical record.
+Content note: Avvakum Petrov's own autobiography (Zhitie), written c. 1673 at Pustozersk. First sustained autobiography written in the Russian language. This world's own inside voice for the-old-believers (Atlas VII.7).
+
 The Life of the Archpriest Avvakum 
 by Himself 
 

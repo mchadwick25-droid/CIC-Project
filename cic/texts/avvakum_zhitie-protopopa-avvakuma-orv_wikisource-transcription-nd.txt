@@ -1,3 +1,13 @@
+Title: Zhitie protopopa Avvakuma, im samim napisannoe
+Creator: Avvakum Petrov
+Publisher: ru.wikisource.org (transcription; page cites az.lib.ru, Maksim Moshkov's library, as its own source)
+Publication Date: composed c. 1673; this transcription undated
+Rights: Public Domain (17th-century composition, PD by date under any jurisdiction; the Wikisource page's own infobox states "LICENZIYA = PD-old")
+Language: rus (modernized Russian reading edition -- NOT a diplomatic Old East Slavic transcription; no final "hard sign", no "yat", normalized endings -- the `orv` tag used in this file's own name is loose, see Provenance note)
+Source: ru.wikisource.org, fetched directly via MediaWiki action=raw, 2026-09-25.
+Provenance note: SECOND WITNESS ONLY, per this project's INTAKE.md rule that scan/transcription quality decides quotability -- this transcription's own chain from manuscript to critical edition to az.lib.ru to Wikisource has not been independently verified hop by hop (az.lib.ru itself was unreachable from the vendoring session's own network egress allowlist). Carries roughly ninety bracketed modern-Russian editorial glosses interpolated directly into the running sentences (e.g. "[pravoye]", "[potomu chto]") -- a modern annotated reading edition's own apparatus, not Avvakum's words; strip before quoting. MediaWiki markup ({{Otekste}} infobox, wiki-emphasis markup, wikilink brackets) stripped mechanically; non-breaking spaces normalized to plain spaces; no wording, spelling, or editorial bracketed variant reading altered.
+Content note: The same autobiography as avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt, in its own original language. This world's own inside voice for the-old-believers (Atlas VII.7).
+
 Житие протопопа Аввакума, им самим написанное
 По благословению отца моего старца Епифания писано моею рукою грешною протопопа Аввакума, и аще что реченно просто, и вы, господа ради, чтущии и слышащии, не позазрите просторечию нашему, понеже люблю свой русской природной язык, виршами философскими не обык речи красить, понеже не словес красных бог слушает, но дел наших хощет. И Павел пишет: «аще языки человеческими глаголю и ангельскими, любви же не имам, — ничто же есмь». Вот что много рассуждать: не латинским языком, ни греческим, ни еврейским, ниже [и не] иным коим ищет от нас говоры господь, но любви с прочими добродетельми хощет; того ради я и не брегу о красноречии и не уничижаю своего языка русскаго, но простите же меня, грешнаго, а вас всех, рабов Христовых, бог простит и благословит. Аминь.
 
