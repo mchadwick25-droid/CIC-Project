@@ -52,6 +52,16 @@ relations:
   target: gallic.gravity.monk-bishop
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.quote.brictio-called-by-demons-on-the-rock
+- type: associated-with
+  target: gallic.quote.brictio-horses-and-slaves
+- type: associated-with
+  target: gallic.quote.brictio-tirade-and-martins-restraint
+- type: associated-with
+  target: gallic.quote.brictio-returns-and-repents
+- type: associated-with
+  target: gallic.quote.martin-if-christ-bore-with-judas
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with caveats. Direct attestation within the horizon: the
@@ -73,43 +83,35 @@ narrative_tier_justification: >-
   Accepted, not Documented: no independent witness.
 tellable_as: >-
   A presbyter Martin raised from boyhood storms into the courtyard to call his master's visions
-  ridiculous fancies, repents within the hour - and Martin will not remove him, saying "If Christ bore
-  with Judas, why should not I bear with Brictio?"
+  ridiculous fancies, repents within the hour - and Martin will not remove him, saying he bears with
+  Brictio the way Christ bore with Judas.
 text: >-
-  In the Dialogues, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling,
-  "after he had sat down on that wooden seat of his (which you all know), placed in the small open court
-  which surrounded his abode."
+  In the Dialogues, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling.
+  Martin had sat down on the wooden seat everyone knew, in the small open court outside his door.
 
-  Martin, Gallus says, "perceived two demons sitting on the lofty rock which overhangs the monastery,"
-  and heard them calling, "in eager and gladsome tones," Come hither, Brictio, come hither, Brictio. And
-  Brictio came - "rushes in in absolute fury; and there, full of madness, he vomits forth a thousand
-  reproaches against Martin."
+  Gallus says Martin then saw two demons sitting on the rock that overhangs the monastery, calling out,
+  in eager and joyful tones: Come here, Brictio, come here, Brictio. And Brictio came - he rushed in
+  furious, out of his mind, pouring out a thousand reproaches against Martin.
 
-  The cause was a rebuke. The day before, Martin had reproved Brictio "because he who had possessed
-  nothing before he entered the clerical office, having, in fact, been brought up in the monastery by
-  Martin himself, was now keeping horses and purchasing slaves. For at that time, he was accused by
-  many of not only having bought boys belonging to barbarous nations, but girls also of a comely
-  appearance." Now, "with trembling lips, and a changing countenance, pale with rage," Brictio "rolled
-  forth the words of sin, asserting that he was a holier man than Martin who had brought him up,
-  inasmuch as from his earliest years he had grown up in the monastery amid the sacred institutions of
-  the Church, while Martin had at first, as he could not deny, been tarnished with the life of a
-  soldier, and had now entirely sunk into dotage by means of his baseless superstitions, and ridiculous
-  fancies about visions." He said worse, Gallus adds, "which it is better not to mention," and nearly
-  laid hands on him. Martin, "with a placid countenance and a tranquil mind, endeavored by gentle words
-  to restrain the madness of the unhappy wretch."
+  The cause was a rebuke from the day before. Martin had reproved Brictio because a man who had owned
+  nothing when he entered clerical office - a man Martin himself had raised in the monastery - was now
+  buying horses and slaves, including, many said, boys bought from beyond the frontier and girls chosen
+  for their looks. Trembling, pale with rage, Brictio poured out sinful words: he claimed to be the
+  holier man, since he had grown up inside the Church from boyhood, while Martin had spent his early
+  years as a soldier and had now, Brictio said, sunk into baseless superstition and ridiculous fancies
+  about visions. He said worse things too, Gallus adds, better left unmentioned, and nearly raised his
+  hand against Martin. Martin, calm in face and mind, tried to calm the raging man with gentle words.
 
-  Brictio went out as if he had vindicated himself - and "with rapid steps he rushed back by the way he
-  had gone out," the demons, Gallus believes, "driven from his heart by the prayers of Martin." He threw
-  himself at Martin's feet, begged pardon, confessed his error, and "acknowledges that he had been
-  under the influence of a demon. It was no difficult business for Martin to forgive the suppliant."
-  Martin then told him, and all of them, that he had seen him driven on by demons, "and declared that
-  he was not moved by the reproaches which had been heaped upon him; for they had, in fact, rather
-  injured the man who uttered them."
+  Brictio walked out feeling he had won his point. But he quickly turned back the way he had come - the
+  demons, Gallus believes, driven from his heart by Martin's own prayers. He threw himself at Martin's
+  feet, begged for pardon, confessed his fault, and admitted that a demon had taken hold of him. Martin
+  forgave him without any difficulty. Martin then told Brictio, and everyone else, that he had seen the
+  demons driving him on, and that the insults had not touched him - if anything, they had hurt the man
+  who spoke them more than they had hurt Martin.
 
-  And afterwards, Gallus says, "when this same Brictio was often accused before him of many and great
-  crimes, Martin could not be induced to remove him from the presbyterate, lest he should be suspected
-  of revenging the injury done to himself, while he often repeated this saying: 'If Christ bore with
-  Judas, why should not I bear with Brictio?'"
+  Afterward, Gallus says, whenever this same Brictio was accused of serious wrongdoing, Martin would not
+  remove him from the presbyterate. He did not want anyone to suspect him of avenging his own injury,
+  and he often gave his reason: he bore with Brictio the way Christ had borne with Judas.
 absent_detail: >-
   Brictio's own side is never heard; every word of his is reported by men hostile to him. Our own
   evidence does not say what became of him - the record ends at "Martin could not be induced to remove
@@ -124,25 +126,6 @@ modern_contrast: >-
   raised, and the community's own text is what raises the charge of barbarian boys and comely girls
   bought as slaves.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory006_brictio-in-the-courtyard.md (Tier 1,
-Tours node, Registry row 3). Story Text carried faithfully; the chunk's post-review corrections
-respected (H2: "at Martin's own dwelling," no "Marmoutier"; L6: no claim about Brictio's status at the
-time of writing). No separate figure record built for Brictio: he appears in this single story and
-nowhere else in the world's built evidence, and Doc_09 §4 and Doc_08 3B-1 both find that nothing may be
-asserted about him beyond this locus - he is fully carried here. Cross-node pairing with
-gallic.story.paphnutius-and-the-hidden-book declared as an associated-with story-to-story relation
-because the chunk's own Retrieve-When names the Paphnutius story as "the south's counterpart" and Doc_08
-Force 2B-4 makes the pair visible.
-
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as G6 - virtus (Tensional, northern) shown from its
-unbelieving edge - Doc_05 §2.1's "the community's own failure-mode" and Doc_08 Force 2B-4's place where
-the north's economy "polices doubt from within"; G1 x G9 (Primary x Tensional) in the bishop's own
-person - Vita ch. XXVI's bishop who "allowed himself to be wronged by the lowest clerics with impunity"
-(Doc_05 §4.2, "episcopal authority exercised, from within, as the refusal to use it"); and Doc_08 Cell
-2A-5's one place the barbarian force enters a Martin-formed cleric's own household.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.virtus;
-associated-with gallic.gravity.monk-bishop, gallic.gravity.authority-ambivalence - each connection
-named above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one
-of those gravity records.
+No separate figure record exists for Brictio: he appears in this single story and nowhere else in the
+world's built evidence, and nothing may be asserted about him beyond this locus - he is fully carried
+here.

@@ -46,6 +46,10 @@ relations:
   target: gallic.gravity.interior-road
 - type: associated-with
   target: gallic.gravity.received-not-invented
+- type: associated-with
+  target: gallic.quote.weekly-service-and-sacred-vessels
+- type: associated-with
+  target: gallic.quote.three-lentils-and-the-lords-things
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 - Collected and Traditional Material. Cassian transmits this "as an example" of a custom he

@@ -61,6 +61,12 @@ relations:
   target: gallic.gravity.received-not-invented
 - type: associated-with
   target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.quote.germanus-troubled-after-the-nights-teaching
+- type: associated-with
+  target: gallic.quote.germanus-and-chaeremon-on-the-husbandman
+- type: associated-with
+  target: gallic.quote.chaeremon-on-grace-and-free-will
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - stated with care, because this is the story on which the
@@ -91,40 +97,33 @@ text: >-
   came up in Egypt - not in a school, but between two friends at the hour of prayer, at the cell of an
   Egyptian elder near Panephysis, written down afterward in Gaul for the brothers at Lerins.
 
-  They had spent the previous evening, he and Germanus, hearing the old man Chaeremon speak on chastity
-  - a discourse "the force of which had inspired us with the utmost longing for this chastity which was
-  till now unknown to us." Then, "when after a short sleep we returned for morning service and were
-  waiting for the old man, Abbot Germanus was troubled by great scruples." The trouble was one sentence.
-  In the night's teaching "the blessed old man had by the addition of a single sentence broken down the
-  claims of man's exertions, adding that man even though he strive with all his might for a good
-  result, yet cannot become master of what is good unless he has acquired it simply by the gift of
-  Divine bounty and not by the efforts of his own toil."
+  He and Germanus had spent the previous evening hearing the old man Chaeremon speak on chastity, and
+  the teaching left them longing for a purity they had not known before. But it also left Germanus
+  troubled. Sleeping only briefly, they came back for morning prayer still turning over one sentence
+  from the night before: that striving with all one's might is still not enough, on its own, to make a
+  person master of the good - that has to be received as a gift. (See
+  gallic.quote.germanus-troubled-after-the-nights-teaching for Cassian's own account of this.)
 
-  "While then we were puzzling over this question," Cassian writes, "the blessed Chaeremon arrived at
-  the cell, and as he saw that we were whispering together about something, he cut the service of
-  prayers and Psalms shorter than usual, and asked us what was the matter."
+  Chaeremon noticed the two of them whispering and cut the morning service short to ask what was wrong.
 
-  Germanus put it plainly. It seemed to them absurd, he said, "for the reward of our efforts, i.e.,
-  perfect chastity, which is gained by the earnestness of one's own toil, not to be ascribed chiefly to
-  the exertions of the man who makes the effort. For it is foolish, if, when for example, we see a
-  husbandman taking the utmost pains over the cultivation of the ground, we do not ascribe the fruits
-  to his exertions."
+  Germanus put the trouble plainly: it seemed absurd, he said, for the reward of real effort - true
+  chastity, won by hard, sustained toil - not to be credited mainly to the person who put in the work.
+  A farmer who labors hard over his field gets the credit for the harvest; why should chastity be any
+  different?
 
-  Chaeremon took the husbandman and turned him round. "Neither can the husbandman, when he has spent the
-  utmost pains in cultivating the ground, forthwith ascribe the produce of the crops and the rich fruits
-  to his own exertions, as he finds that these are often in vain unless opportune rains and a quiet and
-  calm winter aids them" - and yet, he went on, "the Divine goodness does not grant these rich crops to
-  idle husbandmen who do not till their fields by frequent ploughing." A man "could not by his own
-  strength apply those very efforts which he has earnestly used ... unless the Lord's protection and
-  pity had given him strength." From which, the old man concluded, "the initiative not only of our
-  actions but also of good thoughts comes from God, who inspires us with a good will to begin with, and
-  supplies us with the opportunity of carrying out what we rightly desire" - and "it is for us, humbly
-  to follow day by day the grace of God which is drawing us."
+  Chaeremon turned the farmer's own example back on him. Even the hardest-working farmer cannot claim
+  the harvest by his labor alone - it depends on rain and a mild winter he cannot control, and God
+  does not grant a rich crop to a farmer who never ploughs, either. In the same way, no one could even
+  begin to make the effort chastity demands without God's protection giving them the strength to do it.
+  From this, Chaeremon concluded that both the desire to do good and the chance to act on it come from
+  God first; the human part is simply to follow, day by day, the grace that is already drawing a person
+  forward. (See gallic.quote.germanus-and-chaeremon-on-the-husbandman for Germanus's objection and
+  Chaeremon's full answer.)
 
-  That morning's answer grew into the whole Conference. Later in it Chaeremon would say that "the grace
-  of God always co-operates with our will for its advantage," and, at the end, that "how God works all
-  things in us and yet everything can be ascribed to free will, cannot be fully grasped by the mind and
-  reason of man."
+  That morning's answer grew into the whole Conference. Later in it, Chaeremon returns to the same
+  point twice: that God's grace always works together with human will for its own good, and that
+  exactly how God's action and human free will fit together is more than the human mind can fully grasp.
+  (See gallic.quote.chaeremon-on-grace-and-free-will.)
 absent_detail: >-
   What the old man actually said about chastity the night before - Conference XII - is not in the
   vendored edition, which marks it "Not translated," so the scruple's occasion is known only from this
