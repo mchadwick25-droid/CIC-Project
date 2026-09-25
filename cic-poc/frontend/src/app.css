@@ -622,6 +622,27 @@ button {
   color: var(--color-text-muted);
 }
 
+/* ModernTermMark's Level-2/Level-3 content (Conversation.tsx,
+   TableRoom.tsx) - identical treatment to .witness-mark__* above, under
+   its own selector for the same reason: same visual grammar, a different
+   track (a bridged modern word's own sense, not a cited claim). */
+.modern-term-mark__title {
+  font-weight: 700;
+}
+
+.modern-term-mark__sense {
+  margin-top: 2px !important;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.modern-term-mark__distinguishing {
+  margin-top: 4px !important;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
 /* General References (GeneralReferences.tsx) - the fourth track,
    deliberately NOT the InlineBridge grammar: a reference belongs at the
    end of the answer, never as an asterisk inside the running text;

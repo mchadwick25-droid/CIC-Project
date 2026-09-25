@@ -1,47 +1,37 @@
-"""The Facilitator's own turns, owned by CODE - the four routing actions
-that were real, tested routing outcomes with nothing behind them.
+"""The Facilitator's own turns, owned by CODE - real, tested routing
+outcomes, never a model's improvisation.
 
 Same discipline as engine.m4.crisis_resources, and for the same reason: the
 Facilitator speaks for the system, not for a world, so its words are not a
 model's to compose and not a world's to hold. A fixed table, never a prompt.
 
-SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both
-_ETIC_TEXT entries are approved participant-facing text - picked from
-drafted options after an analysis pass against CiC_L3D_Facilitator_
-Governance_V3.6/V3.7 and CiC-Program-Spec.md SS71/76-77/210. This replaces
-the earlier placeholder text a participant asking "are you an AI?" (and
-three of the other six routes) used to receive.
+SYSTEM_NATURE, CHECK_IN, DEPENDENCY_CHECK, and both _ETIC_TEXT entries are
+this module's own approved participant-facing text for those routing
+outcomes, checked against `CiC_L3D_Facilitator_Governance_V3.6/V3.7` and
+`CiC-Program-Spec.md` SS71/76-77/210.
 
-DOOR is also approved - picked
-from a two-draft choice (the fuller "door metaphor" draft was
-not carried into code) logged in Ministry/Technology/
-CiC_FrontEnd_Decision_Log.md. Closes a different gap than the six routing
-turns above: those replace placeholder text an existing route already
-produced, where DOOR gives the conversation screen its first-ever opening
-line - `"door"` has been a valid facilitator_turn kind in engine.m4.events
-since the event catalog was written, but nothing ever emitted one.
+DOOR gives the conversation screen its first-ever opening line -
+`"door"` has been a valid facilitator_turn kind in engine.m4.events since
+the event catalog was written, but nothing emitted one before this.
 
 DEPENDENCY_CHECK's `{representative_name}` slot (and DOOR's
 `{representative_name}`/`{role_label}`) are filled at call time from
 `world.frame["representative"]["name"]`/`["role_label"]` - the same
 registry-authored fields records/worlds.yaml carries per world (compiled
 into compiled/frame.json by engine.m2.builders.build_frame_json) and
-already used for the doorway screen. Mark's own ruling: the Facilitator
-names itself plainly as "the Facilitator" - no invented persona name for
-the Facilitator itself - while the Representative is named by its own
-registry name, so the participant can tell the two presences apart in the
-one moment they speak in the same beat (SS4.3a).
+already used for the doorway screen. The Facilitator names itself plainly
+as "the Facilitator" - no invented persona name for the Facilitator itself
+- while the Representative is named by its own registry name, so the
+participant can tell the two presences apart in the one moment they speak
+in the same beat (SS4.3a).
 
-STATUS, 2026-09-17: DOOR's (and TABLE_DOOR's) world-name slot sources
-`registry[world_key]["card_name"]`, not `world.frame["display_name"]` -
-Built-World Voice Alignment found the two diverge for 7 of the 8 built
-worlds (e.g. ijc's display_name "Imperial and Juridical Christianity" vs.
-its card_name "Church and Empire", the name every other participant-facing
-surface actually uses), and Mark ruled on the fix directly: "it is fine to
-come from the facilitator, but the words of the facilitator should align
-with the text the world has." See door_turn's own docstring for the
-fallback rule. Logged in Ministry/Technology/CiC_FrontEnd_Decision_Log.md
-alongside DOOR's original approval.
+DOOR's (and TABLE_DOOR's) world-name slot sources
+`registry[world_key]["card_name"]`, not `world.frame["display_name"]`: the
+two diverge for most built worlds (e.g. ijc's display_name "Imperial and
+Juridical Christianity" vs. its card_name "Church and Empire", the name
+every other participant-facing surface actually uses), and the Facilitator's
+own words should align with the text the world uses everywhere else. See
+door_turn's own docstring for the fallback rule.
 
 One thing below is NOT yet finished, flagged rather than hidden:
 
@@ -57,6 +47,8 @@ record. That is authored fleet data doing exactly the job it was authored
 for (Artifact-4 SS3 rule 4, Program-Spec SS77), not this module's prose.
 """
 from dataclasses import dataclass
+
+from engine.m4 import citation_cards
 
 
 @dataclass(frozen=True)
@@ -117,10 +109,10 @@ CHECK_IN = FacilitatorTurn(
 # Program-Spec SS8: Track B is "harmful-dynamic/dependency, accumulating
 # across the session" - a dependency dynamic, not a crisis, so no resources
 # (engine.m4.crisis_resources.resources_for_signal returns None for it by
-# design). Amendment 2026-09-20: the voice no longer speaks alongside this
-# turn either - it stands alone, same as Track A's own crisis turn. Written
-# to read correctly either way: "you're welcome to keep talking with
-# {representative_name}" already meant the NEXT message, not this one.
+# design). The voice does not speak alongside this turn either - it stands
+# alone, same as Track A's own crisis turn. Written to read correctly
+# either way: "you're welcome to keep talking with {representative_name}"
+# already meant the NEXT message, not this one.
 DEPENDENCY_CHECK = FacilitatorTurn(
     kind="safety",
     text=(
@@ -194,11 +186,9 @@ def door_turn(*, representative_name: str, role_label: str, world_name: str) -> 
     surfaces it as a small, secondary "studied as..." line. Every other
     participant-facing surface (homepage tile, Atlas card, Arrival's own
     kicker) names the world by its registry card_name instead (e.g. "Church
-    and Empire"). Mark's ruling, 2026-09-17 (Built-World Voice Alignment):
-    "it is fine to come from the facilitator, but the words of the
-    facilitator should align with the text the world has" - so callers pass
-    registry[world_key]["card_name"], falling back to display_name only for
-    an entry that has none (the fix fixture)."""
+    and Empire"), and the Facilitator's own words should align with that
+    text - so callers pass registry[world_key]["card_name"], falling back
+    to display_name only for an entry that has none (the fix fixture)."""
     text = DOOR.text.format(representative_name=representative_name, role_label=role_label, world_name=world_name)
     return {"kind": DOOR.kind, "text": text}
 
@@ -378,19 +368,16 @@ TABLE_SEAT_CORRECTION = FacilitatorTurn(
 
 
 def table_seat_correction_turn(representative_name: str) -> dict:
-    """The seat-identity guard's own fallback line (Decision-Log.md Entry
-    47, 2026-09-22): engine.m4.seat_identity_guard caught a generated turn
-    writing itself as the Facilitator or another seated voice, regenerated
-    once, and caught it again - so this voice's own text is never shown
+    """The seat-identity guard's own fallback line:
+    engine.m4.seat_identity_guard caught a generated turn writing itself as
+    the Facilitator or another seated voice, regenerated once, and caught
+    it again - so this voice's own text is never shown
     (engine.api.table_wiring writes that turn's voice_turn event with an
     empty text, same as any other genuinely empty stream; this facilitator
     turn is what the participant actually reads instead).
 
-    DRAFT COPY, not yet Mark's own word - same discipline Stage 6b/6c/6e's
-    own participant-facing text followed (Decision-Log.md Entries 39, 41):
-    the mechanism ships enforcing now, per Mark's own instruction, with
-    this line as its working default pending his confirmation of the exact
-    words."""
+    Working default copy: the mechanism ships enforcing now, with this
+    line standing in until its exact wording is confirmed."""
     return {"kind": TABLE_SEAT_CORRECTION.kind, "text": TABLE_SEAT_CORRECTION.text.format(representative_name=representative_name)}
 
 
@@ -405,32 +392,37 @@ VOICE_REJECTED = FacilitatorTurn(
 
 
 def voice_rejected_turn(representative_name: str) -> dict:
-    """R27 build item 5's own interview-mode fallback (Decision-Log.md
-    Entry 56/Rulings-Pending.md R36, 2026-09-23): the interview-mode
-    analog of table_seat_correction_turn above, for the one case
-    engine.m4.turn's seat-identity guard never covers in interview mode -
-    a generated voice turn that hard-failed R27's own paragraph-unit
-    check (wholly_uncited_paragraph or neighbour_named), survived one
-    named regeneration, and still hard-failed
+    """The interview-mode analog of table_seat_correction_turn above, for
+    a generated voice turn that hard-fails the uncited-claims enforcement
+    paragraph-unit check (wholly_uncited_paragraph or neighbour_named),
+    survives one named regeneration, and still hard-fails
     (voice_event["r27_enforcement_exhausted"] is True; that turn's own
     text is deliberately empty, same convention seat_identity_guard_
     exhausted already sets). Interview mode has no other seats to "bring
-    into it" the way the Table line closes, so this is new wording, not
-    a reuse of TABLE_SEAT_CORRECTION - drafted as three options and
-    escalated to Mark before being built (per the reviewer thread's own
-    instruction on item 5); this is Option A, Mark's own word, chosen
-    directly in session 2026-09-23 - RULED, not draft copy."""
+    into it" the way the Table line closes, so this is new, approved
+    wording, not a reuse of TABLE_SEAT_CORRECTION."""
     return {"kind": VOICE_REJECTED.kind, "text": VOICE_REJECTED.text.format(representative_name=representative_name)}
 
 
-def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
+def bridge_turn(terms: list[dict], fleet: dict[str, dict] | None = None) -> tuple[dict, str]:
     """Returns (facilitator_event, underlying_subject).
 
     The Facilitator speaks the modern sense; the voice receives the term-free
     underlying subject and never sees the participant's modern word
     (Program-Spec SS77). Both strings come from the fleet's own modern_term
     record - this function composes nothing.
-    """
+
+    fleet resolves each fired term's own citation_cards.resolve_source_card
+    - modern_sense, sources, and (a modern_term's own extra field)
+    distinguishing_claim, exactly the same card shape every other cited
+    record already gets - so a caller has something to show as a real,
+    sourced card, not only the prose sentence above. `fleet` is the same
+    dict every caller already has in scope (load_fleet_records()), passed
+    through rather than reloaded here, since a modern_term's own sources[]
+    point at fleet source records (_fleet.source.*), not this world's own
+    repository. Optional: a caller may omit it, leaving
+    facilitator_event["modern_terms"] as [] - the prose sentence alone is
+    still a complete, correct bridge turn."""
     if not terms:
         raise ValueError("bridge_turn called with no modern_term records - routing only reaches it when a term fired")
     senses = " ".join(t["modern_sense"].strip() for t in terms if t.get("modern_sense"))
@@ -441,4 +433,8 @@ def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
         f"knew. In our sense: {senses} Let me translate that into terms this world would actually "
         f"recognize before I put it to the voice: {subjects}"
     )
-    return {"kind": "bridge", "text": text}, subjects
+    modern_term_cards = [
+        card for t in terms
+        if (card := citation_cards.resolve_source_card(t["id"], fleet)) is not None
+    ] if fleet else []
+    return {"kind": "bridge", "text": text, "modern_terms": modern_term_cards}, subjects

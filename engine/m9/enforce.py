@@ -162,7 +162,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # spoken fields, records/_fleet/) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
     # count, for the reason gate_readability_fleet's own docstring gives.
-    "m1:readability-fleet/_fleet": Waiver(count=9, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
+    "m1:readability-fleet/_fleet": Waiver(count=7, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
 }
 
 
