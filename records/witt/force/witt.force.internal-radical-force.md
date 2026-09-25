@@ -62,24 +62,29 @@ name: 'The internal-radical force: Karlstadt and Zwilling''s pace (1522); the "n
   and Anabaptists (1529-31) [2B - ongoing/internal]'
 kind: ongoing
 matrix_cell: 2B
-description: 'LAYER 1 (Historical Event). 1522: during the Wartburg absence, Karlstadt''s and Zwilling''s
-  program in Wittenberg -- the mass abolished, both kinds, images, monks and nuns leaving -- with Karlstadt''s
-  own theses quoted by the editor; the founder''s return and the Eight Sermons of 9 March and the seven
-  days following (Documented for the sermons); the outcome, ''Carlstadt was silenced, the city council
-  made acknowledgment to Luther... and Wittenberg bowed to law and order'' (Widely Accepted at the editor''s
-  word). 1529-31: the Large Catechism''s ''enthusiasts,'' ''new spirits,'' ''fanatics''; the Confession''s
-  five condemnations of the Anabaptists by name. This is ''the only force the library shows penetrating
-  a congregation''s communal life directly.'' LAYER 2 (World''s Own Experience). Received as the devil''s
-  game played through one''s own colleagues: ''here we battle not against pope or bishop, but against
-  the devil... he would make a flank attack'' (v2 14752-14756). Felt as endangered deathbeds, scandalized
-  neighbours, and what ''men say'' of Wittenberg -- ''they take the sacrament with the hands and handle
-  the cup, and then they go to their brandy'' (v2 15404-15407). Answered with the world''s own rule: ''Take
-  note of these two things, "must" and "free"... Now do not make a "must" out of what is "free"'' (v2
-  14790-14796). LAYER 3 (Formation Impact). The force that RESHAPED what already existed -- the only force
-  this build''s notations describe with that verb: G2 reshaped twice (jus verbi without executio; the
-  Word defined as external); G3 fractured internally and re-set; G7 fenced (''regularly called''); G1
-  re-fenced; G6 reshaped (AC XVI); G10 pressed; G5 intensified; G8 GENERATED OUTRIGHT -- the occasion
-  of every ''must''/''free'' sentence.'
+description: 'In 1522, while the founder was away at the Wartburg, Karlstadt and Zwilling ran their own program in Wittenberg.
+  It included abolishing the mass, communion in both kinds, images, and monks and nuns leaving, and the editor
+  quotes Karlstadt''s own theses. The founder then returned and preached the Eight Sermons, on 9 March and the
+  seven days after, and these sermons are well documented. The outcome, widely accepted on the editor''s word, was
+  this: "Carlstadt was silenced, the city council made acknowledgment to Luther... and Wittenberg bowed to law and
+  order". Then, in 1529-31, the Large Catechism speaks of "enthusiasts," "new spirits," and "fanatics," and the
+  Augsburg Confession condemns the Anabaptists by name five times. Of every force in this library, this is the one
+  shown reaching directly into a congregation''s shared life.
+
+  Inside this world, the force was received as the devil''s game, played through one''s own colleagues: "here we
+  battle not against pope or bishop, but against the devil... he would make a flank attack" (v2 14752-14756).
+  People felt it in deathbeds put in danger, in scandalized neighbours, and in what "men say" of Wittenberg: "they
+  take the sacrament with the hands and handle the cup, and then they go to their brandy" (v2 15404-15407). The
+  world answered with its own rule: "Take note of these two things, ''must'' and ''free''... Now do not make a
+  ''must'' out of what is ''free''" (v2 14790-14796).
+
+  This is the force that reshaped what already existed, and it is the only force we describe that way. It reshaped
+  the Word twice. In 1522, against Karlstadt''s pace, the Word keeps its right to be preached but not the power to
+  enforce it. In 1529-31, against the "new spirits," the Word is defined as external. It broke promise and sign,
+  the sacraments, from within and then set them again. It fenced in estate, office and calling with the rule of
+  being "regularly called," and it fenced justification by faith alone once more. It reshaped the two governments
+  (AC XVI), put pressure on the bodily presence in the Supper, and deepened the terrified and comforted
+  conscience. And it created "must" and "free" outright, as the occasion of every "must"/"free" sentence.'
 manifestations:
 - '"here we battle not against pope or bishop, but against the devil, and do you imagine he is asleep?...
   he would make a flank attack" (v2 14752-14756)'
