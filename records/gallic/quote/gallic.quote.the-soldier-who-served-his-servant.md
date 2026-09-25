@@ -52,9 +52,10 @@ modern_lens_note: >-
   ordinary army life, in how one man treats a subordinate, before there is any monastery for him to
   belong to.
 modern_rendering: >-
-  He often acted as if he were the lower one, though he was really the master. It went so far that he
-  usually pulled off his servant's boots and cleaned them with his own hand. They ate their meals
-  together, but it was generally the real master who played the servant. For nearly three years before
+  Even with him, he would as it were change places. Though he was really the master, he often acted as
+  the lower one. Most of the time, he pulled off the boots himself and cleaned them with his own hand,
+  while the two of them ate their meals together - the real master generally playing the part of
+  servant. For nearly three years before
   his baptism he served as a soldier. But he kept completely free of the vices that men of that trade
   too often fall into. He showed great kindness to his fellow soldiers and held them in remarkable
   affection. His patience and humility went beyond what seemed humanly possible. There is no need to

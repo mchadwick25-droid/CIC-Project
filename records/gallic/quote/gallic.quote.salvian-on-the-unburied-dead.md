@@ -78,15 +78,13 @@ that I myself endured" and "lacerated by birds and dogs" the source has "These w
 eyes of the city, as they lay there," which the flagged span itself already skips with its own
 ellipsis - "lacerated by birds and dogs" is retained, exactly as the flagged span has it.
 
-Correction (2026-09-25): a prior pass also placed "..." between "successive captures," and "yet when
-the whole city had been burned to the ground," reading it as a fourth omission. It is not one. At that
-exact point the vendored file (line 8242) has "three times destroyed by successive captures,'' yet
-when the whole city..." - the stray curly close-quote glyph (’’) glued directly onto "captures," is
-Sanford's own superscript footnote marker (note 52) mangled by OCR, not a quotation mark and not a
-gap. Read with the artifact removed, the sentence runs on unbroken: "three times destroyed by
-successive captures, yet when the whole city had been burned to the ground, its wickedness increased
-even after its destruction." The "..." there falsely implied a real cut; it has been removed and the
-clause rejoined. No content was ever omitted at that point.
+At the point between "successive captures," and "yet when the whole city had been burned to the
+ground," the vendored file (line 8242) has "three times destroyed by successive captures,” yet when
+the whole city..." - the stray curly close-quote glyph glued directly onto "captures," is Sanford's own
+superscript footnote marker (note 52) mangled by OCR, not a quotation mark and not a gap. Read with the
+artifact removed, the sentence runs on unbroken: "three times destroyed by successive captures, yet
+when the whole city had been burned to the ground, its wickedness increased even after its
+destruction." No content is omitted at that point.
 
 Normalization: line breaks and page-break hyphenation joined; footnote markers dropped. No word was
 added, dropped, substituted, or reordered within any quoted phrase.

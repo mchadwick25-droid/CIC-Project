@@ -73,15 +73,12 @@ the elite's feasting and dissolution not itself flagged for this record. Both sp
 same numbered section, VI.13, and the same continuous indictment of the same city's surviving notables,
 so they are kept as one record rather than two.
 
-Correction (2026-09-25): a prior pass also placed "..." between "despoiled and plundered," and "still
-less ruined in fortunes," reading it as a second omission. It is not one. At that exact point the
-vendored file (line 8093-8094) has "though already despoiled and plundered,*® still less ruined in
-fortunes than in morality" - the "*®" is Sanford's own superscript footnote marker (note 45, "That is,
-in the first sack of the city of Tréves"), mangled by OCR into two glued glyphs with no space. It is
-apparatus, not a gap in the sentence: read with the marker removed, the clause runs on unbroken, "though
-already despoiled and plundered, still less ruined in fortunes than in morality." The "..." there
-falsely implied a real cut; it has been removed and the clause rejoined. No content was ever omitted at
-that point.
+At the point between "despoiled and plundered," and "still less ruined in fortunes," the vendored file
+(line 8093-8094) has "though already despoiled and plundered,*® still less ruined in fortunes than in
+morality" - the "*®" is Sanford's own superscript footnote marker (note 45, "That is, in the first sack
+of the city of Tréves"), mangled by OCR into two glued glyphs with no space. It is apparatus, not a gap
+in the sentence: read with the marker removed, the clause runs on unbroken, "though already despoiled
+and plundered, still less ruined in fortunes than in morality." No content is omitted at that point.
 
 Normalization: the vendored OCR text hyphenates words across page breaks and hard-wraps lines; line
 breaks and hyphenation were joined with single spaces / no hyphen. Footnote markers (the source's own
