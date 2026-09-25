@@ -10,25 +10,29 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: illustrative
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: "This record is a compiled facilitator-only brief over this world's own already-rated records; the confidence of any individual claim lives in the record(s) named in that unit's own grounded_in, not in this envelope block. This block states only that the compilation itself was built by reading those records directly, matching the discipline records/don/facilitator_brief/don.facilitator_brief.donatism.md and records/alx/facilitator_brief/alx.facilitator_brief.alexandria-catechetical.md already established for this record type."
+  divergence_note: "This record is a compiled facilitator-only brief over this world's own already-rated records; the confidence of any individual claim lives in the record(s) named in that unit's own grounded_in, not in this envelope block. This block states only that the compilation itself was built by reading those records directly."
 audience: facilitator
 world_identity:
   text: >-
     This world is the ordinary pastoral church of Roman North Africa, roughly 246 to 430 CE --
-    one office, held by two men in succession: Cyprian of Carthage, then, a century and a half
-    later, Augustine of Hippo. It is not a world of empire-wide councils or courts, and not a
+    the same pastoral office, held by two different bishops far apart in time: Cyprian of
+    Carthage, then, a century and a half later, Augustine of Hippo, in a different city and a
+    different church province. It is not a world of empire-wide councils or courts, and not a
     world of ascetics who withdraw from congregational life. What holds it together is a bishop
-    personally answerable for a bounded flock, a working system for bringing failed members back
-    into full standing, and a rule against letting real disagreement break communion. Underneath
-    all of it runs one question neither bishop's own voice resolves: whether baptism and
-    ordination given outside this church's own boundary are real at all. Cyprian says no.
-    Augustine says something real is given, but held inert until the person returns.
+    personally answerable for a bounded flock, and a rule against letting real disagreement break
+    communion. In the first bishop's own time, that rule also produced a working system for
+    bringing failed members back into full standing. Underneath all of it runs one question this
+    world holds without resolving: whether baptism and ordination given outside this church's own
+    boundary are real at all. Cyprian answers no. Augustine answers that something real is given,
+    but held inert until the person returns. Each bishop held his own answer firmly; it is the
+    world, not either man, that never chooses between them.
   grounded_in:
   - lpc.core.latin-pastoral-congregational-christianity
   - lpc.gravity.pastoral-office-flock-keeping
   - lpc.gravity.penitential-discipline
   - lpc.gravity.collegial-communion-preserved
   - lpc.gravity.sacramental-ordination-validity
+  - lpc.demo.font-twice-answered
 formation_strengths:
 - text: >-
     This world serves participants asking what it actually means for someone to be answerable
@@ -65,9 +69,10 @@ formation_strengths:
   - lpc.demo.font-twice-answered
 - text: >-
     It serves participants asking whether a person can become right with God by their own effort
-    alone, unaided. This world's later bishop built an entire body of teaching answering no --
-    the single most frequent theological word in this world's own whole surviving record, by a
-    wide margin, is grace.
+    alone, unaided. This world's later bishop built an entire body of teaching answering no.
+    Across his own anti-Pelagian writings, the word grace occurs more than any other term in this
+    world's own lexicon -- but that teaching belongs to his own later phase only. It supports
+    nothing else in this world, and stands on its own.
   grounded_in:
   - lpc.gravity.grace-and-human-incapacity
   - lpc.term.grace
@@ -75,17 +80,17 @@ formation_limitations:
 - text: >-
     This world is thin on the ordinary lay believer's own interior life. It can say what was
     decided about a person and why; it cannot say what an ordinary believer actually felt walking
-    up to the altar or standing at the font. The one partial exception -- Augustine's own account
-    of weeping over the penitential psalms in his last illness -- is retrospective, written by a
-    bishop, about the single most examined conversion of antiquity, not an ordinary believer's
-    own ordinary day.
+    up to the altar or standing at the font. The one partial exception is Augustine's own account
+    of his baptism at Milan in 387, before he held any office -- but he wrote it down years
+    afterward, already a bishop, about the single most examined conversion in the ancient world,
+    not an ordinary believer's own ordinary day.
   grounded_in:
   - lpc.limit.ordinary-interior-life
 - text: >-
     It is thin on women's own voice in a precise way worth stating directly. Women appear
     throughout this world's own record and never narrate it. Numidicus's own wife and daughter,
-    the two women named in Celerinus's letter, Monica, the community of Nuns at Hippo -- all of
-    them are visible, and none of them is audible in her own words.
+    the two women named in Celerinus's letter, Albina, and the community of nuns at Hippo -- all
+    of them are visible, and none of them is audible in her own words.
   grounded_in:
   - lpc.limit.womens-own-voice
 - text: >-
@@ -117,9 +122,10 @@ participant_type_fit:
     preserved inside a hostile source -- the largest and most direct primary-source base of any
     world built in this fleet so far. That richness comes with real, honestly disclosed open
     questions rather than false settledness: whether Pontius's own account of Cyprian's death
-    should be read as documentary testimony or hagiography, and whether the "Primacy Text" of
-    De Unitate 4-5 is Cyprian's own wording or a later interpolation, are both live, unresolved
-    scholarly questions this world's own record states as such.
+    should be classified as documentary testimony or hagiographic convention is a live
+    methodological question this world's own record states as such (the bare facts of the
+    execution are not in dispute), and whether the "Primacy Text" of De Unitate 4-5 is Cyprian's
+    own wording or a later interpolation is a live, unresolved scholarly question in its own right.
   grounded_in:
   - lpc.core.latin-pastoral-congregational-christianity
   - lpc.contested.cyprian-death-genre
@@ -145,9 +151,9 @@ participant_type_fit:
   - lpc.demo.road-back-examined
 - text: >-
     For a regular visitor, this world's own native vocabulary -- the lapsed, the flock,
-    communion, libelli, the road back -- is used naturally rather than defined first, in keeping
-    with this world's own voice-construction discipline. A visitor may need a moment's
-    orientation to the specific weight these words carry before the conversation goes very far.
+    communion, libelli, the road back -- carries real weight, and the Representative introduces
+    each term's own plain meaning before leaning on it. A visitor may still need a moment's
+    orientation to how much weight these words carry, once introduced.
   grounded_in:
   - lpc.craft.datus-voice
   - lpc.term.the-lapsed
@@ -156,15 +162,16 @@ pairing_guidance:
   text: >-
     This world's own record supports one direct, richly and independently evidenced pairing:
     Donatism. The two traditions contest the same North African towns over the same underlying
-    question -- whether a minister's own worthiness determines whether what he gives is real --
-    and reach opposite rulings on it. This world's own later bishop eventually invokes the same
-    imperial coercion that Donatism's own record refuses to recognize as legitimate, and both
-    sides' own native records independently document the same dispute from opposite ends, which
-    is a stronger evidentiary basis than a pairing resting on only one side's own account of a
-    relationship. This world's own contested_claim records do not name a second world directly
-    for a comparable pairing (checked directly: none of this world's own four contested_claim
-    records' own divergence_partners fields name another world's records), so a second pairing
-    is not asserted here rather than guessed at from thematic resemblance alone.
+    question -- whether a minister's own worthiness determines whether what he gives is real.
+    The Donatists appeal, for their own central practice, to a ruling this world's first bishop
+    once gave. This world's later bishop argues against that same ruling at length, though he
+    grounds his own case in the bond between bishops, not in overturning the ruling itself. This
+    world's own later bishop eventually invokes the same imperial coercion that Donatism's own
+    record refuses to recognize as legitimate, and both sides' own native records independently
+    document the same dispute from opposite ends, which is a stronger evidentiary basis than a
+    pairing resting on only one side's own account of a relationship. No second pairing is
+    asserted here: this world's own four contested_claim records name no other world in their own
+    divergence_partners fields.
   grounded_in:
   - lpc.gravity.sacramental-ordination-validity
   - lpc.gravity.collegial-communion-preserved
@@ -172,12 +179,12 @@ pairing_guidance:
   - lpc.contested.compel-coercion-development
   - lpc.demo.compel-three-phase
 cautions:
-- "This world's own richest primary-source base (two bishops speaking in their own words) is not immunity from the hostile-source problem other worlds in this fleet carry -- it is thin specifically on OTHER voices this world's own record does not preserve (ordinary believers, women, the lapsed themselves), not on the bishops' own voice, which is unusually direct and unusually well attested."
+- "This world's own richest primary-source base (two bishops speaking in their own words) does not carry the hostile-source problem other worlds in this fleet do -- it is thin in a different way, specifically on OTHER voices this world's own record does not preserve (ordinary believers, women, the lapsed themselves), not on the bishops' own voice, which is unusually direct and unusually well attested."
 - "The roughly 130-year silence between the two bishops (258-391) must never be filled from the Donatist record, even though that century is richly attested there. This world's own record states the silence plainly rather than explaining it away, and a facilitator should not let a participant's question about 'what happened in between' be answered from a neighboring communion's own account."
-- "Two real borrowed-voice risks are named directly in this world's own build record: Tertullian, who forged much of the Latin theological vocabulary Cyprian and Augustine both use, but whose own voice this world does not speak; and Optatus, a Catholic bishop who wrote polemic against the Donatists and is catalogued in this world's own source ecology but not drawn on as this world's own pastoral voice. Neither should be treated as this Representative's own source."
-- "Augustine's own three-phase development on the question of coercion against the Donatists -- an early opinion against any compulsion, a narrow and unsuccessful appeal for legal protection, and finally a sustained defence of compulsion already in force -- is a genuine, uncomfortable finding this world's own record holds without either defending it as self-evidently right or disowning it. A facilitator should expect the Representative to hold this the same way, not soften it into a simpler story of steady conviction or of pure hypocrisy."
-- "Cyprian of Carthage is a real and recurring conflation risk against Cyprian of Antioch, a separate, later figure this world's own source catalogue names directly as a known hazard of unguarded hagiographic tradition. A facilitator hearing 'Cyprian' from an outside source should not assume which figure is meant without checking."
-- "This world's own teaching on the examined road back -- watched, weighed, never granted on request -- sits close to language a real crisis redirect could accidentally echo ('you need to prove yourself first'). That whole subject belongs to the Facilitator layer, governed outside this world's own voice, per this project's standing rule that a Representative never handles real crisis or distress itself; a facilitator's own redirect language should be held unconditional, and should not be phrased in the register this world's own road-back teaching uses for its own very different subject."
+- "Three real borrowed-voice risks are named directly in this world's own build record. Tertullian is credited with forging much of the Latin theological vocabulary Cyprian and Augustine both use, but his own voice is not this world's voice. The Passion of the Scillitan Martyrs (180 CE) predates this world by 66 years and is not its own evidence, however closely its language may read. Optatus, a Catholic bishop who wrote polemic against the Donatists, is catalogued in this world's own source ecology but not drawn on as this world's own pastoral voice. None of the three should be treated as this Representative's own source."
+- "Augustine's own three-phase development on the question of coercion against the Donatists -- an early opinion against any compulsion, a narrow and unsuccessful appeal for legal protection, and finally a sustained defence of compulsion already in force -- is a genuine finding this world's own record holds without defending it as self-evidently right or disowning it. Whether it records a real change of mind, or a later account shaped by the position it now defends, is itself a live, unresolved question this world's own record does not settle. A facilitator should expect the Representative to hold the tension the same way, not soften it into a simpler story of steady conviction or of pure hypocrisy."
+- "Cyprian of Carthage is a real and recurring conflation risk against Cyprian of Antioch, a separate, legendary magician-saint this world's own source catalogue names directly as the hazard of a later, unguarded hagiographic conflation. A facilitator hearing 'Cyprian' from an outside source should not assume which figure is meant without checking."
+- "This world's own teaching on the examined road back -- watched, weighed, never granted on request -- sits close to language a real crisis redirect could accidentally echo ('you need to prove yourself first'). That whole subject belongs to the Facilitator layer, governed outside this world's own voice, per this project's standing rule that a Representative never handles real crisis or distress itself; a facilitator's own redirect language should be held unconditional, and should not be phrased in the register this world's own road-back teaching uses for its own very different subject. In testing, this world's own Representative did not make its warmth conditional -- but this specific risk has not been tested against a live Facilitator redirect."
 living_tradition_handling:
   text: >-
     This world's own registry entry sets its living-tradition flag to true, but the shape of that
@@ -196,30 +203,29 @@ living_tradition_handling:
 redirect_notes:
   text: >-
     When a participant asks in detail about a woman's own experience or authority in this world,
-    this Representative can answer only so far before it must redirect. Women appear throughout
-    this world's own record -- Numidicus's own wife and daughter, the two women named in
-    Celerinus's letter, Monica, the community of Nuns at Hippo -- and every one of them is visible
-    without ever being audible in her own words. No demonstration record in this world currently
-    performs this exact handoff (unlike this world's own font-twice-answered and road-back
-    demonstrations, which do exist for their own topics), so this guidance is grounded directly in
-    the honest_limit record's own already-Representative-voiced statement of the limit rather than
-    in a tested exchange -- disclosed here as a deliberate choice, not an oversight. A facilitator
-    should expect the Representative to give the real shape of what is attested -- that these
-    women carried real, visible standing in this world's own record -- and then redirect honestly
-    to the limit, rather than manufacture a woman's own voice the record itself does not supply.
+    this Representative can answer only so far before it must hand off to an honest limit. Women
+    appear throughout this world's own record -- Numidicus's own wife and daughter, the two women
+    named in Celerinus's letter, Albina, the community of nuns at Hippo -- and every one of them is
+    visible without ever being audible in her own words. No demonstration record in this world
+    performs this exact handoff, so this guidance is grounded directly in the honest_limit
+    record's own already-Representative-voiced statement of the limit rather than in a tested
+    exchange -- disclosed here as a deliberate choice, not an oversight. A facilitator should
+    expect the Representative to give the real shape of what is attested -- that these women
+    carried visible standing in this world's own record -- and then hand off honestly to the
+    limit, rather than invent a woman's own voice the record itself does not supply.
   grounded_in:
   - lpc.limit.womens-own-voice
 ---
-Authored 2026-09-25, closing the lpc facilitator_brief gap alongside its world_front sibling
+Closes the lpc facilitator_brief gap alongside its world_front sibling
 (`records/lpc/world_front/lpc.front.latin-pastoral-congregational-christianity.md`), per V1.8's
-required-before-admission list and the project lead's own post-credit-reset instruction. Matches
-the discipline `records/don/facilitator_brief/don.facilitator_brief.donatism.md` and
+required-before-admission list. Matches the discipline
+`records/don/facilitator_brief/don.facilitator_brief.donatism.md` and
 `records/alx/facilitator_brief/alx.facilitator_brief.alexandria-catechetical.md` already
 established for this record type: every field grounded in a real M1 record under `records/lpc/`
-read directly this session (a comprehensive research pass covering world_core, world_front, all
-8 gravity records, all 9 honest_limit records, all 7 figure records, all 4 contested_claim
-records, voice_craft, the registry entry, and all 3 demonstration records), never in Doc_0X/
-Phase-N build-process citations this compiler cannot resolve.
+read directly (world_core, world_front, all 8 gravity records, all 9 honest_limit records, all 7
+figure records, all 4 contested_claim records, voice_craft, the registry entry, and all 3
+demonstration records), never in Doc_0X/Phase-N build-process citations this compiler cannot
+resolve.
 
 `facilitator_brief` is confirmed NOT scoped by `engine.m1.gates.py`'s own readability check
 (`_readability_checks`/`_PERSPECTIVE_FIELDS` deliberately exclude `world_front`/`facilitator_brief`
@@ -248,12 +254,13 @@ project's own "never invent" rule.
 REDIRECT_NOTES, checked directly against every honest_limit and demonstration record in this
 world. `don.facilitator_brief.donatism`'s own redirect_notes cites a real demonstration record
 (`don.demo.woman-authority`) performing the exact handoff it describes. No equivalent exists in
-lpc: `lpc.limit.womens-own-voice` is itself tagged `demo_tag: exclude` in its own build note (cell
-collision with `lpc.demo.compel-three-phase`), and no honest_limit record in this world shares a
-canon cell with a demonstration record on a matching topic. Grounded instead directly in the
-honest_limit record's own already-Representative-voiced statement, per this world's research
-digest's own explicit recommendation, rather than force a citation to a demonstration record that
-does not exist for this exact case.
+lpc: `lpc.limit.womens-own-voice` is itself tagged `demo_tag: exclude` in its own build note, and
+no honest_limit record in this world shares a canon cell with a demonstration record on a matching
+topic. Grounded instead directly in the honest_limit record's own already-Representative-voiced
+statement, rather than force a citation to a demonstration record that does not exist for this
+exact case. The body text above says "hand off," not "redirect": the Facilitator's own
+crisis-redirect is a distinct, governed term, and this Representative-side honest-limit handoff
+should not read as the same act.
 
 LIVING_TRADITION_HANDLING, checked directly against `records/worlds/lpc.yaml`
 (`living_tradition_flag: true`) and `lpc.core.latin-pastoral-congregational-christianity`'s own
@@ -272,20 +279,48 @@ consistent; the Cyprian-of-Carthage/Cyprian-of-Antioch caution was checked again
 `lpc.contested.cyprian-death-genre`'s own sources field, which names this conflation directly.
 
 GROUNDING NOTES BY FIELD, briefly. `world_identity`: the two-bishops/one-office framing and the
-sacramental-validity tension from `lpc.core...` and the four Primary gravities named in its own
-`grounded_in`. `formation_strengths`: each of the five items grounded in one Primary gravity
-(pastoral office, penitential discipline, collegial communion, sacramental validity, grace/
-incapacity) plus, where one exists, the demonstration record that shows it live.
-`formation_limitations`: each of the five items grounded directly in the matching honest_limit
-record's own statement field, read in full. `participant_type_fit`: academic fit grounded in
-`lpc.core...`'s own thinness field plus the two live contested_claim questions it discloses;
-pastor/teacher and deconstructing/reconstructing fit both grounded in the same two strengths named
-above; regular-visitor calibration grounded in `lpc.craft.datus-voice` plus two named Tier-1 terms.
-`cautions`: each of the six items grounded in the corresponding numbered caution or guard field in
-`lpc.core...` or `lpc.craft.datus-voice`, at its current wording, not restated as plain strings'
-own `grounded_in` field, since the schema carries `cautions` as plain strings with no such field of
-their own, matching `don.facilitator_brief.donatism`'s and `alx.facilitator_brief.
-alexandria-catechetical`'s own identical handling of this point.
+sacramental-validity tension from `lpc.core...` and the gravities named in its own `grounded_in`.
+`formation_strengths`: four of the five items grounded in a Primary gravity (pastoral office,
+penitential discipline, collegial communion, sacramental validity); the fifth (grace/incapacity)
+is grounded in a Supporting gravity, and its own text now states that narrower scope directly
+rather than implying Primary status. Each item, where one exists, also cites the demonstration
+record that shows it live. `formation_limitations`: each of the five items grounded directly in
+the matching honest_limit record's own statement field, read in full. `participant_type_fit`:
+academic fit grounded in `lpc.core...`'s own thinness field plus the two live contested_claim
+questions it discloses; pastor/teacher and deconstructing/reconstructing fit both grounded in the
+same two strengths named above; regular-visitor calibration grounded in `lpc.craft.datus-voice`
+plus two named Tier-1 terms. `cautions`: each item grounded in the corresponding numbered caution
+or guard field in `lpc.core...` or `lpc.craft.datus-voice`, at its current wording, not restated
+as a plain strings' own `grounded_in` field, since the schema carries `cautions` as plain strings
+with no such field of their own, matching `don.facilitator_brief.donatism`'s and
+`alx.facilitator_brief.alexandria-catechetical`'s own identical handling of this point.
+
+FIELD-BY-FIELD GROUNDING, continued. `world_identity` states the two bishops held the same
+pastoral office in different sees and different church provinces (`lpc.core...`'s own `horizon`),
+not one office in a single line of succession; the baptism question is unresolved at the level of
+the world's own two-answer holding (matching `lpc.demo.font-twice-answered`), not because either
+bishop himself failed to answer it -- each held his own answer firmly. `formation_strengths[4]`
+states `lpc.term.grace`'s own evidential base precisely: the highest raw-frequency count within
+this world's own 19-term lexicon, inside Augustine's anti-Pelagian corpus specifically, not a claim
+about the whole record; its own gravity is Supporting, not Primary. `formation_limitations[0]`
+names Confessions IX.vi.14 -- Augustine's own first-person account of his baptism at Milan in 387
+-- as the one partial exception to thin interior life, per `lpc.limit.ordinary-interior-life`.
+`formation_limitations[1]` and `redirect_notes` name Albina, per `lpc.limit.womens-own-voice`'s own
+list. `pairing_guidance` states that the Donatists appeal to Cyprian's own ruling directly, and
+that Augustine argues against it on grounds of collegiality, not by asserting a competing ruling of
+his own. `cautions[2]` names three comparanda (Tertullian, the Passion of the Scillitan Martyrs,
+and Optatus), matching `lpc.core...`'s own caution list, and states Tertullian is credited with,
+not flatly shown to have, forged the Latin vocabulary. `cautions[3]` discloses that whether
+Augustine's three-phase coercion account is a real change of mind or a retrospective
+self-presentation is itself a live, unresolved question `lpc.contested.compel-coercion-development`
+does not settle. `cautions[4]` describes Cyprian of Antioch as this world's own source catalogue
+actually does: a legendary magician-saint, a later conflation. `cautions[5]` discloses that the
+road-back caution has not been tested against a live Facilitator redirect, matching `lpc.core...`'s
+own caution 12. `participant_type_fit[3]` states plainly that the Representative introduces each
+term before leaning on it, matching CLAUDE.md's own actual rule, rather than citing a
+"voice-construction discipline" no record states. `participant_type_fit[0]` states the Pontius
+question as a live methodological (Construction Framework tier) question over how to classify an
+undisputed set of facts, not a dispute about the facts themselves.
 
 VALIDATION (jsonschema, gate battery, and cross_world before/after) is reported in full in this
 build's own handback message, not restated here, per this project's own "keep the live/canonical

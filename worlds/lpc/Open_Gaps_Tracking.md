@@ -1761,6 +1761,126 @@ here.
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 
+### OG-27. `world_front` and `facilitator_brief` reviewed for the first time (independent Opus adversarial review, round 1): 6 and 5 HIGH findings respectively, all fixed in round 2, plus 8 and 8 MEDIUM findings fixed and a round of LOW/COSMETIC findings addressed or disclosed.
+
+2026-09-25. Neither record had been through independent review since OG-21/OG-22 authored them; both
+carried the same status every drafted-but-unreviewed record does, per this project's own "a blocking
+review finding can't be dismissed by self-certification" rule. An independent Opus review (cross-model,
+never the drafter) read both records in full against every record they cite under `records/lpc/`.
+
+**world_front — 6 HIGH.** Two fields contradicted each other on the baptism-validity tension (one said
+the second bishop "never resolved which... was right," the other correctly had him arguing the first
+ruling was wrong) — fixed: the world holds two answers unresolved, not either bishop individually.
+`story[3]`/a documented-story teaser invented "separate prisons" for Celerinus and Lucian; the cited
+story record has Celerinus already released, writing to Lucian, still imprisoned — fixed in both places.
+`sourcing` said material evidence was "unexcavated," the opposite of `lpc.core...`'s own `thinness`
+field (the sites are excavated; the excavation reports have not been consulted) — fixed. And the whole
+record failed the NorthStar readability target in nearly every prose field (FK grade 9.5–18, FRE mostly
+under 60, some single sentences past 40 words) — `world_front` is participant-facing content (it fed
+this session's own traditions-page build directly) but is not covered by `engine.m1.gates.py`'s automated
+readability gate, a disclosed design gap in that gate, not a content-quality exemption. Every prose field
+was rewritten and scored directly with `engine/m1/fk.py` before saving; every field now clears FK ≤10 and
+FRE ≥60, with no fact or citation changed for readability reasons alone.
+
+**facilitator_brief — 5 HIGH.** `world_identity` implied the two bishops held one office in a single
+line of succession, against `lpc.core...`'s own statement that they held different sees in different
+church provinces — fixed. `formation_strengths[4]` overstated `lpc.term.grace`'s own evidential base as
+"the single most frequent theological word in this world's own whole surviving record," when the term
+record's own count is the highest within this world's 19-term lexicon, inside Augustine's anti-Pelagian
+corpus specifically — fixed, and the field now states the gravity is Supporting, not Primary (the
+trailing note's own classification count was also wrong and is fixed). `formation_limitations[0]` cited
+the psalms-on-the-wall scene (Possidius's own third-person account of Augustine's death) as the "partial
+exception" to thin interior life; the real exception `lpc.limit.ordinary-interior-life` names is
+Confessions IX.vi.14, Augustine's own first-person account of his baptism at Milan in 387 — fixed.
+`formation_limitations[1]` and `redirect_notes` named "Monica," who does not appear in
+`lpc.limit.womens-own-voice`'s own list — replaced with Albina, whom that record names.
+
+**MEDIUM findings, both records (13 + 8), all fixed:** the tile/`world_identity`'s claim that a
+cross-phase penitential system holds the world together, against `lpc.gravity.penitential-discipline`'s
+own finding that it is Cyprian-phase only (a family resemblance, not a continuation, reaches Augustine's
+phase); an absolute "never a reason to separate" framing that did not cite
+`lpc.witness.communion-over-separation`, the record that actually states it; `pairing_guidance`'s "reach
+opposite rulings" claim, when the Donatists appeal to Cyprian's own ruling directly and Augustine argues
+against it on grounds of collegiality, not a competing ruling; `cautions[2]`'s two-comparanda count
+against `lpc.core...`'s own three (Tertullian, the Passion of the Scillitan Martyrs, Optatus);
+`cautions[3]` presenting Augustine's three-phase coercion account as settled fact rather than disclosing
+the live question of whether it is a real change of mind or a retrospective account;
+`participant_type_fit[3]`'s citation of a "voice-construction discipline" no record states; a wrong date
+count (election-to-execution stated as eight years; it is nine to ten); an overstated claim that Pontius
+was present at Cyprian's execution itself (his own figure record licenses only the Curubis exile); and a
+`narrative.questions` citation resting on `lpc.witness.answerability-as-ground` as though it were
+cell-matched to F4-I, when that witness is itself tagged F3-I — now disclosed as a substitution, matching
+the trailing note's own existing disclosure for the third entry. Full findings list and file-by-file
+detail: the review agent's own report, not separately filed (per this project's own discipline against
+duplicating review artifacts once their fixes are applied and re-verified).
+
+**Not resolved, disclosed instead — two real tensions the underlying corpus itself carries, not drafting
+errors:** (1) `lpc.figure.augustine`'s own bridge_line calls the 395/396 consecration a "seizure"
+alongside 391's; `lpc.force.congregational-acclamation-overriding-preference` gives the second occasion a
+gentler mechanism (announcement and persuasion by precedent, "under compulsion and constraint"). (2)
+`lpc.figure.lucian`'s own bridge_line says he granted peace to "three women he had never met in person";
+`lpc.story.celerinus-writes-to-lucian` says two of the three were women "whom Lucian also knew." Both
+`world_front` and `facilitator_brief` follow the more specific/more directly-quoted source in each case,
+but neither record resolves which of the two records itself should change — named here for whoever next
+touches `lpc.figure.augustine` or `lpc.figure.lucian`.
+
+**Also fixed, a process-hygiene defect this pass introduced and then caught before it stood:** the first
+draft of both records' own round-2 fixes was documented as narrative change-history directly in the
+record body (dates, "the review found," round numbers) — exactly the class of content CLAUDE.md's own
+"keep the live/canonical surfaces clean" rule bars from a live record, and `tools/check_live_commentary.py`
+confirmed it: because neither file's frontmatter carries a blank line before its own trailing note, the
+narrative's own "adversarial review" trigger phrase swept nearly the entire file (330+ REWRITE hits on
+`world_front` alone) into one flagged block. Rewritten to state only durable grounding (why a claim is
+scoped as it is, which record verifies it) with the review-round narrative moved here instead. Re-checked
+directly: 3 and 5 hits respectively remain, all legitimate `ROUTE`-classified open-item disclosures
+("has not yet been read," "is itself... unresolved") the tool is designed to allow through, none
+`REWRITE`.
+
+Both records rebuilt clean through the full gate battery after every fix (`engine.m2.cli build lpc`):
+21 of 22 gates pass; the one standing finding is OG-25's own already-logged, already-undecided
+readability-floor tension on `lpc.demo.road-back-examined`, untouched by this pass. Package repinned to
+`packages/lpc/2026-09-25T22-47-25Z` (manifest `sha256:c347ff9538807cd3a0ad8917313bcb75be0fee133a73bdb674d19eb67d92daaa`);
+site JSON rebuilt to match. This closes V1.8's "world_front and facilitator_brief, reviewed" requirement.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
+### OG-28. The lpc traditions page authored, closing OG-21's fourth go-live surface — chrome hand-built following the fleet's existing pages exactly, article content mechanically rendered, kept unlinked from every live-serving surface.
+
+2026-09-25. `cic-website/traditions/latin-pastoral-congregational-christianity.html` did not exist
+(OG-21's own finding: no world's first page can be generated by `tools/generate_tradition_pages.py`,
+since that script only ever regenerates an *existing* hand-built page's own article body — a brand-new
+world's chrome has no prior file to preserve). The chrome (head, breadcrumb, title block, portrait,
+ai-line, seat/door calls to action, footer, script) was hand-authored as a structural copy of an existing
+page (`donatism.html`), with every substituted fact traced to an already-approved source: `card_name` and
+`display_name` from the registry entry; the era label from `world-census.json`'s own existing atlas
+classification for this world (era 1, "The Early Church Era" — this world's own window straddles both era
+1 and era 2, and the census's own placement, not analogy with sibling worlds whose whole window sits in
+era 2, decided which label to use); the portrait alt text and caption verbatim from
+`Datus_Portrait_Prompt.md`'s own confirmed, approved text; the tile paragraph from `world_front`'s own
+`skim.tile.text`. The article body itself was never hand-typed: it was produced by calling
+`tools/generate_tradition_pages.py`'s own `render_sections()`/`fill_article()` functions directly against
+the already-compiled site JSON — the same mechanical pipeline every sibling page uses — bypassing only
+the script's own `world-census.json` `entry.representativeName` guard (that field stays `null` per Mark's
+own OG-23 ruling that going live is a separate, later step), not touching `world-census.json` at all.
+
+**One disclosed anomaly:** Datus's own portrait file (`datus.jpg`, 1024×572) is the fleet's first
+non-square Representative portrait — every other world's portrait is a 1:1 square, and the shared
+`.plate img` CSS (`aspect-ratio:4/5`) assumes that. The HTML's own `width`/`height` attributes state the
+real file dimensions rather than a fabricated square crop; the page will therefore crop this portrait more
+aggressively than any sibling's own portrait once rendered live. Named here for whoever next touches the
+portrait pipeline, not fixed in this pass (out of scope: this is an image-generation and CSS question, not
+a content-authoring one).
+
+**Not done, and not this pass's to do:** the deeper Phase C engine wiring V1.8 §4 lists as a separate
+checklist (an `app/world_manifest.py` entry, the two hand-synced frontend points, `HARD_CEILING_WORLDS`,
+`POST_HISTORY_GUARD` wiring) — none of it has been touched for lpc, and the "begin a conversation" links
+this page's own chrome carries will not function until that wiring exists. The page itself stays
+unreachable in the meantime: no census `entry` object, no `worlds.ts` entry, no `table.html` row link to
+it — dormant until Mark's own admission click bundle wires all of it in together, per his own OG-23
+ruling that going live is a separate, later step.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
