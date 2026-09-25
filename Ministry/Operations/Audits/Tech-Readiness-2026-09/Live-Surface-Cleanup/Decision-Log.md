@@ -1002,3 +1002,84 @@ deletion, resolved by present-tense restatement (above), or was confirmed KEEP
 ruling, not this project's review process).
 
 ---
+
+## Entry 8 — Website/app re-check (`cic-website/` and `cic-poc/frontend/`), and a standing rule change order
+
+**Trigger.** PR #512 refined `tools/check_live_commentary.py` (five precision/recall additions,
+including the `era-gate` and `route-cue` patterns), and a re-scan of the two participant-facing
+surfaces under the refined tool reported 145 hits in `cic-website` (58 REWRITE, 86 ROUTE, 1 KEEP)
+and 28 in `cic-poc/frontend` (24 REWRITE, 4 ROUTE). Every hit was classified by hand; only real
+commentary was fixed. The full per-hit classification, with reasons, is in this entry's own PR
+body rather than restated here.
+
+**What was actually commentary, and got fixed:**
+
+1. **`cic-website/data/world-census.json`'s `statusDescription` field, 43 not-yet-built
+   entries.** This field is the census's own hand-authored status line — confirmed by checking
+   its value on the six built-and-live entries, which all read a single plain sentence ("You can
+   sit down with this tradition now."), and by `engine/m6/census_sync.py`'s own scope: it only
+   syncs `statusDescription` from the registry for `status == "Built & Live"` rows, so every
+   flagged row here (all `"Pre-Survey Candidate"`) is hand-authored in this file directly, not a
+   generated mirror of something else. Forty-three of these entries had drifted into full
+   internal-review paragraphs — "Reviewed at the Era N Step 0 run and tiered X (Tier N)...",
+   "corrected/routed/decided/named/ratified at the gate/Freeze", "flagged forward" — the survey
+   pipeline's own review vocabulary, not content about the historical movement each row
+   describes. Rewritten to plain status language, keeping every substantive fact (sourcing
+   quality, access limits, window dates, real editorial judgment calls about scope) and dropping
+   only the process framing. `engine/m6/tests/` (census/atlas sync) and the site
+   `staleness-check` both still pass — this field isn't synced or compiled into anything, so nothing downstream depended on its old wording.
+2. **The Atlas census's own `"notes"` field** (identical text duplicated at
+   `cic-website/atlas-v3.html:428` and `cic-website/data/world-census.json:21`) — trimmed to keep
+   the load-bearing "single source of truth, read by these surfaces" statement and the schema
+   note about numeric date fields, and drop the reconciliation narrative (a named xlsx version
+   disagreeing with `world_manifest.py`, "bringing the live count to 6") that belongs in this
+   Decision Log's own history, not in a live data file's own notes field.
+3. **`cic-poc/frontend/src/data/pairings.ts`'s docstring** claimed the C6 pairing record
+   (`Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md`) was "still pending approval."
+   Checked against `Ministry/Technology/CiC_FrontEnd_Decision_Log.md`'s own 2026-08-28 entry:
+   Mark's "ok it works for me. make this a go." on the same day signed off the C6 launch set as
+   the tray's offered seatings. The DRAFT/pending-approval claim was stale by a month; removed.
+
+**What was flagged but is not commentary, and was left as-is (KEEP):**
+
+- **17 `era-gate` hits, all literal historical gates**, not the project's own "Freeze" gate: a
+  monastery's tower gate, a palace gate a bishop walks past, a convent gate, the satirical
+  *Julius Excluded from Heaven*'s gate of the afterlife, and (repeated across `atlas-v3.html`,
+  `world-census.json`, and the compiled `tree/` and `traditions/` pages that carry the same
+  underlying text) Patriarch Gregory V hanged at the gate of the Constantinople patriarchate in
+  1821. The `era-gate` pattern matches "at the gate" regardless of which gate; these are all the
+  wrong kind.
+- **86 `route-cue` hits, almost all genuine emic/etic scholarly hedge language about the
+  historical subject matter**, not the project's own open items: "Creedal question — not yet
+  resolved" status labels, `floorNote`/`legacy`/`why` fields naming a real unresolved historical
+  or doctrinal question (Paul of Samosata's teaching, the Testaments of the Twelve Patriarchs'
+  authorship, Kyrion II's 1918 death, the filioque-adjacent Consensus Tigurinus question), and
+  the seven compiled per-world JSON files' own `_generated_by` provenance header (build/commit
+  metadata, not narrative). This is exactly the "uncertainty stated plainly" register this
+  project's own accessible-and-rigorous standard asks for — fixing it would mean flattening real
+  scholarly caution into false certainty, the opposite of the rule's intent.
+- `cic-website/support.html:127` — already correctly marked KEEP by the checker itself
+  (visitor-facing fundraising copy naming "external reviewer", not project review narration).
+- `cic-poc/frontend`'s remaining 24 REWRITE + 3 ROUTE hits are all legitimate engineering
+  documentation: a CSS-positioning bug write-up (`Level2Card.tsx`, flagged only on the phrase
+  "caught by"), a real spec-document filename (`FigureBridgeMark.tsx`), a `sessionStorage`
+  edge-case comment (`App.tsx`, flagged on "was still open"), a regression test's own name
+  describing an intentional legacy-path limitation (`VoiceTurnBody.legacy-default.test.tsx`), and
+  a server error-string comparison (`api.ts`, flagged on the literal string `'round still open'`
+  it matches against).
+
+**Rebuild/repin.** Not needed — every edit landed in a field neither `engine/m2/site_cli.py`'s
+compiler nor `engine/m6`'s census/atlas sync reads or mirrors; `staleness-check` confirms all ten
+built worlds' pins are unchanged.
+
+**Change order — standing rule added to `CLAUDE.md`.** Per Mark's 2026-09-24 approval: added one
+sentence to "Keep the live/canonical surfaces clean," directly after the paragraph ending "treat
+that as corruption: remove it, don't add to it.": *"Any PR that edits a live or canonical file
+also removes the commentary already in that file; the check in `tools/check_live_commentary.py`
+shows what is there."* This replaces the dedicated Live-Surface-Cleanup campaign (this program)
+going forward: the remaining known commentary in `engine/`, records-body/notes/locus text,
+`reference/`, and `worlds/` construction documents is cleaned file by file, as real work already
+touches each file, rather than swept in its own dedicated pass. This entry is that change order's
+record.
+
+---
