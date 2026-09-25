@@ -27,13 +27,9 @@ with tempfile.TemporaryDirectory() as tmp:
     ci.build(db_path=db_path)
 
     # --- the real regression: "chalice" --entry <hussite bucket> ----------
-    # Before the fix, search() fetched limit*5 hits ranked bm25 ACROSS THE
-    # WHOLE CORPUS, then filtered to the entry's own files - so a world
-    # whose own texts rank below other worlds' texts for this query lost
-    # every one of its real hits before scoping ever saw them. Reported:
-    # "chalice" --entry hussite returned "no matches" at the default
-    # limit, though Hussite Wars (lutzow_hussite-wars_1914.txt) contains
-    # the word 13 times; hits only appeared at --limit 200.
+    # Scoping must happen inside the query: this entry's own texts rank
+    # below other worlds' texts for "chalice", so a fleet-wide capped fetch
+    # filtered afterwards would return nothing at the default limit.
     entry = "the-hussite-and-bohemian-brethren-movement"
     default_limit_hits = ci.search("chalice", entry=entry, limit=10, db_path=db_path)
     results.append(check(
@@ -65,9 +61,17 @@ with tempfile.TemporaryDirectory() as tmp:
         len(unscoped_hits) <= 10))
 
     # --- a bucket that exists but has nothing assigned: no matches, no crash
-    empty_scope_hits = ci.search("chalice", entry=entry, limit=10, db_path=db_path)
-    results.append(check("scoped search respects --limit (never over-returns)",
-                         len(empty_scope_hits) <= 10))
+    real_map_dir = ci.MAP_DIR
+    empty_map_dir = Path(tmp) / "empty-map"
+    empty_map_dir.mkdir()
+    (empty_map_dir / "empty-entry.yaml").write_text("works: []\n", encoding="utf-8")
+    ci.MAP_DIR = empty_map_dir
+    try:
+        empty_scope_hits = ci.search("chalice", entry="empty-entry", limit=10, db_path=db_path)
+    finally:
+        ci.MAP_DIR = real_map_dir
+    results.append(check("a real bucket with nothing assigned yet returns [] with no exception",
+                         empty_scope_hits == []))
 
     # --- an entry with no corpus-map bucket at all still raises cleanly ---
     raised = False

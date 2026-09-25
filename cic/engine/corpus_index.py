@@ -10,15 +10,13 @@ around the match, entirely offline, no server, no dependency this sandbox
 can't already satisfy.
 
 REUSES corpus_structure.py's OWN PARSING, DELIBERATELY. That module's
-_DIV/_TITLE/_TAG/_unescape regexes already worked through the real bugs
-this kind of parsing hits - cic/texts/README.md's anf01 entry documents
-catching a naive tag-strip truncating text against nested <note><p
-class="endnote">...</p></note> structures, live, before anything was
-committed. Re-deriving that from scratch here would risk repeating a
-mistake this project already paid to fix once. Where this module's needs
-diverge from corpus_structure.py's own (it reports word COUNTS per
-section; this needs the actual TEXT and the file's own id= attribute,
-neither of which outline() keeps), the walk itself stays the same shape.
+_DIV/_TITLE/_TAG/_unescape regexes already handle nested tag structures
+correctly (a naive tag-strip truncates against nested <note><p
+class="endnote">...</p></note> structures - see cic/texts/README.md's
+anf01 entry). Where this module's needs diverge from corpus_structure.py's
+own (it reports word COUNTS per section; this needs the actual TEXT and
+the file's own id= attribute, neither of which outline() keeps), the walk
+itself stays the same shape.
 
 WHAT COUNTS AS A PASSAGE UNIT. For ThML/XML files: every div's own direct
 text - the span between where it opens and the next div marker of ANY
@@ -145,17 +143,9 @@ def files_for_entry(entry_id: str) -> set[str] | None:
 
 
 def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path = DB_PATH) -> list[dict]:
-    """Scoped search applies the world's own file set INSIDE the query (a
-    `file IN (...)` clause alongside the MATCH), not as a filter after a
-    capped fleet-wide fetch. The earlier shape ran the bm25-ranked fetch
-    first, capped at limit*5 hits across the WHOLE corpus, and only then
-    dropped everything outside scope - so a world whose own texts rank
-    below other worlds' texts for a given query could lose every one of
-    its real hits before scoping ever saw them ("chalice" --entry hussite
-    returned "no matches" at the default limit despite Hussite Wars
-    containing the word 13 times, and only appeared at --limit 200). With
-    scope applied inside the query, ranking and LIMIT operate only over
-    the real candidate set, so the requested limit means what it says."""
+    """Ranked FTS5 search. With `entry`, the entry's corpus-map file set is
+    applied inside the query (`file IN (...)` alongside MATCH), so bm25
+    ranking and LIMIT run only over that world's own passages."""
     if not db_path.exists():
         raise SystemExit(f"{db_path} does not exist yet - run with --build first")
     scope = None
