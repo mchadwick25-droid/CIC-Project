@@ -1,0 +1,29 @@
+source_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+
+authors_ruled:
+  marot-beze:
+    kind: metadata-omission
+    evidence: >
+      Not CCEL-derived markup - a plain-text archive.org extract of the
+      1562 title page, which credits both versifiers jointly ("par
+      Clement Marot, & Theodore de Beze"): Marot completed roughly the
+      first third of the Psalms before his death in 1544, and Beze
+      completed the remainder for this 1562 collection - a genuine joint
+      production spanning two authors' own distinct work, not a single
+      author's text with a minor contributor.
+    from_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
+
+assignments:
+  - work: "Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)"
+    author: marot-beze
+    locus: "whole file"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      The Genevan congregation's own sung liturgy - licenses Doc_01's
+      Practice strand directly from primary text. The exact complete
+      1562 edition Doc_01 itself named but had not yet actively
+      searched for. A metrical psalter meant to be sung, not a prose
+      Bible translation; no English equivalent exists or is expected.
