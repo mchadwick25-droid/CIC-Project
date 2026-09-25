@@ -51,6 +51,7 @@ schema alone, not on a temperature setting this API does not offer.
 """
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -209,10 +210,128 @@ def fleet_report(region: str) -> dict:
     }
 
 
+# The grader itself (SYSTEM_PROMPT, grade_rendering) is already language-
+# agnostic - it judges whether the modern English carries every clause of
+# whatever original it is given, never assuming that original is itself
+# English. This is the fleet's cross-language subset of that same sweep:
+# every quote whose named source's own vendored file declares a language
+# other than English (cic/engine/texts_registry.py's own `Language:`
+# header convention), scoped and graded on its own rather than folded into
+# fleet_report's much larger, more expensive full sweep.
+_TEXTS_DIR = REPO_ROOT / "cic" / "texts"
+# Duplicated from engine/m1/gates.py's own _EDITION_PATH by this module's
+# same standing convention (that module's own comment on _TEXTS_DIR/
+# _EDITION_PATH): engine/m1/ does not reach across the cic/ package
+# boundary for a one-line regex.
+_EDITION_PATH = re.compile(r"cic/texts/([\w\-]+\.(?:txt|xml))")
+
+CROSS_LANGUAGE_REPORT_PATH = Path(__file__).resolve().parent / "reports" / "cross-language-rendering-report-2026-09-25.json"
+
+
+def non_english_sourced_quotes(worlds: dict[str, dict]) -> list[dict]:
+    """Every quote record across the given worlds (world_key -> its own
+    load_world_records() result) whose own source resolves to a vendored
+    file declaring a non-English `Language:` header. A quote can name more
+    than one source; the first one that resolves to a real, non-English-
+    declared vendored file decides it - matching how a Representative
+    would actually read the record (against its own first named source),
+    not every source it happens to cite."""
+    from cic.engine.texts_registry import language_declared
+
+    found = []
+    for world_key, records in worlds.items():
+        for rid, rec in records.items():
+            if rec.get("record_type") != "quote":
+                continue
+            for s in (rec.get("sources") or []):
+                src = records.get(s.get("source_id"))
+                if not src:
+                    continue
+                m = _EDITION_PATH.search(str(src.get("edition") or ""))
+                if not m:
+                    continue
+                path = _TEXTS_DIR / m.group(1)
+                if not path.is_file():
+                    continue
+                header = path.read_text(encoding="utf-8", errors="replace")[:4000]
+                lang = language_declared(header)
+                if lang and lang != "en":
+                    found.append({"world": world_key, "id": rid, "source_id": s.get("source_id"),
+                                 "filename": m.group(1), "language": lang, "record": rec})
+                    break
+    return found
+
+
+def cross_language_report(region: str) -> dict:
+    from engine.m1.quote_verbatim import REPORT_WORLDS
+    from engine.provider.bedrock import make_client, resolve_model_id
+
+    worlds = {w: load_world_records(w) for w in REPORT_WORLDS}
+    targets = non_english_sourced_quotes(worlds)
+    model_id = resolve_model_id(MODEL_PATTERN, region)
+    client = make_client(region)
+
+    graded = []
+    errors = []
+    no_rendering = []
+    verdict_counts = {v: 0 for v in VERDICTS}
+    for t in sorted(targets, key=lambda x: (x["world"], x["id"])):
+        rec = t["record"]
+        rendering = rec.get("modern_rendering")
+        if not rendering:
+            no_rendering.append(t["id"])
+            continue
+        outcome = grade_rendering(client, model_id, original=rec["text"], modern_rendering=rendering)
+        if outcome.failed:
+            errors.append({"id": t["id"], "status": outcome.status, "detail": outcome.value})
+            continue
+        verdict_counts[outcome.value["verdict"]] += 1
+        graded.append({
+            "world": t["world"],
+            "id": t["id"],
+            "language": t["language"],
+            "source_file": t["filename"],
+            "verdict": outcome.value["verdict"],
+            "reasoning": outcome.value["reasoning"],
+            "verification_state": (rec.get("confidence") or {}).get("verification_state"),
+        })
+
+    return {
+        "model_id": model_id,
+        "region": region,
+        "total_non_english_sourced_quotes": len(targets),
+        "graded_count": len(graded),
+        "no_modern_rendering_count": len(no_rendering),
+        "no_modern_rendering": no_rendering,
+        "error_count": len(errors),
+        "errors": errors,
+        "verdict_counts": verdict_counts,
+        "findings": graded,
+    }
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--region", required=True)
+    parser.add_argument("--cross-language-only", action="store_true",
+                        help="grade only quotes whose own source declares a non-English Language: header, "
+                             "instead of the full fleet sweep")
     args = parser.parse_args(argv)
+
+    if args.cross_language_only:
+        report = cross_language_report(args.region)
+        CROSS_LANGUAGE_REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        CROSS_LANGUAGE_REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(
+            f"cross-language rendering sweep: {report['graded_count']}/{report['total_non_english_sourced_quotes']} graded "
+            f"({report['no_modern_rendering_count']} no modern_rendering, {report['error_count']} errors), "
+            f"verdicts={report['verdict_counts']}"
+        )
+        for f in report["findings"]:
+            if f["verdict"] != "translation":
+                print(f"  {f['id']} ({f['language']}): {f['verdict']} - {f['reasoning']}")
+        print(f"\nfull report written to {CROSS_LANGUAGE_REPORT_PATH.relative_to(REPO_ROOT)}")
+        return 0  # report-only: never fails the run regardless of findings
 
     report = fleet_report(args.region)
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
