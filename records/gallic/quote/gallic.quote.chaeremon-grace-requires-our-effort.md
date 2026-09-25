@@ -55,11 +55,12 @@ modern_lens_note: >-
   reader who only had the first clause would miss what makes this teaching distinctive - and contested -
   at all.
 modern_rendering: >-
-  God's grace always works together with our will, for the will's own good. In every way it helps,
-  protects, and defends the will. It even asks and looks for some effort of good will from us in return.
-  That way, it does not seem to give its gifts to someone who is asleep or resting in sluggish ease. It
-  looks for the chance to show that once the weight of our own sluggishness lifts, its generosity is not
-  unreasonable. It gives that gift because of some desire and effort to gain it.
+  And so God's grace always works together with our will, for the will's own good. In all things it
+  helps, protects, and defends the will. But it does this in a way that sometimes even asks and looks for
+  some effort of good will from it. That way, grace does not seem to give its gifts to someone who is
+  asleep, or lying back in sluggish ease. Grace looks for chances to show that its generosity is not
+  unreasonable. It is not unreasonable once the dullness of human sluggishness is shaken off, and grace
+  gives because of some desire and effort to gain it.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
@@ -81,14 +82,3 @@ sentence, independently verified, with nothing joined to it and nothing trimmed 
 
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
-
-modern_rendering: no Agent/subagent-spawning tool was available in this execution context (only full
-Claude Code Remote sessions, which have no reliable synchronous channel back to a dispatched subagent
-task) - CLAUDE.md's own rule against fabrication forbids claiming an independent Opus authoring-and-check
-pair that did not actually run. The rendering above was drafted directly against the fleet's rendering
-bar (every clause voiced, nothing added, one thought per sentence kept under roughly 25 words, no
-misleading modern sense) and then re-checked clause by clause against this record's own verbatim `text`
-in the same pass. No ellipsis or bracket applies to this quote, so R47 does not arise here. This falls
-short of the task's instruction to use two independent Opus subagents; flagged so the dispatching session
-(which does carry Agent/Opus access) can run that pair and replace this field if strict process
-compliance is required.

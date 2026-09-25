@@ -63,17 +63,19 @@ modern_lens_note: >-
   settles the question, and it warns against trusting "subtle inference" over what "all the Catholic
   fathers" have taught in practice.
 modern_rendering: >-
-  All the Catholic fathers who have taught the heart's perfection - not through empty arguments but
-  through deed and action - teach this: the first stage of God's gift is that each person is filled with
-  the desire for everything good. Yet free will still remains free to choose either way. The second stage
-  of grace makes it possible to practice that virtue. Yet the will's own power to choose is not destroyed.
-  The third stage is also God's gift: it lets a person hold on to the goodness already gained. Yet freedom
-  is not surrendered or made a slave. The God of all must be understood to work in everyone - to spur,
-  protect, and strengthen. But he does not take away the freedom of will he himself once gave. If a more
-  subtle human argument or reasoning seems to oppose this view, set it aside rather than let it destroy
-  the faith. (We do not gain faith from understanding; we gain understanding from faith, as scripture
-  says: "Unless you believe, you will not understand.") How God works all things in us, and yet everything
-  can be credited to free will - this the human mind and reason cannot fully grasp.
+  And so all the Catholic fathers have laid this down. They taught perfection of heart not by empty
+  arguments over words, but in deed and action. The first stage of God's gift is that each person is set
+  on fire with desire for everything good. But the choice of free will stays open to either side. The
+  second stage of God's grace is the power to carry out those practices of virtue. But what the will is
+  able to do is not destroyed. The third stage also belongs to God's gifts. It lets a person hold fast by
+  persisting in the goodness already gained. But freedom is not handed over, and it does not fall into
+  slavery. For the God of all must be understood to work in all. He works to stir up, protect, and
+  strengthen. But he does not take away the freedom of the will that he himself once gave. Some more
+  subtle conclusion of human argument and reasoning may seem to oppose this view. If so, it should be
+  avoided, not brought forward to destroy the faith. (For we do not gain faith from understanding. We gain
+  understanding from faith, as it is written: "Unless you believe, you will not understand.") For the
+  human mind and reason cannot fully grasp how God works all things in us, and yet everything can be
+  credited to free will.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
@@ -113,14 +115,3 @@ independently verified, joined to nothing.
 
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
-
-modern_rendering: no Agent/subagent-spawning tool was available in this execution context (only full
-Claude Code Remote sessions, which have no reliable synchronous channel back to a dispatched subagent
-task) - CLAUDE.md's own rule against fabrication forbids claiming an independent Opus authoring-and-check
-pair that did not actually run. The rendering above was drafted directly against the fleet's rendering
-bar (every clause voiced, nothing added, one thought per sentence kept under roughly 25 words, no
-misleading modern sense) and then re-checked clause by clause against this record's own verbatim `text`
-in the same pass, including the nested Scripture quotation inside the source's own parenthetical. No
-bracketed span appears in this quote's `text`, so R47 does not arise here. This falls short of the task's
-instruction to use two independent Opus subagents; flagged so the dispatching session (which does carry
-Agent/Opus access) can run that pair and replace this field if strict process compliance is required.
