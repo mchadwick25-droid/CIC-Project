@@ -98,10 +98,27 @@ def test_fleet_survey_world_counts_match_the_og10_baseline():
     own count (83) is one below PR #480's original 84 - a known, already
     investigated one-record discrepancy (a hand-read at the time found a
     few of PR #480's raw hits were the project's own analytic prose, not a
-    real source quotation), not a regression of this module."""
+    real source quotation), not a regression of this module. don's own
+    count dropped from 11 to 6 on 2026-09-25 (worlds/don/Open_Gaps_
+    Tracking.md OG-17's re-voicing fix): five records - two `gravity`
+    (`martyr-cult-identity`, `parallel-institutional-hierarchy`) and two
+    `force` (`transmission-hostile-manuscript-tradition`,
+    `vandal-capture-of-carthage`), plus one `gravity` record
+    (`rebaptism-boundary-marking`) whose surviving quoted phrase fell
+    under the 8-word floor after rewording - lost the quotation marks
+    this check was counting because those quoted spans were never a real
+    source quotation: OG-17's own pre-fix text quoted internal citations
+    to this project's own build documents (e.g. Doc_01 SS2/SS3, Doc_08
+    SS8) and one cross-program comparison ("...among the nine confirmed
+    worlds"), scare-quoted inside otherwise-plain prose. Removing that
+    internal apparatus - OG-17's own fix - correctly took the quote marks
+    with it. Confirmed by diffing each of the five records against their
+    pre-OG-17 text (git rev faba7b3c): every dropped span is internal-
+    apparatus or cross-program text, not source material: no genuine
+    historical quotation lost its quotation marks. Not a regression."""
     baseline = {
         "pahc": 14, "syr": 2, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
-        "cappadocian": 3, "don": 11, "rzg": 11, "witt": 48, "gallic": 83,
+        "cappadocian": 3, "don": 6, "rzg": 11, "witt": 48, "gallic": 83,
     }
     for world, expected in baseline.items():
         result = survey_world(world)
