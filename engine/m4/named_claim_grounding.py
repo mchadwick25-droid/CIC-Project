@@ -47,23 +47,31 @@ GROUND SCOPE - what a marker is allowed to match against:
     a second, separately-tuned truncation) is why the OG-9 fixture in
     this module's own tests still gets caught.
 
-Numbers are grounded against composed VALUES pulled straight from the
-same two texts (content_words() strips digits entirely, since
-engine.prose._WORD only matches letters - a locus like "Philadelphians
-4" would otherwise never ground a "4" a sentence names), kept as a
-separate check from proper nouns because "does this exact number
-appear" and "does this exact name appear" are different lookups over
-the same ground, not the same lookup twice. `_numbers_in_text` parses
-each contiguous run of digit or spelled-cardinal words into its own
-integer value ("137" or "one hundred thirty-seven" both parse to 137)
-and every comparison is by that exact value - never by whether the
-individual WORDS composing a number happen to overlap with the ground,
-which is how an earlier version of this check let "seven" ground itself
-off an unrelated "twenty-seven" somewhere else in the same ground. The
-same fact stated in a different surface form is one grounded value on
-either side of the check; a genuinely different number is not, no
-matter how many of its own component words happen to already be common
-ground vocabulary.
+Numbers are grounded against literal digit/spelled-cardinal tokens
+pulled straight from the same two texts (content_words() strips digits
+entirely, since engine.prose._WORD only matches letters - a locus like
+"Philadelphians 4" would otherwise never ground a "4" a sentence names),
+kept as a separate check from proper nouns because "does this exact
+number appear" and "does this exact name appear" are different lookups
+over the same ground, not the same lookup twice. Each side is checked
+by its own exact surface form only, digit against digit and spelled
+word against spelled word - never against each other. Known, accepted
+limit: a claim stated as a digit ("137") is not recognized as the same
+number as a record naming it spelled out ("one hundred thirty-seven"),
+or the reverse; a digit/word form mismatch flags exactly the way a
+genuinely absent number would.
+
+A value-composing cross-form check (parsing both sides to one integer,
+"137"/"one hundred thirty-seven" grounding as the same value) was built,
+found still unsafe on review after two rounds of narrowing (an "and"
+between a hundred-block and its own remainder, and two adjacent numbers
+sitting next to each other with nothing joining them, both had to be
+special-cased in the parser's own grammar to avoid silently composing a
+value neither side of a claim actually states), and removed entirely
+per the same "no fix on a fix" rule that removed the derivational
+bridge above - not reintroduced here. The digit/word mismatch this
+leaves is a named, accepted false-positive class, not a defect this
+module is scoped to fix.
 
 A trailing possessive ('s, or a bare trailing ' on a plural like
 "disciples'") is stripped from both the marker and the ground before
@@ -107,143 +115,29 @@ auditable.
 import ast
 import re
 
-from engine.prose import all_text, claim_markers, content_words, short_head
+from engine.prose import SPELLED_NUMBERS, all_text, claim_markers, content_words, short_head
 
 _WORD = re.compile(r"[a-zA-Z']+")
 _DIGIT = re.compile(r"\b\d+\b")
 
 
-_ONES_VALUES = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
-_TEENS_VALUES = {
-    "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15,
-    "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
-}
-_TENS_VALUES = {
-    "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90,
-}
+def _number_tokens(text: str) -> tuple[set[str], set[str]]:
+    """(digit tokens, spelled-cardinal words) literally present in
+    `text` - claim_markers()'s own "number" marker only signals THAT a
+    checkable number is present (engine.prose._has_number's own
+    discourse-count exemption already decided that); this pulls the
+    actual value(s) so they can be checked against ground, the same way
+    _proper_noun_words pulls actual names rather than re-deciding
+    whether any exist. Each side is its own exact-surface-form token set
+    - never composed into one cross-form value (see module docstring's
+    own known-limit note)."""
+    digits = set(_DIGIT.findall(text))
+    spelled = {w.lower() for w in _WORD.findall(text)} & SPELLED_NUMBERS
+    return digits, spelled
 
 
-def _parse_below_hundred(tokens: list[str], i: int) -> tuple[int, int | None]:
-    """(new_i, value 1-99) or (i, None): a tens word with an optional
-    trailing ones word ("twenty" -> 20, "twenty seven" -> 27), or a bare
-    teens/ones word alone ("fifteen" -> 15, "seven" -> 7). Never sums two
-    values that do not compose one number this way: "twenty" followed by
-    "fifteen" stops after "twenty" (20) - a tens word may only be
-    followed by a ONES word, never a teens word, so "fifteen" is left
-    for the next, separate number to claim."""
-    if i >= len(tokens):
-        return i, None
-    w = tokens[i]
-    if w in _TENS_VALUES:
-        j = i + 1
-        if j < len(tokens) and tokens[j] in _ONES_VALUES:
-            return j + 1, _TENS_VALUES[w] + _ONES_VALUES[tokens[j]]
-        return j, _TENS_VALUES[w]
-    if w in _ONES_VALUES:
-        return i + 1, _ONES_VALUES[w]
-    if w in _TEENS_VALUES:
-        return i + 1, _TEENS_VALUES[w]
-    return i, None
-
-
-def _parse_below_thousand(tokens: list[str], i: int) -> tuple[int, int | None]:
-    """(new_i, value 1-999) or (i, None): an "<ones> hundred [and]?
-    [below-hundred]?" block, or - with no "hundred" - a bare below-100
-    value. "and" is consumed only directly between "hundred" and what
-    follows it ("one hundred and thirty seven" -> 137); it never joins
-    two otherwise-separate numbers."""
-    n = len(tokens)
-    if i >= n:
-        return i, None
-    w = tokens[i]
-    if w in _ONES_VALUES:
-        j = i + 1
-        if j < n and tokens[j] == "hundred":
-            hundred_value = _ONES_VALUES[w] * 100
-            k = j + 1
-            if k < n and tokens[k] == "and":
-                k += 1
-            rest_end, rest_val = _parse_below_hundred(tokens, k)
-            if rest_val is not None:
-                return rest_end, hundred_value + rest_val
-            return j + 1, hundred_value
-    return _parse_below_hundred(tokens, i)
-
-
-def _parse_cardinal(tokens: list[str], i: int) -> tuple[int, int | None]:
-    """(new_i, value) or (i, None): the longest well-formed cardinal
-    starting at tokens[i] - an optional "<below-1000> thousand"
-    multiplier, plus an optional "[and]? <below-1000>" remainder. Two
-    complete numbers sitting next to each other with nothing joining
-    them (no "hundred"/"thousand" continuation, no "and") are each their
-    own value, never summed: "fifteen twenty-seven" parses "fifteen"
-    (15) here and leaves "twenty-seven" (27) for the next call."""
-    n = len(tokens)
-    end, val = _parse_below_thousand(tokens, i)
-    if val is None:
-        return i, None
-    if end < n and tokens[end] == "thousand":
-        total = val * 1000
-        j = end + 1
-        if j < n and tokens[j] == "and":
-            j += 1
-        rem_end, rem_val = _parse_below_thousand(tokens, j)
-        if rem_val is not None:
-            return rem_end, total + rem_val
-        return end + 1, total
-    return end, val
-
-
-def _numbers_in_text(text: str) -> list[tuple[str, int]]:
-    """Every checkable number in `text`, as (surface, value) pairs: a
-    literal digit run ("137" -> ("137", 137)) or the longest well-formed
-    spelled-cardinal phrase starting at each position
-    (`_parse_cardinal` - "one hundred and thirty seven" -> ("one hundred
-    and thirty seven", 137)). The single source both directions of
-    missing_markers' own number check read from, so a composed value is
-    compared against ground as the one number it actually is, never
-    decomposed into individual words checked against an unordered bag -
-    the root cause of a real measured bug in an earlier version of this
-    check: "seven" counted as grounded because some UNRELATED number in
-    the ground happened to be spelled with "seven" as one of its own
-    components ("twenty-seven"). A bag of words cannot tell "seven" and
-    "twenty-seven" apart; a parsed value can, and does. A later version
-    of this same check summed every contiguous number word into one
-    total regardless of whether they composed a real cardinal together -
-    "fifteen twenty-seven" read as 15+20+7=42, a value neither number in
-    the text. `_parse_cardinal`'s own grammar (below-hundred, below-
-    thousand, the full cardinal) only ever extends a value when the next
-    word can grammatically continue it; two complete numbers sitting
-    next to each other with nothing joining them are parsed as two
-    separate values, never one summed value.
-
-    A phrase never STARTS on a bare "one" (the same reading SPELLED_
-    NUMBERS' own comment already names as the single largest false-
-    positive source measured for detection: "one" read as a pronoun or
-    article, not a quantity) - but "one" already inside an in-progress
-    phrase ("twenty-one", or the "one" that opens "one hundred") is still
-    counted, since `_parse_cardinal` only ever reaches it as the second
-    token of a run some OTHER word already started."""
-    results: list[tuple[str, int]] = [(m.group(), int(m.group())) for m in _DIGIT.finditer(text)]
-    words = _WORD.findall(text)
-    lowered = [w.lower() for w in words]
-    n = len(lowered)
-    i = 0
-    while i < n:
-        if lowered[i] == "one" and (i + 1 >= n or lowered[i + 1] not in ("hundred", "thousand")):
-            i += 1
-            continue
-        end, value = _parse_cardinal(lowered, i)
-        if value is None:
-            i += 1
-            continue
-        results.append((" ".join(words[i:end]).lower(), value))
-        i = end
-    return results
-
-
-def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[int]]:
-    """(word ground, number-value ground) contributed by a record's own
+def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
+    """(word ground, digit ground) contributed by a record's own
     sources[], resolved through source_id to each source record's `work`
     field - see this module's own docstring, GROUND SCOPE, for why
     short_head() runs first. A source_id that doesn't resolve, or a
@@ -253,7 +147,7 @@ def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[s
     dangling source_id inside a record that DID resolve is not this
     module's job to report a second time)."""
     words: set[str] = set()
-    numbers: set[int] = set()
+    digits: set[str] = set()
     for src in record.get("sources") or []:
         source_id = src.get("source_id") if isinstance(src, dict) else None
         source_rec = repository_records.get(source_id) if source_id else None
@@ -262,8 +156,8 @@ def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[s
             continue
         head = short_head(work)
         words |= content_words(head)
-        numbers |= {value for _, value in _numbers_in_text(head)}
-    return words, numbers
+        digits |= set(_DIGIT.findall(head))
+    return words, digits
 
 
 def _strip_possessive(word: str) -> str:
@@ -299,50 +193,46 @@ def _proper_noun_words(marker: str) -> set[str]:
     return {_strip_possessive(word.lower()) for name in names for word in name.split()}
 
 
-def record_ground(rec: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[int]]:
-    """(word ground, number-value ground) one record contributes on its
-    own: its own `all_text`, plus its `sources[]`' resolved `work` fields
-    (see `_source_ground`). Factored out of `ungrounded_markers` so the
-    same per-record computation can be summed either over just a
-    sentence's own tags (below) or over an entire repository
+def record_ground(rec: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
+    """(word ground, digit ground) one record contributes on its own: its
+    own `all_text`, plus its `sources[]`' resolved `work` fields (see
+    `_source_ground`). Factored out of `ungrounded_markers` so the same
+    per-record computation can be summed either over just a sentence's
+    own tags (below) or over an entire repository
     (`repository_ground`, `engine.m4.sentence_fact_check`'s own ground) -
     one implementation of "what does this record ground," not two."""
     rec_text = all_text(rec)
     words = content_words(rec_text)
-    numbers = {value for _, value in _numbers_in_text(rec_text)}
-    src_words, src_numbers = _source_ground(rec, repository_records)
-    return words | src_words, numbers | src_numbers
+    digits = set(_DIGIT.findall(rec_text))
+    src_words, src_digits = _source_ground(rec, repository_records)
+    return words | src_words, digits | src_digits
 
 
-def repository_ground(repository_records: dict[str, dict]) -> tuple[set[str], set[int]]:
-    """(word ground, number-value ground) the world's ENTIRE compiled
-    repository supplies - every record's own `record_ground`, unioned,
-    regardless of which record (if any) a given sentence happens to tag.
-    This is the wider scope `engine.m4.sentence_fact_check` needs (a
-    claim can be genuinely supported by the world's own records without
-    the speaking sentence tagging the right one, or tagging anything at
-    all) - not a substitute for `ungrounded_markers`'s own narrower,
-    tag-scoped ground, which stays exactly as calibrated (OG-9) for the
-    already-tagged, already-passing sentences it exists to double-check."""
+def repository_ground(repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
+    """(word ground, digit ground) the world's ENTIRE compiled repository
+    supplies - every record's own `record_ground`, unioned, regardless of
+    which record (if any) a given sentence happens to tag. This is the
+    wider scope `engine.m4.sentence_fact_check` needs (a claim can be
+    genuinely supported by the world's own records without the speaking
+    sentence tagging the right one, or tagging anything at all) - not a
+    substitute for `ungrounded_markers`'s own narrower, tag-scoped ground,
+    which stays exactly as calibrated (OG-9) for the already-tagged,
+    already-passing sentences it exists to double-check."""
     words: set[str] = set()
-    numbers: set[int] = set()
+    digits: set[str] = set()
     for rec in repository_records.values():
-        rec_words, rec_numbers = record_ground(rec, repository_records)
+        rec_words, rec_digits = record_ground(rec, repository_records)
         words |= rec_words
-        numbers |= rec_numbers
-    return {_strip_possessive(w) for w in words}, numbers
+        digits |= rec_digits
+    return {_strip_possessive(w) for w in words}, digits
 
 
 def missing_markers(
-    text: str,
-    ground_words: set[str],
-    ground_numbers: set[int],
-    *,
-    include_sentence_initial_proper_nouns: bool = False,
+    text: str, ground_words: set[str], ground_digits: set[str], *, include_sentence_initial_proper_nouns: bool = False
 ) -> list[str]:
     """Every proper-noun word and number `claim_markers()` finds in `text`
-    that is not itself present in the given ground - the shared
-    comparison both `ungrounded_markers` (tag-scoped) and
+    that is not itself present in the given (word, digit) ground - the
+    shared comparison both `ungrounded_markers` (tag-scoped) and
     `engine.m4.sentence_fact_check` (whole-repository-scoped) run, so the
     two checks can never silently diverge on what counts as "grounded."
     Empty for a sentence naming no checkable marker at all.
@@ -350,11 +240,11 @@ def missing_markers(
     A proper noun is compared by its own exact surface form only (see
     module docstring's own known-limit note on derivational form - tried
     as a bridge once, removed for cross-grounding real people, not
-    reintroduced here). A number grounds against its own composed VALUE
-    (`_numbers_in_text`) found anywhere in `ground_numbers`, digit or
-    spelled-out - "137" and "one hundred thirty-seven" are one grounded
-    value, compared exactly, never a bag of components that could belong
-    to a different number entirely.
+    reintroduced here). A number is compared by its own exact surface
+    form too - a digit token against `ground_digits`, a spelled-cardinal
+    word against `ground_words` - never against each other (see module
+    docstring's own known-limit note on digit/word form mismatch: a
+    value-composing cross-form check was tried and removed).
 
     include_sentence_initial_proper_nouns (default False - `ungrounded_
     markers` below keeps claim_markers' own narrower, calibrated default):
@@ -369,9 +259,9 @@ def missing_markers(
                 if word not in ground_words:
                     missing.add(word)
         elif marker == "number":
-            for surface, value in _numbers_in_text(text):
-                if value not in ground_numbers:
-                    missing.add(surface)
+            digits, spelled = _number_tokens(text)
+            missing |= digits - ground_digits
+            missing |= spelled - ground_words
     return sorted(missing)
 
 
@@ -392,14 +282,14 @@ def ungrounded_markers(text: str, tags: list[str], *, repository_records: dict[s
         return []
 
     ground_words: set[str] = set()
-    ground_numbers: set[int] = set()
+    ground_digits: set[str] = set()
     for rec in tagged_records:
-        rec_words, rec_numbers = record_ground(rec, repository_records)
+        rec_words, rec_digits = record_ground(rec, repository_records)
         ground_words |= rec_words
-        ground_numbers |= rec_numbers
+        ground_digits |= rec_digits
     ground_words = {_strip_possessive(w) for w in ground_words}
 
-    return missing_markers(text, ground_words, ground_numbers)
+    return missing_markers(text, ground_words, ground_digits)
 
 
 def verdict_for_sentence(text: str, tags: list[str], *, repository_records: dict[str, dict]) -> dict:

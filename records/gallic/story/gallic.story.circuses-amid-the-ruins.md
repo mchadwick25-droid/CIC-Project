@@ -70,6 +70,12 @@ relations:
   target: gallic.force.barbarian-fiscal-ruin
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
+- type: associated-with
+  target: gallic.quote.salvian-on-treves-ruined-elite
+- type: associated-with
+  target: gallic.quote.salvian-on-the-unburied-dead
+- type: associated-with
+  target: gallic.quote.salvian-on-the-demand-for-circuses
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 rather than Tier 1: a single named author, writing as a direct eyewitness ("a sight that I
@@ -89,28 +95,28 @@ tellable_as: >-
   the city's own surviving notables, rather than mourning, petitioned the emperors for circus games.
 text: >-
   Salvian of Marseilles did not write about the ruin of Roman Gaul as something reported to him. Of
-  one city's fate he says plainly, "I myself have seen men of lofty birth and honor, though already
-  despoiled and plundered, still less ruined in fortunes than in morality; for, ravaged and stripped
-  though they were, something still remained to them of their property, but nothing of their
-  character." The city was, on his own account, "the wealthiest city of Gaul" - his translator
-  identifies it as Trier, second only to Rome in the western provinces in its own day - and it was
-  "taken by storm no less than four times." Elsewhere in the same book he gives a different count,
-  "three times destroyed by successive captures" - his own text does not agree with itself on the
-  number, only on the repetition.
+  one city's fate he says plainly that he had seen men of high birth and honor, already despoiled and
+  plundered, who were still more ruined in character than in fortune - stripped as they were, something
+  still remained of their property, but nothing of their character (his own words are kept in full in
+  gallic.quote.salvian-on-treves-ruined-elite). The city was, on his own account, the wealthiest in
+  Gaul - his translator identifies it as Trier, second only to Rome in the western provinces in its own
+  day - and it had been taken by storm no less than four times. Elsewhere in the same book he gives a
+  different count, three times; his own text does not agree with itself on the number, only on the
+  repetition.
 
-  What Salvian says he saw with his own eyes was worse than a number. "There lay all about the torn
-  and naked bodies of both sexes, a sight that I myself endured... lacerated by birds and dogs. The
-  stench of the dead brought pestilence on the living: death breathed out death." Those the enemy had
-  not killed in the sack itself did not all survive what followed - some died slowly of wounds, some
-  burned, some starved, some froze, "and so all alike by diverse deaths hastened to the common goal."
+  What Salvian says he saw with his own eyes was worse than a number. Naked, torn bodies of both sexes
+  lay everywhere, a sight he says he endured himself, picked at by birds and dogs; the stench of the
+  dead spread sickness among the living (gallic.quote.salvian-on-the-unburied-dead carries his own
+  words in full). Those the enemy had not killed in the sack itself did not all survive what followed -
+  some died slowly of wounds, some burned, some starved, some froze, and all alike, by different deaths,
+  came to the same end.
 
-  Then, Salvian says, came the thing he could barely find words for. "The few men of rank who had
-  survived destruction demanded of the emperors circuses as the sovereign remedy for a ruined city."
-  He does not soften his own reaction: "Do you, O citizens of Tréves, long for circuses when you have
-  been plundered and captured, after slaughter and bloodshed, after stripes and captivity, and the
-  repeated destruction of your ruined city? What is more lamentable than this stupidity, more
-  grievous than this folly? I confess I thought you most miserable when you were suffering
-  destruction, but I see that you are now more miserable when you demand public shows."
+  Then, Salvian says, came the thing he could barely find words for. The few men of rank who had
+  survived destruction demanded of the emperors circuses, as if that were the remedy a ruined city
+  needed (gallic.quote.salvian-on-the-demand-for-circuses carries his own address to the city in full).
+  He does not soften his own reaction: he asks the citizens of Trier how they can long for circuses
+  after slaughter, captivity, and the repeated destruction of their own city, and says that watching
+  them suffer the ruin itself was less pitiful than watching them demand public shows now.
 absent_detail: >-
   Salvian does not give a year, and his own two figures for the number of sacks (three, four) cannot
   both be right; modern historians remain divided on exactly which raids he means and when. He does
@@ -129,16 +135,13 @@ modern_contrast: >-
   identity and its entertainments ran deeper than piety even among people who had just buried their
   own dead in the street.
 ---
-New story, authored 2026-09-14, not part of the original Doc_09 story repository batch. Built directly
-from a fresh read of Gov. VI.13 and VI.15, alongside gallic.term.bagaudae and
-gallic.term.church-or-circus, in response to the same Doc_05 (Ecological Reconstruction) §10A
-Proportionality Assessment finding those two records name, and the project lead's own instruction to
-expand this world's use of Salvian specifically.
+Built from a direct read of Salvian's On the Government of God, VI.13 and VI.15. Deliberately does not
+claim this episode establishes the broader "ordinary Christians skip church for games" pattern
+gallic.term.church-or-circus carries - this story's own actors are named as the city's surviving elite,
+and the two records are kept distinct in their own retrieval guidance rather than treated as one
+finding stated twice.
 
-Deliberately does NOT claim this episode establishes the broader "ordinary Christians skip church for
-games" pattern gallic.term.church-or-circus carries - this story's own actors are named as the city's
-surviving elite, and the two records are kept distinct in their own retrieval guidance rather than
-treated as one finding stated twice. The three/four-sack discrepancy is disclosed in
-narrative_tier_justification and absent_detail rather than resolved by picking one number, matching
-this world's own standing discipline (cf. gallic.story.election-at-tours' own undated-election
-disclosure) of recording rather than smoothing a source's own internal inconsistency.
+Salvian's three quoted passages - on the ruined elite's character, on the unburied dead, and on the
+demand for circuses - are carried in full, verbatim, in gallic.quote.salvian-on-treves-ruined-elite,
+gallic.quote.salvian-on-the-unburied-dead, and gallic.quote.salvian-on-the-demand-for-circuses; this
+record paraphrases them in its own voice and points to those records for the exact wording.

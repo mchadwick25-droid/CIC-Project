@@ -83,7 +83,7 @@
       "gate": "retrieval-negatives-structured",
       "status": "caught",
       "findings": [
-        "fix.term.the-way: retrieval.do_not_retrieve_when is populated (1 line(s)) - R11's split retired this field; move each line to prefer_instead or claim_guards"
+        "fix.term.the-way: retrieval.do_not_retrieve_when is populated (1 line(s)) - this field is retired; move each line to prefer_instead or claim_guards"
       ]
     },
     {
@@ -123,7 +123,8 @@
       "gate": "readability",
       "status": "caught",
       "findings": [
-        "fix.term.the-three: quick_meaning scores FK grade 15.4, above the ceiling of 10"
+        "fix.term.the-three: quick_meaning scores FK grade 15.4, above the ceiling of 10",
+        "fix.term.the-three: quick_meaning scores FRE 18.4, below the floor of 60"
       ]
     },
     {
@@ -131,7 +132,8 @@
       "gate": "readability",
       "status": "caught",
       "findings": [
-        "fix.quote.witness-saying: modern_rendering scores FK grade 20.2, above the ceiling of 10"
+        "fix.quote.witness-saying: modern_rendering scores FK grade 20.2, above the ceiling of 10",
+        "fix.quote.witness-saying: modern_rendering scores FRE -20.9, below the floor of 60"
       ]
     },
     {
@@ -139,7 +141,8 @@
       "gate": "readability",
       "status": "caught",
       "findings": [
-        "fix.craft.vera-voice: identity scores FK grade 26.2, above the ceiling of 10"
+        "fix.craft.vera-voice: identity scores FK grade 26.2, above the ceiling of 10",
+        "fix.craft.vera-voice: identity scores FRE -37.5, below the floor of 60"
       ]
     },
     {
@@ -147,7 +150,7 @@
       "gate": "voice-craft-prompt-budget",
       "status": "caught",
       "findings": [
-        "fix.craft.vera-voice: identity+guard+flavor_notes+characteristic_concerns total 961 words, above the ceiling of 900 (this compiles into every turn's own prompt - see build_prompt())"
+        "fix.craft.vera-voice: identity+guard+flavor_notes+characteristic_concerns total 963 words, above the ceiling of 900 (this compiles into every turn's own prompt - see build_prompt())"
       ]
     },
     {
@@ -206,7 +209,7 @@
       "gate": "quote-mark-fidelity",
       "status": "caught",
       "findings": [
-        "fix.front.fixture-synthetic: quotation-mark span 'We did not ask what a person had been before the water. We asked only what they '... matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (Mark's standing quote ruling)"
+        "fix.front.fixture-synthetic: quotation-mark span 'We did not ask what a person had been before the water. We asked only what they '... matches fix.quote.identity-collision-saying's own `text` field verbatim - `text` is Apparatus/Level-3-only; the quoted form must come from `modern_rendering` (the quote-rendering rule)"
       ]
     },
     {

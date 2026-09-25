@@ -100,3 +100,15 @@ def test_voicing_pair_carve_out_ends_itself_once_a_real_pair_exists(monkeypatch)
     by_world = {"zzz": {"m9:voicing-pair": ["a real, blocking finding now"]}}
     problems = enforce.hygiene_problems(by_world, today="2026-09-15")
     assert any("unwaived" in p for p in problems)
+
+
+def test_readability_floor_is_reported_but_never_blocks_or_needs_a_waiver(monkeypatch):
+    """gate_readability_floor's own findings (FK < 8, reported not failed)
+    must never turn into a hygiene problem - a permanent carve-out, unlike
+    R-4's temporary one, so it needs no ACCEPTED_OPEN entry at all."""
+    assert "m1:readability-floor/don" not in enforce.ACCEPTED_OPEN
+    monkeypatch.setattr(enforce, "ACCEPTED_OPEN", {})
+    by_world = {"don": {"m1:readability-floor": ["don.term.x: plain_meaning scores FK grade 3.0, below the band floor of 8 (reported, not failed)"]}}
+    assert enforce.hygiene_problems(by_world) == []
+    observed = enforce.report_only(by_world)
+    assert any("m1:readability-floor/don" in line for line in observed)

@@ -72,6 +72,20 @@ relations:
   target: gallic.gravity.virtus
 - type: associated-with
   target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.quote.martin-imagined-soldiers-speech
+- type: associated-with
+  target: gallic.quote.martin-offers-to-stand-unarmed
+- type: associated-with
+  target: gallic.quote.martin-raises-the-catechumen
+- type: associated-with
+  target: gallic.quote.martin-refuses-the-donative
+- type: associated-with
+  target: gallic.quote.the-catechumens-testimony
+- type: associated-with
+  target: gallic.quote.the-cloak-divided-and-the-vision-of-christ
+- type: associated-with
+  target: gallic.quote.the-soldier-who-served-his-servant
 ---
 BOUNDARY FIGURE - the Tours node's own author, and a named actor inside his own narrative frame at
 points. Narratable: true, but bounded, and the bound is the whole point of the record. He is not the

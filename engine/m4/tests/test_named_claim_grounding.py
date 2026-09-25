@@ -313,22 +313,31 @@ _NUMBER_SPELLED_REPOSITORY = {
 }
 
 
-def test_number_grounds_each_way_across_digit_and_spelled_form():
-    assert ungrounded_markers(
-        "Ammianus says one hundred thirty-seven people died there.",
-        ["ijc.dw.test-number-digit"],
-        repository_records=_NUMBER_DIGIT_REPOSITORY,
-    ) == []
+def test_digit_word_number_form_mismatch_is_an_accepted_known_limit():
+    # A value-composing cross-form check (parsing both sides to one
+    # integer, so "137" and "one hundred thirty-seven" grounded each
+    # other as the same value) was built, found still unsafe after two
+    # rounds of narrowing, and removed entirely - not reintroduced here
+    # (see module docstring's own known-limit note). A number now grounds
+    # only against its own exact surface form: a digit against a digit
+    # token, a spelled word against a spelled word, never across the two.
+    # Both directions of the mismatch flag.
     assert ungrounded_markers(
         "Ammianus says 137 people died there.",
         ["ijc.dw.test-number-spelled"],
         repository_records=_NUMBER_SPELLED_REPOSITORY,
-    ) == []
+    ) == ["137"]
+    assert ungrounded_markers(
+        "Ammianus says one hundred thirty-seven people died there.",
+        ["ijc.dw.test-number-digit"],
+        repository_records=_NUMBER_DIGIT_REPOSITORY,
+    ) == ["hundred", "seven", "thirty"]
 
 
-def test_number_cross_form_check_does_not_manufacture_ground():
-    # A genuinely different, unsupported number still flags after the
-    # cross-form check - it does not start matching every number.
+def test_unrelated_digit_number_is_flagged():
+    # A genuinely different, unsupported number still flags - dropping
+    # cross-form matching does not make this module start grounding
+    # every number.
     assert ungrounded_markers(
         "Ammianus says 200 people died there.",
         ["ijc.dw.test-number-digit"],
@@ -336,16 +345,16 @@ def test_number_cross_form_check_does_not_manufacture_ground():
     ) == ["200"]
 
 
-# A real bug an earlier version of the cross-form check had: comparing a
-# BAG of a number's own component words against ground, rather than its
-# composed value, let an unrelated number ground a completely different
-# one whenever their spelled-out forms happened to share a word - "100"
-# matched a ground stating "three hundred eighteen" (shared "hundred"),
-# "137" matched "seven hundred thirty" (shared "hundred" and "seven"),
-# and "seven" matched a bare digit "27" (spelled "twenty-seven", sharing
-# "seven"). `_numbers_in_text` parses each side to its own exact integer
-# value and compares those, so none of these three should ever ground
-# each other again.
+# Regression guards against a superseded bug class from an earlier,
+# since-removed version of this check: comparing a bag of a number's own
+# component words against ground, rather than each side's own exact
+# surface form, let an unrelated number ground a completely different
+# one whenever their spelled-out forms happened to share a word - a
+# digit "100" matching a ground stating "three hundred eighteen" (shared
+# "hundred"), digit "137" matching "seven hundred thirty" (shared
+# "hundred" and "seven"). A digit only ever grounds against a digit
+# token now, never against a spelled-out word - these stay pinned so
+# that conflation cannot come back unnoticed.
 
 _UNRELATED_SPELLED_NUMBER_REPOSITORY = {
     "wit.dw.test-three-eighteen": {
@@ -398,31 +407,9 @@ def test_spelled_seven_does_not_ground_against_an_unrelated_digit_27():
     ) == ["seven"]
 
 
-# _parse_cardinal's own grammar: "and" joins a hundred/thousand block to
-# its own remainder, and two complete numbers sitting next to each other
-# with nothing joining them are never summed into one.
-
-_HUNDRED_AND_37_REPOSITORY = {
-    "wit.dw.test-hundred-and-37": {
-        "id": "wit.dw.test-hundred-and-37",
-        "record_type": "doctrinal_witness",
-        "text": "Ammianus counted one hundred and thirty-seven dead in the square that day.",
-    },
-}
-
-
-def test_and_joins_a_hundred_block_to_its_remainder():
-    assert ungrounded_markers(
-        "Ammianus says 137 people died there.",
-        ["wit.dw.test-hundred-and-37"],
-        repository_records=_HUNDRED_AND_37_REPOSITORY,
-    ) == []
-    assert ungrounded_markers(
-        "The garrison held three hundred and eighteen men at the wall.",
-        ["wit.dw.test-hundred-and-37"],
-        repository_records=_HUNDRED_AND_37_REPOSITORY,
-    ) == ["three hundred and eighteen"]
-
+# The two named guards pinned by name when the value-composing
+# cross-form parser was removed: a spelled number must not ground
+# against an unrelated digit it happens to share a component word with.
 
 _GROUND_HOLDS_37_REPOSITORY = {
     "wit.dw.test-ground-holds-37": {
@@ -433,14 +420,16 @@ _GROUND_HOLDS_37_REPOSITORY = {
 }
 
 
-def test_ground_containing_37_does_not_ground_one_hundred_and_thirty_seven():
-    # 37 and 137 are different values - "and" must not let a hundred
-    # block's own remainder alone stand in for the whole number.
+def test_one_hundred_and_thirty_seven_does_not_fully_ground_against_37():
+    # "thirty" and "seven" are separately real words in this ground
+    # (from "Thirty-seven"), so those two ground; "hundred" is not, and
+    # still flags - 137 is never silently accepted as the same number
+    # as 37 just because some of its own component words overlap.
     assert ungrounded_markers(
         "Ammianus says one hundred and thirty-seven people died there.",
         ["wit.dw.test-ground-holds-37"],
         repository_records=_GROUND_HOLDS_37_REPOSITORY,
-    ) == ["one hundred and thirty seven"]
+    ) == ["hundred"]
 
 
 _FIFTEEN_AND_TWENTYSEVEN_REPOSITORY = {
@@ -452,39 +441,21 @@ _FIFTEEN_AND_TWENTYSEVEN_REPOSITORY = {
 }
 
 
-def test_adjacent_number_words_are_not_summed_into_one_value():
-    # "fifteen twenty-seven" must not parse as 15+20+7=42 (a value
-    # neither number in the text) - each complete number is its own
-    # value, and a ground holding 15 and 27 separately grounds both.
+def test_fifteen_twenty_seven_does_not_ground_an_unrelated_42():
+    # "fifteen twenty-seven" grounds itself here (both 15 and 27 are
+    # genuinely separate words already in this ground) - but a ground
+    # that does not separately hold 42's own words must not ground a
+    # sentence naming 42 outright.
     assert ungrounded_markers(
         "Our own record lists fifteen twenty-seven as the counts that year.",
         ["wit.dw.test-fifteen-27"],
         repository_records=_FIFTEEN_AND_TWENTYSEVEN_REPOSITORY,
     ) == []
-    # A ground that does NOT hold 42 must not ground a sentence naming 42
-    # outright - the summed value is still absent.
     assert ungrounded_markers(
         "Our own record says 42 bishops signed that year.",
         ["wit.dw.test-fifteen-27"],
         repository_records=_FIFTEEN_AND_TWENTYSEVEN_REPOSITORY,
     ) == ["42"]
-
-
-_EMPTY_NUMBER_GROUND_REPOSITORY = {
-    "wit.dw.test-empty-numbers": {
-        "id": "wit.dw.test-empty-numbers",
-        "record_type": "doctrinal_witness",
-        "text": "Our own record names no bishops and counts nothing here.",
-    },
-}
-
-
-def test_two_three_is_two_separate_values_not_five():
-    assert ungrounded_markers(
-        "Our own record says two three separately, not one combined count.",
-        ["wit.dw.test-empty-numbers"],
-        repository_records=_EMPTY_NUMBER_GROUND_REPOSITORY,
-    ) == ["three", "two"]
 
 
 # No derivational bridge exists (removed, not narrowed further - see

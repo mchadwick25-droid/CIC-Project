@@ -65,12 +65,14 @@ KNOWN LIMITS:
     same status Smyrna/Smyrnaeans already has - a place-vs-person design
     needs its own ruling and its own PR.
   - The same fact stated as a digit on one side and its own spelled-out
-    cardinal on the other is recognized as the same exact value
-    (`missing_markers`' own `_numbers_in_text` cross-form check, up to
-    six digits, compared by parsed value rather than by shared words) -
-    a genuinely different surface convention outside that (an ordinal
-    where the ground has the cardinal, "eighteenth" against "eighteen")
-    is not.
+    cardinal on the other is NOT recognized as the same number - "137"
+    and "one hundred thirty-seven" ground only their own exact surface
+    form (`missing_markers`' own digit-vs-digit, spelled-word-vs-word
+    comparison), never each other. A value-composing cross-form check
+    was tried and removed (`engine.m4.named_claim_grounding`'s own
+    module docstring has the history) - a digit/word form mismatch is an
+    accepted, named false-positive class here, not a defect this module
+    is scoped to fix.
   - A name mentioned RHETORICALLY - a contrast, a hypothetical, a
     negation the world's own record never states in those terms ("Not
     from Alexandria, not from Rome, but from the text itself") - is
@@ -123,14 +125,14 @@ def find_unsupported_named_claims(sentences: list[dict], *, repository_records: 
     Each flag: `{"sentence", "tags", "class": "unsupported_named_claim",
     "missing"}` - "missing" names the specific word(s)/number(s) not
     found anywhere in the world's own ground."""
-    ground_words, ground_numbers = repository_ground(repository_records)
+    ground_words, ground_digits = repository_ground(repository_records)
     flags = []
     for sent in sentences:
         text = sent["sentence"]
         if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
             continue
         checkable = _strip_hypothetical_clauses(text)
-        missing = missing_markers(checkable, ground_words, ground_numbers, include_sentence_initial_proper_nouns=True)
+        missing = missing_markers(checkable, ground_words, ground_digits, include_sentence_initial_proper_nouns=True)
         if missing:
             flags.append({
                 "sentence": text, "tags": sent.get("tags") or [],

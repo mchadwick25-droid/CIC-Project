@@ -201,12 +201,16 @@ _NUMBER_CROSS_FORM_REPOSITORY = {
 }
 
 
-def test_digit_grounds_against_a_ground_that_only_spells_the_number():
+def test_digit_does_not_ground_against_a_ground_that_only_spells_the_number():
+    # A value-composing cross-form check (137 and "one hundred
+    # thirty-seven" grounding each other as the same value) was tried
+    # and removed - a digit/word form mismatch is now a named, accepted
+    # false-positive class (see module docstring's own KNOWN LIMITS).
     sentence = "Ammianus says 137 people died there that day."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_NUMBER_CROSS_FORM_REPOSITORY
     )
-    assert flags == []
+    assert flags and flags[0]["missing"] == ["137"]
 
 
 _DIGIT_ONLY_REPOSITORY = {
@@ -218,17 +222,19 @@ _DIGIT_ONLY_REPOSITORY = {
 }
 
 
-def test_spelled_number_grounds_against_a_ground_that_only_uses_the_digit():
+def test_spelled_number_does_not_ground_against_a_ground_that_only_uses_the_digit():
+    # The reverse direction of the same known limit.
     sentence = "Ammianus says one hundred thirty-seven people died there that day."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_DIGIT_ONLY_REPOSITORY
     )
-    assert flags == []
+    assert flags and flags[0]["missing"] == ["hundred", "seven", "thirty"]
 
 
-def test_unrelated_number_still_flags_after_cross_form_check():
-    # The cross-form check does not manufacture ground that isn't there:
-    # a genuinely different, unsupported count still flags.
+def test_unrelated_number_still_flags():
+    # Dropping cross-form matching does not make this module start
+    # grounding every number: a genuinely different, unsupported count
+    # still flags.
     sentence = "Ammianus says 200 people died there that day."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_NUMBER_CROSS_FORM_REPOSITORY

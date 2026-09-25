@@ -1125,7 +1125,270 @@ record.
 
 ---
 
-## Entry 9 — `engine/prose.py` and `engine/m4/turn.py`, per the standing rule (PR #574)
+**Entry 12 — 2026-09-25, "yes, widen the fleet checks" (Mark's ruling) and "yes, merge verified
+PRs" (Mark's ruling), same session.**
+
+Root cause this ruling answers: every re-voicing and rendering PR up to this point carried build
+vocabulary and readability slips into spoken text that neither `tools/check_live_commentary.py`
+nor `gate_readability` (`engine/m1/gates.py`) caught on their own — only a per-PR Opus adversarial
+review did. Mark's ruling: *"yes, widen the fleet checks."*
+
+Widened, both mechanically:
+
+- `tools/check_live_commentary.py`'s `SPOKEN_VOCAB_PATTERNS` gained six new patterns, scoped (like
+  the five already there) to a record's own declared SPOKEN fields only: `six-test-vocabulary`
+  (Doc_04's Repetition/Dependency/Formation/Explanatory Power/Persistence/Interaction test names,
+  PASS/FAIL grading, `SIX-TEST`/`N/6 tests`, `AUTHOR-GRAVITY RISK`), `cross-check-label`,
+  `gravity-classification-label` (Primary/Supporting/Tensional as a gravity class, `Tier N`),
+  `all-caps-section-header` (literal build-template headers — `LAYER 1/2/3`, `SIX-TEST SUMMARY`,
+  `CROSS-CELL CONNECTION`, `WHY PRIMARY RATHER THAN SUPPORTING` — not a generic
+  "2+ capitalised words" rule: that generic version was tried first and dropped after it flagged
+  `pahc.core.house-church.md`'s own clean `cautions` field, which numbers its points with
+  invented editorial labels, not copied build-template headers), `matrix-cell-code` (Doc_08's
+  `Cell 2B`/`Force 2B-1`/`[2B - ongoing/internal]` notation), and `build-history-language`
+  (`Finding S4`, "an earlier version," "this build's own," "original assessment" — "Round N" was
+  already caught fleet-wide by the existing `review-round` pattern and is not re-declared). Still
+  report-only (never fails CI — `.github/workflows/ci.yml`'s "Live-surface commentary scan
+  (report-only)" job, unchanged). Fleet hit count from the new patterns alone, current main (PR
+  #547 already merged, desert's own count below is post-merge): 741 across 12 worlds (don 195,
+  lpc 148, witt 128, gallic 81, cappadocian 74, alx 28, desert 22, pahc 20, hal 17, ijc 16, rzg 6,
+  syr 6) — every one pre-existing content the narrower pattern set never saw, not new drift. A
+  widespread, previously-invisible finding among these: gravity/force
+  `name` fields fleet-wide (found even on alx and hal, the fleet's own exemplar worlds) carry a
+  bracketed build-taxonomy tag (`"Divine Pedagogy [SUPPORTING - explanatory framework]"`) that
+  `engine/m4/citation_cards.py`'s own `_short_name` already strips before a citation card shows
+  it, but `engine/m2/builders.py` `build_prompt()`'s own Gravities-list line (`g.get('name')`)
+  does not — the raw tag reaches the model's own prompt context, unstripped, every turn, for
+  every gravity in the fleet. Flagged here as a recommended follow-up (a `build_prompt()` fix, not
+  a per-record rewrite) rather than fixed in this PR, which was scoped to the checks themselves.
+- `gate_readability` (`engine/m1/gates.py`, registered in `gates.GATES`, CI-blocking via
+  `engine.m9.cli check`) widened from four hand-listed fields (`term.quick_meaning`/
+  `plain_meaning`, `honest_limit.statement`, `quote.modern_rendering`, `voice_craft.identity`/
+  `guard`/`flavor_notes[].note`/`characteristic_concerns[]`) to every field
+  `engine/m1/spoken_fields.py`'s own `SPOKEN_FIELDS` registry declares under an
+  `instruction`/`voice-diet`/`evidence-head` role (`fields_with_role`, already built for exactly
+  this reuse) — `gravity.description` and `force.description` by name, plus `world_core`'s four
+  fields, `fleet_voice`'s six, `story.tellable_as`, `demonstration.exchange`,
+  `doctrinal_witness.text`/`positions`, `contested_claim.claim`, `figure.bridge_line`, and
+  `ambient.detail`. `participant-label` fields (a term's `world_word`, a figure's `names`, a
+  quote's `speaker_or_author`/`sources`, a source's `work`, and gravity/force's own `name`) stay
+  ungraded by design — short labels and proper nouns, not composed prose. `quote.text` and
+  `story.text` stay excluded by the same design already in force for `modern_rendering`/
+  `tellable_as`: each is the record's own verbatim/archaic original, never pressured toward a
+  grade level. Second scored threshold added: Flesch Reading Ease, `FRE_FLOOR = 60` — the North
+  Star decision's own already-ruled number (`reference/method/Pass2-decisions/
+  VR_1A_NorthStar_Readability_Target_2026-08-09.md`, "RULED — hard edge": "Any single emitted turn
+  breaching FK <= 10 / FRE >= 60 fails the world"), not an invented one; `engine/m1/fk.py` gained
+  `fre_score` using the identical word/sentence/syllable counts `fk_grade` already computes. The
+  North Star decision's FK-8 band floor stays report-only, not gated, exactly as that decision
+  itself rules ("reported, not failed... FLATTENING, not FK, guards against emptiness"); a
+  sentence-length ceiling (CLAUDE.md's "practical shape" guidance, ~25 words) was considered and
+  NOT added — `engine.m1.cross_world.observe_register_profile` already measures sentence length
+  per spoken field and stays deliberately OBSERVATION-only pending Ruling R6
+  (`Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md`), which has not yet
+  been made; gating on it here would pre-empt that open ruling, not honor "don't invent new
+  thresholds."
+
+  Full-fleet run (11 built/admitted/open worlds; `lpc` is not yet in the registry and is not
+  checked by this gate; `fix`, the fixture world, must stay 100% clean and was — six of its own
+  clean fixture records scored over the new ceiling/under the new floor purely because the wider
+  gate now grades fields they were never checked against before; each was shortened in place,
+  meaning unchanged, `fix.craft.vera-voice.md`'s own pre-existing "REVISED 2026-09-19" commentary
+  removed in the same edit per `CLAUDE.md`'s "any PR that edits a live file also removes the
+  commentary already in it," `fix` now scores 0 findings on every registered gate; desert's own
+  count below is measured post-merge of PR #547, which landed while this PR was in progress):
+  alx 149, cappadocian 322, desert 163, don 368, gallic 135, hal 165, ijc 163, pahc 162, rzg 137,
+  syr 155, witt 235 — 2,154 total, none of it new drift, all of it pre-existing content the
+  narrower field set never graded. No record text in a real world was rewritten in this PR — every one of these
+  11 counts is registered as its own dated `ACCEPTED_OPEN` waiver in `engine/m9/enforce.py`
+  (deadline 2026-12-14, the same deadline convention already used for this fleet's other live
+  content-fix waivers), so `engine.m9.cli check` stays clean and CI is not broken by the widening
+  itself. Three worlds' waivers name a re-voicing PR narrowing part of their count for
+  gravity/force description: desert's own PR #547 merged while this PR was in progress and its
+  count above is already measured post-merge; witt's (#545) and don's (#551) are still open and
+  their counts above are still pre-merge. None of the three closes its world's waiver outright,
+  since every other newly-covered field (positions, exchange, claim, bridge_line, detail, the
+  world_core/fleet_voice fields) is still outstanding regardless. The other eight worlds' waivers
+  have no PR narrowing them yet.
+
+  Mark and the managing thread decide, from these counts, when either check moves from report-only
+  toward enforcement narrower than "everything is waived" — nothing here pre-empts that decision.
+
+Second ruling, same session: *"yes, merge verified PRs."* The managing thread may merge a PR
+itself, without asking Mark first, once an independent review has passed, CI is green on the
+current head, and there is no merge conflict. Mark still personally approves: a promotion from
+`main` to `live`, any change to `CLAUDE.md` or `reference/method`, any participant-visible app
+change, and anything a review or the managing thread flags for him directly. This does not change
+who owns driving a PR to green in the first place (`babysit`/`steward` discipline, unchanged) —
+only who clicks merge once it is there.
+
+**Entry 13 — PR #561 round 1 FAIL, corrected.** The managing thread's independent review found:
+
+1. **CI red, root cause.** `gate_readability`'s own output changed (new fields, new FRE
+   threshold), but no world's compiled package was rebuilt against it - `validation/gates-
+   report.json` mismatched the pinned manifest in all 11 worlds, plus `fix`'s own compiled
+   output (six records edited directly). Fixed: every world rebuilt (`engine.m2.cli build`) and
+   repinned (`records/worlds/<code>.yaml`), `engine.m2.cli restore`/`staleness-check` and
+   `engine.m2.site_cli staleness-check` all green.
+2. **Sequencing with PR #548 (not yet merged, will land after #561).** #548's own draft declares
+   `modern_term.modern_sense` as `participant-label` - a role `spoken_fields.py` defines as short
+   display text ("a citation card, mark, or index entry shows directly"), not composed prose,
+   despite `modern_sense` being spoken verbatim by the Facilitator's own `bridge_turn()`. #561
+   now owns this cleanly instead of #548 hand-listing it: a fifth role, `facilitator-spoken`
+   (`engine/m1/spoken_fields.py`) - composed, multi-sentence prose the Facilitator's own
+   apparatus puts in front of a participant, spoken or read on an expanded card, never routed
+   through the world's own Representative voice. `modern_term.modern_sense` and
+   `.distinguishing_claim` (also multi-sentence card prose, also mis-declared `participant-label`
+   in #548's draft) both take this role; `.underlying_subject` stays `voice-diet`.
+   `gate_readability`'s own `_READABILITY_ROLES` now includes it. A second, real bug found while
+   doing this: `gate_readability` had only ever walked a world's own `records` - `fleet_voice`
+   and `modern_term` both live under `records/_fleet/`, never inside any world's own records, so
+   every field this PR's own earlier pass "added" for `fleet_voice` was dead code, never actually
+   graded. Fixed with a dedicated `gate_readability_fleet(fleet)` function, checked once (not
+   once per world - `engine/m9/enforce.py`'s own per-world loop hands the identical `fleet` dict
+   to every world's battery, so a naive per-world fleet walk would have scored the same fleet
+   content once per world and multiplied its count by eleven). Reported under a new
+   `FLEET_PSEUDO_WORLD = "_fleet"` pseudo-world key, exempted from the grandfathering-is-closed
+   check for the reason its own code comment gives (never admitted as a world, so grandfathering
+   was never a live question for it) - 9 real findings (`_fleet.voice.fleet`,
+   `_fleet.contested.theophilus-triad-referent`, and the pre-#548 wording of
+   `_fleet.modern.trinity`'s own `modern_sense`), waived the same way every world's count already
+   is. #548's own exact adaptation once it rebases onto this PR's main: drop the hand-written
+   `for rid, rec in fleet.items(): if rec.get("record_type") == "modern_term": ...` block its own
+   diff adds inside `gate_readability` (its own patch header: `gates.py` around line 506-515) and
+   the `participant-label` role on `modern_sense`/`distinguishing_claim` in its own
+   `spoken_fields.py` diff - both already exist as of this PR, done the registry-driven way. Its
+   `modern_sense` rewrite (already inside its own diff, not touched here) clears the ceiling on
+   its own; `_fleet.modern.trinity`'s current, pre-#548 wording is untouched by this PR and stays
+   the fleet-pseudo-world waiver's problem until #548 lands.
+3. **Commentary this PR's own edits had introduced into live code**, caught by the checker
+   against its own touched files: `gates.py`'s "Widened 2026-09-25 (Mark's ruling..." framing and
+   its per-world waiver comment's "(see the owning Decision-Log..." pointer, both reworded to
+   plain present-tense design reasoning with no date/ruling/Decision-Log citation; `enforce.py`'s
+   per-world waiver `owner=` strings stripped of PR-number narration ("#547 merged and already
+   narrowed...") down to what each waiver actually is (a finding and an owning thread, not a
+   change history) - this file's own docstring already names exactly that distinction. Both files
+   also had their pre-existing commentary removed in the same pass, per `CLAUDE.md`'s "any PR
+   that edits a live file also removes the commentary already in it": `enforce.py` lost two
+   admission dates in its own "two named exceptions" paragraph, an "increment 4 (date)" phrase, a
+   `Decision-Log.md entry 22` citation (kept `tools/set_source_kind.py`'s own real filename
+   reference), and a whole paragraph of pure change-history narration ("the five ... waivers
+   registered ... were removed the same day") that carried no design reason once its provenance
+   was stripped, so it was deleted outright rather than reworded; `gates.py` lost two synthetic
+   illustrative dates (already using a fictional placeholder specifically so the file never quotes
+   real leaked text - reworded to a non-ISO `YYYY-MM-DD` placeholder so the pattern no longer
+   fires at all) and one literal `"RULED by [name]"` example (reworded to lowercase, matching what
+   its own `_RULED_BY` pattern actually matches case-insensitively). `gates.py`'s FRE_FLOOR
+   comment, which only cites the North Star ruling by name and number (no date, no "Mark," no
+   Decision-Log pointer), was confirmed a real KEEP and left as-is.
+4. **Pattern precision and recall**, `tools/check_live_commentary.py`'s `six-test-vocabulary`
+   made case-sensitive on the test name itself (Title-case or ALL-CAPS, the two real forms found
+   live; a bare case-insensitive match had fired on "Formation tests the soul" - "tests" as an
+   ordinary plural verb - and on an unrelated, lowercase "the interaction test") and narrowed to
+   label-position anchors only (an immediate colon, a singular "test" noun, PASS/FAIL, a grading
+   adverb immediately before the name, a relational "is with", or the battery-completion
+   phrases); `build-history-language`'s "an earlier version/draft/assessment" narrowed to require
+   self-reference ("of this/the record/field/...") so it no longer fires on legitimate
+   textual-tradition prose about a historical text's own earlier version. Recall added, each with
+   a real fleet example and a test: "Six of six"/"all six tests" (battery-completion phrasing
+   without a name attached), a grading adjective directly before a test name with no "on"/"for"
+   between them, a test name followed by "is with" (a cross-reference relation), "Explanatory"
+   used bare without "Power", a parenthetical `(gravity N)` cross-reference
+   (`gravity-classification-label`), and a world's own "Strand A"/"Strand A-B" source-pool label
+   (`matrix-cell-code`).
+5. **Fixture wording** - three of the six fixture records shortened in the first pass had lost
+   real content the reviewer flagged, restored while keeping every field under the FK/FRE
+   ceiling: `fix.force.social-cost-pressure.md`'s description keeps "an ongoing force, not a
+   start or an end" (the original's parenthetical, not the flattened "did not start or end
+   anything"); `fix.story.the-long-road.md`'s `tellable_as` keeps the causal "after" and the word
+   "standing"; `fix.gravity.witness-under-pressure.md`'s description keeps "organizes its
+   identity" rather than the flattened "knows itself". `fix.craft.vera-voice.md`'s own added
+   process sentence ("stays under `gate_readability`'s FK/FRE ceiling, the same as...") was
+   dropped outright - it was itself exactly the kind of process narration this whole effort exists
+   to keep out of a live record's body.
+6. **Desert waiver recount.** PR #547 (gravity/force description re-voicing) and PR #560 (a
+   post-merge scope-fix on top of #547) both merged onto `main` while this PR was in flight. The
+   desert count is measured fresh against `main` post-both-merges: 163 (was 172 at the first
+   measurement), all in fields #547/#560 never touched (`positions`, `world_core`, `bridge_line`,
+   and the remaining `description`/`tellable_as` instances the re-voicing pass didn't reach).
+
+Updated fleet hit counts, current `main`: `check_live_commentary`'s new patterns, 800 across 12
+worlds (don 226, lpc 156, witt 127, cappadocian 81, gallic 81, desert 30, pahc 26, alx 25, ijc 19,
+hal 17, rzg 6, syr 6) - up from 741 at the first measurement, entirely from the recall additions
+finding real, previously-unmatched content, none of it new drift. `gate_readability`: 2,154
+across the 11 real worlds (unchanged - the `facilitator-spoken` role and the fleet walk added no
+world-level findings, since neither role change touches any field a world's own records declare)
+plus 9 fleet-level findings under the new `FLEET_PSEUDO_WORLD` waiver - 2,163 total. Full test
+suite, `engine.m1.selftest`, `engine.m9.cli check`, `engine.m2.cli`/`site_cli staleness-check`,
+and `check_paths.py` all re-verified clean before pushing the correction.
+
+**PR #545 (witt re-voicing) merged onto `main` while this correction was still open**, alongside
+#559/#568 (unrelated). Merged into this branch (a merge commit, not a rebase, per the drive-to-
+green rules for CI red on a branch already pushed) and both counts recounted fresh against the
+merged state: `check_live_commentary`'s new patterns, witt 127 -> 28 (701 total across 12 worlds);
+`gate_readability`, witt 235 -> 194 (2,113 world-level + 9 fleet-level = 2,122 total). Both waiver
+entries updated to match. Every world's package rebuilt and repinned again against the merged
+state; `engine.m2.cli staleness-check`/`restore`, `engine.m2.site_cli staleness-check`, and
+`engine.m9.cli check` all re-verified clean before pushing.
+
+A hard-coded test also broke and was fixed in the same push:
+`engine/api/tests/test_wiring.py` asserted `fix.figure.the-elder.md`'s own `bridge_line` text
+verbatim; the fixture-restoration pass above changed that field's wording (for FK/FRE, "who came
+after" -> "who came later"). The test's own substance (figures-used tracking flows through a turn
+and does not re-fire on the next message) is unaffected; only the literal expected string needed
+updating to match the fixture's current wording. Confirmed no other hardcoded reference to any of
+the six edited fixture fields exists elsewhere in the repo (grepped every `.py` file for each
+field's prior wording).
+
+---
+
+**Entry 14 — PR #561 round 3 (head `e8dcc5a1`) independent re-review, three small items.** The
+Opus re-review confirmed every round-1 item fixed clean: the new `check_live_commentary` patterns
+(701 hits, spot-checked across 5 worlds, no false positives), `gate_readability`'s registry-driven
+field coverage, and every `ACCEPTED_OPEN` waiver correct - `engine.m9.cli check` clean, merge tree
+clean, tests passing. Three items left, all fixed in the same push (head `b7c551d6`):
+
+1. **The FK-8 band floor was documented as "reported, not failed" but nothing reported it.**
+   `gates.py`'s own comment on `FRE_FLOOR` had said so since round 1, with no code behind the
+   claim. Added `gate_readability_floor(records, fleet, registry)` and its fleet-scoped twin
+   `gate_readability_floor_fleet(fleet)`: the identical spoken-field set `gate_readability` grades
+   (via the same `_readability_checks` registry lookup), checked against `FK_FLOOR = 8` instead of
+   `FK_CEILING`/`FRE_FLOOR`. Neither function is registered in `GATES` - `engine.m2.validation`'s
+   `build_gates_report` (and therefore every world's committed `validation/gates-report.json` and
+   package pin) is untouched by this addition, no rebuild needed. `engine/m9/enforce.py` collects
+   both under a `"m1:readability-floor"` key (per-world in `collect_findings`'s own loop, plus the
+   fleet's own key alongside `"m1:readability-fleet"`), `hygiene_problems()` permanently skips that
+   key (unlike the R-4 voicing-pair carve-out, which is conditional and ends itself once
+   corpus-map lands a real pair, this one never ends - a sub-8 field is never a defect), and
+   `report_only()` now surfaces every `m1:readability-floor` finding fleet-wide rather than only
+   the R-4 case it used to be scoped to. Full-fleet run: 1,135 report-only observations, `engine.m9.cli
+   check` still exits clean. New tests: `engine/m1/tests/test_gate_readability.py` (a sub-8 field
+   is reported while `gate_readability` itself stays clean on the same record) and
+   `engine/m9/tests/test_enforce.py` (`hygiene_problems` never blocks on it, `report_only` surfaces
+   it).
+2. **Two build-vocabulary leaks this PR itself introduced.** `gates.py`'s own `FRE_FLOOR` comment
+   and `fk.py`'s `fre_score` docstring each quoted the North Star decision's own section heading,
+   "RULED - hard edge," verbatim - tripping `check_live_commentary`'s generic `ruled` pattern
+   (`\bRULED\b`) on the `engine` surface, the same pattern class Entry 9-11 above already spent
+   several rounds clearing out of this codebase's other comments. `_readability_checks`'s own
+   docstring separately cited this project's own history ("`story.tellable_as` and `voice_craft.*`
+   going ungraded for a real stretch of this project's life") rather than stating what the function
+   does. All three reworded to describe the code's own behavior and design reasoning directly, no
+   quoted ruling language, no project-history narration. Confirmed via `check_live_commentary
+   --surface engine`, diffed against `origin/main`'s own copies of both files: zero new hits on
+   either touched file (the two REWRITE hits this round's diff removes were not present on `main`
+   before this PR existed - genuinely new, not pre-existing debt this PR happened to touch).
+3. **PR body numbers.** Already corrected to the current, accurate figures (head `e8dcc5a1`, witt
+   194, 2,122 total, 701 hits) in a body update that landed before this review's findings were
+   relayed back - the review's own citation of stale numbers (`ea90c7e8`, witt 235, 2,154/2,163,
+   800) reflects the body's state at whatever moment the review actually ran, not its current
+   content. The body update accompanying this entry only advances the head SHA to `b7c551d6` and
+   adds this round's own section.
+
+Full local suite (829 passed), `engine.m1.selftest` (`overall_pass: true`), `engine.m9.cli check`
+(clean - 0 blocking problems, 1,135 report-only observations), and `check_paths.py` (0 new
+unresolved) all re-verified before pushing.
+## Entry 15 — `engine/prose.py` and `engine/m4/turn.py`, per the standing rule (PR #574) — renumbered from PR #574's own "Entry 9" during this merge with `main`; that number was already taken by the Entry 9-11 PR #504 sequence above
 
 Real feature work (the sentence-level fact check, `engine.m4.sentence_fact_check`) touched both
 files, triggering the standing rule Entry 8 added to `CLAUDE.md`.
@@ -1176,21 +1439,80 @@ a behaviour-adjacent change (a public parameter/env-var rename) touching `engine
 names - not a comment or docstring edit, and not zero-behaviour-change. Left as-is; a rename, if
 wanted, needs its own PR with its own review, not folded into a report-only measurement PR.
 
-## Entry 12 — `engine/m4/turn.py` count update (PR building `sentence_enforce`)
+---
 
-Numbered 12, not 10: this file already carries an earlier "Entry 10" and "Entry 11" (bold-text,
-pre-`## Entry 1` heading convention, in the file's own opening Step 2 PR C round) - the next free
-number for a `##`-heading entry is 12, past both that older pair and `## Entry 9`.
+**Entry 16 — PR #561, merging 81 commits of drifted `main` (head `08ad3b73`/`42db5386`).** CI never
+registered a check suite for the round-4 push (confirmed via the check-suites API - `cloudflare`
+completed, `render`/`claude` stuck at `queued` with no update for over an hour, no `github-actions`
+suite created at all), and separately `main` had moved 81 commits ahead, producing a real merge
+conflict (`mergeable_state: dirty`) - both surfaced together, not a CI-kick situation. Resolved via
+a real merge (`git merge origin/main`, a merge commit, no rebase and no empty commit), which
+carries its own legitimate reason to push regardless of the CI-registration gap:
 
-The same real feature work this file's own Entry 9 covers continued: a second, independent
-flag-gated enforcement (`sentence_enforce`, distinct from `r27_enforce`) was added to
-`engine/m4/turn.py`, and its own docstring and tests describe it in contrast to the existing
-`r27_enforce` mechanism, by name, several times - the identical identifier family Entry 9 already
-found out of scope to clear.
+- `records/worlds/alx.yaml` and `don.yaml`: took `origin/main`'s own pins (both worlds had real
+  content changes merged on `main` - alx's #566 rerender, don's #551 re-voicing - this branch's own
+  last rebuild-everything pass predates both).
+- `packages/alx/...manifest.json`: a rename/rename conflict (the same old timestamped path renamed
+  to two different new ones on each side). Resolved by keeping `origin/main`'s own rebuild and
+  dropping this branch's now-superseded one - but the file git left at the kept path still had
+  literal `<<<<<<<`/`=======`/`>>>>>>>` markers embedded in its own JSON content from git's
+  own 3-way content merge of the renamed-both-ways file. `git add`ing it without checking the
+  actual bytes staged a corrupted manifest - caught by `engine.m2.cli staleness-check` throwing a
+  `JSONDecodeError` on load, not by a manual read. Fixed by replacing the file wholesale with
+  `git show origin/main:<path>` rather than trusting git's own merge of that specific blob. A full
+  repo grep for embedded conflict markers after found none remaining.
+- `Ministry/.../Live-Surface-Cleanup/Decision-Log.md`: a genuine numbering collision, not a text
+  conflict to pick a side on. `main`'s own PR #574 added a `## Entry 9` (engine/prose.py and
+  engine/m4/turn.py) without noticing this same file already has an unrelated **Entry 9** (bold
+  style, PR #504 round 1) earlier in its own history, from before this whole workstream's numbering
+  switched from header style to bold after Entry 8's own change order. Renumbered PR #574's entry
+  to Entry 15 in the merge (content untouched, only the number and a one-line note explaining the
+  renumbering) rather than silently letting two different entries both claim "Entry 9" - the
+  append-only, no-drift discipline this program's own root CLAUDE.md asks for.
+
+After the merge, `alx` and `don` were the only two worlds `engine.m2.cli staleness-check` found
+stale (their `main`-side rebuilds used the pre-widening `gate_readability`; compiling them under
+this branch's widened gate produces a different `validation/gates-report.json` - expected, not a
+regression). Rebuilt via `engine.m2.cli build`, repinned, superseded manifests removed. don's own
+`m1:readability` waiver tightened 368 -> 330 (#551's re-voicing genuinely cleared 38 findings this
+gate already covered - `engine.m9.cli check` flagged the stale waiver itself, not a self-caught
+gap). `tools/tests/test_check_live_commentary.py`'s own real-fleet true-positive assertion on
+`don.force.sustained-purity-rebaptism-practice.md` broke the same way - #551 cleared the exact
+build-vocabulary phrase that test pointed at - swapped for a `cappadocian` example (the fleet-wide
+gravity/force `name`-field bracket-tag leak, not yet remediated anywhere, so a more durable choice
+than pointing at a world under active re-voicing).
+
+Final fresh counts, current `main` post-merge: `check_live_commentary`'s six new patterns, 345
+across 12 worlds (cappadocian 81, gallic 81, desert 30, witt 28, don 26, pahc 26, alx 25, ijc 19,
+hal 17, rzg 6, syr 6) - down from 701 before this merge, almost entirely don (226 -> 26) and lpc
+(156 -> 0, fully re-voiced by #562) clearing real content via their own PRs, not anything this PR
+did. `gate_readability`: 2,075 world-level (alx 149, cappadocian 322, desert 163, don 330, gallic
+135, hal 165, ijc 163, pahc 162, rzg 137, syr 155, witt 194) + 9 fleet-level = 2,084 total.
+`gate_readability_floor` (report-only, never blocking): 1,137 observations.
+
+Full local suite (832 passed), `engine.m1.selftest` (`overall_pass: true`), `engine.m9.cli check`
+(clean after the don waiver fix), both `engine.m2.cli`/`site_cli staleness-check` (clean),
+`check_live_commentary --surface engine` (zero new hits against `origin/main` on every touched
+file), and `check_paths.py` (0 new unresolved) all reverified on the merged state before pushing.
+
+---
+
+## Entry 17 — `engine/m4/turn.py` count update (PR building `sentence_enforce`)
+
+Numbered 17: the next free number after Entry 16 above. An earlier draft of this entry, written
+before this branch merged in `main`'s own 81 drifted commits (Entry 16), numbered itself 12 and
+cited PR #574's original finding as "Entry 9" - that PR's entry was itself renumbered to Entry 15
+during the same merge (a genuine numbering collision with the unrelated, pre-existing PR #504
+Entry 9 above), so every reference below points at Entry 15, not the stale "Entry 9."
+
+The same real feature work Entry 15 covers continued: a second, independent flag-gated enforcement
+(`sentence_enforce`, distinct from `r27_enforce`) was added to `engine/m4/turn.py`, and its own
+docstring and tests describe it in contrast to the existing `r27_enforce` mechanism, by name,
+several times - the identical identifier family Entry 15 already found out of scope to clear.
 
 **`engine/m4/turn.py`: 30 REWRITE findings, up from 25 (5 new), all still the same `ruling-identifier`
-pattern, NOT cleared, for the identical reason Entry 9 already gave.** Two rewording passes across two
-review rounds: the first cut a higher draft down by rewording every genuinely new comparison to
+pattern, NOT cleared, for the identical reason Entry 15 already gave.** Two rewording passes across
+two review rounds: the first cut a higher draft down by rewording every genuinely new comparison to
 `r27_enforce`'s own behaviour to say "the uncited-claims enforcement" instead of the bare identifier;
 a second pass (a third-round review finding four remaining bare mentions) closed the rest. What
 remains is the parameter declaration itself, the real code conditions that read it
@@ -1200,10 +1522,14 @@ test_turn.py`'s own count moved from 15 to 22 (7 new): the new tests assert agai
 `r27_enforce`/`r27_enforcement_exhausted` fields (kwargs and dict keys, not prose) to prove the two
 mechanisms compose correctly, including a new test reading the actual captured retry directive to
 confirm the correction carries forward. Two comments also tripped unrelated patterns while this
-entry's own text was still being drafted - "Mark's ruling" (the `marks-word` pattern) and
-"unresolved" (the `route-cue` pattern, read as an open question rather than a decided, still-true
-design fact) - both reworded before push, so neither rides into either count above. Left as-is, same
-scope decision as Entry 9: a rename is still its own, separate, behaviour-adjacent PR.
+entry's own text was still being drafted - a direct quotation of the project lead's own ruling (the
+`marks-word` pattern) and "unresolved" (the `route-cue` pattern, read as an open question rather than
+a decided, still-true design fact) - both reworded before push, so neither rides into either count
+above. Left as-is, same scope decision as Entry 15: a rename is still its own, separate,
+behaviour-adjacent PR. A follow-up round on the same PR (removing a second ground-matching mechanism,
+the digit/spelled number cross-form check) touched only `named_claim_grounding.py`,
+`sentence_fact_check.py`, and their own test files - `turn.py` and `test_turn.py` were untouched, so
+these two counts (30, 22) stand unchanged from this entry's own first pass.
 
 **The new report artifact, `engine/m4/reports/sentence-enforce-live-measure-2026-09-25.json`, adds
 23 findings - all `PROTECTED`, not `REWRITE`, so none need moving or fixing.** `tools/check_live_

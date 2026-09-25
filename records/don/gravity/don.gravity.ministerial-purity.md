@@ -66,47 +66,70 @@ relations:
 name: Ministerial purity and traditor-free sacramental validity [PRIMARY]
 classification: primary
 description: >-
-  Confirmed PRIMARY (Doc_04 SS3.1, SS4). The doctrine that a sacrament's validity rises and falls on the giver's
-  own unbroken purity - that a hand which surrendered the scriptures under persecution cannot afterwards give
-  what the church gives - together with the traditio accusation against Felix of Aptungi that made it the
-  founding question of the schism. AUTHOR-GRAVITY RISK FLAGGED AT GENERATION (Doc_04 SS1, G1): the core doctrine's
-  existence is Optatus/Augustine-independent, attested in Petilian's own quoted words; its specific argumentative
-  articulation reaches this record substantially through Augustine's own refutation. SIX-TEST REASONING CARRIED
-  IN FULL (Doc_04 SS3.1). REPETITION - PASS (strong): recurs across Doc_01 SS1 (Core Identity) and SS5 (the
-  traditio crisis as the movement's own generative pressure); Doc_02 SS1 (the founding accusation against
-  Felix of Aptungi; Augustine's On Baptism devoting seven books to it; Petilian's own quoted rebaptism-theology
-  arguments, row 12); and Doc_03's own Tier-1 Traditor/Traditio and Purity entries. DEPENDENCY - PASS (strong):
-  rebaptism is this doctrine's enacted logic; the parallel hierarchy exists because an impure ordination line
-  had to be replaced with a clean one; the Maximianist affair's entire significance is that it tests this
-  doctrine's own internal consistency. FORMATION - PASS (strong): this is the stated ground of communal legitimacy
-  itself (Doc_01 SS1, clerical purity as the ground of sacramental validity) - not a peripheral belief but
-  the movement's own account of why it exists at all. EXPLANATORY - PASS (strong): explains the schism's own
-  origin (the 311/312 traditio accusation), the persistent refusal to reunite even under sustained imperial
-  pressure (recognising Caecilianist sacraments as valid would concede the whole doctrine), and the specific
-  shape of the Maximianist paradox. PERSISTENCE - PASS (strong): live from 311/312 through the 411 Conference,
-  with the underlying two-party contest running past this construction window; Gregory the Great's 590s correspondence,
-  partially vendored (Registry row 54), bears on that continuation, and Doc_04 SS3.1 routes the specific claim
-  and its grounding to the rebaptism gravity's own Persistence test where it belongs. INTERACTION - PASS (strong):
-  reinforces rebaptism (its mechanism) and the parallel hierarchy (the institutional structure needed to enact
-  it at scale); reshaped by the Maximianist reception-without-reordination precedent, which tests its own
-  internal logic. Six of six PASS (strong). WHY PRIMARY RATHER THAN SUPPORTING (Doc_04 SS4's own criterion,
-  applied consistently across the candidate set): a Primary gravity produces its own distinct, directly-enacted
-  practice-cluster that would not exist, or would be fundamentally different, without it - this purity logic
-  together with the rebaptism rite generates the boundary-crossing practice that structures membership itself.
-  A Supporting gravity, by contrast, provides the institutional and integrating structure within which the
-  Primaries operate, or organises a real but regionally- or evidentially-bounded portion of the ecology. CONFIDENCE/GRAVITY
-  CROSS-CHECK - CONSISTENT, WITH ONE FLAGGED DIVERGENCE (Doc_04 SS3.1): existence and centrality Documented;
-  specific argumentative texture Augustine-mediated. Carried in full in this record's own divergence_note
-  rather than resolved. CROSS-VOICE TEST (Doc_04 SS5 - the declared Article-21 substitute for a strand-singular
-  world, asking whether a gravity is attested only in how the hostile record argues against the Donatists
-  or also in something closer to their own voice): PASSES with the qualification already stated - its existence
-  is cross-voice attested in Petilian's own quoted words; its specific argumentative texture remains substantially
-  hostile-mediated. Doc_04 SS5 notes that the Cross-Voice Test and the Confidence/Gravity Cross-Check converge
-  on the same finding here, which is itself a form of corroboration. FORCES-CONNECTION (Doc_04 SS3.1; Doc_08
-  SS5 and its Force Index): Cell 1B at origin - the Cyprianic rigorist inheritance and the Felix accusation/Majorinus
-  consecration, both carried as enabled-by; Cell 2B throughout - the sustained purity-and-rebaptism practice
-  as founding logic, and the Maximianist fracture, which tests but does not fracture it. The mainstream party's
-  own practice complicates the doctrine's consistency without abandoning it.
+  This is a central, defining pattern of this world. It is the doctrine that a sacrament stands or
+  falls on the giver's own unbroken purity. A hand that surrendered the scriptures under
+  persecution cannot afterwards give what the church gives. With it comes the traditio accusation
+  against Felix of Aptungi, the charge of handing over the scriptures. That accusation made purity
+  the founding question of the schism.
+
+  Its risk of reflecting its sources' own concerns splits in two. The core doctrine's existence
+  does not depend on Optatus or Augustine: Petilian's own quoted words attest it. But its detailed
+  line of argument reaches us largely through Augustine's own refutation of it.
+
+  It recurs strongly, beginning with this world's own statement of its core identity. It runs
+  through the story of the traditio crisis, the pressure that gave birth to the movement. It sits
+  in the founding accusation against Felix of Aptungi. Augustine gave seven books of his On
+  Baptism to it. It appears in Petilian's own quoted arguments for rebaptism. And it stands among
+  this world's most important terms: traditor, traditio and purity.
+
+  Other patterns depend on it strongly. Rebaptism is this doctrine put into practice. The rival
+  church structure exists because an impure line of ordination had to be replaced with a clean
+  one. And the whole significance of the Maximianist affair is that it tests whether this doctrine
+  holds together.
+
+  As the stated ground of the community's legitimacy itself, it forms people strongly. Clerical
+  purity is the ground of a valid sacrament. It is not a side belief. It is the movement's own
+  account of why it exists at all.
+
+  This doctrine explains how the schism began in the traditio accusation of
+  311/312. It explains the steady refusal to reunite, even under sustained imperial pressure. To
+  accept Caecilianist sacraments as valid would concede the whole doctrine. And it explains the
+  specific shape of the Maximianist paradox.
+
+  It persisted strongly, live from 311/312 through the 411 Conference. The underlying contest
+  between the two parties ran on past the period this world covers. Gregory the Great's letters
+  from the 590s bear on that continuation. The specific
+  claim about that later life, and its evidence, belong with the rebaptism pattern's own record of
+  persistence.
+
+  It interacts strongly, reinforcing both rebaptism, which is its mechanism, and the rival church
+  structure, which is needed to put it into practice at scale. And the Maximianist precedent
+  reshapes it: clergy were received back without being ordained again. That precedent tests its
+  own inner logic.
+
+  Why central rather than supporting? A central pattern
+  produces its own distinct cluster of practice that people directly carry out. Without the
+  pattern, that cluster would not exist, or would be fundamentally different. This purity logic,
+  together with the rebaptism rite, produces the practice of crossing the boundary. That practice
+  shapes membership itself. A supporting pattern works differently. It gives the institutional,
+  unifying structure within which the central patterns operate. Or it organises a real part of
+  this world that is limited by region or by evidence.
+
+  Its confidence rating and its central status agree, with one gap flagged. Its existence and
+  centrality are documented. Its detailed argument comes to us through Augustine. That gap is
+  recorded in full, not resolved.
+
+  This doctrine also rests on the movement's own voice, with the same qualification as its
+  confidence rating. This doctrine's existence appears in Petilian's own quoted words, not only in
+  how the hostile record argues against the Donatists. Its detailed argument still comes largely
+  through hostile sources. Both findings agree, and that agreement is itself a kind of
+  corroboration.
+
+  Two early forces made it possible. One was the strict inheritance of Cyprian of Carthage's
+  third-century theology. The other was the accusation against Felix and the rival consecration of
+  Majorinus. Throughout the period, the ongoing practice of purity and rebaptism kept it alive as
+  the movement's founding logic. The Maximianist split tested it but did not break it. The
+  mainstream party's own practice made the doctrine less consistent without abandoning it.
 manifestations:
 - the traditio accusation against Felix of Aptungi, consecrator of Caecilian, and the Acta Purgationis Felicis
   (314) it produced
