@@ -19,12 +19,11 @@ confidence:
     its meaning relative to Augustine and for the fairness of the label "semi-Pelagian" - the same
     caveat carried by this quote's companion records, gallic.quote.germanus-and-chaeremon-on-the-
     husbandman and gallic.quote.chaeremon-three-stages-of-grace, and neither depended on nor resolved
-    here. This record and gallic.quote.chaeremon-three-stages-of-grace together replace the former
-    gallic.quote.chaeremon-on-grace-and-free-will, which spliced this passage together with the
-    separate Conference XIII.18 teaching (roughly 400 lines further on) into one quote joined by an
-    ellipsis, and which silently cut this passage's own contested synergist clause - the words below
-    from "in such a way as sometimes even to require" onward - that make grace's co-operation ask
-    something of the will in return. Each teaching now stands as its own independently verified record.
+    here. This record carries the full sentence through its own contested synergist clause - the words
+    below from "in such a way as sometimes even to require" onward - that make grace's co-operation ask
+    something of the will in return; that clause is Conference XIII.13's own content, not joined here to
+    Conference XIII.18's separate teaching, which stands on its own in
+    gallic.quote.chaeremon-three-stages-of-grace.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
   locus: "Conference XIII.13 (npnf211 div iv.v.iv.xiii, file lines 38200-38207): Chaeremon's statement that God's grace always co-operates with the will and sometimes requires some effort of good will from it in return, so its bounty is not unreasonable when it is given on account of some desire and effort to gain it"
@@ -47,13 +46,11 @@ text: >-
 speaker_or_author: "Abbot Chaeremon, as Cassian records him (Conference XIII.13)"
 license: verbatim
 modern_lens_note: >-
-  The sentence the earlier, spliced record kept stopped short of Chaeremon's own point. Grace "always
-  co-operates with our will," yes - but he goes on to say it sometimes "requires and look[s] for some
-  efforts of good will" in return, so that its gift is never given "to one who is asleep or relaxed in
-  sluggish ease." That is the actual contested claim: not that grace does everything, and not that effort
-  earns it outright, but that grace waits on some real motion from the person before it is given. A
-  reader who only had the first clause would miss what makes this teaching distinctive - and contested -
-  at all.
+  Grace "always co-operates with our will," Chaeremon says - but he does not stop there. He goes on to
+  say it sometimes "requires and look[s] for some efforts of good will" in return, so that its gift is
+  never given "to one who is asleep or relaxed in sluggish ease." That is the actual contested claim: not
+  that grace does everything, and not that effort earns it outright, but that grace waits on some real
+  motion from the person before it is given.
 modern_rendering: >-
   And so God's grace always works together with our will, for the will's own good. In all things it
   helps, protects, and defends the will. But it does this in a way that sometimes even requires and looks for
@@ -83,9 +80,8 @@ speaker_or_author is a plain string, not a figure id: no gallic.figure record ex
 these are his words as Cassian gives them, not Cassian's own.
 
 modern_rendering: authored against the verbatim `text`, then independently checked clause by clause in a
-separate pass. An earlier draft put the sentence on "its generosity is not unreasonable ... once/when the
-torpor is shaken off ... it gives on account of desire and effort" into two sentences that each
-independently asserted "is not/It is not unreasonable" - reading as two separate claims instead of the
-source's one integrated thought; fixed by folding the condition back into a single sentence ahead of the
-one claim, so the final version states it once. No ellipsis or bracket applies to this quote, so the
-bracket-voicing rule for finishing a true ellipsis does not arise here.
+separate pass - the sentence on "its generosity is not unreasonable ... once the torpor is shaken off ...
+it gives on account of desire and effort" folds the condition into a single sentence ahead of the one
+claim, so it states that claim once, matching the source's own one integrated thought. No ellipsis or
+bracket applies to this quote, so the bracket-voicing rule for finishing a true ellipsis does not arise
+here.

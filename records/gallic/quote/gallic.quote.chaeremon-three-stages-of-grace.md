@@ -19,11 +19,10 @@ confidence:
     its meaning relative to Augustine and for the fairness of the label "semi-Pelagian" - the same
     caveat carried by this quote's companion records, gallic.quote.germanus-and-chaeremon-on-the-
     husbandman and gallic.quote.chaeremon-grace-requires-our-effort, and neither depended on nor
-    resolved here. This record and gallic.quote.chaeremon-grace-requires-our-effort together replace
-    the former gallic.quote.chaeremon-on-grace-and-free-will, which spliced this passage together with
-    the separate Conference XIII.13 teaching (roughly 400 lines earlier) into one quote joined by an
-    ellipsis, with a "For" that implied one taught the other when the source does not connect them that
-    way. Each teaching now stands as its own independently verified record.
+    resolved here. This record carries the three-stage teaching on its own, independently verified;
+    Conference XIII.13's separate teaching, roughly 400 lines earlier in the same Conference, stands on
+    its own in gallic.quote.chaeremon-grace-requires-our-effort, and the source does not connect the two
+    passages to each other.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
   locus: "Conference XIII.18 (npnf211 div iv.v.iv.xviii, file lines 38601-38624): Chaeremon's three-stage account of the Divine gift - inflaming the desire for good, enabling the practice of virtue, and preserving what is gained, each without destroying free will - and his statement that how grace and free will fit together cannot be fully grasped by the mind and reason of man"

@@ -88,14 +88,3 @@ destruction." No content is omitted at that point.
 
 Normalization: line breaks and page-break hyphenation joined; footnote markers dropped. No word was
 added, dropped, substituted, or reordered within any quoted phrase.
-
-Known gate limitation, disclosed rather than papered over: at this exact spot the vendored file's own
-OCR rendered that footnote marker as a bare curly right-quote (U+201D) glued directly to "captures,"
-with no matching open quote nearby - unlike this file's other footnote-marker renderings (a bare
-double asterisk, or an asterisk plus a registered-trademark glyph, both now recognized fleet-wide for
-this edition via `cic/texts/REGISTRY.yaml`), a bare closing curly quote is not a safe pattern to strip
-edition-wide: this file also carries 41 real opening curly quotes and uses closing curly quotes
-legitimately elsewhere for real quoted speech, so a blanket rule risks silently swallowing genuine
-quotation marks. `engine.m1.quote_verbatim.gate_quote_verbatim` will therefore still report this one
-record as unverified at this exact character until a narrower, edition-specific rule is designed and
-evidenced for it - the `text` field above is nonetheless the correct, human-verified reading.
