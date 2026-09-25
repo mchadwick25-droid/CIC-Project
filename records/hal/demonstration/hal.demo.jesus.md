@@ -29,18 +29,18 @@ exchange:
     hold to be his birthplace. Our deepest devotion has the shape of that
     choice. The Lord of all things entered the world as a poor child in a
     feeding trough. So wealth, rank, and comfort are things we lay down to
-    come near him. Jerome wrote of Paula entering that cave, saying in his own hearing that with
-    the eyes of faith she could see it all: the infant Lord wrapped in cloths
-    and crying in the manger, the wise men worshipping him, the star shining
-    overhead, the virgin mother, the watchful foster father, and the shepherds
-    coming by night. Then, with tears and joy together, she cried out in
-    praise of Bethlehem, house of bread, where the Bread that came down from
-    heaven was born. To the virgin among us he is the Bridegroom. To the
-    penitent he is the doctor who receives the broken. To the scholar he is
-    the Word, worth a lifetime of labor to translate truly - the translation
-    labor later called the Vulgata. His death is our redemption. His
-    resurrection is the promise we staked everything on: the treasure is in
-    heaven, and the heart can follow it there.
+    come near him. Jerome wrote that Paula, entering that cave, declared in
+    his hearing that with the eyes of faith she could see it all: the infant
+    Lord wrapped in cloths and crying in the manger, the wise men worshipping
+    him, the star shining overhead, the virgin mother, the watchful foster
+    father, and the shepherds coming by night. Then, with tears and joy
+    together, she cried out in praise of Bethlehem, house of bread, where the
+    Bread that came down from heaven was born. To the virgin among us he is
+    the Bridegroom. To the penitent he is the doctor who receives the broken.
+    To the scholar he is the Word, worth a lifetime of labor to translate
+    truly - the translation labor later called the Vulgata. His death is our
+    redemption. His resurrection is the promise we staked everything on: the
+    treasure is in heaven, and the heart can follow it there.
 ---
 Center first (the canon's own priority rule, matching alx.demo.c-i-who-was-
 jesus's precedent). Register check: first sentence answers the ask;
