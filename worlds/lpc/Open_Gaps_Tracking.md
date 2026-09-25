@@ -1421,6 +1421,57 @@ instances and zero remaining instances of any of the four flagged stock phrases.
 Logged here per the standing rule that a review outcome, or a fix that surfaces further items,
 never lives only in a conversation thread or a PR description.
 
+### OG-20. `lpc` registered and M2-compiled for the first time; the M3 live-admission run passed 28/28 — closing the gate OG-11 named. `state: admitted` remains outstanding, reserved for the project lead.
+
+2026-09-25, directly authorized by the project lead ("authorize the M3 Bedrock run for lpc";
+"Go ahead with option 1" for the full registry → M2 → M3 chain, once M3's hard prerequisites
+were found missing): three linked actions, none self-decided.
+
+1. **`records/worlds/lpc.yaml` created** — the registry entry OG-2 found entirely missing.
+   Every field traces to an already-approved source, not invented for this entry: `world_id`,
+   `display_name`, `card_name` from `lpc_Decision_Log.md`'s own 2026-09-16 project-lead ruling
+   ("this world's three names"); `time_window`/`place` from Doc_01 §2's own stated time horizon
+   and geographic centers; `representative` from the M1 identity decision (Datus, "Bishop of
+   the Kept Flock"); `living_tradition_flag: true` from the Article 29 confirmation; `census_id`
+   from `cic-website/data/world-census.json`'s own movement id for this world.
+2. **M2 compile run for the first time** (`python -m engine.m2.cli build lpc`), producing a real
+   manifest hash and package location, now recorded in the registry entry: `state: built`,
+   `package.manifest_hash: sha256:81b2577cd81b4de50f05d177a7e32bb15ec95284cd4e922aab7b450070a905de`,
+   `package.location: packages/lpc/2026-09-25T15-33-19Z`.
+3. **M3 live-admission run** (`python -m engine.m3.live_admission_run --region us-east-1
+   --worlds lpc`) — real, billed AWS Bedrock spend, run only after direct authorization. Result:
+   **28/28 probes pass, `overall_pass: true`, zero `failing_probes`**, model
+   `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, region `us-east-1` — the same region/model
+   convention `don`'s own run established. Report saved at
+   `engine/m3/reports/live-admission-report-lpc-2026-09-25.json` (not left overwriting the
+   shared default-run report file, which was restored to its prior committed content). Real
+   token counts, no cost figure computed, per the script's own spec-principle-13 docstring:
+   input 23011, output 11232, cache_creation 17481, cache_read 471987.
+
+**This closes OG-11's own stated gap in full**: `lpc` has now passed the live-runtime
+sealed-probe gate every other live fleet world (`don`, `cappadocian`, etc.) passed before
+admission — Phase Five's own simulated battery is no longer the only runtime evidence for this
+world.
+
+**Bears on OG-2, narrowly.** OG-2's claim that `records/lpc/` does not exist is now stale — this
+session found populated `records/lpc/world_core/`, `records/lpc/term/`, and other record-type
+directories already on disk, built across PRs #557/#562/#563 since OG-2 was written. OG-2's
+broader bar — the full `CiC_World_Build_Completion_Standard_V1.3` §A/§B world-freeze gate (every
+record-native artifact type populated, every view rendering without error, machine gates passing
+with committed run output) — was **not** evaluated in this pass and is not claimed met here.
+
+**`state: admitted` is explicitly not set by this entry.** Per this project's own standing rule
+and OG-11's own framing, a passing M3 run does not self-assign admission; that remains the
+project lead's own call.
+
+**Not touched by this pass**, still standing: OG-1 (the portrait/silhouette object collision),
+OG-3 (Doc_08's own unfixed generator-tooling findings), the four frontend go-live surfaces
+(`world-census.json` status flip, the traditions page, `cic-poc/frontend/src/data/worlds.ts`,
+`table.html`'s WORLDS array), and OG-12's portrait-wiring gap.
+
+Logged here per CLAUDE.md's own rule that a review outcome or gap-closing event never lives only
+in a conversation thread. Branch `lpc-registry-and-m3-admission`; PR opened alongside this entry.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
