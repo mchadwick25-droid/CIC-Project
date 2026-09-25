@@ -16,13 +16,13 @@ confidence:
     independently, row 26, Latin at Inferential/Thin for wording; Gennadius ch. LXII); Widely
     Accepted for the northern comparative mode (Sulpitius's own text, structurally confirmed by
     Gennadius ch. XIX's description of the Dialogues, but one voice and its ancient summarizer). The
-    split-mode finding is permanent, not a divergence: Doc_04's Cross-Check finds the gravity
-    strongest where its confidence is highest (the south), and the Primary classification rests on
-    both nodes together. Two Doc_04 corrections carried: Vita X's 'camels' hair' is NOT
-    Egyptian-comparative dress evidence (Roberts's own Matt. iii.4 footnote; [M] rests on Inst. I.10
-    and IV.10-11 instead), and Salvian VIII.4 carries the reference point only, not a measuring
-    relationship (a Carthaginian mockery of visiting ascetics). Dial. I.26, the fullest Tours-side
-    statement, sits in Registry row 4 (Excluded) and is not used.
+    split-mode finding is permanent, not a divergence: the gravity is strongest where its
+    confidence is highest (the south), and the Primary classification rests on both nodes
+    together. Vita X's 'camels' hair' is not Egyptian-comparative dress evidence (Roberts's own
+    Matt. iii.4 footnote); the classification rests on Inst. I.10 and IV.10-11 instead. Salvian
+    VIII.4 carries the reference point only, not a measuring relationship (a Carthaginian mockery
+    of visiting ascetics). Dial. I.26, the fullest Tours-side statement, sits in Registry row 4
+    (Excluded) and is not used.
 sources:
 - source_id: gallic.source.cassian-institutes
   locus: "Preface (iv.ii): Castor 'anxious that the institutions of the East and especially of Egypt should be established in your province'; the adaptation clause; I.10 dress derided in Gaul; IV.2 no one keeping the probation 'even for a year'; IV.10-11 climate"
@@ -34,7 +34,7 @@ sources:
   locus: "Pref. III (iv.vi.i): Gallic monks to receive 'into their cells the authors of the Conferences'"
   license: public-domain
 - source_id: gallic.source.eucherius-de-laude-eremi
-  locus: "\u00a727 (file line c. 445): John and Macarius named as the standard; the 'Lirinum meam' harbour paragraph - Doc_04's own rendering, Inferential/Thin for wording"
+  locus: "\u00a727 (file line c. 445): John and Macarius named as the standard; the 'Lirinum meam' harbour paragraph - Inferential/Thin for wording"
   license: public-domain
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
   locus: "II.5 (ii.iv.ii.v) 'you have conquered all the eremites and anchorites'; III.17 (ii.iv.iii.xvii) 'Europe will not yield to it, or to all Asia, in having only Martin'; III.14 the Egyptian merchant"
@@ -151,7 +151,8 @@ manifestations:
 - "Postumianus to Gallus, 'you have conquered all the eremites and anchorites' (Dial. II.5); 'Europe will not yield to it, or to all Asia, in having only Martin' (Dial. III.17); the Egyptian merchant's 'Save us, O God of Martin' (Dial. III.14)"
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Sulpitius
-Severus, Gennadius) and, for the Lérins voice, Eucherius's own De Laude Eremi. This description
+Severus), cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius), and, for the
+Lérins voice, Eucherius's own De Laude Eremi. This description
 paraphrases the primary sources in its own voice; their verbatim wording, locus, and speaker
 attribution are each carried in full in
 gallic.quote.castor-anxious-for-egyptian-institutions, gallic.quote.cassian-adapts-egypt-to-gaul,

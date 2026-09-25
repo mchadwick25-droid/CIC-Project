@@ -83,11 +83,8 @@ relations:
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Humility therefore"` returns line 39884; `grep -n "which they had either obtained"` returns a hit
 in the surrounding sentence, read with `sed -n '39875,39904p'`, inside `<div4 ...
-id="iv.v.vi.vii">` (Conference XV, chapter 7). The two clauses previously carried separately in
-the host record's own description ("Humility therefore is the mistress..." and "our predecessors
-never reckoned...") are one unbroken paragraph in the source, with no paragraph break between
-them; this record carries the whole paragraph rather than splicing two non-adjacent fragments
-together, per this batch's own discipline against joining distant passages.
+id="iv.v.vi.vii">` (Conference XV, chapter 7). The two clauses are one unbroken paragraph in the
+source; this record carries the whole paragraph rather than splicing fragments.
 
 Normalization: line breaks joined with single spaces. The source's curly quotation marks around
 the nested sayings of Christ are rendered here as straight double quotes, the same marks in a

@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: >-
-    Widely Accepted as Gennadius's own near-contemporary description (De Viris Illustribus ch.
+    Widely Accepted as Gennadius's own later description (De Viris Illustribus ch.
     XIX, read at its locus for this record) of the Dialogues' own subject - independent ancient
     testimony, not Sulpitius's own self-description.
 sources:
@@ -35,10 +35,10 @@ text: >-
 speaker_or_author: Gennadius of Marseilles, De Viris Illustribus
 license: verbatim
 modern_lens_note: >-
-  Gennadius is an independent, near-contemporary witness (writing c. 495), not Sulpitius describing
-  his own work - his plain statement that the Dialogues set the Eastern monks and Martin side by
-  side is outside confirmation that the comparison was the book's own actual subject, not a later
-  reading imposed on it.
+  Gennadius is an independent, later witness (writing c. 495, some seventy years after Sulpitius),
+  not Sulpitius describing his own work - his plain statement that the Dialogues set the Eastern
+  monks and Martin side by side is outside confirmation that the comparison was the book's own
+  actual subject, not a later reading imposed on it.
 modern_rendering: >-
   He also wrote a Conference between Postumianus and Gallus. In it he himself acted as mediator
   and judge of the debate. Its subject was the way of life of the eastern monks and of St.

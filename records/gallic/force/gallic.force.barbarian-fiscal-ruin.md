@@ -75,12 +75,12 @@ description: >-
 
   Salvian is blunt about who he blames. The rich are killing the poor, he writes, through the very
   tax relief meant to help them. Nothing is more unlucky than the poor. For them, even a general
-  remedy brings death (Gov. IV.6). Some Roman citizens, he says, would rather live as free men under
-  barbarian rule. That is true even if it looks like captivity. They would rather that than stay
-  captive to Rome, under the appearance of freedom (Gov. V.5). He describes the barbarian advance
-  sweeping through Gaul, region after region. First Germany, then the Belgae, then the rich farms of
-  Aquitaine. Then the whole body of the Gallic provinces. All of it, he insists, is God's judgment,
-  happening right now (Gov. VII.10, VII.12).
+  remedy brings death (Gov. IV.6). Some Roman citizens, he says, cross over to the Goths, or to the
+  Bagaudae, or to whatever other power has taken hold there. They would rather live as free men,
+  even if it looks like captivity, than stay captive to Rome under the appearance of freedom (Gov.
+  V.5). He describes the barbarian advance sweeping through Gaul, region after region. First
+  Germany, then the Belgae, then the rich farms of Aquitaine. Then the whole body of the Gallic
+  provinces. All of it, he insists, is God's judgment, happening right now (Gov. VII.10, VII.12).
 
   A closer search of this world's own library finds more than just that one book. But still not
   much: four episodes in Sulpitius, across six mentions in all. The barbarians were the occasion of

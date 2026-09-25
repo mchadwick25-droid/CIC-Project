@@ -112,7 +112,7 @@ description: >-
   catastrophe enters this world's literature directly, and the only gravity that the passing of
   Roman order touches at all.
 manifestations:
-- "Martin's inference from the false Christs in Spain and the East that 'the coming of Antichrist is at hand' (Vita XXIV); Antichrist 'already born ... reached the years of boyhood' (Dial. II.14)"
+- "Sulpitius's inference from the false Christs in Spain and the East that 'the coming of Antichrist is at hand' (Vita XXIV); Antichrist 'already born ... reached the years of boyhood' (Dial. II.14)"
 - "Ep. II's 'a weariness of the present world, a terror of judgment, a fear of punishment'"
 - "Vincent's 'awful expectation of the approach of the divine judgment' as the Commonitory's stated occasion, paired with 'the subtle craftiness of new heretics' (Comm. ch. 1 [2])"
 - "Cassian's 'fear of hell' as the first of three restraints on the faults (Conf. XI.6) - judgment as the beginner's motive"

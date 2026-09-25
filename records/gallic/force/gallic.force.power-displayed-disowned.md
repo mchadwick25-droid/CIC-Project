@@ -77,9 +77,9 @@ description: >-
   sensed that God's power was present, then raised him back to life (Vita VII). His
   letters defend that same power against a skeptic (Ep. I). When he cast out demons, he did it
   face-down in sackcloth, the door bolted, without touching or scolding anyone (Dial. III.6). The
-  north also tells a story about doubt from within: one of Martin's own monks, in a fit of rage,
-  mocked Martin's own visions as an old man's ridiculous fancy - and that same monk, the story
-  shows, had a demon of his own (Dial. III.15).
+  north also tells a story about doubt from within: Brictio, raised in Martin's own monastery but
+  by then a member of the clergy, in a fit of rage mocked Martin's own visions as an old man's
+  ridiculous fancy - and that same man, the story shows, had a demon of his own (Dial. III.15).
 
   The south's teacher refuses this on principle. Cassian will not tell stories of miracles and
   signs, however many he has seen, because they only astonish a reader and teach nothing about how
@@ -97,14 +97,15 @@ description: >-
   good monk was known by how he lived, not by whether devils obeyed him; claiming to be an
   exorcist before a crowd was vanity, and sackcloth was performance. Each house lived inside its
   own logic. The north does measure itself directly against Egypt elsewhere in its own literature -
-  but the south's fathers never once mention Martin, or answer anything Sulpitius wrote.
+  but the south's fathers never name Martin or Sulpitius. Whether Cassian's refusal of
+  miracle-tales is a veiled answer to Sulpitius is an open question this record does not settle.
 
   This tension runs through the whole ecology. It splits every lens the same way - display against
   concealment, wonder against caution, a public act against a private ledger - and it even makes
   the same word, compunction, curve in opposite directions at the two houses. The two halves of
   this world's formation share a skeleton, but not a flesh. As an ongoing force, each house simply
-  kept living inside its own economy for the whole period; the two sides never actually argued
-  with each other, because neither ever heard the other's case.
+  kept living inside its own economy for the whole period; the two houses never argue with each
+  other by name in any surviving text.
 manifestations:
 - "Martin's virtus present, not owned - shown before witnesses, in sackcloth, for the countryside (Vita VII; Dial. III.6)"
 - "Brictio's 'ridiculous fancies about visions' - doubt policed from within the north (Dial. III.15)"

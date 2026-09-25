@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Gallus's own account, in Sulpitius's Dialogues (II.14, read at its locus for
-    this record), of what Martin reportedly told him and Postumianus. Reported speech at one
+    this record), of what Martin reportedly told him and his companions. Reported speech at one
     remove - Gallus's own third-person account of Martin's teaching, not a first-person quotation
     of Martin.
 sources:
@@ -38,7 +38,7 @@ license: verbatim
 modern_lens_note: >-
   This is Gallus's own retelling of what Martin taught, not Martin's words in direct quotation -
   the passage's own surrounding text makes clear "he" throughout refers to Martin, questioned by
-  Gallus and Postumianus about the end of the world.
+  Gallus and his companions about the end of the world.
 modern_rendering: >-
   He also told us there was no doubt that Antichrist, conceived by an evil spirit, was already
   born. By this time he had reached boyhood. He would take power as soon as he reached the proper

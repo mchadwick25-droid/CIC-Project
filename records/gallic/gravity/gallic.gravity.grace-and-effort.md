@@ -115,9 +115,9 @@ description: >-
   XIII.13). To deny that God wants everyone saved, and not just some, Chaeremon says, would be a
   grave blasphemy (Conf. XIII.7). Neither side of the argument should be pushed too far, Chaeremon
   warns. Exactly how grace and free will fit together, in the end, is a question human reason cannot
-  fully answer (Conf. XIII.11, XIII.18). Elsewhere, Cassian's own manual for monks ends its
-  climactic book with plain advice. A monk who feels he is making progress should credit it all to
-  God's grace, and not to himself (Inst. XII.9).
+  fully answer (Conf. XIII.11, XIII.18). Elsewhere, Cassian's own manual for monks, in its
+  climactic book, gives plain advice. A monk who feels he is making progress should credit it all
+  to God's grace, and not to himself (Inst. XII.9).
 
   What the wider Church heard about this teaching came mostly at second hand. Augustine himself
   reports that the Gallic monks he is answering already grant one point: that God's grace goes ahead
@@ -174,8 +174,8 @@ gallic.quote.chaeremon-grace-requires-our-effort, gallic.quote.chaeremon-three-s
 and gallic.quote.massilians-clung-to-their-views.
 
 This argument and the north's own virtus gravity never meet in any surviving text - the closest
-either comes is Cassian's own counter-teaching on miracle-working (Conf. XV.7), which answers
-Egypt's own Conference XV.7 discipline, not anything Tours itself wrote. Illustrated by
+either comes is Cassian's own counter-teaching on miracle-working (Conf. XV.7), which is Egyptian
+teaching Cassian carries west, not a response to anything Tours wrote. Illustrated by
 gallic.story.germanus-scruple-at-morning-service, the moment the tradition's own text says the
 argument began. Gennadius's Pelagianism charge against Sulpitius is not connected here: Tours has
 no doctrine of grace, by plain chronology - its corpus closed before the question was raised. This
