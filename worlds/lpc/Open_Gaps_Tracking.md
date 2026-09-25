@@ -924,11 +924,11 @@ second pass's own fixes, corrected in place rather than layered as a new entry:*
 - The "gravity"/"There is no confidence gap for the gravity" false-claim corrections above.
   A genuinely exhaustive re-sweep this round (parsing each record's actual YAML field values
   directly with `yaml.safe_load`, not a line-based `grep`, after two prior grep-based sweeps
-  both missed real instances) found and fixed 22 total "gravit" occurrences across 6 gravity
+  both missed real instances) found and fixed 24 total "gravit" occurrences across 6 gravity
   records' `description`/`manifestations` fields: `collegial-communion-preserved` (3),
   `grace-and-human-incapacity` (4), `pastoral-office-flock-keeping` (2),
-  `penitential-discipline` (4, matching the ×5 the review named once the manifestations-field
-  instance is counted separately), `preaching-and-catechesis` (6, including one in
+  `penitential-discipline` (5: 4 in `description`, 1 in `manifestations` -- matching the ×5
+  the review named), `preaching-and-catechesis` (6: 5 in `description`, 1 in
   `manifestations`), `sacramental-ordination-validity` (4). Zero force records were affected;
   the two prior sweeps' method (line-based `grep` with type filters) is the likely cause of
   the earlier miss, since a YAML-aware parse catches every instance directly.
@@ -940,17 +940,20 @@ second pass's own fixes, corrected in place rather than layered as a new entry:*
   naming..." (×4: `conciliar-authority-theory`, `confessor-authority-vs-episcopal-peace` ×1
   each in two places, `grace-and-human-incapacity`, `penitential-discipline`), "...thinly
   sourced..." (×3: `confessor-authority-vs-episcopal-peace`, `penitential-discipline`,
-  `sacramental-ordination-validity`). Each instance given its own record-specific phrasing
-  rather than a second small set of repeated templates.
+  `sacramental-ordination-validity`). Each instance reworded individually rather than replaced
+  with a second small set of repeated templates.
 - `world_core.cautions` item 6's "A firm classification looks reachable from our own
   premises" — "classification" is the project's own build vocabulary (matching gravity
   records' own `classification: primary/supporting` field); reworded to "A firm answer looks
   reachable from our own premises, but it has not been settled."
-- Non-blocking items also fixed: `thinness`'s "any confirmed world so far" (build-relative
-  wording) reworded to "of any world in this record"; "independently checked for this world"
-  reworded to match main's own "verified in this build for this world" phrasing;
+- Non-blocking items also fixed: `thinness`'s "independently checked for this world" reworded
+  to match main's own "verified in this build for this world" phrasing;
   `conciliar-authority-theory`'s closing "one our own picture of that world stays incomplete
-  on" reworded to "leaves our own picture of that world incomplete here."
+  on" reworded to "leaves our own picture of that world incomplete here." `thinness`'s "any
+  confirmed world so far" was first reworded to "of any world in this record," which a later
+  recheck correctly flagged as no longer a real comparison (the record describes one world, so
+  comparing it to "any world in this record" is circular) — fixed to "of any world we have
+  built so far," restoring the comparison against the other worlds this project has built.
 
 **Re-verification after this round's own fixes:** all 21 M1 gates clean (same pre-existing,
 expected `canon-coverage` gap). A direct YAML-field parse (not `grep`) across all 25

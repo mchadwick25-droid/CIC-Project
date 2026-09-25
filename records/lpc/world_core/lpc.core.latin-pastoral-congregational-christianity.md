@@ -198,7 +198,7 @@ thinness: >-
   This is not a hostile-source problem, the way it is for the neighbouring Donatist world. Both
   bishops speak in their own words, as bishops of the tradition at the centre of this world, not
   as quotations in an opponent's book. This world holds the largest and most direct base of primary
-  sources of any world in this record.
+  sources of any world we have built so far.
 
 
   The imbalance here is narrower, and different in kind. Two named voices carry nearly this world's
