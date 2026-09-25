@@ -2495,22 +2495,35 @@
   notes: >-
     Zhitie protopopa Avvakuma, im samim napisannoe - a modernized-Russian reading
     edition (see CORRECTION below on the `orv` tag) of Avvakum's autobiography
-    (composed c. 1673 at Pustozersk), vendored as a SECOND WITNESS per INTAKE.md's
-    actual, real rule (2026-09-02: an original-language text is a second witness
-    only, "never primary evidence for a Representative") - never yet independently
-    scan-verified against a specific dated critical print edition, so treated here
-    as second-witness-only, not verbatim-ready, until that verification happens (see
-    this world's Doc_02 for the quotability flag and reasoning). CORRECTION
-    (2026-09-25, independent Round 1 review of this world's Doc_01/Doc_02, Findings
-    2, 3, 13): an earlier version of this note cited a "2026-09-25 INTAKE.md ruling"
-    that does not exist in INTAKE.md at any date, and mischaracterized it as
-    licensing this file as free-standing primary evidence "regardless of language" -
-    the opposite of INTAKE.md's real, dated rule quoted above. That fabricated
-    citation is removed. Also disclosed, found on the same review: this file
-    carries roughly ninety bracketed modern-Russian editorial glosses interpolated
-    directly into the running text (e.g. `[правое]`, `[потому что]`) - a modern
-    annotated reading edition's own apparatus, not Avvakum's words; any quotation
-    from this file must strip them first. The file is in modernized Russian
+    (composed c. 1673 at Pustozersk). This world's own primary evidence in its own
+    right, per INTAKE.md's real, current rule (Mark's ruling, 2026-09-25): language
+    does not decide whether a source is primary, credibility and truth do. Two
+    real, disclosed quotability caveats remain independent of that question: this
+    file has never been independently scan-verified against a specific dated
+    critical print edition (see below on the transcription chain), and it carries
+    116 bracketed modern-Russian editorial glosses that must be stripped
+    before quoting any passage that contains them (see this world's Doc_02 for the
+    full quotability flag and reasoning). CORRECTION (2026-09-25, independent
+    Round 1 review of this world's Doc_01/Doc_02, Findings 2, 3, 13): an earlier
+    version of this note cited a "2026-09-25 INTAKE.md ruling" that this world's
+    build thread could not verify in its checkout of INTAKE.md at that time, and
+    that draft's version of this note was found unverifiable and was walked back to
+    treat this file as second-witness-only under INTAKE.md's older 2026-09-02
+    framing. CORRECTION-OF-A-CORRECTION (2026-09-25, following the coordinator's
+    own direct check): that walk-back was itself wrong, for a narrower reason than
+    either prior note stated. The build thread's checkout had branched from a stale
+    local `main` (merge-base `41afa0f8`), roughly 150 commits behind real
+    `origin/main` (`58fed0f6`); the 2026-09-25 INTAKE.md ruling was real and had
+    already been merged to real `origin/main`, hours before that build thread
+    started - the citation was not fabricated, only unreadable from that stale
+    checkout. After merging `origin/main` (commit `169dc5cb`) and independently
+    re-reading the real, current INTAKE.md directly, this file's status as primary
+    evidence is restored above; the transcription-chain and bracketed-glosses
+    caveats are unaffected by this reversal and remain fully in force. The
+    bracketed glosses (e.g. `[правое]`, `[потому что]`), first disclosed on the
+    Round 1 review above, are a modern annotated reading edition's own apparatus,
+    not Avvakum's words; any quotation from this file must strip them first. The
+    file is in modernized Russian
     orthography throughout (no final ъ, no ѣ), so the `orv` (Old East Slavic) tag in
     its own filename is loose - not renamed this pass, since a rename touches every
     existing reference to this file; flagged as a disclosed naming exception rather

@@ -3,7 +3,7 @@
 **World: The Old Believers** (Atlas VII.7, era 8, `the-old-believers`,
 file-code `obel`.)
 
-**Status: Draft, Round 2 — pending re-review.**
+**Status: Draft, Round 3 — pending disposition (escalated, Doc_02 §15).**
 
 **Governed by:** Formation World Construction Framework V7.4, Part I;
 Constitution Articles 4 (Movement-Scope Principle), 17 (Source
@@ -16,10 +16,11 @@ as one of six integration points (§7 below).
 data/world-census.json`'s own `the-old-believers` entry (VII.7);
 `Ministry/Features/Atlas-World-Map/Decision-Log.md`'s Era 7 and Era 8
 gate entries; `reference/method/CiC_Record_Native_World_Build_
-Process_V1.5.md`; this world's own two vendored primary-source files,
-read directly for every claim below that they can settle —
-`avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt` and
-`avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`.
+Process_V1.8.md`; `cic/texts/INTAKE.md`'s 2026-09-25 ruling on
+original-language primary evidence; this world's own two vendored
+primary-source files, read directly for every claim below that they can
+settle — `avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt`
+and `avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`.
 
 ---
 
@@ -251,30 +252,38 @@ equivalent of that declaration returns nothing; it is not relocated
 elsewhere in the translation. **[Widely Accepted]**, on this document's
 own direct comparison of both files.
 
-The Russian text of the omitted passage, quoted exactly as the vendored
-file prints it, offered here to support the edition-comparison finding
-above (an original-language text is a second witness under this
-project's own sourcing rule — usable to cross-check an English
-rendering, not to carry a substantive claim on its own):
+The Russian text of this passage is quotable as this world's own
+primary evidence in its own right, not only as a cross-check on the
+English translation — under this project's own real, current rule
+(INTAKE.md, Mark's ruling of 2026-09-25): language is not what decides
+whether a source is primary; credibility and truth are. Quoted exactly
+as the vendored file prints it:
 
 > "не позазрите просторечию нашему, понеже люблю свой русской природной
 > язык, виршами философскими не обык речи красить, понеже не словес
 > красных бог слушает, но дел наших хощет."
 
-In substance — a working gloss offered only to support the
-edition-comparison finding above, not a free-standing translation:
-Avvakum asks the reader not to scorn his plain speech, since he loves
-his own native Russian tongue and is not in the habit of decorating his
-speech with philosophical verses (*вирши философские*), because God
-does not listen to fine words but wants deeds. **A disclosed hazard for
-any future quotation of this file: the vendored Russian text carries
-roughly ninety bracketed modern-Russian editorial glosses interpolated
-directly into the running sentences** (e.g. `[правое]`, `[потому что]`,
-`[так]`) — a modernized reading edition's own apparatus, not Avvakum's
-words; any future quotation must strip them. See Doc_02 §7 for the full
-disclosure, including why this file's own `orv` (Old East Slavic)
-language tag is looser than its modernized orthography actually
-supports.
+In substance: Avvakum asks the reader not to scorn his plain speech,
+since he loves his own native Russian tongue and is not in the habit of
+decorating his speech with philosophical verses (*вирши философские*),
+because God does not listen to fine words but wants deeds — a genuine,
+quotable statement of the movement's own self-conscious literary
+register, in the movement's own original language, directly evidencing
+the distinctive plain register named above. This specific passage
+carries none of the bracketed editorial glosses disclosed below, and is
+independently corroborated by the edition-comparison finding above (the
+English translation's own omission of it). **Two disclosed, genuine
+quotability caveats remain, distinct from the primary/secondary
+question the real rule already settles:** the vendored Russian file's
+own transcription chain (manuscript → critical edition → az.lib.ru →
+this Wikisource copy) is not independently verified hop-by-hop, and the
+file elsewhere carries 116 bracketed modern-Russian editorial
+glosses interpolated directly into the running sentences (e.g.
+`[правое]`, `[потому что]`, `[так]`) — a modernized reading edition's
+own apparatus, not Avvakum's words, which any future quotation from
+elsewhere in the file must strip. See Doc_02 §7 for the full disclosure,
+including why this file's own `orv` (Old East Slavic) language tag is
+looser than its modernized orthography actually supports.
 
 **Material and visual culture**, per the census's own `legacy` field: old
 icon-painting styles, znamenny chant, and manuscript-copying practices
@@ -291,13 +300,17 @@ This world is separated from the Synodal Russian church (its immediate
 institutional origin and ongoing adversary) by the single ritual-and-
 partial-textual rupture named at §1 and §9. It is separated from
 `cappadocian-nicene-pastoral-monastic-tradition` — the one other Built &
-Live world in the same "Greek East & Orthodoxy" lane — by century,
-empire, and register: fourth-century Cappadocia's own formation logic is
-Trinitarian-doctrinal, this world's is ritual-and-authority, and no
-figure, text, or controversy is shared between them. No genuine
-cross-world overlap or boundary tension was found with `cappadocian`, or
-with any other built or candidate world in this fleet (Doc_02 §8
-confirms the same check independently).
+Live world whose lane string is exactly "Greek East & Orthodoxy" — by
+century, empire, and register: fourth-century Cappadocia's own formation
+logic is Trinitarian-doctrinal, this world's is ritual-and-authority, and
+no figure, text, or controversy is shared between them.
+`imperial-juridical-christianity` (312-451) is also Built & Live, on a
+lane that only half-overlaps this one ("Greek East / Latin West
+bridge") — set aside in the same breath, since fifth-century imperial
+law is no comparandum for seventeenth-century Muscovy. No genuine
+cross-world overlap or boundary tension was found with either, or with
+any other built or candidate world in this fleet (Doc_02 §8 confirms the
+same check independently).
 
 ---
 
@@ -323,7 +336,7 @@ positions. Reasoning about the strand question from Avvakum's own text
 alone risks reading a later division backward into a source that
 predates it. Second, the Representative-identity decision (the M1
 checkpoint, after Doc_09 in this project's own document sequence, per
-`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`) is the
+`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`) is the
 point at which this question's practical weight actually bears — and
 deciding a strand determination now, before that library is built out,
 risks constraining that later, more consequential decision on a thinner
@@ -363,15 +376,20 @@ material alone:
 ## 8. World Continuity & Distinction
 
 No world **built** in this fleet occupies this world's own
-time-place-rupture combination (though `cappadocian`, same lane, is a
-real built world worth naming and setting aside, §5). The nearest
+time-place-rupture combination (though `cappadocian` and
+`imperial-juridical-christianity`, same or overlapping lane, are real
+built worlds worth naming and setting aside, §5). The nearest
 **candidate** is the Synodal Russian church itself — the census carries
-three entries in the same window and lane, viewed from the other side of
-the same rupture (`russian-church-stoglav-to-nikon`,
-`russian-church-nikon-to-holy-synod`, `russian-church-synodal-century`),
-none built, all Pre-Survey Candidates. This world is the ritual-and-
-textual position those entries' own anathema was directed against, not
-the anathematizing side.
+three entries in the same lane, none built, all Pre-Survey Candidates,
+but only one of them actually overlaps this world's own 1666-1815
+window: `russian-church-nikon-to-holy-synod` (1652-1815) is the genuine
+overlapping candidate, viewed from the other side of the same rupture.
+`russian-church-stoglav-to-nikon` (1517-1650) is adjacent but does not
+overlap at all — it ends sixteen years before this window begins — and
+`russian-church-synodal-century` (1815-1906) touches this window only at
+its own closing year. This world is the ritual-and-textual position
+`russian-church-nikon-to-holy-synod`'s own anathema was directed against,
+not the anathematizing side.
 
 ---
 
@@ -403,10 +421,18 @@ This is not an argument about ritual gesture or calendar practice. It is
 an argument that a specific word's removal from the Creed's own text
 empties it of "the essence of God" — a claim made in the register of
 divine essence, by this world's central voice, about the Creed's own
-wording. The same opening section of the file ties the threefold
-"Alleluia" dispute directly to the Latin *filioque* ("по римской
-бляди… духу и от сына исхождение являют") and pronounces anathema on
-those who sing it fourfold ("Да будет проклят сице поюще").
+wording. The same opening section of the file also ties the threefold
+"Alleluia" dispute to the Latin *filioque*. Two separate passages, 577
+characters apart with an unrelated passage on the threefold Trinity and
+the anathema between them, are each quoted here on their own rather than
+joined by an ellipsis that would understate the distance between them:
+first, on the Roman practice generally, "по-римски святую тройцу в
+четверицу глаголют" ("in the Roman manner they make the Holy Trinity
+into a foursome"); second, on the Spirit's procession specifically, "духу
+и от сына исхождение являют" ("and they hold that the Spirit proceeds
+from the Son also"). The same passage pronounces anathema on those who
+sing the Alleluia fourfold: "Да будет проклят сице поюще" ("Cursed be
+those who sing it so").
 
 **The floor, stated at the precision the evidence supports:** the
 schism was not a collision between two different confessions of faith.
@@ -489,9 +515,12 @@ own wording.
   smoothed over (§9) — a `contested_claim` candidate for Doc_02/Doc_03.
 - The "Theodoret"/"Theodore" identity question (§1) is Contested, and is
   a live crux in the secondary literature.
-- Which process document (V1.5, in this checkout, or a newer,
-  unmerged V1.8) governs this build is an open governance question for
-  Mark; this document's own reasoning is grounded on V1.5 throughout.
+- The Russian original's own quotability caveats remain live even though
+  its status as this world's own primary evidence is settled (§4): its
+  transcription chain (manuscript → critical edition → az.lib.ru →
+  Wikisource) is not independently verified hop-by-hop, and the file
+  carries 116 bracketed editorial glosses elsewhere that must
+  be stripped before quoting any passage that contains them.
 
 ---
 
@@ -503,7 +532,7 @@ own wording.
   reading edition — see Doc_02 §7 on why the `orv` tag is loose — via a
   Wikisource transcription citing az.lib.ru as its own source, not yet
   independently verified hop-by-hop against a dated critical edition,
-  and carrying roughly ninety modern-editorial bracketed glosses
+  and carrying 116 modern-editorial bracketed glosses
   interpolated into the running text, §4 above).
 - Genuine, real acquisition leads not yet closed: the Solovetsky
   petitions, the Pomorian Answers (1723, primarily Andrei Denisov), and
@@ -562,14 +591,60 @@ See `Open_Gaps_Tracking.md` for the full, numbered, append-only record.
   checkout. Process narration is removed from the body text; this log
   entry, together with `Open_Gaps_Tracking.md`, is where that history
   now lives.
+- **Correction-of-a-correction, 2026-09-25, this build thread, following
+  the coordinator's own direct check.** This worktree's checkout had
+  branched from a stale local `main`, itself already well behind real
+  `origin/main` before this session started. Both `reference/method/
+  CiC_Record_Native_World_Build_Process_V1.8.md` and `cic/texts/
+  INTAKE.md`'s real 2026-09-25 ruling ("a clean public-domain original
+  can be primary evidence... language is not what decides whether a
+  source is primary — credibility and truth are") were already merged to
+  the real `origin/main` hours before this session began; this
+  checkout's own copy of `INTAKE.md` simply predated the commit that
+  added that ruling. The citation was not fabricated — it was real and
+  current, unreadable only from this stale checkout. After merging
+  `origin/main` and independently re-reading the real, current
+  `INTAKE.md` directly (not taken on the coordinator's word a second
+  time), the Russian text's status as this world's own primary evidence
+  is restored at §4 above, in `Doc_02`, the Registry, `cic/texts/
+  REGISTRY.yaml`, `cic/corpus-map/`, and the Dossier — each disclosed as
+  a dated correction-of-a-correction in `Open_Gaps_Tracking.md`, not
+  silently flipped back. The genuine, still-live quotability caveats
+  (the unverified transcription chain; the bracketed editorial glosses
+  elsewhere in the file) are unaffected by this correction and remain
+  disclosed. V1.8 citations are likewise re-grounded back onto V1.8,
+  which is now present in this checkout after the same merge.
+- **Round 2 targeted recheck** (`obel_Step0_Doc01_Doc02_Review_
+  Round2_Recheck.md`): **substantial revision required, narrowly.** All
+  six of Round 1's blocking findings confirmed closed; every quotation
+  and locus independently re-verified and found correct. Against this
+  document specifically: the bracketed-gloss count ("roughly ninety")
+  found to be a byte-versus-character measurement artifact, the real
+  figure 116; §8's "same window" claim found over-broad against the
+  three named `russian-church-*` candidates, only one of which
+  (`russian-church-nikon-to-holy-synod`) actually overlaps this world's
+  window; §5's same-lane enumeration found to omit
+  `imperial-juridical-christianity`; and the filioque quotation at §9
+  found to bridge a 577-character gap under a single ellipsis wider than
+  a reader would assume.
+- **Round 3 revision**, 2026-09-25, this build thread. The gloss count
+  corrected to 116 throughout (§4, §11); §8 narrowed to name
+  `russian-church-nikon-to-holy-synod` as the one genuinely overlapping
+  candidate and the other two as adjacent, non-overlapping; §5 corrected
+  to name `imperial-juridical-christianity` and set it aside by the same
+  method as `cappadocian`; the filioque quotation at §9 split into its
+  two actual fragments, each quoted and introduced on its own rather than
+  joined by an ellipsis. A transcription convention (silent OCR repair
+  and smart-quote normalization, disclosed once) is stated at Doc_02 §7
+  rather than left undisclosed, closing a cosmetic item the recheck
+  raised again after Round 1.
 - **Escalated to Mark, not resolved by this document:** the census's own
-  `floorNote`/`statusDescription`, which carry the same overstated
-  absolute floor phrasing this revision corrected here, were cited
-  approvingly at a Frozen portfolio gate — correcting them is
-  portfolio-level. The origin of the fabricated INTAKE.md citation, and
-  whether the underlying editorial practice it was invented to support
-  (English text primary, Russian second-witness) should become a real,
-  written INTAKE.md rule, is a governance/methodology question. Whether
-  V1.8 or V1.5 should govern this build, and when V1.8 (not present in
-  this checkout) should merge, is also a governance/methodology
-  question. See this world's final handoff report for the complete list.
+  `floorNote`/`statusDescription`, which carry the overstated absolute
+  floor phrasing this revision corrected (§9), were cited approvingly at
+  a Frozen portfolio gate — correcting them is portfolio-level. A second,
+  distinct governance/methodology question (whether naming an escalation
+  category in a Disposition section bars self-disposition under CO-022)
+  is escalated alongside it, per Step 0 §5. Nothing else from this
+  world's own build remains escalated as a governance question: the
+  INTAKE.md and V1.8 items above were a stale-checkout problem, now
+  resolved by merging forward, not an open policy question.

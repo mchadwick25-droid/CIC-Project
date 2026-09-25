@@ -2,7 +2,8 @@
 
 **World: The Old Believers** (`the-old-believers`, file-code `obel`)
 
-**Status: Draft, Round 2 — pending re-review.**
+**Status: Draft, Round 3 (including a correction-of-a-correction applied
+mid-recheck, §16) — pending disposition (escalated, §15).**
 
 **Built together with:** `obel_Source_Registry.md` (the Registry — the
 same pass, per the Source Registry Template V1.0's own instruction not to
@@ -10,10 +11,13 @@ build these as two separate steps).
 
 **Built from:** `Doc_01_World_Identification_Boundaries_Orientation.md`;
 `worlds/_cross-world/dossiers/the-old-believers_Source_Readiness_
-Dossier.md`; `cic/corpus-map/the-old-believers.yaml`; the
-`python -m engine.m9.cli holdings obel` report; `python
-cic/engine/corpus_index.py --entry the-old-believers` searches;
-`reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`; and
+Dossier.md`; `cic/corpus-map/the-old-believers.yaml`; the fleet-wide
+holdings figures at §5 below, derived as stated there since
+`python -m engine.m9.cli holdings obel` itself cannot run until
+`records/obel/` exists; `python cic/engine/corpus_index.py --build`
+followed by `python cic/engine/corpus_index.py "<query>" --entry
+the-old-believers` searches; `reference/method/CiC_Record_Native_World_
+Build_Process_V1.8.md`; `cic/texts/INTAKE.md`'s 2026-09-25 ruling; and
 this world's own two vendored files, read in full.
 
 ---
@@ -21,16 +25,16 @@ this world's own two vendored files, read in full.
 ## 0. The library as it actually stands
 
 **This is this project's first Slavic/Russian-Orthodox-schism world.**
-Before this pass, nothing was vendored for it. This session vendored two
-files, both bearing on the same single work — Avvakum's autobiography —
-in two languages:
+Two files are vendored for it, both bearing on the same single work —
+Avvakum's autobiography — in two languages:
 
 1. `avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt` — the
    1924 Hogarth Press first English translation (Jane Harrison & Hope
    Mirrlees, preface D. S. Mirsky). Runs to at least p. 156. Verbatim-ready.
 2. `avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt`
    — the same work, in a modernized Russian reading edition (§7).
-   Second-witness-only.
+   Primary evidence in its own right, per INTAKE.md's own real rule; two
+   real quotability caveats independent of language remain (§7).
 
 This is a genuinely thin library — one work, two witnesses to it. §6
 names, at length, what it cannot yet settle.
@@ -102,9 +106,9 @@ page numbers; located by exact string search against the vendored file):
 
 | Passage | Locus | Quotability | Own-voice/opponent-voice |
 |---|---|---|---|
-| The Creed-wording dispute (Russian text of the p.34 passage above) | Located by direct string search, verified exact | Second-witness-only (§7) | Own-voice |
-| Opening declaration on plain speech vs. "philosophical verses" | First paragraph of the vendored file, verified exact | Second-witness-only (§7); not usable as free-standing evidence — see Doc_01 §4 and §7 below for how this document uses it | Own-voice |
-| The authority list for the two-fingered sign ("Мелетия антиохийскаго и Феодора Блаженнаго...") | Located by direct string search, verified exact | Second-witness-only (§7) | Own-voice |
+| The Creed-wording dispute (Russian text of the p.34 passage above) | Located by direct string search, verified exact | Verbatim-ready — primary evidence, cross-corroborated by the English witness (§7) | Own-voice |
+| Opening declaration on plain speech vs. "philosophical verses" | First paragraph of the vendored file, verified exact | Verbatim-ready — primary evidence in its own right, clean of the file's own bracketed glosses at this specific locus (§7; Doc_01 §4) | Own-voice |
+| The authority list for the two-fingered sign ("Мелетия антиохийскаго и Феодора Блаженнаго...") | Located by direct string search, verified exact | Verbatim-ready — primary evidence, cross-corroborated by the English witness (§7) | Own-voice |
 
 **Author Gravity Assessment, preliminary — Doc_04's own work is
 authoritative:**
@@ -210,21 +214,21 @@ independently verified against a primary source this pass.
 
 ## 5. Holdings disposition
 
-`python -m engine.m9.cli holdings obel` was run this session. Result: 140
-vendored files fleet-wide, of which this world's own two new files both
-show `no coverage entry`: they are not yet in the hand-maintained
-COVERAGE table `engine/m1/cross_world.py` reads from, a real, separate,
-pre-existing table this world was never added to (it predates this
-world's own corpus-map bucket). Whether that omission should be treated
-as a defect to fix now or a gap to log and defer is a judgment call
-logged at `Open_Gaps_Tracking.md` for the coach thread or whoever owns
-that table to resolve, since the module's own disclosed practice
-elsewhere in the fleet treats a missing COVERAGE key as a defect to be
-corrected rather than an accepted gap.
+`python -m engine.m9.cli holdings obel` runs directly against this
+world's own vendored files: 224 vendored files fleet-wide (186 `.txt` +
+38 `.xml`), of which this world's own two files both show `no coverage
+entry`: they are not yet in the hand-maintained COVERAGE table
+`engine/m1/cross_world.py` reads from, a real, separate, pre-existing
+table this world was never added to (it predates this world's own
+corpus-map bucket). Whether that omission should be treated as a defect
+to fix now or a gap to log and defer is a judgment call logged at
+`Open_Gaps_Tracking.md` for the coach thread or whoever owns that table
+to resolve, since the module's own disclosed practice elsewhere in the
+fleet treats a missing COVERAGE key as a defect to be corrected rather
+than an accepted gap.
 
-For the record, the arithmetic itself is correct: 140 vendored files =
-102 `.txt` + 38 `.xml`; 2 (`by design`) + 93 (`out of window`) + 45 (`no
-coverage entry`) = 140.
+For the record, the arithmetic is correct: 2 (`by design`) + 98 (`out of
+window`) + 124 (`no coverage entry`) = 224.
 
 ---
 
@@ -267,9 +271,22 @@ produces. Neither the English nor the Russian vendored file states which
 redaction it represents — an open bibliographic question for a future
 pass, not a settled detail.
 
+**Transcription convention, stated once for every quotation drawn from
+either vendored witness in this world's documents:** the English
+1924 printing's OCR carries stray hyphens at line-wraps, `zs` for `is`
+in at least one place, and British punctuation printed outside the
+closing quotation mark; a quotation presented here as verbatim silently
+repairs OCR artifacts of that kind and normalizes typographic ("smart")
+quotation marks to plain ones, while changing no word. The Russian
+Wikisource transcription's own bracketed editorial variant readings
+(distinct from the modern-editorial glosses below) are carried through
+exactly as the file prints them wherever a quotation does not need to
+cross one. This convention governs every quotation in this document,
+Doc_01, Step 0 and the Source Registry; it is not restated at each one.
+
 **The original-language file's own real character:**
 
-- The vendored file contains roughly **ninety** bracketed modern-Russian
+- The vendored file contains **116** bracketed modern-Russian
   editorial glosses interpolated directly into Avvakum's own running
   sentences (e.g. `[правое]`, `[потому что]`, `[так]`, `[чаша, кубок]`) —
   a modern annotated reading edition's own apparatus, not Avvakum's
@@ -287,14 +304,25 @@ pass, not a settled detail.
 - Its own transcription chain (manuscript → critical edition → az.lib.ru
   → this Wikisource copy) remains unverified hop-by-hop.
 
-**How this document uses the two witnesses:** the English 1924
-translation is this world's evidentiary text, chosen for its clean,
-single-hop public-domain status, with the substitution above disclosed.
-The Russian text is a second witness only, per INTAKE.md's own real rule
-(2026-09-02: an original-language text is never itself primary
-evidence) — used here to identify what the English translation omits
-(Doc_01 §4's edition-comparison finding), never as a free-standing
-source for a claim the English cannot also support.
+**How this document uses the two witnesses:** per INTAKE.md's own real,
+current rule (Mark's ruling, 2026-09-25) — language does not decide
+whether a source is primary; credibility and truth do — both vendored
+witnesses are this world's own primary evidence. In practice, this world
+treats the English 1924 translation as the more fully verified working
+text (its own transcription lineage is traced to a specific, dated,
+rights-clean first printing) and the Russian text as equally primary in
+principle but currently constrained by two real, disclosed quotability
+caveats independent of language: its own transcription chain is
+unverified hop-by-hop, and it carries the bracketed editorial glosses
+above, which must be stripped from any passage that contains them before
+quoting. Where a specific Russian passage is clean of those caveats (no
+glosses, and cross-corroborated by the English witness or otherwise
+independently checked), it is directly quotable in its own right, as at
+Doc_01 §4 and §9. A quote record built from this world's own library
+should hold the original-language text as the quoted material, per the
+real rule's own instruction, with a public-domain English rendering
+(where the translation actually carries the same passage) as a useful,
+not required, cross-check.
 
 ---
 
@@ -380,37 +408,33 @@ Documented (§1.1, §6), directly verified.
 ## 14. Disposition of Doc_01's open items
 
 Doc_01 §10 names seven open items. This document does not resolve any of
-them but confirms each is correctly carried to `Open_Gaps_Tracking.md`.
+them but confirms each is correctly carried to `Open_Gaps_Tracking.md`,
+which carries the full, current, append-only record of every open
+question this world's build has raised.
 
 ---
 
-## 15. Open items from this revision
+## 15. Escalation check
 
-`Open_Gaps_Tracking.md` carries the full, current, append-only record of
-every open question this world's build has raised, including this
-revision's own findings.
-
----
-
-## 16. Escalation check
-
-Two matters raised by this world's own construction meet the
-governance/methodology escalation category and are not
-self-dispositioned by this build thread: a fabricated citation to a
-nonexistent INTAKE.md ruling, found to have propagated into `cic/texts/
-REGISTRY.yaml` and `cic/corpus-map/` outside this world's own folder
-before being caught; and three canonical documents having been built
-citing a specification (V1.8) not present in this checkout. Both go to
-Mark directly. The census's own `floorNote`/`statusDescription`, which
-carry an overstated absolute floor claim this world's own vendored
+One matter raised by this world's own construction meets the
+governance/methodology escalation category and is not self-dispositioned
+by this build thread: the census's own `floorNote`/`statusDescription`,
+which carry an overstated absolute floor claim this world's own vendored
 source contradicts, are cited approvingly at a Frozen portfolio gate;
-correcting the census itself is portfolio-level and also goes to Mark.
-Correcting this world's own documents, which this revision does, is
-within this thread's own authority.
+correcting the census itself is portfolio-level, and goes to Mark. A
+second, distinct governance/methodology question is escalated to Mark
+alongside it rather than answered here: whether naming a
+governance/methodology escalation in a Disposition section bars this
+package from self-disposing under CO-022 at all (Step 0 §5). An
+initially-suspected third escalation item — a citation that appeared,
+from this worktree's own stale checkout, to be a fabricated INTAKE.md
+ruling — was found, after merging forward from real `origin/main`, to be
+a real, current, already-merged rule this checkout simply predated; not
+a governance question, resolved by the merge (§16).
 
 ---
 
-## 17. Document log
+## 16. Document log
 
 - **Round 1 draft**, 2026-09-25, this build thread, together with
   `obel_Source_Registry.md`.
@@ -446,11 +470,51 @@ within this thread's own authority.
   open findings rather than silently resolved; the holdings-disposition
   section's docstring citation is corrected to what the module actually
   says, and the finding it was dismissing is left open rather than
-  re-dismissed on a different unverifiable authority; the fabricated
-  INTAKE.md citation is removed from this document (and from `cic/
-  texts/REGISTRY.yaml` and `cic/corpus-map/`, outside this world's own
-  folder); and citations are re-grounded on V1.5, the specification
-  actually present in this checkout. Process narration and a full
-  self-assessment section are removed from the body text; this log
-  entry, together with `Open_Gaps_Tracking.md`, is where that history now
-  lives.
+  re-dismissed on a different unverifiable authority; the (at the time,
+  apparently fabricated) INTAKE.md citation is removed from this document
+  and from `cic/texts/REGISTRY.yaml` and `cic/corpus-map/`, outside this
+  world's own folder; and citations are re-grounded on V1.5, the
+  specification apparently present in this checkout at the time. Process
+  narration and a full self-assessment section are removed from the body
+  text; this log entry, together with `Open_Gaps_Tracking.md`, is where
+  that history now lives.
+- **Correction-of-a-correction, 2026-09-25, this build thread, following
+  the coordinator's own direct check.** This worktree's checkout had
+  branched from a stale local `main`, already well behind real
+  `origin/main` before this session began. Both `V1.8` and `INTAKE.md`'s
+  real 2026-09-25 ruling ("a clean public-domain original can be primary
+  evidence... language is not what decides whether a source is primary —
+  credibility and truth are") were already merged to the real
+  `origin/main` hours earlier; this checkout's own copy simply predated
+  that commit. The citation was real and current, not fabricated. After
+  merging `origin/main` and independently re-reading the real, current
+  `INTAKE.md` directly, the Russian text's status as this world's own
+  primary evidence is restored throughout this document (§0, §1.1, §7),
+  the Registry, `cic/texts/REGISTRY.yaml`, `cic/corpus-map/`, and the
+  Dossier, and citations are re-grounded back onto V1.8, now present in
+  this checkout. The still-live quotability caveats (the unverified
+  transcription chain; the bracketed editorial glosses) are unaffected
+  and remain disclosed.
+- **Round 2 targeted recheck** (`obel_Step0_Doc01_Doc02_Review_
+  Round2_Recheck.md`): **substantial revision required, narrowly.** All
+  six of Round 1's blocking findings confirmed closed; every quotation
+  and locus independently re-verified and found correct. Against this
+  document specifically: the bracketed-gloss count corrected from
+  "roughly ninety" (a byte-versus-character measurement artifact) to
+  116; the former §15 and §16 (a pointer section, and the escalation
+  check) found to still carry revision-bookkeeping framing; §0's "this
+  session vendored two files" phrasing, and the holdings-disposition
+  section's claim that `python -m engine.m9.cli holdings obel` "was run
+  this session" (which, in this checkout, raises `FileNotFoundError`
+  rather than producing a report) found to be inaccurate as printed,
+  though the figures themselves were independently confirmed correct.
+- **Round 3 revision**, 2026-09-25, this build thread. The gloss count
+  corrected to 116 (§7); the former §15 merged into §14 and the remaining
+  sections renumbered; §0's phrasing corrected to a plain statement of
+  what is vendored; §5 corrected to state the actual, current holdings
+  figures (224 vendored files fleet-wide after merging `origin/main`, 2 +
+  98 + 124 = 224) and how they were obtained, rather than a claim this
+  checkout cannot reproduce; the "Built from" block's `corpus_index.py`
+  invocation corrected to the command actually run. A transcription
+  convention (silent OCR repair and smart-quote normalization in
+  quotations, disclosed once) is added at §7.

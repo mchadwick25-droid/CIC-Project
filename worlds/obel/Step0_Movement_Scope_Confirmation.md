@@ -50,8 +50,7 @@ and is noted in Doc_01 as a later development, not in scope.
 **No conflict found** between the census's own record and this
 confirmation. This world's status and window are carried forward as
 already argued at the portfolio gate; nothing here re-opens or
-re-litigates that gate's own decision (a portfolio-level matter, outside
-this thread's authority).
+re-litigates that gate's own decision.
 
 ## 2. The floor test (Constitution Article 4 — Movement-Scope Principle)
 
@@ -134,24 +133,29 @@ strand's own evidentiary base is better known. Logged in this world's
 
 ## 5. Disposition
 
-**Status: Draft, Round 2 — pending re-review.**
+**Status: Draft, Round 3 — pending disposition (escalated, below).**
 
-Two matters raised by this world's own construction meet the
-governance/methodology escalation category and are not self-dispositioned
-by this build thread: a fabricated citation to a nonexistent INTAKE.md
-ruling that propagated beyond this world's own folder before being
-caught, and three canonical documents built citing a specification
-(V1.8) not present in this checkout. Both go to Mark directly. The
-census's own `floorNote`/`statusDescription`, which carry an overstated
-absolute floor claim this world's own vendored source contradicts, are
-cited approvingly at a Frozen portfolio gate; correcting the census
-itself is portfolio-level and also goes to Mark, separately from the
-correction to this document made above, which is within this thread's
-own authority.
+One matter raised by this world's own construction meets the
+governance/methodology escalation category and is not self-dispositioned
+by this build thread: the census's own `floorNote`/`statusDescription`,
+which carry an overstated absolute floor claim this world's own vendored
+source contradicts, are cited approvingly at a Frozen portfolio gate;
+correcting the census itself is portfolio-level and goes to Mark.
 
-With those two items escalated rather than resolved here, and once this
-revision clears independent re-review, this build thread applies
-"Approved to proceed" itself per CO-022's own self-disposition rule.
+A second, distinct governance/methodology question is escalated to Mark
+alongside the census item, rather than answered here: whether naming a
+governance/methodology escalation in this section bars this package from
+self-disposing to "Approved to proceed" under CO-022's own
+self-disposition rule at all, given that the `cic-build-cycle` skill's
+own gate states plainly that when any of the four escalation categories
+applies, the build thread stops and escalates rather than self-disposing
+"regardless of how clean the review came back." This build thread does
+not resolve that reading either way — it is a question about how the
+existing rule applies, not a decision this thread is positioned to make
+on its own package. Because the census item is squarely a
+governance/methodology and portfolio-level escalation, this build thread
+defers disposition of Step 0, Doc_01, Doc_02 and the Source Registry to
+Mark rather than applying "Approved to proceed" itself.
 
 ## 6. Document log
 
@@ -177,4 +181,46 @@ revision clears independent re-review, this build thread applies
   passage this world's own vendored source supplies, in place of the
   census's own overstated absolute floor claim. Process narration is
   removed from the body text above; this log entry is where that history
-  now lives.
+  now lives. This same revision also (at the time, apparently correctly)
+  withdrew a citation to a 2026-09-25 INTAKE.md ruling as unfounded, and
+  re-grounded this world's citations to the process specification on
+  V1.5 rather than V1.8, on the finding that neither the ruling nor V1.8
+  was present in this checkout — see the next entry.
+- **Correction-of-a-correction, 2026-09-25, this build thread, following
+  the coordinator's own direct check.** This worktree's checkout had
+  branched from a stale local `main` (merge-base `41afa0f8`), roughly 150
+  commits behind the real `origin/main` (`58fed0f6`). Both the
+  2026-09-25 INTAKE.md ruling and `CiC_Record_Native_World_Build_Process_
+  V1.8.md` were already merged to real `origin/main` — via PR #594 and
+  commit `077b84fe` respectively — hours before this build thread
+  started; this checkout simply predated them and could not see them.
+  The citation was not fabricated — it was real and current, unreadable
+  only from this stale checkout. After merging `origin/main` (merge
+  commit `169dc5cb`) and independently re-reading the real, current
+  `INTAKE.md` and `V1.8.md` directly (not taking the coordinator's word a
+  second time), this document's escalation is narrowed at §5 above to
+  the one item that was never a stale-checkout artifact: the census's
+  own floor-claim overstatement. The corresponding restoration of the
+  Russian source's own primary-evidence status, and the re-grounding of
+  citations from V1.5 back onto V1.8, are made in `Doc_01` §4/§10/§13,
+  `Doc_02` §0/§1.1/§7/§16/§17, the `obel_Source_Registry.md`,
+  `cic/texts/REGISTRY.yaml`, `cic/corpus-map/`, and the Dossier — each
+  disclosed there as its own dated correction-of-a-correction, and in
+  `Open_Gaps_Tracking.md`. This entry, and the ones it points to, are
+  left standing alongside the Round 2 entry above rather than replacing
+  it, so the record shows both what was believed at the time and why it
+  changed.
+- **Round 2 targeted recheck** (`obel_Step0_Doc01_Doc02_Review_
+  Round2_Recheck.md`): **substantial revision required, narrowly.** All
+  six of Round 1's blocking findings confirmed closed; every quotation
+  and locus re-verified independently and found correct. What remained
+  against this document: the §1 aside naming this section's own
+  jurisdiction (removed above, Finding 29); this section's own
+  self-disposition sentence, read against the escalation categories it
+  names in the same breath (N6 — put to Mark rather than resolved here,
+  above).
+- **Round 3 revision**, 2026-09-25, this build thread. §1's jurisdictional
+  aside removed. §5 no longer self-dispositions; disposition of the
+  whole package is deferred to Mark, and the tension between naming an
+  escalation category and self-disposing under CO-022 is itself named as
+  a second escalation item (N6) rather than resolved by this thread.
