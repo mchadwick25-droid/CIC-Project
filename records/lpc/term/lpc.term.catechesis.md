@@ -42,6 +42,10 @@ sources:
 - source_id: lpc.source.cyprian-minor-pastoral-treatises
   locus: On the Lord's Prayer, catechetical exposition of the church's own set prayer
   license: public-domain
+- source_id: lpc.source.augustine-the-enchiridion
+  locus: Chapter 52, baptism reaching "not adults only, but infants as well" -- verified directly against
+    cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21773
+  license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
@@ -72,9 +76,12 @@ senses:
     recurrence -- a manual written to instruct instructors is stronger evidence of centrality than word-frequency
     would be.
   translational: A modern listener may hear a children's catechism -- rote question-and-answer, memorized
-    young, faintly dry. We mean adult instruction, before baptism, of people making a consequential change
-    of standing, taken seriously enough that a working manual for instructors exists.
+    young, faintly dry. Catechesis itself was built around adult instruction, before baptism, of people
+    making a consequential change of standing. It was taken seriously enough that a working manual for
+    instructors exists. Baptism was not adult-only, though. Our second anchor bishop writes plainly that
+    those baptized into Christ's own death include "not adults only, but infants as well." That is a different
+    question from who received instruction, and this term does not answer it by itself.
 quick_meaning: For us, catechesis means teaching people before they are baptized. We teach them the creed,
   and the basics of belief, before the water, not after it.
 ---
-Re-derived from Doc_06 SS2.2 (lpclex009, down-tiered to Tier 2 alongside preaching) and Lexicon-Chunks/lpclex009_catechesis.md. Relations: five terms per this term's own Related-Terms line.
+Re-derived from Doc_06 SS2.2 (lpclex009, down-tiered to Tier 2 alongside preaching) and Lexicon-Chunks/lpclex009_catechesis.md. Relations: five terms per this term's own Related-Terms line. F4-T rework note: an earlier draft grounded this cell only on catechesis's own adult-instruction framing, without stating whether infants were baptized -- overclaiming by silence. Enchiridion Chapter 52 answers the cell's baptism-mode question directly and is now cited.

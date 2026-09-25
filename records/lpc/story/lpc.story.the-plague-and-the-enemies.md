@@ -40,6 +40,8 @@ relations:
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.figure.pontius
+- type: associated-with
+  target: lpc.witness.restless-heart-and-the-unrepentant-enemy
 narrative_tier: 1
 narrative_tier_justification: 'Widely Accepted. Tier 1 at the narrative level, Widely Accepted rather
   than Documented (Doc_09 SS3). Pontius is a named eyewitness within the horizon, and the epidemic itself

@@ -25,6 +25,8 @@ relations:
 - type: associated-with
   target: lpc.contested.grace-pelagius-characterization
 - type: associated-with
+  target: lpc.witness.violence-commanded-not-cruel
+- type: associated-with
   target: lpc.gravity.penitential-discipline
 - type: associated-with
   target: lpc.gravity.preaching-and-catechesis

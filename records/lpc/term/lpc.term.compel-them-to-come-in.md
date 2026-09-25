@@ -6,7 +6,7 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F6-P
+- F3-P
 relations:
 - type: illustrated-by
   target: lpc.demo.compel-three-phase

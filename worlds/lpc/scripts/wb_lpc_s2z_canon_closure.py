@@ -1,52 +1,30 @@
 """S2z: Latin Pastoral-Congregational Christianity (lpc) canon closure --
 the 10 cells wb_lpc_s2y_canon_cells.py left genuinely empty (C-E, C-I, C-P,
 C-T, F2-P, F2-T, F3-E, F4-E, F4-P, F5-T), closed the way don's own live-
-shipped world was actually closed and rzg's own wb_rzg_s2z_canon_closure.py
-(read in full before this script was written) already did for its own
-world: not left as a disclosed partial state, but answered where this
-world's own corpus genuinely supports an answer, and named as a real
-absence, via honest_limit, only where it does not.
+shipped world was actually closed: not left as a disclosed partial state,
+but answered where this world's own corpus genuinely supports an answer,
+and named as a real absence, via honest_limit, only where it does not.
 
-WHY THIS STEP EXISTS, CONFIRMED DIRECTLY THIS SESSION, NOT ASSUMED: engine.
-m9.enforce.GRANDFATHERED_WORLDS (read in full this session) is "the fixed
-set of worlds built before this gate existed -- it only ever shrinks, never
-grows." lpc is NOT in that set (which currently reads: alx, cappadocian,
-desert, don, gallic, hal, ijc, pahc, syr, rzg, witt). A world outside that
-set that ships with any canon-coverage gate finding cannot cleanly enter
-the registry -- confirmed directly against wb_rzg_s2z_canon_closure.py's
-own docstring, which names the identical requirement for rzg and cites the
-same don precedent (don's own 10 cells left open by its own s2y script were
-later closed by a separate commit, 22dd00b0, before don entered the
-registry). This step is therefore required before M3 admission, not an
-optional enrichment pass -- named explicitly as still-owed by wb_lpc_s2y_
-canon_cells.py's own "WHAT THIS SCRIPT DOES NOT DO" section, which this
-script now completes.
+WHY THIS STEP EXISTS: engine.m9.enforce.GRANDFATHERED_WORLDS is the fixed
+set of worlds built before that gate existed; it only shrinks, never
+grows. lpc is not in that set, so it cannot cleanly enter the registry
+while any canon-coverage gate finding remains open. This step is required
+before M3 admission, not an optional enrichment pass.
 
-GOVERNING DISCIPLINE, carried directly from don's own Answer-the-Canon
-commit message, quoted in rzg's own s2z docstring and reused here: "Where a
-cell's variants have no ground in records/lpc/, the record refuses in the
-voice rather than importing a plausible position." Every record below is
-built from either (a) already-independently-verified lpc content the s2y
-tagging pass immediately prior already checked and tagged, or (b) two
-specific vendored primary sources read directly THIS session for the first
-time and verified verbatim against the vendored XML before being quoted --
-named individually below, with exact line numbers, precisely because they
-are new reads this pass makes that no earlier lpc script performed:
-  - cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml,
-    the Enchiridion, Chapter 53 (line 21778) and Chapter 56 (line 21851) --
-    already catalogued as lpc.source.augustine-the-enchiridion (vendored,
-    read but never yet built into any lpc record before this script).
-  - cic/texts/npnf101_augustine-confessions-letters.xml, Book VIII, Chapter
-    VII, §17 (line 12669, quotation at line 12747) -- already catalogued as
-    lpc.source.augustine-confessions and already cited generically by lpc.
-    term.catechesis ("the Confessions, narrating a catechumenate and
-    baptism from the inside"), but this specific quotation is a first
-    direct read and verbatim check this session, not reused from any prior
-    record's own locus.
-No new primary-source claim is introduced anywhere else in this script
-beyond these two, both re-verified verbatim against the vendored file
-before being quoted, per CLAUDE.md's own "every quote must be re-verified
-verbatim against the vendored source file before a record passes review."
+GOVERNING DISCIPLINE, carried from don's own Answer-the-Canon precedent:
+"Where a cell's variants have no ground in records/lpc/, the record
+refuses in the voice rather than importing a plausible position."
+
+REWORK NOTE: an independent fidelity review found that this
+script's first pass checked each honest_limit's claimed absence only
+against lpc's own already-tagged records, never against Doc_02 or the
+vendored corpus directly. Six of the seven honest_limit records below were,
+on that check, contradicted by material already in this world's own
+vendored sources. The per-cell disposition below reflects the corrected
+state: each affected cell now carries a doctrinal_witness record for the
+material the corpus does contain, and a narrowed honest_limit for what
+genuinely remains absent. Full findings are logged in OG-14,
+worlds/lpc/Open_Gaps_Tracking.md.
 
 ===========================================================================
 PER-CELL DISPOSITION
@@ -56,145 +34,132 @@ PER-CELL DISPOSITION
 news..." / "What did Jesus teach that mattered most..." / "What did his
 death mean to you?" / "What did you believe happened at the resurrection
 -- and what difference did it make?") -- WITNESS --- lpc.witness.the-
-pattern-we-are-modelled-on. Built from the Enchiridion, Chapter 53 (read
-and verified directly this session): Christ's own crucifixion, burial,
-resurrection, and ascension "were so ordered, that the life which the
+pattern-we-are-modelled-on. Built from the Enchiridion, Chapter 53: Christ's
+own crucifixion, burial, resurrection, ascension into heaven, and sitting
+at the right hand of the Father "were so ordered, that the life which the
 Christian leads here might be modelled upon them, not merely in a mystical
 sense, but in reality" -- a direct, substantive answer to this cell's own
-fourth and fifth questions (what his death and resurrection meant, and
-what difference it made: our own life is patterned on the same shape,
-concretely, not as metaphor alone). Named explicitly, not overclaimed:
-this record does not answer "what did Jesus teach that mattered most" or
-state "the good news" as its own separate kerygma narrative -- no lpc
-record does either -- and "who was Jesus, to you and your people" is
-answered only thinly, through the shape of his death and rising, not as
-its own developed portrait.
+fourth and fifth questions. Named explicitly, not overclaimed: this record
+does not answer "what did Jesus teach that mattered most" or state "the
+good news" as its own separate kerygma narrative -- no lpc record does
+either -- and "who was Jesus, to you and your people" is answered only
+thinly, through the shape of his death and rising, not as its own
+developed portrait. Rework note: an earlier draft dropped "ascension into
+heaven" and rendered "not merely in a mystical sense" as "not a story" --
+both corrected to restore the source's own full event list and wording.
 
 --- C-E ("What did your people actually have about Jesus... how did it
 reach you?" / "Had anyone among you known someone who saw him?" / "How do
-you know the resurrection really happened?") -- HONEST LIMIT, not a
-witness --- lpc.limit.no-chain-of-witnesses. Checked directly against all
-67 term/story/quote/gravity/force/contested_claim/figure records (the
-s2y tagging pass immediately prior) and both newly-read Enchiridion
-chapters: this world's own corpus never argues FOR the resurrection as a
-historical claim needing evidence, and never names a personal chain of
-memory reaching back to an eyewitness. It states the creed (received,
-taught, said back before baptism -- lpc.term.catechesis) and reasons FROM
-it, not TO it. A genuine, checked absence, distinct from C-I's own
-different question (what the death/resurrection MEANT, which the corpus
-does answer).
+you know the resurrection really happened?") -- HONEST LIMIT, narrowed ---
+lpc.limit.no-chain-of-witnesses. No lpc record names a personal or living
+chain of memory reaching back to an eyewitness -- that remains a genuine,
+checked absence. But City of God XXII.5 does argue evidentially for the
+resurrection's own credibility, from the world's belief in the apostles'
+own written testimony; an earlier draft's blanket claim that this world
+"never argues toward the resurrection as a conclusion from evidence" was
+false, and is corrected in the record itself.
 
 --- C-P ("I want to believe in Jesus, but I can't. What would you say to
 me?" / "Who is Jesus to you -- not to your church, to you?" / "Would
 Jesus have wanted anything to do with someone like me?") -- WITNESS ---
 lpc.witness.grant-me-chastity-but-not-yet. Built from Confessions VIII.
-vii.17 (read and verified directly this session, exact wording confirmed
-against the vendored XML): "Grant me chastity and continency, but not
-yet" -- Augustine's own prayer, delaying his own conversion for years
-after he was already persuaded, afraid of what surrendering would cost
-him. A direct, first-person answer to this cell's own first question from
-inside this world's own corpus, not a generic pastoral reassurance
-invented for the occasion. Named explicitly: this is one of our own
-figures' own remembered struggle, not a claim that every believer's own
-path matched it, and it does not independently answer this cell's own
-second or third questions beyond what the same episode implies.
+vii.17-18: "Grant me chastity and continency, but not yet" -- a prayer
+from Augustine's own youth ("in the very outset of my youth"), recalled
+later in the same book alongside a harder, separate moment where the truth
+had become certain to him and the old burden still had not lifted. A
+direct, first-person answer to this cell's own first question. Rework
+note: an earlier draft misdated the prayer to a moment of settled
+persuasion and called Augustine "one of our own founders"; both corrected.
+
+--- C-T ("Was Jesus God? Did you hold to the Trinity?") -- WITNESS ---
+lpc.witness.the-only-son-and-the-trinity. Built from the Enchiridion,
+Chapter 56: shared, inherited orthodox Christology, not this world's own
+point of distinctiveness, but stated plainly where the fleet question asks
+for it. Rework note: an earlier draft claimed this world "does not differ
+from any other church around us, then or now" and called the question "not
+difficult." Both overclaimed: Possidius, Chapter 17, records Augustine's
+own public conference with the Arian bishop Maximinus at Hippo, held
+specifically over the Trinity, and the Vandals who later besieged Hippo
+held the same Arian position. Corrected to name the dispute.
 
 --- F2-P ("What did your people look for in these texts that a modern
 reader might miss?" / "The violence in some of these texts frightens me.
-Did it trouble your people?") -- HONEST LIMIT --- lpc.limit.violence-in-
-scripture-unaddressed. No lpc record anywhere reflects on scripture's own
-violent content as a source of difficulty, or names what a modern reader
-specifically might miss. Genuinely distinct from F2-I (already substantive
-via lpc.term.preaching, answering HOW this world read scripture, not
-whether its content troubled them).
+Did it trouble your people?") -- WITNESS, not a limit --- lpc.witness.
+violence-commanded-not-cruel. Reply to Faustus XXII.71-79 answers this
+cell directly and at length: violence carried out under God's own command
+is framed as obedience and just retribution, not cruelty, and the earlier
+draft's claim that "nothing in our own record says the violence troubled
+us" understated what the corpus actually contains -- it does not merely
+stay silent, it argues the case. lpc.limit.violence-in-scripture-
+unaddressed is retired; the cell is fully answered.
 
 --- F2-T ("Did you believe the Bible was the only authority?" / "Did you
 read Genesis the way modern people argue about it -- as science?") --
-HONEST LIMIT --- lpc.limit.scriptures-own-place-unaddressed. Considered
-directly whether this world's own conciliar material (lpc.term.bishop-of-
-bishops, lpc.term.plenary-council, already substantive at F1-I) could
-answer this cell's own first question by inference (real councils implies
-scripture was not the sole authority) -- declined: neither record states a
-position on scripture's own authority relative to the episcopate, only on
-who resolves a dispute among bishops, and inferring a "sola scriptura" or
-its opposite from that silence would present this world as more settled
-on this specific question than its own corpus actually is. No record
-touches Genesis or a literal/scientific reading of it. Left as a genuine,
-checked absence rather than an inferential stretch.
+WITNESS plus HONEST LIMIT, narrowed --- lpc.witness.scripture-above-
+councils answers the first question: On Baptism II.3.4 ranks the canon of
+scripture above every later letter of a bishop, and even above an earlier
+plenary council correctable by a later one; Cyprian's Epistle 73 holds a
+kindred conviction ("custom without truth is the antiquity of error").
+lpc.limit.scriptures-own-place-unaddressed is narrowed to the Genesis-as-
+science question alone, which no lpc record touches.
 
 --- F3-E ("Were Christians really hiding in the catacombs?" / "Did
 Constantine corrupt the church -- did the empire change what you were?"
 / "What would an outsider have found strangest about you?" / "What did
-your neighbours say about you -- what were you accused of?") -- HONEST
-LIMIT --- lpc.limit.the-outsiders-own-view. Checked directly against
-lpc.force.standing-legal-condition-unlicensed-religion and lpc.force.
-illegal-to-established-shift (both already read in full at the s2y pass):
-neither states a position on any of this cell's own four sub-questions --
-they describe this world's own legal status, not an outsider's own
-perception of it, an image of hidden worship, or a specific accusation.
-No lpc term/story/quote addresses external pagan perception, and this
-world's Cyprian phase is pre-Constantine while its Augustine phase engages
-church-state pressure only through the Donatist-schism/coercion material,
-already tagged F6-T/F6-P, not through "did Constantine corrupt the
-church" as its own distinct claim. A genuine, checked absence.
+your neighbours say about you -- what were you accused of?") -- WITNESS
+plus HONEST LIMIT, narrowed --- lpc.witness.blamed-for-the-worlds-troubles
+answers the fourth sub-question: An Address to Demetrianus reports and
+rebuts a real pagan charge, that Christians caused the world's wars,
+plague, and famine by refusing to worship the old gods. lpc.limit.the-
+outsiders-own-view is narrowed to the remaining three sub-questions
+(catacombs, Constantine, an outsider's own strangeness-perception), which
+remain genuine, checked absences.
 
 --- F4-E ("How do you know your practices went back to the apostles and
-weren't later inventions?") -- HONEST LIMIT --- lpc.limit.apostolic-
-origin-undefended. Considered directly whether lpc.term.the-one-episcopate
-(De Unitate's own ecclesiology) could ground an apostolic-succession
-answer -- declined: that term's own divergence_note states plainly that
-Doc_03 instructs drawing on De Unitate "for its general ecclesiology only,"
-explicitly not extending its claims toward the Roman-primacy reading that
-chapters 4-5's own disputed "Primacy Text" recension carries (lpc.
-contested.de-unitate-recensions, already tagged F2-E) -- reaching past
-that disclosed boundary to construct an apostolic-lineage claim this
-world's own already-built record deliberately declines to make would be
-exactly the kind of overclaim CLAUDE.md's own fidelity rule bars. lpc.
-force.inherited-latin-theological-vocabulary (already tagged F2-I) shows
-vocabulary continuity, not practice continuity, and cannot answer this
-cell alone in any case (force is not a substantive type). No lpc record
-traces catechesis, preaching, reconciliation, or any other named practice
-to the apostles, or explicitly defends any of them against a charge of
-invention. A genuine, checked absence.
+weren't later inventions?") -- WITNESS plus HONEST LIMIT, narrowed ---
+lpc.witness.tradition-tested-by-apostolic-warrant: Cyprian's Epistle 73
+and Augustine's On Baptism V.23 both engage the apostolic-origin question
+directly, for the disputed practice of rebaptism, but disagree on the
+test -- written apostolic warrant against presumed unwritten custom. lpc.
+limit.apostolic-origin-undefended is narrowed: no lpc record traces
+catechesis, preaching, reconciliation, or any other named pastoral
+practice to the apostles by name, which remains a genuine, checked
+absence. lpc.term.the-one-episcopate stays bounded to De Unitate's general
+ecclesiology, not extended toward the disputed Roman-primacy recension
+(lpc.contested.de-unitate-recensions).
 
 --- F4-P ("I can't quiet my own head..." / "How do I forgive someone who
-isn't sorry?" / "I pray and nothing happens...") -- HONEST LIMIT --- lpc.
-limit.the-unquiet-mind-and-the-unrepentant. Considered directly whether
-lpc.demo.road-back-examined's own "a door with no examination behind it is
-no door at all" content answers "how do I forgive someone who isn't
-sorry" -- declined, the same finding wb_lpc_s2y_canon_cells.py's own F4-P
-entry already reached: that content argues the opposite case, that
-reconciliation properly waits on genuine, examined change, not that an
-unrepentant party should be forgiven regardless; stretching it here would
-misrepresent both the content and this cell's own question. Purely
-personal-devotional-interior questions this institutional, doctrinal,
-historical corpus does not otherwise reach.
+isn't sorry?" / "I pray and nothing happens...") -- WITNESS plus HONEST
+LIMIT, narrowed --- lpc.witness.restless-heart-and-the-unrepentant-enemy
+answers the first two sub-questions: Confessions I.i.1 ("our hearts are
+restless till they find rest in Thee") and the Enchiridion, Chapters 73-74
+(loving an enemy who "wishes you ill," while full pardon still waits on
+the other person's own asking). lpc.limit.the-unquiet-mind-and-the-
+unrepentant is narrowed to the third sub-question, prayer that goes
+unanswered, which remains a genuine, checked absence.
 
 --- F5-T ("What did marriage mean to your people -- did you have
 weddings?" / "How did you look at money and poverty -- would you call
-anyone among you rich?") -- HONEST LIMIT --- lpc.limit.wealth-and-
-marriage-untaught. Considered directly whether lpc.story.hundred-thousand-
-sesterces (the ransom sum raised for captured believers, already tagged
-F5-P) answers this cell's own wealth question -- declined: that is a
-specific ransom-fundraising fact belonging to F5-P's own cost-and-
-solidarity question, not a teaching or attitude toward wealth and poverty
-as such. No lpc record touches marriage or weddings. A genuine, checked
+anyone among you rich?") -- WITNESS plus HONEST LIMIT, narrowed --- lpc.
+witness.almsgiving-quenches-sin answers the wealth question: On Works and
+Alms teaches almsgiving as the ordinary remedy for post-baptismal sin,
+addressed to believers who had real money, including "a wealthy and rich
+matron in Christ's Church." lpc.limit.wealth-and-marriage-untaught is
+narrowed to marriage: On the Dress of Virgins names weddings only as an
+occasion virgins were warned away from, confirming weddings took place but
+stating no teaching on marriage itself, which remains a genuine, checked
 absence.
 
 ===========================================================================
 SOURCES AND RECIPROCITY
 ===========================================================================
-Every `sources[]` entry below either cites the two newly-read Enchiridion/
-Confessions loci directly (the three doctrinal_witness records) or the
-already-cleared lpc.source.* record whose own summary grounds the negative
-finding (the seven honest_limit records, each citing the specific already-
-tagged term/force/contested_claim/story record checked and declined, per
-CLAUDE.md's own "no invented" rule -- a negative finding still needs to
-show its own work). relations[] on all ten records is [] -- none has a
-single natural reciprocity target the way, e.g., F5-I's own gravity
-associations do; matching this world's own s2y precedent for record types
-whose content is a finding about the corpus as a whole rather than an
-illustration of one gravity or force.
+Every `sources[]` entry cites either a primary vendored locus, re-verified
+verbatim before being quoted, or the already-cleared lpc.source.* record
+whose own summary grounds a negative finding, per CLAUDE.md's own "no
+invented" rule -- a negative finding still needs to show its own work.
+Six of the ten cells now carry both a doctrinal_witness and a narrowed
+honest_limit, linked to each other by relations[]/nearest_material[],
+rather than a single record per cell.
 
 ===========================================================================
 DOES NOT TOUCH
@@ -214,24 +179,6 @@ VALIDATION
 Run standalone (python3 worlds/lpc/scripts/wb_lpc_s2z_canon_closure.py
 --validate) against engine.m1.loader/schemas/gates, lpc's real records
 (post-write), the real fleet, and the real registry.
-
-VALIDATION RESULT: first pass surfaced 3 findings, all fixed and re-
-confirmed clean by a second --validate run, not left for a later pass --
-completion-per-type (lpc.witness.the-only-son-and-the-trinity's own
-tensions field was [], and COMPLETION_REQUIRED's own _is_blank() treats an
-empty list as missing, unlike term.false_friend's own deliberate "empty
-list is a valid answer" exemption; fixed by naming a genuine tension this
-record actually has -- that C-T is the one place this world does not
-differ from any neighboring church, disclosed rather than dressed up as
-distinctive) and readability (two honest_limit statements, apostolic-
-origin-undefended and violence-in-scripture-unaddressed, scored FK grade
-11.9 and 10.7 against a ceiling of 10; both rewritten with shorter
-sentences and plainer words, no content removed). All 21 m1 gates now
-clean, including canon-coverage: 0 findings, all 28 cells closed -- 17
-substantive (C-I, C-P, C-T, F1-I, F1-P, F1-T, F2-I, F3-I, F3-T, F4-I,
-F4-T, F5-I, F5-P, F6-E, F6-I, F6-P, F6-T), 11 honest_limit (C-E, F1-E,
-F2-E, F2-P, F2-T, F3-E, F3-P, F4-E, F4-P, F5-E, F5-T), 0 empty, 0
-multiple_honest_limit.
 """
 from __future__ import annotations
 
@@ -276,6 +223,13 @@ def retrieval(tier, retrieve_when=None, do_not=None):
     return {"tier": tier, "retrieve_when": retrieve_when or [], "do_not_retrieve_when": do_not or []}
 
 
+# NOTE (rework): the records/lpc/*.md files this script originally
+# wrote have since been hand-revised directly (see OG-14). The data below is
+# the script's own original, one-time generation input and is now stale
+# relative to the live records; it is kept as the build's own history, not
+# re-run. Do not execute this script's write path again without first
+# updating WITNESSES/LIMITS to match the live records, or it will overwrite
+# the rework with the original, contradicted content.
 WITNESSES: list[dict] = [
     dict(
         slug="the-pattern-we-are-modelled-on",
@@ -424,6 +378,8 @@ def emit_witness(w: dict) -> Path:
     return _write("doctrinal_witness", rid, payload, w["body"])
 
 
+# See the NOTE above WITNESSES: stale relative to the hand-revised live
+# records (OG-14); kept as build history, not re-run as-is.
 LIMITS: list[dict] = [
     dict(
         slug="no-chain-of-witnesses",
@@ -701,10 +657,7 @@ def main() -> int:
 
         records = load_world_records("lpc")
         fleet = load_fleet_records()
-        try:
-            registry = load_registry()
-        except Exception:
-            registry = {}
+        registry = load_registry()
         print("Running gate battery against the real lpc + fleet corpus (post-write)...")
         results = gates.run_all(records, fleet, registry)
         any_findings = False

@@ -14,21 +14,29 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-- source_id: lpc.source.pontius-life-and-passion-of-cyprian
-  locus: the ransom sum raised for captured believers, a specific fundraising fact, not a teaching on
-    wealth as such
+- source_id: lpc.source.cyprian-minor-pastoral-treatises
+  locus: On the Dress of Virgins, SS18, weddings named only as an occasion virgins were warned away from,
+    never as a teaching on marriage itself
   license: public-domain
-relations: []
-statement: What did marriage mean among us -- did we have weddings? How did we regard wealth and poverty
-  -- would you call anyone among us rich? I have no teaching to give you on either. We raised a very large
-  sum once, to ransom captured believers -- that much is a fact in our own record -- but it is a fact
-  about what one crisis cost us, not a teaching about wealth itself. I will not invent one to fill the
-  silence.
-why_sources_cannot_answer: 'Checked directly whether lpc.story.hundred-thousand-sesterces (already tagged
-  F5-P) answers this cell''s own wealth question -- declined: that is a specific ransom-fundraising fact
-  belonging to F5-P''s own cost-and-solidarity question, not a teaching or attitude toward wealth and
-  poverty as such. No lpc record touches marriage or weddings at all.'
+relations:
+- type: associated-with
+  target: lpc.witness.almsgiving-quenches-sin
+statement: What did marriage mean among us -- did we have weddings? On wealth, I have a real teaching
+  to give you, held elsewhere. On marriage, I do not. We know weddings happened; one of our own treatises
+  warns virgins away from attending them, over the drinking and the coarse talk. But that is a warning
+  about attendance, not a teaching about marriage itself. I will not invent one to fill that silence.
+why_sources_cannot_answer: 'On the Dress of Virgins, SS18, names weddings only as an occasion to be avoided
+  by virgins -- drunken banquets, coarse talk -- confirming that weddings took place among us, but stating
+  no teaching on marriage as a state, a vocation, or a sacrament. No other lpc record touches marriage
+  at all. This is distinct from the wealth question, which this world''s own corpus answers directly
+  (lpc.witness.almsgiving-quenches-sin).'
 nearest_material:
 - lpc.story.hundred-thousand-sesterces
+- lpc.witness.almsgiving-quenches-sin
 ---
-Celled to F5-T ('What did marriage mean to your people -- did you have weddings?' / 'How did you look at money and poverty -- would you call anyone among you rich?'). A genuine, checked absence. relations: [], matching this world's own s2y precedent.
+Celled to F5-T ('What did marriage mean to your people -- did you have weddings?' / 'How did you look
+at money and poverty -- would you call anyone among you rich?'). Narrowed from an earlier draft that
+also claimed no teaching on wealth exists -- false: On Works and Alms teaches it directly, at length
+(lpc.witness.almsgiving-quenches-sin). What remains a genuine, checked absence is any teaching on marriage
+itself; weddings are attested as a real practice, but only as something a separate treatise warns virgins
+away from attending.

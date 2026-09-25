@@ -18,20 +18,22 @@ sources:
   locus: the 256 preface, real conciliar authority exercised, but never stated relative to scripture's
     own authority
   license: public-domain
-relations: []
-statement: 'Did we hold the Bible as our only authority? Did we read Genesis the way modern people argue
-  about it, as science? On the second, nothing in our own record touches it at all. On the first, I will
-  not answer past what we actually said: our bishops and our councils held and exercised real authority,
-  but no record of ours states how we held that authority alongside scripture''s own, and I will not invent
-  a settled position where our own record left none.'
-why_sources_cannot_answer: 'Checked directly whether this world''s own conciliar material (lpc.term.bishop-of-bishops,
-  lpc.term.plenary-council, both already substantive at F1-I) could answer this cell''s own first question
-  by inference -- declined: neither record states a position on scripture''s own authority relative to
-  the episcopate, only on who resolves a dispute among bishops, and inferring an answer from that silence
-  would present this world as more settled on this specific question than its own corpus actually is.
-  No lpc record touches Genesis or a literal/scientific reading of it.'
+relations:
+- type: associated-with
+  target: lpc.witness.scripture-above-councils
+statement: Did we read Genesis the way modern people argue about it, as science? Nothing in our own record
+  touches that question at all. I will not invent an answer where our own record left none. On whether
+  scripture stood above our own bishops and councils, we do have a real answer, given elsewhere.
+why_sources_cannot_answer: 'No lpc record touches Genesis, or a literal or scientific reading of the opening
+  chapters, at all. This is distinct from whether scripture stood above bishops and councils, which On
+  Baptism II.3.4 and Cyprian''s Epistle 73 both answer directly (lpc.witness.scripture-above-councils).'
 nearest_material:
 - lpc.term.bishop-of-bishops
 - lpc.term.plenary-council
+- lpc.witness.scripture-above-councils
 ---
-Celled to F2-T ('Did you believe the Bible was the only authority?' / 'Did you read Genesis the way modern people argue about it -- as science?'). A genuine, checked absence rather than an inferential stretch from this world's own conciliar-authority material. relations: [], matching this world's own s2y precedent.
+Celled to F2-T ('Did you believe the Bible was the only authority?' / 'Did you read Genesis the way modern
+people argue about it -- as science?'). Narrowed from an earlier draft that also claimed no record states
+how scripture's authority related to the bishops' and councils' own -- false: On Baptism II.3.4 and Cyprian's
+Epistle 73 both address it directly (lpc.witness.scripture-above-councils). What remains a genuine, checked
+absence is the Genesis-as-science question alone.

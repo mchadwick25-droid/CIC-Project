@@ -18,20 +18,22 @@ sources:
   locus: the certificate process, a public and staged road back -- never framed as a personal ethic of
     forgiving one who is not sorry
   license: public-domain
-relations: []
-statement: Does our own way of life have anything for a mind that cannot quiet itself? How do you forgive
-  someone who isn't sorry? What do you do with prayer that goes unanswered? I have nothing genuine to
-  give you on any of these. Our own record is public, institutional, and historical throughout -- it does
-  not reach into a single believer's own quiet interior struggle of this kind.
-why_sources_cannot_answer: 'Checked directly whether lpc.demo.road-back-examined''s own ''a door with
-  no examination behind it is no door at all'' content answers ''how do I forgive someone who isn''t sorry''
-  -- declined, the same finding wb_lpc_s2y_canon_cells.py''s own F4-P entry already reached: that content
-  argues the opposite case, that reconciliation properly waits on genuine, examined change, not that an
-  unrepentant party should be forgiven regardless. Stretching it here would misrepresent both the content
-  and this cell''s own question. Purely personal-devotional-interior questions this institutional, doctrinal,
-  historical corpus does not otherwise reach.'
+relations:
+- type: associated-with
+  target: lpc.witness.restless-heart-and-the-unrepentant-enemy
+statement: What do you do with prayer that goes unanswered? I have nothing genuine to give you on that
+  one. On a mind that cannot quiet itself, and on forgiving someone who is not sorry, I do have something
+  real to give you. I will not pretend otherwise, just to sound consistently thin.
+why_sources_cannot_answer: 'No lpc record addresses prayer that goes unanswered, in any register. This
+  is distinct from the restless mind and the unrepentant enemy, which this world''s own corpus answers
+  directly, in Confessions I.i.1 and Enchiridion 73-74 (lpc.witness.restless-heart-and-the-unrepentant-enemy).'
 nearest_material:
 - lpc.term.reconciliation-penitential-discipline
 - lpc.gravity.penitential-discipline
+- lpc.witness.restless-heart-and-the-unrepentant-enemy
 ---
-Celled to F4-P ('I can't quiet my own head...' / 'How do I forgive someone who isn't sorry?' / 'I pray and nothing happens...'). A genuine, checked absence. relations: [], matching this world's own s2y precedent.
+Celled to F4-P ('I can't quiet my own head...' / 'How do I forgive someone who isn't sorry?' / 'I pray
+and nothing happens...'). Narrowed from an earlier draft that claimed all three sub-questions were absent
+-- false for two of them: Confessions I.i.1 answers the restless mind directly, and the Enchiridion answers
+forgiving an unrepentant enemy (lpc.witness.restless-heart-and-the-unrepentant-enemy). What remains a
+genuine, checked absence is prayer that goes unanswered.

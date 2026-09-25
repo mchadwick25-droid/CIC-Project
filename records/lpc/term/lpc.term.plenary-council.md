@@ -16,6 +16,8 @@ relations:
   target: lpc.term.heresy
 - type: associated-with
   target: lpc.term.the-one-episcopate
+- type: associated-with
+  target: lpc.witness.scripture-above-councils
 confidence:
   citation_specificity: A
   verification_state: verified-direct

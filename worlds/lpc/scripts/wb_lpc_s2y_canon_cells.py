@@ -291,8 +291,18 @@ own specific sub-questions (outsider-strangest, neighbours'-accusations,
 Constantine) rather than the general legal-danger backdrop already
 credited at F3-I above. Left empty rather than stretched.
 
---- F3-P (the-lapsed-own-account) -- ALREADY HONEST_LIMIT, NOT TOUCHED ---
-Pre-existing. This script does not add or remove any record here.
+--- F3-P (the-lapsed-own-account) -- ALREADY HONEST_LIMIT, UPGRADED TO
+SUBSTANTIVE (rework, retagged from F6-P) --- term: lpc.term.compel-them-to-come-in
+  (Augustine's own three-phase reversal on coercion -- reported honestly,
+  all three phases, "not the one that is easiest to defend"), retagged
+  here from F6-P; contested_claim: lpc.contested.compel-coercion-
+  development (whether that reversal is a genuine change of mind or a
+  retrospective self-presentation), retagged here from F6-P. Both answer
+  _fleet.canon.f3-p-02 ("Your church used power against Christians who
+  disagreed. Defend that.") directly. The pre-existing honest_limit's own
+  finding (no lapsed believer's own first-person account survives) is a
+  genuinely different claim, answering a different sub-question, and
+  stands unchanged.
 
 --- F3-T ("Was your church 'Catholic'?" / denominations / handling other
 communities) -- ALREADY SUBSTANTIVE (lpc.witness.communion-over-
@@ -370,16 +380,18 @@ empty.
 
 --- F4-T ("Were you born again" / tithing / rapture-eschatology / "Did you
 baptise babies, or only adults who chose it for themselves?") --
-SUBSTANTIVE --- term: lpc.term.catechesis (read in full this session: "We
-  mean adult instruction, before baptism, of people making a consequential
-  change of standing" -- a direct, disclosed-narrower answer to this
-  cell's own fourth question specifically, not the born-again/tithing/
-  eschatology sub-questions, which no lpc record touches). Also tagged
-  F4-I above, a genuine dual (see F4-I's own entry).
-NOT claimed: this term does not state that infant baptism was absent or
-  forbidden, only that the norm it describes is adult catechumens choosing
-  baptism after instruction -- named here rather than overclaimed, the
-  same disclosure discipline don's own script used for its own F4-E entry.
+SUBSTANTIVE --- term: lpc.term.catechesis. Also tagged F4-I above, a
+  genuine dual (see F4-I's own entry). No lpc record touches born-again
+  language, tithing, or rapture-eschatology.
+REWORK NOTE: the first pass grounded this cell only on
+  catechesis's own adult-instruction framing ("adult instruction, before
+  baptism, of people making a consequential change of standing"), which
+  answers who received formal catechetical teaching, not this cell's own
+  fourth question -- whether baptism itself was adult-only. That left the
+  cell's actual question unanswered by silence. Enchiridion Chapter 52
+  answers it directly: those baptized into Christ's own death include
+  "not adults only, but infants as well." Both loci are now cited on
+  lpc.term.catechesis, named as two different questions.
 
 --- F5-I (ordinary-interior-life) -- ALREADY HONEST_LIMIT, UPGRADED TO
 SUBSTANTIVE, DELIBERATELY --- The pre-existing honest_limit (lpc.limit.
@@ -472,27 +484,19 @@ story: lpc.story.the-death-of-cyprian (Tier 3/Contested, explicitly a
 figure: lpc.figure.numidicus (single-homed here, not also at F5-P, per
   this script's own one-cell-per-figure default -- see F5-P's own entry)
 
---- F6-P (womens-own-voice) -- ALREADY HONEST_LIMIT, UPGRADED TO
-SUBSTANTIVE, DELIBERATELY --- The pre-existing honest_limit names a
-specific, narrower absence (no woman's own narrating voice survives in
-this world's corpus), which is a genuinely different claim from this
-cell's own fifth question ("The people who taught me the faith turned out
-to be hypocrites. Did that happen among you?") -- independently confirmed
-as this cell's own live material by lpc.demo.compel-three-phase's own
-canon_question_id, _fleet.canon.f6-p-05, checked before this placement was
-finalized. One record answers that distinct question directly and is
-added here, upgrading this cell to substantive under classify_cell()'s own
-"substantive always wins" rule -- a deliberate upgrade, named as such, the
-same move this script already makes at F5-I, and the same move don's own
-script made for its own F2-I:
-term: lpc.term.compel-them-to-come-in (Augustine's own three-phase
-  reversal on coercion -- reported honestly, all three phases, "not the
-  one that is easiest to defend")
-contested_claim: lpc.contested.compel-coercion-development (whether that
-  reversal is a genuine change of mind or a retrospective self-
-  presentation -- a live, disclosed, unresolved question)
-NOT claimed: the honest_limit's own continuing finding about a woman's own
-  narrating voice stands unchanged and is not touched by this script.
+--- F6-P (womens-own-voice) -- ALREADY HONEST_LIMIT, NOT UPGRADED --- The
+pre-existing honest_limit names a specific absence (no woman's own
+narrating voice survives in this world's corpus) and stands unchanged.
+REWORK NOTE: the first pass placed lpc.term.compel-them-to-
+  come-in and lpc.contested.compel-coercion-development here, against this
+  cell's own fifth question ("The people who taught me the faith turned
+  out to be hypocrites. Did that happen among you?"), on lpc.demo.compel-
+  three-phase's own canon_question_id. That fit was a stretch: Augustine's
+  coercion doctrine is not naturally a claim about the hypocrisy of one's
+  own teachers. Both records are retagged to F3-P (see F3-P's own entry
+  above), where _fleet.canon.f3-p-02 ("Your church used power against
+  Christians who disagreed. Defend that.") is a direct match. F6-P reverts
+  to honest_limit only.
 
 --- F6-T ("Do you believe outsiders are going to hell?" / "isn't
 Christianity too narrow" / divorce and remarriage) -- SUBSTANTIVE ---
@@ -523,9 +527,10 @@ in the table above, not invented at edit time. Leaves 2 force records
 (corpus-outliving-the-world, illegal-to-established-shift) with canon_
 cells: [] unchanged, each named and reasoned in DECLINED below. This
 script also knowingly upgrades two pre-existing honest_limit-only cells
-(F5-I, F6-P) to substantive, each named and reasoned in its own table entry
-above, and leaves four pre-existing honest_limit cells (F1-E, F2-E, F3-P,
-F5-E) untouched.
+(F5-I, F3-P) to substantive, each named and reasoned in its own table entry
+above, and leaves four pre-existing honest_limit cells (F1-E, F2-E, F5-E,
+F6-P) untouched. (F3-P/F6-P reflects a rework retag; the
+original run upgraded F6-P, not F3-P -- see both cells' own entries above.)
 
 ===========================================================================
 WHAT THIS SCRIPT DOES NOT DO
@@ -547,7 +552,7 @@ WHAT THIS SCRIPT DOES NOT DO
 - Does not re-derive or second-guess the 9 already-closed cells' own
   disposition -- reinforces five of them (F1-T's grace material is new
   substantive content rather than reinforcement of a closed cell, so this
-  really means F2-E, F3-I, F3-T, F6-I, and the two upgrades F5-I/F6-P) with
+  really means F2-E, F3-I, F3-T, F6-I, and the two upgrades F5-I/F3-P) with
   additional, independently-genuine term/story/quote/gravity/force/figure
   tags, named explicitly above, but does not touch the doctrinal_witness/
   honest_limit records that originally closed any of them.
@@ -599,7 +604,9 @@ run and VALIDATION RESULT recorded at the bottom of this docstring once the
 edits below were applied and checked.
 
 VALIDATION RESULT (this script's own --validate run against the real repo,
-post-edit): schema-validation, referential, reciprocity, completion-per-
+post-edit, at original write time -- F3-P/F6-P below reflect the pre-rework
+state; see both cells' own entries above for the retag):
+schema-validation, referential, reciprocity, completion-per-
 type, narratability, glossary-retrofit-complete, quote-recording, alias-
 safety, distribution-health, retrieval-negatives-structured, confidence-
 crosscheck, rights, edition-rights-consistency, canonical-address,
@@ -633,7 +640,7 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.term.catechesis", ["F4-I", "F4-T"]),
         ("lpc.term.certificates-letters-of-peace", ["F6-I"]),
         ("lpc.term.communion", ["F3-T"]),
-        ("lpc.term.compel-them-to-come-in", ["F6-P"]),
+        ("lpc.term.compel-them-to-come-in", ["F3-P"]),  # retagged in rework, was F6-P
         ("lpc.term.confessor", ["F6-I"]),
         ("lpc.term.grace", ["F1-T"]),
         ("lpc.term.heresy", ["F1-I", "F6-I"]),
@@ -693,7 +700,7 @@ ASSIGN: dict[str, list[tuple[str, list[str]]]] = {
         ("lpc.force.vandal-invasion-siege-of-hippo", ["F5-I"]),
     ],
     "contested_claim": [
-        ("lpc.contested.compel-coercion-development", ["F6-P"]),
+        ("lpc.contested.compel-coercion-development", ["F3-P"]),  # retagged in rework, was F6-P
         ("lpc.contested.cyprian-death-genre", ["F2-E"]),
         ("lpc.contested.de-unitate-recensions", ["F2-E"]),
         ("lpc.contested.grace-pelagius-characterization", ["F2-E"]),

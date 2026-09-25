@@ -35,6 +35,8 @@ claim_guards:
 relations:
 - type: associated-with
   target: lpc.figure.cyprian
+- type: associated-with
+  target: lpc.witness.almsgiving-quenches-sin
 narrative_tier: 1
 narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Cyprian''s own letter, first
   person, naming its eight recipients, stating an amount and a mechanism -- named author, exact social

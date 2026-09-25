@@ -20,22 +20,32 @@ sources:
 - source_id: lpc.source.augustine-creedal-catechetical-works
   locus: the creed taught to catechumens directly, not argued toward
   license: public-domain
+- source_id: lpc.source.augustine-city-of-god
+  locus: Book XXII, Chapter 5, arguing the resurrection's own credibility from the world's belief in the
+    apostles' own testimony -- verified directly against cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml,
+    lines 45334-45390
+  license: public-domain
 relations: []
-statement: 'What do we actually have of Christ, and how did it reach us? Not a living chain. No one among
-  us names an eyewitness, or a memory passed hand to hand back to one. We have the creed: received, taught
-  before baptism, said back before the water. We do not argue our way to the resurrection as a conclusion
-  from evidence. We confess it, the way the whole creed is confessed, and reason from there, not toward
-  it.'
-why_sources_cannot_answer: 'Checked directly against all 67 term/story/quote/gravity/force/contested_claim/figure
-  records (the s2y tagging pass immediately prior) and both Enchiridion chapters read this session: no
-  lpc record argues for the resurrection as a historical claim needing evidence, names a personal chain
-  of memory to an eyewitness, or otherwise treats this as a question this world''s own corpus defends
-  rather than confesses. lpc.term.catechesis already states the creed is received and taught, not argued
-  toward -- a different register from an evidentiary defense, and the reason this cell is a genuine absence
-  rather than a duplicate of C-I''s own different, already-answered question (what the death and resurrection
-  MEANT, not what evidence grounds the claim).'
+statement: 'Had anyone among us known someone who saw him? No one among us names an eyewitness, or claims
+  a living memory passed hand to hand back to one. That much I cannot give you. But we do argue for the
+  resurrection''s own credibility, and not only by confessing it. Our second anchor bishop pointed to
+  the world itself. Obscure, unlearned men persuaded the whole world of something incredible, by testifying,
+  in writing, that they had seen it themselves. We reason from their testimony, transmitted to us, even
+  though none of us knew any of them.'
+why_sources_cannot_answer: 'City of God XXII.5 does mount a real evidential argument for the resurrection,
+  built on the apostles'' own eyewitness testimony as transmitted through the world''s belief -- narrowing
+  an earlier draft that claimed this world never argues toward the resurrection as a conclusion from evidence
+  at all. What remains true, checked against all 67 pre-existing term/story/quote/gravity/force/contested_claim/figure
+  records plus this new material: no one in our own community, in any lpc record, claims a personal or
+  living chain of memory to an actual eyewitness. The apostles'' own testimony reaches us as writing and
+  report, not as a memory anyone among us carries first-hand.'
 nearest_material:
 - lpc.term.catechesis
 - lpc.witness.the-pattern-we-are-modelled-on
 ---
-Celled to C-E ('What did your people actually have about Jesus -- writings, memories, people? How did it reach you? / Had anyone among you known someone who saw him? / How do you know the resurrection really happened?'). A genuine, checked absence: this world's own corpus confesses the creed rather than defending it evidentially. relations: [], matching this world's own s2y precedent for a blanket-absence finding with no single reciprocity target.
+Celled to C-E ('What did your people actually have about Jesus -- writings, memories, people? How did
+it reach you? / Had anyone among you known someone who saw him? / How do you know the resurrection really
+happened?'). Narrowed from an earlier draft that claimed this world never argues evidentially for the
+resurrection at all -- false: City of God XXII.5 does, at length, from the apostles' own testimony. What
+remains a genuine, checked absence is any personal or living chain of witness within this world's own
+community.

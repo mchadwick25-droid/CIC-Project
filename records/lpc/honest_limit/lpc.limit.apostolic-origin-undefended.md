@@ -18,24 +18,28 @@ sources:
   locus: the one-episcopate's own ecclesiology, deliberately not extended toward an apostolic-succession
     or Roman-primacy claim
   license: public-domain
-relations: []
+relations:
+- type: associated-with
+  target: lpc.witness.tradition-tested-by-apostolic-warrant
 statement: How do we know our own practices go back to the apostles? How do we know they are not later
-  inventions? I will not stretch the truth just to answer that well. We hold one office of bishop, undivided.
-  Each bishop holds the whole of it, not a share. But our own record on that point stays general. It does
-  not draw a line back to the apostles themselves. No practice of ours -- not the road back, not the teaching
-  before the water -- is traced to the apostles in anything we have.
-why_sources_cannot_answer: 'Checked directly whether lpc.term.the-one-episcopate (De Unitate''s own ecclesiology)
-  could ground an apostolic-succession answer -- declined: that term''s own divergence_note states plainly
-  that Doc_03 instructs drawing on De Unitate ''for its general ecclesiology only,'' explicitly not extending
-  its claims toward the Roman-primacy reading that chapters 4-5''s own disputed ''Primacy Text'' recension
-  carries (lpc.contested.de-unitate-recensions, already tagged F2-E) -- reaching past that disclosed boundary
-  to construct an apostolic-lineage claim this world''s own already-built record deliberately declines
-  to make would overclaim beyond what the record supports. lpc.force.inherited-latin-theological-vocabulary
-  (already tagged F2-I) shows vocabulary continuity, not practice continuity, and cannot answer this cell
-  alone in any case (force is not a substantive type). No lpc record traces catechesis, preaching, reconciliation,
-  or any other named practice to the apostles, or explicitly defends any of them against a charge of invention.'
+  inventions? I will not stretch the truth just to answer that well. Our two anchor bishops even disagree
+  on how that question should be tested. But neither of them names catechesis, the road back, or the teaching
+  before the water, and traces that specific practice to the apostles. We hold one office of bishop, undivided.
+  Each bishop holds the whole of it, not a share. That much is a general conviction, not a traced lineage.
+why_sources_cannot_answer: 'Cyprian, Epistle 73, and Augustine, On Baptism V.23, both engage the apostolic-origin
+  question directly, but disagree on the test -- written apostolic warrant against presumed unwritten
+  custom -- and both address it only for the single disputed practice of rebaptism, not for catechesis,
+  preaching, or reconciliation. lpc.term.the-one-episcopate is deliberately not extended past De Unitate''s
+  general ecclesiology toward the disputed Roman-primacy recension (lpc.contested.de-unitate-recensions).
+  No lpc record traces catechesis, preaching, reconciliation, or any other named pastoral practice to
+  the apostles by name.'
 nearest_material:
 - lpc.term.the-one-episcopate
 - lpc.contested.de-unitate-recensions
+- lpc.witness.tradition-tested-by-apostolic-warrant
 ---
-Celled to F4-E ('How do you know your practices went back to the apostles and weren't later inventions?'). A genuine, checked absence, disclosed explicitly rather than stretching an adjacent doctrinal record past its own declared boundary. relations: [], matching this world's own s2y precedent.
+Celled to F4-E ('How do you know your practices went back to the apostles and weren't later inventions?').
+Narrowed from an earlier draft that claimed no lpc source addresses apostolic origin at all -- false:
+Cyprian's Epistle 73 and Augustine's On Baptism V.23 both engage it, at length, for rebaptism specifically
+(see lpc.witness.tradition-tested-by-apostolic-warrant). What remains a genuine, checked absence is a
+traced apostolic origin for any of this world's own named pastoral practices themselves.

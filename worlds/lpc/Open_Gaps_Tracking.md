@@ -681,6 +681,69 @@ records from the loci above where they hold, narrow claims that are only partly 
 fix the two mis-cited/mis-contextualized quotes, retag F4-T, strip the commentary, and fix
 the swallowed exception) is a separate, not-yet-started piece of work.
 
+### OG-15. OG-14's rework applied on branch `lpc-record-compilation-part7-witness-limit-ambient` (PR #557) — every finding checked against the vendored corpus directly, not self-certified; independent re-confirmation still required before merge.
+
+For each of the six contradicted `honest_limit` records, the loci OG-14 named were read
+and verified directly against the vendored XML, then either a new `doctrinal_witness`
+record was authored from that material or the `honest_limit` was narrowed to the residual,
+still-genuine absence — the same choice OG-14's own rework instruction offered:
+
+- **F5-T** — `lpc.witness.almsgiving-quenches-sin` answers the wealth question (On Works
+  and Alms); `lpc.limit.wealth-and-marriage-untaught` narrowed to marriage/weddings, where
+  On the Dress of Virgins SS18 confirms weddings took place but states no teaching on
+  marriage itself.
+- **F4-P** — `lpc.witness.restless-heart-and-the-unrepentant-enemy` answers the restless-mind
+  and forgiving-an-enemy sub-questions (Confessions I.i.1; Enchiridion 73-74);
+  `lpc.limit.the-unquiet-mind-and-the-unrepentant` narrowed to prayer that goes unanswered.
+- **F4-E** — `lpc.witness.tradition-tested-by-apostolic-warrant` states both anchor bishops'
+  own, differing tests for apostolic origin (Cyprian Ep. 73; Augustine On Baptism V.23);
+  `lpc.limit.apostolic-origin-undefended` narrowed to the absence of any named practice
+  (catechesis, preaching, reconciliation) actually traced to the apostles.
+- **F3-E** — `lpc.witness.blamed-for-the-worlds-troubles` answers the neighbours'-accusation
+  sub-question (An Address to Demetrianus); `lpc.limit.the-outsiders-own-view` narrowed to
+  catacombs, Constantine, and an outsider's own strangeness-perception.
+- **F2-T** — `lpc.witness.scripture-above-councils` answers whether scripture stood above
+  bishops and councils (On Baptism II.3.4; Cyprian Ep. 73);
+  `lpc.limit.scriptures-own-place-unaddressed` narrowed to the Genesis-as-science question
+  alone.
+- **F2-P** — `lpc.witness.violence-commanded-not-cruel` answers the cell in full (Reply to
+  Faustus XXII.71-79); `lpc.limit.violence-in-scripture-unaddressed` retired, the cell no
+  longer needing an honest_limit at all.
+- **C-E** — `lpc.limit.no-chain-of-witnesses` narrowed, not replaced, per OG-14's own
+  instruction: City of God XXII.5's evidential argument is now stated in the record, while
+  the absence of any personal or living chain of witness stands as the genuine, narrower
+  finding.
+
+Also from OG-14: the C-P witness's quote re-grounded to Confessions VIII.vii.17 (the youth's
+prayer) and VIII.vii.18 (the separate, later persuaded-but-still-unable-to-act moment),
+"one of our own founders" removed; the C-T witness's overclaimed "we do not differ from any
+other church" line replaced with the Maximinus/Vandal-Arian material, and its sentences
+brought under the style ceiling; the C-I witness's dropped "ascension into heaven" restored
+and "not merely in a mystical sense" no longer flattened to "not a story"; `F4-T` re-grounded
+on `lpc.term.catechesis` with Enchiridion ch. 52 ("not adults only, but infants as well") now
+cited, so the cell answers the baptism-mode question rather than only describing adult
+catechesis; `lpc.term.compel-them-to-come-in` and `lpc.contested.compel-coercion-development`
+retagged from F6-P to F3-P, a direct match to `_fleet.canon.f3-p-02`
+("Your church used power against Christians who disagreed. Defend that."), where the earlier
+F6-P placement (a hypocrisy question) was a stretch; the swallowed `except Exception:
+registry = {}` in `wb_lpc_s2z_canon_closure.py --validate` removed; both generator scripts'
+docstrings corrected to the post-rework state and stripped of session-referential narration
+and embedded dates (the `iso-date` pattern `tools/check_live_commentary.py` itself flags),
+with a note that their own `WITNESSES`/`LIMITS`/`ASSIGN` data blocks are now stale build
+history, not to be re-run without first syncing them to the hand-revised live records.
+
+All 21 M1 gates, including `canon-coverage` and `reciprocity` (11 new relations added, both
+directions, once the new records' own edges were checked), pass clean on the full lpc + fleet
+corpus. `tools/check_live_commentary.py` finds no new findings on any touched file. FK grades
+on every new/revised spoken field (`statement`, `text`, `positions`, `tensions`) run 5.0-10.5,
+one (`lpc.witness.tradition-tested-by-apostolic-warrant`'s `tensions`) rewritten down from
+10.5 to keep the whole set at or under FK 10.
+
+**Not resolved by this entry.** Per CLAUDE.md's own rule, self-certification does not count —
+an independent fidelity review of this rework is still required before Mark merges PR #557,
+exactly as OG-14 already states. This entry records what changed and why, not that it has
+been approved.
+
 ---
 
 ## Closed items — verified in this review, not merely inherited from the Decision Log
