@@ -81,13 +81,23 @@ def test_a_world_missing_from_table_html_is_caught():
     working for Interview, but never offered as a Table seat for four days.
     Reproduced against the real file, not a fixture, so the check's own
     claim (every admitted world's census_id is in the real array) is
-    actually tested, not just its parsing logic."""
+    actually tested, not just its parsing logic.
+
+    The real registry can legitimately carry its OWN table-html-world
+    findings (e.g. table-html-world/lpc, ACCEPTED_OPEN since lpc's own
+    2026-09-25 registration - a world registered but not yet frontend-wired
+    is the same real, disclosed, structurally expected gap
+    test_the_desert_deep_link_defect_is_caught's own docstring already
+    names for census-id/don) - this test only asserts that nothing
+    UNDOCUMENTED slips through, same filter test_the_fleet_carries_no_
+    undocumented_drift already applies fleet-wide."""
     registry = cross_world.load_registry()
     worlds = cross_world.formation_world_keys(registry)
     broken = {**registry, "w7": {"census_id": "not-a-real-census-id-in-table-html"}}
     keys = {f.key for f in cross_world.check_table_html_worlds(registry=broken, worlds=worlds + ["w7"])}
     assert "table-html-world/w7" in keys
-    assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=worlds)}
+    live_keys = {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=worlds)}
+    assert live_keys <= set(cross_world.ACCEPTED_OPEN)
 
 
 def test_the_lpc_unregistered_dir_is_caught():

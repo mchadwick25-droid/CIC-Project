@@ -1002,5 +1002,5 @@ def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
             if rec.get("record_type") != "quote":
                 continue
             verdicts[rid] = verify_quote_record(rec, records, fleet).verified
-    assert len(verdicts) == 357, f"fleet quote-record count changed ({len(verdicts)}) - re-measure the pinned baseline above"
-    assert sum(verdicts.values()) == 350, f"fleet verified-quote count changed ({sum(verdicts.values())}) - re-measure the pinned baseline above"
+    assert len(verdicts) == 363, f"fleet quote-record count changed ({len(verdicts)}) - re-measure the pinned baseline above"
+    assert sum(verdicts.values()) == 356, f"fleet verified-quote count changed ({sum(verdicts.values())}) - re-measure the pinned baseline above"

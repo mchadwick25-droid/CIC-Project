@@ -166,6 +166,25 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself. Found 2026-09-19 during Phase C recon; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
     "figure-dates-keys/lpc": "F-04-analogue - all 7 lpc figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave hedged or multi-clause - e.g. Cyprian's own election is dated 'between roughly July 248 and April 249'; Augustine's is a full narrative sentence spanning his 391 ordination, his 395/396 consecration, and his 430 death - none of the seven reduce cleanly to born/died/floruit without losing the disclosed hedge itself). Same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, don's, and witt's own instances, not a mass rewrite improvised under lpc's own go-live pass - belongs to a fleet-wide figure.dates schema change, not this world's own build thread.",
+    # app-world-assets/lpc, app-world-order/lpc, table-html-world/lpc
+    # OPENED 2026-09-25: the same gallic-precedent window (see the comment
+    # above this block) - lpc is registered (records/worlds/lpc.yaml,
+    # state: built) and its own package/site JSON compile, but the project
+    # lead's own direct ruling (OG-23, worlds/lpc/Open_Gaps_Tracking.md)
+    # is explicit that going live is a separate, later step: "first the
+    # traditions page (world_front) exists, then Mark sets state: admitted,
+    # then the m6 sync generates the census status." Wiring
+    # cic-poc/frontend/src/data/worlds.ts (WORLD_ASSETS/WORLD_ORDER,
+    # which also needs a real accent-colour grounding this world does not
+    # have yet - OG-21) and cic-website/table.html's own WORLDS array now,
+    # ahead of that ruling, would be exactly the kind of quiet go-live
+    # this project's own escalation discipline exists to prevent. Real,
+    # disclosed, structurally expected for a world awaiting the project
+    # lead's own admission click bundle - not a build-thread task to close
+    # now.
+    "app-world-assets/lpc": "OPENED 2026-09-25 - deferred to the project lead's own admission click bundle per OG-23; see the comment above this block",
+    "app-world-order/lpc": "OPENED 2026-09-25 - deferred to the project lead's own admission click bundle per OG-23; see the comment above this block",
+    "table-html-world/lpc": "OPENED 2026-09-25 - deferred to the project lead's own admission click bundle per OG-23; see the comment above this block",
     # app-world-assets/witt, app-world-order/witt, and site-portrait/witt
     # CLOSED 2026-09-20: all three opened 2026-09-19 for the same
     # frontend-deployment-wiring gap this comment block described as "the
