@@ -20,15 +20,12 @@ sources:
 - source_id: lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate
   locus: the foundational 1902-03 study first identifying and arguing the two-recension interpolation
     thesis
-  license: public-domain
 - source_id: lpc.source.van-den-eynde-double-edition-de-unitate
   locus: '''La double édition du De unitate de S. Cyprien'' (1933), restating the textual problem three
     decades after Chapman'
-  license: public-domain
 - source_id: lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition
   locus: the 1971 Oxford critical edition named by this world's own Registry as the instrument that would
     resolve which recension is prior -- not yet read by this build
-  license: public-domain
 relations:
 - type: associated-with
   target: lpc.term.schism
@@ -40,7 +37,7 @@ held_against:
 - Chapman's own foundational study (1902-03) first identified and argued the interpolation thesis at length,
   but the question he opened has not, on this world's own Registry's own account, been closed by scholarly
   consensus in the seven decades since -- van den Eynde's 1933 restatement of the 'double edition' question
-  shows the matter still argued three decades later, and this world's own Registry (row 3) still carries
+  shows the matter still argued three decades later, and this world's own Doc_03 (row 3) still carries
   it as 'a further, separately unresolved transmission fact,' not a settled interpolation finding.
 - 'An alternative reading -- that Cyprian himself authored both recensions, at different moments or for
   different audiences, rather than one being a later hand''s addition to the other -- remains live specifically

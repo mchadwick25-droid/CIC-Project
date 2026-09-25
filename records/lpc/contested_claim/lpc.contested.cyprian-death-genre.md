@@ -29,7 +29,6 @@ sources:
   locus: the further, related hazard this world's own Registry records -- the later conflation of Cyprian
     of Carthage with Cyprian of Antioch, what an unguarded hagiographic tradition does to a figure over
     time
-  license: public-domain
 relations:
 - type: associated-with
   target: lpc.story.the-death-of-cyprian
@@ -49,7 +48,8 @@ held_against:
   itself on Scripture, the specific details can no longer be separated from the pattern by a reader who
   has no independent witness' -- and this build has no independent witness, because the Acta Proconsularia,
   the strictly documentary record of the trial Pontius himself points readers toward, is vendored in Latin
-  only and has not been read in this build (Doc_09 §7; Story-Chunks/lpcstory006, Absent Story Note).
+  only and has not been read in this build (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent
+  Story Note).
 - 'This world''s own Doc_09 was independently reviewed across eight adversarial rounds and approved to
   proceed on 2026-09-15 with this exact question named as an unresolved escalation rather than settled
   by that approval: ''the escalation at §8 item 7 -- which half of CF V7.4''s Tier 3 definition governs

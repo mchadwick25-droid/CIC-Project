@@ -63,4 +63,4 @@ manifestations:
   without grace (Doc_01 §6)
 classification: supporting
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above.
+Re-derived from the approved Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above, plus one added contested_claim edge (lpc.contested.grace-pelagius-characterization) per that record's own RECIPROCITY discipline (wb_lpc_s26.py) -- an additive edit, not a regeneration of this file.

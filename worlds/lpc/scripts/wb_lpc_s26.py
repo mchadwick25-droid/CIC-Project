@@ -88,8 +88,8 @@ launch-brief discipline against silent gaps):
     confidence.divergence_note (G5). Building a contested_claim record
     from it here would duplicate that record's own already-reviewed
     field rather than adding a genuine second one.
-  - **The Acta Proconsularia / Pontius's own Life pointer (Doc_09 §7,
-    lpcstory006's own Absent Story Note).** A documented absence (the
+  - **The Acta Proconsularia / Pontius's own Life pointer (Doc_09 §6 item 2,
+    §8 item 1; lpcstory006's own Absent Story Note).** A documented absence (the
     Acta is vendored in Latin only and has not been read), not two named
     readings of a text both sides have -- the correct instrument for an
     absence of this shape is the existing honest_limit-style disclosure
@@ -296,12 +296,23 @@ def conf(cite, verify, weight, formation, divergence=None):
     }
 
 
-def src(*pairs):
-    """Each pair is (source_id, locus)."""
-    return [
-        {"source_id": sid, "locus": locus, "license": "public-domain"}
-        for sid, locus in pairs
-    ]
+def src(*items):
+    """Each item is (source_id, locus) for a public-domain source, or
+    (source_id, locus, None) to omit the license key entirely -- the
+    correct fleet precedent (desert.contested.antony-literacy.md) for an
+    in-copyright, consultation-only secondary source, rather than
+    asserting a false "public-domain" value the source's own record
+    explicitly contradicts."""
+    out = []
+    for item in items:
+        sid, locus, *rest = item
+        entry = {"source_id": sid, "locus": locus}
+        if not rest:
+            entry["license"] = "public-domain"
+        elif rest[0] is not None:
+            entry["license"] = rest[0]
+        out.append(entry)
+    return out
 
 
 def rel(*targets):
@@ -357,7 +368,7 @@ def build_de_unitate_recensions() -> None:
             "thesis at length, but the question he opened has not, on this world's own Registry's own "
             "account, been closed by scholarly consensus in the seven decades since -- van den Eynde's "
             "1933 restatement of the 'double edition' question shows the matter still argued three "
-            "decades later, and this world's own Registry (row 3) still carries it as 'a further, "
+            "decades later, and this world's own Doc_03 (row 3) still carries it as 'a further, "
             "separately unresolved transmission fact,' not a settled interpolation finding.",
             "An alternative reading -- that Cyprian himself authored both recensions, at different "
             "moments or for different audiences, rather than one being a later hand's addition to the "
@@ -399,13 +410,13 @@ def build_de_unitate_recensions() -> None:
              "the Stephen controversy"),
             ("lpc.source.chapman-les-interpolations-dans-le-traite-de-unitate",
              "the foundational 1902-03 study first identifying and arguing the two-recension "
-             "interpolation thesis"),
+             "interpolation thesis", None),
             ("lpc.source.van-den-eynde-double-edition-de-unitate",
              "'La double édition du De unitate de S. Cyprien' (1933), restating the textual problem "
-             "three decades after Chapman"),
+             "three decades after Chapman", None),
             ("lpc.source.bevenot-de-lapsis-and-de-unitate-critical-edition",
              "the 1971 Oxford critical edition named by this world's own Registry as the instrument "
-             "that would resolve which recension is prior -- not yet read by this build"),
+             "that would resolve which recension is prior -- not yet read by this build", None),
         ),
         relations=rel(TERM_SCHISM),
         body=(
@@ -526,7 +537,7 @@ def build_compel_coercion() -> None:
             "to have held it.",
             "This doctrine is known in this world's own corpus only through Augustine's own advocacy, in "
             "his own defence, with no Donatist first-person answer surviving in this world's own Native "
-            "record -- he writes, on this world's own Doc_03 finding, 'from a position of increasing "
+            "record -- he writes, on this world's own Doc_02 §2 finding, 'from a position of increasing "
             "institutional confidence relative to Donatism specifically,' which sharpens rather than "
             "dilutes the risk that the earlier-opinion account was shaped, in the telling, by the "
             "argument it now serves.",
@@ -565,11 +576,11 @@ def build_compel_coercion() -> None:
             ("lpc.source.shaw-sacred-violence",
              "the standard modern treatment of the Donatist/Circumcellion violence Augustine's own "
              "coercion argument responds to -- background context for the coercive-capacity axis, not "
-             "itself evidence of this world's own internal life"),
+             "itself evidence of this world's own internal life", None),
             ("lpc.source.humfress-orthodoxy-and-the-courts",
              "the standard modern legal-historical study of how late-antique ecclesiastical and civil "
              "courts actually interacted, licensed for the imperial-coercion material's own legal "
-             "context"),
+             "context", None),
         ),
         relations=rel(TERM_COMPEL, FORCE_SHIFT),
         body=(
@@ -619,7 +630,7 @@ def build_cyprian_death_genre() -> None:
             "pattern by a reader who has no independent witness' -- and this build has no independent "
             "witness, because the Acta Proconsularia, the strictly documentary record of the trial "
             "Pontius himself points readers toward, is vendored in Latin only and has not been read in "
-            "this build (Doc_09 §7; Story-Chunks/lpcstory006, Absent Story Note).",
+            "this build (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent Story Note).",
             "This world's own Doc_09 was independently reviewed across eight adversarial rounds and "
             "approved to proceed on 2026-09-15 with this exact question named as an unresolved "
             "escalation rather than settled by that approval: 'the escalation at §8 item 7 -- which half "
@@ -661,7 +672,7 @@ def build_cyprian_death_genre() -> None:
             ("lpc.source.delehaye-cyprien-dantioche-et-cyprien-de-carthage",
              "the further, related hazard this world's own Registry records -- the later conflation of "
              "Cyprian of Carthage with Cyprian of Antioch, what an unguarded hagiographic tradition does "
-             "to a figure over time"),
+             "to a figure over time", None),
         ),
         relations=rel(STORY_DEATH),
         body=(

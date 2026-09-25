@@ -24,11 +24,9 @@ sources:
   locus: the standard modern treatment of the Donatist/Circumcellion violence Augustine's own coercion
     argument responds to -- background context for the coercive-capacity axis, not itself evidence of
     this world's own internal life
-  license: public-domain
 - source_id: lpc.source.humfress-orthodoxy-and-the-courts
   locus: the standard modern legal-historical study of how late-antique ecclesiastical and civil courts
     actually interacted, licensed for the imperial-coercion material's own legal context
-  license: public-domain
 relations:
 - type: associated-with
   target: lpc.term.compel-them-to-come-in
@@ -49,7 +47,7 @@ held_against:
   surviving contemporaneous statement of the earlier view from the time he is said to have held it.
 - This doctrine is known in this world's own corpus only through Augustine's own advocacy, in his own
   defence, with no Donatist first-person answer surviving in this world's own Native record -- he writes,
-  on this world's own Doc_03 finding, 'from a position of increasing institutional confidence relative
+  on this world's own Doc_02 §2 finding, 'from a position of increasing institutional confidence relative
   to Donatism specifically,' which sharpens rather than dilutes the risk that the earlier-opinion account
   was shaped, in the telling, by the argument it now serves.
 - The modern historiography of religious coercion treats this same warrant as the most-cited patristic
