@@ -49,34 +49,44 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.manichaeism-and-pelagian-anthropology
-name: Preaching and Catechesis as Primary Formation Mode [SUPPORTING]
-description: 'Doc_04 §3 Candidate 4: SUPPORTING. Passes Repetition, Formation, and Persistence cleanly;
-  passes Dependency, Explanatory, and Interaction only narrowly, because the evidence shows this gravity
-  functions as the medium other gravities are taught through rather than an independently organizing force
-  -- the same honest, narrower-pass shape Imperial-Juridical''s own Doc_04 reports for a structurally
-  comparable candidate. Repetition: recurs in the Sermons (Row 19), the Tractates on John (Row 21), the
-  catechetical works (Rows 15, 18), and Cyprian''s own De Dominica Oratione (Row 5). Dependency: passes
-  narrowly -- Candidate 1 depends on this as its own primary activity, but this document finds no other
-  candidate depending on preaching/catechesis the way they depend on Candidates 1-3; it functions more
-  as the medium through which the other gravities are taught and enforced. Formation: passes strongly
-  -- direct, textbook formation content, the explicit subject of the catechetical works and the stated
-  purpose of both bishops'' own preaching corpora. Explanatory: passes narrowly -- explains HOW formation
-  happens more than WHY any particular crisis occurred. Persistence: passes -- attested in both phases,
-  in both bishops'' own words. Interaction: passes narrowly -- reinforces Candidates 1, 2, 7; no independently
-  demonstrated relationship with Candidates 3, 5, 6, 8. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for
-  existence and basic content, per Doc_02 §8''s own bracket; the specific loci sit at Registry Confidence
-  B. No divergence. FORCES-CONNECTION (Doc_08 §5): connected to 1B-3 (the vernacular register it needs),
-  and IN TRUTH EVERY FORCE IN CELL 2A (2A-1, 2A-2, 2A-3, 2A-4), since this gravity is the channel through
-  which external pressure reaches an ordinary believer -- the mechanism Doc_08 §4''s own first finding
-  depends on and §5 names as this world''s characteristic response: crisis metabolized into teaching.
-  2A-2 (the plague) is the clearest single case: it generated no gravity and no practice, only a treatise,
-  produced entirely through this gravity''s own medium.'
+name: Preaching and Catechesis as the Primary Mode of Formation
+description: >-
+  This concern is real too, though its reach is narrower than the others'. It is the medium through which
+  this world's other central concerns are taught, rather than a force that organizes the world by itself.
+  It clearly recurs, shapes believers, and lasts across both
+  phases. But its links to other concerns, and what it explains, are narrower.
+
+
+  It recurs in Augustine's Sermons and Tractates on John, in the catechetical works, and in Cyprian's De
+  Dominica Oratione. Pastoral office depends on it as its main activity. But nothing else depends on
+  it the way pastoral office, penitential discipline, and collegial communion do. It is the
+  channel through which those concerns are taught and enforced.
+
+
+  Its power to shape believers is strong and direct. That is the explicit subject of the catechetical
+  works and the stated purpose of both bishops' preaching. It explains how formation happens more than
+  why any particular crisis occurred. It is attested in both phases, in both bishops' own words. It
+  reinforces pastoral office, penitential discipline, and grace and human incapacity. No relationship
+  has been shown with collegial communion, conciliar authority, sacramental validity, or the confessor
+  tension.
+
+
+  The evidence is solidly attested for the existence and basic content of these texts. The specific passages
+  carry the lower citation grade (B), but that is not a thin spot in the evidence.
+
+
+  It depends on a shared vernacular to teach in: the inherited Latin theological vocabulary. It also
+  connects to every ongoing outside pressure on the world. These are the Valerianic persecution, the
+  plague, the Donatist schism, and the rival systems of Manichaeism and Pelagianism. This concern is the
+  channel through which outside pressure reaches an ordinary believer. That is this world's
+  characteristic response: crisis turned into teaching. The plague is the clearest case. It produced no
+  new concern and no new practice, only a treatise, and that treatise came entirely through preaching
+  and teaching.
 manifestations:
-- the Sermons (Registry row 19) and Tractates on John (row 21), Augustine's own vast preaching and exegetical
-  corpus
-- the catechetical works (Registry rows 15, 18) explicitly addressed to converts and catechumens
-- De Mortalitate, Cyprian's own treatise answering the plague of c. 249-262 (Registry row 5) -- a pressure
-  that produced teaching, through this gravity, rather than structure
+- 'the Sermons and Tractates on John: Augustine''s vast body of preaching and scripture commentary'
+- the catechetical works, written explicitly for converts and catechumens
+- 'De Mortalitate, Cyprian''s treatise answering the plague of c. 249-262: a pressure that produced teaching,
+  not new structure'
 classification: supporting
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 4). relations[] carries all three of Doc_04 §6's own Interaction Matrix edges for Candidate 4 (Reinforcing with G1, Reinforcing with G2, Reinforcing with G7) -- G1 and G2 were already captured as edges when this script processed those rows earlier, so G7 is the only edge this record's own row newly contributes, not the only gravity-level relationship G4 has in total -- and the gravity<->force edges (1B-3, 2A-1, 2A-2, 2A-3, 2A-4, the last four an expansion of Doc_08 §5's own prose set-reference 'every force in Cell 2A', cross-checked against lpc_Force_Index.md §3's own identical expansion) named above.

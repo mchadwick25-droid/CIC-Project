@@ -34,36 +34,50 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 - type: associated-with
   target: lpc.force.corpus-outliving-the-world
-name: Grace and Human Incapacity [SUPPORTING]
-description: 'Doc_04 §3 Candidate 7: SUPPORTING -- organizes a significant, extremely well-evidenced portion
-  of the ecology (Augustine''s own phase specifically) but does not extend across this world''s own full
-  span the way Candidates 1, 2, 3, 6 do. Author Gravity risk flagged at generation: the entire evidentiary
-  base is one voice (Augustine) within one evidence stream (the anti-Pelagian corpus, Row 23), disclosed
-  here rather than discovered as a concern after testing, precisely because the density of the evidence
-  could otherwise read as breadth. Repetition: passes strongly, and by a wide margin the most textually
-  dense candidate on this list -- 1,798 raw occurrences of ''grace'' within Row 23''s own thirteen works
-  alone. Dependency: passes narrowly -- this document finds no other candidate depending on this gravity
-  resolving one way or the other; real, heavily attested, but structurally freestanding. Formation: passes
-  strongly for Augustine''s own phase specifically -- a direct, sustained catechetical/polemical formation
-  project across thirteen dedicated works. Explanatory: passes for Augustine''s own phase (explains the
-  anti-Pelagian corpus''s own existence and scale) but does not extend backward to Cyprian''s own phase
-  -- the Pelagian controversy postdates Cyprian by over a century. Persistence: FAILS TO PASS AT THE WORLD
-  LEVEL (no Cyprian-phase evidence identified) but passes strongly within Augustine''s own phase specifically
-  -- a real temporal boundary, not a gap in the search. Interaction: passes narrowly -- reshapes Candidate
-  2 (a related but distinct Augustine-phase question, not that gravity''s own continuation); reinforces
-  Candidate 4. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for the corpus''s own existence and scale, directly
-  vendored and independently swept by Doc_03; Documented for existence and basic content per Doc_02 §8''s
-  own bracket, the specific loci sitting at Registry Confidence B. No divergence for the Augustine-phase
-  gravity itself. FORCES-CONNECTION (Doc_08 §5): SINGLE-FORCE-ORIGIN, a real finding rather than thin
-  analysis -- connected to 2A-4 (Manichaeism/Pelagianism as live rival systems, which produces this gravity
-  directly and entirely) and 3B-1 (the corpus outliving the world, carrying this gravity out of it). The
-  forces analysis independently reproduces the Author Gravity shape Doc_04 flagged at generation: one
-  external pressure, one corpus, one phase.'
+name: Grace and Human Incapacity
+description: >-
+  This concern is real, but it does not run nearly as wide as the others. It organizes a large and
+  extremely well-evidenced part of the world, but only in Augustine's phase. It does not span the whole
+  world the way pastoral office, penitential
+  discipline, collegial communion, and sacramental validity do.
+
+
+  It comes with a real limit, and it should be said plainly rather than left for a reader to find later.
+  All the evidence comes from one voice, Augustine, in one body of work, the anti-Pelagian corpus. The
+  sheer density of that evidence could otherwise be mistaken for breadth.
+
+
+  It is by far the most textually dense concern in this world. The word "grace" occurs 1,798 times in
+  the thirteen anti-Pelagian works alone. Those works form a sustained project of teaching and argument,
+  prompted by a live controversy. In them Augustine refuses the Pelagian claim that a believer's own
+  moral effort is enough without grace.
+
+
+  It is real and heavily attested, but it stands on its own. Nothing else in this world depends on how
+  it is resolved. It explains why the anti-Pelagian corpus exists and why it is so large. But it does not
+  reach back to Cyprian. The Pelagian controversy came more than a century after him.
+
+
+  So it does not span the whole world: no evidence for it has been found in Cyprian's phase. Within
+  Augustine's phase it is strong. This is a real boundary in time, not a gap in the search. It reshapes
+  penitential discipline by raising a related but distinct question in Augustine's phase. It is a
+  separate question, not a continuation of that concern. It reinforces preaching and catechesis.
+
+
+  The corpus's existence and scale are solidly attested. It is held in this project's own library and has
+  been checked independently. The specific passages relied on carry the lower citation grade (B). Within
+  Augustine's own phase, that carries no confidence gap of its own.
+
+
+  It has a single origin among the forces, and that is a real finding, not thin analysis. Manichaeism
+  and Pelagianism, as live rival systems, produced it directly and entirely. The survival of Augustine's
+  writings beyond the world carries it out of the world. The forces analysis thus confirms the caution
+  flagged at the start: one outside pressure, one corpus, one phase.
 manifestations:
-- the anti-Pelagian corpus, thirteen works occasioned by a live controversy, 1,798 raw occurrences of
-  "grace" within its own bounds (Registry row 23)
-- Augustine's own refusal of Pelagian anthropology's claim that a believer's own moral effort is sufficient
-  without grace (Doc_01 §6)
+- 'the anti-Pelagian corpus: thirteen works prompted by a live controversy, with 1,798 raw occurrences
+  of "grace"'
+- Augustine's refusal of the Pelagian view of human nature, which held that a believer's own moral effort
+  is enough without grace
 classification: supporting
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 7). relations[] carries the gravity<->gravity edges (G2, G4) and the gravity<->force edges (2A-4, 3B-1) named above, plus one added contested_claim edge (lpc.contested.grace-pelagius-characterization) per that record's own RECIPROCITY discipline (wb_lpc_s26.py) -- an additive edit, not a regeneration of this file.

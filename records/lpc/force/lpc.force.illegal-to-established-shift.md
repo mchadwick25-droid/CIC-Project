@@ -27,24 +27,29 @@ relations:
   target: lpc.force.donatist-schism
 name: The Illegal-to-Established Shift in the Office's Political Capacity
 kind: ongoing
-description: 'Doc_08 Cell 2B, Force 2B-3. LAYER 1 -- HISTORICAL EVENT: between the phases, the office
-  moved from holding no legal standing to being able to solicit state action against a rival communion.
-  Documented for the external change itself; CONTESTED for the one element that is genuinely disputable
-  -- the placement of this force''s consequence as internal rather than external, which follows Doc_01
-  §6''s own sketch and is named here as that document''s own judgement rather than this one''s. Its external
-  driver is the standing condition at 1A-2, inverted. LAYER 2 -- WORLD''S OWN EXPERIENCE: what a bishop
-  could do had changed, though what a bishop was had not. Cyprian never asked the magistrate for anything;
-  a century and a half later the magistrate could be asked, and eventually was. LAYER 3 -- FORMATION
-  IMPACT: Doc_04 §2 TESTED THIS AS A CANDIDATE GRAVITY AND DECLINED TO ADVANCE IT, finding nothing in
-  this ecology organizes around the shift itself -- it changes the instruments available to a bishop,
-  not the thing a bishop is. Doc_07 §2E reaches the same conclusion from the ethical/legal side. Carried
-  here as a real force with a deliberately bounded formation impact, per the Proportionality Principle.
-  CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1A-2 (inverted from) -- the standing condition of illegality
-  is precisely what this shift removes; the same fact appears at both ends of the matrix with opposite
-  sign. <- Force 2A-3 (activated by) -- a rival communion is what makes the newly available state capacity
-  worth using.'
+description: >-
+  Between the two phases, the bishop's office changed its legal position. At first it had no legal
+  standing at all. Later it could ask the state to act against a rival communion.
+
+
+  The outside change itself is documented. One element is contested: not whether the shift happened,
+  but whether its consequence belongs among the world's inner forces or its outside pressures. Placing
+  it as an inner force follows a judgement we made earlier, not a settled finding.
+
+
+  The shift is the old condition of illegality turned upside down, the same fact appearing at both ends
+  of the story with the opposite sign. What a bishop could do had changed, though what a bishop was had
+  not -- Cyprian never asked the magistrate for anything, and a century and a half later, the magistrate
+  could be asked, and eventually was.
+
+
+  We considered whether the shift itself was one of this world's own central concerns. It is not,
+  because nothing in this world actually organizes itself around the shift. It changes the tools a
+  bishop has, not what a bishop is. A separate look from the ethical and legal side reached the same
+  conclusion. So it is kept as a real force, with an impact deliberately limited in proportion to its
+  weight. A rival communion, the Donatist church, is what made the new state power worth using.
 manifestations:
-- Cyprian never asking the magistrate for anything, against Augustine's own later recourse to state action
+- Cyprian never asking the magistrate for anything, set against Augustine's later recourse to state action
   against the Donatist schism a century and a half afterward
 matrix_cell: 2B
 ---

@@ -25,22 +25,27 @@ relations:
   target: lpc.gravity.preaching-and-catechesis
 name: Epidemic Disease -- the Plague of c. 249-262
 kind: ongoing
-description: 'Doc_08 Cell 2A, Force 2A-2. LAYER 1 -- HISTORICAL EVENT: a severe, well-attested pandemic
-  running through Carthage across Cyprian''s episcopate, addressed directly in De Mortalitate. Documented
-  -- Doc_01 §2; Registry row 5. LAYER 2 -- WORLD''S OWN EXPERIENCE: a pressure no discipline could sort.
-  The persecution at least asked a question a person could answer rightly or wrongly; this asked nothing
-  and took the faithful and the lapsed alike. LAYER 3 -- FORMATION IMPACT: this is the clearest case in
-  this world of a pressure that produced teaching rather than structure. It generated no gravity and no
-  practice; it generated a treatise -- the sharpest single illustration of the mechanism Doc_08 §4 names
-  as this world''s characteristic response: crisis metabolized into formation content through G4. DELIBERATELY
-  ISOLATED, NAMED RATHER THAN SILENTLY OMITTED (Doc_08 §4): this force connects to no other force in this
-  matrix -- ''not a weak entry: it is this world''s clearest case of a pressure that produced formation
-  content without producing formation structure, and the Cross-Cell Connection Principle is better served
-  by recording the absence than by manufacturing a link.'' This is NOT encoded as a relations[] entry
-  -- see this script''s own docstring for why an examined absence and an omitted edge would otherwise
-  read identically.'
+description: >-
+  A severe, well-attested pandemic ran through Carthage while Cyprian was bishop. He addressed it
+  directly in his treatise De Mortalitate. The plague is documented.
+
+
+  It was a pressure no discipline could sort. Persecution at least asked a
+  question a person could answer rightly or wrongly, but the plague asked nothing -- it took the
+  faithful and the lapsed alike.
+
+
+  This is the clearest case in this world of a pressure that produced teaching rather than structure. It
+  created no lasting concern the world organizes around, and no practice. It produced a treatise. That
+  makes it the sharpest example of how this world typically responded to crisis: by turning it into
+  teaching, through preaching and catechesis.
+
+
+  This force is deliberately left unconnected to any other force in this world. That is not a weakness
+  in the entry. It is the clearest case of a pressure that shaped what was taught without shaping how
+  the church was built. Recording that absence honestly is better than inventing a link.
 manifestations:
-- De Mortalitate, Cyprian's own treatise directly addressing the plague of c. 249-262 (Registry row 5)
+- De Mortalitate, Cyprian's own treatise directly addressing the plague of c. 249-262
 matrix_cell: 2A
 ---
 Re-derived from the approved Doc_08 §3 Force 2A-2 (Cell 2A, Ongoing/External). relations[] carries only the gravity<->force edges (G1, G4) named above -- deliberately NO force<->force edge, per Doc_08 §4's own explicit 'deliberately isolated' finding for this force, named rather than silently applied, matching don's own F3A-2/2A-2-equivalent precedent for a disclosed non-connection.

@@ -26,22 +26,29 @@ relations:
   target: lpc.force.corpus-outliving-the-world
 name: The Vandal Invasion (from 429) and the Siege of Hippo
 kind: ending
-description: 'Doc_08 Cell 3A, Force 3A-1. LAYER 1 -- HISTORICAL EVENT: the Vandals crossed from Spain
-  in 429 and besieged Hippo in the final months of Augustine''s life; he died on 28 August 430. A near-contemporary
-  Gallic chronicler independently records the death under that year. Documented -- Registry row 203. (Row
-  203 also records the Vandal capture of Carthage under 439 -- a different city, nine years later, and
-  no part of this world''s own end-boundary.) LAYER 2 -- WORLD''S OWN EXPERIENCE: an army on the road
-  while the bishop lay dying inside the walls, with the people he was answerable for still in the city.
-  LAYER 3 -- FORMATION IMPACT: this force closes the world on the same register that opened it -- external,
-  violent pressure on ordinary congregational life -- the second of Doc_01 §2''s own two grounds for the
-  430 boundary. It terminates the attested life of G1: the bond between this bishop and this flock ends
-  when he does. CROSS-CELL CONNECTION (Doc_08 §4): -> Force 3B-1 (coincides with, does not cause) -- the
-  invasion closes the world; the corpus outlives it, named as coincidence rather than causation -- the
-  inheritance was secured by copying, not by the siege.'
+description: >-
+  The Vandals crossed from Spain in 429. They besieged Hippo in the final months of Augustine's life,
+  and he died on 28 August 430 -- a date a near-contemporary Gallic chronicler independently records.
+  This is documented. The same chronicle records the Vandal capture of Carthage under 439, a different
+  city, nine years later, and no part of where this world ends.
+
+
+  This was an army on the road while the bishop lay dying inside the walls, with the people he answered
+  for still in the city.
+
+
+  This force closes the world the same way it opened, with violent pressure from outside on ordinary
+  congregational life -- the second of the two reasons for ending this world in 430. It also ends the
+  recorded life of the pastoral office here: the bond between this bishop and this flock ends when he
+  does.
+
+
+  The invasion coincides with the survival of the world's writings, but it does not cause it. The
+  invasion closes the world, and the writings outlive it. The inheritance was secured by copying, not by
+  the siege.
 manifestations:
 - the siege of Hippo, beginning 429, in the final months of Augustine's life
 - Augustine's own death on 28 August 430, independently recorded by a near-contemporary Gallic chronicler
-  (Registry row 203)
 matrix_cell: 3A
 ---
 Re-derived from the approved Doc_08 §3 Force 3A-1 (Cell 3A, Ending/External). relations[] carries the gravity<->force edge (G1) and the force<->force edge (3B-1) named above.
