@@ -24,7 +24,7 @@ retrieval:
   retrieve_when: []
   do_not_retrieve_when: []
 relations: []
-detail: Our whole life is lived in two cities, a century and a third apart. The first is a great port
+detail: Our whole life is lived in two cities, a century and a half apart. The first is a great port
   city, the largest Latin Christian city outside the empire's own capital in the west. The second lies
   further along the same coast -- a smaller see, answerable within a different province than the first,
   though its own bishop sat in the same wider councils.

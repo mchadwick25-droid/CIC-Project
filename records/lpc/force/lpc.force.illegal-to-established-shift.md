@@ -34,7 +34,7 @@ description: 'Doc_08 Cell 2B, Force 2B-3. LAYER 1 -- HISTORICAL EVENT: between t
   §6''s own sketch and is named here as that document''s own judgement rather than this one''s. Its external
   driver is the standing condition at 1A-2, inverted. LAYER 2 -- WORLD''S OWN EXPERIENCE: what a bishop
   could do had changed, though what a bishop was had not. Cyprian never asked the magistrate for anything;
-  a century and a third later the magistrate could be asked, and eventually was. LAYER 3 -- FORMATION
+  a century and a half later the magistrate could be asked, and eventually was. LAYER 3 -- FORMATION
   IMPACT: Doc_04 §2 TESTED THIS AS A CANDIDATE GRAVITY AND DECLINED TO ADVANCE IT, finding nothing in
   this ecology organizes around the shift itself -- it changes the instruments available to a bishop,
   not the thing a bishop is. Doc_07 §2E reaches the same conclusion from the ethical/legal side. Carried
@@ -45,7 +45,7 @@ description: 'Doc_08 Cell 2B, Force 2B-3. LAYER 1 -- HISTORICAL EVENT: between t
   worth using.'
 manifestations:
 - Cyprian never asking the magistrate for anything, against Augustine's own later recourse to state action
-  against the Donatist schism a century and a third afterward
+  against the Donatist schism a century and a half afterward
 matrix_cell: 2B
 ---
 Re-derived from the approved Doc_08 §3 Force 2B-3 (Cell 2B, Ongoing/Internal). No gravity<->force edge -- Doc_08 §5's own gravity-by-gravity list and lpc_Force_Index.md §1's own 'Connected Gravities: --' both confirm this force connects to no classified gravity, consistent with Doc_04 §2's own decision not to advance the underlying shift as a candidate. relations[] carries the force<->force edges (1A-2, 2A-3) named above, plus one added contested_claim edge (lpc.contested.compel-coercion-development) per that record's own RECIPROCITY discipline (wb_lpc_s26.py) -- an additive edit, not a regeneration of this file. sources[] is deliberately empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.

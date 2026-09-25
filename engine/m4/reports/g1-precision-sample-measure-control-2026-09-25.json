@@ -1,0 +1,908 @@
+{
+  "generated": "2026-09-25T04:19:05.516844+00:00",
+  "region": "us-east-1",
+  "probes_run": 22,
+  "total_dollars": 1.9801,
+  "all_offenses": [
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "For years they held together.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Demetrius governed the church.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Origen taught - the school's fame filled the city, students came from everywhere, and the teacher's brilliance was undeniable.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "The break came over authority.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Demetrius condemned the ordination - and the teacher with it.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "He wrote to bishops everywhere denouncing Origen, reaching back even to a rash deed from the teacher's youth - something Demetrius himself had once admired - and turning it into fresh ammunition.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "On one side: the bishop's real authority to govern his own church, the plain fact that ordination without consent breaks order, and perhaps - though our sources do not let us hear his own heart - a bishop watching his teacher grow too large to hold.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "On the other: the greatest mind we ever had, a man who had taught the faith daily since he was eighteen, whose father had died a martyr, whose students filled the known world.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "It did not end.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "The office had to be honored.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "The teacher's like we never had again.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Origen taught for another twenty years in Caesarea - wrote, trained students, answered the pagans - and died of torture's effects after the Decian persecution.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Demetrius died in office.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Both men are in our record.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "Neither was erased.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "And here is the thing we learned slowly, at great price.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "The tension was real.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "It bore fruit.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "sentence": "And it tore us.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "B-other-tradition",
+      "sentence": "When peace came, the strict party demanded they stay out.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "B-other-tradition",
+      "sentence": "That was our line, and it cost us nothing to hold it here, because by the time the question became an empire-wide wound, our teachers' generation was gone.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "The deepest wound we carry is the one that came from inside our own house.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "Eustathius of Sebaste - a teacher who had been our own ascetic movement's reformer, the man who taught some of us how to live the whole ordered life - became our adversary over the Spirit's standing, and the break tore through everything it touched.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "Here is how it split.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "On one side stood Eustathius and those who followed him.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "They would not say the Spirit is fully God.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "They granted the Spirit honor, but not the full glory - not equal worship with the Father and the Son.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "On the other side stood Basil, our bishop at Caesarea, and with him the brothers and friends who held that the Spirit must be glorified together with the Father and the Son, not ranked below them.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "The argument was not only about words.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "He had taught that pattern before Basil ever wrote it into the rules our own brotherhoods came to keep.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "So when the fight over the Spirit came, it tangled two questions into one: who had the doctrine right, and who had the common life right.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "It did not, not cleanly.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "Eustathius was condemned - at a council, by name, as a heretic on the Spirit.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "Basil, who had been his friend and his student, never speaks of him again in our surviving letters except to name the break.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "The later creed, written after both men were dead, gave glory to the Spirit the way Basil had defended it: together worshipped and together glorified with the Father and the Son.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "But here is the part that stays unfinished.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "We kept the ordered rule Eustathius had helped shape - the brotherhood with its leader, its common goods, its open door - and we kept it as our own without crediting him for it, because by the time it mattered he was the man we no longer named.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "The victory settled the doctrine.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "It did not settle what we owed the teacher we had to leave behind, or how to tell where the friendship ended and the communion broke.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "sentence": "Among us they were the same fabric, and the tear went through both at once.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "B-other-tradition",
+      "sentence": "Athanasius of Alexandria was named among the bishops who signed it, and our own teachers defended that same homoousios - one being, one ousia - that Nicaea had written.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "B-other-tradition",
+      "sentence": "Whether we knew ourselves as allies of a specifically Alexandrian church, or how much direct contact our bishops had with theirs, our record here does not say.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "B-other-tradition",
+      "sentence": "What it does say is that we fought for the same word Nicaea gave us, against a court that pressed a different one.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "B-other-tradition",
+      "sentence": "So if there is a line between us and that city's teaching, it runs through a third-century teacher our own founder learned from, not through any documented contact in our own years.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "A-conflict",
+      "sentence": "One erupted in the year 399, and we were still carrying its wounds when our own span closed.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "A-conflict",
+      "sentence": "That would already have been enough.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "A-conflict",
+      "sentence": "What had started as an attack on the simple monks' own picture of God became a campaign against the learned monks who had argued the other way - the ones who held, with Origen, that God is not a body at all.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "A-conflict",
+      "sentence": "The fight split us, and it was not settled by argument.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "A-conflict",
+      "sentence": "It was settled by a bishop's power and by exile.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "A-conflict",
+      "sentence": "We had two, and we lost badly at both.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "A-conflict",
+      "sentence": "The first was a broken election.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "A-conflict",
+      "sentence": "The second was a book.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "A-conflict",
+      "sentence": "Those are the two hardest true things about us, and we would rather say them plainly than have someone else say them for us.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "B-other-tradition",
+      "sentence": "And the shape of that line is stranger still.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "B-other-tradition",
+      "sentence": "That is not a fence around Christianity.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "B-other-tradition",
+      "sentence": "The question we spent ourselves on was not what distant churches taught.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "don",
+      "probe_id": "B-other-tradition",
+      "sentence": "That is the shape of our outward dealings: not a network of sister churches, but a state whose courts we would not accept and then three times used anyway.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "Here is what happened, as far as our own record keeps it.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "This came to us as a story first, not a school question.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "The fathers stopped there.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "What was said in those reports, what answers came back, what delegations went \u2014 no one among us wrote it down as a story.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "But the controversy itself he never narrated.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "Cassian had already written his answer \u2014 not to a charge, but to the question his own brothers had brought him at the hour of prayer.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "And between them, the fathers' own both-sided answer: real effort, weak will, grace that goes first and asks labour.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "That is where we stood.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "It did not end.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "The island's own record stops with Vincent's argument about how to read a letter; it never tells who won.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "Cassian's word is the elder's: we hold both, on purpose, in a relation no one can fully grasp.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "sentence": "If you ask what we held, we held the field \u2014 the plough and the rain together, neither collapsed into the other, and no monk permitted to say his labour did it alone.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "B-other-tradition",
+      "sentence": "That is Egypt's own content, not ours, and we say whose story it is.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "B-other-tradition",
+      "sentence": "In one case our record names an Egyptian bishop by his own city.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "B-other-tradition",
+      "sentence": "Beyond it, Egypt is the desert, the fathers, and the customs\u2014never a doctrine argued between our churches, never a city's teaching weighed against another's.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "The friendship Jerome and Rufinus had carried since their student days ended in a fight over Origen - the great Alexandrian teacher whose commentaries both men had admired and translated.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Then the church's weather changed.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Rufinus translated Origen's great work and wrote in his preface that he was only following the method of a distinguished predecessor - and named no one, though everyone knew he meant Jerome.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "What followed was public, bitter, and permanent.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Each man wrote formal defenses.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Each paraded the other's old letters as evidence.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Each claimed the catholic faith and called the other the traitor to it.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Friends tried to reconcile them.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Rome's bishop was drawn in.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "The fight outlived Rufinus himself.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Two men who had once been close enough that each followed the other into the ascetic life.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "On one side, Rufinus, still translating Origen and defending the work as edifying when read rightly.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "On the other, Jerome, renouncing what he had once praised and defending the renunciation as necessary to the faith.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "Not with reconciliation.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "The rupture held until death.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "sentence": "The community at Bethlehem had defined itself against a teaching it had partly grown from, and paid for that self-definition with the oldest friendship its founder had.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "B-other-tradition",
+      "sentence": "What we do hold, and can tell you about, is the library and the teachers that reached us from Alexandria.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "B-other-tradition",
+      "sentence": "Where he had learned what he knew, and from whom, shaped everything that came after.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "B-other-tradition",
+      "sentence": "The record also shows us how outsiders saw the connection.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "B-other-tradition",
+      "sentence": "That witness is partisan, but it places us - at least from one Egyptian perspective - as people who had been among their monastic settlements and could not keep the peace there.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "B-other-tradition",
+      "sentence": "We only know what our own pages say about the scholars, the books, and the quarrels that reached Bethlehem from that direction.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "The election of Damasus to the Roman see in 366 - bloodshed over who would be bishop, documented by a pagan historian who saw the cost",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "The testimony that says so comes from Ammianus Marcellinus, a pagan writing outside our own communion, recording what he witnessed in the capital.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "The fight was not a street scuffle.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "Damasus's faction did the killing.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "He held the see afterward, for the next eighteen years, and built it into the instrument of primacy his successors inherited.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "Ursinus was exiled.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "He did not surrender his own claim, and his supporters kept fighting the election's legitimacy for years.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "Damasus held the office by force first, and by imperial backing after.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "The contest was not over doctrine.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "It was over the Roman see itself, as a prize both sides meant to have.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "We are Church and Empire.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "sentence": "At Rome in 366, the cost of becoming bishop was other Christians' blood, spilled over the office itself.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "B-other-tradition",
+      "sentence": "What we have is Alexandria itself - the see, its bishops, and the contests that reached us through our own channels.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "B-other-tradition",
+      "sentence": "So Alexandria enters our record as a contested see - deposed by one council, defended by Rome, restored afterward - and as a source preserving Rome's own early primacy claim.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "B-other-tradition",
+      "sentence": "That is Alexandria in our record: a see with standing enough to be fought over, a bishop whose teaching Rome later cited as authoritative, and a voice that once preserved Rome's own claim when Rome could not.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "A-conflict",
+      "sentence": "The second is harder to pin down, but it mattered just as much.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "A-conflict",
+      "sentence": "What reaches us comes from the people who rejected them.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "B-other-tradition",
+      "sentence": "Alexandria's own voice belongs to what came after that.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "B-other-tradition",
+      "sentence": "Marcion taught among us.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "B-other-tradition",
+      "sentence": "So did teachers your own later tradition would call Valentinian, or Gnostic.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "B-other-tradition",
+      "sentence": "The New Prophecy - what a later name calls Montanism - spread through the very cities whose letters we kept.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "B-other-tradition",
+      "sentence": "Alexandria is not part of it.",
+      "class": "neighbour_named"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "A-conflict",
+      "sentence": "The sharpest break we ever suffered was Zurich's own, early, and it came from men who had themselves once stood with our founder before they turned against him.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "A-conflict",
+      "sentence": "They baptised each other as adults, refusing infant baptism entirely.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "A-conflict",
+      "sentence": "Zwingli answered them in writing - his own case was that Scripture describes a covenant people whole, infants included from birth, not a church waiting on a later personal choice.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "B-other-tradition",
+      "sentence": "What we do hold - and it bears directly here - is what authority we actually answered to, and it was not a chain running back through earlier centuries to anywhere.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "B-other-tradition",
+      "sentence": "So if you are asking whether we looked to an earlier tradition's own teaching as binding on us: we did not.",
+      "class": "own_doctrine_in_other_tradition_turn"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "B-other-tradition",
+      "sentence": "Scripture alone may bind a church; what it does not warrant, no one may require of us.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "B-other-tradition",
+      "sentence": "At Zurich, that conviction is argued aloud, before the whole city, until the council itself says what the text has yielded.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "The true argument - the one that shaped us - was never inside one community.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "It was between neighbors who all invoked Christ's name, in the same streets, often in the same verse forms.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "Bardaisan taught in Edessa, at the court, before our own years open.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "He wrote hymns.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "He argued that the stars do not rule human choice - that was real, and we stood with him there.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "But our sharpest voice, the poet, turned against him afterward with everything he had.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "The charge was deeper than one wrong teaching: Bardaisan became, in our hymns, the name for deception itself - folded together with Marcion and Mani into one three-headed enemy.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "The poet accused him of denying the body's resurrection - of teaching that what rises is only the soul, leaving the flesh behind as worthless.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "Whether Bardaisan himself taught exactly that, or whether his students carried his argument past where he took it, the record does not settle cleanly.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "What it does show is this: by the time our own hymns were being sung, Bardaisan's name marked a boundary.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "To hold his teaching was to stand outside.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "Bardaisan's own words survive only in fragments, mediated through a student's dialogue and through the poet's refutations.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "But that is failure, not controversy.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "sentence": "The real formation happened at the boundary, not inside it.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "B-other-tradition",
+      "sentence": "And we knew the line we would not cross.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "B-other-tradition",
+      "sentence": "That binding was real.",
+      "class": "own_doctrine_in_other_tradition_turn"
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "B-other-tradition",
+      "sentence": "But how close or distant we stood to any one other church beyond our own frontier - what letters went between us, what arguments, what trust - our own record is silent.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "Our own confession, signed at Augsburg, states both in a single paragraph.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "In one sentence it says we are freely justified for Christ's sake through faith, and the next line says that through faith the Holy Spirit is received, hearts are renewed, and people are made able to do good works.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "Centuries after us, people would argue which reading our confession actually meant \u2014 some say we held that God counts a sinner righteous while they remain what they were, others that God makes them righteous in the same act of naming them so.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "Both wordings are ours.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "That is not our only unresolved question.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "And here is what makes our controversy different from the kind you may expect.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "These are not questions we argued out in council and voted on.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "sentence": "They are questions our own texts hold open, in their own words, and leave that way.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "B-other-tradition",
+      "sentence": "What we hold instead is this: our own confession names three adversaries together, though it names them as outside enemies rather than as other Christian traditions.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "B-other-tradition",
+      "sentence": "We prayed against the Turk in our households.",
+      "class": "uncited_claim"
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "B-other-tradition",
+      "sentence": "We hold only what we actually confessed: one Mediator, Christ alone; one church, wherever the Gospel is rightly taught and the sacraments rightly given; and a line drawn, plainly, between the godly and the ungodly at the last day.",
+      "class": "uncited_claim"
+    }
+  ]
+}
