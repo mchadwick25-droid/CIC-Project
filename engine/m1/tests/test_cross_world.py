@@ -90,6 +90,41 @@ def test_a_world_missing_from_table_html_is_caught():
     assert not {f.key for f in cross_world.check_table_html_worlds(registry=registry, worlds=worlds)}
 
 
+def test_the_lpc_unregistered_dir_is_caught():
+    """The gap this check exists for: records/lpc/ holds real records but,
+    as of this test running, may or may not yet carry a records/worlds/
+    lpc.yaml entry (PR #586 registers it; this branch's own PR #595
+    registers it too, as a dated ACCEPTED_OPEN waiver, so whichever of the
+    two merges second finds lpc already registered and simply removes its
+    own now-stale waiver). Reproduced against the real records/ tree and
+    the real registry, not a fixture, because the check's whole claim is
+    that the two agree - and conditional on lpc's own real state, so this
+    test states what's actually true right now rather than assuming it."""
+    registry = cross_world.load_registry()
+    keys = {f.key for f in cross_world.check_unregistered_world_dirs(registry=registry)}
+    if "lpc" in registry:
+        assert "unregistered-world-dir/lpc" not in keys
+    else:
+        assert "unregistered-world-dir/lpc" in keys
+        assert "unregistered-world-dir/lpc" in cross_world.ACCEPTED_OPEN
+
+
+def test_unregistered_world_dirs_excludes_fleet_and_the_registry_dir_itself(tmp_path, monkeypatch):
+    """_fleet is fleet-shared content with no registry entry of its own by
+    design, and `worlds` IS records/worlds/, the registry's own storage
+    location - neither is a world's own directory, so neither should ever
+    be flagged, registered or not. A synthetic tree, not the real one,
+    proves both the exclusion and the positive case independent of
+    whatever lpc's own real state happens to be at test time."""
+    (tmp_path / "_fleet").mkdir()
+    (tmp_path / "worlds").mkdir()
+    (tmp_path / "known").mkdir()
+    (tmp_path / "orphan").mkdir()
+    monkeypatch.setattr(cross_world, "RECORDS_ROOT", tmp_path)
+    keys = {f.key for f in cross_world.check_unregistered_world_dirs(registry={"known": {}})}
+    assert keys == {"unregistered-world-dir/orphan"}
+
+
 def test_a_participant_facing_field_carrying_a_record_id_is_caught():
     records = {
         "wld": {
@@ -104,6 +139,79 @@ def test_a_participant_facing_field_carrying_a_record_id_is_caught():
     findings = cross_world.check_participant_field_leaks(records=records, worlds=["wld"])
     assert [f.key for f in findings] == ["ui-field-leak/wld"]
     assert "wld.source.some-edition" in findings[0].message
+
+
+def test_a_participant_facing_field_naming_this_build_process_is_caught():
+    """_BUILD_REF's original shape only caught a build ARTIFACT (`Doc_01`,
+    `BUILD-LOG`) or the literal phrase "this build" - it missed the same
+    build talking about its own PROCESS in plainer words. "this session",
+    "review round(s)" and "search round(s)" are exactly the phrasing a
+    build thread's own narration uses (the same process language
+    tools/check_live_commentary.py's RECORDS_AND_WORLDS_PATTERNS already
+    polices in these files from the hygiene side); each is checked
+    independently since the fix widens one alternation, not one case."""
+    for phrase in (
+        "Confirmed this session, not carried over from before.",
+        "A later review round softened this claim.",
+        "Two search rounds turned up nothing further.",
+    ):
+        records = {"wld": {"wld.term.x": {"id": "wld.term.x", "record_type": "term", "world_word": phrase}}}
+        findings = cross_world.check_participant_field_leaks(records=records, worlds=["wld"])
+        assert [f.key for f in findings] == ["ui-field-leak/wld"], phrase
+
+
+def test_a_census_card_marked_live_ahead_of_its_own_registry_state_is_caught(monkeypatch):
+    """check_census_link already catches a census_id with no live entry at
+    all; this is the opposite mismatch - a card genuinely marked 'Built &
+    Live' for a world whose own registry state hasn't reached admitted/
+    open yet, live and deep-linkable on the Atlas ahead of the very
+    admission gate that is supposed to control that."""
+    registry = cross_world.load_registry()
+    broken = {**registry, "alx": {**registry["alx"], "state": "built"}}
+    monkeypatch.setattr(cross_world, "_census_live_entries", lambda: {registry["alx"]["census_id"]: {}})
+    keys = {f.key for f in cross_world.check_census_registry_state(registry=broken, worlds=["alx"])}
+    assert "census-state-ahead-of-registry/alx" in keys
+
+
+def test_an_admitted_world_missing_a_required_record_type_or_site_json_is_caught():
+    """witt and rzg are the fleet's own real instances of this gap, both
+    ACCEPTED_OPEN and owned by their own build threads - reproduced here
+    on a constructed example so the check's own logic is pinned
+    independent of whichever real gap closes first. A world not yet
+    admitted/open owes none of this."""
+    registry = {
+        "w": {"state": "admitted", "census_id": "w-census"},
+        "unbuilt": {"state": "built", "census_id": "unbuilt-census"},
+    }
+    records = {
+        "w": {"w.term.x": {"id": "w.term.x", "record_type": "term"}},
+        "unbuilt": {"unbuilt.term.x": {"id": "unbuilt.term.x", "record_type": "term"}},
+    }
+    keys = {f.key for f in cross_world.check_required_record_types_and_site_json(registry=registry, records=records, worlds=["w", "unbuilt"])}
+    assert keys == {
+        "required-record-type/w/world_front",
+        "required-record-type/w/facilitator_brief",
+        "required-record-type/w/search_record",
+        "required-site-json/w",
+    }
+
+
+def test_required_record_type_findings_are_keyed_per_type_not_per_world():
+    """A future loss of a DIFFERENT required type at the same world must
+    not hide under an already-waived key - rzg's own real gap (missing
+    search_record only, world_front and facilitator_brief both present)
+    proves the two other types' keys never fire alongside it."""
+    registry = {"w": {"state": "admitted", "census_id": "w-census"}}
+    records = {
+        "w": {
+            "w.front.x": {"id": "w.front.x", "record_type": "world_front"},
+            "w.brief.x": {"id": "w.brief.x", "record_type": "facilitator_brief"},
+        }
+    }
+    keys = {f.key for f in cross_world.check_required_record_types_and_site_json(registry=registry, records=records, worlds=["w"])}
+    assert "required-record-type/w/search_record" in keys
+    assert "required-record-type/w/world_front" not in keys
+    assert "required-record-type/w/facilitator_brief" not in keys
 
 
 def test_register_profile_math_on_a_constructed_example():

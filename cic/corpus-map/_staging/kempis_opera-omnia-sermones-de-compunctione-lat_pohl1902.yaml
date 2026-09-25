@@ -1,0 +1,19 @@
+source_file: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt
+
+assignments:
+  - work: "Opera Omnia (De Vera Compunctione, Sermones)"
+    author: kempis
+    locus: "De vera compunctione, Sermones IX, and further sermon material"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      A volume of Kempis's own minor Latin works (Pohl's 7-vol. Opera
+      Omnia series, Freiburg: Herder, 1902-04) beyond the already-vendored
+      Imitation of Christ. Vendored 2026-09-25 as part of a
+      post-Step0-Revision-2 PD source-acquisition pass. Under Mark's 2026-09-25 ruling
+      (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
+      be primary evidence directly, verified against the vendored file,
+      since it is primary to the movement regardless of language; the
+      scan is clean, not flagged under Mark's OCR ruling "a."

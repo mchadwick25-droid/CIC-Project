@@ -258,3 +258,12 @@ Mark's tech-review stress test (thread "CiC — Tech Review & Funding Readiness 
 
 CLAUDE.md's "Keep the live/canonical surfaces clean" names `records/` as a live surface holding only current, compiled content — no decision logs. This file is itself a decision log (world-registry rulings and provenance), already recognized as such by its own header ("this file holds why it says what it says") and by `tools/check_live_commentary.py`'s `PROTECTED_REGISTRY_LOG` exemption, which treats it as already the registry's own designated decision-log rather than a fresh finding. Moved via `git mv` in the Live-Surface-Cleanup program's first (witt) PR, per that program's own launch brief. Root `README.md`'s `Ministry/` row and `records/` row checked; `Ministry/` row updated to name the new location.
 
+## Build Process version rename — 2026-09-25
+
+Citations rewritten in current documents outside `worlds/`, `records/` and `engine/`
+(3 replacements in 2 files, plus the check-paths baseline). See
+`Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`, 2026-09-25 entry.
+
+| from | to | kind |
+|---|---|---|
+| `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` | `reference/method/CiC_Record_Native_World_Build_Process_V1.7.md` | file |

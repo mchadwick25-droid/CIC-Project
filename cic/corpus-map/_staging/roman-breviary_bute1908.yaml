@@ -1,0 +1,17 @@
+source_file: roman-breviary_bute1908.txt
+
+assignments:
+  - work: "The Roman Breviary (reformed by order of the Council of Trent; published by Pius V; revised by Clement VIII, Urban VIII, and Leo XIII)"
+    author: roman-breviary
+    locus: "one seasonal volume of 4"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Fills the Step0-flagged gap for a Roman Breviary PD English lead.
+      Reflects the Breviary's later revision through Leo XIII, not a
+      pure 1568/1570 Pius V text - disclosed as a textual-layering point
+      for whoever cites it. One of a 4-volume seasonal set; only this
+      volume vendored this pass. Vendored 2026-09-25 as part of a
+      post-Step0-Revision-2 PD source-acquisition pass.

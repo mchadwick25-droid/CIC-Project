@@ -67,6 +67,8 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.quote.martin-offers-to-stand-unarmed
+- type: associated-with
+  target: gallic.gravity.soldier-of-christ
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "began to
 distribute a donative"` returns one hit, line 834. The chapter div is `<div3 title="Chapter IV. Martin

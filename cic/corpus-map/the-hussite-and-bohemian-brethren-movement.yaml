@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-hussite-and-bohemian-brethren-movement
 works:
+- work: 'The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century,
+    Vol. II'
+  author: gillett
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Secondary history, English, Gillett (1871). Vol. II of a 2-volume set; Vol. I not
+    independently checked or vendored this pass. Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass.
+
+    '
+  source_file: gillett_life-and-times-of-huss-v2_1871.txt
 - work: De Ecclesia. The Church
   author: hus
   locus: whole volume
@@ -28,3 +40,65 @@ works:
 
     '
   source_file: hus_letters_workman-pope1904.txt
+- work: 'Bohemia: An Historical Sketch'
+  author: lutzow
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Secondary general history of Bohemia, English, Lutzow (1920, Everyman''s Library),
+    providing broader political/national context for the movement. Vendored 2026-09-25 as
+    part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: lutzow_bohemia-historical-sketch_1920.txt
+- work: The Hussite Wars
+  author: lutzow
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Secondary history, English, Lutzow (1914), of the Hussite wars specifically. Vendored
+    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: lutzow_hussite-wars_1914.txt
+- work: The Life & Times of Master John Hus
+  author: lutzow
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Secondary biography, English, Lutzow (1909). Fills out the institutional/political
+    register this thin-sourced world''s corpus otherwise lacked (previously only Hus''s own
+    two vendored works). Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass.
+
+    '
+  source_file: lutzow_life-and-times-of-hus_1909.txt
+- work: Historia Bohemica
+  author: piccolomini
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'A major contemporary hostile source on the Hussite wars, by Aeneas Sylvius Piccolomini
+    (later Pope Pius II), who observed events at close range. No PD English translation was
+    located; this is the 1592 Latin printing. Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
+
+    '
+  source_file: piccolomini_historia-bohemica-lat_1592.txt
+- work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
+  author: unity-of-the-brethren
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'The Unity of the Brethren''s own institutional constitution, Latin original with
+    English translation, ed. Seifferth (1866). This world''s corpus previously held only Hus''s
+    own 15th-c. writing; this is the first vendored voice from the later Unity generation
+    itself, directly filling the gap the Step0 Revision 2 document''s §4 binding item 2 named
+    (Unity''s own missing primary voice). Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass.
+
+    '
+  source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
