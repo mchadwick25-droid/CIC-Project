@@ -1,0 +1,17 @@
+# Registry entry created ahead of this world's first records reaching
+# `main`, per the registry-first rule (CiC_Record_Native_World_Build_Process
+# V1.8 S2/S6 item 14). This entry reflects Steps 0-2 (library stage) only.
+# Representative identity, card_name, doorway_description, package and
+# thinness_statement are not yet decided - Representative identity/title is
+# a standing `cic-build-cycle` escalation category, never set by a build
+# thread, and the rest depends on construction work (Doc_03 onward) this
+# handoff does not reach. state: building, per the state enum documented in
+# reference/Redesign-Spec/Artifact-1-Record-Schema.md S2
+# ("building | built | admitted | open | withdrawn").
+kind: formation
+world_id: antiochene-exegetical-christianity-chrysostom-ce
+display_name: "Antiochene Exegetical Christianity (Chrysostom-centered)"
+time_window: {start: 350, end: 430}
+place: "Antioch"
+state: building
+census_id: "antiochene-exegetical-christianity-chrysostom-ce"
