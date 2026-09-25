@@ -22,18 +22,26 @@ relations:
   target: lpc.gravity.preaching-and-catechesis
 name: The Inherited Latin Theological Vocabulary
 kind: initiating
-description: 'Doc_08 Cell 1B, Force 1B-3. LAYER 1 -- HISTORICAL EVENT: North African Latin Christianity
-  possessed, before this world begins, a vigorous local literary culture and the Latin theological vocabulary
-  Tertullian is credited with forging. Widely Accepted -- Doc_01 §6, §7; Doc_02 §2 (the Tertullian disclosure).
-  LAYER 2 -- WORLD''S OWN EXPERIENCE: the words were to hand. What had to be argued could be argued in
-  the language the people in the assembly already spoke. LAYER 3 -- FORMATION IMPACT: enables G4 -- preaching
-  and catechesis as the primary formation mode presupposes a vernacular theological register capable of
-  carrying the content. PROPORTIONALITY NOTE (Doc_08 §8): treated briefly. This force is real and enabling
-  but is not contested, not phase-specific, and does not shape any gravity''s own content -- only its
-  medium. No cross-cell connection is named for this force in Doc_08 §4.'
+description: >-
+  Before this world begins, North African Latin Christianity already had a vigorous local literary
+  culture, along with a Latin theological vocabulary that Tertullian is credited with forging. This
+  is widely accepted.
+
+
+  The words were already to hand -- what had to be argued could be argued in the language the people
+  in the assembly already spoke.
+
+
+  This made preaching and catechesis possible as the main way of forming people, since that depends on
+  a theological language in the people's own tongue, able to carry the content.
+
+
+  The force is treated briefly, in proportion to its weight. It is real and enabling. But it is not
+  contested and not tied to one phase. It does not shape what the world's central concerns say, only the
+  medium they are said in. No link to any other force is named for it.
 manifestations:
-- the pre-existing Latin theological vocabulary Tertullian is credited with forging, available to this
-  world's own bishops without needing to be invented
+- the Latin theological vocabulary Tertullian is credited with forging, already available to this world's
+  bishops without needing to be invented
 matrix_cell: 1B
 ---
 Re-derived from the approved Doc_08 §3 Force 1B-3 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G4) named above. sources[] is deliberately empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.

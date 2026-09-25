@@ -28,30 +28,40 @@ relations:
   target: lpc.force.vandal-invasion-siege-of-hippo
 name: The Corpus Outliving the World
 kind: ending
-description: 'Doc_08 Cell 3B, Force 3B-1. LAYER 1 -- HISTORICAL EVENT: Augustine''s theological output,
-  produced under this world''s own pastoral pressures, became the foundational inheritance of the subsequent
-  Western theological tradition far beyond this world''s own close. Widely Accepted -- Doc_01 §6. LAYER
-  2 -- WORLD''S OWN EXPERIENCE (Reported-Experience Status, Constitution Article 17; Forces Framework
-  §3 -- reported as the world''s own self-understanding, not assessed for historical accuracy): not experienced
-  as an ending -- but not experienced as nothing, either. A bishop writing against a live error writes
-  for the people in front of him and for the case at hand, not for a tradition he expects to found. Yet
-  this world did take its own corpus seriously as a thing that would stand after it: Cyprian gathers and
-  forwards his own letters as a body of work; Augustine, at the end, goes back through everything he has
-  written and corrects it (the Retractationes, Registry row 209, a Latin-only witness). A man who revises
-  his life''s work has understood that the work will be read when he cannot answer for it -- what he has
-  not understood, and what no one in this world could, is which of it would matter, or to whom. LAYER
-  3 -- FORMATION IMPACT: the transformation is real and runs outward rather than inward. G7 in particular
-  outlives its own ecology -- a gravity Doc_04 finds structurally freestanding within this world becomes
-  load-bearing for traditions that follow it. This is the one force whose formation impact lands mostly
-  outside the world''s own boundaries, which is why it sits in the Ending row rather than the Ongoing
-  one. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 2A-4 (produced by) -- the anti-Pelagian corpus generated
-  by that force is the largest single component of this inheritance. <- Force 3A-1 (coincides with, does
-  not cause) -- the invasion closes the world; the corpus outlives it, named as coincidence rather than
-  causation.'
+description: >-
+  Augustine's theological writing grew out of this world's own pastoral pressures. Long after the world
+  closed, it became the foundational inheritance of the later Western theological tradition. This is
+  widely accepted.
+
+
+  What follows is the world's own self-understanding. It is reported as such and not assessed for
+  historical accuracy. This outcome was not felt as an ending, but it was not felt as nothing either. A
+  bishop writing against a live error writes for the people in front of him and the case at hand. He
+  does not write for a tradition he expects to found.
+
+
+  Yet this world did take its own writings seriously as something that would stand after it. Cyprian
+  gathered and forwarded his own letters as a body of work. At the end, Augustine went back through
+  everything he had written and corrected it, in the Retractationes -- our own corpus holds no English
+  translation of that work. A man who revises his life's work knows it will be read when he cannot
+  answer for it. What he could not know, and what no one in this world could know, was which of it
+  would matter, or to whom.
+
+
+  The change is real, but it runs outward, not inward. Augustine's teaching on grace and human incapacity
+  outlives its own setting most of all -- within this world that teaching stands on its own, but for the
+  traditions that follow, it becomes load-bearing. This is the one force whose impact lands mostly
+  outside the world's own boundaries, which is why it counts as an ending force, not an ongoing one.
+
+
+  The anti-Pelagian writings are the largest single part of this inheritance. The Vandal invasion closes
+  the world at the same moment, but it does not cause this outcome -- the two coincide, and one does
+  not produce the other.
 manifestations:
-- Augustine's own theological corpus, becoming "the foundational inheritance of the subsequent Western
-  theological tradition" (Doc_01 §6)
-- Augustine's Retractationes, reviewing his own life's work near the end of it (Registry row 209)
+- Augustine's theological corpus, which became the foundational inheritance of the later Western theological
+  tradition
+- Augustine's Retractationes, reviewing his own life's work near the end of it (our own corpus holds
+  no English translation of it)
 matrix_cell: 3B
 ---
 Re-derived from the approved Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] carries the gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.
