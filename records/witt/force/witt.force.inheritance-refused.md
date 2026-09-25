@@ -43,27 +43,27 @@ name: 'The inheritance refused: the Augustinian seedbed, the seven-sacrament, mo
 kind: initiating
 matrix_cell: 1B
 description: '"The Augustinian Hermits are its seedbed (Luther''s own order)... their Reformation-lands houses dissolved into
-  this story". This world refuses two things it inherited. One is the medieval church''s structure of seven
-  sacraments. The other is the papacy''s claim to authority over doctrine. Neither is simply missing. Both are
-  refused openly and often, and argued against by name. The seven sacraments are cut "to but three" and then "but
-  two". This is well documented. The Teutonic Order was turned into a hereditary duchy, and Albert married in
-  1526. This is widely accepted, on the editor''s word. One named question stays open and is not settled. The
-  world refuses its inheritance in words like vows, "false chastity," the Hours and the saints. Are those words
-  this world''s own, or the inheritance''s? This library cannot answer that.
+  this story". This world refuses two things it inherited: the medieval church''s structure of seven sacraments,
+  and the papacy''s claim to authority over doctrine. Neither is simply missing; both are refused openly and
+  often, and argued against by name. It is well documented that the seven sacraments are cut "to but three" and
+  then "but two". The Teutonic Order was turned into a hereditary duchy, and Albert married in 1526, which is
+  widely accepted and rests on the editor''s word. One named question stays open and is not settled. The world
+  refuses its inheritance in words like vows, "false chastity," the Hours and the saints, but are those words this
+  world''s own, or the inheritance''s? This library cannot answer that.
 
   Inside this world, the refusal was felt in the body, as a person''s own former vow and cowl: "wearing a cowl
   will not kill him" (v2 15026). Pastors were "delivered from the unprofitable and burdensome babbling of the
   Seven Canonical Hours" (LC 71-72). The saints had been kept for their special fields, such as fire and
-  pestilence. The Word replaced them, as "the true holy water and holy sign from which he flees" (LC 130-138). The
-  confession gives its own list of what is no longer counted holy: "particular holy-days, particular fasts,
-  brotherhoods, pilgrimages, services in honor of saints, the use of rosaries, monasticism" (AC 501-504).
+  pestilence, until the Word replaced them as "the true holy water and holy sign from which he flees" (LC
+  130-138). The confession gives its own list of what is no longer counted holy: "particular holy-days, particular
+  fasts, brotherhoods, pilgrimages, services in honor of saints, the use of rosaries, monasticism" (AC 501-504).
 
-  This force gave rise to the gravity of promise and sign, the sacraments. The old system of seven sacraments and
-  the mass as sacrifice is exactly the space its refusal fills. It gave rise to estate, office and calling, as the
-  refusal of the clerical estate. It also gave rise to vows, chastity and marriage: the founder was a friar, and
-  the world''s martyrs were monks. It gave embattled Christendom the protections it replaced, the saints. And it
-  left the world its one martyr story: the Brussels monks stripped of "monkish garb... True priests of God''s own
-  making" (Hy 1789-1800).'
+  This force gave rise to the gravity of promise and sign, the sacraments, because the old system of seven
+  sacraments and the mass as sacrifice is exactly the space its refusal fills. From the refusal of the clerical
+  estate came estate, office and calling. From the same refusal came vows, chastity and marriage, since the
+  founder was a friar and the world''s martyrs were monks. It gave embattled Christendom the protections it
+  replaced, the saints. And it left the world its one martyr story: the Brussels monks stripped of "monkish
+  garb... True priests of God''s own making" (Hy 1789-1800).'
 manifestations:
 - the reduction from seven sacraments "to but three" and then "but two" (v2 6695-6701; v1 2271-2272)
 - pastors "delivered from the unprofitable and burdensome babbling of the Seven Canonical Hours" (LC 71-72)

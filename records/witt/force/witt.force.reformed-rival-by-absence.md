@@ -33,28 +33,30 @@ relations:
 name: The Reformed rival, refused at Marburg (1529) -- a force held by located absence [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
-description: 'We searched all ten files in this library, and neither Zwingli nor Marburg appears in any of them. Oecolampadius
-  appears once, in an editor''s footnote. Luther uses the word "Sacramentarians" in his own voice exactly once, in
-  On the Bondage of the Will. The Marburg Articles of 3 October 1529 are a known lead. Luther and Melanchthon were
-  among those who signed them. But this library does not hold a copy. The silence comes from dates and genre, not
-  suppression. The rival is missing because the texts held here are early or are confessions of faith. Nobody
-  removed it. The searches themselves are well documented. This record says the two sides "diverge sharply and
-  specifically at the Eucharist," and it treats that split as a boundary of this world. That weight rests on the
-  project''s census and related build documents. It has no confidence rating yet, and will not have one until the
-  Marburg Articles are acquired.
+description: 'We searched all ten files in this library, and neither Zwingli nor Marburg appears in any of them; Oecolampadius
+  turns up only once, in an editor''s footnote. Luther uses the word "Sacramentarians" in his own voice exactly
+  once, in On the Bondage of the Will. The Marburg Articles of 3 October 1529 are a known lead, and Luther and
+  Melanchthon were among those who signed them, but this library does not hold a copy. The silence comes from
+  dates and genre, not suppression: the rival is missing because the texts held here are early or are confessions
+  of faith, and nobody removed it. The searches themselves are well documented. This record says the two sides
+  "diverge sharply and specifically at the Eucharist," and it treats that split as a boundary of this world. That
+  weight rests on the project''s census and related documents; it has no confidence rating yet, and will not have
+  one until the Marburg Articles are acquired.
 
   On this boundary, the library gives this world one clause, one word, and some general labels. The clause is
   "they reject those that teach otherwise" (AC 322-324). The word appears in a list of weeds among the wheat:
-  "Sacramentarians, Donatists, Arians, Anabaptists, Epicureans, &c." (Co 16090-16092). The sections on the
-  sacrament speak of "new spirits" and "fanatics." These are general labels, not names. This library cannot show
-  how this world itself experienced Marburg. Nothing here describes the Reformed side at all.
+  "Sacramentarians, Donatists, Arians, Anabaptists, Epicureans, &c." (Co 16090-16092). The labels come from the
+  sections on the sacrament, which speak of "new spirits" and "fanatics," general labels rather than names. This
+  library cannot show how this world itself experienced Marburg, and nothing here describes the Reformed side at
+  all.
 
-  This force intensified the teaching on the bodily presence in the Supper, but the library cannot show the force
-  at work. It also split that teaching outward, toward other traditions. We know that from the project''s census
-  and related build documents, not from any text held in this library. The force pressed on the teaching of
-  promise and sign, the sacraments, in ways we cannot see. It did not touch the terrified and comforted conscience
-  at all. This entry is short because the evidence is missing, not because the force mattered little. Usually an
-  entry is short for the opposite reason. Acquiring the Marburg Articles would change every part of this entry.'
+  This force intensified the teaching on the bodily presence in the Supper, though the library cannot show the
+  force at work. It also split that teaching outward, toward other traditions, which we know from the project''s
+  census and related documents rather than from any text held in this library. The force pressed on the teaching
+  of promise and sign, the sacraments, in ways we cannot see, and it did not touch the terrified and comforted
+  conscience at all. This entry is short because the evidence is missing, not because the force mattered little,
+  while other entries are short for the opposite reason. Acquiring the Marburg Articles would change every part of
+  this entry.'
 manifestations:
 - '"Zwingli" and "Marburg" return zero hits in all ten vendored files (Doc_02 §13 item 1)'
 - '"they reject those that teach otherwise" (AC 322-324)'

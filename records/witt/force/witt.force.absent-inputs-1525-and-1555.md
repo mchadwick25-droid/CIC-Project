@@ -35,32 +35,32 @@ description: 'This record gives only the historical events. This library cannot 
   they shaped it, so neither is supplied.
 
   The first event is 1525: the Peasants'' War and the three tracts of 1525. They are known here only at third
-  hand, from a source several steps removed from the events. That source gives their content. The tracts charge
-  the rebels with three sins. They call on the princes to put the rebels down by force. One tract appeared "as the
-  princes'' armies were already winning." Scholars widely accept this content and timing. Blickle''s framing of
-  the war is the dominant modern reconstruction. None of it reaches the level of documented fact, and no phrase
-  from the tracts is quoted.
+  hand, from a source several steps removed from the events, and that source gives their content. The tracts
+  charge the rebels with three sins and call on the princes to put the rebels down by force, and one tract
+  appeared "as the princes'' armies were already winning." Scholars widely accept this content and timing, and
+  Blickle''s framing of the war is the dominant modern reconstruction. Even so, none of it reaches the level of
+  documented fact, and no phrase from the tracts is quoted.
 
-  The second event is 1555: the Peace of Augsburg. It is named as "a real marker of a different kind --
-  political-legal rather than doctrinal-confessional." Nothing in this library attests it at any level of
-  confidence, and this record gives it none.
+  The second event is 1555: the Peace of Augsburg, named as "a real marker of a different kind -- political-legal
+  rather than doctrinal-confessional." Nothing in this library attests it at any level of confidence, and this
+  record gives it none.
 
-  The historical events stand alone here for a reason. It is not that these two events mattered too little to
-  describe further. Both are missing from the library, but they did not have little impact. They are this world''s
+  The historical events stand alone here for a reason, and it is not that these two events mattered too little to
+  describe further. Both are missing from the library, but their impact was far from small: they are this world''s
   "two most consequential moments."
 
-  In time, 1525 falls inside the period this world''s sources cover. It is a high point of the
+  In time, 1525 falls inside the period this world''s sources cover, where it marks a high point of the
   popular-insurrectionary force. It is entered here because it is the outside event most likely to have
-  transformed the teaching on the two governments. 1555 is entered as the point where history settled the
+  transformed the teaching on the two governments, while 1555 is entered as the point where history settled the
   confessional-territorial transformation.
 
   We have no source that shows how this world experienced these events. The only trace is the unnamed "riot" of LC
-  3190-3196, recorded under the popular-insurrectionary force. That is all the library carries.
+  3190-3196, recorded under the popular-insurrectionary force, and that is all the library carries.
 
-  Their formative effect is not supplied either. What can be said is what the gap does to the reconstruction. This
+  Their formative effect is not supplied either, though we can say what the gap does to the reconstruction. This
   library cannot fully test whether the teaching on the two governments lasted over time. This world''s boundary
-  against the peasants is carried by the Facilitator, as a disclosure. The Representative never speaks it as its
-  own content.'
+  against the peasants is carried by the Facilitator as a disclosure, and the Representative never speaks it as
+  its own content.'
 manifestations:
 - the 1525 tracts, characterized only at a tertiary remove, no phrase quoted anywhere in this build
 - '"a real marker of a different kind -- political-legal rather than doctrinal-confessional" (Doc_01 §2.2,

@@ -53,35 +53,34 @@ kind: ongoing
 matrix_cell: 2A
 description: 'The Edict of Worms and the Council of Regency''s edict of January 1522 are widely accepted by scholars. Then
   came the Wartburg absence, from 4 May 1521 to 6 March 1522. The Diets of Speyer and the appeal to "a general,
-  free Christian Council" are documented (AC 116-161). The Diet of Augsburg met in 1530. Nine signatories
-  submitted the Confession there in German and Latin. The Confutation was read before the Emperor. These Augsburg
+  free Christian Council" are documented (AC 116-161). The Diet of Augsburg met in 1530, where nine signatories
+  submitted the Confession in German and Latin and the Confutation was read before the Emperor; these Augsburg
   events are documented too.
 
-  One input is missing, and it is noted both here and in the record of the absent inputs of 1525 and 1555. This
-  force''s legal settlement of 1555 lies outside every text in this library.
+  One input is missing, noted both here and in the record of the absent inputs of 1525 and 1555: this force''s
+  legal settlement of 1555 lies outside every text in this library.
 
   In 1522 this world felt the Edict as the absence that let the reform run ahead: "I would not have gone so far as
   you have done, if I had been here. What you did was good, but you have gone too fast" (v2 14727-14728). Worms is
   remembered as a fool''s play the founder declined: "I could have started such a little game at Worms that even
   the emperor would not have been safe... I did nothing; I left it to the Word" (v2 14932-14935).
 
-  In 1530 this world felt the force as a summons. It set the world''s own business beside the business of the
-  Turk: "measures against the Turk... [and] dissensions in the matter of our holy religion" (AC 50-54). The world
-  answered in a new voice: "our churches" (AC 787).
+  In 1530 this world felt the force as a summons, one that set the world''s own business beside the business of
+  the Turk: "measures against the Turk... [and] dissensions in the matter of our holy religion" (AC 50-54). The
+  world answered in a new voice: "our churches" (AC 787).
 
   This is the force that stated the gravities. At the Diet, it sharpened two of them into confessional definition:
   justification by faith alone, and the terrified and comforted conscience. It moved the teaching on promise and
-  sign from the 1520 logic of abolition to the 1530 defense of a retained Mass. It stated the authority of the
-  Word in an additive way, adding "the Church Catholic" beside Scripture, without changing the underlying rule. It
-  reworded "calling," part of the teaching on estate, office, and calling.
+  sign from the 1520 logic of abolition to the 1530 defense of a retained Mass, stated the teaching on the Word in
+  its additive form, and reworded "calling," part of the teaching on estate, office, and calling.
 
-  It settled the teaching on "must" and "free" as the Confession''s doctrine of adiaphora. It moved "German for
-  the people" into the Apology''s two-tier rule. It changed the name embattled Christendom gave its enemy from
-  "Antichrist" to "the Church of Rome."
+  It settled the teaching on "must" and "free" as the Confession''s doctrine of adiaphora, and it moved "German
+  for the people" into the Apology''s two-tier rule. It also changed the name embattled Christendom gave its
+  enemy, from "Antichrist" to "the Church of Rome."
 
   In the form of the Edict of 1521, this force is the occasion that gave rise to the teaching on "must" and
-  "free." Its transforming side is entered in its own record, the confessional-territorial transformation. That is
-  where the world''s form changed from protest literature to settled confession.'
+  "free." Its transforming side is entered in its own record, the confessional-territorial transformation, which
+  traces where the world''s form changed from protest literature to settled confession.'
 manifestations:
 - '"I would not have gone so far as you have done, if I had been here. What you did was good, but you
   have gone too fast" (v2 14727-14728)'

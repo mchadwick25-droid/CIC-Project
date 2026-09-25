@@ -75,51 +75,49 @@ description: 'Assurance against despair is what the doctrine is for. ''If you sh
   ready -- the promises of God'' (v2 11786-11807). ''So that I shall not and cannot despair: I cannot doubt I have
   a gracious God'' (v2 15709-15724).
 
-  This theme runs through seven separate lines of evidence. It appears in both of this world''s voices, from the
+  This theme runs through seven separate lines of evidence and appears in both of this world''s voices, from the
   first Theses to the Apology. Other gravities depend on it, and they say so unusually plainly. The Confession
   itself ties justified by faith alone back to it: ''neither can it be understood apart from that conflict'' (AC
-  552-553). The absolutions of promise and sign exist for its sake. The liberty of "must" and "free" is preached
-  "only to poor, humble, captive consciences." The two governments draw their line between church and state "for
-  the comforting of men''s consciences."
+  552-553). The absolutions of promise and sign exist for its sake, and the liberty of "must" and "free" is
+  preached "only to poor, humble, captive consciences." The two governments, too, draw their line between church
+  and state "for the comforting of men''s consciences."
 
-  Every register states it as the goal of lived experience. How people actually received it is only a thin
-  inference. There is one filtered trace from a household: a negative report from Katharina von Bora. Whether that
-  report gives her exact words is contested.
+  Every register states it as the goal of lived experience, but how people actually received it is only a thin
+  inference. The one filtered trace from a household is a negative report from Katharina von Bora, and whether
+  that report gives her exact words is contested.
 
-  It explains why the 1517 protest was about penalty and fear rather than abstract doctrine. It explains why
-  private confession was kept. It explains why liberty is limited for the sake of the weak.
+  It explains why the 1517 protest was about penalty and fear rather than abstract doctrine, why private
+  confession was kept, and why liberty is limited for the sake of the weak.
 
-  It lasts from 1517 to 1531 in every register, and it carries on into the 1524 hymn. By the 1540s it thins out to
-  the Table Talk.
+  It lasts from 1517 to 1531 in every register and carries on into the 1524 hymn, before thinning out by the 1540s
+  to the Table Talk.
 
   It strengthens many other gravities: justified by faith alone, the Word, promise and sign, and the household
-  catechism. It also strengthens "must" and "free," vows, chastity, and marriage, and embattled Christendom. It
-  strengthens estate, office, and calling, and German for the people, but only thinly. It reshapes the two
-  governments. It competes with hearers and repeaters of words. As read, it shows no link at all to the bodily
-  presence in the Supper. That is the only gap in an otherwise complete set of links.
+  catechism, along with "must" and "free," vows, chastity, and marriage, and embattled Christendom. It strengthens
+  estate, office, and calling, and German for the people as well, though only thinly. It reshapes the two
+  governments and competes with hearers and repeaters of words. As read, it shows no link at all to the bodily
+  presence in the Supper, the only gap in an otherwise complete set of links.
 
-  It is well documented.
+  It is well documented. It is also a primary gravity, and the reasoning is laid out on both sides rather than
+  smoothed over. For primary status, the Confession makes justified by faith alone depend on the conscience, not
+  the other way round, and three more candidates state in their own texts that they depend on it. Against it, the
+  conscience could be read as the place where justified by faith alone and promise and sign land. On that reading
+  it would not generate content of its own. But the sources state the dependence, and they state it in the
+  direction that decides the question, which outweighs the counter-case.
 
-  It is a primary gravity. The reasoning is laid out on both sides rather than smoothed over. For primary status:
-  the Confession makes justified by faith alone depend on the conscience, not the other way round. And three more
-  candidates state in their own texts that they depend on it. Against: the conscience could be read as the place
-  where justified by faith alone and promise and sign land. On that reading it would not generate content of its
-  own. But the sources state the dependence, and they state it in the direction that decides the question. That
-  outweighs the counter-case.
+  That primary rank rests on firm ground, since it is well documented in both voices, with no gap between rank and
+  record. On the four-way check of voice and register, it scores four out of four, and Kate''s sentence supplies
+  the voice from outside the founders. That sentence is negative, and whether it gives her exact words is
+  contested. On how the teaching was received, we have one filtered household sentence, and it reports coldness.
 
-  Its strength and its evidence agree: it is well documented in both voices, with no gap between them. Across the
-  four kinds of voice and register checked, it scores four out of four. Kate''s sentence supplies the voice from
-  outside the founders. That sentence is negative, and whether it gives her exact words is contested. On how the
-  teaching was received, we have one filtered household sentence, and it reports coldness.
-
-  It grew from what the world was responding to. The laity had been taught to rely on indulgences, confession, and
-  the sacramental system for assurance. Here that is counted as a positive force that organized the world. It
-  comes from the friar''s own conviction together with the laity''s need for assurance. Papal pressure intensified
-  it: the pope is named "a mere tormentor of the conscience," and monastic life is treated as bondage. It
+  It grew from what the world was responding to: the laity had been taught to rely on indulgences, confession, and
+  the sacramental system for assurance. Here that is counted as a positive force that organized the world, coming
+  from the friar''s own conviction together with the laity''s need for assurance. Papal pressure intensified it,
+  as the pope is named "a mere tormentor of the conscience" and monastic life is treated as bondage. It
   intensified again in 1522, when the reform''s own radicals moved so fast that they terrified the weak on their
-  deathbeds. Under the Emperor''s ongoing pressure, it became the most repeated word in the confessional writings:
-  "terrified" occurs 29 times in the Apology. The Reformed rival and the Turk do not visibly touch it. It held,
-  and in what was read it never broke.'
+  deathbeds. Under the Emperor''s ongoing pressure, it became the most repeated word in the confessional writings,
+  with "terrified" occurring 29 times in the Apology. The Reformed rival and the Turk do not visibly touch it. It
+  held, and in what was read it never broke.'
 manifestations:
 - '"if you should ask them whether they are sure that what they do pleases God, they say, ''No''; they
   do not know, or they doubt" (v1 6845-6856)'

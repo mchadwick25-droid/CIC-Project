@@ -49,29 +49,29 @@ name: 'Transmission at the window''s edge and past it: the founder''s anticipate
 kind: ending
 matrix_cell: 3B
 description: 'Within the period this library covers, this world acted on its own record. In his 1539 preface Luther wrote, "I
-  would gladly have seen all my books forgotten and destroyed." His 1545 preface looks back: "Such a Saul was I."
-  The 1543 hymnal put a fence around its own authorship. Spangenberg wrote a preface in 1545 to the Cithara
-  Lutheri. It is an assessment of how the hymns were received, written within the period by someone other than the
-  founder. It praises the hymns and takes a side. At the edge of the period, Melanchthon published an edition of
-  the Latin works "immediately after Luther''s death." He also gave Luther''s funeral oration.
+  would gladly have seen all my books forgotten and destroyed," and his 1545 preface looks back: "Such a Saul was
+  I." The 1543 hymnal put a fence around its own authorship. In 1545 Spangenberg wrote a preface to the Cithara
+  Lutheri, an assessment of how the hymns were received, written within the period by someone other than the
+  founder; it praises the hymns and takes a side. At the edge of the period, Melanchthon published an edition of
+  the Latin works "immediately after Luther''s death," and he also gave Luther''s funeral oration.
 
   The point where the period closes is itself a filter on what survives. The library ends at 1545 because it is
   built around the founder''s writings, and his last prefaces are dated 1545. After the period, the works passed
   through named lines of editors, each with its own stated interests. The Philadelphia Edition committee worked
-  toward "the approaching jubilee of the Reformation in 1917." It chose treatises "of most permanent value." It
-  left out On Monastic Vows "because of its size." Bente and Dau published the Concordia Triglotta in 1921, the
-  Missouri Synod''s confessional edition. Robert E. Smith''s Project Wittenberg released the Small Catechism into
-  the public domain without its 1529 preface. Henry Cole''s 1823 translation of On the Bondage of the Will was
-  urged by a Reformed-Anglican patron.
+  toward "the approaching jubilee of the Reformation in 1917," choosing treatises "of most permanent value" and
+  leaving out On Monastic Vows "because of its size." Bente and Dau published the Concordia Triglotta, the
+  Missouri Synod''s confessional edition, in 1921. Robert E. Smith''s Project Wittenberg released the Small
+  Catechism into the public domain without its 1529 preface, and Henry Cole''s 1823 translation of On the Bondage
+  of the Will was urged by a Reformed-Anglican patron.
 
   This world held that its own books should not outlive the Bible. Luther wrote: "I would gladly have seen all my
   books forgotten and destroyed... comforted with the thought that my books will yet be forgotten in the dust" (v1
-  260-300). The communities that came after 1545 had their own sense of what they were preserving. That falls
+  260-300). The communities that came after 1545 had their own sense of what they were preserving, but that falls
   outside the period, and this record does not describe it.
 
   The way these writings were handed down decides what can and cannot be rebuilt. The founder''s argued doctrine
-  survives in abundance. Other things are missing: the parish, the women, the boundaries of 1525 and 1543, the
-  Marburg boundary, and the service orders. They are all missing "for the same modern reason -- a
+  survives in abundance, while other things are missing: the parish, the women, the boundaries of 1525 and 1543,
+  the Marburg boundary, and the service orders. They are all missing "for the same modern reason -- a
   twentieth-century translation economy and a twenty-first-century hosting problem, not sixteenth-century
   suppression."'
 manifestations:

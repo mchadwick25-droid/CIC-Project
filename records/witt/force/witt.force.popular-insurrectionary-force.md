@@ -37,29 +37,29 @@ kind: ongoing
 matrix_cell: 2A
 description: 'Some of this force is documented. The first item is An Earnest Exhortation for All Christians, Warning Them
   Against Insurrection and Rebellion, from December 1521 or January 1522. It shows sympathy for "the common man"
-  who "has been brooding over the injury he has suffered in property, in body and in soul." Only then does it
-  forbid insurrection. The flail in the Karsthans pamphlet is also on this list. The pamphlet itself rests on a
-  widely accepted, not documented, basis. The Large Catechism speaks of an unnamed "murder, and riot of our
-  enemies" quelled by prayer (LC 3190-3196). The text is documented, but it does not name the event.
+  who "has been brooding over the injury he has suffered in property, in body and in soul," and only then does it
+  forbid insurrection. The flail in the Karsthans pamphlet is also on this list, although the pamphlet itself
+  rests on a widely accepted, not documented, basis. The Large Catechism speaks of an unnamed "murder, and riot of
+  our enemies" quelled by prayer (LC 3190-3196); the text is documented, but it does not name the event.
 
   Other material is absent. Against the Murderous, Thieving Hordes of Peasants (May 1525) and the other 1525
-  tracts that go with it are not held in this library. They are described only from a source several steps removed
-  from the events. Their content is widely accepted, but no phrase from them is quoted. Blickle''s "revolution of
-  the common man" is the leading modern scholarly account. The 1522 Exhortation "reads very differently against it
-  than the 1525 tract does."
+  tracts that go with it are not held in this library, and they are described only from a source several steps
+  removed from the events. Their content is widely accepted, but no phrase from them is quoted. Blickle''s
+  "revolution of the common man" is the leading modern scholarly account, and the 1522 Exhortation "reads very
+  differently against it than the 1525 tract does."
 
   Inside this world, 1522 is remembered as bloodshed the Word made unnecessary: "I could have brought great
-  bloodshed upon Germany... I did nothing; I left it to the Word" (v2 14932-14935). The wrong had a real cause.
-  Yet the Word forbids answering it with "flails and cudgels" (v3 10665-10672). By 1529 it is remembered as a
+  bloodshed upon Germany... I did nothing; I left it to the Word" (v2 14932-14935). The wrong had a real cause,
+  yet the Word forbids answering it with "flails and cudgels" (v3 10665-10672). By 1529 it is remembered as a
   tragedy averted by prayer: "the prayer of a few godly men intervened like a wall of iron on our side" (LC
   3190-3196). The text names no event, and this record supplies none for 1525. In this library, the world''s own
-  memory of 1525 is an unnamed "riot" answered by prayer. That is all that can be said about how the world itself
-  lived it.
+  memory of 1525 is an unnamed "riot" answered by prayer, and that is all that can be said about how the world
+  itself lived it.
 
-  This force strengthened the teaching of the two governments in 1521-22. The high point of that strengthening
+  This force strengthened the teaching of the two governments in 1521-22, and the high point of that strengthening
   came in 1525. But 1525 is a named absence here, and this record does not describe what it contained. The force
-  also gave the teaching on "must" and "free" a second object. The restraint built for the reform''s own haste was
-  turned on the peasants'' haste too.'
+  also gave the teaching on "must" and "free" a second object, turning the restraint built for the reform''s own
+  haste on the peasants'' haste too.'
 manifestations:
 - '"the common man" who "has been brooding over the injury he has suffered in property, in body and in
   soul" (v3 10665-10672)'

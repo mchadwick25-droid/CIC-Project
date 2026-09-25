@@ -49,25 +49,25 @@ name: 'The papal force, ongoing: the Confutation, the persecution of married pri
   1522-1531 [2A - ongoing/external]'
 kind: ongoing
 matrix_cell: 2A
-description: 'After the bull, the papal force continues in three documented forms. The first is the Roman Confutation of 1530.
-  It was read before the Emperor, but the Lutheran party was refused a written copy: "they were unwilling to
+description: 'After the bull, the papal force continues in three documented forms. The first is the Roman Confutation of 1530,
+  which was read before the Emperor while the Lutheran party was refused a written copy: "they were unwilling to
   exhibit to us a copy of their Apology" (Ap 8447-8449). The Lutheran side cites it again and again as "the
   adversaries." The second is the confession''s own report that "men, and that, priests, are cruelly put to
-  death... for no other cause than marriage" (AC 765-766). That the confession makes this argument is documented.
-  The practice the argument takes for granted is widely accepted. The third is the Easter communion law, the fast,
-  and the seven hours. The world remembers these as compulsions it had left behind. The Roman side of this period
-  appears in the library only as the answering side quotes it. That limit comes with a library built on the
-  founder''s own writings. It is disclosed here rather than corrected.
+  death... for no other cause than marriage" (AC 765-766). That the confession makes this argument is documented,
+  while the practice the argument takes for granted is widely accepted. The third is the Easter communion law, the
+  fast, and the seven hours, which the world remembers as compulsions it had left behind. The Roman side of this
+  period appears in the library only as the answering side quotes it. That limit comes with a library built on the
+  founder''s own writings, and it is disclosed here rather than corrected.
 
   Inside this world, the name for this force changes with the kind of writing. The sermons call it "the pope...
-  the Antichrist." The catechism calls it "the old way under the Pope" (LC 4327). The confession speaks of "the
-  Church of Rome as known from its writers" (AC 631-633). The body remembers it as a command with a graveyard
+  the Antichrist," the catechism calls it "the old way under the Pope" (LC 4327), and the confession speaks of
+  "the Church of Rome as known from its writers" (AC 631-633). The body remembers it as a command with a graveyard
   attached: "he who does not go [to the sacrament at Eastertide] shall not be buried in consecrated ground" (v2
   15468-15470). The conscience remembers it as its tormentor: "The Pope is a mere tormentor of the conscience" (TT
-  3083-3084). Whether these are the exact words spoken is contested.
+  3083-3084), though whether the Table Talk records these exact words is contested.
 
-  This force held in place and strengthened four of the world''s gravities. They are justification by faith alone,
-  the authority of the Word, promise and sign in the sacraments, and the terrified and comforted conscience. This
+  This force held in place and strengthened four of the world''s gravities: justification by faith alone, the
+  authority of the Word, promise and sign in the sacraments, and the terrified and comforted conscience. This
   shows in the Babylonian Captivity, "written against the bull''s year"; in the "under the bench" form; and in the
   pope as "tormentor of the conscience." Through the deaths of married priests, it also strengthened the world''s
   teaching on vows, chastity, and marriage. The removal of this force was itself a force, and the founder reports

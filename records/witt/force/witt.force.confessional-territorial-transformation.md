@@ -53,27 +53,28 @@ kind: ending
 matrix_cell: 3A
 description: '"A movement that argued its case in occasional treatises in 1517-1520 had, by 1530, produced a single formal
   confession subscribed by named princes... a real change in institutional register, from protest literature to
-  settled confession." The documents'' own dates and contents are well attested. How sharp the change really felt
-  is harder to pin down.
+  settled confession." The documents'' own dates and contents are well attested, but how sharp the change really
+  felt is harder to pin down.
 
-  The change was gradual, running from 1522 to 1529 to 1530. It was not a sudden overwhelming. What this world
-  became afterward was a later form of itself, not a different community. This record does not claim that the
-  change ended anything. It does not claim the change was complete by 1545. It claims nothing about 1555, which
-  has its own entry under the absent inputs of 1525 and 1555.
+  The change was gradual, running from 1522 to 1529 to 1530, rather than a sudden overwhelming, and what this
+  world became afterward was a later form of itself, not a different community. This record does not claim that
+  the change ended anything, nor that it was complete by 1545. It claims nothing about 1555, which has its own
+  entry under the absent inputs of 1525 and 1555.
 
-  This world never told the story of its own change of form. So what we can say about its own experience is
+  This world never told the story of its own change of form, so what we can say about its own experience is
   limited to the change of voice the texts themselves show. In 1520, a professor speaks to named readers and to
   "the German estates." In 1522, a preacher speaks to "dear friends." In 1529, a father speaks to his household:
   "The Simple Way a Father Should Present Them to His Household."
 
-  In 1530, "the undersigned Elector and Princes" stand before "Imperial Majesty." They submit "the Confession of
-  our preachers and of ourselves." They speak of "our churches" and of a Mass "retained among us." The name
-  "Antichrist," used in the fighting writings, becomes "the Church of Rome" in the confession.
+  In 1530, "the undersigned Elector and Princes" stand before "Imperial Majesty." There they submit "the
+  Confession of our preachers and of ourselves." They speak of "our churches" and of a Mass "retained among us."
+  The name "Antichrist," used in the fighting writings, becomes "the Church of Rome" in the confession.
 
-  The gravities are stated here, not changed. But the world''s structure of authority and its boundary are
-  transformed. The "fencing" of 1522-31 becomes the test of what is legitimate. When it matters most, the world''s
-  public voice belongs to princes. This form carried forward, past the period this world''s sources cover, the
-  pair of confessional documents and the two catechisms. They entered the Book of Concord in 1580 by reference.'
+  The gravities are stated here, not changed, but the world''s structure of authority and its boundary are
+  transformed. The "fencing" of 1522-31 becomes the test of what is legitimate, and when it matters most, the
+  world''s public voice belongs to princes. Past the period this world''s sources cover, this form carried forward
+  the pair of confessional documents and the two catechisms, which entered the Book of Concord in 1580 by
+  reference.'
 manifestations:
 - '"a movement that argued its case in occasional treatises in 1517-1520 had, by 1530, produced a single
   formal confession subscribed by named princes" (Doc_01 §2.3)'

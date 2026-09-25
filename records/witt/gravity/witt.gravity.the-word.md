@@ -87,59 +87,58 @@ relations:
 name: 'The Word: Scripture''s authority, and the agent that "must do it" [PRIMARY]'
 classification: primary
 description: 'Scripture''s authority stands against pope, councils and "doctrines of men." This world''s own texts state it in
-  two senses. They keep the two distinct, but never separate them.
+  two senses, which they keep distinct but never separate.
 
   The first is a sense of authority: ''it is a wickedly invented fable... that the interpretation of Scripture or
   the confirmation of its interpretation belongs to the pope alone... the keys were not given to Peter alone, but
   to the whole community'' (v2 2384-2390). The second is a sense of restraint: ''the Word must do this thing, and
   not we poor sinners'' (v2 14917-14918). And: ''I did nothing; the Word did it all'' (14931).
 
-  It appears across seven separate lines of evidence. Luther''s writings are sorted into eight registers, and it
-  appears in six of them. Only disputation and conversation lack it.
+  It appears across seven separate lines of evidence, and in six of the eight registers into which Luther''s
+  writings are sorted. Only disputation and conversation lack it.
 
-  Five other gravities state outright that they depend on it. Promise and sign depends on it, because the Word is
-  joined to the element. The household catechism depends on it, because the catechism is the "epitome of the
-  entire Holy Scriptures." Estate, office, and calling depends on it, because office is defined as the ministry of
-  the Word. "Must" and "free" depends on it, because the sense of restraint is its own warrant. Embattled
-  Christendom depends on it, because the Word is the weapon.
+  Five other gravities state outright that they depend on it. Promise and sign depends on it because the Word is
+  joined to the element, and the household catechism because the catechism is the "epitome of the entire Holy
+  Scriptures." Estate, office, and calling depends on it because office is defined as the ministry of the Word.
+  "Must" and "free" depends on it because the sense of restraint is its own warrant, and embattled Christendom
+  because the Word is the weapon.
 
-  It shaped the world as a program. How people received it is only a thin inference.
+  It shaped the world as a program, though how people received it is only a thin inference.
 
-  It explains a great deal. The whole structure of the polemical writings traces back to it. So do the definition
-  of a sacrament and the Confession''s condemnation of the Anabaptists. So does the pattern of what this world
-  printed.
+  Much of this world''s shape traces back to it: the whole structure of the polemical writings, the definition of
+  a sacrament, the Confession''s condemnation of the Anabaptists, and the pattern of what this world printed.
 
-  It lasts from 1517 to 1531 and on into the prefaces of 1539 and 1543. Across that time the tone differs. One
-  form is sharp. Melanchthon''s form adds to Scripture: "Scriptures... and the Church Catholic" (AC 631-633). But
-  this reads as one rule stated two ways, not as two rules.
+  It lasts from 1517 to 1531 and on into the prefaces of 1539 and 1543, though the tone differs across that time.
+  One form is sharp, while Melanchthon''s form adds to Scripture: "Scriptures... and the Church Catholic" (AC
+  631-633). But this reads as one rule stated two ways, not as two rules.
 
   It strengthens many other gravities: justified by faith alone, promise and sign, the household catechism, and
   the terrified and comforted conscience. It also strengthens estate, office, and calling, vows, chastity, and
   marriage, German for the people, and embattled Christendom. It reshapes the two governments and the bodily
-  presence in the Supper. It competes with "must" and "free" and with hearers and repeaters of words. The pull
+  presence in the Supper, and it competes with "must" and "free" and with hearers and repeaters of words. The pull
   between the Word and "must" and "free" is the sharpest tension inside this world.
 
-  It is well documented. In fact, it is the best-attested term in the library.
+  It is well documented; in fact, it is the best-attested term in the library.
 
-  It is a primary gravity. Most of the other candidates state that they depend on it. Its strength and its
-  evidence agree, with no gap between them. Across the four kinds of voice and register checked, it scores four
-  out of four. The voice from outside the founders is Karsthans''s fictional peasant, demanding "the divine truth
-  in our language." Its reception is not attested beyond Wittenberg''s own congregation. The founder himself says
-  that congregation has "the pure Word of God" (v2 14744-14745).
+  It is a primary gravity, since most of the other candidates state that they depend on it. Nothing in the record
+  falls short of that rank. Across the four kinds of voice and register checked, it scores four out of four. The
+  voice from outside the founders is Karsthans''s fictional peasant, demanding "the divine truth in our language."
+  Its reception is not attested beyond Wittenberg''s own congregation, which the founder himself says has "the
+  pure Word of God" (v2 14744-14745).
 
-  It began as a refusal. The papacy claimed the authority to bind conscience apart from Scripture, and this world
-  refused that claim. Then it turned the refusal into a positive teaching. This grew from the early papal
-  pressure, inside the imperial frame. Later papal pressure sharpened it into the harsh "under the bench" form,
-  under the bull and the Leipzig polemic.
+  It began as a refusal: the papacy claimed the authority to bind conscience apart from Scripture, and this world
+  refused that claim, then turned the refusal into a positive teaching. It grew from the early papal pressure,
+  inside the imperial frame. Later papal pressure, under the bull and the Leipzig polemic, sharpened it into the
+  harsh "under the bench" form.
 
-  The reform''s own radicals reshaped it twice. In 1522 it became the restraint of "the Word keeps its right, but
-  not the power to enforce," set against Karlstadt''s pace. In 1529-31 it became an explicitly external Word (AC
-  V), set against the "new spirits."
+  The reform''s own radicals reshaped it twice. In 1522, set against Karlstadt''s pace, it became the restraint of
+  the Word, keeping its right to be preached but not the power to enforce it. In 1529-31, set against the "new
+  spirits," it became an explicitly external Word (AC V).
 
-  Under the Emperor''s ongoing pressure, it was stated in the additive form: adding "the Church Catholic" beside
-  Scripture, without changing the underlying rule. Through print as a medium, and through handing on within the
-  world''s own life, it is "the thing printed." At the close of the period, the world''s own inner fracture was
-  fenced off. There, at the world''s own internal edge, it supplies the test: "the external Word."'
+  Under the Emperor''s ongoing pressure, it was stated in the additive form, adding "the Church Catholic" beside
+  Scripture without changing the underlying rule. Through print as a medium, and through handing on within the
+  world''s own life, it is "the thing printed." At the close of the period, when the world''s own inner fracture
+  was fenced off, it supplies the test at the world''s own internal edge: "the external Word."'
 manifestations:
 - '"it is a wickedly invented fable... that the interpretation of Scripture or the confirmation of its
   interpretation belongs to the pope alone... the keys were not given to Peter alone, but to the whole

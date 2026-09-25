@@ -96,57 +96,56 @@ description: 'The sinner is ''freely justified for Christ''s sake, through faith
   Liberty, v2 11780-11781); ''the promises of God give what the commands of God ask... He alone commands. He also
   alone fulfils'' (v2 11817-11820).
 
-  Its first, limited form is the target of the 1517 disputation. ''The true treasure of the Church is the Most
+  Its first, limited form is the target of the 1517 disputation: ''The true treasure of the Church is the Most
   Holy Gospel of the glory and the grace of God'' (Th. 62). That thesis answers the claim that giving to the poor
   is ''a better work than buying pardons'' (Th. 43).
 
-  The doctrine runs through seven streams of evidence, in both of this world''s voices. They are disputation,
-  treatise, sermon, catechism teaching, and hymn. They also include the sustained argument of The Bondage of the
-  Will, and Melanchthon''s confession. That confession calls it ''the chief topic of Christian doctrine'' (Ap IV,
-  561-562).
+  The doctrine runs through seven streams of evidence, in both of this world''s voices: disputation, treatise,
+  sermon, catechism teaching, and hymn, along with the sustained argument of The Bondage of the Will and
+  Melanchthon''s confession. That confession calls it ''the chief topic of Christian doctrine'' (Ap IV, 561-562).
 
-  It recurs across all seven streams. Other gravities say in their own texts that they depend on it. Promise and
-  sign approaches the sacrament "with faith alone." The terrified and comforted conscience refers the whole
-  doctrine to the conscience (AC 552-553). Estate, office, and calling redefines works by faith. Vows, chastity,
-  and marriage refuses vows as merit.
+  It recurs across all seven streams, and other gravities say in their own texts that they depend on it. Promise
+  and sign approaches the sacrament "with faith alone," and the terrified and comforted conscience refers the
+  whole doctrine to the conscience (AC 552-553). Estate, office, and calling redefines works by faith, while vows,
+  chastity, and marriage refuses vows as merit.
 
-  It shapes people as a doctrine prescribed and preached. It is the one gravity the founder says his own
+  It shapes people as a doctrine prescribed and preached, and it is the one gravity the founder says his own
   congregation already held, in 1522: ''you are more learned herein than I'' (v2 14665-14666). That any wider
-  congregation held it rests only on thin inference. What the founder prescribed is kept apart from what
+  congregation held it rests only on thin inference, so what the founder prescribed is kept apart from what
   congregations received.
 
-  It explains a great deal. It explains the target of the 1517 protest and the structure of the 1520 treatises. It
-  explains why the catechism puts the Creed over the Commandments. It explains the Confession''s own order, with
-  Article IV before Article V.
+  Much of the movement''s shape follows from it, including the target of the 1517 protest and the structure of the
+  1520 treatises. It also explains why the catechism puts the Creed over the Commandments, and why the
+  Confession''s own order sets Article IV before Article V.
 
-  It persists from 1517 to 1531 in every kind of writing. By the 1540s it thins to hymn and Table Talk only.
+  It persists from 1517 to 1531 in every kind of writing, but by the 1540s it thins to hymn and Table Talk only.
 
-  It reinforces the Word, promise and sign, and the household catechism. It also reinforces the conscience, "must"
-  and "free", vows and marriage, and embattled Christendom. It reinforces the bodily presence and German for the
-  people only thinly. It reshapes the two governments and estate, office, and calling. It competes with only one:
-  hearers and repeaters of words.
+  It reinforces the Word, promise and sign, and the household catechism, as well as the conscience, "must" and
+  "free", vows and marriage, and embattled Christendom. Its reinforcement of the bodily presence and German for
+  the people is only thin. It reshapes the two governments and estate, office, and calling, and it competes with
+  only one: hearers and repeaters of words.
 
-  The doctrine is well documented. It is classified as a primary gravity, and it holds on every measure with
-  strong confidence. The confession''s own voice calls it "the chief topic." Its organizing strength and the
-  evidence for it agree. They do not pull apart.
+  The doctrine is well documented, and it is classified as a primary gravity that holds on every measure with
+  strong confidence. The confession''s own voice calls it "the chief topic," and the evidence fully bears that
+  organizing weight rather than falling short of it.
 
   This world has a single strand, so the usual cross-strand test is run here as two scores instead. It scores four
-  of four. Both voices carry it, across six kinds of writing. There is also one thin trace from a household. That
-  is Katharina von Bora (TT 3147-3148), and she speaks of coldness in prayer, not of faith itself. As for how it
-  was received, the founder says it was received, in Wittenberg only, in 1522.
+  of four, carried by both voices across six kinds of writing. There is also one thin trace from a household:
+  Katharina von Bora (TT 3147-3148), who speaks of coldness in prayer, not of faith itself. As for how it was
+  received, the founder says it was received, in Wittenberg only, in 1522.
 
   It arose from the friar''s founding conviction and from the laity''s need for assurance. The papal bull and the
-  Leipzig dispute then turned an argument into the movement''s identity. That papal pressure, in its early and its
-  ongoing form, held and intensified it.
+  Leipzig dispute then turned an argument into the movement''s identity, and that papal pressure, in its early and
+  its ongoing form, held and intensified it.
 
-  The imperial force intensified it again, into a confessional definition at Augsburg. That came in Article IV of
-  the Augsburg Confession in 1530, and the Apology''s "chief topic" in 1531.
+  The imperial force intensified it again into a confessional definition at Augsburg: Article IV of the Augsburg
+  Confession in 1530, and the Apology''s "chief topic" in 1531.
 
   Then the reform''s own "new spirits", the internal radical force, used the formula for a purpose it was not
-  built for. The doctrine was fenced again, not broken. By 1529 the Large Catechism answers that faith ''must have
-  something which it believes... upon which it stands and rests'' (LC 3916-3921).
+  built for. The doctrine was fenced again rather than broken, and by 1529 the Large Catechism answers that faith
+  ''must have something which it believes... upon which it stands and rests'' (LC 3916-3921).
 
-  After 1531 it is carried only in hymn and Table Talk. This stage lies at the edge of the world''s time window,
+  After 1531 it is carried only in hymn and Table Talk, a stage that lies at the edge of the world''s time window,
   outside the formal forces mapping.'
 manifestations:
 - '"freely justified for Christ''s sake, through faith... This faith God imputes for righteousness" (AC

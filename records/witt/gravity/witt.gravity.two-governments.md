@@ -81,58 +81,58 @@ relations:
   target: witt.contested.two-governments-historical-scope
 name: 'The two governments: the temporal sword, obedience, and the prince as addressee [SUPPORTING]'
 classification: supporting
-description: 'The temporal sword is ordained by God. It is to be obeyed "save only when commanded to sin." ''These people need
+description: 'The temporal sword is ordained by God and is to be obeyed "save only when commanded to sin." ''These people need
   no secular sword or law. And if all the world were composed of real Christians... no prince, king, lord, sword,
   or law would be needed'' (v3 12139-12191). ''Lawful civil ordinances are good works of God... Christians are
   necessarily bound to obey their own magistrates and laws save only when commanded to sin'' (AC 411-428).
 
-  This theme appears across six separate lines of evidence. Other things rest on it. The program of the household
-  catechism assumes that territorial rulers support pastors. The public form of promise and sign is settled "with
-  the aid of the authorities." And princes sign the Confession.
+  This theme appears across six separate lines of evidence, and other things rest on it. The program of the
+  household catechism assumes that territorial rulers support pastors, the public form of promise and sign is
+  settled "with the aid of the authorities," and princes sign the Confession.
 
-  It shaped the world as taught obedience. But the library shows this only for Wittenberg''s council and the Saxon
+  It shaped the world as taught obedience, but the library shows this only for Wittenberg''s council and the Saxon
   court.
 
-  It explains why this world keeps addressing princes. It explains why the Confession condemns the Anabaptists by
-  name. It also explains why the settlement is territorial rather than empire-wide.
+  It explains why this world keeps addressing princes and why the Confession condemns the Anabaptists by name, and
+  also why the settlement is territorial rather than empire-wide.
 
-  How long it lasts is only partly shown. It is documented from 1520 to 1531 at the level of Empire and court. It
-  is not documented at parish level. Its two most important moments, 1525 and 1555, fall outside every text in
-  this library.
+  How long it lasts is only partly shown: it is documented from 1520 to 1531 at the level of Empire and court, but
+  not at parish level. Its two most important moments, 1525 and 1555, fall outside every text in this library.
 
   It strengthens the household catechism, estate, office, and calling, vows, chastity, and marriage, and embattled
-  Christendom. It also strengthens German for the people and hearers and repeaters of words, but only thinly. It
-  reshapes promise and sign. Four others reshape it in turn: justified by faith alone, the Word, the terrified and
-  comforted conscience, and "must" and "free." It shows no link at all to the bodily presence in the Supper.
+  Christendom. It strengthens German for the people and hearers and repeaters of words as well, though only
+  thinly. It reshapes promise and sign, and four others reshape it in turn: justified by faith alone, the Word,
+  the terrified and comforted conscience, and "must" and "free." It shows no link at all to the bodily presence in
+  the Supper.
 
-  The doctrine and the institutions at court level are well documented. Events that the modern editors report are
-  widely accepted. The parish level is absent.
+  The doctrine and the institutions at court level are well documented, and events that the modern editors report
+  are widely accepted. The parish level is absent.
 
-  It is a supporting gravity, not a primary one. It shapes the institutional side of this world everywhere. But
+  It is a supporting gravity, not a primary one. It shapes the institutional side of this world everywhere, but
   its own texts derive it from the primary gravities. Real Christians "need no secular sword" because of justified
-  by faith alone. The temporal sword has the power to enforce, where the Word has only the right, because the Word
-  teaching holds that way. And its staying power fails exactly where the world''s own political history was
-  decided, in 1525 and 1555.
+  by faith alone, and the sword holds the power to enforce because, as the teaching on the Word holds, the Word
+  holds only the right to be preached. And its staying power fails exactly where the world''s own political
+  history was decided, in 1525 and 1555.
 
-  For what is in the library, its strength and its evidence agree. The gap recorded here is a gap in coverage, not
-  in confidence. This gravity almost certainly organized a great deal across the whole period, but this library
-  cannot show it. So the classification reflects the library, not the history.
+  Within what the library holds, the supporting rating matches the evidence, and the gap recorded here is one of
+  coverage, not of confidence. This gravity almost certainly organized a great deal across the whole period, but
+  this library cannot show it. The classification therefore reflects the library, not the history.
 
-  Across the four kinds of voice and register checked, it scores three out of four. There is no voice from outside
-  the founders. The signatories and edicts are institutions, not voices. On how it was received, we have only the
-  court and the council.
+  Checked across the four kinds of voice and register, it scores three out of four. There is no voice from outside
+  the founders, since the signatories and edicts are institutions, not voices. On how it was received, we have
+  only the court and the council.
 
-  It grew inside an empire of semi-autonomous princes. Only in that setting does "obtain the aid of the
-  authorities" mean a territorial ruler. Under the territorial princes, it changed direction three times. In 1520
-  the princes were summoned as priests. In 1523 came the limit of obedience. In 1530 the princes stood as
+  It grew inside an empire of semi-autonomous princes, the only setting in which "obtain the aid of the
+  authorities" means a territorial ruler. Under the territorial princes it changed direction three times: in 1520
+  the princes were summoned as priests, in 1523 came the limit of obedience, and in 1530 the princes stood as
   confessors.
 
-  Popular uprising intensified it in 1521-22. The uprising''s climax, in 1525, is a named absence from the
-  library. In 1530 the movement''s own radicals reshaped it. Article XVI names the Anabaptists as the reason civil
+  Popular uprising intensified it in 1521-22, though the uprising''s climax, in 1525, is a named absence from the
+  library. In 1530 the movement''s own radicals reshaped it: Article XVI names the Anabaptists as the reason civil
   office must be affirmed.
 
   In the confessional and territorial change at the end of the period, its princes-as-confessors side is attested
-  at the Diet. But its legal settlement of 1555 lies outside every text in this library. It is the one gravity
+  at the Diet, but its legal settlement of 1555 lies outside every text in this library. It is the one gravity
   whose decisive break and whose settlement are both missing from the library.'
 manifestations:
 - '"these people need no secular sword or law. And if all the world were composed of real Christians...

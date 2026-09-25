@@ -94,55 +94,55 @@ description: 'The three parts every Christian must know are to be taught by the 
   his children and servants at least once a week'' (LC 241-243). ''The Simple Way a Father Should Present Them to
   His Household'' (SC 45).
 
-  This gravity is deliberately limited. It is a claim about the program. It never claims that any household
+  This gravity is deliberately limited: it is a claim about the program, and it never claims that any household
   actually held to it.
 
-  The program recurs widely. It appears in catechism teaching, in sermons by implication, in a hymnal preface, and
-  in conversation. It appears in the confession and the Apology, and in one participant''s witness. Other
+  The program recurs widely, appearing in catechism teaching, in sermons by implication, in a hymnal preface, and
+  in conversation. It also appears in the confession and the Apology and in one participant''s witness, and other
   gravities depend on it broadly.
 
-  Its shaping power splits in two, and this is the central tension in how this gravity is judged. As a prescribed
-  program it holds fully. It is the most fully specified way of forming people in the whole library. It reaches
-  down to reciting at mealtimes, and to food withheld until the lessons are repeated (LC 333-336). As formation
-  actually achieved, it rests only on thin inference. No visitation record, parish register, or lay witness
-  confirms that any household did it.
+  Its shaping power splits in two, and that split is the central tension in how this gravity is judged. As a
+  prescribed program it holds fully. It is the most fully specified way of forming people in the whole library,
+  reaching down to reciting at mealtimes and to food withheld until the lessons are repeated (LC 333-336). As
+  formation actually achieved, it rests only on thin inference, because no visitation record, parish register, or
+  lay witness confirms that any household did it.
 
-  It explains a great deal, broadly. It persists across kinds of writing from 1520 to 1543. But it fails across
-  regions. Nothing shows any household or parish outside Wittenberg. So its persistence holds only in part.
+  Its explanatory reach is broad, and it persists across kinds of writing from 1520 to 1543. Across regions,
+  though, it fails, since nothing shows any household or parish outside Wittenberg, so its persistence holds only
+  in part.
 
   It reinforces nearly every other gravity: justified by faith alone, the Word, promise and sign, and the
-  terrified and comforted conscience. It also reinforces the two governments; estate, office, and calling; and
-  vows, chastity, and marriage. So too German for the people and embattled Christendom. It reinforces the bodily
-  presence only thinly. It reshapes "must" and "free". It competes with only one: hearers and repeaters of words.
+  terrified and comforted conscience. It also reinforces the two governments; estate, office, and calling; vows,
+  chastity, and marriage; German for the people; and embattled Christendom. Its support for the bodily presence is
+  only thin. It reshapes "must" and "free", and it competes with only one: hearers and repeaters of words.
 
-  The written prescriptions are well documented. Walter''s witness is widely accepted. Any household''s actual
-  practice rests only on thin inference. Scholars contest how reception should even be read, in the debate that
-  follows Strauss.
+  The written prescriptions are well documented, and Walter''s witness is widely accepted. Any household''s actual
+  practice rests only on thin inference, and scholars contest how reception should even be read, in the debate
+  that follows Strauss.
 
-  It is classified as a primary gravity, on the scope defined above. The evidence for the program as scoped is
-  well attested. That evidence is the bulk of the 1529 writings, plus the two confessional texts. Some reviewers
-  might read the project''s rule as covering the whole gravity, reception included. They would classify it as
-  supporting instead. This record states that alternative openly rather than hiding it.
+  It is classified as a primary gravity on the scope defined above, where the evidence for the program is well
+  attested: the bulk of the 1529 writings, plus the two confessional texts. Some reviewers might read the
+  project''s rule as covering the whole gravity, reception included, and would classify it as supporting instead.
+  This record states that alternative openly rather than hiding it.
 
-  Here strength and evidence pull apart, and this is the highest-stakes case of that in the world''s build. As a
-  program, its organizing strength is at the primary level, and the program is well attested. But the evidence for
-  how it was received is thin. Confidence is not raised across that line. The thin side is named as lying outside
+  This is the highest-stakes case in this world of organizing strength and evidence pulling apart. As a program,
+  its organizing strength is at the primary level and the program is well attested, but the evidence for how it
+  was received is thin. Confidence is not raised across that line, and the thin side is named as lying outside
   what the classification covers.
 
-  The program appears in all four kinds of writing and voice. But the mechanism of the father in the household is
-  Luther''s alone. Evidence of how it was received is absent. That is the largest single gap of this kind in the
-  build.
+  The program appears in all four kinds of writing and voice, but the mechanism of the father in the household is
+  Luther''s alone. Evidence of how it was received is absent, the largest single gap of this kind in this world.
 
   It arose in response to a question: what would replace indulgence, confession, and sacrament as the way lay
-  people were formed? That arose from the laity''s need for assurance. Between 1520 and 1529 its audience shifted.
-  At first it spoke to "the ordinary Christian, who cannot read." Later it spoke to the negligent pastor and the
-  father of the household. That shift came from the territorial church''s own need to inspect.
+  people were formed? That question itself arose from the laity''s need for assurance. Between 1520 and 1529 its
+  audience shifted from "the ordinary Christian, who cannot read" to the negligent pastor and the father of the
+  household. That shift came from the territorial church''s own need to inspect.
 
-  The state of the parishes, as the founder reported it, intensified it. By its own account, the Large Catechism
-  preface exists because pastors are negligent. It is the printed object in the household, so print as a medium
-  carried it. It was held within the confessional writings, and entered the Book of Concord in 1580 by reference.
-  That links it to the confessional-territorial change and to transmission at the edge of the window. It also
-  carries the household''s own daily prayer for the prince, which ties it to the imperial frame.'
+  The state of the parishes, as the founder reported it, intensified it; by its own account, the Large Catechism
+  preface exists because pastors are negligent. Because it is the printed object in the household, print as a
+  medium carried it. It was held within the confessional writings and entered the Book of Concord in 1580 by
+  reference, which links it to the confessional-territorial change and to transmission at the edge of the window.
+  It also carries the household''s own daily prayer for the prince, which ties it to the imperial frame.'
 manifestations:
 - '"the ordinary Christian, who cannot read the Scriptures, is required to learn and know the Ten Commandments,
   the Creed, and the Lord''s Prayer... these three contain fully and completely everything that is in

@@ -45,28 +45,28 @@ name: 'The papal force, initiating: the indulgence trade, the Leipzig polemic, a
 kind: initiating
 matrix_cell: 1A
 description: 'It began with the sale of indulgences. The protest came in a letter to Albrecht of Mainz, with the Theses
-  enclosed. It was signed "From Wittenberg on the Vigil of All Saints, MDXVII". The letter itself is well
-  attested. Whether the Theses were actually posted is disputed. Iserloh challenged the editors'' own "mid-day"
-  story in 1961, and the dispute has run ever since. Then came the response. Alveld and Emser wrote tracts, which
-  were answered in 1520-21. The bull Exsurge Domine (15 June 1520) condemned forty-one articles. These were
-  answered article by article. All of this reaches the library only as quoted by the side that answered it. So the
+  enclosed, signed "From Wittenberg on the Vigil of All Saints, MDXVII". The letter itself is well attested, but
+  whether the Theses were actually posted is disputed: Iserloh challenged the editors'' own "mid-day" story in
+  1961, and the dispute has run ever since. Then came the response. Alveld and Emser wrote tracts, which were
+  answered in 1520-21, and the bull Exsurge Domine (15 June 1520) condemned forty-one articles, which were
+  answered article by article. All of this reaches the library only as quoted by the side that answered it, so the
   record is one-sided by its very structure, and it says so openly. Print carried the exchange: The Papacy at Rome
   ran to twelve editions.
 
-  Inside this world, the force looked different at each stage. At the start, it was a doctrine that had misplaced
-  the Church''s treasure: "The true treasure of the Church is the Most Holy Gospel of the glory and the grace of
-  God" (Th. 62). Within three years, it was a claimed monopoly on Scripture: "the keys were not given to Peter
-  alone, but to the whole community" (v2 2384-2390). Looking back in 1545, the world gave the whole force one name
-  and one image. "The kingdom of his Vicar, the Antichrist in Rome... is sore beset" (v1 408-409). The devil rages
-  "like one who well knows and feels that his time is short." The name "Antichrist" is reported as this world''s
-  own reading. It is not a claim about the end times that this record adopts.
+  As the world lived it, the force looked different at each stage. At the start, it was a doctrine that had
+  misplaced the Church''s treasure: "The true treasure of the Church is the Most Holy Gospel of the glory and the
+  grace of God" (Th. 62). Within three years, it was a claimed monopoly on Scripture: "the keys were not given to
+  Peter alone, but to the whole community" (v2 2384-2390). Looking back in 1545, the world gave the whole force
+  one name and one image: "The kingdom of his Vicar, the Antichrist in Rome... is sore beset" (v1 408-409), while
+  the devil rages "like one who well knows and feels that his time is short." The name "Antichrist" is reported as
+  this world''s own reading, not as a claim about the end times that this record adopts.
 
-  This force gave rise to the Word as a gravity, with the refusal turned into something positive. It gave rise to
-  estate, office and calling, as the refusal of the first wall. It made justification by faith alone more intense.
-  The bull''s condemned articles and the Leipzig polemic turned an argument into the movement''s identity. This
-  force also produced the polemical register itself. It set the pitch that embattled Christendom would carry,
-  until the imperial force softened its naming. That later stage belongs to the papal force in its ongoing form
-  (1522-1531) and to the ongoing imperial force.'
+  This force gave rise to the Word as a gravity, turning the refusal into something positive. From its refusal of
+  the first wall came estate, office and calling. It made justification by faith alone more intense. The bull''s
+  condemned articles and the Leipzig polemic turned an argument into the movement''s identity. This force also
+  produced the polemical register itself, setting the pitch that embattled Christendom would carry until the
+  imperial force softened its naming. That later stage belongs to the papal force in its ongoing form (1522-1531)
+  and to the ongoing imperial force.'
 manifestations:
 - the Theses, enclosed with the letter to Albrecht of Mainz, subscribed "From Wittenberg on the Vigil
   of All Saints, MDXVII"

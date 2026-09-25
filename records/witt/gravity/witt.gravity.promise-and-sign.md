@@ -77,56 +77,56 @@ relations:
   target: witt.figure.luther
 name: 'Promise and sign: the sacrament as God''s promise joined to an element, received by faith [PRIMARY]'
 classification: primary
-description: 'The sacrament is God''s own promise joined to an element and received by faith. It is not a work that people
-  perform. ''A testament... is a promise made by one about to die... If the mass is a promise... it is to be
-  approached, not with any work or strength or merit, but with faith alone'' (v2 7305-7344). Baptism is ''daily.''
-  The Supper is ''for you.'' And there are ''many absolutions, so that we may strengthen our timid consciences''
-  (v2 15694-15724). The seven sacraments are cut to three, and then to two (v2 6695-6701; v1 2271-2272).
+description: 'The sacrament is God''s own promise joined to an element and received by faith, not a work that people perform.
+  ''A testament... is a promise made by one about to die... If the mass is a promise... it is to be approached,
+  not with any work or strength or merit, but with faith alone'' (v2 7305-7344). Baptism is ''daily.'' The Supper
+  is ''for you.'' And there are ''many absolutions, so that we may strengthen our timid consciences'' (v2
+  15694-15724). The seven sacraments are cut to three, and then to two (v2 6695-6701; v1 2271-2272).
 
-  This idea comes back again and again: in treatises, sermons, catechism teaching, the Confession and its Apology.
-  Other things rest on it. The five parts of the household catechism depend on it. So does the examination
-  required before the Supper. So does the world''s public defense at Augsburg, in Article XXIV of the Augsburg
-  Confession.
+  This idea returns again and again, in treatises, sermons, catechism teaching, the Confession and its Apology.
+  Much else rests on it: the five parts of the household catechism, the examination required before the Supper,
+  and the world''s public defense at Augsburg, in Article XXIV of the Augsburg Confession.
 
   It shaped practice, at least as the movement itself described that practice: Sunday Mass, examination,
-  absolution, and communion "together." That claimed practice is widely accepted. How it worked in real parishes
-  is only a thin inference.
+  absolution, and communion "together." That claimed practice is widely accepted, but how it worked in real
+  parishes is only a thin inference.
 
-  It explains a great deal. It explains why the sacraments were cut back in 1520. It explains the 1522 crisis,
-  which was fought over the mass and over giving both bread and wine. It explains the defense made in Article
-  XXIV. It also explains the world''s boundary against the Reformed, which is carried by the bodily presence in
-  the Supper.
+  A great deal of this world makes sense through it: why the sacraments were cut back in 1520, and the 1522
+  crisis, fought over the mass and over giving both bread and wine. It also accounts for the defense made in
+  Article XXIV, and for the world''s boundary against the Reformed, which is carried by the bodily presence in the
+  Supper.
 
-  It lasts from 1519 to 1531, with a documented shift inside the world. In 1520 the logic was to abolish. In 1522
-  the question was pace. By 1530 the Mass is "retained." No service order from this world survives in the library.
+  It lasts from 1519 to 1531, with a documented shift inside the world: in 1520 the logic was to abolish, in 1522
+  the question was pace, and by 1530 the Mass is "retained." No service order from this world survives in the
+  library.
 
-  It works with many other gravities. It strengthens justified by faith alone, the Word, the household catechism,
+  It works with many other gravities, strengthening justified by faith alone, the Word, the household catechism,
   and the terrified and comforted conscience. It also strengthens the bodily presence, German for the people, and
-  embattled Christendom. It strengthens vows, chastity, and marriage too, but only thinly. It is itself reshaped
-  by the two governments, because territorial authority settled the sacrament''s public form. It competes with
+  embattled Christendom, and it strengthens vows, chastity, and marriage too, though only thinly. In turn, the two
+  governments reshape it, because territorial authority settled the sacrament''s public form. It competes with
   "must" and "free" and with hearers and repeaters of words.
 
-  The doctrine and the movement''s own claimed practice are well documented. The one witness who took part, Johann
-  Walter, is widely accepted. Practice beyond Wittenberg rests only on thin inference.
+  The doctrine and the movement''s own claimed practice are well documented, and the one witness who took part,
+  Johann Walter, is widely accepted. Practice beyond Wittenberg rests only on thin inference.
 
-  This is a primary gravity. It meets every test, and three other candidates state that they depend on it. The
-  world''s one documented internal crisis, in 1522, was fought over it. Its strength and its evidence agree for
-  the doctrine and the claimed practice, which are well documented. The evidence for parish practice is still
-  thin, and the classification does not rely on it.
+  This is a primary gravity. It meets every test, three other candidates state that they depend on it, and the
+  world''s one documented internal crisis, in 1522, was fought over it. For the doctrine and the claimed practice,
+  the evidence is as strong as the rating, since both are well documented. The evidence for parish practice is
+  still thin, and the classification does not rely on it.
 
-  Across the four kinds of voice and register checked, it scores four out of four, with Walter supplying the voice
-  from outside the founders. On how it was received, we have the movement''s own claim, in Article XXIV of the
-  Confession and the Apology. We also have one participant, writing late. We have nothing from any parish outside
+  Of the four kinds of voice and register checked, it scores four out of four, with Walter supplying the voice
+  from outside the founders. For how it was received, we have the movement''s own claim, in Article XXIV of the
+  Confession and the Apology, and one participant, writing late. We have nothing from any parish outside
   Wittenberg.
 
-  It grew from the refusal of the inherited system of seven sacraments and the mass as a sacrifice. Papal pressure
-  intensified it once the Babylonian Captivity was written, in the year of the bull. The movement''s own radicals
-  fractured it in 1522, when the mass was abolished "in wantonness, with no regard to proper order." The founder
-  re-set it by calling on "the aid of the authorities," meaning the territorial princes. Under the Emperor''s
-  ongoing pressure, it shifted from the 1520 logic of abolition. By 1530 it had become a defense of a retained
-  Mass, with examination and German hymns. The Reformed rival pressed on it from outside. In the library, that
-  rival shows up only through the bodily presence in the Supper. At the close of the period, its service orders
-  were never passed into this library.'
+  It grew from the refusal of the inherited system of seven sacraments and of the mass as a sacrifice. Papal
+  pressure intensified it once the Babylonian Captivity was written, in the year of the bull. The movement''s own
+  radicals fractured it in 1522, when the mass was abolished "in wantonness, with no regard to proper order." The
+  founder re-set it by calling on "the aid of the authorities," meaning the territorial princes. Under the
+  Emperor''s ongoing pressure, it moved away from the 1520 logic of abolition, and by 1530 it had become a defense
+  of a retained Mass, with examination and German hymns. The Reformed rival pressed on it from outside, though in
+  the library that rival shows up only through the bodily presence in the Supper. Its service orders were never
+  passed down into this library.'
 manifestations:
 - '"a testament... is a promise made by one about to die... If the mass is a promise... it is to be approached,
   not with any work or strength or merit, but with faith alone" (v2 7305-7344)'

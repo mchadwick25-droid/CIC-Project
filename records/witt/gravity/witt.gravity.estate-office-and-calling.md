@@ -79,44 +79,44 @@ description: '''It is pure invention that pope, bishops, priests and monks are t
   office'' (v2 2159-2164). Good works are done ''when they work at their trade, walk, stand, eat, drink, sleep''
   (v1 6863-6865).
 
-  This recurs across seven streams of evidence. Much depends on it. In the household catechism, the father who
+  This recurs across seven streams of evidence, and much depends on it. In the household catechism, the father who
   teaches his household is this gravity in practice. In vows, chastity, and marriage, the married estate is its
-  "most common and noblest" instance. In promise and sign, the priest holds an office of Word and sacrament.
+  "most common and noblest" instance, and in promise and sign, the priest holds an office of Word and sacrament.
 
-  It shaped people through teaching. How they actually received it rests only on thin inference. It explains a
-  great deal. The first of the "three walls" traces to it. So do the appeal to the Teutonic Order, the Home
+  It shaped people through teaching, though how they actually received it rests only on thin inference. Its reach
+  shows in the first of the "three walls," which traces to it, as do the appeal to the Teutonic Order, the Home
   Chart''s own shape, and the climax of the martyrs'' ballad.
 
-  It lasts across both of this world''s voices, with two documented changes. First, the wording splits. One side
+  It lasts across both of this world''s voices, with two documented changes. First, the wording splits: one side
   uses "office" and "estate," while Melanchthon uses "calling." Second, by 1522-30 a limit appears that the 1520
-  text did not have. A person must be "regularly called."
+  text did not have: a person must be "regularly called."
 
   It strengthens the Word, the household catechism, the two governments, "must" and "free," and vows, chastity,
   and marriage. It more thinly strengthens German for the people, embattled Christendom, and the terrified and
   comforted conscience. Justified by faith alone and promise and sign reshape it. It stands in tension with
-  hearers and repeaters of words. It shows no demonstrated relationship with the bodily presence.
+  hearers and repeaters of words, and it shows no demonstrated relationship with the bodily presence.
 
-  It is well documented. It is classed as supporting. It organizes the social side of life: who may do what, and
-  what counts as a holy station. But it does this within the setting the primary gravities set. Works are good
-  only "in faith," as justified by faith alone holds. The office is defined by the Word. The priest administers
-  the sacraments, as promise and sign holds.
+  It is well documented, and it is classed as supporting. It organizes the social side of life, deciding who may
+  do what and what counts as a holy station, but it does this within the setting the primary gravities set. Works
+  are good only "in faith," as justified by faith alone holds; the office is defined by the Word; and the priest
+  administers the sacraments, as promise and sign holds.
 
   Of all the gravities, its 1520 form is also the most visibly fenced in by 1530. That is how a supporting gravity
-  behaves. It bends to the primary gravities and to the forces rather than organizing them. Here the weight given
-  to it and the evidence agree.
+  behaves, bending to the primary gravities and to the forces rather than organizing them, so its record of being
+  fenced in matches the rank it is given.
 
-  It appears in three of four registers and voices. No voice beyond the founder''s carries it. The Brussels monks
-  are told about by the founder, not by a witness. There is no evidence of how it was received.
+  It appears in three of four registers and voices, but no voice beyond the founder''s carries it. The Brussels
+  monks are told about by the founder, not by a witness, and there is no evidence of how it was received.
 
-  It began as the refusal of the first wall. That wall was the clergy''s claim to be "spiritual" over against the
-  "temporal." It came from the inheritance refused, together with the papal force in its early form. It grew
-  sharper in its monastic form, which the inheritance refused also shaped. Examples are the Teutonic knights and
-  the martyrs'' "monkish garb."
+  It began as the refusal of the first wall, the clergy''s claim to be "spiritual" over against the "temporal." It
+  came from the inheritance refused, together with the papal force in its early form. It grew sharper in its
+  monastic form, which the inheritance refused also shaped, as with the Teutonic knights and the martyrs''
+  "monkish garb."
 
   Then the reform''s own inner pressure fenced it in. The universal priesthood of 1520 gained an explicit need for
-  a regular call. That need appears in the Sermons of 1522 and Article XIV of 1530. It came under the internal
-  radical force and, later, the internal fracture, fenced. Under the imperial force and the
-  confessional-territorial transformation, the confessional writing reworded it as "calling." It held.'
+  a regular call, which appears in the Sermons of 1522 and Article XIV of 1530. That change came under the
+  internal radical force and, later, the internal fracture, fenced. Under the imperial force and the
+  confessional-territorial transformation, the confessional writing reworded it as "calling," and it held.'
 manifestations:
 - '"It is pure invention that pope, bishops, priests and monks are to be called the ''spiritual estate''...
   all Christians are truly of the ''spiritual estate,'' and there is among them no difference at all but

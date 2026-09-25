@@ -81,55 +81,56 @@ description: '''A Christian man is a perfectly free lord of all, subject to none
   The gravity''s own voice speaks to Wittenberg in March 1522: ''we must not look upon ourselves... but upon our
   neighbor... What you did was good, but you have gone too fast'' (v2 14711-14728); ''Take note of these two
   things, "must" and "free"... Now do not make a "must" out of what is "free"'' (14790-14796). Then, by 1529, the
-  same word is turned the other way. Pastors retain ''no more of the Gospel than such a lazy, pernicious,
+  same word is turned the other way: pastors retain ''no more of the Gospel than such a lazy, pernicious,
   shameful, carnal liberty'' (LC 78-80).
 
   It recurs across treatise, sermon, catechism teaching, and confession. The actual "must"/"free" wording appears
-  in only one kind of writing. The gravity itself appears in several.
+  in only one kind of writing, though the gravity itself appears in several.
 
-  Other gravities depend on it. The public form of promise and sign in 1522 depends on it. So do the priests''
-  restraint under estate, office, and calling, and the married priests and emptied monasteries under vows,
-  chastity, and marriage. So does the required examination in the household catechism.
+  Other gravities depend on it, beginning with the public form of promise and sign in 1522 and the priests''
+  restraint under estate, office, and calling. So do the married priests and emptied monasteries under vows,
+  chastity, and marriage, and the required examination in the household catechism.
 
-  It is the one gravity documented acting on a specific congregation: Wittenberg, in March 1522. The editor''s own
+  It is the one gravity documented acting on a specific congregation, Wittenberg in March 1522. The editor''s own
   account says that ''Carlstadt was silenced... Wittenberg bowed to law and order.''
 
-  It explains the 1522 transition and the arc of the mass across the period. It explains why the Large Catechism
-  of 1529 has to rebuke the opposite fault.
+  It explains the 1522 transition and the arc of the mass across the period, as well as why the Large Catechism of
+  1529 has to rebuke the opposite fault.
 
-  It persists from 1520 to 1530, and its direction is documented as reversing. In 1522 it holds back those going
-  too fast. In 1529 it goads the slack.
+  It persists from 1520 to 1530, and its direction is documented as reversing: in 1522 it holds back those going
+  too fast, and in 1529 it goads the slack.
 
   It has more competing links than any other gravity that does not at first look tensional. It competes with the
-  Word, and this is the sharpest tension in the whole world. It also competes with promise and sign, and thinly
-  with the bodily presence. It reshapes the household catechism and the two governments. Embattled Christendom and
-  hearers and repeaters of words reshape it in turn. It reinforces justified by faith alone, the terrified and
-  comforted conscience, and estate, office, and calling. It also reinforces vows, chastity, and marriage, and
-  thinly German for the people.
+  Word, in the sharpest tension in the whole world, and also with promise and sign, and thinly with the bodily
+  presence. It reshapes the household catechism and the two governments, while embattled Christendom and hearers
+  and repeaters of words reshape it in turn. It reinforces justified by faith alone, the terrified and comforted
+  conscience, and estate, office, and calling. It also reinforces vows, chastity, and marriage, and, more thinly,
+  German for the people.
 
-  The texts are well documented. The 1522 outcome is widely accepted, but it rests on the editor''s account.
+  The texts are well documented, and the 1522 outcome is widely accepted, though it rests on the editor''s
+  account.
 
-  It is classified as a tensional gravity. It is the lasting counter-force inside the reform, pushing against the
-  reform''s own logic. The Word gives freedom, and love holds it back. Then restraint produces sloth, and the same
-  word "liberty" becomes the charge. It does not organize the world broadly. But this world cannot be reduced to
+  It is classified as a tensional gravity, the lasting counter-force inside the reform that pushes against the
+  reform''s own logic. The Word gives freedom and love holds it back; then restraint produces sloth, and the same
+  word "liberty" becomes the charge. It does not organize the world broadly, but this world cannot be reduced to
   justification by faith, the Word, and promise and sign without it.
 
-  Its strength and its evidence agree. Calling it tensional claims nothing the evidence cannot bear. It scores
-  three of four on spread of kinds of writing and voices, with no voice other than the founder''s. For how it was
-  received, there is one congregation, once, on the editor''s word.
+  The tensional label matches the evidence and claims nothing the evidence cannot bear. It scores three of four on
+  spread of kinds of writing and voices, with no voice other than the founder''s. For how it was received, there
+  is one congregation, once, on the editor''s word.
 
-  The internal radical force of 1522 set it off. Karlstadt and Zwilling pushed reform fast during the founder''s
-  absence at the Wartburg. That pace, under the Edict and the imperial force, is the occasion of every
+  The internal radical force of 1522 set it off, as Karlstadt and Zwilling pushed reform fast during the
+  founder''s absence at the Wartburg. That pace, under the Edict and the imperial force, is the occasion of every
   "must"/"free" sentence.
 
-  The parishes'' state, as the founder reported it, then reversed its direction. By 1529 the danger is not haste
+  The parishes'' state, as the founder reported it, then reversed its direction: by 1529 the danger is not haste
   but "carnal liberty."
 
   Under the imperial force it was settled as the confessional doctrine of adiaphora, meaning liberty in rites (AC
-  XV, XXVIII). This was part of the confessional-territorial change. The same tool was applied to the "common man"
-  under the popular-insurrectionary force.
+  XV, XXVIII), as part of the confessional-territorial change. The same tool was applied to the "common man" under
+  the popular-insurrectionary force.
 
-  It never broke apart. It is the world''s own tool for not breaking apart.'
+  It never broke apart; it is the world''s own tool for not breaking apart.'
 manifestations:
 - '"A Christian man is a perfectly free lord of all, subject to none. A Christian man is a perfectly dutiful
   servant of all, subject to all" (v2 11618-11621)'

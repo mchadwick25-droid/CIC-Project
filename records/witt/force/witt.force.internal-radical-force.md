@@ -62,30 +62,29 @@ name: 'The internal-radical force: Karlstadt and Zwilling''s pace (1522); the "n
   and Anabaptists (1529-31) [2B - ongoing/internal]'
 kind: ongoing
 matrix_cell: 2B
-description: 'In 1522, the founder was away at the Wartburg. Meanwhile Karlstadt and Zwilling ran their own program in
-  Wittenberg. It included abolishing the mass, communion in both kinds, images, and monks and nuns leaving. The
-  editor quotes Karlstadt''s own theses. The founder then returned and preached the Eight Sermons, on 9 March and
-  the seven days after. The sermons are well documented. The outcome was this: "Carlstadt was silenced, the city
-  council made acknowledgment to Luther... and Wittenberg bowed to law and order". This is widely accepted, on the
-  editor''s word. Then, in 1529-31, the Large Catechism speaks of "enthusiasts," "new spirits," and "fanatics."
-  The Augsburg Confession condemns the Anabaptists by name five times. Of every force in this library, this is the
-  one shown reaching directly into a congregation''s shared life.
+description: 'In 1522, while the founder was away at the Wartburg, Karlstadt and Zwilling ran their own program in Wittenberg.
+  It included abolishing the mass, communion in both kinds, images, and monks and nuns leaving, and the editor
+  quotes Karlstadt''s own theses. The founder then returned and preached the Eight Sermons, on 9 March and the
+  seven days after, and these sermons are well documented. The outcome, widely accepted on the editor''s word, was
+  this: "Carlstadt was silenced, the city council made acknowledgment to Luther... and Wittenberg bowed to law and
+  order". Then, in 1529-31, the Large Catechism speaks of "enthusiasts," "new spirits," and "fanatics," and the
+  Augsburg Confession condemns the Anabaptists by name five times. Of every force in this library, this is the one
+  shown reaching directly into a congregation''s shared life.
 
   Inside this world, the force was received as the devil''s game, played through one''s own colleagues: "here we
-  battle not against pope or bishop, but against the devil... he would make a flank attack" (v2 14752-14756). It
-  was felt in deathbeds put in danger, in scandalized neighbours, and in what "men say" of Wittenberg: "they take
-  the sacrament with the hands and handle the cup, and then they go to their brandy" (v2 15404-15407). The world
-  answered with its own rule: "Take note of these two things, ''must'' and ''free''... Now do not make a ''must''
-  out of what is ''free''" (v2 14790-14796).
+  battle not against pope or bishop, but against the devil... he would make a flank attack" (v2 14752-14756).
+  People felt it in deathbeds put in danger, in scandalized neighbours, and in what "men say" of Wittenberg: "they
+  take the sacrament with the hands and handle the cup, and then they go to their brandy" (v2 15404-15407). The
+  world answered with its own rule: "Take note of these two things, ''must'' and ''free''... Now do not make a
+  ''must'' out of what is ''free''" (v2 14790-14796).
 
-  This is the force that reshaped what already existed, more than any other force in this world''s own account. It
-  reshaped the Word twice. First, in 1522, the Word keeps its right to be preached but not the power to enforce
-  it, against Karlstadt''s pace. Second, in 1529-31, the Word is defined as external, against the "new spirits."
-  It broke promise and sign, the sacraments, from within, then set them again. It fenced in estate, office and
-  calling, with the rule of being "regularly called." It fenced justification by faith alone once more. It
-  reshaped the two governments (AC XVI). It put pressure on the bodily presence in the Supper. It deepened the
-  terrified and comforted conscience. And it created "must" and "free" outright. It is the occasion of every
-  "must"/"free" sentence.'
+  This is the force that reshaped what already existed, and it is the only force we describe that way. It reshaped
+  the Word twice. In 1522, against Karlstadt''s pace, the Word keeps its right to be preached but not the power to
+  enforce it. In 1529-31, against the "new spirits," the Word is defined as external. It broke promise and sign,
+  the sacraments, from within and then set them again. It fenced in estate, office and calling with the rule of
+  being "regularly called," and it fenced justification by faith alone once more. It reshaped the two governments
+  (AC XVI), put pressure on the bodily presence in the Supper, and deepened the terrified and comforted
+  conscience. And it created "must" and "free" outright, as the occasion of every "must"/"free" sentence.'
 manifestations:
 - '"here we battle not against pope or bishop, but against the devil, and do you imagine he is asleep?...
   he would make a flank attack" (v2 14752-14756)'

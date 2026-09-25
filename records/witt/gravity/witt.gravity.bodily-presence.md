@@ -57,56 +57,55 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   ''the Body and Blood of Christ are truly present, and are distributed to those who eat the Supper of the Lord;
   and they reject those that teach otherwise'' (AC 322-324).
 
-  Of all this world''s gravities, this one rests on the thinnest evidence. That is a warning sign. This record
+  Of all this world''s gravities, this one rests on the thinnest evidence. That is a warning sign, and this record
   shows it openly rather than smoothing it over.
 
-  The doctrine does recur. It appears in the treatise of 1519/1520, in catechism teaching, in the Confession, and
-  as one word in the Bondage of the Will. Other things depend on it only in part. This world''s boundary against
-  the Reformed depends on it. Promise and sign also depends on it for its content at the Supper. But nothing in
-  the world''s program of formation depends on how Christ is present, as distinct from the promise.
+  The doctrine does recur: in the treatise of 1519/1520, in catechism teaching, in the Confession, and as one word
+  in the Bondage of the Will. Yet other things depend on it only in part. This world''s boundary against the
+  Reformed depends on it, and so does promise and sign for its content at the Supper. But nothing in the world''s
+  program of formation depends on how Christ is present, as distinct from the promise.
 
-  It shaped people only in part. The catechisms taught it. But the library holds nothing on its sharper formative
+  It shaped people only in part. The catechisms taught it, but the library holds nothing on its sharper formative
   edge: what it meant to hold this belief against neighbours who did not. It fully explains one thing, the
-  world''s boundary. Beyond that, it explains only in part.
+  world''s boundary, and beyond that it explains only in part.
 
-  It lasts only in part. The doctrine is stated unchanged in 1519, 1529, and 1530. But the controversy that made
+  It lasts only in part. The doctrine is stated unchanged in 1519, 1529, and 1530, but the controversy that made
   it this world''s boundary is missing from every text in the library. That is a limit on what can be shown, not a
   finding against it.
 
-  It does connect with other gravities, but its links are the thinnest of any. It strengthens only promise and
-  sign. The Word reshapes it. It more thinly strengthens justified by faith alone, the household catechism, German
-  for the people, and embattled Christendom. It stands in thin tension with "must" and "free." With five gravities
-  it shows no demonstrated relationship at all. These are the terrified and comforted conscience, the two
-  governments, estate, office, and calling, vows, chastity, and marriage, and hearers and repeaters of words.
+  It does connect with other gravities, though its links are the thinnest of any. It strengthens only promise and
+  sign, and the Word reshapes it. It more thinly strengthens justified by faith alone, the household catechism,
+  German for the people, and embattled Christendom, and it stands in thin tension with "must" and "free." With
+  five gravities it shows no demonstrated relationship at all: the terrified and comforted conscience; the two
+  governments; estate, office, and calling; vows, chastity, and marriage; and hearers and repeaters of words.
 
-  What the texts say is well documented. The organizing role given to it against the Reformed is another matter.
-  That role carries none of the five confidence levels. It is an assumption shared across documents. It rests on
-  the census and related documents, not on any secondary source recorded in the library. It stays that way until
-  the Marburg Articles are acquired.
+  What the texts say is well documented, but the organizing role given to it against the Reformed is another
+  matter. That role carries none of the five confidence levels. It is an assumption shared across documents,
+  resting on the census and related documents rather than on any secondary source recorded in the library, and it
+  stays that way until the Marburg Articles are acquired.
 
-  It is classed as supporting, within promise and sign. On this library''s evidence, the bodily presence organizes
+  It is classed as supporting, within promise and sign: on this library''s evidence, the bodily presence organizes
   little beyond the Supper itself. This does not doubt that the doctrine mattered enormously to this world''s
   boundary. It only says that the evidence for that is not yet in the library.
 
   So the weight and the evidence pull apart here, in an unusual direction. The weight given to it as the world''s
-  boundary is more than the library shows it organizing. Yet the doctrine''s own evidence is well attested. The
-  classification follows the library and brings in no weight from outside it. "Supporting" should not be read as
-  "minor."
+  boundary is more than the library shows it organizing, yet the doctrine''s own evidence is well attested. The
+  classification follows the library and brings in no weight from outside it, so "supporting" should not be read
+  as "minor."
 
-  It appears in three of four registers and voices. There is no trace of it from anyone but the founder. For how
-  it was received, we have the founder''s own claim in 1520 about "the simple faith... among the common people."
-  That he made the claim is documented. Whether it was true rests only on thin inference.
+  It appears in three of four registers and voices, but there is no trace of it from anyone but the founder. For
+  how it was received, we have the founder''s own claim in 1520 about "the simple faith... among the common
+  people." That he made the claim is documented, while whether it was true rests only on thin inference.
 
   The doctrine held unchanged across every period read: "truly contained" (1520), "in and under" (1529), "truly
-  present" (1530). The texts show no shift. A force the library cannot show made it sharper. That force was the
-  Reformed rival, refused at Marburg. The Marburg Colloquy of 1529 appears here in only two traces. One is the
-  Confession''s "they reject those that teach otherwise." The other is one word in the Bondage of the Will. The
-  same rivalry broke the doctrine outward into a divide. But only the census shows that, not any text in the
-  library.
+  present" (1530). The texts show no shift, but a force the library cannot show made it sharper: the Reformed
+  rival, refused at Marburg. The Marburg Colloquy of 1529 appears here in only two traces, the Confession''s "they
+  reject those that teach otherwise" and one word in the Bondage of the Will. The same rivalry broke the doctrine
+  outward into a divide, but only the census shows that, not any text in the library.
 
-  The internal radical force also pressed on it. The catechism answers the "new spirits" who "mock at Baptism" in
-  the same breath as it teaches the Supper. The Marburg Articles themselves are still not in the library. They are
-  a gap in what was passed on at the edge of this world''s time window.'
+  The internal radical force also pressed on it: the catechism answers the "new spirits" who "mock at Baptism" in
+  the same breath as it teaches the Supper. The Marburg Articles themselves are still not in the library, and they
+  remain a gap in what was passed on at the edge of this world''s time window.'
 manifestations:
 - '"It is the true body and blood of our Lord Jesus Christ, in and under the bread and wine" (LC 4075-4077)'
 - '"the Body and Blood of Christ are truly present, and are distributed to those who eat the Supper of

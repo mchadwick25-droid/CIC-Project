@@ -47,28 +47,28 @@ relations:
 name: The parishes' state as the founder reported it -- the internal force G13 documents [2B - ongoing/internal]
 kind: ongoing
 matrix_cell: 2B
-description: 'The historical events behind this force are absent from this library, and the record says so. What the library
-  holds is only the world''s own experience of a force it cannot document directly. That force is the actual state
-  of the parishes. It includes the territorial force''s own inspecting arm, the visitation protocols of 1527-28,
-  and the Small Catechism''s own 1529 preface. None of these is held in this library. A scholarly disagreement is
-  carried here at full strength. Strauss (1978) read the visitation records as evidence that drilling people in
-  the catechism largely failed. Scribner, Kittelson and Karant-Nunn argued that the records measure something
-  different. This is contested, and nothing in this library can settle it. One firm limit follows. No later record
-  may cite this force, or the gravity of hearers and repeaters of words, as evidence that Saxon congregations were
-  ignorant, cold, or negligent.
+description: 'The historical events behind this force are absent from this library, and the record says so plainly: what the
+  library holds is only the world''s own experience of a force it cannot document directly. That force is the
+  actual state of the parishes. It includes the territorial force''s own inspecting arm, the visitation protocols
+  of 1527-28, and the Small Catechism''s own 1529 preface, none of which is held in this library. A scholarly
+  disagreement is carried here at full strength. Strauss (1978) read the visitation records as evidence that
+  drilling people in the catechism largely failed, while Scribner, Kittelson and Karant-Nunn argued that the
+  records measure something different. The question is contested, and nothing in this library can settle it. One
+  firm limit follows: no later record may cite this force, or the gravity of hearers and repeaters of words, as
+  evidence that Saxon congregations were ignorant, cold, or negligent.
 
-  The world''s own experience is the part the library holds in full. It comes in the founder''s voice across two
-  decades, and it is entered as his testimony only. In 1522, speaking to one congregation, he says: "an ass can
-  almost intone the lessons... God does not want hearers and repeaters of words, but doers and followers" (v2
+  The world''s own experience is the part the library holds in full, and it comes in the founder''s voice across
+  two decades, entered as his testimony only. In 1522, speaking to one congregation, he says: "an ass can almost
+  intone the lessons... God does not want hearers and repeaters of words, but doers and followers" (v2
   14676-14688). In 1529, writing of the parishes, he says: "we see to our sorrow that many pastors and preachers
-  are very negligent" (LC 51-52). Katharina von Bora asks one question about coldness in prayer (TT 3147-3150).
-  Whether this is her exact wording is contested. The world''s own name for this failure is coldness. Its own name
-  for the force behind it is the devil.
+  are very negligent" (LC 51-52). Katharina von Bora asks one question about coldness in prayer (TT 3147-3150),
+  though whether this is her exact wording is contested. The world''s own name for this failure is coldness, and
+  its own name for the force behind it is the devil.
 
   This force produced the form of the household catechism that is aimed at pastors. It reversed the world''s
-  teaching on "must" and "free": by 1529 the danger is "carnal liberty," not haste. It also reshaped the gravity
-  of German for the people at its late edge. The object of this force shifts three times, and the founder''s
-  response shifts with it. First comes rebuke, then a program, then control of print.'
+  teaching on "must" and "free," so that by 1529 the danger is "carnal liberty," not haste, and it reshaped the
+  gravity of German for the people at its late edge. The object of this force shifts three times, and the
+  founder''s response shifts with it: first rebuke, then a program, then control of print.'
 manifestations:
 - '"an ass can almost intone the lessons, and why should you not be able to repeat the doctrines and formulas?...
   God does not want hearers and repeaters of words, but doers and followers" (v2 14676-14688)'

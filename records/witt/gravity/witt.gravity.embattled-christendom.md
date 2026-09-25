@@ -74,47 +74,47 @@ description: '''here we battle not against pope or bishop, but against the devil
   not... he would make a flank attack'' (v2 14752-14756). The hymn packs it tighter still: ''The old evil foe, /
   Means us deadly woe... One little word can fell him'' (Hy 3671-3705).
 
-  This frame recurs across eight streams of evidence, in both of this world''s voices. Much depends on it. Prayer
-  and hymn-singing depend on it. So does the polemical writing''s whole way of naming its enemies. The terrified
-  and comforted conscience finds its assurance "against the devil." The warning of a "flank attack" in "must" and
-  "free" rests on it too.
+  This frame recurs across eight streams of evidence, in both of this world''s voices, and much depends on it.
+  Prayer and hymn-singing depend on it, and so does the polemical writing''s whole way of naming its enemies. The
+  terrified and comforted conscience finds its assurance "against the devil," and the warning of a "flank attack"
+  in "must" and "free" rests on it too.
 
   It shaped people, since it was sung and prayed daily as prescribed. How people actually received it rests only
-  on thin inference. Still, even Kate''s one sentence is framed by it: "the devil drives his servants... we are
-  very cold."
+  on thin inference, yet even Kate''s one sentence is framed by it: "the devil drives his servants... we are very
+  cold."
 
-  It explains a great deal. The fierceness of the polemical writing traces to it. So does the shift in naming from
-  "Antichrist" to "the Church of Rome." So does the Confession''s opening on the Turk. So does reading the 1522
-  crisis as the devil''s scheme. It holds from 1520 to 1545, in both voices and every register.
+  Much in this world traces back to it: the fierceness of the polemical writing, the shift in naming from
+  "Antichrist" to "the Church of Rome," the Confession''s opening on the Turk, and the reading of the 1522 crisis
+  as the devil''s scheme. It holds from 1520 to 1545, in both voices and every register.
 
   Its links with other gravities are almost all mutual support. It strengthens justified by faith alone, the Word,
-  promise and sign, the household catechism, the terrified and comforted conscience, and the two governments. It
-  also strengthens hearers and repeaters of words. It more thinly strengthens estate, office, and calling; vows,
-  chastity, and marriage; the bodily presence; and German for the people. It reshapes "must" and "free." The sense
-  of a living enemy gives that gravity''s restraint its urgency.
+  promise and sign, the household catechism, the terrified and comforted conscience, the two governments, and
+  hearers and repeaters of words. It more thinly strengthens estate, office, and calling; vows, chastity, and
+  marriage; the bodily presence; and German for the people. It reshapes "must" and "free," because the sense of a
+  living enemy gives that gravity''s restraint its urgency.
 
-  What the texts say is well documented. Some scholars lay an apocalyptic frame over it. At most, that is the
-  leading modern reading. It has not been read here, and this record builds nothing on it.
+  What the texts say is well documented. Some scholars lay an apocalyptic frame over it, but that is at most the
+  leading modern reading; it has not been read here, and this record builds nothing on it.
 
-  It is classed as supporting. It passes every measure strongly, and a reviewer could argue it is primary. But
-  what it organizes is this world''s emotional and adversarial frame. It is the world''s own inner experience of
-  the forces acting on it. And the Word it wields belongs to the Word: "One little word can fell him." It works
-  within the setting that justified by faith alone and the Word set up. Here the weight given to it and the
-  evidence agree.
+  It is classed as supporting, even though it passes every measure strongly and a reviewer could argue it is
+  primary. What it organizes is this world''s emotional and adversarial frame, the world''s own inner experience
+  of the forces acting on it. And the Word it wields belongs to the Word: "One little word can fell him." It works
+  within the setting that justified by faith alone and the Word set up, and its supporting rank matches that
+  evidence.
 
   It appears in all four registers and voices, and Kate''s sentence sits inside it. For how it was received, we
   have one household sentence, and it has come down to us filtered.
 
-  This gravity is the world''s own inner reading of the outside forces themselves. It gives them its own names.
-  The later papal force is "Antichrist in Rome." The Turk is "that most atrocious, hereditary, and ancient enemy."
-  The internal radical force is the devil''s "flank attack," the "new spirits." Each of these forces made it
-  sharper.
+  This gravity is the world''s own inner reading of the outside forces themselves, and it gives them its own
+  names. The later papal force is "Antichrist in Rome." The Turk is "that most atrocious, hereditary, and ancient
+  enemy." The internal radical force is the devil''s "flank attack," the "new spirits." Each of these forces made
+  it sharper.
 
-  Under the imperial force and the confessional-territorial transformation, its naming shifted. "Antichrist" in
-  the polemical writing became "the Church of Rome" in the confessional writing. The names changed; the frame did
-  not. It also takes over the protective work once given to the saints, which it refuses. In their place it puts
-  the Word, as "holy water." This belongs to the inheritance refused. It held in every register. The 1529 hymn is
-  its most compressed form.'
+  Under the imperial force and the confessional-territorial transformation, its naming shifted: "Antichrist" in
+  the polemical writing became "the Church of Rome" in the confessional writing. The names changed, but the frame
+  did not. It also takes over the protective work once given to the saints, which it refuses, and in their place
+  it puts the Word, as "holy water"; this belongs to the inheritance refused. It held in every register, and the
+  1529 hymn is its most compressed form.'
 manifestations:
 - '"here we battle not against pope or bishop, but against the devil, and do you imagine he is asleep?
   He sleeps not... he would make a flank attack" (v2 14752-14756)'

@@ -84,44 +84,42 @@ description: '''the parts sung in Latin are interspersed here and there with Ger
   people'' (AC 789-794). ''we retain the Latin language on account of those who are learning and understand Latin,
   and we mingle with it German hymns, in order that the people also may have something to learn'' (Ap 8512-8515).
 
-  This recurs across nine sources. They are a treatise, hymns, catechism teaching, the Confession, and the
-  Apology. They also include three traces from people other than the founder, and institutional and material
-  evidence.
+  This recurs across nine sources: a treatise, hymns, catechism teaching, the Confession, and the Apology. They
+  also include three traces from people other than the founder, as well as institutional and material evidence.
 
-  Much depends on it. The household catechism exists in this medium. Promise and sign depends on it for its
-  examined communicants and German hymns. And the Word reaches "the ordinary Christian" only this way. It shaped
-  people, as the movement claimed. Johann Walter is the one participant who confirms it.
+  Much depends on it. The household catechism exists in this medium, promise and sign depends on it for its
+  examined communicants and German hymns, and the Word reaches "the ordinary Christian" only this way. It shaped
+  people, as the movement claimed, and Johann Walter is the one participant who confirms it.
 
-  It explains a great deal. The two-language Confession traces to it. So do the body of hymns, Karsthans''s
-  demand, and Duke George''s ban on the German Testament. It lasts from 1520 to 1545, across registers and in both
-  voices. But regionally it belongs to Wittenberg only. There is a single trace beyond it, in Prussia, from
-  Polentz''s letter.
+  Its effects run wide: the two-language Confession traces to it, as do the body of hymns, Karsthans''s demand,
+  and Duke George''s ban on the German Testament. It lasts from 1520 to 1545, across registers and in both voices,
+  but regionally it belongs to Wittenberg only. There is a single trace beyond it, in Prussia, from Polentz''s
+  letter.
 
   It strongly strengthens the Word, promise and sign, and the household catechism. It more thinly strengthens
-  seven others. These are justified by faith alone, the terrified and comforted conscience, the two governments,
-  and estate, office, and calling. They also include "must" and "free", the bodily presence, and embattled
-  Christendom. Hearers and repeaters of words reshapes it. It shows no demonstrated relationship with vows,
-  chastity, and marriage.
+  seven others: justified by faith alone; the terrified and comforted conscience; the two governments; estate,
+  office, and calling; "must" and "free"; the bodily presence; and embattled Christendom. Hearers and repeaters of
+  words reshapes it, and it shows no demonstrated relationship with vows, chastity, and marriage.
 
-  The texts and the movement''s claimed practice are well documented. Walter, Karsthans, and the editors'' print
-  data are widely accepted.
+  The texts and the movement''s claimed practice are well documented, while Walter, Karsthans, and the editors''
+  print data are widely accepted.
 
-  It is classed as supporting. It is a medium that lets the Word and the household catechism do their work. It
+  It is classed as supporting: it is a medium that lets the Word and the household catechism do their work, and it
   does not generate formation content of its own. Other things depend on it, and it explains much, as strongly as
-  a primary gravity would. But its content is not its own.
+  a primary gravity would, but its content is not its own.
 
-  Here the weight given to it and the evidence agree. There is a risk that one author''s emphasis is mistaken for
+  Nothing in the evidence pulls against that ranking. There is a risk that one author''s emphasis is mistaken for
   the weight of the whole world. Of all the gravities, this is the one where the evidence most comfortably
-  outweighs that risk. It appears in all four registers and voices. People other than the founder attest it more
-  fully than any other gravity. For how it was received, we have two witnesses. One is Walter, writing late and
-  full of praise, through three hands. The other is a fictional peasant.
+  outweighs that risk. It appears in all four registers and voices, and people other than the founder attest it
+  more fully than any other gravity. For how it was received, we have two witnesses: Walter, writing late and full
+  of praise, through three hands, and a fictional peasant.
 
   It grew from print as a medium, together with the laity''s need for assurance. It grew sharper when the German
-  Testament became the target of Duke George''s ban. That ban was the territorial-princely force at work. Under
-  the imperial force, it shifted into the Apology''s explicit two-level rule: Latin for learners, German for the
+  Testament became the target of Duke George''s ban, which was the territorial-princely force at work. Under the
+  imperial force, it shifted into the Apology''s explicit two-level rule: Latin for learners, German for the
   people.
 
-  By 1543 it was corrupted at its own edge. The hymns were "perverted the more they are printed" and had to be
+  By 1543 it was corrupted at its own edge, as the hymns were "perverted the more they are printed" and had to be
   fenced in. That was print turned inward, the same force that first carried it. It was also the state of the
   parishes, an inner force the founder''s own testimony records late in this world''s life. The tunes themselves
   were lost at the last step of transmission within the world''s life.'

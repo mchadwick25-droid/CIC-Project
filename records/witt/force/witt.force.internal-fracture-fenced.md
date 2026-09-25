@@ -38,26 +38,26 @@ name: 'The internal fracture fenced: one documented exit, and the world''s own c
   elsewhere, 1522-1531 [3B - ending-transforming/internal]'
 kind: ending
 matrix_cell: 3B
-description: 'The library shows the beginning of a split: the crisis of 1522. It also shows the split being fenced in rather
-  than carried through. Karlstadt was silenced. This is widely accepted, on the editor''s word. He was out of
-  Saxony by 1524 and in Switzerland from 1529. That takes him outside this world rather than making him a second
-  pattern within it. This world''s own confessions testify that the split did not come from inside. "In our
-  Churches no Anabaptists have arisen" (Ap 4701). It is documented that Melanchthon made this claim. The Augsburg
-  Confession also gives its five condemnations by name. No text in this library shows a later community growing
-  from within this world. This world''s own build treats the 1522 episode as a transition, not as a separate
-  strand.
+description: 'The library shows the beginning of a split, the crisis of 1522, and it also shows that split being fenced in
+  rather than carried through. That Karlstadt was silenced is widely accepted, though it rests on the editor''s
+  word. He was out of Saxony by 1524 and in Switzerland from 1529, which takes him outside this world rather than
+  making him a second pattern within it. This world''s own confessions testify that the split did not come from
+  inside: "In our Churches no Anabaptists have arisen" (Ap 4701). It is documented that Melanchthon made this
+  claim, and the Augsburg Confession also gives its five condemnations by name. No text in this library shows a
+  later community growing from within this world, and we read the 1522 episode as a passing crisis, not a separate
+  line within it.
 
-  Inside this world, the edge of the split was named in two ways. Some were brothers not yet won. Others were
+  The world itself named the edge of the split in two ways: some were brothers not yet won, while others were
   sects wearing a borrowed name. "There are also brothers and sisters on the other side who belong to us, and must
   still be won" (v2 14728-14729). "Sects and false teachers, who all wear the holy name as a cover and sham for
   their doctrines of devils" (LC 3272-3273). The fence is stated in the world''s own words: "no one should
   publicly teach in the Church or administer the Sacraments unless he be regularly called" (AC 383-384). The world
-  also gives its own reason for why it did not split: "He played a bold game, and won, although it does no harm to
-  the Word of God" (v2 15214-15215). The split is read as the devil''s game, lost to the Word.
+  also gives its own reason for why it did not split, reading the split as the devil''s game, lost to the Word:
+  "He played a bold game, and won, although it does no harm to the Word of God" (v2 15214-15215).
 
   By the close of this world''s time frame, this force had left the shape of the world''s own edge. That edge is a
-  test of who is legitimate: being "regularly called," and the "external Word." It is drawn "at the conscience,
-  not at the territory."'
+  test of who is legitimate, resting on being "regularly called" and on the "external Word," and it is drawn "at
+  the conscience, not at the territory."'
 manifestations:
 - '"in our Churches no Anabaptists have arisen" (Ap 4701)'
 - '"there are also brothers and sisters on the other side who belong to us, and must still be won" (v2

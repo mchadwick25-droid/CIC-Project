@@ -44,26 +44,26 @@ kind: initiating
 matrix_cell: 1B
 description: '"The practical and pastoral problem... of a laity taught to rely on indulgences, private confession to a priest,
   and the church''s own sacramental system for assurance of salvation". This force is placed among the pressures
-  from inside this world, not those from outside. Here is the reason. The system that taught the laity this way
-  came from outside the world. It was the inheritance this world refused, and the parent church in its first,
-  papal pressure. But the need itself sat inside the community. Its own founder was a friar under vows. Its own
-  1529 confession speaks of "we" who "went from mere compulsion and fear." A reviewer may read this force as
-  coming from outside instead. This choice is stated openly. Nothing in how this world''s forces and gravities
-  connect depends on which side of the line it sits.
+  from inside this world, not those from outside, and the reason needs stating. The system that taught the laity
+  this way came from outside the world: it was the inheritance this world refused, and the parent church in its
+  first, papal pressure. But the need itself sat inside the community, whose own founder was a friar under vows
+  and whose own 1529 confession speaks of "we" who "went from mere compulsion and fear." A reviewer may read this
+  force as coming from outside instead. This choice is stated openly, and nothing in how this world''s forces and
+  gravities connect depends on which side of the line it sits.
 
-  Inside this world, the old system was not remembered as an institution. It was remembered as a bodily habit of
-  fear. "The old way under the Pope, in which a person tortured himself to be so perfectly pure that God could not
-  find the least blemish in us... one week trails another, and one half year the other" (LC 4327-4336). "We always
-  prayed in Popedom conditionaliter, conditionally, and therefore uncertainly" (TT 3063-3064). Whether this line
+  Within the world itself, the old system was remembered not as an institution but as a bodily habit of fear. "The
+  old way under the Pope, in which a person tortured himself to be so perfectly pure that God could not find the
+  least blemish in us... one week trails another, and one half year the other" (LC 4327-4336). "We always prayed
+  in Popedom conditionaliter, conditionally, and therefore uncertainly" (TT 3063-3064), though whether this line
   is recorded word for word is contested. "If you should ask them whether they are sure that what they do pleases
   God, they say, ''No''" (v1 6845-6856).
 
-  Of all this world''s forces, this one gave rise to the most. Together with the friar''s conviction, it gave rise
-  to justification by faith alone. It gave rise to the household catechism. The catechism is what replaces the
-  system of indulgences, confession and sacraments as the way the laity are formed. It gave rise to the terrified
-  and comforted conscience, as a positive organizing force. Together with print as a medium, it gave rise to
-  German for the people. Print was the medium, and the laity were the audience. It set the world''s emotional
-  story, terror then comfort. It also set its hope in one sentence: "I cannot doubt I have a gracious God."'
+  Of all this world''s forces, this one gave rise to the most. Together with the friar''s conviction, it produced
+  justification by faith alone. It also produced the household catechism, which replaces the system of
+  indulgences, confession and sacraments as the way the laity are formed. It shaped the terrified and comforted
+  conscience into a positive organizing force. Joined with print, it gave rise to German for the people, with
+  print as the medium and the laity as the audience. It set the world''s emotional story, terror then comfort, and
+  it set the world''s hope in one sentence: "I cannot doubt I have a gracious God."'
 manifestations:
 - '"the old way under the Pope, in which a person tortured himself to be so perfectly pure that God could
   not find the least blemish in us... one week trails another, and one half year the other" (LC 4327-4336)'
