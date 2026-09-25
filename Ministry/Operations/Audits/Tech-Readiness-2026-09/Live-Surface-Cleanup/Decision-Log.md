@@ -1570,22 +1570,23 @@ separate PRs built from current `main`, per the launch brief:
   surface unchanged. This PR narrows what gets flagged in `records/` while widening real coverage
   everywhere its patterns already apply - it does not add a KEEP classification. Full detail in the
   PR body itself, not duplicated here.
-- **PR 2 (this entry)** — the wording amendments this decision requires, so `CLAUDE.md` and
-  `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` §B agree with the ruling above.
-  `CLAUDE.md`'s "Keep the live/canonical surfaces clean" section gains one narrow exception,
-  scoped to `records/*.md` alone, naming the same KEEP/ROUTE split PR 1 implements. The Completion
-  Standard's own `[V1.3]` file-discipline item (§B) — which read "Record BODIES are never part of
-  this read - they are the mandated audit trail and never compile" — is amended with a `[V1.6:
-  ...]` tag (the next unused version tag in that section's established inline-versioning
-  convention; no `[V1.4]` exists, and `[V1.5]` is a different, already-present amendment elsewhere
-  in the document) narrowing "audit trail" to durable scholarly reasoning specifically, and stating
-  that process narration is cleaned from a record body the same way CLAUDE.md's standing rule
-  cleans every other live file - as each record is touched, never swept in one pass. The
-  Completion Standard's own adoption stamp ("GOVERNING — adopted by Mark, 2026-07-27") is left
-  untouched; this session has no authority to self-certify that stamp, and §E's own rule ("changes
-  to this standard are Change Orders, never silent edits") is why this entry and the PR body both
-  name the change explicitly rather than landing it quietly. Both files touch canonical governing
-  surfaces, so PR 2 is a Mark click, not an auto-mode action - stated in its own PR body.
+- **PR 2 (this entry)** — the wording amendments this decision requires, originally `CLAUDE.md`
+  *and* `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` §B, so both agreed with the
+  ruling above. `CLAUDE.md`'s "Keep the live/canonical surfaces clean" section gains one narrow
+  exception, scoped to `records/*.md` alone, naming the same KEEP/ROUTE split PR 1 implements —
+  this part still stands. The Completion Standard's own `[V1.3]` amendment does not: merging
+  `origin/main` into this branch found Mark had, independently and in parallel, ruled on this exact
+  same point directly ("converged, write it into V1.8," Build Process V1.8/PR #594) and written
+  equivalent wording into that same `[V1.3]` paragraph already - "Record bodies are never part of
+  this read: they hold durable scholarship only and never compile. Build notes live in
+  `worlds/<code>/build/` and `Ministry/`." Rather than stack a second, differently-tagged edit onto
+  a paragraph the project lead had just ruled on directly, the merge kept `main`'s own wording as-is
+  and dropped this branch's `[V1.6]` tag entirely - "no fix on a fix" applies to overriding an
+  already-converged ruling as much as to a code patch. The Completion Standard's own adoption stamp
+  ("GOVERNING — adopted by Mark, 2026-07-27") was never touched by either version. `CLAUDE.md`'s own
+  edit is unaffected: `main`'s own drift there touched a different section (Opus review cadence),
+  not the paragraph this PR amends. PR 2 is still a Mark click - it touches a canonical governing
+  surface - stated in its own PR body.
 
 Neither PR has been merged by this session, per instruction. Both PR numbers and head SHAs
 reported to the managing thread; quiet mode otherwise in force (one report per PR, no other
