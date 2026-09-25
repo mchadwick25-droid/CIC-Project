@@ -345,7 +345,8 @@ specific figure.
 
 Doc_01 §10, §12 name five open items. This document does not resolve any
 of them (that is not Doc_02's own job at this stage) but confirms each is
-correctly carried to `Open_Gaps_Tracking.md` (entries 1-6) rather than
+correctly carried to `Open_Gaps_Tracking.md` (entries 1-6; entry 10 was
+added later, on Doc_01's own self-review pass) rather than
 silently dropped.
 
 ---

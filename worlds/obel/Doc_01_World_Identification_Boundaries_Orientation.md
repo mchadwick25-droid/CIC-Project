@@ -458,7 +458,8 @@ window.
 
 ## 12. Open items carried forward
 
-See `Open_Gaps_Tracking.md`, entries 1-6, for the full, numbered record of
+See `Open_Gaps_Tracking.md`, entries 1-6 and 10 (added on this document's
+own self-review pass), for the full, numbered record of
 every open question this document raises.
 
 ---

@@ -118,3 +118,19 @@ buckets. Not this build thread's own defect to fix, and not escalated
 (it is a known, already-disclosed, actively-owned piece of work
 elsewhere, not an unresolved tension this pipeline can't close) — flagged
 so a future document doesn't assume the gap was specific to `obel`.
+
+**10. (2026-09-25, Doc_01 §1) Two names in Avvakum's own list of
+authorities for the two-fingered sign of the cross are unidentified.**
+The vendored file (p. 120) names, in its own exact spelling, "Meletina of
+Antioch" and "the Heart Bishop of Cyrene." "Meletina" is plausibly this
+translation's own rendering of Meletius of Antioch (a genuine 4th-century
+patristic authority), and "the Heart Bishop of Cyrene" plausibly a
+corruption of "the Bishop of Cyrus" (Theodoret of Cyrus, already named
+separately in the same list) — but neither identification is confirmed,
+and this document does not silently substitute the more familiar form for
+either. Not load-bearing for any confidence claim currently made (the
+two-fingers practice itself is independently well-attested by the
+surrounding dialogue regardless of who these two names actually are), so
+not flagged for priority acquisition — but a real, disclosed loose end
+for Doc_02/Doc_03's own further checking if either name becomes
+load-bearing later.
