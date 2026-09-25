@@ -83,6 +83,14 @@ defects:
     mutation: {op: set_field, path: license, value: maybe}
     expected_failure: "license 'maybe' is not one of verbatim | paraphrase-only | do-not-voice"
 
+  - id: quote-recording-missing-modern-rendering
+    gate: quote-recording
+    layer: M1
+    target_record: records/fix/quote/fix.quote.private-teaching.md
+    mutation: {op: delete_field, path: modern_rendering}
+    expected_failure: "quote missing required field modern_rendering - text is the record's own verified original wording, never itself the spoken form"
+    note: "the library ruling that a non-English original can be primary evidence, with modern_rendering as its own translation, extended to a fleet-wide rule (item 3): every quote requires modern_rendering, not only non-English-sourced ones - one rule, no per-record carve-out a builder has to remember to check."
+
   - id: alias-safety-unsafe-collision
     gate: alias-safety
     layer: M1

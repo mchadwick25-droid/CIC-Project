@@ -267,11 +267,20 @@ def _head_text(record: dict) -> str:
     if record_type == "story":
         return record.get("tellable_as") or record.get("text") or ""
     if record_type in ("quote",):
-        # The speakable form: the build-authored modern_rendering where one
-        # exists (archaic quotes are translated
-        # in the build, never improvised live), the original otherwise. The
-        # original stays reachable to the net via all_text either way.
-        return record.get("modern_rendering") or record.get("text") or ""
+        # The speakable form is ALWAYS modern_rendering, never `text` - a
+        # non-English or archaic original is primary evidence (the library
+        # ruling that original-language sources can be primary evidence),
+        # with modern_rendering as its own translation; `text` itself is
+        # never voiced. gate_quote_recording (engine/m1/gates.py) requires
+        # every quote record to carry modern_rendering, so this should be
+        # unreachable in practice - fail loudly rather than silently speak
+        # the original if that invariant is ever broken. The original stays
+        # reachable to the net via all_text either way.
+        rendering = record.get("modern_rendering")
+        if not rendering:
+            raise ValueError(f"{record.get('id')}: quote has no modern_rendering - "
+                             f"refusing to fall back to text, which is never voiced")
+        return rendering
     if record_type == "doctrinal_witness":
         return record.get("text") or "; ".join(record.get("positions") or [])
     if record_type == "honest_limit":

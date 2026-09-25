@@ -277,6 +277,16 @@ def gate_quote_recording(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: license {license_!r} is not one of {sorted(valid_licenses)}")
         if _is_blank(rec.get("text")) or _is_blank(rec.get("speaker_or_author")):
             findings.append(f"{rid}: quote must record both text and speaker_or_author")
+        # A non-English original is primary evidence, with modern_rendering
+        # as its own translation (the library ruling that original-language
+        # sources can be primary evidence) - `text` is the record's own
+        # verified original wording, never itself the spoken form. Required
+        # on every quote, not just non-English-sourced ones: one rule,
+        # applied the same way fleet-wide, rather than a per-record carve-
+        # out keyed to a source language a builder would have to remember
+        # to check.
+        if _is_blank(rec.get("modern_rendering")):
+            findings.append(f"{rid}: quote must record modern_rendering - the spoken form, never text itself")
     return findings
 
 
