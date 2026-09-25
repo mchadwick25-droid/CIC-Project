@@ -58,6 +58,16 @@ KNOWN LIMITS:
   - The same fact stated in a different surface form than the ground
     uses (a digit where the ground spells the number out, or vice
     versa) is not recognized as the same value.
+  - The stripped span runs from the literal word "if" to the next
+    literal "would"/"would have," not the true grammatical clause
+    boundary - a claim sitting between an unrelated "if" and an
+    unrelated later "would" in the same sentence is swept up and
+    missed along with the real conditional. "If you ask me, Konrad
+    Grebel was beheaded at Basel in 1531, and nobody would deny it."
+    evades this check entirely; so does any "as if ... would"
+    construction, since "as if" still contains the bare word "if."
+    Report-only, so the effect of this gap is a missed flag, not a
+    wrong one.
   - A flag here means a specific name or number is not found anywhere in
     the world's own compiled ground - not that the named thing is
     fictional, and not that the sentence is false. Real people, places,

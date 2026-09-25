@@ -5563,13 +5563,24 @@ repository) inside a pure subjunctive, and is not caught by `_is_
 honest_limit`'s own fixed-phrase/negation regex (that check looks for
 an explicit absence claim, not a subjunctive mood). Without a fourth
 exemption this module would have reproduced R27's own `neighbour_named`
-false-positive shape on the identical sentence. `_is_hypothetical_
-conditional` (new, local to `sentence_fact_check.py`): an "if" clause
-co-occurring with "would"/"would have" in the same sentence - narrow by
-grammatical pattern, not a topic-specific phrase list, so it
-generalizes; confirmed against two more real "if...would" hedges #558's
-own run produced independently (`cappadocian`, `witt`), never
-previously scored, both correctly exempt.
+false-positive shape on the identical sentence. `_strip_hypothetical_
+clauses` (new, local to `sentence_fact_check.py`): strips only the
+"if"-to-"would"/"would have" span itself before checking, not the whole
+sentence - a name or number OUTSIDE that span, even in a sentence that
+also contains one, is still checked normally (round-2 review fix, below).
+Confirmed against two more real "if...would" hedges #558's own run
+produced independently (`cappadocian`, `witt`), never previously scored,
+both correctly exempt. **A round-2 review finding, fixed the same day:**
+the first version exempted the ENTIRE sentence on a bare "if...would"
+co-occurrence, which a reviewer showed would also exempt "Felix Manz was
+drowned in the Limmat in 1527, and if you ask why, the council would say
+heresy" - a real fabrication riding to safety behind an unrelated
+hypothetical clause. Rescoped to strip only the matched span itself
+(module docstring's own KNOWN LIMITS section carries the residual gap
+this narrower fix still has - the span runs from the literal word "if"
+to the next literal "would," not the true grammatical clause boundary,
+so a claim sandwiched between an unrelated "if" and an unrelated later
+"would" in the same sentence can still be swept up and missed).
 
 **Wiring:** `engine.m4.turn._run_ordinary_voice_turn` gains
 `voice_event["fact_check_flags"]`, computed and (on `r27_enforce`'s own
@@ -5661,7 +5672,7 @@ same way as above:
 **5 of 9 flag real gaps in this world's own vendored ground, but not all
 five are equally strong evidence of the fabrication class this module
 was built to catch - restated honestly rather than folded into one
-count.** Two read the same way as the known fixtures - a specific
+count.** Three read the same way as the known fixtures - a specific
 name, unsupported, presented declaratively: `rzg` A-conflict's own
 Manz/Limmat sentence recurred a **third** independent time live ("Felix
 Manz was drowned in the Limmat in 1527 - executed for the very baptism
@@ -5728,9 +5739,16 @@ limitations of the reused ground-matching machinery (derivational form;
 number-representation mismatch), not new or surprising, and - unlike
 R27's paragraph/`neighbour_named` enforcement - none of this module's
 own false positives would, on today's evidence, need to blank an entire
-turn: the design already specified for any future enforcement PR
-(module docstring) is to drop or regenerate only the OFFENDING
-SENTENCE, never the whole turn - the one shape Entry 77 measured
-failing badly (5 of 22 probes wiped entirely, all 5 false triggers).
-That enforcement PR is Mark's own separate decision to make, not this
-one's.
+turn. **A design sketch for that separate enforcement PR, offered here
+for whoever picks it up, not built in this one:** drop or regenerate
+only the offending SENTENCE this module's own `fact_check_flags` names,
+never the whole turn - the one shape Entry 77 measured failing badly (5
+of 22 probes wiped entirely, all 5 false triggers). Concretely, that
+means a correction naming only the flagged sentence(s) (the same
+append-not-replace directive channel `r27_enforce`'s own one-retry
+mechanism already uses), one regeneration, and on a second failure
+either drop the offending sentence from the answer (never a full-turn
+blank or a Facilitator substitution) or fall back to the original draft
+sentence with its own tag stripped, rather than losing the rest of an
+otherwise-good answer over one uncorroborated claim. That enforcement PR
+is Mark's own separate decision to make, not this one's.

@@ -1133,7 +1133,7 @@ files, triggering the standing rule Entry 8 added to `CLAUDE.md`.
 **`engine/prose.py`: 57 REWRITE findings, all cleared, comments/docstrings only, zero behaviour
 change** (confirmed by the full `engine/tests/test_prose.py`, `engine/m1/tests/`,
 `engine/m2/tests/`, `engine/m4/tests/test_evidence.py`, and `engine/m4/tests/test_grounding_net.py`
-suites passing unchanged - 390 tests). Four blocks, all the same shape - a real, still-true
+suites passing unchanged - 390 tests). Five spots, all the same shape - a real, still-true
 technical reason kept and restated in plain present tense, with the specific measurement/date/
 ruling ID that had been wrapped around it dropped:
 
