@@ -1,6 +1,15 @@
 # Step 0 — Movement-Scope Confirmation: Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 2. Prepared as the first step of the library stage
+**Status:** DRAFT, Revision 3. **ESCALATED, not Approved to proceed** — a
+third independent adversarial review round found this document set
+(together with Doc_01 and Doc_02) still required substantial revision
+after two revision rounds, reaching this project's own three-round review
+cap. Per `cic-build-cycle`, this is now an unresolved tension for the
+project lead, not a fourth revision attempt by this build thread. See
+`Open_Gaps_Tracking.md` item 18 and
+`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`'s own "Round 3"
+section for the exact, narrowly-specified remaining defect. Prepared as
+the first step of the library stage
 (Steps 0-2) for **syriac-orthodox-west-syriac-christianity** (census Atlas ID
 II.2), commissioned directly by the project lead on 2026-09-25 ("world batch
 c") as "the first miaphysite-family world, and Syriac after Chalcedon," era

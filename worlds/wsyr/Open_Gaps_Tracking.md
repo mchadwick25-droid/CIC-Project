@@ -223,3 +223,33 @@ when.
     hinge in Doc_01 §2, but not researched in any depth this session — a
     real gap in this document's own account of the 451-636 window's later
     decades, flagged rather than left silently absent.
+
+18. **ESCALATED — three rounds of substantial revision reached without
+    clearing review; per `cic-build-cycle`, this is now an unresolved
+    tension for the project lead, not a fourth revision attempt.** A third
+    independent adversarial review round
+    (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, its own
+    "Round 3" section) found that Revision 3's own fix for the Tritheist-
+    material misattribution (item above, and this file's own former item
+    5) overcorrected: five passages (Doc_02 lines ~25-27, ~158-160,
+    ~238-240; Doc_01 §6; this file's own former item 5) now wrongly state
+    John of Ephesus is not a source for the Tritheist controversy at all.
+    He is: his own narrative, directly verified against the vendored file
+    from c. line 4580 onward (Conon's arrest through the Cononite/
+    Athanasian split, c. line 4880), covers the controversy at real
+    length, including his own refusal of the Tritheites' bribes and his
+    own naming of John Philoponus. Only the Ascunages creed, the
+    Condobaudite background, and the reported four-day disputation are the
+    translator's own excursus (explicitly citing the 13th-century
+    chronicler Bar-Hebraeus) — the corpus-map staging file and Doc_02 §2's
+    own verification-loci bullet already state this correctly; the five
+    passages above do not yet match them. All other Round 2 findings were
+    independently reconfirmed fixed. Mechanical checks (`engine.m1.
+    cross_world`, `corpus_map_merge.py --check`, `texts_registry.py`) all
+    pass with no new drift. **The needed correction is narrow and
+    precisely specified** (reword the five passages to match what the
+    staging file already says) **but this build thread does not apply it
+    unilaterally**, per the project's own review-cycle cap: three rounds
+    of substantial revision without clearing is itself the "unresolved
+    tension the pipeline can't close on its own" escalation category. This
+    document set (Step 0, Doc_01, Doc_02) is not yet Approved to proceed.

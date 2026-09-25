@@ -1,6 +1,8 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 2. Follows Step 0 (`Step0_Movement_Scope_Confirmation.md`,
+**Status:** DRAFT, Revision 3. **ESCALATED, not Approved to proceed** — see
+Step 0's own status line and `Open_Gaps_Tracking.md` item 18 for why. Follows
+Step 0 (`Step0_Movement_Scope_Confirmation.md`,
 Revision 2) and an independent Opus adversarial review of Revision 1
 (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
 REVISION REQUIRED). This revision corrects every finding that review

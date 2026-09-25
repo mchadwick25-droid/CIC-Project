@@ -1,6 +1,15 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity — Source Ecology
 
-**Status:** DRAFT, Revision 2. Follows Doc_01 Revision 2 and an independent
+**Status:** DRAFT, Revision 3. **ESCALATED, not Approved to proceed** — a
+third independent review round found this document's own §2 (lines ~25-27,
+~158-160, ~238-240) still overcorrects the Tritheist-material misattribution
+this Revision fixed elsewhere: it now wrongly states John of Ephesus is not
+a source for the Tritheist controversy at all, when his own narrative (per
+the vendored file, c. line 4580 onward) covers it at length. See
+`Open_Gaps_Tracking.md` item 18 and the Review-Artifacts file's own "Round
+3" section for the precise, narrow fix this needs — not applied here per
+this project's own three-round review cap. Follows Doc_01 Revision 2 and an
+independent
 Opus adversarial review of Revision 1
 (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
 REVISION REQUIRED). This revision corrects every finding that review
