@@ -40,9 +40,9 @@ modern_lens_note: >-
   the passage's own surrounding text makes clear "he" throughout refers to Martin, questioned by
   Gallus and Postumianus about the end of the world.
 modern_rendering: >-
-  He also told us there was no doubt about this: Antichrist, conceived by an evil spirit, was
-  already born. By this time, he had reached boyhood. And Antichrist would take power, Martin
-  said, as soon as he reached the proper age.
+  He also told us there was no doubt that Antichrist, conceived by an evil spirit, was already
+  born. By this time he had reached boyhood. He would take power as soon as he reached the proper
+  age.
 relations:
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present

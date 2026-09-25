@@ -41,10 +41,10 @@ modern_lens_note: >-
   Cassian offers it as a practical habit of speech for a monk who senses progress, quoting Paul
   three times over rather than arguing a position.
 modern_rendering: >-
-  And so we can escape the snare of this most evil spirit. Whenever we feel we are making
-  progress in any virtue, we say the Apostle's own words: "Not I, but the grace of God with me."
-  And: "By the grace of God I am what I am." And: "It is God who works in us both to will and to
-  do, according to His good pleasure."
+  And so we can escape the snare of this most evil spirit. We can do so if, in every virtue where
+  we feel we are making progress, we say these words of the Apostle. "Not I, but the grace of God
+  with me." And, "By the grace of God I am what I am." And, "It is God who works in us both to
+  will and to do, according to His good pleasure."
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort

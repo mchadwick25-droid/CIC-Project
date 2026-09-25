@@ -39,8 +39,9 @@ modern_lens_note: >-
   blasphemous. The argument runs from a smaller claim (God does not will one child to perish) to
   the larger one (God wills all, not some, to be saved), as a single continuous inference.
 modern_rendering: >-
-  If He wills not one of His little ones to perish, how could He, without grievous blasphemy,
-  will only some, not all, to be saved?
+  For if He wills none of His little ones to perish, how can we, without grievous blasphemy,
+  imagine He does not will all people's salvation? That He wills only some to be saved, instead
+  of all people in general?
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort

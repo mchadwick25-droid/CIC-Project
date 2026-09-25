@@ -57,20 +57,20 @@ modern_lens_note: >-
   where Gaul's own climate makes the Egyptian letter genuinely impossible - substituting Pontic and
   Mesopotamian custom in those specific cases, not inventing a Gallic rule of his own.
 modern_rendering: >-
-  In this, too, I will try to satisfy your directions. Something in those countries may have been
-  either taken away or added, against the example of the elders, set by ancient custom. It may
-  follow instead the fancy of whoever founded a monastery. If so, I will faithfully add it back
-  or leave it out. I will follow the rule I have seen kept in the monasteries founded long ago
-  throughout Egypt and Palestine. For I do not believe a new foundation in the West could find
-  anything more reasonable or more perfect than those customs. That includes a foundation in the
-  parts of Gaul. By keeping those customs, the monasteries founded by holy and spiritually minded
-  fathers since apostolic preaching began have lasted even to our own times. However, I will
-  venture to use this discretion in my work. I may find something in the rule of the Egyptians
-  that is impossible in these countries, or hard and difficult. This may be because of the harsh
-  climate, or some difficulty, or a difference in habits. In such cases I will balance it to some
-  extent with the customs of the monasteries found throughout Pontus and Mesopotamia. For if
-  proper attention is paid to what is possible, the observance holds the same perfection. This is
-  true even though the strength to carry it out may be unequal.
+  In this, too, I will try to satisfy your directions. To that end, suppose I happen to find that
+  something in those countries has been either taken away or added. And suppose the change does
+  not follow the example of the elders, set by ancient custom, but the whim of whoever founded a
+  monastery. Then I will faithfully add it or leave it out. I will do so by the rule I have seen
+  kept in the monasteries founded long ago throughout Egypt and Palestine. For I do not believe a
+  new foundation in the West, in Gaul, could find anything more reasonable or more perfect than
+  those customs. The monasteries founded by holy and spiritually minded fathers since the
+  apostles first preached keep those customs. In keeping them, they have lasted even to our own
+  time. In my work, however, I will venture to use my own judgment in this way. I may find
+  something in the rule of the Egyptians that is impossible in these countries, or hard and
+  difficult. The cause may be the harsh climate, or some difficulty or difference in habits. In
+  that case, I will balance it to some extent with the customs of the monasteries found
+  throughout Pontus and Mesopotamia. For if we take proper account of what is possible, keeping
+  the rule is just as perfect, though strength may be unequal.
 relations:
 - type: associated-with
   target: gallic.gravity.egypt-as-measure
