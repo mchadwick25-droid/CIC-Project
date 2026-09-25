@@ -2290,3 +2290,21 @@ Also applied, both real and fixable: **L1** — `lpc.story.celerinus-writes-to-l
 **Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies. **This unblocks Part 4 (gravity/force records), running concurrently in this same thread.**
 
 ---
+
+### 2026-09-25 — Record-native compilation, Part 4 (gravity/force records): drafted, reviewed, corrected, disposed
+
+**Part 4 drafted** at `worlds/lpc/scripts/wb_lpc_s25.py` (matching `don`'s own `wb_don_s25.py`), producing 8 `gravity` records (matching Doc_04 §4's Classification Summary exactly: Primary — G1, G2, G3, G6; Supporting — G4, G5, G7; Tensional — G8) and 17 `force` records (matching `lpc_Force_Index.md`'s own 17-row master table exactly). Relations: 15 gravity↔gravity edges (Doc_04 §6's Interaction Matrix), 29 gravity↔force edges (Doc_08 §5, cross-checked against the Force Index §3), 14 force↔force edges (Doc_08 §4).
+
+**Independently re-verified by this thread before review, not taken on the drafting agent's word:** gate battery (271 records load — 246 prior plus 25 new — only `gate-canon-coverage` at 28, unchanged); the 8 gravity classifications cross-checked directly against Doc_04's own text (exact match); the 17 force IDs cross-checked against the Force Index (exact match); and — the genuinely hard case — G5 (Conciliar Authority Theory)'s special handling confirmed correct: the record carries `evidentiary_weight: contested` and `formation_confidence: Inferential-Thin` rather than a false "Documented" rating, since Doc_04 itself states this candidate's Supporting classification rests on the project lead's 2026-09-14 ruling, not a six-test verdict the document itself reaches.
+
+**Round 1 independent adversarial review run** (isolated subagent, no involvement in drafting; full review: `Review-Artifacts/RecordCompilation_Part4_Round1_Review.md`). **Verdict: CLEARED REVIEW — 0 HIGH, 1 MEDIUM, 1 LOW, 0 COSMETIC.** The review's own independent checks: the full 58-edge relations graph (15+29+14) recomputed directly from all 25 on-disk records' own `relations[]` fields, confirmed fully bidirectional with zero one-way edges; Force 2B-1's specific claimed history (a Round 3 reversal later found wrong, preserved rather than re-reversed) confirmed genuine against Doc_08 §5's own text, not an invented dramatization; six-test language for six further gravities checked against Doc_04 §3 directly; and every cross-reference across all 25 records confirmed resolving to a real record in the full 271-record set.
+
+**Both findings applied, then independently re-verified by this thread:**
+1. **M1** — the script's own docstring claimed "five" forces (1A-2, 1B-3, 2B-3, 2B-5, 3B-2) "carry NO gravity connection at all." Independently re-checked directly against the compiled records: only three (2B-3, 2B-5, 3B-2) actually carry none — 1A-2 connects to G1 and 1B-3 connects to G4, both correctly present in the actual compiled `.md` files and in `RELATION_PAIRS`. The error was confined entirely to explanatory commentary (a conflation with the separate, correctly-stated four-force empty-*sources*-not-empty-*relations* set); no compiled record was ever wrong. Docstring corrected, with the conflation disclosed rather than silently rewritten.
+2. **L1** — a provenance note on G4's own Interaction Matrix profile was imprecisely worded, implying G4 has only one gravity-level relationship in total when Doc_04 §6 shows three (Reinforcing with G1, G2, and G7) — the compiled record's own `relations[]` field already carried all three correctly; only the explanatory note undercounted. Corrected to state the actual reason G7 reads as the "only new" edge (G1/G2 were already captured processing earlier rows), not the only edge in total.
+
+Script re-run after both fixes; gate battery re-verified unchanged (271 records, only `gate-canon-coverage` at 28); both docstring fixes confirmed present in the regenerated script.
+
+**Disposition: Approved to proceed (build-thread self-disposition, CO-022).** No escalation category applies. **This unblocks Part 5 (contested_claim records).**
+
+---
