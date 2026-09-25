@@ -55,16 +55,16 @@ description: "This is the systematic form that the general theme of spiritual co
   evidence, that keeps it from counting among this world's central patterns.
 
 
-  What follows is this build's own reading, not part of the original assessment of this pattern. A later study of this
-  world's forces traces it to two of them. One is an ongoing intellectual intensification centered at Kellia. The other
-  is the Origenist controversy, the later intervention by bishops. That intervention exploited the same narrowness,
-  because a system held by one circle made a clear target that could be singled out.
+  What follows is our own reading, not part of the original assessment of this pattern. A later study of this world's
+  forces traces it to two of them. One is an ongoing intellectual intensification centered at Kellia. The other is the
+  Origenist controversy, the later intervention by bishops. That intervention exploited the same narrowness, because a
+  system held by one circle made a clear target that could be singled out.
 
 
-  This link is not treated as strong confirmation of how the pattern was classified. An earlier version overreached on
-  that point and was corrected. The link is only the historical outcome that the classification's own reasoning would
-  predict. The four main forces originally named for this world still show no demonstrated link to this pattern. The
-  link above came later, from a wider set of forces. It is not a finding within the original four."
+  This link does not strongly confirm how the pattern was classified. It is only the historical outcome that the
+  classification's own reasoning would predict. The four main forces originally named for this world still show no
+  demonstrated link to this pattern. The link above came later, from a wider set of forces. It is not a finding within
+  the original four."
 classification: supporting
 manifestations:
 - "the eight-logismoi taxonomy as a named, systematic scheme, distinct from the general combat theme's looser attestation"

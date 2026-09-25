@@ -42,9 +42,9 @@ description: "This pattern runs against withdrawal's own talk of total separatio
 
 
   Two independent kinds of evidence support it: the excavated remains at Kellia and the documents of the Nepheros
-  archive. They agree on how strong the case is, but they carry different caveats. Together they correct the dominant
-  literary story rather than repeat something that story stresses. So the pattern shows up in more than one kind of
-  evidence, but not overwhelmingly. Other parts of this world's life depend on it to a moderate degree.
+  archive. Each is rated as equally well documented, but each comes with different caveats. Together they correct the
+  dominant literary story rather than repeat something that story stresses. So the pattern shows up in more than one
+  kind of evidence, but not overwhelmingly. Other parts of this world's life depend on it to a moderate degree.
 
 
   Its effect on formation is indirect: it shapes practice more than the ideal people professed. But it explains a great
@@ -59,8 +59,8 @@ description: "This pattern runs against withdrawal's own talk of total separatio
   This is why it counts as a counter-pressure rather than a pattern that organizes this world. It is a lasting,
   materially real pressure against how this world understood itself, not a force that shapes that self-understanding
   directly. It holds steady rather than growing or breaking apart under the four main historical forces named for this
-  world, not only the one that set this world in motion. It is a structural precondition underneath the more visible
-  responses: the settlements had to eat."
+  world. That includes forces beyond the one that set this world in motion. It is a structural precondition underneath
+  the more visible responses: the settlements had to eat."
 classification: tensional
 manifestations:
 - "Kellia's excavated commercial center, showing trade actually running alongside the ascetic settlement"

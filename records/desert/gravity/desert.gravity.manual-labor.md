@@ -46,7 +46,7 @@ description: "Cheironaxia is hand-work, done both to make a living and as a disc
   Three kinds of evidence support it independently: texts, papyri, and archaeology. The texts include Athanasius and
   Palladius. The papyri include the Nepheros archive, which comes with caveats. It belongs to the rival Melitian
   movement. Its own editors read it as falling somewhere between forms of organization. It has no clean fit to any of
-  this world's three groups. The archaeology includes Kellia's excavated commercial buildings.
+  this world's three groups. The archaeology includes at least one excavated commercial center at Kellia.
 
 
   The case is strong on every count. It appears in every kind of evidence this world offers. Material survival,
@@ -57,7 +57,7 @@ description: "Cheironaxia is hand-work, done both to make a living and as a disc
 
   It reinforces withdrawal. It also reinforces the pattern of economic ties to villages, which its own evidence partly
   supplies. The tension carried by that pattern is with withdrawal's rhetoric specifically, not with manual labor
-  itself. There may also be some tension with a purely contemplative reading of Evagrius's systematic teaching. That is
+  itself. Some tension is also noted with a purely contemplative reading of Evagrius's systematic teaching. That is
   noted only as a soft tension, not declared as a firm relationship. Manual labor grows stronger under the force that
   set this world in motion, the fact that martyrdom was no longer available. It is a direct, central response to that
   pressure, not something that merely existed alongside it."

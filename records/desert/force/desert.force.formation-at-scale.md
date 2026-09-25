@@ -27,11 +27,11 @@ description: "This was a problem the ascetics themselves felt. One extraordinary
   forcing each seeker to find Antony's own path again, alone?
 
 
-  Pachomius founded the first cenobitic, or communal, monastery at Tabennesi. Palladius reports the vision in his
-  chapter XXXII, and the Latin Rule tradition passes on the Rule and its offices. Pachomius set up a written Rule,
-  common property, and formal offices. This was a genuinely new kind of institution. It differed from what came before.
-  Yet it carried on the same drive toward total commitment that already shaped withdrawal and spiritual combat. Now that
-  same drive was applied to life in community."
+  Pachomius founded the first cenobitic, or communal, monastery at Tabennesi. Palladius tells of the vision behind the
+  founding in his chapter XXXII, and the Latin Rule tradition passes on the Rule and its offices. Pachomius set up a
+  written Rule, common property, and formal offices. This was a genuinely new kind of institution. It differed from what
+  came before. Yet it carried on the same drive toward total commitment that already shaped withdrawal and spiritual
+  combat. Now that same drive was applied to life in community."
 matrix_cell: 1B
 manifestations:
 - "Pachomius's founding of the first cenobitic community at Tabennesi, traditionally after a vision in which an angel commanded him to 'collect all the young monks and dwell with them' and gave him the Rule on a brass tablet - as Palladius reports it (ch. XXXII), a vendored, hagiographic account; joined immediately by his brother John and then by further companions, per the Pachomian Lives tradition (desert.source.pachomian-corpus), whose incident-level reliability this build does not independently adjudicate - matching desert.figure.pachomius's own hedge for the identical claim"
