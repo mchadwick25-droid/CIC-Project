@@ -612,6 +612,75 @@ environment. This mirrors the only project-wide precedent for the same situation
 completeness, matching `don`'s own OG-6 discipline of naming every standing, honestly-disclosed
 prerequisite rather than only the ones still in dispute.
 
+### OG-14. PR #557's canon-closure pass (Part 8, `wb_lpc_s2z_canon_closure.py`) — an independent Opus fidelity review found the coverage method itself was unsound, not just individual records; the PR is held unmerged pending rework.
+
+2026-09-25: PR #557 added `canon_cells` tags across all 67 pre-existing lpc records
+(`wb_lpc_s2y_canon_cells.py`) and closed the fleet's 28 canon cells with 3 new
+`doctrinal_witness` and 7 new `honest_limit` records (`wb_lpc_s2z_canon_closure.py`). All
+21 M1 gates, including `canon-coverage`, passed clean. An independent Opus fidelity review
+(routed through the tech-readiness coordinator thread, per this project's own "a blocking
+review finding can't be dismissed by self-certification" rule) found the gates cannot see
+what this review did: **the root cause is methodological, not a handful of typos** — each
+`honest_limit`'s claimed absence was checked only against `lpc`'s own already-built 67
+records, never against Doc_02 or the vendored corpus directly. Six of the seven new
+`honest_limit` records are, on independent primary-source verification, contradicted by
+material already sitting in this world's own vendored sources:
+
+- **F5-T** (`lpc.limit.wealth-and-marriage-untaught`) — *On Works and Alms* and *On the
+  Dress of Virgins* are both in `lpc.source.cyprian-minor-pastoral-treatises` (Doc_02 §1
+  names *On Works and Alms* directly).
+- **F4-P** (`lpc.limit.the-unquiet-mind-and-the-unrepentant`) — Enchiridion ch. 73 (loving
+  the enemy who "wishes you ill"), `lpc.story.the-plague-and-the-enemies`, and Confessions
+  I.i.1 ("restless till it rests in Thee") all bear on this cell directly; the review also
+  notes this contradicts the same PR's own C-P witness.
+- **F4-E** (`lpc.limit.apostolic-origin-undefended`) — On Baptism V.23
+  (`cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml`, line 13141 —
+  **independently re-verified in this thread**: "the custom, which is opposed to Cyprian,
+  may be supposed to have had its origin in apostolic tradition") and Cyprian Ep. 73
+  ("Whence is that tradition?") both speak to exactly this cell's own question.
+- **F3-E** (`lpc.limit.the-outsiders-own-view`) — Cyprian's *Address to Demetrianus*
+  answers the pagan charge that Christians caused "wars, famine, pestilence" — a direct
+  outsider-accusation response this world's corpus does hold.
+- **F2-T** (`lpc.limit.scriptures-own-place-unaddressed`) — Ep. 73 sets scripture over
+  custom ("custom without truth is the antiquity of error"); the Genesis-as-science half of
+  the cell remains genuinely unconfirmed.
+- **F2-P** (`lpc.limit.violence-in-scripture-unaddressed`) — Augustine's *Reply to Faustus*
+  XXII.74–79 (`lpc.source.augustine-anti-manichaean-corpus`) directly defends the wars of
+  Moses against exactly this charge.
+- **C-E** (`lpc.limit.no-chain-of-witnesses`) — only partly wrong: *City of God* XXII.5
+  does argue for the resurrection's own credibility, so the record needs narrowing to the
+  eyewitness-chain point specifically, not left as a blanket absence.
+
+Separately, and independently re-verified in this thread: the C-P witness's own quotation
+("Grant me chastity and continency, but not yet") is verbatim but mis-cited (line
+12745–46 of `cic/texts/npnf101_augustine-confessions-letters.xml`, not 12747 as the PR's
+own generator script states) and, more substantively, **misrepresents its own context** —
+the source frames it as a youth's prayer recalled later ("in the very outset of my
+youth"), not a present-tense prayer from someone "already persuaded the truth was true."
+The review also found: the C-T and C-I witnesses each need register/accuracy fixes (an
+overclaimed "we do not differ from any other church" line ignoring this world's own
+Homoian-Vandal/Arian-Maximinus material already in the corpus; a dropped "ascension into
+heaven" clause; several sentences over the 25-word style ceiling); a forced `F4-T` tag on
+`lpc.term.catechesis` that implies adult-only baptism against the term's own cited
+Enchiridion ch. 52 ("not adults only, but infants as well"); a better home for
+`lpc.term.compel-them-to-come-in` and `lpc.contested.compel-coercion-development` at F3-P
+rather than F6-P; disclaimer-as-crutch phrasing reading as generated; and process
+narration in all 10 new record bodies, in `locus` fields, in `why_sources_cannot_answer`,
+and in both generator scripts' own docstrings — a direct instance of the standing
+live-surface-commentary rule now in `CLAUDE.md`, plus a swallowed-exception pattern in
+`wb_lpc_s2z_canon_closure.py`'s own `--validate` mode (`except Exception: registry = {}`)
+that could silently hide a real registry-load failure behind an apparently clean run.
+
+**Standing state:** PR #557 is open, CI green, `mergeable_state: clean`, but **held
+unmerged** on the coordinator thread's own explicit instruction — Mark merges this PR
+himself after the rework, and any revised quotes/absence claims get independently
+re-checked again before that (self-certification does not count, per this project's own
+standing rule). Not resolved by this entry — logged per CLAUDE.md's own rule that a review
+outcome never lives only in a conversation thread. The rework itself (author substantive
+records from the loci above where they hold, narrow claims that are only partly wrong,
+fix the two mis-cited/mis-contextualized quotes, retag F4-T, strip the commentary, and fix
+the swallowed exception) is a separate, not-yet-started piece of work.
+
 ---
 
 ## Closed items — verified in this review, not merely inherited from the Decision Log
