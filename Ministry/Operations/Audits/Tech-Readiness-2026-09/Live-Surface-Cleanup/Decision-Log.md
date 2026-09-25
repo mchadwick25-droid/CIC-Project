@@ -1014,20 +1014,39 @@ body rather than restated here.
 
 **What was actually commentary, and got fixed:**
 
-1. **`cic-website/data/world-census.json`'s `statusDescription` field, 43 not-yet-built
-   entries.** This field is the census's own hand-authored status line — confirmed by checking
-   its value on the six built-and-live entries, which all read a single plain sentence ("You can
-   sit down with this tradition now."), and by `engine/m6/census_sync.py`'s own scope: it only
-   syncs `statusDescription` from the registry for `status == "Built & Live"` rows, so every
-   flagged row here (all `"Pre-Survey Candidate"`) is hand-authored in this file directly, not a
-   generated mirror of something else. Forty-three of these entries had drifted into full
+1. **`cic-website/data/world-census.json`'s `statusDescription` field, 255 not-yet-built
+   entries — corrected from an initial undercount of 43.** This field is the census's own
+   hand-authored status line — confirmed by checking its value on the six built-and-live entries,
+   which all read a single plain sentence ("You can sit down with this tradition now."), and by
+   `engine/m6/census_sync.py`'s own scope: it only syncs `statusDescription` from the registry for
+   `status == "Built & Live"` rows, so every flagged row here (`"Pre-Survey Candidate"`, `"Floor
+   Question (register)"` and `"Label - Assessed Per Body (A3)"`) is hand-authored in this file
+   directly, not a generated mirror of something else. 255 of these entries had drifted into full
    internal-review paragraphs — "Reviewed at the Era N Step 0 run and tiered X (Tier N)...",
-   "corrected/routed/decided/named/ratified at the gate/Freeze", "flagged forward" — the survey
+   "corrected/routed/decided/named/ratified at the gate/Freeze", "flagged forward", "Named in the
+   Step 0 record...", "Carries a named creedal question for a future Step 0..." — the survey
    pipeline's own review vocabulary, not content about the historical movement each row
-   describes. Rewritten to plain status language, keeping every substantive fact (sourcing
-   quality, access limits, window dates, real editorial judgment calls about scope) and dropping
-   only the process framing. `engine/m6/tests/` (census/atlas sync) and the site
-   `staleness-check` both still pass — this field isn't synced or compiled into anything, so nothing downstream depended on its old wording.
+   describes. **The first pass's 43 came from filtering to `tools/check_live_commentary.py`'s own
+   `era-gate`/`route-cue` hits**, which only match lines containing "at the gate/Freeze" or an
+   open-item phrase; most of the drifted paragraphs don't contain either — they just open
+   "Reviewed at the Era N Step 0 run" and never mention a gate or an open question by name, so the
+   checker never flagged them at all. Re-verified with a direct scan for `"Reviewed at`/`"Proposed
+   by`/`"Named in the Step 0 record`/`"Carries a named creedal question` openers across every
+   movement regardless of checker output: 255 found, all rewritten, 0 remaining, confirmed by a
+   final regex sweep for `Step 0|Era \d+|Freeze|ratified|at the gate|RETAINED|BANKED|floorNote|
+   continuesAs|dateRationale|statusWord` across the whole file. Rewritten to plain status language,
+   keeping every substantive fact (sourcing quality, access limits, window dates, real editorial
+   judgment calls about scope, disclosed uncertainty) and dropping only the process framing. Two
+   entries (the Templar-trial and Old Believers rows) also leaked the internal field name
+   `floorNote` into their own rewritten text on the first pass — caught on review and fixed to
+   "its note on the doctrinal floor." `engine/m6/tests/` (census/atlas sync) and the site
+   `staleness-check` both still pass — this field isn't synced or compiled into anything, so
+   nothing downstream depended on its old wording.
+   **Open item, not fixed here:** `statusWord`, this field's sibling and also visitor-facing,
+   still carries the same process vocabulary on 233 of 292 rows — a public-vocabulary design
+   decision, not a commentary cleanup, so it's logged for Mark's ruling rather than rewritten:
+   `Ministry/Features/Atlas-World-Map/Decision-Log.md`, entry "2026-09-25 — Open question for
+   Mark: `statusWord` still carries public-facing process vocabulary."
 2. **The Atlas census's own `"notes"` field** (identical text duplicated at
    `cic-website/atlas-v3.html:428` and `cic-website/data/world-census.json:21`) — trimmed to keep
    the load-bearing "single source of truth, read by these surfaces" statement and the schema
@@ -1040,6 +1059,24 @@ body rather than restated here.
    Mark's "ok it works for me. make this a go." on the same day signed off the C6 launch set as
    the tray's offered seatings. The DRAFT/pending-approval claim was stale by a month; removed.
 
+**Fidelity re-check on the `statusDescription` rewrites: a ruling stays a ruling, not a fact.**
+Where the original text said something was ruled or decided on stated grounds — not just a
+scope/filing choice (which row a topic sits in) but a substantive claim about the historical
+subject itself — the rewrite keeps the grounds visible rather than flattening it into a plain
+assertion. Checked systematically after the managing thread flagged the risk with the Moravian
+succession entry (kept correctly: "on the strength of a literal-renewal claim and refugee-carried
+continuity across that 95-year gap"). Two entries had dropped the grounds entirely on the first
+pass and were corrected: the Athonite-succession entry (Hesychasm/Palamite Synthesis) now reads
+"it succeeds from the Athonite entry as a direct continuation" with the classification kept
+visibly a classification, not an unqualified historical claim; the Optina-succession entry
+(Paisius/Philokalia) similarly. The clearest case is the recency-exception entry (a 2016-onward
+movement kept on the map despite failing this survey's own age bar): rewritten as "kept anyway,
+on record as a deliberate exception," not as if inclusion were simply the neutral, obvious
+outcome. "This status is a dated reading of a living tradition,
+not a permanent verdict" — the Living-Era Protocol's own hedge — was kept verbatim everywhere it
+appeared, rather than dropped as process framing, because it is itself a fidelity safeguard, not
+narration about how the safeguard was adopted.
+
 **What was flagged but is not commentary, and was left as-is (KEEP):**
 
 - **17 `era-gate` hits, all literal historical gates**, not the project's own "Freeze" gate: a
@@ -1049,8 +1086,12 @@ body rather than restated here.
   underlying text) Patriarch Gregory V hanged at the gate of the Constantinople patriarchate in
   1821. The `era-gate` pattern matches "at the gate" regardless of which gate; these are all the
   wrong kind.
-- **86 `route-cue` hits, almost all genuine emic/etic scholarly hedge language about the
-  historical subject matter**, not the project's own open items: "Creedal question — not yet
+- **`route-cue` hits, almost all genuine emic/etic scholarly hedge language about the
+  historical subject matter** (86 at scan time, before this entry's own `statusDescription`
+  rewrites; several of those rewrites deliberately kept or introduced plain "a real, open
+  question" phrasing to preserve fidelity — see above — which the checker now also reads as
+  `route-cue`, bringing the live count to 95; all still the same kind of legitimate content),
+  not the project's own open items: "Creedal question — not yet
   resolved" status labels, `floorNote`/`legacy`/`why` fields naming a real unresolved historical
   or doctrinal question (Paul of Samosata's teaching, the Testaments of the Twelve Patriarchs'
   authorship, Kyrion II's 1918 death, the filioque-adjacent Consensus Tigurinus question), and
