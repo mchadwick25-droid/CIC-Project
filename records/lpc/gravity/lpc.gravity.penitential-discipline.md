@@ -32,6 +32,10 @@ relations:
 - type: illustrated-by
   target: lpc.demo.road-back-examined
 - type: associated-with
+  target: lpc.witness.answerability-as-ground
+- type: associated-with
+  target: lpc.witness.confessor-claim-vs-regulated-peace
+- type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved
