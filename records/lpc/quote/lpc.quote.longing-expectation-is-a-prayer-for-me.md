@@ -5,7 +5,8 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F4-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -19,8 +20,11 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-sermons-on-selected-lessons
   locus: Sermon I [LI, Benedictine], 'Of the agreement of the evangelists Matthew and Luke in the generations
-    of the Lord,' delivered at the matins of the Nativity festival; independently re-located this session
-    at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml, line 9398
+    of the Lord' -- delivered some time after the Nativity festival's own matins, not at the matins itself;
+    the sermon's own opening recalls that at matins Augustine had put off the question he now resolves
+    ("it was in the matins of the festival of the Lord's Nativity, that I put off the question which I
+    had proposed for resolution"); independently re-located this session at cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml,
+    line 9398
   license: public-domain
 retrieval:
   tier: 1
@@ -47,7 +51,8 @@ modern_lens_note: 'A modern listener may hear this as a preacher''s flattery of 
   means something more exact: the congregation''s own act of showing up and waiting to hear him is itself,
   for him, a form of intercession on his behalf -- not a compliment to them, but a claim about what their
   attention does for the man who has to speak.'
-modern_rendering: I know you're here because you want to hear this, not because you have to. So I'm not
-  talking to people who won't listen. Your own waiting, right now, is itself a prayer for me.
+modern_rendering: But now I imagine that no one has come here except those who want to hear. So I am not
+  speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation
+  of yours is a prayer for me.
 ---
-Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph, its final named image: 'A preacher naming, to the very people gathered in front of him, that their own waiting is itself a kind of prayer for him.' This is the fifth of the Permanent Prompt's seven candidate images to be built as a quote record -- the other two (the certificate/wide-door contrast and the two-answers-on-baptism contrast) remain synthesized prose without a single quotable sentence, disclosed as such in this script's own docstring rather than built. Sermon I is undated within this world's own construction record beyond 'delivered at the matins of the festival of the Lord's Nativity' (the sermon's own words) -- no further narrowing is attempted here.
+Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph, its final named image: 'A preacher naming, to the very people gathered in front of him, that their own waiting is itself a kind of prayer for him.' This is the fifth of the Permanent Prompt's seven candidate images to be built as a quote record -- the other two (the certificate/wide-door contrast and the two-answers-on-baptism contrast) remain synthesized prose without a single quotable sentence, disclosed as such in this script's own docstring rather than built. Sermon I's own delivery date is undated within this world's own construction record beyond the sermon's own words placing it after the Nativity festival's matins, at which Augustine had deferred this same question. No further narrowing of the actual delivery date is attempted here.

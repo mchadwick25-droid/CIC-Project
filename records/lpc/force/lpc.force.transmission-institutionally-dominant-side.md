@@ -5,7 +5,8 @@ record_type: force
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F2-E
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -44,7 +45,7 @@ description: 'Doc_08 Cell 2B, Force 2B-5 -- the Transmission dimension this cell
   which I have transmitted to you." He knows his letters are read beyond their addressee, and experiences
   textual corruption directly: receiving a letter whose "matter, and even the paper itself, gave me the
   idea that something had been taken away, or had been changed from the original," he returns it for collation.
-  A century and a third later the same consciousness takes a different form: Augustine, near the end of
+  A century and a half later the same consciousness takes a different form: Augustine, near the end of
   his life, sets out to review his own works "with a certain judicial severity," and to mark what displeases
   him "as with a censor''s pen" -- a deliberate act of curating what would outlast him. What this world
   could not experience is the part that happened later: the Catholic institutional tradition''s own selection,

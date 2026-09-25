@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F1-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -30,6 +31,8 @@ sources:
 relations:
 - type: associated-with
   target: lpc.limit.411-gesta-unread
+- type: associated-with
+  target: lpc.witness.tradition-tested-by-apostolic-warrant
 - type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with

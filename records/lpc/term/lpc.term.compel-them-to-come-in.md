@@ -5,7 +5,8 @@ record_type: term
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F3-P
 relations:
 - type: illustrated-by
   target: lpc.demo.compel-three-phase
