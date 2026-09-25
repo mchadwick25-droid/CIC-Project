@@ -68,6 +68,6 @@ close). Read with `sed -n '43018,43039p'`.
 
 Normalization: line breaks joined with single spaces. The endnote anchor after "S. Isidore" (n="2091",
 Gazet's identification note) sits inside the source's own prose and is dropped, exactly like any other
-in-line note anchor. The Greek word for the palm boughs, σειρά, is given in the source itself (marked as
+in-line note anchor. The Greek word for the palm boughs, σειρά, is given in the source itself (marked as
 Greek text) and is kept verbatim rather than transliterated or paraphrased. No word was added, dropped,
 substituted, or reordered.

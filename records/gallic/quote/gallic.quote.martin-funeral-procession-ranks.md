@@ -35,7 +35,7 @@ text: >-
   Undoubtedly the shepherd was then driving his own flocks before him—the pale crowds of that saintly
   multitude—bands arrayed in cloaks, either old men whose life-labor was finished, or young soldiers who
   had just taken the oath of allegiance to Christ. Then, too, there was the choir of virgins, abstaining
-  out of modesty from weeping.
+  out of modesty from weeping;
 speaker_or_author: Sulpitius Severus, narrating
 license: verbatim
 modern_lens_note: >-
