@@ -126,14 +126,24 @@ world's `Open_Gaps_Tracking.md` (entry 1).
 
 ## 5. Disposition
 
-**Approved to proceed.** No escalation category applies: this is not a
-Representative identity decision, not a portfolio-level or cross-world
-decision (the portfolio-level Era 8 gate decision is being carried
-forward, not remade), not a governance/methodology change, and there is
-no unresolved tension after multiple rounds (this is Round 1). Reviewed
-per the build-cycle discipline, together with Doc_01 and Doc_02 as one
-combined Round 1 pass (this world's own thin, single-source-voice stage
-did not warrant three separately spawned review sessions — see that
-review file's own §6 for the reviewer's explicit judgment on whether this
-compression cost anything); see
-`obel_Step0_Doc01_Doc02_Review_Round1.md`.
+**Status: Draft, Round 1 — pending independent review.** This document
+does not self-assign a disposition ahead of its own review, per the
+build-cycle discipline ("A document never gets marked with any
+disposition on the strength of the document's own author... deciding it
+looks good") — an earlier draft of this section stated "Approved to
+proceed" before that review had actually run, which was itself a process
+error caught and corrected here on self-review, not a disposition this
+document is entitled to claim yet. Reviewed together with Doc_01 and
+Doc_02 as one combined Round 1 pass (this world's own thin,
+single-source-voice stage did not warrant three separately spawned
+review sessions — see that review file's own §6 for the reviewer's
+explicit judgment on whether this compression cost anything); see
+`obel_Step0_Doc01_Doc02_Review_Round1.md` for the actual review result,
+and this document's own revision-history note (added once that review is
+in hand) for the real disposition. **Once review clears this document
+without substantial revision, and no escalation category applies (none
+appear to at this stage: not a Representative identity decision, not a
+portfolio-level or cross-world decision — the portfolio-level Era 8 gate
+decision is being carried forward, not remade — and not a governance/
+methodology change), this build thread will apply "Approved to proceed"
+itself, per CO-022's own self-disposition rule — not before.**
