@@ -55,9 +55,10 @@ description: >-
   formed at Lérins, writing at the direct request of two church councils, Arles and Lyons, around
   473 to 475. At the same time, the Lérins network took hold across the churches of southern Gaul.
   Faustus's own opening letter to his book on grace, addressed to Leontius of Arles, states the
-  request in the bishop's own voice. Leontius wanted to act against a teaching he judged wrong. He
-  had gathered a council of the highest bishops, and gave the work of setting it right to a junior
-  colleague. A wrong turn, Faustus says, can fall to either side of the road the fathers walked.
+  request in the bishop's own voice. Leontius wanted to act against what he judged to be the error
+  of predestination. He had gathered a council of the highest bishops, and laid the task, Faustus
+  says, on his own weak shoulders. A wrong turn, Faustus says, can fall to either side of the road
+  the fathers walked.
   After the council of Arles reached its own decision, new errors came to light, and the synod of
   Lyons then required more additions. Most of this survives only in a rough, uncertain reading of
   damaged Latin text; it cannot be checked directly. Gennadius, writing on his own, sums up the
@@ -89,15 +90,15 @@ manifestations:
 - "Gennadius's summary of the doctrine: grace that 'always invites, precedes and helps our will' (ch. LXXXVI)"
 - "The L\u00e9rins network consolidated across the sees of southern Gaul (Mathisen, thesis-level, unread)"
 ---
-Re-derived from the approved Doc_08 (Cell 3A, Force 3A-1). Cross-cell connections (Section 4): the
-end of Connection 3's chain, '1A-1 -> 2A-1 -> 3B-3 -> 3A-1, produced -> intensified -> transformed
-... the contest over the instrument closed, at the world's ending, with the argument carried by a
-bishop for a synod' - carried as enabled-by gallic.force.contest-over-antiquity; and the end of
-Connection 6, '2A-2 + 2B-3 -> 3B-1 -> 3A-1, intensified -> transformed' - carried as enabled-by
-gallic.force.fugitives-fill-the-sees; reciprocal precondition-for declared on each. Gravity linkage
-(Doc_08 §5, A.1 - four gravities): transformed G3's register, carried G1 to its end-state, fractured
-G9 in one direction ('the gravity whose fracture IS the world's boundary'), and carried G4 past the
-window - all four associated-with, this being an ending-cell force closing rather than founding each
-gravity. Node: S. The `merovingian-gallic-christianity` 'seedbed' / 'receives' continuity (Doc_01
-§2.5, §11 item 7) remains unreconciled and is not decided here. Canon_cells left empty, matching
-fleet convention for gravity/force records.
+Grounded in cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt (Faustus's
+prologue, rough OCR) and cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius's
+independent summary). This description paraphrases the primary sources in its own voice; Gennadius's
+own verbatim wording, locus, and speaker attribution are carried in full in
+gallic.quote.gennadius-grace-invites-precedes-and-helps. Faustus's own prologue is
+Inferential/Thin for wording beyond its three OCR-clean fragments, disclosed above in
+divergence_note, and is paraphrased here rather than quoted for that reason.
+
+This force's relations to this world's other gravities and forces are declared in full in its
+relations[] field above, reciprocal edges declared on each target. Node: S. The
+`merovingian-gallic-christianity` "seedbed"/"receives" continuity is not decided here. Canon_cells
+left empty, matching fleet convention for gravity/force records.

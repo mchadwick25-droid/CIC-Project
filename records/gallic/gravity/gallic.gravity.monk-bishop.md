@@ -113,7 +113,8 @@ description: >-
   Ascetic withdrawal keeps producing bishops. Renunciation is the first step. The episcopate is
   where the man who gave up power gets pulled back in. Martin, Sulpitius says, held the office of
   bishop properly, without giving up a monk's own way of life. Sulpitius also says he personally saw
-  many of Marmoutier's eighty disciples become bishops later. Cassian wrote his whole body of work
+  many of the noble-born among Marmoutier's eighty disciples become bishops later. Cassian wrote
+  his whole body of work
   for bishops, or for men who later became bishops. Honoratus himself moved from monk to bishop
   between two of Cassian's own dedications. Archebius is carried west as Egypt's own counter-case.
   He himself, Cassian says, complained that he had been thrown out of the monastic life as unworthy
@@ -121,15 +122,17 @@ description: >-
   priestly office catches its own runaway, and the honour he had refused comes to him anyway. This
   is this world's own test for what makes it distinct: a seminary that looked like a monastery.
 
-  Every primary voice backs up this gravity, and Gennadius backs it up too, on his own. No builder
-  ever doubted it. It passes every test this project runs on a candidate gravity. It shows up in
+  Every primary voice backs up this gravity, and Gennadius backs it up too, on his own. Nothing
+  suggests this gravity reflects the builders' own emphasis rather than the sources. It passes
+  every test this project runs on a candidate gravity. It shows up in
   every voice in this world's own writings. Other findings rest on it directly, including who
   Cassian wrote his whole body of work for, this world's own time limit, and the marks that set this
   world apart from its neighbours. It forms men, in Sulpitius's own words, "after the example of the
   saintly master," and those men become bishops; Cassian writes formation books for a bishop's own
   "new monastery." It explains real facts no other gravity can explain. Why does the withdrawal stay
   close to home? Hilary calls it "a desert near the city." Why does the grace argument reach Rome?
-  Why does this world end with a change in rank, not a collapse? This gravity answers all three. It
+  Why does this world end with a change in institutional setting, not a collapse? This gravity
+  answers all three. It
   holds steady across both houses, every voice, and every kind of proof, and it links up with the
   other gravities in eight separate, proven pairs. This is the strongest link found anywhere between
   the two houses in this whole build. It is also the only link an inside Latin source in the south

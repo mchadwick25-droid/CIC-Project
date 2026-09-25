@@ -13,8 +13,9 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Chaeremon's own text (Conference XIII.16, read at its locus for this record) - the
-    world's own refusal, in the same breath as its refusal of a limited saving will, of the opposite
-    extreme: that everything rests on human free will.
+    world's own refusal, in the same chapter-sequence as its refusal of a limited saving will (Conf.
+    XIII.7, nine chapters earlier), of the opposite extreme: that everything rests on human free
+    will.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
   locus: "XIII.16 (npnf211 div iv.v.iv.xvi, file lines 38459-38465): the refusal of the opposite
@@ -23,7 +24,8 @@ sources:
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks why the south refused the idea that faith alone earns salvation"
+  - "participant asks why the south refused the idea that free will earns salvation by its own
+    desert"
   - "participant wants the Conference's own words refusing that grace is deserved"
   prefer_instead:
   - "participant wants the companion refusal of a limited saving will - retrieve gallic.quote.grievous-blasphemy-not-all-men-to-be-saved"
@@ -37,10 +39,10 @@ speaker_or_author: "Abbot Chaeremon, as Cassian records him (Conference XIII.16)
 license: verbatim
 modern_lens_note: >-
   Chaeremon has just given examples of faith bringing a large reward - he stops here to head off a
-  wrong conclusion. The examples are not proof that faith alone earns salvation. He names that
-  reading directly as a "profane notion," refusing it in the same breath he refuses the opposite
-  extreme (a limited saving will, Conf. XIII.7) - grace and effort are held together, neither
-  substituted for the other.
+  wrong conclusion. The examples are not proof that free will earns salvation by its own desert. He
+  names that reading directly as a "profane notion," refusing it in the same chapter-sequence he
+  refuses the opposite extreme (a limited saving will, Conf. XIII.7, nine chapters earlier) - grace
+  and effort are held together, neither substituted for the other.
 modern_rendering: >-
   But let no one imagine that we have given these examples to try to show that our faith has the
   chief share in our salvation. That would fit the profane notion of some people. They attribute

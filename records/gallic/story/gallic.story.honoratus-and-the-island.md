@@ -80,8 +80,8 @@ tellable_as: >-
   serpents give way, a camp of God rises where no one would live - and there "the priestly fillet
   fastens on its fugitive."
 text: >-
-  This is how the tradition of Lerins remembers its founder - as far as these lines can be read, in
-  the words of the disciple who succeeded him at Arles and preached his life at his death.
+  This is how the tradition of Lerins remembers its founder - as far as these lines can be read, as
+  the disciple who succeeded him at Arles and preached his life at his death told it.
 
   Hilary says Honoratus had left his homeland out of longing for the desert. Christ called him to a
   desert near this city - in eremum huic urbi propinquam. It was an island that stood empty because

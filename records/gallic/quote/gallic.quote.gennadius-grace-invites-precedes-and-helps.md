@@ -17,7 +17,7 @@ confidence:
     he does not quote it.
 sources:
 - source_id: gallic.source.gennadius-de-viris-illustribus
-  locus: "ch. LXXXV (npnf203 div v.iv.lxxxvii, file lines 43695-43699): Gennadius's own summary of
+  locus: "ch. LXXXVI (npnf203 div v.iv.lxxxvii, file lines 43695-43699): Gennadius's own summary of
     Faustus's book On the Grace of God"
   license: public-domain
 retrieval:
@@ -51,10 +51,10 @@ relations:
 ---
 Verified directly against cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml. `grep -n "in
 which he teaches that the"` matches two locations; the one needed is line 43696, inside `<div3
-type="Chapter" title="Faustus the bishop." ... id="v.iv.lxxxvii">` (printed heading "Chapter LXXXV,"
-one lower than the div id's own "lxxxvii" per this file's own numbering offset, matching this host's
-existing sources[] citation of ch. LXXXV) - confirmed by reading with `sed -n '43688,43701p'`, not
-the unrelated Corinthians letter at line 40076. The quoted span is one complete sentence, "He
+type="Chapter" title="Faustus the bishop." ... id="v.iv.lxxxvii">` (printed heading "Chapter
+LXXXVI," one lower than the div id's own "lxxxvii" per this file's own numbering offset) - confirmed
+by reading with `sed -n '43688,43701p'`, not the unrelated Corinthians letter at line 40076. The
+quoted span is one complete sentence, "He
 published also an excellent work..." through "...the gift of grace.", ending at its own period. The
 source's own mid-word page-break tag splitting "invites, pre|cedes" (pagination markup, `<pb
 n="400".../>`) is removed and the word rejoined as "precedes" - no letters added, dropped, or

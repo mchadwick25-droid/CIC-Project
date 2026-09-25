@@ -122,7 +122,7 @@ description: >-
   This pressure gave the south's grace teaching its outside occasion, and later its fame - a fame
   that owes something to how it was reported, not just to what it said. Under this pressure, the
   south pleaded Egypt even harder as the standard, now appealing to "all the Catholic fathers." The
-  rule of received tradition hardened into a formal decision by 434. On the editor's own reading, it
+  rule of received tradition hardened into a formal rule by 434. On the editor's own reading, it
   gave the south's own record a flavour of defiance toward the Apostolic See. It struck at the very
   top of the formation manual, not some side doctrine, so it pressed the whole southern program at
   once. And it set up a loop: the world's own tool for guarding against new ideas was now turned on
