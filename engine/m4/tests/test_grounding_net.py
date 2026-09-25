@@ -97,8 +97,8 @@ def test_coined_quote_in_curly_marks_is_withheld():
 
 
 def test_archaic_letterform_in_the_generated_quote_still_matches_a_modern_record():
-    """Mark's 2026-09-25 OCR/normalization ruling, exercised through the
-    real check_turn path, not just _normalize() in isolation: a generated
+    """Archaic letterform normalization, exercised through the real
+    check_turn path, not just _normalize() in isolation: a generated
     turn quoting with the archaic letterform itself still verifies
     against a record stored in modern spelling - the shared normalizer
     m9's own verbatim-in-shelf check uses (_span_in_records -> _normalize)
@@ -341,9 +341,8 @@ def test_check_turn_reports_no_truncation_on_an_ordinary_turn():
     assert result["truncated"] is False
 
 
-# The scaffold exemption used to cover a whole sentence the moment any
-# SCAFFOLD_MARKERS phrase appeared anywhere in it - real cases from a live
-# adversarial review.
+# The scaffold exemption applies to the marker's own clause, not to the
+# whole sentence a SCAFFOLD_MARKERS phrase happens to appear in.
 
 def test_a_chronological_claim_riding_a_scaffold_phrase_is_no_longer_exempt():
     """The exact defect: 'we cannot speak its own words' at the sentence's
@@ -383,10 +382,10 @@ def test_the_sanctioned_self_naming_line_still_exempts():
 
 
 def test_a_grounded_claim_beside_a_scaffold_phrase_still_passes_on_its_own_tag():
-    """Narrowing the exemption must not start withholding sentences that
-    were always properly grounded - a real tagged claim in its own clause,
-    beside a scaffold phrase, should clear the normal pipeline rather than
-    get caught by the fallout."""
+    """A properly grounded sentence must not be withheld just because it
+    also contains a scaffold phrase - a real tagged claim in its own
+    clause, beside a scaffold phrase, should clear the normal pipeline
+    on its own tag, independent of the exemption's own narrower scope."""
     text = (
         "We must be honest: the thanksgiving meal of bread and cup at the "
         "heart of the community's worship is what reached everyone [[fix.term.eucharistia]]."

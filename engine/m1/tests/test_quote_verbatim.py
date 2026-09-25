@@ -49,13 +49,25 @@ def test_case_difference_passes():
     assert "case" in r.classes_used
 
 
-# --- Mark's 2026-09-25 OCR/normalization ruling: archaic letterforms -----
+# --- archaic letterform normalization -------------------------------------
 
 
 def test_long_s_in_the_source_matches_a_modern_s_in_the_quote():
-    r = _verify("the quick brown fox", "ſome text, the quick brown fox jumpſ high")
+    r = _verify("the quick brown fox runs fast", "some text, the quick brown fox runſ faſt today")
     assert r.verified is True
     assert "long_s" in r.classes_used
+
+
+def test_long_s_outside_the_matched_span_is_not_credited():
+    """The over-crediting bug this pins: a long s ANYWHERE in the source
+    file used to be credited to classes_used even when the matched span
+    itself never needed the substitution. Here the source's own long s is
+    in "ſome", before the matched span starts - the match itself ("the
+    quick brown fox") is plain modern spelling on both sides, so nothing
+    was reconciled and long_s must not be reported."""
+    r = _verify("the quick brown fox", "ſome text, the quick brown fox jumps high")
+    assert r.verified is True
+    assert "long_s" not in r.classes_used
 
 
 def test_thorn_in_the_source_matches_modern_th_in_the_quote():
@@ -71,9 +83,9 @@ def test_eth_in_the_source_matches_modern_th_in_the_quote():
 
 
 def test_normalization_is_symmetric_thorn_in_the_quote_matches_th_in_the_source():
-    """Mark's ruling: applied to BOTH sides - a record transcribed with
-    the archaic letterform itself (not just a modern rendering of one)
-    still matches a source printed in plain modern "th"."""
+    """Applied to BOTH sides - a record transcribed with the archaic
+    letterform itself (not just a modern rendering of one) still matches
+    a source printed in plain modern "th"."""
     r = _verify("þe quick brown fox", "some text, the quick brown fox jumps high")
     assert r.verified is True
     assert "thorn" in r.classes_used
@@ -86,6 +98,16 @@ def test_uppercase_thorn_and_eth_are_covered_too():
     r2 = _verify("The quick brown fox", "some text, Ðe quick brown fox jumps high")
     assert r2.verified is True
     assert "eth" in r2.classes_used
+
+
+def test_thorn_on_both_sides_of_the_same_word_is_not_credited():
+    """Credit only where the two sides actually differ: if the record and
+    the source both spell the word with the archaic letterform itself,
+    nothing needed reconciling - the raw text already matches without
+    invoking the substitution, so thorn is not earned."""
+    r = _verify("þe quick brown fox", "some text, þe quick brown fox jumps high")
+    assert r.verified is True
+    assert "thorn" not in r.classes_used
 
 
 def test_yogh_is_never_normalized_by_the_global_rule():
@@ -217,8 +239,7 @@ def test_addition_outside_brackets_fails():
 
 
 def test_colon_read_as_dash_fails_not_a_punctuation_variant():
-    """The real defect this project already caught by hand (Melito quote,
-    2026-09): a colon and a dash are different marks, never equivalent."""
+    """A colon and a dash are different marks, never equivalent."""
     r = _verify("two natures—of his deity", "he gave us sure indications of his two natures: of his deity")
     assert r.verified is False
 
@@ -433,9 +454,9 @@ def test_basil_footnote_digit_apparatus_does_not_mask_a_real_word_difference():
 
 def test_basil_common_life_digit_fixed_but_record_still_fails_on_a_separate_ocr_misread():
     """The digit fix above clears one of this record's own three
-    disclosed divergences (its own body, 2026-09-02) - confirmed
-    directly: the first sentence alone now verifies against the real
-    vendored file. It does NOT flip the whole record to verified,
+    disclosed divergences (its own body) - confirmed directly: the
+    first sentence alone now verifies against the real vendored file.
+    It does NOT flip the whole record to verified,
     because two separate, already-disclosed issues remain in the rest of
     the same passage: a stray extraction-artifact quotation mark before
     "To begin" (not yet its own apparatus entry), and - the one that
@@ -662,8 +683,7 @@ def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
     assert strip_edition_apparatus(text, "some-edition-with-no-registry-entry.txt") == text
 
 
-# `kind: letterform` (Mark's OCR/normalization ruling, 2026-09-25) is
-# exercised the same way `endnote-sequence` is below: injected directly
+# `kind: letterform` is exercised the same way `endnote-sequence` is below: injected directly
 # into the cache, not through the real registry - this ships the
 # mechanism with a test fixture; the library thread populates real
 # per-edition mappings (e.g. Wyclif's own þ-as-`])` OCR rendering) later,
@@ -963,14 +983,11 @@ def test_gate_quote_verbatim_via_run_all_skips_residue_and_finds_nothing_fleet_w
 
 
 def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
-    """Mark's own instruction: confirm no existing quote in the fleet
-    changes verdict unexpectedly, report any that flip. Measured directly
-    (2026-09-25, git worktree diff: origin/main before this ruling vs.
-    this branch after it, every formation-world quote record's own
-    verify_quote_record().verified) - 339 quote records fleet-wide, 332
-    verified both before and after, zero pass->fail flips, zero
-    fail->pass flips to report. No real quote today carries a long s,
-    thorn, or eth at all. The 332/339 split is pinned here as a permanent
+    """Confirms letterform normalization changes no existing quote's
+    verdict unexpectedly: 339 quote records fleet-wide, 332 verified both
+    before and after this normalization was added, zero pass->fail flips,
+    zero fail->pass flips. No real quote today carries a long s, thorn,
+    or eth at all. The 332/339 split is pinned here as a permanent
     regression guard against a future change silently breaking a
     currently-verified quote."""
     from engine.m1.loader import load_fleet_records, load_world_records

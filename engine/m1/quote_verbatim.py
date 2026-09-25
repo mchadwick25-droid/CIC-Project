@@ -53,9 +53,9 @@ never required to "explain" what's missing, only to mark that something
 was.
 
 LETTERFORM NORMALIZATION IS THE ONE DELIBERATE EXCEPTION to "rather than
-normalizing the source text" above (Mark's OCR/normalization ruling,
-2026-09-25: deterministic normalization for systematic encodings, applied
-symmetrically to quote and source). A long s (ſ), thorn (þ/Þ), or eth
+normalizing the source text" above: deterministic normalization for
+systematic encodings, applied symmetrically to quote and source. A long
+s (ſ), thorn (þ/Þ), or eth
 (ð/Ð) cannot become a bracketed single-character class the way a curly
 vs. straight quote can - thorn and eth each stand for TWO characters
 ("th"), so matching them needs an actual substitution, not an
@@ -94,8 +94,8 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
     "bracket": "Text inside `[...]` in the record's text is a labeled editorial insertion - it is never required to appear in the source, bracketed or not.",
     "verse_number": "An inline Arabic verse or section number in the source edition, standing at a sentence boundary, may be absent from the quote's text - the words on either side must still match, in order. A bare 1-4 digit number followed by a period only; never a wider omission.",
     "apparatus": "A page/column locator the source edition itself inserts mid-sentence, in one of four closed, evidenced, FLEET-WIDE forms: a soft hyphen (U+00AD, always invisible, never real content); a tilde-wrapped digit run (`~1~`, this edition's own footnote-number convention); a pipe-plus-digits page marker (`|146`); or a bracketed locator - 3-4 bare digits with an optional trailing capital letter (`[964D]`, never 1-2 digits, which stays a record's own tolerated `[N]` section numbering instead), a `[p. NNN]` page reference, or an abbreviated `[Author. p. NNN, l. N.]` citation. A bare, unwrapped digit or symbol with no marker of its own is never covered fleet-wide (see the module docstring's fourth-round note) - only as a closed, per-EDITION list in `cic/texts/REGISTRY.yaml`'s own `apparatus` field, anchored to each edition's own real, evidenced breaks (fifth round), never a bare unanchored digit/letter class.",
-    "long_s": "A printer's long s (ſ) on one side stands for a plain s on the other - a systematic typesetting convention of the print itself, not a fidelity defect. Deterministic, applied to both the quote's own text and the source before comparing (Mark's ruling, 2026-09-25).",
-    "thorn": "The letter thorn (þ/Þ) on one side stands for \"th\" on the other - systematic, not a garbled OCR guess. Deterministic, applied to both the quote's own text and the source before comparing (Mark's ruling, 2026-09-25). A per-edition OCR misreading of thorn (e.g. rendered as `])`/`]?` in a specific scan) is NOT this class - that is a closed, per-edition `apparatus` mapping in `cic/texts/REGISTRY.yaml`, verified against the page image, never a global rule.",
+    "long_s": "A printer's long s (ſ) on one side stands for a plain s on the other - a systematic typesetting convention of the print itself, not a fidelity defect. Deterministic, applied to both the quote's own text and the source before comparing.",
+    "thorn": "The letter thorn (þ/Þ) on one side stands for \"th\" on the other - systematic, not a garbled OCR guess. Deterministic, applied to both the quote's own text and the source before comparing. A per-edition OCR misreading of thorn (e.g. rendered as `])`/`]?` in a specific scan) is NOT this class - that is a closed, per-edition `apparatus` mapping in `cic/texts/REGISTRY.yaml`, verified against the page image, never a global rule.",
     "eth": "The letter eth (ð/Ð) on one side stands for \"th\" on the other - the same systematic convention as thorn, and the same ruling. Deterministic, applied to both the quote's own text and the source before comparing.",
 }
 
@@ -271,8 +271,8 @@ _BRACKET_LOCATOR_RE = re.compile(
 )
 _NOTE_BLOCK_RE = re.compile(r"<note\b[^>]*>.*?</note>", re.IGNORECASE | re.DOTALL)
 _TAG_RE = re.compile(r"<[^>]+>")
-# Mark's ruling, 2026-09-25: deterministic normalization for systematic
-# encodings. Each maps a single archaic letterform to its modern spelling
+# Deterministic normalization for systematic encodings. Each maps a
+# single archaic letterform to its modern spelling
 # - long s is a 1-for-1 swap, thorn/eth each stand for the two characters
 # "th" (never expressible as a bracketed single-character class the way
 # quote/apostrophe/dash are above). See the module docstring's own
@@ -298,6 +298,34 @@ def normalize_archaic_letterforms(text: str) -> tuple[str, set[str]]:
     if n:
         used.add("eth")
     return text, used
+
+
+def _normalize_archaic_letterforms_with_offsets(text: str) -> tuple[str, list[int]]:
+    """Same substitution as normalize_archaic_letterforms, but also
+    returns offset_map: offset_map[i] is the index into the ORIGINAL
+    `text` that normalized position i traces back to. Long s is a
+    1-for-1 swap; thorn/eth each expand one raw character into the two
+    normalized characters "t"/"h", both of which map back to that same
+    raw index. Lets a caller recover which raw characters behind a
+    normalized-text MATCH actually needed the substitution, rather than
+    only knowing the substitution ran somewhere in the whole text."""
+    out_chars: list[str] = []
+    offset_map: list[int] = []
+    for i, c in enumerate(text):
+        if c == "ſ":
+            out_chars.append("s")
+            offset_map.append(i)
+        elif c in "þÞðÐ":
+            out_chars.append("t")
+            offset_map.append(i)
+            out_chars.append("h")
+            offset_map.append(i)
+        else:
+            out_chars.append(c)
+            offset_map.append(i)
+    return "".join(out_chars), offset_map
+
+
 # A cited path can be hard-wrapped mid-filename in a record's free-text
 # body (e.g. "cic/texts/anf01_apostolic-fathers-justin-\nirenaeus.xml" -
 # real, seen in pahc.quote.ignatius-truly-born) - whitespace is allowed
@@ -451,19 +479,33 @@ def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) 
     source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
     source_full = collapse_linewrap_hyphens(source_full)
     source_full = strip_apparatus(source_full)
-    source_full, source_letterform_classes = normalize_archaic_letterforms(source_full)
-    quote_text, quote_letterform_classes = normalize_archaic_letterforms(quote_text)
+    # Kept alongside the normalized text (never reassigned below) so a
+    # letterform class can be credited from the RAW span a match actually
+    # covers, not from wherever in the whole file the letterform happens
+    # to occur - see _normalize_archaic_letterforms_with_offsets's own
+    # docstring and the per-match crediting below.
+    source_raw_for_letterforms = source_full
+    source_full, source_offset_map = _normalize_archaic_letterforms_with_offsets(source_full)
+    quote_raw_for_letterforms = quote_text
+    quote_text, _ = normalize_archaic_letterforms(quote_text)
     raw_segments = [s for s in _ELLIPSIS_RE.split(quote_text) if s.strip()]
     if not raw_segments:
         return VerifyResult(verified=False, failed_segment=quote_text, nearest_context="(quote text is empty)")
+    # Ellipsis markers ("...", "…") are never themselves a letterform, so
+    # normalization never adds, removes, or reorders one - splitting the
+    # raw (pre-normalization) quote text on the same pattern yields
+    # segments in the same order as raw_segments above, each one that
+    # segment's own un-normalized form.
+    raw_segments_unnormalized = [s for s in _ELLIPSIS_RE.split(quote_raw_for_letterforms) if s.strip()]
 
-    classes_used: set[str] = source_letterform_classes | quote_letterform_classes
+    classes_used: set[str] = set()
     if len(raw_segments) > 1:
         classes_used.add("ellipsis")
 
     search_from = 0
-    for seg in raw_segments:
+    for seg, raw_seg in zip(raw_segments, raw_segments_unnormalized):
         seg = seg.strip()
+        raw_seg = raw_seg.strip()
         if _BRACKET_RE.search(seg):
             classes_used.add("bracket")
         pattern = _segment_pattern(seg)
@@ -475,6 +517,16 @@ def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) 
                 nearest_context=_nearest_context(seg, source_full),
             )
         classes_used |= _classify_match(seg, source_full, m.start())
+
+        # Letterform credit: only for THIS match's own raw span, and only
+        # where quote and source genuinely differ - if both sides already
+        # wrote the archaic letterform (or neither did), nothing needed
+        # reconciling and no class is earned.
+        raw_source_span = source_raw_for_letterforms[source_offset_map[m.start()]:source_offset_map[m.end() - 1] + 1]
+        _, source_span_classes = normalize_archaic_letterforms(raw_source_span)
+        _, quote_seg_classes = normalize_archaic_letterforms(raw_seg)
+        classes_used |= source_span_classes ^ quote_seg_classes
+
         search_from = m.end()
 
     return VerifyResult(verified=True, classes_used=classes_used)

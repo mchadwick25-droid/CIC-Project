@@ -172,9 +172,8 @@ def _quoted_spans(text: str) -> list[str]:
 
 
 def _normalize(text: str) -> str:
-    # Archaic letterforms first (Mark's OCR/normalization ruling,
-    # 2026-09-25 - same mapping engine.m1.quote_verbatim's own verbatim
-    # check applies): otherwise the [^a-z0-9\s] strip below silently
+    # Archaic letterforms first (the same mapping engine.m1.quote_verbatim's
+    # own verbatim check applies): otherwise the [^a-z0-9\s] strip below silently
     # deletes ſ/þ/ð rather than folding them to their modern spelling,
     # which is a real content loss, not a normalization ("þe" becoming
     # " e" instead of "the"). Applied to both the quoted span and the
