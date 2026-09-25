@@ -2806,8 +2806,10 @@
     the earlier, distinct 1840s "Wycliffe Society" (London: Blackburn and
     Pardon, 1845). Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
     tractstreatiseso00wycl. Fetched directly (curl, raw bytes). Not the same
-    society as the later Buddensieg/Matthew/Arnold editions also vendored
-    this session.
+    society as the later (1882-founded) Wyclif Society, to which only the
+    Buddensieg edition among this session's other vendored texts belongs;
+    the Arnold and Matthew editions predate the Wyclif Society's founding
+    and are not its editions either.
 - filename: wycliffite-bible_forshall-madden1850.txt
   supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
   date_added: '2026-09-25'
@@ -2844,14 +2846,15 @@
     of Q. Elizabeth, with the Bull of Pope Paul the Third against Henry
     VIII annexed, Thomas Barlow (London, 1681). Explicit NOT_IN_COPYRIGHT
     confirmed on archive.org item brutumfulmenorbu00barluoft. Prints Pius
-    V's bull Regnans in Excelsis (1570) and Paul III's bull against Henry
-    VIII in English and Latin, embedded in a hostile Anglican polemic.
+    V's bull Regnans in Excelsis (1570) in English and Latin parallel
+    columns, and Paul III's bull against Henry VIII in Latin only,
+    embedded in a hostile Anglican polemic.
 - filename: kempis_imitation-of-christ_benham1886.txt
   supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for devotio-moderna-brethren-of-the-common-life)
   date_added: '2026-09-25'
   notes: >-
     The Imitation of Christ: Four Books, trans. William Benham (London:
-    Cassell & Company, 1886). Explicit NOT_IN_COPYRIGHT confirmed on
+    John C. Nimmo, 1886). Explicit NOT_IN_COPYRIGHT confirmed on
     archive.org item imitationofchris00benhrich. Fetched directly (curl,
     raw bytes). The most copied Christian book after the Bible.
 - filename: kempis_founders-of-the-new-devotion_arthur1905.txt
@@ -2890,98 +2893,6 @@
     archive.org item deecclesiachurc00hussgoog. Fetched directly (curl,
     raw bytes). Hus's central ecclesiological treatise, condemned at
     Constance.
-- filename: wyclif_select-english-works-v1_arnold1869.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    Select English Works of John Wyclif, Vol. I (Sermons on the Gospels for
-    Sundays and Festivals), ed. Thomas Arnold (Oxford: Clarendon Press, 1869).
-    Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
-    selectenglishwor01wycl. Fetched directly (curl, raw bytes).
-- filename: wyclif_select-english-works-v2_arnold1871.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    Select English Works of John Wyclif, Vol. II (Gospel Sermons), ed.
-    Thomas Arnold (Oxford: Clarendon Press, 1871). Public domain by date.
-    Fetched directly (curl, raw bytes) from archive.org item
-    afb3713.0002.001.umich.edu (University of Michigan Corpus of Middle
-    English Prose and Verse digitization).
-- filename: wyclif_select-english-works-v3_arnold1871.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    Select English Works of John Wyclif, Vol. III (Miscellaneous Works), ed.
-    Thomas Arnold (Oxford: Clarendon Press, 1871). Public domain by date.
-    Fetched directly (curl, raw bytes) from archive.org item
-    afb3713.0003.001.umich.edu (University of Michigan Corpus of Middle
-    English Prose and Verse digitization). This is the lead the census's
-    own dossier originally named; volumes I and II were located separately
-    this session to complete the set.
-- filename: wyclif_english-works-hitherto-unprinted_matthew1880.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    The English Works of Wyclif Hitherto Unprinted (EETS O.S. 74), ed. F. D.
-    Matthew (London: EETS/Trubner, 1880). Public domain by date. Fetched
-    directly (curl, raw bytes) from archive.org item englishworksofwy00wycl.
-- filename: wyclif_polemical-works-lat-v2_buddensieg1883.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society), ed.
-    Rudolf Buddensieg (London: Trubner for the Wyclif Society, 1883).
-    Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
-    johnwiclifspolem02wycluoft. Latin text. Fetched directly (curl, raw
-    bytes).
-- filename: wyclif_tracts-and-treatises_vaughan1845.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    Tracts and Treatises of John de Wycliffe, ed./trans. Robert Vaughan for
-    the earlier, distinct 1840s "Wycliffe Society" (London: Blackburn and
-    Pardon, 1845). Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
-    tractstreatiseso00wycl. Fetched directly (curl, raw bytes). Not the same
-    society as the later Buddensieg/Matthew/Arnold editions also vendored
-    this session.
-- filename: wycliffite-bible_forshall-madden1850.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for lollardy)
-  date_added: '2026-09-25'
-  notes: >-
-    The Wycliffite Bible, complete edition, ed. Josiah Forshall & Sir
-    Frederic Madden (Oxford: OUP, 1850). Digital Bible Society's own item
-    note states it is unaware of any copyright restrictions. Fetched
-    directly (curl, raw bytes) from archive.org item ENGW850_DBS_HS. A very
-    large file - complete Bible with Forshall & Madden's scholarly apparatus.
-- filename: council-of-trent_roman-catechism_mchugh-callan1923.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-tridentine-church)
-  date_added: '2026-09-25'
-  notes: >-
-    Catechism of the Council of Trent for Parish Priests, Issued by Order
-    of Pope Pius V, trans. John A. McHugh, O.P. & Charles J. Callan, O.P.
-    (New York: Joseph F. Wagner, 1923). Public domain by date (rolling
-    95-year term). Fetched directly (curl, raw bytes) from archive.org
-    item catechismofcounc0000pope.
-- filename: sarpi_history-of-the-council-of-trent_brent1676.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-tridentine-church)
-  date_added: '2026-09-25'
-  notes: >-
-    The History of the Council of Trent, Paolo Sarpi, English translation
-    attrib. Sir Nathanael Brent (London, 1676). Public domain by date.
-    Fetched directly (curl, raw bytes) from archive.org item
-    bim_early-english-books-1641-1700_the-history-of-the-counc_sarpi-paolo_1676.
-    A contemporary but hostile/critical Venetian account, not the
-    Council's own acta.
-- filename: barlow_brutum-fulmen_1681.txt
-  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-tridentine-church)
-  date_added: '2026-09-25'
-  notes: >-
-    Brutum Fulmen: or, The Bull of Pope Pius V Concerning the Damnation
-    of Q. Elizabeth, with the Bull of Pope Paul the Third against Henry
-    VIII annexed, Thomas Barlow (London, 1681). Explicit NOT_IN_COPYRIGHT
-    confirmed on archive.org item brutumfulmenorbu00barluoft. Prints Pius
-    V's bull Regnans in Excelsis (1570) and Paul III's bull against Henry
-    VIII in English and Latin, embedded in a hostile Anglican polemic.
 - filename: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
@@ -3177,23 +3088,32 @@
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
-    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Vol. II (MHSI, 1906).
+    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus Primus,
+    covering 1536-1565 (MHSI, 1906) - the file's own title page reads
+    "TOMUS PRIMUS 1536-1565", not "Vol. II" as the filename and
+    archive.org item title (epistolaepalpho02salmgoog) suggest.
     Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
     epistolaepalpho02salmgoog. Latin.
 - filename: salmeron_epistolae-v3-lat_1906.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
-    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Vol. III (MHSI, 1906).
-    Latin. pd-us-by-date.
+    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus Secundus,
+    covering 1565-1585 (MHSI, printed 1907) - the file's own title page reads
+    "TOMUS SECUNDUS 1565-1585", not "Vol. III" as the filename suggests.
+    Together with the Tomus Primus volume, spans Salmeron's own letters
+    1536-1585 in full. Latin. pd-us-by-date.
 - filename: polanco_chronicon-v1-lat_1894.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
     Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's
-    Chronicon), Vol. I (MHSI, 1894). Explicit NOT_IN_COPYRIGHT confirmed on
-    archive.org item vitaignatiiloio01polagoog. Ignatius's own secretary's
-    historical chronicle.
+    Chronicon), Tomus V, covering the year 1555 (MHSI, printed 1897) -
+    not "Vol. I" as the filename and archive.org item title suggest; the
+    body text itself opens "TOMUS QUINTUS (1555)". Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item
+    vitaignatiiloio01polagoog. Ignatius's own secretary's historical
+    chronicle, this volume covering only 1555.
 - filename: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
@@ -3245,9 +3165,16 @@
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
-    The Notes of the Church (De Notis Ecclesiae), Robert Bellarmine (1688). pd-
-    us-by-date. Bellarmine's own direct English-language answer to Protestant
-    claims about the marks of the true Church.
+    Not Bellarmine's own work. A 1687-88 Church of England tract series
+    examining and refuting each of Bellarmine's own "Notes of the Church"
+    (De Notis Ecclesiae) in turn - confirmed directly against the file:
+    each section is headed "The [Nth] Note of the Church EXAMINED,"
+    quotes Bellarmine's own Latin as the claim under examination (e.g.
+    "Secunda Nota est Antiquitas. Bellar. L.iv, c.v, de Notis Ecclesiae"),
+    carries Anglican imprimaturs ("IMPRIMATUR... Battely," dated 1687-89),
+    and speaks in the first person as "we Protestants." Printed in London
+    for Richard Chiswell, 1687-88. pd-us-by-date. Opponent voice, not this
+    world's own tradition.
 - filename: pius-v_apostolicarum-epistolarum-lat_1640.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
@@ -3309,3 +3236,21 @@
     Archive identifier BSG_8A817_2INV992RES_P1 (Bibliotheque
     Sainte-Genevieve copy), host-marked "Domaine public"; 1562 publication
     clears pd-us-by-date outright.
+- filename: romanos-melodist_cantica-grc_pitra1888.txt
+  supplied_by: >-
+    Claude (tech-readiness build thread: re-vendored from a stale, unmerged
+    PR's own already-located and rights-verified acquisition, source and
+    rights independently re-confirmed against archive.org directly before
+    vendoring)
+  date_added: '2026-09-25'
+  notes: >-
+    J.-B. Pitra's edition (Rome: Propaganda Fide, 1888). Internet Archive
+    identifier sanctusromanusve00roma; 1888 publication clears pd-us-by-date
+    outright. This scan's OCR could not read the Greek script at all - checked
+    directly, zero Greek-script Unicode characters anywhere in the file, every
+    line that should be Greek renders as Latin-letter garbage. Romanos's own
+    kontakia (printed in Greek) are not recoverable here and this file offers
+    no cross-check of them. What is genuinely readable is Pitra's own Latin
+    prefatory matter and critical apparatus - real content, but scholarly
+    apparatus about Romanos, not his own voice. LATIN APPARATUS ONLY, no
+    English; never citable as a Representative's evidence.

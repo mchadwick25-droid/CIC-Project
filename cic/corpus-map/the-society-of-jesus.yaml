@@ -35,15 +35,13 @@ works:
   author: council-of-trent
   locus: whole text
   role: context
-  confidence: provisional
+  confidence: assigned
   note: 'Trent''s own official canons and decrees, trans. Rev. J. Waterworth (preface 1848).
     Vendored 2026-09-24 as part of a pre-Doc_02 source-acquisition pass for the-society-of-jesus,
     this world''s own doctrinal anchor implemented by the Jesuits as one of Trent''s most
     vigorous executors - role context here, not tradition, since this is not the Society''s
-    own composed voice. Double-placed to the-tridentine-church (VI.22, a sibling Era VII candidate
-    with no build thread open yet), where this same text would be native/ foundational rather
-    than implementing - flagged as provisional pending whichever Doc_02 reaches this material
-    first to confirm the role split.
+    own composed voice. Double-placed to the-tridentine-church (VI.22), where the same text
+    is role tradition instead: that world''s own defining conciliar voice.
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
@@ -194,14 +192,17 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
-- work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Vol.
-    I
+- work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Tomus
+    V (covering the year 1555)
   author: polanco
-  locus: whole volume
+  locus: whole volume - Tomus V only, covering 1555; not Vol. I as the filename and archive.org
+    item title suggest
   role: context
   confidence: assigned
-  note: 'Ignatius''s own secretary''s historical chronicle. Vendored 2026-09-25 as part of
-    a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+  note: 'Ignatius''s own secretary''s historical chronicle. This volume opens "TOMUS QUINTUS
+    (1555)" in its own body text - it covers only 1555, not the order''s founding period a
+    "Vol. I" label would suggest. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+    source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text can be primary evidence directly, verified against the vendored file,
     since it is primary to the movement regardless of language; the scan is clean, not flagged
     under Mark''s OCR ruling "a."
@@ -223,30 +224,33 @@ works:
 
     '
   source_file: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
-- work: Epistolae P. Alphonsi Salmeronis, Vol. II
+- work: Epistolae P. Alphonsi Salmeronis, Tomus Primus (1536-1565)
   author: salmeron
-  locus: whole volume
+  locus: whole volume - Tomus Primus, covering 1536-1565; not Vol. II as the filename and
+    archive.org item title suggest
   role: tradition
   confidence: assigned
-  note: 'Salmeron''s own letters, previously wholly unassessed for this world. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
-    directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+  note: 'Salmeron''s own letters, previously wholly unassessed for this world. The file''s
+    own title page reads "TOMUS PRIMUS 1536-1565". Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
 
     '
   source_file: salmeron_epistolae-v2-lat_1906.txt
-- work: Epistolae P. Alphonsi Salmeronis, Vol. III
+- work: Epistolae P. Alphonsi Salmeronis, Tomus Secundus (1565-1585)
   author: salmeron
-  locus: whole volume
+  locus: whole volume - Tomus Secundus, covering 1565-1585; not Vol. III as the filename suggests
   role: tradition
   confidence: assigned
-  note: 'Salmeron''s own letters, continuing Vol. II (vendored alongside this file). Vendored
-    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
-    primary evidence directly, verified against the vendored file, since it is primary to
-    the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
-    ruling "a."
+  note: 'Salmeron''s own letters, continuing the Tomus Primus volume (vendored alongside this
+    file) - together spanning 1536-1585 in full. The file''s own title page reads "TOMUS SECUNDUS
+    1565-1585". Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
+    Latin text can be primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged under
+    Mark''s OCR ruling "a."
 
     '
   source_file: salmeron_epistolae-v3-lat_1906.txt
