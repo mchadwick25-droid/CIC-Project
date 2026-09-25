@@ -17,6 +17,8 @@ sources:
   locus: "the settlement that begins the canonizing process"
 - source_id: cappadocian.source.fedwick-bibliotheca-basiliana-universalis
   locus: "the accretion of works and attributions under the canonized name"
+- source_id: cappadocian.source.gregory-nyssa-on-the-making-of-man
+  locus: "dedicatory preface to Peter"
 relations:
 - type: enabled-by
   target: cappadocian.force.theodosian-settlement
@@ -31,15 +33,14 @@ description: >-
   ordered burned in 398, just past the world's edge; the Pneumatomachian and radical-ascetic corpora
   effectively vanish; Eustathius survives as his former friend's wound). Macrina is fixed permanently in her
   brother's literary frame. The Basil-attributed liturgy and later Rules recensions accrete under the
-  canonized name, attribution layers Contested (Doc_08 Cell 3B, Force 3B-2, the transmission dimension
-  required in this cell per the Forces Framework). WORLD'S OWN EXPERIENCE (Layer 2): largely not
-  recoverable as the world's own experience - the world did not know which of its words would live. Where
-  it spoke of the matter, it spoke as inheritance-consciousness: the brother finishing the books "so that
-  the work should not be left orphaned." Reported-Experience Status applied; the rest is Layer-1 pattern.
-  FORMATION IMPACT (Layer 3): determines the reconstruction's entire shape: the world reaches us as three
-  canonized voices plus their opponents-in-quotation plus one woman-in-a-frame; the ordinary, the radical,
-  the defeated, and the non-Greek are outside the sieve. Every claim in this build about "the world" stands
-  under that sentence.
+  canonized name, and the attribution layers this leaves behind are still contested. Little of this
+  survives as the world's own experience, since the world itself did not know which of its words would
+  live. Where it does survive, it survives as a sense of inheritance - Gregory of Nyssa supplying what his
+  brother's Hexaemeron had left out, so that the teacher's glory would not seem to fail among his disciples.
+  This selection shapes the whole reconstruction: the world reaches us as three canonized voices, their
+  opponents preserved only in quotation, and one woman
+  held inside her brother's own literary frame. The ordinary, the radical, the defeated, and the non-Greek
+  fall outside the sieve.
 manifestations:
 - the three authors becoming curriculum, liturgy, and law - "the Great," "the Theologian" as fixed titles
 - Eunomius' books ordered burned by imperial edict in 398, just past this world's own edge
@@ -47,10 +48,9 @@ manifestations:
 - Macrina fixed permanently in her brother's own literary frame
 - the Basil-attributed liturgy and later Rules recensions accreting under the canonized name, attribution layers Contested
 ---
-Re-derived from the cleared Doc_08 (Cell 3B, Force 3B-2). Cross-cell connection (Section 4): "3A-1 -> 3B-2:
-victory selected the survivors - canonization is the settlement's transmission-face, and the 398
-book-burning is its far edge." Carried here as enabled-by cappadocian.force.theodosian-settlement (3A-1),
-reciprocal precondition-for declared on that record. Gravity linkage (Doc_08 §2a, §5): feeds Primary
-1/Gravity 1 only - carried as associated-with, this being an ending-cell force whose selection effect
-determines what reaches the reconstruction rather than founding the gravity itself. Canon_cells left empty,
-matching this world's gravity/force records generally.
+Canonization and the 398 book-burning are two faces of one settlement: the Theodosian victory selected
+which voices would survive, and canonization is that selection's transmission side. Carried here as
+enabled-by cappadocian.force.theodosian-settlement, with the reciprocal precondition-for relation declared
+on that record. This ending-cell force feeds the triune-confession gravity only, through its selection
+effect on what reaches the reconstruction, rather than founding the gravity itself - carried as
+associated-with. Canon_cells left empty, matching this world's gravity/force records generally.

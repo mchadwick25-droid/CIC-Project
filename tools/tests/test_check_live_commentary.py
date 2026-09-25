@@ -1225,9 +1225,9 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 120, "KEEP"),
-    # Refreshed 2026-09-25 (Decision 4 round 2): main's own sentence_enforce
-    # PR shifted this file's lines by +7 above this point; re-pinned to the
-    # same r27_regenerated assertion, now at 1131.
+    # Refreshed 2026-09-25: main's own sentence_enforce PR shifted this
+    # file's lines by +7 above this point; re-pinned to the same
+    # r27_regenerated assertion, now at 1131.
     ("engine/m4/tests/test_turn.py", 1131, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
