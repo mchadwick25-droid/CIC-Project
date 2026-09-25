@@ -181,35 +181,55 @@ SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
     "confidence-predicate": re.compile(
         r"\bis\s+(Documented|Widely Accepted|Dominant Modern Reconstruction|Contested|Inferential-Thin)\b"
     ),
-    # Widened 2026-09-25 (Mark's ruling, same date - see the owning
-    # Decision-Log) after every re-voicing/rendering PR so far had only
-    # Opus's own per-PR read catching this: Doc_04's own six-test
-    # vocabulary (Repetition/Dependency/Formation/Explanatory Power/
-    # Persistence/Interaction), PASS/FAIL grading, and "Cross-Check" -
-    # used as a label, a grade, or a named member of the test battery,
-    # never as ordinary English. Confirmed live in un-re-voiced gravity/
-    # force descriptions: records/don/gravity/
+    # Doc_04's own six-test vocabulary (Repetition/Dependency/Formation/
+    # Explanatory Power/Persistence/Interaction), PASS/FAIL grading, and
+    # "Cross-Check" - used as a label, a grade, or a named member of the
+    # test battery, never as ordinary English. Confirmed live in
+    # un-re-voiced gravity/force descriptions: records/don/gravity/
     # don.gravity.rebaptism-boundary-marking.md ("Repetition: Doc_02
     # SS1..."; "Repetition PASS...Persistence PASS...Interaction PASS"),
     # records/desert/gravity/desert.gravity.koinonia.md ("on every test -
     # repetition, dependency, formation, explanatory power - but fails the
     # Persistence test outright"), records/cappadocian/gravity/
     # cappadocian.gravity.athens-fishermen.md ("SIX-TEST SUMMARY (Doc_04
-    # SS3.1): strong on Repetition..."). Each sub-pattern anchors to a
-    # label shape (an immediate colon, "test(s)", PASS/FAIL, or the
-    # literal SIX-TEST/6-of-6 marker) specifically so an ordinary sentence
-    # using "formation" or "persistence" as plain English - e.g. pahc's
-    # own formation_logic field, "Formation here never resolves into..." -
-    # never trips it: no colon, no "test", no PASS/FAIL follows.
+    # SS3.1): strong on Repetition...").
+    #
+    # Case-sensitive on the test name itself (Title-case or ALL-CAPS -
+    # the two forms every real example above actually uses; plain
+    # lowercase "formation"/"persistence" as ordinary English never
+    # matches) and anchored to a label-position shape (an immediate
+    # colon, a singular "test" noun right after the name, PASS/FAIL, a
+    # grading adverb immediately before the name, a relational "is
+    # with", or the literal SIX-TEST/6-of-6/all-six marker) rather than
+    # a bare word match - a case-insensitive "name + tests?" rule was
+    # tried first and dropped after it fired on ordinary sentences using
+    # these words as plain English: "Formation tests the soul" (tests as
+    # an ordinary verb, not a label - the singular/plural split below
+    # excludes it: "Formation tests" (plural verb) never matches, but
+    # "the Persistence test" (singular noun following the name) does),
+    # and pahc's own formation_logic field, "Formation here never
+    # resolves into..." (capitalised only because it is sentence-
+    # initial, and matches none of the anchors below on its own).
     "six-test-vocabulary": re.compile(
-        r"\b(Repetition|Dependency|Formation|Explanatory\s+[Pp]ower|Persistence|Interaction)\s*:|"
-        r"\b(Repetition|Dependency|Formation|Explanatory\s+[Pp]ower|Persistence|Interaction)\s+"
-        r"tests?\b|"
-        r"\b(Repetition|Dependency|Formation|Explanatory\s+[Pp]ower|Persistence|Interaction)\s+"
-        r"(PASS|FAIL)\b|"
-        r"\bSIX-TEST\b|\bsix-test\b|\b[0-6]/6\s+tests?\b|\bAUTHOR-GRAVITY[\s-]RISK\b|"
-        r"\bAuthor-Gravity[\s-](encumbered|risk)\b",
-        re.IGNORECASE,
+        r"\b(Repetition|REPETITION|Dependency|DEPENDENCY|Formation|FORMATION|"
+        r"Explanatory(?:\s+[Pp]ower)?|EXPLANATORY(?:\s+POWER)?|Persistence|PERSISTENCE|"
+        r"Interaction|INTERACTION)\s*:|"
+        r"\b(Repetition|REPETITION|Dependency|DEPENDENCY|Formation|FORMATION|"
+        r"Explanatory(?:\s+[Pp]ower)?|EXPLANATORY(?:\s+POWER)?|Persistence|PERSISTENCE|"
+        r"Interaction|INTERACTION)\s+test\b|"
+        r"\b(Repetition|REPETITION|Dependency|DEPENDENCY|Formation|FORMATION|"
+        r"Explanatory(?:\s+[Pp]ower)?|EXPLANATORY(?:\s+POWER)?|Persistence|PERSISTENCE|"
+        r"Interaction|INTERACTION)\s*[-–]?\s*(PASS|FAIL)\b|"
+        r"\b(Repetition|REPETITION|Dependency|DEPENDENCY|Formation|FORMATION|"
+        r"Explanatory(?:\s+[Pp]ower)?|EXPLANATORY(?:\s+POWER)?|Persistence|PERSISTENCE|"
+        r"Interaction|INTERACTION)\s+is\s+with\b|"
+        r"(?i:\b(strong|moderate|weak|indirect|strong-moderate|moderate-strong)(\s+(on|for))?\s+)"
+        r"(Repetition|REPETITION|Dependency|DEPENDENCY|Formation|FORMATION|"
+        r"Explanatory(?:\s+[Pp]ower)?|EXPLANATORY(?:\s+POWER)?|Persistence|PERSISTENCE|"
+        r"Interaction|INTERACTION)\b|"
+        r"(?i:\ball six tests\b|\bsix of six\b)|\b[0-6]/6\s+tests?\b|"
+        r"\bSIX-TEST\b|\bsix-test\b|\bAUTHOR-GRAVITY[\s-]RISK\b|"
+        r"\bAuthor-Gravity[\s-](encumbered|risk)\b"
     ),
     "cross-check-label": re.compile(r"\bCross-Check\b"),
     # Doc_04's own three-way gravity class (Primary/Supporting/Tensional)
@@ -226,13 +246,19 @@ SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
     # within the context Primary gravities establish"),
     # don.contested_claim.parallel-hierarchy.md ("Dependency revealing
     # Supporting rather than Primary status").
+    # "(gravity 3)" - a bare parenthetical cross-reference to another
+    # gravity by its own generation-order number, Doc_04's own indexing
+    # convention (distinct from the Primary/Supporting/Tensional class
+    # itself). Confirmed live: desert.gravity.koinonia.md ("against the
+    # elder-mediated model (gravity 3)").
     "gravity-classification-label": re.compile(
         r"\b(Confirmed|[Rr]eclassified|[Cc]lassified(?:\s+as)?)\s+"
         r"(PRIMARY|Primary|SUPPORTING|Supporting|TENSIONAL|Tensional)\b|"
         r"\b(PRIMARY|SUPPORTING|TENSIONAL)\b|"
         r"\b(Primary|Supporting|Tensional)\s+(rather than|status|gravit(y|ies)|classification)\b|"
         r"\brather than\s+(Primary|Supporting|Tensional)\b|"
-        r"\bTier\s+\d\b"
+        r"\bTier\s+\d\b|"
+        r"\(gravity\s+\d+\)"
     ),
     # All-caps section headers copied straight out of a construction
     # document's own layout - Doc_08's LAYER 1/2/3 dimensions and its own
@@ -259,12 +285,16 @@ SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
     ),
     # Doc_08's own six-cell matrix notation - a bracketed cell code, or
     # "Cell"/"Force" immediately followed by the matrix's own <row-digit>
-    # <column-letter> shape. Confirmed live: don.force.sustained-purity-
+    # <column-letter> shape - plus a world's own source-strand/candidate-
+    # pool letter ("Strand A", "Strand A-B"), the same kind of internal
+    # indexing label. Confirmed live: don.force.sustained-purity-
     # rebaptism-practice.md ("Doc_08 Cell 2B, Force 2B-1"),
     # don.force.caecilianist-victory-selects-survivors.md ("Doc_08 Cell
-    # 3B, Force 3B-2").
+    # 3B, Force 3B-2"), desert.gravity.koinonia.md ("no equivalent exists
+    # in Strand A or C").
     "matrix-cell-code": re.compile(
-        r"\bCell\s+\d[A-Z]\b|\bForce\s+\d[A-Z]-\d\b|\[\d[A-Z]\s*-\s*[a-z][a-z/]*\]"
+        r"\bCell\s+\d[A-Z]\b|\bForce\s+\d[A-Z]-\d\b|\[\d[A-Z]\s*-\s*[a-z][a-z/]*\]|"
+        r"\bStrand\s+[A-Z](-[A-Z])?\b"
     ),
     # Review/build-history narration inside a spoken field specifically -
     # a leak this project's fleet-voice bar (CLAUDE.md: no AI tells, no
@@ -272,9 +302,17 @@ SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
     # named here because none of the patterns above catch it. "Round N" is
     # already caught project-wide by PATTERNS["review-round"] above (any
     # surface, not just spoken fields) and is not re-declared here.
+    # "an earlier version"/"draft"/"assessment" is anchored to a
+    # self-referential noun ("of this/the record/field/description/
+    # assessment/text") specifically so it does not fire on ordinary
+    # textual-tradition prose about a HISTORICAL text's own earlier
+    # version - "an earlier version of the story says the well was dry"
+    # is real source-critical content, not build narration, and stays
+    # unmatched (no "of this"/"of the" + record-ish noun follows it).
     "build-history-language": re.compile(
         r"\bFinding\s+S\d+\b|"
-        r"\ban earlier (version|draft|assessment)\b|"
+        r"\ban earlier (version|draft|assessment) of (this|the) "
+        r"(record|field|description|text|assessment)\b|"
         r"\bthis (build|record)'?s? own (earlier|prior|original)\b|"
         r"\boriginal assessment\b|"
         r"\bDoc_0\d\s+later\b",

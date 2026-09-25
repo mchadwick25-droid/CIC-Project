@@ -20,7 +20,7 @@ retrieval:
   do_not_retrieve_when: []
 narrative_tier: 2
 narrative_tier_justification: "Named in the primary fixture source with enough concrete detail to tell, though not central to it (tier 1 would be a source-anchoring story; this is a supporting one)."
-tellable_as: "A family in Testland loses its name at the market. Their youngest son is seen at the Sunday meeting. The family stays close anyway."
+tellable_as: "A family in Testland loses standing at the market after the youngest son is seen at church. They stay together anyway."
 text: >
   When the youngest of that house was seen going to the gathering on the first
   day, the market stalls that had traded with them for years began to trade

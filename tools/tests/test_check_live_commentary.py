@@ -583,6 +583,100 @@ def test_build_history_language_rewrites(tmp_path):
     assert "build-history-language" in hits[0].patterns
 
 
+# --- Recall additions (2026-09-25, review round 2) ----------------------
+
+def test_six_of_six_and_all_six_tests_rewrite(tmp_path):
+    for body in ("Six of six PASS (strong to very strong), the clergy dying in office.",
+                 "Strong on all six tests, this candidate clears the bar easily."):
+        text = _gravity_record("Example", body)
+        hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+        assert "six-test-vocabulary" in hits[0].patterns, body
+
+
+def test_grading_adjective_before_name_without_on_rewrites(tmp_path):
+    # Real shape reported in review: an adjective directly before the test
+    # name, no "on"/"for" between them.
+    text = _gravity_record("Example", "the link is moderate Dependency; indirect Formation is also present.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+
+
+def test_is_with_relational_phrase_rewrites(tmp_path):
+    text = _gravity_record("Example", "its Interaction is with the household-catechism gravity, reinforcing it.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+
+
+def test_all_caps_test_name_with_dash_pass_rewrites(tmp_path):
+    # Real shape from don.gravity.church-of-the-martyrs.md: "REPETITION -
+    # PASS (very strong): ...".
+    text = _gravity_record("Example", "REPETITION - PASS (very strong): the sources name it directly.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+
+
+def test_explanatory_alone_without_power_rewrites(tmp_path):
+    # Real shape from cappadocian.gravity.martyrs-land.md: "Explanatory"
+    # used bare, the "Power" half dropped.
+    text = _gravity_record("Example", "strong on Repetition; MODERATE on Dependency and Explanatory.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+
+
+def test_parenthetical_gravity_number_rewrites(tmp_path):
+    # Real shape from desert.gravity.koinonia.md: "(gravity 3)".
+    text = _gravity_record(
+        "Example", "Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3)."
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "gravity-classification-label" in hits[0].patterns
+
+
+def test_strand_label_rewrites(tmp_path):
+    # Real shape from desert.gravity.koinonia.md / pahc's own force
+    # descriptions: "Strand A", "Strand A-B" as a source-pool label.
+    text = _gravity_record("Example", "no equivalent exists in Strand A or C, though Strand A-B shows overlap.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "matrix-cell-code" in hits[0].patterns
+
+
+# --- Precision fixes (2026-09-25, review round 2) ------------------------
+
+def test_formation_tests_the_soul_ordinary_verb_not_flagged(tmp_path):
+    # Real false positive named in review: "tests" as an ordinary plural
+    # verb (Formation is the subject), not the singular noun "test"
+    # following a label.
+    text = _gravity_record("Example", "Formation tests the soul and shapes the will over a lifetime.")
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert hits == []
+
+
+def test_lowercase_interaction_test_not_flagged(tmp_path):
+    # Real false positive named in review: an unrelated, lowercase
+    # "interaction test" (e.g. a statistics term), not a capitalised
+    # Doc_04 label.
+    text = _gravity_record("Example", "A statistician ran the interaction test on the dataset twice.")
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert hits == []
+
+
+def test_earlier_version_of_a_historical_text_not_flagged(tmp_path):
+    # Real false positive named in review: source-critical talk about a
+    # historical text's own earlier version is legitimate emic content,
+    # not build-history narration about this record.
+    text = _gravity_record("Example", "An earlier version of the story says the well ran dry that summer.")
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert hits == []
+
+
+def test_earlier_version_of_this_record_still_rewrites(tmp_path):
+    # The narrowed pattern must still catch the genuine build-history
+    # shape it was written for: self-reference to THIS record/field.
+    text = _gravity_record("Example", "An earlier version of this record scored FK grade 14, since fixed.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "build-history-language" in hits[0].patterns
+
+
 # --- True negatives: ordinary English on the same vocabulary -----------
 
 def test_ordinary_formation_usage_not_flagged(tmp_path):
@@ -651,12 +745,17 @@ def test_real_fleet_true_positives_still_match_on_main():
     assert _new_pattern_hits("records/don/force/don.force.sustained-purity-rebaptism-practice.md")
 
 
-def test_real_clean_field_on_main_not_flagged():
-    # pahc.core.house-church.md's own `cautions` field (numbered editorial
-    # labels, not build-template headers) stays clean under the widened
-    # patterns.
+def test_real_editorial_numbered_labels_not_flagged_as_headers():
+    # pahc.core.house-church.md's own `cautions` field numbers its points
+    # with invented editorial labels ("1) THE IGNATIUS CONCENTRATION
+    # governs...", "3) DATING HUMILITY: ...") - never a copied
+    # build-template header, so all-caps-section-header must stay clean
+    # on it specifically (the same field is legitimately flagged by
+    # matrix-cell-code, on this world's own real "Strand A" usage
+    # elsewhere in the same field - a different, correct finding, not
+    # this test's concern).
     hits = _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
-    assert hits == []
+    assert not any("all-caps-section-header" in h.patterns for h in hits)
 
 
 # ---------------------------------------------------------------------------
@@ -734,16 +833,23 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
     ("worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
-    ("engine/m9/enforce.py", 111, "KEEP"),
+    # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
+    # findings applied): line 109 shifted to 120 once the eleven
+    # m1:readability waivers were added above it in the file.
+    ("engine/m9/enforce.py", 120, "KEEP"),
     # Refreshed 2026-09-24 (checker-refinements PR): the line this entry
     # pinned before Step 2 PR C's own edit pass no longer matches anything;
     # re-pinned to a still-live r27_enforce assertion in the same file.
     ("engine/m4/tests/test_turn.py", 1124, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
-    # Refreshed 2026-09-25 (fleet-checks-widening PR added eleven
-    # m1:readability waivers above this comment block): the same comment
-    # block shifted from 137 to 161, still an iso-date hit.
-    ("engine/m9/enforce.py", 161, "REWRITE"),
+    # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
+    # findings applied): the comment block this entry pinned ("the five
+    # m1:readability waivers... removed the same day") was itself pure
+    # change-history narration with no independent design reason once its
+    # provenance was stripped, so it was deleted outright rather than
+    # reworded - enforce.py now carries zero REWRITE hits. Re-pinned to a
+    # fresh REWRITE example elsewhere.
+    ("records/cappadocian/gravity/cappadocian.gravity.athens-fishermen.md", 43, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 243, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 154, "PROTECTED"),

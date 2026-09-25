@@ -15,7 +15,7 @@ confidence:
 sources:
   - {source_id: fix.source.witness-scroll, locus: "3.1-3.2", license: public-domain}
 name: "Witness under social cost"
-description: "This is this world's center of gravity. Belonging is proven by what it costs, not by what it gives. The community knows itself by who stays, not by who gains."
+description: "This is this world's center of gravity. Belonging is proven by what it costs, not by what it gives. This group organizes its identity around staying, not around gaining."
 manifestations: [fix.story.the-long-road]
 classification: primary
 ---

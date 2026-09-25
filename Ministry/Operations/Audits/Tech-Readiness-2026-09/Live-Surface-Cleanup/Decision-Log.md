@@ -1222,4 +1222,104 @@ change, and anything a review or the managing thread flags for him directly. Thi
 who owns driving a PR to green in the first place (`babysit`/`steward` discipline, unchanged) —
 only who clicks merge once it is there.
 
+**Entry 13 — PR #561 round 1 FAIL, corrected.** The managing thread's independent review found:
+
+1. **CI red, root cause.** `gate_readability`'s own output changed (new fields, new FRE
+   threshold), but no world's compiled package was rebuilt against it - `validation/gates-
+   report.json` mismatched the pinned manifest in all 11 worlds, plus `fix`'s own compiled
+   output (six records edited directly). Fixed: every world rebuilt (`engine.m2.cli build`) and
+   repinned (`records/worlds/<code>.yaml`), `engine.m2.cli restore`/`staleness-check` and
+   `engine.m2.site_cli staleness-check` all green.
+2. **Sequencing with PR #548 (not yet merged, will land after #561).** #548's own draft declares
+   `modern_term.modern_sense` as `participant-label` - a role `spoken_fields.py` defines as short
+   display text ("a citation card, mark, or index entry shows directly"), not composed prose,
+   despite `modern_sense` being spoken verbatim by the Facilitator's own `bridge_turn()`. #561
+   now owns this cleanly instead of #548 hand-listing it: a fifth role, `facilitator-spoken`
+   (`engine/m1/spoken_fields.py`) - composed, multi-sentence prose the Facilitator's own
+   apparatus puts in front of a participant, spoken or read on an expanded card, never routed
+   through the world's own Representative voice. `modern_term.modern_sense` and
+   `.distinguishing_claim` (also multi-sentence card prose, also mis-declared `participant-label`
+   in #548's draft) both take this role; `.underlying_subject` stays `voice-diet`.
+   `gate_readability`'s own `_READABILITY_ROLES` now includes it. A second, real bug found while
+   doing this: `gate_readability` had only ever walked a world's own `records` - `fleet_voice`
+   and `modern_term` both live under `records/_fleet/`, never inside any world's own records, so
+   every field this PR's own earlier pass "added" for `fleet_voice` was dead code, never actually
+   graded. Fixed with a dedicated `gate_readability_fleet(fleet)` function, checked once (not
+   once per world - `engine/m9/enforce.py`'s own per-world loop hands the identical `fleet` dict
+   to every world's battery, so a naive per-world fleet walk would have scored the same fleet
+   content once per world and multiplied its count by eleven). Reported under a new
+   `FLEET_PSEUDO_WORLD = "_fleet"` pseudo-world key, exempted from the grandfathering-is-closed
+   check for the reason its own code comment gives (never admitted as a world, so grandfathering
+   was never a live question for it) - 9 real findings (`_fleet.voice.fleet`,
+   `_fleet.contested.theophilus-triad-referent`, and the pre-#548 wording of
+   `_fleet.modern.trinity`'s own `modern_sense`), waived the same way every world's count already
+   is. #548's own exact adaptation once it rebases onto this PR's main: drop the hand-written
+   `for rid, rec in fleet.items(): if rec.get("record_type") == "modern_term": ...` block its own
+   diff adds inside `gate_readability` (its own patch header: `gates.py` around line 506-515) and
+   the `participant-label` role on `modern_sense`/`distinguishing_claim` in its own
+   `spoken_fields.py` diff - both already exist as of this PR, done the registry-driven way. Its
+   `modern_sense` rewrite (already inside its own diff, not touched here) clears the ceiling on
+   its own; `_fleet.modern.trinity`'s current, pre-#548 wording is untouched by this PR and stays
+   the fleet-pseudo-world waiver's problem until #548 lands.
+3. **Commentary this PR's own edits had introduced into live code**, caught by the checker
+   against its own touched files: `gates.py`'s "Widened 2026-09-25 (Mark's ruling..." framing and
+   its per-world waiver comment's "(see the owning Decision-Log..." pointer, both reworded to
+   plain present-tense design reasoning with no date/ruling/Decision-Log citation; `enforce.py`'s
+   per-world waiver `owner=` strings stripped of PR-number narration ("#547 merged and already
+   narrowed...") down to what each waiver actually is (a finding and an owning thread, not a
+   change history) - this file's own docstring already names exactly that distinction. Both files
+   also had their pre-existing commentary removed in the same pass, per `CLAUDE.md`'s "any PR
+   that edits a live file also removes the commentary already in it": `enforce.py` lost two
+   admission dates in its own "two named exceptions" paragraph, an "increment 4 (date)" phrase, a
+   `Decision-Log.md entry 22` citation (kept `tools/set_source_kind.py`'s own real filename
+   reference), and a whole paragraph of pure change-history narration ("the five ... waivers
+   registered ... were removed the same day") that carried no design reason once its provenance
+   was stripped, so it was deleted outright rather than reworded; `gates.py` lost two synthetic
+   illustrative dates (already using a fictional placeholder specifically so the file never quotes
+   real leaked text - reworded to a non-ISO `YYYY-MM-DD` placeholder so the pattern no longer
+   fires at all) and one literal `"RULED by [name]"` example (reworded to lowercase, matching what
+   its own `_RULED_BY` pattern actually matches case-insensitively). `gates.py`'s FRE_FLOOR
+   comment, which only cites the North Star ruling by name and number (no date, no "Mark," no
+   Decision-Log pointer), was confirmed a real KEEP and left as-is.
+4. **Pattern precision and recall**, `tools/check_live_commentary.py`'s `six-test-vocabulary`
+   made case-sensitive on the test name itself (Title-case or ALL-CAPS, the two real forms found
+   live; a bare case-insensitive match had fired on "Formation tests the soul" - "tests" as an
+   ordinary plural verb - and on an unrelated, lowercase "the interaction test") and narrowed to
+   label-position anchors only (an immediate colon, a singular "test" noun, PASS/FAIL, a grading
+   adverb immediately before the name, a relational "is with", or the battery-completion
+   phrases); `build-history-language`'s "an earlier version/draft/assessment" narrowed to require
+   self-reference ("of this/the record/field/...") so it no longer fires on legitimate
+   textual-tradition prose about a historical text's own earlier version. Recall added, each with
+   a real fleet example and a test: "Six of six"/"all six tests" (battery-completion phrasing
+   without a name attached), a grading adjective directly before a test name with no "on"/"for"
+   between them, a test name followed by "is with" (a cross-reference relation), "Explanatory"
+   used bare without "Power", a parenthetical `(gravity N)` cross-reference
+   (`gravity-classification-label`), and a world's own "Strand A"/"Strand A-B" source-pool label
+   (`matrix-cell-code`).
+5. **Fixture wording** - three of the six fixture records shortened in the first pass had lost
+   real content the reviewer flagged, restored while keeping every field under the FK/FRE
+   ceiling: `fix.force.social-cost-pressure.md`'s description keeps "an ongoing force, not a
+   start or an end" (the original's parenthetical, not the flattened "did not start or end
+   anything"); `fix.story.the-long-road.md`'s `tellable_as` keeps the causal "after" and the word
+   "standing"; `fix.gravity.witness-under-pressure.md`'s description keeps "organizes its
+   identity" rather than the flattened "knows itself". `fix.craft.vera-voice.md`'s own added
+   process sentence ("stays under `gate_readability`'s FK/FRE ceiling, the same as...") was
+   dropped outright - it was itself exactly the kind of process narration this whole effort exists
+   to keep out of a live record's body.
+6. **Desert waiver recount.** PR #547 (gravity/force description re-voicing) and PR #560 (a
+   post-merge scope-fix on top of #547) both merged onto `main` while this PR was in flight. The
+   desert count is measured fresh against `main` post-both-merges: 163 (was 172 at the first
+   measurement), all in fields #547/#560 never touched (`positions`, `world_core`, `bridge_line`,
+   and the remaining `description`/`tellable_as` instances the re-voicing pass didn't reach).
+
+Updated fleet hit counts, current `main`: `check_live_commentary`'s new patterns, 800 across 12
+worlds (don 226, lpc 156, witt 127, cappadocian 81, gallic 81, desert 30, pahc 26, alx 25, ijc 19,
+hal 17, rzg 6, syr 6) - up from 741 at the first measurement, entirely from the recall additions
+finding real, previously-unmatched content, none of it new drift. `gate_readability`: 2,154
+across the 11 real worlds (unchanged - the `facilitator-spoken` role and the fleet walk added no
+world-level findings, since neither role change touches any field a world's own records declare)
+plus 9 fleet-level findings under the new `FLEET_PSEUDO_WORLD` waiver - 2,163 total. Full test
+suite, `engine.m1.selftest`, `engine.m9.cli check`, `engine.m2.cli`/`site_cli staleness-check`,
+and `check_paths.py` all re-verified clean before pushing the correction.
+
 ---

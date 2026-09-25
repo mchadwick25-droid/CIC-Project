@@ -25,6 +25,3 @@ Small, capped craft record (no trait rubrics, no avoid-trait catalogs, no
 stacked per-world rules). Tagged paragraphs are represented here as a short
 list rather than prose, matching voice_craft's own "tagged paragraphs per
 assembly segment" shape.
-
-Every spoken field in this record stays under `gate_readability`'s FK/FRE
-ceiling, the same as the rest of this fixture.
