@@ -1,0 +1,22 @@
+source_file: fasciculi-zizaniorum_shirley1858.txt
+
+assignments:
+  - work: "Fasciculi Zizaniorum Magistri Johannis Wyclif cum Tritico (Rolls Series)"
+    author: fasciculi-zizaniorum
+    locus: "whole volume, esp. the Twelve Conclusions of the Lollards and the Sautre/Purvey trial records"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      Anonymous 15th-c. hostile compilation, ed. Shirley (1858). Contains
+      the Latin text of the Twelve Conclusions of the Lollards (1395)
+      under the heading "Conclusiones Lollardorum porrectae pleno
+      parliamento," plus the heresies extracted from Purvey's own
+      heretical book and his confession/recantation, and William
+      Sautre's own articles and examination record - an independent
+      Latin leg of the hostile-trial-record gap this world's Step0
+      Revision 2 flagged as unfilled. Vendored 2026-09-25 as part of a
+      post-Step0-Revision-2 PD source-acquisition pass. Per this
+      project's own INTAKE.md rule, this Latin text is a second witness,
+      never primary evidence for a Representative.

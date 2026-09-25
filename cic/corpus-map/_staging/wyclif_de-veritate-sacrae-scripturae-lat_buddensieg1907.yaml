@@ -1,0 +1,20 @@
+source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
+
+assignments:
+  - work: "De Veritate Sacrae Scripturae"
+    author: wyclif
+    locus: "whole volume"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's own core argument for scripture's supreme authority over
+      church tradition, ed. Buddensieg (1907, Wyclif Society Latin Works
+      vol. 21) - directly relevant to the movement's central claim that
+      scripture should be available and authoritative in the vernacular.
+      Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+      source-acquisition pass, from the full 33-volume Wyclif Society
+      Latin series on archive.org. Per this project's own INTAKE.md rule,
+      this Latin text is a second witness, never primary evidence for a
+      Representative.

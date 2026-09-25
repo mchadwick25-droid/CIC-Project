@@ -1,0 +1,15 @@
+source_file: polanco_chronicon-v1-lat_1894.txt
+
+assignments:
+  - work: "Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Vol. I"
+    author: polanco
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: assigned
+    note: >
+      Ignatius's own secretary's historical chronicle. Vendored
+      2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+      pass. Per this project's own INTAKE.md rule, this text is a second
+      witness, never primary evidence for a Representative.

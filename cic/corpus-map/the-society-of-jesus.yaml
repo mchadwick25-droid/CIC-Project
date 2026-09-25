@@ -47,6 +47,19 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- work: Memoriale Beati Petri Fabri
+  author: faber
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Faber''s own spiritual diary - genuine primary Faber material, not a biography quoting
+    him. This world''s corpus previously held only the Boero secondary biography for Faber.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per
+    this project''s own INTAKE.md rule, this Latin text is a second witness, never primary
+    evidence for a Representative.
+
+    '
+  source_file: faber_memoriale-lat_1873.txt
 - work: The Life and Letters of St. Francis Xavier, Vol. I
   author: francis-xavier
   locus: whole text - university years through the Malacca/Moluccas mission, 1541-1548
@@ -83,6 +96,18 @@ works:
 
     '
   source_file: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
+- work: 'Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22'
+  author: ignatius-loyola
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'One volume of the full 12-vol. MHSI critical edition of Ignatius''s ~7,000 letters,
+    dwarfing the already-vendored ~24-letter O''Leary/Goodier English selection. Vendored
+    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s
+    own INTAKE.md rule, this text is a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt
 - work: The Autobiography of St. Ignatius
   author: ignatius-loyola
   locus: whole text
@@ -105,6 +130,19 @@ works:
 
     '
   source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
+- work: 'Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I'
+  author: lainez
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Lainez''s own letters and acts (2nd Superior General). Corrects a prior dossier "genuinely
+    closed" verdict, which only checked for an English translation - this Latin primary material
+    is PD and available. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass. Per this project''s own INTAKE.md rule, this Latin text is a second witness, never
+    primary evidence for a Representative.
+
+    '
+  source_file: lainez_epistolae-et-acta-v1-lat_1912.txt
 - work: Adnotationes et Meditationes in Evangelia
   author: nadal
   locus: whole text
@@ -121,6 +159,78 @@ works:
 
     '
   source_file: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
+- work: Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I
+  author: nadal
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own letters, distinct from the already-vendored Adnotationes et Meditationes.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per
+    this project''s own INTAKE.md rule, this text is a second witness, never primary evidence
+    for a Representative.
+
+    '
+  source_file: nadal_epistolae-v1-lat_1898.txt
+- work: Scholia in Constitutiones
+  author: nadal
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Nadal''s own commentary explaining the Jesuit Constitutions to the provinces. Vendored
+    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s
+    own INTAKE.md rule, this Latin text is a second witness, never primary evidence for a
+    Representative.
+
+    '
+  source_file: nadal_scholia-in-constitutiones-lat_1883.txt
+- work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Vol.
+    I
+  author: polanco
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Ignatius''s own secretary''s historical chronicle. Vendored 2026-09-25 as part of
+    a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own INTAKE.md
+    rule, this text is a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: polanco_chronicon-v1-lat_1894.txt
+- work: Vita Ignatii Loiolae, Societatis Iesu Fundatoris
+  author: ribadeneira
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'Ribadeneira''s original Latin life of Ignatius, commissioned by the 3rd Superior
+    General - an early, primary-adjacent biography by someone who knew Ignatius personally.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per
+    this project''s own INTAKE.md rule, this Latin text is a second witness, never primary
+    evidence for a Representative.
+
+    '
+  source_file: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
+- work: Epistolae P. Alphonsi Salmeronis, Vol. II
+  author: salmeron
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Salmeron''s own letters, previously wholly unassessed for this world. Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own
+    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: salmeron_epistolae-v2-lat_1906.txt
+- work: Epistolae P. Alphonsi Salmeronis, Vol. III
+  author: salmeron
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Salmeron''s own letters, continuing Vol. II (vendored alongside this file). Vendored
+    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s
+    own INTAKE.md rule, this Latin text is a second witness, never primary evidence for a
+    Representative.
+
+    '
+  source_file: salmeron_epistolae-v3-lat_1906.txt
 - work: Constitutiones Societatis Iesu, cum earum Declarationibus
   author: society-of-jesus
   locus: whole text, including the Primum ac generale examen

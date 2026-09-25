@@ -1,0 +1,18 @@
+source_file: lainez_epistolae-et-acta-v1-lat_1912.txt
+
+assignments:
+  - work: "Lainii Monumenta: Epistolae et Acta Patris Jacobi Lainii, Vol. I"
+    author: lainez
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Lainez's own letters and acts (2nd Superior General). Corrects a
+      prior dossier "genuinely closed" verdict, which only checked for
+      an English translation - this Latin primary material is PD and
+      available. Vendored 2026-09-25 as part of a post-Step0-Revision-2
+      PD source-acquisition pass. Per this project's own INTAKE.md rule,
+      this Latin text is a second witness, never primary evidence for a
+      Representative.

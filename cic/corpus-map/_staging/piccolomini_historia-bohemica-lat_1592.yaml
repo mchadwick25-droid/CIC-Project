@@ -1,0 +1,18 @@
+source_file: piccolomini_historia-bohemica-lat_1592.txt
+
+assignments:
+  - work: "Historia Bohemica"
+    author: piccolomini
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      A major contemporary hostile source on the Hussite wars, by Aeneas
+      Sylvius Piccolomini (later Pope Pius II), who observed events at
+      close range. No PD English translation was located; this is the
+      1592 Latin printing. Vendored 2026-09-25 as part of a
+      post-Step0-Revision-2 PD source-acquisition pass. Per this
+      project's own INTAKE.md rule, this Latin text is a second witness,
+      never primary evidence for a Representative.
