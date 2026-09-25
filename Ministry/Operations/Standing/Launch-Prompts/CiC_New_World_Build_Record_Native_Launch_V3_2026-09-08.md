@@ -72,7 +72,7 @@ duplicate what didn't.
 Build the named world end-to-end — Step-0 confirmation (or its
 pre-cleared record) through a drafted freeze declaration — **born
 record-native and born at the bar**, under
-`reference/method/CiC_Record_Native_World_Build_Process_V1.7.md`,
+`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`,
 with the gate changes above in force.
 
 Read IN FULL, in this order, before any work:
