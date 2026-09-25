@@ -5071,15 +5071,22 @@ the same thing that doctrine later named." Re-measured after the
 edits: FK grade 7.68, longest sentence 23 words, average 15.1
 words/sentence.
 
-**Entry 76 — 2026-09-25.** R27 (`find_uncited_claims` enforcement,
+**Entry 77 — 2026-09-25.** R27 (`find_uncited_claims` enforcement,
 `CIC_R27_ENFORCE`/`r27_enforce`, off by default) live measurement,
 managing thread's own ask, following the fabrication finding on #558's
 run and its control-run reproduction (branch
-`r42-citation-contract-inference-sentence`, commit `2ffc8942`, both
-still unmerged as of this entry - **numbered as the next available
-entry on `main`; may renumber on merge order against #558's own pending
-Entry 76, the same "#395's own Entries 37-38 renumber to 38-39"
-precedent already set in this file**). **Mark's ruling verbatim
+`r42-citation-contract-inference-sentence`, commit `2ffc8942`). **#558
+itself was closed by Mark's own ruling, "drop #558"** - the proposed
+`citation_contract` sentence it carried was not adopted, since it
+showed no measurable improvement to the untagged-but-supported miss
+rate. Its live-measurement and control-run findings (the fabrication
+class this entry goes on to test) are preserved in main's own
+Decision-Log as **Entry 76** via PR #568, not #558 itself - numbered
+77 to follow that entry, the same "#395's own Entries 37-38 renumber
+to 38-39" precedent already set in this file. PR #568 had not yet
+merged as of this branch's own last merge from `main`; this entry sits
+directly after the old Entry 75 until that lands, then follows #568's
+own Entry 76 on the next merge from `main`. **Mark's ruling verbatim
 (2026-09-25, Decision 3, option A): "A, yes to the $3 ceiling."** The
 goal: measure whether `find_uncited_claims`'s existing, already-built,
 report-only-by-default enforcement mode stops the class of voice
