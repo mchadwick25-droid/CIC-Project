@@ -1859,3 +1859,114 @@ result rests on the human read, not on an automated score.
 (a quote's `modern_rendering` and any re-rendering of it). Every other
 drafting task - records, intermediate review rounds, documentation,
 build work - stays on Sonnet, per the existing rule.
+
+**Entry 34 — 2026-09-24 (fleet-wide quote re-verification: results, one
+real checker fix, five already-resolved).** A full re-run of the
+quote-verbatim sweep (`engine.m1.quote_verbatim`, `verify_quote_record`)
+across every `records/*/quote/*.md` in all 12 world directories - not
+only the `fix` world-report's usual `REPORT_WORLDS` list, which omits
+the `fix` fixture world (included here; its 3 quote records all pass):
+260 checked, 254 verified, 6 failed - the same six the 2026-09-22 report
+(`engine/m1/reports/quote-verbatim-report-2026-09-22.json`) already
+named. Investigated each by hand against the vendored files directly,
+per the brief's own rule: never invent or reconstruct a quote; a
+record's `text` must match its source exactly, or stay flagged.
+
+**What the investigation actually found, against the brief's own
+assumption that all six needed fresh work:** five of the six had
+already been fully investigated and correctly resolved by an earlier
+thread on 2026-09-22, each with its own honest, dated divergence_note
+already in the record, several explicitly "flagged for Mark... not
+resolved further here." Re-verifying each by hand confirmed the earlier
+work was right, not incomplete:
+- `desert.quote.good-good-i-dont-mind` and `hal.quote.hindered-by-
+  jerome` (Palladius, `palladius_lausiac-history_clarke1918.txt`): the
+  record's own wording is correct; two bare endnote numbers ("163",
+  "164") and a digit glued to a comma ("Paula,276") are footnote
+  artifacts with no safe edition-wide rule (the endnote sequence
+  desyncs against page/chapter numbers well before reaching these -
+  confirmed by direct inspection, not assumed) - already
+  `verified-via-authority`, already tested
+  (`test_palladius_bare_digit_footnotes_are_verified_via_authority_not_gate`,
+  `test_palladius_paula_comma_footnote_is_verified_via_authority_not_gate`).
+- `ijc.quote.ammianus-roman-luxury` (`ammianus-marcellinus_roman-
+  history_yonge1862.txt`): the record's English is correct; the
+  vendored djvu OCR scan itself is corrupted at this exact passage
+  ("vastuess" for "vastness", "east" for "cast", "sober-mirfded" for
+  "sober-minded") - already disclosed and independently re-checked
+  against the raw scan on 2026-09-22, already `verified-via-authority`.
+- `don.quote.donatus-quid-est-imperatori` and `don.quote.emeritus-
+  magno-argumento`: both Latin quotes are absent from the file
+  originally cited (one carries only the English translation, the
+  other only a different, unrelated locus) but present, OCR-corrupted,
+  in a second vendored file each record's own `sources[]` already adds
+  (Ziwsa's critical edition; the Migne PL11 scan) - already re-located,
+  already given in corrected standard orthography rather than either
+  the wrong file's content or the raw OCR string, already
+  `verified-via-authority`, already flagged for Mark.
+
+None of these five needed a text, locus, or verification_state change
+today - doing so would either be a no-op or, worse, would mean
+reconstructing wording to force a mechanical match, which is exactly
+what "never invent" forbids. They are not new debt; they are the same
+five items already sitting in each record's own divergence_note,
+unchanged.
+
+**The one genuine, actionable gap: `cappadocian.quote.basil-on-common-
+life`.** Hand-confirmed against `basil_ascetic-works-longer-shorter-
+rules_clarke1925.txt`: the record's own wording is correct, but the
+passage carries three separate divergences from the raw scan, not the
+one the brief assumed:
+1. a bare footnote-reference digit with no wrapper ("common 1 is") -
+   genuinely a checker-grammar gap, now fixed;
+2. a stray extraction-artifact opening quotation mark before "To
+   begin," with no closing mark anywhere in the passage - not fixed
+   today, left as a known, already-disclosed item;
+3. "Tor just as" for "For just as" - a genuine word-level OCR misread,
+   not a marker.
+
+Fixed only item 1, as a new per-edition apparatus entry in
+`cic/texts/REGISTRY.yaml` (`bare-footnote-digit-common-is`), anchored
+on both sides to the literal words "common" and "is" rather than to
+the bare-digit shape - the module's own docstring already rules out a
+FLEET-WIDE bare-digit class as unsafe (other editions quote real digit
+quantities as content) and prescribes exactly this per-edition
+apparatus mechanism as the correct resolution path; this entry follows
+it. Checked the whole file first: the literal substring "common 1 is"
+occurs exactly once, and a blanket "digit between two words" pattern
+would hit 126 places - confirming the literal-word anchor, not a
+general digit rule, is what makes this safe. `engine/m1/tests/
+test_quote_verbatim.py` gained three tests: the entry strips exactly
+the evidenced marker; it does not mask a different digit or a real
+word at the same position; and the record's first sentence now
+verifies in isolation. The existing
+`test_bare_unwrapped_footnote_digit_is_not_silently_tolerated` still
+passes unchanged - it tests the fleet-wide mechanism only, which this
+change never touches.
+
+**Item 2 (the stray quotation mark) is deliberately not fixed today.**
+It is a real, single-occurrence, evidenced artifact, and could probably
+take the same narrow-anchor treatment as item 1. It is left alone here
+because item 3 already means this record cannot pass the mechanical
+check regardless - fixing item 2 today would not change the fleet
+sweep's result, so it stays out of scope rather than being done for its
+own sake in the same pass as item 1.
+
+**Fleet count, before and after, as asked:** 254/260 before this PR's
+one apparatus entry; **254/260 after** - unchanged. This is the correct
+result, not a failed fix: item 1's own fix is real and independently
+verified (the record's first sentence, containing the digit, now
+verifies against the real file in isolation - see the new tests), but
+`cappadocian.quote.basil-on-common-life` was never going to flip to
+fully verified from that fix alone, because of item 3 above (a genuine
+word substitution, which this module's own ruling says must never be
+maskable by any apparatus mechanism, on purpose). The brief's own
+premise - "confirm... the only difference is the bare footnote digit"
+- does not hold; reported here rather than silently fixed around.
+
+**No record text, locus, or verification_state changed.** No package
+rebuild or repin was needed - nothing in `records/` changed, only the
+corpus-map apparatus definition and the engine's own test suite.
+`python3 -m pytest engine/m1/tests -q` (156 tests, includes the 69-test
+`test_quote_verbatim.py` file) and `python3 -m engine.m2.cli
+staleness-check` both pass clean.
