@@ -1175,3 +1175,21 @@ a behaviour-adjacent change (a public parameter/env-var rename) touching `engine
 `engine/api/wiring.py`, `engine/api/table_wiring.py`, and every test that references any of these
 names - not a comment or docstring edit, and not zero-behaviour-change. Left as-is; a rename, if
 wanted, needs its own PR with its own review, not folded into a report-only measurement PR.
+
+## Entry 10 — `engine/m4/turn.py` count update (PR building `sentence_enforce`)
+
+The same real feature work this file's own Entry 9 covers continued: a second, independent
+flag-gated enforcement (`sentence_enforce`, distinct from `r27_enforce`) was added to
+`engine/m4/turn.py`, and its own docstring and tests describe it in contrast to the existing
+`r27_enforce` mechanism, by name, several times - the identical identifier family Entry 9 already
+found out of scope to clear.
+
+**`engine/m4/turn.py`: 35 REWRITE findings, up from 25, all still the same `ruling-identifier`
+pattern, NOT cleared, for the identical reason Entry 9 already gave.** Every one of the 10 new hits
+read individually: all are either a comparison to `r27_enforce`'s own behaviour in the new
+function's own docstring, or a real assertion against `r27_enforcement_exhausted` in the enforcement
+block's own comments - no new provenance narration, same as before. `engine/m4/tests/test_turn.py`'s
+own count moved from 15 to 24 for the same reason (the new tests assert against the real, existing
+`r27_enforce`/`r27_enforcement_exhausted` fields to prove the two mechanisms compose correctly).
+Left as-is, same scope decision as Entry 9: a rename is still its own, separate, behaviour-adjacent
+PR.
