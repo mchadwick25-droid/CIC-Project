@@ -1322,4 +1322,22 @@ plus 9 fleet-level findings under the new `FLEET_PSEUDO_WORLD` waiver - 2,163 to
 suite, `engine.m1.selftest`, `engine.m9.cli check`, `engine.m2.cli`/`site_cli staleness-check`,
 and `check_paths.py` all re-verified clean before pushing the correction.
 
+**PR #545 (witt re-voicing) merged onto `main` while this correction was still open**, alongside
+#559/#568 (unrelated). Merged into this branch (a merge commit, not a rebase, per the drive-to-
+green rules for CI red on a branch already pushed) and both counts recounted fresh against the
+merged state: `check_live_commentary`'s new patterns, witt 127 -> 28 (701 total across 12 worlds);
+`gate_readability`, witt 235 -> 194 (2,113 world-level + 9 fleet-level = 2,122 total). Both waiver
+entries updated to match. Every world's package rebuilt and repinned again against the merged
+state; `engine.m2.cli staleness-check`/`restore`, `engine.m2.site_cli staleness-check`, and
+`engine.m9.cli check` all re-verified clean before pushing.
+
+A hard-coded test also broke and was fixed in the same push:
+`engine/api/tests/test_wiring.py` asserted `fix.figure.the-elder.md`'s own `bridge_line` text
+verbatim; the fixture-restoration pass above changed that field's wording (for FK/FRE, "who came
+after" -> "who came later"). The test's own substance (figures-used tracking flows through a turn
+and does not re-fire on the next message) is unaffected; only the literal expected string needed
+updating to match the fixture's current wording. Confirmed no other hardcoded reference to any of
+the six edited fixture fields exists elsewhere in the repo (grepped every `.py` file for each
+field's prior wording).
+
 ---
