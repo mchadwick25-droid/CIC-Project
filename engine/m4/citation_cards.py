@@ -35,19 +35,19 @@ access (unlike that terser context) so it resolves a figure id through
 the SAME figure-label lookup a figure's own card uses, rather than a
 cruder id-to-slug fallback.
 """
-from engine.prose import short_head, strip_name_taxonomy_suffix
+from engine.prose import short_head, strip_name_taxonomy_tag
 
 
 def _short_name(record: dict) -> str | None:
-    """gravity/force records carry a `name` ending in a bracketed build
-    taxonomy tag (e.g. "Divine Pedagogy [SUPPORTING - explanatory
-    framework]") - real and useful to a reviewer, never meant for a
-    participant. Strip it; the plain name underneath is already a good
-    label."""
+    """gravity/force records carry a `name` with a bracketed build
+    taxonomy tag, leading or trailing (e.g. "Divine Pedagogy [SUPPORTING
+    - explanatory framework]") - real and useful to a reviewer, never
+    meant for a participant. Strip it; the plain name underneath is
+    already a good label."""
     name = (record.get("name") or "").strip()
     if not name:
         return None
-    return strip_name_taxonomy_suffix(name) or None
+    return strip_name_taxonomy_tag(name) or None
 
 
 def _first_sentence(text: str, max_len: int = 90) -> str:

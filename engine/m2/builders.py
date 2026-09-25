@@ -13,7 +13,7 @@ from engine.prose import (
     content_words,
     quote_aware_sentences,
     retrieval_words,
-    strip_name_taxonomy_suffix,
+    strip_name_taxonomy_tag,
 )
 
 from .canonical import canonical_json
@@ -519,7 +519,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     if gravities:
         emit(
             "Gravities",
-            "\n".join(f"- [[{g['id']}]] {strip_name_taxonomy_suffix(g.get('name') or '')}" for g in gravities),
+            "\n".join(f"- [[{g['id']}]] {strip_name_taxonomy_tag(g.get('name') or '')}" for g in gravities),
         )
 
     # Quotes are indexed, not reproduced. Both fabrications in the last
