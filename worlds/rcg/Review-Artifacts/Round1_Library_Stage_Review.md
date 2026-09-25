@@ -102,8 +102,6 @@ The Methodology's own Section B text says it is "a phase-level process... never 
 
 **X-1 MEDIUM: process narration in canonical files.** Heavy "this session"/"this build thread" language and embedded Status/Disposition revision-history narration. Flagged against V1.8 handoff item 11 and CLAUDE.md's live/canonical-surface rule.
 
-(The build thread's own response to this finding — including a precedent check against `worlds/ijc/Doc_02_Source_Ecology.md`, and a Round 2 review that found the counter-argument holds only in part — is logged in `Open_Gaps_Tracking.md`, not in this file, so this review artifact stays the reviewer's own unedited record.)
-
 ---
 
-**Root cause, worth naming:** several findings share one root cause — facts carried over from the Source Readiness Dossier or from this build thread's own prior general knowledge without direct re-verification against the live census, the corpus-map, or the vendored files themselves (S0-1, S0-7, D1-4, D2-9). The fixes applied in this round re-verify each such claim against its actual primary source rather than the secondary account it was carried from.
+**Root cause, worth naming:** several findings share one root cause — facts carried over from the dossier without re-verification (S0-1, S0-7, D1-4). Revisions should re-check against the live census and the corpus-map files rather than the dossier.
