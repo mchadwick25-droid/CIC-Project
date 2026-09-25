@@ -22,3 +22,7 @@ representative: {name: Datus, role_label: "Bishop of the Kept Flock"}
 census_id: "latin-pastoral-congregational-christianity"
 thinness_statement: "Richest in the record of two bishops' own pastoral office, penitential discipline, and communion held across real disagreement, drawn from the largest and most direct primary-source base of any world built so far; both voices speak in their own words, as bishops of the tradition itself, not as quotations inside a hostile source. Thinner on ordinary lay believers' own interior life - no source in this world's own record is authored by an ordinary believer about ordinary congregational life as such - and on women's own words, though Pontius, a deacon, and two lay confessors' own letters (Epistles XX-XXI) reach beyond the episcopate. Material evidence is unexcavated rather than absent: no site report or inscription catalogue has been checked for this world, though a pastoral letter describes an apse and seating for clergy and congregation. This world has no founding narrative or origin myth, a positive fact about a community that understood itself as the ordinary church rather than a gap in its record."
 living_tradition_flag: true
+state: built
+package:
+  manifest_hash: "sha256:81b2577cd81b4de50f05d177a7e32bb15ec95284cd4e922aab7b450070a905de"
+  location: "packages/lpc/2026-09-25T15-33-19Z"
