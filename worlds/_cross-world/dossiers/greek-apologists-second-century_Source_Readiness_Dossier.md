@@ -29,7 +29,11 @@ without cross-checking both documents.
 
 ## 1. Already assigned
 
-All 16 works currently on `cic/corpus-map/greek-apologists-second-century.yaml`.
+All 17 works currently on `cic/corpus-map/greek-apologists-second-century.yaml`
+(corrected from 16 — the table below previously omitted *Fragments of
+Claudius Apollinaris*, which was already present on the corpus-map file
+itself; not a change made by this pass, only a documentation fix bringing
+this table in line with what was already there).
 "Scale" is drawn from Step 0's own directly-recounted word figures where
 Step 0 states them; otherwise marked not recounted here.
 
@@ -48,6 +52,7 @@ Step 0 states them; otherwise marked not recounted here.
 | Epistle to Diognetus | mathetes (anonymous) | tradition | assigned | — | `anf01_apostolic-fathers-justin-irenaeus.xml` |
 | Fragments of Quadratus | quadratus | tradition | assigned | fragment | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` |
 | Fragments of Melito of Sardis | melito-of-sardis | tradition | assigned | fragment (the ANF fragment only — not the 20th-c.-recovered *Peri Pascha*; see §5) | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` |
+| Fragments of Claudius Apollinaris | claudius-apollinaris | tradition | assigned | fragment (the Thundering Legion narrative, via Eusebius HE v.5) | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` |
 | Fragments of Aristo of Pella | aristo-of-pella | tradition | assigned | fragment (triple-assigned with `post-apostolic-house-church` and `ebionite-nazoraean-current`) | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` |
 | The Apology of Aristides the Philosopher | aristides | tradition | assigned | — | `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml` |
 | Ambrose: a memorial (hypomnemata) addressed to the Greeks | ambrose-hypomnemata (transmitted) | tradition | provisional | — (Greek apology surviving only in Syriac translation; also assigned to `syriac-edessa-nisibis`) | `anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml` |

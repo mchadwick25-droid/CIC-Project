@@ -25,6 +25,8 @@ sources:
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
   license: public-domain
 relations:
+- type: illustrated-by
+  target: lpc.demo.font-twice-answered
 - type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with

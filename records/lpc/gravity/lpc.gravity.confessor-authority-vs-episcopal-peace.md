@@ -24,6 +24,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: lpc.witness.confessor-claim-vs-regulated-peace
+- type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with
   target: lpc.gravity.penitential-discipline

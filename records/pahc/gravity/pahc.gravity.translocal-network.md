@@ -50,28 +50,28 @@ relations:
 - {type: illustrated-by, target: pahc.quote.polycrates-to-victor}
 name: "Translocal Correspondence Network [PRIMARY]"
 classification: primary
-description: "Letters carried between churches - what holds this world together across cities, in
-  place of any central structure, and what intensifies rather than fractures under pressure. SIX-TEST
-  SUMMARY: Repetition passes strongly across both regions - three independent voices/events (1 Clement's
-  Rome-to-Corinth intervention; Ignatius's entire seven-letter corpus; Polycarp's own forwarding, ch.
-  13), not one. Dependency passes strongly: authority claims are exercised through this network;
-  doctrinal and memory consolidation depends on letters actually circulating; this world's own primary-
-  voice set is largely explainable by what entered and survived it. Formation passes: produces a felt
-  sense of belonging to something larger than the local assembly. Explanatory passes strongly - arguably
-  explains the shape of the surviving evidence itself. Persistence passes across all three named regions.
-  Interaction: demonstrated relationships with authority-consolidation (G01, plain Reinforcing - the one
-  cell in this world's whole matrix resting on genuinely independent multi-voice grounding on both
-  sides, not one shared passage doing double duty), state-pressure (G03, RESHAPING per Doc_04's own
-  label, inferential - Ignatius relies on this network precisely because he is under guard, a
-  single-episode anchor), and martyrdom-meaning (G04, inferential - martyr-narrative transmission
-  travels this same channel). No demonstrated relationship with boundary-drawing (G05) or
-  liturgical-practice (G07). AUTHOR GRAVITY RISK (Doc_04's own generation-stage rating): No significant
-  single-voice dependency - the one candidate independently attested by voices from both strands
-  behaving the same way. CONFIDENCE/
-  GRAVITY CROSS-CHECK: clean - no material divergence between organizing strength and evidential
-  confidence; both are high. CROSS-STRAND STATUS: confirmed - independently attested by voices from
-  BOTH strands behaving the same way (Rome via 1 Clement; Antioch/Asia Minor via Ignatius and
-  Polycarp), the one candidate with no significant single-voice dependency."
+description: "Letters carried between churches. They hold this world together across cities in place
+  of any central structure, and they grow stronger under pressure rather than breaking apart.
+
+  Three independent voices or events show it, in both regions. 1 Clement was sent from Rome to step
+  into a dispute at Corinth. Ignatius left a whole set of seven letters. Polycarp forwarded letters on
+  to others (chapter 13). Much depends on this network. Claims to authority are exercised through it.
+  Shared teaching and shared memory depend on letters actually moving. Most of this world's surviving
+  first-hand sources can be explained by what entered this network and survived. It gave members a felt
+  sense of belonging to something larger than their local gathering. It explains a great deal, arguably
+  even the shape of the surviving evidence itself. It appears in all three named regions.
+
+  It connects with leadership. This is the one link in this whole world that rests on truly independent
+  voices on both sides, not one shared passage doing double duty. Pressure from the state changed how
+  the network was used: Ignatius relied on it precisely because he was under guard. That link is an
+  inference from one episode. It also connects, by inference, with the meaning of martyrdom, since
+  stories of martyrs travelled along this same route. No link is shown with boundary-drawing or with
+  shared worship.
+
+  It does not depend heavily on any single voice. Here the weight given to the pattern and the strength
+  of the evidence agree: both are high. Voices from Rome (1 Clement) and from Antioch and Asia Minor
+  (Ignatius and Polycarp) independently show churches using letters in the same way. It is the one
+  pattern that does not lean heavily on a single voice."
 manifestations:
 - "Rome's long letter to Corinth, exercising and publicly demonstrating its own perceived authority to correct another ekklesia"
 - "Ignatius's seven letters, written and dispatched across a guarded journey from Antioch toward Rome"
