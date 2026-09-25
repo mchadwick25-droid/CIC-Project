@@ -78,6 +78,10 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
+- type: associated-with
+  target: gallic.gravity.egypt-as-measure
+- type: associated-with
+  target: gallic.gravity.grace-and-effort
 ---
 Verified verbatim directly against the vendored
 cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "cannot be fully grasped by the

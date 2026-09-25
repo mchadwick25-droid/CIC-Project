@@ -60,38 +60,51 @@ relations:
   target: gallic.gravity.egypt-as-measure
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.quote.salvian-rich-murdering-the-poor
+- type: associated-with
+  target: gallic.quote.salvian-free-men-in-seeming-captivity
+- type: associated-with
+  target: gallic.quote.salvian-ever-present-judgment-gallic-provinces
+- type: associated-with
+  target: gallic.quote.salvian-present-judgment-clearly-shown
+- type: associated-with
+  target: gallic.quote.brictio-horses-and-slaves
 name: "Fiscal and barbarian ruin of the province (Marseilles, Salvian only) [2A - ongoing/external]"
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  The collapse of Roman Gaul enters this world's Native literature through one voice, one book,
-  written at Marseilles between 439 and 450: 'the rich who are murdering the poor by their so-called
-  remedies' (Gov. IV.6); 'as many tyrants as curials' (V.4); men fleeing to the Goths and the
-  Bagaudae who 'would rather live as free men, though in seeming captivity' (V.5); 'the country of
-  the Belgae burst into flames, then the rich estates of the luxurious Aquitanians, and after these
-  the whole body of the Gallic provinces' (VII.12). Doc_08's fuller grep of the vendored corpus for
-  'barbar-' finds, in Sulpitius, four episodes across six textual occurrences - the discharge scene
-  at the garrison, before the episcopate (Vita IV, two occurrences); a demons' rumour of an inroad
-  exposed by exorcism (Vita XVIII, two); Avitianus's 'too barbarous' ferocity (Dial. III.4); and,
-  the most formation-relevant, Brictio 'brought up in the monastery by Martin himself' accused of
-  buying barbarian captives 'boys ... girls also' (Dial. III.15) - one Egyptian-set occurrence in
-  Cassian, none in Vincent's own text (an editor reads his Vandal silence as deliberate), and one
-  relevant Latin phrase at Lérins. 'Fuller than "one book and one discharge scene," and still thin
-  relative to the historical scale of the collapse' (Doc_08 Cell 2A, Force 2A-5). WORLD'S OWN
-  EXPERIENCE (Layer 2, brief): in the one voice that lets the ruin in, it is not misfortune but
-  sentence: God 'never takes his hand from the tiller'; 'the present judgment of God was clearly
-  shown'; 'We are judged by the ever-present judgment of God, and thus a most slothful race has been
-  aroused to accomplish our destruction and shame.' The monk's chosen poverty and the province's
-  imposed ruin were, from within, one fact seen from opposite sides. In the north, a generation
-  earlier, the barbarians were the occasion of a discharge and, once, a demon's lie that the saint's
-  power exposed. FORMATION IMPACT (Layer 3): Proportionality governs - the force historians treat as
-  the period's dominant one left, in this world's formation literature, a scattering of brief
-  traces. Its one SUBSTANTIVE attachment is G10: under this force judgment 'shifted from future to
-  present' in Salvian. Doc_08's decision on Doc_04 §10 item 3, stated as a recommendation to
-  Doc_04's owner: four further attachments found - to G6 twice (the rumour; the ferocity), to G1 as
-  aftermath (Gennadius's 'still standing'), to G2 as a byword, to G8 as occasion - 'none of the four
-  is a gravity through which the barbarian force entered the world's own literature as a force in
-  its own right'; RETAIN G10 at Supporting (provisional), do not downgrade.
+  Roman Gaul's collapse enters this world's own literature through one voice, one book. Salvian
+  wrote it at Marseilles, sometime between 439 and 450.
+
+  Salvian is blunt about who he blames. The rich are killing the poor, he writes, through the very
+  tax relief meant to help them. Nothing is more unlucky than the poor. For them, even a general
+  remedy brings death (Gov. IV.6). Some Roman citizens, he says, would rather live as free men under
+  barbarian rule. That is true even if it looks like captivity. They would rather that than stay
+  captive to Rome, under the appearance of freedom (Gov. V.5). He describes the barbarian advance
+  sweeping through Gaul, region after region. First Germany, then the Belgae, then the rich farms of
+  Aquitaine. Then the whole body of the Gallic provinces. All of it, he insists, is God's judgment,
+  happening right now (Gov. VII.10, VII.12).
+
+  A closer search of this world's own library finds more than just that one book. But still not
+  much: four episodes in Sulpitius, across six mentions in all. The barbarians are the reason Martin
+  left the army, before he ever entered religious life (Vita IV). Demons once spread a false rumor
+  of a barbarian raid. Martin's own power exposed it as a lie (Vita XVIII). One of Avitianus's
+  officers is remembered as almost too savage, even for his own time (Dial. III.4). And, most
+  telling of all, Brictio stood accused of buying captured children from beyond the frontier.
+  Brictio had been raised inside Martin's own monastery (Dial. III.15). Here the disaster enters
+  this world's literature as a charge against one of its own members. Cassian's own writings mention
+  barbarians only once, and that is set in Egypt, not in Gaul. Vincent's own text says nothing about
+  the Vandals at all. One editor reads that silence as deliberate.
+
+  Historians treat this force as the dominant fact of the whole period. But this world's own
+  formation literature keeps little of it. Its one strong link is this: under this pressure,
+  judgment itself changed. It shifted from something expected in the future to something already
+  happening now, in Salvian's own words. Four further links exist, but each one is thin. They touch
+  the north's old comparison with Egypt, a later report that two monasteries were still standing
+  after the collapse, one officer's cruelty, and one charge made against a member of Martin's own
+  community. None of these carries real weight. None of them shows the barbarian disaster entering
+  this world's literature as a force in its own right.
 manifestations:
 - "Salvian's one book: the rich 'murdering the poor,' 'as many tyrants as curials,' Romans fleeing to the Goths and Bagaudae, the Gallic provinces burning as 'the ever-present judgment of God'"
 - "The barbarians 'rushing within the two divisions of Gaul' as the occasion of Martin's discharge (Vita IV)"

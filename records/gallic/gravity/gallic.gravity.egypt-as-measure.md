@@ -86,46 +86,62 @@ relations:
   target: gallic.figure.honoratus
 - type: associated-with
   target: gallic.contested.egypt-two-measures
+- type: associated-with
+  target: gallic.quote.castor-anxious-for-egyptian-institutions
+- type: associated-with
+  target: gallic.quote.cassian-adapts-egypt-to-gaul
+- type: associated-with
+  target: gallic.quote.conferences-received-into-their-cells
+- type: associated-with
+  target: gallic.quote.gennadius-on-the-dialogues-subject
+- type: associated-with
+  target: gallic.quote.postumianus-you-have-conquered-all-the-eremites
+- type: associated-with
+  target: gallic.quote.europe-will-not-yield-having-only-martin
+- type: associated-with
+  target: gallic.quote.chaeremon-three-stages-of-grace
 name: "Egypt as the measure - one reference point, two modes [PRIMARY]"
 classification: primary
 description: >-
-  A self-conscious relationship to Egyptian monastic authority as the standard against which Gallic
-  monasticism is received, adapted, or matched. In the south the mode is RECEPTIVE: Castor is
-  'anxious that the institutions of the East and especially of Egypt should be established in your
-  province, which is at present without monasteries,' Cassian will correct anything founded
-  'according to the fancy of any one who has founded a monastery' against the Egyptian rule and
-  adapt only 'where I find anything ... impossible in these countries' (Inst. Pref.); Gallic monks
-  are to receive 'into their cells the authors of the Conferences' (Conf. Pref. III); Eucherius
-  names John and Macarius as the pattern of a life 'made in heaven' while in the deserts (row 26).
-  In the north the mode is COMPARATIVE: Gennadius's ancient witness that the Dialogues' subject is
-  'the manner of life of the oriental monks and of St. Martin'; 'you have conquered all the eremites
-  and anchorites' (Dial. II.5); let Egypt, 'justly proud of the numbers and virtues of its own
-  saints,' hear that 'Europe will not yield to it, or to all Asia, in having only Martin' (Dial.
-  III.17). Gaul, 'the cold of Gaul,' is the local pole - the debtor - folded in at Doc_04 §2.2.
-  AUTHOR GRAVITY FLAG AT GENERATION (Doc_04 §2.1): none as to the reference point; SPLIT-MODE RISK
-  flagged - the receptive mode is Cassian's, the comparative mode Sulpitius's - and confirmed under
-  testing. SIX-TEST SUMMARY (Doc_04 §3): Repetition across S, C, L, Sv, Gn, M; Dependency (the
-  Institutes' entire structure, the Conferences' frame, the Dialogues' structure per Gennadius, and
-  Doc_01 §8.2's world-continuity finding depend on it); Formation passes in the south ('formation IS
-  the reception') and partially in the north; Explanatory (the self-deprecating Gallic identity, the
-  climate-adaptation vocabulary, Eucherius's wish to travel, why Cassian's text is at once
-  desert-monasticism's Latin transmission and this world's founding literature); Persistence across
-  both nodes 'but in two different modes'; Interaction full - no '-' cell in the row. CROSS-NODE:
-  SPLIT FINDING - 'one reference point, two modes'; both nodes organize around Egypt as the standard
-  of monastic authenticity (that is the gravity); they differ in whether the relationship is
-  receptive (south) or comparative-competitive (north). Doc_04 records the split rather than calling
-  it either convergence or divergence and hands it to the one-world-or-two question as input; this
-  record carries it the same way. CONFIDENCE/GRAVITY CROSS-CHECK: Documented (south) / Widely
-  Accepted (north); no divergence - strength is highest where confidence is highest. Classification
-  PRIMARY 'with the split-mode finding stated as a permanent qualifier.' FORCES NOTATION (Doc_04 §3;
-  Doc_08 §5): held, then shifted in mode - Tours (c. 360-397) had no Cassian and answered the
-  Egyptian standard by rivalry; Marseilles-Lérins (c. 410-435) by reception with adaptation; under
-  the grace controversy the receptive mode hardened and Egypt became the authority pleaded against
-  Augustine and Rome ('all the Catholic fathers who have taught perfection of heart,' Conf.
-  XIII.18); under barbarian pressure Egypt remains a byword for holiness in Salvian's one
-  non-monastic reference. 'The gravity held; what shifted was what Egypt was needed for - a standard
-  to match (north), then a rule to receive (south), then an authority to plead (south, under
-  pressure).'
+  This world holds Egypt up as the standard of real monastic life. But the two houses relate to
+  that standard in opposite ways.
+
+  In the south, the tie is receptive. Bishop Castor wanted the customs of the East, and especially
+  of Egypt, set up in a province of Gaul that had no monasteries at all. Cassian promises to fix
+  anything founded on one person's own whim, rather than on the Egyptian rule. He will adapt the
+  letter of that rule only where Gaul's climate or circumstances make it truly impossible (Inst.
+  Pref.). Gallic monks are told to take the authors of the Conferences into their own cells, as
+  living teachers (Conf. Pref. III). At Lérins, Eucherius names two Egyptian fathers as the pattern
+  of a life already lived, in effect, in heaven.
+
+  In the north, the tie is comparative, even competitive. Gennadius, writing as a near-contemporary,
+  says plainly that the Dialogues set the life of the Eastern monks side by side with the life of
+  Martin. One speaker in the Dialogues tells another that he has out-argued every hermit and
+  solitary of the East. Another passage sends word all the way to Egypt itself. However proud Egypt
+  is of its many saints, Europe need not yield to it, or to all of Asia, since Europe has Martin
+  alone. Gaul is the poorer, colder partner in this comparison.
+
+  Both houses organize themselves around the same point: Egypt, as the standard of real monastic
+  life. But they differ in kind. The south receives that standard as a rule to keep. The north
+  measures itself against it as a rival to match. This split shows up everywhere the idea is tested.
+  It repeats across every voice in this world's own literature. The Institutes' whole structure, the
+  Conferences' whole frame, and the shape of the Dialogues all depend on it. In the south, formation
+  itself is nothing but this act of reception. In the north, the fit is only partial. It explains
+  the north's competitive language and the south's own talk of adapting to climate. It explains why
+  Cassian's own text is, at once, desert monasticism's Latin transmission and this world's own
+  founding literature. And it holds up across both houses, in these two different modes, wherever it
+  meets this world's other core ideas. Both halves rest on strong, direct evidence. So this record
+  finds no real doubt about the finding itself. The only open question is what it means for whether
+  this is one world or two - and this record leaves that question open.
+
+  The tie to Egypt held steady across this world's whole span. But what Egypt was needed for kept
+  changing. Before Cassian ever wrote, Tours answered the Egyptian standard with rivalry. Marseilles
+  and Lérins answered it, a generation later, with reception and careful adaptation. Once the fight
+  over grace broke out, the receptive mode hardened further. Egypt itself became an authority to
+  plead against Augustine and Rome - the whole line of orthodox teachers on the heart's own
+  perfection, as Cassian frames it. Under the barbarian collapse, Egypt survives as little more than
+  a byword for holiness, in the one place Salvian mentions it. The standard itself never moved. What
+  moved was what this world needed it for.
 manifestations:
 - "Cassian's Institutes Preface: the customs 'which we have seen observed throughout Egypt and Palestine, as they were there delivered to us by the Fathers,' adapted only where 'the severity of the climate, or ... some difficulty or diversity of habits' makes them impossible in Gaul"
 - "The standing correction of Gaul: 'we cannot recollect any one who joined our monasteries keeping it up unbroken even for a year' (Inst. IV.2); Egyptian dress 'would afford a subject for derision instead of edifying the spectators' (Inst. I.10)"

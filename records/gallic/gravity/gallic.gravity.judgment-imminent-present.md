@@ -66,43 +66,55 @@ relations:
   target: gallic.force.roman-frame-passing
 - type: associated-with
   target: gallic.figure.vincent
+- type: associated-with
+  target: gallic.quote.martin-antichrist-already-at-hand
+- type: associated-with
+  target: gallic.quote.martin-antichrist-already-born
+- type: associated-with
+  target: gallic.quote.sulpitius-weariness-of-the-present-world
+- type: associated-with
+  target: gallic.quote.vincent-awful-expectation-of-judgment
+- type: associated-with
+  target: gallic.quote.salvian-ever-present-judgment-gallic-provinces
+- type: associated-with
+  target: gallic.quote.salvian-present-judgment-clearly-shown
 name: "Judgment, imminent and present [SUPPORTING - provisional, weakest]"
 classification: supporting
 description: >-
-  Antichrist 'at hand' (Sulpitius), 'awful expectation' (Vincent), 'the present judgment of God' in
-  the barbarian ruin of Gaul (Salvian) - the ecology's temporal horizon, in three distinct modes.
-  Tours, imminent-apocalyptic: from the false Christs 'we may infer ... that the coming of
-  Antichrist is at hand; for he is already practicing in these persons the mystery of iniquity'
-  (Vita XXIV); Antichrist 'already born, and had, by this time, reached the years of boyhood' (Dial.
-  II.14); 'a weariness of the present world, a terror of judgment, a fear of punishment' (Ep. II).
-  Lérins, imminent-occasional: 'a certain awful expectation of the approach of the divine judgment
-  importunately demands increased earnestness in religion' (Comm. ch. 1). Marseilles,
-  present-historical: 'the present judgment of God was clearly shown' (Gov. VII.10); 'We are judged
-  by the ever-present judgment of God, and thus a most slothful race has been aroused to accomplish
-  our destruction and shame ... the whole body of the Gallic provinces' (VII.12). Cassian's 'fear of
-  hell' (Conf. XI.6) is judgment as the beginner's restraint, a motive among three, not an
-  expectation. AUTHOR GRAVITY FLAG AT GENERATION (Doc_04 §2.1): weight sits in a fourth, later-added
-  voice (Salvian) - the three founding voices attest it as motif or occasion, not as organizing
-  force. SIX-TEST SUMMARY (Doc_04 §3): Repetition passes (S, V, Sv, C); Dependency passes for
-  Salvian's work entirely and for Vincent's stated occasion, weak for Sulpitius and Cassian;
-  Formation passes weakly; Explanatory passes (the urgency of both the Commonitory and the
-  Dialogues' closing prophecy; 'the frame through which the barbarian catastrophe entered this
-  world's literature at all'); Persistence passes across nodes and voices 'but in three distinct
-  modes ... that do not obviously depend on each other'; Interaction passes 'thinly' - four '-'
-  cells, three 'thin' reinforcements, 'the thinnest row in the matrix.' CROSS-NODE: confirmed as a
-  motif; as an organizing force, weighted to one late southern voice. CLASSIFICATION: SUPPORTING
-  (provisional, the weakest in the document) - it organizes Salvian's Native work completely and
-  supplies the occasion of Vincent's, but in the founding voices 'it recurs more than it organizes.'
-  Doc_04 would not resist a downgrade that named the Doc_08 consequence; Doc_08 Cell 2A-5
-  recommended retaining it, finding the barbarian force's four other attachments thin, borrowed, or
-  occasional. CONFIDENCE/GRAVITY CROSS-CHECK: divergence stated - Documented evidence, thin
-  organizing breadth in the founding voices. FORCES NOTATION (Doc_04 §3; Doc_08 §5): shifted in kind
-  under the ending force - under the initiating force it is the standard late-antique horizon
-  (Antichrist at hand; judgment to come); under barbarian pressure it 'shifted from future to
-  present': Salvian's 'ever-present judgment' is judgment executed now, in the sack of the Gallic
-  provinces - 'the one place in this world's literature where the force Doc_01 §7 calls "what larger
-  world it was embedded in" enters the text directly,' and the only gravity the passing of the Roman
-  frame touches at all.
+  Antichrist is close at hand, in Sulpitius's own telling. A solemn expectation of judgment presses
+  in, in Vincent's. God's judgment is already happening, in the ruin of Gaul, in Salvian's. These
+  are the ecology's own three distinct ways of holding the same idea - that time is running out.
+
+  At Tours, the mood is imminent and apocalyptic. From a run of false Christs, Sulpitius reasons
+  that Antichrist himself must be near, already at work in these very impostors (Vita XXIV). Gallus
+  recounts that Martin told him and his companions that Antichrist had already been born and had,
+  by the time Martin spoke of it, grown into boyhood, waiting only to come of age (Dial. II.14). In
+  one of his own letters, Sulpitius describes sitting alone with a mind full of hope for the future
+  mixed with weariness of the present world, dread of judgment, and fear of punishment (Ep. II).
+
+  At Lérins, the mood is occasional rather than constant. Vincent says plainly that a solemn
+  expectation of God's coming judgment, together with the danger of new heresies, is exactly what
+  drove him to write his handbook of the faith (Comm. ch. 1).
+
+  At Marseilles, the mood shifts from a future expectation to a present fact. Salvian reads the
+  barbarian ruin of the Gallic provinces itself as God's judgment already carried out (Gov. VII.10,
+  VII.12). Cassian, meanwhile, treats fear of hell as only the first and most basic motive a
+  beginner in the ascetic life feels (Conf. XI.6) - not an expectation about the end of the world at
+  all.
+
+  This gravity is well attested wherever it appears, but it organizes far less of this world's
+  founding literature than the strength of that evidence might suggest: it is Salvian's own entire
+  book, and it supplies Vincent's stated occasion for writing, but in Sulpitius and Cassian it shows
+  up more as a recurring note than as something that shapes the whole. For that reason it is
+  classified here as a supporting gravity, the weakest and most provisional in this world's whole
+  set, rather than a primary one - not because the evidence for it is thin, but because it never
+  quite organizes as broadly as the strongest gravities do.
+
+  Under the pressure of barbarian collapse, judgment changes in kind, not just intensity: it shifts
+  from something still to come to something already happening, in Salvian's own words about the
+  present ruin of the Gallic provinces. That is the one place where the larger world's own
+  catastrophe enters this world's literature directly, and the only gravity that the passing of
+  Roman order touches at all.
 manifestations:
 - "Martin's inference from the false Christs in Spain and the East that 'the coming of Antichrist is at hand' (Vita XXIV); Antichrist 'already born ... reached the years of boyhood' (Dial. II.14)"
 - "Ep. II's 'a weariness of the present world, a terror of judgment, a fear of punishment'"

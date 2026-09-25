@@ -57,38 +57,55 @@ relations:
   target: gallic.gravity.egypt-as-measure
 - type: associated-with
   target: gallic.gravity.judgment-imminent-present
+- type: associated-with
+  target: gallic.quote.martin-power-present-catechumen-raising
+- type: associated-with
+  target: gallic.quote.martin-exorcism-without-touch-or-reproach
+- type: associated-with
+  target: gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles
+- type: associated-with
+  target: gallic.quote.humility-mistress-of-virtues-not-exorcism
+- type: associated-with
+  target: gallic.quote.egyptian-sackcloth-utterly-disapproved
 name: "Power displayed against power disowned - virtus and humility, a tension the world did not experience as one [2B - ongoing/internal]"
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  The two nodes' literatures are made of what the other refuses, and neither addresses the other.
-  The north's is built of virtutes - Martin 'perceiving by means of the Spirit of God that power was
-  present' (Vita VII); Ep. I's defense of the virtus against a skeptic; exorcism performed prostrate
-  in sackcloth, 'the doors being bolted,' in which he 'touched no one with his hands, and reproached
-  no one in words' (Dial. III.6) - and it polices doubt from within: Brictio's 'ridiculous fancies
-  about visions' (Dial. III.15). The south's teacher refuses it on principle: 'Nor certainly shall I
-  try to weave a tale of God's miracles and signs ... which minister to the reader nothing but
-  astonishment and no instruction in the perfect life' (Inst. Pref.); 'our predecessors never
-  reckoned those as good monks or free from the fault of vainglory, who professed themselves
-  exorcists among men,' 'Humility therefore is the mistress of all virtues' (Conf. XV.7); and at the
-  level of dress, sackcloth 'utterly disapproved ... as being visible to all and conspicuous' (Inst.
-  I.2) against Martin's sackcloth worn as a weapon. Inside the south, Eucherius admires the Egyptian
-  fathers' grace shown 'in crying signs' - 'so the competition is Cassian-versus-Sulpitius, not
-  south-versus-north wholesale' (Doc_08 Cell 2B, Force 2B-4). WORLD'S OWN EXPERIENCE (Layer 2): at
-  Tours the power was present, not owned - more of it as a monk than as a bishop, less after one bad
-  communion - and it was shown before witnesses, in a conspicuous garment, for the countryside; the
-  disciple who mocked visions had a demon. At Marseilles the good monk was known by the beauty of
-  his life and not by whether devils obeyed him; to profess oneself an exorcist before admiring
-  crowds was vainglory; sackcloth was for show. 'Each house lived inside its own economy and did not
-  know the other's as an argument against it: the north's saint and the south's fathers never met in
-  any text.' FORMATION IMPACT (Layer 3): G6 against G7 - 'the sharpest cell in Doc_04's Interaction
-  Matrix and one of the ecology's two structural tensions.' It sorted every lens's node-split onto
-  one axis (display against concealment, wonder against compunction, conductor against ledger), and
-  it made compunction mark opposite curves at the two nodes. 'Its formation impact is that the
-  world's two formation ecologies share a skeleton and not a flesh.' As a force it is ongoing only
-  in the sense that each house sustained its own economy across the window; 'it never became an
-  argument between them, which is Doc_04 §6's "strongest [argument] for two" and is recorded here as
-  input to Step 0, not resolved.'
+  The two nodes' literatures are each built from what the other refuses, and neither ever
+  addresses the other directly.
+
+  The north's is a literature of power shown. At the deathbed of a catechumen, Martin prayed and
+  sensed that God's power was present, then raised the young man back to life (Vita VII). His
+  letters defend that same power against a skeptic (Ep. I). When he cast out demons, he did it
+  face-down in sackcloth, the door bolted, without touching or scolding anyone (Dial. III.6). The
+  north also tells a story about doubt from within: one of Martin's own monks, in a fit of rage,
+  mocked Martin's own visions as an old man's ridiculous fancy - and that same monk, the story
+  shows, had a demon of his own (Dial. III.15).
+
+  The south's teacher refuses this on principle. Cassian will not tell stories of miracles and
+  signs, however many he has seen, because they only astonish a reader and teach nothing about how
+  to live well (Inst. Pref.). Abbot Nesteros teaches that a monk who declares himself an exorcist
+  before an admiring crowd was never counted a good monk at all - humility, not power, is the
+  mother of every virtue (Conf. XV.7). Even dress carries the argument: the Egyptian fathers
+  flatly rejected sackcloth as showy and conspicuous (Inst. I.2), the very thing Martin wears as a
+  weapon. Inside the south itself, Eucherius still admires the Egyptian fathers' own visible signs
+  of grace - the real argument here runs between Cassian and Sulpitius, not between south and
+  north as a whole.
+
+  At Tours, power was something shown, not owned - more of it in Martin the monk than in Martin
+  the bishop, and less of it after one forced communion he came to regret. It was shown before
+  witnesses, in a garment everyone could see, for the sake of the countryside. At Marseilles, a
+  good monk was known by how he lived, not by whether devils obeyed him; claiming to be an
+  exorcist before a crowd was vanity, and sackcloth was performance. Each house lived inside its
+  own logic and never treated the other's as an argument against it - Martin's reputation and the
+  Egyptian fathers' teaching never meet in any surviving text.
+
+  This tension runs through the whole ecology. It splits every lens the same way - display against
+  concealment, wonder against caution, a public act against a private ledger - and it even makes
+  the same word, compunction, curve in opposite directions at the two houses. The two halves of
+  this world's formation share a skeleton, but not a flesh. As an ongoing force, each house simply
+  kept living inside its own economy for the whole period; the two sides never actually argued
+  with each other, because neither ever heard the other's case.
 manifestations:
 - "Martin's virtus present, not owned - shown before witnesses, in sackcloth, for the countryside (Vita VII; Dial. III.6)"
 - "Brictio's 'ridiculous fancies about visions' - doubt policed from within the north (Dial. III.15)"
