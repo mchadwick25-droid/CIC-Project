@@ -37,8 +37,9 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 name: Confessor Authority vs. Episcopally Regulated Peace
 description: >-
-  A tensional gravity: two real, opposed pressures held in tension rather than settled. One caution was
-  flagged from the start. The evidence rests mainly on one source, Cyprian's Epistles, read through a
+  This is an unresolved tension in this world, not a settled concern: two real, opposed pressures held
+  against each other rather than settled. A limit is worth naming up front: the evidence rests
+  mainly on one source, Cyprian's Epistles, read through a
   single term in this world's lexicon.
 
 
@@ -68,7 +69,7 @@ description: >-
 
   Both poles are solidly attested. The confessors' own letters in Epistles XX-XXI and the regulating argument
   of De Lapsis show them in their own words. The Epistles carry the higher citation grade (A) and De
-  Lapsis the lower (B). There is no confidence gap. The tension itself is the finding.
+  Lapsis the lower (B). Neither side is thinly sourced -- the tension itself is the finding.
 
 
   The forces around it hold the tension in place rather than resolve it. The Decian persecution created

@@ -41,7 +41,7 @@ description: >-
   bishop. This is documented.
 
 
-  For this world, the Donatists were not strangers, and not heretics of a foreign kind. They were a
+  The Donatists were not strangers to this world, and not heretics of a foreign kind. They were a
   church in the same towns, with its own bishop in the same see, claiming to be the only true church.
   For their central practice, they appealed to a ruling by Cyprian, this world's own first bishop.
 

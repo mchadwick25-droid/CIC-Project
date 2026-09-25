@@ -32,27 +32,22 @@ description: >-
   standing at all. Later it could ask the state to act against a rival communion.
 
 
-  The outside change itself is documented. One element is contested. The dispute is not whether the
-  shift happened. It is whether its consequence belongs among the world's inner forces or its outside
-  pressures. Placing it as an inner force follows a judgement made earlier in the world's construction.
-  It is reported as that earlier judgement, not as a settled finding.
+  The outside change itself is documented. One element is contested: not whether the shift happened,
+  but whether its consequence belongs among the world's inner forces or its outside pressures. Placing
+  it as an inner force follows a judgement we made earlier, not a settled finding.
 
 
-  The shift is the old condition of illegality turned upside down. The same fact appears at both ends of
-  the story, with the opposite sign.
+  The shift is the old condition of illegality turned upside down, the same fact appearing at both ends
+  of the story with the opposite sign. What a bishop could do had changed, though what a bishop was had
+  not -- Cyprian never asked the magistrate for anything, and a century and a third later, the magistrate
+  could be asked, and eventually was.
 
 
-  What a bishop could do had changed, though what a bishop was had not. Cyprian never asked the
-  magistrate for anything. A century and a third later, the magistrate could be asked, and eventually
-  was.
-
-
-  The shift was tested as a candidate gravity, meaning a concern the world's formation organizes around.
-  It was not advanced as one, because nothing in this world organizes itself around the shift. It
-  changes the tools a bishop has, not what a bishop is. A separate look from the ethical and legal side
-  reached the same conclusion. So it is kept as a real force, with an impact deliberately limited in
-  proportion to its weight. A rival communion, the Donatist church, is what made the new state power
-  worth using.
+  We considered whether the shift itself was one of this world's own central concerns. It is not,
+  because nothing in this world actually organizes itself around the shift. It changes the tools a
+  bishop has, not what a bishop is. A separate look from the ethical and legal side reached the same
+  conclusion. So it is kept as a real force, with an impact deliberately limited in proportion to its
+  weight. A rival communion, the Donatist church, is what made the new state power worth using.
 manifestations:
 - Cyprian never asking the magistrate for anything, set against Augustine's later recourse to state action
   against the Donatist schism a century and a third afterward

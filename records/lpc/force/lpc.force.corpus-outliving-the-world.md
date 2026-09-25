@@ -42,24 +42,26 @@ description: >-
 
   Yet this world did take its own writings seriously as something that would stand after it. Cyprian
   gathered and forwarded his own letters as a body of work. At the end, Augustine went back through
-  everything he had written and corrected it, in the Retractationes. That work survives only in Latin. A
-  man who revises his life's work knows it will be read when he cannot answer for it. What he could not
-  know, and what no one in this world could know, was which of it would matter, or to whom.
+  everything he had written and corrected it, in the Retractationes -- our own corpus holds no English
+  translation of that work. A man who revises his life's work knows it will be read when he cannot
+  answer for it. What he could not know, and what no one in this world could know, was which of it
+  would matter, or to whom.
 
 
   The change is real, but it runs outward, not inward. Augustine's teaching on grace and human incapacity
-  outlives its own setting most of all. Within this world that teaching stands on its own. For the
+  outlives its own setting most of all -- within this world that teaching stands on its own, but for the
   traditions that follow, it becomes load-bearing. This is the one force whose impact lands mostly
-  outside the world's own boundaries. That is why it counts as an ending force, not an ongoing one.
+  outside the world's own boundaries, which is why it counts as an ending force, not an ongoing one.
 
 
   The anti-Pelagian writings are the largest single part of this inheritance. The Vandal invasion closes
-  the world at the same moment, but it does not cause this outcome. The two coincide; one does not
-  produce the other.
+  the world at the same moment, but it does not cause this outcome -- the two coincide, and one does
+  not produce the other.
 manifestations:
 - Augustine's theological corpus, which became the foundational inheritance of the later Western theological
   tradition
-- Augustine's Retractationes, reviewing his own life's work near the end of it (it survives only in Latin)
+- Augustine's Retractationes, reviewing his own life's work near the end of it (our own corpus holds
+  no English translation of it)
 matrix_cell: 3B
 ---
 Re-derived from the approved Doc_08 §3 Force 3B-1 (Cell 3B, Ending/Internal). relations[] carries the gravity<->force edge (G7) and the force<->force edges (2A-4, 3A-1) named above.

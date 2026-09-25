@@ -23,7 +23,9 @@ sources:
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
   license: public-domain
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Vita Augustini ch. VIII, "under compulsion and constraint he yielded and accepted the ordination"
+    -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143
+    (the phrase is hyphenated across a line wrap in the source file -- "under com-" then "pulsion and constraint")'
   license: public-domain
 relations:
 - type: associated-with

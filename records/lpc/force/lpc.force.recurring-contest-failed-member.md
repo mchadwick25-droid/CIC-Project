@@ -45,7 +45,7 @@ description: >-
   baptism, and over believers tempted by schism. The contest is documented in both periods.
 
 
-  To the world itself, this was the question that would not go away: what do you owe someone who is
+  This was the question that would not go away, felt from inside: what do you owe someone who is
   yours and has failed? A church that takes everyone back the same afternoon has no door. One that takes
   no one back has no Master.
 

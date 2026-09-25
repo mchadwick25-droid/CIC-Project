@@ -33,14 +33,15 @@ relations:
   target: lpc.force.corpus-outliving-the-world
 name: Grace and Human Incapacity
 description: >-
-  A supporting gravity. It organizes a large and extremely well-evidenced part of the world, but only
-  in Augustine's phase. It does not span the whole world the way pastoral office, penitential
+  This is a real concern in this world, though a narrower one. It organizes a large and extremely
+  well-evidenced part of the world, but only in Augustine's phase. It does not span the whole world the
+  way pastoral office, penitential
   discipline, collegial communion, and sacramental validity do.
 
 
-  One caution was disclosed from the start, not discovered later. All the evidence comes from one
-  voice, Augustine, in one body of work, the anti-Pelagian corpus. The sheer density of that evidence
-  could otherwise be mistaken for breadth.
+  This comes with a real limit, worth naming plainly rather than discovering later. All the evidence
+  comes from one voice, Augustine, in one body of work, the anti-Pelagian corpus. The sheer density of
+  that evidence could otherwise be mistaken for breadth.
 
 
   It is by far the most textually dense gravity in this world. The word "grace" occurs 1,798 times in

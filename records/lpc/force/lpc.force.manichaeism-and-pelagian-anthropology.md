@@ -38,7 +38,7 @@ description: >-
   the 410s and 420s, and it fills a corpus of thirteen works. Both are documented.
 
 
-  For this world, these were two ways of accounting for a person. A bishop had to answer them from the
+  These were two ways of accounting for a person that this world had to reckon with. A bishop had to answer them from the
   pulpit, because the people in front of him had heard them.
 
 
@@ -48,10 +48,10 @@ description: >-
   the world.
 
 
-  The Manichaean half is named here but not developed. It was never tested on its own as a candidate
-  gravity, a concern the world's formation organizes around. The reason is that the world's vocabulary
-  study had not turned up a term specific enough to test. That is a stated limit of the analysis. It is
-  not a judgement that the Manichaean pressure was slight.
+  The Manichaean half is named here but not developed. We never tested it on its own as one of this
+  world's own central concerns, because our own vocabulary study had not turned up a term specific
+  enough to test. That is a stated limit of the analysis, not a judgement that the Manichaean pressure
+  was slight.
 manifestations:
 - Manichaeism, an organized rival system Augustine belonged to for roughly nine years before his conversion
 - the thirteen-work anti-Pelagian corpus, with 1,798 raw occurrences of "grace" within its bounds

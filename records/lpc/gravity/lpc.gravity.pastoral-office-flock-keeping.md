@@ -55,8 +55,8 @@ relations:
   target: lpc.force.vandal-invasion-siege-of-hippo
 name: Pastoral Office as Territorial Flock-Keeping
 description: >-
-  A primary gravity and the hub of this world. It holds up strongly on every measure. A bishop is
-  personally answerable for a bounded flock, and much of the rest of the world flows from that.
+  This is the concern everything else in this world turns on. A bishop is personally answerable for
+  a bounded flock, and much of the rest of the world flows from that.
 
 
   It recurs without a break across every primary source for both bishops and both phases. It appears in
@@ -66,9 +66,9 @@ description: >-
 
   Other gravities depend on it. Penitential discipline is carried out by a bishop who holds this office.
   Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who
-  legitimately holds the office. Sacramental validity asks the same question. In the words of this
-  world's core identity, its formation is "pastoral and sacramental before it is juridical." The whole
-  apparatus of teaching and penance exists because a bishop answers personally for his flock.
+  legitimately holds the office. Sacramental validity asks the same question. This world's own formation
+  is pastoral and sacramental before it is juridical. The whole apparatus of teaching and penance exists
+  because a bishop answers personally for his flock.
 
 
   It explains why Cyprian's crisis letters exist at all and why Augustine's sermon collection is so
@@ -80,11 +80,10 @@ description: >-
 
 
   The evidence is solidly attested. Accounts of holding and exercising this office are directly quoted
-  and checked: the preface to the Council of 256, Cyprian's own Epistle XXXI, Augustine's own Letter
-  CCXIII, and Pontius's narrative. Possidius's Life of Augustine is not counted; that account has not
-  independently been checked beyond identifying the Megalius consecration. So the rating rests on
-  Pontius, the two letters, and the 256 preface alone. This corrects the citations; it does not change
-  the classification.
+  and checked: the preface to the Council of 256, Augustine's own Letters XXXI and CCXIII, and Pontius's
+  narrative. Possidius's Life of Augustine is not counted; that account has not independently been checked
+  beyond identifying the Megalius consecration. So the rating rests on Pontius, the two letters, and the
+  256 preface alone.
 
 
   It is the gravity most densely connected to the forces acting on the world. Christianity's standing
@@ -95,8 +94,8 @@ description: >-
   of Hippo mark where the bond ends: it ends when the bishop does.
 manifestations:
 - '"it is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian, De Lapsis)'
-- Cyprian's own account of holding and exercising this office at the 256 Council preface, and in Epistle
-  XXXI; Augustine's own account in Letter CCXIII
+- Cyprian's own account of holding and exercising this office at the 256 Council preface; Augustine's
+  own account in Letters XXXI and CCXIII
 - Pontius's narrative of Cyprian's conduct as bishop
 classification: primary
 ---

@@ -50,8 +50,9 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 name: Preaching and Catechesis as the Primary Mode of Formation
 description: >-
-  A supporting gravity. It is the medium through which the other gravities are taught, rather than a
-  force that organizes the world by itself. It clearly recurs, shapes believers, and lasts across both
+  This is a real concern in this world, though a narrower one. It is the medium through which this
+  world's other central concerns are taught, rather than a force that organizes the world by itself.
+  It clearly recurs, shapes believers, and lasts across both
   phases. But its links to other gravities, and what it explains, are narrower.
 
 
@@ -70,7 +71,7 @@ description: >-
 
 
   The evidence is solidly attested for the existence and basic content of these texts. The specific passages
-  carry the lower citation grade (B). There is no confidence gap.
+  carry the lower citation grade (B), but that is not a thin spot in the evidence.
 
 
   It depends on a shared vernacular to teach in: the inherited Latin theological vocabulary. It also

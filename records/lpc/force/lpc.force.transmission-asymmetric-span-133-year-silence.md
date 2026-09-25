@@ -27,7 +27,7 @@ kind: ending
 description: >-
   This world's closing decades are much better attested than its opening ones. Between its two phases
   lies a silence of roughly 133 years, from Cyprian's martyrdom to Augustine's ordination. No primary
-  source this world names, and no text in its source catalogue, dates from within that gap. This is a
+  source in our own record, and no text in our own source catalogue, dates from within that gap. This is a
   documented fact about the record itself, and anyone can check it against the catalogue.
 
 
@@ -48,7 +48,7 @@ description: >-
 
   Second, the gap is richly attested, but by sources that belong to Donatism's territory, not this
   world's. So the silence calls for discipline at the boundary; it is not simply missing evidence. The
-  temptation is to fill it from that other world, and this world's own limits forbid that.
+  temptation is to fill it from that other world, and we do not let ourselves do that.
 
 
   Third, concerns that belong to one phase only reflect the record as well as the world. Penitential

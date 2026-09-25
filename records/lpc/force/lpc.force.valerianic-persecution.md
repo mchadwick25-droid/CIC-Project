@@ -33,7 +33,7 @@ description: >-
   documented, including in the Acta Proconsularia.
 
 
-  To the world itself, the thing had not finished with them. The man who had spent seven years deciding
+  The thing had not finished with them. The man who had spent seven years deciding
   what to do with those who failed the first test was taken by the second. He did not fail it.
 
 

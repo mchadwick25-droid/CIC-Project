@@ -27,19 +27,19 @@ name: The Vandal Invasion (from 429) and the Siege of Hippo
 kind: ending
 description: >-
   The Vandals crossed from Spain in 429. They besieged Hippo in the final months of Augustine's life,
-  and he died on 28 August 430. A near-contemporary Gallic chronicler independently records his death
-  under that year. This is documented. The same chronicle records the Vandal capture of Carthage under
-  439. That is a different city, nine years later, and no part of where this world ends.
+  and he died on 28 August 430 -- a date a near-contemporary Gallic chronicler independently records.
+  This is documented. The same chronicle records the Vandal capture of Carthage under 439, a different
+  city, nine years later, and no part of where this world ends.
 
 
-  To the world itself, this was an army on the road while the bishop lay dying inside the walls. The
-  people he answered for were still in the city.
+  This was an army on the road while the bishop lay dying inside the walls, with the people he answered
+  for still in the city.
 
 
-  This force closes the world the same way it opened: with violent pressure from outside on ordinary
-  congregational life. That is the second of the two reasons for ending this world in 430. It also ends
-  the recorded life of the pastoral office in this world. The bond between this bishop and this flock
-  ends when he does.
+  This force closes the world the same way it opened, with violent pressure from outside on ordinary
+  congregational life -- the second of the two reasons for ending this world in 430. It also ends the
+  recorded life of the pastoral office here: the bond between this bishop and this flock ends when he
+  does.
 
 
   The invasion coincides with the survival of the world's writings, but it does not cause it. The

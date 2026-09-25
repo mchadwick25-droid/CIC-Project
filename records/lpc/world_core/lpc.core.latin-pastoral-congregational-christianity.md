@@ -54,8 +54,8 @@ time_window:
   end: 430
 horizon: >-
   The formation of ordinary Latin North African Christianity, c. 246-430 CE. Here Christianity is
-  lived as territorial, congregational, pastoral life under a bishop's office. Two bishops anchor it. Cyprian
-  of Carthage led his church through the Decian persecution, plague, and schism as a working bishop
+  lived as territorial, congregational, pastoral life under a bishop's office. Two bishops hold it together.
+  Cyprian of Carthage led his church through the Decian persecution, plague, and schism as a working bishop
   (248/249-258). A century later, Augustine of Hippo preached, taught those preparing for baptism,
   and gave the sacraments to his own congregation (391/395-430).
 
@@ -70,11 +70,11 @@ horizon: >-
   is legal.
 
 
-  Carthage, the first anchor, was the metropolitan see of Africa Proconsularis. Through most of this
-  world's span it was the most populous Latin Christian city outside Rome.
+  Carthage was the metropolitan see of Africa Proconsularis. Through most of this world's span it was
+  the most populous Latin Christian city outside Rome.
 
 
-  Hippo Regius, the second anchor, was a substantial port city. In civil terms it is usually placed
+  Hippo Regius was a substantial port city. In civil terms it is usually placed
   in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a provincial
   bishop, answerable within a different provincial structure from Carthage, the primate's see. Even
   so, he attended the wider African councils that Carthage led.
@@ -196,9 +196,9 @@ formation_logic: >-
   bond it will not break, because the bond is the thing it actually believes in.
 thinness: >-
   This is not a hostile-source problem, the way it is for the neighbouring Donatist world. Both
-  anchor voices speak in their own words, as bishops of the tradition at the centre of this world,
-  not as quotations in an opponent's book. This world holds the largest and most direct base of
-  primary sources of any confirmed world so far.
+  bishops speak in their own words, as bishops of the tradition at the centre of this world, not
+  as quotations in an opponent's book. This world holds the largest and most direct base of primary
+  sources of any confirmed world so far.
 
 
   The imbalance here is narrower, and different in kind. Two named voices carry nearly this world's
@@ -243,8 +243,8 @@ thinness: >-
   recorded.
 
 
-  The rites themselves have never been read as evidence in their own right. The works that argue
-  this world's two anchor controversies take for granted the rite each one argues about. They do not
+  We have not yet read the rites themselves as evidence in their own right. The works that argue this
+  world's two defining controversies take for granted the rite each one argues about. They do not
   describe that rite on its own terms.
 
 
@@ -257,13 +257,13 @@ thinness: >-
   The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
   recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
   fourteen numbered acts. The Gesta sit in this world's own collection, and they bear on the
-  question of what councils can decide. But nothing this world says yet draws on them.
+  question of what councils can decide. But we have not yet drawn on them.
 cautions: >-
   1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
-  world, nearly the whole record comes through opponents; here, both anchor voices are this
-  tradition's own, in their own words, at enormous length. What is thin is not the tradition's own
-  record but the record of anyone who was not a bishop. Do not mistake Augustine's dominance as a
-  bishop for the whole of this world's voice.
+  world, nearly the whole record comes through opponents; here, both bishops speak in this
+  tradition's own words, at enormous length. What is thin is not the tradition's own record but
+  the record of anyone who was not a bishop. Do not mistake Augustine's dominance as a bishop for
+  the whole of this world's voice.
 
 
   2) The century gap (258-391) is Donatism's territory, not this world's. Never describe what
@@ -305,27 +305,27 @@ cautions: >-
   6) What councils can decide is held open, not settled. Cyprian's theory of authority among bishops
   is equal and non-coercive. Augustine's is hierarchical, and it holds that a council's judgment can
   be corrected. These are real, substantial differences, and they are not considered fully closed. A
-  firm classification looks reachable from this world's own premises, but it has not been made. The
-  finding that the two bishops form one strand also carries a stated caveat: it could be reopened on
-  exactly this point.
+  firm classification looks reachable from our own premises, but it has not been made. The finding
+  that the two bishops form one strand also carries a stated caveat: it could be reopened on exactly
+  this point.
 
 
   7) The question of De Unitate's two versions is unresolved. Chapters 4-5 of De Unitate survive in
-  two versions. One, the 'Primacy Text', reads more favourably toward Roman primacy. Nothing this
-  world says rests on which version came first.
+  two versions. One, the 'Primacy Text', reads more favourably toward Roman primacy. Nothing in our
+  own account here rests on which version came first.
 
 
   8) Optatus is deliberately listed in more than one place, and is not drawn on. His Against the
   Donatists is Catholic polemic against the Donatists. It is not evidence of this world's ordinary
   pastoral and congregational life, the way Cyprian's and Augustine's own writings are. Where he is
-  listed is a cataloguing question settled elsewhere. It is not a claim about which world he
-  actually belongs to.
+  listed is a corpus-map cataloguing question, outside this compilation's own editing authority. It
+  is not a claim about which world he actually belongs to.
 
 
   9) The rich record of the 411 Conference does not widen what it can support. In fourteen numbered
   acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
-  this world still dates the Conference by its ordinary, undisputed dating, not by any reading of
-  those acts. The acts are available for later use, but nothing here draws on them yet.
+  we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
+  The acts are available for later use, but nothing here draws on them yet.
 
 
   10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of
@@ -334,7 +334,13 @@ cautions: >-
   not a substitute for doing it.
 
 
-  11) A risk around shame and self-forgiveness sits at this world's table. Its emotional register is
+  11) The record this compilation rests on was itself under independent review while this world was
+  being built, and that review has not yet returned. This compilation rests on the record as it read
+  at that time, not on a verdict that had not yet arrived. Any finding that review later returns
+  should be checked against these records before it is treated as settled.
+
+
+  12) A risk around shame and self-forgiveness sits at this world's table. Its emotional register is
   the grief of a wounded shepherd who will not stand apart from the people he grieves over. Its
   teaching on the road back stresses being examined, weighed, and walked toward before being
   received home.

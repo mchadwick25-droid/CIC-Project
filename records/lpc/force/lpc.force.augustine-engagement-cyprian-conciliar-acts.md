@@ -43,7 +43,7 @@ description: >-
   He did this in On Baptism, Against the Donatists. The engagement is documented.
 
 
-  For this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
+  From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
   had decided this question wrongly. Augustine gave the principle that let him say so: "[E]ven of the
   plenary Councils, the earlier are often corrected by those which follow them."
 

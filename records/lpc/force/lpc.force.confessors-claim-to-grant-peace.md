@@ -40,8 +40,9 @@ description: >-
   not any man's to give out of his own suffering, however real.
 
 
-  This force is the world's defining tension: the confessors' authority set against the peace that the
-  bishop regulates. It also explains why the penitential discipline takes such an insistent,
+  This force is the one tension of its kind in this world's record: the confessors' authority set
+  against the peace that the bishop regulates. It also explains why the penitential discipline takes
+  such an insistent,
   often-restated form. The process of penance was not made into a vacuum. It was built against a working
   parallel system that was already circulating documents at scale. That parallel system is why the
   contest over the lapsed had to be settled by a formal process, not by a bishop's word alone.

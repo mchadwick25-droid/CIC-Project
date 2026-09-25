@@ -40,7 +40,7 @@ description: >-
   themselves, and the Felicissimus material in Cyprian's letters.
 
 
-  To the world itself, this was not a gathering that had to be built. It was already standing, with its
+  From the inside, this was not a gathering that had to be built. It was already standing, with its
   own men of weight, its own quarrels, and its own ability to meet and decide together.
 
 

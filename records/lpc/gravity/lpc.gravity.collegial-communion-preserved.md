@@ -47,8 +47,8 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: Collegial Communion Preserved Despite Disagreement
 description: >-
-  A primary gravity. Bishops in this world disagree, sometimes sharply. But they work to keep communion
-  rather than break it and build a rival hierarchy.
+  This is one of this world's central concerns. Bishops in this world disagree, sometimes sharply. But
+  they work to keep communion rather than break it and build a rival hierarchy.
 
 
   The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly:
@@ -58,7 +58,8 @@ description: >-
   pastoral, corrective tone.
 
 
-  The world's coherence across the century between its two bishops rests on this gravity. A bishop who
+  Our own case for this world's coherence across the century between its two bishops rests on this
+  gravity. A bishop who
   disagrees has two paths. He can work to keep communion, or he can break it and set up a parallel
   hierarchy. Both bishops take the first path. Neither breaks fellowship over the sharpest doctrinal
   disputes in the record. Neither bishop's writings hold a single counter-example.

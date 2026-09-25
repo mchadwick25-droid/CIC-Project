@@ -43,8 +43,8 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
-  A primary gravity. It asks whether baptism and ordination given outside the church's boundary are
-  valid. The two bishops answer it in opposite ways.
+  This is one of this world's central concerns. It asks whether baptism and ordination given outside
+  the church's boundary are valid. The two bishops answer it in opposite ways.
 
 
   It recurs strongly: in Cyprian's letters on rebaptism, in the ruling of the Council of 256, and
@@ -70,7 +70,7 @@ description: >-
 
 
   Both positions are solidly attested, directly quoted and checked: On Baptism I.1.2, the 256 preface,
-  and Book III, chapter 2. There is no confidence gap.
+  and Book III, chapter 2. Neither side of this dispute is thinly sourced.
 
 
   The Donatist schism, an ongoing outside pressure, makes the question urgent for the institution, not

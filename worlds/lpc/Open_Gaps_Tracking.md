@@ -779,13 +779,16 @@ project lead`-style build-process framing, and ALL-CAPS numbered caution items.
 Every field was drafted by an Opus subagent working from the exact original text, reviewed line
 by line against that original, and checked directly: every substantive fact, name, date,
 confidence distinction, and disclosed uncertainty was required to survive in plain language: only
-the analyst scaffolding was stripped. Two mis-cited quotations were corrected in the process
-(Letters "XXXI and CCXIII" in `lpc.gravity.pastoral-office-flock-keeping` — Epistle XXXI is
-Cyprian's own, Letter CCXIII is Augustine's own "Augustin Designates his Successor", independently
-verified against `cic/texts/npnf101_augustine-confessions-letters.xml`; a quotation about a
-corrupted letter given inconsistently between a record's own `description` and `manifestations`
-fields, resolved to the fuller wording and independently verified against
-`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`). Seven further leaked confidence-grade
+the analyst scaffolding was stripped. `lpc.gravity.pastoral-office-flock-keeping`'s Letters XXXI
+and CCXIII are both Augustine's own — both independently verified directly against
+`cic/texts/npnf101_augustine-confessions-letters.xml` (Letter XXXI, "To Paulinus and Therasia,"
+lines 25749-25988: "the greater burden of sharing the episcopate... the importunity of the
+people"; Letter CCXIII, "Augustin Designates his Successor," line 55243). Cyprian's own account
+of coming to office is carried separately by the 256 Council preface and Pontius's narrative,
+already named in the same record. A quotation about a corrupted letter given inconsistently
+between a record's own `description` and `manifestations` fields was resolved to the fuller
+wording and independently verified against
+`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`. Seven further leaked confidence-grade
 predicates ("is/are Documented", used as project vocabulary rather than plain description) and
 one `§`-symbol section reference were found and rewritten during a second `check_live_commentary.py`
 pass, after the first pass and full re-voice were already applied.
@@ -830,11 +833,75 @@ six-test and provenance material out of the spoken field and log what it leaves 
   named as out of scope by the drafting agent and left untouched here, since the task this pass
   was scoped to named only `horizon`/`formation_logic`/`thinness`/`cautions`. Worth a same-pattern
   pass if `thin_topics` is itself a spoken field compiled into participant-facing prompts.
-- **Old `cautions` item 11 (the note that this compilation's own source registry was under
-  independent review at the time of compilation) was dropped from the spoken field**, not
-  relocated, since it is pure build-process status with nothing about the world itself, and the
-  review it refers to has presumably long since concluded. The remaining items were renumbered
-  1–11 accordingly.
+- **`cautions` item 11 (the note that the record this world rests on was itself under
+  independent review at the time of compilation) is restored**, as item 11, with the shame/
+  self-forgiveness item renumbered to 12. Checked directly against `Source_Registry.md`'s own
+  current header rather than assumed: that review was returned to 2026-09-13 and, as of this
+  entry, **has not yet returned** — the caution's own standing content is current, not stale.
+
+**A second independent review of this same pass found further defects, fixed in place rather
+than layered as a separate entry, since they correct this entry's own earlier work rather than
+add new work:**
+
+- Two lines quoted an internal construction document as though participants were hearing the
+  world's own words: `pastoral-office-flock-keeping`'s "In the words of this world's core
+  identity... 'pastoral and sacramental before it is juridical'" and
+  `conciliar-authority-theory`'s "'between two bishops at two moments separated by over a
+  century.'" Both now state the same content directly, without quoting or naming the internal
+  document.
+- Six places credited this compilation's own reading or reasoning to "the world" itself, as
+  though the world were the one asserting it: the 133-year-silence force's "No primary source
+  this world names" and "this world's own limits forbid that"; `world_core.thinness`'s "nothing
+  this world says yet draws on them"; `cautions` item 7's "Nothing this world says rests on
+  which version came first" (literally incoherent, since De Unitate *is* something this world
+  says); `cautions` item 9's "this world still dates the Conference"; `cautions` item 6's
+  "this world's own premises"; and `collegial-communion-preserved`'s "The world's coherence...
+  rests on this gravity." All six now read as "our own reading" / "we" / "our own account."
+- "Survives only in Latin" (`transmission-institutionally-dominant-side` and
+  `corpus-outliving-the-world`, in both `description` and `manifestations`) mischaracterized
+  Registry row 209: the row states only that this corpus holds no English translation of the
+  Retractationes, not a claim about the work's own historical survival. Both records now say
+  that directly.
+- The word "gravity" itself, and its own six-test vocabulary, still leaked into spoken text
+  well past the `[PRIMARY]`/`[SUPPORTING]`/`[TENSIONAL]` tags the first pass already removed:
+  all 8 gravity records opened with "A primary/supporting/tensional gravity," `conciliar-
+  authority-theory` still narrated its own reclassification history and quoted "the forces
+  framework" by name, and "gravity" recurred as a bare noun in `illegal-to-established-shift`,
+  `manichaeism-and-pelagian-anthropology`, `plague-of-cyprian`, `standing-legal-condition-
+  unlicensed-religion`, and `penitential-discipline`. All rewritten to describe the same
+  claims — how central a concern is, how it was weighed, how confident the evidence is — in
+  plain language, without naming the project's own classification method. "Anchor" (`anchor
+  bishop`, `anchor voice`, `anchor controversies`) was swept from `world_core`'s `horizon`,
+  `thinness`, and `cautions` the same way.
+- `world_core.thinness`'s "The rites themselves have never been read as evidence in their own
+  right" turned a limit of this compilation into a claim about all scholarship; restored to
+  "We have not yet read the rites themselves as evidence in their own right."
+- `decian-persecution-libelli-system` had flattened two sources of different citation grades
+  (the Epistles, A; De Lapsis, B) into one undifferentiated "documented"; the distinction is
+  restored in plain language, matching the pattern already used elsewhere in this pass.
+- `confessors-claim-to-grant-peace`'s "This force is the world's defining tension" overstated
+  its own finding; corrected to "the one tension of its kind in this world's record."
+- Stock phrasing repeated across many records without variation — "To the world itself"/"For
+  this world," (9 instances), "One caution was flagged/disclosed from the start" (4), "There is
+  no confidence gap" (4) — was individually reworded so the same claim is not stated in
+  identical language file after file.
+- Four fields sitting well under the FK 8–10 target (`vandal-invasion-siege-of-hippo` 6.64,
+  `corpus-outliving-the-world` 6.81, `inherited-latin-theological-vocabulary` 7.08,
+  `illegal-to-established-shift` 7.46) were lifted to 7.9–9.1 by combining short sentences
+  that carried the same content, not by adding or cutting anything.
+- The Possidius quote "under compulsion and constraint" (`congregational-acclamation-
+  overriding-preference`), flagged as unverifiable, was checked directly against
+  `cic/texts/possidius_vita-augustini_weiskotten1919.txt` and found verbatim at lines 2142-2143
+  — hyphenated across a line wrap in the source file ("under com-/pulsion and constraint"),
+  which is why an unbroken-phrase search missed it. Not a fabrication; the record's own vague
+  `locus` field ("see this record's own body text") is now replaced with the exact line
+  citation.
+
+**Re-verification after these fixes:** all 21 M1 gates clean (only the pre-existing, expected
+`canon-coverage` gap on this branch, same as before); `tools/check_live_commentary.py --surface
+records` clean on every touched field; FK grade across all 25 gravity/force `description` fields
+and the four `world_core` fields now runs 7.4–10.5, with the four previously-low fields lifted
+and no field newly pushed out of range.
 
 Logged here per the standing rule that a review outcome, or a fix that surfaces further items,
 never lives only in a conversation thread or a PR description.

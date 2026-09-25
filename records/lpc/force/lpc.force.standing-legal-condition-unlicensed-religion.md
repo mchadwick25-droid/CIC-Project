@@ -31,7 +31,7 @@ description: >-
   and went, but the exposure never stopped. This picture is widely accepted.
 
 
-  To the world itself, it meant that a bishop could be taken, and was. The office carried no protection,
+  It meant that a bishop could be taken, and was. The office carried no protection,
   and the community had no recourse. What it had was each other, and whatever a man would do for the
   people in his charge while he still could.
 
@@ -41,10 +41,10 @@ description: >-
   congregation.
 
 
-  In the second phase, the condition was removed. That shift was tested as a possible gravity and not
-  advanced, because nothing in this world organizes around the shift itself. It is named here as a force
-  precisely because it is not a gravity. It shaped what the office could be without becoming something
-  the world organizes around.
+  In the second phase, the condition was removed. We considered whether that shift was itself one of
+  this world's own central concerns, but nothing in this world organizes around the shift itself. It is
+  named here as a force precisely because it is not one of those central concerns. It shaped what the
+  office could be without becoming something the world organizes around.
 
 
   An office with no legal protection is one a sensible man declines. That is why congregations had to

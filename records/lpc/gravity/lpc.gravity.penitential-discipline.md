@@ -57,14 +57,14 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 name: 'Penitential Discipline: the Reintegration of the Failed'
 description: >-
-  A primary gravity. It concerns how the church received back members who failed under persecution. Its
-  answer is readmission, not permanent exclusion.
+  This is one of this world's central concerns. It concerns how the church received back members who
+  failed under persecution. Its answer is readmission, not permanent exclusion.
 
 
   It recurs strongly: in De Lapsis, in the letters about the lapsed, in Pontius's narrative, and in the
-  world's liturgical evidence. One caution was flagged from the start. The evidence from Cyprian's phase
-  comes from several independent sources that support each other. But the claim that this gravity spans
-  both phases rests on Cyprian's phase alone.
+  world's liturgical evidence. A limit is worth naming here too. The evidence from Cyprian's phase comes
+  from several independent sources that support each other. But the claim that this concern spans both
+  phases rests on Cyprian's phase alone.
 
 
   Other gravities depend on it. The confessor tension exists only because this gravity exists. Its
@@ -74,10 +74,10 @@ description: >-
   Felicissimus schism offered a laxer rival route back. It also explains the confessor tension.
 
 
-  Whether it continues into Augustine's phase was tested, not assumed. It holds directly for Cyprian's
-  phase. For Augustine's phase, the case for continuity does not fully survive as this same gravity
-  under its own name. No text from Augustine's phase is organized around a crisis like that of the
-  lapsed, at the same acute, empire-wide scale.
+  Whether it continues into Augustine's phase was checked directly, not assumed. It holds directly for
+  Cyprian's phase. For Augustine's phase, the case for continuity does not fully survive as this same
+  concern under its own name. No text from Augustine's phase is organized around a crisis like that of
+  the lapsed, at the same acute, empire-wide scale.
 
 
   The closest parallels are real: the pull toward the Donatist schism, and the ordinary sin of
@@ -93,7 +93,7 @@ description: >-
 
   The evidence is solidly attested for Cyprian's own conduct and letters, which are directly quoted and
   checked. The De Lapsis passage carries the lower citation grade (B). The Epistles and Pontius passages
-  carry the higher grade (A). There is no confidence gap for the gravity in Cyprian's phase.
+  carry the higher grade (A). Nothing here is thinly sourced for Cyprian's phase.
 
 
   It is itself this world's ongoing internal pressure. Four forces connect to it. The Decian persecution

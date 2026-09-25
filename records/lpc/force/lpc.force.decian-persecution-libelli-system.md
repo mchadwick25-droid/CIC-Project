@@ -41,10 +41,11 @@ description: >-
   through certificates recording that the holder had sacrificed. It did not mainly demand that Christians
   renounce their faith. It demanded a documented act of compliance. A person could obtain one by
   performing the sacrifice, or by paying to have it recorded. This is documented in Cyprian's crisis
-  correspondence and in his De Lapsis.
+  correspondence, which carries the higher citation grade (A), and in his De Lapsis, which carries the
+  lower grade (B).
 
 
-  For this world, it was not an attack from outside so much as a table emptied one certificate at a
+  It was felt not so much as an attack from outside as a table emptied one certificate at a
   time. The demand reached each person singly. It left the congregation sorted into those who had stood
   and those who had not. Both groups still belonged, still in the room. In Cyprian's words, "[I]t is the
   shepherd that is chiefly wounded in the wound of his flock."

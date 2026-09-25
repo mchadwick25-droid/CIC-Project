@@ -23,16 +23,16 @@ name: The Inherited Latin Theological Vocabulary
 kind: initiating
 description: >-
   Before this world begins, North African Latin Christianity already had a vigorous local literary
-  culture. It also had a Latin theological vocabulary, which Tertullian is credited with forging. This
+  culture, along with a Latin theological vocabulary that Tertullian is credited with forging. This
   is widely accepted.
 
 
-  For this world, the words were to hand. What had to be argued could be argued in the language the
-  people in the assembly already spoke.
+  The words were already to hand -- what had to be argued could be argued in the language the people
+  in the assembly already spoke.
 
 
-  This made preaching and catechesis possible as the main way of forming people. That depends on a
-  theological language in the people's own tongue, able to carry the content.
+  This made preaching and catechesis possible as the main way of forming people, since that depends on
+  a theological language in the people's own tongue, able to carry the content.
 
 
   The force is treated briefly, in proportion to its weight. It is real and enabling. But it is not
