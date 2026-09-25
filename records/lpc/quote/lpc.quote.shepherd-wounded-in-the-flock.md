@@ -41,9 +41,9 @@ modern_lens_note: 'A modern listener may hear a bishop''s grief for his flock as
   manner of speaking. Cyprian states it as a claim about his own office''s own nature: a shepherd''s own
   wound is not sympathy offered from outside the flock''s own suffering, but the same wound, felt at its
   own worst point.'
-modern_rendering: I grieve, brothers, I grieve with you. My own integrity and soundness give me no comfort,
-  no relief for my grief -- it is the shepherd who is wounded worst in the wound of his flock. I join my
-  own breast to each one of you, and I share the heavy burden of sorrow and mourning. I wail with those
-  who wail, I weep with those who weep.
+modern_rendering: I grieve, brothers, I grieve with you. My own integrity and my personal soundness do
+  not lure me into soothing my griefs, because it is the shepherd who is wounded most deeply when his
+  flock is wounded. I hold each one of you close to my heart, and I share the heavy burden of sorrow and
+  mourning, and I wail with those who wail, I weep with those who weep...
 ---
 Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37: 'the shepherd who is chiefly wounded in the wound of his own flock, and wails with the wailing and weeps with the weeping' -- the Prompt's own light paraphrase of 'wail with the wailing' as 'wails with the wailing'). Independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 43729, and grounds the same locus lpc.term.the-flock (records/lpc/term/, read but not touched this pass) already cites at 'De Lapsis 4' in its own sources[] -- this record independently re-confirms that citation rather than only inheriting it. The trailing ellipsis marks a real elision: the source's own sentence continues, uninterrupted by a period, into 'I regard myself as prostrated with those that are prostrate,' which this quote does not carry -- ending the quotation at 'weeping' with an invented period, rather than the ellipsis actually used here, would have been a punctuation alteration this step's own discipline forbids.

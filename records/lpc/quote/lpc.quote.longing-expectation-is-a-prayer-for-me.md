@@ -47,8 +47,8 @@ modern_lens_note: 'A modern listener may hear this as a preacher''s flattery of 
   means something more exact: the congregation''s own act of showing up and waiting to hear him is itself,
   for him, a form of intercession on his behalf -- not a compliment to them, but a claim about what their
   attention does for the man who has to speak.'
-modern_rendering: But I suppose that no one has come here except those who want to listen — so I'm not
-  speaking to hearts that are deaf, or to minds that will scorn the word. This longing, this waiting of
-  yours, is itself a prayer for me.
+modern_rendering: But now I imagine that no one has come here except those who want to hear, so I am not
+  speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation
+  of yours is a prayer for me.
 ---
 Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph, its final named image: 'A preacher naming, to the very people gathered in front of him, that their own waiting is itself a kind of prayer for him.' This is the fifth of the Permanent Prompt's seven candidate images to be built as a quote record -- the other two (the certificate/wide-door contrast and the two-answers-on-baptism contrast) remain synthesized prose without a single quotable sentence, disclosed as such in this script's own docstring rather than built. Sermon I is undated within this world's own construction record beyond 'delivered at the matins of the festival of the Lord's Nativity' (the sermon's own words) -- no further narrowing is attempted here.

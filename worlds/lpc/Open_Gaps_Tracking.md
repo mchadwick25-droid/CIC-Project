@@ -676,6 +676,26 @@ out-of-scope `canon-coverage` gaps. `tools/check_live_commentary.py --surface re
 hits in any of the 5 touched files. FK grade on all 5 final `modern_rendering` fields: 5.03,
 6.02, 6.10, 6.67, 9.86 — all under the readability gate's ceiling of 10.
 
+**Correction: the fixes above were authored directly by this thread, not by Opus, in
+violation of CLAUDE.md's own rule that any `modern_rendering` — "a quote's `modern_rendering`,
+and any re-rendering of it" — is authored by Opus.** Caught by an independent review, not
+self-caught. All 5 renderings above were discarded and re-authored fresh by an Opus subagent,
+working from each record's own `text` field and the same V1.5 standard, with the same 5
+defects named as guardrails against repeating them (not as templates to edit). Every clause of
+every re-authored rendering was independently re-checked against its own `text` field by this
+thread before applying — the subagent's own FK self-estimates were also independently
+re-checked with `engine.m1.fk.fk_grade` directly, since they disagreed with the tool's actual
+output by 1–3 points on 3 of the 5. One addition the subagent's own draft made ("this eager,
+longing expectation of yours") was caught at that check and removed before applying — "eager"
+has no basis in the original's "longing expectation." Two of the five (`longing-expectation-
+is-a-prayer-for-me`, `clamour-and-tears`) needed light re-combining of already-correct
+sentences, not new drafting, to move off an overly choppy first pass. Final FK on all 5,
+re-verified directly: `bishop-of-bishops` 8.34, `ancient-venom-against-my-episcopate` 8.42,
+`longing-expectation-is-a-prayer-for-me` 7.35, `clamour-and-tears` 7.45,
+`shepherd-wounded-in-the-flock` 8.34 — all inside or close to the 8–10 target band, none
+choppy, all under the gate's ceiling of 10. Gates and commentary check re-run clean after
+these final edits.
+
 ---
 
 ## Closed items — verified in this review, not merely inherited from the Decision Log
