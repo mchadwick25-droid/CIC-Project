@@ -96,6 +96,36 @@ def test_coined_quote_in_curly_marks_is_withheld():
     assert "not found verbatim" in entry["why"]
 
 
+def test_archaic_letterform_in_the_generated_quote_still_matches_a_modern_record():
+    """Archaic letterform normalization, exercised through the real
+    check_turn path, not just _normalize() in isolation: a generated
+    turn quoting with the archaic letterform itself still verifies
+    against a record stored in modern spelling - the shared normalizer
+    m9's own verbatim-in-shelf check uses (_span_in_records -> _normalize)
+    is the same one this whole check runs through."""
+    text = "As it was sung, 'Behold þe might of þe new song! It has made men out of stones, men out of beasts.' [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
+def test_archaic_letterform_in_the_record_still_matches_a_modern_generated_quote():
+    """The other direction: a record stored WITH the archaic letterform
+    (as a vendored source might carry it) still verifies against a
+    generated quote using modern spelling - genuinely symmetric, not just
+    one-directional tolerance."""
+    archaic_record = {
+        "id": "fix.quote.archaic-thorn",
+        "record_type": "quote",
+        "text": "Behold þe might of þe new song! It has made men out of stones.",
+    }
+    repo = {**REPOSITORY, archaic_record["id"]: archaic_record}
+    text = "As it was sung, 'Behold the might of the new song! It has made men out of stones.' [[fix.quote.archaic-thorn]]"
+    entry = check_turn(text, repo)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
 def test_quote_with_no_tag_is_withheld_even_if_verbatim():
     text = "As it was sung, 'Behold the might of the new song! It has made men out of stones, men out of beasts.'"
     result = check_turn(text, REPOSITORY)
@@ -311,9 +341,8 @@ def test_check_turn_reports_no_truncation_on_an_ordinary_turn():
     assert result["truncated"] is False
 
 
-# The scaffold exemption used to cover a whole sentence the moment any
-# SCAFFOLD_MARKERS phrase appeared anywhere in it - real cases from a live
-# adversarial review.
+# The scaffold exemption applies to the marker's own clause, not to the
+# whole sentence a SCAFFOLD_MARKERS phrase happens to appear in.
 
 def test_a_chronological_claim_riding_a_scaffold_phrase_is_no_longer_exempt():
     """The exact defect: 'we cannot speak its own words' at the sentence's
@@ -353,10 +382,10 @@ def test_the_sanctioned_self_naming_line_still_exempts():
 
 
 def test_a_grounded_claim_beside_a_scaffold_phrase_still_passes_on_its_own_tag():
-    """Narrowing the exemption must not start withholding sentences that
-    were always properly grounded - a real tagged claim in its own clause,
-    beside a scaffold phrase, should clear the normal pipeline rather than
-    get caught by the fallout."""
+    """A properly grounded sentence must not be withheld just because it
+    also contains a scaffold phrase - a real tagged claim in its own
+    clause, beside a scaffold phrase, should clear the normal pipeline
+    on its own tag, independent of the exemption's own narrower scope."""
     text = (
         "We must be honest: the thanksgiving meal of bread and cup at the "
         "heart of the community's worship is what reached everyone [[fix.term.eucharistia]]."
