@@ -10,15 +10,13 @@ around the match, entirely offline, no server, no dependency this sandbox
 can't already satisfy.
 
 REUSES corpus_structure.py's OWN PARSING, DELIBERATELY. That module's
-_DIV/_TITLE/_TAG/_unescape regexes already worked through the real bugs
-this kind of parsing hits - cic/texts/README.md's anf01 entry documents
-catching a naive tag-strip truncating text against nested <note><p
-class="endnote">...</p></note> structures, live, before anything was
-committed. Re-deriving that from scratch here would risk repeating a
-mistake this project already paid to fix once. Where this module's needs
-diverge from corpus_structure.py's own (it reports word COUNTS per
-section; this needs the actual TEXT and the file's own id= attribute,
-neither of which outline() keeps), the walk itself stays the same shape.
+_DIV/_TITLE/_TAG/_unescape regexes already handle nested tag structures
+correctly (a naive tag-strip truncates against nested <note><p
+class="endnote">...</p></note> structures - see cic/texts/README.md's
+anf01 entry). Where this module's needs diverge from corpus_structure.py's
+own (it reports word COUNTS per section; this needs the actual TEXT and
+the file's own id= attribute, neither of which outline() keeps), the walk
+itself stays the same shape.
 
 WHAT COUNTS AS A PASSAGE UNIT. For ThML/XML files: every div's own direct
 text - the span between where it opens and the next div marker of ANY
@@ -27,9 +25,45 @@ measures per section (not `subtree_words`). A leaf div's "own text" is
 everything in it, since nothing follows before its next sibling; a
 container div's "own text" is whatever prose sits before its first child
 (often little or nothing) - both are correct, and a near-empty container
-row is harmless in FTS5, just unlikely to match anything. For plain-text
-files with no div markup at all: one whole-file unit, the same fallback
-outline() already established for this exact case.
+row is harmless in FTS5, just unlikely to match anything.
+
+PLAIN-TEXT FILES (no div markup): split on the file's own heading lines,
+falling back to paragraphs where it has none. A heading line is a short,
+uppercase-only line naming a structural division - "LETTER I.", "SESSION
+IV.", "CANONS AND DECREES" - the plain-text analogue of an XML volume's
+own `<div title=...>`. Deliberately no fixed vocabulary ("CHAPTER",
+"LETTER", ...): this corpus spans letters, sermons, conciliar acts,
+chronicles and catechisms, each with its own heading words, so the check
+is on SHAPE (short, all-caps, no lowercase) rather than a word list.
+
+A real heading names its own moment once, or a couple of times (a table
+of contents entry plus the body heading) - a candidate line recurring
+often across a volume is page furniture instead: CCEL/archive.org scans
+print a running title on every page, frequently with a page number
+appended or prepended that differs page to page ("COUNCIL OF TRENT. XV"
+/ "XVI HISTORY OF THE COUNCIL OF TRENT" on facing verso/recto pages).
+`_heading_lines()` strips a leading or trailing page-number token before
+counting repeats, so both forms of the same running header collapse to
+the same key and both get filtered - confirmed against
+council-of-trent_canons-and-decrees_waterworth1848.txt, whose own running
+header this way was caught and excluded rather than fragmenting the
+volume into one unit per page.
+
+A file with no real headings at all (many of this corpus's continuous
+Latin critical-edition texts have none) falls back to one unit per
+blank-line-delimited paragraph - finer-grained than the single whole-file
+blob this used to return, the same reason ThML volumes get one unit per
+div rather than one per file.
+
+Every plain-text unit's `locus` is `line<N>`, the 1-based line its own
+first line sits on - not a synthetic index, so a hit is directly
+navigable back to the source file. NO TEXT IS LOST by this split: the
+heading-unit and paragraph-unit ranges each partition the file's own text
+completely (every byte belongs to exactly one unit, including the
+heading line's own words, which stay in the unit's `text` in addition to
+its `title`) - proven directly in tests_corpus_index.py by reassembling
+every unit's text and diffing it, whitespace-normalized, against the
+whole file.
 
 CANONICAL ADDRESS. cic:<filename>:<locus>, matching WORKS.yaml and
 cic/corpus-map/README.md's "Canonical addresses" section. <locus> is the
@@ -69,6 +103,145 @@ DB_PATH = TEXTS_DIR / "INDEX.sqlite"
 
 _ID = re.compile(r'\bid="([^"]*)"')
 
+# Plain-text heading detection (no div markup to key off). Shape-based, not
+# a fixed word list - see the module docstring's own "PLAIN-TEXT FILES"
+# section for why.
+_HEADING_MAX_CHARS = 100
+_HEADING_MAX_WORDS = 12
+_HEADING_ROMAN_ONLY = re.compile(r"^[IVXLCDM]+$")
+_HEADING_WORD_PUNCT = ".,:;()[]-–—'\""
+_LEADING_NUMERAL_TOKEN = re.compile(r"^([IVXLCDM]+|\d+)\b[.,:;)\]\-]*\s*")
+_TRAILING_NUMERAL_TOKEN = re.compile(r"\s*[.,:;(\[\-]*\b([IVXLCDM]+|\d+)$")
+# A real heading names its own moment once, or a couple of times (a table
+# of contents entry plus the body heading itself); a candidate recurring
+# more often than this across one volume is a running header/footer, not
+# a structural boundary.
+_RUNNING_HEADER_MIN_REPEATS = 3
+
+
+def _is_heading_candidate(line: str) -> bool:
+    s = line.strip()
+    if not s or len(s) > _HEADING_MAX_CHARS:
+        return False
+    if any(c.islower() for c in s):
+        return False
+    if not any(c.isalpha() for c in s):
+        return False
+    words = s.split()
+    if len(words) > _HEADING_MAX_WORDS:
+        return False
+    stripped_words = [w.strip(_HEADING_WORD_PUNCT) for w in words]
+    # At least one real word: 3+ characters, containing a letter (not a
+    # bare page-locator number or number range - an index page is exactly
+    # where those show up, "704-709, 711"), and not a bare roman-numeral
+    # page number sitting alone on its own line ("XVI" with nothing else).
+    return any(len(w) >= 3 and any(c.isalpha() for c in w) and not _HEADING_ROMAN_ONLY.match(w)
+               for w in stripped_words)
+
+
+def _heading_dedup_key(line: str) -> str:
+    s = re.sub(r"\s+", " ", line.strip().upper())
+    s = _LEADING_NUMERAL_TOKEN.sub("", s)
+    s = _TRAILING_NUMERAL_TOKEN.sub("", s)
+    return s.strip()
+
+
+def _heading_lines(text: str) -> list[tuple[int, str]]:
+    """(0-based line index, whitespace-normalized heading text) for every
+    real heading line in `text` - heading-candidate lines minus running
+    headers/footers. Internal whitespace (OCR justification often spaces a
+    heading's own words several characters apart) is collapsed the same
+    way a unit's own `text` field already collapses it, so `title` and the
+    start of that unit's `text` read as the same string, not two different
+    spacings of it."""
+    lines = text.split("\n")
+    candidates = [(i, re.sub(r"\s+", " ", ln.strip())) for i, ln in enumerate(lines) if _is_heading_candidate(ln)]
+    counts: dict[str, int] = {}
+    for _, heading_text in candidates:
+        key = _heading_dedup_key(heading_text)
+        counts[key] = counts.get(key, 0) + 1
+    return [(i, heading_text) for i, heading_text in candidates
+            if counts[_heading_dedup_key(heading_text)] <= _RUNNING_HEADER_MIN_REPEATS]
+
+
+def _heading_units(text: str) -> list[dict] | None:
+    """Heading-delimited units, or None when `text` has no real headings at
+    all (the caller then falls back to _paragraph_units). Each unit's text
+    runs from its own heading line (inclusive - the heading is real, printed
+    prose, not markup, so it stays in `text` as well as `title`) up to the
+    next heading line; whatever precedes the first heading becomes its own
+    untitled unit, so nothing in the file is left out of every unit."""
+    heads = _heading_lines(text)
+    if not heads:
+        return None
+
+    # Offsets must come from the same split _heading_lines() itself used
+    # (text.split("\n")) to index its own heading lines against, not
+    # str.splitlines() - splitlines() also breaks on \x0c (form feed) and
+    # several other line-boundary characters, which this OCR'd corpus
+    # carries as real page-break artifacts (one volume alone has 549). A
+    # form feed makes splitlines() produce a different, longer line list
+    # than split("\n"), so offsets built from it drift out of step with
+    # the heading indices and attach headings to the wrong text.
+    lines = text.split("\n")
+    offsets = [0] * (len(lines) + 1)
+    pos = 0
+    for i, ln in enumerate(lines):
+        offsets[i] = pos
+        pos = min(pos + len(ln) + 1, len(text))
+    offsets[len(lines)] = len(text)
+
+    units = []
+    first_line_idx = heads[0][0]
+    if first_line_idx > 0:
+        preamble = re.sub(r"\s+", " ", text[0:offsets[first_line_idx]]).strip()
+        if preamble:
+            units.append({"locus": "line1", "title": "", "apparatus": False, "text": preamble})
+
+    for k, (line_idx, heading_text) in enumerate(heads):
+        start = offsets[line_idx]
+        stop = offsets[heads[k + 1][0]] if k + 1 < len(heads) else len(text)
+        unit_text = re.sub(r"\s+", " ", text[start:stop]).strip()
+        if not unit_text:
+            continue  # only possible if the heading itself is blank, which _is_heading_candidate excludes
+        is_apparatus = bool(cs._APPARATUS.match(heading_text) or cs._BARE_APPENDIX.match(heading_text))
+        units.append({
+            "locus": f"line{line_idx + 1}",
+            "title": heading_text,
+            "apparatus": is_apparatus,
+            "text": unit_text,
+        })
+    return units
+
+
+def _paragraph_units(text: str) -> list[dict]:
+    """Fallback for a plain-text file with no usable heading structure at
+    all: one unit per blank-line-delimited paragraph, addressed by the
+    1-based line its own first line sits on. No `title` - a paragraph
+    names nothing the way a heading does."""
+    lines = text.split("\n")
+    units = []
+    para_start = None
+    para_lines: list[str] = []
+
+    def flush(start_line_no):
+        unit_text = re.sub(r"\s+", " ", " ".join(para_lines)).strip()
+        if unit_text:
+            units.append({"locus": f"line{start_line_no}", "title": "", "apparatus": False, "text": unit_text})
+
+    for i, line in enumerate(lines):
+        if line.strip():
+            if para_start is None:
+                para_start = i + 1
+            para_lines.append(line)
+        else:
+            if para_lines:
+                flush(para_start)
+            para_start, para_lines = None, []
+    if para_lines:
+        flush(para_start)
+    return units
+
 
 def passage_units(path: Path) -> list[dict]:
     """Every passage unit in one file: address, title, apparatus flag, text.
@@ -84,8 +257,18 @@ def passage_units(path: Path) -> list[dict]:
                       id_m.group(1) if id_m else None))
 
     if not marks:
-        text = cs._strip_tags_if_markup(path, raw).strip()
-        return [{"locus": "whole-file", "title": path.stem, "apparatus": False, "text": text}]
+        # No div markup - a plain-text volume (or, in principle, an XML
+        # file with none of its own div markers). Split on headings, or
+        # paragraphs where there are none of those either.
+        text = cs._strip_tags_if_markup(path, raw)
+        units = _heading_units(text)
+        if units is not None:
+            return units
+        units = _paragraph_units(text)
+        if units:
+            return units
+        # Truly empty or whitespace-only file - nothing to split.
+        return [{"locus": "whole-file", "title": path.stem, "apparatus": False, "text": text.strip()}]
 
     units = []
     for i, (_, end, title, div_id) in enumerate(marks):
@@ -145,6 +328,9 @@ def files_for_entry(entry_id: str) -> set[str] | None:
 
 
 def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path = DB_PATH) -> list[dict]:
+    """Ranked FTS5 search. With `entry`, the entry's corpus-map file set is
+    applied inside the query (`file IN (...)` alongside MATCH), so bm25
+    ranking and LIMIT run only over that world's own passages."""
     if not db_path.exists():
         raise SystemExit(f"{db_path} does not exist yet - run with --build first")
     scope = None
@@ -153,18 +339,27 @@ def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path 
         if scope is None:
             raise SystemExit(f"no corpus-map bucket for entry {entry!r} "
                              f"(checked {MAP_DIR / (entry + '.yaml')})")
+        if not scope:
+            return []  # a real bucket with nothing assigned yet - nothing to search, not an error
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
-    rows = conn.execute(
-        "SELECT address, file, title, apparatus, "
-        "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
-        "bm25(passages) AS score "
-        "FROM passages WHERE passages MATCH ? ORDER BY score LIMIT ?",
-        (query, limit * 5 if scope else limit),  # over-fetch when filtering, so scoping doesn't starve results
-    ).fetchall()
+    if scope is None:
+        sql = ("SELECT address, file, title, apparatus, "
+               "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
+               "bm25(passages) AS score "
+               "FROM passages WHERE passages MATCH ? ORDER BY score LIMIT ?")
+        params = (query, limit)
+    else:
+        placeholders = ", ".join("?" * len(scope))
+        sql = ("SELECT address, file, title, apparatus, "
+               "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
+               "bm25(passages) AS score "
+               f"FROM passages WHERE passages MATCH ? AND file IN ({placeholders}) "
+               "ORDER BY score LIMIT ?")
+        params = (query, *sorted(scope), limit)
+    rows = conn.execute(sql, params).fetchall()
     conn.close()
-    out = [dict(r) for r in rows if scope is None or r["file"] in scope]
-    return out[:limit]
+    return [dict(r) for r in rows]
 
 
 def main(argv: list[str] | None = None) -> int:

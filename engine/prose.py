@@ -234,6 +234,45 @@ def short_head(text: str) -> str:
     return (text or "").split(";")[0].split(" (")[0].strip()
 
 
+# The closed vocabulary a build-taxonomy tag's own bracket content actually
+# starts with, fleet-wide (confirmed by grepping every gravity and force
+# `name` field's own bracket content) - gravity: PRIMARY/SUPPORTING/
+# TENSIONAL, each optionally followed by " - <qualifier>", ", <qualifier>",
+# or a bare comma; force: a taxonomy code (1A, 1B, 2A, 2B, 3A, 3B, each
+# optionally suffixed "-<n>" for a split entry), same optional qualifier
+# shape. Requiring this prefix - rather than treating any bracket as a tag -
+# is what keeps a name's own legitimate bracket or parenthetical content
+# (none exists in the fleet today, but nothing here should assume that
+# stays true) untouched.
+_TAXONOMY_TAG_CONTENT = re.compile(r"^(?:PRIMARY|SUPPORTING|TENSIONAL|[1-3][AB](?:-\d+)?)\b")
+_LEADING_TAXONOMY_TAG = re.compile(r"^\[([^\]]*)\]\s*")
+_TRAILING_TAXONOMY_TAG = re.compile(r"\s*\[([^\]]*)\]\s*$")
+
+
+def strip_name_taxonomy_tag(name: str) -> str:
+    """gravity/force records carry a `name` with a bracketed build
+    taxonomy tag - trailing in almost every case (e.g. "Divine Pedagogy
+    [SUPPORTING - explanatory framework]"), leading in two rzg gravity
+    records whose own name needed the tag first to read naturally (e.g.
+    "[TENSIONAL] Council-Led Civic Authority (Zurich) vs. Consistorial
+    Independence from Civil Control (Geneva)" - note the real, untouched
+    parentheses inside that name). Real and useful to a reviewer, never
+    meant for a participant or a model prompt. Strip it, on whichever
+    side it landed; the plain name underneath is already a good label.
+    Shared by engine.m4.citation_cards's own _short_name (the
+    participant-facing citation-card label) and engine.m2.builders's
+    build_prompt (the compiled Gravities list a model reads), so the tag
+    can't leak from one and not the other."""
+    name = (name or "").strip()
+    leading = _LEADING_TAXONOMY_TAG.match(name)
+    if leading and _TAXONOMY_TAG_CONTENT.match(leading.group(1)):
+        name = name[leading.end():].strip()
+    trailing = _TRAILING_TAXONOMY_TAG.search(name)
+    if trailing and _TAXONOMY_TAG_CONTENT.match(trailing.group(1)):
+        name = name[:trailing.start()].strip()
+    return name
+
+
 def content_words(text: str) -> set[str]:
     words = (w.lower() for w in _WORD.findall(text))
     return {w for w in words if w not in _STOPWORDS and len(w) > 2}

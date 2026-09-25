@@ -13,13 +13,12 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented - the texts' own words, two voices independently (Vita I, IV; Ep. III; Dial. II.11;
-    Inst. I.1, V.3, X.1, X.3; Conf. XIII.14, re-verified at Doc_04's fix round), and Vincent's
-    antonym (Comm. ch. 1 [2] 'the manifold and deplorable tempests of secular warfare').
-    Confidence/Gravity Cross-Check: no divergence. Held at Supporting not for any evidential reason
-    but because it is 'the idiom in which G7 and G6 are carried rather than a force other dimensions
-    depend on independently of them,' and common Christian vocabulary (Doc_03 [SC]) - the uniformly
-    reinforcing matrix row is 'characteristic of an idiom rather than an organizing force.'
-    Discounted with G5 as unity evidence at Doc_04 §6 point 2 (a shared late-antique convention).
+    Inst. I.1, V.3, X.1, X.3; Conf. XIII.14), and Vincent's own antonym (Comm. ch. 1 [2], "the
+    manifold and deplorable tempests of secular warfare"). Confidence/Gravity Cross-Check: no
+    divergence. Held at Supporting not for any evidential reason but because it is the idiom in
+    which the virtus and interior-road gravities are carried, rather than a force other dimensions
+    depend on independently of them - common Christian vocabulary, not this world's own organizing
+    principle.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
   locus: "ch. I 'heavenly warfare'; ch. IV (ii.ii.v): 'Hitherto I have served you as a soldier: allow me now to become a soldier to God ... I am the soldier of Christ: it is not lawful for me to fight'"
@@ -78,66 +77,68 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.quote.martin-funeral-procession-ranks
-name: "The soldier of Christ [SUPPORTING]"
+- type: associated-with
+  target: gallic.quote.martin-refuses-the-donative
+- type: associated-with
+  target: gallic.quote.martin-offers-to-stand-unarmed
+- type: associated-with
+  target: gallic.quote.roused-to-heavenly-warfare
+- type: associated-with
+  target: gallic.quote.institutes-opening-soldier-of-christ
+- type: associated-with
+  target: gallic.quote.deserter-from-his-service
+- type: associated-with
+  target: gallic.quote.vincent-tempests-of-secular-warfare
+name: "The soldier of Christ"
 classification: supporting
 description: >-
-  The monk's life as military service and combat against the devil and the faults - literal in the
-  north, figurative-mystical in the south. Martin before Caesar: 'Hitherto I have served you as a
-  soldier: allow me now to become a soldier to God ... I am the soldier of Christ: it is not lawful
-  for me to fight,' going out 'protected by the sign of the cross, and not by shield or helmet'
-  (Vita IV); readers 'roused to the pursuit of ... heavenly warfare' (Vita I); at the funeral 'young
-  soldiers who had just taken the oath of allegiance to Christ' (Ep. III). The Institutes' opening
-  sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with
-  his loins girded' (I.1); the faults as 'our first struggle,' 'our sixth combat'; accidie's monk 'a
-  runaway from His service, and a deserter' (X.3); Job 'His well tried athlete' (Conf. XIII.14).
-  Vincent supplies the antonym: 'the manifold and deplorable tempests of secular warfare.' The devil
-  and demons as visible adversary (Doc_03 6.4) are folded in as the object of this warfare. AUTHOR
-  GRAVITY FLAG AT GENERATION (Doc_04 §2.1): none - Doc_03's best-attested cross-node term. SIX-TEST
-  SUMMARY (Doc_04 §3): passes all six - Repetition (S, C, V-antonym, F, M); Dependency (the
-  Institutes' structure - dress as armour, faults as combats in sequence - the Vita's biographical
-  hinge, and G6's exorcism narratives depend on it); Formation (the novice as recruit - Ep. III's
-  'oath,' Inst. I.1's girded loins); Explanatory (why dress is read as armour, why accidie is
-  desertion, why Martin's biography is told as a change of service); Persistence across both nodes
-  and both registers; Interaction 'uniformly reinforcing, the whole row.' CROSS-NODE: confirmed -
-  Doc_03 §10 item 5's convergence hypothesis holds under the tests. CLASSIFICATION: SUPPORTING - it
-  organizes the imagery and the structure of formation but is 'the idiom in which G7 and G6 are
-  carried rather than a force other dimensions depend on independently of them,' and common
-  Christian vocabulary rather than this world's own organizing principle. CONFIDENCE/GRAVITY
-  CROSS-CHECK: no divergence. FORCES NOTATION (Doc_04 §3; Doc_08 §5): held; literalized by the
-  initiating force - the Roman-military setting gives the north its literal form (Vita IV) and the
-  south its received Egyptian form (Inst. I.1); under the grace controversy it is the idiom of the
-  defense (XIII.14's athlete; the 'efforts of good will' grace 'require[s] and look[s] for');
-  cooling names its desertion; under barbarian pressure Salvian does not use it of the religious and
-  the barbarians at the discharge are 'occasion only'; the gravity did not shift.
+  The monk's life as military service, and as combat against the devil and the faults - literal in
+  the north, figurative in the south.
+
+  Sulpitius states his purpose for writing at the outset: to rouse his readers to true knowledge,
+  heavenly warfare, and divine virtue (Vita I). Martin himself supplies the founding scene. Before
+  Caesar, asking his discharge, he says he has served Caesar as a soldier until now, and asks
+  leave to become a soldier of God instead - he is Christ's soldier, and it is not lawful for him
+  to fight (Vita IV). At his funeral, young soldiers who had just sworn their oath of allegiance to Christ
+  walk in the procession, alongside old men whose service was finished.
+
+  In Book I, chapter 1, after one sentence of introduction, Cassian states the same idiom: a monk,
+  as a soldier of Christ always ready for battle, should keep his loins girded (Inst. I.1). The faults that follow are named as combats in sequence - a first
+  struggle, a sixth combat - and the monk worn down by accidie is said to become a runaway from
+  Christ's service, and a deserter (Inst. X.3). Job, tested by the devil, is Abbot Chaeremon's
+  picture, given in Cassian's Conferences, of God's well-tried athlete (Conf. XIII.14).
+
+  Vincent supplies the idiom's antonym. Before he entered the monastery, he says, he was caught up
+  in the many deplorable storms of secular warfare himself - the life he left, not the one he
+  entered (Comm. ch. 1).
+
+  This idiom runs evenly across both houses and both registers of this world's literature. It
+  shapes the Institutes' structure - dress read as armour, faults as combats - and the Vita's
+  turning point. It gives both houses a shared vocabulary for a novice's first step: an oath
+  sworn, a service entered.
+
+  For that same reason, though, it shapes formation's imagery rather than driving it. No other
+  part of this world depends on it alone. It is common Christian vocabulary, well attested
+  wherever it appears, not this world's own distinct organizing principle. It is the idiom that
+  carries the virtus and interior-road gravities, not a rival to either one. This record holds it
+  as a supporting gravity, not a primary one. Nothing in this world's literature contradicts it or
+  shifts it under pressure.
 manifestations:
 - "Martin's discharge: 'I am the soldier of Christ: it is not lawful for me to fight,' facing the enemy 'protected by the sign of the cross, and not by shield or helmet' (Vita IV)"
-- "The Institutes' first sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"
+- "Book I, ch. 1's second sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"
 - "The faults as combats in sequence - 'our first struggle' (Inst. V.3), 'Our sixth combat' (X.1); the monk of accidie 'a runaway from His service, and a deserter' (X.3)"
 - "'Young soldiers who had just taken the oath of allegiance to Christ' walking in Martin's funeral procession (Ep. III); the soldier-monk of Dial. II.11"
 - "Job 'His well tried athlete, when the devil had challenged him to single combat' (Conf. XIII.14) - the idiom of the grace defense"
 - "Vincent's harbour reached out of 'the manifold and deplorable tempests of secular warfare' (Comm. ch. 1 [2]) - the antonym"
 ---
-Re-derived from the approved Doc_04 (§2.1 candidate G8 -> §3 G8 -> §8 row G8; Supporting).
-Interaction Matrix (Doc_04 §4, row/col G8): UNIFORMLY REINFORCING (R) with all nine other gravities
-- no '-' cell, no competing cell, no reshaping cell - which Doc_04 reads as 'characteristic of an
-idiom rather than an organizing force' and as supporting Supporting over Primary; all nine carried
-as associated-with, in the matrix's own words: G1 (discharge from Caesar's service leads to the
-episcopate), G2 ('Inst. I.1's soldier's girdle is Egyptian dress; the north's soldier is a Roman
-one'), G3 (Job the athlete; grace requiring 'some efforts of good will'), G4 ('R (thin) - Inst. I.2:
-sackcloth vs "the ancient decrees of the holy fathers"; novelty as a vice in the soldier's dress,'
-the pair Doc_04's S7 fix added), G5 ('through his example ... young soldiers who had just taken the
-oath'), G6 ('power is the soldier's weaponry'), G7 ('the faults as combats in sequence'), G9 ('the
-soldier of Christ before Caesar (Vita IV) becomes "apostolic authority" before Maximus (Vita XX)'),
-and G10 ('warfare and the coming persecution under Nero and Antichrist (Dial. II.14)'). No absence
-to declare. Forces-connection (Doc_08 §5, A.2 - five forces): literalized in the north and its idiom
-supplied to the south by 1A-2 (gallic.force.army-and-rank-before - Doc_04's 'literalized by the
-initiating force'; Doc_08's 'gave both nodes their idiom') - carried as enabled-by, reciprocal
-precondition-for; carried by 1B-1 (renunciation-that-stays - 'a change of service'), used as the
-idiom of the argument by 2B-1 (received-programs-logic), its desertion named by 2B-5 (cooling), and
-touched as occasion only by 2A-5 (barbarian-fiscal-ruin - the barbarians at the discharge,
-Connection 13) - all four associated-with. Story and figure links closed at B-5: illustrated-by
-gallic.story.discharge-before-caesar (the founding scene in its literal northern form) and
-gallic.story.the-cloak-at-amiens (the tradition's own picture of it before the phrase is spoken);
-associated-with gallic.story.death-of-martin-at-condate (its funeral form); associated-with
-gallic.figure.martin (literalized in him) - reciprocal edges declared on each. Canon_cells left
+Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
+Cassian, Vincent of Lérins). This description paraphrases the primary sources in its own voice;
+their verbatim wording, locus, and speaker attribution are each carried in full in
+gallic.quote.roused-to-heavenly-warfare, gallic.quote.martin-refuses-the-donative,
+gallic.quote.martin-offers-to-stand-unarmed, gallic.quote.martin-funeral-procession-ranks,
+gallic.quote.institutes-opening-soldier-of-christ, gallic.quote.deserter-from-his-service, and
+gallic.quote.vincent-tempests-of-secular-warfare.
+
+This gravity's relations to this world's other gravities and forces are declared in full in
+its `relations[]` field above, reciprocal edges declared on each target. Canon_cells left
 empty, matching fleet convention for gravity/force records.

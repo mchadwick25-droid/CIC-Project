@@ -94,13 +94,16 @@ from datetime import date, datetime, timezone
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 
+from engine.m1.registry import formation_world_keys
 from engine.m4 import evidence as ev
 from engine.m4 import grounding_net as gn
 from engine.prose import all_text, content_words
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 REPORTS_DIR = pathlib.Path(__file__).resolve().parent
-WORLDS = ["alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr", "witt"]
+# Every formation world, read from the registry rather than hand-kept, so
+# a newly admitted world is picked up automatically.
+WORLDS = formation_world_keys()
 
 _CLAUSE_LEAD = re.compile(r",?\s+\b(?:or|and|but|so)\b\s+|--|—|\s-\s")
 

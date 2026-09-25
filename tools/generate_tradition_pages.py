@@ -45,7 +45,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from engine.m1.registry import load_registry  # noqa: E402
+from engine.m1.registry import formation_world_keys, load_registry  # noqa: E402
 
 SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
 TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
@@ -53,12 +53,24 @@ CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 RENDER_CLI = REPO_ROOT / "tools" / "render_orientation_cli.mjs"
 TEMPLATE_PATH = REPO_ROOT / "cic-website" / "templates" / "tradition.html"
 
-# The 10 built worlds this cutover covers (registry code -> nothing else
-# hardcoded; census_id, representative name and the existing page all
-# come from the registry / world-census.json / the file already on disk).
-# don and rzg were built after the original 8-world cutover and are added
-# here for the 2026-09-21 card redesign regen.
-BUILT_WORLD_KEYS = ["alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr"]
+
+def _built_world_keys(registry: dict) -> list[str]:
+    """Every formation world whose Part-1-compiled site JSON already exists
+    - the one real precondition this script has (it reads
+    cic-website/data/worlds/<census_id>.json, never touches a world that
+    hasn't been compiled to it yet). Self-updating instead of a hand-
+    maintained list: witt is admitted but has no compiled site JSON yet
+    (its own build thread's gap, not this script's to fix), so it is left
+    out for that real reason rather than a second hardcoded list forgetting
+    to add it - the same disclosed gap engine.m1.cross_world's required-
+    record-types check flags directly."""
+    keys = []
+    for key in formation_world_keys(registry):
+        census_id = registry[key].get("census_id")
+        if census_id and (SITE_DATA_DIR / f"{census_id}.json").exists():
+            keys.append(key)
+    return keys
+
 
 ARTICLE_OPEN = '<div class="article">'
 # The literal boilerplate that follows the article's own closing </div> in
@@ -214,7 +226,7 @@ def main(argv: list[str]) -> int:
     census_by_id = {m["id"]: m for m in census["movements"]}
     content_css, article_template = load_template()
 
-    world_keys = argv or BUILT_WORLD_KEYS
+    world_keys = argv or _built_world_keys(registry)
     for world_key in world_keys:
         if world_key not in registry:
             raise SystemExit(f"{world_key!r} is not in the registry")
