@@ -1,0 +1,17 @@
+source_file: ignatius-loyola_epistolae-et-instructiones-v22-lat_1903.txt
+
+assignments:
+  - work: "Monumenta Ignatiana: Epistolae et Instructiones, Vol. 22"
+    author: ignatius-loyola
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      One volume of the full 12-vol. MHSI critical edition of Ignatius's
+      ~7,000 letters, dwarfing the already-vendored ~24-letter
+      O'Leary/Goodier English selection. Vendored 2026-09-25 as part of
+      a post-Step0-Revision-2 PD source-acquisition pass. Per this
+      project's own INTAKE.md rule, this text is a second witness, never
+      primary evidence for a Representative.

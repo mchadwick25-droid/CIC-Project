@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: devotio-moderna-brethren-of-the-common-life
 works:
+- work: Chronicon Windeshemense und Liber de Reformatione Monasteriorum
+  author: busch
+  locus: whole volume
+  role: context
+  confidence: assigned
+  note: 'The major chronicle of the Windesheim Congregation, ed. Grube (1886), previously
+    wholly unrepresented in this world''s vendored corpus. Vendored 2026-09-25 as part of
+    a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own INTAKE.md
+    rule, this Latin/German text is a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: busch_chronicon-windeshemense-lat_grube1886.txt
 - work: Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)
   author: groote
   locus: whole text (fourteen letters, Latin, with editor's scholarly introductions)
@@ -17,6 +29,68 @@ works:
 
     '
   source_file: groote_epistolae-xiv-lat_acquoy1857.txt
+- work: Opera Omnia (De Vera Compunctione, Sermones)
+  author: kempis
+  locus: De vera compunctione, Sermones IX, and further sermon material
+  role: tradition
+  confidence: assigned
+  note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
+    Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own
+    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt
+- work: Opera Omnia (Sermones ad Novicios; Vita Lidewigis Virginis)
+  author: kempis
+  locus: Sermones ad Novicios; Vita Lidewigis Virginis
+  role: tradition
+  confidence: assigned
+  note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
+    Herder, 1905) beyond the already-vendored Imitation of Christ, including his own sermons
+    to novices and his life of Lidwina of Schiedam. Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass. Per this project''s own INTAKE.md rule, this Latin text is
+    a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt
+- work: Opera Omnia (Tractatus Prioris Pars Prior)
+  author: kempis
+  locus: Tractatus prioris pars prior
+  role: tradition
+  confidence: assigned
+  note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
+    Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own
+    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+
+    '
+  source_file: kempis_opera-omnia-tractatus-lat_pohl1902.txt
+- work: Opera Omnia (Vallis Liliorum, and further minor works)
+  author: kempis
+  locus: Vallis Liliorum and following
+  role: tradition
+  confidence: assigned
+  note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
+    Herder, this scan dated 1918) beyond the already-vendored Imitation of Christ. Vendored
+    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s
+    own INTAKE.md rule, this Latin text is a second witness, never primary evidence for a
+    Representative.
+
+    '
+  source_file: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt
+- work: The Chronicle of the Canons Regular of Mount St. Agnes
+  author: kempis
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Kempis''s own account of the founding and early history of Mount St. Agnes, his own
+    monastery near Zwolle - same translator/house (Arthur) as the already-vendored ''Founders
+    of the New Devotion'' (1905). Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+    source-acquisition pass.
+
+    '
+  source_file: kempis_chronicle-of-mount-st-agnes_arthur1906.txt
 - work: 'The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin
     and Their Followers'
   author: kempis
@@ -43,3 +117,24 @@ works:
 
     '
   source_file: kempis_imitation-of-christ_benham1886.txt
+- work: The Little Garden of Roses and Valley of Lilies
+  author: kempis
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'An additional Kempis devotional work beyond the already-vendored Imitation of Christ.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt
+- work: 'The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)'
+  author: zerbolt
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Zerbolt of Zutphen''s major devotional/method treatise, named by the census as "the
+    movement''s method text" but previously wholly unvendored - closes that named gap directly.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: zerbolt_spiritual-ascent_arthur1908.txt

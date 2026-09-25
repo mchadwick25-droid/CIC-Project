@@ -1,0 +1,16 @@
+source_file: nadal_epistolae-v1-lat_1898.txt
+
+assignments:
+  - work: "Epistolae P. Hieronymi Nadal Societatis Jesu, Vol. I"
+    author: nadal
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Nadal's own letters, distinct from the already-vendored
+      Adnotationes et Meditationes. Vendored 2026-09-25 as part of a
+      post-Step0-Revision-2 PD source-acquisition pass. Per this
+      project's own INTAKE.md rule, this text is a second witness, never
+      primary evidence for a Representative.
