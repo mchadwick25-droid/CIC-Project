@@ -5070,3 +5070,107 @@ reworded to "Scholars still disagree about whether Theophilus meant
 the same thing that doctrine later named." Re-measured after the
 edits: FK grade 7.68, longest sentence 23 words, average 15.1
 words/sentence.
+
+**Entry 76 — 2026-09-25. R42's own generation-side follow-up (Entry 73):
+measured, then dropped by direct ruling.** Entry 73 left one open item -
+a proposed report-only directive line asking the voice to tag any
+sentence that draws on a record even when it names no person, number, or
+quote - held "until 7b merges" by its own sequencing verdict. Mark's own
+ruling, in session, 2026-09-25 ("a, add the narrow sentence and run the
+test") chose to build and measure it now rather than continue holding it.
+The proposed sentence, for the record: "A sentence that states something
+specific this ground actually says, even when it names no person, place,
+text or number of its own, still carries that record's own tag. Only a
+sentence that adds nothing beyond connecting or interpreting what was
+already said stays untagged."
+
+**Live measurement, same script and method as Entry 61**
+(`engine/m4/reports/g1_precision_sample_measure.py`, 11 worlds x 2
+probes = 22 fresh probes, region us-east-1), with the proposed sentence
+added to `records/_fleet/fleet_voice/_fleet.voice.fleet.md`'s
+`citation_contract` and all 12 world packages rebuilt/re-pinned for the
+measurement only. Real cost: $1.9714, 22 probes, 141 raw offenses
+(report: `engine/m4/reports/g1-precision-sample-measure-2026-09-25.json`).
+
+**Sample of 40, stratified across all 11 worlds proportional to each
+world's own share (Entry 61's own method), hand-read against each
+world's own freshly-compiled repository.** The three counts, before
+(Entry 61) vs after: 0 -> 4 unsupported, 14 -> 17 supported but
+untagged, 26 -> 19 interpretive or connective (of 40 each time). The
+proposed sentence showed no measurable reduction in the untagged-but-
+supported miss rate - if anything it moved the other way, consistent
+with Entry 60's own finding that a proposed wording change "made no
+measurable difference to the raw rate." One 40-sentence sample from one
+run is not enough to call 14 vs 17 a real regression either; both
+readings are offered plainly, not resolved past what this sample can
+support.
+
+**Unsupported (4 of 40, up from 0) - the important finding, independent
+of the citation-contract question this measurement was run to answer:**
+four sampled sentences asserted a specific, checkable claim with no
+support anywhere in the speaking world's own compiled repository,
+verified by direct search, not plausibility: *"Some among us thought he
+was a coward"* (cappadocian, of Eustathius of Sebaste) - the repository
+documents the Eustathius rupture at length but nowhere calls him a
+coward or names factions who thought so; *"Felix Manz was drowned in the
+Limmat that same year"* and *"...fines, then imprisonment, and finally,
+in 1527, execution"* (rzg) - Felix Manz is named repeatedly in rzg's own
+repository, but no drowning, no river name, no execution, fine, or
+imprisonment appears anywhere in its compiled text; *"Alexandria itself
+appears only once in what we hold, and only in passing..."* (witt) -
+"Alexandria" appears zero times, any spelling or case, anywhere in
+witt's compiled repository. These are not citation-contract misses -
+they are the class of fabrication `engine.m4.named_claim_grounding`
+(OG-16, `worlds/pahc/Open_Gaps_Tracking.md`) exists to catch,
+report-only and unenforced today, on real live traffic, independent of
+anything this entry's own citation-contract question asked.
+
+**Control run, 2026-09-25 (asked before any decision on the finding
+above, to isolate cause): same script/method, against current
+origin/main - no citation_contract change of any kind, the build
+participants actually get today.** Real cost: $1.9801, 22 probes, 150
+raw offenses (report: `engine/m4/reports/g1-precision-sample-measure-
+control-2026-09-25.json`). Same stratified 40-sentence hand-read method.
+
+**One confirmed unsupported claim, verified by direct search:**
+*"Athanasius of Alexandria was named among the bishops who signed it,
+and our own teachers defended that same homoousios..."* (cappadocian) -
+"Athanasius" appears zero times, any spelling or case, anywhere in
+cappadocian's compiled repository. Fabrication therefore reproduces on
+current main, independent of the citation_contract question this whole
+measurement line was run to answer - it is not something the proposed
+sentence caused. **Honest limit, stated plainly rather than glossed
+over: this control run verified the Athanasius finding to the same
+direct-search standard as the four above, but did not carry every one of
+the other 39 sampled sentences to that identical depth** - a real limit
+on what this control run alone establishes, separate from the finding
+itself.
+
+**Why `named_claim_flags` (OG-16; `engine.m4.named_claim_grounding`) did
+not catch any of these fabrications, in either run: it cannot, by
+construction.** That check only examines a sentence that is already
+citation-tagged and already passed `grounding_net`'s own ratio test -
+every fabrication either run found came from `find_uncited_claims`'s own
+untagged-sentence list, a structurally different, out-of-scope class,
+not a near-miss. The class of fabrication both runs found is exactly
+`find_uncited_claims`/R27's own domain (enforceable today via
+`r27_enforce`/`CIC_R27_ENFORCE`, off by default) - not named_claim_
+grounding's.
+
+**Are these worlds live today?** `engine.m1.registry.load_registry()`
+and `cic-website/data/world-census.json`'s own `movements` list both
+confirm: cappadocian, rzg (`the-reformed-cities-zurich-and-geneva`), and
+witt are all `state: admitted`, `living: true`, and census status
+`"Built & Live"` - yes, live on the production site today. No
+enforcement flag was touched by either run.
+
+**Ruling (Mark, 2026-09-25): "drop #558."** The proposed sentence is not
+adopted: it showed no measurable improvement to the untagged-but-
+supported miss rate it was meant to address, and the fabrication finding
+above is confirmed pre-existing on main, not caused by or fixed by the
+proposed sentence. `records/_fleet/fleet_voice/_fleet.voice.fleet.md`'s
+`citation_contract` is unchanged on main; no world package is re-pinned
+by this entry. The fabrication finding itself remains open, tracked
+separately from this now-closed follow-up - R27/`find_uncited_claims`
+is the existing, off-by-default mechanism that already covers this class
+of defect, per the scope note above.
