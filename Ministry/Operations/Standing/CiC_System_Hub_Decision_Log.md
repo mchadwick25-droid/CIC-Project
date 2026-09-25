@@ -5397,3 +5397,37 @@ paragraph. Relayed by the managing thread.
 quote records clean but repeatedly found distortions introduced by the host rewrites done
 in the same pass. Confining the host edit to the quote's own sentence keeps each
 extraction reviewable against its source, and gives any wider rewrite its own review.
+
+## 2026-09-25 — Readability gate does not score participant turns
+
+**Ruling.** Mark, 2026-09-25: "a" (lpc OG-25). A participant's line in a demonstration or
+transcript record is a record of what was said, like `quote.text`, not prose the project
+authors, so the readability gate never scores it. The world's own lines (Representative,
+Facilitator, narration) are scored exactly as before. Relayed by the managing thread.
+
+**Why.** Tested transcripts must stay verbatim. Scoring a participant's own words would
+push a build to rewrite what a participant said to pass a gate.
+
+**Where.**
+- `engine/m1/gates.py`: `_READABILITY_EXCLUDED_SPEAKERS` skips `demonstration.exchange`
+  turns whose `speaker` is `participant`. That is the only field that carries participant
+  turns; the schema limits `speaker` to `participant` or `representative`.
+- Tests in `engine/m1/tests/test_gate_readability.py`.
+- One rule sentence next to the NorthStar rule in
+  `reference/method/CiC_Record_Native_World_Build_Process_V1.8.md` §3.
+
+**Measured effect** (failing readability findings, before → after):
+
+| world | before | after |
+|---|---|---|
+| alx | 149 | 148 |
+| desert | 162 | 159 |
+| gallic | 110 | 109 |
+| hal | 165 | 164 |
+| pahc | 162 | 161 |
+| rzg | 137 | 135 |
+| syr | 155 | 154 |
+
+cappadocian, don, ijc, witt and the fleet records are unchanged. The seven waivers in
+`engine/m9/enforce.py` were tightened to the new counts. Report-only "below the floor"
+observations also fell by 1–6 per world; those carry no waivers.
