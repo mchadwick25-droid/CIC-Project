@@ -45,16 +45,16 @@ pair rare; this module scans hand-authored prose across many styles,
 where it is not rare).
 
 A possessive apostrophe ("the fathers' grace", "nourishes' the poor
-man's") is never specially excluded: it never becomes a candidate close
-at all unless a real open of the same family is already pending, and at
-that point it IS the nearest close - the same rule a real close follows.
-An earlier version of this module tried to reject an "s'"-shaped mark
-before checking whether an open was pending, using only local context
-(what follows the mark) to guess - that guess was wrong often enough to
-flip real pairings (a real close like "...within us'" or "'nourishes'"
-rejected because a lowercase word happened to follow), which is worse
-than the possessive case it was trying to guard against. Removed rather
-than patched further, per this project's own "no fix on a fix" rule.
+man's") is never specially excluded: any close-shaped mark ends the
+nearest still-open span of the same family, whether or not it happens to
+look like a possessive. This is right far more often than not - a
+possessive sitting BETWEEN two separate quotations never becomes a
+candidate close at all, since no open is pending there - but a
+possessive sitting INSIDE a still-open span does end it early, same as
+any other close-shaped mark would. `worlds/pahc/Open_Gaps_Tracking.md`
+OG-10 has this module's own count of how often that actually happens
+fleet-wide, and records it as a known, accepted limitation rather than a
+second layer of guesswork on top of this rule.
 
 Usage: `python -m engine.m1.embedded_quotations` - writes
 `engine/m1/reports/embedded-quotations-report-<date>.json` and prints a
