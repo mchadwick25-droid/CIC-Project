@@ -236,7 +236,7 @@ def open_table_round(
 
     if action == "bridge_turn":
         fired = _fired_terms(gate_run.gate, anachronistic_term_ids)
-        facilitator_event, _underlying_subject = facilitator_turns.bridge_turn(fired)
+        facilitator_event, _underlying_subject = facilitator_turns.bridge_turn(fired, load_fleet_records())
         # Same record-what-the-voices-were-handed discipline as the
         # interview's bridge branch: the gate payload's directive is updated
         # to the barred-terms directive BEFORE the caller writes it, so the

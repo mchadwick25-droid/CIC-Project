@@ -58,6 +58,8 @@ for (Artifact-4 SS3 rule 4, Program-Spec SS77), not this module's prose.
 """
 from dataclasses import dataclass
 
+from engine.m4 import citation_cards
+
 
 @dataclass(frozen=True)
 class FacilitatorTurn:
@@ -423,14 +425,26 @@ def voice_rejected_turn(representative_name: str) -> dict:
     return {"kind": VOICE_REJECTED.kind, "text": VOICE_REJECTED.text.format(representative_name=representative_name)}
 
 
-def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
+def bridge_turn(terms: list[dict], fleet: dict[str, dict] | None = None) -> tuple[dict, str]:
     """Returns (facilitator_event, underlying_subject).
 
     The Facilitator speaks the modern sense; the voice receives the term-free
     underlying subject and never sees the participant's modern word
     (Program-Spec SS77). Both strings come from the fleet's own modern_term
     record - this function composes nothing.
-    """
+
+    fleet (OG-13, worlds/pahc/Open_Gaps_Tracking.md): resolves each fired
+    term's own citation_cards.resolve_source_card - modern_sense, sources,
+    and (a modern_term's own extra field) distinguishing_claim, exactly the
+    same card shape every other cited record already gets - so a caller has
+    something to show as a real, sourced card, not only the prose sentence
+    above. `fleet` is the same dict every caller already has in scope
+    (load_fleet_records()), passed through rather than reloaded here, since
+    a modern_term's own sources[] point at fleet source records
+    (_fleet.source.*), not this world's own repository. Optional and
+    additive: omitting it (every existing caller before this) leaves
+    facilitator_event["modern_terms"] as [] rather than failing - the
+    prose sentence alone is still a complete, correct bridge turn."""
     if not terms:
         raise ValueError("bridge_turn called with no modern_term records - routing only reaches it when a term fired")
     senses = " ".join(t["modern_sense"].strip() for t in terms if t.get("modern_sense"))
@@ -441,4 +455,8 @@ def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
         f"knew. In our sense: {senses} Let me translate that into terms this world would actually "
         f"recognize before I put it to the voice: {subjects}"
     )
-    return {"kind": "bridge", "text": text}, subjects
+    modern_term_cards = [
+        card for t in terms
+        if (card := citation_cards.resolve_source_card(t["id"], fleet)) is not None
+    ] if fleet else []
+    return {"kind": "bridge", "text": text, "modern_terms": modern_term_cards}, subjects

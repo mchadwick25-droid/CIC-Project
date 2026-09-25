@@ -17,6 +17,26 @@ def _real_repository(world_key: str) -> dict[str, dict]:
     return {r["id"]: r for r in records}
 
 
+def test_resolves_the_real_fleet_modern_term_carrying_its_own_modern_sense():
+    """OG-13 (worlds/pahc/Open_Gaps_Tracking.md): modern_sense used to be
+    read only by facilitator_turns.bridge_turn, to compose its own spoken
+    sentence - never attached anywhere a participant could see it as its
+    own sourced card. _fleet.modern.trinity is the one real modern_term
+    record in the fleet."""
+    from engine.m1.loader import load_fleet_records
+
+    fleet = load_fleet_records()
+    term_id = "_fleet.modern.trinity"
+    assert term_id in fleet, "fixture assumes the fleet's own modern_term record"
+    card = resolve_source_card(term_id, fleet)
+    assert card["record_type"] == "modern_term"
+    assert card["label"] == ", ".join(fleet[term_id]["display_terms"])
+    assert card["modern_sense"] == fleet[term_id]["modern_sense"]
+    assert card["distinguishing_claim"] == fleet[term_id]["distinguishing_claim"]
+    source_ids = {s["source_id"] for s in card["sources"]}
+    assert source_ids == {"_fleet.source.theophilus-to-autolycus", "_fleet.source.tertullian-against-praxeas"}
+
+
 def test_resolves_a_real_term_to_its_real_underlying_source():
     """alx.term.allegoria cites Origen's Philocalia, Clement's
     Stromateis, and Eusebius's Historia Ecclesiastica - real,

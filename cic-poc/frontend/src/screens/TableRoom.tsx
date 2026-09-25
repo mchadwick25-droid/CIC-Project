@@ -14,6 +14,7 @@
  */
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
+import { ModernTermMark } from '../components/ModernTermMark';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
@@ -117,7 +118,10 @@ export function TableRoom({
             return (
               <div key={i} className="turn turn--facilitator">
                 {facilitatorParagraphs(turn.text).map((paragraph, j) => (
-                  <p key={j}>{paragraph}</p>
+                  <p key={j}>
+                    {paragraph}
+                    {j === 0 && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
+                  </p>
                 ))}
               </div>
             );

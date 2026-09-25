@@ -1395,7 +1395,7 @@ def run_turn(
             for t in (reader_outcome.value.get("modern_terms") or [])
             if t["term_id"] in anachronistic_term_ids and t["term_id"] in fleet
         ]
-        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired)
+        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired, fleet)
         # WHAT ELSE THE PARTICIPANT ASKED. The bridge route carries no
         # directive of its own (engine.m5.routing), so a message that asked
         # two things - one carrying the modern word, one not - used to reach

@@ -120,6 +120,7 @@ _LABEL_FIELDS = {
     "contested_claim": lambda r, _repo: r.get("claim"),
     "doctrinal_witness": lambda r, _repo: _first_sentence(r.get("text") or ""),
     "honest_limit": lambda r, _repo: _first_sentence(r.get("statement") or ""),
+    "modern_term": lambda r, _repo: ", ".join(r.get("display_terms") or []),
 }
 
 
@@ -180,6 +181,15 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         # modern rendering carries its original wording on the click page.
         card["original_wording"] = record.get("text")
         card["spoken_rendering"] = record.get("modern_rendering")
+    if record.get("record_type") == "modern_term":
+        # OG-13 (worlds/pahc/Open_Gaps_Tracking.md): modern_sense was read
+        # only by facilitator_turns.bridge_turn, to compose its own spoken
+        # sentence - never attached anywhere a participant could see it as
+        # its own sourced card. Carried here the same way a quote's own
+        # modern_rendering is: verbatim, additive, never composed by this
+        # function.
+        card["modern_sense"] = record.get("modern_sense")
+        card["distinguishing_claim"] = record.get("distinguishing_claim")
     return card
 
 
