@@ -40,16 +40,26 @@ name: Sustained purity doctrine and rebaptism practice as founding logic [2B - o
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2B, Force 2B-1): the purity doctrine and its enacted rite operated
-  as this world's own established, contested institutional pattern from 311/312 through the 411 Conference.
-  Documented, attested both in Augustine's own primary text - not merely characterised - and in Petilian's
-  own quoted argument. LAYER 2 - THE WORLD'S OWN EXPERIENCE: to belong here was to have been washed again,
-  deliberately, by a hand of unbroken standing - not a repetition of something already valid but the first
-  true baptism a person ever received. This was not a doctrine held quietly; it was lived, daily, in the concrete
-  choice of which minister's hands to receive from. LAYER 3 - FORMATION IMPACT: this is this world's central,
-  continuously operating internal force. It sustains both the ministerial-purity gravity and the rebaptism
-  gravity across the entire window, and it is what the Maximianist affair specifically tests - without fracturing
-  it.
+  From 311/312 through the Conference of 411, the purity doctrine and the rite that enacted it
+  worked as this world's own established institutional pattern. It was a contested pattern the
+  whole time.
+
+  This pattern is documented directly in Augustine's own writing, which attests it rather than
+  merely characterising it. Petilian's own argument, quoted in Augustine's reply, attests it too.
+
+  To belong here was to have been washed again, on purpose, by a hand of unbroken standing. This
+  was not a repeat of something already valid. It was the first true baptism a person had ever
+  received.
+
+  No one held this doctrine quietly. It was lived every day, in the concrete choice of which
+  minister's hands to receive from.
+
+  This is this world's central internal force, and it never stops working. Across the whole period
+  this world covers, it sustains two defining commitments. One is the doctrine of ministerial
+  purity. The other is rebaptism, the rite that marks this movement's boundary.
+
+  The Maximianist affair puts this force to a specific test. The force comes through it without
+  fracturing.
 manifestations:
 - the doctrine and its rite operating as an established institutional pattern from 311/312 through the 411
   Conference
