@@ -104,19 +104,7 @@ modern_contrast: >-
   the saint (his straw heals because he lay on it); in the East as Cassian carries it, the monk answers
   for the thing - matter as a conductor in the north, a ledger in the south.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory009_the-three-lentil-beans.md (Tier 2,
-Marseilles node, received Eastern material, Registry row 7). Story Text carried faithfully, with the
-setting stated as Cassian states it ("the coenobia of the East"), per Doc_09 §7(b)'s ruling.
-
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as G7 - the interior road (Supporting, node-bound
-southern) at the smallest scale the sources allow - Doc_07 §2G's reversal of accountability between the
-nodes ("matter is a conductor in the north and a ledger in the south"), the source Doc_05 §1.2 and §2.3
-use for the south's communal expectation of consecrated property, and Doc_07 §2E's jurisprudence in
-miniature; and it touches G4 - received, not invented, the discipline kept as what the fathers of the
-East hand on rather than a Gallic house's own rule.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.interior-road;
-associated-with gallic.gravity.received-not-invented - each connection named above, with the
-reciprocal back-edge (illustrated-by / associated-with) declared on every one of those gravity
-records.
+The setting is stated as Cassian himself states it - the coenobia of the East, not Egypt specifically.
+Illustrates gallic.gravity.interior-road (the reversal of accountability for matter between the two
+nodes) and gallic.gravity.received-not-invented (a discipline the East hands on, not a Gallic house's
+own rule).
