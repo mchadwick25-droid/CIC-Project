@@ -131,6 +131,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
     "m9:shelf-row/rzg": Waiver(count=10, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/witt": Waiver(count=47, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    "m1:quote-verbatim/gallic": Waiver(count=1, deadline="2026-12-14", owner="gallic.quote.salvian-on-the-unburied-dead - one footnote-marker artifact in cic/texts/salvian_on-the-government-of-god_sanford1930.txt (a bare closing curly quote glued to \"captures,\" with no matching open, unlike this edition's other two now-registered apparatus patterns) isn't a safe edition-wide regex (41 real opening curly quotes and legitimate closing-quote usage elsewhere in this same file); needs a narrower, structurally-anchored rule, not a blanket strip - Decision 8B's own gallic thread"),
 }
 
 # The five m1:readability/{desert,don,ijc,pahc,syr} waivers registered
