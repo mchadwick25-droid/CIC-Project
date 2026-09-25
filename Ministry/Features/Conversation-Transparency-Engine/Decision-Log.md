@@ -5070,3 +5070,16 @@ reworded to "Scholars still disagree about whether Theophilus meant
 the same thing that doctrine later named." Re-measured after the
 edits: FK grade 7.68, longest sentence 23 words, average 15.1
 words/sentence.
+
+**modern_sense wording ruling, 2026-09-25 (item D1/#548, a separate field
+from the round above's own `distinguishing_claim`).** An independent
+review of #548 found `modern_sense` mislabeled and ungated in
+`spoken_fields.py`; gating it once fixed found `modern_sense` itself at
+FK grade 11.7, above the ceiling of 10. An Opus-drafted rewrite proposed
+"teaching" in place of "doctrine" (same FK grade either way, 7.17); Mark's
+own ruling, in session, 2026-09-25: "the new Trinity wording is fine,"
+naming the approved text exactly: "The developed doctrine that God is
+three persons in one being, all three equal and all three without
+beginning or end. This doctrine took formal shape at Nicaea and after." -
+"doctrine" in both places, not "teaching", matching `distinguishing_claim`'s
+own "the doctrine it now names." Applied verbatim to the record.
