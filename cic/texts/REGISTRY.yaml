@@ -1900,6 +1900,24 @@
     same day:** Boundary-Checked Native, Documented (Doc_02 §13A, Source Registry row 43) and
     corpus-map assigned - Hilary of Arles's own sermon on Honoratus, already vendored, names
     Salvian directly as one of Honoratus's own circle at Lerins.
+  apparatus:
+    - name: footnote-glyph-double-asterisk
+      pattern: '\*\*'
+      evidence: >-
+        "the emperors ** circuses as the sovereign remedy" and "in my own country,** in the
+        Gallic states" - this OCR extraction's own rendering of a footnote reference number,
+        surfacing as a bare double asterisk with no digit. 88 occurrences fleet-wide in this one
+        file, never real prose in a 1930 English translation of Salvian - the same tier as the
+        fleet-wide soft-hyphen class (an unambiguous character sequence, not a shape that could
+        coincide with real quoted text).
+    - name: footnote-glyph-registered-mark
+      pattern: '\*?®'
+      evidence: >-
+        "despoiled and plundered,*® still less ruined in fortunes than in morality" - the same
+        extraction's footnote-reference mark, here surfacing as a bare asterisk glued directly to
+        a registered-trademark glyph (83 occurrences of ® in this file, some with the asterisk
+        immediately before it, some without). Already an established pattern for the ® half -
+        see this same name's own entry above for the Basil edition it first surfaced in.
 - filename: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
   supplied_by: build thread (Gallic Monastic-Ascetic Christianity), fetched directly from archive.org
   date_added: '2026-09-09'
