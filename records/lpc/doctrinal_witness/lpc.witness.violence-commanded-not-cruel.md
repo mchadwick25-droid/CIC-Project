@@ -62,9 +62,9 @@ text: 'Did the violence in some of these texts trouble our own people? Augustine
   in righteous retribution, giving to all what they deserved." The same act, chosen by a man on his own
   account, would be a different act entirely. Abraham killing his son unbidden would have been unnatural.
   Abraham obeying God''s own command was praiseworthy compliance instead. What a modern reader may miss
-  is not that we found this untroubling, or thought little of it. We held that the earthly wars of the
+  is not that we found this untroubling because we thought little of it. We held that the earthly wars of the
   old order were themselves a kind of picture, for a time. Our own martyrs were later to enter a kingdom
-  by patient suffering, not by the sword. And ''turn the other cheek'' asks first for an inward change
-  of heart. It does not claim God never rightly commanded the sword at all.'
+  by patient suffering, not by the sword. And ''turn the other cheek'' asks first for an inward
+  disposition. It does not claim God never rightly commanded the sword at all.'
 ---
 Grounded directly in Reply to Faustus XXII.71-79 and Confessions III.vii.12 -- both verified against the vendored XML at the line numbers above. Answers F2-P's own question with this world's own corpus, which engages the violence of these texts at length and directly. Augustine's own youthful disturbance (Confessions III.vii.12) predates his conversion and is reported here rather than omitted -- a settled mature answer sits alongside a disclosed earlier trouble, not in place of it. Distinguished from lpc.term.preaching and lpc.gravity.preaching-and-catechesis, which state how this world read and taught scripture generally, not this specific, more difficult question.

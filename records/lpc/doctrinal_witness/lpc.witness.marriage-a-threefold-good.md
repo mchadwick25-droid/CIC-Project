@@ -34,8 +34,8 @@ relations:
 - type: associated-with
   target: lpc.witness.almsgiving-quenches-sin
 positions:
-- Augustine wrote a whole book on marriage. Some people praised virginity. They thought this meant putting
-  marriage down. Augustine did not agree. He named three good things about marriage. These are children,
+- Augustine wrote a whole book on marriage. He was answering those who thought that praising virginity
+  meant putting marriage down. He named three good things about marriage. These are children,
   faithfulness, and what he called its sacrament.
 tensions:
 - The third good is the one he presses hardest. A marriage compact is entered into as a kind of

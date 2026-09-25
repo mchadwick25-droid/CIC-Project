@@ -37,7 +37,7 @@ description: >-
   one.
 
 
-  This project's actual access is narrower than that full record. It works mainly from one 19th-century English
+  This project's actual access is narrower than that full record. It works mainly from the 19th-century English
   translation series: the Ante-Nicene Fathers and the Nicene and Post-Nicene Fathers. It also holds critical Latin
   editions, but uses them far less. Both the survival pattern and the make-up of this working corpus are documented.
   Three agents carried out this transmission. They are: the Catholic institutional manuscript tradition, the editors

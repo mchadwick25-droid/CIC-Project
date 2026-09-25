@@ -22,7 +22,7 @@ relations:
   target: lpc.gravity.conciliar-authority-theory
 statement: A conference was held in 411. Our own bishops met with the rival communion's own bishops. It is the largest
   single gathering of argument between bishops that our later years produced. We know its date for certain; that part
-  of the record is not in dispute. But we have not read its own transcript, the record of what was actually argued
+  of the record is not in dispute. But we do not draw on its own transcript, the record of what was actually argued
   there, bishop by bishop. That transcript has not been validly read in building this record. So we cannot yet tell
   you how our own bishops, beyond Cyprian and Augustine, actually argued about authority among themselves.
 why_sources_cannot_answer: 'The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference --

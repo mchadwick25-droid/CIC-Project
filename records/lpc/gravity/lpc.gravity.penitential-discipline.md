@@ -65,7 +65,7 @@ description: >-
 
   It recurs strongly. It appears in De Lapsis, and in the letters about the lapsed. It also appears in Pontius's
   narrative, and in the world's liturgical evidence. One more limit belongs here. The evidence from Cyprian's phase
-  comes from several separate sources that support each other. But the claim that this concern spans both phases rests
+  comes from several independent sources that support each other. But the claim that this concern spans both phases rests
   on Cyprian's phase alone.
 
 
@@ -78,8 +78,8 @@ description: >-
 
   Whether it continues into Augustine's phase was checked directly, not assumed. It holds directly for Cyprian's
   phase. For Augustine's phase, the case that it continues does not fully hold. It does not hold as this same concern,
-  under its own name. No text from Augustine's phase is built around a crisis like that of the lapsed. None matches
-  that same sharp, empire-wide scale.
+  under its own name. No text from Augustine's phase is organized around a crisis like that of the lapsed, at that
+  same acute, empire-wide scale.
 
 
   The closest parallels are real. They are two things. One is the pull toward the Donatist schism. The other is the

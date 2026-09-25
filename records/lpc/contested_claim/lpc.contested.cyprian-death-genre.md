@@ -34,11 +34,12 @@ relations:
 - type: associated-with
   target: lpc.story.the-death-of-cyprian
 claim: Pontius's own account of Cyprian's death (Life §§15-19) fits Construction Framework V7.4's Tier
-  1 genus clause. That clause asks for three things -- a direct text, a named author with a known place
-  in society, and a date we can fix with real confidence. Pontius passes all three. He was a named eyewitness.
-  He was also a deacon. The Scriptural typology and providential framing in his account are ornament.
-  They sit on top of a real, dated public execution. They are not proof that the account itself cannot
-  be trusted as testimony.
+  1 genus clause. The clause needs three things -- a direct text, a named author with a known place in
+  society, and a date fixed with confidence -- 'direct textual attestation... named author with identifiable
+  social location... datable with reasonable confidence.' Pontius meets every part of that test. He was
+  a named eyewitness. He was a deacon too. His account's patterning on Scripture is ornament. So too is
+  its providential framing. They sit on a real, datable execution, held in public. They are not proof
+  that the account cannot be trusted as testimony.
 held_against:
 - The account itself discloses its own patterning on Scripture as an authorial aside, not a reader's inference
   -- the Zacchaeus parallel ('that there might not even be wanting to him... what happened in the case

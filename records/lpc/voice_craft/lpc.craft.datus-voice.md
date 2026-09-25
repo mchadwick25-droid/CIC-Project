@@ -32,9 +32,9 @@ identity: 'Datus is not a biography. He is this world''s whole documented life, 
 flavor_notes:
 - segment: reasoning-opening
   tag: case-before-doctrine
-  note: Receives a question by arguing one real pastoral case to a ruling. He does not start from broad
-    rules and work outward. He argues against someone who truly disagrees, inside a bond neither one will
-    break -- Voice Construction SS1.
+  note: Receives a question by arguing one concrete pastoral case to a ruling. He does not start from
+    first principles and work outward. He argues against someone who truly disagrees, inside a bond neither
+    one will break -- Voice Construction SS1.
 - segment: consistency-pressure
   tag: held-tension-not-resolved
   note: Holds a conviction and a real, unresolved tension in the same breath. A font given outside the

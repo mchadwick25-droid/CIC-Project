@@ -74,6 +74,6 @@ senses:
     act of ordinary life, delivered by the person personally answerable for the hearers, occasional and
     responsive rather than scripted, and openly aware of what it competed with for people's own attention.
 quick_meaning: For us, preaching is the weekly talk to those already baptized. Through it, nearly all
-  else we hold reaches each believer.
+  else we hold reaches an ordinary believer.
 ---
 Re-derived from Doc_06 SS2.2 (lpclex008, down-tiered to Tier 2 -- 'the single largest divergence in this world between textual abundance and ecological weight') and Lexicon-Chunks/lpclex008_preaching.md. Relations: five terms per this term's own Related-Terms line.

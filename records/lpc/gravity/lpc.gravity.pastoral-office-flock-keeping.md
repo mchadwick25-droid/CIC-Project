@@ -67,13 +67,13 @@ description: >-
 
   Other concerns in this world depend on it. Penitential discipline is carried out by a bishop who holds this office.
   Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who rightly holds the
-  office. Sacramental validity asks that same question. This world forms people through pastoral care and sacrament.
-  It does this before it forms them through law. The whole system of teaching and penance exists for one reason. A
+  office. Sacramental validity asks that same question. This world's own formation is pastoral and sacramental before
+  it is legal. The whole system of teaching and penance exists because a
   bishop answers personally for his flock.
 
 
   It explains why Cyprian's crisis letters exist at all. It explains why Augustine's sermon collection is so large. It
-  also explains something else. Both bishops' accounts of coming to office are attested on their own. Both are treated
+  also explains something else. Both bishops' accounts of coming to office are independently attested. Both are treated
   as formative. It is visible in both Carthage and Hippo. It shows in both phases, in both bishops' own words. It
   reinforces penitential discipline, collegial communion, and preaching and catechesis. It also reinforces sacramental
   validity and the confessor tension. Conciliar authority reinforces it, but only weakly. No link with grace and human
@@ -87,10 +87,10 @@ description: >-
   preface alone.
 
 
-  It is the concern most densely connected to the forces acting on the world. Christianity had no legal standing, as
-  an unlicensed religion. That meant the office had no outside power to enforce it. A personal bond held it together
-  instead. Congregational acclamation shows how a man comes to hold the office. The Decian and Valerianic persecutions
-  make his answerability acute. They do this through the flock's own failure. They also do it through the bishop's own
+  It is the concern most densely connected to the forces acting on the world. Christianity had no legal standing. It
+  was an unlicensed religion. So the office had no outside power to enforce it. Instead, a personal bond held it
+  together. Acclaim from the people shows how a man comes to hold the office. The Decian and Valerianic persecutions
+  make him sharply answerable. They do this through the flock's own failure. They also do it through the bishop's own
   test. The plague is a pressure the bishop shares, rather than judges. The Vandal invasion and siege of Hippo mark
   where the bond ends. It ends when the bishop does.
 manifestations:

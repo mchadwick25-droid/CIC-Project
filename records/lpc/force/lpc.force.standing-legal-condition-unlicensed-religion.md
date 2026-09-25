@@ -32,12 +32,12 @@ description: >-
   But the exposure never stopped. This picture is widely accepted.
 
 
-  It meant that a bishop could be taken away, and one was. The office carried no protection. The community had no
-  recourse. What it had was each other. It also had whatever a man would do for his own people. It had that, for as
+  It meant that a bishop could be taken, and one was. The office carried no protection. The community had no
+  recourse. What it had was each other. It also had whatever a man would do for the people in his charge. It had that, for as
   long as he could.
 
 
-  This condition is why the pastoral office grew as personal answerability, rather than as legal power. An office with
+  This condition is why the pastoral office grew as personal answerability, rather than as jurisdiction. An office with
   nothing outside to enforce it is held together by one thing. That thing is the bond between one man and one
   congregation.
 

@@ -62,7 +62,7 @@ description: >-
   The Donatists prompted this engagement by citing Cyprian for their own side. So the prompt came from outside. But
   the reading, the argument, and the conclusion were this world's own acts. The outside prompt decided only the
   timing. For that reason, it counts as an internal force. This placement was checked and confirmed, not simply
-  assumed.
+  inherited.
 
 
   It also depended on an earlier condition. Cyprian's councils met and left written acts. Those acts are what

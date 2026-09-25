@@ -49,7 +49,7 @@ description: >-
 
 
   The confessors existed as a class with a claim only because the Decian edict created them. So this force belongs to
-  Cyprian's phase alone. That limit rests on a check, not a guess from silence. The word "confessor" appears twenty
+  Cyprian's phase alone. That limit rests on a check, not a guess from silence. The stem "confessor" appears twenty
   times across all eight Augustine volumes in the project's library, and never in this sense.
 manifestations:
 - '"thousands of certificates were daily given, contrary to the law of the Gospel" (Cyprian''s own words)'

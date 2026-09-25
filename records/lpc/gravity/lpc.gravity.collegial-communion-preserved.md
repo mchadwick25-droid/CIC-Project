@@ -48,7 +48,7 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: Collegial Communion Preserved Despite Disagreement
 description: >-
-  Few things mattered more to this world than staying in communion despite real conflict. Bishops in this world
+  Few things mattered more to this world than staying in communion despite real disagreement. Bishops in this world
   disagree, sometimes sharply. But they work to keep communion. They do not break it and build a rival hierarchy.
 
 
@@ -58,8 +58,8 @@ description: >-
   Letter 185 addresses the Donatist schism in that same pastoral, corrective tone.
 
 
-  Our own case for this world's coherence rests on this concern. That coherence spans the century between its two
-  bishops. A bishop who disagrees has two paths. He can work to keep communion. Or he can break it and set up a rival
+  Our own case for this world's coherence across the century between its two bishops rests on this concern. A bishop
+  who disagrees has two paths. He can work to keep communion. Or he can break it and set up a rival
   hierarchy. Both bishops take the first path. Neither breaks fellowship, even over the sharpest doctrinal disputes in
   the record. Neither bishop's writings hold a single case that goes against this.
 
@@ -74,7 +74,7 @@ description: >-
   The confidence split is disclosed, not resolved. The underlying facts are solidly attested. The 256 preface's own
   words, and On Baptism's long argument, are directly quoted and checked. But there is a choice in how to read them.
   We read them as one concern across both phases, not as two separate historical facts. That is our own reading, not a
-  plain fact. This reading stands at Widely Accepted. The record carries this careful rating instead of hiding the
+  plain fact. This reading stands at Widely Accepted. The record carries this more cautious rating instead of hiding the
   split.
 
 

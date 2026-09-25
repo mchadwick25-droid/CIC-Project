@@ -57,13 +57,13 @@ description: >-
 
 
   It recurs in Augustine's Sermons and Tractates on John. It also recurs in the catechetical works. It recurs too in
-  Cyprian's De Dominica Oratione. Pastoral office depends on it as its main role. But nothing else depends on it that
+  Cyprian's De Dominica Oratione. Pastoral office depends on it as its main activity. But nothing else depends on it that
   way. Pastoral office, penitential discipline, and collegial communion do. It works as the channel. Those concerns
   are taught and enforced through it.
 
 
-  Its power to shape believers is strong and direct. That is the clear subject of the catechetical works. It is also
-  the stated purpose of both bishops' preaching. It explains how formation happens. That matters more than why any one
+  Its power to shape believers is strong and direct. That is the clear subject of the teaching works for converts. It is also
+  the stated purpose of both bishops' preaching. It explains how formation happens more than why any one
   crisis occurred. It is attested in both phases, in both bishops' own words. It reinforces pastoral office and
   penitential discipline. It also reinforces grace and human incapacity. No link has been shown with collegial
   communion or conciliar authority. None has been shown with sacramental validity or the confessor tension.
@@ -73,7 +73,7 @@ description: >-
   carry the lower citation grade (B). But that is not a thin spot in the evidence.
 
 
-  It depends on a shared language to teach in. That language is the inherited Latin theological vocabulary. It also
+  It depends on a shared vernacular to teach in. That vernacular is the inherited Latin theological words. It also
   connects to every ongoing outside pressure on the world. These are the Valerianic persecution, the plague, and the
   Donatist schism. They are also the rival systems of Manichaeism and Pelagianism. This concern works as a channel.
   Outside pressure reaches an ordinary believer through it. That is this world's typical response: crisis turned into

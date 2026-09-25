@@ -34,8 +34,8 @@ description: >-
   including in the Acta Proconsularia.
 
 
-  The trouble had not finished with them. Seven years earlier, one man had decided what to do with those who failed
-  the first test. That same man, Cyprian, was now taken by the second test. He did not fail it.
+  The trouble had not finished with them. That same man, Cyprian, had spent seven years deciding what to do with
+  those who failed the first test. Now the second test took him. He did not fail it.
 
 
   This persecution confirms two of the world's concerns. It does not change them. Those two are the pastoral office,

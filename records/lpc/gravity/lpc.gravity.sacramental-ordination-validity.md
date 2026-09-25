@@ -79,13 +79,13 @@ description: >-
   The Donatist schism is an ongoing outside pressure. It makes the question urgent for the church. It is not just a
   matter for each convert. Augustine's engagement with Cyprian's conciliar acts reopens it. This happens across the
   century gap. It also connects to the recurring contest. That contest is over the failed member. That is because
-  Cyprian reasons about both questions. He does this the same way.
+  Cyprian reasons about both questions in the same, consistent way.
 
 
   That last link runs one way only. Penitential discipline supports this concern in the first phase. Both are
   questions about the boundary, and about return. But penitential discipline relates to grace and human incapacity. It
-  does not relate the same way. That concern reshapes it; it does not continue it. So this record's own tie is its
-  own. It ties to the recurring contest over the failed member. It belongs to the first phase. It does not depend on
+  does not relate the same way. That concern reshapes it; it does not continue it. So this record's own tie to the
+  recurring contest over the failed member is a tie of its own. It belongs to the first phase. It does not depend on
   the second-phase family resemblance. That resemblance runs toward grace and human incapacity instead.
 manifestations:
 - the Council of 256's ruling on rebaptism

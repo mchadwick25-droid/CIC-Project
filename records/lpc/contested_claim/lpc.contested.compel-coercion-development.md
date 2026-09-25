@@ -33,12 +33,13 @@ relations:
   target: lpc.term.compel-them-to-come-in
 - type: associated-with
   target: lpc.force.illegal-to-established-shift
-claim: Augustine's view on coercion moved through three phases. First, he opposed any use of compulsion
-  (Letter XCIII §17). Then, earlier in his own time as bishop, he made one narrow appeal for legal protection,
-  and it failed (Letter 185 §§25-26). Finally, he mounted a sustained defence of compulsion already in
-  force. This claim holds that the change was real, and that Augustine reached it through pastoral experience
-  of the Donatist schism. It was not built after the fact. The aim, on this reading, was not to make an
-  already-settled practice look like the fruit of principled rethinking.
+claim: Augustine's teaching on coercion passed through three phases. First, an early opinion against
+  any use of force (Letter XCIII §17). Second, a narrow appeal for legal protection that failed (Letter
+  185 §§25-26), earlier in his own time as bishop. Third, and finally, a long defence of force already
+  in use. This claim holds that the three-phase change was a real change of mind. Augustine reached it
+  through pastoral experience of the Donatist schism. The claim denies one other option -- that this was
+  a story Augustine told about himself afterward, looking back, shaped to make a practice already in place
+  look like it came from principled rethinking.
 held_against:
 - This world's own already-reviewed lexicon entry names, without adjudicating it, the live modern historiographical
   question of 'whether the three-phase development is a genuine change of mind or a retrospective self-presentation'

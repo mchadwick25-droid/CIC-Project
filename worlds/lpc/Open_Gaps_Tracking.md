@@ -1687,6 +1687,40 @@ Work done this pass:
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 
+### OG-25. `lpc.demo.road-back-examined`'s second participant turn cannot legitimately clear the readability gate, and cannot be waived — an unresolved tension the pipeline can't close on its own (2026-09-25).
+
+The 76-finding readability rewrite (OG-24's own follow-on work) touched this record's second
+`participant` turn ("That sounds like you're making them prove themselves before you'll trust
+they've changed. Isn't real forgiveness supposed to be unconditional?" — FRE 52.9, below the
+60 floor). An adversarial Opus review round caught a real defect in that rewrite: this exact
+line is not free-standing dialogue invented for the demonstration record. It is the verbatim
+`participant` turn from the validated Phase Five Boundary Testing transcript
+(`worlds/lpc/Representative/lpc_Rep_Phase5_Boundary_Testing_Round1.md`, item 14, "Sustained
+Engagement — full transcript"), and the record's own body note states the `representative`
+turn that follows it "presses exactly as tested." Rewording the participant line breaks that
+correspondence and makes the body note's own claim false — confirmed directly against the
+transcript file, not just taken on the reviewer's word.
+
+The field has been reverted to its exact original wording (byte-identical to before the
+readability pass). This restores correctness but leaves the field failing
+`m1:readability/lpc` again. Neither of this project's two closure paths applies:
+
+- **Reword it** — not available. The line is locked to a validated transcript; changing it
+  is not a legitimate simplification, it is corrupting cited, tested evidence.
+- **Waive it** — not available either, for the same reason `m9:shelf-row/lpc` (OG-24) cannot
+  be waived: `engine/m9/enforce.py`'s `ACCEPTED_OPEN` registry structurally rejects any waiver
+  naming a non-grandfathered world, and lpc is not grandfathered. This is by design, not a bug,
+  per the same ruling OG-24 already records.
+
+Named here as its own genuine, permanent structural finding, for the project lead's own
+attention -- not routed around, not silently left failing. One real, undecided question behind
+it: should the readability gate even score a `participant` turn at all, given the NorthStar
+target (`reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`) is
+about what the Representative says to a participant, not about a scripted participant probe? That
+is a governance/methodology question about the gate's own scope, not something decided here.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the

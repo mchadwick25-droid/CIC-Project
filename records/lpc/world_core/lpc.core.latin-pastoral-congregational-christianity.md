@@ -65,7 +65,7 @@ horizon: >-
 
 
   This is a world of ordinary pastors and their own congregations. It is not a world of courts, or
-  of councils called to settle disputes across the empire. Nor is it a world of ascetics who
+  of councils called to settle jurisdiction across the empire. Nor is it a world of ascetics who
   withdraw from congregational life. Its way of forming people is pastoral and sacramental before it
   is legal.
 
@@ -87,14 +87,14 @@ horizon: >-
 
 
   The century between the two bishops (258-391) is a genuine silence in this world's own record. It
-  is not a general lack of evidence about the period. That century is well attested, but almost
+  is not a general lack of evidence about the period. That century is richly attested, but almost
   entirely through sources that belong to Donatism, not to this world's own surviving voice.
 
 
   The two bishops' eras form one strand, not two. They share the same emphasis in formation. They
   share the same practice too, and the same stance toward the world around them. Real differences
-  in authority do separate them, and they matter. One is how far a bishop could force a rival
-  church to submit. Another is whether a rival ordination was valid as a sacrament. A third is
+  in authority do separate them, and they matter. One is how far a bishop could use coercion against
+  a rival hierarchy. Another is whether a rival consecration was valid as a sacrament. A third is
   their view of what councils can decide, and that one is held open, not fully settled.
 
 
@@ -146,7 +146,7 @@ formation_logic: >-
 
 
   Three more concerns support these. They are preaching and teaching those preparing for baptism;
-  theories of what councils can decide; and God's grace set against human weakness. One last
+  theories of what councils can decide; and God's grace set against human inability. One last
   concern pulls against the others. It is the authority the confessors claimed, set against the
   peace the bishop regulated.
 
