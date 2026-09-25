@@ -74,12 +74,10 @@ def test_a_record_with_no_sources_resolves_to_an_empty_list_not_a_guess():
 
 
 def test_a_sources_entry_with_no_source_id_and_no_locus_is_dropped_not_shipped_blank():
-    """Mark's own staging report, 2026-09-23: a card labeled "General
-    references (1)" printed five empty bullet items - "* " with nothing
-    after. The renderer's own primary field is `work ?? source_id` - as
-    long as an entry carries a real source_id, that id is the fallback
-    text, never blank. The only shape that leaves nothing to print is an
-    entry with no source_id at all (missing or blanked, upstream of this
+    """The renderer's own primary field is `work ?? source_id` - as long
+    as an entry carries a real source_id, that id is the fallback text,
+    never blank. The only shape that leaves nothing to print is an entry
+    with no source_id at all (missing or blanked, upstream of this
     function, in the citing record's own sources[] list) and no locus of
     its own either - author/work/locus/rights_status all None. Dropped
     here rather than shipped as a blank bullet."""

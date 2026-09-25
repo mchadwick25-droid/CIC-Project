@@ -13,8 +13,8 @@ here - so a future field added to one of those without being declared is a
 failing test, not a silent seventh list.
 
 The builders.py/evidence.py/citation_cards.py field sets below are
-enumerated by hand, verified against the actual code on 2026-09-19 - not
-walked by an AST scanner. That is a deliberate, disclosed scoping decision:
+enumerated by hand, verified against the actual code, not walked by an
+AST scanner. That is a deliberate, disclosed scoping decision:
 those three sites are procedural code with meaningful field-emission order
 and, for citation_cards.py, real cross-record label derivation, not flat
 lookup tables - mechanically parsing arbitrary field-access expressions out
@@ -87,7 +87,7 @@ def test_cross_world_participant_fields_are_all_declared():
 # Hand-verified against engine/m2/builders.py build_prompt() (voice_craft's
 # instruct() calls, world_core/term/doctrinal_witness/honest_limit/gravity/
 # quote/story's emit() calls) and build_fleet_preamble() (fleet_voice's own
-# six fields), 2026-09-19.
+# six fields).
 _BUILD_PROMPT_READS = {
     "voice_craft": ["identity", "guard", "characteristic_concerns", "flavor_notes"],
     "world_core": ["horizon", "formation_logic", "thinness", "cautions"],
@@ -103,7 +103,7 @@ _BUILD_PROMPT_READS = {
     ],
 }
 
-# Hand-verified against engine/m2/builders.py _chunk_text(), 2026-09-19.
+# Hand-verified against engine/m2/builders.py _chunk_text().
 _CHUNK_TEXT_READS = {
     "term": ["plain_meaning", "world_word", "quick_meaning"],
     "story": ["tellable_as", "text"],
@@ -111,7 +111,7 @@ _CHUNK_TEXT_READS = {
     "doctrinal_witness": ["text"],
 }
 
-# Hand-verified against engine/m4/evidence.py _head_text(), 2026-09-19.
+# Hand-verified against engine/m4/evidence.py _head_text().
 _HEAD_TEXT_READS = {
     "term": ["plain_meaning"],
     "story": ["tellable_as", "text"],
@@ -124,8 +124,8 @@ _HEAD_TEXT_READS = {
 }
 
 # Hand-verified against engine/m4/citation_cards.py's _LABEL_FIELDS and its
-# helper functions (_figure_label, _quote_label, _quote_speaker_label),
-# 2026-09-19 - the underlying fields those derivations read, not the
+# helper functions (_figure_label, _quote_label, _quote_speaker_label) -
+# the underlying fields those derivations read, not the
 # derivation logic itself (see module docstring above).
 _CITATION_LABEL_READS = {
     "term": ["world_word"],

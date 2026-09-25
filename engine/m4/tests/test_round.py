@@ -84,9 +84,9 @@ def test_round_config_defaults_and_bounds():
 
 
 def test_round_config_is_genuinely_immutable():
-    """Independent review, 2026-09-05: a mutable dict field on a frozen
-    dataclass used to defeat `frozen` twice over - unhashable, and mutable
-    out from under it with no error. cap_by_seats is a tuple now."""
+    """A mutable dict field on a frozen dataclass defeats `frozen` twice
+    over - unhashable, and mutable out from under it with no error.
+    cap_by_seats is a tuple, closing both."""
     config = RoundConfig()
     hash(config)  # does not raise
     with pytest.raises(AttributeError):
@@ -181,7 +181,7 @@ def test_track_b_checks_and_silences_the_voices():
     opening = _open(
         _gate_run(action="safety_turn", safety_value={"signal": "HARMFUL_DYNAMIC_SIGNAL", "acute_level": "none"})
     )
-    assert not opening.voices_speak  # amendment 2026-09-20: silenced, same as Track A above
+    assert not opening.voices_speak  # silenced, same as Track A above
     assert opening.facilitator_events[0]["resources_appended"] is False
     assert "Clement or Papnoute" in opening.facilitator_events[0]["text"]
 

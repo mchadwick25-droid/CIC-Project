@@ -132,7 +132,8 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     },
     "modern_term": {
         "display_terms": SpokenField("participant-label", "citation-card label (comma-joined) via citation_cards._LABEL_FIELDS"),
-        "modern_sense": SpokenField("voice-diet", "spoken verbatim by facilitator_turns.bridge_turn's own composed text; also carried on the citation card"),
+        "modern_sense": SpokenField("participant-label", "spoken by the Facilitator's own composed bridge_turn text, never the world's voice; also carried on the citation card"),
+        "underlying_subject": SpokenField("voice-diet", "the term-free message facilitator_turns.bridge_turn hands the voice as its own ground; the Facilitator's composed text also speaks it verbatim to the participant"),
         "distinguishing_claim": SpokenField("participant-label", "citation card only, via citation_cards.resolve_source_card"),
     },
 }

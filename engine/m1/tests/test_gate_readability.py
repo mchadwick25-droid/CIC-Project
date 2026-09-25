@@ -1,9 +1,9 @@
 """Hermetic tests for engine.m1.gates.gate_readability's modern_term
-coverage (OG-13, worlds/pahc/Open_Gaps_Tracking.md): modern_sense is
-spoken verbatim by facilitator_turns.bridge_turn, the same "reaches a
-participant" reason every other field this gate already grades is graded,
-but modern_term records live in the fleet, not a world's own records, so
-this gate has to walk `fleet` specifically to reach them."""
+coverage: modern_sense is spoken verbatim by facilitator_turns.bridge_turn,
+the same "reaches a participant" reason every other field this gate
+already grades is graded, but modern_term records live in the fleet, not
+a world's own records, so this gate has to walk `fleet` specifically to
+reach them."""
 from engine.m1.gates import gate_readability
 
 
@@ -37,14 +37,14 @@ def test_a_non_modern_term_fleet_record_is_never_checked():
     assert gate_readability({}, fleet, {}) == []
 
 
-def test_the_real_fleet_modern_trinity_record_is_reachable_through_fleet():
-    """A schema-shape guard: this gate must be able to see the one real
-    modern_term record in the fleet at all - proves the fleet.items() walk
-    is wired, independent of whether that record's own wording happens to
-    clear the ceiling today."""
+def test_the_real_fleet_modern_trinity_record_passes_the_gate():
+    """The one real modern_term record in the fleet is reachable through
+    the fleet.items() walk (not this gate's usual per-world records
+    argument), and its own current wording clears the ceiling: no finding
+    on it."""
     from engine.m1.loader import load_fleet_records
 
     fleet = load_fleet_records()
     assert "_fleet.modern.trinity" in fleet
     findings = gate_readability({}, fleet, {})
-    assert isinstance(findings, list)  # does not raise; may or may not flag depending on current wording
+    assert not any("_fleet.modern.trinity" in f for f in findings)

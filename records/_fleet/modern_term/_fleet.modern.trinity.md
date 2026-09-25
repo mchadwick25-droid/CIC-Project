@@ -5,7 +5,7 @@ record_type: modern_term
 schema_version: 2
 display_terms: ["Trinity", "Trinitarian"]
 origin_year: 325
-modern_sense: "The developed teaching that God is three persons in one being, all three equal and all three without beginning or end. This teaching took formal shape at Nicaea and after."
+modern_sense: "The developed doctrine that God is three persons in one being, all three equal and all three without beginning or end. This doctrine took formal shape at Nicaea and after."
 underlying_subject: "how this world's people understood the relation of the Father, the Son, and the Spirit, in their own words"
 distinguishing_claim: "The word \"Trinity\" is older than the doctrine it now names. Theophilus of Antioch was already using it around 169 to 181 CE, though some say he lived until 188. He seems to use it as a word his readers already knew. He used it to describe a triad: God, His Word, and His Wisdom. Tertullian also used the word \"Trinity,\" in a work written no earlier than 208. The doctrine it now names took shape much later: three co-equal, co-eternal persons in one being, formalized at Nicaea in 325 and afterward. Scholars still disagree about whether Theophilus meant the same thing that doctrine later named."
 native_subject_map:
@@ -18,11 +18,6 @@ sources:
   locus: "chapter 2 - \"which distributes the Unity into a Trinity\"; editor's note: \"Probable date not earlier than a.d. 208\""
   license: public-domain
 ---
-Fleet-wide bridge record (Artifact-1 §4). Pairs with _fleet.canon.c-t-01 so the
-fixture world's modern-term bridge routing (Artifact-4 §3 step 3) has a real
-target: the fixture world's term coverage (fix.term.the-three) points here.
-Not itself a gated M1 record type beyond schema validation.
-
 origin_year names when the modern sense in modern_sense took shape (formalized at
 Nicaea, 325, and after) - not when the display word was first attested. The word and
 the doctrine it now names have different histories; both are on the record, in

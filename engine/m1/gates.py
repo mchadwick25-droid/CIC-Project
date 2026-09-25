@@ -503,14 +503,16 @@ def gate_readability(records, fleet, registry) -> list[str]:
                 checks.append((rid, f"flavor_notes[{note.get('segment')}].note", note.get("note")))
             for i, concern in enumerate(rec.get("characteristic_concerns") or []):
                 checks.append((rid, f"characteristic_concerns[{i}]", concern))
-    # modern_term lives in the fleet, not a world's own records (OG-13,
-    # worlds/pahc/Open_Gaps_Tracking.md) - modern_sense is spoken directly
-    # by the Facilitator's bridge turn (facilitator_turns.bridge_turn), the
-    # same "reaches a participant verbatim" reason every other field above
-    # is graded, so it belongs in this same sweep rather than a second one.
+    # modern_term lives in the fleet, not a world's own records.
+    # modern_sense is spoken directly by the Facilitator's own composed
+    # bridge_turn text, and underlying_subject is both the voice's own
+    # ground and the Facilitator's own spoken text - the same "reaches a
+    # participant verbatim" reason every other field above is graded, so
+    # both belong in this same sweep rather than a second one.
     for rid, rec in fleet.items():
         if rec.get("record_type") == "modern_term":
             checks.append((rid, "modern_sense", rec.get("modern_sense")))
+            checks.append((rid, "underlying_subject", rec.get("underlying_subject")))
     for rid, field, text in checks:
         if not text:
             continue

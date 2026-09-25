@@ -1,10 +1,9 @@
 /**
- * A bridged modern term's own sourced card (OG-13,
- * worlds/pahc/Open_Gaps_Tracking.md): the Facilitator's bridge_turn speaks
- * the underlying_subject in plain English and drops the modern word itself
- * from the voice - this is where a participant can still see that modern
- * word's own sense and how it relates to what the voice actually said,
- * with the real sources behind it. Same InlineBridge grammar as
+ * A bridged modern term's own sourced card: the Facilitator's bridge_turn
+ * speaks the underlying_subject in plain English and drops the modern word
+ * itself from the voice - this is where a participant can still see that
+ * modern word's own sense and how it relates to what the voice actually
+ * said, with the real sources behind it. Same InlineBridge grammar as
  * WitnessMark/StoryMark, its own copy rather than borrowed ("modern sense"
  * reads wrong as "where this comes from").
  */
