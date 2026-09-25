@@ -2,15 +2,20 @@
 
           Title: Bede, The Ecclesiastical History of the English Nation
      Creator(s): Bede (the Venerable Bede, c. 672/3-735 CE), monk of Jarrow
+                 Giles, J.A. (Translator, 1840 translation, per this edition's
+                  own Biographical Notice)
+                 Jane, L. Cecil (Editor of this edition - revised the text,
+                  supplied the Biographical Notice, appended the Notes)
     Print Basis: London: J.M. Dent, 1903 (The Temple Classics), printed by
                   Ballantyne, Hanson & Co., Edinburgh & London - both confirmed
-                  directly from this scan's own title page and colophon. No
-                  translator is named anywhere in this file's own front matter.
-                  Archive.org's own catalog metadata (not this file's own text)
-                  describes the underlying translation as J.A. Giles's 1840
-                  rendering, itself a revision of John Stevens's 1723 English
-                  translation - stated here as external catalog information, not
-                  as something this printing itself claims.
+                  directly from this scan's own title page and colophon. This
+                  edition's own Biographical Notice states the translation
+                  directly: "the text of the present translation, by Dr. Giles,
+                  being published in 1840, as a revised version of Stevens'
+                  edition of 1723" (raw-scan line ~15644). L. Cecil Jane, of
+                  University College, Oxford, is named as this edition's own
+                  editor in its prefatory note, dated "London, September 1903"
+                  (raw-scan line ~15583).
          Rights: Public Domain
    Rights Basis: Published 1903; long out of US copyright. Confirmed directly
                   from the Internet Archive scan (identifier ecclesiasticalh00bede),

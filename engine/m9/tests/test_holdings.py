@@ -8,12 +8,12 @@ from engine.m9.holdings import DISPOSITIONS, holdings_for, report
 def test_gallic_shows_twenty_not_yet_assessed():
     """Build-Plan.md Stage 2d's own Done bar pinned this at 19 - a real,
     checkable number, not an illustrative one - reflecting the fleet's
-    own state at that stage's completion. Bumped to 20 here: vendoring
-    palladius_dialogue-life-chrysostom_moore1921.txt (a new work by an
-    author gallic's own records already name via Palladius's Lausiac
-    History and Paradise material) adds one more real, correctly
-    computed "named, never opened" row for gallic - the mechanism
-    working as designed on new corpus growth, not a defect."""
+    own state at that stage's completion; the fleet has since grown.
+    gallic's own records name Palladius via his Lausiac History and
+    Paradise material, so every vendored-but-unopened Palladius work
+    (now including palladius_dialogue-life-chrysostom_moore1921.txt)
+    counts here - the mechanism working as designed on corpus growth,
+    not a defect."""
     rows = holdings_for("gallic")
     assert sum(1 for r in rows if r["disposition"] == "not yet assessed") == 20
 

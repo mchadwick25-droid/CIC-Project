@@ -581,6 +581,21 @@ works:
 
     '
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
+- work: Homilies on Numbers
+  author: origen
+  source_file: rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt
+  locus: whole file from raw-scan line ~2503 ("HOMILIA PRIMA.", the first of the 99 homilies)
+    onward - another worker's file, cross-referenced here rather than duplicated
+  role: tradition
+  confidence: assigned
+  note: 'Origen''s own voice, homed here beside his other alexandria-catechetical works. No
+    Greek original of these 99 homilies survives; the only text of them that exists at all
+    is Rufinus''s Latin translation (Aquileia, c. 410 CE), vendored and assigned as a `transmission`
+    row on aquileian-christianity in the file named above. This row exists to give that transmission
+    row its required home: the work is Origen''s own composition, not Aquileia''s, whatever
+    language its one surviving witness happens to be in.
+
+    '
 - work: Letter of Origen to Gregory
   author: origen
   locus: div2 15.2

@@ -4,32 +4,28 @@
      Creator(s): attrib. Severus (Sawirus) ibn al-Muqaffa, Bishop of al-Ashmunein (10th
                   c. compiler)
                  Evetts, B. (Editor and translator)
-    Print Basis: Paris: Patrologia Orientalis, 1904 (Tome I) - see Content note: this
-                  scan is NOT a single clean volume
+    Print Basis: Paris: Patrologia Orientalis - Tome I, Fasc. 2 ("Saint Mark to Theonas",
+                  1904) and Tome I, Fasc. 4 ("Peter I to Benjamin I", 1907), bound
+                  together in this scan - see Content note
          Rights: Public Domain
-   Rights Basis: Published 1904; long out of US copyright. Confirmed directly from the
-                  Internet Archive scan (identifier historyofpatriar0000beve_d4b4),
+   Rights Basis: Published 1904 and 1907; long out of US copyright. Confirmed directly
+                  from the Internet Archive scan (identifier historyofpatriar0000beve_d4b4),
                   fetched and read in full this session.
 Source Collection: Internet Archive (archive.org), identifier
                   historyofpatriar0000beve_d4b4
-   Content note: This scan bundles more than one Patrologia Orientalis publication, not
-                  a single clean "Vol. I" as this file originally (wrongly) claimed.
-                  Confirmed directly from the raw OCR's own running headers: a
-                  "PATR. OR. -- T. I" header recurs through the Evetts History of the
-                  Patriarchs content (English text - "HISTORY OF THE PATRIARCHS" -
-                  around raw-scan line 41254, shortly before the Benjamin I chapter); a
-                  separate "PATR. OR. -- T. XI. -- F. 3" header (around raw-scan line
-                  22017) marks an entirely different, unrelated bound-in work in Coptic
-                  and French ("Mina -- Vie d'Isaac", the Life of Isaac). The entry for
-                  Benjamin I, 38th Patriarch (r. 626-665 CE), whose tenure spans the Arab
-                  conquest of Egypt (639-642), is confirmed present (heading at raw-scan
-                  line ~42825, "BENJAMIN I, THE THIRTY-EIGHTH PATRIARCH") and sits under
-                  the "T. I" running header, not the T. XI/F. 3 one. DISCLOSED, NOT
-                  RESOLVED: this pass could not independently confirm the exact fascicule
-                  number(s) of Tome I this scan represents, or fully catalog every bound-
-                  in work, without live bibliographic cross-check against archive.org
-                  (not done this pass) - only what the OCR's own running headers show
-                  directly is stated above.
+   Content note: This scan bundles two Evetts fascicules of Patrologia Orientalis Tome I,
+                  plus one unrelated bound-in work. The scan's own part-title pages settle
+                  it: "SAINT MARK TO THEONAS (300)" (raw-scan line ~91, under a
+                  "PATR. OR. -- T. I." running header) opens Fasc. 2 (1904); "PETER I TO
+                  BENJAMIN I (661)" (raw-scan line ~24807) opens Fasc. 4 (1907). Benjamin
+                  I, 38th Patriarch (r. 626-665 CE), whose tenure spans the Arab conquest
+                  of Egypt (639-642), is confirmed present (heading at raw-scan line
+                  ~42825, "BENJAMIN I, THE THIRTY-EIGHTH PATRIARCH") within the Fasc. 4
+                  material - so this file's Benjamin I content is from the 1907 fascicule,
+                  not 1904. A separate "PATR. OR. -- T. XI. -- F. 3" header (raw-scan line
+                  ~22017) marks an entirely different, unrelated bound-in work in Coptic
+                  and French ("Mina -- Vie d'Isaac", the Life of Isaac), bound between the
+                  two Evetts fascicules.
      ______________________________________________________________________
 
 NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from

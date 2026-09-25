@@ -3365,11 +3365,13 @@
     re-verified against archive.org directly before vendoring)
   date_added: '2026-09-25'
   notes: >-
-    Bede, Ecclesiastical History of the English Nation, trans. J.A. Giles (1840 translation,
-    1903 reprint) - one of 13 works fetched, verified, and vendored this pass against a
-    30-work Atlas source-gap report ("Sources the Atlas Cannot Read", 2026-09-16) listing
-    works cited by Atlas-documented stories not yet in cic/texts/. The report's own
-    archive.org identifier had a display-year artifact concatenated onto it
+    Bede, Ecclesiastical History of the English Nation. Temple Classics (London: J.M. Dent,
+    1903), edited by L. Cecil Jane, trans. J.A. Giles (1840 translation, revising Stevens's
+    1723 edition) - both facts stated directly in this edition's own front matter, not
+    carried from outside catalog metadata. One of 13 works fetched, verified, and vendored
+    this pass against a 30-work Atlas source-gap report ("Sources the Atlas Cannot Read",
+    2026-09-16) listing works cited by Atlas-documented stories not yet in cic/texts/. The
+    report's own archive.org identifier had a display-year artifact concatenated onto it
     (ecclesiasticalh00bede1903 -> real identifier ecclesiasticalh00bede); stripped and
     independently re-verified via direct metadata fetch before use, as with all 13
     identifiers in this pass. Serves anglo-saxon-christianity.
@@ -3648,8 +3650,8 @@
     Mechitarist monks of San Lazzaro, Venice (second edition, 1850) - the only
     public-domain rendering, since no PD English translation exists. The
     overall translation is credited on this scan's own title page to the
-    Mechitarist monks, not to Niccolo Tommaseo (previously misattributed here);
-    Tommaseo is named only at scattered points in the body where the monks'
+    Mechitarist monks, not to Niccolo Tommaseo; Tommaseo is named only at
+    scattered points in the body where the monks'
     translation quotes his separately-published verse renderings of specific
     passages. Mashtots's own alphabet-invention narrative confirmed genuinely
     present; this translation's own book/chapter division was not independently
@@ -3738,12 +3740,13 @@
   date_added: '2026-09-25'
   notes: >-
     History of the Patriarchs of the Coptic Church of Alexandria, attrib. Severus ibn
-    al-Muqaffa, ed./trans. B. Evetts (Patrologia Orientalis, Tome I, 1904). Report
-    identifier historyofpatriar0000beve_d4b41904 corrected to historyofpatriar0000beve_d4b4.
-    This scan bundles more than one Patrologia Orientalis publication, not a single clean
-    volume - see the vendored file's own header for the full disclosure (a separate,
-    unrelated bound-in work, "Mina - Vie d'Isaac", under a different Tome/Fascicule
-    header). Benjamin I, 38th Patriarch, confirmed present under the Tome I running
-    header. Benjamin I's reign (626-665) spans the Arab conquest (639-642), so this file
-    is cross-assigned to both cyrilline-miaphysite-egyptian-christianity and
-    coptic-christianity-under-early-islam rather than one alone.
+    al-Muqaffa, ed./trans. B. Evetts - Patrologia Orientalis Tome I, Fasc. 2 ("Saint Mark
+    to Theonas", 1904) and Fasc. 4 ("Peter I to Benjamin I", 1907), bound together in
+    this one scan, per the scan's own two part-title pages (see the vendored file's own
+    header). Report identifier historyofpatriar0000beve_d4b41904 corrected to
+    historyofpatriar0000beve_d4b4. An unrelated bound-in work, "Mina - Vie d'Isaac", sits
+    between the two fascicules under a different Tome/Fascicule header. Benjamin I, 38th
+    Patriarch, confirmed present within the Fasc. 4 (1907) material. Benjamin I's reign
+    (626-665) spans the Arab conquest (639-642), so this file is cross-assigned to both
+    cyrilline-miaphysite-egyptian-christianity and coptic-christianity-under-early-islam
+    rather than one alone.
