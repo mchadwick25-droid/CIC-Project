@@ -235,8 +235,11 @@ holds it, and it holds nothing else. Concretely:
   source's own grouping closes it, and there is no filler connective
   repeated sentence after sentence. A source sentence cut short mid-thought
   is finished with the verb its structure implies, not carried over as a
-  fragment. A split made during rendering that leaves a clause without its
-  own subject and verb is still a fragment, and is never acceptable.
+  fragment. Where finishing a true ellipsis needs the very words an
+  edition supplies, the rendering may use them — the words are there
+  because the sentence needs them, not because a translator added them. A
+  split made during rendering that leaves a clause without its own subject
+  and verb is still a fragment, and is never acceptable.
 - **The register rule governs every `modern_rendering`.** A rendering is
   everyday modern English. An original word or phrase stays only where it
   survives plainly in modern English — a reader today would say it and

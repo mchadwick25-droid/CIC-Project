@@ -2170,3 +2170,28 @@ scores FK 41.7 and fails the live readability gate).
   would be impressed by, not 100% perfection.
 - Re-authoring `alx couches-and-trenchers-and-bowls` under R46 is a
   separate dispatch, not this entry's.
+
+**Entry 39 — 2026-09-25 (R47: ellipsis-finishing takes precedence over
+the bracketed-supplement rule where the two collide).** Settles the
+precedence between "true ellipses get finished" (2026-09-24, in the
+process doc's Phase B) and "the voice never speaks a translator's own
+bracketed supplement" (Entry 35, 2026-09-25): where finishing a true
+ellipsis needs the exact word a vendored edition supplies in brackets,
+using that word is not voicing the translator's own addition, because
+the sentence's own structure requires it — the bracket marks where the
+edition supplied a needed word, not an optional editorial one.
+- **R47 (ellipsis-finishing vs. bracketed supplement)** — Mark's ruling,
+  2026-09-25, Decision 6, option "a". Mark's approved wording: *"Where
+  finishing a true ellipsis needs the very words an edition supplies,
+  the rendering may use them. The words are there because the sentence
+  needs them, not because a translator added them."* Landed in
+  `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`,
+  Phase B, next to the existing ellipsis-finishing sentence — rule
+  only, no ruling numbers, dates, attributions or log pointers in that
+  live surface, per Entry 30's own convention for it.
+- **Worked case (not itself changed by this entry):** `syr.quote.aphrahat-anti-jewish-frame`'s
+  current rendering, "This is a reply against the Jews, who blaspheme
+  the people gathered from among the Gentiles," stands — its finished
+  "This is" matches the edition's own supplement, per
+  `worlds/syr/Open_Gaps_Tracking.md` #14. No record is touched by this
+  entry; a separate change is coming for it.
