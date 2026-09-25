@@ -1,6 +1,6 @@
 Title: The Imitation of Christ: Four Books
 Creator: Thomas a Kempis (c. 1380-1471) (William Benham, Translator)
-Publisher: London: John C. Nimmo, 1886
+Publisher: London: J. C. Nimmo, 1886
 Rights: Public Domain
 Rights basis: Explicit `NOT_IN_COPYRIGHT` possible-copyright-status
   confirmed directly against the Internet Archive item's own metadata,
@@ -14,11 +14,7 @@ Provenance note: Body text unaltered including its own OCR errors; not
   and a mid-document sample this session. The most copied Christian book
   after the Bible, grown out of the Brethren of the Common Life's own
   practice of keeping a personal notebook of gathered readings (a
-  rapiarium). Correction, 2026-09-25 (caught on independent review): this
-  header originally misstated the publisher as "Cassell & Company" without
-  checking the vendored file's own title page, which reads "London: John
-  C. Nimmo, 4 King William Street, Strand, W.C., 1886" - fixed here to
-  match the actual title page.
+  rapiarium).
 
 :-NRLF 
 

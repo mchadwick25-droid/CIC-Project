@@ -213,10 +213,9 @@ def open_table_round(
 
     if action == "safety_turn":
         # Track B non-acute: a dependency dynamic, not a crisis - no
-        # resources and no session freeze, same as the interview. Governed
-        # (Program-Spec SS8, amendment 2026-09-20): the voices are silenced
-        # here exactly as at is_acute_crisis above, not kept speaking
-        # alongside the check the way this branch used to.
+        # resources and no session freeze, same as the interview
+        # (Program-Spec SS8). The voices are silenced here exactly as at
+        # is_acute_crisis above, not kept speaking alongside the check.
         return RoundOpening(
             routing_action=action,
             **common,
@@ -236,7 +235,7 @@ def open_table_round(
 
     if action == "bridge_turn":
         fired = _fired_terms(gate_run.gate, anachronistic_term_ids)
-        facilitator_event, _underlying_subject = facilitator_turns.bridge_turn(fired)
+        facilitator_event, _underlying_subject = facilitator_turns.bridge_turn(fired, load_fleet_records())
         # Same record-what-the-voices-were-handed discipline as the
         # interview's bridge branch: the gate payload's directive is updated
         # to the barred-terms directive BEFORE the caller writes it, so the

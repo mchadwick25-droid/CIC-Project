@@ -3,6 +3,57 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: lollardy
 works:
+- work: Fasciculi Zizaniorum Magistri Johannis Wyclif cum Tritico (Rolls Series)
+  author: fasciculi-zizaniorum
+  locus: whole volume, esp. the Twelve Conclusions of the Lollards and the Sautre/Purvey trial
+    records
+  role: context
+  confidence: assigned
+  note: 'Anonymous 15th-c. hostile compilation, ed. Shirley (1858). Contains the Latin text
+    of the Twelve Conclusions of the Lollards (1395) under the heading "Conclusiones Lollardorum
+    porrectae pleno parliamento," plus the heresies extracted from Purvey''s own heretical
+    book and his confession/recantation, and William Sautre''s own articles and examination
+    record - an independent Latin leg of the hostile-trial-record gap this world''s Step0
+    Revision 2 flagged as unfilled. Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
+
+    '
+  source_file: fasciculi-zizaniorum_shirley1858.txt
+- work: The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)
+  author: foxe
+  locus: Lollard-era martyrology (William Thorpe's Examination, William Sautre, John Badby,
+    Walter Brute, Sir John Oldcastle)
+  role: context
+  confidence: assigned
+  note: 'Hostile-yet-preserving trial-record material: Thorpe''s own 1407 Examination "penned
+    with his own hand," Sautre''s, Badby''s, and Brute''s own recorded words under examination,
+    and Oldcastle''s history. Fills this world''s own Step0-flagged gap - the hostile-trial-record
+    leg of the corpus had no accessible PD source before this. Vendored 2026-09-25 as part
+    of a post-Step0-Revision-2 PD source-acquisition pass. This volume was confirmed by direct
+    full-text search to contain Lollard-era content specifically; it was not checked for Hus/Bohemian
+    content, so it is assigned only here, not to the-hussite-and-bohemian-brethren-movement.
+
+    '
+  source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
+- work: De Veritate Sacrae Scripturae
+  author: wyclif
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Wyclif''s own core argument for scripture''s supreme authority over church tradition,
+    ed. Buddensieg (1907, Wyclif Society Latin Works vol. 21) - directly relevant to the movement''s
+    central claim that scripture should be available and authoritative in the vernacular.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass, from
+    the full 33-volume Wyclif Society Latin series on archive.org. Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+
+    '
+  source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
 - work: John Wiclif's Polemical Works in Latin, Vol. II (Wyclif Society)
   author: wyclif
   locus: whole volume
@@ -63,6 +114,22 @@ works:
 
     '
   source_file: wyclif_english-works-hitherto-unprinted_matthew1880.txt
+- work: Tractatus de Ecclesia
+  author: wyclif
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Wyclif''s own core ecclesiology treatise, ed. Loserth (1886, Wyclif Society Latin
+    Works vol. 10). Directly relevant to the movement''s central dissent on church authority.
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass, from
+    the full 33-volume Wyclif Society Latin series on archive.org (only vol. 2, the already-vendored
+    Buddensieg Polemical Works, had been checked before this pass). Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+
+    '
+  source_file: wyclif_de-ecclesia-lat_loserth1886.txt
 - work: Tracts and Treatises of John de Wycliffe, with Selections and Translations from His
     Manuscripts, and Latin Works
   author: wyclif
@@ -71,13 +138,12 @@ works:
   confidence: assigned
   note: 'Wyclif''s own tracts and treatises, with selections/translations from his manuscripts
     and Latin works, ed./trans. Robert Vaughan (1845, for the earlier, distinct 1840s "Wycliffe
-    Society" - not the same body as the later (1882-founded) Wyclif Society, which only the
-    Buddensieg edition also vendored this session actually belongs to; Arnold (Clarendon Press,
-    1869-71) and Matthew (EETS, 1880) predate the Wyclif Society''s founding and are not its
-    editions either, a correction to this note''s own earlier drafting caught on independent
-    review, 2026-09-25). An additional PD lead this world''s own Source Readiness Dossier
-    §3 identified beyond the census''s own named sources. Vendored 2026-09-25 as part of a
-    pre-Doc_02 source-acquisition pass for lollardy.
+    Society" - not the same body as the later (1882-founded) Wyclif Society, to which only
+    the Buddensieg edition among this session''s vendored texts belongs; the Arnold (Clarendon
+    Press, 1869-71) and Matthew (EETS, 1880) editions predate the Wyclif Society''s founding
+    and are not its editions either). An additional PD lead this world''s own Source Readiness
+    Dossier §3 identified beyond the census''s own named sources. Vendored 2026-09-25 as part
+    of a pre-Doc_02 source-acquisition pass for lollardy.
 
     '
   source_file: wyclif_tracts-and-treatises_vaughan1845.txt

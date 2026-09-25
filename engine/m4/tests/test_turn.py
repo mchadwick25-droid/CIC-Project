@@ -304,6 +304,13 @@ def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
     facilitator = result.facilitator_events[0]
     assert facilitator["kind"] == "bridge"
     assert fleet[term_id]["modern_sense"] in facilitator["text"]
+    # modern_sense also rides as its own sourced card, the same shape
+    # every other cited record gets, not only baked into the prose
+    # sentence above.
+    [card] = facilitator["modern_terms"]
+    assert card["record_id"] == term_id
+    assert card["modern_sense"] == fleet[term_id]["modern_sense"]
+    assert card["label"] == ", ".join(fleet[term_id]["display_terms"])
     assert result.voice_event is not None
     # the voice was asked the underlying subject, not the participant's own
     # sentence. Note the subject itself DOES name the word - the fleet record

@@ -43,6 +43,8 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
+- type: associated-with
+  target: gallic.force.barbarian-fiscal-ruin
 modern_rendering: >-
   For the day before, Martin had rebuked him. The reason was this: before he entered the clergy he had
   owned nothing. In fact, Martin himself had raised him in the monastery. Yet now he was keeping horses
