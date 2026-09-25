@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F1-T
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -23,6 +24,8 @@ sources:
 relations:
 - type: associated-with
   target: lpc.contested.grace-pelagius-characterization
+- type: associated-with
+  target: lpc.witness.violence-commanded-not-cruel
 - type: associated-with
   target: lpc.gravity.penitential-discipline
 - type: associated-with

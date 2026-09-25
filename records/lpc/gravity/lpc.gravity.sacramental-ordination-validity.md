@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F6-I
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -41,6 +42,8 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
+- type: associated-with
+  target: lpc.witness.baptism-traced-to-the-apostles
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
   Few questions mattered more to this world than whether baptism and ordination given outside the

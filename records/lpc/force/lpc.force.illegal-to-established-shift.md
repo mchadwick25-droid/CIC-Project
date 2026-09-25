@@ -39,7 +39,7 @@ description: >-
 
   The shift is the old condition of illegality turned upside down, the same fact appearing at both ends
   of the story with the opposite sign. What a bishop could do had changed, though what a bishop was had
-  not -- Cyprian never asked the magistrate for anything, and a century and a third later, the magistrate
+  not -- Cyprian never asked the magistrate for anything, and a century and a half later, the magistrate
   could be asked, and eventually was.
 
 
@@ -50,7 +50,7 @@ description: >-
   weight. A rival communion, the Donatist church, is what made the new state power worth using.
 manifestations:
 - Cyprian never asking the magistrate for anything, set against Augustine's later recourse to state action
-  against the Donatist schism a century and a third afterward
+  against the Donatist schism a century and a half afterward
 matrix_cell: 2B
 ---
 Re-derived from the approved Doc_08 §3 Force 2B-3 (Cell 2B, Ongoing/Internal). No gravity<->force edge -- Doc_08 §5's own gravity-by-gravity list and lpc_Force_Index.md §1's own 'Connected Gravities: --' both confirm this force connects to no classified gravity, consistent with Doc_04 §2's own decision not to advance the underlying shift as a candidate. relations[] carries the force<->force edges (1A-2, 2A-3) named above, plus one added contested_claim edge (lpc.contested.compel-coercion-development) per that record's own RECIPROCITY discipline (wb_lpc_s26.py) -- an additive edit, not a regeneration of this file. sources[] is deliberately empty -- see this script's own docstring, THREE DISCLOSED EMPTY-SOURCES CASES.
