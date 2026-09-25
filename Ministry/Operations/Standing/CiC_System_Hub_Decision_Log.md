@@ -5351,10 +5351,9 @@ the "Source-First Handoff" page (version 2), relayed by the managing thread
 3. **Process-narration scan.** Blocks new (non-grandfathered) worlds once the PR #581
    record-body checker passes review with measured precision; existing worlds stay
    report-only with waivers. §3 file discipline.
-4. **M3 live admission.** $3 ceiling per run, no weekly cap; `--authorized-by` required;
-   estimated cost recorded in the report. §5. As of this write-in,
-   `engine/m3/live_admission_run.py` has no `--authorized-by` flag or cost ceiling; the
-   rule is written ahead of the code, and a separate thread is adding the matching checks.
+4. **M3 live admission.** Each run needs Mark's go, within a $3 ceiling per run; no weekly
+   cap. §5. The document states the standing rule only. The `--authorized-by` flag that
+   will enforce it is in unmerged PR #595, so it is not cited here.
 5. **Staging** (`cic-engine-staging`, `CIC_ENFORCE_ADMISSION=0`) stays open to unadmitted
    worlds; only Mark uses it. §4.
 6. **Non-English originals can be primary sources.** The quote holds the original,
@@ -5373,8 +5372,8 @@ the "Source-First Handoff" page (version 2), relayed by the managing thread
   §4.
 - Decision 8B: no embedded quotations in host prose; real source quotations become quote
   records. §3.
-- `modern_rendering` authored by Opus and independently Opus-checked. §3 and the effort
-  table.
+- `modern_rendering` authored by Opus and independently Opus-checked: the fleet's standing
+  Decision 8B practice, now cited as such in §3 and the effort table.
 - NorthStar readability: FK 8–10 and FRE ≥ 60. §3.
 - The world_id is identical across the registry and every record. §6 rule 14.
 

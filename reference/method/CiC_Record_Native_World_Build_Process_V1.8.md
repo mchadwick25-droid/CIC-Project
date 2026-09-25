@@ -323,7 +323,8 @@ holds it, and it holds nothing else. Concretely:
 - Quote records author their `modern_rendering` at birth. The spoken
   form is a modern-English translation, never the archaic original; the
   original stays as the record's `text` for Level 3. Opus authors every
-  `modern_rendering`, and a separate Opus pass checks it independently.
+  `modern_rendering`, and a separate Opus pass checks it independently
+  (Decision 8B).
 - A non-English original can be the primary source. The quote record
   holds the original, verified verbatim. The spoken `modern_rendering` is
   an Opus translation from the original, independently Opus-checked and
@@ -730,9 +731,8 @@ When Mark re-opens table work, the cost-capped form applies
 never one table per frozen world; graded on available evidence if spend
 is interrupted — a declared limit, never a silent gap).
 
-**M3 live admission runs:** a $3 ceiling per run, with no weekly cap.
-Every run needs `--authorized-by`, and its report records the estimated
-cost.
+**M3 live admission runs:** each run needs Mark's go, within a $3
+ceiling per run. There is no weekly cap.
 
 **Cost guardrails (real incidents, not hypotheticals):** API credit
 exhaustion killed a TRR table mid-run once — checkpoint probe/battery
@@ -823,7 +823,7 @@ explicitly; Claude Opus 5.5 (`claude-opus-5-5`) defaults to `medium`.
 | Deep source research, M1 identity research | Opus 5.5 · high |
 | Fable lanes (Doc_03/06 discovery, Doc_04, Doc_08, Doc_09, Doc_10, battery-fail diagnosis) | Fable 5.1 · high (unchanged pending the Fable-vs-Opus discovery test) |
 | Main thread, templated documents, Phase B conversion | Sonnet 5 |
-| Authoring `modern_rendering` (and any re-rendering) | Opus 5.5 (the CLAUDE.md exception for renderings), then an independent Opus 5.5 check |
+| Authoring `modern_rendering` (and any re-rendering) | Opus 5.5 authors, then a separate Opus 5.5 pass checks it independently (Decision 8B; the CLAUDE.md exception for renderings) |
 | Mechanical work | Script first, then Haiku 4.5 |
 
 If Claude Code sets effort per session rather than per subagent, group
