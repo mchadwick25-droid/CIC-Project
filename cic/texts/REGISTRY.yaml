@@ -811,6 +811,22 @@
         without brackets. Safe as a general per-edition pattern (not anchored to one instance)
         because the shape - 3-4 digits immediately followed by one capital letter, word-
         bounded - is specific enough that no real quoted quantity in this file takes it.
+    - name: bare-footnote-digit-common-is
+      pattern: '(?<=common) 1(?= is)'
+      evidence: >-
+        "the life of a number lived in common 1 is more useful in many ways" - a bare
+        superscript footnote-reference digit from the same docx-to-text extraction as this
+        file's other footnote-glyph entries above, this time surfaced as a plain "1" with no
+        wrapper of its own (cappadocian.quote.basil-on-common-life's own long-documented
+        failure; see that record's body, 2026-09-02). Deliberately NOT a fleet-wide bare-digit
+        class (engine/m1/quote_verbatim.py's own docstring: unsafe fleet-wide, since other
+        editions quote real digit quantities as content) - this entry is anchored on both
+        sides to the exact surrounding words ("common" before, "is" after), not a bare digit
+        shape, so it can only ever remove this one footnote marker. Checked against the whole
+        file: the literal substring "common 1 is" occurs exactly once (`grep -c`); a search
+        for any bare 1-2 digit number between two lowercase words returns 126 hits file-wide,
+        confirming a general digit rule would be unsafe here too and this narrower anchor is
+        the right scope.
 - filename: gregory-nazianzen_second-invective-against-julian_king1888.txt
   supplied_by: Mark
   date_added: '2026-08-30'
