@@ -763,7 +763,7 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
   reviewed, and self-disposed by the build thread per CO-022 (no escalation category
   triggered at any of these steps).
 
-### OG-14. Re-voiced the `name`/`description`/`manifestations` fields on all 25 gravity/force records and the four `world_core` spoken fields (`horizon`, `formation_logic`, `thinness`, `cautions`) — build vocabulary stripped, every fact and disclosed uncertainty preserved; several residual items surface as a result and are logged here rather than fixed in the same pass.
+### OG-18. Re-voiced the `name`/`description`/`manifestations` fields on all 25 gravity/force records and the four `world_core` spoken fields (`horizon`, `formation_logic`, `thinness`, `cautions`) — build vocabulary stripped, every fact and disclosed uncertainty preserved; several residual items surface as a result and are logged here rather than fixed in the same pass. Renumbered from this branch's own original OG-14 to OG-18 (PR #562 round 3) to avoid colliding with PR #557's own OG-14/15/16/17, since the two branches numbered independently off the same base — per the managing thread's own instruction, using the next free number after #557's highest.
 
 All 8 `records/lpc/gravity/*.md` and 17 `records/lpc/force/*.md` records carried heavy
 construction-process vocabulary directly in their spoken fields: `Doc_04 §3 Candidate N`,
@@ -868,11 +868,16 @@ add new work:**
   authority-theory` still narrated its own reclassification history and quoted "the forces
   framework" by name, and "gravity" recurred as a bare noun in `illegal-to-established-shift`,
   `manichaeism-and-pelagian-anthropology`, `plague-of-cyprian`, `standing-legal-condition-
-  unlicensed-religion`, and `penitential-discipline`. All rewritten to describe the same
+  unlicensed-religion`, and `penitential-discipline`. Rewritten to describe the same
   claims — how central a concern is, how it was weighed, how confident the evidence is — in
-  plain language, without naming the project's own classification method. "Anchor" (`anchor
-  bishop`, `anchor voice`, `anchor controversies`) was swept from `world_core`'s `horizon`,
-  `thinness`, and `cautions` the same way.
+  plain language, without naming the project's own classification method. **This claim was
+  itself incomplete at the time it was first written**: a third review (see below) found
+  "gravity"/"gravities" still present roughly 20 times across the 8 gravity records'
+  `description` and `manifestations` fields, `penitential-discipline` alone carrying 5 of
+  them. All are now removed; a direct field-by-field re-sweep after the fix confirms zero
+  remaining instances anywhere in the 25 gravity/force records or the four `world_core`
+  fields. "Anchor" (`anchor bishop`, `anchor voice`, `anchor controversies`) was swept from
+  `world_core`'s `horizon`, `thinness`, and `cautions` the same way.
 - `world_core.thinness`'s "The rites themselves have never been read as evidence in their own
   right" turned a limit of this compilation into a claim about all scholarship; restored to
   "We have not yet read the rites themselves as evidence in their own right."
@@ -884,7 +889,11 @@ add new work:**
 - Stock phrasing repeated across many records without variation — "To the world itself"/"For
   this world," (9 instances), "One caution was flagged/disclosed from the start" (4), "There is
   no confidence gap" (4) — was individually reworded so the same claim is not stated in
-  identical language file after file.
+  identical language file after file. **This claim was also incomplete**: a third review found
+  `grace-and-human-incapacity` still carried the literal sentence "There is no confidence gap
+  for the gravity within Augustine's phase," unreworded. Fixed to "Within Augustine's own
+  phase, that carries no confidence gap of its own" (also clearing the last "gravity" instance
+  named above).
 - Four fields sitting well under the FK 8–10 target (`vandal-invasion-siege-of-hippo` 6.64,
   `corpus-outliving-the-world` 6.81, `inherited-latin-theological-vocabulary` 7.08,
   `illegal-to-established-shift` 7.46) were lifted to 7.9–9.1 by combining short sentences
@@ -902,6 +911,52 @@ add new work:**
 records` clean on every touched field; FK grade across all 25 gravity/force `description` fields
 and the four `world_core` fields now runs 7.4–10.5, with the four previously-low fields lifted
 and no field newly pushed out of range.
+
+**A third independent review (this round, PR #562 round 3) found further residue from the
+second pass's own fixes, corrected in place rather than layered as a new entry:**
+
+- `conciliar-authority-theory`'s own description still narrated its reclassification history
+  and the project lead's own ruling ("It was placed in different categories several times...
+  rests on a direct decision by the project's own lead"), merely paraphrased rather than
+  removed. Rewritten to state only the plain uncertainty about the underlying historical
+  claim: that both formulas are solidly attested, but the evidence for their organizing
+  breadth is thin.
+- The "gravity"/"There is no confidence gap for the gravity" false-claim corrections above.
+  A genuinely exhaustive re-sweep this round (parsing each record's actual YAML field values
+  directly with `yaml.safe_load`, not a line-based `grep`, after two prior grep-based sweeps
+  both missed real instances) found and fixed 22 total "gravit" occurrences across 6 gravity
+  records' `description`/`manifestations` fields: `collegial-communion-preserved` (3),
+  `grace-and-human-incapacity` (4), `pastoral-office-flock-keeping` (2),
+  `penitential-discipline` (4, matching the ×5 the review named once the manifestations-field
+  instance is counted separately), `preaching-and-catechesis` (6, including one in
+  `manifestations`), `sacramental-ordination-validity` (4). Zero force records were affected;
+  the two prior sweeps' method (line-based `grep` with type filters) is the likely cause of
+  the earlier miss, since a YAML-aware parse catches every instance directly.
+- New stock sentences the second pass's own fixes had introduced, not caught by that pass's
+  own review: "This is one of this world's central concerns." (the gravity-record opener,
+  ×3: `collegial-communion-preserved`, `penitential-discipline`,
+  `sacramental-ordination-validity`), "This is a real concern in this world, though a
+  narrower one." (×2: `grace-and-human-incapacity`, `preaching-and-catechesis`), "...worth
+  naming..." (×4: `conciliar-authority-theory`, `confessor-authority-vs-episcopal-peace` ×1
+  each in two places, `grace-and-human-incapacity`, `penitential-discipline`), "...thinly
+  sourced..." (×3: `confessor-authority-vs-episcopal-peace`, `penitential-discipline`,
+  `sacramental-ordination-validity`). Each instance given its own record-specific phrasing
+  rather than a second small set of repeated templates.
+- `world_core.cautions` item 6's "A firm classification looks reachable from our own
+  premises" — "classification" is the project's own build vocabulary (matching gravity
+  records' own `classification: primary/supporting` field); reworded to "A firm answer looks
+  reachable from our own premises, but it has not been settled."
+- Non-blocking items also fixed: `thinness`'s "any confirmed world so far" (build-relative
+  wording) reworded to "of any world in this record"; "independently checked for this world"
+  reworded to match main's own "verified in this build for this world" phrasing;
+  `conciliar-authority-theory`'s closing "one our own picture of that world stays incomplete
+  on" reworded to "leaves our own picture of that world incomplete here."
+
+**Re-verification after this round's own fixes:** all 21 M1 gates clean (same pre-existing,
+expected `canon-coverage` gap). A direct YAML-field parse (not `grep`) across all 25
+gravity/force records and the four `world_core` fields confirms zero remaining "gravit"
+instances and zero remaining instances of any of the four flagged stock phrases.
+`tools/check_live_commentary.py --surface records` clean on every field this round touched.
 
 Logged here per the standing rule that a review outcome, or a fix that surfaces further items,
 never lives only in a conversation thread or a PR description.

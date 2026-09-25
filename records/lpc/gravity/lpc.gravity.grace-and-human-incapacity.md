@@ -33,37 +33,37 @@ relations:
   target: lpc.force.corpus-outliving-the-world
 name: Grace and Human Incapacity
 description: >-
-  This is a real concern in this world, though a narrower one. It organizes a large and extremely
-  well-evidenced part of the world, but only in Augustine's phase. It does not span the whole world the
-  way pastoral office, penitential
+  This concern is real, but it does not run nearly as wide as the others. It organizes a large and
+  extremely well-evidenced part of the world, but only in Augustine's phase. It does not span the whole
+  world the way pastoral office, penitential
   discipline, collegial communion, and sacramental validity do.
 
 
-  This comes with a real limit, worth naming plainly rather than discovering later. All the evidence
-  comes from one voice, Augustine, in one body of work, the anti-Pelagian corpus. The sheer density of
-  that evidence could otherwise be mistaken for breadth.
+  It comes with a real limit, and it should be said plainly rather than left for a reader to find later.
+  All the evidence comes from one voice, Augustine, in one body of work, the anti-Pelagian corpus. The
+  sheer density of that evidence could otherwise be mistaken for breadth.
 
 
-  It is by far the most textually dense gravity in this world. The word "grace" occurs 1,798 times in
+  It is by far the most textually dense concern in this world. The word "grace" occurs 1,798 times in
   the thirteen anti-Pelagian works alone. Those works form a sustained project of teaching and argument,
   prompted by a live controversy. In them Augustine refuses the Pelagian claim that a believer's own
   moral effort is enough without grace.
 
 
-  It is real and heavily attested, but it stands on its own. No other gravity depends on how it is
-  resolved. It explains why the anti-Pelagian corpus exists and why it is so large. But it does not
+  It is real and heavily attested, but it stands on its own. Nothing else in this world depends on how
+  it is resolved. It explains why the anti-Pelagian corpus exists and why it is so large. But it does not
   reach back to Cyprian. The Pelagian controversy came more than a century after him.
 
 
   So it does not span the whole world: no evidence for it has been found in Cyprian's phase. Within
   Augustine's phase it is strong. This is a real boundary in time, not a gap in the search. It reshapes
-  penitential discipline by raising a related but distinct question in Augustine's phase. It is not a
-  continuation of that gravity. It reinforces preaching and catechesis.
+  penitential discipline by raising a related but distinct question in Augustine's phase. It is a
+  separate question, not a continuation of that concern. It reinforces preaching and catechesis.
 
 
   The corpus's existence and scale are solidly attested. It is held in this project's own library and has
-  been checked independently. The specific passages relied on carry the lower citation grade (B). There
-  is no confidence gap for the gravity within Augustine's phase.
+  been checked independently. The specific passages relied on carry the lower citation grade (B). Within
+  Augustine's own phase, that carries no confidence gap of its own.
 
 
   It has a single origin among the forces, and that is a real finding, not thin analysis. Manichaeism

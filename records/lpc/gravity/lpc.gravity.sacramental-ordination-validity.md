@@ -43,8 +43,8 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
-  This is one of this world's central concerns. It asks whether baptism and ordination given outside
-  the church's boundary are valid. The two bishops answer it in opposite ways.
+  Few questions mattered more to this world than whether baptism and ordination given outside the
+  church's boundary were valid. The two bishops answer it in opposite ways.
 
 
   It recurs strongly: in Cyprian's letters on rebaptism, in the ruling of the Council of 256, and
@@ -52,9 +52,9 @@ description: >-
   not confined to one source. Two independent bishops treat it at length, decades apart.
 
 
-  Other gravities lean on it. Collegial communion is tested hardest here, because the two bishops reach
-  opposite conclusions and communion still holds. The confessor tension is a closely related question
-  about who may grant standing within the community.
+  Other concerns in this world lean on it. Collegial communion is tested hardest here, because the two
+  bishops reach opposite conclusions and communion still holds. The confessor tension is a closely
+  related question about who may grant standing within the community.
 
 
   It shapes practice directly. Cyprian's requirement of rebaptism is a working pastoral policy.
@@ -70,7 +70,7 @@ description: >-
 
 
   Both positions are solidly attested, directly quoted and checked: On Baptism I.1.2, the 256 preface,
-  and Book III, chapter 2. Neither side of this dispute is thinly sourced.
+  and Book III, chapter 2. Neither side of this dispute runs short of evidence.
 
 
   The Donatist schism, an ongoing outside pressure, makes the question urgent for the institution, not
@@ -79,12 +79,12 @@ description: >-
   Cyprian reasons about both questions consistently.
 
 
-  That last link runs one way only. Penitential discipline reinforces this gravity in the first phase,
+  That last link runs one way only. Penitential discipline reinforces this concern in the first phase,
   since both are questions about the boundary and about return. But penitential discipline relates to
-  grace and human incapacity differently: it is reshaped by that gravity, not continued in it. So this
-  gravity's tie to the recurring contest over the failed member is its own, and it belongs to the first
-  phase. It does not depend on the second-phase family resemblance, which runs toward grace and human
-  incapacity instead.
+  grace and human incapacity differently: it is reshaped by that concern, not continued in it. So this
+  record's own tie to the recurring contest over the failed member is its own, and it belongs to the
+  first phase. It does not depend on the second-phase family resemblance, which runs toward grace and
+  human incapacity instead.
 manifestations:
 - the Council of 256's ruling on rebaptism
 - On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and Book III, chapter

@@ -44,11 +44,10 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: 'Conciliar Authority Theory: Egalitarian vs. Hierarchical'
 description: >-
-  This is one of this world's real concerns, though an unusual one to place. How central it actually
-  is could not be settled by the evidence alone. It was placed in different categories several times
-  without landing on a stable answer, and its current standing as a secondary concern rests on a direct
-  decision by the project's own lead, not a verdict the evidence itself forced. That decision is carried
-  here exactly as given, neither raised nor lowered.
+  This is one of this world's real concerns, though an unusual one to weigh. That two competing theories
+  of conciliar authority existed, in each bishop's own words, is solidly attested. Whether they organized
+  much of the world is a separate question, and the evidence for that is far thinner. We treat this as
+  a secondary concern, disclosed as genuinely uncertain rather than settled.
 
 
   The concern names two competing theories of conciliar authority. Cyprian's is egalitarian. In the
@@ -57,7 +56,7 @@ description: >-
   "plenary" occurs 31 times in that treatise.
 
 
-  A real limit is worth naming here. Each theory is attested at only one place in each bishop's
+  A real limit sits here too, and it should be said plainly. Each theory is attested at only one place in each bishop's
   writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs within
   On Baptism but is not restated in any second work of his drawn on here.
 
@@ -92,8 +91,8 @@ description: >-
   reached ordinary formation.
 
 
-  A concern this loosely connected to the pressures acting on the world is one our own picture of that
-  world stays incomplete on. That gap is carried here, not resolved.
+  A concern this loosely connected to the pressures acting on the world leaves our own picture of that
+  world incomplete here. That gap is carried, not resolved.
 manifestations:
 - 'Cyprian''s egalitarian formula in the preface to the Council of 256: "neither does any of us set himself
   up as a bishop of bishops"'

@@ -64,7 +64,7 @@ description: >-
   collections of sermons.
 
 
-  Other gravities depend on it. Penitential discipline is carried out by a bishop who holds this office.
+  Other concerns in this world depend on it. Penitential discipline is carried out by a bishop who holds this office.
   Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who
   legitimately holds the office. Sacramental validity asks the same question. This world's own formation
   is pastoral and sacramental before it is juridical. The whole apparatus of teaching and penance exists
@@ -86,7 +86,7 @@ description: >-
   256 preface alone.
 
 
-  It is the gravity most densely connected to the forces acting on the world. Christianity's standing
+  It is the concern most densely connected to the forces acting on the world. Christianity's standing
   legal condition as an unlicensed religion means the office has no outside enforcement. Personal bond
   holds it together. Congregational acclamation shows how a man comes to hold the office. The Decian and
   Valerianic persecutions make his answerability acute, through the flock's own failure and the bishop's

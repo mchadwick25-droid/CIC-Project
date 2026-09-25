@@ -198,7 +198,7 @@ thinness: >-
   This is not a hostile-source problem, the way it is for the neighbouring Donatist world. Both
   bishops speak in their own words, as bishops of the tradition at the centre of this world, not
   as quotations in an opponent's book. This world holds the largest and most direct base of primary
-  sources of any confirmed world so far.
+  sources of any world in this record.
 
 
   The imbalance here is narrower, and different in kind. Two named voices carry nearly this world's
@@ -230,7 +230,7 @@ thinness: >-
 
 
   Material evidence here is unexcavated, not empty. No site report, inscription catalogue, or
-  excavation record has been independently checked for this world. It also has no distinctive
+  excavation record has been verified in this build for this world. It also has no distinctive
   inscription tied to its worship, of the kind the Donatist world can point to. But real material
   evidence does exist, carried in a text. A pastoral letter describes an apse, a raised seating area
   for clergy, steps, and a floor for the congregation. That evidence comes from a letter, not a
@@ -305,7 +305,7 @@ cautions: >-
   6) What councils can decide is held open, not settled. Cyprian's theory of authority among bishops
   is equal and non-coercive. Augustine's is hierarchical, and it holds that a council's judgment can
   be corrected. These are real, substantial differences, and they are not considered fully closed. A
-  firm classification looks reachable from our own premises, but it has not been made. The finding
+  firm answer looks reachable from our own premises, but it has not been settled. The finding
   that the two bishops form one strand also carries a stated caveat: it could be reopened on exactly
   this point.
 

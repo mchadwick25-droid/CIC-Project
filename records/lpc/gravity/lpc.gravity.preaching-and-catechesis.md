@@ -50,16 +50,16 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 name: Preaching and Catechesis as the Primary Mode of Formation
 description: >-
-  This is a real concern in this world, though a narrower one. It is the medium through which this
-  world's other central concerns are taught, rather than a force that organizes the world by itself.
+  This concern is real too, though its reach is narrower than the others'. It is the medium through which
+  this world's other central concerns are taught, rather than a force that organizes the world by itself.
   It clearly recurs, shapes believers, and lasts across both
-  phases. But its links to other gravities, and what it explains, are narrower.
+  phases. But its links to other concerns, and what it explains, are narrower.
 
 
   It recurs in Augustine's Sermons and Tractates on John, in the catechetical works, and in Cyprian's De
-  Dominica Oratione. Pastoral office depends on it as its main activity. But no other gravity depends on
-  it the way they depend on pastoral office, penitential discipline, and collegial communion. It is the
-  channel through which those gravities are taught and enforced.
+  Dominica Oratione. Pastoral office depends on it as its main activity. But nothing else depends on
+  it the way pastoral office, penitential discipline, and collegial communion do. It is the
+  channel through which those concerns are taught and enforced.
 
 
   Its power to shape believers is strong and direct. That is the explicit subject of the catechetical
@@ -76,16 +76,16 @@ description: >-
 
   It depends on a shared vernacular to teach in: the inherited Latin theological vocabulary. It also
   connects to every ongoing outside pressure on the world. These are the Valerianic persecution, the
-  plague, the Donatist schism, and the rival systems of Manichaeism and Pelagianism. This gravity is the
+  plague, the Donatist schism, and the rival systems of Manichaeism and Pelagianism. This concern is the
   channel through which outside pressure reaches an ordinary believer. That is this world's
   characteristic response: crisis turned into teaching. The plague is the clearest case. It produced no
-  new gravity and no new practice, only a treatise, and that treatise came entirely through preaching
+  new concern and no new practice, only a treatise, and that treatise came entirely through preaching
   and teaching.
 manifestations:
 - 'the Sermons and Tractates on John: Augustine''s vast body of preaching and scripture commentary'
 - the catechetical works, written explicitly for converts and catechumens
 - 'De Mortalitate, Cyprian''s treatise answering the plague of c. 249-262: a pressure that produced teaching,
-  through this gravity, rather than new structure'
+  not new structure'
 classification: supporting
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 4). relations[] carries all three of Doc_04 §6's own Interaction Matrix edges for Candidate 4 (Reinforcing with G1, Reinforcing with G2, Reinforcing with G7) -- G1 and G2 were already captured as edges when this script processed those rows earlier, so G7 is the only edge this record's own row newly contributes, not the only gravity-level relationship G4 has in total -- and the gravity<->force edges (1B-3, 2A-1, 2A-2, 2A-3, 2A-4, the last four an expansion of Doc_08 §5's own prose set-reference 'every force in Cell 2A', cross-checked against lpc_Force_Index.md §3's own identical expansion) named above.

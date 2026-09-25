@@ -57,21 +57,22 @@ relations:
   target: lpc.force.confessors-claim-to-grant-peace
 name: 'Penitential Discipline: the Reintegration of the Failed'
 description: >-
-  This is one of this world's central concerns. It concerns how the church received back members who
-  failed under persecution. Its answer is readmission, not permanent exclusion.
+  How the church received back its own failed members sat close to the center of this world's own life.
+  This concern asks what happens to someone who gave way under persecution. Its answer is readmission,
+  not permanent exclusion.
 
 
   It recurs strongly: in De Lapsis, in the letters about the lapsed, in Pontius's narrative, and in the
-  world's liturgical evidence. A limit is worth naming here too. The evidence from Cyprian's phase comes
+  world's liturgical evidence. One more limit belongs here. The evidence from Cyprian's phase comes
   from several independent sources that support each other. But the claim that this concern spans both
   phases rests on Cyprian's phase alone.
 
 
-  Other gravities depend on it. The confessor tension exists only because this gravity exists. Its
-  answer for the single believer is to readmit rather than exclude for ever. That mirrors, at a smaller
-  scale, the logic of collegial communion. It is the model practice for shaping believers in this
-  world's record. It explains two schisms. The Novatianists refused to readmit the lapsed at all. The
-  Felicissimus schism offered a laxer rival route back. It also explains the confessor tension.
+  Other concerns in this world depend on it. The confessor tension exists only because this one does.
+  Its answer for the single believer is to readmit rather than exclude for ever. That mirrors, at a
+  smaller scale, the logic of collegial communion. It is the model practice for shaping believers in
+  this world's record. It explains two schisms. The Novatianists refused to readmit the lapsed at all.
+  The Felicissimus schism offered a laxer rival route back. It also explains the confessor tension.
 
 
   Whether it continues into Augustine's phase was checked directly, not assumed. It holds directly for
@@ -81,9 +82,9 @@ description: >-
 
 
   The closest parallels are real: the pull toward the Donatist schism, and the ordinary sin of
-  catechized believers. But they are tested and classified as gravities of their own, sacramental
+  catechized believers. But those were tested and found to be concerns of their own, sacramental
   validity and grace and human incapacity. They are not its direct continuation. What crosses the
-  boundary between the phases is a family resemblance, not the same gravity restated.
+  boundary between the phases is a family resemblance, not the same concern restated.
 
 
   It reinforces pastoral office, collegial communion, preaching and catechesis, and sacramental
@@ -93,7 +94,7 @@ description: >-
 
   The evidence is solidly attested for Cyprian's own conduct and letters, which are directly quoted and
   checked. The De Lapsis passage carries the lower citation grade (B). The Epistles and Pontius passages
-  carry the higher grade (A). Nothing here is thinly sourced for Cyprian's phase.
+  carry the higher grade (A). None of it runs short of evidence for Cyprian's phase.
 
 
   It is itself this world's ongoing internal pressure. Four forces connect to it. The Decian persecution
@@ -104,7 +105,7 @@ description: >-
 manifestations:
 - De Lapsis, Cyprian's founding treatise of the penitential controversy
 - the Novatianist schism (a rigorist refusal to readmit the lapsed) and the Felicissimus schism (a laxer
-  rival route back), both explained by this gravity
+  rival route back), both explained by this concern
 - the confessors' competing claim to grant peace, which the regulated penitential process was built to
   answer
 classification: primary

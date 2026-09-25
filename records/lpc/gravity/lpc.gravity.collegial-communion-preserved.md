@@ -47,8 +47,9 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: Collegial Communion Preserved Despite Disagreement
 description: >-
-  This is one of this world's central concerns. Bishops in this world disagree, sometimes sharply. But
-  they work to keep communion rather than break it and build a rival hierarchy.
+  Few things mattered more to this world than staying in communion despite real disagreement. Bishops
+  in this world disagree, sometimes sharply. But they work to keep communion rather than break it and
+  build a rival hierarchy.
 
 
   The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly:
@@ -59,7 +60,7 @@ description: >-
 
 
   Our own case for this world's coherence across the century between its two bishops rests on this
-  gravity. A bishop who
+  concern. A bishop who
   disagrees has two paths. He can work to keep communion, or he can break it and set up a parallel
   hierarchy. Both bishops take the first path. Neither breaks fellowship over the sharpest doctrinal
   disputes in the record. Neither bishop's writings hold a single counter-example.
@@ -74,12 +75,12 @@ description: >-
 
   The confidence split is disclosed, not resolved. The underlying facts are solidly attested. The 256
   preface's own words and On Baptism's long argument are directly quoted and checked. But reading them
-  as one gravity across both phases, rather than two separate historical facts, is an interpretation.
+  as one concern across both phases, rather than two separate historical facts, is an interpretation.
   That interpretation stands at Widely Accepted, and the record carries this more cautious rating
   instead of hiding the split.
 
 
-  Every force linked to this gravity tested it rather than created it. The organized Carthaginian
+  Every force linked to this concern tested it rather than created it. The organized Carthaginian
   church gave colleagues who could meet and already disagreed. The Donatist schism tested it at its
   hardest edge. Augustine's engagement with Cyprian's conciliar acts tested it across the century gap.
   It held each time. It is this world's own way of adapting, tested three times from three directions.
