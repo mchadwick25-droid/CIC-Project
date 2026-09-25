@@ -6,19 +6,36 @@ works:
 - work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
     III's bull against Henry VIII annexed)
   author: barlow
-  locus: whole text (bull text in English and Latin parallel columns, embedded in Barlow's
-    1681 polemical framing)
+  locus: the two embedded bull texts only (Regnans in Excelsis and the Paul III bull against
+    Henry VIII, printed in English and Latin parallel columns) - not Barlow's own surrounding
+    epistle dedicatory, epistle to the reader, or running commentary
   role: tradition
   confidence: assigned
   note: 'Filed under `barlow`, the vendored file''s own compiler/printer slug (the same convention
     this corpus already uses for a secondary compiler''s framing - e.g. `boero` for the Life
-    of Peter Favre) - not a claim that Barlow authored the bulls themselves. What the row
-    actually carries is Pius V''s own bull Regnans in Excelsis (1570, excommunicating and
-    deposing Elizabeth I) and Paul III''s bull against Henry VIII, printed in English and
-    Latin, word for word, inside Barlow''s hostile Anglican polemic (1681). role: tradition
-    rather than context because the bull text itself is reproduced verbatim - the papacy''s
-    own binding act, not a paraphrase or narrative about it - even though the surrounding
-    frame is hostile. Narrow (two short bulls) but genuine primary- source window. Vendored
+    of Peter Favre) - not a claim that Barlow authored the bulls themselves. What this row
+    carries is Pius V''s own bull Regnans in Excelsis (1570, excommunicating and deposing
+    Elizabeth I) and Paul III''s bull against Henry VIII, printed in English and Latin, word
+    for word. role: tradition because the bull text itself is reproduced verbatim - the papacy''s
+    own binding act, not a paraphrase or narrative about it. Narrow (two short bulls) but
+    genuine primary- source window. Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition
+    pass for the-tridentine-church, per this world''s own Source Readiness Dossier §3.
+
+    '
+  source_file: barlow_brutum-fulmen_1681.txt
+- work: Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running
+    commentary
+  author: barlow
+  locus: 'everything in the file outside the two embedded bull texts: Barlow''s own dedicatory
+    epistle, his epistle to the reader, and his running marginal/textual commentary'
+  role: context
+  confidence: assigned
+  note: 'This is not this world''s own voice: Thomas Barlow (Anglican bishop of Lincoln) writing
+    hostile anti-Catholic polemic in 1681, framing the two embedded bulls as evidence of papal
+    tyranny. role: context, not tradition - useful as an outside opponent''s own testimony
+    (e.g. for Doc_04 gravity-discovery work on how the papacy''s own claims to depose princes
+    were received and attacked), never as this world''s own composed voice. Distinguished
+    from the tradition row above, which carries only the two bulls'' own verbatim text. Vendored
     2026-09-25 as part of a pre-Doc_02 source-acquisition pass for the-tridentine-church,
     per this world''s own Source Readiness Dossier §3.
 
@@ -109,16 +126,14 @@ works:
 - work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
   locus: whole text
-  role: context
-  confidence: provisional
+  role: tradition
+  confidence: assigned
   note: 'Trent''s own official canons and decrees, trans. Rev. J. Waterworth (preface 1848).
-    Vendored 2026-09-24 as part of a pre-Doc_02 source-acquisition pass for the-society-of-jesus,
-    this world''s own doctrinal anchor implemented by the Jesuits as one of Trent''s most
-    vigorous executors - role context here, not tradition, since this is not the Society''s
-    own composed voice. Double-placed to the-tridentine-church (VI.22, a sibling Era VII candidate
-    with no build thread open yet), where this same text would be native/ foundational rather
-    than implementing - flagged as provisional pending whichever Doc_02 reaches this material
-    first to confirm the role split.
+    Vendored 2026-09-24 as part of a pre-Doc_02 source-acquisition pass for the-society-of-jesus.
+    Native/foundational here - this is the-tridentine-church''s own defining conciliar voice,
+    role tradition. Double-placed to the-society-of-jesus, where the same text is role context
+    instead: this world''s own doctrinal anchor as the Jesuits implemented it, not the Society''s
+    own composed voice.
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
