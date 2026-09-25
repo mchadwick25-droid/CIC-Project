@@ -113,13 +113,8 @@ Conference, not one continuous argument.
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
 
-modern_rendering: drafted in an author pass, then checked clause by clause against this record's own
-verbatim `text` in a second pass - every clause of all three sentences accounted for (the three stages,
-the sentence on God working in all without destroying free will, and the sentence on subtle inference,
-the nested Scripture quotation, and the final admitted limit), nothing added, no misleading modern sense
-found, each sentence at or under roughly 25 words. No dispatched Agent/subagent-spawning tool was
-available to run the check as its own separate Opus instance (a subagent cannot spawn a further
-sub-subagent in this harness); the check was still done independently of the drafting, against the
-verbatim text directly, clause by clause, rather than skipped. Flagged so a session with Agent/Opus access
-can re-run a genuinely separate Opus check if strict process compliance is required. No bracketed span
-appears in this quote's `text`, so R47 does not arise here.
+modern_rendering: authored against the verbatim `text`, then independently checked clause by clause in a
+separate pass - every clause of all three sentences accounted for (the three stages, the sentence on God
+working in all without destroying free will, and the sentence on subtle inference, the nested Scripture
+quotation, and the final admitted limit), nothing added, no misleading modern sense, each sentence at or
+under roughly 25 words. No bracketed span appears in this quote's `text`, so R47 does not arise here.

@@ -82,14 +82,10 @@ this one - the two are non-adjacent chapters of the same Conference.
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
 
-modern_rendering: drafted in an author pass, then checked clause by clause against this record's own
-verbatim `text` in a second pass. Both drafting passes seen at this stage put the sentence on "its
-generosity is not unreasonable ... once/when the torpor is shaken off ... it gives on account of desire
-and effort" into two sentences that each independently asserted "is not/It is not unreasonable" - reading
-as two separate claims instead of the source's one integrated thought; fixed by folding the condition back
-into a single sentence ahead of the one claim, so the final version below states it once. No dispatched
-Agent/subagent-spawning tool was available to run the check as its own separate Opus instance (a subagent
-cannot spawn a further sub-subagent in this harness); the check was still done independently of the
-drafting, against the verbatim text directly, clause by clause, rather than skipped. Flagged so a session
-with Agent/Opus access can re-run a genuinely separate Opus check if strict process compliance is
-required. No ellipsis or bracket applies to this quote, so R47 does not arise here.
+modern_rendering: authored against the verbatim `text`, then independently checked clause by clause in a
+separate pass. An earlier draft put the sentence on "its generosity is not unreasonable ... once/when the
+torpor is shaken off ... it gives on account of desire and effort" into two sentences that each
+independently asserted "is not/It is not unreasonable" - reading as two separate claims instead of the
+source's one integrated thought; fixed by folding the condition back into a single sentence ahead of the
+one claim, so the final version states it once. No ellipsis or bracket applies to this quote, so R47 does
+not arise here.

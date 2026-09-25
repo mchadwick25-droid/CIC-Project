@@ -52,15 +52,14 @@ modern_lens_note: >-
   ordinary army life, in how one man treats a subordinate, before there is any monastery for him to
   belong to.
 modern_rendering: >-
-  Even with him, he would as it were change places. Though he was really the master, he often acted as
-  the lower one. Most of the time, he pulled off the boots himself and cleaned them with his own hand,
-  while the two of them ate their meals together - the real master generally playing the part of
-  servant. For nearly three years before
-  his baptism he served as a soldier. But he kept completely free of the vices that men of that trade
-  too often fall into. He showed great kindness to his fellow soldiers and held them in remarkable
-  affection. His patience and humility went beyond what seemed humanly possible. There is no need to
-  praise his self-denial. It was so great that, even then, people saw him less as a soldier than as a
-  monk.
+  And even toward him, it was as if the two had changed places. He was really the master, yet he often
+  acted as though he were the lower one. It went so far that, most of the time, he pulled off the other
+  man's boots and cleaned them with his own hand. They ate their meals together, yet the real master
+  usually played the part of servant. For nearly three years before his baptism he served as a soldier.
+  But he kept completely free of the vices that men of that trade too often fall into. He showed great
+  kindness to his fellow soldiers and held them in remarkable affection. His patience and humility went
+  beyond what seemed humanly possible. There is no need to praise the self-denial he showed. It was so
+  great that, even then, people saw him less as a soldier than as a monk.
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens
