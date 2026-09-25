@@ -38,18 +38,18 @@ kind: ongoing
 matrix_cell: 2B
 description: 'Several people passed on this world''s writings during the period this library covers. The printers of
   Wittenberg and other towns did so, and so did the hymnal compilers: Walter in 1525, Klug in 1535 and 1543, and
-  Bapst in 1545, with each hymnal carrying the founder''s own preface. The founder himself was a reluctant
-  collector, as he said in his 1539 preface to the German works and his 1545 preface to the Latin works.
-  Lauterbach and Aurifaber gathered the Table Talk, and Melanchthon''s edition of the Latin works was "published
-  immediately after Luther''s death." One finding about what survived is well documented: no force in the evidence
-  threatened the survival of this world''s writings, and that absence is itself the finding. What shaped survival
-  was selection, not suppression.
+  Bapst in 1545. Each hymnal carries the founder''s own preface. The founder himself was a reluctant collector, as
+  he said in his 1539 preface to the German works and his 1545 preface to the Latin works. Lauterbach and
+  Aurifaber gathered the Table Talk, and Melanchthon''s edition of the Latin works was "published immediately
+  after Luther''s death." One finding about what survived is well documented. No force in the evidence threatened
+  the survival of this world''s writings, and that absence is itself the finding. What shaped survival was
+  selection, not suppression.
 
   This world distrusted its own handing-down of books and put the Bible first. The founder wished his books
-  forgotten, "if only for the reason that I am afraid of the example" (v1 260-261), and he hoped "the Bible would
-  have kept its place in the pulpit" (v1 329-330). The world saw the hymnal as a beginning for others to improve,
-  made "to make a good beginning and to encourage others who can do it better" (Hy 909-912). By 1543 it was also
-  property to be marked as its own: if others changed it without leave, it was "not our book published at
+  forgotten, "if only for the reason that I am afraid of the example" (v1 260-261). He hoped "the Bible would have
+  kept its place in the pulpit" (v1 329-330). The world saw the hymnal as a beginning for others to improve, made
+  "to make a good beginning and to encourage others who can do it better" (Hy 909-912). By 1543 it was also
+  property to be marked as its own. If others changed it without leave, it was "not our book published at
   Wittenberg" (Hy 1093-1094).
 
   What was handed down within the period is what this library holds: the founder''s argued doctrine, from

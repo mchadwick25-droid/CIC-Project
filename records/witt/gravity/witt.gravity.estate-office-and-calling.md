@@ -96,14 +96,14 @@ description: '''It is pure invention that pope, bishops, priests and monks are t
   comforted conscience. Justified by faith alone and promise and sign reshape it. It stands in tension with
   hearers and repeaters of words, and it shows no demonstrated relationship with the bodily presence.
 
-  It is well documented, and it is classed as supporting. It organizes the social side of life, deciding who may
-  do what and what counts as a holy station, but it does this within the setting the primary gravities set. Works
-  are good only "in faith," as justified by faith alone holds; the office is defined by the Word; and the priest
-  administers the sacraments, as promise and sign holds.
+  It is well documented. It organizes the social side of life, deciding who may do what and what counts as a holy
+  station, but it does this within the setting this world''s own central convictions set. Works are good only "in
+  faith," as justified by faith alone holds; the office is defined by the Word; and the priest administers the
+  sacraments, as promise and sign holds.
 
-  Of all the gravities, its 1520 form is also the most visibly fenced in by 1530. That is how a supporting gravity
-  behaves, bending to the primary gravities and to the forces rather than organizing them, so its record of being
-  fenced in matches the rank it is given.
+  Of all the gravities, its 1520 form is also the most visibly fenced in by 1530. It bends to those central
+  convictions and to the forces acting on it rather than organizing them, and that record of being fenced in
+  matches the place given to it here.
 
   It appears in three of four registers and voices, but no voice beyond the founder''s carries it. The Brussels
   monks are told about by the founder, not by a witness, and there is no evidence of how it was received.

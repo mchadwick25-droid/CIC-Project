@@ -125,14 +125,13 @@ description: 'The sinner is ''freely justified for Christ''s sake, through faith
   the people is only thin. It reshapes the two governments and estate, office, and calling, and it competes with
   only one: hearers and repeaters of words.
 
-  The doctrine is well documented, and it is classified as a primary gravity that holds on every measure with
-  strong confidence. The confession''s own voice calls it "the chief topic," and the evidence fully bears that
-  organizing weight rather than falling short of it.
+  The doctrine is well documented, and within this world''s own writings the case for it is strong on every count.
+  The confession''s own voice calls it "the chief topic," and the evidence fully bears that organizing weight
+  rather than falling short of it.
 
-  This world has a single strand, so the usual cross-strand test is run here as two scores instead. It scores four
-  of four, carried by both voices across six kinds of writing. There is also one thin trace from a household:
-  Katharina von Bora (TT 3147-3148), who speaks of coldness in prayer, not of faith itself. As for how it was
-  received, the founder says it was received, in Wittenberg only, in 1522.
+  It appears in both of this world''s voices and across most kinds of writing this world produced. There is also
+  one thin trace from a household: Katharina von Bora (TT 3147-3148), who speaks of coldness in prayer, not of
+  faith itself. As for how it was received, the founder says it was received, in Wittenberg only, in 1522.
 
   It arose from the friar''s founding conviction and from the laity''s need for assurance. The papal bull and the
   Leipzig dispute then turned an argument into the movement''s identity, and that papal pressure, in its early and

@@ -47,9 +47,9 @@ description: '"The practical and pastoral problem... of a laity taught to rely o
   from inside this world, not those from outside, and the reason needs stating. The system that taught the laity
   this way came from outside the world: it was the inheritance this world refused, and the parent church in its
   first, papal pressure. But the need itself sat inside the community, whose own founder was a friar under vows
-  and whose own 1529 confession speaks of "we" who "went from mere compulsion and fear." A reviewer may read this
-  force as coming from outside instead. This choice is stated openly, and nothing in how this world''s forces and
-  gravities connect depends on which side of the line it sits.
+  and whose own 1529 confession speaks of "we" who "went from mere compulsion and fear." This could also be read as
+  coming from outside instead. That choice is stated openly, and nothing in how this world''s forces and gravities
+  connect depends on which side of the line it sits.
 
   Within the world itself, the old system was remembered not as an institution but as a bodily habit of fear. "The
   old way under the Pope, in which a person tortured himself to be so perfectly pure that God could not find the

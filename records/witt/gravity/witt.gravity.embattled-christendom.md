@@ -96,11 +96,11 @@ description: '''here we battle not against pope or bishop, but against the devil
   What the texts say is well documented. Some scholars lay an apocalyptic frame over it, but that is at most the
   leading modern reading; it has not been read here, and this record builds nothing on it.
 
-  It is classed as supporting, even though it passes every measure strongly and a reviewer could argue it is
-  primary. What it organizes is this world''s emotional and adversarial frame, the world''s own inner experience
-  of the forces acting on it. And the Word it wields belongs to the Word: "One little word can fell him." It works
-  within the setting that justified by faith alone and the Word set up, and its supporting rank matches that
-  evidence.
+  What it organizes is this world''s emotional and adversarial frame, the world''s own inner experience of the
+  forces acting on it. The evidence for it is strong on every count, strong enough that it might seem to belong
+  among the very few convictions that organize everything else. But it works within the setting that justified by
+  faith alone and the Word set up, rather than setting that frame itself, and that placement matches what the
+  evidence shows. And the Word it wields belongs to the Word: "One little word can fell him."
 
   It appears in all four registers and voices, and Kate''s sentence sits inside it. For how it was received, we
   have one household sentence, and it has come down to us filtered.

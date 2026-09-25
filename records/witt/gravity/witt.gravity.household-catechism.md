@@ -117,18 +117,17 @@ description: 'The three parts every Christian must know are to be taught by the 
   only thin. It reshapes "must" and "free", and it competes with only one: hearers and repeaters of words.
 
   The written prescriptions are well documented, and Walter''s witness is widely accepted. Any household''s actual
-  practice rests only on thin inference, and scholars contest how reception should even be read, in the debate
-  that follows Strauss.
+  practice rests only on thin inference. Scholars contest how reception should even be read, in the debate that
+  follows Strauss.
 
-  It is classified as a primary gravity on the scope defined above, where the evidence for the program is well
-  attested: the bulk of the 1529 writings, plus the two confessional texts. Some reviewers might read the
-  project''s rule as covering the whole gravity, reception included, and would classify it as supporting instead.
-  This record states that alternative openly rather than hiding it.
+  This record covers the program as defined above, where the evidence is well attested: the bulk of the 1529
+  writings, plus the two confessional texts. Read more broadly, to include reception as well as the program, the
+  evidence would place it lower. This record states that alternative openly rather than hiding it.
 
-  This is the highest-stakes case in this world of organizing strength and evidence pulling apart. As a program,
-  its organizing strength is at the primary level and the program is well attested, but the evidence for how it
-  was received is thin. Confidence is not raised across that line, and the thin side is named as lying outside
-  what the classification covers.
+  This is the highest-stakes case in this world where how strongly a pattern organizes it and how well that is
+  evidenced pull apart. As a program, it organizes at the highest level this account recognizes, and the program is
+  well attested, but the evidence for how it was received is thin. That thinness is not smoothed over; it is named
+  as sitting outside what this record actually claims.
 
   The program appears in all four kinds of writing and voice, but the mechanism of the father in the household is
   Luther''s alone. Evidence of how it was received is absent, the largest single gap of this kind in this world.
@@ -138,10 +137,10 @@ description: 'The three parts every Christian must know are to be taught by the 
   audience shifted from "the ordinary Christian, who cannot read" to the negligent pastor and the father of the
   household. That shift came from the territorial church''s own need to inspect.
 
-  The state of the parishes, as the founder reported it, intensified it; by its own account, the Large Catechism
+  The state of the parishes, as the founder reported it, intensified it. By its own account, the Large Catechism
   preface exists because pastors are negligent. Because it is the printed object in the household, print as a
   medium carried it. It was held within the confessional writings and entered the Book of Concord in 1580 by
-  reference, which links it to the confessional-territorial change and to transmission at the edge of the window.
+  reference. That links it to the confessional-territorial change and to transmission at the edge of the window.
   It also carries the household''s own daily prayer for the prince, which ties it to the imperial frame.'
 manifestations:
 - '"the ordinary Christian, who cannot read the Scriptures, is required to learn and know the Ten Commandments,

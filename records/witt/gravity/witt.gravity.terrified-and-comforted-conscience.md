@@ -98,17 +98,17 @@ description: 'Assurance against despair is what the doctrine is for. ''If you sh
   governments and competes with hearers and repeaters of words. As read, it shows no link at all to the bodily
   presence in the Supper, the only gap in an otherwise complete set of links.
 
-  It is well documented. It is also a primary gravity, and the reasoning is laid out on both sides rather than
-  smoothed over. For primary status, the Confession makes justified by faith alone depend on the conscience, not
-  the other way round, and three more candidates state in their own texts that they depend on it. Against it, the
-  conscience could be read as the place where justified by faith alone and promise and sign land. On that reading
-  it would not generate content of its own. But the sources state the dependence, and they state it in the
-  direction that decides the question, which outweighs the counter-case.
+  It is well documented, and the reasoning for its place here is laid out on both sides rather than smoothed over.
+  The Confession makes justified by faith alone depend on the conscience, not the other way round, and three more
+  candidates state in their own texts that they depend on it. Against that, the conscience could be read as the
+  place where justified by faith alone and promise and sign land, not as something that generates content of its
+  own. But the sources state the dependence, and they state it in the direction that decides the question, which
+  outweighs the counter-case.
 
-  That primary rank rests on firm ground, since it is well documented in both voices, with no gap between rank and
-  record. On the four-way check of voice and register, it scores four out of four, and Kate''s sentence supplies
-  the voice from outside the founders. That sentence is negative, and whether it gives her exact words is
-  contested. On how the teaching was received, we have one filtered household sentence, and it reports coldness.
+  That placement rests on firm ground, since it is well documented in both voices, with no gap between what is
+  claimed and what is recorded. It appears in all four registers and voices, and Kate''s sentence supplies the
+  voice from outside the founders. That sentence is negative, and whether it gives her exact words is contested.
+  On how the teaching was received, we have one filtered household sentence, and it reports coldness.
 
   It grew from what the world was responding to: the laity had been taught to rely on indulgences, confession, and
   the sacramental system for assurance. Here that is counted as a positive force that organized the world, coming

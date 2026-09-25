@@ -109,15 +109,14 @@ description: 'The sacrament is God''s own promise joined to an element and recei
   The doctrine and the movement''s own claimed practice are well documented, and the one witness who took part,
   Johann Walter, is widely accepted. Practice beyond Wittenberg rests only on thin inference.
 
-  This is a primary gravity. It meets every test, three other candidates state that they depend on it, and the
-  world''s one documented internal crisis, in 1522, was fought over it. For the doctrine and the claimed practice,
-  the evidence is as strong as the rating, since both are well documented. The evidence for parish practice is
-  still thin, and the classification does not rely on it.
+  The case for this is strong on every count: three other candidates state that they depend on it, and the world''s
+  one documented internal crisis, in 1522, was fought over it. For the doctrine and the claimed practice, the
+  evidence is as strong as what we claim, since both are well documented. The evidence for parish practice is
+  still thin, and what we say here does not rely on it.
 
-  Of the four kinds of voice and register checked, it scores four out of four, with Walter supplying the voice
-  from outside the founders. For how it was received, we have the movement''s own claim, in Article XXIV of the
-  Confession and the Apology, and one participant, writing late. We have nothing from any parish outside
-  Wittenberg.
+  It appears in all four registers and voices, with Walter supplying the voice from outside the founders. For how
+  it was received, we have the movement''s own claim, in Article XXIV of the Confession and the Apology, and one
+  participant, writing late. We have nothing from any parish outside Wittenberg.
 
   It grew from the refusal of the inherited system of seven sacraments and of the mass as a sacrifice. Papal
   pressure intensified it once the Babylonian Captivity was written, in the year of the bull. The movement''s own

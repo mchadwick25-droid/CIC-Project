@@ -38,10 +38,10 @@ description: 'We searched all ten files in this library, and neither Zwingli nor
   once, in On the Bondage of the Will. The Marburg Articles of 3 October 1529 are a known lead, and Luther and
   Melanchthon were among those who signed them, but this library does not hold a copy. The silence comes from
   dates and genre, not suppression: the rival is missing because the texts held here are early or are confessions
-  of faith, and nobody removed it. The searches themselves are well documented. This record says the two sides
-  "diverge sharply and specifically at the Eucharist," and it treats that split as a boundary of this world. That
-  weight rests on the project''s census and related documents; it has no confidence rating yet, and will not have
-  one until the Marburg Articles are acquired.
+  of faith, and nobody removed it. The searches themselves are well documented. We read the two sides as differing sharply, and specifically at the
+  Eucharist, and we treat that difference as a boundary of this world. That weight rests on our own comparison
+  across the wider project. This claim is not yet well supported by anything in the library itself, and it will
+  stay that way until the Marburg Articles are acquired.
 
   On this boundary, the library gives this world one clause, one word, and some general labels. The clause is
   "they reject those that teach otherwise" (AC 322-324). The word appears in a list of weeds among the wheat:
@@ -51,8 +51,8 @@ description: 'We searched all ten files in this library, and neither Zwingli nor
   all.
 
   This force intensified the teaching on the bodily presence in the Supper, though the library cannot show the
-  force at work. It also split that teaching outward, toward other traditions, which we know from the project''s
-  census and related documents rather than from any text held in this library. The force pressed on the teaching
+  force at work. It also split that teaching outward, toward other traditions, which we know from our own comparison across the
+  wider project rather than from any text held in this library. The force pressed on the teaching
   of promise and sign, the sacraments, in ways we cannot see, and it did not touch the terrified and comforted
   conscience at all. This entry is short because the evidence is missing, not because the force mattered little,
   while other entries are short for the opposite reason. Acquiring the Marburg Articles would change every part of

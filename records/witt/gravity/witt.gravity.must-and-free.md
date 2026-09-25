@@ -110,14 +110,14 @@ description: '''A Christian man is a perfectly free lord of all, subject to none
   The texts are well documented, and the 1522 outcome is widely accepted, though it rests on the editor''s
   account.
 
-  It is classified as a tensional gravity, the lasting counter-force inside the reform that pushes against the
-  reform''s own logic. The Word gives freedom and love holds it back; then restraint produces sloth, and the same
-  word "liberty" becomes the charge. It does not organize the world broadly, but this world cannot be reduced to
-  justification by faith, the Word, and promise and sign without it.
+  This is the lasting counter-force inside the reform that pushes against the reform''s own logic. The Word gives
+  freedom and love holds it back; then restraint produces sloth, and the same word "liberty" becomes the charge.
+  It does not organize the world broadly, but this world cannot be reduced to justification by faith, the Word,
+  and promise and sign without it.
 
-  The tensional label matches the evidence and claims nothing the evidence cannot bear. It scores three of four on
-  spread of kinds of writing and voices, with no voice other than the founder''s. For how it was received, there
-  is one congregation, once, on the editor''s word.
+  What we say here matches the evidence and claims nothing the evidence cannot bear. It appears in three of four
+  registers and voices, with no voice other than the founder''s. For how it was received, there is one
+  congregation, once, on the editor''s word.
 
   The internal radical force of 1522 set it off, as Karlstadt and Zwilling pushed reform fast during the
   founder''s absence at the Wartburg. That pace, under the Edict and the imperial force, is the occasion of every

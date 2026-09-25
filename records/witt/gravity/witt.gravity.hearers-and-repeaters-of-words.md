@@ -107,22 +107,23 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   As the founder''s own testimony, this is well documented; as a description of fact, it is contested. Any claim
   about any actual congregation, parish, or household rests only on thin inference.
 
-  It is classified as a tensional gravity: a persistent, unresolved pressure without which this world cannot be
-  understood. In the founder''s own testimony, every primary gravity of this world was taught more than held. This
-  world''s most distinctive institution, the self-checking visitation (known here only by reference), is its
-  answer. This gravity does not organize the world broadly; it generates programs, not content.
+  This is a persistent, unresolved pressure without which this world cannot be understood. In the founder''s own
+  testimony, every one of this world''s central convictions was taught more than held. This world''s most
+  distinctive institution, the self-checking visitation (known here only by reference), is its answer. This
+  pressure does not organize the world broadly; it generates programs, not content.
 
   It is not "lay experience" under another name, because this gravity is what the founder said, while lay
   experience is what no source in this library says.
 
-  The gravity''s organizing strength and its evidence part ways, so this record is barred from upgrading its
-  confidence. Its organizing strength is high, since it generated the entire 1529 body of writing, and the
-  testimony itself is well attested. The state of affairs it describes, however, remains disputed and thin. It is
-  therefore classified as tensional only on the well-documented half, and no later use of this record may cite it
-  as evidence that Saxon congregations were ignorant, cold, or negligent.
+  How strongly this pattern organizes the world and how well it is evidenced part ways here, and this record does
+  not let the one pull the other up. Its organizing strength is high, since it generated the entire 1529 body of
+  writing, and the testimony itself is well attested. The state of affairs it describes, however, remains disputed
+  and thin. What is well documented here is only the founder''s own testimony, and no later use of this record may
+  cite it as evidence that Saxon congregations were ignorant, cold, or negligent.
 
-  It scores two of four on spread of kinds of writing and voices, the only gravity below three. Melanchthon does
-  not voice it, and the Apology''s passage on how teaching was received is positive, so it is not this gravity.
+  It appears in only two of four registers and voices, the thinnest spread of any conviction in this world.
+  Melanchthon does not voice it, and the Apology''s passage on how teaching was received is positive, so it is not
+  this gravity.
   Only writing addressed to congregations, and conversation, carry it. This gravity is itself the founder''s
   report on how his teaching was received, and that is exactly why it cannot stand in for evidence of how it was
   received.

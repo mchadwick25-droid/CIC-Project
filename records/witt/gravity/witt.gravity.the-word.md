@@ -120,9 +120,9 @@ description: 'Scripture''s authority stands against pope, councils and "doctrine
 
   It is well documented; in fact, it is the best-attested term in the library.
 
-  It is a primary gravity, since most of the other candidates state that they depend on it. Nothing in the record
-  falls short of that rank. Across the four kinds of voice and register checked, it scores four out of four. The
-  voice from outside the founders is Karsthans''s fictional peasant, demanding "the divine truth in our language."
+  This stands among this world''s own central convictions, since most of the other candidates state that they
+  depend on it. Nothing in the record falls short of that. It appears in all four registers and voices. The voice
+  from outside the founders is Karsthans''s fictional peasant, demanding "the divine truth in our language."
   Its reception is not attested beyond Wittenberg''s own congregation, which the founder himself says has "the
   pure Word of God" (v2 14744-14745).
 

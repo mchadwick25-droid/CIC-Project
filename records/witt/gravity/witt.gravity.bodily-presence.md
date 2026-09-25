@@ -80,18 +80,18 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   governments; estate, office, and calling; vows, chastity, and marriage; and hearers and repeaters of words.
 
   What the texts say is well documented, but the organizing role given to it against the Reformed is another
-  matter. That role carries none of the five confidence levels. It is an assumption shared across documents,
-  resting on the census and related documents rather than on any secondary source recorded in the library, and it
-  stays that way until the Marburg Articles are acquired.
+  matter. That role is not supported by any evidence in this library itself. It is an assumption shared across
+  documents, resting on our own comparison across the wider project rather than on any secondary source recorded
+  in the library, and it stays that way until the Marburg Articles are acquired.
 
-  It is classed as supporting, within promise and sign: on this library''s evidence, the bodily presence organizes
-  little beyond the Supper itself. This does not doubt that the doctrine mattered enormously to this world''s
-  boundary. It only says that the evidence for that is not yet in the library.
+  Within promise and sign, on this library''s evidence, the bodily presence organizes little beyond the Supper
+  itself. This does not doubt that the doctrine mattered enormously to this world''s boundary. It only says that
+  the evidence for that is not yet in the library.
 
-  So the weight and the evidence pull apart here, in an unusual direction. The weight given to it as the world''s
-  boundary is more than the library shows it organizing, yet the doctrine''s own evidence is well attested. The
-  classification follows the library and brings in no weight from outside it, so "supporting" should not be read
-  as "minor."
+  So the weight given to it and the evidence for it pull apart here, in an unusual direction. The weight given to
+  it as the world''s boundary is more than the library shows it organizing, yet the doctrine''s own evidence is
+  well attested. What we say here follows only what the library shows, not the weight this doctrine carries
+  elsewhere, so placing it this way should not be read as calling it minor.
 
   It appears in three of four registers and voices, but there is no trace of it from anyone but the founder. For
   how it was received, we have the founder''s own claim in 1520 about "the simple faith... among the common
@@ -101,7 +101,8 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   present" (1530). The texts show no shift, but a force the library cannot show made it sharper: the Reformed
   rival, refused at Marburg. The Marburg Colloquy of 1529 appears here in only two traces, the Confession''s "they
   reject those that teach otherwise" and one word in the Bondage of the Will. The same rivalry broke the doctrine
-  outward into a divide, but only the census shows that, not any text in the library.
+  outward into a divide, but only our own comparison across the wider project shows that, not any text in the
+  library.
 
   The internal radical force also pressed on it: the catechism answers the "new spirits" who "mock at Baptism" in
   the same breath as it teaches the Supper. The Marburg Articles themselves are still not in the library, and they

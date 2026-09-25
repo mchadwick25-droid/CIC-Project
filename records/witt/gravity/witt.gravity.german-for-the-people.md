@@ -104,13 +104,12 @@ description: '''the parts sung in Latin are interspersed here and there with Ger
   The texts and the movement''s claimed practice are well documented, while Walter, Karsthans, and the editors''
   print data are widely accepted.
 
-  It is classed as supporting: it is a medium that lets the Word and the household catechism do their work, and it
-  does not generate formation content of its own. Other things depend on it, and it explains much, as strongly as
-  a primary gravity would, but its content is not its own.
+  It is a medium that lets the Word and the household catechism do their work, and it does not generate formation
+  content of its own. Other things depend on it, and it explains much, as strongly as this world''s own central
+  convictions do, but its content is not its own.
 
-  Nothing in the evidence pulls against that ranking. There is a risk that one author''s emphasis is mistaken for
-  the weight of the whole world. Of all the gravities, this is the one where the evidence most comfortably
-  outweighs that risk. It appears in all four registers and voices, and people other than the founder attest it
+  There is a risk that one author''s emphasis is mistaken for the weight of the whole world. Of all the gravities,
+  this is the one where the evidence most comfortably outweighs that risk. It appears in all four registers and voices, and people other than the founder attest it
   more fully than any other gravity. For how it was received, we have two witnesses: Walter, writing late and full
   of praise, through three hands, and a fictional peasant.
 

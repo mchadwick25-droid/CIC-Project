@@ -108,19 +108,19 @@ description: 'The temporal sword is ordained by God and is to be obeyed "save on
   The doctrine and the institutions at court level are well documented, and events that the modern editors report
   are widely accepted. The parish level is absent.
 
-  It is a supporting gravity, not a primary one. It shapes the institutional side of this world everywhere, but
-  its own texts derive it from the primary gravities. Real Christians "need no secular sword" because of justified
-  by faith alone, and the sword holds the power to enforce because, as the teaching on the Word holds, the Word
-  holds only the right to be preached. And its staying power fails exactly where the world''s own political
-  history was decided, in 1525 and 1555.
+  It shapes the institutional side of this world everywhere, but its own texts derive it from convictions this
+  world treats as even more central. Real Christians "need no secular sword" because of justified by faith alone,
+  and the sword holds the power to enforce because, as the teaching on the Word holds, the Word holds only the
+  right to be preached. And its staying power fails exactly where the world''s own political history was decided,
+  in 1525 and 1555.
 
-  Within what the library holds, the supporting rating matches the evidence, and the gap recorded here is one of
-  coverage, not of confidence. This gravity almost certainly organized a great deal across the whole period, but
-  this library cannot show it. The classification therefore reflects the library, not the history.
+  Within what the library holds, this account matches the evidence, and the gap recorded here is one of coverage,
+  not of confidence. This gravity almost certainly organized a great deal across the whole period, but this
+  library cannot show it. This account reflects what the library holds, not the wider history.
 
-  Checked across the four kinds of voice and register, it scores three out of four. There is no voice from outside
-  the founders, since the signatories and edicts are institutions, not voices. On how it was received, we have
-  only the court and the council.
+  It appears in three of four registers and voices. There is no voice from outside the founders, since the
+  signatories and edicts are institutions, not voices. On how it was received, we have only the court and the
+  council.
 
   It grew inside an empire of semi-autonomous princes, the only setting in which "obtain the aid of the
   authorities" means a territorial ruler. Under the territorial princes it changed direction three times: in 1520
