@@ -328,3 +328,211 @@ def test_number_cross_form_check_does_not_manufacture_ground():
         ["ijc.dw.test-number-digit"],
         repository_records=_NUMBER_DIGIT_REPOSITORY,
     ) == ["200"]
+
+
+# A real bug an earlier version of the cross-form check had: comparing a
+# BAG of a number's own component words against ground, rather than its
+# composed value, let an unrelated number ground a completely different
+# one whenever their spelled-out forms happened to share a word - "100"
+# matched a ground stating "three hundred eighteen" (shared "hundred"),
+# "137" matched "seven hundred thirty" (shared "hundred" and "seven"),
+# and "seven" matched a bare digit "27" (spelled "twenty-seven", sharing
+# "seven"). `_numbers_in_text` parses each side to its own exact integer
+# value and compares those, so none of these three should ever ground
+# each other again.
+
+_UNRELATED_SPELLED_NUMBER_REPOSITORY = {
+    "wit.dw.test-three-eighteen": {
+        "id": "wit.dw.test-three-eighteen",
+        "record_type": "doctrinal_witness",
+        "text": "The council seated three hundred eighteen bishops that year.",
+    },
+}
+
+
+def test_digit_100_does_not_ground_against_an_unrelated_three_hundred_eighteen():
+    assert ungrounded_markers(
+        "Our own record counts 100 bishops present.",
+        ["wit.dw.test-three-eighteen"],
+        repository_records=_UNRELATED_SPELLED_NUMBER_REPOSITORY,
+    ) == ["100"]
+
+
+_UNRELATED_SPELLED_NUMBER_REPOSITORY_2 = {
+    "wit.dw.test-seven-thirty": {
+        "id": "wit.dw.test-seven-thirty",
+        "record_type": "doctrinal_witness",
+        "text": "The garrison held seven hundred thirty men at the wall.",
+    },
+}
+
+
+def test_digit_137_does_not_ground_against_an_unrelated_seven_hundred_thirty():
+    assert ungrounded_markers(
+        "Ammianus says 137 people died there.",
+        ["wit.dw.test-seven-thirty"],
+        repository_records=_UNRELATED_SPELLED_NUMBER_REPOSITORY_2,
+    ) == ["137"]
+
+
+_UNRELATED_DIGIT_27_REPOSITORY = {
+    "wit.dw.test-digit-27": {
+        "id": "wit.dw.test-digit-27",
+        "record_type": "doctrinal_witness",
+        "text": "The council met for 27 days before it closed.",
+    },
+}
+
+
+def test_spelled_seven_does_not_ground_against_an_unrelated_digit_27():
+    assert ungrounded_markers(
+        "Our record names seven bishops present at the council.",
+        ["wit.dw.test-digit-27"],
+        repository_records=_UNRELATED_DIGIT_27_REPOSITORY,
+    ) == ["seven"]
+
+
+# The derivational bridge's own narrowing: gated on the world's own
+# figure lexicon so a place-shaped pair (Alexandria/Alexandrian) still
+# grounds, but a person-shaped collision (Julian/Julia, Valerian/Valeria,
+# Hadrian/Hadria - real measured false grounds, since "Julian" is
+# properly derived from "Julius," not "Julia," and the two only collide
+# on the same bare-"n" surface shape) does not, once the "-a" form is
+# confirmed as a known figure rather than a place.
+
+_JULIA_FIGURE_REPOSITORY = {
+    "wit.figure.julia": {
+        "id": "wit.figure.julia",
+        "record_type": "figure",
+        "names": [{"name": "Julia", "tag": "in-world"}],
+    },
+    "wit.dw.test-julia": {
+        "id": "wit.dw.test-julia",
+        "record_type": "doctrinal_witness",
+        "text": "Julia herself never wrote to the council on this question.",
+    },
+}
+
+
+def test_julian_does_not_ground_against_julia_once_julia_is_a_known_figure():
+    assert ungrounded_markers(
+        "The Julian reform of the calendar is not our own record's concern.",
+        ["wit.dw.test-julia"],
+        repository_records=_JULIA_FIGURE_REPOSITORY,
+    ) == ["julian"]
+
+
+_VALERIA_FIGURE_REPOSITORY = {
+    "wit.figure.valeria": {
+        "id": "wit.figure.valeria",
+        "record_type": "figure",
+        "names": [{"name": "Valeria", "tag": "in-world"}],
+    },
+    "wit.dw.test-valeria": {
+        "id": "wit.dw.test-valeria",
+        "record_type": "doctrinal_witness",
+        "text": "Valeria's own household kept the old rites in private.",
+    },
+}
+
+
+def test_valerian_does_not_ground_against_valeria_once_valeria_is_a_known_figure():
+    assert ungrounded_markers(
+        "The Valerian persecution struck our own community hardest.",
+        ["wit.dw.test-valeria"],
+        repository_records=_VALERIA_FIGURE_REPOSITORY,
+    ) == ["valerian"]
+
+
+_HADRIA_FIGURE_REPOSITORY = {
+    "wit.figure.hadria": {
+        "id": "wit.figure.hadria",
+        "record_type": "figure",
+        "names": [{"name": "Hadria", "tag": "in-world"}],
+    },
+    "wit.dw.test-hadria": {
+        "id": "wit.dw.test-hadria",
+        "record_type": "doctrinal_witness",
+        "text": "Hadria taught the household in secret for a generation.",
+    },
+}
+
+
+def test_hadrian_does_not_ground_against_hadria_once_hadria_is_a_known_figure():
+    assert ungrounded_markers(
+        "The Hadrianic peace changed little for our own community.",
+        ["wit.dw.test-hadria"],
+        repository_records=_HADRIA_FIGURE_REPOSITORY,
+    ) == ["hadrianic"]
+
+
+# Regression coverage: these pairs never matched under the narrow "-a"/
+# "-an" bridge to begin with (none of them fit its exact surface shape),
+# and the figure-lexicon gate above must not change that.
+
+_ROME_ROMANIA_REPOSITORY = {
+    "wit.dw.test-rome": {
+        "id": "wit.dw.test-rome",
+        "record_type": "doctrinal_witness",
+        "text": "Our own bishop wrote to Rome about the dispute.",
+    },
+}
+
+
+def test_rome_does_not_ground_romania():
+    assert ungrounded_markers(
+        "Our own record says nothing at all about Romania.",
+        ["wit.dw.test-rome"],
+        repository_records=_ROME_ROMANIA_REPOSITORY,
+    ) == ["romania"]
+
+
+_ARIUS_REPOSITORY = {
+    "wit.dw.test-arius": {
+        "id": "wit.dw.test-arius",
+        "record_type": "doctrinal_witness",
+        "text": "Arius himself never recanted before the council closed.",
+    },
+}
+
+
+def test_arius_does_not_ground_arian():
+    assert ungrounded_markers(
+        "The Arian controversy shaped a generation of bishops.",
+        ["wit.dw.test-arius"],
+        repository_records=_ARIUS_REPOSITORY,
+    ) == ["arian"]
+
+
+_GAUL_REPOSITORY = {
+    "wit.dw.test-gaul": {
+        "id": "wit.dw.test-gaul",
+        "record_type": "doctrinal_witness",
+        "text": "Bishops from Gaul attended the same council.",
+    },
+}
+
+
+def test_gaul_does_not_ground_gaulish():
+    assert ungrounded_markers(
+        "Our own record never names any Gaulish custom at all.",
+        ["wit.dw.test-gaul"],
+        repository_records=_GAUL_REPOSITORY,
+    ) == ["gaulish"]
+
+
+_NICAEA_REPOSITORY = {
+    "wit.dw.test-nicaea": {
+        "id": "wit.dw.test-nicaea",
+        "record_type": "doctrinal_witness",
+        "text": "Nicaea settled the question for our own community.",
+    },
+}
+
+
+def test_nicaea_does_not_ground_nicene():
+    assert ungrounded_markers(
+        "The Nicene formula is not quoted anywhere in our own record.",
+        ["wit.dw.test-nicaea"],
+        repository_records=_NICAEA_REPOSITORY,
+    ) == ["nicene"]

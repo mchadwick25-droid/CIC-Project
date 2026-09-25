@@ -1222,9 +1222,10 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
 
 
 # sentence_enforce's own required test list - a second, independent
-# flag-gated enforcement from r27_enforce above. sentence_enforce=False
-# (every existing test, including all of r27_enforce's own above) is
-# already proven byte-identical by the full suite passing unchanged;
+# flag-gated enforcement from the uncited-claims enforcement above.
+# sentence_enforce=False (every existing test, including all of that
+# enforcement's own above) is already proven byte-identical by the full
+# suite passing unchanged;
 # these are the flag-ON cases. "Athanasius of Alexandria opposed the
 # council." is the fixture's own unsupported sentence throughout: _world()'s
 # only record never names either word, so engine.m4.sentence_fact_check.
@@ -1309,14 +1310,13 @@ def test_sentence_enforce_keeps_every_other_sentence_when_the_flagged_one_sits_i
 
 
 def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilitator():
-    # The edge this mechanism deliberately does NOT special-case: every
-    # sentence in the turn was the flagged one, so dropping it leaves an
-    # empty answer as an honest side effect of dropping - never via a
-    # deliberate "blank the turn"/Facilitator-substitution fallback the
-    # way r27_enforcement_exhausted's own mechanism works. Proven by
-    # checking r27_enforcement_exhausted stays False here (that field is
-    # this codebase's own signal for the Facilitator-substitution
-    # fallback; sentence_enforce never sets it).
+    # This mechanism never blanks the turn. Every sentence in this turn
+    # is the flagged one, so dropping it would leave nothing behind -
+    # instead of dropping (and instead of the whole-turn-blank/
+    # Facilitator-substitution fallback r27_enforcement_exhausted's own
+    # mechanism uses), the regenerated answer is kept exactly as it
+    # stands, flagged sentence and all, and that flag is recorded rather
+    # than silently lost.
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE], [_UNSUPPORTED_SENTENCE]],
@@ -1326,17 +1326,19 @@ def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilit
         participant_message="who was Jesus", directive=None, session_id="test-session",
         sentence_enforce=True,
     )
-    assert voice_event["text"] == ""
+    assert voice_event["text"] == _UNSUPPORTED_SENTENCE
     assert voice_event["r27_enforcement_exhausted"] is False
-    assert voice_event["sentence_enforcement"]["sentences_dropped"] == [_UNSUPPORTED_SENTENCE]
+    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["sentence_enforcement"]["sentences_dropped"] == []
+    assert voice_event["sentence_enforcement"]["still_flagged"] == [_UNSUPPORTED_SENTENCE]
 
 
 def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call():
-    # r27_enforce's own regeneration settles the turn first (wholly_
-    # uncited_paragraph); sentence_enforce then runs its own single
-    # regeneration on top of whatever that left behind - two independent
-    # mechanisms, at most one regeneration each, never a third or fourth
-    # call from either firing twice.
+    # The uncited-claims enforcement's own regeneration settles the turn
+    # first (wholly_uncited_paragraph); sentence_enforce then runs its
+    # own single regeneration on top of whatever that left behind - two
+    # independent mechanisms, at most one regeneration each, never a
+    # third or fourth call from either firing twice.
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[
@@ -1354,6 +1356,36 @@ def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call
     assert voice_event["r27_enforcement_exhausted"] is False
     assert voice_event["text"] == "We did not claim to have seen him ourselves."
     assert voice_event["sentence_enforcement"]["regenerated"] is True
+
+
+def test_wholly_uncited_paragraph_never_ships_with_r27_enforcement_exhausted_false():
+    # The invariant both enforcements must uphold together: sentence_
+    # enforce's own retry is a fresh generation the uncited-claims
+    # enforcement's own pass never saw, so it can just as easily
+    # reintroduce a wholly_uncited_paragraph as fix the named claim it
+    # was actually asked to fix. Here it does exactly that - the
+    # uncited-claims enforcement's own one-regeneration budget was
+    # already spent fixing the first citation offense, so a hard offense
+    # reappearing on sentence_enforce's own retry is exhaustion, not a
+    # second free regeneration, and this turn must not ship it.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],  # r27: wholly uncited
+            [_UNSUPPORTED_SENTENCE],  # r27's own retry: clean of citation, but names an unsupported claim
+            ["Even a broken priest could not block his grace."],  # sentence_enforce's own retry: reintroduces the citation offense
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 3  # never a fourth call
+    assert voice_event["r27_enforcement_exhausted"] is True
+    assert voice_event["text"] == ""
+    assert voice_event["fact_check_flags"] == []
+    assert voice_event["paragraph_offenses"] == []
 
 
 # _other_tradition_directive's own honest-limit sentence must never fire

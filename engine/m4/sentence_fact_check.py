@@ -55,14 +55,28 @@ KNOWN LIMITS:
   - A different derivational form of a grounded name is recognized as
     the same word only for the one narrow pattern `missing_markers`'
     own `_derivational_variants` covers (a place name ending in "a"
-    against its bare-"n" adjective, Alexandria/Alexandrian) - a wider
-    relationship (Smyrna/Smyrnaeans) is still not recognized.
+    against its bare-"n" adjective, Alexandria/Alexandrian), and only
+    when neither form is a known person in the world's own figure
+    records - a wider relationship (Smyrna/Smyrnaeans) is still not
+    recognized, and neither is a place/person collision this narrower
+    gate cannot yet tell apart on its own (both forms absent from the
+    figure lexicon, yet still two unrelated names, not one).
   - The same fact stated as a digit on one side and its own spelled-out
-    cardinal on the other is recognized as the same value
-    (`missing_markers`' own `_spell_cardinal` cross-form check, up to
-    six digits) - a genuinely different surface convention outside that
-    (an ordinal where the ground has the cardinal, "eighteenth" against
-    "eighteen") is not.
+    cardinal on the other is recognized as the same exact value
+    (`missing_markers`' own `_numbers_in_text` cross-form check, up to
+    six digits, compared by parsed value rather than by shared words) -
+    a genuinely different surface convention outside that (an ordinal
+    where the ground has the cardinal, "eighteenth" against "eighteen")
+    is not.
+  - A name mentioned RHETORICALLY - a contrast, a hypothetical, a
+    negation the world's own record never states in those terms ("Not
+    from Alexandria, not from Rome, but from the text itself") - is
+    flagged exactly the same way an asserted claim naming that place
+    would be. This check does not tell the two apart: it sees the name,
+    not the grammatical role it plays in the sentence around it. A
+    rhetorical mention naming a place absent from this world's own
+    ground is a false positive under enforcement, not evidence of
+    fabrication - a real limit this module does not resolve.
   - The stripped span runs from the literal word "if" to the next
     literal "would"/"would have," not the true grammatical clause
     boundary - a claim sitting between an unrelated "if" and an
@@ -86,6 +100,7 @@ already are, adding `voice_event["fact_check_flags"]`. No enforcement
 exists yet."""
 import re
 
+from engine.m4.grounding_net import build_figure_lexicon
 from engine.m4.named_claim_grounding import missing_markers, repository_ground
 from engine.m4.uncited_claims import _is_first_person_no_claim, _is_honest_limit, _is_question
 
@@ -106,14 +121,17 @@ def find_unsupported_named_claims(sentences: list[dict], *, repository_records: 
     Each flag: `{"sentence", "tags", "class": "unsupported_named_claim",
     "missing"}` - "missing" names the specific word(s)/number(s) not
     found anywhere in the world's own ground."""
-    ground_words, ground_digits = repository_ground(repository_records)
+    ground_words, ground_numbers = repository_ground(repository_records)
+    figure_names = build_figure_lexicon(repository_records)
     flags = []
     for sent in sentences:
         text = sent["sentence"]
         if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
             continue
         checkable = _strip_hypothetical_clauses(text)
-        missing = missing_markers(checkable, ground_words, ground_digits, include_sentence_initial_proper_nouns=True)
+        missing = missing_markers(
+            checkable, ground_words, ground_numbers, figure_names, include_sentence_initial_proper_nouns=True
+        )
         if missing:
             flags.append({
                 "sentence": text, "tags": sent.get("tags") or [],

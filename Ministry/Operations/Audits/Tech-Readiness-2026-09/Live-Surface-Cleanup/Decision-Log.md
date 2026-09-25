@@ -1176,7 +1176,11 @@ a behaviour-adjacent change (a public parameter/env-var rename) touching `engine
 names - not a comment or docstring edit, and not zero-behaviour-change. Left as-is; a rename, if
 wanted, needs its own PR with its own review, not folded into a report-only measurement PR.
 
-## Entry 10 — `engine/m4/turn.py` count update (PR building `sentence_enforce`)
+## Entry 12 — `engine/m4/turn.py` count update (PR building `sentence_enforce`)
+
+Numbered 12, not 10: this file already carries an earlier "Entry 10" and "Entry 11" (bold-text,
+pre-`## Entry 1` heading convention, in the file's own opening Step 2 PR C round) - the next free
+number for a `##`-heading entry is 12, past both that older pair and `## Entry 9`.
 
 The same real feature work this file's own Entry 9 covers continued: a second, independent
 flag-gated enforcement (`sentence_enforce`, distinct from `r27_enforce`) was added to
@@ -1184,12 +1188,27 @@ flag-gated enforcement (`sentence_enforce`, distinct from `r27_enforce`) was add
 `r27_enforce` mechanism, by name, several times - the identical identifier family Entry 9 already
 found out of scope to clear.
 
-**`engine/m4/turn.py`: 35 REWRITE findings, up from 25, all still the same `ruling-identifier`
-pattern, NOT cleared, for the identical reason Entry 9 already gave.** Every one of the 10 new hits
-read individually: all are either a comparison to `r27_enforce`'s own behaviour in the new
-function's own docstring, or a real assertion against `r27_enforcement_exhausted` in the enforcement
-block's own comments - no new provenance narration, same as before. `engine/m4/tests/test_turn.py`'s
-own count moved from 15 to 24 for the same reason (the new tests assert against the real, existing
-`r27_enforce`/`r27_enforcement_exhausted` fields to prove the two mechanisms compose correctly).
-Left as-is, same scope decision as Entry 9: a rename is still its own, separate, behaviour-adjacent
-PR.
+**`engine/m4/turn.py`: 34 REWRITE findings, up from 25 (9 new), all still the same `ruling-identifier`
+pattern, NOT cleared, for the identical reason Entry 9 already gave.** Every genuinely new comparison
+to `r27_enforce`'s own behaviour was reworded to say "the uncited-claims enforcement" instead of the
+bare identifier, cutting the new-hit count from an earlier, higher draft; what remains after that
+pass is the parameter declaration itself, the real code conditions that read it
+(`if r27_enforce and hard_offenses:`, `if r27_enforce:`), and the few spots where naming the exact
+flag is the only way to say which of the two mechanisms a sentence means - not new provenance
+narration. `engine/m4/tests/test_turn.py`'s own count moved from 15 to 22 (7 new) for the same
+reason: the new tests assert against the real, existing `r27_enforce`/`r27_enforcement_exhausted`
+fields (kwargs and dict keys, not prose) to prove the two mechanisms compose correctly. Two comments
+also tripped unrelated patterns while this entry's own text was still being drafted - "Mark's
+ruling" (the `marks-word` pattern) and "unresolved" (the `route-cue` pattern, read as an open
+question rather than a decided, still-true design fact) - both reworded before this PR's own push,
+so neither rides into the count above. Left as-is, same scope decision as Entry 9: a rename is
+still its own, separate, behaviour-adjacent PR.
+
+**The new report artifact, `engine/m4/reports/sentence-enforce-live-measure-2026-09-25.json`, adds
+23 findings - all `PROTECTED`, not `REWRITE`, so none need moving or fixing.** `tools/check_live_
+commentary.py`'s own `is_protected` already carves out `engine/*/reports/` via `_is_engine_report`
+(the same exemption Live-Surface-Cleanup's own Entry 11, on `R39`, already names: "`engine/*/reports/`
+is explicitly out of scope per the launch brief"). The file already lives inside that protected zone
+by construction - no move to `Ministry/` or elsewhere is needed, and none was made. `PROTECTED` hits
+are still reported (the tool's own design: visible, not silently absorbed), which is exactly what
+this file's own 23 rows show.

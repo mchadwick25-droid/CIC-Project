@@ -5815,11 +5815,20 @@ corpus scan Entry 78 used, against the fixed code:**
 `check_live_commentary --surface engine` shows 0 new findings in
 `grounding_net.py`, `named_claim_grounding.py`, and `sentence_fact_check.py`
 (the fix files themselves). `turn.py`'s own pre-existing `r27_enforce`
-identifier findings moved from 25 to 35 - every new one read individually
-and confirmed identifier-only, not new commentary; logged as a count
-update in `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-
-Cleanup/Decision-Log.md` Entry 10, same out-of-scope-to-rename reasoning
-as that program's own Entry 9.
+identifier findings moved from 25 to 34 (test file 15 to 22), after
+rewording every new prose comparison to say "the uncited-claims
+enforcement" rather than the bare identifier - what remains is the real
+parameter declaration, the actual code conditions that read it, and the
+few spots where naming the exact flag is the only way to say which
+mechanism a sentence means. Logged as a count update in
+`Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-
+Cleanup/Decision-Log.md` Entry 12 (not 10 - that file already carries an
+earlier, pre-`## Entry 1` "Entry 10"), same out-of-scope-to-rename
+reasoning as that program's own Entry 9. The new report artifact,
+`engine/m4/reports/sentence-enforce-live-measure-2026-09-25.json`, adds
+23 more findings, all `PROTECTED` (the checker's own existing
+`engine/*/reports/` carve-out) - no move needed, explained in that same
+Entry 12.
 
 **A correction to Entry 78's own record, found while re-checking the live
 run's saved sentences against the fixed code, reported honestly rather
@@ -5899,19 +5908,30 @@ default) - the new mechanism's own first live test.**
 stop).** Full report: `engine/m4/reports/sentence-enforce-live-measure-
 2026-09-25.json`.
 
-**21 of 22 probes generated clean on the first attempt - no flag, no
-regeneration.** One did: `rzg` B-other-tradition's own first attempt
-named "Not from Alexandria, not from Rome, not from any unbroken
-succession of teachers - from the text, read and tested aloud." "rome"
-is real ground in `rzg`'s own compiled repository; "alexandria" is not
-(confirmed by direct check against `repository_ground`, the same method
-this entry's own section 1 audit used) - a genuine, new catch, a
-different specific instance of the same recurring Alexandria-in-a-world-
-that-never-vendored-it shape Entry 77/78 already measured elsewhere, not
-a repeat of either prior sighting. The one allowed correction fired,
-asking the voice to support the claim or drop it; the regenerated answer
-named the identical sentence again, so it alone was dropped. **The
-correction alone did not fix it; the drop did, and did so cleanly:**
+**0 true catches, 1 false positive, across 22 probes. The recurring Manz/
+Limmat fabrication (Entry 77's own R27 miss, caught independently three
+times since - #558's run, Entry 77's own run, Entry 78's live run) did
+not appear in this run's own 22 generations at all - there was nothing
+of that shape for this mechanism to prove itself against here.** Draw no
+conclusion about `sentence_enforce`'s own effectiveness from this run;
+see what it actually shows below.
+
+21 of 22 probes generated clean on the first attempt - no flag, no
+regeneration. One did, and re-reading it against the participant's own
+question shows it was wrong to flag: `rzg` B-other-tradition was asked
+"What was your relationship with Alexandrian Christianity?" and answered,
+in part, "Not from Alexandria, not from Rome, not from any unbroken
+succession of teachers - from the text, read and tested aloud." That
+sentence is a rhetorical contrast, not an assertion about Alexandria or
+Rome - it names both places only to deny that either is where `rzg`'s
+own authority comes from, the direct, on-topic answer to the question
+actually asked. "rome" happens to be real ground in `rzg`'s own compiled
+repository and "alexandria" is not, so the sentence flagged on
+"alexandria" the same way a genuine fabrication would. The one allowed
+correction fired; the regenerated answer named the identical sentence
+again (the voice had nothing to change - the sentence was never wrong),
+so it alone was dropped. **This is a false positive with real
+participant-facing cost, not a catch:**
 
     Our record doesn't mention that Christian tradition.
 
@@ -5922,42 +5942,43 @@ correction alone did not fix it; the drop did, and did so cleanly:**
     and ours. We hold no living chain, and we do not need one. What we
     have is the text, and we hold that it is enough on its own terms.
 
-No dangling fragment, no orphaned clause, no trace of the dropped
-sentence - the paragraph it sat in reads as a complete thought without
-it. `voice_event["r27_enforcement_exhausted"]` stayed `False` throughout
-this run (`r27_enforce` was off, its own default) - confirming
-`sentence_enforce`'s own drop never rode the whole-turn-blank/Facilitator
-path at all, the distinct failure shape this mechanism exists to avoid.
-Every one of the other 21 probes' own `fact_check_flags` came back empty
-on the final text, and no probe's own final text came back suspiciously
-short or empty by accident (checked directly, all 22 substantial and
-non-empty).
+The dropped sentence was the part of the answer that actually named
+Alexandria and addressed the participant's own question directly; what
+remains still answers the question in substance, but the sentence that
+named the tradition asked about by name is gone. Structurally, the drop
+is clean (no dangling fragment, no orphaned clause) - the cost here is
+not a broken sentence, it is losing the most directly responsive part of
+the answer to a false flag. `voice_event["r27_enforcement_exhausted"]`
+stayed `False` throughout this run (`r27_enforce` was off, its own
+default), and every one of the other 21 probes' own `fact_check_flags`
+came back empty - but that is 21 probes that never exercised the
+correction/drop path at all, not 21 probes that proved it safe.
 
-A small-n result by construction - one real trigger in 22 probes is not
-enough to measure a false-positive/true-positive RATE for the correction
-step itself - but it is a complete, hand-verified trace of the one
-end-to-end path this measurement exists to prove: a real, unsupported
-named claim, flagged, corrected once, still wrong, dropped on its own,
-turn shape intact, no participant-facing collateral damage to the rest
-of the answer.
+**The open problem this run names, honestly, not fixed here:** a name
+mentioned rhetorically - a contrast, a denial, a hypothetical the
+world's own record never states in those terms - is flagged exactly the
+same way an asserted claim naming that place would be.
+`find_unsupported_named_claims` sees the name, not the grammatical role
+it plays in the sentence around it, and neither `missing_markers` nor
+this entry's own section 1 fixes touch that gap (`sentence_fact_check`'s
+own module docstring, KNOWN LIMITS, now names this class directly). One
+real trigger in 22 probes is not enough to measure how often this
+happens at scale; it is enough to show it happens, and that when it
+does, the cost lands on the participant, not just on review effort.
 
-**Recommendation for the managing thread.** The mechanism does what it
-was built to do, on the one live case this run actually produced: catches
-a real unsupported claim the correction alone could not fix, drops
-exactly that sentence, and leaves a coherent, unbroken answer behind -
-never the whole-turn blank Entry 77 measured R27 getting wrong on 5 of
-22 probes. The two ground-matching fixes (section 1) hold up under
-re-measurement (false positives 1/56 -> 0/56 on the labeled set) and
-under honest re-audit of Entry 78's own live findings (2 of 4 actually
-fixed; the other 2 were never false positives to begin with, corrected
-here rather than silently carried forward). What this run does not
-answer, because 21 of 22 probes never tripped the flag at all: how
-`sentence_enforce` behaves at a real flag RATE, across more probes or a
-longer session, or in combination with `r27_enforce` on live traffic
-(the one combined case built into this PR's own tests is synthetic, not
-measured live). Whether to give `sentence_enforce` `r27_enforce`'s own
-reach - a `CIC_SENTENCE_ENFORCE` env var and the `config.py`/`app.py`/
-`wiring.py`/`table_wiring.py` plumbing to a real deploy - is the
-managing thread's own next decision, not assumed here; this entry's own
-recommendation is that the evidence so far supports moving toward that
-decision, not that it is already made.
+**Recommendation for the managing thread.** The two ground-matching
+fixes (section 1) hold up under re-measurement (false positives 1/56 ->
+0/56 on the labeled set) and under honest re-audit of Entry 78's own live
+findings (2 of 4 actually fixed; the other 2 were never false positives
+to begin with, corrected here rather than silently carried forward). The
+enforcement mechanism itself is untested by this run in the way that
+matters most: its one live trigger was a false positive that cost the
+participant the direct answer to their own question, not a caught
+fabrication - 0 true catches, 1 false positive, is not evidence the
+mechanism works, and this entry does not claim it is. Before
+`sentence_enforce` goes anywhere near `r27_enforce`'s own reach (a
+`CIC_SENTENCE_ENFORCE` env var, the `config.py`/`app.py`/`wiring.py`/
+`table_wiring.py` plumbing to a real deploy), the rhetorical-mention
+false-positive class named above needs either a fix or a measured
+sense of how often it fires - neither exists yet. That is the managing
+thread's own next decision to make, not assumed here.

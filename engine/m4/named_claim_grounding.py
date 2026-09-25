@@ -47,13 +47,23 @@ GROUND SCOPE - what a marker is allowed to match against:
     a second, separately-tuned truncation) is why the OG-9 fixture in
     this module's own tests still gets caught.
 
-Numbers are grounded against literal digit/spelled-cardinal tokens
-pulled straight from the same two texts (content_words() strips digits
-entirely, since engine.prose._WORD only matches letters - a locus like
-"Philadelphians 4" would otherwise never ground a "4" a sentence names),
-kept as a separate check from proper nouns because "does this exact
-number appear" and "does this exact name appear" are different lookups
-over the same ground, not the same lookup twice.
+Numbers are grounded against composed VALUES pulled straight from the
+same two texts (content_words() strips digits entirely, since
+engine.prose._WORD only matches letters - a locus like "Philadelphians
+4" would otherwise never ground a "4" a sentence names), kept as a
+separate check from proper nouns because "does this exact number
+appear" and "does this exact name appear" are different lookups over
+the same ground, not the same lookup twice. `_numbers_in_text` parses
+each contiguous run of digit or spelled-cardinal words into its own
+integer value ("137" or "one hundred thirty-seven" both parse to 137)
+and every comparison is by that exact value - never by whether the
+individual WORDS composing a number happen to overlap with the ground,
+which is how an earlier version of this check let "seven" ground itself
+off an unrelated "twenty-seven" somewhere else in the same ground. The
+same fact stated in a different surface form is one grounded value on
+either side of the check; a genuinely different number is not, no
+matter how many of its own component words happen to already be common
+ground vocabulary.
 
 A trailing possessive ('s, or a bare trailing ' on a plural like
 "disciples'") is stripped from both the marker and the ground before
@@ -66,14 +76,11 @@ that stays report-only noise, not a false negative this module is scoped
 to fix. `_derivational_variants` closes the one specific, narrow pattern
 this project's own false-positive audits actually found live (a place
 name ending in "a" forming its adjective by adding a bare "n" -
-Alexandria/Alexandrian, Edessa/Edessan); every wider derivational
-relationship stays the accepted, unfixed noise above.
-
-A digit and its own spelled-out cardinal are the same value, not two
-different tokens: `missing_markers` grounds "137" against a ground that
-only ever spells "one hundred thirty-seven," and the reverse, via
-`_spell_cardinal` - the same fact stated in a different surface form is
-one grounded value on either side of the check.
+Alexandria/Alexandrian, Edessa/Edessan), gated on the world's own figure
+lexicon so it cannot cross-ground two different PEOPLE who happen to
+share the same surface shape (Julian/Julia, Valerian/Valeria,
+Hadrian/Hadria - see `_derivational_variants`' own docstring); every
+wider derivational relationship stays the accepted, unfixed noise above.
 
 Report-only: this module never withholds or edits a turn's text.
 find_named_claim_flags is meant to be called the same unconditional way
@@ -88,7 +95,8 @@ auditable.
 import ast
 import re
 
-from engine.prose import SPELLED_NUMBERS, all_text, claim_markers, content_words, short_head
+from engine.m4.grounding_net import build_figure_lexicon
+from engine.prose import all_text, claim_markers, content_words, short_head
 
 _WORD = re.compile(r"[a-zA-Z']+")
 _DIGIT = re.compile(r"\b\d+\b")
@@ -101,6 +109,21 @@ _DIGIT = re.compile(r"\b\d+\b")
 # reverse). Any other derivational relationship (Smyrna/Smyrnaeans,
 # Nicaea/Nicene) is a different word-formation pattern this narrow rule
 # does not attempt, and stays the report-only noise it already was.
+#
+# The surface pattern alone is not enough to tell a place from a person:
+# Julian/Julia, Valerian/Valeria, and Hadrian/Hadria all fit the same
+# bare-"n" shape without being the same word at all (a real measured
+# false-grounding pair - "Julian" is properly derived from "Julius", not
+# "Julia"; the two only collide because both end up spelled with a
+# trailing "n"). `missing_markers` gates this bridge on the world's own
+# figure lexicon (`engine.m4.grounding_net.build_figure_lexicon`) rather
+# than a hand-picked list of place names, which would rot the moment a
+# new world introduces a name this list never anticipated: if either
+# form is already a KNOWN PERSON in this world's own figure records, the
+# bridge does not apply - a real place is never also listed as a figure,
+# so this costs nothing on the pairs it is meant to catch, and blocks
+# exactly the pairs where the "-a" form turns out to be someone's own
+# name instead of a place's.
 def _derivational_variants(word: str) -> set[str]:
     variants: set[str] = set()
     if word.endswith("an") and len(word) > 3:
@@ -116,65 +139,66 @@ _ONES_WORDS = [
     "seventeen", "eighteen", "nineteen",
 ]
 _TENS_WORDS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+_WORD_VALUES: dict[str, int] = {w: i for i, w in enumerate(_ONES_WORDS)}
+_WORD_VALUES.update({w: i * 10 for i, w in enumerate(_TENS_WORDS) if w})
+_NUMBER_WORDS = set(_WORD_VALUES) | {"hundred", "thousand"}
 
 
-def _spell_cardinal(n: int) -> list[str]:
-    """The standard English long-form spelling of a non-negative integer,
-    split into the same individual word tokens engine.prose._WORD would
-    find in running prose (no "and", no hyphens, since _WORD does not
-    match a hyphen either) - 137 -> ["one", "hundred", "thirty", "seven"].
-    Outside the supported range this returns [] rather than guessing, so
-    a caller's cross-form check simply finds nothing to compare, never a
-    false ground."""
-    if not (0 <= n < 1_000_000):
-        return []
-    if n == 0:
-        return ["zero"]
+def _numbers_in_text(text: str) -> list[tuple[str, int]]:
+    """Every checkable number in `text`, as (surface, value) pairs: a
+    literal digit run ("137" -> ("137", 137)) or a maximal contiguous
+    run of spelled-cardinal words ("seven hundred thirty" -> ("seven
+    hundred thirty", 730)). The single source both directions of
+    missing_markers' own number check read from, so a composed value is
+    compared against ground as the one number it actually is, never
+    decomposed into individual words checked against an unordered bag -
+    the root cause of a real measured bug in an earlier version of this
+    check: "seven" counted as grounded because some UNRELATED number in
+    the ground happened to be spelled with "seven" as one of its own
+    components ("twenty-seven"). A bag of words cannot tell "seven" and
+    "twenty-seven" apart; a parsed value can, and does.
 
-    def below_100(x: int) -> list[str]:
-        if x < 20:
-            return [_ONES_WORDS[x]]
-        tens, ones = divmod(x, 10)
-        words = [_TENS_WORDS[tens]]
-        if ones:
-            words.append(_ONES_WORDS[ones])
-        return words
-
-    def below_1000(x: int) -> list[str]:
-        hundreds, rest = divmod(x, 100)
-        words = []
-        if hundreds:
-            words += [_ONES_WORDS[hundreds], "hundred"]
-        if rest:
-            words += below_100(rest)
-        return words
-
-    thousands, rest = divmod(n, 1000)
-    words: list[str] = []
-    if thousands:
-        words += below_1000(thousands) + ["thousand"]
-    if rest:
-        words += below_1000(rest)
-    return words
-
-
-def _spelled_words_for_digit(digit: str) -> set[str]:
-    """A digit's own spelled-out components, minus "one" - the same word
-    content_words()'s own stopword list already drops from every ground
-    (and SPELLED_NUMBERS' own comment already excludes from detection,
-    as the single largest false-positive source measured there): a
-    ground stating "one hundred thirty-seven" never keeps "one" as a
-    content word, so requiring it here would fail the cross-form check
-    on every real match rather than only the ones that deserve it."""
-    try:
-        n = int(digit)
-    except ValueError:
-        return set()
-    return {w for w in _spell_cardinal(n) if w != "one"}
+    A phrase never STARTS on a bare "one" (the same reading SPELLED_
+    NUMBERS' own comment already names as the single largest false-
+    positive source measured for detection: "one" read as a pronoun or
+    article, not a quantity) - but "one" already inside an in-progress
+    phrase ("twenty-one", or the "one" that opens "one hundred"
+    immediately after another number word already started the phrase at
+    "hundred") is still counted; a bare multiplier of 1 leaves the total
+    unchanged either way, so starting at "hundred" instead of "one"
+    computes the identical value."""
+    results: list[tuple[str, int]] = [(m.group(), int(m.group())) for m in _DIGIT.finditer(text)]
+    words = _WORD.findall(text)
+    lowered = [w.lower() for w in words]
+    i, n = 0, len(lowered)
+    while i < n:
+        if lowered[i] not in _NUMBER_WORDS or lowered[i] == "one":
+            i += 1
+            continue
+        j = i
+        total = 0
+        current = 0
+        surface: list[str] = []
+        while j < n and lowered[j] in _NUMBER_WORDS:
+            w = lowered[j]
+            surface.append(words[j])
+            if w == "hundred":
+                current = (current or 1) * 100
+            elif w == "thousand":
+                total += (current or 1) * 1000
+                current = 0
+            else:
+                current += _WORD_VALUES[w]
+            j += 1
+        value = total + current
+        if value:
+            results.append((" ".join(surface).lower(), value))
+        i = j
+    return results
 
 
-def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
-    """(word ground, digit ground) contributed by a record's own
+def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[int]]:
+    """(word ground, number-value ground) contributed by a record's own
     sources[], resolved through source_id to each source record's `work`
     field - see this module's own docstring, GROUND SCOPE, for why
     short_head() runs first. A source_id that doesn't resolve, or a
@@ -184,7 +208,7 @@ def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[s
     dangling source_id inside a record that DID resolve is not this
     module's job to report a second time)."""
     words: set[str] = set()
-    digits: set[str] = set()
+    numbers: set[int] = set()
     for src in record.get("sources") or []:
         source_id = src.get("source_id") if isinstance(src, dict) else None
         source_rec = repository_records.get(source_id) if source_id else None
@@ -193,8 +217,8 @@ def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[s
             continue
         head = short_head(work)
         words |= content_words(head)
-        digits |= set(_DIGIT.findall(head))
-    return words, digits
+        numbers |= {value for _, value in _numbers_in_text(head)}
+    return words, numbers
 
 
 def _strip_possessive(word: str) -> str:
@@ -230,59 +254,51 @@ def _proper_noun_words(marker: str) -> set[str]:
     return {_strip_possessive(word.lower()) for name in names for word in name.split()}
 
 
-def _number_tokens(text: str) -> tuple[set[str], set[str]]:
-    """(digit tokens, spelled-cardinal words) literally present in
-    `text` - claim_markers()'s own "number" marker only signals THAT a
-    checkable number is present (engine.prose._has_number's own
-    discourse-count exemption already decided that); this pulls the
-    actual value(s) so they can be checked against ground, the same way
-    _proper_noun_words pulls actual names rather than re-deciding
-    whether any exist."""
-    digits = set(_DIGIT.findall(text))
-    spelled = {w.lower() for w in _WORD.findall(text)} & SPELLED_NUMBERS
-    return digits, spelled
-
-
-def record_ground(rec: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
-    """(word ground, digit ground) one record contributes on its own: its
-    own `all_text`, plus its `sources[]`' resolved `work` fields (see
-    `_source_ground`). Factored out of `ungrounded_markers` so the same
-    per-record computation can be summed either over just a sentence's
-    own tags (below) or over an entire repository
+def record_ground(rec: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[int]]:
+    """(word ground, number-value ground) one record contributes on its
+    own: its own `all_text`, plus its `sources[]`' resolved `work` fields
+    (see `_source_ground`). Factored out of `ungrounded_markers` so the
+    same per-record computation can be summed either over just a
+    sentence's own tags (below) or over an entire repository
     (`repository_ground`, `engine.m4.sentence_fact_check`'s own ground) -
     one implementation of "what does this record ground," not two."""
     rec_text = all_text(rec)
     words = content_words(rec_text)
-    digits = set(_DIGIT.findall(rec_text))
-    src_words, src_digits = _source_ground(rec, repository_records)
-    return words | src_words, digits | src_digits
+    numbers = {value for _, value in _numbers_in_text(rec_text)}
+    src_words, src_numbers = _source_ground(rec, repository_records)
+    return words | src_words, numbers | src_numbers
 
 
-def repository_ground(repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
-    """(word ground, digit ground) the world's ENTIRE compiled repository
-    supplies - every record's own `record_ground`, unioned, regardless of
-    which record (if any) a given sentence happens to tag. This is the
-    wider scope `engine.m4.sentence_fact_check` needs (a claim can be
-    genuinely supported by the world's own records without the speaking
-    sentence tagging the right one, or tagging anything at all) - not a
-    substitute for `ungrounded_markers`'s own narrower, tag-scoped ground,
-    which stays exactly as calibrated (OG-9) for the already-tagged,
-    already-passing sentences it exists to double-check."""
+def repository_ground(repository_records: dict[str, dict]) -> tuple[set[str], set[int]]:
+    """(word ground, number-value ground) the world's ENTIRE compiled
+    repository supplies - every record's own `record_ground`, unioned,
+    regardless of which record (if any) a given sentence happens to tag.
+    This is the wider scope `engine.m4.sentence_fact_check` needs (a
+    claim can be genuinely supported by the world's own records without
+    the speaking sentence tagging the right one, or tagging anything at
+    all) - not a substitute for `ungrounded_markers`'s own narrower,
+    tag-scoped ground, which stays exactly as calibrated (OG-9) for the
+    already-tagged, already-passing sentences it exists to double-check."""
     words: set[str] = set()
-    digits: set[str] = set()
+    numbers: set[int] = set()
     for rec in repository_records.values():
-        rec_words, rec_digits = record_ground(rec, repository_records)
+        rec_words, rec_numbers = record_ground(rec, repository_records)
         words |= rec_words
-        digits |= rec_digits
-    return {_strip_possessive(w) for w in words}, digits
+        numbers |= rec_numbers
+    return {_strip_possessive(w) for w in words}, numbers
 
 
 def missing_markers(
-    text: str, ground_words: set[str], ground_digits: set[str], *, include_sentence_initial_proper_nouns: bool = False
+    text: str,
+    ground_words: set[str],
+    ground_numbers: set[int],
+    figure_names: set[str],
+    *,
+    include_sentence_initial_proper_nouns: bool = False,
 ) -> list[str]:
     """Every proper-noun word and number `claim_markers()` finds in `text`
-    that is not itself present in the given (word, digit) ground - the
-    shared comparison both `ungrounded_markers` (tag-scoped) and
+    that is not itself present in the given ground - the shared
+    comparison both `ungrounded_markers` (tag-scoped) and
     `engine.m4.sentence_fact_check` (whole-repository-scoped) run, so the
     two checks can never silently diverge on what counts as "grounded."
     Empty for a sentence naming no checkable marker at all.
@@ -291,14 +307,19 @@ def missing_markers(
     narrow and both fixing a real measured false-positive pair rather
     than a hypothetical one:
       - a proper noun grounds against its own `_derivational_variants`
-        too (Alexandria/Alexandrian, Edessa/Edessan), not only its exact
-        surface form;
-      - a digit grounds against its own spelled-out form
-        (`_spell_cardinal`) found as a subset of `ground_words`, and a
-        spelled number word grounds against any digit already present in
-        `ground_digits` spelled the same way - the same fact stated as
-        "137" on one side and "one hundred thirty-seven" on the other is
-        one grounded value, not two.
+        too (Alexandria/Alexandrian, Edessa/Edessan), gated on
+        `figure_names` so the bridge cannot cross-ground two different
+        people who happen to share the same surface shape (see
+        `_derivational_variants`' own docstring);
+      - a number grounds against its own composed VALUE
+        (`_numbers_in_text`) found anywhere in `ground_numbers`, digit or
+        spelled-out - "137" and "one hundred thirty-seven" are one
+        grounded value, compared exactly, never a bag of components that
+        could belong to a different number entirely.
+
+    figure_names: `engine.m4.grounding_net.build_figure_lexicon`'s own
+    result, computed once by the caller (both callers already have
+    `repository_records`) rather than recomputed on every sentence.
 
     include_sentence_initial_proper_nouns (default False - `ungrounded_
     markers` below keeps claim_markers' own narrower, calibrated default):
@@ -310,25 +331,17 @@ def missing_markers(
     for marker in claim_markers(text, include_sentence_initial_proper_nouns=include_sentence_initial_proper_nouns):
         if marker.startswith("proper-noun:"):
             for word in _proper_noun_words(marker):
-                if word in ground_words or _derivational_variants(word) & ground_words:
+                if word in ground_words:
+                    continue
+                variants = _derivational_variants(word)
+                is_confirmed_person = word in figure_names or variants & figure_names
+                if variants and not is_confirmed_person and variants & ground_words:
                     continue
                 missing.add(word)
         elif marker == "number":
-            digits, spelled = _number_tokens(text)
-            ground_digit_words: set[str] = set()
-            for d in ground_digits:
-                ground_digit_words |= _spelled_words_for_digit(d)
-            for d in digits:
-                if d in ground_digits:
-                    continue
-                spelled_form = _spelled_words_for_digit(d)
-                if spelled_form and spelled_form <= ground_words:
-                    continue
-                missing.add(d)
-            for w in spelled:
-                if w in ground_words or w in ground_digit_words:
-                    continue
-                missing.add(w)
+            for surface, value in _numbers_in_text(text):
+                if value not in ground_numbers:
+                    missing.add(surface)
     return sorted(missing)
 
 
@@ -349,14 +362,14 @@ def ungrounded_markers(text: str, tags: list[str], *, repository_records: dict[s
         return []
 
     ground_words: set[str] = set()
-    ground_digits: set[str] = set()
+    ground_numbers: set[int] = set()
     for rec in tagged_records:
-        rec_words, rec_digits = record_ground(rec, repository_records)
+        rec_words, rec_numbers = record_ground(rec, repository_records)
         ground_words |= rec_words
-        ground_digits |= rec_digits
+        ground_numbers |= rec_numbers
     ground_words = {_strip_possessive(w) for w in ground_words}
 
-    return missing_markers(text, ground_words, ground_digits)
+    return missing_markers(text, ground_words, ground_numbers, build_figure_lexicon(repository_records))
 
 
 def verdict_for_sentence(text: str, tags: list[str], *, repository_records: dict[str, dict]) -> dict:
