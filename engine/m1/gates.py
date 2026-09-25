@@ -268,7 +268,7 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
 
 def gate_quote_recording(records, fleet, registry) -> list[str]:
     findings = []
-    valid_licenses = {"verbatim", "paraphrase-only", "do-not-voice"}
+    valid_licenses = {"verbatim", "paraphrase-only"}
     for rid, rec in records.items():
         if rec.get("record_type") != "quote":
             continue
@@ -1109,7 +1109,7 @@ def gate_id_convention(records, fleet, registry) -> list[str]:
 # missing mechanical check that a world_front record's own authored prose
 # actually followed that rule, rather than trusting review to catch it by
 # eye every time.
-_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only", "do-not-voice"}
+_QUOTE_NEVER_QUOTABLE_LICENSES = {"paraphrase-only"}
 
 # Straight or curly double quotation marks only - deliberately not single
 # quotes/apostrophes (') or curly single quotes (' '): those collide with
@@ -1172,9 +1172,9 @@ def gate_quote_mark_fidelity(records, fleet, registry) -> list[str]:
     """Any text a world_front record renders inside quotation marks must
     match a quote record's `modern_rendering` field exactly - never `text`
     (the quote-rendering rule; see this module's own comment above).
-    Material whose license is `paraphrase-only` or `do-not-voice` must
-    never appear inside quotation marks at all, from either field,
-    regardless of whether it happens to match.
+    Material whose license is `paraphrase-only` must never appear inside
+    quotation marks at all, from either field, regardless of whether it
+    happens to match.
 
     This is the mechanical version of a defect that has already shipped
     live, twice, on hand-authored site copy: a

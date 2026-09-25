@@ -1,8 +1,8 @@
 """Live evidence for the stage-5 gate items that need a real generation
 call: crisis append against a live routing decision (not just the hermetic
-fake-client tests) and an ordinary voice turn end to end (real citations,
-grounding, and the do-not-voice guard) against the real, committed fixture
-world package. Real, billed Bedrock calls - like
+fake-client tests) and an ordinary voice turn end to end (real citations
+and grounding) against the real, committed fixture world package. Real,
+billed Bedrock calls - like
 engine/provider/preflight.py and engine/m5/safety_script_run.py, a by-hand,
 credentialed run, not a CI job.
 """

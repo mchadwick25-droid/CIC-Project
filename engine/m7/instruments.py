@@ -48,7 +48,7 @@ def _defect_family(d) -> str | None:
 
 
 def unread_outputs(s: AuditSession) -> list[Finding]:
-    """§3.1 - the four formerly-unread outputs, surfaced.
+    """§3.1 - the three formerly-unread outputs, surfaced.
 
     guard_proximity entries are excluded from this generic bucket - they
     get their own dedicated instrument (guard_proximity, below) at defect
@@ -59,10 +59,6 @@ def unread_outputs(s: AuditSession) -> list[Finding]:
     """
     findings = []
     for t in s.voice_turns:
-        if t.do_not_voice_violation:
-            findings.append(Finding("do_not_voice", "defect", s.session_id,
-                                    f"content-licensing violation on {t.speaker}'s turn (seq {t.seq}): {t.do_not_voice_violation}",
-                                    excerpt=t.text[:200]))
         for d in t.output_defects:
             if _defect_family(d) == "guard_proximity":
                 continue

@@ -59,7 +59,7 @@
       "gate": "quote-recording",
       "status": "caught",
       "findings": [
-        "fix.quote.private-teaching: license 'maybe' is not one of ['do-not-voice', 'paraphrase-only', 'verbatim']"
+        "fix.quote.private-teaching: license 'maybe' is not one of ['paraphrase-only', 'verbatim']"
       ]
     },
     {

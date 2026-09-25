@@ -484,7 +484,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
     "quote": {
         "text": {"type": "string"},
         "speaker_or_author": {"type": "string"},
-        "license": {"enum": ["verbatim", "paraphrase-only", "do-not-voice"]},
+        "license": {"enum": ["verbatim", "paraphrase-only"]},
         # Quote's own version of term's senses.translational (Glossary/
         # Story/Quote Template SS3) - not yet in COMPLETION_REQUIRED;
         # existing quote records validate unchanged without it.

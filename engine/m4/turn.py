@@ -54,7 +54,6 @@ from dataclasses import dataclass, field
 from engine.m1.loader import load_fleet_records
 from engine.m4 import crisis_resources, evidence, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
-from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
@@ -1295,8 +1294,6 @@ def _run_ordinary_voice_turn(
     # job, and the limit records are in its ground to say it from.
     degraded_by_net = not net_result["substantive_survives"]
 
-    do_not_voice_hit = find_do_not_voice_violation(answer_text=answer_text, quotes=world.quotes["quotes"])
-
     # THE TRANSPARENCY PLAN - a deterministic transform over what is
     # already computed above (citations, net_result, the word marks), no
     # new evidence, no new model call. Additive: not in
@@ -1327,7 +1324,6 @@ def _run_ordinary_voice_turn(
         },
         "grounding": net_result,
         "transparency": transparency,
-        "do_not_voice_violation": do_not_voice_hit,
         "degraded_by_net": degraded_by_net,
         # The finished string, checked last, after the net has cut and the
         # fallback has appended - because that is the only text a person

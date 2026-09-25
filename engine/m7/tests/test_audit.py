@@ -77,7 +77,6 @@ def seed_interview(store, sid):
             {"verdict": "withheld", "tags": ["des.source.apophthegmata-9"]},
         ]},
         output_defects=["floor_line_missing"],
-        do_not_voice_violation="quoted a do_not_voice span",
     ))
     # A second ask that draws no coverage at all -> ask_coverage review.
     _append(store, sid, "participant_message", {"text": "what about taxes", "client_msg_id": "m2"})
@@ -136,12 +135,11 @@ def _sessions(tmp_path):
 
 # --- reader ---
 
-def test_reader_lifts_the_four_unread_outputs_and_rounds(tmp_path):
+def test_reader_lifts_the_three_unread_outputs_and_rounds(tmp_path):
     store, i_sid, t_sid = _sessions(tmp_path)
     s = read_session(store, i_sid)
     assert s.mode == "interview" and s.world_keys == ["des"]
     t0 = s.voice_turns[0]
-    assert t0.do_not_voice_violation == "quoted a do_not_voice span"
     assert t0.output_defects == ["floor_line_missing"]
     assert t0.grounding["sentences"][1]["verdict"] == "withheld"
     assert s.voice_turns[1].degraded_by_net is True
@@ -172,11 +170,10 @@ def test_list_session_ids_orders_and_filters(tmp_path):
 
 # --- instruments ---
 
-def test_unread_outputs_all_three_severities(tmp_path):
+def test_unread_outputs_review_and_info_severities(tmp_path):
     store, i_sid, _ = _sessions(tmp_path)
     findings = unread_outputs(read_session(store, i_sid))
     by = {f.instrument: f for f in findings}
-    assert by["do_not_voice"].severity == "defect"
     assert by["output_defects"].severity == "review"
     assert by["net_withheld"].severity == "info"
     assert by["net_withheld"].record_ids == ["des.source.apophthegmata-9"]
@@ -466,7 +463,7 @@ def test_cli_audit_writes_all_layers_and_keeps_participant_text_out_of_fleet(tmp
     rollup = audit(str(tmp_path / "events.db"), out)
 
     assert rollup["sessions_audited"] == 2
-    assert rollup["findings_by_severity"]["defect"] >= 2  # do_not_voice + isolation
+    assert rollup["findings_by_severity"]["defect"] >= 1  # isolation
     assert rollup["lineage_session_ids"] == [i_sid, t_sid]
 
     # Per-session files exist and (necessarily, operator-only) carry the text.

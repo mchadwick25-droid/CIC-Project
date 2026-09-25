@@ -81,7 +81,7 @@ defects:
     layer: M1
     target_record: records/fix/quote/fix.quote.private-teaching.md
     mutation: {op: set_field, path: license, value: maybe}
-    expected_failure: "license 'maybe' is not one of verbatim | paraphrase-only | do-not-voice"
+    expected_failure: "license 'maybe' is not one of verbatim | paraphrase-only"
 
   - id: alias-safety-unsafe-collision
     gate: alias-safety
