@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F1-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
