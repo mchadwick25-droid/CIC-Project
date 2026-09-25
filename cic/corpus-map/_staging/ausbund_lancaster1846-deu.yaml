@@ -11,6 +11,7 @@ assignments:
     note: >
       The movement's own hymnal, an 1846 Lancaster PA printing, still in
       liturgical use among the Amish. Vendored 2026-09-25 as part of a
-      post-Step0-Revision-2 PD source-acquisition pass. Per this
-      project's own INTAKE.md rule, this German text is a second
-      witness, never primary evidence for a Representative.
+      post-Step0-Revision-2 PD source-acquisition pass. Flagged under Mark's OCR ruling "a" (2026-09-25,
+      worlds/_cross-world/LIBRARY-DECISION-LOG.md) as a garbled scan -
+      stays second witness for scan-quality reasons, not language,
+      until a cleaner edition is vendored.
