@@ -1378,3 +1378,28 @@ Read plainly: the cleanup campaign is fixing existing debt, but nothing stops ne
 Meanwhile: PR #527's own CI failure (M9 confinement: two stale `ACCEPTED_OPEN` waivers for hal/syr verbatim-in-shelf findings that no longer fire) does **not** reproduce on main's own tip - main's own latest full CI run passed the same check cleanly - so it's PR #527's branch being stale relative to main, not a repo-wide break. Left to that PR's own thread, untouched.
 
 Fleet size unchanged at 11 (lpc's own compilation work is proceeding under `worlds/lpc/` and `records/lpc/` but hasn't reached `records/worlds/lpc.yaml` admission yet, so it doesn't count toward the fleet-size watch until it does).
+
+## 2026-09-25 — REPIN_PR_TOKEN secret resolved; second, distinct repo-wide bug found and fixed (PR #575)
+
+Follow-up on the 00:36 UTC entry above. The missing `REPIN_PR_TOKEN` secret has since been added (by Mark or another thread) - that failure mode on `repin-on-library-change.yml` cleared. But the workflow was still failing on every push touching `cic/corpus-map/**`/`cic/texts/**`, now with a different, unrelated error: `ModuleNotFoundError: No module named 'engine'`.
+
+Root-caused directly from the job log: `tools/repin_stale_worlds.py` calls `python tools/repin_stale_worlds.py` (not `-m`), which puts the script's own directory on `sys.path[0]` rather than the repo root - so its two function-local `from engine...` imports fail. Three sibling scripts (`tools/check_live_commentary.py`, `tools/generate_tradition_pages.py`, `tools/split_retrieval_guards.py`) already handle this with `sys.path.insert(0, str(REPO_ROOT))`; `repin_stale_worlds.py` was simply missing the same line - a genuine, narrow, mechanical bug, not the script's own designed refusal this time.
+
+Fixed with a one-line insert matching the existing convention exactly. Verified three ways before pushing: a `runpy.run_path` load test, a real end-to-end run (`no stale worlds - nothing to repin`, exit 0), and the existing test suite (`tools/tests/test_repin_stale_worlds.py`, 3 passed). Shipped via PR #575, CI green, merged (`a632512e`).
+
+Not yet confirmed in production: no push touching `cic/corpus-map/**`/`cic/texts/**` has landed since the fix to re-trigger the workflow end-to-end. Will confirm the next time a vendoring PR merges.
+
+## 2026-09-25 18:32 UTC — Periodic sweep: main green, no repo-wide break found (two apparent leads ruled out on verification)
+
+Main's tip (`f9f76ecf`, merge of #592) is green - confirmed directly (CI run 36173449830, all non-skipped jobs passed).
+
+Swept CI across all 24 open PRs. Two things looked repo-wide at first pass but did not survive checking against main's own tip directly, per this thread's own triage rule - logged here so the false leads don't get re-chased next sweep:
+
+- **Stale `HAND_LABELS` fixture entry** (`tools/tests/test_check_live_commentary.py:488`, pinning `engine/m4/tests/test_turn.py:1124` as `REWRITE`) appeared to fail identically in PRs #602, #595, #594. Ran `pytest tools/tests/test_check_live_commentary.py` directly against main's own tip: 99 passed, no failure. Main already carries a fix for this exact class of drift (`d340e64b7`, "Repin two stale HAND_LABELS entries"). The three PRs are stale relative to that commit and/or their own diffs have shifted line numbers in `test_turn.py` - a fragile line-pinned fixture, but not a break on main. Left to each PR's own branch (a rebase clears it), not fixed here.
+- **"Site staleness sweep" failure on `witt`** (PR #595 only, missing `lutheran-wittenberg-and-its-congregations.json` under `cic-website/data/worlds/`). Ran `python -m engine.m2.site_cli staleness-check` directly against main: exit 0, `"pass": true` - and `witt` isn't even in the set of worlds the check currently covers. PR #595's own diff (making the site-staleness world list registry-driven instead of hardcoded) is what newly pulls `witt` into scope and surfaces that its compiled site JSON was never generated, even though `witt` has been `state: admitted` in the registry. Real gap, but not a CI/config break - it's `witt`'s own site-compilation completeness, the kind of world-specific content gap this thread flags rather than fixes. Left to PR #595's own thread / whoever owns `witt`'s site compilation.
+
+Doc-hygiene classifier run against main's current tip, all eleven surfaces, compared to the last baseline (`651901f0a`): `engine` (879→879), `packages` (5911→5911), `reference` (429→429), `canon` (0→0), `fixtures` (1→1), `cic-engine` (19→19) all exactly flat. `cic-poc-frontend` (28→27) and `records` (4304→4223) essentially flat. `cic-website` down sharply (144→112). Two up: `cic-corpus-map` (75→108, +33) and `worlds` (9256→9341, +85) - both far smaller than the earlier "nearly doubled" jump, and both on surfaces multiple currently-active PRs are visibly working right now (Decision 8B embedded-quotation batches across syr/cappadocian/gallic, `build-process-v1.8`, library-thread Step 0 round-2 review). Read as normal in-flight churn from active threads, not unowned drift - no new finding.
+
+Fleet size unchanged at 11.
+
+Other triage notes, no action needed: PR #588's `lpc` M2/M9 failures are pre-existing registration gaps that unmerged PR #586 fixes directly - correctly left to #586, not chased as a #588 problem. PR #246 has never had CI run at all (`total_count: 0` check runs, `mergeable_state: dirty`, stale since 2026-09-16, 73 commits behind) - needs a rebase from its own owning thread, not a new finding.
