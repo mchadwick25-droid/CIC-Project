@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ordinary Church — Church in Conversation</title>
+<meta name="description" content="Datus is a representative voice for the ordinary pastoral church of Roman North Africa, c. 246 to 430 CE. Where the record is quiet, the questions people bring, and what he is built from.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --lapis-text:#9DB4F0;
+  --control:#A39B92;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --tint:#4C946A;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0 0 1rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.sans{font-family:var(--sans)}
+.muted{color:var(--muted)}
+/* Logo, wordmark, the three feature buttons, and the site nav all in one
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 1024px width. */
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.menu{position:relative;margin-left:auto}
+/* Centered in the space actually available between the logo and the menu
+   button, not naive full-row-width centering (that ignores the wordmark's
+   and menu button's own widths and can visually collide with the
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
+@media (min-width:1000px){
+  .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
+  .menu{margin-left:0}
+  .feature-bar{justify-self:center}
+}
+.menu-toggle{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--text);background:none;border:1px solid var(--rule);border-radius:999px;padding:.5rem 1.1rem;min-height:38px;display:inline-flex;align-items:center;gap:.4rem;cursor:pointer}
+.menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
+.menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
+.menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
+/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
+   real gap is a dead zone the pointer crosses with no element under it,
+   which drops :hover before the pointer reaches the menu. The ::before
+   bridges the .5rem visual gap so :hover survives the
+   crossing while keeping the breathing room. */
+.site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
+.site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
+.menu:hover .site-nav,.menu.open .site-nav{display:flex}
+.site-nav a{color:var(--text);text-decoration:none;padding:.65rem .8rem;border-radius:6px;min-height:44px;display:flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{background:rgba(241,233,221,.08)}
+.site-nav a[aria-current="page"]{color:var(--action)}
+.site-nav a[hidden]{display:none}
+.page{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
+.crumbs{font-family:var(--sans);font-size:.875rem;color:var(--muted);padding:1rem 0 0}
+.crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.crumbs li+li::before{content:"›";margin-right:.5rem}
+.crumbs a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+.titleblock{display:grid;gap:1.5rem;padding:1.2rem 0 1.4rem;align-items:start}
+@media (min-width:900px){ .titleblock{grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:3rem} }
+.titleblock .ident{font-family:var(--sans);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 .5rem}
+.titleblock h1{font-size:clamp(2.1rem,4.8vw,3.2rem);line-height:1.05;margin:0 0 .5rem}
+.titleblock .formal{font-style:italic;color:var(--muted);margin:0 0 1rem}
+.titleblock .tile{font-size:1.15rem;line-height:1.5;max-width:var(--measure)}
+.status{font-family:var(--sans);font-size:.875rem;color:var(--text);border-left:3px solid var(--tint);padding-left:.7rem;margin:0 0 1rem}
+.plate{max-width:20rem}
+.plate figure{margin:0}
+.plate img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border:1px solid var(--rule);background:var(--surface)}
+.plate figcaption{font-family:var(--sans);font-size:.875rem;color:var(--muted);line-height:1.45;margin-top:.6rem}
+.plate figcaption b{color:var(--text);font-weight:600}
+.ai-line{font-family:var(--sans);font-size:.9rem;line-height:1.45;color:var(--text);border-left:2px solid var(--control);padding-left:.8rem;margin:0 0 1.1rem}
+.held{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--lapis-text);border-radius:0 3px 3px 0;padding:.9rem 1.1rem;margin:0 0 1.1rem;max-width:var(--measure)}
+.held .k{font-family:var(--sans);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--lapis-text);margin:0 0 .25rem}
+.held .q{font-style:italic;font-size:1.15rem;margin:0 0 .35rem}
+.held .edit{font-family:var(--sans);font-size:.9rem}
+.seat{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;font-family:var(--sans);font-size:.95rem}
+.seat .seated{margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:.95rem;line-height:1.2;padding:.6rem 1.1rem;min-height:44px;border-radius:3px;text-decoration:none;cursor:pointer;border:1.5px solid var(--btn-edge);background:var(--btn-fill);color:var(--btn-text)}
+.btn:hover,.btn:focus-visible{background:var(--madder-deep);color:var(--btn-text)}
+.btn.quiet{background:transparent;color:var(--action);border-color:var(--action)}
+.btn.quiet:hover,.btn.quiet:focus-visible{background:transparent;color:var(--action-hover);border-color:var(--action-hover)}
+.article{padding:1.6rem 0 .5rem}
+.article>section{padding:1.4rem 0 1.2rem;border-top:1px solid var(--rule)}
+.article>section:first-child{border-top:none;padding-top:.6rem}
+.reading{max-width:var(--measure);font-size:1.125rem;line-height:1.6}
+.reading p{text-wrap:pretty}
+.article h2{font-size:clamp(1.5rem,3vw,1.9rem);margin:0 0 .3rem}
+.distress{font-family:var(--sans);font-size:.95rem;color:var(--muted);max-width:var(--measure)}
+.questions{list-style:none;margin:.5rem 0 0;padding:0;border-top:1px solid var(--rule)}
+.questions li{border-bottom:1px solid var(--rule);padding:.5rem 0}
+.questions a{display:flex;align-items:flex-start;gap:.6rem;color:var(--text);text-decoration:none;font-style:italic;font-size:1.1rem;line-height:1.4;padding:.5rem .1rem;min-height:44px}
+.questions a::before{content:"—";color:var(--action);font-style:normal;flex:0 0 auto}
+.questions a::after{content:"→";color:var(--action);font-style:normal;margin-left:auto;padding-left:.6rem;flex:0 0 auto}
+.questions a:hover,.questions a:focus-visible{color:var(--action-hover);text-decoration:underline;text-decoration-color:var(--action)}
+.questions .from{display:block;font-family:var(--sans);font-size:.875rem;color:var(--muted);margin:.1rem 0 .3rem 1.5rem;line-height:1.45}
+.door{border-top:1px solid var(--rule);background:var(--surface);text-align:center;padding:2.5rem 1.25rem 2.5rem}
+.door h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 .7rem}
+.door p{max-width:var(--measure);margin-left:auto;margin-right:auto}
+.door .actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem;margin:1.2rem 0 1rem}
+.door .also{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.door .also a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.site-footer .row{max-width:var(--wide);margin:0 auto;padding:1.8rem 1.25rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.8rem 1.5rem}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:0 1.2rem}
+.site-footer a{color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
+@media print{ .site-header,.seat,.door .actions,.skip-link{display:none} }
+/* BEGIN orientation-content-css */
+.orient-voices{display:flex;flex-direction:column;gap:1.1rem}
+.orient-voice{max-width:var(--measure)}
+.orient-voice-name{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--text);margin:0 0 .3rem}
+.orient-voice-dates{font-weight:400;color:var(--muted)}
+.orient-voice-text{font-size:1.0625rem;line-height:1.6}
+.docstories-row{display:flex;flex-direction:column;gap:1.3rem;max-width:var(--measure)}
+.docstory-entry h4{font-family:var(--serif);font-size:1.1rem;margin:0 0 .25rem}
+.docstory-entry>.meta{font-family:var(--sans);font-size:.8125rem;color:var(--muted);margin:0 0 .3rem}
+.docstory-entry>.teaser{font-style:italic;color:var(--muted);margin:0 0 .5rem}
+details.docstory-item{border:1px solid var(--rule);border-radius:4px;background:var(--surface);padding:.15rem .9rem}
+details.docstory-item summary{cursor:pointer;list-style:none;font-family:var(--sans);font-weight:600;font-size:.875rem;padding:.6rem 0;color:var(--action)}
+details.docstory-item summary::-webkit-details-marker{display:none}
+details.docstory-item summary::before{content:"\25B8";display:inline-block;margin-right:.5rem;transition:transform .15s}
+details.docstory-item[open] summary::before{transform:rotate(90deg)}
+.docstory{padding:0 0 .9rem}
+.orient-relations{max-width:var(--measure)}
+.orient-read-first{list-style:none;margin:.9rem 0 0;padding:0;max-width:var(--measure)}
+.orient-read-first li{border-top:1px solid var(--rule);padding:.6rem 0}
+.orient-read-first-work{font-family:var(--sans);font-weight:600;display:block}
+.orient-read-first-note{font-family:var(--sans);font-size:.9rem;color:var(--muted)}
+.orient-glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem 1.5rem;max-width:var(--wide);margin:0}
+.orient-glossary-item dt{font-family:var(--sans);font-weight:700;color:var(--action);margin:0}
+.orient-glossary-item dd{font-size:.9375rem;color:var(--muted);margin:.15rem 0 0}
+.orient-pull-quotes{display:flex;flex-direction:column;gap:1rem;max-width:var(--measure)}
+.orient-pull-quote{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--action)}
+.orient-pull-quote p{font-style:italic;font-size:1.1rem;margin:0 0 .3rem}
+.orient-pull-quote cite{font-family:var(--sans);font-style:normal;font-size:.85rem;color:var(--muted)}
+/* END orientation-content-css */
+
+/* Persistent feature header: Church Family Tree / Conversation with One */
+.feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
+.feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
+.feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
+.feature-btn[aria-current="page"]{border-color:var(--action)}
+@media (max-width:640px){.feature-bar{gap:.5rem}.feature-btn{font-size:.8rem;padding:.45rem .9rem}}
+.tree-link{font-family:var(--sans);font-size:.95rem;margin:1rem 0;padding:.8rem 1rem;background:var(--surface);border-left:3px solid var(--action);border-radius:4px}
+.tree-link a{font-weight:600;color:var(--action)}
+.tree-link a:hover{color:var(--action-hover)}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="row">
+    <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
+    <nav class="feature-bar" aria-label="Main features">
+      <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="../index.html#who">Conversation with One</a>
+    </nav>
+    <div class="menu">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="site-menu">
+        Menu
+        <svg class="menu-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <nav class="site-nav" id="site-menu" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="page">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#who">Who's at the table</a></li>
+        <li aria-current="page">The Ordinary Church</li>
+      </ol>
+    </nav>
+
+    <div class="titleblock">
+      <div>
+        <p class="ident">The Early Church Era · c. 246–430 CE · Carthage &amp; Hippo Regius, Roman North Africa</p>
+        <h1>The Ordinary Church</h1>
+        <p class="formal">Latin Pastoral-Congregational Christianity</p>
+        <p class="status">Open for conversation — you can sit down with this tradition now.</p>
+        <p class="tile">Two bishops, nearly two centuries apart, held the same office over the same kind of ordinary congregation in Roman North Africa. The first turned from a public career to the church around 246 and was made bishop by his own people's demand within a few years, over the recorded objection of some of his own fellow clergy. He led his flock through a persecution that sorted the failed from the faithful, then through a plague, then to his own execution in 258. The second held the same office over a century and a half later, in a city further along the same coast, preaching to the same gathered congregation for over three decades, and died in his own city while a Vandal army lay outside its walls. Between the two lies a silence of roughly a hundred and thirty years, in which this world's own congregational voice falls quiet. What holds the two together is not a continuous record. It is one plain fact: a bishop answerable for a particular people, a road back for those who fail publicly, and colleagues who argue real disagreement without ever putting each other outside the same table.</p>
+      </div>
+      <aside class="plate" aria-label="Portrait">
+        <figure>
+          <img src="../assets/portraits/datus.jpg" alt="Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small leather purse in both hands, painted against a warm neutral ground." width="1024" height="572">
+          <figcaption><b>Datus, Bishop of the Kept Flock.</b> A representative voice for the town churches of Roman Africa — who learned, under persecution and plague, that a church which takes everyone back the same afternoon has no door, and one that takes no one back has no Master.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p class="tree-link"><a href="../tree/latin-pastoral-congregational-christianity.html">View this tradition in the Church Family Tree</a></p>
+
+
+
+    <p class="ai-line">Datus is a representative voice for this tradition, not a person who lived — built from its own letters and records, and honest about where they run out.</p>
+
+    <div class="held" id="held" hidden>
+      <p class="k">Your question, held:</p>
+      <p class="q" id="held-q"></p>
+      <a class="edit" id="held-edit" href="../index.html">Edit it</a>
+    </div>
+
+    <div class="seat" role="region" aria-label="Datus is seated">
+      <p class="seated">Datus is seated. Begin when you're ready — or read on.</p>
+      <a class="btn quiet" id="seat-begin" href="../talk.html?worlds=latin-pastoral-congregational-christianity&amp;mode=interview&amp;from=traditions%2Flatin-pastoral-congregational-christianity.html" data-ask>Begin a conversation with Datus</a>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="article">
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
+      <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
+
+      <section aria-labelledby="story-title">
+        <p class="eyebrow">The Story</p>
+        <h2 id="story-title">How this tradition took shape</h2>
+        <div class="reading"><p>This world&#39;s own record runs from about 246 to 430, centered on two cities in Roman North Africa: Carthage, the largest Latin Christian city outside Rome itself, and Hippo Regius, a smaller port further along the same coast. It is not a movement organized around one doctrine or one crisis, and it has no founding narrative to tell. It is the ordinary congregational life of a bishop and his own flock: preaching, teaching those preparing for baptism, and deciding what to do with the people who fail. Real and substantial differences in authority separate its two bishops - how far coercion could go, whether a rival consecration was valid, what a council can decide - but none of these touches a bishop&#39;s ordinary authority over his own flock, which is what this world&#39;s own recurring concerns are actually about.</p>
+      <p>The first bishop was a trained rhetorician who turned to the church around 246 and was made its bishop in Carthage within a few years - while, in his own deacon&#39;s words, still &quot;a neophyte, and, as it was considered, a novice.&quot; The congregation acclaimed him; five presbyters recorded their opposition. Years later, defending the same election against a faction that had never accepted it, he named the two things acting together in that choice: &quot;your suffrage and God&#39;s judgment,&quot; set against a faction&#39;s own &quot;ancient venom.&quot; The pattern was not a single event. A century and a half later, the second bishop was seized into office twice over his own reluctance, by the same kind of congregational acclaim.</p>
+      <p>In 250 the emperor Decius ordered a certificate proving every subject had sacrificed to the gods. It sorted the congregation into those who had stood and those who had not, and both were still there afterward, in the same room. Cyprian called the injury his own: &quot;it is the shepherd that is chiefly wounded in the wound of his flock.&quot; What followed was not exclusion. A road back was built - examined, weighed, and walked in the open - because a church that takes everyone back the same afternoon has no door, and one that takes no one back has no Master.</p>
+      <p>The road back was contested from the start. Confessors - people who had survived interrogation without denying their faith - claimed standing of their own to grant peace on the spot: &quot;thousands of certificates were daily given, contrary to the law of the Gospel,&quot; Cyprian complained. Two of them, writing to each other from separate prisons, show the claim in their own hands: Celerinus asked Lucian to grant peace to his own sister and two other women, and Lucian, expecting to be starved to death, granted it. Cyprian never fully absorbed that claim into the regulated process it pressed against. Both stood as real: the claim that forced a process into being, and the process that had to answer it.</p>
+      <p>A severe plague swept Carthage while Cyprian was bishop, and it asked nothing anyone could answer rightly or wrongly - it took the faithful and the failed alike. He called the congregation together and told them that caring for their own was nothing remarkable; anyone does that. What would distinguish them was caring for the very people persecuting them. Relief went out to all, not only to believers, and the poor who had no money gave labor instead. The plague produced no new doctrine and no new structure. It produced a bishop&#39;s own plain word to a frightened city, and then a treatise - this world&#39;s characteristic way of turning crisis into teaching.</p>
+      <p>Opening the council that would rule on the sharpest question of his own career, Cyprian stated the rule that held this world together across every disagreement it ever produced: &quot;neither does any of us set himself up as a bishop of bishops... since every bishop... has his own proper right of judgment.&quot; A century and a half later, the second bishop argued at book length that the ruling reached that day was wrong - and never once suggested the man who reached it stood outside communion for it. Disagreement, in this world, was not a reason to separate. Separating over disagreement was the one thing this world organized its whole life never to repeat.</p>
+      <p>Persecution returned under the emperor Valerian, and in 258 Cyprian was executed outside Carthage. His own deacon, writing afterward in the form of a saint&#39;s life, remembered him binding his own eyes and hurrying the executioner along - a portrait of a life fully given, not a bystander&#39;s plain report. The trial&#39;s own strictly documentary record survives in this world&#39;s own collection and has not yet been read; this account is the tradition&#39;s own memory of the death, offered as that, not as what a stranger in the crowd would have seen.</p>
+      <p>Between the two bishops lies roughly a hundred and thirty years in which this world&#39;s own congregational voice falls silent - richly attested elsewhere, but only through a neighboring communion&#39;s own record, never this one&#39;s own. What crosses that gap is not a line of living teachers. It is the second bishop reading the first one&#39;s own council acts, decades after his death, and arguing with them as a text to be weighed: &quot;even of the plenary Councils, the earlier are often corrected by those which follow them.&quot; A predecessor met on a page, answered, and never able to answer back.</p>
+      <p>A rival church stood in this world&#39;s own towns throughout the second bishop&#39;s episcopate, appealing for its own central practice to a ruling the first bishop had once given: that baptism given outside the one church washes nothing, so anyone crossing over must be washed again. The second bishop argued the opposite at book length - that something real is given even outside, though it does the person no good until they come home - and never resolved which of the two rulings was right. Collegial communion was tested hardest exactly here, and it held.</p>
+      <p>The second bishop had been seized into his own first office, in 391, by a congregation that laid hands on him while he stood unaware among them, and &quot;demanded it with great zeal and clamor, while he wept freely.&quot; He died in 430, during his own last illness, having asked to be left alone with psalms of penitence copied out and hung on the wall, which he read and wept over for days. The city was under Vandal siege while it happened. He made no will, because he had nothing to make one from, and ordered the church&#39;s own books preserved for those who came after. This world&#39;s own record closes there - not because one man&#39;s life ended, but because the same kind of violent pressure that opened this world closed it too.</p></div>
+      </section>
+
+      <section aria-labelledby="voices-title">
+        <p class="eyebrow">Voices</p>
+        <h2 id="voices-title">The people behind this account</h2>
+        <div class="orient-voices">
+      <div class="orient-voice">
+      <p class="orient-voice-name">Cyprian, our bishop at Carthage</p>
+      <p class="orient-voice-text">Cyprian became bishop of Carthage around 248, within a few years of his own conversion, and led his flock through persecution, plague, and schism until his own execution in 258. He is this world&#39;s fullest and most contested voice - his own crisis correspondence carries the whole shape of the lapsed controversy, and his own later letters still answer a faction that never accepted his election.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Augustine, our bishop at Hippo</p>
+      <p class="orient-voice-text">Augustine was seized into office twice over his own reluctance - presbyter at Hippo in 391, bishop in 395 or 396 - and preached to the same congregation for over three decades before dying there in 430, with a Vandal army outside the walls. He argued against Cyprian&#39;s own ruling on baptism at book length, and never once treated him as outside communion for having been wrong.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Pontius, our bishop&#39;s own deacon</p>
+      <p class="orient-voice-text">Pontius was Cyprian&#39;s own deacon, present with him at his exile and at his execution. Writing afterward in the form of a saint&#39;s life, he is the source for most of what survives about Cyprian&#39;s own early years and death - an admiring witness, not a neutral one, and this world names that mediation rather than smoothing it away.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Possidius, bishop of Calama</p>
+      <p class="orient-voice-text">Possidius was Augustine&#39;s friend for nearly forty years and a bishop in his own right, present in the room for his friend&#39;s last illness and death. He is the source for the one first-person account this world holds of a bishop watched doing what he had spent his life asking of others.</p>
+      </div>
+      <div class="orient-voice">
+      <p class="orient-voice-name">Numidicus, our presbyter</p>
+      <p class="orient-voice-text">Numidicus watched a group of believers die under persecution, his own wife among them, and was himself left for dead before his daughter found him alive. Cyprian ordained him presbyter afterward, on the strength of what he had endured rather than what he had studied - though Numidicus, by Cyprian&#39;s own account, had not wanted to survive.</p>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="documented-stories-title">
+        <p class="eyebrow">Documented stories</p>
+        <h2 id="documented-stories-title">Stories worth telling in full</h2>
+        <div class="docstories-row">
+      <div class="docstory-entry">
+      <h4>A Neophyte, Chosen by the Judgment of God and the Favour of the People</h4>
+      <p class="meta">246-249 (Cyprian&#39;s own conversion and election)</p>
+      <p class="teaser">A recent convert is made bishop within a few years of his own baptism, over five presbyters&#39; recorded opposition - and years later calls the very acclaim that elevated him God&#39;s own judgment made visible.</p>
+      <details class="docstory-item" id="latin-pastoral-congregational-christianity-story-0">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>Our own deacon Pontius, writing after his bishop had been executed, passed over most of what he could have said about Cyprian&#39;s early years and settled on one fact as enough. &quot;For the proof of his good works I think that this one thing is enough,&quot; he wrote: &quot;that by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte, and, as it was considered, a novice.&quot;</p>
+      <p>A neophyte. Newly baptised. Pontius did not soften this -- he pressed it, noting that Cyprian was &quot;still in the early days of his faith, and in the untaught season of his spiritual life.&quot; What we saw in him was not training. It was something we thought we could already see.</p>
+      <p>Two things are claimed at once in that sentence, and for Pontius they are not in tension: the judgment of God, and the favour of the people. The second is how the first became visible to us -- and years afterward, writing to defend his own contested episcopate against a faction that had never accepted it, Cyprian himself would call that same acclamation by its proper name: our own suffrage, joined to God&#39;s own judgment.</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>How Two Confessors, Not Our Bishop, Decided Who Could Come Back</h4>
+      <p class="meta">c. 250 (during the Decian persecution)</p>
+      <p class="teaser">Two confessors write to each other from separate prisons and grant a lapsed woman&#39;s peace themselves - preserved only because the bishop whose authority they bypassed kept the letters in his own dossier.</p>
+      <details class="docstory-item" id="latin-pastoral-congregational-christianity-story-1">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>Celerinus was a confessor among us -- he had been imprisoned and had not denied Christ -- and he wrote to Lucian, another confessor, in prison. He did not write about himself. &quot;Know, nevertheless, that I am placed in the midst of a great tribulation,&quot; he began, and the tribulation was not his own captivity. His sister had sacrificed. &quot;I ask that you will grant my desire, and that you will grieve with me at the (spiritual) death of my sister, who in this time of devastation has fallen from Christ.&quot;</p>
+      <p>She was not dead. She was alive, in Carthage, and what Celerinus grieved was a death he believed had happened to her soul -- which is why the letter carries a request. He asked Lucian to intervene, for her and for two other women, Numeria and Candida, whom Lucian also knew. He made the case for them: they had repented, and there were works to point to.</p>
+      <p>Lucian&#39;s reply came back from the prison, and it granted what was asked. Before it did, it said what the prison had been like: by the emperor&#39;s command they &quot;were ordered to be put to death by hunger and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst.&quot; Then: &quot;But now we have attained the brightness itself.&quot; He greeted Numeria and Candida, and named the martyrs on whose authority he answered, and signed off exhausted, greeting others &quot;whose names I have not written, because I am already weary. Therefore they must pardon me.&quot;</p></div>
+      </details>
+      </div>
+      <div class="docstory-entry">
+      <h4>How the One Who Judged Others&#39; Penitence Was Watched Doing His Own</h4>
+      <p class="meta">430 (Augustine&#39;s final illness, during the siege of Hippo)</p>
+      <p class="teaser">A bishop who spent his life examining other people&#39;s penance asks to be left alone with the shortest penitential psalms copied out and hung on his wall, and weeps over them for days before he dies.</p>
+      <details class="docstory-item" id="latin-pastoral-congregational-christianity-story-2">
+      <summary><span class="docstory-title">Read the full account</span></summary>
+      <div class="docstory"><p>Possidius had been Augustine&#39;s friend for nearly forty years, and he was in the house.</p>
+      <p>He records something Augustine had said often, in private conversation: that even after baptism, exemplary Christians and priests ought not depart this life without fitting repentance. Then he records what Augustine did with his own rule. &quot;And this he himself did in his last illness of which he died. For he commanded that the shortest penitential Psalms of David should be copied for him, and during the days of his sickness as he lay in bed he would look at these sheets as they hung upon the wall and read them; and he wept freely and constantly.&quot;</p>
+      <p>About ten days before the end he asked to be left alone -- Possidius says he &quot;asked of us who were present that no one should come in to him, except only at the hours in which the physicians came to examine him or when nourishment was brought to him.&quot; The request was kept. Until that last illness he had not stopped preaching.</p>
+      <p>And the end, in Possidius&#39;s own first person: &quot;With all the members of his body intact, with sight and hearing unimpaired, while we stood by and watched and prayed, &#39;he slept with his fathers,&#39; as it is written, &#39;well-nourished in a good old age.&#39;&quot; He made no will, because he had nothing to make one from. He ordered that the church&#39;s library and all its books be carefully preserved for those who came after. The city was under siege by the Vandals while this happened.</p></div>
+      </details>
+      </div>
+      </div>
+      </section>
+
+      <section aria-labelledby="legacy-title">
+        <p class="eyebrow">Legacy</p>
+        <h2 id="legacy-title">What came after</h2>
+        <div class="reading"><p>This world&#39;s own two bishops did not write for a tradition they expected to found. But its office of bishop, its practice of examined penance, and its long argument over what a sacrament truly requires became the working vocabulary of Western church life. Augustine&#39;s own teaching on grace and human incapacity, argued against a rival system in his own later years, became load-bearing for the traditions that came after, even as it stood on its own within this world.</p>
+      <p>This tradition is still living, but it has no single named heir. Too much of what it held - office, penance, sacrament - passed into many communities descended from it, not into one alone. It is close to how most historic Christian communions still understand parish or diocesan ministry, wherever they kept the office of bishop or pastor at all.</p></div>
+      </section>
+
+      <section aria-labelledby="relations-summary-title">
+        <p class="eyebrow">In its own record</p>
+        <h2 id="relations-summary-title">How this world relates to others</h2>
+        <p class="orient-relations"><i>A rival communion pressed on this world throughout its second bishop&#39;s own episcopate - a parallel church holding the same towns, appealing to this world&#39;s own first bishop&#39;s ruling for its central practice. This world&#39;s own record documents that rival only where it presses directly against this world&#39;s own life, and no further: its own martyrs, its own convictions in its own voice, are not this world&#39;s to narrate. What the two share and where they diverge is named directly rather than assumed from outside: the same theological confession, the same inherited ruling on rebaptism cited by both sides toward opposite ends, and one world&#39;s own eventual recourse to state power against the other in its later years.</i></p>
+      </section>
+
+      <section aria-labelledby="sourcing-title">
+        <p class="eyebrow">Sources</p>
+        <h2 id="sourcing-title">What this account is built from</h2>
+        <div class="reading"><p>This world&#39;s evidence is unusually direct: both bishops speak in their own words, as bishops of the tradition itself, not as quotations inside a hostile source, and this world holds the largest and most direct base of primary sources built so far. The imbalance here is narrower than that, but real. Two named, elite, clerical voices carry nearly the whole record across 184 years. A deacon&#39;s own eyewitness account, and two lay confessors writing in their own first-person voices, reach beyond the episcopate; women appear throughout and are never audible. Roughly a hundred and thirty years between the two bishops are a genuine silence in this world&#39;s own record, not a period nothing happened in - richly attested elsewhere only through a neighboring communion&#39;s own sources, which this world&#39;s own record does not borrow from. Material evidence is unexcavated, not empty: no site report or inscription catalogue has been checked for this world, though a pastoral letter describes a church&#39;s own apse and seating. And one further body of evidence, the recorded acts of a 411 conference between this world&#39;s own bishops and the rival communion, remains unread.</p>
+      <ul class="orient-read-first">
+      <li><span class="orient-read-first-work">Cyprian of Carthage, The Epistles (82 letters, including letters TO Cyprian from Rome, Cornelius, the confessors, and Firmilian of Caesarea)</span> <span class="orient-read-first-note">The fullest surviving picture of how a third-century North African congregation actually ran - crisis correspondence, in the bishop&#39;s own hand, addressed to the very people it concerns.</span></li>
+      <li><span class="orient-read-first-work">Pontius the Deacon, The Life and Passion of Cyprian, Bishop and Martyr</span> <span class="orient-read-first-note">The first Christian biography, written by an admiring eyewitness deacon after his bishop&#39;s execution - the source for most of what survives about Cyprian&#39;s own early life and death, and openly a portrait rather than a neutral report.</span></li>
+      <li><span class="orient-read-first-work">Possidius, bishop of Calama (author); Herbert T. Weiskotten (editor and translator), Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine)</span> <span class="orient-read-first-note">Written by a friend of nearly forty years, present in the room for Augustine&#39;s own last illness and death - the mirror of Pontius&#39;s own role nearly two centuries later, friendly rather than hostile, and an eyewitness rather than only a chronicler.</span></li>
+      </ul></div>
+      </section>
+
+      <!-- Judgment call (flagged in this generator's own report): the glossary
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
+           full-width sections, they share one compact strip - pull quotes as
+           blockquotes, then a small glossary grid - placed after Sources and
+           before the closing Questions section. -->
+
+      <section aria-labelledby="glossary-and-quotes-title">
+        <p class="eyebrow">In this world's own words</p>
+        <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
+        <div class="orient-pull-quotes">
+      <blockquote class="orient-pull-quote"><p>None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant&#39;s terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with the freedom and power allowed to him. He can no more be judged by another bishop than he himself can judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one who has the power both to place us in the government of His Church and to judge how we conduct ourselves there.</p><cite>Cyprian, our bishop at Carthage</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>I grieve, brothers, I grieve with you. My own integrity and my personal soundness do not lure me into soothing my griefs. That is because it is the shepherd who is wounded most deeply when his flock is wounded. I hold each one of you close to my heart, and I share the heavy burden of sorrow and mourning. I wail with those who wail, I weep with those who weep...</p><cite>Cyprian, our bishop at Carthage</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>For they have not forgotten their conspiracy. They still carry that old venom against my office as bishop, which means against your vote and against God&#39;s judgment. They are renewing their old attack on me, and once again they are starting their sacrilegious plots with their usual cunning.</p><cite>Cyprian, our bishop at Carthage</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>The Catholics already knew the life and teaching of the holy Augustine, and they seized him. He was standing there among the people, feeling safe and unaware of what was about to happen... So they seized him and, as is the custom in such cases, brought him to the bishop to be ordained. They did this because all of them, with one accord, wanted it done and carried through. They demanded it with great eagerness and loud shouting, while he wept freely.</p><cite>Possidius, bishop of Calama</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>But now I imagine that no one has come here except those who want to hear. So I am not speaking to deaf hearts, or to minds that will look down on the word. Instead, this longing expectation of yours is a prayer for me.</p><cite>Augustine, our bishop at Hippo</cite></blockquote>
+      </div><dl class="orient-glossary">
+      <div class="orient-glossary-item"><dt>the flock</dt><dd>A bishop, for us, is not an officer of some wider institution, dropped into a posting. He is given a people. He preaches to them, baptizes them, and buries them, and when they fail it is not a problem he manages but a wound he carries. The charge runs both ways: he answers for his flock, and his flock can stand in front of his seat and refuse to leave until he hears them.</dd></div>
+      <div class="orient-glossary-item"><dt>the lapsed</dt><dd>The lapsed are our own people who complied with the order to sacrifice during the persecution -- some by sacrificing, some only by paying for a certificate that said they had. They are not strangers and not enemies. They sat where we sit, and now they are asking to come back.</dd></div>
+      <div class="orient-glossary-item"><dt>reconciliation</dt><dd>Discipline is the road; reconciliation is the arrival. What matters is that it is a road at all. There is an order to it, the order takes time, and everyone can see it.</dd></div>
+      <div class="orient-glossary-item"><dt>communion</dt><dd>For us, communion is a formal standing within the one body -- a status we can lose and be given back. Its hardest test is that it survives sharp disagreement between the people who hold it.</dd></div>
+      <div class="orient-glossary-item"><dt>confessor</dt><dd>For us, a confessor is one who was interrogated for the Name and did not deny it, and lived. That standing, bought at that price, is the strongest rival we have to a bishop&#39;s own authority.</dd></div>
+      </dl>
+      </section>
+
+      <section aria-labelledby="questions-title">
+        <p class="eyebrow">Questions people bring to this table</p>
+        <h2 id="questions-title">Start with the hard one</h2>
+        <ul class="questions">
+      <li><a href="../talk.html?worlds=latin-pastoral-congregational-christianity&mode=interview&from=traditions%2Flatin-pastoral-congregational-christianity.html" data-ask>When someone wronged the community, how was it handled -- and could they come back?<span class="vh"> — ask Datus</span></a><span class="from">doctrinal witness: “We are held together, first, by one plain fact: a particular people has been placed in a particular man&#39;s care, and he will be asked what became of them.”</span></li>
+      <li><a href="../talk.html?worlds=latin-pastoral-congregational-christianity&mode=interview&from=traditions%2Flatin-pastoral-congregational-christianity.html" data-ask>What did your people never settle?<span class="vh"> — ask Datus</span></a><span class="from">doctrinal witness: “In our earliest years, a survivor of interrogation made a claim of his own. His own suffering, he said, gave him standing.”</span></li>
+      <li><a href="../talk.html?worlds=latin-pastoral-congregational-christianity&mode=interview&from=traditions%2Flatin-pastoral-congregational-christianity.html" data-ask>The people who taught me the faith turned out to be hypocrites. Did that happen among you?<span class="vh"> — ask Datus</span></a><span class="from">contested claim: “Augustine&#39;s teaching on coercion passed through three phases. First, an early opinion against any use of force (Letter XCIII §17).”</span></li>
+      </ul>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<section class="door" aria-labelledby="door-title">
+  <p class="eyebrow">The Table</p>
+  <h2 id="door-title">Come and join us at the Table</h2>
+  <div class="actions">
+    <a class="btn" id="door-begin" href="../talk.html?worlds=latin-pastoral-congregational-christianity&amp;mode=interview&amp;from=traditions%2Flatin-pastoral-congregational-christianity.html" data-ask>Begin a conversation with Datus</a>
+  </div>
+  <p class="also">Because of cost, we're asking each participant to keep to about five conversations for now — we can't enforce this yet, only ask.</p>
+  <p class="also"><a href="../index.html#who">The other eight chairs →</a></p>
+</section>
+
+<footer class="site-footer">
+  <div class="row">
+    <span>&copy; 2026 Church in Conversation. A safe space to explore faith and the story of Jesus, part of Faithways Studio, Inc.</span>
+    <nav aria-label="Footer">
+      <a href="../about.html">About</a>
+      <a href="../pilot-feedback.html">Feedback</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="mailto:info@churchinconversation.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){ a.dataset.hrefBase = a.href; });
+function readHash(){
+  var h = window.location.hash;
+  if (h.indexOf('#q=') !== 0) return '';
+  var text;
+  try { text = decodeURIComponent(h.slice(3)); } catch(e){ return ''; }
+  return text.trim().slice(0, 280);
+}
+var heldText = readHash();
+if (heldText) {
+  document.getElementById('held-q').textContent = heldText;
+  document.getElementById('held').hidden = false;
+  document.getElementById('held-edit').href = '../index.html#q=' + encodeURIComponent(heldText);
+  try { history.replaceState(null, '', '#q=' + encodeURIComponent(heldText)); } catch(e){}
+  Array.prototype.forEach.call(document.querySelectorAll('a[data-ask]'), function(a){
+    a.href = a.dataset.hrefBase + '#q=' + encodeURIComponent(heldText);
+  });
+}
+var menu = document.querySelector('.menu');
+var menuToggle = document.getElementById('menu-toggle');
+if (menu && menuToggle) {
+  menuToggle.addEventListener('click', function(ev){
+    ev.stopPropagation();
+    var isOpen = menu.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(ev){
+    if (!menu.contains(ev.target)) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.addEventListener('keydown', function(ev){
+    if (ev.key === 'Escape' && menu.classList.contains('open')) {
+      menu.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.focus();
+    }
+  });
+}
+})();
+</script>
+</body>
+</html>
