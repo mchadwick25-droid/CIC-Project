@@ -250,3 +250,20 @@ Mark's tech-review stress test (thread "CiC — Tech Review & Funding Readiness 
 
 `python3 tools/check_paths.py --baseline tools/check_paths_baseline.txt`: 0 new unresolved citations, 0 retired paths present. Executed without --baseline first to gather the delta; all 90 moves produced citations within the expected Ministry/Operations audit and decision-log files describing them. Baseline regenerated with `--regenerate` after verifying all are Ministry-internal prose references or file-move audit records.
 
+## 2026-09-24 — Live-Surface-Cleanup, witt PR: `records/WORLDS_REGISTRY_LOG.md` out of `records/`
+
+| from | to | kind |
+|---|---|---|
+| `records/WORLDS_REGISTRY_LOG.md` | `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md` | file |
+
+CLAUDE.md's "Keep the live/canonical surfaces clean" names `records/` as a live surface holding only current, compiled content — no decision logs. This file is itself a decision log (world-registry rulings and provenance), already recognized as such by its own header ("this file holds why it says what it says") and by `tools/check_live_commentary.py`'s `PROTECTED_REGISTRY_LOG` exemption, which treats it as already the registry's own designated decision-log rather than a fresh finding. Moved via `git mv` in the Live-Surface-Cleanup program's first (witt) PR, per that program's own launch brief. Root `README.md`'s `Ministry/` row and `records/` row checked; `Ministry/` row updated to name the new location.
+
+## Build Process version rename — 2026-09-25
+
+Citations rewritten in current documents outside `worlds/`, `records/` and `engine/`
+(3 replacements in 2 files, plus the check-paths baseline). See
+`Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`, 2026-09-25 entry.
+
+| from | to | kind |
+|---|---|---|
+| `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` | `reference/method/CiC_Record_Native_World_Build_Process_V1.7.md` | file |

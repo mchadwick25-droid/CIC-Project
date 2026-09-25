@@ -26,7 +26,7 @@ relations:
 - type: associated-with
   target: alx.source.vita-antonii-syriac
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified by title references from file line 1044 and
 the work's own division (prior scrub locates the text from ~line 30986;
 re-check the division boundary when first cited). Translator credited

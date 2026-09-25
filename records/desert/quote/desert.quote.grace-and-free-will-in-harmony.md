@@ -19,8 +19,8 @@ sources:
 text: "These two then; viz., the grace of God and free will seem opposed to each other, but really are in harmony, and we gather from the system of goodness that we ought to have both alike..."
 modern_rendering: >-
   These two things - God's grace and our free will - look like opposites.
-  Really they work together. Goodness itself tells us we need to hold on to
-  both...
+  Really they work together. From the system of goodness, we gather that
+  we ought to have both alike...
 speaker_or_author: Abbot Chaeremon, as Cassian reports him in the Conferences
 license: verbatim
 modern_lens_note: "\"Free will\" here is not the modern autonomy question. It is whether a person's own effort can begin or complete their salvation - the fifth-century argument between Augustine's followers and the Gallic monks, which this Conference sits inside and which later went against it."

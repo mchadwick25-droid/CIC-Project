@@ -44,4 +44,4 @@ retrieval:
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and
 re-tunes the cosmos - the world's own opening answer to who Jesus was.
-Text verified verbatim against the vendored file 2026-08-21.
+Text verified verbatim against the vendored file.

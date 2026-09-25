@@ -1,6 +1,6 @@
 """Live-turn grounding for CITATION-TAGGED output (Live-Generation Design
-§6, all four forks signed off 2026-08-22 - see engine/m4/LIVE-GENERATION-
-DESIGN.md §9.5). Promoted from the design's own companion prototype
+§6 - see engine/m4/LIVE-GENERATION-DESIGN.md §9.5, all four forks signed
+off). Promoted from the design's own companion prototype
 (grounding_experimental.py, claude/cic-design-assignment-ecoxh2), which
 proved this exact logic against the real alx package (§6.2's run log) -
 ported unchanged except this docstring; the calibration history below is
@@ -49,6 +49,7 @@ even make a checkable claim," owned once.
 """
 import re
 
+from engine.m1.quote_verbatim import normalize_archaic_letterforms
 from engine.prose import (
     QUOTE_CLOSE,
     QUOTE_OPEN,
@@ -76,10 +77,11 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # tag strip_tags removes can never disagree about what counts as one - so
 # an opener that never closed is never matched by either, and unlike
 # _ANY_TAG (which needs no closing bracket to be well-formed, just to be
-# present) there is no complete pattern here to widen to catch it. Found
-# 2026-09-19, rebuilding a Table transcript for transparency markup: one
-# turn's raw text ended inside an unclosed "[[don.dw.room-for-diss", which
-# strip_tags' own re.sub below left untouched, verbatim, brackets and all.
+# present) there is no complete pattern here to widen to catch it. A real
+# generation call cut off exactly this way once, while rebuilding a Table
+# transcript for transparency markup: one turn's raw text ended inside an
+# unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
+# left untouched, verbatim, brackets and all.
 _DANGLING_TAG = re.compile(r"\[\[[a-z0-9_.-]*\Z")
 
 
@@ -125,11 +127,11 @@ def strip_tags(text: str) -> str:
 # the question, the net withheld the echo, and the `---` under it survived
 # glued to the next sentence.
 #
-# Residual [[...]] was observed exactly once before this comment was
-# updated (2026-09-19, an unclosed [[don.dw.room-for-diss left by a
-# generation call cut off mid-tag - see _DANGLING_TAG and
-# _drop_truncated_tail above, which now back strip_tags off past it). What
-# is still true, and still here because the citation contract makes an
+# Residual [[...]] was observed exactly once, an unclosed
+# [[don.dw.room-for-diss left by a generation call cut off mid-tag - see
+# _DANGLING_TAG and _drop_truncated_tail above, which now back strip_tags
+# off past it. What is still true, and still here because the citation
+# contract makes an
 # explicit promise - "the tags themselves are never shown to the
 # participant" - that strip_tags only keeps for tags the model spells
 # correctly: a COMPLETE but malformed tag, spelled outside strip_tags'
@@ -146,7 +148,12 @@ def strip_tags(text: str) -> str:
 # thing this whole design refuses to do (the fallback ladder appends, it
 # never revises), and a display defect is a signal that something upstream
 # is wrong, not something to paper over on the way out.
-def _quoted_spans(text: str) -> list[str]:
+def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
+    """Every paired quotation in `text`, left to right: (start, end,
+    inner) - `start` is the opening quotation mark's own offset, `end` is
+    just past the closing quotation mark, `inner` is the quoted words
+    between them. engine.m4.transparency_plan places a quote's mark at
+    `end`: a quote's mark follows the quoted words."""
     spans = []
     pos = 0
     while True:
@@ -156,11 +163,23 @@ def _quoted_spans(text: str) -> list[str]:
         close_m = QUOTE_CLOSE.search(text, open_m.end())
         if not close_m:
             return spans
-        spans.append(text[open_m.end() : close_m.start()])
+        spans.append((open_m.end() - 1, close_m.end(), text[open_m.end() : close_m.start()]))
         pos = close_m.end()
 
 
+def _quoted_spans(text: str) -> list[str]:
+    return [inner for _start, _end, inner in quoted_span_positions(text)]
+
+
 def _normalize(text: str) -> str:
+    # Archaic letterforms first (the same mapping engine.m1.quote_verbatim's
+    # own verbatim check applies): otherwise the [^a-z0-9\s] strip below silently
+    # deletes ſ/þ/ð rather than folding them to their modern spelling,
+    # which is a real content loss, not a normalization ("þe" becoming
+    # " e" instead of "the"). Applied to both the quoted span and the
+    # shelf's own record text below, since both call sites route through
+    # this one function - inherently symmetric.
+    text, _classes = normalize_archaic_letterforms(text)
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", text.lower())).strip()
 
 
@@ -219,7 +238,7 @@ def _thin_topic_hits(sentence_lower: str, thin_topics: list[dict] | None) -> lis
     return hits
 
 
-# M-1 (witt go-live adversarial review, 2026-09-20). The scaffold exemption
+# The scaffold exemption
 # below used to exempt an entire sentence the moment ANY SCAFFOLD_MARKERS
 # phrase appeared anywhere in it - so "...our founder wrote against the
 # peasants' rising, and that writing is part of our own history EVEN WHEN
@@ -413,10 +432,9 @@ def check_turn(
     return {"sentences": results, "substantive_survives": substantive_survives, "truncated": truncated}
 
 
-# R27-A item 1 (Decision-Log.md Entry 55, 2026-09-23): blank-line blocks -
-# the exact regex engine.m4.live_uncited_claims_battery's own
-# _PARAGRAPH_SPLIT already proved live across two battery runs (#419,
-# #420), moved here per item 2's own build order. A paragraph is a
+# Blank-line blocks - the exact regex
+# engine.m4.live_uncited_claims_battery's own _PARAGRAPH_SPLIT already
+# proved live across two battery runs (#419, #420). A paragraph is a
 # sequence of the same sentences parse_tagged already produces, grouped by
 # which blank-line block they fell in - nothing about how a sentence
 # itself is found or tagged changes.
@@ -426,6 +444,41 @@ _PARAGRAPH_SPLIT = re.compile(r"\n\s*\n")
 def split_into_paragraphs(tagged_text: str) -> list[str]:
     paragraphs = [p for p in _PARAGRAPH_SPLIT.split(tagged_text) if p.strip()]
     return paragraphs or [tagged_text]
+
+
+def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str:
+    """Removes each named sentence's own raw span - tag included - from
+    tagged_text, whole, and rejoins what is left. The one enforcement
+    action a caller may take on a flagged sentence that is not "regenerate
+    the whole turn again": reuses this module's own split_into_paragraphs/
+    parse_tagged, the same sentence/paragraph boundaries every verdict in
+    "sentences" was already computed against, so a sentence named by its
+    own exact `verdict_for_sentence`-produced text (parse_tagged's own
+    "text" field, tags already stripped) is matched and removed
+    unambiguously - no re-splitting, no re-tokenizing, no risk of
+    disagreeing with the net about where one sentence ends and the next
+    begins.
+
+    Two structural guarantees, not left to chance:
+      - a paragraph that loses every one of its own sentences is dropped
+        whole, never left behind as an empty blank-line block;
+      - a paragraph that keeps at least one sentence keeps its own
+        surviving sentences joined by a single space, so removing a
+        sentence from the middle never leaves doubled whitespace or an
+        orphaned closing quote/tag.
+
+    What this does NOT guarantee: a sentence that grammatically promised
+    the one just removed (a paragraph ending "...three things stand out:"
+    whose own next sentence was the one dropped) can still read as an
+    unfinished promise - a semantic dangling fragment this string-level
+    operation has no way to see, as opposed to the structural one
+    (broken punctuation, an empty paragraph) it does prevent."""
+    kept_paragraphs = []
+    for paragraph in split_into_paragraphs(tagged_text):
+        kept_sentences = [sent["raw"] for sent in parse_tagged(paragraph) if sent["text"] not in flagged_sentences]
+        if kept_sentences:
+            kept_paragraphs.append(" ".join(kept_sentences))
+    return "\n\n".join(kept_paragraphs)
 
 
 def check_turn_with_paragraph_coverage(
@@ -440,10 +493,10 @@ def check_turn_with_paragraph_coverage(
     list, same substantive_survives/truncated meaning - a caller reading
     only this result's own "sentences"/"substantive_survives"/"truncated"
     keys cannot tell it apart from check_turn's), PLUS an additive,
-    report-only "paragraph_coverage" layer (R27-A item 2, Decision-Log
-    Entry 55). Nothing here changes what apply_net does with a turn -
-    apply_net calls check_turn directly, never this function; this exists
-    for engine.m4.uncited_claims's own paragraph-level detection to read.
+    report-only "paragraph_coverage" layer. Nothing here changes what
+    apply_net does with a turn - apply_net calls check_turn directly,
+    never this function; this exists for engine.m4.uncited_claims's own
+    paragraph-level detection to read.
 
     paragraph_coverage is a list, one entry per blank-line paragraph
     (split_into_paragraphs), each:
@@ -459,9 +512,8 @@ def check_turn_with_paragraph_coverage(
                                this is a one-sentence paragraph carrying no
                                tag of its own, in which case it is the
                                immediately PRECEDING paragraph's own
-                               cited_record_ids instead (Entry 55's own
-                               recommendation - coverage only; see
-                               inherited_from_preceding below)
+                               cited_record_ids instead (coverage only;
+                               see inherited_from_preceding below)
       wholly_uncited         - true when cited_record_ids is empty - this
                                paragraph carries no citation anywhere, not
                                even by inheritance

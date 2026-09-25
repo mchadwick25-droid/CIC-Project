@@ -1,0 +1,19 @@
+source_file: wyclif_tracts-and-treatises_vaughan1845.txt
+
+assignments:
+  - work: "Tracts and Treatises of John de Wycliffe, with Selections and Translations from His Manuscripts, and Latin Works"
+    author: wyclif
+    locus: "whole volume"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's own tracts and treatises, with selections/translations from
+      his manuscripts and Latin works, ed./trans. Robert Vaughan (1845,
+      for the earlier, distinct 1840s "Wycliffe Society" - not the same
+      body as the later Wyclif Society behind the Arnold/Matthew/
+      Buddensieg editions also vendored this session). An additional PD
+      lead this world's own Source Readiness Dossier §3 identified beyond
+      the census's own named sources. Vendored 2026-09-25 as part of a
+      pre-Doc_02 source-acquisition pass for lollardy.

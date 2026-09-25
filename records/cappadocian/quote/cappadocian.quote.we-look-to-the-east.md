@@ -40,10 +40,9 @@ relations:
 - type: associated-with
   target: cappadocian.dw.customs-from-the-apostles
 modern_rendering: >-
-  We all face east when we pray, but most of us don't even know why: we are
-  looking for our own old country - the Paradise God planted in Eden, in
-  the east. We pray standing on the first day of the week, but most of us
-  don't know the reason for that either.
+  So we all look to the East when we pray, but few of us know that we are seeking our own
+  old country -- Paradise, which God planted in Eden, in the East. We pray standing on the
+  first day of the week, but not all of us know the reason.
 ---
 Verified verbatim 2026-08-31 directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 27, sec.

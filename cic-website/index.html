@@ -46,11 +46,11 @@ p{margin:0 0 1rem}
 .wrap{max-width:var(--col);margin:0 auto;padding:0 1.25rem}
 
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four items together don't fit one row at the page's own 1024px
-   header width -- verified by measuring rendered widths directly rather
-   than guessing (brand+features+menu-trigger ~957px fits; the same row
-   with the nav's four links spelled out inline would run to ~1250px). */
+   row: the nav collapses into a "Menu" dropdown since all four items
+   together don't fit one row at the page's own 1024px header width --
+   verified by measuring rendered widths directly rather than guessing
+   (brand+features+menu-trigger ~957px fits; the same row with the nav's
+   four links spelled out inline would run to ~1250px). */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .brand{display:flex;align-items:center;gap:.5rem}
@@ -61,16 +61,16 @@ p{margin:0 0 1rem}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
 /* Centered in the space actually available between the logo and the menu
-   button, not just "centered in whatever's left over" (that was tried with
-   equal flex-grow on .brand/.menu, but the wordmark's fixed width wins a
-   floor against flex-shrink so the two sides end up unequal) and not
+   button, not just "centered in whatever's left over" (equal flex-grow on
+   .brand/.menu fails because the wordmark's fixed width wins a
+   floor against flex-shrink, so the two sides end up unequal) and not
    naive full-row-width centering either (that ignores brand and menu's
    own widths entirely and visually collides with the wordmark, since
-   brand is wider than menu -- Mark, 2026-09-19: "can you center them").
-   Grid's max-content/1fr/max-content sizes the outer two columns to
-   brand's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   brand is wider than menu). Grid's max-content/1fr/max-content sizes
+   the outer two columns to brand's and menu's own content exactly, so
+   the middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -82,9 +82,8 @@ p{margin:0 0 1rem}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
 /* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
    real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
-   "you shouldn't have to click to get it to allow you to move in the hover
-   mode"). Touching boxes keep :hover continuous all the way down. */
+   which drops :hover before the pointer reaches the menu. Touching boxes
+   keep :hover continuous all the way down. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
 .menu:hover .site-nav,.menu.open .site-nav{display:flex}
@@ -123,25 +122,25 @@ p{margin:0 0 1rem}
 .hero-lead{display:block;font-size:clamp(2rem,1.3rem + 2.8vw,3.25rem);font-weight:600}
 .hero-dek{display:block;font-family:var(--sans);font-size:clamp(1.15rem,1rem + .7vw,1.4rem);font-weight:400;color:var(--muted);line-height:1.55;max-width:70rem;margin:.8rem auto 0}
 .home-flow{max-width:var(--wide);margin:0 auto;padding:.5rem 1.25rem 0}
-/* Table (2/3) + the contribution card (1/3), side by side -- Mark,
-   2026-09-18: the contribution card moved here from beside "The Unfolding
-   Story" text, which now runs full width on its own with the door photo
-   dropped entirely (see .flow-story below and the removed .give-photo). */
+/* Table (2/3) + the contribution card (1/3), side by side -- the
+   contribution card sits here rather than beside "The Unfolding Story"
+   text, which runs full width on its own with the door photo dropped
+   entirely (see .flow-story below and the removed .give-photo). */
 /* Name (large, white) / tagline (italic, orange) / rest of the text
    (white) -- the same pattern as .atlas-showcase-copy and the Table
    card below, so all three features (Church Family Tree / Conversation
-   with One / Build a Table) read consistently (Mark, 2026-09-18). The
-   chairs gallery right below this is Conversation with One's own
-   "image section," the same role the video plays for Church Family
-   Tree and the portrait plays for Build a Table. */
+   with One / Build a Table) read consistently. The chairs gallery right
+   below this is Conversation with One's own "image section," the same
+   role the video plays for Church Family Tree and the portrait plays
+   for Build a Table. */
 /* .feature-card: the one bordered-container look shared by all three
-   features (Mark, 2026-09-19: "make the spacing and differentiation...
-   clear... standardized" -- Build a Table already looked like this via
-   .flow-card, but Church Family Tree and Conversation with One had no
-   container at all and ran straight into whatever came next). Same
-   border/radius/background/overflow as .flow-card, reused here rather
-   than duplicated with different values, so "standardized" is actually
-   true and not just three rules that happen to look similar. */
+   features, standardizing the spacing and differentiation between them
+   -- Build a Table already looked like this via .flow-card, but Church
+   Family Tree and Conversation with One had no container at all and ran
+   straight into whatever came next. Same border/radius/background/
+   overflow as .flow-card, reused here rather than duplicated with
+   different values, so "standardized" is actually true and not just
+   three rules that happen to look similar. */
 .feature-card{margin:3rem 0 0;background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .conversation-card{padding:1.75rem}
 .conversation-intro{margin:0 0 1.5rem}
@@ -165,20 +164,20 @@ p{margin:0 0 1rem}
    accessibility bar (WCAG-checked throughout) doesn't accept on a guess.
    prefers-reduced-motion swaps in the existing static atlas-preview.jpg
    instead of the video.
-   Mark, 2026-09-18: narrowed to the width of the text column and capped
-   in height so it reads as a narrow window looking in on the map, not a
-   full-bleed banner -- was width:100%;aspect-ratio:16/7.
-   Now a .feature-card itself (Mark, 2026-09-19), matching the same
-   var(--wide)-less-2.5rem column the chairs gallery and Unfolding Story
-   already use -- video and text no longer need their own separate
-   width-matching math since the card they both sit inside carries it. */
+   Narrowed to the width of the text column and capped in height so it
+   reads as a narrow window looking in on the map, not a full-bleed
+   banner.
+   A .feature-card itself, matching the same var(--wide)-less-2.5rem
+   column the chairs gallery and Unfolding Story already use -- video
+   and text don't need their own separate width-matching math since
+   the card they both sit inside carries it. */
 .atlas-showcase{max-width:calc(var(--wide) - 2.5rem);margin-left:auto;margin-right:auto}
-/* Trimmed 30% shorter (Mark, 2026-09-19: "so the title of the Church
-   Family Tree lands on the first screen when the landing page uploads")
-   -- was min(60vh,480px). Flush at the top of the card (no side
-   width-matching math of its own now, no border of its own -- the hover
-   affordance is a slight zoom instead, since a border here would sit
-   oddly against the card's own rounded top corners). */
+/* Short enough that the title of Church Family Tree lands on the
+   first screen when the landing page loads.
+   Flush at the top of the card (no side width-matching math of its own,
+   no border of its own -- the hover affordance is a slight zoom
+   instead, since a border here would sit oddly against the card's own
+   rounded top corners). */
 .atlas-showcase-media{position:relative;display:block;width:100%;height:min(42vh,336px);overflow:hidden;background:var(--ground)}
 .atlas-showcase-media video,.atlas-showcase-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease}
 .atlas-showcase-media:hover video,.atlas-showcase-media:hover img,.atlas-showcase-media:focus-visible video,.atlas-showcase-media:focus-visible img{transform:scale(1.03)}
@@ -200,8 +199,7 @@ p{margin:0 0 1rem}
 .flow-card img{width:100%;aspect-ratio:1200/655;object-fit:cover;display:block;background:var(--ground)}
 /* Name (h2) right after the image, then the tagline (.eyebrow's own
    orange color, restyled to italic sentence case) -- matches
-   .atlas-showcase-copy's own Name/tagline/text order and colors
-   (Mark, 2026-09-18). */
+   .atlas-showcase-copy's own Name/tagline/text order and colors. */
 .flow-card h2{font-size:1.2rem;margin:1.1rem 1.2rem 0}
 .flow-card .eyebrow{font-size:.95rem;font-style:italic;font-weight:400;text-transform:none;letter-spacing:normal;margin:.4rem 1.2rem 0}
 .flow-card p{font-family:var(--sans);font-size:.9rem;color:var(--text);line-height:1.55;margin:.5rem 1.2rem 0}
@@ -220,15 +218,13 @@ p{margin:0 0 1rem}
    flush against as its last child) rather than trying to stick an element
    to the bottom of the scrolling box itself -- simpler and more reliable
    than position:sticky here, and it doesn't scroll away with the content
-   since it's not part of the scrollable element (Mark, 2026-09-19: "add a
-   fade at the bottom so it's obvious it scrolls"). */
+   since it's not part of the scrollable element. Marks the bottom edge
+   as scrollable so it doesn't read as the list's own hard stop. */
 .who{padding:.3rem 0 0;position:relative}
 .who::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4.5rem;background:linear-gradient(to bottom,transparent,var(--surface) 75%);pointer-events:none}
 .who h2{font-size:clamp(1.6rem,3.2vw,2rem);margin:0 0 .8rem;max-width:var(--measure);color:var(--action)}
 /* Fixed-height scroll box, not a card that just keeps growing as more
-   worlds and eras are added (Mark, 2026-09-19: "we will have scroll up
-   and down with the next world and a third era... let's build the
-   fixed-height scrolling box"). min(vh,px) so it never eats the whole
+   worlds and eras are added. min(vh,px) so it never eats the whole
    viewport on a short screen -- same idiom as .atlas-showcase-media's
    own height cap. overscroll-behavior-y:contain (already set) stops a
    scroll that hits the top/bottom of this box from chaining into a
@@ -239,19 +235,15 @@ p{margin:0 0 1rem}
 .era-head .dates{font-weight:400;letter-spacing:.04em;text-transform:none}
 /* Plain native overflow, deliberately with no custom scrollbar CSS or JS
    of any kind -- several rounds of trying to style or replace the native
-   scrollbar here all ran into a paint bug that turned out to be specific
-   to this session's own Linux/Xvfb sandbox, not to real browsers: the
-   plain, unmodified version of this rule already works correctly in
-   production, on Mark's own real browser (Mark, 2026-09-19: "it works
-   fine on the live www.churchinconversation.com site. just use its
-   system"). Matches cic-website/index.html on main exactly. */
+   scrollbar here all ran into a paint bug specific to a sandboxed Linux/
+   Xvfb testing environment, not to real browsers: the plain, unmodified
+   version of this rule already works correctly in production. */
 .chairs{list-style:none;margin:.4rem 0 0;padding:0 0 .6rem;display:flex;gap:1.5rem;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;scroll-padding-left:.1rem;contain:layout}
 .chair{--ring:var(--tint-dark);flex:0 0 auto;width:296px;scroll-snap-align:start;display:flex;flex-direction:column;align-items:flex-start;gap:.5rem;background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:.8rem}
 /* Narrower than the container on small screens so the next card peeks in
-   at the edge (Mark, 2026-09-19: "add a peek of the next card") -- at a
-   296px fixed width the card was as wide as or wider than its own mobile
-   scroll container, so nothing of the next card ever showed and there
-   was no visual hint the row scrolls at all. */
+   at the edge -- at a 296px fixed width the card would be as wide as or
+   wider than its own mobile scroll container, leaving nothing of the next
+   card showing and no visual hint the row scrolls at all. */
 @media (max-width:48rem){
   .chair{width:calc(100% - 2.5rem)}
 }
@@ -260,14 +252,12 @@ p{margin:0 0 1rem}
 /* .chair-body is its own flex column (flex:1, filling whatever extra
    height row-stretching gives a shorter card) so .launch can anchor to
    the very bottom with margin-top:auto, instead of sitting stacked right
-   under the brief with dead space below it (Mark, 2026-09-19: "get as
-   many lines... put the launch a conversation at the bottom"). */
+   under the brief with dead space below it. */
 .chair-body{display:flex;flex-direction:column;flex:1;width:100%}
 /* The whole name/tradition/dates/brief block is one link to the
-   tradition page -- no separate arrow row (Mark, 2026-09-19: "get rid
-   of the arrow... make clicking on the general text take to the
-   interior card"). display:flex here (not block) keeps the children
-   stacked exactly as they were as chair-body's own direct children. */
+   tradition page -- no separate arrow row. display:flex here (not
+   block) keeps the children stacked exactly as they were as
+   chair-body's own direct children. */
 .chair-link{display:flex;flex-direction:column;color:inherit;text-decoration:none}
 .chair-link:hover h4,.chair-link:focus-visible h4{color:var(--action-hover)}
 .chair h4{font-size:1.1rem;font-weight:700;margin:0}
@@ -277,17 +267,14 @@ p{margin:0 0 1rem}
    own (often emic) name for it -- e.g. "The Church of the Martyrs
    (Donatism)" -- so a visitor who only knows the academic label can still
    find their way to the world that goes by a different name on its own
-   card (Mark, 2026-09-19: "add the academic name to the card under or
-   next to the accessable name... The Church of Martyrs (Donotism)
-   example"). Sourced from each world's own census entry.subtitle field,
-   not composed here. Upright and muted against the italic name it
-   follows, matching how .role and .meta already de-emphasize secondary
+   card. Sourced from each world's own census entry.subtitle field, not
+   composed here. Upright and muted against the italic name it follows,
+   matching how .role and .meta already de-emphasize secondary
    identifying text on this card. */
 .chair .trad-academic{font-style:normal;color:var(--muted)}
 .chair .meta{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:0}
 /* Line-clamp raised from 5 to 7 -- removing the separate arrow row freed
-   the space for a line or two more of the brief (Mark, 2026-09-19: "get
-   rid of the arrow and add another line or two"). */
+   the space for a line or two more of the brief. */
 .chair .tile{margin:0;font-size:.9rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
 .chair .launch{display:inline-flex;align-items:center;min-height:44px;font-family:var(--sans);font-size:.9rem;font-weight:600;text-decoration:none;border-bottom:1px solid currentColor;margin-top:auto;padding-top:.6rem}
 .more-link{margin:1.5rem 0 0;font-family:var(--sans);font-size:.9rem}
@@ -302,8 +289,8 @@ p{margin:0 0 1rem}
 /* Fills whatever blank space the card's own stretched height (matching the
    Table card beside it) leaves below the give buttons -- flex:1 rather than
    a fixed height so it absorbs exactly that space at any card height.
-   aspect-ratio caps it too (Mark, 2026-09-19, fixing a real bug): the photo
-   itself is a tall portrait crop (700x1050), and without a cap, an <img>
+   aspect-ratio caps it too, fixing a real bug: the photo itself is a
+   tall portrait crop (700x1050), and without a cap, an <img>
    with height:100% inside this flex item falls back to that native ratio
    during the browser's own auto-height/intrinsic-sizing pass -- which made
    the Support card's own natural height balloon past Build a Table's,
@@ -312,7 +299,7 @@ p{margin:0 0 1rem}
    than this when the Table card genuinely is taller, same as before. */
 /* Inset padding, no background of its own, so the card's own --surface
    shows through around the photo like a mat/frame rather than the image
-   running edge to edge inside its allotted space (Mark, 2026-09-18). */
+   running edge to edge inside its allotted space. */
 .support-photo{flex:1;aspect-ratio:16/10;min-height:60px;margin:0 0 .9rem;padding:.5rem;border-radius:6px;overflow:hidden}
 .support-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85);border-radius:4px}
 .support-more{font-size:.8rem;color:var(--muted);margin:0}
@@ -326,7 +313,7 @@ p{margin:0 0 1rem}
 .photo-credits a{color:var(--graphite);min-height:auto}
 @media print{ .site-header,.support,.skip-link{display:none} }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out (Mark, 2026-09-19), matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens and pushed "Build a Table" off the edge of the viewport instead. */
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Centered via the grid rule above at wide widths; filled rust so the three stand out, matching the site's existing solid-button pattern (.support-btn) rather than inventing a new fill color. flex-shrink stays at its default (1), not 0 -- a fixed-width feature-bar can't shrink to wrap its own buttons on narrow screens, which would push "Build a Table" off the edge of the viewport. */
 .feature-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem}
 .feature-btn{font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--vellum);background:var(--madder);text-decoration:none;padding:.5rem 1.1rem;border:1px solid var(--madder);border-radius:999px;min-height:38px;display:inline-flex;align-items:center}
 .feature-btn:hover,.feature-btn:focus-visible{background:var(--madder-deep);border-color:var(--madder-deep);color:var(--vellum)}
@@ -390,11 +377,10 @@ p{margin:0 0 1rem}
            recorded chrome-free (topbar/feature-bar/scope-note/legend/reset
            button hidden -- just the map). Ambient, not meant to be read
            frame-by-frame; the section's own text below carries the
-           explanation. Plays once per page load (Mark, 2026-09-18: no loop
-           needed) and resets to its era-1 opening frame afterward rather
-           than resting on era 10 -- see the script below. The whole thing
-           is now a link to the Family Tree itself (Mark, 2026-09-19: "set
-           the launch click to the visual"), not just decorative. -->
+           explanation. Plays once per page load and resets to its era-1
+           opening frame afterward rather than resting on era 10 -- see the
+           script below. The whole thing is a link to the Family Tree
+           itself, not just decorative. -->
       <video id="atlas-showcase-video" autoplay muted playsinline poster="assets/atlas-preview.jpg" aria-hidden="true">
         <source src="assets/atlas-scroll-preview.webm" type="video/webm">
         <source src="assets/atlas-scroll-preview.mp4" type="video/mp4">
@@ -404,7 +390,7 @@ p{margin:0 0 1rem}
     <div class="atlas-showcase-copy">
       <h2 id="atlas-showcase-title">Church Family Tree</h2>
       <p class="tagline">An interactive map of Christian tradition, from the first house-churches to today</p>
-      <p>This map traces the movements, schisms, and revivals of Christian history as rivers that wind and widen across time. Click any name — or any river — to read its story: who carried it, what it believed, and where the account comes from. A growing number of Christian Traditions are fully built, each with its own representative voice you can have a conversation with.</p>
+      <p>This map traces the movements, revivals, and divisions of Christian history as rivers that wind and widen across time. Click any name, river, or icon to read its documented story: who carried it, its legacy, and where the record comes from. A growing number of Christian traditions are fully built, each with its own representative voice you can have a conversation with.</p>
       <a class="cta-link" href="atlas-v3.html">Open Church Family Tree →</a>
     </div>
   </section>
@@ -644,10 +630,10 @@ var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-moti
 
 // Plays once (no loop); resting on era 10's own frame afterward read as the
 // section stopping on "the end" rather than the church's whole span -- reset
-// back to the era-1 opening frame instead once playback finishes (Mark,
-// 2026-09-18). Reduced-motion visitors already get the static poster image
-// in place of this video (see .atlas-showcase-media's own CSS), so this
-// listener never fires for them.
+// back to the era-1 opening frame instead once playback finishes.
+// Reduced-motion visitors already get the static poster image in place of
+// this video (see .atlas-showcase-media's own CSS), so this listener never
+// fires for them.
 var showcaseVideo = document.getElementById('atlas-showcase-video');
 if (showcaseVideo) {
   showcaseVideo.addEventListener('ended', function(){
@@ -681,9 +667,9 @@ if (headerMark && !reduceMotion) {
   });
 }
 
-// Site nav collapsed into a "Menu" dropdown (Mark, 2026-09-19): :hover in
-// CSS handles the mouse case, this handles keyboard (Enter/Space on the
-// button, then Escape to close) and touch, which don't hover.
+// Site nav collapsed into a "Menu" dropdown: :hover in CSS handles the
+// mouse case, this handles keyboard (Enter/Space on the button, then
+// Escape to close) and touch, which don't hover.
 var menu = document.querySelector('.menu');
 var menuToggle = document.getElementById('menu-toggle');
 if (menu && menuToggle) {

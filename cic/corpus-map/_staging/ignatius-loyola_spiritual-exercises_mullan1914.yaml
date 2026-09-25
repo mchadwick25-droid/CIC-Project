@@ -1,0 +1,15 @@
+source_file: ignatius-loyola_spiritual-exercises_mullan1914.txt
+
+assignments:
+  - work: "The Spiritual Exercises of St. Ignatius"
+    author: ignatius-loyola
+    locus: "whole text"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Ignatius of Loyola's own foundational spiritual text, trans. Elder
+      Mullan, S.J. (1914) - the structured month of prayer that shaped
+      every Jesuit the order trained. Vendored 2026-09-24 as part of a
+      pre-Doc_02 source-acquisition pass for this candidate.

@@ -1,0 +1,511 @@
+{
+  "rulings": [
+    "R37 (2026-09-23)",
+    "R37-A (2026-09-23, asymmetric window)",
+    "R37-B (2026-09-24)"
+  ],
+  "summary": {
+    "B-other-tradition": {
+      "probes": 11,
+      "licensed_under_condition_a": 11,
+      "matches_r37_a": 11,
+      "branch_counts": {
+        "records_name_it": 4,
+        "condition_a": 7,
+        "question_words_only": 0
+      }
+    },
+    "C-later-tradition": {
+      "probes": 11,
+      "licensed_under_condition_a": 2,
+      "matches_r37_a": 11,
+      "branch_counts": {
+        "records_name_it": 1,
+        "condition_a": 1,
+        "question_words_only": 9
+      }
+    }
+  },
+  "rows": [
+    {
+      "world": "alx",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 150,
+        "end": 400
+      },
+      "probe": "What was your relationship with the Donatists?",
+      "named_tradition": "don",
+      "named_window": {
+        "start": 311,
+        "end": 439
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "alx",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 150,
+        "end": 400
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "cappadocian",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 325,
+        "end": 394
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "cappadocian",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 325,
+        "end": 394
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "desert",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 320,
+        "end": 430
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [
+        "desert.contested.alexandria-continuity",
+        "desert.demo.center-jesus-as-god",
+        "desert.story.antony-secret-burial",
+        "desert.story.sarapion-anthropomorphite",
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "revealed_excerpts": [],
+      "branch": "records_name_it",
+      "honest_limit_sentence_in_directive": false,
+      "directive": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[desert.contested.alexandria-continuity]], [[desert.demo.center-jesus-as-god]], [[desert.story.antony-secret-burial]], [[desert.story.sarapion-anthropomorphite]], [[desert.story.virgin-who-hid-athanasius]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+    },
+    {
+      "world": "desert",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 320,
+        "end": 430
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "don",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 311,
+        "end": 439
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "don",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 311,
+        "end": 439
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "gallic",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 360,
+        "end": 450
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "gallic",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 360,
+        "end": 450
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "hal",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 382,
+        "end": 420
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [
+        "hal.dw.authority",
+        "hal.story.rufinus-rupture"
+      ],
+      "revealed_excerpts": [],
+      "branch": "records_name_it",
+      "honest_limit_sentence_in_directive": false,
+      "directive": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[hal.dw.authority]], [[hal.story.rufinus-rupture]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+    },
+    {
+      "world": "hal",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 382,
+        "end": 420
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "ijc",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 312,
+        "end": 451
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [
+        "ijc.quote.julius-custom",
+        "ijc.quote.let-the-ancient-customs-prevail",
+        "ijc.quote.sozomen-thessalonica-law",
+        "ijc.story.letter-that-outranked-a-council"
+      ],
+      "revealed_excerpts": [],
+      "branch": "records_name_it",
+      "honest_limit_sentence_in_directive": false,
+      "directive": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[ijc.quote.julius-custom]], [[ijc.quote.let-the-ancient-customs-prevail]], [[ijc.quote.sozomen-thessalonica-law]], [[ijc.story.letter-that-outranked-a-council]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+    },
+    {
+      "world": "ijc",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 312,
+        "end": 451
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "pahc",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 70,
+        "end": 200
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [
+        "pahc.contested.egypt-exclusion"
+      ],
+      "revealed_excerpts": [],
+      "branch": "records_name_it",
+      "honest_limit_sentence_in_directive": false,
+      "directive": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[pahc.contested.egypt-exclusion]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+    },
+    {
+      "world": "pahc",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 70,
+        "end": 200
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "rzg",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "rzg",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "probe": "What was your relationship with The Catechized Households of Wittenberg?",
+      "named_tradition": "witt",
+      "named_window": {
+        "start": 1517,
+        "end": 1580
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "syr",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 200,
+        "end": 410
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "syr",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 200,
+        "end": 410
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": false,
+      "expected_under_r37_a": false,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "question_words_only",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+    },
+    {
+      "world": "witt",
+      "probe_id": "B-other-tradition",
+      "window": {
+        "start": 1517,
+        "end": 1580
+      },
+      "probe": "What was your relationship with Alexandrian Christianity?",
+      "named_tradition": "alx",
+      "named_window": {
+        "start": 150,
+        "end": 400
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [],
+      "revealed_excerpts": [],
+      "branch": "condition_a",
+      "honest_limit_sentence_in_directive": true,
+      "directive": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+    },
+    {
+      "world": "witt",
+      "probe_id": "C-later-tradition",
+      "window": {
+        "start": 1517,
+        "end": 1580
+      },
+      "probe": "What was your relationship with The Reformed Cities?",
+      "named_tradition": "rzg",
+      "named_window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "known_in_window": true,
+      "expected_under_r37_a": true,
+      "records_name_it": [
+        "witt.dw.one-holy-church-forever"
+      ],
+      "revealed_excerpts": [],
+      "branch": "records_name_it",
+      "honest_limit_sentence_in_directive": false,
+      "directive": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[witt.dw.one-holy-church-forever]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+    }
+  ]
+}

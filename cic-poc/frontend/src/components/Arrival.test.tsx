@@ -1,5 +1,5 @@
 /**
- * Stage 6e (R10's own "label copy" requirement): the ✲ mark explainer
+ * The ✲ mark explainer
  * sentence is new prose in an otherwise verbatim-carried disclosure
  * block (see Arrival.tsx's own header comment) - this test pins that
  * it actually renders, since nothing else in the suite touches this

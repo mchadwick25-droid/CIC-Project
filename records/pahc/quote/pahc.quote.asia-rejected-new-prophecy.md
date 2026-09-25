@@ -27,11 +27,11 @@ text: For when the faithful throughout Asia met together often and in many place
   to be spurious, and rejected them as heretical, they were in consequence of that expelled from the
   Church and debarred from communion.
 modern_rendering: >-
-  Believers all over Asia kept meeting - again and again, in many
-  different places - to examine these new teachings closely. They judged
-  them false and rejected them as heresy. Because of that, the followers
-  of the New Prophecy were put out of the church and cut off from
-  communion.
+  Believers all over Asia kept meeting for deliberation on this. This
+  happened again and again, in many different places. They subjected
+  these new teachings to examination. They declared them false, and
+  rejected them as heresy. Because of that, they were expelled from the
+  Church and debarred from communion.
 speaker_or_author: "The Anonymous anti-Montanist writer (c. 192-193 CE), addressing Avircius
   Marcellus; printed by ANF under the conjectural name 'Asterius Urbanus,' not treated as a real
   attribution here"

@@ -28,6 +28,14 @@ text: >-
   who were first trained in the Cœnobium and then being made perfect in practical life chose the
   recesses of the desert: and in this order we also hope to gain a place. The third is the reprehensible
   one of the Sarabaites.
+modern_rendering: >-
+  There are three kinds of monks in Egypt. Two of them are admirable. The third is a
+  poor kind, to be avoided at all costs. The first kind is the Coenobites. They live
+  together in a community, governed by the direction of one elder. Of the three kinds,
+  this one has the largest number of monks throughout all of Egypt. The second kind is
+  the anchorites. They first trained in the coenobium. Then, once they were made perfect
+  in the practical life, they chose the solitude of the desert. We too hope to have a
+  place in this order. The third kind is the shameful order of the Sarabaites.
 speaker_or_author: Abbot Piamun, as Cassian records him
 license: verbatim
 modern_lens_note: >-

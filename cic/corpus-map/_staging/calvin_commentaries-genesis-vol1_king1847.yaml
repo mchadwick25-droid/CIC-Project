@@ -1,0 +1,25 @@
+# Closes a Verified Acquisition Lead from the Reformed Cities dossier
+# (Atlas VI.2) - a deliberate partial acquisition of the ~22-volume Calvin
+# Translation Society Commentaries series, this one representative volume-pair
+# (Genesis) only.
+source_file: calvin_commentaries-genesis-vol1_king1847.txt
+
+assignments:
+  - work: "Commentaries on the First Book of Moses, Called Genesis, Vol. I"
+    author: calvin
+    locus: "whole file - Vol. I"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Calvin's own exegetical voice, trans. Rev. John King (Edinburgh:
+      Calvin Translation Society, 1847) - a distinct register from the
+      Institutes (systematic theology) and the Geneva Catechism
+      (catechetical), completing this world's coverage of Calvin's three
+      major genres. One representative volume-pair out of the dossier's
+      own ~22-volume CTS Commentaries lead; the remaining volumes (Psalms,
+      the Gospel harmony, Paul's epistles, and others) were not researched
+      or vendored this pass - a real, disclosed, open acquisition
+      opportunity for a future session, not itemized here as though
+      complete.

@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   And he longed to suffer martyrdom, but not being willing to give himself up, he ministered to the confessors in the mines and in the prisons. ... So all the rest thought it good to hide themselves that day, but Antony gave so little heed to the command that he washed his garment, and stood all next day on a raised place before them, and appeared in his best before the governor. ... For, as I said before, he prayed himself to be a martyr, wherefore he seemed as one grieved that he had not borne his witness.
+modern_rendering: >-
+  He longed to suffer martyrdom. But he was not willing to hand himself over, so instead he served
+  those who had confessed the faith, in the mines and in the prisons. ... So everyone else thought
+  it wise to hide themselves that day. But Antony paid so little attention to the order that he
+  washed his garment. The next day, he stood the whole day on a raised place in front of them,
+  dressed in his best clothes before the governor. ... For, as I said before, he had prayed to
+  become a martyr. So he seemed like a man grieving that he had not borne his witness.
 speaker_or_author: Athanasius, Life of Antony
 license: verbatim
 modern_lens_note: >-

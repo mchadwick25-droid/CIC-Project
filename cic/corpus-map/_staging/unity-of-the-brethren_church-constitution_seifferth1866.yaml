@@ -1,0 +1,19 @@
+source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt
+
+assignments:
+  - work: "Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)"
+    author: unity-of-the-brethren
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      The Unity of the Brethren's own institutional constitution, Latin
+      original with English translation, ed. Seifferth (1866). This
+      world's corpus previously held only Hus's own 15th-c. writing;
+      this is the first vendored voice from the later Unity generation
+      itself, directly filling the gap the Step0 Revision 2 document's
+      §4 binding item 2 named (Unity's own missing primary voice).
+      Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+      source-acquisition pass.

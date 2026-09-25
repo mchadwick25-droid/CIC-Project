@@ -54,6 +54,8 @@ The following are **live and used by the program, or are canonical build output*
 
 Notes, decision logs, audit trails, adversarial-review rounds, status reports, and strategy discussion belong in `Ministry/` (e.g. `Ministry/Operations/Audits/`, the various `*_Decision_Log.md` files) — never inline in the files listed above. If you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it. Superseded material goes to `Archive/`; nothing is deleted without instruction.
 
+Any PR that edits a live or canonical file also removes the commentary already in that file; the check in tools/check_live_commentary.py shows what is there.
+
 The root `README.md` is the map of the whole tree — every top-level entry, its kind, and what reads it. This list follows the map; if they disagree, fix the map first (and log it in `Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`), then this list.
 
 ## Track gaps and exceptions explicitly — don't let them go quiet
@@ -118,7 +120,8 @@ Weekly usage credits keep running out. To fix that without losing quality (and w
 - Use Plan Mode before committing to implementation on anything with uncertain scope — explore read-only first rather than burning implementation-priced turns on discovery.
 - When a path turns out wrong, back out of it with a checkpoint/`/rewind` instead of patching over it — this is "no fix on a fix" (above), enforced mechanically.
 - Fable is reserved for complex design and research — the strategic thinking that sets the frame for everything downstream (system/front-end redesign proposals, comparative source-ecology and world-strategy research, org/funding strategy). Use it where getting the frame right the first time avoids many cheaper rounds of rework later, not for routine drafting or anything that repeats.
-- Opus is for the final adversarial-review gate only. Draft and do intermediate revision rounds with Sonnet.
+- Opus reviews every adversarial-review round; Sonnet drafts and revises. From round 2 onward, review is a targeted recheck at lower effort.
+- One exception: modern-English renderings the voice speaks (a quote's `modern_rendering`, and any re-rendering of it) are authored by Opus. Sonnet did not hold the rendering bar on them (every clause, nothing added, one thought per sentence, nothing past about 25 words, no word whose modern sense misleads). Everything else still drafts on Sonnet.
 - From round 2 onward, do a targeted recheck (only what changed, against prior findings) instead of a full re-review from scratch.
 - Push mechanical work — package rebuilds, citation/log fixes, formatting, indexing — to Haiku.
 - Batch related work into one longer session instead of many short restarted ones; short sessions lose the prompt cache and re-pay for context every time.

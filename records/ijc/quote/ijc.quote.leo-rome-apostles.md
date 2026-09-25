@@ -20,6 +20,11 @@ sources:
 text: These are they who promoted thee to such glory, that being made a holy nation, a chosen people,
   a priestly and royal state , and the head of the world through the blessed Peter's holy See thou didst
   attain a wider sway by the worship of God than by earthly government.
+modern_rendering: >-
+  These are the ones who raised you to such glory. You were made a holy nation, a chosen
+  people, a priestly and royal state, and the head of the world through the blessed
+  Peter's holy see. Through this, you gained a wider rule by the worship of God than by
+  earthly government.
 speaker_or_author: ijc.figure.leo
 license: verbatim
 modern_lens_note: >-

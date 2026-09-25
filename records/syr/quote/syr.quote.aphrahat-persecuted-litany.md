@@ -28,6 +28,11 @@ relations:
 text: Hear, my beloved, these names of martyrs, of confessors, and of the persecuted. Abel was murdered,
   and his blood cried out from the earth. Jacob was persecuted, and fled and became an exile. Joseph was
   persecuted, and sold and cast into the pit. Moses was persecuted, and fled to Midian.
+modern_rendering: >-
+  Hear, my beloved, these names of martyrs, confessors, and the persecuted. Abel was
+  murdered, and his blood cried out from the earth. Jacob was persecuted, and he fled and
+  became an exile. Joseph was persecuted, and he was sold and thrown into the pit. Moses
+  was persecuted, and he fled to Midian.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'

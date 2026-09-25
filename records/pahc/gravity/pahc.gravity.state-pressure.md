@@ -46,31 +46,34 @@ relations:
 name: "State Pressure / Legal Precarity [SUPPORTING]"
 classification: supporting
 description: "Real, local, lethal exposure under law nobody was fully sure of - not a systematic hunt
-  across the empire, but a danger that could arrive in one town and not the next. SIX-TEST SUMMARY:
-  Repetition passes - four separate outside/hostile witnesses plus Ignatius's own corpus. Dependency
-  passes strongly - martyrdom-meaning is essentially the internal response to this force; authority's
-  urgency partly depends on it; institutional silence is best explained by it. Formation passes - shapes
-  risk calculus, willingness to gather, to recant or not. Explanatory passes strongly. Persistence passes
-  with an honest caveat this record does not smooth over: the specific episodes evidenced are
-  geographically and temporally scattered, not one continuous, systematic policy - the underlying
-  vulnerability persistent, the specific incidents intermittent. Interaction: demonstrated relationships
-  with authority-consolidation (G01, inferential - Ignatius deploying his own martyrdom as an argument
-  for his authority program), the network (G02, RESHAPING per Doc_04's own label, inferential - Ignatius
-  relies on the network precisely because he is under guard, a single-episode anchor; this schema's
-  closed relation vocabulary cannot itself carry Reshaping as a distinct type, so it is stated here in
-  prose), and martyrdom-meaning (G04, inferential). No demonstrated relationship with boundary-drawing
-  (G05) or liturgical-practice (G07) - Doc_04's own Interaction Matrix never traces either directly, and
-  this record does not manufacture one. AUTHOR GRAVITY RISK (Doc_04's own generation-stage rating):
-  Moderate - Pliny is the clearest single direct description, but Tacitus, Suetonius, and Ignatius's own
-  internal evidence independently corroborate the broader pattern, reducing (not eliminating)
-  single-source dependency. CONFIDENCE/GRAVITY CROSS-CHECK: the same
-  failure mode as authority consolidation - the six-test work crediting Dependency/Explanatory/Persistence
-  is done by the generalized, cross-episode synthesis, which is exactly the Contested layer this record
-  discloses; the narrow Documented core alone (one governor, one province, c. 111-113) does not by
-  itself explain institutional silence or drive martyrdom-meaning (built entirely from Ignatius and
-  Polycarp, not Pliny). CROSS-STRAND STATUS: confirmed via Strand B (Rome, Tacitus/Nero) and Strand A
-  (Antioch/Asia Minor, Ignatius's own arrest) on their own terms; Pliny's Bithynia-Pontus material
-  corroborates the general pattern but is a third data point, not a third strand."
+  across the empire, but a danger that could arrive in one town and not the next.
+
+  Four separate outside or hostile witnesses describe it, and Ignatius's own letters add to them. Much
+  depends on it. The meaning given to martyrdom is essentially the inner response to this danger. It
+  partly explains why the question of authority felt urgent. It is also the best explanation for the
+  silence around the churches' institutions. It shaped how members weighed risk: whether to gather, and
+  whether to deny the faith or not. It explains a great deal. But one honest limit stays in view. The
+  episodes we know of are scattered across places and years. They do not show one steady, systematic
+  policy. The danger was always there; the actual incidents came and went.
+
+  It connects with leadership: Ignatius uses his own coming death as an argument for his case for the
+  bishop. It also changed how the letter network was used, since Ignatius relied on that network
+  precisely because he was under guard. That link rests on this one episode. It connects too with the
+  meaning of martyrdom. All three links are drawn by inference, not from independent sources. No text
+  links it directly to boundary-drawing or to shared worship, and no such link is assumed here.
+
+  The risk of relying on one writer is moderate. Pliny gives the clearest single description. But
+  Tacitus, Suetonius, and Ignatius's own letters each support the broader pattern. That lowers the risk,
+  though it does not remove it.
+
+  Care is needed here, as with leadership. The broad picture that explains so much comes from joining
+  separate episodes together, and that joined-up picture is the disputed part. The part that is directly
+  documented is narrow: one governor, in one province, around 111-113. On its own, that does not explain
+  the silence around the churches' institutions. Nor does it drive the meaning of martyrdom, which is
+  built entirely from Ignatius and Polycarp, not from Pliny. The danger is confirmed on its own terms in
+  Rome, through Tacitus's account of Nero. It is confirmed separately in Antioch and Asia Minor, through
+  Ignatius's own arrest. Pliny's material from Bithynia-Pontus supports the general pattern. But
+  Bithynia-Pontus is not one of this world's own regions, so it adds a third example, not a third region."
 manifestations:
 - "Pliny's interrogation of Christians in Bithynia-Pontus, with two enslaved ministrae tortured for testimony"
 - "Nero scapegoating Christians for the Great Fire of Rome, per Tacitus"

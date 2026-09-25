@@ -42,25 +42,28 @@ name: 'The inheritance refused: the Augustinian seedbed, the seven-sacrament, mo
   apparatus [1B - initiating/internal]'
 kind: initiating
 matrix_cell: 1B
-description: 'LAYER 1 (Historical Event). ''The Augustinian Hermits are its seedbed (Luther''s own order)...
-  their Reformation-lands houses dissolved into this story'' (Doc_01 §8.6). The medieval sacramental system''s
-  own seven-sacrament structure and the papacy''s own claimed authority over doctrine are both explicitly
-  and repeatedly refused, not merely absent but argued against by name -- the reduction from seven sacraments
-  ''to but three'' and then ''but two'' (Documented). The Teutonic Order''s conversion into a hereditary
-  duchy and Albert''s 1526 marriage (Widely Accepted, editorial). A named open question is carried, not
-  resolved: whether the vocabulary in which the inheritance is refused -- vows, ''false chastity,'' the
-  Hours, the saints -- is this world''s own or the inheritance''s, unanswerable from this library. LAYER
-  2 (World''s Own Experience). Felt in the body as one''s own former vow and cowl: ''wearing a cowl will
-  not kill him'' (v2 15026); pastors ''delivered from the unprofitable and burdensome babbling of the
-  Seven Canonical Hours'' (LC 71-72); the saints kept by their specialisms -- fire, pestilence -- replaced
-  by the Word as ''the true holy water and holy sign from which he flees'' (LC 130-138). The confession''s
-  own list of what is no longer counted holy: ''particular holy-days, particular fasts, brotherhoods,
-  pilgrimages, services in honor of saints, the use of rosaries, monasticism'' (AC 501-504). LAYER 3 (Formation
-  Impact). Generated G3 -- the seven-sacrament, sacrifice-of-the-mass system is exactly the space this
-  force''s refusal fills; generated G7 as the refusal of the clerical estate; generated G9 -- the founder
-  was a friar, the world''s martyrs were monks. Gave G12 its replaced protections, the saints, and left
-  the world its one martyr narrative, the Brussels monks stripped of ''monkish garb... True priests of
-  God''s own making'' (Hy 1789-1800).'
+description: '"The Augustinian Hermits are its seedbed (Luther''s own order)... their Reformation-lands houses dissolved into
+  this story". This world refuses two things it inherited: the medieval church''s structure of seven sacraments,
+  and the papacy''s claim to authority over doctrine. Neither is simply missing; both are refused openly and
+  often, and argued against by name. It is well documented that the seven sacraments are cut "to but three" and
+  then "but two". The Teutonic Order was turned into a hereditary duchy, and Albert married in 1526, which is
+  widely accepted and rests on the editor''s word. One named question stays open and is not settled. The world
+  refuses its inheritance in words like vows, "false chastity," the Hours and the saints, but are those words this
+  world''s own, or the inheritance''s? This library cannot answer that.
+
+  Inside this world, the refusal was felt in the body, as a person''s own former vow and cowl: "wearing a cowl
+  will not kill him" (v2 15026). Pastors were "delivered from the unprofitable and burdensome babbling of the
+  Seven Canonical Hours" (LC 71-72). The saints had been kept for their special fields, such as fire and
+  pestilence, until the Word replaced them as "the true holy water and holy sign from which he flees" (LC
+  130-138). The confession gives its own list of what is no longer counted holy: "particular holy-days, particular
+  fasts, brotherhoods, pilgrimages, services in honor of saints, the use of rosaries, monasticism" (AC 501-504).
+
+  This force gave rise to the gravity of promise and sign, the sacraments, because the old system of seven
+  sacraments and the mass as sacrifice is exactly the space its refusal fills. From the refusal of the clerical
+  estate came estate, office and calling. From the same refusal came vows, chastity and marriage, since the
+  founder was a friar and the world''s martyrs were monks. It gave embattled Christendom the protections it
+  replaced, the saints. And it left the world its one martyr story: the Brussels monks stripped of "monkish
+  garb... True priests of God''s own making" (Hy 1789-1800).'
 manifestations:
 - the reduction from seven sacraments "to but three" and then "but two" (v2 6695-6701; v1 2271-2272)
 - pastors "delivered from the unprofitable and burdensome babbling of the Seven Canonical Hours" (LC 71-72)

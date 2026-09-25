@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever... that at this time Fabiola came to herself? Yet it was then that she put on sackcloth to make public confession of her error. It was then that in the presence of all Rome (in the basilica which formerly belonged to that Lateranus who perished by the sword of Cæsar ) she stood in the ranks of the penitents and exposed before bishop, presbyters, and people—all of whom wept when they saw her weep—her dishevelled hair, pale features, soiled hands and unwashed neck.
+modern_rendering: >-
+  Who would believe it? After her second husband died -- at a time when most widows shake
+  off the yoke of restraint and grow careless, taking more liberty than ever... -- Fabiola
+  instead came to herself. It was then that she put on sackcloth to make public confession
+  of her wrongdoing. It was then, before all Rome, in the basilica that had once belonged
+  to Lateranus (who died by Caesar's sword), that she stood in the ranks of the penitents.
+  Bishop, presbyters, and people watched, weeping to see her weep, as she showed her
+  disheveled hair, pale features, soiled hands, and unwashed neck.
 speaker_or_author: Jerome, Letter LXXVII on the death of Fabiola
 license: verbatim
 modern_lens_note: >-

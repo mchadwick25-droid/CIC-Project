@@ -168,12 +168,10 @@ works:
   locus: div1 9
   role: context
   confidence: assigned
-  note: 'Canon 1 anathematizes Eunomians, Arians, Semi-Arians and Macedonians by name - the
-    formal record of the parties the homoian entry names, from their condemners. 2026-08-26:
-    anomoean-eunomian-christianity added alongside, since canon 1 names Eunomians and Arians
-    as separate parties and this work is the record of both. 2026-08-26: canon 1 condemns
-    Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as separate parties;
-    each now has its own entry and this work is the record of all of them.'
+  note: Canon 1 anathematizes Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    by name, as separate parties - the formal record of the parties each of these entries
+    names, from their condemners. Each now has its own entry, and this work is the record
+    of all of them.
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: 'The First Council of Nicaea (325): Creed, Canons, Synodal Letter'
   author: council-of-nicaea-325
@@ -208,14 +206,13 @@ works:
   note: 'Written to the Gallic bishops to explain the eastern creeds before Ariminum/Seleucia
     - a direct primary account of the Homoian conciliar creeds, so the homoian assignment
     is firm, and the conciliar-imperial subject matter makes imperial-juridical a real second
-    home. Same unresolved question as De Trinitate: no census entry exists for Hilary''s own
-    Gallic church.
+    home. Same home question as De Trinitate: gallic-nicene-episcopate now holds Hilary''s
+    own Gallic church.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Cleared 2026-08-26: as De Trinitate - the doubt
-    was Hilary''s home, and gallic-nicene-episcopate now holds it. The homoian context assignment
-    was always the firm half.'
+    floor material only as `register: etic`. The homoian context assignment is the firm half
+    throughout.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: De Trinitate (On the Trinity)
   author: hilary_poit
@@ -223,21 +220,19 @@ works:
     2
   role: context
   confidence: assigned
-  note: 'The doubt is Hilary''s home, not the work: the census has NO entry for fourth-century
-    Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin anti-Arian voice
-    of the West has no author-entry to belong to. The homoian-arian-christianity assignment
-    is the firm half - this is the major Latin work written against the Arian ascendancy and
-    belongs in that excluded entry''s material. imperial-juridical is the best-guess home:
-    Hilary''s career was made by imperial church politics (exiled by Constantius, restored
-    under Julian), but Gaul is outside that entry''s stated region. Mark to rule where Hilary
-    himself lives.
+  note: 'Hilary''s home was the doubt, not the work: the census has NO entry of its own for
+    fourth-century Gallic Nicene Christianity (Merovingian Gaul begins c. 480), so the Latin
+    anti-Arian voice of the West had no author-entry to belong to. gallic-nicene-episcopate
+    now holds him. The homoian-arian-christianity assignment is the firm half besides - this
+    is the major Latin work written against the Arian ascendancy and belongs in that entry''s
+    material. imperial-juridical was considered as a best-guess home too: Hilary''s career
+    was made by imperial church politics (exiled by Constantius, restored under Julian), but
+    Gaul is outside that entry''s stated region.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Cleared 2026-08-26: this note''s own words were
-    that the homoian assignment is the firm half and the doubt was Hilary''s HOME. gallic-nicene-episcopate
-    was added on record and now holds him, so nothing here is open. The context relation to
-    the Arian party stands unchanged.'
+    floor material only as `register: etic`. The context relation to the Arian party stands
+    unchanged.'
   source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: The Dialogue Against the Luciferians
   author: jerome
@@ -302,7 +297,7 @@ works:
     Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
     is a near-contemporary (c. 449) external account of Ambrose''s own single most famous
     act, a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely.
-    Surfaced by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+    Surfaced through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml

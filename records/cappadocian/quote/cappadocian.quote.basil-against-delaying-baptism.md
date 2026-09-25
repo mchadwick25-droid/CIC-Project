@@ -66,11 +66,10 @@ relations:
 - type: associated-with
   target: cappadocian.dw.baptism-and-new-birth
 modern_rendering: >-
-  Are you young? Then guard your youth with baptism's bridle. Has your best
-  years already passed you by? Then don't go without the provisions you'll
-  need for the road ahead. Don't throw away your protection. Don't treat
-  the eleventh hour as if it were the first. Even at the very start of
-  life, we ought to already be keeping the end in view.
+  Are you young? Guard your youth with baptism's bridle. Has your prime passed by? Do not
+  go without your viaticum. Do not lose your safeguard. Do not treat the eleventh hour as
+  if it were the first. Even at the beginning of life, it is fitting that we already have
+  the end in view.
 ---
 Found 2026-09-02 following the build brief's own trail. `grep -n "Homily
 XIII"` on `cic/texts/npnf208_basil-letters-select-works.xml` returns one

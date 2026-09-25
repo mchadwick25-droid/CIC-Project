@@ -23,6 +23,13 @@ sources:
   license: public-domain
 text: >-
   A certain Paul, a rustic peasant, exceedingly guileless and simple, was wedded to a most beautiful woman of depraved character, who for a very long while concealed her sins from him. However, Paul came in suddenly from work and found his wife and her lover behaving shamefully, Providence thus guiding Paul to what was best for himself. And laughing discreetly he called to them and said: "Good, good. I don't mind, truly. By Jesus, I'll take her no longer. Go, you have her and her children, for I am going to become a monk."
+modern_rendering: >-
+  There was a certain Paul, a simple peasant from the countryside, utterly without guile. He was
+  married to a very beautiful woman of corrupt character. For a long time she hid her sins from him.
+  But one day Paul came home suddenly from work. He found his wife and her lover behaving
+  shamefully. Providence was guiding Paul toward what was best for him. He laughed quietly and said
+  to them: "Good, good. I truly don't mind. By Jesus, I will not take her back. Go -- you can have
+  her and her children. I am going to become a monk."
 speaker_or_author: Palladius, reporting the tale told him by Cronius and Hierax
 license: verbatim
 modern_lens_note: >-

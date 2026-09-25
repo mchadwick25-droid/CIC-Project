@@ -60,6 +60,12 @@ relations:
   target: gallic.gravity.received-not-invented
 - type: associated-with
   target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.quote.gallus-on-the-tribunes-for-the-spains
+- type: associated-with
+  target: gallic.quote.gallus-on-the-forced-communion-and-the-angel
+- type: associated-with
+  target: gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - with its caveats. Direct textual attestation within the
@@ -85,53 +91,52 @@ tellable_as: >-
   yields once to a communion he abhors, is told by an angel that his compunction is just, feels his
   power diminished, and never attends a synod again.
 text: >-
-  In his Dialogues, Sulpitius Severus has Gallus - one of Martin's own disciples - tell "an event which
-  he always concealed, owing to the character of the times, but which he could not conceal from us."
-  Sulpitius's Sacred History narrates an earlier phase of the same underlying affair, in his own voice.
+  In his Dialogues, Sulpitius Severus has Gallus - one of Martin's own disciples - tell a story Martin
+  had always kept quiet, except from his own household. Sulpitius's Sacred History narrates an earlier
+  phase of the same underlying affair, in his own voice.
 
-  After Priscillian had been put to death, the emperor Maximus "protected by his royal power Ithacius
-  the bishop, who had been the accuser of Priscillian." The bishops gathered at Treves were "daily
-  communicating with Ithacius" and "had made common cause with him." Martin was on his way to the court
-  "constrained ... by many serious causes of people involved in suffering" - and among the things being
-  prepared there was an order "to send some tribunes armed with absolute power into the two Spains, to
-  search out heretics, and, when found, to deprive them of their life or goods," a hunt in which, Gallus
-  says, "one was deemed a heretic rather on his turning pale from fear, or wearing a particular garment,
-  than by the faith which he professed."
+  After Priscillian had been put to death, the emperor Maximus used his power to shield the bishop
+  Ithacius, who had accused Priscillian in the first place. The bishops gathered at Treves stayed in
+  close touch with Ithacius and backed him. Martin was on his way to the court, pressed by many urgent
+  pleas from people in danger - and the emperor was already preparing to send tribunes with full power
+  into the two Spains, to hunt down heretics and, once found, take their lives or their property. Gallus
+  says a person could be judged a heretic simply for turning pale with fear or wearing the wrong
+  clothing, rather than for what they actually believed. (See gallic.quote.gallus-on-the-tribunes-for-the-spains
+  for Gallus's own words.)
 
-  The bishops, "conscious of evil as they were," feared that Martin would refuse them communion and
-  that others would follow him. They had the emperor's officials meet him on the road and forbid him
-  the city unless he would "maintain peace with the bishops who were living there." He answered "that he
-  would come among them with the peace of Christ," entered at night, prayed, and next day went to the
-  palace. His chief request was "that tribunes, with the power of life and death, should not be sent
-  into the Spains" - "not only to save from danger the true Christians in these regions ... but to
-  protect even heretics themselves." In the Sacred History Sulpitius states the principle in his own
-  words: Martin "maintained that it was quite sufficient punishment that, having been declared heretics
-  by a sentence of the bishops, they should have been expelled from the churches; and that it was,
-  besides, a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical
-  cause."
+  The bishops knew their own conduct would not sit well with Martin, and feared he would refuse to share
+  communion with them once he arrived. They had the emperor's officials meet him on the road and block
+  him from the city unless he promised to keep peace with them. Martin answered that he would come
+  instead with the peace of Christ. He entered at night, prayed, and went to the palace the next day.
+  His main request was that no tribunes with power over life and death be sent into the Spains - not
+  only to protect the true Christians there, but the heretics too.
 
-  The bishops went to the emperor in terror, saying "that nothing had really been accomplished by the
-  death of Priscillian, if Martin were to act the part of his avenger," and begged him to use his power
-  against this one man. Maximus tried persuasion first, then anger; and when Martin was unmoved,
-  "without delay, executioners are appointed for those in whose behalf Martin had made supplication."
+  In the Sacred History, Sulpitius states the same principle in his own voice: Martin held that being
+  cast out of the churches by the bishops' own sentence was already punishment enough, and that it was a
+  shocking wrong for a secular ruler to sit in judgment over a matter that belonged to the church. (See
+  gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause.)
 
-  "When this became known to Martin, he rushed to the palace, though it was now night. He pledges
-  himself that, if these people were spared, he would communicate; only let the tribunes ... be
-  recalled." Maximus granted everything. Next day, at the ordination of a bishop named Felix, "Martin
-  took part in the communion of that day, judging it better to yield for the moment, than to disregard
-  the safety of those over whose heads a sword was hanging" - though the bishops could not make him
-  sign his name to it. Leaving the city the day after, "he was filled with mourning and lamentation
-  that he had even for an hour been mixed up with the evil communion," and near a village named
-  Andethanna he sat down alone in the woods, "alternately accusing and defending the cause of his
-  grief and conduct." Then, Gallus says, "an angel stood by him and said, 'Justly, O Martin, do you feel
-  compunction, but you could not otherwise get out of your difficulty. Renew your virtue, resume your
-  courage, lest you not only now expose your fame, but your very salvation, to danger.'"
+  The bishops went to the emperor in terror, arguing that Priscillian's death would count for nothing if
+  Martin were now allowed to act as his avenger, and begged Maximus to use his power against Martin
+  himself. Maximus tried persuasion first, then anger; and when Martin would not yield, he ordered
+  executioners for the very people Martin had pleaded for.
 
-  Afterwards, "when it happened that he cured some of the possessed more slowly and with less grace
-  than usual, he at once confessed to us with tears that he felt a diminution of his power on account
-  of the evil of that communion in which he had taken part for a moment through necessity, and not with
-  a cordial spirit. He lived sixteen years after this, but never again did he attend a synod, and kept
-  carefully aloof from all assemblies of bishops."
+  When Martin heard this, he rushed to the palace, though it was now night. He promised that he would
+  take communion himself if these people's lives were spared and the tribunes recalled. Maximus granted
+  everything. The next day, at the ordination of a bishop named Felix, Martin took communion, judging it
+  better to yield for the moment than to risk the lives hanging in the balance - though the bishops could
+  never get him to put his name to it in writing. Leaving the city the day after, he was overcome with
+  grief that he had shared, even for an hour, in what he saw as a corrupt communion. Near a village named
+  Andethanna, he sat down alone in the woods, torn between blaming himself and defending what he had
+  done. Then, Gallus says, an angel appeared to him and told him that his compunction was just, but that
+  he could not have escaped his difficulty any other way - and urged him to renew his courage, for both
+  his reputation and his very salvation were now at stake. (See
+  gallic.quote.gallus-on-the-forced-communion-and-the-angel for the angel's exact words.)
+
+  Afterward, whenever Martin's healing came more slowly or with less power than before, he admitted with
+  tears that he felt this loss came from that one compromised communion, taken briefly and against his
+  own will. He lived sixteen years after this, but never again attended a synod, and stayed carefully
+  away from every gathering of bishops.
 absent_detail: >-
   The Priscillianists themselves are not narrated here; Sulpitius's hostile summary of the charges
   against Priscillian in the Sacred History is his report of a trial, not our knowledge of the movement.
@@ -145,26 +150,11 @@ modern_contrast: >-
   voice, preferred "the decrees ... of an ancient General Council" - the two nodes never argued this
   with each other.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory005_trier-and-the-ithacian-communion.md
-(Tier 1, Tours node, Registry rows 3 and 6). The record id keeps the chunk's own filename slug
-("trier-...") as a stable technical identifier - Doc_09's Round 2 fix round explicitly left the
-filename slugs unchanged when it corrected "Trier" to the vendored volume's own "Treves" everywhere
-else; every in-record use follows the vendored volume's "Treves." Story Text carried faithfully; the M13
-correction respected (the Sacred History is a related, distinct telling of an earlier phase, not
-corroboration).
+The record id keeps the technical slug "trier-..." as a stable identifier, though the vendored volume's
+own spelling is "Treves," which every in-record use of the place name follows.
 
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the
-chunk's own Formation Ecology Connection names this as the founding episode of G9 - ambivalence
-toward episcopal, synodal, and imperial authority (Tensional, cross-node with opposed valences) in its
-northern valence - Doc_04 G9's evidence is drawn from exactly these chapters, and Doc_08 Force 2A-3
-finds that "his brethren learned from his body to keep away from assemblies of bishops"; the one act of
-jurisprudence at Tours, a G4 verdict (novelty as illegitimacy, "pronounced on a court," Doc_07 §2E);
-the one place G6 - virtus is shown diminished by a communion (Doc_04 G6); the one attested northern
-instance of compunction (Doc_07 §2B, against the south's compunction-that-rises-with-purity); and G1 -
-the monk-bishop reshaped into a bishop who shunned his colleagues (Doc_05 §2.5(d)).
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates
-gallic.gravity.authority-ambivalence; associated-with gallic.gravity.virtus,
-gallic.gravity.received-not-invented, gallic.gravity.monk-bishop - each connection named above, with
-the reciprocal back-edge (illustrated-by / associated-with) declared on every one of those gravity
-records.
+The narrative's verbatim wording is carried in three quote records, each re-verified directly against
+the vendored npnf211 file: gallic.quote.gallus-on-the-tribunes-for-the-spains (Dialogues III.11),
+gallic.quote.gallus-on-the-forced-communion-and-the-angel (Dialogues III.12-13), and
+gallic.quote.sulpitius-on-the-secular-judge-in-an-ecclesiastical-cause (Sacred History II.50, a related,
+distinct telling of an earlier phase, not independent corroboration).

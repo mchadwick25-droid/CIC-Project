@@ -6508,3 +6508,154 @@ gap between the header text and the first movement below it.
 (via synthetic wheel events on `#stage`, matching the real zoom handler) —
 text fits within the viewport at every level tested, and the
 "Scattered Households" portrait no longer overlaps the era 1 description.
+
+## 2026-09-25 — Open question for Mark: `statusWord` still carries public-facing process vocabulary
+
+Found while fixing `world-census.json`'s `statusDescription` field for the
+Live-Surface-Cleanup program (`Ministry/Operations/Audits/Tech-Readiness-
+2026-09/Live-Surface-Cleanup/Decision-Log.md` Entry 8): the sibling field
+`statusWord` — rendered directly on the public Atlas, once per movement,
+in `atlas-v3.html` — still names the survey's own internal process on 233
+of 292 rows (80%). The dominant pattern is `"Researched — [tier] (Era N
+Step 0)"`; rarer ones carry raw internal shorthand into visitor-facing
+text — `[S]`, `c2`, `A3`, `A4`, `register`, `WINDOW-SPECIFIED`,
+`RETAINED`, `BANKED`, `beyondFloor`.
+
+**Not changed here.** This is a public-status-vocabulary decision, not a
+commentary cleanup: `statusDescription` (the paragraph) could be rewritten
+without inventing anything because the underlying facts were always
+there to restate in plain language. `statusWord` (the short label) is a
+design choice about what a visitor should see at a glance, and "Era N
+Step 0" is doing real, compact work there (signalling roughly how
+thoroughly-vetted a not-yet-built entry is) that a plain rewrite can't
+just drop without deciding what replaces it. That's Mark's call, not a
+rewrite call.
+
+**Next action:** Mark decides the public vocabulary — keep it, or replace
+"Researched — [tier] (Era N Step 0)" and the raw-shorthand outliers with
+plain-language equivalents (a natural pairing with `statusDescription`'s
+new register: "Reviewed, strong candidate" / "Reviewed, one of several
+candidates" / etc.) — then whoever implements it re-runs
+`tools/check_live_commentary.py --surface cic-website` to confirm the
+fix and update this entry.
+
+## 2026-09-25 (same day) — Decision 7 ruled: the "(Era N Step 0)" tag dropped from `statusWord`; the raw-shorthand outliers stay open
+
+**Mark's ruling on Decision 7 (2026-09-25), verbatim: "a."** Option A -
+plain words at the source: drop the "(Era N Step 0)" build tag from
+every `statusWord` value that carried it, keep the plain assessment.
+This resolves the "(Era N Step 0)" half of the open question above; the
+other raw-shorthand outliers it also names (`[S]`, `c2`, `A3`, `A4`,
+`register`, `WINDOW-SPECIFIED`, `RETAINED`, `BANKED`, `beyondFloor`) are
+**not** touched by this ruling and stay open for a separate decision.
+
+**Fixed at the source, not just the output.** `world-census.json`'s own
+`statusWord` field has no further upstream generator for non-built
+movements - `engine/m6/census_sync.py` only ever writes `statusWord` for
+`status === "Built & Live"` movements (from `statusMeta[status].
+shortWord`), so for the 212 (now 221, see below) non-built movements
+this field was always hand-authored directly in `world-census.json`
+itself; census.json *is* the source for it, confirmed by reading
+`census_sync.py`'s own sync logic rather than assumed. Fixed there, then
+`atlas-v3.html` re-synced from it via the existing generator
+(`engine.m6.census_atlas_sync.sync_atlas` + `engine.m6.atlas_html.
+apply_movement_updates`) - never hand-edited into the Atlas directly.
+
+**220 movements' own `statusWord` carried the tag as originally counted,
+plus one more the fix itself surfaced.** Checked exhaustively (not
+estimated): 212 carried the tag as a whole, standalone parenthetical
+("Researched — strong candidate (Era 3 Step 0)" → "Researched — strong
+candidate"); 8 carried the tag *inside* a parenthetical alongside other
+real content after a "; " separator ("...(Era 7 Step 0; corpus
+verification follow-up named)" → "...(corpus verification follow-up
+named)" - the substantive clause preserved, only the tag itself
+dropped). Adding the new `tools/validate-census.mjs` check below (run
+before considering this done, not after) caught one further case outside
+either pattern: `early-american-unitarians-universalists`'s own
+`statusWord` carried `"(Era 8 gate)"` - the same build-stage reference in
+different words, not literally "Step 0" - fixed the same way (the
+parenthetical dropped, the surrounding clause kept intact). 221
+movements' `statusWord` values changed in total.
+
+**Regression check added**, per this ruling's own instruction:
+`tools/validate-census.mjs` now fails any `statusWord` containing
+`"Step 0"` or `"(Era "` - the same pattern that caught the
+`early-american-unitarians-universalists` case above, so it stays caught
+if either phrasing is ever reintroduced.
+
+**No visitor-visible change.** Confirmed directly: nothing in
+`atlas-v3.html`'s own rendering JavaScript displays `statusWord` at all
+today (the earlier open-question entry's own framing, "rendered directly
+on the public Atlas," was itself imprecise about this - `statusWord`
+lives in the embedded `DATA` object but is not read by any property
+access in the page's own render code, the same structural gap this
+program's own D2 work found for `statusDescription`).
+
+Verified: `node tools/validate-census.mjs` 0 errors; `engine.m6.
+census_atlas_sync.sync_atlas` reports 0 remaining drift against
+`atlas-v3.html`; `engine.m2.cli staleness-check` and `engine.m2.
+site_cli staleness-check` both pass; `node --check` on the regenerated
+`DATA` script block; `tools/check_paths.py --baseline` 0 new unresolved
+citations; `tools/check_live_commentary.py --surface cic-website` hit
+count unchanged before/after (130 either way - nothing new introduced).
+
+## 2026-09-25 (later) — Cleanup item filed: `statusWord` confirmed dead code, reads nothing on the live Atlas
+
+**Origin.** While fixing the 7 `statusWord` labels this earlier entry's own
+Decision 7 pattern-match had missed (their era number sits inside a longer
+parenthetical - "the record-mandated Era N disposition," "proposed and
+recorded, Era N" - rather than the standalone `(Era N Step 0)` tag Decision
+7 fixed fleet-wide), the question came up directly: does the "no
+visitor-visible change" note on Decision 7's own entry mean this field
+needs wiring up, not just cleaning?
+
+**Traced exhaustively, not assumed.** Both places `atlas-v3.html` renders a
+movement's status:
+
+- The hover tooltip (`tipFor()` → `statusLabel()`) reads
+  `DATA.statusMeta[m.status].shortWord` - one generic string per `status`
+  enum value (e.g. every "Floor Question (register)" movement gets the same
+  "An open theological question", regardless of its own `statusWord`). The
+  comment directly above `statusLabel()` explains why this indirection
+  exists: `status` itself "still carries internal process language...
+  never meant for a participant to read as-is," and `statusMeta` is the
+  fix for that - a different, working fix than `statusWord`.
+- The click panel (`openPanel()`, ~130 lines) never references
+  `m.statusWord` anywhere. Its own "Where this tradition stands" section
+  reads `m.why` instead - checked directly for all 7 movements this entry's
+  own fix touched; all seven are clean, plain narrative prose already, no
+  era or build-process language.
+
+A repo-wide grep for `.statusWord` property access (not just the JSON
+literal) confirms zero matches in `atlas-v3.html` or `cic-poc/frontend`.
+
+**Conclusion: not a bug, nothing to wire up.** `statusWord` is a third,
+orphaned field alongside the two mechanisms (`statusMeta.shortWord`,
+`why`) that already do this job correctly. Every one of the 292 movements
+carries a copy of it in `world-census.json` and `atlas-v3.html`'s embedded
+`DATA`, synced automatically (`engine/m6/census_sync.py:43`'s
+`shortWord`→`statusWord` mapping for built worlds;
+`engine/m6/census_atlas_sync.py:50`'s `STRUCTURAL_FIELDS` for the
+census→Atlas sync) and guarded by `tools/validate-census.mjs` (required key
+at line 34; Decision 7's own regression check at lines 41-46) and by
+`engine/m6/tests/test_census_sync.py`'s assertions - all real, working
+machinery keeping a field alive that nothing downstream reads.
+
+**Not fixed here.** Deleting it is a bigger, structural change than this
+entry's own scope (a 7-label wording fix): it touches the sync module, the
+Atlas generator's field list, the validator, and the test suite, not just
+`world-census.json` content. It's also not a pure mechanical deletion -
+someone should confirm first whether `statusWord` was ever meant to show a
+per-movement detail beyond `statusMeta`'s generic label (in which case the
+fix is wiring it up, not deleting it), which is a design read, not a code
+read.
+
+**Next action:** filed as a cleanup item, not acted on. A future pass
+decides fleet-wide whether to (a) delete `statusWord` from
+`world-census.json`, `atlas-v3.html`'s `DATA`, `census_sync.py`,
+`census_atlas_sync.py`'s `STRUCTURAL_FIELDS`, `validate-census.mjs`, and
+`test_census_sync.py` since nothing reads it, or (b) wire it into
+`openPanel()` or `tipFor()` as the per-movement detail it looks like it was
+meant to be. Either way, `tools/validate-census.mjs` and
+`engine/m6/tests/test_census_sync.py` need updating alongside whichever
+choice is made.

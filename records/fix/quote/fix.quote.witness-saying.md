@@ -15,6 +15,8 @@ confidence:
 sources:
   - {source_id: fix.source.witness-scroll, locus: "1.4", license: public-domain}
 text: "I did not see him. I only saw what his witnesses could not stop telling."
+modern_rendering: >-
+  I did not see him. I only saw what his witnesses could not stop telling.
 speaker_or_author: fix.figure.the-elder
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."

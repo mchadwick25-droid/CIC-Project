@@ -9,13 +9,8 @@
  *
  * ONE EXCEPTION, deliberate and flagged rather than silent: the final
  * sentence of `arrival__disclosure` (the ✲ mark explainer) IS new prose,
- * not relocated - Stage 6e (Ministry/Features/Conversation-Transparency-
- * Engine/Decision-Log.md), R10's own "label copy" requirement, per
- * Mark's own direction to extend this existing disclosure rather than
- * add a new first-tap UI element (respects R17's per-screen element
- * budget by construction - no new component, no new state). DRAFT
- * COPY, not yet Mark's own word - built so the mechanism is complete,
- * per the same discipline Stage 6b's confidence phrases followed.
+ * not relocated - it extends this existing disclosure rather than
+ * adding a new first-tap UI element (no new component, no new state).
  */
 import type { WorldEntry } from '../data/worlds';
 

@@ -21,8 +21,8 @@ sources:
 text: 'Consequently after my departure from Rome, in case of a dispute arising as to the
   testimony of scripture on any subject, recourse was had to her to settle it.'
 modern_rendering: >-
-  So after I left Rome, this is what happened. Whenever people disagreed
-  about what scripture said, they went to her. She was the one who settled
+  So after I left Rome, people turned to her whenever a dispute arose
+  about what scripture said on any subject. She was the one who settled
   it.
 speaker_or_author: hal.figure.jerome
 license: verbatim

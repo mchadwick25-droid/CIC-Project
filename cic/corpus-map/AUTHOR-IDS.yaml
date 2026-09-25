@@ -22,7 +22,7 @@
 # own markup, not hand-typed.
 #
 # STATUS: SEEDED, NOT COMPLETE. Five of AUTHORS.md's 77 authors, each
-# verified via WebSearch against Wikidata directly, 2026-09-02 - the same
+# verified via WebSearch against Wikidata directly - the same
 # incremental-seeding shape WORKS.yaml and download-queue-seed.yaml both
 # use. Do not fill in the other 72 from memory; verify each the same way
 # or leave it out.

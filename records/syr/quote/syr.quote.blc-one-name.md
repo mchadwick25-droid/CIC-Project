@@ -23,9 +23,9 @@ text: And what shall we say of the new race of us Christians, whom Christ at His
   On one day, the first of the week, we assemble ourselves together, and on the days of the readings
 modern_rendering: >-
   And what shall we say of the new race of us Christians, whom Christ at his
-  coming planted in every country and every region? For see - wherever we are,
-  we are all called by the one name of Christ: Christians. On one day, the
-  first of the week, we gather together, and on the appointed days of the
+  coming planted in every country and in every region? For see - wherever
+  we are, we are all called by the one name of Christ: Christians. On one
+  day, the first of the week, we gather together, and on the days of the
   readings.
 speaker_or_author: syr.figure.bardaisan
 license: verbatim

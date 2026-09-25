@@ -44,7 +44,7 @@ relations:
 - type: associated-with
   target: alx.term.anastasis
 ---
-Opened 2026-08-27 for F1-T, served by alx.term.anastasis alone, which cites de Incarnatione 8-10 and
+Opened for F1-T, served by alx.term.anastasis alone, which cites de Incarnatione 8-10 and
 20-32 for the term and could not show it in use.
 
 Chosen from that range because sec. 29 is where the word does work rather than gets defined: death

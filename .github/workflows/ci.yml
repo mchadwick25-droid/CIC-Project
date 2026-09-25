@@ -130,6 +130,8 @@ jobs:
       census: ${{ steps.filter.outputs.census }}
       library: ${{ steps.filter.outputs.library }}
       site: ${{ steps.filter.outputs.site }}
+      crossworld: ${{ steps.filter.outputs.crossworld }}
+      checkertests: ${{ steps.filter.outputs.checkertests }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -177,6 +179,23 @@ jobs:
               - 'cic-website/**'
               - 'records/**'
               - 'engine/**'
+              - '.github/workflows/**'
+            # gen_needs_ruling.py's own test suite (worlds/_cross-world/
+            # tests_gen_needs_ruling.py) previously ran nowhere in CI - a
+            # change to the generator or to its hand-maintained-tail
+            # preservation could regress without any check catching it.
+            # Also fires on a corpus-map change, since the generator's
+            # end-to-end test runs against the real cic/corpus-map/ data.
+            crossworld:
+              - 'worlds/_cross-world/**'
+              - 'cic/corpus-map/**'
+              - '.github/workflows/**'
+            # tools/check_live_commentary.py's own test suite
+            # (tools/tests/test_check_live_commentary.py) previously ran
+            # nowhere in CI - the same gap crossworld above closed for
+            # gen_needs_ruling.py.
+            checkertests:
+              - 'tools/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -231,6 +250,31 @@ jobs:
         with:
           python-version: "3.11"
       - run: python tools/check_paths.py --baseline tools/check_paths_baseline.txt
+
+  # Live-Surface-Cleanup program, Step 1 PR A (Ministry/Operations/Audits/
+  # Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md). Report-only:
+  # classifies review/decision commentary that has leaked into a
+  # live/canonical surface (CLAUDE.md, "Keep the live/canonical surfaces
+  # clean") as KEEP/REWRITE/ROUTE/PROTECTED and prints the full file:line
+  # list - never fails the build (tools/check_live_commentary.py's own
+  # `main` always returns 0; continue-on-error below is a second, redundant
+  # guarantee against an unexpected crash). The actual edits are a later,
+  # separate, reviewed step (PR C/D) - this job exists to make the count
+  # visible on every push, not to gate anything yet. Not gated on the
+  # `changes` filter: it reads text across surfaces `changes` doesn't track
+  # (reference/, worlds/, cic-website/), costs about ten seconds, and a
+  # docs-only or records-only commit is exactly the kind that moves these
+  # counts.
+  live-commentary-scan:
+    name: Live-surface commentary scan (report-only)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python tools/check_live_commentary.py
 
   # Merged 2026-09-23 (see the top-of-file comment): eleven jobs that all
   # shared the identical `engine == 'true'` gate, folded into one
@@ -412,6 +456,50 @@ jobs:
       # `records/**` and would otherwise run no CI at all.
       - run: python -m pytest engine/m9/tests -q
       - run: python -m engine.m9.cli check
+
+  # gen_needs_ruling.py generates worlds/_cross-world/NEEDS-RULING.md from
+  # cic/corpus-map/; its hand-maintained-tail preservation (everything below
+  # HAND_MAINTAINED_MARKER survives a regeneration verbatim, and a run
+  # refuses to write if an existing file has lost the marker) is proven by
+  # worlds/_cross-world/tests_gen_needs_ruling.py, which had nowhere in this
+  # workflow that collected it. NOT folded into engine-tests: that job's
+  # requirements install anthropic/boto3/jsonschema this suite doesn't need,
+  # and its `engine`-only path filter wouldn't fire on a worlds/_cross-world/
+  # or cic/corpus-map/-only change anyway.
+  cross-world-tests:
+    needs: changes
+    if: needs.changes.outputs.crossworld == 'true'
+    name: Cross-world needs-ruling generator tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install pyyaml pytest
+      - run: python -m pytest worlds/_cross-world/tests_gen_needs_ruling.py -q
+
+  # tools/check_live_commentary.py's own test suite (tools/tests/
+  # test_check_live_commentary.py: the 60+ hand-labelled sample, its
+  # precision/recall measurement, and one test per classifier refinement)
+  # had nowhere in this workflow that collected it - the same gap
+  # cross-world-tests above closed for gen_needs_ruling.py. The module's
+  # own import of engine.m1.spoken_fields needs no extra install (stdlib
+  # dataclasses only).
+  checker-tests:
+    needs: changes
+    if: needs.changes.outputs.checkertests == 'true'
+    name: Live-surface commentary checker tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install pytest
+      - run: python -m pytest tools/tests/test_check_live_commentary.py -q
 
   docker-build:
     needs: changes

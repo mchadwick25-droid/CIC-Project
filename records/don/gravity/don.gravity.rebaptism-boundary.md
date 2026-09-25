@@ -61,40 +61,61 @@ relations:
 name: Rebaptism as boundary-marking practice [PRIMARY]
 classification: primary
 description: >-
-  Confirmed PRIMARY (Doc_04 SS3.2, SS4). The rite by which a person crosses into this communion and by which
-  membership is marked: baptism given outside the true church is no baptism, so the one coming over is not
-  re-baptised but baptised, first and truly. AUTHOR-GRAVITY RISK FLAGGED AT GENERATION (Doc_04 SS1, G2): Low
-  - the bare practice is attested directly and repeatedly in Augustine's own primary text and corroborated
-  by Petilian's own quoted argument. SIX-TEST REASONING CARRIED IN FULL (Doc_04 SS3.2). REPETITION - PASS
-  (strong): Doc_02 SS1 (rows 3 and 4 - On Baptism and Answer to the Letters of Petilian, both devoted substantially
-  to this practice); Doc_01 SS1 and SS3, which name rebaptism as the rite that marks who truly belongs and
-  as this world's most recurring formative material. DEPENDENCY - PASS (strong): membership status depends
-  on it; the specific content of the Council of Carthage 419's canons on receiving Donatist clergy depends
-  on it; the entire significance of the Maximianist reception-without-rebaptism precedent depends on rebaptism
-  being the operative norm it departs from. FORMATION - PASS (strong): the literal liturgical act of entry
-  and re-entry - the most concretely enacted, individually experienced marker of belonging this world's record
-  documents. EXPLANATORY - PASS (strong): explains why the movement drew direct, sustained imperial legal
-  attention (rebaptising Catholics was itself a targeted legal offence under successive edicts), and explains
-  the specific content of the 411 Conference's own concerns. PERSISTENCE - PASS (strong): attested from the
-  movement's own origin through the 411 Conference, and directly confirmed as a live, named practice in Numidia
-  as late as 592-594 by Gregory the Great's own vendored letters - though nothing about the practice's scale
-  or character at that date is extended beyond what those letters themselves state. INTERACTION - PASS (strong):
-  reinforces the purity doctrine (its doctrinal ground); directly reshaped by the Maximianist exception; the
-  specific target of imperial legislative attention, since Constantine's and his successors' edicts name rebaptism
-  specifically. Six of six PASS (strong). WHY PRIMARY RATHER THAN SUPPORTING (Doc_04 SS4): together with the
-  purity doctrine this rite generates the boundary-crossing practice that structures membership itself - a
-  distinct, directly-enacted practice-cluster that would not exist without it, which is exactly the criterion
-  separating Primary from the institutional-container and scope-bounded Supporting cases. CONFIDENCE/GRAVITY
-  CROSS-CHECK - CONSISTENT, no significant divergence (Doc_04 SS3.2), with the evidentiary base stated in
-  this record's own divergence_note. CROSS-VOICE TEST (Doc_04 SS5): PASSES - the practice is not merely characterised
-  by hostile opponents but argued FOR in Petilian's own quoted words. Doc_04 SS5 marks the limit precisely:
-  this is corroboration from within the hostile text's own quotation of a Donatist voice, not from a source
-  entirely outside the Optatus/Augustine corpus, and the same qualification named for the purity gravity applies
-  here in the same degree. FORCES-CONNECTION (Doc_04 SS3.2; Doc_08 SS5, Force Index row G2): Cell 1B at origin
-  - the Cyprianic rigorist inheritance, carried as enabled-by, which Doc_08 SS5 specifies grounds this rite
-  rather than the Felix accusation, that force grounding the institutional form instead; Cell 2B - the sustained
-  purity-and-rebaptism practice as this rite's own enacted, ongoing form; Cell 2A - oscillating imperial policy,
-  whose successive edicts name this practice directly as a legal offence.
+  Rebaptism is confirmed as a central, defining pattern of this world. It is the rite by which a
+  person crosses into this communion, and by which membership is marked. Baptism given outside the
+  true church is no baptism. So the one coming over is not re-baptised but baptised, first and
+  truly.
+
+  The risk that this reflects one author's view is low. Augustine's own writing attests the bare
+  practice directly and repeatedly. Petilian's own quoted argument supports it.
+
+  Two works, On Baptism and Answer to the Letters of Petilian, are both largely devoted to this
+  practice, so it recurs strongly. Our account of this world names rebaptism as the rite that
+  marks who truly belongs. It also calls it this world's most recurring formative material.
+
+  Much depends on it, and strongly. Membership status depends on it. So does the specific content
+  of the Council of Carthage's 419 canons on receiving Donatist clergy. The whole meaning of the
+  Maximianist precedent depends on it too. Those clergy were received back without rebaptism,
+  which matters only because rebaptism was the normal rule.
+
+  As the literal act of worship by which a person enters, or re-enters, it forms people directly
+  and strongly. Of all the marks of belonging this world's record documents, it is the most
+  concretely enacted and the most personally felt.
+
+  This practice explains why the movement drew direct, sustained attention from
+  imperial law. Rebaptising Catholics was itself a targeted offence under successive edicts. It
+  also explains the specific concerns of the 411 Conference.
+
+  It persisted strongly, attested from the movement's origin through the 411 Conference. Gregory
+  the Great's own surviving letters confirm it as a live, named practice in Numidia
+  as late as 592-594. But nothing about its scale or character at that date goes beyond what those
+  letters themselves say.
+
+  It works closely with the patterns around it. It reinforces the purity doctrine, which is its
+  doctrinal ground. The Maximianist exception directly reshapes it. And it was the specific target
+  of imperial law, since the edicts of Constantine and his successors name rebaptism specifically.
+
+  Why is it central rather than supporting? Together with the purity doctrine, this rite creates
+  the practice of crossing the boundary. That practice structures membership itself. It is a
+  distinct cluster of lived practice that would not exist without the rite.
+
+  That is exactly what separates a central pattern from a supporting one. The supporting patterns
+  are either the institutional container or patterns bounded in scope.
+
+  Our confidence matches the weight this pattern carries, with no significant gap.
+
+  The Donatist voice itself survives on this point. Hostile opponents do not merely describe the
+  practice. Petilian argues for it in his own quoted words.
+
+  The limit here is exact. This support comes from a Donatist voice quoted inside the hostile
+  text. It does not come from a source wholly outside the writings of Optatus and Augustine. The
+  purity doctrine carries the same limit, to the same degree.
+
+  Its roots lie in the rigorist inheritance of Cyprian of Carthage's rebaptism theology. That
+  inheritance made the rite possible. The accusation against Felix of Aptungi did not. That
+  accusation grounds the rival church's institutional form instead. The continuing practice of
+  purity and rebaptism is this rite's own lived, ongoing form. And shifting imperial policy met it
+  head-on: successive edicts named this practice directly as a legal offence.
 manifestations:
 - the enacted threshold crossed once and bodily - baptism given by a hand of unbroken standing, held to be
   the first true baptism a person ever received

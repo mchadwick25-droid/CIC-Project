@@ -23,10 +23,11 @@ text: 'she never came to see me that she did not ask me some question concerning
   them; not, however, for argument''s sake but to learn the answers to those objections
   which might, as she saw, be made to my statements.'
 modern_rendering: >-
-  She never visited me without asking some question about the scriptures. And
-  she would not simply accept my explanations - she would argue against them.
-  Not for argument's sake, but to learn the answers to the objections she
-  could see might be raised.
+  She never visited me without asking some question about the scriptures.
+  Nor would she at once acquiesce in my explanations. On the contrary,
+  she would dispute them, not for argument's sake, but to learn the
+  answers to those objections which might, as she saw, be made to my
+  statements.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote.'

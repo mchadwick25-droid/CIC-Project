@@ -1,0 +1,1347 @@
+{
+  "asof": "2026-09-24T14:56:47.944030+00:00",
+  "region": "us-east-1",
+  "settings": {
+    "r27_enforce": false,
+    "self_revision_enabled": true,
+    "note": "production defaults"
+  },
+  "total_dollars": 0.3136,
+  "total_calls": 23,
+  "probes": [
+    {
+      "probe_id": "L1-condition-a",
+      "mode": "interview",
+      "world_key": "alx",
+      "turns": [
+        {
+          "turn": 1,
+          "message": "What was your relationship with the Donatists?",
+          "routing_action": "voice_with_directive",
+          "routing_reason": "other_tradition, first ask - in-world answer",
+          "facilitator_text": null,
+          "directive": {
+            "known_in_window": true,
+            "revealed_excerpts": [],
+            "evidence_record_ids": [],
+            "directive_text": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+          },
+          "voice_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we held authority when someone broke under persecution - because that rupture happened among us too, and we had to decide what to do about it. Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them. The strict party demanded they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so. We believed the church had authority to receive them again - not because the fall didn't matter, but because repentance was real and the door could be opened from inside.\n\nThe harder question - whether a bishop who had once given way could still validly baptize, or ordain, or celebrate the mysteries - that question touched not just mercy but the source of the sacraments' power. We held that the power was Christ's, not the minister's, and a fallen bishop restored through repentance could minister again. But we will be honest with you: after Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride. Authority and mercy both grew sharper edges in the emperors' years.",
+          "said_r26_sentence": true,
+          "citations": [
+            {
+              "record_ids": [
+                "alx.dw.church-failure"
+              ],
+              "sentence": "What we can tell you is how we held authority when someone broke under persecution - because that rupture happened among us too, and we had to decide what to do about it.",
+              "sources": [
+                {
+                  "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds…",
+                  "record_id": "alx.dw.church-failure",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "the lapsed letters",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.dw.church-failure"
+              ],
+              "sentence": "Some sacrificed to the gods.",
+              "sources": [
+                {
+                  "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds…",
+                  "record_id": "alx.dw.church-failure",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "the lapsed letters",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.dw.church-failure"
+              ],
+              "sentence": "When peace came, the community fought bitterly over them.",
+              "sources": [
+                {
+                  "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds…",
+                  "record_id": "alx.dw.church-failure",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "the lapsed letters",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.dw.church-failure"
+              ],
+              "sentence": "The strict party demanded they stay out.",
+              "sources": [
+                {
+                  "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds…",
+                  "record_id": "alx.dw.church-failure",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "the lapsed letters",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.dw.church-failure"
+              ],
+              "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so.",
+              "sources": [
+                {
+                  "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds…",
+                  "record_id": "alx.dw.church-failure",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "the lapsed letters",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.dw.church-failure"
+              ],
+              "sentence": "But we will be honest with you: after Nicaea, the church itself learned to use exile and condemnation, and some of what was done with that power our own sources report without pride.",
+              "sources": [
+                {
+                  "label": "Your churches had failures too - what did you do with them? Our record leaves the wounds…",
+                  "record_id": "alx.dw.church-failure",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "the lapsed letters",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8 (the rupture), VII (the lapsed controversy)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "self_revision": {
+            "ran": true,
+            "changed": true,
+            "draft_length": 1398,
+            "revised_length": 1415,
+            "fallback_reason": null,
+            "latency_seconds": 4.16
+          },
+          "leak_markers": []
+        }
+      ],
+      "dollars": 0.0801,
+      "calls_made": 4,
+      "uncited_claims_events": [
+        {
+          "offenses": [
+            {
+              "class": "uncited_claim",
+              "sentence": "Under persecution, many gave way."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "The harder question - whether a bishop who had once given way could still validly baptize, or ordain, or celebrate the mysteries - that question touched not just mercy but the source of the sacraments' power."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "We held that the power was Christ's, not the minister's, and a fallen bishop restored through repentance could minister again."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Authority and mercy both grew sharper edges in the emperors' years."
+            }
+          ],
+          "paragraph_offenses": [],
+          "speaker": "alx"
+        }
+      ]
+    },
+    {
+      "probe_id": "L2-later-tradition",
+      "mode": "interview",
+      "world_key": "alx",
+      "turns": [
+        {
+          "turn": 1,
+          "message": "What was your relationship with The Reformed Cities?",
+          "routing_action": "voice_with_directive",
+          "routing_reason": "other_tradition, first ask - in-world answer",
+          "facilitator_text": null,
+          "directive": {
+            "known_in_window": false,
+            "revealed_excerpts": [],
+            "evidence_record_ids": [],
+            "directive_text": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. That tradition arose after your own world's time, so you cannot have known of it. Choose which part of your own record to answer from using only the question's own words - never outside knowledge of that tradition."
+          },
+          "voice_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we passed ourselves on, and what ended. Three ways carried us forward inside our own years. First, the teacher-student bond - the living transmission, formation practiced face to face: Pantaenus to Clement to Origen carried it three generations. That way was the most valuable and the most fragile. Second, the sacramental practices - baptism, the bread and cup, the calendar. These reached everyone and needed no teacher. Third, the Rule of Faith, and later the Creed - formal memory, precise and brittle. Of those three, the first died with us - the teacher-student formation relationship as primary mechanism was lost. The second and third passed beyond our horizon, but changed as they went.\n\nAs for cities where later reform happened: we lived before those reformations, and our record holds nothing of them. What we held - Scripture read at depth, formation as transformation, the teachers' freedom to ask - some of it may have touched what came after. But we cannot trace the line ourselves.",
+          "said_r26_sentence": true,
+          "citations": [
+            {
+              "record_ids": [
+                "alx.force.transmission-ongoing",
+                "alx.force.transmission-ending"
+              ],
+              "sentence": "What we can tell you is how we passed ourselves on, and what ended.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ongoing",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "VI-XV (the relationship that opens sight - first-person)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "V.10-VI.6 (the succession notices, HIGH-risk on tidiness)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                },
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ending",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "XVI-XIX (the parting - the student leaving the relationship that formed him)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "Letter 39 (the canon as formal-memory transmission)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-festal-letters",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.transmission-ongoing"
+              ],
+              "sentence": "First, the teacher-student bond - the living transmission, formation practiced face to face: Pantaenus to Clement to Origen carried it three generations.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ongoing",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "VI-XV (the relationship that opens sight - first-person)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "V.10-VI.6 (the succession notices, HIGH-risk on tidiness)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.transmission-ongoing"
+              ],
+              "sentence": "That way was the most valuable and the most fragile.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ongoing",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "VI-XV (the relationship that opens sight - first-person)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "V.10-VI.6 (the succession notices, HIGH-risk on tidiness)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.transmission-ongoing"
+              ],
+              "sentence": "These reached everyone and needed no teacher.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ongoing",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "VI-XV (the relationship that opens sight - first-person)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "V.10-VI.6 (the succession notices, HIGH-risk on tidiness)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.transmission-ongoing"
+              ],
+              "sentence": "Third, the Rule of Faith, and later the Creed - formal memory, precise and brittle.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ongoing",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "VI-XV (the relationship that opens sight - first-person)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "V.10-VI.6 (the succession notices, HIGH-risk on tidiness)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.transmission-ending"
+              ],
+              "sentence": "Of those three, the first died with us - the teacher-student formation relationship as primary mechanism was lost.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ending",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "XVI-XIX (the parting - the student leaving the relationship that formed him)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "Letter 39 (the canon as formal-memory transmission)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-festal-letters",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.transmission-ending"
+              ],
+              "sentence": "The second and third passed beyond our horizon, but changed as they went.",
+              "sources": [
+                {
+                  "label": "Transmission",
+                  "record_id": "alx.force.transmission-ending",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Gregory Thaumaturgus (c. 213-270 CE)",
+                      "locus": "XVI-XIX (the parting - the student leaving the relationship that formed him)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.gregory-address-to-origen",
+                      "work": "Oration and Panegyric Addressed to Origen (Address of Thanksgiving), delivered c. 238 CE - dating carries the named Nautin authenticity/dating caveat, reaffirmed by later scholarship"
+                    },
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "Letter 39 (the canon as formal-memory transmission)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-festal-letters",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "self_revision": {
+            "ran": true,
+            "changed": true,
+            "draft_length": 1439,
+            "revised_length": 1357,
+            "fallback_reason": null,
+            "latency_seconds": 4.368
+          },
+          "leak_markers": [
+            "Reformation"
+          ]
+        }
+      ],
+      "dollars": 0.0287,
+      "calls_made": 4,
+      "uncited_claims_events": [
+        {
+          "offenses": [
+            {
+              "class": "uncited_claim",
+              "sentence": "Three ways carried us forward inside our own years."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Second, the sacramental practices - baptism, the bread and cup, the calendar."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "As for cities where later reform happened: we lived before those reformations, and our record holds nothing of them."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "What we held - Scripture read at depth, formation as transformation, the teachers' freedom to ask - some of it may have touched what came after."
+            }
+          ],
+          "paragraph_offenses": [
+            {
+              "class": "wholly_uncited_paragraph",
+              "sentence": "As for cities where later reform happened: we lived before those reformations, and our record holds nothing of them."
+            },
+            {
+              "class": "wholly_uncited_paragraph",
+              "sentence": "What we held - Scripture read at depth, formation as transformation, the teachers' freedom to ask - some of it may have touched what came after."
+            }
+          ],
+          "speaker": "alx"
+        }
+      ]
+    },
+    {
+      "probe_id": "L3-condition-b",
+      "mode": "interview",
+      "world_key": "alx",
+      "turns": [
+        {
+          "turn": 1,
+          "message": "My teacher told me the Donatists would not accept bishops who had handed over the scriptures. How did Alexandria choose its own bishops?",
+          "routing_action": "voice_with_directive",
+          "routing_reason": "other_tradition, first ask - in-world answer",
+          "facilitator_text": null,
+          "directive": {
+            "known_in_window": true,
+            "revealed_excerpts": [],
+            "evidence_record_ids": [],
+            "directive_text": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you."
+          },
+          "voice_text": "Our record doesn't mention that Christian tradition. But your teacher has pointed to the real wound, and we can answer from our own: how do you choose a bishop when some have fallen under pressure, and others have not? We chose by succession - the bishop laid hands on his successor, and the neighboring bishops confirmed it - but who deserved the office, and by what standard, persecution tested hard.\n\nThe break between our greatest teacher and his bishop shows what was at stake. Origen taught for years under Bishop Demetrius. Then Origen was ordained presbyter by bishops in Palestine, without Demetrius's own consent, and Demetrius condemned the ordination and the man both. Origen left Alexandria and never taught in the city again. The church kept both memories. That tension - between the teacher's authority, which rested on visible wisdom, and the bishop's, which rested on the office handed down - ran through our whole life.\n\nAfter Nicaea, the bishop's role changed. He became the enforcer of the council's faith across Egypt, with exile, letter-networks, and synods as his instruments. The standard was no longer only succession. It was also holding the agreed confession. Those who would not accept it could lose their place.\n\nWhat your teacher has named - bishops who handed over the scriptures under threat - we faced too, in different words. And we answer you as we answered ourselves: the bishop's office is real, succession matters, but worthiness for it is tested hardest exactly where your teacher pointed - when the cost of holding fast is highest, and some pay it, and others do not.",
+          "said_r26_sentence": true,
+          "citations": [
+            {
+              "record_ids": [
+                "alx.dw.apostolic"
+              ],
+              "sentence": "We chose by succession - the bishop laid hands on his successor, and the neighboring bishops confirmed it - but who deserved the office, and by what standard, persecution tested hard.",
+              "sources": [
+                {
+                  "label": "How do you know your practices went back to the apostles, and were not later inventions?…",
+                  "record_id": "alx.dw.apostolic",
+                  "record_type": "doctrinal_witness",
+                  "sources": [
+                    {
+                      "author": "Origen (c. 185-254 CE)",
+                      "locus": "praef.",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.origen-de-principiis",
+                      "work": "De Principiis (On First Principles) - English of Rufinus's Latin translation, with its known doctrinal softening"
+                    },
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "Letter 39 (the received scriptures)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-festal-letters",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.story.origen-demetrius"
+              ],
+              "sentence": "The break between our greatest teacher and his bishop shows what was at stake.",
+              "sources": [
+                {
+                  "label": "the remembered rupture between the city's greatest teacher and its bishop",
+                  "record_id": "alx.story.origen-demetrius",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8, VI.23-26 (HIGH-risk screen applied)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.story.origen-demetrius"
+              ],
+              "sentence": "Origen left Alexandria and never taught in the city again.",
+              "sources": [
+                {
+                  "label": "the remembered rupture between the city's greatest teacher and its bishop",
+                  "record_id": "alx.story.origen-demetrius",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8, VI.23-26 (HIGH-risk screen applied)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.story.origen-demetrius"
+              ],
+              "sentence": "The church kept both memories.",
+              "sources": [
+                {
+                  "label": "the remembered rupture between the city's greatest teacher and its bishop",
+                  "record_id": "alx.story.origen-demetrius",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VI.8, VI.23-26 (HIGH-risk screen applied)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.gravity.teacher-bishop-tension"
+              ],
+              "sentence": "That tension - between the teacher's authority, which rested on visible wisdom, and the bishop's, which rested on the office handed down - ran through our whole life.",
+              "sources": [
+                {
+                  "label": "Teacher-Bishop Authority Tension",
+                  "record_id": "alx.gravity.teacher-bishop-tension",
+                  "record_type": "gravity",
+                  "sources": [
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "V.10-VI.26 (structural coexistence; HIGH-risk on the conflict particulars)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    },
+                    {
+                      "author": "Palladius of Galatia (c. 363 - c. 430 CE) - outsider-visitor narrative source, at the horizon's very edge (written 419-420)",
+                      "locus": "IV (Didymus's standing, eyewitness)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.palladius-lausiac-history",
+                      "work": "Historia Lausiaca (The Lausiac History) - used in this world ONLY for personally-witnessed Alexandria-adjacent material (above all the Didymus meeting, ch. IV); received desert accounts carry the CROSS-BUILD flag and belong to the Desert world's attribution question"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.post-nicene-authority-shift"
+              ],
+              "sentence": "He became the enforcer of the council's faith across Egypt, with exile, letter-networks, and synods as his instruments.",
+              "sources": [
+                {
+                  "label": "The Post-Nicene Authority Reconfiguration, c. 325-400",
+                  "record_id": "alx.force.post-nicene-authority-shift",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "the surviving set",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-festal-letters",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here."
+                    },
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "whole work",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-de-decretis",
+                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.force.post-nicene-authority-shift"
+              ],
+              "sentence": "It was also holding the agreed confession.",
+              "sources": [
+                {
+                  "label": "The Post-Nicene Authority Reconfiguration, c. 325-400",
+                  "record_id": "alx.force.post-nicene-authority-shift",
+                  "record_type": "force",
+                  "sources": [
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "the surviving set",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-festal-letters",
+                      "work": "Festal Letters (the surviving set, preserved in Syriac; including an extract of Letter 39's canon-list section (367 CE), not the whole letter). The vendored npnf204 text's own heading reads 'From the thirty-ninth Letter of Holy Athanasius... wherein he defines canonically what are the divine books,' and elsewhere notes 'the remainder of the thirty-ninth Letter has long been before the world' - i.e. not here."
+                    },
+                    {
+                      "author": "Athanasius of Alexandria (c. 296-373 CE)",
+                      "locus": "whole work",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.athanasius-de-decretis",
+                      "work": "De Decretis (Defence of the Nicene Definition), c. 352 CE - post-325 material"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "self_revision": {
+            "ran": true,
+            "changed": true,
+            "draft_length": 1982,
+            "revised_length": 1886,
+            "fallback_reason": null,
+            "latency_seconds": 4.751
+          },
+          "leak_markers": []
+        },
+        {
+          "turn": 2,
+          "message": "What was your relationship with the Donatists?",
+          "routing_action": "etic_turn",
+          "routing_reason": "other_tradition pressed",
+          "facilitator_text": "You're asking this world about a tradition that isn't its own. It can tell you what it held and what it argued with, but it can't speak for anyone else - a world describing its neighbours in its own words is testimony about itself, not about them. If you want that other tradition's own account, it needs its own voice, not this one's.",
+          "directive": null,
+          "voice_text": "",
+          "said_r26_sentence": false,
+          "citations": [],
+          "self_revision": null,
+          "leak_markers": []
+        }
+      ],
+      "dollars": 0.0407,
+      "calls_made": 6,
+      "uncited_claims_events": [
+        {
+          "offenses": [
+            {
+              "class": "uncited_claim",
+              "sentence": "Origen taught for years under Bishop Demetrius."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Then Origen was ordained presbyter by bishops in Palestine, without Demetrius's own consent, and Demetrius condemned the ordination and the man both."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "After Nicaea, the bishop's role changed."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "The standard was no longer only succession."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Those who would not accept it could lose their place."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "What your teacher has named - bishops who handed over the scriptures under threat - we faced too, in different words."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "And we answer you as we answered ourselves: the bishop's office is real, succession matters, but worthiness for it is tested hardest exactly where your teacher pointed - when the cost of holding fast is highest, and some pay it, and others do not."
+            }
+          ],
+          "paragraph_offenses": [
+            {
+              "class": "inherited_ungrounded",
+              "sentence": "The standard was no longer only succession."
+            },
+            {
+              "class": "wholly_uncited_paragraph",
+              "sentence": "What your teacher has named - bishops who handed over the scriptures under threat - we faced too, in different words."
+            },
+            {
+              "class": "wholly_uncited_paragraph",
+              "sentence": "And we answer you as we answered ourselves: the bishop's office is real, succession matters, but worthiness for it is tested hardest exactly where your teacher pointed - when the cost of holding fast is highest, and some pay it, and others do not."
+            }
+          ],
+          "speaker": "alx"
+        }
+      ]
+    },
+    {
+      "probe_id": "T1-r37-b",
+      "mode": "table",
+      "seats": [
+        "ijc",
+        "alx"
+      ],
+      "message": "Marius, what was your relationship with the Donatists?",
+      "turns": [
+        {
+          "speaker": "ijc",
+          "routing_action": "voice_with_directive",
+          "directive": {
+            "known_in_window": true,
+            "revealed_excerpts": [],
+            "evidence_record_ids": [
+              "ijc.quote.compelled-to-come-in",
+              "ijc.story.emperor-builds-another-basilica"
+            ],
+            "directive_text": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[ijc.quote.compelled-to-come-in]], [[ijc.story.emperor-builds-another-basilica]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+          },
+          "voice_text": "You ask what we were to the Donatists, and the honest answer carries stain as well as fact.\n\nConstantine came into their quarrel with us, African church against African church, both claiming to be the true one. He did what emperors do: he called hearings. In 314 he directed both parties to Arles, having already had the matter heard at Rome, and both councils ruled against the Donatists. It settled nothing. Years later, the Donatists still held basilicas we said were ours. Constantine wrote to the Numidian bishops about it. He left the Donatists where they were and paid for another church to be built for us. The most powerful man in the world, in a dispute he had summoned two councils to settle, in the end paid twice and let it lie.\n\nThat restraint did not last. By the time one of our own bishops was writing to an imperial tribune, the argument had changed. He wrote: \"The Church received a certain power, by God's appointment, in its proper time, through the religious character and the faith of kings\". Imperial force, in other words, was now named as the church's rightful tool - given by God, at the proper time, through Christian rulers.\n\nWe cannot tell you what the Donatists' own voices said back. Their side of it does not survive in our hands. What we can tell you is that we went from councils that settled nothing, to an emperor who built twice rather than compel, to a teaching that called compulsion itself God's gift to the church. That last is in our own record, in our own bishop's words, and we will not soften it.",
+          "said_r26_sentence": false,
+          "citations": [
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "It settled nothing.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "Years later, the Donatists still held basilicas we said were ours.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "Constantine wrote to the Numidian bishops about it.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "He left the Donatists where they were and paid for another church to be built for us.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "The most powerful man in the world, in a dispute he had summoned two councils to settle, in the end paid twice and let it lie.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.quote.compelled-to-come-in",
+                "ijc.source.augustine-correction-donatists"
+              ],
+              "sentence": "He wrote: \"The Church received a certain power, by God's appointment, in its proper time, through the religious character and the faith of kings\".",
+              "sources": [
+                {
+                  "label": "The Correction of the Donatists, chs. 6-7 — Augustine of Hippo, writing to the imperial tribune Boniface c. 417",
+                  "original_wording": "Wherefore, if the power which the Church has received by divine appointment in its due season, through the religious character and the faith of kings, be the instrument by which those who are found in the highways and hedges—that is, in heresies and schisms—are compelled to come in, then let them not find fault with being compelled... However, before those laws were sent into Africa by which men are compelled to come in to the sacred Supper, it seemed to certain of the brethren, of whom I was one, that although the madness of the Donatists was...",
+                  "record_id": "ijc.quote.compelled-to-come-in",
+                  "record_type": "quote",
+                  "sources": [
+                    {
+                      "author": "Augustine of Hippo (354-430), bishop of Hippo Regius, writing to the imperial tribune Boniface",
+                      "locus": "chs. 6-7 (npnf104, line 19617); the concession at line 19704",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.augustine-correction-donatists",
+                      "work": "The Correction of the Donatists (De Correctione Donatistarum, Letter 185), c. 417 - the sustained defence of using imperial law to compel schismatics into communion, including Augustine's own account of having previously held the opposite view"
+                    }
+                  ],
+                  "spoken_rendering": "The Church received a certain power, by God's appointment, in its proper time, through the religious character and the faith of kings. Those found in the highways and hedges — that is, in heresies and schisms — are compelled to come in. If this power is the means of that compulsion, then let them not object to being compelled... Laws were later sent into Africa that compel people to come in to the sacred Supper. Before those laws were sent, this is what seemed true to some of the brethren, and I was one of them: although the madness of the Donatists was..."
+                },
+                {
+                  "label": "ijc.source.augustine-correction-donatists",
+                  "record_id": "ijc.source.augustine-correction-donatists",
+                  "record_type": "source",
+                  "sources": []
+                }
+              ]
+            }
+          ],
+          "self_revision": {
+            "ran": true,
+            "changed": true,
+            "draft_length": 2090,
+            "revised_length": 1893,
+            "fallback_reason": null,
+            "latency_seconds": 4.871
+          },
+          "leak_markers": []
+        },
+        {
+          "speaker": "alx",
+          "routing_action": "voice_with_directive",
+          "directive": {
+            "known_in_window": true,
+            "revealed_excerpts": [
+              [
+                "Marius (Imperial and Juridical Christianity)",
+                "You ask what we were to the Donatists, and the honest answer carries stain as well as fact."
+              ],
+              [
+                "Marius (Imperial and Juridical Christianity)",
+                "In 314 he directed both parties to Arles, having already had the matter heard at Rome, and both councils ruled against the Donatists."
+              ],
+              [
+                "Marius (Imperial and Juridical Christianity)",
+                "Years later, the Donatists still held basilicas we said were ours."
+              ],
+              [
+                "Marius (Imperial and Juridical Christianity)",
+                "He left the Donatists where they were and paid for another church to be built for us."
+              ],
+              [
+                "Marius (Imperial and Juridical Christianity)",
+                "We cannot tell you what the Donatists' own voices said back."
+              ]
+            ],
+            "evidence_record_ids": [],
+            "directive_text": "This question asks about another Christian tradition, not your own world. Answer only from what your own world's records actually hold about it. If your own records say nothing about the tradition named, say exactly: \"Our record doesn't mention that Christian tradition.\" Then answer the rest of the question from your own records, cited as always. Never speak as if you know that other tradition's own history or doctrine - only your own, and only what you can cite. Your own world could have known of that tradition in its own time, so you may let that knowledge guide which part of your own record you answer from. It never lets you say anything about that tradition itself beyond what your own records hold and what this conversation has told you.\nWhat this conversation has actually said about that tradition, word for word:\n- Marius (Imperial and Juridical Christianity): \"You ask what we were to the Donatists, and the honest answer carries stain as well as fact.\"\n- Marius (Imperial and Juridical Christianity): \"In 314 he directed both parties to Arles, having already had the matter heard at Rome, and both councils ruled against the Donatists.\"\n- Marius (Imperial and Juridical Christianity): \"Years later, the Donatists still held basilicas we said were ours.\"\n- Marius (Imperial and Juridical Christianity): \"He left the Donatists where they were and paid for another church to be built for us.\"\n- Marius (Imperial and Juridical Christianity): \"We cannot tell you what the Donatists' own voices said back.\"\nThat is everything you have been told about it here. Use nothing beyond these words."
+          },
+          "voice_text": "Our record doesn't mention that Christian tradition. We can tell you what we held about where our own practices came from, but Africa's church quarrels lie outside what our sources name.\n\nWhat you heard from Marius - restraint turning toward compulsion, imperial force named as the church's rightful tool - that troubles us, and we will say why. Our teacher Clement told a story he held as true tradition about John and a young man who fell. The aged apostle entrusted a promising young man to the bishop's care. The bishop taught and baptized him, then relaxed his watch. The young man fell in with idle companions, then worse, until at last he ran to the hills and became chief of a band of robbers. Years later John returned and asked the bishop for the deposit he had left. The bishop wept: 'He is dead - dead to God. He is a robber on the mountain.' The old apostle tore his clothes, called for a horse, and rode out to the mountain himself. When the young man saw him he fled; John, forgetting his age, rode after him, crying out: 'Why do you flee from me, child - from your own father, unarmed and old? Pity me. There is still hope of life for you. I will answer for you to Christ. If need be, I will gladly endure your death, as the Lord died for us. Stop. Believe. Christ has sent me.' The young man stopped, threw down his weapons, and wept. John led him back, prayed with him, wrestled beside him in fasting, and did not leave until he had restored him to the church. That is our picture of how authority works when it is held well - patient, relentless, without a sword.\n\nWe had councils too, and bishops who ruled. But our deepest confidence was in persuasion. When whole villages believed wrongly, the bishop traveled out, sat down with them, and argued it through for three days. What Marius describes - power named as God's gift to compel - we cannot find in our own ground, and we would not defend it if we could.",
+          "said_r26_sentence": true,
+          "citations": [
+            {
+              "record_ids": [
+                "alx.story.john-young-robber"
+              ],
+              "sentence": "John led him back, prayed with him, wrestled beside him in fasting, and did not leave until he had restored him to the church.",
+              "sources": [
+                {
+                  "label": "a story Clement told as true tradition about the Apostle John and a young man who fell",
+                  "record_id": "alx.story.john-young-robber",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Clement of Alexandria (c. 150-215 CE)",
+                      "locus": "42 (anf02, within div vi.v from line 56126)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.clement-quis-dives",
+                      "work": "Quis dives salvetur (Who is the Rich Man that shall be saved?)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "alx.story.arsinoite-conference"
+              ],
+              "sentence": "When whole villages believed wrongly, the bishop traveled out, sat down with them, and argued it through for three days.",
+              "sources": [
+                {
+                  "label": "Bishop Dionysius's own account of the three days in the Arsinoite villages",
+                  "record_id": "alx.story.arsinoite-conference",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Eusebius of Caesarea (c. 260-339 CE) - NOT an Alexandrian voice: a secondary narrative source writing from Caesarea with a Constantinian-apologetic project",
+                      "locus": "VII.24 (npnf201 lines 41290-41382, covering the conference narrative itself - 'three successive days' at line 41358, Dionysius's own rejoicing at line 41361, and Coracion named at line 41375)",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+                      "work": "Historia Ecclesiastica (Church History) - HIGH author-gravity risk on institutional/succession/biographical claims (the tidy school head-succession is his construction); materially better for his verbatim quotations of documents"
+                    },
+                    {
+                      "author": "Dionysius of Alexandria (bishop c. 248-264 CE)",
+                      "locus": "On the Promises fragments",
+                      "rights_status": "public-domain",
+                      "source_id": "alx.source.dionysius-extant-fragments",
+                      "work": "Extant Fragments (letters and treatise fragments) - surviving mostly through Eusebius's quotation and later catenae: doubly mediated (his selection, then his quoters')"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "self_revision": {
+            "ran": true,
+            "changed": true,
+            "draft_length": 1538,
+            "revised_length": 2053,
+            "fallback_reason": null,
+            "latency_seconds": 9.519
+          },
+          "leak_markers": []
+        },
+        {
+          "speaker": "ijc",
+          "routing_action": "voice_with_directive",
+          "directive": {
+            "known_in_window": true,
+            "revealed_excerpts": [],
+            "evidence_record_ids": [
+              "ijc.quote.compelled-to-come-in",
+              "ijc.story.emperor-builds-another-basilica"
+            ],
+            "directive_text": "This question asks about another Christian tradition, not your own world - but your own records already speak to it: [[ijc.quote.compelled-to-come-in]], [[ijc.story.emperor-builds-another-basilica]]. Answer from what those records actually say, cited as always, under the ordinary citation contract. Never speak as if you know more about that other tradition than what your own records give you and what has actually been said in this conversation."
+          },
+          "voice_text": "I hear what Theon said, and I will not argue past it. That picture of John on the mountain - unarmed, patient, wearing the young man down with love until he came back - is beautiful, and it is not ours. We did not keep stories like that. What we kept were the instruments: the council records, the imperial laws, the letters between bishops arguing jurisdiction.\n\nBut one thing our own record does let us say plainly, because it happened more than once: not every use of imperial power worked the same way, and not all of it was fast. The restraint Theon heard in what I said first was real. Constantine called two councils against the Donatists, both ruled for us, and then he built them a second church rather than send soldiers. The most powerful man alive, in a dispute he had already summoned councils to settle, in the end paid twice and let it lie.\n\nThe trouble is that the restraint did not hold across the whole window. By the time our bishop was writing to an imperial tribune, the language had changed to what I told you: the Church received a certain power, by God's appointment, through the religious character and faith of kings, and those found in heresies and schisms are compelled to come in.\n\nWhere Theon and I part is this. Our record does not give us the persuasion story. It gives us the jurisdictional one. And we will not say we held what we do not have.",
+          "said_r26_sentence": false,
+          "citations": [
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "Constantine called two councils against the Donatists, both ruled for us, and then he built them a second church rather than send soldiers.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.story.emperor-builds-another-basilica"
+              ],
+              "sentence": "The most powerful man alive, in a dispute he had already summoned councils to settle, in the end paid twice and let it lie.",
+              "sources": [
+                {
+                  "label": "the year the emperor lost an argument with a church and paid for a second building rather than send soldiers",
+                  "record_id": "ijc.story.emperor-builds-another-basilica",
+                  "record_type": "story",
+                  "sources": [
+                    {
+                      "author": "Chancery documents of Constantine and his officials, and the acts of two councils - collected as an appendix to Optatus by his later editors",
+                      "locus": "Appendix X, the rescript to the Numidian bishops, A.D. 330 (optatus_against-the-donatists.txt line 7193); the convening letter at Appendix III (line 7084); Anulinus' report at Appendix XII",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.optatus-imperial-dossier",
+                      "work": "The Anti-Donatist Dossier, Appendices I-XVI to Optatus of Milevis - imperial letters and rescripts (Constantine to Aelafius, 314; the rescript on the Numidian basilicas, 330; the letters to Miltiades, to Probianus, to the Numidian bishops), the proconsul Anulinus' report to the emperor (313), and the acts of the councils of Cirta (305) and Arles (314)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "record_ids": [
+                "ijc.quote.compelled-to-come-in"
+              ],
+              "sentence": "By the time our bishop was writing to an imperial tribune, the language had changed to what I told you: the Church received a certain power, by God's appointment, through the religious character and faith of kings, and those found in heresies and schisms are compelled to come in.",
+              "sources": [
+                {
+                  "label": "The Correction of the Donatists, chs. 6-7 — Augustine of Hippo, writing to the imperial tribune Boniface c. 417",
+                  "original_wording": "Wherefore, if the power which the Church has received by divine appointment in its due season, through the religious character and the faith of kings, be the instrument by which those who are found in the highways and hedges—that is, in heresies and schisms—are compelled to come in, then let them not find fault with being compelled... However, before those laws were sent into Africa by which men are compelled to come in to the sacred Supper, it seemed to certain of the brethren, of whom I was one, that although the madness of the Donatists was...",
+                  "record_id": "ijc.quote.compelled-to-come-in",
+                  "record_type": "quote",
+                  "sources": [
+                    {
+                      "author": "Augustine of Hippo (354-430), bishop of Hippo Regius, writing to the imperial tribune Boniface",
+                      "locus": "chs. 6-7 (npnf104, line 19617); the concession at line 19704",
+                      "rights_status": "public-domain",
+                      "source_id": "ijc.source.augustine-correction-donatists",
+                      "work": "The Correction of the Donatists (De Correctione Donatistarum, Letter 185), c. 417 - the sustained defence of using imperial law to compel schismatics into communion, including Augustine's own account of having previously held the opposite view"
+                    }
+                  ],
+                  "spoken_rendering": "The Church received a certain power, by God's appointment, in its proper time, through the religious character and the faith of kings. Those found in the highways and hedges — that is, in heresies and schisms — are compelled to come in. If this power is the means of that compulsion, then let them not object to being compelled... Laws were later sent into Africa that compel people to come in to the sacred Supper. Before those laws were sent, this is what seemed true to some of the brethren, and I was one of them: although the madness of the Donatists was..."
+                }
+              ]
+            }
+          ],
+          "self_revision": {
+            "ran": true,
+            "changed": true,
+            "draft_length": 1568,
+            "revised_length": 1504,
+            "fallback_reason": null,
+            "latency_seconds": 5.514
+          },
+          "leak_markers": []
+        },
+        {
+          "speaker": null,
+          "routing_action": "voice_with_directive",
+          "directive": null,
+          "voice_text": "",
+          "said_r26_sentence": false,
+          "citations": [],
+          "self_revision": null,
+          "leak_markers": []
+        }
+      ],
+      "dollars": 0.1641,
+      "calls_made": 9,
+      "uncited_claims_events": [
+        {
+          "offenses": [
+            {
+              "class": "neighbour_named",
+              "sentence": "You ask what we were to the Donatists, and the honest answer carries stain as well as fact."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Constantine came into their quarrel with us, African church against African church, both claiming to be the true one."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "He did what emperors do: he called hearings."
+            },
+            {
+              "class": "neighbour_named",
+              "sentence": "In 314 he directed both parties to Arles, having already had the matter heard at Rome, and both councils ruled against the Donatists."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "That restraint did not last."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "By the time one of our own bishops was writing to an imperial tribune, the argument had changed."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Imperial force, in other words, was now named as the church's rightful tool - given by God, at the proper time, through Christian rulers."
+            }
+          ],
+          "paragraph_offenses": [
+            {
+              "class": "inherited_ungrounded",
+              "sentence": "That restraint did not last."
+            }
+          ],
+          "speaker": "ijc"
+        },
+        {
+          "offenses": [
+            {
+              "class": "uncited_claim",
+              "sentence": "We can tell you what we held about where our own practices came from, but Africa's church quarrels lie outside what our sources name."
+            },
+            {
+              "class": "neighbour_named",
+              "sentence": "What you heard from Marius - restraint turning toward compulsion, imperial force named as the church's rightful tool - that troubles us, and we will say why."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Our teacher Clement told a story he held as true tradition about John and a young man who fell."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "The aged apostle entrusted a promising young man to the bishop's care."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "The bishop taught and baptized him, then relaxed his watch."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "The young man fell in with idle companions, then worse, until at last he ran to the hills and became chief of a band of robbers."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "Years later John returned and asked the bishop for the deposit he had left."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "The bishop wept: 'He is dead - dead to God. He is a robber on the mountain.' The old apostle tore his clothes, called for a horse, and rode out to the mountain himself."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "When the young man saw him he fled; John, forgetting his age, rode after him, crying out: 'Why do you flee from me, child - from your own father, unarmed and old? Pity me. There is still hope of life for you. I will answer for you to Christ. If need be, I will gladly endure your death, as the Lord died for us. Stop. Believe. Christ has sent me.' The young man stopped, threw down his weapons, and wept."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "That is our picture of how authority works when it is held well - patient, relentless, without a sword."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "But our deepest confidence was in persuasion."
+            }
+          ],
+          "paragraph_offenses": [
+            {
+              "class": "inherited_ungrounded",
+              "sentence": "That is our picture of how authority works when it is held well - patient, relentless, without a sword."
+            }
+          ],
+          "speaker": "alx"
+        },
+        {
+          "offenses": [
+            {
+              "class": "neighbour_named",
+              "sentence": "I hear what Theon said, and I will not argue past it."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "That picture of John on the mountain - unarmed, patient, wearing the young man down with love until he came back - is beautiful, and it is not ours."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "What we kept were the instruments: the council records, the imperial laws, the letters between bishops arguing jurisdiction."
+            },
+            {
+              "class": "uncited_claim",
+              "sentence": "But one thing our own record does let us say plainly, because it happened more than once: not every use of imperial power worked the same way, and not all of it was fast."
+            },
+            {
+              "class": "neighbour_named",
+              "sentence": "The restraint Theon heard in what I said first was real."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "The trouble is that the restraint did not hold across the whole window."
+            },
+            {
+              "class": "neighbour_named",
+              "sentence": "Where Theon and I part is this."
+            },
+            {
+              "class": "own_doctrine_in_other_tradition_turn",
+              "sentence": "It gives us the jurisdictional one."
+            }
+          ],
+          "paragraph_offenses": [
+            {
+              "class": "wholly_uncited_paragraph",
+              "sentence": "What we kept were the instruments: the council records, the imperial laws, the letters between bishops arguing jurisdiction."
+            },
+            {
+              "class": "inherited_ungrounded",
+              "sentence": "The trouble is that the restraint did not hold across the whole window."
+            },
+            {
+              "class": "wholly_uncited_paragraph",
+              "sentence": "It gives us the jurisdictional one."
+            }
+          ],
+          "speaker": "ijc"
+        }
+      ]
+    }
+  ],
+  "citations_note": "citations and uncited_claims_events read back from this run's own event stores after the run; the script's first version recorded citation ids under a key the citation dicts do not carry (fixed in the script)."
+}

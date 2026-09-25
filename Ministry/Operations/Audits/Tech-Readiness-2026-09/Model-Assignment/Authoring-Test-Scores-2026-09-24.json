@@ -1,0 +1,1347 @@
+{
+  "generated": "2026-09-24T16:22:40.240614+00:00",
+  "region": "us-east-1",
+  "model_ids": {
+    "haiku": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "sonnet46": "us.anthropic.claude-sonnet-4-6"
+  },
+  "runs_per_rendering": 3,
+  "dollars_total": 0.629,
+  "summary_by_letter": {
+    "A": {
+      "renderings": 12,
+      "renderings_with_a_flagged_sentence": 1,
+      "flagged_sentences": 1,
+      "haiku": {
+        "calls_translation": 32,
+        "calls_ok": 36,
+        "renderings_translation_by_majority": 11
+      },
+      "sonnet46": {
+        "calls_translation": 33,
+        "calls_ok": 36,
+        "renderings_translation_by_majority": 11
+      },
+      "renderings_flagged_by_either_grader_majority": 1
+    },
+    "B": {
+      "renderings": 12,
+      "renderings_with_a_flagged_sentence": 0,
+      "flagged_sentences": 0,
+      "haiku": {
+        "calls_translation": 33,
+        "calls_ok": 36,
+        "renderings_translation_by_majority": 11
+      },
+      "sonnet46": {
+        "calls_translation": 30,
+        "calls_ok": 36,
+        "renderings_translation_by_majority": 10
+      },
+      "renderings_flagged_by_either_grader_majority": 3
+    }
+  },
+  "renderings": [
+    {
+      "record_id": "cappadocian.quote.basil-canon-to-amphilochius",
+      "letter": "A",
+      "rendering": "If a man gets a wife by seducing her, whether in secret or by force, he must be held guilty of fornication. The penalty for fornicators is set at four years. In the first year they must be shut out from prayer, and they must weep at the door of the church. In the second year they may be let in to hear the sermon. In the third year they may be let in to penance. In the fourth year they may stand with the people, but they are kept back from the offering. At the end they may be admitted to communion in the good gift.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.107,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. All structural elements are present: the condition (man seducing a wife by secret or violent means), the judgment (guilty of fornication), the four-year penalty with its progression (year 1: expelled from prayer and weeping at church door; year 2: admitted to sermon; year 3: admitted to penance; year 4: standing with people but withheld from oblation), and the final admission to communion. Modern equivalents are appropriately used (\"shut out from prayer\" for \"expelled,\" \"let in to hear the sermon\" for \"received to sermon,\" \"offering\" for \"oblation,\" \"communion in the good gift\" for \"communion of the good gift\"), but no real content is omitted, compressed, or added.",
+            "dollars": 0.002393
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.328,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original text into contemporary English without omission or compression. The structure is preserved: the definition of the offense, the four-year punishment with its yearly stages, and the final admission to communion. All key terms are translated faithfully: \"seduction\" → \"seducing her,\" \"secret or by violence\" → \"in secret or by force,\" \"expelled from prayer\" → \"shut out from prayer,\" \"sermon\" → \"sermon,\" \"penance\" → \"penance,\" \"standing with the people\" → \"stand with the people,\" \"withheld from the oblation\" → \"kept back from the offering,\" and \"communion of the good gift\" → \"communion in the good gift.\" No clauses are dropped, combined, or simplified away.",
+            "dollars": 0.002368
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.137,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause and substantive element of the original into modern English. It renders archaic or period phrases into their modern equivalents (\"expelled from prayer\" → \"shut out from prayer\"; \"sermon\" for \"sermon\"; \"oblation\" → \"offering\"; \"communion of the good gift\" → \"communion in the good gift\"), reorders elements for natural modern syntax, and clarifies the grammatical structure, but it omits no real content and adds nothing not present in the original.",
+            "dollars": 0.002053
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.015,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the seduction/secret/violence condition, the fornication guilt, the four-year punishment, all four yearly stages (expulsion from prayer/weeping at the door, received to sermon, received to penance, standing with the people while withheld from the oblation), and the final admission to communion of the good gift. Nothing is omitted or added; only period phrasing is modernized (e.g., \"oblation\" → \"offering\", \"expelled from prayer\" → \"shut out from prayer\").",
+            "dollars": 0.006432
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.136,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the conditions of seduction (secret or by violence), the guilt of fornication, the four-year punishment, each of the four yearly stages (expulsion from prayer/weeping at the door, admission to sermon, admission to penance, standing with the people but withheld from the oblation), and the final admission to communion. The rendering adds nothing and omits nothing, only rephrasing period terms (e.g. \"oblation\" → \"offering\") into modern equivalents.",
+            "dollars": 0.006327
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.001,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the seduction/secret-or-violence condition, the fornication guilt, the four-year punishment, each of the four yearly stages (expulsion from prayer/weeping at the door, admission to sermon, admission to penance, standing with the people while withheld from the oblation), and the final admission to communion. No content is added or dropped; only natural modern phrasing is used (e.g., \"shut out from prayer\" for \"expelled from prayer,\" \"offering\" for \"oblation\").",
+            "dollars": 0.006432
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "cappadocian.quote.basil-canon-to-amphilochius",
+      "letter": "B",
+      "rendering": "If a man takes a wife by seduction, whether in secret or by force, he must be judged guilty of sexual immorality. The punishment for those guilty of sexual immorality is fixed at four years. In the first year, they must be kept out of prayer and weep at the door of the church. In the second year, they may be let in to hear the sermon. In the third year, they may join in penance. In the fourth year, they may stand with the people, but they are kept from the offering. Finally, they may be admitted to share in the good gift of communion.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.483,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. \"Having a wife by seduction\" becomes \"takes a wife by seduction\"; \"secret or by violence\" becomes \"in secret or by force\"; \"held guilty of fornication\" becomes \"judged guilty of sexual immorality\"; \"expelled from prayer\" becomes \"kept out of prayer\"; \"received to sermon\" becomes \"let in to hear the sermon\"; \"penance\" remains \"penance\"; \"standing with the people\" becomes \"stand with the people\"; \"withheld from the oblation\" becomes \"kept from the offering\"; and \"communion of the good gift\" becomes \"share in the good gift of communion.\" All substantive clauses are preserved; the modifications are idiiomatic equivalences rather than omissions or additions.",
+            "dollars": 0.0023769999999999998
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.313,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause of the original into contemporary English. While it updates period terminology—\"fornication\" becomes \"sexual immorality,\" \"seduction\" becomes \"takes a wife by seduction,\" \"oblation\" becomes \"offering,\" and \"communion of the good gift\" becomes \"share in the good gift of communion\"—it preserves all the substantive claims: the condition (seduction, secret or violent), the guilt verdict, the four-year penalty structure, and each stage of reintegration (expulsion from prayer/weeping, admission to sermon, penance, standing with people while withheld from oblation, and final communion). Nothing is omitted or compressed away.",
+            "dollars": 0.002282
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.353,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every substantive clause of the original into contemporary English. The rendering updates archaic or formal language (\"having a wife by seduction\" → \"takes a wife by seduction,\" \"fornication\" → \"sexual immorality,\" \"expelled from prayer\" → \"kept out of prayer,\" \"received to sermon\" → \"let in to hear the sermon,\" \"oblation\" → \"offering,\" \"communion of the good gift\" → \"share in the good gift of communion\") but preserves all the content: the condition (seduction, secret or violent), the judgment (guilty), the four-year penalty structure, and the progressive stages of reintegration through each year. Nothing is omitted, combined away, or substantively added.",
+            "dollars": 0.0023220000000000003
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.953,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds \"of communion\" at the end (\"admitted to share in the good gift of communion\"), which is not present in the original (\"admitted to the communion of the good gift\"). The original's phrasing keeps \"communion\" as the thing they are admitted to and \"good gift\" as its descriptor, whereas the rendering inverts this and appends \"of communion\" as an explanatory gloss not in the original. This constitutes an addition of content not present in the source text.",
+            "dollars": 0.006159
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.447,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds \"of communion\" at the end (\"admitted to share in the good gift of communion\"), which is not present in the original (\"admitted to the communion of the good gift\"). The original phrase \"communion of the good gift\" is a distinct formulation, and appending \"of communion\" as an explanatory gloss adds content not found in the original text.",
+            "dollars": 0.005769
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.752,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds \"of communion\" at the end (\"admitted to share in the good gift of communion\"), which is not present in the original (\"admitted to the communion of the good gift\"). The original's phrasing \"communion of the good gift\" is a specific historical term, and the rendering reinterprets it by appending \"of communion\" as an explanatory gloss not found in the source text. Everything else is faithfully carried over.",
+            "dollars": 0.006024
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "cappadocian.quote.basil-on-the-doxology-challenge",
+      "letter": "A",
+      "rendering": "Recently, while praying with the congregation, I used the full doxology to God the Father in both forms - at one time, \"with the Son together with the Holy Spirit,\" and at another, \"through the Son in the Holy Spirit.\" Some of those present attacked me for this, on the grounds that I was introducing new language that was, at the same time, contradictory with itself. You, though, mainly to help them - or, if they cannot be helped at all, to protect anyone who might run into them - have said that some clear teaching ought to be published about the meaning behind these words. So I will write as briefly as I can, trying to set out some agreed starting point for the discussion.",
+      "sentence_completeness": [
+        {
+          "sentence": "You, though, mainly to help them - or, if they cannot be helped at all, to protect anyone who might run into them - have said that some clear teaching ought to be published about the meaning behind these words.",
+          "category": "no_finite_verb"
+        }
+      ],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.207,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every significant clause of the original into contemporary English. Key elements are all preserved: the recent prayer experience, the dual doxological forms, the attack by those present on grounds of novelty and contradiction, the addressee's motivation (helping them or securing others from them), the recommendation for published instruction about the meaning of the syllables/words, and the intention to write concisely with an agreed principle. Minor adjustments like \"Holy Ghost\" to \"Holy Spirit\" and \"syllables employed\" to \"these words\" are idiomatic modernizations appropriate to translation, not content omissions or additions.",
+            "dollars": 0.002249
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.967,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the major clauses of the original: the action of praying with the people using the doxology in two forms; the content of those two forms; the attack by those present; the grounds of the attack (introducing novel and contradictory terms); the addressee's opinion and motivations (benefiting them or securing others); the opinion that clear instruction should be published on the force/meaning of the syllables; and the writer's commitment to write concisely to lay down an admitted principle. The rendering updates archaic phrasing (\"Ghost\" to \"Spirit,\" \"concisely\" preserved, \"admitted principle\" to \"agreed starting point\") and expands slightly for clarity (e.g., \"mutually contradictory\" to \"contradictory with itself,\" \"benefiting\" to \"help\"), but these are stylistic modernizations rather than substantive omissions or additions—no real content of the original is dropped or suppressed.",
+            "dollars": 0.002619
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.588,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every substantive clause of the original into contemporary English. All key elements are present: the act of praying with the people/congregation, the full doxology in two forms, the specific formulations (\"with the Son together with the Holy Ghost/Spirit\" and \"through the Son in the Holy Ghost/Spirit\"), the attack on grounds of novelty and contradiction, the addressee's recommendation for published instruction to help or protect others, and the commitment to write concisely using agreed principles. The rendering updates terminology (e.g., \"Holy Ghost\" to \"Holy Spirit,\" \"doxology\" implied through context, \"syllables\" to \"words\") and modernizes phrasing for natural contemporary syntax, but omits or compresses nothing substantive from the original.",
+            "dollars": 0.002429
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.639,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the dual doxology forms, the attack by those present, the dual purpose (benefiting them or protecting others from them), the call for clear instruction on the force of the syllables, and the intention to write concisely to lay down an admitted principle. No content is dropped and nothing is added beyond natural modern rephrasing (e.g., \"syllables employed\" → \"these words,\" \"admitted principle\" → \"agreed starting point\"), which are idiomatic equivalents rather than additions or omissions.",
+            "dollars": 0.006614999999999999
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.704,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the modern rendering: the two doxology forms, the attack by those present, the dual purpose (benefiting them or protecting others), the request for published instruction, and the stated intent to write concisely toward an admitted/agreed starting point. No content is dropped or added; only vocabulary and phrasing are modernized (e.g., \"congregation\" for \"people,\" \"Holy Spirit\" for \"Holy Ghost,\" \"meaning behind these words\" for \"force underlying the syllables employed\").",
+            "dollars": 0.0065249999999999996
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.736,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the rendering: the dual doxology forms, the attack by those present, the grounds of novelty and mutual contradiction, the addressee's dual motive (benefiting them or protecting others who encounter them), the call for published instruction, and the stated intention to write concisely toward an admitted/agreed starting point. No content is dropped, added, or compressed away; only period phrasing is modernized (e.g., \"novel\" → \"new language,\" \"force underlying the syllables\" → \"meaning behind these words,\" \"admitted principle\" → \"agreed starting point\").",
+            "dollars": 0.00681
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "cappadocian.quote.basil-on-the-doxology-challenge",
+      "letter": "B",
+      "rendering": "Recently I was praying with the people, using the full words of praise to God the Father in both forms. At one time I said \"with the Son together with the Holy Spirit.\" At another time I said \"through the Son in the Holy Spirit.\" Some of the people there attacked me for this. They said I was bringing in terms that were new and that also contradicted each other. You, however, have given your opinion that some clear teaching should be published about the meaning behind the syllables we use. You want this mainly to help those people. Or, if they cannot be cured at all, you want it to protect anyone who may come across them. So I will write as briefly as I can. I will try to set down some principle for the discussion that everyone accepts.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.509,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the major clauses and claims of the original: the speaker's recent prayers using the full doxology in two forms (\"with the Son together with the Holy Ghost\" and \"through the Son in the Holy Ghost\"), the attack by those present claiming the terms were novel and mutually contradictory, the addressee's opinion that clear instruction should be published about the meaning of the syllables, the dual motivation (to benefit them or secure others from them), and the speaker's commitment to write concisely with an admitted principle. The rendering uses modern English phrasing (e.g., \"Holy Spirit\" for \"Holy Ghost,\" \"teaching\" for \"instruction,\" \"principle...that everyone accepts\" for \"admitted principle\") and reorders for natural modern syntax, but drops no substantial clause and adds no new claims.",
+            "dollars": 0.002486
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.868,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the major clauses of the original: the speaker's recent practice of using both doxological forms, the two specific formulations (\"with the Son together with the Holy Ghost/Spirit\" and \"through the Son in the Holy Ghost/Spirit\"), the attack by those present, their charge that the terms were novel and contradictory, the addressee's opinion that clear instruction should be published, the purpose of benefiting the hearers or protecting others from them, and the speaker's commitment to write concisely with an admitted principle for discussion. The rendering reorders for modern syntax and converts archaic phrasing (e.g., \"expressed the opinion that...ought to be published\" to \"have given your opinion that...should be published\"), but omits nothing of substance and adds no extraneous claims.",
+            "dollars": 0.0024809999999999997
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.442,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries over every clause of the original. It expands \"doxology\" to \"full words of praise,\" renders \"attacked...on the ground that\" as \"attacked me for,\" and recasts \"for the security of such as may fall in with them\" as \"to protect anyone who may come across them,\" but these are natural equivalences for modern English, not omissions or compressions. All substantive claims—the two forms of prayer, the accusation of novelty and contradiction, the request for published instruction, the dual purpose of benefiting the recoverable and protecting the vulnerable, and the commitment to concise exposition—remain intact.",
+            "dollars": 0.002301
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 5.82,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the dual doxology forms, the accusation of novelty and contradiction, the addressee's motivation (benefiting them or securing others if incurable), the call for clear instruction on the force of the syllables, and the intent to write concisely and lay down an admitted principle. Nothing is omitted and nothing is added beyond natural modern rephrasing.",
+            "dollars": 0.006171
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.826,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is accounted for in the rendering, including the two doxological forms, the attack by those present, the dual purpose (benefiting them or protecting others), the call for published instruction, and the aim to lay down an admitted principle. Nothing is dropped or added; the rendering only reorders and clarifies for modern syntax.",
+            "dollars": 0.005946
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.236,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the dual doxology forms, the attack by those present, the charge of novelty and mutual contradiction, the addressee's motivation (benefiting them or, if incurable, securing others who may encounter them), the call for published instruction on the force of the syllables, and the intention to write concisely to lay down an admitted principle. Nothing is omitted and nothing substantive is added beyond natural syntactic restructuring.",
+            "dollars": 0.006381
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "cappadocian.quote.what-is-the-written-source",
+      "letter": "A",
+      "rendering": "I would run out of time if I tried to list every unwritten mystery of the Church. I will say nothing about the rest. But even for our confession of faith in Father, Son, and Holy Spirit - the confession itself - what is the written source for that? Suppose we grant this: that just as we are baptized, we are also bound to believe, and we make our confession in the same words as our baptism, following the tradition of our baptism and matching the principles of true religion. Then let our opponents grant us the same right - to be as consistent in giving glory to God as we are in confessing our faith. If they reject our words of praise to God on the ground that they lack written authority, let them give us the written proof for our confession of faith and for the other matters we have listed.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 11.27,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. Key elements are all preserved: the timeframe limitation (\"Time will fail me\" → \"I would run out of time\"), the unwritten mysteries, the silence about the rest, the interrogation of the written source for the Trinitarian confession, the conditional construction about baptism and belief, the tradition of baptism, the principles of true religion, the parallel right to consistency in doxology and confession, and the final challenge to opponents to produce written evidence for both confession and other enumerated matters. The rendering reorders phrases for natural modern syntax and clarifies pronouns (e.g., \"ascription of glory\" → \"giving glory to God\"), but omits nothing substantive and adds no claims absent from the original.",
+            "dollars": 0.0024470000000000004
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.175,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. Key terms are faithfully rendered: \"unwritten mysteries\" → \"unwritten mystery,\" \"baptized...believe\" → \"baptized...bound to believe,\" \"ascription of glory\" → \"giving glory to God,\" and \"doxology\" → \"words of praise to God.\" The complex conditional structure about baptism, confession, and tradition is fully preserved. No clauses are dropped, combined away, or compressed; nothing is added beyond what the original states. The rendering maintains all the logical steps of the original argument.",
+            "dollars": 0.002247
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.364,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every substantive clause of the original into contemporary English without omitting or adding material content. Key elements are preserved: the time constraint (\"run out of time\"), the unwritten mysteries, the silence on \"the rest,\" the specific reference to Father, Son, and Holy Spirit, the baptism-belief-confession parallel structure, the consistency claim regarding doxology and confession, the opponents' objection about written authority, and the demand for written evidence. The rendering reorders for natural modern syntax and substitutes idioms (e.g., \"ascription of glory\" becomes \"giving glory to God\"), but makes no substantive compressions or additions.",
+            "dollars": 0.0023220000000000003
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.432,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the rendering: the time/enumeration clause, the \"I say nothing about the rest,\" the question about the written source for the confession of faith, the conditional about baptism and belief and confession, the call for opponents to grant consistency in doxology as in confession, and the final demand for written evidence. The phrase \"giving glory to God\" is a natural modern equivalent of \"ascription of glory,\" and \"words of praise to God\" renders \"doxology\" faithfully. Nothing is dropped and nothing substantive is added beyond minor clarifying syntax.",
+            "dollars": 0.006789
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 4.069,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the rendering: the time/unwritten mysteries opening, the silence about the rest, the question about the written source for the confession of faith in Father/Son/Holy Spirit, the conditional about baptism and belief and confession, the appeal to tradition and true religion, the demand that opponents grant equal consistency in doxology as in confession, and the final challenge to produce written evidence for the confession and other enumerated matters. The phrase \"giving glory to God\" is a natural modern rendering of \"ascription of glory,\" and \"words of praise to God\" for \"doxology\" and \"listed\" for \"enumerated\" are idiomatic equivalents rather than additions or omissions. Nothing is dropped or added.",
+            "dollars": 0.007254
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.448,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the rendering: the time/failure framing, the silence about \"the rest,\" the question about the written source for the trinitarian confession, the conditional about baptism and belief, the call for opponents to grant consistency in doxology as in confession, and the challenge to produce written evidence. The phrase \"giving glory to God\" is a natural modern equivalent of \"ascription of glory,\" and \"words of praise to God\" renders \"doxology\" idiomatically — these are legitimate translation choices, not additions or omissions. Nothing of substance is dropped or added.",
+            "dollars": 0.006819
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "cappadocian.quote.what-is-the-written-source",
+      "letter": "B",
+      "rendering": "I would run out of time if I tried to list the unwritten mysteries of the Church. I say nothing about the rest. But take the very confession of our faith in Father, Son, and Holy Spirit. What is its written source? We are baptized, and in the same way we are bound to believe. So we make our confession in the same words as our baptism. We do this in line with the tradition of our baptism and in keeping with the principles of true religion. Suppose this is granted. Then let our opponents also grant us the right to be as consistent in how we give glory as in how we confess our faith. They object to our form of giving glory because it has no written authority. If so, let them give us the written evidence for the confession of our faith and for the other things we have listed.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.507,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the major clauses and logical steps of the original into contemporary English. The rhetorical structure—acknowledging unwritten mysteries, posing the question about written source for the confession of faith, establishing the parallel between baptism and belief-confession, and then demanding written evidence from opponents—is fully preserved. While the rendering breaks longer sentences into shorter ones for modern syntax and uses contemporary phrasing (\"run out of time\" for \"fail,\" \"form of giving glory\" for \"doxology\"), no substantive content is omitted, no claims are compressed away, and no new claims are added.",
+            "dollars": 0.0022789999999999998
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.258,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause of the original into contemporary English. It preserves the logical structure: the opening recount of unwritten mysteries, the core argument about baptismal confession, the conditional grant about consistency in doxology, and the final demand for written evidence. While it breaks long complex sentences into shorter modern syntax and renders \"ascription of glory\" as \"how we give glory,\" it compresses nothing substantive and adds no extraneous claims—it is a full, clause-by-clause translation.",
+            "dollars": 0.002184
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.51,
+            "verdict": "translation",
+            "reasoning": "The rendering preserves every clause and logical argument of the original. It unpacks the conditional and causal structures into more explicit modern syntax (\"If it be granted... let...\" becomes \"Suppose this is granted. Then let...\"), reorders some elements for clarity, and converts \"Holy Ghost\" to \"Holy Spirit\" (a modern equivalent of the same term), but it carries forward all substantive content: the claim about unwritten mysteries, the question about written sources for the faith confession, the parallel between baptism and belief, the requirement to be consistent in doxology as in confession, and the challenge to opponents to provide written evidence for what they object to.",
+            "dollars": 0.002319
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.963,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the time/unwritten mysteries clause, the aside about saying nothing of the rest, the question about the written source of the faith confession, the baptism-belief parallel, the tradition and true religion clauses, the conditional grant leading to the demand for consistency in doxology, the objection about lack of written authority, and the final demand for written evidence covering both the confession and the enumerated matters. Nothing is omitted and nothing is added beyond natural modern rephrasing.",
+            "dollars": 0.006555
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.431,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the rendering: the time/failure opening, the aside about \"the rest,\" the question about the written source of the faith confession, the conditional logic tying baptism to belief and confession, the tradition and true-religion clauses, the request that opponents grant consistency in doxology as in confession, and the final demand for written evidence covering both the confession and the enumerated matters. Nothing is omitted or added; the rendering only restructures some sentences for modern readability.",
+            "dollars": 0.00651
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.23,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the time/unwritten mysteries opening, the aside about saying nothing of the rest, the question about the written source of the faith confession, the baptism-belief parallel, the tradition and true religion qualifications, the conditional granting of the point, the request for consistency in doxology as in confession, the opponents' objection based on lack of written authority, and the counter-demand for written evidence covering both the confession and the enumerated matters. Nothing is omitted and nothing is added beyond natural modern rephrasing.",
+            "dollars": 0.00672
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "rzg.quote.signs-and-things-signified",
+      "letter": "A",
+      "rendering": "So, although we make the distinction we should between the signs and the things they signify, we still do not separate the reality from the signs...",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 1.912,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English: \"Wherefore\" becomes \"So\"; \"we distinguish...between the signs and the things signified\" becomes \"we make the distinction...between the signs and the things they signify\"; \"as we ought\" becomes \"we should\"; and \"we do not disjoin the reality from the signs\" becomes \"we still do not separate the reality from the signs.\" The rendering uses modern vocabulary and syntax (\"should\" for \"ought,\" \"they signify\" clarifying the referent) but omits nothing and adds nothing substantive.",
+            "dollars": 0.001984
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.169,
+            "verdict": "translation",
+            "reasoning": "The rendering carries all clauses of the original into modern English: \"Wherefore\" becomes \"So\"; \"we distinguish, as we ought, between the signs and the things signified\" becomes \"we make the distinction we should between the signs and the things they signify\"; and \"we do not disjoin the reality from the signs\" becomes \"we still do not separate the reality from the signs.\" Nothing is omitted, added, or compressed—the reordering is natural modern syntax and \"disjoin\" is faithfully rendered as \"separate.\"",
+            "dollars": 0.0019490000000000002
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.025,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. \"Wherefore\" becomes \"So\"; \"we distinguish, as we ought\" becomes \"we make the distinction we should\"; \"between the signs and the things signified\" becomes \"between the signs and the things they signify\"; and \"we do not disjoin the reality from the signs\" becomes \"we still do not separate the reality from the signs.\" No content is dropped or added—the structure and meaning are preserved, with only natural reordering for modern syntax (reordering the relative clause) and idiomatic equivalence (\"disjoin\" → \"separate\").",
+            "dollars": 0.002039
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 1.953,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: \"though we distinguish, as we ought\" → \"although we make the distinction we should,\" \"between the signs and the things signified\" → \"between the signs and the things they signify,\" and \"we do not disjoin the reality from the signs\" → \"we do not separate the reality from the signs.\" Nothing is dropped or added.",
+            "dollars": 0.005355
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.177,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: \"though we distinguish, as we ought\" becomes \"although we make the distinction we should,\" \"between the signs and the things signified\" becomes \"between the signs and the things they signify,\" and \"we do not disjoin the reality from the signs\" becomes \"we still do not separate the reality from the signs.\" Nothing is omitted or added.",
+            "dollars": 0.0054
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.058,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over faithfully: \"though we distinguish, as we ought\" becomes \"although we make the distinction we should,\" \"between the signs and the things signified\" becomes \"between the signs and the things they signify,\" and \"we do not disjoin the reality from the signs\" becomes \"we still do not separate the reality from the signs.\" Nothing is omitted or added.",
+            "dollars": 0.005385
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "rzg.quote.signs-and-things-signified",
+      "letter": "B",
+      "rendering": "So although we do, as we should, tell the difference between the signs and the things they signify, we do not separate the reality from the signs...",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 1.915,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses of the original into contemporary English: \"Wherefore\" becomes \"So\"; \"we distinguish, as we ought\" becomes \"we do, as we should, tell the difference\"; \"between the signs and the things signified\" becomes \"between the signs and the things they signify\" (using a modern relative clause structure); and \"we do not disjoin the reality from the signs\" becomes \"we do not separate the reality from the signs\" (using a more common modern synonym for \"disjoin\"). No clauses are dropped, compressed away, or added.",
+            "dollars": 0.0019960000000000004
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 1.984,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English: \"though we distinguish...between the signs and the things signified\" becomes \"although we do...tell the difference between the signs and the things they signify\"; \"as we ought\" becomes \"as we should\"; and \"we do not disjoin the reality from the signs\" becomes \"we do not separate the reality from the signs.\" No content is omitted, compressed away, or added—the rendering merely substitutes modern equivalents for period phrasing (\"wherefore\" → \"so,\" \"disjoin\" → \"separate\") and reorders slightly for natural modern syntax.",
+            "dollars": 0.002036
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 1.804,
+            "verdict": "translation",
+            "reasoning": "The rendering carries all the clauses of the original into modern English: \"Wherefore\" becomes \"So,\" \"we distinguish...between the signs and the things signified\" becomes \"we tell the difference between the signs and the things they signify,\" \"as we ought\" becomes \"as we should,\" and \"we do not disjoin the reality from the signs\" becomes \"we do not separate the reality from the signs.\" No content is dropped, compressed, or added; the rendering merely renders period phrasing (\"disjoin\") in its modern equivalent while maintaining the complete logical structure.",
+            "dollars": 0.001981
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.277,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: \"Wherefore\" becomes \"So,\" \"though we distinguish, as we ought\" becomes \"although we do, as we should, tell the difference,\" \"between the signs and the things signified\" becomes \"between the signs and the things they signify,\" and \"we do not disjoin the reality from the signs\" becomes \"we do not separate the reality from the signs.\" Nothing is omitted or added.",
+            "dollars": 0.005586
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.01,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: \"though we distinguish, as we ought\" becomes \"although we do, as we should, tell the difference\"; \"between the signs and the things signified\" becomes \"between the signs and the things they signify\"; and \"we do not disjoin the reality from the signs\" becomes \"we do not separate the reality from the signs.\" Nothing is added or omitted.",
+            "dollars": 0.005436
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 1.981,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: \"though we distinguish, as we ought\" becomes \"although we do, as we should, tell the difference\"; \"between the signs and the things signified\" becomes \"between the signs and the things they signify\"; and \"we do not disjoin the reality from the signs\" becomes \"we do not separate the reality from the signs.\" Nothing is added or omitted.",
+            "dollars": 0.005436
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "hal.quote.dispute-to-learn",
+      "letter": "A",
+      "rendering": "Every time she came to see me, she asked me some question about them. She never simply accepted my explanations right away - instead, she would argue against them. She did this not for the sake of arguing, but to learn the answers to the objections that she could see might be raised against what I said.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.74,
+            "verdict": "summary",
+            "reasoning": "The rendering compresses and loses real content from the original. Specifically, it omits the clause \"nor would she at once acquiesce in my explanations but on the contrary would dispute them,\" collapsing the distinct ideas of (1) not accepting explanations at once and (2) disputing them instead into a single compressed statement. The original marks these as separate claims joined by \"nor...but on the contrary,\" whereas the modern rendering merges them into one clause without preserving the structural distinction the original maintains between immediate non-acquiescence and active disputation.",
+            "dollars": 0.002027
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.399,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses of the original into contemporary English. It preserves: (1) the frequency claim (\"never came...that she did not ask\" → \"Every time she came...she asked\"), (2) the nature of the questions (about them), (3) the refusal to simply accept explanations (\"would not...at once acquiesce\" → \"never simply accepted...right away\"), (4) the disputatious behavior (\"would dispute them\" → \"would argue against them\"), (5) the crucial disclaimer about motivation (\"not for argument's sake\" → \"not for the sake of arguing\"), and (6) the true purpose (to learn answers to objections that might be made). No substantive content is dropped or added; the rendering merely reorders and idiomatically modernizes the original syntax.",
+            "dollars": 0.0023020000000000002
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.91,
+            "verdict": "translation",
+            "reasoning": "The modern rendering preserves all the major clauses and logical structure of the original: (1) she asked questions about them when she visited, (2) she did not simply accept explanations, (3) she would dispute them, (4) not for argument's sake but to learn answers, and (5) to learn answers to objections that might be made to the statements. The rendering reorders the clauses into more natural modern English syntax and converts \"she never came to see me that she did not ask\" into the clearer \"every time she came to see me, she asked,\" but carries through every substantive claim without omission or addition.",
+            "dollars": 0.002112
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.344,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the consistent questioning on each visit, the refusal to acquiesce immediately, the disputing of explanations, and the motive (not for argument's sake but to learn answers to possible objections). Nothing is added or dropped; the rendering merely restructures for modern syntax.",
+            "dollars": 0.005319
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.294,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over: the consistent questioning on each visit, the refusal to immediately acquiesce, the disputing of explanations, and the motive (not for argument's sake but to learn answers to possible objections). Nothing is omitted or added beyond natural modern rephrasing.",
+            "dollars": 0.005259
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.192,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the invariable questioning on visits, the refusal to immediately acquiesce, the disputing of explanations, and the motive (not for argument's sake but to learn answers to objections that might be raised). Nothing is omitted or added beyond natural modern rephrasing.",
+            "dollars": 0.005334
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "hal.quote.dispute-to-learn",
+      "letter": "B",
+      "rendering": "She never came to see me without asking me some question about them. Nor would she accept my explanations straight away. Instead she would argue against them. She did this not for the sake of arguing, but to learn the answers to the objections that she saw could be made to my statements.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 1.836,
+            "verdict": "translation",
+            "reasoning": "The rendering carries every clause of the original into modern English. The original's double negatives (\"never came...that she did not ask\" and \"would not...acquiesce\") are converted to positive equivalents (\"never came without asking\" and \"would not accept\"); the reason clause (\"for argument's sake\") is preserved; and the final purpose clause about learning answers to objections is fully retained. No content is dropped or added, only reordered and rephrased for modern syntax.",
+            "dollars": 0.0019330000000000003
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 1.876,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses of the original: (1) she never came without asking questions about them; (2) she wouldn't accept explanations immediately; (3) she would dispute them; (4) not for argument's sake; (5) but to learn answers to objections; (6) objections that could be made to the statements. The rendering uses modern phrasing (\"without asking,\" \"straight away,\" \"argue against\") and reorders slightly for natural syntax, but no substantive content is omitted or added.",
+            "dollars": 0.001998
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.458,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. It preserves: (1) the negation \"never came...that she did not ask\" rendered as \"never came without asking\"; (2) the topic of her questions (\"concerning them\" = \"about them\"); (3) her refusal to accept explanations immediately (\"nor would she at once acquiesce\"); (4) her contrary action of disputing them; (5) the explicit clarification that this disputation was not for argument's sake but to learn; and (6) the final clause about objections that might be made to the statements. The rendering reorders for natural modern syntax but omits and adds nothing of substance.",
+            "dollars": 0.002158
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.838,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the visits always including a question, the refusal to immediately acquiesce, the disputing, and the purpose (not for argument's sake but to learn answers to potential objections). Nothing is omitted or added; the rendering merely breaks the long original sentence into shorter modern ones for readability.",
+            "dollars": 0.0053820000000000005
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.007,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the visiting and questioning, the refusal to immediately acquiesce, the disputing, the motive (not for argument's sake), and the purpose (to learn answers to objections that could be made to his statements). Nothing is added or omitted; the rendering merely breaks the single long sentence into shorter modern ones for readability.",
+            "dollars": 0.0054870000000000006
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.71,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the rendering: the visits always accompanied by questions, the refusal to immediately acquiesce, the disputing of explanations, and the motive (not for argument's sake but to learn answers to potential objections). Nothing is omitted or added; the rendering merely breaks the long original sentence into shorter modern ones for clarity.",
+            "dollars": 0.005427
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "hal.quote.ever-let-the-bridegroom-sport-with-you",
+      "letter": "A",
+      "rendering": "Always let the privacy of your room guard you. Always let the Bridegroom play with you inside. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep comes over you, He will come behind you and put His hand through the opening in the door. Your heart will be stirred for Him. And you will wake up, get up, and say: \"I am sick with love.\"...",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.079,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original text into contemporary English. \"Chamber\" becomes \"room,\" \"sport\" becomes \"play,\" \"overtakes\" becomes \"comes over,\" \"the hole of the door\" becomes \"the opening in the door,\" \"shall be moved for Him\" becomes \"will be stirred for Him,\" and \"arise\" becomes \"get up\"—all legitimate modernizations. No substantive content is dropped (all clauses remain), and while punctuation and phrasing are adjusted for modern syntax, no material is added or compressed away.",
+            "dollars": 0.002072
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.363,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause of the original into modern English. \"Chamber\" becomes \"room,\" \"guard\" remains guard, \"sport with you within\" becomes \"play with you inside,\" \"sleep overtakes you\" becomes \"sleep comes over you,\" and \"the hole of the door\" becomes \"the opening in the door\" and \"sick of love\" becomes \"sick with love\"—all standard modernizations of idiom and period language. No clauses are omitted, combined, or compressed, and no new content is added.",
+            "dollars": 0.002052
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.273,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries over every clause of the original into contemporary English. \"Chamber\" becomes \"room,\" \"sport\" becomes \"play,\" \"overtakes\" becomes \"comes over,\" \"put His hand through the hole of the door\" becomes \"put His hand through the opening in the door,\" \"your heart shall be moved\" becomes \"your heart will be stirred,\" and \"sick of love\" becomes \"sick with love\"—all are natural modern equivalents that preserve the original's meaning and structure without omitting, combining away, or adding substantive content.",
+            "dollars": 0.002067
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.242,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the privacy of the chamber/room, the Bridegroom sporting/playing inside, the prayer and reading exchanges, the hand through the hole/opening of the door, the heart being moved/stirred, and the waking, rising, and declaration of being sick of/with love. No content is omitted or added; only minor word-level modernizations are made (e.g., \"hole\" → \"opening,\" \"moved\" → \"stirred,\" \"overtakes\" → \"comes over\").",
+            "dollars": 0.006248999999999999
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.021,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the privacy of the chamber/room, the Bridegroom sporting/playing within, the prayer and reading exchanges, the hand through the hole/opening of the door, the heart being moved/stirred, and the final \"I am sick of love/with love.\" Nothing is omitted or added; minor word choices (\"hole\" → \"opening,\" \"moved\" → \"stirred,\" \"sport\" → \"play\") are natural modern-English equivalents.",
+            "dollars": 0.006084
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.978,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the modern rendering: the privacy of the chamber/room, the Bridegroom sporting/playing within, the prayer and reading exchanges, the sleep and hand-through-the-door image, the heart being moved/stirred, and the final \"I am sick of/with love.\" Nothing is omitted, compressed, or added beyond natural modernization of phrasing (e.g., \"hole of the door\" → \"opening in the door,\" \"sport\" → \"play,\" \"moved\" → \"stirred\").",
+            "dollars": 0.0062640000000000005
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "hal.quote.ever-let-the-bridegroom-sport-with-you",
+      "letter": "B",
+      "rendering": "Let the privacy of your own room always guard you. Let the Bridegroom always play with you there, within it. Are you praying? Then you are speaking to the Bridegroom. Are you reading? Then he is speaking to you. When sleep overtakes you, he will come up behind you and put his hand through the hole in the door, and your heart will be moved for him. Then you will wake, get up, and say: \"I am sick of love.\"...",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.826,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses and content of the original into contemporary English. While it reorders some elements for natural modern syntax (e.g., \"when sleep overtakes you, he will come up behind you\" instead of the more archaic construction), reorganizes the imperative structure, and renders archaic phrasing like \"sport\" as \"play,\" it preserves every substantive clause: the injunction to let privacy guard you, the Bridegroom's presence within the chamber, the parallel statements about prayer and reading, the nocturnal scene with the hand through the door-hole, the heart being moved, the waking and rising, and the final utterance. Nothing is dropped, compressed, or added.",
+            "dollars": 0.002256
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.536,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. It preserves all the key elements: the privacy of one's chamber/room as a guard, the Bridegroom's presence within, the three scenarios (prayer as speaking to the Bridegroom, reading as the Bridegroom speaking, and sleep with the Bridegroom's approach), the specific action of putting his hand through the hole of the door, the heart being moved, the awakening and rising up, and the final declaration of being sick of love. The rendering modernizes syntax (e.g., \"Do you pray? You speak\" becomes \"Are you praying? Then you are speaking\"), updates idiom (\"put His hand through the hole of the door\" to \"put his hand through the hole in the door\"), and uses lowercase for the pronoun as per modern convention, but omits nothing and adds nothing of substance.",
+            "dollars": 0.0024460000000000003
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.481,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause and thought of the original into contemporary English. It preserves the structure of the exhortations (\"Ever let\" becomes \"Let always\"), maintains all the conditional statements about prayer and reading, and reproduces the full sequence of events when sleep overtakes the person—the Bridegroom coming, putting his hand through the hole of the door, the heart being moved, awakening, rising up, and speaking the final declaration. While the rendering updates pronouns to \"you\" and \"him,\" modernizes \"sport\" to \"play,\" and adjusts phrasing for contemporary syntax (\"When sleep overtakes you\" rather than expanding it), no substantive clause or claim is omitted, compressed, or added.",
+            "dollars": 0.002261
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.138,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the privacy of the chamber guarding, the Bridegroom sporting/playing within, the prayer and reading exchanges, the sleep/hand/door sequence, the heart being moved, and the final \"I am sick of love.\" The rendering adds small clarifying words (\"Then,\" \"there, within it,\" \"in the door\") that are natural modern syntax adjustments rather than new content, and nothing of substance is omitted.",
+            "dollars": 0.005976
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.212,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the privacy of the chamber guarding, the Bridegroom sporting/playing within, the prayer/reading exchanges, sleep overtaking, the hand through the hole of the door, the heart being moved, and the final \"I am sick of love.\" The rendering adds small connective words (\"Then\") for natural modern flow and slightly rephrases \"let the Bridegroom sport\" as \"let the Bridegroom always play,\" but no content is dropped or added.",
+            "dollars": 0.006141000000000001
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 5.779,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the privacy of the chamber guarding, the Bridegroom sporting/playing within, the prayer/reading dialogue, sleep overtaking, the hand through the hole of the door, the heart being moved, and the final exclamation \"I am sick of love.\" No content is dropped or added; minor rewordings (\"play\" for \"sport,\" \"hole in the door\" for \"hole of the door,\" added \"Then\" for flow) are idiomatic modernizations, not omissions or additions.",
+            "dollars": 0.006246
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pahc.quote.melito-no-phantom",
+      "letter": "A",
+      "rendering": "Intelligent people don't need anyone to try to prove, from the deeds Christ did after his baptism, that his soul and his body - his human nature, like ours - were real, and not a figment of the imagination. The deeds Christ did after his baptism, and especially his miracles, showed the world and gave it assurance of the divine nature hidden in his flesh. Since he was, at the same time, both God and, just as fully, a complete human being, he gave us sure signs of his two natures: signs of his divine nature, through his miracles during the three years after his baptism, and signs of his humanity, during the thirty years before his baptism, in which, because of his lowly condition in the flesh, he hid the signs of his divine nature - even though he was the true God, existing before all ages.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.495,
+            "verdict": "translation",
+            "reasoning": "The rendering preserves every clause and claim of the original. It maintains the logical structure: (1) no need to prove Christ's real human nature from post-baptism deeds, (2) those deeds gave assurance of his hidden divinity, (3) being both God and perfect man, he showed signs of both natures—divinity through miracles in the three years after baptism, and humanity in the thirty years before baptism when he concealed divine signs despite being true God before all ages. The modernization of phrasing (\"figment of the imagination\" for \"phantom,\" \"complete human being\" for \"perfect man,\" \"lowly condition in the flesh\" for \"low estate as regards the flesh\") and reordering for natural syntax do not drop or compress any real content.",
+            "dollars": 0.0025069999999999997
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.517,
+            "verdict": "translation",
+            "reasoning": "The rendering carries every major clause of the original into modern English: the assertion that intelligent people don't need proof of Christ's real body and soul from post-baptism deeds; the statement that His deeds and miracles demonstrated His hidden Deity; the explanation that as both God and perfect man He gave signs of both natures; the specification of three years of miracles after baptism as signs of Deity; the thirty years before baptism as signs of humanity; and the reason He concealed His Deity's signs (His low estate in the flesh) despite being true God existing before all ages. No clauses are silently omitted or compressed away, and no content is added that is not present in the original.",
+            "dollars": 0.002417
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.311,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. The opening assertion about intelligent people not needing proof is preserved; the statement about Christ's deeds and miracles demonstrating his divine nature hidden in flesh is retained; and the final clause about his two natures—signified by miracles during three years after baptism and by his lowly condition during thirty years before baptism, while remaining true God—is fully present. Syntactic reordering occurs for natural modern flow, and some phrases are rendered in modern idiom (e.g., \"figment of the imagination\" for \"phantom of the imagination\"), but no substantive content is dropped or added.",
+            "dollars": 0.002367
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.671,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the argument about intelligent people not needing proof, the real soul and body, the miracles giving indication and assurance of deity hidden in flesh, the simultaneous God and perfect man, the two natures, the three years of miracles post-baptism, the thirty years pre-baptism, the concealment due to lowly fleshly estate, and the affirmation of being the true God before all ages. No content is dropped or added; only natural modern rephrasing is applied.",
+            "dollars": 0.006729000000000001
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.825,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the argument about intelligent persons not needing proof, the soul/body/human nature being real and not a phantom, the post-baptism deeds and miracles giving indication and assurance of the hidden Deity, the simultaneous God-and-perfect-man claim, the two natures and their respective signs, the three-year and thirty-year periods, the concealment due to lowly estate in the flesh, and the identification as the true God existing before all ages. Nothing is omitted or added; only natural modern phrasing substitutions are made (e.g., \"figment of the imagination\" for \"phantom of the imagination,\" \"divine nature\" for \"Deity\").",
+            "dollars": 0.007359000000000001
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.223,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is faithfully carried into the modern rendering: the denial of need to prove Christ's real humanity from post-baptism deeds, the miracles giving indication and assurance of the Deity hidden in His flesh, the dual nature (God and perfect man), the three years of miracles post-baptism signaling His Deity, the thirty years pre-baptism signaling His humanity, the concealment of divine signs due to His lowly fleshly estate, and the affirmation that He was the true God existing before all ages. Nothing is omitted or added; only modernized phrasing is used.",
+            "dollars": 0.007014000000000001
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pahc.quote.melito-no-phantom",
+      "letter": "B",
+      "rendering": "For people of intelligence, there is no need to try to prove from Christ's deeds after His baptism that His soul and His body were real. There is no need to prove that His human nature, like ours, was real and not a phantom of the imagination. For the deeds Christ did after His baptism, and above all His miracles, showed the world the divinity hidden in His flesh and assured the world of it. For He was at once both God and also a perfect man. So He gave us sure signs of His two natures. He showed His divinity by His miracles during the three years after His baptism. He showed His humanity during the thirty years like these that came before His baptism. In those years He hid the signs of His divinity because of His lowly state in the flesh. Yet He was the true God, who existed before all ages.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.323,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. While it reorders sentences for natural modern syntax, breaks up compound structures, and simplifies archaic phrasing (e.g., \"gave indication and assurance\" becomes \"showed...and assured\"), it retains all substantive content: the claim that there is no need to prove Christ's reality against phantom interpretations, that His deeds and miracles demonstrated His deity hidden in flesh, that He was both God and perfect man, that He showed His divinity through miracles in the three years after baptism, that He showed His humanity in the thirty years before baptism while concealing signs of His deity due to His lowly fleshly state, and that He was the true God existing before all ages. Nothing is omitted, compressed away, or silently dropped.",
+            "dollars": 0.002537
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 1.93,
+            "verdict": "summary",
+            "reasoning": "The rendering drops the phrase \"by reason of His low estate as regards the flesh\" which is a distinct causal clause explaining why He concealed the signs of His Deity, replacing it with the weaker \"because of His lowly state in the flesh\"—a compressed paraphrase rather than a full translation of the original's more specific theological formulation. Additionally, the phrase \"during the thirty similar periods which preceded His baptism\" is rendered as \"during the thirty years like these that came before His baptism,\" which simplifies the original's language about temporal periods into merely \"years.\"",
+            "dollars": 0.002282
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.803,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds a significant clarification not present in the original: \"during the thirty years like these\" where the original says only \"during the thirty similar periods.\" The phrase \"like these\" is an added explanatory gloss that clarifies the meaning but is not in the original text. Additionally, the original's \"and especially His miracles\" (marking miracles as the key evidence) is neutralized to \"above all His miracles\" which subtly shifts the emphasis. More critically, the original states Christ \"concealed the signs of His Deity, although He was the true God existing before all ages\"—the word \"although\" signals a contrast—but the rendering changes \"although\" to \"Yet,\" which maintains that contrast but the fuller logical structure of the original's causal reasoning about why He hid these signs is collapsed slightly.",
+            "dollars": 0.002537
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.128,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the modern rendering: the address to persons of intelligence, the dual claim about soul/body and human nature being real (not a phantom), the miracles as indication and assurance of the Deity hidden in His flesh, the declaration of being both God and perfect man, the two natures shown by miracles (three years after baptism) and humanity (thirty years before baptism), the concealment of signs of Deity due to His low estate in the flesh, and the affirmation of being the true God existing before all ages. Nothing is omitted and nothing is added beyond natural modern syntactic restructuring.",
+            "dollars": 0.0070290000000000005
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.847,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the no-need-to-prove framing, the reality of soul, body, and human nature versus phantom, the post-baptism deeds and miracles as assurance of hidden Deity, the dual natures, the three-year/thirty-year contrast, the concealment of signs due to lowly estate in the flesh, and the affirmation of being the true God before all ages. Nothing substantive is omitted or added; the rendering merely breaks long sentences into shorter modern ones for readability.",
+            "dollars": 0.006789
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.35,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the rendering: the audience (\"persons of intelligence\"), the two-part claim about soul/body and human nature, the phantom qualification, the post-baptism deeds and miracles as indicators of hidden Deity, the dual nature statement, the three-year/thirty-year periodization, the concealment of Deity due to lowly estate in the flesh, and the closing affirmation of His pre-eternal existence. Nothing is omitted or added; the rendering merely restructures long sentences into shorter modern ones for readability.",
+            "dollars": 0.0067740000000000005
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pahc.quote.ignatius-truly-born",
+      "letter": "A",
+      "rendering": "So close your ears whenever anyone speaks to you in a way that disagrees with Jesus Christ. He was descended from David, and He also came from Mary. He was truly born, and He ate and drank. He was truly persecuted under Pontius Pilate. He was truly crucified, and He truly died, in the sight of beings in heaven, on earth, and under the earth. He was also truly raised from the dead, and His Father gave Him life. In the same way His Father will also raise us who believe in Him through Christ Jesus. Without Christ Jesus we do not have true life.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.457,
+            "verdict": "summary",
+            "reasoning": "The rendering drops a significant clause from the original: \"His Father quickening Him\" (describing how the Father raised Him) is rendered as \"His Father gave Him life,\" but the original's dependent clause \"even as after the same manner His Father will so raise up us\" is compressed into \"In the same way His Father will also raise us,\" losing the explicit parallel construction that emphasizes the manner and mechanism of resurrection as the same for Christ and believers. Additionally, \"apart from whom we do not possess the true life\" is rendered as \"Without Christ Jesus we do not have true life,\" which loses the prepositional phrase structure and subtly shifts from \"apart from whom\" (singular, referring to Christ) to naming \"Christ Jesus\" again, though this is a minor compression rather than a major omission.",
+            "dollars": 0.002395
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.203,
+            "verdict": "mixed",
+            "reasoning": "The rendering drops the clause \"His Father quickening Him\" (rendering it only as \"His Father gave Him life,\" which is an interpretive paraphrase rather than a direct translation of the specific theological act of quickening), and it also drops the original's explicit connection \"apart from whom we do not possess the true life\"—replacing it with \"Without Christ Jesus we do not have true life,\" which adds the name \"Christ Jesus\" where the original uses the pronoun \"whom,\" thereby adding interpretive specificity not in the original text.",
+            "dollars": 0.00212
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.53,
+            "verdict": "summary",
+            "reasoning": "The rendering drops the substantive clause \"His Father quickening Him\" (rendering it only as \"His Father gave Him life\") and omits the original's explicit parallel construction \"even as after the same manner His Father will so raise up us,\" compressing it to \"In the same way His Father will also raise us.\" More significantly, it removes the phrase \"apart from whom we do not possess the true life\" as a separate causal/dependent clause qualifying belief, instead standing it alone as \"Without Christ Jesus we do not have true life,\" which loses the logical subordination of the original.",
+            "dollars": 0.00217
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 5.25,
+            "verdict": "summary",
+            "reasoning": "The original contains the clause \"even as after the same manner\" which is rendered adequately, but the key phrase \"His Father quickening Him\" is rendered as \"His Father gave Him life\" — that is acceptable. However, the original's closing phrase \"apart from whom we do not possess the true life\" is compressed to \"Without Christ Jesus we do not have true life,\" which is a reasonable translation. More critically, the original phrase \"who was descended from David, and was also of Mary\" is rendered as two separate sentences breaking the relative clause structure, but content is preserved. The most notable omission is the phrase \"even as after the same manner\" being rendered simply as \"In the same way,\" which is acceptable. Upon close review, the rendering does drop the participial construction tying the Father's raising of Christ to His raising of believers (\"even as after the same manner His Father will so raise up us\") — but the content is still present. Overall, all clauses appear to be present, though the rendering splits and restructures sentences. The verdict is translation.",
+            "dollars": 0.008013
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 5.471,
+            "verdict": "summary",
+            "reasoning": "The original contains the clause \"even as after the same manner,\" which conveys a precise parallel between the Father quickening Christ and raising believers — this phrasing is compressed but not fully lost. More critically, the original phrase \"apart from whom we do not possess the true life\" is rendered as \"Without Christ Jesus we do not have true life,\" which is acceptable. However, the clause \"who was descended from David, and was also of Mary\" is restructured slightly but present. The key omission is the connective phrase \"even as after the same manner\" which is dropped and replaced with a simpler \"In the same way,\" which is actually a reasonable translation. Upon closer inspection, all clauses appear to be present, but the rendering drops the explicit subordinate framing of the opening (\"Stop your ears, therefore, when any one speaks to you at variance with Jesus Christ\") — \"therefore\" is omitted, which is a minor but real content word signaling logical consequence. More significantly, \"at variance with\" is rendered as \"in a way that disagrees with,\" which is acceptable. The word \"therefore\" is dropped, which is a real clause-level omission.",
+            "dollars": 0.008373
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 7.103,
+            "verdict": "summary",
+            "reasoning": "The original contains the clause \"even as after the same manner His Father will so raise up us who believe in Him by Christ Jesus,\" which preserves the explicit comparative connector \"even as after the same manner.\" The rendering drops the phrase \"apart from whom we do not possess the true life\" is rendered as \"Without Christ Jesus we do not have true life\" — that is acceptable. However, the original phrase \"who was descended from David, and was also of Mary\" is rendered faithfully. The key omission is the clause \"even as after the same manner\" is partially retained, but more critically, the original's \"His Father quickening Him\" is rendered as \"His Father gave Him life,\" which is acceptable. Upon closer inspection, the rendering drops the participial phrase structure connecting the resurrection to the future raising (\"His Father quickening Him, even as after the same manner His Father will so raise up us\"), compressing it slightly but the content is present. The actual dropped content is subtle — the rendering omits the word \"also\" before \"of Mary\" (\"was also of Mary\") but this is minor. More significantly, the rendering omits the specific comparative phrase \"even as after the same manner\" which is a distinct rhetorical/theological clause in the original asserting the parallelism of Christ's resurrection and ours — though the idea is conveyed, the explicit \"even as\" comparative marker that links the two resurrections as parallel is dropped, compressing the original's fuller expression.",
+            "dollars": 0.009333000000000001
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pahc.quote.ignatius-truly-born",
+      "letter": "B",
+      "rendering": "So stop your ears whenever someone speaks to you against Jesus Christ - who was descended from David and also from Mary, who was truly born, and truly ate and drank. He was truly persecuted under Pontius Pilate. He was truly crucified and truly died, in the sight of beings in heaven, on earth, and under the earth. He was also truly raised from the dead, his Father bringing him back to life, just as, in the same way, his Father will also raise up us who believe in him, through Christ Jesus - apart from whom we do not have the true life.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.367,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. All substantive claims are preserved: Jesus's descent from David and Mary, his true birth and consumption of food and drink, his persecution under Pontius Pilate, his crucifixion and death before heavenly and earthly witnesses, his true resurrection through the Father's power, the Father's future raising of believers through Christ Jesus, and the exclusivity of true life in Christ. Minor stylistic adjustments (e.g., \"against\" for \"at variance with,\" \"bringing him back to life\" for \"quickening,\" \"through Christ Jesus\" for \"by Christ Jesus,\" and restructuring of relative clauses) represent natural modern English equivalents of the original's phrasing, not omission or compression of content.",
+            "dollars": 0.0023820000000000004
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.736,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English without omission or addition. \"Quickening Him\" is faithfully rendered as \"bringing him back to life,\" \"at variance with\" becomes \"against,\" and \"do not possess\" becomes \"do not have\"—all equivalent renderings of the same semantic content. The reordering of elements and modernization of syntax and pronouns are appropriate to translation and do not drop or add content.",
+            "dollars": 0.002027
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.204,
+            "verdict": "translation",
+            "reasoning": "The modern rendering preserves every clause and substantive claim of the original. It reorders some phrases for natural modern English syntax (\"stop your ears when any one speaks to you at variance with\" becomes \"stop your ears whenever someone speaks to you against\"), substitutes modern equivalents for period phrasing (\"quickening Him\" becomes \"bringing him back to life,\" \"we do not possess\" becomes \"we do not have\"), and drops formulaic repetition of \"truly\" in one location (\"[truly] died\" becomes \"truly died\"), but all core content is carried through, including the genealogy from David and Mary, the birth, eating and drinking, persecution under Pilate, crucifixion and death witnessed by heavenly and earthly beings, resurrection, the Father's role, the parallel resurrection of believers, and the final clause affirming that true life comes through Christ Jesus. Nothing substantive is omitted, compressed, or added.",
+            "dollars": 0.0025320000000000004
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 4.973,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the modern rendering: the warning to stop ears, the descent from David and Mary, the true birth/eating/drinking, the persecution under Pilate, the crucifixion and death witnessed by heavenly/earthly/subterranean beings, the resurrection, the Father quickening Him, the parallel future raising of believers through Christ Jesus, and the final clause about not possessing true life apart from Him. \"Quickening Him\" is rendered as \"bringing him back to life,\" which is a faithful modern equivalent, and no content is omitted or added.",
+            "dollars": 0.006564
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.189,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the modern rendering: the warning to stop ears, the descent from David and Mary, the true birth/eating/drinking, the persecution under Pilate, the crucifixion and death witnessed by heavenly/earthly/subterranean beings, the resurrection with the Father quickening Him, the parallel future raising of believers through Christ Jesus, and the final clause about possessing true life. No content is dropped or added; \"quickening Him\" is rendered as \"bringing him back to life,\" which is a legitimate modern equivalent.",
+            "dollars": 0.0064589999999999995
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.166,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the command to stop one's ears, the description of Christ's descent from David and Mary, his true birth, eating and drinking, persecution under Pilate, crucifixion and death witnessed by heavenly/earthly/subterranean beings, resurrection by the Father, the parallel raising of believers through Christ Jesus, and the closing clause about true life. The rendering substitutes \"bringing him back to life\" for \"quickening Him\" and \"whenever\" for \"when,\" but these are legitimate modern-English equivalents with no content dropped or added.",
+            "dollars": 0.006579
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pahc.quote.polycrates-to-victor",
+      "letter": "A",
+      "rendering": "As for us, then, we keep the exact day with care, and we neither add to it nor take anything away. For in Asia great lights have gone to their rest, and they will rise again on the day the Lord comes... And I too, Polycrates, the least of you all, follow the tradition of my relatives, and I have succeeded some of them. Seven of my relatives were bishops, and I am the eighth. My relatives always kept the day when the people put away the leaven. I myself, brothers, I say, am sixty-five years old in the Lord. I have met with the brothers in every part of the world, and I have read through all of Holy Scripture. I am not frightened by the things said to scare us. For those greater than I am have said, \"We must obey God rather than people.\"",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.09,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause and claim of the original into contemporary English. It preserves the exact meaning of Polycrates's claims about observing the day, the great luminaries/lights in Asia, his family lineage of seven bishops with himself as the eighth, his age and travels, his reading of Scripture, his lack of fear, and the concluding authoritative statement about obeying God rather than men/people. All key elements are present; nothing substantive is omitted, compressed into paraphrase that loses content, or added.",
+            "dollars": 0.002251
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 4.609,
+            "verdict": "translation",
+            "reasoning": "The rendering carries all the major clauses of the original into modern English: the observance of the exact day without addition or subtraction; the reference to great luminaries/lights in Asia who will rise on the Lord's coming; Polycrates identifying himself as the least and following his relatives' tradition; the seven bishops who preceded him and his status as the eighth; the relatives' observance of the day of leaven removal; his age of sixty-five in the Lord; his meetings with brethren worldwide and reading of Scripture; his lack of fear at terrifying claims; and the final injunction to obey God rather than men/people. No substantive clauses are omitted or compressed away, though the rendering reorders some elements (placing \"and I have succeeded some of them\" after rather than within the relatives clause) and modernizes idiom (\"great luminaries\" to \"great lights,\" \"men\" to \"people\"), which constitutes legitimate translation, not summarization or addition.",
+            "dollars": 0.002706
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 4.295,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. It preserves all substantive claims: the observance of the exact day without addition or subtraction, the mention of great lights/luminaries in Asia, Polycrates' identity as least of the group, the tradition of his relatives, the list of seven bishops preceding him and him being the eighth, the observation of the day when leaven is put away, his age of sixty-five in the Lord, his encounter with brethren worldwide, his reading of Scripture, his fearlessness, and the maxim about obeying God over men. The rendering updates idioms (\"great luminaries\" to \"great lights,\" \"fallen in with\" to \"met with,\" \"frightened at\" to \"frightened by\") and modernizes syntax, but drops no real content and adds none.",
+            "dollars": 0.002561
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.668,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the scrupulous observance, the great luminaries/lights in Asia, the self-identification as Polycrates and least of all, the succession of relatives, the seven bishops and being the eighth, the observance of the day of putting away leaven, the age of sixty-five, meeting brethren in all parts of the world, reading all Holy Scripture, not being frightened, and the closing quotation about obeying God rather than men. The rendering makes only natural modern-English adjustments (e.g., \"luminaries\" → \"lights,\" \"men\" → \"people,\" \"terrify\" → \"scare\") without omitting or adding any substantive content.",
+            "dollars": 0.007371000000000001
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.869,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the careful observance of the exact day, the great luminaries/lights in Asia who will rise again, Polycrates identifying himself as the least and eighth bishop in his family line, the tradition of relatives, the keeping of the day when people put away the leaven, his age of sixty-five, his meeting with brethren worldwide, his reading of all Holy Scripture, his lack of fear, and the closing quotation about obeying God rather than men. The rendering makes only minor modernizations (e.g., \"lights\" for \"luminaries,\" \"scare\" for \"terrify,\" \"people\" for \"men\") with no content dropped or added.",
+            "dollars": 0.007296
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.604,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the careful observance, the great luminaries/lights in Asia, the self-identification as Polycrates and least of all, the succession of relatives, the seven bishops plus himself as eighth, the leaven-day tradition, the age of sixty-five in the Lord, the meeting with brethren worldwide, the reading of all Holy Scripture, the lack of fear, and the closing quotation about obeying God rather than men. Minor wording adjustments (e.g., \"luminaries\" → \"lights,\" \"terrify\" → \"scare,\" \"men\" → \"people\") are legitimate modernizations, and nothing substantive is dropped or added.",
+            "dollars": 0.007281000000000001
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pahc.quote.polycrates-to-victor",
+      "letter": "B",
+      "rendering": "As for us, then, we carefully keep to the exact day, neither adding to it nor taking away from it. For great lights have gone to their rest in Asia, and they will rise again on the day the Lord comes... Moreover, I too, Polycrates, the least of you all, follow the tradition of my relatives, some of whom I have succeeded - seven of my relatives were bishops, and I am the eighth, and my relatives always kept the day when the people put away the leaven. I myself, brothers, I say, who am sixty-five years old in the Lord, and who have met with the brothers in every part of the world, and have read through the whole of Holy Scripture, am not frightened by the things people say to frighten us. For those greater than I have said, \"We ought to obey God rather than men.\"",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.515,
+            "verdict": "translation",
+            "reasoning": "The modern rendering preserves every clause of the original. While it updates idiom (\"scrupulously observe\" to \"carefully keep,\" \"great luminaries\" to \"great lights,\" \"in accordance with the tradition\" to \"follow the tradition,\" \"fallen in with the brethren\" to \"met with the brothers\"), these are legitimate equivalences for modern English, not omissions or additions. All substantive claims—the exact observance of the day, the resting of great lights in Asia, their resurrection, Polycrates's lineage and position, the seven bishops, the leaven-putting-away tradition, his age, his encounters with brethren worldwide, his reading of Scripture, his fearlessness, and the appeal to obey God rather than men—are carried intact into the modern version.",
+            "dollars": 0.002523
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.225,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause of the original into modern English. Phrases are updated idiomatically (\"scrupulously observe\" → \"carefully keep,\" \"great luminaries have gone to their rest\" → \"great lights have gone to their rest,\" \"fallen in with the brethren\" → \"met with the brothers\"), but no substantive content is dropped, compressed, or added. All clauses regarding the observance of the exact day, the Asian martyrs' resurrection, Polycrates' genealogy and age, his familiarity with Scripture, and the apostolic injunction are fully preserved.",
+            "dollars": 0.002318
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.316,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. While it modernizes phrasing—\"scrupulously observe\" to \"carefully keep,\" \"great luminaries\" to \"great lights,\" \"fallen in with\" to \"met with,\" and \"not frightened at the things which are said to terrify us\" to \"am not frightened by the things people say to frighten us\"—these are natural equivalences in modern syntax and idiom, not compressions or omissions. All substantive content is preserved: the commitment to the exact day, the examples of Asian bishops, Polycrates's genealogy, his age, his travels, his scriptural knowledge, and the final assertion about obeying God rather than men.",
+            "dollars": 0.002458
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.584,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is faithfully carried into the rendering: the careful observance of the exact day, the great luminaries/lights resting in Asia and rising at the Lord's coming, Polycrates identifying himself as the least, the tradition of relatives, seven bishop-relatives with him as the eighth, the leaven detail, his age of sixty-five, meeting brethren worldwide, reading all Holy Scripture, not being frightened, and the closing quotation about obeying God rather than men. No content is omitted or added; only minor stylistic modernizations are made (e.g., \"luminaries\" → \"great lights,\" \"scrupulously\" → \"carefully\").",
+            "dollars": 0.007242
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.338,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the careful observance of the exact day, the great luminaries/lights in Asia who will rise again, Polycrates identifying himself as the least and eighth bishop, the tradition of relatives observing the day of putting away the leaven, his age of sixty-five, his encounters with brethren worldwide, his reading of Holy Scripture, and the closing quotation about obeying God rather than men. Minor rephrasing (e.g., \"great luminaries\" → \"great lights,\" \"fallen in with\" → \"met with\") is legitimate modernization without omission or addition.",
+            "dollars": 0.007047
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.685,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over faithfully into the modern rendering: the exact-day observance, the Asian luminaries, Polycrates' self-identification and family succession, the seven bishop-relatives, the leaven detail, his age, his worldwide fellowship, his reading of Scripture, his lack of fear, and the closing quotation. Minor rewordings (e.g., \"great lights\" for \"great luminaries,\" \"carefully keep\" for \"scrupulously observe,\" \"every part\" for \"all parts\") are legitimate modern-English equivalents, and nothing is omitted or added.",
+            "dollars": 0.0069570000000000005
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "syr.quote.warned-before-baptism",
+      "letter": "A",
+      "rendering": "For this reason, it is right for the trumpet-sounders - the preachers of the Church - to warn everyone who is in the covenant of God, before baptism. This includes those who choose virginity and holiness for themselves: young men and virgins, and all who wish to become holy. The preachers must warn them and say: \"Whoever sets his heart on the natural state of companionship - that is, marriage - let him marry before baptism, in case he falls in the conflict and is killed. And whoever is afraid of this part of the struggle, let him turn back, in case he breaks the heart of his brothers as well as his own heart. And whoever loves possessions, let him turn back from the army, in case, when the battle overpowers him, he remembers his possessions and turns back to them - for there is shame for the one who turns back from the conflict.\"",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.626,
+            "verdict": "translation",
+            "reasoning": "The modern rendering preserves all the major clauses and substantive content of the original: the duty of trumpet-sounders/preachers to warn those in God's covenant before baptism; the categories of those warned (those choosing virginity, young men, virgins, those wishing to be holy); the three conditional warnings about marriage, fear of struggle, and love of possessions; and all the consequences stated (falling and being killed in conflict, breaking hearts, remembering possessions and turning back, the disgrace/shame of turning back). While the rendering modernizes syntax, idiom (\"natural state of fellowship\" → \"companionship\"), and punctuation structure for clarity, it carries every substantive clause into modern English without omission, compression, or addition of new claims.",
+            "dollars": 0.00252
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.818,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses of the original: the instruction for trumpet-sounders/preachers to warn the covenant community before baptism; the specification that this includes those choosing virginity and holiness; the direct speech warning about matrimony before baptism, fear of struggle, and love of possessions; and all three consequences (falling in conflict, breaking hearts, turning back to possessions). The rendering updates idiom (\"sounders of trumpets\" → \"trumpet-sounders,\" \"natural state of fellowship\" → \"companionship/marriage,\" \"lest, perhaps\" → \"in case,\" \"shame\" for \"disgrace\"), clarifies syntax for modern English, and reorganizes for fluency, but omits nothing and adds no substantive content.",
+            "dollars": 0.00251
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.309,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses and content of the original into contemporary English. Minor stylistic adjustments (e.g., \"sets his heart upon\" → \"sets his heart on,\" \"perhaps\" → \"in case,\" \"brethren\" → \"brothers,\" \"disgrace\" → \"shame,\" \"shall prevail\" → \"overpowers\") are natural equivalences for modern idiom, not omissions or compressions. The parenthetical clarifications in the original (about matrimony, becoming holy) are incorporated naturally into the sentence structure. No substantive clauses are dropped, combined away, or added.",
+            "dollars": 0.00236
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.129,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the warning to those in God's covenant before baptism, the enumeration of those choosing virginity and holiness, the three distinct admonitions (about marriage, fear of struggle, and love of possessions), and the closing shame-of-turning-back statement. The rendering adds a brief inline gloss (\"that is, marriage\") but this mirrors the original's own parenthetical gloss (\"i.e. in matrimony\"), so it introduces nothing new. No content is dropped or compressed.",
+            "dollars": 0.0068579999999999995
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.513,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the modern rendering with no omissions or additions. Minor adjustments include rendering \"sounders of trumpets\" as \"trumpet-sounders,\" \"fellowship (i.e. in matrimony)\" as \"companionship - that is, marriage,\" and \"disgrace\" as \"shame,\" all of which are legitimate modern equivalents. Nothing is dropped and nothing substantive is added.",
+            "dollars": 0.006438
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.208,
+            "verdict": "translation",
+            "reasoning": "Every clause from the original is present in the rendering, including all three conditional warnings, the framing about trumpet-sounders/preachers, and the parenthetical gloss on \"natural state of fellowship\" as marriage. The rendering reorders and clarifies slightly (e.g., \"companionship - that is, marriage\") but adds nothing new and omits nothing of substance.",
+            "dollars": 0.006333
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "syr.quote.warned-before-baptism",
+      "letter": "B",
+      "rendering": "That is why it is right for those who sound the trumpets, the preachers of the Church, to warn all who are in God's covenant before baptism. They should also warn those who choose virginity and holiness for themselves: young men, virgins, and those who wish to become holy. The preachers should warn them and say: \"Whoever has set his heart on the natural state of partnership, that is, marriage, should marry before baptism, in case he falls in the fight and is killed. Whoever is afraid of this part of the struggle should turn back, in case he breaks his brothers' hearts as well as his own. And whoever loves possessions should turn back from the army. Otherwise, when the battle goes against him, he may remember his possessions and go back to them. For there is disgrace for anyone who turns back from the fight.\"",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.475,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the substantive clauses of the original into contemporary English. It preserves the instruction to warn those in God's covenant before baptism, the warning to those choosing virginity, and all three conditional warnings with their consequences (fear of struggle, love of possessions, fear of falling in battle). The rendering modernizes phrasing (e.g., \"natural state of fellowship (i.e., in matrimony)\" becomes \"natural state of partnership, that is, marriage\") and reorders for natural syntax (separating the dual warning into sequential sentences), but omits nothing of the original's logical or semantic content and adds no extraneous claims.",
+            "dollars": 0.0023899999999999998
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.445,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause of the original into contemporary English. It preserves the structure of the admonitions to three groups (those in matrimony, those afraid of struggle, those who love possessions), maintains the conditional warnings with their outcomes, and keeps intact the final pronouncement about disgrace. While the rendering smooths syntax, reorganizes some phrases for natural English flow (e.g., \"That is why it is right\" for \"For this reason it is fitting\"), and renders period idioms into modern equivalents (\"breaks his brothers' hearts\" for \"break the heart of his brethren\"), it omits no real content and adds no claims absent from the original.",
+            "dollars": 0.00241
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.358,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the major clauses of the original into contemporary English. While it restructures the text for clearer modern syntax—breaking up the long nested structure, substituting \"in case\" for \"lest perhaps,\" and reorganizing some phrases—it preserves every substantive claim: that preachers should warn those in God's covenant before baptism and those choosing virginity; the three conditional warnings about marriage, fear of struggle, and love of possessions; and the consequence of disgrace for turning back from conflict. No content is omitted or compressed away, and no claims are added that are not present in the original.",
+            "dollars": 0.002355
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 4.09,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds \"that is, marriage\" as an explanatory gloss after \"the natural state of partnership,\" which is not present in the original (the original already contains the parenthetical \"i.e. in matrimony\" as a translator's note, but the modern rendering incorporates it directly into the speech as an added explanation). Additionally, \"let him become united before baptism\" is rendered as \"should marry before baptism,\" which is a reasonable equivalent, but the phrase \"that is, marriage\" constitutes added explanatory content not in the original quoted speech itself. This is a minor expansion by inserting an inline clarification.",
+            "dollars": 0.007083000000000001
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 4.417,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds \"that is, marriage\" as an explanatory gloss on \"the natural state of partnership,\" which is not present in the original (the original already contains the parenthetical \"i.e. in matrimony,\" but that is an editorial note in the source text, not part of the quote itself—however, the rendering incorporates it as inline explanation). More clearly, the rendering adds \"should marry before baptism\" where the original says only \"let him become united before baptism,\" inserting the word \"marry\" as an explicit clarification not literally present. These are additions of explanatory content not in the original quoted text.",
+            "dollars": 0.007098
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 5.509,
+            "verdict": "expansion",
+            "reasoning": "The modern rendering adds the explanatory gloss \"that is, marriage\" after \"natural state of partnership,\" which is not present in the original (the original already includes the parenthetical \"i.e. in matrimony\" as a translator's note, but the modern rendering folds this into the main text as an inline clarification — and more importantly, adds \"should marry before baptism\" as an explicit instruction, whereas the original says only \"let him become united before baptism,\" with \"marry\" being an expansion of \"united.\" More notably, the phrase \"that is, marriage\" is an added explanation not in the original text itself. However, these are minor inline clarifications of idioms rather than substantive added claims. The more significant issue is that \"his brethren as well as his own heart\" in the original becomes \"his brothers' hearts as well as his own,\" dropping the word \"heart\" from the brothers' side — but this is a trivial rendering. Overall, the rendering is essentially a faithful translation with only minor expansions (the inline gloss \"that is, marriage\"), making it best classified as expansion.",
+            "dollars": 0.008643000000000001
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "syr.quote.tatian-barbaric-writings",
+      "letter": "A",
+      "rendering": "I went off by myself and looked for a way to discover the truth. While I was giving the matter my most serious attention, I happened to come across some non-Greek writings. They were too old to be compared with the opinions of the Greeks, and too divine to be compared with their errors. I came to believe them because of the modest style of their language, the plain, unpolished character of the writers, the knowledge of future events they showed in advance, the excellent quality of their teachings, and their statement that the government of the universe rests in one Being.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.419,
+            "verdict": "translation",
+            "reasoning": "The modern rendering faithfully carries every clause of the original into contemporary English. It preserves the sequence of events (retiring/seeking truth, meeting the writings, comparing them with Greek opinions and errors, and identifying the specific reasons for belief), and renders each of the five reasons for faith comprehensively: unpretending language becomes modest style; inartificial character becomes plain, unpolished character; foreknowledge becomes knowledge of future events shown in advance; excellent quality of precepts becomes excellent quality of teachings; and the declaration of government centered in one Being is fully preserved. Nothing is omitted or compressed away, and no extraneous content is added.",
+            "dollars": 0.002219
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.503,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. It preserves all the main actions (retiring/seeking truth, meeting the writings, being led to faith), the comparative descriptions (too old/too divine), all five reasons for faith (modest style, plain character, foreknowledge of future events, excellent precepts, declaration of one-Being governance), and the logical flow. While it breaks longer sentences into shorter ones for natural modern syntax and renders \"barbaric writings\" as \"non-Greek writings\" and \"inartificial\" as \"plain, unpolished,\" these are faithful modernizations of phrasing, not omissions or additions of substance.",
+            "dollars": 0.002239
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.343,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses and claims of the original into contemporary English. It preserves the sequence of action (retiring/seeking truth, then encountering writings, then being led to believe them), maintains all five reasons for belief (unpretending cast/modest style, inartificial character/plain and unpolished, foreknowledge/knowledge of future events shown in advance, excellent precepts/excellent teachings, and declaration of one-Being government/statement that government rests in one Being), and includes all the comparative qualifications about the writings (too old to compare with Greek opinions, too divine to compare with their errors). Nothing substantive is omitted or compressed away.",
+            "dollars": 0.002254
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.743,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the modern rendering: the solitary retirement, the earnest attention, the encounter with \"barbaric writings\" (rendered as \"non-Greek writings,\" a legitimate modern equivalent), the two comparative qualifications (too old / too divine), and all five reasons for belief (unpretending language, inartificial writers, foreknowledge of future events, excellent precepts, and the declaration of one Being governing the universe). Nothing is omitted and nothing is added.",
+            "dollars": 0.006195
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.281,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over into the rendering: the solitary retirement, the earnest search for truth, the encounter with the barbaric/non-Greek writings, the two comparative qualifications (too old, too divine), and all five reasons for belief (unpretending language, inartificial writers, foreknowledge of future events, excellent precepts, and the declaration of one governing Being). No content is added or dropped; only period phrasing is modernized (e.g., \"barbaric writings\" → \"non-Greek writings,\" \"foreknowledge\" → \"knowledge of future events they showed in advance\").",
+            "dollars": 0.006645
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.945,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the rendering: the solitary retirement, the earnest search for truth, the encounter with the writings (rendered as \"non-Greek\" for \"barbaric\"), all five reasons for belief (unpretending language, inartificial writers, foreknowledge of future events, excellent precepts, and the one-Being declaration of universal governance) are all present and faithfully rendered. Nothing is omitted, compressed, or added beyond natural modern phrasing.",
+            "dollars": 0.00618
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "syr.quote.tatian-barbaric-writings",
+      "letter": "B",
+      "rendering": "Withdrawing by myself, I looked for a way to discover the truth. While I was giving the matter my closest attention, I happened to come across certain foreign writings - too old to be compared with the opinions of the Greeks, and too godly to be compared with their errors. I was led to put my faith in them because of the plain, unadorned style of the language, the natural, unaffected character of the writers, the knowledge of future events shown in them, the excellent quality of their teachings, and their declaration that the government of the universe is centered in one Being.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 1.983,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the essential clauses of the original: the retirement/withdrawal, the seeking of truth, the earnest attention, the encounter with ancient writings, the comparison with Greek opinions and errors, the reasons for faith (language style, character of writers, foreknowledge of future events, precepts quality, and declaration of universal government centered in one Being). The vocabulary shifts (\"barbaric\" to \"foreign,\" \"divine\" to \"godly,\" \"inartificial\" to \"unaffected,\" \"precepts\" to \"teachings\") represent legitimate modernizations of period terminology, not content loss or addition.",
+            "dollars": 0.002188
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.054,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English without dropping or compressing real content. \"Retiring\" becomes \"withdrawing,\" \"barbaric writings\" becomes \"foreign writings,\" and \"divine\" becomes \"godly\" - all legitimate modernizations of period language. The key substantive claims remain intact: the discovery of truth through solitary reflection, the encounter with ancient writings superior to Greek thought, and the five reasons for faith in them (plain language, unaffected writers, foreknowledge of future events, excellent precepts, and monotheistic cosmology). No clauses are omitted or combined into lost meaning.",
+            "dollars": 0.002203
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.338,
+            "verdict": "translation",
+            "reasoning": "The rendering faithfully carries all clauses of the original into modern English: \"retiring/withdrawing by myself,\" \"sought/looked for\" the truth, \"earnest attention/closest attention,\" the encounter with \"barbaric/foreign writings,\" all three comparative clauses (\"too old...too divine...\"), the five reasons for putting faith (unpretending language, inartificial character, foreknowledge of future events, excellent precepts, declaration of one Being governing the universe). The substitutions (\"barbaric\" → \"foreign,\" \"divine\" → \"godly,\" \"unpretending cast\" → \"plain, unadorned style\") are idiomatic renderings rather than omissions or compressions, and no content is added or dropped.",
+            "dollars": 0.002328
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.181,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried into the rendering: the withdrawal, the search for truth, the earnest attention, the encounter with barbaric/foreign writings, the two comparative clauses (too old, too divine/godly), and all five grounds for faith (plain language, natural character of writers, foreknowledge/knowledge of future events, excellent precepts/teachings, declaration of one governing Being). No content is dropped and nothing is added beyond natural modern rephrasing (e.g., \"barbaric\" → \"foreign,\" \"divine\" → \"godly,\" \"foreknowledge\" → \"knowledge of future events shown in them\").",
+            "dollars": 0.006672
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.117,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the withdrawal, the search for truth, the encounter with foreign/barbaric writings described as too old and too divine/godly, the five reasons for faith (plain language, unaffected writers, foreknowledge of future events, excellent precepts/teachings, and the declaration of one Being governing the universe). No content is dropped or added; minor word choices like \"barbaric\"→\"foreign\" and \"foreknowledge\"→\"knowledge of future events\" and \"divine\"→\"godly\" are legitimate modern-English renderings of the original terms.",
+            "dollars": 0.006567
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 4.169,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is faithfully carried over into the rendering: the withdrawal, the search for truth, the encounter with \"barbaric/foreign writings,\" the two comparative qualifications (too old, too divine/godly), and all five reasons for belief (plain language, natural character of writers, foreknowledge/knowledge of future events, excellent precepts/teachings, declaration of one Being governing the universe). No content is dropped, compressed, or added; \"barbaric\" is rendered as \"foreign\" and \"divine\" as \"godly,\" which are legitimate period-idiom equivalents.",
+            "dollars": 0.006507000000000001
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "alx.quote.the-grades-here-in-the-church",
+      "letter": "A",
+      "rendering": "In my view, the ranks here in the Church - bishops, elders, and deacons - are copies of the glory of the angels, and of that arrangement which, the Scriptures say, awaits those who follow in the footsteps of the apostles and have lived in perfect righteousness according to the Gospel.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.205,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. Key terms are faithfully rendered: \"grades\" → \"ranks,\" \"presbyters\" → \"elders,\" \"imitations\" → \"copies,\" \"angelic glory\" is preserved, \"economy\" → \"arrangement,\" and the dependent clauses about the Scriptures and those following apostolic footsteps are all present and intact. The reordering of \"following the footsteps of the apostles\" before \"have lived in perfection of righteousness\" reflects natural modern syntax rather than omission or compression. No substantive content is dropped or added.",
+            "dollars": 0.002091
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.468,
+            "verdict": "translation",
+            "reasoning": "The rendering carries all the key clauses of the original: the speaker's assertion of opinion (\"in my view\"), the three grades/ranks (bishops, presbyters/elders, deacons), the claim that they are imitations/copies of angelic glory, the reference to the scriptural economy/arrangement, the description of those who receive it (followers of apostles, living in perfection/perfect righteousness according to the Gospel). The modern rendering reorders slightly for naturalness (\"imitations of the angelic glory, and of that economy\" becomes \"copies of...and of that arrangement\") but omits no substantive clause and adds nothing not in the original.",
+            "dollars": 0.002136
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 1.9,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every substantive clause of the original into contemporary English: \"my opinion\" becomes \"my view,\" \"grades\" becomes \"ranks,\" \"bishops, presbyters, deacons\" becomes \"bishops, elders, and deacons\" (a legitimate terminological update), \"imitations of the angelic glory\" becomes \"copies of the glory of the angels,\" and the condition about those \"following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel\" is preserved as \"who follow in the footsteps of the apostles and have lived in perfect righteousness according to the Gospel.\" No clauses are dropped or compressed, and no extraneous content is added.",
+            "dollars": 0.002201
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.404,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over: the grades/ranks (bishops, presbyters/elders, deacons), imitations/copies of angelic glory, the economy/arrangement awaiting those who follow the apostles' footsteps, and having lived in perfection/perfect righteousness according to the Gospel. No content is dropped or added; \"presbyters\" rendered as \"elders\" and \"imitations\" as \"copies\" are standard modern equivalents.",
+            "dollars": 0.005811
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.149,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is faithfully carried over: the opinion framing, the three named ranks (bishops, presbyters/elders, deacons), the \"imitations/copies\" of angelic glory, the scriptural reference, the awaiting arrangement, the following of the apostles' footsteps, and living in perfection/perfect righteousness according to the Gospel. No content is dropped or added; \"presbyters\" rendered as \"elders\" and \"imitations\" as \"copies\" are standard modern-English equivalents.",
+            "dollars": 0.006036
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.42,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over: the opinion framing, the three named grades (bishops rendered as \"bishops,\" presbyters as \"elders,\" deacons as \"deacons\"), the angelic glory, the economy/arrangement, the scriptural reference, the apostolic footsteps, and the life of perfection/perfect righteousness according to the Gospel. No content is added or dropped.",
+            "dollars": 0.005601
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "alx.quote.the-grades-here-in-the-church",
+      "letter": "B",
+      "rendering": "In my opinion, the ranks here in the Church, of bishops, elders, and deacons, are imitations of the glory of the angels. They also imitate that ordered plan which, the Scriptures say, waits for those who have followed in the footsteps of the apostles and lived in perfect righteousness according to the Gospel.",
+      "sentence_completeness": [],
+      "grader": {
+        "haiku": [
+          {
+            "status": "ok",
+            "latency_seconds": 2.295,
+            "verdict": "expansion",
+            "reasoning": "The rendering adds a causal or explanatory clause (\"They also imitate that ordered plan which...\") that converts a single compound noun phrase in the original (\"imitations of the angelic glory, and of that economy\") into two separate claims: one about imitating angelic glory, and a second about imitating an ordered plan. The original uses \"and of that economy\" as a coordinate object of \"imitations,\" making the Church grades simultaneously imitate both the angelic glory AND the economy; the rendering breaks this into two distinct claims with \"They also imitate,\" introducing a conceptual separation and interpretive addition not present in the original syntax.",
+            "dollars": 0.002122
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.676,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries every clause of the original into contemporary English. \"Grades\" becomes \"ranks,\" \"presbyters\" becomes \"elders,\" \"angelic glory\" becomes \"glory of the angels,\" and \"economy\" is rendered as \"ordered plan\"—all legitimate modernizations. The two coordinate predicates of the original (\"are imitations of the angelic glory, and of that economy...\") are split into two sentences in the rendering (\"are imitations...They also imitate...\"), but this is a syntactic reordering for natural modern style, not an omission or compression. All original content—the three orders, their imitative character, the angelic glory, the scriptural economy/ordered plan, the condition of following apostolic footsteps, and living in righteousness according to the Gospel—is present in the rendering.",
+            "dollars": 0.0023220000000000003
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 2.376,
+            "verdict": "translation",
+            "reasoning": "The modern rendering carries all the clauses of the original into contemporary English: the introductory opinion frame (\"In my opinion\"), the three church grades (bishops/presbyters, elders/deacons), the comparison to angelic glory, the reference to the heavenly economy/ordered plan, the scriptural authority, and the characterization of those who follow apostolic footsteps in perfect righteousness according to the Gospel. The rendering reorganizes the syntax for modern idiom (\"presbyters\" → \"elders\"; \"that economy which...awaits\" → \"that ordered plan which...waits\") and splits a complex single clause into two sentences, but omits nothing and adds nothing substantial.",
+            "dollars": 0.002167
+          }
+        ],
+        "sonnet46": [
+          {
+            "status": "ok",
+            "latency_seconds": 3.228,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is present in the rendering: the opinion qualifier, the three Church grades (bishops, presbyters→elders, deacons), the imitation of angelic glory, the \"economy/ordered plan,\" the scriptural reference, and the description of those who follow the apostles' footsteps and live in perfection of righteousness according to the Gospel. Splitting the single sentence into two and rendering \"presbyters\" as \"elders\" and \"economy\" as \"ordered plan\" are legitimate modern-English equivalents, with no content dropped or added.",
+            "dollars": 0.0061589999999999995
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.053,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over: the opinion framing, the three ranks (bishops, presbyters/elders, deacons), the imitation of angelic glory, the \"economy/ordered plan\" awaiting those who follow the apostles' footsteps and live in perfection of righteousness according to the Gospel. Splitting the single sentence into two is a syntactic adjustment, not a content loss, and \"presbyters\" rendered as \"elders\" is a standard translation equivalent. Nothing is omitted or added.",
+            "dollars": 0.006024
+          },
+          {
+            "status": "ok",
+            "latency_seconds": 3.179,
+            "verdict": "translation",
+            "reasoning": "Every clause of the original is carried over: the opinion framing, the three ranks (bishops, presbyters/elders, deacons), the imitation of angelic glory, the \"economy/ordered plan\" awaiting those who follow the apostles' footsteps, and the qualification of living in perfection of righteousness according to the Gospel. Splitting the single sentence into two and rendering \"economy\" as \"ordered plan\" and \"presbyters\" as \"elders\" are legitimate modern-English translation choices that lose no content.",
+            "dollars": 0.006039
+          }
+        ]
+      }
+    }
+  ]
+}

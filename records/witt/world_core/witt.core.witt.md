@@ -24,8 +24,8 @@ confidence:
     1543 treatise's own content characterization -- that the treatise recommends specific measures against
     the Jews is Widely Accepted but explicitly NOT Documented, resting on a tertiary source (a Wikipedia
     article, per witt_Doc_02_Source_Ecology.md SS12.3) rather than a read primary or secondary text, and is
-    held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked)
-    -- go-live adversarial review M-3/M-4. .thinness, .cautions, and .thin_topics below state only that the
+    held at that weaker basis by witt.source.luther-von-den-juden-und-ihren-l alone (B, named-not-rechecked).
+    .thinness, .cautions, and .thin_topics below state only that the
     treatise is real and that its argument is not the Representative's to voice, neither of which depends
     on or restates the tertiary characterization; the fuller scholarly contest over the treatise's own later
     historical effect is carried in witt.contested.1543-treatise-later-effect, not repeated here.
@@ -207,7 +207,7 @@ above, is the deathbed, where only a clear text answers the devil's own reminder
 drawn directly, per Doc_10 Section 5 (Christ-Ward Telos Derivation), from the Permanent Prompt's own
 closing telos paragraph (paragraph 35) and from .formation_logic's own "one who can stand alone on a
 clear text... and say Amen without doubting" above; Doc_10 Section 5's own External Review Focus names
-the specific risk a formation-theology reviewer should weigh (whether this over-states sacramental
+the specific risk (whether this over-states sacramental
 specificity, or over-weights the deathbed image against this world's own thin eschatology) - carried
 forward here, not resolved.
 
@@ -239,43 +239,3 @@ precedent, has no pairings content of any kind - this is not a case where an ear
 worked out the pattern and witt merely inherits it; it is genuinely open, fleet-wide. Stated honestly
 here as an open field with nothing in it, rather than left silent or invented.
 
-CORRECTION (go-live adversarial review, Round 1, 2026-09-19; B-1, BLOCKING): `.thinness`, `.cautions`,
-and the Jews/1543 entry in `.thin_topics` all licensed this world's own voice to state the 1543
-treatise's content ("whose seven recommended measures we can state plainly when asked"; "existence and
-content"; ".thin_topics" itself self-contradicting - "its own argument is not ours to lay out" in the
-same sentence as "we can state the seven measures it recommended") - the identical reversal already
-caught and corrected once at Doc_10 Round 1 review (`witt_Doc10_Review_Round1.md`; `Open_Gaps_Tracking.md`
-OG-15) against Standing determinations in Doc_07 SS9/SS12 item 7 and Doc_08 SS11 item 7 (content is
-Facilitator-carried, never the Representative's). That correction reached the approved
-`witt_Representative_Permanent_Prompt_Nikolaus.txt` (paragraph 31) but never propagated into this
-compiled record - the exact gap OG-15 itself named as still open. Fixed by porting the Permanent
-Prompt's own already-approved language directly into all three fields rather than re-paraphrasing;
-the stale "existence-and-content-only" cross-reference inside this record's own LIVING_TRADITIONS note
-above (item 3) corrected to match. No record anywhere in this world's own store holds the treatise's
-actual content, so the pre-fix instruction could only ever have been fulfilled from parametric memory.
-
-CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; H-1, project-lead
-reconciliation): `.thin_topics`' own peasants/1525 entry claimed "our record is silent, and we do not
-fill it ourselves" - inaccurate on inspection, since `records/witt/force/witt.force.absent-inputs-1525-
-and-1555.md`'s own head text carries a real, tertiary-sourced, undocumented Layer-1 characterization of
-the 1525 tracts (the three-sins charge, the call to put the rebels down by force, the timing - Widely
-Accepted as to content, NOT DOCUMENTED, no phrase quoted, R94). `.thinness` and `.cautions` above already
-held the accurate line (documented existence only, argument never laid out, identical treatment to 1543)
-and needed no change. The `.thin_topics` entry is corrected to match them, per the project lead's own
-reconciliation of the tension (see `records/witt/voice_craft/witt.voice.craft.md`'s own parallel
-CORRECTION note for the full reasoning); `worlds/witt/witt_Representative_Permanent_Prompt_Nikolaus.txt`
-paragraph 31 corrected in the same reconciliation, as a named change order.
-
-CORRECTION (go-live adversarial review, Round 1, 2026-09-20; M-3/M-4, MEDIUM): two related overclaims.
-(1) No `contested_claim` record existed for the 1543 treatise's own later historical effect, which
-`witt_Doc_02_Source_Ecology.md` SS12.3 itself tags Contested (Kaufmann's continuity reading against
-Wallmann's largely-ignored reading) - closed by `witt.contested.1543-treatise-later-effect`, cross-linked
-from `witt.force.absent-inputs-1525-and-1555`. (2) This record's own `citation_specificity: A`/
-`verification_state: verified-direct` stamp does not, and never did, extend to the treatise's own tertiary
-content characterization - the `.thin_topics[Jews/1543]` entry's own "not even the measures it
-recommended" clause, present since the H-1 reconciliation, referenced that characterization without
-carrying its weaker basis on its own face. Fixed by dropping the clause from this emic, participant-facing
-field (the bar - "its own argument is not ours to lay out... never its own wording" - is complete without
-it, and now reads in exact parallel to the 1525 entry beside it) and disclosing the tertiary basis where it
-actually belongs: this record's own `confidence.divergence_note`, etic and record-level, not the spoken
-field. `.thinness` and `.cautions` were already clean of the "measures" reference and needed no change.

@@ -216,10 +216,10 @@ def test_guard_proximity_reads_at_defect_severity_and_leaves_the_generic_bucket(
     assert not [f for f in generic_findings if f.instrument == "output_defects"]
 
 
-def test_level1_element_density_groups_marks_the_same_way_the_renderer_does(tmp_path):
-    """Stage 6d / R17: report-only counting, no cap enforced here (the
-    number is still Mark's to set). Proves the grouping matches
-    VoiceTurnBody.tsx's renderFromTransparencyPlan - two story anchors at
+def test_level1_element_density_groups_legacy_anchor_plans_the_way_the_legacy_renderer_does(tmp_path):
+    """Report-only counting. A plan recorded before per-element placement
+    carries `anchors`; proves the anchor-era grouping
+    still counts it - two story anchors at
     the SAME run_end_sentence collapse to one mark (one StoryMark, two
     sources), a witness anchor at a different placement is its own mark,
     and a non-story/witness anchor (gravity) gets no inline mark at all."""
@@ -257,6 +257,44 @@ def test_level1_element_density_groups_marks_the_same_way_the_renderer_does(tmp_
     assert m["gloss_marks"] == 1
     assert m["level1_total"] == 4
     assert m["sentence_count"] == 3
+
+
+def test_level1_element_density_counts_one_mark_per_element_when_the_plan_has_elements(tmp_path):
+    """A plan carrying `elements` is counted exactly as renderFromElements
+    draws it - one mark
+    per quote/story element (two on one sentence are two marks), one per
+    term/figure element, and nothing for a general reference."""
+    store = Store(tmp_path / "events.db")
+    sid = "density-el-" + uuid.uuid4().hex[:8]
+    _append(store, sid, "session_started", {
+        "mode": "interview", "frame": "general_seeker", "code_hash": "abc",
+        "world_key": "des", "package_manifest_hash": "sha256:x",
+    })
+    text = "First sentence. Second sentence."
+    element = {"world_key": "des", "confidence": None, "repeat": False, "char_start": 0, "surface": ""}
+    _append(store, sid, "voice_turn", _voice(
+        "des", text,
+        [{"sentence": "First sentence.", "record_ids": ["des.quote.a", "des.story.b", "des.dw.c"]}],
+        glosses=[{"id": "des.term.one"}, {"id": "des.term.two"}],
+        figures_used=[{"id": "des.figure.antony"}],
+        transparency={
+            "world_key": "des",
+            "sentences": [{"index": 0, "text_start": 0, "text_end": 15}, {"index": 1, "text_start": 16, "text_end": 32}],
+            "elements": [
+                {**element, "record_id": "des.quote.a", "record_type": "quote", "kind": "quote", "sentence_index": 0, "char_end": 15},
+                {**element, "record_id": "des.story.b", "record_type": "story", "kind": "story", "sentence_index": 0, "char_end": 15},
+                {**element, "record_id": "des.term.one", "record_type": "term", "kind": "term", "sentence_index": 1, "char_end": 6},
+            ],
+            "references": [],
+            "end_references": [],
+            "unverified_claims": {"count": 0, "sentence_indexes": []},
+        },
+    ))
+    [m] = level1_element_density(read_session(store, sid))
+    assert m["citation_marks"] == 2
+    assert m["gloss_marks"] == 1  # the element list, not the raw glosses list
+    assert m["figure_marks"] == 0
+    assert m["level1_total"] == 3
 
 
 def test_level1_element_density_report_only_no_findings(tmp_path):

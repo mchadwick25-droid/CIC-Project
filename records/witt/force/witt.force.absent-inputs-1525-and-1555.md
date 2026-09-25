@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Contested
   divergence_note: Widely Accepted / Dominant Modern Reconstruction for 1525's content and frame (tertiary,
-    not Documented, R94's bar observed throughout); Not Attested in this library at any confidence for
+    not Documented, bar observed throughout); Not Attested in this library at any confidence for
     1555 (Doc_08 Cell 3A, Force 3A-2). Layer 1 only by design -- Layers 2 and 3 are not recoverable and
     are not supplied.
 sources:
@@ -20,7 +20,7 @@ sources:
   locus: 'LC 3190-3196: the only Layer-2 trace this library carries of 1525, unnamed. The Peasants'' War
     and its 1525 tracts are not independently vendored anywhere in this library; this record''s own Layer
     1 characterization draws on a tertiary secondary account (Widely Accepted as to content, no phrase
-    quoted, R94), disclosed here rather than cited as a source'
+    quoted), disclosed here rather than cited as a source'
   license: public-domain
 relations:
 - type: associated-with
@@ -31,25 +31,38 @@ name: '1525 and 1555: the two external events at which this world''s boundaries 
   every vendored text -- absent inputs, Layer 1 only [3A - ending-transforming/external]'
 kind: ending
 matrix_cell: 3A
-description: 'LAYER 1 (Historical Event) -- and Layer 1 only; Layers 2 and 3 are NOT RECOVERABLE from
-  this library and are not supplied. 1525: the Peasants'' War and the three 1525 tracts, characterized
-  only at a tertiary remove -- the charge of three sins, the call on the princes to put the rebels down
-  by force, the tract ''appearing as the princes'' armies were already winning'' -- Widely Accepted as
-  to content and timing, Dominant Modern Reconstruction for Blickle''s frame, NOT DOCUMENTED, no phrase
-  quoted (R94). 1555: the Peace of Augsburg, named at Doc_01 §2.2 as ''a real marker of a different kind
-  -- political-legal rather than doctrinal-confessional''; nothing in this library attests it at any confidence,
-  and this record assigns it none. Why Layer 1 only, and why this is NOT the Proportionality Principle''s
-  minimal-impact case: both events are absent from the library, not minimal in impact -- they are this
-  world''s ''two most consequential moments.'' 1525 is entered here, though it sits inside the evidential
-  window chronologically (it is a climax of Force 2A-4), because it is the external event most plausibly
-  transformative of G6; 1555 is entered as the point at which the transformation Force 3A-1 records was
-  historically settled, on Doc_01 §2.2''s authority alone. LAYER 2. Not recoverable; see Force 2A-4''s
-  Layer 2 for the unnamed ''riot'' of LC 3190-3196, which is all the library carries. LAYER 3. Not supplied.
-  What CAN be said is what the absence does to the reconstruction: G6''s Persistence test cannot be completed
-  from this library; the world''s boundary against the peasants is carried by the Facilitator apparatus
-  as disclosure, never as Representative content.'
+description: 'This record gives only the historical events. This library cannot show how this world lived through them, or how
+  they shaped it, so neither is supplied.
+
+  The first event is 1525: the Peasants'' War and the three tracts of 1525. They are known here only at third
+  hand, from a source several steps removed from the events, and that source gives their content. The tracts
+  charge the rebels with three sins and call on the princes to put the rebels down by force, and one tract
+  appeared "as the princes'' armies were already winning." Scholars widely accept this content and timing, and
+  Blickle''s framing of the war is the dominant modern reconstruction. Even so, none of it reaches the level of
+  documented fact, and no phrase from the tracts is quoted.
+
+  The second event is 1555: the Peace of Augsburg, named as "a real marker of a different kind -- political-legal
+  rather than doctrinal-confessional." Nothing in this library attests it at any level of confidence, and this
+  record gives it none.
+
+  The historical events stand alone here for a reason, and it is not that these two events mattered too little to
+  describe further. Both are missing from the library, but their impact was far from small: they are this world''s
+  "two most consequential moments."
+
+  In time, 1525 falls inside the period this world''s sources cover, where it marks a high point of the
+  popular-insurrectionary force. It is entered here because it is the outside event most likely to have
+  transformed the teaching on the two governments, while 1555 is entered as the point where history settled the
+  confessional-territorial transformation.
+
+  We have no source that shows how this world experienced these events. The only trace is the unnamed "riot" of LC
+  3190-3196, recorded under the popular-insurrectionary force, and that is all the library carries.
+
+  Their formative effect is not supplied either, though we can say what the gap does to the reconstruction. This
+  library cannot fully test whether the teaching on the two governments lasted over time. This world''s boundary
+  against the peasants is carried by the Facilitator as a disclosure, and the Representative never speaks it as
+  its own content.'
 manifestations:
-- the 1525 tracts, characterized only at a tertiary remove, no phrase quoted anywhere in this build (R94)
+- the 1525 tracts, characterized only at a tertiary remove, no phrase quoted anywhere in this build
 - '"a real marker of a different kind -- political-legal rather than doctrinal-confessional" (Doc_01 §2.2,
   on 1555)'
 - the unnamed "riot" of LC 3190-3196 -- all the library carries of 1525's Layer 2

@@ -1,0 +1,17 @@
+source_file: kempis_founders-of-the-new-devotion_arthur1905.txt
+
+assignments:
+  - work: "The Founders of the New Devotion: Being the Lives of Gerard Groote, Florentius Radewin and Their Followers"
+    author: kempis
+    locus: "whole text"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      Thomas a Kempis's own biographical account of the movement's
+      founder (Gerard Groote) and his key successor (Florentius
+      Radewin), trans. J. P. Arthur (1905) - the tradition's own telling
+      of its own origin, not a neutral outside biography. Vendored
+      2026-09-25 as part of a fresh pre-Doc_02 source-acquisition pass
+      for this candidate.

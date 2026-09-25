@@ -29,31 +29,33 @@ sources:
 name: "Transmission at the Ending - Selective Canonization [3B - ending/internal]"
 matrix_cell: 3B
 kind: ending
-description: "HISTORICAL EVENT: as monepiscopacy and apostolic succession became this wider
-  tradition's own settled self-understanding, later transmission favored the texts that supported
-  that settlement: Ignatius's corpus, the earliest sustained argument for monepiscopacy, was
-  preserved, cited, and eventually required a two-century critical-scholarship effort to
-  authenticate precisely because of its later canonical importance; 1 Clement was folded into Codex
-  Alexandrinus alongside the New Testament. By contrast, Hermas - cited as scripture by Irenaeus,
-  Clement of Alexandria, and Origen, included in Codex Sinaiticus - was REASSIGNED rather than
-  expelled by Athanasius's Festal Letter of 367, which places it and the Teaching of the
-  Apostles (the Didache) among books 'not indeed included in the Canon, but appointed by the
-  Fathers to be read by those who newly join us'; its canonical status had been genuinely
-  fluid, not settled from the start, and what 367 fixed was that it belonged to catechesis
-  rather than to the assembly. The Didache disappeared from active circulation for roughly
-  eighteen centuries. WORLD'S OWN
-  EXPERIENCE: not recoverable - no source in this world's own evidentiary base registers an
-  awareness of its own eventual selective transmission. This is a judgment available only in
-  retrospect, from outside this world's own lived experience, and is not attributed to this world's
-  own self-understanding. FORMATION IMPACT: read this way - the later settlement itself driving these
-  particular selection outcomes is this build's own synthesis from the survival pattern, not a claim
-  independently stated by Doc_02 - this is the mechanism behind why this world's own Strand B (Rome)
-  content - Hermas above all - is thinner and less securely canonical in the modern evidentiary base
-  than Strand A's Ignatian material, independent of how prevalent either strand's practice actually
-  was in its own time. This world's evidence base privileges literate,
-  leadership-tier, eventually-canonically-useful voices, and this ending-transmission pattern is one
-  further, later-stage instance of the same structural filter operating throughout this world's own
-  life."
+description: "Rule by a single bishop, and an unbroken line of leaders from the apostles, became
+  the wider tradition's settled view of itself. Later copying and citing favored the texts that
+  supported that view. Ignatius's letters are the earliest sustained argument for one bishop over
+  each church, what came to be called monepiscopacy. They were kept and cited. Because they later
+  mattered so much, it took two centuries of critical scholarship to establish which of them were
+  genuine. 1 Clement was bound into Codex Alexandrinus alongside the New Testament.
+
+  Hermas went a different way. Irenaeus, Clement of Alexandria, and Origen cited it as scripture, and
+  Codex Sinaiticus included it. Athanasius's Festal Letter of 367 did not throw it out; it moved it to
+  a different place. He listed it, with the Teaching of the Apostles (the Didache), among books 'not
+  indeed included in the Canon, but appointed by the Fathers to be read by those who newly join us.'
+  Its standing had been genuinely open, not settled from the start. What 367 fixed was that it belonged
+  to the teaching of newcomers, not to the assembly. The Didache then dropped out of active use for
+  about eighteen centuries.
+
+  How this world itself experienced this cannot be recovered. No source from inside it shows any
+  awareness of how its writings would later be sorted. This judgment is only possible looking back from
+  outside. It is not part of how this world understood itself.
+
+  The claim that the later settlement itself drove these particular choices is an interpretation drawn
+  from the pattern of what survived. This is our own reading of the survival pattern, not a finding
+  taken from earlier study. Read this way, it explains something about today's evidence. The material
+  from Rome, Hermas above all, is thinner and less securely part of the canon than the Ignatian
+  material from Antioch and Asia Minor. That gap says nothing about how
+  common either region's practice really was at the time. This world's surviving evidence favors
+  literate voices, leaders, and texts that later proved useful to the canon. This late sorting is one
+  more case of the same filter that worked throughout this world's life."
 manifestations:
 - "Ignatius's corpus requiring a two-century critical-scholarship effort to authenticate, precisely because of its later canonical importance"
 - "1 Clement folded into Codex Alexandrinus alongside the New Testament"

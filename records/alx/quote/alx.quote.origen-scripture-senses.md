@@ -44,4 +44,3 @@ Philocalia), preferred over the Rufinus-mediated ANF text per the
 associated-with relation between those source records. Serves F2-I (how
 they read) and F2-P ('what am I missing?' - the doctrine's own point is
 that the text meets the simple reader at the level they can receive).
-Verified verbatim 2026-08-21.

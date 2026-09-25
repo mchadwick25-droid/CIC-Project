@@ -122,7 +122,17 @@ def _splice_field(obj_text: str, field: str, value) -> str:
 
 def _insert_field(obj_text: str, field: str, value) -> str:
     close_idx = obj_text.rstrip().rfind("}")
-    before = obj_text[:close_idx]
+    # The closing brace's own leading whitespace (from the last newline
+    # before it) has to be preserved explicitly - it sits between `before`
+    # and `close_idx` and would otherwise be lost the moment `before` is
+    # rstripped, leaving the closing brace unindented and every untouched
+    # sibling object shifted one line in the diff.
+    line_start = obj_text.rfind("\n", 0, close_idx) + 1
+    closing_indent = obj_text[line_start:close_idx]
+    if closing_indent.strip() == "":
+        before = obj_text[:line_start]
+    else:
+        before, closing_indent = obj_text[:close_idx], ""
     prop_m = re.search(r"\n( +)\"", obj_text)
     if not prop_m:
         raise ValueError("cannot determine indentation for insertion")
@@ -133,7 +143,7 @@ def _insert_field(obj_text: str, field: str, value) -> str:
     new_json = json.dumps(value, ensure_ascii=False, indent=1)
     lines = new_json.split("\n")
     reindented = lines[0] + ("\n" + "\n".join(indent + l for l in lines[1:]) if len(lines) > 1 else "")
-    return f"{trimmed}\n{indent}\"{field}\": {reindented}\n" + obj_text[close_idx:]
+    return f"{trimmed}\n{indent}\"{field}\": {reindented}\n{closing_indent}" + obj_text[close_idx:]
 
 
 def _find_array_span(text: str, needle: str, from_const_data: bool) -> tuple[int, int]:

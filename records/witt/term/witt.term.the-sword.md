@@ -67,6 +67,6 @@ senses:
 quick_meaning: The ruler's power to punish evil. God's own gift, never the church's.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 7.2 (the sword / secular authority, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none. Source Registry rows cited: R10, R11, R20, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 7.2 (the sword / secular authority, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][TC][DR][RT]. Author Gravity: none. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

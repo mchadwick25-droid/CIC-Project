@@ -1,4 +1,4 @@
-# Worker notes, 2026-09-02. Pearse file, no ThML markup - author slug from
+# Pearse file, no ThML markup - author slug from
 # filename, matching AUTHORS.md's `philostorgius`. Doubly mediated: an
 # Anomoean/Eunomian historian's own work, surviving only via Photius'
 # hostile epitome - the author, per SS6.2, is Philostorgius himself (the
@@ -39,9 +39,9 @@ assignments:
   role: context
   confidence: assigned
   note: >
-    Added 2026-09-09 on Mark's ruling, after a post-admission source
-    check found this volume had never been considered for ijc at all
-    (records/ijc had zero mentions of it). A non-Nicene narrative of
+    A post-admission source check found this volume had never been
+    considered for ijc at all (records/ijc had zero mentions of it) -
+    added here to close that gap. A non-Nicene narrative of
     exactly ijc's own contested imperial-doctrinal decades: Books IV-V
     carry Rimini and Seleucia, the coerced subscriptions at
     Constantinople in 360, and bishops deposed and restored at the
@@ -62,7 +62,7 @@ assignments:
 
     DOES NOT close ijc's named Homoian self-testimony thinness
     (Doc_02 sec 7), and must not be used as if it did - Anomoean is not
-    Homoian, a distinction this repo already ruled on 2026-08-26, and
+    Homoian, a distinction this repo has already settled, and
     at IV.12 Philostorgius' own party is coerced into subscribing the
     Homoian formula. Full reasoning at
     records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.

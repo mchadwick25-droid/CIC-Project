@@ -1,6 +1,6 @@
 # Imperial and Juridical Christianity (`ijc`) — Record-Set Build Log
 
-**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compiled, admitted, and live** — admitted 2026-08-28 alongside the other five original worlds (`records/WORLDS_REGISTRY_LOG.md`), doors open fleet-wide.
+**Branch:** `world/ijc` → merged to `build/phase-1` (PR #14, 2026-08-22) → continued on `claude/ijc-world-build-b9p7hr`, restarted from post-merge `build/phase-1` · **Built:** 2026-08-21–22 · **Scope:** spec §4.3 steps 2–5 (source ecology → interpretive lexicon → ecology reconstruction → answer canon → representative identity confirmation, voice_craft, demonstration), plus the cross-thread glossary/story/quote retrofit (§11). **Compiled, admitted, and live** — admitted 2026-08-28 alongside the other five original worlds (`Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`), doors open fleet-wide.
 
 **Settled ground built from (not reopened):** the per-world Step 0 confirmation (2026-07-19, Approved to proceed, Round 3) and Doc_01 (Approved to proceed, Round 2 cosmetic only) — identity ("office-holders, not congregants"), window 312–451, three strands, Homoian recentering, skew disclosure, Living Tradition PENDING.
 
@@ -444,3 +444,27 @@ new: both quote). **Compiled:** ijc recompiled (package `2026-09-13T01-44-51Z`, 
 
 No fix in this section reopened Step 0, Doc_01, the answer canon, the step-5 voice build, or the
 retrofit's own settled ground.
+
+---
+
+## Source-form fragment re-author — 2026-09-25
+
+`ijc.quote.he-held-aloof-for-a-short-time`: the sentence-completeness
+check (P3 Decision-Log Entry 29) flagged "...had held back for a short
+time." as a sentence with no subject. The excerpt starts mid-sentence, and
+the cut falls between Socrates's subject (Eusebius, "who") and its verb.
+Under Mark's R44 ruling of 2026-09-24 ("true ellipses get finished"), the
+rendering supplies the implied subject: "He had held back for a short
+time." The ellipsis stays in `text` for Level 3. Only `modern_rendering`
+changed; every other field is byte-identical. Authored by Opus. Reads
+"translation" on two consecutive runs of Haiku 4.5 and Sonnet 4.6. P3
+Decision-Log Entry 37 carries the fleet-wide record of this pass.
+
+Record-note history moved here from the record body under the standing
+rule that a PR editing a live file also removes its commentary: the record
+was opened 2026-08-27 for F1-P; on 2026-09-22 a quote-verbatim gate fix
+restored the source's own "had held" where the record had smoothed it to
+"having held".
+
+`ijc.quote.eutropius-right-of-refuge` ("Yes!") stays as the source speaks
+it.

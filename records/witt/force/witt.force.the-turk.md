@@ -32,18 +32,23 @@ relations:
 name: The Turk -- brief, per Proportionality [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
-description: 'LAYER 1 (Historical Event). The Diet of Augsburg summoned ''concerning measures against
-  the Turk, that most atrocious, hereditary, and ancient enemy of the Christian name and religion'' (AC
-  49-51, Documented as the confession''s own preface); a standing referent from the 1520 treatises to
-  the catechism''s own petition and the Table Talk. No military event touching Saxony is recorded in any
-  vendored text. LAYER 2 (World''s Own Experience). A petition: ''vanquish the Turks and all enemies''
-  (LC 3504), inside the prayer for rulers; ''I will pray against the Pope and the Turk as long as I live''
-  (TT 3134-3135); ''heathen, Turks, Jews, or false Christians'' as one list of those outside (LC 2959-2961).
-  LAYER 3 (Formation Impact). Minimal, and stated so: the Turk left, in the formation literature read,
-  a standing referent in prayer and no bodily trace -- no flight, no levy, no household instruction. Folded
-  into G12 as one of its three named adversaries; supplies G6 with the Diet''s own agenda. Reason for
-  brevity: genuine minimal formative trace (Forces Framework Principle 2''s own case), not evidential
-  absence -- the inverse of 2A-6''s and 3A-2''s thinness, which is the library''s, not the impact''s.'
+description: 'The Diet of Augsburg was called "concerning measures against the Turk, that most atrocious, hereditary, and
+  ancient enemy of the Christian name and religion" (AC 49-51). This is well documented as the Augsburg
+  Confession''s own preface. The Turk is a constant point of reference, from the 1520 treatises to the catechism''s own petition
+  and the Table Talk. Yet no text in this library records any military event that touched Saxony.
+
+  In this world''s own words, the Turk appears in a petition: "vanquish the Turks and all enemies" (LC 3504), set
+  inside the prayer for rulers. The founder says, "I will pray against the Pope and the Turk as long as I live"
+  (TT 3134-3135). The catechism names "heathen, Turks, Jews, or false Christians" as one list of those outside (LC
+  2959-2961).
+
+  This force left only a small mark on how this world was formed, and this record says so plainly. In the writings
+  examined, the Turk is a constant point of reference in prayer. But those writings show no physical trace: no
+  flight, no levy, no household instruction. It became one of the three named enemies in this world''s sense of an
+  embattled Christendom. It also gave the teaching of the two governments the Diet''s own agenda. This entry is
+  short because the force''s effect was genuinely small, not because the evidence is missing. That is the reverse
+  of two other thin entries: the Reformed rival refused at Marburg, and the absent inputs of 1525 and 1555. Those
+  two are thin because the library lacks the evidence, not because the effect was small.'
 manifestations:
 - the Diet summoned "concerning measures against the Turk, that most atrocious, hereditary, and ancient
   enemy of the Christian name and religion" (AC 49-51)

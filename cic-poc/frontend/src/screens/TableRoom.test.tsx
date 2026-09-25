@@ -1,5 +1,5 @@
 /**
- * Decision-Log.md Entry 47 (2026-09-22): the seat-identity guard's own
+ * The seat-identity guard's own
  * exhausted case writes a voice_turn with deliberately empty text -
  * pinned here so a future change can't silently reintroduce a blank
  * "turn--voice" bubble (portrait, name, nothing underneath) where the
@@ -63,5 +63,27 @@ describe('TableRoom', () => {
     const turns: ConversationTurn[] = [{ speaker: 'alx', text: 'We watched them, not counted weeks.' }];
     const { container } = render(<TableRoom {...baseProps} turns={turns} />);
     expect(container.querySelectorAll('.turn--voice')).toHaveLength(1);
+  });
+
+  it('renders a modern-term mark for a bridge turn that carries one (OG-13)', () => {
+    const turns: ConversationTurn[] = [
+      {
+        speaker: 'facilitator',
+        text: "Let me put that in plain terms.",
+        kind: 'bridge',
+        modernTerms: [
+          {
+            record_id: '_fleet.modern.trinity',
+            record_type: 'modern_term',
+            label: 'Trinity',
+            sources: [],
+            modern_sense: 'One God, three persons.',
+            distinguishing_claim: 'The word itself is modern; the claim is not.',
+          },
+        ],
+      },
+    ];
+    const { container } = render(<TableRoom {...baseProps} turns={turns} />);
+    expect(container.querySelectorAll('.modern-term-mark')).toHaveLength(1);
   });
 });

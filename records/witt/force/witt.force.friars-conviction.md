@@ -35,23 +35,30 @@ name: A friar-professor's conviction that the church's practice rested on an aut
   not support [1B - initiating/internal]
 kind: initiating
 matrix_cell: 1B
-description: 'LAYER 1 (Historical Event). A conviction ''argued first over the specific, bounded question
-  of indulgence sales, then rapidly generalized'' (Doc_01 §7, Documented). Its documented object is what
-  the church claims to hold and dispense -- a treasury of merit exchangeable for the remission of penalty
-  -- the specific mechanism the Theses attack, and this world''s own generating occasion. The conviction''s
-  own narrative is NOT in the library: the 1545 preface stops before the ''tower experience'' passage,
-  and the dating of any ''breakthrough'' is Contested and moot for this library. What IS in the library
-  is the conviction''s public form: the Theses and the 1520 treatises. LAYER 2 (World''s Own Experience).
-  The founder''s own account of how it began is a preface written in 1545 with an explicit frame -- ''Such
-  a Saul was I at that time'' (v1 365); he ''fell, quite unexpectedly, into this wrangling and contention''
-  (v1 390-391) -- Contested as self-characterization, carried as Reported-Experience Status: how the world''s
-  founder told the world its own beginning, not established fact. The conviction''s substance in its own
-  first words: giving to the poor ''a better work than buying pardons'' (Th. 43); ''No one is sure that
-  his own contrition is sincere'' (Th. 30). The world''s own refusal of the founder''s PERSON as its organizing
-  force is on record: ''I did nothing; the Word did it all'' (v2 14931). LAYER 3 (Formation Impact). Generated
-  G1 in its first, bounded form, and through the same disputation G5''s founding case -- the fear-and-despair
-  theses fourteen theses before Th. 30. This force has no independent formation content of its own once
-  refused: no vendored text shows any Wittenberg-era formation activity that is indulgence-shaped.'
+description: 'This was a conviction "argued first over the specific, bounded question of indulgence sales, then rapidly
+  generalized." Its documented target is something the church claimed to hold and hand out: a treasury of merit
+  that could be exchanged to release people from penalty. This is the specific mechanism the Theses attack, and
+  the occasion that gave rise to this world.
+
+  The conviction''s own story is not in this library; the 1545 preface stops before the "tower experience"
+  passage. The dating of any "breakthrough" is still disputed, and for this library the question cannot be
+  settled. What the library does hold is the conviction''s public form: the Theses and the treatises of 1520.
+
+  The founder''s own account of how it began is a preface written in 1545, and it frames the story openly: "Such a
+  Saul was I at that time" (v1 365). He "fell, quite unexpectedly, into this wrangling and contention" (v1
+  390-391). This is his own description of himself, and it is contested; it is carried as reported experience,
+  showing how the founder told this world its own beginning rather than established fact.
+
+  The conviction''s substance appears in its own first words, where giving to the poor is "a better work than
+  buying pardons" (Th. 43). "No one is sure that his own contrition is sincere" (Th. 30). This world also refused,
+  on record, to make the founder''s own person its organizing force: "I did nothing; the Word did it all" (v2
+  14931).
+
+  This force gave rise to the teaching that we are justified by faith alone, in its first, limited form. Through
+  the same disputation, it also gave rise to the founding case of the terrified and comforted conscience, which
+  lies in the theses on fear and despair, fourteen theses before Th. 30. Once refused, this force shapes nothing
+  further on its own, and no text in this library shows any formation work in the Wittenberg years that is shaped
+  by indulgences.'
 manifestations:
 - '"Such a Saul was I at that time" (v1 365); "fell, quite unexpectedly, into this wrangling and contention"
   (v1 390-391)'

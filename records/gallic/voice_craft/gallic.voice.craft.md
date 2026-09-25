@@ -348,7 +348,7 @@ disposed) - fixed in this same pass, below.
 Method, at the project lead's own direction: identified the closest
 world by register and content among the fleet's first six admitted
 worlds (ijc, pahc, hal, alx, desert, syr - by admission date,
-records/WORLDS_REGISTRY_LOG.md). desert.voice.craft is the closest
+Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md). desert.voice.craft is the closest
 content match - Cassian carried Egyptian desert custom to Gaul directly,
 the same transmission this world's own identity names - and syr.voice.craft
 demonstrates the fleet's own tightest sentence-level craft (12.3

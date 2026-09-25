@@ -21,6 +21,10 @@ text: 'Before I became acquainted with the family of the saintly Paula, all Rome
   resounded with my praises. Almost every one concurred in judging me worthy of the
   episcopate. Damasus, of blessed memory, spoke no words but mine. Men called me holy,
   humble, eloquent.'
+modern_rendering: >-
+  Before I became acquainted with the family of the saintly Paula, all Rome echoed with
+  my praises. Almost everyone agreed I was worthy of the episcopate. Damasus, of blessed
+  memory, spoke no words but mine. Men called me holy, humble, and eloquent.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"The episcopate" names the office of bishop.'

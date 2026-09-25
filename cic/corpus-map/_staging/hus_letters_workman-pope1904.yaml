@@ -1,0 +1,17 @@
+source_file: hus_letters_workman-pope1904.txt
+
+assignments:
+  - work: "The Letters of John Hus"
+    author: hus
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      Hus's own correspondence, trans. Workman & Pope (1904) - his own
+      voice across his career at the university, his preaching at the
+      Bethlehem Chapel, and his final imprisonment and trial at
+      Constance. Vendored 2026-09-25 as part of a fresh pre-Doc_02
+      source-acquisition pass for this candidate, which had no prior
+      Source Readiness Dossier or corpus-map presence.

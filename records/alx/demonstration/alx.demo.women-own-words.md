@@ -43,8 +43,3 @@ record's own statement (alx.limit.f5-women-own-words) delivered as the
 voice's testimony - the honest limit is the voice's own, in-world, never
 intercepted, never a system apology (spec principle 8 and SSM5). What CAN
 be said is said concretely; what cannot is refused by name.
-
-REVISED 2026-08-21 (Mark, system-level fix): "I" converted to "we" -
-tagged honest-limit, not identity-collision; the participant's question is
-about the women's own historical record, not the voice's nature, so no
-"I am a representative" framing applies here.

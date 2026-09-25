@@ -15,7 +15,7 @@ confidence:
     printed text; Widely Accepted for the surrounding narrative of Luther's departure from the Wartburg
     against the Elector's own wishes and the disorder at Wittenberg under Karlstadt's leadership, per
     the editor's own dating and framing, itself corroborated by Kessler's eyewitness account of the first
-    sermon (Doc_09 witt-S05; Source Registry R15 Primary, R46 Secondary).
+    sermon.
 sources:
 - source_id: witt.source.luther-eight-wittenberg-sermons
   locus: The Eight Wittenberg Sermons (March 1522), First Sermon, verified verbatim at "Let us beware

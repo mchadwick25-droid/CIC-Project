@@ -8,29 +8,24 @@ works:
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
   role: tradition
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
-    project, not membership of his circle.'
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no obvious
+    census home at first glance - merovingian-gallic-christianity (c. 480-620) seems to start
+    as he ends - but Gennadius died c. 496, which is INSIDE that window rather than before
+    it: the overlap is real and he falls in it. Assigned there as his home, with hieronymian-ascetic-literary
+    kept as context: the direct continuation of Jerome''s literary project, not membership
+    of his circle.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
   confidence: assigned
-  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
-    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
-    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
-    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
-    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
-    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
-    writing to.
+  note: 'CONTEXT row: four entries that are not Gregory''s. The letters are evidence ABOUT
+    these worlds from outside them: monastic discipline in Italy and Sicily, the letters to
+    Brunichild and the Frankish court, Book VI and Book XI''s Responsa launching and steering
+    the mission to Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical
+    patriarch''. Leaving them as `tradition` would have made Gregory a voice of four traditions
+    he was writing to.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
@@ -40,13 +35,12 @@ works:
     I-VIII)
   role: context
   confidence: assigned
-  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
-    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
-    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
-    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
-    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
-    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
-    writing to.
+  note: 'CONTEXT row: four entries that are not Gregory''s. The letters are evidence ABOUT
+    these worlds from outside them: monastic discipline in Italy and Sicily, the letters to
+    Brunichild and the Frankish court, Book VI and Book XI''s Responsa launching and steering
+    the mission to Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical
+    patriarch''. Leaving them as `tradition` would have made Gregory a voice of four traditions
+    he was writing to.
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml

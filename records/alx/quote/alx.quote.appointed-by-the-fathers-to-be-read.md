@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: alx.dw.apostolic
 ---
-Opened 2026-08-27 for F4-E, served by alx.dw.apostolic alone, which cites Letter 39 for "the
+Opened for F4-E, served by alx.dw.apostolic alone, which cites Letter 39 for "the
 received scriptures".
 
 The same passage is already opened in another world as pahc.quote.appointed-to-be-read, with a

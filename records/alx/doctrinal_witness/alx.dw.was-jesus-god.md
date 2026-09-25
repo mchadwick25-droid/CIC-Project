@@ -68,18 +68,3 @@ tensions:
 ---
 The was-Jesus-God translational cell, answered with the development
 honest and the homoousios term record alongside.
-
-REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-CORRECTED 2026-09-08, records/alx audit: "we baptized into Father, Son, and
-Holy Spirit" was cited to athanasius-de-decretis (19-21) and origen-comm-
-john (I-II); neither locus contains the triadic baptismal formula. The
-actual vendored support is Athanasius's Ad Afros Epistola Synodica (Letter
-to the Bishops of Africa), npnf204 line ~60968 - a work with no prior
-source record in this registry, now created as
-alx.source.athanasius-ad-afros. de-decretis 19-21 is correctly kept for
-this file's separate "swallowed by the other side" claim; origen-comm-john
-I-II is correctly kept, re-scoped to the "God the Word" claim it actually
-supports.

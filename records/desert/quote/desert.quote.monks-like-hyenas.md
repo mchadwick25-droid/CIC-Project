@@ -30,6 +30,11 @@ text: >-
   of the association as far as their names are concerned, but their actions are like those of the
   hyena. They spend the day fasting with the holy brethren, and in the evening, at the time for
   sleeping, instead of the watch of the night, they go forth in the darkness like a hyena.
+modern_rendering: >-
+  Those who are like the hyenas you have seen are the monks who remain with their brothers in the
+  community in name only. Their actions are like those of the hyena. They spend the day fasting with
+  the holy brothers. But in the evening, at the hour for sleep, instead of keeping the night watch,
+  they go out into the darkness like a hyena.
 speaker_or_author: the late Ethiopic homily on the ten associations, carried under Pachomius' name
 license: verbatim
 modern_lens_note: >-
