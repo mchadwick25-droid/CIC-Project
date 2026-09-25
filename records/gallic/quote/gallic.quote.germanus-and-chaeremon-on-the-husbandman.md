@@ -59,22 +59,21 @@ modern_lens_note: >-
   effort is pointless but that its starting point, "the initiative," is not the man's own: he is called
   to "humbly follow day by day," not to originate the grace he follows.
 modern_rendering: >-
-  Then Germanus: ... The reward of our efforts is perfect chastity, gained by the earnestness of one's
-  own toil. It seems absurd to us not to credit it mainly to the labor of the man who makes the effort.
-  For suppose, for example, that we see a farmer taking the greatest pains to work the ground. It is
-  foolish not to credit the fruits to his labor.
+  Then Germanus said: "The reward of our efforts is perfect chastity. It is gained by the earnestness of
+  one's own toil. It seems absurd to us not to credit it mainly to the labor of the man who makes the
+  effort. For suppose, for example, that we see a farmer taking the greatest pains to work the ground. It
+  is foolish not to credit the fruits to his labor."
 
-  Chaeremon: ... Neither can the farmer, after taking the greatest pains to work the ground, at once
-  credit his crops and their rich fruits to his own labor. He finds that his efforts often
-  come to nothing unless timely rains and a quiet, calm winter help them ... Just as God's goodness, then,
-  does not grant these rich crops to lazy farmers who do not work their fields with frequent ploughing
-  ... For a man should think this over and weigh it with the greatest care. By his own strength he could
-  not have made the very efforts he put in so earnestly out of his desire for wealth. He could have made
-  them only if the Lord's protection and mercy had given him strength for all the work of farming ...
-  From this we clearly conclude that the beginning, not only of our actions but also of our good
-  thoughts, comes from God. He puts a good will in us to begin with. He gives us the chance to carry out
-  what we rightly desire ... But our part is to follow humbly, day by day, the grace of God that is
-  drawing us.
+  Chaeremon said: "The farmer may take the greatest pains to work the ground. Even so, he cannot at once
+  credit his crops and their rich fruits to his own labor. He finds that his efforts often come to
+  nothing unless timely rains and a quiet, calm winter help them. God's goodness, then, does not grant
+  these rich crops to lazy farmers who do not work their fields by ploughing them often. For a man
+  should think this over and weigh it with the greatest care. By his own strength he could not have made the
+  very efforts he put in so earnestly out of his desire for wealth. He could have made them only if the
+  Lord's protection and mercy had given him strength for all the work of farming. From this we clearly
+  conclude that the first step comes from God. This is true not only of our actions but also of good
+  thoughts. God puts a good will in us to begin with. He gives us the chance to carry out what we rightly
+  desire. But our part is to follow humbly, day by day, the grace of God that is drawing us."
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service

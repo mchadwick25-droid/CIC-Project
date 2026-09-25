@@ -68,24 +68,24 @@ modern_lens_note: >-
   quoted a second time inside the vision itself. The cloak is the act; the vision is Christ attaching
   his own name to the man who received it.
 modern_rendering: >-
-  So, at one time, he had nothing but his weapons and his plain soldier's clothes. It was the middle
-  of winter, a winter harsher than usual, and the bitter cold was killing many people. He happened to
-  meet at the gate of the city ... a poor man with nothing to wear. The man was begging passers-by to
-  take pity on him, but everyone walked past the wretched man without a glance. Then Martin, that man
-  full of God, saw that this man, shown no pity by the others, had been left to him. But what should
-  he do? He had nothing except the cloak he wore, for he had already given away the rest of his
-  clothes for the same kind of need. So he drew the sword at his side and cut his cloak into two equal
-  halves. He gave one half to the poor man and wrapped himself again in the rest. At this, some of the
-  bystanders laughed, because he now looked unsightly and stood out as only half-dressed. But many
-  with better sense groaned deeply, because they themselves had done nothing like it. They felt this
-  most of all because they had more than Martin. They could have clothed the poor man without
-  stripping themselves bare. The next night, when Martin had given himself up to sleep, he had a
-  vision. He saw Christ dressed in the half of his cloak that he had given the poor man. He gazed at
-  the Lord with the closest attention, and was told to own as his the cloak he had given away. Soon he
-  heard Jesus say in a clear voice to the crowd of angels standing around: "Martin, who is still only
-  a catechumen, clothed me with this cloak." The Lord truly remembered his own words. On earth he had
-  said: "When you did these things to one of the least of these, you did them to me." He declared that
-  he himself had been clothed in that poor man.
+  At one point, he owned nothing but his weapons and his plain soldier's uniform. It was midwinter,
+  and that winter was harsher than usual - the bitter cold was killing people. At the gate of the city
+  of Amiens, he met a poor man who had no clothes at all. The man was begging everyone who passed to
+  take pity on him, but they all walked by without a glance. Martin, that man full of God, realized
+  that since no one else showed the man pity, this one was left for him to help. But what could he
+  do? He had nothing left but the cloak on his back. He had already given the rest of his clothes away
+  for the same kind of need. So he drew the sword at his belt and cut his cloak into two equal halves.
+  He gave one half to the poor man, and put the other half back on himself. Some of the bystanders
+  laughed at this, because he now looked ridiculous, only half dressed. But many with better judgment
+  groaned deeply, because they had done nothing like it themselves. This stung most because they owned
+  more than Martin did - they could have clothed the poor man without leaving themselves bare. The
+  following night, once Martin had fallen asleep, he had a vision. He saw Christ wearing the half of
+  his cloak that he had given the poor man. He studied the Lord closely. He was told to recognize the
+  cloak he had given away as his own. Soon he heard Jesus say, in a clear voice, to the crowd of
+  angels standing around him: "Martin, who is still only a candidate for baptism, clothed me with this
+  robe." The Lord truly remembered his own words. He had said, while on earth, "Whatever you did for
+  one of the least of these, you did for me." And now he declared that he himself had been clothed in
+  that poor man.
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens
@@ -121,3 +121,13 @@ rendered here as normal, properly-paired quotations, the mechanical presentation
 than the words being what is normalized, consistent with this world's existing quote record for the
 same author (gallic.quote.martin-on-the-christ-with-wounds). No word was added, dropped, substituted,
 or reordered.
+
+`modern_rendering` re-authored (post-PR#579 Opus review): the previous rendering carried the same bare
+"..." gap as the old `text` field ("at the gate of the city ... a poor man") and was rejected for it.
+With the `text` field now a complete, continuous verbatim passage, the rendering has been rewritten
+from scratch as continuous natural prose with no ellipsis and no gap of any kind. Every clause of the
+corrected `text` field is rendered; both of Christ's quoted lines appear as direct modern-English
+quotations ("catechumen" rendered as "candidate for baptism" - a plain, non-misleading modern
+equivalent; "robe" kept as Roberts's own word in that one line, not silently harmonized with "cloak"
+elsewhere in the narration). Sentences were kept short (one thought each, none past ~25 words) and
+nothing was added beyond what the verbatim text licenses.

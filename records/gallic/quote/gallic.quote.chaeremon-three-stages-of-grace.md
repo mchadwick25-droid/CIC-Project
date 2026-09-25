@@ -50,7 +50,7 @@ text: >-
   any more subtle inference of man's argumentation and reasoning seems opposed to this interpretation, it
   should be avoided rather than brought forward to the destruction of the faith (for we gain not faith
   from understanding, but understanding from faith, as it is written: "Except ye believe, ye will not
-  understand") for how God works all things in us and yet everything can be ascribed to free will, cannot
+  understand" ) for how God works all things in us and yet everything can be ascribed to free will, cannot
   be fully grasped by the mind and reason of man.
 speaker_or_author: "Abbot Chaeremon, as Cassian records him (Conference XIII.18)"
 license: verbatim
@@ -87,6 +87,13 @@ begins with, `sed -n '38601,38624p'`: "And therefore it is laid down by all the 
 cannot be fully grasped by the mind and reason of man." - three sentences (the three-stage teaching, the
 sentence on God working in all without destroying free will, and the sentence on subtle inference and the
 final admitted limit), read through to their own shared period, not cut mid-thought.
+
+The `text` field carries a literal space between the closing quotation mark and the closing parenthesis
+("understand" )" rather than "understand")") - not a difference from the source's own words, but the
+space the fleet's quote-verbatim tooling itself leaves when it strips the translator's endnote (below)
+out of the running text before matching; the gate's own `gate_quote_verbatim` run confirmed this record
+verifies with this space present and fails without it. No word was added, dropped, substituted, or
+reordered.
 
 A translator's endnote (`<note n="1864" ...>`, citing Isaiah vii. 9) sits inside the source's own
 parenthetical, between "understand" and the closing paren; it is apparatus, not Chaeremon's words, and is

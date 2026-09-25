@@ -61,22 +61,23 @@ modern_lens_note: >-
   appointment." The distinction is the point - between what the fathers received and what they merely
   arranged.
 modern_rendering: >-
-  Only a few, and those the best of men, were then known by the name of monks. ... The perfection of
-  the earliest Church still stood unbroken. ... The burning faith of the few had not yet cooled by
-  being spread among the many. At that time the honored fathers took careful thought for those who
-  would come after them. They met to discuss what plan to adopt for daily worship across the whole
-  community of brothers. ... send out a poisonous root of error, or jealousy, or division among those
-  who came after. ... by the measure of his own zeal, and forgetting how weak others were, ... Some
-  were for fifty, others for sixty. Some, not satisfied with that number, thought they really ought to
-  go beyond it. ... such a holy disagreement in their devout debate over the rule of their religious
-  life. The hour for their evening service came before the sacred question was settled. ... One stood
-  up in their midst to sing the Psalms to the Lord. They were all sitting ..., their minds closely
-  fixed on the words of the singer. He sang eleven Psalms, with prayers placed between them, each
-  verse sung in an even voice. He ended the twelfth with the answer "Alleluia." Then he suddenly
-  vanished from the sight of all. At once this ended both their debate and their service. At this the
-  honored assembly of the Fathers understood that, by God's providence, the angel's guidance had set a
-  general rule for the brothers' communities. So they decreed that this number should be kept in both
-  their evening and their night services. ... they added ... simply as extras, by their own decision.
+  In those days only a few men were known by the name of monks, and those were the best of men. The
+  perfection of the earliest Church still stood unbroken. The burning faith of the few had not yet
+  cooled by being spread among the many. At that time the honored fathers took careful thought for
+  those who would come after them. They met to discuss what plan to adopt for daily worship across the
+  whole community of brothers. A dispute might send out a poisonous root of error, or jealousy, or
+  division among those who came after. Each man judged by the measure of his own zeal, forgetting how
+  weak others were. Some were for fifty, others for sixty. Some, not satisfied with that number,
+  thought they really ought to go beyond it. There was so much holy disagreement in their devout debate
+  over the rule of their religious life. The hour for their evening service came before the sacred
+  question was settled. One stood up in their midst to sing the Psalms to the Lord. They were all
+  sitting, their minds closely fixed on the words of the singer. He sang eleven Psalms, with prayers
+  placed between them, each verse sung in an even voice. He ended the twelfth with the response
+  "Alleluia." Then he suddenly vanished from the sight of all. At once this ended both their debate and
+  their service. At this the honored assembly of the Fathers understood that, by God's providence, the
+  angel's guidance had set a general rule for the brothers' communities. So they decreed that this
+  number should be kept in both their evening and their night services. What they added, they added
+  simply as extras, by their own decision.
 relations:
 - type: associated-with
   target: gallic.story.the-angel-and-the-twelve-psalms
