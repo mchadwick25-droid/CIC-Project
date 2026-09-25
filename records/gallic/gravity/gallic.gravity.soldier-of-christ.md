@@ -97,14 +97,13 @@ description: >-
 
   Sulpitius states his purpose for writing at the outset: to rouse his readers to true knowledge,
   heavenly warfare, and divine virtue (Vita I). Martin himself supplies the founding scene. Before
-  Caesar, asking his discharge, he says he has served as a soldier long enough, and now asks to
-  become a soldier of God instead - he is Christ's soldier, and it is not lawful for him to fight
-  (Vita IV). At his funeral, young soldiers who had just sworn their oath of allegiance to Christ
+  Caesar, asking his discharge, he says he has served Caesar as a soldier until now, and asks
+  leave to become a soldier of God instead - he is Christ's soldier, and it is not lawful for him
+  to fight (Vita IV). At his funeral, young soldiers who had just sworn their oath of allegiance to Christ
   walk in the procession, alongside old men whose service was finished.
 
-  In the Institutes' Book I, chapter 1, right after a brief preface, Cassian's second sentence
-  states the same idiom: a monk, as a soldier of Christ always ready for battle, should keep his
-  loins girded (Inst. I.1). The faults that follow are named as combats in sequence - a first
+  In Book I, chapter 1, after one sentence of introduction, Cassian states the same idiom: a monk,
+  as a soldier of Christ always ready for battle, should keep his loins girded (Inst. I.1). The faults that follow are named as combats in sequence - a first
   struggle, a sixth combat - and the monk worn down by accidie is said to become a runaway from
   Christ's service, and a deserter (Inst. X.3). Job, tested by the devil, is Abbot Chaeremon's
   picture, given in Cassian's Conferences, of God's well-tried athlete (Conf. XIII.14).
@@ -126,7 +125,7 @@ description: >-
   shifts it under pressure.
 manifestations:
 - "Martin's discharge: 'I am the soldier of Christ: it is not lawful for me to fight,' facing the enemy 'protected by the sign of the cross, and not by shield or helmet' (Vita IV)"
-- "The Institutes' first sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"
+- "Book I, ch. 1's second sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"
 - "The faults as combats in sequence - 'our first struggle' (Inst. V.3), 'Our sixth combat' (X.1); the monk of accidie 'a runaway from His service, and a deserter' (X.3)"
 - "'Young soldiers who had just taken the oath of allegiance to Christ' walking in Martin's funeral procession (Ep. III); the soldier-monk of Dial. II.11"
 - "Job 'His well tried athlete, when the devil had challenged him to single combat' (Conf. XIII.14) - the idiom of the grace defense"

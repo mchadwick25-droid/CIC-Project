@@ -62,9 +62,9 @@ description: >-
   says, then novelty should stop attacking antiquity. Vincent reads this as a verdict for his
   side. Antiquity should not give way to novelty, he says.
   Novelty should stop attacking antiquity instead. The volume's modern editor adds real context
-  here. Two of Augustine's allies, Prosper and Hilary, had gone to Rome to complain about the
-  clergy of southern Gaul. Celestine's letter was actually directed at those bishops, for
-  tolerating unsound teaching among their own clergy. Vincent's handling of it has commonly
+  here. Two of Augustine's allies, Prosper and Hilary, had gone to Rome to complain that certain
+  bishops of southern Gaul tolerated their clergy's unsound teaching. Celestine's letter was
+  directed at those bishops. Vincent's handling of it has commonly
   been read as showing sympathy for the very position Rome was writing against. He repeats "if the
   case be so" again and again. To this editor, that reads as an attempt to shift the blame for
   novelty onto his opponents instead.

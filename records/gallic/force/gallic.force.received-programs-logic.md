@@ -74,10 +74,9 @@ description: >-
   Inside daily life, this was not a doctrine argued but a habit of speech taught by the fathers. A
   brother fasted, kept watch, laboured, stayed in his cell, and laid every thought bare to his
   senior. These efforts were commanded, and could not be set aside. But the moment he felt they had
-  accomplished something, he was to say the credit was not his. When Germanus grew troubled over
-  this same question at morning prayer, Chaeremon's answer was that the will is always free,
-  and that God's grace is always present with it. How both can be true at once, he said, is more
-  than reason alone can settle.
+  accomplished something, he was to say the credit was not his. Chaeremon's own answer to Germanus
+  was that the will is always free, and that God's grace is always present with it. How both can be
+  true at once, he said, is more than reason alone can settle.
 
   This teaching is Cassian's own. Within this world's three founding voices, no other voice
   independently holds it. Yet it shapes a great deal wherever it appears. It turned one whole

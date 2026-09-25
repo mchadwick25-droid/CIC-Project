@@ -59,11 +59,13 @@ modern_rendering: >-
   says: "We deserve blame if we encourage error by our silence. So rebuke these people. Restrain
   their freedom to preach." But here someone may be unsure whom he means. Whose freedom to preach as
   they please is he forbidding: the preachers of antiquity, or the inventors of novelty? Let him
-  tell us himself. Let him settle the reader's doubt himself. For he goes on: "If this is the case —
-  and I mean what certain people have complained to me about your cities and provinces. They say
-  that by your harmful pretence you are leading them to agree to certain novelties. If this is the
-  case, let novelty stop attacking antiquity." This, then, was blessed Celestine's ruling: not that
-  antiquity should stop overturning novelty, but that novelty should stop attacking antiquity.
+  tell us himself. Let him settle the reader's doubt himself. For he goes on, opening with the words
+  "If this is the case." Then he explains which case he means: "That is, suppose things are as
+  certain people complain to me about your cities and provinces. They complain that by your harmful
+  pretence you are leading them to agree to certain novelties." Then he repeats the condition: "If
+  this is the case, let novelty stop attacking antiquity." This, then, was blessed Celestine's
+  ruling: not that antiquity should stop overturning novelty, but that novelty should stop attacking
+  antiquity.
 relations:
 - type: associated-with
   target: gallic.force.contest-over-antiquity

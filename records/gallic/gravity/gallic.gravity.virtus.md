@@ -17,10 +17,10 @@ confidence:
     are the texts' own statements; Widely Accepted that Martin's fame rested on it (Gennadius ch.
     XIX). The historicity of the miracles is not what this gravity asserts and is not rated.
     Evidentiary weight set to contested because the gravity's own substance is a competition inside
-    the record - Cassian against Sulpitius, with Eucherius's own Latin (row 26, Inferential/Thin
-    wording) complicating the south from within - and because whether Sulpitius's virtus-organized
-    Vita is modelled on the Vita Antonii (Stancliffe, row 34) is an open question this record does
-    not settle. This gravity organizes the northern literature completely, but
+    the record - Cassian against Sulpitius, with Eucherius's own Latin (Inferential/Thin wording)
+    complicating the south from within - and because whether Sulpitius's virtus-organized Vita is
+    modelled on the Vita Antonii (a question Stancliffe raises; her study is not read for this
+    build) is an open question this record does not settle. This gravity organizes the northern literature completely, but
     rests on one voice - Sulpitius's own - which is why it is held at Tensional rather than
     Primary, whatever its reach within the north.
 sources:
@@ -163,7 +163,7 @@ manifestations:
 - "Power lessened by office - less as bishop than as monk (Dial. II.4) - and by a coerced communion with the Ithacian bishops (Dial. III.13)"
 - "Ep. I's whole defense of the virtus against a skeptic; Brictio's 'ridiculous fancies about visions' policed from within (Dial. III.15)"
 - "Cassian's refusal: 'no instruction in the perfect life' (Inst. Pref.); 'never reckoned those as good monks ... who professed themselves exorcists'; 'Humility therefore is the mistress of all virtues' (Conf. XV.7)"
-- "Eucherius admiring the Egyptian fathers' grace 'in crying signs' (De Laude Eremi §27, row 26) - the south not of one mind; Honoratus's serpents counted inter miracula ac merita (row 27)"
+- "Eucherius admiring the Egyptian fathers' grace 'in crying signs' (De Laude Eremi §27) - the south not of one mind; Honoratus's serpents counted inter miracula ac merita"
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus, John
 Cassian) and cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius). This description

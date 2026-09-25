@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Cassian's own text (Institutes I.1, read at its locus for this record) - the
-    second sentence of Book I, chapter 1, right after its own brief preface, setting the soldier
+    second sentence of Book I, chapter 1, after one introductory sentence, setting the soldier
     idiom as the frame for everything that follows about dress and discipline.
 sources:
 - source_id: gallic.source.cassian-institutes
@@ -53,8 +53,8 @@ ending at its own period; it is the second sentence of Book I, chapter 1, immedi
 one sentence of Cassian's own introductory framing ("As we are going to speak of the customs and
 rules of the monasteries, how by God's grace can we better begin than with the actual dress of the
 monks..."). Book I, ch. 1 itself comes after the Institutes' own separate Preface (carried in
-gallic.quote.castor-anxious-for-egyptian-institutions and gallic.quote.cassian-adapts-egypt-to-gaul,
-from an earlier batch), so this is not the work's own opening sentence.
+gallic.quote.castor-anxious-for-egyptian-institutions and gallic.quote.cassian-adapts-egypt-to-gaul),
+so this is not the work's own opening sentence.
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.
