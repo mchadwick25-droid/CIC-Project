@@ -48,6 +48,8 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
+- type: associated-with
+  target: gallic.force.army-and-rank-before
 modern_rendering: >-
   No doubt the shepherd was then driving his own flocks before him. They were the pale crowds of
   that holy multitude, bands dressed in cloaks. Some were old men whose life's labor was done.

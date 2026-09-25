@@ -83,34 +83,34 @@ text: >-
   This is how the tradition of Lerins remembers its founder - as far as these lines can be read, as
   the disciple who succeeded him at Arles and preached his life at his death told it.
 
-  Hilary says Honoratus had left his homeland out of longing for the desert. Christ called him to a
-  desert near this city - in eremum huic urbi propinquam. It was an island that stood empty because
-  of its own filth, too dangerous to approach for fear of poisonous creatures, lying not far below
-  the Alpine ridge. Besides the chance of solitude, he was drawn there by his closeness to the bishop
-  Leontius, a man Hilary calls holy and deeply blessed in Christ. Many people tried to hold him back.
-  His neighbours warned him of that desolate place, each one urging him harder than the last to stay.
+  Honoratus, Hilary says, had been drawn from his homeland by desire for the desert, and Christ
+  invited him into a desert near this city - in eremum huic urbi propinquam - an island that stood
+  empty because of the excess of its squalor and was unapproachable for fear of venomous creatures,
+  lying not far under the Alpine ridge. Besides the opportunity of seclusion, he was drawn there by
+  the nearness and love of the bishop Leontius, a holy and most blessed man in Christ - though many,
+  in a new boldness, tried to hold him back, the neighbours telling him of that terrible desolation,
+  competing in the ambition of faith to keep him within their own borders. But he, impatient of
+  human society and longing to be cut off from the world even by the barrier of the sea, carried in
+  heart and mouth, now to himself, now to his own, the psalm Thou shalt walk upon the asp and the
+  basilisk, and trample the lion and the dragon, and the Lord's promise, Behold, I have given you
+  power to tread upon serpents and scorpions. So he goes in unafraid, Hilary says, and scatters the
+  fear of his own by his own security. The horror of the solitude flees; the crowd of serpents gives
+  way. Hilary counts it among his master's miracles and merits - inter miracula ac merita - that the
+  serpents, so often met in those parts, as we have seen, stirred up especially by the sea's heat,
+  were never a danger to anyone, nor even a fear.
 
-  But Honoratus, Hilary says, could no longer bear human company. He longed to be cut off from the
-  world, even by the sea itself. He carried with him, in heart and on his lips, the psalm that
-  promises the faithful will walk on the asp and the basilisk. It promises they will trample the
-  lion and the dragon too. He carried too the Lord's own promise of power over serpents and
-  scorpions. So he went in unafraid, Hilary says. His own calm scattered his companions' fear. The
-  horror of the place lifted; the swarms of serpents gave way before him. Hilary counts it among his
-  master's wonders and deeds - inter miracula ac merita - that the serpents common in those parts,
-  stirred up by the sea's own heat, never once threatened or even scared anyone.
+  The sermon goes on to ask why it should delay longer. With Christ, so to speak, co-operating,
+  every adversity that had deterred men before was overcome, and your Honoratus pitched a certain
+  camp of God there; the place that had long driven men from dwelling in it is lit up by angelic
+  offices. The hiding-place is illuminated while the light is hidden.
 
-  The sermon presses on. With Christ's help, Hilary says, every hardship that had once kept men away
-  was overcome. Honoratus pitched what Hilary calls a camp of God on the island. The place that had
-  long driven people off now shone, he says, with the works of angels. Its own hiding place lit up
-  while the light itself stayed hidden.
-
-  Then comes the sentence by which the tradition of Lerins remembers him: Hic primum illigatur diu
-  evitati clericatus officio; hic refugam suum sacerdotalis infula innectit; et qui ire ad dignitatem
-  detrectaverat, ad ipsum dignitas venit. Here, Hilary says, Honoratus was first bound to the
-  clerical office he had long avoided. Here the priestly fillet caught its own fugitive. The man who
-  had refused to seek the honour found the honour coming to him instead. Hilary says he proved
-  himself a presbyter worthy of far more than double honour, and that he kept a monk's humility as
-  whole in the priesthood as he had, while still a monk, fully earned the priesthood's own merits.
+  And then the sentence the tradition of Lerins is remembered by: here he was first bound to the
+  long-avoided office of the clergy; here the priestly fillet fastens on its fugitive; and he who
+  had refused to go to the dignity - the dignity came to him. Hic primum illigatur diu evitati
+  clericatus officio; hic refugam suum sacerdotalis infula innectit; et qui ire ad dignitatem
+  detrectaverat, ad ipsum dignitas venit. He appeared there a presbyter worthy of honour not twofold
+  only but manifold - and he kept a monk's humility as entire in the priesthood as, when a monk, he
+  had fully possessed the merits of the priesthood.
 absent_detail: >-
   What a participant might reasonably expect here, and cannot have, is a story from inside Lerins - a
   day, a rule kept, a novice received, an elder's saying, a monk's prayer on the island. This is the
