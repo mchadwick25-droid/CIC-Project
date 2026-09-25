@@ -3949,3 +3949,262 @@ build proposal is the blended average across both call shapes, not a
 true marginal-cost number. A follow-up run, before this ships, should
 log usage per call kind so the real added cost of the revision call
 specifically is known, not inferred.
+
+
+**Entry 76 — 2026-09-25.** R27 (`find_uncited_claims` enforcement,
+`CIC_R27_ENFORCE`/`r27_enforce`, off by default) live measurement,
+managing thread's own ask, following the fabrication finding on #558's
+run and its control-run reproduction (branch
+`r42-citation-contract-inference-sentence`, commit `2ffc8942`, both
+still unmerged as of this entry - **numbered as the next available
+entry on `main`; may renumber on merge order against #558's own pending
+Entry 76, the same "#395's own Entries 37-38 renumber to 38-39"
+precedent already set in this file**). **Mark's ruling verbatim
+(2026-09-25, Decision 3, option A): "A, yes to the $3 ceiling."** The
+goal: measure whether `find_uncited_claims`'s existing, already-built,
+report-only-by-default enforcement mode stops the class of voice
+fabrication the two prior runs found, before switching it on by
+default anywhere.
+
+**Same method as Entry 61/#558/the control run** (11 admitted formation
+worlds x 2 fresh probes = 22 live calls, `CONFLICT_TURN`/
+`_other_tradition_turn`, current `origin/main`, worlds compiled fresh
+from `records/` via `_compile_world` - the same discipline as every
+prior run in this line, sidestepping this environment's own possibly-
+stale `packages/`), but with `r27_enforce=True` turned on for this run
+only (the real production enforcement path
+`engine/m4/live_uncited_claims_battery.py`'s own `--enforce`/
+`run_enforced` mode already exercises - `engine.m4.turn.run_gate` and
+`_run_ordinary_voice_turn` called directly, real routing, real
+regenerate-once-then-blank enforcement), interview half only (no table
+session, to stay comparable to the 22-probe method the other entries in
+this line used). No code and no default changed anywhere - `r27_enforce`
+was passed as a script-local keyword argument, the same shape
+`run_enforced` already uses; `CIC_R27_ENFORCE`'s own env-var default in
+`engine/api/config.py` was not touched. Script (ad hoc, not committed -
+this PR carries only the Decision-Log entry and the run's own JSON
+artifact, per the managing thread's own "no code or default changes"
+instruction) mirrored `run_enforced`'s interview loop but additionally
+threaded `_run_ordinary_voice_turn`'s existing `debug_capture` parameter
+through, so both the pre-enforcement draft and the post-enforcement
+final text were kept per probe - a before/after hand-read was not
+possible from `run_enforced`'s own persisted fields alone (`regenerated`/
+`facilitator_takeover` booleans only), and this measurement's whole
+point is what enforcement actually removed, not just whether it fired.
+**Real cost: $1.6049, 22 probes, region us-east-1, well under the
+$3.00 ceiling** (comparable order of magnitude to Entry 61's $1.6527,
+#558's $1.9714, and the control run's $1.9801 for the same 22-probe,
+non-enforced method - enforcement's own extra regeneration calls did
+not blow up cost). Full report: `engine/m4/reports/
+r27-live-measure-enforced-2026-09-25.json`.
+
+**(a) Does R27 catch the known fabrication types if they recur?** One
+of them recurred, in fresh live generation, essentially unchanged:
+rzg's `A-conflict` probe produced *"Felix Manz was drowned in the
+Limmat River in January 1527"* - the same invented drowning/river/date
+detail #558's own run found (*"Felix Manz was drowned in the Limmat
+that same year"* / *"...in 1527, execution"*), now compressed into one
+sentence. Verified the identical way #558's run verified it: direct
+search of rzg's own compiled repository (108 records) for `Manz`,
+`Limmat`, `drown`, `drowned` - only `Manz` appears, five times, always
+as a name inside the founding Anabaptist-schism narrative
+(`rzg.witness.triple-refusal`, `rzg.witness.why-the-children-too`,
+`rzg.witness.defending-the-anabaptist-suppression`,
+`rzg.force.anabaptist-schism`,
+`rzg.contested.anabaptist-schism-legitimacy`) - never with a drowning,
+a river, or a specific 1527 date attached. Real Reformation history,
+absent from this world's own compiled ground. **R27, with enforcement
+on, did not catch it.** The reason is structural, not a fluke of this
+run: the sentence sits inside a paragraph with five other, genuinely
+tagged sentences (`rzg.witness.triple-refusal`,
+`rzg.witness.defending-the-anabaptist-suppression` both appear
+elsewhere in the same paragraph) - it is a plain per-sentence
+`uncited_claim`, never a `wholly_uncited_paragraph`, and it names no
+other tradition, so it is never `neighbour_named` either. Both are the
+*only* two classes `r27_enforce` was ever built to act on
+(`engine/m4/turn.py`'s own docstring: *"a wholly_uncited_paragraph
+offense or a neighbour_named offense... inherited_ungrounded stays
+report-only"*) - a bare uncited claim riding inside an otherwise-cited
+paragraph is a third, narrower class this mechanism was never built to
+touch at all, live-confirmed exactly where it matters: the one
+fabrication that recurred. No new fabrication type (beyond a
+recurrence of this same one) was found among the 22 probes' own raw
+offenses in the time available for this measurement - see the offline
+audit below for the population this run did not itself re-examine.
+
+**(b) False drops - hand-read against each world's own compiled
+repository, same depth as the Athanasius/Eustathius/Manz/Alexandria
+checks.** 8 of 22 probes (36%) regenerated; 5 of 22 (23%) exhausted -
+`enforcement_exhausted=True`, `voice_event["text"] == ""`, the
+Facilitator substitutes for the world's own voice entirely. **Every
+one of the 8 regenerations checked against its own world's compiled
+repository turned out to be a false trigger on genuinely supported or
+honest-limit content - zero confirmed genuine catches among this run's
+own 8 enforcement actions:**
+
+- `cappadocian` B-other-tradition (exhausted): *"That is Alexandria's
+  own school reaching us, one teacher back, through a student who
+  brought what he learned to our country and founded what became
+  ours"* - confirmed grounded in `cappadocian.figure.gregory-thaumaturgus`
+  (*"a third-century missionary bishop of Pontus, trained by
+  Origen"*), Alexandria's own school. The paragraph's closing
+  honest-limit sentence, *"After that, silence,"* was independently
+  flagged `wholly_uncited_paragraph` - the same SCAFFOLD_MARKERS
+  coverage gap Entry 61 already named on syr's *"Beyond that, the
+  record runs thin"* - stacking with the untagged-but-true neighbour
+  mention to exhaust the whole turn.
+- `hal` A-conflict (exhausted): *"His name was Origen - an Alexandrian
+  master, long dead, whose commentaries on scripture both Jerome and
+  his friend Rufinus had translated and praised"* - confirmed grounded
+  almost verbatim in `hal.story.rufinus-rupture` (*"close enough to
+  share the same admiration for the great Alexandrian master, Origen,
+  whose commentaries both men translated"*). This is `hal`'s own
+  central, on-topic narrative - killed entirely by an untagged mention
+  of "Alexandrian" on an ordinary in-scope conflict probe, not even an
+  `other_tradition`-routed turn.
+- `ijc` B-other-tradition (exhausted): *"What we do have are Athanasius
+  and Cyril - both bishops of Alexandria - reaching us through their
+  own parts in our authority contests"* - confirmed grounded in
+  `ijc.story.letter-that-outranked-a-council` (Julius of Rome's letter
+  defending Athanasius, this world's own earliest surviving Roman
+  primacy claim), cited twice elsewhere in the same answer.
+- `pahc` A-conflict (exhausted): *"Both were live, both were argued
+  for, and neither won before our time ended. That was our real,
+  unresolved fight"* - confirmed grounded almost verbatim in
+  `pahc.witness.what-we-never-settled` (*"One region pressed toward a
+  single bishop; another held a council of elders with nothing felt
+  missing. Both persisted, unresolved... the question was only settled
+  after we had already closed"*) - no neighbour named here at all; a
+  plain `wholly_uncited_paragraph` false catch on a sentence this
+  world's own record states almost word for word.
+- `pahc` B-other-tradition (exhausted): *"roughly around 200 - are the
+  same years when Alexandria's own Christian teaching first becomes
+  visible"* and *"Alexandria is not among them"* - confirmed grounded
+  in `pahc.force.alexandria-emergence` (dates Alexandria's own tradition
+  to c. 190-254, overlapping only at pahc's closing edge) and
+  `pahc.contested.rivals-undefeated` (the neighbours pahc actually
+  argued with), both cited elsewhere in the same answer. This is
+  exactly the honest, well-grounded answer a `B-other-tradition` probe
+  is meant to produce - wiped to nothing.
+- `witt` A-conflict (regenerated, not exhausted - survived to a
+  rewritten final answer): *"It is a fight inside one claim, unresolved,
+  that our own confession itself left standing without ranking either
+  voice above the other"* - confirmed a direct paraphrase of
+  `witt.contested.justification-accounted-and-made`'s own `claim` field
+  (*"not an independent claim standing beside the first... What cannot
+  be settled from this record is which wording, if either, is
+  fundamental"*).
+- `don` B-other-tradition (regenerated, not exhausted): *"So if
+  Alexandria held a bishop in our own years... we would have cared
+  about that. But no record of ours says we ever asked the
+  question"* - honest-limit hypothetical reasoning, not a claim about
+  Alexandria at all, caught by `neighbour_named` on the bare mention.
+- `cappadocian` A-conflict (regenerated, not exhausted): the opening
+  two sentences of a `wholly_uncited_paragraph` (*"It was not a fight
+  between us and obvious enemies outside. It was a rupture inside the
+  household..."*) read as rhetorical/interpretive framing of a
+  narrative the same paragraph substantiates immediately after with
+  real citations - the same "detector over-flags real declarative
+  prose relative to what it's actually for" gap Entry 61 already
+  measured (26/40 interpretive-or-connective there).
+
+**8 for 8 false triggers, 0 for 1 on the one real fabrication that
+recurred**, in this sample.
+
+**(c) Participant effect.** Every exhausted turn is replaced, verbatim,
+by `engine.m4.facilitator_turns.voice_rejected_turn`'s own fixed text:
+*"This is the Facilitator, stepping in for a moment - {name}'s last
+answer didn't hold together the way it should have, so I'm setting it
+aside rather than passing it on to you. Ask again, or ask something
+else - I'm still here."* Given that every one of the 5 exhausted
+answers checked above was in fact accurate or honest-limit, this
+message does not merely withhold an answer - it tells the participant
+something false about the world's own voice, in the world's stead,
+5 of 22 times (23%) in this sample. The 3 regenerated-but-surviving
+turns did not go blank and did not read as obviously stilted or cut
+short on inspection (`witt` A's revised answer covers the same
+material, reorganized; `cappadocian` A's keeps its full narrative,
+citations intact) - the cost there is a wasted regeneration call and an
+unnecessarily rewritten answer, not a lost one.
+
+**(d) Latency and cost overhead.** Cost: $1.6049/22 probes, same order
+of magnitude as the non-enforced runs in this line (above) - the extra
+regeneration call on 8/22 (36%) probes did not meaningfully change
+total spend. Latency was not separately instrumented per call in this
+measurement (a named, honest gap, the same discipline Entry 61 already
+used rather than glossing it over) - the structural implication:
+every regenerating turn (36% here) pays for one full additional
+voice-generation call before anything reaches the participant, roughly
+doubling that turn's own generation latency, and every exhausted turn
+(23% here) additionally needs a Facilitator turn built before the
+participant sees anything at all.
+
+**Offline audit (no live spend): the 39 control-run sample sentences
+not carried to the Athanasius check's own depth.** The control run's
+own 150 raw offenses were not persisted as a separately-saved 40-
+sentence sample list (only the aggregate `all_offenses` JSON survives,
+`engine/m4/reports/g1-precision-sample-measure-control-2026-09-25.json`
+on branch `r42-citation-contract-inference-sentence`) - this audit
+reconstructs a 40-sentence stratified sample from that same population
+using the same proportional-per-world method Entry 61/#558 describe (2
+proportional to each world's own share of the 150, capped at 5,
+minimum 2), deliberately including the already-confirmed Athanasius
+sentence, an honest methodology note about the reconstruction stated
+plainly rather than glossed over. Verified each of the other 39 by
+direct search against that world's own compiled repository and
+`cic/texts/`, to the same depth as the Athanasius/Manz checks above:
+
+**1 unsupported/fabrication (the already-confirmed Athanasius sentence),
+29 supported but untagged, 10 interpretive/connective.** No second
+fabrication found in this 39. The Athanasius claim stands as an outlier
+in this sample, not a typical case - the other 39 are overwhelmingly
+real, specific content (often near-verbatim) traceable to a named
+record that simply carries no inline tag: alx's *"For years they held
+together... Demetrius governed the church... The break came over
+authority"* is verbatim `alx.story.origen-demetrius`; syr's claim that
+Bardaisan held free will against fate is near-verbatim
+`syr.dw.god`; ijc's *"documented by a pagan historian who saw the
+cost"* checks against the actual vendored primary source
+(`cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt`, Res
+Gestae XXVII.3.12-13: 137 dead at the Basilica of Sicininus) as well as
+`ijc.quote.ammianus-sicininus-massacre`; witt's Augsburg Confession
+claims check against the vendored primary text itself
+(`cic/texts/melanchthon_augsburg-confession_anon-pg275.txt`, Article
+XX). Two borderline judgment calls, neither a fabrication: ijc's
+*"Damasus's faction did the killing"* states the standard historical
+reading of Ammianus's account a shade more causally than the primary
+text's own wording; witt's *"states both in a single paragraph"*
+compresses two real Article XX clauses that are Documented but
+~60 lines apart, not literally one paragraph. **This 40-sentence
+sample does not itself establish the fabrication rate across the
+control run's full 150 raw offenses** - it confirms the citation-
+contract failure in this control run is overwhelmingly "real content,
+missing tag," with the Athanasius sentence a genuine, singular
+fabrication inside that population, not proof the population holds
+only one.
+
+**Recommendation for the managing thread.** Do not switch R27
+(`CIC_R27_ENFORCE`/`r27_enforce`) on by default in its current
+paragraph/`neighbour_named`-only form. This measurement's own live
+result is as clean a negative as this project has produced on an
+enforcement candidate: the one confirmed fabrication that recurred
+went uncaught by construction (it is a bare per-sentence uncited claim
+inside an otherwise-cited paragraph - the exact class this mechanism
+was never built to touch), while every single enforcement action this
+run actually took (8 of 8) fired on content independently confirmed
+supported or honest-limit, 5 of them (23% of all 22 probes) driving the
+participant's turn to a blank, Facilitator-substituted answer that
+actively misstates what the world's own voice did. Turning this on
+today would trade a measured 0% catch rate on the fabrication class it
+was proposed to stop for a measured 100% false-positive rate on the
+enforcement it actually performs, at real participant-facing cost. Any
+future enforcement candidate for this fabrication class needs to act at
+the individual uncited-claim level inside an otherwise-grounded
+paragraph, not the paragraph/neighbour-name level `r27_enforce`
+currently checks - closer in shape to option (iii) from Entry 61's own
+menu (rebuild the detector around a real support check, "unsupported"
+only, re-measured live before any enforcement) than to flipping this
+existing mechanism's default. The fabrication finding itself
+(`engine.m4.named_claim_grounding`/OG-16 cannot catch it either, by
+construction - the control run's own entry already established this)
+remains open and unresolved by anything measured here.
