@@ -44,25 +44,41 @@ name: Transmission - the Caecilianist party's own institutional victory determin
 kind: ending
 matrix_cell: 3B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 3B, Force 3B-2, the transmission dimension required in this cell):
-  the Caecilianist party's eventual institutional victory determined what got copied. Donatist literature
-  survives almost entirely as quotation embedded inside its own refutations (Optatus, Augustine), with a small
-  independently-surviving remainder - Tyconius's Liber Regularum, the Passio Marculi, the Passio Isaac et
-  Maximiani, the commemorative sermon - and a material and epigraphic record (the Deo laudes acclamation)
-  that survived largely because it was never textual to begin with. Documented. LAYER 2 - THE WORLD'S OWN
-  EXPERIENCE: NOT RECOVERABLE FROM SURVIVING SOURCES. This world's participants left no account of what they
-  understood themselves to be preserving as their own institutional position weakened, or of what they expected
-  would or would not survive them. Reported-Experience Status applied. LAYER 3 - FORMATION IMPACT: this is
-  the single most consequential force shaping what this entire construction can and cannot know. The martyr-cult
-  gravity's own textual survival IS substantially this world's surviving voice - precisely because the martyr
-  texts and the epigraphy sit partly or wholly outside the manuscript channel this force otherwise controls.
-  WHAT THE TRANSMISSION PATTERN REVEALS (Doc_08 SS6): communities and institutions preserve what serves their
-  own case or their own memory. The Caecilianist channel preserved ARGUMENT, because argument is what a victorious,
-  eventually-established institution needs to justify its own victory to later readers. This world's own martyr-cult
-  channel, where it survives independently at all, preserved COMMEMORATION, because commemoration rather than
-  argument is what a community under continuing legal jeopardy needed most to sustain its identity. The stone
-  carrying Deo laudes needed no institution's ongoing interest at all; it simply outlasted every institution
-  that might have destroyed it.
+  The Caecilianist party eventually won the struggle for control of the church. That victory
+  decided what got copied.
+
+  Donatist writing survives almost entirely as quotation, embedded inside the works written to
+  refute it, those of Optatus and Augustine.
+
+  A small remainder survives on its own. It includes Tyconius's Liber Regularum, the Passio
+  Marculi, the Passio Isaac et Maximiani, and the commemorative sermon.
+
+  There is also a material record carved in stone, such as the Deo laudes acclamation. It survived
+  largely because it was never a written text to begin with. All of this is documented.
+
+  How this world's own people experienced this cannot be recovered from the surviving sources.
+  They left no account of what they believed they were preserving as their church's position
+  weakened. Nor did they say what they expected would, or would not, outlast them. This is a
+  stated absence in the evidence, not a gap filled by guesswork.
+
+  This is the single most important force shaping what this whole account can and cannot know. The
+  surviving texts of the martyr cult are, to a large degree, this world's surviving voice.
+
+  That is precisely because the martyr texts and the inscriptions sit partly or wholly outside the
+  manuscript copying that this force otherwise controlled.
+
+  The pattern of what survived shows something broader. Communities and institutions preserve what
+  serves their own case or their own memory.
+
+  The Caecilianist channel preserved argument. A victorious church, eventually established, needs
+  argument to justify its victory to later readers.
+
+  This world's own martyr cult, where it survives independently at all, preserved commemoration. A
+  community under continuing legal threat needed commemoration more than argument to hold on to
+  its identity.
+
+  The stone carrying Deo laudes needed no institution to keep caring about it. It simply outlasted
+  every institution that might have destroyed it.
 manifestations:
 - the victorious party's institutional dominance determining what got copied at all
 - Donatist literature surviving almost entirely as quotation inside its own refutations

@@ -39,20 +39,33 @@ name: The Vandal invasion (429) and capture of Carthage (439) [3A - ending/exter
 kind: ending
 matrix_cell: 3A
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 3A, Force 3A-2): the Vandal invasion of Roman North Africa, begun
-  in 429, culminated in the capture of Carthage in 439 - in Doc_01's own stated terms, 'the removal of the
-  Roman-imperial, Catholic-aligned adjudicating power this world's entire refusal-of-imperial-legitimacy pattern
-  is defined against'. Documented. LAYER 2 - THE WORLD'S OWN EXPERIENCE: NOT RECOVERABLE FROM SURVIVING SOURCES.
-  This world's record does not preserve its own participants' interpretation of this ending; the community's
-  own account of what the Vandal conquest meant cannot be recovered from what survives. Reported-Experience
-  Status applied. LAYER 3 - FORMATION IMPACT: this force, together with the 411 verdict and its penal legislation,
-  is what Doc_04 SS3.7 names the most direct forces-connection of any gravity in that document - JOINTLY,
-  the two remove the specific power the refusal gravity is defined in refusal of, and their combined effect
-  is what closes this construction window. On Doc_01's own narrower language, this specific force is where
-  that combined effect completes. It does NOT end the underlying two-party contest, which the record shows
-  continuing under different political conditions well past 439, into Gregory the Great's 590s correspondence
-  - a fact Doc_08 does not treat as resolved by this force, only as marking where the construction window
-  itself ends.
+  The Vandals invaded Roman North Africa in 429. Their campaign culminated in the capture of
+  Carthage in 439. This is documented.
+
+  The capture removed the Roman imperial power that had judged between the two parties and sided
+  with the Catholics. This world's whole pattern of refusing imperial legitimacy was defined
+  against that power.
+
+  What this ending meant to this world's own people cannot be recovered from the sources that
+  survive. Its record does not preserve their interpretation of it. The community's own account of
+  what the Vandal conquest meant cannot be recovered from what survives.
+
+  So this is recorded as an absence. It carries no confidence rating, because no guess is offered
+  in its place.
+
+  This force works together with the verdict of the 411 Conference and the penal laws that
+  followed. This world's own analysis singles out that pairing as the strongest link between any
+  of its defining commitments and the forces that shaped it.
+
+  That judgment belongs to the two forces jointly, not to either alone. Together they remove the
+  very power that this world's refusal of imperial legitimacy was defined against. Their combined
+  effect is what closes this world's window.
+
+  On a narrower reading, this particular force is where that combined effect completes.
+
+  It does not end the underlying contest between the two parties. The record shows that contest
+  going on under new political conditions well past 439, into Gregory the Great's letters of the
+  590s. This force does not settle it. It only marks where this world's window ends.
 manifestations:
 - the Vandal invasion of Roman North Africa begun in 429 and the capture of Carthage in 439
 - the removal of the Roman imperial state as the Catholic-aligned adjudicating and coercing power

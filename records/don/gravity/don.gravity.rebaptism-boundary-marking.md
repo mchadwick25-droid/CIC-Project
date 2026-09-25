@@ -54,33 +54,57 @@ relations:
 - type: associated-with
   target: don.contested.maximianist-reception
 name: Rebaptism as Boundary-Marking Practice [PRIMARY]
-description: 'Doc_04 SS3.2: PRIMARY, 6/6 tests PASS (strong). Repetition: Doc_02 SS1 (On Baptism, Answer
-  to the Letters of Petilian, both substantially devoted to this practice); Doc_01 SS1/SS3 ("rebaptism
-  as the rite that marks who truly belongs"). Dependency: membership status depends on it; the Council
-  of Carthage 419 canons on receiving Donatist clergy (Registry row 13) depend on it; the Maximianist
-  reception-without-rebaptism precedent (T2) depends on rebaptism being the operative norm it departs
-  from. Formation: the literal liturgical act of entry and re-entry, the most concretely enacted, individually
-  experienced marker of belonging this world''s record documents. Explanatory: explains why the movement
-  drew sustained imperial legal attention (rebaptizing Catholics was itself a targeted legal offense)
-  and the specific content of the 411 Conference''s own concerns. Persistence: attested from origin through
-  the 411 Conference; Doc_01 SS2 additionally names Gregory the Great''s 590s correspondence bearing on
-  Donatist rebaptism specifically in Numidia -- now partially vendored (Registry row 54)
-  and directly confirming rebaptism as a live Donatist practice in Numidia through 592, though this document
-  does not extend that into a claim about the practice''s own scale or character at that date beyond the
-  letters'' own words. Interaction: reinforces G1 (its doctrinal ground); reshaped by T2; the specific
-  target of G5''s own imperial legislative attention. CONFIDENCE/GRAVITY CROSS-CHECK -- consistent, no
-  significant divergence: the bare fact of the practice is Documented, attested directly and repeatedly
-  in Augustine''s own primary text and corroborated by Petilian''s own quoted argument. CROSS-VOICE TEST
-  (Doc_04 SS5): passes -- the practice is argued FOR in Petilian''s own quoted words (Registry row 12),
-  not merely characterized by hostile opponents; corroboration from within the hostile text''s own quotation
-  of a Donatist voice, the same qualification as G1. INTERACTION MATRIX (Doc_04 SS6): R with G4 (the hierarchy
-  administers and enforces rebaptism at institutional scale) and G5 (rebaptism of Catholics is the specific
-  practice successive imperial edicts name and target); X (reshaping) with T2 (directly tested and complicated
-  by the Maximianist reception precedent, as with G1). FORCES-CONNECTION (Doc_04 SS3.2, Doc_08 SS5): grounded
-  by 1B-1 (the same Cyprianic doctrinal ground G1 shares, not 1B-2, which grounds G4''s own institutional
-  form rather than G2''s own enacted rite directly); sustained ongoing by 2B-1 (G2''s own enacted, ongoing
-  form); interacts directly with 2A-1 (oscillating imperial policy, the direct target of successive edicts
-  naming rebaptism specifically).'
+description: >-
+  Rebaptism is a central, defining pattern of this world. It passes all six tests of a lasting
+  pattern, and passes them strongly.
+
+  The record returns to it again and again. Two works, On Baptism and Answer to the Letters of
+  Petilian, are both largely devoted to this practice. The record names rebaptism as "the rite
+  that marks who truly belongs."
+
+  Much depends on it. A person's membership depends on it. So do the canons of the Council of
+  Carthage in 419 on receiving Donatist clergy. So does the Maximianist precedent, when clergy
+  were received back without rebaptism. That precedent matters only because rebaptism was the
+  normal rule it departed from.
+
+  It forms people directly. It is the literal act of worship by which a person enters, or re-
+  enters. Of all the marks of belonging this world's record documents, it is the most concretely
+  enacted and the most personally felt.
+
+  It explains a great deal. It explains why the movement drew sustained attention from imperial
+  law, since rebaptizing Catholics was itself a targeted offense. It also explains the specific
+  concerns of the 411 Conference.
+
+  It lasted. It is attested from the movement's origin through the 411 Conference. Gregory the
+  Great's letters from the 590s also bear on Donatist rebaptism, specifically in Numidia. Some of
+  those letters are now in the collection.
+
+  Those letters directly confirm rebaptism as a live Donatist practice in Numidia through 592. But
+  we do not stretch them into claims about how widespread or what kind the practice was then. We
+  go no further than the letters' own words.
+
+  It works closely with the patterns around it. It reinforces the purity doctrine, which is its
+  doctrinal ground. The Maximianist reception reshapes it. And it was the specific target of the
+  imperial laws bound up with the movement's refusal of imperial legitimacy.
+
+  Our confidence matches the weight this pattern carries, with no significant gap. The bare fact
+  of the practice sits at this world's top evidentiary tier. Augustine's own writing attests it directly and repeatedly.
+  Petilian's own quoted argument supports it.
+
+  The Donatist voice itself survives on this point. Petilian argues for the practice in his own
+  quoted words. It is not only described by hostile opponents. But his words reach us quoted
+  inside the hostile text. The purity doctrine carries the same limit.
+
+  It reinforces the parallel hierarchy, which carries out and enforces rebaptism across a whole
+  institution. It also has a reinforcing link with the refusal of imperial legitimacy. Rebaptizing
+  Catholics is the specific practice that successive imperial edicts name and target. And the
+  Maximianist reception directly tests and complicates it, as it does the purity doctrine.
+
+  Its roots lie in Cyprian of Carthage's rebaptism theology, the same doctrinal ground the purity
+  doctrine shares. The accusation against Felix of Aptungi is not its root. That accusation
+  grounds the rival church's institutional form, not the rite itself. The continuing practice of
+  purity and rebaptism is this rite's own lived, ongoing form. And it meets shifting imperial
+  policy head-on, since successive edicts name rebaptism specifically.
 manifestations:
 - Augustine, On Baptism, Against the Donatists -- seven books devoted substantially to this one practice
 - Petilian of Constantina's own quoted rebaptism-theology argument (Registry row 12)

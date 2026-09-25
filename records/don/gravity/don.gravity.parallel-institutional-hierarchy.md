@@ -51,40 +51,65 @@ relations:
 - type: associated-with
   target: don.contested.bishop-count-411-conference
 name: Parallel Institutional Hierarchy [SUPPORTING -- integrating/institutional center]
-description: 'Doc_04 SS3.4: SUPPORTING (integrating/institutional center), 6/6 tests PASS -- **the Dependency
-  test is specifically what reveals Supporting rather than Primary status, not the Formation test** (verified
-  directly against Doc_04 SS3.4''s own text this session). Repetition: Doc_01 SS2 ("two rival bishoprics from the
-  outset... the contest replicated town-for-town"); SS3 ("the parallel episcopal hierarchy are this world''s
-  most recurring formative material"). DEPENDENCY -- PASS (strong), BUT REVEALS SUPPORTING STATUS: the
-  Maximianist internal fracture is only possible because a complex hierarchy with its own councils and
-  disciplinary machinery already exists; the specific shape of the 411 Conference (279 against 286 bishops
-  seated) and the property/basilica disputes depend on there being two complete, rival institutional claimants
-  -- BUT, removed from G1/G2/G3, the hierarchy has no independent formative content of its own: it is
-  the structure WITHIN WHICH purity, rebaptism, and martyr-commemoration operate, not itself a distinct
-  thing participants experience formation THROUGH the way they experience rebaptism or martyr-liturgy.
-  Formation -- PASS (moderate): shapes which bishop one answers to and which basilica one attends, but
-  does not itself generate a distinct formative practice-cluster beyond what G1/G2/G3 already supply --
-  this is Doc_04''s own separate, weaker-graded Formation finding, distinct from the Dependency finding
-  that actually grounds the Supporting classification. Explanatory: explains the precise mechanics of
-  the Maximianist affair and the exact bishop-count precision of the 411 Conference''s own record. Persistence:
-  "town for town," sustained 311/312 through 439 and beyond (institutional attrition, not extinction).
-  Interaction: the institutional condition that makes G1/G2''s enforcement and G3''s liturgical commemoration
-  operate at the scale of a complete rival church; the Maximianist fracture (T2) emerges from within it.
-  CONFIDENCE/GRAVITY CROSS-CHECK -- consistent: the bare institutional fact is Documented to an unusually
-  high degree even by this world''s own hostile-source standards -- Optatus, Augustine, and the imperial/conciliar
-  record all agree it happened, down to precise bishop counts. Individual bishops'' own conduct and motives
-  remain hostile-mediated, but the institutional fact of parallel hierarchy itself carries no comparable
-  Author Gravity risk. CROSS-VOICE TEST (Doc_04 SS5): passes on the bare institutional fact, which even
-  hostile sources do not dispute reporting; individual bishop characterizations remain hostile-mediated.
-  INTERACTION MATRIX (Doc_04 SS6): R with G1, G2, G3, G5 (each named under that gravity''s own entry above);
-  X (reshaping) with T2 -- the Maximianist fracture is an event internal to this hierarchy''s own conciliar
-  machinery, and could not exist without G4''s own institutional complexity to fracture within. FORCES-CONNECTION
-  (Doc_04 SS3.4, Doc_08 SS5): the institutional expression of G1''s own founding logic at 1B-2; an internal
-  force operating within, and testing, its own conciliar machinery at 2B-4; acted on directly as a legal-institutional
-  target at 3A-1 (the 411 Conference verdict); its own contesting power removed at 3A-2 (the Vandal capture);
-  and the specific limit on what this construction can claim about its own later life is named at 3B-1
-  (institutional attrition, ending precisely where the vendored record does, not where the movement itself
-  actually ended).'
+description: >-
+  This world built a complete rival church, with its own bishops, basilicas, and councils. It is a
+  supporting pattern, not a central one. It is the integrating center, the structure the central
+  patterns operate within. It passes all six tests used to judge a lasting pattern. The test that
+  shows it is supporting rather than central is what depends on it, not how it forms people.
+
+  The record returns to it again and again. From the outset there were two rival bishoprics, and
+  the contest was repeated town for town. The parallel hierarchy of bishops is among this world's
+  most recurring formative material.
+
+  Much depends on it, and strongly. The Maximianist split inside the movement was only possible
+  because a complex hierarchy already existed. That hierarchy had its own councils and its own
+  means of discipline. The shape of the 411 Conference depended on it too: 279 bishops seated
+  against 286. So did the disputes over property and basilicas. Each needed two complete, rival
+  churches making the same claim.
+
+  But take away the purity doctrine, rebaptism, and the martyr cult, and the hierarchy has no
+  formative content of its own. It is the structure within which purity, rebaptism, and the memory
+  of the martyrs operate. People are not formed through it the way they are formed through
+  rebaptism or the martyr liturgy.
+
+  It shapes people, but only moderately. It decides which bishop a person answers to and which
+  basilica they attend. It adds no distinct set of formative practices beyond what those three
+  patterns already supply. This weaker finding about formation is a separate one. The finding
+  about dependence is what makes the hierarchy supporting.
+
+  It explains a great deal. It explains exactly how the Maximianist affair worked. It also
+  explains why the 411 Conference's record could count bishops so precisely.
+
+  It lasted. The contest ran town for town from 311/312 to 439 and beyond. What followed was a
+  slow institutional wearing-away, not extinction.
+
+  It is the condition that let the purity doctrine and rebaptism be enforced, and the martyrs
+  commemorated, at the scale of a complete rival church. The Maximianist split grew from inside
+  it.
+
+  Our confidence matches the weight this pattern carries. The bare institutional fact is
+  Documented unusually well, even for a world known mostly through hostile sources. Optatus,
+  Augustine, and the imperial and council records all agree it happened, down to exact bishop
+  counts. What individual bishops did, and why, still reaches us through hostile writers. But the
+  parallel hierarchy itself carries no comparable risk of reflecting one hostile author's view.
+
+  The same holds when we compare voices. Even hostile sources report the bare institutional fact
+  without dispute. Their portraits of individual bishops still come through hostile hands.
+
+  It reinforces the purity doctrine, rebaptism, the martyr cult, and the refusal of imperial
+  legitimacy. Its link to the Maximianist tension is one of reshaping. That split happened inside
+  the hierarchy's own councils. It could not have happened without an institution this complex to
+  break apart.
+
+  Several historical forces act on it. It is the institutional form of the purity doctrine's
+  founding logic. That form arose from the accusation against Felix of Aptungi and the rival
+  consecration of Majorinus in 311/312. Later, the internal Maximianist split (393-398) worked
+  within its councils and tested them. The verdict of the 411 Conference of Carthage made it a
+  direct legal target. The Vandal capture of Carthage in 439 took away its power to contest.
+
+  That later life also marks a limit on what we can claim. The hierarchy wore away under sustained
+  legal pressure. Our account ends where the surviving record ends, not where the movement itself
+  actually ended.
 manifestations:
 - the successive Carthage primates Majorinus -> Donatus -> Parmenian -> Primian (don.figure.majorinus,
   don.figure.donatus, don.figure.parmenian, don.figure.primian)

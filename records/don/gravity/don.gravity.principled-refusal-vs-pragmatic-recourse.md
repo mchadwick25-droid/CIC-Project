@@ -39,38 +39,53 @@ relations:
 - type: associated-with
   target: don.force.maximianist-fracture
 name: Principled Refusal vs. Pragmatic Recourse to Imperial Power [TENSIONAL]
-description: 'Doc_04 SS3.6: TENSIONAL. Two genuinely distinct poles with real institutional separation:
-  (a) the movement''s own ideological stance that the state has no standing to adjudicate who the true
-  church is, voiced directly in Donatus''s own reported retort, "Quid est imperatori cum ecclesia?" (independently
-  re-verified against Optatus, Against the Donatists, Book III); (b) the movement''s own repeated, documented
-  turns to that same imperial machinery for its own advantage at three specific, named points across the
-  window: the 313 petition to Constantine via Anulinus''s relatio; the 361 petition to Julian for restoration
-  of confiscated basilicas; the 390s invocation of existing imperial and proconsular anti-heretical legislation
-  against its own Maximianist dissidents (all three named in Doc_01 SS5). Institutional separation is
-  real: three distinct, documented acts at three distinct moments, not an abstract inconsistency. Tests:
-  Repetition PASS (three separate instances); Persistence PASS (spans the whole window, 313 to the 390s);
-  Interaction PASS (directly qualifies G5). Confidence: each of the three instances is independently Documented
-  on its own historical terms (Anulinus''s relatio is part of Optatus''s own vendored Appendix of Documents;
-  the Maximianist-era legal invocation is corroborated in Augustine''s own primary text). The characterization
-  of the tension as "principled refusal against pragmatic exception," rather than simple incoherence,
-  is Doc_04''s own synthesis of Doc_01 SS5''s language ("the pattern remains refusal-under-pressure on
-  balance... not an absolute refusal at every point") -- a defensible reading, not itself independently
-  attested as the Donatists'' own self-description of the tension. FORCES-CONNECTION (Doc_04 SS3.6): spans
-  Cells 1B through 2B rather than sitting in a single cell -- the 313 Anulinus relatio falls at the same
-  founding-dispute moment as Cell 1B''s own rigorist rupture; the 361 Julian petition and the 390s invocation
-  both belong to the sustained ongoing period, Cells 2A (external, oscillating imperial policy) and 2B
-  (internal, the Maximianist fracture). That this tension''s own forces-connection spans two periods rather
-  than sitting in one is itself part of what makes it a genuine Tensional gravity, not a single-episode
-  inconsistency (confirmed rather than redecided by Doc_08 SS5: "the clearest case in this document of
-  a gravity whose own forces-connection genuinely spans multiple cells"). INTERACTION MATRIX (Doc_04 SS6):
-  R with G5 (the same evidentiary base viewed from two angles -- T1 is G5''s own internal qualification,
-  named separately because it meets the Tensional-gravity bar in its own right, not merely a caveat folded
-  into G5''s prose). **NO DEMONSTRATED RELATIONSHIP WITH T2** -- Doc_04 SS6 states this explicitly: "These
-  two tensions operate on different axes (external state relations versus internal disciplinary consistency)
-  and no evidence in this world''s record connects them directly; naming this absence explicitly is itself
-  a finding, not an oversight." This absence is named here, in this record''s own prose, precisely because
-  relations[] has no typed way to assert a checked non-relationship -- an omitted edge and an examined
-  absence would otherwise read identically.'
+description: >-
+  This is a real, unresolved tension. It has two truly distinct poles, and they are separated in
+  actual institutions.
+
+  On one side stands the movement's own conviction: the state has no standing to judge who the
+  true church is. Donatus voiced it directly in his reported retort: "Quid est imperatori cum
+  ecclesia?" The words have been checked again, independently, against Optatus, Against the
+  Donatists, Book III.
+
+  On the other side, the movement turned to that same imperial machinery for its own advantage. It
+  did so repeatedly, at three named points across the period. In 313 it petitioned Constantine,
+  through Anulinus's report, known as a relatio. In 361 it petitioned Julian to restore basilicas
+  that had been seized. In the 390s it used existing imperial and proconsular laws against
+  heretics against its own Maximianist dissidents.
+
+  The separation is real. These are three distinct, documented acts at three distinct moments.
+  This is not an abstract inconsistency.
+
+  The pattern recurs, in three separate cases. It lasts the whole period, from 313 to the 390s.
+  And it directly qualifies the movement's refusal of imperial legitimacy.
+
+  Each of the three cases is independently Documented on its own historical terms. Anulinus's
+  report is part of the Appendix of Documents in Optatus's own work, which is in the collection.
+  Augustine's own writing confirms the legal moves of the Maximianist years.
+
+  This pattern can be called "principled refusal against pragmatic exception," rather than simple
+  incoherence. That label is an interpretation. It draws on the finding that "the pattern remains
+  refusal-under-pressure on balance... not an absolute refusal at every point." It is a defensible
+  reading. But no source shows the Donatists themselves describing the tension this way.
+
+  The tension does not sit in one moment. The 313 petition came at the founding dispute, the same
+  moment as the rigorist break. The 361 petition to Julian came in the long middle period, under
+  shifting imperial policy from outside. The legal moves of the 390s came from inside, during the
+  Maximianist split.
+
+  Because it spans two periods, this is a genuine tension, not a one-time lapse. Of all the
+  patterns in this world, it is the clearest case of one shaped by forces across several periods.
+
+  It reinforces the refusal of imperial legitimacy. Both rest on the same evidence, seen from two
+  angles. This tension is that refusal's own internal limit. It is named separately because it
+  meets the bar for a tension in its own right. It is not just a caveat tucked into the refusal.
+
+  It has no demonstrated link to this world's other tension: strict purity against the actual
+  reception of the returning Maximianist clergy. The two work on different axes. One concerns
+  relations with the state. The other concerns consistency of discipline inside the church. No
+  evidence in this world's record connects them directly. This absence was examined, not
+  overlooked, and naming it is itself a finding.
 manifestations:
 - the 313 petition to Constantine, forwarded through the governor Anulinus's own relatio (Optatus, Appendix
   of Documents)

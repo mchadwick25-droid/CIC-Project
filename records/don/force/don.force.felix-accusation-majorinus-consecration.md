@@ -47,22 +47,42 @@ name: The Felix of Aptungi traditio accusation and the rival consecration of Maj
 kind: initiating
 matrix_cell: 1B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 1B, Force 1B-2): Caecilian was consecrated bishop of Carthage by
-  Felix of Aptungi, who was accused of being a traditor; the rigorist party responded with the rival consecration
-  of Majorinus (311/312), succeeded from c. 313 by Donatus, from whom the movement's name derives. Documented
-  as the schism's own specific founding-rupture event. Optatus's own petition text shows this world's earliest
-  institutional act - its appeal to Constantine through the governor Anulinus, forwarding the movement's own
-  petition - arising at this identical moment, not decades after it. LAYER 2 - THE WORLD'S OWN EXPERIENCE:
-  a man consecrated by a hand that had surrendered the scriptures cannot be a true bishop, and a communion
-  that accepts him has, by that acceptance, ceased to be trustworthy on the one question that matters most.
-  The rival consecration was not a power grab; it was the only response that took the traditio accusation
-  seriously. LAYER 3 - FORMATION IMPACT: this force is the specific institutional trigger for the parallel
-  hierarchy - a traditor-tainted line had to be replaced with a clean one, and this consecration is where
-  that replacement begins. It is also the specific triggering event that gives the ministerial-purity doctrine
-  its own founding-rupture occasion. And it is the founding moment of what Doc_04 SS3.6 identifies as the
-  earliest instance of the principled-refusal-against-recourse tension: the movement turning to the same imperial
-  machinery it would spend the rest of its history refusing to recognise as having standing over it, present
-  at the very founding of the refusal itself.
+  Felix of Aptungi consecrated Caecilian as bishop of Carthage. Felix was accused of being a
+  traditor, one who had handed over the scriptures.
+
+  The rigorist party responded by consecrating a rival bishop, Majorinus, in 311/312. From about
+  313, Donatus succeeded him. The movement takes its name from Donatus.
+
+  This is documented as the specific event that broke the church apart and began the schism.
+
+  The petition text preserved by Optatus shows something more. This world's earliest institutional
+  act arose at this same moment, not decades later.
+
+  That act was an appeal to Constantine. It went through the governor Anulinus, forwarding the
+  movement's own petition.
+
+  As this world saw it, a man consecrated by a hand that had surrendered the scriptures cannot be
+  a true bishop.
+
+  A communion that accepts him has, by accepting him, stopped being trustworthy on the one
+  question that matters most.
+
+  So the rival consecration was not a grab for power. It was the only response that took the
+  accusation of traditio seriously.
+
+  This force is the specific trigger for the movement's rival church, its complete structure of
+  bishops, basilicas and councils. A line of bishops tainted by a traditor had to be replaced with
+  a clean one. This consecration is where that replacement begins.
+
+  It is also the specific event that gave the purity doctrine its founding occasion. That doctrine
+  holds that a sacrament's validity depends on the minister's own unbroken purity.
+
+  And it marks the earliest instance of a lasting tension in this movement. The movement refused,
+  on principle, to grant the state authority over it. Yet it also turned to that state for help.
+
+  Here, at the very founding of that refusal, the movement was already turning to the imperial
+  machinery. It would spend the rest of its history refusing to recognise that machinery as having
+  any standing over it.
 manifestations:
 - the accusation that Felix of Aptungi, consecrator of Caecilian, was a traditor
 - the rival consecration of Majorinus (311/312), succeeded from c. 313 by Donatus

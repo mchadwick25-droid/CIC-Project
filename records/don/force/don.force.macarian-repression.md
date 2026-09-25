@@ -40,24 +40,36 @@ name: The Macarian repression (347-348) [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2A, Force 2A-2): imperial commissioners Paul and Macarius enforced
-  unification on this world by direct, sometimes lethal coercion (347-348). Documented, and corroborated in
-  this world's own vendored voice - the Passio Marculi and Macrobius's own letter to the Carthage congregation
-  on the deaths of Isaac and Maximianus. LAYER 2 - THE WORLD'S OWN EXPERIENCE: this was not persecution suffered
-  alongside the rival, as the Diocletianic terror had been; this was suffering inflicted specifically BY that
-  same rival's own instigation, through the emperor's own commissioners. The dead this repression produced
-  are not remembered as casualties of a general disaster; they are remembered as this world's own martyrs,
-  proved true by what the rival's own favored power did to them. LAYER 3 - FORMATION IMPACT: this is the direct
-  trigger for the two best-attested Passiones - the martyr-cult gravity's own core textual evidence - and
-  it INTENSIFIES rather than merely tests that gravity. Each new persecution episode generates new commemorative
-  text production, a pattern that can be traced directly: this repression produces two texts in close succession,
-  and the earlier, less-attested persecution under Leontius and Ursacius produces the commemorative sermon.
-  WHERE FORCES AND GRAVITIES MOST TIGHTLY COHERE (Doc_08 SS5): this force and the martyr-cult gravity are
-  named there as the strongest single force-to-gravity connection in the whole document - neither is explicable
-  without the other. The repression explains why the commemorative practice takes the specific, dated, textually-productive
-  form it does; the commemorative practice explains why the repression, rather than fading into the general
-  memory of ancient persecution, remains this world's most vivid and most frequently re-narrated historical
-  force.
+  In 347-348, the imperial commissioners Paul and Macarius forced unification on this world. They
+  used direct coercion, and at times it killed. This is documented.
+
+  Unusually, the repression is also confirmed in this world's own surviving voice. Two texts
+  witness it. One is the Passio Marculi. The other is Macrobius's own letter to the Carthage
+  congregation on the deaths of Isaac and Maximianus.
+
+  This was not persecution suffered side by side with the rival church, as the Diocletianic terror
+  had been. This time the suffering came at the urging of that same rival, through the emperor's
+  own commissioners.
+
+  The dead of this repression are not remembered as casualties of a general disaster. They are
+  remembered as this world's own martyrs. What the rival's favored power did to them proved them
+  true.
+
+  This repression directly triggered the two best-attested Passiones. Those two texts are the core
+  written evidence for this world's identity as the Church of the Martyrs. The repression did not
+  merely test that identity. It made it stronger.
+
+  Each new episode of persecution produced new texts of remembrance, and we can trace that pattern
+  directly. This repression produced two texts in close succession. The earlier, less well-
+  attested persecution under Leontius and Ursacius produced the commemorative sermon.
+
+  Of every link between this world's forces and its core convictions, this one is named the single
+  strongest. This repression and the Church of the Martyrs cannot be explained without each other.
+
+  The repression explains the form the practice of remembrance takes: specific, dated, and rich in
+  texts. The practice of remembrance explains why the repression never faded into the general
+  memory of ancient persecution. It remains this world's most vivid historical force, and the one
+  retold most often.
 manifestations:
 - the imperial commissioners Paul and Macarius enforcing unification by direct, sometimes lethal coercion
 - the Passio Marculi and the Passio Isaac et Maximiani, produced in close succession after it

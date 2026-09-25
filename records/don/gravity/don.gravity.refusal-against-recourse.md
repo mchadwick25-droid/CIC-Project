@@ -46,36 +46,52 @@ relations:
 name: Principled refusal against pragmatic recourse to imperial power [TENSIONAL]
 classification: tensional
 description: >-
-  Confirmed TENSIONAL (Doc_04 SS3.6, SS4). A Tensional gravity requires two genuinely distinct poles with
-  real institutional or practice-cluster separation, not merely an abstract tension within one person's thought;
-  Doc_04 states that bar explicitly and this candidate meets it. THE TWO POLES. Pole (a): the movement's own
-  stance that the state has no standing to adjudicate who the true church is, voiced directly in Donatus's
-  reported retort, Quid est imperatori cum ecclesia? - what has the emperor to do with the church? - verified
-  against optatus_against-the-donatists.txt, Book III. Pole (b): the movement's own repeated, documented turns
-  to that same imperial machinery for its own advantage at three specific, named points across the window
-  - the 313 petition to Constantine via Anulinus's relatio; the 361 petition to Julian for restoration of
-  confiscated basilicas; and the 390s invocation of existing imperial and proconsular anti-heretical legislation
-  against the movement's own Maximianist dissidents, all three named explicitly in Doc_01 SS5. INSTITUTIONAL
-  SEPARATION IS REAL (Doc_04's own finding): these are three distinct, documented acts at three distinct moments,
-  not an abstract inconsistency. TESTS AS DOC_04 APPLIES THEM TO A TENSIONAL CANDIDATE (SS3.6): REPETITION
-  - PASS (three separate instances). PERSISTENCE - PASS (spans the whole window, 313 to the 390s). INTERACTION
-  - PASS (directly qualifies the refusal-of-imperial-legitimacy gravity, whose own Persistence test is qualified
-  by exactly this tension rather than being smoothed into an unqualified PASS). CONFIDENCE (Doc_04 SS3.6):
-  each instance independently Documented; the synthesis-level characterisation is Doc_04's own reading, carried
-  in this record's divergence_note. CROSS-VOICE TEST (Doc_04 SS5): PASSES - each instance names a specific,
-  dated episode with its own documentary trace (Anulinus's relatio in Optatus's Appendix of Documents) rather
-  than resting on a purely interpretive hostile characterisation. GENERATION NOTE (Doc_04 SS1, SS3.7): this
-  candidate SURFACED while testing the refusal gravity's own Persistence, and was entered into generation
-  at SS1 per Framework discipline rather than being written into that gravity's prose as a caveat. Doc_04
-  tests the refusal gravity after the two Tensional gravities for exactly this reason. FORCES-CONNECTION (Doc_04
-  SS3.6; Doc_08 SS5, Force Index row T1): this tension SPANS CELLS rather than sitting in one, and Doc_08
-  SS5 calls it the clearest case in that document of a gravity whose forces-connection genuinely spans multiple
-  cells. Cell 1B - the 313 Anulinus relatio falls at the same founding-dispute moment as the rigorist rupture
-  itself, the movement's earliest documented turn to state adjudication arising alongside the rupture rather
-  than decades after it, carried here as enabled-by; Cell 2A - the 361 Julian petition, belonging to the sustained
-  ongoing external pressure of oscillating imperial policy; Cell 2B - the 390s Maximianist-era invocation,
-  internal and ongoing. Doc_04 treats the span across two periods of Doc_01's own six-cell sketch as itself
-  part of what makes this a genuine Tensional gravity rather than a single-episode inconsistency.
+  This is confirmed as a real, unresolved tension. Such a tension needs two truly distinct poles,
+  separated in actual institutions or practice. A clash inside one person's thinking is not
+  enough. This one meets that bar.
+
+  The first pole is the movement's own stance: the state has no standing to judge who the true
+  church is. Donatus voiced it directly in his reported retort: Quid est imperatori cum ecclesia?
+  What has the emperor to do with the church? The words have been checked against Optatus's
+  Against the Donatists, Book III.
+
+  The second pole is the movement's own turn to that same imperial machinery for its own
+  advantage. It happened repeatedly, at three named points across the period. In 313 the movement
+  petitioned Constantine, through Anulinus's report, known as a relatio. In 361 it petitioned
+  Julian to restore basilicas that had been seized. In the 390s it used existing imperial and
+  proconsular laws against heretics against its own Maximianist dissidents.
+
+  The separation is real. These are three distinct, documented acts at three distinct moments.
+  This is not an abstract inconsistency.
+
+  The pattern recurs, in three separate cases. It lasts the whole period, from 313 to the 390s.
+  And it directly qualifies the movement's refusal of imperial legitimacy. That refusal's claim to
+  last unbroken is qualified by exactly this tension. It is not smoothed over.
+
+  Each of the three cases is independently Documented. Describing the whole as one tension is an
+  interpretation drawn from those cases.
+
+  The evidence does not rest on hostile opinion alone. Each case is a specific, dated episode with
+  its own documentary trace. Anulinus's report, for one, survives in the Appendix of Documents to
+  Optatus's work. None of the cases rests purely on a hostile writer's interpretation.
+
+  This tension came to light while the refusal of imperial legitimacy was being tested for how
+  long it lasted. It was named as a pattern in its own right, not written into the refusal as a
+  caveat. For exactly this reason, the refusal was tested only after the two tensions.
+
+  The tension does not sit in one moment. Of all the patterns in this world, it is the clearest
+  case of one shaped by forces across several periods.
+
+  The 313 report came at the founding dispute, alongside the rigorist break itself. It was the
+  movement's earliest documented turn to the state for judgement. It arose with the break, not
+  decades after it.
+
+  The 361 petition to Julian belongs to the long middle period. It came under the ongoing outside
+  pressure of shifting imperial policy. The Maximianist-era legal moves of the 390s came from
+  inside, in that same ongoing period.
+
+  This span across two periods is itself part of what makes this a genuine tension. It is not a
+  one-time lapse.
 manifestations:
 - Donatus's retort, Quid est imperatori cum ecclesia? - the pole of principled refusal
 - the 313 petition to Constantine forwarded through the governor Anulinus's relatio

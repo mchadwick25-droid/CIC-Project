@@ -38,21 +38,33 @@ name: Transmission - survival through the hostile party's own manuscript traditi
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2B, Force 2B-2, the transmission dimension required in this cell):
-  nearly all textual material currently vendored for this world passed through Catholic hands - Optatus, Augustine
-  - before reaching this construction, the eventually-victorious party's own literature, preserved by institutions
-  with every reason to preserve it. Documented, and named as this world's central evidentiary problem throughout
-  Doc_01 and Doc_02. LAYER 2 - THE WORLD'S OWN EXPERIENCE: NOT RECOVERABLE FROM SURVIVING SOURCES. This world's
-  record does not show its own actors reflecting on this condition directly - no surviving Donatist chronicle
-  of Arles, no surviving Donatist administrative account of the Macarian repression exists, only the martyr-cult
-  narrative response to it. This is a genuine absence, not a filled silence: whatever this world understood
-  itself to be doing when its own texts were produced, its own understanding of how those texts would or would
-  not survive is not recoverable from what remains. Reported-Experience Status applied. LAYER 3 - FORMATION
-  IMPACT: this transmission pattern is the specific mechanism behind this world's Author Gravity concentration.
-  Petilian's own quoted words survive only because Augustine needed them in front of a reader to refute them
-  - a preservation mechanism selecting for refutability, not fairness. It is what makes the small independently-surviving
-  remainder - Tyconius's Liber Regularum, the martyr texts, the epigraphy - this construction's single most
-  valuable evidentiary category.
+  Nearly all the texts this account currently holds for this world passed through Catholic hands,
+  those of Optatus and Augustine, before they reached us. This is the literature of the party that
+  eventually won. It was kept by institutions with every reason to keep it.
+
+  This is documented. This world's own founding studies name it, throughout, as this world's
+  central evidentiary problem.
+
+  How this world experienced this condition cannot be recovered from the sources that survive. Its
+  record does not show its own people reflecting on it directly. No Donatist chronicle of Arles
+  survives. No Donatist administrative account of the Macarian repression survives either. What
+  survives is only the martyr cult's narrative response to that repression.
+
+  This is a genuine absence, not a silence we have filled. We cannot know what this world thought
+  it was doing when it produced its texts. Its own view of how they would or would not survive
+  cannot be recovered from what remains.
+
+  So this is recorded as an absence. It carries no confidence rating, because no guess is offered
+  in its place.
+
+  This pattern of transmission is the specific reason this world's surviving authors are
+  concentrated on the hostile side. Petilian's own quoted words survive only because Augustine
+  needed them in front of a reader in order to refute them. That way of preserving a text selects
+  for what can be refuted, not for fairness.
+
+  The same pattern gives the small remainder that survives on its own its value. That remainder is
+  Tyconius's Liber Regularum, the martyr texts, and the inscriptions. Together they are the single
+  most valuable kind of evidence this account has.
 manifestations:
 - Donatist literature surviving almost entirely as quotation embedded inside its own refutations
 - Petilian visible only to the extent his opponent chose to quote him - preservation selecting for refutability,

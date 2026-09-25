@@ -48,38 +48,59 @@ relations:
 name: Purity-rigor against institutional reception - the Maximianist precedent [TENSIONAL]
 classification: tensional
 description: >-
-  Confirmed TENSIONAL (Doc_04 SS3.6, SS4). A Tensional gravity requires two genuinely distinct poles with
-  real institutional or practice-cluster separation; this candidate meets that bar on a specific, dated, bounded
-  episode. THE TWO POLES. Pole (a): the stated, absolute logic that schismatic or invalidly-ordained clergy
-  require rebaptism and reordination - the purity and rebaptism gravities at their most unqualified. Pole
-  (b): the mainstream Donatist party's own actual practice toward the Maximianist clergy on their return -
-  reception into office and communion WITHOUT repeating either ordination or baptism, a fact Augustine directly
-  and repeatedly quotes from primary Donatist-adjacent material and turns into his single central argument
-  against the Donatists' own rebaptism logic. INSTITUTIONAL SEPARATION IS REAL (Doc_04's own finding): this
-  is a specific, named, historically bounded episode - the 393 Maximianist schism, its 394 Bagai condemnation,
-  and the reception that followed - with its own documentary record in the Bagai and Cebarsussi sentences,
-  not an abstract inconsistency. TESTS AS DOC_04 APPLIES THEM (SS3.6): REPETITION - PASS. DEPENDENCY - PASS:
-  the purity gravity's own internal coherence is what this tension specifically tests. INTERACTION - PASS:
-  it directly reshapes the purity gravity, and Augustine turns that exact reshaping into his central argument.
-  CONFIDENCE (Doc_04 SS3.6): Documented, and named there as the most rigorously and repeatedly directly-quoted
-  internal tension in this world's entire vendored corpus. CROSS-VOICE TEST (Doc_04 SS5): PASSES - the episode
-  names a specific, dated event with its own documentary trace, the Bagai and Cebarsussi sentences quoted
-  directly in Augustine's primary text, rather than resting on a purely interpretive hostile characterisation.
-  GENERATION NOTE (Doc_04 SS1): this candidate SURFACED while testing the purity gravity's own internal consistency,
-  and was entered into generation at SS1 per Framework discipline rather than being absorbed into that gravity's
-  prose. Its Author-Gravity risk was flagged at generation as Low - the most directly and repeatedly quoted
-  internal tension in the vendored corpus, not resting on a single voice or a thin evidence stream. WHAT THIS
-  TENSION IS NOT (Doc_01 SS4, carried through the world_core's own caution 9): the Maximianist episode was
-  TESTED against Article 21's strand bar and rejected on the record, not overlooked - a dispute over who should
-  hold a see rather than a distinct pattern of communal life. It is a Tensional gravity of this world, not
-  a second strand within it. FORCES-CONNECTION (Doc_04 SS3.6; Doc_08 SS5, Force Index row T2): Cell 2B alone
-  - Doc_01 SS5's own six-cell sketch names the Maximianist fracture (393-398) there explicitly, as an internal-ongoing
-  pressure internal to the parallel hierarchy's own conciliar machinery, not one imposed by any external force.
-  Doc_08 Open Item 2 addresses the narrowness directly: this is the narrowest connection count of any classified
-  gravity in that document, narrower even than the Circumcellion candidate's two, and Doc_08 reads that as
-  exactly what a tightly-scoped, single-episode Tensional gravity's own narrow scope predicts - NOT as a gap
-  and NOT as a confidence-divergence signal - and declines to manufacture additional connections to bring
-  the count closer to its peers.
+  This is confirmed as a real, unresolved tension. Such a tension needs two truly distinct poles,
+  separated in actual institutions or practice. This one meets that bar through a specific, dated
+  episode with clear limits.
+
+  The first pole is the stated, absolute rule. Clergy who were schismatic or invalidly ordained
+  must be rebaptised and reordained. Here the purity doctrine and rebaptism stand at their most
+  unqualified.
+
+  The second pole is what the main Donatist party actually did. When the Maximianist clergy
+  returned, the party received them back into office and communion. It did not repeat their
+  ordination or their baptism.
+
+  Augustine quotes this fact directly and repeatedly, from primary material close to the
+  Donatists. He turns it into his single central argument against their logic of rebaptism.
+
+  The separation is real. This is a specific, named episode with limits in time. It covers the
+  Maximianist schism of 393, its condemnation at Bagai in 394, and the reception that followed. It
+  has its own documents: the sentences of Bagai and Cebarsussi. It is not an abstract
+  inconsistency.
+
+  The pattern recurs in the record. What it tests, specifically, is the inner coherence of the
+  purity doctrine. And it directly reshapes that doctrine. Augustine turns that very reshaping
+  into his central argument.
+
+  Confidence is high, at this world's top evidentiary tier. Of all the tensions inside this world, this one is quoted directly
+  most rigorously and most often across the texts we hold.
+
+  The evidence does not rest on hostile opinion alone. The episode is a specific, dated event with
+  its own documentary trace. Augustine's own writing quotes the sentences of Bagai and Cebarsussi
+  directly. So it does not rest purely on a hostile writer's interpretation.
+
+  This tension came to light while the purity doctrine was being tested for inner consistency. It
+  was named as a pattern in its own right, not absorbed into that doctrine.
+
+  The risk that it reflects one author's view was judged low from the start. It is the most
+  directly and repeatedly quoted internal tension in the texts we hold. It does not rest on a
+  single voice or a thin stream of evidence.
+
+  It is not counted as a second, separate movement inside this world. The Maximianist episode was
+  tested against that standard and rejected on the record, not overlooked. It was a dispute over
+  who should hold a bishop's see, not a distinct pattern of communal life. So it counts as a
+  tension inside this movement, not as a second, separate movement within it.
+
+  The pressure came from inside, not from any outside force. The Maximianist split (393-398) was
+  an ongoing strain within the councils of the movement's own parallel hierarchy.
+
+  That split is the only force this tension connects to. It is the narrowest link of any
+  classified pattern in this world. It is narrower even than the Circumcellions, who connect to
+  two.
+
+  That narrowness is exactly what a tightly scoped, single-episode tension should show. It is not
+  a gap. It is not a sign of doubt about our confidence either. No extra links have been invented
+  to bring it in line with the others.
 manifestations:
 - the deacon Maximian's break from Primian of Carthage in 393 and the Cebarsussi council that elected him
   a rival primate

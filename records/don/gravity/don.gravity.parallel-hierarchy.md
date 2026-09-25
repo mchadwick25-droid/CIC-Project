@@ -61,48 +61,74 @@ relations:
 name: The parallel institutional hierarchy [SUPPORTING - integrating/institutional center]
 classification: supporting
 description: >-
-  Confirmed SUPPORTING - the integrating and institutional center (Doc_04 SS3.4, SS4). Two complete rival
-  churches, each with its own bishops, basilicas, councils and ordination line, contesting the same sees town
-  for town across Africa Proconsularis, Numidia, Byzacena and Mauretania. AUTHOR-GRAVITY RISK FLAGGED AT GENERATION
-  (Doc_04 SS1, G4): Low on bare existence, undisputed even by hostile sources and the imperial records; hostile-mediated
-  on individual bishops' own conduct and motives. SIX-TEST REASONING CARRIED IN FULL (Doc_04 SS3.4). REPETITION
-  - PASS (strong): Doc_01 SS2 (two rival bishoprics from the outset, the contest replicated town-for-town);
-  SS3 (the parallel episcopal hierarchy named among this world's most recurring formative material); SS4 (the
-  Maximianist schism presupposing an already-elaborate conciliar system); Doc_02 SS1 and SS2. DEPENDENCY -
-  PASS (strong), BUT THIS IS THE TEST THAT REVEALS SUPPORTING RATHER THAN PRIMARY STATUS: the Maximianist
-  internal fracture is only possible because a complex hierarchy with its own councils and disciplinary machinery
-  already exists; the specific shape of the 411 Conference and of the property and basilica disputes depends
-  on there being two complete, rival institutional claimants - but REMOVED FROM the purity, rebaptism and
-  martyr-cult gravities, the hierarchy has no independent formative content of its own. It is the structure
-  WITHIN WHICH purity, rebaptism and martyr-commemoration operate, not itself a distinct thing participants
-  experience formation THROUGH the way they experience rebaptism or martyr-liturgy. FORMATION - PASS (moderate):
-  shapes which bishop one answers to and which basilica one attends, but does not itself generate a distinct
-  formative practice-cluster beyond what the three Primaries already supply. EXPLANATORY - PASS (strong):
-  explains the precise mechanics of the Maximianist affair (rival councils, rival consecrations), the specific
-  imperial legislative targeting of an organised rival clergy and its property, and the exact bishop-count
-  precision of the 411 Conference's own record. PERSISTENCE - PASS (strong): town for town, per Doc_01 SS2,
-  sustained from 311/312 through 439 and beyond - institutional attrition, not extinction, per Doc_01 SS7
-  item 8. INTERACTION - PASS (strong): the institutional condition that makes purity and rebaptism enforceable
-  and martyr-commemoration operable at the scale of a complete rival church rather than a diffuse sentiment;
-  the Maximianist fracture emerges from within it; imperial legislative attention targets its clergy and property
-  specifically. Six of six PASS, with Dependency revealing Supporting status and Formation moderate. WHY SUPPORTING
-  RATHER THAN PRIMARY (Doc_04 SS4's own criterion, stated in full): a Primary gravity produces its own distinct,
-  directly-enacted practice-cluster that would not exist without it; a SUPPORTING gravity provides the institutional
-  and integrating structure within which the Primaries operate. That is exactly this gravity - Doc_04 SS7
-  instructs Doc_05 to write it as the institutional container the Primaries operate within, not a fourth independent
-  formative experience. CONFIDENCE/GRAVITY CROSS-CHECK - CONSISTENT (Doc_04 SS3.4), with the bare-fact/individual-conduct
-  split carried in this record's own divergence_note. CROSS-VOICE TEST (Doc_04 SS5): PASSES on the bare institutional
-  fact, which even hostile sources do not dispute reporting; individual characterisations of specific bishops
-  remain hostile-mediated and are treated accordingly. FORCES-CONNECTION (Doc_04 SS3.4; Doc_08 SS5, Force
-  Index row G4 - the widest force count of any gravity in this world): Cell 1B - the rival consecration of
-  Majorinus, succeeded by Donatus, as the institutional expression of the purity gravity's founding logic,
-  carried as enabled-by; Cell 2B - the Maximianist fracture, an internal force operating within and testing
-  this structure's own conciliar machinery; Cell 3A - the 411 Conference's verdict and subsequent penal legislation
-  acting directly on this hierarchy as a legal-institutional target, and the Vandal capture of Carthage removing
-  the imperial-Catholic power it had been contesting for legal recognition against; Cell 3B - institutional
-  attrition under sustained legal pressure, which names the specific limit on what can be claimed about this
-  hierarchy's later life. It holds throughout the window under sustained external pressure and attrits afterward
-  without fracturing within.
+  This is a supporting pattern, and it is the institutional centre that holds this world together.
+  Two complete rival churches stood side by side. Each had its own bishops, basilicas, councils
+  and line of ordination. They fought over the same sees, town by town, across Africa
+  Proconsularis, Numidia, Byzacena and Mauretania.
+
+  On the structure's bare existence, the risk of reflecting its sources' own concerns is low. Even
+  hostile sources and the imperial records do not dispute it. But what we know of individual
+  bishops' conduct and motives comes through hostile sources.
+
+  It recurs strongly. There were two rival bishoprics from the start, and the contest repeated
+  itself town by town. The rival hierarchy of bishops is among the most recurring formative
+  material in this world. The Maximianist schism assumes a system of councils that was already
+  elaborate.
+
+  Other things depend on it strongly. But this measure is the one that shows it to be supporting
+  rather than central. The Maximianist split from within was possible only because a complex
+  hierarchy already existed, with its own councils and disciplinary machinery. The 411 Conference
+  and the fights over property and basilicas took their specific shape because there were two
+  complete rival institutions. But take away the purity doctrine, rebaptism and the martyr cult,
+  and the hierarchy has nothing formative of its own. It is the structure within which purity,
+  rebaptism and the commemoration of martyrs operate. People are not formed through it the way
+  they are formed through rebaptism or the martyrs' liturgy.
+
+  It shapes people only moderately. It decides which bishop one answers to and which basilica one
+  attends. But it creates no distinct formative practice of its own beyond what the three central
+  patterns already supply.
+
+  It explains a great deal. It explains exactly how the Maximianist affair worked, with rival
+  councils and rival consecrations. It explains why imperial laws targeted an organised rival
+  clergy and its property. And it explains the exact bishop counts in the 411 Conference's own
+  record.
+
+  It persists strongly. The rivalry ran town by town from 311/312 through 439 and beyond. What
+  followed was institutional wearing-away, not extinction.
+
+  It interacts strongly. It is the institutional condition that lets purity and rebaptism be
+  enforced. It also lets the commemoration of martyrs work at the scale of a whole rival church,
+  not just a scattered feeling. The Maximianist split grew from within it. Imperial laws targeted
+  its clergy and property specifically.
+
+  It holds on all six measures. The dependency measure shows its supporting status, and its power
+  to form people is moderate.
+
+  Why supporting rather than central? The rule is this. A central pattern produces its own
+  distinct cluster of practice that people directly carry out, and that cluster would not exist
+  without it. A supporting pattern gives the institutional, unifying structure within which the
+  central patterns operate. That is exactly this pattern. It is best understood as the container
+  the central patterns work within. It is not a fourth, independent formative experience.
+
+  Its confidence rating and its supporting status agree. The difference between the bare fact and
+  individual conduct is kept in the record.
+
+  It passes the test of the movement's own voice on the bare institutional fact. Even hostile
+  sources report that fact without disputing it. Portraits of individual bishops still come
+  through hostile sources and are treated with that in mind.
+
+  More forces act on this pattern than on any other in this world. Early on, the rival
+  consecration of Majorinus, whom Donatus succeeded, made it possible. That consecration put the
+  purity doctrine's founding logic into institutional form. Throughout the period, the Maximianist
+  split worked from within, testing this structure's own machinery of councils.
+
+  As the period closes, the 411 Conference's verdict and the penal laws that followed struck the
+  hierarchy directly as a legal target. The Vandal capture of Carthage then removed the imperial-
+  Catholic power it had been challenging for legal recognition. Its institutions wore away under
+  sustained legal pressure, and that limits what we can claim about its later life.
+
+  It holds throughout the period under sustained outside pressure. Afterwards it wears away,
+  without breaking apart from within.
 manifestations:
 - two rival bishoprics at Carthage from the outset, the contest replicated town for town across Africa Proconsularis,
   Numidia, Byzacena and Mauretania

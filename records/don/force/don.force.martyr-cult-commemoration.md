@@ -43,15 +43,17 @@ name: Martyr-cult and confessor memory sustaining identity [2B - ongoing/interna
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2B, Force 2B-3): the annual commemoration of martyrs at the grave,
-  and the growing body of martyr texts this practice produced, operated as an ongoing, repeated formative
-  practice throughout this world's active life. Documented. LAYER 2 - THE WORLD'S OWN EXPERIENCE: to gather
-  at a martyr's grave, on the day appointed, and hear the account read again is not to remember something
-  finished. It is to be shown, again, what this world already believes itself to be - the church that suffers,
-  and goes on suffering, and is proved true by it. LAYER 3 - FORMATION IMPACT: this force sustains the martyr-cult
-  gravity continuously, and it is the mechanism by which the Macarian repression's acute persecution episode
-  is converted into lasting formation - a single repression event becomes a permanent liturgical fact through
-  this ongoing practice.
+  Every year, this world commemorated its martyrs at the grave. That yearly practice, and the
+  growing body of martyr texts it produced, shaped this world again and again throughout its
+  active life. This is documented.
+
+  To gather at a martyr's grave on the appointed day and hear the account read again is not to
+  remember something finished. It is to be shown, once more, what this world already believes
+  itself to be. It is the church that suffers, goes on suffering, and is proved true by it.
+
+  This practice keeps this world's identity as the Church of the Martyrs alive without a break. It
+  is also how the Macarian repression, a sharp episode of persecution, became lasting formation.
+  Through this ongoing practice, a single act of repression became a permanent fact of worship.
 manifestations:
 - the annual commemoration at the grave on the appointed day, the account read aloud
 - the anniversaria commemoratio the Passio Donati sermon's own admonitio describes

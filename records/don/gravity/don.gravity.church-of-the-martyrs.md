@@ -62,47 +62,76 @@ relations:
 name: Martyr-cult identity - the Church of the Martyrs [PRIMARY]
 classification: primary
 description: >-
-  Confirmed PRIMARY (Doc_04 SS3.3, SS4), and the least Author-Gravity-encumbered Primary in this world's whole
-  gravity discovery. The self-understanding of being the pure, persecuted, true church - proved true by what
-  it has suffered - carried in annual commemoration at the grave, in preached sermons on martyrs' anniversaries,
-  in the Passio literature, and in the Deo laudes acclamation. AUTHOR-GRAVITY RISK FLAGGED AT GENERATION (Doc_04
-  SS1, G3): Low - named there as the single strongest non-Augustine-mediated evidentiary base in this world.
-  SIX-TEST REASONING CARRIED IN FULL (Doc_04 SS3.3). REPETITION - PASS (very strong): Doc_02 SS4 (the Passio
-  Marculi; the Passio Isaac et Maximiani, which is Macrobius's own letter to the Carthage congregation; and
-  the newly-integrated Passio Donati sermon - three distinct Donatist-voiced or Donatist-authored texts);
-  SS5 (the Deo laudes acclamation, independently attested epigraphically at Bagai and elsewhere); SS6; Doc_01
-  SS1 (Core Identity) and Step0 SS1's own disclosure naming this this world's distinctive strength among the
-  nine confirmed worlds. DEPENDENCY - PASS (strong): the community's own self-legitimation narrative - a persecuted
-  church is thereby a true one - draws directly on this; the liturgical calendar itself is organised around
-  it, the Passio Donati sermon's own admonitio describing an annual commemoration; and the purity gravity's
-  credibility as a LIVED rather than merely asserted claim rests partly on having concretely suffered for
-  it. FORMATION - PASS (strong): liturgical commemoration, preached sermons at martyrs' anniversaries, and
-  communal memory-making are the most directly formative, repeatedly-enacted practices this world's record
-  documents. EXPLANATORY - PASS (strong): explains the specific liturgical vocabulary (Deo laudes, anniversaria
-  commemoratio), the durability of textual production after each persecution episode, and the persecuted-true-church
-  self-understanding running through Doc_01's own Core Identity statement. PERSISTENCE - PASS (very strong):
-  textually attested at multiple, temporally-spread points across nearly the entire construction window -
-  from the sermon (Monceaux's dating: 317 events, composition c. 320, the earliest Donatist-authored text
-  in this world's vendored corpus) through the Macarian-era Passiones (347-348). INTERACTION - PASS (strong):
-  reinforces the purity gravity (suffering as proof of purity) and the refusal gravity (the martyrs die specifically
-  because of the state-legitimacy refusal); the specific bishops martyred - a bishop of Sicilibba wounded,
-  the bishop of Advocata killed, per the sermon's own content - tie directly to the parallel hierarchy, this
-  being that hierarchy's own clergy dying in office. Six of six PASS (strong to very strong). WHY PRIMARY
-  RATHER THAN SUPPORTING (Doc_04 SS4): this gravity generates its own liturgical-commemorative practice-cluster
-  - the Deo laudes acclamation, anniversary sermons, the Passio literature - a distinct, directly-enacted
-  cluster that would not exist without it. CONFIDENCE/GRAVITY CROSS-CHECK - CONSISTENT, and the least Author-Gravity-encumbered
-  Primary in Doc_04 (SS3.3), stated there as a positive finding rather than as the absence of a caveat. CROSS-VOICE
-  TEST (Doc_04 SS5): PASSES most cleanly of all four Primaries - the one gravity substantially attested IN
-  the Donatist-voiced or non-mediated record itself, three distinct texts plus epigraphy, rather than merely
-  corroborated by a fragment of it. FORCES-CONNECTION (Doc_04 SS3.3; Doc_08 SS5, Force Index row G3): Cell
-  1A - the Diocletianic persecution as the deep root of this world's persecution-memory, carried as enabled-by;
-  Cell 2A - the Macarian repression (347-348), the direct trigger for the two best-attested Passiones; Cell
-  2B - sustained ongoing commemorative practice; Cell 3B - the transmission dimension, where this gravity's
-  own textual record IS substantially this world's surviving voice, Doc_01 SS5's own 'small independently-surviving
-  remainder'. This gravity INTENSIFIES under external pressure rather than merely holding: each new persecution
-  episode generates new commemorative text production, a pattern Doc_04 traces directly - the Macarian repression
-  producing two Passiones, the earlier and less-attested persecution under Leontius and Ursacius producing
-  the sermon.
+  This is a central, defining pattern of this world. Of all the central patterns, it is the one
+  least at risk of reflecting a single author's concerns.
+
+  It is the conviction of being the pure, persecuted, true church, proved true by what it has
+  suffered. It lives in yearly commemoration at the grave and in sermons preached on martyrs'
+  anniversaries. It lives in the Passio literature and in the Deo laudes acclamation.
+
+  From the start, the risk that this pattern reflects one author's view was rated low. It rests on
+  the strongest evidence in this world that does not come through Augustine.
+
+  It recurs very strongly. Three separate texts carry it, each voiced or written by Donatists
+  themselves. The first is the Passio Marculi. The second is the Passio Isaac et Maximiani, which
+  is Macrobius's own letter to the Carthage congregation. The third is the Passio Donati sermon,
+  newly added to the collection. Inscriptions at Bagai and elsewhere attest the Deo laudes
+  acclamation independently. The pattern also runs through this world's own statement of its core
+  identity. This has been named one of this world's clearest strengths.
+
+  Other patterns depend on it strongly. The community's own claim to legitimacy draws directly on
+  it: a persecuted church is, for that reason, a true one. The worship calendar itself is
+  organised around it. The Passio Donati sermon's own admonition describes a yearly commemoration.
+  And the purity doctrine counts as a lived claim, not merely an asserted one, partly because
+  people really suffered for it.
+
+  It forms people strongly. Commemoration in worship, sermons preached on martyrs' anniversaries
+  and shared memory-making are the most directly formative practices this world's record
+  documents. They were carried out again and again.
+
+  It explains a great deal. It explains the specific words of worship, such as Deo laudes and
+  anniversaria commemoratio. It explains why new texts kept appearing after each episode of
+  persecution. And it explains the self-image of a persecuted, true church that runs through this
+  world's own statement of its core identity.
+
+  It persists very strongly. Texts attest it at many points spread across nearly the whole period
+  this world covers. The earliest is the sermon. Monceaux dates its events to 317 and its writing
+  to around 320. It is the earliest Donatist-authored text in this world's collection. The latest
+  are the Passiones of the Macarian era, 347-348.
+
+  It interacts strongly with the other patterns. It reinforces the purity doctrine, since
+  suffering serves as proof of purity. It reinforces the refusal of the state's religious
+  authority, since the martyrs die specifically because of that refusal. The sermon also names
+  particular bishops: a bishop of Sicilibba wounded, and the bishop of Advocata killed. That ties
+  this pattern directly to the rival church structure. These were that structure's own clergy,
+  dying in office.
+
+  It holds on all six of these measures, strongly to very strongly.
+
+  It counts as central, not merely supporting, because it creates its own cluster of worship and
+  commemoration. That cluster includes the Deo laudes acclamation, the anniversary sermons and the
+  Passio literature. It is distinct and directly practised, and it would not exist without this
+  pattern.
+
+  Its confidence rating and its central status agree. Among the central patterns, it is the least
+  at risk of reflecting one author's concerns. That is a positive finding in its own right, not
+  just the absence of a warning.
+
+  It also passes the test of the movement's own voice more cleanly than any of the four central
+  patterns. The Donatists' own voice and evidence that no hostile writer shaped carry much of it:
+  three distinct texts, plus inscriptions. A mere fragment of that record does not just back it
+  up.
+
+  We can trace the forces behind it. Its deep root is the Diocletianic persecution, which made
+  this world's memory of persecution possible. The Macarian repression of 347-348 directly
+  triggered the two best-attested Passiones. Ongoing commemoration sustained it. It also shaped
+  what came down to us. To a large degree, this pattern's own texts are this world's surviving
+  voice: the small remainder that survives independently.
+
+  This pattern grows stronger under outside pressure rather than merely holding firm. Each new
+  episode of persecution produced new commemorative texts, and we can trace that directly. The
+  Macarian repression produced two Passiones. The earlier, less-attested persecution under
+  Leontius and Ursacius produced the sermon.
 manifestations:
 - the annual commemoration at the grave on the appointed day, the account read aloud - the anniversaria commemoratio
   the Passio Donati sermon's own admonitio describes

@@ -29,17 +29,22 @@ relations:
   target: don.force.macarian-repression
 name: Martyr-Cult and Confessor Memory Sustaining Identity
 kind: ongoing
-description: 'Doc_08 Cell 2B, Force 2B-3. LAYER 1 -- HISTORICAL EVENT: the annual commemoration of martyrs
-  at the grave, and the growing body of martyr texts this practice produced, operated as an ongoing, repeated
-  formative practice throughout this world''s active life. Documented (Doc_02 SS4; Doc_04 SS3.3). LAYER
-  2 -- WORLD''S OWN EXPERIENCE: to gather at a martyr''s grave, on the day appointed, and hear the account
-  read again is not to remember something finished. It is to be shown, again, what this world already
-  believes itself to be -- the church that suffers, and goes on suffering, and is proved true by it. LAYER
-  3 -- FORMATION IMPACT: this force sustains G3 continuously and is the mechanism by which Force 2A-2''s
-  own acute persecution episode is converted into lasting formation -- a single repression event becomes
-  a permanent liturgical fact through this ongoing practice. CROSS-CELL CONNECTION (Doc_08 Section 4,
-  Connection 4): <- Force 2A-2 -- the repression is the direct trigger for new commemorative text production,
-  converting an acute persecution episode into an ongoing liturgical practice.'
+description: >-
+  Each year, martyrs were remembered at their graves. This practice, and the martyr texts it kept
+  adding to, worked on this world again and again throughout its active life. This is documented.
+
+  To gather at a martyr's grave on the day appointed and hear the account read again is not to
+  remember something finished. It is to be shown, again, what this world already believes itself
+  to be. It is the church that suffers, goes on suffering, and is proved true by it.
+
+  This practice keeps this world's identity as the Church of the Martyrs alive at all times. It is
+  the means by which the Macarian repression, a sharp episode of persecution, turned into lasting
+  formation. Through this ongoing practice, a single act of repression became a permanent fact of
+  worship.
+
+  The link runs directly from that repression. The repression triggered the writing of new texts
+  of remembrance. In this way, a sharp episode of persecution became an ongoing practice of
+  worship.
 manifestations:
 - the annual reading of the Passio Donati sermon, every twelfth of March, at the martyrs' own grave ("in
   solemni et anniversaria commemoratione")

@@ -35,30 +35,52 @@ relations:
   target: don.force.institutional-attrition
 name: The 411 Conference of Carthage's Verdict and the Penal Legislation That Followed
 kind: ending
-description: 'Doc_08 Cell 3A, Force 3A-1. LAYER 1 -- HISTORICAL EVENT: the imperially-convened 411 Conference
-  of Carthage, Marcellinus presiding, seated 279 Donatist against 286 Catholic bishops (Doc_02 SS1)
-  and ruled against the Donatist party; the verdict
-  was followed by sustained penal legislation. Documented (Doc_01 SS2). Emeritus of Caesarea and the other
-  Donatist bishops present are recorded, per the Gesta Collationis Carthaginiensis, speaking at length
-  on their own side of the exchange, and that text itself is now vendored (Registry row 55),
-  so their own words on the verdict itself are now directly readable in this world''s own
-  corpus, though not yet read into a specific claim by Doc_08. LAYER 2 -- WORLD''S OWN EXPERIENCE: this
-  world''s own record does not preserve a direct account of how its own participants received this specific
-  verdict. What this world''s own broader record does state is that a council''s verdict, even one this
-  large and formally convened, is not what settles who the true church is -- the same conviction this
-  world has held throughout the window, applied here to its own sharpest test yet. LAYER 3 -- FORMATION
-  IMPACT: this force presses G5 to its sharpest test and directly reshapes G4, which now bears the verdict''s
-  own legal-institutional consequences. It is also where Force 2B-4''s own Maximianist consequences are
-  pressed again, one last time, before the window closes. CROSS-CELL CONNECTIONS (Doc_08 Section 4): <-
-  Force 2B-4 (Connection 6) -- the fracture''s own consequences remain live as late as c. 405-406 and
-  are pressed again, one final time, at the 411 Conference. -> Force 3B-1 (Connection 7, together with
-  Force 3A-2) -- both ending-external forces compound rather than act independently: the Conference''s
-  own verdict and penal legislation press this world''s institutional life for nearly three decades before
-  the Vandal capture removes the enforcing power altogether -- the internal attrition Force 3B-1 documents
-  is the cumulative effect of both, not either alone. OPEN ITEM NAMED, NOT SMOOTHED OVER (Doc_08 Section
-  5, ''Where Forces Analysis Surfaced Gaps''): this world''s own Donatist-voiced account of receiving
-  this verdict is now recoverable in principle (the Gesta is vendored) but has not yet been read into
-  a specific claim -- a real, currently-open integration task, not resolved by this record.'
+description: >-
+  In 411 the emperor convened a conference at Carthage, with Marcellinus presiding. It seated 279
+  Donatist bishops against 286 Catholic bishops. It ruled against the Donatist party.
+
+  Sustained penal legislation followed the verdict. This is documented.
+
+  Emeritus of Caesarea and the other Donatist bishops present are recorded speaking at length for
+  their own side. The record of this is the Gesta Collationis Carthaginiensis.
+
+  That text itself is now in this world's own collection. So their own words on the verdict itself
+  can now be read directly. No specific claim has yet been drawn from them in this account.
+
+  This world's own record does not preserve a direct account of how its people received this
+  particular verdict.
+
+  What its broader record does state is a conviction. A council's verdict does not settle who the
+  true church is, even a council this large and this formally convened.
+
+  This world held that conviction throughout its period. Here it faced its own sharpest test yet.
+
+  This force puts the movement's refusal to grant the state legitimate authority in religion to
+  its sharpest test.
+
+  It also directly reshapes the movement's rival church structure of bishops, basilicas and
+  councils. That structure now bears the verdict's legal and institutional consequences.
+
+  It is also where the consequences of the internal Maximianist split are pressed again, one last
+  time, before this world's period closes.
+
+  Those consequences were still live as late as about 405-406. The 411 Conference pressed them one
+  final time.
+
+  Two ending forces from outside the movement worked together here, not separately. One is this
+  verdict and the penal laws that followed. The other is the Vandal capture of Carthage.
+
+  The verdict and its laws pressed this world's institutional life for nearly three decades. Then
+  the Vandal capture removed the enforcing power altogether.
+
+  The movement's institutions wore down from within under this pressure. That decline was the
+  combined effect of both forces, not of either one alone.
+
+  One gap remains open, and we name it plainly. This world's own Donatist account of receiving
+  this verdict can now be recovered in principle, because the Gesta is in the collection.
+
+  But no specific claim has yet been drawn from it. That is real, unfinished work, and this record
+  does not resolve it.
 manifestations:
 - 279 Donatist against 286 Catholic bishops seated
 - Emeritus of Caesarea speaking at length on the Donatist side of the exchange (don.figure.emeritus, don.quote.emeritus-magno-argumento)

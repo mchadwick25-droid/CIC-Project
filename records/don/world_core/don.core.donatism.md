@@ -47,137 +47,210 @@ relations: []
 time_window:
   start: 311
   end: 439
-horizon: 'The rigorist alternative communion of Roman North Africa, c. 311/312 - 439: the church that
-  split from the North African Catholic party over whether sacraments and ordinations given by clergy
-  suspected of having surrendered the scriptures under the Diocletianic persecution are valid at all,
-  and that then lived as a complete parallel church - its own bishops, its own basilicas, its own line
-  of ordination - contesting the rival communion town for town across Africa Proconsularis, Numidia, Byzacena,
-  and Mauretania (Doc_01 SS1-SS2). Carthage holds both rival bishoprics from the outset and is the site
-  of the decisive 411 Conference; Numidia is this communion''s own heartland, numerically dominant, the
-  origin region of several of its most prominent bishops and of the Circumcellion phenomenon; Cirta, as
-  Constantina, is Petilian''s see. This is not a doctrinal heresy: the confession here is standard North
-  African Latin Trinitarian and Christological orthodoxy, and what is contested is legitimacy - who the
-  true church is, and whose hand can validly give what the church gives (Doc_01 SS1). Two dates open the
-  window rather than one, because the sources support both and not a choice between them: the disputed
-  election and consecration of Caecilian as bishop of Carthage falls in 311 or 312 depending on how the
-  transition from persecution to episcopal election is dated, and the traditio accusation against his
-  consecrator Felix of Aptungi produced the rival consecration of Majorinus, succeeded from c. 313 by
-  Donatus, from whom the movement takes its name. The window closes at the Vandal capture of Carthage
-  in 439 - and that close means one specific thing, not a general end. What 439 removes is the Roman imperial
-  state as the Catholic-aligned adjudicating and coercing power that this communion''s whole refusal-of-imperial-legitimacy
-  pattern is defined against, and on which every one of its Historical Pressures depends (Doc_01 SS2).
-  The two-party contest itself does not end there: it persists under Vandal and then Byzantine rule for
-  roughly a further century and a half, falling silent only after Gregory the Great''s correspondence
-  in the 590s - four letters of his, directly read, still urge suppression, a council, and an inquiry
-  into Donatist rebaptism in Numidia (Doc_02 SS7). No continuous line to any present-day communion is
-  documented at any point, and this world''s own Living Tradition Status is not confirmed. This world''s
-  own self-description is the Church of the Martyrs: the pure, persecuted, true church, holding an unbroken
-  traditor-free ordination line against a rival it regards as tainted and, from 312 onward, state-favored.'
-formation_logic: 'One conviction, lived out through purity, rite, memory, and refusal, rather than four
-  commitments that happen to coexist: we are the pure, persecuted, true church, proved by what we will
-  not concede and by what we have suffered for refusing to concede it (Doc_07 SS2I, SS5). A fully formed
-  member holds without qualification that a sacrament''s validity rises and falls on the giver''s own
-  unbroken purity, and has been rebaptized - deliberately, individually, bodily - into the one communion
-  whose ministers can be trusted to give it. THE MECHANISM IS NOT TEACHING. Formation here does not run
-  through speculative doctrine or a developed interpretive tradition; this world argues one question,
-  sacramental validity, with real rigor, and almost nothing else (Doc_07 SS2D, SS5). It runs instead through
-  three things a person does and undergoes: an enacted threshold crossed once and bodily (rebaptism);
-  repeated commemorative narration, the community''s own dead held by name, at the grave, on the appointed
-  day, their account read aloud so the same conviction happens again in the hearing; and lived legal jeopardy,
-  a whole church existing under continuous external legal pressure punctuated by episodes of acute persecution.
-  A person is formed less by being taught a doctrine than by doing the rite, hearing the story, and living
-  inside the pressure that the doctrine and the story both explain. THE ARC runs from that threshold,
-  through a parallel institutional life under jeopardy, toward maturity that looks like the martyr - not
-  necessarily literal death, but the settled readiness the martyr narratives hold up as the ideal: suffering
-  chosen over a peace that would concede the rival''s legitimacy. TWO PERSECUTIONS ARE HELD DISTINCT,
-  NOT MERGED (Doc_07 SS3A): the empire-wide Diocletianic persecution, suffered alongside the eventual
-  rival before the schism existed, supplies the traditio accusation the whole doctrinal argument stands
-  on; the later Macarian repression of 347-348, suffered AT that same rival''s own instigation, supplies
-  the named martyrs actually commemorated. A formed member can say precisely which persecution grounds
-  the accusation and which grounds the grief. AND THE SYSTEM WAS BUILT TO SURVIVE AN OSCILLATING STATE.
-  This is not a fixed structure persecution happened to interrupt; it is one built, from its founding
-  moment, to be lived under a power that could tip without warning from coercion to toleration to renewed
-  suppression - which is exactly why the refusal is held with three specific pragmatic exceptions rather
-  than absolute purity of principle (the 313 appeal to Constantine, the 361 petition to Julian, and the
-  390s invocation of imperial and proconsular machinery against the Maximianists), each falling at a moment
-  the external power briefly offered something to gain by engaging it (Doc_07 SS4). To be formed here
-  was to hold an absolute conviction and a named, undenied exception to it in the same breath without
-  experiencing that as contradiction: the gap was held openly, inside the same conviction, stated plainly
-  in the same texts that state the doctrine at its most absolute, and naming it was never thought to require
-  closing it (Doc_07 SS6).'
-thinness: 'One pattern, repeating at every scale: this world''s evidence survives in INVERSE proportion
-  to how directly it can be checked without a hostile hand mediating it (Doc_07 SS5). Nearly all vendored
-  textual material passed through Catholic hands - Optatus of Milevis and Augustine of Hippo - before
-  reaching us, and this severe Author Gravity concentration is named as this world''s CENTRAL evidentiary
-  problem, not a background caveat (Doc_01 SS7 item 1; Doc_02 SS6). Donatist literature survives almost
-  entirely as quotation embedded inside its own refutations. Richest, accordingly, in what the opponents
-  argued about at length: the purity doctrine and its rebaptism consequence, the legal and institutional
-  shape of the schism, the conciliar and imperial documentary record, and the martyr narratives - and,
-  unusually, in one stratum of material that escaped that mediation entirely, the Deo laudes acclamation
-  cut in stone, this world''s strongest single anchor precisely because it was never textual to begin
-  with. THE SKEW IS NOT THE USUAL ONE. Donatism was, for substantial regions and periods, the numerically
-  dominant church, not an elite minority current: its ordinary members are not a separate, thin population
-  but the bulk of the movement itself, unreachable in their own words for reasons of institutional loss
-  rather than social marginality (Doc_02 SS6; Doc_01 SS2). Thin to silent, structurally: the ordinary
-  believer''s own interior life, known mostly through what opponents chose to argue against; the feelings
-  a hostile-mediated record does not preserve - fear, doubt, quiet defection, a traditor''s own interior
-  life - as against the vindication and defiant joy that DO survive, because those survive in the martyr
-  texts that no opponent filtered (Doc_07 SS2B, SS5); speculative and hermeneutical theology beyond Tyconius''s
-  single case, a genuine disclosed absence independently confirmed by four separate construction documents
-  rather than an unexplored one (Doc_01 SS3; Doc_07 SS3B, SS7); the physical rooms - Numidian basilica
-  archaeology remains honestly undone, with no specific site report named anywhere in this world''s source
-  ecology, so that this world knows its own acclamation far better than the room it was spoken in; women,
-  save for one named wealthy Carthaginian laywoman preserved only inside the founding hostile narrative''s
-  explanation for why the schism happened at all, and a second woman behind the Maximianist schism whom
-  Augustine parallels to her and never names; and a Donatist-authored institutional record of this world''s
-  own external forces - no surviving Donatist chronicle of Arles, no Donatist administrative account of
-  the Macarian repression, only the martyr-cult narrative response to it (Doc_02 SS6).'
-cautions: '1) AUTHOR GRAVITY, NAMED AS THE CENTRAL PROBLEM: nearly the whole textual record is this communion''s
-  own opponents writing against it. Never convert Optatus''s or Augustine''s narrative richness or documentary
-  specificity into independent corroboration - including the Maximianist episode, which reaches us almost
-  entirely through Augustine''s own quotation and must be marked as such (Doc_01 SS7 item 1). Even the
-  documentary dossier appended to Optatus, genuine court and conciliar acts though its items are, sits
-  inside that concentration: the selection is his own act (Registry row 2). 2) THE FOUR CORRECTIONS ARE
-  REAL BUT BOUNDED: four texts speak AS Donatists rather than being spoken about - the Passio Donati sermon,
-  the Passio Marculi, Macrobius''s own letter, and Tyconius''s Liber Regularum - and the 411 conference
-  transcript records Donatist bishops'' own words without an adversary selecting them for refutation.
-  Every one is short or occasional against the scale of the opposing corpus, and the transcript''s vendored
-  scan carries this corpus''s worst OCR on record for a text of that significance (Doc_02 SS6). 3) FRENDS
-  THESIS IS CONTESTED, NOT SETTLED: the native-social-protest reading of this world''s rural strength
-  and of the Circumcellions is the most contested single argument this world''s Registry draws on, with
-  Shaw, Brown, and Tengstrom as named counterpoints; it is flagged for priority second-opinion review
-  before it supports any specific claim (Registry rows 23, 24, 26, 46). 4) THE CIRCUMCELLION SPLIT MUST
-  BE HELD: the group''s EXISTENCE is independently attested outside hostile polemic - Codex Theodosianus
-  16.5.52 fines circumcelliones ten pounds of silver, the only rank of ten fined in silver rather than
-  gold - but its CHARACTERISATION is substantially shaped by that polemic, and the two must never be merged
-  (Doc_01 SS7 item 2; Doc_02 SS6). Their own self-designation, agonistici, is confirmed ABSENT from the
-  Theodosian Code and its source passage in Augustine remains unidentified. 5) TWO VENDORED AUTHORITIES
-  DISAGREE ABOUT THE PASSIO DONATI and neither is adopted: Mabillon dates the persecution circa 340; Monceaux
-  dates it to 12 March 317 with composition circa 320, proposes an eyewitness Donatist bishop of Carthage
-  as preacher, and resolves the title differently. Never cite a settled date or author for it (Doc_02
-  SS4, SS8). 6) THE MARTYR PASSIONES DO NOT DATE THEMSELVES: the Passio Marculi''s own heading gives a
-  day and no year, and the 347-348 Macarian dating rests on the standard field literature, not on the
-  texts. 7) HOMONYMS, EASILY CONFLATED: the Maximian of the Maximianist schism (a deposed deacon, 393)
-  is a different person from the martyr Maximian of the Passio Isaac et Maximiani; the Optatus who was
-  Donatist bishop of Thamugadi is not Optatus of Milevis, the Catholic polemicist. 8) THE REFUSAL IS DOMINANT,
-  NOT ABSOLUTE: this communion turned to imperial or proconsular machinery at three specific points -
-  313, 361, and the 390s against its own Maximianist dissidents - and its councils received returning
-  Maximianist clergy without reordination or rebaptism at all. These are not embarrassments to manage;
-  this world''s own record states them plainly in the same texts that state the doctrine at its most absolute
-  (Doc_01 SS5; Doc_07 SS6). 9) STRAND-SINGULAR, TESTED: both Tyconius and the Maximianist episode were
-  tested against Article 21''s bar and rejected on the record, not overlooked - Tyconius as a condemned
-  individual dissenting voice with no attested following or distinct communal practice, the Maximianists
-  as a dispute over who should hold a see rather than a distinct pattern of communal life (Doc_01 SS4).
-  Tyconius''s own formal standing within the communion is deliberately left open. 10) UNREAD MATERIAL,
-  NAMED AS GAPS: Monceaux''s two dedicated Donatism volumes are vendored and essentially unread, including
-  a whole chapter on Petilian, whose voice this world is otherwise thinnest on; the Gesta''s transcript
-  has been read for one full act; Contra Gaudentium''s preserved Donatist letters are confirmed present
-  and unread; and the standard modern instruments - Tilley''s martyr-story translations, Maier''s documentary
-  dossier, Mandouze''s prosopography, Duval''s martyr-cult corpus - are all in copyright and unvendorable.
-  11) NO SEARCH RECORD EXISTS: no per-search log was kept during this world''s source work, unlike some
-  sibling worlds; the Registry''s Discovery column was reconstructed alongside its own drafting rather
-  than logged contemporaneously, and its own Saturation Statement declines to claim completeness - no
-  fresh field-bibliography sweep against standard reference instruments has been run.'
+horizon: >-
+  The rigorist alternative communion of Roman North Africa, c. 311/312 to 439. This is the church
+  that split from the North African Catholic party over one question. Some clergy were suspected
+  of having surrendered the scriptures under the Diocletianic persecution. Were the sacraments and
+  ordinations they gave valid at all?
+
+  This church then lived as a complete parallel church, with its own bishops, its own basilicas,
+  and its own line of ordination. It contested the rival communion town for town across Africa
+  Proconsularis, Numidia, Byzacena, and Mauretania.
+
+  Carthage holds both rival bishoprics from the outset, and it is the site of the decisive 411
+  Conference. Numidia is this communion's own heartland, where it is numerically dominant. Several
+  of its most prominent bishops came from there, and so did the Circumcellion phenomenon. Cirta,
+  as Constantina, is Petilian's see.
+
+  This is not a doctrinal heresy. The confession here is standard North African Latin Trinitarian
+  and Christological orthodoxy. What is contested is legitimacy: who the true church is, and whose
+  hand can validly give what the church gives.
+
+  Two dates open the window rather than one, because the sources support both and not a choice
+  between them. The disputed election and consecration of Caecilian as bishop of Carthage falls in
+  311 or 312. Which year depends on how the transition from persecution to episcopal election is
+  dated. The traditio accusation against his consecrator, Felix of Aptungi, produced the rival
+  consecration of Majorinus. From c. 313 Majorinus was succeeded by Donatus, from whom the
+  movement takes its name.
+
+  The window closes at the Vandal capture of Carthage in 439, and that close means one specific
+  thing, not a general end. What 439 removes is the Roman imperial state as the Catholic-aligned
+  power that adjudicates and coerces. This communion's whole pattern of refusing imperial
+  legitimacy is defined against that power. Every one of its historical pressures depends on it.
+
+  The two-party contest itself does not end there. It persists under Vandal and then Byzantine
+  rule for roughly a further century and a half. It falls silent only after Gregory the Great's
+  correspondence in the 590s. Four of his letters, directly read, still urge suppression, a
+  council, and an inquiry into Donatist rebaptism in Numidia.
+
+  No continuous line to any present-day communion is documented at any point. This world's own
+  Living Tradition Status is not confirmed.
+
+  This world's own self-description is the Church of the Martyrs: the pure, persecuted, true
+  church. In its own eyes, it holds an unbroken, traditor-free line of ordination against a rival
+  it regards as tainted and, from 312 onward, state-favored.
+formation_logic: >-
+  One conviction runs through purity, rite, memory, and refusal. These are not four commitments
+  that happen to coexist. The conviction is this: we are the pure, persecuted, true church. What
+  proves it is what we will not concede, and what we have suffered for refusing to concede it.
+
+  A fully formed member holds without qualification that a sacrament's validity rises and falls on
+  the giver's own unbroken purity. That member has been rebaptized, deliberately, individually,
+  and bodily, into the one communion whose ministers can be trusted to give it.
+
+  The mechanism is not teaching. Formation here does not run through speculative doctrine or a
+  developed interpretive tradition. This world argues one question, sacramental validity, with
+  real rigor, and almost nothing else.
+
+  Instead, formation runs through three things a person does and undergoes. The first is an
+  enacted threshold, crossed once and bodily: rebaptism. The second is repeated commemorative
+  narration. The community's own dead are held by name, at the grave, on the appointed day. Their
+  account is read aloud, so the same conviction happens again in the hearing. The third is lived
+  legal jeopardy: a whole church existing under continuous external legal pressure, punctuated by
+  episodes of acute persecution.
+
+  A person is formed less by being taught a doctrine than by doing the rite, hearing the story,
+  and living inside the pressure. The doctrine and the story both explain that pressure.
+
+  The arc runs from that threshold, through a parallel institutional life under jeopardy, toward a
+  maturity that looks like the martyr. That does not necessarily mean literal death. It means the
+  settled readiness the martyr narratives hold up as the ideal: suffering chosen over a peace that
+  would concede the rival's legitimacy.
+
+  Two persecutions are held distinct, not merged. The first is the empire-wide Diocletianic
+  persecution, suffered alongside the eventual rival before the schism existed. It supplies the
+  traditio accusation that the whole doctrinal argument stands on. The second is the later
+  Macarian repression of 347-348, suffered at that same rival's own instigation. It supplies the
+  named martyrs actually commemorated. A formed member can say precisely which persecution grounds
+  the accusation and which grounds the grief.
+
+  And the system was built to survive an oscillating state. This is not a fixed structure that
+  persecution happened to interrupt. From its founding moment, it was built to be lived under a
+  power that could tip without warning. That power could swing from coercion to toleration to
+  renewed suppression.
+
+  That is exactly why the refusal is held with three specific pragmatic exceptions, rather than as
+  absolute purity of principle. They are the 313 appeal to Constantine, the 361 petition to
+  Julian, and the 390s invocation of imperial and proconsular machinery against the Maximianists.
+  Each fell at a moment when the external power briefly offered something to gain by engaging it.
+
+  To be formed here was to hold an absolute conviction and a named, undenied exception to it in
+  the same breath. A formed member did not experience that as contradiction. The gap was held
+  openly, inside the same conviction. It was stated plainly in the same texts that state the
+  doctrine at its most absolute. Naming it was never thought to require closing it.
+thinness: >-
+  One pattern repeats at every scale. This world's evidence survives in inverse proportion to how
+  directly it can be checked without a hostile hand mediating it.
+
+  Nearly all the textual material this world's record holds passed through Catholic hands before
+  reaching us: those of Optatus of Milevis and Augustine of Hippo. This severe concentration of
+  authorship in opposing hands is named as this world's central evidentiary problem, not a
+  background caveat. Donatist literature survives almost entirely as quotation embedded inside its
+  own refutations.
+
+  The record is richest, accordingly, in what the opponents argued about at length. That means the
+  purity doctrine and its rebaptism consequence, and the legal and institutional shape of the
+  schism. It also means the conciliar and imperial documentary record, and the martyr narratives.
+
+  Unusually, the record is also rich in one stratum of material that escaped that mediation
+  entirely: the Deo laudes acclamation cut in stone. It is this world's strongest single anchor,
+  precisely because it was never textual to begin with.
+
+  The skew is not the usual one. For substantial regions and periods, Donatism was the numerically
+  dominant church, not an elite minority current. Its ordinary members are not a separate, thin
+  population. They are the bulk of the movement itself. They are unreachable in their own words
+  because of institutional loss, not social marginality.
+
+  Some things are thin to silent, by the very structure of the record.
+
+  The ordinary believer's own interior life is known mostly through what opponents chose to argue
+  against.
+
+  A hostile-mediated record does not preserve certain feelings: fear, doubt, quiet defection, a
+  traditor's own interior life. Vindication and defiant joy, by contrast, do survive. They survive
+  because they sit in the martyr texts that no opponent filtered.
+
+  Speculative and hermeneutical theology is thin beyond Tyconius's single case. This is a genuine
+  disclosed absence, not an unexplored one. Four separate construction documents confirm it
+  independently.
+
+  The physical rooms are thin. Numidian basilica archaeology remains honestly undone, and no
+  specific site report is named anywhere in this world's source ecology. So this world knows its
+  own acclamation far better than the room it was spoken in.
+
+  Women are thin, save for two. One is a named wealthy Carthaginian laywoman. She is preserved
+  only inside the founding hostile narrative's explanation for why the schism happened at all. The
+  other is a woman behind the Maximianist schism, whom Augustine parallels to the first and never
+  names.
+
+  Last, there is no Donatist-authored institutional record of this world's own external forces. No
+  Donatist chronicle of Arles survives, and no Donatist administrative account of the Macarian
+  repression. There is only the martyr-cult narrative response to it.
+cautions: >-
+  1) The concentration of authorship is named as the central problem. Nearly the whole textual
+  record is this communion's own opponents writing against it. Never convert Optatus's or
+  Augustine's narrative richness or documentary specificity into independent corroboration. That
+  includes the Maximianist episode, which reaches us almost entirely through Augustine's own
+  quotation and must be marked as such. Even the documentary dossier appended to Optatus sits
+  inside that concentration. Its items are genuine court and conciliar acts, but the selection is
+  his own act.
+
+  2) The four corrections are real but bounded. Four texts speak as Donatists rather than being
+  spoken about: the Passio Donati sermon, the Passio Marculi, Macrobius's own letter, and
+  Tyconius's Liber Regularum. The 411 conference transcript also records Donatist bishops' own
+  words, without an adversary selecting them for refutation. Every one is short or occasional
+  against the scale of the opposing corpus. The transcript's own scan also carries this corpus's
+  worst OCR on record for a text of that significance.
+
+  3) The Frends thesis is contested, not settled. It reads this world's rural strength, and the
+  Circumcellions, as native social protest. It is the most contested single argument this world's
+  source collection draws on. Shaw, Brown, and Tengstrom are its named counterpoints. It is
+  flagged for priority second-opinion review before it supports any specific claim.
+
+  4) The Circumcellion split must be held. The group's existence is independently attested outside
+  hostile polemic. Codex Theodosianus 16.5.52 fines circumcelliones ten pounds of silver, the only
+  rank of ten fined in silver rather than gold. But the group's characterisation is substantially
+  shaped by that polemic, and the two must never be merged. Their own self-designation,
+  agonistici, is confirmed absent from the Theodosian Code. Its source passage in Augustine
+  remains unidentified.
+
+  5) Two vendored authorities disagree about the Passio Donati, and neither is adopted. Mabillon
+  dates the persecution circa 340. Monceaux dates it to 12 March 317, with composition circa 320.
+  He proposes an eyewitness Donatist bishop of Carthage as preacher, and he resolves the title
+  differently. Never cite a settled date or author for it.
+
+  6) The martyr passiones do not date themselves. The Passio Marculi's own heading gives a day and
+  no year. The 347-348 Macarian dating rests on the standard field literature, not on the texts.
+
+  7) Homonyms are easily conflated. The Maximian of the Maximianist schism (a deposed deacon, 393)
+  is a different person from the martyr Maximian of the Passio Isaac et Maximiani. The Optatus who
+  was Donatist bishop of Thamugadi is not Optatus of Milevis, the Catholic polemicist.
+
+  8) The refusal is dominant, not absolute. This communion turned to imperial or proconsular
+  machinery at three specific points: 313, 361, and the 390s against its own Maximianist
+  dissidents. Its councils also received returning Maximianist clergy without reordination or
+  rebaptism at all. These are not embarrassments to manage. This world's own record states them
+  plainly, in the same texts that state the doctrine at its most absolute.
+
+  9) This world is treated as one single movement, not several. Both Tyconius and the Maximianist
+  episode were checked against that question and rejected on the record, not overlooked. Tyconius
+  was rejected as a condemned individual dissenting voice, with no attested following or distinct
+  communal practice. The Maximianists were rejected as a dispute over who should hold a see,
+  rather than a distinct pattern of communal life. Tyconius's own formal standing within the
+  communion is deliberately left open.
+
+  10) Unread material is named as gaps. Monceaux's two dedicated Donatism volumes are vendored and
+  essentially unread. They include a whole chapter on Petilian, whose voice this world is
+  otherwise thinnest on. The Gesta's transcript has been read for one full act. Contra
+  Gaudentium's preserved Donatist letters are confirmed present and unread. The standard modern
+  instruments are all in copyright and cannot be vendored: Tilley's martyr-story translations,
+  Maier's documentary dossier, Mandouze's prosopography, and Duval's martyr-cult corpus.
+
+  11) No search record exists. Unlike some sibling worlds, no per-search log was kept during this
+  world's source work. The source collection's own Discovery column was reconstructed alongside
+  its own drafting, rather than logged at the time. Its own Saturation Statement declines to claim
+  completeness. No fresh field-bibliography sweep against standard reference instruments has been
+  run.
 thin_topics:
 - keywords:
   - ordinary believer
