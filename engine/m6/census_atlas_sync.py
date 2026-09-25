@@ -23,6 +23,16 @@ separately compiled per-world orientation JSON (cic-website/data/worlds/
 via `python -m engine.m2.site_cli build`, from a world's own world_front
 record) - BUILT_WORLD_FIELDS is the subset of that prose the Atlas still
 carries directly for them.
+
+Deliberately excluded from every list above: `legacySources`,
+`storySources`, and `verifiedSources` - checked directly, world-census.json
+carries none of the three on any of its 292 movements, so there is nothing
+for this module to mirror from. Where a built world's Atlas entry carries
+real values for them (post-apostolic-house-church does), that content
+comes from a different pipeline entirely; syncing these fields from
+census.json would overwrite real Atlas content with an absent value on
+every movement that has any, which is the merge-logic/content-guess this
+module's own first paragraph rules out.
 """
 import copy
 
@@ -47,6 +57,11 @@ STRUCTURAL_FIELDS = (
     "lane",
     "laneLabel",
     "laneOrder",
+    "name",
+    "shortName",
+    "era",
+    "region",
+    "continuesAs",
 )
 
 NON_BUILT_WORLD_FIELDS = (

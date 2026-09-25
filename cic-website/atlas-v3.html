@@ -425,7 +425,7 @@ const DATA = {
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
-  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows world_manifest.py, the real deployment source of truth; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
+  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2
  },
  "eras": [
@@ -1949,7 +1949,7 @@ const DATA = {
    "dates": "c. 197-320",
    "start": 197,
    "end": 320,
-   "region": "Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
+   "region": "Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and Trier",
    "regions": [
     "Mediterranean",
     "Africa",
@@ -13543,7 +13543,7 @@ const DATA = {
    "name": "Maronite Christianity",
    "shortName": "Maronites",
    "informalName": "The Maronites of Mount Lebanon",
-   "dates": "consolidating by this era",
+   "dates": "c. 1100-1300",
    "start": 1100,
    "end": 1300,
    "region": "Mount Lebanon",
@@ -17675,10 +17675,13 @@ const DATA = {
    "relationsSummary": "Grew out of late-medieval piety and its protest against Rome, becoming a rival to Rome and a sibling rival to the Reformed churches. The Augustinian Hermits, Luther's own religious order, were its seedbed: the order's houses in Lutheran lands were absorbed into the new movement, while its Catholic houses continued within the Catholic Church.",
    "why": "Luther's own writings are enormous, but the Saxon visitation records of 1527-28 tell a different story: sent out to examine parish after parish, the visitors found many villagers knew far less of the new faith than the pamphlets implied. The same decades also produced women publishing under their own names, like Argula von Grumbach and Katharina Schütz Zell, defending the evangelical cause in print.",
    "entry": {
+    "representativeId": "nikolaus",
     "representativeName": "Nikolaus",
     "representativeTitle": "Sexton-Schoolmaster",
     "worldName": "The Catechized Households of Wittenberg",
-    "subtitle": "Lutheran Wittenberg & Its Congregations"
+    "subtitle": "Lutheran Wittenberg & Its Congregations",
+    "tile": "In 1517, Martin Luther sent theses against the sale of indulgences to his archbishop. He was an Augustinian friar and professor at the young university of Wittenberg. His theses opened a movement that challenged the old order in two ways. It set Scripture's own authority against an intervening hierarchy. And it held that a person stands before God by a gift received through faith, not earned by works. Princes and city councils carried the reform into their own territories, not bishops. Wittenberg's own theology faculty advised them, not a separate church government. The reform's most complete instrument was the household catechism. It had three parts, recited at rising, at table, and at night. A father or a schoolmaster examined each household every week. The commandments had terrified a conscience; a promise spoken from outside it made that conscience sure. German hymns were sung inside a Mass that was kept, not abolished. The story runs from the Ninety-Five Theses to a confession signed before the emperor at Augsburg in 1530. It closes with a fuller confessional book gathered by 1580. By then the movement's own founder had been dead some three decades.",
+    "icon": "assets/portraits/nikolaus.jpg"
    },
    "sources": [
     {
