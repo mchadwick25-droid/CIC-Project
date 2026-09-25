@@ -51,7 +51,3 @@ at its own period.
 
 Normalization: hard line-wraps rejoined with single spaces. No word was added, dropped,
 substituted, or reordered.
-
-This span is referenced by two host records (gallic.force.barbarian-fiscal-ruin and
-gallic.gravity.judgment-imminent-present); both now paraphrase it in their own voice and point
-here for the verbatim wording. Reciprocal associated-with declared on both.

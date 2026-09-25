@@ -61,7 +61,3 @@ ending at its own period.
 
 Normalization: line breaks joined with single spaces; the source's own em dash after "time" is
 preserved as written. No word was added, dropped, substituted, or reordered.
-
-This span was previously carried, unresolved, inside gallic.gravity.judgment-imminent-present's
-own `description` field. The host record now paraphrases it in its own voice
-and points here for the verbatim wording.

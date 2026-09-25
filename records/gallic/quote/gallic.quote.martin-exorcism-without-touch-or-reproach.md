@@ -66,7 +66,3 @@ dropped, substituted, or reordered.
 speaker_or_author matches this world's own established convention for Dialogues III material
 (gallic.quote.brictio-horses-and-slaves): Gallus narrates the Martin material in Dialogues II-III,
 with Sulpitius himself present as audience.
-
-This span was previously carried, unresolved, inside gallic.force.power-displayed-disowned's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.

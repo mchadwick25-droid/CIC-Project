@@ -59,7 +59,3 @@ Deacon Aurelius."). The quoted span is one complete sentence, "After you had dep
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.
-
-This span was previously carried, unresolved, inside gallic.gravity.judgment-imminent-present's
-own `description` field. The host record now paraphrases it in its own voice
-and points here for the verbatim wording.

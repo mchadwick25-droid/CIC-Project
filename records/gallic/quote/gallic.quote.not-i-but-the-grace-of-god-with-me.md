@@ -41,10 +41,10 @@ modern_lens_note: >-
   Cassian offers it as a practical habit of speech for a monk who senses progress, quoting Paul
   three times over rather than arguing a position.
 modern_rendering: >-
-  And so we can escape the snare of this most evil spirit. We can do so if, in every virtue where
-  we feel we are making progress, we say these words of the Apostle: "Not I, but the grace of God
-  with me." And: "By the grace of God I am what I am." And: "It is God who works in us both to
-  will and to do, according to His good pleasure."
+  And so we can escape the snare of this most evil spirit. Whenever we feel we are making
+  progress in any virtue, we say the Apostle's own words: "Not I, but the grace of God with me."
+  And: "By the grace of God I am what I am." And: "It is God who works in us both to will and to
+  do, according to His good pleasure."
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort
@@ -60,7 +60,3 @@ Normalization: line breaks joined with single spaces; the source's curly quotati
 the three nested Pauline quotations are rendered here as straight double quotes, the same marks in
 a different Unicode form - these are Scripture quoted inside Cassian's own sentence, not this
 record's own added structure. No word was added, dropped, substituted, or reordered.
-
-This span was previously carried, unresolved, inside gallic.gravity.grace-and-effort's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.

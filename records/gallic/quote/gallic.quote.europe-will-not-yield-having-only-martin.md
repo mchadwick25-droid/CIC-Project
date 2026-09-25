@@ -61,7 +61,3 @@ Martin.", ending at its own period.
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.
-
-This span was previously carried, split into two separate fragments joined by a bare "...", inside
-gallic.gravity.egypt-as-measure's own `description` field. The host record
-now paraphrases it in its own voice and points here for the full, continuous, unabridged wording.

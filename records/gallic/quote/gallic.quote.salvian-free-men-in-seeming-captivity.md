@@ -46,26 +46,20 @@ relations:
 ---
 Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `grep -n
 "free men"` and `grep -n "seeming captivity"` both return line 6458; read with `sed -n
-'6446,6461p'`, on the page numbered "142 THE FIFTH BOOK." An earlier draft of this record carried
-the full sentence back to "So you find men passing over everywhere..."; the vendored file's own
-text at that wider span carries two OCR artifacts this edition's REGISTRY.yaml apparatus entry
-does not yet cover - a bare closing curly quote (U+201D) glued to "anywhere," with no matching
-open quote (the same defect class already disclosed, for a different point in this same file, in
-`gallic.quote.salvian-on-the-unburied-dead`'s own trailer), and a stray period glued mid-clause in
-"they do not repent. of their expatriation" (line 6457) - neither a safe pattern to strip
-edition-wide off one occurrence each. Rather than carry an artifact-bearing `text` field or invent
-an unevidenced edition-wide rule, this record's own quoted span was narrowed to the one continuous,
-artifact-free sentence that carries the load-bearing claim - "For they would rather live as free
-men..." through "...captives in seeming liberty.", ending at its own period - dropping the
-"crossing over to the Goths and the Bagaudae" lead-in rather than forcing it through unresolved
-apparatus.
+'6446,6461p'`, on the page numbered "142 THE FIFTH BOOK." The wider sentence this clause sits in
+("So you find men passing over everywhere...") carries two OCR artifacts this edition's
+REGISTRY.yaml apparatus entry does not yet cover - a bare closing curly quote (U+201D) glued to
+"anywhere," with no matching open quote (the same defect class already disclosed, for a different
+point in this same file, in `gallic.quote.salvian-on-the-unburied-dead`'s own trailer), and a
+stray period glued mid-clause in "they do not repent. of their expatriation" (line 6457) - neither
+a safe pattern to strip edition-wide off one occurrence each. This record's own quoted span is
+narrowed to the one continuous, artifact-free sentence that carries the load-bearing claim - "For
+they would rather live as free men..." through "...captives in seeming liberty.", ending at its
+own period - rather than carrying an artifact-bearing `text` field or inventing an unevidenced
+edition-wide rule.
 
 Normalization: hard line-wraps rejoined with single spaces, including a hyphenated line-break word
 ("seem-\ning"); "For" capitalized to open this record's own `text` field (a case difference
 `engine.m1.quote_verbatim` tolerates), the source's own word at that position being lowercase
 "for" mid-sentence. No word was added, dropped, substituted, or reordered within the quoted span
 itself.
-
-This span was previously carried, unresolved, inside gallic.force.barbarian-fiscal-ruin's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.

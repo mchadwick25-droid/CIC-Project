@@ -54,13 +54,12 @@ disclaimer about his own unworthiness); this record closes the quote at its own 
 this clause's own claim, and rather than force the whole run-on sentence into one record.
 
 Normalization: line breaks joined with single spaces; a translator's footnote identifying Castor
-as Bishop of Apta Julia was excluded as apparatus. No word was added, dropped, substituted, or
+as Bishop of Apta Julia was excluded as apparatus; "Since" is capitalized to open this record's own
+`text` field, a case difference `engine.m1.quote_verbatim` tolerates - the source's own word at
+that position is the lowercase "since," mid-sentence ("...as an example to those who are seeking
+perfection,—since, then, you are anxious..."). No word was added, dropped, substituted, or
 reordered; no terminal punctuation is added after "monasteries" - the source's own sentence
 continues past this point into an unrelated disclaimer about Cassian's own unworthiness, so this
 record's `text` field closes at the end of this complete clause without inventing a period the
 source does not have at that position (`engine.m1.quote_verbatim` treats a substituted punctuation
 mark as a real difference, not a tolerated one).
-
-This span was previously carried, unresolved, inside gallic.gravity.egypt-as-measure's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.

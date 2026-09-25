@@ -70,9 +70,6 @@ inside `<div2 ... id="iv.vi">` (Conferences Part III, its own Preface, immediate
 div3 for Conference XVIII begins). The quoted span is one continuous sentence, "And to this your
 previous efforts..." through "...thoroughly instructed.", ending at its own period.
 
-Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
-reordered.
-
-This span was previously carried, unresolved, inside gallic.gravity.egypt-as-measure's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.
+Normalization: line breaks joined with single spaces; the source's own curly apostrophe in
+"anchorite's" is rendered here as a straight apostrophe, the same mark in a different Unicode form.
+No word was added, dropped, substituted, or reordered.

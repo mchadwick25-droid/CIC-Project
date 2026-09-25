@@ -67,7 +67,3 @@ skipped ("of a robe of sackcloth") sit directly adjacent, with nothing to elide.
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.
-
-This span was previously carried, with an unnecessary mid-sentence ellipsis, inside
-gallic.force.power-displayed-disowned's own `description` field. The host
-record now paraphrases it in its own voice and points here for the verbatim, unabridged wording.

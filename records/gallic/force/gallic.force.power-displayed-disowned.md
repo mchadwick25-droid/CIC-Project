@@ -15,12 +15,11 @@ confidence:
     Documented that Sulpitius's corpus is organized by virtus and that Cassian refuses it (the
     texts' own statements: Vita VII; Ep. I; Dial. III.6, III.15; Inst. Pref., I.2; Conf. XV.7);
     Widely Accepted for Martin's fame (Gennadius). The Lérins complication (Eucherius, row 26, file
-    line 452) is Inferential/Thin for wording. 'The historicity of the miracles is not asserted; the
-    Vita Antonii model question (row 34; Stancliffe, row 18, unread) is an open build item, not a
-    recorded scholarly contest.' Evidentiary weight set to contested because the force IS a tension
-    inside the record - one Doc_08 §7 item 11 also names a build-internal tension over compunction
-    (Doc_07 §2B against chunk 040), left open. Reported-Experience Status applies to Layer 2's Tours
-    sentences; 'the Egyptian refusal is voiced as received, not as Gaul's own.'
+    line 452) is Inferential/Thin for wording. The historicity of the miracles is not asserted; the
+    Vita Antonii model question (row 34; Stancliffe, row 18, unread) is an open item, not a recorded
+    scholarly contest. Evidentiary weight set to contested because the force itself is a real
+    tension between the two houses, neither side's own text resolving it. The Egyptian refusal is
+    presented as received teaching, not as something Gaul itself came up with.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
   locus: "ch. VII: 'perceiving by means of the Spirit of God that power was present' (Roberts's adesse virtutem editorial)"
@@ -67,7 +66,7 @@ relations:
   target: gallic.quote.humility-mistress-of-virtues-not-exorcism
 - type: associated-with
   target: gallic.quote.egyptian-sackcloth-utterly-disapproved
-name: "Power displayed against power disowned - virtus and humility, a tension the world did not experience as one [2B - ongoing/internal]"
+name: "Power displayed against power disowned - virtus and humility, a tension the world did not experience as one"
 kind: ongoing
 matrix_cell: 2B
 description: >-
@@ -75,7 +74,7 @@ description: >-
   addresses the other directly.
 
   The north's is a literature of power shown. At the deathbed of a catechumen, Martin prayed and
-  sensed that God's power was present, then raised the young man back to life (Vita VII). His
+  sensed that God's power was present, then raised him back to life (Vita VII). His
   letters defend that same power against a skeptic (Ep. I). When he cast out demons, he did it
   face-down in sackcloth, the door bolted, without touching or scolding anyone (Dial. III.6). The
   north also tells a story about doubt from within: one of Martin's own monks, in a fit of rage,
@@ -86,7 +85,7 @@ description: >-
   signs, however many he has seen, because they only astonish a reader and teach nothing about how
   to live well (Inst. Pref.). Abbot Nesteros teaches that a monk who declares himself an exorcist
   before an admiring crowd was never counted a good monk at all - humility, not power, is the
-  mother of every virtue (Conf. XV.7). Even dress carries the argument: the Egyptian fathers
+  mistress of every virtue (Conf. XV.7). Even dress carries the argument: the Egyptian fathers
   flatly rejected sackcloth as showy and conspicuous (Inst. I.2), the very thing Martin wears as a
   weapon. Inside the south itself, Eucherius still admires the Egyptian fathers' own visible signs
   of grace - the real argument here runs between Cassian and Sulpitius, not between south and
@@ -97,8 +96,8 @@ description: >-
   witnesses, in a garment everyone could see, for the sake of the countryside. At Marseilles, a
   good monk was known by how he lived, not by whether devils obeyed him; claiming to be an
   exorcist before a crowd was vanity, and sackcloth was performance. Each house lived inside its
-  own logic and never treated the other's as an argument against it - Martin's reputation and the
-  Egyptian fathers' teaching never meet in any surviving text.
+  own logic. The north does measure itself directly against Egypt elsewhere in its own literature -
+  but the south's fathers never once mention Martin, or answer anything Sulpitius wrote.
 
   This tension runs through the whole ecology. It splits every lens the same way - display against
   concealment, wonder against caution, a public act against a private ledger - and it even makes
@@ -114,21 +113,21 @@ manifestations:
 - "Sackcloth worn as a weapon at Tours and 'utterly disapproved' as conspicuous by Cassian's Egyptians (Inst. I.2)"
 - "Eucherius admiring the Egyptian fathers' 'crying signs' - the south not of one mind (row 26)"
 ---
-Re-derived from the approved Doc_08 (Cell 2B, Force 2B-4). Cross-cell connections (Section 4):
-Connection 8, '1A-3 -> 2B-4, intensified, one side: the north needed power outward, for the rustics
-and the possessed ... the south had no mission-field and refused to minister by wonders' - carried
-as enabled-by gallic.force.unconverted-countryside; Connection 9, '2A-3 -> 2B-4, reshaped:
-registered on the north's virtus as a diminution after coerced communion' - carried as
-associated-with gallic.force.court-at-trier, direction preserved here; Connection 13 (thin), '2A-5
--> 2B-4, occasion only, and one exception' - the rumoured inroad exposed by exorcism, and Brictio's
-barbarian captives letting the force in - carried as associated-with
-gallic.force.barbarian-fiscal-ruin; reciprocals declared on each. Doc_08 §8's construction note: a
-connection between this force and 2B-2 (transmission) - whether the virtus-organized Life was itself
-an inherited form - was recognized and could not be documented; it is NOT carried as an edge.
-Gravity linkage (Doc_08 §5, A.1): sustains G6 and states its refusal, sets G7 against G6 ('the
-south's refusal of wonders is its interior program's boundary'), carries G2's comparative mode, and
-touches G10 thinly (Antichrist read through the saint's discernment, Doc_04's thin G6 x G10 cell) -
-all four associated-with. Node: split (N virtus / S humility).
-gallic.story.paphnutius-and-the-hidden-book's own note - an exorcism used exactly as Conf. XV.7
-allows - is the south's story-form of this force, linked through G7 and G6 per its conversion line.
-Canon_cells left empty, matching fleet convention for gravity/force records.
+Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus,
+John Cassian). This description paraphrases the primary sources in its own voice; their verbatim
+wording, locus, and speaker attribution are each carried in full in
+gallic.quote.martin-power-present-catechumen-raising,
+gallic.quote.martin-exorcism-without-touch-or-reproach,
+gallic.quote.cassian-refuses-to-weave-a-tale-of-miracles,
+gallic.quote.humility-mistress-of-virtues-not-exorcism, and
+gallic.quote.egyptian-sackcloth-utterly-disapproved.
+
+This force connects to gallic.force.unconverted-countryside (the north needed power to reach the
+rustics and the possessed; the south had no mission field and refused to minister by wonders) and
+to gallic.force.court-at-trier (registered on the north's own virtus as a diminution after the
+coerced communion). Its connection to gallic.force.barbarian-fiscal-ruin stays occasion only - the
+barbarian force enters the north's own literature here only as a rumored inroad and an accusation,
+not as an argument between the two houses. Node: split (Tours virtus / Marseilles humility).
+gallic.story.paphnutius-and-the-hidden-book is the south's own story-form of this force - an
+exorcism used exactly as Conf. XV.7 allows. Canon_cells left empty, matching fleet convention for
+gravity/force records.

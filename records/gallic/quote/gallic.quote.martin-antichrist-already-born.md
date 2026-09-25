@@ -41,7 +41,7 @@ modern_lens_note: >-
   Gallus and Postumianus about the end of the world.
 modern_rendering: >-
   He also told us there was no doubt about this: Antichrist, conceived by an evil spirit, was
-  already born, and had by this time reached boyhood. And Antichrist would take power, Martin
+  already born. By this time, he had reached boyhood. And Antichrist would take power, Martin
   said, as soon as he reached the proper age.
 relations:
 - type: associated-with
@@ -59,7 +59,3 @@ reordered.
 
 speaker_or_author is a plain string, not gallic.figure.martin: the words are Gallus's own
 third-person account of what Martin told him, not a direct quotation attributed to Martin.
-
-This span was previously carried, unresolved, inside gallic.gravity.judgment-imminent-present's
-own `description` field. The host record now paraphrases it in its own voice
-and points here for the verbatim wording.

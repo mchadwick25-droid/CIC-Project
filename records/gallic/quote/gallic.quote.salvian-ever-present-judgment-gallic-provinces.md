@@ -63,16 +63,11 @@ Verified directly against cic/texts/salvian_on-the-government-of-god_sanford1930
 9150. Read with `sed -n '9135,9153p'`. The quoted span runs from "We are judged..." through
 "...whole body of the Gallic provinces.", ending at the paragraph's own period, before "This ruin
 spread gradually..." begins a new thought - the full, unedited continuous passage (numbered
-section 12 of Book VII in this edition), not an ellipsis joining separated fragments. Two host
-records had previously carried different sub-spans of this same continuous passage
-(gallic.force.barbarian-fiscal-ruin: "the country of the Belgae ... Gallic provinces" and "We are
-judged ... destruction and shame"; gallic.gravity.judgment-imminent-present: the same two spans
-joined by a bare mid-passage "..."); this record supersedes both with the whole, unedited
-paragraph, avoiding the fleet's own flagged defect of a bare, unfinished ellipsis.
+section 12 of Book VII in this edition), not an ellipsis joining separated fragments. This one
+record carries the whole, unedited paragraph rather than splitting it into narrower excerpts,
+avoiding a bare, unfinished ellipsis; both gallic.force.barbarian-fiscal-ruin and
+gallic.gravity.judgment-imminent-present point here for the verbatim wording of their own
+citations to this same passage.
 
-Normalization: hard line-wraps rejoined with single spaces. No word was added, dropped,
-substituted, or reordered.
-
-This span is referenced by two host records (gallic.force.barbarian-fiscal-ruin and
-gallic.gravity.judgment-imminent-present); both now paraphrase it in their own voice and point
-here for the verbatim wording. Reciprocal associated-with declared on both.
+Normalization: hard line-wraps rejoined with single spaces, including a hyphenated line-break word
+("de-\nstruction"). No word was added, dropped, substituted, or reordered.

@@ -55,7 +55,3 @@ reordered.
 
 speaker_or_author is a plain string, not a figure id: this is Sulpitius's own narratorial
 inference, not reported speech from Martin or anyone else.
-
-This span was previously carried, unresolved, inside gallic.gravity.judgment-imminent-present's
-own `description` field. The host record now paraphrases it in its own voice
-and points here for the verbatim wording.

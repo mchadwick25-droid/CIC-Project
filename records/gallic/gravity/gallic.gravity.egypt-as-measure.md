@@ -100,7 +100,7 @@ relations:
   target: gallic.quote.europe-will-not-yield-having-only-martin
 - type: associated-with
   target: gallic.quote.chaeremon-three-stages-of-grace
-name: "Egypt as the measure - one reference point, two modes [PRIMARY]"
+name: "Egypt as the measure - one reference point, two modes"
 classification: primary
 description: >-
   This world holds Egypt up as the standard of real monastic life. But the two houses relate to
@@ -114,10 +114,10 @@ description: >-
   living teachers (Conf. Pref. III). At Lérins, Eucherius names two Egyptian fathers as the pattern
   of a life already lived, in effect, in heaven.
 
-  In the north, the tie is comparative, even competitive. Gennadius, writing as a near-contemporary,
-  says plainly that the Dialogues set the life of the Eastern monks side by side with the life of
-  Martin. One speaker in the Dialogues tells another that he has out-argued every hermit and
-  solitary of the East. Another passage sends word all the way to Egypt itself. However proud Egypt
+  In the north, the tie is comparative, even competitive. Gennadius says plainly that the Dialogues
+  set the life of the Eastern monks side by side with the life of Martin. One speaker in the
+  Dialogues concedes to another that Martin surpasses every hermit and solitary of the East.
+  Another passage sends word all the way to Egypt itself. However proud Egypt
   is of its many saints, Europe need not yield to it, or to all of Asia, since Europe has Martin
   alone. Gaul is the poorer, colder partner in this comparison.
 
@@ -150,32 +150,15 @@ manifestations:
 - "Gennadius on the Dialogues: 'the manner of life of the oriental monks and of St. Martin' - the comparison as the work's own structure"
 - "Postumianus to Gallus, 'you have conquered all the eremites and anchorites' (Dial. II.5); 'Europe will not yield to it, or to all Asia, in having only Martin' (Dial. III.17); the Egyptian merchant's 'Save us, O God of Martin' (Dial. III.14)"
 ---
-Re-derived from the approved Doc_04 (§2.1 candidate G2 -> §3 G2 -> §8 row G2; Primary, split-mode
-qualifier permanent). Interaction Matrix (Doc_04 §4, row/col G2) - the row has no '-' cell, so this
-record declares no absence: reinforcing (R) with G1 (Egypt's institutes written for bishops;
-Archebius), G4 ('Inst. I.2's antiquity/numbers/unanimity is the reception criterion; "not mine but
-the fathers'"'), G5 ('authority to transmit Egypt = having seen and heard (Inst. Pref.); Gallus's
-eyewitness Martin answers Postumianus's Egypt'), G7 ('the interior road IS the received content'),
-G8 ('Inst. I.1's soldier's girdle is Egyptian dress; the north's soldier is a Roman one'), and G10
-('R (thin)' - Salvian's 'monasteries of Egypt' as a byword, 'reference point only, not a measuring
-relationship,' the cell corrected at Round 2 spot-check to match §3); reshaping (S) with G3
-('Chaeremon's received teaching becomes Gaul's own argument; Egypt is pleaded as "all the Catholic
-fathers" (XIII.18)') and G9 ('Egyptian anti-clerical instinct (XI.2, I.20) meets Gallic episcopal
-reality; Egypt is dedicated to bishops') - all eight carried as associated-with with the R/S
-character preserved here. Competing (C) with G6 ('the north measures Martin against Egypt by
-virtutes (Dial. II.5, III.17); Cassian's Egypt refuses miracle-fame (Conf. XV.7; Inst. Pref.)') -
-carried as tension-with. Forces-connection (Doc_08 §5, A.2 - six forces): produced in both modes by
-1A-1 (gallic.force.egyptian-standard - 'received as rule (south), matched as rival (north)') -
-carried as enabled-by, reciprocal precondition-for on that record; its receptive mode grounded by
-1B-2 (legitimacy-by-reception) and shaped by 2A-4 (cold-of-gaul, 'the adaptation clauses are this
-world's own inside Cassian'), intensified and shifted by 2A-1 (africa-and-rome-pressure, Egypt
-pleaded as 'all the Catholic fathers'), its comparative mode carried by 2B-4
-(power-displayed-disowned), and touched thinly by 2A-5 (barbarian-fiscal-ruin, Salvian's byword) -
-all five associated-with, mode-level and shaping connections rather than founding ones. Story and
-figure links closed at B-5: associated-with gallic.story.honoratus-and-the-island (the Lérins mode -
-the founder's 'desert' an island near the city; the anchorite's psalm) and
-gallic.story.the-angel-and-the-twelve-psalms (the reception frame itself); associated-with
-gallic.figure.cassian (receptive mode) and gallic.figure.honoratus (Lérins mode) - reciprocal edges
-declared on each. Doc_04 §7's cross-build note stands: G2's received content is desert-monasticism's
-own; what is this world's is the adaptation frame around it. Canon_cells left empty, matching fleet
-convention for gravity/force records.
+Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Sulpitius
+Severus, Gennadius) and, for the Lérins voice, Eucherius's own De Laude Eremi. This description
+paraphrases the primary sources in its own voice; their verbatim wording, locus, and speaker
+attribution are each carried in full in
+gallic.quote.castor-anxious-for-egyptian-institutions, gallic.quote.cassian-adapts-egypt-to-gaul,
+gallic.quote.conferences-received-into-their-cells, gallic.quote.gennadius-on-the-dialogues-subject,
+gallic.quote.postumianus-you-have-conquered-all-the-eremites,
+gallic.quote.europe-will-not-yield-having-only-martin, and gallic.quote.chaeremon-three-stages-of-grace.
+
+This gravity's own relations to this world's other gravities and forces are declared in full in
+its own `relations[]` field above, reciprocal edges declared on each target. Canon_cells left
+empty, matching fleet convention for gravity/force records.

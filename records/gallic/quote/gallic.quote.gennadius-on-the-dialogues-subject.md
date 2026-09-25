@@ -57,7 +57,3 @@ work-titles was dropped, the same normalization the fleet applies to plain-text 
 italicized titles elsewhere. No word was added, dropped, substituted, or reordered.
 
 speaker_or_author is a plain string: no gallic.figure record exists for Gennadius.
-
-This span was previously carried, unresolved, inside gallic.gravity.egypt-as-measure's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.

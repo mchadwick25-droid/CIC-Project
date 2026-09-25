@@ -64,7 +64,3 @@ matching. No word was added, dropped, substituted, or reordered.
 
 speaker_or_author is a plain string, not a figure id: this is Sulpitius's own third-person
 narration of Martin's action, not Martin's own words in quotation.
-
-This span was previously carried, unresolved, inside gallic.force.power-displayed-disowned's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.

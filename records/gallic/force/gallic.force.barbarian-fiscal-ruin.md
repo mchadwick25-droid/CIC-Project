@@ -15,14 +15,10 @@ confidence:
     Documented as to Salvian's text (row 43, within its Licensed For - forces, not grace); NAMED
     TENSION carried at full strength: Salvian's picture is a preacher's indictment, not a survey,
     and Sanford's own Introduction (editorial) treats his hyperbole as a critical problem - Dominant
-    Modern Reconstruction as to the province's actual condition. The Sulpitian tally was corrected
-    twice (Doc_08 Round 1 finding 1; Round 2 spot-check) to its final form: four episodes across six
-    textual occurrences, the discharge scene located at the garrison 'of the Vaugiones' (Worms),
-    before the episcopate, not at Tours. Doc_08's decision on Doc_04 §10 item 3 is a recommendation
-    to Doc_04's owner, not a reclassification. This is the longest entry in Doc_08's matrix (1,421
-    words) because stating the corrected tally accurately took more words than the first draft's
-    undercount, not because the force's formation trace is large - it remains thin relative to the
-    historical scale of the collapse.
+    Modern Reconstruction as to the province's actual condition. The Sulpitian tally's final form is
+    four episodes across six textual occurrences, the discharge scene located at the garrison 'of
+    the Vaugiones' (Worms), before the episcopate, not at Tours. This force's own formation trace
+    remains thin relative to the historical scale of the collapse.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
   locus: "IV.6 (p. 109) 'the rich who are murdering the poor'; V.4-6 'as many tyrants as curials'; men fleeing to the Goths and Bagaudae; VII.10 (p. 201), VII.12 (p. 204) 'the whole body of the Gallic provinces'; I.1 the helmsman; VIII.4 (p. 230) the Egyptian byword"
@@ -70,7 +66,7 @@ relations:
   target: gallic.quote.salvian-present-judgment-clearly-shown
 - type: associated-with
   target: gallic.quote.brictio-horses-and-slaves
-name: "Fiscal and barbarian ruin of the province (Marseilles, Salvian only) [2A - ongoing/external]"
+name: "Fiscal and barbarian ruin of the province (Marseilles, Salvian only)"
 kind: ongoing
 matrix_cell: 2A
 description: >-
@@ -87,22 +83,23 @@ description: >-
   happening right now (Gov. VII.10, VII.12).
 
   A closer search of this world's own library finds more than just that one book. But still not
-  much: four episodes in Sulpitius, across six mentions in all. The barbarians are the reason Martin
-  left the army, before he ever entered religious life (Vita IV). Demons once spread a false rumor
-  of a barbarian raid. Martin's own power exposed it as a lie (Vita XVIII). One of Avitianus's
-  officers is remembered as almost too savage, even for his own time (Dial. III.4). And, most
-  telling of all, Brictio stood accused of buying captured children from beyond the frontier.
-  Brictio had been raised inside Martin's own monastery (Dial. III.15). Here the disaster enters
-  this world's literature as a charge against one of its own members. Cassian's own writings mention
-  barbarians only once, and that is set in Egypt, not in Gaul. Vincent's own text says nothing about
-  the Vandals at all. One editor reads that silence as deliberate.
+  much: four episodes in Sulpitius, across six mentions in all. The barbarians were the occasion of
+  Martin's own discharge from the army, before he had even entered religious life (Vita IV). Demons
+  once spread a false rumor of a barbarian raid. Martin's own power exposed it as a lie (Vita
+  XVIII). Avitianus himself, a former courtier, is remembered for a "barbarous and, beyond measure,
+  bloody ferocity" (Dial. III.4). And, most telling of all, Brictio stood accused of buying boys
+  from barbarous nations, and girls too. Brictio had been raised inside Martin's own monastery
+  (Dial. III.15). Here the disaster enters this world's literature as a charge against one of its
+  own members. Cassian's own writings mention barbarians only once, and that is set in Egypt, not
+  in Gaul. Vincent's own text says nothing about the Vandals at all. One editor reads that silence
+  as deliberate.
 
   Historians treat this force as the dominant fact of the whole period. But this world's own
   formation literature keeps little of it. Its one strong link is this: under this pressure,
   judgment itself changed. It shifted from something expected in the future to something already
   happening now, in Salvian's own words. Four further links exist, but each one is thin. They touch
   the north's old comparison with Egypt, a later report that two monasteries were still standing
-  after the collapse, one officer's cruelty, and one charge made against a member of Martin's own
+  after the collapse, Avitianus's own cruelty, and one charge made against a member of Martin's own
   community. None of these carries real weight. None of them shows the barbarian disaster entering
   this world's literature as a force in its own right.
 manifestations:
@@ -113,18 +110,20 @@ manifestations:
 - "Gennadius's 'two monasteries ... which are still standing,' c. 495 - the institution surviving, in a text outside the window"
 - "Vincent's silence on the Vandals, read by his editor as deliberate; L\u00e9rins as 'a citadel inaccessible to the waves of barbarian invasion' (Gibson, quoting, editorial)"
 ---
-Re-derived from the approved Doc_08 (Cell 2A, Force 2A-5 - full treatment, the longest entry in the
-matrix, its length disclosed at Doc_08 §8). Cross-cell connection (Section 4): Connection 13 (thin,
-recorded as such), '2A-5 -> 1A-2 and -> 2B-4, occasion only, and one exception: the barbarians ...
-are the occasion of Martin's discharge, and a rumored inroad is once exposed by his power - both are
-the north's literature keeping the force out'; corrected at Round 2 to add that Dial. III.4 and,
-more substantively, Dial. III.15 'let the force in, as an accusation the community's own text raises
-against one of its own formed members.' Both carried as associated-with
-gallic.force.army-and-rank-before and gallic.force.power-displayed-disowned, the 'occasion only'
-character preserved here rather than promoted to a causal edge. Doc_08 §4's pattern: 'Forces the
-period's history treats as dominant (2A-5, 3A-2) touch the chain nowhere.' Gravity linkage (Doc_08
-§5, A.1): G10 'only substantive' - shifted in kind, future -> present judgment; G6, G1, G2, G8 thin
-- all five carried as associated-with, the substantive/thin distinction preserved here and in each
-gravity record's own body note. Node: S (Salvian). Named Tension (Salvian's reliability, Sanford's
-own doubt) carried in the divergence_note; no contested_claim record built at this step. Canon_cells
-left empty, matching fleet convention for gravity/force records.
+Grounded in cic/texts/salvian_on-the-government-of-god_sanford1930.txt (Salvian of Marseilles) and
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus). This
+description paraphrases the primary sources in its own voice; their verbatim wording, locus, and
+speaker attribution are each carried in full in gallic.quote.salvian-rich-murdering-the-poor,
+gallic.quote.salvian-free-men-in-seeming-captivity,
+gallic.quote.salvian-ever-present-judgment-gallic-provinces,
+gallic.quote.salvian-present-judgment-clearly-shown, and gallic.quote.brictio-horses-and-slaves.
+
+Two of this force's connections to the north's own literature (Martin's discharge; a rumored
+inroad exposed by exorcism) stay occasion only - the north's literature keeps the barbarian force
+out rather than reckoning with it directly. The Brictio accusation is different in kind: the force
+is let all the way in, as a charge the community's own text raises against one of its own formed
+members. Associated-with gallic.force.army-and-rank-before and
+gallic.force.power-displayed-disowned, that occasion-only/let-in distinction preserved here. Node:
+S (Salvian). Named Tension (Salvian's reliability, Sanford's own doubt) carried in the
+divergence_note; no contested_claim record built at this step. Canon_cells left empty, matching
+fleet convention for gravity/force records.

@@ -98,7 +98,3 @@ reordered.
 speaker_or_author follows this world's own established convention for reported-abbot teaching (the
 Chaeremon quote records): Conference XV is titled, in this edition's own division heading, "The
 Second Conference of Abbot Nesteros. On Divine Gifts."
-
-This span was previously carried, split across two non-adjacent fragments, inside
-gallic.force.power-displayed-disowned's own `description` field. The host
-record now paraphrases it in its own voice and points here for the full, unabridged wording.

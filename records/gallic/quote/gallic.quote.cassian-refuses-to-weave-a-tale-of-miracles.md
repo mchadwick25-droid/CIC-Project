@@ -71,8 +71,6 @@ wording that used a bare "..." here, dropping the middle of the sentence; this r
 in full.
 
 Normalization: line breaks joined with single spaces; a translator's footnote on "veritate/
-veritatem" was excluded as apparatus. No word was added, dropped, substituted, or reordered.
-
-This span was previously carried, with a mid-sentence ellipsis, inside
-gallic.force.power-displayed-disowned's own `description` field. The host
-record now paraphrases it in its own voice and points here for the verbatim, unabridged wording.
+veritatem" was excluded as apparatus; the source's own curly apostrophes in "God's" (both
+occurrences) are rendered here as straight apostrophes, the same mark in a different Unicode form.
+No word was added, dropped, substituted, or reordered.

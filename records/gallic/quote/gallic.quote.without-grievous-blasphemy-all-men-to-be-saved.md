@@ -39,9 +39,8 @@ modern_lens_note: >-
   blasphemous. The argument runs from a smaller claim (God does not will one child to perish) to
   the larger one (God wills all, not some, to be saved), as a single continuous inference.
 modern_rendering: >-
-  For He does not will that one of His little ones should perish. How, then, can we imagine
-  without grievous blasphemy that He does not will all people in general to be saved, but only
-  some instead of all?
+  If He wills not one of His little ones to perish, how could He, without grievous blasphemy,
+  will only some, not all, to be saved?
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort
@@ -62,7 +61,3 @@ to chapter, initially matched an unrelated "grievous blasphemy" passage roughly 
 Normalization: line breaks joined with single spaces; the source's own italic markup around "all"
 and "some" was dropped (plain-text rendering, no emphasis added or removed in meaning). No word was
 added, dropped, substituted, or reordered.
-
-This span was previously carried, unresolved, inside gallic.gravity.grace-and-effort's own
-`description` field. The host record now paraphrases it in its own voice and
-points here for the verbatim wording.
