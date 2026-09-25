@@ -37,16 +37,11 @@ from engine.m1.spoken_fields import fields_with_role
 # every record type without a per-type field map - and the cost of that is
 # this list: anything NOT named here is treated as something the world said.
 #
-# The four identifier keys at the end were missing, and they were not inert.
-# A dotted id tokenizes into ordinary words: alx.source.origen-philocalia
-# becomes {alx, source, origen, philocalia}. So
-# alx.gravity.scripture-formative "contained" the words origen, clement and
-# athanasius purely because it CITES sources with those names - and a
-# sentence naming Origen scored as grounded in a record that says nothing
-# about him. Measured across the six worlds: 4,203 of 83,511 content words
-# (5.0%) came from identifiers alone, and 518 of those 548 distinct tokens
-# also occur in real prose, so they collide rather than sitting harmlessly
-# unmatched.
+# The four identifier keys at the end matter because a dotted id tokenizes
+# into ordinary words: alx.source.origen-philocalia becomes {alx, source,
+# origen, philocalia}. Left in, a record "contains" every name in every
+# source it cites purely by citing it, so a sentence naming that same name
+# scores as grounded in a record that never actually discusses it.
 #
 # This reaches every lexical score in the system - grounding_ratio's cited
 # side, overlap_coefficient, the M1 cell keyword corpus, M2's demonstration
@@ -55,21 +50,15 @@ from engine.m1.spoken_fields import fields_with_role
 # retrieval hints (retrieve_when) are deliberately NOT here: that field was
 # authored to be matched on.
 #
-# do_not_retrieve_when IS excluded (fixed 2026-09-19, Opus adversarial review
-# finding D1). It was previously reasoned about together with retrieve_when
-# above and left in all_text()'s pool, but reading the real records shows it
-# holds a genuine anti-fabrication guard species alongside its redirect
-# species - e.g. "our vendored evidence does not say [X], and the
-# Representative must not supply it." Leaving that text in all_text() means
-# grounding_ratio's own word-overlap check can score a FABRICATED version of
-# exactly the barred claim as well-grounded, because the guard sentence that
-# forbids the claim necessarily shares the claim's own vocabulary - measured
-# directly: a fabricated "Brictio succeeded Martin as bishop" scored a
-# perfect 1.0 grounding ratio against gallic.story.brictio-in-the-courtyard,
-# whose own do_not_retrieve_when says exactly that this is not attested and
-# must not be invented. This is the same category formation_claim_barred
-# below is already in - a forbidden claim's own text is not "prose that
-# might ground a real answer," it is the opposite.
+# do_not_retrieve_when is excluded because it holds a genuine
+# anti-fabrication guard species alongside its redirect species - e.g. "our
+# vendored evidence does not say [X], and the Representative must not
+# supply it." Leaving that text in all_text() would let grounding_ratio's
+# own word-overlap check score a fabricated version of exactly the barred
+# claim as well-grounded, because the guard sentence that forbids a claim
+# necessarily shares the claim's own vocabulary. This is the same category
+# formation_claim_barred below is already in - a forbidden claim's own text
+# is not "prose that might ground a real answer," it is the opposite.
 NON_PROSE_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register",
     "_path", "_body", "world_word", "license", "narrative_tier",
@@ -77,12 +66,12 @@ NON_PROSE_KEYS = {
     "evidentiary_weight", "formation_confidence",
     "canon_cells", "source_id", "target", "canon_question_id",
     "do_not_retrieve_when",
-    # R11 (Rulings-Pending.md, ruled 2026-09-21): claim_guards is the split
-    # field's own honesty-guard half - a barred claim's own text is exactly
-    # the same "opposite of prose that might ground a real answer" category
-    # do_not_retrieve_when (above) and formation_claim_barred already are,
-    # for the identical reason: a forbidding sentence necessarily shares the
-    # forbidden claim's own vocabulary.
+    # claim_guards is the split field's own honesty-guard half - a barred
+    # claim's own text is exactly the same "opposite of prose that might
+    # ground a real answer" category do_not_retrieve_when (above) and
+    # formation_claim_barred already are, for the identical reason: a
+    # forbidding sentence necessarily shares the forbidden claim's own
+    # vocabulary.
     "claim_guards",
 }
 
@@ -96,8 +85,8 @@ NON_PROSE_KEYS = {
 # mode if it's too narrow). A RETRIEVAL ranking's job is the opposite risk:
 # finding the WRONG record because a query word happened to appear in a
 # caveat about the record rather than in the record's own substance.
-# Measured directly (engine.m4.evidence's Stage A2 fallback, 2026-08-27):
-# pahc.term.ministrae's own `senses.informational` field reads "...women
+# For example, pahc.term.ministrae's own `senses.informational` field
+# reads "...women
 # held service in that church important enough that its interrogator chose
 # them as the ones who would know" - a real sentence, but about Pliny's
 # interrogation, not about why anything was important in the sense a
@@ -123,15 +112,14 @@ NON_PROSE_KEYS = {
 FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when", "claim_guards"}
 
 
-# R11's own honesty-guard/redirect classifier (Rulings-Pending.md;
-# Decision-Log.md's Stage 1 D1 measurement and Entries 21-24): the marker
-# set that correctly separated the fleet's 13 genuine guard clauses from
-# 701 ordinary do_not_retrieve_when redirects, keyword-matched against the
-# design doc's own quoted examples. Single source of truth - the migration
-# tool (tools/split_retrieval_guards.py), the Stage 1 measurement
-# (engine/m4/reports/grounding_fooling_measure.py), and the
-# retrieval-negatives-structured gate (engine/m1/gates.py) all import it
-# from here rather than keeping their own copies that could drift apart.
+# The marker set that separates the fleet's genuine anti-fabrication
+# guard clauses from ordinary do_not_retrieve_when redirects,
+# keyword-matched against real examples of each. Single source of truth -
+# the migration tool (tools/split_retrieval_guards.py), the
+# grounding-fooling measurement (engine/m4/reports/
+# grounding_fooling_measure.py), and the retrieval-negatives-structured
+# gate (engine/m1/gates.py) all import it from here rather than keeping
+# their own copies that could drift apart.
 GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not")
 
 
@@ -164,9 +152,9 @@ _STOPWORDS = {
     "without", "upon", "across", "toward", "towards", "beyond", "beside",
     "near", "off", "per", "onto", "unto", "along", "around", "behind",
     # Contractions tokenize as single words - the apostrophe is a word
-    # character in _WORD - so every one of these was a CONTENT word until
-    # 2026-08-27, scored as evidence about a cell like any noun. Found by a
-    # live turn: "You've given me two different pictures there. Did your own
+    # character in _WORD - so without this list every one of them would
+    # score as a CONTENT word, evidence about a cell like any noun. Found
+    # by a live turn: "You've given me two different pictures there. Did your own
     # people disagree about this?" routed to F6-P on `people` and `you've`,
     # and to F2-E on `given` and `you've` - not one word that carries the
     # actual ask matched anything, and the voice answered a question about
