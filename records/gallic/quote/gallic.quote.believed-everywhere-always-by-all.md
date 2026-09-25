@@ -40,12 +40,11 @@ modern_lens_note: >-
   working test, not an abstract slogan, and immediately breaks it into three named parts - place,
   time, and consent - that his following chapters apply one at a time.
 modern_rendering: >-
-  Also, within the Catholic Church itself, we must take every possible
-  care to hold the faith that has been believed everywhere, always, by
-  all. For what is truly and most strictly "Catholic" is what takes in
-  all, universally, as the name itself and the logic of the thing show.
-  We shall keep this rule if we follow universality, antiquity, and
-  agreement.
+  Within the Catholic Church, we must take great care to hold only what
+  has been believed everywhere, always, by everyone. That is what
+  "Catholic" truly means: it takes in everyone. The word itself says
+  so, and so does plain logic. We follow this rule by holding to
+  universality, antiquity, and agreement.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

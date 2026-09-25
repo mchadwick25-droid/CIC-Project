@@ -37,9 +37,9 @@ text: >-
   In the meantime, as the barbarians were rushing within the two divisions of Gaul, Julian Cæsar,
   bringing an army together at the city of the Vaugiones, began to distribute a donative to the
   soldiers. As was the custom in such a case, they were called forward, one by one, until it came to
-  the turn of Martin. Then, indeed, judging it a suitable opportunity for seeking his discharge - for
+  the turn of Martin. Then, indeed, judging it a suitable opportunity for seeking his discharge—for
   he did not think it would be proper for him, if he were not to continue in the service, to receive
-  a donative - he said to Cæsar: "Hitherto I have served you as a soldier: allow me now to become a
+  a donative—he said to Cæsar, "Hitherto I have served you as a soldier: allow me now to become a
   soldier to God: let the man who is to serve thee receive thy donative: I am the soldier of Christ:
   it is not lawful for me to fight."
 speaker_or_author: "Sulpitius Severus, narrating, with Martin's own reply to Cæsar quoted directly"

@@ -44,9 +44,9 @@ modern_lens_note: >-
   the verdict. Martin's plea for the Priscillianists' lives and his objection to the emperor as judge are,
   in Sulpitius's telling, the same principle.
 modern_rendering: >-
-  He insisted that, once the bishops had declared them heretics by their sentence, being driven out of
-  the churches was punishment enough. Besides, he held, it was a foul and unheard-of disgrace for a
-  secular ruler to judge a church case.
+  He said the bishops had already declared them heretics. Being driven out of the churches, he held,
+  was punishment enough. Besides, he said, it was a foul and unheard-of disgrace for a secular ruler to
+  judge a church case.
 relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion

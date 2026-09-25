@@ -38,7 +38,7 @@ text: >-
   flattered himself on the honour that had been added to him (for he vowed that he had not been
   summoned to that office as fit for it, but complained that he had been expelled from the monastic
   system as unworthy of it because though he had spent thirty-seven years in it he had never been able
-  to arrive at the purity so high a profession demands).
+  to arrive at the purity so high a profession demands);
 speaker_or_author: gallic.figure.cassian
 license: verbatim
 modern_lens_note: >-

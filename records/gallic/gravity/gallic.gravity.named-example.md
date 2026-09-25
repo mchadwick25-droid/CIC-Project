@@ -90,6 +90,8 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.figure.sulpitius
+- type: associated-with
+  target: gallic.quote.martin-sackcloth-and-ashes-reply
 name: "Formation by named example and eyewitness authority [SUPPORTING]"
 classification: supporting
 description: >-

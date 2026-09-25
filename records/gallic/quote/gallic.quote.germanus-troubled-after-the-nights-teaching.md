@@ -39,7 +39,7 @@ text: >-
   man had by the addition of a single sentence broken down the claims of man's exertions, adding that man
   even though he strive with all his might for a good result, yet cannot become master of what is good
   unless he has acquired it simply by the gift of Divine bounty and not by the efforts of his own toil.
-  While then we were puzzling over this question the blessed Chaeremon arrived at the cell, and as he saw
+  While then we were puzzling over this question the blessed Chæremon arrived at the cell, and as he saw
   that we were whispering together about something, he cut the service of prayers and Psalms shorter than
   usual, and asked us what was the matter.
 speaker_or_author: gallic.figure.cassian

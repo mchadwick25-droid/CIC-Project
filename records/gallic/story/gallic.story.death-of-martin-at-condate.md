@@ -137,10 +137,10 @@ text: >-
   legacy, so many lives shaped by his example. The shepherd drove his own flocks before him: old men
   whose work was finished, young soldiers newly sworn to Christ, and a choir of virgins who kept their
   grief modestly unshown. Faith forbade tears and affection forced out groans; each person, Sulpitius
-  says, would rather grieve himself than see another do so. Where the world's great men lead captives
-  bound before their chariots, Sulpitius says, Martin's own followers walked free, people he had led to
-  overcome the world with him - and, he adds, already in his own time, Martin is praised in the
-  church's psalms and hymns.
+  says, would rather grieve himself than see another do so. Where the great men of this age lead
+  captives bound before their chariots, Sulpitius says, Martin's own followers walked free, people he
+  had led to overcome the world with him - and, he adds, already in his own time, Martin is praised in
+  the church's psalms and hymns.
 absent_detail: >-
   The letter never names the city the body was brought to; Sulpitius was not present at the death; the
   numbers at the funeral are report. The "choir of virgins" is the only trace of the women who chose

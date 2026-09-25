@@ -30,7 +30,7 @@ text: >-
   of this man who obstinately and pertinaciously relied on his own
   judgment rather than on the traditions of the Elders, for he forsook
   the desert and returned back to the vain philosophy of this world and
-  earthly vanities.
+  earthly vanities,
 speaker_or_author: John Cassian, narrating the fall of Brother Benjamin (Second Conference)
 license: verbatim
 modern_lens_note: >-

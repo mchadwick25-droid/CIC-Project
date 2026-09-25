@@ -39,7 +39,7 @@ text: >-
   Church and certain selected men be sent to search the cells of the brethren one by one. And when this
   had been entrusted to three of the Elders by the Presbyter, they turned over the bed-chambers of them
   all, and at last found the book hidden in the cell of Paphnutius among the boughs of the palms which
-  they call σειρά, just as the plotter had hidden it.
+  they call σειρά, just as the plotter had hidden it.
 speaker_or_author: "Abbot Piamun, as Cassian records his own telling"
 license: verbatim
 modern_lens_note: >-
@@ -68,6 +68,6 @@ close). Read with `sed -n '43018,43039p'`.
 
 Normalization: line breaks joined with single spaces. The endnote anchor after "S. Isidore" (n="2091",
 Gazet's identification note) sits inside the source's own prose and is dropped, exactly like any other
-in-line note anchor. The Greek word for the palm boughs, σειρά, is given in the source itself (marked as
+in-line note anchor. The Greek word for the palm boughs, σειρά, is given in the source itself (marked as
 Greek text) and is kept verbatim rather than transliterated or paraphrased. No word was added, dropped,
 substituted, or reordered.
