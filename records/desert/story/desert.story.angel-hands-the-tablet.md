@@ -47,10 +47,12 @@ relations:
   target: desert.quote.pachomian-rule-opening-superscription
 narrative_tier: 2
 narrative_tier_justification: >-
-  Tier 2 (Tradition's Own Telling). The document is real, dated and quotable, and the opening is
-  verbatim; the vision it narrates is the tradition's account of its own authorisation and is told
-  as that. Not Tier 1, because nothing outside the tradition witnesses the event; not Tier 3,
-  because the telling is not free - it is fixed in the received text of the legislation itself.
+  Tier 2 (Tradition's Own Telling). The document is real and dated, and this record's own `text`
+  field paraphrases its opening superscription, held verbatim in
+  desert.quote.pachomian-rule-opening-superscription; the vision it narrates is the tradition's
+  account of its own authorisation and is told as that. Not Tier 1, because nothing outside the
+  tradition witnesses the event; not Tier 3, because the telling is not free - it is fixed in the
+  received text of the legislation itself.
 tellable_as: "the rule that begins by saying where it came from - an angel, a cave, and a tablet of iron"
 text: >-
   The Ethiopic rule of Pachomius does not begin with its first provision. It
