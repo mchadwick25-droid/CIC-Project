@@ -1225,10 +1225,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 120, "KEEP"),
-    # Refreshed 2026-09-24 (checker-refinements PR): the line this entry
-    # pinned before Step 2 PR C's own edit pass no longer matches anything;
-    # re-pinned to a still-live r27_enforce assertion in the same file.
-    ("engine/m4/tests/test_turn.py", 1124, "REWRITE"),
+    # Refreshed 2026-09-25 (Decision 4 round 2): main's own sentence_enforce
+    # PR shifted this file's lines by +7 above this point; re-pinned to the
+    # same r27_regenerated assertion, now at 1131.
+    ("engine/m4/tests/test_turn.py", 1131, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
@@ -1346,3 +1346,134 @@ def test_precision_and_recall_on_hand_labelled_sample():
     # trigger fix, while still catching a real drop.
     assert recall >= 0.95
     assert precision >= 0.85
+
+
+# ---------------------------------------------------------------------------
+# SESSION_BUILD_TOKEN / _session_activity_hit - real session/build/round
+# narration ("no prior session had located X, located this session by...")
+# that a naive field-boundary widening used to sweep up by accident, and
+# stopped catching once that widening was correctly scoped. Round 2 of
+# Decision 4's own launch brief.
+# ---------------------------------------------------------------------------
+
+def test_session_build_narration_flags_real_fleet_targets():
+    targets = [
+        ("records/lpc/source/lpc.source.knoll-augustine-retractationes-csel36.md", 15),
+        ("records/lpc/source/lpc.source.hartel-cyprian-opera-omnia-csel3-pars1-2.md", 16),
+        ("records/lpc/source/lpc.source.goldbacher-augustine-epistulae-standing-reference.md", 17),
+        ("records/lpc/source/lpc.source.cyprian-epistles.md", 14),
+        ("records/lpc/source/lpc.source.possidius-vita-augustini-weiskotten1919.md", 21),
+        ("records/lpc/source/lpc.source.monceaux-histoire-litteraire-tome1.md", 16),
+    ]
+    for path, line in targets:
+        hit = _line_hit(path, line)
+        assert hit is not None and hit.category == "REWRITE", f"{path}:{line} not flagged REWRITE"
+
+
+def test_spent_rounds_and_review_round_narration_flag_real_fleet_targets():
+    hit = _line_hit(
+        "records/lpc/source/lpc.source.goldbacher-augustine-epistulae-standing-reference.md", 18
+    )
+    assert hit is not None and hit.category == "REWRITE"
+    hit = _line_hit(
+        "records/lpc/source/lpc.source.von-soden-cyprianische-briefsammlung.md", 18
+    )
+    assert hit is not None and hit.category == "REWRITE"
+
+
+def test_session_build_narration_synthetic_shapes(tmp_path):
+    shapes = [
+        "Doc_04's Cross-Check finds it strong on Repetition and weak on Persistence.",
+        "Two Doc_04 corrections carried forward from the prior round apply here as well.",
+        "previously carried separately in the host record, per this batch's own discipline.",
+        "independently re-located and re-read this session at the same vendored file.",
+    ]
+    for i, body in enumerate(shapes):
+        record = (
+            "---\n"
+            "id: fix.source.example\n"
+            "record_type: source\n"
+            "status: draft\n"
+            "---\n"
+            f"{body}\n"
+        )
+        hits = _hits_for(record, tmp_path, f"records/fix/source/fix.source.example{i}.md")
+        by_line = {h.line: h.category for h in hits}
+        assert by_line.get(6) == "REWRITE", f"shape {i!r} not flagged: {body!r}"
+
+
+def test_session_build_narration_protects_durable_honest_disclosure():
+    # Every one of these carries the bare token ("this build"/"this
+    # session"/"this pass") next to a word that could read as an activity
+    # verb, but each is the record's own durable, present-tense scope or
+    # limit statement - "what was checked and found absent", not process
+    # narration - and must stay unflagged by this mechanism specifically.
+    clean = [
+        ("records/rzg/figure/rzg.figure.faber.md", 16),
+        ("records/rzg/figure/rzg.figure.faber.md", 29),
+        ("records/witt/contested_claim/witt.contested.1543-treatise-later-effect.md", 15),
+        ("records/witt/contested_claim/witt.contested.1543-treatise-later-effect.md", 52),
+        ("records/witt/contested_claim/witt.contested.1543-treatise-later-effect.md", 56),
+        ("records/don/contested_claim/don.contested.circumcellion-agonistici.md", 51),
+        ("records/don/contested_claim/don.contested.circumcellion-agonistici.md", 115),
+        ("records/ijc/demonstration/ijc.demo.woman-authority.md", 51),
+        ("records/don/story/don.story.tyconius-condemnation.md", 130),
+    ]
+    for path, line in clean:
+        assert _line_hit(path, line) is None, f"{path}:{line} wrongly flagged"
+
+
+def test_session_build_token_wrapped_across_a_line_break_still_triggers():
+    # records/lpc/source/lpc.source.monceaux-histoire-litteraire-tome1.md's
+    # own "...corrected this\n  session: the Manifest's own..." wraps the
+    # two-word token itself across a folded-YAML line break - neither
+    # physical line contains "this session" alone.
+    hits = _hits_for_real_file(
+        "records/lpc/source/lpc.source.monceaux-histoire-litteraire-tome1.md"
+    )
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(16) == "REWRITE"
+
+
+# ---------------------------------------------------------------------------
+# _PROCESS_MARKER_NEARBY - the four additional marker shapes (OG-N,
+# Open_Gaps_Tracking, Decision-N, escalat*, future round, build history/
+# build has) real drops the original set missed.
+# ---------------------------------------------------------------------------
+
+def test_process_marker_build_history_and_build_has_catch_real_fleet_targets():
+    hit = _line_hit("records/don/search_record/don.search.unrowed-vendored-sweep.md", 288)
+    assert hit is not None and hit.category == "ROUTE"
+    hit = _line_hit(
+        "records/rzg/contested_claim/rzg.contested.zwinglis-remembrance-vs-negotiated-consensus.md",
+        37,
+    )
+    assert hit is not None and hit.category == "ROUTE"
+
+
+def test_process_marker_build_has_not_stays_unflagged():
+    # records/lpc/honest_limit/lpc.limit.rural-punic-berber-life.md's own
+    # "a genuine open question this build has not answered" - the honest
+    # limit IS the content; "build has" must not fire when immediately
+    # followed by "not".
+    assert _line_hit("records/lpc/honest_limit/lpc.limit.rural-punic-berber-life.md", 19) is None
+
+
+# ---------------------------------------------------------------------------
+# Regression class: a broad sample of already-flagged record narration,
+# spanning many different patterns, stays flagged. Missing exactly this
+# kind of test is how round 1's field-boundary widening fix silently
+# dropped 26 real REWRITE lines in 18 records without any test failing.
+# ---------------------------------------------------------------------------
+
+def test_previously_flagged_record_narration_stays_flagged():
+    # A representative sample across the pattern families this file has
+    # always checked, confirmed still flagged after this round's changes:
+    hit = _line_hit("records/lpc/source/lpc.source.knoll-augustine-retractationum-csel36.md", 14)
+    assert hit is not None and hit.category == "REWRITE"  # search-round-narration
+    hit = _line_hit("worlds/witt/witt_Doc_09_Story_Inventory.md", 333)
+    assert hit is not None and hit.category == "ROUTE"  # route-cue (plural)
+    hit = _line_hit("records/lpc/source/lpc.source.augustine-general-correspondence.md", 17)
+    assert hit is not None and hit.category == "ROUTE"  # route-cue + process marker
+    hit = _line_hit("records/don/gravity/don.gravity.rebaptism-boundary.md", 143)
+    assert hit is not None and hit.category == "REWRITE"  # corrections-carried

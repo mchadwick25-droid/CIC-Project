@@ -179,12 +179,14 @@ PATTERNS: dict[str, re.Pattern[str]] = {
     "pr-number": re.compile(r"\bPR\s*#\d+\b"),
 }
 
-# Decision 4's own three remaining provenance shapes - scoped to records/
-# and worlds/ only (RECORDS_AND_WORLDS_PATTERNS, checked by scan_file's
-# own `in_records_or_worlds` gate), unlike PATTERNS above. An independent
-# Opus precision review caught all three firing on durable, present-tense
-# METHOD text once applied fleet-wide the way PATTERNS is - a scope their
-# own fleet survey never actually covered (records/ only):
+# Decision 4's own provenance shapes - scoped to records/ and worlds/ only
+# (RECORDS_AND_WORLDS_PATTERNS, checked by scan_file's own
+# `in_records_or_worlds` gate), unlike PATTERNS above. Checked fleet-wide
+# the way PATTERNS is, each of these collides with durable, present-tense
+# method text elsewhere in the repo - reference/'s own method documents,
+# and structured provenance data by design (engine/m9/enforce.py's
+# `Waiver(owner=...)`) - so the gate stays narrow to where the collision
+# does not occur:
 #   - "build thread": reference/'s own method documents describe what
 #     "a build thread" does as a matter of permanent process design
 #     ("A build thread may maintain a separate spreadsheet index",
@@ -235,7 +237,102 @@ RECORDS_AND_WORLDS_PATTERNS: dict[str, re.Pattern[str]] = {
         r"\bpreviously (read|said)\b|\bnow reads\b|\ban earlier draft'?s\b",
         re.IGNORECASE,
     ),
+    # Session/round accounting - narrating how many sessions or review
+    # rounds a source-acquisition or verification effort took, not a
+    # claim's own durable evidentiary basis. Each shape below is
+    # unambiguous on its own (no companion word needed) and precision-
+    # sampled clean across records/ and worlds/: "search round(s)" and
+    # "review round(s) in" only ever narrate a search/review effort's own
+    # length; "correction(s) carried [forward]" and "Cross-Check finds"
+    # name a specific prior finding being carried into this record, not a
+    # historical actor's own corrections; "spent N round(s)" and "future
+    # round" are inherently about the build's own iteration count; "prior/
+    # previous/sibling/separate session(s)" names another construction
+    # session, never a historical one.
+    "search-round-narration": re.compile(r"\bsearch rounds?\b", re.IGNORECASE),
+    "review-round-narration": re.compile(r"\breview rounds? in\b", re.IGNORECASE),
+    "corrections-carried": re.compile(r"\bcorrections? carried\b", re.IGNORECASE),
+    "cross-check-finds": re.compile(r"\bCross-Check finds\b"),
+    "spent-rounds-narration": re.compile(r"\bspent \w+ rounds?\b", re.IGNORECASE),
+    "future-round": re.compile(r"\bfuture round\b", re.IGNORECASE),
+    "prior-sibling-session": re.compile(
+        r"\b(no |any )?(prior|previous|sibling|separate)( research)? sessions?\b",
+        re.IGNORECASE,
+    ),
 }
+
+# Bare "this session"/"this build"/"this pass"/"this batch" - unlike the
+# unambiguous shapes above, this token alone is not safe to flag: a
+# record's own contested_claim/honest_limit body routinely uses it to
+# state a durable, present-tense scope or limit ("this build adjudicates
+# none of them"; "has not been read by this build from its own primary
+# text"; "no woman holds a church office anywhere in this build") - the
+# ruling's own protected "what was checked and found absent" territory,
+# not process narration. What actually separates a genuine session/build-
+# narration hit from that is a construction-time ACTIVITY verb (verified,
+# consulted, opened, read, located, ...) attached to the token and NOT
+# negated or scope-narrowed ("not", "never", "only", ...) in the same
+# clause - "read this pass" is a real dated activity; "not... read...
+# this pass" and "states only what... verified this session" are the
+# claim's own honest disclosure of a limit, the opposite thing. Checked
+# against the record's own bounded field/paragraph (SESSION_BUILD_TOKEN/
+# _session_activity_hit below, the same _bounded_paragraph widening
+# change-history-block and route-cue-weak already use), not the single
+# physical line alone, since a folded YAML field routinely wraps a verb
+# onto a different physical line than the token or the negation that
+# governs it.
+SESSION_BUILD_TOKEN = re.compile(r"\bthis (session|build|pass|batch)\b", re.IGNORECASE)
+# "found" deliberately excluded, unlike its sibling "located" - it is the
+# one verb here ambiguous between a discovery ("found the identifier")
+# and a judgment ("found them evenly matched", records/witt/contested_
+# claim/witt.contested.1543-treatise-later-effect.md's own real line),
+# and the second sense's own governing negation routinely sits further
+# back than the fixed-width window below reaches. Every real target this
+# mechanism needs already carries a second, unambiguous verb in the same
+# clause (monceaux-histoire-litteraire-tome1.md's own "found to actually
+# be" sits right next to "independently opened", which alone is enough).
+_SESSION_ACTIVITY_VERB = re.compile(
+    r"\b(located|assessed|spent|stood|corrected|carried|opened|verified|"
+    r"re-verified|checked|searched|consulted|cited|drafted|closed|"
+    r"propagat\w*|re-located|re-read|finds|read)\b",
+    re.IGNORECASE,
+)
+_SESSION_ACTIVITY_LIMIT = re.compile(r"\b(not|never|none|neither|no|only)\b", re.IGNORECASE)
+_SESSION_ACTIVITY_CLAUSE_BREAK = re.compile(r"[.;:]|--| - ")
+
+
+def _session_activity_hit(paragraph_text: str) -> bool:
+    """True if some occurrence of the bare token is paired with a nearby,
+    un-negated activity verb. The negation/limit check only looks in the
+    window immediately BEFORE the verb (back to the nearest clause break,
+    capped at 50 chars) - not the whole clause either side of it. Checking
+    the whole clause was tried first and over-matched: records/lpc/source/
+    lpc.source.cyprian-epistles.md's own divergence_note reads "A citation
+    error stood in this build for six days ... the correction is part of
+    the record, not tidied away" - a real hit ("stood in this build")
+    wrongly suppressed by a "not" thirty-plus characters later, negating a
+    wholly different clause the comma (not a recognised break here) failed
+    to separate from it. Every genuine negated/limited case actually found
+    (records/rzg/figure/rzg.figure.faber.md:16's "not from a fresh
+    primary-source read this pass"; :29's "states only what ... verified
+    this session"; records/witt/contested_claim/witt.contested.1543-
+    treatise-later-effect.md's "has not been read by this build") carries
+    its negation before the verb, never after - checking only that side is
+    what actually separates the two, not a wider or narrower window."""
+    for tm in SESSION_BUILD_TOKEN.finditer(paragraph_text):
+        for vm in _SESSION_ACTIVITY_VERB.finditer(paragraph_text):
+            if abs(tm.start() - vm.start()) > 120:
+                continue
+            left = 0
+            for m in _SESSION_ACTIVITY_CLAUSE_BREAK.finditer(
+                paragraph_text, 0, min(tm.start(), vm.start())
+            ):
+                left = m.end()
+            window_start = max(left, vm.start() - 50)
+            if _SESSION_ACTIVITY_LIMIT.search(paragraph_text[window_start:vm.start()]):
+                continue
+            return True
+    return False
 
 # Grading and provenance vocabulary inside a record's own SPOKEN fields
 # (see SPOKEN_FIELDS below) - the project's internal evidentiary bookkeeping
@@ -458,21 +555,18 @@ ROUTE_CUES_STRONG = re.compile(
     re.IGNORECASE,
 )
 #  No trailing \b, matching ROUTE_CUES_STRONG's own lack of one above and
-# the original single ROUTE_CUES this replaced - an independent Opus
-# precision review caught a real regression in an earlier draft of this
-# split that DID add a trailing \b: it silently stopped matching plurals
-# ("open items", "open questions"), dropping 323 genuine ROUTE hits
-# fleet-wide, including the single most literal one on record -
-# worlds/witt/witt_Doc_09_Story_Inventory.md's own "## 7. Open items for
-# Open_Gaps_Tracking.md" section header.
+# the original single ROUTE_CUES this replaced: a trailing \b would
+# silently stop matching plurals ("open items", "open questions"),
+# dropping 323 genuine ROUTE hits fleet-wide, including the single most
+# literal one on record - worlds/witt/witt_Doc_09_Story_Inventory.md's
+# own "## 7. Open items for Open_Gaps_Tracking.md" section header.
 ROUTE_CUES_WEAK = re.compile(r"\b(open question|open gap|open item|unresolved)", re.IGNORECASE)
 
-# Deliberately NOT a bare "Doc_0N"/"SS\d" citation - a second, independent
-# Opus review caught that first draft firing on completely routine source
-# citations (gravity/force/figure records cite Doc_0N/SS constantly just
-# to say where a claim comes from - "Doc_04 SS3.3", "Doc_01 SS10" - none
-# of that is an open-item marker), which wrongly un-suppressed real
-# in-world "unresolved" description in cappadocian.gravity.precision-
+# Deliberately NOT a bare "Doc_0N"/"SS\d" citation: gravity/force/figure
+# records cite Doc_0N/SS constantly just to say where a claim comes from
+# ("Doc_04 SS3.3", "Doc_01 SS10") - none of that is an open-item marker,
+# and matching it wrongly un-suppresses real in-world "unresolved"
+# description in cappadocian.gravity.precision-
 # reserve.md, desert.figure.antony.md, and others. Same reasoning for
 # bare "carried forward" - rzg.front.the-reformed-cities-zurich-and-
 # geneva.md's own "doctrine... carried forward at one remove through
@@ -483,9 +577,32 @@ ROUTE_CUES_WEAK = re.compile(r"\b(open question|open gap|open item|unresolved)",
 # owns bare round numbers), a future-pass/revision note, or "carried
 # forward" specifically paired with "not resolved" (ministerial-purity's
 # own exact phrase, "CARRIED FORWARD, NOT RESOLVED").
+#
+# Four more marker shapes, real drops the set above missed -
+# don.search.unrowed-vendored-sweep.md's own "closes an open item the
+# build has carried since 2026-09-07" and
+# rzg.contested.zwinglis-remembrance-vs-negotiated-consensus.md's own
+# "This world's own build history records this question as genuinely
+# unresolved" - plus the fleet's own OG-N/Open_Gaps_Tracking/Decision-N
+# citation shapes and "escalat*" (escalate/escalated/escalation), all
+# already load-bearing project vocabulary for a real open item. A bare
+# "this build"/"this session" was tried and dropped: it directly
+# regressed two already-confirmed honest_limit exclusions above
+# (witt.limit.record-thinnest.md's own "no locus this build can cite";
+# lpc.limit.rural-punic-berber-life.md's own "this build has not
+# answered") - both a record's own genuine, disclosed absence, not a
+# marker. Session/build narration paired with an activity verb is
+# SESSION_BUILD_TOKEN's own job above, not this gate's - it already
+# separately flags lpc.demo.font-twice-answered.md's own "read in full
+# this session" as REWRITE. "build has" is deliberately not "build has
+# not": the same rural-punic-berber-life.md line reads "this build has
+# not answered" - the identical honest-absence shape, not a marker,
+# whichever gate would otherwise catch it.
 _PROCESS_MARKER_NEARBY = re.compile(
     r"\bOpen\s+Items?\s+\d+\b|\bFinding\s+S\d+\b|\bRound\s+\d+\s+review\b|"
-    r"\bfuture (pass|revision|review( round)?)\b|\bcarried forward,?\s*not resolved\b",
+    r"\bfuture (pass|revision|review( round)?)\b|\bcarried forward,?\s*not resolved\b|"
+    r"\bOG-\d+\b|Open_Gaps_Tracking|\bDecision\s+\d+[A-Z]?\b|\bescalat\w*|"
+    r"\bfuture round\b|\bbuild history\b|\bbuild has (?!not\b)",
     re.IGNORECASE,
 )
 
@@ -614,13 +731,10 @@ def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | Non
             # among ~1,800 files fleet-wide), and the one shape the plain
             # `indent > active_indent` check below can never see, since a
             # sibling list item is BY DEFINITION not indented past its
-            # own key. An independent Opus precision review caught this
-            # ending the field one line after it actually started,
-            # leaving every real line under it untracked - which
-            # defeated this Decision 4 PR's own front-matter field-
-            # boundary fix (a naive whole-field paragraph, only
-            # discovered because two DIFFERENT untracked fields'
-            # unrelated text then looked adjacent to each other).
+            # own key. Without this, the field ends one line after it
+            # actually started, leaving every real line under it
+            # untracked - defeating any field-scoped check that relies
+            # on the field's own line set being complete.
             is_sibling_list_item = indent == active_indent and stripped.startswith("-") and (len(stripped) == 1 or stripped[1] == " ")
             if line.strip() == "" or indent > active_indent or is_sibling_list_item:
                 fields[active_field].add(i)
@@ -896,10 +1010,9 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     raw_lines = text.splitlines()
 
     # Decision 4's own extra provenance gates (RECORDS_AND_WORLDS_PATTERNS,
-    # ROUTE_CUES_WEAK's record-type/world-self-reference exclusions) are
-    # scoped to records/ and worlds/ only - see each one's own comment for
-    # why applying them fleet-wide (an earlier draft of this PR did)
-    # caused real regressions the independent Opus review caught.
+    # ROUTE_CUES_WEAK's process-marker requirement, SESSION_BUILD_TOKEN)
+    # are scoped to records/ and worlds/ only - see each one's own comment
+    # for the real collisions applying them fleet-wide causes.
     in_records = path.suffix == ".md" and rel.parts[0] == "records"
     in_records_or_worlds = rel.parts[0] in ("records", "worlds")
 
@@ -954,30 +1067,43 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
                 # Within records/, a bare "unresolved"/"open question"/
                 # "open gap"/"open item" needs a genuine process marker
                 # (_PROCESS_MARKER_NEARBY) in the same field/paragraph to
-                # count as ROUTE at all - three rounds of independent
-                # Opus precision review, tried narrower gates first
-                # (record-type exclusion, then a "this world" self-
-                # reference check, then both together), each real and
-                # each still leaving real false positives: a world's own
+                # count as ROUTE at all. Neither a record-type restriction
+                # (honest_limit/contested_claim only) nor a "this world"
+                # self-reference check is enough on its own: a world's own
                 # emic voice calls a genuine historical/theological
                 # dispute "unresolved" in first person ("we"/"our"/"us")
                 # constantly, in every record type, spoken or not -
                 # doctrinal_witness.positions, demonstration.exchange,
                 # voice_craft.flavor_notes, term.false_friend, a source
                 # citation's own locus, world_core.thin_topics, a force's
-                # own manifestations - not just the two record types
-                # (honest_limit/contested_claim) or the third-person
-                # "this world's..." framing either narrower gate assumed
-                # covered it. Every genuine ROUTE true positive sampled
-                # across all three rounds carried an explicit marker
-                # (Open Item N, Finding S N, a Round N review, a future
-                # pass/revision, or "carried forward, not resolved");
-                # every false positive found lacked one - requiring it
-                # is what actually separates the two, not a guess at
-                # which record type or grammatical person a line uses.
+                # own manifestations, not just honest_limit/contested_claim
+                # or third-person "this world's..." framing. Every genuine
+                # ROUTE true positive carries an explicit marker (Open Item
+                # N, Finding S N, a Round N review, a future pass/revision,
+                # or "carried forward, not resolved"); every false positive
+                # lacks one - requiring it is what actually separates the
+                # two, not a guess at record type or grammatical person.
                 if not _PROCESS_MARKER_NEARBY.search(paragraph_text):
                     continue
             route_cue_lines.add(i)
+
+    session_narration_lines: set[int] = set()
+    if in_records_or_worlds:
+        for i, line in enumerate(raw_lines, start=1):
+            # A two-line lookahead for the trigger check alone (not the
+            # scope later widened to): records/lpc/source/lpc.source.
+            # monceaux-histoire-litteraire-tome1.md's own "...corrected
+            # this\n  session: the Manifest's own..." wraps the two-word
+            # token itself across a line break, matching neither line 16
+            # nor 17 alone - a folded YAML scalar routinely wraps at a
+            # word boundary with no regard for what phrase falls there.
+            candidate = line if i == len(raw_lines) else f"{line.rstrip()} {raw_lines[i].lstrip()}"
+            if not SESSION_BUILD_TOKEN.search(candidate):
+                continue
+            bounded = _bounded_paragraph(raw_lines, i, line_to_field, field_lines, front_matter_end)
+            paragraph_text = " ".join(raw_lines[j - 1].strip() for j in sorted(bounded))
+            if _session_activity_hit(paragraph_text):
+                session_narration_lines.add(i)
 
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
@@ -990,6 +1116,8 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]
+        if not matched and i in session_narration_lines:
+            matched = ["session-build-narration"]
         if not matched:
             continue
         if is_protected(rel, i, protected_field_lines):
