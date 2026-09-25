@@ -1,6 +1,6 @@
 # Step 0 — Movement-Scope Confirmation: The Tridentine Church
 
-**Status:** DRAFT, Revision 3 (2026-09-25; see `Step0_Review_Round2.md`). Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md`). **This document has not been independently reviewed at Revision 3.** **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
+**Status:** DRAFT, Revision 3 (2026-09-25; see `Step0_Review_Round3.md`). Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`worlds/_cross-world/dossiers/the-tridentine-church_Source_Readiness_Dossier.md`). **Independently reviewed at Revision 3. The one substantial Round 3 finding (a source misattribution) has since been fixed and independently spot-checked, per the project lead's authorization. Approved to proceed.**
 **World file-code:** none assigned — not yet selected.
 **Census reference:** Atlas ID VI.22, `cic-website/data/world-census.json`, status "Pre-Survey Candidate," continues as `catholic-church-ancien-regime`.
 **Date drafted:** 2026-09-15.
@@ -104,6 +104,6 @@ The corpus-map native/implementing split (§3 B3) is now fixed and no longer an 
 
 ## 6. Disposition
 
-**Status: DRAFT, Revision 3. Not independently reviewed at this revision.** (see `Step0_Review_Round2.md`; `Step0_Review_Round1.md` for Round 1)
+**Status: DRAFT, Revision 3. Independently reviewed and cleared - Approved to proceed.** (see `Step0_Review_Round3.md`; `Step0_Review_Round2.md` and `Step0_Review_Round1.md` for prior rounds)
 
-**Recommended next step:** a targeted Round 3 recheck against this revision's own specific changes, not a full re-review from scratch. This is the third and final round under the project's 3-round cap — if Round 3 finds a substantial problem, escalate rather than open a fourth round.
+**Recommended next step:** proceed to Doc_01.

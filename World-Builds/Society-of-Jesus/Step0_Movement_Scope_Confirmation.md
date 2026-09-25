@@ -1,6 +1,6 @@
 # Step 0 — Movement-Scope Confirmation: The Society of Jesus
 
-**Status:** DRAFT, Revision 3. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md`). See `Step0_Review_Round2.md`. **This document has not been independently reviewed at Revision 3.** **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
+**Status:** DRAFT, Revision 3. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`worlds/_cross-world/dossiers/the-society-of-jesus_Source_Readiness_Dossier.md`). See `Step0_Review_Round3.md`. **Independently reviewed at Revision 3. The one substantial Round 3 finding (stale institutional-voice date claims traced to two mislabeled vendored volumes) has since been fixed and independently spot-checked, per the project lead's authorization. Approved to proceed.**
 **World file-code:** none assigned — not yet selected.
 **Census reference:** Atlas ID VI.11, `cic-website/data/world-census.json`, status "Pre-Survey Candidate."
 **Date drafted:** 2026-09-15.
@@ -95,6 +95,6 @@ This document's 2026-09-15 draft predated the 2026-09-24 vendoring pass, and its
 
 ## 6. Disposition
 
-**Status: DRAFT, Revision 3. Not independently reviewed at this revision.** (see `Step0_Review_Round2.md` for the full finding list)
+**Status: DRAFT, Revision 3. Independently reviewed and cleared - Approved to proceed.** (see `Step0_Review_Round3.md` for the full finding list, and `Step0_Review_Round2.md` for the prior round)
 
-**Recommended next step:** independent review of this revision. Per this project's three-round review cap, this is the last revision round before an unresolved tension escalates to the project lead directly rather than continuing to a fourth round.
+**Recommended next step:** proceed to Doc_01.
