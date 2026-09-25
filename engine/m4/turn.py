@@ -627,6 +627,26 @@ def _append_r27_correction(turn_directive: str | None, hard_offenses: list[dict]
     return (turn_directive or "") + correction
 
 
+def _append_sentence_fact_check_correction(turn_directive: str | None, flags: list[dict]) -> str:
+    """sentence_enforce's own one regeneration: the same append-not-
+    replace channel and shape as _append_r27_correction above, naming
+    only the sentence(s) engine.m4.sentence_fact_check.
+    find_unsupported_named_claims flagged this attempt - never the whole
+    turn, and never any other offense class this correction did not name.
+    Asks for exactly the two outcomes sentence_enforce is prepared to
+    accept: support the claim from the world's own sources, or drop it
+    voluntarily, since a second failure drops it involuntarily anyway
+    (see _run_ordinary_voice_turn's own docstring, sentence_enforce)."""
+    named = "; ".join(f'"{f["sentence"]}"' for f in flags)
+    correction = (
+        "\n## Correction (your last answer named something your own sources do not support)\n"
+        f"These sentences from your last answer named a person, place, date, or number your own records do not "
+        f"give: {named} Answer again: support each named claim from your own sources with an inline "
+        "[[record.id]] tag, or drop the unsupported name or number entirely rather than stating it."
+    )
+    return (turn_directive or "") + correction
+
+
 def apply_net(raw_text: str, *, repository_records: dict[str, dict], thin_topics: list[dict] | None) -> tuple[str, list[dict], dict]:
     """THE one owner of the voice text shape - everything a Representative
     says, in any mode AND in admission, is shaped by this function and only
@@ -711,6 +731,7 @@ def _run_ordinary_voice_turn(
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     self_revision_enabled: bool = True,
+    sentence_enforce: bool = False,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -808,6 +829,67 @@ def _run_ordinary_voice_turn(
     the report-only build_uncited_claims_event path, computed by the
     caller (which has registry access this function does not) and
     passed straight through.
+
+    sentence_enforce (engine.m4.sentence_fact_check's own flag-gated
+    enforcement, a second and independent mechanism from the
+    uncited-claims enforcement's own flag above - distinct
+    flag, distinct correction text, distinct failure shape): OFF by
+    default, same byte-identical-until-opted-in guarantee as that
+    enforcement. When True, runs after the uncited-claims enforcement
+    above has already settled this turn's own text (whichever net_result
+    that left in place - the first attempt's if that enforcement is off
+    or never tripped, the regenerated one otherwise): if
+    find_unsupported_named_claims flags anything against that text,
+    exactly one regeneration follows, with the flagged sentence(s) named
+    in the retry's own directive (_append_sentence_fact_check_correction,
+    the same append-not-replace channel _append_r27_correction already
+    uses - a third mechanism was not written for this). When the
+    uncited-claims enforcement is also on and its own correction fired
+    this turn, that correction rides forward into this retry's own
+    directive too (composed, not replaced) - a fresh regeneration has no
+    memory of the earlier call's own correction, so without carrying it
+    forward this retry could just as easily regress a citation fix that
+    enforcement's own retry had already won.
+
+    The regenerated answer is re-checked TWICE, in a fixed order. First,
+    when the uncited-claims enforcement is on: a wholly_uncited_paragraph
+    or neighbour_named offense surviving THIS retry is that
+    enforcement's own exhaustion, the identical fallback (whole turn
+    blanked, that enforcement's own exhaustion flag set, caller
+    substitutes a Facilitator turn) its own second failure above already
+    uses - its own one-regeneration budget was already spent in the
+    block above, so
+    a hard offense reappearing here does not get a second regeneration
+    of its own. The uncited-claims enforcement's own safety guarantee
+    sits above sentence_enforce's own preferences: it is checked first,
+    and it can still blank the turn even though sentence_enforce's own
+    failure mode (below) never does.
+
+    Second, only when no r27 hard offense survived: find_unsupported_
+    named_claims runs again. A sentence still flagged is removed from
+    the answer on its own (engine.m4.grounding_net.drop_flagged_
+    sentences) - UNLESS dropping every still-flagged sentence would
+    leave nothing behind, in which case the regenerated answer is kept
+    as it stands, still-flagged sentence(s) and all: sentence_enforce's
+    own failure mode never blanks the turn and never substitutes the
+    Facilitator, even when nothing is left to drop safely. Either way,
+    net_result/answer_text/citations/uncited_claims/paragraph_offenses/
+    named_claim_flags/fact_check_flags are all recomputed against
+    whichever text this turn ultimately answers with - the same
+    recompute-on-retry discipline that enforcement's own retry already
+    follows, so every report-only field on the returned voice_event
+    describes the text a participant actually receives, including a
+    flag deliberately left standing rather than dropped or hidden.
+    Every sentence dropped
+    this way, whether the correction alone already fixed everything, and
+    which sentences (if any) are still flagged and left standing, is
+    recorded on voice_event["sentence_enforcement"] (always present,
+    empty/false on a clean turn or when this flag is off - same shape
+    discipline as seat_identity_violations above). A drop can still
+    leave a sentence that grammatically introduced the one just removed
+    reading as an unfinished promise (drop_flagged_sentences' own
+    docstring names this residual, structural-not-semantic limit); it
+    never leaves a broken sentence or an empty paragraph.
 
     other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
@@ -1080,6 +1162,109 @@ def _run_ordinary_voice_turn(
     else:
         attempts_meta_r27_regenerated = False
 
+    # sentence_enforce's own flag-gated enforcement, OFF by default (see
+    # this function's own docstring for the full shape). Runs on
+    # whichever net_result the uncited-claims enforcement above already
+    # settled on - the first attempt's if that enforcement is off or
+    # never tripped, the regenerated one otherwise. sentence_dropped/regenerated
+    # are always set (empty/false when sentence_enforce is False or
+    # nothing tripped it), the same always-present-but-usually-empty
+    # shape attempts_meta already uses.
+    sentence_enforcement = {"flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": []}
+    if sentence_enforce and fact_check_flags:
+        sentence_enforcement["flagged"] = [f["sentence"] for f in fact_check_flags]
+        sentence_enforcement["regenerated"] = True
+        # Composed, not replaced: when the uncited-claims enforcement
+        # already regenerated once this turn (hard_offenses is only ever
+        # defined - possibly empty - when the uncited-claims enforcement is on), that
+        # same correction rides forward into this retry's own directive
+        # too. A fresh regeneration has no memory of the earlier call's
+        # own correction; without carrying it forward, asking the voice
+        # to fix a named claim could just as easily regress the citation
+        # fix that enforcement's own retry had already won.
+        sentence_retry_directive = turn_directive
+        if r27_enforce and hard_offenses:
+            sentence_retry_directive = _append_r27_correction(sentence_retry_directive, hard_offenses)
+        sentence_retry_directive = _append_sentence_fact_check_correction(sentence_retry_directive, fact_check_flags)
+        retry_outcome = stream_voice_turn(
+            voice_client, voice_model_id, system_prompt=world.prompt_text,
+            turn_directive=sentence_retry_directive,
+            message=user_message, history=history,
+        )
+        if retry_outcome.status != "ok":
+            raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
+        if rec := _maybe_record_usage(
+            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
+        ):
+            usage_records.append(rec)
+        retry_raw_text = retry_outcome.value.text
+        retry_answer_text, retry_citations, retry_net_result = apply_net(
+            retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
+        )
+
+        # RE-CHECKED BY the uncited-claims enforcement, when that
+        # enforcement is on: this retry is a fresh generation that
+        # enforcement's own pass never saw, so it could just as easily
+        # reintroduce a
+        # wholly_uncited_paragraph or neighbour_named offense as fix the
+        # named claim. That enforcement's own safety guarantee (never
+        # ship one of those two offenses) sits above sentence_enforce's
+        # own "never blank" preference - sentence_enforce's own
+        # drop-not-blank shape (below) governs an unsupported NAME,
+        # never a citation offense the uncited-claims enforcement exists
+        # to catch. Its own one-regeneration budget was already spent in
+        # the block above; a hard offense surviving THIS retry too is
+        # exhaustion, the identical fallback its own second failure
+        # already uses above.
+        retry_r27_hard_offenses = []
+        if r27_enforce:
+            retry_refined_for_r27 = [
+                classify_neighbour_named(o, known_tradition_names) for o in find_uncited_claims(retry_net_result["sentences"])
+            ]
+            retry_r27_hard_offenses = [
+                o for o in find_uncited_paragraphs(retry_net_result) if o["class"] == "wholly_uncited_paragraph"
+            ] + [o for o in retry_refined_for_r27 if o["class"] == "neighbour_named"]
+
+        if retry_r27_hard_offenses:
+            r27_enforcement_exhausted = True
+            raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
+            answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
+            uncited_claims = []
+            paragraph_offenses = []
+            named_claim_flags = []
+            fact_check_flags = []
+        else:
+            retry_fact_check_flags = find_unsupported_named_claims(retry_net_result["sentences"], repository_records=repository_records)
+            if retry_fact_check_flags:
+                still_flagged = {f["sentence"] for f in retry_fact_check_flags}
+                sentence_enforcement["still_flagged"] = sorted(still_flagged)
+                dropped_raw_text = grounding_net.drop_flagged_sentences(retry_raw_text, still_flagged)
+                if dropped_raw_text.strip():
+                    # Second failure: never blank the whole turn and
+                    # never substitute the Facilitator (unlike the
+                    # uncited-claims enforcement's own exhaustion above)
+                    # - drop only the sentence(s) still flagged, from the
+                    # regenerated attempt's own raw text, then recompute
+                    # every report-only field against the shortened text
+                    # the same way that enforcement's own retry already
+                    # does.
+                    sentence_enforcement["sentences_dropped"] = sorted(still_flagged)
+                    raw_text = dropped_raw_text
+                else:
+                    # Dropping every still-flagged sentence would leave
+                    # nothing - never blank the turn for that either.
+                    # Keep the regenerated answer as it stands;
+                    # fact_check_flags below still reports the flag(s)
+                    # standing on it rather than silently losing them.
+                    raw_text = retry_raw_text
+            else:
+                raw_text = retry_raw_text
+            answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+            uncited_claims = find_uncited_claims(net_result["sentences"])
+            paragraph_offenses = find_uncited_paragraphs(net_result)
+            named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
+            fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
+
     # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
     # for both the citations a sentence already carries and whichever
@@ -1182,11 +1367,13 @@ def _run_ordinary_voice_turn(
         # engine.m4.named_claim_grounding's own module docstring) -
         # report-only, no enforcement flag yet.
         "named_claim_flags": named_claim_flags,
-        # Additive: [] on every clean turn, same discipline as
-        # named_claim_flags above (see engine.m4.sentence_fact_check's own
-        # module docstring) - report-only, no enforcement flag yet. Wider
-        # scope than named_claim_flags: every sentence, not only
-        # already-tagged, already-passing ones.
+        # Additive: [] on every clean turn (see engine.m4.sentence_fact_
+        # check's own module docstring). Wider scope than
+        # named_claim_flags: every sentence, not only already-tagged,
+        # already-passing ones. Describes whichever text this turn
+        # ultimately answers with - when sentence_enforce dropped a
+        # sentence below, this is the shortened text's own flag list
+        # (always [] after a drop, since the dropped sentence is gone).
         "fact_check_flags": fact_check_flags,
         # This enforcement, additive: False unless
         # r27_enforce was on AND the one allowed regeneration still left
@@ -1197,6 +1384,22 @@ def _run_ordinary_voice_turn(
         # turn) - the caller substitutes a facilitator_turn, the exact
         # same shape seat_identity_guard_exhausted already uses above.
         "r27_enforcement_exhausted": r27_enforcement_exhausted,
+        # sentence_enforce's own independent enforcement (see this
+        # function's own docstring, sentence_enforce): "flagged" is
+        # fact_check_flags' own sentence list from the attempt that
+        # triggered the one regeneration; "still_flagged" is what
+        # remained after that regeneration - empty on a clean turn or a
+        # correction that fully fixed every flagged sentence.
+        # "sentences_dropped" is usually the same list as "still_flagged",
+        # EXCEPT when dropping every one of them would have left nothing
+        # behind: there, nothing is dropped, "sentences_dropped" stays
+        # empty, and "still_flagged" alone shows the flagged sentence(s)
+        # this turn's own answer_text still carries as-is. This enforcement's
+        # own failure mode never blanks answer_text and never substitutes
+        # the Facilitator; the one way this composed turn CAN still end
+        # up blank is the uncited-claims enforcement's own exhaustion
+        # path above, checked first and outside this dict's own control.
+        "sentence_enforcement": sentence_enforcement,
     }
     return voice_event, usage_records
 
@@ -1234,6 +1437,7 @@ def run_turn(
     other_tradition_known_in_window: bool | None = None,
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
+    sentence_enforce: bool = False,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1275,12 +1479,13 @@ def run_turn(
     engine.m5.safety_accumulation's own module docstring).
 
     r27_enforce/known_tradition_names (the uncited-claims rule's
-    flag-gated enforcement): threaded straight through to every
-    _run_ordinary_voice_turn call this
+    flag-gated enforcement) and sentence_enforce (sentence_fact_check's
+    own, independent flag-gated enforcement): threaded straight through to
+    every _run_ordinary_voice_turn call this
     function makes (the ordinary path and the bridge route both generate
     a real voice answer that can carry the same offenses) - see that
-    function's own docstring for the full enforcement shape. Both default
-    off/None, byte-identical to before either existed."""
+    function's own docstring for the full enforcement shape of each. All
+    default off/None, byte-identical to before any of them existed."""
     # The gate pass, extracted whole to run_gate (Artifact-7 - a table
     # round gates once per message, then runs several voice turns
     # against the same decision). The locals below keep their old names so
@@ -1415,13 +1620,14 @@ def run_turn(
             for t in (reader_outcome.value.get("modern_terms") or [])
             if t["term_id"] in anachronistic_term_ids and t["term_id"] in fleet
         ]
-        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired)
+        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired, fleet)
         # WHAT ELSE THE PARTICIPANT ASKED. The bridge route carries no
-        # directive of its own (engine.m5.routing), so a message that asked
-        # two things - one carrying the modern word, one not - used to reach
-        # the voice as the underlying subject alone, and the second ask was
-        # simply gone. Barring the word is the rule; barring the rest of the
-        # sentence was never part of it. The fired records' own display_terms
+        # directive of its own (engine.m5.routing), so a message that asks
+        # two things - one carrying the modern word, one not - must still
+        # carry the second ask to the voice alongside the underlying
+        # subject, not the underlying subject alone. Barring the word is
+        # the rule; barring the rest of the sentence is not. The fired
+        # records' own display_terms
         # are what gets barred, all of them, not just the spelling that
         # happened to match - so an ask carrying a different inflection of
         # the same term is still kept away from the voice.
@@ -1439,7 +1645,7 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
-            self_revision_enabled=self_revision_enabled,
+            self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -1465,7 +1671,7 @@ def run_turn(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
-            self_revision_enabled=self_revision_enabled,
+            self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
         )
         return TurnResult(
             routing_action=action,

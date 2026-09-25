@@ -45,6 +45,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.gravity.grace-and-effort
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "sturdy way"` returns one hit, line 15769, inside `<div3 title="Chapter I. The Life of Cassian." ...
