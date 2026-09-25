@@ -54,6 +54,8 @@ relations:
   target: gallic.gravity.interior-road
 - type: associated-with
   target: gallic.gravity.egypt-as-measure
+- type: associated-with
+  target: gallic.quote.the-fathers-and-the-angels-twelve
 narrative_tier: 2
 narrative_tier_justification: >-
   Tier 2 - Collected and Traditional Material. The governing framework requires material transmitted in
@@ -79,34 +81,32 @@ text: >-
   The tradition Cassian handed on to Gaul tells how the number of the psalms was fixed - not by any
   monk, but by an angel.
 
-  In the early days of the faith, the fathers of Egypt say, "when only a few, and those the best of men,
-  were known by the name of monks," who had received that way of life from the Evangelist Mark and who
-  kept the pattern of the first believers in Jerusalem - "one heart and one soul," all things common -
-  and who withdrew outside the cities to a life of such abstinence that even unbelievers marvelled: at
-  that time, "when the perfection of the primitive Church remained unbroken ... and when the fervent
-  faith of the few had not yet grown lukewarm by being dispersed among the many, the venerable fathers
-  with watchful care made provision for those to come after them, and met together to discuss what
-  plan should be adopted for the daily worship throughout the whole body of the brethren."
+  In the early days of the faith, the fathers of Egypt say, only a handful of men, and the best of
+  them, were known by the name of monks. They had received that way of life from the Evangelist Mark,
+  and kept the pattern of the first believers in Jerusalem - one heart and one soul, all things held in
+  common - and withdrew outside the cities to a life of such abstinence that even unbelievers
+  marvelled. At that time, while the primitive Church's perfection still stood whole, and the few who
+  held the faith had not yet grown lukewarm by being spread thin among the many, the elder fathers met
+  with careful concern for those who would come after them, to settle a plan for the daily worship of
+  the whole community (gallic.quote.the-fathers-and-the-angels-twelve).
 
-  They feared, the tradition says, that if the daily services were left to each man's fervour, "some
-  difference or dispute might arise" and "send forth a poisonous root of error or jealousy or schism
-  among those who came after." And so it went: each man, "in proportion to his own fervour--and
-  unmindful of the weakness of others," proposed what he himself found easy - "some were for fifty,
-  others sixty, and some, not content with this number, thought that they actually ought to go beyond
-  it." There was "such a holy difference of opinion in their pious discussion on the rule of their
-  religion that the time for their Vesper office came before the sacred question was decided."
+  They feared that if the daily services were left to each man's own fervour, a dispute might grow into
+  something worse - a root of error, jealousy, or schism among those who came later. And that is what
+  began to happen: each father, weighing only his own strength and not the weakness of others, proposed
+  the number that suited him. Some argued for fifty psalms, some for sixty, and some wanted still more.
+  The disagreement ran on, faithful but unresolved, until the hour for Vespers arrived before the
+  question was settled.
 
-  So they stopped to sing. "One rose up in the midst to chant the Psalms to the Lord. And while they
-  were all sitting ... with their minds intently fixed on the words of the chanter, when he had sung
-  eleven Psalms, separated by prayers introduced between them, verse after verse being evenly
-  enunciated, he finished the twelfth with a response of Alleluia, and then, by his sudden
-  disappearance from the eyes of all, put an end at once to their discussion and their service."
+  So they stopped to sing. One father rose to chant the psalms. As the others sat listening, intent on
+  every word, he sang eleven psalms, each one followed by its own prayer, evenly and steadily - and
+  then finished the twelfth with a response of Alleluia. At that moment he vanished from everyone's
+  sight, and with him went both the discussion and the service.
 
-  "Whereupon the venerable assembly of the Fathers understood that by Divine Providence a general rule
-  had been fixed for the congregations of the brethren through the angel's direction, and so decreed
-  that this number should be preserved both in their evening and in their nocturnal services." The two
-  lessons they added afterwards - one from the Old Testament and one from the New - "they added ...
-  simply as extras and of their own appointment." The twelve were not theirs.
+  The fathers understood this as Providence at work: a general rule fixed for every congregation of
+  brothers, through the angel's own act, and they decreed that the number should hold for both the
+  evening and the night offices from then on. They later added two readings, one from the Old Testament
+  and one from the New - but only as extras, of their own choosing. The twelve themselves were never
+  theirs to choose.
 absent_detail: >-
   No witness to the angel is named; Cassian himself refers the reader elsewhere for the background.
   Nothing in our record says what the brethren at Tours sang or at what hours - Martin's monastery has
@@ -122,21 +122,8 @@ modern_contrast: >-
   guard "the weakness of others" against the fervour of the few, the angel's twelve against the
   zealots' sixty.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory008_the-angel-and-the-twelve-psalms.md
-(Tier 2, Marseilles node, received Egyptian material, Registry row 7). Story Text carried faithfully,
-with the origin ("the tradition Cassian handed on to Gaul," "the fathers of Egypt say") disclosed in the
-telling as the chunk does.
-
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as the most literal instance of G4 - received, not
-invented (Primary, cross-node) - "no appointment of man's invention, but ... brought down from heaven
-to the fathers by the ministry of an angel" (Inst. II.4; Doc_05 §2.4(iv)), so that "the legitimate
-leader is the one who transmits the angel's number" (Doc_05 §3); the founding memory of G7 - the
-interior road's temporal skeleton (gallic.term.unceasing-prayer; Doc_05 §3's finding that the office
-organizes sleep, labour, penance, fasting, the week, authority, and the day's memory); and the first of
-Doc_07 §3A's inherited, received memories. G2 - Egypt as the measure is the reception frame itself.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates
-gallic.gravity.received-not-invented; associated-with gallic.gravity.interior-road,
-gallic.gravity.egypt-as-measure - each connection named above, with the reciprocal back-edge
-(illustrated-by / associated-with) declared on every one of those gravity records.
+The origin - the tradition Cassian handed on to Gaul, from the fathers of Egypt - is disclosed in the
+telling itself. Illustrates gallic.gravity.received-not-invented most literally: on Cassian's own
+account, the number of psalms was not any man's invention but was given to the fathers through an
+angel. Also touches gallic.gravity.interior-road, as the temporal skeleton the daily office organizes,
+and gallic.gravity.egypt-as-measure, as the reception frame for the whole story.

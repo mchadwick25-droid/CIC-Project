@@ -51,6 +51,10 @@ relations:
   target: gallic.gravity.named-example
 - type: associated-with
   target: gallic.gravity.monk-bishop
+- type: associated-with
+  target: gallic.quote.martin-raises-the-catechumen
+- type: associated-with
+  target: gallic.quote.the-catechumens-testimony
 narrative_tier: 3
 narrative_tier_justification: >-
   Tier 3 - Attributed Tradition - by genre analysis, not by author alone. Sulpitius is the same named,
@@ -74,32 +78,29 @@ text: >-
   This is how the tradition of Tours remembers the first of Martin's virtutes - what it believed a man
   given wholly to God could do, and what it believed that doing made him.
 
-  "As Hilarius had already gone away, so Martin followed in his footsteps," and Martin "established for
-  himself a monastery not far from the town." A catechumen joined him there, "desirous of becoming
-  instructed in the doctrines and habits of the most holy man." Within a few days the catechumen fell
-  into a fever; Martin was away for three days; and when he came back he found that "life had departed
-  from the catechumen," and so suddenly that he had died "without receiving baptism." The body was
-  already laid out, and the brethren were mourning over it, "when
-  Martin hurries up to them with tears and lamentations."
+  Martin followed Hilarius once he had gone, and set up a monastery for himself not far from the town.
+  A catechumen joined him there, wanting to be shaped by the teaching and habits of so holy a man.
+  Within a few days the man caught a fever; Martin was away for three days, and came back to find he
+  had died so suddenly that he had not been baptized. The body lay out for mourning when Martin arrived
+  in tears and grief (the tradition's own account of what follows, word for word, is kept in
+  gallic.quote.martin-raises-the-catechumen).
 
-  Then - the tradition's own words - "laying hold, as it were, of the Holy Spirit, with the whole
-  powers of his mind, he orders the others to quit the cell in which the body was lying; and bolting
-  the door, he stretches himself at full length on the dead limbs of the departed brother." He prayed.
-  And "perceiving by means of the Spirit of God that power was present, he then rose up for a little,
-  and gazing on the countenance of the deceased, he waited without misgiving for the result of his
-  prayer and of the mercy of the Lord." Scarcely two hours passed before the dead man began to move,
-  and to tremble, and to open his eyes. Martin cried out his thanks so loudly that the brethren at the
-  door rushed in and "beheld the man alive whom they had formerly left dead." The catechumen was
-  baptized at once and lived many years, and - the tradition is careful to say this - "he was the
-  first who offered himself to us both as a subject that had experienced the virtues of Martin, and as
-  a witness to their existence."
+  Then, as the tradition tells it, Martin took hold of the Holy Spirit with the whole power of his
+  mind, sent everyone else out of the cell, bolted the door, and stretched himself full length on the
+  dead man's body. He prayed for a time, and rose again once he sensed that power was present, then
+  waited without doubt for the Lord's mercy to answer his prayer. Scarcely two hours passed before the
+  dead man began to stir and open his eyes. Martin cried out in thanks so loudly that the brethren
+  outside rushed in and saw the man alive whom they had left dead. The catechumen was baptized at once,
+  lived many years afterward, and became, the tradition says, the first person to offer himself both as
+  someone who had experienced Martin's power and as a witness to it (this closing line, and what
+  follows it, is kept word for word in gallic.quote.the-catechumens-testimony).
 
   The man himself used to tell what had happened to him: that when he left the body he was brought
   before the tribunal of the Judge and assigned "to gloomy regions and vulgar crowds," and that two
   angels of the Judge said this was the man for whom Martin was praying, and he was ordered back by
-  the same angels and "given up to Martin." From that day, the tradition says, Martin's name was
-  illustrious, "so that, as being reckoned holy by all, he was also deemed powerful and truly
-  apostolical."
+  the same angels and "given up to Martin." From that day, the tradition says, Martin's name grew so
+  well known that people came to regard him as not only holy, but genuinely powerful and apostolic in
+  his own right.
 absent_detail: >-
   The catechumen is never named; the monastery is named only as "not far from the town" (the
   identifications Ligugé and Poitiers are editorial, not in Sulpitius's chapter). Nothing at this locus
@@ -113,24 +114,10 @@ modern_contrast: >-
   God's miracles and signs." The two literatures are made of what the other refuses, and never
   addressed each other.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory003_raising-of-the-catechumen.md (Tier 3,
-Tours node, Registry row 1). Story Text carried faithfully; the chunk's post-review corrections (H2:
-no "Ligugé"/"Poitiers"; L5: no exile/return framing from Vita VI) are respected - neither place-name
-appears in the narrative. One compression: Sulpitius's "so suddenly had death occurred, that he had
-left this world without receiving baptism" is carried as "so suddenly that he had died 'without
-receiving baptism'" - the record layer's voice-perspective gate reads any "this world" in narrative as
-a builder's-eye phrase, and the quoted clause is a person dying, so the sense is kept and the quotation
-marks are narrowed to the words retained verbatim.
+Neither "Ligugé" nor "Poitiers" appears in the narrative: Sulpitius names the monastery only as "not
+far from the town," and those identifications are editorial, not his own words (see absent_detail).
 
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the
-chunk's own Formation Ecology Connection names this as G6 - virtus: the saint as bearer of power
-(Tensional, node-bound northern) at its founding instance - the episode Doc_04 G6 cites first, and the
-one Doc_07 §2I builds the north's "not I" grammar on ("power is 'present,' not owned"); G5 - formation
-by named example (Supporting) in the medium Tours used, the disciple formed by having Martin's power
-done to him and becoming its "witness"; and G1 - the monk-bishop (Primary) anticipated - the man
-becomes "deemed powerful and truly apostolical," the reputation that makes the election possible.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.virtus;
-associated-with gallic.gravity.named-example, gallic.gravity.monk-bishop - each connection named
-above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of
-those gravity records.
+The raising itself, from Martin's return to the moment the brethren see the man alive, is carried in
+full, verbatim, in gallic.quote.martin-raises-the-catechumen; the man's becoming Martin's first witness
+and the growth of Martin's reputation are carried in gallic.quote.the-catechumens-testimony. This
+record paraphrases both in its own voice and points to those records for the exact wording.

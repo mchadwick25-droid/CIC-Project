@@ -43,6 +43,7 @@ modern_lens_note: >-
   the old men's kind of holiness - "that pearl of the Gospel which I have not," and offers, instead of
   his own teaching, only the sight of men who still have it. The office is framed here as a poverty he
   cannot undo, not a platform he uses.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

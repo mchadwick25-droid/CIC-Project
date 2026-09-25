@@ -50,6 +50,7 @@ modern_lens_note: >-
   get through the crowd, and the verse that came up happened to name an "enemy" and a "defensor" -
   Defensor's own name. Sulpitius reports this as what the crowd believed, not as his own proof; the
   belief is the story's evidence, not the event's certainty.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours

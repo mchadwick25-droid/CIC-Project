@@ -53,6 +53,7 @@ modern_lens_note: >-
   possess is consecrated to the Lord" - the same reasoning that suspends him from prayer also explains
   why dusting a cell earns a reward. The severity and the small reward sit on the same scale: both
   measure how the monk treats what is not his own.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.the-three-lentil-beans

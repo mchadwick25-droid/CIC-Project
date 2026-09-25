@@ -52,6 +52,10 @@ relations:
   target: gallic.gravity.named-example
 - type: associated-with
   target: gallic.gravity.virtus
+- type: associated-with
+  target: gallic.quote.the-soldier-who-served-his-servant
+- type: associated-with
+  target: gallic.quote.the-cloak-divided-and-the-vision-of-christ
 narrative_tier: 3
 narrative_tier_justification: >-
   Tier 3 - Attributed Tradition - even though the author is the same named, socially located, datable
@@ -78,29 +82,30 @@ text: >-
   Sulpitius tells that Martin, the son of a military tribune, was seized on his father's information
   and put in chains at fifteen and made to take the military oath, and that even then he kept only one
   servant, and served that servant - drew off his boots and cleaned them with his own hand, and at
-  their meals "the real master ... generally acting the part of servant." He was, Sulpitius says,
-  "regarded not so much as being a soldier as a monk." He was not yet baptized; he was a catechumen,
-  and out of his pay he kept back only what he needed for the day, giving the rest away.
+  their meals acted the part of servant to his own attendant rather than master. By his fellow
+  soldiers' own account, he was thought of less as a soldier than as a monk (Sulpitius's own wording for
+  all of this is kept in gallic.quote.the-soldier-who-served-his-servant). He was not yet baptized; he
+  was a catechumen, and out of his pay he kept back only what he needed for the day, giving the rest
+  away.
 
-  Then one winter - "a winter which had shown itself more severe than ordinary, so that the extreme
-  cold was proving fatal to many" - Martin, "when he had nothing except his arms and his simple
-  military dress," met at the gate of the city a poor man with no clothes at all, begging from
-  everyone who passed, and everyone passed. Martin "recognized that a being to whom others showed no
-  pity, was, in that respect, left to him." He had nothing but the cloak he was wearing; the rest of
-  his garments he had already given away in the same manner. So "taking ... his sword with which he
-  was girt, he divided his cloak into two equal parts, and gave one part to the poor man, while he
-  again clothed himself with the remainder." Some of the bystanders laughed at the half-dressed
-  soldier. Others, "of sounder understanding, groaned deeply because they themselves had done nothing
-  similar," having more than Martin had and needing to strip no one to give.
+  Then one winter - a harder winter than usual, one that was proving fatal to many from the cold -
+  Martin, who by then had nothing left but his weapons and his plain uniform, met a poor man at the
+  city gate with no clothes at all, begging from everyone who passed, and everyone passed him by.
+  Martin saw that no one else would show the man pity, and understood that left it to him. He had
+  nothing left to give but the cloak on his back - he had already given away the rest of his clothes
+  the same way. So he drew his sword, cut the cloak into two equal halves, gave one to the poor man,
+  and put the other back on himself. Some of the bystanders laughed at the half-dressed soldier.
+  Others, with more sense, felt ashamed that they, who had more than Martin, had never done anything
+  like it (Sulpitius's own wording for this whole scene, and for the vision that follows, is kept in
+  gallic.quote.the-cloak-divided-and-the-vision-of-christ).
 
-  That night, the tradition says, Martin saw Christ in his sleep, "arrayed in that part of his cloak
-  with which he had clothed the poor man," and heard him say to the angels around him: "Martin, who is
-  still but a catechumen, clothed me with this robe." The Lord who had said "Inasmuch as ye have done
-  these things to one of the least of these, ye have done them unto me" showed himself in the beggar's
-  half of a soldier's cloak. And this is the point the tradition presses: Martin "was not puffed up
-  with human glory" by it; he went and was baptized, at twenty, and - because his tribune had promised
-  to leave the world with him when his term was up - went on for nearly two more years wearing the
-  uniform "although but in name."
+  That night, the tradition says, Martin saw Christ in his sleep, wearing the half of the cloak he had
+  given the beggar, and heard him tell the angels standing around that Martin - still only a
+  catechumen - had clothed him with that robe, echoing Christ's own earlier promise that whatever was
+  done for the least of people was done for him. And this is the point the tradition presses: Martin
+  "was not puffed up with human glory" by it; he went and was baptized, at twenty, and - because his
+  tribune had promised to leave the world with him when his term was up - went on for nearly two more
+  years wearing the uniform "although but in name."
 absent_detail: >-
   Sulpitius's text says nothing of a relic, a chapel, or the cloak's later fate - it says only that
   Martin was baptized and stayed a soldier in name for two more years. The text gives no year for the
@@ -113,29 +118,12 @@ modern_contrast: >-
   material act of charity, Christ attests it, and the man is "not puffed up" - the point being that he
   went and was baptized and quietly served out his term, not that a relic was born.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory001_the-cloak-at-amiens.md (Tier 3, Tours
-node, Registry row 1 via gallic_registry_row_to_source_id.tsv). Story Text carried faithfully from the
-chunk's own twice-reviewed narrative; one adjustment only - "at the gate of the city of Amiens"
-tightened to "at the gate of the city," because the chunk's own Source field names "Amiens" as Roberts's
-editorial identification (row 17) rather than Sulpitius's own text, and the No-Tier-5 audit's rule
-(Doc_09 §4) is that no editorial place-name enters narrative as the source's own word. The id keeps the
-chunk's own slug (including "amiens") as a stable technical identifier, matching Doc_09's own ruling on
-the gallicstory005 filename.
+"At the gate of the city" leaves out "of Amiens": the translation's own main text supplies that name,
+but it renders Sulpitius's Latin "Ambianensium civitas," so it is treated here as the translator's own
+identification rather than Sulpitius's own word (see the confidence block's divergence_note and
+absent_detail above). The id keeps "amiens" as a stable technical identifier regardless.
 
-Node voice: close third person, Tours node ("the tradition of Tours remembers"), never either node's
-unqualified "we" (Doc_06 §1).
-
-FEC / GRAVITY LINKAGE (parked for B-5; this world's gravity/force records do not exist yet - Doc_04
-and Doc_08 are still prose, so no relations[] entry points at a gravity id, exactly as the Cappadocian
-B-4 precedent handled the same situation): the chunk's own Formation Ecology Connection names this as
-the tradition's own picture of G8 - the soldier of Christ (Supporting, cross-node) before the phrase
-is ever spoken; the earliest instance of G5 - formation by named example (Supporting) - the bystanders
-who "groaned deeply because they themselves had done nothing similar" are the rousing already happening
-inside the story; and G6 - virtus (Tensional, northern) in its gentlest form, Christ's own attestation
-of the man rather than power exercised by him. Doc_08 Force 1A-2 names the army as "the 'before' of
-every founding biography."
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates
-gallic.gravity.soldier-of-christ; associated-with gallic.gravity.named-example,
-gallic.gravity.virtus - each connection named above, with the reciprocal back-edge (illustrated-by /
-associated-with) declared on every one of those gravity records.
+Martin's conduct as a soldier before the cloak, and the cloak-and-vision scene itself, are carried in
+full, verbatim, in gallic.quote.the-soldier-who-served-his-servant and
+gallic.quote.the-cloak-divided-and-the-vision-of-christ; this record paraphrases both in its own voice
+and points to those records for the exact wording.

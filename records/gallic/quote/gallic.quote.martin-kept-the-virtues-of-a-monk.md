@@ -36,6 +36,7 @@ modern_lens_note: >-
   A modern reader might expect the office to have changed the man. Sulpitius states the opposite as a
   single balanced sentence: dignity fit for a bishop, held together with the plain "objects" - the
   ordinary tools and habits - of a monk. Neither role is described as winning out over the other.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours

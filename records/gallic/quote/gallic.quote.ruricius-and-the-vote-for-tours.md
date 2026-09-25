@@ -51,6 +51,7 @@ modern_lens_note: >-
   ambush of kindness: a lie about a sick wife, a crowd posted along the road, "a kind of guard." And the
   charge the objecting bishops bring is the ascetic body itself - mean clothes, disgusting hair - which
   Sulpitius turns back on them: the objection proclaims the very holiness it means to deny.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours

@@ -60,6 +60,7 @@ modern_lens_note: >-
   added afterward, by contrast, are named plainly as human work: "simply as extras and of their own
   appointment." The distinction is the point - between what the fathers received and what they merely
   arranged.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.the-angel-and-the-twelve-psalms

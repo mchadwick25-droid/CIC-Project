@@ -46,6 +46,7 @@ modern_lens_note: >-
   complaint, as Cassian records it, is not modesty: he counts thirty-seven years in the monastic life
   and names his consecration an expulsion from it "as unworthy" - a loss, not an honor, even after he
   has held the office his whole remaining life without relaxing his old strictness.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

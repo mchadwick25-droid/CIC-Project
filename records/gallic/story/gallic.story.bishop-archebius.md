@@ -57,6 +57,12 @@ relations:
   target: gallic.gravity.authority-ambivalence
 - type: associated-with
   target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.quote.honoratus-presiding-over-a-monastery
+- type: associated-with
+  target: gallic.quote.archebius-carried-off-to-panephysis
+- type: associated-with
+  target: gallic.quote.archebius-see-the-old-men
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - argued rather than assumed, because this is the first of
@@ -84,29 +90,26 @@ tellable_as: >-
   past himself to the old men whose mere sight is a lesson.
 text: >-
   Opening the second part of his Conferences - the part he dedicated to the "holy brothers" Honoratus
-  and Eucherius, one of them "presiding as he does over a large monastery of the brethren" - Cassian
-  records his own arrival, with Germanus, at Thennesus in Egypt, and the bishop God sent to meet them.
+  and Eucherius, one of them the head of a large monastery of brothers
+  (gallic.quote.honoratus-presiding-over-a-monastery) - Cassian records his own arrival, with Germanus,
+  at Thennesus in Egypt, and the bishop God sent to meet them.
 
-  "God gratified our wishes," Cassian writes, "and had brought about the arrival of that most blessed
-  and excellent man Bishop Archebius, who had been carried off from the assembly of anchorites and
-  given as Bishop to the town of Panephysis." Archebius, Cassian says, "kept all his life long to his
-  purpose of solitude with such strictness that he relaxed nothing of the character of his former
-  humility, nor flattered himself on the honour that had been added to him" - for he "vowed that he had
-  not been summoned to that office as fit for it, but complained that he had been expelled from the
-  monastic system as unworthy of it because though he had spent thirty-seven years in it he had never
-  been able to arrive at the purity so high a profession demands."
+  God had granted their wish, Cassian writes: Bishop Archebius arrived, a most blessed and excellent
+  man who had been taken from the community of anchorites and made Bishop of Panephysis. Archebius kept
+  his old discipline of solitude all his life, and never let the honor go to his head. He counted his
+  consecration a loss, not a gain - he had not been called to the office as someone fit for it, he said,
+  but expelled from the monastic life as unworthy of it, since thirty-seven years in it had never
+  brought him the purity so high a calling demands (gallic.quote.archebius-carried-off-to-panephysis).
 
   The business that had brought him to Thennesus was the election of another bishop. He received the
-  two travellers "kindly and most graciously," and when he heard that they wished to seek out the holy
-  fathers in still remoter parts of Egypt he said: "Come," said he, "see in the meanwhile the old men
-  who live not far from our monastery, the length of whose service is shown by their bent bodies, as
-  their holiness shines forth in their appearance, so that even the mere sight of them will give a
-  great lesson to those who see them: and from them you can learn not so much by their words as by the
-  actual example of their holy life, what I grieve that I have lost, and having lost cannot give to
-  you. But I think that my poverty will be somewhat lessened by this zeal of mine, if when you are
-  seeking that pearl of the Gospel which I have not, I at least provide where you can conveniently
-  procure it." And he took his staff and scrip, Cassian says, "as is there the custom for all monks
-  starting on a journey," and led them himself.
+  two travellers kindly and graciously, and when he heard that they wished to seek out the holy fathers
+  in still remoter parts of Egypt, he told them to go first and see the old men who lived near his own
+  monastery - men whose bent bodies showed the length of their service, and whose holiness showed in
+  their very appearance, so that the mere sight of them would teach a great lesson. Their example, not
+  their words, would teach what he himself, he said, had lost and could no longer give. If he could not
+  offer his visitors the pearl of the Gospel himself, he could at least lead them to where they might
+  find it (gallic.quote.archebius-see-the-old-men). And he took up his staff and bag, as was the custom
+  there for monks setting out on a journey, and led them himself.
 absent_detail: >-
   No witness to Archebius survives outside Cassian, and the interval between the journey and the
   writing is not stated. The sermon that tells of Honoratus does not mention Archebius, and Cassian
@@ -121,24 +124,10 @@ modern_contrast: >-
   life." The southern node's own teaching that wanting office is vainglory is not contradicted by the
   one Egyptian bishop Cassian chose to carry west; he is its illustration.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory012_bishop-archebius.md (Tier 1,
-Marseilles node - Cassian's own encounter, in Egypt; Registry row 9). Story Text carried faithfully;
-the chunk's post-review corrections respected (L1: "said he" restored; L7: "the first Conference of the
-second part," not "the first chapter"). The chunk's inline correction annotation is not carried into
-the narrative. No separate figure record for Archebius or Germanus (Cassian's companion - not Germanus
-of Auxerre, Registry row 44, Excluded and untouched): each is fully carried by the stories they appear
-in. Honoratus is related as a figure here because the narrative itself names him as the dedicatee and
-the chunk's Formation Ecology Connection makes him the story's Gallic reader.
-
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as Doc_04 G1's "Egyptian counter-case" of G1 - the
-monk-bishop (Primary, cross-node) - a monk seized for a see who counts the seizure a loss, set by Doc_07
-§2C beside Martin's guard and Honoratus's fillet, and cited by Doc_08 Force 1B-1 as the founding
-conviction's own Egyptian witness; G9 - ambivalence toward episcopal authority (Tensional) in its
-Egyptian valence - the office as expulsion "from the monastic system"; and G5 - formation by named
-example - the old men whose "mere sight ... will give a great lesson."
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.monk-bishop and
-illustrates gallic.gravity.authority-ambivalence; associated-with gallic.gravity.named-example -
-each connection named above, with the reciprocal back-edge (illustrated-by / associated-with)
-declared on every one of those gravity records.
+No separate figure record exists for Archebius or for Germanus (Cassian's travelling companion, not
+Germanus of Auxerre): each is fully carried by the story he appears in. Honoratus is related as a
+figure here because the narrative itself names him as the dedicatee. Illustrates
+gallic.gravity.monk-bishop (a monk seized for a see who counts the seizure a loss, the Egyptian
+counterpart to Martin's guard and Honoratus's fillet) and gallic.gravity.authority-ambivalence (the
+office named as an expulsion from the monastic life); associated-with gallic.gravity.named-example (the
+old men whose mere sight teaches).
