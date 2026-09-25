@@ -37,7 +37,30 @@ relations:
 - type: associated-with
   target: desert.quote.melania-to-the-governor
 name: "Economic and social embeddedness in village life [TENSIONAL]"
-description: "A persistent counter-current to withdrawal's own rhetoric of total separation: the settlements sat on marginal-but-not-remote land, with real economic ties to villages through labor, sale of goods, and almsgiving. Moderate on Repetition (two independently registered evidence types whose confidence ratings agree but whose caveats differ, functioning as a corrective reading against the dominant literary narrative rather than as that narrative's own emphasis); moderate Dependency; indirect Formation (shapes practice more than professed ideal); strong Explanatory power (explains a real documented gap between rhetoric and practiced reality); cross-strand as a pattern, evidence-concentrated in Strand B and, provisionally and Nepheros-derived specifically, Strand C - distinct from Kellia's more securely Strand-C-located archaeological evidence, per Doc_04's own SS5 note. This is exactly what qualifies it as Tensional rather than Primary: a persistent, materially real counter-pressure to the ecology's own self-understanding, not a force that organizes that self-understanding directly. It holds steady rather than intensifying or fracturing under the named forces (Doc_01 SS7's four, not only the generating force) - a structural precondition (the settlements had to eat) underneath the more visible responses."
+description: "This pattern runs against withdrawal's own talk of total separation. The settlements sat on land that was marginal but
+  not remote. They had real economic ties to villages, through labor, the sale of goods, and almsgiving.
+
+
+  Two independent kinds of evidence support it: the excavated remains at Kellia and the documents of the Nepheros
+  archive. Each is rated as equally well documented, but each comes with different caveats. Together they correct the
+  dominant literary story rather than repeat something that story stresses. So the pattern shows up in more than one
+  kind of evidence, but not overwhelmingly. Other parts of this world's life depend on it to a moderate degree.
+
+
+  Its effect on formation is indirect: it shapes practice more than the ideal people professed. But it explains a great
+  deal. It accounts for a real, documented gap between what the rhetoric claimed and how people actually lived.
+
+
+  The pattern holds across every part of this world. Its evidence, though, is concentrated in the Pachomian federation
+  and, provisionally, in the settlements of Nitria, Kellia, and Scetis. That second link rests specifically on the
+  Nepheros archive and is less secure. Kellia's archaeological evidence belongs to those settlements more securely.
+
+
+  This is why it counts as a counter-pressure rather than a pattern that organizes this world. It is a lasting,
+  materially real pressure against how this world understood itself, not a force that shapes that self-understanding
+  directly. It holds steady rather than growing or breaking apart under the four main historical forces named for this
+  world. That includes forces beyond the one that set this world in motion. It is a structural precondition underneath
+  the more visible responses: the settlements had to eat."
 classification: tensional
 manifestations:
 - "Kellia's excavated commercial center, showing trade actually running alongside the ascetic settlement"

@@ -28,6 +28,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: lpc.witness.answerability-as-ground
+- type: associated-with
   target: lpc.gravity.penitential-discipline
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved
