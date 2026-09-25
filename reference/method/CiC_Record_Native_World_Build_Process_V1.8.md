@@ -1,4 +1,4 @@
-# CiC Record-Native World Build Process — V1.7 (2026-09-25)
+# CiC Record-Native World Build Process — V1.8 (2026-09-25)
 
 **What this document is:** the single end-to-end process for building a NEW
 formation world, from Step-0 scope confirmation through a frozen, deployed,
@@ -122,17 +122,72 @@ Doc_02's Source Registry gives every item in the package a line:
 The Doc_02 review checks that no item is missing, alongside the holdings
 dispositions in the Doc_02 row above.
 
+Step 2 also produces, for the build to work from:
+
+- an exact locus for every quotable passage
+- a quotability flag for every file: verbatim-ready, second witness
+  only, or unusable
+- own-voice vs opponent-voice flags wherever one work mixes them (a
+  martyrology, a polemic, a trial record)
+- corpus-map rows with `row_id`, corrected `role` and `voice_of`
+- a holdings disposition for every item
+- a thin-evidence map, which feeds confidence levels and the admission
+  probes
+- for each work, its edition and original language, and which text is
+  primary and which is the cross-check
+- cross-world overlaps and pairs (`cic/corpus-map/PAIRS.yaml`)
+- optionally, one line on material and archaeological sources consulted
+  or not, and the social roles the sources attest for a Representative
+
+Steps 0–2 may run ahead of any full build. Their output also populates
+the Church Family Tree.
+
 ### Handoff
 
-The world build starts only when the handoff package is complete. If it
-is not, the build thread stops and asks the source-research thread for
-what is missing.
+The world build starts only when the handoff package is complete. A
+build thread checks every item below before it starts Step 3. If any item
+fails, it stops and sends the world back to the source-research thread.
 
-> **Handoff checklist: still converging with Mark; lands in V1.8.**
+1. **The world's identity is fixed.** Its registry entry at
+   `records/worlds/<code>.yaml` exists, with one `world_id`, before any of
+   the world's records reach `main`. Every later file uses that same
+   `world_id`.
+2. **Step 0, Movement-Scope Confirmation, is approved to proceed.** It
+   cleared independent Opus review within the round cap, and the
+   movement's own status in `cic-website/data/world-census.json` was
+   checked.
+3. **Step 1, World Identification, is approved to proceed,** under the
+   same review rule.
+4. **Step 2, Source Ecology, is approved to proceed.** Its Source Registry
+   gives every item in the library package a line, and no dossier item,
+   corpus-map entry or holdings-report file is missing one.
+5. **The Source Readiness Dossier** is at
+   `worlds/_cross-world/dossiers/<slug>_Source_Readiness_Dossier.md`.
+6. **The corpus-map assignments** are at `cic/corpus-map/<slug>.yaml`, and
+   `python cic/engine/corpus_map_merge.py --check` passes.
+7. **The vendored texts** are in `cic/texts/`, each with a
+   `cic/texts/REGISTRY.yaml` entry and verified rights. Every assigned
+   work opens, and `python cic/engine/corpus_index.py --build` is clean.
+8. **Every quotation in Steps 0–2 is re-verified** word for word against
+   the vendored file, speaker included. An opponent's paraphrase is never
+   quoted as the subject's own words.
+9. **Open questions are carried forward, not decided.** Every cross-world
+   question in the dossier sits in `worlds/_cross-world/NEEDS-RULING.md`
+   or the world's `Open_Gaps_Tracking.md`.
+10. **The world's `Open_Gaps_Tracking.md` exists,** with the library
+    stage's own gaps already listed.
+11. **No process narration** is in anything that will become canonical.
+    History goes to the build log.
+12. **A one-page handoff manifest** lists the paths above, the review
+    round each step cleared in, and the date. The build thread reads it
+    first.
 
-The build never redoes Steps 0–2 or the library search. Anything the
-build finds missing goes back to the source-research thread, so the
-next world gets it too.
+**Mark signs off each handoff and launches each world build.**
+
+The build then starts at Step 3. It never redoes Steps 0–2 or the
+library search, and it cites the package's own sources wherever the
+package holds them. Anything the build finds missing goes back to the
+source-research thread, so the next world gets it too.
 
 ### World build (build thread): Doc_03 → Doc_10
 
@@ -257,9 +312,23 @@ holds it, and it holds nothing else. Concretely:
   simple sentences; a scholar's term only after its plain meaning, as a
   label. The sample is the standard. No banned-word lists exist or
   accumulate anywhere in this process.
+- The readability target is NorthStar: Flesch-Kincaid grade 8–10 and
+  Flesch Reading Ease 60 or above
+  (`reference/method/Pass2-decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md`).
+- No embedded quotations in host prose (Decision 8B). A real source
+  quotation inside a story, gravity, force, term or other non-quote
+  record becomes its own `quote` record, verified verbatim, and the host
+  prose paraphrases it in plain voice. `engine/m1/embedded_quotations.py`
+  reports candidates.
 - Quote records author their `modern_rendering` at birth. The spoken
   form is a modern-English translation, never the archaic original; the
-  original stays as the record's `text` for Level 3. **A rendering may
+  original stays as the record's `text` for Level 3. Opus authors every
+  `modern_rendering`, and a separate Opus pass checks it independently.
+- A non-English original can be the primary source. The quote record
+  holds the original, verified verbatim. The spoken `modern_rendering` is
+  an Opus translation from the original, independently Opus-checked and
+  marked as rendered from the original. A public-domain English
+  translation, where one exists, is a cross-check, not a requirement. **A rendering may
   be split into shorter sentences to pass readability only where each
   resulting sentence has its own subject and verb and carries one whole
   thought of the original (2026-09-23, R40 alx `modern_rendering` pass,
@@ -306,6 +375,11 @@ holds it, and it holds nothing else. Concretely:
   back to life". Each is judged by the principle on the word in its own
   sentence, never by matching a word list — the same word can survive in
   one sense and not in another.
+- **Scanned editions.** The long s (ſ), thorn (þ) and eth (ð) are
+  normalized deterministically. Per-edition OCR fixes are declared as
+  that edition's apparatus in `cic/texts/REGISTRY.yaml`. A garbled print
+  is a second witness only until a clean witness is vendored. No model
+  ever retypes a source.
 - **The verbatim gate is a birth condition (2026-09-23, item 3 of the P3
   registration brief).** `gate_quote_verbatim` (`engine/m1/gates.py`,
   `engine/m1/quote_verbatim.py`) runs on each quote record as it is
@@ -400,16 +474,21 @@ register bar itself names word choice and sentence length. Concretely:
 place, nothing else — from the first record, never as a later cleanup.
 Two opposite failures are both real and both prohibited: build language
 littering operative fields (measured fleet-wide at ~250 shipped
-instances before the 2026-09-01 compiler fix), and stripping the
-mandated audit trail (a build thread once flagged record-body notes as
-"forbidden comments" — a category error). Concretely:
+instances before the compiler fix), and stripping durable
+scholarly reasoning out of a record body. Concretely:
 
 - An operative frontmatter field carries ONLY what it exists to carry:
   no work dates, review-pass or model names, thread references, or
   provenance asides inside values the runtime or a participant reads.
-- Dated build notes, corrections, and craft reasoning go in the record
-  BODY below the closing fence — mandatory (CO-022), never read by any
-  builder or gate, never compiled.
+- Build notes (dates, corrections, review history, thread and model
+  names) go to `worlds/<code>/build/` and `Ministry/`, never into a
+  record. A record body below the closing fence keeps durable scholarship
+  only: why a claim is scoped as it is, which source verifies it, what
+  was checked and found absent. Record bodies are never compiled.
+- The process-narration scan (`tools/check_live_commentary.py`) blocks
+  new worlds once its record-body checker (PR #581) passes review with
+  measured precision. Until then, and for existing worlds afterward, it
+  is report-only, with waivers for existing worlds.
 - Provenance-by-design fields (search_record fields,
   why_sources_cannot_answer, modern_lens_note, discovery_channel,
   narrative_tier_justification) are written fully and honestly; the
@@ -418,8 +497,8 @@ mandated audit trail (a build thread once flagged record-body notes as
   the field list.
 - Every pin is preceded by a residue read of the compiled
   repository.json alongside the gates report; a hit is a
-  field-placement defect fixed at the record layer with a dated body
-  note, then recompiled. The grep is visibility; the read is the judge.
+  field-placement defect fixed at the record layer, noted in the
+  world's build log, then recompiled. The grep is visibility; the read is the judge.
 - Build deliverable docs live in the canonical world-build folder,
   never inside records/, packages/, or engine/.
 
@@ -462,7 +541,7 @@ The step sequence (S6.2's, now canonical):
 
 | Step | What | S6.2-proven quality bars baked in |
 |---|---|---|
-| B-1 (S2.1) | Source rows from Doc_02's registry + `<code>core001` world_core | Mechanical if the registry followed the template. Registry caveats carried VERBATIM as row licenses. `language` per row (schema requires it — declare judgment calls in the docstring). Article-29 status carried provisional for M2. |
+| B-1 (S2.1) | Source rows from Doc_02's registry + `<code>core001` world_core | Mechanical if the registry followed the template. Every source record carries its corpus-map `shelf_row` (and so its role) at birth. Registry caveats carried VERBATIM as row licenses. `language` per row (schema requires it — declare judgment calls in the docstring). Article-29 status carried provisional for M2. |
 | B-1a (S2.1a) | Discovery sweep | Read every planned citation surface; row every genuine miss with real discovery data; declared non-rows with reasons; `src<CODE>search001` sweep record with saturation statement + coverage limits. |
 | B-1b (S2.1b) | Relative recall + PRESS | Ten-item independent recall test (fleet range: 6/10–9/10; a clean sweep is PAHC's 9/10 + zero miss rows). PRESS question asked verbatim; namings routed to the pre-freeze re-sweep. |
 | B-2 (S2.2) | Mechanical lexicon split → term records | **Born at alias_safety ZERO**: aliases parsed under the runtime's own `parse_aliases` semantics at authoring; Rule-A generics resolved at birth (gloss-route, drop, or documented `alias_generic_override_note` — the bare-Christ/Prayer class only); Rule-B collisions picked per-term. Coverage assertion: every source sentence lands in exactly one record. |
@@ -527,6 +606,20 @@ targeted prompt sharpening closed it.
 > longer exist. Until a thread that traces a real admission end to end
 > rewrites this phase, follow `reference/Redesign-Spec/Artifact-2-World-Package.md`
 > and `reference/Redesign-Spec/Artifact-6-Operations.md` instead.
+
+These hold regardless of that rewrite:
+
+- **Required before admission:** the world's `world_front` and
+  `facilitator_brief` records; its compiled site JSON
+  (`python -m engine.m2.site_cli build <code>`, which writes
+  `cic-website/data/worlds/<census_id>.json`); and its traditions page
+  (`python tools/generate_tradition_pages.py`).
+- **Mark admits.** A world's census status is set only by the m6 sync
+  (`python -m engine.m6.cli sync`) once the world is admitted or open,
+  never by hand.
+- **Staging stays open to unadmitted worlds.** `cic-engine-staging`
+  runs with admission enforcement off, so a built world can be tried
+  there before Mark admits it. Only Mark uses it.
 
 Everything S6.2 and the go-live day proved can break, as a checklist:
 
@@ -639,6 +732,10 @@ When Mark re-opens table work, the cost-capped form applies
 never one table per frozen world; graded on available evidence if spend
 is interrupted — a declared limit, never a silent gap).
 
+**M3 live admission runs:** a $3 ceiling per run, with no weekly cap.
+Every run needs `--authorized-by`, and its report records the estimated
+cost.
+
 **Cost guardrails (real incidents, not hypotheticals):** API credit
 exhaustion killed a TRR table mid-run once — checkpoint probe/battery
 state so an interruption resumes instead of restarting; watch spend
@@ -701,6 +798,10 @@ tracking in the world's own build ledger:
     afterward).** For each document and each review round, the build log
     at `worlds/<code>/build/` records the model and effort used, and the
     `/usage` reading before and after.
+14. **Registry first.** A world's registry entry
+    (`records/worlds/<code>.yaml`) exists before any of its records reach
+    `main`, so CI sees the world from its first record. The `world_id` is
+    identical across the registry entry and every record.
 
 **Model routing (Mark's policy, 2026-08-01 — pinned, not per-thread
 discretion):**
@@ -724,7 +825,7 @@ explicitly; Claude Opus 5.5 (`claude-opus-5-5`) defaults to `medium`.
 | Deep source research, M1 identity research | Opus 5.5 · high |
 | Fable lanes (Doc_03/06 discovery, Doc_04, Doc_08, Doc_09, Doc_10, battery-fail diagnosis) | Fable 5.1 · high (unchanged pending the Fable-vs-Opus discovery test) |
 | Main thread, templated documents, Phase B conversion | Sonnet 5 |
-| Authoring `modern_rendering` (and any re-rendering) | Opus 5.5 (the CLAUDE.md exception for renderings) |
+| Authoring `modern_rendering` (and any re-rendering) | Opus 5.5 (the CLAUDE.md exception for renderings), then an independent Opus 5.5 check |
 | Mechanical work | Script first, then Haiku 4.5 |
 
 If Claude Code sets effort per session rather than per subagent, group

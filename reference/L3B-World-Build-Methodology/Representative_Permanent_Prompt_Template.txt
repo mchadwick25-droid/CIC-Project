@@ -578,7 +578,7 @@ When all nine sections (including 2A) are complete:
     2.4x overshoot): "unedited... should not be paraphrased, shortened, or removed" governs THIS
     document, the deployed Permanent Prompt .txt file, only. It does not extend to B-7's own
     conversion of this prompt into the voice_craft record's identity/guard/flavor_notes/
-    characteristic_concerns fields (CiC_Record_Native_World_Build_Process_V1.7.md's own B-7 row) -
+    characteristic_concerns fields (CiC_Record_Native_World_Build_Process_V1.8.md's own B-7 row) -
     those fields carry a real, enforced ceiling (900 words combined, FK grade 10 per field,
     engine.m1.gates.gate_voice_craft_prompt_budget/gate_readability) this backstop material must be
     condensed to fit, in the fleet's own established style: short declarative sentences, every

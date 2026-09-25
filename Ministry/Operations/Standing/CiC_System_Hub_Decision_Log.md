@@ -5310,3 +5310,75 @@ fixes (witt's golden set, the COVERAGE backfill, R7).
 **Found in passing, not fixed here (out of this ruling's scope):** CLAUDE.md's "82
 vendored files" count is stale (138 today). `reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md`
 §4.3 quotes the pre-V1.7 routing table.
+
+## 2026-09-25 — Build Process V1.8: source-first handoff and today's rulings
+
+**Ruling.** Mark, 2026-09-25: "converged, write it into V1.8." The converged content is
+the "Source-First Handoff" page (version 2), relayed by the managing thread
+(tech-readiness). Written into `reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`
+(renamed from `_V1.7.md`); merges after the V1.7 PR (#591).
+
+**A. Library-stage handoff** (replaces V1.7's placeholder):
+- The 12 handoff checks, in §2 "Handoff": fixed identity and registry entry; Step 0,
+  Doc_01 and Doc_02 approved to proceed; dossier; corpus-map assignments with
+  `corpus_map_merge.py --check`; vendored texts with REGISTRY entries, verified rights and
+  a clean `corpus_index.py --build`; every Steps 0–2 quotation re-verified with its
+  speaker; open questions carried forward; Open_Gaps file; no process narration; a
+  one-page handoff manifest. Rationale for checks 1, 2 and 8: lpc's 310-record world_id
+  mismatch; PR #585 found two Step 0s that missed their census status, and an opponent's
+  paraphrase quoted as Menno Simons's own words.
+- What Step 2 must also produce, in §2 "Library stage": passage loci, per-file
+  quotability, own/opponent voice flags, corpus-map row_id/role/voice_of, holdings
+  dispositions, a thin-evidence map, edition and original language with primary vs
+  cross-check, cross-world overlaps and PAIRS, and optional material-sources and
+  Representative-role lines.
+- What the build owes: starts at Step 3, never redoes Steps 0–2, cites the package,
+  routes gaps back.
+- Mark signs off each handoff and launches each world build. Steps 0–2 may run ahead of
+  full builds and also populate the Church Family Tree.
+
+**B. Rulings, 2026-09-25:**
+1. **Registry first.** A world's registry entry exists before any of its records reach
+   main. §6 session rule 14 and handoff check 1.
+2. **Build notes.** They go to `worlds/<code>/build/` and `Ministry/`; record bodies keep
+   durable scholarship only. **CO-022 is retired.** Removed the Process's "dated build
+   notes in the record BODY… mandatory (CO-022)" line and the "dated body note" in the
+   residue-read step; amended Completion Standard V1.3 §B's file-discipline read the same
+   way. The Completion Standard's review-rounds sentence dropped its CO-022 label and now
+   says review rounds are saved as their own files per CO-020, which keeps that
+   requirement unchanged. The Completion Standard's filename and version were left at
+   V1.3; whether this change order bumps it to V1.4 is Mark's call.
+3. **Process-narration scan.** Blocks new (non-grandfathered) worlds once the PR #581
+   record-body checker passes review with measured precision; existing worlds stay
+   report-only with waivers. §3 file discipline.
+4. **M3 live admission.** $3 ceiling per run, no weekly cap; `--authorized-by` required;
+   estimated cost recorded in the report. §5. As of this write-in,
+   `engine/m3/live_admission_run.py` has no `--authorized-by` flag or cost ceiling; the
+   rule is written ahead of the code, and a separate thread is adding the matching checks.
+5. **Staging** (`cic-engine-staging`, `CIC_ENFORCE_ADMISSION=0`) stays open to unadmitted
+   worlds; only Mark uses it. §4.
+6. **Non-English originals can be primary sources.** The quote holds the original,
+   verified verbatim; the spoken modern English is an Opus translation, independently
+   Opus-checked and marked as rendered from the original; a PD English translation is a
+   cross-check, not a requirement. §3.
+7. **OCR policy.** ſ/þ/ð normalized deterministically; per-edition OCR fixes as REGISTRY
+   apparatus; garbled prints are second witness only until a clean witness is vendored; no
+   model ever retypes a source. §3.
+
+**C. Fixes: already-decided standards the audit found missing from the document.**
+- world_front, facilitator_brief, the compiled site JSON and the traditions page are
+  required before admission. §4.
+- Corpus-map `shelf_row` (and so role) at a source record's birth. B-1 row.
+- Census status is set only by the m6 sync at admitted/open, never by hand; Mark admits.
+  §4.
+- Decision 8B: no embedded quotations in host prose; real source quotations become quote
+  records. §3.
+- `modern_rendering` authored by Opus and independently Opus-checked. §3 and the effort
+  table.
+- NorthStar readability: FK 8–10 and FRE ≥ 60. §3.
+- The world_id is identical across the registry and every record. §6 rule 14.
+
+**D. Pointers.** The V3 launch prompt now points to V1.8. The four index skills
+(cic-lexicon-index, cic-gravity-index, cic-forces-index, cic-story-repository) still
+require `.xlsx` workbooks, which the Process retired; they are account skills, so the
+replacement text is in the V1.8 PR body for Mark to apply.

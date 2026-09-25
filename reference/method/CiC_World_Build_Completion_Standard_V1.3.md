@@ -33,7 +33,7 @@ point at rather than restating requirements in their own words.
 ## B. World-freeze — gates that must show a real pass, as saved artifacts, never self-reports
 
 All machine gates green with committed run output; content review
-rounds saved per CO-020/CO-022 discipline (no self-certified
+rounds saved as their own files per CO-020 (no self-certified
 dismissals); the reviewer's relative-recall run recorded; the PRESS
 question answered explicitly; the retrieval golden set authored (12–20
 cases) and its baseline committed.
@@ -59,9 +59,10 @@ a word list would.
 the compiled repository.json (no build vocabulary in shipped values -
 work dates, review-pass or model names, thread references, provenance
 asides in operative fields), saved as an artifact beside the gates
-report. A hit is a field-placement defect fixed at the record layer
-with a dated body note, then recompiled. Record BODIES are never part
-of this read - they are the mandated audit trail and never compile.
+report. A hit is a field-placement defect fixed at the record layer,
+noted in the world's build log, then recompiled. Record bodies are never
+part of this read: they hold durable scholarship only and never compile.
+Build notes live in `worlds/<code>/build/` and `Ministry/`.
 
 ## C. Representative-freeze — after world-freeze
 
