@@ -614,7 +614,7 @@ prerequisite rather than only the ones still in dispute.
 
 ---
 
-### OG-19. Re-rendered all 5 of `lpc`'s quote `modern_rendering` fields under the V1.5 rendering-fidelity standard (`engine.m1.rendering_fidelity`'s own "translation, not summation" rule). Renumbered from this branch's own original OG-14 to OG-19 (PR #563 round 2), the next free number after PR #557's own OG-17 and PR #562's own OG-18, resolving the cross-branch numbering collision this entry originally disclosed.
+### OG-19. Re-rendered all 5 of `lpc`'s quote `modern_rendering` fields under the V1.5 rendering-fidelity standard (`engine.m1.rendering_fidelity`'s own "translation, not summation" rule).
 
 **What was checked.** Every `quote` record in `lpc` with a non-empty `modern_rendering` (5 of
 5) was checked clause-by-clause against its own `text` field for the V1.5 standard: a
@@ -641,7 +641,7 @@ than trusted from the subagent's own self-estimate.
 2. **`lpc.quote.ancient-venom-against-my-episcopate`** — carries "mindful of their conspiracy"
    and "sacrilegious machinations with their accustomed craft" ("with their usual cunning,"
    matching "accustomed" without overstating it into "have always used," which implies an
-   unbroken permanent habit the source does not claim). FK 8.42.
+   unbroken permanent habit the source does not claim). FK 8.10.
 3. **`lpc.quote.longing-expectation-is-a-prayer-for-me`** — carries the source's own hedge,
    "I imagine" (not the stronger, unhedged "I know"), and adds nothing beyond the source (no
    invented clause). The long first sentence is split after "who want to hear." into its own
@@ -653,14 +653,21 @@ than trusted from the subagent's own self-estimate.
    Catholics... laid hands on him... they demanded it"), not recast into first person. The
    clause "because all of them, with one accord, wanted this done and carried through" restores
    the source's own causal "for" and its sense of active desire ("desired"), which an earlier
-   version had lost by splitting the sentence and weakening "desired" to "agreed." The record's
-   own `divergence_note`, which illustrates the OCR-artifact fix, uses the same third-person
-   phrasing ("they demanded it...") for internal consistency. FK 8.99.
+   version had lost by splitting the sentence and weakening "desired" to "agreed." Restoring
+   the causal link produced a 33-word sentence carrying two ideas; split into "...brought him
+   to the bishop to be ordained. They did this because all of them, with one accord, wanted it
+   done and carried through." — every sentence now 20 words or fewer. The record's own
+   `divergence_note`, which illustrates the OCR-artifact fix, uses the same third-person
+   phrasing ("they demanded it...") for internal consistency. FK 7.50.
 5. **`lpc.quote.shepherd-wounded-in-the-flock`** — carries "I share in the grievous burden of
    sorrow and mourning" and keeps "my own integrity and my personal soundness" as two distinct
    qualities. Follows the source's own three sentence breaks: "I wail with those who wail, I
    weep with those who weep..." is its own sentence, not joined to the previous one with "and."
-   FK 6.02.
+   The sentence "My own integrity... when his flock is wounded" ran 30 words and joined two
+   ideas with "because"; split at the point corresponding to the source's own "since" into "My
+   own integrity and my personal soundness do not lure me into soothing my griefs. That is
+   because it is the shepherd who is wounded most deeply when his flock is wounded." — every
+   sentence now 20 words or fewer. FK 4.74.
 
 **A locus correction, `lpc.quote.longing-expectation-is-a-prayer-for-me`.** The record's own
 `sources[].locus` field said the sermon was "delivered at the matins of the Nativity
@@ -678,8 +685,12 @@ byte-identical to before this pass — confirmed by diff review, not by intent a
 
 **Verification.** `engine.m1.gates.run_all`: all 21 gates clean except the pre-existing,
 out-of-scope `canon-coverage` gaps. `tools/check_live_commentary.py --surface records`: zero
-hits in any of the 5 touched files. FK grade on all 5 final `modern_rendering` fields: 4.42,
-6.02, 8.34, 8.42, 8.99 — all under the readability gate's ceiling of 10.
+hits in any of the 5 touched files. FK grade on all 5 final `modern_rendering` fields:
+`bishop-of-bishops` 8.34, `ancient-venom-against-my-episcopate` 8.10,
+`longing-expectation-is-a-prayer-for-me` 4.42, `clamour-and-tears` 7.50,
+`shepherd-wounded-in-the-flock` 4.74 — all under the readability gate's ceiling of 10; the two
+low scores are the honest result for genuinely short, now fully split quotations, not a
+defect.
 
 ---
 
