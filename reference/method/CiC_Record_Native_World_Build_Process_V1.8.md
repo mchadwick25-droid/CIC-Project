@@ -319,7 +319,13 @@ holds it, and it holds nothing else. Concretely:
   quotation inside a story, gravity, force, term or other non-quote
   record becomes its own `quote` record, verified verbatim, and the host
   prose paraphrases it in plain voice. `engine/m1/embedded_quotations.py`
-  reports candidates.
+  reports candidates. When a Decision 8B pass extracts an embedded
+  quotation into a quote record, the host record's text changes only in
+  the sentence that held the quote. The pass may also add the host's
+  `relations[]` link to the quote record, and delete process-narration
+  apparatus (deletion only). Any wider rewrite of host prose, readability
+  rewrites included, is a separate task with its own review, never part
+  of the same PR.
 - Quote records author their `modern_rendering` at birth. The spoken
   form is a modern-English translation, never the archaic original; the
   original stays as the record's `text` for Level 3. Opus authors every

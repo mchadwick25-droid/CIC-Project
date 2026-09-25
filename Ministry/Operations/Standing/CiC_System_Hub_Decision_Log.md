@@ -5381,3 +5381,19 @@ the "Source-First Handoff" page (version 2), relayed by the managing thread
 (cic-lexicon-index, cic-gravity-index, cic-forces-index, cic-story-repository) still
 require `.xlsx` workbooks, which the Process retired; they are account skills, so the
 replacement text is in the V1.8 PR body for Mark to apply.
+
+## 2026-09-25 — Decision 8B passes: host edits limited to the quote's own sentence
+
+**Ruling.** Mark, 2026-09-25: "a". When a Decision 8B pass extracts an embedded quotation
+into a quote record, the host record's text changes only in the sentence that held the
+quote. Also allowed in the same pass: adding the host's `relations[]` link to the quote
+record, and deleting process-narration apparatus (deletion only, as CLAUDE.md already
+requires). Any wider rewrite of host prose, readability rewrites included, is a separate
+task with its own review and never part of the same PR. Written into
+`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md` §3, in the Decision 8B
+paragraph. Relayed by the managing thread.
+
+**Why.** Across gallic batches 3–4 and desert batch 2, independent reviews found the new
+quote records clean but repeatedly found distortions introduced by the host rewrites done
+in the same pass. Confining the host edit to the quote's own sentence keeps each
+extraction reviewable against its source, and gives any wider rewrite its own review.
