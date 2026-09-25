@@ -198,3 +198,33 @@ records/alx/quote/*.md`) confirms 26 of 26 quote records now carry the
 field. This is recorded here as settled build history, not filed as a
 new `Open_Gaps_Tracking.md` entry, because the gap it would describe no
 longer exists.
+
+---
+
+## Source-form fragment re-author — 2026-09-25
+
+Two `modern_rendering` values re-authored after the report-only
+sentence-completeness check (P3 Decision-Log Entry 29) flagged them as
+fragments, under Mark's R44 ruling of 2026-09-24 ("Interjections and
+answers stay; lists become one sentence; true ellipses get finished").
+Only `modern_rendering` changed; every other field is byte-identical.
+Authored by Opus. P3 Decision-Log Entry 37 carries the fleet-wide record
+of this pass.
+
+- `alx.quote.couches-and-trenchers-and-bowls`: the inventory had been
+  rendered one item per sentence ("Silver couches." "Pans and
+  vinegar-dishes." ...). A single list sentence scores FK 41.7 and fails
+  the live readability gate. Mark ruled on 2026-09-24 for this record
+  ("Option 1"): whole short sentences, each with its own subject and verb,
+  carrying the source's own verb ("are all to be given up. So are ...").
+  The source's closing reason ("as having nothing whatever worth our
+  pains") stays tied to the verb with "because". FK 8.28.
+- `alx.quote.to-believe-or-disbelieve`: "For example, to philosophize or
+  not, to believe or to disbelieve." was a clause split away from its own
+  sentence. Rejoining it scores FK 12.0, so it is split differently: the
+  source's "as, say" becomes an imperative, "Take, for example, ...".
+  FK 9.3.
+
+Both read "translation" on two consecutive runs of each grader (Haiku 4.5
+and Sonnet 4.6). `alx.quote.timothy-ordinary-questions` ("Answer: No."
+twice) stays as the source speaks it.
