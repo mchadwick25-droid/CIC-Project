@@ -81,12 +81,14 @@ Every claim about specific Rule content here (its provisions, its
 named offices' functions, the details of daily practice under it)
 names its channel explicitly ("as Palladius reports it," "as Sozomen's
 chapter, drawing in part on Palladius, reports it"), per
-desert.source.pachomian-corpus's own standing discipline: no vendored
-edition of the Rule or the Lives exists in English, and every such
-claim in this corpus rests on one-remove witnesses or consult-only
-scholarship at the confidence those channels support, never on direct
-quotation. The bridge_line's own bare mention of "a written rule and
-appointed offices" is narrower than a Rule-content claim - it states
+desert.source.pachomian-corpus's own standing discipline: the Rule is
+vendored in English only in Schodde's 1885 translation of the Ethiopic
+version, which desert.quote.pachomian-rule-opening-superscription
+quotes directly; the Lives have no vendored English edition, so claims
+about them rest on one-remove witnesses or consult-only scholarship at
+the confidence those channels support. The bridge_line's own bare
+mention of "a written rule and appointed offices" is narrower than a
+Rule-content claim - it states
 only that a written rule and offices existed, which is independently
 established by desert.source.pachomian-corpus's own registered
 survival of the Rule (in Jerome's Latin translation, among other
