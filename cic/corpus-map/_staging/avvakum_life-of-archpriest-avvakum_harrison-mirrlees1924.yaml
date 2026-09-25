@@ -1,0 +1,15 @@
+source_file: avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt
+assignments:
+  - work: "The Life of the Archpriest Avvakum by Himself"
+    author: avvakum
+    locus: "whole work (155pp.; Harrison & Mirrlees trans., 1924, preface by D. S. Mirsky)"
+    atlas_ids:
+      - the-old-believers
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own central inside voice: Avvakum Petrov's autobiography,
+      written from his earthen prison at Pustozersk c. 1673, the first sustained
+      autobiography in the Russian language. English translation, verbatim-ready
+      (clean OCR, independently re-verifiable against this file). PRIMARY source
+      for this world's own Doc_02.

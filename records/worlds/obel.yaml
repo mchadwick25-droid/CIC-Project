@@ -1,0 +1,29 @@
+kind: formation
+world_id: the-old-believers
+census_id: "the-old-believers"
+display_name: "The Old Believers"
+time_window: {start: 1666, end: 1815}
+place: "Central and northern Muscovite Russia at the movement's own founding (Moscow; the Russian north and the White Sea coast, including the Solovetsky Monastery and the Vyg community), extending into Siberia (the Dauria region beyond Lake Baikal, the Tobolsk-Yeniseysk corridor) through the movement's own exile and dispersal"
+doorway_place: "Moscow and the Russian north, at the moment of the 1666-1667 council's anathema against those who refused Patriarch Nikon's corrected service books and rituals"
+doorway_description: >-
+  In the 1650s, Patriarch Nikon corrected the Russian church's service
+  books and certain ritual practices to match contemporary Greek Orthodox
+  usage: three fingers instead of two in the sign of the cross, a
+  changed spelling of the name of Jesus, processions reversed in
+  direction. A large part of the Russian church refused these changes as
+  innovations, not corrections, holding that the inherited practice was
+  the faith itself, now being altered by a church they judged had
+  fallen. The Moscow council of 1666-1667 anathematized them. No question
+  of doctrine was ever in dispute: both sides held the same
+  Nicene-Constantinopolitan Creed. The movement's great voice was
+  Archpriest Avvakum, who wrote the first sustained autobiography in the
+  Russian language from an earthen prison at Pustozersk before he was
+  burned at the stake in 1682. Cut off from bishops willing to ordain in
+  the old rite, the movement divided between those who kept priests and
+  those who concluded a valid priesthood could no longer be had at all,
+  and it survived in the forests, the far north, and Siberia, sometimes
+  by mass self-immolation rather than submission -- a practice the
+  movement's own record shows it arguing about, not accepting with one
+  voice. The window closes in 1815, after Edinoverie (1800) opened the
+  first formal path back to communion with the official church on terms
+  that kept the old rite.

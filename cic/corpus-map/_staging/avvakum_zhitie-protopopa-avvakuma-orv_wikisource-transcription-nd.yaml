@@ -1,0 +1,18 @@
+source_file: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt
+assignments:
+  - work: "Zhitie protopopa Avvakuma, im samim napisannoe (original-language text)"
+    author: avvakum
+    locus: "whole work; Old East Slavic (orv), Wikisource transcription citing az.lib.ru"
+    atlas_ids:
+      - the-old-believers
+    role: tradition
+    confidence: assigned
+    note: >
+      The same autobiography in its own original language, vendored as a SECOND
+      WITNESS per the 2026-09-25 INTAKE.md ruling (a clean public-domain original
+      counts as primary evidence regardless of language). Quotability flag:
+      second-witness-only, not verbatim-ready - this transcription's own chain
+      from manuscript to critical edition to az.lib.ru to Wikisource has not been
+      independently verified hop by hop this pass (az.lib.ru itself was
+      unreachable from this session). See this world's Doc_02 and
+      Open_Gaps_Tracking.md.
