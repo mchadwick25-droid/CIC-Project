@@ -36,7 +36,7 @@ retrieval:
     reports, not an assessment of the event
 text: >-
   Why do you stand here, thou bloody monster? Thou shalt find nothing in me, thou deadly one: Abraham's
-  bosom is about to receive me. As he uttered these words, his spirit fled; and those who were there
+  bosom is about to receive me.” As he uttered these words, his spirit fled; and those who were there
   present have testified to us that they saw his face as if it had been the face of an angel. His
   limbs too appeared white as snow, so that people exclaimed, "Who would ever believe that man to be
   clothed in sackcloth, or who would imagine that he was enveloped with ashes?"

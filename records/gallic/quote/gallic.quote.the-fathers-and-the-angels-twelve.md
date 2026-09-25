@@ -37,7 +37,7 @@ text: >-
   of the primitive Church remained unbroken ... and when the fervent faith of the few had not yet grown
   lukewarm by being dispersed among the many, the venerable fathers with watchful care made provision
   for those to come after them, and met together to discuss what plan should be adopted for the daily
-  worship throughout the whole body of the brethren, ... send forth a poisonous root of error or
+  worship throughout the whole body of the brethren; ... send forth a poisonous root of error or
   jealousy or schism among those who came after. ... in proportion to his own fervour--and unmindful of
   the weakness of others, ... some were for fifty, others sixty, and some, not content with this
   number, thought that they actually ought to go beyond it. ... such a holy difference of opinion in

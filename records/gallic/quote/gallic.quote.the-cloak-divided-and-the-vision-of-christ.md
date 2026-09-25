@@ -55,9 +55,9 @@ text: >-
   part of his cloak with which he had clothed the poor man. He contemplated the Lord with the greatest
   attention, and was told to own as his the robe which he had given. Ere long, he heard Jesus saying
   with a clear voice to the multitude of angels standing round—"Martin, who is still but a catechumen,
-  clothed me with this robe." The Lord, truly mindful of his own words (who had said when on earth—
-  "Inasmuch as ye have done these things to one of the least of these, ye have done them unto me),
-  declared that he himself had been clothed in that poor man.
+  clothed me with this robe." The Lord, truly mindful of his own words (who had said when on
+  earth—"Inasmuch as ye have done these things to one of the least of these, ye have done them unto me),
+  declared that he himself had been clothed in that poor man;
 speaker_or_author: "Sulpitius Severus, narrating Martin's vision, in which Christ speaks the two quoted lines"
 license: verbatim
 modern_lens_note: >-

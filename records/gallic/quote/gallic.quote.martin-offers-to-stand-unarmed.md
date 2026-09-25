@@ -37,7 +37,7 @@ text: >-
   Then truly the tyrant stormed on hearing such words, declaring that, from fear of the battle, which
   was to take place on the morrow, and not from any religious feeling, Martin withdrew from the
   service. But Martin, full of courage, yea all the more resolute from the danger that had been set
-  before him, exclaims: "If this conduct of mine is ascribed to cowardice, and not to faith, I will
+  before him, exclaims, "If this conduct of mine is ascribed to cowardice, and not to faith, I will
   take my stand unarmed before the line of battle tomorrow, and in the name of the Lord Jesus,
   protected by the sign of the cross, and not by shield or helmet, I will safely penetrate the ranks
   of the enemy." He is ordered, therefore, to be thrust back into prison, determined on proving his

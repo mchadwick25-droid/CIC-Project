@@ -53,7 +53,7 @@ text: >-
   the rest. He remarked further that a synod, held a few days previously, had decreed that Ithacius was
   not chargeable with any fault. When Martin was but little impressed by these statements, the king then
   became inflamed with anger, and hurried out of his presence; while, without delay, executioners are
-  appointed for those in whose behalf Martin had made supplication. When this became known to Martin, he
+  appointed for those in whose behalf Martin had made supplication. ... When this became known to Martin, he
   rushed to the palace, though it was now night. He pledges himself that, if these people were spared, he
   would communicate; only let the tribunes, who had already been sent to the Spains for the destruction
   of the churches, be recalled. There is no delay: Maximus grants all his requests. On the following day,
