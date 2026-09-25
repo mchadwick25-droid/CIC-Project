@@ -3,7 +3,7 @@ source_file: barlow_brutum-fulmen_1681.txt
 assignments:
   - work: "Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull against Henry VIII annexed)"
     author: barlow
-    locus: "the two embedded bull texts only (Regnans in Excelsis and the Paul III bull against Henry VIII, printed in English and Latin parallel columns) - not Barlow's own surrounding epistle dedicatory, epistle to the reader, or running commentary"
+    locus: "the two embedded bull texts only (Regnans in Excelsis in English/Latin parallel columns c. lines 2280-2330; the Paul III bull against Henry VIII in Latin only, with an English index-line summary but no full parallel translation, c. lines 28695-28710) - not Barlow's own surrounding epistle dedicatory, epistle to the reader, or running commentary"
     atlas_ids:
       - the-tridentine-church
     role: tradition
@@ -14,14 +14,19 @@ assignments:
       compiler's framing - e.g. `boero` for the Life of Peter Favre) -
       not a claim that Barlow authored the bulls themselves. What this
       row carries is Pius V's own bull Regnans in Excelsis (1570,
-      excommunicating and deposing Elizabeth I) and Paul III's bull
-      against Henry VIII, printed in English and Latin, word for word.
-      role: tradition because the bull text itself is reproduced
-      verbatim - the papacy's own binding act, not a paraphrase or
-      narrative about it. Narrow (two short bulls) but genuine primary-
-      source window. Vendored 2026-09-25 as part of a pre-Doc_02
-      source-acquisition pass for the-tridentine-church, per this
-      world's own Source Readiness Dossier §3.
+      excommunicating and deposing Elizabeth I), printed in genuine
+      English/Latin parallel columns, and Paul III's bull against Henry
+      VIII, printed here in Latin only (the file's own header claims
+      both bulls are bilingual, but direct inspection of the Paul III
+      text found no parallel English rendering, only a brief English
+      index-line summary - the header is wrong on this point). role:
+      tradition because the bull text itself is reproduced verbatim in
+      both cases - the papacy's own binding act, not a paraphrase or
+      narrative about it - regardless of which language(s) it's printed
+      in. Narrow (two short bulls) but genuine primary-source window.
+      Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition
+      pass for the-tridentine-church, per this world's own Source
+      Readiness Dossier §3.
   - work: "Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running commentary"
     author: barlow
     locus: "everything in the file outside the two embedded bull texts: Barlow's own dedicatory epistle, his epistle to the reader, and his running marginal/textual commentary"
