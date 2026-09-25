@@ -19,7 +19,7 @@ confidence:
     split-mode finding is permanent, not a divergence: the gravity is strongest where its
     confidence is highest (the south), and the Primary classification rests on both nodes
     together. Vita X's 'camels' hair' is not Egyptian-comparative dress evidence (Roberts's own
-    Matt. iii.4 footnote); the classification rests on Inst. I.10 and IV.10-11 instead. Salvian
+    Matt. iii.4 footnote); the dress (material) evidence rests on Inst. I.10 and IV.10-11 instead. Salvian
     VIII.4 carries the reference point only, not a measuring relationship (a Carthaginian mockery
     of visiting ascetics). Dial. I.26, the fullest Tours-side statement, sits in Registry row 4
     (Excluded) and is not used.

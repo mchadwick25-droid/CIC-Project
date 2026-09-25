@@ -76,7 +76,7 @@ description: >-
   Salvian is blunt about who he blames. The rich are killing the poor, he writes, through the very
   tax relief meant to help them. Nothing is more unlucky than the poor. For them, even a general
   remedy brings death (Gov. IV.6). Some Roman citizens, he says, cross over to the Goths, or to the
-  Bagaudae, or to whatever other power has taken hold there. They would rather live as free men,
+  Bagaudae, or to whatever other power has taken hold anywhere. They would rather live as free men,
   even if it looks like captivity, than stay captive to Rome under the appearance of freedom (Gov.
   V.5). He describes the barbarian advance sweeping through Gaul, region after region. First
   Germany, then the Belgae, then the rich farms of Aquitaine. Then the whole body of the Gallic
