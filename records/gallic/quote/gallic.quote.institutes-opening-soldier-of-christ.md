@@ -37,8 +37,8 @@ modern_lens_note: >-
   the Monk's Girdle." The military comparison is not decoration added later - it is the frame
   Cassian chooses before he says anything else about a monk's actual dress.
 modern_rendering: >-
-  A monk, then, is like a soldier of Christ, always ready for battle. He should always walk with
-  his loins girded.
+  A monk, then, as a soldier of Christ always ready for battle, ought always to walk with his belt
+  fastened around his waist.
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ

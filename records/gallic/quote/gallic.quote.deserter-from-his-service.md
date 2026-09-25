@@ -39,8 +39,8 @@ modern_lens_note: >-
   language, a runaway and a deserter. The phrase "entangles himself in secular business" is Paul's
   own words (2 Timothy 2:4), quoted here as Cassian's own description of what desertion looks like.
 modern_rendering: >-
-  And so the soldier of Christ becomes a runaway from His service, and a deserter. He "gets tangled
-  up in the business of everyday life," pleasing not at all the One to whom he pledged himself.
+  and so the soldier of Christ becomes a runaway from His service, and a deserter, and "entangles
+  himself in worldly business." He does not at all please the One to whom he pledged himself.
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ

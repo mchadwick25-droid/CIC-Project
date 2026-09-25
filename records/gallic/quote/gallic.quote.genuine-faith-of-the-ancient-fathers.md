@@ -38,8 +38,8 @@ modern_lens_note: >-
   claiming it as the fathers' own faith, still intact in the generation that received it from them.
   The claim to continuity is his own, made in his own words.
 modern_rendering: >-
-  This, then, is humility toward God. This is that genuine faith of the ancient fathers, which
-  still remains intact among those who came after them.
+  This, then, is that humility toward God. This is that genuine faith of the ancient fathers,
+  which still remains intact among their successors.
 relations:
 - type: associated-with
   target: gallic.force.received-programs-logic

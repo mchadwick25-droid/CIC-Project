@@ -39,8 +39,8 @@ modern_lens_note: >-
   was buried there. The same reception standard the south states as a rule, Martin applies here to
   one local cult.
 modern_rendering: >-
-  He gave this reason, Sulpitius says: he had serious doubts on these points, because no steady
-  tradition about them had come down from antiquity.
+  He did this, he said, because he had serious doubts of conscience about these matters. He had
+  these doubts because no steady tradition about them had come down from antiquity.
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception

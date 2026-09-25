@@ -41,9 +41,9 @@ modern_lens_note: >-
   warfare, and divine virtue. The military term sits inside a list about right living, not about an
   external adversary.
 modern_rendering: >-
-  For this reason, I think I will accomplish something well worth the effort, if I write the life
-  of a most holy man. It will serve in future as an example to others. Through it, readers will be
-  roused to the pursuit of true knowledge, heavenly warfare, and divine virtue.
+  For this reason, I think I will achieve something well worth the effort it needs if I write the
+  life of a most holy man. It will serve in future as an example to others. Through it, indeed, its
+  readers will be roused to pursue true knowledge, heavenly warfare, and divine virtue.
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ

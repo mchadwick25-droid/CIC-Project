@@ -41,9 +41,9 @@ modern_lens_note: >-
   why. It is carried here because it names the letter's actual direction (against certain Gallic
   bishops' own clergy), which Vincent's own quotation of the letter does not state outright.
 modern_rendering: >-
-  It appears that Prosper and Hilary had traveled to Rome, where they were staying at the time.
-  They went there to complain to Celestine. Their complaint was that certain bishops of southern
-  Gaul were tolerating the unsound teaching of their own clergy.
+  It seems that Prosper and Hilary had travelled to Rome and were there at the time. They had gone
+  to complain to Celestine about certain bishops of southern Gaul. These bishops were turning a
+  blind eye to the unsound teaching of their clergy.
 relations:
 - type: associated-with
   target: gallic.force.contest-over-antiquity

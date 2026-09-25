@@ -40,9 +40,9 @@ modern_lens_note: >-
   Martin's own: less power felt present as bishop than he remembered having as a monk, before the
   office.
 modern_rendering: >-
-  I have often noticed this, Sulpitius, that Martin was accustomed to say to you, that such an
-  abundance of power was by no means granted him while he was a bishop, as he remembered to have
-  possessed before he obtained that office.
+  Sulpitius, I have often noticed that Martin used to say this to you. While he was a bishop, he
+  said, he was by no means granted as much power as he remembered having before he took that
+  office.
 relations:
 - type: associated-with
   target: gallic.gravity.virtus

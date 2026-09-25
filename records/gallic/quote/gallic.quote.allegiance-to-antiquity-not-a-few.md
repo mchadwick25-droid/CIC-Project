@@ -41,10 +41,10 @@ modern_lens_note: >-
   antiquity and a broad consent of the fathers have handed on, not to what one person or a few
   people happen to prefer.
 modern_rendering: >-
-  We owe unhesitating allegiance and unquestioning obedience. But we owe it not to the customs and
-  rules that the will of a few have introduced. We owe it instead to those which long-standing
-  antiquity, and the agreement of many holy fathers, have passed on by unanimous decision to those
-  who come after.
+  For we ought to give loyalty without hesitation and obedience without question. But we should not
+  give them to customs and rules that the will of a few has brought in. We should give them to
+  those that long-standing antiquity and many holy fathers have handed on to those who come after.
+  They did so by a unanimous decision.
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception

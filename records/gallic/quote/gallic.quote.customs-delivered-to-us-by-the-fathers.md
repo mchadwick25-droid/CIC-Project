@@ -39,8 +39,8 @@ modern_lens_note: >-
   the same reception logic one level deeper: not only does Gaul receive from Egypt, but Egypt's own
   practice is itself something received from the Fathers, not something Egypt originated.
 modern_rendering: >-
-  You ask me to describe the customs of the monasteries. We have seen these customs kept throughout
-  Egypt and Palestine, handed down to us there by the Fathers.
+  the customs we have seen kept in the monasteries of Egypt and Palestine, handed down to us there
+  by the Fathers
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception

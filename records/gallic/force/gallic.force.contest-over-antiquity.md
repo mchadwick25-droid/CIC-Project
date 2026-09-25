@@ -55,9 +55,10 @@ description: >-
   Vincent's own handling of a letter from Rome shows a strange reversal. The same rule that guarded
   the south's own position gets turned back against it.
 
-  Vincent quotes Pope Celestine's letter to the Gallican bishops: "Rebuke these people. Restrain
-  their liberty of preaching," and "if the case be so, let novelty cease to assail antiquity." He
-  reads this as a verdict for his own side. Antiquity should not give way to novelty, he says.
+  Vincent quotes Pope Celestine's own letter to the Gallican bishops. Celestine writes that these
+  men should be rebuked, and their freedom to preach restrained; if that is truly the case, he
+  says, then novelty should stop attacking antiquity. Vincent reads this as a verdict for his own
+  side. Antiquity should not give way to novelty, he says.
   Novelty should stop attacking antiquity instead. The volume's own modern editor adds real context
   here. Two of Augustine's own allies had obtained the letter at Rome. It was actually directed at
   bishops of southern Gaul, for tolerating unsound teaching among their own clergy. Vincent's own

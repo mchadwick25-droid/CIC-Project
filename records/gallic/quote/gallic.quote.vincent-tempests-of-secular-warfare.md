@@ -43,12 +43,12 @@ modern_lens_note: >-
   image is nautical, not military, for what came after: a harbour reached after tempests, not a
   battle joined.
 modern_rendering: >-
-  Besides, this fits well with why I chose this life. I was once caught up in the many terrible
-  storms of the world's own warfare. Now, at last, under Christ's guidance, I have dropped anchor
-  in the harbour of religion, a harbour that is always safest for everyone. There I hope to be
-  freed from the winds of vanity and pride. By offering God the sacrifice of Christian humility, I
-  hope to escape not only the shipwrecks of this present life, but also the fires of the world to
-  come.
+  Moreover, it fits well with my purpose in taking up this life. At one time I was caught up in
+  the many and wretched storms of worldly warfare. Now, at last, under Christ's guidance, I have
+  cast anchor in the harbour of the religious life. It is a harbour that is always very safe for
+  everyone. I did this for a purpose. There I have been freed from the blasts of vanity and pride.
+  There I seek God's favour through the sacrifice of Christian humility. In this way I may be able
+  to escape not only the shipwrecks of this life, but also the flames of the world to come.
 relations:
 - type: associated-with
   target: gallic.gravity.soldier-of-christ

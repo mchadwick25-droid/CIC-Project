@@ -44,11 +44,11 @@ modern_lens_note: >-
   a careful qualification but an "excited" insistence, aimed at moving the charge of novelty onto
   Vincent's own opponents.
 modern_rendering: >-
-  Scholars have very commonly thought - and with good reason - that the way Vincent handles this
-  letter shows a Semipelagian leaning. He repeats his phrase "si ita est," "if the case be so,"
-  again and again. We might call this an excited manner. It shows a clear wish to shift the charge
-  of novelty away from those it had first been brought against, and pin it on the other side
-  instead.
+  Very many people have thought, and with good reason, that the way Vincentius handles this letter
+  points to a Semipelagian leaning. He stresses his "si ita est," "if this is the case," by
+  repeating it again and again. He does so in what we would call quite an excited way. This shows a
+  clear wish to shift the charge of novelty off those accused of it and fix it on the opposite
+  side.
 relations:
 - type: associated-with
   target: gallic.force.contest-over-antiquity

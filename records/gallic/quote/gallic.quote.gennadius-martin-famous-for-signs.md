@@ -39,8 +39,8 @@ modern_lens_note: >-
   wonders and virtues." That fame, not just the book that carried it, is what an outside witness
   attests.
 modern_rendering: >-
-  He also wrote a Chronicle. And to the profit of many, he wrote a Life of the holy Martin, monk
-  and bishop, a man famous for signs and wonders and virtues.
+  He also wrote a Chronicle. For the benefit of many, he also wrote a Life of the holy Martin, monk
+  and bishop. Martin was a man famous for signs and wonders and miracles.
 relations:
 - type: associated-with
   target: gallic.gravity.virtus

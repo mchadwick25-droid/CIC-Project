@@ -40,10 +40,10 @@ modern_lens_note: >-
   not the office or the sanctity of the one teaching. A martyr's own private opinion is still a
   private opinion.
 modern_rendering: >-
-  But suppose a teacher holds an opinion that differs from what all, or nearly all, hold. It makes
-  no difference whether he is holy and learned, a bishop, a confessor, or a martyr. That opinion
-  should be treated as his own private fancy. It must be set apart from the authority of common,
-  public, general agreement.
+  But suppose a teacher holds something that differs from what all hold, or goes against it. He may
+  be holy and learned. He may be a bishop, a Confessor, or a martyr. Even so, let that be regarded
+  as a private notion of his own. And let it be separated from the authority of common, public,
+  general belief
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception

@@ -39,9 +39,9 @@ modern_lens_note: >-
   that of the elders." The claim itself cuts both ways at once: effort ("these") is necessary, but
   never sufficient by itself; grace is necessary too, and without it effort alone gains nothing.
 modern_rendering: >-
-  I now state this clearly and in complete earnest. I am not giving my own opinion, but that of
-  the elders. Perfection cannot possibly be gained without effort. But by effort alone, without
-  the grace of God, no one can ever attain it.
+  But I state this clearly and most earnestly. It is not my own opinion, but that of the elders.
+  Perfection cannot possibly be gained without these efforts. Yet by these efforts alone, without
+  the grace of God, nobody can ever reach it.
 relations:
 - type: associated-with
   target: gallic.force.received-programs-logic

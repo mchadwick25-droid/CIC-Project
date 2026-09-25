@@ -43,11 +43,11 @@ modern_lens_note: >-
   preferred enforcing their own inventions to keeping the elders' well-tried teaching. The fault is
   sequence as much as content - ruling before being ruled.
 modern_rendering: >-
-  And so we see a variety of rules and customs used in other districts. This happens because we
-  often have the nerve to preside over a monastery without ever learning the Elders' own system. We
-  appoint ourselves abbots before we have, as we should, first become disciples ourselves. And we
-  are readier to enforce our own inventions than to preserve the well-tested teaching of those who
-  came before us.
+  And so we see different rules and regulations in use throughout other districts. This is because
+  we often have the audacity to take charge of a monastery. We do so without even having learned
+  the system of the Elders. We make ourselves Abbots before we have, as we ought, formally bound
+  ourselves as disciples. We are readier to demand that our own inventions be kept than to preserve
+  the tried and tested teaching of those before us.
 relations:
 - type: associated-with
   target: gallic.force.legitimacy-by-reception

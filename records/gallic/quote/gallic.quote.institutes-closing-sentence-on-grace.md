@@ -42,9 +42,10 @@ modern_lens_note: >-
   impossible without grace, but even the understanding that this is so is itself a gift, not
   something reasoned out independently.
 modern_rendering: >-
-  Next, after this, we must keep a firm grasp on this same humility toward God. We must hold it so
-  firmly that we not only admit we cannot perform anything toward perfect virtue without His help
-  and grace. We must also truly believe that even this understanding is itself His own gift.
+  Then, next after this, we must keep a firm grasp of this same humility toward God. We must hold
+  it so securely that we not only acknowledge this. We cannot possibly do anything connected with
+  reaching perfect virtue without His help and grace. We must also truly believe that the very
+  fact that we can understand this is His own gift.
 relations:
 - type: associated-with
   target: gallic.force.received-programs-logic
