@@ -3,6 +3,84 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: antiochene-church-third-century
 works:
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — Book VII, chapters 27-29 (Paul of Samosata's heresy, the bishops assembled
+    against him, and Malchion's disputation); ch. 30's own extracts from the synodal epistle
+    overlap the anf06 Malchion translation already assigned here (see note)
+  role: context
+  confidence: assigned
+  note: 'This world''s only other row (anf06''s "Epistle of Malchion") is the whole of its
+    corpus - the thinnest bucket the map holds. Checked directly whether Eusebius adds anything
+    beyond a duplicate of that letter: he does. Verified at the file: ch. 30 (lines 42003-42027)
+    does quote extracts of the same synodal epistle anf06 translates in full - anf06''s own
+    translator''s note confirms this explicitly ("of which we have extracts in Eusebius,"
+    citing HE vii.30), so that portion is not counted as a second witness. But chs. 27-29
+    (lines 41753-41985) are Eusebius''s own distinct narrative, not extracted from the letter:
+    his own dating discussion and chronology of Paul''s episcopate and deposition (ch. 27),
+    the roll of bishops present including Firmilianus of Cappadocian Caesarea and the brothers
+    Gregory (Thaumaturgus) and Athenodorus of Pontus (ch. 28), and his own account of how
+    "Malchion especially drew him out of his hiding-place and refuted him" (ch. 29, lines
+    41977-41978) in a stenographically-recorded disputation "which we know is still extant"
+    (line 41982-41983). This is a genuine second, independent voice - Eusebius writing from
+    Caesarea within living memory of the events (Church History substantially complete by
+    the 290s-320s) - not merely the same letter restated.
+
+    `role: context`, not `tradition`: an outside near-contemporary historian''s narrative
+    frame around this world''s own primary document, not itself Antiochene voice. Not previously
+    cross-linked here; npnf201''s existing context row for post-apostolic-house-church/alexandria-catechetical/montanism-the-new-prophecy/novatianism/roman-church-third-century
+    (above) explicitly covers "Books II-VII in particular" but Paul of Samosata is not named
+    among the movements it lists.
+
+    '
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
+    martyrdom of Lucian of Antioch)
+  author: eusebius
+  locus: Book VIII, ch. 13.2 (line 44730) and Book IX, ch. 6.3 (line 48001) - Eusebius's own
+    notices of the martyrdom of Lucian of Antioch, presbyter and Biblical text-critic, at
+    Nicomedia under Maximinus, c. 311-312
+  role: context
+  confidence: assigned
+  note: 'This world''s census entry names Lucian of Antioch as one of its five voices ("biblical
+    text-critic and martyr in 312, whose pupils, Arius among them, called themselves Lucianists")
+    and cites exactly these two loci (Eusebius VIII.13.2 and IX.6.3) as his primary attestation,
+    but neither had been corpus-mapped before this pass. Verified directly: VIII.13.2 (line
+    44730) names "Lucian... a presbyter of that parish [Antioch], whose entire life was most
+    excellent," martyred at Nicomedia; IX.6.3 (line 48001) gives the fuller account - "a presbyter
+    of the parish at Antioch, and a most excellent man in every respect... brought to the
+    city of Nicomedia... after delivering before the ruler an apology for the doctrine which
+    he professed, was committed to prison and put to death." Book IX''s own endnote cross-references
+    Jerome''s De Viris Illustribus ch. 77 for the same figure - see the separate npnf203 entry
+    added the same pass. `role: context`: Eusebius reports Lucian''s martyrdom and reputation
+    as an outside near-contemporary historian, not Lucian''s own surviving voice (his own
+    works do not survive in any PD English translation - see the dossier''s own §5 floor-question
+    note, which this does not resolve, only corroborate the figure''s historicity).
+
+    '
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
+    (file line 40990)
+  author: jerome
+  locus: div2 5.3, Chapter LXXVII "Lucianus the presbyter"
+  role: context
+  confidence: assigned
+  note: 'This world''s census entry names Lucian of Antioch as one of its five voices and
+    cites exactly this locus (Jerome, De Viris Illustribus ch. 77) as his attestation, but
+    it had not been corpus-mapped before this pass. Verified directly at line 40990-41001:
+    "Lucianus...a man of great talent, presbyter of the church at Antioch, was so diligent
+    in the study of the Scriptures, that even now certain copies of the Scriptures bear the
+    name of Lucian. Works of his, On faith, and short Epistles to various people are extant.
+    He was put to death at Nicomedia for his confession of Christ in the persecution of Maximinus."
+    A third, independent near-contemporary notice of the same figure alongside Eusebius''s
+    two (VIII.13.2, IX.6.3, also added this same pass to npnf201) - confirms the Scriptural-revision
+    reputation and the circulation of his own now-lost works ("On faith," letters), neither
+    of which Eusebius mentions. `role: context`: an outside cataloguer''s biographical notice,
+    not Lucian''s own surviving voice - none of the works Jerome names here survive in translation
+    (see the dossier''s own §5 floor-question note, which this does not resolve).
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
     (with fragments of the disputation)
   author: malchion

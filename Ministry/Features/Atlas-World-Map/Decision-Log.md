@@ -6508,3 +6508,33 @@ gap between the header text and the first movement below it.
 (via synthetic wheel events on `#stage`, matching the real zoom handler) —
 text fits within the viewport at every level tested, and the
 "Scattered Households" portrait no longer overlaps the era 1 description.
+
+## 2026-09-25 — Open question for Mark: `statusWord` still carries public-facing process vocabulary
+
+Found while fixing `world-census.json`'s `statusDescription` field for the
+Live-Surface-Cleanup program (`Ministry/Operations/Audits/Tech-Readiness-
+2026-09/Live-Surface-Cleanup/Decision-Log.md` Entry 8): the sibling field
+`statusWord` — rendered directly on the public Atlas, once per movement,
+in `atlas-v3.html` — still names the survey's own internal process on 233
+of 292 rows (80%). The dominant pattern is `"Researched — [tier] (Era N
+Step 0)"`; rarer ones carry raw internal shorthand into visitor-facing
+text — `[S]`, `c2`, `A3`, `A4`, `register`, `WINDOW-SPECIFIED`,
+`RETAINED`, `BANKED`, `beyondFloor`.
+
+**Not changed here.** This is a public-status-vocabulary decision, not a
+commentary cleanup: `statusDescription` (the paragraph) could be rewritten
+without inventing anything because the underlying facts were always
+there to restate in plain language. `statusWord` (the short label) is a
+design choice about what a visitor should see at a glance, and "Era N
+Step 0" is doing real, compact work there (signalling roughly how
+thoroughly-vetted a not-yet-built entry is) that a plain rewrite can't
+just drop without deciding what replaces it. That's Mark's call, not a
+rewrite call.
+
+**Next action:** Mark decides the public vocabulary — keep it, or replace
+"Researched — [tier] (Era N Step 0)" and the raw-shorthand outliers with
+plain-language equivalents (a natural pairing with `statusDescription`'s
+new register: "Reviewed, strong candidate" / "Reviewed, one of several
+candidates" / etc.) — then whoever implements it re-runs
+`tools/check_live_commentary.py --surface cic-website` to confirm the
+fix and update this entry.

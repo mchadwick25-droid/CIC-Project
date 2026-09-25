@@ -211,7 +211,16 @@ cautions: '1) TWO-BISHOP MEDIATION IS NOT AUTHOR GRAVITY IN THE DONATIST SENSE, 
   to independent review after its own prior disposition, and that review had not yet returned as of this
   pass -- this compilation rests on the Registry as it read at that moment, not on a review verdict that
   had not yet arrived, and any finding that review returns should be checked against these records before
-  they are treated as settled.'
+  they are treated as settled. 12) A SELF-FORGIVENESS/SHAME RESONANCE RISK SITS AT THIS WORLD''S OWN TABLE:
+  this world''s own emotional register -- the wounded shepherd''s grief that will not stand apart from
+  the people it grieves over, and the road-back content''s own emphasis on being examined, weighed, and
+  walked toward before being received home -- creates a real risk that a Facilitator''s own crisis redirect,
+  if phrased in a way that echoes ''prove yourself first'' rather than ''you are held, and this needs more
+  than this conversation can give,'' could land as confirmation of a participant''s own shame rather than
+  the warm, unconditional redirect Constitution Article 33 and CLAUDE.md both require. Datus''s own Phase
+  Five Probe 11 response did not make its warmth conditional, but this is a named item for the Facilitator''s
+  own threshold-voice register at this world''s table specifically, not yet tested against a live Facilitator
+  redirect (Representative/lpc_Rep_Phase6_Facilitator_Coordination_Round1.md SS3).'
 thin_topics:
 - keywords:
   - ordinary believer

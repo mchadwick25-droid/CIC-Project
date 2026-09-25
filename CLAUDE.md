@@ -54,6 +54,8 @@ The following are **live and used by the program, or are canonical build output*
 
 Notes, decision logs, audit trails, adversarial-review rounds, status reports, and strategy discussion belong in `Ministry/` (e.g. `Ministry/Operations/Audits/`, the various `*_Decision_Log.md` files) — never inline in the files listed above. If you find commentary, changelog cruft, or leftover process notes in a live/canonical file, treat that as corruption: remove it, don't add to it. Superseded material goes to `Archive/`; nothing is deleted without instruction.
 
+Any PR that edits a live or canonical file also removes the commentary already in that file; the check in tools/check_live_commentary.py shows what is there.
+
 The root `README.md` is the map of the whole tree — every top-level entry, its kind, and what reads it. This list follows the map; if they disagree, fix the map first (and log it in `Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`), then this list.
 
 ## Track gaps and exceptions explicitly — don't let them go quiet

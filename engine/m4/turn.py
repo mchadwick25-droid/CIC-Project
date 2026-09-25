@@ -59,6 +59,7 @@ from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.self_revision import self_revise
+from engine.m4.named_claim_grounding import find_named_claim_flags
 from engine.m4.uncited_claims import classify_neighbour_named, find_uncited_claims, find_uncited_paragraphs
 from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
 from engine.m4.term_glosses import find_glosses_used
@@ -996,6 +997,14 @@ def _run_ordinary_voice_turn(
     # small {sentence, class} shape uncited_claims already uses.
     paragraph_offenses = find_uncited_paragraphs(net_result)
 
+    # Report-only (see engine.m4.named_claim_grounding's own module
+    # docstring; the traced regression is worlds/pahc/Open_Gaps_Tracking.md
+    # OG-9). Narrows sentences the ratio test already passed WITH a tag
+    # (the ones that actually reach a participant): does every proper
+    # noun/number the sentence names actually appear in its own tagged
+    # records' ground, not just contribute to a passing aggregate share.
+    named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
+
     # The uncited-claims rule's flag-gated enforcement, OFF by default
     # (see this function's own docstring for the full shape). r27_enforcement_exhausted
     # and attempts_meta["r27_regenerated"] are always set (False/absent
@@ -1028,6 +1037,13 @@ def _run_ordinary_voice_turn(
             )
             retry_uncited_claims = find_uncited_claims(retry_net_result["sentences"])
             retry_paragraph_offenses = find_uncited_paragraphs(retry_net_result)
+            # Recomputed against retry_net_result for the same reason
+            # retry_uncited_claims/retry_paragraph_offenses are: whichever
+            # net_result this turn ultimately answers with is the one
+            # named_claim_flags must describe, report-only field or not -
+            # a stale, pre-retry flag list would misreport a sentence this
+            # turn never actually sent.
+            retry_named_claim_flags = find_named_claim_flags(retry_net_result["sentences"], repository_records=repository_records)
             retry_refined = [classify_neighbour_named(o, known_tradition_names) for o in retry_uncited_claims]
             retry_hard_offenses = [o for o in retry_paragraph_offenses if o["class"] == "wholly_uncited_paragraph"] + [
                 o for o in retry_refined if o["class"] == "neighbour_named"
@@ -1038,11 +1054,13 @@ def _run_ordinary_voice_turn(
                 answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
                 uncited_claims = []
                 paragraph_offenses = []
+                named_claim_flags = []
             else:
                 raw_text = retry_raw_text
                 answer_text, citations, net_result = retry_answer_text, retry_citations, retry_net_result
                 uncited_claims = retry_uncited_claims
                 paragraph_offenses = retry_paragraph_offenses
+                named_claim_flags = retry_named_claim_flags
         else:
             attempts_meta_r27_regenerated = False
     else:
@@ -1145,6 +1163,11 @@ def _run_ordinary_voice_turn(
         # cross-references this against "uncited_claims" to narrow
         # "own_doctrine_in_other_tradition_turn".
         "paragraph_offenses": paragraph_offenses,
+        # Additive: [] on every clean turn, same discipline as
+        # uncited_claims/paragraph_offenses above (see
+        # engine.m4.named_claim_grounding's own module docstring) -
+        # report-only, no enforcement flag yet.
+        "named_claim_flags": named_claim_flags,
         # This enforcement, additive: False unless
         # r27_enforce was on AND the one allowed regeneration still left
         # a hard offense (wholly_uncited_paragraph or neighbour_named)
