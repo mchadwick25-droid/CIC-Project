@@ -24,6 +24,75 @@ works:
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
+- work: The Eternal Happiness of the Saints
+  author: bellarmine
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Bellarmine devotional work in English translation (Dalton, 19th c.). Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: bellarmine_eternal-happiness-of-the-saints_dalton.txt
+- work: The Joys of the Blessed
+  author: bellarmine
+  locus: whole volume (Addison's accompanying essay is not Bellarmine's own voice)
+  role: tradition
+  confidence: assigned
+  note: 'Bellarmine devotional work in English translation (Foxton, 1722), bound with an accompanying
+    essay by Joseph Addison - context, not Bellarmine''s own voice. Vendored 2026-09-25 as
+    part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: bellarmine_joys-of-the-blessed_foxton1722.txt
+- work: The Mind's Ascent to God by a Ladder of Created Things
+  author: bellarmine
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Bellarmine devotional work in English translation (1925). Vendored 2026-09-25 as
+    part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: bellarmine_minds-ascent-to-god_1925.txt
+- work: The Notes of the Church (De Notis Ecclesiae)
+  author: bellarmine
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Bellarmine''s direct English-language Tridentine-side answer to Protestant claims
+    about the marks of the true Church - a direct doctrinal engagement with Protestant ecclesiology
+    this world''s corpus previously lacked beyond Sarpi''s narrative history and the bare
+    Canons/Decrees. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass.
+
+    '
+  source_file: bellarmine_notes-of-the-church_1688.txt
+- work: The Soul's Ascension to God, by the Steps of Creation
+  author: bellarmine
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Bellarmine devotional work in English translation (Hall, 1703). Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: bellarmine_souls-ascension-to-god_hall1703.txt
+- work: Acta Ecclesiae Mediolanensis
+  author: borromeo
+  locus: whole volume, incl. the Instructiones Fabricae et Supellectilis Ecclesiasticae
+  role: tradition
+  confidence: assigned
+  note: 'Borromeo''s own Milan synodal acts and pastoral instructions, previously wholly unvendored
+    in any form (the only prior English lead, Voelker''s 1976 translation, is access-restricted).
+    No PD English translation exists; this is the 1599 Latin printing. Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+
+    '
+  source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
 - work: Catechism of the Council of Trent for Parish Priests
   author: council-of-trent
   locus: whole text
@@ -53,6 +122,59 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- work: Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque
+  author: pius-v
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Pius V''s own apostolic letters, five books - real primary papal correspondence well
+    beyond the single Barlow-transmitted bull already vendored. No PD English translation
+    was located. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
+    Latin text can be primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged under
+    Mark''s OCR ruling "a."
+
+    '
+  source_file: pius-v_apostolicarum-epistolarum-lat_1640.txt
+- work: The Seditious and Blasphemous Oration of Cardinal Pole
+  author: pole
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Pole''s own oration as papal legate to the Emperor, printed inside a hostile Protestant
+    framing text. Fills the Step0-flagged gap for a Pole primary-voice PD lead. Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Flagged under Mark''s OCR
+    ruling "a" (2026-09-25, worlds/_cross-world/LIBRARY-DECISION-LOG.md) as a garbled black-letter
+    1560 scan - stays second witness for scan-quality reasons until a cleaner edition is vendored,
+    notwithstanding this being English (the OCR ruling gates on scan quality, not language).
+
+    '
+  source_file: pole_seditious-oration_wythers1560.txt
+- work: The Roman Breviary (reformed by order of the Council of Trent; published by Pius V;
+    revised by Clement VIII, Urban VIII, and Leo XIII)
+  author: roman-breviary
+  locus: one seasonal volume of 4
+  role: tradition
+  confidence: assigned
+  note: 'Fills the Step0-flagged gap for a Roman Breviary PD English lead. Reflects the Breviary''s
+    later revision through Leo XIII, not a pure 1568/1570 Pius V text - disclosed as a textual-layering
+    point for whoever cites it. One of a 4-volume seasonal set; only this volume vendored
+    this pass. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass.
+
+    '
+  source_file: roman-breviary_bute1908.txt
+- work: The Roman Missal, Translated into the English Language for the Use of the Laity
+  author: roman-missal
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'Fills the Step0-flagged gap for a Roman Missal PD English lead. Vendored 2026-09-25
+    as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: roman-missal_england1843.txt
 - work: The History of the Council of Trent
   author: sarpi
   locus: whole text

@@ -17,12 +17,10 @@ Report only, same discipline as everything else in this package: a
 record with no sources[] resolves to an empty list, never a fabricated
 one.
 
-Label resolution (cross-world transparency audit, 2026-08-26): every
-citable record_type gets a real, participant-readable label - before
-this, five record_types (gravity, force, contested_claim,
-doctrinal_witness, honest_limit) had no entry at all here and fell
-through to the bare record id, in every world, for every General
-Reference of those types. And `quote`'s own label printed
+Every citable record_type gets a real, participant-readable label: every
+entry in `_LABEL_FIELDS` below resolves to one, so no General Reference of
+any type falls through to the bare record id in any world. And `quote`'s
+own label printed
 speaker_or_author raw, which the corpus stores two ways (a figure
 record id, or already-readable prose) - a participant saw a real name
 on a world whose quotes happened to be authored as prose, and a
@@ -35,23 +33,19 @@ access (unlike that terser context) so it resolves a figure id through
 the SAME figure-label lookup a figure's own card uses, rather than a
 cruder id-to-slug fallback.
 """
-import re
-
-from engine.prose import short_head
-
-_NAME_TAXONOMY_SUFFIX = re.compile(r"\s*\[[^\]]*\]\s*$")
+from engine.prose import short_head, strip_name_taxonomy_tag
 
 
 def _short_name(record: dict) -> str | None:
-    """gravity/force records carry a `name` ending in a bracketed build
-    taxonomy tag (e.g. "Divine Pedagogy [SUPPORTING - explanatory
-    framework]") - real and useful to a reviewer, never meant for a
-    participant. Strip it; the plain name underneath is already a good
-    label."""
+    """gravity/force records carry a `name` with a bracketed build
+    taxonomy tag, leading or trailing (e.g. "Divine Pedagogy [SUPPORTING
+    - explanatory framework]") - real and useful to a reviewer, never
+    meant for a participant. Strip it; the plain name underneath is
+    already a good label."""
     name = (record.get("name") or "").strip()
     if not name:
         return None
-    return _NAME_TAXONOMY_SUFFIX.sub("", name).strip() or None
+    return strip_name_taxonomy_tag(name) or None
 
 
 def _first_sentence(text: str, max_len: int = 90) -> str:
@@ -120,6 +114,7 @@ _LABEL_FIELDS = {
     "contested_claim": lambda r, _repo: r.get("claim"),
     "doctrinal_witness": lambda r, _repo: _first_sentence(r.get("text") or ""),
     "honest_limit": lambda r, _repo: _first_sentence(r.get("statement") or ""),
+    "modern_term": lambda r, _repo: ", ".join(r.get("display_terms") or []),
 }
 
 
@@ -134,9 +129,15 @@ def _printable(value) -> bool:
 
 
 def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> dict | None:
-    """None only when record_id isn't in this world's repository at all -
-    every real citation's record_id already resolves, since citations are
-    only ever emitted against ids the grounding net verified exist there.
+    """None when record_id isn't in this world's repository at all - every
+    real citation's record_id already resolves, since citations are only
+    ever emitted against ids the grounding net verified exist there - or
+    when a modern_term record carries no display_terms, since its label
+    has nothing to fall back to but the bare record id (_label's own
+    generic id fallback exists for every OTHER record_type because a raw
+    id is still a real, if unlabeled, reference to look up; a modern
+    term's own id is internal build vocabulary no participant should ever
+    see, so no card is shown at all rather than one carrying it).
 
     A real source_id, even a dangling one that fails to resolve in this
     repository, still leaves the renderer the id itself to print (its own
@@ -147,14 +148,16 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     a shape the grounding net's own checks don't cover since they verify
     the citing record's id, not the shape of its own sources[] entries -
     and no locus of its own either, so author/work/locus/rights_status
-    are all None too (Mark's own staging report, 2026-09-23: "General
-    references (1)" followed by five empty bullet items - "* " with
-    nothing after). Dropped here, once, for both callers
+    are all None too - the shape that once printed a "General references
+    (1)" heading followed by an empty bullet, "* " with nothing after.
+    Dropped here, once, for both callers
     (resolve_citation_sources and transparency_plan.build_transparency_plan)
     rather than filtered a second time in the frontend - an entry with
     nothing to print is not a source, so it never leaves this function."""
     record = repository_records.get(record_id)
     if record is None:
+        return None
+    if record.get("record_type") == "modern_term" and not record.get("display_terms"):
         return None
     sources = []
     for entry in record.get("sources") or []:
@@ -180,6 +183,14 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         # modern rendering carries its original wording on the click page.
         card["original_wording"] = record.get("text")
         card["spoken_rendering"] = record.get("modern_rendering")
+    if record.get("record_type") == "modern_term":
+        # Carried onto the card the same way a quote's own modern_rendering
+        # is above: verbatim, additive, never composed by this function -
+        # so a participant can see the term's own sense and nuance as a
+        # real, sourced card, not only hear it inside the Facilitator's
+        # composed bridge sentence.
+        card["modern_sense"] = record.get("modern_sense")
+        card["distinguishing_claim"] = record.get("distinguishing_claim")
     return card
 
 

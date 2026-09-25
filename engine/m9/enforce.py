@@ -131,7 +131,6 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m9:shelf-row/pahc": Waiver(count=23, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/syr": Waiver(count=24, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:emic-vendored-only/syr": Waiver(count=38, deadline="2026-12-14", owner="syr's own build thread - each emic record needs re-grounding in a vendored primary source or its citation removed"),
-    "m9:verbatim-in-shelf/don": Waiver(count=1, deadline="2026-12-14", owner="don.quote.emeritus-magno-argumento - OCR-defeated against the Migne Collatio; needs a re-scan or second witness (D3 SS9)"),
     "m1:reciprocity/desert": Waiver(count=1, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; desert's own build thread"),
     "m1:reciprocity/don": Waiver(count=52, deadline="2026-12-14", owner="D2 SS1.3(e) - don's own known reciprocity gap; don's build thread"),
     "m1:reciprocity/gallic": Waiver(count=14, deadline="2026-12-14", owner="pre-existing, unwritten-up until this run; gallic's own build thread"),
@@ -152,7 +151,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/cappadocian": Waiver(count=322, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; cappadocian's own build thread"),
     "m1:readability/desert": Waiver(count=163, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; desert's own build thread"),
     "m1:readability/don": Waiver(count=330, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; don's own build thread"),
-    "m1:readability/gallic": Waiver(count=126, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
+    "m1:readability/gallic": Waiver(count=110, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; gallic's own build thread"),
     "m1:readability/hal": Waiver(count=165, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; hal's own build thread"),
     "m1:readability/ijc": Waiver(count=163, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=162, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
@@ -163,7 +162,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     # spoken fields, records/_fleet/) - counted once against the
     # FLEET_PSEUDO_WORLD key, never against any single real world's own
     # count, for the reason gate_readability_fleet's own docstring gives.
-    "m1:readability-fleet/_fleet": Waiver(count=9, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
+    "m1:readability-fleet/_fleet": Waiver(count=7, deadline="2026-12-14", owner="pre-existing fleet_voice/modern_term spoken-field content exceeds the FK/FRE ceiling; fleet-content build thread"),
 }
 
 

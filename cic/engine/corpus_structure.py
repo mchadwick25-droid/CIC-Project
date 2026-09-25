@@ -75,6 +75,23 @@ def _unescape(text: str) -> str:
     return text
 
 
+def _strip_tags_if_markup(path: Path, raw: str) -> str:
+    """`_TAG` ("<[^>]+>") is only safe to run against text that actually
+    contains real markup - it matches from ANY "<" to the NEXT ">", which
+    is correct for a genuine tag but not for prose, where a stray "<" (OCR
+    noise, a misread quotation mark, an editorial bracket) is text, not
+    the start of a tag, and has no real closing ">" of its own. Shared by
+    both callers below (outline(), and corpus_index.passage_units()),
+    scoped by the file's own extension rather than by "found no <div1-3>
+    markers": every .txt volume in this corpus is plain text, never
+    markup, so it is returned untouched; .xml still gets real tags
+    stripped, since a file can lack <div1-3> markers while still being
+    real markup elsewhere in its own tag set."""
+    if path.suffix != ".xml":
+        return raw
+    return _TAG.sub(" ", raw)
+
+
 def outline(path: Path, max_level: int = 2) -> list[dict]:
     """Sections down to `max_level`, each with the word count of its OWN text.
 
@@ -91,7 +108,7 @@ def outline(path: Path, max_level: int = 2) -> list[dict]:
                       _unescape(title_match.group(1)) if title_match else ""))
 
     if not marks:                                  # a plain .txt with no markup
-        words = len(_TAG.sub(" ", raw).split())
+        words = len(_strip_tags_if_markup(path, raw).split())
         return [{"level": 0, "title": path.stem, "words": words,
                  "subtree_words": words, "apparatus": False, "path": "1"}]
 

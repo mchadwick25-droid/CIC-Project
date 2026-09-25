@@ -231,6 +231,11 @@ to wait on Stage 1's measurement to fix.
 **Status:** RULED and RETROFITTED — 2026-09-21. See Decision-Log.md
 Entries 28 and 32. All 10 gap worlds' `voice_craft.guard` now carry the
 addition; package recompile is the one remaining mechanical step.
+Fold-in DONE — 2026-09-24: the requirement is now part of the standing
+build process for future worlds, B-7 row of
+`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`
+(see `Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
+2026-09-24 entry, item 3.2).
 Note: this is a Representative-voice authoring question — the guard is a
 prohibition on the Representative comparing or minimizing a participant's
 own disclosed distress against the world's own historical suffering ("not
@@ -253,8 +258,8 @@ different wording) — full detail in Decision-Log.md Entry 28. Retrofit of
 the **10** gap worlds (alx, cappadocian, desert, gallic, hal, ijc, pahc,
 rzg, syr, witt — corrected from 9, see Decision-Log.md Entry 31) is now
 done — see Decision-Log.md Entry 32 for the final text per world and how
-it was reached. Folding the requirement into the standing build-cycle
-discipline for future worlds is still outstanding.
+it was reached. Folding the requirement into the standing build process
+for future worlds is done (V1.7, B-7 row — see the Status line above).
 
 **Stage 0e observation pass (2026-09-21), `engine.m1.cross_world`'s new
 `observe_outside_help_guard`** (report-only, keyword scan, not a semantic

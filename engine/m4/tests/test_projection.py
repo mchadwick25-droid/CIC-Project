@@ -120,6 +120,48 @@ def test_voice_turn_transparency_plan_folds_into_transcript(tmp_path):
     assert voice_entries[1]["transparency"] == plan
 
 
+def test_bridge_facilitator_turn_carries_modern_terms_through_a_fold(tmp_path):
+    """A bridge turn's own modern_terms cards must survive a reload/resume
+    fold, not just {speaker, kind, text} - a participant who saw the card
+    live must still see it after reloading the page."""
+    store = Store(tmp_path / "events.db")
+    sid = str(uuid.uuid4())
+    _seed(store, sid)
+    card = {"record_id": "_fleet.modern.trinity", "record_type": "modern_term", "label": "Trinity", "sources": [], "modern_sense": "One God, three persons.", "distinguishing_claim": "The word is modern; the claim is not."}
+    store.append(
+        session_id=sid,
+        event_uuid=str(uuid.uuid4()),
+        event_type="facilitator_turn",
+        payload={"kind": "bridge", "text": "Let me put that in plain terms.", "modern_terms": [card]},
+    )
+
+    state = project_fresh(sid, store)
+    bridge_entries = [t for t in state.transcript if t["speaker"] == "facilitator" and t["kind"] == "bridge"]
+    assert bridge_entries[0]["modern_terms"] == [card]
+
+
+def test_non_bridge_facilitator_turn_folds_with_modern_terms_none(tmp_path):
+    """A facilitator_turn logged before this key existed (or of any kind
+    other than "bridge") has no 'modern_terms' key at all - the fold
+    must not KeyError on it, the same pre-change-transcript guarantee
+    test_voice_turn_without_transparency_key_still_folds_cleanly already
+    pins for voice_turn."""
+    store = Store(tmp_path / "events.db")
+    sid = str(uuid.uuid4())
+    _seed(store, sid)  # _seed's own facilitator-turn-free; add one with no modern_terms key
+    store.append(
+        session_id=sid,
+        event_uuid=str(uuid.uuid4()),
+        event_type="facilitator_turn",
+        payload={"kind": "close", "text": "This conversation is closed."},
+    )
+
+    state = project_fresh(sid, store)
+    facilitator_entries = [t for t in state.transcript if t["speaker"] == "facilitator"]
+    assert len(facilitator_entries) == 1
+    assert facilitator_entries[0]["modern_terms"] is None
+
+
 def test_voice_turn_without_transparency_key_still_folds_cleanly(tmp_path):
     """A voice_turn logged before Stage 3a existed has no 'transparency'
     key at all (it was never added to events.REQUIRED_KEYS) - the fold

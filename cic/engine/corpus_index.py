@@ -10,15 +10,13 @@ around the match, entirely offline, no server, no dependency this sandbox
 can't already satisfy.
 
 REUSES corpus_structure.py's OWN PARSING, DELIBERATELY. That module's
-_DIV/_TITLE/_TAG/_unescape regexes already worked through the real bugs
-this kind of parsing hits - cic/texts/README.md's anf01 entry documents
-catching a naive tag-strip truncating text against nested <note><p
-class="endnote">...</p></note> structures, live, before anything was
-committed. Re-deriving that from scratch here would risk repeating a
-mistake this project already paid to fix once. Where this module's needs
-diverge from corpus_structure.py's own (it reports word COUNTS per
-section; this needs the actual TEXT and the file's own id= attribute,
-neither of which outline() keeps), the walk itself stays the same shape.
+_DIV/_TITLE/_TAG/_unescape regexes already handle nested tag structures
+correctly (a naive tag-strip truncates against nested <note><p
+class="endnote">...</p></note> structures - see cic/texts/README.md's
+anf01 entry). Where this module's needs diverge from corpus_structure.py's
+own (it reports word COUNTS per section; this needs the actual TEXT and
+the file's own id= attribute, neither of which outline() keeps), the walk
+itself stays the same shape.
 
 WHAT COUNTS AS A PASSAGE UNIT. For ThML/XML files: every div's own direct
 text - the span between where it opens and the next div marker of ANY
@@ -60,7 +58,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import corpus_structure as cs  # noqa: E402  (reuses _DIV, _TITLE, _TAG, _unescape - see docstring)
+import corpus_structure as cs  # noqa: E402  (reuses _DIV, _TITLE, _TAG, _unescape, _strip_tags_if_markup - see docstring)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
@@ -84,7 +82,7 @@ def passage_units(path: Path) -> list[dict]:
                       id_m.group(1) if id_m else None))
 
     if not marks:
-        text = cs._TAG.sub(" ", raw).strip()
+        text = cs._strip_tags_if_markup(path, raw).strip()
         return [{"locus": "whole-file", "title": path.stem, "apparatus": False, "text": text}]
 
     units = []
@@ -145,6 +143,9 @@ def files_for_entry(entry_id: str) -> set[str] | None:
 
 
 def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path = DB_PATH) -> list[dict]:
+    """Ranked FTS5 search. With `entry`, the entry's corpus-map file set is
+    applied inside the query (`file IN (...)` alongside MATCH), so bm25
+    ranking and LIMIT run only over that world's own passages."""
     if not db_path.exists():
         raise SystemExit(f"{db_path} does not exist yet - run with --build first")
     scope = None
@@ -153,18 +154,27 @@ def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path 
         if scope is None:
             raise SystemExit(f"no corpus-map bucket for entry {entry!r} "
                              f"(checked {MAP_DIR / (entry + '.yaml')})")
+        if not scope:
+            return []  # a real bucket with nothing assigned yet - nothing to search, not an error
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
-    rows = conn.execute(
-        "SELECT address, file, title, apparatus, "
-        "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
-        "bm25(passages) AS score "
-        "FROM passages WHERE passages MATCH ? ORDER BY score LIMIT ?",
-        (query, limit * 5 if scope else limit),  # over-fetch when filtering, so scoping doesn't starve results
-    ).fetchall()
+    if scope is None:
+        sql = ("SELECT address, file, title, apparatus, "
+               "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
+               "bm25(passages) AS score "
+               "FROM passages WHERE passages MATCH ? ORDER BY score LIMIT ?")
+        params = (query, limit)
+    else:
+        placeholders = ", ".join("?" * len(scope))
+        sql = ("SELECT address, file, title, apparatus, "
+               "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
+               "bm25(passages) AS score "
+               f"FROM passages WHERE passages MATCH ? AND file IN ({placeholders}) "
+               "ORDER BY score LIMIT ?")
+        params = (query, *sorted(scope), limit)
+    rows = conn.execute(sql, params).fetchall()
     conn.close()
-    out = [dict(r) for r in rows if scope is None or r["file"] in scope]
-    return out[:limit]
+    return [dict(r) for r in rows]
 
 
 def main(argv: list[str] | None = None) -> int:

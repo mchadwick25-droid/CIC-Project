@@ -58,6 +58,8 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from engine.m1.registry import formation_world_keys
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
 
@@ -616,13 +618,21 @@ def gate_quote_verbatim(records, fleet, registry) -> list[str]:
 
 # --- fleet report (report-only sweep; this module's own CLI) -----------
 
-# The six worlds an earlier admission pass already claimed verified-direct
-# with a documented cic/texts/ pass, vs. the five that have never had one.
-# Read off each world's own quote records' confidence.verification_state
-# at run time (REPORT_WORLDS below), not hardcoded, so a world's real
-# state always wins over this list if the two ever disagree.
+# The seven worlds an earlier admission pass already claimed verified-direct
+# with a documented cic/texts/ pass (lpc added this session, its own 5
+# quote records independently re-verified against cic/texts/ during
+# authoring), vs. every OTHER formation world - a real audit-history
+# distinction (which worlds actually got that pass), not a "which worlds
+# exist" question, so AUDITED_WORLDS itself stays hand-kept: no registry
+# field records this, and a newly admitted world is never audited by
+# construction, not by a rule this file could derive. OTHER_WORLDS is
+# everything else, read off the registry so a newly admitted,
+# not-yet-audited world lands here automatically. Read off each world's
+# own quote records' confidence.verification_state at run time
+# (REPORT_WORLDS below), not hardcoded, so a world's real state always
+# wins over this list if the two ever disagree.
 AUDITED_WORLDS = ("pahc", "syr", "desert", "hal", "alx", "ijc", "lpc")
-OTHER_WORLDS = ("cappadocian", "don", "gallic", "rzg", "witt")
+OTHER_WORLDS = tuple(sorted(set(formation_world_keys()) - set(AUDITED_WORLDS)))
 REPORT_WORLDS = AUDITED_WORLDS + OTHER_WORLDS
 
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "quote-verbatim-report-2026-09-22.json"
