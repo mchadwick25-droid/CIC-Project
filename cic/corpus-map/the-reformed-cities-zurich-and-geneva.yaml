@@ -115,6 +115,21 @@ works:
 
     '
   source_file: calvin_letters-vol4_bonnet1858.txt
+- work: Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)
+  author: calvin
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The Genevan ecclesiastical constitution itself, licensing Doc_01''s Authority-structure
+    strand directly from primary text rather than general knowledge. This 1735 printing carries
+    the 1576 Council revision, not Calvin''s own original 1541/1561 wording verbatim - the
+    same living document in continuous institutional use, and a genuine PD alternative after
+    two other candidates (Schaff''s HCC8 paraphrase; a 1977 in-copyright translation) were
+    checked and rejected by the build thread itself. Bears directly on Doc_04''s Consistorial
+    Discipline gravity.
+
+    '
+  source_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
 - work: The Catechism of the Church of Geneva
   author: calvin
   locus: whole file
@@ -141,6 +156,18 @@ works:
 
     '
   source_file: calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt
+- work: Les Pseaumes mis en rime francoise (the Genevan Psalter, complete 1562 edition)
+  author: marot-beze
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The Genevan congregation''s own sung liturgy - licenses Doc_01''s Practice strand
+    directly from primary text. The exact complete 1562 edition Doc_01 itself named but had
+    not yet actively searched for. A metrical psalter meant to be sung, not a prose Bible
+    translation; no English equivalent exists or is expected.
+
+    '
+  source_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
 - work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus
   locus: Sec. 69 of the source volume (original pp. 529-554)
