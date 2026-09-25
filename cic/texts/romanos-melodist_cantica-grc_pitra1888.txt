@@ -32,9 +32,8 @@
                   matter and critical apparatus (e.g. "Sanctus Romanus fuit ex Syria
                   ortus..." at the biographical introduction) - real content, but
                   scholarly apparatus about Romanos, not his own poetic voice. Treat
-                  this file as Latin apparatus material only; no English.
-                  cross-checking an English rendering of the kontakia, not itself
-                  citable as a Representative's evidence.
+                  this file as Latin apparatus material only, no English, and never
+                  itself citable as a Representative's evidence.
      __________________________________________________________________
 
 uoDFREY MICHAEL HYAMS, 
