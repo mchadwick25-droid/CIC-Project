@@ -7,31 +7,32 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** 1738–1815
 **Region(s):** Britain, then America
 **Dossier author / date:** this world's own build thread (`meth`), 2026-09-25. **Disclosed plainly rather than smoothed over:** no dossier existed for this world before this date — no separate source-research thread ran ahead of this build's own Step 0/Doc_02 pass, so this dossier is written *retroactively*, from the same research that pass already performed, rather than being the prior input that pass would ordinarily have worked from. A future world sharing this era/region should not assume this reflects a proactive sweep predating its own Doc_02 stage the way, for example, `worlds/rzg/`'s or `worlds/witt/`'s own dossiers do — it reflects one build thread's own single pass, done under time pressure, for its own world only.
-**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — a cold start before this pass (confirmed via `corpus_map.py --coverage`, no methodist/Wesley bucket or vendored file existed as of the morning of 2026-09-25); this pass assigned 11 works across 7 vendored files.
+**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — a cold start before this pass (confirmed via `corpus_map.py --coverage`, no methodist/Wesley bucket or vendored file existed as of the morning of 2026-09-25); this pass assigned 12 works across 7 vendored files (corrected at independent review, round 2: 11 in the original pass, with a real Charles Wesley/John Wesley voice misattribution corrected by splitting one row into two — see the table below).
 
 ## 1. Already assigned
 
-11 works, across 7 vendored files, assigned to `cic/corpus-map/the-methodist-revival.yaml`:
+12 works, across 7 vendored files, assigned to `cic/corpus-map/the-methodist-revival.yaml`:
 
 | work | author | role | confidence | source file |
 |---|---|---|---|---|
 | The Journal of the Rev. John Wesley, A.M. (Curnock ed.), Vol. I — the Aldersgate account | wesley-john | tradition | assigned | `wesley-j_journal-v1_curnock1909.txt` |
-| The Journal of the Rev. John Wesley, A.M. (Curnock ed.), Vol. I — Curnock's own Editorial Introduction | wesley-john | context | assigned | `wesley-j_journal-v1_curnock1909.txt` |
+| The Journal of the Rev. John Wesley, A.M. (Curnock ed.), Vol. I — Curnock's own Editorial Introduction | curnock-nehemiah | context | assigned | `wesley-j_journal-v1_curnock1909.txt` |
 | Sermons on Several Occasions, Vol. I — Sermon I, "Salvation by Faith" | wesley-john | tradition | assigned | `wesley-j_sermons-v1_1771.txt` |
 | Sermons on Several Occasions, Vol. I — Sermon II, "The Almost Christian" | wesley-john | tradition | assigned | `wesley-j_sermons-v1_1771.txt` |
-| Sermons on Several Occasions, Vol. I — Sermons III–XII and following | wesley-john | tradition | provisional | `wesley-j_sermons-v1_1771.txt` |
-| Minutes of Several Conversations (the Large Minutes) — Sections I–II | wesley-john | tradition | assigned | `wesley-j_large-minutes_1850.txt` |
+| Sermons on Several Occasions, Vol. I — Sermon III, "Awake, Thou That Sleepest" | wesley-charles | tradition | assigned | `wesley-j_sermons-v1_1771.txt` |
+| Sermons on Several Occasions, Vol. I — Sermons IV–XVI | wesley-john | tradition | provisional | `wesley-j_sermons-v1_1771.txt` |
+| Minutes of Several Conversations (the Large Minutes) — Sections I–II | wesleyan-conference | tradition | assigned | `wesley-j_large-minutes_1850.txt` |
 | A Collection of Hymns for the Use of the People Called Methodists (1780) — Preface | wesley-john | tradition | assigned | `wesley-c_hymns-methodists_1780.txt` |
 | A Collection of Hymns for the Use of the People Called Methodists (1780) — the hymns themselves | wesley-charles | tradition | provisional | `wesley-c_hymns-methodists_1780.txt` |
 | The Journal of the Rev. Francis Asbury, Vol. I (1771–1786) | asbury-francis | tradition | provisional | `asbury_journal-v1_1821.txt` |
 | The Journal of the Rev. Francis Asbury, Vol. II (1786–1800) | asbury-francis | tradition | provisional | `asbury_journal-v2_1821.txt` |
 | The Journal of the Rev. Francis Asbury, Vol. III (1800–1815) | asbury-francis | tradition | provisional | `asbury_journal-v3_1821.txt` |
 
-Full per-row loci, quotability notes, and OCR caveats: `worlds/meth/Source_Registry.md`.
+Row-count and sermon-count corrections, and the Large Minutes' own reclassification from Wesley's personal voice to the post-Wesley Conference's institutional voice, were all found at independent (Opus) review, round 2, 2026-09-25 — full detail: `worlds/meth/Review-Artifacts/Independent_Review_Round1.md`. Full per-row loci, quotability notes, and OCR caveats: `worlds/meth/Source_Registry.md`.
 
 ## 2. Cross-link opportunities
 
-**None found this pass.** Checked `corpus_map.py --coverage` and skimmed the corpus-map's own assignments for every already-vendored Reformed/Calvinist and Moravian-adjacent file (given this world's own doctrinal echo with the Reformed tradition, Doc_01 §4, and its real Moravian formative relationship, Doc_01 §7): nothing in `cic/texts/` as of this pass is assigned any Moravian-tradition role at all (no `the-moravian-church-at-herrnhut` bucket exists — §5 below), and the Reformed Cities' own vendored corpus (Calvin, Zwingli, Bullinger) is doctrinally adjacent but not the same tradition or figures, so no genuine cross-link candidate — a source actually usable in both worlds' own registries — was identified. This section stays empty honestly rather than forcing a weak link.
+**None found for a shared Source Registry row, but one real cross-world pair now recorded.** Checked `corpus_map.py --coverage` and skimmed the corpus-map's own assignments for every already-vendored Reformed/Calvinist and Moravian-adjacent file (given this world's own doctrinal echo with the Reformed tradition, Doc_01 §4, and its real Moravian formative relationship, Doc_01 §7): nothing in `cic/texts/` as of this pass is assigned any Moravian-tradition role at all (no `the-moravian-church-at-herrnhut` bucket exists — §5 below), and the Reformed Cities' own vendored corpus (Calvin, Zwingli, Bullinger) is doctrinally adjacent but not the same tradition or figures, so no genuine cross-link candidate — a source actually usable in both worlds' own registries — was identified. **A genuine tradition-pair relationship is recorded instead, at `cic/corpus-map/PAIRS.yaml`** (added at independent review, round 2): `the-methodist-revival` / `the-moravian-church-at-herrnhut`, relation `one-way` (only this world's own vendored text narrates the contact; no Moravian-side text exists in this corpus yet).
 
 ## 3. Verified acquisition leads
 
@@ -42,7 +43,9 @@ Not yet vendored, each independently confirmed against its actual host — full 
 | The Journal of the Rev. John Wesley, A.M. (Curnock ed.), Vols. II–VIII | John Wesley | ed. Nehemiah Curnock | [1909?]–1916 | `archive.org/details/a613690402wesluoft` (Vol. II; III, IV, VIII independently confirmed under the sequential identifier `a613690401wesluoft`–`a613690408wesluoft`) | pd-us-by-date | Direct archive.org metadata check (title/publisher/date/rights all matching the already-vendored Vol. I), meth build thread, 2026-09-25 |
 | Journal of the Rev. Francis Asbury (1852, Lane & Scott ed.) | Francis Asbury | — | 1852 | `archive.org/details/journalofrevfran03asbu` | pd-us-by-date | Found via search, host page not independently re-fetched this pass — **not used**; the 1821 first edition (already vendored) was preferred once located, since it is the earlier, more directly authorial printing |
 
-**Not yet reduced to a specific verified URL, named here for the next pass rather than left only in the Manifest:** George Whitefield's own Journals/Sermons (Manifest G5); the annual Conference Minutes distinct from the Large Minutes (G3); the remaining ~32 Standard Sermons (G2); Mary Bosanquet Fletcher's 1771 letter, Hester Ann Rogers's *Account*, the *Arminian Magazine*'s lay narratives, the Wesley–Crosby correspondence (G6–G9, all real Article 20 cases this pass did not have time to search for); the Twenty-Four Articles of Religion (G10); class/band/circuit records (G4, likely a research-library, not public-domain-text-search, acquisition channel).
+**Not yet reduced to a specific verified URL, named here for the next pass rather than left only in the Manifest:** George Whitefield's own Journals/Sermons (Manifest G5); the annual Conference Minutes distinct from the Large Minutes (G3); the remaining ~29 Standard Sermons (G2, corrected at independent review — Vol. I holds 16, not 12); Mary Bosanquet Fletcher's 1771 letter, Hester Ann Rogers's *Account*, the *Arminian Magazine*'s lay narratives, the Wesley–Crosby correspondence (G6–G9, all real Article 20 cases this pass did not have time to search for); the Twenty-Four Articles of Religion (G10); class/band/circuit records (G4, likely a research-library, not public-domain-text-search, acquisition channel).
+
+**A live cross-world allocation question, not an acquisition item — named here since it bears directly on how G5 is eventually used.** Doc_01 §9 escalates to the project lead the question of how George Whitefield's own post-1741 institutional legacy should be allocated across this world's own census entry and its neighbours (VII.6, VII.10) — his own person and 1738–41 presence remain squarely part of this world's story either way. Any future use of a Whitefield primary text (once acquired) should be read against whichever option the project lead selects.
 
 ## 4. Checked and closed
 

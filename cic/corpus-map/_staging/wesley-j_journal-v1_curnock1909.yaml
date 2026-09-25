@@ -1,20 +1,28 @@
 # Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
-# source-acquisition pass. First vendoring for this world's own Atlas entry
-# (the-methodist-revival, VII.5) - no prior corpus-map bucket existed for it
-# before this pass. See cic/texts/REGISTRY.yaml for full rights/provenance.
+# source-acquisition pass. Revised 2026-09-25 (round 2, post independent
+# review): (1) the round-1 "day-heading OCR misread" claim was invented -
+# independently re-verified against the file this round: the numbers
+# "14."/"15."/"16." are Wesley's own paragraph numbers (§1-§18+) within
+# his single retrospective account of 24 May 1738, not day-of-month
+# headings at all (line 26503 states the date directly in running prose,
+# "What occurred on Wednesday the 24th ... I think best to relate at
+# large," then numbers his own paragraphs from "1." at line 26508
+# onward) - removed, replaced with the accurate account below. (2) the
+# editorial-introduction row's author corrected from wesley-john to
+# curnock-nehemiah (it is Curnock's own editorial voice, not Wesley's,
+# and should never have carried Wesley's own author slug).
 source_file: wesley-j_journal-v1_curnock1909.txt
 
 assignments:
   - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I"
     author: wesley-john
-    locus: "entry for 24 May 1738 (the Aldersgate 'heart strangely warmed'
-      account), lines 27057-27089 of the vendored file - note: this
-      edition's own OCR misreads the day-heading digit as '14.'/'16.'
-      rather than '24.'/'26.'; the surrounding editorial footnote (lines
-      26989-26990, 27036-27037) independently and explicitly dates the
-      same entry to 'May 24 ... 1738,' corroborating the standard date
-      against the file's own apparatus rather than against the (likely
-      OCR-garbled) day-numeral alone"
+    locus: "Wesley's own retrospective account of 24 May 1738 (the
+      Aldersgate 'heart strangely warmed' entry), lines 26503-27091 -
+      his own numbered paragraphs 1-18+ of a single continuous
+      retrospective, interrupted mid-account by Curnock's own footnote
+      apparatus (lines 26948-27069); the quotation itself (paragraph 14
+      of Wesley's own numbering) sits at lines 27070-27074, immediately
+      after that footnote break"
     atlas_ids:
       - the-methodist-revival
     role: tradition
@@ -22,13 +30,16 @@ assignments:
     note: >
       The movement's own founding moment in Wesley's own words, in the
       standard scholarly Curnock edition. Volume I only is vendored (birth
-      through mid-1738); Volumes II-VIII, covering the movement's own
-      working decades, are not yet acquired - a binding open item for this
-      world's own Doc_02 and Open_Gaps_Tracking.md.
+      through mid-1738, ending 8 June 1738 - Wesley's own later 1738 visit
+      to Herrnhut is NOT in this volume, corrected at independent review;
+      see this world's Doc_01 §7 and Open_Gaps_Tracking.md); Volumes
+      II-VIII, covering the movement's own working decades, are not yet
+      acquired - a binding open item for this world's own Doc_02 and
+      Open_Gaps_Tracking.md.
 
   - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
       -- Curnock's own Editorial Introduction"
-    author: wesley-john
+    author: curnock-nehemiah
     locus: "Curnock's own editorial introduction discussing Wesley's
       'evangelical conversion,' lines ~1745-1770 of the vendored file"
     atlas_ids:
@@ -38,3 +49,6 @@ assignments:
     note: >
       Editorial (Curnock's own voice, not Wesley's) - useful as
       context/orientation for Doc_02, never citable as Wesley's own words.
+      Author slug corrected from wesley-john at independent review (it
+      had incorrectly carried Wesley's own slug despite this row's note
+      already saying "not Wesley's").

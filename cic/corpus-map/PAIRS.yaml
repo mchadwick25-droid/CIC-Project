@@ -12,6 +12,25 @@
 # D3 section 3, CM-3's "judgment involved" column. This file carries only
 # the fixture pair the M9 selftest needs (increment 2, Q8's own scope).
 pairs:
+  - a: the-methodist-revival
+    b: the-moravian-church-at-herrnhut
+    relation: one-way
+    evidence: >-
+      Wesley's own vendored Journal (Vol. I, wesley-j_journal-v1_curnock1909.txt)
+      directly and repeatedly narrates Moravian contact from his own side: the
+      1735-36 Georgia-voyage storm (lines ~6950-6990), Peter Bohler's own work
+      with him in London before Aldersgate (lines ~26881+), and the Aldersgate
+      entry itself (lines 27070-27074). No Moravian-side text is vendored for
+      this world or for the-moravian-church-at-herrnhut (VII.4 has no
+      corpus-map bucket at all as of 2026-09-25) - the awareness this specific
+      corpus evidences runs one way (Methodist source describing Moravian
+      contact), not because the historical relationship was one-way (it was
+      not - the two traditions' own real mutual contact is well documented
+      generally), but because only one side's own text currently sits in this
+      project's vendored corpus. Re-classify to mutual-awareness once a
+      Moravian-side vendored text exists.
+    confidence: assigned
+    added_by: "Methodist Revival build thread (meth), 2026-09-25 (independent review round 2)"
   - a: fixture-synthetic
     b: fixture-synthetic-neighbour
     relation: mutual-awareness

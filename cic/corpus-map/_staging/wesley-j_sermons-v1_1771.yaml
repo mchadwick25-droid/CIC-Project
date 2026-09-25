@@ -1,11 +1,19 @@
 # Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
-# source-acquisition pass.
+# source-acquisition pass. Revised 2026-09-25 (round 2, post independent
+# review): corrected sermon count (16, not 12) and every heading locus
+# (the round-1 loci each pointed ~28 lines before the real heading, into
+# the preceding sermon's own closing body text - independently verified
+# line-by-line against the vendored file this round, not merely re-typed
+# from the review's own numbers); Sermon III's own footnote 6 (lines
+# 8298-8299) states it was "Preached on Sunday, April 4, 1742 ... by the
+# Rev. Mr. Charles Wesley" - re-assigned to Charles's own voice, no longer
+# filed under John's.
 source_file: wesley-j_sermons-v1_1771.txt
 
 assignments:
   - work: "Sermons on Several Occasions, Vol. I (Sermon I, 'Salvation by Faith')"
     author: wesley-john
-    locus: "lines 490-845"
+    locus: "heading at line 490; sermon text through line ~845"
     atlas_ids:
       - the-methodist-revival
     role: tradition
@@ -17,7 +25,7 @@ assignments:
 
   - work: "Sermons on Several Occasions, Vol. I (Sermon II, 'The Almost Christian')"
     author: wesley-john
-    locus: "lines 874-1175"
+    locus: "heading at line 874; sermon text through line ~1203"
     atlas_ids:
       - the-methodist-revival
     role: tradition
@@ -27,19 +35,43 @@ assignments:
       Christianity - directly relevant to the class-meeting's own
       soul-searching practice this world's ecology centers on.
 
-  - work: "Sermons on Several Occasions, Vol. I (Sermons III-XII and following,
-      on sleeping/waking, scriptural Christianity, justification, the witness
-      of the Spirit, and related themes)"
+  - work: "Sermons on Several Occasions, Vol. I (Sermon III, '\"Awake, Thou
+      That Sleepest\"')"
+    author: wesley-charles
+    locus: "heading at line 1204; sermon text through line ~1669. This
+      sermon's own footnote 6 (lines 8298-8299) states: 'Preached on
+      Sunday, April 4, 1742, before the University of Oxford, by the Rev.
+      Mr. Charles Wesley' - it is Charles Wesley's own sermon, printed in
+      John's collection, not John's own composition"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      Genuinely Charles Wesley's own preached prose voice - the one place
+      in this world's corpus where his own words survive outside the
+      hymns. Corrects a round-1 misattribution to John's voice (Doc_02
+      Independent Review Round 1, P1).
+
+  - work: "Sermons on Several Occasions, Vol. I (Sermons IV-XVI, on scriptural
+      Christianity, justification, the witness of the Spirit, the means of
+      grace, and related themes)"
     author: wesley-john
-    locus: "lines 1176-8855 (end of volume); individual sermon headings at
-      lines 1176, 1642, 2254, 2739, 3211, 3615, 4055, 4597, 5071, 5543 and
-      onward"
+    locus: "individual sermon headings, independently verified line-by-line
+      this round: Sermon IV line 1670, V line 2282, VI line 2767, VII line
+      3239, VIII line 3643, IX line 4083, X line 4625, XI line 5099, XII
+      line 5571, XIII line 5971, XIV line 6467, XV line 7039, XVI ('The
+      Means of Grace') line 7595, running to the volume's own end"
     atlas_ids:
       - the-methodist-revival
     role: tradition
     confidence: provisional
     note: >
-      Grouped rather than itemized this pass - each sermon's own heading and
-      Scripture text was verified present at the cited line (see this
-      world's Doc_02), but individual sermon-by-sermon quotability review is
-      Doc_03+ scope, not performed here.
+      This volume holds Sermons I-XVI of Wesley's Forty-Four Standard
+      Sermons (not I-XII as round 1 stated - a real counting error, found
+      and corrected at independent review) - Sermon III is Charles's own
+      (its own row, above), so 15 of these 16 are John's. The remaining
+      ~29 sermons of the full Forty-Four are in this collection's later
+      volumes, not vendored (Manifest item G2). Grouped rather than
+      itemized by individual content this pass; sermon-by-sermon
+      quotability review is Doc_03+ scope.

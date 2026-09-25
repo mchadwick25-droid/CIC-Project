@@ -1,17 +1,27 @@
 # Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
-# source-acquisition pass.
+# source-acquisition pass. Revised 2026-09-25 (round 2, post independent
+# review): reattributed from wesley-john to a collective author slug.
+# The vendored text's own Advertisement states the Conference "carefully
+# revised the Rules drawn up and left us by our late venerable Father in
+# the Gospel" (i.e. Wesley, already deceased) and the Q&A text itself
+# refers to him in the third person past tense throughout ("the late Mr.
+# Wesley") - this is the post-Wesley Conference's own institutional
+# voice compiling and updating inherited material, not Wesley's own
+# first-person voice, even though the content originates with him.
+# Independently re-verified against the file this round (Doc_02
+# Independent Review Round 1, P1).
 source_file: wesley-j_large-minutes_1850.txt
 
 assignments:
   - work: "Minutes of Several Conversations (the Large Minutes) - Section I,
       'The Design of God in Sending the Methodist Preachers,' and Section II,
       'The Rise of Methodism'"
-    author: wesley-john
-    locus: "lines 359-390; the Rise-of-Methodism catechism question begins
-      line 379 - note: this reprint's own OCR misreads the year '1729' as
-      '1/29' (line 380), a character-level digit error, not this world's own
-      claim; the correct year, independently well attested (the 'Holy Club'
-      at Oxford), is 1729"
+    author: wesleyan-conference
+    locus: "lines 359-386; the Rise-of-Methodism catechism question begins
+      line 379 and runs through line 386 - note: this reprint's own OCR
+      misreads the year '1729' as '1/29' (line 380), a character-level
+      digit error, not this world's own claim; the correct year,
+      independently well attested (the 'Holy Club' at Oxford), is 1729"
     atlas_ids:
       - the-methodist-revival
     role: tradition
@@ -19,5 +29,7 @@ assignments:
     note: >
       The connexion's own catechism-form self-account of its own origin and
       purpose - "messengers sent... to reform the nation, by spreading
-      scriptural holiness over the land" - directly quotable, own-voice
-      throughout (no opponent voice mixed in).
+      scriptural holiness over the land." Institutional (Conference) voice,
+      not Wesley's own first-person voice, though it speaks about him and
+      inherits his own original 1743-89 catechism structure - see this
+      file's own header note. No opponent voice mixed in.
