@@ -60,8 +60,8 @@ description: "This is the systematic form that the general theme of spiritual co
   same narrowness, because a system held by one circle made a clear target that could be singled out.
 
 
-  This connection does not make the pattern's own standing among this world's central patterns any stronger. It only
-  shows the outcome that narrowness would already predict. None of the four main forces named for this world shows a
+  This link does not decisively confirm where the pattern sits among this world's patterns. It is only the historical
+  outcome that the pattern's narrowness would predict. None of the four main forces named for this world shows a
   demonstrated link to this pattern; this link comes from a wider set of forces."
 classification: supporting
 manifestations:
