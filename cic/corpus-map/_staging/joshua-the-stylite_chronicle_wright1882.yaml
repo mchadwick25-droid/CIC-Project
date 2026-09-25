@@ -1,0 +1,28 @@
+source_file: joshua-the-stylite_chronicle_wright1882.txt
+
+assignments:
+  - work: "The Chronicle of Joshua the Stylite"
+    author: joshua-the-stylite
+    locus: "whole work (single-work volume)"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Composed 507 CE, describing 494/5-506 (the Anastasian War and its
+      build-up, centered on Edessa) - inside this world's window and its
+      core city, but role marked `context`, not `tradition`, on the same
+      open-question footing the Chronicle of Edessa already carries in
+      this bucket (see worlds/_cross-world/NEEDS-RULING.md). The
+      chronicler's own theological allegiance is not established either
+      way from a first pass: unlike the Chronicle of Edessa (explicitly
+      Chalcedonian, per its own introduction), this chronicle is largely
+      civic and military in focus and does not obviously argue either
+      side of 451. Authorship itself is traditional, not secure - the
+      text survives only embedded in the later Chronicle of Zuqnin
+      (c. 775), which names a monk called Joshua; modern scholarship
+      does not treat this as a settled identification. Whether this
+      belongs at `tradition` (an Edessene voice from inside the world's
+      own core territory, whatever the chronicler's own confession) or
+      stays `context` (an outside civic record, like the Chronicle of
+      Edessa) is a live open question for Doc_02, not resolved here.

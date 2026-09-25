@@ -217,6 +217,27 @@ ACCEPTED_OPEN: dict[str, str] = {
     # search_record records - the Search feature's own migration has not
     # reached rzg yet. Belongs to rzg's own build thread.
     "required-record-type/rzg/search_record": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
+
+    # wsyr OPENED 2026-09-25: registry-first (V1.8's own rule - the entry
+    # exists before any record reaches main) collides with this checker's
+    # assumption that every formation-kind entry is already built. wsyr
+    # (syriac-orthodox-west-syriac-christianity) cleared only the library
+    # stage (Step 0, Doc_01, Doc_02) this session; state is deliberately
+    # `library-stage`, not admitted/open/built, and it carries no
+    # Representative (an M1 checkpoint decision, after Doc_09, that a
+    # library-stage thread does not get to make), no package (nothing has
+    # been compiled yet), and none of the participant-facing wiring
+    # (app assets, table.html seat, site portrait page) a world earns once
+    # it is actually admitted. Every entry below is expected to disappear
+    # the moment a later build thread advances this world past the library
+    # stage and does that wiring for real - none of it should be filled in
+    # early just to silence this checker.
+    "registry-key-set/wsyr": "2026-09-25 library-stage handoff - wsyr has no doorway_place/doorway_description/package/representative yet (card_name was cheap and safe to add now); library-stage worlds precede the rest by design (V1.8 SS2); belongs to whichever build thread advances wsyr past Doc_02",
+    "package-pin/wsyr": "2026-09-25 library-stage handoff - wsyr has not been compiled; package.location/manifest_hash appear once a build thread actually runs the compiler",
+    "app-world-assets/wsyr": "2026-09-25 library-stage handoff - wsyr is not yet admitted; adding app-side world assets now would offer a seat with no Representative behind it",
+    "app-world-order/wsyr": "2026-09-25 library-stage handoff - same reasoning as app-world-assets/wsyr",
+    "site-portrait/wsyr": "2026-09-25 library-stage handoff - no traditions page exists yet; belongs to the same later admission work as app-world-assets/wsyr",
+    "table-html-world/wsyr": "2026-09-25 library-stage handoff - not yet offered as a Table seat on purpose; belongs to the same later admission work as app-world-assets/wsyr",
 }
 
 

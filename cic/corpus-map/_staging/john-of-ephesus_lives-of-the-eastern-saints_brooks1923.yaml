@@ -1,0 +1,52 @@
+source_file: john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt
+
+assignments:
+  - work: "Lives of the Eastern Saints"
+    author: john-of-ephesus
+    locus: "whole work (58 chapters, Patrologia Orientalis 17-19); ch. 49 directly verified"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Fifty-eight portraits of miaphysite ascetics, bishops and confessors
+      by an insider - John of Ephesus (c. 507-588) was himself a Miaphysite
+      bishop, missionary and historian, and a personal acquaintance of many
+      of his subjects. This world's single richest inside-voice source.
+
+      Directly verified against the file, not assumed from a summary: ch.
+      49, "The Forty-Ninth History, of the Blessed James the Bishop and
+      Brave and Valiant Combatant" (line 26185), is the portrait of Jacob
+      Baradaeus - Brooks' translation renders his name "James," not
+      "Jacob," a naming variance any record citing him should carry
+      forward. The chapter confirms: his origin at Thella and training at
+      the monastery of "Psiltha"/"Fsiltha" (OCR-uncertain vowel; matches
+      the modern scholarly "Pesilta"); c. 15 years' quiet residence at
+      Constantinople under the believing queen's (Theodora's) protection
+      before consecration; joint consecration with a second bishop,
+      Theodore, for "Hirtha of the Saracens" (the Ghassanid capital),
+      confirming the Ghassanid-Arab federate connection; and, in the
+      footnote at line 26301, the direct etymology of his nickname:
+      "Prom [From] this attire he got the nickname 'Burd'ava' or
+      'Burd'ana' (the man of the patchwork garment)" - confirming
+      "Baradaeus" derives from a real, attested patchwork/felt garment,
+      cut by James himself from "one thick and ugly cloak of withes" for
+      both clothing and covering. The census's own pre-drafted story
+      ("The Bishop in the Horse-Blanket") calls this garment a
+      "horse-blanket"/"horse-cloth" - that specific image is not what this
+      passage itself says (it describes a cut cloak, not a horse
+      accoutrement); whoever writes the eventual quote/story record should
+      use the passage's own wording rather than the pre-drafted teaser's
+      color.
+
+      Not yet independently located in this file: ch. 47, which the
+      census's second pre-drafted story cites (on the Tralles/Asia Minor
+      pagan mission) as a second witness alongside the Ecclesiastical
+      History's own account (verified there instead - see that file's
+      corpus-map entry). A task for whoever next works this file closely.
+
+      OCR caveat, stated once here rather than on every row: this edition
+      interleaves Syriac-script and English-translation text; large
+      stretches OCR as unreadable Syriac-script garbage. Only English
+      stretches are quotable; each citation needs its own locus check
+      before use (see REGISTRY.yaml entry for this file).

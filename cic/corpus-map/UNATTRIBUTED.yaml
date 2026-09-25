@@ -849,6 +849,22 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  pseudo-zachariah-rhetor:
+    kind: pseudonymous
+    evidence: 'The received Chronicle is a composite: Books III-VI derive from the historical
+      Zacharias Scholasticus of Gaza (a Chalcedonian lawyer-historian, d. after 536), but
+      the whole surviving compilation - the books around them, and the arrangement itself
+      - is the work of an anonymous continuator/compiler writing c. 569, who used Zacharias''
+      own material without being Zacharias himself. Modern scholarship (Greatrex, Phenix &
+      Horn, The Chronicle of Pseudo-Zachariah Rhetor, Translated Texts for Historians 55,
+      Liverpool University Press, 2011 - not vendored here, still in copyright) names the
+      whole compilation "Pseudo-Zachariah Rhetor" on this basis. Hamilton & Brooks'' 1899
+      edition (the one vendored here) predates that authorship analysis and titles the work
+      simply for Zachariah; this ruling uses the modern, more accurate slug rather than the
+      older edition''s own title-page attribution.
+
+      '
+    from_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
   pseudo_ignatius:
     kind: pseudonymous
     evidence: 'The volume''s own apparatus at div2 5.13, "Introductory Note to the Spurious

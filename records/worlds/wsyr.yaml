@@ -1,0 +1,26 @@
+# Registry entry created at Doc_01 time (library stage, Steps 0-2), per
+# V1.8's registry-first rule: this file exists, with one world_id, before
+# any of this world's records reach main. Everything below reflects where
+# the build actually stands as of the library-stage handoff (Steps 0-2
+# cleared; Phase B record-native authoring has not started) - it is not a
+# claim that this world is built, admitted, or ready for a participant.
+#
+# `state: library-stage` is deliberately outside the registry's own
+# admitted/open/built vocabulary (engine/m1/registry.py) so this world is
+# never picked up by any "is this world live" gate until a later session
+# actually advances it there.
+#
+# `representative` is not set. Representative identity is an M1
+# checkpoint/escalation-category decision (grounded-options format, the
+# project lead directly) that happens after Doc_09 - a library-stage build
+# thread does not get to name or hint at one.
+kind: formation
+world_id: syriac-orthodox-west-syriac-christianity
+display_name: "Syriac Orthodox (West Syriac) Christianity"
+card_name: "Syriac Orthodox Christianity"
+time_window: {start: 451, end: 636}
+place: "Syria and Mesopotamia under Roman/Byzantine rule - Antioch, Edessa, Amida, and the Ghassanid Arab phylarchate's own territory along the desert frontier"
+state: library-stage
+census_id: "syriac-orthodox-west-syriac-christianity"
+thinness_statement: "PROVISIONAL, Step 0-2 level only - not yet tested against a completed Doc_04/gravity pass. Richest in one insider historian's own testimony (John of Ephesus, both his Lives of the Eastern Saints and his Ecclesiastical History Part III) and one patriarch-in-exile's own administrative correspondence (Severus of Antioch, Select Letters Book VI); thinner on ordinary lay believers' own words, on women's voices specifically (Theodora and the Ghassanid court appear mainly as patrons in others' narration, not as attested first-person voices), and on the movement's own liturgical life as lived rather than described by a chronicler."
+living_tradition_flag: true

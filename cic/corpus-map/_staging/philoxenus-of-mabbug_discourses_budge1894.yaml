@@ -1,0 +1,22 @@
+source_file: philoxenus-of-mabbug_discourses_budge1894.txt
+
+assignments:
+  - work: "The Discourses of Philoxenus"
+    author: philoxenus-of-mabbug
+    locus: "whole work (13 discourses, Vol. II translation)"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Philoxenus (c. 440-523), bishop of Mabbug 485-519, was one of the
+      movement's leading anti-Chalcedonian theologians and polemicists,
+      deposed and exiled by Justin I in 519 for that stance - his
+      episcopate and his role in the movement sit squarely inside this
+      world's own window even though his birth (c. 440) precedes its 451
+      opening. The Discourses themselves are ascetic-spiritual homilies on
+      the monastic life, not Christological polemic - a different genre
+      from his doctrinal letters and florilegia (not vendored here), so a
+      source record citing him for Christological argument specifically
+      should look elsewhere in his corpus, not assume this volume carries
+      it.

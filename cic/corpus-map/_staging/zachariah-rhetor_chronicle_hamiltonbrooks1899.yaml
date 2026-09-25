@@ -1,0 +1,49 @@
+source_file: zachariah-rhetor_chronicle_hamiltonbrooks1899.txt
+authors_ruled:
+  pseudo-zachariah-rhetor:
+    kind: pseudonymous
+    evidence: >
+      The received Chronicle is a composite: Books III-VI derive from the
+      historical Zacharias Scholasticus of Gaza (a Chalcedonian
+      lawyer-historian, d. after 536), but the whole surviving compilation
+      - the books around them, and the arrangement itself - is the work
+      of an anonymous continuator/compiler writing c. 569, who used
+      Zacharias' own material without being Zacharias himself. Modern
+      scholarship (Greatrex, Phenix & Horn, The Chronicle of
+      Pseudo-Zachariah Rhetor, Translated Texts for Historians 55,
+      Liverpool University Press, 2011 - not vendored here, still in
+      copyright) names the whole compilation "Pseudo-Zachariah Rhetor" on
+      this basis. Hamilton & Brooks' 1899 edition (the one vendored here)
+      predates that authorship analysis and titles the work simply for
+      Zachariah; this ruling uses the modern, more accurate slug rather
+      than the older edition's own title-page attribution.
+
+assignments:
+  - work: "The Syriac Chronicle known as that of Zachariah of Mitylene"
+    author: pseudo-zachariah-rhetor
+    locus: "whole compilation (Books I-XII as received; see note)"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: provisional
+    note: >
+      A composite work, not one author's own voice throughout. Books
+      III-VI derive from the historical Zacharias Scholasticus of Gaza (a
+      Chalcedonian lawyer-historian, and Severus of Antioch's own former
+      fellow-student and biographer - his separate Life of Severus is not
+      vendored here); the surrounding books were assembled, translated
+      and continued by an anonymous Syriac writer working c. 569, whom
+      modern scholarship calls "Pseudo-Zachariah Rhetor" for exactly this
+      reason (the Greatrex/Phenix/Horn 2011 Translated Texts for
+      Historians edition uses that name in its own title; this 1899
+      edition predates that analysis and simply names Zachariah). The
+      compilation as a whole documents the anti-Chalcedonian side's own
+      history sympathetically in its continuator's material - real
+      material for this world - but `role: tradition` at `confidence:
+      provisional` for the WHOLE work overstates what is actually known
+      before a book-by-book pass: Zacharias' own Chalcedonian sections are
+      closer to `context`/opponent-voice than to this world's own voice,
+      even where they report on Severus and other Miaphysite figures
+      sympathetically as a personal friend. Own-voice/opponent-voice
+      tagging book-by-book, not a single whole-work role, is Doc_02's own
+      task here - named explicitly rather than left implicit.
