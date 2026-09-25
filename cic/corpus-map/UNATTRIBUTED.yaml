@@ -266,6 +266,20 @@ authors:
 
       '
     from_file: chronicle-of-edessa_cowper.txt
+  church-of-england-anon-1687:
+    kind: anonymous
+    evidence: 'No author is named on the title page or anywhere in the body text. The vendored
+      file was originally mis-filed under `bellarmine` (the filename and archive.org item
+      title both misattribute it to Robert Bellarmine), but the text is a Church of England
+      tract series refuting Bellarmine''s own "Notes of the Church" one by one - each section
+      headed "The [Nth] Note of the Church EXAMINED," quoting Bellarmine''s own Latin as the
+      claim under examination (e.g. "Secunda Nota est Antiquitas. Bellar. L.iv, c.v, de Notis
+      Ecclesiae"), carrying Anglican imprimaturs ("IMPRIMATUR... Battely," dated 1687-89),
+      and speaking in the first person as "we Protestants." Printed in London for Richard
+      Chiswell, 1687-88.
+
+      '
+    from_file: bellarmine_notes-of-the-church_1688.txt
   church_brodribb:
     kind: metadata-omission
     evidence: 'The file is plain text and its transcription names no translator - it opens

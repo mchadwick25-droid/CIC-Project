@@ -192,14 +192,17 @@ works:
 
     '
   source_file: nadal_scholia-in-constitutiones-lat_1883.txt
-- work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Vol.
-    I
+- work: Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's Chronicon), Tomus
+    V (covering the year 1555)
   author: polanco
-  locus: whole volume
+  locus: whole volume - Tomus V only, covering 1555; not Vol. I as the filename and archive.org
+    item title suggest
   role: context
   confidence: assigned
-  note: 'Ignatius''s own secretary''s historical chronicle. Vendored 2026-09-25 as part of
-    a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+  note: 'Ignatius''s own secretary''s historical chronicle. This volume opens "TOMUS QUINTUS
+    (1555)" in its own body text - it covers only 1555, not the order''s founding period a
+    "Vol. I" label would suggest. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+    source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text can be primary evidence directly, verified against the vendored file,
     since it is primary to the movement regardless of language; the scan is clean, not flagged
     under Mark''s OCR ruling "a."

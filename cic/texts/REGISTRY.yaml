@@ -3083,9 +3083,12 @@
   date_added: '2026-09-25'
   notes: >-
     Vita Ignatii Loiolae et Rerum Societatis Jesu Historia (Polanco's
-    Chronicon), Vol. I (MHSI, 1894). Explicit NOT_IN_COPYRIGHT confirmed on
-    archive.org item vitaignatiiloio01polagoog. Ignatius's own secretary's
-    historical chronicle.
+    Chronicon), Tomus V, covering the year 1555 (MHSI, printed 1897) -
+    not "Vol. I" as the filename and archive.org item title suggest; the
+    body text itself opens "TOMUS QUINTUS (1555)". Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item
+    vitaignatiiloio01polagoog. Ignatius's own secretary's historical
+    chronicle, this volume covering only 1555.
 - filename: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
@@ -3137,9 +3140,16 @@
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
-    The Notes of the Church (De Notis Ecclesiae), Robert Bellarmine (1688). pd-
-    us-by-date. Bellarmine's own direct English-language answer to Protestant
-    claims about the marks of the true Church.
+    Not Bellarmine's own work. A 1687-88 Church of England tract series
+    examining and refuting each of Bellarmine's own "Notes of the Church"
+    (De Notis Ecclesiae) in turn - confirmed directly against the file:
+    each section is headed "The [Nth] Note of the Church EXAMINED,"
+    quotes Bellarmine's own Latin as the claim under examination (e.g.
+    "Secunda Nota est Antiquitas. Bellar. L.iv, c.v, de Notis Ecclesiae"),
+    carries Anglican imprimaturs ("IMPRIMATUR... Battely," dated 1687-89),
+    and speaks in the first person as "we Protestants." Printed in London
+    for Richard Chiswell, 1687. pd-us-by-date. Opponent voice, not this
+    world's own tradition.
 - filename: pius-v_apostolicarum-epistolarum-lat_1640.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
