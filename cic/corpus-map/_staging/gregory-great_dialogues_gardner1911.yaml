@@ -1,0 +1,29 @@
+source_file: gregory-great_dialogues_gardner1911.txt
+
+assignments:
+  - work: "The Dialogues of Saint Gregory, surnamed the Great (all four Books)"
+    author: gregory
+    locus: "whole text - Book I (Italian abbots and monks), Book II (the Life
+      of St. Benedict of Nursia), Book III (Italian bishops and martyrs),
+      Book IV (the immortality of the soul)"
+    atlas_ids:
+      - roman-church-gregorian
+    role: tradition
+    confidence: assigned
+    note: >
+      Gregory's own hagiographical/theological dialogues, tr. "P.W." (1608),
+      re-ed. Gardner (1911). Vendored 2026-09-24, a verified acquisition lead
+      from roman-church-gregorian_Source_Readiness_Dossier.md §3, re-verified
+      directly against archive.org (explicit NOT_IN_COPYRIGHT) rather than
+      taken on the dossier's own note alone. Tradition per this entry's own
+      standing rule for Gregory's own voice (see the Register and Pastoral
+      Rule rows already here): this is Gregory speaking, not a description of
+      him. Book II is the only surviving Life of St. Benedict of Nursia -
+      confirmed directly against this file's own contents (Book I ends,
+      "The Second Book", headed "Of the Life and Miracles of St. Bennet",
+      begins immediately after) - and is a real, not yet acted-on, potential
+      cross-link to early-benedictine-italian-monasticism (whose own census
+      entry names Gregory as the author of "the only life of Benedict there
+      is"); left unassigned there per this session's own scope (Doc_02's or
+      the project lead's call, not decided here), and per the dossier's own
+      open question at §5 about the overlap between these two entries.
