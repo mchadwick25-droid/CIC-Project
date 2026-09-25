@@ -32,13 +32,12 @@ works:
     real origin/main), and the 2026-09-25 ruling was real and already merged to real origin/main.
     After merging origin/main (commit 169dc5cb) and independently re-reading the real INTAKE.md,
     primary-evidence status is restored here. Two real quotability caveats remain, independent
-    of that question: this file carries roughly ninety bracketed modern-Russian editorial
-    glosses interpolated into the running text - strip before quoting - and this transcription''s
-    own chain from manuscript to critical edition to az.lib.ru to Wikisource has not been
-    independently verified hop by hop (az.lib.ru itself was unreachable from this session).
-    Quotability flag: primary evidence in its own right; verbatim-ready where clean of the
-    bracketed glosses, second-witness cross-check elsewhere. See this world''s Doc_02 and
-    Open_Gaps_Tracking.md.
+    of that question: this file carries 116 bracketed modern-Russian editorial glosses interpolated
+    into the running text - strip before quoting - and this transcription''s own chain from
+    manuscript to critical edition to az.lib.ru to Wikisource has not been independently verified
+    hop by hop (az.lib.ru itself was unreachable from this session). Quotability flag: primary
+    evidence in its own right; verbatim-ready where clean of the bracketed glosses, second-witness
+    cross-check elsewhere. See this world''s Doc_02 and Open_Gaps_Tracking.md.
 
     '
   source_file: avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt

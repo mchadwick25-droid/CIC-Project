@@ -759,3 +759,113 @@ hygiene items above, that recommendation is still the better use of the next
 pass than another combined sweep.
 
 Reviewer modified no file other than creating this one.
+
+---
+
+# 10. Correction, 2026-09-25 — this recheck confirmed two findings that were themselves stale-checkout artifacts
+
+**§2's verdicts on Findings 2, 3 and 20 are wrong, and §5(f) is wrong. This
+section corrects them.** The error is mine, it is substantive, and it runs
+the same direction as the error it was checking.
+
+**What actually happened.** The checkout this recheck ran against was
+roughly 150 commits behind real `origin/main` (merge-base `41afa0f8`).
+Both of the things Round 1 found missing were already merged to
+`origin/main` before the drafting session began:
+
+- **`cic/texts/INTAKE.md` does carry a 2026-09-25 ruling**, and it says
+  what the "fabricated" citation said it said. Verified directly on a
+  current checkout: "**A clean public-domain original can be primary
+  evidence (Mark's ruling, 2026-09-25).** Language is not what decides
+  whether a source is primary — credibility and truth are." It explicitly
+  "replaces this file's own prior framing (in force 2026-09-02 through
+  2026-09-25) that an original-language text was a second witness by
+  definition."
+- **`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`
+  exists.** Verified by directory listing on a current checkout.
+
+So Round 1's Finding 2 was not a fabrication finding. The drafting
+thread's citation was correct, and the 2026-09-02 rule that Round 1
+quoted against it as "INTAKE.md's real rule" was the *superseded* one.
+Finding 3 fell with it: Doc_01 §4's use of the Russian witness as
+evidence in its own right was licensed all along. Finding 20 was not a
+governance failure either: the spec was in the tree, on `main`.
+
+**What my recheck did with that.** It confirmed the removals as CLOSED,
+and §5(f) reported — as an independent check, in bold, as the thing I had
+verified "directly rather than taken from the revision's account" — that
+`grep -n "2026-09-25" cic/texts/INTAKE.md` returned no matches. That grep
+did return no matches. It was run against a stale file, and I did not
+test whether the file was current. Checking a claim carefully against the
+wrong artifact is not independent verification; it is the appearance of
+it, which is worse, because §5(f) is written to be relied on.
+
+The evidence to catch this was in front of both reviews. Round 1's own §5
+documented that the checkout was a shallow `--depth 50` single-branch
+clone whose `git log --all` could not see the commits Open_Gaps entry 7
+named, and concluded "I cannot confirm those commits exist." The
+available conclusion was the other one: a checkout that cannot see
+`main` cannot establish that something is absent from `main`. Absence of
+evidence in a shallow clone is not evidence of absence. I inherited
+Round 1's framing and re-ran its grep instead of questioning its premise
+— which is precisely the failure this recheck was commissioned to look
+for, committed by the recheck.
+
+**Consequence worth stating plainly.** Finding 2 accused the drafting
+thread of this project's most serious recognized failure category, on a
+stale artifact, and the accusation was ratified here. Acting on it
+deleted a correct citation from six live locations and downgraded a
+correctly-classified primary source to second-witness status. The
+build-cycle skill's rule that a finding is "never dismissed as a tooling
+or environment artifact… without independent re-verification that
+actually confirms the dismissal" protected the finding from being waved
+away — it does not protect a finding from having been *asserted* on an
+environment artifact, and this package now shows that the converse needs
+the same discipline: before a review reports that something required is
+absent from the tree, it should establish that its checkout represents
+the tree.
+
+**Corrected verdicts:**
+
+| # | Round 1 finding | Corrected verdict |
+|---|---|---|
+| 2 | Fabricated INTAKE.md citation (blocking) | **WITHDRAWN — not a valid finding.** The ruling exists and says what was cited. The citation was correct; its removal was the error, since reversed. |
+| 3 | Doc_01 §4 used the Russian as free-standing evidence (blocking) | **WITHDRAWN — dependent on Finding 2.** The use was licensed by the real ruling. |
+| 20 | Canonical documents governed by a spec not in the tree (blocking) | **WITHDRAWN — not a valid finding.** V1.8 is in the tree on `main`. The re-grounding onto V1.5 was unnecessary and has been reversed. |
+| 13 | Bracketed-gloss count | **CLOSED, and the corrected figure re-confirmed: 116.** Note for anyone re-measuring: a bracket count over the *whole* file now returns 118, because the provenance header added upstream quotes two glosses (`[правое]`, `[потому что]`) as examples. The body carries 116. |
+
+Round 1's remaining three blocking findings (1, 21, 22) stand: the p. 34
+Creed-wording passage, Step 0's disposition on a nonexistent review file,
+and Open_Gaps entry 8's pointer were all established against files that
+are not checkout-sensitive, and I re-verified all three again here.
+
+**The four items §1 left blocking are fixed, and I have now confirmed
+them against a current checkout** — the confirmation `Open_Gaps_Tracking.md`
+entry 17 said was owed and that I could not supply myself. The build
+thread's own commit (`7f728693`) fixed all four, plus every non-blocking
+item in §7: the gloss count, the transcription convention (stated once at
+Doc_02 §7), Doc_01 §8's scope statement, `imperial-juridical-christianity`
+in the same-lane enumeration, the filioque ellipsis split into its two
+real fragments, and Doc_02 §5's holdings claims corrected to the tooling
+as it actually runs post-merge. Verified on the current checkout: no
+revision narration survives in the Registry body, the Registry has a
+proper Document Log, no document points at a "final handoff report",
+Open_Gaps entry 10's original text is intact, and no document
+self-disposes. All thirteen quotations re-verify exactly against the
+re-headered vendored files, and all six page loci re-derive correctly
+(pp. 33, 34, 80, 120, 121, 156).
+
+**One new finding of my own, fixed in the same commit as this
+correction.** `cic/corpus-map/the-old-believers.yaml` — a generated,
+live/canonical surface — still carried "roughly ninety" while its own
+staging file carried the corrected 116, and
+`corpus_map_merge.py --check` reported clean, because `--check`
+validates assignment structure and does not detect drift in a `note`
+field. The bucket is regenerated from staging. Worth knowing generally:
+a clean `--check` is not evidence that a generated bucket matches its
+staging source in its prose fields.
+
+*Correction written against `8fd7787f` plus this commit. My superseded
+local commit fixing the four items (`f2f0d78`) was discarded rather than
+pushed: every change in it was already made upstream, and it would have
+re-imposed the second-witness over-correction this correction withdraws.*
