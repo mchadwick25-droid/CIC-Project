@@ -17,7 +17,7 @@ sources:
   locus: "SS68 - refusal of Arian and Melitian communion at our own mountain; SS69 - summoned to Alexandria, publicly teaching the Nicene position; SS72-79 and SS80 - a separate public disputation with visiting Greek philosophers at our own mountain"
   license: public-domain
 - source_id: desert.quote.antony-nicene-formula
-  locus: "verbatim quote used"
+  locus: "paraphrase source (Nicene formula, Vita SS69)"
   license: public-domain
 canon_question_id: _fleet.canon.c-t-01
 exchange:

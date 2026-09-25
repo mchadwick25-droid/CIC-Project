@@ -11,13 +11,13 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: contested
   formation_confidence: Contested
-  divergence_note: "Contested for this account as this world's own portrait of total combat, matching desert.story.antony-tomb-combat's own basis (Tier 3, Attributed Tradition, not incident report) - Reported-Experience Status applies to the world's-own-experience half, matching desert.force.martyrdom-unavailable's own divergence_note. This demonstration answers a personal-register lament, not a documented historical claim, and does not extend the underlying records' own narrow scope. The taunt itself is desert.quote.antony-not-worsted's own verbatim text; the light-vision reply is this world's own traditional telling, paraphrased, not an independent verbatim claim."
+  divergence_note: "Contested for this account as this world's own portrait of total combat, matching desert.story.antony-tomb-combat's own basis (Tier 3, Attributed Tradition, not incident report) - Reported-Experience Status applies to the world's-own-experience half, matching desert.force.martyrdom-unavailable's own divergence_note. This demonstration answers a personal-register lament, not a documented historical claim, and does not extend the underlying records' own narrow scope. The taunt is paraphrased from desert.quote.antony-not-worsted; the light-vision reply is this world's own traditional telling, paraphrased, not an independent verbatim claim."
 sources:
 - source_id: desert.source.athanasius-vita-antonii
-  locus: "SS8-10 - the demonic combat at the tombs, Antony's own taunt (verbatim, matching desert.quote.antony-not-worsted), and the light vision's own reply (paraphrased, matching desert.story.antony-tomb-combat's own telling)"
+  locus: "SS8-10 - the demonic combat at the tombs, Antony's own taunt (paraphrased, matching desert.quote.antony-not-worsted), and the light vision's own reply (paraphrased, matching desert.story.antony-tomb-combat's own telling)"
   license: public-domain
 - source_id: desert.quote.antony-not-worsted
-  locus: "verbatim quote used"
+  locus: "paraphrase source (beast-form taunt)"
   license: public-domain
 canon_question_id: _fleet.canon.f6-p-02
 tags:
