@@ -132,6 +132,7 @@ jobs:
       site: ${{ steps.filter.outputs.site }}
       crossworld: ${{ steps.filter.outputs.crossworld }}
       checkertests: ${{ steps.filter.outputs.checkertests }}
+      docker: ${{ steps.filter.outputs.docker }}
     steps:
       - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v3
@@ -196,6 +197,18 @@ jobs:
             # gen_needs_ruling.py.
             checkertests:
               - 'tools/**'
+              - '.github/workflows/**'
+            # docker-build on pull_request runs only for changes that can
+            # break image assembly (the Dockerfile itself, the pinned
+            # requirement files it installs, the frontend it builds, the M2
+            # restore it runs). Every push to main/live still builds.
+            docker:
+              - 'engine/Dockerfile'
+              - '.dockerignore'
+              - 'engine/api/requirements.txt'
+              - 'engine/m1/requirements.txt'
+              - 'engine/m2/**'
+              - 'cic-poc/frontend/**'
               - '.github/workflows/**'
 
   # Two jobs were removed 2026-08-24: "Repository views current (all six
@@ -411,10 +424,11 @@ jobs:
   # share the WIDER `engine == 'true' || library == 'true'` condition (not
   # `engine`-only), so folding them into engine-tests would have
   # force-widened M1/prose/canon/etc. onto library-only commits they don't
-  # currently run on. NOT gated on draft status - not asked for.
+  # currently run on. Draft-gated on pull_request events like engine-tests;
+  # unconditional on push.
   staleness-and-confinement:
     needs: changes
-    if: needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true'
+    if: (needs.changes.outputs.engine == 'true' || needs.changes.outputs.library == 'true') && (github.event_name != 'pull_request' || github.event.pull_request.draft == false)
     name: M2 staleness + M9 confinement
     runs-on: ubuntu-latest
     steps:
@@ -503,7 +517,7 @@ jobs:
 
   docker-build:
     needs: changes
-    if: (needs.changes.outputs.engine == 'true' || needs.changes.outputs.frontend == 'true') && (github.event_name != 'pull_request' || github.event.pull_request.draft == false)
+    if: github.event_name == 'push' || (needs.changes.outputs.docker == 'true' && github.event.pull_request.draft == false)
     # Added: engine/Dockerfile (PHASE-1-LAUNCH.md Stage 3 - "the container
     # builds"). GitHub Actions runners carry a real Docker daemon; the
     # sandbox this Dockerfile was originally written and verified in does
@@ -522,9 +536,8 @@ jobs:
     # test_health (TestClient + fake deps) - that is the right layer for
     # HTTP behavior; this job's job is only "does the image assemble."
     #
-    # Draft-gated 2026-09-23 (see top-of-file comment #2) on pull_request
-    # events only - still unconditional on push, since push events have no
-    # `draft` field to check.
+    # On pull_request: runs only for non-draft PRs whose changes match the
+    # `docker` filter above. On push (main/live): always.
     name: Docker build (engine/Dockerfile)
     runs-on: ubuntu-latest
     steps:
