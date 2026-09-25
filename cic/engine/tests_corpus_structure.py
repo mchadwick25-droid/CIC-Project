@@ -35,7 +35,7 @@ results.append(check("a .txt file is returned byte-identical, not tag-stripped",
 
 lost_span_1 = salvian_raw[84411:139805]
 lost_span_2 = salvian_raw[144235:317304]
-results.append(check("a long span spanning several stray '<'/'>' characters survives verbatim",
+results.append(check("a long span running from a stray '<' to the next '>' survives verbatim",
                      len(lost_span_1) == 55394 and "How then can God be said to neglect" in lost_span_1))
 results.append(check("a second such span survives verbatim",
                      len(lost_span_2) == 173069 and "divine wrath is the punishment of the sinner" in lost_span_2))
