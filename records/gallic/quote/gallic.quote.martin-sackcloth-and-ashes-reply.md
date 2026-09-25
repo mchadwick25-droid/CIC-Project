@@ -49,7 +49,9 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.gravity.named-example
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  It is not right for a Christian to die anywhere but among ashes. If I leave you a different
+  example, I have sinned.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "I
 have sinned if I leave you a different example"` returns line 2466. Read in context at lines

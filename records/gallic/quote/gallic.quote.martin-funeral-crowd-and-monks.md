@@ -46,7 +46,12 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.death-of-martin-at-condate
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  It is hard to believe how many people gathered for his funeral. The whole city poured out to meet
+  his body. All the people of the surrounding district and villages came, along with many from
+  nearby cities too. Oh, how great was everyone's grief! How deep were the laments of the mourning
+  monks above all! It is said that almost two thousand of them gathered that day. This was a special
+  glory of Martin's. Through his example, so many plants had sprung up to serve the Lord.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "hardly credible what a multitude"` returns line 2487; `grep -n "for the service of the Lord"` returns

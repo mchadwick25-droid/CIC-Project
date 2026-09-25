@@ -53,7 +53,14 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.death-of-martin-at-condate
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Each person preferred to do the grieving himself and let the other rejoice. So this crowd, singing
+  the hymns of heaven, went with the holy man's body on to the place of burial. Set beside this
+  sight not just the worldly pomp of a funeral, but even that of a triumphal parade. What can be
+  counted equal to Martin's funeral? Let your great men of this world lead captives before their
+  chariots, hands tied behind their backs. Those who went with Martin's body had, under his
+  guidance, overcome the world. Let madness honor these earthly warriors with the joined praises of
+  nations. Martin is praised with the sacred psalms; Martin is honored in the hymns of heaven.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "each single person preferred that he himself should grieve"` returns line 2506; `grep -n "Martin is

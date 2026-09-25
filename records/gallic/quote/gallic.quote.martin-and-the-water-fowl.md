@@ -47,7 +47,10 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.martin
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Then Martin, with miraculous power in his words, commands the birds to leave the pool where they
+  were swimming. He orders them to go off to dry and deserted lands. He used on those birds the very
+  same authority he had long used to drive demons away.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "put demons to flight"` returns line 2406. Read in context at lines 2400-2406: the sentence opens

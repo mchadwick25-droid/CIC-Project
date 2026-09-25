@@ -47,7 +47,9 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.gravity.interior-road
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Let me, dear brother, keep my eyes on heaven rather than on earth. Then my spirit, just about to
+  set out on its own journey, may be turned toward the Lord.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "fix my looks rather on heaven"` returns line 2471. Read in context at lines 2468-2473: "And on being

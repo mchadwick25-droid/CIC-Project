@@ -53,7 +53,14 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.sulpitius
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Lord, the struggle of bodily warfare is fearsome indeed. Surely it is enough by now that I have
+  kept up the fight this long. But if you command me to go on in the same labor to defend your
+  flock, I do not refuse. Nor do I plead my failing years against such a post. I am wholly given to
+  you. I will carry out whatever duties you assign me. I will serve under your banner for as long as
+  you direct. Yes, release is sweet to an old man after long labor. Yet my mind has conquered my
+  years, and I have no wish to give in to old age. But if you now take pity on my many years, your
+  will for me is good, O Lord. You yourself will guard those whose safety I fear for.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Terrible, indeed, Lord, is the struggle"` returns line 2438; `grep -n "guard over those for whose

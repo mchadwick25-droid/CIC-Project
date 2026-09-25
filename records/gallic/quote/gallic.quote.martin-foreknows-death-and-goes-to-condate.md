@@ -51,7 +51,13 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.martin
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  I must say, then, that Martin knew the time of his own death long before it came. He told the
+  brothers that he would soon leave his body. Meanwhile, a reason arose that led him to visit the
+  church at Condate. The clergy of that church were quarrelling among themselves. Martin wanted to
+  restore peace there. He knew well that the end of his days was near. Yet he did not shrink from
+  making the journey for such a purpose. In fact, he thought that leaving behind him a church at
+  peace again would be a fine crown to set on his virtues.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "was aware of the period of his own death"` returns line 2380, opening the paragraph at

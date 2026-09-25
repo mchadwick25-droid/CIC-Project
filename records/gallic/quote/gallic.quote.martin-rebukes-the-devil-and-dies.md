@@ -52,7 +52,12 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.martin
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Why are you standing here, you bloodthirsty monster? You will find nothing in me, deadly one.
+  Abraham's bosom is about to receive me. As he spoke these words, his spirit left him. Those who
+  were there have told us that they saw his face as if it were the face of an angel. His limbs, too,
+  looked as white as snow. So people cried out, "Who would ever believe this man had been dressed in
+  sackcloth? Who would imagine he had been wrapped in ashes?"
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Abraham's bosom is about to receive me"` returns line 2476; `grep -n "enveloped with ashes"` returns

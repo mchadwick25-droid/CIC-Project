@@ -56,7 +56,16 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.figure.martin
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  He suddenly began to lose his bodily strength. He gathered the brothers and told them he was about
+  to die. Then sorrow and grief took hold of everyone. They all cried out with one voice, lamenting:
+  "Dear father, why will you leave us? To whom can you entrust us, when we are left so alone? Fierce
+  wolves will soon attack your flock. When the shepherd has been struck down, who will save us from
+  their bites? We know, of course, that you long to be with Christ. But your reward in heaven is
+  safe. Waiting will not make it any smaller. Have pity on us instead, for you are leaving us
+  alone." Martin was moved by their laments, for he was truly always full of compassion. He is said
+  to have burst into tears. He turned to the Lord and gave those weeping around him only this
+  answer: "O Lord, if your people still need me, I do not shrink from the work. Your will be done."
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "on the point of dissolution"` returns line 2414; `grep -n "thy will be done"` returns line 2430. Read

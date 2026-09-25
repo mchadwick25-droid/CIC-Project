@@ -48,7 +48,11 @@ relations:
   target: gallic.story.death-of-martin-at-condate
 - type: associated-with
   target: gallic.gravity.soldier-of-christ
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  No doubt the shepherd was then driving his own flocks before him. They were the pale crowds of
+  that holy multitude, bands dressed in cloaks. Some were old men whose life's labor was done.
+  Others were young soldiers who had just sworn their oath of loyalty to Christ. Then came the
+  company of virgins too, holding back their tears out of modesty.
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Undoubtedly the shepherd was then driving"` returns line 2495; `grep -n "abstaining out of modesty
