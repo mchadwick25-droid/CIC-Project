@@ -97,13 +97,6 @@ argument they came from. `don.story.bagai-reconciliation` already carries
 the same passage as narrative; this record carries it as attributable
 speech with the transmission stated.
 
-MODERN RENDERING re-authored: an earlier rendering dropped the "Seeing
-that..." causal framing and split the sentence into four disconnected
-statements, which V1.8's own rendering-fidelity graders (Haiku 4.5 and
-Sonnet 4.6, two runs each) both flagged as a summary rather than a
-translation. The current rendering carries every clause, including the
-causal link, in short single-thought sentences (longest 21 words), and
-cleared all four grading runs as translation. See
-`worlds/don/Open_Gaps_Tracking.md` OG-18 for the full finding and
-verification. Reciprocal relation declared on
+MODERN RENDERING re-authored: see `worlds/don/Open_Gaps_Tracking.md`
+OG-18 for what changed and why. Reciprocal relation declared on
 `don.dw.what-we-never-settled`.
