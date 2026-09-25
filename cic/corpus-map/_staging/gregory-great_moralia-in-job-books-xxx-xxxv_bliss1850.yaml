@@ -1,0 +1,17 @@
+source_file: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
+
+assignments:
+  - work: "Morals on the Book of Job (Moralia in Job), Books XXX-XXXV"
+    author: gregory
+    locus: "whole text - Vol. III, Second Part, Books XXX-XXXV (completing
+      the work)"
+    atlas_ids:
+      - roman-church-gregorian
+    role: tradition
+    confidence: assigned
+    note: >
+      Fourth and last of four parts vendored together 2026-09-24 to
+      complete the whole Moralia (Books I-XXXV, no gaps, no overlaps) - see
+      gregory-great_moralia-in-job-books-i-x_bliss1844.yaml's own note for
+      the full set and the dossier reference. Tradition per this entry's own
+      standing rule for Gregory's own voice.
