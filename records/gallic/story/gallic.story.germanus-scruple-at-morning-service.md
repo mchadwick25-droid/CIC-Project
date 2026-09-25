@@ -138,25 +138,10 @@ modern_contrast: >-
   and rain. The doctrine sat inside the formation life as a question about whether the practices
   accomplish anything, before anyone across the sea reported it as a party's position.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory013_germanus-scruple-at-morning-service.md
-(Tier 1, Marseilles node - Cassian's own experience, in Egypt; Registry rows 9 and 11). Story Text
-carried faithfully; the chunk's post-review corrections respected (M5: the Third Conference of
-Chaeremon; H3: Egyptian setting disclosed in the narrative). "Chaeremon" is spelled without the ligature
-for plain ASCII; the vendored volume prints the ae ligature. Germanus here is Cassian's companion, never
-Germanus of Auxerre (Registry row 44, Excluded, not drawn on). Row 43 (Salvian) is not cited, per its
-exclusion from grace-related material.
+"Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
+Germanus here is Cassian's own companion, never Germanus of Auxerre.
 
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as G3 - the grace-and-effort argument (Supporting at world
-level; Primary within the southern node; node-bound) at the moment the tradition's own text says it
-began - Doc_05 §2.4(v)'s load-bearing finding that "the argument this world became known for is, from
-within, an argument about whether the practices ... accomplish anything," and Doc_08 Force 2B-1's Layer
-1; G7 - the interior road meeting its own limit (the scruple is about purity); G4 - received, not
-invented in the form the argument would always take ("all the Catholic fathers," XIII.18); and G5 in
-its southern medium, a reported conference resting on the fact that Cassian heard Chaeremon.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates
-gallic.gravity.grace-and-effort; associated-with gallic.gravity.interior-road,
-gallic.gravity.received-not-invented, gallic.gravity.named-example - each connection named above,
-with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of those
-gravity records.
+The narrative's verbatim wording is carried in three quote records, each re-verified directly against
+the vendored npnf211 file: gallic.quote.germanus-troubled-after-the-nights-teaching (Conferences
+XIII.1), gallic.quote.germanus-and-chaeremon-on-the-husbandman (Conferences XIII.2-3), and
+gallic.quote.chaeremon-on-grace-and-free-will (Conferences XIII.13 and XIII.18).

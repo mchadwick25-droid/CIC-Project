@@ -72,30 +72,25 @@ tellable_as: >-
 text: >-
   The tradition Cassian set down for Gaul tells of a cook and three lentils.
 
-  In the coenobia of the East, the brethren serve by the week - "throughout the whole of Mesopotamia,
-  Palestine, and Cappadocia and all the East the brethren succeed one another in turn every week for
-  the performance of certain duties" - and when a week is done they wash the feet of all the brethren
-  and, on the Monday, "hand over to others who take their place the vessels and utensils with which
-  they have ministered, which these receive and keep with the utmost care and anxiety, that none of
-  them may be injured or destroyed, as they believe that even for the smallest vessels they must give
-  an account, as sacred things, not only to a present steward, but to the Lord." How far that care
-  goes, Cassian says, "you may see from one instance which I will give as an example."
+  In the coenobia of the East, the brethren serve the house by the week, taking turns at the same
+  duties across Mesopotamia, Palestine, Cappadocia, and the whole region (gallic.quote.weekly-service-
+  and-sacred-vessels). When a week ends, the departing server hands over the vessels and tools he used
+  to the brother taking his place, who then guards them with real care and anxiety - the brothers
+  believe that even the smallest vessel is sacred, and that an account for it is owed not only to the
+  steward on duty but to the Lord himself. Cassian offers one example of how far that care goes.
 
-  "During the week of a certain brother the steward passing by saw lying on the ground three lentil
-  beans which had slipped out of the hand of the monk on duty for the week as he was hastily preparing
-  them for cooking, together with the water in which he was washing them; and immediately he consulted
-  the Abbot on the subject; and by him the monk was adjudged a pilferer and careless about sacred
-  property, and so was suspended from prayer. And the offence of his negligence was only pardoned when
-  he had atoned for it by public penance."
+  During one brother's week as cook, the steward passing by saw three lentil beans lying on the ground.
+  They had slipped from the monk's hand, along with the water he was washing them in. The steward told
+  the Abbot at once. The Abbot judged the monk careless with sacred property, a pilferer, and suspended
+  him from prayer. Only public penance for the offense brought him pardon
+  (gallic.quote.three-lentils-and-the-lords-things).
 
-  The reason, the tradition gives in the same breath: "they believe not only that they themselves are
-  not their own, but also that everything that they possess is consecrated to the Lord. Wherefore if
-  anything whatever has once been brought into the monastery they hold that it ought to be treated with
-  the utmost reverence as an holy thing." And so, it says, they tend even to "things which are
-  considered unimportant or regarded as common and paltry, so that if they change their position and
-  put them in a better place, or if they fill a bottle with water, or give anybody something to drink
-  out of it, or if they remove a little dust from the oratory or from their cell they believe with
-  implicit faith that they will receive a reward from the Lord."
+  The reason, the tradition gives in the same breath: the brothers believe they are not their own, and
+  neither is anything they possess - once a thing enters the monastery, it belongs to the Lord, and
+  deserves the same reverence as anything holy. That reverence reaches even the smallest, most ordinary
+  task: moving something to a better place, filling a bottle with water, sharing a drink from it,
+  clearing a little dust from a cell. Each one, they believe, earns a reward from the Lord - just as
+  carelessness with an equally small thing earns a penance.
 absent_detail: >-
   No house, brother, steward, or abbot is named, and nothing places the episode at Marseilles or in any
   Gallic house; Cassian himself did not think any Gallic house matched it. The north records common
