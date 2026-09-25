@@ -51,6 +51,8 @@ relations:
   target: desert.quote.womens-house-across-the-river
 - type: associated-with
   target: desert.story.angel-hands-the-tablet
+- type: associated-with
+  target: desert.quote.pachomian-rule-opening-superscription
 ---
 Formation significance: koinonia (desert.gravity.koinonia) is the
 Pachomian federation's own name for the linked-houses structure
@@ -92,36 +94,6 @@ witnesses), not by Palladius or Sozomen's narrative reports of what the
 Rule contains; it does not need their channel because it makes no
 claim about their content.
 
-Step3c, Round 1 review Finding S9: the bridge_line - the one field this
-step designates compiled-facing - carried the angel-vision and the
-house-count with no hedge and no channel, though this record's own
-dates block hedges both correctly ("traditionally after a vision... its
-incident-level reliability is not independently adjudicated"; "an
-order-of-magnitude figure transmitted by the Lives, not a precise
-census") and this record's own body claims every Rule-content claim
-names its channel. The split is exactly what the Step3a Round 8 B2
-ruling exists to prevent - the caveat must travel with the
-compiled-facing field carrying the claim, not only with the apparatus
-field. Reworded to hedge both facts in the bridge_line itself. Finding
-M10: desert.source.veilleux-koinonia was registered specifically so
-that figure records could cite both named poles of the recension-
-priority debate rather than naming Veilleux as a floating name - this
-record named him in divergence_note without registering the source;
-added to sources[]. Finding M11: formation_confidence rated Documented
-against sources that mostly rate Widely Accepted and against the prior
-build's own cleared Doc_09a rating for the identical claim list -
-reverted to Widely Accepted, matching Doc_09a and
-desert.source.palladius-lausiac-history's own standing warning against
-exactly this kind of unmarked upgrade.
-
-Step3c, Round 2 review Finding M8: the Round 1 fix hedged the
-bridge_line's vision and house-count claims but left "a written rule
-and appointed offices" unhedged and unchanneled, while the body's own
-"Every claim about Rule content... names its channel" remained an
-unqualified universal the bridge_line itself now violated. Narrowed the
-body's universal to specific Rule content and explained above why the
-bridge_line's bare existence claim falls outside it.
-
-Doc_08: desert.force.formation-at-scale added as a reciprocal relation
-- this record's own founding narrative is that force's own generating
+desert.force.formation-at-scale is carried as a reciprocal relation -
+this record's own founding narrative is that force's own generating
 evidence.

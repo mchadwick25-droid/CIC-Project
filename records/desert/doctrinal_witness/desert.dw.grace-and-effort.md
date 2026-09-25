@@ -28,7 +28,7 @@ positions:
 - "grace and free will held together as in harmony rather than ranked, and the dichotomy itself refused (Conference XIII.11)"
 - "the main share in salvation ascribed to grace, not to the merit of works - but a share, not the whole, which is what later Western theology condemned in it (XIII.18)"
 - "God observed acting differently on different people: beginning the willing in some, completing the work in others, rescuing some who were not willing at all (XIII.18)"
-- "the method is case-by-case induction from what was seen to happen - 'led not by chattering words but by experience' - not deduction from a doctrine of God"
+- "the method is case-by-case induction from what was seen to happen, led by experience, not deduction from a doctrine of God"
 tensions:
 - "this is the most systematic thing this world says about salvation, and it is also the least securely its own: written in Gaul, in Latin, inside a Western controversy the Egyptian elders never entered"
 - "the position was condemned in the West within a generation, so a participant reading it as 'what the desert believed' is reading a view that lost - and this world's own other material (desert.limit.original-sin-eucharist-faith) is genuinely silent on the faith-versus-works framing this Conference answers in different terms"
@@ -50,7 +50,7 @@ relations:
 - type: associated-with
   target: desert.gravity.diakrisis
 ---
-OPENED 2026-08-27 from a volume this world already had on disk and had
+Opened from a volume this world already had on disk and had
 already opened for something else. desert.source.cassian-conferences was
 carrying fifteen records - diakrisis, logismoi, nepsis, penthos, theoria,
 xeniteia, the eight principal faults, the three renunciations - every one
@@ -59,7 +59,7 @@ treatment of grace and human effort, was untouched, and F1-T ("did you
 believe people are saved by faith alone, not works?") stood as an honest
 limit whose own search had been run against the Vita only.
 
-A live turn on 2026-08-27 is what exposed it. Asked "how are you saved?",
+A live turn is what exposed it. Asked "how are you saved?",
 the voice answered from practice - we withdrew, we gave everything away,
 we fought the thoughts - and when pressed with "that sounds like it
 depends entirely on effort, where does grace come into it," it could
