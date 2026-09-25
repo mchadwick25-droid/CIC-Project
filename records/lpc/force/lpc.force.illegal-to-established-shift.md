@@ -20,6 +20,8 @@ confidence:
 sources: []
 relations:
 - type: associated-with
+  target: lpc.contested.compel-coercion-development
+- type: associated-with
   target: lpc.force.standing-legal-condition-unlicensed-religion
 - type: associated-with
   target: lpc.force.donatist-schism
