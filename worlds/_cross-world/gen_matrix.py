@@ -8,17 +8,23 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-import yaml
 
 from engine.m1 import canon, cross_world, gates
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
+from engine.m1.registry import formation_world_keys, load_registry
 from engine.m2.builders import _quote_speaker
 from engine.m2.compiler import compile_world
 from engine.m4.citation_cards import _label
 
 ROOT = Path(__file__).resolve().parents[2]
-W = ["alx", "pahc", "desert", "hal", "syr", "ijc"]
-reg = yaml.safe_load((ROOT / "records/worlds.yaml").read_text())["worlds"]
+# records/worlds.yaml (this file's own former single-file source) was split
+# into records/worlds/<code>.yaml per-world (registry.py's own docstring) -
+# reading it directly here left this script pointed at a file that no
+# longer exists. load_registry()/formation_world_keys() is the same fix
+# item 2 of this audit applies everywhere else a world list was hand-kept
+# instead of read from the one registry.
+reg = load_registry()
+W = formation_world_keys(reg)
 fleet = load_fleet_records()
 R = {w: load_world_records(w) for w in W}
 census = json.loads((ROOT / "cic-website/data/world-census.json").read_text())

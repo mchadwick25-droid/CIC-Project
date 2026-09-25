@@ -74,10 +74,15 @@ def site_staleness_sweep(
     """Recompiles every migrated world's site JSON from its OWN committed
     file's pinned records_commit/compiler_version (read back out of that
     file's own `_generated_by` header), and reports it stale if that
-    differs from what's actually committed. A world with no committed
-    cic-website/data/worlds/<census_id>.json yet is simply absent from
-    the results - not a pass, not a fail, the same as an unbuilt world in
-    engine/m2/checks.py's own staleness_sweep()."""
+    differs from what's actually committed. A world not yet admitted/open
+    with no committed cic-website/data/worlds/<census_id>.json is simply
+    absent from the results - not a pass, not a fail, the same as an
+    unbuilt world in engine/m2/checks.py's own staleness_sweep(). An
+    ADMITTED/OPEN world with no committed file is different: participants
+    can already reach it, so a missing site JSON is reported stale rather
+    than silently skipped - the same gap engine.m1.cross_world's own
+    check_required_record_types_and_site_json flags from the records
+    side (2026-09-25 CI/tooling audit)."""
     registry = registry if registry is not None else load_registry()
     results: dict[str, dict] = {}
     if not site_data_dir.is_dir():
@@ -88,6 +93,11 @@ def site_staleness_sweep(
             continue
         site_json_path = site_data_dir / f"{census_id}.json"
         if not site_json_path.is_file():
+            if entry.get("state") in ("admitted", "open"):
+                results[world_key] = {
+                    "stale": True,
+                    "reason": f"{world_key} is {entry.get('state')} but {site_json_path} does not exist",
+                }
             continue
         committed = json.loads(site_json_path.read_text(encoding="utf-8"))
         match = _GENERATED_BY_RE.match(committed.get("_generated_by", ""))

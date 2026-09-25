@@ -92,13 +92,20 @@ from datetime import date, timezone, datetime
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 
 from engine.m1 import loader
+from engine.m1.registry import formation_world_keys
 from engine.m4 import evidence as ev
 from engine.m4 import grounding_net as gn
 from engine.prose import GUARD_MARKERS, claim_markers, content_words, all_text, quote_aware_sentences
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 REPORTS_DIR = pathlib.Path(__file__).resolve().parent
-WORLDS = ["alx", "cappadocian", "desert", "don", "gallic", "hal", "ijc", "pahc", "rzg", "syr", "witt"]
+# Every formation world, read from the one registry instead of hand-kept -
+# the same fix item 2 of the 2026-09-25 CI/tooling audit applies wherever a
+# world list was a literal instead of a load_registry() read. Unchanged
+# today (this hardcoded list already named exactly formation_world_keys()'s
+# current output); the point is that a newly admitted world is picked up
+# automatically from here on, with no second hand-edit to remember.
+WORLDS = formation_world_keys()
 
 # GUARD_MARKERS is now engine.prose's own (single source of truth - see
 # that module's comment): keyword-matched against the design doc's own

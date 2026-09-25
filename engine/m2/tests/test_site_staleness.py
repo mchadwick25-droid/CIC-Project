@@ -14,13 +14,25 @@ from engine.m2.site_cli import compile_site_json_for_world, site_staleness_sweep
 REGISTRY = load_registry()
 
 
-def test_a_world_with_no_committed_site_json_is_absent_from_the_sweep(tmp_path):
-    """Not a pass, not a fail - simply nothing to check yet. Every real
-    world today has no cic-website/data/worlds/<census_id>.json at all
-    (content migration is a separate, later stage), so the sweep must
-    stay silent about all of them, not report them clean."""
-    results = site_staleness_sweep(registry=REGISTRY, site_data_dir=tmp_path)
+def test_a_not_yet_admitted_world_with_no_committed_site_json_stays_silent(tmp_path):
+    """Not a pass, not a fail - simply nothing to check yet for a world
+    that hasn't reached admitted/open, so participants cannot reach it
+    regardless."""
+    registry = {"w": {"census_id": "w-census", "state": "built"}}
+    results = site_staleness_sweep(registry=registry, site_data_dir=tmp_path)
     assert results == {}
+
+
+def test_an_admitted_world_with_no_committed_site_json_is_reported_stale(tmp_path):
+    """An admitted/open world is participant-reachable, so a missing
+    compiled site JSON needs a visible signal, not silence - site_cli.py
+    used to `continue` straight past this (2026-09-25 CI/tooling audit;
+    the same gap engine.m1.cross_world's own check_required_record_types_
+    and_site_json flags from the records side)."""
+    registry = {"w": {"census_id": "w-census", "state": "admitted"}}
+    results = site_staleness_sweep(registry=registry, site_data_dir=tmp_path)
+    assert results["w"]["stale"] is True
+    assert "admitted" in results["w"]["reason"]
 
 
 def test_a_matching_committed_site_json_is_reported_not_stale(tmp_path):

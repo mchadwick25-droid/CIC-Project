@@ -47,6 +47,7 @@ CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
 SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
 SITE_TABLE_HTML = REPO_ROOT / "cic-website" / "table.html"
+SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -188,6 +189,31 @@ ACCEPTED_OPEN: dict[str, str] = {
     # not-yet-synced gap right after witt's own admission; closed the same
     # day once `python -m engine.m6.cli sync` actually ran, the same
     # day-of pattern don's own census-id/don entry showed. Not left stale.
+    #
+    # unregistered-world-dir/lpc OPENED 2026-09-25: check_unregistered_
+    # world_dirs's own first real finding. records/lpc/ exists but carries
+    # no records/worlds/lpc.yaml entry, so lpc was invisible to every gate
+    # and every check in this file alike - the exact blind spot the
+    # 2026-09-25 CI/tooling audit traced lpc's undetected defects to.
+    # Owned by lpc's own build thread, PR #586; remove this entry once
+    # that PR registers lpc.
+    "unregistered-world-dir/lpc": "2026-09-25 CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
+    #
+    # required-record-type/witt and required-site-json/witt OPENED
+    # 2026-09-25: check_required_record_types_and_site_json's own first
+    # real findings. witt is admitted but carries no world_front record
+    # and no facilitator_brief record, and has no compiled
+    # cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json
+    # - the Website V2 migration simply has not reached witt yet. Belongs
+    # to witt's own build thread.
+    "required-record-type/witt": "2026-09-25 CI/tooling audit - witt (admitted) carries no world_front and no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-site-json/witt": "2026-09-25 CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
+    # required-record-type/rzg OPENED 2026-09-25: rzg (admitted) carries a
+    # world_front and a facilitator_brief record and its site JSON is
+    # compiled and committed, but it has zero search_record records - the
+    # Search feature's own migration has not reached rzg yet. Belongs to
+    # rzg's own build thread.
+    "required-record-type/rzg": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
 }
 
 
@@ -651,9 +677,98 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
     return findings
 
 
+def check_census_registry_state(*, registry, worlds, **_) -> list[Finding]:
+    """A 'Built & Live' census card is what makes a world visible and
+    deep-linkable on the Atlas (App.tsx's findWorldByCensusId, gated on
+    Settings.enforce_admission) - but check_census_link only checks that a
+    claimed census_id EXISTS as a live entry, never that the registry
+    world claiming it has actually reached a state that claim presumes.
+    A card can say Built & Live for a world the registry still calls
+    merely 'built' - live on the Atlas ahead of the very admission gate
+    that is supposed to be what makes a world reachable at all."""
+    findings = []
+    live = _census_live_entries()
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if not cid or cid not in live:
+            continue  # unset or not a live entry at all - check_census_link's own job
+        state = registry[w].get("state")
+        if state not in ("admitted", "open"):
+            findings.append(_defect(
+                "census-state-ahead-of-registry", w,
+                f"census_id {cid!r} is marked 'Built & Live' in world-census.json but the "
+                f"registry's own state is {state!r}, not admitted/open"))
+    return findings
+
+
+# world_front (Website V2's own per-world compiled-page source),
+# facilitator_brief and search_record are the record types an admitted or
+# open world is expected to carry once it is participant-reachable -
+# nothing before this check ever asked for them. A world can clear M1's
+# fifteen-gate battery (which never mentions Website V2's own record
+# types at all) and reach 'admitted' with no front page ever compiled.
+_REQUIRED_ADMITTED_RECORD_TYPES = ("world_front", "facilitator_brief", "search_record")
+
+
+def check_required_record_types_and_site_json(*, registry, records, worlds, **_) -> list[Finding]:
+    """The compiled Website V2 site JSON (cic-website/data/worlds/
+    <census_id>.json) is that world's own world_front record's compiled
+    output (engine.m2.site_cli.compile_site_json_for_world) - checked
+    here as a second, independent signal from the record-type check
+    above, since a world_front record can exist without ever having been
+    compiled and committed."""
+    findings = []
+    for w in worlds:
+        if registry[w].get("state") not in ("admitted", "open"):
+            continue
+        present = {r.get("record_type") for r in records[w].values()}
+        for record_type in _REQUIRED_ADMITTED_RECORD_TYPES:
+            if record_type not in present:
+                findings.append(_defect("required-record-type", w, f"admitted/open but carries no {record_type} record"))
+        census_id = registry[w].get("census_id")
+        site_json = (SITE_DATA_DIR / f"{census_id}.json") if census_id else None
+        if site_json is None or not site_json.is_file():
+            findings.append(_defect(
+                "required-site-json", w,
+                f"admitted/open but has no compiled site JSON at cic-website/data/worlds/"
+                f"{census_id or '<no census_id>'}.json"))
+    return findings
+
+
 # --------------------------------------------------------------------------
 # stage 3: the records tree, world against world
 # --------------------------------------------------------------------------
+
+# Directories under records/ that are not a world's own: _fleet holds
+# fleet-shared content with no registry entry of its own by design, and
+# worlds IS records/worlds/, the registry's own storage location, not
+# something registered inside itself.
+_NON_WORLD_RECORD_DIRS = frozenset({"_fleet", "worlds"})
+
+
+def check_unregistered_world_dirs(*, registry, **_) -> list[Finding]:
+    """load_registry() is how every gate and every check in this file
+    discovers which worlds exist at all - registry.py's own docstring
+    calls it "the ONE world registry". A records/<dir> with no matching
+    records/worlds/<code>.yaml is invisible to all of it, not merely
+    unbuilt: not formation_world_keys(), not run_all()'s own `worlds`
+    list, nothing. lpc's own defects went undetected through exactly this
+    gap - a directory of real records that nothing here ever looked at,
+    because nothing here knew it existed. Runs against the real
+    filesystem tree, deliberately independent of `worlds` (which is
+    already registry-derived and so could never see the gap itself)."""
+    findings = []
+    for p in sorted(RECORDS_ROOT.iterdir()):
+        if not p.is_dir() or p.name in _NON_WORLD_RECORD_DIRS:
+            continue
+        if p.name not in registry:
+            findings.append(_defect(
+                "unregistered-world-dir", p.name,
+                f"records/{p.name}/ exists but records/worlds/{p.name}.yaml does not - "
+                "load_registry() is how every gate and cross-world check discovers a "
+                "world, so this directory and everything in it is invisible to all of them"))
+    return findings
+
 
 def check_record_type_directories(*, worlds, **_) -> list[Finding]:
     """Observation, not defect: a world legitimately may hold no records of
@@ -758,8 +873,17 @@ _RECORD_ID = re.compile(r"\b(?:[a-z]{2,8})\.(?:[a-z_]{2,20})\.[a-z0-9][a-z0-9-]{
 # 44 of its 192 source loci. An earlier version of this pattern flagged all
 # three of desert.figure.antony's dates on that basis and reported six leaks
 # where there are three. A build reference has to name a BUILD artifact
-# (`Doc_01 SS2.3`, `Artifact-1`, BUILD-LOG) or talk about the build in prose.
-_BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b20\d{2}-\d{2}-\d{2}\b", re.IGNORECASE)
+# (`Doc_01 SS2.3`, `Artifact-1`, BUILD-LOG) or talk about the build in prose -
+# "this build"/"this session" naming the build itself, or "review round(s)"/
+# "search round(s)" naming the build's own process, the same process language
+# tools/check_live_commentary.py's own RECORDS_AND_WORLDS_PATTERNS polices in
+# these same records/ and worlds/ files, from the other direction (hygiene on
+# text as committed, not leak detection on what a participant is shown).
+_BUILD_REF = re.compile(
+    r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis (?:build|session)\b|"
+    r"\breview rounds?\b|\bsearch rounds?\b|\b20\d{2}-\d{2}-\d{2}\b",
+    re.IGNORECASE,
+)
 
 # Exactly the fields that reach a participant's screen, via
 # engine.m4.citation_cards' label table, engine.m4.name_bridge's figure card
@@ -1242,9 +1366,12 @@ def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
 
 CHECKS = [
     check_registry_shape,
+    check_unregistered_world_dirs,
     check_package_pinned,
     check_census_link,
     check_census_agreement,
+    check_census_registry_state,
+    check_required_record_types_and_site_json,
     check_record_type_directories,
     check_id_type_tokens,
     check_record_world_ids,

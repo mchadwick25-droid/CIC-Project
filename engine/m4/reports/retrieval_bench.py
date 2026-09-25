@@ -182,13 +182,21 @@ Run: python3 engine/m4/reports/retrieval_bench.py
 import json, sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 from engine.m1 import loader
+from engine.m1.registry import formation_world_keys
 from engine.m4 import evidence as ev
 fleet = loader.load_fleet_records()
 cq = {r:v for r,v in fleet.items() if v.get("record_type")=="canon_question"}
 S = pathlib.Path(__file__).resolve().parent / "bench"
 tot_g=tot_q=tot_empty=tot_cells=0
 per=[]
-for w in ["alx","cappadocian","desert","don","gallic","hal","ijc","pahc","rzg","syr"]:
+# Every formation world THIS BENCH HAS PROMPTS FOR - read from the registry
+# instead of hand-kept (item 2, 2026-09-25 CI/tooling audit), but still
+# gated on a real S/<w>.json file existing, the one actual precondition
+# this script has. witt is admitted but has no bench/witt.json yet (a real
+# gap, not this script's own world-list bug to paper over) - same
+# disclosed-not-fabricated shape as generate_tradition_pages.py's own
+# _built_world_keys().
+for w in [k for k in formation_world_keys() if (S / f"{k}.json").exists()]:
     pkgs=sorted(pathlib.Path(f"packages/{w}").iterdir())
     C=pkgs[-1]/"compiled"
     recs=ev.repository_records_by_id(json.loads((C/"repository.json").read_text()))

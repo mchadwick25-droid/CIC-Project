@@ -34,11 +34,13 @@ from dataclasses import asdict
 from pathlib import Path
 
 from engine.m1.loader import load_fleet_records, load_world_records
-from engine.m1.registry import load_registry
-from engine.m3 import harness, results
+from engine.m1.registry import formation_world_keys, load_registry
+from engine.m3 import harness, protocol, results
 from engine.m3.generation import LiveModelAnswerer
 from engine.m4.world_loader import LazyWorldLoader
-from engine.provider.bedrock import make_client, normalize_usage, resolve_model_id
+from engine.m8.cost import estimate_cost
+from engine.m8.live_cost_run import SONNET_4_5_PRICE_TABLE
+from engine.provider.bedrock import NormalizedUsage, make_client, normalize_usage, resolve_model_id
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-admission-report.json"
@@ -50,6 +52,36 @@ REPORT_PATH = Path(__file__).resolve().parent / "reports" / "live-admission-repo
 # person running this passes exactly the worlds authorized for the run, and the
 # report records which they were.
 DEFAULT_WORLD_KEYS = ["alx", "desert"]
+
+# Mark's ruling, 2026-09-25: the M3 live-admission ceiling is $3 per run,
+# with no weekly or aggregate cap. --max-usd defaults to this; going
+# above it takes an explicit, higher --max-usd on the command line - the
+# default itself is the ceiling, so nothing above it is ever silent.
+DEFAULT_MAX_USD = 3.00
+
+# A real observed run's own usage (engine/m3/reports/live-admission-report-
+# alx-2026-09-08-postfix.json: alx, 28 probes - protocol.battery()'s own
+# fixed size, one per sealed cell), the empirical basis for the --max-usd
+# preflight estimate below. Priced against the same real, sourced rate
+# card engine.m8.live_cost_run.SONNET_4_5_PRICE_TABLE already documents
+# (Anthropic's published API rate card, fetched 2026-08-25) - this module
+# invents no price of its own, per spec principle 13. A conservative
+# planning figure, not a promise: a different world's own system-prompt
+# size or a longer answer changes the real bill, which this script still
+# records from the live usage itself, never estimates after the fact.
+_OBSERVED_RUN_USAGE = NormalizedUsage(
+    input_tokens=24_048, output_tokens=14_189,
+    cache_creation_input_tokens=14_792, cache_read_input_tokens=399_384,
+)
+_OBSERVED_RUN_PROBE_COUNT = 28
+
+
+def estimate_run_cost_usd(world_count: int) -> float:
+    """A pre-run planning estimate, scaled from one real observed world's
+    run by probe count (protocol.battery() is the same fixed battery for
+    every world) and by how many worlds this run's own --worlds names."""
+    per_probe = estimate_cost(_OBSERVED_RUN_USAGE, SONNET_4_5_PRICE_TABLE).dollars / _OBSERVED_RUN_PROBE_COUNT
+    return per_probe * len(protocol.battery()) * world_count
 
 
 class _UsageRecordingStream:
@@ -101,15 +133,34 @@ class _UsageRecordingClient:
         self.messages = _UsageRecordingMessages(inner.messages)
 
 
-def run(region: str, world_keys: list[str] | None = None) -> dict:
+def run(region: str, world_keys: list[str] | None = None, *, max_usd: float = DEFAULT_MAX_USD, authorized_by: str) -> dict:
     registry = load_registry()
+    formation_keys = set(formation_world_keys(registry))
+    requested = world_keys or DEFAULT_WORLD_KEYS
+    unknown = [w for w in requested if w not in formation_keys]
+    if unknown:
+        raise SystemExit(
+            f"--worlds names {unknown} - not a real formation world in the registry "
+            f"(records/worlds/<code>.yaml). Live-billed, so a typo widening or narrowing "
+            f"the authorized scope fails loudly here rather than deep inside a paid run. "
+            f"Formation worlds: {sorted(formation_keys)}"
+        )
+    if not authorized_by.strip():
+        raise SystemExit("--authorized-by is required and cannot be blank - every live-billed run names who authorized it")
+    estimated = estimate_run_cost_usd(len(requested))
+    if estimated > max_usd:
+        raise SystemExit(
+            f"estimated cost ${estimated:.2f} for {len(requested)} world(s) exceeds --max-usd ${max_usd:.2f} - "
+            f"aborting before any billed call is made. Raise --max-usd if this spend is actually authorized, "
+            f"or narrow --worlds."
+        )
     loader = LazyWorldLoader()
     voice_model_id = resolve_model_id("us.anthropic.claude-sonnet-4-5", region)
 
     canon_questions = load_fleet_records()
     per_world = {}
 
-    for world_key in (world_keys or DEFAULT_WORLD_KEYS):
+    for world_key in requested:
         entry = registry[world_key]
         world, _timing = loader.load(
             world_key, package_dir=REPO_ROOT / entry["package"]["location"], expected_manifest_hash=entry["package"]["manifest_hash"]
@@ -164,12 +215,16 @@ def run(region: str, world_keys: list[str] | None = None) -> dict:
         "protocol": "blind",
         "worlds": per_world,
         "overall_pass": all(w["overall_pass"] for w in per_world.values()),
+        "authorized_by": authorized_by,
+        "max_usd": max_usd,
+        "estimated_usd_preflight": estimated,
         "note": (
             "Real, billed admission run - LiveModelAnswerer against a live Bedrock voice-generation "
             "call, once per probe, for every probe in the sealed battery, per world. Token counts "
             "are measured directly from each call's own usage; no $/token or $/turn figure is quoted "
             "here (spec principle 13 - that waits on a reconciled AWS invoice, not an estimate). "
-            "Run under explicit per-run authorization for exactly the worlds listed above."
+            "Run under explicit per-run authorization for exactly the worlds listed above, named by "
+            "authorized_by, and preflight-estimated against max_usd before any billed call was made."
         ),
     }
     return report
@@ -180,12 +235,19 @@ def main() -> int:
     parser.add_argument("--region", required=True)
     parser.add_argument("--worlds", default=",".join(DEFAULT_WORLD_KEYS),
                         help="comma-separated world keys, exactly as authorized for this run")
+    parser.add_argument("--max-usd", type=float, default=DEFAULT_MAX_USD,
+                        help=f"cost ceiling in USD (default ${DEFAULT_MAX_USD:.2f} per Mark's 2026-09-25 ruling, "
+                             f"no weekly/aggregate cap) - the run aborts before any billed call if the "
+                             f"preflight estimate (estimate_run_cost_usd) exceeds this; pass a higher value "
+                             f"explicitly to authorize more")
+    parser.add_argument("--authorized-by", required=True,
+                        help="who authorized this specific live-billed run - recorded in the report, never blank")
     parser.add_argument("--out", default=str(REPORT_PATH),
                         help="report path - use a distinct file so prior runs' records survive")
     args = parser.parse_args()
 
     world_keys = [k.strip() for k in args.worlds.split(",") if k.strip()]
-    report = run(args.region, world_keys=world_keys)
+    report = run(args.region, world_keys=world_keys, max_usd=args.max_usd, authorized_by=args.authorized_by)
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
