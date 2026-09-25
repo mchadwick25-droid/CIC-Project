@@ -87,7 +87,7 @@ assignments:
 
   - work: "The Eight Wittenberg Sermons"
     author: luther
-    locus: "lines ~14403-end"
+    locus: "lines ~14403-15815"
     atlas_ids:
       - lutheran-wittenberg-and-its-congregations
     role: tradition
@@ -96,4 +96,33 @@ assignments:
       1522, preached on Luther's own return to Wittenberg from the Wartburg
       to check the Karlstadt-led unrest - Luther's own spoken, pastoral
       register, addressed directly to his own congregation rather than a
-      treatise audience.
+      treatise audience. LOCUS CORRECTED 2026-09-25 (was "~14403-end"): the
+      volume does not end there - "That Doctrines of Men Are to Be
+      Rejected" (below) begins at line 15816 and runs to 16824, followed
+      by an INDEX to true file end (16825-18280). The open-ended "-end"
+      was provably wrong once that neighboring work was independently
+      confirmed against the vendored file this pass; corrected here rather
+      than left overlapping the new entry below. Disclosed as a found
+      defect, not a silent edit.
+
+  - work: "That Doctrines of Men Are to Be Rejected, together with a Reply
+      to Texts Quoted in Defence of the Doctrines of Men"
+    author: luther
+    locus: "lines ~15816-16824"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      1522, intro./trans. W. A. Lambert - Luther's rule that Scripture,
+      not human tradition, binds conscience (interpretation gravity),
+      written at the prompting of his Wartburg host Hans von Berlepsch.
+      Closes the gap witt_Source_Registry.md's R16 flagged as "Not in the
+      corpus-map" (2026-09-25 pass): the map's prior Sermons locus
+      "~14403-end" silently swallowed this work rather than bounding it.
+      Heading (15816), introduction (15825-15885), and the work's own end
+      (16824, immediately before the volume's INDEX at 16825) confirmed
+      directly against the vendored file this pass - a firmer boundary
+      than the registry's own "introduction read, text not" note implies
+      for the locus itself, though body-text wording beyond the
+      introduction remains B-tier (not individually re-verified).

@@ -52,6 +52,25 @@ assignments:
     pass on Roman Church Third Century''s (I.33) sourcing gaps.
 
     '
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — I.13 (the Abgar narrative), IV.29 (Tatian and the Diatessaron), IV.30 (Bardesanes the
+    Syrian)
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'Three Syriac-relevant notices verified directly against the file: I.13 (lines 9450-9683) reproduces
+    the Abgar-Jesus correspondence and Thaddeus narrative at length, which Eusebius took as genuine from
+    the Edessa archives - the earliest datable witness to the legend''s existence and age, never evidence
+    for its content (this world does not accept the correspondence as genuine, per Doc_01 SS2 - a risk
+    screen already carried on syr.source.eusebius-historia-ecclesiastica, not a defect in the citation
+    itself). IV.30 (line 9461) attests Bardesanes the Syrian Gnostic''s standing at the Edessene court -
+    per Doc_01 SS5.1 the most comparatively reliable ancient witness to him, being early and free of local
+    rivalry. Context, not tradition: Eusebius writes from Caesarea, outside Edessa/Nisibis, describing this
+    world''s own figures and legend from a distance.
+
+    '
 - work: Martyrs of Palestine
   author: eusebius
   locus: div2 3.14 — Martyrs of Palestine (between Books VIII and IX)

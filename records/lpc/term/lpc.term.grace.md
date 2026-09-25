@@ -8,6 +8,8 @@ register: emic
 canon_cells: []
 relations:
 - type: associated-with
+  target: lpc.contested.grace-pelagius-characterization
+- type: associated-with
   target: lpc.term.catechesis
 - type: associated-with
   target: lpc.term.compel-them-to-come-in

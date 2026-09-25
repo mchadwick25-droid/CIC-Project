@@ -50,6 +50,32 @@ assignments:
     Dialogues II-III continue the Martin material and take the same placement as the Life:
     gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul entry
     rather than the later Merovingian entry this work antedates.'
+- work: Dialogues of Sulpitius Severus
+  author: sulpiciusseverus
+  locus: div2 2.4 — Dialogues of Sulpitius Severus, Dialogue I.7-9 (Postumianus's account of
+    visiting Bethlehem)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: context
+  confidence: assigned
+  note: 'Dialogue I.7-9 is an admiring, independent, contemporary outside witness to the Bethlehem
+    community c. 400. Verified directly against the file at all four cited passages: I.8, "the
+    presbyter Jerome rules the church of this place; for it is a parish of the bishop who has
+    possession of Jerusalem" and "learned not only in Latin and Greek, but also Hebrew" (lines 2896);
+    I.9, "always occupied in reading, always at his books" (line 2960) and "the heretics hate him"
+    (line 2954); I.7, the widely-quoted line that Hieronymus, "a man truly Catholic," once thought a
+    follower of Origen, "now, above most others, went the length of condemning the whole of his
+    writings" (line 2859) - matching this world''s own source and quote records
+    (hal.source.sulpitius-dialogues, hal.quote.a-man-truly-catholic) exactly.
+
+    `role: context`, not `tradition`: this world''s own quote record marks the evidence Contested
+    and notes Sulpitius writes "in Gaul, admiringly and at a distance" - an outside Gallic monastic
+    writer''s view of Jerome''s reputation and standing, not the Hieronymian voice speaking for
+    itself. Same Dialogue as the existing desert-monasticism/gallic-monastic-ascetic-christianity
+    tradition row above (Dialogue I as a whole, Postumianus''s Egyptian travels); this row narrows
+    to I.7-9 specifically, the Bethlehem passage, for hal.
+
+    '
 - work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.5 — The Doubtful Letters
