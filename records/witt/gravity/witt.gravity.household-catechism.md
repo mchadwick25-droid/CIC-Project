@@ -87,40 +87,61 @@ relations:
   target: witt.contested.household-catechism-reception
 name: The household catechism as this world's prescribed formation mechanism [PRIMARY]
 classification: primary
-description: 'The three parts every Christian must know, prescribed to be taught by the father, examined
-  weekly, sung and prayed morning and evening: ''the ordinary Christian, who cannot read the Scriptures,
-  is required to learn and know the Ten Commandments, the Creed, and the Lord''s Prayer... these three
-  contain fully and completely everything that is in the Scriptures'' (v2 13182-13186); ''it is the duty
-  of every father of a family to question and examine his children and servants at least once a week''
-  (LC 241-243); ''The Simple Way a Father Should Present Them to His Household'' (SC 45). The candidate
-  as generated is scoped deliberately: a claim about the PROGRAM, never a claim that any household actually
-  held it. SIX-TEST SUMMARY: Repetition passes across catechesis,
-  sermon (by implication), hymnal preface, conversation, confession, apology, and one participant witness;
-  Dependency passes broadly; Formation SPLITS, and this is the document''s central divergence -- passes
-  as prescribed program, the most fully specified formation mechanism in the library, down to meal-time
-  recitation and food withheld until repeated (LC 333-336); Inferential-Thin as achieved formation --
-  no visitation protocol, parish register, or lay witness confirms any household did it; Explanatory passes
-  broadly; Persistence passes across registers 1520-1543 but FAILS across regions -- nothing shows any
-  household or parish outside Wittenberg, scored ''p'' overall; Interaction passes, reinforcing G1, G2,
-  G3, G5, G6, G7, G9, G10 (thin), G11, G12, reshaping G8, competing with G13. EVIDENTIAL CONFIDENCE: Documented
-  for the prescriptive corpus; Widely Accepted for Walter; Inferential-Thin for any household''s actual
-  practice; Contested at the scholarly level for how reception should be read at all (the Strauss debate).
-  CLASSIFICATION: PRIMARY, on the scope as generated -- the evidence supporting the candidate as scoped
-  (the bulk of the 1529 output plus the confessional pair) is well attested; a reviewer who reads the Framework''s
-  rule as requiring the whole gravity, reception included, would classify this Supporting instead, and
-  this document states that alternative rather than hiding it. CONFIDENCE/GRAVITY CROSS-CHECK:
-  DIVERGENCE, flagged and the build''s highest-stakes -- organizing strength is Primary-grade for the
-  program; the program itself is well attested, but the evidence for reception is thin. Not upgraded
-  across that line; the I/T side is named as outside what the classification covers. Register-and-voice
-  spread: 4/4 for the program; Luther-only for the household-father mechanism specifically. Reception-side
-  status: absent -- the single largest reception gap in the build. FORCES-CONNECTION NOTATION: generated in response to what replaces the indulgence-confession-sacrament system
-  as the laity''s formation [1B-2]; shifted in audience 1520-1529, from ''the ordinary Christian, who
-  cannot read'' to the negligent pastor and the household father, under the territorial church''s own
-  inspecting need [2A-3]; intensified by the internal force the founder''s own testimony documents --
-  the Large Catechism preface exists, by its own account, because pastors are negligent [2B-3]; is the
-  printed household object [1A-3]; held into the confessional corpus, entering the Book of Concord in
-  1580 by reference [3A-1/3B-2]; carries the household''s own daily petition for the prince
-  [1A-1].'
+description: 'The three parts every Christian must know are to be taught by the father, examined weekly, and sung and prayed
+  morning and evening. ''the ordinary Christian, who cannot read the Scriptures, is required to learn and know the
+  Ten Commandments, the Creed, and the Lord''s Prayer... these three contain fully and completely everything that
+  is in the Scriptures'' (v2 13182-13186). ''it is the duty of every father of a family to question and examine
+  his children and servants at least once a week'' (LC 241-243). ''The Simple Way a Father Should Present Them to
+  His Household'' (SC 45).
+
+  This gravity is deliberately limited: it is a claim about the program, and it never claims that any household
+  actually held to it.
+
+  The program recurs widely, appearing in catechism teaching, in sermons by implication, in a hymnal preface, and
+  in conversation. It also appears in the confession and the Apology and in one participant''s witness, and other
+  gravities depend on it broadly.
+
+  Its shaping power splits in two, and that split is the central tension in how this gravity is judged. As a
+  prescribed program it holds fully. It is the most fully specified way of forming people in the whole library,
+  reaching down to reciting at mealtimes and to food withheld until the lessons are repeated (LC 333-336). As
+  formation actually achieved, it rests only on thin inference, because no visitation record, parish register, or
+  lay witness confirms that any household did it.
+
+  Its explanatory reach is broad, and it persists across kinds of writing from 1520 to 1543. Across regions,
+  though, it fails, since nothing shows any household or parish outside Wittenberg, so its persistence holds only
+  in part.
+
+  It reinforces nearly every other gravity: justified by faith alone, the Word, promise and sign, and the
+  terrified and comforted conscience. It also reinforces the two governments; estate, office, and calling; vows,
+  chastity, and marriage; German for the people; and embattled Christendom. Its support for the bodily presence is
+  only thin. It reshapes "must" and "free", and it competes with only one: hearers and repeaters of words.
+
+  The written prescriptions are well documented, and Walter''s witness is widely accepted. Any household''s actual
+  practice rests only on thin inference. Scholars contest how reception should even be read, in the debate that
+  follows Strauss.
+
+  This record covers the program as defined above, where the evidence is well attested: the bulk of the 1529
+  writings, plus the two confessional texts. Read more broadly, to include reception as well as the program, the
+  evidence would place it lower. This record states that alternative openly rather than hiding it.
+
+  This is the highest-stakes case in this world where how strongly a pattern organizes it and how well that is
+  evidenced pull apart. As a program, it organizes at the highest level this account recognizes, and the program is
+  well attested, but the evidence for how it was received is thin. That thinness is not smoothed over; it is named
+  as sitting outside what this record actually claims.
+
+  The program appears in all four kinds of writing and voice, but the mechanism of the father in the household is
+  Luther''s alone. Evidence of how it was received is absent, the largest single gap of this kind in this world.
+
+  It arose in response to a question: what would replace indulgence, confession, and sacrament as the way lay
+  people were formed? That question itself arose from the laity''s need for assurance. Between 1520 and 1529 its
+  audience shifted from "the ordinary Christian, who cannot read" to the negligent pastor and the father of the
+  household. That shift came from the territorial church''s own need to inspect.
+
+  The state of the parishes, as the founder reported it, intensified it. By its own account, the Large Catechism
+  preface exists because pastors are negligent. Because it is the printed object in the household, print as a
+  medium carried it. It was held within the confessional writings and entered the Book of Concord in 1580 by
+  reference. That links it to the confessional-territorial change and to transmission at the edge of the window.
+  It also carries the household''s own daily prayer for the prince, which ties it to the imperial frame.'
 manifestations:
 - '"the ordinary Christian, who cannot read the Scriptures, is required to learn and know the Ten Commandments,
   the Creed, and the Lord''s Prayer... these three contain fully and completely everything that is in
