@@ -28,9 +28,8 @@ edition: Vols. I-III now vendored, rows 206-208 (2026-09-08), closing Manifest G
   already vendored in the shared corpus under the sibling Donatism build's own former G6; vol. VII not
   requested by either world.
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed
 discovery_channel: WebSearch this session / 2026-09-01; extent/rights re-verified / 2026-09-02.

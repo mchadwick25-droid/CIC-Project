@@ -19,7 +19,7 @@ confidence:
     failing at world level on a disclosed search bound -- carried at the more conservative Inferential-Thin
     tier as this record''s own top-line rating rather than the bare-existence Documented tier, per this
     candidate''s own ''thin across the span, not bounded within it'' finding (Doc_04 §5). The classification
-    itself (Supporting) is the project lead''s own ruling of 2026-09-14, not this document''s own six-test
+    itself (Supporting) is the project lead''s own ruling, not this document''s own six-test
     verdict -- carried exactly as Doc_04 §3 states this, neither upgraded nor downgraded here.'
 sources:
 - source_id: lpc.source.cyprian-seventh-council-of-carthage

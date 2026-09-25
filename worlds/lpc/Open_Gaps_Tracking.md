@@ -1881,6 +1881,76 @@ ruling that going live is a separate, later step.
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 
+### OG-29. A separate, parallel independent review of #586 (routed through the managing thread) found six merge-blocking defects this world's own build thread had not yet caught: a stale cross-world waiver, a missing figure-dates-keys waiver, a stale world_id/registry claim in world_core, and the full-scale commentary strip OG-24 had deferred. All six fixed. Mark also ruled on the two items standing open at OG-24/OG-25.
+
+2026-09-25. A review running in parallel against the same commit (0223afdd) found:
+
+1. **Stale waiver.** `engine/m1/cross_world.py`'s own `ACCEPTED_OPEN["unregistered-world-dir/lpc"]` entry
+   existed only because `records/worlds/lpc.yaml` did not exist yet (OG-20 predates it); OG-20 itself
+   closed that gap the same session. Removed; `test_every_accepted_open_entry_still_describes_a_real_finding`
+   confirmed clean.
+2. **figure-dates-keys/lpc, unwaived.** `check_figure_dates_keys()` flags any world keying `figure.dates`
+   as `display` rather than `born`/`died`/`floruit` — every lpc figure record does, for the same reason
+   pahc/cappadocian/gallic/don/witt's own already-waived instances give: the dates themselves are hedged
+   or multi-clause (Cyprian's own election "between roughly July 248 and April 249"; Augustine's own
+   narrative spanning 391/395-396/430) and do not reduce to the three-key form without losing the disclosed
+   hedge. Waived with the same disclosed-not-fixed disposition as those five sibling entries — this is a
+   fleet-wide schema question, not lpc's own defect to fix alone.
+3. **Stale world_id/registry claim.** `lpc.core...`'s own trailing note still said "this world has no entry
+   in records/worlds.yaml at all" and that registering it was "a later admission-track step, out of scope" —
+   both true when first written, both false since OG-20. Corrected to state the current `world_id`
+   (`latin-pastoral-congregational`) and the census join key accurately.
+4. **The full commentary strip OG-24 deferred.** OG-24 disclosed 1,724 hits (966 REWRITE) across
+   `records/lpc/` and left them for "its own dedicated pass," reasoning the 311-file `world_id` rewrite
+   was too large a surface to safely strip in the same mechanical pass. This review found that reasoning
+   doesn't hold once the PR has *also* touched these same files for other reasons (the readability rewrite,
+   the review-round fixes) — CLAUDE.md's own rule is unconditional: a PR that edits a live file removes
+   its commentary. Traced to source: 41 of the ~49 flagged `source` records shared one byte-identical
+   `rights_status` boilerplate sentence ("...directly read and verified -- either across Doc_01's own nine
+   adversarial review rounds, or by this build session's own direct archive.org fetch-and-verify pass...");
+   because none of these compact records carries a blank line anywhere, that one sentence's own
+   "adversarial review" trigger swept the *entire file* into flagged status each time (`check_live_commentary.py`'s
+   own paragraph-widening logic, blank-line-delimited). Fixed with one script pass across all 41 files,
+   preserving the verified fact and dropping only the round/session framing. The remaining ~12 individual
+   hits (`world_core`, two `gravity` records, two `demonstration` records, four small `source`/`term`
+   records) were each read in context and fixed by hand: real corrections re-stated as current fact instead
+   of change-history narration (the road-back-examined Epistle-X/XV fix; the cyprian-epistles Epistle-XXXIX
+   citation fix), review-round/date references dropped where they added nothing durable, and "Mark's own
+   ruling" reworded to "the project lead's own ruling" to match this whole corpus's own established form.
+   **1,006 REWRITE hits closed to zero; the 32 remaining `ROUTE` hits are untouched** — those are the
+   tool's own intended pass-through for genuine open-item disclosure ("has not yet been read," "is itself
+   unresolved"), not commentary to strip.
+5. **world_front readability**, already fixed and logged at OG-27 before this review landed — its own
+   independently-measured aggregate (FK 6.63 / FRE 67.57 across every participant-facing field) clears the
+   fleet norm this review cites (FK 7-9 / FRE 62-67 for already-admitted worlds).
+6. **The traditions page**, already authored and logged at OG-28 before this review landed.
+
+Package rebuilt and repinned again after all six fixes: `packages/lpc/2026-09-25T23-02-44Z`
+(manifest `sha256:bb8b5aa380bd2fa5cdf8ddf75d2216901cb4667ed6fa3118f93c306f472af2e1`). Gate battery: 21/22
+pass, same one standing OG-25 finding, untouched. Staleness (package and site JSON), `check_paths.py`,
+and `node tools/validate-census.mjs` all re-run clean after every fix in this entry.
+
+**Mark's rulings, relayed via the managing thread, both "a":**
+
+- **m9:shelf-row/lpc (61 unwaived findings, OG-24).** A separate program thread will build corpus-map
+  CM-1 `row_id`s fleet-wide once PR #601 merges, then coordinate directly with this world's own thread on
+  backfilling `shelf_row` onto lpc's 61 vendored source records — either handing over the mapping or doing
+  the backfill itself in its own PR. Not decided or invented here; waiting on that thread's own contact.
+- **OG-25 (the `road-back-examined` participant-turn readability tension).** The readability gate will
+  stop scoring `participant` turns entirely, since a participant's line records what was actually said,
+  the same footing `quote.text` already stands on — a ruling on the gate's own scope, not a per-record
+  exception. An engine PR from a separate thread will make this change fleet-wide.
+  `lpc.demo.road-back-examined` stays exactly as the validated Phase Five transcript states it, byte for
+  byte, until that PR lands.
+
+**Also, a standing policy this entry records rather than acts on:** OG-26's own M3 rerun report had its
+`authorized_by` field hand-corrected in place after the run, disclosed there as such. Mark's ruling: the
+run itself stands (it was properly authorized; nothing about the run changes) — but hand-editing a
+committed run report is not to happen again. Any future correction to an already-written report belongs
+in this file, as its own dated entry, not edited into the report itself.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the

@@ -30,4 +30,4 @@ discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-chr
 external_ids:
   lpc_source_registry_row: 10
 ---
-This world's own side of a two-sided exchange with the Hieronymian world, per Mark's own split ruling.
+This world's own side of a two-sided exchange with the Hieronymian world, per the project lead's own split ruling.

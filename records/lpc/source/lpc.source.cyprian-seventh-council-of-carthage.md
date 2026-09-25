@@ -22,9 +22,8 @@ work: The Seventh Council of Carthage under Cyprian (on the baptism of heretics,
   own heading dates it a.d. 258)
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed. The reciprocal clause 'can no more be judged by another than he himself
   can judge another' is Cyprian's own continuous text, not editorial bracketing -- the brackets in the

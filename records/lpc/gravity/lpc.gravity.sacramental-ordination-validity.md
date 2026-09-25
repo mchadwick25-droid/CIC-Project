@@ -94,4 +94,4 @@ manifestations:
 - the Epistles' correspondence on rebaptism, and the rupture between Stephen and Cyprian
 classification: primary
 ---
-Re-derived from the approved Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length against a Round 3 argument that had removed the connection on a symmetry that does not exist. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, 2B-4) named above.
+Re-derived from the approved Doc_04 §3 (Candidate 6). The 2B-1 asymmetry is confirmed against Doc_08 §5's own G6 entry, which examines and confirms this connection at length rather than removing it on a symmetry that does not exist. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, 2B-4) named above.

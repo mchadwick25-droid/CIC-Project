@@ -20,7 +20,7 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'The pattern is attested through different figures and different words -- and at the
-    same office (the episcopate) in both phases, per the project lead''s own ruling of 2026-09-16 -- not
+    same office (the episcopate) in both phases, per the project lead''s own ruling -- not
     one recurring term. Named as a pattern, not presented as a shared vocabulary item. Carried tension,
     flagged rather than resolved here: Lexicon_Deployment_Index.md SS3 records that this term carries
     no [DR] tag although Doc_06 SS4 names it a sharpest-case distortion (''suffrage'' hears as a modern

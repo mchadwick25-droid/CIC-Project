@@ -23,9 +23,8 @@ work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen
 edition: Now vendored, row 211 (2026-09-08), closing Manifest G8; vendored as cic/texts/vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt,
   sliced to the article's own page range
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed
 discovery_channel: WebSearch / 2026-09-02; resolved by G8's own fulfillment / 2026-09-08.

@@ -24,9 +24,8 @@ edition: No independent edition or URL was ever located under this row's own num
   row 194 -- Hartel's CSEL 3 Pars III includes the Acta Proconsularia immediately after the Vita (pp.
   CX-CXIV of the printed volume), as cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: documentary -- an official trial record, distinct in genre from Pontius's hagiographic
   Life (row 7); attested only inside row 194's larger vendored file, with no independent transmission

@@ -36,9 +36,8 @@ edition: 'Lancel''s own Cerf critical edition is in copyright, consultation-only
   and the corpus map now assigns it to this world too (cic/corpus-map/latin-pastoral-congregational-christianity.yaml,
   role: context, confidence: provisional, added 2026-09-13 on the project lead''s own decision).'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: Lancel's own edition is attributed to him as editor/translator; the Gesta themselves
   are documentary -- an imperial court transcript, with named delegates and speakers.

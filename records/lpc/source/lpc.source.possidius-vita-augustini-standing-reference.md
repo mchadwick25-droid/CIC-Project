@@ -22,9 +22,8 @@ work: Sancti Augustini Vita (Life of Augustine)
 edition: Now vendored as row 192 (2026-09-05) -- this row is kept as the standing reference; row 192 carries
   the actually-committed file, cic/texts/possidius_vita-augustini_weiskotten1919.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed to Possidius, bishop of Calama and Augustine's own friend of nearly forty
   years

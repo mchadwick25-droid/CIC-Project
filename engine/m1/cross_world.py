@@ -165,6 +165,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself. Found 2026-09-19 during Phase C recon; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
+    "figure-dates-keys/lpc": "F-04-analogue - all 7 lpc figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave hedged or multi-clause - e.g. Cyprian's own election is dated 'between roughly July 248 and April 249'; Augustine's is a full narrative sentence spanning his 391 ordination, his 395/396 consecration, and his 430 death - none of the seven reduce cleanly to born/died/floruit without losing the disclosed hedge itself). Same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, don's, and witt's own instances, not a mass rewrite improvised under lpc's own go-live pass - belongs to a fleet-wide figure.dates schema change, not this world's own build thread.",
     # app-world-assets/witt, app-world-order/witt, and site-portrait/witt
     # CLOSED 2026-09-20: all three opened 2026-09-19 for the same
     # frontend-deployment-wiring gap this comment block described as "the
@@ -189,15 +190,6 @@ ACCEPTED_OPEN: dict[str, str] = {
     # not-yet-synced gap right after witt's own admission; closed the same
     # day once `python -m engine.m6.cli sync` actually ran, the same
     # day-of pattern don's own census-id/don entry showed. Not left stale.
-    #
-    # unregistered-world-dir/lpc OPENED 2026-09-25: check_unregistered_
-    # world_dirs's own first real finding. records/lpc/ exists but carries
-    # no records/worlds/lpc.yaml entry, so lpc was invisible to every gate
-    # and every check in this file alike - the exact blind spot the
-    # 2026-09-25 CI/tooling audit traced lpc's undetected defects to.
-    # Owned by lpc's own build thread, PR #586; remove this entry once
-    # that PR registers lpc.
-    "unregistered-world-dir/lpc": "2026-09-25 CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
     # required-record-type/witt/* and required-site-json/witt OPENED
     # 2026-09-25: check_required_record_types_and_site_json's own first

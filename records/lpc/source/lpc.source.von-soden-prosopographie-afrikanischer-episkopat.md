@@ -25,9 +25,8 @@ work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen
   Archiven und Bibliotheken 12, pp. 247-270
 edition: Rome, 1909; vendored (sliced to this article's own page range) as cic/texts/vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed
 discovery_channel: Fable research agent (this session) / archive.org direct fetch / 2026-09-08.

@@ -11,8 +11,8 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Not independently re-collated this session; not double-assigned to any other world
-    per the corpus map's own note (Mark's own ruling).
+  divergence_note: Not independently re-collated; not double-assigned to any other world
+    per the corpus map's own note (the project lead's own ruling).
 sources: []
 relations: []
 author: Augustine of Hippo

@@ -22,9 +22,8 @@ author: Augustine of Hippo
 work: Letter XCIII (to Vincentius, a.d. 408 on the NPNF heading)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: 'attributed. This letter sits inside the corpus map''s own Donatist-letters sub-corpus
   per cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml (role: context, assigned to donatism,

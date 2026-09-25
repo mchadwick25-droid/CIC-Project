@@ -25,9 +25,8 @@ edition: Pars I-IV all now vendored (rows 193, 195, 196, 2026-09-08); only Pars 
   and indices, no letter text of its own) remains unacquired -- this row is kept as the standing reference
   for the full five-part edition; rows 193, 195, and 196 carry the actually-committed files.
 kind: unvendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed
 discovery_channel: WebSearch this session (Internet Archive holdings and the CSEL series record) / 2026-09-02.

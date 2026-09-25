@@ -27,9 +27,8 @@ work: Epitoma Chronicon, with its African continuations
 edition: 'Chronica Minora Saec. IV-VII, Vol. I (Monumenta Germaniae Historica, Auctorum Antiquissimorum
   Tomus IX) (Berolini: Weidmann, 1892); vendored as cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt'
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed to Prosper of Aquitaine, a contemporary Gallic chronicler
 discovery_channel: Fable research agent (this session) / archive.org direct fetch / 2026-09-08.

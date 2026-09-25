@@ -21,9 +21,8 @@ author: Pius Knöll (editor); Augustine of Hippo (author)
 work: 'Augustine, Retractationum libri duo, CSEL 36 (Vienna: F. Tempsky / Leipzig: G. Freytag, 1902)'
 edition: Now vendored, row 209 (2026-09-08), closing Manifest G6; vendored as cic/texts/augustine_retractationes-lat_knoll-csel36.txt
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: attributed
 discovery_channel: WebSearch / 2026-09-02; resolved by G6's own fulfillment / 2026-09-08.

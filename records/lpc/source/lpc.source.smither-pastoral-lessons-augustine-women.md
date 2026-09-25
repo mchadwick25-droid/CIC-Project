@@ -11,9 +11,8 @@ confidence:
   verification_state: named-not-rechecked
   evidentiary_weight: corroborating
   formation_confidence: Widely Accepted
-  divergence_note: Flagged for priority second-opinion review before it supports any specific claim. The
-    sharpest of Round 11's three PRESS answers -- closes the gender-data-point gap Round 11's own M1 finding
-    named at Doc_02 SS6.
+  divergence_note: Flagged for priority second-opinion review before it supports any specific claim. Answers
+    the gender-data-point gap named at Doc_02 SS6.
 sources: []
 relations: []
 author: Edward L. Smither

@@ -4,10 +4,10 @@
   "fields": {
     "ambient.detail": {
       "count": 3,
-      "fk_grade_median": 10.02,
-      "fk_grade_max": 10.4,
-      "longest_sentence_words_max": 30,
-      "worst_record": "lpc.ambient.council-assembly-scale"
+      "fk_grade_median": 5.86,
+      "fk_grade_max": 7.66,
+      "longest_sentence_words_max": 26,
+      "worst_record": "lpc.ambient.church-administrative-objects"
     },
     "demonstration.exchange": {
       "count": 6,
@@ -18,24 +18,24 @@
     },
     "doctrinal_witness.text": {
       "count": 18,
-      "fk_grade_median": 8.73,
-      "fk_grade_max": 12.7,
-      "longest_sentence_words_max": 51,
-      "worst_record": "lpc.witness.communion-over-separation"
+      "fk_grade_median": 7.97,
+      "fk_grade_max": 9.47,
+      "longest_sentence_words_max": 47,
+      "worst_record": "lpc.witness.answerability-as-ground"
     },
     "honest_limit.statement": {
       "count": 9,
-      "fk_grade_median": 8.48,
+      "fk_grade_median": 8.33,
       "fk_grade_max": 9.98,
       "longest_sentence_words_max": 42,
       "worst_record": "lpc.limit.the-lapsed-own-account"
     },
     "story.tellable_as": {
       "count": 7,
-      "fk_grade_median": 7.77,
-      "fk_grade_max": 9.93,
+      "fk_grade_median": 7.7,
+      "fk_grade_max": 8.73,
       "longest_sentence_words_max": 21,
-      "worst_record": "lpc.story.the-death-of-cyprian"
+      "worst_record": "lpc.story.election-of-cyprian"
     },
     "story.text": {
       "count": 7,
@@ -47,16 +47,16 @@
     "term.plain_meaning": {
       "count": 19,
       "fk_grade_median": 5.33,
-      "fk_grade_max": 8.75,
+      "fk_grade_max": 8.43,
       "longest_sentence_words_max": 31,
-      "worst_record": "lpc.term.grace"
+      "worst_record": "lpc.term.communion"
     },
     "term.quick_meaning": {
       "count": 19,
       "fk_grade_median": 5.86,
-      "fk_grade_max": 8.9,
+      "fk_grade_max": 7.69,
       "longest_sentence_words_max": 21,
-      "worst_record": "lpc.term.preaching"
+      "worst_record": "lpc.term.reconciliation-penitential-discipline"
     },
     "world_core.cautions": {
       "count": 1,
@@ -67,22 +67,22 @@
     },
     "world_core.formation_logic": {
       "count": 1,
-      "fk_grade_median": 8.67,
-      "fk_grade_max": 8.67,
+      "fk_grade_median": 7.99,
+      "fk_grade_max": 7.99,
       "longest_sentence_words_max": 23,
       "worst_record": "lpc.core.latin-pastoral-congregational-christianity"
     },
     "world_core.horizon": {
       "count": 1,
-      "fk_grade_median": 8.78,
-      "fk_grade_max": 8.78,
-      "longest_sentence_words_max": 25,
+      "fk_grade_median": 7.89,
+      "fk_grade_max": 7.89,
+      "longest_sentence_words_max": 21,
       "worst_record": "lpc.core.latin-pastoral-congregational-christianity"
     },
     "world_core.thinness": {
       "count": 1,
-      "fk_grade_median": 8.12,
-      "fk_grade_max": 8.12,
+      "fk_grade_median": 8.09,
+      "fk_grade_max": 8.09,
       "longest_sentence_words_max": 25,
       "worst_record": "lpc.core.latin-pastoral-congregational-christianity"
     }
@@ -98,44 +98,44 @@
       },
       {
         "record_id": "lpc.ambient.council-assembly-scale",
-        "words": 47,
-        "sentences": 2,
-        "longest_sentence_words": 27,
-        "fk_grade": 10.4
+        "words": 44,
+        "sentences": 4,
+        "longest_sentence_words": 13,
+        "fk_grade": 5.86
       },
       {
         "record_id": "lpc.ambient.two-cities-scale",
-        "words": 64,
-        "sentences": 3,
-        "longest_sentence_words": 30,
-        "fk_grade": 10.02
+        "words": 68,
+        "sentences": 6,
+        "longest_sentence_words": 15,
+        "fk_grade": 5.84
       }
     ],
     "world_core.horizon": [
       {
         "record_id": "lpc.core.latin-pastoral-congregational-christianity",
-        "words": 601,
-        "sentences": 46,
-        "longest_sentence_words": 25,
-        "fk_grade": 8.78
+        "words": 612,
+        "sentences": 49,
+        "longest_sentence_words": 21,
+        "fk_grade": 7.89
       }
     ],
     "world_core.formation_logic": [
       {
         "record_id": "lpc.core.latin-pastoral-congregational-christianity",
-        "words": 711,
-        "sentences": 54,
+        "words": 712,
+        "sentences": 57,
         "longest_sentence_words": 23,
-        "fk_grade": 8.67
+        "fk_grade": 7.99
       }
     ],
     "world_core.thinness": [
       {
         "record_id": "lpc.core.latin-pastoral-congregational-christianity",
-        "words": 614,
-        "sentences": 42,
+        "words": 628,
+        "sentences": 43,
         "longest_sentence_words": 25,
-        "fk_grade": 8.12
+        "fk_grade": 8.09
       }
     ],
     "world_core.cautions": [
@@ -195,9 +195,9 @@
       {
         "record_id": "lpc.limit.411-gesta-unread",
         "words": 97,
-        "sentences": 6,
-        "longest_sentence_words": 27,
-        "fk_grade": 9.57
+        "sentences": 7,
+        "longest_sentence_words": 20,
+        "fk_grade": 7.46
       },
       {
         "record_id": "lpc.limit.apostolic-origin-undefended",
@@ -266,10 +266,10 @@
       },
       {
         "record_id": "lpc.story.election-of-cyprian",
-        "words": 19,
+        "words": 20,
         "sentences": 1,
-        "longest_sentence_words": 19,
-        "fk_grade": 9.83
+        "longest_sentence_words": 20,
+        "fk_grade": 8.73
       },
       {
         "record_id": "lpc.story.hundred-thousand-sesterces",
@@ -287,10 +287,10 @@
       },
       {
         "record_id": "lpc.story.the-death-of-cyprian",
-        "words": 15,
+        "words": 17,
         "sentences": 1,
-        "longest_sentence_words": 15,
-        "fk_grade": 9.93
+        "longest_sentence_words": 17,
+        "fk_grade": 7.0
       },
       {
         "record_id": "lpc.story.the-plague-and-the-enemies",
@@ -403,10 +403,10 @@
       },
       {
         "record_id": "lpc.term.grace",
-        "words": 30,
+        "words": 28,
         "sentences": 2,
         "longest_sentence_words": 17,
-        "fk_grade": 8.75
+        "fk_grade": 7.59
       },
       {
         "record_id": "lpc.term.heresy",
@@ -573,10 +573,10 @@
       },
       {
         "record_id": "lpc.term.preaching",
-        "words": 23,
+        "words": 22,
         "sentences": 2,
-        "longest_sentence_words": 12,
-        "fk_grade": 8.9
+        "longest_sentence_words": 11,
+        "fk_grade": 7.47
       },
       {
         "record_id": "lpc.term.reconciliation-penitential-discipline",
@@ -646,16 +646,16 @@
       {
         "record_id": "lpc.witness.apostolic-succession-of-bishops",
         "words": 202,
-        "sentences": 10,
-        "longest_sentence_words": 51,
-        "fk_grade": 11.09
+        "sentences": 20,
+        "longest_sentence_words": 23,
+        "fk_grade": 6.85
       },
       {
         "record_id": "lpc.witness.baptism-traced-to-the-apostles",
         "words": 135,
-        "sentences": 8,
-        "longest_sentence_words": 29,
-        "fk_grade": 9.26
+        "sentences": 12,
+        "longest_sentence_words": 24,
+        "fk_grade": 6.54
       },
       {
         "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
@@ -666,24 +666,24 @@
       },
       {
         "record_id": "lpc.witness.communion-over-separation",
-        "words": 221,
-        "sentences": 8,
-        "longest_sentence_words": 48,
-        "fk_grade": 12.7
+        "words": 220,
+        "sentences": 15,
+        "longest_sentence_words": 26,
+        "fk_grade": 7.67
       },
       {
         "record_id": "lpc.witness.confessor-claim-vs-regulated-peace",
-        "words": 146,
-        "sentences": 6,
-        "longest_sentence_words": 45,
-        "fk_grade": 10.52
+        "words": 150,
+        "sentences": 10,
+        "longest_sentence_words": 27,
+        "fk_grade": 6.61
       },
       {
         "record_id": "lpc.witness.constantine-did-not-corrupt",
-        "words": 150,
-        "sentences": 6,
-        "longest_sentence_words": 50,
-        "fk_grade": 11.73
+        "words": 153,
+        "sentences": 13,
+        "longest_sentence_words": 28,
+        "fk_grade": 6.67
       },
       {
         "record_id": "lpc.witness.days-before-the-sun",
@@ -743,17 +743,17 @@
       },
       {
         "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
-        "words": 155,
-        "sentences": 10,
-        "longest_sentence_words": 26,
-        "fk_grade": 8.73
+        "words": 160,
+        "sentences": 12,
+        "longest_sentence_words": 25,
+        "fk_grade": 7.68
       },
       {
         "record_id": "lpc.witness.violence-commanded-not-cruel",
-        "words": 230,
-        "sentences": 10,
-        "longest_sentence_words": 48,
-        "fk_grade": 10.28
+        "words": 233,
+        "sentences": 18,
+        "longest_sentence_words": 20,
+        "fk_grade": 6.22
       }
     ]
   }

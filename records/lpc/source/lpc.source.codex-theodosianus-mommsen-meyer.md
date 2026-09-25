@@ -28,9 +28,8 @@ work: 'Codex Theodosianus, ed. Th. Mommsen and P. M. Meyer, Theodosiani libri XV
 edition: Vendored, held in the shared corpus as cic/texts/theodosianus-16_mommsen-meyer1905.txt, the same
   identifier the sibling Donatism build vendored (its own G3, discharged in full 2026-09-07)
 kind: vendored
-rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
-  read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
-  own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
+rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses is
+  directly verified against the vendored file (Source_Acquisition_Manifest.md SS1). Not re-opened for
   a rights re-check by this compilation pass.
 attribution_status: documentary -- Roman imperial legislation, compiled 438 from statutes of the fourth
   and fifth centuries
