@@ -5174,3 +5174,51 @@ the cost, and the unsupported-claim finding above; the R42 follow-up
 itself is closed by this measurement, per Entry 73's own scope. The
 fabrication finding is a new, separate matter for the managing thread to
 route, not something this entry resolves.
+
+**Control run, 2026-09-25 (managing thread's own ask, before any decision
+on the finding above): same script/method, against current origin/main -
+no citation_contract change of any kind, the build participants actually
+get today.** Real cost: $1.9801, 22 probes, 150 raw offenses. Same
+stratified 40-sentence hand-read method.
+
+**One confirmed unsupported claim, verified by direct search:**
+*"Athanasius of Alexandria was named among the bishops who signed it, and
+our own teachers defended that same homoousios..."* (cappadocian) -
+"Athanasius" appears **zero** times, any spelling or case, anywhere in
+cappadocian's compiled repository; the repository's own homoousios
+material never names him. This sentence was untagged (a raw offense from
+`find_uncited_claims`, which only examines untagged sentences at all) -
+the same shape as every fabrication #558's run found. Fabrication
+therefore reproduces on current main, independent of the citation_contract
+question this whole measurement line was run to answer - it is not
+something the new sentence caused. The rest of this run's own 40-sample
+reads in line with Entry 61's own original shape (supported-but-untagged
+and interpretive-or-connective, no second confirmed unsupported case found
+in the time available for this control run's own hand-read - noted
+plainly as a real limit, not glossed over: this pass verified the
+Athanasius finding to the same direct-search standard as #558's own four,
+but did not carry every one of the other 39 sentences to that identical
+depth).
+
+**Why named_claim_flags (OG-16, `worlds/pahc/Open_Gaps_Tracking.md`;
+`engine.m4.named_claim_grounding`, built in item A) did not catch any of
+these fabrications, in #558's run or this one: it cannot.** That check
+only examines a sentence that is already citation-tagged and already
+passed `grounding_net`'s own ratio test - by construction, every
+fabrication either run found came from `find_uncited_claims`'s own raw
+offense list, which is specifically the untagged sentences. An untagged
+sentence is out of `named_claim_grounding`'s own scope entirely, not a
+marker type it fails to extract or a near-miss - a structurally different
+class of gap than the one that check exists to close. The class of
+fabrication both runs found is exactly `find_uncited_claims`/R27's own
+domain (an uncited claim, enforceable today via `r27_enforce`/
+`CIC_R27_ENFORCE`, off by default) - not named_claim_grounding's.
+
+**Are these worlds live today?** `engine.m1.registry.load_registry()` and
+`cic-website/data/world-census.json`'s own `movements` list both confirm:
+cappadocian, rzg (`the-reformed-cities-zurich-and-geneva`), and witt are
+all `state: admitted`, `living: true`, and census status `"Built & Live"`
+- yes, live on the production site today. The cappadocian fabrication
+above is on a world a real participant can talk to right now.
+
+No enforcement flag touched by this control run either.
