@@ -35,11 +35,7 @@ access (unlike that terser context) so it resolves a figure id through
 the SAME figure-label lookup a figure's own card uses, rather than a
 cruder id-to-slug fallback.
 """
-import re
-
-from engine.prose import short_head
-
-_NAME_TAXONOMY_SUFFIX = re.compile(r"\s*\[[^\]]*\]\s*$")
+from engine.prose import short_head, strip_name_taxonomy_suffix
 
 
 def _short_name(record: dict) -> str | None:
@@ -51,7 +47,7 @@ def _short_name(record: dict) -> str | None:
     name = (record.get("name") or "").strip()
     if not name:
         return None
-    return _NAME_TAXONOMY_SUFFIX.sub("", name).strip() or None
+    return strip_name_taxonomy_suffix(name) or None
 
 
 def _first_sentence(text: str, max_len: int = 90) -> str:

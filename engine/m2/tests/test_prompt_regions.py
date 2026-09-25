@@ -121,3 +121,24 @@ def test_a_prompt_with_no_standing_instruction_writes_no_boundary():
     prompt = build_prompt({WITNESS["id"]: WITNESS}, {}, REGISTRY_ENTRY).decode("utf-8")
     assert _GROUND_LINE not in prompt
     assert prompt.startswith("## Witness (C-I) (cite as [[fix.witness.who-is-jesus]])")
+
+
+def test_the_gravities_list_strips_the_build_taxonomy_bracket_not_the_name():
+    """A gravity's own `name` field ends in a bracketed build taxonomy tag
+    (e.g. "Divine Pedagogy [SUPPORTING - explanatory framework]") - real
+    and useful to a build reviewer, never meant for a model prompt.
+    engine.m4.citation_cards._short_name already stripped this for the
+    participant-facing citation card; build_prompt's own Gravities list
+    did not, so the raw tag reached the model. Shared fix, via
+    engine.prose.strip_name_taxonomy_suffix - see
+    test_citation_cards.py::test_gravity_and_force_labels_strip_the_
+    build_taxonomy_bracket_not_the_name for the citation-card half."""
+    gravity = {
+        "id": "fix.gravity.a-tension",
+        "record_type": "gravity",
+        "name": "A Tension [TENSIONAL]",
+        "description": "Two poles, both real, neither surrendered.",
+    }
+    prompt = build_prompt({**REPOSITORY, gravity["id"]: gravity}, FLEET, REGISTRY_ENTRY).decode("utf-8")
+    assert "- [[fix.gravity.a-tension]] A Tension" in prompt
+    assert "[TENSIONAL]" not in prompt

@@ -234,6 +234,21 @@ def short_head(text: str) -> str:
     return (text or "").split(";")[0].split(" (")[0].strip()
 
 
+_NAME_TAXONOMY_SUFFIX = re.compile(r"\s*\[[^\]]*\]\s*$")
+
+
+def strip_name_taxonomy_suffix(name: str) -> str:
+    """gravity/force records carry a `name` ending in a bracketed build
+    taxonomy tag (e.g. "Divine Pedagogy [SUPPORTING - explanatory
+    framework]") - real and useful to a reviewer, never meant for a
+    participant or a model prompt. Strip it; the plain name underneath is
+    already a good label. Shared by engine.m4.citation_cards's own
+    _short_name (the participant-facing citation-card label) and
+    engine.m2.builders's build_prompt (the compiled Gravities list a
+    model reads), so the tag can't leak from one and not the other."""
+    return _NAME_TAXONOMY_SUFFIX.sub("", (name or "").strip()).strip()
+
+
 def content_words(text: str) -> set[str]:
     words = (w.lower() for w in _WORD.findall(text))
     return {w for w in words if w not in _STOPWORDS and len(w) > 2}
