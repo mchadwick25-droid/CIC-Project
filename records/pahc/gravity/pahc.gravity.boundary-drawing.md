@@ -62,10 +62,10 @@ description: "Refusing those who say the Lord's flesh was only appearance. The r
   This refusal connects with leadership, the meaning of martyrdom, and shared worship. But each of
   those links rests on a single Ignatius passage doing double duty, not on independent support. No text
   links it directly to the letter network. No text links it directly to state pressure at the level of
-  the broad pattern either. A separate, later reading suggests something narrower. For one member in
+  the broad pattern either. A separate, later reading suggests something narrower. For a member in
   Antioch or Asia Minor, legal danger and the refusal of rivals may have taught the same lesson. That
-  is an interpretation offered here, not something the sources say. It describes one member's
-  experience, not the broad pattern, so the two statements do not clash.
+  is an interpretation offered here, not something the sources say. It describes what a member lived
+  through, not the broad pattern, so the two statements do not clash.
 
   Because one voice carries this, the risk that it reflects one man's concerns rather than common
   practice is high. That risk was flagged from the start. The same weakness affects leadership and the

@@ -29,8 +29,8 @@ sources:
 name: "Transmission at the Ending - Selective Canonization [3B - ending/internal]"
 matrix_cell: 3B
 kind: ending
-description: "As rule by a single bishop, and an unbroken line of leaders from the apostles, became
-  the wider tradition's settled view of itself, later copying and citing favored the texts that
+description: "Rule by a single bishop, and an unbroken line of leaders from the apostles, became
+  the wider tradition's settled view of itself. Later copying and citing favored the texts that
   supported that view. Ignatius's letters are the earliest sustained argument for one bishop over
   each church, what came to be called monepiscopacy. They were kept and cited. Because they later
   mattered so much, it took two centuries of critical scholarship to establish which of them were
@@ -49,9 +49,10 @@ description: "As rule by a single bishop, and an unbroken line of leaders from t
   outside. It is not part of how this world understood itself.
 
   The claim that the later settlement itself drove these particular choices is an interpretation drawn
-  from the pattern of what survived. No source states it independently. Read this way, it explains why
-  the material from Rome, Hermas above all, is thinner and less securely part of the canon in today's
-  evidence than the Ignatian material from Antioch and Asia Minor. That gap says nothing about how
+  from the pattern of what survived. This is our own reading of the survival pattern, not a finding
+  taken from earlier study. Read this way, it explains something about today's evidence. The material
+  from Rome, Hermas above all, is thinner and less securely part of the canon than the Ignatian
+  material from Antioch and Asia Minor. That gap says nothing about how
   common either region's practice really was at the time. This world's surviving evidence favors
   literate voices, leaders, and texts that later proved useful to the canon. This late sorting is one
   more case of the same filter that worked throughout this world's life."

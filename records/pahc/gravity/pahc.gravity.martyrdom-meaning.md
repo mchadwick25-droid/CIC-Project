@@ -65,7 +65,7 @@ description: "In some of this world's communities, a death for the name is read 
   confirmation. No link with shared worship is shown, because the yearly remembrance belongs to later
   churches, not to this world's own worship.
 
-  With only two witnesses, both from one region, the risk that this reflects a few voices rather than
+  With only two witnesses, both from Antioch and Asia Minor, the risk that this reflects a few voices rather than
   common belief is high. That risk was flagged from the start. This is the clearest case where the
   evidence has to check the impression. The material is dramatic and easy to quote. It is easy to read
   as the heart of this whole world's piety. But it recurs little and is not seen across places, and how

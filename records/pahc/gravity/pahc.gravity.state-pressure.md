@@ -72,8 +72,8 @@ description: "Real, local, lethal exposure under law nobody was fully sure of - 
   the silence around the churches' institutions. Nor does it drive the meaning of martyrdom, which is
   built entirely from Ignatius and Polycarp, not from Pliny. The danger is confirmed on its own terms in
   Rome, through Tacitus's account of Nero. It is confirmed separately in Antioch and Asia Minor, through
-  Ignatius's own arrest. Pliny's material from Bithynia-Pontus supports the general pattern. But it is a
-  third example, not a third separate line of evidence."
+  Ignatius's own arrest. Pliny's material from Bithynia-Pontus supports the general pattern. But
+  Bithynia-Pontus is not one of this world's own regions, so it adds a third example, not a third region."
 manifestations:
 - "Pliny's interrogation of Christians in Bithynia-Pontus, with two enslaved ministrae tortured for testimony"
 - "Nero scapegoating Christians for the Great Fire of Rome, per Tacitus"
