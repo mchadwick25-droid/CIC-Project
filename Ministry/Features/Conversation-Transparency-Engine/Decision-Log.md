@@ -5479,3 +5479,276 @@ existing mechanism's default. The fabrication finding itself
 (`engine.m4.named_claim_grounding`/OG-16 cannot catch it either, by
 construction - the control run's own entry already established this)
 remains open and unresolved by anything measured here.
+
+**Entry 78 — 2026-09-25.** Sentence-level fact check
+(`engine.m4.sentence_fact_check`), managing thread's own follow-up work
+order after Entry 77 (PR #567, now merged). **Mark's ruling verbatim (2026-09-25, Decision 3 follow-up): "a."** Build
+a sentence-level fact check to replace R27's own paragraph/`neighbour_
+named` approach for the fabrication class Entry 77 measured it missing
+- Mark's own standing bar: "scholarly rigor that would impress a
+professor of church history, not perfection."
+
+**Goal, exactly as given:** catch an unsupported named claim (a person,
+place, date, number, or event) in ANY voice sentence, including one
+riding inside an otherwise well-cited paragraph - report-only, additive,
+no participant-visible change, no enforcement flag in this PR. Full
+module docstring: `engine/m4/sentence_fact_check.py`.
+
+**A vocabulary note, stated once rather than qualified every time
+below:** "unsupported," "ungrounded," and (where this entry keeps the
+project's own established word) "fabrication" all mean the same narrow
+thing throughout - a specific name, date, or number that does not
+appear anywhere in THIS world's own compiled ground. None of them mean
+the named person, place, or event is fictional, or that the claim is
+false as history. Athanasius, Alexandria, Pope Liberius, and Ephrem's
+*Contra Haereses* are all real; several of the underlying historical
+claims below (Felix Manz's drowning, Zwingli's circumcision argument)
+are real, documented history too. What every finding below actually
+shows is that a real claim has no support in one specific world's own
+vendored record - a citation-fidelity defect, not evidence the claim
+itself is untrue.
+
+**Design - reuse, not duplication (the explicit constraint).** Every
+real piece of machinery already existed:
+- `engine.m4.named_claim_grounding`'s own per-record ground computation
+  (`_source_ground`, OG-9's own `work`-field/`short_head` truncation) is
+  reused via two new factored-out functions in that same file,
+  `record_ground` and `repository_ground` - the only change in scope
+  this needed: sum a record's own ground over EVERY record in the
+  world's compiled repository, not only a sentence's own tag(s). The
+  marker-vs-ground comparison itself (`missing_markers`) is the exact
+  same code `ungrounded_markers` (unchanged, still tag-scoped, still
+  passes its own 15 existing tests unmodified) now also calls - one
+  implementation, not two that could drift.
+- `engine.m4.uncited_claims`'s own three allowed-uncited exemptions
+  (`_is_question`, `_is_honest_limit`, `_is_first_person_no_claim`) are
+  reused unchanged.
+- `engine.prose.claim_markers`'s own proper-noun/number detection is
+  reused, with one narrow, necessary addition (below).
+
+**A real defect found empirically, fixed at the shared root, not
+patched around: sentence-initial proper nouns.** First offline pass:
+`claim_markers`' own `_proper_nouns` excludes a sentence's OWN FIRST
+WORD from proper-noun detection (right for its own narrow, 1-3-record
+tag-scoped callers, calibrated there). Two of the four known
+fabrications name their own unsupported claim as literally the
+sentence's first word ("**Athanasius** of Alexandria was named
+among..."; "**Alexandria** itself appears only once in what we
+hold...") - with the unmodified function, both are structurally
+unflaggable regardless of ground scope. Fixed at the source, not worked
+around locally:
+`engine.prose._proper_nouns`/`claim_markers` both gained an opt-in
+`include_sentence_initial`/`include_sentence_initial_proper_nouns`
+parameter, default `False` (every one of the four existing production
+callers - `engine.m1.canon`, `engine.m2.builders`, `engine.m4.evidence`,
+`engine.m4.grounding_net` - byte-identical, confirmed by the full
+`engine/tests/test_prose.py` suite passing unchanged).
+`missing_markers` threads the same flag through; only `sentence_fact_
+check` passes `True`. Safe specifically at whole-repository ground
+scope (module docstring's own reasoning): an ordinary capitalized word
+that only coincidentally opens a sentence, not a real name, is either
+already stopword/doctrinal-vocab-excluded, or - being ordinary
+vocabulary - overwhelmingly likely to also appear elsewhere across an
+entire compiled repository, so it grounds itself rather than
+false-flagging; the narrow-ground false-positive risk that motivated
+excluding position 0 in the first place does not carry over to a
+100-300-record ground the same way.
+
+**A second real defect found empirically, also fixed at the root: a
+hypothetical/conditional clause.** `don`'s own real R27 false trigger
+(Entry 77) - "So if Alexandria held a bishop in our own years... we
+would have cared about that. But no record of ours says we ever asked
+the question" - names Alexandria (absent from `don`'s own whole
+repository) inside a pure subjunctive, and is not caught by `_is_
+honest_limit`'s own fixed-phrase/negation regex (that check looks for
+an explicit absence claim, not a subjunctive mood). Without a fourth
+exemption this module would have reproduced R27's own `neighbour_named`
+false-positive shape on the identical sentence. `_strip_hypothetical_
+clauses` (new, local to `sentence_fact_check.py`): strips only the
+"if"-to-"would"/"would have" span itself before checking, not the whole
+sentence - a name or number OUTSIDE that span, even in a sentence that
+also contains one, is still checked normally (round-2 review fix, below).
+Confirmed against two more real "if...would" hedges #558's own run
+produced independently (`cappadocian`, `witt`), never previously scored,
+both correctly exempt. **A round-2 review finding, fixed the same day:**
+the first version exempted the ENTIRE sentence on a bare "if...would"
+co-occurrence, which a reviewer showed would also exempt "Felix Manz was
+drowned in the Limmat in 1527, and if you ask why, the council would say
+heresy" - a real fabrication riding to safety behind an unrelated
+hypothetical clause. Rescoped to strip only the matched span itself
+(module docstring's own KNOWN LIMITS section carries the residual gap
+this narrower fix still has - the span runs from the literal word "if"
+to the next literal "would," not the true grammatical clause boundary,
+so a claim sandwiched between an unrelated "if" and an unrelated later
+"would" in the same sentence can still be swept up and missed).
+
+**Wiring:** `engine.m4.turn._run_ordinary_voice_turn` gains
+`voice_event["fact_check_flags"]`, computed and (on `r27_enforce`'s own
+regeneration) recomputed the identical way `named_claim_flags` already
+is - same additive, always-`[]`-on-clean-turns discipline. No default
+touched anywhere; no enforcement flag exists.
+
+**OFFLINE measurement (no live spend), hand-labeled set drawn from the
+three saved JSON reports the managing thread named:**
+
+**Positives - the known fabrication set, 4/6 recall (6 counts two live
+recurrences of the same Manz/Limmat fixture as separate rows):**
+caught - `rzg` "Felix Manz was drowned in the Limmat that same year"
+(#558), `rzg` "Felix Manz was drowned in the Limmat River in January
+1527" (Entry 77's own recurrence), `cappadocian` the control run's own
+Athanasius sentence, `witt` "Alexandria itself appears only once in
+what we hold." **Missed, both a named, honest limit rather than a
+defect:** `cappadocian` "Some among us thought he was a coward"
+(Eustathius is a real, grounded name; "coward" is an ordinary adjective
+- no proper-noun/number marker exists in this sentence at all for any
+ground-scope check to compare); `rzg`'s own 1527-execution-progression
+sentence ("...fines, then imprisonment, and finally, in 1527,
+execution") - "1527" genuinely IS present in `rzg`'s own ground
+(`rzg.witness.defending-the-anabaptist-suppression`, a different,
+real context), so the bare digit checks out even though the specific
+composed claim (a fines-then-imprisonment-then-execution progression
+culminating that year) is not independently verified by a
+marker-presence check - a structural limit of what this class of check
+can do (it verifies a name/number's presence, not the truth of a
+claim built by recombining genuinely-grounded pieces), named plainly
+rather than glossed over.
+
+**Negatives - 56 hand-verified sentences (the 15 individual sentences
+inside Entry 77's own 8 R27 false-trigger probes, 2 more real
+"if...would" hedges from #558's own run, and the 39-sentence offline
+audit's own 29 supported-but-untagged + 10 interpretive/connective
+rows): 1 false positive.** `cappadocian`'s "No Alexandrian bishop is
+named attending any synod..." - "Alexandria" (noun) is real ground
+here, "Alexandrian" (adjective) is a different token `content_words()`
+does not equate to it, the exact "different derivational form" limit
+`named_claim_grounding`'s own module docstring already names and
+explicitly declines to fix (its own Smyrna/Smyrnaeans fixture) -
+inherited unchanged via the shared `missing_markers`, not a new defect.
+**Precision on this labeled set: 4/5 (80%). Recall: 4/6 (67%).**
+
+**Broader corpus scan (no live spend), every saved sentence, not only
+the hand-labeled ones - genuine additional findings, not just
+false-positive noise:** Running the checker over #558's own 141 raw
+offenses, the control run's own 150, and Entry 77's own 343 full
+reconstructed sentences (draft text, every sentence, tagged or not)
+surfaced two clean, independently-verified findings neither prior audit
+caught: `ijc`'s own recurring "Pope Liberius had died..." (both in
+#558's run and, independently, in Entry 77's own run) - "Liberius"
+appears **zero** times anywhere in `ijc`'s compiled repository, real
+history the world's own build simply never vendored, verified by direct
+search across all records the same way the Athanasius/Manz findings
+were; and `syr`'s "his Hymns Against Heresies" (Ephrem's real *Contra
+Haereses* cycle) - genuinely absent from `syr`'s own vendored ground,
+not a wrong title: `syr.search.ephrem-corpus-gaps` (a `search_record`,
+not part of the citable repository this module grounds against) already
+names *Contra Haereses* as a work this world's own build never found a
+complete public-domain English translation of, quotable only through
+`syr.source.ephrem-prose-refutations`, a *different*, vendored work -
+"the heresiological hymns that built this world's own boundary are
+quotable only via the Prose Refutations... a named limitation, not an
+oversight," in that record's own words. The sentence names a real work
+correctly; that work is simply outside what this world's own compiled
+ground can support. Both findings are the identical shape as the four
+known fixtures (a real, checkable claim with zero support in THIS
+world's own compiled ground - not that the claim is invented), found by
+this module on real saved data no one had re-examined this closely
+before. The remainder of the corpus scan's own
+flags repeat the two already-named limitation classes above
+(derivational form: `alexandrian`/`alexandria`; a spelled-vs-digit
+number mismatch, below) plus one borderline case (`alx`'s "taught for
+another twenty years in Caesarea" - a reasonable arithmetic
+approximation from two real grounded dates [c. 231-234 to c. 253/4],
+not a wholesale invention, flagged because no record states "twenty"
+literally - named as borderline, not scored either way).
+
+**LIVE measurement, same 22 probes, current `origin/main`, region
+us-east-1, no `r27_enforce`, no enforcement of any kind - purely
+observing the new report-only field on real traffic.** **Real cost:
+$1.4857, under the $3.00 ceiling.** Full report: `engine/m4/reports/
+sentence-fact-check-live-measure-2026-09-25.json`. 9 flags across 22
+probes, hand-verified against each world's own compiled repository the
+same way as above:
+
+**5 of 9 flag real gaps in this world's own vendored ground, but not all
+five are equally strong evidence of the fabrication class this module
+was built to catch - restated honestly rather than folded into one
+count.** Three read the same way as the known fixtures - a specific
+name, unsupported, presented declaratively: `rzg` A-conflict's own
+Manz/Limmat sentence recurred a **third** independent time live ("Felix
+Manz was drowned in the Limmat in 1527 - executed for the very baptism
+he had chosen" - "limmat" absent, confirmed again); `rzg`
+B-other-tradition's own "We held to the ancient creeds the whole church
+confessed - Nicene, Apostles', Athanasian" - all three specifically
+named creeds absent, zero occurrences each, the same shape as `ijc`'s
+Liberius finding above (a specific historical name asserted with
+nothing behind it in this world's own ground); `witt`
+B-other-tradition's own "The early centuries' own arguments - Nicaea,
+the shape of the creed..." - "Nicaea" absent, and "Nicene" also absent
+anywhere in `witt`'s own repository, the same shape again. **The other
+two are weaker, and this entry says so rather than counting them the
+same way:** `rzg` A-conflict's own "the same pattern Israel's own
+circumcision held" - "Israel" and "circumcision" are general biblical
+vocabulary, not a specific person/place/date, and Zwingli's own
+circumcision-infant-baptism analogy is real, well-documented Reformed
+theology, not an invented argument - what this flag actually shows is
+that `rzg`'s own compiled ground never states the analogy using these
+words, a citation-completeness gap in the world's own theological
+vocabulary, not clear evidence the voice invented anything; `syr`
+A-conflict's own "what the Messiah was supposed to be" is the same
+weaker shape - "Messiah" absent as a literal word, but generic
+theological vocabulary in a summary sentence, not a specific checkable
+claim about a person, place, or date. Both are correctly flagged by
+this module's own literal definition (the word is not in `rzg`'s or
+`syr`'s ground); neither is offered here as comparably strong evidence
+to the other three.
+
+**4 of 9 are false positives, all falling inside the two limitation
+classes already named above - no new false-positive class found live:**
+`syr`'s "He was an Edessan" (derivational form of the real, grounded
+"Edessa"); `witt`'s "the Alexandrians would have stood" and "no source
+in our library names 'Alexandrian Christianity'" (derivational form,
+the second also another honest-limit-phrasing-gap instance - "no
+source in our library names X" is close to but does not match `_is_
+honest_limit`'s own fixed phrases, the identical class of gap Entry 61
+already named for `SCAFFOLD_MARKERS`' own coverage); and `ijc`'s own
+quoted Ammianus sentence naming "137" - `ijc.quote.ammianus-sicininus-
+massacre`'s own ground states the same number spelled ("one hundred
+[thirty-seven]"), not as the digit "137" - a THIRD, newly-identified
+instance of the same broad "same fact, different surface form" class
+(alongside derivational form and, from the offline pass, ordinal/
+cardinal mismatch on `alx`'s "eighteen"/"eighteenth") - real, grounded
+content, flagged only because the surface form differs from how the
+ground happens to spell it. None of these four cost anything
+participant-facing: this module makes no enforcement change, so a
+false positive here is review-effort cost only, not a blanked turn.
+
+**Recommendation for the managing thread.** Proceed to design an
+enforcement PR - Mark's own word, not a decision this entry makes. The
+evidence: 0-for-1 (Entry 77) versus this module's own measured
+catches, including three independent recoveries of the SAME recurring
+claim (`rzg`'s Manz/Limmat, across #558's run, Entry 77's run, and this
+entry's own live run) plus four more findings of comparable strength,
+previously unknown, across the offline and live passes combined
+(`ijc`'s Liberius, `syr`'s *Contra Haereses*, `rzg`'s Nicene/Apostles'/
+Athanasian creeds, `witt`'s Nicaea), plus two weaker, honestly-qualified
+ones (`rzg`'s Israel/circumcision, `syr`'s Messiah - general vocabulary,
+not specific named claims) - all zero-participant-facing-cost, since
+this PR ships report-only. The two
+false-positive classes are both already-understood, already-documented
+limitations of the reused ground-matching machinery (derivational form;
+number-representation mismatch), not new or surprising, and - unlike
+R27's paragraph/`neighbour_named` enforcement - none of this module's
+own false positives would, on today's evidence, need to blank an entire
+turn. **A design sketch for that separate enforcement PR, offered here
+for whoever picks it up, not built in this one:** drop or regenerate
+only the offending SENTENCE this module's own `fact_check_flags` names,
+never the whole turn - the one shape Entry 77 measured failing badly (5
+of 22 probes wiped entirely, all 5 false triggers). Concretely, that
+means a correction naming only the flagged sentence(s) (the same
+append-not-replace directive channel `r27_enforce`'s own one-retry
+mechanism already uses), one regeneration, and on a second failure
+either drop the offending sentence from the answer (never a full-turn
+blank or a Facilitator substitution) or fall back to the original draft
+sentence with its own tag stripped, rather than losing the rest of an
+otherwise-good answer over one uncorroborated claim. That enforcement PR
+is Mark's own separate decision to make, not this one's.
