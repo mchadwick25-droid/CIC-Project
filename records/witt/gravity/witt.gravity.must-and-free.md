@@ -100,9 +100,9 @@ description: '''A Christian man is a perfectly free lord of all, subject to none
   It persists from 1520 to 1530, and its direction is documented as reversing: in 1522 it holds back those going
   too fast, and in 1529 it goads the slack.
 
-  It has more competing links than any other gravity that does not at first look tensional. It competes with the
-  Word, in the sharpest tension in the whole world, and also with promise and sign, and thinly with the bodily
-  presence. It reshapes the household catechism and the two governments, while embattled Christendom and hearers
+  It has more competing links than any other gravity in this world, which is not obvious from a plain reading of
+  "liberty bound by love." It competes with the Word, in the sharpest tension in the whole world, and also with
+  promise and sign, and thinly with the bodily presence. It reshapes the household catechism and the two governments, while embattled Christendom and hearers
   and repeaters of words reshape it in turn. It reinforces justified by faith alone, the terrified and comforted
   conscience, and estate, office, and calling. It also reinforces vows, chastity, and marriage, and, more thinly,
   German for the people.
@@ -115,9 +115,9 @@ description: '''A Christian man is a perfectly free lord of all, subject to none
   It does not organize the world broadly, but this world cannot be reduced to justification by faith, the Word,
   and promise and sign without it.
 
-  What we say here matches the evidence and claims nothing the evidence cannot bear. It appears in three of four
-  registers and voices, with no voice other than the founder''s. For how it was received, there is one
-  congregation, once, on the editor''s word.
+  What we say here matches the evidence and claims nothing the evidence cannot bear. It appears in several kinds of
+  writing, but the voice throughout is the founder''s alone. For how it was received, there is one congregation,
+  once, on the editor''s word.
 
   The internal radical force of 1522 set it off, as Karlstadt and Zwilling pushed reform fast during the
   founder''s absence at the Wartburg. That pace, under the Edict and the imperial force, is the occasion of every

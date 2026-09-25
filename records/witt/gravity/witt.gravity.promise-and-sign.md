@@ -114,7 +114,8 @@ description: 'The sacrament is God''s own promise joined to an element and recei
   evidence is as strong as what we claim, since both are well documented. The evidence for parish practice is
   still thin, and what we say here does not rely on it.
 
-  It appears in all four registers and voices, with Walter supplying the voice from outside the founders. For how
+  It appears across treatise, sermon, catechism teaching, and confession, with Walter supplying the voice from
+  outside the founders. For how
   it was received, we have the movement''s own claim, in Article XXIV of the Confession and the Apology, and one
   participant, writing late. We have nothing from any parish outside Wittenberg.
 

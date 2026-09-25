@@ -97,16 +97,16 @@ description: '''It is pure invention that pope, bishops, priests and monks are t
   hearers and repeaters of words, and it shows no demonstrated relationship with the bodily presence.
 
   It is well documented. It organizes the social side of life, deciding who may do what and what counts as a holy
-  station, but it does this within the setting this world''s own central convictions set. Works are good only "in
-  faith," as justified by faith alone holds; the office is defined by the Word; and the priest administers the
-  sacraments, as promise and sign holds.
+  station, but it does this within the setting justified by faith alone, the Word, and promise and sign set up.
+  Works are good only "in faith," as justified by faith alone holds; the office is defined by the Word; and the
+  priest administers the sacraments, as promise and sign holds.
 
-  Of all the gravities, its 1520 form is also the most visibly fenced in by 1530. It bends to those central
-  convictions and to the forces acting on it rather than organizing them, and that record of being fenced in
-  matches the place given to it here.
+  Of all the gravities, its 1520 form is also the most visibly fenced in by 1530. It bends to those convictions and
+  to the forces acting on it rather than organizing them, and that record of being fenced in matches the place
+  given to it here.
 
-  It appears in three of four registers and voices, but no voice beyond the founder''s carries it. The Brussels
-  monks are told about by the founder, not by a witness, and there is no evidence of how it was received.
+  It appears in the founder''s own voice across several kinds of writing, but no voice beyond his carries it. The
+  Brussels monks are told about by the founder, not by a witness, and there is no evidence of how it was received.
 
   It began as the refusal of the first wall, the clergy''s claim to be "spiritual" over against the "temporal." It
   came from the inheritance refused, together with the papal force in its early form. It grew sharper in its

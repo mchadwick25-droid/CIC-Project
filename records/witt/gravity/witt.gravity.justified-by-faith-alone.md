@@ -129,8 +129,8 @@ description: 'The sinner is ''freely justified for Christ''s sake, through faith
   The confession''s own voice calls it "the chief topic," and the evidence fully bears that organizing weight
   rather than falling short of it.
 
-  It appears in both of this world''s voices and across most kinds of writing this world produced. There is also
-  one thin trace from a household: Katharina von Bora (TT 3147-3148), who speaks of coldness in prayer, not of
+  It appears in both of this world''s voices, across six kinds of writing. There is also one thin trace from a
+  household: Katharina von Bora (TT 3147-3148), who speaks of coldness in prayer, not of
   faith itself. As for how it was received, the founder says it was received, in Wittenberg only, in 1522.
 
   It arose from the friar''s founding conviction and from the laity''s need for assurance. The papal bull and the

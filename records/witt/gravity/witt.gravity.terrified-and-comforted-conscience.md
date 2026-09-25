@@ -106,8 +106,9 @@ description: 'Assurance against despair is what the doctrine is for. ''If you sh
   outweighs the counter-case.
 
   That placement rests on firm ground, since it is well documented in both voices, with no gap between what is
-  claimed and what is recorded. It appears in all four registers and voices, and Kate''s sentence supplies the
-  voice from outside the founders. That sentence is negative, and whether it gives her exact words is contested.
+  claimed and what is recorded. It appears across most of this world''s kinds of writing and in both voices, and
+  Kate''s sentence supplies the voice from outside the founders. That sentence is negative, and whether it gives
+  her exact words is contested.
   On how the teaching was received, we have one filtered household sentence, and it reports coldness.
 
   It grew from what the world was responding to: the laity had been taught to rely on indulgences, confession, and

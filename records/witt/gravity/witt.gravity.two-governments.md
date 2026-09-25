@@ -108,8 +108,8 @@ description: 'The temporal sword is ordained by God and is to be obeyed "save on
   The doctrine and the institutions at court level are well documented, and events that the modern editors report
   are widely accepted. The parish level is absent.
 
-  It shapes the institutional side of this world everywhere, but its own texts derive it from convictions this
-  world treats as even more central. Real Christians "need no secular sword" because of justified by faith alone,
+  It shapes the institutional side of this world everywhere, but its own texts derive it from justified by faith
+  alone and the Word. Real Christians "need no secular sword" because of justified by faith alone,
   and the sword holds the power to enforce because, as the teaching on the Word holds, the Word holds only the
   right to be preached. And its staying power fails exactly where the world''s own political history was decided,
   in 1525 and 1555.
@@ -118,7 +118,7 @@ description: 'The temporal sword is ordained by God and is to be obeyed "save on
   not of confidence. This gravity almost certainly organized a great deal across the whole period, but this
   library cannot show it. This account reflects what the library holds, not the wider history.
 
-  It appears in three of four registers and voices. There is no voice from outside the founders, since the
+  It appears across several kinds of writing, but there is no voice from outside the founders, since the
   signatories and edicts are institutions, not voices. On how it was received, we have only the court and the
   council.
 

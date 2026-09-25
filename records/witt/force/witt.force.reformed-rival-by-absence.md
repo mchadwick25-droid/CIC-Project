@@ -40,8 +40,8 @@ description: 'We searched all ten files in this library, and neither Zwingli nor
   dates and genre, not suppression: the rival is missing because the texts held here are early or are confessions
   of faith, and nobody removed it. The searches themselves are well documented. We read the two sides as differing sharply, and specifically at the
   Eucharist, and we treat that difference as a boundary of this world. That weight rests on our own comparison
-  across the wider project. This claim is not yet well supported by anything in the library itself, and it will
-  stay that way until the Marburg Articles are acquired.
+  across the wider project. This claim is not yet well supported by anything in the library itself. Our library does
+  not hold the Marburg Articles, so it cannot be checked against that text.
 
   On this boundary, the library gives this world one clause, one word, and some general labels. The clause is
   "they reject those that teach otherwise" (AC 322-324). The word appears in a list of weeds among the wheat:

@@ -92,18 +92,18 @@ description: 'This world refuses the monastic estate and affirms the married hou
   The argument is well documented, and the practice is widely accepted: pastors'' wives, and the Order''s change
   into a secular state, which the editors report.
 
-  It organizes the household and the refusal of monastic life, but it works inside three convictions this world
-  treats as even more central. Under justified by faith alone, vows are refused as works done to earn merit, and
-  under estate, office, and calling, marriage is an estate. Under the Word, "no man''s law, no vow, can annul the
-  commandment and ordinance of God" (AC 726-727).
+  It organizes the household and the refusal of monastic life, but it works inside three of this world''s other
+  convictions. Under justified by faith alone, vows are refused as works done to earn merit, and under estate,
+  office, and calling, marriage is an estate. Under the Word, "no man''s law, no vow, can annul the commandment and
+  ordinance of God" (AC 726-727).
 
   The evidence matches that account. One question is flagged without being counted as a gap between what we say
   and the evidence: where this vocabulary first grew. Is it this world''s own, or inherited from the Augustinian
   order? This library cannot answer that comparative question, so it is logged for study across other world builds
   rather than resolved here.
 
-  It appears in three of four registers and voices, plus one filtered household sentence in which Kate is the one
-  who needs patience, not a voice speaking on the subject. On how it was received, we have only the founder''s own
+  It appears across several kinds of writing, plus one filtered household sentence in which Kate is the one who
+  needs patience, not a voice speaking on the subject. On how it was received, we have only the founder''s own
   household, seen at three removes.
 
   It grew from the refusal of the monastic system this world inherited: the founder was a friar, the world''s

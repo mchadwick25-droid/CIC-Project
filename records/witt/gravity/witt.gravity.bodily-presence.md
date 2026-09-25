@@ -82,7 +82,7 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   What the texts say is well documented, but the organizing role given to it against the Reformed is another
   matter. That role is not supported by any evidence in this library itself. It is an assumption shared across
   documents, resting on our own comparison across the wider project rather than on any secondary source recorded
-  in the library, and it stays that way until the Marburg Articles are acquired.
+  in the library. Our library does not hold the Marburg Articles, so it cannot be checked against that text.
 
   Within promise and sign, on this library''s evidence, the bodily presence organizes little beyond the Supper
   itself. This does not doubt that the doctrine mattered enormously to this world''s boundary. It only says that
@@ -93,7 +93,8 @@ description: '''It is the true body and blood of our Lord Jesus Christ, in and u
   well attested. What we say here follows only what the library shows, not the weight this doctrine carries
   elsewhere, so placing it this way should not be read as calling it minor.
 
-  It appears in three of four registers and voices, but there is no trace of it from anyone but the founder. For
+  It appears in the founder''s own voice across several kinds of writing, but there is no trace of it from anyone
+  but the founder. For
   how it was received, we have the founder''s own claim in 1520 about "the simple faith... among the common
   people." That he made the claim is documented, while whether it was true rests only on thin inference.
 

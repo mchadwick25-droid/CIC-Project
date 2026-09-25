@@ -105,13 +105,14 @@ description: '''the parts sung in Latin are interspersed here and there with Ger
   print data are widely accepted.
 
   It is a medium that lets the Word and the household catechism do their work, and it does not generate formation
-  content of its own. Other things depend on it, and it explains much, as strongly as this world''s own central
-  convictions do, but its content is not its own.
+  content of its own. Other things depend on it, and it explains as much as the Word or the household catechism
+  do, but its content is not its own.
 
   There is a risk that one author''s emphasis is mistaken for the weight of the whole world. Of all the gravities,
-  this is the one where the evidence most comfortably outweighs that risk. It appears in all four registers and voices, and people other than the founder attest it
-  more fully than any other gravity. For how it was received, we have two witnesses: Walter, writing late and full
-  of praise, through three hands, and a fictional peasant.
+  this is the one where the evidence most comfortably outweighs that risk. It appears across treatise, hymn,
+  catechism teaching, and confession, and people other than the founder attest it more fully than any other
+  gravity. For how it was received, we have two witnesses: Walter, writing late and full of praise, through three
+  hands, and a fictional peasant.
 
   It grew from print as a medium, together with the laity''s need for assurance. It grew sharper when the German
   Testament became the target of Duke George''s ban, which was the territorial-princely force at work. Under the

@@ -108,9 +108,9 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   about any actual congregation, parish, or household rests only on thin inference.
 
   This is a persistent, unresolved pressure without which this world cannot be understood. In the founder''s own
-  testimony, every one of this world''s central convictions was taught more than held. This world''s most
-  distinctive institution, the self-checking visitation (known here only by reference), is its answer. This
-  pressure does not organize the world broadly; it generates programs, not content.
+  testimony, this was said about most of what this world teaches, not only about this record''s own subject. This
+  world''s most distinctive institution, the self-checking visitation (known here only by reference), is its
+  answer. This pressure does not organize the world broadly; it generates programs, not content.
 
   It is not "lay experience" under another name, because this gravity is what the founder said, while lay
   experience is what no source in this library says.
@@ -121,10 +121,9 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   and thin. What is well documented here is only the founder''s own testimony, and no later use of this record may
   cite it as evidence that Saxon congregations were ignorant, cold, or negligent.
 
-  It appears in only two of four registers and voices, the thinnest spread of any conviction in this world.
-  Melanchthon does not voice it, and the Apology''s passage on how teaching was received is positive, so it is not
-  this gravity.
-  Only writing addressed to congregations, and conversation, carry it. This gravity is itself the founder''s
+  This has the thinnest spread of any conviction in this world: only writing addressed to congregations, and
+  conversation, carry it. Melanchthon does not voice it, and the Apology''s passage on how teaching was received is
+  positive, so it is not this gravity. This gravity is itself the founder''s
   report on how his teaching was received, and that is exactly why it cannot stand in for evidence of how it was
   received.
 
@@ -141,8 +140,9 @@ description: '''Let us beware lest Wittenberg become Capernaum. I notice that yo
   founder reports this as the reason some now go years without the Sacrament.
 
   One text would give this gravity an institutional form rather than a preaching form: the Small Catechism''s 1529
-  preface. It was never added to this library, so it is missing from how the world''s teaching was passed on. The
-  tension is never resolved anywhere in the library, and that is what makes it tensional.'
+  preface. It was never added to this library, so it is missing from how the world''s teaching was passed on. This
+  world keeps teaching as if its program works, while its own founder keeps saying, in his own voice, that it does
+  not yet land, and the library never resolves that gap.'
 manifestations:
 - '"Let us beware lest Wittenberg become Capernaum... God does not want hearers and repeaters of words,
   but doers and followers" (v2 14676-14688)'
