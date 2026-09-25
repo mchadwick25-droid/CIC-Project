@@ -70,8 +70,6 @@ description: >-
   largely through hostile sources. On the group's character and scale specifically, the risk of
   reflecting its sources' own concerns is high.
 
-  The six measures give mixed results here, and that is by design.
-
   The group does recur. Optatus, Augustine, Boyd's corroborating history and imperial laws all
   mention it. But beyond its bare existence and its own name, all the weight of evidence comes
   through hostile sources. Even the name agonistici reaches us only through Augustine's report.
@@ -107,14 +105,14 @@ description: >-
   comes through Augustine, but reliably. The claims about its character are contested and come
   largely through hostile sources. Evidence this divided should not rank as central, or as
   supporting for the whole world. That holds however vividly hostile sources describe the group.
-  Holding that line is exactly the job of the check between a pattern's confidence and its rank.
 
-  It is the one candidate that most clearly fails a strict test of the movement's own voice. That
-  failure covers everything beyond its bare existence and its own name. No text in this world's
+  Of everything in this account, this pattern relies least on the movement's own voice. That gap
+  covers everything beyond its bare existence and its own name. No text in this world's
   collection, whether in a Donatist voice or free of hostile shaping, backs up the group's
-  character, scale or typical conduct. This is the very risk such a test exists to catch:
-  something that looks confirmed only because hostile sources repeat it. It is also the direct
-  ground in the evidence for refusing to rank the group across the whole world.
+  character, scale or typical conduct. That gap is exactly why the group's character and scale
+  cannot be trusted as confirmed: they look confirmed only because hostile sources repeat them. It
+  is also the direct reason this pattern is not treated as central or supporting for the whole
+  world.
 
   Two forces touch it. Imperial laws swung back and forth, and they named the group directly and
   targeted it. And hostile sources report that Circumcellions took part in suppressing the

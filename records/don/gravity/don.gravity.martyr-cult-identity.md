@@ -57,7 +57,7 @@ description: >-
 
   Three separate texts carry it, each voiced or written by Donatists, so it recurs very strongly.
   They are the Passio Marculi, Macrobius's own letter to the Carthage congregation on Isaac and
-  Maximianus, and the Passio Donati sermon, newly added to the collection. Inscriptions at Bagai
+  Maximianus, and the Passio Donati sermon. Inscriptions at Bagai
   and elsewhere attest the Deo laudes acclamation independently. It is this world's distinctive
   strength.
 
@@ -75,7 +75,7 @@ description: >-
 
   Texts attest it very strongly over time, across nearly the whole period this world covers. The
   earliest is the sermon. Monceaux dates its events to 317 and its writing to around 320. It is
-  the earliest Donatist-authored text in this world's entire collection. The latest are the
+  the earliest Donatist-authored text that survives from this world. The latest are the
   Passiones of the Macarian era, 347-348.
 
   It reinforces the purity doctrine and the refusal of the state's religious authority. The sermon
@@ -91,7 +91,7 @@ description: >-
   sources, which limits them. Of the four central patterns, this is the one that escapes that
   limit. It escapes it in the detail of its evidence, not only in its bare existence.
 
-  It passes the test of the movement's own voice most cleanly of the four central patterns. The
+  Of the four central patterns, this one rests most cleanly on the movement's own voice. The
   Donatists' own voice and evidence that no hostile writer shaped carry much of it. It does not
   rest on a mere fragment of that record.
 

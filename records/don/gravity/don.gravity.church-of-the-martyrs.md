@@ -74,8 +74,8 @@ description: >-
 
   Three separate texts carry it, each voiced or written by Donatists themselves, so it recurs very
   strongly. The first is the Passio Marculi. The second is the Passio Isaac et Maximiani, which is
-  Macrobius's own letter to the Carthage congregation. The third is the Passio Donati sermon,
-  newly added to the collection. Inscriptions at Bagai and elsewhere attest the Deo laudes
+  Macrobius's own letter to the Carthage congregation. The third is the Passio Donati sermon.
+  Inscriptions at Bagai and elsewhere attest the Deo laudes
   acclamation independently. The pattern also runs through this world's own statement of its core
   identity. It is this world's distinctive strength.
 
@@ -89,14 +89,14 @@ description: >-
   form people strongly. They are the most directly formative practices this world's record
   documents. They were carried out again and again.
 
-  It explains a great deal, starting with the specific words of worship, such as Deo laudes and
+  This pattern explains the specific words of worship, such as Deo laudes and
   anniversaria commemoratio. It explains why new texts kept appearing after each episode of
   persecution. And it explains the self-image of a persecuted, true church that runs through this
   world's own statement of its core identity.
 
   Texts attest it very strongly over time, at many points spread across nearly the whole period
   this world covers. The earliest is the sermon. Monceaux dates its events to 317 and its writing
-  to around 320. It is the earliest Donatist-authored text in this world's collection. The latest
+  to around 320. It is the earliest Donatist-authored text that survives from this world. The latest
   are the Passiones of the Macarian era, 347-348.
 
   It strongly reinforces both the purity doctrine and the refusal of the state's religious
@@ -114,8 +114,8 @@ description: >-
   at risk of reflecting one author's concerns. That is a positive finding in its own right, not
   just the absence of a warning.
 
-  It also passes the test of the movement's own voice most cleanly of the four central patterns.
-  The Donatists' own voice and evidence that no hostile writer shaped carry much of it: three
+  Of the four central patterns, this one rests most cleanly on the movement's own voice. The
+  Donatists' own voice and evidence that no hostile writer shaped carry much of it: three
   distinct texts, plus inscriptions. It does not rest on a mere fragment of that record.
 
   We can trace the forces behind it. Its deep root is the Diocletianic persecution, which made

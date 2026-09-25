@@ -91,7 +91,7 @@ description: >-
   an ongoing strain within the councils of the movement's own parallel hierarchy.
 
   That split is the only force this tension connects to. It is the narrowest link of any
-  classified pattern in this world. It is narrower even than the Circumcellions, who connect to
+  pattern in this world's account. It is narrower even than the Circumcellions, who connect to
   two.
 
   That narrowness is exactly what a tightly scoped, single-episode tension should show. It is not

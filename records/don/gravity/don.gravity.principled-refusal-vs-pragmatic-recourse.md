@@ -64,9 +64,9 @@ description: >-
   Augustine's own writing confirms the legal moves of the Maximianist years.
 
   This pattern can be called "principled refusal against pragmatic exception," rather than simple
-  incoherence. That label is our own interpretation. It draws on the finding that "the pattern remains
-  refusal-under-pressure on balance... not an absolute refusal at every point." It is a defensible
-  reading. But no source shows the Donatists themselves describing the tension this way.
+  incoherence. That label is our own interpretation. On balance, the pattern is refusal-under-
+  pressure, not an absolute refusal at every point. It is a defensible reading. But no source
+  shows the Donatists themselves describing the tension this way.
 
   The tension does not sit in one moment. The 313 petition came at the founding dispute, the same
   moment as the rigorist break. The 361 petition to Julian came in the long middle period, under

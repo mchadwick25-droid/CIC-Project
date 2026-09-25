@@ -75,8 +75,8 @@ description: >-
   material in this world. The Maximianist schism assumes a system of councils that was already
   elaborate.
 
-  Other things depend on it strongly. But this measure is the one that shows it to be supporting
-  rather than central. The Maximianist split from within was possible only because a complex
+  Other things depend on it strongly. But that dependency is exactly what shows it to be
+  supporting rather than central. The Maximianist split from within was possible only because a complex
   hierarchy already existed, with its own councils and disciplinary machinery. The 411 Conference
   and the fights over property and basilicas took their specific shape because there were two
   complete rival institutions. But take away the purity doctrine, rebaptism and the martyr cult,
@@ -88,7 +88,7 @@ description: >-
   attends. But it creates no distinct formative practice of its own beyond what the three central
   patterns already supply.
 
-  It explains a great deal, starting with exactly how the Maximianist affair worked, with rival
+  This pattern explains exactly how the Maximianist affair worked, with rival
   councils and rival consecrations. It explains why imperial laws targeted an organised rival
   clergy and its property. And it explains the exact bishop counts in the 411 Conference's own
   record.
@@ -101,11 +101,11 @@ description: >-
   scattered feeling. The Maximianist split grew from within it. Imperial laws targeted its clergy
   and property specifically.
 
-  The dependency measure is the one that shows its supporting status. Its power to form people is
+  That same dependence marks it as supporting rather than central. Its own power to form people is
   only moderate.
 
   Why supporting rather than central? The rule is this. A central pattern produces its own
-  distinct cluster of practice that people directly carry out, and that cluster would not exist
+  distinct cluster of practice that people directly carry out. That cluster would not exist
   without it. A supporting pattern gives the institutional, unifying structure within which the
   central patterns operate. That is exactly this pattern. It is best understood as the container
   the central patterns work within. It is not a fourth, independent formative experience.
@@ -113,9 +113,9 @@ description: >-
   Its confidence rating and its supporting status agree. The difference between the bare fact and
   individual conduct is kept in the record.
 
-  It passes the test of the movement's own voice on the bare institutional fact. Even hostile
-  sources report that fact without disputing it. Portraits of individual bishops still come
-  through hostile sources and are treated with that in mind.
+  On the bare institutional fact, this pattern rests on the movement's own voice, not only a
+  hostile source's. Even hostile sources report that fact without disputing it. Portraits of
+  individual bishops still come through hostile sources and are treated with that in mind.
 
   More forces act on this pattern than on any other in this world. Early on, the rival
   consecration of Majorinus, whom Donatus succeeded, made it possible. That consecration put the

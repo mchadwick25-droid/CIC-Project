@@ -42,8 +42,7 @@ description: >-
   those of Optatus and Augustine, before they reached us. This is the literature of the party that
   eventually won. It was kept by institutions with every reason to keep it.
 
-  This condition is documented, and our founding studies of this world name it, throughout, as
-  this world's central evidentiary problem.
+  This condition is documented as this world's central evidentiary problem.
 
   How this world experienced this condition cannot be recovered from the sources that survive. Its
   record does not show its own people reflecting on it directly. No Donatist chronicle of Arles

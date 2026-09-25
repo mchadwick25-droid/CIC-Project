@@ -72,7 +72,7 @@ description: >-
   an ongoing strain within the councils of the movement's own parallel hierarchy.
 
   That split is the only force this tension connects to. It is the narrowest link of any
-  classified pattern in this world. The narrowness is not a sign of doubt about our confidence.
+  pattern in this world's account. The narrowness is not a sign of doubt about our confidence.
   The Circumcellion pattern is different: there, a narrowing of scope does raise that doubt.
 
   This tension is tightly scoped to one episode. Its whole evidence base is the Maximianist

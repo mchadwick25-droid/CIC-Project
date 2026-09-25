@@ -50,8 +50,8 @@ description: >-
   What this slow institutional erosion felt like from inside cannot be recovered from the
   surviving sources. No direct account of it survives to be read.
 
-  Any future account of this world is bound to record this force honestly. The decline was real,
-  it came later than 439, and it unfolded gradually rather than in one sudden ending.
+  The decline was real, and its actual end came after 439, not at that date. It unfolded
+  gradually, not in one sudden ending.
 
   This force is also the reason our confidence stops precisely where it does. We can trace the
   survival of this movement's own bishops, basilicas and councils only as far as the surviving

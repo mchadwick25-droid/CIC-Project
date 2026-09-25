@@ -58,8 +58,7 @@ description: >-
   Rebaptism is a central, defining pattern of this world.
 
   Two works, On Baptism and Answer to the Letters of Petilian, are both largely devoted to this
-  practice, so it recurs strongly. Our account of this world calls rebaptism "the rite that marks
-  who truly belongs."
+  practice, so it recurs strongly. Rebaptism is the rite that marks who truly belongs.
 
   Much depends on it. A person's membership depends strongly on it. So do the canons of the
   Council of Carthage in 419 on receiving Donatist clergy. So does the Maximianist precedent, when
@@ -70,7 +69,7 @@ description: >-
   and strongly. Of all the marks of belonging this world's record documents, it is the most
   concretely enacted and the most personally felt.
 
-  It explains a great deal, starting with why the movement drew sustained attention from imperial
+  This practice explains why the movement drew sustained attention from imperial
   law. Rebaptizing Catholics was itself a targeted offense. It also explains the specific concerns
   of the 411 Conference.
 

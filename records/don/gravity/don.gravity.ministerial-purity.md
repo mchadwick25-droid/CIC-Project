@@ -91,7 +91,7 @@ description: >-
   purity is the ground of a valid sacrament. It is not a side belief. It is the movement's own
   account of why it exists at all.
 
-  It explains a great deal, starting with how the schism began in the traditio accusation of
+  This doctrine explains how the schism began in the traditio accusation of
   311/312. It explains the steady refusal to reunite, even under sustained imperial pressure. To
   accept Caecilianist sacraments as valid would concede the whole doctrine. And it explains the
   specific shape of the Maximianist paradox.
@@ -107,7 +107,7 @@ description: >-
   reshapes it: clergy were received back without being ordained again. That precedent tests its
   own inner logic.
 
-  Why central rather than supporting? The same rule applies to every candidate. A central pattern
+  Why central rather than supporting? A central pattern
   produces its own distinct cluster of practice that people directly carry out. Without the
   pattern, that cluster would not exist, or would be fundamentally different. This purity logic,
   together with the rebaptism rite, produces the practice of crossing the boundary. That practice
@@ -119,11 +119,11 @@ description: >-
   centrality are documented. Its detailed argument comes to us through Augustine. That gap is
   recorded in full, not resolved.
 
-  It passes the test of the movement's own voice, with the same qualification. That test asks one
-  question. Does a pattern appear only in how the hostile record argues against the Donatists, or
-  also in something closer to their own voice? This doctrine's existence appears in Petilian's own
-  quoted words. Its detailed argument still comes largely through hostile sources. Two separate
-  checks reach the same finding here, and that agreement is itself a kind of corroboration.
+  This doctrine also rests on the movement's own voice, with the same qualification as its
+  confidence rating. This doctrine's existence appears in Petilian's own quoted words, not only in
+  how the hostile record argues against the Donatists. Its detailed argument still comes largely
+  through hostile sources. Both findings agree, and that agreement is itself a kind of
+  corroboration.
 
   Two early forces made it possible. One was the strict inheritance of Cyprian of Carthage's
   third-century theology. The other was the accusation against Felix and the rival consecration of

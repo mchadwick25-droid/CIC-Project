@@ -98,7 +98,7 @@ description: >-
   threat and still refused to grant the state authority over who was the true church. That was a
   stance held across generations. It was not a position leaders declared once.
 
-  The refusal explains a great deal. It explains why the rulings of Rome in 313 and Arles in 314
+  The refusal explains why the rulings of Rome in 313 and Arles in 314
   were rejected, not accepted as true church verdicts. Accepting them would have granted authority
   to a process aligned with the state. It explains the exact reasoning behind where this world's
   time period ends. It also explains the repeated attention imperial lawmakers gave this movement,
@@ -111,15 +111,15 @@ description: >-
 
   We do not count this as a failure to last. The dominant pattern holds across the whole period.
   But we will not smooth it into an unqualified success either. Instead, a separate, related
-  tension exists to test exactly this qualification, as a pattern in its own right.
+  tension captures exactly this qualification, as a pattern in its own right.
 
   This refusal works strongly with the other patterns of this world. It reinforces the cult of the
   martyrs, who die from this refusal and bear witness to it. It reinforces rebaptism, since the
   rebaptism of Catholics is the exact practice imperial edicts target. It connects with the rival
   hierarchy, whose clergy and property imperial legal action targets.
 
-  The separate, related tension directly limits this refusal. That tension is kept as its own
-  record, not folded into this account. The refusal also touches, narrowly, the Circumcellions, a
+  The separate, related tension directly limits this refusal. That tension is kept as its own,
+  separate pattern. The refusal also touches, narrowly, the Circumcellions, a
   group that was the direct target of the imperial law Codex Theodosianus 16.5.52.
 
   Why does this count as central, rather than as a supporting pattern? Because this refusal

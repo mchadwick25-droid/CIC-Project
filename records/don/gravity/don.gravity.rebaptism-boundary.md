@@ -82,7 +82,7 @@ description: >-
   and strongly. Of all the marks of belonging this world's record documents, it is the most
   concretely enacted and the most personally felt.
 
-  It explains a great deal, starting with why the movement drew direct, sustained attention from
+  This practice explains why the movement drew direct, sustained attention from
   imperial law. Rebaptising Catholics was itself a targeted offence under successive edicts. It
   also explains the specific concerns of the 411 Conference.
 

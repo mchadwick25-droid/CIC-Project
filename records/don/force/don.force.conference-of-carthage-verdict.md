@@ -44,8 +44,7 @@ description: >-
   Emeritus of Caesarea and the other Donatist bishops present are recorded speaking at length for
   their own side. The record of this is the Gesta Collationis Carthaginiensis.
 
-  That text itself is now in this world's own collection. So their own words on the verdict itself
-  can now be read directly. No specific claim has yet been drawn from them in this account.
+  Their own words on the verdict itself survive and can be read directly.
 
   This world's own record does not preserve a direct account of how its people received this
   particular verdict.
@@ -76,11 +75,9 @@ description: >-
   The movement's institutions wore down from within under this pressure. That decline was the
   combined effect of both forces, not of either one alone.
 
-  One gap remains open, and we name it plainly. This world's own Donatist account of receiving
-  this verdict can now be recovered in principle, because the Gesta is in the collection.
-
-  But no specific claim has yet been drawn from it. That is real, unfinished work, and this record
-  does not resolve it.
+  One gap remains open. The Gesta preserves the Donatist bishops' own words at the conference
+  itself, but not how ordinary Donatists back home received the verdict afterward. That reception
+  is not stated anywhere in the surviving record.
 manifestations:
 - 279 Donatist against 286 Catholic bishops seated
 - Emeritus of Caesarea speaking at length on the Donatist side of the exchange (don.figure.emeritus, don.quote.emeritus-magno-argumento)

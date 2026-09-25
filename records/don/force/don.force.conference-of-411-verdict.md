@@ -52,11 +52,8 @@ description: >-
   Sustained penal legislation followed the verdict, and the record documents both.
 
   The Gesta Collationis Carthaginiensis records Emeritus of Caesarea and the other Donatist
-  bishops present speaking at length for their own side. That text is now in this world's
-  collection.
-
-  So their own words on the verdict itself can be read directly. No specific claim has yet been
-  drawn from them.
+  bishops present speaking at length for their own side. Their own words on the verdict itself
+  survive and can be read directly.
 
   For the sources read into this account so far, how this world's people received the verdict
   cannot be recovered. The record keeps no direct account of their reception of this particular

@@ -83,8 +83,8 @@ horizon: >-
   correspondence in the 590s. Four of his letters, directly read, still urge suppression, a
   council, and an inquiry into Donatist rebaptism in Numidia.
 
-  No continuous line to any present-day communion is documented at any point. Whether this
-  communion continues as a living tradition today is not confirmed.
+  No continuous line to any present-day communion is documented at any point. This is not a
+  living tradition today: no church now living holds a documented line back to it.
 
   This world's own self-description is the Church of the Martyrs: the pure, persecuted, true
   church. In its own eyes, it holds an unbroken, traditor-free line of ordination. It sees its
@@ -203,8 +203,8 @@ cautions: >-
   poorest-quality scan we hold for a text of that importance.
 
   3) The Frends thesis is contested, not settled. It reads this world's rural strength, and the
-  Circumcellions, as native social protest. It is the most contested single argument this world's
-  source collection draws on. Shaw, Brown, and Tengstrom are its named counterpoints. It is
+  Circumcellions, as native social protest. It is the most contested single argument made about
+  this world. Shaw, Brown, and Tengstrom are its named counterpoints. It is
   flagged for priority second-opinion review before it supports any specific claim.
 
   4) The Circumcellion split must be held. The group's existence is independently attested outside

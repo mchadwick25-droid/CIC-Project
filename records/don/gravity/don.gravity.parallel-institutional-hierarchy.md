@@ -54,7 +54,7 @@ name: Parallel Institutional Hierarchy [SUPPORTING -- integrating/institutional 
 description: >-
   This world built a complete rival church, with its own bishops, basilicas, and councils. It is a
   supporting pattern, not a central one. It is the integrating center, the structure the central
-  patterns operate within. The test that shows it is supporting rather than central is what
+  patterns operate within. What shows it to be supporting rather than central is what
   depends on it, not how it forms people.
 
   From the outset there were two rival bishoprics, and the contest was repeated town for town. The
@@ -76,7 +76,7 @@ description: >-
   patterns already supply. This weaker finding about formation is a separate one. The finding
   about dependence is what makes the hierarchy supporting.
 
-  It explains a great deal, starting with exactly how the Maximianist affair worked. It also
+  This pattern explains exactly how the Maximianist affair worked. It also
   explains why the 411 Conference's record could count bishops so precisely.
 
   The contest lasted, running town for town from 311/312 to 439 and beyond. What followed was a
