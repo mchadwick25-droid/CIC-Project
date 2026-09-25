@@ -3,50 +3,65 @@ source_file: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
 assignments:
   - work: "Ecclesiastical History, Part III"
     author: john-of-ephesus
-    locus: "Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506, and before 5883 for Book I); III.36-37 and Book I's Tritheist-controversy material (c. lines 4475-4860) directly verified"
+    locus: "Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506, and before 5883 for Book I); III.36-37 directly verified as John's own narrative"
     atlas_ids:
       - syriac-orthodox-west-syriac-christianity
     role: tradition
     confidence: assigned
     note: >
       John's own contemporary account of Justinian- and Justin II-era
-      persecution of the Miaphysite party from the persecuted side.
-      Corrected from this file's own Revision 1, which understated this
-      volume's own holdings as "Book III, and fragments of Books IV-VI via
-      the index" - the vendored file in fact carries Books I-VI in
-      translation, confirmed by direct body-heading checks at the line
-      numbers above. This matters substantively: Revision 1's
-      undercounting hid real material from this world's own Doc_01/Doc_02
-      work, specifically:
-      - Book I (c. lines 4475-4860): the Tritheist/Condobaudite
-        controversy - John Ascunages's "one nature, many Godheads"
-        formula, John Philoponus's philosophical defense of it, and a
-        four-day public disputation (John of Ephesus himself a
-        participant) that ended in the Tritheite party's defeat. Real,
-        directly-attested simultaneous internal divergence within the
-        anti-Chalcedonian movement itself - see this world's own Doc_01
-        SS6 for the strand-determination consequences.
-      - Book IV: the later Paulite/Jacobite schism within Jacob
-        Baradaeus's own hierarchy, per this world's own census-sourced
-        documented story and this session's own review pass (not yet
-        independently line-verified by the drafting thread itself as of
-        this note).
-      - Book III.36-37 (not III.38, which opens a different topic):
-        John's own commissioned mission (542 CE) to the pagan hill
-        country of Asia, Caria, Lydia and Phrygia - the Derira temple
-        conversion, imperial funding, the Tralles jurisdiction dispute -
-        directly verified against the file.
+      persecution of the Miaphysite party from the persecuted side. The
+      vendored file carries Books I-VI in translation, confirmed by direct
+      body-heading checks at the line numbers above (an earlier pass
+      understated this as "Book III, and fragments of Books IV-VI via the
+      index" - corrected).
+
+      Book I (c. lines 4460-4578) contains a Tritheist/Trinitarian
+      controversy within the Monophysite party itself - but this stretch
+      is the 1860 TRANSLATOR's own editorial excursus (Payne Smith,
+      drawing explicitly and by name on the 13th-century chronicler
+      Bar-Hebraeus), not John's own contemporary narrative: the excursus
+      closes with the editor's own words, "We may now, however, return to
+      our author, whose narrative will be found to confirm the above
+      statements of Bar-Hebraeus" (c. line 4568), after which John's own
+      text resumes with Conon's arrest. Only material from that point
+      onward (Conon's arrest and imprisonment, and whatever else John
+      himself narrates about this controversy further in) is John's own
+      voice and directly quotable as such; the excursus itself (the
+      Ascunages/Philoponus background, the Condobaudites' name and
+      doctrine, the reported four-day public disputation) is Payne Smith's
+      own 1860 scholarly apparatus relaying Bar-Hebraeus, real historical
+      information but not John of Ephesus's own eyewitness testimony -
+      a source record citing this material must attribute it correctly
+      and not present it as John's own words.
+
+      The dispute itself, per Ascunages's own creed as quoted in the
+      excursus ("I acknowledge one nature of Christ the Incarnate Word,
+      but in the Trinity I reckon the natures and substances and Godheads
+      according to the number of the persons"), is a Trinitarian
+      controversy arising inside the anti-Chalcedonian camp - the
+      Tritheists agreed with the movement's own mainstream on Christ's own
+      one nature; they diverged by applying a parallel
+      count-by-number-of-persons logic to the Trinity itself, yielding
+      three Godheads. Not a rival reading of the Christological "one
+      nature" formula itself - characterizing it that way overstates the
+      overlap with this world's own defining Chalcedon-era dispute and
+      should be avoided.
+
+      Book III.36-37 (not III.38, which opens a different topic): John's
+      own commissioned mission (542 CE) to the pagan hill country of Asia,
+      Caria, Lydia and Phrygia - the Derira temple conversion, imperial
+      funding, the Tralles jurisdiction dispute - directly verified as
+      John's own narrative voice.
 
       The Preface (lines 208-224) states the mission's own "seventy
-      thousand" baptism figure, attributing it not to its own editorial
-      summary but to Part II extracts of John's own work preserved in the
-      Chronicle of Dionysius (per Assemani's Bibliotheca Orientalis, vol.
-      ii) - corrected from this file's own Revision 1, which wrongly
-      called this "the 1860 editor's own summary." The correct next step
-      for locating this figure in John's own words is those Part
-      II/Chronicle-of-Zuqnin fragments (not vendored here), not further
-      searching within this Part III volume.
+      thousand" baptism figure, attributing it to Part II extracts of
+      John's own work preserved in the Chronicle of Dionysius (per
+      Assemani's Bibliotheca Orientalis, vol. ii) - not this Part III
+      volume's own editorial summary. The correct next step for locating
+      this figure in John's own words is those Part II/Chronicle-of-Zuqnin
+      fragments (not vendored here).
 
-      Also corrected: Revision 1 stated Book II.44 "does not survive in
-      this volume." It does - confirmed around line 9000 ("ninety-nine
-      new churches and twelve monasteries").
+      Book II.44 (confirmed around line 9000, "ninety-nine new churches
+      and twelve monasteries") does survive in this volume - an earlier
+      pass wrongly stated it did not.

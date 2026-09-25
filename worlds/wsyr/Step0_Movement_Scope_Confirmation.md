@@ -65,19 +65,20 @@ without separation" — a formula meant to guard against both blending Christ's
 divine and human natures into one hybrid (the Eutychian error, which the
 council itself condemned) and separating them into two persons (the
 Nestorian error, condemned earlier at Ephesus in 431). Severus of Antioch and
-the wider movement that came to be called "miaphysite" rejected this formula,
-but not the substance it was trying to protect. Following Cyril of
-Alexandria's own language — "one incarnate nature of God the Word" (*mia
-physis tou theou logou sesarkomene*) — Severus held that after the union,
-Christ is a single composite nature ("*mia*," one, not "*monos*," alone),
-in which the fullness of both divine and human reality is preserved without
-confusion. Severus's own writing draws the distinction explicitly against
-Eutyches: he anathematized Eutychianism by name, insisting Christ's humanity
-was not absorbed into or diminished by his divinity. The dispute with
-Chalcedon was over **whether "two natures" or "one united nature" was the
-correct formula for saying the same substantive thing** — full divinity,
-full humanity, united without confusion or division in one person — not over
-whether Christ was fully divine, fully human, or genuinely incarnate.
+the wider movement that came to be called "miaphysite" rejected this formula.
+Following Cyril of Alexandria's own language — "one incarnate nature of God
+the Word" (*mia physis tou theou logou sesarkomene*) — Severus held that
+after the union, Christ is a single composite nature ("*mia*," one, not
+"*monos*," alone). Severus's own writing draws a distinction explicitly
+against Eutyches: he anathematized Eutychianism by name, insisting Christ's
+humanity was not absorbed into or diminished by his divinity — he did not
+read his own "one nature" language as a step toward Eutyches's error, and
+said so directly. What Severus's own letters do **not** support is a claim
+that he regarded the dispute with Chalcedon itself as merely a difference of
+formula over shared substance: as the two claims below make precise, his own
+words treat "two natures after the union" as functionally equivalent to
+Nestorius's own error, not as a harmless alternative phrasing of his own
+position.
 
 **Two separate claims need to be kept apart here, corrected from Revision 1,
 which ran them together under one overstated confidence tag.**
@@ -125,15 +126,20 @@ independent of how claim two is eventually assessed.
 
 **A further complication, not visible until the vendored sources were read
 directly: the movement was not doctrinally uniform even on its own side of
-451.** The vendored Ecclesiastical History, Part III (Book I) documents a
-real internal Tritheist/Condobaudite controversy — a faction, associated
-with John Ascunages and later defended philosophically by John Philoponus,
-that pressed the movement's own "one nature" language toward a
-count-the-persons reading the movement's own mainstream (including John of
-Ephesus himself, a direct participant in a four-day public disputation
-against it) rejected as tending toward three Gods. A separate Julianist
-faction (holding Christ's body was incorruptible from the moment of union)
-was also active within the anti-Chalcedonian camp in this period. Neither
+451.** The vendored Ecclesiastical History, Part III (Book I, in the 1860
+translator's own editorial excursus, drawing explicitly on the
+13th-century chronicler Bar-Hebraeus — not John of Ephesus's own
+contemporary narrative; see Doc_02 §2) documents a real internal
+Trinitarian controversy within the anti-Chalcedonian camp itself: a
+faction associated with John Ascunages, and later defended philosophically
+by John Philoponus, affirmed the movement's own "one nature" Christology
+(Ascunages's own quoted creed says so directly) but applied a parallel
+count-by-number-of-persons logic to the Trinity, which the movement's own
+mainstream rejected as tending toward three Gods. This is a Trinitarian
+dispute, not a rival reading of the Christological formula this world's
+own 451 rupture with Chalcedon turns on. A separate Julianist faction
+(holding Christ's body was incorruptible from the moment of union) was
+also active within the anti-Chalcedonian camp in this period. Neither
 faction's own theology is being scope-tested here — the movement-level
 floor clears independent of them — but their existence means "the
 movement" cannot be treated as a single undifferentiated voice even on
@@ -164,9 +170,15 @@ to centuries. The A1 direct-confession test governs.
 
 **A3 (contemporary non-realist reinterpretation test).** Not applicable —
 this is a historical, not a contemporary, movement, and nothing in its
-confession reinterprets Article 4's claims symbolically or non-literally;
-the dispute is entirely about which technical formula correctly states a
-claim both sides read in the same realist, ontological sense.
+confession reinterprets Article 4's claims symbolically or non-literally.
+Both this world's own side and Chalcedon read Christ's divinity and
+humanity in the same realist, ontological sense — that much is not in
+dispute between them (§1's claim one). Whether the further, narrower
+technical dispute over "two natures" versus "one united nature" was itself
+a difference without ontological substance is a separate question (§1's
+claim two, Contested) that A3 does not need answered either way: A3 is
+about whether *this* movement reinterprets Article 4 non-literally, and it
+does not.
 
 **A4 (hand-selected adjacent inclusion).** Not invoked. This candidate clears
 A1 directly; no waiver of any Article 4 commitment is needed or sought.

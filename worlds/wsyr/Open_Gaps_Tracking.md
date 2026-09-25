@@ -58,17 +58,21 @@ when.
    individually dated, characterized, or assessed for own-voice/
    opponent-voice status at all.
 
-5. **Strand-singular finding — withdrawn and reopened, Revision 2.**
-   Revision 1 found this world strand-singular using a sequential-phases
-   argument borrowed from `ijc`'s own reasoning. An independent adversarial
-   review found this misapplied `ijc`'s own test (sequential phases are an
-   Article 15 world-merge finding, not an Article 21 strand test) and
-   missed real, directly-attested simultaneous internal divergence in the
-   vendored Ecclesiastical History: a Tritheist/Condobaudite controversy
-   (Book I — John Ascunages, John Philoponus, a four-day public
-   disputation John of Ephesus himself took part in) and a later Paulite/
-   Jacobite schism within Jacob Baradaeus's own hierarchy (Book IV). Doc_01
-   §6 (Revision 2) withdraws the strand-singular disposition and leaves
+5. **Strand-singular finding — withdrawn and reopened, Revision 2, source
+   attribution corrected Revision 3.** Revision 1 found this world
+   strand-singular using a sequential-phases argument borrowed from `ijc`'s
+   own reasoning. An independent adversarial review found this misapplied
+   `ijc`'s own test (sequential phases are an Article 15 world-merge
+   finding, not an Article 21 strand test) and missed real internal
+   divergence in the vendored Ecclesiastical History: a Trinitarian
+   controversy within the anti-Chalcedonian camp itself (Book I — John
+   Ascunages, John Philoponus) and a later Paulite/Jacobite schism within
+   Jacob Baradaeus's own hierarchy (Book IV). A second review pass found
+   the Book I controversy material, including the reported four-day public
+   disputation, is the 1860 translator's own editorial excursus (citing
+   the 13th-century chronicler Bar-Hebraeus by name), not John of
+   Ephesus's own contemporary reporting — corrected throughout. Doc_01
+   §6 (Revision 2/3) withdraws the strand-singular disposition and leaves
    the question open for Doc_02's fuller treatment: whether either
    divergence is an Article-21 strand, a boundary case (the `syr`/Bardaisan
    model), or an internal controversy the movement's own mainstream
@@ -213,3 +217,9 @@ when.
     Maphrianate of Tagrit, 629). See Doc_01 §2-3. Not yet fully developed
     into this world's own Doc_04-level gravity/forces work — flagged as a
     real area needing closer treatment when that step is reached.
+
+17. **The 586-616 Antioch-Alexandria schism and Heraclius's own doctrinal
+    reunion efforts.** OPEN, new Revision 3. Named as a fourth internal
+    hinge in Doc_01 §2, but not researched in any depth this session — a
+    real gap in this document's own account of the 451-636 window's later
+    decades, flagged rather than left silently absent.

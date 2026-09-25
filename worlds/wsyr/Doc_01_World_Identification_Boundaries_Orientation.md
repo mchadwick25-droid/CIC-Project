@@ -26,12 +26,16 @@ Christianity, Edessa/Nisibis, c. 200-410).
 **What recurring formation ecology exists?** A church that formed its own
 identity and, for long stretches, its own institutional survival mechanism
 around defending a specific Christological formula against Chalcedon
-(451) and against rival readings within its own anti-Chalcedonian camp
-(§6), under variable and often actively hostile imperial policy. Severus of
-Antioch, patriarch 512-518, is this world's own foremost theologian; his
-own deposition in 518 did not end a legitimate miaphysite patriarchal
-succession at Antioch — Sergius of Tella (consecrated 544/546), Paul (the
-"Black," consecrated ć. 564), and later Peter of Callinicum and Athanasius
+(451), while also, on a separate internal front, contesting a rival
+Trinitarian reading some of its own members pressed too far (§6) — under
+variable and often actively hostile imperial policy. Severus of Antioch,
+patriarch 512-518, is this world's own foremost theologian; his own
+deposition in 518 did not end a legitimate miaphysite patriarchal
+succession at Antioch — Sergius of Tella (consecrated some years after
+Severus's 538 death; the vendored Lives states only "some years after,"
+and this document does not adopt an exact year not independently
+confirmed), Paul (the "Black," consecrated c. 564), and later Peter of
+Callinicum and Athanasius
 Gamolo (who held the see into the 630s) continued it, though as an
 unrecognized, parallel hierarchy rather than the empire's own installed
 patriarch. What Severus's exile did end was legal possession of Antioch's
@@ -112,7 +116,7 @@ the correct periodization boundary for this world's own formation logic
 specifically — a defensible, argued choice, not a claim of scholarly
 unanimity.
 
-**Internal developments vs. transition, within 451-636.** Three candidate
+**Internal developments vs. transition, within 451-636.** Four candidate
 internal hinges, none treated as a world-ending boundary:
 
 - **518** — Justin I's accession and Severus's deposition/exile from
@@ -120,27 +124,36 @@ internal hinges, none treated as a world-ending boundary:
   Severus continues as the movement's foremost voice for two more decades,
   writing from exile, and a parallel miaphysite patriarchal succession
   continues at Antioch afterward (§1). Treated as internal.
-- **542 onward** — Jacob Baradaeus's consecration and the movement's own
-  internal Tritheist controversy (John Philoponus, John Ascunages, the
-  "Condobaudites," active mid-to-late 6th century — see §6). This
-  document's own review found this period more internally contested than
-  Revision 1 represented it: the movement was defending its own formula
-  against Chalcedon on one front and against a rival reading (a
-  quasi-tritheist reading of that same "one nature" language, pressed to a
-  count-the-persons conclusion the movement's own leaders rejected) on
-  another, at the same time. Treated as internal — this is exactly the
-  kind of internal factional development Doc_04 should examine closely,
-  not smoothed into a single undifferentiated "the movement."
+- **542 onward** — Jacob Baradaeus's consecration and a Trinitarian
+  (not Christological) controversy within the movement itself, associated
+  with John Ascunages and later defended philosophically by John
+  Philoponus, active mid-to-late 6th century (see §6 for the correct
+  characterization — this is a dispute over how many "Godheads" the
+  Trinity contains, applying a count-by-number-of-persons logic these
+  figures' own opponents rejected, not a rival reading of the movement's
+  own "one nature" Christological formula, which the Tritheist faction's
+  own founder, Ascunages, explicitly affirmed in the same breath). Treated
+  as internal — a real internal factional development Doc_04 should
+  examine closely, not smoothed into a single undifferentiated "the
+  movement."
+- **586-616** — a schism between the Antiochene and Alexandrian
+  miaphysite hierarchies, and (through the 620s-630s) Emperor Heraclius's
+  own attempted doctrinal reunion efforts (eventually producing the
+  monoenergist/monothelete formula) directed in part at this world's own
+  leadership. Named here as a real gap in this document's own account
+  that a closer Doc_02/Doc_04 pass should develop — not yet researched in
+  any depth by this session.
 - **610-628** — the Persian occupation (above). A real interruption to
   Roman authority in this world's own territory, but not, on the evidence
   reviewed so far, a change in this world's own internal formation logic —
   treated as internal, flagged for Doc_04/Doc_08 to examine further rather
   than assumed settled by this one-pass characterization.
 
-**Flag for Doc_02:** exact chronology of the Tritheist controversy's own
-timeline relative to Jacob Baradaeus's consecration, and of the Ghassanid
-patronage relationship, both warrant closer primary-source work before
-Doc_04 gravity work treats them as fixed anchor points.
+**Flag for Doc_02:** exact chronology of the Trinitarian/Tritheist
+controversy's own timeline relative to Jacob Baradaeus's consecration, of
+the 586-616 Antioch-Alexandria schism, and of the Ghassanid patronage
+relationship, all warrant closer primary-source work before Doc_04 gravity
+work treats them as fixed anchor points.
 
 ## 3. Geographic Scope
 
@@ -209,11 +222,16 @@ John of Ephesus's own narrative voice, not an opponent's characterization.
 "The party of the believers" (e.g. Lives, line 8166 and elsewhere) and
 "the orthodox party"/"the orthodox" (e.g. Ecclesiastical History, Part III,
 lines 709, 2807, 2906, 2966, and elsewhere) are both directly attested,
-first-person self-designations this movement used for itself — the same
-sources record that "Jacobite," the outside label later attached to the
-movement (after Jacob Baradaeus), was never its own chosen name (Lives,
-ch. 49's own account of Jacob's nickname is about a garment, not a
-movement name — see Doc_02 §2 for the exact locus). — **Confidence:
+first-person self-designations this movement used for itself, in this
+world's own window. "Jacobite," the outside label later attached to the
+movement after Jacob Baradaeus, is a separate question this document does
+not overreach on: the vendored ch. 49 account of Jacob's own nickname
+(Doc_02 §2) is about a garment, not a claim about what the movement called
+itself, and later Syriac Orthodox usage of "Jacobite" as a self-designation
+is a real, later development this session did not check — this document
+does not claim the label was never used by the tradition itself at any
+point, only that "the orthodox"/"the party of the believers" are this
+world's own attested self-designation within 451-636. — **Confidence:
 Documented** that "the orthodox"/"the party of the believers" are directly
 attested self-designations in this world's own primary sources.
 
@@ -257,16 +275,29 @@ temporal sequence.
 simultaneous internal divergence that Revision 1 missed entirely** — both
 directly attested in the vendored Ecclesiastical History, Part III:
 
-- **The Tritheist/Condobaudite controversy** (Book I; see §2 above). A
-  faction within the anti-Chalcedonian movement itself, led first by John
-  Ascunages and then defended philosophically by John Philoponus, pressed
-  the "one nature" formula toward a reading the movement's own mainstream
-  (including John of Ephesus himself, who personally participated in a
-  four-day public disputation against it) rejected as tending toward
-  tritheism. This is a genuine, simultaneous, named internal division over
-  Christological formula — exactly the kind of evidence Article 21 asks
-  for, and exactly what Revision 1's "doctrinally settled movement" framing
-  concealed.
+- **The Tritheist/Condobaudite controversy** (Book I; see §2 above and
+  Doc_02 §2 for the source-attribution correction below). A faction within
+  the anti-Chalcedonian movement itself, led first by John Ascunages and
+  then defended philosophically by John Philoponus, agreed with the
+  movement's own mainstream that Christ himself is "one nature" — Ascunages's
+  own creed affirms this directly — but applied a parallel logic to the
+  Trinity, counting "natures and substances and Godheads according to the
+  number of the persons," a move the movement's own mainstream rejected as
+  tending toward three Gods. This is a genuine, simultaneous, named
+  internal division — a Trinitarian dispute arising inside the
+  anti-Chalcedonian camp, not a rival reading of the Christological formula
+  that defines this world's own dispute with Chalcedon — exactly what
+  Revision 1's "doctrinally settled movement" framing concealed. **Source
+  note:** the controversy itself is real and documented, but this build's
+  own knowledge of it comes from the 1860 translator's own editorial
+  excursus (explicitly citing the 13th-century chronicler Bar-Hebraeus),
+  not from John of Ephesus's own contemporary narrative — an earlier
+  revision of this document wrongly presented the reported four-day public
+  disputation as something John himself witnessed and reported; John's own
+  narrative in this stretch begins only with Conon's arrest, after the
+  controversy's own background has already been laid out in the
+  translator's voice. See Doc_02 §2 for the exact locus and the
+  correction.
 - **The Paulite schism** (Book IV). A later split within the movement's
   own hierarchy — the census's own pre-drafted story already flags that
   Jacob Baradaeus's own bishops "fell into quarrels" in his last years,
@@ -276,14 +307,15 @@ directly attested in the vendored Ecclesiastical History, Part III:
 
 **Revised finding: this document no longer asserts strand-singular with
 the confidence Revision 1 claimed.** Two real, simultaneous internal
-divergences are attested (a Christological-formula dispute within the
+divergences are attested (a Trinitarian dispute within the
 anti-Chalcedonian camp; a later hierarchy-level schism). Whether either
 rises to an Article-21 "distinct strand" (a difference in formation
 emphasis, authority structure, or ecological orientation) or is better
 classified as an internal controversy/schism the movement's own mainstream
-resolved (the Tritheist dispute was formally defeated in open debate; the
-Paulite schism's own long-term resolution is not yet established from the
-sources checked) is **left open for Doc_02's fuller treatment**, not
+resolved (the Tritheist dispute is reported, per Bar-Hebraeus via the
+translator's excursus, to have ended in the Tritheite party's own defeat;
+the Paulite schism's own long-term resolution is not yet established from
+the sources checked) is **left open for Doc_02's fuller treatment**, not
 decided by this document. This document withdraws Revision 1's specific
 strand-singular disposition and states plainly that Doc_01 alone cannot
 responsibly close this question on the evidence reviewed so far.
