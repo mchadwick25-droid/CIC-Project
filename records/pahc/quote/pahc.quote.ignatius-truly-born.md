@@ -19,12 +19,13 @@ sources:
   license: public-domain
 text: "Stop your ears, therefore, when any one speaks to you at variance with Jesus Christ, who was descended from David, and was also of Mary; who was truly born, and did eat and drink. He was truly persecuted under Pontius Pilate; He was truly crucified, and [truly] died, in the sight of beings in heaven, and on earth, and under the earth. He was also truly raised from the dead, His Father quickening Him, even as after the same manner His Father will so raise up us who believe in Him by Christ Jesus, apart from whom we do not possess the true life."
 modern_rendering: >-
-  So stop your ears when anyone speaks to you against Jesus Christ. He was descended from
-  David, and also from Mary. He was truly born, and he truly ate and drank. He was truly
-  persecuted under Pontius Pilate. He was truly crucified, and he truly died, in sight of
-  beings in heaven, on earth, and under the earth. He was also truly raised from the dead,
-  his Father bringing him back to life. In the same way, his Father will raise us up too, we
-  who believe in him, by Christ Jesus, apart from whom we do not have true life.
+  So close your ears when anyone tells you something that goes against Jesus Christ. He came
+  from the family of David, and he was also Mary's son. He was truly born, and he ate and
+  drank. He was truly persecuted under Pontius Pilate. He was truly crucified, and he died.
+  Beings in heaven, on earth, and under the earth saw it happen. He was also truly raised from
+  the dead, because his Father brought him back to life. In the same way, his Father will
+  raise us too, who believe in him, through Christ Jesus. Without him, we do not have the
+  true life.
 speaker_or_author: pahc.figure.ignatius
 license: verbatim
 modern_lens_note: >
@@ -44,3 +45,10 @@ irenaeus.xml, div1 v (Trallians, shorter/middle recension column, ch.
 load-bearing. This is the single clearest primary-voice statement of
 this world's own Christology in the Native evidentiary base, and the
 direct textual ground for pahc.witness.who-was-jesus.
+
+MODERN RENDERING REVISED (2026-09-25): the vendored edition prints
+"[truly]" in brackets before "died" - the translator's own supplied
+word, unlike every other "truly" in the passage, which is unbracketed
+in the source. The rendering no longer voices that one bracketed
+"truly" as certain wording; the other four (born, persecuted,
+crucified, raised) are all in the source itself and stay.

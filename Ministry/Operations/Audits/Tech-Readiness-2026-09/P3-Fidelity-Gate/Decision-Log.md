@@ -1970,3 +1970,90 @@ corpus-map apparatus definition and the engine's own test suite.
 `python3 -m pytest engine/m1/tests -q` (156 tests, includes the 69-test
 `test_quote_verbatim.py` file) and `python3 -m engine.m2.cli
 staleness-check` both pass clean.
+
+**Entry 35 — 2026-09-25 (three rendering fixes: a bracketed supplement,
+a broken reason-to-conclusion tie, a truncated excerpt).** Applies
+Mark's two rendering-bar rulings from the authoring-test follow-up: (1)
+the voice never speaks a translator's own bracketed supplement, and the
+bracket stays in the verbatim `text` field; (2) sentences may split
+freely, but where the original ties a reason to a conclusion, the
+rendering keeps the tie with a plain linking word. `modern_rendering`
+was authored by Opus throughout (per the new CLAUDE.md usage rule,
+Entry 33) - this session is Sonnet, so a fresh Opus subagent drafted
+all three, reviewed here against both rulings, this project's own FK
+target, and source fidelity before anything was applied.
+
+**`pahc.quote.ignatius-truly-born` (Trallians 9).** The vendored
+edition prints "[truly]" in brackets before "died" - the translator's
+own supplied word; every other "truly" in the passage (born,
+persecuted, crucified, raised) is unbracketed, original. The prior
+rendering voiced all five as equally certain. Fixed: the rendering no
+longer asserts the bracketed one; the other four - the actual
+polemical point, a direct denial of a rival teaching that Christ's
+body only seemed real - are unchanged. `text` field untouched (the
+bracket was already correctly preserved there). FK grade 4.46, longest
+sentence 17 words.
+
+**`pahc.quote.polycrates-to-victor`.** The source's own grammar makes
+his age (sixty-five), his travels ("in all parts of the world"), and
+his reading ("through all Holy Scripture") the stated grounds for "am
+not frightened" - a relative clause feeding one main verb, not four
+separate facts. The prior rendering split them into disconnected
+sentences with no linking word, losing that tie. Fixed with "So I am
+not frightened..." Every other clause checked against rule 2
+separately; no other real reason-to-conclusion tie in this passage was
+broken. `text` field untouched. FK grade 5.99, longest sentence 21
+words.
+
+**`alx.quote.the-grades-here-in-the-church` (Stromateis VI.13).** The
+`text` field stopped at "...according to the Gospel" - the end of a
+"Since..." clause with no main clause of its own in the record: a
+truncated excerpt, not a wording choice. Found the full sentence in the
+vendored file (near line 47889) and extended `text` verbatim through
+"...till they grow into 'a perfect man'" - the sentence the "Since"
+clause was actually grounding, completing the thought that the
+church's ranks mirror a progression, not only a static hierarchy.
+Re-verified against the vendored file directly
+(`engine.m1.quote_verbatim.verify_quote_record`): `True`, classes
+`bracket` (the source's own "[as deacons]", not carried into the
+rendering per rule 1), `whitespace`, `punctuation` (curly vs. straight
+quotation marks). `locus` updated with a line reference.
+`modern_rendering` rewritten to cover both sentences, and rendering "a
+perfect man" (Clement's own allusion to Ephesians 4:13) as "full
+maturity" rather than literally - the literal cognate would mislead a
+modern reader into hearing a claim about becoming an adult male, which
+is not what the phrase means. FK grade 7.33, longest sentence 21 words.
+
+**Corrected the tie's own direction (same day, managing-thread
+verdict on PR #531).** The first drafted rendering joined the two
+sentences with "That is why" - a consequence reading, first sentence
+causing the second. The source's own "For" makes the second sentence
+EVIDENCE for the first sentence's claim, not something that follows
+from it: the ranks mirror the angelic economy - *for* [proof:] those
+taken up do in fact progress through it. "That is why" pointed the
+tie backward. Corrected to "For those taken up in the clouds...",
+keeping the author's own direction, per Mark's splitting rule (the tie
+must be kept, in the direction the original actually argues, not just
+any linking word). Re-verified: `True`, same classes. FK grade
+unchanged at 7.33; longest sentence 21 words (was 23, since "For" is
+shorter than "That is why").
+
+**Checks.** `engine.m1.quote_verbatim.verify_quote_record` on all three:
+verified `True`. `python -m engine.m1.gates` (via `gates.run_all`) on
+`pahc` and `alx`: `alx` clean; `pahc`'s 2 `reciprocity` findings are the
+same pre-existing, unrelated baseline count confirmed against this
+branch's own unmodified base - not new. `python3 -m pytest
+engine/m1/tests -q`: 156 passed. `python3 tools/check_paths.py
+--baseline tools/check_paths_baseline.txt`: 0 new unresolved citations.
+Packages for `pahc` and `alx` rebuilt and repinned on the corrected
+content; determinism-check and staleness-check both pass.
+
+All three FK grades sit below the CLAUDE.md target band's floor (8-10),
+not above its ceiling (`engine/m1/gates.py`'s own enforced
+`FK_CEILING = 10`) - reported as such rather than adjusted upward for
+its own sake. This matches, not contradicts, this world's own prior
+"BAR SWEEP" ruling on `pahc.quote.polycrates-to-victor` itself
+(2026-08-29, Mark: "much better thats the bar" -
+`Ministry/Technology/CiC_Register_Bar_2026-08-29.md`): short sentences
+and everyday words were the explicitly approved style for these
+renderings before this entry, not a defect this entry introduces.
