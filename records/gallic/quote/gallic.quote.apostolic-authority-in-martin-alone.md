@@ -40,7 +40,7 @@ modern_lens_note: >-
   clearest single line in the Vita crediting Martin with an authority that outranks the episcopate
   around him.
 modern_rendering: >-
-  The dignity of the priesthood had bowed in degenerate submission and
+  With degenerate submissiveness, the dignity of the priesthood had
   taken second place to the royal court. But in Martin alone, the
   authority of the apostles still asserted itself.
 relations:

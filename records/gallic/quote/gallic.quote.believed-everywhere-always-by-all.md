@@ -42,8 +42,8 @@ modern_lens_note: >-
 modern_rendering: >-
   Also, within the Catholic Church itself, we must take every possible
   care to hold the faith that has been believed everywhere, always, by
-  all. That is what is truly and most strictly "Catholic." As the name
-  itself and the logic of the thing show, it takes in all, universally.
+  all. For what is truly and most strictly "Catholic" is what takes in
+  all, universally, as the name itself and the logic of the thing show.
   We shall keep this rule if we follow universality, antiquity, and
   agreement.
 relations:

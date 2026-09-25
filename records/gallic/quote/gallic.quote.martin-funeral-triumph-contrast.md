@@ -54,7 +54,7 @@ relations:
 - type: associated-with
   target: gallic.story.death-of-martin-at-condate
 modern_rendering: >-
-  Each person preferred to do the grieving himself and let the other rejoice. So this crowd, singing
+  Each person preferred to do the grieving himself and let someone else rejoice. So this crowd, singing
   the hymns of heaven, went with the holy man's body on to the place of burial. Set beside this
   sight not just the worldly pomp of a funeral, but even that of a triumphal parade. What can be
   counted equal to Martin's funeral? Let your great men of this world lead captives before their

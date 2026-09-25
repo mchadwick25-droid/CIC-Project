@@ -42,8 +42,8 @@ modern_lens_note: >-
   Martin is not defending the accused as innocent, only denying the emperor's court any standing to
   judge them.
 modern_rendering: >-
-  He held that they had been punished enough: the bishops had sentenced
-  them as heretics, and they had been expelled from the churches. He
+  He held that it was punishment enough for them to be expelled from the
+  churches, once the bishops had sentenced them as heretics. He
   held, too, that it was a foul indignity, never heard of before, for a
   secular ruler to judge a church case.
 relations:

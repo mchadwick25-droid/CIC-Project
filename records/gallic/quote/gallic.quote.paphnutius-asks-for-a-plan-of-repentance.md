@@ -38,7 +38,7 @@ text: >-
   thrice as often as before, and prostrated himself in the sight of men with all humility of mind. But
   when he had thus submitted himself with all contrition of flesh and spirit for almost a fortnight, so
   that he came early on the morning of Saturday and Sunday not to receive the Holy Communion but to
-  prostrate himself on the threshold of the Church and humbly ask for pardon,
+  prostrate himself on the threshold of the Church and humbly ask for pardon, ...
 speaker_or_author: "Abbot Piamun, as Cassian records his own telling"
 license: verbatim
 modern_lens_note: >-

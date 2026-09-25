@@ -83,7 +83,7 @@ modern_rendering: >-
   Priscillian, and others of his allies, who need not be named. In this way the emperor stopped anyone
   from charging Ithacius with getting any man at all condemned to death. Now Martin was forced to go to
   the court by many serious cases of people who were suffering. There he met the full force of the storm
-  raging at the time. The bishops who had gathered at Treves were kept in that city. They took communion
+  raging at the time. The bishops who had gathered at Trier were kept in that city. They took communion
   with Ithacius every day and had made common cause with him. They were not expecting news that Martin
   was coming. When it came, they lost all courage and began to mutter and tremble among themselves.
   Under their influence, the emperor had already decided to send some tribunes with absolute power into
