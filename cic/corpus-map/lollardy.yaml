@@ -15,8 +15,10 @@ works:
     book and his confession/recantation, and William Sautre''s own articles and examination
     record - an independent Latin leg of the hostile-trial-record gap this world''s Step0
     Revision 2 flagged as unfilled. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Per this project''s own INTAKE.md rule, this Latin text is
-    a second witness, never primary evidence for a Representative.
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
 
     '
   source_file: fasciculi-zizaniorum_shirley1858.txt
@@ -45,8 +47,10 @@ works:
     ed. Buddensieg (1907, Wyclif Society Latin Works vol. 21) - directly relevant to the movement''s
     central claim that scripture should be available and authoritative in the vernacular.
     Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass, from
-    the full 33-volume Wyclif Society Latin series on archive.org. Per this project''s own
-    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+    the full 33-volume Wyclif Society Latin series on archive.org. Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
 
     '
   source_file: wyclif_de-veritate-sacrae-scripturae-lat_buddensieg1907.txt
@@ -119,8 +123,10 @@ works:
     Works vol. 10). Directly relevant to the movement''s central dissent on church authority.
     Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass, from
     the full 33-volume Wyclif Society Latin series on archive.org (only vol. 2, the already-vendored
-    Buddensieg Polemical Works, had been checked before this pass). Per this project''s own
-    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+    Buddensieg Polemical Works, had been checked before this pass). Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
 
     '
   source_file: wyclif_de-ecclesia-lat_loserth1886.txt
