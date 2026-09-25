@@ -15,8 +15,12 @@ completeness check (P3 Decision-Log Entry 29) flagged "At another,
 one source sentence ("at one time ... and at another ..."). Under Mark's
 R44 ruling of 2026-09-24, a split that leaves a clause without its own
 subject and verb is never acceptable, so the two halves are rejoined: "At
-one point I said, '...,' and at another, '...'". Only `modern_rendering`
-changed; every other field is byte-identical. Authored by Opus. Reads
+one point I said, '...,' and at another, '...'". The independent
+fidelity review also found an older defect in the same field: "a
+different opinion" added "different", split one opinion across two
+statements, and ran about 33 words. The source says "have expressed the
+opinion that some clear instruction ought to be published"; the closing
+passage now follows it. Only `modern_rendering` changed; every other field is byte-identical. Authored by Opus. Reads
 "translation" on two consecutive runs of Haiku 4.5 and Sonnet 4.6. P3
 Decision-Log Entry 37 carries the fleet-wide record of this pass.
 

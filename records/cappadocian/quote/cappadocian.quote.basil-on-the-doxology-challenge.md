@@ -55,12 +55,12 @@ modern_rendering: >-
   together with the Holy Spirit,' and at another, 'through the Son, in the
   Holy Spirit.' Some of those present attacked me for this. They said I was
   introducing terms that were novel and, at the same time, mutually
-  contradictory. You, however, have expressed a different opinion -- chiefly
-  with a view to benefiting them, or, if they are wholly incurable, for the
-  security of those who might fall in with them. You said that some clear
-  instruction ought to be published concerning the force underlying the
-  syllables we use. I will therefore write as briefly as I can. I will try to
-  lay down some agreed principle for the discussion.
+  contradictory. You, however, have expressed the opinion that some clear
+  instruction ought to be published about the force underlying the syllables
+  we use. Your chief aim is to benefit them. Or, if they are wholly incurable,
+  it is to protect those who might fall in with them. I will therefore write
+  as briefly as I can. I will try to lay down some agreed principle for the
+  discussion.
 ---
 Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. Located via `grep -n 'div1'
