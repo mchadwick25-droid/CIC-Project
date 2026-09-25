@@ -264,7 +264,7 @@ def sentences(text: str) -> list[str]:
 # identical quote-aware split M4's live net uses - one splitter, owned
 # once, so a demo tagged at compile time and a live turn checked at
 # generation time can never silently disagree about where a sentence ends.
-# Straight single AND double quotes. Double quotes were missing, and the
+# Straight and curly, single and double quotes. Double quotes were missing, and the
 # corpus already holds 249 paired double-quoted spans - so a sentence
 # quoting with " split inside the quotation and the orphan reached a
 # participant on its own. Seen live on alx: `It has made men out of stones,
@@ -272,10 +272,10 @@ def sentences(text: str) -> list[str]:
 # one of our first teachers, called him the New Song:", was withheld for
 # having no tag. A live model quotes with " far more readily than with ',
 # whatever the prompt around it does.
-QUOTE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['"](?=\S)""")
+QUOTE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['"“‘](?=\S)""")
 
 
-QUOTE_CLOSE = re.compile(r"""(?<=\S)['"](?=[\s.,;:!?)]|$)""")
+QUOTE_CLOSE = re.compile(r"""(?<=\S)['"”’](?=[\s.,;:!?)]|$)""")
 
 
 def _quote_balance(text: str) -> int:

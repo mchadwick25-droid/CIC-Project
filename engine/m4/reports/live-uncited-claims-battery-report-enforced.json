@@ -1,0 +1,283 @@
+{
+  "region": "us-east-1",
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "price_table_source": "Anthropic published API rate card (platform.claude.com/docs/en/about-claude/pricing, fetched 2026-08-25); Bedrock's own pricing page was not independently fetchable in this environment (egress to aws.amazon.com blocked) - Bedrock has historically mirrored Anthropic's direct per-token rates for the same models, not independently re-verified here",
+  "r27_enforce": true,
+  "interview": {
+    "worlds": {
+      "alx": {
+        "card_name": "Alexandrian Christianity",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": true,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with the Donatists?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": true,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 2,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.060843999999999995
+      },
+      "cappadocian": {
+        "card_name": "The Cappadocian Churches",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.0444138
+      },
+      "desert": {
+        "card_name": "Desert Fathers and Mothers",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": true,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 1,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.13104854999999999
+      },
+      "don": {
+        "card_name": "The Church of the Martyrs",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.18071025
+      },
+      "gallic": {
+        "card_name": "The Monk-Bishops of Gaul",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.17684025
+      },
+      "hal": {
+        "card_name": "The Bethlehem Circle",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.0975471
+      },
+      "ijc": {
+        "card_name": "Church and Empire",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": true,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": true,
+            "facilitator_takeover": true
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 2,
+        "facilitator_takeover_turns": 1,
+        "session_dollars": 0.1231731
+      },
+      "pahc": {
+        "card_name": "The Scattered Households",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": true,
+            "facilitator_takeover": true
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": true,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 2,
+        "facilitator_takeover_turns": 1,
+        "session_dollars": 0.12723299999999998
+      },
+      "rzg": {
+        "card_name": "The Reformed Cities",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.07475895
+      },
+      "syr": {
+        "card_name": "Syriac Christianity",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.0997296
+      },
+      "witt": {
+        "card_name": "The Catechized Households of Wittenberg",
+        "probes": {
+          "A-conflict": {
+            "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": null,
+            "regenerated": false,
+            "facilitator_takeover": false
+          },
+          "B-other-tradition": {
+            "message": "What was your relationship with Alexandrian Christianity?",
+            "routing_action": "voice_with_directive",
+            "out_of_scope_class": "other_tradition",
+            "regenerated": false,
+            "facilitator_takeover": false
+          }
+        },
+        "probes_run": 2,
+        "regenerated_turns": 0,
+        "facilitator_takeover_turns": 0,
+        "session_dollars": 0.13973639999999998
+      }
+    },
+    "overall_probes_run": 22,
+    "overall_regenerated_turns": 7,
+    "overall_regenerated_rate": 0.3181818181818182,
+    "overall_facilitator_takeover_turns": 2,
+    "overall_facilitator_takeover_rate": 0.2857142857142857
+  },
+  "table": {
+    "world_keys": [
+      "alx",
+      "don",
+      "rzg"
+    ],
+    "session_id": "2b4c9eed-17c8-4970-933e-3c5dd6a7eb21",
+    "voice_turns": 10,
+    "regenerated_turns": 7,
+    "facilitator_takeover_turns": 4,
+    "session_dollars": 0.46739045000000007
+  },
+  "total_dollars": 1.7234254500000004,
+  "note": "Priced against a published rate card, not a reconciled AWS invoice (spec principle 13). Real enforcement (CIC_R27_ENFORCE equivalent, r27_enforce=True), same probes as the report-only run() - 2 fresh single-turn probes per world x 11 worlds + one small table session. overall_facilitator_takeover_rate is out of overall_regenerated_turns (the turns a regeneration was even attempted on), not overall_probes_run, same denominator discipline the report-only run's own post_regeneration_residual_rate already uses. This is a live proof the flag-gated mechanism works end to end, and Mark's own staging-look numbers before the flag is flipped anywhere - not a second threshold-setting run (that was #427's own job)."
+}

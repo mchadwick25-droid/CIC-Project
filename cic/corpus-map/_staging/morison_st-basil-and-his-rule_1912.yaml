@@ -1,14 +1,14 @@
-# Worker notes, 2026-09-02. The file is two different things: Basil's own
-# words (Appendices A/B) embedded inside a modern scholar's secondary study
-# (the other 14 chapters). RULED, Mark, 2026-09-02: only Basil's own words
-# get a corpus-map assignment. Morison's own 14 chapters get none - same
-# disposition as anf10's bibliographic index (SS6.5's logic, extended by
-# this ruling to modern-but-PD secondary scholarship generally, not just
-# to anf10 by name), consistent with this project's own standing principle
-# that scholarly framing should not stand between a world and its primary
-# sources. A real, useful book, and still fully citable bibliographically
-# by any world's own source record - just not something the corpus-map
-# itself treats as a tradition or context voice merely because it is old
+# The file is two different things: Basil's own words (Appendices A/B)
+# embedded inside a modern scholar's secondary study (the other 14
+# chapters). Only Basil's own words get a corpus-map assignment.
+# Morison's own 14 chapters get none - the same disposition as anf10's
+# bibliographic index (SS6.5's logic, extended to modern-but-PD
+# secondary scholarship generally, not just to anf10 by name),
+# consistent with this project's own standing principle that scholarly
+# framing should not stand between a world and its primary sources. A
+# real, useful book, and still fully citable bibliographically by any
+# world's own source record - just not something the corpus-map itself
+# treats as a tradition or context voice merely because it is old
 # enough to be free.
 source_file: morison_st-basil-and-his-rule_1912.txt
 assignments:

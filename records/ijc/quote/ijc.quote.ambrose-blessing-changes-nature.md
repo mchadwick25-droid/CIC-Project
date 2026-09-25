@@ -19,9 +19,16 @@ sources:
   license: public-domain
 text: 'Let us prove that this is not what nature made, but what the blessing consecrated, and the power of
   blessing is greater than that of nature, because by blessing nature itself is changed... The Lord Jesus
-  Himself proclaims: This is My Body. Before the blessing of the heavenly words another nature is spoken
+  Himself proclaims: "This is My Body." Before the blessing of the heavenly words another nature is spoken
   of, after the consecration the Body is signified. He Himself speaks of His Blood. Before the consecration
   it has another name, after it is called Blood.'
+modern_rendering: >-
+  Let us prove that this is not what nature made, but what the blessing made holy. The
+  power of blessing is greater than the power of nature, because blessing itself changes
+  nature... The Lord Jesus himself declares, "This is my body." Before the blessing of
+  those heavenly words, one nature is named; after the consecration, the Body is meant. He
+  himself speaks of his Blood. Before the consecration, it has another name; after, it is
+  called Blood.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: >-
@@ -49,3 +56,6 @@ place in the voice's own register discipline (flavor_notes[0], "the
 source follows it, named") that broke its own rule. This record gives
 the passage its own citation so the demonstration can name Ambrose and
 quote him properly.
+
+Quote-verbatim gate fix (2026-09-22): the record's own text silently dropped the quotation marks the
+source puts around "This is My Body" (Christ's own reported words). Restored; no wording changed.

@@ -99,16 +99,63 @@ see the dossier's own §2 and §5, which also flags a real locus error the
 verification turned up in `desert-monasticism.yaml`'s own existing Sozomen
 note (a citation to Book VI chapters that don't exist in this edition).
 
-**Backlog — not yet written:** none at Era 1/2 Tier 1 as of 2026-09-21.
+**24 as of 2026-09-21** — a census-wide sweep of every "Possible Future
+World (on record)" / "Selected - Not Yet Built" candidate (not just a
+previously-named backlog list) found two more in scope that nobody had
+flagged: `latin-pastoral-congregational-christianity` (I.8, "Selected - Not
+Yet Built" — and, the dossier itself found, already deep into its own build
+at `worlds/lpc/` through Doc_05, despite the census's own "construction has
+not yet begun" framing being stale) and `roman-church-gregorian` (II.18),
+the fleet's first Era 3 candidate to reach dossier scope. Real cross-link
+and acquisition findings from both: lpc gained a freshly-found Latin
+critical-edition cross-link (Petschenig's Augustine anti-Donatist corpus,
+vendored on the sibling Donatism branch 2026-09-14, never linked back);
+roman-church-gregorian gained two verified public-domain acquisition leads
+closing a gap the census itself named (Gregory's Dialogues, including the
+only surviving Life of St. Benedict, and the Moralia in Job — neither
+previously vendored anywhere in the corpus) plus one cross-link parallel to
+lpc's own finding (Gregory's own Latin letters to the Donatist remnant,
+currently `context`-only on the Donatism branch with no `tradition` row
+back to his own entry).
+
+**Vendoring pass against an existing dossier, 2026-09-25** —
+`the-reformed-cities-zurich-and-geneva` (VI.2), one of the six Era VII/VI
+candidates from the 2026-09-15 batch above. Not a new dossier (still 22
+written); this pass re-verified and closed most of that dossier's own §3
+Verified Acquisition Leads. Found on arrival that this world was not
+actually a cold start the way its own dossier's header still claimed: a
+same-day 2026-09-15 pass (concurrent with the dossier's own drafting) had
+already vendored and assigned 10 works across 8 files to
+`cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml`, including
+closing the dossier's own §4 "genuinely open" Consensus Tigurinus item —
+none of that closure had ever been written back into the dossier's own §1
+before this pass. Independently re-verified all of it (direct archive.org
+metadata re-fetch, not trust in the prior "verified by" notes) rather than
+propagating a stale premise forward, then vendored 6 more works across 6
+more files to close 3 further §3 leads: Zwingli's *Latin Works*, Vol. III
+(1929, "De Vera et Falsa Religione"), the two-volume Genesis Commentary
+(Calvin, trans. King, 1847, a deliberate partial acquisition against the
+dossier's own ~22-volume Calvin Translation Society Commentaries lead),
+and two of the four volumes of the Bonnet-edited *Letters of John Calvin*
+(1858) — the set's Vol. III genuinely could not be located across three
+checked identifier families and is disclosed as an open gap, not
+substituted. Current total: 16 works across 14 files, 2 leads still open
+(Letters Vol. III; the ~20 remaining CTS Commentary volumes). Also
+surfaced and flagged, not acted on this pass: this world's own
+`worlds/rzg/Source_Registry.md` independently tracks five further,
+higher-priority acquisition gaps (Ecclesiastical Ordinances, the Genevan
+Psalter, Beza, Dentière, a PD substitute for the Consistory Registers) —
+see that dossier's own §5.
+
+**Vendoring pass against `lutheran-wittenberg-and-its-congregations` (VI.1), 2026-09-25** — not a new dossier; a re-verification and vendoring pass against the one written 2026-09-15 (above). Found the dossier's own §1 "None" was stale before the pass even started: `worlds/witt/` already had an independently-built, APPROVED TO PROCEED Revision 5 Doc_02/Source Registry that had vendored 10 Luther/Melanchthon files, never cross-referenced against the corpus-map. Closed that gap first — three works the registry itself had flagged "Not in the corpus-map" (Luther's Prefaces, *That Doctrines of Men Are to Be Rejected*, *The Magnificat*) now have staging assignments, plus a found-and-fixed locus defect on the neighboring Eight Wittenberg Sermons entry ("~14403-end" silently overran into the next, unassigned work). Then re-verified the dossier's own 11 §3 leads directly: nearly all were already vendored under different filenames by the independent `witt` build; one genuinely new file was vendored (*First Principles of the Reformation*, Wace & Buchheim 1885) after the dossier's originally-named archive.org scan was sampled and found materially OCR-degraded in roughly a third of six sample points — a cleaner alternate scan of the same edition was found and substituted, with the failed item disclosed in §4 rather than silently dropped (same discipline as the Hubmaier EEBO closure in the Anabaptist dossier). Philadelphia Edition Vols. IV/V/VI remain genuinely open: the archive.org copies are either access-restricted or fall in the 1931–1963 band requiring a copyright-renewal check that this sandbox's egress policy blocks (Stanford's renewals exhibit and NYPL's `cce-renewals` both returned connection-rejected/403) — not vendored, not assumed clear, flagged for a session with access to either database.
+
+**Backlog — not yet written:** none at Era 1/2/3 Tier 1 as of 2026-09-21.
 `donatism` (I.4) and `gallic-monastic-ascetic-christianity` (I.27) are far
 enough into their own builds that a retroactive dossier is lower priority
 than a fresh candidate would be; the coverage target in
 `SOURCE-READINESS.md` is every "Possible Future World" or "Selected - Not
 Yet Built" candidate, so the next pass should check the full census for
-anything newer than this list rather than assume it's exhausted. (A
-separate, not-yet-merged branch has already done exactly that sweep and
-found two more: `latin-pastoral-congregational-christianity` (I.8) and
-`roman-church-gregorian` (II.18) — see that branch's own PR once opened.)
+anything newer than this list rather than assume it's exhausted.
 
 ## Regenerating
 

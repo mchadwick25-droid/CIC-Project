@@ -28,4 +28,4 @@ discovery_channel: builder-prior-knowledge; existence verified WebSearch; Source
 external_ids:
   witt_source_registry_row: 48
 ---
-Disclosure only (Step 0 item 2): the Peasants'-War tract named, dated and characterized from tertiary description at Doc_02 §12.4; never quoted as if in hand — no phrase from it in quotation marks (Round 1 S6). (Source Registry row 48; Confidence B.)
+Disclosure only (Step 0 item 2): the Peasants'-War tract named, dated and characterized from tertiary description at Doc_02 §12.4; never quoted as if in hand — no phrase from it in quotation marks. (Source Registry row 48; Confidence B.)

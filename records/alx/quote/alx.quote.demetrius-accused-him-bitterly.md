@@ -21,6 +21,18 @@ sources:
   license: public-domain
 text: >-
   But soon afterward, seeing that he was prospering, and becoming great and distinguished among all men, the same Demetrius, overcome by human weakness, wrote of his deed as most foolish to the bishops throughout the world. But the bishops of Cesarea and Jerusalem, who were especially notable and distinguished among the bishops of Palestine, considering Origen worthy in the highest degree of the honor, ordained him a presbyter. Thereupon his fame increased greatly, and his name became renowned everywhere, and he obtained no small reputation for virtue and wisdom. But Demetrius, having nothing else that he could say against him, save this deed of his boyhood, accused him bitterly, and dared to include with him in these accusations those who had raised him to the presbyterate.
+modern_rendering: >-
+  But soon after, this same Demetrius saw that Origen was thriving. He saw
+  him becoming great and admired by everyone. Overcome by a human
+  weakness, Demetrius wrote to bishops everywhere, calling Origen's deed
+  most foolish. But the bishops of Caesarea and Jerusalem judged Origen
+  worthy of the highest honor. They were the most notable and
+  distinguished among the bishops of Palestine. They ordained Origen a
+  presbyter. After that his fame grew even greater. His name became known
+  everywhere, and he gained no small reputation for virtue and wisdom. But
+  Demetrius had nothing else he could say against him, except this deed
+  from his boyhood. He accused him bitterly - and dared to include in
+  these accusations the very men who had raised him to the presbyterate.
 speaker_or_author: Eusebius of Caesarea, Church History VI.8
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +47,7 @@ relations:
 - type: associated-with
   target: alx.dw.church-failure
 ---
-Opened 2026-08-27 for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
+Opened for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
 for its opening claim - the greatest teacher driven out by his own bishop - and could not show it.
 
 Registered ETIC, unlike alx.quote.dionysius-nepos and alx.quote.dionysius-plague, which come through

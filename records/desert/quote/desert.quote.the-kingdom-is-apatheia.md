@@ -17,7 +17,12 @@ sources:
   locus: "Praktikos chs. 2-3, in Luke Dysinger's English (cic/texts/evagrius_praktikos_dysinger.txt)"
   address: "cic:evagrius_praktikos_dysinger.txt:2-3"
   license: cc-by-4.0
-text: "The Kingdom of Heaven is apatheia (dispassion) of the soul together with true knowledge of beings. The Kingdom of God is knowledge of the Holy Trinity exercised according to the capacity of the nous (mind/intellect) and bestowing incorruptibility upon it"
+text: "The Kingdom of Heaven is apatheia (dispassion) of the soul together with true knowledge of beings...The Kingdom of God is knowledge of the Holy Trinity exercised according to the capacity of the nous (mind/intellect) and bestowing incorruptibility upon it"
+modern_rendering: >-
+  The Kingdom of Heaven is apatheia, dispassion of the soul, together with true
+  knowledge of beings. ... The Kingdom of God is knowledge of the Holy Trinity. This
+  knowledge is exercised according to the capacity of the nous, the mind, and bestows
+  incorruption upon it.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "'Apatheia' is not apathy and 'the Kingdom of Heaven' here is not a place or a future reward - both are states of a soul, described in the present. The pairing of the two chapters is Evagrius's own distinction, not a conflation made here: the Kingdom of Heaven is apatheia with true knowledge of beings, the Kingdom of God is knowledge of the Trinity."
@@ -38,3 +43,9 @@ to make. This is also the sharpest instance of what desert.voice.craft's own thi
 about: the most systematic interior psychology this world produced rests on one unusually educated
 participant's own writing, and a participant who takes this as what the desert believed has taken
 Evagrius for the movement.
+
+Quote-verbatim gate fix (2026-09-22): these are two separate, sequentially numbered chapters (2 and
+3) of the Praktikos, joined with no mark at all in the `text` field - added an ellipsis at the chapter
+boundary. The record's own gloss already treats them as Evagrius's own paired-but-distinct chapters,
+not a single continuous sentence, so this brings the text field in line with what the record already
+claims about its own structure.

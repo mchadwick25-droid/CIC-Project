@@ -1,0 +1,370 @@
+{
+  "generated": "2026-09-23T15:46:31.596700+00:00",
+  "region": "us-east-1",
+  "proposed_addition": " Ground travels by paragraph, not only by sentence: an interpretive or connective sentence - one that carries no tag of its own because it names no person, place, text, number, or quote - stays attached to the claim it interprets, and that claim's own ground is what it rides on. It never drifts past a paragraph break to ride on a different paragraph's ground instead; a new paragraph that opens with its own claim starts its own ground fresh, and everything within that paragraph, tagged or not, answers to it. A tag is a promise about more than address: every specific detail in a tagged sentence - not only a quoted span - must be that record's own content, stated or a fair paraphrase of it, never a detail added because it sounds plausible, fits the period, or belongs to a related matter this voice happens to know about from outside the record. Where a sentence would need one more specific detail than its tagged record actually gives, it stops at what the record gives; anything further is named, if at all, as our own honest limit, never folded into the tagged sentence itself.",
+  "current": {
+    "proposed": false,
+    "worlds": {
+      "alx": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.11420575
+      },
+      "cappadocian": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 14,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 1.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 5
+        },
+        "session_dollars": 0.1771872
+      },
+      "desert": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 3,
+          "inherited_ungrounded": 1
+        },
+        "session_dollars": 0.14999445
+      },
+      "don": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 3,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.22520324999999997
+      },
+      "gallic": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 1,
+        "raw_offense_total": 4,
+        "raw_turn_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.19928475
+      },
+      "hal": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 2
+        },
+        "session_dollars": 0.1215993
+      },
+      "ijc": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 2
+        },
+        "session_dollars": 0.1214991
+      },
+      "pahc": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 4,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 1
+        },
+        "session_dollars": 0.123165
+      },
+      "rzg": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.09631635
+      },
+      "syr": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 5,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 1.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 3,
+          "inherited_ungrounded": 2
+        },
+        "session_dollars": 0.1284168
+      },
+      "witt": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 1.0,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 5,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.17150819999999997
+      }
+    },
+    "overall_probes_run": 22,
+    "overall_raw_turns_with_offense": 21,
+    "overall_raw_turn_rate": 0.9545454545454546,
+    "overall_raw_paragraph_turns_by_class": {
+      "wholly_uncited_paragraph": 7,
+      "inherited_ungrounded": 8
+    },
+    "overall_raw_paragraph_turn_rate_by_class": {
+      "wholly_uncited_paragraph": 0.3181818181818182,
+      "inherited_ungrounded": 0.36363636363636365
+    },
+    "total_dollars": 1.62838015
+  },
+  "proposed": {
+    "proposed": true,
+    "worlds": {
+      "alx": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 11,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 1.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 4
+        },
+        "session_dollars": 0.11324455
+      },
+      "cappadocian": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 4,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 1
+        },
+        "session_dollars": 0.177792
+      },
+      "desert": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 3
+        },
+        "session_dollars": 0.13747425000000002
+      },
+      "don": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 10,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 4,
+          "inherited_ungrounded": 1
+        },
+        "session_dollars": 0.22605105
+      },
+      "gallic": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 13,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 1
+        },
+        "session_dollars": 0.22206704999999996
+      },
+      "hal": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 5,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 2,
+          "inherited_ungrounded": 2
+        },
+        "session_dollars": 0.12281909999999997
+      },
+      "ijc": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 12,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 8,
+          "inherited_ungrounded": 2
+        },
+        "session_dollars": 0.1292379
+      },
+      "pahc": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 1,
+          "inherited_ungrounded": 1
+        },
+        "session_dollars": 0.1325328
+      },
+      "rzg": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 1,
+        "raw_offense_total": 6,
+        "raw_turn_rate": 0.5,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 6,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.08531685
+      },
+      "syr": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 7,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.0,
+          "inherited_ungrounded": 0.5
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 0,
+          "inherited_ungrounded": 4
+        },
+        "session_dollars": 0.1306056
+      },
+      "witt": {
+        "probes_run": 2,
+        "raw_turns_with_offense": 2,
+        "raw_offense_total": 11,
+        "raw_turn_rate": 1.0,
+        "raw_paragraph_turn_rate_by_class": {
+          "wholly_uncited_paragraph": 0.5,
+          "inherited_ungrounded": 0.0
+        },
+        "raw_paragraph_offense_total_by_class": {
+          "wholly_uncited_paragraph": 5,
+          "inherited_ungrounded": 0
+        },
+        "session_dollars": 0.17458200000000001
+      }
+    },
+    "overall_probes_run": 22,
+    "overall_raw_turns_with_offense": 21,
+    "overall_raw_turn_rate": 0.9545454545454546,
+    "overall_raw_paragraph_turns_by_class": {
+      "wholly_uncited_paragraph": 7,
+      "inherited_ungrounded": 10
+    },
+    "overall_raw_paragraph_turn_rate_by_class": {
+      "wholly_uncited_paragraph": 0.3181818181818182,
+      "inherited_ungrounded": 0.45454545454545453
+    },
+    "total_dollars": 1.6517231499999996
+  },
+  "total_dollars": 3.2801
+}

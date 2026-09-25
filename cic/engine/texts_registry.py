@@ -110,11 +110,34 @@ _LANGUAGE_LINE = re.compile(r"Language:\s*(.+)|<DC\.Language>\s*([^<]+)")
 
 
 @dataclass(frozen=True)
+class ApparatusPattern:
+    """One named, evidenced marker CONVENTION belonging to a single
+    vendored edition - see REGISTRY.yaml's own schema comment for the
+    full discipline (two kinds, `regex` and `endnote-sequence`) and why a
+    per-quote-anchored pattern is exactly what R33 forbids here.
+
+    kind == "regex" (default): `pattern` is matched with `re.search`
+    against the RAW vendored text; the matched span is dropped entirely
+    before the quote-verbatim gate compares anything.
+
+    kind == "endnote-sequence": `notes_start_pattern` marks where this
+    edition's own real numbered endnotes section begins; `pattern` is
+    unused."""
+
+    name: str
+    pattern: str = ""
+    kind: str = "regex"
+    notes_start_pattern: str = ""
+    evidence: str = ""
+
+
+@dataclass(frozen=True)
 class TextEntry:
     filename: str
     supplied_by: str
     date_added: str
     notes: str = ""
+    apparatus: tuple[ApparatusPattern, ...] = ()
 
 
 REGISTRY_FILE = TEXTS_DIR / "REGISTRY.yaml"
@@ -129,13 +152,33 @@ def _load_entries() -> tuple[TextEntry, ...]:
     import yaml
     data = yaml.safe_load(REGISTRY_FILE.read_text(encoding="utf-8")) or []
     return tuple(
-        TextEntry(filename=d["filename"], supplied_by=d["supplied_by"],
-                  date_added=d["date_added"], notes=d.get("notes", ""))
+        TextEntry(
+            filename=d["filename"], supplied_by=d["supplied_by"],
+            date_added=d["date_added"], notes=d.get("notes", ""),
+            apparatus=tuple(
+                ApparatusPattern(
+                    name=a["name"], kind=a.get("kind", "regex"),
+                    pattern=a.get("pattern", ""), notes_start_pattern=a.get("notes_start_pattern", ""),
+                    evidence=a.get("evidence", ""),
+                )
+                for a in d.get("apparatus", [])
+            ),
+        )
         for d in data
     )
 
 
 ENTRIES: tuple[TextEntry, ...] = _load_entries()
+
+
+def apparatus_for(filename: str) -> tuple[ApparatusPattern, ...]:
+    """This edition's own closed apparatus list, or `()` for every edition
+    with no entry - which behaves exactly as it did before this field
+    existed (`quote_verbatim.py` skips the whole per-edition step)."""
+    for entry in ENTRIES:
+        if entry.filename == filename:
+            return entry.apparatus
+    return ()
 
 
 def read_header(path: Path, lines: int = 100) -> str:

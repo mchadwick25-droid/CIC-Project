@@ -21,6 +21,10 @@ sources:
 text: 'This preface to the Scriptures may serve as a "helmeted" introduction to all the
   books which we turn from Hebrew into Latin, so that we may be assured that what is not
   found in our list must be placed amongst the Apocryphal writings.'
+modern_rendering: >-
+  This preface can serve as a "helmeted" introduction to all the books that we turn from
+  Hebrew into Latin. It is meant to assure us that whatever is not found in our list must
+  be placed among the Apocryphal writings.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Helmeted" is a martial metaphor - a preface functioning as armor/defense for the translated books that follow - unusual and easily missed by a modern ear expecting a neutral scholarly introduction.'

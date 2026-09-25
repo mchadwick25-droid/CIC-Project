@@ -118,18 +118,17 @@ header.site-header {
   letter-spacing: 0.01em;
 }
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four don't fit alongside the rest in one row at this header's own
-   60rem width. */
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 60rem width. */
 .menu { position: relative; margin-left: auto; }
 /* Centered in the space actually available between the logo and the menu
    button, not naive full-row-width centering (that ignores the wordmark's
    and menu button's own widths and can visually collide with the
-   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
-   max-content/1fr/max-content sizes the outer two columns to the
-   wordmark's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width: 1000px) {
   .site-header .wrap { display: grid; grid-template-columns: max-content 1fr max-content; column-gap: 1rem; }
   .menu { margin-left: 0; }
@@ -159,9 +158,8 @@ header.site-header {
 /* top: 100% with zero gap to the button, margin-top for the visual gap
    instead -- any gap via `top` alone is a dead zone the pointer crosses
    with no element under it, which drops :hover before the pointer
-   reaches the menu (Mark, 2026-09-19: "you shouldn't have to click to
-   get it to allow you to move in the hover mode"). The ::before bridges
-   that margin-top gap so :hover survives the crossing. */
+   reaches the menu. The ::before bridges that margin-top gap so :hover
+   survives the crossing. */
 nav.site-nav {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.9rem;
@@ -421,7 +419,7 @@ ol.convictions li::before { border-color: #E08C74; }
   .brand .wordmark { font-size: 1.05rem; }
 }
 
-/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- now part of the single header row, not its own row. Filled rust so the three stand out (Mark, 2026-09-19), matching this file's own .btn.primary fill rather than inventing a new color. */
+/* Persistent feature header: Church Family Tree / Conversation with One / Build a Table -- part of the single header row, not its own row. Filled rust so the three stand out, matching this file's own .btn.primary fill rather than inventing a new color. */
 .feature-bar { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
 .feature-btn {
   font-family: 'Alegreya Sans', sans-serif;

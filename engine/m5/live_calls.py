@@ -94,8 +94,14 @@ toward the conversation itself ("you're the only one who understands me" is a re
 question about the system's nature - classify its out_of_scope.class as "none"). It also does NOT apply \
 to a question about what was said earlier in THIS conversation - who said what, in what order, "what did \
 you tell me before" - that is ordinary conversation memory, class "none". "later_age" is for a \
-question about a period after this world's own time window; "other_tradition" is for a question about a \
-different Christian tradition/community than this one. Otherwise "none".
+question about a period after this world's own time window; "other_tradition" is for a question that \
+names or clearly points at a different Christian tradition or community than this one - a group's own \
+name ("the Donatists"), the people who held it ("the Arians", "Rome's church"), or another tradition's \
+own display name - whether the question asks about that other tradition directly ("what did the Arians \
+believe") or asks THIS world about its own relationship or history with it ("what was your relationship \
+with the Donatists") - the latter still needs the redirect, because an honest answer routes through what \
+this world may say about another. It does NOT apply to a general, unnamed comparison ("how did other \
+Christians see this") that names no specific communion. Otherwise "none".
 - modern_terms: any modern theological/religious terms or framings the participant used that this \
 historical voice would not have used natively (e.g. "born again," "personal Lord and Savior," "rapture") \
 - each as {term_id: a short snake_case id you invent for it, display: the term as the participant used it}. \

@@ -17,8 +17,11 @@ sources:
 - source_id: desert.source.apophthegmata-patrum
   locus: §542 (cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt line 1160) - Budge's Syriac recension
   license: public-domain
-text: The sands are my sins which are running down behind me and I cannot see them, and I, even I, have
-  come this day to judge shortcomings which are not mine.
+text: '[The sands are] my sins which are running down behind me and I cannot see them, and I, even I, have
+  come this day to judge shortcomings which are not mine.'
+modern_rendering: >-
+  [The sands are] my sins, running down behind me. I cannot see them. And I -- I myself -- have come
+  this day to judge faults that are not my own.
 speaker_or_author: Abba Moses
 license: verbatim
 modern_lens_note: 'No significant modern-lens risk identified for this quote''s own vocabulary or imagery:
@@ -38,10 +41,14 @@ relations:
 ---
 VERBATIM AS OF 2026-08-27, verified against the newly vendored Budge at
 line 1160, §542. DISCLOSED: the file prints "[The sands are]" in square
-brackets - the translator's supplement for an ellipsis in the Syriac. The
-brackets are dropped and the words kept, because dropping the words would
-leave the sentence without a subject; the supplement is Budge's, not this
-world's, and is flagged here rather than absorbed silently.
+brackets - the translator's supplement for an ellipsis in the Syriac; the
+supplement is Budge's, not this world's.
+
+Quote-verbatim gate fix (2026-09-22): the brackets themselves are restored, keeping the words exactly
+as before - dropping the bracket marks (rather than the words) still left the record unable to verify
+against the source's own printed form. The gate treats a bracketed span in a record's own text as a
+labeled editorial insertion, so this now shows Budge's supplement exactly as flagged rather than
+silently blending it into the sentence.
 
 The narrative around it - a brother's offence at Scete, the summons Moses
 first refused and then obeyed, the basket of sand carried on his

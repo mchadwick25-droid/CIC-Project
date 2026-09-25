@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
-  <!-- CiC world icon (V0.7 LOCKED, 2026-07-18) - Papnoute, Abba / elder, DESERT MONASTICISM. Era 1 template.
-       LOCKED - Mark approved 2026-07-18; base copy _working-base/papnoute_LOCKED_v0_7.svg. Appearance
-       (grey beard, sun-weathered skin) is INFERENCE on the documented Egyptian-desert setting; the
+  <!-- CiC world icon (LOCKED) - Papnoute, Abba / elder, DESERT MONASTICISM. Era 1 template.
+       Appearance (grey beard, sun-weathered skin) is INFERENCE on the documented Egyptian-desert setting; the
        cracked-jug object is DOCUMENTED (Permanent Prompt / desertstory004). Spec 7d governs.
-       V0.6: crack only on the jug (no leak drops); cowl crown lowered to y30 so the bbox (x18-102, y30-150)
-       matches Chloe exactly for identical frame size. V0.7 (Mark): SKIN DARKENED to #A97B4A - sun-weathered
+       Crack only on the jug (no leak drops); cowl crown lowered to y30 so the bbox (x18-102, y30-150)
+       matches Chloe exactly for identical frame size. Skin #A97B4A - sun-weathered
        North African / Egyptian-desert tone; grounded in the world's Egyptian setting, formal demographic
        reference still future. Chloe keeps her lighter Greek-East tone. Same square viewBox as Chloe, centered.
        Koukoulion cowl + full grey beard + dark habit kept; object = the cracked jug (Abba Moses's jar). -->

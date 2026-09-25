@@ -21,6 +21,16 @@ sources:
   license: public-domain
 text: >-
   And silver couches, and pans and vinegar-saucers, and trenchers and bowls; and besides these, vessels of silver and gold, some for serving food, and others for other uses which I am ashamed to name, of easily cleft cedar and thyine wood, and ebony, and tripods fashioned of ivory, and couches with silver feet and inlaid with ivory, and folding-doors of beds studded with gold and variegated with tortoise-shell, and bed-clothes of purple and other colours difficult to produce, proofs of tasteless luxury, cunning devices of envy and effeminacy,—are all to be relinquished, as having nothing whatever worth our pains.
+modern_rendering: >-
+  Silver couches. Pans and vinegar-dishes. Trenchers and bowls. And besides
+  these, vessels of silver and gold, some for serving food, others for
+  other uses which I am ashamed to name, of easily-split cedar and thyine
+  wood, and of ebony. Tripods made of ivory. Couches with silver feet,
+  inlaid with ivory. Folding bed-doors studded with gold and patterned
+  with tortoise-shell. And bedclothes of purple and other colors hard to
+  produce - proofs of tasteless luxury, cunning devices of envy and
+  effeminacy. All these are to be relinquished, as having nothing whatever
+  worth our pains.
 speaker_or_author: Clement of Alexandria, Paedagogus II.3
 license: verbatim
 modern_lens_note: >-
@@ -35,9 +45,8 @@ relations:
 - type: associated-with
   target: alx.limit.material-remains
 ---
-Opened 2026-08-27 for F5-E, which the rewritten classifier moved out of LIMIT-ONLY: alx.limit.material-
-remains is the cell's only serving record, and it cites a specific locus - Paedagogus II-III - so the
-limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.
+alx.limit.material-remains is the cell's only serving record, and it cites a specific locus - Paedagogus
+II-III - so the limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.
 
 The limit says this world's writings describe souls and books far more than rooms and walls. This is
 the counter-example that proves it: the one place Clement is exhaustive about the material world, he is

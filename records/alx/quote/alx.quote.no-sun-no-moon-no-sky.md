@@ -21,6 +21,14 @@ sources:
   license: public-domain
 text: >-
   For who that has understanding will suppose that the first, and second, and third day, and the evening and the morning, existed without a sun, and moon, and stars? and that the first day was, as it were, also without a sky? And who is so foolish as to suppose that God, after the manner of a husbandman, planted a paradise in Eden, towards the east, and placed in it a tree of life, visible and palpable, so that one tasting of the fruit by the bodily teeth obtained life?
+modern_rendering: >-
+  What wise person could suppose that day one, and day two, and day
+  three, and their evenings and mornings, existed without a sun, and
+  moon, and stars? Could such a person think the first day existed
+  without a sky too? Who is foolish enough to suppose that God, like a
+  farmer, planted a garden in Eden, toward the east? Who would think he
+  placed in it a tree of life, visible and touchable, so that one who
+  tasted its fruit with bodily teeth would obtain life?
 speaker_or_author: Origen of Alexandria, On First Principles IV.1.16
 license: verbatim
 modern_lens_note: >-
@@ -37,7 +45,7 @@ relations:
 - type: associated-with
   target: alx.term.allegoria
 ---
-Opened 2026-08-27 for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
+Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.
 
 The cell's second question asks whether Genesis was read the way modern people argue about it. The

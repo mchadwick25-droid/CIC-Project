@@ -17,9 +17,9 @@ query: "Public-domain English translation of Didymus the Blind (Tura commentarie
 result: not_found
 channel: "web search (WebSearch), 2026-08-20"
 found_sources: []
-note: "Structurally impossible for the Tura material: the papyri were only discovered in 1941, so every edition and translation postdates the public-domain era. English exists only in modern copyrighted scholarship (Hill, Commentary on Zechariah, FOTC 111, 2006; Blumell, BYU Papyri Psalms edition, Brepols 2019; a 2000 PhD thesis on Job) - the distinction is no-PD-English-can-ever-exist, not no-English-at-all, and for some Tura works (Ecclesiastes; parts of the Psalms commentary) even modern English coverage is partial. RULING (Mark, 2026-08-21, relayed): accepted as an honest absence; move on. His translate-from-Greek note fits this text most literally (the Tura originals are Greek), but a build-made translation carries the unresolved review question the fleet wantlist parks at its Tier 4 - future possibility, not a task now. Didymus verification meanwhile rests on the vendored testimonia (Palladius line 211; Jerome De viris 109 in npnf203; Socrates IV.25 in npnf202)."
+note: "Structurally impossible for the Tura material: the papyri were only discovered in 1941, so every edition and translation postdates the public-domain era. English exists only in modern copyrighted scholarship (Hill, Commentary on Zechariah, FOTC 111, 2006; Blumell, BYU Papyri Psalms edition, Brepols 2019; a 2000 PhD thesis on Job) - the distinction is no-PD-English-can-ever-exist, not no-English-at-all, and for some Tura works (Ecclesiastes; parts of the Psalms commentary) even modern English coverage is partial. Accepted as an honest absence; move on. Didymus verification meanwhile rests on the vendored testimonia (Palladius line 211; Jerome De viris 109 in npnf203; Socrates IV.25 in npnf202)."
 ---
-Search run 2026-08-20. Consequence stated honestly: the late-horizon teaching
+Consequence stated honestly: the late-horizon teaching
 tradition (Didymus headed it for roughly half a century, to 398) cannot be
 represented by its own texts in the vendorable base. The late horizon will
 speak through Athanasius (episcopal, controversy-weighted) rather than

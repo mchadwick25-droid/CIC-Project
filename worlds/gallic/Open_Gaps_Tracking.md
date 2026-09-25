@@ -11,7 +11,7 @@ review/decision files against roughly 139 total files in this folder, the great 
 are the 81 Lexicon-Chunks and 14 Story-Chunks (content, not process record). This ledger draws only
 on what is genuinely review or decision history: the Doc_01–Doc_10 review/spot-check files, the
 G1/B-9/Phase C scoping notes, the Representative identity and construction records, and
-`records/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section. Where a document's build history could
+`Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section. Where a document's build history could
 not be reconstructed from what is on disk, that is said plainly rather than filled in.
 
 ---
@@ -209,7 +209,7 @@ world.*
   world; makes the Representative freeze-eligible on that gate specifically (the world overall
   remained not freeze-eligible on the separate Article 31 gate — see OG-3). Recorded at
   `gallic_Representative_Construction_Notes_Renatus.md` §6 and its Document Log, and at
-  `records/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section.
+  `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic` section.
 - **B-8 (first compile), 2026-09-12** — `state: built`, `census_id` deliberately null (post-admission
   work). **B-9, 2026-09-12** — scoped and disposed: contributes nothing beyond B-8, for a first-ever
   build with no prior hand-authored deployment to swap away from, matching Cappadocian's own B-9
@@ -259,7 +259,7 @@ world.*
   against Cappadocian's Chilo, checked against the actual image files.
 - **Census link, content upgrade, tradition page, homepage card, status flip — all 2026-09-13,** each
   on Mark's own explicit word ("yes, start on 1-4"; "yes, flip it"). Full detail in
-  `records/WORLDS_REGISTRY_LOG.md`'s `## gallic` section — `census_id` set, `cic-website` tradition
+  `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s `## gallic` section — `census_id` set, `cic-website` tradition
   page and homepage card built from this build's own grounded records (not invented copy), and the
   fleet's four-entry `ACCEPTED_OPEN` disclosure block for gallic closed outright once every surface
   agreed.
@@ -403,7 +403,7 @@ re-inspection of the current files, not assumed from the commit message alone.
 
 Beyond OG-4, OG-8, and OG-9 above (each already a cross-world/fleet-level finding that names gallic
 by name), no further portfolio-level audit reviewed in the course of building this ledger named
-gallic or "the Monk-Bishops of Gaul" specifically. `records/WORLDS_REGISTRY_LOG.md`'s own `## gallic`
+gallic or "the Monk-Bishops of Gaul" specifically. `Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md`'s own `## gallic`
 section is the fleet's authoritative quick-reference for this world's post-approval history and was
 read in full to build the Representative build log and the open-items list above; it states plainly
 that "everything about this world's own build is tracked in" this world's own documents, matching
@@ -420,3 +420,15 @@ restarted from zero against a file this world's real OG-1 through OG-9
 already existed.
 
 ### OG-10. **No canon cell in this world's own build has both a `demonstration` record and a `doctrinal_witness` record — unlike all three prior `world_front` builds.** `narrative.questions` (the `world_front` schema's `{cell, demonstration, cite}` field) is built in every prior world by pairing a demonstration and a doctrinal_witness that share the same canon cell: desert paired C-E and C-I, syriac paired C-I and F3-I, cappadocian paired C-I and C-T. A direct check of this world's own record set found no such pair anywhere: this world's nine `demonstration` records were all built for F-cells (F1-T, F1-I, F2-E, F3-I, F3-P, F4-P, F5-I, F6-I, and F6-P twice), while its four `doctrinal_witness` records were all built for C-cells plus one F-cell with no matching demonstration (C-I, C-P, C-T, F3-E). Cross-checking every demo cell against every dw cell returns zero shared cells. **Not fixed here, and out of this pass's own scope:** the `world_front` record (`records/gallic/world_front/gallic.front.gallic-monastic-ascetic-christianity.md`) leaves `narrative.questions` empty rather than either (a) pairing a demonstration and doctrinal_witness on different cells, which would misrepresent to a participant what the paired "cell" actually covers, given the field's own established fleet convention, or (b) authoring a new demonstration record for a C-cell, which is Doc_08/Doc_09 content this pass has no mandate to add. This is most likely a real gap in this world's own Doc_08 (Forces) / Doc_09 (Story Inventory) build — no demonstration record was ever written for any C-cell (Christ/Trinity) — rather than something specific to the `world_front` migration. Whoever next touches this world's Doc_08/Doc_09 material should decide, as an actual build-cycle decision, whether a C-cell demonstration is worth adding; until then, this world's `world_front` record correctly ships without a `narrative.questions` section rather than papering over the gap.
+
+### OG-11. **One corpus-map placement question touching gallic, surfaced by the Live-Surface-Cleanup pass on `cic/corpus-map/`, 2026-09-24 — not resolved here.** That pass found a `_staging/` note carrying an open editorial question, and moved it to `worlds/_cross-world/NEEDS-RULING.md`'s own "Placement questions surfaced by the Live-Surface-Cleanup pass" section per that pass's own PR (see `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md`, Entry 3): *The Institutes of John Cassian* (`npnf211`) currently carries three atlas_ids — `desert-monasticism` (the primary home), gallic, and `early-benedictine-italian-monasticism` (both reception homes that postdate Cassian, written c. 420 for Gallic monasteries and commended by the Rule of Benedict ch. 73). Whether strict era fit should trim the two reception entries, leaving only desert, is open. Full text in `NEEDS-RULING.md`; not decided here.
+
+### OG-12. Analytic six-test/LAYER framework vocabulary in spoken `gravity`/`force` `description` fields — gallic's own instance of the fleet-wide gap
+
+**Status: OPEN, not attempted by this pass — found during the Live-Surface-Cleanup program's batch-3 scope (gallic/cappadocian/rzg), 2026-09-24.**
+
+Fleet-wide gap, already filed at `worlds/rzg/Open_Gaps_Tracking.md` #47 (that entry's own fleet measurement counted gallic at 98 lines) and confirmed in witt (OG-34), pahc (OG-15), desert (OG-16), and don (OG-17). gallic's own instance matches don's shape almost exactly: `tools/check_live_commentary.py --surface records` scoped to `records/gallic/` finds 98 hits inside declared spoken fields, all 98 inside `gravity.description`/`force.description` across 9 of this world's 10 `gravity` records and all 22 of its `force` records — `gallic.core.gallic`'s own `world_core` fields carry zero hits, already clean. The tenth gravity record, `gallic.gravity.interior-road`, carries no checker-flagged citation but the same LAYER/SIX-TEST structural markers on inspection (8 matches for the same keyword set used to verify every other affected record in this program) — the checker's literal regex missing it, not the field actually being clean; included in the affected-records list below for that reason. `gallic.gravity.virtus` is representative and among the heaviest (8 hits in one field): "AUTHOR GRAVITY FLAG AT GENERATION (Doc_04 §2.1): SINGLE-VOICE (Sulpitius)... SIX-TEST SUMMARY (Doc_04 §3): Repetition passes across streams... Dependency passes... Formation passes... Explanatory passes... Persistence FAILS across nodes... Interaction passes... CONFIDENCE/GRAVITY CROSS-CHECK: no divergence for Tensional... FORCES NOTATION (Doc_04 §3; Doc_08 §5)..." Even the lighter force records (1-4 hits each) carry the same structural markers in the same field, just fewer citations per record — e.g. `gallic.force.synodal-commission` opens with "Doc_01 §2.4 argued that..." as its own sentence subject and carries "WORLD'S OWN EXPERIENCE (Layer 2):" and (in `gallic.force.transmission`) "IMPACT (Layer 3):" headers. Affected records (all `gravity`, plus `force`): `gallic.gravity.authority-ambivalence`, `gallic.gravity.egypt-as-measure`, `gallic.gravity.grace-and-effort`, `gallic.gravity.interior-road`, `gallic.gravity.judgment-imminent-present`, `gallic.gravity.monk-bishop`, `gallic.gravity.named-example`, `gallic.gravity.received-not-invented`, `gallic.gravity.soldier-of-christ`, `gallic.gravity.virtus`, `gallic.force.africa-and-rome-pressure`, `gallic.force.arian-scattering`, `gallic.force.army-and-rank-before`, `gallic.force.barbarian-fiscal-ruin`, `gallic.force.cold-of-gaul`, `gallic.force.contest-over-antiquity`, `gallic.force.cooling`, `gallic.force.court-at-trier`, `gallic.force.egyptian-standard`, `gallic.force.episcopal-recruitment`, `gallic.force.fugitives-fill-the-sees`, `gallic.force.legitimacy-by-reception`, `gallic.force.named-exemplar`, `gallic.force.office-temptation-destiny`, `gallic.force.power-displayed-disowned`, `gallic.force.received-programs-logic`, `gallic.force.renunciation-that-stays`, `gallic.force.roman-frame-passing`, `gallic.force.synodal-commission`, `gallic.force.transmission`, `gallic.force.transmission-in-ending`, `gallic.force.unconverted-countryside`.
+
+Not a token-swap fix, for the same reason as don's OG-17: this is gallic's entire gravity/force layer written in the six-test/LAYER framework's own internal structure from the ground up. Needs the same full-field readability rewrite `rzg.craft.theophilus-voice` used as precedent (`worlds/rzg/Open_Gaps_Tracking.md` #46), not attempted here.
+
+**Three checker hits confirmed KEEP, not a leak:** `gallic.dw.christ-in-the-beggar-and-the-guest`, `gallic.story.the-cloak-at-amiens` (×2 lines), and `gallic.voice.craft` each trip the `era-gate` pattern (`\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?(?:gate|Freeze)\b`) on the literal phrase "at the gate" — a real city gate in St. Martin's cloak story ("met at the gate of the city a poor man") and its own doctrinal-witness/voice-craft echoes, not the build process's "Era N Freeze gate" checkpoint the pattern is meant to catch. A checker false positive, reported alongside this program's other confirmed false positives.

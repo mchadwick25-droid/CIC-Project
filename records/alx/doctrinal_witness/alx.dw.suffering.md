@@ -53,13 +53,4 @@ tensions:
 The suffering cell's answer-ground; companion quote origen-punishment-
 heals and story plague-nursing carry it in voice and narrative.
 
-REGISTER TRANSLATION (2026-08-29, the alx pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).
-
-CORRECTED 2026-09-08, records/alx audit: the near-quotation of Philocalia
-XXVII previously swapped the payoff clause "to do them good" for "to heal"
-- a real change to the operative verb of a load-bearing sentence, though
-unmarked as a quote. The vendored wording (Philocalia XXVII, line 436) is
-"every threat and pain and punishment, things that come from God, are
-never inflicted to injure the sufferers, but always to do them good" -
-restored here to match, and aligned with this file's companion verbatim
-quote record, alx.quote.origen-punishment-heals.
+REGISTER TRANSLATION: spoken field translated in place to plain modern English, translation not summary; every sourced claim, name, and reviewed constraint preserved. Fixed at the record layer, not the prompt (no-fix-on-fix).

@@ -394,6 +394,35 @@ def table_seat_correction_turn(representative_name: str) -> dict:
     return {"kind": TABLE_SEAT_CORRECTION.kind, "text": TABLE_SEAT_CORRECTION.text.format(representative_name=representative_name)}
 
 
+VOICE_REJECTED = FacilitatorTurn(
+    kind="grounding_correction",
+    text=(
+        "This is the Facilitator, stepping in for a moment - {representative_name}'s last answer didn't "
+        "hold together the way it should have, so I'm setting it aside rather than passing it on to you. "
+        "Ask again, or ask something else - I'm still here."
+    ),
+)
+
+
+def voice_rejected_turn(representative_name: str) -> dict:
+    """R27 build item 5's own interview-mode fallback (Decision-Log.md
+    Entry 56/Rulings-Pending.md R36, 2026-09-23): the interview-mode
+    analog of table_seat_correction_turn above, for the one case
+    engine.m4.turn's seat-identity guard never covers in interview mode -
+    a generated voice turn that hard-failed R27's own paragraph-unit
+    check (wholly_uncited_paragraph or neighbour_named), survived one
+    named regeneration, and still hard-failed
+    (voice_event["r27_enforcement_exhausted"] is True; that turn's own
+    text is deliberately empty, same convention seat_identity_guard_
+    exhausted already sets). Interview mode has no other seats to "bring
+    into it" the way the Table line closes, so this is new wording, not
+    a reuse of TABLE_SEAT_CORRECTION - drafted as three options and
+    escalated to Mark before being built (per the reviewer thread's own
+    instruction on item 5); this is Option A, Mark's own word, chosen
+    directly in session 2026-09-23 - RULED, not draft copy."""
+    return {"kind": VOICE_REJECTED.kind, "text": VOICE_REJECTED.text.format(representative_name=representative_name)}
+
+
 def bridge_turn(terms: list[dict]) -> tuple[dict, str]:
     """Returns (facilitator_event, underlying_subject).
 

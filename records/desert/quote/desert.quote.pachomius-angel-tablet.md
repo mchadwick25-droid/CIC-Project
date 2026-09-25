@@ -16,7 +16,11 @@ sources:
 - source_id: desert.source.palladius-lausiac-history
   locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation"
   license: public-domain
-text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating."
+text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating..."
+modern_rendering: >-
+  You shall let each man eat and drink according to his own strength. In proportion to
+  the strength of those eating, assign them their labors. Do not prevent any man, either
+  from fasting or from eating...
 speaker_or_author: "an angel"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: this is administrative rule-language (eating, drinking, labor proportioned to strength), plain in any era."
@@ -54,3 +58,10 @@ same finding noted that this field, like `text`, compiles directly into
 `sources[].locus` also compiles - a correction to how this step's own
 STEP4-INDEX.md described the M8 fix elsewhere in this record set, not a
 claim specific to this record).
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "fasting or eating" was invented
+- the tablet's own text continues with further instructions (task assignment, cell arrangements). This
+record was always meant to carry only "the tablet's own opening clause" (per the 2026-08-22 note
+above), so marked with a trailing ellipsis rather than restored. The record still cannot verify past
+"labours" partway through: the source has a page-break marker ("labours. |113 And prevent") the gate
+doesn't strip - flagged for Mark alongside the other footnote/pagination-apparatus findings in this PR.

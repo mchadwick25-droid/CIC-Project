@@ -17,7 +17,16 @@ from engine.m4.entrance import open_session
 from engine.m4.package_fetch import ensure_package_local
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.store import Store
+from engine.m4 import evidence as ev
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
+from engine.m4.uncited_claims import (
+    build_uncited_claims_event,
+    conversation_revealed_excerpts,
+    known_tradition_names,
+    match_named_tradition,
+    tradition_known_in_window,
+    world_records_mention_tradition,
+)
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
 from engine.m5.anachronism import anachronistic_term_ids as compute_anachronistic_term_ids
 from engine.m5.routing import PRESSABLE_CLASSES
@@ -456,6 +465,8 @@ def handle_message(
     text: str,
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
+    r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -531,9 +542,43 @@ def handle_message(
     # History replays bridged rounds' participant text as the underlying
     # subject the voice actually received (SS77 applied to session memory,
     # not only the live turn - see replay_transcript's own docstring).
-    history = history_from_transcript(replay_transcript(state, term_ids))
+    replayed = replay_transcript(state, term_ids)
+    history = history_from_transcript(replayed)
 
     turn_no = state.turn_count + 1
+
+    # R39's own reviewer-ordered fix (2026-09-23): unconditional, never
+    # gated behind r27_enforce - this corrects an existing false statement
+    # (_other_tradition_directive's own fixed honest-limit sentence, said
+    # even when this world's own records already name the tradition
+    # asked about) rather than adding new enforcement. match_named_
+    # tradition works from the raw participant text, independent of
+    # whatever the reader ends up classifying - harmless to compute even
+    # on a turn the reader does not route other_tradition, since
+    # _build_turn_directive only ever reads it when is_other_tradition_
+    # first_ask is also true.
+    named_tradition_key = match_named_tradition(text, registry, exclude_world_key=state.world_key)
+    other_tradition_evidence_ids = (
+        world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
+        if named_tradition_key else None
+    )
+    # R37 (Rulings-Pending.md R37, R37-A, R37-B): the pivot's own licence
+    # for the same named tradition - condition (a) from the registry's own
+    # time_windows, condition (b) from what this conversation actually
+    # said, read from the same replayed transcript the voice's own history
+    # is (what the voice was actually told). state was projected before
+    # this turn's own participant_message was appended, so the question
+    # itself is not counted as a revelation. No other Representative
+    # speaks in an interview, so R37-B's third source is empty here by
+    # construction.
+    other_tradition_known_in_window = (
+        tradition_known_in_window(registry[state.world_key], registry[named_tradition_key])
+        if named_tradition_key else None
+    )
+    other_tradition_revealed = (
+        conversation_revealed_excerpts(replayed, registry[named_tradition_key], speaking_world_key=state.world_key)
+        if named_tradition_key else None
+    )
 
     try:
         result: TurnResult = run_turn(
@@ -552,6 +597,12 @@ def handle_message(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids,
             history=history,
+            r27_enforce=r27_enforce,
+            known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
+            other_tradition_evidence_ids=other_tradition_evidence_ids,
+            other_tradition_known_in_window=other_tradition_known_in_window,
+            other_tradition_revealed=other_tradition_revealed,
+            self_revision_enabled=self_revision_enabled,
         )
     except UnhandledRoutingAction:
         # Deleted 2026-08-24, not weakened: this used to catch the raise and
@@ -640,6 +691,37 @@ def handle_message(
         events.validate("voice_turn", result.voice_event)
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=result.voice_event)
         voice_payload = result.voice_event
+
+        # R27 (Decision-Log.md Entry 51, 2026-09-22), report-only: same
+        # out_of_scope_class already read above for the pressed-flag append,
+        # not re-derived - a voice_with_directive turn routed via
+        # other_tradition is the "own doctrine in another tradition's turn"
+        # shape build_uncited_claims_event's own classify_other_tradition_turn
+        # is built to catch.
+        uncited_event = build_uncited_claims_event(
+            result.voice_event,
+            registry=registry,
+            is_other_tradition_turn=(result.routing_action == "voice_with_directive" and out_of_scope_class == "other_tradition"),
+        )
+        if uncited_event is not None:
+            events.validate("uncited_claims", uncited_event)
+            store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
+
+        # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md
+        # R36, 2026-09-23): the interview-mode analog of
+        # engine.api.table_wiring's own seat_identity_guard_exhausted
+        # handling below - the voice_turn just persisted above already
+        # carries empty text (engine.m4.turn sets it that way), so the
+        # Facilitator's own turn is what a participant actually reads.
+        # "Last one wins" (this function's own established convention
+        # for facilitator_payload) is correct here too: an r27-exhausted
+        # turn is a real generation failure for this turn, which
+        # supersedes any other facilitator_event the same turn produced.
+        if result.voice_event.get("r27_enforcement_exhausted"):
+            fallback_event = facilitator_turns.voice_rejected_turn(world.frame["representative"]["name"])
+            events.validate("facilitator_turn", fallback_event)
+            store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
+            facilitator_payload = fallback_event
 
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="turn_committed", payload={"turn_no": turn_no})
 

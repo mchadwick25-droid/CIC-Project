@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.athanasius-npnf2-04); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf204"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: "De Decretis Concilii" in the volume's own
 chronological listing at file line 7297; the work's division follows in the
 volume (locate the boundary at first citation).

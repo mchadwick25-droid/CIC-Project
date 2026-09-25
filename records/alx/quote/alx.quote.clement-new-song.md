@@ -21,6 +21,13 @@ text: Behold the might of the new song! It has made men out of stones, men out o
   that were as dead, not being partakers of the true life, have come to life again, simply by becoming
   listeners to this song. It also composed the universe into melodious order, and tuned the discord of
   the elements to harmonious arrangement, so that the whole world might become harmony.
+modern_rendering: >-
+  See the power of the new song! It has made men out of stones, men out of
+  wild beasts. And those who were as good as dead, having no share in true
+  life, have come back to life simply by listening to this song. It has
+  also arranged the universe into a melodious order, and tuned the discord
+  of the elements into harmony, so that the whole world might become one
+  harmony.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >
@@ -37,4 +44,4 @@ retrieval:
 The id matches the Artifact-1 SS5 worked example (alx.quote.clement-new-
 song), deliberately. Christ as the New Song who re-makes people and
 re-tunes the cosmos - the world's own opening answer to who Jesus was.
-Text verified verbatim against the vendored file 2026-08-21.
+Text verified verbatim against the vendored file.

@@ -15,6 +15,31 @@ works:
 
     '
   source_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+- work: Commentaries on the First Book of Moses, Called Genesis, Vol. I
+  author: calvin
+  locus: whole file - Vol. I
+  role: tradition
+  confidence: assigned
+  note: 'Calvin''s own exegetical voice, trans. Rev. John King (Edinburgh: Calvin Translation
+    Society, 1847) - a distinct register from the Institutes (systematic theology) and the
+    Geneva Catechism (catechetical), completing this world''s coverage of Calvin''s three
+    major genres. One representative volume-pair out of the dossier''s own ~22-volume CTS
+    Commentaries lead; the remaining volumes (Psalms, the Gospel harmony, Paul''s epistles,
+    and others) were not researched or vendored this pass - a real, disclosed, open acquisition
+    opportunity for a future session, not itemized here as though complete.
+
+    '
+  source_file: calvin_commentaries-genesis-vol1_king1847.txt
+- work: Commentaries on the First Book of Moses, Called Genesis, Vol. II
+  author: calvin
+  locus: whole file - Vol. II
+  role: tradition
+  confidence: assigned
+  note: 'Completes the two-volume Genesis commentary begun in calvin_commentaries-genesis-vol1_king1847.txt,
+    same edition and vendoring basis.
+
+    '
+  source_file: calvin_commentaries-genesis-vol2_king1847.txt
 - work: Institutes of the Christian Religion, Book I (Of the Knowledge of God the Creator)
   author: calvin
   locus: whole file - Book First
@@ -49,6 +74,47 @@ works:
 
     '
   source_file: calvin_institutes-christian-religion-vol2_beveridge1845.txt
+- work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
+    Notes, Vol. I
+  author: calvin
+  locus: whole file - Vol. I
+  role: tradition
+  confidence: assigned
+  note: 'Calvin''s own private correspondence, ed. Dr. Jules Bonnet (Philadelphia: Presbyterian
+    Board of Publication, 1858) - a personal, occasional-writing register alongside the Institutes,
+    Commentaries, and Catechism, useful for this world''s own pastoral/relational voice as
+    distinct from its systematic-theological one. Vols. I, II, and IV of the 4-volume set
+    are vendored; Vol. III could not be located on archive.org under this identifier family,
+    the parallel 1855-57 Edinburgh/Constable printing, or Project Gutenberg (which holds only
+    Vols. I-II) - a genuinely open gap.
+
+    '
+  source_file: calvin_letters-vol1_bonnet1858.txt
+- work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
+    Notes, Vol. II
+  author: calvin
+  locus: whole file - Vol. II
+  role: tradition
+  confidence: assigned
+  note: 'Continues Calvin''s correspondence from Vol. I, same edition and vendoring basis.
+
+    '
+  source_file: calvin_letters-vol2_bonnet1858.txt
+- work: Letters of John Calvin, Compiled from the Original Manuscripts and Edited with Historical
+    Notes, Vol. IV
+  author: calvin
+  locus: whole file - Vol. IV
+  role: tradition
+  confidence: assigned
+  note: 'Continues Calvin''s correspondence into his later years - this volume''s own cumulative
+    index (which references entries across all four volumes by Roman-numeral volume number)
+    confirms it is the set''s final volume, closing with "THE END" - same set and vendoring
+    basis as Vols. I-II. Translator differs from those volumes: this volume''s own title page
+    names Marcus Robert Gilchrist as translator, where Vols. I-II name no individual translator
+    - see this file''s own intake header.
+
+    '
+  source_file: calvin_letters-vol4_bonnet1858.txt
 - work: The Catechism of the Church of Geneva
   author: calvin
   locus: whole file
@@ -95,11 +161,10 @@ works:
   confidence: assigned
   note: 'The volume''s remaining shorter selections, kept as one collective row rather than
     individually itemized - letters, petitions, and disputation records documenting Zwingli''s
-    own Zurich reform, 1522-1527 (updated 2026-09-15, Doc_04 Round 1 review: this row''s own
-    contents extend past the originally-stated 1522-1523 range - the volume also contains
-    Zwingli''s 1527 anti-Anabaptist polemic, "Refutation of the Tricks of the Baptists,"
-    including a sustained "On Election" exposition independently verified against the file
-    directly).
+    own Zurich reform, 1522-1527. This row''s own contents extend past 1522-1523 - the volume
+    also contains Zwingli''s 1527 anti-Anabaptist polemic, "Refutation of the Tricks of the
+    Baptists," including a sustained "On Election" exposition, independently verified against
+    the file directly.
 
     '
   source_file: zwingli_selected-works_jackson1901.txt
@@ -115,6 +180,21 @@ works:
 
     '
   source_file: zwingli_latin-works-correspondence-vol1_jackson1912.txt
+- work: The Latin Works of Huldreich Zwingli, Vol. III ("De Vera et Falsa Religione" / Of
+    True and False Religion, and the Antibolon)
+  author: zwingli
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'A third, independent volume of Zwingli''s own voice alongside the Selected Works
+    (Jackson 1901) and the Latin Works Vol. I (Jackson 1912) - ed. Clarence Nevin Heller (Philadelphia:
+    The Heidelberg Press, 1929). Contains "Of True and False Religion" (1525), called the
+    earliest truly comprehensive treatise on Protestant theology per this volume''s own preface,
+    and Zwingli''s 1524 reply to Jerome Emser (the Antibolon). Not itemized by individual
+    sub-work within this row; the file''s own intake header discloses this as a two-work compilation.
+
+    '
+  source_file: zwingli_latin-works-correspondence-vol3_heller1929.txt
 - work: The Sixty-Seven Articles of Zwingli (1523)
   author: zwingli
   locus: lines ~4485-4700, embedded within the Acts of the First Zurich Disputation

@@ -22,12 +22,20 @@ sources:
   license: public-domain
 text: >-
   There are three kinds of monks in Egypt, of which two are admirable, the third is a poor sort of
-  thing and by all means to be avoided. The first is that of the Coenobites, who live together in a
-  congregation and are governed by the direction of a single Elder; and of this kind there is the
+  thing and by all means to be avoided. The first is that of the Cœnobites, who live together in a
+  congregation and are governed by the direction of a single Elder: and of this kind there is the
   largest number of monks dwelling throughout the whole of Egypt. The second is that of the anchorites,
-  who were first trained in the Coenobium and then being made perfect in practical life chose the
-  recesses of the desert; and in this order we also hope to gain a place. The third is the reprehensible
+  who were first trained in the Cœnobium and then being made perfect in practical life chose the
+  recesses of the desert: and in this order we also hope to gain a place. The third is the reprehensible
   one of the Sarabaites.
+modern_rendering: >-
+  There are three kinds of monks in Egypt. Two of them are admirable. The third is a
+  poor kind, to be avoided at all costs. The first kind is the Coenobites. They live
+  together in a community, governed by the direction of one elder. Of the three kinds,
+  this one has the largest number of monks throughout all of Egypt. The second kind is
+  the anchorites. They first trained in the coenobium. Then, once they were made perfect
+  in the practical life, they chose the solitude of the desert. We too hope to have a
+  place in this order. The third kind is the shameful order of the Sarabaites.
 speaker_or_author: Abbot Piamun, as Cassian records him
 license: verbatim
 modern_lens_note: >-
@@ -68,3 +76,7 @@ anchoritic life is the higher one, to a listener who says openly that
 and founded coenobia. The scheme survives because it is useful, but a
 world that presented it as a flat description would be repeating a
 recruitment argument as though it were a census.
+
+Quote-verbatim gate fix (2026-09-22): "Coenobites"/"Coenobium" simplified the source's "Cœnobites"/
+"Cœnobium" ligature - corrected to match exactly. Both semicolons after "single Elder" and "the
+desert" were wrong - the source has colons at both points; corrected. No wording changed.

@@ -129,10 +129,30 @@ def _label(record: dict, repository_records: dict) -> str:
     return label or record.get("id", "")
 
 
+def _printable(value) -> bool:
+    return bool(value and str(value).strip())
+
+
 def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> dict | None:
     """None only when record_id isn't in this world's repository at all -
     every real citation's record_id already resolves, since citations are
-    only ever emitted against ids the grounding net verified exist there."""
+    only ever emitted against ids the grounding net verified exist there.
+
+    A real source_id, even a dangling one that fails to resolve in this
+    repository, still leaves the renderer the id itself to print (its own
+    primary field is `work ?? source_id`) - not an empty bullet, just an
+    incompletely-resolved one. What genuinely leaves nothing to print is a
+    `sources[]` entry with no source_id at all - missing or blanked
+    upstream of this function, in the citing record's own sources[] list,
+    a shape the grounding net's own checks don't cover since they verify
+    the citing record's id, not the shape of its own sources[] entries -
+    and no locus of its own either, so author/work/locus/rights_status
+    are all None too (Mark's own staging report, 2026-09-23: "General
+    references (1)" followed by five empty bullet items - "* " with
+    nothing after). Dropped here, once, for both callers
+    (resolve_citation_sources and transparency_plan.build_transparency_plan)
+    rather than filtered a second time in the frontend - an entry with
+    nothing to print is not a source, so it never leaves this function."""
     record = repository_records.get(record_id)
     if record is None:
         return None
@@ -140,15 +160,15 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     for entry in record.get("sources") or []:
         source_id = entry.get("source_id")
         source_record = repository_records.get(source_id) or {}
-        sources.append(
-            {
-                "source_id": source_id,
-                "author": source_record.get("author"),
-                "work": source_record.get("work"),
-                "locus": entry.get("locus"),
-                "rights_status": source_record.get("rights_status"),
-            }
-        )
+        candidate = {
+            "source_id": source_id,
+            "author": source_record.get("author"),
+            "work": source_record.get("work"),
+            "locus": entry.get("locus"),
+            "rights_status": source_record.get("rights_status"),
+        }
+        if any(_printable(v) for v in candidate.values()):
+            sources.append(candidate)
     card = {
         "record_id": record_id,
         "record_type": record.get("record_type"),

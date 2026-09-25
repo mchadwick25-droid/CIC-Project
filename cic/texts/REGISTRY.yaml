@@ -37,6 +37,72 @@
 #   notes:         free-form, optional — anything about this specific file's
 #                  provenance, conversion, or caveats that isn't recoverable
 #                  by reading the file or scanning records/
+#   apparatus:     optional, and rare — a CLOSED list of this edition's own
+#                  footnote/column-marker CONVENTIONS that the quote-verbatim
+#                  gate (engine/m1/quote_verbatim.py) strips before matching,
+#                  because this one vendored file's own typesetting inlines
+#                  them with no wrapper the gate's fleet-wide `apparatus`
+#                  class already recognizes (soft hyphen, tilde-digit,
+#                  pipe-page, bracketed locator). Never a per-record field,
+#                  and never a per-QUOTE pattern either — R33 (2026-09-23,
+#                  Mark, on this file's own first draft, which anchored five
+#                  entries to one quote's exact wording each): "we should be
+#                  setting principles we will have a 100 worlds and cant
+#                  tell the representitive what to say for every quote."
+#                  An entry describes the EDITION's own convention, evidenced
+#                  against the real file, and applies to every quote citing
+#                  it - never a shape written to fit one quote's own words.
+#                  Two kinds:
+#                    kind: regex (the default, omit the key) - a plain
+#                      Python regex naming a real, recurring, self-
+#                      contained marker shape (a symbol that is never real
+#                      prose, a locator glued to its own wrapper, a bare
+#                      letter from a closed, non-word set) - never a bare
+#                      unwrapped digit, which no shape can safely tell apart
+#                      from a real digit quantity without more structure
+#                      (this registry's own history: Palladius and Ammianus
+#                      both quote real digit quantities as content - "some
+#                      300 monks", "some 400 monks" - so "any bare digit" is
+#                      never a safe edition-wide regex).
+#                    kind: endnote-sequence - for a bare digit run with no
+#                      wrapper of its own, when the edition's own numbered
+#                      endnotes section (real entries, "N. ...", found at
+#                      `notes_start_pattern`) gives independent, structural
+#                      proof that a given digit is that edition's own next
+#                      footnote number, not content: the gate walks the
+#                      running text once, tracking the next expected
+#                      endnote number from that real list, and strips a
+#                      bare digit token only when it exactly equals that
+#                      expected number - never any bare digit on its own.
+#                      "300 monks" survives untouched unless 300 is
+#                      genuinely the very next endnote in the sequence at
+#                      that point, which the real notes list, read fresh
+#                      every run, decides - never guessed.
+#                  Fields, per entry:
+#                    name:               short, descriptive, unique within
+#                                        this file
+#                    kind:               "regex" (default) or
+#                                        "endnote-sequence"
+#                    pattern:            (kind: regex only) a Python regex
+#                                        (re.search) matched against the RAW
+#                                        vendored text before any other
+#                                        stripping; the matched span is
+#                                        removed entirely (replaced with "")
+#                    notes_start_pattern: (kind: endnote-sequence only) a
+#                                        Python regex (re.MULTILINE,
+#                                        re.search), quoting the real first
+#                                        line of this edition's own numbered
+#                                        endnotes section verbatim - text
+#                                        before its match is "running text"
+#                                        to walk; text from its match
+#                                        onward is parsed for the real
+#                                        ordered endnote numbers
+#                    evidence:           the real break(s) this convention
+#                                        was traced to - quoted directly
+#                                        from the vendored file, never a
+#                                        generalization from a description
+#                                        of it, and never just the one quote
+#                                        record that first surfaced it
 #
 # Validated by cic/engine/texts_registry.py:
 #   python cic/engine/texts_registry.py                 # report
@@ -702,6 +768,65 @@
     also translated this project's already-vendored palladius_lausiac-history_clarke1918.txt,
     and (per this book's own back-cover listing) 'The Life of St. Macrina' - a separate, still-needed
     acquisition for this world.
+  apparatus:
+    - name: footnote-glyph-registered-mark
+      pattern: '®'
+      evidence: >-
+        '"' There is a time for everything." ® But for prayer and psalmody' - the docx-to-text
+        extraction of this scan's own footnote-reference mark surfaced as a bare registered-
+        trademark glyph. Never real prose content in a 1925 English translation of Basil -
+        safe as a general symbol strip within this one file, the same tier as the fleet-wide
+        soft-hyphen class (an unambiguous character, not a shape that could coincide with
+        real quoted text).
+    - name: footnote-glyph-guillemet
+      pattern: '»'
+      evidence: >-
+        Same sentence, a few words on - "for prayer and psalmody, as for many other things, »"
+        - a second footnote-reference mark from the same extraction, rendered as a right
+        guillemet. Same reasoning as footnote-glyph-registered-mark.
+    - name: lone-column-continuation-letter
+      pattern: '(?<=\n\n)[B-E](?=[ \t])'
+      evidence: >-
+        This edition's own recurring convention, not one instance: after a Migne column
+        number is printed once (see unbracketed-column-locator below - "382A" a few lines
+        before the case that first surfaced this), later sub-sections of the SAME column are
+        printed as a bare capital letter alone on its own line, the column number not
+        repeated - confirmed at 231 real occurrences of a lone B/C/D/E starting its own
+        paragraph throughout this one file (e.g. "among their number \n\nD are those who
+        fill", "while we move our hands in work with \n\nE the tongue if it is possible",
+        "aid if they have to toil, but let us rejoice that \n\nE they will be glorified",
+        "the conflict of renunciation to no purpose, \n\nB since thou hast given thyself").
+        Restricted to B-E, never A or I: those two letters are real English
+        words that legitimately open a paragraph on their own ("\n\nA busy man who
+        promises...", "\n\nI began to work on the notes...", 23 and 42 such real cases
+        respectively, confirmed by reading the file) and must never be stripped; no
+        genuine one-letter English word is ever "B", "C", "D", or "E".
+    - name: unbracketed-column-locator
+      pattern: '\b\d{3,4}[A-Z]\b'
+      evidence: >-
+        "commands us to labour and work with our hands that which is 382A" and dozens more
+        across this file (213D, 218E, 317D, 318D, 323D, 323E, 327A, 337B, 360B, 368D, 415E,
+        430A, 431A, 506B...) - this edition's own Migne column-reference convention, the same
+        shape the fleet-wide bracket-locator class already strips elsewhere, but printed here
+        without brackets. Safe as a general per-edition pattern (not anchored to one instance)
+        because the shape - 3-4 digits immediately followed by one capital letter, word-
+        bounded - is specific enough that no real quoted quantity in this file takes it.
+    - name: bare-footnote-digit-common-is
+      pattern: '(?<=common) 1(?= is)'
+      evidence: >-
+        "the life of a number lived in common 1 is more useful in many ways" - a bare
+        superscript footnote-reference digit from the same docx-to-text extraction as this
+        file's other footnote-glyph entries above, this time surfaced as a plain "1" with no
+        wrapper of its own (cappadocian.quote.basil-on-common-life's own long-documented
+        failure; see that record's body, 2026-09-02). Deliberately NOT a fleet-wide bare-digit
+        class (engine/m1/quote_verbatim.py's own docstring: unsafe fleet-wide, since other
+        editions quote real digit quantities as content) - this entry is anchored on both
+        sides to the exact surrounding words ("common" before, "is" after), not a bare digit
+        shape, so it can only ever remove this one footnote marker. Checked against the whole
+        file: the literal substring "common 1 is" occurs exactly once (`grep -c`); a search
+        for any bare 1-2 digit number between two lowercase words returns 126 hits file-wide,
+        confirming a general digit rule would be unsafe here too and this narrower anchor is
+        the right scope.
 - filename: gregory-nazianzen_second-invective-against-julian_king1888.txt
   supplied_by: Mark
   date_added: '2026-08-30'
@@ -1983,6 +2108,22 @@
     above. Raw djvu OCR text, same whitespace-only normalization applied, no wording
     changed. Book XXVII.3.12-13 verified directly against this file and now carries its
     own verbatim quote record, ijc.quote.ammianus-sicininus-massacre.
+  apparatus:
+    - name: endnote-num-glued-after-period
+      pattern: '(?<=[a-zA-Z]\.)\d{1,2}(?=\s)'
+      evidence: >-
+        This edition's own recurring footnote convention, not one sentence's: a bare 1-2
+        digit endnote number glued directly to a sentence-ending period with no space,
+        confirmed at over fifty real breaks throughout the file, restarting from 1 every
+        few pages (a numbering-per-page convention) - "running at will through all the
+        elements.1", "the district of the Canini.2", "those alps were called the Penine
+        Alps.3", "the Tricorii.1", "he plundered openly.1", "as with the testudo.1", and
+        (the record this convention was first found for) "found in the Basilica of
+        Sicininus, which is a Christian church.1\nAnd the populace". Never a bare digit
+        elsewhere: this edition spells its own real casualty count as words ("one hundred
+        and thirty-seven dead bodies"), never as digits, and the lookbehind requires a
+        letter immediately before the period - never matching a numbered heading like
+        "10. Publius" (digit before the period, not a letter).
 - filename: calvin_institutes-christian-religion-vol1_beveridge1845.txt
   supplied_by: Claude (proactive source-research thread, vendored ahead of the Reformed
     Cities build per the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md)
@@ -2281,3 +2422,299 @@
     otherwise unaltered including its own OCR errors. The other two identifiers this
     world's own dossier named (bondagewill00colegoog, bondageofwill00mart) were not
     independently checked this pass and remain open if a cleaner scan is ever wanted.
+- filename: menno-simons_complete-works_funk1871.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    The Complete Works of Menno Simon(s), trans. John F. Funk (Elkhart, Indiana:
+    John F. Funk & Brother, 1871). Public domain by date. Fetched directly (curl,
+    raw bytes) from Internet Archive item completeworksofm00menn.
+- filename: van-braght_martyrs-mirror_sohm1886.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    The Bloody Theater, or Martyrs' Mirror, Thieleman J. van Braght (1660), trans.
+    Joseph F. Sohm (Scottdale, PA / Waterloo, ON: Herald Press, 1886 preface).
+    Public domain by date. Fetched directly (curl, raw bytes) from Internet
+    Archive item MartyrsMirror. Embeds named primary documents (Michael
+    Sattler's trial record, Anneken Jans's prison testament) not independently
+    quality-checked this pass.
+- filename: dirk-philips_enchiridion_kolb1910.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    Enchiridion, or Hand Book, Dirk Philips, trans. A.B. Kolb (Elkhart, Indiana:
+    Mennonite Publishing Company, 1910). Public domain by date. Fetched directly
+    (curl, raw bytes) from Internet Archive item enchiridionorhan00phil. OCR
+    QUALITY FLAG: front matter severely garbled; body clean on spot-check.
+- filename: mcglothlin_baptist-confessions-of-faith_1911.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    Baptist Confessions of Faith, William Joseph McGlothlin (Philadelphia:
+    American Baptist Publication Society, 1911). Public domain by date. Fetched
+    directly (curl, raw bytes) from Internet Archive item baptistconfessio00mcgl.
+    Vendored for pp. 3-9, the Schleitheim Confession (1527) - a translation of
+    Zwingli's own Latin translation, not direct from German. Rest of volume
+    (other Baptist bodies) not reviewed.
+- filename: hutterite-brethren_geschichtbuch_wolkan1923-deu.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-anabaptist-movements)
+  date_added: '2026-09-24'
+  notes: >-
+    Geschicht-Buch der Hutterischen Brueder, ed. Rudolf Wolkan (Standoff-Colony
+    bei Macleod, Alberta: Hutterian Brethren in America/Canada, 1923). German
+    original. Public domain by date. Fetched directly (curl, raw bytes) from
+    Internet Archive item geschichtbuchder00hutt. PRIMARY content for this
+    world - the only English translation (Plough, 1987) is in copyright and
+    access-restricted. A 1991 Columbia University Libraries microfilm
+    reproduction-restriction notice appears in the scan's own front matter,
+    disclosed in the file's own header; does not affect the underlying 1923
+    work's public-domain status.
+- filename: ignatius-loyola_spiritual-exercises_mullan1914.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Spiritual Exercises of St. Ignatius, trans. Elder Mullan, S.J. (New
+    York: P.J. Kenedy & Sons, 1914). Explicit NOT_IN_COPYRIGHT confirmed on
+    archive.org item spiritualexercis00ignauoft. Fetched directly (curl, raw
+    bytes).
+- filename: ignatius-loyola_autobiography_oconor1900.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Autobiography of St. Ignatius, ed. J.F.X. O'Conor, S.J. (New York:
+    Benziger Brothers, 1900). Public domain by date. Fetched directly (curl,
+    raw bytes) from Project Gutenberg eBook #24534 (plain-text edition).
+- filename: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547, trans.
+    D.F. O'Leary, ed. A. Goodier, S.J. (Roehampton: John Griffin, 1914). Public
+    domain by date. Fetched directly (curl, raw bytes) from Internet Archive
+    item LettersAndInstructionsOfStIgnatiusV1. Selection of 24 letters, not
+    the full corpus; a Vol. 2 was searched for and not conclusively found.
+- filename: council-of-trent_canons-and-decrees_waterworth1848.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Canons and Decrees of the Council of Trent, trans. Rev. J. Waterworth
+    (London: Burns and Oates, preface 1848, this printing c. 1888). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item thecanonsanddecr00unknuoft.
+    Fetched directly (curl, raw bytes). Also directly relevant to the
+    sibling the-tridentine-church (VI.22) candidate.
+- filename: francis-xavier_life-and-letters-v1_coleridge1872.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Life and Letters of St. Francis Xavier, Vol. I, Henry James Coleridge,
+    S.J. (London: Burns and Oates, 1872). Public domain by date. Fetched
+    directly (curl, raw bytes) from Internet Archive item
+    LifeLettersOfStFrancisXavierV1. Covers university years through the
+    Malacca/Moluccas mission (1541-1548).
+- filename: francis-xavier_life-and-letters-v2_coleridge1872.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Life and Letters of St. Francis Xavier, Vol. II, Henry James Coleridge,
+    S.J. (London: Burns and Oates, 1872). Explicit Public Domain Mark 1.0
+    confirmed on archive.org item LifeLettersOfStFrancisXavierV2. Fetched
+    directly (curl, raw bytes). Covers Japan/China missions and Xavier's
+    death (1552); companion to Vol. I.
+- filename: canisius_summe-of-christian-doctrine_anon1622.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    A Summe of Christian Doctrine, Peter Canisius (English recusant press,
+    1622; translator not named). Public domain by date (Early English Books,
+    1475-1640 collection). Fetched directly (curl, raw bytes) from archive.org
+    item bim_early-english-books-1475-1640_a-summe-of-christian-doc_canisius-petrus_1622.
+    First primary source found for Canisius in this corpus.
+- filename: boero_life-of-peter-faber_coleridge1873.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    The Life of the Blessed Peter Favre (Faber), Giuseppe Boero, trans. Henry
+    James Coleridge, S.J. (London: Burns and Oates, 1873). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item lifeofpeterfavre00boeruoft.
+    Fetched directly (curl, raw bytes). A biography quoting Faber's own
+    Memoriale, not a full translation of it - extent of direct quotation not
+    yet established.
+- filename: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    Constitutiones Societatis Iesu, cum earum Declarationibus (Rome: Collegio
+    Romano, 1606). Latin original. Public domain by date. Fetched directly
+    (curl, raw bytes) from Internet Archive item constitutionesso00jesu.
+    PRIMARY content for this world - the only English translation (Ganss,
+    1970/1996) is in copyright and lending-restricted. The Society's own
+    governing document.
+- filename: nadal_adnotationes-et-meditationes-in-evangelia-lat_1595.txt
+  supplied_by: Claude (source-acquisition research thread, pre-Doc_02 pass for the-society-of-jesus)
+  date_added: '2026-09-24'
+  notes: >-
+    Adnotationes et Meditationes in Evangelia, Jeronimo Nadal (1595). Latin
+    original. Public domain by date. Fetched directly (curl, raw bytes) from
+    Internet Archive item adnotationesetme00nada. PRIMARY content for this
+    world - the only English translation (Homann, 2003) is in copyright and
+    restricted. OCR QUALITY FLAG: title page severely garbled; body clean on
+    spot-check.
+- filename: calvin_commentaries-genesis-vol1_king1847.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Commentaries on the First Book of Moses, Called Genesis, Vol. I, John Calvin,
+    trans. Rev. John King (Edinburgh: Calvin Translation Society, 1847). Fetched
+    directly (curl, raw bytes) from Internet Archive, identifier
+    commentariesonfi01calvuoft, "possible-copyright-status": "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API. RIGHTS: public domain by date, an
+    1847 publication. DELIBERATE PARTIAL ACQUISITION: one representative volume-pair
+    of the ~22-volume Calvin Translation Society Commentaries series named in the
+    dossier's lead - the remaining ~20 volumes were not researched or vendored this
+    pass, a real open opportunity for a future session. OCR QUALITY FLAG: a CTS
+    subscription-notice leaf at the head and a handful of illustration/plate leaves
+    at the head and tail OCR as near-total garbage (decorative engraving, not text);
+    the commentary body itself was sampled at multiple points and reads cleanly
+    throughout.
+- filename: calvin_commentaries-genesis-vol2_king1847.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Commentaries on the First Book of Moses, Called Genesis, Vol. II, same edition
+    and vendoring basis as Vol. I above. Internet Archive identifier
+    commentariesonfi02calvuoft, "NOT_IN_COPYRIGHT" confirmed via the item's own
+    metadata API. Completes the Genesis commentary; see Vol. I's own note for the
+    partial-acquisition disclosure against the wider CTS Commentaries series.
+- filename: calvin_letters-vol1_bonnet1858.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Letters of John Calvin, Compiled from the Original Manuscripts and Edited with
+    Historical Notes, Vol. I, John Calvin, ed. Dr. Jules Bonnet (Philadelphia:
+    Presbyterian Board of Publication, 1858) - no individual translator named on
+    this volume's own title page. Fetched directly (curl, raw bytes) from Internet
+    Archive, identifier lettersofjohncal01calv, "possible-copyright-status":
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API. RIGHTS: public
+    domain by date, an 1858 publication. One of a 4-volume set; Vol. III could not
+    be located on archive.org (checked this identifier family, the parallel
+    1855-57 Edinburgh/Constable printing, and Project Gutenberg, which holds only
+    Vols. I-II) - a genuinely open gap, not substituted or fabricated.
+- filename: calvin_letters-vol2_bonnet1858.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Letters of John Calvin, Vol. II, same edition and vendoring basis as Vol. I
+    above. Internet Archive identifier lettersofjohncal02calv, "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API.
+- filename: calvin_letters-vol4_bonnet1858.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Letters of John Calvin, Vol. IV, same set as Vols. I-II above - Philadelphia:
+    Presbyterian Board of Publication, 1858. TRANSLATOR DIFFERS FROM VOLS. I-II:
+    this volume's own title page names Marcus Robert Gilchrist as translator
+    ("translated from the Latin and French languages by"), where Vols. I-II name
+    no individual translator. Internet Archive identifier lettersofjohncal04calv,
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API. Vol. III of this
+    set remains an open gap - see Vol. I's own note.
+- filename: zwingli_latin-works-correspondence-vol3_heller1929.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    The Latin Works of Huldreich Zwingli, Vol. III (translated for the late Samuel
+    Macauley Jackson; Clarence Nevin Heller, ed.; Philadelphia: The Heidelberg
+    Press, published under the auspices of the American Society of Church History,
+    1929) - contains "De Vera et Falsa Religione" ("Of True and False Religion")
+    and the Antibolon. Fetched directly (curl, raw bytes) from Internet Archive,
+    identifier latinworkscorres03zwin, "possible-copyright-status" field not yet
+    set by archive.org's own classifier either way. RIGHTS: public domain by date -
+    1929 publication directly confirmed against this volume's own title page and
+    copyright notice, more than 95 years before this session (2026), qualifying
+    under this project's own rolling PD-by-date rule (the threshold is 1930 as of
+    2026, per texts_registry.py's own docstring). A second, independent volume of
+    Zwingli's own voice alongside zwingli_selected-works_jackson1901.txt and
+    zwingli_latin-works-correspondence-vol1_jackson1912.txt.
+- filename: luther_first-principles-reformation_wace-buchheim1885.txt
+  supplied_by: Claude (source-acquisition research thread, verified-leads pass for
+    lutheran-wittenberg-and-its-congregations)
+  date_added: '2026-09-25'
+  notes: >-
+    First Principles of the Reformation: or, The Ninety-Five Theses and the
+    Three Primary Works of Dr. Martin Luther Translated into English, ed.
+    Henry Wace and C. A. Buchheim (Philadelphia: Lutheran Publication
+    Society, 1885). Public domain by date. Fetched directly (curl, raw
+    bytes) from Internet Archive item firstprincipleso00luth (a Princeton
+    Theological Seminary Library scan). SUPERSEDES the item originally
+    named in this world's Source Readiness Dossier
+    (firstprinciples00buchgoog, a Google Books-derived scan): that item
+    was sampled first and found materially OCR-degraded across roughly a
+    third of six sample points (heavy character-substitution garbling);
+    this alternate scan of the same 1885 edition was sampled the same way
+    and found clean throughout. A redundant but independent early (1885)
+    English rendering of four works already vendored in cleaner, distinct
+    translations elsewhere in this corpus (luther_works-v1/v2-selected_
+    jacobs-spaeth1915/1916.txt) - kept for wording cross-checks, not for
+    new content.
+- filename: gregory-great_dialogues_gardner1911.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    The Dialogues of Saint Gregory, surnamed the Great (complete, all four
+    Books), tr. "P.W." (1608), re-ed. Edmund G. Gardner (London: Philip Lee
+    Warner, 1911). Explicit NOT_IN_COPYRIGHT confirmed directly on archive.org
+    item dialoguesofsaint00greg, 2026-09-24 (re-verified independently, not
+    just carried over from the 2026-09-21 dossier note). Book II is the only
+    surviving Life of St. Benedict of Nursia. Identified as a verified
+    acquisition lead in roman-church-gregorian_Source_Readiness_Dossier.md §3.
+- filename: gregory-great_moralia-in-job-books-i-x_bliss1844.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job (Moralia in Job), Vol. I, Parts I-II, Books
+    I-X (Oxford: John Henry Parker, 1844). Library of the Fathers series.
+    Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
+    moralsonbookofjo01greguoft. First of four parts vendored together this
+    session to complete the whole work (Books I-XXXV, no gaps). The
+    dossier (2026-09-21) had verified only one of the four parts
+    individually (Books XXX-XXXV, per its own note, though see that part's
+    own file for a book-range correction found this session); the other
+    three, including this one, were searched for, located, and independently
+    verified this session.
+- filename: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. II, Parts III-IV, Books XI-XXII (Oxford:
+    John Henry Parker, 1845). Explicit NOT_IN_COPYRIGHT confirmed on
+    archive.org item moralsonbookjob02igoog. Second of four parts vendored
+    together this session - see gregory-great_moralia-in-job-books-i-x_bliss1844.txt's
+    own notes.
+- filename: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. III, First Part (Parts V-VI), Books
+    XXIII-XXIX (Oxford: John Henry Parker, 1847). Explicit NOT_IN_COPYRIGHT
+    confirmed on archive.org item moralsonbookjob00igoog. Third of four parts
+    vendored together this session - see gregory-great_moralia-in-job-books-i-x_bliss1844.txt's
+    own notes. This item's own book range (Books XXIII-XXIX) was directly
+    re-verified against its own title page and contents this session,
+    correcting the source-readiness dossier's provisional note (2026-09-21),
+    which had attributed Books XXX-XXXV to this identifier - that range
+    belongs instead to gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt.
+- filename: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
+  supplied_by: Claude (source-acquisition research thread, vendoring pass for roman-church-gregorian)
+  date_added: '2026-09-24'
+  notes: >-
+    Morals on the Book of Job, Vol. III, Second Part, Books XXX-XXXV
+    (completing the work) (Oxford: John Henry Parker, 1850). Explicit
+    NOT_IN_COPYRIGHT confirmed on archive.org item moralsonbookjob01igoog.
+    Fourth and last of the four parts vendored together this session - see
+    gregory-great_moralia-in-job-books-i-x_bliss1844.txt's own notes.

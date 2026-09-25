@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.origen-anf); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "anf09", thml_div: "xvi"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: div1 "Origen's Commentary on the Gospel of
 Matthew" at file line 29556. Translator note: the volume credits the
 commentary translations per work; the Matthew books are John Patrick's -

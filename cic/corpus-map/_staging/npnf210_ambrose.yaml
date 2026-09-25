@@ -1,4 +1,3 @@
-# Worker: npnf210-214 group, 2026-08-26.
 # Symmachus' Relatio is printed inside Ambrose's letter section because
 # Epistle XVIII answers it. It is not Ambrose's work and CCEL's metadata
 # does not say whose it is.
@@ -34,9 +33,9 @@ assignments:
   confidence: assigned
   note: 'Written for the emperor Gratian, continuing De Fide; pro-Nicene pneumatology drawing
     on Basil and Didymus. Its opponents are the Pneumatomachians rather than the Homoians
-    proper, so no homoian-arian-christianity id is asserted here - a reviewer could add one
-    by analogy with De Fide. 2026-08-26: pneumatomachian-current added alongside - the party
-    this work argues with now has an entry of its own.'
+    proper, so no homoian-arian-christianity id is asserted here; one could be added by
+    analogy with De Fide. pneumatomachian-current holds this work alongside, for the party
+    it argues with.'
 - work: On the Holy Spirit (De Spiritu Sancto)
   author: ambrose
   locus: div2 4.2 — On the Holy Spirit
@@ -46,13 +45,11 @@ assignments:
   confidence: assigned
   note: 'Written for the emperor Gratian, continuing De Fide; pro-Nicene pneumatology drawing
     on Basil and Didymus. Its opponents are the Pneumatomachians rather than the Homoians
-    proper, so no homoian-arian-christianity id is asserted here - a reviewer could add one
-    by analogy with De Fide. 2026-08-26: pneumatomachian-current added alongside - the party
-    this work argues with now has an entry of its own.
-
-    Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
-    from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`.'
+    proper, so no homoian-arian-christianity id is asserted here; one could be added by
+    analogy with De Fide. pneumatomachian-current holds this work, for the party it argues
+    with. Role normalised to `context` for the doctrinal-floor entry: this work describes
+    that movement from outside rather than speaking as it, and the brief allows a built world
+    to draw on floor material only as `register: etic`.'
 - work: On the Decease of His Brother Satyrus (De Excessu Fratris)
   author: ambrose
   locus: div2 4.3 — On the Decease of His Brother Satyrus

@@ -21,8 +21,8 @@ assignments:
   note: 'Eusebius is the first historian and theological architect of the Constantinian settlement;
     Books VIII-X narrate persecution, victory and the Constantinian peace from inside the
     new imperial church and close with the panegyric at Tyre. The census has no entry for
-    Caesarean or Palestinian Christianity as such, so ijc is his own entry''s nearest equivalent;
-    a reviewer may want that stated limitation on record.
+    Caesarean or Palestinian Christianity as such, so ijc is his own entry''s nearest equivalent -
+    a limitation worth stating on record.
 
     '
 - work: The Church History of Eusebius (Historia Ecclesiastica)
@@ -36,7 +36,7 @@ assignments:
   - roman-church-third-century
   role: context
   confidence: assigned
-  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
+  note: 'Same work, context row (per brief §11a): Eusebius describes these movements
     from outside and later, and for each of them the History is real evidence, not a passing
     mention. Books II-V are the principal external frame for the post-apostolic church and
     preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
@@ -49,7 +49,26 @@ assignments:
     Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
     inside this world''s own window, and his letters preserved here are primary Roman-church
     material, not merely external testimony to novatianism. Surfaced by a source-research
-    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+    pass on Roman Church Third Century''s (I.33) sourcing gaps.
+
+    '
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — I.13 (the Abgar narrative), IV.29 (Tatian and the Diatessaron), IV.30 (Bardesanes the
+    Syrian)
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'Three Syriac-relevant notices verified directly against the file: I.13 (lines 9450-9683) reproduces
+    the Abgar-Jesus correspondence and Thaddeus narrative at length, which Eusebius took as genuine from
+    the Edessa archives - the earliest datable witness to the legend''s existence and age, never evidence
+    for its content (this world does not accept the correspondence as genuine, per Doc_01 SS2 - a risk
+    screen already carried on syr.source.eusebius-historia-ecclesiastica, not a defect in the citation
+    itself). IV.30 (line 9461) attests Bardesanes the Syrian Gnostic''s standing at the Edessene court -
+    per Doc_01 SS5.1 the most comparatively reliable ancient witness to him, being early and free of local
+    rivalry. Context, not tradition: Eusebius writes from Caesarea, outside Edessa/Nisibis, describing this
+    world''s own figures and legend from a distance.
 
     '
 - work: Martyrs of Palestine
@@ -62,11 +81,10 @@ assignments:
   note: 'Eyewitness record of the Diocletianic persecution in Palestine, 303-311. A reader
     names it as its own work, so it is listed apart from the History. The doubt: the census
     has no entry for the pre-Constantinian Palestinian church, and no era-1 entry covers the
-    Great Persecution. Parked as context for ijc, whose settlement this persecution immediately
-    precedes and explains; Mark may prefer another home or none. Re-pointed 2026-08-26: palestinian-church-pre-constantinian
-    (era 1, c. 185-312) was added on record. Works flagged in THREE separate piles turned
-    out to be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231.'
+    Great Persecution. This persecution immediately precedes and explains ijc''s own settlement.
+    palestinian-church-pre-constantinian (era 1, c. 185-312) holds it directly. Works flagged
+    in THREE separate piles turned out to be this one hole - Alexandria was standing in for it
+    on the strength of correspondence with Origen, who himself moved to Caesarea around 231.'
 - work: The Life of Constantine (Vita Constantini)
   author: eusebius
   locus: div2 4.6 — The Life of Constantine, Books I-IV

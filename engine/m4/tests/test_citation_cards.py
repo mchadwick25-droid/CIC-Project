@@ -44,6 +44,66 @@ def test_a_record_with_no_sources_resolves_to_an_empty_list_not_a_guess():
     assert card["sources"] == []
 
 
+def test_a_sources_entry_with_no_source_id_and_no_locus_is_dropped_not_shipped_blank():
+    """Mark's own staging report, 2026-09-23: a card labeled "General
+    references (1)" printed five empty bullet items - "* " with nothing
+    after. The renderer's own primary field is `work ?? source_id` - as
+    long as an entry carries a real source_id, that id is the fallback
+    text, never blank. The only shape that leaves nothing to print is an
+    entry with no source_id at all (missing or blanked, upstream of this
+    function, in the citing record's own sources[] list) and no locus of
+    its own either - author/work/locus/rights_status all None. Dropped
+    here rather than shipped as a blank bullet."""
+    repo = {
+        "w.term.x": {
+            "id": "w.term.x",
+            "record_type": "term",
+            "term": "x",
+            "sources": [{"source_id": None}],
+        }
+    }
+    card = resolve_source_card("w.term.x", repo)
+    assert card["sources"] == []
+
+
+def test_a_sources_entry_with_a_dangling_source_id_still_shows_the_id_and_is_kept():
+    """A source_id that doesn't resolve in this repository (retired,
+    renamed, or a build-time typo the grounding net's own checks don't
+    cover, since they verify the CITING record's id, not the CITED
+    source's) still leaves the renderer something real to print - the raw
+    id itself, via `work ?? source_id`. That is not an empty bullet, just
+    an incompletely-resolved one, so it is kept rather than dropped."""
+    repo = {
+        "w.term.x": {
+            "id": "w.term.x",
+            "record_type": "term",
+            "term": "x",
+            "sources": [{"source_id": "w.source.gone"}],
+        }
+    }
+    card = resolve_source_card("w.term.x", repo)
+    assert len(card["sources"]) == 1
+    assert card["sources"][0]["source_id"] == "w.source.gone"
+
+
+def test_a_sources_entry_with_no_source_id_but_a_real_locus_still_prints_something_and_is_kept():
+    """The same missing source_id, but the citing record's own entry
+    still names a locus - real, printable content (the frontend shows it
+    after the work/source_id span) - so the entry is genuinely a source,
+    just an incompletely-resolved one, not an empty bullet."""
+    repo = {
+        "w.term.x": {
+            "id": "w.term.x",
+            "record_type": "term",
+            "term": "x",
+            "sources": [{"source_id": None, "locus": "III.4"}],
+        }
+    }
+    card = resolve_source_card("w.term.x", repo)
+    assert len(card["sources"]) == 1
+    assert card["sources"][0]["locus"] == "III.4"
+
+
 def test_an_id_outside_the_repository_resolves_to_none():
     assert resolve_source_card("does.not.exist", {}) is None
 

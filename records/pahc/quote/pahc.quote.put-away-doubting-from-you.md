@@ -20,7 +20,12 @@ sources:
     The Shepherd of Hermas, Commandment Ninth (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml)
   license: public-domain
 text: >-
-  Put away doubting from you and do not hesitate to ask of the Lord, saying to yourself, \"How can I ask of the Lord and receive from Him, seeing I have sinned so much against Him?\" Do not thus reason with yourself, but with all your heart turn to the Lord and ask of Him without doubting, and you will know the multitude of His tender mercies.
+  Put away doubting from you and do not hesitate to ask of the Lord, saying to yourself, 'How can I ask of the Lord and receive from Him, seeing I have sinned so much against Him? 'Do not thus reason with yourself, but with all your heart turn to the Lord and ask of Him without doubting, and you will know the multitude of His tender mercies...
+modern_rendering: >-
+  Put doubting away from you, and do not hesitate to ask the Lord. Do not say to yourself,
+  'How can I ask the Lord and receive from him, when I have sinned against him so much?'
+  Do not reason with yourself this way. Instead, turn to the Lord with your whole heart,
+  and ask him without doubting. Then you will know the abundance of his tender mercies...
 speaker_or_author: the Shepherd of Hermas, Commandment Ninth
 license: verbatim
 modern_lens_note: >-
@@ -40,3 +45,13 @@ Mandate 9 for "ask without doubting; a slow answer is not a refusal".
 
 The self-accusation is quoted rather than paraphrased because it is the part that does the pastoral
 work: the text puts the participant's own objection in their mouth first.
+
+Quote-verbatim gate fix (2026-09-22): removed stray literal backslashes before quote marks (a YAML
+folded-scalar authoring bug). Corrected the nested-quote mark before "How can" from a straight double
+quote to the source's own apostrophe-class mark; the source's nested quotation never actually closes
+after "against Him?" - it opens again with a second apostrophe-class mark before "Do not" rather than
+closing, so no closing mark is added there either, matching the source exactly rather than inventing
+tidier punctuation. Separately, the record's own period after "tender mercies" was invented - the
+source's sentence continues into further, broader theological reflection (God's not remembering evils,
+a call to cleanse the heart). Marked with a trailing ellipsis rather than restored: the record's gloss
+is specifically about the self-doubt-and-answer exchange, complete at "tender mercies".

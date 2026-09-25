@@ -23,6 +23,14 @@ text: Retiring by myself, I sought how I might be able to discover the truth. An
   I was led to put faith in these by the unpretending cast of the language, the inartificial character
   of the writers, the foreknowledge displayed of future events, the excellent quality of the precepts,
   and the declaration of the government of the universe as centred in one Being.
+modern_rendering: >-
+  Retiring by myself, I sought how I might discover the truth. While I was giving my most
+  earnest attention to the matter, I happened to meet certain non-Greek writings -- too
+  old to compare with the opinions of the Greeks, and too divine to compare with their
+  errors. I was led to put faith in these writings by several things. The language was
+  plain. The writers were unpolished. They showed foreknowledge of future events.
+  Their precepts were excellent. And there was the declaration that the government of
+  the universe is centered in one Being.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-

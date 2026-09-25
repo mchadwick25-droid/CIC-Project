@@ -73,10 +73,20 @@ COPY packages/ packages/
 # was the first thing to ever notice the absence - as a validation/gates-
 # report.json mismatch on every world except fix (whose only edition
 # reference is a deliberately-nonexistent fixture path, already accounted
-# for in its own pinned report). cic/corpus-map/ and cic/engine/ (staging
-# files and build-time tooling, not read by anything at runtime) are
-# deliberately left out.
+# for in its own pinned report). cic/corpus-map/ stays out - genuinely
+# staging files, nothing this image builds or serves reads it.
 COPY cic/texts/ cic/texts/
+
+# cic/engine/ was "not read by anything at runtime" until P3's item 2
+# (2026-09-23): engine/m1/quote_verbatim.py's _edition_apparatus_entries
+# now does `from cic.engine.texts_registry import apparatus_for` for every
+# quote citing an edition with a registered apparatus form. That import
+# was already live in restore's own gates.run_all() once item 3 registered
+# gate_quote_verbatim - harmless while report-only, a hard
+# ModuleNotFoundError on this image's own restore step the moment the gate
+# actually ran here, found and fixed the same day by an actual Docker
+# build (not assumed from the code alone).
+COPY cic/engine/ cic/engine/
 
 # Compiled world packages are DERIVED, not source (see .gitignore) — a
 # clean checkout carries only records/, records/worlds.yaml, and each

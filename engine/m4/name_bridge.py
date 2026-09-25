@@ -163,11 +163,12 @@ def find_figures_used(text: str, figures: list[dict], *, already_bridged_ids: se
         {
             "id": figure["id"],
             "matched_name": matched_name,
+            "text_start": pos,
             "names": figure.get("names") or [],
             "bridge_line": figure.get("bridge_line"),
             "dates": figure.get("dates") or {},
         }
-        for _pos, figure, matched_name in hits
+        for pos, figure, matched_name in hits
     ]
 
 

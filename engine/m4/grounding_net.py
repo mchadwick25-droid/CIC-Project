@@ -1,6 +1,6 @@
 """Live-turn grounding for CITATION-TAGGED output (Live-Generation Design
-§6, all four forks signed off 2026-08-22 - see engine/m4/LIVE-GENERATION-
-DESIGN.md §9.5). Promoted from the design's own companion prototype
+§6 - see engine/m4/LIVE-GENERATION-DESIGN.md §9.5, all four forks signed
+off). Promoted from the design's own companion prototype
 (grounding_experimental.py, claude/cic-design-assignment-ecoxh2), which
 proved this exact logic against the real alx package (§6.2's run log) -
 ported unchanged except this docstring; the calibration history below is
@@ -76,10 +76,11 @@ _TAG = re.compile(r"\[\[([a-z0-9_.-]+)\]\]")
 # tag strip_tags removes can never disagree about what counts as one - so
 # an opener that never closed is never matched by either, and unlike
 # _ANY_TAG (which needs no closing bracket to be well-formed, just to be
-# present) there is no complete pattern here to widen to catch it. Found
-# 2026-09-19, rebuilding a Table transcript for transparency markup: one
-# turn's raw text ended inside an unclosed "[[don.dw.room-for-diss", which
-# strip_tags' own re.sub below left untouched, verbatim, brackets and all.
+# present) there is no complete pattern here to widen to catch it. A real
+# generation call cut off exactly this way once, while rebuilding a Table
+# transcript for transparency markup: one turn's raw text ended inside an
+# unclosed "[[don.dw.room-for-diss", which strip_tags' own re.sub below
+# left untouched, verbatim, brackets and all.
 _DANGLING_TAG = re.compile(r"\[\[[a-z0-9_.-]*\Z")
 
 
@@ -125,11 +126,11 @@ def strip_tags(text: str) -> str:
 # the question, the net withheld the echo, and the `---` under it survived
 # glued to the next sentence.
 #
-# Residual [[...]] was observed exactly once before this comment was
-# updated (2026-09-19, an unclosed [[don.dw.room-for-diss left by a
-# generation call cut off mid-tag - see _DANGLING_TAG and
-# _drop_truncated_tail above, which now back strip_tags off past it). What
-# is still true, and still here because the citation contract makes an
+# Residual [[...]] was observed exactly once, an unclosed
+# [[don.dw.room-for-diss left by a generation call cut off mid-tag - see
+# _DANGLING_TAG and _drop_truncated_tail above, which now back strip_tags
+# off past it. What is still true, and still here because the citation
+# contract makes an
 # explicit promise - "the tags themselves are never shown to the
 # participant" - that strip_tags only keeps for tags the model spells
 # correctly: a COMPLETE but malformed tag, spelled outside strip_tags'
@@ -146,7 +147,12 @@ def strip_tags(text: str) -> str:
 # thing this whole design refuses to do (the fallback ladder appends, it
 # never revises), and a display defect is a signal that something upstream
 # is wrong, not something to paper over on the way out.
-def _quoted_spans(text: str) -> list[str]:
+def quoted_span_positions(text: str) -> list[tuple[int, int, str]]:
+    """Every paired quotation in `text`, left to right: (start, end,
+    inner) - `start` is the opening quotation mark's own offset, `end` is
+    just past the closing quotation mark, `inner` is the quoted words
+    between them. engine.m4.transparency_plan places a quote's mark at
+    `end`: a quote's mark follows the quoted words."""
     spans = []
     pos = 0
     while True:
@@ -156,8 +162,12 @@ def _quoted_spans(text: str) -> list[str]:
         close_m = QUOTE_CLOSE.search(text, open_m.end())
         if not close_m:
             return spans
-        spans.append(text[open_m.end() : close_m.start()])
+        spans.append((open_m.end() - 1, close_m.end(), text[open_m.end() : close_m.start()]))
         pos = close_m.end()
+
+
+def _quoted_spans(text: str) -> list[str]:
+    return [inner for _start, _end, inner in quoted_span_positions(text)]
 
 
 def _normalize(text: str) -> str:
@@ -219,7 +229,7 @@ def _thin_topic_hits(sentence_lower: str, thin_topics: list[dict] | None) -> lis
     return hits
 
 
-# M-1 (witt go-live adversarial review, 2026-09-20). The scaffold exemption
+# The scaffold exemption
 # below used to exempt an entire sentence the moment ANY SCAFFOLD_MARKERS
 # phrase appeared anywhere in it - so "...our founder wrote against the
 # peasants' rising, and that writing is part of our own history EVEN WHEN
@@ -411,6 +421,131 @@ def check_turn(
     ]
     substantive_survives = any(r["verdict"] == "ok" and r["tags"] for r in results)
     return {"sentences": results, "substantive_survives": substantive_survives, "truncated": truncated}
+
+
+# Blank-line blocks - the exact regex
+# engine.m4.live_uncited_claims_battery's own _PARAGRAPH_SPLIT already
+# proved live across two battery runs (#419, #420). A paragraph is a
+# sequence of the same sentences parse_tagged already produces, grouped by
+# which blank-line block they fell in - nothing about how a sentence
+# itself is found or tagged changes.
+_PARAGRAPH_SPLIT = re.compile(r"\n\s*\n")
+
+
+def split_into_paragraphs(tagged_text: str) -> list[str]:
+    paragraphs = [p for p in _PARAGRAPH_SPLIT.split(tagged_text) if p.strip()]
+    return paragraphs or [tagged_text]
+
+
+def check_turn_with_paragraph_coverage(
+    tagged_text: str,
+    repository_records: dict[str, dict],
+    *,
+    thin_topics: list[dict] | None = None,
+    grounding_floor: float = WITHHOLD_FLOOR,
+) -> dict:
+    """check_turn's own base per-sentence pass, reproduced exactly (same
+    truncation backoff, same verdict_for_sentence calls, same sentence
+    list, same substantive_survives/truncated meaning - a caller reading
+    only this result's own "sentences"/"substantive_survives"/"truncated"
+    keys cannot tell it apart from check_turn's), PLUS an additive,
+    report-only "paragraph_coverage" layer. Nothing here changes what
+    apply_net does with a turn - apply_net calls check_turn directly,
+    never this function; this exists for engine.m4.uncited_claims's own
+    paragraph-level detection to read.
+
+    paragraph_coverage is a list, one entry per blank-line paragraph
+    (split_into_paragraphs), each:
+      sentence_count        - how many of this result's own "sentences"
+                               belong to this paragraph (they sit
+                               contiguously, in order - a caller partitions
+                               the flat sentence list by walking these
+                               counts, the same way this function itself
+                               does below)
+      cited_record_ids       - EFFECTIVE record ids this paragraph's own
+                               coverage check uses: the union of every tag
+                               in this paragraph's own sentences, UNLESS
+                               this is a one-sentence paragraph carrying no
+                               tag of its own, in which case it is the
+                               immediately PRECEDING paragraph's own
+                               cited_record_ids instead (coverage only;
+                               see inherited_from_preceding below)
+      wholly_uncited         - true when cited_record_ids is empty - this
+                               paragraph carries no citation anywhere, not
+                               even by inheritance
+      inherited_from_preceding - true only for a one-sentence paragraph
+                               that borrowed its own cited_record_ids from
+                               the paragraph before it
+      inherited_verdicts     - {sentence index WITHIN this paragraph:
+                               verdict_for_sentence's own result}, one
+                               entry per sentence that carries no tag of
+                               its own but whose paragraph's own
+                               cited_record_ids is non-empty - the exact
+                               same function real per-sentence checking
+                               already runs, fed this paragraph's own
+                               inherited ids instead of that sentence's
+                               own (empty) tags. No new checking logic, no
+                               new model call: this is the identical
+                               verdict_for_sentence a tagged sentence
+                               already gets, called a second time for an
+                               untagged one, against a different id set.
+    """
+    tagged_text, truncated = _drop_truncated_tail(tagged_text)
+    figure_names = build_figure_lexicon(repository_records)
+    paragraphs_raw = split_into_paragraphs(tagged_text)
+
+    all_sentences: list[dict] = []
+    paragraph_coverage: list[dict] = []
+    for paragraph_text in paragraphs_raw:
+        parsed = parse_tagged(paragraph_text)
+        verdicts = [
+            verdict_for_sentence(
+                sent["text"], sent["tags"],
+                repository_records=repository_records,
+                figure_names=figure_names,
+                thin_topics=thin_topics,
+                grounding_floor=grounding_floor,
+            )
+            for sent in parsed
+        ]
+        all_sentences.extend(verdicts)
+
+        own_record_ids = sorted({t for sent in parsed for t in sent["tags"]})
+        inherited_from_preceding = False
+        if len(parsed) == 1 and not own_record_ids and paragraph_coverage and paragraph_coverage[-1]["cited_record_ids"]:
+            cited_record_ids = paragraph_coverage[-1]["cited_record_ids"]
+            inherited_from_preceding = True
+        else:
+            cited_record_ids = own_record_ids
+
+        inherited_verdicts: dict[int, dict] = {}
+        if cited_record_ids:
+            for i, sent in enumerate(parsed):
+                if sent["tags"]:
+                    continue  # already carries its own real tag - no inheritance needed
+                inherited_verdicts[i] = verdict_for_sentence(
+                    sent["text"], cited_record_ids,
+                    repository_records=repository_records,
+                    figure_names=figure_names,
+                    thin_topics=thin_topics,
+                    grounding_floor=grounding_floor,
+                )
+
+        paragraph_coverage.append({
+            "sentence_count": len(parsed),
+            "cited_record_ids": cited_record_ids,
+            "wholly_uncited": not cited_record_ids,
+            "inherited_from_preceding": inherited_from_preceding,
+            "inherited_verdicts": inherited_verdicts,
+        })
+
+    substantive_survives = any(r["verdict"] == "ok" and r["tags"] for r in all_sentences)
+    return {
+        "sentences": all_sentences,
+        "substantive_survives": substantive_survives,
+        "truncated": truncated,
+        "paragraph_coverage": paragraph_coverage,
+    }
 
 
 def scope_completion(record_ids: list[str], repository_records: dict[str, dict]) -> list[str]:

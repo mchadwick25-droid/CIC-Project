@@ -14,8 +14,7 @@ confidence:
   divergence_note: Documented as the Augsburg Confession's own drafter, directly attested by the document's
     own title page and preface as read in this library's vendored edition. No vendored source in this
     library supplies any biographical detail about Melanchthon beyond this role - no birth or death date,
-    no personal history, no direct quotation of his own outside the Confession's own institutional voice
-    (Doc_09 witt-S09; Source Registry R37).
+    no personal history, no direct quotation of his own outside the Confession's own institutional voice.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
   locus: Title page ("Melanchthon (drafter)") and Preface, addressed to the Emperor at the 1530 Diet of

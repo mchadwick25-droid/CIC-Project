@@ -51,7 +51,24 @@ assignments:
     Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
     is a near-contemporary (c. 449) external account of Ambrose''s own single most famous act,
     a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely. Surfaced
-    by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+    through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
+
+    '
+- work: The Ecclesiastical History of Theodoret
+  author: theodoret
+  locus: div2 3.8 — II.26 (the siege of Nisibis and 'the apostolic conversation' of Bishop Jacobus), IV.26
+    (Of Didymus of Alexandria and Ephraim the Syrian)
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'Two Syriac-relevant loci verified directly against the file: II.26 (line 11049) is the chapter
+    "Of the siege of the city of Nisibis, and the apostolic conversation of Bishop Jacobus" - the church''s
+    own remembered story of the 350 siege (Jacob''s prayer, the gnat plague), which places Jacob alive at
+    that siege, one pole of the open 338-vs-350 death-year conflict this world already tracks (world_core
+    caution 10). IV.26 (line 15044) states "at Edessa flourished the admirable Ephraim" - an independent
+    5th-century witness to Ephrem''s standing, verified verbatim. Context, not tradition: Theodoret writes
+    a century after the events, hagiographically shaping the Nisibis narrative (syr.source.theodoret-historia-ecclesiastica).
 
     '
 - work: Dialogues (Eranistes)
@@ -109,6 +126,57 @@ assignments:
     here.
 
     '
+- work: The Ecclesiastical History of Theodoret, Book IV, Chapter XVI ("Of the holy Basilius,
+    Bishop of Caesarea, and the measures taken against him by Valens and the prefect Modestus")
+  author: theodoret
+  locus: div2 3.8 — Book IV, Chapter XVI (id iv.viii.iv.xvi, file line 14072)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: assigned
+  note: 'Found by cappadocian.source.church-historians-socrates-sozomen-theodoret (kind: vendored),
+    whose own verification_state was `named-not-rechecked` for its Theodoret material specifically.
+    That review is done here, and turned up more than the record itself named: this exact chapter
+    is Theodoret''s full narrative of the confrontation between Basil the Great and the emperor
+    Valens at Caesarea in Cappadocia, read directly at the cited locus - "Valens... set out for
+    the Cappadocian Caesarea... at that time the see of the great Basil, a light of the world.
+    Now he had sent the prefect before him with orders either to persuade Basil to embrace the
+    communion of Eudoxius, or, in the event of his refusal, to punish him by exile." A near-contemporary
+    (Theodoret wrote c. 449) external narrative of this world''s single most famous standoff -
+    genuinely load-bearing corroboration, not a passing mention. `role: context`: an outside
+    Antiochene historian''s account, not Cappadocian material in its own voice - the same restraint
+    the record itself states ("secondary narrative sources, never this world''s own voice").
+
+    '
+- work: Jerome, Lives of Illustrious Men (De Viris Illustribus) - entries on Basil, Gregory
+    Nazianzen, Gregory of Nyssa, and Amphilochius
+  author: jerome
+  locus: div2 4.3 — Chapters CXVI (Basil, id v.iii.cxviii), CXVII (Gregory Nazianzen, id v.iii.cxix),
+    CXXVIII (Gregory of Nyssa, id v.iii.cxxx), and CXXXV (Amphilochius, id v.iii.cxxxvi)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: assigned
+  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored), whose own
+    verification_state was `named-not-rechecked` - "file present since 2026-08-15, not re-verified
+    this session against the specific entries Doc_02 cites." That review is done here. The record''s
+    own framing ("the earliest external catalogue of what circulated under Basil, both Gregorys,
+    and Amphilochius'' names") is confirmed directly: all four named figures have their own DVI
+    chapters, independently located and read - ch. CXVI on "Basil... bishop of Caesarea in Cappadocia,
+    the city formerly called Mazaca"; ch. CXVII on "Gregory... bishop of Nazianzen, a most eloquent
+    man, and my instructor in the Scriptures" (Jerome''s own personal testimony, not secondhand);
+    ch. CXXVIII on "Gregory... bishop of Nyssa, the brother of Basil of Caesarea"; ch. CXXXV on
+    "Amphilochius... bishop of Iconium". The record''s own carried-forward correction was also
+    independently checked and confirmed accurate: DVI''s separate ch. LXXXV ("Eustathius the
+    bishop") is genuinely about Eustathius of Antioch, not Eustathius of Sebaste - the chapter''s
+    own translator''s note flags exactly this confusion risk directly in the text, so citing
+    ch. LXXXV for this world''s own Eustathius (of Sebaste) would be a real misattribution; not
+    assigned here for that reason. `role: context`: an external, near-contemporary literary
+    catalogue entry about these figures, not their own voice, though ch. CXVII''s "my instructor"
+    line is itself a first-person datum about Jerome''s relationship to Gregory Nazianzen worth
+    keeping visible at review.
+
+    '
 - work: Lives of Illustrious Men (De Viris Illustribus)
   author: jerome
   locus: div2 4.3 — Jerome. Lives of Illustrious Men.
@@ -122,6 +190,60 @@ assignments:
     Rufinus below are in npnf203.
 
     '
+- work: Lives of Illustrious Men (De Viris Illustribus)
+  author: jerome
+  locus: div2 4.3 — the 'Bardesanes the heresiarch' and 'Ephrem the deacon' chapters
+  atlas_ids:
+  - syriac-edessa-nisibis
+  role: context
+  confidence: assigned
+  note: 'Same catalogue, context row for its two Syriac-relevant chapters, verified directly against
+    the file (line 41542): Jerome states Ephrem "became so distinguished that his writings are repeated
+    publicly in some churches, after the reading of the Scriptures" - independent late-4th-century attestation
+    of his diaconate and reputation. The Bardesanes chapter transmits the heresiological framing Jerome
+    received, read with the same screen. Context, not tradition: Jerome writes at one remove (he read
+    Ephrem in Greek translation), outside the Edessa/Nisibis tradition itself (syr.source.jerome-de-viris).
+
+    '
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. "Antonius the monk" (file line
+    41173)
+  author: jerome
+  locus: div2 4.3, Chapter LXXXVIII "Antonius the monk"
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: assigned
+  note: 'Found by desert.source.jerome-de-viris (kind: vendored; no corpus-map assignment given
+    at intake time). Independently re-verified directly against the vendored file at the record''s
+    own cited locus: line 41173 opens "Antonius the monk...sent seven letters in Coptic to
+    various monasteries, letters truly apostolic in idea and language, and which have been
+    translated into Greek" - confirms the record''s claim that Jerome independently attests
+    seven circulating Antonian letters, cited by desert.contested.antony-literacy as one leg
+    of Rubenson''s authenticity case. `role: context`, not `tradition`: this is an external
+    literary cataloguer''s biographical notice ABOUT desert monasticism''s own tradition (used
+    as corroborating attestation), not the tradition''s own voice. The same volume''s Origenist-controversy
+    material is explicitly flagged by the source record as out of this world''s own horizon
+    and is not assigned here.
+
+    '
+- work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"
+    (file line 42250)
+  author: gennadius
+  locus: div2 4.4, Chapter VII "Pachomius the presbyter-monk"
+  atlas_ids:
+  - desert-monasticism
+  role: context
+  confidence: assigned
+  note: 'Found by desert.source.jerome-de-viris, same record as the Jerome/Antonius row above.
+    Independently re-verified directly at the cited locus: line 42250 reads "Pachomius the
+    monk, a man endowed with apostolic grace both in teaching and in performing miracles, and
+    founder of the Egyptian monasteries, wrote an Order of discipline..." with the endnote
+    "Born about 292, died 348" the record cites as a dating witness for the figure record (flagged
+    there, correctly, as the edition''s own note rather than ancient testimony). `role: context`
+    for the same reason as the Jerome row: an external biographical notice about Pachomius and
+    his writings, not desert monasticism''s own primary voice.
+
+    '
 - work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
   locus: div2 4.4 — Gennadius. Lives of Illustrious Men.
@@ -129,15 +251,11 @@ assignments:
   - merovingian-gallic-christianity
   role: tradition
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no
+    obvious census home at first glance - merovingian-gallic-christianity (c. 480-620) seems
+    to start as he ends - but Gennadius died c. 496, which is INSIDE that window rather than
+    before it: the overlap is real and he falls in it. Assigned there as his home, with
+    hieronymian-ascetic-literary kept as context: the direct continuation of Jerome''s literary
     project, not membership of his circle.'
 - work: Gennadius, Lives of Illustrious Men (continuation)
   author: gennadius
@@ -146,15 +264,11 @@ assignments:
   - hieronymian-ascetic-literary
   role: context
   confidence: assigned
-  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. The doubt:
-    he has no census home - merovingian-gallic-christianity (c. 480-620) starts as he ends,
-    and no fifth-century Gallic entry exists. Parked as context for hal solely as the direct
-    continuation of Jerome''s literary project; Mark should rule whether it belongs there,
-    in the Gallic entry, or nowhere. Ruled 2026-08-26: Gennadius of Marseilles died c. 496,
-    which is INSIDE merovingian-gallic-christianity''s window (c. 480-620) rather than before
-    it - the note read ''starts as he ends'', but the overlap is real and he falls in it.
-    Assigned there as his home, with hieronymian-ascetic-literary kept as context, which is
-    what the note itself said the hal claim was: the direct continuation of Jerome''s literary
+  note: 'Gennadius of Marseilles (late 5th c.) continuing Jerome''s catalogue. He has no
+    obvious census home at first glance - merovingian-gallic-christianity (c. 480-620) seems
+    to start as he ends - but Gennadius died c. 496, which is INSIDE that window rather than
+    before it: the overlap is real and he falls in it. Assigned there as his home, with
+    hieronymian-ascetic-literary kept as context: the direct continuation of Jerome''s literary
     project, not membership of his circle.'
 - work: Pamphilus' Defence of Origen (Rufinus' translation) with Rufinus' Epilogue (De Adulteratione
     Librorum Origenis)
@@ -243,8 +357,8 @@ assignments:
   - aquileian-christianity
   role: tradition
   confidence: assigned
-  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404). RULED 2026-08-27:
-    aquileian-christianity (I.41) was minted for it. The worker''s objection was exact - the content has
+  note: 'Rufinus'' catechetical exposition of the baptismal creed of Aquileia (c. 404).
+    aquileian-christianity (I.41) was minted for it: the content has
     nothing to do with the Jerome quarrel, and hieronymian-ascetic-literary is a controversy while this
     is a catechesis. It is also the earliest evidence that the Western churches did not all say the same
     words at the font: Rufinus expounds his own church''s creed and notes where Rome''s differs.
@@ -261,7 +375,38 @@ assignments:
   confidence: provisional
   note: 'Grouped as one small body: Rufinus'' own prefaces to his translations, documenting
     how and why Origen and the Clementine literature were carried into Latin. Context for
-    alexandria as transmission evidence. Provisional because these are paratexts; a reviewer
-    may prefer to drop them as sub-work-level.
+    alexandria as transmission evidence. Provisional because these are paratexts; they may
+    be worth dropping to sub-work-level instead.
+
+    '
+- work: Gennadius, Lives of Illustrious Men (continuation)
+  author: gennadius
+  locus: 'div2 4.4, chapters XIX (Sulpitius Severus), LXII (Cassianus/Cassian), LXIV (Eucherius
+    of Lyons), LXV (Vincentius of Lerins), LXX (Hilary of Arles), LXXXV (Prosper of Aquitaine),
+    LXXXVI (Faustus of Riez)'
+  atlas_ids:
+  - gallic-monastic-ascetic-christianity
+  role: context
+  confidence: assigned
+  note: 'Independent, near-contemporary corroboration for seven of this world''s own figures, all
+    in one continuation-of-Jerome chapter set: Sulpitius Severus, Cassian, Eucherius, Vincentius,
+    Hilary of Arles, Prosper, and Faustus. Verified directly against the file, chapter by chapter:
+    ch. XIX opens "Severus the presbyter... surnamed Sulpitius"; ch. LXII "Cassianus, Scythian by
+    race... a presbyter at Marseilles, founded two monasteries"; ch. LXIV "Eucherius, bishop of the
+    church at Lyons"; ch. LXV "Vincentius, the Gaul, presbyter in the Monastery on the Island of
+    Lerins"; ch. LXX "Hilary, bishop of the church at Arles"; ch. LXXXV "Prosper of Aquitania";
+    ch. LXXXVI "Faustus the bishop" (title) - all seven chapter titles and contents confirmed at
+    their own loci, matching this world''s own source record (gallic.source.gennadius-de-viris-
+    illustribus, Source Registry row 30) exactly.
+
+    `role: context`, not `tradition`: that same record states Gennadius was "writing c. 495, just
+    after this world''s own working ceiling" (c. 360-450) and calls the material "Corroborating
+    rather than load-bearing: this world''s Representative draws on the IN-WINDOW facts Gennadius
+    attests, never on Gennadius''s own post-window words as this world''s own voice." A second,
+    distinct editorial layer sits in the same file - Richardson''s own bracketed dating endnotes to
+    these same chapters (gallic.source.richardson-gennadius-endnotes, Source Registry row 42), used
+    by this world for dating attributions but kept deliberately distinct from Gennadius''s own
+    ancient text per that world''s own Doc_02 SS0 discipline - not assigned as a separate row here
+    since it is modern apparatus, not itself vendored ancient text.
 
     '

@@ -63,6 +63,6 @@ senses:
 quick_meaning: 'One word, two things: ours, refused; Christ''s, enough.'
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 1.4 (satisfaction (two referents), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: cross-voice, one word, two referents (an alias problem, resolved here). Source Registry rows cited: R2, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 1.4 (satisfaction (two referents), Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][DR]. Author Gravity: cross-voice, one word, two referents (an alias problem, resolved here). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

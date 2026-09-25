@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   Becoming indignant at the deception thus attempted the king commanded that the tribe of the magi should be decimated. When this was effected he permitted Maruthas to erect churches wherever he wished; and from that time the Christian religion was diffused among the Persians.
+modern_rendering: >-
+  Angered by the deception attempted against him, the king commanded that the tribe of the
+  magi be decimated. When this was done, he allowed Maruthas to build churches wherever he
+  wished. From that time on, the Christian religion spread among the Persians.
 speaker_or_author: Socrates Scholasticus, Ecclesiastical History VII.8
 license: verbatim
 modern_lens_note: >-

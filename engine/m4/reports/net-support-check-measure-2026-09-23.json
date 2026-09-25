@@ -1,0 +1,5393 @@
+{
+  "generated": "2026-09-23T13:31:01.598527+00:00",
+  "region": "us-east-1",
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "corpus_size": 311,
+  "calls_made": 312,
+  "total_dollars": 0.6391,
+  "total_input_tokens": 554278,
+  "total_output_tokens": 16966,
+  "avg_input_tokens_per_call": 1776.5,
+  "avg_output_tokens_per_call": 54.4,
+  "full_311_not_fully_supported": 45,
+  "full_311_total": 311,
+  "c1_zero_floor_branch": {
+    "scope_size": 199,
+    "not_fully_supported": 28
+  },
+  "c2_other_tradition_turn": {
+    "scope_size": 0,
+    "not_fully_supported": 0,
+    "note": "0 by construction - the Corpus A pool (live-turn-report*.json) predates the B-other-tradition probe shape entirely; no turn in it is routed other_tradition. Not forced to a nonzero number."
+  },
+  "worked_example": {
+    "world": "alx",
+    "sentence": "Under persecution, some gave way - they sacrificed to the gods, or they handed over the sacred books.",
+    "tags": [
+      "alx.dw.church-failure"
+    ],
+    "branch": "tag_is_claim_zero_floor",
+    "is_other_tradition_turn": true,
+    "support_verdict": "partly_supported",
+    "unsupported_clause": "they handed over the sacred books"
+  },
+  "worked_example_caught": true,
+  "own_clause_examples": [
+    {
+      "world": "alx",
+      "sentence": "The Logos - God's own Word, who made all things and became flesh in Jesus - was the one we met in every text, Old Testament and New alike.",
+      "tags": [
+        "alx.term.logos",
+        "alx.gravity.logos-unity"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 6,
+      "remainder_words": [
+        "alike",
+        "every",
+        "met",
+        "old",
+        "testament",
+        "text"
+      ],
+      "remainder_is_own_clause": "was the one we met in every text, Old Testament",
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the one we met in every text, Old Testament and New alike"
+    },
+    {
+      "world": "alx",
+      "sentence": "Origen said it openly: the Gospels are \"the first fruits of all the Scriptures,\" but the whole of Scripture is one voice, and that voice is Christ.",
+      "tags": [
+        "alx.quote.origen-gospel-firstfruits"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 11,
+      "remainder_count": 6,
+      "remainder_words": [
+        "christ",
+        "openly",
+        "said",
+        "scripture",
+        "voice",
+        "whole"
+      ],
+      "remainder_is_own_clause": "the whole of Scripture is one voice",
+      "quoted_spans": [
+        "the first fruits of all the Scriptures,"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the whole of Scripture is one voice, and that voice is Christ"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Not one town or one decade: high plateau and river valleys, estates and hungry villages, the great city and the small sees the winters shut in.",
+      "tags": [
+        "cappadocian.core.cappadocian"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 10,
+      "remainder_words": [
+        "city",
+        "decade",
+        "estates",
+        "high",
+        "hungry",
+        "river",
+        "shut",
+        "town",
+        "valleys",
+        "winters"
+      ],
+      "remainder_is_own_clause": "river valleys, estates",
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the great city and the small sees the winters shut in"
+    },
+    {
+      "world": "desert",
+      "sentence": "We did not leave behind letters of devotion or prayers of longing addressed to him the way later ages did - that is not the form our record takes.",
+      "tags": [
+        "desert.gravity.scriptural-engagement"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 11,
+      "remainder_words": [
+        "addressed",
+        "ages",
+        "devotion",
+        "form",
+        "leave",
+        "letters",
+        "longing",
+        "prayers",
+        "record",
+        "takes",
+        "way"
+      ],
+      "remainder_is_own_clause": "that is not the form our record takes",
+      "is_other_tradition_turn": false,
+      "support_verdict": "not_supported",
+      "unsupported_clause": "We did not leave behind letters of devotion or prayers of longing addressed to him the way later ages did - that is not the form our record takes."
+    },
+    {
+      "world": "desert",
+      "sentence": "And he mapped the whole life as a progression: first the working stage, where you discipline the passions and win freedom from them - he called that apatheia, and it is not apathy but the stilling of what otherwise drives you.",
+      "tags": [
+        "desert.term.apatheia"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 9,
+      "remainder_words": [
+        "called",
+        "drives",
+        "first",
+        "mapped",
+        "otherwise",
+        "progression",
+        "stilling",
+        "whole",
+        "win"
+      ],
+      "remainder_is_own_clause": "the stilling of what otherwise drives you",
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Someone divorced could belong among us - we will say that plainly first.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 3,
+      "remainder_words": [
+        "first",
+        "plainly",
+        "say"
+      ],
+      "remainder_is_own_clause": "we will say that plainly first",
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    }
+  ],
+  "own_clause_examples_passed": 2,
+  "own_clause_examples_total": 6,
+  "all_results": [
+    {
+      "world": "alx",
+      "sentence": "Teachers came to Alexandria claiming secret gospels, hidden teachings, knowledge for the few.",
+      "tags": [
+        "alx.force.gnostic-challenge"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 6,
+      "remainder_words": [
+        "alexandria",
+        "came",
+        "claiming",
+        "gospels",
+        "hidden",
+        "teachings"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "Teachers came to Alexandria claiming secret gospels, hidden teachings"
+    },
+    {
+      "world": "alx",
+      "sentence": "We said no: what the apostles handed down was public, not secret, and the books the whole church read together were the ground we stood on.",
+      "tags": [
+        "alx.dw.apostolic"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 9,
+      "remainder_words": [
+        "books",
+        "church",
+        "ground",
+        "public",
+        "said",
+        "secret",
+        "stood",
+        "together",
+        "whole"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "The Logos - God's own Word, who made all things and became flesh in Jesus - was the one we met in every text, Old Testament and New alike.",
+      "tags": [
+        "alx.term.logos",
+        "alx.gravity.logos-unity"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 6,
+      "remainder_words": [
+        "alike",
+        "every",
+        "met",
+        "old",
+        "testament",
+        "text"
+      ],
+      "remainder_is_own_clause": "was the one we met in every text, Old Testament",
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the one we met in every text, Old Testament and New alike"
+    },
+    {
+      "world": "alx",
+      "sentence": "Origen said it openly: the Gospels are \"the first fruits of all the Scriptures,\" but the whole of Scripture is one voice, and that voice is Christ.",
+      "tags": [
+        "alx.quote.origen-gospel-firstfruits"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 11,
+      "remainder_count": 6,
+      "remainder_words": [
+        "christ",
+        "openly",
+        "said",
+        "scripture",
+        "voice",
+        "whole"
+      ],
+      "remainder_is_own_clause": "the whole of Scripture is one voice",
+      "quoted_spans": [
+        "the first fruits of all the Scriptures,"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the whole of Scripture is one voice, and that voice is Christ"
+    },
+    {
+      "world": "alx",
+      "sentence": "We used them, tested teachings against them, defended them against rival claims - and the using was the deciding.",
+      "tags": [
+        "alx.dw.councils"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 7,
+      "remainder_words": [
+        "claims",
+        "defended",
+        "rival",
+        "teachings",
+        "tested",
+        "used",
+        "using"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the using was the deciding"
+    },
+    {
+      "world": "alx",
+      "sentence": "Our answer moves across our own century, from worship to fought-for words.",
+      "tags": [
+        "alx.dw.was-jesus-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 1,
+      "remainder_words": [
+        "words"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "From the beginning we worshiped one God - the maker of all things - and we baptized in the name of Father, Son, and Holy Spirit.",
+      "tags": [
+        "alx.dw.god",
+        "alx.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 1,
+      "remainder_words": [
+        "name"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "The Logos - God's own Word, through whom all was made - was the center of everything we did: we met him in Scripture, we were formed by him, we worshiped him.",
+      "tags": [
+        "alx.gravity.logos-unity"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 5,
+      "remainder_words": [
+        "everything",
+        "formed",
+        "god's",
+        "met",
+        "worshiped"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "But the precise wording - the kind a modern asker means by 'Trinity' - came late, and it came through a wound.",
+      "tags": [
+        "alx.dw.was-jesus-god"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 10,
+      "remainder_count": 3,
+      "remainder_words": [
+        "asker",
+        "came",
+        "kind"
+      ],
+      "quoted_spans": [
+        "Trinity"
+      ],
+      "has_span_over_six_words": false,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "The council at Nicaea answered with a word not found in Scripture: homoousios, 'of one substance with the Father'.",
+      "tags": [
+        "alx.term.homoousios"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 10,
+      "remainder_count": 3,
+      "remainder_words": [
+        "answered",
+        "father'",
+        "homoousios"
+      ],
+      "quoted_spans": [
+        "of one substance with the Father"
+      ],
+      "has_span_over_six_words": false,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "Athanasius, who was there, said later that the fathers reached for that word because every scriptural phrase had been swallowed by the other side with a private meaning.",
+      "tags": [
+        "alx.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 2,
+      "remainder_words": [
+        "athanasius",
+        "said"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "The Logos who entered human nature in Jesus is genuinely God, not the highest thing God made.",
+      "tags": [
+        "alx.term.incarnation",
+        "alx.term.son-of-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 1,
+      "remainder_words": [
+        "entered"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "alx",
+      "sentence": "Athanasius put it in one sentence: \"He was made man that we might be made God\" - and only God can join us to God.",
+      "tags": [
+        "alx.quote.athanasius-made-god"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 8,
+      "remainder_count": 3,
+      "remainder_words": [
+        "join",
+        "put",
+        "sentence"
+      ],
+      "quoted_spans": [
+        "He was made man that we might be made God"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "and only God can join us to God"
+    },
+    {
+      "world": "alx",
+      "sentence": "'Trinity' as your textbooks define it - three persons, one substance, the whole architecture - lies mostly beyond our time.",
+      "tags": [
+        "alx.dw.was-jesus-god"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 11,
+      "remainder_count": 4,
+      "remainder_words": [
+        "architecture",
+        "persons",
+        "three",
+        "whole"
+      ],
+      "quoted_spans": [
+        "Trinity"
+      ],
+      "has_span_over_six_words": false,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "We are a voice of the Nicene churches of Cappadocia and Pontus - the communities that held the faith of the 318 fathers across the years after the great persecutions ended, through the reigns that pressed other words on us, to the burial of the last of our great generation.",
+      "tags": [
+        "cappadocian.core.cappadocian"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 19,
+      "remainder_count": 5,
+      "remainder_words": [
+        "burial",
+        "ended",
+        "fathers",
+        "generation",
+        "reigns"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Not one town or one decade: high plateau and river valleys, estates and hungry villages, the great city and the small sees the winters shut in.",
+      "tags": [
+        "cappadocian.core.cappadocian"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 10,
+      "remainder_words": [
+        "city",
+        "decade",
+        "estates",
+        "high",
+        "hungry",
+        "river",
+        "shut",
+        "town",
+        "valleys",
+        "winters"
+      ],
+      "remainder_is_own_clause": "river valleys, estates",
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the great city and the small sees the winters shut in"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "We speak for a whole formation ecology, not a single person at one moment.",
+      "tags": [
+        "cappadocian.core.cappadocian"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 3,
+      "remainder_words": [
+        "moment",
+        "single",
+        "speak"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "At the font, an infant or an adult was signed into the Name - Father, Son, and Holy Spirit - and taught to believe as they had been baptized, before they could weigh a word of it.",
+      "tags": [
+        "cappadocian.dw.baptism-and-new-birth"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 7,
+      "remainder_words": [
+        "baptized",
+        "believe",
+        "father",
+        "holy",
+        "son",
+        "spirit",
+        "taught"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "an infant or an adult was signed into the Name"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The psalms were sung so many times they came to interpret the singer.",
+      "tags": [
+        "cappadocian.dw.psalms-teach-the-singer"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Work and prayer kept their hours whether we felt like it or not.",
+      "tags": [
+        "cappadocian.dw.ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 1,
+      "remainder_words": [
+        "whether"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "In the brotherhoods, goods were held in common, a leader was obeyed, and at the door the rule's own heart was tested: travelers fed the same portion the house itself ate.",
+      "tags": [
+        "cappadocian.dw.ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Outside one city, a permanent guest-house and infirmary stood, sheltering the sick and the leprous together.",
+      "tags": [
+        "cappadocian.dw.ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 5,
+      "remainder_words": [
+        "guest",
+        "infirmary",
+        "permanent",
+        "sheltering",
+        "stood"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Some among us wanted stillness badly - a quiet retreat for prayer and study - and rarely kept it for long.",
+      "tags": [
+        "cappadocian.dw.stillness-and-the-summons"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 1,
+      "remainder_words": [
+        "study"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "One of our own wrote the era's classic defense of fleeing church office for a riverbank, and served in that office anyway, dragged back by what he called love's own summons.",
+      "tags": [
+        "cappadocian.dw.stillness-and-the-summons"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The wanting itself was real and holy, even unfinished.",
+      "tags": [
+        "cappadocian.dw.stillness-and-the-summons"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "If you dug under the two places that mattered most - the shrine that held our martyrs' bones, and the poorhouse outside our city walls - we could not tell you what you would find.",
+      "tags": [
+        "cappadocian.limit.no-stones-to-show"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Neither has been found and dug up by anyone.",
+      "tags": [
+        "cappadocian.limit.no-stones-to-show"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Historians know us the way you know a family through its letters: well, and only on paper.",
+      "tags": [
+        "cappadocian.limit.no-stones-to-show"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "It was the difference between praying to God and praying to a creature.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 2,
+      "remainder_words": [
+        "difference",
+        "praying"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "praying to God and praying to a creature"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The word homoousios - of the same being - is not found in Scripture.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 3,
+      "remainder_words": [
+        "found",
+        "same",
+        "scripture"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "is not found in Scripture"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "We fought over it because it was the most exact word we had for what needed saying.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 4,
+      "remainder_words": [
+        "exact",
+        "fought",
+        "needed",
+        "saying"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "We fought over it"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The palace in our years pressed a softer word on us: the Son is like the Father, they said, a careful likeness.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 6,
+      "remainder_words": [
+        "careful",
+        "likeness",
+        "palace",
+        "pressed",
+        "softer",
+        "years"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "The palace in our years pressed a softer word on us"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Bishops we loved lost their churches and went into exile rather than sign it.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 7,
+      "remainder_words": [
+        "bishops",
+        "churches",
+        "exile",
+        "lost",
+        "loved",
+        "sign",
+        "went"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "not_supported",
+      "unsupported_clause": "Bishops we loved lost their churches and went into exile rather than sign it."
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Our teachers said salvation itself is becoming god by grace - the\u014dsis, our boldest word.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 2,
+      "remainder_words": [
+        "sis",
+        "teachers"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The creature grows into God's own likeness, and the gap between creature and Maker never closes.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 4,
+      "remainder_words": [
+        "closes",
+        "god's",
+        "grows",
+        "likeness"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "The creature grows into God's own likeness"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "If the Son makes gods of us, the Son cannot be a creature, because no creature makes gods.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 3,
+      "remainder_words": [
+        "cannot",
+        "gods",
+        "makes"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the Son cannot be a creature, because no creature makes gods"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The same fight reached the Spirit.",
+      "tags": [
+        "cappadocian.dw.holy-spirit-honored"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 2,
+      "remainder_words": [
+        "reached",
+        "same"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "At the evening lamps, our bishop gave glory to the Father together with the Son, together with the Holy Spirit - not merely through the Son in the Spirit, the older form.",
+      "tags": [
+        "cappadocian.dw.holy-spirit-honored"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Some objected: too much was being claimed.",
+      "tags": [
+        "cappadocian.dw.holy-spirit-honored"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The rule says the stranger is fed the same portion the house itself eats, no lesser share set aside.",
+      "tags": [
+        "cappadocian.dw.ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 2,
+      "remainder_words": [
+        "eats",
+        "says"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "That was the test at the heart of the whole discipline: travelers received, given a share of whatever the brotherhood had, not turned away and not given scraps.",
+      "tags": [
+        "cappadocian.dw.ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 7,
+      "remainder_words": [
+        "away",
+        "discipline",
+        "given",
+        "received",
+        "scraps",
+        "turned",
+        "whatever"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "A guest-house, an infirmary, a house where lepers - people custom would not touch - were washed and fed by brothers and sisters who chose that work.",
+      "tags": [
+        "cappadocian.dw.ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 9,
+      "remainder_words": [
+        "brothers",
+        "chose",
+        "custom",
+        "guest",
+        "infirmary",
+        "lepers",
+        "sisters",
+        "touch",
+        "washed"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The poor at the door bore the very image of God, our teachers said.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 1,
+      "remainder_words": [
+        "teachers"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Whatever you keep beyond your own need already belongs to the hungry.",
+      "tags": [
+        "cappadocian.dw.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 2,
+      "remainder_words": [
+        "belongs",
+        "hungry"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "What any one doorkeeper at any one gate actually thought, face to face with a particular stranger on a particular cold night, we cannot.",
+      "tags": [
+        "cappadocian.demo.someone-like-me"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 5,
+      "remainder_words": [
+        "cold",
+        "doorkeeper",
+        "night",
+        "particular",
+        "thought"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Our record keeps the rule and the preaching, not the doorkeeper's own thoughts.",
+      "tags": [
+        "cappadocian.demo.someone-like-me"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "And no guest ever wrote down what our welcome felt like from the outside of it, not even from a sickbed in the infirmary itself.",
+      "tags": [
+        "cappadocian.demo.someone-like-me"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Almost everything you have from us was written by three men - one extended family, one friendship network.",
+      "tags": [
+        "cappadocian.core.cappadocian"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 2,
+      "remainder_words": [
+        "men",
+        "written"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "So the honest answer is this: you would have been received and fed, a guest at our door.",
+      "tags": [
+        "cappadocian.demo.someone-like-me"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "We have his brother's grief and his closest friend's eulogy - Gregory of Nazianzus standing at the funeral, claiming the whole city mourned, Christian and Jewish and pagan alike.",
+      "tags": [
+        "cappadocian.story.basil-death-funeral"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 5,
+      "remainder_words": [
+        "brother's",
+        "claiming",
+        "closest",
+        "nazianzus",
+        "standing"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "claiming the whole city mourned, Christian and Jewish and pagan alike"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "That claim of universal mourning is Gregory's own, the encomiast making the largest case he could for his friend's significance; no other witness confirms it.",
+      "tags": [
+        "cappadocian.story.basil-death-funeral"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "A hostile prefect came to bring him into line, threatened him with confiscation and exile and death.",
+      "tags": [
+        "cappadocian.story.valens-caesarea"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Basil is remembered answering that a man who owns nothing has nothing to confiscate, that no place is exile to one who counts the whole earth God's, and that death cannot take what has already been given to God.",
+      "tags": [
+        "cappadocian.story.valens-caesarea"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 19,
+      "remainder_count": 1,
+      "remainder_words": [
+        "cannot"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "that death cannot take what has already been given to God"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "The prefect said he had never been addressed that way before.",
+      "tags": [
+        "cappadocian.story.valens-caesarea"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Basil answered that perhaps the prefect had simply never yet met a bishop.",
+      "tags": [
+        "cappadocian.story.valens-caesarea"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 1,
+      "remainder_words": [
+        "answered"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "What he was like at table, whether he laughed easily or carried his burdens visibly, how his voice sounded when he was tired - we do not have that.",
+      "tags": [
+        "cappadocian.limit.whose-voice-we-lack"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 10,
+      "remainder_words": [
+        "burdens",
+        "carried",
+        "easily",
+        "laughed",
+        "like",
+        "sounded",
+        "table",
+        "tired",
+        "visibly",
+        "whether"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "Almost everything you have from us comes from one extended family and one friendship network, three men's own hands.",
+      "tags": [
+        "cappadocian.limit.whose-voice-we-lack"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 6,
+      "remainder_words": [
+        "comes",
+        "extended",
+        "friendship",
+        "hands",
+        "men's",
+        "network"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "three men's own hands"
+    },
+    {
+      "world": "cappadocian",
+      "sentence": "It is how we know a family through its letters: well, and only on paper.",
+      "tags": [
+        "cappadocian.limit.no-stones-to-show"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Three things, and the first is the one that reordered our lives.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "One command, heard as though it were spoken straight to you: sell what you have, give it to the poor, and follow me - not a saying to be studied but an order to be obeyed.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The one we remember as first among us walked into church one day and heard those words read, took them as though they had been said to him alone, and before the day was over had given away the land he had inherited.",
+      "tags": [
+        "desert.story.antony-call"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 1,
+      "remainder_words": [
+        "remember"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Not long after that, hearing the same Gospel read again - do not be anxious about tomorrow - he gave away the rest as well, placed his sister with women he trusted who were already given to a life of virginity, and began the discipline himself.",
+      "tags": [
+        "desert.story.antony-call"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 23,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The second we argued for, when we were pressed to.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The Word of God was not changed, but, being the same, took a human body for the salvation and well-being of man, so that having shared in human birth he might make man share in the divine nature - that is the reason we gave for why he came at all.",
+      "tags": [
+        "desert.dw.jesus",
+        "desert.quote.the-word-took-a-human-body"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 21,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And we did not think this rested on our say-so: read the accounts, we told those who came to test us, and see that the deeds of Christ prove him to be God come upon earth for the salvation of men.",
+      "tags": [
+        "desert.dw.jesus",
+        "desert.quote.the-deeds-of-christ-prove-him"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The third is what we thought his cross had already done.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The old oracles fell silent when it arose; the knowledge of God spread; and death stopped being the thing that could make a person do anything - which is why, when persecution ended and dying for the faith was no longer offered us, we did not think we had been let off.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 22,
+      "remainder_count": 3,
+      "remainder_words": [
+        "arose",
+        "offered",
+        "which"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The same fight had moved inward, against our own thoughts rather than against the sword.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And the enemy we fought there was one Christ had already beaten: his coming, we said to the devil's own face, has made you weak, cast you down, and stripped you.",
+      "tags": [
+        "desert.dw.jesus",
+        "desert.quote.the-coming-of-christ-made-thee-weak"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "That is why we never spoke of the healings among us as ours.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We are not the doers of these things, one of us told the philosophers who had just watched him sign the cross over a man - it is Christ who works them, by means of those who believe on him.",
+      "tags": [
+        "desert.dw.jesus",
+        "desert.quote.christ-worketh-them-not-we"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We did not leave behind letters of devotion or prayers of longing addressed to him the way later ages did - that is not the form our record takes.",
+      "tags": [
+        "desert.gravity.scriptural-engagement"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 11,
+      "remainder_words": [
+        "addressed",
+        "ages",
+        "devotion",
+        "form",
+        "leave",
+        "letters",
+        "longing",
+        "prayers",
+        "record",
+        "takes",
+        "way"
+      ],
+      "remainder_is_own_clause": "that is not the form our record takes",
+      "is_other_tradition_turn": false,
+      "support_verdict": "not_supported",
+      "unsupported_clause": "We did not leave behind letters of devotion or prayers of longing addressed to him the way later ages did - that is not the form our record takes."
+    },
+    {
+      "world": "desert",
+      "sentence": "What we left instead is shorter and harder: a verse taken up to answer a struggle, a saying given to redirect a disciple, the Psalms recited through the day alongside our work.",
+      "tags": [
+        "desert.gravity.scriptural-engagement",
+        "desert.dw.writings"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 10,
+      "remainder_words": [
+        "disciple",
+        "harder",
+        "instead",
+        "left",
+        "psalms",
+        "recited",
+        "redirect",
+        "saying",
+        "shorter",
+        "work"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The affection, if you can call it that, shows in what a person was willing to give up when those words were heard.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 2,
+      "remainder_words": [
+        "affection",
+        "willing"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "if you can call it that"
+    },
+    {
+      "world": "desert",
+      "sentence": "One of us gave away inherited land in two separate visits to the church, never went back for it, and then disappeared for years inside an abandoned fort with its entrance built up, while people gathered outside anyway just to be near a wall with someone praying behind it.",
+      "tags": [
+        "desert.story.antony-withdrawal"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 25,
+      "remainder_count": 11,
+      "remainder_words": [
+        "church",
+        "disappeared",
+        "entrance",
+        "gave",
+        "inherited",
+        "land",
+        "praying",
+        "separate",
+        "visits",
+        "went",
+        "while"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "gave away inherited land in two separate visits to the church"
+    },
+    {
+      "world": "desert",
+      "sentence": "To most people that looked like throwing a life away.",
+      "tags": [
+        "desert.dw.strangest"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We understood it as the opposite - the only way left, once dying for the faith was no longer asked of anyone, to give the whole of a life rather than a part of it.",
+      "tags": [
+        "desert.dw.strangest"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "So the affection is there, but you will not find it in the words themselves so much as in what following him cost and what that cost was counted worth.",
+      "tags": [
+        "desert.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 4,
+      "remainder_words": [
+        "affection",
+        "counted",
+        "themselves",
+        "worth"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "but you will not find it in the words themselves so much as in what following him cost and what that cost was counted worth"
+    },
+    {
+      "world": "desert",
+      "sentence": "One of the greatest among us, Pachomius, when his own sister came to him wanting the same life, cut her hair, put a girdle around her, and made a dwelling-place for her alone on the opposite side of the river at the distance of a mile.",
+      "tags": [
+        "desert.quote.womens-house-across-the-river"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 20,
+      "remainder_count": 5,
+      "remainder_words": [
+        "came",
+        "greatest",
+        "life",
+        "same",
+        "wanting"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And when the archbishop of Alexandria was on the run from the Arians, he did not go to his kinsmen or his friends or the clergy - he went to a young woman living as a virgin, and she hid him, washed his feet, saw to what he needed, and borrowed books and brought them to him, and nobody in Alexandria knew where he was for the whole of that time.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 24,
+      "remainder_count": 1,
+      "remainder_words": [
+        "kinsmen"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The record keeper who wrote those lives down said plainly that God gave women an equal measure of strength of will as he gave to men, so that they might have no cause for being feeble in the performance of the labour of ascetic excellence.",
+      "tags": [
+        "desert.quote.equal-measure-of-strength"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 20,
+      "remainder_count": 3,
+      "remainder_words": [
+        "keeper",
+        "lives",
+        "plainly"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "What is missing is narrower than a missing genre: it is a woman's own first-person account, which this material does not have from anyone.",
+      "tags": [
+        "desert.core.desert"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "If you mean the woman who hid the archbishop - the virgin of Alexandria who kept Athanasius safe while the Arians were moving against him - we know this much.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 5,
+      "remainder_words": [
+        "kept",
+        "know",
+        "mean",
+        "much",
+        "while"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the virgin of Alexandria who kept Athanasius safe while the Arians were moving against him"
+    },
+    {
+      "world": "desert",
+      "sentence": "Palladius, the one who wrote her story down, says he saw her himself and took her to be about seventy years old when he met her.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 3,
+      "remainder_words": [
+        "met",
+        "old",
+        "wrote"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The clergy testified about her: that at twenty she had been so beautiful that people stared, and that she had withdrawn from sight for exactly that reason, so as not to be the occasion of anyone's stumbling.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 1,
+      "remainder_words": [
+        "occasion"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "When Athanasius came to her at midnight, fleeing, she hid him, washed his feet, saw to what he needed, and borrowed books and brought them to him.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 2,
+      "remainder_words": [
+        "came",
+        "fleeing"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Nobody in Alexandria knew where he was for the whole of that time.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "When it was over he appeared suddenly in the church and explained himself to the people: he had not come to them because he did not want to put them in the position of having to swear false oaths, and he had gone to the one person no one could suspect him of going to, because she was young and beautiful.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 20,
+      "remainder_count": 5,
+      "remainder_words": [
+        "going",
+        "having",
+        "position",
+        "put",
+        "swear"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "He said he had gained two things by it, his own life and hers.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "What we do not know: her name.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 2,
+      "remainder_count": 1,
+      "remainder_words": [
+        "know"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "It is not effort alone, and we said so at length.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "- and the answer that started the argument was no, not unless he has it as a gift.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Grace and free will look opposed to each other, but really are in harmony; we thought we ought to have both alike.",
+      "tags": [
+        "desert.dw.grace-and-effort",
+        "desert.quote.grace-and-free-will-in-harmony"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We argued it from cases rather than from principles.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Paul was drawn to salvation while he was eager for bloodshed, and Matthew while he was at his taking of taxes - neither was reaching for it.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "But Zacchaeus, and the thief on the cross, by their own desires brought violence to bear on the kingdom of heaven.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Neither pattern was made to govern the other.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "What we would say plainly is that the main share in our salvation is to be ascribed not to the merit of our own works but to heavenly grace.",
+      "tags": [
+        "desert.dw.grace-and-effort",
+        "desert.quote.the-main-share-is-not-our-works"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Sometimes he puts into us the very beginnings of salvation and gives a person the zeal of his own will; sometimes he grants the carrying out of the work; and sometimes he saves people even against their will and without their knowledge, from a ruin close at hand.",
+      "tags": [
+        "desert.dw.grace-and-effort",
+        "desert.quote.he-puts-into-us-the-beginnings"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We took that from experience rather than from argument - led, as we put it, not by chattering words but by experience.",
+      "tags": [
+        "desert.dw.grace-and-effort"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "No letter and no story we kept speaks to it in so many words.",
+      "tags": [
+        "desert.limit.original-sin-eucharist-faith"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 1,
+      "remainder_words": [
+        "kept"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "There was another voice among us, and we will not flatten it into the first.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Where our most systematic teacher had the mind clear itself until it beheld its own proper radiance, this other current had the soul irradiated by Someone else and made his seat - the soul that is in communion with the Spirit of his light becomes all light, all face, all eye, with no part of her not full of the spiritual eyes of light.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit",
+        "desert.quote.the-soul-becomes-all-eye"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 27,
+      "remainder_count": 1,
+      "remainder_words": [
+        "beheld"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "Where our most systematic teacher had the mind clear itself until it beheld its own proper radiance, this other current had the soul irradiated by Someone else and made his seat"
+    },
+    {
+      "world": "desert",
+      "sentence": "It held that this is known in real experience and feeling, not only believed: that a person striving to be God's friend shall truly see the good things of heaven, the Spirit of the Lord making himself for worthy souls their rest, their rejoicing, their delight.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit",
+        "desert.quote.in-real-experience-and-feeling"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 24,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And it was honest about what that does not fix.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 2,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Mere abstention from evil things is not perfection - the serpent lies under the mind, beneath the surface of the thoughts, for the heart is a deep gulf.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit",
+        "desert.quote.the-heart-is-a-deep-gulf"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Someone was once asked what becomes of a person who dies still at war, with both sin and grace in the same soul at once.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The answer did not weigh the two.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "He goes where his mind aims, and where his love is.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit",
+        "desert.quote.sin-and-grace-in-one-soul"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "That the war comes upon you is not your doing, but to hate it, is.",
+      "tags": [
+        "desert.dw.the-heart-and-the-spirit"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The first and wider current, the one most of us would have recognized: the heart is the field where the real war happens.",
+      "tags": [
+        "desert.gravity.spiritual-combat"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 9,
+      "remainder_words": [
+        "current",
+        "field",
+        "first",
+        "happens",
+        "heart",
+        "real",
+        "recognized",
+        "war",
+        "wider"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "the one most of us would have recognized"
+    },
+    {
+      "world": "desert",
+      "sentence": "A thought comes - uninvited, intruding - and you have a choice in that moment: catch it early, while it is still small, or let it grow until it has you rather than you having it.",
+      "tags": [
+        "desert.term.nepsis"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 8,
+      "remainder_words": [
+        "choice",
+        "comes",
+        "grow",
+        "having",
+        "intruding",
+        "moment",
+        "uninvited",
+        "until"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We called this watchfulness: standing guard over your own inner movements, the way a sentry watches a gate.",
+      "tags": [
+        "desert.term.nepsis"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 4,
+      "remainder_words": [
+        "called",
+        "gate",
+        "watches",
+        "way"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "One of us, carrying a jug with a hole in it so the water ran out behind him, said plainly: my own sins run out behind me and I do not see them.",
+      "tags": [
+        "desert.story.moses-leaking-jug"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The discipline is learning to see what you would rather not see, and answer it before it deceives you into thinking it is something else.",
+      "tags": [
+        "desert.story.moses-leaking-jug"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 6,
+      "remainder_words": [
+        "answer",
+        "deceives",
+        "discipline",
+        "learning",
+        "rather",
+        "thinking"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "learning to see what you would rather not see, and answer it before it deceives you into thinking it is something else"
+    },
+    {
+      "world": "desert",
+      "sentence": "The second current, held by the most systematic among us - a man uniquely educated relative to our own usual formation - went further and built a scheme out of it.",
+      "tags": [
+        "desert.gravity.evagrian-systematization"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 11,
+      "remainder_words": [
+        "built",
+        "current",
+        "further",
+        "held",
+        "man",
+        "most",
+        "relative",
+        "second",
+        "uniquely",
+        "usual",
+        "went"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "a man uniquely educated relative to our own usual formation"
+    },
+    {
+      "world": "desert",
+      "sentence": "And he mapped the whole life as a progression: first the working stage, where you discipline the passions and win freedom from them - he called that apatheia, and it is not apathy but the stilling of what otherwise drives you.",
+      "tags": [
+        "desert.term.apatheia"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 9,
+      "remainder_words": [
+        "called",
+        "drives",
+        "first",
+        "mapped",
+        "otherwise",
+        "progression",
+        "stilling",
+        "whole",
+        "win"
+      ],
+      "remainder_is_own_clause": "the stilling of what otherwise drives you",
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "That scheme was his own, not the wider movement's ordinary vocabulary, and it came out of a philosophically literate circle at one of our settlements, Kellia, not from the less educated majority.",
+      "tags": [
+        "desert.force.evagrian-intensification"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 6,
+      "remainder_words": [
+        "came",
+        "circle",
+        "majority",
+        "movement's",
+        "ordinary",
+        "settlements"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "But both currents agreed on this much: merely not doing evil is not perfection.",
+      "tags": [
+        "desert.quote.the-heart-is-a-deep-gulf"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 6,
+      "remainder_words": [
+        "agreed",
+        "both",
+        "currents",
+        "doing",
+        "merely",
+        "much"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "The heart is a deep gulf, and the serpent lies under the mind, beneath the surface of the thoughts.",
+      "tags": [
+        "desert.quote.the-heart-is-a-deep-gulf"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Women could be strong in this life, and we said so plainly - though the record we left behind shows it unevenly.",
+      "tags": [
+        "desert.quote.equal-measure-of-strength"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 6,
+      "remainder_words": [
+        "left",
+        "plainly",
+        "shows",
+        "strong",
+        "though",
+        "unevenly"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "One of us, writing about the women he had known, put it this way: God gave strength of will in equal measure with the men, so that men would have no excuse for being feeble in carrying out the labor of ascetic excellence.",
+      "tags": [
+        "desert.quote.equal-measure-of-strength"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 4,
+      "remainder_words": [
+        "carrying",
+        "known",
+        "labor",
+        "put"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And we kept the story of Amma Sarah answering elder monks who came to humble her on the ground of her sex: by nature I am a woman, she told them, but not by my own thoughts - it is I who am the man here, and you who are the women.",
+      "tags": [
+        "desert.story.sarah-answer"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 7,
+      "remainder_words": [
+        "answering",
+        "ground",
+        "kept",
+        "nature",
+        "sex",
+        "thoughts",
+        "told"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "We also kept the account of a woman in Alexandria - a virgin, about seventy when the one telling it met her - who hid Athanasius when the Arians were moving against him through the prefect.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 3,
+      "remainder_words": [
+        "kept",
+        "met",
+        "telling"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "about seventy when the one telling it met her"
+    },
+    {
+      "world": "desert",
+      "sentence": "He did not go to his kinsmen or his friends or the clergy.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 1,
+      "remainder_words": [
+        "kinsmen"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "He went to her house at midnight, and she hid him, washed his feet, saw to what he needed, and borrowed books and brought them to him.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "Nobody in Alexandria knew where he was for the whole of that time.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "When it was over he appeared in the church and explained himself: he had not come to his own people because he did not want to put them in the position of having to swear false oaths, and he had gone to the one person no one could suspect him of going to.",
+      "tags": [
+        "desert.story.virgin-who-hid-athanasius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 5,
+      "remainder_words": [
+        "going",
+        "having",
+        "position",
+        "put",
+        "swear"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And there was Mother Talida of Antinoe, with sixty virgins living under her teaching, in a house where the key was never taken away from any one of them, as was customary in other religious houses for women.",
+      "tags": [
+        "desert.quote.talida-key-never-taken"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 2,
+      "remainder_words": [
+        "house",
+        "living"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "with sixty virgins living under her teaching, in a house where the key was never taken away from any one of them"
+    },
+    {
+      "world": "desert",
+      "sentence": "They lived under her in purity and happiness, and they loved her.",
+      "tags": [
+        "desert.quote.talida-key-never-taken"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "When one of us was asked why people marveled at a healing, the answer he gave was plain: we are not the doers of these things - it is Christ who works them, by means of those who believe on him.",
+      "tags": [
+        "desert.quote.christ-worketh-them-not-we"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 7,
+      "remainder_words": [
+        "answer",
+        "asked",
+        "gave",
+        "healing",
+        "marveled",
+        "plain",
+        "works"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "And when philosophers came to test us, asking how we could prove what we held, one of us pointed them straight to the deeds themselves rather than to argument: read the accounts, he told them, and see that the deeds of Christ prove him to be God come upon earth for the salvation of men.",
+      "tags": [
+        "desert.quote.the-deeds-of-christ-prove-him"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 22,
+      "remainder_count": 10,
+      "remainder_words": [
+        "accounts",
+        "argument",
+        "asking",
+        "came",
+        "held",
+        "pointed",
+        "rather",
+        "straight",
+        "test",
+        "told"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "He named them specifically - the dead raised, the blind who received their sight, the paralytics healed, the lepers cleansed, the walking upon the sea, and the rest of the signs and wonders.",
+      "tags": [
+        "desert.quote.the-deeds-of-christ-prove-him"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 2,
+      "remainder_words": [
+        "named",
+        "specifically"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "desert",
+      "sentence": "One of us healed not by commanding but by prayer and by calling on Christ.",
+      "tags": [
+        "desert.quote.he-healed-by-the-name"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 1,
+      "remainder_words": [
+        "calling"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "The saint himself kept his mind on prayer even at other work, the way a blacksmith beats his anvil between strokes.",
+      "tags": [
+        "gallic.term.unceasing-prayer"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 3,
+      "remainder_words": [
+        "himself",
+        "saint",
+        "way"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Among the brethren at Marseilles the shape is Egypt's, as Cassian carried it to us and as Gaul's cold refitted it.",
+      "tags": [
+        "gallic.term.the-monks-dress"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 3,
+      "remainder_words": [
+        "brethren",
+        "carried",
+        "shape"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Labour in the cell without ceasing - weaving palm branches if you are in Egypt, whatever the place gives if you are here - so that the wandering heart, fastened within the barriers of the cell as in a secure harbour, is held still.",
+      "tags": [
+        "gallic.term.cell"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 7,
+      "remainder_words": [
+        "branches",
+        "ceasing",
+        "egypt",
+        "gives",
+        "palm",
+        "weaving",
+        "whatever"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "One brother serves the week as cook; if three lentils fall from his hand he does penance, because everything in the house is consecrated to the Lord.",
+      "tags": [
+        "gallic.story.the-three-lentil-beans"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 2,
+      "remainder_words": [
+        "fall",
+        "serves"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Every thought laid bare to the senior the moment it rises.",
+      "tags": [
+        "gallic.term.disclosure-of-thoughts"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 1,
+      "remainder_words": [
+        "laid"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Not a chronicle of minutes - a round that holds the heart to its mark.",
+      "tags": [
+        "gallic.term.purity-of-heart"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 3,
+      "remainder_words": [
+        "chronicle",
+        "holds",
+        "minutes"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "Not a chronicle of minutes"
+    },
+    {
+      "world": "gallic",
+      "sentence": "At the moment he feels the fast has done something, he is taught to say that it was not he, but the grace of God with him.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 5,
+      "remainder_words": [
+        "done",
+        "fast",
+        "feels",
+        "moment",
+        "taught"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "he is taught to say that it was not he, but the grace of God with him"
+    },
+    {
+      "world": "gallic",
+      "sentence": "Cassian set it down as the elders' teaching: perfection cannot be gained without these labours, and by these labours alone, without the grace of God, no one can attain it.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 6,
+      "remainder_words": [
+        "alone",
+        "attain",
+        "elders'",
+        "labours",
+        "perfection",
+        "set"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "by these labours alone, without the grace of God, no one can attain it"
+    },
+    {
+      "world": "gallic",
+      "sentence": "The will always remains free in a man; and it is weak; and the help of God is needed by it every day and hour.",
+      "tags": [
+        "gallic.term.free-will",
+        "gallic.term.free-will"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 2,
+      "remainder_words": [
+        "help",
+        "needed"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Two friends came back to morning service in Egypt troubled by one sentence an old man had added the night before - that a man cannot make himself master of the good by his own toil.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 18,
+      "remainder_count": 1,
+      "remainder_words": [
+        "himself"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "The elder saw them whispering, cut the psalms short, and answered with a field.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 1,
+      "remainder_words": [
+        "answered"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "The husbandman ploughs and still needs the rain; he cannot ascribe the crop to himself; and God does not send rich crops to the idle.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 4,
+      "remainder_words": [
+        "crop",
+        "himself",
+        "ploughs",
+        "send"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "From that morning came the whole teaching: the beginning even of our good thoughts comes from God, who inspires a good will to begin with, and it is for us humbly to follow, day by day, the grace that is drawing us.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Where a good will begins - with us, or with God's mercy - is the one question the whole argument turns on.",
+      "tags": [
+        "gallic.term.beginning-of-a-good-will"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 1,
+      "remainder_words": [
+        "begins"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Cassian answered on both sides with Scripture's own cases and said that how God works all things in us, and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 19,
+      "remainder_count": 4,
+      "remainder_words": [
+        "answered",
+        "cases",
+        "scripture's",
+        "sides"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "We refused the notion that gives everything to the will and hands out grace by a man's deserts; Vincent named Pelagius for it.",
+      "tags": [
+        "gallic.term.pelagians-as-foil"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 4,
+      "remainder_words": [
+        "deserts",
+        "gives",
+        "hands",
+        "man's"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "And we refused, as blasphemy, the thought that God does not will all men to be saved.",
+      "tags": [
+        "gallic.story.germanus-scruple-at-morning-service"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 5,
+      "remainder_words": [
+        "blasphemy",
+        "men",
+        "refused",
+        "saved",
+        "thought"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Men who heard only one side of our teaching carried it to Africa and called the brethren at Marseilles by a name - Massilians - we never used of ourselves.",
+      "tags": [
+        "gallic.term.massilians"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 6,
+      "remainder_words": [
+        "africa",
+        "carried",
+        "heard",
+        "men",
+        "side",
+        "teaching"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "# Turn\n\nWe do not settle it - the houses never wrote of each other, and neither knew the other's life as an argument against it.",
+      "tags": [
+        "gallic.core.gallic"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 4,
+      "remainder_words": [
+        "neither",
+        "other's",
+        "settle",
+        "turn"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "At Tours the power was present in the saint.",
+      "tags": [
+        "gallic.gravity.virtus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Martin felt it present before he raised a dead catechumen behind a bolted door.",
+      "tags": [
+        "gallic.story.raising-of-the-catechumen"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 1,
+      "remainder_words": [
+        "felt"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "He had more of it as a monk than as a bishop, and less again after one communion he was forced into.",
+      "tags": [
+        "gallic.story.trier-and-the-ithacian-communion"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 2,
+      "remainder_words": [
+        "forced",
+        "monk"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "It was shown before witnesses, for the countryside.",
+      "tags": [
+        "gallic.term.heathen-rustics"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 1,
+      "remainder_words": [
+        "witnesses"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "for the countryside"
+    },
+    {
+      "world": "gallic",
+      "sentence": "Sackcloth and ashes were his well-known weapons - worn to cast out demons, and to die in.",
+      "tags": [
+        "gallic.term.sackcloth-and-ashes"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "to cast out demons, and to die in"
+    },
+    {
+      "world": "gallic",
+      "sentence": "A disciple who sneered at his visions was held to have a demon in him.",
+      "tags": [
+        "gallic.story.brictio-in-the-courtyard"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 1,
+      "remainder_words": [
+        "sneered"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "sneered at his visions was held to have a demon in him"
+    },
+    {
+      "world": "gallic",
+      "sentence": "They never reckoned those good monks who professed themselves exorcists before admiring crowds.",
+      "tags": [
+        "gallic.story.bishop-archebius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 7,
+      "remainder_words": [
+        "admiring",
+        "crowds",
+        "exorcists",
+        "good",
+        "professed",
+        "reckoned",
+        "themselves"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "They never reckoned those good monks who professed themselves exorcists before admiring crowds"
+    },
+    {
+      "world": "gallic",
+      "sentence": "Humility is the mistress of all virtues.",
+      "tags": [
+        "gallic.term.humility"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Cassian would not weave a tale of miracles at all; a man deserves praise from the beauty of his life, not from admiration of his wonders.",
+      "tags": [
+        "gallic.story.bishop-archebius"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 8,
+      "remainder_words": [
+        "admiration",
+        "beauty",
+        "deserves",
+        "miracles",
+        "praise",
+        "tale",
+        "weave",
+        "wonders"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "a man deserves praise from the beauty of his life, not from admiration of his wonders"
+    },
+    {
+      "world": "gallic",
+      "sentence": "And on the island Eucherius admired the crying signs of the Egyptian fathers, so the south was not of one mind either.",
+      "tags": [
+        "gallic.core.gallic"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 6,
+      "remainder_words": [
+        "admired",
+        "crying",
+        "either",
+        "eucherius",
+        "mind",
+        "signs"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "Eucherius admired the crying signs of the Egyptian fathers"
+    },
+    {
+      "world": "gallic",
+      "sentence": "Sulpitius never wrote of Marseilles or the island; Cassian never wrote of Tours.",
+      "tags": [
+        "gallic.core.gallic"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 2,
+      "remainder_words": [
+        "cassian",
+        "sulpitius"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "Sulpitius never wrote of Marseilles or the island; Cassian never wrote of Tours"
+    },
+    {
+      "world": "gallic",
+      "sentence": "This is the one tension we never argued out: whether the power should be shown or disowned.",
+      "tags": [
+        "gallic.demo.never-settled",
+        "gallic.gravity.virtus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "# Turn\n\nIf you dug up the island, we could not tell you what you would find.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 1,
+      "remainder_words": [
+        "turn"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Nothing we can hand you comes out of the ground.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "All of it comes from books: Sulpitius's Life of Martin, with his letters and his dialogues; Cassian's two books written for a bishop's new house; Vincent's remembrancer; a funeral sermon for the island's founder; and a list of authors written down a generation after us.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 22,
+      "remainder_count": 2,
+      "remainder_words": [
+        "martin",
+        "sulpitius's"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Even the names you may know for our places are not in our own books, so we do not use them.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Of the island's own day - a rule kept, a novice received, an elder's saying, an office sung - nothing.",
+      "tags": [
+        "gallic.core.gallic",
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 4,
+      "remainder_words": [
+        "elder's",
+        "novice",
+        "saying",
+        "sung"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "This is our world's own most consequential institution and its least documented from inside.",
+      "tags": [
+        "gallic.core.gallic"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Honoratus went unafraid onto an island shunned for its squalor and its serpents, carrying a psalm; the serpents gave way; a camp of God rose where no one would live; and there the priestly fillet fastened on its fugitive and took him off to a see.",
+      "tags": [
+        "gallic.story.honoratus-and-the-island"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 21,
+      "remainder_count": 5,
+      "remainder_words": [
+        "fastened",
+        "gave",
+        "rose",
+        "see",
+        "went"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "That is a disciple's funeral sermon, read only as far as its words can be read.",
+      "tags": [
+        "gallic.story.honoratus-and-the-island"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Vincent, who dwelt there in the seclusion of a monastery, wrote a remembrancer against his own forgetting, on the faith believed everywhere, always, by all - and left no story of himself, not even of the island he wrote it on.",
+      "tags": [
+        "gallic.term.the-rule",
+        "gallic.term.commonitory-peregrinus",
+        "gallic.core.gallic"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 1,
+      "remainder_words": [
+        "seclusion"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "left no story of himself, not even of the island he wrote it on"
+    },
+    {
+      "world": "gallic",
+      "sentence": "What the island kept of its own customs, day by day, our record does not hold at all.",
+      "tags": [
+        "gallic.core.gallic"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "From what Cassian said Egypt did, and from his complaint that no one in Gaul kept it for a year.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "From what Sulpitius said the saint did in his cell.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "Of the island's own day, not a line.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "gallic",
+      "sentence": "What they ate, where they slept, what the rooms looked like - only as far as those pages say, and no further.",
+      "tags": [
+        "gallic.limit.only-on-paper"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We were not handed a settled map of your fate, and we will not draw you one.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 3,
+      "remainder_words": [
+        "fate",
+        "handed",
+        "settled"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We believed in real judgment and real punishment.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Our own scholar had once handled sympathetically the teaching that in the end every creature, even the devil, would be restored - and we publicly renounced it.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "But we were not consistent executors of our own severity.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "The same pen that threatened judgment pleaded for mercy for the baptized who had fallen, hoped much from penance, and treated no living person's end as sealed.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We did not draw up lists of the lost.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "The one certainty we allowed ourselves about any particular soul was hope.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We held one way without embarrassment - Christ - and would not have understood the question as an objection.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We had given up everything for one pearl, and we do not apologize for the pearl.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "What we never claimed to hold was the map of who, in the end, finds the way.",
+      "tags": [
+        "hal.dw.hell"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "And this we also kept, because it bears here: among us were people whose belief was divided, wounded, or publicly ruined - and they were not turned away.",
+      "tags": [
+        "hal.dw.believe"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 1,
+      "remainder_words": [
+        "bears"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "He counted that divided heart the beginning of his life with God, not the end.",
+      "tags": [
+        "hal.dw.believe"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "The door was opened to the broken among us, and what they could not yet believe, we helped them live toward.",
+      "tags": [
+        "hal.dw.believe"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Someone divorced could belong among us - we will say that plainly first.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 3,
+      "remainder_words": [
+        "first",
+        "plainly",
+        "say"
+      ],
+      "remainder_is_own_clause": "we will say that plainly first",
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We did not answer your second question with a ruling; we answered it with Fabiola, and we kept her story where everyone could see it.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 2,
+      "remainder_words": [
+        "answered",
+        "question"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "She left a husband whose faults the whole neighborhood spoke of, and she alone refused to name them, bearing the blame of the separation rather than blacken him.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 1,
+      "remainder_words": [
+        "spoke"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "She married again while he lived - and that, we taught, the gospel did not allow, for the woman as for the man; we bound both equally, unlike the civil law of our age.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 3,
+      "remainder_words": [
+        "equally",
+        "taught",
+        "unlike"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "When her second husband died, she did not defend herself.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Jerome wrote: \"Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever\" - she stood in sackcloth before all Rome among the penitents, a senator's daughter, unforced, self-accused.",
+      "tags": [
+        "hal.quote.she-put-on-sackcloth",
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 29,
+      "remainder_count": 1,
+      "remainder_words": [
+        "wrote"
+      ],
+      "quoted_spans": [
+        "Who would believe that, after the death of her second husband at a time when most widows, having shaken off the yoke of servitude, grow careless and allow themselves more liberty than ever"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "The church received her back to communion, and we honored her afterward above almost everyone.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Remarried, we named it a fault, the same fault we would have named in a man.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "And the fault, repented, ended in honor, a hospital for the poor, and a funeral all Rome attended.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "The door out of that fault was penance, and we watched her walk through it.",
+      "tags": [
+        "hal.dw.marriage-ending"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "To this world Jesus is God the Son, of one being with the Father - and we would find it strange to hear that asked as an open question.",
+      "tags": [
+        "hal.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 2,
+      "remainder_words": [
+        "find",
+        "world"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We were born after the great council had settled it, and we never treated the answer as negotiable.",
+      "tags": [
+        "hal.dw.was-jesus-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Jesus is God the Son, and the Trinity - Father, Son, and Holy Spirit, one God - is simply the faith of the church, which we defended against every heresy we fought.",
+      "tags": [
+        "hal.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "To us he was the Word of God made flesh - and made flesh in the very place where we chose to live and die.",
+      "tags": [
+        "hal.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "We built our home within sight of the cave we hold to be his birthplace, and our deepest devotion takes the shape of that choice: the Lord of all things entered the world as a poor child in a feeding-trough, so wealth and rank and comfort are things we lay down to come near him.",
+      "tags": [
+        "hal.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 24,
+      "remainder_count": 2,
+      "remainder_words": [
+        "hold",
+        "takes"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "Jerome wrote to Eustochium: \"Let the privacy of your chamber always guard you; let the Bridegroom sport with you within\".",
+      "tags": [
+        "hal.quote.ever-let-the-bridegroom-sport-with-you"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 9,
+      "remainder_count": 1,
+      "remainder_words": [
+        "wrote"
+      ],
+      "quoted_spans": [
+        "Let the privacy of your chamber always guard you; let the Bridegroom sport with you within"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "His love outweighs every earthly marriage.",
+      "tags": [
+        "hal.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "To the penitent he is the physician who receives the broken; to the scholar among us he is the Word whose every written word is worth a life's labor to render truly.",
+      "tags": [
+        "hal.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 3,
+      "remainder_words": [
+        "life's",
+        "render",
+        "written"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "hal",
+      "sentence": "His death is our redemption and his resurrection is the promise we have staked everything on: the treasure is in heaven, and we believe the heart can follow it there.",
+      "tags": [
+        "hal.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 1,
+      "remainder_words": [
+        "believe"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "You are asking for the life itself, not just the arguments about it - and that is a fair question to put to us.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 6,
+      "remainder_words": [
+        "arguments",
+        "asking",
+        "fair",
+        "itself",
+        "life",
+        "question"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "not_supported",
+      "unsupported_clause": "You are asking for the life itself, not just the arguments about it - and that is a fair question to put to us."
+    },
+    {
+      "world": "ijc",
+      "sentence": "For a believer in our cities, the real threshold was baptism.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 2,
+      "remainder_words": [
+        "believer",
+        "cities"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "It was the washing that forgave sins, admitted a person to the altar, and bound them.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "We took it so seriously that some of our most famous men put it off for years.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Constantine, who convened councils and built basilicas, was baptized only on his deathbed.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Our one source for his motive - Eusebius, his own court panegyrist - says the delay came from awe of a washing that could not be repeated, not from indifference.",
+      "tags": [
+        "ijc.quote.he-deferred-it-in-the-hope",
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "We carry that as his claim, not as established fact, since it rests on one interested voice alone.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Theodosius was baptized during an illness early in his reign, fifteen years before his death.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He rose from that washing an emperor now formally inside the Church's discipline.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "If by crossing into the faith you mean a datable, decisive threshold from outside to inside, we had one.",
+      "tags": [
+        "ijc.dw.baptism-threshold"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 1,
+      "remainder_words": [
+        "faith"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "On the feast our whole city kept together, one of our own bishops preached this to everyone gathered: 'Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life'.",
+      "tags": [
+        "ijc.quote.leo-sinner-be-glad"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 23,
+      "remainder_count": 9,
+      "remainder_words": [
+        "'let",
+        "bishops",
+        "city",
+        "everyone",
+        "gathered",
+        "kept",
+        "life'",
+        "together",
+        "whole"
+      ],
+      "quoted_spans": [
+        "Let the saint rejoice: he draws near to victory. Let the sinner be glad: he is invited to pardon. Let the gentile take courage: he is called to life"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "on the feast our whole city kept together, one of our own bishops preached this to everyone gathered"
+    },
+    {
+      "world": "ijc",
+      "sentence": "You are asking exactly what our record keeps least.",
+      "tags": [
+        "ijc.limit.f5-ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 5,
+      "remainder_count": 4,
+      "remainder_words": [
+        "asking",
+        "exactly",
+        "keeps",
+        "least"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Our record was kept by courts and bishops, and it noticed ordinary people mostly when they filled a basilica or a riot.",
+      "tags": [
+        "ijc.limit.f5-ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 1,
+      "remainder_words": [
+        "kept"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The daily bread, the household, the deathbed of an ordinary believer: those were lived, not written, and we will not invent them.",
+      "tags": [
+        "ijc.limit.f5-ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The only women our record shows acting are two empresses, and even they speak only through other men's accounts.",
+      "tags": [
+        "ijc.limit.f5-ordinary-day"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "What we do have is one night when the crowds enter the record, and for a moment we hear them.",
+      "tags": [
+        "ijc.limit.f5-ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "And it was then that Milan began to sing - hymns and psalms after the manner of the Eastern churches, so the waiting did not have to be endured in silence.",
+      "tags": [
+        "ijc.story.vigil-in-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "One man who was there remembered it plainly: \"The pious people kept guard in the church, prepared to die with their bishop\".",
+      "tags": [
+        "ijc.quote.augustine-vigil-hymns"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 11,
+      "remainder_count": 3,
+      "remainder_words": [
+        "man",
+        "plainly",
+        "remembered"
+      ],
+      "quoted_spans": [
+        "The pious people kept guard in the church, prepared to die with their bishop"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "That custom, he wrote, was kept from then till now, and imitated by nearly all congregations afterward.",
+      "tags": [
+        "ijc.story.vigil-in-basilica"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 1,
+      "remainder_words": [
+        "afterward"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The rest - how an ordinary believer prayed alone, what a household's faith looked like from inside, how a woman carried her own devotion without office to amplify it - we cannot tell you.",
+      "tags": [
+        "ijc.limit.f5-ordinary-day"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 14,
+      "remainder_words": [
+        "alone",
+        "amplify",
+        "cannot",
+        "carried",
+        "devotion",
+        "faith",
+        "household's",
+        "inside",
+        "like",
+        "looked",
+        "prayed",
+        "rest",
+        "tell",
+        "woman"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Here is one I will tell you gladly, because it shows what our world was at its rarest best - and because the story itself is honestly strange.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 8,
+      "remainder_words": [
+        "best",
+        "gladly",
+        "honestly",
+        "itself",
+        "rarest",
+        "shows",
+        "strange",
+        "tell"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Constantine came into Africa's church quarrel the way emperors do: he called hearings.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 1,
+      "remainder_words": [
+        "hearings"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "In 314 he directed the disputing parties to Arles, having already had the matter heard at Rome, and the councils duly ruled against the Donatists.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 2,
+      "remainder_words": [
+        "disputing",
+        "parties"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "It settled nothing.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 2,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Sixteen years later, the Donatists still held basilicas the Catholics said were theirs - including one Constantine had built himself, for Catholic use.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He wrote to the Numidian bishops about it.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "And here is what I love: he did not order the buildings seized, and he did not send troops.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 1,
+      "remainder_words": [
+        "love"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He left the Donatists where they were, and he paid for another church to be built for the Catholics - again at his own expense.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He also ordered that certain tax breaks the Donatists had maneuvered the Catholic lower clergy out of should be restored.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The most powerful man in the world, in a dispute he had summoned two councils to settle, in the end paid twice and let it lie.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Our own record shows the opposite often enough - councils backed by exile, soldiers surrounding basilicas, laws that made heresy a civil crime.",
+      "tags": [
+        "ijc.gravity.orthodoxy-enforcement"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 13,
+      "remainder_words": [
+        "basilicas",
+        "civil",
+        "crime",
+        "enough",
+        "heresy",
+        "laws",
+        "made",
+        "often",
+        "opposite",
+        "record",
+        "shows",
+        "soldiers",
+        "surrounding"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "But I can tell you this: the most powerful man in our world once lost an argument with a church and paid for a second building rather than send soldiers.",
+      "tags": [
+        "ijc.story.emperor-builds-another-basilica"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 1,
+      "remainder_words": [
+        "tell"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "At Callinicum, on the eastern frontier, a Christian mob burned the town's synagogue - at the local bishop's own urging.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Monks separately burned a Valentinian meeting-house.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The emperor ordered the ordinary remedy: the bishop would pay to rebuild the synagogue, and the monks would be punished.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Now, this same bishop had held a basilica against imperial command.",
+      "tags": [
+        "ijc.story.vigil-in-basilica"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 2,
+      "remainder_words": [
+        "command",
+        "same"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He had once shut an emperor out of the sacrament until he repented of a massacre.",
+      "tags": [
+        "ijc.story.emperor-penance"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 5,
+      "remainder_words": [
+        "once",
+        "repented",
+        "sacrament",
+        "shut",
+        "until"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "shut an emperor out of the sacrament"
+    },
+    {
+      "world": "ijc",
+      "sentence": "He was the man who said \"the emperor is within the Church, not over the Church\".",
+      "tags": [
+        "ijc.term.imperator-intra-ecclesiam"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 4,
+      "remainder_count": 2,
+      "remainder_words": [
+        "man",
+        "said"
+      ],
+      "quoted_spans": [
+        "the emperor is within the Church, not over the Church"
+      ],
+      "has_span_over_six_words": true,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "And here, he wrote to have the order reversed.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He judged it intolerable that a bishop be forced to fund a synagogue - and worse, in his own words, that the burning of a Valentinian house, which he called worse than heathen, be answered at all.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "When the order stood, he refused the sacrament to the emperor until the emperor promised, on the spot, to withdraw it.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The same leverage we elsewhere show restraining an emperor's violence was turned, here, to shield arsonists from paying for what they burned.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 4,
+      "remainder_words": [
+        "emperor's",
+        "paying",
+        "show",
+        "turned"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "It left a burned community with no recourse.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "We do not have that community's voice anywhere in our record - not their loss, not their appeal.",
+      "tags": [
+        "ijc.story.callinicum-synagogue"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 1,
+      "remainder_words": [
+        "community's"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The alliance that made the church powerful also made it a prize fought over.",
+      "tags": [
+        "ijc.core.imperial-juridical"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 3,
+      "remainder_words": [
+        "fought",
+        "powerful",
+        "prize"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Bishops were removed by emperors, councils were convened at imperial command, and for stretches of our own century the confession the empire enforced was not the one that eventually won.",
+      "tags": [
+        "ijc.demo.argued-about"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 7,
+      "remainder_words": [
+        "convened",
+        "councils",
+        "emperors",
+        "empire",
+        "enforced",
+        "stretches",
+        "won"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Under Constantius II, and again under Valens, bishops who confessed the Son as of one substance with the Father were the ones exiled - not the reverse.",
+      "tags": [
+        "ijc.demo.argued-about"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The formula the imperial church itself held said the Son is like the Father, as the scriptures say, and went no further.",
+      "tags": [
+        "ijc.term.homoios"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 13,
+      "remainder_count": 3,
+      "remainder_words": [
+        "formula",
+        "said",
+        "went"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "At Nicaea itself, Eusebius of Caesarea signed the creed and then wrote home to his own church.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "He explained, carefully, why he had hesitated over its defining word and what he understood it to mean.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 7,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "That is a bishop, at the founding council, publishing his own reservations so that no one would \"impugn his motives\".",
+      "tags": [
+        "ijc.quote.he-held-aloof-for-a-short-time"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 7,
+      "remainder_count": 4,
+      "remainder_words": [
+        "bishop",
+        "founding",
+        "publishing",
+        "reservations"
+      ],
+      "quoted_spans": [
+        "impugn his motives"
+      ],
+      "has_span_over_six_words": false,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The question was not simple for him, and he did not hide that it was not simple.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 2,
+      "remainder_words": [
+        "hide",
+        "simple"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "For decades afterward, serious men confessed differently about the Son and argued their case from scripture.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "What happened to that complication depended on whichever settlement was in power.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 1,
+      "remainder_words": [
+        "complication"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Hesitation could be explained in a letter.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "But refusing the enforced confession could cost a man his position, under any of this era's governments.",
+      "tags": [
+        "ijc.dw.room-for-hesitation"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The mechanism our world trusted - gather, argue, settle, and expect the settlement to bind - visibly failed at the moment when the stakes were highest.",
+      "tags": [
+        "ijc.force.chalcedon-failed-consensus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 1,
+      "remainder_words": [
+        "failed"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "Chalcedon's own settlement was rejected immediately by communities that would not accept it, beginning in Egypt at the council itself.",
+      "tags": [
+        "ijc.force.chalcedon-failed-consensus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "ijc",
+      "sentence": "The rejection hardened into durable division rather than passing like earlier disputes.",
+      "tags": [
+        "ijc.force.chalcedon-failed-consensus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 1,
+      "remainder_words": [
+        "hardened"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "He was a real man, not an idea.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "Ignatius wrote against people who said Jesus only seemed to be a man, and put it as hard as it can be put: Jesus was truly born, of Mary, from the line of David.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 14,
+      "remainder_count": 6,
+      "remainder_words": [
+        "hard",
+        "people",
+        "put",
+        "said",
+        "seemed",
+        "wrote"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "He truly ate and drank.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "He was truly brought before Pilate, truly nailed to the cross, and truly died - not in appearance only, the way those Ignatius wrote against claimed.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 1,
+      "remainder_words": [
+        "wrote"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "And Ignatius said he was truly raised, the same way we ourselves will be raised, by the same Father.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 2,
+      "remainder_words": [
+        "ourselves",
+        "said"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "When we give thanks over the cup, we call it the vine of David his servant, made known to us through Jesus.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "That is the shape of it for us: a real man, really killed, really raised, and now the one through whom we give thanks.",
+      "tags": [
+        "pahc.witness.who-was-jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "None of us saw him ourselves.",
+      "tags": [
+        "pahc.witness.how-we-know"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "What we have is what was handed to us.",
+      "tags": [
+        "pahc.witness.how-we-know"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 1,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "The apostles preached what they had received from the Lord, and appointed others to carry it forward once they themselves were gone.",
+      "tags": [
+        "pahc.witness.how-we-know"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 11,
+      "remainder_count": 1,
+      "remainder_words": [
+        "once"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "Ignatius calls Jesus Christ our God again and again - in how he opens his letters and in how he closes them.",
+      "tags": [
+        "pahc.witness.jesus-as-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "It is not one passing phrase; he reaches for it often.",
+      "tags": [
+        "pahc.witness.jesus-as-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "But it is worship, not an argument worked out.",
+      "tags": [
+        "pahc.witness.jesus-as-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "How calling Jesus God fits together with calling the Father God - with there being one God - none of us whose writing survives ever wrote out.",
+      "tags": [
+        "pahc.witness.jesus-as-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 12,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "We can tell you plainly that we called him God.",
+      "tags": [
+        "pahc.witness.jesus-as-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "We cannot tell you we had settled how.",
+      "tags": [
+        "pahc.witness.jesus-as-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "pahc",
+      "sentence": "Justin, writing to the emperor, says something else that bears here: that God's own Word was present in some measure in every people, so that even a reasonable person born before Christ could in that sense already be called a Christian.",
+      "tags": [
+        "pahc.witness.god-and-argument"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 21,
+      "remainder_count": 5,
+      "remainder_words": [
+        "bears",
+        "else",
+        "emperor",
+        "says",
+        "something"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "To us, Jesus is the Only-Begotten of God.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "He left his place with God and made his home in the Virgin, and by being born as we are born, he became the brother of many.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "In him the words of the prophets, kings, and priests came true - our Nativity hymns sing of the day that made them glad, because every old promise came true at Bethlehem.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "His death and rising are one rescue.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "He went down into Sheol, the world of the dead that swallows everyone alike, and came out into the Kingdom.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "His own resurrection is the promise that he will bring us out after him.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 3,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "And what it meant to those who followed him was healing: he is the Physician, and his coming is medicine for a wounded people.",
+      "tags": [
+        "syr.dw.jesus"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "What we actually had about him was the Gospel woven into one continuous story - the harmony our churches read in worship.",
+      "tags": [
+        "syr.dw.gospel-harmony"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 9,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "We heard one unfolding telling, and we called it simply 'the Gospel'.",
+      "tags": [
+        "syr.dw.gospel-harmony"
+      ],
+      "branch": "quoted_span_window",
+      "sentence_content_words": 7,
+      "remainder_count": 5,
+      "remainder_words": [
+        "called",
+        "heard",
+        "simply",
+        "telling",
+        "unfolding"
+      ],
+      "quoted_spans": [
+        "the Gospel"
+      ],
+      "has_span_over_six_words": false,
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "Yes.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 1,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "not_supported",
+      "unsupported_clause": "Yes."
+    },
+    {
+      "world": "syr",
+      "sentence": "Our sage calls it a sure thing: Jesus our Lord is God, the Son of God, the King, the King's Son, Light of light - a chain of Scripture's own names rather than a philosopher's definition.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 17,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "Our poet confesses the Only-Begotten who was with Deity and came to dwell among us.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "Asked about the Trinity, we answer from our font.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "Our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized, and our teachers held that in baptism's second birth the believer receives the Holy Spirit.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 16,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "Then we guard the mystery.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 2,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "Our teachers warned against prying scrutiny into the Godhead, because we held that what God is, is better sung than dissected.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "We stood with the great council's faith - our own bishop of Nisibis sat at Nicaea.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 8,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "syr",
+      "sentence": "But our native tongue for that faith was praise.",
+      "tags": [
+        "syr.dw.was-jesus-god"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "witt",
+      "sentence": "In 1543 our founder wrote a treatise against the Jews.",
+      "tags": [
+        "witt.dw.what-we-have-never-settled"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 0,
+      "remainder_words": [],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "witt",
+      "sentence": "That treatise is real, part of our own history, and we do not pretend otherwise.",
+      "tags": [
+        "witt.dw.what-we-have-never-settled"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 6,
+      "remainder_count": 2,
+      "remainder_words": [
+        "otherwise",
+        "part"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "witt",
+      "sentence": "But its own argument is not ours to lay out, and we cannot quote its own wording - the text itself is not among the sources we hold in hand.",
+      "tags": [
+        "witt.dw.what-we-have-never-settled"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 10,
+      "remainder_count": 2,
+      "remainder_words": [
+        "lay",
+        "sources"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "witt",
+      "sentence": "What we can say is this: it exists, it was written in that year, and it stands as one of two parts of our history we name plainly but do not carry into voice, the other being the 1525 tract written against the peasants' rising.",
+      "tags": [
+        "witt.dw.what-we-have-never-settled"
+      ],
+      "branch": "ratio_floor",
+      "sentence_content_words": 15,
+      "remainder_count": 8,
+      "remainder_words": [
+        "carry",
+        "exists",
+        "peasants'",
+        "stands",
+        "tract",
+        "voice",
+        "written",
+        "year"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "supported",
+      "unsupported_clause": ""
+    },
+    {
+      "world": "witt",
+      "sentence": "Both are real.",
+      "tags": [
+        "witt.dw.what-we-have-never-settled"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 2,
+      "remainder_count": 1,
+      "remainder_words": [
+        "both"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "partly_supported",
+      "unsupported_clause": "Both are real."
+    },
+    {
+      "world": "witt",
+      "sentence": "Neither one's own words are ours to speak.",
+      "tags": [
+        "witt.dw.what-we-have-never-settled"
+      ],
+      "branch": "tag_is_claim_zero_floor",
+      "sentence_content_words": 4,
+      "remainder_count": 3,
+      "remainder_words": [
+        "neither",
+        "one's",
+        "speak"
+      ],
+      "is_other_tradition_turn": false,
+      "support_verdict": "not_supported",
+      "unsupported_clause": "Neither one's own words are ours to speak."
+    }
+  ]
+}

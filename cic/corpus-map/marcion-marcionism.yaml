@@ -77,18 +77,17 @@ works:
   confidence: assigned
   note: 'An ancient heresy catalogue, not 19th-century editorial matter, though STRUCTURE.md''s
     apparatus marker caught it via its "Appendix" title - flagged rather than silently skipped.
-    The volume''s own editor calls it spurious (see ruling above). Needs a ruling on both
-    counts: whether a pseudo-Tertullianic catalogue is wanted at all, and where; its notices
-    cover many more movements than these two entries. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    The volume''s own editor calls it spurious (see the pseudonymity note above). Its notices
+    cover many more movements than these two entries. This follows one principle rather than
+    a case-by-case call - nine works across six entries raise the same question, whether a
+    spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
+    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
+    and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
+    because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. Detaching the spurious corpora from their attributed
+    authors instead is a possible alternative shelving choice.'
   source_file: anf03_tertullian.xml
 - work: Fragments of Rhodon
   author: rhodon
@@ -110,21 +109,19 @@ works:
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.
-    Needs a ruling on whether spurious verse files under tertullian at all, and where non-Marcion
-    pieces belong.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
+    floor material only as `register: etic`. Whether spurious verse files under tertullian
+    at all, and where non-Marcion pieces belong, comes down to one principle: nine works across
+    six entries ask the same question, whether a spurious corpus files under the attributed
+    name at all. It does, and it also files as what it is. Brief 6.2 says derive from the
+    markup rather than re-attribute from outside knowledge, so the transmitted-author shelf
+    stands: that is how the corpus presents it and how a reader will look for it. apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. This can be reversed in one pass if the spurious corpora
+    should be detached from their attributed authors instead.'
   source_file: anf04_tertullian4-minucius-felix-commodian-origen1-2.xml
 - work: On the Flesh of Christ
   author: tertullian
@@ -157,7 +154,8 @@ works:
   note: 'Names Marcion, Apelles, Valentinus and Hermogenes as its targets (ch. 30 and passim).
     Context: description and refutation from outside, only ever drawable as register: etic.
     Provisional because it describes the heresies far more thinly than Against Marcion or
-    Against the Valentinians do - a reviewer may judge it adds little to those buckets.
+    Against the Valentinians do - it may add little to those buckets beyond what those works
+    already establish.
 
     '
   source_file: anf03_tertullian.xml

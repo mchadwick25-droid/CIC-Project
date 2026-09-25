@@ -43,15 +43,3 @@ answers the ask) is deliberately suspended for the turn - the runtime's own
 rule for this register (spec SSM5). The spark line is an exact substring of
 the licensed verbatim quote. No promise is made the sources cannot back;
 the door-held-open posture is the world's documented catechumenate.
-
-REVISED 2026-08-21 (Mark, system-level fix): "I cannot... I will not... I
-can" converted to "we" - this turn was never asking about the voice's own
-identity, so it never earns the one sanctioned "I am a representative"
-exception; straight to we throughout, per the fleet-wide pronoun rule now
-recorded in alx.voice.craft and the exemplar transcript.
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). pistis labeled where faith-as-foundation is the subject of the want-to-believe demo. Claims unchanged; the label is the whole edit.

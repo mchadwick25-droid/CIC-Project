@@ -2030,3 +2030,48 @@ Verified: full pytest suite 748/748 passed; `engine.m1.cross_world` 0 new defect
 `"pass": true` fleet-wide; `tools/check_paths.py --baseline` 0 new unresolved citations (checked against an
 actually-cleaned `packages/` tree again, per the now-standing discipline from OG-29/OG-30); `table.html`'s
 own `WORLDS` array literal re-validated with `node --check` and a direct `eval` after editing.
+
+## OG-32. Two corpus-map source-quality items touching witt, surfaced by the Live-Surface-Cleanup pass on `cic/corpus-map/`, 2026-09-24 — not resolved here.
+
+That pass found two `_staging/` notes describing a real, current source-quality limitation that had
+been phrased as an outstanding task ("has not yet been..."), and moved the task itself here per that
+pass's own PR (see `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/Decision-Log.md`,
+Entry 3), leaving the corpus-map note stating only the current limitation. Both works are held at
+`confidence: provisional` rather than `assigned` in `cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml`:
+
+- `luther_works-v3-selected_various1930.txt`'s own Contents page is OCR-degraded; exact locus
+  boundaries for this volume's several works are not independently confirmed against the body text
+  section-by-section — a Doc_02-scale task, not done here.
+- `luther_bondage-of-the-will_cole1823.txt`'s own OCR quality (see that file's own `REGISTRY.yaml`
+  note) has not been spot-checked at the specific passages a future Doc_02/Doc_04 pass would actually
+  cite; each citation needs its own character-by-character re-verification against the vendored text
+  before use, not a one-time general clearance.
+
+Not decided or done here — flagged for whoever next does source-quality verification work on this
+world's Luther volumes.
+
+## OG-33. `witt.source.marburg-articles`: the Marburg Articles remain unvendored, access blocked
+
+**Status: OPEN, awaiting acquisition.**
+
+Found 2026-09-24 during the Live-Surface-Cleanup pass (`tools/check_live_commentary.py`'s ROUTE
+classification) on `records/witt/source/witt.source.marburg-articles.md`. The record's own body
+names this directly: the Marburg Articles (3 October 1529) are a partly-native primary document —
+the fourteen agreed articles and the fifteenth's stated Eucharistic disagreement, a text this
+world's own leaders put their names to — but `kind: unvendored`, `rights_status: "In-copyright; not
+vendored - access blocked"`. Doc_01 §7 names this acquisition as its own open item 1. Until
+acquired, the record is licensed for the Lutheran position and the break as the signed text states
+them, never for Zwingli's or Oecolampadius's position beyond the signed wording.
+
+Not a new defect: the record's own prior text already carried this as a locally-embedded note
+("Doc_01 open item 1 / §7") that the cleanup pass removed as commentary per its own discipline
+(open-item framing doesn't belong inline in a live record); this entry is that same open item,
+now durable here instead. No other action taken on the underlying acquisition gap by this pass.
+
+## OG-34. Analytic framework vocabulary in spoken `force`/`gravity` description fields — witt's own instance of the fleet-wide gap
+
+**Status: OPEN, not attempted by the Live-Surface-Cleanup pass — flagged by the managing thread's round-2 verdict on witt's PR #506, 2026-09-24.**
+
+Fleet-wide gap, already filed at `worlds/rzg/Open_Gaps_Tracking.md` #47 ("Project confidence/grading vocabulary leaking into spoken fields," found 2026-09-24, measured directly against `tools/check_live_commentary.py`'s `SPOKEN_VOCAB_PATTERNS`): 600 lines fleet-wide, across 10 of 11 worlds, carry internal grading vocabulary inside a declared `voice-diet`/`evidence-head` spoken field. That measurement counts witt at 67 lines. The Live-Surface-Cleanup pass on PR #506 rewrote the specific instances the checker's own regex flagged (9 `confidence-predicate`/`doc-ref` hits — see that PR's own before/after table), but a broader, unflagged layer remains in witt's `force.description`/`gravity.description` fields: analytic scaffolding language the tool's patterns don't literally match but that still reads as internal build apparatus rather than a world's own voice — "at Layer 1"/"at Layer 2", "CONFIDENCE/GRAVITY CROSS-CHECK", "could argue Primary", "classify this Supporting", "SIX-TEST SUMMARY", "a reviewer may..." used as a structural heading rather than the hypothetical-reader hedge sense already confirmed KEEP elsewhere.
+
+Not a token-swap fix: this is the LAYER 1/LAYER 2/SIX-TEST framing these fields are structurally built around, not an isolated leaked citation. Per the managing thread's own instruction, resolving it needs a proper re-voicing pass of the field's whole style — the same class of fix `rzg.craft.theophilus-voice`'s readability rewrite (`worlds/rzg/Open_Gaps_Tracking.md` #46) already used as precedent for a full content rewrite rather than a patch — not attempted here.

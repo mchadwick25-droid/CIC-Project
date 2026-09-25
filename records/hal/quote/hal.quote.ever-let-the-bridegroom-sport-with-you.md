@@ -20,14 +20,14 @@ sources:
     Letter XXII (to Eustochium), sec. 25 (npnf206_jerome-principal-works.xml)
   license: public-domain
 text: >-
-  Ever let the privacy of your chamber guard you; ever let the Bridegroom sport with you within. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep overtakes you He will come behind and put His hand through the hole of the door, and your heart shall be moved for Him; and you will awake and rise up and say: \"I am sick of love.\"
+  Ever let the privacy of your chamber guard you; ever let the Bridegroom sport with you within. Do you pray? You speak to the Bridegroom. Do you read? He speaks to you. When sleep overtakes you He will come behind and put His hand through the hole of the door, and your heart shall be moved for Him; and you will awake and rise up and say: "I am sick of love."...
 modern_rendering: >-
-  Let the privacy of your chamber always guard you; let the Bridegroom always
-  delight with you within it. When you pray, you are speaking to the
-  Bridegroom. When you read, he is speaking to you. When sleep overtakes you,
-  he will come behind the wall and put his hand through the opening of the
-  door, and your heart will be moved for him; and you will wake and rise and
-  say: 'I am sick with love.'
+  Always let the privacy of your chamber guard you; always let the
+  Bridegroom delight with you within. Do you pray? You speak to the
+  Bridegroom. Do you read? He speaks to you. When sleep overtakes you,
+  he will come behind and put his hand through the opening of the door,
+  and your heart shall be moved for him; and you will awake and rise up
+  and say: 'I am sick with love.'
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-
@@ -51,3 +51,11 @@ he was forming. A cell asking who Jesus was should be voiced by devotion rather 
 disclaimer.
 
 MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+
+Quote-verbatim gate fix (2026-09-22): removed a stray literal backslash before the closing quote mark
+in `text` (a YAML folded-scalar authoring bug, not a real source character). Separately, the record's
+own closing quote mark stood in for a full stop - the source's sentence continues into an extended
+Song-of-Songs dialogue (the Bridegroom's own reply, then a further meditation on not seeking Him in
+the streets). Marked with a trailing ellipsis rather than restored: the record's gloss is specifically
+about prayer and reading as the two halves of a conversation with Christ, complete at "I am sick of
+love"; the extended dialogue that follows is a different, larger argument this record isn't citing for.

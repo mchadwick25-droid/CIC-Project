@@ -59,8 +59,7 @@ assignments:
   confidence: provisional
   note: 'Fourth-century Antiochene panegyric on Ignatius, a central figure of post-apostolic-house-church.
     Second id offered as evidence of how that world''s figure was remembered and venerated,
-    on the Vita Antonii pattern — but this is 4th-century cult, not 2nd-century evidence,
-    so flagged for Mark rather than asserted.
+    on the Vita Antonii pattern — this is 4th-century cult, not 2nd-century evidence.
 
     '
 - work: On the Holy Martyr, S. Babylas
@@ -134,15 +133,11 @@ assignments:
   - antiochene-exegetical-christianity-chrysostom-ce
   role: tradition
   confidence: assigned
-  note: 'The Antiochene home id is safe; the doubt is the second one. The volume''s own notes
+  note: 'The Antiochene home id is safe. The volume''s own notes
     say this homily proves the equality of Father and Son against the Anomoeans (editorial
     note at xii, and index entry ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not
-    strictly Homoians, and the census has no Anomoean entry — homoian-arian-christianity is
-    the nearest ''Arian'' doctrinal-floor bucket. Needs Mark''s ruling on whether that entry
-    covers anti-Anomoean material or the second id should be dropped. Cleared 2026-08-26:
-    this note said the Antiochene home id is safe and the doubt was the second id. That second
-    id is now anomoean-eunomian-christianity, added on record for exactly the party the volume''s
-    own index calls ''Anomoeans, heresy of''. Nothing here is open.'
+    strictly Homoians. anomoean-eunomian-christianity is now on the census for exactly the
+    party the volume''s own index calls ''Anomoeans, heresy of'', and is the second id here.'
 - work: Homily on the Paralytic Let Down Through the Roof
   author: chrysostom
   locus: div1 12 — Homily on the Paralytic; 'Concerning the Equality of the Divine Father
@@ -151,18 +146,15 @@ assignments:
   - anomoean-eunomian-christianity
   role: context
   confidence: assigned
-  note: 'The Antiochene home id is safe; the doubt is the second one. The volume''s own notes
+  note: 'The Antiochene home id is safe. The volume''s own notes
     say this homily proves the equality of Father and Son against the Anomoeans (editorial
     note at xii, and index entry ''Anomoeans, heresy of''). The Anomoeans/Eunomians are not
-    strictly Homoians, and the census has no Anomoean entry — homoian-arian-christianity is
-    the nearest ''Arian'' doctrinal-floor bucket. Needs Mark''s ruling on whether that entry
-    covers anti-Anomoean material or the second id should be dropped.
+    strictly Homoians.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on
-    floor material only as `register: etic`. Re-pointed 2026-08-26: the gap this flagged is
-    closed - anomoean-eunomian-christianity (era 2, Floor Question) was added to the census
-    on record, so anti-Eunomian material now names the party it actually argues with rather
+    floor material only as `register: etic`. anomoean-eunomian-christianity (era 2, Floor Question)
+    is on the census, so anti-Eunomian material names the party it actually argues with rather
     than the Homoian wing it split from in 360.'
 - work: Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)
   author: chrysostom

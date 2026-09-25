@@ -21,6 +21,9 @@ sources:
   license: public-domain
 text: >-
   And again, we begin, by the power of our Lord, the Third (sic) Part with the Counsels of the holy Old Men, and the Questions and the Answers [which they gave] to the Brethren
+modern_rendering: >-
+  And again, by the power of our Lord, we begin the Third Part. We begin it with the counsels of the
+  holy elders, and the questions and answers they gave to the brothers.
 speaker_or_author: the compiler's rubric opening Book the First
 license: verbatim
 modern_lens_note: >-

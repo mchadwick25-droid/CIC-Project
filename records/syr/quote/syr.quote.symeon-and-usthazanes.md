@@ -20,7 +20,12 @@ sources:
     Ecclesiastical History II.9, on Sapor's persecution (npnf202_socrates-sozomen-ecclesiastical-histories.xml)
   license: public-domain
 text: >-
-  When, in course of time, the Christians increased in number, and began to form churches, and appointed priests and deacons, the Magi, who as a priestly tribe had from the beginning in successive generations acted as the guardians of the Persian religion, became deeply incensed.
+  When, in course of time, the Christians increased in number, and began to form churches, and appointed priests and deacons, the Magi, who as a priestly tribe had from the beginning in successive generations acted as the guardians of the Persian religion, became deeply incensed against them.
+modern_rendering: >-
+  As time went on, the Christians grew in number. They began to form churches, and they
+  appointed priests and deacons. The Magi were a priestly tribe. From the beginning,
+  generation after generation, they had acted as guardians of the Persian religion. They
+  became deeply angry at the Christians.
 speaker_or_author: Sozomen, Ecclesiastical History
 license: verbatim
 modern_lens_note: >-
@@ -40,3 +45,7 @@ chapter for "the accusation against Symeon".
 
 The sentence quoted is the cause rather than the martyrdom that follows, because the cell asks what
 outsiders said and this is the source's own account of why they said it.
+
+Quote-verbatim gate fix (2026-09-22): the record's own period after "incensed" was invented, dropping
+the sentence's own last two words ("against them"). Restored; the next sentence (a separate point about
+the Jews' own reaction) still correctly stops where it did.

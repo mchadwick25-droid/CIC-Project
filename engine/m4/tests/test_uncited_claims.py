@@ -1,0 +1,737 @@
+"""Pins the uncited-claims rule's own two motivating sentences as real, real-world-shaped
+regression cases, plus the verified finding that claim_markers alone
+would miss one of them."""
+from engine.m4.grounding_net import check_turn, check_turn_with_paragraph_coverage
+from engine.m4.uncited_claims import (
+    build_uncited_claims_event,
+    classify_neighbour_named,
+    classify_other_tradition_turn,
+    conversation_revealed_excerpts,
+    find_uncited_claims,
+    find_uncited_paragraphs,
+    known_tradition_names,
+    match_named_tradition,
+    tradition_known_in_window,
+    world_records_mention_tradition,
+)
+from engine.m1.registry import load_registry
+
+
+def sent(text: str, tags: list[str] | None = None, verdict: str = "ok") -> dict:
+    return {"sentence": text, "tags": tags or [], "verdict": verdict, "why": None}
+
+
+def test_catches_the_uncited_donatist_history_sentence():
+    sentences = [sent("The Donatists split from the wider church over the treatment of traditores after the persecution.")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
+
+
+def test_catches_both_r26_augustinian_sacramental_sentences():
+    # engine.prose.claim_markers on its own MISSES the second of these
+    # two sentences outright - this test pins that find_uncited_claims still catches
+    # it, confirming the module does not silently rely on claim_markers
+    # as its gate.
+    sentences = [
+        sent("What the sacrament does, it does by Christ's power, not the minister's purity."),
+        sent("Even a broken priest could not block his grace."),
+    ]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 2
+    assert all(o["class"] == "uncited_claim" for o in offenses)
+
+
+def test_a_cited_sentence_never_flags():
+    sentences = [sent("We watched them turn back toward God.", tags=["alx.story.baptism-watch"])]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_a_withheld_sentence_is_examined_like_an_untagged_one():
+    # apply_net's own strip_tags
+    # removes a sentence's tag regardless of verdict - the sentence's
+    # own text still reaches the participant ("the checks gate
+    # decoration, never the text"). This test used
+    # to pin the opposite, false premise (asserting nothing was flagged
+    # for a withheld sentence, on the theory it never reached the
+    # participant at all). Corrected: a withheld sentence carrying real
+    # declarative claim content, with no allowed-uncited shape, is
+    # examined and flagged exactly like a genuinely untagged one -
+    # because by the time it's on screen, it reads exactly the same.
+    sentences = [sent("An unsupported invented claim.", tags=["w.dw.example"], verdict="withhold")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
+
+
+def test_a_withheld_sentence_with_an_allowed_uncited_shape_still_passes():
+    # The withheld/untagged distinction never mattered to the three
+    # allowed-uncited kinds - a withheld honest-limit-shaped sentence is
+    # still allowed uncited, same as an untagged one would be.
+    sentences = [sent("Our record doesn't mention that Christian tradition.", tags=["w.dw.example"], verdict="withhold")]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_a_question_back_to_the_participant_is_allowed_uncited():
+    sentences = [sent("What draws you to ask about the Donatists?")]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_r26_own_honest_limit_sentence_is_allowed_uncited():
+    sentences = [sent("Our record doesn't mention that Christian tradition.")]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_existing_fleet_honest_limit_scaffolding_is_allowed_uncited():
+    # engine.prose.SCAFFOLD_MARKERS, already fleet-calibrated -
+    # reused directly, not a new keyword guess.
+    sentences = [
+        sent("We do not have anything more to tell you about that."),
+        sent("We will not draw one for you where the record leaves none."),
+        sent("We find none of these in what survives to us."),
+    ]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_first_person_framing_with_no_claim_is_allowed_uncited():
+    sentences = [sent("I feel the weight of what you're asking.")]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_first_person_framing_that_still_makes_a_claim_is_not_exempt():
+    # Starts with "I", but names a real figure - still a checkable claim.
+    sentences = [sent("I studied under Origen himself.")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+
+
+# The fleet's own real honest-
+# limit forms, taken verbatim from a live battery's own offense
+# list (live-uncited-claims-battery-report.json) - the exact sentences the
+# raw check wrongly caught before this fix.
+def test_fix_list_f1_record_absence_forms_are_allowed_uncited():
+    sentences = [
+        sent("How it ended among us is not in our record."),
+        sent("Here is the honest limit."),
+        sent("No rule of ours survives that explains the difference."),
+    ]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_fix_list_f1_a_genuine_survives_claim_with_no_negation_is_not_exempt():
+    # The negation-proximity guard's own negative control: "survives" alone,
+    # with no negator, is a real citable claim, not a record-absence form.
+    sentences = [sent("The letter survives in three copies.")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+
+
+# A conditional offer whose MAIN clause is first-
+# person, not its opener - the opener-only check missed this exact battery
+# sentence.
+def test_fix_list_f2_conditional_first_person_offer_is_allowed_uncited():
+    sentences = [
+        sent("If you name the conflict you mean, I will tell you plainly where our own record speaks to it and where it does not.")
+    ]
+    assert find_uncited_claims(sentences) == []
+
+
+def test_fix_list_f2_a_first_person_clause_that_still_makes_a_claim_is_not_exempt():
+    sentences = [sent("If you ask, we can tell you Origen taught this in the year 240.")]
+    offenses = find_uncited_claims(sentences)
+    assert len(offenses) == 1
+
+
+def test_classify_neighbour_named_upgrades_when_a_known_tradition_is_named():
+    offense = {"sentence": "The Donatists refused to accept bishops who had handed over Scriptures.", "class": "uncited_claim"}
+    upgraded = classify_neighbour_named(offense, known_tradition_names=["The Church of the Martyrs", "Donatists"])
+    assert upgraded["class"] == "neighbour_named"
+
+
+def test_classify_neighbour_named_leaves_unrelated_offenses_alone():
+    offense = {"sentence": "The sacrament works by Christ's own power.", "class": "uncited_claim"}
+    upgraded = classify_neighbour_named(offense, known_tradition_names=["The Church of the Martyrs", "Donatists"])
+    assert upgraded["class"] == "uncited_claim"
+
+
+# The upgrade requires the
+# sentence to be a real paragraph-level failure (failing_paragraph_
+# sentences) - not just "the turn was routed via other_tradition" alone,
+# since the unconditional upgrade fired 24/24 in live data and would
+# fail nearly every other_tradition turn.
+def test_classify_other_tradition_turn_upgrades_when_the_turn_was_routed_there_and_the_sentence_is_a_paragraph_failure():
+    offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
+    upgraded = classify_other_tradition_turn(
+        offense,
+        is_other_tradition_turn=True,
+        failing_paragraph_sentences={"Even a broken priest could not block his grace."},
+    )
+    assert upgraded["class"] == "own_doctrine_in_other_tradition_turn"
+
+
+def test_classify_other_tradition_turn_leaves_ordinary_turns_alone():
+    offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
+    upgraded = classify_other_tradition_turn(
+        offense,
+        is_other_tradition_turn=False,
+        failing_paragraph_sentences={"Even a broken priest could not block his grace."},
+    )
+    assert upgraded["class"] == "uncited_claim"
+
+
+def test_classify_other_tradition_turn_leaves_a_paragraph_grounded_frame_sentence_alone():
+    # Routed via other_tradition, but this exact sentence is NOT in
+    # failing_paragraph_sentences (its own paragraph is grounded) - the
+    # narrowing this test pins.
+    offense = {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"}
+    upgraded = classify_other_tradition_turn(offense, is_other_tradition_turn=True, failing_paragraph_sentences=set())
+    assert upgraded["class"] == "uncited_claim"
+
+
+# The uncited-claims rule's own must-pass case: "Dionysius deathbed sentence (alx.dw.church-
+# failure)" - real record text (records/alx/doctrinal_witness/alx.dw.
+# church-failure.md), not a synthetic paraphrase, so this pins the actual
+# fleet language rather than a stand-in for it. Same hermetic-fixture
+# discipline as engine.m4.tests.test_grounding_net's own REPOSITORY -
+# built from the real record's own text, not tied to a compiled package
+# path, so this runs with no package on disk.
+_REAL_CHURCH_FAILURE_TEXT = (
+    "Your churches had failures too - what did you do with them? Our "
+    "record leaves the wounds visible. Our greatest teacher was driven out, not "
+    "by pagans, but by his own bishop. The church remembered both men rather than "
+    "erasing either. Under persecution, many gave way. Some sacrificed to the "
+    "gods. When peace came, the community fought "
+    "bitterly over them. The strict party demanded they stay out. The tradition "
+    "that won here brought the repentant back in, even at the deathbed, and "
+    "Dionysius defended doing so. After Nicaea, the church itself learned to use "
+    "exile and condemnation, and some of what was done with that power our own "
+    "sources report without pride. At our best, we refused the two easy "
+    "exits: we did not pretend the failure away, and we did not make the failed "
+    "unforgivable. At our worst, we did what churches with power do. That, too, "
+    "is in our record."
+)
+_REAL_REPOSITORY = {
+    "alx.dw.church-failure": {
+        "id": "alx.dw.church-failure",
+        "record_type": "doctrinal_witness",
+        "text": _REAL_CHURCH_FAILURE_TEXT,
+    }
+}
+
+
+def test_real_dionysius_deathbed_sentence_properly_cited_never_flags():
+    # End-to-end through the real check_turn pipeline, not a hand-built
+    # sent() dict: confirms the real sentence both survives grounding_net
+    # (verdict "ok", not withheld) AND is never flagged as uncited when
+    # tagged to its own real record - the must-pass case a false positive
+    # here would cost a genuinely well-cited answer.
+    sentence = (
+        "The tradition that won here brought the repentant back in, even at the deathbed, and "
+        "Dionysius defended doing so"
+    )
+    tagged = f"{sentence} [[alx.dw.church-failure]]."
+    result = check_turn(tagged, _REAL_REPOSITORY)
+    assert result["sentences"][0]["verdict"] == "ok"
+    assert find_uncited_claims(result["sentences"]) == []
+
+
+def test_real_dionysius_deathbed_sentence_uncited_is_caught_here_too_not_silently_shown():
+    # The same real sentence,
+    # uncited - grounding_net withholds it (a specific claim naming
+    # Dionysius, no citation tag at all). This test used to assert
+    # find_uncited_claims reports nothing on it, on the theory a
+    # withheld sentence never reaches the participant. It does:
+    # apply_net's own strip_tags only removes [[...]] markup, and an
+    # untagged sentence has none to remove, so this sentence's full
+    # text reaches the participant exactly as written, with no citation
+    # and no visible sign anything is wrong. The uncited-claims rule now
+    # catches this too, rather than compounding the same gap grounding_net's own
+    # withhold verdict already has at the citation-count level.
+    sentence = (
+        "The tradition that won here brought the repentant back in, even at the deathbed, and "
+        "Dionysius defended doing so."
+    )
+    result = check_turn(sentence, _REAL_REPOSITORY)
+    assert result["sentences"][0]["verdict"] == "withhold"
+    offenses = find_uncited_claims(result["sentences"])
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "uncited_claim"
+
+
+def test_a_facilitator_turn_is_never_checked_by_this_module():
+    # Facilitator turns are code-owned templates, never model-generated
+    # (engine.m4.facilitator_turns's own module docstring) - the caller
+    # never calls find_uncited_claims on one, so there is no dedicated
+    # branch here; this test documents that fact rather than exercising
+    # a code path, since the module takes grounding_net's own sentence
+    # list, which a facilitator_turn never produces in the first place.
+    assert find_uncited_claims([]) == []
+
+
+def _registry():
+    return {
+        "alx": {
+            "kind": "formation", "card_name": "Alexandrian Christianity", "display_name": "Alexandrian Christianity",
+            "world_id": "alexandria-catechetical", "representative": {"name": "Theon"},
+        },
+        "don": {
+            "kind": "formation", "card_name": "The Church of the Martyrs", "display_name": "Donatism",
+            "world_id": "donatism", "representative": {"name": "Nundinarius"},
+        },
+        "fix": {"kind": "fixture", "card_name": "Fixture World", "representative": {"name": "Nobody"}},
+    }
+
+
+def test_known_tradition_names_excludes_the_speaking_world_and_fixtures():
+    names = known_tradition_names(_registry(), exclude_world_key="alx")
+    assert "Alexandrian Christianity" not in names
+    assert "Theon" not in names
+    assert "The Church of the Martyrs" in names
+    assert "Nundinarius" in names
+    assert "Fixture World" not in names  # kind != "formation"
+
+
+# A real gap a live run surfaced - the battery's own probe named "the
+# Donatists" (a demonym, what a voice's own prose actually says), never
+# don's own card_name "The Church of the Martyrs", so
+# classify_neighbour_named had nothing to match. Pinned to two named
+# examples.
+def test_known_tradition_names_includes_display_name_and_world_id():
+    names = known_tradition_names(_registry(), exclude_world_key="alx")
+    assert "Donatism" in names
+    assert "donatism" in [n.lower() for n in names]  # world_id, hyphens read as spaces (single word here, unchanged)
+
+
+def test_known_tradition_names_derives_the_ism_demonym():
+    names = [n.lower() for n in known_tradition_names(_registry(), exclude_world_key="alx")]
+    assert "donatist" in names
+    assert "donatists" in names
+
+
+def test_known_tradition_names_derives_the_ian_demonym():
+    names = [n.lower() for n in known_tradition_names(_registry(), exclude_world_key="don")]
+    assert "alexandria" in names
+
+
+def test_classify_neighbour_named_upgrades_on_a_demonym_not_a_card_name():
+    offense = {"sentence": "What did the Donatists believe about that?", "class": "uncited_claim"}
+    names = known_tradition_names(_registry(), exclude_world_key="alx")
+    upgraded = classify_neighbour_named(offense, names)
+    assert upgraded["class"] == "neighbour_named"
+
+
+def test_build_uncited_claims_event_returns_none_when_clean():
+    voice_event = {"speaker": "alx", "uncited_claims": []}
+    assert build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=False) is None
+
+
+def test_build_uncited_claims_event_refines_both_classes():
+    # own_doctrine_in_other_tradition_turn now requires the sentence to
+    # also be a real paragraph-level failure - the fixture
+    # below puts "Even a broken priest..." in paragraph_offenses so the
+    # upgrade still fires.
+    voice_event = {
+        "speaker": "alx",
+        "uncited_claims": [
+            {"sentence": "The Church of the Martyrs split over the treatment of traditores.", "class": "uncited_claim"},
+            {"sentence": "Even a broken priest could not block his grace.", "class": "uncited_claim"},
+        ],
+        "paragraph_offenses": [
+            {"sentence": "Even a broken priest could not block his grace.", "class": "wholly_uncited_paragraph"},
+        ],
+    }
+    event = build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=True)
+    assert event["speaker"] == "alx"
+    classes = {o["class"] for o in event["offenses"]}
+    assert "neighbour_named" in classes
+    assert "own_doctrine_in_other_tradition_turn" in classes
+    assert event["paragraph_offenses"] == voice_event["paragraph_offenses"]
+
+
+def test_build_uncited_claims_event_returns_none_when_both_lists_are_empty():
+    voice_event = {"speaker": "alx", "uncited_claims": [], "paragraph_offenses": []}
+    assert build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=False) is None
+
+
+def test_build_uncited_claims_event_fires_on_paragraph_offenses_alone():
+    # A turn with no sentence-level offenses at all, but a real paragraph-
+    # level one, still needs an event - build_uncited_claims_event's own
+    # docstring: "None only when BOTH are empty."
+    voice_event = {
+        "speaker": "alx",
+        "uncited_claims": [],
+        "paragraph_offenses": [{"sentence": "A whole narrative paragraph with no citation anywhere in it.", "class": "wholly_uncited_paragraph"}],
+    }
+    event = build_uncited_claims_event(voice_event, registry=_registry(), is_other_tradition_turn=False)
+    assert event is not None
+    assert event["offenses"] == []
+    assert len(event["paragraph_offenses"]) == 1
+
+
+# find_uncited_paragraphs's own baseline cases -
+# built from check_turn_with_paragraph_coverage's real output, not a
+# hand-built paragraph_check dict, so these exercise the real join
+# between grounding_net's paragraph_coverage and this module's own
+# reduction, the same end-to-end discipline the real-Dionysius tests
+# above already use for the sentence-level check.
+def test_find_uncited_paragraphs_a_wholly_uncited_narrative_paragraph_fails():
+    # "Even a broken priest could not block his grace." carries no proper
+    # noun/number (claim_markers finds nothing), so real check_turn gives
+    # it verdict "ok" with no tag - exactly the gap the uncited-claims
+    # rule's own module docstring names (claim_markers alone misses it). No citation
+    # anywhere in its own (single-sentence) paragraph, so it's a real
+    # wholly_uncited_paragraph failure.
+    tagged = "Even a broken priest could not block his grace."
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert len(offenses) == 1
+    assert offenses[0]["class"] == "wholly_uncited_paragraph"
+
+
+def test_find_uncited_paragraphs_a_properly_cited_paragraph_passes():
+    tagged = "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]]."
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    assert find_uncited_paragraphs(result) == []
+
+
+def test_find_uncited_paragraphs_an_honest_limit_only_paragraph_passes():
+    tagged = "Our record doesn't mention that Christian tradition."
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    assert find_uncited_paragraphs(result) == []
+
+
+def test_find_uncited_paragraphs_a_one_sentence_paragraph_inherits_the_preceding_cited_paragraph():
+    tagged = (
+        "The tradition that won here brought the repentant back in, even at the deathbed, and "
+        "Dionysius defended doing so [[alx.dw.church-failure]].\n\n"
+        "That, too, is in our record."
+    )
+    result = check_turn_with_paragraph_coverage(tagged, _REAL_REPOSITORY)
+    coverage = result["paragraph_coverage"]
+    assert len(coverage) == 2
+    assert coverage[1]["inherited_from_preceding"] is True
+    # Whatever the net's own verdict on the inherited check, it must never
+    # be reported as wholly_uncited_paragraph - it has a cited_record_ids
+    # set (inherited), so the wholly_uncited branch never applies to it.
+    assert all(o["sentence"] != "That, too, is in our record." or o["class"] != "wholly_uncited_paragraph" for o in find_uncited_paragraphs(result))
+
+
+# The two cases pinned here are real sentences, not invented ones.
+def test_r27a_narrowed_rule_still_catches_both_augustinian_sentences_as_real_paragraph_failures():
+    # The honest-limit rule's own motivating pair: "What the sacrament does,
+    # it does by Christ's power, not the minister's purity." and "Even a
+    # broken priest could not block his grace." - genuinely unsupported
+    # by anything in alx's own records, real doctrine belonging to a
+    # different world. The narrowed rule must still fail
+    # both. This is classify_other_tradition_turn's own narrowing logic
+    # in isolation (hand-built offenses, the same discipline the other
+    # classify_other_tradition_turn tests above already use) - both
+    # sentences marked as real paragraph-level failures
+    # (failing_paragraph_sentences), both upgraded. (The two sentences
+    # together do not both survive as verdict "ok" through the real
+    # check_turn pipeline in one turn - "Christ's" alone trips
+    # claim_markers and withholds the first sentence upstream, the same
+    # fallback-ladder split test_real_dionysius_deathbed_sentence_
+    # uncited_is_withheld_upstream_not_reported_by_this_module already
+    # documents - so this pins the classification rule itself.)
+    sentence_a = "What the sacrament does, it does by Christ's power, not the minister's purity."
+    sentence_b = "Even a broken priest could not block his grace."
+    failing_paragraph_sentences = {sentence_a, sentence_b}
+    offenses = [{"sentence": sentence_a, "class": "uncited_claim"}, {"sentence": sentence_b, "class": "uncited_claim"}]
+    refined = [
+        classify_other_tradition_turn(o, is_other_tradition_turn=True, failing_paragraph_sentences=failing_paragraph_sentences)
+        for o in offenses
+    ]
+    assert all(o["class"] == "own_doctrine_in_other_tradition_turn" for o in refined)
+
+
+# alx's own conflict-turn shape: a frame
+# sentence, "For years they held together.", riding inside a paragraph
+# a live report already shows fully cited (uncited_in_cited_paragraph: 7).
+# Hermetic fixture, same discipline _REAL_CHURCH_FAILURE_TEXT above
+# already uses (real record content, no live package) - a record whose
+# own text shares real ground with the frame sentence, so the inherited
+# check has something genuine to find, not a rigged pass.
+_HELD_TOGETHER_REPOSITORY = {
+    "alx.dw.donatist-schism": {
+        "id": "alx.dw.donatist-schism",
+        "record_type": "doctrinal_witness",
+        "text": (
+            "The two communities argued for years before the final break came, "
+            "but for years they held together despite the strain between them."
+        ),
+    }
+}
+
+
+def test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_cited_other_tradition_paragraph():
+    # is_other_tradition_turn=True is forced on this - the whole point of
+    # this pinned case is to prove the NARROWED rule, not
+    # merely the base paragraph coverage, is what passes this
+    # sentence: a frame sentence the paragraph's own citation genuinely
+    # grounds is not own_doctrine_in_other_tradition_turn even inside an
+    # other_tradition turn.
+    tagged = (
+        "The two sides argued for years before the break finally came [[alx.dw.donatist-schism]]. "
+        "For years they held together."
+    )
+    result = check_turn_with_paragraph_coverage(tagged, _HELD_TOGETHER_REPOSITORY)
+    paragraph_offenses = find_uncited_paragraphs(result)
+    assert paragraph_offenses == []  # the paragraph is cited and the inherited check grounds it
+
+    base_offenses = find_uncited_claims(result["sentences"])
+    failing_paragraph_sentences = {o["sentence"] for o in paragraph_offenses}
+    refined = [
+        classify_other_tradition_turn(o, is_other_tradition_turn=True, failing_paragraph_sentences=failing_paragraph_sentences)
+        for o in base_offenses
+    ]
+    assert all(o["class"] != "own_doctrine_in_other_tradition_turn" for o in refined)
+
+
+# A hand-sort finding: the
+# inherited_ungrounded branch of find_uncited_paragraphs never applied the
+# question/honest-limit/first-person exemptions its own wholly_uncited_
+# paragraph branch already applies - catching the honest-limit rule's own fixed sentence and
+# a literal question among the withheld inherited sentences a live run
+# surfaced. A correctness fix to report-only logic, not a change to what
+# enforcement covers.
+_INHERITED_EXEMPTION_REPOSITORY = {
+    "x.rec": {"id": "x.rec", "record_type": "doctrinal_witness", "text": "The synod met and decided the matter after long debate."}
+}
+
+
+def test_find_uncited_paragraphs_never_counts_r26s_own_fixed_sentence_as_inherited_ungrounded():
+    tagged = (
+        "The synod met and decided the matter after long debate [[x.rec]]. "
+        "Our record doesn't mention that Christian tradition."
+    )
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert all(o["class"] != "inherited_ungrounded" for o in offenses)
+
+
+def test_find_uncited_paragraphs_never_counts_a_literal_question_as_inherited_ungrounded():
+    tagged = "The synod met and decided the matter after long debate [[x.rec]]. How did it end?"
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert all(o["class"] != "inherited_ungrounded" for o in offenses)
+
+
+def test_find_uncited_paragraphs_never_counts_first_person_no_claim_as_inherited_ungrounded():
+    tagged = "The synod met and decided the matter after long debate [[x.rec]]. I feel the weight of what you're asking."
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert all(o["class"] != "inherited_ungrounded" for o in offenses)
+
+
+def test_find_uncited_paragraphs_still_catches_a_genuine_inherited_ungrounded_sentence():
+    # The exemption fix must not swallow the real catch alongside the false
+    # ones - a genuine unsupported claim inside a cited paragraph still
+    # fails.
+    tagged = "The synod met and decided the matter after long debate [[x.rec]]. Ursinus was exiled by imperial order."
+    result = check_turn_with_paragraph_coverage(tagged, _INHERITED_EXEMPTION_REPOSITORY)
+    offenses = find_uncited_paragraphs(result)
+    assert any(o["class"] == "inherited_ungrounded" for o in offenses)
+
+
+# A real fix: the false fixed
+# honest-limit sentence. match_named_tradition/world_records_mention_
+# tradition are this fix's own detection half - engine.m4.turn's own
+# _other_tradition_directive tests (test_turn.py) pin the participant-
+# facing half.
+def test_match_named_tradition_finds_the_demonym_not_just_the_card_name():
+    # Same real gap already found for classify_neighbour_named
+    # (module docstring above): a probe names "the Donatists", never
+    # don's own card_name "The Church of the Martyrs" - this function
+    # must resolve the demonym back to don's own world_key regardless.
+    assert match_named_tradition(
+        "What was your relationship with the Donatists?", _registry(), exclude_world_key="alx"
+    ) == "don"
+
+
+def test_match_named_tradition_returns_none_for_a_non_fleet_name():
+    # "The Arians" names no world in this fleet's own registry (Arianism
+    # is not one of the 11 formation worlds) - the caller's own fallback
+    # to the unconditional honest-limit sentence is correct here, since
+    # there is no registry world to check a real mention against.
+    assert match_named_tradition("What did the Arians believe?", _registry(), exclude_world_key="alx") is None
+
+
+_DONATISM_MENTIONING_REPOSITORY = {
+    "ijc.quote.compelled-to-come-in": {
+        "id": "ijc.quote.compelled-to-come-in", "record_type": "quote",
+        "text": (
+            "Wherefore, if the power which the Church has received by divine appointment... it seemed to "
+            "certain of the brethren, of whom I was one, that although the madness of the Donatists was..."
+        ),
+    },
+    "ijc.dw.unrelated": {
+        "id": "ijc.dw.unrelated", "record_type": "doctrinal_witness",
+        "text": "The council met at Nicaea and confessed the faith the churches already worshipped.",
+    },
+}
+
+_ALX_CHURCH_FAILURE_REPOSITORY = {
+    "alx.dw.church-failure": {
+        "id": "alx.dw.church-failure", "record_type": "doctrinal_witness",
+        "text": "Under persecution, many gave way. Some sacrificed to the gods. When peace came, the community fought bitterly over them.",
+    },
+}
+
+
+def test_world_records_mention_tradition_finds_a_real_reference():
+    # Real-shaped: ijc's own records
+    # genuinely name Donatism (ijc.quote.compelled-to-come-in) - the
+    # excerpt is trimmed but the real record's own words, not invented.
+    ids = world_records_mention_tradition(_DONATISM_MENTIONING_REPOSITORY, _registry()["don"])
+    assert ids == ["ijc.quote.compelled-to-come-in"]
+
+
+def test_world_records_mention_tradition_empty_when_the_world_never_mentions_it():
+    # alx's own church-failure record - the tradition-pivot/self-revision
+    # worked example's own ground - never names Donatism at all; the true "honest-limit stays
+    # exactly as it is" case.
+    ids = world_records_mention_tradition(_ALX_CHURCH_FAILURE_REPOSITORY, _registry()["don"])
+    assert ids == []
+
+
+def test_world_records_mention_tradition_ignores_a_locus_filename_coincidence():
+    # The same false positive the tradition-pivot rule's own design brief
+    # already found and fixed: a vendored source
+    # filename carrying an unrelated name as a substring is not real
+    # prose. Only PROSE_KEYS fields are scanned, so a locus-only mention
+    # must not count as evidence.
+    repository = {
+        "x.rec": {
+            "id": "x.rec", "record_type": "doctrinal_witness",
+            "text": "An ordinary sentence naming nobody in particular.",
+            "sources": [{"source_id": "x.source.one", "locus": "anf-hermas-tatian-donatism-appendix.xml"}],
+        }
+    }
+    assert world_records_mention_tradition(repository, _registry()["don"]) == []
+
+
+# The tradition-pivot rule: tradition_known_in_window
+# is condition (a) under its asymmetric reading; conversation_
+# revealed_excerpts is condition (b) with its third source. The
+# directive half is pinned in test_turn.py; the wiring in test_wiring.py
+# and test_table_api.py.
+def test_tradition_known_in_window_matches_r37_a_on_every_real_world_pair():
+    # The whole real fleet, every ordered pair, against condition (a)'s own test
+    # written out independently here: known iff the named world's start
+    # is at or before the speaking world's end.
+    registry = load_registry()
+    formation = {k: v for k, v in registry.items() if v.get("kind") == "formation"}
+    assert len(formation) == 11
+    for speaking_key, speaking in formation.items():
+        for named_key, named in formation.items():
+            if named_key == speaking_key:
+                continue
+            expected = named["time_window"]["start"] <= speaking["time_window"]["end"]
+            assert tradition_known_in_window(speaking, named) is expected, (speaking_key, named_key)
+
+
+def test_tradition_known_in_window_is_asymmetric():
+    # The asymmetric reading's own worked cases: a 16th-century world knows ancient
+    # Alexandria as received church history; Alexandria cannot know a
+    # tradition that arose eleven centuries after its window closed.
+    registry = load_registry()
+    assert tradition_known_in_window(registry["rzg"], registry["alx"]) is True
+    assert tradition_known_in_window(registry["witt"], registry["alx"]) is True
+    assert tradition_known_in_window(registry["alx"], registry["rzg"]) is False
+    # The tradition-pivot rule's own motivating turn: Theon (alx, window 150-400) on the
+    # Donatists (don, from 311) - the pivot was licensed under (a).
+    assert tradition_known_in_window(registry["alx"], registry["don"]) is True
+
+
+def test_tradition_known_in_window_boundary_start_equal_to_end_is_known():
+    # "at or before" - a tradition arising in the speaking world's own
+    # last window year is inside it.
+    assert tradition_known_in_window({"time_window": {"start": 70, "end": 200}}, {"time_window": {"start": 200, "end": 410}})
+    assert not tradition_known_in_window({"time_window": {"start": 70, "end": 200}}, {"time_window": {"start": 201, "end": 410}})
+
+
+def test_tradition_known_in_window_is_false_when_either_window_is_missing():
+    assert tradition_known_in_window({}, {"time_window": {"start": 100, "end": 200}}) is False
+    assert tradition_known_in_window({"time_window": {"start": 100, "end": 200}}, {}) is False
+
+
+def test_conversation_revealed_excerpts_quotes_each_source_verbatim():
+    transcript = [
+        {"speaker": "facilitator", "kind": "door", "text": "Welcome. Theon speaks for Alexandria. The Donatists will not be at this door."},
+        {"speaker": "participant", "text": "My grandmother told me about the Donatists. She said they refused traitor bishops."},
+        {"speaker": "alx", "text": "I can speak only from Alexandria's own record."},
+        {"speaker": "participant", "text": "Tell me about Origen."},
+    ]
+    excerpts = conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx")
+    assert excerpts == [
+        ("The Facilitator", "The Donatists will not be at this door."),
+        ("The participant", "My grandmother told me about the Donatists."),
+    ]
+
+
+def test_conversation_revealed_excerpts_counts_another_representative_r37_b():
+    # The tradition-pivot rule's third source: "add or what another
+    # representitive revials in the
+    # conversation". Another seat's own sentence naming the tradition is
+    # a revelation, labelled with that seat's spoken label.
+    transcript = [
+        {"speaker": "ijc", "text": "The emperor built the Donatists another basilica. We did not agree."},
+    ]
+    excerpts = conversation_revealed_excerpts(
+        transcript, _registry()["don"], speaking_world_key="alx", labels={"ijc": "Julius (Imperial Church)"}
+    )
+    assert excerpts == [("Julius (Imperial Church)", "The emperor built the Donatists another basilica.")]
+
+
+def test_conversation_revealed_excerpts_never_counts_the_speaking_voice_itself():
+    # What a voice said itself is not something it was told.
+    transcript = [{"speaker": "alx", "text": "The Donatists are not in our record."}]
+    assert conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx") == []
+
+
+def test_conversation_revealed_excerpts_empty_when_nothing_named_it():
+    transcript = [
+        {"speaker": "facilitator", "kind": "door", "text": "Welcome to Alexandria."},
+        {"speaker": "participant", "text": "What did Clement teach?"},
+    ]
+    assert conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx") == []
+
+
+def test_conversation_revealed_excerpts_keeps_only_the_most_recent_and_never_repeats():
+    transcript = [{"speaker": "participant", "text": f"Question {i} about the Donatists."} for i in range(12)]
+    transcript.append({"speaker": "participant", "text": "Question 11 about the Donatists."})
+    excerpts = conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx")
+    assert len(excerpts) == 8
+    assert excerpts[-1] == ("The participant", "Question 11 about the Donatists.")
+    assert excerpts[0] == ("The participant", "Question 4 about the Donatists.")
+
+
+def test_world_records_mention_tradition_never_counts_a_representative_s_personal_name():
+    # The real collision the tradition-pivot rule's build battery found: desert's own
+    # record names Theophilus, the 4th-century bishop of Alexandria;
+    # rzg's 16th-century Representative is also named Theophilus. That
+    # is two people sharing a name, not desert's records naming the
+    # Reformed Cities.
+    registry = load_registry()
+    repository = {
+        "desert.story.sarapion-anthropomorphite": {
+            "absent_detail": "whether he was still at Scete when Theophilus reversed course is not recorded.",
+        }
+    }
+    assert registry["rzg"]["representative"]["name"] == "Theophilus"
+    assert world_records_mention_tradition(repository, registry["rzg"]) == []
+    # The tradition's own name still counts (witt's real record).
+    repository = {"witt.dw.one-holy-church-forever": {"text": "our own boundary against the Reformed cities"}}
+    assert world_records_mention_tradition(repository, registry["rzg"]) == ["witt.dw.one-holy-church-forever"]
+
+
+def test_conversation_revealed_excerpts_counts_only_the_facilitator_s_introduction():
+    # The rule names "the facilitators introduction" - the door turn.
+    # A later Facilitator turn (threshold, bridge, safety, correction,
+    # close) is not a revelation the tradition-pivot rule licenses.
+    transcript = [
+        {"speaker": "facilitator", "kind": "threshold", "text": "Historians describe the Donatists as a rigorist church."},
+        {"speaker": "facilitator", "kind": "bridge", "text": "The Donatists come later in this story."},
+    ]
+    assert conversation_revealed_excerpts(transcript, _registry()["don"], speaking_world_key="alx") == []
