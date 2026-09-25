@@ -13,12 +13,25 @@ from jsonschema import Draft202012Validator
 from engine.prose import is_guard_marker_line, quote_aware_sentences
 
 from . import canon
-from .fk import fk_grade
+from .fk import fk_grade, fre_score
 from .quote_verbatim import gate_quote_verbatim
 from .schemas import RELATION_INVERSE, build_schema
-from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS
+from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_role
 
 FK_CEILING = 10
+
+# Same two numbers reference/method/Pass2-decisions/VR_1A_NorthStar_
+# Readability_Target_2026-08-09.md sets for per-turn output (FK <= 10,
+# FRE >= 60), applied here to the record fields that output is built
+# from - not a new or invented threshold. That decision's own band floor
+# (FK 8) stays report-only, never a failing check here either -
+# gate_readability_floor below is where a sub-8 field is surfaced.
+FRE_FLOOR = 60
+
+# Below this, a spoken field is simpler than the band floor - not an
+# error, just worth seeing (the decision's own floor is reported, never
+# failed: "too-simple" is not the risk it guards against).
+FK_FLOOR = 8
 
 # Below this, gate_readability skips FK grading entirely - see that
 # function's own inline comment for why. 12 was chosen empirically: every
@@ -452,90 +465,173 @@ def gate_canonical_address(records, fleet, registry) -> list[str]:
     return findings
 
 
+# Roles that reach a participant as composed prose - the roles this gate
+# grades (engine/m1/spoken_fields.py's own prose-bearing roles:
+# "instruction", "voice-diet", "evidence-head" reach the participant
+# through the world's own voice; "facilitator-spoken" reaches them
+# through the Facilitator's own composed text instead). "participant-
+# label" fields (a term's world_word, a figure's names, a quote's
+# speaker_or_author/sources, a source's work, gravity/force's own name)
+# are short labels or proper nouns by design, not composed prose -
+# grading them for reading grade level is a category error, not a gap: a
+# term's world_word is defined to BE one word. A bracketed build-taxonomy
+# tag inside a gravity/force name is a build-vocabulary leak, checked by
+# tools/check_live_commentary.py's own SPOKEN_VOCAB_PATTERNS - a
+# different problem from readability, not this gate's to solve.
+_READABILITY_ROLES = ("instruction", "voice-diet", "evidence-head", "facilitator-spoken")
+
+# quote.text and story.text each carry a role this gate would otherwise
+# grade (evidence-head and voice-diet respectively), but both are the
+# record's own verbatim/archaic original - engine/m1/spoken_fields.py's
+# own field notes say so directly ("verbatim, never readability-graded by
+# design"; "never readability-graded by design"), the same reasoning
+# modern_rendering/tellable_as exist to give each one a gradeable spoken
+# companion. Named here as an explicit pair rather than re-derived from
+# those free-text notes.
+_READABILITY_EXCLUDED_FIELDS = {("quote", "text"), ("story", "text")}
+
+# The three declared SPOKEN fields whose value is a list of {..., <key>}
+# objects rather than a bare string or list[str] - the sub-key each one's
+# own prose lives under. Read directly off each field's own real shape
+# (engine/m1/schemas.py TYPE_PROPERTIES) rather than inferred generically
+# ("the object's only string field" is not safe: flavor_notes and
+# register_statements each carry a second, non-prose field alongside
+# their text - segment/number).
+_READABILITY_LIST_TEXT_KEY = {
+    ("fleet_voice", "register_statements"): "statement",
+    ("voice_craft", "flavor_notes"): "note",
+    ("demonstration", "exchange"): "text",
+}
+
+
+def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
+    """(field_label, text) pairs to grade for one record - driven entirely
+    by spoken_fields.py's own SPOKEN_FIELDS registry rather than a second,
+    hand-maintained field list, so this stays in sync with whatever
+    actually compiles into a turn instead of silently drifting from it."""
+    checks: list[tuple[str, str]] = []
+    for field in fields_with_role(record_type, *_READABILITY_ROLES):
+        if (record_type, field) in _READABILITY_EXCLUDED_FIELDS:
+            continue
+        value = rec.get(field)
+        if not value:
+            continue
+        list_key = _READABILITY_LIST_TEXT_KEY.get((record_type, field))
+        if list_key is not None:
+            for item in value:
+                text = item.get(list_key) if isinstance(item, dict) else None
+                if text:
+                    tag = item.get("segment") or item.get("number") or item.get("speaker") or ""
+                    checks.append((f"{field}[{tag}].{list_key}", text))
+        elif isinstance(value, list):
+            for i, item in enumerate(value):
+                if isinstance(item, str) and item:
+                    checks.append((f"{field}[{i}]", item))
+        elif isinstance(value, str):
+            checks.append((field, value))
+    return checks
+
+
+def _grade_records(items) -> list[str]:
+    # FK grade is a paragraph-level heuristic (this module's own header:
+    # "good enough to gate obviously dense prose, not lexicographic
+    # precision") and it misfires on short strings: found when alx's own
+    # guard field - "Honest thinness beats invented depth, absolutely.",
+    # 7 words, plainly clear - scored FK 14.3, purely because a handful
+    # of multi-syllable words dominate the formula's syllables/word term
+    # when there are too few words for its words/sentence term to offset
+    # it. Tested directly before adding this floor: genuinely dense short
+    # text is NOT hidden by it - a 6-word deliberately dense phrase still
+    # scored 41, and an 11-word one scored 35, both far past FK_CEILING
+    # regardless of length. So a floor below which grading is skipped
+    # catches false positives on short clear text without opening a real
+    # blind spot for short dense text, which the formula still flags
+    # loudly. The same floor applies to FRE below: FRE's own words-per-
+    # sentence and syllables-per-word terms are the identical short-
+    # string failure mode, not a separately-tuned one.
+    findings = []
+    for rid, rec in items:
+        for field, text in _readability_checks(rec.get("record_type"), rec):
+            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+                continue
+            grade = fk_grade(text)
+            if grade > FK_CEILING:
+                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, above the ceiling of {FK_CEILING}")
+            fre = fre_score(text)
+            if fre < FRE_FLOOR:
+                findings.append(f"{rid}: {field} scores FRE {fre:.1f}, below the floor of {FRE_FLOOR}")
+    return findings
+
+
 def gate_readability(records, fleet, registry) -> list[str]:
-    # Quote's readability-relevant field is `modern_rendering`
-    # (schemas.py, quote TYPE_PROPERTIES), not modern_lens_note (a
-    # meaning-clarification note, not a plain-language rendering). Per the
-    # V1.2 process doc (Ministry/Technology/CiC_Record_Native_World_Build_
-    # Process_V1_3.md): "Quote records author their modern_rendering at
-    # birth. The spoken form is a modern-English translation, never the
-    # archaic original; the original stays as the record's text for Level
-    # 3." Every built world's quote records already populate it;
-    # `engine/m4/evidence.py`'s own
-    # `_speakable_text` already reads `modern_rendering or text` for
-    # exactly this reason. So this gate grades `modern_rendering`, same
-    # as term/honest_limit's own fields - and deliberately NEVER grades
-    # `text` itself, which stays verbatim by design (Level 3, the "click
-    # page" original wording) and must never be pressured toward a grade
-    # level.
-    #
     # This is a real, live check, not a formality: run directly against
-    # the actual fleet (not the fixture), it finds 12 already-authored
+    # the actual fleet (not the fixture), the original (term/honest_limit/
+    # quote.modern_rendering) coverage found 12 already-authored
     # modern_rendering values over FK_CEILING across 2 worlds (hal,
     # cappadocian) - real content this gate was always meant to catch,
-    # invisible only because the check itself was missing, not
-    # because the fields passed clean.
+    # invisible only because the check itself was missing, not because the
+    # fields passed clean. The voice_craft coverage added later (identity/
+    # guard/flavor_notes[].note/characteristic_concerns[]) was found the
+    # same way, via a participant-facing quality complaint (gallic's
+    # answers landing "too long and too abstract") traced back to that
+    # exact record type despite it compiling into every single turn's own
+    # prompt.
     #
-    # Also covers voice_craft.identity/guard/flavor_notes[].note/
-    # characteristic_concerns[], despite being the
-    # ONE record type compiled into every single turn's own prompt
-    # (engine/m2/builders.py build_prompt(), "Who we are"/"How we speak").
-    # Found via a participant-facing quality complaint (gallic's
-    # answers landing "too long and too abstract") traced back to this
-    # exact record type - not a gap suspected in advance.
-    # alx.voice.craft's own header states the design intent this closes:
-    # "kept small per spec SS4.3.5: no trait rubrics, no avoid-trait
-    # catalogs, no stacked rules - rule-stacks stiffen the conversation."
+    # Scoped to `records` (one world's own records) only - never `fleet`.
+    # engine/m9/enforce.py's own collect_findings() loads the fleet dict
+    # once and hands that SAME dict to every world's own gates.run_all()
+    # call; a gate that read `fleet` here would score the identical fleet
+    # content once per world and multiply-count it under every world's own
+    # waiver. gate_readability_fleet (below) is the fleet-scoped twin,
+    # called once, outside that per-world loop.
+    return _grade_records(records.items())
+
+
+def gate_readability_fleet(fleet) -> list[str]:
+    """gate_readability's fleet-scoped twin: grades the cross-world
+    records under records/_fleet/ (fleet_voice, modern_term, and any
+    fleet-level contested_claim) - never reached by gate_readability
+    itself, for the reason that function's own docstring gives. NOT
+    registered in GATES: every GATES entry runs once per world via
+    gates.run_all(), which would hit the same multiply-counting problem.
+    engine/m9/enforce.py calls this once, directly, outside the per-world
+    loop, and reports it under its own pseudo-world key rather than
+    folding it into any single real world's count."""
+    return _grade_records(fleet.items())
+
+
+def _floor_observations(items) -> list[str]:
+    """Every readability-graded field scoring below FK_FLOOR - the same
+    field set _grade_records checks against the ceiling above, just the
+    other edge. Report-only by construction: this list is never merged
+    into a finding count that a waiver or hygiene_problems() looks at
+    (engine/m9/enforce.py keeps it out of that mechanism entirely), so it
+    cannot fail a gate or need a waiver, only be seen."""
     findings = []
-    checks = []
-    for rid, rec in records.items():
-        if rec.get("record_type") == "term":
-            checks.append((rid, "quick_meaning", rec.get("quick_meaning")))
-            checks.append((rid, "plain_meaning", rec.get("plain_meaning")))
-        if rec.get("record_type") == "honest_limit":
-            checks.append((rid, "statement", rec.get("statement")))
-        if rec.get("record_type") == "quote":
-            checks.append((rid, "modern_rendering", rec.get("modern_rendering")))
-        if rec.get("record_type") == "voice_craft":
-            checks.append((rid, "identity", rec.get("identity")))
-            checks.append((rid, "guard", rec.get("guard")))
-            for note in rec.get("flavor_notes") or []:
-                checks.append((rid, f"flavor_notes[{note.get('segment')}].note", note.get("note")))
-            for i, concern in enumerate(rec.get("characteristic_concerns") or []):
-                checks.append((rid, f"characteristic_concerns[{i}]", concern))
-    # modern_term lives in the fleet, not a world's own records.
-    # modern_sense is spoken directly by the Facilitator's own composed
-    # bridge_turn text, and underlying_subject is both the voice's own
-    # ground and the Facilitator's own spoken text - the same "reaches a
-    # participant verbatim" reason every other field above is graded, so
-    # both belong in this same sweep rather than a second one.
-    for rid, rec in fleet.items():
-        if rec.get("record_type") == "modern_term":
-            checks.append((rid, "modern_sense", rec.get("modern_sense")))
-            checks.append((rid, "underlying_subject", rec.get("underlying_subject")))
-    for rid, field, text in checks:
-        if not text:
-            continue
-        # FK grade is a paragraph-level heuristic (this module's own header:
-        # "good enough to gate obviously dense prose, not lexicographic
-        # precision") and it misfires on short strings: found when alx's own
-        # guard field - "Honest thinness beats invented
-        # depth, absolutely.", 7 words, plainly clear - scored FK 14.3,
-        # purely because a handful of multi-syllable words dominate the
-        # formula's syllables/word term when there are too few words for
-        # its words/sentence term to offset it. Tested directly before
-        # adding this floor: genuinely dense short text is NOT hidden by
-        # it - a 6-word deliberately dense phrase still scored 41, and an
-        # 11-word one scored 35, both far past FK_CEILING regardless of
-        # length. So a floor below which grading is skipped catches false
-        # positives on short clear text without opening a real blind spot
-        # for short dense text, which the formula still flags loudly.
-        if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
-            continue
-        grade = fk_grade(text)
-        if grade > FK_CEILING:
-            findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, above the ceiling of {FK_CEILING}")
+    for rid, rec in items:
+        for field, text in _readability_checks(rec.get("record_type"), rec):
+            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+                continue
+            grade = fk_grade(text)
+            if grade < FK_FLOOR:
+                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
     return findings
+
+
+def gate_readability_floor(records, fleet, registry) -> list[str]:
+    """gate_readability's report-only counterpart: same world-scoped
+    records, same field set, the FK_FLOOR edge instead of FK_CEILING/
+    FRE_FLOOR. NOT registered in GATES - engine/m9/enforce.py calls this
+    directly and keeps its result out of hygiene_problems()'s waiver
+    mechanism, the same way it keeps gate_readability_floor_fleet's own
+    result out too."""
+    return _floor_observations(records.items())
+
+
+def gate_readability_floor_fleet(fleet) -> list[str]:
+    """gate_readability_floor's fleet-scoped twin, the same relationship
+    gate_readability_fleet has to gate_readability above."""
+    return _floor_observations(fleet.items())
 
 
 # The fleet's own exemplar total (alx.voice.craft: identity + guard +
@@ -653,12 +749,12 @@ _ATTRIBUTION_FIELDS = ATTRIBUTION_FIELDS
 # audit, not a generic guess. Synthetic examples of the same shapes below
 # (this file stays live, so it never quotes the actual leaked text):
 #   - _ISO_DATE: a build-decision date sitting next to a build-attribution
-#     phrase inside a voice-craft field - e.g. "the 2026-01-01 decision
+#     phrase inside a voice-craft field - e.g. "the YYYY-MM-DD decision
 #     accepts this" inside a record's own identity/flavor prose. In-world
 #     historical prose in this register dates things "c. 150-400 CE" /
 #     "325 CE" - never ISO format - so this is a near-zero-false-positive
 #     signal on its own, and alone would have caught most of the leaks.
-#   - _RULED_BY: e.g. "(RULED by [name], 2026-01-01: ...)". Deliberately
+#   - _RULED_BY: e.g. "(ruled by [name], YYYY-MM-DD: ...)". Deliberately
 #     the exact phrase "ruled by" (passive, agent-attributed), not bare
 #     "ruled"/"ruling" - those fired as false positives in the hand audit
 #     on real historical content ("the council... ruling on the disputed
@@ -691,9 +787,10 @@ def _attribution_hits(text: str) -> list[str]:
 def gate_no_build_attribution(records, fleet, registry) -> list[str]:
     """Built from a real defect, not a hypothetical: a hand
     audit of every field build_prompt() actually compiles found 4 places
-    where build-process attribution (a date, "RULED by [name]", a direct
-    quote attributed by name) had leaked into voice_craft.identity and
-    world_core.horizon - the sections a live model reads as its own
+    where build-process attribution (a date, an attributed ruling phrase
+    ("ruled by [name]"), a direct quote attributed by name) had leaked
+    into voice_craft.identity and world_core.horizon - the sections a
+    live model reads as its own
     self-description and its historical scope (compiled as "Who we are",
     above the prompt's ground line, and "Horizon", below it).
     Fixed by hand (world/alexandria c0a105a); this gate is the mechanical

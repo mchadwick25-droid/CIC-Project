@@ -3,6 +3,40 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-tridentine-church
 works:
+- work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
+    III's bull against Henry VIII annexed)
+  author: barlow
+  locus: whole text (bull text in English and Latin parallel columns, embedded in Barlow's
+    1681 polemical framing)
+  role: tradition
+  confidence: assigned
+  note: 'Filed under `barlow`, the vendored file''s own compiler/printer slug (the same convention
+    this corpus already uses for a secondary compiler''s framing - e.g. `boero` for the Life
+    of Peter Favre) - not a claim that Barlow authored the bulls themselves. What the row
+    actually carries is Pius V''s own bull Regnans in Excelsis (1570, excommunicating and
+    deposing Elizabeth I) and Paul III''s bull against Henry VIII, printed in English and
+    Latin, word for word, inside Barlow''s hostile Anglican polemic (1681). role: tradition
+    rather than context because the bull text itself is reproduced verbatim - the papacy''s
+    own binding act, not a paraphrase or narrative about it - even though the surrounding
+    frame is hostile. Narrow (two short bulls) but genuine primary- source window. Vendored
+    2026-09-25 as part of a pre-Doc_02 source-acquisition pass for the-tridentine-church,
+    per this world''s own Source Readiness Dossier §3.
+
+    '
+  source_file: barlow_brutum-fulmen_1681.txt
+- work: Catechism of the Council of Trent for Parish Priests
+  author: council-of-trent
+  locus: whole text
+  role: tradition
+  confidence: assigned
+  note: 'The Roman Catechism, commissioned by Trent and promulgated under Pius V, trans. McHugh
+    & Callan (1923). This world''s own doctrinal formation text - the catechism its own parish
+    clergy taught from, not a later commentary on it. Vendored 2026-09-25 as part of a pre-Doc_02
+    source-acquisition pass for the-tridentine-church, per this world''s own Source Readiness
+    Dossier §3.
+
+    '
+  source_file: council-of-trent_roman-catechism_mchugh-callan1923.txt
 - work: The Canons and Decrees of the Sacred and Oecumenical Council of Trent
   author: council-of-trent
   locus: whole text
@@ -19,3 +53,18 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- work: The History of the Council of Trent
+  author: sarpi
+  locus: whole text
+  role: context
+  confidence: assigned
+  note: 'Paolo Sarpi''s contemporary but hostile/critical Venetian narrative of the Council''s
+    sessions, English translation attrib. Sir Nathanael Brent (1676) - the closest thing in
+    English to a narrative account of Trent''s own debates, since the Council''s actual acta/diary
+    survive only in Latin (Theiner''s Acta Genuina, untranslated). role: context, not tradition
+    - this is a hostile external narrative, not the Tridentine church''s own institutional
+    voice (per this world''s own Source Readiness Dossier §3-4, which flags this distinction
+    explicitly). Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition pass for the-tridentine-church.
+
+    '
+  source_file: sarpi_history-of-the-council-of-trent_brent1676.txt

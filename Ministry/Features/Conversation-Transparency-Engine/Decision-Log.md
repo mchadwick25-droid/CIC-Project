@@ -5083,3 +5083,685 @@ three persons in one being, all three equal and all three without
 beginning or end. This doctrine took formal shape at Nicaea and after." -
 "doctrine" in both places, not "teaching", matching `distinguishing_claim`'s
 own "the doctrine it now names." Applied verbatim to the record.
+
+**Entry 76 — 2026-09-25. R42's own generation-side follow-up (Entry 73):
+measured, then dropped by direct ruling.** Entry 73 left one open item -
+a proposed report-only directive line asking the voice to tag any
+sentence that draws on a record even when it names no person, number, or
+quote - held "until 7b merges" by its own sequencing verdict. Mark's own
+ruling, in session, 2026-09-25 ("a, add the narrow sentence and run the
+test") chose to build and measure it now rather than continue holding it.
+The proposed sentence, for the record: "A sentence that states something
+specific this ground actually says, even when it names no person, place,
+text or number of its own, still carries that record's own tag. Only a
+sentence that adds nothing beyond connecting or interpreting what was
+already said stays untagged."
+
+**Live measurement, same script and method as Entry 61**
+(`engine/m4/reports/g1_precision_sample_measure.py`, 11 worlds x 2
+probes = 22 fresh probes, region us-east-1), with the proposed sentence
+added to `records/_fleet/fleet_voice/_fleet.voice.fleet.md`'s
+`citation_contract` and all 12 world packages rebuilt/re-pinned for the
+measurement only. Real cost: $1.9714, 22 probes, 141 raw offenses
+(report: `engine/m4/reports/g1-precision-sample-measure-2026-09-25.json`).
+
+**Sample of 40, stratified across all 11 worlds proportional to each
+world's own share (Entry 61's own method), hand-read against each
+world's own freshly-compiled repository.** The three counts, before
+(Entry 61) vs after: 0 -> 4 unsupported, 14 -> 17 supported but
+untagged, 26 -> 19 interpretive or connective (of 40 each time). The
+proposed sentence showed no measurable reduction in the untagged-but-
+supported miss rate - if anything it moved the other way, consistent
+with Entry 60's own finding that a proposed wording change "made no
+measurable difference to the raw rate." One 40-sentence sample from one
+run is not enough to call 14 vs 17 a real regression either; both
+readings are offered plainly, not resolved past what this sample can
+support.
+
+**Unsupported (4 of 40, up from 0) - the important finding, independent
+of the citation-contract question this measurement was run to answer:**
+four sampled sentences asserted a specific, checkable claim with no
+support anywhere in the speaking world's own compiled repository,
+verified by direct search, not plausibility: *"Some among us thought he
+was a coward"* (cappadocian, of Eustathius of Sebaste) - the repository
+documents the Eustathius rupture at length but nowhere calls him a
+coward or names factions who thought so; *"Felix Manz was drowned in the
+Limmat that same year"* and *"...fines, then imprisonment, and finally,
+in 1527, execution"* (rzg) - Felix Manz is named repeatedly in rzg's own
+repository, but no drowning, no river name, no execution, fine, or
+imprisonment appears anywhere in its compiled text; *"Alexandria itself
+appears only once in what we hold, and only in passing..."* (witt) -
+"Alexandria" appears zero times, any spelling or case, anywhere in
+witt's compiled repository. These are not citation-contract misses -
+they are the class of fabrication `engine.m4.named_claim_grounding`
+(OG-16, `worlds/pahc/Open_Gaps_Tracking.md`) exists to catch,
+report-only and unenforced today, on real live traffic, independent of
+anything this entry's own citation-contract question asked.
+
+**Control run, 2026-09-25 (asked before any decision on the finding
+above, to isolate cause): same script/method, against current
+origin/main - no citation_contract change of any kind, the build
+participants actually get today.** Real cost: $1.9801, 22 probes, 150
+raw offenses (report: `engine/m4/reports/g1-precision-sample-measure-
+control-2026-09-25.json`). Same stratified 40-sentence hand-read method.
+
+**One confirmed unsupported claim, verified by direct search:**
+*"Athanasius of Alexandria was named among the bishops who signed it,
+and our own teachers defended that same homoousios..."* (cappadocian) -
+"Athanasius" appears zero times, any spelling or case, anywhere in
+cappadocian's compiled repository. Fabrication therefore reproduces on
+current main, independent of the citation_contract question this whole
+measurement line was run to answer - it is not something the proposed
+sentence caused. **Honest limit, stated plainly rather than glossed
+over: this control run verified the Athanasius finding to the same
+direct-search standard as the four above, but did not carry every one of
+the other 39 sampled sentences to that identical depth** - a real limit
+on what this control run alone establishes, separate from the finding
+itself.
+
+**Why `named_claim_flags` (OG-16; `engine.m4.named_claim_grounding`) did
+not catch any of these fabrications, in either run: it cannot, by
+construction.** That check only examines a sentence that is already
+citation-tagged and already passed `grounding_net`'s own ratio test -
+every fabrication either run found came from `find_uncited_claims`'s own
+untagged-sentence list, a structurally different, out-of-scope class,
+not a near-miss. The class of fabrication both runs found is exactly
+`find_uncited_claims`/R27's own domain (enforceable today via
+`r27_enforce`/`CIC_R27_ENFORCE`, off by default) - not named_claim_
+grounding's.
+
+**Are these worlds live today?** `engine.m1.registry.load_registry()`
+and `cic-website/data/world-census.json`'s own `movements` list both
+confirm: cappadocian, rzg (`the-reformed-cities-zurich-and-geneva`), and
+witt are all `state: admitted`, `living: true`, and census status
+`"Built & Live"` - yes, live on the production site today. No
+enforcement flag was touched by either run.
+
+**Ruling (Mark, 2026-09-25): "drop #558."** The proposed sentence is not
+adopted: it showed no measurable improvement to the untagged-but-
+supported miss rate it was meant to address, and the fabrication finding
+above is confirmed pre-existing on main, not caused by or fixed by the
+proposed sentence. `records/_fleet/fleet_voice/_fleet.voice.fleet.md`'s
+`citation_contract` is unchanged on main; no world package is re-pinned
+by this entry. The fabrication finding itself remains open, tracked
+separately from this now-closed follow-up - R27/`find_uncited_claims`
+is the existing, off-by-default mechanism that already covers this class
+of defect, per the scope note above.
+
+**Entry 77 — 2026-09-25.** R27 (`find_uncited_claims` enforcement,
+`CIC_R27_ENFORCE`/`r27_enforce`, off by default) live measurement,
+managing thread's own ask, following the fabrication finding on #558's
+run and its control-run reproduction (branch
+`r42-citation-contract-inference-sentence`, commit `2ffc8942`). **#558
+itself was closed by Mark's own ruling, "drop #558"** - the proposed
+`citation_contract` sentence it carried was not adopted, since it
+showed no measurable improvement to the untagged-but-supported miss
+rate. Its live-measurement and control-run findings (the fabrication
+class this entry goes on to test) are preserved in main's own
+Decision-Log as **Entry 76** via PR #568, not #558 itself - numbered
+77 to follow that entry, the same "#395's own Entries 37-38 renumber
+to 38-39" precedent already set in this file. PR #568 had not yet
+merged as of this branch's own last merge from `main`; this entry sits
+directly after the old Entry 75 until that lands, then follows #568's
+own Entry 76 on the next merge from `main`. **Mark's ruling verbatim
+(2026-09-25, Decision 3, option A): "A, yes to the $3 ceiling."** The
+goal: measure whether `find_uncited_claims`'s existing, already-built,
+report-only-by-default enforcement mode stops the class of voice
+fabrication the two prior runs found, before switching it on by
+default anywhere.
+
+**Same method as Entry 61/#558/the control run** (11 admitted formation
+worlds x 2 fresh probes = 22 live calls, `CONFLICT_TURN`/
+`_other_tradition_turn`, current `origin/main`, worlds compiled fresh
+from `records/` via `_compile_world` - the same discipline as every
+prior run in this line, sidestepping this environment's own possibly-
+stale `packages/`), but with `r27_enforce=True` turned on for this run
+only (the real production enforcement path
+`engine/m4/live_uncited_claims_battery.py`'s own `--enforce`/
+`run_enforced` mode already exercises - `engine.m4.turn.run_gate` and
+`_run_ordinary_voice_turn` called directly, real routing, real
+regenerate-once-then-blank enforcement), interview half only (no table
+session, to stay comparable to the 22-probe method the other entries in
+this line used). No code and no default changed anywhere - `r27_enforce`
+was passed as a script-local keyword argument, the same shape
+`run_enforced` already uses; `CIC_R27_ENFORCE`'s own env-var default in
+`engine/api/config.py` was not touched. Script (ad hoc, not committed -
+this PR carries only the Decision-Log entry and the run's own JSON
+artifact, per the managing thread's own "no code or default changes"
+instruction) mirrored `run_enforced`'s interview loop but additionally
+threaded `_run_ordinary_voice_turn`'s existing `debug_capture` parameter
+through, so both the pre-enforcement draft and the post-enforcement
+final text were kept per probe - a before/after hand-read was not
+possible from `run_enforced`'s own persisted fields alone (`regenerated`/
+`facilitator_takeover` booleans only), and this measurement's whole
+point is what enforcement actually removed, not just whether it fired.
+**Real cost: $1.6049, 22 probes, region us-east-1, well under the
+$3.00 ceiling** (comparable order of magnitude to Entry 61's $1.6527,
+#558's $1.9714, and the control run's $1.9801 for the same 22-probe,
+non-enforced method - enforcement's own extra regeneration calls did
+not blow up cost). Full report: `engine/m4/reports/
+r27-live-measure-enforced-2026-09-25.json`.
+
+**(a) Does R27 catch the known fabrication types if they recur?** One
+of them recurred, in fresh live generation, essentially unchanged:
+rzg's `A-conflict` probe produced *"Felix Manz was drowned in the
+Limmat River in January 1527"* - the same invented drowning/river/date
+detail #558's own run found (*"Felix Manz was drowned in the Limmat
+that same year"* / *"...in 1527, execution"*), now compressed into one
+sentence. Verified the identical way #558's run verified it: direct
+search of rzg's own compiled repository (108 records) for `Manz`,
+`Limmat`, `drown`, `drowned` - only `Manz` appears, five times, always
+as a name inside the founding Anabaptist-schism narrative
+(`rzg.witness.triple-refusal`, `rzg.witness.why-the-children-too`,
+`rzg.witness.defending-the-anabaptist-suppression`,
+`rzg.force.anabaptist-schism`,
+`rzg.contested.anabaptist-schism-legitimacy`) - never with a drowning,
+a river, or a specific 1527 date attached. Real Reformation history,
+absent from this world's own compiled ground. **R27, with enforcement
+on, did not catch it.** The reason is structural, not a fluke of this
+run: the sentence sits inside a paragraph with four other, genuinely
+tagged sentences (`rzg.witness.triple-refusal` and
+`rzg.witness.why-the-children-too` on the opening sentence,
+`rzg.witness.why-the-children-too` again on the second,
+`rzg.witness.defending-the-anabaptist-suppression`/`rzg.witness.
+triple-refusal` on the fourth, `rzg.witness.triple-refusal` on the
+closing sentence) - it is a plain per-sentence
+`uncited_claim`, never a `wholly_uncited_paragraph`, and it names no
+other tradition, so it is never `neighbour_named` either. Both are the
+*only* two classes `r27_enforce` was ever built to act on
+(`engine/m4/turn.py`'s own docstring: *"a wholly_uncited_paragraph
+offense or a neighbour_named offense... inherited_ungrounded stays
+report-only"*) - a bare uncited claim riding inside an otherwise-cited
+paragraph is a third, narrower class this mechanism was never built to
+touch at all, live-confirmed exactly where it matters: the one
+fabrication that recurred. No new fabrication type (beyond a
+recurrence of this same one) was found among the 22 probes' own raw
+offenses in the time available for this measurement - see the offline
+audit below for the population this run did not itself re-examine.
+
+**(b) False drops - hand-read against each world's own compiled
+repository, same depth as the Athanasius/Eustathius/Manz/Alexandria
+checks.** 8 of 22 probes (36%) regenerated; 5 of 22 (23%) exhausted -
+`enforcement_exhausted=True`, `voice_event["text"] == ""`, the
+Facilitator substitutes for the world's own voice entirely. **Every
+one of the 8 regenerations checked against its own world's compiled
+repository turned out to be a false trigger on genuinely supported or
+honest-limit content - zero confirmed genuine catches among this run's
+own 8 enforcement actions:**
+
+- `cappadocian` B-other-tradition (exhausted): *"That is Alexandria's
+  own school reaching us, one teacher back, through a student who
+  brought what he learned to our country and founded what became
+  ours"* - a loose gloss, not a confirmed grounding: the only support
+  in `cappadocian.figure.gregory-thaumaturgus` is *"a third-century
+  missionary bishop of Pontus, trained by Origen"* - real, but the
+  record neither says "Alexandria's own school" nor places the
+  training there (Origen's own teaching after Alexandria was at
+  Caesarea Maritima, not named in this record at all); the sentence
+  stretches "trained by Origen" into a claim about Alexandria's school
+  the record itself doesn't make. Still a false trigger, not a
+  fabrication - the paragraph's closing honest-limit sentence, *"After
+  that, silence,"* was independently flagged `wholly_uncited_paragraph`
+  - the same SCAFFOLD_MARKERS coverage gap Entry 61 already named on
+  syr's *"Beyond that, the record runs thin"* - stacking with the
+  overstated-but-real neighbour mention to exhaust the whole turn.
+- `hal` A-conflict (exhausted): *"His name was Origen - an Alexandrian
+  master, long dead, whose commentaries on scripture both Jerome and
+  his friend Rufinus had translated and praised"* - this sentence is
+  NOT untagged: it ends `[[hal.force.origenist-controversy]]` in the
+  draft's own raw text, and that record does support it almost
+  verbatim (*"close enough to share the same admiration for the great
+  Alexandrian master, Origen, whose commentaries both men
+  translated"*). `find_uncited_claims` only exempts a sentence when
+  `grounding_net`'s own per-sentence verdict is `"ok"` AND it carries a
+  tag (`engine/m4/uncited_claims.py`'s own `find_uncited_claims`); here
+  the tag is present but the verdict was not `"ok"` - the grounding
+  check itself rejected a tag that, on independent hand-verification,
+  actually supports the claim. Correctly a false trigger, but the
+  mechanism is "the grounding check disagreed with a real tag," not
+  "an untagged mention" - this is `hal`'s own central, on-topic
+  narrative, killed entirely on an ordinary in-scope conflict probe,
+  not even an `other_tradition`-routed turn.
+- `ijc` B-other-tradition (exhausted): two separate hard offenses fired
+  in the same answer. *"What we do have are Athanasius and Cyril -
+  both bishops of Alexandria - reaching us through their own parts in
+  our authority contests"* ends `[[ijc.story.letter-that-outranked-a-
+  council]]` in the draft - again a rejected tag, not an absent one;
+  the record does support it (Julius of Rome's letter defending
+  Athanasius, this world's own earliest surviving Roman primacy claim),
+  cited twice elsewhere in the same answer. Separately, the closing
+  paragraph's own honest-limit sentence, *"Those pages were never
+  written, or never kept,"* carries no tag anywhere in its paragraph
+  and tripped `wholly_uncited_paragraph` independently - the same
+  SCAFFOLD_MARKERS gap as `cappadocian` B above.
+- `pahc` A-conflict (exhausted): *"Both were live, both were argued
+  for, and neither won before our time ended. That was our real,
+  unresolved fight"* - confirmed grounded almost verbatim in
+  `pahc.witness.what-we-never-settled` (*"One region pressed toward a
+  single bishop; another held a council of elders with nothing felt
+  missing. Both persisted, unresolved... the question was only settled
+  after we had already closed"*) - no neighbour named here at all; a
+  plain `wholly_uncited_paragraph` false catch on a sentence this
+  world's own record states almost word for word.
+- `pahc` B-other-tradition (exhausted): *"roughly around 200 - are the
+  same years when Alexandria's own Christian teaching first becomes
+  visible"* and *"Alexandria is not among them"* - confirmed grounded
+  in `pahc.force.alexandria-emergence` (dates Alexandria's own tradition
+  to c. 190-254, overlapping only at pahc's closing edge) and
+  `pahc.contested.rivals-undefeated` (the neighbours pahc actually
+  argued with), both cited elsewhere in the same answer. This is
+  exactly the honest, well-grounded answer a `B-other-tradition` probe
+  is meant to produce - wiped to nothing.
+- `witt` A-conflict (regenerated, not exhausted - survived to a
+  rewritten final answer): *"It is a fight inside one claim, unresolved,
+  that our own confession itself left standing without ranking either
+  voice above the other"* - confirmed a direct paraphrase of
+  `witt.contested.justification-accounted-and-made`'s own `claim` field
+  (*"not an independent claim standing beside the first... What cannot
+  be settled from this record is which wording, if either, is
+  fundamental"*).
+- `don` B-other-tradition (regenerated, not exhausted): *"So if
+  Alexandria held a bishop in our own years... we would have cared
+  about that. But no record of ours says we ever asked the
+  question"* - honest-limit hypothetical reasoning, not a claim about
+  Alexandria at all, caught by `neighbour_named` on the bare mention.
+- `cappadocian` A-conflict (regenerated, not exhausted): the opening
+  two sentences of a `wholly_uncited_paragraph` (*"It was not a fight
+  between us and obvious enemies outside. It was a rupture inside the
+  household..."*) read as rhetorical/interpretive framing of a
+  narrative the same paragraph substantiates immediately after with
+  real citations - the same "detector over-flags real declarative
+  prose relative to what it's actually for" gap Entry 61 already
+  measured (26/40 interpretive-or-connective there).
+
+**8 for 8 false triggers, 0 for 1 on the one real fabrication that
+recurred**, in this sample.
+
+**Honest limit on what the committed artifact itself can re-verify.**
+The `classify_neighbour_named` refinement (which of the offenses above
+is `neighbour_named` versus plain `wholly_uncited_paragraph`) was
+computed in a separate, uncommitted analysis pass against the run's
+raw offenses, not persisted as a field in
+`r27-live-measure-enforced-2026-09-25.json` - the classifications
+stated for `hal`, `don`, and `pahc` B above rest on that separate pass,
+not on anything a reader of the committed file alone can re-derive
+without re-running `classify_neighbour_named` themselves. Separately,
+for every exhausted probe (`cappadocian` B, `hal`, `ijc` B, `pahc` A,
+`pahc` B), `engine/m4/turn.py`'s own `r27_enforce` logic discards the
+failing regenerated attempt's text entirely once the retry also
+hard-fails (`raw_text = ""`), and this measurement did not separately
+capture that intermediate attempt - only the original draft and the
+fact of exhaustion survive in the committed artifact. The false-drop
+verifications above rest on the draft text (present) plus each world's
+own compiled repository, not on the retry text itself (absent).
+
+**(c) Participant effect.** Every exhausted turn is replaced, verbatim,
+by `engine.m4.facilitator_turns.voice_rejected_turn`'s own fixed text:
+*"This is the Facilitator, stepping in for a moment - {name}'s last
+answer didn't hold together the way it should have, so I'm setting it
+aside rather than passing it on to you. Ask again, or ask something
+else - I'm still here."* Given that every one of the 5 exhausted
+answers checked above was in fact accurate or honest-limit, this
+message does not merely withhold an answer - it tells the participant
+something false about the world's own voice, in the world's stead,
+5 of 22 times (23%) in this sample. The 3 regenerated-but-surviving
+turns did not go blank and did not read as obviously stilted or cut
+short on inspection (`witt` A's revised answer covers the same
+material, reorganized; `cappadocian` A's keeps its full narrative,
+citations intact) - the cost there is a wasted regeneration call and an
+unnecessarily rewritten answer, not a lost one.
+
+**(d) Latency and cost overhead.** Cost: $1.6049/22 probes, same order
+of magnitude as the non-enforced runs in this line (above) - the extra
+regeneration call on 8/22 (36%) probes did not meaningfully change
+total spend. Latency was not separately instrumented per call in this
+measurement (a named, honest gap, the same discipline Entry 61 already
+used rather than glossing it over) - the structural implication:
+every regenerating turn (36% here) pays for one full additional
+voice-generation call before anything reaches the participant, roughly
+doubling that turn's own generation latency, and every exhausted turn
+(23% here) additionally needs a Facilitator turn built before the
+participant sees anything at all.
+
+**Offline audit (no live spend): the 39 control-run sample sentences
+not carried to the Athanasius check's own depth.** The control run's
+own 150 raw offenses were not persisted as a separately-saved 40-
+sentence sample list (only the aggregate `all_offenses` JSON survives,
+`engine/m4/reports/g1-precision-sample-measure-control-2026-09-25.json`
+on branch `r42-citation-contract-inference-sentence`) - this audit
+reconstructs a 40-sentence stratified sample from that same population
+using the same proportional-per-world method Entry 61/#558 describe (2
+proportional to each world's own share of the 150, capped at 5,
+minimum 2), deliberately including the already-confirmed Athanasius
+sentence, an honest methodology note about the reconstruction stated
+plainly rather than glossed over. Verified each of the other 39 by
+direct search against that world's own compiled repository and
+`cic/texts/`, to the same depth as the Athanasius/Manz checks above:
+
+**1 unsupported/fabrication (the already-confirmed Athanasius sentence),
+29 supported but untagged, 10 interpretive/connective.** No second
+fabrication found in this 39. The Athanasius claim stands as an outlier
+in this sample, not a typical case - the other 39 are overwhelmingly
+real, specific content (often near-verbatim) traceable to a named
+record that simply carries no inline tag: alx's *"For years they held
+together... Demetrius governed the church... The break came over
+authority"* is verbatim `alx.story.origen-demetrius`; syr's claim that
+Bardaisan held free will against fate is near-verbatim
+`syr.dw.god`; ijc's *"documented by a pagan historian who saw the
+cost"* checks against the actual vendored primary source
+(`cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt`, Res
+Gestae XXVII.3.12-13: 137 dead at the Basilica of Sicininus) as well as
+`ijc.quote.ammianus-sicininus-massacre`; witt's Augsburg Confession
+claims check against the vendored primary text itself
+(`cic/texts/melanchthon_augsburg-confession_anon-pg275.txt`, Article
+XX). Two borderline judgment calls, neither a fabrication: ijc's
+*"Damasus's faction did the killing"* states the standard historical
+reading of Ammianus's account a shade more causally than the primary
+text's own wording; witt's *"states both in a single paragraph"*
+compresses two real Article XX clauses that are Documented but
+~60 lines apart, not literally one paragraph. **This 40-sentence
+sample does not itself establish the fabrication rate across the
+control run's full 150 raw offenses** - it confirms the citation-
+contract failure in this control run is overwhelmingly "real content,
+missing tag," with the Athanasius sentence a genuine, singular
+fabrication inside that population, not proof the population holds
+only one.
+
+**Recommendation for the managing thread.** Do not switch R27
+(`CIC_R27_ENFORCE`/`r27_enforce`) on by default in its current
+paragraph/`neighbour_named`-only form. This measurement's own live
+result is as clean a negative as this project has produced on an
+enforcement candidate: the one confirmed fabrication that recurred
+went uncaught by construction (it is a bare per-sentence uncited claim
+inside an otherwise-cited paragraph - the exact class this mechanism
+was never built to touch), while every single enforcement action this
+run actually took (8 of 8) fired on content independently confirmed
+supported or honest-limit, 5 of them (23% of all 22 probes) driving the
+participant's turn to a blank, Facilitator-substituted answer that
+actively misstates what the world's own voice did. Turning this on
+today would trade a measured 0% catch rate on the fabrication class it
+was proposed to stop for a measured 100% false-positive rate on the
+enforcement it actually performs, at real participant-facing cost. Any
+future enforcement candidate for this fabrication class needs to act at
+the individual uncited-claim level inside an otherwise-grounded
+paragraph, not the paragraph/neighbour-name level `r27_enforce`
+currently checks - closer in shape to option (iii) from Entry 61's own
+menu (rebuild the detector around a real support check, "unsupported"
+only, re-measured live before any enforcement) than to flipping this
+existing mechanism's default. The fabrication finding itself
+(`engine.m4.named_claim_grounding`/OG-16 cannot catch it either, by
+construction - the control run's own entry already established this)
+remains open and unresolved by anything measured here.
+
+**Entry 78 — 2026-09-25.** Sentence-level fact check
+(`engine.m4.sentence_fact_check`), managing thread's own follow-up work
+order after Entry 77 (PR #567, now merged). **Mark's ruling verbatim (2026-09-25, Decision 3 follow-up): "a."** Build
+a sentence-level fact check to replace R27's own paragraph/`neighbour_
+named` approach for the fabrication class Entry 77 measured it missing
+- Mark's own standing bar: "scholarly rigor that would impress a
+professor of church history, not perfection."
+
+**Goal, exactly as given:** catch an unsupported named claim (a person,
+place, date, number, or event) in ANY voice sentence, including one
+riding inside an otherwise well-cited paragraph - report-only, additive,
+no participant-visible change, no enforcement flag in this PR. Full
+module docstring: `engine/m4/sentence_fact_check.py`.
+
+**A vocabulary note, stated once rather than qualified every time
+below:** "unsupported," "ungrounded," and (where this entry keeps the
+project's own established word) "fabrication" all mean the same narrow
+thing throughout - a specific name, date, or number that does not
+appear anywhere in THIS world's own compiled ground. None of them mean
+the named person, place, or event is fictional, or that the claim is
+false as history. Athanasius, Alexandria, Pope Liberius, and Ephrem's
+*Contra Haereses* are all real; several of the underlying historical
+claims below (Felix Manz's drowning, Zwingli's circumcision argument)
+are real, documented history too. What every finding below actually
+shows is that a real claim has no support in one specific world's own
+vendored record - a citation-fidelity defect, not evidence the claim
+itself is untrue.
+
+**Design - reuse, not duplication (the explicit constraint).** Every
+real piece of machinery already existed:
+- `engine.m4.named_claim_grounding`'s own per-record ground computation
+  (`_source_ground`, OG-9's own `work`-field/`short_head` truncation) is
+  reused via two new factored-out functions in that same file,
+  `record_ground` and `repository_ground` - the only change in scope
+  this needed: sum a record's own ground over EVERY record in the
+  world's compiled repository, not only a sentence's own tag(s). The
+  marker-vs-ground comparison itself (`missing_markers`) is the exact
+  same code `ungrounded_markers` (unchanged, still tag-scoped, still
+  passes its own 15 existing tests unmodified) now also calls - one
+  implementation, not two that could drift.
+- `engine.m4.uncited_claims`'s own three allowed-uncited exemptions
+  (`_is_question`, `_is_honest_limit`, `_is_first_person_no_claim`) are
+  reused unchanged.
+- `engine.prose.claim_markers`'s own proper-noun/number detection is
+  reused, with one narrow, necessary addition (below).
+
+**A real defect found empirically, fixed at the shared root, not
+patched around: sentence-initial proper nouns.** First offline pass:
+`claim_markers`' own `_proper_nouns` excludes a sentence's OWN FIRST
+WORD from proper-noun detection (right for its own narrow, 1-3-record
+tag-scoped callers, calibrated there). Two of the four known
+fabrications name their own unsupported claim as literally the
+sentence's first word ("**Athanasius** of Alexandria was named
+among..."; "**Alexandria** itself appears only once in what we
+hold...") - with the unmodified function, both are structurally
+unflaggable regardless of ground scope. Fixed at the source, not worked
+around locally:
+`engine.prose._proper_nouns`/`claim_markers` both gained an opt-in
+`include_sentence_initial`/`include_sentence_initial_proper_nouns`
+parameter, default `False` (every one of the four existing production
+callers - `engine.m1.canon`, `engine.m2.builders`, `engine.m4.evidence`,
+`engine.m4.grounding_net` - byte-identical, confirmed by the full
+`engine/tests/test_prose.py` suite passing unchanged).
+`missing_markers` threads the same flag through; only `sentence_fact_
+check` passes `True`. Safe specifically at whole-repository ground
+scope (module docstring's own reasoning): an ordinary capitalized word
+that only coincidentally opens a sentence, not a real name, is either
+already stopword/doctrinal-vocab-excluded, or - being ordinary
+vocabulary - overwhelmingly likely to also appear elsewhere across an
+entire compiled repository, so it grounds itself rather than
+false-flagging; the narrow-ground false-positive risk that motivated
+excluding position 0 in the first place does not carry over to a
+100-300-record ground the same way.
+
+**A second real defect found empirically, also fixed at the root: a
+hypothetical/conditional clause.** `don`'s own real R27 false trigger
+(Entry 77) - "So if Alexandria held a bishop in our own years... we
+would have cared about that. But no record of ours says we ever asked
+the question" - names Alexandria (absent from `don`'s own whole
+repository) inside a pure subjunctive, and is not caught by `_is_
+honest_limit`'s own fixed-phrase/negation regex (that check looks for
+an explicit absence claim, not a subjunctive mood). Without a fourth
+exemption this module would have reproduced R27's own `neighbour_named`
+false-positive shape on the identical sentence. `_strip_hypothetical_
+clauses` (new, local to `sentence_fact_check.py`): strips only the
+"if"-to-"would"/"would have" span itself before checking, not the whole
+sentence - a name or number OUTSIDE that span, even in a sentence that
+also contains one, is still checked normally (round-2 review fix, below).
+Confirmed against two more real "if...would" hedges #558's own run
+produced independently (`cappadocian`, `witt`), never previously scored,
+both correctly exempt. **A round-2 review finding, fixed the same day:**
+the first version exempted the ENTIRE sentence on a bare "if...would"
+co-occurrence, which a reviewer showed would also exempt "Felix Manz was
+drowned in the Limmat in 1527, and if you ask why, the council would say
+heresy" - a real fabrication riding to safety behind an unrelated
+hypothetical clause. Rescoped to strip only the matched span itself
+(module docstring's own KNOWN LIMITS section carries the residual gap
+this narrower fix still has - the span runs from the literal word "if"
+to the next literal "would," not the true grammatical clause boundary,
+so a claim sandwiched between an unrelated "if" and an unrelated later
+"would" in the same sentence can still be swept up and missed).
+
+**Wiring:** `engine.m4.turn._run_ordinary_voice_turn` gains
+`voice_event["fact_check_flags"]`, computed and (on `r27_enforce`'s own
+regeneration) recomputed the identical way `named_claim_flags` already
+is - same additive, always-`[]`-on-clean-turns discipline. No default
+touched anywhere; no enforcement flag exists.
+
+**OFFLINE measurement (no live spend), hand-labeled set drawn from the
+three saved JSON reports the managing thread named:**
+
+**Positives - the known fabrication set, 4/6 recall (6 counts two live
+recurrences of the same Manz/Limmat fixture as separate rows):**
+caught - `rzg` "Felix Manz was drowned in the Limmat that same year"
+(#558), `rzg` "Felix Manz was drowned in the Limmat River in January
+1527" (Entry 77's own recurrence), `cappadocian` the control run's own
+Athanasius sentence, `witt` "Alexandria itself appears only once in
+what we hold." **Missed, both a named, honest limit rather than a
+defect:** `cappadocian` "Some among us thought he was a coward"
+(Eustathius is a real, grounded name; "coward" is an ordinary adjective
+- no proper-noun/number marker exists in this sentence at all for any
+ground-scope check to compare); `rzg`'s own 1527-execution-progression
+sentence ("...fines, then imprisonment, and finally, in 1527,
+execution") - "1527" genuinely IS present in `rzg`'s own ground
+(`rzg.witness.defending-the-anabaptist-suppression`, a different,
+real context), so the bare digit checks out even though the specific
+composed claim (a fines-then-imprisonment-then-execution progression
+culminating that year) is not independently verified by a
+marker-presence check - a structural limit of what this class of check
+can do (it verifies a name/number's presence, not the truth of a
+claim built by recombining genuinely-grounded pieces), named plainly
+rather than glossed over.
+
+**Negatives - 56 hand-verified sentences (the 15 individual sentences
+inside Entry 77's own 8 R27 false-trigger probes, 2 more real
+"if...would" hedges from #558's own run, and the 39-sentence offline
+audit's own 29 supported-but-untagged + 10 interpretive/connective
+rows): 1 false positive.** `cappadocian`'s "No Alexandrian bishop is
+named attending any synod..." - "Alexandria" (noun) is real ground
+here, "Alexandrian" (adjective) is a different token `content_words()`
+does not equate to it, the exact "different derivational form" limit
+`named_claim_grounding`'s own module docstring already names and
+explicitly declines to fix (its own Smyrna/Smyrnaeans fixture) -
+inherited unchanged via the shared `missing_markers`, not a new defect.
+**Precision on this labeled set: 4/5 (80%). Recall: 4/6 (67%).**
+
+**Broader corpus scan (no live spend), every saved sentence, not only
+the hand-labeled ones - genuine additional findings, not just
+false-positive noise:** Running the checker over #558's own 141 raw
+offenses, the control run's own 150, and Entry 77's own 343 full
+reconstructed sentences (draft text, every sentence, tagged or not)
+surfaced two clean, independently-verified findings neither prior audit
+caught: `ijc`'s own recurring "Pope Liberius had died..." (both in
+#558's run and, independently, in Entry 77's own run) - "Liberius"
+appears **zero** times anywhere in `ijc`'s compiled repository, real
+history the world's own build simply never vendored, verified by direct
+search across all records the same way the Athanasius/Manz findings
+were; and `syr`'s "his Hymns Against Heresies" (Ephrem's real *Contra
+Haereses* cycle) - genuinely absent from `syr`'s own vendored ground,
+not a wrong title: `syr.search.ephrem-corpus-gaps` (a `search_record`,
+not part of the citable repository this module grounds against) already
+names *Contra Haereses* as a work this world's own build never found a
+complete public-domain English translation of, quotable only through
+`syr.source.ephrem-prose-refutations`, a *different*, vendored work -
+"the heresiological hymns that built this world's own boundary are
+quotable only via the Prose Refutations... a named limitation, not an
+oversight," in that record's own words. The sentence names a real work
+correctly; that work is simply outside what this world's own compiled
+ground can support. Both findings are the identical shape as the four
+known fixtures (a real, checkable claim with zero support in THIS
+world's own compiled ground - not that the claim is invented), found by
+this module on real saved data no one had re-examined this closely
+before. The remainder of the corpus scan's own
+flags repeat the two already-named limitation classes above
+(derivational form: `alexandrian`/`alexandria`; a spelled-vs-digit
+number mismatch, below) plus one borderline case (`alx`'s "taught for
+another twenty years in Caesarea" - a reasonable arithmetic
+approximation from two real grounded dates [c. 231-234 to c. 253/4],
+not a wholesale invention, flagged because no record states "twenty"
+literally - named as borderline, not scored either way).
+
+**LIVE measurement, same 22 probes, current `origin/main`, region
+us-east-1, no `r27_enforce`, no enforcement of any kind - purely
+observing the new report-only field on real traffic.** **Real cost:
+$1.4857, under the $3.00 ceiling.** Full report: `engine/m4/reports/
+sentence-fact-check-live-measure-2026-09-25.json`. 9 flags across 22
+probes, hand-verified against each world's own compiled repository the
+same way as above:
+
+**5 of 9 flag real gaps in this world's own vendored ground, but not all
+five are equally strong evidence of the fabrication class this module
+was built to catch - restated honestly rather than folded into one
+count.** Three read the same way as the known fixtures - a specific
+name, unsupported, presented declaratively: `rzg` A-conflict's own
+Manz/Limmat sentence recurred a **third** independent time live ("Felix
+Manz was drowned in the Limmat in 1527 - executed for the very baptism
+he had chosen" - "limmat" absent, confirmed again); `rzg`
+B-other-tradition's own "We held to the ancient creeds the whole church
+confessed - Nicene, Apostles', Athanasian" - all three specifically
+named creeds absent, zero occurrences each, the same shape as `ijc`'s
+Liberius finding above (a specific historical name asserted with
+nothing behind it in this world's own ground); `witt`
+B-other-tradition's own "The early centuries' own arguments - Nicaea,
+the shape of the creed..." - "Nicaea" absent, and "Nicene" also absent
+anywhere in `witt`'s own repository, the same shape again. **The other
+two are weaker, and this entry says so rather than counting them the
+same way:** `rzg` A-conflict's own "the same pattern Israel's own
+circumcision held" - "Israel" and "circumcision" are general biblical
+vocabulary, not a specific person/place/date, and Zwingli's own
+circumcision-infant-baptism analogy is real, well-documented Reformed
+theology, not an invented argument - what this flag actually shows is
+that `rzg`'s own compiled ground never states the analogy using these
+words, a citation-completeness gap in the world's own theological
+vocabulary, not clear evidence the voice invented anything; `syr`
+A-conflict's own "what the Messiah was supposed to be" is the same
+weaker shape - "Messiah" absent as a literal word, but generic
+theological vocabulary in a summary sentence, not a specific checkable
+claim about a person, place, or date. Both are correctly flagged by
+this module's own literal definition (the word is not in `rzg`'s or
+`syr`'s ground); neither is offered here as comparably strong evidence
+to the other three.
+
+**4 of 9 are false positives, all falling inside the two limitation
+classes already named above - no new false-positive class found live:**
+`syr`'s "He was an Edessan" (derivational form of the real, grounded
+"Edessa"); `witt`'s "the Alexandrians would have stood" and "no source
+in our library names 'Alexandrian Christianity'" (derivational form,
+the second also another honest-limit-phrasing-gap instance - "no
+source in our library names X" is close to but does not match `_is_
+honest_limit`'s own fixed phrases, the identical class of gap Entry 61
+already named for `SCAFFOLD_MARKERS`' own coverage); and `ijc`'s own
+quoted Ammianus sentence naming "137" - `ijc.quote.ammianus-sicininus-
+massacre`'s own ground states the same number spelled ("one hundred
+[thirty-seven]"), not as the digit "137" - a THIRD, newly-identified
+instance of the same broad "same fact, different surface form" class
+(alongside derivational form and, from the offline pass, ordinal/
+cardinal mismatch on `alx`'s "eighteen"/"eighteenth") - real, grounded
+content, flagged only because the surface form differs from how the
+ground happens to spell it. None of these four cost anything
+participant-facing: this module makes no enforcement change, so a
+false positive here is review-effort cost only, not a blanked turn.
+
+**Recommendation for the managing thread.** Proceed to design an
+enforcement PR - Mark's own word, not a decision this entry makes. The
+evidence: 0-for-1 (Entry 77) versus this module's own measured
+catches, including three independent recoveries of the SAME recurring
+claim (`rzg`'s Manz/Limmat, across #558's run, Entry 77's run, and this
+entry's own live run) plus four more findings of comparable strength,
+previously unknown, across the offline and live passes combined
+(`ijc`'s Liberius, `syr`'s *Contra Haereses*, `rzg`'s Nicene/Apostles'/
+Athanasian creeds, `witt`'s Nicaea), plus two weaker, honestly-qualified
+ones (`rzg`'s Israel/circumcision, `syr`'s Messiah - general vocabulary,
+not specific named claims) - all zero-participant-facing-cost, since
+this PR ships report-only. The two
+false-positive classes are both already-understood, already-documented
+limitations of the reused ground-matching machinery (derivational form;
+number-representation mismatch), not new or surprising, and - unlike
+R27's paragraph/`neighbour_named` enforcement - none of this module's
+own false positives would, on today's evidence, need to blank an entire
+turn. **A design sketch for that separate enforcement PR, offered here
+for whoever picks it up, not built in this one:** drop or regenerate
+only the offending SENTENCE this module's own `fact_check_flags` names,
+never the whole turn - the one shape Entry 77 measured failing badly (5
+of 22 probes wiped entirely, all 5 false triggers). Concretely, that
+means a correction naming only the flagged sentence(s) (the same
+append-not-replace directive channel `r27_enforce`'s own one-retry
+mechanism already uses), one regeneration, and on a second failure
+either drop the offending sentence from the answer (never a full-turn
+blank or a Facilitator substitution) or fall back to the original draft
+sentence with its own tag stripped, rather than losing the rest of an
+otherwise-good answer over one uncorroborated claim. That enforcement PR
+is Mark's own separate decision to make, not this one's.

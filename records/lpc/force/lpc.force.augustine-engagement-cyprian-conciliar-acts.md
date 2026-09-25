@@ -5,7 +5,8 @@ record_type: force
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F6-I
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -38,28 +39,40 @@ relations:
   target: lpc.force.transmission-asymmetric-span-133-year-silence
 name: Augustine's Engagement with Cyprian's Conciliar Acts
 kind: ongoing
-description: 'Doc_08 Cell 2B, Force 2B-4. LAYER 1 -- HISTORICAL EVENT: Augustine read, argued with, and
-  overturned the 256 Council''s own ruling on rebaptism, in On Baptism, Against the Donatists. Documented
-  -- Registry rows 4, 13. LAYER 2 -- WORLD''S OWN EXPERIENCE: a predecessor who is ours, whom we do not
-  disown, and who decided this wrongly. "[E]ven of the plenary Councils, the earlier are often corrected
-  by those which follow them." LAYER 3 -- FORMATION IMPACT: the only force in this matrix that carries
-  this world''s own formation logic across its own 133-year silence, and Doc_07 §3A finds the crossing
-  is textual rather than successive. It produces G5''s second formula, tests G3 across the gap, and re-opens
-  G6. THE PLACEMENT JUDGEMENT, EXAMINED RATHER THAN INHERITED: Doc_01 §6 places this force in the Internal
-  column while flagging that the engagement was prompted by the Donatists'' own citation of Cyprian --
-  an external prompt for an internal act. Doc_08 confirms the placement and states the reason: the reading,
-  the argument, and the conclusion are this world''s own acts; the prompt determines only the timing.
-  CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1B-1 (enabled by) -- councils that met and left acts are
-  what Augustine later reads and argues with. <- Force 2A-3 (triggered by) -- the Donatists'' own appeal
-  to Cyprian''s conciliar acts is what prompts Augustine to read them. -> Force 3B-2 (is the sole instance
-  of) -- this force is the only one in this matrix that carries formation logic across the 133-year silence
-  recorded at 3B-2; the crossing is textual and is attested twice, the second instance (Possidius quoting
-  Cyprian''s De Mortalitate) not itself a force in this matrix.'
+description: >-
+  Augustine read, argued with, and overturned the ruling on rebaptism made by Cyprian's council of 256.
+  He did this in On Baptism, Against the Donatists. The engagement is documented.
+
+
+  From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
+  had decided this question wrongly. Augustine gave the principle that let him say so: "[E]ven of the
+  plenary Councils, the earlier are often corrected by those which follow them."
+
+
+  This is the only force that carries the world's formation logic across its 133-year silence between
+  the two phases. The crossing happens through texts, not through a line of living successors. It is
+  attested twice. The second instance is Possidius quoting Cyprian's De Mortalitate, which is not
+  treated as a force in its own right.
+
+
+  This engagement produces the second of the world's two accounts of what councils can decide:
+  Augustine's view that later councils correct earlier ones. It tests, across the long gap, whether
+  communion can hold despite disagreement. It also reopens the question of whether sacraments are valid
+  outside the church's boundary.
+
+
+  The Donatists prompted it by citing Cyprian for themselves, so the prompt came from outside. But the
+  reading, the argument, and the conclusion were this world's own acts. The outside prompt decided only
+  the timing. For that reason it counts as an internal force. This placement was examined and confirmed,
+  not simply inherited.
+
+
+  It also depended on an earlier condition. Cyprian's councils met and left written acts, and those acts
+  are what Augustine later read and argued with.
 manifestations:
 - '"[E]ven of the plenary Councils, the earlier are often corrected by those which follow them" (Augustine,
-  On Baptism, quoted directly at Doc_08 Force 2B-4 Layer 2)'
-- Augustine reading, arguing with, and overturning the 256 Council's own rebaptism ruling (Registry rows
-  4, 13)
+  On Baptism, Against the Donatists)'
+- Augustine reading, arguing with, and overturning the rebaptism ruling of Cyprian's council of 256
 matrix_cell: 2B
 ---
 Re-derived from the approved Doc_08 §3 Force 2B-4 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G3, G5, G6) and the force<->force edges (1B-1, 2A-3, 3B-2) named above.

@@ -1,10 +1,11 @@
-"""Hermetic tests for engine.m1.gates.gate_readability's modern_term
-coverage: modern_sense is spoken verbatim by facilitator_turns.bridge_turn,
-the same "reaches a participant" reason every other field this gate
-already grades is graded, but modern_term records live in the fleet, not
-a world's own records, so this gate has to walk `fleet` specifically to
-reach them."""
-from engine.m1.gates import gate_readability
+"""Hermetic tests for engine.m1.gates.gate_readability / gate_readability_fleet:
+the facilitator-spoken role (modern_term.modern_sense/distinguishing_claim,
+spoken by the Facilitator, never the world's own voice) and the fleet/world
+split (fleet_voice and modern_term both live under records/_fleet/, never
+inside any world's own records dict - gate_readability stays world-scoped,
+gate_readability_fleet is its dedicated fleet-scoped twin, so fleet content
+is graded exactly once rather than once per world)."""
+from engine.m1.gates import gate_readability, gate_readability_fleet, gate_readability_floor, gate_readability_floor_fleet
 
 
 def _dense_text(word_count: int) -> str:
@@ -15,36 +16,118 @@ def _dense_text(word_count: int) -> str:
     return " ".join(["extraordinarily"] * word_count)
 
 
-def test_a_modern_term_with_a_dense_modern_sense_is_flagged():
-    fleet = {"_fleet.modern.x": {"id": "_fleet.modern.x", "record_type": "modern_term", "modern_sense": _dense_text(12)}}
-    findings = gate_readability({}, fleet, {})
-    assert any("_fleet.modern.x" in f and "modern_sense" in f for f in findings)
+def _simple_text(word_count: int) -> str:
+    # Short, one-syllable words with no punctuation - the mirror image of
+    # _dense_text above, used to exercise gate_readability_floor's own
+    # FK < 8 band rather than the ceiling.
+    return " ".join(["cat"] * word_count)
 
 
-def test_a_modern_term_with_a_plain_modern_sense_is_not_flagged():
+_PLAIN = "This is a short, plain sentence anyone can read without any trouble at all."
+
+
+def test_gate_readability_never_reads_the_fleet_argument():
+    # A dense fleet-only record must NOT be flagged by gate_readability
+    # itself - only by gate_readability_fleet. If gate_readability walked
+    # `fleet` too, engine/m9/enforce.py's own per-world loop (same fleet
+    # dict handed to every world) would score this once per world.
+    fleet = {"_fleet.voice.x": {"id": "_fleet.voice.x", "record_type": "fleet_voice", "pronoun_rule": _dense_text(12)}}
+    assert gate_readability({}, fleet, {}) == []
+
+
+def test_gate_readability_fleet_grades_fleet_voice():
+    fleet = {"_fleet.voice.x": {"id": "_fleet.voice.x", "record_type": "fleet_voice", "pronoun_rule": _dense_text(12)}}
+    findings = gate_readability_fleet(fleet)
+    assert any("_fleet.voice.x" in f and "pronoun_rule" in f for f in findings)
+
+
+def test_gate_readability_fleet_clean_fleet_voice_not_flagged():
+    fleet = {"_fleet.voice.x": {"id": "_fleet.voice.x", "record_type": "fleet_voice", "pronoun_rule": _PLAIN}}
+    assert gate_readability_fleet(fleet) == []
+
+
+def test_modern_sense_and_distinguishing_claim_graded_facilitator_spoken():
     fleet = {
         "_fleet.modern.x": {
             "id": "_fleet.modern.x",
             "record_type": "modern_term",
-            "modern_sense": "This is a short, plain sentence anyone can read without trouble.",
+            "modern_sense": _dense_text(12),
+            "distinguishing_claim": _dense_text(12),
         }
     }
-    assert gate_readability({}, fleet, {}) == []
+    findings = gate_readability_fleet(fleet)
+    assert any("modern_sense" in f for f in findings)
+    assert any("distinguishing_claim" in f for f in findings)
 
 
-def test_a_non_modern_term_fleet_record_is_never_checked():
-    fleet = {"_fleet.source.x": {"id": "_fleet.source.x", "record_type": "source", "modern_sense": _dense_text(12)}}
-    assert gate_readability({}, fleet, {}) == []
+def test_underlying_subject_graded_voice_diet():
+    fleet = {"_fleet.modern.x": {"id": "_fleet.modern.x", "record_type": "modern_term", "underlying_subject": _dense_text(12)}}
+    findings = gate_readability_fleet(fleet)
+    assert any("underlying_subject" in f for f in findings)
 
 
-def test_the_real_fleet_modern_trinity_record_passes_the_gate():
+def test_display_terms_never_graded_participant_label():
+    # display_terms is a short citation-card label (list[str] of terms),
+    # not composed prose - never reaches the readability check regardless
+    # of content.
+    fleet = {
+        "_fleet.modern.x": {
+            "id": "_fleet.modern.x",
+            "record_type": "modern_term",
+            "display_terms": [_dense_text(12)],
+        }
+    }
+    assert gate_readability_fleet(fleet) == []
+
+
+def test_a_clean_modern_term_is_not_flagged():
+    fleet = {
+        "_fleet.modern.x": {
+            "id": "_fleet.modern.x",
+            "record_type": "modern_term",
+            "modern_sense": _PLAIN,
+            "underlying_subject": _PLAIN,
+            "distinguishing_claim": _PLAIN,
+        }
+    }
+    assert gate_readability_fleet(fleet) == []
+
+
+def test_the_real_fleet_modern_trinity_record_is_reachable():
     """The one real modern_term record in the fleet is reachable through
-    the fleet.items() walk (not this gate's usual per-world records
-    argument), and its own current wording clears the ceiling: no finding
-    on it."""
+    gate_readability_fleet's own fleet.items() walk, not gate_readability's
+    per-world records argument."""
     from engine.m1.loader import load_fleet_records
 
     fleet = load_fleet_records()
     assert "_fleet.modern.trinity" in fleet
-    findings = gate_readability({}, fleet, {})
-    assert not any("_fleet.modern.trinity" in f for f in findings)
+    assert fleet["_fleet.modern.trinity"]["record_type"] == "modern_term"
+    # Whatever the current finding count is, it must come from
+    # gate_readability_fleet, never from gate_readability itself.
+    assert gate_readability({}, fleet, {}) == []
+
+
+def test_gate_readability_floor_reports_a_sub_8_field_while_the_blocking_gate_stays_clean():
+    # A very simple field (short, one-syllable words) scores well below
+    # the FK 8 band floor. gate_readability - the CI-blocking gate - must
+    # stay clean on it (FK < 8 is not > FK_CEILING, and FRE for text this
+    # simple is comfortably >= FRE_FLOOR); gate_readability_floor is the
+    # report-only check that actually surfaces it.
+    records = {"w.term.x": {"id": "w.term.x", "record_type": "term", "plain_meaning": _simple_text(12)}}
+    assert gate_readability(records, {}, {}) == []
+    findings = gate_readability_floor(records, {}, {})
+    assert any("plain_meaning" in f and "below the band floor" in f for f in findings)
+
+
+def test_gate_readability_floor_fleet_reports_sub_8_fleet_content():
+    fleet = {"_fleet.voice.x": {"id": "_fleet.voice.x", "record_type": "fleet_voice", "pronoun_rule": _simple_text(12)}}
+    assert gate_readability_fleet(fleet) == []
+    findings = gate_readability_floor_fleet(fleet)
+    assert any("pronoun_rule" in f for f in findings)
+
+
+def test_gate_readability_floor_does_not_flag_text_at_or_above_the_band():
+    # _dense_text scores far above FK_CEILING (see gate_readability's own
+    # tests above) - nowhere near gate_readability_floor's FK < 8 edge.
+    records = {"w.term.x": {"id": "w.term.x", "record_type": "term", "plain_meaning": _dense_text(12)}}
+    assert gate_readability_floor(records, {}, {}) == []
