@@ -1,6 +1,6 @@
-# Bruns's 1839 edition, Pars Prior: the Codex Canonum Ecclesiae Africanae
-# (Council of Carthage, 419) plus several other 4th-5th c. councils bound in
-# the same public-domain volume. Vendored 2026-09-08.
+# Bruns's 1839 edition, Pars Prior: the Codex Canonum Ecclesiae
+# Africanae (Council of Carthage, 419) plus several other 4th-5th c.
+# councils bound in the same public-domain volume.
 source_file: codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt
 
 assignments:

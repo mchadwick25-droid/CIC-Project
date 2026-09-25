@@ -26,4 +26,4 @@ discovery_channel: WebSearch (summaries only; page blocked); Source Registry row
 external_ids:
   witt_source_registry_row: 90
 ---
-Karlstadt's post-1522 chronology only (Doc_02 §15 item 10), as corroboration of R89. Not licensed for its interpretive frame — it reads Karlstadt as "the first Reformer to develop a Baptist theology," which is VI.3's (the-anabaptist-movements) reading of him, not this world's. (Source Registry row 90; Confidence B.)
+Karlstadt's post-1522 chronology only (Doc_02 §15 item 10). Not licensed for its interpretive frame — it reads Karlstadt as "the first Reformer to develop a Baptist theology," which is VI.3's (the-anabaptist-movements) reading of him, not this world's. (Source Registry row 90; Confidence B.)

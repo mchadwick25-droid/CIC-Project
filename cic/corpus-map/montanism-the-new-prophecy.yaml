@@ -35,13 +35,12 @@ works:
   locus: div2 5.3 - three fragment groups, assigned as one body
   role: tradition
   confidence: provisional
-  note: 'Roman presbyter, fl. c. 200-220. The Dialogue disputes Proclus, leader of a Montanist
+  note: Roman presbyter, fl. c. 200-220. The Dialogue disputes Proclus, leader of a Montanist
     party - hence the montanism assignment (argued-against entry). ANF also prints the Muratorian
     Canon here though its authorship is editorial conjecture, and the anti-Artemon fragment
     targets adoptionist Monarchianism, which has no census entry. Shelf shares the Hippolytus
-    problem (Rome just after pahc''s 200 CE line) - provisional. Re-pointed 2026-08-26: Caius
-    is a Roman presbyter of exactly these decades, and roman-church-third-century was added
-    on record to hold them.'
+    problem (Rome just after pahc's 200 CE line) - provisional. Caius is a Roman presbyter
+    of exactly these decades, and roman-church-third-century holds them.
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
@@ -58,11 +57,11 @@ works:
   locus: div1 3 — Books II-VII in particular
   role: context
   confidence: assigned
-  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
-    from outside and later, and for each of them the History is real evidence, not a passing
-    mention. Books II-V are the principal external frame for the post-apostolic church and
-    preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
-    VI is the fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
+  note: 'Same work, context row (per brief §11a): Eusebius describes these movements from
+    outside and later, and for each of them the History is real evidence, not a passing mention.
+    Books II-V are the principal external frame for the post-apostolic church and preserve
+    otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book VI is the
+    fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
     Clement and Dionysius. Book V.14-19 preserves the anti-Montanist dossier (the Anonymous,
     Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
@@ -71,7 +70,7 @@ works:
     Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
     inside this world''s own window, and his letters preserved here are primary Roman-church
     material, not merely external testimony to novatianism. Surfaced by a source-research
-    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+    pass on Roman Church Third Century''s (I.33) sourcing gaps.
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml

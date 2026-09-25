@@ -24,7 +24,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.origen-anf); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "anf04"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: De Principiis referenced with editorial
 apparatus from file line 21727; the treatise's text follows in the Origen
 division.
@@ -35,6 +35,6 @@ passages. Fine-grained claims about Origen's precise positions
 (pre-existence of souls, apokatastasis, subordinationist formulations) must
 carry reduced confidence when resting on this text alone. The Greek control
 for Book IV (the senses of Scripture) is the Philocalia - vendored
-2026-08-21 as cic/texts/origen_philocalia_lewis1911.txt; the associated-with
+as cic/texts/origen_philocalia_lewis1911.txt; the associated-with
 relation above points at alx.source.origen-philocalia, and records citing
 De Principiis IV should prefer or cross-check the Greek-derived text.

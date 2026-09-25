@@ -18,6 +18,28 @@ sources:
   address: "cic:evagrius_praktikos_dysinger.txt:12"
   license: cc-by-4.0
 text: "The demon of acedia, which is also called the noonday demon, is the most burdensome of all the demons. It besets the monk at about the fourth hour (10 am) of the morning, encircling his soul until about the eighth hour (2 pm). [1] First it makes the sun seem to slow down or stop moving, so that the day appears to be fifty hours long. [2] Then it makes the monk keep looking out of his window and forces him to go bounding out of his cell to examine the sun to see how much longer it is to 3 o’clock, and to look round in all directions in case any of the brethren is there. [3] Then it makes him hate the place and his way of life and his manual work It makes him think that there is no charity left among the brethren; no one is going to come and visit him. [4] If anyone has upset the monk recently, the demon throws this in too to increase his hatred [5] It makes him desire other places where he can easily find all that he needs and practice an easier, more convenient craft After all, pleasing the Lord is not dependent on geography, the demon adds; God is to be worshipped everywhere. [6] It joins to this the remembrance of the monk’s family and his previous way of life, and suggests to him that he still has a long time to live, raising up before his eyes a vision of how burdensome the ascetic life is. So, it employs, as they say, every [possible] means to move the monk to abandon his cell and give up the race. No other demon follows on immediately after this one but after its struggle the soul is taken over by a peaceful condition and by unspeakable joy"
+modern_rendering: >-
+  The demon of acedia is also called the noonday demon. It is the heaviest of all the
+  demons to bear. It attacks the monk at about the fourth hour of the morning, around 10
+  a.m. It surrounds his soul until about the eighth hour, around 2 p.m.
+
+  [1] First, it makes the sun seem to slow down or stop moving, so the day seems fifty
+  hours long. [2] Next, it makes the monk keep looking out of his window. It forces him
+  to run out of his cell to check the sun, to see how much longer until three o'clock.
+  It makes him look all around, in case one of the brothers is there. [3] Then it makes
+  him hate his place, his way of life, and his manual work. It makes him think that no
+  charity is left among the brothers, and that no one will come to visit him. [4] If
+  anyone has upset the monk recently, the demon throws this in too, to increase his
+  hatred. [5] It makes him want other places, where he can easily find everything he
+  needs and practice an easier, more convenient craft. Pleasing the Lord does not depend
+  on where you live, the demon adds; God is worshipped everywhere. [6] It adds to this
+  the memory of the monk's family and his former way of life. It suggests to him that he
+  still has a long time left to live, raising up before his eyes a vision of how heavy
+  the ascetic life is. So, as they say, it uses every possible means to make the monk
+  abandon his cell and give up the race.
+
+  No other demon follows immediately after this one, but after its struggle, the soul is
+  taken over by a peaceful condition and by unspeakable joy.
 speaker_or_author: Evagrius Ponticus, in the Praktikos
 license: verbatim
 modern_lens_note: "The nearest modern words - listlessness, burnout, depression - each catch part of it and none is right, which is why the term is left as acedia. Note especially that this is described as an attack with a timetable rather than a mood or a failing: it arrives at a known hour and lifts at a known hour. A participant who recognises the description should be told that recognising it is not a diagnosis; desert.term.penthos and the safety layer's own ground come first."

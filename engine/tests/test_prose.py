@@ -178,6 +178,20 @@ def test_single_and_double_quotes_both_hold_a_sentence_together():
     assert prose.quote_aware_sentences(single) == [single]
 
 
+def test_curly_quotation_marks_hold_a_sentence_together():
+    double = "Clement wrote: “Behold the might of the new song! It has made men out of stones.”"
+    single = "He said: ‘Go out. Sit in your cell.’"
+    assert prose.quote_aware_sentences(double) == [double]
+    assert prose.quote_aware_sentences(single) == [single]
+
+
+def test_a_curly_apostrophe_inside_a_word_opens_nothing():
+    text = "God’s word is first. The rest follows."
+    assert prose.quote_aware_sentences(text) == [
+        "God’s word is first.", "The rest follows.",
+    ]
+
+
 def test_an_apostrophe_inside_a_word_opens_nothing():
     """Otherwise "God's" would leave the splitter permanently mid-quotation
     and merge the rest of the turn into one sentence."""

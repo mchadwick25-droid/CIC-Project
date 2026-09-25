@@ -53,38 +53,61 @@ relations:
   target: witt.gravity.embattled-christendom
 name: 'The bodily presence: "truly present," "in and under" [SUPPORTING]'
 classification: supporting
-description: '''It is the true body and blood of our Lord Jesus Christ, in and under the bread and wine''
-  (LC 4075-4077); ''the Body and Blood of Christ are truly present, and are distributed to those who eat
-  the Supper of the Lord; and they reject those that teach otherwise'' (AC 322-324). SIX-TEST SUMMARY
-  (Doc_04 §3 G10) -- the THINNEST row in the matrix, and the Framework''s own warning sign surfaced rather
-  than smoothed: Repetition passes (treatise 1519/1520, catechesis, confession, one word in Bondage);
-  Dependency scores ''p'' -- Doc_01''s world-boundary against the Reformed depends on it, and G3 depends
-  on it for its content at the Supper, but nothing in the formation PROGRAM depends on the mode of presence
-  as distinct from the promise; Formation scores ''p'' -- taught in the catechisms, but its formative
-  edge (what it meant to hold this against neighbours who did not) is not in the library; Explanatory
-  passes for one thing (the world-boundary) and is otherwise ''p''; Persistence scores ''p'' -- the doctrine
-  is stated unchanged 1519/1529/1530, but the controversy in which it became this world''s boundary is
-  absent from every vendored text, a limit on what can be shown, not a counter-finding; Interaction passes
-  but is the thinnest row in the document: reinforcing G3 only, reshaped BY G2, thinly reinforcing G1,
-  G4, G11, G12, thinly competing with G8, and NO demonstrated relationship with G5, G6, G7, G9, G13 --
-  five empty cells. EVIDENTIAL CONFIDENCE: Documented for what the texts say; UNTAGGED (not one of the
-  five confidence levels) for the organizing role assigned to it against the Reformed -- a cross-document
-  assumption resting on the census and sibling documents, not on any rowed secondary source, pending the
-  Marburg Articles'' acquisition. CLASSIFICATION: SUPPORTING, within G3 -- on this library''s evidence
-  the bodily presence organizes little beyond the Supper itself; this does not doubt that the doctrine
-  mattered enormously to this world''s boundary, only that the evidence for that mattering is not yet
-  vendored. CONFIDENCE/GRAVITY CROSS-CHECK: DIVERGENCE, of the INVERSE kind -- the assigned world-boundary
-  weight exceeds what the library shows organizing, while the doctrine''s own evidence is Documented;
-  the classification follows the library and does not import weight from outside it. ''Supporting'' is
-  not to be read as ''minor.'' Register-and-voice spread: 3/4, no non-founder trace. Reception-side status:
-  the founder''s own 1520 claim about ''the simple faith... among the common people'' -- Documented as
-  claim, Inferential-Thin as fact. FORCES-CONNECTION NOTATION (Doc_04 §3 G10; Doc_08 §5): held unchanged
-  across every phase read -- ''truly contained'' (1520), ''in and under'' (1529), ''truly present'' (1530)
-  -- no shift in the texts; intensified under a force the library cannot show -- the Marburg Colloquy
-  of 1529 is visible here only as the Confession''s ''they reject those that teach otherwise'' and one
-  word in Bondage -- and fractured outward by reference to the census only, not by any vendored text [2A-6];
-  pressed by the internal radical force -- the ''new spirits'' who ''mock at Baptism'' answered in the
-  same catechetical breath as the Supper [2B-1]; the Marburg Articles themselves remain unvendored [3B-2].'
+description: '''It is the true body and blood of our Lord Jesus Christ, in and under the bread and wine'' (LC 4075-4077).
+  ''the Body and Blood of Christ are truly present, and are distributed to those who eat the Supper of the Lord;
+  and they reject those that teach otherwise'' (AC 322-324).
+
+  Of all this world''s gravities, this one rests on the thinnest evidence. That is a warning sign, and this record
+  shows it openly rather than smoothing it over.
+
+  The doctrine does recur: in the treatise of 1519/1520, in catechism teaching, in the Confession, and as one word
+  in the Bondage of the Will. Yet other things depend on it only in part. This world''s boundary against the
+  Reformed depends on it, and so does promise and sign for its content at the Supper. But nothing in the world''s
+  program of formation depends on how Christ is present, as distinct from the promise.
+
+  It shaped people only in part. The catechisms taught it, but the library holds nothing on its sharper formative
+  edge: what it meant to hold this belief against neighbours who did not. It fully explains one thing, the
+  world''s boundary, and beyond that it explains only in part.
+
+  It lasts only in part. The doctrine is stated unchanged in 1519, 1529, and 1530, but the controversy that made
+  it this world''s boundary is missing from every text in the library. That is a limit on what can be shown, not a
+  finding against it.
+
+  It does connect with other gravities, though its links are the thinnest of any. It strengthens only promise and
+  sign, and the Word reshapes it. It more thinly strengthens justified by faith alone, the household catechism,
+  German for the people, and embattled Christendom, and it stands in thin tension with "must" and "free." With
+  five gravities it shows no demonstrated relationship at all: the terrified and comforted conscience; the two
+  governments; estate, office, and calling; vows, chastity, and marriage; and hearers and repeaters of words.
+
+  What the texts say is well documented, but the organizing role given to it against the Reformed is another
+  matter. That role is not supported by any evidence in this library itself. It is an assumption shared across
+  documents, resting on our own comparison across the wider project rather than on any secondary source recorded
+  in the library. Our library does not hold the Marburg Articles, so it cannot be checked against that text.
+
+  Within promise and sign, on this library''s evidence, the bodily presence organizes little beyond the Supper
+  itself. This does not doubt that the doctrine mattered enormously to this world''s boundary. It only says that
+  the evidence for that is not yet in the library.
+
+  So the weight given to it and the evidence for it pull apart here, in an unusual direction. The weight given to
+  it as the world''s boundary is more than the library shows it organizing, yet the doctrine''s own evidence is
+  well attested. What we say here follows only what the library shows, not the weight this doctrine carries
+  elsewhere, so placing it this way should not be read as calling it minor.
+
+  It appears in the founder''s own voice across several kinds of writing, but there is no trace of it from anyone
+  but the founder. For
+  how it was received, we have the founder''s own claim in 1520 about "the simple faith... among the common
+  people." That he made the claim is documented, while whether it was true rests only on thin inference.
+
+  The doctrine held unchanged across every period read: "truly contained" (1520), "in and under" (1529), "truly
+  present" (1530). The texts show no shift, but a force the library cannot show made it sharper: the Reformed
+  rival, refused at Marburg. The Marburg Colloquy of 1529 appears here in only two traces, the Confession''s "they
+  reject those that teach otherwise" and one word in the Bondage of the Will. The same rivalry broke the doctrine
+  outward into a divide, but only our own comparison across the wider project shows that, not any text in the
+  library.
+
+  The internal radical force also pressed on it: the catechism answers the "new spirits" who "mock at Baptism" in
+  the same breath as it teaches the Supper. The Marburg Articles themselves are still not in the library, and they
+  remain a gap in what was passed on at the edge of this world''s time window.'
 manifestations:
 - '"It is the true body and blood of our Lord Jesus Christ, in and under the bread and wine" (LC 4075-4077)'
 - '"the Body and Blood of Christ are truly present, and are distributed to those who eat the Supper of

@@ -1,7 +1,7 @@
 """Hermetic (no live model call) tests for engine.m4.turn.run_turn's
 dispatch: does the right routing action reach the right generation path,
 and - the one that matters most - that the ACUTE_DISTRESS crisis path
-never calls the voice at all (portfolio decision 2026-09-08,
+never calls the voice at all (a portfolio decision,
 CiC_System_Hub_Decision_Log.md), and its crisis-resources append fires
 unconditionally regardless of what the fake client is configured to
 stream.
@@ -43,8 +43,8 @@ class _FakeMessages:
             "submit_reader_output": reader_response,
         }
         self._stream_chunks = stream_chunks
-        # R27 build item 5's own enforcement tests need a DIFFERENT raw
-        # answer on the retry than on the raw attempt (a real regeneration
+        # The uncited-claims rule's own enforcement tests need a DIFFERENT raw answer on the
+        # retry than on the raw attempt (a real regeneration
         # call) - stream_scripts is a list of chunk-lists, one per call,
         # popped in order; None (every other test's own default) keeps the
         # original single-script behavior unchanged.
@@ -96,7 +96,7 @@ def _world():
 
 
 def test_acute_distress_never_calls_the_voice_even_when_a_stream_is_configured():
-    """Portfolio decision 2026-09-08 (CiC_System_Hub_Decision_Log.md):
+    """A portfolio decision (CiC_System_Hub_Decision_Log.md):
     the Representative never steps out of its world once ACUTE_DISTRESS
     fires - not "speaks alongside the Facilitator" (the prior behavior),
     strict decoupling, matching engine.m4.round's own table-crisis branch
@@ -166,9 +166,9 @@ def test_acute_distress_second_firing_in_session_gets_the_lighter_continuation()
 
 
 def test_harmful_dynamic_signal_names_the_dynamic_and_silences_the_voice():
-    """Track B is a dependency dynamic, not a crisis: no resources - but per
-    Program-Spec SS8's 2026-09-20 amendment, the voice is silenced here the
-    same way Track A silences it below; no "explicit continue path back to
+    """Track B is a dependency dynamic, not a crisis: no resources - but
+    per Program-Spec SS8's amendment, the voice is silenced here the same
+    way Track A silences it below; no "explicit continue path back to
     the voice" within the same turn any more."""
     client = FakeBedrockClient(
         safety_response=_safety("HARMFUL_DYNAMIC_SIGNAL"), reader_response=_reader(),
@@ -304,6 +304,13 @@ def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
     facilitator = result.facilitator_events[0]
     assert facilitator["kind"] == "bridge"
     assert fleet[term_id]["modern_sense"] in facilitator["text"]
+    # modern_sense also rides as its own sourced card, the same shape
+    # every other cited record gets, not only baked into the prose
+    # sentence above.
+    [card] = facilitator["modern_terms"]
+    assert card["record_id"] == term_id
+    assert card["modern_sense"] == fleet[term_id]["modern_sense"]
+    assert card["label"] == ", ".join(fleet[term_id]["display_terms"])
     assert result.voice_event is not None
     # the voice was asked the underlying subject, not the participant's own
     # sentence. Note the subject itself DOES name the word - the fleet record
@@ -599,8 +606,8 @@ def test_a_turn_with_no_history_is_unchanged():
 
 
 def test_a_bridge_fires_on_the_invented_term_id_the_reader_actually_returns():
-    """The seam this closes was measured, not imagined: live on 2026-08-24
-    the reader returned term_id "trinity_doctrine" for "How did your
+    """The seam this closes was measured, not imagined: live, the reader
+    returned term_id "trinity_doctrine" for "How did your
     community understand the Trinity?", routing intersected that against
     fleet record ids, matched nothing, and the turn went to the ordinary
     voice path. The reader is INSTRUCTED to invent that id
@@ -632,8 +639,8 @@ def test_the_gate_payload_reaches_the_caller_whole():
     """Two things at once, and neither used to arrive. engine.api.wiring
     needs out_of_scope to append escalation_pressed (without it the pressed
     map stays empty forever and etic_turn is unreachable), and it needs the
-    rest to write a gate_decision that says anything at all - every one this
-    build logged before 2026-08-24 had every key but route and degraded
+    rest to write a gate_decision that says anything at all - every one
+    this build used to log had every key but route and degraded
     hardcoded blank."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"),
@@ -652,7 +659,7 @@ def test_the_gate_payload_reaches_the_caller_whole():
 
 
 def test_a_bridge_fires_when_the_reader_flags_nothing_at_all():
-    """Run 2 turn 2, 2026-08-24: the reader returned modern_terms: [] for
+    """A real case, caught live: the reader returned modern_terms: [] for
     "How did your community understand the Trinity?" - the same question it
     had flagged twice earlier the same day - and the bridge did not fire.
     Whether the participant used the word is not a judgement call, so the
@@ -836,7 +843,7 @@ def test_already_bridged_figure_ids_suppresses_a_repeat_within_run_turn():
 
 
 def test_crisis_path_never_produces_a_voice_event_even_with_a_figure_in_scope():
-    """Superseded by the portfolio decision (2026-09-08): the crisis path
+    """Superseded by the portfolio decision: the crisis path
     used to hand-build a voice_event and this test guarded its shape
     (figures_used present but empty, since find_figures_used never runs on
     that path). Now there is no voice_event on the crisis path at all."""
@@ -1019,10 +1026,10 @@ def test_gate_calls_run_concurrently_not_sequentially():
 
 
 def test_gate_carries_an_other_tradition_reader_classification_through_to_routing():
-    """R27 F4 (reviewer thread fix list, 2026-09-22): a mocked-reader
-    routing test to complement engine.m5.tests.test_routing's own pure-
-    function coverage of route() - this proves the layer ABOVE it,
-    run_gate's own real dispatch through resolve_gate, correctly carries
+    """A mocked-reader routing test to complement
+    engine.m5.tests.test_routing's own pure-function coverage of route()
+    - this proves the layer ABOVE it, run_gate's own real dispatch
+    through resolve_gate, correctly carries
     a reader classification of "other_tradition" into
     gate_result.routing.out_of_scope_class end to end. The reader's own
     classification decision (does the real model actually read "What was
@@ -1045,14 +1052,13 @@ def test_gate_carries_an_other_tradition_reader_classification_through_to_routin
 
 
 def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
-    """R27 fix list F3 (reviewer thread, 2026-09-22):
-    engine.m4.live_uncited_claims_battery's own opt-in regeneration
-    channel - unset on every real interview/table caller (byte-identical
-    behavior preserved; no assertion needed for the None case, since
-    every other test in this file already exercises it without passing
-    correction). This is the one hermetic proof that the text actually
-    reaches the model, in the same uncached, per-turn system block
-    turn_directive itself rides in - not silently dropped."""
+    """The `correction` parameter: engine.m4.live_uncited_claims_battery's own opt-in
+    regeneration channel - unset on every real interview/table caller
+    (byte-identical behavior preserved; no assertion needed for the None
+    case, since every other test in this file already exercises it
+    without passing correction). This is the one hermetic proof that the
+    text actually reaches the model, in the same uncached, per-turn
+    system block turn_directive itself rides in - not silently dropped."""
     client = FakeBedrockClient(safety_response=_safety("NO_SIGNAL"), reader_response=_reader(), stream_chunks=["An answer."])
     run_voice_turn_for_world(
         voice_client=client, voice_model_id="m", world=_world(),
@@ -1065,12 +1071,11 @@ def test_correction_is_appended_to_the_turn_directive_the_model_actually_sees():
 
 
 def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
-    """R27 fix list F6 (reviewer thread, 2026-09-22):
-    engine.m4.live_uncited_claims_battery's own opt-in paragraph-coverage
-    channel - unset on every real caller, never part of voice_event. This
-    is the one hermetic proof the captured text is the real raw stream
-    output, tags and all, not a placeholder or a post-apply_net (already
-    stripped) copy."""
+    """The `debug_capture` parameter: engine.m4.live_uncited_claims_battery's own opt-in
+    paragraph-coverage channel - unset on every real caller, never part
+    of voice_event. This is the one hermetic proof the captured text is
+    the real raw stream output, tags and all, not a placeholder or a
+    post-apply_net (already stripped) copy."""
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
@@ -1085,17 +1090,15 @@ def test_debug_capture_receives_the_exact_raw_tagged_text_apply_net_checks():
     assert "[[fix.witness.who-is-jesus]]" not in voice_event["text"]  # apply_net's own strip, unaffected by the capture
 
 
-# R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
-# 2026-09-23): the flag-gated enforcement's own required test list, per
-# the reviewer thread's own item 5 message. r27_enforce=False (every
-# existing test above, and every real caller until Mark flips
-# CIC_R27_ENFORCE) is already proven byte-identical by the full suite
+# The flag-gated enforcement's own required test list. r27_enforce=False
+# (every existing test above, and every real caller until the flag is
+# flipped on) is already proven byte-identical by the full suite
 # passing unchanged; these are the flag-ON cases.
 def _donatist_schism_world() -> LoadedWorld:
     """Same world as _world() above, plus a second record whose own text
     genuinely shares ground with "For years they held together." - the
-    real alx conflict-turn shape (Decision-Log.md Entry 55's own pinned
-    case), needed here so test 5 below is a real pass, not a rigged one."""
+    real alx conflict-turn shape, needed here so test 5 below is a real
+    pass, not a rigged one."""
     world = _world()
     repo = dict(world.repository)
     repo["records"] = [
@@ -1154,11 +1157,11 @@ def test_r27_enforce_hands_the_turn_to_the_facilitator_when_the_regeneration_sti
 
 
 def test_r27_enforce_never_regenerates_an_inherited_ungrounded_only_turn():
-    # R36's own scope decision: inherited_ungrounded stays report-only.
-    # "That was not the only one." carries no tag of its own but rides in
-    # a cited paragraph whose inherited check fails - a real
+    # This enforcement's own scope decision: inherited_ungrounded stays
+    # report-only. "That was not the only one." carries no tag of its own
+    # but rides in a cited paragraph whose inherited check fails - a real
     # inherited_ungrounded finding, reported, but not one of the two
-    # classes item 5 enforces.
+    # classes this enforcement covers.
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[
@@ -1177,9 +1180,9 @@ def test_r27_enforce_never_regenerates_an_inherited_ungrounded_only_turn():
 
 
 def test_r27_enforce_still_fails_the_augustinian_pair_inside_an_other_tradition_turn():
-    # R26's own motivating sentence (Entry 50/51), routed via
-    # other_tradition (is_other_tradition_first_ask=True) - proves the
-    # narrowing at item 1 (own_doctrine_in_other_tradition_turn requiring
+    # The honest-limit rule's own motivating sentence, routed via other_tradition
+    # (is_other_tradition_first_ask=True) - proves the narrowing
+    # (own_doctrine_in_other_tradition_turn requiring
     # a real paragraph failure) does not somehow exempt a turn from
     # wholly_uncited_paragraph enforcement itself; the routing context is
     # irrelevant to whether this class enforces.
@@ -1200,8 +1203,8 @@ def test_r27_enforce_still_fails_the_augustinian_pair_inside_an_other_tradition_
 
 
 def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_without_regenerating():
-    # alx's own conflict-turn shape (PR #427's own report:
-    # uncited_in_cited_paragraph), same fixture discipline as
+    # alx's own conflict-turn shape (a real report's own
+    # uncited_in_cited_paragraph finding), same fixture discipline as
     # test_r27a_narrowed_rule_passes_a_grounded_frame_sentence_inside_a_
     # cited_other_tradition_paragraph in test_uncited_claims.py - a real
     # record whose own text grounds the frame sentence, not a rigged pass.
@@ -1225,14 +1228,205 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["paragraph_offenses"] == []
 
 
-# R39's own reviewer-ordered fix (relayed 2026-09-23): _other_tradition_
-# directive's own honest-limit sentence used to fire unconditionally,
-# even for a world (ijc) whose own records already name the tradition
-# asked about - provably false in that case. Both branches pinned
-# directly, per the reviewer's own explicit "test both branches"
-# instruction, so a future edit can't silently reintroduce either defect
-# shape (a world with real evidence still forced to deny it, or a world
-# with none suddenly handed a fabricated "your records speak to it").
+# sentence_enforce's own required test list - a second, independent
+# flag-gated enforcement from the uncited-claims enforcement above.
+# sentence_enforce=False (every existing test, including all of that
+# enforcement's own above) is already proven byte-identical by the full
+# suite passing unchanged;
+# these are the flag-ON cases. "Athanasius of Alexandria opposed the
+# council." is the fixture's own unsupported sentence throughout: _world()'s
+# only record never names either word, so engine.m4.sentence_fact_check.
+# find_unsupported_named_claims flags it regardless of citation tag.
+_UNSUPPORTED_SENTENCE = "Athanasius of Alexandria opposed the council."
+_GROUNDED_SENTENCE = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
+
+
+def test_sentence_enforce_off_by_default_leaves_the_flag_report_only():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_UNSUPPORTED_SENTENCE]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+    )
+    assert len(client.messages.captured_stream_calls) == 1  # never regenerated - the flag is off
+    assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited, report-only
+    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["sentence_enforcement"] == {
+        "flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": [],
+    }
+
+
+def test_sentence_enforce_regenerates_and_clears_on_a_clean_retry():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_UNSUPPORTED_SENTENCE], [_GROUNDED_SENTENCE]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # the one allowed regeneration, no more
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["fact_check_flags"] == []
+    assert voice_event["sentence_enforcement"] == {
+        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True, "still_flagged": [], "sentences_dropped": [],
+    }
+
+
+def test_sentence_enforce_drops_only_the_still_flagged_sentence_after_a_failed_retry():
+    paragraph = f"{_GROUNDED_SENTENCE} {_UNSUPPORTED_SENTENCE}"
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[paragraph], [paragraph]],  # the retry repeats the same unsupported sentence
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # one attempt, one regeneration, never a third
+    # The grounded sentence survives, on its own, with no leftover
+    # citation tag, no doubled whitespace, and no trace of the dropped
+    # sentence - never the whole turn blanked, never a Facilitator swap.
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["fact_check_flags"] == []
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["sentence_enforcement"] == {
+        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True,
+        "still_flagged": [_UNSUPPORTED_SENTENCE], "sentences_dropped": [_UNSUPPORTED_SENTENCE],
+    }
+
+
+def test_sentence_enforce_keeps_every_other_sentence_when_the_flagged_one_sits_in_the_middle():
+    paragraph = f"{_GROUNDED_SENTENCE} {_UNSUPPORTED_SENTENCE} {_GROUNDED_SENTENCE}"
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[paragraph], [paragraph]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert voice_event["text"] == (
+        "We did not claim to have seen him ourselves. We did not claim to have seen him ourselves."
+    )
+
+
+def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilitator():
+    # This mechanism never blanks the turn. Every sentence in this turn
+    # is the flagged one, so dropping it would leave nothing behind -
+    # instead of dropping (and instead of the whole-turn-blank/
+    # Facilitator-substitution fallback the uncited-claims enforcement's
+    # own exhaustion mechanism uses), the regenerated answer is kept
+    # exactly as it stands, flagged sentence and all, and that flag is
+    # recorded rather than silently lost.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_UNSUPPORTED_SENTENCE], [_UNSUPPORTED_SENTENCE]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert voice_event["text"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["sentence_enforcement"]["sentences_dropped"] == []
+    assert voice_event["sentence_enforcement"]["still_flagged"] == [_UNSUPPORTED_SENTENCE]
+
+
+def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call():
+    # The uncited-claims enforcement's own regeneration settles the turn
+    # first (wholly_uncited_paragraph); sentence_enforce then runs its
+    # own single regeneration on top of whatever that left behind - two
+    # independent mechanisms, at most one regeneration each, never a
+    # third or fourth call from either firing twice.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],  # r27: wholly uncited
+            [_UNSUPPORTED_SENTENCE],  # r27's own retry: clean of citation, but names an unsupported claim
+            [_GROUNDED_SENTENCE],  # sentence_enforce's own retry: clean
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 3
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["sentence_enforcement"]["regenerated"] is True
+
+
+def test_sentence_retry_carries_the_r27_correction_forward():
+    # Not just that the turn composes correctly (the test above) - the
+    # actual retry call's own directive must contain BOTH corrections,
+    # proven by reading the real captured system content sent to the
+    # model, not inferred from the outcome.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],  # r27: wholly uncited
+            [_UNSUPPORTED_SENTENCE],  # r27's own retry: clean of citation, but names an unsupported claim
+            [_GROUNDED_SENTENCE],  # sentence_enforce's own retry: clean
+        ],
+    )
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 3
+    sentence_retry_system, _messages = client.messages.captured_stream_calls[2]
+    sentence_retry_text = " ".join(block["text"] for block in sentence_retry_system)
+    assert "uncited claims" in sentence_retry_text  # _append_r27_correction's own heading, carried forward
+    assert _UNSUPPORTED_SENTENCE in sentence_retry_text  # _append_sentence_fact_check_correction's own named sentence
+
+
+def test_wholly_uncited_paragraph_never_ships_with_r27_enforcement_exhausted_false():
+    # The invariant both enforcements must uphold together: sentence_
+    # enforce's own retry is a fresh generation the uncited-claims
+    # enforcement's own pass never saw, so it can just as easily
+    # reintroduce a wholly_uncited_paragraph as fix the named claim it
+    # was actually asked to fix. Here it does exactly that - the
+    # uncited-claims enforcement's own one-regeneration budget was
+    # already spent fixing the first citation offense, so a hard offense
+    # reappearing on sentence_enforce's own retry is exhaustion, not a
+    # second free regeneration, and this turn must not ship it.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],  # r27: wholly uncited
+            [_UNSUPPORTED_SENTENCE],  # r27's own retry: clean of citation, but names an unsupported claim
+            ["Even a broken priest could not block his grace."],  # sentence_enforce's own retry: reintroduces the citation offense
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 3  # never a fourth call
+    assert voice_event["r27_enforcement_exhausted"] is True
+    assert voice_event["text"] == ""
+    assert voice_event["fact_check_flags"] == []
+    assert voice_event["paragraph_offenses"] == []
+
+
+# _other_tradition_directive's own honest-limit sentence must never fire
+# unconditionally: a world (e.g. ijc) whose own records already name
+# the tradition asked about must not be made to deny it. Both branches
+# pinned directly, so a future edit can't silently reintroduce either
+# defect shape (a world with real evidence still forced to deny it, or a
+# world with none suddenly handed a fabricated "your records speak to
+# it").
 def test_other_tradition_directive_keeps_the_fixed_sentence_when_there_is_no_evidence():
     text = turn_module._other_tradition_directive(None)
     assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
@@ -1251,12 +1445,106 @@ def test_other_tradition_directive_skips_the_fixed_sentence_when_the_world_own_r
     assert "[[ijc.story.emperor-builds-another-basilica]]" in text
 
 
-# R38 self-revision (Rulings-Pending.md, RULED 2026-09-23; Decision-Log.md
-# Entry 61's own 0/20 real-leak measurement) - engine.m4.self_revision's
-# own module. _world()'s real tagged record (fix.witness.who-is-jesus)
-# stands in for a real tagged record in every case below; stream_scripts'
-# second entry is always the self-revision call's own output, never a
-# second draft.
+# The tradition-pivot rule: the pivot's own licence.
+# Condition (a) (known_in_window), condition (b) and its third
+# source (revealed_excerpts), and neither - the question's own words
+# alone - pinned on every branch that carries them.
+_R37_EXCERPTS = [
+    ("The Facilitator", "The Donatists will not be at this door."),
+    ("Julius (Imperial Church)", "The emperor built the Donatists another basilica."),
+]
+
+
+def test_other_tradition_directive_licenses_the_pivot_under_condition_a():
+    text = turn_module._other_tradition_directive(None, known_in_window=True)
+    assert "could have known of that tradition in its own time" in text
+    assert "question's own words" not in text
+    # The honest-limit sentence is untouched: under (a) the record still does not
+    # mention the tradition, so it stays true.
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE in text
+
+
+def test_other_tradition_directive_limits_the_pivot_to_the_question_when_the_tradition_came_later():
+    text = turn_module._other_tradition_directive(None, known_in_window=False)
+    assert "arose after your own world's time" in text
+    assert "using only the question's own words - never outside knowledge" in text
+    assert "could have known" not in text
+
+
+def test_other_tradition_directive_asserts_nothing_about_time_for_a_non_registry_tradition():
+    # known_in_window None: the question named no registry world ("the
+    # Arians"), so the text must not claim the tradition came later -
+    # only that nothing establishes the knowledge.
+    text = turn_module._other_tradition_directive(None)
+    assert "Nothing establishes that your own world knew of that tradition" in text
+    assert "arose after" not in text
+    assert "using only the question's own words - never outside knowledge" in text
+
+
+def test_other_tradition_directive_quotes_what_the_conversation_revealed_word_for_word():
+    text = turn_module._other_tradition_directive(None, known_in_window=False, revealed_excerpts=_R37_EXCERPTS)
+    assert '- The Facilitator: "The Donatists will not be at this door."' in text
+    assert '- Julius (Imperial Church): "The emperor built the Donatists another basilica."' in text
+    assert "Use nothing beyond these words." in text
+    assert "question's own words and the lines quoted below" in text
+
+
+def test_other_tradition_directive_has_no_quoted_block_when_nothing_was_revealed():
+    text = turn_module._other_tradition_directive(None, known_in_window=True, revealed_excerpts=[])
+    assert "word for word" not in text
+
+
+def test_other_tradition_directive_carries_the_pivot_scope_on_repeat_and_seated_turns():
+    repeat = turn_module._other_tradition_directive(None, repeat_turn=True, known_in_window=False)
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE not in repeat
+    assert "arose after your own world's time" in repeat
+    seated = turn_module._other_tradition_directive(
+        None, tradition_seated=True, tradition_seated_name="The Church of the Martyrs",
+        known_in_window=True, revealed_excerpts=_R37_EXCERPTS,
+    )
+    assert turn_module.R26_HONEST_LIMIT_SENTENCE not in seated
+    assert "what anyone else here has said about it" in seated
+    assert "could have known of that tradition in its own time" in seated
+    assert '- Julius (Imperial Church): "The emperor built the Donatists another basilica."' in seated
+
+
+def test_a_seated_later_tradition_s_own_speech_stays_a_source_for_the_pivot():
+    # The seated chair need not name its own tradition to have said
+    # something in this conversation - its speech is a source (the
+    # third-source rule), so the pivot clause must not narrow the seated branch to the
+    # question's words alone.
+    seated = turn_module._other_tradition_directive(
+        None, tradition_seated=True, tradition_seated_name="The Reformed Cities", known_in_window=False,
+    )
+    assert "arose after your own world's time" in seated
+    assert "using only the question's own words and what that chair has said - never outside knowledge" in seated
+
+
+def test_other_tradition_directive_evidence_branch_takes_the_quoted_lines_but_no_pivot_clause():
+    # The world's own records already name the tradition: the record is
+    # the pivot's ground, so no (a)/neither clause - but the third
+    # source's quoted lines still ride, since they are what this conversation said.
+    text = turn_module._other_tradition_directive(
+        ["ijc.quote.compelled-to-come-in"], known_in_window=True, revealed_excerpts=_R37_EXCERPTS,
+    )
+    assert "could have known" not in text
+    assert "question's own words" not in text
+    assert '- The Facilitator: "The Donatists will not be at this door."' in text
+
+
+def test_build_turn_directive_threads_the_r37_inputs():
+    text = turn_module._build_turn_directive(
+        None, is_other_tradition_first_ask=True,
+        other_tradition_known_in_window=False, other_tradition_revealed=_R37_EXCERPTS,
+    )
+    assert "arose after your own world's time" in text
+    assert "The Donatists will not be at this door." in text
+
+# Self-revision -
+# engine.m4.self_revision's own module. _world()'s real tagged record
+# (fix.witness.who-is-jesus) stands in for a real tagged record in every
+# case below; stream_scripts' second entry is always the self-revision
+# call's own output, never a second draft.
 
 _DRAFT_WITH_A_TAG = "We did not see him with our own eyes, but the elders told us so [[fix.witness.who-is-jesus]]."
 

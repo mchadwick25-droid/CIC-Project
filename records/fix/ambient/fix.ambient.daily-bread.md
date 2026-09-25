@@ -18,7 +18,7 @@ retrieval:
   tier: 3
   retrieve_when: []
   do_not_retrieve_when: []
-detail: "Bread was shared flat and unleavened at the household table most days in Testland's synthetic setting, ordinary and undramatic."
+detail: "Bread was shared flat and without yeast at the household table most days. This was ordinary in Testland's made-up setting, nothing out of the way."
 formation_claim_barred: true
 ---
 Ambient (daily-life) record, structurally barred from formation claims per

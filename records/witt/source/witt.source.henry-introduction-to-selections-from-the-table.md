@@ -24,4 +24,4 @@ discovery_channel: builder-direct-read; Source Registry row 67; TT file; 2026-09
 external_ids:
   witt_source_registry_row: 67
 ---
-Selection rule and transmission chain of R31; Aurifaber biography. (Source Registry row 67; Confidence A.)
+Selection rule and transmission chain; Aurifaber biography. (Source Registry row 67; Confidence A.)

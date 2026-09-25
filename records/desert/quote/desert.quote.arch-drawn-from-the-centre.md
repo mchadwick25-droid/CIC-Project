@@ -26,6 +26,13 @@ text: >-
   evenness and roundness required. But if anyone tries to finish it without ascertaining its centre—though
   with the utmost confidence in his art and ability, it is impossible for him to keep the circumference
   even, without any error...
+modern_rendering: >-
+  So a monk's whole attention should be fixed on one point. Every thought that rises and circles in
+  his mind should be firmly held to that one point: the remembrance of God. Think of a builder
+  raising a round vault. He must constantly draw a line out from its exact center. That fixed
+  standard lets him work out, by the rules of building, the evenness and roundness the vault needs.
+  But suppose someone tries to finish the vault without first fixing its center. Even with great
+  confidence in his skill and ability, he cannot keep the curve even, without some error...
 speaker_or_author: Abbot Abraham of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-

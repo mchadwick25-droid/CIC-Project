@@ -40,9 +40,8 @@ p{margin:0 0 1rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four don't fit alongside the rest in one row at this header's own
-   1024px width. */
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
@@ -51,11 +50,11 @@ p{margin:0 0 1rem}
 /* Centered in the space actually available between the logo and the menu
    button, not naive full-row-width centering (that ignores the wordmark's
    and menu button's own widths and can visually collide with the
-   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
-   max-content/1fr/max-content sizes the outer two columns to the
-   wordmark's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -67,9 +66,8 @@ p{margin:0 0 1rem}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
 /* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
    real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
-   "you shouldn't have to click to get it to allow you to move in the hover
-   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   which drops :hover before the pointer reaches the menu. The ::before
+   bridges the .5rem visual gap so :hover survives the
    crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
@@ -241,11 +239,9 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <!-- Kept standalone when the "Who is speaking" section (its original home)
-           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
-           not gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves - see cic-website/traditions/*.html's
-           pre-redesign `who_speaks` section for its prior placement. -->
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
       <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
@@ -336,8 +332,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </section>
 
       <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no section
-           of their own in the old hand-built pages. Rather than two more
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
            full-width sections, they share one compact strip - pull quotes as
            blockquotes, then a small glossary grid - placed after Sources and
            before the closing Questions section. -->

@@ -16,8 +16,7 @@ confidence:
     single student-recorded remark reaching this library through several transmitting hands (a table-companion
     to Aurifaber to Bell to Morley, with an intervening reviser Morley himself names but does not identify),
     with no second witness anywhere in the library to check it against. Documented only that Luther refers
-    to her as "Kate my wife" in a separate Table Talk saying about patience (Doc_09 witt-S08; Source Registry
-    R31).'
+    to her as "Kate my wife" in a separate Table Talk saying about patience.'
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: Her one recorded question, "Sir! how is it, that in Popedom they pray so often with great vehemence,

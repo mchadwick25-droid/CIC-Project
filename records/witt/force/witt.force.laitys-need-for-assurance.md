@@ -42,24 +42,28 @@ name: A laity taught to rely on indulgences, confession and the sacramental syst
   need the world answered [1B - initiating/internal]
 kind: initiating
 matrix_cell: 1B
-description: 'LAYER 1 (Historical Event). ''The practical and pastoral problem... of a laity taught to
-  rely on indulgences, private confession to a priest, and the church''s own sacramental system for assurance
-  of salvation'' (Doc_01 §7, Widely Accepted). Coded Internal rather than External on the ground that
-  the apparatus that taught the laity so is the inheritance (1B-3) and the parent church (1A-2), while
-  the NEED itself sat inside the community whose own founder was a friar under vows and whose own 1529
-  confession speaks of ''we'' who ''went from mere compulsion and fear.'' A reviewer may read this as
-  External instead (the Framework''s own wording for External nearly matches Doc_01 §7''s heading here);
-  the placement is disclosed, and nothing in the Forces-and-Gravities Synthesis depends on which side
-  of the line it sits. LAYER 2 (World''s Own Experience). Not remembered as an institution; remembered
-  as a bodily habit of fear: ''the old way under the Pope, in which a person tortured himself to be so
-  perfectly pure that God could not find the least blemish in us... one week trails another, and one half
-  year the other'' (LC 4327-4336); ''we always prayed in Popedom conditionaliter, conditionally, and therefore
-  uncertainly'' (TT 3063-3064, Contested as verbatim); ''if you should ask them whether they are sure
-  that what they do pleases God, they say, "No"'' (v1 6845-6856). LAYER 3 (Formation Impact). The most
-  generative force in the matrix: generated G1 together with 1B-1; generated G4 -- the catechism is what
-  replaces the indulgence-confession-sacrament system as the laity''s formation; generated G5 as a positive
-  organizing force; generated G11 together with 1A-3, the medium and the audience. Set the world''s affective
-  plot, terror then comfort, and its hope''s one sentence, ''I cannot doubt I have a gracious God.'''
+description: '"The practical and pastoral problem... of a laity taught to rely on indulgences, private confession to a priest,
+  and the church''s own sacramental system for assurance of salvation". This force is placed among the pressures
+  from inside this world, not those from outside, and the reason needs stating. The system that taught the laity
+  this way came from outside the world: it was the inheritance this world refused, and the parent church in its
+  first, papal pressure. But the need itself sat inside the community, whose own founder was a friar under vows
+  and whose own 1529 confession speaks of "we" who "went from mere compulsion and fear." This could also be read as
+  coming from outside instead. That choice is stated openly, and nothing in how this world''s forces and gravities
+  connect depends on which side of the line it sits.
+
+  Within the world itself, the old system was remembered not as an institution but as a bodily habit of fear. "The
+  old way under the Pope, in which a person tortured himself to be so perfectly pure that God could not find the
+  least blemish in us... one week trails another, and one half year the other" (LC 4327-4336). "We always prayed
+  in Popedom conditionaliter, conditionally, and therefore uncertainly" (TT 3063-3064), though whether this line
+  is recorded word for word is contested. "If you should ask them whether they are sure that what they do pleases
+  God, they say, ''No''" (v1 6845-6856).
+
+  Of all this world''s forces, this one gave rise to the most. Together with the friar''s conviction, it produced
+  justification by faith alone. It also produced the household catechism, which replaces the system of
+  indulgences, confession and sacraments as the way the laity are formed. It shaped the terrified and comforted
+  conscience into a positive organizing force. Joined with print, it gave rise to German for the people, with
+  print as the medium and the laity as the audience. It set the world''s emotional story, terror then comfort, and
+  it set the world''s hope in one sentence: "I cannot doubt I have a gracious God."'
 manifestations:
 - '"the old way under the Pope, in which a person tortured himself to be so perfectly pure that God could
   not find the least blemish in us... one week trails another, and one half year the other" (LC 4327-4336)'

@@ -43,19 +43,33 @@ name: The Cyprianic rigorist inheritance [1B - initiating/internal]
 kind: initiating
 matrix_cell: 1B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 1B, Force 1B-1): Cyprian of Carthage's third-century rebaptism theology
-  - that baptism outside the true church is no baptism at all, a position he held against Pope Stephen - was
-  this world's direct doctrinal and institutional inheritance, not an invention at 311/312 (Doc_01 SS6). Documented
-  as the founding logic; Cyprian's antecedent status, neither a Donatist voice nor a neutral outside source
-  but the authority both sides argued FROM, is independently measured in the vendored corpus map, which records
-  Augustine's own On Baptism naming Cyprian 306 times. LAYER 2 - THE WORLD'S OWN EXPERIENCE: this is not a
-  new teaching invented to justify anything. It is the same conviction the whole North African church already
-  held - that a baptism given outside the one true church washes nothing - sharpened now, under real pressure,
-  to answer a question Cyprian himself never had to ask: what happens when the minister giving the baptism
-  has himself surrendered the scriptures. LAYER 3 - FORMATION IMPACT: this force grounds both the ministerial-purity
-  doctrine and the rebaptism rite directly. Doctrine and enacted rite are a sharpening of an inherited position,
-  not a departure from one - which is why this world's founders could hold their position as fidelity rather
-  than novelty.
+  In the third century, Cyprian of Carthage taught that baptism outside the true church is no
+  baptism at all. He held this position against Pope Stephen.
+
+  This rebaptism theology was this world's direct inheritance, in both doctrine and church
+  structure. It was not invented in 311/312.
+
+  This is documented as the movement's founding logic. Cyprian came earlier than the dispute
+  itself. He was neither a Donatist voice nor a neutral outside source. He was the authority both
+  sides argued from.
+
+  A citation count confirms that status independently: Augustine's own On Baptism names Cyprian
+  306 times.
+
+  As this world saw it, this was no new teaching invented to justify anything. It was the same
+  conviction the whole North African church already held: a baptism given outside the one true
+  church washes nothing.
+
+  What changed was the pressure. Under it, the old conviction was sharpened to answer a question
+  Cyprian himself never had to ask. What happens when the minister giving the baptism has himself
+  surrendered the scriptures?
+
+  This force directly grounds two of the movement's core commitments. One is the doctrine that a
+  sacrament's validity depends on the minister's own unbroken purity. The other is rebaptism, the
+  rite that marked the movement's boundary.
+
+  The doctrine and the rite sharpen an inherited position rather than depart from one. That is why
+  this world's founders could hold their position as faithfulness, not novelty.
 manifestations:
 - Cyprian's rebaptism theology held against Pope Stephen - baptism outside the true church is no baptism at
   all

@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   There are others—I speak of those of my own order—who seek the presbyterate and the diaconate simply that they may be able to see women with less restraint. Such men think of nothing but their dress; they use perfumes freely, and see that there are no creases in their leather shoes.
+modern_rendering: >-
+  There are others -- I mean those of my own order -- who seek the presbyterate and the
+  diaconate only so they can see women with less restraint. Such men think of nothing but
+  their clothes. They use perfume freely, and make sure there are no creases in their
+  leather shoes.
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-

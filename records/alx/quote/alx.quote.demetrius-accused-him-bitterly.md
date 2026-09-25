@@ -47,7 +47,7 @@ relations:
 - type: associated-with
   target: alx.dw.church-failure
 ---
-Opened 2026-08-27 for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
+Opened for F3-P, served by alx.dw.church-failure alone, which cites "VI.8 (the rupture)"
 for its opening claim - the greatest teacher driven out by his own bishop - and could not show it.
 
 Registered ETIC, unlike alx.quote.dionysius-nepos and alx.quote.dionysius-plague, which come through

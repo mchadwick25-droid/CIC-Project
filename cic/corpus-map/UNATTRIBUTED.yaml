@@ -233,6 +233,17 @@ authors:
 
       '
     from_file: schaff_second-helvetic-confession-heidelberg-catechism_1919.txt
+  calvin:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup (cic/texts/AUTHORS.md is generated solely from CCEL''s
+      own <DC.Creator> metadata and does not cover this plain-text archive.org extract) -
+      this is a 1735 Geneva printing of the Ecclesiastical Ordinances, originally authored
+      by Calvin (1541, revised 1561) and further revised by the Geneva General Council (1576,
+      the text this printing carries). Attribution is the document''s own historical authorship,
+      not a text-scan guess.
+
+      '
+    from_file: calvin-geneva-council_ordonnances-ecclesiastiques-fra_tournes1735.txt
   calvin-zurich-pastors:
     kind: metadata-omission
     evidence: 'Not CCEL-derived markup (a plain-text archive.org extract), so no automatic
@@ -502,13 +513,13 @@ authors:
   excerpts-of-theodotus:
     kind: pseudonymous
     evidence: 'div2 4.3, titled "Excerpts of Theodotus" and DC.Creator-listed under theodotus,
-      but corrected 2026-09-08 (records/alx audit; see alx.source.excerpts-of-theodotus.md):
-      the vendored text is the Eclogae Propheticae, not the genuine Excerpta ex Theodoto -
-      a full-text scan found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad,
-      and the ANF editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt
-      or forged documents, for which Clement''s name has been borrowed"), guessing an unknown
-      Montanist compiler instead. Ruled pseudonymous rather than reused as `theodotus`, which
-      would keep asserting the disproven attribution.
+      but the vendored text is actually the Eclogae Propheticae, not the genuine Excerpta
+      ex Theodoto (records/alx audit, alx.source.excerpts-of-theodotus.md) - a full-text scan
+      found zero occurrences of Pleroma/Sophia/Achamoth/Demiurge/aeon/Ogdoad, and the ANF
+      editor''s own headnote disowns the Clement/Theodotus attribution ("corrupt or forged
+      documents, for which Clement''s name has been borrowed"), guessing an unknown Montanist
+      compiler instead. Classified pseudonymous rather than reused as `theodotus`, which would
+      keep asserting the disproven attribution.
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -697,6 +708,16 @@ authors:
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  marot-beze:
+    kind: metadata-omission
+    evidence: 'Not CCEL-derived markup - a plain-text archive.org extract of the 1562 title
+      page, which credits both versifiers jointly ("par Clement Marot, & Theodore de Beze"):
+      Marot completed roughly the first third of the Psalms before his death in 1544, and
+      Beze completed the remainder for this 1562 collection - a genuine joint production spanning
+      two authors'' own distinct work, not a single author''s text with a minor contributor.
+
+      '
+    from_file: marot-beze_pseaumes-mis-en-rime-francoise-fra_1562.txt
   martyrdom-of-bartholomew:
     kind: anonymous
     evidence: div2 7.35; no authorial claim.
@@ -845,8 +866,7 @@ authors:
     kind: pseudonymous
     evidence: 'div1 6 is titled "Pseudo-Clementine Literature" in the volume''s own markup.
       CCEL''s DC.Creator carries clement_rome for the volume, but the volume itself rules
-      the attribution pseudonymous in its section title and Introductory Notice; ruled explicitly
-      per the brief''s open question 4.
+      the attribution pseudonymous in its section title and Introductory Notice.
 
       '
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -915,6 +935,18 @@ authors:
     kind: metadata-omission
     evidence: div2 10.13 'Serapion, Bishop of Antioch'.
     from_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+  society-of-jesus:
+    kind: anonymous
+    evidence: 'The Constitutions were principally drafted by Ignatius of Loyola, but this
+      printed edition''s own title page presents the text as the Society''s own corporate
+      governing document, approved and issued by the order as a body (confirmed by Popes Paul
+      III, Julius III, and Paul IV per the title page''s own "Institutum... confirmatum" language)
+      rather than as an individually authored work under Ignatius''s own name. Used here as
+      a collective-body slug, the same footing this file''s own `authors_ruled` convention
+      gives an anonymous or institutionally-issued work.
+
+      '
+    from_file: jesuit-constitutions_constitutiones-societatis-iesu-lat_1606.txt
   sulpiciusseverus:
     kind: metadata-omission
     evidence: 'div1 title "The Works of Sulpitius Severus."; npnf211 DC.Creator already lists
@@ -924,6 +956,17 @@ authors:
 
       '
     from_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
+  swiss-brethren:
+    kind: anonymous
+    evidence: 'The Schleitheim Confession''s own historical authorship is traditionally associated
+      with Michael Sattler, but this vendored translation (McGlothlin, 1911, pp. 3-9) carries
+      no individual author attribution in its own text or headnote - it is presented as a
+      collective confessional statement issued by the assembled Swiss Brethren, not a named
+      individual''s own composition. Used here as a collective-body slug, the same footing
+      this file''s own `authors_ruled` convention gives an anonymous work.
+
+      '
+    from_file: mcglothlin_baptist-confessions-of-faith_1911.txt
   symmachus:
     kind: metadata-omission
     evidence: 'div2 titles "Memorial of Symmachus, the Prefect of the City." (5.1) and "The

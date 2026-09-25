@@ -22,6 +22,13 @@ text: For the Fathers rightly granted privileges to the throne of old Rome, beca
   privileges...to the most holy throne of New Rome, justly judging that the city which is honoured with
   the Sovereignty and the Senate, and enjoys equal privileges with the old imperial Rome, should in
   ecclesiastical matters also be magnified as she is, and rank next after her
+modern_rendering: >-
+  The Fathers rightly gave privileges to the throne of old Rome, because it was the
+  imperial city. Moved by the same reasoning, the one hundred and fifty most devout
+  bishops gave equal privileges...to the most holy throne of New Rome. They judged,
+  rightly, that the city which holds the imperial rule and the Senate, and which has
+  privileges equal to old Rome, should also be magnified in church matters just as she
+  already is, and should rank next after her
 speaker_or_author: "The Council of Chalcedon (451), Canon 28"
 license: verbatim
 modern_lens_note: >-

@@ -27,4 +27,4 @@ discovery_channel: WebSearch (listing only; page blocked); Source Registry row 9
 external_ids:
   witt_source_registry_row: 91
 ---
-Karlstadt's post-1522 chronology (Doc_02 §15 item 10) — the one of the three that is a specialist's essay rather than an encyclopedia entry; to be preferred over R89–R90 once read. (Source Registry row 91; Confidence B.)
+Karlstadt's post-1522 chronology (Doc_02 §15 item 10) — the one of the three that is a specialist's essay rather than an encyclopedia entry; to be preferred once read. (Source Registry row 91; Confidence B.)

@@ -16,7 +16,7 @@ confidence:
     for everything else: the window anecdote itself is Tier 3, related rather than documented, and - on
     this record''s own direct re-reading of the vendored text - does not actually name Speratus as the
     anecdote''s own wanderer; only the hymn is his. No biographical detail about Speratus survives in
-    this library beyond his authorship of the hymns themselves (Doc_09 witt-S10; Source Registry R66).'
+    this library beyond his authorship of the hymns themselves.'
 sources:
 - source_id: witt.source.leonard-introduction-to-the-hymns-of-martin
   locus: Bacon's own bibliographic note naming "not less than three" of the 1524 hymn-book's four hymns

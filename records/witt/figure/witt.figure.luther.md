@@ -134,8 +134,3 @@ ignorant or negligent - only that Luther said so, repeatedly, in his own voice.
 
 FEC / GRAVITY LINKAGE (closed at B-5): the connection this record's own Doc_09 entry named above is now a real relations[] entry in this file's frontmatter -- associated-with to G1 (Justified by faith alone [PRIMARY]), G2 (The Word: Scripture's authority, and the agent that "must do it" [PRIMARY]), G3 (Promise and sign: the sacrament as God's promise joined to an element, received by faith [PRIMARY]), G4 (The household catechism as this world's prescribed formation mechanism [PRIMARY]), G6 (The two governments: the temporal sword, obedience, and the prince as addressee [SUPPORTING]), G7 (Estate, office, and calling: "we are all priests" [SUPPORTING]), G8 ("Must" and "free": liberty bound by love to the weak, and the pace of reform [TENSIONAL]), G9 (Vows, "false chastity," and marriage [SUPPORTING]), G11 (German for the people: vernacular teaching and singing, Latin retained for the learned [SUPPORTING]), G13 ("Hearers and repeaters of words": the founder's persistent testimony that the Gospel is taught and not held [TENSIONAL]) -- with the reciprocal edge declared on each gravity record itself (witt.gravity.*), exactly as this note said it would when B-5 ran. No longer parked.
 
-CORRECTION (Phase C recon, 2026-09-19): dates.display's own parenthetical "(witt.core.witt.thinness)"
-removed -- caught by engine.m1.cross_world's check_participant_field_leaks, which correctly flags this
-field as one the doorway's Level-3 panel prints verbatim to a participant. The citation was accurate but
-belonged in this body note or a sources[] locus, not in a field a participant reads; substance unchanged,
-only the internal record-id reference removed.

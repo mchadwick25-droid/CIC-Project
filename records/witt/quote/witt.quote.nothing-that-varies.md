@@ -48,9 +48,9 @@ modern_lens_note: >-
   the claim here is that correcting them is not the same thing as inventing a new religion.
 modern_rendering: >-
   Nothing here has been said to shame or blame anyone. We have only set out what we thought needed to be
-  said. We want it understood: in what we teach, and in how we worship, we have not taken up anything
-  against Scripture. We have not taken up anything against the universal Church. We have, in fact, taken
-  the greatest care. We have worked to keep new or godless teaching from creeping into our churches.
+  said, so that it would be understood: in what we teach and in how we worship, we have received nothing
+  on our part against Scripture or the universal Church. It is clear that we have taken the most diligent
+  care that no new and ungodly doctrine should creep into our churches.
 relations:
 - type: associated-with
   target: witt.dw.nothing-against-scripture-or-the-church-catholic
@@ -75,9 +75,3 @@ witt.quote.congregation-of-saints (Article VII's own definition of what a church
 is the Confession's own argument that ITS OWN teaching does not depart from that universal Church or from
 Scripture, the continuity claim rather than the definition. Reciprocal associated-with declared on
 witt.dw.nothing-against-scripture-or-the-church-catholic.
-
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("the confession signed at the 1530 Diet of
-Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
-field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
-participant. Substance unchanged, only the internal record-id reference removed.

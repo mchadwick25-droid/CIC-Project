@@ -1,0 +1,27 @@
+{
+  "probed": "2026-09-24",
+  "regions": [
+    "us-east-1",
+    "us-west-2"
+  ],
+  "method": "bedrock:ListInferenceProfiles, then one messages.create per profile through engine.provider.bedrock.make_client (max_tokens 64, one-word prompt). A listed profile is not proof of invoke access: every denied model below is listed in both regions.",
+  "invocable": [
+    "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "us.anthropic.claude-sonnet-4-6",
+    "us.anthropic.claude-opus-4-5-20251101-v1:0",
+    "us.anthropic.claude-opus-4-6-v1"
+  ],
+  "listed_but_denied_403": [
+    "global.anthropic.claude-opus-5-5",
+    "global.anthropic.claude-sonnet-5",
+    "us.anthropic.claude-fable-5",
+    "us.anthropic.claude-opus-4-7",
+    "us.anthropic.claude-opus-4-8",
+    "us.anthropic.claude-opus-5",
+    "us.anthropic.claude-opus-5-5",
+    "us.anthropic.claude-sonnet-5"
+  ],
+  "note_on_resolution": "resolve_model_id('us.anthropic.claude-opus-5') is ambiguous (also matches claude-opus-5-5) and raises ModelResolutionError by design; the unique pattern for Opus 5.5 is 'us.anthropic.claude-opus-5-5'. us-west-2 was probed for haiku-4-5, opus-4-5, opus-4-6, opus-4-7, fable-5, opus-5-5 and sonnet-5 with the same outcomes as us-east-1; sonnet-4-5/4-6 were probed in us-east-1 only.",
+  "denied_message": "Error code: 403 - 'anthropic.<model> is not available for this account.'"
+}

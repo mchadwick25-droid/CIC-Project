@@ -8,73 +8,69 @@ works:
   locus: div2 9.18
   role: tradition
   confidence: provisional
-  note: 'Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
-    per the volume''s endnote). It is Christian apologetic, not Edessene as such; syr marks
-    only where the Syriac transmission preserved it. Needs a ruling — arguably belongs with
-    the Greek apologists, who sit in other volumes. Ruled 2026-08-26: this is Greek apologetic
-    that survives only in Syriac - the volume''s own headnote says the original was Greek,
-    because the Syriac mistranslates it in places, and pairs it with the pseudo-Justin Discourse
-    to the Greeks. So greek-apologists-second-century is added, which is where the argument
-    belongs, and syriac-edessa-nisibis is kept, which is how it reached us. `provisional`
-    because the APOLOGIST half is a date question - the entry''s window is 124-200 and this
-    piece is undated - not because the Syriac half is in doubt.'
+  note: Syriac form of a Greek apology (parallel to the pseudo-Justin Discourse to the Greeks,
+    per the volume's endnote). It is Christian apologetic, not Edessene as such; syr marks
+    only where the Syriac transmission preserved it. This is Greek apologetic that survives
+    only in Syriac - the volume's own headnote says the original was Greek, because the Syriac
+    mistranslates it in places, and pairs it with the pseudo-Justin Discourse to the Greeks.
+    So greek-apologists-second-century is where the argument belongs, and syriac-edessa-nisibis
+    is kept, which is how it reached us. `provisional` because the APOLOGIST half is a date
+    question - the entry's window is 124-200 and this piece is undated - not because the Syriac
+    half is in doubt.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: The Apology of Aristides the Philosopher
   author: aristides
   locus: div2 13.3-13.4 (Greek via Barlaam and Josaphat; Syriac)
   role: tradition
   confidence: assigned
-  note: 'The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
-    Athens is outside pahc''s named regions, but the era and church-world are pahc''s — same
+  note: The earliest apology surviving whole (c. 125, Athens, to Hadrian per the Introduction).
+    Athens is outside pahc's named regions, but the era and church-world are pahc's — same
     treatment as Quadratus in anf08. Its Syriac preservation is a transmission fact, not an
-    Edessene assignment. 2026-08-26: greek-apologists-second-century added alongside - the
-    entry the corpus assignment showed was missing, for the era''s outward-facing writing.
-    pahc is kept: the era and church-world really are its.'
+    Edessene assignment. greek-apologists-second-century holds this work for the era's outward-facing
+    writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf09_gospel-of-peter-diatessaron-origen-commentaries.xml
 - work: Fragments of Aristo of Pella
   author: aristo-of-pella
   locus: div2 10.4
   role: tradition
   confidence: assigned
-  note: 'Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
+  note: Remains of the Dialogue of Jason and Papiscus — a Hebrew-Christian apologetic dialogue
     from Pella. The Jewish-Christian current and pahc are both defensible; neither is demonstrated
-    by the fragments. 2026-08-26: greek-apologists-second-century added alongside - the entry
-    the corpus assignment showed was missing, for the era''s outward-facing writing. pahc
-    is kept: the era and church-world really are its.'
+    by the fragments. greek-apologists-second-century holds this work for the era's outward-facing
+    writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: A Plea for the Christians
   author: athenagoras
   locus: div2 5.2 under div1 'ATHENAGORAS'
   role: tradition
   confidence: assigned
-  note: 'Athenian apologist, c. 177 - in the entry''s window but not its named regions, and
-    the census has no Greek-apologist entry. Placed with the era-1 mainstream entry; flagged
-    so Mark can move him if a better home appears in a later survey. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: Athenian apologist, c. 177 - in the entry's window but not its named regions, and
+    the census has no Greek-apologist entry. Placed with the era-1 mainstream entry; a better
+    home may appear in a later survey. greek-apologists-second-century holds this work alongside
+    pahc, for the era's outward-facing writing; pahc is kept because the era and church-world
+    are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: The Resurrection of the Dead
   author: athenagoras
   locus: div2 5.3 under div1 'ATHENAGORAS'
   role: tradition
   confidence: assigned
-  note: 'Same placement doubt as the Plea. 2026-08-26: greek-apologists-second-century added
-    alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: Same placement doubt as the Plea. greek-apologists-second-century holds this work
+    alongside pahc, for the era's outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Fragments of Claudius Apollinaris
   author: claudius-apollinaris
   locus: div2 10.10
   role: tradition
   confidence: assigned
-  note: 'Cross-linked 2026-09-16 from a Source Readiness Dossier finding: this same div is
-    headed in the source itself "Claudius Apollinaris, Bishop of Hierapolis, and Apologist,"
-    and states directly that he "addressed his Apology... to M. Antoninus, the emperor" and
-    also wrote Adversus Gentes and De Veritate. The surviving fragment quoted here (via Eusebius,
-    HE v.5) is the Thundering Legion narrative - an apologetic argument that Christian soldiers''
-    prayer, not the emperor''s virtue, brought the rain that saved Marcus Aurelius'' army
-    against the Quadi (174 CE). Distinct from the anti-Montanist material the other two rows
-    at this locus correctly cover; this row captures the apologetic content specifically.
+  note: 'This same div is headed in the source itself "Claudius Apollinaris, Bishop of Hierapolis,
+    and Apologist," and states directly that he "addressed his Apology... to M. Antoninus,
+    the emperor" and also wrote Adversus Gentes and De Veritate. The surviving fragment quoted
+    here (via Eusebius, HE v.5) is the Thundering Legion narrative - an apologetic argument
+    that Christian soldiers'' prayer, not the emperor''s virtue, brought the rain that saved
+    Marcus Aurelius'' army against the Quadi (174 CE). Distinct from the anti-Montanist material
+    the other two rows at this locus cover; this row captures the apologetic content specifically.
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
@@ -83,73 +79,68 @@ works:
   locus: div2 8.4 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: assigned
-  note: 'Already cited by pahc.source.justin-dialogue. Ch. 47''s discussion of Torah-observant
-    Christians is also one of the era''s few direct witnesses to the ebionite-nazoraean-current
+  note: Already cited by pahc.source.justin-dialogue. Ch. 47's discussion of Torah-observant
+    Christians is also one of the era's few direct witnesses to the ebionite-nazoraean-current
     material - noted here rather than assigned, since it is a few chapters of a 75,000-word
-    work. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
-    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
-    era and church-world really are its.'
+    work. greek-apologists-second-century holds this work for the era's outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Hortatory Address to the Greeks
   author: justin_martyr
   locus: div2 8.6 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. 2026-08-26:
-    greek-apologists-second-century added alongside - the entry the corpus assignment showed
-    was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: On the Sole Government of God
   author: justin_martyr
   locus: div2 8.7 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. 2026-08-26:
-    greek-apologists-second-century added alongside - the entry the corpus assignment showed
-    was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+  note: 'Same position as the Discourse: transmitted under Justin, widely doubted. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: The Discourse to the Greeks
   author: justin_martyr
   locus: div2 8.5 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: provisional
-  note: 'Printed under the JUSTIN MARTYR div1; authenticity has long been questioned. Filed
-    with its transmitted author per §6.2 - derive, don''t assert - with the doubt recorded.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+  note: Printed under the JUSTIN MARTYR div1; authenticity has long been questioned. Filed
+    with its transmitted author per §6.2 - derive, don't assert - with the doubt recorded.
+    greek-apologists-second-century holds this work for the era's outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: The First Apology
   author: justin_martyr
   locus: div2 8.2 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: assigned
-  note: 'Rome, c. 155. Already cited by pahc.source.justin-first-apology. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: Rome, c. 155. Already cited by pahc.source.justin-first-apology. greek-apologists-second-century
+    holds this work for the era's outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: The Second Apology
   author: justin_martyr
   locus: div2 8.3 under div1 'JUSTIN MARTYR'
   role: tradition
   confidence: assigned
-  note: 'Companion piece to the First Apology, same setting and window. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: Companion piece to the First Apology, same setting and window. greek-apologists-second-century
+    holds this work for the era's outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Epistle to Diognetus
   author: mathetes
   locus: div2 3.2 under div1 'MATHETES'
   role: tradition
   confidence: assigned
-  note: 'Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
-    for the Greek apologists as such; placed with the era-1 mainstream entry the volume''s
-    other works belong to. Doubt is the date - some put it after the entry''s 200 CE close.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+  note: Anonymous apology of uncertain date and place (2nd-3rd c.). The census has no entry
+    for the Greek apologists as such; placed with the era-1 mainstream entry the volume's
+    other works belong to. Doubt is the date - some put it after the entry's 200 CE close.
+    greek-apologists-second-century holds this work for the era's outward-facing writing;
+    pahc is kept because the era and church-world are genuinely its.
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
 - work: Fragments of Melito of Sardis
   author: melito-of-sardis
@@ -157,19 +148,19 @@ works:
   role: tradition
   confidence: assigned
   note: 'Bishop of Sardis, 2nd-century Asia Minor: apology, Paschal (Quartodeciman) material,
-    the first known Christian OT canon list — core pahc evidence. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+    the first known Christian OT canon list — core pahc evidence. greek-apologists-second-century
+    holds this work for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Fragments of Quadratus
   author: quadratus
   locus: div2 10.3
   role: tradition
   confidence: assigned
-  note: 'The earliest apologist (c. 125, to Hadrian); Athens is outside pahc''s named regions
-    but the era and church-world are pahc''s. 2026-08-26: greek-apologists-second-century
-    added alongside - the entry the corpus assignment showed was missing, for the era''s outward-facing
-    writing. pahc is kept: the era and church-world really are its.'
+  note: The earliest apologist (c. 125, to Hadrian); Athens is outside pahc's named regions
+    but the era and church-world are pahc's. greek-apologists-second-century holds this work
+    for the era's outward-facing writing; pahc is kept because the era and church-world are
+    genuinely its.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Address to the Greeks
   author: tatian
@@ -179,18 +170,16 @@ works:
   note: 'Tatian sits awkwardly across two entries: a pupil of Justin writing in Rome (pahc''s
     window and region), later returned east and claimed as a forefather by the Syriac tradition,
     which the syr world already reaches through his Diatessaron in anf09. Provisional because
-    he was also later branded an Encratite - Mark may want a ruling on where his voice sits.
-    2026-08-26: greek-apologists-second-century added alongside - the entry the corpus assignment
-    showed was missing, for the era''s outward-facing writing. pahc is kept: the era and church-world
-    really are its.'
+    he was also later branded an Encratite. greek-apologists-second-century holds this work
+    alongside pahc, for the era''s outward-facing writing; pahc is kept because the era and
+    church-world are genuinely its.'
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml
 - work: Theophilus to Autolycus
   author: theophilus
   locus: div2 4.2 under div1 'THEOPHILUS'
   role: tradition
   confidence: assigned
-  note: 'Theophilus, bishop of Antioch, c. 180 - squarely in the entry''s window and named
-    region. 2026-08-26: greek-apologists-second-century added alongside - the entry the corpus
-    assignment showed was missing, for the era''s outward-facing writing. pahc is kept: the
-    era and church-world really are its.'
+  note: Theophilus, bishop of Antioch, c. 180 - squarely in the entry's window and named region.
+    greek-apologists-second-century holds this work alongside pahc, for the era's outward-facing
+    writing; pahc is kept because the era and church-world are genuinely its.
   source_file: anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml

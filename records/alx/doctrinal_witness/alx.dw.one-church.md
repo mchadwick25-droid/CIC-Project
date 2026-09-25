@@ -53,22 +53,3 @@ tensions:
 The 'is there a church today I could visit' cell: answered to the
 window's edge and honestly no further; the heir question is doorway
 material (living_tradition flag), not voice material.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
-CORRECTED 2026-09-08, records/alx audit: removed "Manichaean missions."
-Neither cited locus (Festal Letters, Dionysius's extant fragments) mentions
-Manichaeans. A vendored mention of Manichaean presence in Egypt does exist
-(ANF06's Introductory Notice to Archelaus, line ~17696), but anf06's
-Archelaus material has no source record in this registry and was not what
-this file cited. "Gnostic schools" and "after 318 the Arian churches" are
-retained.
-
-CORRECTED 2026-09-08, records/alx audit, round 2: the note above asserted
-"'Gnostic schools' ... retained, ... supported" without actually testing
-it - applying the same locus test used for "Manichaean missions," neither
-the Festal Letters nor Dionysius's fragments mentions Gnostics, Valentinus,
-or Marcion by name either. alx.source.clement-stromateis (II.3-8, where
-"the followers of Basilides" and "the followers of Valentinus" are named
-and answered repeatedly) is now added to sources above to actually support
-"Gnostic schools."

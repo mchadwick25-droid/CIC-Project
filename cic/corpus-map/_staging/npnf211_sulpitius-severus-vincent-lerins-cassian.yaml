@@ -1,4 +1,4 @@
-# Worker: npnf210-214 group, 2026-08-26.
+# npnf210-214 group.
 # Skipped as apparatus: div1 1 (title page), div2 2.1 "Life and Writings of
 # Sulpitius Severus" (the editor's biographical introduction, not a work),
 # div2 4.1-4.2 (Cassian prolegomena and preface), div2 3.35-3.37 (appendix
@@ -22,13 +22,11 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'The Western counterpart of the Vita Antonii - hagiography as monastic evidence, written
-    c. 397 in Aquitaine while Martin still lived. The doubt is structural: the census has
-    no Gallic entry before merovingian-gallic-christianity (c. 480-620), which the Martin
-    cult founds but which this work antedates by nearly a century. Mark to rule whether pre-Merovingian
-    Gaul (Martin, Sulpitius, Lerins, Cassian''s Marseilles) files forward into that entry
-    or needs an entry of its own. Re-pointed 2026-08-26: the Gallic gap this flagged is closed
-    - gallic-monastic-ascetic-christianity (era 2, c. 360-450) was added to the census on
-    record, and this work now names it rather than the Merovingian entry it antedates.'
+    c. 397 in Aquitaine while Martin still lived. The census has an entry for exactly this:
+    gallic-monastic-ascetic-christianity (era 2, c. 360-450), covering pre-Merovingian Gaul
+    (Martin, Sulpitius, Lerins, Cassian''s Marseilles) rather than the later
+    merovingian-gallic-christianity entry (c. 480-620) that the Martin cult founds but that
+    this work antedates by nearly a century.'
 - work: The Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.3 — The Letters of Sulpitius Severus
@@ -36,10 +34,9 @@ assignments:
   - gallic-monastic-ascetic-christianity
   role: tradition
   confidence: assigned
-  note: 'Three letters on Martin''s death and glory, continuous with the Life. Same Gallic-gap
-    doubt as the Life of St. Martin. Re-pointed 2026-08-26: the Gallic gap this flagged is
-    closed - gallic-monastic-ascetic-christianity (era 2, c. 360-450) was added to the census
-    on record, and this work now names it rather than the Merovingian entry it antedates.'
+  note: 'Three letters on Martin''s death and glory, continuous with the Life. Same placement as
+    the Life of St. Martin: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the
+    pre-Merovingian Gaul entry rather than the later Merovingian entry this work antedates.'
 - work: Dialogues of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.4 — Dialogues of Sulpitius Severus
@@ -48,13 +45,37 @@ assignments:
   - gallic-monastic-ascetic-christianity
   role: tradition
   confidence: assigned
-  note: 'Dialogue I is Postumianus'' first-hand travel account of the Egyptian desert monks
-    - direct evidence for the built desert world from a Gallic visitor, which is why desert
-    leads. Dialogues II-III continue the Martin material and carry the same Gallic-gap doubt
-    as the Life; provisional for that reason, not for the desert claim. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+  note: 'Dialogue I is Postumianus'' first-hand travel account of the Egyptian desert monks -
+    direct evidence for the built desert world from a Gallic visitor, which is why desert leads.
+    Dialogues II-III continue the Martin material and take the same placement as the Life:
+    gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul entry
+    rather than the later Merovingian entry this work antedates.'
+- work: Dialogues of Sulpitius Severus
+  author: sulpiciusseverus
+  locus: div2 2.4 — Dialogues of Sulpitius Severus, Dialogue I.7-9 (Postumianus's account of
+    visiting Bethlehem)
+  atlas_ids:
+  - hieronymian-ascetic-literary
+  role: context
+  confidence: assigned
+  note: 'Dialogue I.7-9 is an admiring, independent, contemporary outside witness to the Bethlehem
+    community c. 400. Verified directly against the file at all four cited passages: I.8, "the
+    presbyter Jerome rules the church of this place; for it is a parish of the bishop who has
+    possession of Jerusalem" and "learned not only in Latin and Greek, but also Hebrew" (lines 2896);
+    I.9, "always occupied in reading, always at his books" (line 2960) and "the heretics hate him"
+    (line 2954); I.7, the widely-quoted line that Hieronymus, "a man truly Catholic," once thought a
+    follower of Origen, "now, above most others, went the length of condemning the whole of his
+    writings" (line 2859) - matching this world''s own source and quote records
+    (hal.source.sulpitius-dialogues, hal.quote.a-man-truly-catholic) exactly.
+
+    `role: context`, not `tradition`: this world''s own quote record marks the evidence Contested
+    and notes Sulpitius writes "in Gaul, admiringly and at a distance" - an outside Gallic monastic
+    writer''s view of Jerome''s reputation and standing, not the Hieronymian voice speaking for
+    itself. Same Dialogue as the existing desert-monasticism/gallic-monastic-ascetic-christianity
+    tradition row above (Dialogue I as a whole, Postumianus''s Egyptian travels); this row narrows
+    to I.7-9 specifically, the Bethlehem passage, for hal.
+
+    '
 - work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.5 — The Doubtful Letters
@@ -64,18 +85,19 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Seven letters the edition itself marks doubtful - the attribution doubt is the editors''
-    own, on top of the Gallic-gap doubt shared with the Martin works. Re-pointed 2026-08-26
-    to gallic-monastic-ascetic-christianity, the era-2 entry added on record. Still `needs-ruling`:
-    the editors'' own attribution doubt is untouched by the new entry. RULED 2026-08-26, under
-    a principle rather than one by one - nine works across six entries were asking the same
-    question, whether a spurious corpus files under the attributed name at all. IT DOES, AND
-    IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute
-    from outside knowledge, so the transmitted-author shelf stands: that is how the corpus
+    own, on top of the Gallic-gap doubt shared with the Martin works. Filed under
+    gallic-monastic-ascetic-christianity, the era-2 entry for pre-Merovingian Gaul.
+
+    The editors'' own attribution doubt is a separate question from the placement, and is decided
+    under a general principle rather than case by case: nine works across six entries raise the
+    same question, whether a spurious corpus files under the attributed name at all. It does, and
+    it also files as what it is. Brief 6.2 says derive from the markup rather than re-attribute
+    from outside knowledge, so the transmitted-author shelf stands - that is how the corpus
     presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
     is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
-    by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    by definition. The two together say the whole truth - where it sits, and what it is - without
+    re-attributing anything. This can be reversed in one pass if the spurious corpora should
+    instead be detached from their attributed authors.'
 - work: The Sacred History (Chronica)
   author: sulpiciusseverus
   locus: div2 2.6 — The Sacred History of Sulpitius Severus
@@ -87,13 +109,11 @@ assignments:
   note: 'World chronicle to c. 400 whose second book carries the fullest near-contemporary
     narrative of the Priscillianist affair - the trial and execution at Trier under Maximus,
     the first death sentence for heresy carried out by a Christian emperor. Church-and-state
-    material squarely inside the built ijc world''s window. Re-pointed 2026-09-08: also this
-    author''s own corpus for the Gallic monastic-ascetic entry (era 2, c. 360-450, added to
-    the census 2026-08-26) - same author-tradition basis already carrying his other three
-    works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket; the case
-    document that surfaced the entry (CASE-gallic-monasticism.md) counted this work in
-    Sulpitius'' own 109,539-word figure but the corpus map had not yet been re-pointed to
-    match.
+    material squarely inside the built ijc world''s window. Also filed under the Gallic
+    monastic-ascetic entry (era 2, c. 360-450): the same author-tradition basis already
+    carrying his other three works (Life of Martin, Dialogues, Doubtful Letters/Letters) into
+    that bucket, since the case document that surfaced the entry (CASE-gallic-monasticism.md)
+    counts this work in Sulpitius'' own 109,539-word figure.
 
     '
 - work: The Sacred History (Chronica)
@@ -118,12 +138,11 @@ assignments:
   confidence: assigned
   note: 'The classic rule for discerning catholic tradition ("quod ubique, quod semper, quod
     ab omnibus"), written 434 at Lerins - the monastic-literary culture that trained the Gallic
-    episcopate the Merovingian entry inherits. Same Gallic-gap doubt as the Sulpitius works.
-    A pelagianism context link (Vincent''s milieu was the Gallic critics of Augustine) is
-    arguable but too thin to assert without reading beyond the file. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    episcopate the Merovingian entry inherits. Same placement as the Sulpitius works:
+    gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul entry
+    rather than the later Merovingian entry this work antedates. A pelagianism context link
+    (Vincent''s milieu was the Gallic critics of Augustine) is arguable but too thin to assert
+    without reading beyond the file.'
 - work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
   locus: div2 4.3 — The Institutes
@@ -138,10 +157,9 @@ assignments:
     home, and this directly addresses the audit''s finding that desert answers from too narrow
     a base. Written c. 420 for Gallic monasteries (dedicated to Castor of Apt) and commended
     by the Rule of Benedict ch. 73: the two later monastic entries are reception homes that
-    both postdate Cassian - a reviewer who wants strict era fit should trim those two, not
-    desert. Re-pointed 2026-08-26: the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity
-    (era 2, c. 360-450) was added to the census on record, and this work now names it rather
-    than the Merovingian entry it antedates.'
+    both postdate Cassian. Same placement as the Sulpitius works for the
+    Gallic entry: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian
+    Gaul entry rather than the later Merovingian entry this work antedates.'
 - work: The Conferences of John Cassian
   author: cassian
   locus: div2 4.4-4.6 — Conferences I-XXIV (three parts, one work)
@@ -151,14 +169,14 @@ assignments:
   - early-benedictine-italian-monasticism
   role: tradition
   confidence: assigned
-  note: 'Twenty-four conferences presented as the teaching of the Egyptian abbas of Scetis
-    - the largest body of desert teaching anywhere in the vendored corpus, and desert''s best
+  note: 'Twenty-four conferences presented as the teaching of the Egyptian abbas of Scetis -
+    the largest body of desert teaching anywhere in the vendored corpus, and desert''s best
     route out of single-source answers. Same Gallic and Benedictine reception homes as the
-    Institutes, with the same era caveat. Conference XIII is the classic so-called semi-Pelagian
-    text; a pelagianism context link is arguable but not asserted here. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    Institutes, with the same era caveat. Conference XIII is the classic so-called
+    semi-Pelagian text; a pelagianism context link is arguable but not asserted here. Same
+    placement as the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry
+    this work antedates.'
 - work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
   locus: div2 4.7 — The Seven Books on the Incarnation
@@ -169,16 +187,15 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Audit finding F-24: vendored and read by no world, while desert answers every Christology
-    question from a single source. This is the desert tradition''s own author writing Christology
-    - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
-    archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
-    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis as
-    the Institutes and Conferences rows above - Cassian''s own authored corpus, written while
-    he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era 2, c.
-    360-450) even though its content is Christological rather than about Gallic monastic life
-    directly. The case document that surfaced the entry (CASE-gallic-monasticism.md) counted
-    this work in Cassian''s own 364,648-word figure but the corpus map had not yet been
-    re-pointed to match.
+    question from a single source. This is the desert tradition''s own author writing
+    Christology - assigned to desert to widen exactly that base - and it was commissioned in
+    Rome by the archdeacon Leo in 430 as part of the Western church''s response to Nestorius on
+    the eve of Ephesus, which is ijc''s world. Also filed under the Gallic monastic-ascetic
+    entry (era 2, c. 360-450) on the same author-tradition basis as the Institutes and
+    Conferences rows above: Cassian''s own authored corpus, written while he led the Marseilles
+    houses, belongs there even though its content is Christological rather than about Gallic
+    monastic life directly. The case document that surfaced the entry
+    (CASE-gallic-monasticism.md) counts this work in Cassian''s own 364,648-word figure.
 
     '
 - work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)

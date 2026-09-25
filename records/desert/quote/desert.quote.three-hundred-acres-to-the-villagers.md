@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Antony, as though God had put him in mind of the Saints, and the passage had been read on his account, went out immediately from the church, and gave the possessions of his forefathers to the villagers—they were three hundred acres , productive and very fair—that they should be no more a clog upon himself and his sister .
+modern_rendering: >-
+  As if God had reminded Antony of the saints, and the passage had been read for his
+  sake, he left the church at once. He gave away his family's property to the villagers.
+  It was three hundred acres, fertile and very fine. He did this so that it would no
+  longer weigh down him and his sister.
 speaker_or_author: Athanasius, Life of Antony
 license: verbatim
 modern_lens_note: >-

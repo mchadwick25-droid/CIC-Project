@@ -22,6 +22,10 @@ text: For what is more full of respect than that the Emperor should be called th
   As it is said, it is said without sin, since it is said with the divine favour. For the Emperor is
   within the Church, not above it. For a good emperor seeks the aid of the Church and does not refuse
   it.
+modern_rendering: >-
+  What shows more respect than calling the Emperor a son of the Church? When this is said,
+  it is said without sin, since it is said with God's favor. The Emperor is within the
+  Church, not above it. A good emperor seeks the Church's help and does not refuse it.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."

@@ -21,6 +21,12 @@ sources:
   license: public-domain
 text: >-
   ...that of widowhood, not so difficult as the former, but being rocky and rough, it requires more cautious travellers. Good too is that of marriage; being smooth and even it reaches the camp of the saints by a longer circuit. This way is taken by most. There are then the rewards of virginity, there are the merits of widowhood, there is also a place for conjugal modesty.
+modern_rendering: >-
+  ...the way of widowhood is not as hard as the first, but being rocky and rough, it needs
+  more careful travelers. Marriage's way is good too. Being smooth and level, it reaches
+  the camp of the saints by a longer route. Most people take this way. So there are the
+  rewards of virginity; there are the merits of widowhood; and there is also a place for
+  conjugal modesty.
 speaker_or_author: Ambrose of Milan, Concerning Widows
 license: verbatim
 modern_lens_note: >-

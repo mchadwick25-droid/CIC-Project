@@ -74,8 +74,6 @@ this world read the promises spiritually against chiliasm), F6-I (what
 troubled them, handled inside the household). Companion records:
 alx.quote.dionysius-nepos, alx.contested.allegory-from-within.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
-
 The sources locus (VII.24, npnf201 lines 41290-41382) covers Nepos's
 identification and the Refutation of Allegorists material (41290-41320)
 as well as the conference narrative itself ("three successive days,"

@@ -14,15 +14,12 @@ works:
     provoked the Gallic monks'' own pastoral objections (reported to Augustine by Prosper
     of Aquitaine and a correspondent named Hilary) that div1 21''s two treatises directly
     answer — the opponent side of that world''s own Gravity Discovery (Doc_04) needs this
-    as the provoking text, not only the two replies. Re-pointed 2026-09-08 for the Gallic
-    monastic-ascetic entry (era 2, c. 360-450), added 2026-08-26. **Corrected 2026-09-08**
-    (Doc_02 review Round 1, finding S25): this Hilary''s identity is Contested, not Hilary
-    of Arles — this world''s own vendored Commonitory introduction (npnf211) places Hilary
-    of Arles among the Massilian party being reported on, not among the reporters, and npnf105''s
-    own apparatus proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
-    §1.4). The prior correction (Doc_01 Round 2 finding N6a) was applied to this world''s
-    own corpus-map bucket but not propagated back to this staging file, the actual source
-    of the generated bucket — fixed here at the root.
+    as the provoking text, not only the two replies. This covers the Gallic monastic-ascetic
+    entry (era 2, c. 360-450). This Hilary''s identity is Contested, not Hilary of Arles —
+    this world''s own vendored Commonitory introduction (npnf211) places Hilary of Arles among
+    the Massilian party being reported on, not among the reporters, and npnf105''s own apparatus
+    proposes "Hilary of Sicily" as its own best identification (see gallic_Doc02_Source_Ecology.md
+    §1.4).
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -34,10 +31,9 @@ works:
   confidence: assigned
   note: '428/429, the companion and continuation of De praedestinatione sanctorum, transmitted
     as a separate work; the div2 is itself titled ''A Treatise''. Second half of the div1
-    21 split. Re-pointed 2026-09-08 on the same basis as the Predestination treatise above
-    — addressed to the same Prosper/Hilary audience, same controversy. **Corrected 2026-09-08**
-    (Doc_02 Round 1, S25): same Hilary-identity correction as the two rows above — Contested,
-    not "of Arles."
+    21 split, addressed to the same Prosper/Hilary audience and the same controversy as the
+    Predestination treatise above. Same Hilary-identity note as the two rows above applies
+    here: Contested, not "of Arles."
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -49,14 +45,13 @@ works:
   confidence: assigned
   note: '428/429, to Prosper and a correspondent named Hilary, against the objections of the
     Gallic monks. NPNF prints two distinct treatises under one div1; this is the first. Split
-    per the granularity rule for headings holding several distinct works. Re-pointed 2026-09-08:
-    directly addressed to Prosper of Aquitaine and Hilary — the opponent''s-side documentation
-    of the Gallic monastic-ascetic entry''s own controversy over grace and predestination
-    (era 2, c. 360-450, added to the census 2026-08-26). **Corrected 2026-09-08** (Doc_02
-    Round 1, S25): "Hilary of Arles" was wrong and is removed — see the correction note on
-    the Rebuke and Grace row above. This Hilary''s identity is Contested; npnf105''s own apparatus
-    favors "Hilary of Sicily," a genuine rival to this world''s own preferred Gallic-lay-monk
-    reading (Doc_01 §10), not a confirmation of it.
+    per the granularity rule for headings holding several distinct works. Directly addressed
+    to Prosper of Aquitaine and Hilary, this is the opponent''s-side documentation of the
+    Gallic monastic-ascetic entry''s own controversy over grace and predestination (era 2,
+    c. 360-450). This Hilary''s identity is Contested, not "Hilary of Arles" — see the identity
+    note on the Rebuke and Grace row above; npnf105''s own apparatus favors "Hilary of Sicily,"
+    a genuine rival to this world''s own preferred Gallic-lay-monk reading (Doc_01 §10), not
+    a confirmation of it.
 
     '
   source_file: npnf105_augustine-anti-pelagian-writings.xml
@@ -69,13 +64,12 @@ works:
     question from a single source. This is the desert tradition''s own author writing Christology
     - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
     archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
-    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis
-    as the Institutes and Conferences rows above - Cassian''s own authored corpus, written
-    while he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era
-    2, c. 360-450) even though its content is Christological rather than about Gallic monastic
+    of Ephesus, which is ijc''s world. Also filed under the Gallic monastic-ascetic entry
+    (era 2, c. 360-450) on the same author-tradition basis as the Institutes and Conferences
+    rows above: Cassian''s own authored corpus, written while he led the Marseilles houses,
+    belongs there even though its content is Christological rather than about Gallic monastic
     life directly. The case document that surfaced the entry (CASE-gallic-monasticism.md)
-    counted this work in Cassian''s own 364,648-word figure but the corpus map had not yet
-    been re-pointed to match.
+    counts this work in Cassian''s own 364,648-word figure.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -88,10 +82,10 @@ works:
     - the largest body of desert teaching anywhere in the vendored corpus, and desert''s best
     route out of single-source answers. Same Gallic and Benedictine reception homes as the
     Institutes, with the same era caveat. Conference XIII is the classic so-called semi-Pelagian
-    text; a pelagianism context link is arguable but not asserted here. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    text; a pelagianism context link is arguable but not asserted here. Same placement as
+    the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity (era 2,
+    c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian entry this
+    work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Twelve Books on the Institutes of the Coenobia
   author: cassian
@@ -103,19 +97,18 @@ works:
     home, and this directly addresses the audit''s finding that desert answers from too narrow
     a base. Written c. 420 for Gallic monasteries (dedicated to Castor of Apt) and commended
     by the Rule of Benedict ch. 73: the two later monastic entries are reception homes that
-    both postdate Cassian - a reviewer who wants strict era fit should trim those two, not
-    desert. Re-pointed 2026-08-26: the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity
-    (era 2, c. 360-450) was added to the census on record, and this work now names it rather
-    than the Merovingian entry it antedates.'
+    both postdate Cassian. Same placement as the Sulpitius works for the Gallic entry: gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
+    entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: De Contemptu Mundi ("The World Contemned"), an Epistle to His Kinsman Valerianus
   author: eucherius-lyon
   locus: full letter, tr. Henry Vaughan 1654 (CCEL PDF pp. 6-25)
   role: tradition
   confidence: assigned
-  note: 'Vendored 2026-09-09 per Source Registry row 25 (Native, Approved to Proceed via Doc_02).
-    A third Lerins-insider primary voice alongside Cassian and Vincent of Lerins, distinct
-    in genre (epistolary renunciation essay) -- English, via Henry Vaughan''s 1654 translation.
+  note: 'Per Source Registry row 25 (Native, Approved to Proceed via Doc_02). A third Lerins-insider
+    primary voice alongside Cassian and Vincent of Lerins, distinct in genre (epistolary renunciation
+    essay) -- English, via Henry Vaughan''s 1654 translation.
 
     '
   source_file: eucherius-lyon_de-contemptu-mundi_vaughan1654.txt
@@ -125,9 +118,9 @@ works:
   locus: full letter, Migne PL 50 (extracted excerpt, see file's own header for boundaries)
   role: tradition
   confidence: assigned
-  note: 'Vendored 2026-09-09 per Source Registry row 26 (Native, Approved to Proceed via Doc_02).
-    Latin only; no public-domain English translation identified. Addressed to Hilary, later
-    bishop of Arles, while Hilary was still a presbyter of Lerins.
+  note: 'Per Source Registry row 26 (Native, Approved to Proceed via Doc_02). Latin only;
+    no public-domain English translation identified. Addressed to Hilary, later bishop of
+    Arles, while Hilary was still a presbyter of Lerins.
 
     '
   source_file: eucherius-lyon_de-laude-eremi_migne-pl50.txt
@@ -144,6 +137,36 @@ works:
 
     '
   source_file: faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt
+- work: Gennadius, Lives of Illustrious Men (continuation)
+  author: gennadius
+  locus: div2 4.4, chapters XIX (Sulpitius Severus), LXII (Cassianus/Cassian), LXIV (Eucherius
+    of Lyons), LXV (Vincentius of Lerins), LXX (Hilary of Arles), LXXXV (Prosper of Aquitaine),
+    LXXXVI (Faustus of Riez)
+  role: context
+  confidence: assigned
+  note: 'Independent, near-contemporary corroboration for seven of this world''s own figures,
+    all in one continuation-of-Jerome chapter set: Sulpitius Severus, Cassian, Eucherius,
+    Vincentius, Hilary of Arles, Prosper, and Faustus. Verified directly against the file,
+    chapter by chapter: ch. XIX opens "Severus the presbyter... surnamed Sulpitius"; ch. LXII
+    "Cassianus, Scythian by race... a presbyter at Marseilles, founded two monasteries"; ch.
+    LXIV "Eucherius, bishop of the church at Lyons"; ch. LXV "Vincentius, the Gaul, presbyter
+    in the Monastery on the Island of Lerins"; ch. LXX "Hilary, bishop of the church at Arles";
+    ch. LXXXV "Prosper of Aquitania"; ch. LXXXVI "Faustus the bishop" (title) - all seven
+    chapter titles and contents confirmed at their own loci, matching this world''s own source
+    record (gallic.source.gennadius-de-viris- illustribus, Source Registry row 30) exactly.
+
+    `role: context`, not `tradition`: that same record states Gennadius was "writing c. 495,
+    just after this world''s own working ceiling" (c. 360-450) and calls the material "Corroborating
+    rather than load-bearing: this world''s Representative draws on the IN-WINDOW facts Gennadius
+    attests, never on Gennadius''s own post-window words as this world''s own voice." A second,
+    distinct editorial layer sits in the same file - Richardson''s own bracketed dating endnotes
+    to these same chapters (gallic.source.richardson-gennadius-endnotes, Source Registry row
+    42), used by this world for dating attributions but kept deliberately distinct from Gennadius''s
+    own ancient text per that world''s own Doc_02 SS0 discipline - not assigned as a separate
+    row here since it is modern apparatus, not itself vendored ancient text.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Sermo de Vita Sancti Honorati Episcopi Arelatensis (Sermon on the Life of St. Honoratus)
   author: hilary-arles
   locus: the sermon itself, Migne PL 50 (extracted excerpt, see file's own header for boundaries
@@ -151,10 +174,10 @@ works:
     bounded here, see that header)
   role: tradition
   confidence: assigned
-  note: 'Vendored 2026-09-09 per Source Registry row 27 (Native, Approved to Proceed via Doc_02).
-    This world''s own founding narrative for Lerins, previously entirely absent from the vendored
-    library -- independently attested to exist by Gennadius''s own text (already vendored,
-    npnf203 ch. LXX). Latin only; no public-domain English translation identified.
+  note: 'Per Source Registry row 27 (Native, Approved to Proceed via Doc_02). This world''s
+    own founding narrative for Lerins, previously entirely absent from the vendored library
+    -- independently attested to exist by Gennadius''s own text (already vendored, npnf203
+    ch. LXX). Latin only; no public-domain English translation identified.
 
     '
   source_file: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
@@ -163,9 +186,9 @@ works:
   locus: full work, tr. Sanford 1930 (all eight books, plus the dedicatory Preface)
   role: tradition
   confidence: assigned
-  note: 'Boundary-Checked 2026-09-09 (Doc_02 §13A, Source Registry row 43): Native, Documented.
-    Salvian personally taught at Lerins alongside Vincent of Lerins (already vendored, npnf211)
-    -- attested directly by Hilary of Arles''s own funeral sermon for Honoratus (already vendored,
+  note: 'Boundary-checked (Doc_02 §13A, Source Registry row 43): Native, Documented. Salvian
+    personally taught at Lerins alongside Vincent of Lerins (already vendored, npnf211) --
+    attested directly by Hilary of Arles''s own funeral sermon for Honoratus (already vendored,
     hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt), which names Salvian as "charorum
     suorum unus" (one of Honoratus''s own dear associates) and quotes his own (otherwise lost)
     writing, and independently corroborated by Gennadius (npnf203, this world''s own row 30).
@@ -182,11 +205,9 @@ works:
   confidence: assigned
   note: 'Dialogue I is Postumianus'' first-hand travel account of the Egyptian desert monks
     - direct evidence for the built desert world from a Gallic visitor, which is why desert
-    leads. Dialogues II-III continue the Martin material and carry the same Gallic-gap doubt
-    as the Life; provisional for that reason, not for the desert claim. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    leads. Dialogues II-III continue the Martin material and take the same placement as the
+    Life: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the pre-Merovingian Gaul
+    entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: On the Life of St. Martin
   author: sulpiciusseverus
@@ -194,13 +215,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'The Western counterpart of the Vita Antonii - hagiography as monastic evidence, written
-    c. 397 in Aquitaine while Martin still lived. The doubt is structural: the census has
-    no Gallic entry before merovingian-gallic-christianity (c. 480-620), which the Martin
-    cult founds but which this work antedates by nearly a century. Mark to rule whether pre-Merovingian
-    Gaul (Martin, Sulpitius, Lerins, Cassian''s Marseilles) files forward into that entry
-    or needs an entry of its own. Re-pointed 2026-08-26: the Gallic gap this flagged is closed
-    - gallic-monastic-ascetic-christianity (era 2, c. 360-450) was added to the census on
-    record, and this work now names it rather than the Merovingian entry it antedates.'
+    c. 397 in Aquitaine while Martin still lived. The census has an entry for exactly this:
+    gallic-monastic-ascetic-christianity (era 2, c. 360-450), covering pre-Merovingian Gaul
+    (Martin, Sulpitius, Lerins, Cassian''s Marseilles) rather than the later merovingian-gallic-christianity
+    entry (c. 480-620) that the Martin cult founds but that this work antedates by nearly
+    a century.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Doubtful Letters of Sulpitius Severus
   author: sulpiciusseverus
@@ -208,28 +227,28 @@ works:
   role: tradition
   confidence: assigned
   note: 'Seven letters the edition itself marks doubtful - the attribution doubt is the editors''
-    own, on top of the Gallic-gap doubt shared with the Martin works. Re-pointed 2026-08-26
-    to gallic-monastic-ascetic-christianity, the era-2 entry added on record. Still `needs-ruling`:
-    the editors'' own attribution doubt is untouched by the new entry. RULED 2026-08-26, under
-    a principle rather than one by one - nine works across six entries were asking the same
-    question, whether a spurious corpus files under the attributed name at all. IT DOES, AND
-    IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute
-    from outside knowledge, so the transmitted-author shelf stands: that is how the corpus
-    presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    own, on top of the Gallic-gap doubt shared with the Martin works. Filed under gallic-monastic-ascetic-christianity,
+    the era-2 entry for pre-Merovingian Gaul.
+
+    The editors'' own attribution doubt is a separate question from the placement, and is
+    decided under a general principle rather than case by case: nine works across six entries
+    raise the same question, whether a spurious corpus files under the attributed name at
+    all. It does, and it also files as what it is. Brief 6.2 says derive from the markup rather
+    than re-attribute from outside knowledge, so the transmitted-author shelf stands - that
+    is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
     is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. This can be reversed in one pass if the spurious corpora
+    should instead be detached from their attributed authors.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Letters of Sulpitius Severus
   author: sulpiciusseverus
   locus: div2 2.3 — The Letters of Sulpitius Severus
   role: tradition
   confidence: assigned
-  note: 'Three letters on Martin''s death and glory, continuous with the Life. Same Gallic-gap
-    doubt as the Life of St. Martin. Re-pointed 2026-08-26: the Gallic gap this flagged is
-    closed - gallic-monastic-ascetic-christianity (era 2, c. 360-450) was added to the census
-    on record, and this work now names it rather than the Merovingian entry it antedates.'
+  note: 'Three letters on Martin''s death and glory, continuous with the Life. Same placement
+    as the Life of St. Martin: gallic-monastic-ascetic-christianity (era 2, c. 360-450), the
+    pre-Merovingian Gaul entry rather than the later Merovingian entry this work antedates.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
 - work: The Sacred History (Chronica)
   author: sulpiciusseverus
@@ -239,12 +258,11 @@ works:
   note: 'World chronicle to c. 400 whose second book carries the fullest near-contemporary
     narrative of the Priscillianist affair - the trial and execution at Trier under Maximus,
     the first death sentence for heresy carried out by a Christian emperor. Church-and-state
-    material squarely inside the built ijc world''s window. Re-pointed 2026-09-08: also this
-    author''s own corpus for the Gallic monastic-ascetic entry (era 2, c. 360-450, added to
-    the census 2026-08-26) - same author-tradition basis already carrying his other three
-    works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket; the case
-    document that surfaced the entry (CASE-gallic-monasticism.md) counted this work in Sulpitius''
-    own 109,539-word figure but the corpus map had not yet been re-pointed to match.
+    material squarely inside the built ijc world''s window. Also filed under the Gallic monastic-ascetic
+    entry (era 2, c. 360-450): the same author-tradition basis already carrying his other
+    three works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket, since
+    the case document that surfaced the entry (CASE-gallic-monasticism.md) counts this work
+    in Sulpitius'' own 109,539-word figure.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -255,38 +273,8 @@ works:
   confidence: assigned
   note: 'The classic rule for discerning catholic tradition ("quod ubique, quod semper, quod
     ab omnibus"), written 434 at Lerins - the monastic-literary culture that trained the Gallic
-    episcopate the Merovingian entry inherits. Same Gallic-gap doubt as the Sulpitius works.
-    A pelagianism context link (Vincent''s milieu was the Gallic critics of Augustine) is
-    arguable but too thin to assert without reading beyond the file. Re-pointed 2026-08-26:
-    the Gallic gap this flagged is closed - gallic-monastic-ascetic-christianity (era 2, c.
-    360-450) was added to the census on record, and this work now names it rather than the
-    Merovingian entry it antedates.'
+    episcopate the Merovingian entry inherits. Same placement as the Sulpitius works: gallic-monastic-ascetic-christianity
+    (era 2, c. 360-450), the pre-Merovingian Gaul entry rather than the later Merovingian
+    entry this work antedates. A pelagianism context link (Vincent''s milieu was the Gallic
+    critics of Augustine) is arguable but too thin to assert without reading beyond the file.'
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
-- work: Institutionum libri XII (the complete Latin Institutes, incl. Book VI, De spiritu fornicationis)
-  author: cassian
-  locus: the whole edition; Book VI at the "Incipit de spiritu fornicationis... liber sextus" heading through Book VII's own incipit
-  role: tradition
-  confidence: assigned
-  note: 'Vendored 2026-09-13 per Source Registry row 45 (Native, Approved to Proceed via Doc_02-maintenance,
-    post-B-8/G4). Closes the acquisition side of gallic.core.gallic''s own named gap: Gibson''s
-    NPNF II.11 translation (npnf211, already corpus-mapped above) omits Institutes Book VI
-    entirely on Victorian-era grounds. Latin only; independently confirmed present (not merely
-    titled) by direct grep before vendoring. Not yet cited by any WRS record - acquisition
-    and corpus-map registration only; building lexicon/story content from this material is
-    a separate, larger decision flagged to the project lead, not made here.'
-  source_file: cassian_institutes-and-contra-nestorium_petschenig1888.txt
-- work: Instructionum libri duo (Instructions, addressed to Salonius) and Formulae Spiritalis Intelligentiae (addressed to Veranus)
-  author: eucherius-lyon
-  locus: Instructionum liber I's own praefatio ad Salonium (names Honoratus, Hilary of Arles, Salvian, and Vincent of Lerins as Salonius'' teachers); Formulae's own praefatio ad Veranum; the volume's appendix (a real letter from Salvian to Eucherius)
-  role: tradition
-  confidence: assigned
-  note: 'Vendored 2026-09-13 per Source Registry row 46 (Native, Approved to Proceed via Doc_02-maintenance,
-    post-B-8/G4). Two further genuine works by an already-Native author (rows 25-26 above).
-    Instructionum liber I''s praefatio ad Salonium independently corroborates, in Latin for
-    the first time in this world''s vendored library, the Salvian/Vincent co-teacher testimony
-    Source Registry row 43 already carries secondhand via Sanford''s English translation of
-    Salvian. Formulae (exegetical glossary) is the more tangential of the two works, genre-wise.
-    Latin only; not yet cited by any WRS record - acquisition and corpus-map registration
-    only; building lexicon/story content from this material (especially the named-teacher
-    passage) is a separate, larger decision flagged to the project lead, not made here.'
-  source_file: eucherius-lyon_formulae-and-instructiones_wotke1894.txt

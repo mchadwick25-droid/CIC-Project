@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: 'Get for her a set of letters made of boxwood or of ivory and called each by its
   proper name. Let her play with these, so that even her play may teach her something.'
+modern_rendering: >-
+  Get her a set of letters made of boxwood or ivory, and name each one by its proper
+  name. Let her play with these letters, so that even her play teaches her something.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Letters" here means individual alphabet-block toys (like modern alphabet blocks), not correspondence - a collision worth naming since this corpus''s dominant sense of "letter" elsewhere is epistula, the medium of formation itself.'

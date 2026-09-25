@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.eusebius-npnf2-01); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf201", thml_div: "iii"}
 ---
-Rights verified 2026-08-20 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Work presence verified: div1 "The Church History of Eusebius." at
 file line 865; Origen's death notice ("being sixty-nine years of age")
 confirmed at line 39163. Translator note: this volume's two works have

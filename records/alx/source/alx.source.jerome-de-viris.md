@@ -28,7 +28,7 @@ discovery_channel: identified at step 3 as the carrier of primary figure-date at
 external_ids:
   ccel_volume: npnf203
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Loci verified by direct read: De viris 36 (Pantaenus, div
 v.iii.xxxviii, file lines 40202-40222: taught under Severus and
 Caracalla), 38 (Clement, ~line 40249: pupil of Pantaenus, led the school

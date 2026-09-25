@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   When, in course of time, the Christians increased in number, and began to form churches, and appointed priests and deacons, the Magi, who as a priestly tribe had from the beginning in successive generations acted as the guardians of the Persian religion, became deeply incensed against them.
+modern_rendering: >-
+  As time went on, the Christians grew in number. They began to form churches, and they
+  appointed priests and deacons. The Magi were a priestly tribe. From the beginning,
+  generation after generation, they had acted as guardians of the Persian religion. They
+  became deeply angry at the Christians.
 speaker_or_author: Sozomen, Ecclesiastical History
 license: verbatim
 modern_lens_note: >-

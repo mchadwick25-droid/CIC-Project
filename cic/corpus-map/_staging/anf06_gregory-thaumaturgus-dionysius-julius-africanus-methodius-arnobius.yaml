@@ -1,5 +1,3 @@
-# Worker notes, 2026-08-26.
-#
 # The most fragmentary volume in the corpus: seventeen DC.Creator slugs, many
 # represented only by fragments. Word counts from STRUCTURE.md guided which
 # sections are substantive.
@@ -53,6 +51,27 @@ assignments:
     range by a century.
 
     '
+- work: The Oration and Panegyric Addressed to Origen
+  author: gregory_thau
+  locus: div3 under 3.3 'Acknowledged Writings'
+  atlas_ids:
+  - anatolian-church-third-century
+  role: tradition
+  confidence: assigned
+  note: 'A third row for this work, alongside its alexandria-catechetical (the school''s pedagogy)
+    and cappadocian-nicene-pastoral-monastic-tradition (the later tradition''s forerunner) assignments
+    above - this one is Gregory''s own voice, for his own entry, not evidence about someone
+    else''s school or a later tradition''s inheritance. Verified directly against the file:
+    the endnote dates it "Circa a.d. 238" and says it was delivered "when about to leave for
+    his own country" - Gregory''s farewell to Origen''s school at Caesarea on the eve of his
+    return to Pontus, where he became bishop of Neocaesarea. anatolian-church-third-century
+    (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between there
+    and Nicaea. Assigned rather than provisional: unlike the Cappadocian row, this is not a
+    later tradition reaching back to claim a forerunner - it is Gregory''s own document, delivered
+    right at the edge of this world''s own window.
+
+    '
 - work: A Declaration of Faith
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -73,10 +92,10 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Paraphrase in the Greek rhetorical manner; nothing ties it to the Cappadocian entry
-    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. Re-pointed
-    2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added on record, and
-    it is the entry this note was asking for - the gap is regional, not per-author. post-apostolic-house-church
-    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.'
+    beyond its author. Shelved with his other works for want of a 3rd-c. Pontus entry. anatolian-church-third-century
+    (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
+    there and Nicaea.'
 - work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -86,10 +105,9 @@ assignments:
   confidence: assigned
   note: 'Church discipline for Pontic congregations after the Gothic raids of the 250s - concrete
     pastoral-canonical practice from the region the Cappadocians inherited. Same missing-entry
-    problem as above. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312)
-    was added on record, and it is the entry this note was asking for - the gap is regional,
-    not per-author. post-apostolic-house-church ends at 200 and nothing catholic covers Asia
-    Minor between there and Nicaea.'
+    problem as above. anatolian-church-third-century (era 1, c. 240-312) is the entry this
+    note was asking for - the gap is regional, not per-author. post-apostolic-house-church
+    ends at 200 and nothing catholic covers Asia Minor between there and Nicaea.'
 - work: Canonical Epistle
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'
@@ -97,7 +115,7 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: provisional
-  note: 'Added 2026-09-09. A second row rather than an extra atlas_id on the row above, matching
+  note: 'A second row rather than an extra atlas_id on the row above, matching
     the shape this file already uses for The Oration and Panegyric Addressed to Origen: the two
     assignments carry different confidences and a single row cannot. Provisional for the same
     reason both sibling Thaumaturgus rows give - he predates the Cappadocian entry''s 360-380s
@@ -120,22 +138,19 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'CCEL''s own heading marks the body dubious or spurious; several pieces are much later
-    (the Sectional Confession is widely held an Apollinarian production). Needs a ruling on
-    whether a spurious corpus files under the attributed name at all. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: whether a spurious corpus files
-    under the attributed name at all is an attribution ruling no new entry answers. The Sectional
-    Confession is widely held an Apollinarian production, and apollinarian-christianity now
-    exists to receive it if the bundle is ever split. RULED 2026-08-26, under a principle
-    rather than one by one - nine works across six entries were asking the same question,
-    whether a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO
-    FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from
-    outside knowledge, so the transmitted-author shelf stands: that is how the corpus presents
-    it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is
-    added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    (the Sectional Confession is widely held an Apollinarian production). Shelved with anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    The Sectional Confession is widely held an Apollinarian production, and apollinarian-christianity
+    now exists to receive it if the bundle is ever split. On whether a spurious corpus files
+    under the attributed name at all: this is one of nine works across six entries asking
+    the same underlying question, resolved under a single principle rather than one by one.
+    IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup rather
+    than re-attribute from outside knowledge, so the transmitted-author shelf stands: that
+    is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
 - work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
   locus: 'div2 4.3 - two div3 groups: sections of works (On Nature, against Sabellius) and
@@ -173,10 +188,10 @@ assignments:
   note: 'On the harmony of the gospel genealogies - pioneering critical scholarship. Africanus
     (3rd-c. Emmaus/Palestine) has no census home; shelved with alexandria-catechetical only
     on the strength of his documented scholarly exchange with Origen (the Susanna correspondence,
-    anf04 div2 6.6-6.7). Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
-    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
-    be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231.'
+    anf04 div2 6.6-6.7). palestinian-church-pre-constantinian (era 1, c. 185-312) is the entry
+    this hole was asking for. Works flagged in THREE separate piles turned out to be this one
+    hole - Alexandria was standing in for it on the strength of correspondence with Origen,
+    who himself moved to Caesarea around 231.'
 - work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
   author: juliusafricanus
   locus: div2 5.5
@@ -185,10 +200,10 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'The first Christian universal chronicle, foundation of Eusebius'' chronography. Same
-    missing-home problem; same provisional shelf. Re-pointed 2026-08-26: palestinian-church-pre-constantinian
-    (era 1, c. 185-312) was added on record. Works flagged in THREE separate piles turned
-    out to be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231.'
+    missing-home problem; same provisional shelf. palestinian-church-pre-constantinian (era
+    1, c. 185-312) is the entry this hole was asking for. Works flagged in THREE separate
+    piles turned out to be this one hole - Alexandria was standing in for it on the strength
+    of correspondence with Origen, who himself moved to Caesarea around 231.'
 - work: Narrative of Events Happening in Persia on the Birth of Christ
   author: juliusafricanus
   locus: div2 5.4
@@ -197,19 +212,17 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Printed under Africanus but generally regarded as a later pseudonymous legend; kept
-    under the attributed name pending a ruling, on the same shelf as his section. Re-pointed
-    2026-08-26: apocryphal-and-pseudepigraphal-literature was added to hold exactly this class,
-    and alexandria was a provenance guess only. STILL `needs-ruling`: the attribution doubt
-    in this note is untouched by a new entry. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
+    under the attributed name, on the same shelf as his section. apocryphal-and-pseudepigraphal-literature
+    holds exactly this class; alexandria was a provenance guess only. On whether a spurious
+    corpus files under the attributed name at all: this is one of nine works across six entries
+    asking the same underlying question, resolved under a single principle rather than one
+    by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief 6.2 says derive from the markup
+    rather than re-attribute from outside knowledge, so the transmitted-author shelf stands:
+    that is how the corpus presents it and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature
+    is added, because a work circulating under a name that is not its author''s is a pseudepigraphon
+    by definition. The two together say the whole truth - where it sits, and what it is -
+    without re-attributing anything. The spurious corpora could instead be detached
+    from their attributed authors.'
 - work: The Passion of St. Symphorosa and Her Seven Sons
   author: juliusafricanus
   locus: div2 5.6
@@ -245,11 +258,10 @@ assignments:
   note: 'Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and founder of
     the Jerusalem library; the letter fragments mention Clement and Origen (transmitted via
     Eusebius). The Jerusalem entry''s range (325-450) postdates him by a century; Alexandria
-    fits his formation only. Tiny fragments (~1k words); needs a ruling. Re-pointed 2026-08-26:
-    palestinian-church-pre-constantinian (era 1, c. 185-312) was added on record. Works flagged
-    in THREE separate piles turned out to be this one hole - Alexandria was standing in for
-    it on the strength of correspondence with Origen, who himself moved to Caesarea around
-    231.'
+    fits his formation only. Tiny fragments (~1k words); needs a ruling. palestinian-church-pre-constantinian
+    (era 1, c. 185-312) is the entry this hole was asking for. Works flagged in THREE separate
+    piles turned out to be this one hole - Alexandria was standing in for it on the strength
+    of correspondence with Origen, who himself moved to Caesarea around 231.'
 - work: Fragments of Theognostus of Alexandria (from the Hypotyposes)
   author: theognostus
   locus: div2 6.5
@@ -258,14 +270,14 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Alexandrian teacher of the later third century (fl. c. 260); the Hypotyposes fragments,
-    Origenian in cast. NOTE, corrected 2026-09-09 (OG-6): the previous note stated "Head of the
-    catechetical school after Dionysius" as fact. It is an inference - ANF6''s notice says only that he is
-    titled exegetes and that "Dodwell and others are of opinion" this means the school''s presidency. Two
-    things matter for use: he is ABSENT FROM EUSEBIUS entirely (ANF6: "we have no account by either
-    Eusebius or Jerome"), so the Eusebius HIGH-risk screen does not apply to him; but all three fragments
-    reach us through ATHANASIUS quoting him in post-Nicene anti-Arian polemic (De Decretis 25; Ep. 4 ad
-    Serapionem 11), which carries its own selection screen. He is also a disciple of Origen (ANF6, from
-    Photius), so he cannot lift the Origen SYSTEMIC screen.
+    Origenian in cast. Whether he headed the catechetical school after Dionysius is an inference,
+    not documented fact - ANF6''s notice says only that he is titled exegetes and that "Dodwell
+    and others are of opinion" this means the school''s presidency. Two things matter for use:
+    he is ABSENT FROM EUSEBIUS entirely (ANF6: "we have no account by either Eusebius or Jerome"),
+    so the Eusebius HIGH-risk screen does not apply to him; but all three fragments reach us
+    through ATHANASIUS quoting him in post-Nicene anti-Arian polemic (De Decretis 25; Ep. 4
+    ad Serapionem 11), which carries its own selection screen. He is also a disciple of Origen
+    (ANF6, from Photius), so he cannot lift the Origen SYSTEMIC screen.
 
     '
 - work: Fragments of Pierus of Alexandria
@@ -276,10 +288,10 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Alexandrian presbyter and teacher, called "Origen the younger" by Jerome; fragments of his
-    teaching. NOTE, corrected 2026-09-09 (OG-6): the previous note called him "Head of the catechetical
-    school." This world''s own vendored Eusebius contradicts that - HE VII.32 places ACHILLAS over the
-    school, and NPNF''s editor concludes Photius'' contrary report "is false and rests upon a combination
-    of the accounts of Eusebius and Jerome." Note also how thin this is: one four-line quotation preserved
+    teaching. He is not documented head of the catechetical school - this world''s own vendored
+    Eusebius contradicts that reading: HE VII.32 places ACHILLAS over the school, and NPNF''s
+    editor concludes Photius'' contrary report "is false and rests upon a combination of the
+    accounts of Eusebius and Jerome." Note also how thin this is: one four-line quotation preserved
     in Jerome''s Ep. ad Pammachium, plus a hostile Photius summary (Bibl. cod. 119).
 
     '
@@ -331,8 +343,8 @@ assignments:
   confidence: assigned
   note: 'The synodal letter deposing Paul of Samosata (Antioch, 268/9) - a collective document drafted
     by Malchion, head of the Antiochene rhetorical school, who had cross-examined Paul before stenographers.
-    RULED 2026-08-27: antiochene-church-third-century (I.42, c. 190-312) was minted for this gap. The
-    census''s only Antioch entry is Chrysostom-centred and opens eighty years later. THIS IS THE WHOLE
+    antiochene-church-third-century (I.42, c. 190-312) is the entry minted for this gap. The
+    census''s only other Antioch entry is Chrysostom-centred and opens eighty years later. THIS IS THE WHOLE
     OF ITS ENTRY''S CORPUS - one work, three thousand words, the thinnest bucket the map holds. Paul''s
     own teaching remains an unregistered floor question; the entry''s floorNote says so rather than deciding
     it here.
@@ -410,12 +422,12 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. NOTE, corrected
-    2026-09-09 (OG-6): the previous note called him "the bishop-martyr who also headed the catechetical
-    school." Nothing in the vendored material attests that - the whole anf06 div1 ix division nowhere
-    links Peter to the school, and both its introductory notices call him bishop, martyr, and a diligent
-    student of Scripture only. The school-headship tradition descends from Philip of Side, which is not
-    vendored here. Fragment VI ("Of the Soul and Body") is his demonstration against the pre-existence of
+  note: 'Doctrinal fragments of Peter, bishop of Alexandria (300-311) and martyr. He is not
+    documented as head of the catechetical school - nothing in the vendored material attests
+    that: the whole anf06 div1 ix division nowhere links Peter to the school, and both its
+    introductory notices call him bishop, martyr, and a diligent student of Scripture only.
+    The school-headship tradition descends from Philip of Side, which is not vendored here.
+    Fragment VI ("Of the Soul and Body") is his demonstration against the pre-existence of
     souls - pre-Nicene Alexandrian episcopal boundary-drawing against Origen - but reaches us via the
     Sacra Parallela, a 7th-8th c. florilegium.
 
@@ -463,10 +475,9 @@ assignments:
     a Christian rewriting of Plato''s Symposium, foundational for all later ascetic literature.
     Pre-Constantinian Anatolian asceticism has no census entry; shelved with the Cappadocian
     pastoral-monastic entry as the nearest Anatolian ascetic tradition, explicitly as a best
-    guess. Re-pointed 2026-08-26: anatolian-church-third-century (era 1, c. 240-312) was added
-    on record, and it is the entry this note was asking for - the gap is regional, not per-author.
-    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between
-    there and Nicaea.'
+    guess. anatolian-church-third-century (era 1, c. 240-312) is the entry this note was asking
+    for - the gap is regional, not per-author. post-apostolic-house-church ends at 200 and
+    nothing catholic covers Asia Minor between there and Nicaea.'
 - work: Concerning Free-Will (De Autexousio)
   author: methodius
   locus: div2 11.4
@@ -504,22 +515,20 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Festal oration for the Meeting in the Temple, widely regarded as later than Methodius
-    (the feast''s development postdates him). Shelved with his section pending a ruling on
-    the spurious pieces. Re-pointed 2026-08-26 to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature
-    alongside for the pseudonymous character. STILL `needs-ruling`: the question this note
-    asks - whether a spurious corpus files under the attributed name at all - is an attribution
-    ruling that no new entry answers. Worth noting for whoever rules it: the Sectional Confession
-    is widely held an Apollinarian production, and apollinarian-christianity now exists to
-    receive it if the bundle is ever split. RULED 2026-08-26, under a principle rather than
-    one by one - nine works across six entries were asking the same question, whether a spurious
-    corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS.
-    Brief 6.2 says derive from the markup rather than re-attribute from outside knowledge,
-    so the transmitted-author shelf stands: that is how the corpus presents it and how a reader
-    will look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work
-    circulating under a name that is not its author''s is a pseudepigraphon by definition.
-    The two together say the whole truth - where it sits, and what it is - without re-attributing
-    anything. Mark can reverse this in one pass if he wants the spurious corpora detached
-    from their attributed authors instead.'
+    (the feast''s development postdates him). Shelved with his section, in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+    6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
+    transmitted-author shelf stands: that is how the corpus presents it and how a reader will
+    look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
+    under a name that is not its author''s is a pseudepigraphon by definition. The two together
+    say the whole truth - where it sits, and what it is - without re-attributing anything.
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
 - work: Oration on the Palms
   author: methodius
   locus: div2 11.9
@@ -528,22 +537,20 @@ assignments:
   - apocryphal-and-pseudepigraphal-literature
   role: tradition
   confidence: assigned
-  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Re-pointed 2026-08-26
-    to anatolian-church-third-century, with apocryphal-and-pseudepigraphal-literature alongside
-    for the pseudonymous character. STILL `needs-ruling`: the question this note asks - whether
-    a spurious corpus files under the attributed name at all - is an attribution ruling that
-    no new entry answers. Worth noting for whoever rules it: the Sectional Confession is widely
-    held an Apollinarian production, and apollinarian-christianity now exists to receive it
-    if the bundle is ever split. RULED 2026-08-26, under a principle rather than one by one
-    - nine works across six entries were asking the same question, whether a spurious corpus
-    files under the attributed name at all. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
+  note: 'Palm Sunday oration of doubtful authenticity, as the previous row. Shelved in anatolian-church-third-century,
+    with apocryphal-and-pseudepigraphal-literature alongside for the pseudonymous character.
+    Worth noting for whoever revisits it: the Sectional Confession is widely held an Apollinarian
+    production, and apollinarian-christianity now exists to receive it if the bundle is ever
+    split. On whether a spurious corpus files under the attributed name at all: this is one
+    of nine works across six entries asking the same underlying question, resolved under a
+    single principle rather than one by one. IT DOES, AND IT ALSO FILES AS WHAT IT IS. Brief
     6.2 says derive from the markup rather than re-attribute from outside knowledge, so the
     transmitted-author shelf stands: that is how the corpus presents it and how a reader will
     look for it. And apocryphal-and-pseudepigraphal-literature is added, because a work circulating
     under a name that is not its author''s is a pseudepigraphon by definition. The two together
     say the whole truth - where it sits, and what it is - without re-attributing anything.
-    Mark can reverse this in one pass if he wants the spurious corpora detached from their
-    attributed authors instead.'
+    The spurious corpora could instead be detached from their attributed authors in a future
+    pass, if that reading is preferred.'
 - work: Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain
     fragments)
   author: methodius
@@ -553,9 +560,8 @@ assignments:
   role: tradition
   confidence: assigned
   note: 'Fragment collection including anti-Origenist and homiletic material; same shelf and
-    same missing-home flag as the rest of Methodius. Re-pointed 2026-08-26: anatolian-church-third-century
-    (era 1, c. 240-312) was added on record, and it is the entry this note was asking for
-    - the gap is regional, not per-author.'
+    same missing-home flag as the rest of Methodius. anatolian-church-third-century (era 1,
+    c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.'
 - work: The Seven Books of Arnobius Against the Heathen (Adversus Gentes)
   author: arnobius
   locus: div2 12.3
@@ -563,13 +569,11 @@ assignments:
   - latin-apologists
   role: tradition
   confidence: assigned
-  note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius. MOVED 2026-08-27
-    from latin-pastoral-congregational-christianity, where the worker had parked it as provisional with
-    the objection already stated in its own note: combative apologetics by a recent convert, not congregational
-    pastoralia. It was not flagged, only provisional, which is why the gap looked like two works instead
-    of three - a hundred and forty thousand words of it. Note kept: books 3-7 are one of antiquity''s
-    richest repositories of Roman pagan cult detail, strong lived-ecology context value even though the
-    author is Christian.
+  note: 'Arnobius of Sicca, North African rhetor converted c. 300, teacher of Lactantius. Filed
+    under latin-apologists rather than latin-pastoral-congregational-christianity: combative
+    apologetics by a recent convert, not congregational pastoralia - a hundred and forty thousand
+    words of it. Note kept: books 3-7 are one of antiquity''s richest repositories of Roman
+    pagan cult detail, strong lived-ecology context value even though the author is Christian.
 
 
     '

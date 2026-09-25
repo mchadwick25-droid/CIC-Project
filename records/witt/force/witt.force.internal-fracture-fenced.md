@@ -38,23 +38,26 @@ name: 'The internal fracture fenced: one documented exit, and the world''s own c
   elsewhere, 1522-1531 [3B - ending-transforming/internal]'
 kind: ending
 matrix_cell: 3B
-description: 'LAYER 1 (Historical Event). The library attests the BEGINNING of a fracture -- the 1522
-  crisis -- and its being fenced rather than consummated: Karlstadt silenced (Widely Accepted, editorial),
-  then out of Saxony by 1524 and in Switzerland from 1529, ''which takes him outside the world rather
-  than constituting a second pattern within it.'' The world''s own confessional testimony that the fracture
-  was not internal: ''in our Churches no Anabaptists have arisen'' (Ap 4701, Documented as Melanchthon''s
-  claim); the Confession''s five condemnations by name. No successor community is generated FROM WITHIN
-  this world in any vendored text; the 1522 episode is ''a transition event, not a strand'' (Doc_01 §6,
-  re-tested and confirmed at Doc_04 §4). LAYER 2 (World''s Own Experience). The fracture''s edge named
-  as brothers not yet won and as sects wearing a borrowed name: ''there are also brothers and sisters
-  on the other side who belong to us, and must still be won'' (v2 14728-14729); ''sects and false teachers,
-  who all wear the holy name as a cover and sham for their doctrines of devils'' (LC 3272-3273). The fence
-  in its own words: ''no one should publicly teach in the Church or administer the Sacraments unless he
-  be regularly called'' (AC 383-384). The world''s own reading of why it did not split: ''He played a
-  bold game, and won, although it does no harm to the Word of God'' (v2 15214-15215) -- the fracture read
-  as the devil''s game, lost to the Word. LAYER 3 (Formation Impact). The shape of the world''s own edge
-  left at the window: a criterion of legitimacy -- ''regularly called,'' the ''external Word'' -- drawn
-  ''at the conscience, not at the territory.'''
+description: 'The library shows the beginning of a split, the crisis of 1522, and it also shows that split being fenced in
+  rather than carried through. That Karlstadt was silenced is widely accepted, though it rests on the editor''s
+  word. He was out of Saxony by 1524 and in Switzerland from 1529, which takes him outside this world rather than
+  making him a second pattern within it. This world''s own confessions testify that the split did not come from
+  inside: "In our Churches no Anabaptists have arisen" (Ap 4701). It is documented that Melanchthon made this
+  claim, and the Augsburg Confession also gives its five condemnations by name. No text in this library shows a
+  later community growing from within this world, and we read the 1522 episode as a passing crisis, not a separate
+  line within it.
+
+  The world itself named the edge of the split in two ways: some were brothers not yet won, while others were
+  sects wearing a borrowed name. "There are also brothers and sisters on the other side who belong to us, and must
+  still be won" (v2 14728-14729). "Sects and false teachers, who all wear the holy name as a cover and sham for
+  their doctrines of devils" (LC 3272-3273). The fence is stated in the world''s own words: "no one should
+  publicly teach in the Church or administer the Sacraments unless he be regularly called" (AC 383-384). The world
+  also gives its own reason for why it did not split, reading the split as the devil''s game, lost to the Word:
+  "He played a bold game, and won, although it does no harm to the Word of God" (v2 15214-15215).
+
+  By the close of this world''s time frame, this force had left the shape of the world''s own edge. That edge is a
+  test of who is legitimate, resting on being "regularly called" and on the "external Word," and it is drawn "at
+  the conscience, not at the territory."'
 manifestations:
 - '"in our Churches no Anabaptists have arisen" (Ap 4701)'
 - '"there are also brothers and sisters on the other side who belong to us, and must still be won" (v2

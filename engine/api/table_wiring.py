@@ -44,6 +44,7 @@ from engine.api.wiring import (
 )
 from engine.m1.loader import load_fleet_records
 from engine.m4 import events, facilitator_turns, session_code
+from engine.m4 import evidence as ev
 from engine.m4.entrance import open_session
 from engine.m4.projection import SessionState, project_fresh
 from engine.m4.round import (
@@ -56,18 +57,25 @@ from engine.m4.table_governance import detect_direct_address, governance_summary
 from engine.m4.store import Store
 from engine.m4.turn import UnhandledRoutingAction, _maybe_record_usage, run_gate, run_voice_turn_for_world
 from engine.m4.turn_selector import Selection, select_speaker
-from engine.m4.uncited_claims import build_uncited_claims_event, known_tradition_names
+from engine.m4.uncited_claims import (
+    build_uncited_claims_event,
+    conversation_revealed_excerpts,
+    known_tradition_names,
+    match_named_tradition,
+    tradition_known_in_window,
+    world_records_mention_tradition,
+)
 
 import threading
 from contextlib import contextmanager
 
-# One in-process lock per table session (2026-08-28 audit): two overlapping
+# One in-process lock per table session: two overlapping
 # advances both project the same open round and both run a voice turn.
 # In-process is the true scope today - the SQLite store already pins the
 # service to one instance; the Postgres move revisits this alongside it.
 #
-# THIS LOCK IS WHAT MAKES THE ROUND CAP A HARD STOP (independent review,
-# 2026-09-05, on RoundConfig's own "exit condition" claim): two service
+# THIS LOCK IS WHAT MAKES THE ROUND CAP A HARD STOP, checked against
+# RoundConfig's own "exit condition" claim: two service
 # instances behind a shared store could each project round_turns==cap-1
 # and each run one more voice turn, producing cap+1 - the cap logic itself
 # has no cross-process guard of its own. Not a live bug (one instance,
@@ -147,7 +155,7 @@ def create_table_session(
     admitted/open - one unadmitted seat refuses the whole table, checked
     before any load and before anything is written.
 
-    2-3 distinct seats, enforced here too (independent review, 2026-09-05):
+    2-3 distinct seats, enforced here too:
     the HTTP layer (engine.api.app) already checks this, but
     engine.m4.live_table_run and engine.m4.live_table_battery call this
     function directly with an unvalidated --worlds split, and a bad count
@@ -182,7 +190,7 @@ def create_table_session(
             "representative_name": w.frame["representative"]["name"],
             "role_label": w.frame["representative"]["role_label"],
             # card_name over display_name: see door_turn's own docstring
-            # (Built-World Voice Alignment, Mark's ruling 2026-09-17).
+            # (Built-World Voice Alignment).
             "world_name": registry[w.world_key].get("card_name") or w.frame["display_name"],
         }
         for w in worlds
@@ -273,8 +281,8 @@ def table_history_for(world_key: str, transcript: list[dict], labels: dict[str, 
 
 
 def _own_world_named(world_key: str, worlds: dict, message: str) -> bool:
-    """THE ROUND-DESIGN FIX (Mark's ruling, 2026-08-29: "make the round
-    design fix, papnoute confirms from his own witness"). Deterministic:
+    """THE ROUND-DESIGN FIX ("make the round design fix, papnoute confirms
+    from his own witness"). Deterministic:
     the participant's message names this voice's own representative or its
     world's display name -> this voice's world is the SUBJECT under
     discussion, and its turn is framed as the witness confirming, never as
@@ -315,7 +323,7 @@ def _context_prefix(pending: list[str]) -> str | None:
     per-turn user message only (never the cached system prefix, same cache
     discipline as the evidence block) because the model has to actually
     read it as what-was-said, immediately ahead of the question it's now
-    being asked. Deliberately thin since 2026-09-05 (see
+    being asked. Deliberately thin (see
     _table_engagement_directive's own docstring): the behavioral rule about
     this content used to live here too, appended after it, ahead of the
     evidence block and the bare participant message that ends the turn -
@@ -358,8 +366,8 @@ def round_cap_for(mode: str | None) -> int | None:
 
 
 def _scoped_pending(pending: list[str], *, keep_labels: set[str]) -> list[str]:
-    """A return turn's OWN cut of `pending` (independent review, 2026-09-05,
-    the finding that actually mattered): naming one voice in the directive
+    """A return turn's OWN cut of `pending` (the finding that actually
+    mattered): naming one voice in the directive
     text is not structural scoping if the turn can still SEE every other
     voice's full answer sitting in its own context regardless - the exact
     material a full-table synthesis is built from, whatever one sentence
@@ -382,10 +390,10 @@ def _table_engagement_directive(
     """The Table's per-turn behavioral rule - engage what another voice
     just said, stay inside your own witness, keep it compact - in the
     directive channel (engine.m4.turn._build_turn_directive), not the user
-    message it lived in entirely until 2026-09-05.
+    message it used to live in entirely.
 
-    BUG FIX, 2026-09-05 (Mark's report: "Table mode gives independent
-    monologues instead of cross-voice engagement on broad questions"). Root
+    BUG FIX ("Table mode gives independent monologues instead of
+    cross-voice engagement on broad questions"). Root
     cause traced, not assumed: the turn selector (engine.m4.turn_selector)
     only ever decides WHO speaks next - it has no access to and no effect
     on HOW the selected voice answers, so "prefer an unheard voice" and
@@ -399,10 +407,10 @@ def _table_engagement_directive(
     guard was dead code, since pending also carries the participant's own
     message and Facilitator turns).
 
-    DESIGN ENHANCEMENT, 2026-09-05, same day (Mark's own words: "the
+    DESIGN ENHANCEMENT ("the
     quality of the voice doesn't change... a little increase of pressure
-    to shorten... no hard cap or post conversation monitoring"), REVISED
-    after independent adversarial review the same day found real gaps:
+    to shorten... no hard cap or post conversation monitoring"), revised
+    after independent adversarial review found real gaps:
 
     is_second_pass - a voice's FIRST turn in a round (False, points 6-8)
     keeps the engage-and-answer framing, naming agreement as readily as
@@ -431,7 +439,7 @@ def _table_engagement_directive(
     finding: "half the length" and "shorter than your first answer" used
     to both apply to a second-pass turn at once).
 
-    THE ROUND-DESIGN FIX (2026-08-29, Mark's ruling, unchanged by any of
+    THE ROUND-DESIGN FIX (unchanged by any of
     the above): when the round loop detects that THIS voice's own world is
     the question's subject (_own_world_named), the hearsay frame is
     replaced structurally - the subject voice is the witness, confirming
@@ -440,7 +448,7 @@ def _table_engagement_directive(
     not an open "add what you would add" - the review's own find: the
     unscoped wording collided outright with "not another full answer".
 
-    BUG FIX, 2026-09-05, found by the first live proof of this whole design
+    BUG FIX, found by the first live proof of this whole design
     (not the deterministic tests - this only shows up against a real
     model): a voice's own generated text opened with a fabricated line -
     "The Facilitator: Theon, the desert voice has brought something in -
@@ -451,8 +459,8 @@ def _table_engagement_directive(
     produced it was otherwise excellent (real alignment AND contrast, a
     settled close, no self-reference or forward-vantage slip). The likely
     trigger predates this whole design pass: _context_prefix's own
-    "(You are being brought in now...)" parenthetical - Mark's own
-    2026-08-28/29 wording, unchanged today - reads to a model as a cue
+    "(You are being brought in now...)" parenthetical - the project
+    lead's own wording, unchanged since - reads to a model as a cue
     worth dramatizing. Fixed here, in the stronger channel, rather than by
     touching that already-approved user-message text: an explicit
     "begin speaking as yourself... never write a line for the
@@ -460,7 +468,7 @@ def _table_engagement_directive(
     instruction, opening this whole directive so it's the first thing
     read, before the risky phrase's own echo even has room to land.
 
-    STRUCTURAL FIX, 2026-09-05, same day (Mark's own words, after a live
+    STRUCTURAL FIX (after a live
     round closed at the floor on a full-table synthesis - "the three of
     us are saying one thing, from different rooms in the same house":
     "i dont want the voices closing the conversation as it can
@@ -513,7 +521,7 @@ def _table_engagement_directive(
             "tying the whole Table together."
         )
         if own_world_is_subject:
-            # Independent review, 2026-09-05: the non-subject branch below
+            # Independent review: the non-subject branch below
             # says "never a correction of theirs" - correct THERE, where
             # two peer witnesses are being compared, but flatly contradicts
             # this branch's own stance (below), which tells the same voice
@@ -614,8 +622,8 @@ def _close_round(store: Store, state: SessionState, *, reason: str, turns: int, 
     is deliberately absent here: the poc implemented it as a conservative
     model judgment, so it runs in the live battery, not the round loop.
 
-    selector_reason (2026-09-05, Mark's own question: "why isn't it
-    reaching second passes?"): the real turn-selector call's own free-text
+    selector_reason (motivated by a real question: why isn't a round
+    reaching second passes?): the real turn-selector call's own free-text
     Selection.reason USED TO BE DISCARDED ENTIRELY on a genuine selector
     close - `reason="selector_closed"` is only ever the fixed ENUM
     category (round_closed.reason's own allowed values), never the
@@ -717,9 +725,9 @@ def _advance_open_round(
         selector_outcomes = []
     else:
         selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
-        # Presentation order only (Mark's report, 2026-09-05: "it always
-        # answers in the same order... can we simply randomize the order
-        # with everyone still participating") - a fresh shuffle of this
+        # Presentation order only (a real observation: "it
+        # always answers in the same order... can we simply randomize the
+        # order with everyone still participating") - a fresh shuffle of this
         # session's own world_keys, re-rolled on every selector call, never
         # the canonical state.world_keys itself (worlds, labels, direct
         # address, and every other seating-order reader are untouched).
@@ -783,7 +791,7 @@ def _advance_open_round(
     world = worlds[selection.world_key]
     already_told, already_figures, already_glosses = _already_sets_for(selection.world_key, transcript)
     history, pending = table_history_for(selection.world_key, transcript, labels)
-    # A1 (independent review, 2026-09-05): `pending` is never actually empty
+    # A1 (independent review): `pending` is never actually empty
     # on a table call - table_history_for buckets the participant's own
     # message and every Facilitator turn into it too, not only other
     # voices' answers, so the old `if pending` guard fired on every round's
@@ -803,7 +811,7 @@ def _advance_open_round(
     # sides in the review's own live probe.
     is_final_turn = config.cap_reached(position, num_seats=num_seats)
 
-    # SECOND independent review, 2026-09-05, the finding that actually
+    # SECOND independent review, the finding that actually
     # mattered: naming ONE voice in the directive text (engage_name, below)
     # is not a structural fix on its own if `pending` still hands the turn
     # every OTHER voice's full answer too - the material for exactly the
@@ -816,9 +824,9 @@ def _advance_open_round(
     if is_second_pass and engage_name:
         pending = _scoped_pending(pending, keep_labels={PARTICIPANT_LABEL, FACILITATOR_LABEL, engage_name})
 
-    # SEAT-IDENTITY GUARD (Decision-Log.md Entry 47, 2026-09-22): the
-    # Facilitator's label plus every OTHER seated voice's label, both full
-    # ("Name (World)") and bare ("Name") forms - never the speaking voice's
+    # SEAT-IDENTITY GUARD: the Facilitator's label plus every OTHER seated
+    # voice's label, both full ("Name (World)") and bare ("Name") forms -
+    # never the speaking voice's
     # own label (self-labeling is a separate, milder, out-of-scope defect;
     # see engine.m4.seat_identity_guard's own module docstring).
     guard_labels = [FACILITATOR_LABEL]
@@ -827,6 +835,84 @@ def _advance_open_round(
             continue
         guard_labels.append(labels[k])
         guard_labels.append(w.frame["representative"]["name"])
+
+    # OTHER-TRADITION PARITY WITH INTERVIEW: this seat's own directive
+    # gets the same out-of-scope treatment engine.m4.turn.run_turn uses
+    # for interview - out_of_scope_class == "other_tradition" - never
+    # re-derived per turn within a round (out_of_scope_class, above, is
+    # the round's own opening classification, read back unchanged on
+    # every continue; see _continue_table_round_unlocked). The evidence
+    # lookup is #440's own fix, scoped to THIS SEAT'S world (not a single
+    # fixed world the way interview's one-voice session is): does this
+    # seat's own package already name the tradition asked about, from the
+    # participant's own raw text. The Table's own seat-to-seat clause
+    # (table_engagement, below) is a separate channel in
+    # _build_turn_directive and composes with this one - neither
+    # suppresses the other.
+    #
+    # FIX 1 (a seat drawn back in repeats the fixed sentence): turn_
+    # selector may draw the same seat back into the SAME round (is_
+    # second_pass, computed above) - interview never repeats a first-ask
+    # answer (its own second ask routes to etic_turn instead), so this
+    # seat's own SECOND OR LATER turn this round must drop the fixed
+    # honest-limit sentence while keeping the knowledge-scope
+    # framing and any evidence ids - engine.m4.turn._other_tradition_
+    # directive's own repeat_turn parameter.
+    #
+    # FIX 2 (the named tradition is seated at this Table), corrected
+    # after the first version got it wrong: match_named_tradition only
+    # ever excludes the SPEAKING seat, so a tradition seated ELSEWHERE at
+    # this same table can still match - the fixed sentence would then be
+    # false (that tradition's own Representative sits right there).
+    # tradition_seated suppresses the fixed sentence unconditionally; the
+    # evidence branch still applies if this seat's own records happen to
+    # name the seated tradition.
+    #
+    # The first version assumed that with no evidence, the Table's own
+    # seat-to-seat clause (table_engagement) already governed, and
+    # returned None. That was wrong: table_engagement is built only when
+    # other_voice_has_spoken (below) - NEVER on a round's true opening
+    # turn, which is exactly the turn that names the seated tradition in
+    # the first place. Returning None there left the model completely
+    # ungoverned on it, and the live battery caught the real result: a
+    # voice claiming the seated tradition's own name as its own.
+    # other_tradition_seated_name (the seated tradition's
+    # own registry card_name) now threads through so
+    # engine.m4.turn._other_tradition_directive can build a real
+    # seated-tradition directive instead of returning None.
+    is_other_tradition_first_ask = out_of_scope_class == "other_tradition"
+    other_tradition_evidence_ids = None
+    other_tradition_seated = False
+    other_tradition_seated_name = None
+    other_tradition_repeat_turn = is_second_pass
+    other_tradition_known_in_window = None
+    other_tradition_revealed = None
+    if is_other_tradition_first_ask:
+        named_tradition_key = match_named_tradition(participant_text, registry, exclude_world_key=selection.world_key)
+        other_tradition_seated = named_tradition_key in state.world_keys if named_tradition_key else False
+        other_tradition_seated_name = registry[named_tradition_key]["card_name"] if other_tradition_seated else None
+        other_tradition_evidence_ids = (
+            world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
+            if named_tradition_key else None
+        )
+        # Per seat: condition (a) is THIS seat's own window against the
+        # named tradition's; condition (b) is what the Facilitator, the
+        # participant, and every other seat have actually said about it,
+        # read from the same replayed transcript this seat's own history is built
+        # from. The round's own opening participant message is the
+        # question itself, not a revelation, so it is dropped; every seat
+        # turn after it in this round still counts.
+        if named_tradition_key:
+            other_tradition_known_in_window = tradition_known_in_window(
+                registry[selection.world_key], registry[named_tradition_key]
+            )
+            question_index = max(i for i, t in enumerate(transcript) if t.get("speaker") == "participant")
+            other_tradition_revealed = conversation_revealed_excerpts(
+                transcript[:question_index] + transcript[question_index + 1:],
+                registry[named_tradition_key],
+                speaking_world_key=selection.world_key,
+                labels=labels,
+            )
 
     try:
         voice_event, voice_usage = run_voice_turn_for_world(
@@ -855,6 +941,13 @@ def _advance_open_round(
             ),
             usage_world_key=selection.world_key,
             guard_labels=guard_labels,
+            is_other_tradition_first_ask=is_other_tradition_first_ask,
+            other_tradition_evidence_ids=other_tradition_evidence_ids,
+            other_tradition_seated=other_tradition_seated,
+            other_tradition_seated_name=other_tradition_seated_name,
+            other_tradition_repeat_turn=other_tradition_repeat_turn,
+            other_tradition_known_in_window=other_tradition_known_in_window,
+            other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=selection.world_key) if r27_enforce else None,
             self_revision_enabled=self_revision_enabled,
@@ -872,7 +965,7 @@ def _advance_open_round(
 
     usage_records.extend(voice_usage)
 
-    # SEAT-IDENTITY GUARD, continued (Decision-Log.md Entry 47): log every
+    # SEAT-IDENTITY GUARD, continued: log every
     # catch (0, 1, or 2 - round_no/position filled in here, the only
     # things engine.m4.turn's own call couldn't know), then either persist
     # this as a normal voice_turn (clean on the first try, or clean after
@@ -888,7 +981,7 @@ def _advance_open_round(
     events.validate("voice_turn", voice_event)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=voice_event)
 
-    # R27 (Decision-Log.md Entry 51, 2026-09-22), report-only: same
+    # Uncited-claims check, report-only: same
     # out_of_scope_class the caller already read off the opening gate_decision
     # (or, on a continue, the round's last one) - not re-derived here. A
     # voice_event with no "uncited_claims" key (a Facilitator-authored
@@ -909,12 +1002,11 @@ def _advance_open_round(
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="facilitator_turn", payload=fallback_event)
         common["facilitator"] = [*common["facilitator"], fallback_event]
 
-    # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
-    # 2026-09-23): the same "existing fallback" the reviewer thread's own
-    # item 5 message asked for - table_seat_correction_turn reused as-is,
-    # same kind, same wording, since the participant-facing outcome (this
-    # seat's own turn didn't hold together, so it's set aside) reads
-    # correctly for either cause. Only interview mode needed new wording
+    # Same fallback for the enforcement-exhausted case as the guard case
+    # above: table_seat_correction_turn reused as-is, same kind, same
+    # wording, since the participant-facing outcome (this seat's own turn
+    # didn't hold together, so it's set aside) reads correctly for either
+    # cause. Only interview mode needed new wording
     # (engine.m4.facilitator_turns.voice_rejected_turn) - see that
     # function's own docstring for why.
     if voice_event.get("r27_enforcement_exhausted"):
@@ -1130,8 +1222,8 @@ def continue_table_round(*, session_id: str, **kwargs) -> TableMessageResult:
 
 def get_round_close_reasons(store: Store, session_id: str) -> list[dict]:
     """Every round_closed event's own payload, oldest round first -
-    diagnostic-only read (2026-09-05, Mark's own question on a real
-    production round: "why did it close there?"). selector_reason is
+    diagnostic-only read (motivated by a real production round's own
+    question: "why did it close there?"). selector_reason is
     present only on a genuine selector close (_close_round); the cap and
     floor_unmet_exhausted paths carry reason/turns/governance with no
     model free-text to show."""

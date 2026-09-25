@@ -46,6 +46,6 @@ senses:
 quick_meaning: The question after every part of our catechism. Not memory. Meaning.
 distortion_risk: medium
 ---
-Built from Doc_06 §5 entry 4.3 ('What does this mean?', Tier 3 ↓ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (catechesis). Source Registry rows cited: R25, R26. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.3 ('What does this mean?', Tier 3 ↓ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT]. Author Gravity: Luther-only, single-register (catechesis). Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

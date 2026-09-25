@@ -15,7 +15,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Documented as prescription -- the catechism program itself, to the hour -- and Inferential/Thin
     as any household''s or parish''s actual practice, with the reading of reception Contested (the Strauss/Scribner/Kittelson
-    debate, rowed R70-R72). This record carries Reported-Experience Status: reported as our own self-understanding,
+    debate). This record carries Reported-Experience Status: reported as our own self-understanding,
     not assessed for historical accuracy at the household level; the confidence tag above applies to the
     documented program, not to any claim about what any household actually did.'
 sources:
@@ -110,7 +110,7 @@ senses:
 quick_meaning: The three parts every Christian must know, said daily for life. Never outgrown, never finished.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.1 (catechism / 'the three parts', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][RT]. Author Gravity: none for the practice; the household mechanism is the household entry's own. Source Registry rows cited: R14, R25, R26, R31, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.1 (catechism / 'the three parts', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][TC][RT]. Author Gravity: none for the practice; the household mechanism is the household entry's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Reported-Experience Status (Doc_06 §5 entry 4.1): reported as our own self-understanding, not assessed for historical accuracy; the catechism program sits under the same divergence as household -- formationally central and prescriptively documented to the hour, while whether any household or parish actually held it is Inferential/Thin.
 

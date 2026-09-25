@@ -1,4 +1,4 @@
-# Worker: npnf210-214 group, 2026-08-26.
+# npnf210-214 group.
 # Conciliar acts are collective, anonymous, and first-class (brief §6.4).
 # npnf214 carries NO DC.Creator metadata at all - the div titles are the only
 # signal, hence the ruled work-entities below.
@@ -194,9 +194,9 @@ assignments:
   - imperial-juridical-christianity
   role: tradition
   confidence: provisional
-  note: 'c. 314: discipline for the lapsed after the Great Persecution. Provisional because
-    these provincial canons are placed in ijc as the imperial-era church-law corpus the ecumenical
-    councils received - a reviewer may prefer a finer home once one exists.
+  note: 'c. 314: discipline for the lapsed after the Great Persecution. Provisional because these
+    provincial canons are placed in ijc as the imperial-era church-law corpus the ecumenical
+    councils received. A finer home may exist to move to once one is added to the census.
 
     '
 - work: The Canons of the Council of Neocaesarea
@@ -266,9 +266,8 @@ assignments:
   note: 'Theodosius'' council and the Nicene-Constantinopolitan creed. The cappadocian id
     is the arguable one: Gregory Nazianzen presided for part of the council and its pneumatology
     ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
-    2026-08-26: canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
-    as separate parties; each now has its own entry and this work is the record of all of
-    them.'
+    Canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as
+    separate parties; each now has its own entry and this work is the record of all of them.'
 - work: 'The First Council of Constantinople (381): Creed, Canons, Synodical Letter'
   author: council-of-constantinople-381
   locus: div1 9
@@ -279,12 +278,10 @@ assignments:
   - apollinarian-christianity
   role: context
   confidence: assigned
-  note: 'Canon 1 anathematizes Eunomians, Arians, Semi-Arians and Macedonians by name - the
-    formal record of the parties the homoian entry names, from their condemners. 2026-08-26:
-    anomoean-eunomian-christianity added alongside, since canon 1 names Eunomians and Arians
-    as separate parties and this work is the record of both. 2026-08-26: canon 1 condemns
-    Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as separate parties;
-    each now has its own entry and this work is the record of all of them.'
+  note: 'Canon 1 anathematizes Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
+    by name, as separate parties - the formal record of the parties each of these entries
+    names, from their condemners. Each now has its own entry, and this work is the record of
+    all of them.'
 - work: 'The Council of Ephesus (431): Extracts from the Acts, Decree, Canons'
   author: council-of-ephesus-431
   locus: div1 10 — acts extracts, decree against Nestorius 10.11, Coelestine's letter 10.13,
@@ -531,10 +528,11 @@ assignments:
   note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
     Pseudonymous church-order material of the 4th century with no census entry of its own;
     best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
-    Constitutions, of which these canons form the close) is in anf07 under another worker,
-    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
-    church law in the imperial-era East, which is what this entry is.'
+    Constitutions, of which these canons form the close) is in anf07 under another worker.
+    Whether the pair should be placed together under one ruling is still open.
+    apocryphal-and-pseudepigraphal-literature is added alongside for the pseudo-apostolic
+    character. ijc is kept - these functioned as church law in the imperial-era East, which is
+    what this entry is.'
 - work: The Canonical Epistles of the Fathers received by Trullo Canon II
   author: canonical-epistles-fathers
   locus: div2 17.5-17.32 — Dionysius of Alexandria, Peter of Alexandria, Gregory Thaumaturgus,
@@ -544,24 +542,25 @@ assignments:
   - imperial-juridical-christianity
   role: tradition
   confidence: assigned
-  note: 'A canon-law collection whose parts are individually attributed - most to authors
-    with existing slugs (basil, athanasius, gregory_thau, dionysius_gr, peter_alexandria,
-    gregory_naz). Held as one collection-entity pending a ruling on granularity: a per-father
-    split would send Basil, Nyssa and Nazianzen to the cappadocian entry, the Alexandrian
-    canonists toward alexandria-catechetical and the Cyrilline entry, and so on - but it would
-    also mint ~10 more rows for 17k words of canons whose functional home is the received
-    Eastern canon-law corpus. Best guess pending that ruling: ijc, as for the other received
-    canons. NB the volume''s theophilus and gennadius are of Alexandria and Constantinople
-    - NOT the AUTHORS.md slugs theophilus (Antioch) and gennadius (Marseilles); a per-father
-    split must not reuse those slugs. Split 2026-08-26 on Mark''s ruling, derived from the
-    volume''s own div2 sections rather than from the list in Trullo canon 2. The collection
-    is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons, already a separate
-    work, so this split covers 17.5-17.32. THE RECEPTION STAYS ONE ROW. The worker''s objection
-    to a per-father split was that it mints ten rows for seventeen thousand words, and it
-    was right about the cost. So the split does not duplicate the reception fact: this row
-    stays as the received Eastern canon-law corpus on imperial-juridical-christianity, and
-    the per-father rows carry only their authors'' home entries. One row for what the East
-    received, twelve for who wrote it.'
+  note: 'A canon-law collection whose parts are individually attributed - most to authors with
+    existing slugs (basil, athanasius, gregory_thau, dionysius_gr, peter_alexandria, gregory_naz).
+    This row holds the collection-entity itself: the received Eastern canon-law corpus on
+    imperial-juridical-christianity. The per-father rows below carry the individual authors to
+    their own home entries - Basil, Nyssa and Nazianzen to the cappadocian entry, the
+    Alexandrian canonists toward alexandria-catechetical and the Cyrilline entry, and so on -
+    derived from the volume''s own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so the per-father split covers 17.5-17.32.
+
+    NB the volume''s theophilus and gennadius are of Alexandria and Constantinople - not the
+    AUTHORS.md slugs theophilus (Antioch) and gennadius (Marseilles); the per-father rows do
+    not reuse those slugs.
+
+    The split does not duplicate the reception fact: this row stays as the received Eastern
+    canon-law corpus, one row for what the East received, rather than the roughly ten additional
+    rows a full per-father split of 17k words would otherwise cost. The per-father rows carry
+    only their authors'' home entries - one row for what the East received, twelve for who
+    wrote it.'
 - work: The canonical letter of Dionysius of Alexandria to Basilides
   author: dionysius_gr
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -570,10 +569,10 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: The canons of Peter of Alexandria, from his Sermon on Penitence
   author: peter_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -582,12 +581,12 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE, as with Gregory Thaumaturgus:
-    anf06 div2 9.4 carries ''The Canonical Epistle of Peter of Alexandria'' with Balsamon''s
-    commentaries, already assigned to this entry. Two vendored witnesses to one text.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father''s share
+    of it. A duplicate, as with Gregory Thaumaturgus: anf06 div2 9.4 carries ''The Canonical
+    Epistle of Peter of Alexandria'' with Balsamon''s commentaries, already assigned to this
+    entry. Two vendored witnesses to one text.'
 - work: The Canonical Epistle of Gregory Thaumaturgus, on those who ate with the barbarians
   author: gregory_thau
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -596,12 +595,11 @@ assignments:
   - anatolian-church-third-century
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. NOTE A DUPLICATE: anf06 carries the
-    same work, already assigned to this entry. Two vendored witnesses to one text, which is
-    worth knowing before anyone counts words.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father''s share
+    of it. A duplicate: anf06 carries the same work, already assigned to this entry. Two
+    vendored witnesses to one text, which is worth knowing before anyone counts words.'
 - work: The canonical epistles of Athanasius (to Ammus; from the XXXIX Festal Epistle; to
     Ruffinian)
   author: athanasius
@@ -611,10 +609,10 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: The canonical epistles of Basil to Amphilochius and others
   author: basil
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -623,12 +621,12 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. The largest part of the collection
-    by a wide margin, and the reason the split is worth making: Basil''s canonical letters
-    are a quarter of these canons and belong with Basil.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father''s share
+    of it. The largest part of the collection by a wide margin, and the reason the split is
+    worth making: Basil''s canonical letters are a quarter of these canons and belong with
+    Basil.'
 - work: The Canonical Epistle of Gregory of Nyssa to Letoius of Melitene
   author: gregory_nyssa
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -637,10 +635,10 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: From the metrical poems of Gregory Theologus, on the canon of Scripture
   author: gregory_naz
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -649,10 +647,10 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: From the Iambics of Amphilochius to Seleucus, on the canon of Scripture
   author: amphilochius
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -661,10 +659,10 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: The Canonical Answers of Timothy of Alexandria
   author: timothy_alexandria
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -673,10 +671,10 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it.
 - work: The canons of Theophilus of Alexandria (Prosphonesus; Commonitory; to Agatho; to Menas;
     on the Cathari)
   author: theophilus_alexandria
@@ -686,12 +684,12 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. `provisional` on the date, not the
-    author: Theophilus died in 412 and alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition
-    does not begin until 451. He falls in the gap between them.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father''s share
+    of it. `provisional` on the date, not the author: Theophilus died in 412 and
+    alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition does not
+    begin until 451. He falls in the gap between them.'
 - work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
     and Pentapolis)
   author: cyril_alexandria
@@ -701,13 +699,12 @@ assignments:
   - cyrilline-miaphysite-egyptian-tradition
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. Follows the placement already in the
-    map: Cyril''s Epistles and XII Anathematisms sit in the Cyrilline entry, though he died
-    in 444 and that entry opens at 451. Consistent with the precedent rather than newly stretched
-    here.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
+    2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father''s share
+    of it. Follows the placement already in the map: Cyril''s Epistles and XII Anathematisms
+    sit in the Cyrilline entry, though he died in 444 and that entry opens at 451. Consistent
+    with the precedent rather than newly stretched here.'
 - work: The Encyclical Letter of Gennadius of Constantinople and his synod
   author: gennadius_constantinople
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -716,7 +713,7 @@ assignments:
   - byzantine-imperial-church-justinianic
   role: tradition
   confidence: assigned
-  note: Split 2026-08-26 on Mark's ruling, derived from the volume's own div2 sections rather
-    than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words; sections
-    3-4 are the Apostolical Canons, already a separate work, so this split covers 17.5-17.32.
-    This row is one father's share of it. Patriarch 458-471, inside that entry's 451-622 window.
+  note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
+    The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
+    already a separate work, so this split covers 17.5-17.32. This row is one father's share
+    of it. Patriarch 458-471, inside that entry's 451-622 window.

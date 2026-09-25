@@ -13,13 +13,15 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 | work | author | role | confidence | source file |
 |---|---|---|---|---|
-| Fragments of Alexander of Cappadocia | alexander_capp | — | — | — |
-| The Catechetical Lectures (Procatechesis, Catecheses I–XVIII, Mystagogic Catecheses) | cyril_jerusalem | tradition | assigned | npnf207, ~200,000 words |
-| On Pilgrimages | gregory_nyssa | — | — | — |
+| Fragments of Alexander of Cappadocia | alexander_capp | tradition | assigned | anf06 |
+| The Catechetical Lectures (Procatechesis, Catecheses I–XVIII, Mystagogic Catecheses) | cyril_jer | tradition | assigned | npnf207, ~200,000 words |
+| On Pilgrimages | gregory_nyssa | tradition | assigned | npnf205 |
 | Letter CVIII (To Eustochium — Epitaph of Paula) | jerome | tradition | assigned | npnf206 |
-| The Divine Liturgy of James | liturgy-of-st-james | tradition | — | — |
+| The Divine Liturgy of James | liturgy-of-st-james | tradition | provisional | anf07 |
 
 Cyril of Jerusalem's Catechetical Lectures are the real anchor here — ~200K words, a genuine central 4th-century catechesis text.
+
+(Table corrected 2026-09-25 against a direct re-read of `cic/corpus-map/jerusalem-liturgical-pilgrimage-christianity.yaml`: the row count and work list were already accurate, but the role/confidence/source-file columns for Alexander of Cappadocia, On Pilgrimages, and The Divine Liturgy of James had gone stale to placeholder dashes, and Cyril's author id was mis-typed as `cyril_jerusalem` rather than the actual `cyril_jer`. No new assignments were added or removed; this is a text-only fix.)
 
 ## 2. Cross-link opportunities
 

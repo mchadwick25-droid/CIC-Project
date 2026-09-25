@@ -27,6 +27,32 @@ works:
 
     '
   source_file: npnf210_ambrose-select-works-letters.xml
+- work: Res Gestae, Book XXVII.3 - the 366 basilica election riot between Damasus's and Ursinus's
+    parties
+  author: ammianus-marcellinus
+  locus: Res Gestae XXVII.3.12-13 (file lines 23186-23187 for the casualty figure; the whole
+    episode at Book 27.3)
+  role: context
+  confidence: assigned
+  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly
+    by ijc''s own build (ijc.source.ammianus-marcellinus, ijc.quote.ammianus-sicininus-massacre).
+    Verified directly against the file: "It is certain that on one day one hundred and thirty-seven
+    dead bodies were found in the Basilica of Sicininus, which is a Christian church" (lines
+    23186-23187), matching the quote record''s own verbatim text exactly. This is a pagan
+    Roman historian''s own outside account of the 366 Damasus-Ursinus election riot - previously
+    carried in this build only at second hand, via npnf202''s own editorial endnote quoting
+    Ammianus; the primary text now stands behind that figure directly. `role: context`, not
+    `tradition`: Ammianus is not a Christian witness and the register is etic throughout -
+    "a hostile pagan witness writing from outside the church," per ijc''s own source record
+    - but the account is load-bearing corroboration for ijc.figure.damasus and corroborates
+    Socrates'' own inside account of the same event (ijc.quote.socrates-damasus-election)
+    with an independent casualty figure Socrates does not give. No other Atlas entry in the
+    current census plausibly draws on this specific episode; not checked exhaustively against
+    the full census beyond ijc, which is the only world this file is used by anywhere in the
+    corpus as of this pass.
+
+    '
+  source_file: ammianus-marcellinus_roman-history_yonge1862.txt
 - work: Appendix of Documents (the Anti-Donatist Dossier, Appendices I-XVI)
   author: anti-donatist-dossier
   locus: as above
@@ -45,13 +71,13 @@ works:
   locus: div2 17.3-17.4 — The Canons of the Holy and Altogether August Apostles
   role: tradition
   confidence: assigned
-  note: 'The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
+  note: The 85 canons attributed to the Apostles, received in the East via Trullo canon 2.
     Pseudonymous church-order material of the 4th century with no census entry of its own;
     best guess is the imperial-era church-law corpus, but its sibling text (the Apostolic
-    Constitutions, of which these canons form the close) is in anf07 under another worker,
-    and one ruling should place the pair together. 2026-08-26: apocryphal-and-pseudepigraphal-literature
-    added alongside for the pseudo-apostolic character. ijc is kept - these functioned as
-    church law in the imperial-era East, which is what this entry is.'
+    Constitutions, of which these canons form the close) is in anf07 under another worker.
+    Whether the pair should be placed together under one ruling is still open. apocryphal-and-pseudepigraphal-literature
+    is added alongside for the pseudo-apostolic character. ijc is kept - these functioned
+    as church law in the imperial-era East, which is what this entry is.
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: Apology to the Emperor (Apologia ad Constantium)
   author: athanasius
@@ -90,6 +116,29 @@ works:
 
     '
   source_file: npnf102_augustine-city-of-god-christian-doctrine.xml
+- work: The Confessions
+  author: augustine
+  locus: div1 6 — The Confessions, Book IX ch. 7 ONLY
+  role: context
+  confidence: assigned
+  note: 'Deliberately narrow, per this world''s own source record (ijc.source.augustine-confessions):
+    only Book 9 ch. 7 is licensed - Augustine''s eyewitness account, as a young Milan rhetoric
+    professor, of the 386 basilica standoff: the congregation''s vigil, the introduction of
+    antiphonal hymn-singing "after the manner of the Eastern Church," and the finding of Gervasius
+    and Protasius. Verified directly against the file: "after the manner of the Eastern Church,
+    hymns and psalms should be sung" (line 13771), matching this world''s own quote record
+    (ijc.quote.hymns-and-psalms-should-be-sung) verbatim.
+
+    `role: context`, not `tradition`, per that source record''s own explicit Boundary Check
+    ruling (legacy Registry rows 8/26): "Augustine''s formation, theology, and the rest of
+    the Confessions belong to the Latin Pastoral-Congregational world... do not extend this
+    license." This one passage is Native to ijc only as independent eyewitness corroboration
+    of Ambrose''s own conduct in the standoff - "the only such corroboration this world''s
+    record has for any of Ambrose''s own claims about his own confrontations" - not as a claim
+    on the rest of the work.
+
+    '
+  source_file: npnf101_augustine-confessions-letters.xml
 - work: The Correction of the Donatists (De Correctione Donatistarum, Letter 185)
   author: augustine
   locus: div2 5.6 — The Correction of the Donatists
@@ -97,8 +146,7 @@ works:
   confidence: provisional
   note: 'Direct evidence for the ijc world''s core question — the church''s use of imperial
     law — written to an imperial officer to justify coercive legislation. Provisional because
-    Augustine stands outside the Rome-Constantinople-Milan orbit; a reviewer may prefer ijc
-    to reach this through the laws themselves rather than their North African advocate.
+    Augustine stands outside the Rome-Constantinople-Milan orbit.
 
     '
   source_file: npnf104_augustine-anti-manichaean-anti-donatist.xml
@@ -111,22 +159,23 @@ works:
   confidence: assigned
   note: 'A canon-law collection whose parts are individually attributed - most to authors
     with existing slugs (basil, athanasius, gregory_thau, dionysius_gr, peter_alexandria,
-    gregory_naz). Held as one collection-entity pending a ruling on granularity: a per-father
-    split would send Basil, Nyssa and Nazianzen to the cappadocian entry, the Alexandrian
-    canonists toward alexandria-catechetical and the Cyrilline entry, and so on - but it would
-    also mint ~10 more rows for 17k words of canons whose functional home is the received
-    Eastern canon-law corpus. Best guess pending that ruling: ijc, as for the other received
-    canons. NB the volume''s theophilus and gennadius are of Alexandria and Constantinople
-    - NOT the AUTHORS.md slugs theophilus (Antioch) and gennadius (Marseilles); a per-father
-    split must not reuse those slugs. Split 2026-08-26 on Mark''s ruling, derived from the
-    volume''s own div2 sections rather than from the list in Trullo canon 2. The collection
-    is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons, already a separate
-    work, so this split covers 17.5-17.32. THE RECEPTION STAYS ONE ROW. The worker''s objection
-    to a per-father split was that it mints ten rows for seventeen thousand words, and it
-    was right about the cost. So the split does not duplicate the reception fact: this row
-    stays as the received Eastern canon-law corpus on imperial-juridical-christianity, and
-    the per-father rows carry only their authors'' home entries. One row for what the East
-    received, twelve for who wrote it.'
+    gregory_naz). This row holds the collection-entity itself: the received Eastern canon-law
+    corpus on imperial-juridical-christianity. The per-father rows below carry the individual
+    authors to their own home entries - Basil, Nyssa and Nazianzen to the cappadocian entry,
+    the Alexandrian canonists toward alexandria-catechetical and the Cyrilline entry, and
+    so on - derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so the per-father split covers 17.5-17.32.
+
+    NB the volume''s theophilus and gennadius are of Alexandria and Constantinople - not the
+    AUTHORS.md slugs theophilus (Antioch) and gennadius (Marseilles); the per-father rows
+    do not reuse those slugs.
+
+    The split does not duplicate the reception fact: this row stays as the received Eastern
+    canon-law corpus, one row for what the East received, rather than the roughly ten additional
+    rows a full per-father split of 17k words would otherwise cost. The per-father rows carry
+    only their authors'' home entries - one row for what the East received, twelve for who
+    wrote it.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: On the Incarnation of the Lord, Against Nestorius (De Incarnatione)
   author: cassian
@@ -137,13 +186,12 @@ works:
     question from a single source. This is the desert tradition''s own author writing Christology
     - assigned to desert to widen exactly that base - and it was commissioned in Rome by the
     archdeacon Leo in 430 as part of the Western church''s response to Nestorius on the eve
-    of Ephesus, which is ijc''s world. Re-pointed 2026-09-08: same author-tradition basis
-    as the Institutes and Conferences rows above - Cassian''s own authored corpus, written
-    while he led the Marseilles houses, belongs to the Gallic monastic-ascetic entry (era
-    2, c. 360-450) even though its content is Christological rather than about Gallic monastic
+    of Ephesus, which is ijc''s world. Also filed under the Gallic monastic-ascetic entry
+    (era 2, c. 360-450) on the same author-tradition basis as the Institutes and Conferences
+    rows above: Cassian''s own authored corpus, written while he led the Marseilles houses,
+    belongs there even though its content is Christological rather than about Gallic monastic
     life directly. The case document that surfaced the entry (CASE-gallic-monasticism.md)
-    counted this work in Cassian''s own 364,648-word figure but the corpus map had not yet
-    been re-pointed to match.
+    counts this work in Cassian''s own 364,648-word figure.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -238,7 +286,7 @@ works:
   confidence: provisional
   note: 'c. 314: discipline for the lapsed after the Great Persecution. Provisional because
     these provincial canons are placed in ijc as the imperial-era church-law corpus the ecumenical
-    councils received - a reviewer may prefer a finer home once one exists.
+    councils received. A finer home may exist to move to once one is added to the census.
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
@@ -262,9 +310,8 @@ works:
   note: 'Theodosius'' council and the Nicene-Constantinopolitan creed. The cappadocian id
     is the arguable one: Gregory Nazianzen presided for part of the council and its pneumatology
     ratifies the Cappadocian settlement - trim it if that reads as reception rather than tradition.
-    2026-08-26: canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians
-    as separate parties; each now has its own entry and this work is the record of all of
-    them.'
+    Canon 1 condemns Eunomians, Arians, Semi-Arians (Pneumatomachians) and Apollinarians as
+    separate parties; each now has its own entry and this work is the record of all of them.'
   source_file: npnf214_seven-ecumenical-councils.xml
 - work: The Canons of the Council of Constantinople under Nectarius (394)
   author: council-of-constantinople-394
@@ -371,8 +418,8 @@ works:
   note: 'Eusebius is the first historian and theological architect of the Constantinian settlement;
     Books VIII-X narrate persecution, victory and the Constantinian peace from inside the
     new imperial church and close with the panegyric at Tyre. The census has no entry for
-    Caesarean or Palestinian Christianity as such, so ijc is his own entry''s nearest equivalent;
-    a reviewer may want that stated limitation on record.
+    Caesarean or Palestinian Christianity as such, so ijc is his own entry''s nearest equivalent
+    - a limitation worth stating on record.
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
@@ -397,6 +444,32 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: De Synodis (On the Councils)
+  author: hilary_poit
+  locus: div2 2.4 (~25,840 words), nested under the apparatus-flagged div1 2
+  role: context
+  confidence: assigned
+  note: 'Added for ijc, per this world''s own source record (ijc.source.hilary-de-synodis):
+    De Synodis is the closest vendorable witness to the actual creed formulae of the Homoian-
+    establishment years, quoted and assessed at length by a contemporary Western bishop writing
+    to explain the Eastern councils to the bishops of Gaul - used to satisfy the binding Homoian-
+    recentering obligation (Step 0 SS4.1) where the one piece of Homoian self-testimony the
+    legacy Registry names (Auxentius on Ulfila) has no public-domain English translation.
+    Verified directly: the "De Synodis or On the Councils" division opens at div2 2.4 (file
+    line 7536), with the Sirmium/"like the Father" formula discussed from line 8067 onward,
+    matching the record''s own citation exactly. The same volume''s Prolegomena (div2 2.3,
+    apparatus, not a separate work) also informed ijc.dw.ancient-custom''s treatment of Augustine''s
+    386 hymn-singing witness, per that source record''s own discovery_channel note (Hilary''s
+    own attempted and unsuccessful introduction of hymns into public worship, contrasted with
+    the Milan basilica-crisis hymnody that did take) - not assigned as its own row since it
+    is editorial apparatus, not Hilary''s own text.
+
+    `role: context`, not `tradition`: hostile in allegiance (pro-Nicene) and used here only
+    for the era''s formulae and texture, "never as Homoian self-testimony, which it is not"
+    - the same distinction already governing the homoian-arian-christianity context row above.
+
+    '
+  source_file: npnf209_hilary-poitiers-john-damascus.xml
 - work: Letters of Innocent of Rome concerning Chrysostom
   author: innocent_rome
   locus: div1 18, div2 18.5-18.6 — Innocent to John; Innocent to the clergy and people of
@@ -439,16 +512,15 @@ works:
   locus: div2 3.5
   role: tradition
   confidence: assigned
-  note: 'STAYS ON imperial-juridical-christianity, and is the one Lactantius work the 2026-08-27
-    ruling does not move. Written c. 314-15 AFTER the Edict of Milan, from inside the Constantinian
-    settlement rather than against the persecution: it prints the text of the Milan agreement
-    (ch. 48) and the dream before the Milvian Bridge (ch. 44). It is not apologetic, and it
-    is LOAD-BEARING FOR A BUILT WORLD - `ijc.source.lactantius-de-mortibus` is cited by `ijc.figure.constantine`
-    and `ijc.gravity.church-state-alliance`, and `ijc.search.f6-e-negative-sweep` records
-    that it is that world''s only licensed source reaching back before 312. Moving it to follow
-    its author would have stripped a live world of a source it depends on, which is exactly
+  note: 'Stays on `imperial-juridical-christianity`, the one Lactantius work that does not
+    follow the rest of his corpus to `latin-apologists`. Written c. 314-15 after the Edict
+    of Milan, from inside the Constantinian settlement rather than against the persecution:
+    it prints the text of the Milan agreement (ch. 48) and the dream before the Milvian Bridge
+    (ch. 44). It is not apologetic, and it is load-bearing for a built world - `ijc.source.lactantius-de-mortibus`
+    is cited by `ijc.figure.constantine` and `ijc.gravity.church-state-alliance`, and `ijc.search.f6-e-negative-sweep`
+    records that it is that world''s only licensed source reaching back before 312. Moving
+    it to follow its author would strip a live world of a source it depends on, which is exactly
     what the non-exclusivity rule exists to prevent.
-
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
@@ -502,19 +574,45 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
+- work: Vita Ambrosii (Life of Ambrose)
+  author: paulinus-milan
+  locus: whole work (single-work volume); the infancy/bee-swarm legend at Chapter II (file
+    line 3006 onward)
+  role: context
+  confidence: assigned
+  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly
+    by ijc''s own build (ijc.source.paulinus-vita-ambrosii, ijc.story.bees-of-milan). Verified
+    directly against the file: "CHAPTER II. Birth, Youth, and Early Public Career of Saint
+    Ambrose" (line 3006) carries "suddenly a swarm of bees came and covered his face and lips
+    in such a way that they kept entering and coming forth from his mouth alternately" (lines
+    3013-3015), matching the source record''s own claim that the bee-swarm infancy legend
+    is present and confirmed. Nothing from this file is quoted verbatim in ijc''s own build
+    by design (hagiographic legend, narrated rather than quoted, per that world''s own Tier
+    3 discipline for attributed tradition) - the story record tells the episode in its own
+    words rather than citing the translation directly. `role: context`, not `tradition`: written
+    by Ambrose''s own former secretary at Augustine''s request some fifteen to twenty years
+    after Ambrose''s death - a genuine insider''s hagiography, openly written to edify, with
+    legendary material not marked off from documented biography inside the text itself. ijc''s
+    own record holds everything drawn from it to Tier 3 (attributed tradition) at most. No
+    other Atlas entry in the current census plausibly draws on this specific work; not checked
+    exhaustively against the full census beyond ijc, which is the only world this file is
+    used by anywhere in the corpus as of this pass.
+
+    '
+  source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt
 - work: Ecclesiastical History (surviving only as Photius' Epitome)
   author: philostorgius
   locus: whole file - esp. Books IV-V (Rimini/Seleucia 359, Constantinople 360, the depositions
     under Constantius II)
   role: context
   confidence: assigned
-  note: 'Added 2026-09-09 on Mark''s ruling, after a post-admission source check found this
-    volume had never been considered for ijc at all (records/ijc had zero mentions of it).
-    A non-Nicene narrative of exactly ijc''s own contested imperial-doctrinal decades: Books
-    IV-V carry Rimini and Seleucia, the coerced subscriptions at Constantinople in 360, and
-    bishops deposed and restored at the emperor''s will - ijc''s central question stated from
-    outside the tradition that won it. The nearest precedent is Athanasius'' Historia Arianorum,
-    assigned to ijc "because its central question (''what has the emperor to do with the church?'')
+  note: 'A post-admission source check found this volume had never been considered for ijc
+    at all (records/ijc had zero mentions of it) - added here to close that gap. A non-Nicene
+    narrative of exactly ijc''s own contested imperial-doctrinal decades: Books IV-V carry
+    Rimini and Seleucia, the coerced subscriptions at Constantinople in 360, and bishops deposed
+    and restored at the emperor''s will - ijc''s central question stated from outside the
+    tradition that won it. The nearest precedent is Athanasius'' Historia Arianorum, assigned
+    to ijc "because its central question (''what has the emperor to do with the church?'')
     is the ijc world''s own problem stated by its sharpest opponent."
 
     ROLE IS A JUDGMENT CALL, recorded as one rather than asserted. That Athanasius row carries
@@ -525,9 +623,9 @@ works:
     definition, same reading as the cappadocian row above.
 
     DOES NOT close ijc''s named Homoian self-testimony thinness (Doc_02 sec 7), and must not
-    be used as if it did - Anomoean is not Homoian, a distinction this repo already ruled
-    on 2026-08-26, and at IV.12 Philostorgius'' own party is coerced into subscribing the
-    Homoian formula. Full reasoning at records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.
+    be used as if it did - Anomoean is not Homoian, a distinction this repo has already settled,
+    and at IV.12 Philostorgius'' own party is coerced into subscribing the Homoian formula.
+    Full reasoning at records/ijc/search_record/ijc.search.philostorgius-homoian-fit.md.
 
     '
   source_file: philostorgius_ecclesiastical-history_walford1855.txt
@@ -563,12 +661,11 @@ works:
   note: 'World chronicle to c. 400 whose second book carries the fullest near-contemporary
     narrative of the Priscillianist affair - the trial and execution at Trier under Maximus,
     the first death sentence for heresy carried out by a Christian emperor. Church-and-state
-    material squarely inside the built ijc world''s window. Re-pointed 2026-09-08: also this
-    author''s own corpus for the Gallic monastic-ascetic entry (era 2, c. 360-450, added to
-    the census 2026-08-26) - same author-tradition basis already carrying his other three
-    works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket; the case
-    document that surfaced the entry (CASE-gallic-monasticism.md) counted this work in Sulpitius''
-    own 109,539-word figure but the corpus map had not yet been re-pointed to match.
+    material squarely inside the built ijc world''s window. Also filed under the Gallic monastic-ascetic
+    entry (era 2, c. 360-450): the same author-tradition basis already carrying his other
+    three works (Life of Martin, Dialogues, Doubtful Letters/Letters) into that bucket, since
+    the case document that surfaced the entry (CASE-gallic-monasticism.md) counts this work
+    in Sulpitius'' own 109,539-word figure.
 
     '
   source_file: npnf211_sulpitius-severus-vincent-lerins-cassian.xml
@@ -620,7 +717,7 @@ works:
     Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
     is a near-contemporary (c. 449) external account of Ambrose''s own single most famous
     act, a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely.
-    Surfaced by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+    Surfaced through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml

@@ -70,6 +70,6 @@ senses:
 quick_meaning: The specific person the Commandments protect. Our freedom must never harm them.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.6 (neighbor, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none for the word; the 1522 measure-of-liberty sense is the founder's own. Source Registry rows cited: R14, R15, R25, R26, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.6 (neighbor, Tier 2, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none for the word; the 1522 measure-of-liberty sense is the founder's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

@@ -36,6 +36,13 @@ text: >-
   blessed man Possidonius had dwelt with him for many days, and he told me that the free-woman
   Paula, who had taken care of him, departed from this world before her time in order that she
   might escape from his envy...
+modern_rendering: >-
+  A certain elder named Hieronymus lived in these parts. He was extremely skilled in the
+  art and practice of grammar and eloquence. He was also greatly skilled in the Latin
+  language. But he had the vices of envy and evil-eyedness. These vices entirely hid the
+  excellence of his very great skill and ability. The blessed man Possidonius had lived
+  with him for many days. He told me that the free-woman Paula, who had taken care of him,
+  left this world before her time in order to escape his envy...
 speaker_or_author: Palladius, reporting Possidonius, in the Syriac recension of the Paradise
 license: verbatim
 modern_lens_note: >-

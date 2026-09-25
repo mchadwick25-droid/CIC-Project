@@ -51,9 +51,3 @@ Re-derived from Doc_04 SS3.6 T1 with its Eusebius re-grounding intact:
 confirmation rests on the STRUCTURAL coexistence of teacher and bishop
 (Widely Accepted), never on the Eusebius-mediated Origen-Demetrius
 particulars (DMR/HIGH-risk, retained as illustration only).
-
-Reciprocal relation added 2026-09-20 (alx `world_front` build): new
-sibling record `alx.story.origen-daring-deed` declares `illustrates`
-this record; the reciprocal `illustrated-by` is added here
-(gate_reciprocity). No change to this record's own classification or
-screen.

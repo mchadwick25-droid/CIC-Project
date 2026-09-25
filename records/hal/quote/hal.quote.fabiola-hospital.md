@@ -20,6 +20,9 @@ sources:
 text: 'She was the first person to found a hospital, into which she might gather
   sufferers out of the streets, and where she might nurse the unfortunate victims of
   sickness and want.'
+modern_rendering: >-
+  She was the first person to found a hospital. Into it she gathered sufferers from the
+  streets, and there she nursed the unfortunate victims of sickness and want.
 speaker_or_author: hal.figure.jerome
 license: verbatim
 modern_lens_note: '"Hospital" here is charitable shelter-and-nursing at a household scale, funded from one woman''s fortune - not a clinical institution with modern medical staffing or scope (see hal.term.nosocomium).'

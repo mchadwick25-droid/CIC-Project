@@ -59,11 +59,5 @@ this passage - "[we believe]" (line 2418) and "[from the Father]"
 (lines 2423-2424, inside the anathema clause, a different part of the
 creed from the descent clause) - are not part of this caution; they
 are not shown by the 381 comparison to carry the same distinction.
-(Corrected 2026-09-08, records/alx audit, round 3: an intermediate
-version of this note claimed all three brackets were "the SAME kind of
-editorial bracket... ordinary translator-supplied connective words,"
-which both misstated two of the three line numbers - 2417 and 2419
-should have been 2418 and 2423-2424 - and asserted an interpretation
-the edition itself does not support once the 381 print is checked
-against it.) Any claim that depends on wording specific to the 381
+Any claim that depends on wording specific to the 381
 form should NOT be cited to this record.

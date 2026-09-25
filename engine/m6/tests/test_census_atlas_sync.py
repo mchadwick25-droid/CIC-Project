@@ -7,6 +7,8 @@ def _census():
             {
                 "id": "non-built-a",
                 "status": "Pre-Survey Candidate",
+                "chip": "psc",
+                "living": False,
                 "why": "Census's own why text.",
                 "sources": [{"work": "A Book", "type": "primary"}],
                 "documentedStories": [{"title": "A Story"}],
@@ -14,6 +16,9 @@ def _census():
             {
                 "id": "built-a",
                 "status": LIVE_STATUS,
+                "chip": "live",
+                "living": True,
+                "entry": {"representativeName": "Census's Representative"},
                 "why": "Census's built-world why text.",
                 "sources": [{"work": "Built World Source", "type": "primary"}],
                 "floorNote": "Census's built-world floorNote - should NOT reach atlas.",
@@ -31,12 +36,18 @@ def _atlas_movements():
     return [
         {
             "id": "non-built-a",
+            "status": "Floor Question (register)",
+            "chip": "fq",
+            "living": True,
             "why": "Stale atlas why text.",
             "sources": [{"work": "Old Book", "type": "primary"}],
             "documentedStories": None,
         },
         {
             "id": "built-a",
+            "status": "Pre-Survey Candidate",
+            "chip": "psc",
+            "living": False,
             "why": "Built-world why - Atlas doesn't carry this field, must stay untouched.",
             "sources": [{"work": "Stale Built World Source", "type": "primary"}],
         },
@@ -100,3 +111,27 @@ def test_original_inputs_are_not_mutated():
     atlas_movements = _atlas_movements()
     sync_atlas(census, atlas_movements)
     assert atlas_movements[0]["why"] == "Stale atlas why text."
+
+
+def test_structural_fields_sync_for_a_non_built_world():
+    new_movements, _ = sync_atlas(_census(), _atlas_movements())
+    m = next(m for m in new_movements if m["id"] == "non-built-a")
+    assert m["status"] == "Pre-Survey Candidate"
+    assert m["chip"] == "psc"
+    assert m["living"] is False
+
+
+def test_structural_fields_sync_for_a_built_world_too():
+    """status/chip/living/entry are identity fields, not the prose content
+    BUILT_WORLD_FIELDS excludes for a built world - they sync regardless of
+    build status, the same as for a non-built world."""
+    new_movements, _ = sync_atlas(_census(), _atlas_movements())
+    m = next(m for m in new_movements if m["id"] == "built-a")
+    assert m["status"] == LIVE_STATUS
+    assert m["chip"] == "live"
+    assert m["living"] is True
+    assert m["entry"] == {"representativeName": "Census's Representative"}
+    # sources (an actual BUILT_WORLD_FIELDS field) still syncs as before
+    assert m["sources"] == [{"work": "Built World Source", "type": "primary"}]
+    # why (a NON_BUILT_WORLD_FIELDS-only field) still stays untouched
+    assert m["why"] == "Built-world why - Atlas doesn't carry this field, must stay untouched."

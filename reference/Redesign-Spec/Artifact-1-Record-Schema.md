@@ -66,6 +66,8 @@ Per-world: **world_core** (time window, horizon, formation logic, thinness, caut
 
 Fleet: **canon_question** (`{cell, text, source: array of corpus|ext|new (mixed provenance allowed), canon_status: seed|vetted|retired, tags: e.g. [identity-collision], phrasing_rules_checked: true}` — `canon_status` is deliberately not the envelope's `status`; a canon question's lifecycle is its own) · **modern_term** (display_terms, origin_year, modern_sense, underlying_subject, distinguishing_claim, native_subject_map).
 
+A `modern_term` record's `origin_year` is the year the modern sense named in `modern_sense` took shape — not the year the display word was first attested in any source. A word and the sense it now carries can have different histories: a word can be coined early and only later accrete the developed sense `modern_sense` describes, or a sense can exist before the word that now names it. Where a source shows the word attested earlier or later than `origin_year`, that belongs in `distinguishing_claim` (and in `sources`, cited per §5's source form) — it does not change what `origin_year` itself means or move its value.
+
 ## 5. Worked examples (compact but complete)
 
 ```yaml

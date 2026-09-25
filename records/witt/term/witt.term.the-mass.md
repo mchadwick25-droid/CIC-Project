@@ -93,6 +93,6 @@ senses:
 quick_meaning: Kept as God's promise, refused as a sacrifice. Private masses ended; public worship remains.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 5.6 (the mass, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT][PV]. Author Gravity: none; the Apology XXIV's sacrifice argument read this pass. Source Registry rows cited: R7, R12, R15, R28, R37, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.6 (the mass, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT][PV]. Author Gravity: none; the Apology XXIV's sacrifice argument read this pass. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

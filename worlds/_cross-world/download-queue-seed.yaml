@@ -694,6 +694,41 @@ queue:
     verified_by: "direct curl fetch, 2026-09-15 (raw bytes, full volume, then mechanically extracted to two sections); archive.org's own metadata API NOT_IN_COPYRIGHT confirmed"
     status: downloaded
 
+  - title: "Ordonnances Ecclesiastiques de l'Eglise de Geneve (1576 revision)"
+    author: "John Calvin (1541/1561 original); Geneva General Council (1576 revision)"
+    translator: "(French only)"
+    year: 1735
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      The Genevan ecclesiastical constitution itself, licensing this
+      world's Authority-structure strand directly from primary text.
+      This 1735 Geneva printing of the 1576 Council revision is a
+      genuine public-domain alternative after two other candidates
+      (Schaff's HCC8 paraphrase; a 1977 in-copyright translation
+      misleadingly marked "Public Domain" by its uploader) were checked
+      and rejected. Confirmed via its own table of contents (the four
+      ministerial offices, marriage-discipline procedure).
+    url: "https://archive.org/details/A2970853"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification against the archive.org item page (title, printer, 1735 date, and Public Domain Mark 1.0 all confirmed directly)"
+    status: downloaded
+
+  - title: "Les Pseaumes mis en rime francoise (the complete 1562 Genevan Psalter)"
+    author: "Clement Marot; Theodore de Beze"
+    translator: "(French verse; no English translation exists)"
+    year: 1562
+    world: "the-reformed-cities-zurich-and-geneva"
+    why: >
+      The Genevan congregation's own sung liturgy, licensing this
+      world's Practice strand directly from primary text. The exact
+      complete 1562 edition. Confirmed via the royal printing privilege
+      text and sequential "PSEAVME I/II/III..." headers; host-marked
+      "Domaine public".
+    url: "https://archive.org/details/BSG_8A817_2INV992RES_P1"
+    rights_basis: pd-us-by-date
+    verified_by: "direct WebFetch verification against the archive.org item page (title, authors, 1562 date, and Domaine public statement all confirmed directly)"
+    status: downloaded
+
   - title: "Works of Martin Luther, with Introductions and Notes, Vol. I (95 Theses, Treatise on Baptism, Discussion of Confession, Fourteen of Consolation, Treatise on Good Works, and others)"
     author: "Martin Luther"
     translator: "ed. Henry Eyster Jacobs and Adolph Spaeth, individual translators per work"

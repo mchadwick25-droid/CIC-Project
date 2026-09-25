@@ -48,13 +48,12 @@ works:
   locus: div2 17.30-17.31 (~336 words)
   role: tradition
   confidence: assigned
-  note: 'Split 2026-08-26 on Mark''s ruling, derived from the volume''s own div2 sections
-    rather than from the list in Trullo canon 2. The collection is 32 sections, 16,936 words;
-    sections 3-4 are the Apostolical Canons, already a separate work, so this split covers
-    17.5-17.32. This row is one father''s share of it. Follows the placement already in the
-    map: Cyril''s Epistles and XII Anathematisms sit in the Cyrilline entry, though he died
-    in 444 and that entry opens at 451. Consistent with the precedent rather than newly stretched
-    here.'
+  note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo
+    canon 2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical
+    Canons, already a separate work, so this split covers 17.5-17.32. This row is one father''s
+    share of it. Follows the placement already in the map: Cyril''s Epistles and XII Anathematisms
+    sit in the Cyrilline entry, though he died in 444 and that entry opens at 451. Consistent
+    with the precedent rather than newly stretched here.'
 - work: The Letters of Leo the Great
   author: leo
   locus: div2 2.4 — Letters
@@ -64,7 +63,7 @@ works:
     of the movement the Cyrilline/miaphysite entry names, and the Tome is the document whose
     rejection defines that tradition. Context, not its voice. The census holds a near-duplicate
     era-3 id (cyrilline-miaphysite-egyptian-christianity, 451-642); the on-record Step-0 deferred
-    entry is used here - a ruling on which of the two carries corpus would help every worker.
+    entry is used here - a ruling on which of the two carries corpus is still needed.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml

@@ -18,6 +18,8 @@ sources:
   locus: the Ephraim chapter
   license: public-domain
 text: '"Then trust me," he said. "See, on your behalf I appoint myself hospitaller."'
+modern_rendering: >-
+  "Then trust me," he said. "See -- on your behalf, I appoint myself hospitaller."
 speaker_or_author: syr.source.palladius-lausiac-history (Ephrem as remembered in Palladius's account)
 license: verbatim
 modern_lens_note: '''Hospitaller'' most readily calls to a modern ear the later medieval

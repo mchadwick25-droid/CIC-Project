@@ -107,10 +107,9 @@ works:
   locus: see file's own Contents page (OCR-degraded, verify against section headings)
   role: tradition
   confidence: provisional
-  note: '1521. Confidence held at provisional rather than assigned because the file''s own
-    OCR-degraded Contents page has not yet been cross-checked section-by-section against the
-    body text to confirm exact locus boundaries for each of this volume''s several works -
-    a Doc_02 task.
+  note: '1521. Confidence held at provisional rather than assigned: the file''s own Contents
+    page is OCR-degraded, and exact locus boundaries for each of this volume''s several works
+    are not independently confirmed against the body text.
 
     '
   source_file: luther_works-v3-selected_various1930.txt
@@ -155,6 +154,28 @@ works:
 
     '
   source_file: luther_hymns_bacon-allen.txt
+- work: 'First Principles of the Reformation: The Ninety-Five Theses, the Address to the Nobility
+    of the German Nation, On Christian Liberty, and On the Babylonish Captivity of the Church'
+  author: luther
+  locus: 'whole text (four works: Theses and two Latin treatises trans. R. S. Grignon; the
+    Address to the Nobility trans. C. A. Buchheim, checked by Henry Wace, from German)'
+  role: tradition
+  confidence: provisional
+  note: 'An independent, earlier (1885) English rendering of four works already vendored in
+    this corpus under separate, distinct translations (luther_works-v1-selected_jacobs-spaeth1915.txt
+    for the Theses; luther_works-v2-selected_jacobs-spaeth1916.txt for the Open Letter to
+    the Christian Nobility, Christian Liberty, and the Babylonian Captivity). Vendored not
+    to fill a content gap but as a genuinely different translator''s wording, useful for cross-checking
+    a quote''s exact phrasing against the Jacobs/Spaeth versions already cited. Confidence
+    held at provisional rather than assigned: this file has not itself been used as the wording
+    source for any quote yet, and a build thread reaching for it should treat the already-assigned
+    Jacobs/Spaeth entries as this world''s own primary citation copies unless there is a specific
+    reason to prefer this translation''s wording instead. Quality-verified this pass (six
+    sample points across the file, head to tail) as consistently clean OCR, in contrast to
+    the dossier''s originally-named item.
+
+    '
+  source_file: luther_first-principles-reformation_wace-buchheim1885.txt
 - work: Martin Luther on the Bondage of the Will
   author: luther
   locus: whole file
@@ -164,10 +185,9 @@ works:
     Henry Cole (1823). Central to this world''s own candidate gravity of grace/justification
     (Doc_01 §1) and a genuinely different register from the shorter 1520 treatises already
     vendored - a sustained, single-opponent theological argument. Confidence held at provisional,
-    not assigned, because this file''s own OCR quality (see REGISTRY.yaml note) has not yet
-    been spot-checked at the specific passages Doc_02/Doc_04 would actually cite - each citation
-    needs its own character-by-character re-verification before use, not a one-time general
-    clearance.
+    not assigned: this file''s own OCR quality (see REGISTRY.yaml note) means each citation
+    needs its own character-by-character re-verification against the vendored text before
+    use, not a one-time general clearance.
 
     '
   source_file: luther_bondage-of-the-will_cole1823.txt
@@ -193,6 +213,24 @@ works:
 
     '
   source_file: luther_works-v3-selected_various1930.txt
+- work: Selections from Luther's Prefaces to His Works, 1539 and 1545
+  author: luther
+  locus: lines ~250-432 (I. Preface to the First Part of His German Works, Edition of 1539;
+    II. Dr. Martin Luther to the Christian Reader, Edition of 1545)
+  role: tradition
+  confidence: assigned
+  note: 'Luther''s own two prefaces to the collected German Works (1539, 1545) - his own retrospective
+    view of his corpus and of Scripture''s primacy over Fathers and Councils, and his 1545
+    self-portrait as "such a Saul was I at that time." Closes the gap witt_Source_Registry.md''s
+    R1 flagged as "Not in the corpus-map" (2026-09-25 pass) - the work was already vendored
+    and already cited with verbatim-verified quotes in that registry, just never given its
+    own corpus-map assignment. Locus and quoted passages (260-261, 356-357, 365) checked directly
+    against the vendored file this pass, matching the registry''s own citations exactly. Stops
+    before Luther''s later "tower experience" passage - not present in this excerpt (Doc_02
+    §0 already notes this).
+
+    '
+  source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
 - work: Selections from the Table Talk of Martin Luther
   author: luther
   locus: whole file
@@ -207,14 +245,37 @@ works:
 
     '
   source_file: luther_table-talk_bell1886.txt
+- work: That Doctrines of Men Are to Be Rejected, together with a Reply to Texts Quoted in
+    Defence of the Doctrines of Men
+  author: luther
+  locus: lines ~15816-16824
+  role: tradition
+  confidence: assigned
+  note: '1522, intro./trans. W. A. Lambert - Luther''s rule that Scripture, not human tradition,
+    binds conscience (interpretation gravity), written at the prompting of his Wartburg host
+    Hans von Berlepsch. Closes the gap witt_Source_Registry.md''s R16 flagged as "Not in the
+    corpus-map" (2026-09-25 pass): the map''s prior Sermons locus "~14403-end" silently swallowed
+    this work rather than bounding it. Heading (15816), introduction (15825-15885), and the
+    work''s own end (16824, immediately before the volume''s INDEX at 16825) confirmed directly
+    against the vendored file this pass - a firmer boundary than the registry''s own "introduction
+    read, text not" note implies for the locus itself, though body-text wording beyond the
+    introduction remains B-tier (not individually re-verified).
+
+    '
+  source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
 - work: The Eight Wittenberg Sermons
   author: luther
-  locus: lines ~14403-end
+  locus: lines ~14403-15815
   role: tradition
   confidence: assigned
   note: '1522, preached on Luther''s own return to Wittenberg from the Wartburg to check the
     Karlstadt-led unrest - Luther''s own spoken, pastoral register, addressed directly to
-    his own congregation rather than a treatise audience.
+    his own congregation rather than a treatise audience. LOCUS CORRECTED 2026-09-25 (was
+    "~14403-end"): the volume does not end there - "That Doctrines of Men Are to Be Rejected"
+    (below) begins at line 15816 and runs to 16824, followed by an INDEX to true file end
+    (16825-18280). The open-ended "-end" was provably wrong once that neighboring work was
+    independently confirmed against the vendored file this pass; corrected here rather than
+    left overlapping the new entry below. Disclosed as a found defect, not a silent edit.
 
     '
   source_file: luther_works-v2-selected_jacobs-spaeth1916.txt
@@ -241,6 +302,28 @@ works:
 
     '
   source_file: luther_large-catechism_bente-dau1921.txt
+- work: 'The Magnificat: Translated and Explained'
+  author: luther
+  locus: lines ~6281-10440 (dedication to Duke John Frederick from 6499; the full verse-by-verse
+    commentary follows; the volume's next work, An Earnest Exhortation, begins at 10441)
+  role: tradition
+  confidence: provisional
+  note: '1520-21, intro./trans. A. T. W. Steinhaeuser - Luther''s own verse-by-verse exposition
+    of the Magnificat (Luke 1:46-55) for the young Duke John Frederick, including the devotional-exegetical
+    register Doc_01/Doc_02 flagged as thin in this corpus and his ideal of a woman''s life
+    (Mary at household tasks) - usable only for that, never as a woman''s own voice. Closes
+    the gap witt_Source_Registry.md''s R18 flagged as "Not in the corpus-map" (2026-09-25
+    pass) - the registry''s own note identifies this as "the v3 work whose OCR title the intake
+    header called unreadable." Confidence held at provisional, matching this file''s sibling
+    entries: the start (6281), dedication (6499), and end boundary (10440, immediately before
+    the Earnest Exhortation heading at 10441) were confirmed directly against the vendored
+    file this pass - a firmer boundary than the sibling entries'' own "see Contents page"
+    loci - but the body text is only spot-read, not fully verified, and carries the same OCR
+    degradation as the rest of this volume (e.g. "SerRENE HIGHNESS," "JoHN FREDERICK" in the
+    dedication heading itself).
+
+    '
+  source_file: luther_works-v3-selected_various1930.txt
 - work: The Ninety-Five Theses (Disputation on the Power and Efficacy of Indulgences), with
     the Letter to Archbishop Albrecht of Mainz
   author: luther

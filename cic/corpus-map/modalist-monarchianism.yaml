@@ -8,9 +8,8 @@ works:
   locus: div2 5.9 under div1 'Anti-Marcion.'
   role: context
   confidence: assigned
-  note: 'The trinitarian treatise against Praxeas'' monarchianism. The census has no entry
-    for monarchianism/patripassianism, so that face has no bucket. 2026-08-26: modalist-monarchianism
-    added alongside - the party this work argues with now has an entry of its own.
+  note: 'The trinitarian treatise against Praxeas'' monarchianism. modalist-monarchianism
+    holds that face: the party this work argues with has an entry of its own.
 
     Role normalised to `context` for the doctrinal-floor entry: this work describes that movement
     from outside rather than speaking as it, and the brief allows a built world to draw on

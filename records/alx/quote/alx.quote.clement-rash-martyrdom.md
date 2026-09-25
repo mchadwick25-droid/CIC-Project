@@ -54,8 +54,3 @@ themselves up to a vain death, as the Gymnosophists of the Indians to
 useless fire." The text field matches this full sentence verbatim. (The
 word "Demiurgus" attached mid-sentence to "the Creator" is a separate
 editor's footnote, not primary text, and is excluded.)
-
-Quote-verbatim gate fix (2026-09-22): the record's own text had dropped
-the source's space before the closing parenthesis ("Creator)—these"
-where the source reads "Creator )—these") - restored; no wording
-changed.

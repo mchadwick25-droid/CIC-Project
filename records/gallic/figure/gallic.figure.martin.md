@@ -78,6 +78,30 @@ relations:
   target: gallic.gravity.named-example
 - type: associated-with
   target: gallic.gravity.authority-ambivalence
+- type: associated-with
+  target: gallic.quote.martin-allow-me-dear-brother
+- type: associated-with
+  target: gallic.quote.martin-and-the-water-fowl
+- type: associated-with
+  target: gallic.quote.martin-disciples-plea-and-his-reply
+- type: associated-with
+  target: gallic.quote.martin-foreknows-death-and-goes-to-condate
+- type: associated-with
+  target: gallic.quote.martin-offers-to-stand-unarmed
+- type: associated-with
+  target: gallic.quote.martin-raises-the-catechumen
+- type: associated-with
+  target: gallic.quote.martin-rebukes-the-devil-and-dies
+- type: associated-with
+  target: gallic.quote.martin-refuses-the-donative
+- type: associated-with
+  target: gallic.quote.martin-sackcloth-and-ashes-reply
+- type: associated-with
+  target: gallic.quote.the-catechumens-testimony
+- type: associated-with
+  target: gallic.quote.the-cloak-divided-and-the-vision-of-christ
+- type: associated-with
+  target: gallic.quote.the-soldier-who-served-his-servant
 ---
 The Tours node's founder and the subject of all seven of its stories - the one man this world's
 northern literature is about. Narratable: true, argued - he is the protagonist of five Tier 1
