@@ -228,11 +228,15 @@ holds it, and it holds nothing else. Concretely:
   interjection or elliptical answer that the source itself speaks
   ("Alas!", "Yes!", "Praise to God.", "Answer: No.") is a whole utterance
   in modern English and stays as the source speaks it. An inventory or
-  list is rendered as one list sentence, never one item per sentence. A
-  source sentence cut short mid-thought is finished with the verb its
-  structure implies, not carried over as a fragment. A split made during
-  rendering that leaves a clause without its own subject and verb is still
-  a fragment, and is never acceptable.
+  list is rendered as one list sentence, never one item per sentence,
+  unless that one sentence would pass about 25 words. Then it splits into
+  a few list sentences grouped as the source groups them (e.g. tableware,
+  furniture, bedding), keeping the source's order and every item — the
+  source's own grouping closes it, and there is no filler connective
+  repeated sentence after sentence. A source sentence cut short mid-thought
+  is finished with the verb its structure implies, not carried over as a
+  fragment. A split made during rendering that leaves a clause without its
+  own subject and verb is still a fragment, and is never acceptable.
 - **The register rule governs every `modern_rendering`.** A rendering is
   everyday modern English. An original word or phrase stays only where it
   survives plainly in modern English — a reader today would say it and

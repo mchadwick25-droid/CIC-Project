@@ -2148,3 +2148,25 @@ fragment rule wins on syr; the human read of every clause stands on witt.
 
 **Counts (sentence-completeness check, fleet):** 30 flagged sentences
 before, 18 after: the 11 misparses plus the 7 source-spoken forms kept.
+
+**Entry 38 — 2026-09-25 (R46: long-list exception to R44).** Answers the
+methodology question Entry 37 flagged and left open: R44's "one list
+sentence" rule doesn't say what happens when a list cannot pass the
+readability gate as one sentence — the exact case `alx
+couches-and-trenchers-and-bowls` hit (Entry 37: the one-sentence list
+scores FK 41.7 and fails the live readability gate).
+- **R46 (long-list exception to R44)** — Mark's ruling, 2026-09-25,
+  Decision 5, option "a". Mark's approved wording: *"A list stays one
+  sentence unless that sentence would pass about 25 words. Then it splits
+  into a few list sentences grouped as the source groups them (e.g.
+  tableware, furniture, bedding), keeping the source's order and every
+  item. The source's own verdict closes it. There is no filler connective
+  repeated sentence after sentence."* Landed in
+  `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`, Phase
+  B, next to the existing list-rule sentence — rule only, no ruling
+  numbers, dates, attributions or log pointers in that live surface, per
+  Entry 30's own convention for it. Mark's standing bar, restated
+  alongside this ruling: scholarly rigor a professor of church history
+  would be impressed by, not 100% perfection.
+- Re-authoring `alx couches-and-trenchers-and-bowls` under R46 is a
+  separate dispatch, not this entry's.
