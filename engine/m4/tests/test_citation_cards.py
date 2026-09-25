@@ -198,6 +198,42 @@ def test_gravity_and_force_labels_strip_the_build_taxonomy_bracket_not_the_name(
     assert card["label"] == "Divine Pedagogy"
 
 
+def test_a_leading_build_taxonomy_tag_is_stripped_and_the_names_own_parens_survive():
+    """Two rzg gravity records carry the tag first, not last: the name
+    reads better that way. Both also carry real, unrelated parentheses
+    inside the name itself, which must not be touched."""
+    repo = _real_repository("rzg")
+
+    card = resolve_source_card("rzg.gravity.council-led-authority-vs-consistorial-independence", repo)
+    assert card["label"] == (
+        "Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)"
+    )
+    assert "TENSIONAL" not in card["label"]
+
+    card = resolve_source_card("rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus", repo)
+    assert card["label"] == (
+        "Zwingli's Own 'Remembrance' Reading of the Supper vs. the Negotiated Spiritual-Presence Consensus"
+    )
+    assert "TENSIONAL" not in card["label"]
+
+
+def test_a_bracket_that_is_not_build_taxonomy_shaped_is_left_alone():
+    """The strip only fires on the fleet's own closed taxonomy vocabulary
+    (PRIMARY/SUPPORTING/TENSIONAL, or a force code like 1A/2B/3A). A name
+    that happens to open or close with an unrelated bracket - invented
+    here, since no real record has this shape - is not a build-taxonomy
+    tag and must survive untouched."""
+    repo = {
+        "fix.gravity.synthetic": {
+            "id": "fix.gravity.synthetic",
+            "record_type": "gravity",
+            "name": "[Cited from a 1611 pamphlet] A Real Name (with real parens) [not a tag]",
+        }
+    }
+    card = resolve_source_card("fix.gravity.synthetic", repo)
+    assert card["label"] == "[Cited from a 1611 pamphlet] A Real Name (with real parens) [not a tag]"
+
+
 def test_contested_claim_doctrinal_witness_and_honest_limit_get_real_labels_not_raw_ids():
     """Before this fix these three record_types had no entry in
     _LABEL_FIELDS at all, so every General Reference of these types, in

@@ -1,0 +1,20 @@
+source_file: wyclif_de-ecclesia-lat_loserth1886.txt
+
+assignments:
+  - work: "Tractatus de Ecclesia"
+    author: wyclif
+    locus: "whole volume"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's own core ecclesiology treatise, ed. Loserth (1886, Wyclif
+      Society Latin Works vol. 10). Directly relevant to the movement's
+      central dissent on church authority. Vendored 2026-09-25 as part of
+      a post-Step0-Revision-2 PD source-acquisition pass, from the full
+      33-volume Wyclif Society Latin series on archive.org (only vol. 2,
+      the already-vendored Buddensieg Polemical Works, had been checked
+      before this pass). Per this project's own INTAKE.md rule, this
+      Latin text is a second witness, never primary evidence for a
+      Representative.

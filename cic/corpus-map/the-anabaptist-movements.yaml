@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-anabaptist-movements
 works:
+- work: 'Ausbund, das ist: etliche schoene christliche Lieder'
+  author: ausbund
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'The movement''s own hymnal, an 1846 Lancaster PA printing, still in liturgical use
+    among the Amish. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass. Per this project''s own INTAKE.md rule, this German text is a second witness, never
+    primary evidence for a Representative.
+
+    '
+  source_file: ausbund_lancaster1846-deu.txt
 - work: 'Enchiridion, or Hand Book: A Hand Book of the Christian Doctrine and Religion'
   author: dirk-philips
   locus: whole text
@@ -15,6 +27,19 @@ works:
 
     '
   source_file: dirk-philips_enchiridion_kolb1910.txt
+- work: Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone
+    edition)
+  author: dordrecht-confession
+  locus: whole volume
+  role: tradition
+  confidence: assigned
+  note: 'A standalone 1890 English publication of the Dordrecht Confession (1632) with the
+    movement''s own catechism and sacramental forms - distinct from and independent of the
+    Confession''s reproduction inside the already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm1886.txt).
+    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
+
+    '
+  source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
 - work: Geschicht-Buch der Hutterischen Brueder (Chronicle of the Hutterian Brethren)
   author: hutterite-brethren
   locus: whole text, 1517-1665
@@ -73,3 +98,21 @@ works:
 
     '
   source_file: van-braght_martyrs-mirror_sohm1886.txt
+- work: 'Balthasar Hubmaier: The Leader of the Anabaptists (incl. Appendix: full translation
+    of Hubmaier''s ''On the Sword,'' 1527)'
+  author: vedder
+  locus: Appendix, pp. 273-322 (Hubmaier's own primary voice)
+  role: context
+  confidence: assigned
+  note: 'Vedder''s biography (1905) was previously assessed as containing only scattered excerpts
+    of Hubmaier''s own writing; direct reading of the Appendix this pass found it is in fact
+    a complete English translation of Hubmaier''s 1527 treatise "On the Sword," addressed
+    to Lords Arklebus and Tzernahor of Moravia - genuine primary Hubmaier material, not excerpts.
+    Corrects that prior closed verdict; reopens the Hubmaier sourcing gap partially. Compiler
+    slug (vedder) used for the whole volume per this project''s own Boero/Faber precedent,
+    since the volume is majority biography with the primary-voice appendix as a bounded, locatable
+    portion. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass.
+
+    '
+  source_file: vedder_balthasar-hubmaier_1905.txt

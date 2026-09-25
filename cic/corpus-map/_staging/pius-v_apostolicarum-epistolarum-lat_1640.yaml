@@ -1,0 +1,17 @@
+source_file: pius-v_apostolicarum-epistolarum-lat_1640.txt
+
+assignments:
+  - work: "Apostolicarum Pii Quinti Pont. Max. Epistolarum Libri Quinque"
+    author: pius-v
+    locus: "whole volume"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Pius V's own apostolic letters, five books - real primary papal
+      correspondence well beyond the single Barlow-transmitted bull
+      already vendored. No PD English translation was located. Vendored
+      2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+      pass. Per this project's own INTAKE.md rule, this Latin text is a
+      second witness, never primary evidence for a Representative.
