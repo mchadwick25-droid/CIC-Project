@@ -99,39 +99,51 @@ relations:
   target: gallic.figure.martin
 - type: associated-with
   target: gallic.contested.election-as-capture
-name: "The monk-bishop: renunciation that does not leave the Church [PRIMARY]"
+- type: associated-with
+  target: gallic.quote.martin-kept-the-virtues-of-a-monk
+- type: associated-with
+  target: gallic.quote.nobles-forced-down-afterwards-made-bishops
+- type: associated-with
+  target: gallic.quote.cassian-archebius-expelled-from-monastic-system
+- type: associated-with
+  target: gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative
+name: "The monk-bishop: renunciation that does not leave the Church"
 classification: primary
 description: >-
-  Ascetic withdrawal that keeps producing bishops - renunciation as the entry act (Doc_04 §2.2 folds
-  'the world'/renunciation into G1 'as its first half') and the episcopate as where the renunciant
-  is overtaken: Martin 'kept up the position of a bishop properly, yet in such a way as not to lay
-  aside the objects and virtues of a monk,' and of Marmoutier's eighty disciples 'we have seen
-  numbers of these afterwards made bishops' (Vita ch. X); Cassian's whole output addressed to
-  bishops or to men who became bishops, Honoratus's monk-to-bishop transition happening between two
-  dedications (Conf. Prefs. II-III), and Archebius carried west as the Egyptian counter-case,
-  'expelled from the monastic system as unworthy of it' (Conf. XI.2); Hilary's sermon on Honoratus
-  in the south's own Latin - 'the priestly fillet fastens on its fugitive ... the dignity came to
-  him' (row 27, wording Inferential/Thin). This world's distinct-world criterion (Doc_01 §1) - 'a
-  seminary that looked like a monastery.' AUTHOR GRAVITY FLAG AT GENERATION (Doc_04 §2.1): none -
-  attested in every primary voice and independently by Gennadius. SIX-TEST SUMMARY (Doc_04 §3):
-  passes all six - Repetition across S, C, V, L, Gn, I, F, E; Dependency (the addressee structure of
-  the entire Cassianic corpus, Doc_01's temporal-ceiling argument, and the distinct-world criteria
-  depend on it); Formation (Marmoutier forms men 'after the example of the saintly master' and they
-  become bishops; Cassian writes formation literature for a bishop's 'new monastery'); Explanatory
-  (why the withdrawal is geographically modest - Hilary's 'a desert near the city' - why the grace
-  argument reaches Rome, why the ending is a change of institutional register rather than a
-  collapse); Persistence across both nodes, all voices, every stream; Interaction (eight
-  demonstrated pairs). CROSS-NODE: confirmed - 'the strongest cross-node convergence in this
-  document, and the only one attested by an insider Latin source in the south independent of
-  Cassian.' CONFIDENCE/GRAVITY CROSS-CHECK: Documented; strength and confidence agree, no
-  divergence. FORCES NOTATION (Doc_04 §3; Doc_08 §5): held and intensified - under the grace
-  controversy (Celestine's letter naming Cassian's own bishop Venerius first and warning that
-  'priests ought not to teach so as to invade the episcopal prerogative,' Gibson, editorial) it did
-  not fracture but intensified into the Lérins episcopal network, and by the 470s the argument
-  itself is carried by a Lérins-formed bishop at synodal commission (Faustus); under barbarian
-  pressure it is the institution left standing - Gennadius's 'two monasteries ... which are still
-  standing,' c. 495, from the same city. 'The forces did not shift this gravity; they made it the
-  world's exit mechanism.'
+  Ascetic withdrawal keeps producing bishops. Renunciation is the first step. The episcopate is
+  where the man who gave up power gets pulled back in. Martin, Sulpitius says, held the office of
+  bishop properly, without giving up a monk's own way of life. Sulpitius also says he personally saw
+  many of Marmoutier's eighty disciples become bishops later. Cassian wrote his whole body of work
+  for bishops, or for men who later became bishops. Honoratus himself moved from monk to bishop
+  between two of Cassian's own dedications. Archebius is carried west as Egypt's own counter-case.
+  He himself, Cassian says, complained that he had been thrown out of the monastic life as unworthy
+  of it. Hilary's own sermon on Honoratus, in the south's own Latin, tells the same story: the
+  priestly office catches its own runaway, and the honour he had refused comes to him anyway. This
+  is this world's own test for what makes it distinct: a seminary that looked like a monastery.
+
+  Every primary voice backs up this gravity, and Gennadius backs it up too, on his own. No builder
+  ever doubted it. It passes every test this project runs on a candidate gravity. It shows up in
+  every voice in this world's own writings. Other findings rest on it directly, including who
+  Cassian wrote his whole body of work for, this world's own time limit, and the marks that set this
+  world apart from its neighbours. It forms men, in Sulpitius's own words, "after the example of the
+  saintly master," and those men become bishops; Cassian writes formation books for a bishop's own
+  "new monastery." It explains real facts no other gravity can explain. Why does the withdrawal stay
+  close to home? Hilary calls it "a desert near the city." Why does the grace argument reach Rome?
+  Why does this world end with a change in rank, not a collapse? This gravity answers all three. It
+  holds steady across both houses, every voice, and every kind of proof, and it links up with the
+  other gravities in eight separate, proven pairs. This is the strongest link found anywhere between
+  the two houses in this whole build. It is also the only link an inside Latin source in the south
+  backs up, apart from Cassian. How strong it looks and how sure we are of it both agree; there is
+  no gap between them.
+
+  Under pressure, this gravity held, and even grew stronger. Consider the grace controversy.
+  Celestine's own letter named Cassian's bishop, Venerius, first. It warned that priests should not
+  teach in a way that invades a bishop's own authority. This gravity did not break under that
+  pressure. It grew stronger instead, forming into the Lérins network of bishops. By the 470s, a
+  Lérins-formed bishop carried the argument himself, at a synod's own request. Under barbarian
+  pressure, this gravity is the one institution left standing: Gennadius reports two monasteries
+  still standing around the year 495, from the same city. The pressures this world faced did not
+  shift this gravity. They turned it into this world's own way out.
 manifestations:
 - "Martin in the army 'regarded not so much as being a soldier as a monk' (Vita II); made bishop while some bishops objected that 'his clothing was mean, and his hair disgusting' (Vita IX); keeping 'the objects and virtues of a monk' in office (Vita X)"
 - "Marmoutier's eighty disciples, 'numbers of these afterwards made bishops' - 'what city or church would there be that would not desire to have its priests from among those in the monastery of Martin?' (Vita X)"
@@ -140,42 +152,26 @@ manifestations:
 - "Hilary of Arles on Honoratus: bound 'to the long-avoided office of the clergy'; 'he who had refused to go to the dignity - the dignity came to him' (row 27, Inferential/Thin wording)"
 - "Gennadius: 'a Life of the holy Martin, monk and bishop' (ch. XIX); Faustus 'first abbot of the monastery at Lerins, and then made bishop of Riez' (ch. LXXXVI)"
 ---
-Re-derived from the approved Doc_04 (§2.1 candidate G1 -> §3 G1 -> §8 Gravity Index row G1;
-Primary). Interaction Matrix (Doc_04 §4, row/col G1): reinforcing (R) with G2 ('Cassian writes
-Egypt's institutes for bishops; Archebius (XI.2) is the Egyptian monk-bishop carried west'), G4
-('Martin as bishop tests a cult by his elders' tradition (Vita XI); Vincent's councils of bishops
-guard antiquity'), G5 ('Marmoutier's disciples formed "after the example of the saintly master"
-become bishops (Vita X); Castor's life "sufficient for an example"'), and G8 ('discharge from
-Caesar's service leads to the episcopate; the bishop keeps "the objects and virtues of a monk"');
-reshaping (S) with G3 ('the argument's carriers move from monks (Cassian) to a Lérins bishop at
-synodal commission (Faustus); Celestine's letter targets presbyters "invading the episcopal
-prerogative"') and G6 ('office reshapes power: less virtus as bishop (Dial. II.4)') - all six
-carried above as associated-with, the R/S character preserved here in Doc_04's own words rather than
-invented as a relation type the schema does not have. Competing (C) with G7 ('the interior program
-names the office as vainglory's suggestion (Inst. XI.14; Conf. I.20); the Gallic frame normalizes
-it') and G9 ('the counter-force: bishops resist the election (Vita IX), calumniate (Vita XXVII);
-Martin flees synods; Archebius "expelled"') - both carried as tension-with; Doc_04 §4 names 'the
-G1-G9 competition' as one of 'the two structural tensions of the ecology.' DECLARED ABSENCE: no
-demonstrated relationship with G10 (judgment) - the matrix's own '-' cell (row G1/col G10 and its
-reciprocal). Doc_04 gives no pair-specific reasoning for this cell beyond reading G10's row as 'the
-thinnest in the matrix (four "-" cells)'; this record does not manufacture one (Doc_04 §11's Round 2
-spot-check names G1's line as one of three still carrying an undisclosed '-' cell, item R5, left
-open there; it is disclosed here). Forces-connection (Doc_08 §5, Appendix A.2 - seven forces):
-grounded by 1B-1 (gallic.force.renunciation-that-stays) and produced by 2A-2
-(gallic.force.episcopal-recruitment - 'the drain and the gravity cannot be told apart') - both
-carried as enabled-by, reciprocal precondition-for on the force records; shaped by 1A-2
-(army-and-rank-before: 'a change of service, not a departure, is why the renunciant can be posted'),
-sustained from within by 2B-3 (office-temptation-destiny), carried to its end-state by 3A-1
-(synodal-commission) and 3B-1 (fugitives-fill-the-sees), and touched only as aftermath by 2A-5
-(barbarian-fiscal-ruin - Gennadius's 'still standing,' recorded at Cell 2A-5 as insufficient to
-re-attach the barbarian force) - all five associated-with. Story and figure links closed at B-5 from
-the B-4 parked notes: illustrated-by gallic.story.election-at-tours (the founding narrative at
-Tours), gallic.story.bishop-archebius (the Egyptian counter-case), and
-gallic.story.honoratus-and-the-island (the Lérins node's own statement); associated-with
-gallic.story.discharge-before-caesar (the entry act), gallic.story.raising-of-the-catechumen (the
-reputation that makes the election possible), gallic.story.brictio-in-the-courtyard (G1 x G9 in the
+Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius, Cassian) and
+cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml (Gennadius). This description paraphrases
+the primary and editorial sources in its own voice; their verbatim wording, locus, and speaker
+attribution are each carried in full in gallic.quote.martin-kept-the-virtues-of-a-monk,
+gallic.quote.nobles-forced-down-afterwards-made-bishops,
+gallic.quote.cassian-archebius-expelled-from-monastic-system, and
+gallic.quote.gibson-priests-not-to-invade-episcopal-prerogative.
+
+This gravity's relations to this world's other gravities and forces are declared in full in its
+relations[] field above, reciprocal edges declared on each target: reinforcing with the gravities
+this record's own description names as agreeing with it, reshaping where office changes how a force
+carries, and in real tension with the gravities that resist or compete with it. One disclosed
+absence: this record finds no demonstrated relationship between this gravity and G10 (judgment) -
+recorded honestly rather than manufactured. Story and figure links: illustrated-by
+gallic.story.election-at-tours (the founding narrative at Tours), gallic.story.bishop-archebius (the
+Egyptian counter-case), and gallic.story.honoratus-and-the-island (the Lérins node's own statement);
+associated-with gallic.story.discharge-before-caesar (the entry act),
+gallic.story.raising-of-the-catechumen (the reputation that makes the election possible),
+gallic.story.brictio-in-the-courtyard (this gravity in tension with its counter-force, in the
 bishop's own person), and gallic.story.trier-and-the-ithacian-communion (the monk-bishop reshaped
 into one who shunned his colleagues); associated-with gallic.figure.martin, gallic.figure.cassian,
-and gallic.figure.honoratus per each figure record's own parked note - reciprocal edges declared on
-every one of those records. Canon_cells left empty, matching fleet convention for gravity/force
-records.
+and gallic.figure.honoratus - reciprocal edges declared on every one of those records. Canon_cells
+left empty, matching fleet convention for gravity/force records.

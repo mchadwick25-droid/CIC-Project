@@ -80,37 +80,37 @@ tellable_as: >-
   serpents give way, a camp of God rises where no one would live - and there "the priestly fillet
   fastens on its fugitive."
 text: >-
-  This is how the tradition of Lerins remembers its founder - in the words, as far as they can be read,
-  of the disciple who succeeded him at Arles and preached his life at his death.
+  This is how the tradition of Lerins remembers its founder - as far as these lines can be read, in
+  the words of the disciple who succeeded him at Arles and preached his life at his death.
 
-  Honoratus, Hilary says, had been drawn from his homeland by desire for the desert, and Christ invited
-  him "into a desert near this city" - in eremum huic urbi propinquam - an island that stood empty
-  "because of the excess of its squalor" and was "unapproachable for fear of venomous creatures," lying
-  not far under the Alpine ridge. Besides the opportunity of seclusion, he was drawn there by the
-  nearness and love of the bishop Leontius, "a holy and most blessed man in Christ" - though many, in a
-  new boldness, tried to hold him back, the neighbours telling him of "that terrible desolation,"
-  competing "in the ambition of faith" to keep him within their own borders. But he, "impatient of
-  human society and longing to be cut off from the world even by the barrier of the sea," carried in
-  heart and mouth, now to himself, now to his own, the psalm Thou shalt walk upon the asp and the
-  basilisk, and trample the lion and the dragon, and the Lord's promise, Behold, I have given you power
-  to tread upon serpents and scorpions. "So he goes in unafraid," Hilary says, "and scatters the fear of
-  his own by his own security. The horror of the solitude flees; the crowd of serpents gives way."
-  Hilary counts it among his master's miracles and merits - inter miracula ac merita - that the
-  serpents, so often met in those parts, "as we have seen," stirred up especially by the sea's heat,
-  were never a danger to anyone, nor even a fear.
+  Hilary says Honoratus had left his homeland out of longing for the desert. Christ called him to a
+  desert near this city - in eremum huic urbi propinquam. It was an island that stood empty because
+  of its own filth, too dangerous to approach for fear of poisonous creatures, lying not far below
+  the Alpine ridge. Besides the chance of solitude, he was drawn there by his closeness to the bishop
+  Leontius, a man Hilary calls holy and deeply blessed in Christ. Many people tried to hold him back.
+  His neighbours warned him of that desolate place, each one urging him harder than the last to stay.
 
-  "Why should I delay longer?" the sermon goes on. With Christ, "so to speak, co-operating," every
-  adversity that had deterred men before was overcome, and "your Honoratus" pitched "a certain camp of
-  God" there; the place that had long driven men from dwelling in it "is lit up by angelic offices."
-  "The hiding-place is illuminated while the light is hidden."
+  But Honoratus, Hilary says, could no longer bear human company. He longed to be cut off from the
+  world, even by the sea itself. He carried with him, in heart and on his lips, the psalm that
+  promises the faithful will walk on the asp and the basilisk. It promises they will trample the
+  lion and the dragon too. He carried too the Lord's own promise of power over serpents and
+  scorpions. So he went in unafraid, Hilary says. His own calm scattered his companions' fear. The
+  horror of the place lifted; the swarms of serpents gave way before him. Hilary counts it among his
+  master's wonders and deeds - inter miracula ac merita - that the serpents common in those parts,
+  stirred up by the sea's own heat, never once threatened or even scared anyone.
 
-  And then the sentence the tradition of Lerins is remembered by: "Here he was first bound to the
-  long-avoided office of the clergy; here the priestly fillet fastens on its fugitive; and he who had
-  refused to go to the dignity - the dignity came to him." Hic primum illigatur diu evitati clericatus
-  officio; hic refugam suum sacerdotalis infula innectit; et qui ire ad dignitatem detrectaverat, ad
-  ipsum dignitas venit. He appeared there a presbyter worthy of honour not twofold only but manifold -
-  and "he kept a monk's humility as entire in the priesthood as, when a monk, he had fully possessed the
-  merits of the priesthood."
+  The sermon presses on. With Christ's help, Hilary says, every hardship that had once kept men away
+  was overcome. Honoratus pitched what Hilary calls a camp of God on the island. The place that had
+  long driven people off now shone, he says, with the works of angels. Its own hiding place lit up
+  while the light itself stayed hidden.
+
+  Then comes the sentence by which the tradition of Lerins remembers him: Hic primum illigatur diu
+  evitati clericatus officio; hic refugam suum sacerdotalis infula innectit; et qui ire ad dignitatem
+  detrectaverat, ad ipsum dignitas venit. Here, Hilary says, Honoratus was first bound to the
+  clerical office he had long avoided. Here the priestly fillet caught its own fugitive. The man who
+  had refused to seek the honour found the honour coming to him instead. Hilary says he proved
+  himself a presbyter worthy of far more than double honour, and that he kept a monk's humility as
+  whole in the priesthood as he had, while still a monk, fully earned the priesthood's own merits.
 absent_detail: >-
   What a participant might reasonably expect here, and cannot have, is a story from inside Lerins - a
   day, a rule kept, a novice received, an elder's saying, a monk's prayer on the island. This is the
@@ -130,37 +130,14 @@ modern_contrast: >-
   it. And it admits inside the south what Cassian refused in his own books - a wonder counted inter
   miracula ac merita - so that the refusal of wonder-stories was Cassian's, not the whole south's.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory014_honoratus-and-the-island.md (Tier 3,
-Lerins node, Registry row 27, attested by row 30). Story Text carried faithfully from the chunk's own
-renderings, bounded to the same lines; two adjustments only - (1) the chunk's "the sentence this
-world's own construction has quoted at every step" is rendered "the sentence the tradition of Lerins is
-remembered by," because "this world's own construction" is builder apparatus, not the tradition's voice,
-and the record layer's voice-perspective rule bars it from narrative; (2) the parenthetical builder's
-note on the unrendered OCR word ("aridilabus") is moved out of the narrative into absent_detail and the
-divergence_note, where the disclosure belongs, leaving the narrative's "so often met in those parts" as
-the chunk itself renders it. Nothing is supplied from outside lines 660-722; nothing about Honoratus at
-Arles; nothing about the island's daily life. Cross-node pairing with gallic.story.election-at-tours
-and gallic.story.bishop-archebius declared as story-to-story associated-with relations, the resemblance
-stated as the construction's finding (Doc_07 §2C), never the sermon's - it does not mention Martin, and
-Sulpitius never mentions Lerins.
+Grounded in Hilary of Arles's Sermo de Vita Sancti Honorati (Migne PL 50, vendored file lines c.
+660-722, rough OCR); the disclosure of the wording's own Inferential-Thin status, the unrendered OCR
+word, and Gennadius's independent attestation of the sermon are all carried above in the
+divergence_note. Nothing is supplied from outside those lines: nothing about Honoratus at Arles,
+nothing about the island's daily life. Cross-node pairing with gallic.story.election-at-tours and
+gallic.story.bishop-archebius is declared as story-to-story associated-with relations; the
+resemblance is this record's own finding, not the sermon's own claim - it does not mention Martin,
+and Sulpitius never mentions Lerins.
 
-Absent Story carried: the chunk's own Absent Story Note is carried in absent_detail above. Doc_09 §8
-item 1 (no story from inside Lerins's own walls) is the finding this record instantiates; that finding
-itself is not a story record and is carried forward to the honest_limit step, not built here.
-
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as the Lerins node's own statement of G1 - the monk-bishop
-(Primary, cross-node) - Doc_04 G1's "the southern node's own founding narrative stating the conjunction
-in its own words, independent of Cassian and of the editorial apparatus," the third instance of Doc_07
-§2C's capture-shape; G2 - Egypt as the measure in the Lerins mode - the founder's "desert" is an island
-"near this city" (Doc_04 G1's Explanatory test: why this world's withdrawal is modest), the psalm he
-carries the anchorite's, and Eucherius's harbour image (row 26, Doc_04 G2) named in the chunk's
-Retrieve-When only, as a retrieval trigger; and G6 - virtus admitted inside the south, the serpents
-counted inter miracula ac merita, which with Eucherius's admiration of the Egyptian fathers' "crying
-signs" (row 26, Doc_04 G6) shows the competition is Cassian-versus-Sulpitius, not south-versus-north
-wholesale.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates gallic.gravity.monk-bishop;
-associated-with gallic.gravity.egypt-as-measure, gallic.gravity.virtus - each connection named
-above, with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of
-those gravity records.
+This story's own relations to this world's gravities are declared in full in its `relations[]`
+field above, reciprocal edges declared on each target.
