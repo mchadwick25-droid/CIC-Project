@@ -15,8 +15,8 @@ wrote it.
 REPORT-ONLY. This module does not grade or fail anything (no entry in
 `engine.m1.gates.GATES`) and never rewrites a record - it only finds and
 counts. `worlds/pahc/Open_Gaps_Tracking.md` OG-10 has this module's own
-per-world reproduction, at record-id granularity, plus a proposed
-mechanism (not yet built - see that entry).
+current per-record, per-world counts, plus a proposed mechanism (not yet
+built - see that entry).
 
 SCOPE: every field `engine.m1.spoken_fields.fields_with_role` declares
 `voice-diet` or `evidence-head` for a record's own `record_type` - text
@@ -37,14 +37,24 @@ QUOTE-MARK FAMILY, NOT MIXED: a real quotation opens and closes with the
 same mark family (straight or curly double, or straight or curly single)
 - pairing across families (a double open with a single close, or vice
 versa) lets a nested quote-within-a-quote of the OTHER family swallow the
-outer quotation's own real close. `_quoted_spans_by_family` pairs each
+outer quotation's own real close. `quoted_spans_by_family` pairs each
 family separately rather than reusing `engine.m4.grounding_net.
 quoted_span_positions`'s own family-blind scan (built for citation-mark
 placement, where a live model's own quoting habits make a cross-family
 pair rare; this module scans hand-authored prose across many styles,
-where it is not rare). It also excludes a possessive apostrophe directly
-after "s" ("the fathers' grace") from ever counting as a close, the one
-apostrophe shape a real closing quote can be confused with.
+where it is not rare).
+
+A possessive apostrophe ("the fathers' grace", "nourishes' the poor
+man's") is never specially excluded: it never becomes a candidate close
+at all unless a real open of the same family is already pending, and at
+that point it IS the nearest close - the same rule a real close follows.
+An earlier version of this module tried to reject an "s'"-shaped mark
+before checking whether an open was pending, using only local context
+(what follows the mark) to guess - that guess was wrong often enough to
+flip real pairings (a real close like "...within us'" or "'nourishes'"
+rejected because a lowercase word happened to follow), which is worse
+than the possessive case it was trying to guard against. Removed rather
+than patched further, per this project's own "no fix on a fix" rule.
 
 Usage: `python -m engine.m1.embedded_quotations` - writes
 `engine/m1/reports/embedded-quotations-report-<date>.json` and prints a
@@ -67,52 +77,19 @@ REPORTS_DIR = Path(__file__).resolve().parent / "reports"
 MIN_QUOTED_WORDS = 8
 
 # Same shape as engine.prose.QUOTE_OPEN/QUOTE_CLOSE, split one family at a
-# time. The close patterns additionally refuse a mark directly after "s"/
-# "S" - a plural or classical-singular possessive ("the fathers' grace",
-# "Jesus' teaching") is the one real shape that can otherwise pass as a
-# closing single quote (preceded by a non-space character, followed by
-# whitespace or punctuation, exactly what a real close looks like).
+# time. Close detection also accepts an em dash, a slash, or another
+# quote mark immediately after (a close can be followed directly by more
+# punctuation, not only whitespace or [.,;:!?)]).
 _DOUBLE_OPEN = re.compile(r"""(?:^|[\s:,\-(])["“](?=\S)""")
-_DOUBLE_CLOSE = re.compile(r"""(?<=\S)["”](?=[\s.,;:!?)]|$)""")
-_SINGLE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['‘](?=\S)""")
-_SINGLE_CLOSE = re.compile(r"""(?<=\S)['’](?=[\s.,;:!?)]|$)""")
-
-# A candidate single-close to reject: a plural or classical-singular
-# possessive ("the fathers' grace", "Jesus' teaching") is the one
-# apostrophe shape that otherwise matches _SINGLE_CLOSE exactly (a
-# non-space character before, whitespace after - a real close's own
-# shape). Distinguished from a real close by what follows the space: a
-# possessive continues the same clause into another lowercase word
-# ("grace", "teaching"); a real close is followed by terminal
-# punctuation, a dash, a parenthetical citation, or the end of the
-# field - never a bare lowercase word picking the sentence back up.
-_POSSESSIVE_CLOSE = re.compile(r"[sS]['’]\s+[a-z]")
+_DOUBLE_CLOSE = re.compile(r"""(?<=\S)["”](?=[\s.,;:!?)/—'’]|$)""")
+_SINGLE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['‘](?!(?:[Tt]is|[Tt]was|[Tt]will|[Tt]were)\b)(?=\S)""")
+_SINGLE_CLOSE = re.compile(r"""(?<=\S)['’](?=[\s.,;:!?)/—"“]|$)""")
 
 # A span whose own text names the project's build apparatus rather than
 # quoting a vendored historical source - Doc_0N/G-cell citations and the
-# gravity/force CLASSIFICATION header, the same vocabulary
-# tools/check_live_commentary.py's own SPOKEN_VOCAB_PATTERNS already
-# flags as a leak into a spoken field, found live inside a quoted span
-# while building this module (gallic.force.power-displayed-disowned:
-# "...which is Doc_04 §6's...", gallic.gravity.authority-ambivalence's
-# own SIX-TEST SUMMARY prose). Not an old-translation quotation at all -
-# tagged, not counted as one.
+# gravity/force CLASSIFICATION header. Not an old-translation quotation
+# at all - tagged, not counted as one.
 _BUILD_DOCUMENT_SELF_QUOTE = re.compile(r"\bDoc_0\d\b|\bG\d\b|\bCLASSIFICATION\b")
-
-
-def _find_real_close(text: str, close_re: re.Pattern, start: int) -> re.Match | None:
-    """The nearest close_re match at or after `start` that is not a
-    possessive apostrophe wearing a close's own shape - see
-    _POSSESSIVE_CLOSE's own docstring."""
-    pos = start
-    while True:
-        close_m = close_re.search(text, pos)
-        if not close_m:
-            return None
-        if _POSSESSIVE_CLOSE.match(text, close_m.start() - 1):
-            pos = close_m.end()
-            continue
-        return close_m
 
 
 def _family_spans(text: str, open_re: re.Pattern, close_re: re.Pattern) -> list[tuple[int, int, str]]:
@@ -122,7 +99,7 @@ def _family_spans(text: str, open_re: re.Pattern, close_re: re.Pattern) -> list[
         open_m = open_re.search(text, pos)
         if not open_m:
             return spans
-        close_m = _find_real_close(text, close_re, open_m.end())
+        close_m = close_re.search(text, open_m.end())
         if not close_m:
             return spans
         spans.append((open_m.end() - 1, close_m.end(), text[open_m.end() : close_m.start()]))

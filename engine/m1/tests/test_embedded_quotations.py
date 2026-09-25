@@ -97,8 +97,8 @@ def test_fleet_survey_world_counts_match_the_og10_baseline():
     record counts per world (not span counts, which move independently as
     pairing/self-quote fixes land)."""
     baseline = {
-        "pahc": 14, "syr": 3, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
-        "cappadocian": 3, "don": 12, "rzg": 11, "witt": 49, "gallic": 83,
+        "pahc": 14, "syr": 2, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
+        "cappadocian": 3, "don": 11, "rzg": 11, "witt": 48, "gallic": 83,
     }
     for world, expected in baseline.items():
         result = survey_world(world)
@@ -126,15 +126,44 @@ def test_quoted_spans_by_family_pairs_double_and_single_independently():
     assert "a real single quote here" in inners
 
 
-def test_a_plural_possessive_apostrophe_is_never_read_as_a_closing_single_quote():
-    """'the fathers' grace' - a bare "s'" possessive with nothing after it
-    but a space - is the one apostrophe shape that can otherwise pass as a
-    real closing single quote (non-space before, space/punctuation after,
-    exactly a real close's own shape)."""
-    text = "'in crying signs' - and the Egyptian fathers' grace shown here was never quoted at all in this sentence of plain prose."
+def test_a_real_close_ending_in_s_is_not_mistaken_for_a_possessive():
+    """An earlier version of this module tried to guess "possessive, not a
+    close" from local context alone (a word ending in s, an apostrophe,
+    then a lowercase word) and rejected real closes that happen to fit
+    that shape - "within us'" (not even a possessive - "us" just ends in
+    s) followed by "and he meant it", and "'nourishes'" (a one-word
+    quotation) followed by "the poor man's prayer". Both must still close
+    at the first single-quote mark after their own open, exactly like any
+    other close."""
+    text = "'the kingdom of God is within us' and he meant it plainly, not as a riddle."
     spans = quoted_spans_by_family(text)
     assert len(spans) == 1
-    assert spans[0][2] == "in crying signs"
+    assert spans[0][2] == "the kingdom of God is within us"
+
+
+def test_nourishes_closes_immediately_not_at_a_later_apostrophe():
+    """The real pahc.witness.marriage-and-wealth shape (positions field):
+    two short single-word/short-phrase quotations close-by, separated by
+    plain prose carrying its own unrelated possessive apostrophes
+    ("man's"). Each quote must close at its own very next single-quote
+    mark, not skip past it looking for a "better" close."""
+    text = "the rich man's wealth 'nourishes' the poor man's prayer, and the poor man's prayer, 'rich in intercession,' in turn benefits the rich man before God."
+    spans = quoted_spans_by_family(text)
+    inners = [s[2] for s in spans]
+    assert "nourishes" in inners
+    assert "rich in intercession," in inners
+
+
+def test_a_leading_tis_contraction_never_opens_a_span():
+    text = "'Tis a small thing, he said, and left it there without another word about it at all."
+    assert quoted_spans_by_family(text) == []
+
+
+def test_a_close_immediately_before_an_em_dash_is_still_detected():
+    text = "before 'a real quotation of some real length here, spoken plainly'—and the sentence continues after it."
+    spans = quoted_spans_by_family(text)
+    assert len(spans) == 1
+    assert spans[0][2] == "a real quotation of some real length here, spoken plainly"
 
 
 def test_a_span_naming_the_build_apparatus_is_tagged_not_counted_as_an_old_translation():

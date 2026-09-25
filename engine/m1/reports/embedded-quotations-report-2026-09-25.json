@@ -5,7 +5,7 @@
       "world": "pahc",
       "non_quote_records": 137,
       "records_with_embedded_quotation": 14,
-      "span_count": 29,
+      "span_count": 28,
       "findings": [
         {
           "id": "pahc.force.selective-canonization",
@@ -244,12 +244,6 @@
               "span": "with the approval of the bishop, that their marriage may be according to God, and not after their own lust",
               "words": 20,
               "self_quote_of_build_document": false
-            },
-            {
-              "field": "positions",
-              "span": "nourishes' the poor man's prayer, and the poor man's prayer, 'rich in intercession,",
-              "words": 13,
-              "self_quote_of_build_document": false
             }
           ]
         },
@@ -273,21 +267,9 @@
     "syr": {
       "world": "syr",
       "non_quote_records": 153,
-      "records_with_embedded_quotation": 3,
-      "span_count": 4,
+      "records_with_embedded_quotation": 2,
+      "span_count": 3,
       "findings": [
-        {
-          "id": "syr.core.syriac",
-          "record_type": "world_core",
-          "spans": [
-            {
-              "field": "cautions",
-              "span": "Catholicos' is anachronistic before the fifth century, and the School of Nisibis was founded c. 489-496, after this world closes - Jacob's and Ephrem's teaching at Nisibis is not 'the School of Nisibis.",
-              "words": 33,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
         {
           "id": "syr.demo.jesus",
           "record_type": "demonstration",
@@ -771,8 +753,8 @@
     "don": {
       "world": "don",
       "non_quote_records": 243,
-      "records_with_embedded_quotation": 12,
-      "span_count": 17,
+      "records_with_embedded_quotation": 11,
+      "span_count": 16,
       "findings": [
         {
           "id": "don.dw.becoming-one-of-us",
@@ -919,18 +901,6 @@
           ]
         },
         {
-          "id": "don.witness.boundary-is-doctrine",
-          "record_type": "doctrinal_witness",
-          "spans": [
-            {
-              "field": "positions",
-              "span": "of the party of Donatus' in the formal record -- language our rival then turned back on us, as though we had named a man instead of naming the Church of Christ. And one of our own preachers turned their own word, 'catholic,",
-              "words": 43,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
           "id": "don.witness.refusal-and-recourse",
           "record_type": "doctrinal_witness",
           "spans": [
@@ -957,7 +927,7 @@
       "world": "gallic",
       "non_quote_records": 196,
       "records_with_embedded_quotation": 83,
-      "span_count": 424,
+      "span_count": 428,
       "findings": [
         {
           "id": "gallic.contested.egypt-two-measures",
@@ -1007,8 +977,8 @@
             },
             {
               "field": "description",
-              "span": "Venerius of Marseilles' first, warning that 'priests ought not to teach so as to invade the episcopal prerogative",
-              "words": 18,
+              "span": "priests ought not to teach so as to invade the episcopal prerogative",
+              "words": 12,
               "self_quote_of_build_document": false
             },
             {
@@ -1127,8 +1097,8 @@
             },
             {
               "field": "description",
-              "span": "too barbarous' ferocity (Dial. III.4); and, the most formation-relevant, Brictio 'brought up in the monastery by Martin himself",
-              "words": 18,
+              "span": "brought up in the monastery by Martin himself",
+              "words": 8,
               "self_quote_of_build_document": false
             },
             {
@@ -1337,12 +1307,6 @@
             },
             {
               "field": "description",
-              "span": "into their cells' so as not to be left to find a way 'difficult and almost unknown in this country",
-              "words": 20,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
               "span": "the manner of life of the oriental monks and of St. Martin",
               "words": 12,
               "self_quote_of_build_document": false
@@ -1391,6 +1355,12 @@
             },
             {
               "field": "description",
+              "span": "a Bishop blessed in name as well as merits",
+              "words": 9,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
               "span": "a monk's humility as entire in the priesthood as, when a monk, he had fully possessed the merits of the priesthood",
               "words": 21,
               "self_quote_of_build_document": false
@@ -1411,6 +1381,18 @@
               "field": "description",
               "span": "afterwards successively bishops of Arles, and Faustus, afterwards bishop of Riez",
               "words": 11,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
+              "span": "In his old age, he was led astray by the Pelagians",
+              "words": 11,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
+              "span": "young soldiers who had just taken the oath of allegiance to Christ",
+              "words": 12,
               "self_quote_of_build_document": false
             },
             {
@@ -1661,6 +1643,12 @@
             },
             {
               "field": "description",
+              "span": "Not I, but the grace of God with me.",
+              "words": 9,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
               "span": "It is the internal force on which the external force 2A-1 acted: the report carried to Africa and Rome was a report of this teaching, which is why the pressure bore on the manual's summit.",
               "words": 35,
               "self_quote_of_build_document": false
@@ -1711,12 +1699,6 @@
               "field": "description",
               "span": "for the condemning of the error of predestination,",
               "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "gathered a council of the highest bishops' and entrusted to 'weak shoulders' the setting in order of what was 'brought forth in public conference",
-              "words": 24,
               "self_quote_of_build_document": false
             },
             {
@@ -1835,8 +1817,8 @@
             },
             {
               "field": "description",
-              "span": "It has no southern counterpart, and this is one of the places where the two nodes' literatures are made of what the other lacks.",
-              "words": 24,
+              "span": "It has no southern counterpart, and this is one of the places where the two nodes",
+              "words": 16,
               "self_quote_of_build_document": false
             }
           ]
@@ -2303,8 +2285,8 @@
             },
             {
               "field": "description",
-              "span": "profane novelties' are 'the same instrument turned on the same pressure",
-              "words": 11,
+              "span": "the same instrument turned on the same pressure",
+              "words": 8,
               "self_quote_of_build_document": false
             },
             {
@@ -2533,6 +2515,12 @@
               "field": "text",
               "span": "when this same Brictio was often accused before him of many and great crimes, Martin could not be induced to remove him from the presbyterate, lest he should be suspected of revenging the injury done to himself, while he often repeated this saying: 'If Christ bore with Judas, why should not I bear with Brictio?'",
               "words": 55,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "If Christ bore with Judas, why should not I bear with Brictio?",
+              "words": 12,
               "self_quote_of_build_document": false
             }
           ]
@@ -3431,6 +3419,12 @@
             },
             {
               "field": "text",
+              "span": "Justly, O Martin, do you feel compunction, but you could not otherwise get out of your difficulty. Renew your virtue, resume your courage, lest you not only now expose your fame, but your very salvation, to danger.",
+              "words": 37,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
               "span": "when it happened that he cured some of the possessed more slowly and with less grace than usual, he at once confessed to us with tears that he felt a diminution of his power on account of the evil of that communion in which he had taken part for a moment through necessity, and not with a cordial spirit. He lived sixteen years after this, but never again did he attend a synod, and kept carefully aloof from all assemblies of bishops.",
               "words": 82,
               "self_quote_of_build_document": false
@@ -4002,8 +3996,8 @@
           ]
         }
       ],
-      "records_with_build_document_self_quote": 13,
-      "self_quote_span_count": 15,
+      "records_with_build_document_self_quote": 10,
+      "self_quote_span_count": 11,
       "self_quote_findings": [
         {
           "id": "gallic.force.cold-of-gaul",
@@ -4042,30 +4036,6 @@
           ]
         },
         {
-          "id": "gallic.force.episcopal-recruitment",
-          "record_type": "force",
-          "spans": [
-            {
-              "field": "description",
-              "span": "a Bishop blessed in name as well as merits' between two prefaces; Honoratus, Hilary, and Faustus go to Arles and Riez; Eucherius's sons, taught by Honoratus, Hilary, Salvian, and Vincent, become bishops (Doc_08 Cell 2A, Force 2A-2). WORLD'S OWN EXPERIENCE (Layer 2): the dignity came to the man who had fled it. The churches came to the monastery for their priests; the citizens laid an ambush of kindness and escorted the monk to the city under guard; bishops resisted and were confounded by a psalm. The formed man did not seek it: to want holy orders was vainglory's suggestion, and the man who wanted to rule had 'grown cold through pride.",
-              "words": 111,
-              "self_quote_of_build_document": true
-            }
-          ]
-        },
-        {
-          "id": "gallic.force.fugitives-fill-the-sees",
-          "record_type": "force",
-          "spans": [
-            {
-              "field": "description",
-              "span": "In his old age, he was led astray by the Pelagians' is Contested and carried unresolved (Doc_08 Cell 3B, Force 3B-1). WORLD'S OWN EXPERIENCE (Layer 2): in the south the brethren saw their teachers taken one after another for Arles and Riez and Lyons, and told it as they had always told it - the fillet on the fugitive - so that the ending looked, from within, like the life's ordinary shape repeated. In the north the disciples buried the master with psalms and a choir of virgins, 'young soldiers who had just taken the oath of allegiance to Christ",
-              "words": 100,
-              "self_quote_of_build_document": true
-            }
-          ]
-        },
-        {
           "id": "gallic.force.power-displayed-disowned",
           "record_type": "force",
           "spans": [
@@ -4087,12 +4057,6 @@
           "id": "gallic.force.received-programs-logic",
           "record_type": "force",
           "spans": [
-            {
-              "field": "description",
-              "span": "Abbot Germanus was troubled by great scruples' over whether effort accomplishes anything; its terminus is a declared limit (XIII.18) (Doc_08 Cell 2B, Force 2B-1). WORLD'S OWN EXPERIENCE (Layer 2): the brother fasted, watched, laboured, kept the cell, and laid every thought bare to the senior - and then, at the moment he felt the fast had done something, he was to say 'Not I, but the grace of God with me.",
-              "words": 71,
-              "self_quote_of_build_document": true
-            },
             {
               "field": "description",
               "span": "This is G3 from within - Primary-grade within Marseilles",
@@ -4133,18 +4097,6 @@
               "field": "description",
               "span": "the one place in this world's literature where the force Doc_01 §7 calls \"what larger world it was embedded in\" enters the text directly,",
               "words": 24,
-              "self_quote_of_build_document": true
-            }
-          ]
-        },
-        {
-          "id": "gallic.gravity.monk-bishop",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "the world'/renunciation into G1 'as its first half",
-              "words": 8,
               "self_quote_of_build_document": true
             }
           ]
@@ -4351,8 +4303,8 @@
     "witt": {
       "world": "witt",
       "non_quote_records": 245,
-      "records_with_embedded_quotation": 49,
-      "span_count": 163,
+      "records_with_embedded_quotation": 48,
+      "span_count": 160,
       "findings": [
         {
           "id": "witt.contested.justification-accounted-and-made",
@@ -4396,12 +4348,6 @@
           "spans": [
             {
               "field": "description",
-              "span": "appearing as the princes' armies were already winning",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
               "span": "a real marker of a different kind -- political-legal rather than doctrinal-confessional",
               "words": 12,
               "self_quote_of_build_document": false
@@ -4420,25 +4366,13 @@
             },
             {
               "field": "description",
-              "span": "the German estates' in 1520; a preacher's to 'dear friends' in 1522; a father's to his household, 'The Simple Way a Father Should Present Them to His Household,",
-              "words": 28,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the undersigned Elector and Princes' before 'Imperial Majesty,",
-              "words": 8,
+              "span": "The Simple Way a Father Should Present Them to His Household,",
+              "words": 11,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
               "span": "the Confession of our preachers and of ourselves,",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "our churches' and a Mass 'retained among us.",
               "words": 8,
               "self_quote_of_build_document": false
             }
@@ -4738,8 +4672,14 @@
             },
             {
               "field": "description",
-              "span": "the Church of Rome as known from its writers' in the confession (AC 631-633). The body remembers it as a command with a graveyard attached: 'he who does not go [to the sacrament at Eastertide] shall not be buried in consecrated ground",
-              "words": 42,
+              "span": "the Church of Rome as known from its writers",
+              "words": 9,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
+              "span": "he who does not go [to the sacrament at Eastertide] shall not be buried in consecrated ground",
+              "words": 17,
               "self_quote_of_build_document": false
             },
             {
@@ -4782,12 +4722,6 @@
               "field": "description",
               "span": "has been brooding over the injury he has suffered in property, in body and in soul",
               "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "murder, and riot of our enemies' quelled by prayer (LC 3190-3196, Documented as text, event unnamed). ABSENT: AGAINST THE MURDEROUS, THIEVING HORDES OF PEASANTS (May 1525) and the companion 1525 tracts -- not vendored, characterized only from a tertiary article, Widely Accepted as to content, no phrase quoted. Blickle's 'revolution of the common man",
-              "words": 54,
               "self_quote_of_build_document": false
             },
             {
@@ -4866,18 +4800,6 @@
               "field": "description",
               "span": "False masters now abound, who songs indite; / Beware of them, and learn to judge them right",
               "words": 17,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "witt.force.reformed-rival-by-absence",
-          "record_type": "force",
-          "spans": [
-            {
-              "field": "description",
-              "span": "Oecolampadius' once, in an editor's footnote; 'Sacramentarians' in Luther's own voice exactly once, in BONDAGE. The Marburg Articles (3 October 1529), signed by Luther and Melanchthon among others, are a located, unvendored lead. Finding: the silence is CHRONOLOGICAL AND GENERIC, not suppressive -- the rival is absent because the vendored texts are early or confessional, not because anyone removed it (Documented as to the searches). The world-boundary weight assigned to this force ('diverge sharply and specifically at the Eucharist",
-              "words": 79,
               "self_quote_of_build_document": false
             }
           ]
@@ -5128,8 +5050,8 @@
             },
             {
               "field": "description",
-              "span": "new spirits' put the formula to a use it was not built for -- the Large Catechism answers by 1529 that faith 'must have something which it believes... upon which it stands and rests",
-              "words": 34,
+              "span": "must have something which it believes... upon which it stands and rests",
+              "words": 12,
               "self_quote_of_build_document": false
             }
           ]
@@ -5292,6 +5214,12 @@
               "field": "description",
               "span": "men, and that, priests, are cruelly put to death, contrary to the intent of the Canons, for no other cause than marriage",
               "words": 22,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
+              "span": "no man's law, no vow, can annul the commandment and ordinance of God,",
+              "words": 13,
               "self_quote_of_build_document": false
             }
           ]
@@ -5627,29 +5555,16 @@
           ]
         }
       ],
-      "records_with_build_document_self_quote": 1,
-      "self_quote_span_count": 1,
-      "self_quote_findings": [
-        {
-          "id": "witt.gravity.vows-chastity-and-marriage",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "the scandals' of impure celibacy; Formation passes as taught and as the founder's own household (Kate, at one remove), Inferential-Thin beyond it; Explanatory passes; Persistence passes 1520-1531 into the 1530s-40s Table Talk, but regionally only Wittenberg and Prussia (editorial); Interaction passes with THREE empty cells (no demonstrated relationship to G10, G11, G13 as read) -- the second-thinnest row, the mark of a gravity that organizes a bounded region. EVIDENTIAL CONFIDENCE: Documented for the argument; Widely Accepted for the practice (pastors' wives; the Order's secularization, editorial). CLASSIFICATION: SUPPORTING -- it organizes the household and monastic-refusal dimensions, but within G1 (vows refused as merit-works), G7 (marriage as estate), and G2 ('no man's law, no vow, can annul the commandment and ordinance of God,",
-              "words": 121,
-              "self_quote_of_build_document": true
-            }
-          ]
-        }
-      ]
+      "records_with_build_document_self_quote": 0,
+      "self_quote_span_count": 0,
+      "self_quote_findings": []
     }
   },
   "totals": {
     "non_quote_records": 1937,
-    "records_with_embedded_quotation": 201,
-    "span_count": 689,
-    "records_with_build_document_self_quote": 14,
-    "self_quote_span_count": 16
+    "records_with_embedded_quotation": 198,
+    "span_count": 687,
+    "records_with_build_document_self_quote": 10,
+    "self_quote_span_count": 11
   }
 }
