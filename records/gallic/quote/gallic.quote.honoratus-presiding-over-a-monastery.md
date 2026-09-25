@@ -37,7 +37,8 @@ modern_lens_note: >-
   description Cassian gives of the man he is addressing - not a name for the place, not a title, but
   the fact of governing a large community of brothers. The identification with Lerins and Honoratus is
   the editorial apparatus's inference, not a claim in Cassian's own sentence.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  leading, as he does, a large monastery of brothers
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

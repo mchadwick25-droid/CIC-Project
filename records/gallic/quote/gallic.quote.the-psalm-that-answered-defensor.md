@@ -50,7 +50,18 @@ modern_lens_note: >-
   get through the crowd, and the verse that came up happened to name an "enemy" and a "defensor" -
   Defensor's own name. Sulpitius reports this as what the crowd believed, not as his own proof; the
   belief is the story's evidence, not the event's certainty.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Among the bishops who were there, however, one named Defensor is said to have opposed Martin most of
+  all. For this reason, people noticed that he was sharply rebuked at that time in the reading from
+  the prophets. It so happened that the reader whose duty it was to read aloud that day was blocked by
+  the crowd and did not appear. The officials were thrown into confusion as they waited for a man who
+  never came. Then one of the bystanders grabbed the book of Psalms and seized on the first verse he
+  came to. The Psalm went like this: 'From the mouths of babies and infants you have perfected praise
+  because of your enemies, to destroy the enemy and the avenger.' When these words were read, the
+  people raised a shout, and the opposing side was put to shame. People believed that God had ordained
+  the choice of this Psalm, so that Defensor might hear a witness about his own work. For in Martin's
+  case, the Lord's praise was perfected out of the mouths of babies and infants. At the same time, the
+  enemy was both pointed out and destroyed.
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours

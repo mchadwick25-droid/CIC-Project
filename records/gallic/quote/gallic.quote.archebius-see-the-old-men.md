@@ -43,7 +43,14 @@ modern_lens_note: >-
   the old men's kind of holiness - "that pearl of the Gospel which I have not," and offers, instead of
   his own teaching, only the sight of men who still have it. The office is framed here as a poverty he
   cannot undo, not a platform he uses.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Meanwhile, go and see the old men who live not far from our monastery. Their bent bodies show how
+  long they have served. Their holiness shines out in how they look. Even the mere sight of them will
+  teach a great lesson to those who see them. From them you can learn what I grieve that I have lost.
+  You will learn it less from their words than from the real example of their holy life. Having lost
+  it, I cannot give it to you. But I think this eagerness of mine will ease my poverty a little. It
+  will, if I at least show you where you can easily get that pearl of the Gospel you are seeking,
+  which I do not have.
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

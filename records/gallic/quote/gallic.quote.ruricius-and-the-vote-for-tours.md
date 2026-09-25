@@ -51,7 +51,19 @@ modern_lens_note: >-
   ambush of kindness: a lie about a sick wife, a crowd posted along the road, "a kind of guard." And the
   charge the objecting bishops bring is the ascetic body itself - mean clothes, disgusting hair - which
   Sulpitius turns back on them: the objection proclaims the very holiness it means to deny.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Martin was called to become bishop of the church at Tours. But he could not easily be drawn out of
+  his monastery. So a man named Ruricius, one of the townspeople, pretended that his wife was ill. He
+  threw himself down at Martin's knees and persuaded him to come out. Crowds of townspeople had
+  already been posted along the road Martin traveled. So he was taken to the city under a kind of
+  guard. An unbelievable number of people had gathered, in a marvelous way, to cast their votes. They
+  came not only from that town, but from the nearby cities too. Everyone had one wish and the same
+  prayers. All held the same firm view: Martin was most worthy to be bishop, and the church would be
+  happy with such a bishop. A few people, however, were resisting in an ungodly way. Among them were
+  some of the bishops who had been called in to appoint the new bishop. They claimed, if you please,
+  that Martin was a contemptible person, unworthy to be bishop. He had a despicable face, they said,
+  shabby clothes, and disgusting hair. People of sounder judgment laughed at this madness of theirs.
+  For while these objectors tried to slander the man, they only proclaimed how outstanding he was.
 relations:
 - type: associated-with
   target: gallic.story.election-at-tours

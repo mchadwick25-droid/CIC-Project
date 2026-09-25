@@ -45,7 +45,13 @@ modern_lens_note: >-
   brothers keep the vessels "with the utmost care and anxiety" because they believe an account for them
   is owed "not only to a present steward, but to the Lord." An ordinary bowl or tool is treated as
   sacred property - not because it is valuable, but because the house itself is consecrated.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Across the whole of Mesopotamia, Palestine, Cappadocia, and all the East, the brothers take turns
+  each week to carry out certain duties. ... They hand over the vessels and tools they have served
+  with to the brothers who take their place. These brothers receive them and keep them with the
+  greatest care and concern, so that none is damaged or destroyed. They believe they must give an
+  account even for the smallest vessels, as sacred things. They answer for them not only to the
+  steward over them now, but to the Lord.
 relations:
 - type: associated-with
   target: gallic.story.the-three-lentil-beans

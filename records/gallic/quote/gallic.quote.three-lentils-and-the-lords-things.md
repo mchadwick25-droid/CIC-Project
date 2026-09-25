@@ -53,7 +53,20 @@ modern_lens_note: >-
   possess is consecrated to the Lord" - the same reasoning that suspends him from prayer also explains
   why dusting a cell earns a reward. The severity and the small reward sit on the same scale: both
   measure how the monk treats what is not his own.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  During one brother's week of duty, the steward was passing by. He saw three lentil beans lying on
+  the ground. They had slipped from the hand of the monk on duty that week, as he hurried to get them
+  ready for cooking. They slipped out along with the water he was washing them in. At once the steward
+  asked the Abbot about it. The Abbot judged the monk a petty thief, and careless with sacred
+  property. So he was barred from prayer. His careless fault was forgiven only after he had made up
+  for it by public penance. For they believe that they do not belong to themselves. They believe, too,
+  that everything they have is dedicated to the Lord. So once anything at all is brought into the
+  monastery, they hold it must be treated with the deepest reverence, as a holy thing. They look after
+  and arrange everything with great faithfulness. They do this even with things thought unimportant,
+  or seen as common and trivial. Suppose they move such things and put them in a better place, or fill
+  a bottle with water, or give someone a drink from it. Or suppose they sweep a little dust from the
+  chapel or from their cell. They believe without doubting that they will receive a reward from the
+  Lord.
 relations:
 - type: associated-with
   target: gallic.story.the-three-lentil-beans

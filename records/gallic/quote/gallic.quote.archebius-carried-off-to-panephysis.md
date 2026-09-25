@@ -46,7 +46,15 @@ modern_lens_note: >-
   complaint, as Cassian records it, is not modesty: he counts thirty-seven years in the monastic life
   and names his consecration an expulsion from it "as unworthy" - a loss, not an honor, even after he
   has held the office his whole remaining life without relaxing his old strictness.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  When we got there, God granted our wishes. He had brought that most blessed and excellent man,
+  Bishop Archebius, to the same place. Archebius had been carried off from the community of hermits
+  and given as bishop to the town of Panephysis. All his life he kept to his commitment to solitude,
+  so strictly that he loosened nothing of his old humility. Nor did he flatter himself over the honor
+  that had been added to him. He insisted that he had not been called to that office because he was
+  fit for it. Instead he complained that he had been thrown out of the monks' way of life as unworthy
+  of it. For though he had spent thirty-seven years in it, he had never reached the purity so high a
+  calling demands.
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

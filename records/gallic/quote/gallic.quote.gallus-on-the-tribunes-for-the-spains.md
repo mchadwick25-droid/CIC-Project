@@ -88,8 +88,8 @@ modern_rendering: >-
   was coming. When it came, they lost all courage and began to mutter and tremble among themselves.
   Under their influence, the emperor had already decided to send some tribunes with absolute power into
   the two Spains. They were to search out heretics and, once they found them, take their lives or their
-  goods. There was no doubt that this storm would also wreck great numbers of truly holy people, since
-  little care was taken to tell one kind of person from another. At such times people were judged by
+  goods. No doubt this storm would also wreck great numbers of truly holy people. Little care was taken
+  to tell one kind of person from another. At such times people were judged by
   appearances alone. A man was judged a heretic for turning pale with fear, or for wearing certain
   clothes, rather than by the faith he professed. The bishops knew well that Martin would never approve
   of such actions. But their consciences were guilty, and they were deeply anxious that when he came, he
