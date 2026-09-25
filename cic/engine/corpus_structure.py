@@ -75,6 +75,32 @@ def _unescape(text: str) -> str:
     return text
 
 
+def _strip_tags_if_markup(path: Path, raw: str) -> str:
+    """`_TAG` ("<[^>]+>") is only safe to run against text that actually
+    contains real markup - it matches from ANY "<" to the NEXT ">", which
+    is correct for a genuine tag (the docstring's own nested <note><p
+    class="endnote">...</p></note> case) but not for OCR'd plain prose,
+    where a stray "<" (scanning noise, a misread quotation mark, an
+    editorial bracket) has no real closing tag of its own. Found live in
+    cic/texts/salvian_on-the-government-of-god_sanford1930.txt: a stray
+    "<" at offset 84411 ("...receive their \\nrecs. <* \\n\\nHow then...")
+    matched forward past three chapter breaks to an unrelated ">" at
+    139805, deleting 55,394 real characters; a second stray "<" at 144235
+    deleted another 173,069. This is this function's ONLY caller reaching
+    the "no <div1-3> markup at all" branch, so the fix belongs here, once,
+    not in every caller: every .txt file in this corpus is plain text with
+    no markup, ever - skip stripping entirely rather than risk it. The one
+    file that reaches this same branch while still being real markup,
+    cic/texts/webbe_world-english-bible-british-edition.xml (real USFX
+    tags - <p sfm="ip">, <v id="..." /> - just never wrapped in a
+    <div1-3>), keeps its tags stripped, by checking the file's own
+    extension rather than assuming ".txt" and "no <div1-3> markers" are
+    the same fact."""
+    if path.suffix != ".xml":
+        return raw
+    return _TAG.sub(" ", raw)
+
+
 def outline(path: Path, max_level: int = 2) -> list[dict]:
     """Sections down to `max_level`, each with the word count of its OWN text.
 
@@ -91,7 +117,7 @@ def outline(path: Path, max_level: int = 2) -> list[dict]:
                       _unescape(title_match.group(1)) if title_match else ""))
 
     if not marks:                                  # a plain .txt with no markup
-        words = len(_TAG.sub(" ", raw).split())
+        words = len(_strip_tags_if_markup(path, raw).split())
         return [{"level": 0, "title": path.stem, "words": words,
                  "subtree_words": words, "apparatus": False, "path": "1"}]
 

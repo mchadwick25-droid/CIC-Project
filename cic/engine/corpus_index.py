@@ -60,7 +60,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import corpus_structure as cs  # noqa: E402  (reuses _DIV, _TITLE, _TAG, _unescape - see docstring)
+import corpus_structure as cs  # noqa: E402  (reuses _DIV, _TITLE, _TAG, _unescape, _strip_tags_if_markup - see docstring)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
@@ -84,7 +84,7 @@ def passage_units(path: Path) -> list[dict]:
                       id_m.group(1) if id_m else None))
 
     if not marks:
-        text = cs._TAG.sub(" ", raw).strip()
+        text = cs._strip_tags_if_markup(path, raw).strip()
         return [{"locus": "whole-file", "title": path.stem, "apparatus": False, "text": text}]
 
     units = []
