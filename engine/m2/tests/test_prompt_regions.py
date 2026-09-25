@@ -126,7 +126,7 @@ def test_a_prompt_with_no_standing_instruction_writes_no_boundary():
 def test_the_gravities_list_strips_the_build_taxonomy_bracket_not_the_name():
     """A gravity's own `name` field ends in a bracketed build taxonomy tag
     (e.g. "Divine Pedagogy [SUPPORTING - explanatory framework]") - real
-    and useful to a build reviewer, never meant for a model prompt.
+    and useful to a reviewer, never meant for a model prompt.
     engine.m4.citation_cards._short_name already stripped this for the
     participant-facing citation card; build_prompt's own Gravities list
     did not, so the raw tag reached the model. Shared fix, via
