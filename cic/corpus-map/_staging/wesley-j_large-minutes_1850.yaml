@@ -1,0 +1,23 @@
+# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
+# source-acquisition pass.
+source_file: wesley-j_large-minutes_1850.txt
+
+assignments:
+  - work: "Minutes of Several Conversations (the Large Minutes) - Section I,
+      'The Design of God in Sending the Methodist Preachers,' and Section II,
+      'The Rise of Methodism'"
+    author: wesley-john
+    locus: "lines 359-390; the Rise-of-Methodism catechism question begins
+      line 379 - note: this reprint's own OCR misreads the year '1729' as
+      '1/29' (line 380), a character-level digit error, not this world's own
+      claim; the correct year, independently well attested (the 'Holy Club'
+      at Oxford), is 1729"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      The connexion's own catechism-form self-account of its own origin and
+      purpose - "messengers sent... to reform the nation, by spreading
+      scriptural holiness over the land" - directly quotable, own-voice
+      throughout (no opponent voice mixed in).

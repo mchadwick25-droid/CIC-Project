@@ -1,0 +1,35 @@
+# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
+# source-acquisition pass.
+source_file: wesley-c_hymns-methodists_1780.txt
+
+assignments:
+  - work: "A Collection of Hymns, for the Use of the People Called Methodists - Preface"
+    author: wesley-john
+    locus: "lines 75-~370 (Preface, signed John Wesley, 20 October 1779)"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      John Wesley's own framing of the Collection as "a little body of
+      experimental and practical divinity" - the connexion's stated theory of
+      what its hymns are FOR, distinct from the hymn texts themselves.
+
+  - work: "A Collection of Hymns, for the Use of the People Called Methodists -
+      the hymns themselves (Charles Wesley, principal author)"
+    author: wesley-charles
+    locus: "the body of the 525 numbered hymns, lines ~370-33700
+      approximately; confirmed present: 'Christ, whose glory fills the skies'
+      (indexed at line 33733, in this file's own closing Index of First Lines
+      - its own body-text locus not individually isolated this pass)"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: provisional
+    note: >
+      Verified as genuinely present in this specific 1780 Collection (not
+      assumed from later, better-known Methodist hymnals); exact body-text
+      line loci for individual hymns are Doc_03+ scope, not exhaustively
+      isolated here. Long-s normalized throughout this file (see
+      REGISTRY.yaml); a handful of stray OCR thorn/eth-shaped glyphs left
+      untouched and disclosed rather than guessed at.

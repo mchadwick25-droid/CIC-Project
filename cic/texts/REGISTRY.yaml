@@ -2406,3 +2406,109 @@
     otherwise unaltered including its own OCR errors. The other two identifiers this
     world's own dossier named (bondagewill00colegoog, bondageofwill00mart) were not
     independently checked this pass and remain open if a cleaner scan is ever wanted.
+- filename: wesley-j_journal-v1_curnock1909.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    The Journal of the Rev. John Wesley, A.M., ed. Nehemiah Curnock (London: R. Culley,
+    [1909?]-1916), Vol. I of 8 - the standard scholarly "Curnock edition" of Wesley's
+    Journal. RIGHTS: public domain by date, publication complete by 1916, independently
+    corroborated by the Internet Archive item's own "Permission Granted to Digitize Item"
+    notice. Fetched directly (curl, raw bytes) from Internet Archive item
+    a613690401wesluoft (archive.org/details/a613690401wesluoft), the item's own _djvu.txt
+    full-text derivative; header prepended per cic/texts/INTAKE.md, body otherwise
+    unaltered including its own OCR errors. VOLUME SCOPE FLAG: Volume I only, covering
+    Wesley's early life through the Aldersgate "heart strangely warmed" entry (24 May
+    1738); Volumes II-VIII (1738 onward, the bulk of the movement's own working life) are
+    NOT vendored in this pass - a real, disclosed acquisition gap, not a silent one (see
+    this world's Open_Gaps_Tracking.md).
+- filename: wesley-j_sermons-v1_1771.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Sermons on Several Occasions, Vol. I (Bristol: William Pine, 1771) - Wesley's own
+    first collected edition of his prose works, containing Sermons I-XII of the
+    Forty-Four Standard Sermons (Salvation by Faith; The Almost Christian; "Awake, Thou
+    That Sleepest"; Scriptural Christianity; Justification by Faith; The Righteousness of
+    Faith; the Sermon on Mark i.15; The First-Fruits of the Spirit; The Spirit of Bondage
+    and of Adoption; The Witness of the Spirit I-II; The Witness of Our Own Spirit; and
+    beyond). RIGHTS: public domain by date, an 18th-century original edition. Fetched
+    directly (curl, raw bytes) from Project Gutenberg eBook #59743
+    (gutenberg.org/ebooks/59743), the plain-text (.txt.utf-8) release; header prepended
+    per cic/texts/INTAKE.md, Gutenberg's own license boilerplate left in place, body
+    otherwise unaltered. Sermon I begins at line 462 of the vendored file (a table of
+    contents precedes it).
+- filename: wesley-j_large-minutes_1850.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Minutes of Several Conversations, between the Rev. John Wesley, A.M., and the
+    Preachers in Connexion with Him - "the Large Minutes," Methodism's own cumulative
+    discipline document (distinct from a single year's annual Conference Minutes). This
+    reprint (Reprinted for the Methodist Book-Room, 1850) states its own underlying text
+    as "London, Printed for G. Whitfield, 1797" - a posthumous printing reflecting the
+    Minutes as they stood soon after Wesley's 1791 death, NOT the final 1789 edition
+    issued in Wesley's own lifetime; disclosed here rather than silently equated with the
+    1789 text. RIGHTS: public domain by date either way. Fetched directly (curl, raw
+    bytes) from Internet Archive item minutesofseveral00wesliala
+    (archive.org/details/minutesofseveral00wesliala, "NOT_IN_COPYRIGHT" per the item's
+    own metadata), the item's own _djvu.txt full-text derivative; header prepended per
+    cic/texts/INTAKE.md, body otherwise unaltered.
+- filename: wesley-c_hymns-methodists_1780.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    A Collection of Hymns, for the Use of the People Called Methodists (London: J.
+    Paramore, at the Foundry, 1780) - 525 hymns, the great majority Charles Wesley's own
+    composition, compiled and prefaced in John Wesley's name (Preface signed "John
+    Wesley," 20 Oct. 1779). RIGHTS: public domain by date. Fetched directly (curl, raw
+    bytes) from Internet Archive item
+    bim_eighteenth-century_a-collection-of-hymns-f_wesley-john_1780, the item's own
+    _djvu.txt full-text derivative; header prepended per cic/texts/INTAKE.md. LONG-S
+    NORMALIZED: 13,050 occurrences of the historical long-s glyph mechanically converted
+    to modern round-s throughout (one-to-one, unambiguous). A small number (fewer than
+    20) of stray thorn/eth-shaped OCR-misread glyphs (page ornaments, rule marks, one
+    misread "baptize") were left UNTOUCHED rather than guessed at - the correct
+    underlying character cannot be recovered with certainty in every case, and guessing
+    would itself be a fabrication risk; anyone verifying a quote whose locus falls near
+    one of these glyphs should check the scanned page image directly. Nothing else
+    altered.
+- filename: asbury_journal-v1_1821.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    The Journal of the Rev. Francis Asbury, Bishop of the Methodist Episcopal Church,
+    from August 7, 1771, to December 7, 1815. In Three Volumes. Vol. I (Aug. 1771-Jul.
+    1786) (New York: N. Bangs and T. Mason, for the Methodist Episcopal Church, 1821) -
+    the original first American edition. RIGHTS: public domain by date. NOT the modern
+    critical edition (Clark, Potts & Payton, eds., The Journal and Letters of Francis
+    Asbury, 3 vols., Epworth/Abingdon, 1958), which remains in copyright and is not
+    vendored here - disclosed explicitly to prevent confusion between the two. Fetched
+    directly (curl, raw bytes) from Internet Archive item 00612616.emory.edu (Pitts
+    Theology Library / Emory University digital collection, whose own online notice
+    states the edition is public domain), the item's own _djvu.txt full-text derivative;
+    header prepended per cic/texts/INTAKE.md, body otherwise unaltered.
+- filename: asbury_journal-v2_1821.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Same work as asbury_journal-v1_1821.txt, Vol. II (Jul. 1786-Nov. 1800). RIGHTS and
+    edition caveats as stated for Vol. I. Fetched directly (curl, raw bytes) from
+    Internet Archive item journalofrevfran00asbu (a New York Public Library copy), the
+    item's own _djvu.txt full-text derivative; header prepended per
+    cic/texts/INTAKE.md, body otherwise unaltered. Note: an earlier search-summary
+    claim (not independently verified before this session checked the file's own
+    title page directly) misidentified this same identifier as "Volume I" - corrected
+    here on direct inspection of the vendored text itself, per this project's own
+    verify-against-the-host discipline.
+- filename: asbury_journal-v3_1821.txt
+  supplied_by: Claude (Methodist Revival build thread, Step 0/Doc_02 source-acquisition pass)
+  date_added: '2026-09-25'
+  notes: >-
+    Same work as asbury_journal-v1_1821.txt, Vol. III (Nov. 1800-Dec. 1815). RIGHTS and
+    edition caveats as stated for Vol. I. Fetched directly (curl, raw bytes) from
+    Internet Archive item 00612616.874.emory.edu (Pitts Theology Library / Emory
+    University digital collection), the item's own _djvu.txt full-text derivative;
+    header prepended per cic/texts/INTAKE.md, body otherwise unaltered. This volume's
+    own closing errata note (retained verbatim) flags one date correction against Vol.
+    II (a misprint of 1797 for 1799).

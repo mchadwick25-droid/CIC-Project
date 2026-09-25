@@ -1,0 +1,45 @@
+# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
+# source-acquisition pass.
+source_file: wesley-j_sermons-v1_1771.txt
+
+assignments:
+  - work: "Sermons on Several Occasions, Vol. I (Sermon I, 'Salvation by Faith')"
+    author: wesley-john
+    locus: "lines 490-845"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      The opening sermon of Wesley's own first Standard Sermons collection -
+      his doctrine of salvation by grace through faith stated directly, in
+      his own preached voice.
+
+  - work: "Sermons on Several Occasions, Vol. I (Sermon II, 'The Almost Christian')"
+    author: wesley-john
+    locus: "lines 874-1175"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      Wesley's own diagnostic sermon distinguishing nominal from converted
+      Christianity - directly relevant to the class-meeting's own
+      soul-searching practice this world's ecology centers on.
+
+  - work: "Sermons on Several Occasions, Vol. I (Sermons III-XII and following,
+      on sleeping/waking, scriptural Christianity, justification, the witness
+      of the Spirit, and related themes)"
+    author: wesley-john
+    locus: "lines 1176-8855 (end of volume); individual sermon headings at
+      lines 1176, 1642, 2254, 2739, 3211, 3615, 4055, 4597, 5071, 5543 and
+      onward"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: provisional
+    note: >
+      Grouped rather than itemized this pass - each sermon's own heading and
+      Scripture text was verified present at the cited line (see this
+      world's Doc_02), but individual sermon-by-sermon quotability review is
+      Doc_03+ scope, not performed here.

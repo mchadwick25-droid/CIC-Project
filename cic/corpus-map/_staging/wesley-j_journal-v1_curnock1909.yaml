@@ -1,0 +1,40 @@
+# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
+# source-acquisition pass. First vendoring for this world's own Atlas entry
+# (the-methodist-revival, VII.5) - no prior corpus-map bucket existed for it
+# before this pass. See cic/texts/REGISTRY.yaml for full rights/provenance.
+source_file: wesley-j_journal-v1_curnock1909.txt
+
+assignments:
+  - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I"
+    author: wesley-john
+    locus: "entry for 24 May 1738 (the Aldersgate 'heart strangely warmed'
+      account), lines 27057-27089 of the vendored file - note: this
+      edition's own OCR misreads the day-heading digit as '14.'/'16.'
+      rather than '24.'/'26.'; the surrounding editorial footnote (lines
+      26989-26990, 27036-27037) independently and explicitly dates the
+      same entry to 'May 24 ... 1738,' corroborating the standard date
+      against the file's own apparatus rather than against the (likely
+      OCR-garbled) day-numeral alone"
+    atlas_ids:
+      - the-methodist-revival
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own founding moment in Wesley's own words, in the
+      standard scholarly Curnock edition. Volume I only is vendored (birth
+      through mid-1738); Volumes II-VIII, covering the movement's own
+      working decades, are not yet acquired - a binding open item for this
+      world's own Doc_02 and Open_Gaps_Tracking.md.
+
+  - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
+      -- Curnock's own Editorial Introduction"
+    author: wesley-john
+    locus: "Curnock's own editorial introduction discussing Wesley's
+      'evangelical conversion,' lines ~1745-1770 of the vendored file"
+    atlas_ids:
+      - the-methodist-revival
+    role: context
+    confidence: assigned
+    note: >
+      Editorial (Curnock's own voice, not Wesley's) - useful as
+      context/orientation for Doc_02, never citable as Wesley's own words.

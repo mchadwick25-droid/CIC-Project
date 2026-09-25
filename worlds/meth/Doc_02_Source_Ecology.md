@@ -1,0 +1,123 @@
+# Doc_02 — Source Ecology: The Methodist Revival
+
+**Status:** Approved to proceed, self-disposed by this build thread per `cic-build-cycle` (no escalation category applies — see §9). Not Frozen. Revision 1, cleared one review round with cosmetic-only findings (`Review-Artifacts/Doc02_Review_Round1.md`), subject to the same review-independence disclosure as Step 0 (§6 there) and Doc_01.
+**Companion documents:** `Source_Registry.md` and `Source_Acquisition_Manifest.md` (co-equal Step 2 outputs — this document is the narrative judgment; the Registry is the per-source ledger; the Manifest is the acquisition-priority list).
+**Date drafted:** 2026-09-25.
+**Governed by:** `CiC_Record_Native_World_Build_Process_V1.6.md` §2 (Phase A, Step 2, cross-world source-layer instructions); Constitution V2.3 Article 17 (five-level confidence vocabulary), Article 20 (Affirmative Duty/marginalized voices), Article 26 (Author Gravity); grounded in `Doc_01_World_Identification_Boundaries_Orientation.md` (Approved to proceed), which this document does not reopen except where Doc_01's own §8 open items bind this document to act.
+
+**A structural-mismatch disclosure, carried from Step 0 §0 rather than repeated there and dropped here.** This build's own launch instruction expected this document to include, among other things, "a holdings disposition for every item (run `python -m engine.m9.cli holdings meth` before Doc_02's review)." That command was run and fails immediately: `engine/m9/holdings.py` reads from `records/<world>/`, the Phase-B WRS record store, which does not exist for any world before its own Phase B authoring begins (V1.6 §3) — no world at the Library stage (Step 0–Doc_02) has one. This is not a tooling failure to route around; it is a genuine mismatch between this build's own launch instruction (drafted against a "V1.8" description this repository does not contain, per Step 0 §0) and the actual, current build process. **This document's own Source Registry (`Source_Registry.md`) serves the equivalent function this stage of the pipeline actually calls for**: every one of its 22 rows carries an explicit Confidence (A–E) and a Verification Note stating exactly what was checked and what was not — the Library-stage equivalent of a per-item holdings disposition, expressed in the vocabulary this stage's own governing document (V1.6) and precedent (`worlds/rzg/Source_Registry.md`) actually use.
+
+## 1. Primary Sources
+
+Eleven corpus-map rows across seven vendored files (`cic/corpus-map/the-methodist-revival.yaml`), organized here by figure/genre.
+
+**John Wesley's own voice:**
+- *The Journal of the Rev. John Wesley, A.M.* (Curnock ed., Vol. I) — this world's own doorway event (Aldersgate, 24 May 1738) in Wesley's own words, plus his early life. **Volume I of eight; the remaining seven volumes, covering essentially the entire working span of the revival, are not vendored** (Manifest item G1, now a host-verified queue entry for a future pass, per `worlds/_cross-world/download-queue-seed.yaml`).
+- *Sermons on Several Occasions*, Vol. I (Bristol, 1771) — twelve of the Forty-Four Standard Sermons, his doctrine preached directly, including "Salvation by Faith" and "The Almost Christian."
+- The Large Minutes (1850 reprint) — the connexion's own catechism-form self-account of its own design and rise, compiled under Wesley's name and voice.
+- The Preface to *A Collection of Hymns* (1780) — Wesley's own stated theory of what the hymnody is for.
+
+**Charles Wesley's own voice:**
+- The 525 hymns of the 1780 Collection itself — confirmed genuinely present in this specific edition (not assumed from later, better-known Methodist hymnals); the movement's theology in sung, memorized form.
+
+**Francis Asbury's own voice:**
+- His complete three-volume Journal (1821 first American edition), covering his entire American ministry (1771–1815) — the one figure in this world's corpus whose own primary-text coverage is genuinely complete across this world's own full window.
+
+**What this list does not contain, disclosed here rather than discovered later:** no Whitefield primary text at all (§6 below); no annual Conference Minutes distinct from the Large Minutes; no class/band record, class paper, or society/circuit record — the census's own named "lived organizational core" of this movement is entirely absent from what this pass actually vendored; no Bosanquet Fletcher, Hester Ann Rogers, *Arminian Magazine*, or Wesley–Crosby material — every one of the census's own named "ordinary voice" sources remains unacquired; and seven of eight Wesley Journal volumes and roughly three-quarters of his Standard Sermons. This is a corpus of doctrine, connexional self-definition, hymnody, and one figure's complete pastoral journal — genuinely rich in the voices it holds, and genuinely, disclosedly thin in the ordinary-member and rival-movement voices it does not yet hold.
+
+## 2. Author Gravity Assessment
+
+Per the Framework's own five dimensions (Visibility, Representativeness, Influence, Limitations, Transmission History).
+
+**John Wesley.**
+- *Visibility:* The dominant figure in this corpus by every vendored measure — the doorway event, twelve sermons, the Large Minutes, and the hymnal's own preface are all his voice or compiled under his name. This is not an artifact of this pass's own search bias alone: the census's own source list places him first among primary sources, and he is, on any account, the movement's own central organizing figure.
+- *Representativeness:* Represents the movement's own opening year (1738, via the one vendored Journal volume) and its doctrinal core (the Sermons, the Large Minutes) in unusual depth; does **not** yet represent his own working ministry across the following five decades (1738–1790) at all in this pass's corpus — a real, serious representativeness gap this document does not paper over by treating "Wesley in 1738 and in his own catechism" as equivalent to "Wesley across his own working life."
+- *Influence:* Foundational, on all evidence — the connexion's own doctrine, discipline, and hymnody all derive directly from his own preaching and organizing.
+- *Limitations:* A single opening-year Journal volume and a single sermon volume cannot themselves evidence how Wesley's own preaching, or his own relationship to the connexion, changed across five subsequent decades — including his own documented later discomfort with developments (Asbury's own adoption of the title "Bishop," Doc_01 §5) this corpus cannot currently show in his own words, since no letters collection is vendored.
+- *Transmission History:* The Journal is the standard scholarly Curnock edition (1909–1916); the Sermons volume is Wesley's own 1771 first collected edition (Bristol: William Pine) — an earlier, more directly authorial text than a later collected-Works redaction would be.
+
+**Charles Wesley.**
+- *Visibility:* Represented by exactly one work-class (the hymns) but a substantial one — 525 hymns in a single volume confirmed genuinely his own era's own printing.
+- *Representativeness:* Represents his own hymn-writing at a relatively mature point (1780, eight years before his 1788 death) but not his own Journal, letters, or any prose account of his own life or ministry — none of which is vendored.
+- *Influence:* The census's own account states this plainly: he "set the movement's whole theology to thousands of singable hymns" — a genuinely distinct transmission mechanism from his brother's own preached and written prose, reaching members (particularly those who could not read) no sermon or catechism reached the same way.
+- *Limitations:* This corpus currently knows Charles Wesley only through his own hymn texts, not through any first-person prose account of his own life, his own real and documented tensions with his brother over Methodism's relationship to the Church of England, or his own role in the movement's governance.
+- *Transmission History:* The 1780 Collection is itself already a mature, standardized edition (Wesley's own preface calls it a considered arrangement, not a first printing of individual hymns written across the prior four decades) — this document does not treat it as evidence of how any single hymn's own text evolved across its own publication history.
+
+**Francis Asbury.**
+- *Visibility:* The only figure in this corpus with genuinely complete primary-text coverage across the full window — three full Journal volumes, 1771 through 1815.
+- *Representativeness:* Represents the American strand's own itinerant, frontier-facing ministry in exceptional depth and continuity — a real strength this corpus holds that its Wesley coverage does not.
+- *Influence:* The shaping figure of American Methodism, per the census's own account, and the direct authority-structure divergence point from British Methodism (Doc_01 §5).
+- *Limitations:* A single figure's own journal, however complete, cannot itself evidence the American connexion's own collective decision-making (the annual Conferences, not vendored) or the experience of the ordinary circuit-riders and members under his own oversight.
+- *Transmission History:* The vendored edition is the original 1821 first American printing (N. Bangs and T. Mason) — explicitly not the modern 1958 critical edition (Doc_01 footnote convention, restated here per Registry rows 6–8), which remains in copyright.
+
+**The corpus's own overall shape, named directly rather than left to be inferred:** Wesley's own visibility is disproportionate to this pass's own actual acquisition of his working ministry (heavily front-loaded to 1738 and to doctrine, thin on 1739–1790); Charles Wesley is visible only as hymnodist; Asbury is, paradoxically, the single most completely and continuously evidenced figure in this corpus despite being the movement's own second-generation American successor rather than its founder. Any future document drawing a portrait of "the Methodist Revival" from this corpus alone would risk overweighting 1738 and underweighting the five decades of actual growth that followed it — a risk this document names explicitly for Doc_04/Doc_05 to guard against, not a risk this document itself has committed (nothing in Doc_01 or this document treats 1738 as representative of the whole window).
+
+## 3. Secondary Scholarship Assessment
+
+No secondary scholarship is vendored for this world. Per the Framework: "Secondary scholarship is not a source within the world. It is the interpretive layer through which the world's primary sources are accessed." The census's own `sources` field names Henry Rack's *Reasonable Enthusiasm* (1989/2002) and David Hempton's *Methodism: Empire of the Spirit* (Yale, 2005) as the standard scholarly biographies/histories, and the Cambridge History of Christianity Vol. 7 (W. R. Ward) as a direct-fit reference chapter — none independently checked against the actual books this pass (Registry rows 20–22). This document draws directly on the primary vendored texts wherever possible and flags every place it instead relies on general historical knowledge not independently checked against a primary or secondary source this pass, per the confidence discipline in §8 below.
+
+## 4. Formation Narrative Sources
+
+Genuinely thin in one specific sense, genuinely present in another, and this document keeps the two distinct rather than blending them into one verdict. **Genuinely present:** Wesley's own Journal and Asbury's own complete Journal are themselves first-person, dated, narrative accounts of the movement's own formation as it happened — an unusually direct formation-narrative source class this project's own already-built patristic worlds mostly lack (those worlds' formation narratives are, more often, later commemorative accounts — martyrdoms, saints' lives — not the founder's own contemporaneous journal). **Genuinely thin:** no *ordinary convert's* own formation narrative survives in what this pass vendored — no class paper, no *Arminian Magazine* testimony, no Bosanquet Fletcher or Hester Ann Rogers account. Doc_09's own Story Inventory should expect strong founder-level formation narrative (especially from Asbury's complete Journal) and should not assume it can draw equally on ordinary-member narrative, which this pass's own corpus does not currently supply at all.
+
+## 5. Material Culture and Daily Life Sources
+
+The thinnest lens this corpus currently offers, in the specific and disclosed sense that the census's own selection rationale for this world names "class-meeting records" and "thousands of member narratives" as this movement's own richest layer — and this pass's own vendored corpus holds none of it. What this corpus *does* hold that bears on daily/lived practice is indirect: Asbury's own Journal narrates his own daily itinerant experience in detail (weather, distances ridden, congregations preached to, hospitality received) and is a genuine, if single-figure, daily-life source; the Large Minutes prescribe class-meeting practice in the abstract (what a class leader should ask, how often societies should meet) without evidencing how it was actually lived by any named ordinary member. This world's own build cannot currently reconstruct an ordinary class member's own weekly experience directly from primary text — only from a founder's own prescription of what that experience should be, and from Asbury's own itinerant clergy-level daily narrative. Per the Framework's own instruction, this thinness is acknowledged as an evidentiary gap in this build's own corpus, not a claim that such material does not exist or was not richly produced (the opposite is true, and is exactly why the census selected this world).
+
+## 6. Source Asymmetries and Missing Voices
+
+**The Wesley-1738/Wesley-working-ministry asymmetry (§2 above).** Managed directly: this document's own Author Gravity Assessment names the gap plainly rather than letting the one vendored Journal volume's own richness stand in silently for five decades it does not cover.
+
+**The complete absence of Whitefield's own primary voice (Doc_01 §4, binding on this document).** This world's single most important contemporary-movement figure has zero primary-text presence in this corpus. Every characterization of Whitefield anywhere in this world's documents to date — including Doc_01's own account of the 1739–41 breach — is drawn from Wesley's own references to him, from the census's own account, or from general historiography, **never from Whitefield's own words.** This document states this as a load-bearing limitation, not a footnote: any future document quoting or characterizing Whitefield's own theology must either acquire his own text first (Manifest item G5) or flag every such characterization as second-hand.
+
+**Missing voices, under Article 20's Affirmative Duty regarding the marginalized within the community.** Four named, real absences:
+- **Mary Bosanquet Fletcher** — argued for women's right to preach in a 1771 letter to Wesley and won his own qualified agreement (per the census's own account). A genuine Article 20 case: a documented woman's voice this world's own census names directly, entirely unvendored. This document cannot currently reconstruct her own argument in her own words.
+- **Hester Ann Rogers** — an ordinary female member's own spiritual narrative, unvendored.
+- **The *Arminian Magazine*'s own lay narrators** (1778– ) — a composite, plural Article 20 case: ordinary members' own conversion accounts, in their own words, entirely absent from this pass's own corpus.
+- **Richard Allen** — the census's own named `voices` entry states plainly that his own narrative was not published until 1833, past this world's own 1815 close. This is not merely an acquisition gap this document can close by trying harder: even a fully successful acquisition would still leave this world unable to quote Allen's own account of his own 1770s conversion *as he himself later told it*, since that telling postdates this world's own window. This document names the era-edge tension explicitly rather than silently treating Allen as a straightforward missing-voice acquisition candidate the way Bosanquet Fletcher or Rogers are.
+
+**Evidential visibility versus ecological visibility (the Framework's own distinction).** What survives in this pass's own vendored corpus — a founder's own doctrine and one opening year of his own Journal, a connexional catechism, hymn texts, and one successor's own complete pastoral record — reflects what this pass's own acquisition effort actually reached, not what the movement itself produced or preserved (the census is explicit that class records, member narratives, and Conference Minutes exist in abundance in real archives). This document names that gap between corpus and ecology explicitly rather than letting this pass's own acquisition limits stand in silently for the movement's own actual evidentiary richness.
+
+## 7. Required Disclosure
+
+**Cross-world relationships and overlaps, gathered here rather than left scattered:**
+- **The Moravian Church at Herrnhut (VII.4).** Real, substantial, formative-influence-then-rupture relationship (Doc_01 §7); no policy decision made here for that world's own eventual build; carried to `Open_Gaps_Tracking.md` item 2.
+- **The Reformed Cities (Zurich & Geneva, VI.2).** A doctrinal echo only (Whitefield's own Calvinism restates the same predestination question two centuries later) — explicitly not an institutional link, and this document does not cite `worlds/rzg/` material as evidence for any claim about this world.
+- **The Black Church in America and the Holiness/Pentecostal traditions.** Named descendant lines (Doc_01 §1), not this world's own content; this document reaches no claim about either tradition's own eventual build.
+
+**Edition and original-language notes.** Every vendored source in this world's corpus is an English-language original or an early English printing (Wesley, Charles Wesley, and Asbury all wrote in English) — **unlike this project's patristic-era worlds, no translation-fidelity question exists for any row in this world's own Source Registry.** The live edition questions here are instead: (a) which volume of a multi-volume work is vendored (Journal Vol. I of VIII; Sermons Vol. I of the full Standard Sermons run) — a coverage question, not a translation question; and (b) which specific historical printing a reprint represents (the Large Minutes' 1850 reprint states its own underlying text as 1797, not Wesley's final 1789 edition — Registry row 3). No row in this world's Registry needs a primary-vs-cross-check flag in the sense a translated-witness world requires, since there is no second-language witness anywhere in this corpus to check a translation against.
+
+**OCR quality, gathered here from the individual file-level disclosures already made in `cic/texts/REGISTRY.yaml` and the Registry above:** three specific, disclosed character-level digit/letter misreads exist across this corpus — the Aldersgate entry's own day-heading ("14"/"16" for "24"/"26," Doc_01 §2); the Large Minutes' own founding year ("1/29" for "1729," Registry row 3); and a small number of stray thorn/eth-shaped glyphs in the 1780 hymnal, left untouched rather than guessed at (`cic/texts/REGISTRY.yaml`). None of these affects this document's own confidence in the underlying historical claim in any case, since each is corroborated by independent internal evidence (the Aldersgate footnote) or Widely Accepted external historiography (1729, the Holy Club) — but each is a real, disclosed OCR defect a future quote-verification pass must check against, not assume already caught.
+
+## 8. Confidence Map
+
+Per Constitution Article 17's five-level vocabulary, applied to specific claims:
+
+- **Documented:** the existence and basic content of every primary text named in §1, independently confirmed against the files themselves; the Aldersgate date (24 May 1738) and quotation; the Large Minutes' own catechism text on the movement's own design and rise; the 1780 hymnal's own preface and its stated compiler/date.
+- **Widely Accepted:** the 1739–41 Wesley/Whitefield "Free Grace" breach and its doctrinal substance; the 1740 Fetter Lane/Moravian breach over "stillness"; the 1784 Christmas Conference's own date, place, and episcopal-structure outcome; Wesley's own later documented discomfort with the title "Bishop" as applied to Asbury; Asbury's own choice to remain in America through the Revolutionary War.
+- **Dominant Modern Reconstruction:** the reading of this corpus's own shape (§2 above) as front-loaded toward 1738 and doctrine, thin on 1739–1790 — a reasoned inference from what this pass actually acquired, not itself a claim about the movement's own historical balance.
+- **Contested:** none identified this pass at the level of a specific, named scholarly dispute (distinct from the genuinely unresolved acquisition gaps in §6, which are evidentiary absences, not live scholarly contests over an existing claim).
+- **Inferential/Thin:** any claim about an ordinary class member's own lived weekly experience beyond what the Large Minutes prescribe in the abstract (§5 above); any claim about Whitefield's own theology stated in his own words (§6 above — this corpus has none); any claim about Charles Wesley's own prose voice, governance role, or personal relationship to his brother beyond what his hymn texts alone can show.
+
+## 9. Open items carried forward to later steps
+
+1. **The version-discrepancy and holdings-tool mismatch (Doc_01/Step 0, restated here as it bears on this document's own required-content list) — see the header disclosure above.**
+2. **Seven of eight Wesley Journal volumes remain unacquired (Manifest item G1) — now a host-verified `download-queue-seed.yaml` entry**, the single highest-priority acquisition this world's build can point a future pass to.
+3. **Whitefield's own complete primary-text absence (Manifest item G5, Doc_01 §4)** — this world's single most consequential remaining acquisition gap in figure terms, even though it will remain a "context," never "tradition," role in this world's own corpus-map (Doc_01 §4's own finding that Whitefield is a separate movement, not this world's own content).
+4. **Four named Article 20 missing-voice items (Bosanquet Fletcher, Rogers, the *Arminian Magazine*, Manifest items G6–G8), plus the Richard Allen era-edge case (§6 above, not a straightforward acquisition item).**
+5. **The class/band/circuit-record archival-access question (Manifest item G4)** — flagged explicitly as possibly requiring a different acquisition channel (a research-library request) than this project's usual public-domain-text sweep.
+6. **The Twenty-Four Articles' own text (Manifest item G10)**, to move Doc_01 §1's own Article 4 commitments (4)–(5) confidence from general-knowledge to text-verified.
+7. **The Herrnhut-visit primary-source check (Doc_01 §7)** — Vol. I of the Journal, already vendored, was not searched for this specific passage before this pass's own deadline.
+8. **`Open_Gaps_Tracking.md` carries every item above with its own numbered entry**, per `CLAUDE.md`'s own requirement — this section is a summary cross-reference, not a duplicate ledger.
+
+## 10. Disposition
+
+**Escalation-category assessment:**
+- **Portfolio-level or cross-world decision: does not apply.** The Moravian relationship (§7) is stated and carried forward as an open question for a future build thread, not decided as policy for VII.4.
+- **Representative identity, title, or voice decision: does not apply.** This document's Author Gravity findings inform, but do not decide, the Step 10 Representative-structure question Doc_01 §5 reserved for the project lead.
+- **Governance or methodology decision: does not apply.** The holdings-tool mismatch (header disclosure above) is reported as a finding for the coach thread/project lead, not resolved here as a change to V1.6 itself.
+- **Unresolved tension the pipeline can't close on its own: does not apply.** One review round, cosmetic only.
+
+No escalation category applies. This document, the Source Registry, and the Acquisition Manifest each cleared one adversarial-in-method review round with cosmetic-only findings — this build thread self-applies **Approved to proceed** for all three, together, as co-equal Step 2 outputs, subject to the review-independence limitation disclosed in full at Step 0 §6 and restated in this build's own final handoff.
+
+**Recommended next step:** per this delegated task's own scope, this build thread stops here. Doc_03 (Lexicon Candidate List) and everything beyond it is a separate thread's job, gated on this handoff.
