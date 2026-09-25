@@ -1,10 +1,7 @@
 from engine.m4.sentence_fact_check import find_unsupported_named_claims
 
-# Hermetic, synthetic fixtures modeling the real ones this module was built
-# to catch (Decision-Log.md Entries 61/76/77 - cappadocian's Athanasius,
-# rzg's Felix Manz/Limmat, witt's Alexandria) - not copied verbatim from
-# any one real record, but the same shape: a specific named claim with
-# zero support anywhere in the world's own compiled ground.
+# Hermetic, synthetic fixtures: a specific named claim with zero support
+# anywhere in the world's own compiled ground.
 _REPOSITORY = {
     "cap.story.council": {
         "id": "cap.story.council",
@@ -25,8 +22,7 @@ _REPOSITORY = {
 
 
 def test_whole_repository_ground_not_a_single_tags_own_ground():
-    # The key difference from named_claim_grounding.ungrounded_markers:
-    # "Manz" is grounded by rzg.witness.schism even though THIS sentence
+    # "Manz" is grounded by rzg.witness.schism even though this sentence
     # carries no tag at all (or a different one) - a whole-repository
     # check, not a per-tag one.
     sentence = "Felix Manz argued that a true church gathers only by a believer's own profession."
@@ -37,12 +33,8 @@ def test_whole_repository_ground_not_a_single_tags_own_ground():
 
 
 def test_sentence_initial_proper_noun_is_caught():
-    # The real Athanasius/Alexandria fixtures both name the fabricated
-    # entity as the sentence's OWN FIRST WORD - engine.prose._proper_nouns'
-    # own default (position 0 excluded) would make these structurally
-    # unflaggable regardless of ground scope; this module passes
-    # include_sentence_initial_proper_nouns=True specifically so it
-    # doesn't inherit that miss.
+    # A sentence's own first word is included in proper-noun detection
+    # here, unlike engine.prose.claim_markers' own default.
     sentence = "Athanasius himself was named among the bishops who signed the creed."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": ["cap.story.council"], "verdict": "ok"}], repository_records=_REPOSITORY
@@ -99,23 +91,29 @@ def test_first_person_no_claim_is_exempt():
 
 
 def test_hypothetical_conditional_naming_an_absent_entity_is_exempt():
-    # Traced directly to a real false trigger Entry 77 measured live
-    # (don's own "So if Alexandria held a bishop in our own years... we
-    # would have cared about that") - a subjunctive "if X, we would Y"
-    # names X while asserting nothing about it, the grammatical mirror of
-    # the honest-limit case above, and not covered by _is_honest_limit's
-    # own fixed phrases (it looks for an explicit absence claim, not a
-    # subjunctive mood).
+    # A subjunctive "if X, we would Y" names X while asserting nothing
+    # about it - the grammatical mirror of the honest-limit case above,
+    # and not covered by _is_honest_limit's own fixed phrases (which look
+    # for an explicit absence claim, not a subjunctive mood).
     sentence = "If Athanasius had written to us, we would have kept the letter."
     assert find_unsupported_named_claims([{"sentence": sentence, "tags": []}], repository_records=_REPOSITORY) == []
 
 
-def test_unsupported_characterization_of_a_real_figure_is_a_named_limit_not_a_bug():
-    # The one known fabrication type this module cannot catch by design
-    # (module docstring): Eustathius is a real, grounded name; "coward" is
-    # an ordinary adjective, not a proper noun or number, so
-    # claim_markers finds nothing to check. This pins that documented
-    # limit as expected behavior, not a regression to fix later.
+def test_hypothetical_exemption_is_scoped_to_the_conditional_clause_only():
+    # A name or number OUTSIDE the if...would span, even in a sentence
+    # that also contains one, must still be checked - only the
+    # conditional clause's own claims are exempt, not the whole sentence.
+    sentence = "Felix Manz was drowned in the Limmat in 1527, and if you ask why, the council would say heresy."
+    flags = find_unsupported_named_claims([{"sentence": sentence, "tags": []}], repository_records=_REPOSITORY)
+    assert flags and "limmat" in flags[0]["missing"]
+
+
+def test_unsupported_characterization_of_a_real_figure_is_not_flagged():
+    # Eustathius is a real, grounded name; "coward" is an ordinary
+    # adjective, not a proper noun or number, so claim_markers finds
+    # nothing to check in this sentence at all. An unsupported
+    # characterization of an already-grounded name carries no marker of
+    # its own for this module to compare against ground.
     sentence = "Some among us thought he was a coward."
     assert find_unsupported_named_claims(
         [{"sentence": sentence, "tags": ["cap.figure.eustathius"], "verdict": "ok"}], repository_records=_REPOSITORY
@@ -144,11 +142,11 @@ def test_clean_turn_returns_no_flags():
     assert find_unsupported_named_claims(sentences, repository_records=_REPOSITORY) == []
 
 
-# Two known, ACCEPTED false-positive classes, measured directly on real
-# live-run data (Decision-Log entry) rather than invented in the abstract -
-# pinned here the same way test_named_claim_grounding.py's own
+# Two known, accepted false-positive classes this module inherits from
+# missing_markers unchanged - pinned here the same way
+# test_named_claim_grounding.py's own
 # test_derivational_form_stays_an_accepted_known_limit pins the identical
-# root cause for its own (tag-scoped) check, not fixed ad hoc in this PR.
+# root cause for its own (tag-scoped) check.
 
 _DERIVATIONAL_REPOSITORY = {
     "cap.core.cappadocian": {
@@ -159,13 +157,12 @@ _DERIVATIONAL_REPOSITORY = {
 }
 
 
-def test_derivational_form_mismatch_is_a_known_measured_limit():
-    # Real case, Entry 77/#558: "Alexandria" (noun) is real ground here,
-    # but "Alexandrian" (adjective) is a different token content_words()
-    # does not equate to it - engine.m4.named_claim_grounding's own module
-    # docstring already names this exact class of gap (Smyrna/Smyrnaeans)
-    # as an accepted limit, not something missing_markers is scoped to
-    # fix; this module inherits it unchanged via the same shared function.
+def test_derivational_form_mismatch_is_a_known_limit():
+    # "Alexandria" (noun) is real ground here, but "Alexandrian"
+    # (adjective) is a different token content_words() does not equate
+    # to it - engine.m4.named_claim_grounding's own module docstring
+    # names this exact class of gap (Smyrna/Smyrnaeans) as an accepted
+    # limit; this module inherits it unchanged via the shared function.
     sentence = "No Alexandrian bishop is named attending any synod our own people convened."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_DERIVATIONAL_REPOSITORY
@@ -182,19 +179,15 @@ _ABSENCE_PHRASING_REPOSITORY = {
 }
 
 
-def test_honest_limit_phrase_not_in_the_reused_fixed_list_is_a_known_measured_gap():
-    # Real case, Entry 77/#558: "Our record doesn't mention 'Alexandrian
-    # Christianity' as a separate tradition from our own" (ijc) genuinely
-    # denies knowledge of a neighbour - Entry 61 already found R27's own
-    # neighbour_named class over-firing on this identical sentence for
-    # the identical reason - but _is_honest_limit's fixed phrase list
-    # (engine.m4.uncited_claims, reused unchanged here) requires an exact
-    # "our record does not"/"not in our record" match, which "doesn't
-    # mention" is close to but does not satisfy. A real, narrow gap in
-    # that reused vocabulary's own coverage (the same class Entry 61 named
-    # for SCAFFOLD_MARKERS and syr's "the record runs thin"), named
-    # plainly here rather than patched into a shared exemption this PR
-    # does not own.
+def test_honest_limit_phrase_not_in_the_reused_fixed_list_is_a_known_gap():
+    # "Our record doesn't mention 'Alexandrian Christianity' as a
+    # separate tradition from our own" genuinely denies knowledge of a
+    # neighbour, but _is_honest_limit's fixed phrase list (engine.m4.
+    # uncited_claims, reused unchanged here) requires an exact "our
+    # record does not"/"not in our record" match, which "doesn't
+    # mention" is close to but does not satisfy - a narrow gap in that
+    # reused vocabulary's own coverage, not a judgment call this module
+    # makes on its own.
     sentence = "Our record doesn't mention \"Alexandrian Christianity\" as a separate tradition from our own."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_ABSENCE_PHRASING_REPOSITORY

@@ -5092,6 +5092,20 @@ riding inside an otherwise well-cited paragraph - report-only, additive,
 no participant-visible change, no enforcement flag in this PR. Full
 module docstring: `engine/m4/sentence_fact_check.py`.
 
+**A vocabulary note, stated once rather than qualified every time
+below:** "unsupported," "ungrounded," and (where this entry keeps the
+project's own established word) "fabrication" all mean the same narrow
+thing throughout - a specific name, date, or number that does not
+appear anywhere in THIS world's own compiled ground. None of them mean
+the named person, place, or event is fictional, or that the claim is
+false as history. Athanasius, Alexandria, Pope Liberius, and Ephrem's
+*Contra Haereses* are all real; several of the underlying historical
+claims below (Felix Manz's drowning, Zwingli's circumcision argument)
+are real, documented history too. What every finding below actually
+shows is that a real claim has no support in one specific world's own
+vendored record - a citation-fidelity defect, not evidence the claim
+itself is untrue.
+
 **Design - reuse, not duplication (the explicit constraint).** Every
 real piece of machinery already existed:
 - `engine.m4.named_claim_grounding`'s own per-record ground computation
@@ -5115,11 +5129,12 @@ patched around: sentence-initial proper nouns.** First offline pass:
 `claim_markers`' own `_proper_nouns` excludes a sentence's OWN FIRST
 WORD from proper-noun detection (right for its own narrow, 1-3-record
 tag-scoped callers, calibrated there). Two of the four known
-fabrications name the fabricated entity as literally the sentence's
-first word ("**Athanasius** of Alexandria was named among..."; "
-**Alexandria** itself appears only once in what we hold...") - with the
-unmodified function, both are structurally unflaggable regardless of
-ground scope. Fixed at the source, not worked around locally:
+fabrications name their own unsupported claim as literally the
+sentence's first word ("**Athanasius** of Alexandria was named
+among..."; "**Alexandria** itself appears only once in what we
+hold...") - with the unmodified function, both are structurally
+unflaggable regardless of ground scope. Fixed at the source, not worked
+around locally:
 `engine.prose._proper_nouns`/`claim_markers` both gained an opt-in
 `include_sentence_initial`/`include_sentence_initial_proper_nouns`
 parameter, default `False` (every one of the four existing production
@@ -5203,20 +5218,28 @@ the hand-labeled ones - genuine additional findings, not just
 false-positive noise:** Running the checker over #558's own 141 raw
 offenses, the control run's own 150, and Entry 77's own 343 full
 reconstructed sentences (draft text, every sentence, tagged or not)
-surfaced two clean, independently-verified NEW findings neither prior
-audit caught: `ijc`'s own recurring "Pope Liberius had died..." (both
-in #558's run and, independently, in Entry 77's own run) - "Liberius"
+surfaced two clean, independently-verified findings neither prior audit
+caught: `ijc`'s own recurring "Pope Liberius had died..." (both in
+#558's run and, independently, in Entry 77's own run) - "Liberius"
 appears **zero** times anywhere in `ijc`'s compiled repository, real
 history the world's own build simply never vendored, verified by direct
 search across all records the same way the Athanasius/Manz findings
-were; and `syr`'s "his Hymns Against Heresies" - `syr`'s own vendored
-Ephrem material is titled `Prose Refutations of Mani, Marcion, and
-Bardaisan` (`syr.source.ephrem-prose-refutations`), never any hymn
-collection by that name - a real work, wrong genre and title, entirely
-unsupported as stated. Both are the identical fabrication shape as the
-four known fixtures (real history, zero support in THIS world's own
-compiled ground), found by this module on real saved data no one had
-re-examined this closely before. The remainder of the corpus scan's own
+were; and `syr`'s "his Hymns Against Heresies" (Ephrem's real *Contra
+Haereses* cycle) - genuinely absent from `syr`'s own vendored ground,
+not a wrong title: `syr.search.ephrem-corpus-gaps` (a `search_record`,
+not part of the citable repository this module grounds against) already
+names *Contra Haereses* as a work this world's own build never found a
+complete public-domain English translation of, quotable only through
+`syr.source.ephrem-prose-refutations`, a *different*, vendored work -
+"the heresiological hymns that built this world's own boundary are
+quotable only via the Prose Refutations... a named limitation, not an
+oversight," in that record's own words. The sentence names a real work
+correctly; that work is simply outside what this world's own compiled
+ground can support. Both findings are the identical shape as the four
+known fixtures (a real, checkable claim with zero support in THIS
+world's own compiled ground - not that the claim is invented), found by
+this module on real saved data no one had re-examined this closely
+before. The remainder of the corpus scan's own
 flags repeat the two already-named limitation classes above
 (derivational form: `alexandrian`/`alexandria`; a spelled-vs-digit
 number mismatch, below) plus one borderline case (`alx`'s "taught for
@@ -5233,20 +5256,38 @@ sentence-fact-check-live-measure-2026-09-25.json`. 9 flags across 22
 probes, hand-verified against each world's own compiled repository the
 same way as above:
 
-**5 of 9 are genuine, new true positives** - unsupported specific
-claims, none previously known: `rzg` A-conflict's own Manz/Limmat
-sentence recurred a **third** independent time live ("Felix Manz was
-drowned in the Limmat in 1527 - executed for the very baptism he had
-chosen" - "limmat" absent, confirmed again); `rzg` A-conflict's own
-"the same pattern Israel's own circumcision held" - "Israel" and
-"circumcision" both appear **zero** times anywhere in `rzg`'s
-repository; `rzg` B-other-tradition's own "We held to the ancient
-creeds the whole church confessed - Nicene, Apostles', Athanasian" -
-all three creed names absent, zero occurrences each; `syr`
-A-conflict's own "what the Messiah was supposed to be" - "Messiah"
-absent; `witt` B-other-tradition's own "The early centuries' own
-arguments - Nicaea, the shape of the creed..." - "Nicaea" absent, and
-"Nicene" also absent anywhere in `witt`'s own repository.
+**5 of 9 flag real gaps in this world's own vendored ground, but not all
+five are equally strong evidence of the fabrication class this module
+was built to catch - restated honestly rather than folded into one
+count.** Two read the same way as the known fixtures - a specific
+name, unsupported, presented declaratively: `rzg` A-conflict's own
+Manz/Limmat sentence recurred a **third** independent time live ("Felix
+Manz was drowned in the Limmat in 1527 - executed for the very baptism
+he had chosen" - "limmat" absent, confirmed again); `rzg`
+B-other-tradition's own "We held to the ancient creeds the whole church
+confessed - Nicene, Apostles', Athanasian" - all three specifically
+named creeds absent, zero occurrences each, the same shape as `ijc`'s
+Liberius finding above (a specific historical name asserted with
+nothing behind it in this world's own ground); `witt`
+B-other-tradition's own "The early centuries' own arguments - Nicaea,
+the shape of the creed..." - "Nicaea" absent, and "Nicene" also absent
+anywhere in `witt`'s own repository, the same shape again. **The other
+two are weaker, and this entry says so rather than counting them the
+same way:** `rzg` A-conflict's own "the same pattern Israel's own
+circumcision held" - "Israel" and "circumcision" are general biblical
+vocabulary, not a specific person/place/date, and Zwingli's own
+circumcision-infant-baptism analogy is real, well-documented Reformed
+theology, not an invented argument - what this flag actually shows is
+that `rzg`'s own compiled ground never states the analogy using these
+words, a citation-completeness gap in the world's own theological
+vocabulary, not clear evidence the voice invented anything; `syr`
+A-conflict's own "what the Messiah was supposed to be" is the same
+weaker shape - "Messiah" absent as a literal word, but generic
+theological vocabulary in a summary sentence, not a specific checkable
+claim about a person, place, or date. Both are correctly flagged by
+this module's own literal definition (the word is not in `rzg`'s or
+`syr`'s ground); neither is offered here as comparably strong evidence
+to the other three.
 
 **4 of 9 are false positives, all falling inside the two limitation
 classes already named above - no new false-positive class found live:**
@@ -5272,10 +5313,14 @@ false positive here is review-effort cost only, not a blanked turn.
 enforcement PR - Mark's own word, not a decision this entry makes. The
 evidence: 0-for-1 (Entry 77) versus this module's own measured
 catches, including three independent recoveries of the SAME recurring
-fabrication (`rzg`'s Manz/Limmat, across #558's run, Entry 77's run,
-and this entry's own live run) plus five more genuine, previously-
-unknown findings across the offline and live passes combined - all
-zero-participant-facing-cost, since this PR ships report-only. The two
+claim (`rzg`'s Manz/Limmat, across #558's run, Entry 77's run, and this
+entry's own live run) plus four more findings of comparable strength,
+previously unknown, across the offline and live passes combined
+(`ijc`'s Liberius, `syr`'s *Contra Haereses*, `rzg`'s Nicene/Apostles'/
+Athanasian creeds, `witt`'s Nicaea), plus two weaker, honestly-qualified
+ones (`rzg`'s Israel/circumcision, `syr`'s Messiah - general vocabulary,
+not specific named claims) - all zero-participant-facing-cost, since
+this PR ships report-only. The two
 false-positive classes are both already-understood, already-documented
 limitations of the reused ground-matching machinery (derivational form;
 number-representation mismatch), not new or surprising, and - unlike

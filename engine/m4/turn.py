@@ -1007,14 +1007,10 @@ def _run_ordinary_voice_turn(
     named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
 
     # Report-only (see engine.m4.sentence_fact_check's own module
-    # docstring; Decision-Log.md Entries 76/77). Wider than
-    # named_claim_flags above: examines every sentence, tagged or not,
-    # regardless of its own tag's verdict, and grounds each proper
-    # noun/number against the world's ENTIRE compiled repository - not
-    # just a sentence's own tag(s) - since the fabrication class this
-    # closes (Manz/Athanasius/Alexandria, Entries 61/76/77) rode entirely
-    # on untagged sentences find_named_claim_flags is out of scope for by
-    # construction.
+    # docstring). Wider than named_claim_flags above: examines every
+    # sentence, tagged or not, regardless of its own tag's verdict, and
+    # grounds each proper noun/number against the world's ENTIRE compiled
+    # repository - not just a sentence's own tag(s).
     fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
     # The uncited-claims rule's flag-gated enforcement, OFF by default
@@ -1188,9 +1184,9 @@ def _run_ordinary_voice_turn(
         "named_claim_flags": named_claim_flags,
         # Additive: [] on every clean turn, same discipline as
         # named_claim_flags above (see engine.m4.sentence_fact_check's own
-        # module docstring, Decision-Log.md Entries 76/77) - report-only,
-        # no enforcement flag yet. Wider scope than named_claim_flags: every
-        # sentence, not only already-tagged, already-passing ones.
+        # module docstring) - report-only, no enforcement flag yet. Wider
+        # scope than named_claim_flags: every sentence, not only
+        # already-tagged, already-passing ones.
         "fact_check_flags": fact_check_flags,
         # This enforcement, additive: False unless
         # r27_enforce was on AND the one allowed regeneration still left
