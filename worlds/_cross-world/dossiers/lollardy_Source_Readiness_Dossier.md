@@ -6,18 +6,42 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `lollardy`
 **Time window:** c. 1380–1520
 **Region(s):** England (regions: North Europe)
-**Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** 2026-09-15 — nothing vendored for Era VI yet.
+**Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-25
+**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — all five §3 leads (as
+of 2026-09-15) have now been vendored, headered, registered, and assigned,
+plus the complete three-volume Arnold set (only Vol. III was the originally
+named lead; Vols. I and II were located and vendored alongside it to
+complete the set). See §1 below for current state.
 
 **Note on this world's status relative to its siblings in this batch:** unlike the five Era VII candidates researched alongside it, Lollardy already went through an Era 6 Step 0 *survey* pass and was tiered **"Viable, secondary (Tier 2)"** — the census's own `floorNote` records that the person-defined-movement check (is this really just one man's following?) was run at that gate and cleared, since the movement outlasted Wycliffe by over a century and the trial records preserve scripture-centered belief, not Wycliffe-centered belief. That finding is not re-litigated here.
 
 ## 1. Already assigned
 
-None. No `cic/corpus-map/lollardy.yaml` or `_staging` file exists.
+**Updated 2026-09-25 — no longer a fresh candidate.** Seven works vendored
+and assigned to `cic/corpus-map/lollardy.yaml`:
+
+| work | author | role | confidence | source file |
+|---|---|---|---|---|
+| Select English Works of John Wyclif, Vol. I | wyclif | tradition | assigned | `wyclif_select-english-works-v1_arnold1869.txt` |
+| Select English Works of John Wyclif, Vol. II | wyclif | tradition | assigned | `wyclif_select-english-works-v2_arnold1871.txt` |
+| Select English Works of John Wyclif, Vol. III | wyclif | tradition | assigned | `wyclif_select-english-works-v3_arnold1871.txt` |
+| The English Works of Wyclif Hitherto Unprinted (EETS O.S. 74) | wyclif | tradition | assigned | `wyclif_english-works-hitherto-unprinted_matthew1880.txt` |
+| John Wiclif's Polemical Works in Latin, Vol. II | wyclif | tradition | assigned | `wyclif_polemical-works-lat-v2_buddensieg1883.txt` |
+| Tracts and Treatises of John de Wycliffe | wyclif | tradition | assigned | `wyclif_tracts-and-treatises_vaughan1845.txt` |
+| The Wycliffite Bible (complete edition) | wycliffite-bible | tradition | assigned | `wycliffite-bible_forshall-madden1850.txt` |
+
+All seven are Wyclif's own voice or his translation project's own product
+(`tradition`), matching this world's real ecological shape: a movement
+built around one prolific author's Middle English and Latin writings, plus
+the translation project his circle produced. No `context`-role material yet
+— this world's corpus is currently all native voice, no external/hostile
+narrative comparable to the Tridentine Church's Sarpi.
 
 ## 2. Cross-link opportunities
 
-None found or expected — every currently vendored corpus text is patristic-era (pre-451 CE); this world's 1380–1520 window has no overlap with anything in `cic/texts/`.
+None found or expected — every other vendored corpus text is either
+patristic-era (pre-451 CE) or Reformation-era (1517+); this world's
+1380–1520 window has no overlap with anything else in `cic/texts/`.
 
 ## 3. Verified acquisition leads
 

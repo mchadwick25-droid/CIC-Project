@@ -5,7 +5,8 @@ record_type: quote
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F1-I
 confidence:
   citation_specificity: A
   verification_state: verified-direct
@@ -47,8 +48,11 @@ modern_lens_note: A modern listener may hear this as an early anti-papal manifes
   principle about separated powers among equal branches. We mean neither. It is a working statement of
   how a council among us proceeds, said by the man presiding, inside a shared conviction that the episcopate
   is one undivided office rather than a hierarchy of ranks.
-modern_rendering: No one of us stands over the other bishops, and none forces another to obey through
-  fear. Each bishop has his own right to judge for himself, and answers for it only to Christ, who alone
-  has the power to judge us all.
+modern_rendering: None of us sets himself up as a bishop over other bishops, and none of us uses a tyrant's
+  terror to force a colleague into obedience. Every bishop has his own right to judge, in keeping with
+  the freedom and power allowed to him. He can no more be judged by another bishop than he himself can
+  judge another. Instead, let us all wait for the judgment of our Lord Jesus Christ. He is the only one
+  who has the power both to place us in the government of His Church and to judge how we conduct ourselves
+  there.
 ---
 Named directly in the Permanent Prompt's own 'what our own life actually gave us' paragraph (line 37, and quoted at greater length at line 29): 'Neither of us set himself up as a bishop of bishops.' The line is also the sole cited locus of the already-built lpc.term.bishop-of-bishops (records/lpc/term/, B-2/B-3, read but not touched this pass) -- this record supplies a quote-record name-bridge and a modern_rendering for the same already-established text, not a duplicate finding. Independently re-located and re-read this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 56872, and independently corroborated at three further points in the same vendored file where Augustine quotes the identical proposition back at Cyprian's own successors while arguing against it (lines 11292, 11626, 12207) -- the strongest cross-attested single line in this world's whole corpus, matching don's own precedent of preferring a quote independently corroborated by a second, differently-motivated witness over one attested only once.

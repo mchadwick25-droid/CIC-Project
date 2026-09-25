@@ -1124,3 +1124,54 @@ touches each file, rather than swept in its own dedicated pass. This entry is th
 record.
 
 ---
+
+## Entry 9 — `engine/prose.py` and `engine/m4/turn.py`, per the standing rule (PR #574)
+
+Real feature work (the sentence-level fact check, `engine.m4.sentence_fact_check`) touched both
+files, triggering the standing rule Entry 8 added to `CLAUDE.md`.
+
+**`engine/prose.py`: 57 REWRITE findings, all cleared, comments/docstrings only, zero behaviour
+change** (confirmed by the full `engine/tests/test_prose.py`, `engine/m1/tests/`,
+`engine/m2/tests/`, `engine/m4/tests/test_evidence.py`, and `engine/m4/tests/test_grounding_net.py`
+suites passing unchanged - 390 tests). Five spots, all the same shape - a real, still-true
+technical reason kept and restated in plain present tense, with the specific measurement/date/
+ruling ID that had been wrapped around it dropped:
+
+1. `NON_PROSE_KEYS`'s own comment (why the four identifier keys are excluded from `all_text()`,
+   and separately why `do_not_retrieve_when` is): kept both real reasons (a dotted id's own words
+   collide with the record's citations; a guard clause's own forbidding sentence shares vocabulary
+   with the very claim it forbids, so leaving it in-scope would let a fabricated version of a
+   barred claim score as well-grounded). Dropped: a specific 2026-08 word-count measurement across
+   six worlds, a dated "fixed 2026-09-19, Opus adversarial review finding D1" note, and a specific
+   "Brictio succeeded Martin as bishop" incident's own measured score.
+2. `claim_guards`'s own inline comment: kept the reason (same forbidding-sentence-shares-vocabulary
+   category as `do_not_retrieve_when`), dropped "R11 (Rulings-Pending.md, ruled 2026-09-21)."
+3. `FALLBACK_EXCLUDED_KEYS`'s own comment: kept the `pahc.term.ministrae` illustration (still the
+   clearest real example of a retrieval ranking matching on caveat vocabulary rather than
+   substance), reframed as "for example" rather than "Measured directly (...2026-08-27)."
+4. `GUARD_MARKERS`'s own comment: kept the real technical fact (this marker set separates genuine
+   anti-fabrication guard clauses from ordinary redirects, and is the single source of truth three
+   named call sites import rather than copy), dropped "R11... Rulings-Pending.md; Decision-Log.md's
+   own Stage 1 D1 measurement and Entries 21-24" and the specific 13-vs-701 calibration count.
+5. One remaining "2026-08-27" date, in the contraction-stopwords comment, restated in present
+   tense ("without this list every one of them would score...") rather than dated.
+
+None of the underlying measurements are lost - they are exactly what this Decision-Log program
+already exists to hold; anyone who wants the six-world word-count figure, the D1 finding, or the
+13-vs-701 calibration count has this entry's own git history and the original `engine/prose.py`
+diff to read them from, same as every other entry in this log.
+
+**`engine/m4/turn.py`: 25 REWRITE findings, all "ruling-identifier" pattern, NOT cleared -
+out of scope for a comments-and-docstrings-only fix, reported rather than forced.** Read every
+one: all 25 are the `r27_enforce`/`CIC_R27_ENFORCE`/`r27_enforcement_exhausted`/`r27_regenerated`/
+`attempts_meta_r27_regenerated` identifier family - either the literal code (a function parameter,
+a dict key, a variable assignment, a keyword argument at a call site) or a comment that names that
+real, load-bearing identifier in order to document it. None are provenance narration in the sense
+this rule targets (a ruling number, reviewer name, or date wrapping a still-true reason) - the
+"ruling ID" here is not cited, it is the name of a real parameter, an environment variable
+(`CIC_R27_ENFORCE`, read live by `engine/api/config.py`), and a JSON dict key other code and tests
+already depend on. Clearing these findings would mean renaming the identifier itself, fleet-wide -
+a behaviour-adjacent change (a public parameter/env-var rename) touching `engine/api/config.py`,
+`engine/api/wiring.py`, `engine/api/table_wiring.py`, and every test that references any of these
+names - not a comment or docstring edit, and not zero-behaviour-change. Left as-is; a rename, if
+wanted, needs its own PR with its own review, not folded into a report-only measurement PR.
