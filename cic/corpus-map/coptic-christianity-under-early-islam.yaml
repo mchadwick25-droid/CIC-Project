@@ -3,7 +3,7 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: coptic-christianity-under-early-islam
 works:
-- work: History of the Patriarchs of the Coptic Church of Alexandria, Volume I
+- work: History of the Patriarchs of the Coptic Church of Alexandria
   author: severus-al-muqaffa
   locus: whole file, esp. the Benjamin I entry
   role: tradition

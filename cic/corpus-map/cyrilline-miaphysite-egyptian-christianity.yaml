@@ -9,8 +9,10 @@ works:
   role: context
   confidence: assigned
   note: 'A Chalcedonian outsider''s account of Dioscorus, Alexandria''s deposed miaphysite
-    patriarch (confirmed present, raw-scan line ~1723) - per README''s own definition, "the
-    view from outside: ... a contemporary opponent," not this entry''s own voice.
+    patriarch (confirmed present, raw-scan line ~1723) - Evagrius (b. c. 536) is a later historian
+    writing decades after Dioscorus''s 451 deposition, not a contemporary. Per README''s own
+    definition, "the view from outside: a pagan critic, a civil historian, or a contemporary
+    opponent," not this entry''s own voice.
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
@@ -55,7 +57,7 @@ works:
 
     '
   source_file: anf07_lactantius-apostolic-constitutions-didache-liturgies.xml
-- work: History of the Patriarchs of the Coptic Church of Alexandria, Volume I
+- work: History of the Patriarchs of the Coptic Church of Alexandria
   author: severus-al-muqaffa
   locus: whole file, esp. the Benjamin I entry
   role: tradition
