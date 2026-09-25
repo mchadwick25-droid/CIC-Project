@@ -22,10 +22,10 @@ sources:
 text: >-
   Now that is in our power, of which equally with its opposite we are masters,—as, say to philosophize or not, to believe or disbelieve. In consequence, then, of our being equally masters of each of the opposites, what depends on us is found possible.
 modern_rendering: >-
-  Now, that is in our power of which we are equally masters, along with
-  its opposite. For example, to philosophize or not, to believe or to
-  disbelieve. Since we are equally masters of each of these opposites,
-  what depends on us is found to be possible.
+  Now, what is in our power is whatever we are equally master of, along with
+  its opposite. Take, for example, whether to pursue philosophy or not, or
+  whether to believe or to disbelieve. Since we are equally masters of each of
+  these opposites, what depends on us is found to be possible.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
