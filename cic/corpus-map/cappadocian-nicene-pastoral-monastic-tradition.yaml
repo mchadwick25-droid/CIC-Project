@@ -458,6 +458,58 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- work: Jerome, Lives of Illustrious Men (De Viris Illustribus) - entries on Basil, Gregory
+    Nazianzen, Gregory of Nyssa, and Amphilochius
+  author: jerome
+  locus: div2 4.3 — Chapters CXVI (Basil, id v.iii.cxviii), CXVII (Gregory Nazianzen, id v.iii.cxix),
+    CXXVIII (Gregory of Nyssa, id v.iii.cxxx), and CXXXV (Amphilochius, id v.iii.cxxxvi)
+  role: context
+  confidence: assigned
+  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored), whose own
+    verification_state was `named-not-rechecked` - "file present since 2026-08-15, not re-verified
+    this session against the specific entries Doc_02 cites." That review is done here. The
+    record''s own framing ("the earliest external catalogue of what circulated under Basil,
+    both Gregorys, and Amphilochius'' names") is confirmed directly: all four named figures
+    have their own DVI chapters, independently located and read - ch. CXVI on "Basil... bishop
+    of Caesarea in Cappadocia, the city formerly called Mazaca"; ch. CXVII on "Gregory...
+    bishop of Nazianzen, a most eloquent man, and my instructor in the Scriptures" (Jerome''s
+    own personal testimony, not secondhand); ch. CXXVIII on "Gregory... bishop of Nyssa, the
+    brother of Basil of Caesarea"; ch. CXXXV on "Amphilochius... bishop of Iconium". The record''s
+    own carried-forward correction was also independently checked and confirmed accurate:
+    DVI''s separate ch. LXXXV ("Eustathius the bishop") is genuinely about Eustathius of Antioch,
+    not Eustathius of Sebaste - the chapter''s own translator''s note flags exactly this confusion
+    risk directly in the text, so citing ch. LXXXV for this world''s own Eustathius (of Sebaste)
+    would be a real misattribution; not assigned here for that reason. `role: context`: an
+    external, near-contemporary literary catalogue entry about these figures, not their own
+    voice, though ch. CXVII''s "my instructor" line is itself a first-person datum about Jerome''s
+    relationship to Gregory Nazianzen worth keeping visible at review.
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+  author: julian
+  locus: whole file (Loeb pp. 245-293)
+  role: context
+  confidence: assigned
+  note: 'Found by cappadocian.source.julian-letter-to-the-athenians (kind: vendored, evidentiary_weight:
+    load-bearing), already independently verified by that build''s own session before vendoring
+    (identity, completeness, Loeb pagination, footnote set), not just re-asserted here. Independently
+    re-confirmed again this session directly against the file: content note at the file''s
+    own header states "Julian''s own account of his break with Constantius and, implicitly,
+    with the Christian household that raised him" - matching cappadocian''s own citation ("Julian''s
+    break with the Christian household that raised him", Doc_01 SS4); the file''s closing
+    footnote block was counted and confirmed at exactly 39 entries, matching both the header''s
+    own claim and the record''s own count. `role: context`: this is the old religion''s own
+    outside voice pressing on a Christian tradition, the identical role already given for
+    imperial-juridical-christianity above, not Cappadocian material speaking in its own voice.
+    The letter''s own footnote 8 names "the castle of Macellum" - confirmed directly in the
+    file - the Cappadocian estate where Julian was held during the same Christian upbringing
+    the letter recounts breaking from; the geographic and formational tie this world''s own
+    citation is pointing at, verified from the primary text itself rather than asserted from
+    outside knowledge.
+
+    '
+  source_file: julian_letter-to-the-athenians_wright1913.txt
 - work: Letters 1-73 (incl. Letter 36, Rescript on Christian Teachers)
   author: julian
   locus: whole file; Letter 36 specifically
@@ -499,6 +551,53 @@ works:
 
     '
   source_file: philostorgius_ecclesiastical-history_walford1855.txt
+- work: The Ecclesiastical History of Socrates Scholasticus
+  author: socrates
+  locus: div1 2, Book II, Chapter XLI (id ii.v.xli) - the Synod of Constantinople, 360 CE
+  role: context
+  confidence: assigned
+  note: 'Found by cappadocian.source.church-historians-socrates-sozomen-theodoret (kind: vendored),
+    whose own verification_state was `named-not-rechecked` - "files present since 2026-08-15,
+    not re-verified against the specific loci Doc_02 cites this session." That review is done
+    here. The record cites "Constantinople 360 (via Socrates HE 2.41, SS2)" for "the Homoian-establishment
+    reconstruction" - read directly at that exact chapter: it opens on the Acacian party''s
+    Synod at Constantinople after Ariminum, and transcribes the creed itself in full, including
+    its explicit rejection of "ousia" and "hypostasis" language ("we affirm that the Son is
+    like the Father, in such a manner as the sacred Scriptures declare and teach... Let therefore
+    all heresies... be anathema") - the historical Homoian confession of 360 the record''s
+    own framing points to, genuinely present and substantive, not a bare mention. `role: context`:
+    an outside Constantinopolitan lay historian''s narrative, never this world''s own voice,
+    matching the source record''s own explicit framing verbatim ("secondary narrative sources,
+    never this world''s own voice"). The record''s other named claim ("the Julian-persecution
+    episode") is also genuinely present in this volume (Socrates Book II, chs. 11-12, and
+    Sozomen Book III, chs. 3, 5, 17, all on Julian''s measures against Christians) but was
+    not checked against a specific quoted claim, so it is noted rather than separately asserted
+    as verified content.
+
+    '
+  source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
+- work: The Ecclesiastical History of Theodoret, Book IV, Chapter XVI ("Of the holy Basilius,
+    Bishop of Caesarea, and the measures taken against him by Valens and the prefect Modestus")
+  author: theodoret
+  locus: div2 3.8 — Book IV, Chapter XVI (id iv.viii.iv.xvi, file line 14072)
+  role: context
+  confidence: assigned
+  note: 'Found by cappadocian.source.church-historians-socrates-sozomen-theodoret (kind: vendored),
+    whose own verification_state was `named-not-rechecked` for its Theodoret material specifically.
+    That review is done here, and turned up more than the record itself named: this exact
+    chapter is Theodoret''s full narrative of the confrontation between Basil the Great and
+    the emperor Valens at Caesarea in Cappadocia, read directly at the cited locus - "Valens...
+    set out for the Cappadocian Caesarea... at that time the see of the great Basil, a light
+    of the world. Now he had sent the prefect before him with orders either to persuade Basil
+    to embrace the communion of Eudoxius, or, in the event of his refusal, to punish him by
+    exile." A near-contemporary (Theodoret wrote c. 449) external narrative of this world''s
+    single most famous standoff - genuinely load-bearing corroboration, not a passing mention.
+    `role: context`: an outside Antiochene historian''s account, not Cappadocian material
+    in its own voice - the same restraint the record itself states ("secondary narrative sources,
+    never this world''s own voice").
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: The general school law of June 362 (CTh 13.3.5)
   author: theodosian-code
   locus: Book 13, Title 3, Law 5 ("Magistros studiorum doctoresque excellere oportet moribus

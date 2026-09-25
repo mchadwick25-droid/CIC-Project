@@ -38,6 +38,8 @@ claim_guards:
   above -- we report only that this is how the tradition told it
 relations:
 - type: associated-with
+  target: lpc.contested.cyprian-death-genre
+- type: associated-with
   target: lpc.figure.cyprian
 - type: associated-with
   target: lpc.figure.pontius

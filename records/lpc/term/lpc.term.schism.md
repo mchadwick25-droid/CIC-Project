@@ -8,6 +8,8 @@ register: emic
 canon_cells: []
 relations:
 - type: associated-with
+  target: lpc.contested.de-unitate-recensions
+- type: associated-with
   target: lpc.term.communion
 - type: associated-with
   target: lpc.term.compel-them-to-come-in

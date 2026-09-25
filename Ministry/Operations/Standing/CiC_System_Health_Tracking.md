@@ -1342,3 +1342,39 @@ are now a real, comparable baseline instead of an unmeasured guess, so
 the next sweep can tell growth from ordinary campaign progress.
 
 Fleet size unchanged at 11.
+
+---
+
+## 2026-09-25 00:36 UTC — Missing REPIN_PR_TOKEN secret (repo-wide, needs Mark); classifier shows new drift outpacing cleanup
+
+**1. `repin-on-library-change.yml` fails on every push to main - missing secret, not a code bug.**
+
+A workflow neither this thread added nor had seen before (`.github/workflows/repin-on-library-change.yml`, running `tools/repin_stale_worlds.py`) has failed twice in a row on pushes to main - after merging #522 (00:07 UTC) and #528 (00:09 UTC). Root cause read directly from the job log, not guessed: the script checks for a `REPIN_PR_TOKEN` repo secret and refuses to run without it - `REPIN_PR_TOKEN is not set - refusing to repin`, with its own explanation that the default `GITHUB_TOKEN` can't be used here (a PR it opens would never trigger `pull_request` workflows, so it would sit with zero CI checks and never clear branch protection - "D3 SS6.3's own flagged, build-time-only fact"). This is the script's own designed hard-fail, not a bug - a silent skip would hide missed repins indefinitely, which is presumably why it was built to refuse loudly instead.
+
+Not fixed here, and not something a code push can fix: it needs an actual repository secret added (a fine-grained PAT scoped to this repo, `Contents: Read and write` + `Pull requests: Read and write`, or an equivalent GitHub App installation token), which only someone with repo admin access can create and add under Settings -> Secrets. This thread has no such access. Currently non-blocking - `ci.yml` itself still passes and both merges above went through fine - but it will keep failing loudly on every push to main until the secret exists. Flagged to Mark rather than worked around.
+
+**2. Commentary-classifier baseline (adopted yesterday) shows real new growth, not just cleanup progress.**
+
+Second run of the new step-5 method, against main's current tip (`651901f0a`), compared to the first baseline logged yesterday (against `2fc00a48a`, ~18 hours earlier):
+
+| Surface | Baseline (2fc00a48a) | Now (651901f0a) | Direction |
+|---|---|---|---|
+| canon | 0 | 0 | flat |
+| cic-corpus-map | 761 | 75 | down a lot (cleanup working) |
+| cic-engine | 20 | 19 | flat |
+| cic-poc-frontend | 1 | 28 | **up** |
+| cic-website | 1 | 144 | **up, a lot** |
+| engine | 756 | 879 | **up** |
+| fixtures | 1 | 1 | flat |
+| packages | 3437 | 5911 | up (see caveat) |
+| records | 2243 | 4304 | **up, nearly doubled** |
+| reference | 261 | 429 | **up** |
+| worlds | 6349 | 9256 | **up, +2907** |
+
+cic-corpus-map's drop confirms the campaign is real and working somewhere. But cic-poc-frontend and cic-website - the two surfaces Live-Surface-Cleanup had already driven down to 1 hit each by yesterday's baseline (PRs #501/#503) - are back up to 28 and 144. That's new commentary landing in the same trees after the cleanup passed through them, not leftover debt the campaign hasn't reached yet. records/ and worlds/ grew sharply too, over a period with heavy concurrent build activity (R43 rendering fixes, lpc's record-native compilation Parts 3-5, several vendor/corpus-map PRs). `packages/`'s growth is very likely downstream of records/'s, not independent - packages are compiled snapshots of records, so whatever isn't clean in a record at compile time carries straight into its package pin; not counted as a separate finding here.
+
+Read plainly: the cleanup campaign is fixing existing debt, but nothing stops new debt from landing in parallel, because no CI gate currently enforces this - only a periodic sweep (this one) and a dedicated campaign catch it after the fact. This is a genuine new finding under the new step-5 rule (growing count, and the specific growth in cic-poc-frontend/cic-website is on surfaces no thread is currently re-cleaning), not this thread's to fix - per "flag, don't silently fix content that isn't yours," root-causing and rewriting any of these hits takes the same judgment the Live-Surface-Cleanup PRs' own multiple revision rounds have needed. One thing worth naming for Mark to weigh, not decided here: `tools/check_live_commentary.py` now exists and could in principle gate new commits rather than only audit after the fact, but wiring it into CI as a blocking check is a repo-wide policy change with real blast radius (every concurrent thread's in-flight PRs), not a narrow mechanical fix - this thread is flagging the option, not making the call.
+
+Meanwhile: PR #527's own CI failure (M9 confinement: two stale `ACCEPTED_OPEN` waivers for hal/syr verbatim-in-shelf findings that no longer fire) does **not** reproduce on main's own tip - main's own latest full CI run passed the same check cleanly - so it's PR #527's branch being stale relative to main, not a repo-wide break. Left to that PR's own thread, untouched.
+
+Fleet size unchanged at 11 (lpc's own compilation work is proceeding under `worlds/lpc/` and `records/lpc/` but hasn't reached `records/worlds/lpc.yaml` admission yet, so it doesn't count toward the fleet-size watch until it does).
