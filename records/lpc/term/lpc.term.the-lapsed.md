@@ -8,6 +8,8 @@ register: emic
 canon_cells: []
 relations:
 - type: associated-with
+  target: lpc.limit.the-lapsed-own-account
+- type: associated-with
   target: lpc.term.certificates-letters-of-peace
 - type: associated-with
   target: lpc.term.communion
