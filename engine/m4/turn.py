@@ -997,16 +997,12 @@ def _run_ordinary_voice_turn(
     # small {sentence, class} shape uncited_claims already uses.
     paragraph_offenses = find_uncited_paragraphs(net_result)
 
-    # Item A / OG-9 (worlds/pahc/Open_Gaps_Tracking.md): report-only,
-    # same discipline uncited_claims itself first shipped with - see
-    # engine.m4.named_claim_grounding's own module docstring. Narrows
-    # sentences the ratio test already passed WITH a tag (the ones that
-    # actually reach a participant): does every proper noun/number the
-    # sentence names actually appear in its own tagged records' ground,
-    # not just contribute to a passing aggregate share. No flag yet -
-    # enforcement (what a caught sentence's own regeneration should say,
-    # and under what flag it activates) is deliberately a later,
-    # separately-ruled PR, exactly as r27_enforce was for uncited_claims.
+    # Report-only (see engine.m4.named_claim_grounding's own module
+    # docstring; the traced regression is worlds/pahc/Open_Gaps_Tracking.md
+    # OG-9). Narrows sentences the ratio test already passed WITH a tag
+    # (the ones that actually reach a participant): does every proper
+    # noun/number the sentence names actually appear in its own tagged
+    # records' ground, not just contribute to a passing aggregate share.
     named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
 
     # The uncited-claims rule's flag-gated enforcement, OFF by default
@@ -1168,7 +1164,7 @@ def _run_ordinary_voice_turn(
         # "own_doctrine_in_other_tradition_turn".
         "paragraph_offenses": paragraph_offenses,
         # Additive: [] on every clean turn, same discipline as
-        # uncited_claims/paragraph_offenses above. Item A / OG-9 (see
+        # uncited_claims/paragraph_offenses above (see
         # engine.m4.named_claim_grounding's own module docstring) -
         # report-only, no enforcement flag yet.
         "named_claim_flags": named_claim_flags,

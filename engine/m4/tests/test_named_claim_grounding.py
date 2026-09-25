@@ -180,3 +180,68 @@ def test_find_named_claim_flags_empty_on_a_clean_turn():
         {"sentence": "The bishop led the community's own worship.", "tags": [_STORY_TAG], "verdict": "ok", "why": "grounded"},
     ]
     assert find_named_claim_flags(sentences, repository_records=_REAL_REPOSITORY) == []
+
+
+# Possessive normalization: engine.prose._WORD keeps the apostrophe as
+# part of a word, so "ignatius's" and "ignatius" never compared equal
+# before this fix. Both directions are hermetic, synthetic fixtures
+# (not the OG-9 record) so each isolates exactly one side of the
+# comparison - "Ignatius" sits mid-sentence in every case below, never
+# at position 0, since engine.prose._proper_nouns excludes a sentence's
+# own first word from proper-noun detection.
+_POSSESSIVE_IN_SENTENCE_REPOSITORY = {
+    "pahc.dw.test-ignatius-plain": {
+        "id": "pahc.dw.test-ignatius-plain",
+        "record_type": "doctrinal_witness",
+        "text": "Ignatius taught that the bishop must be obeyed by every member.",
+    },
+}
+
+
+def test_possessive_in_sentence_bare_name_in_ground_grounds():
+    # Reproduces the reported false positive: the sentence uses the
+    # possessive ("Ignatius's"), the record's own ground names the bare
+    # form ("Ignatius") - must ground, not flag.
+    sentence = "This is why Ignatius's own teaching on obedience mattered so much."
+    assert ungrounded_markers(
+        sentence, ["pahc.dw.test-ignatius-plain"], repository_records=_POSSESSIVE_IN_SENTENCE_REPOSITORY
+    ) == []
+
+
+_POSSESSIVE_IN_GROUND_REPOSITORY = {
+    "pahc.dw.test-ignatius-possessive": {
+        "id": "pahc.dw.test-ignatius-possessive",
+        "record_type": "doctrinal_witness",
+        "text": "Ignatius's own letters describe this practice directly, across several churches.",
+    },
+}
+
+
+def test_bare_name_in_sentence_possessive_in_ground_grounds():
+    # The reverse direction: the sentence names the bare form, the
+    # record's own ground only ever uses the possessive.
+    sentence = "The letters, Ignatius wrote, describe one eucharist under the bishop."
+    assert ungrounded_markers(
+        sentence, ["pahc.dw.test-ignatius-possessive"], repository_records=_POSSESSIVE_IN_GROUND_REPOSITORY
+    ) == []
+
+
+_DERIVATIONAL_FORM_REPOSITORY = {
+    "pahc.dw.test-smyrnaeans-only": {
+        "id": "pahc.dw.test-smyrnaeans-only",
+        "record_type": "doctrinal_witness",
+        "text": "Ignatius also wrote a letter addressed to the Smyrnaeans.",
+    },
+}
+
+
+def test_derivational_form_stays_an_accepted_known_limit():
+    # "Smyrna" (the place) and "Smyrnaeans" (its people, the letter's
+    # own addressees) are different derivational forms of the same
+    # name - the possessive fix above does not attempt this, and this
+    # test documents that it still doesn't: report-only noise, not a
+    # regression.
+    sentence = "Ignatius also wrote a letter to Smyrna."
+    assert ungrounded_markers(
+        sentence, ["pahc.dw.test-smyrnaeans-only"], repository_records=_DERIVATIONAL_FORM_REPOSITORY
+    ) == ["smyrna"]

@@ -1,25 +1,24 @@
 """Marker-level grounding for CITATION-TAGGED sentences that already
-passed engine.m4.grounding_net's own ratio test (fabrication guard, item
-A - worlds/pahc/Open_Gaps_Tracking.md OG-9).
+passed engine.m4.grounding_net's own ratio test (fabrication guard; see
+worlds/pahc/Open_Gaps_Tracking.md OG-9 for the traced regression).
 
 THE GAP THIS CLOSES: grounding_net.verdict_for_sentence's ratio test
 scores a tagged sentence by the SHARE of its own content words found
 anywhere in its tagged records' ground - an aggregate. A wrong proper
 noun counts exactly the same as any other matched word, so a sentence
 can clear the 40% floor on the strength of its OTHER words while naming
-something its own records never named at all. That is the traced OG-9
-regression this module exists to catch: a voice turn cited
-pahc.story.one-eucharist-under-bishop (sources[0].locus "Philadelphians
-4; Smyrnaeans 8"; the record's own text never names a letter) and said
-"Ignatius writes it to the Ephesians." "ephesians" shares zero words
-with the record's own ground, but the sentence's other two content
-words ("ignatius", "writes") were enough to clear the floor at 67%.
-engine.m4.uncited_claims's own find_uncited_claims does not catch this
-either - it only re-examines UNTAGGED sentences, and this sentence
-carried a real tag. No automated check currently insists that every
-specific thing a tagged sentence names is actually IN what it cites; an
-aggregate share has no way to do that by construction. This module adds
-the one thing it cannot: for each proper noun and number
+something its own records never named at all. OG-9's own traced case: a
+voice turn cited pahc.story.one-eucharist-under-bishop (sources[0].locus
+"Philadelphians 4; Smyrnaeans 8"; the record's own text never names a
+letter) and said "Ignatius writes it to the Ephesians." "ephesians"
+shares zero words with the record's own ground, but the sentence's other
+two content words ("ignatius", "writes") were enough to clear the floor
+at 67%. engine.m4.uncited_claims's own find_uncited_claims does not
+catch this either - it only re-examines UNTAGGED sentences, and this
+sentence carried a real tag. No automated check currently insists that
+every specific thing a tagged sentence names is actually IN what it
+cites; an aggregate share has no way to do that by construction. This
+module adds the one thing it cannot: for each proper noun and number
 engine.prose.claim_markers finds in a tagged, passing sentence, that
 exact name or number must itself appear in the ground its own tags
 supply - not just contribute to a passing average.
@@ -56,18 +55,25 @@ kept as a separate check from proper nouns because "does this exact
 number appear" and "does this exact name appear" are different lookups
 over the same ground, not the same lookup twice.
 
-Report-only, same discipline engine.m4.uncited_claims itself first
-shipped with: this module never withholds or edits a turn's text.
+A trailing possessive ('s, or a bare trailing ' on a plural like
+"disciples'") is stripped from both the marker and the ground before
+comparing, since engine.prose._WORD keeps the apostrophe as part of the
+word: a sentence saying "Ignatius's letter" and a record naming plain
+"Ignatius" must ground each other. Known, accepted limit: this does not
+resolve a DIFFERENT derivational form of the same name (a record naming
+"Smyrna" does not itself ground a sentence saying "Smyrnaeans") - that
+stays report-only noise, not a false negative this module is scoped to
+fix.
+
+Report-only: this module never withholds or edits a turn's text.
 find_named_claim_flags is meant to be called the same unconditional way
 find_uncited_claims/find_uncited_paragraphs already are
 (engine.m4.turn._run_ordinary_voice_turn), adding its own additive
 voice_event key with no change to any existing behavior. Enforcement -
 what a caught sentence's own regeneration/correction should say, and
-under what flag it activates - is deliberately a later, separately-ruled
-PR, exactly as r27_enforce/CIC_R27_ENFORCE was for uncited_claims (that
-module's own history, not repeated here): this file only makes the
-finding checkable and auditable. No live run backs this file; built and
-tested offline per this thread's own instruction.
+under what flag it activates - is deliberately left to a later,
+separately-ruled PR: this file only makes the finding checkable and
+auditable.
 """
 import ast
 import re
@@ -102,6 +108,21 @@ def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[s
     return words, digits
 
 
+def _strip_possessive(word: str) -> str:
+    """Drops a trailing "'s" or a bare trailing "'" so "ignatius's" and
+    "ignatius" compare equal - engine.prose._WORD keeps the apostrophe
+    as part of the word, so neither a marker nor a ground word had this
+    stripped before, and a real name matched only when both sides
+    happened to use the same grammatical case. Does not touch a
+    different derivational form of the same name (see module
+    docstring's own known-limit note)."""
+    if word.endswith("'s"):
+        return word[:-2]
+    if word.endswith("'"):
+        return word[:-1]
+    return word
+
+
 def _proper_noun_words(marker: str) -> set[str]:
     """claim_markers() encodes a proper-noun marker as
     "proper-noun:['name', ...]" (engine.prose.claim_markers, built from
@@ -117,7 +138,7 @@ def _proper_noun_words(marker: str) -> set[str]:
         names = ast.literal_eval(marker[len(prefix):])
     except (ValueError, SyntaxError):
         return set()
-    return {word.lower() for name in names for word in name.split()}
+    return {_strip_possessive(word.lower()) for name in names for word in name.split()}
 
 
 def _number_tokens(text: str) -> tuple[set[str], set[str]]:
@@ -158,6 +179,7 @@ def ungrounded_markers(text: str, tags: list[str], *, repository_records: dict[s
         src_words, src_digits = _source_ground(rec, repository_records)
         ground_words |= src_words
         ground_digits |= src_digits
+    ground_words = {_strip_possessive(w) for w in ground_words}
 
     missing: set[str] = set()
     for marker in claim_markers(text):
