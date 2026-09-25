@@ -1342,3 +1342,98 @@ correcting the census is portfolio-level and also goes to Mark; correcting
 this world's own documents does not.
 
 Reviewer did not modify any file other than creating this one.
+
+---
+
+# 8. Addendum, 2026-09-25 — reconciliation against `5ce0dbc`
+
+This review was written against `f7abe22`. While it was in progress the
+drafting thread pushed three further commits (`0370466`, `4056216`,
+`5ce0dbc`) from its own self-review pass, touching all three documents under
+review. I have read that diff. This addendum states which findings it
+overtakes, so the review is not read as describing the current head. **The
+verdict is unchanged: substantial revision required.** Nothing in the five
+blocking findings was addressed.
+
+**Overtaken — fix confirmed, no further action:**
+
+- **Finding 5** (silent "Meletina" → "Meletius"). Fixed. Doc_01 §1 now quotes
+  the list in the file's own exact spelling and says so.
+- **Finding 19** (the "A1.E8 (1650-1815)" citation). Fixed in both Step 0 §1
+  and Doc_01 §2.2, and reattributed to exactly the right place — the
+  2026-08-02 Era 7 Frozen entry's forward-reference line. The drafting thread
+  reached this independently and arrived where I did; the fix is also better
+  than mine would have been, because it noticed that line names "Old Believers
+  at era 8" directly. Cosmetic item 2 (en dash) is fixed with it.
+
+**Overtaken in part — the finding narrows but does not close:**
+
+- **Finding 21** (Step 0's disposition). The "Approved to proceed" is
+  withdrawn and the citation to the nonexistent `obel_Step0_Review_Round1.md`
+  is replaced with a correct pointer to this file. That is the right
+  correction. What remains: Doc_01 and Doc_02 were still drafted on top of
+  the withdrawn disposition, which the build-cycle skill's stage gating
+  forbids, and that sequencing is not undone by relabelling Step 0.
+- **Finding 4** (the "Bishop of Cyrus" emendation). Much improved: the
+  identity claims are now tagged **[Inferential-Thin]** rather than asserted
+  as evident, and Open_Gaps entry 10 records both names as unidentified. That
+  is the correct posture in the absence of evidence. **But the evidence
+  exists, in this world's own second vendored file, and is still not
+  consulted.** Doc_01 §1 and entry 10 both still say "the Heart Bishop of
+  Cyrene" is "evidently"/"plausibly" a corruption of "the Bishop of Cyrus."
+  The original-language witness settles it the other way — "Феодора
+  Блаженнаго, **епископа киринейскаго**" — *Cyrene* is the faithful reading;
+  the corruption is "Heart" for "Blest." The same witness confirms "Meletina"
+  = **Мелетия антиохийскаго**, so that identification can be upgraded from
+  Inferential-Thin to Documented rather than left open. Finding 4 now supplies
+  the answer instead of only the objection: entry 10 can be closed, not
+  carried.
+- **Finding 23** (confidence tags). Doc_01 §1's tagging is materially better —
+  the prosphora, processions and Jesus-spelling details are now [Widely
+  Accepted] rather than riding on the two-fingers verification. Unchanged:
+  "**[Documented]** on the census's own record" still appears for the
+  1666-1667 council (§1, §2.1) and the geographic core (§3). A
+  project-internal derived artifact is still not a source.
+- **Finding 25** (V1.8 §2 deliverables). Doc_02 §3 is now substantially
+  stronger and more honest: it names the real, disclosed, in-progress
+  corpus-map migration (`row_id`, `voice_of`, CM-1/CM-2/CM-4/CM-8) instead of
+  implying a settled non-issue, and logs it as Open_Gaps entry 9. The
+  "corpus-map rows" line in my §2 table should be read as satisfied. The rest
+  of the table stands.
+
+**Made worse by the self-review pass:**
+
+- **Finding 29** (process narration in canonical documents). The three new
+  commits add more, not less. Step 0 §5 is now a long passage about the
+  document's own earlier process error and what disposition it will apply
+  later; Doc_02 §3 carries a "**Corrected, self-review:**" block narrating
+  what an earlier draft of itself claimed; Doc_02's document log gains an
+  entry classifying its own fix as cosmetic. All of this is audit trail, and
+  `CLAUDE.md` puts audit trail in `Ministry/` and open questions in
+  `Open_Gaps_Tracking.md`. The self-correction is genuinely good work; the
+  place it was written down is wrong.
+
+**Untouched — all five blocking findings stand:** Finding 1 (the floor claim
+contradicted at p.34), Finding 2 (the fabricated INTAKE.md ruling, still
+present in Doc_01, Doc_02 §7, `cic/corpus-map/`, `cic/texts/REGISTRY.yaml`
+and the Dossier), Finding 3, Finding 20 (V1.8 unreadable, still cited as
+governing authority), Finding 22 (Open_Gaps entry 8's pointer to review files
+that do not exist — now partly self-answering, since this file is the only
+review artifact that exists for any of the three documents).
+
+Also untouched: Findings 6, 7, 8 (the three wrong quotable-passage loci),
+9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 24, 26, 27, 28.
+
+One observation worth putting on the record, offered as a compliment and a
+caution together. The drafting thread's unprompted self-review caught real
+defects, including one — the Decision-Log misattribution — that I flagged
+independently, and fixed it more precisely than I would have. That is a thread
+reviewing itself in good faith and finding real things. It is also exactly
+what the build-cycle discipline says cannot substitute for independent review:
+of the eighteen findings the self-review pass did not reach, five are
+blocking, and the largest of them sits twelve pages into the one file the
+thread has read most closely. Self-review found the citation errors. It did
+not find the claim the source refutes.
+
+*Addendum written against `5ce0dbc`; reviewer modified no file other than
+this one.*
