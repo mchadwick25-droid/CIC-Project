@@ -71,6 +71,37 @@ assignments:
     world''s own figures and legend from a distance.
 
     '
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: 'div1 3 — Book VII, chapters 27-29 (Paul of Samosata''s heresy, the bishops assembled
+    against him, and Malchion''s disputation); ch. 30''s own extracts from the synodal
+    epistle overlap the anf06 Malchion translation already assigned here (see note)'
+  atlas_ids:
+  - antiochene-church-third-century
+  role: context
+  confidence: assigned
+  note: 'This world''s only other row (anf06''s "Epistle of Malchion") is the whole of its corpus
+    - the thinnest bucket the map holds. Checked directly whether Eusebius adds anything beyond
+    a duplicate of that letter: he does. Verified at the file: ch. 30 (lines 42003-42027) does
+    quote extracts of the same synodal epistle anf06 translates in full - anf06''s own translator''s
+    note confirms this explicitly ("of which we have extracts in Eusebius," citing HE vii.30), so
+    that portion is not counted as a second witness. But chs. 27-29 (lines 41753-41985) are
+    Eusebius''s own distinct narrative, not extracted from the letter: his own dating discussion
+    and chronology of Paul''s episcopate and deposition (ch. 27), the roll of bishops present
+    including Firmilianus of Cappadocian Caesarea and the brothers Gregory (Thaumaturgus) and
+    Athenodorus of Pontus (ch. 28), and his own account of how "Malchion especially drew him out
+    of his hiding-place and refuted him" (ch. 29, lines 41977-41978) in a stenographically-recorded
+    disputation "which we know is still extant" (line 41982-41983). This is a genuine second, independent voice - Eusebius
+    writing from Caesarea within living memory of the events (Church History substantially
+    complete by the 290s-320s) - not merely the same letter restated.
+
+    `role: context`, not `tradition`: an outside near-contemporary historian''s narrative frame
+    around this world''s own primary document, not itself Antiochene voice. Not previously
+    cross-linked here; npnf201''s existing context row for post-apostolic-house-church/alexandria-catechetical/montanism-the-new-prophecy/novatianism/roman-church-third-century
+    (above) explicitly covers "Books II-VII in particular" but Paul of Samosata is not named
+    among the movements it lists.
+
+    '
 - work: Martyrs of Palestine
   author: eusebius
   locus: div2 3.14 — Martyrs of Palestine (between Books VIII and IX)

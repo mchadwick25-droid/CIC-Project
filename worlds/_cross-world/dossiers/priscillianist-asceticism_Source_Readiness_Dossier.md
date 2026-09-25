@@ -13,10 +13,19 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 | work | author | role | source file |
 |---|---|---|---|
-| Against Lying (Contra Mendacium) | augustine | context | — |
-| The Sacred History (Chronica) | sulpiciusseverus | context | npnf211 |
+| Against Lying (Contra Mendacium) | augustine | tradition (provisional) | npnf103 |
+| The Sacred History (Chronica) | sulpiciusseverus | context (assigned) | npnf211 |
 
-Both currently assigned works are external/hostile-adjacent witnesses, not Priscillian's own voice — Sulpicius Severus is already correctly linked as an outside witness, not miscategorized as this movement's own tradition.
+Correction (2026-09-25): this table previously listed Against Lying's role as
+`context`; the corpus-map (`cic/corpus-map/priscillianist-asceticism.yaml`,
+sourced from `cic/corpus-map/_staging/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.yaml`)
+actually carries it as `role: tradition`, `confidence: provisional` — the
+corpus-map's own note explains why despite being hostile outside description
+(it's the only vendored text describing the movement's practice at all, so
+it's tagged as the entry's provisional tradition-role placeholder rather than
+left off the map). Both currently assigned works remain external/hostile-adjacent
+witnesses, not Priscillian's own voice, regardless of the `tradition`/`context`
+role label — Sulpicius Severus is correctly linked as an outside witness.
 
 ## 2. Cross-link opportunities
 

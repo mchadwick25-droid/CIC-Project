@@ -7,6 +7,8 @@ status: draft
 register: emic
 canon_cells: []
 relations:
+- type: illustrated-by
+  target: lpc.demo.compel-three-phase
 - type: associated-with
   target: lpc.contested.compel-coercion-development
 - type: associated-with
