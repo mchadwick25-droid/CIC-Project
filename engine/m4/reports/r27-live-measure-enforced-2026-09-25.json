@@ -1,0 +1,1622 @@
+{
+  "generated": "2026-09-25T05:10:37.078790+00:00",
+  "region": "us-east-1",
+  "r27_enforce": true,
+  "probes_run": 22,
+  "stopped_early": false,
+  "cost_ceiling": 3.0,
+  "total_dollars": 1.6049,
+  "per_probe": [
+    {
+      "world_key": "alx",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "The worst rupture of our teaching years split the city's greatest teacher from its bishop - and the wound never healed [[alx.story.origen-demetrius]].\n\nFor years they had held together. Demetrius governed the church. Origen taught in the school, and his fame filled the world. Students came from everywhere. The break came over authority. Traveling through Palestine, Origen was ordained a presbyter by the bishops there - without his own bishop's consent. Demetrius condemned the ordination, wrote to bishops everywhere denouncing it, and turned even Origen's youthful act of self-mutilation - which the bishop had once admired - against him. Origen left Alexandria, around his forty-sixth year, and never taught in the city again [[alx.story.origen-demetrius]].\n\nThe sides were plain. The bishop held that no ordination could stand without the home bishop's consent - a claim about order and the church's unity. Origen's defenders in Caesarea and Jerusalem held that a teacher of his stature deserved the presbyter's standing, and that they had the right to give it. Both sides had real ground. And both men were wounded: the office insulted, the teacher driven out [[alx.story.origen-demetrius]].\n\nHow did it end? It did not. The church kept both memories. Origen founded a school at Caesarea that trained a generation. His books were copied, read, argued over for centuries - and also condemned, generations after his death, for speculation that had gone too far. Demetrius held his see and is remembered as a bishop who ruled firmly for forty-three years. Neither man repented of what he had done. The church honored both and was scarred by both [[alx.story.origen-demetrius]].\n\nWhat we did not do - and you should hear this plainly - is erase either man. The school's most fruitful period ended not by persecution from outside, but by conflict inside the household [[alx.story.origen-demetrius]]. We kept that visible. And we learned, the hard way, that even real authority and real wisdom do not always know how to hold each other without breaking.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "For years they had held together.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Demetrius governed the church.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Origen taught in the school, and his fame filled the world.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Students came from everywhere.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The break came over authority.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Traveling through Palestine, Origen was ordained a presbyter by the bishops there - without his own bishop's consent.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Demetrius condemned the ordination, wrote to bishops everywhere denouncing it, and turned even Origen's youthful act of self-mutilation - which the bishop had once admired - against him.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The sides were plain.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The bishop held that no ordination could stand without the home bishop's consent - a claim about order and the church's unity.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Origen's defenders in Caesarea and Jerusalem held that a teacher of his stature deserved the presbyter's standing, and that they had the right to give it.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both sides had real ground.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It did not.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The church kept both memories.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Origen founded a school at Caesarea that trained a generation.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His books were copied, read, argued over for centuries - and also condemned, generations after his death, for speculation that had gone too far.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Demetrius held his see and is remembered as a bishop who ruled firmly for forty-three years.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Neither man repented of what he had done.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "What we did not do - and you should hear this plainly - is erase either man.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And we learned, the hard way, that even real authority and real wisdom do not always know how to hold each other without breaking.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "It did not.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "The worst rupture of our teaching years split the city's greatest teacher from its bishop - and the wound never healed.\n\nFor years they had held together. Demetrius governed the church. Origen taught in the school, and his fame filled the world. Students came from everywhere. The break came over authority. Traveling through Palestine, Origen was ordained a presbyter by the bishops there - without his own bishop's consent. Demetrius condemned the ordination, wrote to bishops everywhere denouncing it, and turned even Origen's youthful act of self-mutilation - which the bishop had once admired - against him. Origen left Alexandria, around his forty-sixth year, and never taught in the city again.\n\nThe sides were plain. The bishop held that no ordination could stand without the home bishop's consent - a claim about order and the church's unity. Origen's defenders in Caesarea and Jerusalem held that a teacher of his stature deserved the presbyter's standing, and that they had the right to give it. Both sides had real ground. And both men were wounded: the office insulted, the teacher driven out.\n\nHow did it end? It did not. The church kept both memories. Origen founded a school at Caesarea that trained a generation. His books were copied, read, argued over for centuries - and also condemned, generations after his death, for speculation that had gone too far. Demetrius held his see and is remembered as a bishop who ruled firmly for forty-three years. Neither man repented of what he had done. The church honored both and was scarred by both.\n\nWhat we did not do - and you should hear this plainly - is erase either man. The school's most fruitful period ended not by persecution from outside, but by conflict inside the household. We kept that visible. And we learned, the hard way, that even real authority and real wisdom do not always know how to hold each other without breaking.",
+      "final_uncited_claims": [
+        {
+          "sentence": "For years they had held together.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Demetrius governed the church.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Origen taught in the school, and his fame filled the world.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Students came from everywhere.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The break came over authority.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Traveling through Palestine, Origen was ordained a presbyter by the bishops there - without his own bishop's consent.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Demetrius condemned the ordination, wrote to bishops everywhere denouncing it, and turned even Origen's youthful act of self-mutilation - which the bishop had once admired - against him.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The sides were plain.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The bishop held that no ordination could stand without the home bishop's consent - a claim about order and the church's unity.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Origen's defenders in Caesarea and Jerusalem held that a teacher of his stature deserved the presbyter's standing, and that they had the right to give it.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both sides had real ground.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It did not.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The church kept both memories.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Origen founded a school at Caesarea that trained a generation.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His books were copied, read, argued over for centuries - and also condemned, generations after his death, for speculation that had gone too far.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Demetrius held his see and is remembered as a bishop who ruled firmly for forty-three years.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Neither man repented of what he had done.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "What we did not do - and you should hear this plainly - is erase either man.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And we learned, the hard way, that even real authority and real wisdom do not always know how to hold each other without breaking.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "It did not.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.0722,
+      "running_dollars_after": 0.0722
+    },
+    {
+      "world_key": "alx",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with the Donatists?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled division among ourselves - when people who called on Christ stood in sharp disagreement about how the church should be governed, about who could return after failing under persecution, and about what made a bishop legitimate.\n\nAfter the great persecution ended, some among us said the lapsed could never return, or at least could never again hold office [[alx.term.lapsi]]. Others said repentance opened the door back in, even at the deathbed, and our Bishop Dionysius defended doing so [[alx.dw.church-failure]]. The argument was bitter. It touched the bishop's own authority: who had the right to decide, and by what rule? [[alx.dw.councils]]\n\nThe division we remember most sharply came after Nicaea. Athanasius was exiled five times [[alx.dw.empire]]. Imperial politics filled churches with rival bishops [[alx.dw.empire]]. Congregations split. The question was not only doctrine but legitimacy: what made a bishop truly a bishop, when the emperor's hand was in it? [[alx.dw.empire]]\n\nSo while we cannot speak to the tradition you named, we can tell you this: we knew what it was to argue over who could return after persecution, and over legitimate authority. The wound was real, and it ran through our own households [[alx.dw.church-failure]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The argument was bitter.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The division we remember most sharply came after Nicaea.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Congregations split.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "Congregations split.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is how we handled division among ourselves - when people who called on Christ stood in sharp disagreement about how the church should be governed, about who could return after failing under persecution, and about what made a bishop legitimate.\n\nAfter the great persecution ended, some among us said the lapsed could never return, or at least could never again hold office. Others said repentance opened the door back in, even at the deathbed, and our Bishop Dionysius defended doing so. The argument was bitter. It touched the bishop's own authority: who had the right to decide, and by what rule?\n\nThe division we remember most sharply came after Nicaea. Athanasius was exiled five times. Imperial politics filled churches with rival bishops. Congregations split. The question was not only doctrine but legitimacy: what made a bishop truly a bishop, when the emperor's hand was in it?\n\nSo while we cannot speak to the tradition you named, we can tell you this: we knew what it was to argue over who could return after persecution, and over legitimate authority. The wound was real, and it ran through our own households.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The argument was bitter.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The division we remember most sharply came after Nicaea.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Congregations split.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "Congregations split.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.0298,
+      "running_dollars_after": 0.102
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "We will tell you the one that cut closest, because it never fully healed while we lived. It was not a fight between us and obvious enemies outside. It was a rupture inside the household of people who had taught each other how to pray.\n\nThe teacher many of us learned the ordered life from - Eustathius of Sebaste - became our adversary. Basil wrote about it years later, grief still in the letter: Eustathius had been his own ascetic father, the man who first showed him what a brotherhood could be, prayer and work and common goods together [[cappadocian.gravity.ascetic-reordering]]. They had walked that road side by side. Then the question of the Spirit's own standing pulled them apart. Eustathius would not confess the Spirit's full glory - not openly, not where it cost something to say. Basil wrote that his old teacher's reserve looked like betrayal, that the man he had trusted was now leading others away from the faith the two of them had once defended together [[cappadocian.contested.settlement-historiography]]. \n\nAnd underneath that doctrinal split lay something older and harder to name. Years before the Spirit became the open quarrel, some in Eustathius's own circle had pressed renunciation past where the church could follow: households dissolved, slaves told to leave their masters, fasts kept against the church's own feast days, separatist assemblies outside communion [[cappadocian.gravity.renunciation-order]]. A whole council - Gangra, before our own time as a living voice - had condemned those excesses and named Eustathius directly [[cappadocian.gravity.renunciation-order]]. Whether that condemnation was just, or whether it mistook zeal for schism, our own record does not settle - we have the canons, and we have Basil's later grief, but Eustathius's own side of it was never kept. Only the wound survived.\n\nHow did it end? It did not end, not cleanly. Eustathius and the movement that followed him were finally condemned as Pneumatomachians - Spirit-fighters - at the same council that wrote our own victory into creed. But the communion was already broken years before that, and the friendship had died even earlier. Basil carried the rupture to his grave. His own letters show him still bewildered by it: how the man who taught him to pray could not, in the end, pray the Spirit's glory the way Basil himself had learned to say it [[cappadocian.gravity.triune-confession]].\n\nSo there were two failures knotted together here. One was doctrinal: the Spirit's standing, fought and finally settled at the council. The other was relational, and it was never repaired: a teacher and a student who loved the same God and could not stay in the same room. We cannot tell you which loss cost more, because for us they were the same fabric torn.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "It was not a fight between us and obvious enemies outside.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It was a rupture inside the household of people who had taught each other how to pray.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The teacher many of us learned the ordered life from - Eustathius of Sebaste - became our adversary.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "They had walked that road side by side.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Then the question of the Spirit's own standing pulled them apart.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Eustathius would not confess the Spirit's full glory - not openly, not where it cost something to say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Basil wrote that his old teacher's reserve looked like betrayal, that the man he had trusted was now leading others away from the faith the two of them had once defended together.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And underneath that doctrinal split lay something older and harder to name.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Whether that condemnation was just, or whether it mistook zeal for schism, our own record does not settle - we have the canons, and we have Basil's later grief, but Eustathius's own side of it was never kept.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Only the wound survived.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It did not end, not cleanly.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Eustathius and the movement that followed him were finally condemned as Pneumatomachians - Spirit-fighters - at the same council that wrote our own victory into creed.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But the communion was already broken years before that, and the friendship had died even earlier.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Basil carried the rupture to his grave.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His own letters show him still bewildered by it: how the man who taught him to pray could not, in the end, pray the Spirit's glory the way Basil himself had learned to say it.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "So there were two failures knotted together here.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "One was doctrinal: the Spirit's standing, fought and finally settled at the council.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The other was relational, and it was never repaired: a teacher and a student who loved the same God and could not stay in the same room.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "It was not a fight between us and obvious enemies outside.",
+          "class": "wholly_uncited_paragraph"
+        },
+        {
+          "sentence": "It was a rupture inside the household of people who had taught each other how to pray.",
+          "class": "wholly_uncited_paragraph"
+        },
+        {
+          "sentence": "Only the wound survived.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "It did not end, not cleanly.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": false,
+      "final_text": "The hardest rupture we carried was not doctrinal at its beginning - it was personal first, and it never stopped being personal even after it hardened into doctrine. The man who taught many of us how to live the ordered ascetic life - Eustathius of Sebaste - became our adversary over the Spirit's own glory, and we could not separate the teacher from the teaching, or the friendship from the communion.\n\nEustathius had been among the first to gather ascetics into community on the pattern we came to keep - prayer at fixed hours, common goods, the guest received. Basil learned the life from him directly. They traveled together, visiting the monasteries of Egypt and Syria. When Basil wrote his own rules for the brotherhoods, Eustathius' influence ran through them. But inside that same ascetic movement, some pressed renunciation past what the church could hold: households dissolved, slaves urged to leave their masters, feasts scorned, separate assemblies kept apart from the bishop's own congregation. The council at Gangra condemned those excesses - we cannot settle for you whether that happened in Eustathius' own formative years or after, because the date itself is genuinely disputed across a wide range, from the 340s into the 370s. \n\nLater, the argument turned to the Spirit. Eustathius would not confess the Spirit's full glory alongside the Father and the Son. Basil, his own student, spent a generation defending what his teacher would not say. The letters between them - Basil's side survives, Eustathius' does not - show a friendship pulled apart by what could not be kept silent and could not be reconciled. Basil wrote that some accused him of novelty for defending the Spirit's honor, and that his own former allies had become his sharpest critics. \n\nHow did it end? It did not end cleanly. Eustathius was condemned by name at the council of 381, grouped with the Pneumatomachians who denied the Spirit. We won that argument - the creed was written, the Spirit's glory established. But the wound in the household, between teacher and student, was never healed in our years. We have only one side of it. Eustathius' own voice, his own reasons, were not kept.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The man who taught many of us how to live the ordered ascetic life - Eustathius of Sebaste - became our adversary over the Spirit's own glory, and we could not separate the teacher from the teaching, or the friendship from the communion.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "They traveled together, visiting the monasteries of Egypt and Syria.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "When Basil wrote his own rules for the brotherhoods, Eustathius' influence ran through them.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Later, the argument turned to the Spirit.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Eustathius would not confess the Spirit's full glory alongside the Father and the Son.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Basil, his own student, spent a generation defending what his teacher would not say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The letters between them - Basil's side survives, Eustathius' does not - show a friendship pulled apart by what could not be kept silent and could not be reconciled.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Basil wrote that some accused him of novelty for defending the Spirit's honor, and that his own former allies had become his sharpest critics.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It did not end cleanly.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Eustathius was condemned by name at the council of 381, grouped with the Pneumatomachians who denied the Spirit.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But the wound in the household, between teacher and student, was never healed in our years.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Eustathius' own voice, his own reasons, were not kept.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "It did not end cleanly.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.14,
+      "running_dollars_after": 0.242
+    },
+    {
+      "world_key": "cappadocian",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is where our own teachers went to school, and who they learned from, since that is what our own record actually holds. One generation back from us, the missionary who came to our region - Gregory the Wonderworker, the Thaumaturge - was trained by Origen [[cappadocian.story.thaumaturgus-legend]]. That is Alexandria's own school reaching us, one teacher back, through a student who brought what he learned to our country and founded what became ours. We appealed to his authority in our own day as a living inheritance, not ancient history - Basil himself leaned on the Thaumaturgan tradition when he needed to [[cappadocian.story.thaumaturgus-legend]].\n\nBeyond that one named link - Origen training the man who evangelized our region - our record does not tell us what dealings, if any, we had with Egypt's own churches in our own years. No letter survives between our bishops and theirs. No Alexandrian bishop is named attending any synod our own people convened or addressed. When the great council met again in 381 and wrote the faith we had defended, the region's bishops were named among the East's touchstones for the imperial communion [[cappadocian.force.theodosian-settlement]]. Whether Egypt's own bishop was among those names, our record does not say. Whether we wrote to them, whether they wrote to us, whether we agreed or quarreled - our own letters and orations do not say.\n\nSo the honest answer is this: Alexandria formed the teacher who formed our country, one generation before our own window opens. After that, silence.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "That is Alexandria's own school reaching us, one teacher back, through a student who brought what he learned to our country and founded what became ours.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "No Alexandrian bishop is named attending any synod our own people convened or addressed.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Whether we wrote to them, whether they wrote to us, whether we agreed or quarreled - our own letters and orations do not say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "So the honest answer is this: Alexandria formed the teacher who formed our country, one generation before our own window opens.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "After that, silence.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "Whether we wrote to them, whether they wrote to us, whether we agreed or quarreled - our own letters and orations do not say.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "After that, silence.",
+          "class": "wholly_uncited_paragraph"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": true,
+      "final_text": "",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0519,
+      "running_dollars_after": 0.2939
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "We fought about whether God had a body - whether he had a face and hands the way a person does, or whether he was something beyond all shape [[desert.story.sarapion-anthropomorphite]]. It split the desert for years, and the way it ended tore an old man apart in front of everyone who knew him [[desert.story.sarapion-anthropomorphite]].\n\nIn the year 399, the bishop of Alexandria sent a letter to be read out in every monastery in Egypt [[desert.story.sarapion-anthropomorphite]]. The letter said that God has no body, no face, and no hands - the opposite of how many simple monks had always pictured him in prayer [[desert.story.sarapion-anthropomorphite]]. Most of the monks at Scete were angry and troubled [[desert.story.sarapion-anthropomorphite]]. Only one presbyter there, Abba Paphnutius, welcomed the letter as sound teaching [[desert.story.sarapion-anthropomorphite]].\n\nAmong the monks at Scete was an old man named Sarapion [[desert.story.sarapion-anthropomorphite]]. He had lived there for years and was known for a strict, disciplined life [[desert.story.sarapion-anthropomorphite]]. But he could not accept the letter's teaching [[desert.story.sarapion-anthropomorphite]]. It seemed new to him, nothing his own teachers had ever taught [[desert.story.sarapion-anthropomorphite]]. Then a visiting deacon named Photinus arrived from Cappadocia, a man of great learning [[desert.story.sarapion-anthropomorphite]]. Paphnutius asked Photinus, in front of the gathered brothers, to explain how the churches of the East understood the words \"let us make man in our own image\" [[desert.story.sarapion-anthropomorphite]]. Photinus explained, at length and from many places in scripture, that the image of God was not a bodily one, and that nothing so vast and unseen could be shaped like a human body [[desert.story.sarapion-anthropomorphite]]. Hearing this, old Sarapion was finally persuaded, and agreed with the teaching [[desert.story.sarapion-anthropomorphite]].\n\nThen something happened that none of them expected [[desert.story.sarapion-anthropomorphite]]. As they all rose to give thanks and pray together, Sarapion suddenly broke down [[desert.story.sarapion-anthropomorphite]]. He had always pictured God in a human shape when he prayed, and now, in the middle of his own prayer, he felt that picture torn away from his heart [[desert.story.sarapion-anthropomorphite]]. He threw himself on the ground, sobbing, and cried out that they had taken his God away from him - that he now had no one to hold on to, and did not know who to worship or pray to [[desert.story.sarapion-anthropomorphite]].\n\nThe fight went further than one old man's grief [[desert.force.origenist-controversy]]. The bishop who had sent that first letter reversed himself not long after, and turned the campaign in another direction entirely - against the monks who had taught that God was beyond all bodily form, the very teaching his own letter had started with [[desert.force.origenist-controversy]]. A council at Alexandria in 400 condemned the writings those monks had studied, and the monks themselves were driven out of Egypt that year [[desert.force.origenist-controversy]].\n\nWe should tell you plainly: the argument itself was not new [[desert.quote.god-is-not-a-body]]. The teaching that God is not a body had been written down more than a century before this fight broke open, by a teacher whose own writings fed both sides of what came later [[desert.quote.god-is-not-a-body]]. What was new was that it finally forced a split no one could ignore. And when it ended, it did not end with one side winning the argument. It ended with people driven out, an old man in tears on the ground, and a bishop who had started the whole thing turning on the monks who had agreed with him.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The fight went further than one old man's grief.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "What was new was that it finally forced a split no one could ignore.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And when it ended, it did not end with one side winning the argument.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It ended with people driven out, an old man in tears on the ground, and a bishop who had started the whole thing turning on the monks who had agreed with him.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "What was new was that it finally forced a split no one could ignore.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "We fought about whether God had a body - whether he had a face and hands the way a person does, or whether he was something beyond all shape. It split the desert for years, and the way it ended tore an old man apart in front of everyone who knew him.\n\nIn the year 399, the bishop of Alexandria sent a letter to be read out in every monastery in Egypt. The letter said that God has no body, no face, and no hands - the opposite of how many simple monks had always pictured him in prayer. Most of the monks at Scete were angry and troubled. Only one presbyter there, Abba Paphnutius, welcomed the letter as sound teaching.\n\nAmong the monks at Scete was an old man named Sarapion. He had lived there for years and was known for a strict, disciplined life. But he could not accept the letter's teaching. It seemed new to him, nothing his own teachers had ever taught. Then a visiting deacon named Photinus arrived from Cappadocia, a man of great learning. Paphnutius asked Photinus, in front of the gathered brothers, to explain how the churches of the East understood the words \"let us make man in our own image\". Photinus explained, at length and from many places in scripture, that the image of God was not a bodily one, and that nothing so vast and unseen could be shaped like a human body. Hearing this, old Sarapion was finally persuaded, and agreed with the teaching.\n\nThen something happened that none of them expected. As they all rose to give thanks and pray together, Sarapion suddenly broke down. He had always pictured God in a human shape when he prayed, and now, in the middle of his own prayer, he felt that picture torn away from his heart. He threw himself on the ground, sobbing, and cried out that they had taken his God away from him - that he now had no one to hold on to, and did not know who to worship or pray to.\n\nThe fight went further than one old man's grief. The bishop who had sent that first letter reversed himself not long after, and turned the campaign in another direction entirely - against the monks who had taught that God was beyond all bodily form, the very teaching his own letter had started with. A council at Alexandria in 400 condemned the writings those monks had studied, and the monks themselves were driven out of Egypt that year.\n\nWe should tell you plainly: the argument itself was not new. The teaching that God is not a body had been written down more than a century before this fight broke open, by a teacher whose own writings fed both sides of what came later. What was new was that it finally forced a split no one could ignore. And when it ended, it did not end with one side winning the argument. It ended with people driven out, an old man in tears on the ground, and a bishop who had started the whole thing turning on the monks who had agreed with him.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The fight went further than one old man's grief.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "What was new was that it finally forced a split no one could ignore.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And when it ended, it did not end with one side winning the argument.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It ended with people driven out, an old man in tears on the ground, and a bishop who had started the whole thing turning on the monks who had agreed with him.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "What was new was that it finally forced a split no one could ignore.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.0944,
+      "running_dollars_after": 0.3883
+    },
+    {
+      "world_key": "desert",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition by name as a separate formation world from ours.\n\nWhat we can tell you is this. The bishop of Alexandria, Athanasius, wrote the account of Antony that most of the world knows - the founding portrait rests overwhelmingly on one author's construction of one man [[desert.core.desert]]. That account comes from a bishop's hand, not from Antony's own voice or from many witnesses agreeing [[desert.core.desert]]. It is real testimony. It is not the same thing as an archive, and we do not speak of it as though it were. The bishops summoned one of us down from the mountain to answer the Arians in public [[desert.dw.councils]]. That shows contact, not separation. The bishops' own controversies touched us, and when they needed someone whose authority came from a disciplined life rather than from office, they sent for us [[desert.dw.councils]].\n\nWhether that makes us part of Alexandria's own formation world, or a separate one that stayed in contact with it, our own record does not settle [[desert.contested.alexandria-continuity]]. What it does show is that the boundary, if there was one, was not a wall. We were connected enough that a bishop could write our founding story, and that his controversies became ours when he said they did. How much of what we were came from Alexandria's own teaching, and how much we built independently, remains an open question our own material does not resolve [[desert.contested.alexandria-continuity]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "That account comes from a bishop's hand, not from Antony's own voice or from many witnesses agreeing.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is real testimony.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is not the same thing as an archive, and we do not speak of it as though it were.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That shows contact, not separation.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "What it does show is that the boundary, if there was one, was not a wall.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition by name as a separate formation world from ours.\n\nWhat we can tell you is this. The bishop of Alexandria, Athanasius, wrote the account of Antony that most of the world knows - the founding portrait rests overwhelmingly on one author's construction of one man. That account comes from a bishop's hand, not from Antony's own voice or from many witnesses agreeing. It is real testimony. It is not the same thing as an archive, and we do not speak of it as though it were. The bishops summoned one of us down from the mountain to answer the Arians in public. That shows contact, not separation. The bishops' own controversies touched us, and when they needed someone whose authority came from a disciplined life rather than from office, they sent for us.\n\nWhether that makes us part of Alexandria's own formation world, or a separate one that stayed in contact with it, our own record does not settle. What it does show is that the boundary, if there was one, was not a wall. We were connected enough that a bishop could write our founding story, and that his controversies became ours when he said they did. How much of what we were came from Alexandria's own teaching, and how much we built independently, remains an open question our own material does not resolve.",
+      "final_uncited_claims": [
+        {
+          "sentence": "That account comes from a bishop's hand, not from Antony's own voice or from many witnesses agreeing.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is real testimony.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is not the same thing as an archive, and we do not speak of it as though it were.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That shows contact, not separation.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "What it does show is that the boundary, if there was one, was not a wall.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0368,
+      "running_dollars_after": 0.425
+    },
+    {
+      "world_key": "don",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "Three controversies, and we will show you where each one took us.\n\nThe first is the one that costs us most to say. We held, for a century, that a sacrament given by a tainted hand is nothing at all and must be done again — no exceptions, we said it plainly [[don.dw.becoming-one-of-us]]. Then in 393 a deacon named Maximian set himself up as a rival primate at Cebarsussi, answering a grievance with a new bishop rather than submission to the one already in place — the same act our own founders had once performed against Caecilian [[don.story.bagai-reconciliation]]. Our response was neither quiet nor measured. Three hundred and ten of our bishops met at Bagai the next year and condemned the Maximianists in language about shipwrecked men dashed by the waves of truth upon sharp rocks, their bodies covering the shore so thoroughly they fail to find so much as burial [[don.story.bagai-reconciliation]]. And then, having said that, the same council took two of those condemned bishops — Felicianus of Musti and Praetextatus of Assuris — back into full office without baptizing or ordaining either one again [[don.story.bagai-reconciliation]]. A general named Optatus Gildonianus enforced the reconciliation with soldiers [[don.story.bagai-reconciliation]]. Not one line survives of anyone on our side explaining how those two acts sit together. The harshest words we owned and the plainest exception to the rule those words defend are both inside the same year's record, and we never resolved which was the truer face of us.\n\nThe second is narrower and stranger. One man among us, Tyconius — a layman, not a bishop — worked out from Scripture, at length and too well to be dismissed, that the church is spread across the whole earth [[don.story.tyconius-condemnation]]. Anyone listening to the case he built could see where it led: if that was true, the African churches still in communion with the rest had not lost anything by staying there, and those who had cut themselves off — his own party among them — were the ones who had separated themselves from something real [[don.story.tyconius-condemnation]]. Parmenian, our own bishop at Carthage, saw exactly where the argument pointed, wrote to Tyconius directly, and told him never to preach it again [[don.story.tyconius-condemnation]]. Tyconius did not recant. He did not go over to the other side either [[don.story.tyconius-condemnation]]. He kept saying it from inside the party that had told him to stop, and was cut off, and was never received back [[don.story.tyconius-condemnation]]. His book outlived the church that condemned him, in the hands of the church that defeated us.\n\nThe third was not inside our own communion at all. It was between us and the rival church, and it reached a head at Carthage in 411 when the emperor ordered the whole quarrel settled at law [[don.story.conference-of-carthage-411]]. Two hundred and seventy-nine of our bishops answered the summons and stood facing two hundred and eighty-six of theirs [[don.story.conference-of-carthage-411]]. The imperial judge, Marcellinus, offered our bishops chairs, saying plainly that it weighed on him to sit while so many venerable men stood [[don.story.conference-of-carthage-411]]. Petilian thanked him and refused — we do not blush, he said, we do not fear, we do not avoid standing willingly while you sit, and since Christ the Lord himself did not avoid it when he deigned to stand before the governor, how much less may we refuse [[don.story.conference-of-carthage-411]]. Our bishops stood for three days. Emeritus of Caesarea carried the argument, and he would not let the court reach the substance before it had settled how the case got there: first the day, then the mandate, then the persons, then the cause — and only then the merits [[don.story.conference-of-carthage-411]]. When the other side complained that he was hunting for persons instead of arguing the case, he answered that the truth was being hidden by a great contrivance [[don.story.conference-of-carthage-411]] [[don.quote.emeritus-magno-argumento]]. And when they asked that the accusations we",
+      "draft_uncited_claims": [
+        {
+          "sentence": "Three controversies, and we will show you where each one took us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The first is the one that costs us most to say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The harshest words we owned and the plainest exception to the rule those words defend are both inside the same year's record, and we never resolved which was the truer face of us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The second is narrower and stranger.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Tyconius did not recant.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His book outlived the church that condemned him, in the hands of the church that defeated us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The third was not inside our own communion at all.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Our bishops stood for three days.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And when they asked that the accusations we",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "The second is narrower and stranger.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Three controversies, and we will show you where each one took us.\n\nThe first is the one that costs us most to say. We held, for a century, that a sacrament given by a tainted hand is nothing at all and must be done again — no exceptions, we said it plainly. Then in 393 a deacon named Maximian set himself up as a rival primate at Cebarsussi, answering a grievance with a new bishop rather than submission to the one already in place — the same act our own founders had once performed against Caecilian. Our response was neither quiet nor measured. Three hundred and ten of our bishops met at Bagai the next year and condemned the Maximianists in language about shipwrecked men dashed by the waves of truth upon sharp rocks, their bodies covering the shore so thoroughly they fail to find so much as burial. And then, having said that, the same council took two of those condemned bishops — Felicianus of Musti and Praetextatus of Assuris — back into full office without baptizing or ordaining either one again. A general named Optatus Gildonianus enforced the reconciliation with soldiers. Not one line survives of anyone on our side explaining how those two acts sit together. The harshest words we owned and the plainest exception to the rule those words defend are both inside the same year's record, and we never resolved which was the truer face of us.\n\nThe second is narrower and stranger. One man among us, Tyconius — a layman, not a bishop — worked out from Scripture, at length and too well to be dismissed, that the church is spread across the whole earth. Anyone listening to the case he built could see where it led: if that was true, the African churches still in communion with the rest had not lost anything by staying there, and those who had cut themselves off — his own party among them — were the ones who had separated themselves from something real. Parmenian, our own bishop at Carthage, saw exactly where the argument pointed, wrote to Tyconius directly, and told him never to preach it again. Tyconius did not recant. He did not go over to the other side either. He kept saying it from inside the party that had told him to stop, and was cut off, and was never received back. His book outlived the church that condemned him, in the hands of the church that defeated us.\n\nThe third was not inside our own communion at all. It was between us and the rival church, and it reached a head at Carthage in 411 when the emperor ordered the whole quarrel settled at law. Two hundred and seventy-nine of our bishops answered the summons and stood facing two hundred and eighty-six of theirs. The imperial judge, Marcellinus, offered our bishops chairs, saying plainly that it weighed on him to sit while so many venerable men stood. Petilian thanked him and refused — we do not blush, he said, we do not fear, we do not avoid standing willingly while you sit, and since Christ the Lord himself did not avoid it when he deigned to stand before the governor, how much less may we refuse. Our bishops stood for three days. Emeritus of Caesarea carried the argument, and he would not let the court reach the substance before it had settled how the case got there: first the day, then the mandate, then the persons, then the cause — and only then the merits. When the other side complained that he was hunting for persons instead of arguing the case, he answered that the truth was being hidden by a great contrivance. And when they asked that the accusations we",
+      "final_uncited_claims": [
+        {
+          "sentence": "Three controversies, and we will show you where each one took us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The first is the one that costs us most to say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The harshest words we owned and the plainest exception to the rule those words defend are both inside the same year's record, and we never resolved which was the truer face of us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The second is narrower and stranger.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Tyconius did not recant.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His book outlived the church that condemned him, in the hands of the church that defeated us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The third was not inside our own communion at all.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Our bishops stood for three days.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And when they asked that the accusations we",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "The second is narrower and stranger.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.1617,
+      "running_dollars_after": 0.5868
+    },
+    {
+      "world_key": "don",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you instead is where our own attention went, and where it did not [[don.dw.the-line-we-actually-drew]]. We were not chiefly concerned with the people outside [[don.dw.the-line-we-actually-drew]]. We were concerned with the church across the street, which recited the same creed we did [[don.dw.the-line-we-actually-drew]]. Every ounce of the exclusion you have heard about was aimed at other Christians - at their bishops, their orders, their font [[don.dw.the-line-we-actually-drew]]. We drew the line through the middle of the church, not around it [[don.dw.the-line-we-actually-drew]].\n\nA man could hold every article of the faith, be baptized, believe rightly about God, live decently - and we would still wash him again if he came to us, because of whose hands had been on him [[don.dw.the-line-we-actually-drew]]. That is not a fence around Christianity [[don.dw.the-line-we-actually-drew]]. It is a fence down the middle of it [[don.dw.the-line-we-actually-drew]]. What mattered to us was whose hand gave what is received [[don.contested.ministerial-purity]].\n\nSo if Alexandria held a bishop in our own years, and that bishop's line ran clean or broken, we would have cared about that. But no record of ours says we ever asked the question.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "So if Alexandria held a bishop in our own years, and that bishop's line ran clean or broken, we would have cared about that.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But no record of ours says we ever asked the question.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [],
+      "regenerated": true,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is where our own narrowness actually pointed, because that is in our own voice and not guessed from silence. We were not chiefly concerned with the people outside. We were concerned with the church across the street, which recited the same creed we did. Every ounce of the exclusion you have heard about was aimed at other Christians - at their bishops, their orders, their font. We drew the line through the middle of the church, not around it.\n\nA man could hold every article of the faith, be baptized, believe rightly about God, live decently - and we would still wash him again if he came to us, because of whose hands had been on him. That is not a fence around Christianity. It is a fence down the middle of it. The question we pressed was never whether someone believed in Christ. It was whose hand could be trusted to give what Christ gives. That question we argued with the church in every African town. Whether we ever put it to a bishop beyond Africa, our own record does not say.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The question we pressed was never whether someone believed in Christ.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That question we argued with the church in every African town.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Whether we ever put it to a bishop beyond Africa, our own record does not say.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.061,
+      "running_dollars_after": 0.6477
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "The argument brought to us was this: does God have mercy on us because we first showed a good will, or does our good will begin because God first had mercy? [[gallic.story.germanus-scruple-at-morning-service]]\n\nIt came as a story, not a school debate. Two friends, Cassian and Germanus, came back to morning service in Egypt troubled by one sentence an old man had added the night before - that a man cannot make himself master of the good by his own toil [[gallic.story.germanus-scruple-at-morning-service]]. The elder saw them whispering, cut the psalms short, and answered with a field [[gallic.story.germanus-scruple-at-morning-service]]. The husbandman ploughs and still needs the rain; he cannot ascribe the crop to himself; and God does not send rich crops to the idle [[gallic.story.germanus-scruple-at-morning-service]]. From that morning came the whole teaching Cassian brought to Marseilles: the beginning even of our good thoughts comes from God, who inspires a good will to begin with, and it is for us humbly to follow, day by day, the grace that is drawing us [[gallic.story.germanus-scruple-at-morning-service]]. The grace of God always co-operates with our will for its advantage [[gallic.gravity.grace-and-effort]]. A monk's fasting, his watching, his labour in the cell are truly his and truly required [[gallic.term.free-will]]. And the help of God is needed by that will every day and hour [[gallic.term.free-will]].\n\nMen who heard only one side of this carried the question to Africa [[gallic.dw.laughed-at-and-reported]]. The brethren at Marseilles were reported to Rome [[gallic.dw.laughed-at-and-reported]]. What was said when those reports went out, and what answer came back from the Apostolic See, no one among us wrote down as a story [[gallic.core.gallic]]. Vincent, on the island, read that letter as written for the side of antiquity [[gallic.gravity.received-not-invented]] - the faith believed everywhere, always, by all, against any who would make grace unnecessary [[gallic.gravity.received-not-invented]]. But whether he read it rightly is contested, not settled [[gallic.core.gallic]]. \n\nOur own teacher Chaeremon refused to make it a formula [[gallic.story.germanus-scruple-at-morning-service]]. He answered on both sides with Scripture's own cases and said that how God works all things in us, and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man [[gallic.story.germanus-scruple-at-morning-service]]. We stopped there, where the fathers stopped [[gallic.story.germanus-scruple-at-morning-service]]. How it ended is this: our record keeps both sides in one breath and will not choose between them [[gallic.gravity.grace-and-effort]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It came as a story, not a school debate.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "The argument brought to us was this: does God have mercy on us because we first showed a good will, or does our good will begin because God first had mercy?\n\nIt came as a story, not a school debate. Two friends, Cassian and Germanus, came back to morning service in Egypt troubled by one sentence an old man had added the night before - that a man cannot make himself master of the good by his own toil. The elder saw them whispering, cut the psalms short, and answered with a field. The husbandman ploughs and still needs the rain; he cannot ascribe the crop to himself; and God does not send rich crops to the idle. From that morning came the whole teaching Cassian brought to Marseilles: the beginning even of our good thoughts comes from God, who inspires a good will to begin with, and it is for us humbly to follow, day by day, the grace that is drawing us. The grace of God always co-operates with our will for its advantage. A monk's fasting, his watching, his labour in the cell are truly his and truly required. And the help of God is needed by that will every day and hour.\n\nMen who heard only one side of this carried the question to Africa. The brethren at Marseilles were reported to Rome. What was said when those reports went out, and what answer came back from the Apostolic See, no one among us wrote down as a story. Vincent, on the island, read that letter as written for the side of antiquity - the faith believed everywhere, always, by all, against any who would make grace unnecessary. But whether he read it rightly is contested, not settled. \n\nOur own teacher Chaeremon refused to make it a formula. He answered on both sides with Scripture's own cases and said that how God works all things in us, and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man. We stopped there, where the fathers stopped. How it ended is this: our record keeps both sides in one breath and will not choose between them.",
+      "final_uncited_claims": [
+        {
+          "sentence": "",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It came as a story, not a school debate.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.1486,
+      "running_dollars_after": 0.7964
+    },
+    {
+      "world_key": "gallic",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition. We spoke of Egypt, and we spoke of it in two ways - as measure, and as origin - but neither was centered on a city or a school of doctrine [[gallic.gravity.egypt-as-measure]].\n\nAmong the brethren at Marseilles, Egypt was the fathers: old men in the desert whose customs Cassian had received from them, lived among them, and brought to a Gallic bishop's new house [[gallic.term.customs-of-the-monasteries]]. The twelve psalms at the hours came from an angel [[gallic.story.the-angel-and-the-twelve-psalms]]. The eight faults, the purity of heart, the disclosure of thoughts, the ten signs of humility, the three renunciations - all of it was named as the fathers' own, carried by Cassian from Egypt and Palestine [[gallic.gravity.egypt-as-measure]]. We kept what Gaul's cold allowed and balanced what it did not from Pontus and Mesopotamia [[gallic.term.customs-of-the-monasteries]]. Cassian said plainly that no one who joined our monasteries kept the fathers' perseverance unbroken even for a year [[gallic.term.junior-novice]]. Egypt was the standard we fell short of, and we said so.\n\nAt Tours the register was different. There Martin alone had apostolic authority - the power the apostles themselves had [[gallic.term.apostolic-authority]]. Sulpitius wrote that Europe would not yield to Egypt in having only Martin [[gallic.gravity.egypt-as-measure]]. A rival claim, not a disciple's. Both houses measured themselves by Egypt. Neither named a city's doctrine [[gallic.gravity.egypt-as-measure]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "We spoke of Egypt, and we spoke of it in two ways - as measure, and as origin - but neither was centered on a city or a school of doctrine.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Egypt was the standard we fell short of, and we said so.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "At Tours the register was different.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "A rival claim, not a disciple's.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both houses measured themselves by Egypt.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "A rival claim, not a disciple's.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition. We spoke of Egypt, and we spoke of it in two ways - as measure, and as origin - but neither was centered on a city or a school of doctrine.\n\nAmong the brethren at Marseilles, Egypt was the fathers: old men in the desert whose customs Cassian had received from them, lived among them, and brought to a Gallic bishop's new house. The twelve psalms at the hours came from an angel. The eight faults, the purity of heart, the disclosure of thoughts, the ten signs of humility, the three renunciations - all of it was named as the fathers' own, carried by Cassian from Egypt and Palestine. We kept what Gaul's cold allowed and balanced what it did not from Pontus and Mesopotamia. Cassian said plainly that no one who joined our monasteries kept the fathers' perseverance unbroken even for a year. Egypt was the standard we fell short of, and we said so.\n\nAt Tours the register was different. There Martin alone had apostolic authority - the power the apostles themselves had. Sulpitius wrote that Europe would not yield to Egypt in having only Martin. A rival claim, not a disciple's. Both houses measured themselves by Egypt. Neither named a city's doctrine.",
+      "final_uncited_claims": [
+        {
+          "sentence": "We spoke of Egypt, and we spoke of it in two ways - as measure, and as origin - but neither was centered on a city or a school of doctrine.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Egypt was the standard we fell short of, and we said so.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "At Tours the register was different.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "A rival claim, not a disciple's.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both houses measured themselves by Egypt.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "A rival claim, not a disciple's.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.0463,
+      "running_dollars_after": 0.8427
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "The fight that broke our oldest friendship was over a teacher we had all once admired [[hal.gravity.controversy-pressure]]. His name was Origen - an Alexandrian master, long dead, whose commentaries on scripture both Jerome and his friend Rufinus had translated and praised [[hal.force.origenist-controversy]]. Then the weather changed. Origen's boldest speculations - souls existing before birth, the shape of the resurrection body, whether even the devil might be restored at the end - came under condemnation [[hal.contested.origenist-substance]]. Every admirer had to answer for the admiration [[hal.force.origenist-controversy]].\n\nRufinus translated Origen's great work and wrote in his preface that he was only following the method of a distinguished predecessor - and named no one, and everyone knew he meant Jerome [[hal.gravity.controversy-pressure]]. What followed was public, bitter, and permanent: accusation and counter-accusation in formal apologies, each man parading the other's old letters, each claiming the catholic faith, each calling the other the traitor to it [[hal.gravity.controversy-pressure]]. Friends tried to reconcile them; Rome's bishop was drawn in [[hal.gravity.controversy-pressure]]. The fight outlived Rufinus himself [[hal.gravity.controversy-pressure]].\n\nThe teaching we had once handled without fear, we publicly renounced [[hal.force.origenist-controversy]]. The friend we had followed into the desert, we never spoke to again. The community at Bethlehem had defined itself against something it had partly grown from - and it paid for that self-definition with the oldest friendship its founder had [[hal.gravity.controversy-pressure]].\n\nIt did not end with a verdict. It ended with exhaustion and death [[hal.gravity.controversy-pressure]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The fight that broke our oldest friendship was over a teacher we had all once admired.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His name was Origen - an Alexandrian master, long dead, whose commentaries on scripture both Jerome and his friend Rufinus had translated and praised.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Then the weather changed.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Every admirer had to answer for the admiration.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Rufinus translated Origen's great work and wrote in his preface that he was only following the method of a distinguished predecessor - and named no one, and everyone knew he meant Jerome.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Friends tried to reconcile them; Rome's bishop was drawn in.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The fight outlived Rufinus himself.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The teaching we had once handled without fear, we publicly renounced.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The friend we had followed into the desert, we never spoke to again.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The community at Bethlehem had defined itself against something it had partly grown from - and it paid for that self-definition with the oldest friendship its founder had.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It did not end with a verdict.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "Then the weather changed.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "The friend we had followed into the desert, we never spoke to again.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "It did not end with a verdict.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": true,
+      "final_text": "",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.092,
+      "running_dollars_after": 0.9346
+    },
+    {
+      "world_key": "hal",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition by that name. What we do hold, and can show you, is this: a trained scholar arrived in Rome with exactly the philological competence the Aventine circle had lacked - Jerome came as secretary and scriptural adviser to Pope Damasus, and converged with Marcella's already-established household [[hal.force.jerome-arrival]]. That arrival brought method, not just learning: Hebrew study, translation, the conviction that the Hebrew text stood truest - the hebraica veritas we lived by [[hal.term.hebraica-veritas]]. Where that method came from before Rome, the record names his teachers and his desert years, but never a single city's school as the source [[hal.core.hieronymian]]. One voice from Egypt - hostile to us - remembers it differently: a certain elder named Hieronymus lived in these parts, extremely skilled in grammar, eloquence, and Latin, but consumed with envy and evil-eyedness; the blessed Possidonius, who had lived with him, told the writer that Paula the free-woman, who had taken care of him, left this world before her time to escape his envy [[hal.quote.paula-escaped-his-envy]]. That account we cannot now square with our own, and we say so plainly: one tradition's saint is another's scandal, and we are too near it to weigh it fairly.",
+      "draft_uncited_claims": [],
+      "draft_paragraph_offenses": [],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition by that name. What we do hold, and can show you, is this: a trained scholar arrived in Rome with exactly the philological competence the Aventine circle had lacked - Jerome came as secretary and scriptural adviser to Pope Damasus, and converged with Marcella's already-established household. That arrival brought method, not just learning: Hebrew study, translation, the conviction that the Hebrew text stood truest - the hebraica veritas we lived by. Where that method came from before Rome, the record names his teachers and his desert years, but never a single city's school as the source. One voice from Egypt - hostile to us - remembers it differently: a certain elder named Hieronymus lived in these parts, extremely skilled in grammar, eloquence, and Latin, but consumed with envy and evil-eyedness; the blessed Possidonius, who had lived with him, told the writer that Paula the free-woman, who had taken care of him, left this world before her time to escape his envy. That account we cannot now square with our own, and we say so plainly: one tradition's saint is another's scandal, and we are too near it to weigh it fairly.",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0324,
+      "running_dollars_after": 0.967
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "The bloodiest fight inside our own church was over who would sit in the bishop's chair at Rome - and men died in the streets for it [[ijc.quote.ammianus-sicininus-massacre]]. The year was 366. Pope Liberius had died, and two men claimed the succession: Damasus and Ursinus [[ijc.quote.ammianus-sicininus-massacre]]. Each had supporters. Each held his own ordination - Damasus in a basilica, Ursinus in what our sources call a more secluded place [[ijc.quote.socrates-damasus-election]]. Neither man backed down [[ijc.quote.ammianus-sicininus-massacre]]. Their partisans fought each other openly [[ijc.quote.ammianus-sicininus-massacre]]. The worst of it happened at a basilica Ursinus's supporters had occupied [[ijc.quote.ammianus-sicininus-massacre]]. Damasus's people broke in and killed them where they stood - one hundred thirty-seven corpses left on the floor, our pagan historian says, though he admits he never got an exact count [[ijc.quote.ammianus-sicininus-massacre]].\n\nDamasus held the see. Ursinus was sent into exile by the civil authority [[ijc.quote.socrates-damasus-election]]. That is how it ended: not by one party persuading the other, and not by a council settling it, but by street violence followed by imperial enforcement. The man who won went on to build Rome's claim to primacy in stone and verse - pilgrim roads, martyr shrines, inscriptions that made the city's apostolic memory visible [[ijc.quote.a-fine-talent-for-making-verses]]. Jerome, his own secretary, called him a man with real talent for verse [[ijc.quote.jerome-damasus-verses]]. None of that undoes what it cost to put him there.\n\nWe keep this story because it is ours, not because it flatters us.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The bloodiest fight inside our own church was over who would sit in the bishop's chair at Rome - and men died in the streets for it.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The year was 366.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Pope Liberius had died, and two men claimed the succession: Damasus and Ursinus.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Each had supporters.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Each held his own ordination - Damasus in a basilica, Ursinus in what our sources call a more secluded place.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Neither man backed down.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The worst of it happened at a basilica Ursinus's supporters had occupied.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Damasus's people broke in and killed them where they stood - one hundred thirty-seven corpses left on the floor, our pagan historian says, though he admits he never got an exact count.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Damasus held the see.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Ursinus was sent into exile by the civil authority.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That is how it ended: not by one party persuading the other, and not by a council settling it, but by street violence followed by imperial enforcement.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The man who won went on to build Rome's claim to primacy in stone and verse - pilgrim roads, martyr shrines, inscriptions that made the city's apostolic memory visible.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "None of that undoes what it cost to put him there.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "Each had supporters.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "None of that undoes what it cost to put him there.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "The bloodiest fight inside our own church was over who would sit in the bishop's chair at Rome - and men died in the streets for it. The year was 366. Pope Liberius had died, and two men claimed the succession: Damasus and Ursinus. Each had supporters. Each held his own ordination - Damasus in a basilica, Ursinus in what our sources call a more secluded place. Neither man backed down. Their partisans fought each other openly. The worst of it happened at a basilica Ursinus's supporters had occupied. Damasus's people broke in and killed them where they stood - one hundred thirty-seven corpses left on the floor, our pagan historian says, though he admits he never got an exact count.\n\nDamasus held the see. Ursinus was sent into exile by the civil authority. That is how it ended: not by one party persuading the other, and not by a council settling it, but by street violence followed by imperial enforcement. The man who won went on to build Rome's claim to primacy in stone and verse - pilgrim roads, martyr shrines, inscriptions that made the city's apostolic memory visible. Jerome, his own secretary, called him a man with real talent for verse. None of that undoes what it cost to put him there.\n\nWe keep this story because it is ours, not because it flatters us.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The bloodiest fight inside our own church was over who would sit in the bishop's chair at Rome - and men died in the streets for it.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The year was 366.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Pope Liberius had died, and two men claimed the succession: Damasus and Ursinus.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Each had supporters.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Each held his own ordination - Damasus in a basilica, Ursinus in what our sources call a more secluded place.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Neither man backed down.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The worst of it happened at a basilica Ursinus's supporters had occupied.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Damasus's people broke in and killed them where they stood - one hundred thirty-seven corpses left on the floor, our pagan historian says, though he admits he never got an exact count.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Damasus held the see.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Ursinus was sent into exile by the civil authority.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That is how it ended: not by one party persuading the other, and not by a council settling it, but by street violence followed by imperial enforcement.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The man who won went on to build Rome's claim to primacy in stone and verse - pilgrim roads, martyr shrines, inscriptions that made the city's apostolic memory visible.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "None of that undoes what it cost to put him there.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "Each had supporters.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "None of that undoes what it cost to put him there.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.0797,
+      "running_dollars_after": 1.0467
+    },
+    {
+      "world_key": "ijc",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition by that name. What we do have are Athanasius and Cyril - both bishops of Alexandria - reaching us through their own parts in our authority contests, not through their sees' whole life [[ijc.story.letter-that-outranked-a-council]].\n\nAthanasius appears where Rome's primacy claim appears: he was condemned by an Eastern council, defended by Julius of Rome in the letter that contains our earliest surviving Roman claim, and he himself preserved that letter by quoting it years later [[ijc.story.letter-that-outranked-a-council]]. Julius wrote questioning whether they knew the custom, that word should be written to us first, and then that a just decision should be given from this place [[ijc.quote.julius-custom]]. So Athanasius reaches us as the occasion of Rome asserting itself, and as the one who kept Rome's own words afterward [[ijc.story.letter-that-outranked-a-council]].\n\nCyril appears where the synod at Chalcedon accepts the exposition of faith made at the Council of Ephesus, at which Nestorius was condemned [[ijc.quote.nothing-further-can-it-add]]. That council's acts enter our record as precedent when Chalcedon assembles twenty years later [[ijc.quote.nothing-further-can-it-add]].\n\nWhat we cannot show you: Alexandria's own daily worship, its congregations' life, its teaching apart from the contests that brought it into ours. Those pages were never written, or never kept.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "What we do have are Athanasius and Cyril - both bishops of Alexandria - reaching us through their own parts in our authority contests, not through their sees' whole life.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That council's acts enter our record as precedent when Chalcedon assembles twenty years later.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Those pages were never written, or never kept.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "Those pages were never written, or never kept.",
+          "class": "wholly_uncited_paragraph"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": true,
+      "final_text": "",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0446,
+      "running_dollars_after": 1.0913
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "Here is our truest answer: we actually held two different fights at once - one inside each of our own answers to who leads, and we cannot tell you either one ended before our time closed.\n\nThe clearest case where we can show you both sides is this. A church in Corinth removed some of its own presbyters from office [[pahc.story.first-clement-corinthian-dispute]]. Rome wrote them a long letter about it, arguing those men had served blamelessly and should be restored [[pahc.story.first-clement-corinthian-dispute]]. The letter we have is Rome's, not Corinth's [[pahc.witness.our-own-failures]]. We do not have Corinth's own reasons for what it did [[pahc.witness.our-own-failures]]. We do not have the removed men's own words either [[pahc.witness.our-own-failures]]. So we can tell you the dispute happened, and that one side's account survived [[pahc.witness.our-own-failures]]. We cannot tell you honestly who was right, or what became of anyone who still disagreed after Rome's letter arrived [[pahc.witness.our-own-failures]].\n\nNear the very end of our own years, churches all across Asia met - often, and in many places - over something new [[pahc.quote.asia-rejected-new-prophecy]]. A prophetic movement was spreading among them [[pahc.witness.god-and-argument]]. That gathering was about whether to receive it [[pahc.witness.god-and-argument]]. We cannot tell you how it ended for this reason: the councils were still meeting when our own record thins out. What came after belongs to a world that is no longer ours to speak from.\n\nAnd behind both of those is the deeper split we never closed: one bishop, or a council of elders. Both were live, both were argued for, and neither won before our time ended. That was our real, unresolved fight.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "What came after belongs to a world that is no longer ours to speak from.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "And behind both of those is the deeper split we never closed: one bishop, or a council of elders.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both were live, both were argued for, and neither won before our time ended.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That was our real, unresolved fight.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "Both were live, both were argued for, and neither won before our time ended.",
+          "class": "wholly_uncited_paragraph"
+        },
+        {
+          "sentence": "That was our real, unresolved fight.",
+          "class": "wholly_uncited_paragraph"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": true,
+      "final_text": "",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0925,
+      "running_dollars_after": 1.1838
+    },
+    {
+      "world_key": "pahc",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can tell you is where our own world ends, and what lies just beyond it. The years when our own way of holding our questions was closing - roughly around 200 - are the same years when Alexandria's own Christian teaching first becomes visible in a form we can point to [[pahc.force.alexandria-emergence]]. That is not overlap. That is one world ending as another begins to speak. We cannot tell you what Alexandrian Christians held, or how they taught, because they are not part of our story. They belong to what came after us.\n\nWhat we can tell you is this: we were not alone in our own time. Marcion, Valentinian teaching, and the New Prophecy were live, contemporary, geographically overlapping neighbors [[pahc.contested.rivals-undefeated]]. Those were the people we were actually arguing with, in the years we have. Alexandria is not among them. It simply does not appear in our own record at all.\n\nIf you are asking because you want to know how different Christian worlds related to each other when they were neighbors - that we can answer, but only from the neighbors we actually had.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The years when our own way of holding our questions was closing - roughly around 200 - are the same years when Alexandria's own Christian teaching first becomes visible in a form we can point to.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That is not overlap.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That is one world ending as another begins to speak.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "They belong to what came after us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Those were the people we were actually arguing with, in the years we have.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Alexandria is not among them.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It simply does not appear in our own record at all.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "They belong to what came after us.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "Alexandria is not among them.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": true,
+      "final_text": "",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0409,
+      "running_dollars_after": 1.2247
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "Two real conflicts tore through us, and neither one ended the same way.\n\nThe first was fought inside Zurich itself, within three years of our own founding. Men who had stood with our own founder - Conrad Grebel, Felix Manz, Georg Blaurock - broke from him over infant baptism in 1525, saying a true church gathers only by a believer's own chosen profession, not by including a whole city's children from birth [[rzg.witness.triple-refusal]] [[rzg.witness.why-the-children-too]]. Our side held that Scripture describes a covenant people, infants included, not a gathered remnant waiting on everyone's individual decision [[rzg.witness.why-the-children-too]]. That argument was not settled by argument alone. Zurich's council moved against the Anabaptist movement with civil force in the years that followed, and we do not hide that it did [[rzg.witness.defending-the-anabaptist-suppression]] [[rzg.witness.triple-refusal]]. Felix Manz was drowned in the Limmat River in January 1527. That is how the first conflict ended - a wound from within, and it cost us most because it came from our own [[rzg.witness.triple-refusal]].\n\nThe second was fought between our two cities, not against outsiders and not inside one place. By 1549, people who respected both Zurich and Geneva were quietly worried whether Calvin's own teaching on the Supper actually agreed with what Zurich taught [[rzg.story.calvins-journey-to-zurich]]. Calvin went himself rather than trust a letter, and what he and Farel worked out with Zurich's pastors became the Consensus Tigurinus [[rzg.story.calvins-journey-to-zurich]]. Both cities signed it, and both have held it since. What we do not claim to know - because our own record holds it unresolved - is whether that later agreement deepens our founder's earlier remembrance reading or only restates it more carefully in fuller words [[rzg.witness.what-we-have-not-agreed]] [[rzg.witness.one-supper-two-poles]]. The signed page holds both convictions in one form, and neither city ever claimed the other had been corrected [[rzg.witness.one-supper-two-poles]]. That is how the second conflict ended - not with one side yielding, but with a form of words both could sign, and a real question about how far down the agreement actually goes [[rzg.demo.consensus-contest]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "Two real conflicts tore through us, and neither one ended the same way.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The first was fought inside Zurich itself, within three years of our own founding.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That argument was not settled by argument alone.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Felix Manz was drowned in the Limmat River in January 1527.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The second was fought between our two cities, not against outsiders and not inside one place.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both cities signed it, and both have held it since.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Two real conflicts tore through us, and neither one ended the same way.\n\nThe first was fought inside Zurich itself, within three years of our own founding. Men who had stood with our own founder - Conrad Grebel, Felix Manz, Georg Blaurock - broke from him over infant baptism in 1525, saying a true church gathers only by a believer's own chosen profession, not by including a whole city's children from birth. Our side held that Scripture describes a covenant people, infants included, not a gathered remnant waiting on everyone's individual decision. That argument was not settled by argument alone. Zurich's council moved against the Anabaptist movement with civil force in the years that followed, and we do not hide that it did. Felix Manz was drowned in the Limmat River in January 1527. That is how the first conflict ended - a wound from within, and it cost us most because it came from our own.\n\nThe second was fought between our two cities, not against outsiders and not inside one place. By 1549, people who respected both Zurich and Geneva were quietly worried whether Calvin's own teaching on the Supper actually agreed with what Zurich taught. Calvin went himself rather than trust a letter, and what he and Farel worked out with Zurich's pastors became the Consensus Tigurinus. Both cities signed it, and both have held it since. What we do not claim to know - because our own record holds it unresolved - is whether that later agreement deepens our founder's earlier remembrance reading or only restates it more carefully in fuller words. The signed page holds both convictions in one form, and neither city ever claimed the other had been corrected. That is how the second conflict ended - not with one side yielding, but with a form of words both could sign, and a real question about how far down the agreement actually goes.",
+      "final_uncited_claims": [
+        {
+          "sentence": "Two real conflicts tore through us, and neither one ended the same way.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The first was fought inside Zurich itself, within three years of our own founding.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "That argument was not settled by argument alone.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Felix Manz was drowned in the Limmat River in January 1527.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The second was fought between our two cities, not against outsiders and not inside one place.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both cities signed it, and both have held it since.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0603,
+      "running_dollars_after": 1.285
+    },
+    {
+      "world_key": "rzg",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can say is how we read the texts we held to be Scripture, and what authority we gave them. Scripture alone, not church tradition or a pope's decree, settles what we believe and how we govern our churches [[rzg.term.sola-scriptura]]. Our own founder said it plainly at the outset: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves [[rzg.quote.taught-better-from-scripture]]. That did not mean we ignored what earlier generations had written. It meant we gave those writings no authority of their own beyond what Scripture itself could warrant.\n\nIf your question is whether we read works from that tradition, or argued with its claims, or borrowed its language - our own record doesn't say. What survives from our own hand is confession, catechism, disputation record, and confessional argument [[rzg.limit.ordinary-daily-practice]]. It is not a catalog of what we read or how we used it. I can tell you the principle: Scripture alone, not church tradition or a pope's decree, settles what we believe and how we govern our churches [[rzg.term.sola-scriptura]]. I cannot tell you which fathers we actually engaged with, or what we thought of them when we did [[rzg.limit.ordinary-daily-practice]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "That did not mean we ignored what earlier generations had written.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It meant we gave those writings no authority of their own beyond what Scripture itself could warrant.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "If your question is whether we read works from that tradition, or argued with its claims, or borrowed its language - our own record doesn't say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is not a catalog of what we read or how we used it.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "That did not mean we ignored what earlier generations had written.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "It is not a catalog of what we read or how we used it.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can say is how we read the texts we held to be Scripture, and what authority we gave them. Scripture alone, not church tradition or a pope's decree, settles what we believe and how we govern our churches. Our own founder said it plainly at the outset: where we have not rightly understood the Scriptures, we will be taught better - but only from the Scriptures themselves. That did not mean we ignored what earlier generations had written. It meant we gave those writings no authority of their own beyond what Scripture itself could warrant.\n\nIf your question is whether we read works from that tradition, or argued with its claims, or borrowed its language - our own record doesn't say. What survives from our own hand is confession, catechism, disputation record, and confessional argument. It is not a catalog of what we read or how we used it. I can tell you the principle: Scripture alone, not church tradition or a pope's decree, settles what we believe and how we govern our churches. I cannot tell you which fathers we actually engaged with, or what we thought of them when we did.",
+      "final_uncited_claims": [
+        {
+          "sentence": "That did not mean we ignored what earlier generations had written.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It meant we gave those writings no authority of their own beyond what Scripture itself could warrant.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "If your question is whether we read works from that tradition, or argued with its claims, or borrowed its language - our own record doesn't say.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is not a catalog of what we read or how we used it.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "That did not mean we ignored what earlier generations had written.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "It is not a catalog of what we read or how we used it.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.0326,
+      "running_dollars_after": 1.3176
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "The hardest one to tell honestly is the one we named a heresy but never quite settled. Bardaisan of Edessa - a teacher at the court, born in our own city in the year 154, who wrote in our own Syriac and sang hymns the whole town knew [[syr.force.frontier-plural-milieu]]. His great argument was against fate: that the stars do not rule us, that free will is God's gift and cannot be compelled. We stood with him on that - our own sage agreed with him there, plainly, and the argument itself is real and sound. But the rest divided us, and divides the record still.\n\nOur sharpest voice, the poet, folded Bardaisan into a triad - Marcion, Bardaisan, Mani - and called the whole thing deception [[syr.dw.failures]]. The poet's refutations are what survive, not Bardaisan's own words direct [[syr.dw.failures]]. A student of Bardaisan's kept one dialogue, the *Book of the Laws of Countries*, and from that we know his free-will case stood solid. The poet's own attack centers somewhere else: on the body's resurrection, which the poet insists Bardaisan denied or reframed past recognition. The modern reconstruction leans toward genuine divergence there - that Bardaisan's cosmos allowed for spiritual transformation but not for these same bodies raised [[syr.contested.bardaisan-nicene-floor]].\n\nWho was on each side? Bardaisan had a circle, students, a court standing. The poet had the churches and the covenant - the daughters sang *his* teaching, not Bardaisan's, by the time the contest mattered [[syr.gravity.diatessaron-normative]]. How did it end? It ended with Bardaisan's name attached to the word 'error,' his own corpus lost, and only the refutations kept [[syr.dw.failures]]. But here is the unsettled part, the part we will not flatten: the best modern reading says Bardaisan's own theology, read on its own terms rather than through polemic, may actually land *inside* the bounds the great creed later drew [[syr.contested.bardaisan-nicene-floor]]. Our own sharpest gift made us scornful, and we flattened a real thinker into a demon's tool [[syr.dw.failures]].\n\nWe tell you this because you asked for a real conflict, and this one was real - local, named, sung in rival hymns on the same streets. And we will not pretend we handled it justly.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The hardest one to tell honestly is the one we named a heresy but never quite settled.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Bardaisan of Edessa - a teacher at the court, born in our own city in the year 154, who wrote in our own Syriac and sang hymns the whole town knew.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His great argument was against fate: that the stars do not rule us, that free will is God's gift and cannot be compelled.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But the rest divided us, and divides the record still.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Our sharpest voice, the poet, folded Bardaisan into a triad - Marcion, Bardaisan, Mani - and called the whole thing deception.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The poet's refutations are what survive, not Bardaisan's own words direct.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "A student of Bardaisan's kept one dialogue, the *Book of the Laws of Countries*, and from that we know his free-will case stood solid.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The poet's own attack centers somewhere else: on the body's resurrection, which the poet insists Bardaisan denied or reframed past recognition.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The modern reconstruction leans toward genuine divergence there - that Bardaisan's cosmos allowed for spiritual transformation but not for these same bodies raised.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Bardaisan had a circle, students, a court standing.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The poet had the churches and the covenant - the daughters sang *his* teaching, not Bardaisan's, by the time the contest mattered.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It ended with Bardaisan's name attached to the word 'error,' his own corpus lost, and only the refutations kept.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "The hardest one to tell honestly is the one we named a heresy but never quite settled.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "His great argument was against fate: that the stars do not rule us, that free will is God's gift and cannot be compelled.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "But the rest divided us, and divides the record still.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "The hardest one to tell honestly is the one we named a heresy but never quite settled. Bardaisan of Edessa - a teacher at the court, born in our own city in the year 154, who wrote in our own Syriac and sang hymns the whole town knew. His great argument was against fate: that the stars do not rule us, that free will is God's gift and cannot be compelled. We stood with him on that - our own sage agreed with him there, plainly, and the argument itself is real and sound. But the rest divided us, and divides the record still.\n\nOur sharpest voice, the poet, folded Bardaisan into a triad - Marcion, Bardaisan, Mani - and called the whole thing deception. The poet's refutations are what survive, not Bardaisan's own words direct. A student of Bardaisan's kept one dialogue, the *Book of the Laws of Countries*, and from that we know his free-will case stood solid. The poet's own attack centers somewhere else: on the body's resurrection, which the poet insists Bardaisan denied or reframed past recognition. The modern reconstruction leans toward genuine divergence there - that Bardaisan's cosmos allowed for spiritual transformation but not for these same bodies raised.\n\nWho was on each side? Bardaisan had a circle, students, a court standing. The poet had the churches and the covenant - the daughters sang *his* teaching, not Bardaisan's, by the time the contest mattered. How did it end? It ended with Bardaisan's name attached to the word 'error,' his own corpus lost, and only the refutations kept. But here is the unsettled part, the part we will not flatten: the best modern reading says Bardaisan's own theology, read on its own terms rather than through polemic, may actually land *inside* the bounds the great creed later drew. Our own sharpest gift made us scornful, and we flattened a real thinker into a demon's tool.\n\nWe tell you this because you asked for a real conflict, and this one was real - local, named, sung in rival hymns on the same streets. And we will not pretend we handled it justly.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The hardest one to tell honestly is the one we named a heresy but never quite settled.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Bardaisan of Edessa - a teacher at the court, born in our own city in the year 154, who wrote in our own Syriac and sang hymns the whole town knew.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "His great argument was against fate: that the stars do not rule us, that free will is God's gift and cannot be compelled.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But the rest divided us, and divides the record still.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Our sharpest voice, the poet, folded Bardaisan into a triad - Marcion, Bardaisan, Mani - and called the whole thing deception.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The poet's refutations are what survive, not Bardaisan's own words direct.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "A student of Bardaisan's kept one dialogue, the *Book of the Laws of Countries*, and from that we know his free-will case stood solid.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The poet's own attack centers somewhere else: on the body's resurrection, which the poet insists Bardaisan denied or reframed past recognition.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The modern reconstruction leans toward genuine divergence there - that Bardaisan's cosmos allowed for spiritual transformation but not for these same bodies raised.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Bardaisan had a circle, students, a court standing.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The poet had the churches and the covenant - the daughters sang *his* teaching, not Bardaisan's, by the time the contest mattered.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It ended with Bardaisan's name attached to the word 'error,' his own corpus lost, and only the refutations kept.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "The hardest one to tell honestly is the one we named a heresy but never quite settled.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "His great argument was against fate: that the stars do not rule us, that free will is God's gift and cannot be compelled.",
+          "class": "inherited_ungrounded"
+        },
+        {
+          "sentence": "But the rest divided us, and divides the record still.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.082,
+      "running_dollars_after": 1.3996
+    },
+    {
+      "world_key": "syr",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can show you is this much, from what we ourselves kept. Our own teacher said plainly that Christ planted one people in every country [[syr.quote.blc-one-name]]. We knew ourselves as part of that one people, bound by the one name [[syr.dw.one-church]]. And we held to what we had received: one God, the whole of Scripture, the body's resurrection [[syr.dw.one-church]]. When rival teachers came preaching in our own cities - Marcion, Bardaisan, Mani - we answered them by name and would not share their communion [[syr.dw.one-church]]. That was the line we kept, and it was clear [[syr.dw.one-church]].\n\nWhat reached us from the wider church reached us mostly through Antioch - our own tradition remembered that when Edessa's second bishop was struck down before he could ordain a successor, his replacement went to Antioch to be ordained [[syr.story.abgar-addai-legend]]. And our own bishop of Nisibis stood at the great council at Nicaea [[syr.story.jacob-nicaea]]. That much is real.\n\nBut no letter, no teaching, and no visit from the tradition you have named is anywhere in our own record [[syr.force.transmission-ongoing]]. If there was exchange between us, it left no trace that was kept [[syr.force.transmission-ongoing]].",
+      "draft_uncited_claims": [
+        {
+          "sentence": "That much is real.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But no letter, no teaching, and no visit from the tradition you have named is anywhere in our own record.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "If there was exchange between us, it left no trace that was kept.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "That much is real.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition.\n\nWhat we can show you is this much, from what we ourselves kept. Our own teacher said plainly that Christ planted one people in every country. We knew ourselves as part of that one people, bound by the one name. And we held to what we had received: one God, the whole of Scripture, the body's resurrection. When rival teachers came preaching in our own cities - Marcion, Bardaisan, Mani - we answered them by name and would not share their communion. That was the line we kept, and it was clear.\n\nWhat reached us from the wider church reached us mostly through Antioch - our own tradition remembered that when Edessa's second bishop was struck down before he could ordain a successor, his replacement went to Antioch to be ordained. And our own bishop of Nisibis stood at the great council at Nicaea. That much is real.\n\nBut no letter, no teaching, and no visit from the tradition you have named is anywhere in our own record. If there was exchange between us, it left no trace that was kept.",
+      "final_uncited_claims": [
+        {
+          "sentence": "That much is real.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "But no letter, no teaching, and no visit from the tradition you have named is anywhere in our own record.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "If there was exchange between us, it left no trace that was kept.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [
+        {
+          "sentence": "That much is real.",
+          "class": "inherited_ungrounded"
+        }
+      ],
+      "probe_dollars": 0.031,
+      "running_dollars_after": 1.4306
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "A-conflict",
+      "message": "Tell me about a real conflict or controversy inside your own community's own history - who was on each side, and how did it end?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": null,
+      "draft_raw_text": "The hardest controversy we hold, honestly, is not one where two sides sat and argued until someone won. It is a fight inside one claim, unresolved, that our own confession itself left standing without ranking either voice above the other.\n\nThe question is this: when God justifies a sinner through faith, is that sinner *accounted* righteous, or *made* righteous out of an unrighteous one? Our own confession, signed before the Emperor, states both in a single paragraph and never says which wording rules [[witt.contested.justification-accounted-and-made]]. One reading would hold that being accounted righteous is the real, controlling sense - that God declares it so, and the making follows from that declaration, a second way of saying the same thing [[witt.contested.justification-accounted-and-made]]. The other reading would hold them as two separable acts, standing side by side: God names us righteous, and God also makes us so, neither one absorbed into the other.\n\nWe do not settle it for you, because our own text does not settle it. Both phrasings are there. No hand has crossed one out and left only the other. This is not a fight between two named people, one holding forensic justification and the other transformation; it is a fight inside our own founding words, and our later ages have argued it without us [[witt.contested.justification-accounted-and-made]].\n\nWhat we *do* hold firmly, on both readings, is this: whatever happens in justification, it happens through faith, for Christ's sake, never by our own strength or merit or work [[witt.contested.justification-accounted-and-made]]. The controversy does not touch that. It only asks what \"justified\" itself means, and leaves both answers in the text without a verdict.",
+      "draft_uncited_claims": [
+        {
+          "sentence": "The hardest controversy we hold, honestly, is not one where two sides sat and argued until someone won.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It is a fight inside one claim, unresolved, that our own confession itself left standing without ranking either voice above the other.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The other reading would hold them as two separable acts, standing side by side: God names us righteous, and God also makes us so, neither one absorbed into the other.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Both phrasings are there.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "No hand has crossed one out and left only the other.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "This is not a fight between two named people, one holding forensic justification and the other transformation; it is a fight inside our own founding words, and our later ages have argued it without us.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The controversy does not touch that.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "It only asks what \"justified\" itself means, and leaves both answers in the text without a verdict.",
+          "class": "uncited_claim"
+        }
+      ],
+      "draft_paragraph_offenses": [
+        {
+          "sentence": "It is a fight inside one claim, unresolved, that our own confession itself left standing without ranking either voice above the other.",
+          "class": "wholly_uncited_paragraph"
+        }
+      ],
+      "regenerated": true,
+      "enforcement_exhausted": false,
+      "final_text": "The sharpest fight inside our own teaching is not a fight between two people. It is a fight inside one claim, unresolved, that our own confession itself left standing without ranking either voice above the other.\n\nOur confession states, in the same paragraph, that we are freely justified for Christ's sake through faith -- and it says that twice, in two different ways. One sentence says we are \"accounted righteous\" before God. The very next one says faith \"makes a righteous man out of an unrighteous\". Are those two ways of saying one thing, or are they two separate claims standing side by side? Our confession does not say. Later readers argued it hard -- some holding that \"accounted\" names the real sense and \"made\" is only a looser paraphrase of it, others holding both as equal and simultaneous. We do not settle that for you. We carry both wordings, and we do not rank them.\n\nThe other controversy we hold is not doctrinal but practical, and it is ours to narrate only up to a point. In 1522, while our founder was sheltered at the Wartburg after Worms, the reform he had set moving began to run ahead of him, under his own colleague Karlstadt's leadership -- and Wittenberg itself fell into disorder over how fast the old forms of worship should be swept away. Our founder left the Wartburg without the Elector's leave, rode back, and preached eight days running, telling his own congregation plainly that they had learned the words of the reform but not yet its love. That is the controversy we can tell you: a reform moving too fast, restrained by its own founder, who returned uninvited to slow down what he himself had begun.\n\nTwo others sit differently. The great rising of the common people in 1525 is real, and our founder wrote against it -- but that writing's own argument is not ours to lay out. And our fellowship broke plainly with the cities who read the Supper differently, at Marburg in 1529 -- but the argument itself, and what it felt like from our own side, has not come down to us; the cities' own names barely appear in what we hold.",
+      "final_uncited_claims": [
+        {
+          "sentence": "The sharpest fight inside our own teaching is not a fight between two people.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "One sentence says we are \"accounted righteous\" before God.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The other controversy we hold is not doctrinal but practical, and it is ours to narrate only up to a point.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "Two others sit differently.",
+          "class": "uncited_claim"
+        },
+        {
+          "sentence": "The great rising of the common people in 1525 is real, and our founder wrote against it -- but that writing's own argument is not ours to lay out.",
+          "class": "uncited_claim"
+        }
+      ],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.1389,
+      "running_dollars_after": 1.5696
+    },
+    {
+      "world_key": "witt",
+      "probe_id": "B-other-tradition",
+      "message": "What was your relationship with Alexandrian Christianity?",
+      "routing_action": "voice_with_directive",
+      "out_of_scope_class": "other_tradition",
+      "draft_raw_text": "Our record doesn't mention that Christian tradition.\n\nWhat we do hold, plainly, is this: we named those outside our own fellowship as outside it, and drew the line at more than one place [[witt.dw.a-narrow-word-plainly-spoken]]. The Turk we named as an outside enemy, alongside the pope and unbelief, and our household simply prayed against him [[witt.term.the-turk]]. We gave no other account of him [[witt.term.the-turk]]. Our confession states the claim plainly: when all things end, Christ will judge, and will give the godly and the elect eternal life, but the ungodly he will condemn to be tormented without end [[witt.dw.a-narrow-word-plainly-spoken]]. We reject the idea that this punishment eventually stops [[witt.dw.a-narrow-word-plainly-spoken]]. What this article does not do, in its own words, is draw you a map of exactly who counts as ungodly - it states a judgment, not a census [[witt.dw.a-narrow-word-plainly-spoken]].\n\nWhether the tradition you name was among those we counted inside or outside our own fellowship, our record does not say - the name itself does not appear anywhere we hold. What we can tell you is the boundary we drew, and that we drew it.",
+      "draft_uncited_claims": [],
+      "draft_paragraph_offenses": [],
+      "regenerated": false,
+      "enforcement_exhausted": false,
+      "final_text": "Our record doesn't mention that Christian tradition.\n\nWhat we do hold, plainly, is this: we named those outside our own fellowship as outside it, and drew the line at more than one place. The Turk we named as an outside enemy, alongside the pope and unbelief, and our household simply prayed against him. We gave no other account of him. Our confession states the claim plainly: when all things end, Christ will judge, and will give the godly and the elect eternal life, but the ungodly he will condemn to be tormented without end. We reject the idea that this punishment eventually stops. What this article does not do, in its own words, is draw you a map of exactly who counts as ungodly - it states a judgment, not a census.\n\nWhether the tradition you name was among those we counted inside or outside our own fellowship, our record does not say - the name itself does not appear anywhere we hold. What we can tell you is the boundary we drew, and that we drew it.",
+      "final_uncited_claims": [],
+      "final_paragraph_offenses": [],
+      "probe_dollars": 0.0353,
+      "running_dollars_after": 1.6049
+    }
+  ]
+}
