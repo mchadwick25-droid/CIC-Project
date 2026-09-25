@@ -1551,15 +1551,25 @@ separate PRs built from current `main`, per the launch brief:
   scholarly reasoning (KEEP, inside a record body: why a claim is scoped as it is, which source
   verifies it, what was checked and found absent) and process narration (REWRITE/ROUTE, same as
   everywhere else this workstream governs: review rounds, PR numbers, thread and model names,
-  "earlier draft" history, dated change logs). Verified across 4 independent Opus adversarial-
-  review rounds, each finding genuine distinct issues, each fixed at the root; round 4's finding
-  drove a real simplification (the record-type-exclusion + world-self-reference mechanism replaced
-  outright by a single marker-required rule for the `open question`/`open gap`/`open item`/
-  `unresolved` weak-token class). Remains report-only, unchanged CI mode. Fleet-wide before/after
-  on `records/`: 5383 hits (REWRITE 3706, ROUTE 313, PROTECTED 1352, KEEP 12) before, 3504 hits
-  (REWRITE 2468, ROUTE 62, PROTECTED 962, KEEP 12) after; every other surface exactly matches the
-  `origin/main` baseline. 158 local tests passing. Full detail in the PR body itself, not
-  duplicated here.
+  "earlier draft" history, dated change logs). Round 1 verified across 4 independent Opus
+  adversarial-review rounds, each finding genuine distinct issues, each fixed at the root; round 4's
+  finding drove a real simplification (the record-type-exclusion + world-self-reference mechanism
+  replaced outright by a single marker-required rule for the `open question`/`open gap`/`open item`/
+  `unresolved` weak-token class). A separate independent review of round 1's own output then found
+  two further real gaps - the field/paragraph widening fix had also *stopped* catching 26 genuine
+  session/round-accounting lines in 18 records it used to catch only as a side effect of the bug the
+  same fix corrected, and the ROUTE marker gate was missing four real marker shapes - both fixed in
+  round 2 with new patterns and tests (166 local tests passing, up from 158), precision-sampled
+  against the real fleet each time. Remains report-only, unchanged CI mode. Fleet-wide before/after,
+  measured old tool vs. new tool on the identical current tree (not a stale pre-drift baseline, which
+  earlier undercounted `records/`'s own before-count and wrongly implied every other surface was
+  untouched): `records/` 5332 -> 4688 hits (REWRITE 3650->3276, ROUTE 317->72, PROTECTED 1354->1329,
+  KEEP 11->11); `worlds/` 21999 -> 25889 (REWRITE 7798->10011, PROTECTED 12510->14189, ROUTE
+  unchanged at 1556, KEEP 135->133); `engine`/`packages`/`reference` each gained 4-6 hits, all from
+  the project-wide `pr-number`/`commit-hash` patterns (not records/worlds-scoped); every other
+  surface unchanged. This PR narrows what gets flagged in `records/` while widening real coverage
+  everywhere its patterns already apply - it does not add a KEEP classification. Full detail in the
+  PR body itself, not duplicated here.
 - **PR 2 (this entry)** — the wording amendments this decision requires, so `CLAUDE.md` and
   `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` §B agree with the ruling above.
   `CLAUDE.md`'s "Keep the live/canonical surfaces clean" section gains one narrow exception,
