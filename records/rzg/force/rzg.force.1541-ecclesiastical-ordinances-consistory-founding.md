@@ -24,8 +24,8 @@ name: The 1541 Ecclesiastical Ordinances and the founding of the Consistory
 kind: initiating
 description: Calvin's 1541 recall to Geneva produced the Ecclesiastical Ordinances, creating a Consistory
   of pastors and lay elders with disciplinary censure authority, structurally distinct from a body answerable
-  to the civil council alone. Documented as general doctrine, Confidence A, directly in Calvin's own words;
-  Geneva's own specific 1541 institutional text remains unvendored, Confidence E. This is the specific
+  to the civil council alone. The general doctrine is well attested, directly in Calvin's own words;
+  Geneva's own specific 1541 institutional text remains unvendored. This is the specific
   institutional founding act behind G4 and the founding moment of T1's own Geneva pole - an independence
   claim built into the institution from its own origin, tested decades on by the Perrinist crisis rather
   than invented by it.
