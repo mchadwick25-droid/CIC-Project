@@ -71,10 +71,13 @@ works:
   confidence: assigned
   note: 'Wyclif''s own tracts and treatises, with selections/translations from his manuscripts
     and Latin works, ed./trans. Robert Vaughan (1845, for the earlier, distinct 1840s "Wycliffe
-    Society" - not the same body as the later Wyclif Society behind the Arnold/Matthew/ Buddensieg
-    editions also vendored this session). An additional PD lead this world''s own Source Readiness
-    Dossier §3 identified beyond the census''s own named sources. Vendored 2026-09-25 as part
-    of a pre-Doc_02 source-acquisition pass for lollardy.
+    Society" - not the same body as the later (1882-founded) Wyclif Society, which only the
+    Buddensieg edition also vendored this session actually belongs to; Arnold (Clarendon Press,
+    1869-71) and Matthew (EETS, 1880) predate the Wyclif Society''s founding and are not its
+    editions either, a correction to this note''s own earlier drafting caught on independent
+    review, 2026-09-25). An additional PD lead this world''s own Source Readiness Dossier
+    §3 identified beyond the census''s own named sources. Vendored 2026-09-25 as part of a
+    pre-Doc_02 source-acquisition pass for lollardy.
 
     '
   source_file: wyclif_tracts-and-treatises_vaughan1845.txt
