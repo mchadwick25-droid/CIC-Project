@@ -76,6 +76,8 @@ relations:
   target: gallic.story.the-cloak-at-amiens
 - type: associated-with
   target: gallic.figure.martin
+- type: associated-with
+  target: gallic.quote.martin-funeral-procession-ranks
 name: "The soldier of Christ [SUPPORTING]"
 classification: supporting
 description: >-

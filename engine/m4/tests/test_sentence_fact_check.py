@@ -142,11 +142,14 @@ def test_clean_turn_returns_no_flags():
     assert find_unsupported_named_claims(sentences, repository_records=_REPOSITORY) == []
 
 
-# Two known, accepted false-positive classes this module inherits from
-# missing_markers unchanged - pinned here the same way
+# No derivational bridge exists in missing_markers - tried once, removed
+# for cross-grounding real people (Julian/Julia and similar - see
+# engine.m4.named_claim_grounding's own module docstring), not
+# reintroduced here. Pinned the same way
 # test_named_claim_grounding.py's own
-# test_derivational_form_stays_an_accepted_known_limit pins the identical
-# root cause for its own (tag-scoped) check.
+# test_alexandria_alexandrian_stays_an_accepted_known_limit pins the
+# identical shared fact. Smyrna/Smyrnaeans is the same accepted, unfixed
+# status, a different word-formation pattern entirely.
 
 _DERIVATIONAL_REPOSITORY = {
     "cap.core.cappadocian": {
@@ -157,17 +160,86 @@ _DERIVATIONAL_REPOSITORY = {
 }
 
 
-def test_derivational_form_mismatch_is_a_known_limit():
-    # "Alexandria" (noun) is real ground here, but "Alexandrian"
-    # (adjective) is a different token content_words() does not equate
-    # to it - engine.m4.named_claim_grounding's own module docstring
-    # names this exact class of gap (Smyrna/Smyrnaeans) as an accepted
-    # limit; this module inherits it unchanged via the shared function.
+def test_derivational_form_alexandria_alexandrian_still_flags():
+    # "Alexandria" (noun) is real ground here; "Alexandrian" (adjective)
+    # is a different token this module does not equate to it - an
+    # accepted, unfixed false-positive class, not a defect this module
+    # is scoped to fix.
     sentence = "No Alexandrian bishop is named attending any synod our own people convened."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_DERIVATIONAL_REPOSITORY
     )
     assert flags and flags[0]["missing"] == ["alexandrian"]
+
+
+_WIDER_DERIVATIONAL_REPOSITORY = {
+    "pahc.core.pahc": {
+        "id": "pahc.core.pahc",
+        "record_type": "core",
+        "text": "Ignatius also wrote a letter addressed to the Smyrnaeans.",
+    },
+}
+
+
+def test_wider_derivational_form_stays_an_accepted_known_limit():
+    # "Smyrna" (the place) and "Smyrnaeans" (its people) are a different,
+    # wider derivational relationship the narrow "a"/"an" bridge does not
+    # cover - still an accepted, unfixed limit, not a regression.
+    sentence = "Ignatius also wrote a letter to Smyrna."
+    flags = find_unsupported_named_claims(
+        [{"sentence": sentence, "tags": []}], repository_records=_WIDER_DERIVATIONAL_REPOSITORY
+    )
+    assert flags and flags[0]["missing"] == ["smyrna"]
+
+
+_NUMBER_CROSS_FORM_REPOSITORY = {
+    "ijc.core.ijc": {
+        "id": "ijc.core.ijc",
+        "record_type": "core",
+        "text": "Ammianus counted one hundred thirty-seven dead in the square that day.",
+    },
+}
+
+
+def test_digit_does_not_ground_against_a_ground_that_only_spells_the_number():
+    # A value-composing cross-form check (137 and "one hundred
+    # thirty-seven" grounding each other as the same value) was tried
+    # and removed - a digit/word form mismatch is now a named, accepted
+    # false-positive class (see module docstring's own KNOWN LIMITS).
+    sentence = "Ammianus says 137 people died there that day."
+    flags = find_unsupported_named_claims(
+        [{"sentence": sentence, "tags": []}], repository_records=_NUMBER_CROSS_FORM_REPOSITORY
+    )
+    assert flags and flags[0]["missing"] == ["137"]
+
+
+_DIGIT_ONLY_REPOSITORY = {
+    "ijc.core.ijc": {
+        "id": "ijc.core.ijc",
+        "record_type": "core",
+        "text": "Ammianus counted 137 dead in the square that day.",
+    },
+}
+
+
+def test_spelled_number_does_not_ground_against_a_ground_that_only_uses_the_digit():
+    # The reverse direction of the same known limit.
+    sentence = "Ammianus says one hundred thirty-seven people died there that day."
+    flags = find_unsupported_named_claims(
+        [{"sentence": sentence, "tags": []}], repository_records=_DIGIT_ONLY_REPOSITORY
+    )
+    assert flags and flags[0]["missing"] == ["hundred", "seven", "thirty"]
+
+
+def test_unrelated_number_still_flags():
+    # Dropping cross-form matching does not make this module start
+    # grounding every number: a genuinely different, unsupported count
+    # still flags.
+    sentence = "Ammianus says 200 people died there that day."
+    flags = find_unsupported_named_claims(
+        [{"sentence": sentence, "tags": []}], repository_records=_NUMBER_CROSS_FORM_REPOSITORY
+    )
+    assert flags and flags[0]["missing"] == ["200"]
 
 
 _ABSENCE_PHRASING_REPOSITORY = {

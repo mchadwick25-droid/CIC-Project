@@ -16,6 +16,7 @@ export interface ConversationTurn {
   speaker: 'participant' | 'facilitator' | string; // world_key for a voice turn
   text: string;
   kind?: FacilitatorTurn['kind'];
+  modernTerms?: FacilitatorTurn['modern_terms'];
   citations?: VoiceTurn['citations'];
   figuresUsed?: VoiceTurn['figures_used'];
   glosses?: VoiceTurn['glosses'];
@@ -28,7 +29,7 @@ export interface ConversationTurn {
 // discriminated-union narrowing. `kind`/`citations` are each unique to one
 // branch, so checking for those instead narrows cleanly.
 export function toTurn(entry: TranscriptEntry): ConversationTurn {
-  if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind };
+  if ('kind' in entry) return { speaker: 'facilitator', text: entry.text, kind: entry.kind, modernTerms: entry.modern_terms };
   if ('citations' in entry) {
     return { speaker: entry.speaker, text: entry.text, citations: entry.citations, figuresUsed: entry.figures_used, glosses: entry.glosses, transparency: entry.transparency };
   }
@@ -110,7 +111,7 @@ export function useConversation() {
         const result = await sendMessage(sessionId, sessionCode, text, attempt.id);
         setState((prev) => {
           const appended: ConversationTurn[] = [];
-          if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind });
+          if (result.facilitator) appended.push({ speaker: 'facilitator', text: result.facilitator.text, kind: result.facilitator.kind, modernTerms: result.facilitator.modern_terms });
           if (result.voice) {
             appended.push({
               speaker: result.voice.speaker,

@@ -53,17 +53,54 @@ entirely, since engine.prose._WORD only matches letters - a locus like
 "Philadelphians 4" would otherwise never ground a "4" a sentence names),
 kept as a separate check from proper nouns because "does this exact
 number appear" and "does this exact name appear" are different lookups
-over the same ground, not the same lookup twice.
+over the same ground, not the same lookup twice. Each side is checked
+by its own exact surface form only, digit against digit and spelled
+word against spelled word - never against each other. Known, accepted
+limit: a claim stated as a digit ("137") is not recognized as the same
+number as a record naming it spelled out ("one hundred thirty-seven"),
+or the reverse; a digit/word form mismatch flags exactly the way a
+genuinely absent number would.
+
+A value-composing cross-form check (parsing both sides to one integer,
+"137"/"one hundred thirty-seven" grounding as the same value) was built,
+found still unsafe on review after two rounds of narrowing (an "and"
+between a hundred-block and its own remainder, and two adjacent numbers
+sitting next to each other with nothing joining them, both had to be
+special-cased in the parser's own grammar to avoid silently composing a
+value neither side of a claim actually states), and removed entirely
+per the same "no fix on a fix" rule that removed the derivational
+bridge above - not reintroduced here. The digit/word mismatch this
+leaves is a named, accepted false-positive class, not a defect this
+module is scoped to fix.
 
 A trailing possessive ('s, or a bare trailing ' on a plural like
 "disciples'") is stripped from both the marker and the ground before
 comparing, since engine.prose._WORD keeps the apostrophe as part of the
 word: a sentence saying "Ignatius's letter" and a record naming plain
-"Ignatius" must ground each other. Known, accepted limit: this does not
-resolve a DIFFERENT derivational form of the same name (a record naming
-"Smyrna" does not itself ground a sentence saying "Smyrnaeans") - that
-stays report-only noise, not a false negative this module is scoped to
-fix.
+"Ignatius" must ground each other. Known, accepted limit, NOT resolved
+here: a different derivational form of the same name (a record naming
+"Smyrna" does not itself ground a sentence saying "Smyrnaeans," and
+naming "Alexandria" does not ground "Alexandrian," or the reverse) is a
+different token this module does not equate - report-only noise, not a
+false negative this module is scoped to fix.
+
+A bridge between exactly this pattern (a place name ending in "a" and
+its own bare-"n" adjective) was tried and removed: the same surface
+shape covers real people too - Julian/Julia, Hadrian/Hadria,
+Lucian/Lucia, Domitian/Domitia, Sebastian/Sebastia, Flavian/Flavia, and
+Claudian/Claudia all fit it without being the same word at all (every
+one is properly derived from a DIFFERENT root spelled with a trailing
+"n" already - Julian from Julius, not Julia - and only collides on this
+surface shape). Gating the bridge on a world's own figure records
+(known people) still let every one of these through, because none of
+them happened to be a figure record in the worlds tested - the gate
+needs a POSITIVE place signal to be safe, and no world's own compiled
+repository carries place records to check against yet. Rather than
+carry a bridge with a known, currently-live false-grounding class,
+Alexandria/Alexandrian is named here as an accepted, unfixed
+false-positive class, the same status Smyrna/Smyrnaeans already has - a
+real place-vs-person design, if built later, needs its own ruling and
+its own PR, not a patch on this one.
 
 Report-only: this module never withholds or edits a turn's text.
 find_named_claim_flags is meant to be called the same unconditional way
@@ -82,6 +119,21 @@ from engine.prose import SPELLED_NUMBERS, all_text, claim_markers, content_words
 
 _WORD = re.compile(r"[a-zA-Z']+")
 _DIGIT = re.compile(r"\b\d+\b")
+
+
+def _number_tokens(text: str) -> tuple[set[str], set[str]]:
+    """(digit tokens, spelled-cardinal words) literally present in
+    `text` - claim_markers()'s own "number" marker only signals THAT a
+    checkable number is present (engine.prose._has_number's own
+    discourse-count exemption already decided that); this pulls the
+    actual value(s) so they can be checked against ground, the same way
+    _proper_noun_words pulls actual names rather than re-deciding
+    whether any exist. Each side is its own exact-surface-form token set
+    - never composed into one cross-form value (see module docstring's
+    own known-limit note)."""
+    digits = set(_DIGIT.findall(text))
+    spelled = {w.lower() for w in _WORD.findall(text)} & SPELLED_NUMBERS
+    return digits, spelled
 
 
 def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
@@ -141,19 +193,6 @@ def _proper_noun_words(marker: str) -> set[str]:
     return {_strip_possessive(word.lower()) for name in names for word in name.split()}
 
 
-def _number_tokens(text: str) -> tuple[set[str], set[str]]:
-    """(digit tokens, spelled-cardinal words) literally present in
-    `text` - claim_markers()'s own "number" marker only signals THAT a
-    checkable number is present (engine.prose._has_number's own
-    discourse-count exemption already decided that); this pulls the
-    actual value(s) so they can be checked against ground, the same way
-    _proper_noun_words pulls actual names rather than re-deciding
-    whether any exist."""
-    digits = set(_DIGIT.findall(text))
-    spelled = {w.lower() for w in _WORD.findall(text)} & SPELLED_NUMBERS
-    return digits, spelled
-
-
 def record_ground(rec: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
     """(word ground, digit ground) one record contributes on its own: its
     own `all_text`, plus its `sources[]`' resolved `work` fields (see
@@ -198,6 +237,15 @@ def missing_markers(
     two checks can never silently diverge on what counts as "grounded."
     Empty for a sentence naming no checkable marker at all.
 
+    A proper noun is compared by its own exact surface form only (see
+    module docstring's own known-limit note on derivational form - tried
+    as a bridge once, removed for cross-grounding real people, not
+    reintroduced here). A number is compared by its own exact surface
+    form too - a digit token against `ground_digits`, a spelled-cardinal
+    word against `ground_words` - never against each other (see module
+    docstring's own known-limit note on digit/word form mismatch: a
+    value-composing cross-form check was tried and removed).
+
     include_sentence_initial_proper_nouns (default False - `ungrounded_
     markers` below keeps claim_markers' own narrower, calibrated default):
     threaded straight through to `claim_markers`. `engine.m4.
@@ -207,7 +255,9 @@ def missing_markers(
     missing: set[str] = set()
     for marker in claim_markers(text, include_sentence_initial_proper_nouns=include_sentence_initial_proper_nouns):
         if marker.startswith("proper-noun:"):
-            missing |= _proper_noun_words(marker) - ground_words
+            for word in _proper_noun_words(marker):
+                if word not in ground_words:
+                    missing.add(word)
         elif marker == "number":
             digits, spelled = _number_tokens(text)
             missing |= digits - ground_digits

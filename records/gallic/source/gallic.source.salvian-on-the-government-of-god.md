@@ -13,7 +13,13 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
-relations: []
+relations:
+- type: associated-with
+  target: gallic.quote.salvian-on-the-demand-for-circuses
+- type: associated-with
+  target: gallic.quote.salvian-on-the-unburied-dead
+- type: associated-with
+  target: gallic.quote.salvian-on-treves-ruined-elite
 author: Salvian of Marseilles
 work: On the Government of God (De Gubernatione Dei)
 edition: Salvian of Marseilles, On the Government of God (De Gubernatione Dei), tr. Eva M. Sanford (1930),
