@@ -763,6 +763,82 @@ flat, dated index for quick reference, matching the Alexandria model's own conve
   reviewed, and self-disposed by the build thread per CO-022 (no escalation category
   triggered at any of these steps).
 
+### OG-14. Re-voiced the `name`/`description`/`manifestations` fields on all 25 gravity/force records and the four `world_core` spoken fields (`horizon`, `formation_logic`, `thinness`, `cautions`) — build vocabulary stripped, every fact and disclosed uncertainty preserved; several residual items surface as a result and are logged here rather than fixed in the same pass.
+
+All 8 `records/lpc/gravity/*.md` and 17 `records/lpc/force/*.md` records carried heavy
+construction-process vocabulary directly in their spoken fields: `Doc_04 §3 Candidate N`,
+`Doc_08 Cell 2A Force 2A-3`-style codes, `Registry row N`, ALL-CAPS section headers ("LAYER 1
+— HISTORICAL EVENT", "CONFIDENCE/GRAVITY CROSS-CHECK", "FORCES-CONNECTION"), six-test names
+used as bare labels, gravity/force shorthand (`G1`–`G8`, `1A-1`, `2B-4`), and `[PRIMARY]` /
+`[SUPPORTING]` / `[TENSIONAL]` tags embedded in eight gravity records' own `name` fields. The
+`world_core` record's `horizon`, `formation_logic`, `thinness`, and `cautions` — compiled into
+every participant turn — carried the same pattern at far greater density (up to ~970 words per
+field), plus governance-article citations (`Article 21`, `Article 33`), `CONFIRMED by the
+project lead`-style build-process framing, and ALL-CAPS numbered caution items.
+
+Every field was drafted by an Opus subagent working from the exact original text, reviewed line
+by line against that original, and checked directly: every substantive fact, name, date,
+confidence distinction, and disclosed uncertainty was required to survive in plain language: only
+the analyst scaffolding was stripped. Two mis-cited quotations were corrected in the process
+(Letters "XXXI and CCXIII" in `lpc.gravity.pastoral-office-flock-keeping` — Epistle XXXI is
+Cyprian's own, Letter CCXIII is Augustine's own "Augustin Designates his Successor", independently
+verified against `cic/texts/npnf101_augustine-confessions-letters.xml`; a quotation about a
+corrupted letter given inconsistently between a record's own `description` and `manifestations`
+fields, resolved to the fuller wording and independently verified against
+`cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml`). Seven further leaked confidence-grade
+predicates ("is/are Documented", used as project vocabulary rather than plain description) and
+one `§`-symbol section reference were found and rewritten during a second `check_live_commentary.py`
+pass, after the first pass and full re-voice were already applied.
+
+**Verification:** all 21 M1 gates run directly (`engine.m1.gates.run_all`) against the real lpc +
+fleet corpus, including `reciprocity`, `quote-verbatim`, and `quote-mark-fidelity` — clean, with
+only the pre-existing `canon-coverage` gap (lpc's `canon_cells` tagging pass lives on the
+still-unmerged PR #557 branch, not on `main`, so this branch does not carry it and canon-coverage
+findings here are expected, not caused by this pass). `tools/check_live_commentary.py --surface
+records` — zero new findings on any touched file after the second pass; remaining hits on these
+25 gravity/force files and the one `world_core` file are all in fields this pass was explicitly
+scoped to leave alone (`divergence_note`, `sources[].locus`, `thin_topics`, and the closing
+docstring below each record's own frontmatter). FK grade on every re-voiced field: gravity/force
+`description` ranges 6.6–10.5 (three fields 10.02–10.47, close to but not strictly under the
+FK-10 target, matching the established precedent for this exact fix on `don`'s own equivalent
+pass, where several fields landed 10.02–10.78 and were treated as acceptable rather than
+blocking); `world_core`'s four fields range 7.85–8.79, closely matching `don`'s own mean of 8.81.
+
+**Residual items, named rather than quietly left, per this fix's own instruction to move
+six-test and provenance material out of the spoken field and log what it leaves behind:**
+
+- **Dangling `sources[].locus` pointers.** Most of these 25 records' `sources[]` entries read
+  `locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite` — written
+  when the `description` field itself still carried structured `Doc_04`/`Doc_08` citations.
+  After this pass, `description` no longer carries pinpoint citations in that form, so these
+  `locus` pointers now point at prose that does not resolve them. Not fixed in this pass, which
+  was scoped to the three spoken fields only; a follow-up pass should either restate each
+  `locus` with its own real citation or point it at the `divergence_note`, which still carries
+  the structured citations this pass left untouched.
+- **A pre-existing Registry-row citation conflict, found rather than caused by this pass.**
+  Before this rewrite, `lpc.gravity.preaching-and-catechesis` cited "Registry row 5" for
+  Cyprian's *De Dominica Oratione*, while `lpc.force.plague-of-cyprian` and this same gravity
+  record's own `manifestations` cited "Registry row 5" for *De Mortalitate* — two different
+  works under one row number. Direct check against `worlds/lpc/Source_Registry.md` finds row 5
+  is neither: it is Cyprian's *Ad Quirinum*. This pass drops the row citations from both spoken
+  fields (consistent with stripping Registry references generally), which makes the conflict
+  moot for participant-facing text, but the underlying registry mis-citation in these records'
+  own `divergence_note`/`sources[]` fields is untouched and should be corrected in a citation
+  pass.
+- **`world_core`'s `thin_topics` notes still carry build vocabulary** ("this build has not
+  answered", "the Affirmative Duty's own bounded-reconstruction test has not yet been run") —
+  named as out of scope by the drafting agent and left untouched here, since the task this pass
+  was scoped to named only `horizon`/`formation_logic`/`thinness`/`cautions`. Worth a same-pattern
+  pass if `thin_topics` is itself a spoken field compiled into participant-facing prompts.
+- **Old `cautions` item 11 (the note that this compilation's own source registry was under
+  independent review at the time of compilation) was dropped from the spoken field**, not
+  relocated, since it is pure build-process status with nothing about the world itself, and the
+  review it refers to has presumably long since concluded. The remaining items were renumbered
+  1–11 accordingly.
+
+Logged here per the standing rule that a review outcome, or a fix that surfaces further items,
+never lives only in a conversation thread or a PR description.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the

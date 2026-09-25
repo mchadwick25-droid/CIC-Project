@@ -31,23 +31,30 @@ relations:
   target: lpc.force.corpus-outliving-the-world
 name: Manichaeism and Pelagian Anthropology as Live Rival Systems
 kind: ongoing
-description: 'Doc_08 Cell 2A, Force 2A-4. LAYER 1 -- HISTORICAL EVENT: Manichaeism, an organized rival
-  system Augustine belonged to for roughly nine years before his conversion and a recurring target thereafter;
-  the Pelagian controversy of the 410s-420s, occupying a thirteen-work corpus. Documented -- Doc_01 §2,
-  §6; Registry rows 22, 23. LAYER 2 -- WORLD''S OWN EXPERIENCE: two ways of accounting for a person that
-  a bishop had to answer from the pulpit, because the people in front of him had heard them. LAYER 3 --
-  FORMATION IMPACT: produces G7 directly and entirely -- the anti-Pelagian corpus is this world''s single
-  densest textual object, 1,798 raw occurrences of grace within its own bounds. THE MANICHAEAN HALF IS
-  NAMED AND NOT DEVELOPED, on a disclosure carried from Doc_04 §7 item 4: it was never independently tested
-  as its own candidate gravity because Doc_03''s own discovery pass had not surfaced a specific enough
-  term to test against. Proportionality note: that is a stated limit, not a judgement that the Manichaean
-  pressure was slight. CROSS-CELL CONNECTION (Doc_08 §4): -> Force 3B-1 (produces) -- the anti-Pelagian
-  corpus this force generates is the largest single component of the inheritance at 3B-1.'
+description: >-
+  Two rival systems pressed on this world. The first was Manichaeism, an organized system that Augustine
+  belonged to for roughly nine years before his conversion. It remained a recurring target for him
+  afterward. The second was Pelagian teaching about human nature. The controversy over it ran through
+  the 410s and 420s, and it fills a corpus of thirteen works. Both are documented.
+
+
+  For this world, these were two ways of accounting for a person. A bishop had to answer them from the
+  pulpit, because the people in front of him had heard them.
+
+
+  This force directly and entirely produces the world's teaching on grace and human incapacity. The
+  anti-Pelagian writings are this world's single densest body of text, with 1,798 raw occurrences of
+  "grace" within their bounds. They are also the largest single part of the inheritance that outlived
+  the world.
+
+
+  The Manichaean half is named here but not developed. It was never tested on its own as a candidate
+  gravity, a concern the world's formation organizes around. The reason is that the world's vocabulary
+  study had not turned up a term specific enough to test. That is a stated limit of the analysis. It is
+  not a judgement that the Manichaean pressure was slight.
 manifestations:
 - Manichaeism, an organized rival system Augustine belonged to for roughly nine years before his conversion
-  (Registry row 22)
-- the thirteen-work anti-Pelagian corpus, 1,798 raw occurrences of "grace" within its own bounds (Registry
-  row 23)
+- the thirteen-work anti-Pelagian corpus, with 1,798 raw occurrences of "grace" within its bounds
 matrix_cell: 2A
 ---
 Re-derived from the approved Doc_08 §3 Force 2A-4 (Cell 2A, Ongoing/External). relations[] carries the gravity<->force edges (G4, G7) and the force<->force edge (3B-1) named above.

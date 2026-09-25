@@ -29,23 +29,30 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 name: The Confessors' Claim to Grant Peace
 kind: ongoing
-description: 'Doc_08 Cell 2B, Force 2B-2. LAYER 1 -- HISTORICAL EVENT: survivors of interrogation issued
-  written requests that named lapsed persons be received back -- in Cyprian''s own words, "thousands of
-  certificates were daily given, contrary to the law of the Gospel." Documented -- Registry row 1 (Confidence
-  A). LAYER 2 -- WORLD''S OWN EXPERIENCE: I stood before the magistrate and did not deny Him, and I say
-  this man may come back. -- And the peace of the church is not any man''s to give out of his own suffering,
-  however real. Both in earnest; that is the difficulty. LAYER 3 -- FORMATION IMPACT: this force is G8,
-  the Tensional gravity, and it is also why G2 takes the insistent, repeatedly-restated form it does.
-  The penitential process was not legislated into a vacuum but built against a working parallel system
-  already circulating documents at scale. PHASE-BOUND, and the bound was established by a check rather
-  than assumed: twenty stem occurrences of "confessor" across all eight vendored Augustine volumes, none
-  in this sense. CROSS-CELL CONNECTIONS (Doc_08 §4): <- Force 1A-1 (produced by) -- the same edict creates
-  confessors as a class with a claim; this force has no claimants without it. -> Force 2B-1 (intensifies)
-  -- the confessors'' own parallel system is why the internal contest had to be settled by a formal process
-  rather than by episcopal say-so.'
+description: >-
+  People who survived interrogation without denying their faith issued written requests that named
+  lapsed persons be received back. In Cyprian's own words, "thousands of certificates were daily given,
+  contrary to the law of the Gospel." This is documented.
+
+
+  Both sides spoke in earnest, and that was the difficulty. One side said: I stood before the magistrate
+  and did not deny Him, and I say this man may come back. The other answered: the peace of the church is
+  not any man's to give out of his own suffering, however real.
+
+
+  This force is the world's defining tension: the confessors' authority set against the peace that the
+  bishop regulates. It also explains why the penitential discipline takes such an insistent,
+  often-restated form. The process of penance was not made into a vacuum. It was built against a working
+  parallel system that was already circulating documents at scale. That parallel system is why the
+  contest over the lapsed had to be settled by a formal process, not by a bishop's word alone.
+
+
+  The confessors existed as a class with a claim only because the Decian edict created them. The force
+  belongs to Cyprian's phase alone. That limit rests on a check, not on an assumption from silence. The
+  stem "confessor" appears twenty times across all eight Augustine volumes in the project's library, and
+  never in this sense.
 manifestations:
-- '"thousands of certificates were daily given, contrary to the law of the Gospel" (Cyprian''s own words,
-  Registry row 1, quoted directly at Doc_08 Force 2B-2 Layer 1)'
+- '"thousands of certificates were daily given, contrary to the law of the Gospel" (Cyprian''s own words)'
 matrix_cell: 2B
 ---
 Re-derived from the approved Doc_08 §3 Force 2B-2 (Cell 2B, Ongoing/Internal). relations[] carries the gravity<->force edges (G2, G8) and the force<->force edges (1A-1, 2B-1) named above.

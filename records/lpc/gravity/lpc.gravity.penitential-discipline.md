@@ -55,40 +55,58 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 - type: associated-with
   target: lpc.force.confessors-claim-to-grant-peace
-name: 'Penitential Discipline: the Reintegration of the Failed [PRIMARY]'
-description: 'Doc_04 §3 Candidate 2: PRIMARY. Repetition: passes strongly, recurring in De Lapsis (Row
-  2), the Epistles'' own lapsed correspondence (Row 1), Pontius''s narrative (Row 7), and Doc_02 §5''s
-  own liturgical-evidence disclosure. Author Gravity risk flagged at generation: the Cyprian-phase evidence
-  is multi-locus and independently corroborated, but the candidate''s own cross-phase claim rests on Cyprian''s
-  own single phase passing. Dependency: passes strongly -- Candidate 8 (confessor-authority tension) exists
-  only because this gravity exists; this gravity''s own resolution (readmission, not permanent exclusion)
-  models Candidate 3''s logic at the individual-believer level. Formation: passes strongly -- the paradigm
-  formation-shaping practice in this world''s own record. Explanatory: passes strongly -- explains the
-  Novatianist schism (rigorist refusal to readmit), the Felicissimus schism (a laxer rival readmission
-  practice), and Candidate 8. PERSISTENCE -- TESTED RATHER THAN ASSUMED, PER DOC_01 §8 ITEM 7''S OWN BINDING
-  INSTRUCTION: passes for Cyprian''s own phase directly; for Augustine''s own phase, THE LEAN DOES NOT
-  FULLY SURVIVE AS THIS SAME GRAVITY PERSISTING UNDER ITS OWN NAME. Doc_02''s own record shows no Augustine-phase
-  text organized around a ''lapsed''-equivalent crisis at the same acute, empire-wide scale; the closest
-  analogues (Donatist schism-temptation, ordinary catechized sin) are real but are tested and classified
-  as their own distinct gravities, Candidates 6 and 7, not as this gravity''s own direct continuation.
-  What survives across the phase boundary is a family resemblance, not the same gravity restated. Interaction:
-  reinforces Candidates 1, 3, 4, 6; reshaped by Candidate 7 (not this gravity''s own continuation); competes
-  with Candidate 8. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for Cyprian''s own conduct and correspondence,
-  directly quoted and re-verified across Doc_01''s nine rounds; of the loci this rests on, the De Lapsis
-  locus (Row 2) sits at Registry Confidence B, the Epistles and Pontius loci (Rows 1, 7) at A. No divergence
-  for the Cyprian-phase gravity. FORCES-CONNECTION (Doc_08 §5): directly is Doc_01 §6''s own Ongoing/Internal
-  cell content -- connected to 1A-1 (creates its subject matter), 1B-1 (the organized church without which
-  a regulated process could not have been run), 2B-1 (the recurring contest it answers), 2B-2 (the rival
-  claim it was built against). Its own second-phase persistence is qualified rather than assumed (Doc_08
-  §3 Force 2B-1''s own Layer 3): the concern does not continue under its own name; what survives is a
-  family resemblance toward G6 and G7, tested and classified separately -- this gravity''s own force-connection
-  therefore stays first-phase-grounded.'
+name: 'Penitential Discipline: the Reintegration of the Failed'
+description: >-
+  A primary gravity. It concerns how the church received back members who failed under persecution. Its
+  answer is readmission, not permanent exclusion.
+
+
+  It recurs strongly: in De Lapsis, in the letters about the lapsed, in Pontius's narrative, and in the
+  world's liturgical evidence. One caution was flagged from the start. The evidence from Cyprian's phase
+  comes from several independent sources that support each other. But the claim that this gravity spans
+  both phases rests on Cyprian's phase alone.
+
+
+  Other gravities depend on it. The confessor tension exists only because this gravity exists. Its
+  answer for the single believer is to readmit rather than exclude for ever. That mirrors, at a smaller
+  scale, the logic of collegial communion. It is the model practice for shaping believers in this
+  world's record. It explains two schisms. The Novatianists refused to readmit the lapsed at all. The
+  Felicissimus schism offered a laxer rival route back. It also explains the confessor tension.
+
+
+  Whether it continues into Augustine's phase was tested, not assumed. It holds directly for Cyprian's
+  phase. For Augustine's phase, the case for continuity does not fully survive as this same gravity
+  under its own name. No text from Augustine's phase is organized around a crisis like that of the
+  lapsed, at the same acute, empire-wide scale.
+
+
+  The closest parallels are real: the pull toward the Donatist schism, and the ordinary sin of
+  catechized believers. But they are tested and classified as gravities of their own, sacramental
+  validity and grace and human incapacity. They are not its direct continuation. What crosses the
+  boundary between the phases is a family resemblance, not the same gravity restated.
+
+
+  It reinforces pastoral office, collegial communion, preaching and catechesis, and sacramental
+  validity. Grace and human incapacity reshapes it without continuing it. It competes with the confessor
+  tension.
+
+
+  The evidence is solidly attested for Cyprian's own conduct and letters, which are directly quoted and
+  checked. The De Lapsis passage carries the lower citation grade (B). The Epistles and Pontius passages
+  carry the higher grade (A). There is no confidence gap for the gravity in Cyprian's phase.
+
+
+  It is itself this world's ongoing internal pressure. Four forces connect to it. The Decian persecution
+  created its subject matter. The organized Carthaginian church made a regulated process possible at
+  all. It answers the recurring contest over the failed member. It was built against a rival claim, the
+  confessors' claim to grant peace. Its life in the second phase is qualified, not assumed: the concern
+  does not continue under its own name. So its ties to the forces stay rooted in the first phase.
 manifestations:
-- De Lapsis, Cyprian's own founding treatise of the penitential controversy (Registry row 2)
-- the Novatianist schism (rigorist refusal to readmit the lapsed) and the Felicissimus schism (a laxer
-  rival readmission practice), both explained by this gravity
-- the confessors' own competing claim to grant peace, which this gravity's own regulated process was built
-  against (Force 2B-2)
+- De Lapsis, Cyprian's founding treatise of the penitential controversy
+- the Novatianist schism (a rigorist refusal to readmit the lapsed) and the Felicissimus schism (a laxer
+  rival route back), both explained by this gravity
+- the confessors' competing claim to grant peace, which the regulated penitential process was built to
+  answer
 classification: primary
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 2). relations[] carries the gravity<->gravity edges (G1, G3, G4, G6, G7, G8) and the gravity<->force edges (1A-1, 1B-1, 2B-1, 2B-2) named above -- 2B-1's own asymmetric family-resemblance finding (first-phase, toward G6, not toward G7) is discussed at G6's own record below, per Doc_08 §5's own G6 entry.

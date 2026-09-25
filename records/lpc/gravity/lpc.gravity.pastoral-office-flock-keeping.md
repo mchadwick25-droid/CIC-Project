@@ -53,38 +53,51 @@ relations:
   target: lpc.force.plague-of-cyprian
 - type: associated-with
   target: lpc.force.vandal-invasion-siege-of-hippo
-name: Pastoral Office as Territorial Flock-Keeping [PRIMARY]
-description: 'Doc_04 §3 Candidate 1: PRIMARY, passes all six tests strongly. Repetition: recurs across
-  every primary-source stream for both bishops and both phases without interruption -- both formation
-  narratives, both phases'' own crisis correspondence and sermon corpora. Dependency: Candidate 2 (penitential
-  discipline) is exercised by a bishop holding this office; Candidate 4 (preaching/catechesis) is this
-  office''s own primary activity; Candidate 5 (conciliar authority) is a theory about who legitimately
-  holds it; Candidate 6 (sacramental validity) is a question about who legitimately holds it. Formation:
-  Doc_01 §1''s own Core Identity states this world''s formation logic is ''pastoral and sacramental before
-  it is juridical'' -- the whole catechetical and penitential apparatus exists because a bishop is personally
-  answerable for a bounded flock. Explanatory: explains why Cyprian''s crisis correspondence exists at
-  all, why Augustine''s sermon corpus is so large, and why both bishops'' own accounts of coming to office
-  are independently attested and treated as formation-significant. Persistence: visible in both Carthage
-  and Hippo, across both phases, in both bishops'' own words. Interaction: reinforces Candidates 2, 3,
-  4, 6, 8; reinforced weakly by Candidate 5; no independently demonstrated relationship with Candidate
-  7. CONFIDENCE/GRAVITY CROSS-CHECK: Documented -- both bishops'' own accounts of holding and exercising
-  this office are directly quoted and independently re-verified across Doc_01''s nine review rounds (the
-  256 preface; Letters XXXI and CCXIII; Pontius''s own narrative). Possidius''s Vita (Registry row 192)
-  is NOT counted toward this Cross-Check -- Doc_02 §2/§4 both disclose it has not been read this session
-  beyond the Megalius-consecration identification, so this candidate''s Documented rating stands on Pontius,
-  the two Letters, and the 256 preface alone, a citation correction rather than a classification change.
-  No divergence. FORCES-CONNECTION (Doc_08 §5): the most densely force-connected gravity in this world,
-  matching Doc_05 §9.1''s own finding that it is the ecological hub -- connected to 1A-2 (the standing
-  legal condition an office with no external enforcement is held together by personal bond), 1B-2 (how
-  a man comes to hold it), 1A-1 and 2A-1 (answerability made acute by the flock''s own failure and the
-  bishop''s own test), 2A-2 (a pressure the bishop shares rather than adjudicates), 3A-1 (the bond ends
-  when he does).'
+name: Pastoral Office as Territorial Flock-Keeping
+description: >-
+  A primary gravity and the hub of this world. It holds up strongly on every measure. A bishop is
+  personally answerable for a bounded flock, and much of the rest of the world flows from that.
+
+
+  It recurs without a break across every primary source for both bishops and both phases. It appears in
+  both bishops' stories of coming to office, in the crisis letters of both phases, and in both
+  collections of sermons.
+
+
+  Other gravities depend on it. Penitential discipline is carried out by a bishop who holds this office.
+  Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who
+  legitimately holds the office. Sacramental validity asks the same question. In the words of this
+  world's core identity, its formation is "pastoral and sacramental before it is juridical." The whole
+  apparatus of teaching and penance exists because a bishop answers personally for his flock.
+
+
+  It explains why Cyprian's crisis letters exist at all and why Augustine's sermon collection is so
+  large. It also explains why both bishops' accounts of coming to office are independently attested and
+  treated as formative. It is visible in both Carthage and Hippo, across both phases, in both bishops'
+  own words. It reinforces penitential discipline, collegial communion, preaching and catechesis,
+  sacramental validity, and the confessor tension. Conciliar authority reinforces it weakly. No
+  relationship with grace and human incapacity has been shown.
+
+
+  The evidence is solidly attested. Accounts of holding and exercising this office are directly quoted
+  and checked: the preface to the Council of 256, Cyprian's own Epistle XXXI, Augustine's own Letter
+  CCXIII, and Pontius's narrative. Possidius's Life of Augustine is not counted; that account has not
+  independently been checked beyond identifying the Megalius consecration. So the rating rests on
+  Pontius, the two letters, and the 256 preface alone. This corrects the citations; it does not change
+  the classification.
+
+
+  It is the gravity most densely connected to the forces acting on the world. Christianity's standing
+  legal condition as an unlicensed religion means the office has no outside enforcement. Personal bond
+  holds it together. Congregational acclamation shows how a man comes to hold the office. The Decian and
+  Valerianic persecutions make his answerability acute, through the flock's own failure and the bishop's
+  own test. The plague is a pressure the bishop shares rather than judges. The Vandal invasion and siege
+  of Hippo mark where the bond ends: it ends when the bishop does.
 manifestations:
-- '"it is the shepherd that is chiefly wounded in the wound of his flock" (Force 1A-1''s own Layer 2,
-  Doc_08 §3)'
-- Cyprian's own accounts of holding and exercising this office at the 256 Council preface, and in Letters
-  XXXI and CCXIII
-- Pontius's own narrative of Cyprian's conduct as bishop (Registry row 7)
+- '"it is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian, De Lapsis)'
+- Cyprian's own account of holding and exercising this office at the 256 Council preface, and in Epistle
+  XXXI; Augustine's own account in Letter CCXIII
+- Pontius's narrative of Cyprian's conduct as bishop
 classification: primary
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 1), cross-checked against Doc_04 §4's own Classification Summary and §6's own Interaction Matrix. relations[] carries the gravity<->gravity edges (G2, G3, G4, G5, G6, G8) and the gravity<->force edges (1A-1, 1A-2, 1B-2, 2A-1, 2A-2, 3A-1) named in this record's own description above.

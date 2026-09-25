@@ -41,36 +41,55 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
-name: Sacramental and Ordination Validity Across the Boundary of the Church [PRIMARY]
-description: 'Doc_04 §3 Candidate 6: PRIMARY. Repetition: passes strongly, recurring in the Epistles''
-  own rebaptism correspondence (Row 1), the 256 Council''s own ruling (Row 4), and On Baptism in full
-  (Row 13, argued ''at book length'') -- not confined to one locus the way Candidate 5 is, argued across
-  two independent bishops'' own extended treatments, decades apart. Dependency: passes strongly -- Candidate
-  3 is tested at its hardest specifically because this question exists (the two bishops reach opposite
-  conclusions here while Candidate 3 still holds); Candidate 8 is a structurally adjacent question about
-  who may legitimately grant standing within the community. Formation: passes -- directly shapes practice;
-  Cyprian''s own rebaptism requirement is an operative pastoral policy, Augustine''s own contrary ruling
-  determines whether Donatist clergy are received back in their own orders or re-ordained. Explanatory:
-  passes strongly -- explains the entire Stephen/Cyprian rupture, is the central subject of a whole Augustine
-  treatise, and explains why the Donatists themselves could appeal to Cyprian''s own authority for their
-  own rebaptism doctrine. Persistence: passes -- the question persists even as the answer changes, itself
-  evidence of the question''s own centrality. Interaction: reinforces Candidates 1, 2, 3, 5. CONFIDENCE/GRAVITY
-  CROSS-CHECK: Documented -- both positions directly quoted and independently re-verified across Doc_01''s
-  nine rounds (On Baptism I.1.2; the 256 preface; Book III ch. 2 §2). No divergence. FORCES-CONNECTION
-  (Doc_08 §5): directly connected to the Ongoing/External force of the Donatist schism (2A-3), which makes
-  it institutionally urgent rather than a question about individual converts; re-opened across the century
-  gap by 2B-4 (Augustine''s own engagement with Cyprian''s conciliar acts); and connected to 2B-1 (the
-  recurring contest over the failed member), Doc_04 §6 finding Cyprian reasoning about both consistently
-  -- an ASYMMETRIC relation Doc_08 §5 itself examines at length: Candidate 2 relates to this gravity as
-  ''Reinforcing... both are boundary/reintegration questions Cyprian reasons about consistently,'' a first-phase
-  relation, while Candidate 2 relates to Candidate 7 as ''Reshaped by... not 2''s own continuation.''
-  This gravity''s own claim on Force 2B-1 is therefore independent and first-phase, and does not rest
-  on the phase-two family resemblance that runs toward G7 instead.'
+name: Sacramental and Ordination Validity Across the Boundary of the Church
+description: >-
+  A primary gravity. It asks whether baptism and ordination given outside the church's boundary are
+  valid. The two bishops answer it in opposite ways.
+
+
+  It recurs strongly: in Cyprian's letters on rebaptism, in the ruling of the Council of 256, and
+  throughout Augustine's On Baptism, which argues it at book length. Unlike conciliar authority, it is
+  not confined to one source. Two independent bishops treat it at length, decades apart.
+
+
+  Other gravities lean on it. Collegial communion is tested hardest here, because the two bishops reach
+  opposite conclusions and communion still holds. The confessor tension is a closely related question
+  about who may grant standing within the community.
+
+
+  It shapes practice directly. Cyprian's requirement of rebaptism is a working pastoral policy.
+  Augustine's contrary ruling decides whether Donatist clergy are received back in their own orders or
+  ordained again. It explains the whole rupture between Stephen and Cyprian. It is the central subject
+  of an entire treatise by Augustine. It also explains why the Donatists could appeal to Cyprian's own
+  authority for their rebaptism doctrine.
+
+
+  The question persists across both phases even as the answer changes. That persistence is itself
+  evidence of how central the question is. It reinforces pastoral office, penitential discipline,
+  collegial communion, and conciliar authority.
+
+
+  Both positions are solidly attested, directly quoted and checked: On Baptism I.1.2, the 256 preface,
+  and Book III, chapter 2. There is no confidence gap.
+
+
+  The Donatist schism, an ongoing outside pressure, makes the question urgent for the institution, not
+  just a matter of individual converts. Augustine's engagement with Cyprian's conciliar acts reopens it
+  across the century gap. It also connects to the recurring contest over the failed member, because
+  Cyprian reasons about both questions consistently.
+
+
+  That last link runs one way only. Penitential discipline reinforces this gravity in the first phase,
+  since both are questions about the boundary and about return. But penitential discipline relates to
+  grace and human incapacity differently: it is reshaped by that gravity, not continued in it. So this
+  gravity's tie to the recurring contest over the failed member is its own, and it belongs to the first
+  phase. It does not depend on the second-phase family resemblance, which runs toward grace and human
+  incapacity instead.
 manifestations:
-- the 256 Council's own rebaptism ruling (Registry row 4)
-- On Baptism, Against the Donatists in full, argued at book length (Registry row 13, citing I.1.2 and
-  Book III ch. 2 §2)
-- the Epistles' own rebaptism correspondence, the Stephen/Cyprian rupture (Registry row 1)
+- the Council of 256's ruling on rebaptism
+- On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and Book III, chapter
+  2)
+- the Epistles' correspondence on rebaptism, and the rupture between Stephen and Cyprian
 classification: primary
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length against a Round 3 argument that had removed the connection on a symmetry that does not exist. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the gravity<->force edges (2A-3, 2B-1, 2B-4) named above.

@@ -34,22 +34,28 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: An Already-Organized Carthaginian Church Capable of Sustained Collective Response
 kind: initiating
-description: 'Doc_08 Cell 1B, Force 1B-1. LAYER 1 -- HISTORICAL EVENT: Cyprian inherited a community large
-  and structured enough to hold real internal factions and to convene councils of dozens of bishops at
-  short notice. Documented -- Doc_01 §6; the councils themselves (Registry row 4); the Felicissimus material
-  in the Epistles (row 1). LAYER 2 -- WORLD''S OWN EXPERIENCE: not a gathering that had to be built but
-  one already standing, with its own men of weight, its own quarrels, and its own capacity to meet and
-  decide together. LAYER 3 -- FORMATION IMPACT: this is the precondition for G3 -- collegial communion
-  preserved despite disagreement requires colleagues who can actually assemble and who already disagree.
-  It also makes G2''s regulated penitential process possible -- an unorganized community could not have
-  run one -- and supplies G5 with the conciliar setting in which both its formulas are eventually spoken.
-  CROSS-CELL CONNECTIONS (Doc_08 §4): -> Force 1B-2 (enables) -- a church organized enough to hold factions
-  is organized enough to elect over a faction''s opposition. -> Force 2B-4 (enables) -- councils that
-  met and left acts are what Augustine later reads and argues with.'
+description: >-
+  Cyprian inherited a church large and structured enough to hold real internal factions. It could also
+  call councils of dozens of bishops at short notice. The evidence is documented: the councils
+  themselves, and the Felicissimus material in Cyprian's letters.
+
+
+  To the world itself, this was not a gathering that had to be built. It was already standing, with its
+  own men of weight, its own quarrels, and its own ability to meet and decide together.
+
+
+  This organization made it possible to keep communion among colleagues who disagreed. That needs
+  colleagues who can actually meet, and who already disagree. It also made a regulated process of penance
+  possible, because an unorganized community could not have run one. And it supplied the council setting
+  where both formulas of conciliar authority were eventually spoken.
+
+
+  A church organized enough to hold factions was also organized enough to carry an election against a
+  faction's opposition. And the councils that met and left written acts are what Augustine later read
+  and argued with.
 manifestations:
-- councils of dozens of bishops convened at short notice (Registry row 4, the 256 Council)
-- the Felicissimus schism, a real internal faction the church was already organized enough to hold (Registry
-  row 1)
+- councils of dozens of bishops convened at short notice, including the council of 256
+- the Felicissimus schism, a real internal faction the church was already organized enough to hold
 matrix_cell: 1B
 ---
 Re-derived from the approved Doc_08 §3 Force 1B-1 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edges (G2, G3, G5) and the force<->force edges (1B-2, 2B-4) named above.

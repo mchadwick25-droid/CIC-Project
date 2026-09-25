@@ -35,41 +35,52 @@ relations:
   target: lpc.force.valerianic-persecution
 - type: associated-with
   target: lpc.force.confessors-claim-to-grant-peace
-name: Confessor-Authority vs. Episcopal-Regulated Peace [TENSIONAL]
-description: 'Doc_04 §3 Candidate 8: TENSIONAL. Author Gravity risk flagged at generation: the evidence
-  base is essentially one Registry row (1) read through one lexicon entry. Two genuinely distinct poles:
-  (a) confessors -- survivors of interrogation under persecution -- issuing written requests, on the strength
-  of their own confession, that named lapsed persons be received back, an informal claim to grant peace;
-  (b) Cyprian''s own regulated, episcopally-controlled penitential process, built specifically to answer
-  that competing claim. Repetition: passes as a persistent tension rather than a resolved position --
-  visible in Epistles XX-XXI (the confessors'' own informal, first-person exercise of this claimed authority)
-  and, in managed/regulated form, throughout De Lapsis and Cyprian''s own penitential correspondence.
-  Dependency: passes -- Candidate 2 exists in the shape it does specifically because an informal, competing
-  claim to grant peace already existed and had to be regulated, not invented from nothing. Formation:
-  passes -- shapes how Cyprian himself has to keep re-asserting episcopal authority over reconciliation
-  throughout his own crisis correspondence, rather than legislating it once and being done. Explanatory:
-  passes -- explains why De Lapsis and the lapsed-crisis Epistles argue so insistently for episcopal control
-  over readmission, a level of insistence Candidate 2''s own existence alone does not fully explain without
-  this tension behind it. Persistence: passes as a persistent, unresolved counter-pressure specifically
-  within the Cyprian-phase crisis window, rather than as a broadly world-organizing force in its own right
-  -- the Tensional classification''s own defining character, not a failure. Interaction: competes with
-  Candidate 2; reinforces Candidate 1. CONFIDENCE/GRAVITY CROSS-CHECK: Documented for both poles'' existence
-  (Epistles XX-XXI''s own first-person confessor correspondence; De Lapsis''s own regulating argument);
-  of the two loci, the Epistles (Row 1) sit at Confidence A and De Lapsis (Row 2) at B. No divergence
-  -- the tension itself, not a confidence gap, is the finding. FORCES-CONNECTION (Doc_08 §5): held, rather
-  than resolved, under the Initiating/External force that creates confessors as a category with any claim
-  to authority at all -- connected to 1A-1 (the Decian persecution, which is what creates confessors as
-  a class), 2A-1 (the Valerianic persecution, which confirms rather than reshapes this tension and ends
-  the phase in which it is attested), 2B-2 (the confessors'' own claim itself). Phase-one-bound on a positive
-  check -- all three connected forces are phase-one forces, and no Augustine-phase confessor-authority
-  material is identified anywhere in this world''s own corpus, confirming the bound rather than straining
-  it.'
+name: Confessor Authority vs. Episcopally Regulated Peace
+description: >-
+  A tensional gravity: two real, opposed pressures held in tension rather than settled. One caution was
+  flagged from the start. The evidence rests mainly on one source, Cyprian's Epistles, read through a
+  single term in this world's lexicon.
+
+
+  The first pole belongs to the confessors. These were Christians who survived interrogation under
+  persecution. On the strength of their confession, they wrote requests that named lapsed persons be
+  received back. This was an informal claim to grant peace. The second pole is Cyprian's own penitential
+  process, regulated and controlled by the bishop. He built it specifically to answer that rival claim.
+
+
+  The tension recurs rather than resolves. Epistles XX-XXI show the confessors using this claimed
+  authority themselves, in the first person. De Lapsis and Cyprian's letters on penance show the
+  regulated answer. Penitential discipline has the shape it does because a rival claim to grant peace
+  already existed. That claim had to be brought under order; the discipline was not invented from
+  nothing.
+
+
+  The tension shapes Cyprian's own conduct. Throughout his crisis letters he must keep reasserting the
+  bishop's authority over reconciliation, instead of settling it once. It explains why De Lapsis and the
+  letters on the lapsed insist so strongly on the bishop's control over readmission. Penitential
+  discipline alone does not fully explain that insistence.
+
+
+  The tension lasts only through Cyprian's crisis years. There it is a persistent, unresolved
+  counter-pressure, not a force that organizes the world as a whole. That is what makes it a tension. It
+  is not a failure. It competes with penitential discipline and reinforces the pastoral office.
+
+
+  Both poles are solidly attested. The confessors' own letters in Epistles XX-XXI and the regulating argument
+  of De Lapsis show them in their own words. The Epistles carry the higher citation grade (A) and De
+  Lapsis the lower (B). There is no confidence gap. The tension itself is the finding.
+
+
+  The forces around it hold the tension in place rather than resolve it. The Decian persecution created
+  confessors as a class with any claim to authority at all. The Valerianic persecution confirmed the
+  tension rather than reshaping it, and it ended the phase in which the tension appears. The confessors'
+  claim is itself a force. All three forces belong to the first phase. A positive check found no
+  confessor-authority material from Augustine's phase anywhere in this world's sources. That confirms
+  the tension belongs to the first phase alone.
 manifestations:
-- '"thousands of certificates were daily given, contrary to the law of the Gospel" (Force 2B-2''s own
-  Layer 1, quoting Cyprian directly, Doc_08 §3)'
+- Cyprian's complaint that "thousands of certificates were daily given, contrary to the law of the Gospel"
 - Epistles XX-XXI, the confessors' own informal, first-person written requests granting peace to the lapsed
-  (Registry row 1)
-- De Lapsis's own regulating argument for episcopal control over readmission (Registry row 2)
+- De Lapsis, Cyprian's argument for the bishop's control over readmission
 classification: tensional
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 8). relations[] carries the gravity<->gravity edges (G1, G2) and the gravity<->force edges (1A-1, 2A-1, 2B-2) named above.
