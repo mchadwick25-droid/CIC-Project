@@ -22,7 +22,16 @@ sources:
   locus: "the named modern authority this build uses on top of the vendored one-remove witnesses (Palladius, Sozomen) for Rule-content and Lives-incident claims, per this source's own stated role - matching desert.gravity.authority-tension's own citation of this source for the identical claim; not itself the authority Doc_02 SS1.2/SS3 cite, which state the Latin-transmission claim and the office names (housemaster, steward) on their own authority"
 name: "The formation-at-scale problem: Pachomius's cenobitic innovation [1B - initiating/internal]"
 kind: initiating
-description: "The internally-felt problem of how total ascetic formation could extend beyond one extraordinary individual's own solitary achievement to the many who sought to imitate it, without diluting that achievement or requiring each aspirant to independently rediscover Antony's own singular path. Pachomius founded the first cenobitic community at Tabennesi - as Palladius reports the vision (ch. XXXII) and as the Latin Rule tradition transmits the Rule and its offices (Doc_02 SS1.2, SS3) - establishing a written Rule, common property, and formal offices: a genuine institutional innovation distinct from, yet continuous with, the same total-commitment logic already carried by withdrawal and spiritual combat, applied now to a communal register."
+description: "This was a problem the ascetics themselves felt. One extraordinary person, Antony, had reached total ascetic formation
+  alone. How could it reach the many who wanted to copy him? And how could it do that without watering it down, or
+  forcing each seeker to find Antony's own path again, alone?
+
+
+  Pachomius founded the first cenobitic, or communal, monastery at Tabennesi. Palladius reports the vision in his
+  chapter XXXII, and the Latin Rule tradition passes on the Rule and its offices. Pachomius set up a written Rule,
+  common property, and formal offices. This was a genuinely new kind of institution. It differed from what came before.
+  Yet it carried on the same drive toward total commitment that already shaped withdrawal and spiritual combat. Now that
+  same drive was applied to life in community."
 matrix_cell: 1B
 manifestations:
 - "Pachomius's founding of the first cenobitic community at Tabennesi, traditionally after a vision in which an angel commanded him to 'collect all the young monks and dwell with them' and gave him the Rule on a brass tablet - as Palladius reports it (ch. XXXII), a vendored, hagiographic account; joined immediately by his brother John and then by further companions, per the Pachomian Lives tradition (desert.source.pachomian-corpus), whose incident-level reliability this build does not independently adjudicate - matching desert.figure.pachomius's own hedge for the identical claim"

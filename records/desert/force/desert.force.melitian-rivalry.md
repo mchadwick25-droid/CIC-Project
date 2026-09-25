@@ -24,7 +24,21 @@ sources:
   locus: "the sayings tradition's own comparable silence about Melitian ascetics as a named, ongoing presence (compiler-mediated, per this source's own compiler screen)"
 name: "The Melitian schism as a persistent, doctrinally distinct rival ascetic movement [2A - ongoing/external]"
 kind: ongoing
-description: "A rival, ecclesiastically distinct ascetic movement occupying the same geographic and social space as this world's own Nicene-communion material throughout its active life, with its own monastic archive and organizational forms. This world's own Nicene-communion sources are essentially silent about Melitian ascetics as a live, named rival presence - a silence this record reads as potentially informative rather than neutral, given Athanasius's own documented role - per Doc_02 SS6, cited as background rather than to a registered source record - as the Melitian schism's most powerful ecclesiastical adversary: this world's own literary self-presentation, produced substantially under his influence (desert.source.brakke-athanasius's own reading of the Vita as a theologically and politically motivated construction), had reason not to dwell on Melitian ascetic communities as legitimate co-participants in the same formation logic."
+description: "The Melitians were a rival ascetic movement, separate from this world's mainstream church. Throughout their active
+  life they occupied the same land and the same social world as this world's own mainstream community. They had their
+  own monastic archive and their own ways of organizing.
+
+
+  This world's mainstream sources say almost nothing about Melitian ascetics as a live, named rival. This record reads
+  that silence as possibly meaningful, not neutral. The reason is Athanasius. His role as the Melitian schism's most
+  powerful opponent in the church is documented. But this point comes from general background, not from a specific
+  source examined for this world.
+
+
+  Much of this world's written picture of itself was produced under his influence. The historian David Brakke reads
+  Athanasius's Life of Antony as a construction shaped by theological and political motives. On that reading, this
+  literature had reason not to dwell on Melitian ascetic communities as legitimate partners in the same way of forming a
+  life."
 matrix_cell: 2A
 manifestations:
 - "the Nepheros archive's own Melitian community, documented in the same period and region as the Nicene-communion material this world otherwise centers"
