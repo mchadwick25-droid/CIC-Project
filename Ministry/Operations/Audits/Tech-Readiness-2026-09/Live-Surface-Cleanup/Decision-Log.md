@@ -1341,3 +1341,50 @@ the six edited fixture fields exists elsewhere in the repo (grepped every `.py` 
 field's prior wording).
 
 ---
+
+**Entry 14 — PR #561 round 3 (head `e8dcc5a1`) independent re-review, three small items.** The
+Opus re-review confirmed every round-1 item fixed clean: the new `check_live_commentary` patterns
+(701 hits, spot-checked across 5 worlds, no false positives), `gate_readability`'s registry-driven
+field coverage, and every `ACCEPTED_OPEN` waiver correct - `engine.m9.cli check` clean, merge tree
+clean, tests passing. Three items left, all fixed in the same push (head `b7c551d6`):
+
+1. **The FK-8 band floor was documented as "reported, not failed" but nothing reported it.**
+   `gates.py`'s own comment on `FRE_FLOOR` had said so since round 1, with no code behind the
+   claim. Added `gate_readability_floor(records, fleet, registry)` and its fleet-scoped twin
+   `gate_readability_floor_fleet(fleet)`: the identical spoken-field set `gate_readability` grades
+   (via the same `_readability_checks` registry lookup), checked against `FK_FLOOR = 8` instead of
+   `FK_CEILING`/`FRE_FLOOR`. Neither function is registered in `GATES` - `engine.m2.validation`'s
+   `build_gates_report` (and therefore every world's committed `validation/gates-report.json` and
+   package pin) is untouched by this addition, no rebuild needed. `engine/m9/enforce.py` collects
+   both under a `"m1:readability-floor"` key (per-world in `collect_findings`'s own loop, plus the
+   fleet's own key alongside `"m1:readability-fleet"`), `hygiene_problems()` permanently skips that
+   key (unlike the R-4 voicing-pair carve-out, which is conditional and ends itself once
+   corpus-map lands a real pair, this one never ends - a sub-8 field is never a defect), and
+   `report_only()` now surfaces every `m1:readability-floor` finding fleet-wide rather than only
+   the R-4 case it used to be scoped to. Full-fleet run: 1,135 report-only observations, `engine.m9.cli
+   check` still exits clean. New tests: `engine/m1/tests/test_gate_readability.py` (a sub-8 field
+   is reported while `gate_readability` itself stays clean on the same record) and
+   `engine/m9/tests/test_enforce.py` (`hygiene_problems` never blocks on it, `report_only` surfaces
+   it).
+2. **Two build-vocabulary leaks this PR itself introduced.** `gates.py`'s own `FRE_FLOOR` comment
+   and `fk.py`'s `fre_score` docstring each quoted the North Star decision's own section heading,
+   "RULED - hard edge," verbatim - tripping `check_live_commentary`'s generic `ruled` pattern
+   (`\bRULED\b`) on the `engine` surface, the same pattern class Entry 9-11 above already spent
+   several rounds clearing out of this codebase's other comments. `_readability_checks`'s own
+   docstring separately cited this project's own history ("`story.tellable_as` and `voice_craft.*`
+   going ungraded for a real stretch of this project's life") rather than stating what the function
+   does. All three reworded to describe the code's own behavior and design reasoning directly, no
+   quoted ruling language, no project-history narration. Confirmed via `check_live_commentary
+   --surface engine`, diffed against `origin/main`'s own copies of both files: zero new hits on
+   either touched file (the two REWRITE hits this round's diff removes were not present on `main`
+   before this PR existed - genuinely new, not pre-existing debt this PR happened to touch).
+3. **PR body numbers.** Already corrected to the current, accurate figures (head `e8dcc5a1`, witt
+   194, 2,122 total, 701 hits) in a body update that landed before this review's findings were
+   relayed back - the review's own citation of stale numbers (`ea90c7e8`, witt 235, 2,154/2,163,
+   800) reflects the body's state at whatever moment the review actually ran, not its current
+   content. The body update accompanying this entry only advances the head SHA to `b7c551d6` and
+   adds this round's own section.
+
+Full local suite (829 passed), `engine.m1.selftest` (`overall_pass: true`), `engine.m9.cli check`
+(clean - 0 blocking problems, 1,135 report-only observations), and `check_paths.py` (0 new
+unresolved) all re-verified before pushing.
