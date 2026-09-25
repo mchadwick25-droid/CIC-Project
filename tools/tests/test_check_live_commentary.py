@@ -1477,3 +1477,118 @@ def test_previously_flagged_record_narration_stays_flagged():
     assert hit is not None and hit.category == "ROUTE"  # route-cue + process marker
     hit = _line_hit("records/don/gravity/don.gravity.rebaptism-boundary.md", 143)
     assert hit is not None and hit.category == "REWRITE"  # corrections-carried
+
+
+# ---------------------------------------------------------------------------
+# hits_for_new_world / --fail-on-new-world - the not-yet-wired-in admission
+# check Build Process V1.8 names ("the process-narration scan blocks new
+# worlds once its record-body checker passes review with measured
+# precision"). Testable now; not called by main()'s default path, and not
+# wired into any CI job or gate - both stay report-only/exit-0 regardless.
+# ---------------------------------------------------------------------------
+
+def test_hits_for_new_world_scopes_to_records_and_actionable_categories_only(tmp_path):
+    (tmp_path / "records/fix/source").mkdir(parents=True)
+    (tmp_path / "records/fix/source/fix.source.example.md").write_text(
+        "---\n"
+        "id: fix.source.example\n"
+        "record_type: source\n"
+        "status: draft\n"
+        "---\n"
+        "Cited and consulted by this build, read directly this session.\n",
+        encoding="utf-8",
+    )
+    # A different world's own REWRITE hit must not leak into fix's count.
+    (tmp_path / "records/other/source").mkdir(parents=True)
+    (tmp_path / "records/other/source/other.source.example.md").write_text(
+        "---\n"
+        "id: other.source.example\n"
+        "record_type: source\n"
+        "status: draft\n"
+        "---\n"
+        "Cited and consulted by this build, read directly this session.\n",
+        encoding="utf-8",
+    )
+    # worlds/fix/'s own build-log narration must not count toward fix
+    # either - this check is records/ only, per its own docstring.
+    (tmp_path / "worlds/fix").mkdir(parents=True)
+    (tmp_path / "worlds/fix/BUILD-LOG.md").write_text(
+        "Flagged for Mark: an open item still needs a ruling.\n", encoding="utf-8"
+    )
+
+    hits = clc.hits_for_new_world(tmp_path, "fix")
+    assert len(hits) == 1
+    assert hits[0].path == "records/fix/source/fix.source.example.md"
+    assert hits[0].category in ("REWRITE", "ROUTE")
+
+
+def test_hits_for_new_world_clean_world_returns_nothing(tmp_path):
+    (tmp_path / "records/fix/source").mkdir(parents=True)
+    (tmp_path / "records/fix/source/fix.source.example.md").write_text(
+        "---\n"
+        "id: fix.source.example\n"
+        "record_type: source\n"
+        "status: draft\n"
+        "---\n"
+        "The scholarly readings do not agree and this record adjudicates none of them.\n",
+        encoding="utf-8",
+    )
+    assert clc.hits_for_new_world(tmp_path, "fix") == []
+
+
+def test_hits_for_new_world_finds_real_fleet_debt_on_an_existing_world():
+    # Demonstrates the mechanism works against real data - lpc/ carries
+    # plenty of real REWRITE hits today (this PR's own before/after
+    # counts). Not a claim that lpc itself would be blocked: nothing
+    # calls this for an existing world.
+    hits = clc.hits_for_new_world(REPO, "lpc")
+    assert len(hits) > 0
+    assert all(h.path.startswith("records/lpc/") for h in hits)
+    assert all(h.category in ("REWRITE", "ROUTE") for h in hits)
+
+
+def test_main_fail_on_new_world_exit_code(tmp_path, monkeypatch, capsys):
+    (tmp_path / "records/fix/source").mkdir(parents=True)
+    (tmp_path / "records/fix/source/fix.source.example.md").write_text(
+        "---\n"
+        "id: fix.source.example\n"
+        "record_type: source\n"
+        "status: draft\n"
+        "---\n"
+        "Cited and consulted by this build, read directly this session.\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(clc, "REPO", tmp_path)
+    assert clc.main(["--fail-on-new-world", "fix"]) == 1
+    out = capsys.readouterr().out
+    assert "fix.source.example.md" in out
+
+    (tmp_path / "records/fix/source/fix.source.example.md").write_text(
+        "---\n"
+        "id: fix.source.example\n"
+        "record_type: source\n"
+        "status: draft\n"
+        "---\n"
+        "A clean record with no process narration at all.\n",
+        encoding="utf-8",
+    )
+    assert clc.main(["--fail-on-new-world", "fix"]) == 0
+
+
+def test_main_default_path_stays_exit_zero_even_with_hits(tmp_path, monkeypatch):
+    # The interim state Build Process V1.8 itself describes ("until
+    # then... it is report-only"): the default scan (no
+    # --fail-on-new-world) never fails the build, regardless of how
+    # much REWRITE/ROUTE debt exists.
+    (tmp_path / "records/fix/source").mkdir(parents=True)
+    (tmp_path / "records/fix/source/fix.source.example.md").write_text(
+        "---\n"
+        "id: fix.source.example\n"
+        "record_type: source\n"
+        "status: draft\n"
+        "---\n"
+        "Cited and consulted by this build, read directly this session.\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(clc, "REPO", tmp_path)
+    assert clc.main(["--surface", "records"]) == 0

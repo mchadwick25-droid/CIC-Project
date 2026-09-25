@@ -1155,11 +1155,63 @@ def run(repo: Path, surfaces: list[str]) -> list[Hit]:
     return hits
 
 
+def hits_for_new_world(repo: Path, world_code: str) -> list[Hit]:
+    """The actionable (REWRITE/ROUTE) records/<world_code>/ hits - the
+    check a future admission gate calls for a world going through
+    admission, per Build Process V1.8 ("the process-narration scan
+    blocks new worlds once its record-body checker passes review with
+    measured precision"). NOT wired into CI or any gate yet: V1.8's own
+    condition on this ("once ... passes review") has not been declared
+    met, so `main()` below stays report-only/exit-0 regardless of what
+    this function would find, exactly as V1.8 describes for the interim
+    state. This function exists so that wiring, when it happens, is a
+    small, reviewable addition rather than new design work done then -
+    and so its own precision is testable now, ahead of that.
+
+    Scoped to records/ only, not worlds/: worlds/ holds the construction
+    documents themselves (Doc_01-09, their reviews, build logs) and is
+    process-narration-heavy by design (CLAUDE.md: each world's own
+    indexes/build log/source manifests live there) - a new world isn't
+    expected to be clean there the way a new world's compiled records
+    are. Existing (already-admitted) worlds are never checked here at
+    all: this function has no registry-state awareness of its own by
+    design, the same way engine/m1/gates.py's own gate functions don't
+    know GRANDFATHERED_WORLDS - that's the caller's decision (which
+    world is "new"), not this tool's."""
+    hits = run(repo, ["records"])
+    prefix = f"records/{world_code}/"
+    return [h for h in hits if h.path.startswith(prefix) and h.category in ("REWRITE", "ROUTE")]
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--surface", choices=sorted(SURFACES), default=None)
     parser.add_argument("--json", type=Path, default=None)
+    parser.add_argument(
+        "--fail-on-new-world",
+        metavar="CODE",
+        default=None,
+        help=(
+            "Exit 1 if records/CODE/ carries any REWRITE/ROUTE hit - the "
+            "not-yet-wired-in check a future admission gate would call "
+            "for a world going through admission (Build Process V1.8). "
+            "The default scan below is unaffected and stays report-only."
+        ),
+    )
     args = parser.parse_args(argv)
+
+    if args.fail_on_new_world:
+        new_world_hits = hits_for_new_world(REPO, args.fail_on_new_world)
+        if new_world_hits:
+            print(
+                f"records/{args.fail_on_new_world}/: {len(new_world_hits)} "
+                "REWRITE/ROUTE hit(s) - not yet clean for admission\n"
+            )
+            for hit in new_world_hits:
+                print(hit.row())
+            return 1
+        print(f"records/{args.fail_on_new_world}/: clean (0 REWRITE/ROUTE hits)")
+        return 0
 
     surfaces = [args.surface] if args.surface else sorted(SURFACES)
     hits = run(REPO, surfaces)
