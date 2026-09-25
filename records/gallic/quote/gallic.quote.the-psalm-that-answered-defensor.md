@@ -35,9 +35,9 @@ text: >-
   censured in the reading from the prophets. For when it so happened that the reader, whose duty it was
   to read in public that day, being blocked out by the people, failed to appear, the officials falling
   into confusion, while they waited for him who never came, one of those standing by, laying hold of
-  the Psalter, seized upon the first verse which presented itself to him. Now, the Psalm ran thus: 'Out
+  the Psalter, seized upon the first verse which presented itself to him. Now, the Psalm ran thus: "Out
   of the mouth of babes and sucklings thou hast perfected praise because of thine enemies, that thou
-  mightest destroy the enemy and the avenger.' On these words being read, a shout was raised by the
+  mightest destroy the enemy and the avenger." On these words being read, a shout was raised by the
   people, and the opposite party were confounded. It was believed that this Psalm had been chosen by
   Divine ordination, that Defensor might hear a testimony to his own work, because the praise of the
   Lord was perfected out of the mouth of babes and sucklings in the case of Martin, while the enemy was

@@ -34,7 +34,7 @@ retrieval:
   - "participant wants the corpses and the aftermath - retrieve gallic.quote.salvian-on-the-unburied-dead"
   - "participant wants the whole episode told as a story - retrieve gallic.story.circuses-amid-the-ruins, which this record is drawn from"
 text: >-
-  The few men of rank who had survived destruction demanded of the emperors circuses as the sovereign
+  The few men of rank who had survived destruction demanded of the emperors ... circuses as the sovereign
   remedy for a ruined city. ... Do you, O citizens of Tréves, long for circuses when you have been
   plundered and captured, after slaughter and bloodshed, after stripes and captivity, and the repeated
   destruction of your ruined city? What is more lamentable than this stupidity, more grievous than this

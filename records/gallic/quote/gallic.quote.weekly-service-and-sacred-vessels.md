@@ -37,7 +37,7 @@ text: >-
   take their place the vessels and utensils with which they have ministered, which these receive and
   keep with the utmost care and anxiety, that none of them may be injured or destroyed, as they believe
   that even for the smallest vessels they must give an account, as sacred things, not only to a present
-  steward, but to the Lord.
+  steward, but to the Lord,
 speaker_or_author: gallic.figure.cassian
 license: verbatim
 modern_lens_note: >-

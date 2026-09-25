@@ -66,10 +66,10 @@ text: >-
   he had even for an hour been mixed up with the evil communion, and, not far from a village named
   Andethanna, where remote woods stretch far and wide with profound solitude, he sat down while his
   companions went on a little before him. There he became involved in deep thought, alternately accusing
-  and defending the cause of his grief and conduct. Suddenly, an angel stood by him and said, "Justly, O
+  and defending the cause of his grief and conduct. Suddenly, an angel stood by him and said, 'Justly, O
   Martin, do you feel compunction, but you could not otherwise get out of your difficulty. Renew your
   virtue, resume your courage, lest you not only now expose your fame, but your very salvation, to
-  danger." Therefore, from that time forward, he carefully guarded against being mixed up in communion
+  danger.' Therefore, from that time forward, he carefully guarded against being mixed up in communion
   with the party of Ithacius. But when it happened that he cured some of the possessed more slowly and
   with less grace than usual, he at once confessed to us with tears that he felt a diminution of his
   power on account of the evil of that communion in which he had taken part for a moment through

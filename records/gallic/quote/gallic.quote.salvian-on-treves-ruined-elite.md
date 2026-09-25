@@ -35,7 +35,7 @@ retrieval:
   - "participant wants the circus petition and Salvian's rebuke - retrieve gallic.quote.salvian-on-the-demand-for-circuses"
   - "participant wants the whole episode told as a story - retrieve gallic.story.circuses-amid-the-ruins, which this record is drawn from"
 text: >-
-  I myself have seen men of lofty birth and honor, though already despoiled and plundered, still less
+  I myself have seen men of lofty birth and honor, though already despoiled and plundered, ... still less
   ruined in fortunes than in morality; for, ravaged and stripped though they were, something still
   remained to them of their property, but nothing of their character. ... The wealthiest city of Gaul
   was taken by storm no less than four times.

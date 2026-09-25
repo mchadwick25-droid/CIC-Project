@@ -39,7 +39,7 @@ text: >-
   who makes the effort. For it is foolish, if, when for example, we see a husbandman taking the utmost
   pains over the cultivation of the ground, we do not ascribe the fruits to his exertions.
 
-  Chaeremon: ... Neither can the husbandman, when he has spent the utmost pains in cultivating the
+  ... Chæremon: ... Neither can the husbandman, when he has spent the utmost pains in cultivating the
   ground, forthwith ascribe the produce of the crops and the rich fruits to his own exertions, as he
   finds that these are often in vain unless opportune rains and a quiet and calm winter aids them ... As
   then the Divine goodness does not grant these rich crops to idle husbandmen who do not till their
@@ -49,7 +49,7 @@ text: >-
   all agricultural labours ... From which we clearly infer that the initiative not only of our actions
   but also of good thoughts comes from God, who inspires us with a good will to begin with, and supplies
   us with the opportunity of carrying out what we rightly desire ... But it is for us, humbly to follow
-  day by day the grace of God which is drawing us.
+  day by day the grace of God which is drawing us,
 speaker_or_author: "Germanus and Abbot Chaeremon, as Cassian records their exchange (Conference XIII.2-3)"
 license: verbatim
 modern_lens_note: >-

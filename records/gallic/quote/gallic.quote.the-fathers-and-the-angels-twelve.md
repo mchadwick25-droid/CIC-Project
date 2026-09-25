@@ -38,19 +38,19 @@ text: >-
   lukewarm by being dispersed among the many, the venerable fathers with watchful care made provision
   for those to come after them, and met together to discuss what plan should be adopted for the daily
   worship throughout the whole body of the brethren; ... send forth a poisonous root of error or
-  jealousy or schism among those who came after. ... in proportion to his own fervour--and unmindful of
-  the weakness of others, ... some were for fifty, others sixty, and some, not content with this
-  number, thought that they actually ought to go beyond it. ... such a holy difference of opinion in
+  jealousy or schism among those who came after. ... in proportion to his own
+  fervour—and unmindful of the weakness of others— ... some were for fifty, others sixty, and some, not content with this
+  number, thought that they actually ought to go beyond it,— ... such a holy difference of opinion in
   their pious discussion on the rule of their religion that the time for their Vesper office came
-  before the sacred question was decided. ... One rose up in the midst to chant the Psalms to the Lord.
+  before the sacred question was decided; ... One rose up in the midst to chant the Psalms to the Lord.
   And while they were all sitting ... with their minds intently fixed on the words of the chanter, when
   he had sung eleven Psalms, separated by prayers introduced between them, verse after verse being
   evenly enunciated, he finished the twelfth with a response of Alleluia, and then, by his sudden
   disappearance from the eyes of all, put an end at once to their discussion and their service.
-  Whereupon the venerable assembly of the Fathers understood that by Divine Providence a general rule
+  ... Whereupon the venerable assembly of the Fathers understood that by Divine Providence a general rule
   had been fixed for the congregations of the brethren through the angel's direction, and so decreed
   that this number should be preserved both in their evening and in their nocturnal services; ... they
-  added ... simply as extras and of their own appointment.
+  added ... simply as extras and of their own appointment,
 speaker_or_author: gallic.figure.cassian
 license: verbatim
 modern_lens_note: >-

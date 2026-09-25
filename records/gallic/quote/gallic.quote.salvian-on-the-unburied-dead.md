@@ -35,9 +35,9 @@ retrieval:
   - "participant wants the whole episode told as a story - retrieve gallic.story.circuses-amid-the-ruins, which this record is drawn from"
 text: >-
   This can be quickly tested by the example of the greatest city of Gaul, three times destroyed by
-  successive captures, yet when the whole city had been burned to the ground, its wickedness increased
+  successive captures, ... yet when the whole city had been burned to the ground, its wickedness increased
   even after its destruction. ... Some perished of hunger, others of nakedness, some wasting away,
-  others paralyzed with cold, and so all alike by diverse deaths hastened to the common goal. There lay
+  others paralyzed with cold, and so all alike by diverse deaths hastened to the common goal. ... There lay
   all about the torn and naked bodies of both sexes, a sight that I myself endured. ... lacerated by
   birds and dogs. The stench of the dead brought pestilence on the living: death breathed out death.
 speaker_or_author: "Salvian of Marseilles"
