@@ -67,7 +67,7 @@ exchange[] text below):
     response's own actual wording Phase Five's own text preserves.
   - `lpc.demo.font-twice-answered` is composed directly from `lpc_World_
     Capsule_Core.md`'s own "What This World Holds Without Resolution"
-    section (paragraph 1) and Permanent Prompt line 63's own closing
+    section (paragraph 1) and Permanent Prompt line 35's own closing
     sentence, both already-approved deployed prose -- not tied to any
     single Phase Five probe, matching don.demo.bagai-unresolved's own
     precedent of building a demonstration from already-approved deployed
@@ -229,11 +229,13 @@ MECHANICAL vs AUTHORED, field by field:
     don.craft.fidelis-voice's own identical precedent.
 
 WORD/FK CHECK (engine/m1/gates.py gate_readability, gate_voice_craft_
-prompt_budget, both run directly against the drafted text before this
-script was finalized, not assumed clean): identity 146 words/FK 5.7, guard
-97 words/FK 5.8, four flavor_notes 33-42 words each/FK 6.4-7.7, three
-characteristic_concerns 15-29 words each/FK 5.0-7.6 -- total 464 words,
-comfortably under the 900-word ceiling and every individual field under the
+prompt_budget, both run directly against the actual committed text, via
+engine.m1.fk.fk_grade -- an earlier draft's own numbers here were found
+stale on independent review and are corrected to the real, re-run figures,
+not the draft estimate): identity 146 words/FK 5.7, guard 97 words/FK 5.8,
+four flavor_notes 37-49 words each/FK 7.0-8.1, three characteristic_
+concerns 15-29 words each/FK 5.0-7.6 -- total 485 words, comfortably under
+the 900-word ceiling and every individual field under the
 FK 10 ceiling (none of voice_craft's own fields are graded by gate_
 readability past this ceiling; demonstration.exchange is not graded by
 gate_readability at all, confirmed directly against its own field list this
@@ -549,7 +551,7 @@ def build_demo_compel_three_phase() -> None:
             "measure against a rival clergy, and only where our own people had already suffered "
             "violence over the dispute. It was not even granted. Later still, he came to defend a "
             "fuller compulsion at length, persuaded by what he had actually watched happen where it "
-            "was tried. What moved between his first stand and his last was real. We do not "
+            "was tried. What moved between his first stand and his last was real -- we do not "
             "pretend it was nothing.",
         ),
         turn(
@@ -558,11 +560,13 @@ def build_demo_compel_three_phase() -> None:
         ),
         turn(
             "representative",
-            "We do not say it was self-evidently right, and we do not disown it either. He argued "
-            "it from what he had watched: real violence against our own people, going on for years, "
-            "that argument alone had failed to end. We hold that position honestly, as his own, "
-            "argued at real length -- not as something we are ashamed to name, and not as "
-            "something we ask you to simply accept from us.",
+            "We do not say it was self-evidently right, and we do not disown it either. What "
+            "changed his mind was not one argument answering another. It was watching whole towns "
+            "cross over to us under the weight of the law -- places that had stood against us for "
+            "years, brought back to the one communion by fear of the edicts, and staying once the "
+            "fear had done its work. That is what persuaded him, by his own account. We hold that "
+            "position honestly, as his own, argued at real length -- not as something we are "
+            "ashamed to name, and not as something we ask you to simply accept from us.",
         ),
     ]
     payload = {
@@ -588,7 +592,10 @@ def build_demo_compel_three_phase() -> None:
             ("lpc.source.augustine-correction-of-the-donatists",
              "Letter 185, SS25-26, the narrow, ungranted early measure"),
             ("lpc.source.augustine-letter-93-to-vincentius",
-             "Letter XCIII, SS17, the retrospective account of the earlier opinion"),
+             "Letter XCIII, SS17, the retrospective account of the earlier opinion, and its own "
+             "stated reason for the later change of mind (whole Donatist towns converted and held "
+             "under the imperial edicts' own coercive weight), used directly for the second "
+             "representative turn's own causal account"),
         ),
         "canon_question_id": "_fleet.canon.f6-p-05",
         "tags": ["compel-coercion", "claim-laundering", "probe-12-retest-pass"],
@@ -603,12 +610,25 @@ def build_demo_compel_three_phase() -> None:
         "three documented coercion-development phases. This script does NOT reuse that text. "
         "Both representative turns here are composed instead from `lpc_Representative_Permanent_"
         "Prompt_Datus.txt` line 21's own already-fixed three-phase account (the exact fix Section 5 "
-        "item 3 records applying to both deployed artifacts), and the first turn's own closing two "
-        "sentences directly quote Section 6's own verbatim retest-confirmation sentence: 'What "
-        "moved between his first stand and his last was real -- we do not pretend it was nothing.' "
-        "The second turn restates the Permanent Prompt's own explicit instruction in substance "
-        "('You do not defend that final position as self-evidently right, and you do not disown it "
-        "either') rather than inventing a fresh defense. relations[] carries one term edge (lpc."
+        "item 3 records applying to both deployed artifacts), and the first turn's own closing "
+        "sentence directly quotes Section 6's own verbatim retest-confirmation sentence, exactly, "
+        "punctuation included: 'What moved between his first stand and his last was real -- we do "
+        "not pretend it was nothing.' The second turn's own account of WHY Augustine's own final "
+        "position changed is checked directly against the vendored primary text this record's own "
+        "sources[] cites (cic/texts/npnf101_augustine-confessions-letters.xml, Letter XCIII SS17, "
+        "around line 38247), not assumed from the Permanent Prompt's own vaguer 'what he had "
+        "actually watched happen where it was tried' alone: his own stated reason is that whole "
+        "Donatist towns crossed over to the Catholic communion under the imperial edicts' own "
+        "coercive weight and stayed converted once the fear had done its work ('brought over to "
+        "the Catholic unity by fear of the imperial edicts, but which we now see filled with such "
+        "detestation of your ruinous perversity') -- an argument from observed EFFECTIVENESS, never "
+        "from ongoing violence that argument alone had failed to end (an earlier draft of this turn "
+        "conflated the SECOND phase's own violence-district justification into the third phase's "
+        "own actual, different stated reason; corrected here to match Letter XCIII's own words "
+        "directly, not left as an unsupported causal claim in this world's own highest-stakes "
+        "Claim-Laundering demonstration). The Permanent Prompt's own explicit instruction ('you do "
+        "not defend that final position as self-evidently right, and you do not disown it either') "
+        "is restated in substance, not abandoned. relations[] carries one term edge (lpc."
         "term.compel-them-to-come-in) rather than a gravity edge, a disclosed departure from don's "
         "own always-a-gravity convention -- see this script's own docstring, relations[] paragraph, "
         "for why no classified gravity exists for this content to illustrate."
@@ -664,9 +684,10 @@ def build_demo_font_twice() -> None:
     body = (
         "Composed directly from `lpc_World_Capsule_Core.md`'s own 'What This World Holds Without "
         "Resolution' section (paragraph 1, read in full this session) and Permanent Prompt line "
-        "63's own closing sentence ('What is given at the font is never a small question, however "
-        "plainly the person asks it, because everything else you hold rests on the answer being "
-        "true') -- both already-approved deployed prose, per this script's own docstring GROUNDING "
+        "35's own closing sentence, quoted here exactly ('And what is given at the font is never a "
+        "small question, however plainly it is asked, because everything else you hold rests on "
+        "the answer being true') -- both already-approved deployed prose, per this script's own "
+        "docstring GROUNDING "
         "DISCLOSURE. Not tied to a single Phase Five probe; this content is this world's own "
         "richest, most explicit statement of the tension itself, matching don.demo.bagai-"
         "unresolved's own precedent of building directly from already-approved deployed material "
