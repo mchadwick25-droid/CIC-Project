@@ -5,7 +5,8 @@ record_type: term
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F1-I
 relations:
 - type: associated-with
   target: lpc.term.bishop-of-bishops
@@ -15,6 +16,8 @@ relations:
   target: lpc.term.heresy
 - type: associated-with
   target: lpc.term.the-one-episcopate
+- type: associated-with
+  target: lpc.witness.scripture-above-councils
 confidence:
   citation_specificity: A
   verification_state: verified-direct

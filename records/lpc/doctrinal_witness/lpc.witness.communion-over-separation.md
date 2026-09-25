@@ -41,7 +41,7 @@ positions:
 - 'We can argue that a colleague''s own ruling was wrong, at real length, without ever placing him outside
   our own table for having been wrong. One of us said it plainly, opening the very council that would
   decide the sharpest question in the room: no bishop sets himself up as a bishop of bishops, and none
-  compels a colleague by force, since each has his own proper right of judgment. A century and a third
+  compels a colleague by force, since each has his own proper right of judgment. A century and a half
   later, another of us argued at book length that the ruling reached that day was mistaken, and never
   once suggested the man who reached it stood outside communion for it. Disagreement, in our own life,
   is not a reason to separate. It is close to the opposite: separating over a disagreement is the one
@@ -60,7 +60,7 @@ text: 'We can argue that a colleague''s own ruling was wrong, at real length, an
   as outside our own table for having been wrong. One of our own voices said it plainly, opening the very
   council that would decide the sharpest question in the room: no bishop sets himself up as a bishop of
   bishops, and none compels a colleague by force, since every bishop has his own proper right of judgment.
-  A century and a third later, another of our own voices argued at book length that the ruling reached
+  A century and a half later, another of our own voices argued at book length that the ruling reached
   that day was mistaken, and never once suggested the man who reached it stood outside our communion for
   having reached it. Disagreement is not, for us, a reason to separate. It is close to the opposite: separating
   over a disagreement is the one thing our own life has organized itself never to repeat, because we have
