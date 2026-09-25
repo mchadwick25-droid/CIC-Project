@@ -21,7 +21,7 @@ sources:
   locus: the wounded-shepherd image, answerability felt as injury
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle XV, the certificate process, answerability enacted as the road back
+  locus: Epistle X, the certificate process, answerability enacted as the road back
   license: public-domain
 - source_id: lpc.source.augustine-on-baptism-against-the-donatists
   locus: the second phase's own font answer, the same answerability applied to a harder case

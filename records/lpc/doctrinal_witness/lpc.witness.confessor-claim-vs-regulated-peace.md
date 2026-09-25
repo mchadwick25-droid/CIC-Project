@@ -22,7 +22,7 @@ sources:
   locus: the confessors' own claim, 'the white-robed cohort,' used directly
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
-  locus: Epistle XV, the certificate process the confessor's claim presses against
+  locus: Epistle X, the certificate process the confessor's claim presses against
   license: public-domain
 retrieval:
   tier: 2
