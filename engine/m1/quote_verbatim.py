@@ -621,7 +621,7 @@ def gate_quote_verbatim(records, fleet, registry) -> list[str]:
 # Read off each world's own quote records' confidence.verification_state
 # at run time (REPORT_WORLDS below), not hardcoded, so a world's real
 # state always wins over this list if the two ever disagree.
-AUDITED_WORLDS = ("pahc", "syr", "desert", "hal", "alx", "ijc")
+AUDITED_WORLDS = ("pahc", "syr", "desert", "hal", "alx", "ijc", "lpc")
 OTHER_WORLDS = ("cappadocian", "don", "gallic", "rzg", "witt")
 REPORT_WORLDS = AUDITED_WORLDS + OTHER_WORLDS
 

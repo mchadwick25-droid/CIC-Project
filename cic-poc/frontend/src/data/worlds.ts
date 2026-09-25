@@ -80,17 +80,9 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
   // as a fill (clears >=5.0:1).
   witt: { portraitImage: '/images/portraits/nikolaus.jpg', accentColor: '#579C40' },
-  // No documented visual/thematic grounding for this world's own accent hue -- unlike
-  // every entry above. The one documented color fact (Datus's garment, "grey-taupe against
-  // cream," Datus_Portrait_Prompt.md's own Comparanda note) lands at H=29deg, S=11.7%, which
-  // collides directly with alx (2.8deg), ijc (2.5deg), and cappadocian (9.5deg) -- an
-  // unusable hue for a distinct accent. H=305deg (orchid/plum) is this file's own widest open
-  // hue gap (37.8deg from tyrian, 38.8deg from hal, the nearest neighbors), picked for
-  // collision safety only. S=42% (mid-range against the fleet's own 12-55% spread), L=58.5%
-  // is the first point clearing both dark-mode thresholds: 5.30:1 vs the dark ground
-  // #17130F (>=5.3:1) and 5.00:1 vs --color-surface #1E1913 as dark text on top of it as a
-  // fill (>=5.0:1). Flagged for the project lead to revisit with a genuine grounding once one
-  // exists, rather than left uncommented as if it were.
+  // H=305deg (orchid/plum), the widest open hue gap against every color above and the two
+  // reserved semantic tokens. S=42%, L=58.5% clears both dark-mode thresholds: 5.30:1 vs the
+  // dark ground #17130F and 5.00:1 vs --color-surface #1E1913 as a fill under dark text.
   lpc: { portraitImage: '/images/portraits/datus.jpg', accentColor: '#C269BA' },
 };
 

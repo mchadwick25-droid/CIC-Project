@@ -27,9 +27,8 @@ names:
 - name: Pontius the Deacon (fl. mid-3rd century)
   tag: scholarly
 dates:
-  display: Cyprian's own deacon, present with him at his banishment to Curubis (lpc.source.pontius-life-and-passion-of-cyprian's
-    own confidence note); wrote The Life and Passion of Cyprian after his bishop's execution in 258, the
-    first Christian biography (Doc_09 SS2)
+  display: Cyprian's own deacon, present with him at his banishment to Curubis; wrote The Life and
+    Passion of Cyprian after his bishop's execution in 258, the first Christian biography
 narratable: true
 bridge_line: our bishop's own deacon, who stayed with him through exile and wrote, after the execution,
   the account by which most of what we remember of Cyprian's own life reaches us

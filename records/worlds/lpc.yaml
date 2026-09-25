@@ -5,24 +5,24 @@ time_window: {start: 246, end: 430}
 place: "Roman North Africa - Carthage and Hippo Regius"
 doorway_place: "Carthage"
 doorway_description: >-
-  A trained rhetorician turned from a public career to Christian life around
-  246, and within a few years his own congregation had made him their
+  A trained rhetorician turned from a public career to Christian life
+  around 246. Within a few years, his own congregation made him their
   bishop, over the recorded objection of five of his own fellow clergy.
-  This is the ordinary church that grew from that election: not a
-  movement organized around a single doctrine or a single crisis, but a
-  bishop answerable for a particular people, a road back for those who
-  fail publicly and are received home again, and colleagues who argue real
-  disagreements at length without ever putting each other outside the same
-  table. A century and a half later, the bishop who then held that same
-  office in a neighboring see died in his own city while a Vandal army lay
-  outside its walls - closing the same office's own life that had opened
-  it.
+  This is the ordinary church that grew from that election. It was not a
+  movement built around one doctrine or one crisis. It was a bishop
+  answerable for a particular people, with a road back for those who fail
+  publicly and are received home again. Its colleagues argued real
+  disagreements at length, but never put each other outside the same
+  table. Nearly two centuries later, a bishop who held that same office in
+  a see further along the same coast died in his own city. A Vandal army
+  lay outside its walls when he died - closing the same office's own life
+  that had opened it.
 card_name: "The Ordinary Church"
 representative: {name: Datus, role_label: "Bishop of the Kept Flock"}
 census_id: "latin-pastoral-congregational-christianity"
-thinness_statement: "Richest in the record of two bishops' own pastoral office, penitential discipline, and communion held across real disagreement, drawn from the largest and most direct primary-source base of any world built so far; both voices speak in their own words, as bishops of the tradition itself, not as quotations inside a hostile source. Thinner on ordinary lay believers' own interior life - no source in this world's own record is authored by an ordinary believer about ordinary congregational life as such - and on women's own words, though Pontius, a deacon, and two lay confessors' own letters (Epistles XX-XXI) reach beyond the episcopate. Material evidence is unexcavated rather than absent: no site report or inscription catalogue has been checked for this world, though a pastoral letter describes an apse and seating for clergy and congregation. This world has no founding narrative or origin myth, a positive fact about a community that understood itself as the ordinary church rather than a gap in its record."
+thinness_statement: "Richest in the record of two bishops' own pastoral office, penitential discipline, and communion held across real disagreement, drawn from the largest and most direct primary-source base of any world built so far; both voices speak in their own words, as bishops of the tradition itself, not as quotations inside a hostile source. Thinner on ordinary lay believers' own interior life - no source in this world's own record is authored by an ordinary believer about ordinary congregational life as such - and on women's own words, though Pontius, a deacon, and two lay confessors' own letters (Epistles XX-XXI) reach beyond the episcopate. Material evidence has not been consulted here rather than absent: Carthage and Hippo Regius both hold real excavated Christian sites, but no site report or inscription catalogue has been checked for this world, though a pastoral letter describes an apse and seating for clergy and congregation. This world has no founding narrative or origin myth, a positive fact about a community that understood itself as the ordinary church rather than a gap in its record."
 living_tradition_flag: true
 state: built
 package:
-  manifest_hash: "sha256:81b2577cd81b4de50f05d177a7e32bb15ec95284cd4e922aab7b450070a905de"
-  location: "packages/lpc/2026-09-25T15-33-19Z"
+  manifest_hash: "sha256:a093a30254815e7a23b5d471b2ad0fa6422c59cb500c18ef1de4880f0d46c16a"
+  location: "packages/lpc/2026-09-25T16-28-41Z"

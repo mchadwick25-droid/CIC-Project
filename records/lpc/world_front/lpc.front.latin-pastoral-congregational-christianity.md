@@ -17,15 +17,15 @@ export:
 skim:
   tile:
     text: >-
-      Two bishops, a century and a third apart, held the same office over the
+      Two bishops, nearly two centuries apart, held the same office over the
       same kind of ordinary congregation in Roman North Africa. The first
       turned from a public career to the church around 246 and was made
       bishop by his own people's demand within a few years, over the
       recorded objection of some of his own fellow clergy. He led his flock
       through a persecution that sorted the failed from the faithful, then
       through a plague, then to his own execution in 258. The second held
-      the same office a century and a third later in a neighboring city,
-      preaching to the same gathered congregation for over three decades,
+      the same office over a century and a half later, in a city further
+      along the same coast, preaching to the same gathered congregation for over three decades,
       and died in his own city while a Vandal army lay outside its walls.
       Between the two lies a silence of roughly a hundred and thirty years,
       in which this world's own congregational voice falls quiet. What
@@ -60,7 +60,7 @@ orientation:
       election against a faction that had never accepted it, he named the
       two things acting together in that choice: "your suffrage and God's
       judgment," set against a faction's own "ancient venom." The pattern
-      was not a single event. A century and a third later, the second
+      was not a single event. A century and a half later, the second
       bishop was seized into office twice over his own reluctance, by the
       same kind of congregational acclaim.
     grounded_in: [lpc.story.election-of-cyprian, lpc.force.congregational-acclamation-overriding-preference, lpc.quote.ancient-venom-against-my-episcopate]
@@ -105,7 +105,7 @@ orientation:
       own career, Cyprian stated the rule that held this world together
       across every disagreement it ever produced: "neither does any of us
       set himself up as a bishop of bishops... since every bishop... has
-      his own proper right of judgment." A century and a third later, the
+      his own proper right of judgment." A century and a half later, the
       second bishop argued at book length that the ruling reached that day
       was wrong - and never once suggested the man who reached it stood
       outside communion for it. Disagreement, in this world, was not a
@@ -287,7 +287,7 @@ orientation:
   - source: lpc.source.pontius-life-and-passion-of-cyprian
     note: "The first Christian biography, written by an admiring eyewitness deacon after his bishop's execution - the source for most of what survives about Cyprian's own early life and death, and openly a portrait rather than a neutral report."
   - source: lpc.source.possidius-vita-augustini-weiskotten1919
-    note: "Written by a friend of nearly forty years, present in the room for Augustine's own last illness and death - the mirror of Pontius's own role a century and a third later, friendly rather than hostile, and an eyewitness rather than only a chronicler."
+    note: "Written by a friend of nearly forty years, present in the room for Augustine's own last illness and death - the mirror of Pontius's own role nearly two centuries later, friendly rather than hostile, and an eyewitness rather than only a chronicler."
 narrative:
   who_speaks:
     text: >-
@@ -297,7 +297,7 @@ narrative:
       Pontius is his own deacon, the eyewitness whose account of Cyprian's
       life and death this world reads as a portrait, not a neutral record.
       Augustine is the second anchor, seized into office twice over his own
-      reluctance, arguing across a century and a third with a predecessor
+      reluctance, arguing across a century and a half with a predecessor
       he never disowned. Possidius stood by him at the end, the mirror of
       Pontius's own role a friendly generation later. And Numidicus,
       ordained on the strength of what he survived rather than what he

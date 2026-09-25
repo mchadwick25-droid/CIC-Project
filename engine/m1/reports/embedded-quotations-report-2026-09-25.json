@@ -703,6 +703,509 @@
       "self_quote_span_count": 0,
       "self_quote_findings": []
     },
+    "lpc": {
+      "world": "lpc",
+      "non_quote_records": 306,
+      "records_with_embedded_quotation": 23,
+      "span_count": 59,
+      "findings": [
+        {
+          "id": "lpc.contested.cyprian-death-genre",
+          "record_type": "contested_claim",
+          "spans": [
+            {
+              "field": "claim",
+              "span": "direct textual attestation... named author with identifiable social location... datable with reasonable confidence",
+              "words": 13,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.core.latin-pastoral-congregational-christianity",
+          "record_type": "world_core",
+          "spans": [
+            {
+              "field": "formation_logic",
+              "span": "judging no man, nor rejecting any one from the right of communion, if he should think differently from us.",
+              "words": 19,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "cautions",
+              "span": "you are held, and this needs more than this conversation can give.",
+              "words": 12,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+          "record_type": "force",
+          "spans": [
+            {
+              "field": "description",
+              "span": "[E]ven of the plenary Councils, the earlier are often corrected by those which follow them.",
+              "words": 15,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.force.confessors-claim-to-grant-peace",
+          "record_type": "force",
+          "spans": [
+            {
+              "field": "description",
+              "span": "thousands of certificates were daily given, contrary to the law of the Gospel.",
+              "words": 13,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.force.congregational-acclamation-overriding-preference",
+          "record_type": "force",
+          "spans": [
+            {
+              "field": "description",
+              "span": "by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte.",
+              "words": 30,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.force.decian-persecution-libelli-system",
+          "record_type": "force",
+          "spans": [
+            {
+              "field": "description",
+              "span": "[I]t is the shepherd that is chiefly wounded in the wound of his flock.",
+              "words": 14,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.force.transmission-institutionally-dominant-side",
+          "record_type": "force",
+          "spans": [
+            {
+              "field": "description",
+              "span": "these thirteen letters sent forth at various times declare to you, which I have transmitted to you.",
+              "words": 17,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "description",
+              "span": "writing and the matter, and even the paper itself, gave me the idea that something had been taken away, or had been changed from the original.",
+              "words": 26,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.gravity.collegial-communion-preserved",
+          "record_type": "gravity",
+          "spans": [
+            {
+              "field": "description",
+              "span": "neither does any of us set himself up as a bishop of bishops... every bishop... has his own proper right of judgment.",
+              "words": 22,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.limit.ordinary-interior-life",
+          "record_type": "honest_limit",
+          "spans": [
+            {
+              "field": "statement",
+              "span": "how greatly did I weep in Thy hymns and canticles.",
+              "words": 10,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.celerinus-writes-to-lucian",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "Know, nevertheless, that I am placed in the midst of a great tribulation,",
+              "words": 13,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "I ask that you will grant my desire, and that you will grieve with me at the (spiritual) death of my sister, who in this time of devastation has fallen from Christ.",
+              "words": 32,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "were ordered to be put to death by hunger and thirst, and were shut up in two cells, that so they might weaken us by hunger and thirst.",
+              "words": 28,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "But now we have attained the brightness itself.",
+              "words": 8,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "whose names I have not written, because I am already weary. Therefore they must pardon me.",
+              "words": 16,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.election-of-cyprian",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "For the proof of his good works I think that this one thing is enough,",
+              "words": 15,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "that by the judgment of God and the favour of the people, he was chosen to the office of the priesthood and the degree of the episcopate while still a neophyte, and, as it was considered, a novice.",
+              "words": 38,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "still in the early days of his faith, and in the untaught season of his spiritual life.",
+              "words": 17,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.hundred-thousand-sesterces",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "With excessive grief of mind, and not without tears.",
+              "words": 9,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "as many of you as have been baptized into Christ have put on Christ,",
+              "words": 14,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "Christ is to be contemplated in our captive brethren, and He is to be redeemed from the peril of captivity who redeemed us from the peril of death.",
+              "words": 28,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "We have then sent you a sum of one hundred thousand sesterces, which have been collected here in the Church over which by the Lord's mercy we preside, by the contributions of the clergy and people established with us, which you will there dispense with what diligence you may.",
+              "words": 49,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "fruitful fields in which we might cast the seeds of our hope.",
+              "words": 12,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.numidicus",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "by his exhortation sent before himself an abundant number of martyrs, slain by stones and by the flames.",
+              "words": 18,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "beheld with joy his wife abiding by his side, burned (I should rather say, preserved) together with the rest.",
+              "words": 19,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "half consumed, overwhelmed with stones, and left for dead.",
+              "words": 9,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "Was found half dead, was drawn out and revived.",
+              "words": 9,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "remained unwillingly from among the companions whom he himself had sent before.",
+              "words": 12,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "that the Lord might add him to our clergy.",
+              "words": 9,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.the-death-of-cyprian",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "Persons who favoured him had climbed up into the branches of the trees.",
+              "words": 13,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "that there might not even be wanting to him (what happened in the case of Zacchæus), that he was gazed upon from the trees.",
+              "words": 24,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "Having with his own hands bound his eyes, he tried to hasten the slowness of the executioner.",
+              "words": 17,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "until the mature hour of glorification strengthened the hand of the centurion with power granted from above.",
+              "words": 17,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.the-plague-and-the-enemies",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "and excessive destruction of a hateful disease invaded every house in succession of the trembling populace, carrying off day by day with abrupt attack numberless people, every one from his own house.",
+              "words": 32,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "All were shuddering, fleeing, shunning the contagion, impiously exposing their own friends",
+              "words": 12,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "no longer bodies, but the carcases of many.",
+              "words": 8,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "continually makes His sun to rise, and from time to time gives showers to nourish the seed, exhibiting all these kindnesses not only to His people, but to aliens also.",
+              "words": 30,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "to answer to our birth; and it is not fitting that those who are evidently born of God should be degenerate.",
+              "words": 21,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "to all men, not to those only who are of the household of faith.",
+              "words": 14,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.story.the-psalms-on-the-wall",
+          "record_type": "story",
+          "spans": [
+            {
+              "field": "text",
+              "span": "And this he himself did in his last illness of which he died. For he commanded that the shortest penitential Psalms of David should be copied for him, and during the days of his sickness as he lay in bed he would look at these sheets as they hung upon the wall and read them; and he wept freely and constantly.",
+              "words": 61,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "asked of us who were present that no one should come in to him, except only at the hours in which the physicians came to examine him or when nourishment was brought to him.",
+              "words": 34,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "With all the members of his body intact, with sight and hearing unimpaired, while we stood by and watched and prayed, 'he slept with his fathers,' as it is written, 'well-nourished in a good old age.'",
+              "words": 36,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.almsgiving-quenches-sin",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "a wealthy and rich matron in Christ's Church.",
+              "words": 8,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "As water extinguisheth fire, so almsgiving quencheth sin.",
+              "words": 8,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "a wealthy and rich matron in Christ's Church.",
+              "words": 8,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "As water extinguisheth fire, so almsgiving quencheth sin.",
+              "words": 8,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.apostolic-succession-of-bishops",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "In this order of succession no Donatist bishop is found.",
+              "words": 10,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "upon this rock will I build my Church,",
+              "words": 8,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "In this order of succession no Donatist bishop is found.",
+              "words": 10,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.baptism-traced-to-the-apostles",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "rightly believed to have been handed down from the apostles.",
+              "words": 10,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "text",
+              "span": "rightly held to have been handed down by apostolical authority.",
+              "words": 10,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "is rightly believed to have been handed down from the apostles.",
+              "words": 11,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.grant-me-chastity-but-not-yet",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "Grant me chastity and continency, but not yet,",
+              "words": 8,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.heard-for-salvation-not-for-wish",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "My grace is sufficient for thee: for strength is made perfect in weakness.",
+              "words": 13,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "Thou hast formed us for Thyself, and our hearts are restless till they find rest in Thee.",
+              "words": 17,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "Thou hast formed us for Thyself, and our hearts are restless till they find rest in Thee.",
+              "words": 17,
+              "self_quote_of_build_document": false
+            }
+          ]
+        },
+        {
+          "id": "lpc.witness.violence-commanded-not-cruel",
+          "record_type": "doctrinal_witness",
+          "spans": [
+            {
+              "field": "text",
+              "span": "acted not in cruelty, but in righteous retribution, giving to all what they deserved.",
+              "words": 14,
+              "self_quote_of_build_document": false
+            },
+            {
+              "field": "positions",
+              "span": "acted not in cruelty, but in righteous retribution, giving to all what they deserved.",
+              "words": 14,
+              "self_quote_of_build_document": false
+            }
+          ]
+        }
+      ],
+      "records_with_build_document_self_quote": 0,
+      "self_quote_span_count": 0,
+      "self_quote_findings": []
+    },
     "cappadocian": {
       "world": "cappadocian",
       "non_quote_records": 258,
@@ -753,8 +1256,8 @@
     "don": {
       "world": "don",
       "non_quote_records": 243,
-      "records_with_embedded_quotation": 11,
-      "span_count": 16,
+      "records_with_embedded_quotation": 5,
+      "span_count": 7,
       "findings": [
         {
           "id": "don.dw.becoming-one-of-us",
@@ -782,96 +1285,6 @@
               "field": "text",
               "span": "not only in a Roman state, but even in his own country, and not only in his own country, but in his own house.",
               "words": 24,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "don.force.transmission-hostile-manuscript-tradition",
-          "record_type": "force",
-          "spans": [
-            {
-              "field": "description",
-              "span": "are the required transmission entries, which this document treats as cross-cutting rather than gravity-specific",
-              "words": 14,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "don.force.vandal-capture-of-carthage",
-          "record_type": "force",
-          "spans": [
-            {
-              "field": "description",
-              "span": "the removal of the Roman-imperial, Catholic-aligned adjudicating power this world's entire refusal-of-imperial-legitimacy pattern is defined against",
-              "words": 16,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "don.gravity.martyr-cult-identity",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "this world's own distinctive strength among the nine confirmed worlds.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "don.gravity.parallel-institutional-hierarchy",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "two rival bishoprics from the outset... the contest replicated town-for-town",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the parallel episcopal hierarchy are this world's most recurring formative material",
-              "words": 11,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "don.gravity.principled-refusal-vs-pragmatic-recourse",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "the pattern remains refusal-under-pressure on balance... not an absolute refusal at every point",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the clearest case in this document of a gravity whose own forces-connection genuinely spans multiple cells",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "These two tensions operate on different axes (external state relations versus internal disciplinary consistency) and no evidence in this world's record connects them directly; naming this absence explicitly is itself a finding, not an oversight.",
-              "words": 35,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "don.gravity.rebaptism-boundary-marking",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "rebaptism as the rite that marks who truly belongs",
-              "words": 9,
               "self_quote_of_build_document": false
             }
           ]
@@ -926,8 +1339,8 @@
     "gallic": {
       "world": "gallic",
       "non_quote_records": 196,
-      "records_with_embedded_quotation": 83,
-      "span_count": 428,
+      "records_with_embedded_quotation": 68,
+      "span_count": 254,
       "findings": [
         {
           "id": "gallic.contested.egypt-two-measures",
@@ -1824,84 +2237,6 @@
           ]
         },
         {
-          "id": "gallic.gravity.authority-ambivalence",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "some of his calumniators ... were reported to be no others than bishops!",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "in Martin alone, apostolic authority continued to assert itself",
-              "words": 9,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "never again did he attend a synod, and kept carefully aloof from all assemblies of bishops",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "incites a man to desire the holy office of the clergy under the pretext of edifying many people",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "clung to their views in spite of the authority of the Pope.",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "to the rashness and ignorance of a few",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "a private fancy of his own ... be he a bishop, be he a Confessor, be he a martyr",
-              "words": 19,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "with opposed valences - and the opposition is the finding",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the gravity's southern valence, defiance of Rome, is PRODUCED by that force and is its clearest textual trace",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the Lérins network becomes the episcopate it once fled, and the grace argument is carried by synodal commission",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "This is the gravity whose fracture IS the world's boundary.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
           "id": "gallic.gravity.egypt-as-measure",
           "record_type": "gravity",
           "spans": [
@@ -2226,78 +2561,6 @@
           ]
         },
         {
-          "id": "gallic.gravity.received-not-invented",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "not to those customs and rules which the will of a few have introduced, but to those which a long standing antiquity and numbers of the holy fathers have passed on by an unanimous decision",
-              "words": 35,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the Institutes which are not mine but the fathers'",
-              "words": 9,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "relied on his own judgment rather than on the traditions of the Elders ... forsook the desert",
-              "words": 17,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "that faith which has been believed everywhere, always, by all ... universality, antiquity, consent",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "Let there be no innovation - nothing but what has been handed down",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "not an author but a keeper, not a teacher but a disciple, not a leader but a follower",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "his authority to the opinion of the multitude",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "no steady tradition respecting them had come down from antiquity",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the strongest lexical link ... between Vincent's doctrinal method and Cassian's monastic method, and between both and Martin",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "the same instrument turned on the same pressure",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "a boundary drawn by consent invited a contest over who held the consent",
-              "words": 13,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
           "id": "gallic.gravity.soldier-of-christ",
           "record_type": "gravity",
           "spans": [
@@ -2394,540 +2657,6 @@
           ]
         },
         {
-          "id": "gallic.story.bishop-archebius",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "presiding as he does over a large monastery of the brethren",
-              "words": 11,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "and had brought about the arrival of that most blessed and excellent man Bishop Archebius, who had been carried off from the assembly of anchorites and given as Bishop to the town of Panephysis.",
-              "words": 34,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "kept all his life long to his purpose of solitude with such strictness that he relaxed nothing of the character of his former humility, nor flattered himself on the honour that had been added to him",
-              "words": 36,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "vowed that he had not been summoned to that office as fit for it, but complained that he had been expelled from the monastic system as unworthy of it because though he had spent thirty-seven years in it he had never been able to arrive at the purity so high a profession demands.",
-              "words": 53,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "see in the meanwhile the old men who live not far from our monastery, the length of whose service is shown by their bent bodies, as their holiness shines forth in their appearance, so that even the mere sight of them will give a great lesson to those who see them: and from them you can learn not so much by their words as by the actual example of their holy life, what I grieve that I have lost, and having lost cannot give to you. But I think that my poverty will be somewhat lessened by this zeal of mine, if when you are seeking that pearl of the Gospel which I have not, I at least provide where you can conveniently procure it.",
-              "words": 125,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "as is there the custom for all monks starting on a journey,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.brictio-in-the-courtyard",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "tellable_as",
-              "span": "If Christ bore with Judas, why should not I bear with Brictio?",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "after he had sat down on that wooden seat of his (which you all know), placed in the small open court which surrounded his abode.",
-              "words": 25,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "perceived two demons sitting on the lofty rock which overhangs the monastery,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "rushes in in absolute fury; and there, full of madness, he vomits forth a thousand reproaches against Martin.",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "because he who had possessed nothing before he entered the clerical office, having, in fact, been brought up in the monastery by Martin himself, was now keeping horses and purchasing slaves. For at that time, he was accused by many of not only having bought boys belonging to barbarous nations, but girls also of a comely appearance.",
-              "words": 57,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "with trembling lips, and a changing countenance, pale with rage,",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "rolled forth the words of sin, asserting that he was a holier man than Martin who had brought him up, inasmuch as from his earliest years he had grown up in the monastery amid the sacred institutions of the Church, while Martin had at first, as he could not deny, been tarnished with the life of a soldier, and had now entirely sunk into dotage by means of his baseless superstitions, and ridiculous fancies about visions.",
-              "words": 76,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "with a placid countenance and a tranquil mind, endeavored by gentle words to restrain the madness of the unhappy wretch.",
-              "words": 20,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "with rapid steps he rushed back by the way he had gone out,",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "driven from his heart by the prayers of Martin.",
-              "words": 9,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "acknowledges that he had been under the influence of a demon. It was no difficult business for Martin to forgive the suppliant.",
-              "words": 22,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "and declared that he was not moved by the reproaches which had been heaped upon him; for they had, in fact, rather injured the man who uttered them.",
-              "words": 28,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "when this same Brictio was often accused before him of many and great crimes, Martin could not be induced to remove him from the presbyterate, lest he should be suspected of revenging the injury done to himself, while he often repeated this saying: 'If Christ bore with Judas, why should not I bear with Brictio?'",
-              "words": 55,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "If Christ bore with Judas, why should not I bear with Brictio?",
-              "words": 12,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.circuses-amid-the-ruins",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "I myself have seen men of lofty birth and honor, though already despoiled and plundered, still less ruined in fortunes than in morality; for, ravaged and stripped though they were, something still remained to them of their property, but nothing of their character.",
-              "words": 43,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "taken by storm no less than four times.",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "There lay all about the torn and naked bodies of both sexes, a sight that I myself endured... lacerated by birds and dogs. The stench of the dead brought pestilence on the living: death breathed out death.",
-              "words": 37,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "and so all alike by diverse deaths hastened to the common goal.",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "The few men of rank who had survived destruction demanded of the emperors circuses as the sovereign remedy for a ruined city.",
-              "words": 22,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Do you, O citizens of Tréves, long for circuses when you have been plundered and captured, after slaughter and bloodshed, after stripes and captivity, and the repeated destruction of your ruined city? What is more lamentable than this stupidity, more grievous than this folly? I confess I thought you most miserable when you were suffering destruction, but I see that you are now more miserable when you demand public shows.",
-              "words": 70,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.death-of-martin-at-condate",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "tellable_as",
-              "span": "I have sinned if I leave you a different example",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "those who were present when his death occurred,",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the following particulars which are comprised within my own knowledge.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "was aware of the period of his own death long before it occurred, and told the brethren that his departure from the body was at hand.",
-              "words": 26,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "although he well knew that the end of his own days was at hand,",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "this would be an excellent crown to set upon his virtues, if he should leave behind him peace restored to a church.",
-              "words": 22,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "using with respect to those birds that very same authority with which he had been accustomed to put demons to flight",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "he began suddenly to fail in bodily strength, and, assembling the brethren, he told them that he was on the point of dissolution.",
-              "words": 23,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Why, dear father, will you leave us? Or to whom can you commit us in our desolation? Fierce wolves will speedily attack thy flock ... rather have pity upon us, whom you are leaving desolate.",
-              "words": 35,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "as he was always, in truth, full of compassion, is said to have burst into tears,",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "O Lord, if I am still necessary to thy people, I do not shrink from toil: thy will be done.",
-              "words": 20,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "surely it is now enough that I have continued the fight till now; but, if thou dost command me still to persevere in the same toil for the defense of thy flock, I do not refuse ... I will serve under thy standard as long as thou shalt prescribe.",
-              "words": 49,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "It is not fitting that a Christian should die except among ashes; and I have sinned if I leave you a different example.",
-              "words": 23,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Allow me, dear brother, to fix my looks rather on heaven than on earth, so that my spirit which is just about to depart on its own journey may be directed towards the Lord.",
-              "words": 34,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Why do you stand here, thou bloody monster? Thou shalt find nothing in me, thou deadly one: Abraham's bosom is about to receive me.",
-              "words": 24,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "as he uttered these words, his spirit fled; and those who were there present have testified to us that they saw his face as if it had been the face of an angel,",
-              "words": 33,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Who would ever believe that man to be clothed in sackcloth, or who would imagine that he was enveloped with ashes?",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the whole city poured forth to meet his body; all the inhabitants of the district and villages, along with many also from the neighboring cities.",
-              "words": 25,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "are said to have assembled on that day almost to the number of two thousand,--a special glory of Martin,--through his example so numerous plants had sprung up for the service of the Lord.",
-              "words": 33,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "bands arrayed in cloaks, either old men whose life-labor was finished, or young soldiers who had just taken the oath of allegiance to Christ. Then, too, there was the choir of virgins, abstaining out of modesty from weeping.",
-              "words": 38,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "each single person preferred that he himself should grieve, but that another should rejoice.",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Those accompanied the body of Martin who, under his guidance, had overcome the world. ... Martin is praised with the divine psalms, Martin is honored in heavenly hymns.",
-              "words": 28,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.discharge-before-caesar",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "were rushing within the two divisions of Gaul,",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "began to distribute a donative to the soldiers.",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "he did not think it would be proper for him, if he were not to continue in the service, to receive a donative,",
-              "words": 23,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Hitherto I have served you as a soldier: allow me now to become a soldier to God: let the man who is to serve thee receive thy donative: I am the soldier of Christ: it is not lawful for me to fight.",
-              "words": 42,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "from fear of the battle, which was to take place on the morrow, and not from any religious feeling.",
-              "words": 19,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "all the more resolute from the danger that had been set before him,",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "If this conduct of mine is ascribed to cowardice, and not to faith, I will take my stand unarmed before the line of battle tomorrow, and in the name of the Lord Jesus, protected by the sign of the cross, and not by shield or helmet, I will safely penetrate the ranks of the enemy.",
-              "words": 55,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "determined on proving his words true by exposing himself unarmed to the barbarians.",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the enemy sent ambassadors to treat about peace and surrendered both themselves and all their possessions.",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "who can doubt that this victory was due to the saintly man?",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "that his blessed eyes might not be pained by witnessing the death of others,",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the enemy being subdued without bloodshed, no one should suffer death.",
-              "words": 11,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.election-at-tours",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "was called upon to undertake the episcopate of the church at Tours; but when he could not easily be drawn forth from his monastery, a certain Ruricius, one of the citizens, pretending that his wife was ill, and casting himself down at his knees, prevailed on him to go forth.",
-              "words": 50,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "multitudes of the citizens having previously been posted by the road on which he traveled, he is thus under a kind of guard escorted to the city.",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "there was but one wish among all ... that Martin was most worthy of the episcopate, and that the church would be happy with such a priest.",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "A few persons, however, and among these some of the bishops, who had been summoned to appoint a chief priest, were impiously offering resistance, asserting forsooth that Martin's person was contemptible, that he was unworthy of the episcopate, that he was a man despicable in countenance, that his clothing was mean, and his hair disgusting.",
-              "words": 55,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "such objectors only proclaimed the illustrious character of the man, while they sought to slander him.",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "being blocked out by the people, failed to appear",
-              "words": 9,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "one of those standing by, laying hold of the Psalter, seized upon the first verse which presented itself to him",
-              "words": 20,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "On these words being read, a shout was raised by the people, and the opposite party were confounded. It was believed that this Psalm had been chosen by Divine ordination, that Defensor might hear a testimony to his own work.",
-              "words": 40,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "he kept up the position of a bishop properly, yet in such a way as not to lay aside the objects and virtues of a monk.",
-              "words": 26,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.germanus-scruple-at-morning-service",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "the force of which had inspired us with the utmost longing for this chastity which was till now unknown to us.",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "when after a short sleep we returned for morning service and were waiting for the old man, Abbot Germanus was troubled by great scruples.",
-              "words": 24,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the blessed old man had by the addition of a single sentence broken down the claims of man's exertions, adding that man even though he strive with all his might for a good result, yet cannot become master of what is good unless he has acquired it simply by the gift of Divine bounty and not by the efforts of his own toil.",
-              "words": 63,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "While then we were puzzling over this question,",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the blessed Chaeremon arrived at the cell, and as he saw that we were whispering together about something, he cut the service of prayers and Psalms shorter than usual, and asked us what was the matter.",
-              "words": 36,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "for the reward of our efforts, i.e., perfect chastity, which is gained by the earnestness of one's own toil, not to be ascribed chiefly to the exertions of the man who makes the effort. For it is foolish, if, when for example, we see a husbandman taking the utmost pains over the cultivation of the ground, we do not ascribe the fruits to his exertions.",
-              "words": 65,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Neither can the husbandman, when he has spent the utmost pains in cultivating the ground, forthwith ascribe the produce of the crops and the rich fruits to his own exertions, as he finds that these are often in vain unless opportune rains and a quiet and calm winter aids them",
-              "words": 50,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the Divine goodness does not grant these rich crops to idle husbandmen who do not till their fields by frequent ploughing.",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "could not by his own strength apply those very efforts which he has earnestly used ... unless the Lord's protection and pity had given him strength.",
-              "words": 26,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the initiative not only of our actions but also of good thoughts comes from God, who inspires us with a good will to begin with, and supplies us with the opportunity of carrying out what we rightly desire",
-              "words": 38,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "it is for us, humbly to follow day by day the grace of God which is drawing us.",
-              "words": 18,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the grace of God always co-operates with our will for its advantage,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "how God works all things in us and yet everything can be ascribed to free will, cannot be fully grasped by the mind and reason of man.",
-              "words": 27,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
           "id": "gallic.story.honoratus-and-the-island",
           "record_type": "story",
           "spans": [
@@ -2977,456 +2706,6 @@
               "field": "text",
               "span": "When the aged John, who was superior of a large monastery and of a quantity of brethren, had come to visit the aged Paesius, who was living in a vast desert, and had been asked of him as of a very old friend, what he had done in all the forty years in which he had been separated from him and had scarcely ever been disturbed in his solitude by the brethren: 'Never,' said he, 'has the sun seen me eating,' 'nor me angry,' said the other.",
               "words": 87,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.paphnutius-and-the-hidden-book",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "because he always delighted in dwelling in the desert as if with a sort of innate liking.",
-              "words": 17,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "put him on a level with the Elders out of regard for his virtues, and thought fit to admit him to their order.",
-              "words": 23,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "the same envy, which formerly excited the minds of his brethren against the patriarch Joseph, inflamed one out of the number of his brethren with a burning and consuming jealousy.",
-              "words": 30,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "to mar his beauty by some blemish or spot,",
-              "words": 9,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "slyly hid his own book among the boughs which he used to weave of palm branches,",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "as if with a pure and clean conscience.",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "in the presence of all the brethren he brought his complaint to S. Isidore who was Presbyter of this desert before this same Paphnutius, and declared that his book had been stolen from his cell.",
-              "words": 35,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "and at last found the book hidden in the cell of Paphnutius among the boughs of the palms ... just as the plotter had hidden it.",
-              "words": 26,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "although he was perfectly clear in the sincerity of his conscience, yet like one who acknowledged the guilt of thieving, gave himself up entirely to make amends and humbly asked for a plan of repentance, as he was so careful of his shame and modesty (and feared) lest if he tried to remove the stain of the theft by words, he might further be branded as a liar, as no one would believe anything but what had been found out.",
-              "words": 80,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "not cast down in mind but rather trusting to the judgment of God,",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "not to receive the Holy Communion but to prostrate himself on the threshold of the Church and humbly ask for pardon.",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Who is the witness of all secret things,",
-              "words": 8,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "possessed by a most fierce demon, he made known all the craft of his secret plot, and the same man who had conceived the accusation and the cheat betrayed it.",
-              "words": 30,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "no one who was possessed was ever brought to his doors without being at once healed",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "for Christ was reserving this glory for the young Paphnutius, that the man should be cleansed only by the prayers of him against whom he had plotted.",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "If then we want to attain to his height of virtue, we must lay the same foundation to begin with.",
-              "words": 20,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.raising-of-the-catechumen",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "As Hilarius had already gone away, so Martin followed in his footsteps,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "established for himself a monastery not far from the town.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "desirous of becoming instructed in the doctrines and habits of the most holy man.",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "when Martin hurries up to them with tears and lamentations.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "laying hold, as it were, of the Holy Spirit, with the whole powers of his mind, he orders the others to quit the cell in which the body was lying; and bolting the door, he stretches himself at full length on the dead limbs of the departed brother.",
-              "words": 48,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "perceiving by means of the Spirit of God that power was present, he then rose up for a little, and gazing on the countenance of the deceased, he waited without misgiving for the result of his prayer and of the mercy of the Lord.",
-              "words": 44,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "beheld the man alive whom they had formerly left dead.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "he was the first who offered himself to us both as a subject that had experienced the virtues of Martin, and as a witness to their existence.",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "so that, as being reckoned holy by all, he was also deemed powerful and truly apostolical.",
-              "words": 16,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.the-angel-and-the-twelve-psalms",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "when only a few, and those the best of men, were known by the name of monks,",
-              "words": 17,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "when the perfection of the primitive Church remained unbroken ... and when the fervent faith of the few had not yet grown lukewarm by being dispersed among the many, the venerable fathers with watchful care made provision for those to come after them, and met together to discuss what plan should be adopted for the daily worship throughout the whole body of the brethren.",
-              "words": 64,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "send forth a poisonous root of error or jealousy or schism among those who came after.",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "in proportion to his own fervour--and unmindful of the weakness of others,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "some were for fifty, others sixty, and some, not content with this number, thought that they actually ought to go beyond it.",
-              "words": 22,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "such a holy difference of opinion in their pious discussion on the rule of their religion that the time for their Vesper office came before the sacred question was decided.",
-              "words": 30,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "One rose up in the midst to chant the Psalms to the Lord. And while they were all sitting ... with their minds intently fixed on the words of the chanter, when he had sung eleven Psalms, separated by prayers introduced between them, verse after verse being evenly enunciated, he finished the twelfth with a response of Alleluia, and then, by his sudden disappearance from the eyes of all, put an end at once to their discussion and their service.",
-              "words": 80,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Whereupon the venerable assembly of the Fathers understood that by Divine Providence a general rule had been fixed for the congregations of the brethren through the angel's direction, and so decreed that this number should be preserved both in their evening and in their nocturnal services.",
-              "words": 46,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "they added ... simply as extras and of their own appointment.",
-              "words": 11,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.the-cloak-at-amiens",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "the real master ... generally acting the part of servant.",
-              "words": 10,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "regarded not so much as being a soldier as a monk.",
-              "words": 11,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "a winter which had shown itself more severe than ordinary, so that the extreme cold was proving fatal to many",
-              "words": 20,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "when he had nothing except his arms and his simple military dress,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "recognized that a being to whom others showed no pity, was, in that respect, left to him.",
-              "words": 17,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "taking ... his sword with which he was girt, he divided his cloak into two equal parts, and gave one part to the poor man, while he again clothed himself with the remainder.",
-              "words": 33,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "of sounder understanding, groaned deeply because they themselves had done nothing similar,",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "arrayed in that part of his cloak with which he had clothed the poor man,",
-              "words": 15,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Martin, who is still but a catechumen, clothed me with this robe.",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Inasmuch as ye have done these things to one of the least of these, ye have done them unto me",
-              "words": 20,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.the-three-lentil-beans",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "throughout the whole of Mesopotamia, Palestine, and Cappadocia and all the East the brethren succeed one another in turn every week for the performance of certain duties",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "hand over to others who take their place the vessels and utensils with which they have ministered, which these receive and keep with the utmost care and anxiety, that none of them may be injured or destroyed, as they believe that even for the smallest vessels they must give an account, as sacred things, not only to a present steward, but to the Lord.",
-              "words": 64,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "you may see from one instance which I will give as an example.",
-              "words": 13,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "During the week of a certain brother the steward passing by saw lying on the ground three lentil beans which had slipped out of the hand of the monk on duty for the week as he was hastily preparing them for cooking, together with the water in which he was washing them; and immediately he consulted the Abbot on the subject; and by him the monk was adjudged a pilferer and careless about sacred property, and so was suspended from prayer. And the offence of his negligence was only pardoned when he had atoned for it by public penance.",
-              "words": 99,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "they believe not only that they themselves are not their own, but also that everything that they possess is consecrated to the Lord. Wherefore if anything whatever has once been brought into the monastery they hold that it ought to be treated with the utmost reverence as an holy thing.",
-              "words": 50,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "things which are considered unimportant or regarded as common and paltry, so that if they change their position and put them in a better place, or if they fill a bottle with water, or give anybody something to drink out of it, or if they remove a little dust from the oratory or from their cell they believe with implicit faith that they will receive a reward from the Lord.",
-              "words": 70,
-              "self_quote_of_build_document": false
-            }
-          ]
-        },
-        {
-          "id": "gallic.story.trier-and-the-ithacian-communion",
-          "record_type": "story",
-          "spans": [
-            {
-              "field": "text",
-              "span": "an event which he always concealed, owing to the character of the times, but which he could not conceal from us.",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "protected by his royal power Ithacius the bishop, who had been the accuser of Priscillian.",
-              "words": 15,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "constrained ... by many serious causes of people involved in suffering",
-              "words": 11,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "to send some tribunes armed with absolute power into the two Spains, to search out heretics, and, when found, to deprive them of their life or goods,",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "one was deemed a heretic rather on his turning pale from fear, or wearing a particular garment, than by the faith which he professed.",
-              "words": 24,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "maintain peace with the bishops who were living there.",
-              "words": 9,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "that he would come among them with the peace of Christ,",
-              "words": 11,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "that tribunes, with the power of life and death, should not be sent into the Spains",
-              "words": 16,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "not only to save from danger the true Christians in these regions ... but to protect even heretics themselves.",
-              "words": 19,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "maintained that it was quite sufficient punishment that, having been declared heretics by a sentence of the bishops, they should have been expelled from the churches; and that it was, besides, a foul and unheard-of indignity, that a secular ruler should be judge in an ecclesiastical cause.",
-              "words": 47,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "that nothing had really been accomplished by the death of Priscillian, if Martin were to act the part of his avenger,",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "without delay, executioners are appointed for those in whose behalf Martin had made supplication.",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "When this became known to Martin, he rushed to the palace, though it was now night. He pledges himself that, if these people were spared, he would communicate; only let the tribunes ... be recalled.",
-              "words": 35,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Martin took part in the communion of that day, judging it better to yield for the moment, than to disregard the safety of those over whose heads a sword was hanging",
-              "words": 31,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "he was filled with mourning and lamentation that he had even for an hour been mixed up with the evil communion,",
-              "words": 21,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "alternately accusing and defending the cause of his grief and conduct.",
-              "words": 11,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "an angel stood by him and said, 'Justly, O Martin, do you feel compunction, but you could not otherwise get out of your difficulty. Renew your virtue, resume your courage, lest you not only now expose your fame, but your very salvation, to danger.'",
-              "words": 44,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "Justly, O Martin, do you feel compunction, but you could not otherwise get out of your difficulty. Renew your virtue, resume your courage, lest you not only now expose your fame, but your very salvation, to danger.",
-              "words": 37,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "text",
-              "span": "when it happened that he cured some of the possessed more slowly and with less grace than usual, he at once confessed to us with tears that he felt a diminution of his power on account of the evil of that communion in which he had taken part for a moment through necessity, and not with a cordial spirit. He lived sixteen years after this, but never again did he attend a synod, and kept carefully aloof from all assemblies of bishops.",
-              "words": 82,
               "self_quote_of_build_document": false
             }
           ]
@@ -3996,8 +3275,8 @@
           ]
         }
       ],
-      "records_with_build_document_self_quote": 10,
-      "self_quote_span_count": 11,
+      "records_with_build_document_self_quote": 9,
+      "self_quote_span_count": 10,
       "self_quote_findings": [
         {
           "id": "gallic.force.cold-of-gaul",
@@ -4072,18 +3351,6 @@
             {
               "field": "description",
               "span": "the two forces that most shaped what this build can know are a fifteenth-century doctrinal editor acting on G3 and a nineteenth-century translator acting on the body; neither touched virtus, the office, or the rule of faith.",
-              "words": 37,
-              "self_quote_of_build_document": true
-            }
-          ]
-        },
-        {
-          "id": "gallic.gravity.authority-ambivalence",
-          "record_type": "gravity",
-          "spans": [
-            {
-              "field": "description",
-              "span": "the persistent counter-pressure to G1: the ecology produces bishops and distrusts the episcopate at once, guards antiquity by councils and flees synods. It prevents the world from being reducible to \"a seminary that looked like a monastery.\"",
               "words": 37,
               "self_quote_of_build_document": true
             }
@@ -4304,7 +3571,7 @@
       "world": "witt",
       "non_quote_records": 245,
       "records_with_embedded_quotation": 48,
-      "span_count": 160,
+      "span_count": 157,
       "findings": [
         {
           "id": "witt.contested.justification-accounted-and-made",
@@ -4348,7 +3615,7 @@
           "spans": [
             {
               "field": "description",
-              "span": "a real marker of a different kind -- political-legal rather than doctrinal-confessional",
+              "span": "a real marker of a different kind -- political-legal rather than doctrinal-confessional.",
               "words": 12,
               "self_quote_of_build_document": false
             }
@@ -4360,19 +3627,19 @@
           "spans": [
             {
               "field": "description",
-              "span": "A movement that argued its case in occasional treatises in 1517-1520 had, by 1530, produced a single formal confession subscribed by named princes... a real change in institutional register, from protest literature to settled confession",
+              "span": "A movement that argued its case in occasional treatises in 1517-1520 had, by 1530, produced a single formal confession subscribed by named princes... a real change in institutional register, from protest literature to settled confession.",
               "words": 35,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "The Simple Way a Father Should Present Them to His Household,",
+              "span": "The Simple Way a Father Should Present Them to His Household.",
               "words": 11,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "the Confession of our preachers and of ourselves,",
+              "span": "the Confession of our preachers and of ourselves.",
               "words": 8,
               "self_quote_of_build_document": false
             }
@@ -4384,7 +3651,7 @@
           "spans": [
             {
               "field": "description",
-              "span": "argued first over the specific, bounded question of indulgence sales, then rapidly generalized",
+              "span": "argued first over the specific, bounded question of indulgence sales, then rapidly generalized.",
               "words": 13,
               "self_quote_of_build_document": false
             },
@@ -4456,19 +3723,19 @@
             },
             {
               "field": "description",
-              "span": "by which most of all God preserves to us our daily bread,",
+              "span": "by which most of all God preserves to us our daily bread.",
               "words": 12,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "a loaf of bread instead of a lion",
+              "span": "a loaf of bread instead of a lion.",
               "words": 8,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "an empire of semi-autonomous princes is the only frame in which \"obtain the aid of the authorities\" means a territorial ruler",
+              "span": "an empire of semi-autonomous princes is the only frame in which 'obtain the aid of the authorities' means a territorial ruler.",
               "words": 21,
               "self_quote_of_build_document": false
             }
@@ -4516,19 +3783,13 @@
           "spans": [
             {
               "field": "description",
-              "span": "which takes him outside the world rather than constituting a second pattern within it.",
-              "words": 14,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
-              "span": "there are also brothers and sisters on the other side who belong to us, and must still be won",
+              "span": "There are also brothers and sisters on the other side who belong to us, and must still be won",
               "words": 19,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "sects and false teachers, who all wear the holy name as a cover and sham for their doctrines of devils",
+              "span": "Sects and false teachers, who all wear the holy name as a cover and sham for their doctrines of devils",
               "words": 20,
               "self_quote_of_build_document": false
             },
@@ -4558,12 +3819,6 @@
             },
             {
               "field": "description",
-              "span": "the only force the library shows penetrating a congregation's communal life directly.",
-              "words": 12,
-              "self_quote_of_build_document": false
-            },
-            {
-              "field": "description",
               "span": "here we battle not against pope or bishop, but against the devil... he would make a flank attack",
               "words": 18,
               "self_quote_of_build_document": false
@@ -4576,7 +3831,7 @@
             },
             {
               "field": "description",
-              "span": "Take note of these two things, \"must\" and \"free\"... Now do not make a \"must\" out of what is \"free\"",
+              "span": "Take note of these two things, 'must' and 'free'... Now do not make a 'must' out of what is 'free'",
               "words": 20,
               "self_quote_of_build_document": false
             }
@@ -4594,19 +3849,19 @@
             },
             {
               "field": "description",
-              "span": "the old way under the Pope, in which a person tortured himself to be so perfectly pure that God could not find the least blemish in us... one week trails another, and one half year the other",
+              "span": "The old way under the Pope, in which a person tortured himself to be so perfectly pure that God could not find the least blemish in us... one week trails another, and one half year the other",
               "words": 37,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "we always prayed in Popedom conditionaliter, conditionally, and therefore uncertainly",
+              "span": "We always prayed in Popedom conditionaliter, conditionally, and therefore uncertainly",
               "words": 10,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "if you should ask them whether they are sure that what they do pleases God, they say, \"No\"",
+              "span": "If you should ask them whether they are sure that what they do pleases God, they say, 'No'",
               "words": 18,
               "self_quote_of_build_document": false
             },
@@ -4642,7 +3897,7 @@
             },
             {
               "field": "description",
-              "span": "the kingdom of his Vicar, the Antichrist in Rome... is sore beset",
+              "span": "The kingdom of his Vicar, the Antichrist in Rome... is sore beset",
               "words": 12,
               "self_quote_of_build_document": false
             },
@@ -4720,7 +3975,7 @@
           "spans": [
             {
               "field": "description",
-              "span": "has been brooding over the injury he has suffered in property, in body and in soul",
+              "span": "has been brooding over the injury he has suffered in property, in body and in soul,",
               "words": 16,
               "self_quote_of_build_document": false
             },
@@ -4852,7 +4107,7 @@
           "spans": [
             {
               "field": "description",
-              "span": "I would gladly have seen all my books forgotten and destroyed",
+              "span": "I would gladly have seen all my books forgotten and destroyed,",
               "words": 11,
               "self_quote_of_build_document": false
             },
@@ -4880,12 +4135,6 @@
           "id": "witt.force.transmission-within-the-worlds-life",
           "record_type": "force",
           "spans": [
-            {
-              "field": "description",
-              "span": "Which forces threatened the community's literary output? On the evidence in hand, NONE DID, and that is itself the finding... What shaped survival was SELECTION, not suppression.",
-              "words": 27,
-              "self_quote_of_build_document": false
-            },
             {
               "field": "description",
               "span": "if only for the reason that I am afraid of the example",
@@ -4942,7 +4191,7 @@
             },
             {
               "field": "description",
-              "span": "the devil drives his servants... we are very cold",
+              "span": "the devil drives his servants... we are very cold.",
               "words": 9,
               "self_quote_of_build_document": false
             }
@@ -5086,7 +4335,7 @@
             },
             {
               "field": "description",
-              "span": "Carlstadt was silenced... Wittenberg bowed to law and order",
+              "span": "Carlstadt was silenced... Wittenberg bowed to law and order.",
               "words": 9,
               "self_quote_of_build_document": false
             }
@@ -5098,7 +4347,7 @@
           "spans": [
             {
               "field": "description",
-              "span": "a testament... is a promise made by one about to die... If the mass is a promise... it is to be approached, not with any work or strength or merit, but with faith alone",
+              "span": "A testament... is a promise made by one about to die... If the mass is a promise... it is to be approached, not with any work or strength or merit, but with faith alone",
               "words": 34,
               "self_quote_of_build_document": false
             },
@@ -5110,7 +4359,7 @@
             },
             {
               "field": "description",
-              "span": "in wantonness, with no regard to proper order",
+              "span": "in wantonness, with no regard to proper order.",
               "words": 8,
               "self_quote_of_build_document": false
             }
@@ -5122,13 +4371,13 @@
           "spans": [
             {
               "field": "description",
-              "span": "if you should ask them whether they are sure that what they do pleases God, they say, \"No\"; they do not know, or they doubt",
+              "span": "If you should ask them whether they are sure that what they do pleases God, they say, \"No\"; they do not know, or they doubt",
               "words": 25,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "teach a man to know himself... and may despair of his powers,",
+              "span": "teach a man to know himself... and may despair of his powers.",
               "words": 12,
               "self_quote_of_build_document": false
             },
@@ -5140,13 +4389,13 @@
             },
             {
               "field": "description",
-              "span": "so that I shall not and cannot despair: I cannot doubt I have a gracious God",
+              "span": "So that I shall not and cannot despair: I cannot doubt I have a gracious God",
               "words": 16,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "neither can it be understood apart from that conflict,",
+              "span": "neither can it be understood apart from that conflict",
               "words": 9,
               "self_quote_of_build_document": false
             }
@@ -5182,13 +4431,13 @@
           "spans": [
             {
               "field": "description",
-              "span": "these people need no secular sword or law. And if all the world were composed of real Christians... no prince, king, lord, sword, or law would be needed",
+              "span": "These people need no secular sword or law. And if all the world were composed of real Christians... no prince, king, lord, sword, or law would be needed",
               "words": 28,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "lawful civil ordinances are good works of God... Christians are necessarily bound to obey their own magistrates and laws save only when commanded to sin",
+              "span": "Lawful civil ordinances are good works of God... Christians are necessarily bound to obey their own magistrates and laws save only when commanded to sin",
               "words": 25,
               "self_quote_of_build_document": false
             }
@@ -5212,13 +4461,13 @@
             },
             {
               "field": "description",
-              "span": "men, and that, priests, are cruelly put to death, contrary to the intent of the Canons, for no other cause than marriage",
+              "span": "Men, and that, priests, are cruelly put to death, contrary to the intent of the Canons, for no other cause than marriage",
               "words": 22,
               "self_quote_of_build_document": false
             },
             {
               "field": "description",
-              "span": "no man's law, no vow, can annul the commandment and ordinance of God,",
+              "span": "no man's law, no vow, can annul the commandment and ordinance of God",
               "words": 13,
               "self_quote_of_build_document": false
             }
@@ -5561,10 +4810,10 @@
     }
   },
   "totals": {
-    "non_quote_records": 1937,
-    "records_with_embedded_quotation": 198,
-    "span_count": 687,
-    "records_with_build_document_self_quote": 10,
-    "self_quote_span_count": 11
+    "non_quote_records": 2243,
+    "records_with_embedded_quotation": 200,
+    "span_count": 560,
+    "records_with_build_document_self_quote": 9,
+    "self_quote_span_count": 10
   }
 }

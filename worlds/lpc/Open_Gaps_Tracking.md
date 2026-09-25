@@ -1501,7 +1501,8 @@ and remains the same already-accepted fleet-wide drift OG-12 named, not newly in
    dark text) — collision-safe, not fabricated, but genuinely ungrounded. Disclosed in full in
    a code comment at `cic-poc/frontend/src/data/worlds.ts`'s own `lpc` entry. Flagged for the
    project lead to replace with a real grounding once one exists.
-2. **The traditions page** (`cic-website/traditions/latin-pastoral-congregational-christianity.html`)
+2. **The traditions page** — the to-be-built `cic-website/traditions/latin-pastoral-congregational-christianity.html`,
+   a path that does not exist yet —
    was **not** built. `tools/generate_tradition_pages.py` — the only fabrication-free path to
    this page, since it derives Story/Voices/Documented-stories/Legacy/Sourcing content from a
    real compiled record rather than free prose — hard-requires two things `lpc` does not have:
@@ -1512,6 +1513,77 @@ and remains the same already-accepted fleet-wide drift OG-12 named, not newly in
    content-authoring work (comparable in scope to Doc_07/Doc_09), not a wiring gap, and belongs
    with the project lead to scope and commission, not self-started inside a frontend-wiring
    pass.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
+### OG-22. Independent audit of PR #586 found the scholarship holds (all 5 quote records and 8 spot-checked embedded quotes verify against source) but named seven blocking gaps. Four fixed directly; three remain blocked on the same sandbox permission wall OG-20's own M2 compile hit, and need the project lead's own hand.
+
+2026-09-25, same session as OG-20/OG-21. An independent audit (relayed via the managing thread)
+checked PR #586 against `cic/texts` directly and confirmed the underlying scholarship is sound,
+then named seven concrete defects. Fixed in this pass:
+
+1. **Content errors**, each independently re-checked against the actual math/geography before
+   fixing: `lpc.core...`'s own line "A century and a third later" (the 256 Council to Augustine's
+   argument, c. 400-401, is ~145 years — "a century and a half," not "a century and a third," a
+   further instance of the same stale-interval bug PR1 fixed elsewhere this cycle, missed by
+   OG-17); "unexcavated" appeared three times (`lpc.core...`'s own `thinness` and `thin_topics`
+   fields, and the registry's own `thinness_statement`) implying the *sites* were never excavated,
+   when Carthage and Hippo Regius both hold real, excavated Christian sites — the honest claim is
+   that no excavation report was *consulted in this build*, reworded accordingly in all three
+   places; the registry's own `doorway_description` stated "a century and a half later... died"
+   for a span that is actually ~181 years (Cyprian's election to Augustine's death) — fixed to
+   "nearly two centuries," and "a neighboring see" (Hippo is not geographically neighboring
+   Carthage) fixed to "a see further along the same coast," matching `lpc.core...`'s own existing
+   phrasing; the same two errors, inherited by copying the registry text, were then found and
+   fixed at six further points across this session's own `world_front` record and in
+   `world-census.json`'s own `entry.tile` copy of the same paragraph — each interval recomputed
+   against its own actual date pair rather than blanket-replaced. **Both `doorway_description`
+   and `thinness_statement` are newly drafted for this registration pass (2026-09-25), tracing to
+   no separately-approved build document** — stated here plainly, not only in a PR description
+   that ages out.
+2. **Figure `dates.display` citation leak.** All 7 figure records carried inline build citations
+   in a participant-facing field — `(Doc_01 SS2; lpc.story.election-of-cyprian)`,
+   `(Ep. XX; lpc.story.celerinus-writes-to-lucian)`, and five more. Stripped from all 7; no
+   information lost, since every citation was already redundant with that record's own
+   `sources[]` or `relations[]` field. `dates.display` itself is kept, matching the fleet's own
+   actual convention (`don.figure.donatus.md` and others use the identical shape; the schema's
+   unused `born`/`died` sub-keys are not the fleet's real pattern).
+3. **Paths.** `check_paths_baseline.txt` carried 4 lpc lines for links that OG-20's own new
+   `records/worlds/lpc.yaml` and `packages/lpc/` output has since resolved — removed, confirmed
+   by re-running `tools/check_paths.py` directly against the current tree, not assumed. OG-21's
+   own reference to the not-yet-built traditions page reworded so it cannot be misread as citing
+   an existing file.
+4. **Embedded-quote backlog measured, not extracted.** `lpc` was missing from
+   `engine.m1.quote_verbatim`'s own `REPORT_WORLDS` (and, by import, `embedded_quotations`'s own
+   fleet sweep) entirely — added to `AUDITED_WORLDS`, since all 5 lpc quote records already carry
+   `verification_state: verified-direct`. Running the sweep with lpc included finds **59 embedded
+   quotation spans across 23 non-quote records** — real, load-bearing quoted material sitting
+   inside `text`/`description`/etc. fields rather than built out as its own `quote` record. Not
+   extracted in this pass; named here as a backlog for a future one.
+5. Also fixed: the route-cue comment on `worlds.ts`'s own `lpc` accent-color entry (its full
+   disclosure already lives in OG-21; the code comment is now a brief, factual grounding note
+   matching every sibling entry's own style, not a note addressed to the project lead).
+
+**Not fixed, blocked on the same sandbox permission wall OG-20's own M2 compile step hit** (the
+Claude Code auto-mode classifier denies any action shaped like "write to many files in one
+pass," categorized "Modify Shared Resources"; per that denial's own explicit instruction, not
+routed around via 311 individual single-file edits achieving the identical outcome):
+
+- **The `world_id` mismatch itself.** All 311 files under `records/lpc/` — including this
+  session's own new `world_front` record, which copied the pattern from every record it was
+  grounded in without questioning it — declare `world_id: latin-pastoral-congregational-christianity`,
+  against the registry's own `world_id: latin-pastoral-congregational` (Mark's own 2026-09-16
+  ruling). The registry's own field is correct; the 311 records are stale.
+- **The commentary strip that must accompany that rewrite.** Per CLAUDE.md's own explicit rule —
+  "any PR that edits a live or canonical file also removes the commentary already in that file" —
+  touching these 311 files to fix `world_id` also obligates stripping their own trailing
+  process-narration notes (the "this session"/"independently re-located and re-read" pattern
+  `tools/check_live_commentary.py` already flags, non-blocking, across every record in the
+  fleet). Not attempted separately from the `world_id` fix, since both touch the same 311 files
+  in the same pass.
+- **`tools/set_source_kind.py` for lpc's 208 source records** (all currently lack `kind`), and
+  the M9 shelf-row/emic-vendored-only/verbatim-in-shelf re-measurement and waiver registration
+  that depends on it — a comparable bulk-write shape, not attempted.
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 

@@ -162,7 +162,7 @@ formation_logic: >-
   This world's most characteristic structure is an internal rule that keeps disagreement from
   becoming separation. Cyprian states it while presiding over the council that will decide the
   sharpest question in the room. His words are these: 'judging no man, nor rejecting any one from
-  the right of communion, if he should think differently from us.' A century and a third later,
+  the right of communion, if he should think differently from us.' A century and a half later,
   Augustine argues at book length that Cyprian's ruling was wrong. He never places him outside.
 
 
@@ -229,8 +229,9 @@ thinness: >-
   that has no founding break to narrate, and does not experience itself as needing one.
 
 
-  Material evidence here is unexcavated, not empty. No site report, inscription catalogue, or
-  excavation record has been verified in this build for this world. It also has no distinctive
+  Material evidence has not been consulted here, not that none exists. Carthage and Hippo Regius
+  both hold real excavated Christian sites. No site report, inscription catalogue, or excavation
+  record from either one has been checked for this world. It also has no distinctive
   inscription tied to its worship, of the kind the Donatist world can point to. But real material
   evidence does exist, carried in a text. A pastoral letter describes an apse, a raised seating area
   for clergy, steps, and a floor for the congregation. That evidence comes from a letter, not a
@@ -388,9 +389,10 @@ thin_topics:
   - what the buildings looked like
   - material remains
   - the physical setting of worship
-  note: No site report, inscription catalogue, or excavation record has been independently verified in
+  note: Carthage and Hippo Regius both hold real excavated Christian sites, but no site report,
+    inscription catalogue, or excavation record from either has been independently verified in
     this build. Real material evidence exists, but it is document-borne, recovered from a pastoral letter
-    describing a basilica's own apse and steps, not from a trench -- unexcavated, not empty.
+    describing a basilica's own apse and steps, not from a trench -- not consulted here, not absent.
 - keywords:
   - founding narrative
   - origin myth
