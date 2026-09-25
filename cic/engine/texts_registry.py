@@ -8,9 +8,8 @@ sandbox's egress policy, so without a local copy no quote could be verified
 at all - Check B's whole grounding claim (`verified-direct`) had nothing to
 stand on. Vendoring fixed that. But by the time this registry was built,
 10 volumes (38MB) were already sitting in cic/texts/ with only 3 ever linked
-to a record that cites them - a real, measured fact (found 2026-08-15 by
-hand-grepping, the trigger for building this) with no earlier structure that
-would have surfaced it on its own. That is the SAME shape of problem
+to a record that cites them - a real, measured fact with no earlier
+structure that would have surfaced it on its own. That is the SAME shape of problem
 mechanism_dependencies.py (T3-A) and gate_mechanism_coverage (T3-B) exist to
 catch at the record layer - a resource sitting present with no declared
 need - just one layer up, at the reference-text layer instead.
@@ -45,7 +44,7 @@ built it.
 THE DATE RULE IS ROLLING, NOT FIXED AT 1929. US copyright duration is
 published-work-plus-95-years; a work enters the public domain on January 1
 of the year 95 years after its publication, every year, on a rolling basis.
-As of 2026-01-01, that means works published through 1930 are public
+Right now, that means works published through 1930 are public
 domain, not just through 1929 - last year's line, not a permanent one.
 Individual REGISTRY.yaml notes that cite "pre-1929" or "to ~1929" are
 historical records of the rule as it stood when that specific file was
@@ -71,13 +70,11 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent  # cic/
-REPO_ROOT = ROOT.parent  # PORT NOTE (2026-08-21, world/alexandria handoff): this script
-# originated on claude/table-voice-reset-nufsm4, where records lived at cic/records/ -
-# this redesign moved the records tree to <repo_root>/records/ (Artifact-1), one level
-# above cic/, while cic/texts/ itself did not move. RECORDS_DIR below is the one line
-# that changed for the port; citing_records()'s logic (grep every *.md under RECORDS_DIR
-# for the literal "cic/texts/<filename>" path string) needed no change at all - it was
-# already schema-agnostic, a dumb full-text scan, not a YAML-aware records reader.
+REPO_ROOT = ROOT.parent  # records/ lives one level above cic/ (Artifact-1);
+# cic/texts/ itself does not move with it. RECORDS_DIR is the only line that
+# differs as a result; citing_records()'s own logic (grep every *.md under
+# RECORDS_DIR for the literal "cic/texts/<filename>" path string) needs no
+# schema awareness, so it is unaffected by where the records tree itself lives.
 TEXTS_DIR = ROOT / "texts"
 RECORDS_DIR = REPO_ROOT / "records"
 
@@ -98,10 +95,9 @@ _SIZE_URGENT_BYTES = 1024 * 1024 * 1024
 # either way, since only one can match a given header).
 _RIGHTS_LINE = re.compile(r"Rights:\s*(.+)|<DC\.Rights>\s*([^<]+)")
 _TITLE_LINE = re.compile(r"Title:\s*(.+)|<DC\.Title>\s*([^<]+)")
-# Added 2026-09-02, for original-language witnesses (see cic/texts/INTAKE.md):
-# every file vendored before this line was English by construction, so this
-# reads as None for all 64 of them - report() below treats that as English,
-# not as UNVERIFIED. A file whose text is NOT the language a reader would
+# For original-language witnesses (see cic/texts/INTAKE.md): a file vendored
+# before this convention existed reads as None, which report() below treats
+# as English, not as UNVERIFIED. A file whose text is NOT the language a reader would
 # assume from its title/context should say so explicitly with this line, an
 # ISO 639-3 code (grc, lat, syr, ...) rather than a free-text name, the same
 # "a real, checkable code, not a project-invented label" discipline
@@ -113,8 +109,8 @@ _LANGUAGE_LINE = re.compile(r"Language:\s*(.+)|<DC\.Language>\s*([^<]+)")
 class ApparatusPattern:
     """One named, evidenced marker CONVENTION belonging to a single
     vendored edition - see REGISTRY.yaml's own schema comment for the
-    full discipline (two kinds, `regex` and `endnote-sequence`) and why a
-    per-quote-anchored pattern is exactly what R33 forbids here.
+    full discipline (three kinds, `regex`, `endnote-sequence`, and
+    `letterform`) and why a per-quote-anchored pattern is forbidden here.
 
     kind == "regex" (default): `pattern` is matched with `re.search`
     against the RAW vendored text; the matched span is dropped entirely
@@ -122,12 +118,23 @@ class ApparatusPattern:
 
     kind == "endnote-sequence": `notes_start_pattern` marks where this
     edition's own real numbered endnotes section begins; `pattern` is
-    unused."""
+    unused.
+
+    kind == "letterform": this ONE edition's own OCR misreading of an
+    archaic letterform (e.g. thorn rendered as `])`/`]?` in a specific
+    scan) - `pattern` is matched and REPLACED with `replacement`, never
+    dropped. Deliberately never a fleet-wide rule: a scanner's own
+    per-edition misreading is not the same as the systematic
+    long-s/thorn/eth normalization
+    engine.m1.quote_verbatim.normalize_archaic_letterforms already
+    applies globally. Each mapping is verified against the page image
+    before being added here, never guessed from the OCR text alone."""
 
     name: str
     pattern: str = ""
     kind: str = "regex"
     notes_start_pattern: str = ""
+    replacement: str = ""
     evidence: str = ""
 
 
@@ -159,6 +166,7 @@ def _load_entries() -> tuple[TextEntry, ...]:
                 ApparatusPattern(
                     name=a["name"], kind=a.get("kind", "regex"),
                     pattern=a.get("pattern", ""), notes_start_pattern=a.get("notes_start_pattern", ""),
+                    replacement=a.get("replacement", ""),
                     evidence=a.get("evidence", ""),
                 )
                 for a in d.get("apparatus", [])
@@ -217,9 +225,9 @@ def rights_clears(rights: str | None) -> bool:
     verified, not just present. Two categories, not one: public domain (the
     original and still the overwhelming majority - out of copyright by age
     or an accepted transcriber declaration), and an explicit open licence
-    (evagrius_praktikos_dysinger.txt, added 2026-09-02, the first file in
-    this corpus that is not public domain - CC BY 4.0, which is lawful to
-    vendor but carries an attribution obligation the PD files do not).
+    (e.g. evagrius_praktikos_dysinger.txt, vendored under CC BY 4.0 rather
+    than public domain - lawful to vendor but carrying an attribution
+    obligation the PD files do not).
     Anything else - blank, a bare 'copyright', an in-copyright notice - is
     correctly NOT cleared here; this function widens what counts as
     verified, it does not loosen the verification itself."""
@@ -238,8 +246,8 @@ def title_declared(header: str) -> str | None:
 
 def language_declared(header: str) -> str:
     """The file's own stated language, read fresh - same discipline as
-    rights/title. Undeclared means English: every file vendored before
-    2026-09-02 predates this field and is English by construction, so
+    rights/title. Undeclared means English: a file vendored before this
+    field existed predates it and is English by construction, so
     absence is the documented default, not an UNVERIFIED state the way
     a missing rights line is."""
     m = _LANGUAGE_LINE.search(header)
@@ -251,10 +259,10 @@ def language_declared(header: str) -> str:
 def discovered_files() -> list[str]:
     """What is ACTUALLY sitting in cic/texts/ right now, not what ENTRIES
     claims - the two are cross-checked in report(), not assumed to agree."""
-    # Both plain-text renderings and CCEL's native ThML XML source live here
-    # now (the anf01 swap, 2026-08-15) - a *.txt-only glob went blind to the
-    # first .xml file added and silently reported it as a missing file, a
-    # real bug caught live while doing that swap, not a hypothetical one.
+    # Both plain-text renderings and CCEL's native ThML XML source live
+    # here - a *.txt-only glob goes blind to any .xml file and silently
+    # reports it as missing, a real bug this function exists to avoid,
+    # not a hypothetical one.
     return sorted(p.name for p in TEXTS_DIR.iterdir()
                   if p.is_file() and p.suffix in (".txt", ".xml"))
 
@@ -448,9 +456,9 @@ def write_readme() -> int:
         "Ward 1975) are referenced by `source` record and never vendored --",
         "committing them would be redistribution.",
         "",
-        "`lang` is blank for English (the default when a file has no `Language:` line -",
-        "true for every file vendored before 2026-09-02) and an ISO 639-3 code otherwise",
-        "-- an original-language witness, not a translation; see `cic/texts/INTAKE.md`.",
+        "`lang` is blank for English (the default when a file has no `Language:` line)",
+        "and an ISO 639-3 code otherwise -- an original-language witness, not a",
+        "translation; see `cic/texts/INTAKE.md`.",
         "",
         "| file | title (from the file's own header) | lang | rights | supplied | added | cited by |",
         "|---|---|---|---|---|---|---|",
