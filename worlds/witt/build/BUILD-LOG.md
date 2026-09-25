@@ -64,3 +64,23 @@ body, likely do too, and have not been checked. Flagged for whoever runs the nex
 worth a fleet-wide dedicated read of `world_core`/`voice_craft`/`world_front` bodies before the
 program is considered complete, not assumed clean because a later PR's own targeted worklist came back
 short.
+
+---
+
+## Source-form fragment re-author — 2026-09-25
+
+`witt.quote.congregation-of-saints`: the larger sentence-completeness
+parser (P3 Decision-Log Entry 29) flagged "As Paul says: one faith, one
+baptism, one God and Father of all." as verbless. Under Mark's R44 ruling
+of 2026-09-24 ("true ellipses get finished"), the quotation is finished
+with the verb its structure implies: "As Paul says, there is one faith,
+one baptism, one God and Father of all, and so on." The grader's first
+objection also found real drift elsewhere in the same field, fixed here:
+"congregation of saints" restored as "community of saints", "etc."
+restored as "and so on", and "human traditions ... instituted by men"
+restored as "human traditions -- that is, rites or ceremonies set up by
+people", with "Nor" kept. Only `modern_rendering` changed; every other
+field is byte-identical. Authored by Opus. Sonnet 4.6 reads translation
+twice; Haiku 4.5 reads summary, recorded as a standing disagreement in
+`Open_Gaps_Tracking.md` OG-35. P3 Decision-Log Entry 37 carries the
+fleet-wide record of this pass.

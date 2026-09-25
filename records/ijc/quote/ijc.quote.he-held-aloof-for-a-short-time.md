@@ -22,11 +22,11 @@ sources:
 text: >-
   ...had held aloof for a short time, after mature consideration whether he ought to receive this definition of the faith, at length acquiesced in it, and subscribed it with all the rest: he also sent to the people under his charge a copy of the Creed, with an explanation of the word homoousios, that no one might impugn his motives on account of his previous hesitation.
 modern_rendering: >-
-  ...had held back for a short time. After careful thought about whether he ought to
-  accept this statement of the faith, he finally agreed to it and signed it along with
-  everyone else. He also sent the people in his charge a copy of the Creed. It came with
-  an explanation of the word homoousios, so that no one could question his motives because
-  of his earlier hesitation.
+  He had held back for a short time. After careful thought about whether he
+  ought to accept this statement of the faith, he finally agreed to it and
+  signed it along with everyone else. He also sent the people in his charge a
+  copy of the Creed. It came with an explanation of the word homoousios, so
+  that no one could question his motives because of his earlier hesitation.
 speaker_or_author: Socrates Scholasticus, Ecclesiastical History
 license: verbatim
 modern_lens_note: >-
@@ -41,15 +41,14 @@ relations:
 - type: associated-with
   target: ijc.dw.room-for-hesitation
 ---
-Opened 2026-08-27 for F1-P, served by ijc.dw.room-for-hesitation alone. The witness cites this
-exact locus and could not show it.
+Serves F1-P alongside ijc.dw.room-for-hesitation, which cites this exact locus and cannot show
+it.
 
 The opening ellipsis marks the excerpt starting mid-sentence, where Socrates turns from the council
 to Eusebius. Kept to the whole of the hesitation-and-explanation arc rather than cut to "held
 aloof", because the letter home is the half that shows what the hesitation cost.
 
-Quote-verbatim gate fix (2026-09-22): the record had smoothed the source's "who had held aloof" to
-"having held aloof" for the ellipsis-started fragment to read more cleanly - a real word substitution,
-which is not allowed regardless of size. Restored to the source's own "had held"; the fragment now
-reads a little less smoothly right after the ellipsis, which is the honest cost of marking a real
-mid-sentence start rather than silently regularizing the grammar.
+The text keeps the source's own "had held aloof" right after the ellipsis, although "having held
+aloof" would read more smoothly: that would be a word substitution, which is not allowed at any
+size, and the rougher start honestly marks a real mid-sentence cut. The spoken rendering supplies
+the subject the excerpt cuts off ("He had held back").
