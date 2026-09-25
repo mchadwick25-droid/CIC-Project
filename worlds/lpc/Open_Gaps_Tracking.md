@@ -1587,6 +1587,47 @@ routed around via 311 individual single-file edits achieving the identical outco
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 
+### OG-23. The project lead's own ruling on the "Built & Live" question (2026-09-25, relayed via the managing thread): "a" — #586 stays lpc's registration, build, and fixes; it does not put lpc live. The census status flip OG-21 disclosed is reverted; `living: true` is kept, independently confirmed correct by both the census validator and `engine.m6.cli check`.
+
+Ruling, quoted as relayed: "#586 stays lpc's registration, build and fixes, and does not put
+lpc live. Going live is a separate later step: first the traditions page (world_front) exists,
+then Mark sets `state: admitted`, then the m6 sync generates the census status." Per this
+ruling:
+
+- `cic-website/data/world-census.json`'s own `status`, `chip`, `glyph`, `statusWord`,
+  `statusDescription`, `why` (its trailing "no built conversation" sentence), and `entry` fields
+  are reverted to exactly what `main` carries — checked directly against `origin/main`, not
+  reconstructed from memory. `living: true` is the one field kept from OG-21's own earlier
+  edit, since it corrects a real, independent staleness (the registry's own
+  `living_tradition_flag: true`, Article 29-confirmed, against the census file's own stale
+  `false`) rather than asserting anything about go-live readiness. Kept only after confirming
+  both `node tools/validate-census.mjs` (0 errors) and `python -m engine.m6.cli check` (clean)
+  pass with it in place — not assumed.
+- `meta.liveCount`/`meta.statusCounts` were resynced via `engine.m6.cli sync` after the revert,
+  not hand-edited, per the ruling's own instruction that the m6 tooling owns those fields.
+- `cic-website/table.html`'s own `WORLDS` array and `cic-poc/frontend/src/data/worlds.ts`'s own
+  `WORLD_ORDER`/`WORLD_ASSETS` both had their `lpc`/`datus` entries removed, matching the census
+  revert. The portrait files themselves (`cic-website/assets/portraits/datus.jpg`,
+  `cic-poc/frontend/public/images/portraits/datus.jpg`) are left in place — harmless, unreferenced
+  assets, per the ruling's own explicit instruction not to remove them.
+- The `#C269BA` accent color (OG-21's own disclosed, thematically ungrounded pick) is out of
+  this PR entirely now that the `worlds.ts` entry carrying it is gone. Named here as a genuine
+  go-live item: before lpc actually goes live, this color needs either a real thematic grounding
+  or a fresh pick, following the same collision-safety method OG-21 already documents.
+- **The M3 package question.** OG-22 already discloses that the world_core/figure content fixes
+  superseded the package the 28/28 M3 run tested, and that the package was recompiled without a
+  new M3/Bedrock run. Stated explicitly here as its own admission-track item: **a fresh M3
+  live-admission run against the current, recompiled package is required before `state:
+  admitted`** — not merely recommended — and per this project's own standing discipline, that
+  run needs the project lead's own explicit go and an explicit dollar ceiling before it runs,
+  the same as the original run required. **No cost figure is recorded for that original run**
+  either (`engine/m3/reports/live-admission-report-lpc-2026-09-25.json`'s own token counts are
+  real; no $/token or $/turn figure was computed or is being represented as one, matching the
+  script's own spec-principle-13 docstring) — named here so a future admission decision is not
+  made against an assumed cost that was never actually reconciled against a real AWS invoice.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the

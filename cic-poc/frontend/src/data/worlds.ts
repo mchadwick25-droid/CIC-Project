@@ -23,7 +23,7 @@ export interface WorldAssets {
 // has no known assets yet and is left off the list rather than shown
 // without a portrait. witt's Representative portrait, Nikolaus,
 // lives in GitHub as nikolaus.jpg.
-export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt', 'lpc'];
+export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt'];
 
 // Every accentColor below is a lightened variant of the hue each per-world
 // comment grounds (kept there for provenance/hue reasoning), raised to
@@ -80,10 +80,6 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
   // as a fill (clears >=5.0:1).
   witt: { portraitImage: '/images/portraits/nikolaus.jpg', accentColor: '#579C40' },
-  // H=305deg (orchid/plum), the widest open hue gap against every color above and the two
-  // reserved semantic tokens. S=42%, L=58.5% clears both dark-mode thresholds: 5.30:1 vs the
-  // dark ground #17130F and 5.00:1 vs --color-surface #1E1913 as a fill under dark text.
-  lpc: { portraitImage: '/images/portraits/datus.jpg', accentColor: '#C269BA' },
 };
 
 export interface WorldStarter {

@@ -415,6 +415,7 @@ worlds/latap/Review-Artifacts/Step0_Round4_Review.md: cic/corpus-map/tertullian-
 worlds/latap/Step0_Movement_Scope_Confirmation.md: cic/corpus-map/tertullian-s-voice.yaml
 worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md: worlds/history
+worlds/lpc/Open_Gaps_Tracking.md: cic-website/traditions/latin-pastoral-congregational-christianity.html
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Operations/Standing/Launch-Prompts/CiC_New_World_Build_Record_Native_Launch_V1_2026-08-01.md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: Ministry/Technology/CiC_Record_Native_World_Build_Process_V1_2.md
 worlds/lpc/Review-Artifacts/Doc01_Round1_Review.md: World-Builds/Hieronymian-Ascetic-Literary/hal_Doc_01_...md
