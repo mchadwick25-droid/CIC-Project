@@ -1628,6 +1628,65 @@ ruling:
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 
+### OG-24. Unblocking #586 (2026-09-25, relayed via the managing thread, ruling "a"): the two non-grandfathered ACCEPTED_OPEN waivers were removed rather than kept, the 311-file record-level `world_id` rewrite and the 208-record `set_source_kind.py` migration both landed, and that migration surfaced a new structural blocker — `m9:shelf-row/lpc` — that cannot be closed from this world alone.
+
+Ruling, as relayed: the earlier `m1:readability/lpc` and `m9:source-kind/lpc` ACCEPTED_OPEN
+waivers (added during the prior audit-fix pass) were the wrong move — `engine/m9/enforce.py`'s
+refusal to honor a waiver for a non-grandfathered world is the *intended* rule, not a bug.
+`GRANDFATHERED_WORLDS` is a fixed, closed set (alx, cappadocian, desert, don, gallic, hal, ijc,
+pahc, syr, rzg, witt) that "only ever shrinks, never grows" — lpc was never in it and does not
+get added now. Both waiver entries are removed from `engine/m9/enforce.py`; lpc's own findings
+get fixed for real, not waived.
+
+Work done this pass:
+
+- **Merged `origin/main`** into the branch with a merge commit (one real conflict, in
+  `engine/m1/quote_verbatim.py` — PR #595 landed a fleet-wide change making `OTHER_WORLDS`
+  registry-derived rather than hardcoded; resolved by keeping lpc explicitly in the hand-kept
+  `AUDITED_WORLDS` list, since its quote records are genuinely verified-direct, while adopting
+  main's own registry-driven `OTHER_WORLDS` formula).
+- **Record-level `world_id` rewrite.** All 311 files under `records/lpc/` carried
+  `world_id: latin-pastoral-congregational-christianity` (the census_id/corpus-map-filename
+  form). The registry's own `records/worlds/lpc.yaml` uses the shorter portfolio-wide slug
+  `latin-pastoral-congregational` (the project lead's 2026-09-16 ruling). Rewrote all 311
+  records' `world_id:` field to match the registry, scoped to the exact line so record ids
+  (`lpc.core.latin-pastoral-congregational-christianity`) and corpus-map path references
+  (`cic/corpus-map/latin-pastoral-congregational-christianity.yaml`) were left untouched —
+  verified directly (zero old-form lines remain, 311 new-form lines present, 29 corpus-map
+  path references and the world_core record's own id unchanged).
+- **`tools/set_source_kind.py lpc`**, run once as a single mechanical migration: 208 source
+  records touched (147 `kind: unvendored`, 61 `kind: vendored`), matching the dry-run preview
+  and the prior audit's own "208 source-kind findings" count exactly. This resolves
+  `m9:source-kind/lpc`.
+- **New finding surfaced by that migration: `m9:shelf-row/lpc`, 61 unwaived.** Every
+  `kind: vendored` source record now needs a `shelf_row` field naming a row on this world's
+  own corpus-map shelf (`engine/m9/confinement.py`'s `gate_shelf_row`), and that row has to
+  carry CM-1 (`row_id`) in `cic/corpus-map/latin-pastoral-congregational-christianity.yaml`.
+  Checked directly: **CM-1 does not exist for any world in the fleet** — every real
+  `cic/corpus-map/*.yaml` file has 0 rows carrying `row_id` (only the test fixture,
+  `fixture-synthetic.yaml`, has it, on both of its 2 rows). Every grandfathered world already
+  carries its own `m9:shelf-row/<world>` ACCEPTED_OPEN waiver in `engine/m9/enforce.py`, all
+  reading the identical reason: "blocked until corpus-map's CM-1 lands — no row_id exists to
+  copy before then and the no-guessing rule forbids inventing one." lpc cannot receive the
+  same waiver — grandfathering is closed, per this same ruling above — so this is not an lpc
+  content defect and not fixable from this world's own build thread: it is a fleet-wide
+  engine/corpus-map prerequisite (CM-1 row_id assignment) that has not been built for any
+  world yet. Named here as its own unresolved tension the pipeline cannot close on its own,
+  for the project lead's own attention, rather than worked around by inventing a row_id or by
+  routing around the grandfathering check.
+- Package rebuilt/repinned and the full validation suite (`engine.m2.cli staleness-check`,
+  `engine.m2.site_cli staleness-check`, `engine.m9.cli check`, `tools/check_paths.py`, M1
+  gates) re-run against the current head; remaining findings reported separately (readability
+  counted apart from the rest, per the ruling's own instruction).
+- **Not attempted this pass, explicitly out of scope per the ruling:** stripping the
+  process-narration commentary `tools/check_live_commentary.py --surface records` finds in
+  `records/lpc/` (1,724 hits: 966 REWRITE, 728 PROTECTED, 28 ROUTE, 2 KEEP) — too large and
+  judgment-intensive to strip safely in the same mechanical pass; each REWRITE hit needs
+  individual rephrasing and each ROUTE hit needs an individual move to this file, not a bulk
+  script. Left for its own dedicated pass.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
