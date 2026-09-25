@@ -19,6 +19,7 @@ import re
 import sys
 from pathlib import Path
 
+from engine.m1.cross_world import ACCEPTED_OPEN
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
 from engine.m1.registry import load_registry
 
@@ -74,10 +75,18 @@ def site_staleness_sweep(
     """Recompiles every migrated world's site JSON from its OWN committed
     file's pinned records_commit/compiler_version (read back out of that
     file's own `_generated_by` header), and reports it stale if that
-    differs from what's actually committed. A world with no committed
-    cic-website/data/worlds/<census_id>.json yet is simply absent from
-    the results - not a pass, not a fail, the same as an unbuilt world in
-    engine/m2/checks.py's own staleness_sweep()."""
+    differs from what's actually committed. A world not yet admitted/open
+    with no committed cic-website/data/worlds/<census_id>.json is simply
+    absent from the results - not a pass, not a fail, the same as an
+    unbuilt world in engine/m2/checks.py's own staleness_sweep(). An
+    ADMITTED/OPEN world with no committed file is different: participants
+    can already reach it, so a missing site JSON is reported stale unless
+    `required-site-json/<world_key>` is a live entry in
+    engine.m1.cross_world.ACCEPTED_OPEN, in which case it is reported
+    `stale: False` with the waiver text attached - the same waiver
+    engine.m1.cross_world's own check_required_record_types_and_site_json
+    already enforces from the records side; this sweep reads it rather
+    than keeping a second, independent copy of the same exception."""
     registry = registry if registry is not None else load_registry()
     results: dict[str, dict] = {}
     if not site_data_dir.is_dir():
@@ -88,6 +97,19 @@ def site_staleness_sweep(
             continue
         site_json_path = site_data_dir / f"{census_id}.json"
         if not site_json_path.is_file():
+            if entry.get("state") in ("admitted", "open"):
+                waiver = ACCEPTED_OPEN.get(f"required-site-json/{world_key}")
+                if waiver is not None:
+                    results[world_key] = {
+                        "stale": False,
+                        "waived": waiver,
+                        "reason": f"{world_key} is {entry.get('state')} but {site_json_path} does not exist - waived",
+                    }
+                else:
+                    results[world_key] = {
+                        "stale": True,
+                        "reason": f"{world_key} is {entry.get('state')} but {site_json_path} does not exist",
+                    }
             continue
         committed = json.loads(site_json_path.read_text(encoding="utf-8"))
         match = _GENERATED_BY_RE.match(committed.get("_generated_by", ""))
