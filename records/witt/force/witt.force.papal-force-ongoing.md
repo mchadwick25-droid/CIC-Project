@@ -49,25 +49,30 @@ name: 'The papal force, ongoing: the Confutation, the persecution of married pri
   1522-1531 [2A - ongoing/external]'
 kind: ongoing
 matrix_cell: 2A
-description: 'LAYER 1 (Historical Event). After the bull, the force continues in three documented forms:
-  the Roman CONFUTATION (1530), read before the Emperor and withheld from the Lutheran party in writing
-  -- ''they were unwilling to exhibit to us a copy of their Apology'' (Ap 8447-8449) -- cited repeatedly
-  as ''the adversaries''; the confession''s own report that ''men, and that, priests, are cruelly put
-  to death... for no other cause than marriage'' (AC 765-766, Documented as to the argument, Widely Accepted
-  as to the practice it presupposes); and the Easter communion law, the fast, and the seven hours, remembered
-  as compulsions the world had left. The Roman contemporary is in the library only as quoted by the answering
-  side -- structural to a founder-corpus library, disclosed rather than corrected. LAYER 2 (World''s Own
-  Experience). Its name shifts by register: ''the pope... the Antichrist'' in the sermons, ''the old way
-  under the Pope'' in the catechism (LC 4327), ''the Church of Rome as known from its writers'' in the
-  confession (AC 631-633). The body remembers it as a command with a graveyard attached: ''he who does
-  not go [to the sacrament at Eastertide] shall not be buried in consecrated ground'' (v2 15468-15470).
-  The conscience remembers it as its tormentor -- ''The Pope is a mere tormentor of the conscience'' (TT
-  3083-3084, Contested as verbatim). LAYER 3 (Formation Impact). Held and intensified G1, G2, G3, G5 --
-  the Babylonian Captivity ''written against the bull''s year''; the ''under the bench'' form; the pope
-  as ''tormentor of the conscience''; intensified G9 through the married priests'' deaths. Its own REMOVAL
-  was itself a force the founder reports: ''because the nonsense of the Pope has been abolished... [they]
-  go one, two, three years, or even longer without the Sacrament'' (LC 4238-4241) -- the world kept the
-  gate and changed what it checks (AC 797).'
+description: 'After the bull, the papal force continues in three documented forms. The first is the Roman Confutation of 1530.
+  It was read before the Emperor, but the Lutheran party was refused a written copy: "they were unwilling to
+  exhibit to us a copy of their Apology" (Ap 8447-8449). The Lutheran side cites it again and again as "the
+  adversaries." The second is the confession''s own report that "men, and that, priests, are cruelly put to
+  death... for no other cause than marriage" (AC 765-766). That the confession makes this argument is documented.
+  The practice the argument takes for granted is widely accepted. The third is the Easter communion law, the fast,
+  and the seven hours. The world remembers these as compulsions it had left behind. The Roman side of this period
+  appears in the library only as the answering side quotes it. That limit comes with a library built on the
+  founder''s own writings. It is disclosed here rather than corrected.
+
+  Inside this world, the name for this force changes with the kind of writing. The sermons call it "the pope...
+  the Antichrist." The catechism calls it "the old way under the Pope" (LC 4327). The confession speaks of "the
+  Church of Rome as known from its writers" (AC 631-633). The body remembers it as a command with a graveyard
+  attached: "he who does not go [to the sacrament at Eastertide] shall not be buried in consecrated ground" (v2
+  15468-15470). The conscience remembers it as its tormentor: "The Pope is a mere tormentor of the conscience" (TT
+  3083-3084). Whether these are the exact words spoken is contested.
+
+  This force held in place and strengthened four of the world''s gravities. They are justification by faith alone,
+  the authority of the Word, promise and sign in the sacraments, and the terrified and comforted conscience. This
+  shows in the Babylonian Captivity, "written against the bull''s year"; in the "under the bench" form; and in the
+  pope as "tormentor of the conscience." Through the deaths of married priests, it also strengthened the world''s
+  teaching on vows, chastity, and marriage. The removal of this force was itself a force, and the founder reports
+  it: "because the nonsense of the Pope has been abolished... [they] go one, two, three years, or even longer
+  without the Sacrament" (LC 4238-4241). The world kept the gate, but changed what it checks (AC 797).'
 manifestations:
 - '"they were unwilling to exhibit to us a copy of their Apology" (Ap 8447-8449) -- the Confutation withheld
   in writing'

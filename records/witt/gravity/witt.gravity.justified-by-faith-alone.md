@@ -91,38 +91,63 @@ relations:
   target: witt.contested.theses-door-posting
 name: Justified by faith alone [PRIMARY]
 classification: primary
-description: 'That the sinner is ''freely justified for Christ''s sake, through faith'' (AC IV, 234-239),
-  works and merit refused as the ground: ''faith alone, without works, justifies, makes free and saves''
-  (Treatise on Christian Liberty, v2 11780-11781); ''the promises of God give what the commands of God
-  ask... He alone commands. He also alone fulfils'' (v2 11817-11820). Its first, bounded form is the 1517
-  disputation''s own target -- ''The true treasure of the Church is the Most Holy Gospel of the glory
-  and the grace of God'' (Th. 62) answers giving to the poor ''a better work than buying pardons'' (Th.
-  43) -- and it is carried through seven evidence streams in both of this world''s voices: disputation,
-  treatise, sermon, catechesis, hymn, Bondage''s sustained argument, and Melanchthon''s confession, which
-  calls it ''the chief topic of Christian doctrine'' (Ap IV, 561-562). SIX-TEST SUMMARY:
-  Repetition passes across all seven streams; Dependency passes -- G3 (the sacrament approached ''with
-  faith alone''), G5 (the whole doctrine referred to the conscience, AC 552-553), G7 (works redefined
-  by faith), and G9 (vows refused as merit) each state their dependence in their own texts; Formation
-  passes as prescribed and preached, and is the one candidate where the founder''s own testimony claims
-  his own congregation already held it in 1522 (''you are more learned herein than I,'' v2 14665-14666)
-  -- Inferential-Thin as any wider congregation''s holding, per the founder-prescription/congregational-reception
-  line; Explanatory passes (it explains the 1517 protest''s target, the 1520 treatises'' structure, the
-  catechism''s Creed-over-Commandments order, and the Confession''s own order, IV before V); Persistence
-  passes 1517-1531 in every register, thinning to hymn and Table Talk only by the 1540s; Interaction passes,
-  reinforcing with G2, G3, G4, G5, G8, G9, G12, thinly with G10 and G11, reshaping G6 and G7, competing
-  only with G13. EVIDENTIAL CONFIDENCE: Documented. CLASSIFICATION: PRIMARY, passing all six with strong
-  confidence; the confession''s own voice calls it ''the chief topic.'' CONFIDENCE/GRAVITY CROSS-CHECK:
-  organizing strength and evidential confidence agree; no divergence. Register-and-voice spread (the strand-singular
-  substitute -- this world is strand-singular, and Article 21''s test is run
-  here as two scores rather than across strands): 4/4 -- both voices, six registers, and one thin household
-  trace (Katharina von Bora, TT 3147-3148, on coldness in prayer rather than faith itself). Reception-side
-  status: founder-attested as received, Wittenberg only, 1522. FORCES-CONNECTION NOTATION: generated under the founding conviction [1B-1] and the laity''s need for assurance [1B-2];
-  held and intensified once the bull and the Leipzig polemic turned an argument into the movement''s identity
-  [1A-2/2A-1]; intensified again into confessional definition at Augsburg (AC IV, 1530; Ap IV''s ''chief
-  topic,'' 1531) [2A-2]; re-fenced, not fractured, once the reform''s own ''new spirits'' put the formula
-  to a use it was not built for -- the Large Catechism answers by 1529 that faith ''must have something
-  which it believes... upon which it stands and rests'' (LC 3916-3921) [2B-1]; carried past 1531 only
-  in hymn and Table Talk [3B-2, beyond notation].'
+description: 'The sinner is ''freely justified for Christ''s sake, through faith'' (AC IV, 234-239). Works and merit are
+  refused as the ground: ''faith alone, without works, justifies, makes free and saves'' (Treatise on Christian
+  Liberty, v2 11780-11781); ''the promises of God give what the commands of God ask... He alone commands. He also
+  alone fulfils'' (v2 11817-11820).
+
+  Its first, limited form is the target of the 1517 disputation. ''The true treasure of the Church is the Most
+  Holy Gospel of the glory and the grace of God'' (Th. 62). That thesis answers the claim that giving to the poor
+  is ''a better work than buying pardons'' (Th. 43).
+
+  The doctrine runs through seven streams of evidence, in both of this world''s voices. They are disputation,
+  treatise, sermon, catechism teaching, and hymn. They also include the sustained argument of The Bondage of the
+  Will, and Melanchthon''s confession. That confession calls it ''the chief topic of Christian doctrine'' (Ap IV,
+  561-562).
+
+  It recurs across all seven streams. Other gravities say in their own texts that they depend on it. Promise and
+  sign approaches the sacrament "with faith alone." The terrified and comforted conscience refers the whole
+  doctrine to the conscience (AC 552-553). Estate, office, and calling redefines works by faith. Vows, chastity,
+  and marriage refuses vows as merit.
+
+  It shapes people as a doctrine prescribed and preached. It is the one gravity the founder says his own
+  congregation already held, in 1522: ''you are more learned herein than I'' (v2 14665-14666). That any wider
+  congregation held it rests only on thin inference. What the founder prescribed is kept apart from what
+  congregations received.
+
+  It explains a great deal. It explains the target of the 1517 protest and the structure of the 1520 treatises. It
+  explains why the catechism puts the Creed over the Commandments. It explains the Confession''s own order, with
+  Article IV before Article V.
+
+  It persists from 1517 to 1531 in every kind of writing. By the 1540s it thins to hymn and Table Talk only.
+
+  It reinforces the Word, promise and sign, and the household catechism. It also reinforces the conscience, "must"
+  and "free", vows and marriage, and embattled Christendom. It reinforces the bodily presence and German for the
+  people only thinly. It reshapes the two governments and estate, office, and calling. It competes with only one:
+  hearers and repeaters of words.
+
+  The doctrine is well documented. It is classified as a primary gravity, and it holds on every measure with
+  strong confidence. The confession''s own voice calls it "the chief topic." Its organizing strength and the
+  evidence for it agree. They do not pull apart.
+
+  This world has a single strand, so the usual cross-strand test is run here as two scores instead. It scores four
+  of four. Both voices carry it, across six kinds of writing. There is also one thin trace from a household. That
+  is Katharina von Bora (TT 3147-3148), and she speaks of coldness in prayer, not of faith itself. As for how it
+  was received, the founder says it was received, in Wittenberg only, in 1522.
+
+  It arose from the friar''s founding conviction and from the laity''s need for assurance. The papal bull and the
+  Leipzig dispute then turned an argument into the movement''s identity. That papal pressure, in its early and its
+  ongoing form, held and intensified it.
+
+  The imperial force intensified it again, into a confessional definition at Augsburg. That came in Article IV of
+  the Augsburg Confession in 1530, and the Apology''s "chief topic" in 1531.
+
+  Then the reform''s own "new spirits", the internal radical force, used the formula for a purpose it was not
+  built for. The doctrine was fenced again, not broken. By 1529 the Large Catechism answers that faith ''must have
+  something which it believes... upon which it stands and rests'' (LC 3916-3921).
+
+  After 1531 it is carried only in hymn and Table Talk. This stage lies at the edge of the world''s time window,
+  outside the formal forces mapping.'
 manifestations:
 - '"freely justified for Christ''s sake, through faith... This faith God imputes for righteousness" (AC
   IV, 234-239)'

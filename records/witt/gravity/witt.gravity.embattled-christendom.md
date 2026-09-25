@@ -70,33 +70,51 @@ relations:
   target: witt.gravity.hearers-and-repeaters-of-words
 name: 'Embattled Christendom: the devil, the pope, and the Turk as one adversary; the Word as weapon [SUPPORTING]'
 classification: supporting
-description: '''here we battle not against pope or bishop, but against the devil, and do you imagine he
-  is asleep? He sleeps not... he would make a flank attack'' (v2 14752-14756); the hymn''s own compression,
-  ''The old evil foe, / Means us deadly woe... One little word can fell him'' (Hy 3671-3705). SIX-TEST
-  SUMMARY: Repetition passes across eight streams, both voices; Dependency passes -- prayer,
-  hymnody, the polemical register''s whole naming practice, G5''s assurance ''against the devil,'' G8''s
-  ''flank attack'' all depend on it; Formation passes as sung and prayed daily by prescription, Inferential-Thin
-  as reception, though even Kate''s one sentence is framed by this gravity (''the devil drives his servants...
-  we are very cold''); Explanatory passes -- the vehemence of the polemical register, the naming shift
-  from ''Antichrist'' to ''the Church of Rome,'' the Confession''s own opening on the Turk, and the 1522
-  crisis read as the devil''s stratagem all trace to it; Persistence passes 1520-1545, both voices, every
-  register; Interaction passes, an almost uniformly reinforcing row -- reinforcing G1-G6 and G13, thinly
-  G7, G9, G10, G11, RESHAPING G8 (the adversary frame gives G8''s restraint its urgency). EVIDENTIAL CONFIDENCE:
-  Documented for what the texts say; the apocalyptic interpretive frame some scholarship places over it
-  is the leading modern reading at most and unread -- this record builds nothing on it. CLASSIFICATION:
-  SUPPORTING -- it passes all six strongly and a reviewer could argue Primary, but what it organizes is
-  the ecology''s AFFECTIVE AND ADVERSARIAL FRAME, the Layer-2 consciousness of the forces in the Forces
-  Framework''s own terms, and the Word it wields is G2''s own: ''One little word can fell him.'' It functions
-  within the context G1 and G2 set. CONFIDENCE/GRAVITY CROSS-CHECK: agree; no divergence. Register-and-voice
-  spread: 4/4, Kate''s sentence sitting inside it. Reception-side status: one filtered household sentence.
-  FORCES-CONNECTION NOTATION: THIS GRAVITY IS THE WORLD''S OWN LAYER-2 READING
-  OF THE EXTERNAL FORCES themselves -- its name for the papal force (''Antichrist in Rome''), for the
-  Turk (''that most atrocious, hereditary, and ancient enemy''), and for the internal radical force (the
-  devil''s ''flank attack''; the ''new spirits'') [2A-1, 2A-5, 2B-1]; intensified under each of them;
-  a naming shift under the imperial force, ''Antichrist'' in the polemical register becoming ''the Church
-  of Rome'' in the confessional -- a shift in naming, not in the frame [2A-2/3A-1]; inherits the saints''
-  functional protections it refuses and replaces them with the Word as ''holy water'' [1B-3]. Held in
-  every register; the 1529 hymn is its most compressed form.'
+description: '''here we battle not against pope or bishop, but against the devil, and do you imagine he is asleep? He sleeps
+  not... he would make a flank attack'' (v2 14752-14756). The hymn packs it tighter still: ''The old evil foe, /
+  Means us deadly woe... One little word can fell him'' (Hy 3671-3705).
+
+  This frame recurs across eight streams of evidence, in both of this world''s voices. Much depends on it. Prayer
+  and hymn-singing depend on it. So does the polemical writing''s whole way of naming its enemies. The terrified
+  and comforted conscience finds its assurance "against the devil." The warning of a "flank attack" in "must" and
+  "free" rests on it too.
+
+  It shaped people, since it was sung and prayed daily as prescribed. How people actually received it rests only
+  on thin inference. Still, even Kate''s one sentence is framed by it: "the devil drives his servants... we are
+  very cold."
+
+  It explains a great deal. The fierceness of the polemical writing traces to it. So does the shift in naming from
+  "Antichrist" to "the Church of Rome." So does the Confession''s opening on the Turk. So does reading the 1522
+  crisis as the devil''s scheme. It holds from 1520 to 1545, in both voices and every register.
+
+  Its links with other gravities are almost all mutual support. It strengthens justified by faith alone, the Word,
+  promise and sign, the household catechism, the terrified and comforted conscience, and the two governments. It
+  also strengthens hearers and repeaters of words. It more thinly strengthens estate, office, and calling; vows,
+  chastity, and marriage; the bodily presence; and German for the people. It reshapes "must" and "free." The sense
+  of a living enemy gives that gravity''s restraint its urgency.
+
+  What the texts say is well documented. Some scholars lay an apocalyptic frame over it. At most, that is the
+  leading modern reading. It has not been read here, and this record builds nothing on it.
+
+  It is classed as supporting. It passes every measure strongly, and a reviewer could argue it is primary. But
+  what it organizes is this world''s emotional and adversarial frame. It is the world''s own inner experience of
+  the forces acting on it. And the Word it wields belongs to the Word: "One little word can fell him." It works
+  within the setting that justified by faith alone and the Word set up. Here the weight given to it and the
+  evidence agree.
+
+  It appears in all four registers and voices, and Kate''s sentence sits inside it. For how it was received, we
+  have one household sentence, and it has come down to us filtered.
+
+  This gravity is the world''s own inner reading of the outside forces themselves. It gives them its own names.
+  The later papal force is "Antichrist in Rome." The Turk is "that most atrocious, hereditary, and ancient enemy."
+  The internal radical force is the devil''s "flank attack," the "new spirits." Each of these forces made it
+  sharper.
+
+  Under the imperial force and the confessional-territorial transformation, its naming shifted. "Antichrist" in
+  the polemical writing became "the Church of Rome" in the confessional writing. The names changed; the frame did
+  not. It also takes over the protective work once given to the saints, which it refuses. In their place it puts
+  the Word, as "holy water." This belongs to the inheritance refused. It held in every register. The 1529 hymn is
+  its most compressed form.'
 manifestations:
 - '"here we battle not against pope or bishop, but against the devil, and do you imagine he is asleep?
   He sleeps not... he would make a flank attack" (v2 14752-14756)'

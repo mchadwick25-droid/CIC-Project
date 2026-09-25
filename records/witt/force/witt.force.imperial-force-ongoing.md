@@ -51,24 +51,37 @@ name: 'The imperial force: Worms and the Edict (1521), the Diets, Augsburg and t
   1521-31 [2A - ongoing/external]'
 kind: ongoing
 matrix_cell: 2A
-description: 'LAYER 1 (Historical Event). The Edict of Worms and the Council of Regency''s edict of January
-  1522 (Widely Accepted); the Wartburg absence, 4 May 1521 to 6 March 1522; the Diets of Speyer and the
-  appeal to ''a general, free Christian Council'' (AC 116-161, Documented); the Diet of Augsburg (1530),
-  the Confession submitted in German and Latin by nine signatories, the Confutation read before the Emperor
-  (Documented). Absent input, stated here and at 3A-2: the force''s legal settlement of 1555 lies outside
-  every vendored text. LAYER 2 (World''s Own Experience). In 1522 the Edict is felt as the absence that
-  let the reform run ahead: ''I would not have gone so far as you have done, if I had been here. What
-  you did was good, but you have gone too fast'' (v2 14727-14728). Worms is remembered as a fool''s play
-  declined -- ''I could have started such a little game at Worms that even the emperor would not have
-  been safe... I did nothing; I left it to the Word'' (v2 14932-14935). In 1530 the force is felt as a
-  summons that sets the world''s own agenda beside the Turk''s -- ''measures against the Turk... [and]
-  dissensions in the matter of our holy religion'' (AC 50-54) -- and answered in a new voice, ''our churches''
-  (AC 787). LAYER 3 (Formation Impact). The force that STATED the gravities: intensified G1 and G5 into
-  confessional definition at the Diet; shifted G3 from the 1520 logic of abolition to the 1530 defense
-  of a retained Mass; stated G2 additively; reworded G7 ''calling''; settled G8 as the confessional doctrine
-  of adiaphora; shifted G11 into the Apology''s two-tier rule; shifted G12''s naming from ''Antichrist''
-  to ''the Church of Rome.'' As the Edict of 1521, it is the OCCASION of G8''s generation. Its transforming
-  aspect -- the world''s form changed from protest literature to settled confession -- is entered at 3A-1.'
+description: 'The Edict of Worms and the Council of Regency''s edict of January 1522 are widely accepted by scholars. Then
+  came the Wartburg absence, from 4 May 1521 to 6 March 1522. The Diets of Speyer and the appeal to "a general,
+  free Christian Council" are documented (AC 116-161). The Diet of Augsburg met in 1530. Nine signatories
+  submitted the Confession there in German and Latin. The Confutation was read before the Emperor. These Augsburg
+  events are documented too.
+
+  One input is missing, and it is noted both here and in the record of the absent inputs of 1525 and 1555. This
+  force''s legal settlement of 1555 lies outside every text in this library.
+
+  In 1522 this world felt the Edict as the absence that let the reform run ahead: "I would not have gone so far as
+  you have done, if I had been here. What you did was good, but you have gone too fast" (v2 14727-14728). Worms is
+  remembered as a fool''s play the founder declined: "I could have started such a little game at Worms that even
+  the emperor would not have been safe... I did nothing; I left it to the Word" (v2 14932-14935).
+
+  In 1530 this world felt the force as a summons. It set the world''s own business beside the business of the
+  Turk: "measures against the Turk... [and] dissensions in the matter of our holy religion" (AC 50-54). The world
+  answered in a new voice: "our churches" (AC 787).
+
+  This is the force that stated the gravities. At the Diet, it sharpened two of them into confessional definition:
+  justification by faith alone, and the terrified and comforted conscience. It moved the teaching on promise and
+  sign from the 1520 logic of abolition to the 1530 defense of a retained Mass. It stated the authority of the
+  Word in an additive way, adding "the Church Catholic" beside Scripture, without changing the underlying rule. It
+  reworded "calling," part of the teaching on estate, office, and calling.
+
+  It settled the teaching on "must" and "free" as the Confession''s doctrine of adiaphora. It moved "German for
+  the people" into the Apology''s two-tier rule. It changed the name embattled Christendom gave its enemy from
+  "Antichrist" to "the Church of Rome."
+
+  In the form of the Edict of 1521, this force is the occasion that gave rise to the teaching on "must" and
+  "free." Its transforming side is entered in its own record, the confessional-territorial transformation. That is
+  where the world''s form changed from protest literature to settled confession.'
 manifestations:
 - '"I would not have gone so far as you have done, if I had been here. What you did was good, but you
   have gone too fast" (v2 14727-14728)'

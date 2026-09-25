@@ -36,23 +36,27 @@ name: 'Transmission within the world''s life: the founder''s own printing, the c
   selections, 1517-1545 [2B - ongoing/internal]'
 kind: ongoing
 matrix_cell: 2B
-description: 'LAYER 1 (Historical Event). Who transmitted, in-window: the Wittenberg and other printers;
-  the hymnal compilers, Walter (1525), Klug (1535, 1543), Bapst (1545), each with the founder''s own preface;
-  the founder himself as reluctant collector, in the 1539 preface to the German works and the 1545 preface
-  to the Latin; Lauterbach and Aurifaber for the Table Talk; Melanchthon''s edition of the Latin works
-  ''published immediately after Luther''s death.'' SURVIVORSHIP FINDING (Documented): ''Which forces threatened
-  the community''s literary output? On the evidence in hand, NONE DID, and that is itself the finding...
-  What shaped survival was SELECTION, not suppression.'' LAYER 2 (World''s Own Experience). The world
-  understood its own transmission as a thing to be distrusted in favour of the Book: the founder wished
-  his books forgotten ''if only for the reason that I am afraid of the example'' (v1 260-261), hoping
-  ''the Bible would have kept its place in the pulpit'' (v1 329-330). It understood the hymnal as a beginning
-  offered for others to better: ''to make a good beginning and to encourage others who can do it better''
-  (Hy 909-912) -- and, by 1543, as property to be marked, ''not our book published at Wittenberg'' if
-  amended without leave (Hy 1093-1094). LAYER 3 (Formation Impact). What in-window transmission favoured
-  is what this library holds: the founder''s argued doctrine, Wittenberg, 1517-1525. What it did not carry
-  -- because no one in the movement''s own circle made a book of it -- is the parish: the movement DID
-  record the visitation protocols; this library lacks that record for rights and language reasons, not
-  because it was never made. The founder''s reluctance is itself a formation datum.'
+description: 'Several people passed on this world''s writings during the period this library covers. The printers of
+  Wittenberg and other towns did so. So did the hymnal compilers: Walter in 1525, Klug in 1535 and 1543, and Bapst
+  in 1545. Each hymnal carried the founder''s own preface. The founder himself was a reluctant collector. He said
+  so in his 1539 preface to the German works and his 1545 preface to the Latin works. Lauterbach and Aurifaber
+  gathered the Table Talk. Melanchthon''s edition of the Latin works was "published immediately after Luther''s
+  death." One finding about what survived is well documented. No force in the evidence threatened this world''s
+  writings from surviving -- that absence is itself the finding. What shaped survival was selection, not
+  suppression.
+
+  This world distrusted its own handing-down of books and put the Bible first. The founder wished his books
+  forgotten, "if only for the reason that I am afraid of the example" (v1 260-261). He hoped "the Bible would have
+  kept its place in the pulpit" (v1 329-330). The world saw the hymnal as a beginning for others to improve. It
+  was made "to make a good beginning and to encourage others who can do it better" (Hy 909-912). By 1543 it was
+  also property to be marked as its own. If others changed it without leave, it was "not our book published at
+  Wittenberg" (Hy 1093-1094).
+
+  What was handed down within the period is what this library holds: the founder''s argued doctrine, from
+  Wittenberg, 1517-1525. The parish did not come through, because no one in the movement''s own circle made a book
+  of it. Yet the movement did record the visitation protocols. This library lacks that record for reasons of
+  rights and language, not because it was never made. The founder''s own reluctance to be collected is itself
+  evidence of how this world was formed.'
 manifestations:
 - 'the survivorship finding: "which forces threatened the community''s literary output? On the evidence
   in hand, none did... What shaped survival was selection, not suppression"'

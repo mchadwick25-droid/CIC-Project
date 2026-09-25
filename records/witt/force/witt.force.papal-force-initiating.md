@@ -44,24 +44,29 @@ name: 'The papal force, initiating: the indulgence trade, the Leipzig polemic, a
   [1A - initiating/external]'
 kind: initiating
 matrix_cell: 1A
-description: 'LAYER 1 (Historical Event). Indulgence sales, protested in the letter to Albrecht of Mainz
-  with the Theses as its enclosure, subscribed ''From Wittenberg on the Vigil of All Saints, MDXVII''
-  (the letter itself is well attested; whether the Theses were actually posted has been disputed since
-  Iserloh''s 1961 challenge to the editors'' own ''mid-day'' story). The response: Alveld''s and Emser''s tracts, answered in 1520-21;
-  the bull EXSURGE DOMINE (15 June 1520) with its forty-one condemned articles, answered article by article
-  -- all reaching the library only as quoted by the side that answered them, structurally one-sided and
-  disclosed as such. Print carried the exchange: The Papacy at Rome in twelve editions. LAYER 2 (World''s
-  Own Experience). At the origin, a doctrine that has misplaced the Church''s treasure -- ''The true treasure
-  of the Church is the Most Holy Gospel of the glory and the grace of God'' (Th. 62); within three years,
-  a claimed monopoly on Scripture -- ''the keys were not given to Peter alone, but to the whole community''
-  (v2 2384-2390); looking back in 1545, one name and one simile for the whole force -- ''the kingdom of
-  his Vicar, the Antichrist in Rome... is sore beset'' (v1 408-409), the devil raging ''like one who well
-  knows and feels that his time is short.'' Reported-Experience Status applies to the ''Antichrist'' naming
-  as the world''s own reading, not an adopted apocalyptic thesis. LAYER 3 (Formation Impact). Generated
-  G2 as the refusal turned positive, and G7 as the refusal of the first wall; intensified G1 -- the bull''s
-  condemned articles and the Leipzig polemic turned an argument into the movement''s identity. Produced
-  the polemical register itself, and set the pitch G12 would carry before the imperial force softened
-  its naming (2A-1, 2A-2).'
+description: 'It began with the sale of indulgences. The protest came in a letter to Albrecht of Mainz, with the Theses
+  enclosed. It was signed "From Wittenberg on the Vigil of All Saints, MDXVII". The letter itself is well
+  attested. Whether the Theses were actually posted is disputed. Iserloh challenged the editors'' own "mid-day"
+  story in 1961, and the dispute has run ever since. Then came the response. Alveld and Emser wrote tracts, which
+  were answered in 1520-21. The bull Exsurge Domine (15 June 1520) condemned forty-one articles. These were
+  answered article by article. All of this reaches the library only as quoted by the side that answered it. So the
+  record is one-sided by its very structure, and it says so openly. Print carried the exchange: The Papacy at Rome
+  ran to twelve editions.
+
+  Inside this world, the force looked different at each stage. At the start, it was a doctrine that had misplaced
+  the Church''s treasure: "The true treasure of the Church is the Most Holy Gospel of the glory and the grace of
+  God" (Th. 62). Within three years, it was a claimed monopoly on Scripture: "the keys were not given to Peter
+  alone, but to the whole community" (v2 2384-2390). Looking back in 1545, the world gave the whole force one name
+  and one image. "The kingdom of his Vicar, the Antichrist in Rome... is sore beset" (v1 408-409). The devil rages
+  "like one who well knows and feels that his time is short." The name "Antichrist" is reported as this world''s
+  own reading. It is not a claim about the end times that this record adopts.
+
+  This force gave rise to the Word as a gravity, with the refusal turned into something positive. It gave rise to
+  estate, office and calling, as the refusal of the first wall. It made justification by faith alone more intense.
+  The bull''s condemned articles and the Leipzig polemic turned an argument into the movement''s identity. This
+  force also produced the polemical register itself. It set the pitch that embattled Christendom would carry,
+  until the imperial force softened its naming. That later stage belongs to the papal force in its ongoing form
+  (1522-1531) and to the ongoing imperial force.'
 manifestations:
 - the Theses, enclosed with the letter to Albrecht of Mainz, subscribed "From Wittenberg on the Vigil
   of All Saints, MDXVII"

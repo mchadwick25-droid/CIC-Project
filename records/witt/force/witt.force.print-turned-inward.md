@@ -31,21 +31,26 @@ name: 'Print turned inward: the book that makes pastors unnecessary; the hymns "
   1529-1543 [2B - ongoing/internal]'
 kind: ongoing
 matrix_cell: 2B
-description: 'LAYER 1 (Historical Event). The founder''s 1543 preface to Klug''s hymnal, complaining that
-  ''the earliest of our hymns are more perverted the more they are printed'' (Hy 1065-1069, Documented)
-  and requiring names attached and a printed warning quatrain; the Large Catechism''s report of nobles
-  who say ''we have everything in books, and every one can easily learn it by himself'' (LC 94-95, Documented
-  as the founder''s testimony). Placed as a separate, internal entry because by 1529 the pressure comes
-  from the world''s own printed output and its own imitators, not from the press as such (1A-3). LAYER
-  2 (World''s Own Experience). The medium is felt as an excuse -- ''we have everything in books'' (LC
-  94-95) -- and as a book ''which they can read through at one time, and then immediately know it, throw
-  the book into a corner'' (LC 87-89). The song is felt as corrupted by ''perpetual amending by every
-  one indiscriminately according to his own liking'' (Hy 1065-1067), and guarded: ''lest strange and unsuitable
-  songs come to be sold under our name'' (Hy 1086-1087); ''False masters now abound, who songs indite;
-  / Beware of them, and learn to judge them right'' (Hy 1249-1250). LAYER 3 (Formation Impact). Turned
-  against G11 at its edge -- by 1543 the vernacular hymns are ''perverted the more they are printed''
-  and must be fenced -- and is G13''s late object, forcing on the world a boundary of authorship, ''our
-  book / not our book.'' The community''s own medium is also the community''s own boundary problem.'
+description: 'In 1543 the founder wrote a preface to Klug''s hymnal. In it he complains that "the earliest of our hymns are
+  more perverted the more they are printed" (Hy 1065-1069). This is documented. He requires that names be
+  attached, and that a warning quatrain (a four-line verse) be printed. The Large Catechism reports nobles who say
+  "we have everything in books, and every one can easily learn it by himself" (LC 94-95). This is documented as
+  the founder''s own testimony. This force is placed as a separate, internal one for a reason. By 1529 the
+  pressure comes from the world''s own printed output and its own imitators. It does not come from the press as
+  such, which is the separate force of print as medium.
+
+  Inside this world, the medium is felt as an excuse: "we have everything in books" (LC 94-95). It is felt as a
+  book "which they can read through at one time, and then immediately know it, throw the book into a corner" (LC
+  87-89). The song is felt as corrupted by "perpetual amending by every one indiscriminately according to his own
+  liking" (Hy 1065-1067). And the song is guarded: "lest strange and unsuitable songs come to be sold under our
+  name" (Hy 1086-1087). And again: "False masters now abound, who songs indite; / Beware of them, and learn to
+  judge them right" (Hy 1249-1250).
+
+  This force turned against the gravity of German for the people at its edge. By 1543 the hymns in the people''s
+  own language are "perverted the more they are printed," and they must be fenced in. This force is also the late
+  object of the gravity of hearers and repeaters of words. It forced on the world a boundary of authorship:
+  whether a changed hymn could still be called the world''s own book. The community''s own medium is also the
+  community''s own boundary problem.'
 manifestations:
 - '"the earliest of our hymns are more perverted the more they are printed" (Hy 1065-1069)'
 - '"we have everything in books, and every one can easily learn it by himself" (LC 94-95)'

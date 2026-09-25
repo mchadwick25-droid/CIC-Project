@@ -54,25 +54,31 @@ name: 'The territorial-princely force, in both directions: protection, ban, the 
   arm [2A - ongoing/external]'
 kind: ongoing
 matrix_cell: 2A
-description: 'LAYER 1 (Historical Event). Frederick''s protection; Duke George''s 1522 ban on the September
-  Testament and his complaints to the Elector (Widely Accepted); SECULAR AUTHORITY, dedicated to Duke
-  John and preached before him at Weimar (Documented as the movement''s own doctrine of the state); the
-  Teutonic Order''s secularization (Widely Accepted); the Wittenberg Council''s own call (Documented).
-  Absent input: the force''s inspecting arm, the Saxon visitation of 1527-28 and Melanchthon''s INSTRUCTIONS
-  FOR THE VISITORS, is known to this library only by reference -- documented at the level of the Empire
-  and the Saxon court, undocumented at the level of the parish. LAYER 2 (World''s Own Experience). As
-  the guarantor that a change is ''from God'': abolishing the mass rightly would have required ''the aid
-  of the authorities'' (v2 14764-14765); as the sword ordained of God, ''lawful civil ordinances are good
-  works of God'' (AC 411-428); as the prince who keeps the bread (LC 3471-3484) -- and, in the same petition,
-  the hunger the same force can cause when nobles ''let the parishes decay... and pastors and preachers
-  to suffer distress and hunger a plenty'' (LC 92-97). The economic datum sits in this same petition:
-  ''how much trouble there is now in the world only on account of bad coin... and daily oppression and
-  raising of prices'' (LC 3535-3541) -- from within, not a market but a sin against the neighbour''s bread.
-  LAYER 3 (Formation Impact). Re-set G3 after 1522, by the founder''s own appeal to ''the aid of the authorities'';
-  shifted G4''s audience between 1520 and 1529, once the territorial church had parishes to inspect and
-  pastors to rebuke; both protected and banned G6, shifting its direction three times; intensified G9
-  through the Order''s secularization and G11 through the ban on the German Testament; stands behind G13
-  as the unsourced ''inspecting arm.'''
+description: 'Frederick protected the movement. In 1522 Duke George banned the September Testament and complained to the
+  Elector. These events are widely accepted. Luther''s Secular Authority was dedicated to Duke John and preached
+  before him at Weimar. It is well documented as the movement''s own teaching about the state. The Teutonic Order
+  was turned into a secular state. That too is widely accepted. The Wittenberg Council''s own call for help is
+  well documented. One piece is missing: this force''s inspecting arm. That arm was the Saxon visitation of
+  1527-28 and Melanchthon''s Instructions for the Visitors. This library knows it only through references to it.
+  It is documented at the level of the Empire and the Saxon court. It is not documented at the level of the
+  parish.
+
+  This world met the force in several roles. First, the rulers guaranteed that a change came "from God."
+  Abolishing the mass rightly would have required "the aid of the authorities" (v2 14764-14765). Second, they were
+  the sword God had ordained: "lawful civil ordinances are good works of God" (AC 411-428). Third, the prince was
+  the one who keeps the bread (LC 3471-3484). But the same petition names the hunger this force could cause.
+  Nobles "let the parishes decay... and pastors and preachers to suffer distress and hunger a plenty" (LC 92-97).
+  The same petition also speaks of money. It names "how much trouble there is now in the world only on account of
+  bad coin... and daily oppression and raising of prices" (LC 3535-3541). Seen from inside this world, this was
+  not a market at work. It was a sin against the neighbour''s bread.
+
+  After 1522 this force reset the teaching on promise and sign, the sacraments. It did so through the founder''s
+  own appeal to "the aid of the authorities." Between 1520 and 1529 it changed who the household catechism was
+  for. By then the territorial church had parishes to inspect and pastors to rebuke. It both protected and banned
+  the teaching of the two governments, changing that teaching''s direction three times. The Order''s
+  secularization strengthened the teaching on vows, chastity, and marriage. The ban on the German Testament
+  strengthened the push for German for the people. The force also stands behind this world''s hearers and
+  repeaters of words, as the unattested "inspecting arm." No source in this library shows that arm directly.'
 manifestations:
 - abolishing the mass rightly would have required "the aid of the authorities" (v2 14764-14765)
 - '"lawful civil ordinances are good works of God... Christians are necessarily bound to obey their own
