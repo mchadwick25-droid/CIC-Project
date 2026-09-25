@@ -29,7 +29,7 @@ exchange:
     hold to be his birthplace. Our deepest devotion has the shape of that
     choice. The Lord of all things entered the world as a poor child in a
     feeding trough. So wealth, rank, and comfort are things we lay down to
-    come near him. Jerome wrote of Paula entering that cave, saying that with
+    come near him. Jerome wrote of Paula entering that cave, saying in his own hearing that with
     the eyes of faith she could see it all: the infant Lord wrapped in cloths
     and crying in the manger, the wise men worshipping him, the star shining
     overhead, the virgin mother, the watchful foster father, and the shepherds

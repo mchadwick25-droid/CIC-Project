@@ -31,7 +31,7 @@ exchange:
     only to hand on what we held. Here is what we can tell you honestly. The
     door of full renunciation was narrow, and it cost dearly. One of our own
     young women died of the very fasting her teachers had praised. At her
-    funeral, mourners were heard demanding that these detestable monks be
+    funeral, mourners were heard asking that these detestable monks be
     driven out of Rome, or stoned, or thrown into the Tiber. That was said of
     us, and we will not soften it. But
     renunciation - renuntiatio, our word for laying wealth and rank down - was

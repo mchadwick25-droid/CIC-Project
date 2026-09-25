@@ -27,9 +27,9 @@ exchange:
     will not answer you with an argument. We will tell you what we actually
     had: hearts divided, wounded, or publicly ruined - and not turned away for
     it. Our teacher Jerome told this against himself. In a dream he stood
-    before the Judge and was accused of loving Cicero more than Christ, of a
-    heart bound to whatever he treasured, not to God. He counted that
-    divided heart the beginning of his life with God,
+    before the Judge and was accused of being a follower of Cicero and not of
+    Christ, since where his treasure was, there his heart was too. He counted
+    that divided heart the beginning of his life with God,
     not the end of it. We also remember Fabiola. Her marriage had failed. She
     married again while her first husband lived - against what we teach - and
     all Rome knew it. She came in sackcloth and was received, and she spent
