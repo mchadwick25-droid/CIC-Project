@@ -1,0 +1,16 @@
+source_file: salmeron_epistolae-v3-lat_1906.txt
+
+assignments:
+  - work: "Epistolae P. Alphonsi Salmeronis, Vol. III"
+    author: salmeron
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      Salmeron's own letters, continuing Vol. II (vendored alongside
+      this file). Vendored 2026-09-25 as part of a post-Step0-Revision-2
+      PD source-acquisition pass. Per this project's own INTAKE.md rule,
+      this Latin text is a second witness, never primary evidence for a
+      Representative.
