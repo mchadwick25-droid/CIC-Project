@@ -27,16 +27,18 @@ statement: Were we really hiding in catacombs, and what would an outsider have f
   On these two, I cannot answer from inside our own record. What did our neighbours actually say about
   us? A Roman official named Demetrianus once blamed us for the wars, plague, and famine troubling the
   world, for refusing to worship the old gods -- that much we do have, in Cyprian's own reply to him.
-  Did Constantine corrupt what we were? Augustine took that question up directly too, holding that God
-  gave Constantine great success on purpose, so no one could say greatness required worshipping demons
-  after all.
+  Did Constantine corrupt what we were? Augustine does not take that question up directly. The nearest
+  he comes is City of God's own argument that God gave Constantine great success on purpose, so no one
+  could say greatness required worshipping demons after all.
 why_sources_cannot_answer: 'Checked directly against lpc.force.standing-legal-condition-unlicensed-religion
   and lpc.force.illegal-to-established-shift: neither states a position on catacombs or an outsider''s
   own strangeness-perception. This world''s Cyprian phase is pre-Constantine, and its Augustine phase engages
   church-state pressure only through the Donatist-schism/coercion material already tagged F6-T/F6-P, not
   through a general outsider''s-eye account of Christian strangeness. What our neighbours said is answered
   separately and directly by An Address to Demetrianus (lpc.witness.blamed-for-the-worlds-troubles); whether
-  Constantine corrupted the church is answered separately and directly by City of God V.25 (lpc.witness.constantine-did-not-corrupt).'
+  Constantine corrupted the church has no direct answer in our own record -- the nearest material is City
+  of God V.25 (lpc.witness.constantine-did-not-corrupt), which argues why God granted Constantine earthly
+  prosperity, not whether his reign corrupted the church.'
 nearest_material:
 - lpc.force.standing-legal-condition-unlicensed-religion
 - lpc.force.illegal-to-established-shift

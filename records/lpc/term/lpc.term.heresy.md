@@ -77,7 +77,7 @@ senses:
     One answer, Cyprian''s own: no. What is given outside is not given, because there is nothing outside
     to give it, so bring them to the water. That is not a technicality; it follows from taking the one
     body seriously, and it is ruled on in council and defended against Rome at real cost. The other answer,
-    a century and a third later, from a man arguing against that very ruling: what was given outside was
+    a century and a half later, from a man arguing against that very ruling: what was given outside was
     truly given, and does no good where the person stands; bring them in, and what they already carry
     will begin to work. The question does not go away between the two answers -- it gets harder, because
     by the second time it is not one convert at the door but an entire rival hierarchy holding the same

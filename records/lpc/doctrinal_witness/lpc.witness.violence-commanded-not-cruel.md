@@ -37,7 +37,8 @@ relations:
 positions:
 - Did the violence in these texts trouble us? Augustine says it once troubled him, before
   he held our own faith. As a young man drawn to a rival teaching, he was, in his own words, "much disturbed"
-  by the wars and killings scripture reports. Once he held our own faith, and was answering a Manichaean
+  by the question whether men who had many wives, and did kill men, could really be called righteous.
+  Once he held our own faith, and was answering a Manichaean
   who raised exactly this same charge, he wrote at length, without flinching from it. When Moses led wars
   by God's own command, he wrote, "he showed not ferocity but obedience." God, in giving such a command,
   "acted not in cruelty, but in righteous retribution, giving to all what they deserved."
@@ -54,7 +55,8 @@ tensions:
   on our own part.
 text: 'Did the violence in some of these texts trouble our own people? Augustine says it
   once troubled him, before he held our own faith -- as a young man drawn to a rival teaching, he was,
-  in his own words, "much disturbed" by the wars and killings scripture reports. Once he held our own
+  in his own words, "much disturbed" by the question whether men who had many wives, and did kill men,
+  could really be called righteous. Once he held our own
   faith, answering a Manichaean who raised exactly this same charge, he wrote of the wars of Moses, carried
   out on God''s own command, without flinching from it: Moses "showed not ferocity but obedience." God
   himself, in giving that command, "acted not in cruelty, but in righteous retribution, giving to all

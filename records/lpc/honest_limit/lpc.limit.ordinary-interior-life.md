@@ -18,16 +18,32 @@ sources:
   locus: 'this world''s own thin_topics field: ''No source anywhere in this world''s own vendored corpus
     is authored by an ordinary lay believer writing about ordinary congregational life as such'''
   license: public-domain
+- source_id: lpc.source.augustine-confessions
+  locus: Book IX, Chapter VI, SS14, Augustine's own weeping at his own baptism at Milan, 387, before
+    he held any office -- the one first-person exception, disclosed rather than omitted -- verified directly
+    against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732
+  license: public-domain
 relations: []
 statement: We can tell you what was decided about a person, and how carefully, and by whom. We cannot
   tell you what an ordinary believer actually felt walking up to the altar, or standing at the font, or
-  sitting in the congregation on an ordinary week. Both of our own voices are bishops. What comes down
-  to us is what a bishop saw and decided, never what the person in front of him was feeling while it happened
-  to him. Ask us what was decided, and we will not run short. Ask us what it felt like from inside, and
-  that is not ours to give you.
+  sitting in the congregation on an ordinary week. Almost never, that is. There is one real exception,
+  and it is not really ordinary. Augustine's own Confessions describes his own baptism at Milan, before
+  he was a bishop, in his own first person -- "how greatly did I weep in Thy hymns and canticles." But he
+  wrote that down years afterward, already a bishop, about the single most examined conversion in the
+  ancient world. Both of our own voices are otherwise bishops. What comes down to us is mostly what a
+  bishop saw and decided, not what an unremarkable person in front of him was feeling. Ask us what was
+  decided, and we will not run short. Ask us what an ordinary believer felt from inside, and that -- with
+  this one exception -- is still not ours to give you.
 why_sources_cannot_answer: 'Every text in this world''s own Native corpus is authored by Cyprian or Augustine,
   addressed either to fellow clergy or to a congregation being taught or corrected --
-  never a first-person account by an ordinary believer of their own experience. lpc_Rep_Phase1_Ecology_Assessment.md
+  almost never a first-person account by a believer of their own experience. One real exception exists:
+  Confessions IX.vi.14, Augustine''s own account of his baptism at Milan in 387, before he held any office
+  -- "how greatly did I weep in Thy hymns and canticles, deeply moved by the voices of Thy sweet-speaking
+  Church" -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml, lines 13731-13732.
+  It does not resolve the general absence: it is a single, retrospectively written account, composed years
+  later by a man who was by then a bishop and already the subject of intense attention, about his own
+  baptism specifically -- not an anonymous or otherwise unremarkable believer''s voice, and not describing
+  an ordinary week rather than a singular occasion. lpc_Rep_Phase1_Ecology_Assessment.md
   §2 (Thinness Mapping) names this directly: ''Attested only through episcopal mediation. Both anchor
   voices are bishops... Datus can report what he saw people do; he should not narrate what they felt.''
   Doc_07_Integrated_Ecology_Analysis.md §5 independently confirms: ''this Representative should not be
@@ -37,4 +53,4 @@ nearest_material:
 - lpc.gravity.penitential-discipline
 - lpc.witness.answerability-as-ground
 ---
-One of six honest_limit records built together this step, per Phase One §2/Doc_07 §7/Doc_09 §5,7 cross-check. Celled to F5-I ('Walk me through an ordinary day among your people...') -- a direct match, the exact question this world's own record cannot answer. No relations[] edge: no single existing record is the natural reciprocity target for a blanket, population-scale absence (matching don.limit.ordinary-interior-life's own identical choice for the analogous finding).
+One of six honest_limit records built together this step, per Phase One §2/Doc_07 §7/Doc_09 §5,7 cross-check. Celled to F5-I ('Walk me through an ordinary day among your people...') -- a direct match, the exact question this world's own record cannot answer. No relations[] edge: no single existing record is the natural reciprocity target for a blanket, population-scale absence (matching don.limit.ordinary-interior-life's own identical choice for the analogous finding). Confessions IX.vi.14 is the one genuine first-person exception, disclosed here rather than left silent -- Augustine's own baptism, not an ordinary believer's.

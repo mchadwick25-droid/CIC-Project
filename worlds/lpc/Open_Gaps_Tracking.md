@@ -874,6 +874,121 @@ behind at the start of this round; a clean fast-forward-then-merge, no conflicts
 
 Full findings, search method, and before/after are in PR #557's own body.
 
+### OG-17. Round-3 (final) rework of PR #557, Mark's own personally-authorized targeted round, bar stated as "scholarly rigor that would impress a professor of church history, not perfection."
+
+Six items named directly, plus two residual defects this round's own sweep surfaced beyond
+them.
+
+**F4-E (apostolic origin), re-narrowed rather than left overclaiming an absence.**
+`lpc.limit.apostolic-origin-undefended`'s own closing line — that the one-episcopate's
+undivided character is "a general conviction, not a traced lineage" — was itself
+contradicted by four texts the corpus map assigns to this world: Augustine, Letter LIII SS2
+(the bishops of Rome named in unbroken succession from Peter to Anastasius, against a
+Donatist claim of "episcopal succession"); Answer to Petilian II.51 (the chairs of Peter and
+James, and who sits in them "to-day"); Cyprian, Epistle XXVI SS1 ("through the changes of
+times and successions, the ordering of bishops... flow onwards"); and Cyprian, Epistle
+LXVII SS5 ("the practice delivered from divine tradition and apostolic observance"). All
+four independently re-verified directly against the vendored text at the exact lines named
+in this round's own brief. A traced lineage for the office of bishop itself does exist in
+this world's own corpus — a new `doctrinal_witness`, `lpc.witness.apostolic-succession-of-
+bishops`, was authored to carry it, and the limit was rewritten to acknowledge it while
+narrowing the residual, genuine absence to catechesis, the road back, and the teaching
+before the water. Letter LIII belongs to an 11-letter Donatist-correspondence cluster the
+corpus map's own staging file documents but had not yet promoted into the main map or the
+Source Registry — promoted this round as Registry row 213 and a new source record
+(`lpc.source.augustine-donatist-correspondence`), rather than left unlicensed. Answer to
+Petilian's own Registry row (14) and source record were likewise upgraded from "named for
+completeness, not drawn on for a specific claim" to a directly-verified locus, since II.51
+is now drawn on for exactly that. The limit's own text also said Augustine traces "baptism
+itself" to the apostles; the sibling witness record already said "infant baptism" correctly
+— the limit now matches it.
+
+**F2-T (Genesis as science), a reversed claim corrected.** `lpc.witness.days-before-the-sun`
+said Augustine "rejected... any history that claimed the world was many thousand years
+old" — backwards. City of God XII.10 (verified directly, line 22598) rejects histories
+claiming *many more* thousand years than Scripture allows, and states Augustine's own
+reckoning plainly: "not 6000 years have yet passed." Both `tensions` and `text` fixed to say
+this correctly — Augustine held the world was under 6,000 years old, not that he rejected
+thousands-of-years claims generally. The record's own source locus, which previously named
+only the chapter heading (22565-22568), now also names this specific line.
+
+**F3-E (Constantine), an overstatement softened rather than left standing.**
+`lpc.witness.constantine-did-not-corrupt` said "Augustine took up this question directly,
+and did not think so." City of God V.25 (re-verified, lines 11099-11122) does not argue
+"did Constantine corrupt the church" at all — its own subject is why God granted a
+Christian emperor earthly prosperity, so that no one could claim greatness required
+worshipping the old gods. Reframed as the nearest material this world's own corpus carries
+to the question, not a direct answer to it. The matching line in
+`lpc.limit.the-outsiders-own-view` corrected the same way.
+
+**Small, required, fixed.**
+- "A century and a third" vs. "a century and a half" for the same 256-to-c.401 gap: OG-16
+  had claimed this was already standardized to "a century and a half" — that claim was
+  itself incomplete. Nine instances across seven files (`communion-over-separation` x2,
+  `answerability-as-ground`, `font-twice-answered`, `two-cities-scale`, `heresy`,
+  `transmission-institutionally-dominant-side`, `illegal-to-established-shift` x2) still
+  read "a century and a third" (133 years, wrong) rather than "a century and a half" (145
+  years, the correct rounding); all nine corrected this round, not just the two the brief
+  named directly.
+- `lpc.witness.violence-commanded-not-cruel` said Augustine was troubled by "the wars and
+  killings scripture reports." Confessions III.vii.12 (re-verified, line 5893-5894) records
+  a different, more specific question: "Are they to be esteemed righteous who had many
+  wives at once and did kill men, and sacrificed living creatures?" Both instances corrected
+  to match the source.
+- `lpc.limit.ordinary-interior-life` claimed a blanket absence of any believer's own
+  first-person interior experience at the font. Confessions IX.vi.14 (re-verified, lines
+  13731-13732) is a real exception — Augustine's own weeping at his own baptism at Milan,
+  387, before he held any office, though written down years later, already a bishop.
+  Acknowledged honestly rather than left as a false blanket claim; the general finding
+  (episcopal mediation, no anonymous or ordinary believer's voice) stands.
+
+**Optional, done where trivial.** The "an earlier draft... corrected here" process
+narration at `lpc.demo.compel-three-phase` (line 61) removed, per Mark's own Decision 4.
+"Anchor figures" (construction vocabulary) at `lpc.limit.411-gesta-unread` replaced with
+"Cyprian and Augustine" by name. Sentence-length trimming not separately pursued this round
+beyond what the FK fixes below required — no specific 37-48 word instance was named, and a
+blind sweep risked exactly the kind of speculative, ungrounded rewrite this project's own
+"no easy fixes" rule warns against.
+
+**Residual defects this round's own verification pass surfaced, fixed rather than shipped.**
+1. The new witness record's own `associated-with` edges to `lpc.witness.baptism-traced-to-
+   the-apostles` and `lpc.witness.tradition-tested-by-apostolic-warrant` lacked reciprocal
+   back-edges (the M1 reciprocity gate caught this). Fixed by adding the back-edges. A third
+   pair of edges, to `lpc.figure.cyprian` and `lpc.figure.augustine`, was removed instead of
+   reciprocated — no other `doctrinal_witness` record in this world links to either figure
+   record directly, and adding the first such edge would have set a one-off precedent rather
+   than followed an established one.
+2. Several of this round's own edits introduced plain-scalar YAML lines ending in an
+   unescaped colon followed by a folded line break, which resolves to "word: word" and
+   breaks the parser the same way OG-14/15's own YAML gotchas did. Caught by test-parsing
+   every touched file's own frontmatter directly rather than trusting a visual read, not by
+   the gate battery (which cannot run at all against unparseable YAML). Six instances fixed
+   across five files.
+3. Two edits introduced canonical-surface process narration this project's own rule against
+   inline review-round references forbids ("corrected #557 round 3," in `lpc.source.
+   augustine-answer-to-petilian`'s divergence_note/rights_status/docstring and in `lpc.
+   witness.constantine-did-not-corrupt` and `lpc.witness.days-before-the-sun`'s own
+   docstrings) — caught by `check_live_commentary.py`, not self-caught, and removed.
+4. Two `honest_limit` statements (`apostolic-origin-undefended`, `ordinary-interior-life`)
+   scored FK 10.2-10.8 against this round's own longer, more qualified sentences — above the
+   readability gate's ceiling of 10. Both rewritten to shorter sentences carrying the same
+   content; re-verified at 6.1 and 8.8.
+
+**Verification.** All 21 M1 gates clean (`engine.m1.gates.run_all`, including
+canon-coverage). `tools/check_live_commentary.py --surface records`: zero REWRITE hits in
+every file this round touched (remaining hits in touched files are pre-existing
+`doc-ref`/`section-ref` content in `force/` records belonging to PR #562's own scope, not
+introduced this round, and left untouched per this round's own "touch nothing else"
+instruction). Every quote and every new locus re-verified directly against the vendored
+`cic/texts/` XML, including the four apostolic-succession sources named in the brief and the
+Confessions III.vii.12 and IX.vi.14 loci. Branch merged current `main`.
+
+**Not in scope this round, disclosed rather than silently skipped.** The OG-numbering
+collision this build's three parallel unmerged branches (PR #557, #562, #563) each carry —
+this branch's own OG-14/15/16/17 numbers a different entry than PR #562's own OG-14 — is
+unresolved here, per this thread's own standing instruction to disclose rather than guess a
+resolution, reserved for a later reconciliation pass.
+
 ---
 
 ## Closed items — verified in this review, not merely inherited from the Decision Log

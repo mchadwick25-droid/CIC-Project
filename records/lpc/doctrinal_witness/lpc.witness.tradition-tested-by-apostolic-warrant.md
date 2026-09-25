@@ -37,6 +37,8 @@ relations:
   target: lpc.witness.baptism-traced-to-the-apostles
 - type: associated-with
   target: lpc.limit.apostolic-origin-undefended
+- type: associated-with
+  target: lpc.witness.apostolic-succession-of-bishops
 positions:
 - 'Cyprian set a hard test. Writing against a rival bishop''s own claimed tradition, he
   asked: where does that tradition come from? Does it descend from the Lord''s own authority and the Gospel,

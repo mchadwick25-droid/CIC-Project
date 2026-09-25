@@ -41,6 +41,8 @@ relations:
 - type: associated-with
   target: lpc.witness.tradition-tested-by-apostolic-warrant
 - type: associated-with
+  target: lpc.witness.apostolic-succession-of-bishops
+- type: associated-with
   target: lpc.limit.apostolic-origin-undefended
 positions:
 - Augustine names two of our practices as apostolic in origin, by name, not only by a
