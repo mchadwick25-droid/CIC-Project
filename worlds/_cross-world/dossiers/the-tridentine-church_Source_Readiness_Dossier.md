@@ -6,27 +6,58 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Corpus-map slug:** `the-tridentine-church` (census continues as `catholic-church-ancien-regime`)
 **Time window:** 1517–1650
 **Region(s):** Rome, Latin Christendom
-**Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** 2026-09-15 — nothing vendored for this era yet.
+**Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-25
+**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — all four §3 leads (as of
+2026-09-15) have now been vendored, headered, registered, and assigned. See
+§1 below for current state.
 
 ## 1. Already assigned
 
-None. No `cic/corpus-map/the-tridentine-church.yaml` or any related Jesuit/Borromeo slug exists — a genuinely fresh candidate. Census's own sourcing note ("Trent's acta and catechism, the reformed liturgical books, Propaganda Fide's archive...") is partly optimistic — see §4 below for what actually clears.
+**Updated 2026-09-25 — no longer a fresh candidate.** Four works vendored and
+assigned to `cic/corpus-map/the-tridentine-church.yaml`:
+
+| work | author | role | confidence | source file |
+|---|---|---|---|---|
+| The Canons and Decrees of the Sacred and Oecumenical Council of Trent | council-of-trent | context | provisional | `council-of-trent_canons-and-decrees_waterworth1848.txt` |
+| Catechism of the Council of Trent for Parish Priests | council-of-trent | tradition | assigned | `council-of-trent_roman-catechism_mchugh-callan1923.txt` |
+| The History of the Council of Trent | sarpi | context | assigned | `sarpi_history-of-the-council-of-trent_brent1676.txt` |
+| Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, with Paul III's bull against Henry VIII annexed) | barlow | tradition | assigned | `barlow_brutum-fulmen_1681.txt` |
+
+The Canons/Decrees row stays `provisional`/`context` here pending whichever
+Doc_02 (this world's or the Jesuits') reaches the shared text first to
+confirm which candidate holds "native" register — see §5 below, unchanged
+from the 2026-09-15 pass. The other three are this world's own: the
+Catechism as its doctrinal formation text (`tradition`), Sarpi as a hostile
+external narrative (`context`), and the Barlow-transmitted papal bulls as
+primary institutional acts despite their hostile framing (`tradition`).
+Census's own sourcing note ("Trent's acta and catechism, the reformed
+liturgical books, Propaganda Fide's archive...") remains partly optimistic —
+Trent's actual acta/diary and the reformed liturgical books were checked in
+the original 2026-09-15 pass and found to have no PD English translation
+(§4 below); only the acquisition leads actually vendored here are covered.
 
 ## 2. Cross-link opportunities
 
-None in the existing vendored corpus (every built world is pre-451 CE patristic). The only real cross-link is with sibling Era VII candidates researched this same pass — see §6.
+Resolved as of 2026-09-25 — see §1: the Canons/Decrees are vendored and
+double-placed to sibling Era VII candidate `the-society-of-jesus` (VI.11),
+consistent with §5's own reasoning below. No other cross-link exists in the
+vendored corpus (every other built world is pre-451 CE patristic).
 
-## 3. Verified acquisition leads
+## 3. Verified acquisition leads — all vendored, see §1
 
 | title | author | translator/ed. | year | url | rights basis | verified by |
 |---|---|---|---|---|---|---|
 | Council of Trent, Canons and Decrees | (conciliar) | James Waterworth | preface 1848, this printing c. 1888 | archive.org `thecanonsanddecr00unknuoft` | pd-us-by-date | direct fetch, 2026-09-15, `NOT_IN_COPYRIGHT` confirmed. This candidate's own most central text. |
-| Catechism of the Council of Trent for Parish Priests (the Roman Catechism, commissioned by Trent, promulgated under Pius V) | (conciliar/papal) | John A. McHugh & Charles J. Callan, O.P. | 1923 | archive.org `catechismofcounc0000pope` (and duplicate scan `catechismofcounc0000cath`) | pd-us-by-date | direct fetch via archive.org metadata API, 2026-09-15 — full PDF/OCR freely downloadable, no restriction; consistent with 1923's US public-domain status (95-year term expired 2019) |
-| The History of the Council of Trent | Paolo Sarpi | English ed., trans. attrib. Nathanael Brent | 1676 | archive.org `bim_early-english-books-1641-1700_the-history-of-the-counc_sarpi-paolo_1676` | pd-us-by-date | direct fetch, 2026-09-15, freely downloadable. **Caveat:** a contemporary but hostile/critical Venetian account, not the Council's own acta — closest thing in English to a narrative of the sessions, but needs an etic/contested-source register, not a native institutional voice. |
-| Brutum Fulmen (prints Pius V's actual bull Regnans in Excelsis, 1570, in English and Latin, plus Paul III's bull against Henry VIII) | Thomas Barlow | — | 1681 | archive.org `brutumfulmenorbu00barluoft` | pd-us-by-date | direct fetch, 2026-09-15, metadata confirms `possible-copyright-status: NOT_IN_COPYRIGHT`. Narrow but genuine primary papal-bull text in English, embedded in a hostile Anglican polemic. |
+| Catechism of the Council of Trent for Parish Priests (the Roman Catechism, commissioned by Trent, promulgated under Pius V) | (conciliar/papal) | John A. McHugh & Charles J. Callan, O.P. | 1923 | archive.org `catechismofcounc0000pope` (and duplicate scan `catechismofcounc0000cath`) | pd-us-by-date | direct fetch, 2026-09-25 — no access-restricted-item flag; consistent with 1923's US public-domain status (95-year term expired 2019). |
+| The History of the Council of Trent | Paolo Sarpi | English ed., trans. attrib. Nathanael Brent | 1676 | archive.org `bim_early-english-books-1641-1700_the-history-of-the-counc_sarpi-paolo_1676` | pd-us-by-date | direct fetch, 2026-09-25 (via direct datanode after a transient 500 on the redirect path), freely downloadable. **Caveat:** a contemporary but hostile/critical Venetian account, not the Council's own acta — closest thing in English to a narrative of the sessions, but needs an etic/contested-source register, not a native institutional voice. |
+| Brutum Fulmen (prints Pius V's actual bull Regnans in Excelsis, 1570, in English and Latin, plus Paul III's bull against Henry VIII) | Thomas Barlow | — | 1681 | archive.org `brutumfulmenorbu00barluoft` | pd-us-by-date | direct fetch, 2026-09-25, metadata confirms `possible-copyright-status: NOT_IN_COPYRIGHT`. Narrow but genuine primary papal-bull text in English, embedded in a hostile Anglican polemic; bull text itself spot-checked legible despite heavy OCR garbling in the Latin marginalia. |
 
-**Scale (rough):** several hundred thousand words available and confirmed — the Catechism (~250–300K words est. from 674pp), Waterworth's Canons/Decrees (substantial, likely 150K+), Sarpi's History (800+ pages, plausibly 400K+ words), plus the small Barlow bull text. Comparable to or larger than existing built patristic worlds, but skewed almost entirely institutional/doctrinal/narrative-history rather than personal voice.
+**Scale (rough):** several hundred thousand words vendored — the Catechism
+(~250–300K words est. from 674pp), Waterworth's Canons/Decrees (substantial,
+likely 150K+), Sarpi's History (800+ pages, plausibly 400K+ words), plus the
+small Barlow bull text. Comparable to or larger than existing built patristic
+worlds, but skewed almost entirely institutional/doctrinal/narrative-history
+rather than personal voice.
 
 ## 4. Checked and closed
 
