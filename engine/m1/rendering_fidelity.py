@@ -230,12 +230,17 @@ CROSS_LANGUAGE_REPORT_PATH = Path(__file__).resolve().parent / "reports" / "cros
 
 def non_english_sourced_quotes(worlds: dict[str, dict]) -> list[dict]:
     """Every quote record across the given worlds (world_key -> its own
-    load_world_records() result) whose own source resolves to a vendored
-    file declaring a non-English `Language:` header. A quote can name more
-    than one source; the first one that resolves to a real, non-English-
-    declared vendored file decides it - matching how a Representative
-    would actually read the record (against its own first named source),
-    not every source it happens to cite."""
+    load_world_records() result) whose own FIRST resolving source declares
+    a non-English `Language:` header. A quote can name more than one
+    source; the first one that resolves to a real vendored file decides
+    it, English or not - matching how a Representative would actually
+    read the record (against its own first named source), not every
+    source it happens to cite. A quote whose first-resolving source is
+    English is skipped even if a later source is non-English (e.g. an
+    NPNF translation cited first, a Latin critical edition cited second
+    for the same passage) - the record's own `text` is the NPNF English
+    either way, so grading it against that later Latin source would be
+    an English-to-English comparison mislabeled as cross-language."""
     from cic.engine.texts_registry import language_declared
 
     found = []
@@ -258,7 +263,7 @@ def non_english_sourced_quotes(worlds: dict[str, dict]) -> list[dict]:
                 if lang and lang != "en":
                     found.append({"world": world_key, "id": rid, "source_id": s.get("source_id"),
                                  "filename": m.group(1), "language": lang, "record": rec})
-                    break
+                break  # the first source that resolves to a real vendored file decides it, English or not
     return found
 
 
@@ -299,6 +304,14 @@ def cross_language_report(region: str) -> dict:
     return {
         "model_id": model_id,
         "region": region,
+        # V1.8's rendering-fidelity rule is two graders (Haiku 4.5 and
+        # Sonnet 4.6) agreeing "translation" on two runs in a row, with a
+        # flag from either counting. This report runs one grader once -
+        # a first-pass screen for the cross-language subset, not a V1.8
+        # two-grader pass. A "translation" verdict here is not yet a
+        # clearance; a "summary"/"expansion"/"mixed" verdict is still a
+        # real finding worth acting on.
+        "grader_scope": "single Haiku run; first-pass screen, not a V1.8 two-grader pass",
         "total_non_english_sourced_quotes": len(targets),
         "graded_count": len(graded),
         "no_modern_rendering_count": len(no_rendering),

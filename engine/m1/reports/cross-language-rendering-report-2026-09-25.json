@@ -1,15 +1,16 @@
 {
   "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
-  "total_non_english_sourced_quotes": 4,
-  "graded_count": 4,
+  "grader_scope": "single Haiku run; first-pass screen, not a V1.8 two-grader pass",
+  "total_non_english_sourced_quotes": 2,
+  "graded_count": 2,
   "no_modern_rendering_count": 0,
   "no_modern_rendering": [],
   "error_count": 0,
   "errors": [],
   "verdict_counts": {
-    "translation": 3,
-    "summary": 1,
+    "translation": 2,
+    "summary": 0,
     "expansion": 0,
     "mixed": 0
   },
@@ -25,30 +26,12 @@
     },
     {
       "world": "don",
-      "id": "don.quote.donatus-quid-est-imperatori",
-      "language": "lat",
-      "source_file": "optatus_libri-vii-critical_ziwsa1893.txt",
-      "verdict": "translation",
-      "reasoning": "The modern rendering faithfully translates the original Latin rhetorical question into contemporary English. \"Quid est ... cum\" (literally \"What is ... with\") is appropriately rendered as \"What business does ... have with,\" which is the natural English idiom for expressing this same relationship of involvement or connection. No clauses are omitted, compressed, or added; the rendering simply converts the period phrasing into modern English while preserving the full meaning.",
-      "verification_state": "verified-via-authority"
-    },
-    {
-      "world": "don",
       "id": "don.quote.emeritus-magno-argumento",
       "language": "lat",
       "source_file": "pl11-zeno-optatus-collatio-carthaginiensis_migne.txt",
       "verdict": "translation",
       "reasoning": "The rendering captures all the clauses of the original: (1) \"veritas occultatur magno argumento\" (truth is hidden by a great argument); (2) \"cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" (when in response to our inquiry only a small thing is brought forth from the other side); and (3) \"cetera sileantur\" (the rest is passed over in silence). The structure and sense are preserved in modern English syntax without omission or addition.",
       "verification_state": "verified-via-authority"
-    },
-    {
-      "world": "don",
-      "id": "don.quote.the-shores-are-covered",
-      "language": "lat",
-      "source_file": "augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.txt",
-      "verdict": "summary",
-      "reasoning": "The rendering compresses the original's opening structure by removing the participial clause \"Seeing that\" and restructuring the complex sentence into four shorter, disconnected statements. While all major clauses are present, the opening causal construction—which frames the entire passage as an observation about consequence—is lost, changing the rhetorical weight and connection between the shipwreck scene and the subsequent description of the shores. The \"whose\" relative clause, though retained in substance, loses its direct grammatical link to what precedes it.",
-      "verification_state": "verified-direct"
     }
   ]
 }

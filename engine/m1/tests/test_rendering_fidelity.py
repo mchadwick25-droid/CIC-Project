@@ -284,6 +284,40 @@ def test_non_english_sourced_quotes_skips_a_source_that_does_not_resolve(monkeyp
     assert non_english_sourced_quotes(worlds) == []
 
 
+def test_non_english_sourced_quotes_decided_by_the_first_resolving_source_not_any_source(monkeypatch, tmp_path):
+    """The real bug this pins: a quote citing an English translation FIRST
+    and a Latin critical edition SECOND (the NPNF-then-Petschenig shape a
+    real fleet record actually has) must be judged by the first source -
+    English - and skipped entirely, not picked up because a LATER source
+    happens to be non-English. The record's own `text` field is whatever
+    the first-cited edition gives it (English here), so grading it against
+    the second source's language would silently compare English to
+    English under a "cross-language" label."""
+    (tmp_path / "english-translation.txt").write_text(
+        "Title: An English Translation\n\nBody text here.\n", encoding="utf-8")
+    (tmp_path / "latin-critical-edition.txt").write_text(
+        "Title: A Latin Critical Edition\nLanguage: lat\n\nBody text here.\n", encoding="utf-8")
+    monkeypatch.setattr(rendering_fidelity, "_TEXTS_DIR", tmp_path)
+
+    worlds = {
+        "w": {
+            "w.quote.eng-then-lat": {
+                "id": "w.quote.eng-then-lat", "record_type": "quote",
+                "text": "The English translation's own words.",
+                "modern_rendering": "The English translation's own words, modernized.",
+                "sources": [
+                    {"source_id": "w.source.eng"},
+                    {"source_id": "w.source.lat"},
+                ],
+            },
+            "w.source.eng": _source_record("w.source.eng", edition="cic/texts/english-translation.txt"),
+            "w.source.lat": _source_record("w.source.lat", edition="cic/texts/latin-critical-edition.txt"),
+        }
+    }
+
+    assert non_english_sourced_quotes(worlds) == []
+
+
 # --- cross_language_report: aggregation over the scoped subset ------------
 
 
@@ -318,3 +352,4 @@ def test_cross_language_report_grades_only_the_non_english_subset(monkeypatch, t
     assert report["findings"][0]["id"] == "w.quote.lat"
     assert report["findings"][0]["language"] == "lat"
     assert report["findings"][0]["verdict"] == "translation"
+    assert report["grader_scope"] == "single Haiku run; first-pass screen, not a V1.8 two-grader pass"
