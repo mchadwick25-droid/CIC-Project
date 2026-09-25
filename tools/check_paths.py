@@ -31,8 +31,14 @@ TOKEN = re.compile(r"(?<![\w/.\-@:])((?:[A-Za-z0-9_.\-]+/)+[A-Za-z0-9_.\-]+)")
 TRAIL = ".,;:)'\"`*_"
 
 
+# Directories that exist only on some machines (git-ignored, per-session) are
+# never citation roots: if they were, whether `.claude/settings.json` in a
+# decision log counts as a repo path would depend on who runs the check.
+LOCAL_ONLY_DIRS = {".git", "node_modules", ".claude"}
+
+
 def top_level_dirs() -> set[str]:
-    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in {".git", "node_modules"}}
+    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in LOCAL_ONLY_DIRS}
 
 
 def in_scope(rel: str) -> bool:
