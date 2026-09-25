@@ -142,10 +142,9 @@ _CITATION_LABEL_READS = {
 }
 
 # Hand-verified against engine/m4/citation_cards.py's resolve_source_card
-# modern_term-only enrichment (OG-13, worlds/pahc/Open_Gaps_Tracking.md) -
-# carried onto the card verbatim, not derived through _LABEL_FIELDS, so
-# tracked as its own read-site rather than folded into the label reads
-# above.
+# modern_term-only enrichment - carried onto the card verbatim, not
+# derived through _LABEL_FIELDS, so tracked as its own read-site rather
+# than folded into the label reads above.
 _MODERN_TERM_CARD_READS = {
     "modern_term": ["modern_sense", "distinguishing_claim"],
 }

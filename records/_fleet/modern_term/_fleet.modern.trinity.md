@@ -18,8 +18,3 @@ sources:
   locus: "chapter 2 - \"which distributes the Unity into a Trinity\"; editor's note: \"Probable date not earlier than a.d. 208\""
   license: public-domain
 ---
-origin_year names when the modern sense in modern_sense took shape (formalized at
-Nicaea, 325, and after) - not when the display word was first attested. The word and
-the doctrine it now names have different histories; both are on the record, in
-distinguishing_claim and the two vendored sources above, rather than conflated into
-one date.

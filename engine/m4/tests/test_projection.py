@@ -121,11 +121,9 @@ def test_voice_turn_transparency_plan_folds_into_transcript(tmp_path):
 
 
 def test_bridge_facilitator_turn_carries_modern_terms_through_a_fold(tmp_path):
-    """OG-13 (worlds/pahc/Open_Gaps_Tracking.md): a bridge turn's own
-    modern_terms cards used to vanish on reload/resume - projection.py
-    rebuilt the facilitator entry from only {speaker, kind, text},
-    dropping any other payload key. A participant who saw the card live,
-    then reloaded the page, would lose it."""
+    """A bridge turn's own modern_terms cards must survive a reload/resume
+    fold, not just {speaker, kind, text} - a participant who saw the card
+    live must still see it after reloading the page."""
     store = Store(tmp_path / "events.db")
     sid = str(uuid.uuid4())
     _seed(store, sid)
