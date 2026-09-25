@@ -18,7 +18,7 @@
    "Outside Article 4 Scope": 1,
    "Label - Assessed Per Body (A3)": 1
   },
-  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows world_manifest.py, the real deployment source of truth; Imperial and Juridical Christianity's 'living' flag stays false until Article 29 Living Tradition Status is formally confirmed for it. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
+  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows world_manifest.py, the real deployment source of truth; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
   "schemaVersion": 2
  },
  "eras": [
