@@ -101,10 +101,8 @@ from engine.prose import all_text, content_words
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 REPORTS_DIR = pathlib.Path(__file__).resolve().parent
-# Every formation world, read from the one registry instead of hand-kept -
-# see grounding_fooling_measure.py's own comment on this same fix (item 2
-# of the 2026-09-25 CI/tooling audit). Unchanged today; a newly admitted
-# world is picked up automatically from here on.
+# Every formation world, read from the registry rather than hand-kept, so
+# a newly admitted world is picked up automatically.
 WORLDS = formation_world_keys()
 
 _CLAUSE_LEAD = re.compile(r",?\s+\b(?:or|and|but|so)\b\s+|--|—|\s-\s")

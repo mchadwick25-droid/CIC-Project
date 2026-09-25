@@ -624,12 +624,11 @@ def gate_quote_verbatim(records, fleet, registry) -> list[str]:
 # not a "which worlds exist" question, so AUDITED_WORLDS itself stays
 # hand-kept: no registry field records this, and a newly admitted world
 # is never audited by construction, not by a rule this file could derive.
-# OTHER_WORLDS is everything else - read off the registry (item 2,
-# 2026-09-25 CI/tooling audit) so a newly admitted, not-yet-audited world
-# lands here automatically instead of needing a second hand-edit. Read off
-# each world's own quote records' confidence.verification_state at run
-# time (REPORT_WORLDS below), not hardcoded, so a world's real state
-# always wins over this list if the two ever disagree.
+# OTHER_WORLDS is everything else, read off the registry so a newly
+# admitted, not-yet-audited world lands here automatically. Read off each
+# world's own quote records' confidence.verification_state at run time
+# (REPORT_WORLDS below), not hardcoded, so a world's real state always
+# wins over this list if the two ever disagree.
 AUDITED_WORLDS = ("pahc", "syr", "desert", "hal", "alx", "ijc")
 OTHER_WORLDS = tuple(sorted(set(formation_world_keys()) - set(AUDITED_WORLDS)))
 REPORT_WORLDS = AUDITED_WORLDS + OTHER_WORLDS

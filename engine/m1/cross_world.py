@@ -199,21 +199,24 @@ ACCEPTED_OPEN: dict[str, str] = {
     # that PR registers lpc.
     "unregistered-world-dir/lpc": "2026-09-25 CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
-    # required-record-type/witt and required-site-json/witt OPENED
+    # required-record-type/witt/* and required-site-json/witt OPENED
     # 2026-09-25: check_required_record_types_and_site_json's own first
-    # real findings. witt is admitted but carries no world_front record
-    # and no facilitator_brief record, and has no compiled
-    # cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json
-    # - the Website V2 migration simply has not reached witt yet. Belongs
-    # to witt's own build thread.
-    "required-record-type/witt": "2026-09-25 CI/tooling audit - witt (admitted) carries no world_front and no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    # real findings, keyed per record type so a future loss of a
+    # DIFFERENT required type at witt can't hide under an already-waived
+    # key. witt is admitted but carries no world_front record and no
+    # facilitator_brief record, and has no compiled cic-website/data/
+    # worlds/lutheran-wittenberg-and-its-congregations.json - the Website
+    # V2 migration simply has not reached witt yet. Belongs to witt's own
+    # build thread.
+    "required-record-type/witt/world_front": "2026-09-25 CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-record-type/witt/facilitator_brief": "2026-09-25 CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
     "required-site-json/witt": "2026-09-25 CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
-    # required-record-type/rzg OPENED 2026-09-25: rzg (admitted) carries a
-    # world_front and a facilitator_brief record and its site JSON is
-    # compiled and committed, but it has zero search_record records - the
-    # Search feature's own migration has not reached rzg yet. Belongs to
-    # rzg's own build thread.
-    "required-record-type/rzg": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
+    # required-record-type/rzg/search_record OPENED 2026-09-25: rzg
+    # (admitted) carries a world_front and a facilitator_brief record and
+    # its site JSON is compiled and committed, but it has zero
+    # search_record records - the Search feature's own migration has not
+    # reached rzg yet. Belongs to rzg's own build thread.
+    "required-record-type/rzg/search_record": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
 }
 
 
@@ -724,7 +727,7 @@ def check_required_record_types_and_site_json(*, registry, records, worlds, **_)
         present = {r.get("record_type") for r in records[w].values()}
         for record_type in _REQUIRED_ADMITTED_RECORD_TYPES:
             if record_type not in present:
-                findings.append(_defect("required-record-type", w, f"admitted/open but carries no {record_type} record"))
+                findings.append(_defect("required-record-type", f"{w}/{record_type}", f"admitted/open but carries no {record_type} record"))
         census_id = registry[w].get("census_id")
         site_json = (SITE_DATA_DIR / f"{census_id}.json") if census_id else None
         if site_json is None or not site_json.is_file():

@@ -99,12 +99,8 @@ from engine.prose import GUARD_MARKERS, claim_markers, content_words, all_text, 
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 REPORTS_DIR = pathlib.Path(__file__).resolve().parent
-# Every formation world, read from the one registry instead of hand-kept -
-# the same fix item 2 of the 2026-09-25 CI/tooling audit applies wherever a
-# world list was a literal instead of a load_registry() read. Unchanged
-# today (this hardcoded list already named exactly formation_world_keys()'s
-# current output); the point is that a newly admitted world is picked up
-# automatically from here on, with no second hand-edit to remember.
+# Every formation world, read from the registry rather than hand-kept, so
+# a newly admitted world is picked up automatically.
 WORLDS = formation_world_keys()
 
 # GUARD_MARKERS is now engine.prose's own (single source of truth - see

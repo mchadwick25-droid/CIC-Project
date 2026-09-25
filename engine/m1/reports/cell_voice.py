@@ -49,11 +49,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 from engine.m1 import canon, loader
 from engine.m1.registry import formation_world_keys
 
-# Originally the six worlds this report first ran against - stale once the
-# fleet grew past them (all five later worlds carry canon_cells too, per
-# direct measurement; this report had simply never been pointed at them).
-# Read off the registry instead (item 2, 2026-09-25 CI/tooling audit) so a
-# newly admitted world is covered automatically.
+# Every formation world, read from the registry rather than hand-kept, so
+# a newly admitted world is covered automatically.
 WORLDS = formation_world_keys()
 
 # A locus is VAGUE when it points at a body of text rather than a place in

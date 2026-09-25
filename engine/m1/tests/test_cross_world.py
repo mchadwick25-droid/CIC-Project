@@ -91,17 +91,22 @@ def test_a_world_missing_from_table_html_is_caught():
 
 
 def test_the_lpc_unregistered_dir_is_caught():
-    """The gap this check exists for: records/lpc/ holds real records but
-    carries no records/worlds/lpc.yaml entry, so load_registry() - and
-    every gate and check that discovers a world through it - never sees
-    it at all. Reproduced against the real records/ tree and the real
-    registry, not a fixture, because the check's whole claim is that the
-    two agree; lpc's own real defect is ACCEPTED_OPEN, owned by PR #586,
-    until that PR registers it."""
+    """The gap this check exists for: records/lpc/ holds real records but,
+    as of this test running, may or may not yet carry a records/worlds/
+    lpc.yaml entry (PR #586 registers it; this branch's own PR #595
+    registers it too, as a dated ACCEPTED_OPEN waiver, so whichever of the
+    two merges second finds lpc already registered and simply removes its
+    own now-stale waiver). Reproduced against the real records/ tree and
+    the real registry, not a fixture, because the check's whole claim is
+    that the two agree - and conditional on lpc's own real state, so this
+    test states what's actually true right now rather than assuming it."""
     registry = cross_world.load_registry()
     keys = {f.key for f in cross_world.check_unregistered_world_dirs(registry=registry)}
-    assert "unregistered-world-dir/lpc" in keys
-    assert "unregistered-world-dir/lpc" in cross_world.ACCEPTED_OPEN
+    if "lpc" in registry:
+        assert "unregistered-world-dir/lpc" not in keys
+    else:
+        assert "unregistered-world-dir/lpc" in keys
+        assert "unregistered-world-dir/lpc" in cross_world.ACCEPTED_OPEN
 
 
 def test_unregistered_world_dirs_excludes_fleet_and_the_registry_dir_itself(tmp_path, monkeypatch):
@@ -169,11 +174,11 @@ def test_a_census_card_marked_live_ahead_of_its_own_registry_state_is_caught(mon
 
 
 def test_an_admitted_world_missing_a_required_record_type_or_site_json_is_caught():
-    """witt and rzg are the fleet's own real instances (2026-09-25
-    CI/tooling audit, both ACCEPTED_OPEN, owned by their own build
-    threads) - reproduced here on a constructed example so the check's
-    own logic is pinned independent of whichever real gap closes first.
-    A world not yet admitted/open owes none of this."""
+    """witt and rzg are the fleet's own real instances of this gap, both
+    ACCEPTED_OPEN and owned by their own build threads - reproduced here
+    on a constructed example so the check's own logic is pinned
+    independent of whichever real gap closes first. A world not yet
+    admitted/open owes none of this."""
     registry = {
         "w": {"state": "admitted", "census_id": "w-census"},
         "unbuilt": {"state": "built", "census_id": "unbuilt-census"},
@@ -183,7 +188,30 @@ def test_an_admitted_world_missing_a_required_record_type_or_site_json_is_caught
         "unbuilt": {"unbuilt.term.x": {"id": "unbuilt.term.x", "record_type": "term"}},
     }
     keys = {f.key for f in cross_world.check_required_record_types_and_site_json(registry=registry, records=records, worlds=["w", "unbuilt"])}
-    assert keys == {"required-record-type/w", "required-site-json/w"}
+    assert keys == {
+        "required-record-type/w/world_front",
+        "required-record-type/w/facilitator_brief",
+        "required-record-type/w/search_record",
+        "required-site-json/w",
+    }
+
+
+def test_required_record_type_findings_are_keyed_per_type_not_per_world():
+    """A future loss of a DIFFERENT required type at the same world must
+    not hide under an already-waived key - rzg's own real gap (missing
+    search_record only, world_front and facilitator_brief both present)
+    proves the two other types' keys never fire alongside it."""
+    registry = {"w": {"state": "admitted", "census_id": "w-census"}}
+    records = {
+        "w": {
+            "w.front.x": {"id": "w.front.x", "record_type": "world_front"},
+            "w.brief.x": {"id": "w.brief.x", "record_type": "facilitator_brief"},
+        }
+    }
+    keys = {f.key for f in cross_world.check_required_record_types_and_site_json(registry=registry, records=records, worlds=["w"])}
+    assert "required-record-type/w/search_record" in keys
+    assert "required-record-type/w/world_front" not in keys
+    assert "required-record-type/w/facilitator_brief" not in keys
 
 
 def test_register_profile_math_on_a_constructed_example():
