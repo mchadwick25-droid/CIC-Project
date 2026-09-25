@@ -5,6 +5,7 @@ python cic/engine/tests_corpus_structure.py
 Same check()/results/sys.exit() convention as tests_corpus_map.py in this
 same directory.
 """
+import re
 import sys
 from pathlib import Path
 
@@ -41,8 +42,10 @@ results.append(check("a second such span survives verbatim",
                      len(lost_span_2) == 173069 and "divine wrath is the punishment of the sinner" in lost_span_2))
 
 salvian_units = ci.passage_units(salvian_path)
-results.append(check("passage_units() carries the full untouched text through",
-                     len(salvian_units) == 1 and salvian_units[0]["text"] == salvian_raw.strip()))
+salvian_reassembled = re.sub(r"\s+", " ", " ".join(u["text"] for u in salvian_units)).strip()
+results.append(check("passage_units() still starts from the untouched (non-tag-stripped) text: "
+                     "every unit's own text reassembles it, whitespace-normalized, with nothing lost",
+                     salvian_reassembled == re.sub(r"\s+", " ", salvian_raw).strip()))
 
 # --- a synthetic stray "<" in prose ----------------------------------------
 generic_txt = Path("a-fake-plain-text-file.txt")
