@@ -5135,10 +5135,13 @@ as a name inside the founding Anabaptist-schism narrative
 a river, or a specific 1527 date attached. Real Reformation history,
 absent from this world's own compiled ground. **R27, with enforcement
 on, did not catch it.** The reason is structural, not a fluke of this
-run: the sentence sits inside a paragraph with five other, genuinely
-tagged sentences (`rzg.witness.triple-refusal`,
-`rzg.witness.defending-the-anabaptist-suppression` both appear
-elsewhere in the same paragraph) - it is a plain per-sentence
+run: the sentence sits inside a paragraph with four other, genuinely
+tagged sentences (`rzg.witness.triple-refusal` and
+`rzg.witness.why-the-children-too` on the opening sentence,
+`rzg.witness.why-the-children-too` again on the second,
+`rzg.witness.defending-the-anabaptist-suppression`/`rzg.witness.
+triple-refusal` on the fourth, `rzg.witness.triple-refusal` on the
+closing sentence) - it is a plain per-sentence
 `uncited_claim`, never a `wholly_uncited_paragraph`, and it names no
 other tradition, so it is never `neighbour_named` either. Both are the
 *only* two classes `r27_enforce` was ever built to act on
@@ -5165,29 +5168,48 @@ own 8 enforcement actions:**
 - `cappadocian` B-other-tradition (exhausted): *"That is Alexandria's
   own school reaching us, one teacher back, through a student who
   brought what he learned to our country and founded what became
-  ours"* - confirmed grounded in `cappadocian.figure.gregory-thaumaturgus`
-  (*"a third-century missionary bishop of Pontus, trained by
-  Origen"*), Alexandria's own school. The paragraph's closing
-  honest-limit sentence, *"After that, silence,"* was independently
-  flagged `wholly_uncited_paragraph` - the same SCAFFOLD_MARKERS
-  coverage gap Entry 61 already named on syr's *"Beyond that, the
-  record runs thin"* - stacking with the untagged-but-true neighbour
-  mention to exhaust the whole turn.
+  ours"* - a loose gloss, not a confirmed grounding: the only support
+  in `cappadocian.figure.gregory-thaumaturgus` is *"a third-century
+  missionary bishop of Pontus, trained by Origen"* - real, but the
+  record neither says "Alexandria's own school" nor places the
+  training there (Origen's own teaching after Alexandria was at
+  Caesarea Maritima, not named in this record at all); the sentence
+  stretches "trained by Origen" into a claim about Alexandria's school
+  the record itself doesn't make. Still a false trigger, not a
+  fabrication - the paragraph's closing honest-limit sentence, *"After
+  that, silence,"* was independently flagged `wholly_uncited_paragraph`
+  - the same SCAFFOLD_MARKERS coverage gap Entry 61 already named on
+  syr's *"Beyond that, the record runs thin"* - stacking with the
+  overstated-but-real neighbour mention to exhaust the whole turn.
 - `hal` A-conflict (exhausted): *"His name was Origen - an Alexandrian
   master, long dead, whose commentaries on scripture both Jerome and
-  his friend Rufinus had translated and praised"* - confirmed grounded
-  almost verbatim in `hal.story.rufinus-rupture` (*"close enough to
-  share the same admiration for the great Alexandrian master, Origen,
-  whose commentaries both men translated"*). This is `hal`'s own
-  central, on-topic narrative - killed entirely by an untagged mention
-  of "Alexandrian" on an ordinary in-scope conflict probe, not even an
-  `other_tradition`-routed turn.
-- `ijc` B-other-tradition (exhausted): *"What we do have are Athanasius
-  and Cyril - both bishops of Alexandria - reaching us through their
-  own parts in our authority contests"* - confirmed grounded in
-  `ijc.story.letter-that-outranked-a-council` (Julius of Rome's letter
-  defending Athanasius, this world's own earliest surviving Roman
-  primacy claim), cited twice elsewhere in the same answer.
+  his friend Rufinus had translated and praised"* - this sentence is
+  NOT untagged: it ends `[[hal.force.origenist-controversy]]` in the
+  draft's own raw text, and that record does support it almost
+  verbatim (*"close enough to share the same admiration for the great
+  Alexandrian master, Origen, whose commentaries both men
+  translated"*). `find_uncited_claims` only exempts a sentence when
+  `grounding_net`'s own per-sentence verdict is `"ok"` AND it carries a
+  tag (`engine/m4/uncited_claims.py`'s own `find_uncited_claims`); here
+  the tag is present but the verdict was not `"ok"` - the grounding
+  check itself rejected a tag that, on independent hand-verification,
+  actually supports the claim. Correctly a false trigger, but the
+  mechanism is "the grounding check disagreed with a real tag," not
+  "an untagged mention" - this is `hal`'s own central, on-topic
+  narrative, killed entirely on an ordinary in-scope conflict probe,
+  not even an `other_tradition`-routed turn.
+- `ijc` B-other-tradition (exhausted): two separate hard offenses fired
+  in the same answer. *"What we do have are Athanasius and Cyril -
+  both bishops of Alexandria - reaching us through their own parts in
+  our authority contests"* ends `[[ijc.story.letter-that-outranked-a-
+  council]]` in the draft - again a rejected tag, not an absent one;
+  the record does support it (Julius of Rome's letter defending
+  Athanasius, this world's own earliest surviving Roman primacy claim),
+  cited twice elsewhere in the same answer. Separately, the closing
+  paragraph's own honest-limit sentence, *"Those pages were never
+  written, or never kept,"* carries no tag anywhere in its paragraph
+  and tripped `wholly_uncited_paragraph` independently - the same
+  SCAFFOLD_MARKERS gap as `cappadocian` B above.
 - `pahc` A-conflict (exhausted): *"Both were live, both were argued
   for, and neither won before our time ended. That was our real,
   unresolved fight"* - confirmed grounded almost verbatim in
@@ -5230,6 +5252,24 @@ own 8 enforcement actions:**
 
 **8 for 8 false triggers, 0 for 1 on the one real fabrication that
 recurred**, in this sample.
+
+**Honest limit on what the committed artifact itself can re-verify.**
+The `classify_neighbour_named` refinement (which of the offenses above
+is `neighbour_named` versus plain `wholly_uncited_paragraph`) was
+computed in a separate, uncommitted analysis pass against the run's
+raw offenses, not persisted as a field in
+`r27-live-measure-enforced-2026-09-25.json` - the classifications
+stated for `hal`, `don`, and `pahc` B above rest on that separate pass,
+not on anything a reader of the committed file alone can re-derive
+without re-running `classify_neighbour_named` themselves. Separately,
+for every exhausted probe (`cappadocian` B, `hal`, `ijc` B, `pahc` A,
+`pahc` B), `engine/m4/turn.py`'s own `r27_enforce` logic discards the
+failing regenerated attempt's text entirely once the retry also
+hard-fails (`raw_text = ""`), and this measurement did not separately
+capture that intermediate attempt - only the original draft and the
+fact of exhaustion survive in the committed artifact. The false-drop
+verifications above rest on the draft text (present) plus each world's
+own compiled repository, not on the retry text itself (absent).
 
 **(c) Participant effect.** Every exhausted turn is replaced, verbatim,
 by `engine.m4.facilitator_turns.voice_rejected_turn`'s own fixed text:
