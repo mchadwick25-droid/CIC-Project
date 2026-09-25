@@ -174,11 +174,20 @@ artifacts -- a separate, later integration decision, not this script's
 own).
 
 ===========================================================================
-VALIDATION
+VALIDATION -- THE ONLY SUPPORTED MODE
 ===========================================================================
-Run standalone (python3 worlds/lpc/scripts/wb_lpc_s2z_canon_closure.py
---validate) against engine.m1.loader/schemas/gates, lpc's real records
-(post-write), the real fleet, and the real registry.
+This script's own write path (emit_witness/emit_limit against the
+WITNESSES/LIMITS lists below) is retired. Those lists are stale build
+history, frozen at the state this script last generated; the real
+records at records/lpc/{doctrinal_witness,honest_limit}/ have since been
+hand-corrected by an independent fidelity review (OG-14/OG-15,
+worlds/lpc/Open_Gaps_Tracking.md) and are no longer regenerated from this
+script. Run standalone (python3 worlds/lpc/scripts/wb_lpc_s2z_canon_closure.py
+--validate) to check the real, hand-maintained records against
+engine.m1.loader/schemas/gates, the real fleet, and the real registry.
+Any other invocation refuses and exits 1, rather than silently writing
+the stale lists back over corrected records. --validate itself exits 1
+if any gate reports a finding, 0 only when every gate is clean.
 """
 from __future__ import annotations
 
@@ -649,37 +658,42 @@ def _print_disposition(records: dict, fleet: dict) -> None:
 
 
 def main() -> int:
-    if "--validate" in sys.argv:
-        sys.path.insert(0, str(REPO_ROOT))
-        from engine.m1 import gates
-        from engine.m1.loader import load_fleet_records, load_world_records
-        from engine.m1.registry import load_registry  # type: ignore
+    if "--validate" not in sys.argv:
+        print(
+            "This script's own write path is retired: WITNESSES/LIMITS below are stale build\n"
+            "history, not a source of truth to regenerate from. The records at records/lpc/\n"
+            "{doctrinal_witness,honest_limit}/ are hand-maintained since the independent fidelity\n"
+            "review logged as OG-14/OG-15 (worlds/lpc/Open_Gaps_Tracking.md) -- re-running the old\n"
+            "write path would silently overwrite corrected records with the pre-review text,\n"
+            "including recreating honest_limit records the review found fully answered and retired.\n"
+            "Run with --validate to check the real records against the gate battery instead."
+        )
+        return 1
 
-        records = load_world_records("lpc")
-        fleet = load_fleet_records()
-        registry = load_registry()
-        print("Running gate battery against the real lpc + fleet corpus (post-write)...")
-        results = gates.run_all(records, fleet, registry)
-        any_findings = False
-        for name, findings in results.items():
-            if findings:
-                any_findings = True
-                print(f"\n=== {name}: {len(findings)} finding(s) ===")
-                for f in findings:
-                    print(f"  - {f}")
-            else:
-                print(f"{name}: clean")
-        _print_disposition(records, fleet)
-        if any_findings:
-            print("\nSome gates report findings -- see above.")
+    sys.path.insert(0, str(REPO_ROOT))
+    from engine.m1 import gates
+    from engine.m1.loader import load_fleet_records, load_world_records
+    from engine.m1.registry import load_registry  # type: ignore
+
+    records = load_world_records("lpc")
+    fleet = load_fleet_records()
+    registry = load_registry()
+    print("Running gate battery against the real lpc + fleet corpus...")
+    results = gates.run_all(records, fleet, registry)
+    any_findings = False
+    for name, findings in results.items():
+        if findings:
+            any_findings = True
+            print(f"\n=== {name}: {len(findings)} finding(s) ===")
+            for f in findings:
+                print(f"  - {f}")
         else:
-            print("\nAll gates clean.")
-        return 0
-
-    written = [emit_witness(w) for w in WITNESSES] + [emit_limit(lm) for lm in LIMITS]
-    for p in written:
-        print(p.relative_to(REPO_ROOT))
-    print(f"\n{len(written)} records written ({len(WITNESSES)} doctrinal_witness, {len(LIMITS)} honest_limit).")
+            print(f"{name}: clean")
+    _print_disposition(records, fleet)
+    if any_findings:
+        print("\nSome gates report findings -- see above.")
+        return 1
+    print("\nAll gates clean.")
     return 0
 
 

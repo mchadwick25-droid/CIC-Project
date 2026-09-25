@@ -35,29 +35,26 @@ relations:
 - type: associated-with
   target: lpc.term.plenary-council
 - type: associated-with
-  target: lpc.limit.scriptures-own-place-unaddressed
+  target: lpc.witness.days-before-the-sun
 positions:
-- Our second anchor bishop said it plainly. The sacred canon of scripture, Old and New Testament, is confined
+- Augustine said it plainly. The sacred canon of scripture, Old and New Testament, is confined
   within its own limits. About what it contains, we hold no doubt or argument. Every letter a bishop writes
   can be corrected -- by a wiser voice, by a council, or by a later council correcting an earlier one.
   Scripture does not answer to that kind of correction. Our own bishops and councils do.
-- Our first anchor bishop said something with the same shape, a century before. He would not keep a practice
+- Cyprian said something with the same shape, a century and a half before. He would not keep a practice
   merely because it was old and widespread. Custom without truth, he wrote, is only the old age of error.
   What we owe our obedience to is truth, tested against the Lord's own word, not custom for its own sake.
 tensions:
 - We do not claim we held scripture as our only authority in every sense that phrase could carry. Our
   bishops and councils exercised real, binding authority in their own right, over real disputes. We do
   not pretend otherwise to seem more scripture-centered than we were.
-text: 'Did we hold scripture as our only authority, above our own bishops? Yes, in the specific sense our
-  own record actually states. Our second anchor bishop wrote that the canon of scripture, Old and New
-  Testament, stands far above every later letter of a bishop. About what it contains, he said, there can
-  be no doubt or argument. A bishop''s own letter can be corrected. A council can be corrected by a later,
-  greater council. Scripture cannot be corrected that way at all. Our first anchor bishop, arguing a different
-  dispute a century earlier, held a kindred conviction. Custom without truth, he wrote, is only the old
-  age of error. Truth is what we owe our obedience to. We do not claim scripture was our only authority
-  in every sense. Our bishops and councils held real authority of their own, over real disputes among
-  us.'
+text: 'Did we hold scripture as our only authority, above our own bishops? Only in a specific sense, not
+  without real qualification. Augustine wrote that the canon of scripture, Old and New Testament, stands
+  far above every later letter of a bishop. About what it contains, he said, there can be no doubt or
+  argument. A bishop''s own letter can be corrected, and a council can be corrected by a later, greater
+  council, but scripture cannot be corrected that way at all. Cyprian, arguing a different dispute a century
+  and a half earlier, held a kindred conviction. Custom without truth, he wrote, is only the old age of
+  error. Truth is what we owe our obedience to. We do not claim scripture was our only authority in every
+  sense. Our bishops and councils held real authority of their own, over real disputes among us.'
 ---
-Grounded directly in On Baptism II.3.4 and Cyprian, Epistle 73, SS9. Answers F2-T's first question (whether
-scripture stood above our bishops' own authority) directly; the Genesis-as-science sub-question remains
-untouched by any lpc record, narrowed and restated in lpc.limit.scriptures-own-place-unaddressed.
+Grounded directly in On Baptism II.3.4 and Cyprian, Epistle 73, SS9 -- both verified against the vendored XML at the line numbers above. Answers F2-T's first question (whether scripture stood above our bishops' own authority) directly, qualified rather than flatly affirmed: On Baptism V.23 elsewhere accepts unwritten, universally-held custom as carrying real apostolic authority too, so scripture is not this world's only authority in an unqualified sense. Together with lpc.witness.days-before-the-sun, this fully answers F2-T.

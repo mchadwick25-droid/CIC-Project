@@ -25,8 +25,8 @@ statement: We can tell you what was decided about a person, and how carefully, a
   to us is what a bishop saw and decided, never what the person in front of him was feeling while it happened
   to him. Ask us what was decided, and we will not run short. Ask us what it felt like from inside, and
   that is not ours to give you.
-why_sources_cannot_answer: 'Every text in this world''s own Native corpus is authored by one of the two
-  anchor bishops, addressed either to fellow clergy or to a congregation being taught or corrected --
+why_sources_cannot_answer: 'Every text in this world''s own Native corpus is authored by Cyprian or Augustine,
+  addressed either to fellow clergy or to a congregation being taught or corrected --
   never a first-person account by an ordinary believer of their own experience. lpc_Rep_Phase1_Ecology_Assessment.md
   §2 (Thinness Mapping) names this directly: ''Attested only through episcopal mediation. Both anchor
   voices are bishops... Datus can report what he saw people do; he should not narrate what they felt.''

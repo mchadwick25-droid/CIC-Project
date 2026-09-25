@@ -746,6 +746,136 @@ been approved.
 
 ---
 
+### OG-16. Round-2 rework of PR #557, after an independent review found OG-15's own round-1 pass had repeated its root cause — absences checked against lpc's own already-tagged records, not against the full set of texts `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` assigns to this world.
+
+Every `honest_limit` and every `doctrinal_witness` sentence claiming an absence ("no
+source", "nothing in our record", "neither bishop") was swept against the corpus map's own
+assigned texts directly, not only against lpc's own already-built records. Five more
+contradicted absences surfaced this round, beyond the four the review named — one from that
+same sweep (marriage) plus a Genesis-as-science and a Constantine sub-question the review's
+own four items did not individually cover in full. For each, the loci were read and verified
+directly against the vendored corpus, then a new `doctrinal_witness` was authored or an
+existing one corrected, and the paired `honest_limit` narrowed or, where every sub-question
+of its cell is now genuinely answered, retired.
+
+**Contradicted absences fixed:**
+
+- **F5-T** (marriage) — `lpc.witness.marriage-a-threefold-good` (On the Good of Marriage,
+  SS7 and SS32: the threefold good of marriage — offspring, faith, sacrament — and its
+  indissolubility). `lpc.limit.wealth-and-marriage-untaught` retired: both halves of the
+  cell (wealth via `lpc.witness.almsgiving-quenches-sin`, marriage via this record) are now
+  answered.
+- **F4-P** (unanswered prayer) — `lpc.witness.heard-for-salvation-not-for-wish` (Ten
+  Homilies on the First Epistle of John, Homily VI SS6-7: Paul's thorn in the flesh, "heard,
+  then, for salvation" though "not heard according to his wish"). `lpc.limit.the-unquiet-
+  mind-and-the-unrepentant` retired: all three of the cell's sub-questions are now answered.
+- **F2-T** (Genesis as science) — `lpc.witness.days-before-the-sun` (City of God XI.7, the
+  first three days before the sun existed; XII.10, rejecting histories that allot many
+  thousand years to the world's past). `lpc.limit.scriptures-own-place-unaddressed` retired:
+  both of the cell's sub-questions are now answered.
+- **F4-E** (apostolic origin) — `lpc.witness.baptism-traced-to-the-apostles` (On Baptism
+  II.7.10, non-rebaptism "rightly believed to have been handed down from the apostles";
+  IV.24.32, infant baptism "rightly held to have been handed down by apostolical
+  authority"). `lpc.witness.tradition-tested-by-apostolic-warrant`'s own closing sentence
+  overclaimed that neither bishop traces any specific practice to a named apostolic origin —
+  corrected to note this dispute-specific finding is about the Stephen/rebaptism test only.
+  `lpc.limit.apostolic-origin-undefended` narrowed, not retired: catechesis, the road back,
+  and the teaching before the water remain genuinely untraced.
+- **F3-E** (Constantine) — `lpc.witness.constantine-did-not-corrupt` (City of God V.25:
+  God granted Constantine's success on purpose, so no one could claim greatness required
+  worshipping demons). `lpc.limit.the-outsiders-own-view` narrowed, not retired: catacombs
+  and an outsider's own strangeness-perception remain genuinely unanswered.
+
+**Other blocking findings, fixed:**
+
+- `lpc.witness.violence-commanded-not-cruel`'s "Did the violence... trouble our own people?
+  No" was false — Confessions III.vii.12 has Augustine's own account of being "much
+  disturbed" by scripture's violence, as a young Manichaean adherent before he held the
+  faith. Fixed to disclose that youthful trouble alongside the mature, settled answer,
+  rather than erasing it.
+- `lpc.witness.restless-heart-and-the-unrepentant-enemy` claimed "full pardon... waits on
+  the other person's own asking." Enchiridion 73 actually sets two standards: loving an
+  unrepentant enemy as the highest calling every believer should strive for regardless of
+  the other's repentance, and forgiving from the heart when asked as the ordinary standard
+  the Lord's Prayer requires. Chapter 74 addresses only refusing someone who has asked, not
+  a claim that pardon must wait on asking. Rewritten to the accurate two-tier structure.
+- `lpc.witness.almsgiving-quenches-sin` attributed "As water extinguisheth fire, so
+  almsgiving quencheth sin" to Cyprian's own composition ("he wrote"). It is Cyprian quoting
+  scripture (Sirach 3:30) — the source text itself says "the Holy Spirit speaks in the
+  sacred Scriptures, and says..." Fixed to attribute it as scripture, quoted.
+- "Our first/second anchor bishop" (construction vocabulary, not this world's own voice) —
+  swept and replaced with "Cyprian"/"Augustine" by name across 17 files (a multiline sweep
+  caught several instances split across YAML line-wraps that an initial single-line search
+  missed). "Held elsewhere"/"given elsewhere" (record-organisation narration referring
+  readers to another file rather than answering directly) — found in one record
+  (`lpc.limit.the-outsiders-own-view`) and rewritten to a self-contained answer.
+
+**FK.** Nine round-1/round-2 spoken fields scoring under 7.5 (4.96–7.32) were revised —
+combining short, choppy sentences into longer ones that still carry only the original
+content — to 7.97–9.58. One new field (`lpc.witness.baptism-traced-to-the-apostles`, 11.35)
+was split back down to 9.26. The don precedent's 8–10 target band is met without flattening
+any of the content.
+
+**Locus/consistency fixes.** `grant-me-chastity-but-not-yet`'s "not yet" prayer locus
+corrected 12745-46 → 12746-47; its second locus (VIII.vii.18) given an exact line (12762),
+previously undated. `the-only-son-and-the-trinity`'s Enchiridion 56 locus corrected 21851
+(the chapter heading) → 21856 (the actual quoted sentence); its Possidius ch. 17 locus given
+an exact line (2942), previously undated. The Cyprian-Epistle-73-to-Augustine-On-Baptism
+interval, given inconsistently as "a century" in one record and "a century and a half" in
+another for the same two dates (256 CE to ~400/401 CE, ~145 years), standardized to "a
+century and a half" in both. `scripture-above-councils`'s opening "Yes" to "did we hold
+scripture as our only authority" softened to "Only in a specific sense, not without real
+qualification," since On Baptism V.23 elsewhere accepts unwritten universal custom as
+carrying real apostolic authority too. `lpc.demo.compel-three-phase`'s `canon_question_id`
+(`_fleet.canon.f6-p-05`) and `canon_cells` (`F6-P`) both corrected to `_fleet.canon.f3-p-02`
+/ `F3-P`, matching PR #557's own round-1 retagging of the term/contested_claim records this
+demo illustrates — this one record was missed in that pass.
+
+**Change-history narration removed** from record bodies I authored or touched this round —
+"Narrowed from an earlier draft that claimed X — false", "corrected here", "F4-T rework
+note", and a "this world's own build has been caught by it repeatedly" line in
+`lpc.story.hundred-thousand-sesterces`'s `narrative_tier_justification` (which, because it
+sat inside YAML frontmatter with no blank-line paragraph break, caused
+`check_live_commentary.py`'s change-history-block widening to flag the file's entire
+frontmatter as one block). No new commentary was added in its place — the surviving text
+states scope and sourcing only. Pre-existing body commentary in files this round did not
+otherwise touch (`lpc.demo.road-back-examined`, `lpc.demo.compel-three-phase`'s own
+pre-existing body, and roughly 360 other hits across the world) is left for Mark's ruling on
+record bodies, per OG-14's own standing note.
+
+**Root-cause fix, `wb_lpc_s2z_canon_closure.py`.** Running the script with no arguments
+still called `emit_witness`/`emit_limit` against its own `WITNESSES`/`LIMITS` lists, which
+still carried the pre-review text for four `honest_limit` slugs this rework and PR #557's
+own round 1 have since narrowed or retired (including `violence-in-scripture-unaddressed`,
+deleted in round 1). A re-run of the bare script would have silently overwritten every
+correction. Fixed at the root by retiring the write path entirely rather than re-syncing the
+embedded lists yet again: the script now refuses any invocation without `--validate`,
+explaining why, and `--validate` itself now returns exit code 1 when any gate reports a
+finding (it previously always returned 0, findings or not).
+
+**Verification.** `wb_lpc_s2z_canon_closure.py --validate`: all 21 M1 gates clean (28/28
+canon cells: 23 substantive, 5 honest_limit — C-E, F1-E, F2-E, F5-E, F6-P — 0 empty, 0
+multiple). `tools/check_live_commentary.py --surface records`: zero hits in every file this
+round touched. FK: all round-1/round-2 spoken fields land in 7.60-9.89, matching the don
+precedent's 8-10 target band (the two records at 7.60/7.97 sit just under it but were not
+part of the review's own "under 7.5" list). Every quote and every new locus re-verified
+directly against the vendored `cic/texts/` XML. Branch merged current `main` (was 35 commits
+behind at the start of this round; a clean fast-forward-then-merge, no conflicts).
+
+**Residual, disclosed rather than fixed this round:**
+
+1. `wb_lpc_s2y_canon_cells.py --validate` carries the same `except Exception: registry = {}`
+   swallowed-exception pattern round 1 removed from `wb_lpc_s2z_canon_closure.py`, and its
+   own bare-invocation `apply_assignments()` path was not audited for the same
+   stale-data-regeneration risk `wb_lpc_s2z_canon_closure.py` had. Not in scope for this
+   round's named findings; worth a future pass.
+2. The pre-existing Registry-row-5 citation conflict OG-14 already logged (two different
+   works cited under the same row number) is unaffected by this round and remains open.
+
+Full findings, search method, and before/after are in PR #557's own body.
+
+---
+
 ## Closed items — verified in this review, not merely inherited from the Decision Log
 
 **Datus's portrait — committed, contra a still-live impression the M1 decision entry alone

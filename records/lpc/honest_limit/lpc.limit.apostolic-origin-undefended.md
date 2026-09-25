@@ -21,25 +21,26 @@ sources:
 relations:
 - type: associated-with
   target: lpc.witness.tradition-tested-by-apostolic-warrant
-statement: How do we know our own practices go back to the apostles? How do we know they are not later
-  inventions? I will not stretch the truth just to answer that well. Our two anchor bishops even disagree
-  on how that question should be tested. But neither of them names catechesis, the road back, or the teaching
-  before the water, and traces that specific practice to the apostles. We hold one office of bishop, undivided.
-  Each bishop holds the whole of it, not a share. That much is a general conviction, not a traced lineage.
-why_sources_cannot_answer: 'Cyprian, Epistle 73, and Augustine, On Baptism V.23, both engage the apostolic-origin
-  question directly, but disagree on the test -- written apostolic warrant against presumed unwritten
-  custom -- and both address it only for the single disputed practice of rebaptism, not for catechesis,
-  preaching, or reconciliation. lpc.term.the-one-episcopate is deliberately not extended past De Unitate''s
-  general ecclesiology toward the disputed Roman-primacy recension (lpc.contested.de-unitate-recensions).
-  No lpc record traces catechesis, preaching, reconciliation, or any other named pastoral practice to
-  the apostles by name.'
+- type: associated-with
+  target: lpc.witness.baptism-traced-to-the-apostles
+statement: How do we know our own practices go back to the apostles, and are not later inventions? I will
+  not stretch the truth just to answer that well. Two of our practices, baptism itself and the refusal
+  to repeat it, Augustine does trace to the apostles by name. But neither he nor Cyprian names catechesis,
+  the road back, or the teaching before the water, and traces that specific practice to the apostles. We
+  hold one office of bishop, undivided, and each bishop holds the whole of it, not a share -- but that
+  much is a general conviction, not a traced lineage.
+why_sources_cannot_answer: 'Cyprian, Epistle 73, and Augustine, On Baptism V.23, engage the apostolic-origin
+  question directly for the disputed practice of rebaptism, testing it two different ways -- written apostolic
+  warrant against presumed unwritten custom. Elsewhere, Augustine applies the same presumed-custom test
+  directly to two named practices, non-rebaptism (On Baptism II.7.10) and infant baptism (On Baptism IV.24.32),
+  both "rightly believed to have been handed down from the apostles" (see lpc.witness.baptism-traced-to-the-apostles).
+  lpc.term.the-one-episcopate is deliberately not extended past De Unitate''s general ecclesiology toward
+  the disputed Roman-primacy recension (lpc.contested.de-unitate-recensions). No lpc record traces catechesis,
+  preaching, reconciliation, or any other named pastoral practice to the apostles by name.'
 nearest_material:
 - lpc.term.the-one-episcopate
 - lpc.contested.de-unitate-recensions
 - lpc.witness.tradition-tested-by-apostolic-warrant
+- lpc.witness.baptism-traced-to-the-apostles
 ---
-Celled to F4-E ('How do you know your practices went back to the apostles and weren't later inventions?').
-Narrowed from an earlier draft that claimed no lpc source addresses apostolic origin at all -- false:
-Cyprian's Epistle 73 and Augustine's On Baptism V.23 both engage it, at length, for rebaptism specifically
-(see lpc.witness.tradition-tested-by-apostolic-warrant). What remains a genuine, checked absence is a
-traced apostolic origin for any of this world's own named pastoral practices themselves.
+Celled to F4-E ('How do you know your practices went back to the apostles and weren't later inventions?'). What remains a genuine, checked absence, after baptism and non-rebaptism are accounted for by name, is a traced apostolic origin for catechesis, the road back, and the teaching before the water specifically.

@@ -38,13 +38,12 @@ relations:
 - type: associated-with
   target: lpc.witness.almsgiving-quenches-sin
 narrative_tier: 1
-narrative_tier_justification: 'Documented. Tier 1, Documented (Doc_09 SS3). Cyprian''s own letter, first
-  person, naming its eight recipients, stating an amount and a mechanism -- named author, exact social
-  location, datable horizon, and a claim of the most ordinarily verifiable kind. One evidentiary discipline
-  recorded because this world''s own build has been caught by it repeatedly: the ANF edition prints an
-  Argument above the letter which is nineteenth-century editorial matter, not Cyprian; this record cites
-  SS3 of the letter''s own body, where Cyprian states the sum in his own voice, not the Argument that
-  happens to carry the same true figure.'
+narrative_tier_justification: 'Documented. First-person testimony from Cyprian''s own letter, naming its
+  eight recipients, stating an amount and a mechanism -- named author, exact social location, datable
+  horizon, and a claim of the most ordinarily verifiable kind. One citation discipline is worth flagging
+  directly: the ANF edition prints an Argument above the letter, which is nineteenth-century editorial
+  matter, not Cyprian''s own words. This record cites SS3 of the letter''s own body, where Cyprian states
+  the sum in his own voice, rather than the Argument, which happens to carry the same true figure.'
 tellable_as: How we sent a hundred thousand sesterces to ransom people most of us had never met
 text: 'Word reached us that fellow believers in the Numidian towns had been carried off by raiders. Cyprian''s
   reply to the eight bishops who told us -- Januarius, Maximus, Proculus, Victor, Modianus, Nemesianus,
@@ -71,4 +70,4 @@ modern_contrast: A modern listener may reach at once for a currency conversion -
   clergy and people for the ransom of strangers, and that we do not know what proportion of anything it
   represented.
 ---
-Mapped directly from Story-Chunks/lpcstory004_hundred-thousand-sesterces.md, recast into first-person register. 'Hundred thousand sesterces' independently re-located this session at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082 -- the same line this record's own sources[].locus field cites, corrected from an earlier draft's uncorrected 33600-33660 range in the same fix pass; verification_state held at verified-direct on that basis. The claim_guards entry converts the chunk's own 'the Representative should resist converting the sum into modern currency' Usage Guidance line into the live schema's own barred-claim field, per this script's own field-mapping discipline (see docstring).
+Recast into first-person register from Cyprian's own Epistle LIX. "Hundred thousand sesterces" is verified directly at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082, the same line this record's own sources[].locus field cites. The claim_guards entry bars inventing a modern-currency conversion for the sum, which no source of ours licenses.

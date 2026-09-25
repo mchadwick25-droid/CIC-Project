@@ -6,7 +6,7 @@ schema_version: 2
 status: draft
 register: emic
 canon_cells:
-- F6-P
+- F3-P
 confidence:
   citation_specificity: B
   verification_state: verified-direct
@@ -29,7 +29,7 @@ sources:
     for the later change of mind (whole Donatist towns converted and held under the imperial edicts' own
     coercive weight), used directly for the second representative turn's own causal account
   license: public-domain
-canon_question_id: _fleet.canon.f6-p-05
+canon_question_id: _fleet.canon.f3-p-02
 tags:
 - compel-coercion
 - claim-laundering

@@ -78,10 +78,10 @@ senses:
   translational: A modern listener may hear a children's catechism -- rote question-and-answer, memorized
     young, faintly dry. Catechesis itself was built around adult instruction, before baptism, of people
     making a consequential change of standing. It was taken seriously enough that a working manual for
-    instructors exists. Baptism was not adult-only, though. Our second anchor bishop writes plainly that
+    instructors exists. Baptism was not adult-only, though. Augustine writes plainly that
     those baptized into Christ's own death include "not adults only, but infants as well." That is a different
     question from who received instruction, and this term does not answer it by itself.
 quick_meaning: For us, catechesis means teaching people before they are baptized. We teach them the creed,
   and the basics of belief, before the water, not after it.
 ---
-Re-derived from Doc_06 SS2.2 (lpclex009, down-tiered to Tier 2 alongside preaching) and Lexicon-Chunks/lpclex009_catechesis.md. Relations: five terms per this term's own Related-Terms line. F4-T rework note: an earlier draft grounded this cell only on catechesis's own adult-instruction framing, without stating whether infants were baptized -- overclaiming by silence. Enchiridion Chapter 52 answers the cell's baptism-mode question directly and is now cited.
+Relations: five terms per this term's own Related-Terms line. Enchiridion Chapter 52 answers the cell's baptism-mode question directly and is cited above.

@@ -40,12 +40,12 @@ tensions:
 - 'We do not claim this exhausts who Jesus was to us. We have not preserved a developed account of what
   he taught in his own lifetime, or a settled telling of the good news as its own story. What we hold,
   and hold firmly, is this: the shape of his death and rising is the shape our own life is cut to.'
-text: 'What did his death mean, and what difference did the resurrection make? Not a fact we affirm and
-  set aside. His crucifixion, burial, resurrection the third day, ascension into heaven, and sitting at
-  the right hand of the Father were ordered, deliberately. The life we lead here was modelled on them
-  -- not only mystically, but in reality. We crucify our own flesh: that is his cross in us. We are buried
-  with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us.
-  We set our own affection on what is above, our life hidden with him in God. That is his ascension and
-  his sitting at the right hand of God, worked out in the shape of an ordinary life.'
+text: 'What did his death mean, and what difference did the resurrection make? This is not a fact we simply
+  affirm and set aside. His crucifixion, burial, resurrection the third day, ascension into heaven, and
+  sitting at the right hand of the Father were ordered deliberately, and the life we lead here was modelled
+  on them -- not only mystically, but in reality. We crucify our own flesh: that is his cross in us. We
+  are buried with him in the water: that is his burial in us. We walk in a life made new: that is his
+  rising in us. We set our own affection on what is above, our life hidden with him in God -- that is
+  his ascension and his sitting at the right hand of God, worked out in the shape of an ordinary life.'
 ---
-Grounded directly in the Enchiridion, Chapter 53. Closes C-I's fourth and fifth questions (what his death meant, what difference the resurrection made) with a genuine, load-bearing answer; does not claim to close this cell's second and third questions (the good news as its own narrative, what Jesus himself taught), which no lpc record answers, and answers the first question (who Jesus was) only thinly, through the shape of his death and rising. Restores "ascension into heaven," dropped from an earlier draft, and renders the source's own "not merely in a mystical sense" as "not only mystically" rather than as "not a story" or "not a picture," which understated what the source actually says.
+Grounded directly in the Enchiridion, Chapter 53 -- verified against the vendored XML at the line numbers above. Closes C-I's fourth and fifth questions (what his death meant, what difference the resurrection made) with a genuine, load-bearing answer; does not claim to close this cell's second and third questions (the good news as its own narrative, what Jesus himself taught), which no lpc record answers, and answers the first question (who Jesus was) only thinly, through the shape of his death and rising.

@@ -42,6 +42,8 @@ relations:
   target: lpc.force.recurring-contest-failed-member
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
+- type: associated-with
+  target: lpc.witness.baptism-traced-to-the-apostles
 name: Sacramental and Ordination Validity Across the Boundary of the Church [PRIMARY]
 description: 'Doc_04 §3 Candidate 6: PRIMARY. Repetition: passes strongly, recurring in the Epistles''
   own rebaptism correspondence (Row 1), the 256 Council''s own ruling (Row 4), and On Baptism in full

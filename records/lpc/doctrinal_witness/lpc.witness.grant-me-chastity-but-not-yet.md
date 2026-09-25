@@ -16,11 +16,12 @@ confidence:
 sources:
 - source_id: lpc.source.augustine-confessions
   locus: Book VIII, Chapter VII, SS17, the prayer itself -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml,
-    lines 12745-46
+    lines 12746-47
   license: public-domain
 - source_id: lpc.source.augustine-confessions
   locus: Book VIII, Chapter VII, SS18, "now it is certain, and yet doth that burden still oppress thee"
-    -- the persuaded-but-stuck moment itself
+    -- the persuaded-but-stuck moment itself -- verified directly against cic/texts/npnf101_augustine-confessions-letters.xml,
+    line 12762
   license: public-domain
 retrieval:
   tier: 2
@@ -43,11 +44,11 @@ tensions:
   the way his own did. We offer it because it is true, and because it is the nearest thing in our own
   record to your own question. It comes in one of our own voices, rather than invented for you.
 text: 'You want to believe and cannot. One of our own knew exactly that condition, in his own words, before
-  he was received among us. As a young man, he prayed, ''Grant me chastity and continency, but not yet.''
-  He was afraid God would answer him too quickly, before he was ready to let go of what he still wanted.
-  Years later, close to his own conversion, he wrote of a harder version of the same trouble. The truth
-  had become certain to him by then. The old burden still had not lifted. Being persuaded was not the
-  same as being free. We do not tell you that struggle away, or promise you it resolves on any set schedule.
-  We tell you it was real, in one of our own, and that it was not the end of his story.'
+  he was received among us. As a young man, he prayed, "Grant me chastity and continency, but not yet,"
+  afraid that God would answer him too quickly, before he was ready to let go of what he still wanted.
+  Years later, close to his own conversion, he wrote of a harder version of the same trouble: the truth
+  had become certain to him by then, yet the old burden still had not lifted, and being persuaded was
+  not the same as being free. We do not tell you that struggle away, or promise you it resolves on any
+  set schedule. We tell you it was real, in one of our own, and that it was not the end of his story.'
 ---
-Grounded directly in Confessions VIII.vii.17-18. Answers this cell's first question directly; does not independently develop the second or third. An earlier draft misdated the prayer to a moment of settled persuasion and called Augustine "one of our own founders" -- neither is supported: the prayer belongs to his youth (SS17, "supremely miserable even in the very outset of my youth"), and the persuaded-but-still-unable-to-act moment belongs separately to SS18, years later. Corrected here, and "founders" removed as a title lpc does not use for either anchor figure.
+Grounded directly in Confessions VIII.vii.17-18, both verified against the vendored XML at the line numbers above. Answers this cell's first question directly; does not independently develop the second or third. The prayer belongs to Augustine's youth (SS17, "supremely miserable even in the very outset of my youth"); the persuaded-but-still-unable-to-act moment belongs separately to SS18, years later.
