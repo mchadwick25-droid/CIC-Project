@@ -60,6 +60,7 @@ modern_lens_note: >-
   corpse, and a wait "without misgiving." The power is "perceived" as present before anything visibly
   changes; the two hours pass in stillness, not spectacle. What the passage stages is not a display of
   power but a posture toward it - present, not summoned.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.raising-of-the-catechumen

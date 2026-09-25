@@ -66,6 +66,7 @@ modern_lens_note: >-
   the beggar outright - "clothed me with this robe" - and grounds that claim in his own earlier words,
   quoted a second time inside the vision itself. The cloak is the act; the vision is Christ attaching
   his own name to the man who received it.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

@@ -58,6 +58,7 @@ modern_lens_note: >-
   that Martin was brave; it is that no battle was needed at all, which he reads as evidence the victory
   was granted rather than won. The passage keeps that reading explicit as the narrator's own, not as a
   claim this record independently verifies.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.discharge-before-caesar

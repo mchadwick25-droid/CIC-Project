@@ -50,6 +50,7 @@ modern_lens_note: >-
   now asks to "become a soldier to God" - the donative is refused only because it belongs to the old
   service, not because taking it would be wrong in itself. The four short clauses build to the same
   point four times: this is a change of master, stated as plainly as Sulpitius could report it.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.discharge-before-caesar

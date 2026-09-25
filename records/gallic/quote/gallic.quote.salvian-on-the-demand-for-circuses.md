@@ -48,6 +48,7 @@ modern_lens_note: >-
   sharpest line reverses what a reader expects sympathy to sound like - "I thought you most miserable
   when you were suffering destruction, but I see that you are now more miserable when you demand public
   shows." Losing the city, for Salvian, was a lesser loss than this request.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.circuses-amid-the-ruins

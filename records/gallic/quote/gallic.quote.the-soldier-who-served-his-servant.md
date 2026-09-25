@@ -50,6 +50,7 @@ modern_lens_note: >-
   off his servant's boots" himself. The monastic quality the passage names is expressed entirely inside
   ordinary army life, in how one man treats a subordinate, before there is any monastery for him to
   belong to.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

@@ -47,6 +47,7 @@ modern_lens_note: >-
   The line about four sacks, read against Salvian's own later count of three, is a reminder that even a
   direct eyewitness writing polemic does not always agree with himself - the record keeps that
   inconsistency rather than smoothing it away.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.circuses-amid-the-ruins

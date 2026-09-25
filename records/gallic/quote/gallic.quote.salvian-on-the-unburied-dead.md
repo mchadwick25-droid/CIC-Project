@@ -47,6 +47,7 @@ modern_lens_note: >-
   own point is the opposite: the dead are evidence against the living. He does not pause to mourn each
   death before moving to the smell of pestilence, and "death breathed out death" reads as an indictment
   of what survived the sack, not an elegy for what did not.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.circuses-amid-the-ruins

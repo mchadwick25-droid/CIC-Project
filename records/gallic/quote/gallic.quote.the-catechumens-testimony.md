@@ -47,6 +47,7 @@ modern_lens_note: >-
   report what happened to him, he "offered himself... as a subject" of it, his continuing life the
   evidence. Martin's reputation, in this telling, grows outward from one restored life becoming visible
   proof, not from an argument made on Martin's behalf.
+modern_rendering: PENDING_OPUS_RENDERING
 relations:
 - type: associated-with
   target: gallic.story.raising-of-the-catechumen
