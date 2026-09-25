@@ -17,14 +17,12 @@ works:
     of Peter Favre) - not a claim that Barlow authored the bulls themselves. What this row
     carries is Pius V''s own bull Regnans in Excelsis (1570, excommunicating and deposing
     Elizabeth I), printed in genuine English/Latin parallel columns, and Paul III''s bull
-    against Henry VIII, printed here in Latin only (the file''s own header claims both bulls
-    are bilingual, but direct inspection of the Paul III text found no parallel English rendering,
-    only a brief English index-line summary - the header is wrong on this point). role: tradition
-    because the bull text itself is reproduced verbatim in both cases - the papacy''s own
-    binding act, not a paraphrase or narrative about it - regardless of which language(s)
-    it''s printed in. Narrow (two short bulls) but genuine primary-source window. Vendored
-    2026-09-25 as part of a pre-Doc_02 source-acquisition pass for the-tridentine-church,
-    per this world''s own Source Readiness Dossier §3.
+    against Henry VIII, printed here in Latin only, with only a brief English index-line summary
+    and no full parallel translation. role: tradition because the bull text itself is reproduced
+    verbatim in both cases - the papacy''s own binding act, not a paraphrase or narrative
+    about it - regardless of which language(s) it''s printed in. Narrow (two short bulls)
+    but genuine primary-source window. Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition
+    pass for the-tridentine-church, per this world''s own Source Readiness Dossier §3.
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
