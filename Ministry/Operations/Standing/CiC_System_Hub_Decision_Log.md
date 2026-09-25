@@ -5186,7 +5186,8 @@ All rulings below are dated 2026-09-24.
 **Part 0 — wiring errors**
 - **0.1 — Ruled.** Rename the file to the version it contains (V1.7), update inbound paths
   in the same commit, log it in `CiC_Repo_Structure_Tracking.md`. `worlds/` and `engine/`
-  citations were left as they were because the addendum's scope excluded them; the
+  citations were left as they were, per CLAUDE.md's doc-hygiene default (flag content
+  that isn't this thread's own, don't touch it); the
   `worlds/` ones are baselined for their owning threads (see the tracking entry).
 - **0.2 — Ruled.** "What governs" item 3 now points to
   `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` (was the stale
@@ -5250,10 +5251,9 @@ All rulings below are dated 2026-09-24.
   checks (`uncited_claims`, `guard_proximity`, grounding verdicts): §5 paragraph after the
   Deep Interview.
 - **4.2 — Ruled.** After-B-6 guard-coverage read: paragraph after the B table (its timing is
-  B-6), with a pointer from §5's fabrication-press probe. The document states it applies
-  once `engine/m4/reports/grounding_fooling_measure.py` supports a world argument — a
-  queued engine task, not done here. Engineering note: the D1 script's world argument is
-  that separate task.
+  B-6), with a pointer from §5's fabrication-press probe. Ruled unconditionally. Engineering
+  note: adding a world argument to `engine/m4/reports/grounding_fooling_measure.py` is a
+  separate engine task.
 
 **Part 5 — model routing**
 - **5.1 — Ruled (a).** §6 keeps its three lanes and adds an "Effort per task" table
@@ -5266,7 +5266,7 @@ All rulings below are dated 2026-09-24.
   build log at `worlds/<code>/build/` records model, effort and `/usage` before/after per
   document and review round.
 - **6.2 — Ruled (decision log only; a one-off test, queued separately, not a standing
-  rule).** One Fable 5.1 (high) vs Opus 5.5 (xhigh) discovery test on lpc's Doc_09.
+  rule).** One Fable 5.1 (high) vs Opus 5.5 (xhigh) discovery test on one in-progress world's Doc_09 (latap, grkap or lpc).
   Threshold: Opus 5.5 counts as close enough if it misses no more than one or two more
   items than Fable on the merged, source-checked list. The Fable row of V1.7's effort
   table stays "unchanged pending" this test.
