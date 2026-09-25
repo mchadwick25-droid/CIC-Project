@@ -59,11 +59,21 @@ today. Passing no `guard_labels` (every interview call, matching the
 whole-turn path's own convention) skips this check entirely and starts
 streaming from the first sentence.
 
+This module's own `message`/`turn_directive` parameters are built by the
+caller, not here - engine.m4.turn_prep.prepare_voice_turn_inputs is the
+shared answer for that (evidence assembly + private-directive building,
+extracted from engine.m4.turn._run_ordinary_voice_turn, which called the
+identical sequence inline before this module needed the same setup
+too). It has no dependency on this file or on engine.m4.turn, so a
+caller of THIS module reaches it directly rather than duplicating the
+sequence or importing turn.py.
+
 NOT in this module, by design: an HTTP/SSE transport wiring this into
-the live API (this file yields plain dicts; the transport and the
-question of how to reach it without duplicating
-engine.api.wiring.handle_message's own session/evidence-assembly setup
-is this change's own open question - see its PR description); self-
+the live API (this file yields plain dicts; the transport itself, and
+the question of where in engine.api.wiring.handle_message's own
+session-setup sequence a streaming-only call diverges from the
+whole-turn one and calls prepare_voice_turn_inputs on its own, is still
+open - see its PR description); self-
 revision's own draft-then-revise pair (engine.m4.self_revision) - the
 caller runs that first and passes this function whatever it returns,
 exactly as that module's own docstring already specifies for 7b/R30
