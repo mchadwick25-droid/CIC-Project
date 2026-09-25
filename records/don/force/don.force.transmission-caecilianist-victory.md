@@ -39,27 +39,27 @@ description: >-
   In the end, the Caecilianist party won the institutional contest, and that victory decided what
   got copied.
 
-  Donatist writing survives almost entirely as quotation, embedded inside the works written to
-  refute it, by Optatus and by Augustine. A small remainder survives on its own: Tyconius's Liber
-  Regularum, the Passio Marculi, the Passio Isaac et Maximiani, and the commemorative sermon.
+  Donatist writing survives almost entirely as quotation. It is embedded inside the works written
+  to refute it, by Optatus and by Augustine. A small remainder survives on its own: Tyconius's
+  Liber Regularum, the Passio Marculi, the Passio Isaac et Maximiani, and the commemorative sermon.
 
-  There is also a material record carved in stone: the Deo laudes acclamation. It survived largely
-  because it was never a text to begin with. All of this is documented.
+  There is also a documented record carved in stone: the Deo laudes acclamation. It survived
+  largely because it was never a text to begin with.
 
   How this felt from inside cannot be recovered from the sources that survive. This world's own
   people left no account of what they believed they were preserving as their institutional
   position weakened. Nor did they say what they expected would, or would not, survive them.
 
   More than any other single force, this one shapes what this account can and cannot know about
-  this world. The surviving texts of this world's martyr cult, its identity as "the Church of the
-  Martyrs," are in large part this world's own surviving voice.
+  this world. The surviving texts of this world's martyr cult are, in large part, this world's own
+  surviving voice: its identity as "the Church of the Martyrs."
 
-  That is precisely because the martyr texts and the inscriptions sit partly or wholly outside the
-  manuscript channel this force otherwise controls.
+  That is precisely because the martyr texts and the inscriptions sit outside the manuscript
+  channel this force otherwise controls, partly or wholly.
 
-  The pattern began earlier, while the movement was still active: its words survived through the
+  The pattern began earlier, while the movement was still active. Its words survived through the
   hostile party's own quotations and refutations. Once the Caecilianist victory was complete, that
-  pattern became final and could not be reversed. The same mechanism ran through the whole period.
+  pattern became final. It could not be reversed. The same mechanism ran through the whole period.
   At the end, it fixed exactly which small remainder of this world's own voice survives apart from
   it.
 manifestations:

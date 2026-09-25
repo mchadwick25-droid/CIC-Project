@@ -45,8 +45,7 @@ description: >-
 
   On one side stands the movement's own conviction: the state has no standing to judge who the
   true church is. Donatus voiced it directly in his reported retort: "Quid est imperatori cum
-  ecclesia?" The words have been checked again, independently, against Optatus, Against the
-  Donatists, Book III.
+  ecclesia?" Optatus reports the words in Against the Donatists, Book III.
 
   On the other side, the movement turned to that same imperial machinery for its own advantage. It
   did so repeatedly, at three named points across the period. In 313 it petitioned Constantine,
@@ -60,12 +59,12 @@ description: >-
   The pattern recurs, in three separate cases. It lasts the whole period, from 313 to the 390s.
   And it directly qualifies the movement's refusal of imperial legitimacy.
 
-  Each of the three cases is independently Documented on its own historical terms. Anulinus's
+  Each of the three cases is independently documented on its own historical terms. Anulinus's
   report is part of the Appendix of Documents in Optatus's own work, which is in the collection.
   Augustine's own writing confirms the legal moves of the Maximianist years.
 
   This pattern can be called "principled refusal against pragmatic exception," rather than simple
-  incoherence. That label is an interpretation. It draws on the finding that "the pattern remains
+  incoherence. That label is our own interpretation. It draws on the finding that "the pattern remains
   refusal-under-pressure on balance... not an absolute refusal at every point." It is a defensible
   reading. But no source shows the Donatists themselves describing the tension this way.
 

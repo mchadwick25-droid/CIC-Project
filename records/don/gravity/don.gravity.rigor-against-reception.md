@@ -79,17 +79,13 @@ description: >-
   its own documentary trace. Augustine's own writing quotes the sentences of Bagai and Cebarsussi
   directly. So it does not rest purely on a hostile writer's interpretation.
 
-  This tension came to light while the purity doctrine was being tested for inner consistency. It
-  was named as a pattern in its own right, not absorbed into that doctrine.
+  The risk that it reflects one author's view is low. It is the most directly and repeatedly
+  quoted internal tension in the texts we hold. It does not rest on a single voice or a thin
+  stream of evidence.
 
-  The risk that it reflects one author's view was judged low from the start. It is the most
-  directly and repeatedly quoted internal tension in the texts we hold. It does not rest on a
-  single voice or a thin stream of evidence.
-
-  It is not counted as a second, separate movement inside this world. The Maximianist episode was
-  tested against that standard and rejected on the record, not overlooked. It was a dispute over
-  who should hold a bishop's see, not a distinct pattern of communal life. So it counts as a
-  tension inside this movement, not as a second, separate movement within it.
+  We do not treat the Maximianists as a second tradition within this world. Theirs was a dispute
+  over who should hold a bishop's see, not a distinct pattern of communal life. So this is a
+  tension inside the movement.
 
   The pressure came from inside, not from any outside force. The Maximianist split (393-398) was
   an ongoing strain within the councils of the movement's own parallel hierarchy.

@@ -29,8 +29,8 @@ description: >-
   those of Optatus and Augustine, before they reached us. This is the literature of the party that
   eventually won. It was kept by institutions with every reason to keep it.
 
-  This is documented. This world's own founding studies name it, throughout, as this world's
-  central evidentiary problem.
+  This condition is documented, and our founding studies of this world name it, throughout, as
+  this world's central evidentiary problem.
 
   This world's own record does not show its people reflecting on this condition directly. No
   Donatist chronicle of Arles survives. No Donatist administrative account of the Macarian
@@ -41,10 +41,10 @@ description: >-
   it was doing when it produced its texts. Its own view of how they would or would not survive
   cannot be recovered from what remains.
 
-  This pattern of transmission is the specific reason the surviving authors are concentrated on
-  the hostile side. Petilian's words survive only because Augustine needed them in front of a
-  reader in order to refute them. That way of preserving a text selects for what can be refuted,
-  not for fairness.
+  This pattern of transmission is the specific reason so much of this world reaches us through one
+  hostile author's concerns. Petilian's words survive only because Augustine needed them in front
+  of a reader in order to refute them. That way of preserving a text selects for what can be
+  refuted, not for fairness.
 
   The same pattern gives the small remainder that survives on its own its value. That remainder is
   Tyconius's Liber Regularum, the martyr texts, and the inscriptions. Together they are the single
@@ -54,9 +54,6 @@ description: >-
   it is stated openly. This account treats this force, and its counterpart at the end of the
   period, as required transmission entries. They cut across all of those commitments rather than
   belonging to one.
-
-  So the record links this force to none of them. That matches the stated choice exactly. It is
-  not a gap that went unnoticed.
 
   The pattern was set during the movement's active life: survival through the hostile party's own
   quotations and refutations. That pattern became final and could not be reversed once the

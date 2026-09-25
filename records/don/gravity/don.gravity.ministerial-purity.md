@@ -76,7 +76,7 @@ description: >-
   does not depend on Optatus or Augustine: Petilian's own quoted words attest it. But its detailed
   line of argument reaches us largely through Augustine's own refutation of it.
 
-  It recurs strongly. It runs through this world's own statement of its core identity. It runs
+  It recurs strongly, beginning with this world's own statement of its core identity. It runs
   through the story of the traditio crisis, the pressure that gave birth to the movement. It sits
   in the founding accusation against Felix of Aptungi. Augustine gave seven books of his On
   Baptism to it. It appears in Petilian's own quoted arguments for rebaptism. And it stands among
@@ -87,27 +87,25 @@ description: >-
   one. And the whole significance of the Maximianist affair is that it tests whether this doctrine
   holds together.
 
-  It forms people strongly. It is the stated ground of the community's legitimacy itself, with
-  clerical purity as the ground of a valid sacrament. It is not a side belief. It is the
-  movement's own account of why it exists at all.
+  As the stated ground of the community's legitimacy itself, it forms people strongly. Clerical
+  purity is the ground of a valid sacrament. It is not a side belief. It is the movement's own
+  account of why it exists at all.
 
-  It explains a great deal. It explains how the schism began, with the traditio accusation of
+  It explains a great deal, starting with how the schism began in the traditio accusation of
   311/312. It explains the steady refusal to reunite, even under sustained imperial pressure. To
   accept Caecilianist sacraments as valid would concede the whole doctrine. And it explains the
   specific shape of the Maximianist paradox.
 
-  It persists strongly. It was live from 311/312 through the 411 Conference. The underlying
-  contest between the two parties ran on past the period this world covers. Gregory the Great's
-  letters from the 590s bear on that continuation, and part of them is in the collection. The
-  specific claim about that later life, and its evidence, belong with the rebaptism pattern's own
-  record of persistence.
+  It persisted strongly, live from 311/312 through the 411 Conference. The underlying contest
+  between the two parties ran on past the period this world covers. Gregory the Great's letters
+  from the 590s bear on that continuation, and part of them is in the collection. The specific
+  claim about that later life, and its evidence, belong with the rebaptism pattern's own record of
+  persistence.
 
-  It interacts strongly. It reinforces rebaptism, which is its mechanism. It reinforces the rival
-  church structure, which is needed to put it into practice at scale. And the Maximianist
-  precedent reshapes it: clergy were received back without being ordained again. That precedent
-  tests its own inner logic.
-
-  It holds strongly on all six measures.
+  It interacts strongly, reinforcing both rebaptism, which is its mechanism, and the rival church
+  structure, which is needed to put it into practice at scale. And the Maximianist precedent
+  reshapes it: clergy were received back without being ordained again. That precedent tests its
+  own inner logic.
 
   Why central rather than supporting? The same rule applies to every candidate. A central pattern
   produces its own distinct cluster of practice that people directly carry out. Without the

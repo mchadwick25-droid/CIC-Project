@@ -55,29 +55,28 @@ relations:
   target: don.contested.maximianist-reception
 name: Rebaptism as Boundary-Marking Practice [PRIMARY]
 description: >-
-  Rebaptism is a central, defining pattern of this world. It passes all six tests of a lasting
-  pattern, and passes them strongly.
+  Rebaptism is a central, defining pattern of this world.
 
-  The record returns to it again and again. Two works, On Baptism and Answer to the Letters of
-  Petilian, are both largely devoted to this practice. The record names rebaptism as "the rite
-  that marks who truly belongs."
+  Two works, On Baptism and Answer to the Letters of Petilian, are both largely devoted to this
+  practice, so it recurs strongly. Our account of this world calls rebaptism "the rite that marks
+  who truly belongs."
 
-  Much depends on it. A person's membership depends on it. So do the canons of the Council of
-  Carthage in 419 on receiving Donatist clergy. So does the Maximianist precedent, when clergy
-  were received back without rebaptism. That precedent matters only because rebaptism was the
-  normal rule it departed from.
+  Much depends on it. A person's membership depends strongly on it. So do the canons of the
+  Council of Carthage in 419 on receiving Donatist clergy. So does the Maximianist precedent, when
+  clergy were received back without rebaptism. That precedent matters only because rebaptism was
+  the normal rule it departed from.
 
-  It forms people directly. It is the literal act of worship by which a person enters, or re-
-  enters. Of all the marks of belonging this world's record documents, it is the most concretely
-  enacted and the most personally felt.
+  As the literal act of worship by which a person enters, or re-enters, it forms people directly
+  and strongly. Of all the marks of belonging this world's record documents, it is the most
+  concretely enacted and the most personally felt.
 
-  It explains a great deal. It explains why the movement drew sustained attention from imperial
-  law, since rebaptizing Catholics was itself a targeted offense. It also explains the specific
-  concerns of the 411 Conference.
+  It explains a great deal, starting with why the movement drew sustained attention from imperial
+  law. Rebaptizing Catholics was itself a targeted offense. It also explains the specific concerns
+  of the 411 Conference.
 
-  It lasted. It is attested from the movement's origin through the 411 Conference. Gregory the
-  Great's letters from the 590s also bear on Donatist rebaptism, specifically in Numidia. Some of
-  those letters are now in the collection.
+  It persisted strongly, attested from the movement's origin through the 411 Conference. Gregory
+  the Great's letters from the 590s also bear on Donatist rebaptism, specifically in Numidia. Some
+  of those letters are now in the collection.
 
   Those letters directly confirm rebaptism as a live Donatist practice in Numidia through 592. But
   we do not stretch them into claims about how widespread or what kind the practice was then. We
@@ -88,8 +87,8 @@ description: >-
   imperial laws bound up with the movement's refusal of imperial legitimacy.
 
   Our confidence matches the weight this pattern carries, with no significant gap. The bare fact
-  of the practice sits at this world's top evidentiary tier. Augustine's own writing attests it directly and repeatedly.
-  Petilian's own quoted argument supports it.
+  of the practice sits at this world's top evidentiary tier. Augustine's own writing attests it
+  directly and repeatedly. Petilian's own quoted argument supports it.
 
   The Donatist voice itself survives on this point. Petilian argues for the practice in his own
   quoted words. It is not only described by hostile opponents. But his words reach us quoted

@@ -47,14 +47,14 @@ description: >-
   The Caecilianist party eventually won the struggle for control of the church. That victory
   decided what got copied.
 
-  Donatist writing survives almost entirely as quotation, embedded inside the works written to
-  refute it, those of Optatus and Augustine.
+  Donatist writing survives almost entirely as quotation. It is embedded inside the works written
+  to refute it, those of Optatus and Augustine.
 
   A small remainder survives on its own. It includes Tyconius's Liber Regularum, the Passio
   Marculi, the Passio Isaac et Maximiani, and the commemorative sermon.
 
-  There is also a material record carved in stone, such as the Deo laudes acclamation. It survived
-  largely because it was never a written text to begin with. All of this is documented.
+  There is also a documented material record carved in stone: the Deo laudes acclamation. It
+  survived largely because it was never a written text to begin with.
 
   How this world's own people experienced this cannot be recovered from the surviving sources.
   They left no account of what they believed they were preserving as their church's position
@@ -64,8 +64,8 @@ description: >-
   This is the single most important force shaping what this whole account can and cannot know. The
   surviving texts of the martyr cult are, to a large degree, this world's surviving voice.
 
-  That is precisely because the martyr texts and the inscriptions sit partly or wholly outside the
-  manuscript copying that this force otherwise controlled.
+  That is precisely because the martyr texts and the inscriptions sit outside the manuscript
+  copying this force otherwise controlled. They sit there partly, or wholly.
 
   The pattern of what survived shows something broader. Communities and institutions preserve what
   serves their own case or their own memory.

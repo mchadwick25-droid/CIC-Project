@@ -30,8 +30,9 @@ relations:
 name: Martyr-Cult and Confessor Memory Sustaining Identity
 kind: ongoing
 description: >-
-  Each year, martyrs were remembered at their graves. This practice, and the martyr texts it kept
-  adding to, worked on this world again and again throughout its active life. This is documented.
+  Each year, martyrs were remembered at their graves. The record documents this practice and the
+  martyr texts it kept adding to. Both worked on this world again and again throughout its active
+  life.
 
   To gather at a martyr's grave on the day appointed and hear the account read again is not to
   remember something finished. It is to be shown, again, what this world already believes itself

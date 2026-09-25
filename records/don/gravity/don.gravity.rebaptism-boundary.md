@@ -66,32 +66,29 @@ description: >-
   true church is no baptism. So the one coming over is not re-baptised but baptised, first and
   truly.
 
-  The risk that this reflects one author's view was judged low from the start. Augustine's own
-  writing attests the bare practice directly and repeatedly. Petilian's own quoted argument
-  supports it.
+  The risk that this reflects one author's view is low. Augustine's own writing attests the bare
+  practice directly and repeatedly. Petilian's own quoted argument supports it.
 
-  It passes all six tests of a lasting pattern, every one of them strongly.
-
-  The record returns to it again and again. Two works, On Baptism and Answer to the Letters of
-  Petilian, are both largely devoted to this practice. The record names rebaptism as the rite that
+  Two works, On Baptism and Answer to the Letters of Petilian, are both largely devoted to this
+  practice, so it recurs strongly. Our account of this world names rebaptism as the rite that
   marks who truly belongs. It also calls it this world's most recurring formative material.
 
-  Much depends on it. Membership status depends on it. So does the specific content of the Council
-  of Carthage's 419 canons on receiving Donatist clergy. The whole meaning of the Maximianist
-  precedent depends on it too. Those clergy were received back without rebaptism, which matters
-  only because rebaptism was the normal rule.
+  Much depends on it, and strongly. Membership status depends on it. So does the specific content
+  of the Council of Carthage's 419 canons on receiving Donatist clergy. The whole meaning of the
+  Maximianist precedent depends on it too. Those clergy were received back without rebaptism,
+  which matters only because rebaptism was the normal rule.
 
-  It forms people directly. It is the literal act of worship by which a person enters, or re-
-  enters. Of all the marks of belonging this world's record documents, it is the most concretely
-  enacted and the most personally felt.
+  As the literal act of worship by which a person enters, or re-enters, it forms people directly
+  and strongly. Of all the marks of belonging this world's record documents, it is the most
+  concretely enacted and the most personally felt.
 
-  It explains a great deal. It explains why the movement drew direct, sustained attention from
+  It explains a great deal, starting with why the movement drew direct, sustained attention from
   imperial law. Rebaptising Catholics was itself a targeted offence under successive edicts. It
   also explains the specific concerns of the 411 Conference.
 
-  It lasted. It is attested from the movement's origin through the 411 Conference. Gregory the
-  Great's own letters, now in the collection, confirm it as a live, named practice in Numidia as
-  late as 592-594. But nothing about its scale or character at that date goes beyond what those
+  It persisted strongly, attested from the movement's origin through the 411 Conference. Gregory
+  the Great's own letters, now in the collection, confirm it as a live, named practice in Numidia
+  as late as 592-594. But nothing about its scale or character at that date goes beyond what those
   letters themselves say.
 
   It works closely with the patterns around it. It reinforces the purity doctrine, which is its

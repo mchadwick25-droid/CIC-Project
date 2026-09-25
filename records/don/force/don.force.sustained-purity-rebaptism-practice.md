@@ -35,8 +35,8 @@ description: >-
   rite, rebaptism, worked as this world's own established institutional pattern. It was a
   contested pattern the whole time.
 
-  This is documented. Augustine attests it directly in his own writing; he does not merely
-  characterize it. Petilian's own argument, quoted in Augustine's reply, attests it too.
+  This pattern is documented directly in Augustine's own writing, which attests it rather than
+  merely characterizing it. Petilian's own argument, quoted in Augustine's reply, attests it too.
 
   To belong here was to have been washed again, on purpose, by a hand of unbroken standing. This
   was not a repeat of something already valid. It was the first true baptism a person had ever

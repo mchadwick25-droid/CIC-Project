@@ -43,9 +43,9 @@ name: Martyr-cult and confessor memory sustaining identity [2B - ongoing/interna
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  Every year, this world commemorated its martyrs at the grave. That yearly practice, and the
-  growing body of martyr texts it produced, shaped this world again and again throughout its
-  active life. This is documented.
+  Every year, this world commemorated its martyrs at the grave. The record documents that yearly
+  practice and the growing body of martyr texts it produced. Both shaped this world again and
+  again throughout its active life.
 
   To gather at a martyr's grave on the appointed day and hear the account read again is not to
   remember something finished. It is to be shown, once more, what this world already believes

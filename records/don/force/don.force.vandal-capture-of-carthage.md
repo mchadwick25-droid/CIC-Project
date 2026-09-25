@@ -40,22 +40,18 @@ kind: ending
 matrix_cell: 3A
 description: >-
   The Vandals invaded Roman North Africa in 429. Their campaign culminated in the capture of
-  Carthage in 439. This is documented.
+  Carthage in 439, and both events are documented.
 
   The capture removed the Roman imperial power that had judged between the two parties and sided
   with the Catholics. This world's whole pattern of refusing imperial legitimacy was defined
   against that power.
 
   What this ending meant to this world's own people cannot be recovered from the sources that
-  survive. Its record does not preserve their interpretation of it. The community's own account of
-  what the Vandal conquest meant cannot be recovered from what survives.
-
-  So this is recorded as an absence. It carries no confidence rating, because no guess is offered
-  in its place.
+  survive. Its record does not preserve their interpretation of it.
 
   This force works together with the verdict of the 411 Conference and the penal laws that
-  followed. This world's own analysis singles out that pairing as the strongest link between any
-  of its defining commitments and the forces that shaped it.
+  followed. Our own analysis names that pairing the most direct link between any of this world's
+  defining commitments and the forces that shaped it.
 
   That judgment belongs to the two forces jointly, not to either alone. Together they remove the
   very power that this world's refusal of imperial legitimacy was defined against. Their combined

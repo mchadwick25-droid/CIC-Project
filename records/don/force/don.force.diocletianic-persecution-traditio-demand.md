@@ -31,7 +31,7 @@ description: >-
   Christians. It included a specific demand. Clergy had to hand over scripture and sacred vessels
   to the persecuting authorities, to be destroyed.
 
-  This is documented. It is attested throughout the reasoning that sets where this world begins.
+  This persecution is documented, and our account of how this world began rests on it.
 
   It is also backed up by specific accusations of traditio, the handing over of scripture.
   Optatus's Appendix of Documents preserves these accusations, in the Acta Purgationis Felicis of

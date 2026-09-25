@@ -70,8 +70,8 @@ description: >-
   hostile sources and the imperial records do not dispute it. But what we know of individual
   bishops' conduct and motives comes through hostile sources.
 
-  It recurs strongly. There were two rival bishoprics from the start, and the contest repeated
-  itself town by town. The rival hierarchy of bishops is among the most recurring formative
+  There were two rival bishoprics from the start, and the contest repeated itself town by town, so
+  it recurs strongly. The rival hierarchy of bishops is among the most recurring formative
   material in this world. The Maximianist schism assumes a system of councils that was already
   elaborate.
 
@@ -88,21 +88,21 @@ description: >-
   attends. But it creates no distinct formative practice of its own beyond what the three central
   patterns already supply.
 
-  It explains a great deal. It explains exactly how the Maximianist affair worked, with rival
+  It explains a great deal, starting with exactly how the Maximianist affair worked, with rival
   councils and rival consecrations. It explains why imperial laws targeted an organised rival
   clergy and its property. And it explains the exact bishop counts in the 411 Conference's own
   record.
 
-  It persists strongly. The rivalry ran town by town from 311/312 through 439 and beyond. What
+  The rivalry persisted strongly, running town by town from 311/312 through 439 and beyond. What
   followed was institutional wearing-away, not extinction.
 
-  It interacts strongly. It is the institutional condition that lets purity and rebaptism be
-  enforced. It also lets the commemoration of martyrs work at the scale of a whole rival church,
-  not just a scattered feeling. The Maximianist split grew from within it. Imperial laws targeted
-  its clergy and property specifically.
+  It interacts strongly as the institutional condition that lets purity and rebaptism be enforced.
+  It also lets the commemoration of martyrs work at the scale of a whole rival church, not just a
+  scattered feeling. The Maximianist split grew from within it. Imperial laws targeted its clergy
+  and property specifically.
 
-  It holds on all six measures. The dependency measure shows its supporting status, and its power
-  to form people is moderate.
+  The dependency measure is the one that shows its supporting status. Its power to form people is
+  only moderate.
 
   Why supporting rather than central? The rule is this. A central pattern produces its own
   distinct cluster of practice that people directly carry out, and that cluster would not exist
@@ -123,9 +123,9 @@ description: >-
   split worked from within, testing this structure's own machinery of councils.
 
   As the period closes, the 411 Conference's verdict and the penal laws that followed struck the
-  hierarchy directly as a legal target. The Vandal capture of Carthage then removed the imperial-
-  Catholic power it had been challenging for legal recognition. Its institutions wore away under
-  sustained legal pressure, and that limits what we can claim about its later life.
+  hierarchy directly as a legal target. The Vandal capture of Carthage then removed the
+  imperial-Catholic power it had been challenging for legal recognition. Its institutions wore
+  away under sustained legal pressure, and that limits what we can claim about its later life.
 
   It holds throughout the period under sustained outside pressure. Afterwards it wears away,
   without breaking apart from within.

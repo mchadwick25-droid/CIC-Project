@@ -52,8 +52,8 @@ description: >-
 
   The first pole is the movement's own stance: the state has no standing to judge who the true
   church is. Donatus voiced it directly in his reported retort: Quid est imperatori cum ecclesia?
-  What has the emperor to do with the church? The words have been checked against Optatus's
-  Against the Donatists, Book III.
+  What has the emperor to do with the church? Optatus reports the words in Against the
+  Donatists, Book III.
 
   The second pole is the movement's own turn to that same imperial machinery for its own
   advantage. It happened repeatedly, at three named points across the period. In 313 the movement
@@ -68,16 +68,12 @@ description: >-
   And it directly qualifies the movement's refusal of imperial legitimacy. That refusal's claim to
   last unbroken is qualified by exactly this tension. It is not smoothed over.
 
-  Each of the three cases is independently Documented. Describing the whole as one tension is an
-  interpretation drawn from those cases.
+  Each of the three cases is independently documented. Describing the whole as one tension is our
+  own reading of those cases.
 
   The evidence does not rest on hostile opinion alone. Each case is a specific, dated episode with
   its own documentary trace. Anulinus's report, for one, survives in the Appendix of Documents to
   Optatus's work. None of the cases rests purely on a hostile writer's interpretation.
-
-  This tension came to light while the refusal of imperial legitimacy was being tested for how
-  long it lasted. It was named as a pattern in its own right, not written into the refusal as a
-  caveat. For exactly this reason, the refusal was tested only after the two tensions.
 
   The tension does not sit in one moment. Of all the patterns in this world, it is the clearest
   case of one shaped by forces across several periods.

@@ -83,8 +83,8 @@ description: >-
   suppression of the Maximianists, and that runs through this same channel. But that too comes
   through hostile sources, and nothing independent confirms it.
 
-  It does not shape people across this world as a whole, but it does within Numidia. This world's
-  own account of its main centres names Numidia as the group's origin and home region. There, it
+  It does not shape people across this world as a whole, but it does within Numidia. Our account
+  of this world's main centres names Numidia as the group's origin and home region. There, it
   plausibly shaped a rural, wandering way of life. But nothing in the collection carries that
   influence to Carthage, Cirta or Hippo.
 
@@ -95,7 +95,7 @@ description: >-
   does.
 
   It does not persist across the whole world, but it does within Numidia. Numidia is named as the
-  region where the phenomenon began. On this world's own terms, it was concentrated in that
+  region where the phenomenon began. By our account of this world, it was concentrated in that
   region. The sources do not attest it evenly across Carthage, Cirta and Hippo.
 
   It does interact with other patterns. It meets the refusal of the state's religious authority,
@@ -118,9 +118,9 @@ description: >-
 
   Two forces touch it. Imperial laws swung back and forth, and they named the group directly and
   targeted it. And hostile sources report that Circumcellions took part in suppressing the
-  Maximianists. This world's own analysis states plainly that no clean link to wider forces can be
-  claimed beyond what the hostile record itself supplies. That analysis does not treat the hostile
-  record as settled, and this account does not extend it either.
+  Maximianists. Our own analysis states plainly that no clean link to wider forces can be claimed
+  beyond what the hostile record itself supplies. That analysis does not treat the hostile record
+  as settled, and this account does not extend it either.
 manifestations:
 - CTh 16.5.52 fining circumcelliones ten pounds of silver - the only rank of ten fined in silver rather than
   gold

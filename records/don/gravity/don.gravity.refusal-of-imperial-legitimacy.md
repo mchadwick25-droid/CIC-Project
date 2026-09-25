@@ -66,30 +66,27 @@ description: >-
   through a process aligned with the state is not, for that reason, a verdict of the church. This
   movement held that conviction across generations, under repeated threat from the law.
 
-  This pattern was examined only after the world's two tensions had been set out. One of those
-  tensions depends directly on it and limits it from within. The movement refused the state's
-  authority, yet turned to that same authority for help at three points. That tension reads most
-  clearly once it is already on the record. Still, this refusal was never a third tension. It was
-  drawn up alongside the other candidates for a world-shaping force, and it stands as a full one.
+  One tension limits this refusal from within. The movement refused the state's authority, yet
+  turned to it for help at three points. That tension is a separate pattern; this refusal is not
+  itself a tension.
 
-  From the start, the risk that this pattern reflects our own reading more than the evidence was
-  rated Moderate. The repeated historical episodes are confirmed from several sides. Even hostile
-  sources report them, describing what their own side did. But the frame that ties them together
-  rests partly on our own synthesis of the pressures and turning points in this world's history.
-  One directly quoted retort by Donatus anchors that frame.
+  The risk that this pattern reflects one author's view is moderate. The repeated historical
+  episodes are confirmed from several sides. Even hostile sources report them, describing what
+  their own side did. But the frame that ties them together rests partly on our own synthesis of
+  the pressures and turning points in this world's history. One directly quoted retort by Donatus
+  anchors that frame.
 
-  The pattern recurs strongly. It was named as a likely defining pattern from the very first
-  survey of this world. It is resistance to state-backed religious force, lived again and again,
-  not suffered once. The pressures run through the whole period. Constantine applied coercive measures
-  from 316 to 321. Julian granted toleration in 361 and restored the basilicas. Sustained legal
-  suppression followed the Edict of Unity in 405.
+  The pattern recurs strongly. It is resistance to state-backed religious force, lived again and
+  again, not suffered once. The pressures run through the whole period. Constantine applied
+  coercive measures from 316 to 321. Julian granted toleration in 361 and restored the basilicas.
+  Sustained legal suppression followed the Edict of Unity in 405.
 
   The turning points tell the same story. The Council of Rome in 313 and the Council of Arles in
   314 both ruled against the Donatist party. The movement rejected both, refusing to accept them
-  as legitimate verdicts. Then came the Conference of 411. The first sketch of this world's forces
-  points the same way. It shows the shifting imperial religious policy of the whole period. It
-  also shows the forces that ended the period: the verdict of 411, the penal laws that followed,
-  and the Vandal capture of Carthage.
+  as legitimate verdicts. Then came the Conference of 411. Our map of this world's forces points
+  the same way. It shows the shifting imperial religious policy of the whole period. It also shows
+  the forces that ended the period: the verdict of 411, the penal laws that followed, and the
+  Vandal capture of Carthage.
 
   Other parts of this world depend strongly on this refusal. The martyrs die precisely because of
   it. The Macarian repression was a direct act of enforcement against it. This world's closing
@@ -107,8 +104,8 @@ description: >-
   time period ends. It also explains the repeated attention imperial lawmakers gave this movement,
   as this world's record shows.
 
-  The pattern lasts, but with a qualification. This world's own history states that it remains
-  refusal under pressure on balance. It was not an absolute refusal at every moment or against
+  The pattern lasts, but with a qualification. Our account of this world's history finds that it
+  remains refusal under pressure on balance. It was not an absolute refusal at every moment or against
   every target. Three documented turns to the same imperial machinery qualify an otherwise
   dominant, lasting pattern. They came in 313, in 361, and in the 390s.
 
@@ -131,7 +128,7 @@ description: >-
   central pattern requires.
 
   Our confidence matches the weight we give this pattern, with one flagged gap. That gap mirrors
-  the one in the pattern of ministerial purity. The episodes are Documented. The frame that joins
+  the one in the pattern of ministerial purity. The episodes are documented. The frame that joins
   them is partly our own reading.
 
   Does the pattern hold up in a Donatist voice, not only in hostile ones? Yes, with the same
@@ -142,12 +139,12 @@ description: >-
 
   Two sets of historical forces bear on this refusal. The first is shifting imperial religious
   policy. That policy is the direct target of the refusal, and it runs across the whole period.
-  The second set is named the most direct link between a force and a pattern anywhere in this
-  world's analysis. The verdict of the 411 Conference and the penal laws that followed acted
+  Our analysis names this second set the most direct link between a force and a pattern anywhere
+  in this world's history. The verdict of the 411 Conference and the penal laws that followed acted
   together with the Vandal capture of Carthage in 439. Together, the two remove the very power
   this refusal is defined against.
 
-  This world's own history states it plainly. The year 439 marks the removal of the Roman
+  Our account of this world states it plainly. The year 439 marks the removal of the Roman
   imperial, Catholic-aligned power that claimed to judge the church. The movement's entire pattern
   of refusal is defined against that power. So the end of what this pattern resists is what closes
   this world's period.

@@ -62,7 +62,7 @@ description: >-
   Julian granted toleration, including the return of confiscated basilicas.
 
   Sustained legal suppression resumed with the 405 Edict of Unity. It ran through the 411
-  Conference of Carthage and its aftermath. All of this is documented.
+  Conference of Carthage and its aftermath — a documented sequence from end to end.
 
   The emperor's favor swung back and forth across this whole span: coercion, then toleration, then
   suppression again. Through all of it, this world held steady on one conviction: what has the

@@ -42,8 +42,8 @@ description: >-
   those of Optatus and Augustine, before they reached us. This is the literature of the party that
   eventually won. It was kept by institutions with every reason to keep it.
 
-  This is documented. This world's own founding studies name it, throughout, as this world's
-  central evidentiary problem.
+  This condition is documented, and our founding studies of this world name it, throughout, as
+  this world's central evidentiary problem.
 
   How this world experienced this condition cannot be recovered from the sources that survive. Its
   record does not show its own people reflecting on it directly. No Donatist chronicle of Arles
@@ -54,13 +54,10 @@ description: >-
   it was doing when it produced its texts. Its own view of how they would or would not survive
   cannot be recovered from what remains.
 
-  So this is recorded as an absence. It carries no confidence rating, because no guess is offered
-  in its place.
-
-  This pattern of transmission is the specific reason this world's surviving authors are
-  concentrated on the hostile side. Petilian's own quoted words survive only because Augustine
-  needed them in front of a reader in order to refute them. That way of preserving a text selects
-  for what can be refuted, not for fairness.
+  This pattern of transmission is the specific reason so much of this world reaches us through one
+  hostile author's concerns. Petilian's own quoted words survive only because Augustine needed
+  them in front of a reader in order to refute them. That way of preserving a text selects for
+  what can be refuted, not for fairness.
 
   The same pattern gives the small remainder that survives on its own its value. That remainder is
   Tyconius's Liber Regularum, the martyr texts, and the inscriptions. Together they are the single

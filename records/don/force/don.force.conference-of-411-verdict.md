@@ -49,7 +49,7 @@ description: >-
   In 411 the emperor convened a conference at Carthage, with Marcellinus presiding. It seated 279
   Donatist bishops against 286 Catholic bishops. It ruled against the Donatist party.
 
-  Sustained penal legislation followed the verdict. All of this is documented.
+  Sustained penal legislation followed the verdict, and the record documents both.
 
   The Gesta Collationis Carthaginiensis records Emeritus of Caesarea and the other Donatist
   bishops present speaking at length for their own side. That text is now in this world's

@@ -63,9 +63,9 @@ description: >-
   Afterward the mainstream party received the Maximianist clergy back. It repeated neither their
   ordination nor their baptism.
 
-  The consequences were still live in Augustine's own writing as late as about 405-406. They were
-  pressed again at the 411 Conference. All of this is documented. It is attested directly in
-  Augustine's own quotation of the sentences passed at Cebarsussi and at Bagai.
+  The consequences were still live in Augustine's own writing as late as about 405-406, and they
+  were pressed again at the 411 Conference. This is attested directly in Augustine's own quotation
+  of the sentences passed at Cebarsussi and at Bagai.
 
   This world's own councils judged its own dissidents. They used the same conciliar authority that
   governed everything else in its institutional life. Yet when those councils took the Maximianist

@@ -54,12 +54,11 @@ name: Parallel Institutional Hierarchy [SUPPORTING -- integrating/institutional 
 description: >-
   This world built a complete rival church, with its own bishops, basilicas, and councils. It is a
   supporting pattern, not a central one. It is the integrating center, the structure the central
-  patterns operate within. It passes all six tests used to judge a lasting pattern. The test that
-  shows it is supporting rather than central is what depends on it, not how it forms people.
+  patterns operate within. The test that shows it is supporting rather than central is what
+  depends on it, not how it forms people.
 
-  The record returns to it again and again. From the outset there were two rival bishoprics, and
-  the contest was repeated town for town. The parallel hierarchy of bishops is among this world's
-  most recurring formative material.
+  From the outset there were two rival bishoprics, and the contest was repeated town for town. The
+  parallel hierarchy of bishops is among this world's most recurring formative material.
 
   Much depends on it, and strongly. The Maximianist split inside the movement was only possible
   because a complex hierarchy already existed. That hierarchy had its own councils and its own
@@ -77,10 +76,10 @@ description: >-
   patterns already supply. This weaker finding about formation is a separate one. The finding
   about dependence is what makes the hierarchy supporting.
 
-  It explains a great deal. It explains exactly how the Maximianist affair worked. It also
+  It explains a great deal, starting with exactly how the Maximianist affair worked. It also
   explains why the 411 Conference's record could count bishops so precisely.
 
-  It lasted. The contest ran town for town from 311/312 to 439 and beyond. What followed was a
+  The contest lasted, running town for town from 311/312 to 439 and beyond. What followed was a
   slow institutional wearing-away, not extinction.
 
   It is the condition that let the purity doctrine and rebaptism be enforced, and the martyrs
@@ -88,7 +87,7 @@ description: >-
   it.
 
   Our confidence matches the weight this pattern carries. The bare institutional fact is
-  Documented unusually well, even for a world known mostly through hostile sources. Optatus,
+  documented unusually well, even for a world known mostly through hostile sources. Optatus,
   Augustine, and the imperial and council records all agree it happened, down to exact bishop
   counts. What individual bishops did, and why, still reaches us through hostile writers. But the
   parallel hierarchy itself carries no comparable risk of reflecting one hostile author's view.
@@ -105,7 +104,8 @@ description: >-
   founding logic. That form arose from the accusation against Felix of Aptungi and the rival
   consecration of Majorinus in 311/312. Later, the internal Maximianist split (393-398) worked
   within its councils and tested them. The verdict of the 411 Conference of Carthage made it a
-  direct legal target. The Vandal capture of Carthage in 439 took away its power to contest.
+  direct legal target. The Vandal capture of Carthage in 439 removed the imperial power it had
+  been contesting.
 
   That later life also marks a limit on what we can claim. The hierarchy wore away under sustained
   legal pressure. Our account ends where the surviving record ends, not where the movement itself

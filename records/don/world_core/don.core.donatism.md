@@ -53,7 +53,7 @@ horizon: >-
   of having surrendered the scriptures under the Diocletianic persecution. Were the sacraments and
   ordinations they gave valid at all?
 
-  This church then lived as a complete parallel church, with its own bishops, its own basilicas,
+  This church then lived as a complete parallel church. It had its own bishops, its own basilicas,
   and its own line of ordination. It contested the rival communion town for town across Africa
   Proconsularis, Numidia, Byzacena, and Mauretania.
 
@@ -83,12 +83,12 @@ horizon: >-
   correspondence in the 590s. Four of his letters, directly read, still urge suppression, a
   council, and an inquiry into Donatist rebaptism in Numidia.
 
-  No continuous line to any present-day communion is documented at any point. This world's own
-  Living Tradition Status is not confirmed.
+  No continuous line to any present-day communion is documented at any point. Whether this
+  communion continues as a living tradition today is not confirmed.
 
   This world's own self-description is the Church of the Martyrs: the pure, persecuted, true
-  church. In its own eyes, it holds an unbroken, traditor-free line of ordination against a rival
-  it regards as tainted and, from 312 onward, state-favored.
+  church. In its own eyes, it holds an unbroken, traditor-free line of ordination. It sees its
+  rival as tainted and, from 312 onward, as favored by the state.
 formation_logic: >-
   One conviction runs through purity, rite, memory, and refusal. These are not four commitments
   that happen to coexist. The conviction is this: we are the pure, persecuted, true church. What
@@ -130,30 +130,30 @@ formation_logic: >-
   renewed suppression.
 
   That is exactly why the refusal is held with three specific pragmatic exceptions, rather than as
-  absolute purity of principle. They are the 313 appeal to Constantine, the 361 petition to
-  Julian, and the 390s invocation of imperial and proconsular machinery against the Maximianists.
-  Each fell at a moment when the external power briefly offered something to gain by engaging it.
+  absolute purity of principle. They are the 313 appeal to Constantine and the 361 petition to
+  Julian. The third is the 390s invocation of imperial and proconsular machinery against the
+  Maximianists. Each came at a moment when engaging that power briefly offered something to gain.
 
   To be formed here was to hold an absolute conviction and a named, undenied exception to it in
   the same breath. A formed member did not experience that as contradiction. The gap was held
   openly, inside the same conviction. It was stated plainly in the same texts that state the
   doctrine at its most absolute. Naming it was never thought to require closing it.
 thinness: >-
-  One pattern repeats at every scale. This world's evidence survives in inverse proportion to how
-  directly it can be checked without a hostile hand mediating it.
+  One pattern repeats at every scale. The less directly a claim can be checked, free of a hostile
+  hand, the better this world's evidence survives for it.
 
   Nearly all the textual material this world's record holds passed through Catholic hands before
-  reaching us: those of Optatus of Milevis and Augustine of Hippo. This severe concentration of
-  authorship in opposing hands is named as this world's central evidentiary problem, not a
+  reaching us. Those hands were Optatus of Milevis and Augustine of Hippo. This severe
+  concentration of authorship is named as this world's central evidentiary problem, not a
   background caveat. Donatist literature survives almost entirely as quotation embedded inside its
   own refutations.
 
-  The record is richest, accordingly, in what the opponents argued about at length. That means the
-  purity doctrine and its rebaptism consequence, and the legal and institutional shape of the
-  schism. It also means the conciliar and imperial documentary record, and the martyr narratives.
+  The record is richest in what the opponents argued about at length. That means the purity
+  doctrine and its rebaptism consequence. It also means the legal and institutional shape of the
+  schism, the conciliar and imperial documentary record, and the martyr narratives.
 
-  Unusually, the record is also rich in one stratum of material that escaped that mediation
-  entirely: the Deo laudes acclamation cut in stone. It is this world's strongest single anchor,
+  Unusually, one stratum of material escaped that mediation entirely: the Deo laudes acclamation
+  cut in stone. The record is rich there too. It is this world's strongest single anchor,
   precisely because it was never textual to begin with.
 
   The skew is not the usual one. For substantial regions and periods, Donatism was the numerically
@@ -171,12 +171,12 @@ thinness: >-
   because they sit in the martyr texts that no opponent filtered.
 
   Speculative and hermeneutical theology is thin beyond Tyconius's single case. This is a genuine
-  disclosed absence, not an unexplored one. Four separate construction documents confirm it
+  disclosed absence, not an unexplored one. Four separate accounts of this world confirm it
   independently.
 
-  The physical rooms are thin. Numidian basilica archaeology remains honestly undone, and no
-  specific site report is named anywhere in this world's source ecology. So this world knows its
-  own acclamation far better than the room it was spoken in.
+  The physical rooms are thin. Numidian basilica archaeology remains honestly undone. No specific
+  site report is named anywhere in this world's source ecology. So this world knows its own
+  acclamation far better than the room it was spoken in.
 
   Women are thin, save for two. One is a named wealthy Carthaginian laywoman. She is preserved
   only inside the founding hostile narrative's explanation for why the schism happened at all. The
@@ -190,17 +190,17 @@ cautions: >-
   1) The concentration of authorship is named as the central problem. Nearly the whole textual
   record is this communion's own opponents writing against it. Never convert Optatus's or
   Augustine's narrative richness or documentary specificity into independent corroboration. That
-  includes the Maximianist episode, which reaches us almost entirely through Augustine's own
+  includes the Maximianist episode. It reaches us almost entirely through Augustine's own
   quotation and must be marked as such. Even the documentary dossier appended to Optatus sits
   inside that concentration. Its items are genuine court and conciliar acts, but the selection is
   his own act.
 
-  2) The four corrections are real but bounded. Four texts speak as Donatists rather than being
-  spoken about: the Passio Donati sermon, the Passio Marculi, Macrobius's own letter, and
+  2) The four corrections are real but bounded. Four texts speak as Donatists, rather than being
+  spoken about. They are the Passio Donati sermon, the Passio Marculi, Macrobius's own letter, and
   Tyconius's Liber Regularum. The 411 conference transcript also records Donatist bishops' own
   words, without an adversary selecting them for refutation. Every one is short or occasional
-  against the scale of the opposing corpus. The transcript's own scan also carries this corpus's
-  worst OCR on record for a text of that significance.
+  against the scale of the opposing corpus. The scanned copy of that transcript is also the
+  poorest-quality scan we hold for a text of that importance.
 
   3) The Frends thesis is contested, not settled. It reads this world's rural strength, and the
   Circumcellions, as native social protest. It is the most contested single argument this world's
@@ -214,7 +214,7 @@ cautions: >-
   agonistici, is confirmed absent from the Theodosian Code. Its source passage in Augustine
   remains unidentified.
 
-  5) Two vendored authorities disagree about the Passio Donati, and neither is adopted. Mabillon
+  5) Two authorities we hold disagree about the Passio Donati, and neither is adopted. Mabillon
   dates the persecution circa 340. Monceaux dates it to 12 March 317, with composition circa 320.
   He proposes an eyewitness Donatist bishop of Carthage as preacher, and he resolves the title
   differently. Never cite a settled date or author for it.
@@ -222,34 +222,35 @@ cautions: >-
   6) The martyr passiones do not date themselves. The Passio Marculi's own heading gives a day and
   no year. The 347-348 Macarian dating rests on the standard field literature, not on the texts.
 
-  7) Homonyms are easily conflated. The Maximian of the Maximianist schism (a deposed deacon, 393)
-  is a different person from the martyr Maximian of the Passio Isaac et Maximiani. The Optatus who
-  was Donatist bishop of Thamugadi is not Optatus of Milevis, the Catholic polemicist.
+  7) Homonyms are easily conflated. One is Maximian: a deposed deacon (393) behind the Maximianist
+  schism, a different person from the martyr Maximian of the Passio Isaac et Maximiani. The other
+  is Optatus: the Donatist bishop of Thamugadi is not Optatus of Milevis, the Catholic polemicist.
 
   8) The refusal is dominant, not absolute. This communion turned to imperial or proconsular
-  machinery at three specific points: 313, 361, and the 390s against its own Maximianist
-  dissidents. Its councils also received returning Maximianist clergy without reordination or
-  rebaptism at all. These are not embarrassments to manage. This world's own record states them
+  machinery at three points: 313, 361, and the 390s. That last turn was against its own
+  Maximianist dissidents. Its councils also received returning Maximianist clergy without
+  reordination or rebaptism at all. These are not embarrassments to manage. This world's own record states them
   plainly, in the same texts that state the doctrine at its most absolute.
 
   9) This world is treated as one single movement, not several. Both Tyconius and the Maximianist
   episode were checked against that question and rejected on the record, not overlooked. Tyconius
   was rejected as a condemned individual dissenting voice, with no attested following or distinct
-  communal practice. The Maximianists were rejected as a dispute over who should hold a see,
-  rather than a distinct pattern of communal life. Tyconius's own formal standing within the
+  communal practice. The Maximianists were rejected too. Theirs was a dispute over who should hold
+  a see, not a distinct pattern of communal life. Tyconius's own formal standing within the
   communion is deliberately left open.
 
-  10) Unread material is named as gaps. Monceaux's two dedicated Donatism volumes are vendored and
-  essentially unread. They include a whole chapter on Petilian, whose voice this world is
-  otherwise thinnest on. The Gesta's transcript has been read for one full act. Contra
+  10) Unread material is named as gaps. Monceaux's two dedicated Donatism volumes are in our
+  collection and essentially unread. They include a whole chapter on Petilian, whose voice this
+  world is otherwise thinnest on. The Gesta's transcript has been read for one full act. Contra
   Gaudentium's preserved Donatist letters are confirmed present and unread. The standard modern
-  instruments are all in copyright and cannot be vendored: Tilley's martyr-story translations,
-  Maier's documentary dossier, Mandouze's prosopography, and Duval's martyr-cult corpus.
+  instruments are all in copyright and could not be acquired. They are Tilley's martyr-story
+  translations, Maier's documentary dossier, Mandouze's prosopography, and Duval's martyr-cult
+  corpus.
 
-  11) No search record exists. Unlike some sibling worlds, no per-search log was kept during this
-  world's source work. The source collection's own Discovery column was reconstructed alongside
-  its own drafting, rather than logged at the time. Its own Saturation Statement declines to claim
-  completeness. No fresh field-bibliography sweep against standard reference instruments has been
+  11) No search record exists. Unlike some other accounts of this kind, no per-search log was kept
+  during this world's source work. The record of when each source was found was reconstructed
+  alongside its own drafting, rather than logged at the time. Our own note on how complete the
+  search was declines to claim completeness. No fresh field-bibliography sweep against standard reference instruments has been
   run.
 thin_topics:
 - keywords:

@@ -40,8 +40,8 @@ name: The Macarian repression (347-348) [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  In 347-348, the imperial commissioners Paul and Macarius forced unification on this world. They
-  used direct coercion, and at times it killed. This is documented.
+  In 347-348, the imperial commissioners Paul and Macarius forced unification on this world. The
+  record documents their direct coercion, and that at times it killed.
 
   Unusually, the repression is also confirmed in this world's own surviving voice. Two texts
   witness it. One is the Passio Marculi. The other is Macrobius's own letter to the Carthage
@@ -60,8 +60,8 @@ description: >-
   merely test that identity. It made it stronger.
 
   Each new episode of persecution produced new texts of remembrance, and we can trace that pattern
-  directly. This repression produced two texts in close succession. The earlier, less well-
-  attested persecution under Leontius and Ursacius produced the commemorative sermon.
+  directly. This repression produced two texts in close succession. The earlier, less
+  well-attested persecution under Leontius and Ursacius produced the commemorative sermon.
 
   Of every link between this world's forces and its core convictions, this one is named the single
   strongest. This repression and the Church of the Martyrs cannot be explained without each other.
