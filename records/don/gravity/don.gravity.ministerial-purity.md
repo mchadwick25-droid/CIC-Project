@@ -98,7 +98,7 @@ description: >-
 
   It persisted strongly, live from 311/312 through the 411 Conference. The underlying contest
   between the two parties ran on past the period this world covers. Gregory the Great's letters
-  from the 590s bear on that continuation, and part of them is in the collection. The specific
+  from the 590s bear on that continuation, and some of them survive. The specific
   claim about that later life, and its evidence, belong with the rebaptism pattern's own record of
   persistence.
 

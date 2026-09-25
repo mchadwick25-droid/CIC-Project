@@ -53,8 +53,8 @@ description: >-
   itself. He was neither a Donatist voice nor a neutral outside source. He was the authority both
   sides argued from.
 
-  The map of this world's source collection measures that status independently. It records that
-  Augustine's own On Baptism names Cyprian 306 times.
+  A citation count confirms that status independently: Augustine's own On Baptism names Cyprian
+  306 times.
 
   As this world saw it, this was no new teaching invented to justify anything. It was the same
   conviction the whole North African church already held: a baptism given outside the one true

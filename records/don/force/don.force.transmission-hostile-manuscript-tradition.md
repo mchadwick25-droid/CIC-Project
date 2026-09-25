@@ -25,7 +25,7 @@ relations:
 name: Transmission -- Survival Through the Hostile Party's Own Manuscript Tradition
 kind: ongoing
 description: >-
-  Nearly all the texts this account currently holds for this world passed through Catholic hands,
+  Nearly all the texts that survive from this world passed through Catholic hands,
   those of Optatus and Augustine, before they reached us. This is the literature of the party that
   eventually won. It was kept by institutions with every reason to keep it.
 
@@ -47,7 +47,7 @@ description: >-
 
   The same pattern gives the small remainder that survives on its own its value. That remainder is
   Tyconius's Liber Regularum, the martyr texts, and the inscriptions. Together they are the single
-  most valuable kind of evidence this account has.
+  most valuable kind of evidence that survives.
 
   This force is not tied to any one of this world's defining commitments. Together with its
   counterpart at the end of the period, it cuts across every one of them. That is because it is

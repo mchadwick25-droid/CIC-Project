@@ -87,7 +87,7 @@ description: >-
   also explains the specific concerns of the 411 Conference.
 
   It persisted strongly, attested from the movement's origin through the 411 Conference. Gregory
-  the Great's own letters, now in the collection, confirm it as a live, named practice in Numidia
+  the Great's own surviving letters confirm it as a live, named practice in Numidia
   as late as 592-594. But nothing about its scale or character at that date goes beyond what those
   letters themselves say.
 

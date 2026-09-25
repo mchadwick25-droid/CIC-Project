@@ -83,8 +83,8 @@ description: >-
 
   It does not shape people across this world as a whole, but it does within Numidia. Our account
   of this world's main centres names Numidia as the group's origin and home region. There, it
-  plausibly shaped a rural, wandering way of life. But nothing in the collection carries that
-  influence to Carthage, Cirta or Hippo.
+  plausibly shaped a rural, wandering way of life. But nothing in the surviving sources carries
+  that influence to Carthage, Cirta or Hippo.
 
   It explains little for the whole world, but some things regionally. It explains some specific
   attention from imperial law (Codex Theodosianus 16.5.52). It explains some details of the
@@ -107,8 +107,8 @@ description: >-
   supporting for the whole world. That holds however vividly hostile sources describe the group.
 
   Of everything in this account, this pattern relies least on the movement's own voice. That gap
-  covers everything beyond its bare existence and its own name. No text in this world's
-  collection, whether in a Donatist voice or free of hostile shaping, backs up the group's
+  covers everything beyond its bare existence and its own name. No surviving text, whether in a
+  Donatist voice or free of hostile shaping, backs up the group's
   character, scale or typical conduct. That gap is exactly why the group's character and scale
   cannot be trusted as confirmed: they look confirmed only because hostile sources repeat them. It
   is also the direct reason this pattern is not treated as central or supporting for the whole

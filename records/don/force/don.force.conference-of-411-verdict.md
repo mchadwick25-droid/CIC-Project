@@ -55,9 +55,9 @@ description: >-
   bishops present speaking at length for their own side. Their own words on the verdict itself
   survive and can be read directly.
 
-  For the sources read into this account so far, how this world's people received the verdict
-  cannot be recovered. The record keeps no direct account of their reception of this particular
-  verdict. This is a stated absence in the evidence, not a guess.
+  Whether that same record also preserves an account of how this world's own people received the
+  verdict is not yet known. Only one full act of that transcript has been read so far, and the
+  rest remains to be checked.
 
   What the wider record does state is a conviction. A council's verdict does not settle who the
   true church is, even a council this large and this formally convened.

@@ -200,11 +200,11 @@ cautions: >-
   Tyconius's Liber Regularum. The 411 conference transcript also records Donatist bishops' own
   words, without an adversary selecting them for refutation. Every one is short or occasional
   against the scale of the opposing corpus. The scanned copy of that transcript is also the
-  poorest-quality scan we hold for a text of that importance.
+  poorest-quality scan of any text this important.
 
   3) The Frends thesis is contested, not settled. It reads this world's rural strength, and the
-  Circumcellions, as native social protest. It is the most contested single argument made about
-  this world. Shaw, Brown, and Tengstrom are its named counterpoints. It is
+  Circumcellions, as native social protest. It is the most contested single argument our sources
+  make about this world. Shaw, Brown, and Tengstrom are its named counterpoints. It is
   flagged for priority second-opinion review before it supports any specific claim.
 
   4) The Circumcellion split must be held. The group's existence is independently attested outside
@@ -239,8 +239,8 @@ cautions: >-
   a see, not a distinct pattern of communal life. Tyconius's own formal standing within the
   communion is deliberately left open.
 
-  10) Unread material is named as gaps. Monceaux's two dedicated Donatism volumes are in our
-  collection and essentially unread. They include a whole chapter on Petilian, whose voice this
+  10) Unread material is named as gaps. We hold Monceaux's two dedicated Donatism volumes,
+  essentially unread. They include a whole chapter on Petilian, whose voice this
   world is otherwise thinnest on. The Gesta's transcript has been read for one full act. Contra
   Gaudentium's preserved Donatist letters are confirmed present and unread. The standard modern
   instruments are all in copyright and could not be acquired. They are Tilley's martyr-story

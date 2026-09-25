@@ -75,8 +75,8 @@ description: >-
   absolute. And it does not treat the two facts as cancelling each other out.
 
   This affair is the direct engine of one of this world's central tensions. On one side stands
-  strict purity. On the other stands receiving people back into the institution. In this world's own collection,
-  no other internal tension is quoted directly so rigorously, or so often.
+  strict purity. On the other stands receiving people back into the institution. Of every internal
+  tension in this world's record, none is quoted directly so rigorously, or so often.
 
   The affair reshapes how the doctrine of ministerial purity holds together. But it does not break
   that doctrine apart.

@@ -75,7 +75,7 @@ description: >-
 
   It persisted strongly, attested from the movement's origin through the 411 Conference. Gregory
   the Great's letters from the 590s also bear on Donatist rebaptism, specifically in Numidia. Some
-  of those letters are now in the collection.
+  of those letters survive.
 
   Those letters directly confirm rebaptism as a live Donatist practice in Numidia through 592. But
   we do not stretch them into claims about how widespread or what kind the practice was then. We

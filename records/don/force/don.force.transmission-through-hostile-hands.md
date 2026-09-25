@@ -38,7 +38,7 @@ name: Transmission - survival through the hostile party's own manuscript traditi
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  Nearly all the texts this account currently holds for this world passed through Catholic hands,
+  Nearly all the texts that survive from this world passed through Catholic hands,
   those of Optatus and Augustine, before they reached us. This is the literature of the party that
   eventually won. It was kept by institutions with every reason to keep it.
 
@@ -60,7 +60,7 @@ description: >-
 
   The same pattern gives the small remainder that survives on its own its value. That remainder is
   Tyconius's Liber Regularum, the martyr texts, and the inscriptions. Together they are the single
-  most valuable kind of evidence this account has.
+  most valuable kind of evidence that survives.
 manifestations:
 - Donatist literature surviving almost entirely as quotation embedded inside its own refutations
 - Petilian visible only to the extent his opponent chose to quote him - preservation selecting for refutability,
