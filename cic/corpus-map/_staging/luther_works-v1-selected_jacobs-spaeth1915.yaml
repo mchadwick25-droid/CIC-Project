@@ -6,6 +6,29 @@
 source_file: luther_works-v1-selected_jacobs-spaeth1915.txt
 
 assignments:
+  - work: "Selections from Luther's Prefaces to His Works, 1539 and 1545"
+    author: luther
+    locus: "lines ~250-432 (I. Preface to the First Part of His German
+      Works, Edition of 1539; II. Dr. Martin Luther to the Christian
+      Reader, Edition of 1545)"
+    atlas_ids:
+      - lutheran-wittenberg-and-its-congregations
+    role: tradition
+    confidence: assigned
+    note: >
+      Luther's own two prefaces to the collected German Works (1539,
+      1545) - his own retrospective view of his corpus and of
+      Scripture's primacy over Fathers and Councils, and his 1545
+      self-portrait as "such a Saul was I at that time." Closes the gap
+      witt_Source_Registry.md's R1 flagged as "Not in the corpus-map"
+      (2026-09-25 pass) - the work was already vendored and already
+      cited with verbatim-verified quotes in that registry, just never
+      given its own corpus-map assignment. Locus and quoted passages
+      (260-261, 356-357, 365) checked directly against the vendored
+      file this pass, matching the registry's own citations exactly.
+      Stops before Luther's later "tower experience" passage - not
+      present in this excerpt (Doc_02 §0 already notes this).
+
   - work: "The Ninety-Five Theses (Disputation on the Power and Efficacy of
       Indulgences), with the Letter to Archbishop Albrecht of Mainz"
     author: luther
