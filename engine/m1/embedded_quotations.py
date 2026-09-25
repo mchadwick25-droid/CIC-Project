@@ -12,11 +12,11 @@ of those records' own prose - brackets, editorial interpolations, and all
 - reaches a participant exactly as the vendored 19th-century translation
 wrote it.
 
-REPORT-ONLY. This module does not grade or fail anything (no entry in
-`engine.m1.gates.GATES`) and never rewrites a record - it only finds and
-counts. `worlds/pahc/Open_Gaps_Tracking.md` OG-10 has this module's own
-current per-record, per-world counts, plus a proposed mechanism (not yet
-built - see that entry).
+REPORT-ONLY, a registered standing check - the same status `engine.m1.
+sentence_completeness` already carries. This module does not grade or
+fail anything (no entry in `engine.m1.gates.GATES`) and never rewrites a
+record - it only finds and counts. `worlds/pahc/Open_Gaps_Tracking.md`
+OG-10 has this module's own current per-record, per-world counts.
 
 SCOPE: every field `engine.m1.spoken_fields.fields_with_role` declares
 `voice-diet` or `evidence-head` for a record's own `record_type` - text
