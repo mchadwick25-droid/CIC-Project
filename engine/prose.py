@@ -449,15 +449,33 @@ def _is_common_vocab(word: str) -> bool:
     return w in _DOCTRINAL_VOCAB or (w.endswith("s") and w[:-1] in _DOCTRINAL_VOCAB)
 
 
-def _proper_nouns(sentence: str) -> set[str]:
+def _proper_nouns(sentence: str, *, include_sentence_initial: bool = False) -> set[str]:
     """Capitalized words not at the start of a clause - a cheap, no-
     dictionary proxy for named people/places/texts. A colon or semicolon
     starts a new independent clause grammatically, same as a sentence
     boundary, so the word right after one is skipped too - otherwise "...
     argue: I have to be honest" flags "I" as a proper noun for no reason
-    beyond where a colon happened to land."""
+    beyond where a colon happened to land.
+
+    include_sentence_initial (default False, every existing caller
+    unaffected): when True, the sentence's OWN first word is no longer
+    excluded from detection. engine.m4.sentence_fact_check's own module
+    docstring names why it needs this: two of the fabrications it exists
+    to catch ("Athanasius of Alexandria was named among..."; "Alexandria
+    itself appears only once...") name the fabricated entity as the
+    sentence's very first word, and the position-0 exclusion (right for
+    claim_markers' own narrow, per-tag ground) would otherwise make them
+    structurally unflaggable regardless of ground scope. Safe specifically
+    at whole-repository ground scope: an ordinary capitalized word that
+    only coincidentally opens a sentence (not a real name) is either
+    already a stopword/doctrinal-vocab exclusion below, or - being
+    ordinary vocabulary - overwhelmingly likely to also appear elsewhere
+    across an entire compiled repository, so it grounds itself rather
+    than false-flagging; the false-positive risk this exclusion was built
+    to prevent is much narrower here than in the 1-3-record ground
+    claim_markers itself is scored against."""
     words = _WORD.findall(sentence)
-    clause_starts = {0}
+    clause_starts = set() if include_sentence_initial else {0}
     for m in re.finditer(r"[:;]\s*", sentence):
         tail_words = _WORD.findall(sentence[: m.end()])
         if tail_words:
@@ -518,13 +536,21 @@ def _has_enumeration(sentence: str) -> bool:
     return sentence.lower().count("the same ") >= 2
 
 
-def claim_markers(sentence: str) -> list[str]:
+def claim_markers(sentence: str, *, include_sentence_initial_proper_nouns: bool = False) -> list[str]:
     """Positive detection: does this sentence even make a checkable claim?
     Empty result means it's interpretive/values framing - skip it outright,
     rather than firing on everything and trying to exempt framing after the
-    fact (v1's mistake)."""
+    fact (v1's mistake).
+
+    include_sentence_initial_proper_nouns (default False, every existing
+    caller unaffected): threads straight through to _proper_nouns' own
+    parameter of the same purpose - see that function's own docstring for
+    why engine.m4.sentence_fact_check needs it True. Kept as one function
+    with a flag, not a second copy of this one, for the same "one
+    implementation, owned once" reason every other shared primitive in
+    this module already gives."""
     markers = []
-    proper_nouns = _proper_nouns(sentence)
+    proper_nouns = _proper_nouns(sentence, include_sentence_initial=include_sentence_initial_proper_nouns)
     if proper_nouns:
         markers.append(f"proper-noun:{sorted(proper_nouns)}")
     if _has_number(sentence):
