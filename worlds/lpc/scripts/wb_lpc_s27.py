@@ -508,7 +508,7 @@ def build_demo_road_back() -> None:
             ("lpc.gravity.penitential-discipline",
              "the examined road-back rite itself, used directly for both representative turns"),
             ("lpc.source.cyprian-epistles",
-             "Epistle XV, the certificate process naming a person back into standing, the "
+             "Epistle X, the certificate process naming a person back into standing, the "
              "documentary grounding for 'their name is set down'"),
         ),
         "canon_question_id": "_fleet.canon.f4-i-05",

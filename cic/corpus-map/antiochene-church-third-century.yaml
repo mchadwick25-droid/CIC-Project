@@ -34,6 +34,53 @@ works:
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
+    martyrdom of Lucian of Antioch)
+  author: eusebius
+  locus: Book VIII, ch. 13.2 (line 44730) and Book IX, ch. 6.3 (line 48001) - Eusebius's own
+    notices of the martyrdom of Lucian of Antioch, presbyter and Biblical text-critic, at
+    Nicomedia under Maximinus, c. 311-312
+  role: context
+  confidence: assigned
+  note: 'This world''s census entry names Lucian of Antioch as one of its five voices ("biblical
+    text-critic and martyr in 312, whose pupils, Arius among them, called themselves Lucianists")
+    and cites exactly these two loci (Eusebius VIII.13.2 and IX.6.3) as his primary attestation,
+    but neither had been corpus-mapped before this pass. Verified directly: VIII.13.2 (line
+    44730) names "Lucian... a presbyter of that parish [Antioch], whose entire life was most
+    excellent," martyred at Nicomedia; IX.6.3 (line 48001) gives the fuller account - "a presbyter
+    of the parish at Antioch, and a most excellent man in every respect... brought to the
+    city of Nicomedia... after delivering before the ruler an apology for the doctrine which
+    he professed, was committed to prison and put to death." Book IX''s own endnote cross-references
+    Jerome''s De Viris Illustribus ch. 77 for the same figure - see the separate npnf203 entry
+    added the same pass. `role: context`: Eusebius reports Lucian''s martyrdom and reputation
+    as an outside near-contemporary historian, not Lucian''s own surviving voice (his own
+    works do not survive in any PD English translation - see the dossier''s own §5 floor-question
+    note, which this does not resolve, only corroborate the figure''s historicity).
+
+    '
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
+    (file line 40990)
+  author: jerome
+  locus: div2 5.3, Chapter LXXVII "Lucianus the presbyter"
+  role: context
+  confidence: assigned
+  note: 'This world''s census entry names Lucian of Antioch as one of its five voices and
+    cites exactly this locus (Jerome, De Viris Illustribus ch. 77) as his attestation, but
+    it had not been corpus-mapped before this pass. Verified directly at line 40990-41001:
+    "Lucianus...a man of great talent, presbyter of the church at Antioch, was so diligent
+    in the study of the Scriptures, that even now certain copies of the Scriptures bear the
+    name of Lucian. Works of his, On faith, and short Epistles to various people are extant.
+    He was put to death at Nicomedia for his confession of Christ in the persecution of Maximinus."
+    A third, independent near-contemporary notice of the same figure alongside Eusebius''s
+    two (VIII.13.2, IX.6.3, also added this same pass to npnf201) - confirms the Scriptural-revision
+    reputation and the circulation of his own now-lost works ("On faith," letters), neither
+    of which Eusebius mentions. `role: context`: an outside cataloguer''s biographical notice,
+    not Lucian''s own surviving voice - none of the works Jerome names here survive in translation
+    (see the dossier''s own §5 floor-question note, which this does not resolve).
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata
     (with fragments of the disputation)
   author: malchion
