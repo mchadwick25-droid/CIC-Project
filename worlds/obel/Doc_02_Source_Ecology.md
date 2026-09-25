@@ -168,15 +168,29 @@ rows, both `role: tradition`, `confidence: assigned`:
   text)"
 
 Both rows carry `source_file`, `role`, and `confidence` per the corpus-map
-schema; `row_id` is not a field this schema currently emits (the merged
-bucket file's own rows are keyed by `work`+`source_file`, not a separate
-numeric `row_id` — checked directly against the generated file and
-against three other worlds' own bucket files for the same schema; this is
-consistent fleet-wide, not a gap specific to this world). `voice_of` is
-likewise not a field the current corpus-map schema carries (checked the
-same way) — own-voice/opponent-voice is instead recorded in this document
-directly (§1.1 table above), which is where V1.8 §2's own requirement is
-actually met for this world.
+schema as `corpus_map_merge.py` actually emits it today (its own `_KEEP`
+tuple: `work, author, source_file, locus, role, confidence, note`).
+**Corrected, self-review:** an earlier pass of this document claimed
+`row_id`/`voice_of` were simply "not a field this schema currently
+emits... consistent fleet-wide, not a gap specific to this world" — true
+as far as it went, but incomplete in a way worth stating precisely
+rather than leaving it sounding like a settled non-issue.
+`cic/corpus-map/fixture-synthetic.yaml`'s own header discloses that
+`row_id`, `voice_of`, `locus_ids`, and `documented_exchange` are real,
+named, in-progress schema fields ("CM-1/CM-2/CM-4/CM-8") that "real
+buckets don't carry yet" — a live migration a separate "corpus-map's own
+thread builds... for real data," currently proven only against synthetic
+fixture data, not yet rolled out to any real world's own bucket. **This
+means V1.8 §2's own explicit requirement ("corpus-map rows with
+`row_id`, corrected `role` and `voice_of`") is not something this
+document's own drafting choices can satisfy structurally** — the tooling
+that would carry it does not yet write it for any real world, this one
+included. This document meets V1.8's own functional intent the only way
+currently available: recording own-voice/opponent-voice directly in
+prose (§1.1's table above), not in the corpus-map YAML's own row fields.
+Logged as `Open_Gaps_Tracking.md` entry 9 — a cross-world tooling gap,
+not a finding this build thread can close, and not this world's own
+defect.
 
 ---
 
@@ -346,6 +360,10 @@ Added to `Open_Gaps_Tracking.md`:
   finding, not a content gap.
 - Entry 8 (review-tooling limitation) — new this pass, disclosed
   plainly.
+- Entry 9 (`row_id`/`voice_of` not yet emitted by the real corpus-map
+  tooling, a fleet-wide gap) — new this pass, found on self-review of
+  §3's own first draft; disclosed plainly rather than left implying a
+  settled non-issue.
 
 No item from Doc_01 is re-opened or narrowed here; all five carry forward
 unchanged.
@@ -378,3 +396,10 @@ register for claims this library cannot yet independently back.
 
 - Round 1 draft, 2026-09-25, this build thread, together with
   `obel_Source_Registry.md`.
+- Round 1, self-review fix applied directly (cosmetic — a precision
+  correction, not a change to any claim's substance, confidence rating,
+  sourcing conclusion, or scope boundary): §3's characterization of the
+  `row_id`/`voice_of` gap corrected from "not a gap specific to this
+  world" (true but incomplete) to name the actual, disclosed, in-progress
+  fleet-wide migration responsible for it (`Open_Gaps_Tracking.md`
+  entry 9).

@@ -31,29 +31,52 @@ Russian Orthodoxy in general":
 
 - **A single, datable rupture with a named cause.** In the 1650s, Patriarch
   Nikon corrected the Russian liturgical books and certain ritual
-  practices against contemporary Greek Orthodox usage — the sign of the
-  cross made with three fingers instead of two, the spelling of the name
-  of Jesus (Isus → Iisus), the direction of processions around a church,
-  the number of prosphora used in the liturgy, and related corrections. A
-  substantial part of the Russian church refused these changes as
-  innovations rather than corrections. The Moscow council of 1666-1667
-  anathematized those who refused. This is a single, nameable event with a
-  named cause (Nikon's reforms) and a named consequence (anathema), not a
-  diffuse regional or generational drift.
+  practices against contemporary Greek Orthodox usage. The sign of the
+  cross made with three fingers instead of two is **[Documented]**,
+  verified directly against this world's own vendored source (§9 below,
+  the p. 120 dialogue). The spelling of the name of Jesus (Isus → Iisus),
+  the direction of processions around a church, and the number of
+  prosphora used in the liturgy are **[Widely Accepted]** as part of the
+  standard historical account of Nikon's corrections — this document has
+  not yet independently verified these three specific details against a
+  vendored primary source, and states them at that lower confidence
+  rather than borrow the two-fingers detail's own stronger verification
+  for the whole list. A substantial part of the Russian church refused
+  these changes as innovations rather than corrections. The Moscow
+  council of 1666-1667 anathematized those who refused — **[Documented]**
+  on the census's own record and the Decision-Log's own Era 8 gate entry
+  (§2.1 below). This is a single, nameable event with a named cause
+  (Nikon's reforms) and a named consequence (anathema), not a diffuse
+  regional or generational drift.
 - **A recurring, sharply evidenced self-understanding: fidelity to
   inherited ritual practice as the whole of the case.** The movement's own
   central voice states this directly and repeatedly. Archpriest Avvakum,
   in his own dialogue with the Eastern patriarchs recorded in his own
   autobiography, argues the dispute entirely on the ground of continuity
-  with "the tradition of our holy fathers" and inherited practice, naming
-  Meletius of Antioch, Theodoret, "the Heart Bishop of Cyrene" [sic in this
-  translation — evidently a corruption of "the Bishop of Cyrus," i.e.
-  Theodoret of Cyrus, whom the passage has already named separately; not
-  silently corrected, flagged as a translation/OCR oddity for Doc_02], Peter
-  of Damascus, and Maxim the Greek as authorities for the two-fingered sign
-  of the cross (`avvakum_life-of-archpriest-avvakum_harrison-
-  mirrlees1924.txt`, p. 120). **[Documented]**, verified directly against
-  the vendored file.
+  with "the tradition of our holy fathers" and inherited practice, naming,
+  in the file's own exact spelling, "Meletina of Antioch, Theodoret, the
+  Heart Bishop of Cyrene, Peter of Damascus and Maxim the Greek" as
+  authorities for the two-fingered sign of the cross
+  (`avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt`,
+  p. 120). **Two names in this list are given here exactly as the
+  vendored file spells them, not silently normalized to the more familiar
+  historical form, per this project's own quote-fidelity discipline:**
+  "Meletina" is almost certainly this translation's own rendering of
+  Meletius (of Antioch, a genuine 4th-century patristic authority whom an
+  Old Believer writer citing two-fingered practice could plausibly
+  invoke) — but this document does not silently correct it to "Meletius,"
+  since doing so risks exactly the misattribution error this project's
+  own governing rules warn against; the possibility that "Meletina" names
+  a different, less familiar figure is not ruled out. "The Heart Bishop of
+  Cyrene" is likewise left as printed — evidently a corruption of "the
+  Bishop of Cyrus" (Theodoret of Cyrus, already named as "Theodoret"
+  earlier in the same list, so if this phrase names the same man twice
+  that is itself worth flagging, not assumed) — rather than resolved by
+  assumption. Both flagged for Doc_02/Doc_03's own further checking, not
+  resolved here. **[Documented]**, verified directly against the vendored
+  file, as to the fact that this list of names appears and is invoked for
+  this purpose; **[Inferential-Thin]** as to the identity of "Meletina"
+  and "the Heart Bishop of Cyrene" specifically.
 - **A recurring pattern of authority, suffering, and testimony.** Exile,
   underground imprisonment, and execution for refusing the corrected rite
   recur across the movement's own record — Avvakum's own decade in
@@ -436,3 +459,15 @@ every open question this document raises.
 ## 13. Document log
 
 - Round 1 draft, 2026-09-25, this build thread.
+- Round 1, self-review fixes applied directly (cosmetic — wording/
+  precision only, no change to any claim's substance, confidence rating,
+  sourcing conclusion, or scope boundary): §1 second bullet corrected a
+  name this draft had silently normalized from the vendored file's own
+  spelling ("Meletina" printed as "Meletius") — now given exactly as the
+  file prints it, with the normalization possibility flagged rather than
+  applied silently, per this project's own quote-fidelity discipline; §1
+  first bullet split a single blanket **[Documented]** tag across several
+  sub-claims of different actual verification levels (the two-fingers
+  detail is verified against the vendored file; the name-spelling,
+  procession-direction, and prosphora-count details are not, and are now
+  tagged **[Widely Accepted]** instead).

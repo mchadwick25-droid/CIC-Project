@@ -99,3 +99,22 @@ environment/tooling gap, not a methodology dispute — the build-cycle
 skill's own review requirement was honored using the best available
 mechanism, and this note exists so a later reader does not assume a
 same-context Task-tool review happened when it did not.
+
+**9. (2026-09-25, Doc_02 §3, self-review finding) `row_id`/`voice_of` are
+not yet emitted by the real corpus-map tooling for any world — a
+fleet-wide gap, not this world's own.** V1.8 §2 explicitly requires
+"corpus-map rows with `row_id`, corrected `role` and `voice_of`."
+`cic/engine/corpus_map_merge.py`'s own `_KEEP` tuple does not carry
+either field, and `cic/corpus-map/fixture-synthetic.yaml`'s own header
+confirms this directly: `row_id`, `voice_of`, `locus_ids`, and
+`documented_exchange` are named, in-progress schema increments
+("CM-1/CM-2/CM-4/CM-8") that "real buckets don't carry yet," proven so
+far only against synthetic fixture data by a separate "corpus-map's own
+thread." This world's Doc_02 satisfies V1.8's functional intent by
+recording own-voice/opponent-voice directly in prose instead (§1.1's
+table) — a workaround, not a fix, since the structural requirement
+itself cannot be met until that separate thread's migration reaches real
+buckets. Not this build thread's own defect to fix, and not escalated
+(it is a known, already-disclosed, actively-owned piece of work
+elsewhere, not an unresolved tension this pipeline can't close) — flagged
+so a future document doesn't assume the gap was specific to `obel`.
