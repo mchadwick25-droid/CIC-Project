@@ -33,8 +33,9 @@ retrieval:
   - "participant wants the cloak and the vision themselves - retrieve gallic.quote.the-cloak-divided-and-the-vision-of-christ"
   - "participant wants the whole episode told as a story - retrieve gallic.story.the-cloak-at-amiens, which this record is drawn from"
 text: >-
-  He often acted as though, while really master, he had been inferior; to such a degree that, for the
-  most part, he drew off his [servant's] boots and cleaned them with his own hand; while they took
+  And even to him, changing places as it were, he often acted as though, while really master, he had
+  been inferior; to such a degree that, for the most part, he drew off his [servant's] boots and
+  cleaned them with his own hand; while they took
   their meals together, the real master, however, generally acting the part of servant. During nearly
   three years before his baptism, he was engaged in the profession of arms, but he kept completely free
   from those vices in which that class of men become too frequently involved. He showed exceeding
@@ -73,7 +74,7 @@ Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml.
 acting the part of servant"` returns one hit, line 732; `grep -n "not so much as being a soldier as a
 monk"` returns one hit, line 740. The chapter div is `<div3 title="Chapter II. Military Service of St.
 Martin." ... id="ii.ii.iii">` (line 691). Read lines 727-741 directly: one continuous paragraph in the
-source, nothing skipped, from "he often acted as though..." through "...as a monk."
+source, nothing skipped, from "And even to him, changing places as it were..." through "...as a monk."
 
 Normalization: line breaks joined with single spaces. "[servant's]" is kept as the source itself
 brackets it (the translator's conventional marking of a word supplied for clarity, not this record's

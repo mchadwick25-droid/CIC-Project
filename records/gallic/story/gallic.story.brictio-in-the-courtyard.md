@@ -82,8 +82,8 @@ narrative_tier_justification: >-
   who prefers Tier 3 for a story that opens with demons on a rock has a defensible position. Widely
   Accepted, not Documented: no independent witness.
 tellable_as: >-
-  A presbyter Martin raised from boyhood storms into the courtyard to call his master's visions
-  ridiculous fancies, repents within the hour - and Martin will not remove him, saying he bears with
+  A presbyter Martin raised from boyhood storms into the courtyard. He calls his master's visions
+  ridiculous fancies, then repents within the hour. Martin will not remove him, saying he bears with
   Brictio the way Christ bore with Judas.
 text: >-
   In the Dialogues, Sulpitius Severus has Gallus tell what happened one day at Martin's own dwelling.
@@ -95,28 +95,29 @@ text: >-
 
   The cause was a rebuke from the day before. Martin had reproved Brictio because a man who had owned
   nothing when he entered clerical office - a man Martin himself had raised in the monastery - was now
-  buying horses and slaves, including, many said, boys bought from beyond the frontier and girls chosen
-  for their looks. Trembling, pale with rage, Brictio poured out sinful words: he claimed to be the
-  holier man, since he had grown up inside the Church from boyhood, while Martin had spent his early
-  years as a soldier and had now, Brictio said, sunk into baseless superstition and ridiculous fancies
-  about visions. He said worse things too, Gallus adds, better left unmentioned, and nearly raised his
-  hand against Martin. Martin, calm in face and mind, tried to calm the raging man with gentle words.
+  buying horses and slaves. Many said the slaves included boys bought from beyond the frontier and
+  girls chosen for their looks. Trembling, pale with rage, Brictio poured out sinful words. He claimed
+  to be the holier man, since he had grown up inside the Church from boyhood, while Martin had spent
+  his early years as a soldier. Martin had now, Brictio said, sunk into baseless superstition and
+  ridiculous fancies about visions. He said worse things too, Gallus adds, better left unmentioned, and
+  nearly raised his hand against Martin. Martin, calm in face and mind, tried to calm the raging man
+  with gentle words.
 
   Brictio walked out feeling he had won his point. But he quickly turned back the way he had come - the
   demons, Gallus believes, driven from his heart by Martin's own prayers. He threw himself at Martin's
   feet, begged for pardon, confessed his fault, and admitted that a demon had taken hold of him. Martin
   forgave him without any difficulty. Martin then told Brictio, and everyone else, that he had seen the
-  demons driving him on, and that the insults had not touched him - if anything, they had hurt the man
-  who spoke them more than they had hurt Martin.
+  demons driving him on, and that the insults had not touched him. If anything, he said, the insults
+  had hurt Brictio more than they had hurt Martin.
 
   Afterward, Gallus says, whenever this same Brictio was accused of serious wrongdoing, Martin would not
   remove him from the presbyterate. He did not want anyone to suspect him of avenging his own injury,
   and he often gave his reason: he bore with Brictio the way Christ had borne with Judas.
 absent_detail: >-
   Brictio's own side is never heard; every word of his is reported by men hostile to him. Our own
-  evidence does not say what became of him - the record ends at "Martin could not be induced to remove
-  him from the presbyterate" - and a participant who knows from elsewhere that a Brictius later held
-  the see of Tours must be told plainly that nothing in our vendored text says so.
+  evidence does not say what became of him - the record ends at Martin's own refusal to remove him from
+  the presbyterate - and a participant who knows from elsewhere that a Brictius later held the see of
+  Tours must be told plainly that nothing in our vendored text says so.
 modern_contrast: >-
   A modern reader expects the corrupt cleric to be removed, and reads patience with him as cover-up.
   The tradition's own reason for Martin's patience is stated in the text - "lest he should be suspected

@@ -35,7 +35,7 @@ retrieval:
   - "participant wants the whole episode told as a story - retrieve gallic.story.circuses-amid-the-ruins, which this record is drawn from"
 text: >-
   This can be quickly tested by the example of the greatest city of Gaul, three times destroyed by
-  successive captures, ... yet when the whole city had been burned to the ground, its wickedness increased
+  successive captures, yet when the whole city had been burned to the ground, its wickedness increased
   even after its destruction. ... Some perished of hunger, others of nakedness, some wasting away,
   others paralyzed with cold, and so all alike by diverse deaths hastened to the common goal. ... There lay
   all about the torn and naked bodies of both sexes, a sight that I myself endured. ... lacerated by
@@ -69,14 +69,35 @@ Verified against cic/texts/salvian_on-the-government-of-god_sanford1930.txt. `gr
 destroyed"` returns one hit, line 8242; `grep -n "torn and naked"` returns one hit, line 8255-8256;
 `grep -n "death breathed out death"` returns one hit, line 8259. Read lines 8226-8261 directly.
 
-Three ellipses mark omitted material within the same numbered section, VI.15: between "increased even
-after its destruction" and "Some perished of hunger" the source lists (not flagged for this record) the
-causes of death by sack-related disaster generally, which the quoted "so all alike by diverse deaths"
-already summarizes; between "hastened to the common goal" and "There lay all about" the source opens a
-new paragraph ("Worse than all this, other cities suffered..."); and between "a sight that I myself
-endured" and "lacerated by birds and dogs" the source has "These were a pollution to the eyes of the
-city, as they lay there," which the flagged span itself already skips with its own ellipsis - "lacerated
-by birds and dogs" is retained, exactly as the flagged span has it.
+The three remaining ellipses mark omitted material within the same numbered section, VI.15: between
+"increased even after its destruction" and "Some perished of hunger" the source lists (not flagged for
+this record) the causes of death by sack-related disaster generally, which the quoted "so all alike by
+diverse deaths" already summarizes; between "hastened to the common goal" and "There lay all about" the
+source opens a new paragraph ("Worse than all this, other cities suffered..."); and between "a sight
+that I myself endured" and "lacerated by birds and dogs" the source has "These were a pollution to the
+eyes of the city, as they lay there," which the flagged span itself already skips with its own
+ellipsis - "lacerated by birds and dogs" is retained, exactly as the flagged span has it.
+
+Correction (2026-09-25): a prior pass also placed "..." between "successive captures," and "yet when
+the whole city had been burned to the ground," reading it as a fourth omission. It is not one. At that
+exact point the vendored file (line 8242) has "three times destroyed by successive captures,'' yet
+when the whole city..." - the stray curly close-quote glyph (’’) glued directly onto "captures," is
+Sanford's own superscript footnote marker (note 52) mangled by OCR, not a quotation mark and not a
+gap. Read with the artifact removed, the sentence runs on unbroken: "three times destroyed by
+successive captures, yet when the whole city had been burned to the ground, its wickedness increased
+even after its destruction." The "..." there falsely implied a real cut; it has been removed and the
+clause rejoined. No content was ever omitted at that point.
 
 Normalization: line breaks and page-break hyphenation joined; footnote markers dropped. No word was
 added, dropped, substituted, or reordered within any quoted phrase.
+
+Known gate limitation, disclosed rather than papered over: at this exact spot the vendored file's own
+OCR rendered that footnote marker as a bare curly right-quote (U+201D) glued directly to "captures,"
+with no matching open quote nearby - unlike this file's other footnote-marker renderings (a bare
+double asterisk, or an asterisk plus a registered-trademark glyph, both now recognized fleet-wide for
+this edition via `cic/texts/REGISTRY.yaml`), a bare closing curly quote is not a safe pattern to strip
+edition-wide: this file also carries 41 real opening curly quotes and uses closing curly quotes
+legitimately elsewhere for real quoted speech, so a blanket rule risks silently swallowing genuine
+quotation marks. `engine.m1.quote_verbatim.gate_quote_verbatim` will therefore still report this one
+record as unverified at this exact character until a narrower, edition-specific rule is designed and
+evidenced for it - the `text` field above is nonetheless the correct, human-verified reading.

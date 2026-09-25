@@ -74,19 +74,19 @@ narrative_tier_justification: >-
   reception fact: event and tradition Egyptian; collection, translation, and adaptation (with the
   Gallic Gloria at its close, Inst. II.8) the southern node's own.
 tellable_as: >-
-  The fathers of Egypt, arguing whether the daily psalms should be fifty or sixty, are interrupted by
-  the Vesper hour; one rises to sing, finishes the twelfth psalm with Alleluia, and vanishes - and the
-  number is fixed forever, not by any monk but by an angel.
+  The fathers of Egypt argue whether the daily psalms should be fifty or sixty. The Vesper hour
+  interrupts them. One father rises to sing, finishes the twelfth psalm with Alleluia, and vanishes.
+  The number is fixed forever, not by any monk but by an angel.
 text: >-
   The tradition Cassian handed on to Gaul tells how the number of the psalms was fixed - not by any
   monk, but by an angel.
 
   In the early days of the faith, the fathers of Egypt say, only a handful of men, and the best of
-  them, were known by the name of monks. They had received that way of life from the Evangelist Mark,
-  and kept the pattern of the first believers in Jerusalem - one heart and one soul, all things held in
-  common - and withdrew outside the cities to a life of such abstinence that even unbelievers
-  marvelled. At that time, while the primitive Church's perfection still stood whole, and the few who
-  held the faith had not yet grown lukewarm by being spread thin among the many, the elder fathers met
+  them, were known by the name of monks. They had received that way of life from the Evangelist Mark.
+  They kept the pattern of the first believers in Jerusalem - one heart and one soul, all things held
+  in common - and withdrew outside the cities to a life of such abstinence that even unbelievers
+  marvelled. At that time the primitive Church's perfection still stood whole, and the few who held
+  the faith had not yet grown lukewarm by being spread thin among the many. So the elder fathers met,
   with careful concern for those who would come after them, to settle a plan for the daily worship of
   the whole community (gallic.quote.the-fathers-and-the-angels-twelve).
 
@@ -98,15 +98,15 @@ text: >-
   question was settled.
 
   So they stopped to sing. One father rose to chant the psalms. As the others sat listening, intent on
-  every word, he sang eleven psalms, each one followed by its own prayer, evenly and steadily - and
-  then finished the twelfth with a response of Alleluia. At that moment he vanished from everyone's
-  sight, and with him went both the discussion and the service.
+  every word, he sang eleven psalms, each one followed by its own prayer, evenly and steadily. Then he
+  finished the twelfth with a response of Alleluia. At that moment he vanished from everyone's sight,
+  and with him went both the discussion and the service.
 
   The fathers understood this as Providence at work: a general rule fixed for every congregation of
-  brothers, through the angel's own act, and they decreed that the number should hold for both the
-  evening and the night offices from then on. They later added two readings, one from the Old Testament
-  and one from the New - but only as extras, of their own choosing. The twelve themselves were never
-  theirs to choose.
+  brothers, through the angel's own act. They decreed that the number should hold for both the evening
+  and the night offices from then on. They later added two readings, one from the Old Testament and
+  one from the New - but only as extras, of their own choosing. The twelve themselves were never theirs
+  to choose.
 absent_detail: >-
   No witness to the angel is named; Cassian himself refers the reader elsewhere for the background.
   Nothing in our record says what the brethren at Tours sang or at what hours - Martin's monastery has

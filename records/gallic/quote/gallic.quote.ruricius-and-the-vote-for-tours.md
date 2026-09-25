@@ -19,7 +19,7 @@ confidence:
     objecting bishops is his own perspective, disclosed as such.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. IX (npnf211 div ii.ii.x, file lines 1058-1083): Ruricius's pretext, the posted crowd, the vote, and the bishops' resistance"
+  locus: "Life of St. Martin ch. IX (npnf211 div ii.ii.x, file lines 1059-1083): Ruricius's pretext, the posted crowd, the vote, and the bishops' resistance"
   license: public-domain
 retrieval:
   tier: 1

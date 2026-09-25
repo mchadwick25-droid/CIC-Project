@@ -61,10 +61,10 @@ modern_lens_note: >-
 modern_rendering: >-
   Then the tyrant flew into a rage at these words. He declared that Martin was leaving the army out of
   fear of the battle set for the next day, not out of any religious feeling. But Martin was full of
-  courage. The danger put before him made him all the more determined. He cried out: "If what I am
-  doing is put down to cowardice and not to faith, I will stand unarmed in front of the battle line
-  tomorrow. In the name of the Lord Jesus, guarded by the sign of the cross and not by shield or
-  helmet, I will pass safely through the enemy ranks." So he was ordered to be thrown back into
+  courage. The danger put before him made him all the more determined. He cried out: "Is what I am
+  doing put down to cowardice and not to faith? If so, I will stand unarmed in front of the battle
+  line tomorrow. In the name of the Lord Jesus, I will pass safely through the enemy ranks. I will be
+  guarded by the sign of the cross, not by shield or helmet." So he was ordered to be thrown back into
   prison, set on proving his words true by facing the barbarians unarmed. But the next day the enemy
   sent envoys to discuss peace. They surrendered themselves and everything they owned. Given all this,
   who can doubt that this victory was due to the holy man? He was granted this: he would not be sent

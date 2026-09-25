@@ -64,7 +64,7 @@ modern_rendering: >-
   their bites? We know, of course, that you long to be with Christ. But your reward in heaven is
   safe. Waiting will not make it any smaller. Have pity on us instead, for you are leaving us
   alone and without comfort." Martin was moved by their laments, for he was truly always full of compassion. He is said
-  to have burst into tears. He turned to the Lord and gave those weeping around him only this
+  to have burst into tears. He turned to the Lord. To those weeping around him he gave only this
   answer: "O Lord, if your people still need me, I do not shrink from the work. Your will be done."
 ---
 Verified verbatim against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n

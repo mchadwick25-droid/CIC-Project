@@ -87,8 +87,8 @@ modern_rendering: >-
   with Ithacius every day and had made common cause with him. They were not expecting news that Martin
   was coming. When it came, they lost all courage and began to mutter and tremble among themselves.
   Under their influence, the emperor had already decided to send some tribunes with absolute power into
-  the two Spains. They were to search out heretics and, once they found them, take their lives or their
-  goods. There was no doubt that this storm would also wreck great numbers of truly holy people. Little
+  the two Spanish provinces. They were to search out heretics and, once they found them, take their
+  lives or their goods. There was no doubt that this storm would also wreck great numbers of truly holy people. Little
   care would be taken to tell one kind of person from another. At such times people were judged by
   appearances alone. A man was judged a heretic for turning pale with fear, or for wearing certain
   clothes, rather than by the faith he professed. The bishops knew well that Martin would never approve

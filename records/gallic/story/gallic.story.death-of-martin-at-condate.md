@@ -93,43 +93,43 @@ narrative_tier_justification: >-
   rather than Documented because one author's letter, on others' testimony, is not multiple independent
   sources.
 tellable_as: >-
-  Foreknowing his death, Martin goes to make peace among quarrelling clerics, sickens, and refuses straw
-  for his bed of sackcloth and ashes rather than set his disciples a softer example - and is carried to
-  burial by two thousand monks, old men and young soldiers of Christ, and a choir of virgins.
+  Foreknowing his death, Martin goes to make peace among quarrelling clerics. He sickens, and refuses
+  straw for his bed of sackcloth and ashes rather than set his disciples a softer example. He is
+  carried to burial by two thousand monks, old men and young soldiers of Christ, and a choir of virgins.
 text: >-
-  Sulpitius Severus wrote to Bassula, his mother-in-law, then living at Treves, who had complained that
+  Sulpitius Severus wrote to Bassula, his mother-in-law, then living at Treves. She had complained that
   his earlier letter announcing Martin's death had not described the death itself. He tells her - with
   mock outrage at how his private writings keep reaching her - that she should really ask the people
-  who were there when he died, and then gives her, on condition she read it to no one, the particulars
+  who were there when he died. Then, on condition she read it to no one, he gives her the particulars
   he knows himself.
 
   Martin, Sulpitius says, had long known when his own death was coming, and had told the brethren so.
-  Then a reason arose for him to visit the church at Condate, whose clerics "were at variance among
-  themselves"; he went to make peace, knowing his own end was near, and judging that restoring peace to
+  A reason then arose for him to visit the church at Condate, whose clerics "were at variance among
+  themselves." He went to make peace, knowing his own end was near. He judged that restoring peace to
   one more church would be a fitting close to his life. On the road, Sulpitius also tells of Martin
   commanding a flock of water-fowl to leave a river, turning on them the very same power he had always
   used against demons.
 
-  Peace restored, and about to return to his monastery, his strength suddenly began to fail, and he
+  Peace restored, and about to return to his monastery, his strength suddenly began to fail. He
   gathered the brethren to tell them his end was near. They wept, begging him not to leave them
   defenseless against the "fierce wolves" that would attack the flock once its shepherd was gone.
-  Martin, always moved to compassion, is said to have wept himself, then turned to the Lord with the one
-  prayer the letter records: he would not shrink from more toil if he was still needed, but left the
-  decision to God's own will. Sulpitius then stretches this single prayer into a longer soldier's speech
-  he imagines for Martin, picturing him ready to keep serving under God's standard for as long as he is
-  commanded.
+  Martin, always moved to compassion, is said to have wept himself. He then turned to the Lord with the
+  one prayer the letter records: he would not shrink from more toil if he was still needed, but left
+  the decision to God's own will. Sulpitius then stretches this single prayer into a longer soldier's
+  speech he imagines for Martin, picturing him ready to keep serving under God's standard for as long
+  as he is commanded.
 
   For some days he lay in a strong fever, "in supplications and watchings through whole nights," on
-  "his glorious couch upon sackcloth and ashes." When his disciples begged him to let them put some
-  common straw under him, he refused: it was not fitting, he said, for a Christian to die except among
-  ashes, and he would be sinning if he left them a different example. He kept his hands and eyes turned
-  toward heaven; when the presbyters asked him to ease his body by turning onto his side, he asked them
-  instead to let him keep his eyes on heaven rather than earth, so that his departing spirit would be
-  turned toward the Lord. Then, the witnesses said, he saw the devil standing near and rebuked him
-  without fear, sure the devil would find nothing to claim in him and that Abraham's bosom awaited him
-  instead. As he spoke, his spirit left his body; those present testified that his face looked like an
-  angel's, and his limbs turned white as snow, so that onlookers said they could hardly believe a man
-  clothed in sackcloth and ashes could look like that.
+  "his glorious couch upon sackcloth and ashes." His disciples begged him to let them put some common
+  straw under him. He refused: it was not fitting, he said, for a Christian to die except among ashes,
+  and he would be sinning if he left them a different example. He kept his hands and eyes turned toward
+  heaven. When the presbyters asked him to ease his body by turning onto his side, he asked instead to
+  keep his eyes on heaven rather than earth, so that his departing spirit would be turned toward the
+  Lord. Then, the witnesses said, he saw the devil standing near and rebuked him without fear, sure the
+  devil would find nothing to claim in him and that Abraham's bosom awaited him instead. As he spoke,
+  his spirit left his body. Those present testified that his face looked like an angel's, and his limbs
+  turned white as snow, so that onlookers said they could hardly believe a man clothed in sackcloth and
+  ashes could look like that.
 
   Of the funeral, at the city his body was brought to, Sulpitius writes that the whole city, and people
   from the surrounding villages and towns, poured out to meet the body. The monks alone are said to
@@ -137,10 +137,10 @@ text: >-
   legacy, so many lives shaped by his example. The shepherd drove his own flocks before him: old men
   whose work was finished, young soldiers newly sworn to Christ, and a choir of virgins who kept their
   grief modestly unshown. Faith forbade tears and affection forced out groans; each person, Sulpitius
-  says, would rather grieve himself than see another do so. Where the great men of this age lead
-  captives bound before their chariots, Sulpitius says, Martin's own followers walked free, people he
-  had led to overcome the world with him - and, he adds, already in his own time, Martin is praised in
-  the church's psalms and hymns.
+  says, would rather grieve himself than see another do so. He closes with a contrast of his own: where
+  the great men of this age lead captives, bound, before their chariots, those who followed Martin had
+  overcome the world under his guidance, not been dragged behind him in chains. This funeral, he says,
+  was Martin's own triumph, sung that day in psalm and hymn.
 absent_detail: >-
   The letter never names the city the body was brought to; Sulpitius was not present at the death; the
   numbers at the funeral are report. The "choir of virgins" is the only trace of the women who chose
@@ -156,8 +156,6 @@ modern_contrast: >-
   tense.
 ---
 Sourced from Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii), Sulpitius Severus's
-own account of Martin's death at Condate and burial, written within months of the event. Quoted
-material formerly carried directly in this record's own `text` and `tellable_as` fields has been
-extracted into standalone `gallic.quote.*` records (see `relations`), each independently verified
-against the vendored source; this record now paraphrases those moments in its own voice and points to
-them.
+own account of Martin's death at Condate and burial, written within months of the event. This record
+paraphrases that letter in its own voice; the letter's own wording, verified against the vendored
+source, is carried in full in the `gallic.quote.*` records named in `relations`.

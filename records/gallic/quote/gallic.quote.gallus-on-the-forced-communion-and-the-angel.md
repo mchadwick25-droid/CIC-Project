@@ -104,8 +104,8 @@ modern_rendering: >-
   fault. When these arguments hardly moved Martin, the king grew furious and hurried out of his presence.
   Without delay, executioners were appointed for the people Martin had pleaded for. When Martin learned
   of this, he rushed to the palace, though it was already night. He promised that if these people were
-  spared, he would take communion. He asked only that the tribunes already sent to the Spains to destroy
-  the churches be called back. There was no delay: Maximus granted everything he asked. The next day, the
+  spared, he would take communion. He asked only that the tribunes already sent to the Spanish
+  provinces to destroy the churches be called back. There was no delay: Maximus granted everything he asked. The next day, the
   ordination of Felix as bishop was being arranged. Felix was without doubt a man of great holiness,
   truly worthy of being made a priest in happier times. Martin took part in the communion that day. He
   judged it better to give way for the moment than to ignore the safety of those with a sword hanging

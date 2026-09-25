@@ -29,7 +29,7 @@ retrieval:
   prefer_instead:
   - "participant wants Cassian's own description of Archebius rather than his speech - retrieve gallic.quote.archebius-carried-off-to-panephysis instead, or alongside"
 text: >-
-  See in the meanwhile the old men who live not far from our monastery, the length of whose service is
+  "Come," said he, "see in the meanwhile the old men who live not far from our monastery, the length of whose service is
   shown by their bent bodies, as their holiness shines forth in their appearance, so that even the mere
   sight of them will give a great lesson to those who see them: and from them you can learn not so much
   by their words as by the actual example of their holy life, what I grieve that I have lost, and
@@ -44,13 +44,13 @@ modern_lens_note: >-
   his own teaching, only the sight of men who still have it. The office is framed here as a poverty he
   cannot undo, not a platform he uses.
 modern_rendering: >-
-  Meanwhile, go and see the old men who live not far from our monastery. Their bent bodies show how
+  "Come," he said, "see, meanwhile, the old men who live not far from our monastery. Their bent bodies show how
   long they have served. Their holiness shines out in how they look. Even the mere sight of them will
   teach a great lesson to those who see them. From them you can learn what I grieve that I have lost.
   You will learn it less from their words than from the real example of their holy life. Having lost
   it, I cannot give it to you. But I think this eagerness of mine will ease my poverty a little. It
-  will, if I at least show you where you can easily get that pearl of the Gospel you are seeking,
-  which I do not have.
+  will, if I at least show you where you can easily get that pearl of the Gospel. You are seeking it,
+  and I do not have it.
 relations:
 - type: associated-with
   target: gallic.story.bishop-archebius

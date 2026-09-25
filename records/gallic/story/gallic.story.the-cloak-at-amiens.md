@@ -18,9 +18,11 @@ confidence:
     independent witness inside our own Native corpus; Inferential-Thin for the specific event and for
     the dream-vision that follows it. Sulpitius did not witness any of this: he met Martin decades
     later and says he had his information "partly from himself ... and partly from those who had lived
-    with him" (Vita ch. XXV). Roberts's identification of the city as Amiens ("Ambianensium civitas")
-    and his Matt. xxv. 40 reference are editorial (Registry row 17), not Sulpitius's text. Every quoted
-    phrase was read at its own locus (npnf211 div ii.ii.iii-iv) at Doc_09 construction.
+    with him" (Vita ch. XXV). "The city of Amiens" is Roberts's own main text, naming Sulpitius's
+    "Ambianensium civitas" directly rather than leaving it untranslated - quoted here as part of that
+    main text, not from the endnote (which separately notes the identification as traditional). Roberts's
+    Matt. xxv. 40 cross-reference is editorial apparatus (Registry row 17), not Sulpitius's text. Every
+    quoted phrase was read at its own locus (npnf211 div ii.ii.iii-iv) at Doc_09 construction.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
   locus: 'Life of St. Martin chs. II-III (npnf211 div ii.ii.iii-ii.ii.iv): the servant served; the beggar at the gate; the sword and the halved cloak; the laughing and groaning bystanders; the vision; baptism at twenty; two further years in the army "although but in name"'
@@ -72,27 +74,27 @@ narrative_tier_justification: >-
   "documented" cloak from a "hagiographic" vision would cut the story against its own author's grain.
   The tier is assigned to the story as told, not to a fragment of it.
 tellable_as: >-
-  A catechumen soldier with nothing left but his cloak cuts it in two for a naked beggar at a city
-  gate, and that night sees Christ wearing the half he gave away.
+  A catechumen soldier has nothing left but his cloak. He cuts it in two for a naked beggar at a
+  city gate. That night he sees Christ wearing the half he gave away.
 text: >-
   This is how the tradition of Tours remembers the beginning of Martin - what it believed a life
   already turned toward God could look like inside a soldier's uniform, before any monastery existed
   in Gaul.
 
   Sulpitius tells that Martin, the son of a military tribune, was seized on his father's information
-  and put in chains at fifteen and made to take the military oath, and that even then he kept only one
-  servant, and served that servant - drew off his boots and cleaned them with his own hand, and at
-  their meals acted the part of servant to his own attendant rather than master. By his fellow
-  soldiers' own account, he was thought of less as a soldier than as a monk (Sulpitius's own wording for
+  and put in chains at fifteen and made to take the military oath. Even then he kept only one
+  servant, and served that servant instead: he drew off his boots and cleaned them with his own hand,
+  and at their meals he acted the part of servant to his own attendant rather than master. Even then,
+  people thought of him less as a soldier than as a monk (Sulpitius's own wording for
   all of this is kept in gallic.quote.the-soldier-who-served-his-servant). He was not yet baptized; he
   was a catechumen, and out of his pay he kept back only what he needed for the day, giving the rest
   away.
 
   Then one winter - a harder winter than usual, one that was proving fatal to many from the cold -
   Martin, who by then had nothing left but his weapons and his plain uniform, met a poor man at the
-  city gate with no clothes at all, begging from everyone who passed, and everyone passed him by.
-  Martin saw that no one else would show the man pity, and understood that left it to him. He had
-  nothing left to give but the cloak on his back - he had already given away the rest of his clothes
+  gate of the city of Amiens. The man had no clothes at all. He was begging from everyone who passed,
+  and everyone passed him by. Martin saw that no one else would show the man pity, and understood that
+  it was left to him to act. He had nothing left to give but the cloak on his back - he had already given away the rest of his clothes
   the same way. So he drew his sword, cut the cloak into two equal halves, gave one to the poor man,
   and put the other back on himself. Some of the bystanders laughed at the half-dressed soldier.
   Others, with more sense, felt ashamed that they, who had more than Martin, had never done anything
@@ -109,8 +111,7 @@ text: >-
 absent_detail: >-
   Sulpitius's text says nothing of a relic, a chapel, or the cloak's later fate - it says only that
   Martin was baptized and stayed a soldier in name for two more years. The text gives no year for the
-  event and no name for the beggar; the city's name is Roberts's editorial identification, not
-  Sulpitius's own words.
+  event and no name for the beggar.
 modern_contrast: >-
   A modern reader is likely to know this story through later art and the medieval cult of the cappa -
   a relic, a chapel, a word. Nothing of that is in the tradition as Tours first told it. What the
@@ -118,10 +119,11 @@ modern_contrast: >-
   material act of charity, Christ attests it, and the man is "not puffed up" - the point being that he
   went and was baptized and quietly served out his term, not that a relic was born.
 ---
-"At the gate of the city" leaves out "of Amiens": the translation's own main text supplies that name,
-but it renders Sulpitius's Latin "Ambianensium civitas," so it is treated here as the translator's own
-identification rather than Sulpitius's own word (see the confidence block's divergence_note and
-absent_detail above). The id keeps "amiens" as a stable technical identifier regardless.
+"The city of Amiens" is part of the translation's own main text (npnf211, the sentence naming where
+Martin met the beggar), not its endnote - it is quoted here in full, along with everything else the
+main text says. The endnote at that point only glosses the underlying Latin ("Ambianensium civitas")
+and an alternate ancient name (Samarobriva); it is not itself quoted. The id keeps "amiens" as a
+stable technical identifier regardless.
 
 Martin's conduct as a soldier before the cloak, and the cloak-and-vision scene itself, are carried in
 full, verbatim, in gallic.quote.the-soldier-who-served-his-servant and

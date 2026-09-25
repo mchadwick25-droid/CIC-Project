@@ -108,39 +108,30 @@ relations:
 name: "Received, not invented: antiquity, the Fathers, and consent against novelty [PRIMARY]"
 classification: primary
 description: >-
-  Antiquity, the Fathers, and consent as the test of legitimacy, against novelty - applied by all
-  three founding voices to monastic custom, doctrine, and cult alike. Cassian holds that allegiance is
-  owed not to customs a few people have introduced, but to what a long-standing antiquity and the
-  holy fathers have passed on by common agreement (Inst. I.2); he calls his own Institutes not his but
-  the fathers' (Conf. Pref. I); and he holds up the monk who trusted his own judgment over the
-  Elders' tradition, and in the end forsook the desert, as a warning (Conf. II.24). Vincent: the
-  Catholic faith is what has been believed everywhere, always, by all - tested by universality,
-  antiquity, and consent (Comm. ch. 2); he quotes Pope Stephen's own rule that there should be no
-  innovation, nothing but what has been handed down (ch. 6); and he holds that a guardian of doctrine
-  is not an author but a keeper, not a teacher but a disciple, not a leader but a follower (ch. 22).
-  Sulpitius: Martin, asked to venerate a supposed martyr's tomb, would not lend his own authority to
-  popular opinion, because no reliable tradition about it reached back to antiquity (Vita XI). AUTHOR
-  GRAVITY FLAG AT GENERATION (Doc_04 §2.1): none - three voices, both nodes. SIX-TEST SUMMARY (Doc_04
-  §3): passes all six - Repetition (S, C, V); Dependency (G2's reception logic runs on it, G3 is
-  argued through it, Vincent's entire method is it, Doc_03's 3.3/3.4/7.2/7.3 cluster depends on it);
-  Formation (the disciple formed by 'the traditions of the Elders,' the Catholic by being 'not an
-  author but a keeper,' Martin's scruple modelling it); Explanatory (why Cassian will not invent a
-  Rule, why Vincent writes a Commonitory rather than a treatise, why Martin tests a cult, why the
-  grace position is defended as antiquity); Persistence across both nodes, three voices, monastic and
-  doctrinal registers; Interaction full - no '-' cell. CROSS-NODE: confirmed (weight south). Doc_03
-  entry 7.3 had already found this cluster to be the strongest lexical link between Vincent's
-  doctrinal method and Cassian's monastic method, and between both and Martin; the gravity tests
-  confirm the lexical finding is an organizing one. CONFIDENCE/GRAVITY CROSS-CHECK: Documented; no
-  divergence. FORCES NOTATION (Doc_04 §3, as corrected by Doc_08 3B-3): held and intensified - the
-  implication read out of On Rebuke and Grace was refused AS novelty; Cassian's 'all the Catholic
-  fathers' (XIII.18) and Vincent's 'profane novelties' work as the same instrument turned on the same
-  pressure; under the grace controversy the gravity hardened into a formal rule (434), three years
-  after Ephesus supplied its model case; under barbarian pressure it did not visibly shift. Its
-  fracture is not post-window as Doc_04 carried it but in-window, in the ecology's outward relation -
-  a boundary drawn by consent invited a contest over who held the consent: Prosper's report that the
-  Massilians 'defend their obstinacy by antiquity,' Celestine's 'let novelty cease to assail antiquity'
-  as the editors read it, and Vincent reading the same letter for his own side (Comm. ch. 32 [85]).
-  From within, the rule held firm to the end.
+  Antiquity, the Fathers, and consent are the test of legitimacy, set against novelty - applied by all
+  three founding voices to monastic custom, doctrine, and cult alike.
+
+  Cassian holds that allegiance is owed not to customs a few people have introduced, but to what a
+  long-standing antiquity and the holy fathers have passed on by common agreement (Inst. I.2). He calls
+  his own Institutes not his but the fathers' (Conf. Pref. I). And he holds up, as a warning, the monk
+  who trusted his own judgment over the Elders' tradition and in the end forsook the desert (Conf.
+  II.24).
+
+  Vincent holds that the Catholic faith is what has been believed everywhere, always, by all - tested
+  by universality, antiquity, and consent (Comm. ch. 2). He quotes Pope Stephen's own rule that there
+  should be no innovation, nothing but what has been handed down (ch. 6). And he holds that a guardian
+  of doctrine is not an author but a keeper, not a teacher but a disciple, not a leader but a follower
+  (ch. 22).
+
+  Sulpitius tells that Martin, asked to venerate a supposed martyr's tomb, would not lend his own
+  authority to popular opinion, because no reliable tradition about it reached back to antiquity (Vita
+  XI).
+
+  This same standard also became a battleground. Prosper reports that the Massilians defended their
+  own obstinacy by antiquity; Celestine, as later editors read him, answered that novelty must cease
+  to assail antiquity; and Vincent read that same letter for his own side (Comm. ch. 32). The rule that
+  was meant to settle disputes became, in the grace controversy, one more thing both sides claimed for
+  themselves.
 manifestations:
 - "Inst. I.2 on sackcloth: 'unhesitating allegiance and unquestioning obedience' owed to what 'a long standing antiquity and numbers of the holy fathers have passed on by an unanimous decision'"
 - "'The Institutes which are not mine but the fathers'' (Conf. Pref. I); the office 'no appointment of man's invention' (Inst. II.3-4); the number of psalms bound because an angel sang it to the fathers"
@@ -151,12 +142,10 @@ manifestations:
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Vincent of
 Lérins, Sulpitius Severus) and, for the Massilian contest over antiquity, the same edition's own
-editorial apparatus (Heurtley's Appendices). The direct quotations formerly carried inline in this
-record's description have been extracted into their own verified quote records -
+editorial apparatus (Heurtley's Appendices). This description paraphrases the primary sources in its
+own voice; their verbatim wording, locus, and speaker attribution are each carried in full in
 gallic.quote.antiquity-and-the-fathers-unanimous-decision,
 gallic.quote.institutes-not-mine-but-the-fathers, gallic.quote.benjamin-relied-on-his-own-judgment,
 gallic.quote.believed-everywhere-always-by-all, gallic.quote.pope-stephen-no-innovation,
-gallic.quote.not-an-author-but-a-keeper, and gallic.quote.martin-and-the-unattested-tomb - each
-carrying its own verbatim text, locus, and speaker attribution; this record's own description now
-paraphrases those moments in its own voice, keeping the citation apparatus. Canon_cells left empty,
-matching fleet convention for gravity/force records.
+gallic.quote.not-an-author-but-a-keeper, and gallic.quote.martin-and-the-unattested-tomb. Canon_cells
+left empty, matching fleet convention for gravity/force records.

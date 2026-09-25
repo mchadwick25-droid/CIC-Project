@@ -34,7 +34,7 @@ retrieval:
   - "participant wants the corpses and the aftermath - retrieve gallic.quote.salvian-on-the-unburied-dead"
   - "participant wants the whole episode told as a story - retrieve gallic.story.circuses-amid-the-ruins, which this record is drawn from"
 text: >-
-  The few men of rank who had survived destruction demanded of the emperors ... circuses as the sovereign
+  The few men of rank who had survived destruction demanded of the emperors circuses as the sovereign
   remedy for a ruined city. ... Do you, O citizens of Tréves, long for circuses when you have been
   plundered and captured, after slaughter and bloodshed, after stripes and captivity, and the repeated
   destruction of your ruined city? What is more lamentable than this stupidity, more grievous than this
@@ -70,10 +70,20 @@ destruction demanded"` returns one hit, line 8264; `grep -n "citizens of Tr"` re
 8299 (this quote, plural "citizens") and 8319 (singular "citizen," a later, separate address not part
 of this record). Read lines 8263-8306 directly.
 
-The ellipsis marks the omission of Salvian's own extended reflection between the two flagged phrases -
-"O that I might here and now be gifted with eloquence..." through "...though sane, they acted
-senselessly" (roughly 35 lines) - his commentary on why the petition itself is shocking, not part of
-either flagged span.
+The remaining ellipsis marks the omission of Salvian's own extended reflection between "for a ruined
+city." and "Do you, O citizens of Tréves" - "O that I might here and now be gifted with eloquence..."
+through "...though sane, they acted senselessly" (roughly 35 lines) - his commentary on why the
+petition itself is shocking, not part of either flagged span.
+
+Correction (2026-09-25): a prior pass had also placed "..." between "demanded of the emperors" and
+"circuses as the sovereign remedy," reading it as a second omission. It is not one. At that exact
+point the vendored file (line 8264-8265) has "demanded of the emperors ** circuses as the sovereign
+remedy for a ruined city." - the "**" is Sanford's own superscript footnote marker (note 53, on the
+plural "emperors"), rendered by OCR as two glued asterisks with no space. It is apparatus, not a
+gap in the sentence: read with the marker removed, the source runs on as one unbroken clause,
+"demanded of the emperors circuses as the sovereign remedy for a ruined city." The "..." there
+falsely implied a real cut; it has been removed and the clause rejoined. No content was ever
+omitted at that point, so nothing needed re-inserting.
 
 Normalization: line breaks and page-break hyphenation joined; footnote markers dropped; "Tréves" kept
 as the translation spells it (the source's own form of "Trier"). No word was added, dropped,

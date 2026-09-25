@@ -32,7 +32,7 @@ retrieval:
   - "conversation reaches whether human striving earns anything, or where a good will comes from"
   prefer_instead:
   - "participant wants the doctrine argued at full theological depth - retrieve gallic.term.grace, gallic.term.free-will, gallic.term.beginning-of-a-good-will (all [CT])"
-  - "participant wants the two later summary statements from further on in the same Conference - retrieve gallic.quote.chaeremon-on-grace-and-free-will"
+  - "participant wants the two later summary statements from further on in the same Conference - retrieve gallic.quote.chaeremon-grace-requires-our-effort and gallic.quote.chaeremon-three-stages-of-grace"
 text: >-
   Then Germanus: ... it seems to us absurd for the reward of our efforts, i.e., perfect chastity, which
   is gained by the earnestness of one's own toil, not to be ascribed chiefly to the exertions of the man

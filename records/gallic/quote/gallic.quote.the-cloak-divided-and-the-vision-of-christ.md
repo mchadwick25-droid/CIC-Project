@@ -16,16 +16,17 @@ confidence:
     Contested for the narrated event and the vision that follows it - the whole tradition's claim
     about Martin's youth, corroborated by no independent witness inside this world's own Native corpus,
     matching the host record's own divergence_note. The wording itself is Widely Accepted as Sulpitius's
-    text (Vita ch. III, read at its own locus for this record). "At the gate of the city" omits the
-    translation's own "of Amiens" - a translator's rendering of Sulpitius's Latin "Ambianensium civitas"
-    that this world's own No-Tier-5 audit (Doc_09 §4) treats as editorial rather than Sulpitius's own
-    word, matching the host record's own established treatment of the same place-name.
+    text (Vita ch. III, read at its own locus for this record). "The city of Amiens" is Roberts's own
+    main-text rendering of Sulpitius's Latin "Ambianensium civitas," quoted here as part of that main
+    text - the endnote at this point only glosses the underlying Latin and an alternate ancient name
+    ("Samarobriva"); it does not mark "Amiens" itself as editorial or absent from the translation's own
+    sentence, matching the host record's own corrected treatment of the same place-name.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
   locus: "Life of St. Martin ch. III (npnf211 div ii.ii.iv, file lines 766-805): the beggar at the gate, the division of the cloak, and Martin's vision of Christ"
   license: public-domain
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: 'Roberts''s footnote identifying "Ambianensium civitas" with the modern Amiens - editorial, named as such, not adopted into this record''s text'
+  locus: 'Roberts''s footnote glossing "Ambianensium civitas" (Sulpitius''s Latin) and its alternate ancient name "Samarobriva" - editorial, named as such, not the source of the "Amiens" wording, which comes from the main translated text itself'
   license: public-domain
 retrieval:
   tier: 1
@@ -40,8 +41,8 @@ retrieval:
 text: >-
   Accordingly, at a certain period, when he had nothing except his arms and his simple military dress,
   in the middle of winter, a winter which had shown itself more severe than ordinary, so that the
-  extreme cold was proving fatal to many, he happened to meet at the gate of the city ... a poor man
-  destitute of clothing. He was entreating those that passed by to have compassion upon him, but all
+  extreme cold was proving fatal to many, he happened to meet at the gate of the city of Amiens a poor
+  man destitute of clothing. He was entreating those that passed by to have compassion upon him, but all
   passed the wretched man without notice, when Martin, that man full of God, recognized that a being to
   whom others showed no pity, was, in that respect, left to him. Yet, what should he do? He had nothing
   except the cloak in which he was clad, for he had already parted with the rest of his garments for
@@ -102,11 +103,16 @@ title="Chapter III. Christ appears to St. Martin." ... id="ii.ii.iv">` (line 760
 directly: one continuous passage, from "Accordingly, at a certain period..." through "...clothed in
 that poor man."
 
-The ellipsis after "the gate of the city" marks the omission of "of Amiens," the translation's own
-rendering of "Ambianensium civitas" - present in the main translated text, not only in the footnote,
-but treated here as the translator's identification rather than Sulpitius's own word, matching this
-world's existing treatment of the same place-name in gallic.story.the-cloak-at-amiens's own trailer
-(the No-Tier-5 audit rule that no editorial place-name enters narrative as the source's own word).
+Correction (post-PR#579 Opus review): the `text` field previously read "the gate of the city ... a poor
+man," with an ellipsis standing in for "of Amiens." That was wrong. In the source, "of Amiens" sits
+directly in the main translated sentence - "he happened to meet at the gate of the city of Amiens
+<note n="8">...</note> a poor man destitute of clothing" (lines 770-773) - immediately before the
+endnote tag, not inside it. The endnote at that point (note 8) only glosses the underlying Latin place
+name ("Ambianensium civitas") and gives its alternate ancient name ("Samarobriva"); it does not say
+"Amiens" is absent from, or only editorial to, the main text. "The city of Amiens" is Roberts's own
+main-text rendering of Sulpitius's "Ambianensium civitas," and belongs in this record's `text` field
+verbatim, with no ellipsis at that point. The `text` field has been corrected accordingly, matching the
+host record gallic.story.the-cloak-at-amiens's own corrected treatment of the same place-name.
 
 Normalization: line breaks joined with single spaces. The source marks the two spoken lines with a dash
 before an opening curly quotation mark; the first is closed with a curly closing mark, the second is

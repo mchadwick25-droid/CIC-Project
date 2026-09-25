@@ -17,7 +17,7 @@ confidence:
     the wording itself, carried here, is Sulpitius's own characterization.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. XX (npnf211 div ii.ii.xxi, file lines 1562-1565): Sulpitius contrasts the bishops' flattery of Maximus with Martin's own bearing"
+  locus: "Life of St. Martin ch. XX (npnf211 div ii.ii.xxi, file lines 1563-1565): Sulpitius contrasts the bishops' flattery of Maximus with Martin's own bearing"
   license: public-domain
 retrieval:
   tier: 2

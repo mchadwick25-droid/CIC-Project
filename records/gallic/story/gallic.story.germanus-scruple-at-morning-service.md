@@ -66,7 +66,9 @@ relations:
 - type: associated-with
   target: gallic.quote.germanus-and-chaeremon-on-the-husbandman
 - type: associated-with
-  target: gallic.quote.chaeremon-on-grace-and-free-will
+  target: gallic.quote.chaeremon-grace-requires-our-effort
+- type: associated-with
+  target: gallic.quote.chaeremon-three-stages-of-grace
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - stated with care, because this is the story on which the
@@ -120,10 +122,11 @@ text: >-
   forward. (See gallic.quote.germanus-and-chaeremon-on-the-husbandman for Germanus's objection and
   Chaeremon's full answer.)
 
-  That morning's answer grew into the whole Conference. Later in it, Chaeremon returns to the same
-  point twice: that God's grace always works together with human will for its own good, and that
-  exactly how God's action and human free will fit together is more than the human mind can fully grasp.
-  (See gallic.quote.chaeremon-on-grace-and-free-will.)
+  That morning's answer grew into the whole Conference. Later in it, Chaeremon returns to the question
+  twice more: that God's grace works together with human will and still asks something of it in return
+  (see gallic.quote.chaeremon-grace-requires-our-effort), and that grace and free will divide the work
+  between them in three stages, in a way he says is more than the human mind can fully grasp (see
+  gallic.quote.chaeremon-three-stages-of-grace).
 absent_detail: >-
   What the old man actually said about chastity the night before - Conference XII - is not in the
   vendored edition, which marks it "Not translated," so the scruple's occasion is known only from this
@@ -141,7 +144,11 @@ modern_contrast: >-
 "Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
 Germanus here is Cassian's own companion, never Germanus of Auxerre.
 
-The narrative's verbatim wording is carried in three quote records, each re-verified directly against
-the vendored npnf211 file: gallic.quote.germanus-troubled-after-the-nights-teaching (Conferences
-XIII.1), gallic.quote.germanus-and-chaeremon-on-the-husbandman (Conferences XIII.2-3), and
-gallic.quote.chaeremon-on-grace-and-free-will (Conferences XIII.13 and XIII.18).
+The narrative's verbatim wording is carried in four quote records, each re-verified directly against
+the vendored npnf211 file: gallic.quote.germanus-troubled-after-the-nights-teaching (Conference
+XIII.1), gallic.quote.germanus-and-chaeremon-on-the-husbandman (Conference XIII.2-3),
+gallic.quote.chaeremon-grace-requires-our-effort (Conference XIII.13), and
+gallic.quote.chaeremon-three-stages-of-grace (Conference XIII.18) - split from a single prior record,
+gallic.quote.chaeremon-on-grace-and-free-will, which an Opus review of PR #579 found had spliced these
+two non-adjacent passages together with an ellipsis and silently cut XIII.13's own contested synergist
+clause; each now stands as its own independently verified record (2026-09-25).

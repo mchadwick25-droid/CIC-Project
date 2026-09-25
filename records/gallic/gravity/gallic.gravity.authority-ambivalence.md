@@ -107,43 +107,34 @@ relations:
 name: "Ambivalence toward episcopal, synodal, and imperial authority [TENSIONAL]"
 classification: tensional
 description: >-
-  Bishops and synods as both the guarantors of truth and the thing the saint flees; the state as an
-  illegitimate judge in the Church's causes. Tours - the office as the thing fled: bishops resist
-  Martin's election (Vita IX); some of Martin's slanderers, Sulpitius says, turned out to be bishops
-  themselves, though very few (Vita XXVII); before Maximus, Sulpitius writes, apostolic authority held
-  its ground in Martin alone while the priestly dignity around him bowed to the emperor's court (Vita
-  XX); after the forced communion at Trier, Martin never again attended a synod and stayed carefully
-  away from every assembly of bishops for the rest of his life (Dial. III.13); Sulpitius calls it a
-  foul, unheard-of wrong for a secular ruler to sit in judgment on a matter belonging to the Church
-  (Sacred History II.50). Marseilles - the office as temptation and the Pope defied: Cassian's Abbot
-  Moses teaches that the devil can push a man to want holy orders under the pretext of doing good for
-  many people (Conf. I.20); vainglory's 'desire for the priesthood or diaconate' (Inst. XI.14);
-  Archebius 'expelled'; and, as the editor tells it, the Massilians held to their own views even
-  against the authority of the Pope brought to bear on them. Lérins - the counter-valence: Vincent
-  rules that an ancient General Council's decrees should be preferred over the rashness and ignorance
-  of a few (Comm. ch. 3); 'the twofold authority of the Apostolic See' (ch. 32) - and in the same
-  voice he holds that no rank exempts a lone dissenter: whether a teacher is holy and learned, a
-  bishop, a Confessor, or a martyr, a view held against the consent of all is only his own private
-  fancy (ch. 28). AUTHOR GRAVITY FLAG AT GENERATION (Doc_04 §2.1): none - three voices, opposed
-  valences. SIX-TEST SUMMARY (Doc_04 §3): passes all six - Repetition (S, C, V, E); Dependency (G1's
-  whole drama - the monk-bishop made AGAINST bishops' objection and keeping aloof from synods - G3's
-  history of Rome invoked and defied, and G4's enforcement by council depend on it); Formation
-  passes negatively (monks formed to suspect the office and to be made bishops anyway); Explanatory
-  (Martin's Trier stance, the Ithacian episode, Cassian's dedications to bishops who were his
-  readers, Vincent's appeal to Rome, the 'Gallican independence' the editor remarks on); Persistence
-  across nodes holds with opposed valences - the opposition itself is the finding; Interaction passes
-  with one '-' cell. CROSS-NODE: confirmed, OPPOSED VALENCES - Doc_03's [PV] tags at 7.8, 7.10, 8.1
-  borne out at gravity level. CLASSIFICATION: TENSIONAL - 'the persistent counter-pressure to G1: the
-  ecology produces bishops and distrusts the episcopate at once, guards antiquity by councils and
-  flees synods. It prevents the world from being reducible to "a seminary that looked like a
-  monastery."' CONFIDENCE/GRAVITY CROSS-CHECK: no divergence. FORCES NOTATION (Doc_04 §3; Doc_08
-  §5): intensified under every force named - under the political setting it is Martin against
-  Maximus and the Ithacians; under the grace controversy it is Marseilles against Celestine - the
-  gravity's southern valence, defiance of Rome, is produced by that force and is its clearest
-  textual trace; under the consolidation Doc_01 §2.4 describes the tension resolves in one
-  direction - the Lérins network becomes the episcopate it once fled, and the grace argument comes to
-  be carried forward by synodal commission - the register shift that marks the world's ending. This is
-  the gravity whose fracture marks the world's own boundary.
+  Bishops and synods guard the truth, yet the saint keeps fleeing them. The state, in this world's own
+  view, has no right to judge the Church's own causes.
+
+  At Tours, the office is the thing fled. Bishops resist Martin's election (Vita IX). Some of Martin's
+  slanderers, Sulpitius says, turned out to be bishops themselves, though very few (Vita XXVII). Before
+  Maximus, Sulpitius writes, apostolic authority held its ground in Martin alone, while the priestly
+  dignity around him bowed to the emperor's court (Vita XX). After the forced communion at Trier,
+  Martin never again attended a synod, and stayed carefully away from every assembly of bishops for the
+  rest of his life (Dial. III.13). Sulpitius calls it a foul, unheard-of wrong for a secular ruler to
+  sit in judgment on a matter belonging to the Church (Sacred History II.50).
+
+  At Marseilles, the office is both temptation and a defiance of the Pope. Cassian's Abbot Moses
+  teaches that the devil can push a man to want holy orders under the pretext of doing good for many
+  people (Conf. I.20). Vainglory brings a 'desire for the priesthood or diaconate' (Inst. XI.14).
+  Archebius was 'expelled.' And, as the editor tells it, the Massilians held to their own views even
+  against the authority of the Pope brought to bear on them.
+
+  At Lérins, the counter-current runs the other way. Vincent rules that an ancient General Council's
+  decrees should be preferred over the rashness and ignorance of a few (Comm. ch. 3), and names 'the
+  twofold authority of the Apostolic See' (ch. 32). Yet in the same voice, he holds that no rank
+  exempts a lone dissenter: whether a teacher is holy and learned, a bishop, a Confessor, or a martyr,
+  a view held against the consent of all is only his own private fancy (ch. 28).
+
+  This tension never resolves evenly. Guarding antiquity by councils while fleeing synods, and
+  producing bishops while distrusting the office, keeps this world from being reducible to a seminary
+  that looked like a monastery. Over time it tips one way: the Lérins network becomes the very
+  episcopate it once fled, and the argument over grace comes to be carried forward by a synodal
+  commission - a shift that marks this world's own ending.
 manifestations:
 - "Bishops 'impiously offering resistance' to Martin's election (Vita IX); calumniators 'no others than bishops!' (Vita XXVII)"
 - "At Trier, 'the priestly dignity had, with degenerate submissiveness, taken a second place to the royal retinue' (Vita XX); 'a secular ruler should be judge in an ecclesiastical cause' called 'a foul and unheard-of indignity' (SH II.50)"
@@ -154,12 +145,10 @@ manifestations:
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (Sulpitius Severus,
 Vincent of Lérins, John Cassian) and, for the Massilian episode, the same edition's own prolegomena
-(Gibson). The direct quotations formerly carried inline in this record's description have been
-extracted into their own verified quote records - gallic.quote.no-others-than-bishops,
+(Gibson). This description paraphrases the primary sources in its own voice; their verbatim wording,
+locus, and speaker attribution are each carried in full in gallic.quote.no-others-than-bishops,
 gallic.quote.apostolic-authority-in-martin-alone, gallic.quote.aloof-from-assemblies-of-bishops,
 gallic.quote.secular-ruler-judge-in-ecclesiastical-cause,
 gallic.quote.devil-incites-desire-for-holy-office, gallic.quote.massilians-clung-to-their-views,
-gallic.quote.council-over-rashness-and-ignorance, and gallic.quote.private-fancy-of-his-own - each
-carrying its own verbatim text, locus, and speaker attribution; this record's own description now
-paraphrases those moments in its own voice, keeping the citation apparatus. Canon_cells left empty,
-matching fleet convention for gravity/force records.
+gallic.quote.council-over-rashness-and-ignorance, and gallic.quote.private-fancy-of-his-own.
+Canon_cells left empty, matching fleet convention for gravity/force records.

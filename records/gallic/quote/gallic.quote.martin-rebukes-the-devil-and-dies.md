@@ -21,7 +21,7 @@ confidence:
     claims those witnesses reported.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2473-2484): Martin''s rebuke of the devil at his bedside, his death, and the witnesses'' report of his face and limbs'
+  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2474-2484): Martin''s rebuke of the devil at his bedside, his death, and the witnesses'' report of his face and limbs'
   license: public-domain
 retrieval:
   tier: 1

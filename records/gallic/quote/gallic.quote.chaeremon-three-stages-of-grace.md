@@ -1,0 +1,119 @@
+---
+id: gallic.quote.chaeremon-three-stages-of-grace
+world_id: gallic-monastic-ascetic-christianity
+record_type: quote
+schema_version: 2
+status: ready
+register: emic
+canon_cells:
+- F1-I
+- F1-T
+confidence:
+  citation_specificity: A
+  verification_state: verified-direct
+  evidentiary_weight: illustrative
+  formation_confidence: Widely Accepted
+  divergence_note: >-
+    Documented as Cassian's own text (Conference XIII.18, read at its locus for this record). Widely
+    Accepted as Cassian's report of Chaeremon's teaching; its doctrinal content is Contested [CT] for
+    its meaning relative to Augustine and for the fairness of the label "semi-Pelagian" - the same
+    caveat carried by this quote's companion records, gallic.quote.germanus-and-chaeremon-on-the-
+    husbandman and gallic.quote.chaeremon-grace-requires-our-effort, and neither depended on nor
+    resolved here. This record and gallic.quote.chaeremon-grace-requires-our-effort together replace
+    the former gallic.quote.chaeremon-on-grace-and-free-will, which spliced this passage together with
+    the separate Conference XIII.13 teaching (roughly 400 lines earlier) into one quote joined by an
+    ellipsis, with a "For" that implied one taught the other when the source does not connect them that
+    way. Each teaching now stands as its own independently verified record.
+sources:
+- source_id: gallic.source.cassian-conferences-part-ii
+  locus: "Conference XIII.18 (npnf211 div iv.v.iv.xviii, file lines 38601-38624): Chaeremon's three-stage account of the Divine gift - inflaming the desire for good, enabling the practice of virtue, and preserving what is gained, each without destroying free will - and his statement that how grace and free will fit together cannot be fully grasped by the mind and reason of man"
+  license: public-domain
+retrieval:
+  tier: 2
+  retrieve_when:
+  - "participant asks how this world divided grace's work from the will's own part, stage by stage"
+  - "participant asks whether the monks thought they had any real say in their own good actions"
+  prefer_instead:
+  - "participant wants the earlier statement that grace still asks something of the will in return - retrieve gallic.quote.chaeremon-grace-requires-our-effort"
+  - "participant wants the argument's origin and the husbandman analogy - retrieve gallic.quote.germanus-and-chaeremon-on-the-husbandman"
+  - "participant wants the doctrine argued at full theological depth - retrieve gallic.term.grace, gallic.term.free-will"
+text: >-
+  And therefore it is laid down by all the Catholic fathers who have taught perfection of heart not by
+  empty disputes of words, but in deed and act, that the first stage in the Divine gift is for each man
+  to be inflamed with the desire of everything that is good, but in such a way that the choice of free
+  will is open to either side: and that the second stage in Divine grace is for the aforesaid practices
+  of virtue to be able to be performed, but in such a way that the possibilities of the will are not
+  destroyed: the third stage also belongs to the gifts of God, so that it may be held by the persistence
+  of the goodness already acquired, and in such a way that the liberty may not be surrendered and
+  experience bondage. For the God of all must be held to work in all, so as to incite, protect, and
+  strengthen, but not to take away the freedom of the will which He Himself has once given. If however
+  any more subtle inference of man's argumentation and reasoning seems opposed to this interpretation, it
+  should be avoided rather than brought forward to the destruction of the faith (for we gain not faith
+  from understanding, but understanding from faith, as it is written: "Except ye believe, ye will not
+  understand") for how God works all things in us and yet everything can be ascribed to free will, cannot
+  be fully grasped by the mind and reason of man.
+speaker_or_author: "Abbot Chaeremon, as Cassian records him (Conference XIII.18)"
+license: verbatim
+modern_lens_note: >-
+  Chaeremon does not resolve the tension between grace and free will here; he names it as a limit. He
+  lays out three stages - grace kindles the desire for good, grace makes the practice of virtue possible,
+  grace holds what has been gained - and insists at each stage that free will is never destroyed or taken
+  away by it. Yet how the two actually fit together, he says directly, "cannot be fully grasped by the
+  mind and reason of man." The teaching ends in an admitted limit to understanding, not a formula that
+  settles the question, and it warns against trusting "subtle inference" over what "all the Catholic
+  fathers" have taught in practice.
+modern_rendering: >-
+  All the Catholic fathers who have taught the heart's perfection - not through empty arguments but
+  through deed and action - teach this: the first stage of God's gift is that each person is filled with
+  the desire for everything good. Yet free will still remains free to choose either way. The second stage
+  of grace makes it possible to practice that virtue. Yet the will's own power to choose is not destroyed.
+  The third stage is also God's gift: it lets a person hold on to the goodness already gained. Yet freedom
+  is not surrendered or made a slave. The God of all must be understood to work in everyone - to spur,
+  protect, and strengthen. But he does not take away the freedom of will he himself once gave. If a more
+  subtle human argument or reasoning seems to oppose this view, set it aside rather than let it destroy
+  the faith. (We do not gain faith from understanding; we gain understanding from faith, as scripture
+  says: "Unless you believe, you will not understand.") How God works all things in us, and yet everything
+  can be credited to free will - this the human mind and reason cannot fully grasp.
+relations:
+- type: associated-with
+  target: gallic.story.germanus-scruple-at-morning-service
+---
+Verified verbatim directly against the vendored
+cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "cannot be fully grasped by the
+mind"` returns one hit, line 38624, inside `<div4 title="Chapter XVIII. The decision of the fathers that
+free will is not equal to save a man." ... id="iv.v.iv.xviii">` (line 38564). `grep -n "And therefore\s*$"`
+at line 38601 (closing the previous chapter's own Ezekiel citation) opens the sentence this record's `text`
+begins with, `sed -n '38601,38624p'`: "And therefore it is laid down by all the Catholic fathers ...
+cannot be fully grasped by the mind and reason of man." - three sentences (the three-stage teaching, the
+sentence on God working in all without destroying free will, and the sentence on subtle inference and the
+final admitted limit), read through to their own shared period, not cut mid-thought.
+
+A translator's endnote (`<note n="1864" ...>`, citing Isaiah vii. 9) sits inside the source's own
+parenthetical, between "understand" and the closing paren; it is apparatus, not Chaeremon's words, and is
+excluded exactly as the fleet's quote-verbatim tooling strips every `<note>` block before matching.
+Normalization: hard-wrapped lines (including one page-break tag, `<pb n="435" .../>`, falling mid-word-
+run between "subtle" and "inference of") joined with single spaces; the source's curly quotation marks
+around "Except ye believe, ye will not understand" are rendered here as straight double quotes, the same
+mark in a different Unicode form. No word was added, dropped, substituted, or reordered.
+
+This record replaces the second half of the former gallic.quote.chaeremon-on-grace-and-free-will, which
+joined this passage to the separate, non-adjacent Conference XIII.13 sentence (see
+gallic.quote.chaeremon-grace-requires-our-effort) with an ellipsis and a `modern_rendering` that opened
+this half with "For," implying the XIII.13 sentence was this passage's own premise - a connection not in
+the source, which treats these as two summary statements roughly 400 lines apart in the same Conference.
+That splice was a real defect (Opus review of PR #579): this record now carries the passage on its own,
+independently verified, joined to nothing.
+
+speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
+these are his words as Cassian gives them, not Cassian's own.
+
+modern_rendering: no Agent/subagent-spawning tool was available in this execution context (only full
+Claude Code Remote sessions, which have no reliable synchronous channel back to a dispatched subagent
+task) - CLAUDE.md's own rule against fabrication forbids claiming an independent Opus authoring-and-check
+pair that did not actually run. The rendering above was drafted directly against the fleet's rendering
+bar (every clause voiced, nothing added, one thought per sentence kept under roughly 25 words, no
+misleading modern sense) and then re-checked clause by clause against this record's own verbatim `text`
+in the same pass, including the nested Scripture quotation inside the source's own parenthetical. No
+bracketed span appears in this quote's `text`, so R47 does not arise here. This falls short of the task's
+instruction to use two independent Opus subagents; flagged so the dispatching session (which does carry
+Agent/Opus access) can run that pair and replace this field if strict process compliance is required.

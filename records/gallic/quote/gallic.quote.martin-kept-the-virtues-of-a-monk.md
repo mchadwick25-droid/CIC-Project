@@ -18,7 +18,7 @@ confidence:
     claims to have visited Martin at Tours and questioned those who had lived with him.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
-  locus: "Life of St. Martin ch. X (npnf211 div ii.ii.xi, file lines 1117-1125): Sulpitius's summary of how Martin conducted himself as bishop"
+  locus: "Life of St. Martin ch. X (npnf211 div ii.ii.xi, file lines 1123-1125): Sulpitius's summary of how Martin conducted himself as bishop"
   license: public-domain
 retrieval:
   tier: 2

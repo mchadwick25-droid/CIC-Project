@@ -20,7 +20,7 @@ confidence:
     an independent report of anything Martin said aloud.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2437-2453): Sulpitius''s own rhetorical expansion of Martin''s prayer, cast in a soldier''s idiom'
+  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2438-2453): Sulpitius''s own rhetorical expansion of Martin''s prayer, cast in a soldier''s idiom'
   license: public-domain
 retrieval:
   tier: 2
