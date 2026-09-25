@@ -842,10 +842,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # findings applied): line 109 shifted to 120 once the eleven
     # m1:readability waivers were added above it in the file.
     ("engine/m9/enforce.py", 120, "KEEP"),
-    # Refreshed 2026-09-24 (checker-refinements PR): the line this entry
-    # pinned before Step 2 PR C's own edit pass no longer matches anything;
-    # re-pinned to a still-live r27_enforce assertion in the same file.
-    ("engine/m4/tests/test_turn.py", 1124, "REWRITE"),
+    # Refreshed 2026-09-25 (do-not-voice removal PR): the line this entry
+    # pinned shifted when unrelated do-not-voice test content above it was
+    # removed; re-pinned to the same still-live r27_enforce=True kwarg.
+    ("engine/m4/tests/test_turn.py", 1119, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): the comment block this entry pinned ("the five
