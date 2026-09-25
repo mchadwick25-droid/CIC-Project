@@ -87,9 +87,20 @@ the world boundary.
 
 ## 2. Phase A — World construction (Step 0 → Doc_10)
 
-**The library package comes first, and the build uses all of it.** A
-world's build does not start until the source-research thread has
-delivered that world's library package (`worlds/_cross-world/SOURCE-READINESS.md`):
+### Library stage (source-research thread): Step 0 → Doc_02
+
+The source-research thread owns Step 0, Doc_01 and Doc_02. Each runs
+under the one-document-at-a-time cycle (draft → adversarial review →
+revision → disposition) through review until it is approved to proceed.
+
+| Step | Document | Notes and per-step quality bars |
+|---|---|---|
+| 0 | `Step0_Movement_Scope_Confirmation` | Confirm the world against `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`'s portfolio entry before anything else. |
+| 1 | `Doc_01` World Identification, Boundaries, Orientation | Article-21 strand analysis here if the world is strand-plural (PAHC and IJC precedents: strands ride `world_core`'s body until the strands schema CO lands). |
+| 2 | `Doc_02` Source Ecology | **Use the Source Registry Template from the first row** (V7.4 freeze gate) — machine-readable rows, per-row confidence/boundary-status/licensed-for/verification-note. PAHC's 73-row JSON registry is the best-practice model; it made its S2.1 fully mechanical. Every load-bearing caveat (do-not-cite flags, pending-verification lists) written as its OWN row field, not prose — S6.2 spent real effort re-deriving these. **Holdings dispositions (R13):** before Doc_02's review, run `python -m engine.m9.cli holdings <code>`. Every file it marks "not yet assessed", and every tier 1–2 file it marks "in scope, unread", gets one line in the Source Registry: used, deferred with a reason, or out of scope with a reason. The review checks that no line is missing, not that each disposition is right. Files marked "no coverage entry" are a library gap, not the drafter's job; list their count and leave them. |
+
+The library stage builds on the world's library package
+(`worlds/_cross-world/SOURCE-READINESS.md`):
 
 - its Source Readiness Dossier at
   `worlds/_cross-world/dossiers/<slug>_Source_Readiness_Dossier.md`
@@ -98,11 +109,7 @@ delivered that world's library package (`worlds/_cross-world/SOURCE-READINESS.md
 - any further rendered source material the research produced for the
   world
 
-If the package is missing, the build thread stops and asks for it. It
-never replaces the package with its own narrower search.
-
-The build uses the whole package. Doc_02's Source Registry gives every
-item in it a line:
+Doc_02's Source Registry gives every item in the package a line:
 
 - every dossier §1 assigned work, §2 cross-link and §3 acquisition
   lead: used, deferred with a reason, or out of scope with a reason. A
@@ -112,24 +119,35 @@ item in it a line:
 - every piece of rendered source material: used, or set aside with a
   reason
 
-The Doc_02 review checks that no item is missing, alongside the
-holdings dispositions in the Doc_02 row below. Every later document
-draws on the same package: Doc_03 and Doc_06, Doc_04, Doc_08 and Doc_09
-search the world's shelf with `corpus_index`, and their reviews check
-that claims cite the package's own sources wherever it holds them, not
-summaries of them. The build never redoes the library research. Anything
-the build finds that the package missed goes back to the source-research
-thread, so the next world gets it too.
+The Doc_02 review checks that no item is missing, alongside the holdings
+dispositions in the Doc_02 row above.
 
-The document sequence, unchanged from the six built worlds, run under the
-one-document-at-a-time cycle (draft → adversarial review → revision →
-disposition), with the review loops agentized (§5):
+### Handoff
+
+The world build starts only when the handoff package is complete. If it
+is not, the build thread stops and asks the source-research thread for
+what is missing.
+
+> **Handoff checklist: still converging with Mark; lands in V1.8.**
+
+The build never redoes Steps 0–2 or the library search. Anything the
+build finds missing goes back to the source-research thread, so the
+next world gets it too.
+
+### World build (build thread): Doc_03 → Doc_10
+
+The world build starts at Step 3, from the library's handoff package.
+Every document draws on that package: Doc_03 and Doc_06, Doc_04, Doc_08
+and Doc_09 search the world's shelf with `corpus_index`, and their
+reviews check that claims cite the package's own sources wherever it
+holds them, not summaries of them.
+
+The document sequence, unchanged from the six built worlds, runs under
+the one-document-at-a-time cycle (draft → adversarial review → revision
+→ disposition), with the review loops agentized (§5):
 
 | Step | Document | Notes and per-step quality bars |
 |---|---|---|
-| 0 | `Step0_Movement_Scope_Confirmation` | Confirm the world against `reference/L3B-World-Build-Methodology/CiC_Step0_Conclusion_FINAL_v2.docx`'s portfolio entry before anything else. |
-| 1 | `Doc_01` World Identification, Boundaries, Orientation | Article-21 strand analysis here if the world is strand-plural (PAHC and IJC precedents: strands ride `world_core`'s body until the strands schema CO lands). |
-| 2 | `Doc_02` Source Ecology | **Use the Source Registry Template from the first row** (V7.4 freeze gate) — machine-readable rows, per-row confidence/boundary-status/licensed-for/verification-note. PAHC's 73-row JSON registry is the best-practice model; it made its S2.1 fully mechanical. Every load-bearing caveat (do-not-cite flags, pending-verification lists) written as its OWN row field, not prose — S6.2 spent real effort re-deriving these. **Holdings dispositions (R13):** before Doc_02's review, run `python -m engine.m9.cli holdings <code>`. Every file it marks "not yet assessed", and every tier 1–2 file it marks "in scope, unread", gets one line in the Source Registry: used, deferred with a reason, or out of scope with a reason. The review checks that no line is missing, not that each disposition is right. Files marked "no coverage entry" are a library gap, not the drafter's job; list their count and leave them. |
 | 3 | `Doc_03` Lexicon Candidate List | Term front-matter per the lexicon-index discipline (Tier, AS/SC/DR/TC/RT/PV/CT tags). **NEW: run the alias-safety preflight NOW** (§3, B-2) — author aliases against Rules A/B from birth so no retrofit is ever needed. |
 | 4 | `Doc_04` Gravity Discovery | Six-test assessment per gravity; Confidence/Gravity Cross-Check on every Primary; forces-connection notation per gravity. No L4 template exists for this step — the gravity-index discipline is the bar. |
 | 5 | `Doc_05` Ecological Reconstruction | |

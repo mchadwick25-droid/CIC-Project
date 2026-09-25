@@ -5283,6 +5283,20 @@ All rulings below are dated 2026-09-24.
   inventory"). Rationale: "uses all of it" means every item gets a written decision, not
   that every source is cited — per `CORPUS-USE.md`, no world should draw on every volume.
 
+- **3.11, extended — Ruled 2026-09-25: "a, plus c's written checklist."** The
+  source-research thread owns Step 0 (Movement-Scope Confirmation), Doc_01 (World
+  Identification) and Doc_02 (Source Ecology), through review until each is approved to
+  proceed. The world build starts at Step 3 from the library's handoff package, and never
+  redoes Steps 0–2 or the library search; anything the build finds missing goes back to
+  the source-research thread. Written into V1.7 §2 as three parts: "Library stage
+  (source-research thread)" with the Step 0 / Doc_01 / Doc_02 rows and the package
+  dispositions; "Handoff," whose gate is "the world build starts only when the handoff
+  package is complete"; and "World build (build thread)" from Doc_03. The handoff
+  checklist itself (option c's written checklist) is still converging with Mark and lands
+  in V1.8; V1.7 carries a placeholder only, no checklist items.
+  `worlds/_cross-world/SOURCE-READINESS.md` updated to match. Relayed by the managing
+  thread (tech-readiness).
+
 **Added at write-in, to keep V1.7 consistent with main:** the effort table gains a row for
 `modern_rendering` authoring on Opus 5.5, matching CLAUDE.md's rendering exception (merged
 after the addendum was drafted). Two stale pointers found by the 2026-09-25 audit were
