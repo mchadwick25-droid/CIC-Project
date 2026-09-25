@@ -40,7 +40,7 @@ text: >-
   present have testified to us that they saw his face as if it had been the face of an angel. His
   limbs too appeared white as snow, so that people exclaimed, "Who would ever believe that man to be
   clothed in sackcloth, or who would imagine that he was enveloped with ashes?"
-speaker_or_author: gallic.figure.martin, with the witnesses' report as Sulpitius carries it
+speaker_or_author: "Martin, with the witnesses' report as Sulpitius carries it"
 license: verbatim
 modern_lens_note: >-
   Martin's last words are not fear but defiance - he names the devil plainly and states his own
