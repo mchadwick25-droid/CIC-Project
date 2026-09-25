@@ -487,7 +487,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # re-pinned to a still-live r27_enforce assertion in the same file.
     ("engine/m4/tests/test_turn.py", 1124, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
-    ("engine/m9/enforce.py", 139, "REWRITE"),
+    # Refreshed 2026-09-25 (System Health PR removed the ACCEPTED_OPEN
+    # waivers two lines above this one): the same comment block shifted
+    # from 139 to 137, still an iso-date hit.
+    ("engine/m9/enforce.py", 137, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 243, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 154, "PROTECTED"),
@@ -500,7 +503,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("records/fix/voice_craft/fix.craft.vera-voice.md", 29, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
     ("records/hal/force/hal.force.clerical-precarity.md", 52, "REWRITE"),
-    ("records/alx/figure/alx.figure.didymus.md", 48, "REWRITE"),
+    # Refreshed 2026-09-25 (Live-Surface-Cleanup Step 4/Item A prep): the
+    # original alx.figure.didymus.md:48 line was cleaned by PR #509 and
+    # stopped matching. Re-pinned to a contested_claim divergence_note - a
+    # non-spoken record field explicitly out of scope under the current
+    # (spoken-fields-only) cleanup directive, so it should stay stable.
+    ("records/cappadocian/contested_claim/cappadocian.contested.agennetos-transmission.md", 27, "REWRITE"),
     ("reference/method/Pass2-decisions/S6.2_length_ceiling_retry_cost_investigation_2026-07-31.md", 14, "REWRITE"),
     # Hand label KEEP: "reviewer" here is generic instructional/methodology
     # prose (what a hypothetical reviewer of OTHER content would miss),
