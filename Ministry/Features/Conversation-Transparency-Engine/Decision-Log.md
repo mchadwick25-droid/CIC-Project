@@ -5070,3 +5070,22 @@ reworded to "Scholars still disagree about whether Theophilus meant
 the same thing that doctrine later named." Re-measured after the
 edits: FK grade 7.68, longest sentence 23 words, average 15.1
 words/sentence.
+
+**Entry 76 — 2026-09-25.** R42's own generation-side follow-up (Entry
+73), built now rather than held for 7b: Mark's own ruling, in session,
+2026-09-25: "a, add the narrow sentence and run the test" - choosing
+Option A (build the proposed directive line and measure it now) over
+Option B (continue holding it for the recorded 7b-7e sequencing). This
+supersedes Entry 73's own "(a) hold until 7b merges... the recorded
+order is not waived" - a direct ruling from Mark himself, not this
+thread's own call to reopen that sequencing.
+
+`records/_fleet/fleet_voice/_fleet.voice.fleet.md`'s `citation_contract`
+gained exactly the sentence Entry 73 proposed, appended immediately
+after "A connective or interpretive sentence carries no tag; only a
+sentence naming a person, place, text, number, or attributed quote
+does.": "A sentence that states something specific this ground actually
+says, even when it names no person, place, text or number of its own,
+still carries that record's own tag. Only a sentence that adds nothing
+beyond connecting or interpreting what was already said stays
+untagged." Nothing else in the record changed.
