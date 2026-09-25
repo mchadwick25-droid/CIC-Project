@@ -187,6 +187,11 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
         merged: dict[str, list[str]] = {}
         for name, findings in gates.run_all(records, fleet, registry).items():
             merged[f"m1:{name}"] = findings
+        # gate_readability_floor is not in GATES (see its own docstring) -
+        # collected here under its own key, which hygiene_problems() below
+        # permanently excludes from the waiver mechanism: a sub-8 field is
+        # reported, never failed, so it needs no waiver to stay green.
+        merged["m1:readability-floor"] = gates.gate_readability_floor(records, fleet, registry)
         shelf = loader.load_shelf(world_key=world_key, census_id=entry["census_id"], records=records)
         for name, findings in confinement_run_all(records, shelf).items():
             merged[f"m9:{name}"] = findings
@@ -194,7 +199,10 @@ def collect_findings(registry: dict | None = None) -> dict[str, dict[str, list[s
     # gate_readability_fleet grades records/_fleet/ once, not once per
     # world (see that function's own docstring) - collected here, outside
     # the per-world loop above, under FLEET_PSEUDO_WORLD's own key.
-    by_world[FLEET_PSEUDO_WORLD] = {"m1:readability-fleet": gates.gate_readability_fleet(fleet)}
+    by_world[FLEET_PSEUDO_WORLD] = {
+        "m1:readability-fleet": gates.gate_readability_fleet(fleet),
+        "m1:readability-floor": gates.gate_readability_floor_fleet(fleet),
+    }
     return by_world
 
 
@@ -211,6 +219,8 @@ def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | 
         for name, findings in checks.items():
             if not findings:
                 continue
+            if name == "m1:readability-floor":
+                continue  # gate_readability_floor: FK < 8 is reported, not failed - permanent, never needs a waiver
             if name == "m9:voicing-pair" and world_key not in GRANDFATHERED_WORLDS and carve_out:
                 continue  # R-4: report-only until corpus-map lands its first real pair
             live[f"{name}/{world_key}"] = len(findings)
@@ -239,17 +249,20 @@ def hygiene_problems(by_world: dict[str, dict[str, list[str]]], *, today: str | 
 
 
 def report_only(by_world: dict[str, dict[str, list[str]]]) -> list[str]:
-    """The R-4 carve-out's own visibility: voicing-pair findings on a new
-    world that hygiene_problems() above deliberately does not block on."""
-    if not _voicing_pair_carve_out_active():
-        return []
+    """Findings hygiene_problems() above deliberately never blocks on, but
+    that should still be visible somewhere: the R-4 carve-out's own
+    voicing-pair findings on a new world (temporary - ends itself once
+    corpus-map lands a real pair), and every world's readability-floor
+    observations (permanent - gate_readability_floor's own docstring)."""
     lines = []
+    carve_out = _voicing_pair_carve_out_active()
     for world_key, checks in sorted(by_world.items()):
-        if world_key in GRANDFATHERED_WORLDS:
-            continue
-        findings = checks.get("m9:voicing-pair") or []
-        if findings:
-            lines.append(f"m9:voicing-pair/{world_key}: {len(findings)} finding(s) - report-only under R-4 (no real PAIRS.yaml pair yet)")
+        if carve_out and world_key not in GRANDFATHERED_WORLDS:
+            findings = checks.get("m9:voicing-pair") or []
+            if findings:
+                lines.append(f"m9:voicing-pair/{world_key}: {len(findings)} finding(s) - report-only under R-4 (no real PAIRS.yaml pair yet)")
+        for finding in checks.get("m1:readability-floor") or []:
+            lines.append(f"m1:readability-floor/{world_key}: {finding}")
     return lines
 
 
@@ -259,7 +272,7 @@ def main(argv: list[str] | None = None) -> int:
     observations = report_only(by_world)
 
     if observations:
-        print(f"{len(observations)} report-only observation(s) (R-4 carve-out):\n")
+        print(f"{len(observations)} report-only observation(s):\n")
         for line in observations:
             print(f"  {line}")
         print()

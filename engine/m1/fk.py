@@ -55,14 +55,12 @@ def fk_grade(text: str) -> float:
 
 
 def fre_score(text: str) -> float:
-    """Flesch Reading Ease, the North Star decision's own second number
-    (FRE >= 60, the same "hard edge" ruling as fk_grade's FK <= 10 - see
-    that decision's RULED section: "Any single emitted turn breaching FK
-    <= 10 / FRE >= 60 fails"). Standard formula, same words-per-sentence /
-    syllables-per-word terms fk_grade already computes - engine/m7/
-    readability.py's own `measure()` already uses this identical formula
-    for a live conversation turn; this is the record-field-grading twin
-    of that number, not a second, independently-tuned one."""
+    """Flesch Reading Ease, scored 0-100 (higher reads easier). Standard
+    formula, the same words-per-sentence / syllables-per-word terms
+    fk_grade already computes - engine/m7/readability.py's own
+    `measure()` already uses this identical formula for a live
+    conversation turn; this is the record-field-grading twin of that
+    number, not a second, independently-tuned one."""
     counts = _counts(text)
     if counts is None:
         return 100.0

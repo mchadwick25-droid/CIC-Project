@@ -5,7 +5,7 @@ split (fleet_voice and modern_term both live under records/_fleet/, never
 inside any world's own records dict - gate_readability stays world-scoped,
 gate_readability_fleet is its dedicated fleet-scoped twin, so fleet content
 is graded exactly once rather than once per world)."""
-from engine.m1.gates import gate_readability, gate_readability_fleet
+from engine.m1.gates import gate_readability, gate_readability_fleet, gate_readability_floor, gate_readability_floor_fleet
 
 
 def _dense_text(word_count: int) -> str:
@@ -14,6 +14,13 @@ def _dense_text(word_count: int) -> str:
     # length, the same shape gate_readability's own module comment
     # documents testing against.
     return " ".join(["extraordinarily"] * word_count)
+
+
+def _simple_text(word_count: int) -> str:
+    # Short, one-syllable words with no punctuation - the mirror image of
+    # _dense_text above, used to exercise gate_readability_floor's own
+    # FK < 8 band rather than the ceiling.
+    return " ".join(["cat"] * word_count)
 
 
 _PLAIN = "This is a short, plain sentence anyone can read without any trouble at all."
@@ -98,3 +105,29 @@ def test_the_real_fleet_modern_trinity_record_is_reachable():
     # Whatever the current finding count is, it must come from
     # gate_readability_fleet, never from gate_readability itself.
     assert gate_readability({}, fleet, {}) == []
+
+
+def test_gate_readability_floor_reports_a_sub_8_field_while_the_blocking_gate_stays_clean():
+    # A very simple field (short, one-syllable words) scores well below
+    # the FK 8 band floor. gate_readability - the CI-blocking gate - must
+    # stay clean on it (FK < 8 is not > FK_CEILING, and FRE for text this
+    # simple is comfortably >= FRE_FLOOR); gate_readability_floor is the
+    # report-only check that actually surfaces it.
+    records = {"w.term.x": {"id": "w.term.x", "record_type": "term", "plain_meaning": _simple_text(12)}}
+    assert gate_readability(records, {}, {}) == []
+    findings = gate_readability_floor(records, {}, {})
+    assert any("plain_meaning" in f and "below the band floor" in f for f in findings)
+
+
+def test_gate_readability_floor_fleet_reports_sub_8_fleet_content():
+    fleet = {"_fleet.voice.x": {"id": "_fleet.voice.x", "record_type": "fleet_voice", "pronoun_rule": _simple_text(12)}}
+    assert gate_readability_fleet(fleet) == []
+    findings = gate_readability_floor_fleet(fleet)
+    assert any("pronoun_rule" in f for f in findings)
+
+
+def test_gate_readability_floor_does_not_flag_text_at_or_above_the_band():
+    # _dense_text scores far above FK_CEILING (see gate_readability's own
+    # tests above) - nowhere near gate_readability_floor's FK < 8 edge.
+    records = {"w.term.x": {"id": "w.term.x", "record_type": "term", "plain_meaning": _dense_text(12)}}
+    assert gate_readability_floor(records, {}, {}) == []

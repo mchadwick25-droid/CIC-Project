@@ -20,15 +20,18 @@ from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_r
 
 FK_CEILING = 10
 
-# The North Star decision's own second number (reference/method/Pass2-
-# decisions/VR_1A_NorthStar_Readability_Target_2026-08-09.md, "RULED - hard
-# edge": "Any single emitted turn breaching FK <= 10 / FRE >= 60 fails the
-# world"). Same numbers that decision already ruled for per-turn output,
-# applied here to the record fields that output is built from - not a new
-# or invented threshold. The decision's band floor (FK 8) is explicitly
-# "reported, not failed" ("FLATTENING, not FK, guards against emptiness")
-# and stays that way here too: no floor check is added below.
+# Same two numbers reference/method/Pass2-decisions/VR_1A_NorthStar_
+# Readability_Target_2026-08-09.md sets for per-turn output (FK <= 10,
+# FRE >= 60), applied here to the record fields that output is built
+# from - not a new or invented threshold. That decision's own band floor
+# (FK 8) stays report-only, never a failing check here either -
+# gate_readability_floor below is where a sub-8 field is surfaced.
 FRE_FLOOR = 60
+
+# Below this, a spoken field is simpler than the band floor - not an
+# error, just worth seeing (the decision's own floor is reported, never
+# failed: "too-simple" is not the risk it guards against).
+FK_FLOOR = 8
 
 # Below this, gate_readability skips FK grading entirely - see that
 # function's own inline comment for why. 12 was chosen empirically: every
@@ -504,12 +507,8 @@ _READABILITY_LIST_TEXT_KEY = {
 def _readability_checks(record_type: str, rec: dict) -> list[tuple[str, str]]:
     """(field_label, text) pairs to grade for one record - driven entirely
     by spoken_fields.py's own SPOKEN_FIELDS registry rather than a second,
-    hand-maintained field list. That second-list failure mode is not
-    hypothetical: this module's own history (see fields_with_role's
-    docstring) is `story.tellable_as` and `voice_craft.*` going ungraded
-    for a real stretch of this project's life because gate_readability's
-    own field list here had drifted out of sync with what actually
-    compiles into a turn."""
+    hand-maintained field list, so this stays in sync with whatever
+    actually compiles into a turn instead of silently drifting from it."""
     checks: list[tuple[str, str]] = []
     for field in fields_with_role(record_type, *_READABILITY_ROLES):
         if (record_type, field) in _READABILITY_EXCLUDED_FIELDS:
@@ -599,6 +598,40 @@ def gate_readability_fleet(fleet) -> list[str]:
     loop, and reports it under its own pseudo-world key rather than
     folding it into any single real world's count."""
     return _grade_records(fleet.items())
+
+
+def _floor_observations(items) -> list[str]:
+    """Every readability-graded field scoring below FK_FLOOR - the same
+    field set _grade_records checks against the ceiling above, just the
+    other edge. Report-only by construction: this list is never merged
+    into a finding count that a waiver or hygiene_problems() looks at
+    (engine/m9/enforce.py keeps it out of that mechanism entirely), so it
+    cannot fail a gate or need a waiver, only be seen."""
+    findings = []
+    for rid, rec in items:
+        for field, text in _readability_checks(rec.get("record_type"), rec):
+            if len(text.split()) < MIN_WORDS_FOR_READABILITY_CHECK:
+                continue
+            grade = fk_grade(text)
+            if grade < FK_FLOOR:
+                findings.append(f"{rid}: {field} scores FK grade {grade:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
+    return findings
+
+
+def gate_readability_floor(records, fleet, registry) -> list[str]:
+    """gate_readability's report-only counterpart: same world-scoped
+    records, same field set, the FK_FLOOR edge instead of FK_CEILING/
+    FRE_FLOOR. NOT registered in GATES - engine/m9/enforce.py calls this
+    directly and keeps its result out of hygiene_problems()'s waiver
+    mechanism, the same way it keeps gate_readability_floor_fleet's own
+    result out too."""
+    return _floor_observations(records.items())
+
+
+def gate_readability_floor_fleet(fleet) -> list[str]:
+    """gate_readability_floor's fleet-scoped twin, the same relationship
+    gate_readability_fleet has to gate_readability above."""
+    return _floor_observations(fleet.items())
 
 
 # The fleet's own exemplar total (alx.voice.craft: identity + guard +
