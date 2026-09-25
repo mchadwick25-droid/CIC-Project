@@ -65,23 +65,24 @@ description: >-
   instead to what long-standing antiquity, and the agreement of many holy fathers, have passed on by
   unanimous decision (Inst. I.2). He also names the failure this standard guards against. A
   community's rules vary because someone became an abbot without first being a disciple. Such a
-  person grows readier to enforce their own inventions than to preserve the well-tried teaching of
-  their predecessors (Inst. II.3-4).
+  person, he says, would rather enforce a private way of doing things than keep what the elders
+  themselves had already proven (Inst. II.3).
 
   Vincent states the same standard as a formula: held everywhere, held always, held by consent. He
-  applies it without exception. Even a teacher's own high office does not settle a question against
+  applies it without exception. Even a teacher's high office does not settle a question against
   it. He may be learned, a bishop, a confessor, or a martyr. Even so, an opinion that goes against
-  the fathers' own shared agreement is still just a private view, not real authority (Comm. ch. 28).
+  the fathers' shared agreement is still just a private view, not real authority (Comm. ch. 28).
 
   Sulpitius shows the same standard applied to one local case, not stated as doctrine. Martin once
-  hesitated over a tomb some had venerated as a martyr's. Asked why, he gave his own reason. He had
-  real doubts, because no steady tradition about it had come down from antiquity (Vita XI).
+  hesitated over a tomb some had venerated as a martyr's. He kept asking his elders for the
+  martyr's name and the date he had died. He did so, he said, because he had real doubts: no
+  steady tradition about it had come down from antiquity (Vita XI).
 
-  Nothing here comes from any one teacher. It is the reason the south takes Egypt as its own
-  standard: a custom counts because it was received, not invented. It also made this world's own
-  communities wary of any single teacher's own opinion. They leaned instead on gathering and memory.
+  Nothing here comes from any one teacher. It is the reason the south takes Egypt as its
+  standard: a custom counts because it was received, not invented. It also made this world's
+  communities wary of any single teacher's opinion. They leaned instead on gathering and memory.
   And it is the same tool that later pressure would turn back on the world itself. The very appeal
-  to antiquity and consent that once protected the south's own program became the language used
+  to antiquity and consent that once protected the south's program became the language used
   against it.
 manifestations:
 - "Inst. I.2: allegiance owed to what 'a long standing antiquity and numbers of the holy fathers have passed on by an unanimous decision'"

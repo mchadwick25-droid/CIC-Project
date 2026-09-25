@@ -50,9 +50,11 @@ relations:
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "It appears that Prosper and Hilary"` returns line 14867; read with `sed -n '14856,14872p'`, inside
-`<div2 title="Appendix III. Note on Section 85, Page 156." ... id="iii.xxxvii">`. The quoted span is
-one complete paragraph (`<p id="iii.xxxvii-p3">`), "It appears that Prosper and Hilary..." through
-"...unsound teaching of their clergy.", ending at its own period.
+`<div2 title="Appendix III. Note on Section 85, Page 156." ... id="iii.xxxvii">`. This paragraph
+(`<p id="iii.xxxvii-p3">`) holds two sentences; the quoted span is only its first, "It appears that
+Prosper and Hilary..." through "...unsound teaching of their clergy.", ending at its own period,
+not the paragraph's own second sentence ("They complained too of the disrespectful manner in which
+these same clergy treated the memory of Augustine...").
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.

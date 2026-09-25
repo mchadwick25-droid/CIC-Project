@@ -13,10 +13,13 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Vincent's own text (Commonitory ch. 1 [2], read at its locus for this record) -
-    his own description of his life before Lérins, using the soldier idiom in its negative form.
+    his own description of his life before monastic life, using the soldier idiom in its negative
+    form. Vincent does not name Lérins in this passage (he writes only of "a Monastery, situated in
+    a remote grange"), and the vendored edition's own endnote 427 reports a scholarly view (Noris)
+    that he may not yet have been at Lérins when he wrote it; this record does not assert Lérins.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "ch. 1 [2] (npnf211 div iii.ii, file lines 12112-12119): Vincent's own account of leaving
+  locus: "ch. 1 [2] (npnf211 div iii.ii, file lines 12112-12120): Vincent's own account of leaving
     secular warfare for the harbour of religion"
   license: public-domain
 retrieval:

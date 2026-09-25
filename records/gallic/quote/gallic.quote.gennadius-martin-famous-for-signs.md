@@ -46,18 +46,19 @@ relations:
   target: gallic.gravity.virtus
 ---
 Verified directly against cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml. `grep -n "famous
-for signs and wonders"` returns line 42547; read with `sed -n '42538,42548p'`, inside `<div3 title="Chapter
-XIX." ... id="v.iv.xx">`. The quoted span is one complete sentence, "He composed also a
-Chronicle..." through "...famous for signs and wonders and virtues.", ending at its own period, and
-sits in the source immediately before the sentence gallic.quote.gennadius-on-the-dialogues-subject
-carries ("He also wrote a Conference between Postumianus and Gallus...") - a distinct sentence about
-Martin's own fame, not the Dialogues' subject, so carried as its own record rather than extending
-that one.
+for signs and wonders"` returns line 42547; read with `sed -n '42538,42548p'`, inside `<div3
+type="Chapter" title="Severus the presbyter." ... id="v.iv.xx">` (the body text's own visible
+chapter number, "Chapter XIX.", is a separate heading span inside this div, not the div's own
+title attribute). The quoted span is one complete sentence, "He composed also a Chronicle..."
+through "...famous for signs and wonders and virtues.", ending at its own period, and sits in the
+source immediately before the sentence gallic.quote.gennadius-on-the-dialogues-subject carries ("He
+also wrote a Conference between Postumianus and Gallus...") - a distinct sentence about Martin's
+own fame, not the Dialogues' subject, so carried as its own record rather than extending that one.
 
 Normalization: line breaks joined with single spaces; a translator's endnote on "virtues" ("Virtues
-or miracles") sits inside the source's own sentence and is apparatus, excluded per the fleet's own
-`<note>`-stripping convention; the source's own italic markup around "Chronicle" and "Life of the
-holy Martin" was dropped, the same normalization the fleet applies elsewhere to italicized titles.
-No word was added, dropped, substituted, or reordered.
+or miracles") falls right after the sentence's own closing period and is apparatus, excluded per
+the fleet's own `<note>`-stripping convention; the source's own italic markup around "Chronicle" and
+"Life of the holy Martin" was dropped, the same normalization the fleet applies elsewhere to
+italicized titles. No word was added, dropped, substituted, or reordered.
 
 speaker_or_author is a plain string: no gallic.figure record exists for Gennadius.

@@ -19,8 +19,8 @@ confidence:
     Evidentiary weight set to contested because the gravity's own substance is a competition inside
     the record - Cassian against Sulpitius, with Eucherius's own Latin (row 26, Inferential/Thin
     wording) complicating the south from within - and because whether Sulpitius's virtus-organized
-    Vita is modelled on the Vita Antonii (Stancliffe, row 18, unread; row 34) is an open question
-    this record does not settle. This gravity organizes the northern literature completely, but
+    Vita is modelled on the Vita Antonii (Stancliffe, row 34) is an open question this record does
+    not settle. This gravity organizes the northern literature completely, but
     rests on one voice - Sulpitius's own - which is why it is held at Tensional rather than
     Primary, whatever its reach within the north.
 sources:
@@ -120,41 +120,43 @@ relations:
 name: "Virtus - the saint as bearer of power"
 classification: tensional
 description: >-
-  Miracle, exorcism, and blessed objects hold together the northern literature. The south's own
+  Miracle, exorcism, and blessed objects hold together the northern literature. The south's
   teacher refuses this whole approach on principle.
 
   At Tours, power is something Martin bears, and is known by. He prays over a dead catechumen. He
-  senses that God's own power is present, and raises the man back to life (Vita VII). Gallus reports
+  senses that God's power is present, and raises the man back to life (Vita VII). Gallus reports
   that Martin himself used to say something else, too. He sensed less of that power as bishop than
-  he remembered having before he held the office (Dial. II.4). One of Sulpitius's own letters
+  he remembered having before he held the office (Dial. II.4). One of Sulpitius's letters
   defends that same power against a skeptic. Gennadius, writing later, calls Martin a man famous for
   signs, wonders, and virtues.
 
-  Cassian refuses this on principle. He will not weave a tale of God's miracles and signs, however
-  many he has seen. Such tales teach a reader nothing about how to live well (Inst. Pref.). Abbot
-  Nesteros goes further still. No one who declared himself an exorcist before an admiring crowd was
-  ever counted a good monk. Whether the devils obeyed him was beside the point (Conf. XV.7). This is
-  the sentence that sets the two literatures directly against each other. Inside the south itself,
-  Eucherius still admires the Egyptian fathers' own visible signs of grace. So the real argument runs
-  between Cassian and Sulpitius, not between south and north as a whole.
+  Cassian refuses this on principle. He says plainly that he will not try to tell stories about
+  God's wonders, however many he has witnessed himself. Such stories teach a reader nothing
+  about how to live well (Inst. Pref.). Abbot Nesteros goes further still. No one who declared
+  himself an exorcist before an admiring crowd was ever counted a good monk. Whether the devils
+  obeyed him was beside the point (Conf. XV.7). This is the sentence that sets the two literatures
+  directly against each other. Inside the south itself, Eucherius still admires the Egyptian
+  fathers' visible signs of grace. So the real argument runs between Cassian and Sulpitius, not
+  between south and north as a whole. Neither names the other; whether Cassian's refusal is a
+  veiled answer to Sulpitius is not settled.
 
-  This gravity organizes the north's own literature completely. The Vita, the Letters, and the
-  Dialogues are all built from acts of power. The north's own account of the episcopate, power lost
-  through office, depends on it too. But it rests mostly on one voice, Sulpitius's own. Gennadius
+  This gravity organizes the north's literature completely. The Vita, the Letters, and the
+  Dialogues are all built from acts of power. The north's account of the episcopate, power lost
+  through office, depends on it too. But it rests mostly on one voice, Sulpitius's alone. Gennadius
   confirms only that Martin was famous for signs, not that power organizes a monk's whole life.
   Cassian refuses the whole approach outright. For that reason, this record holds virtus as a
   tensional gravity, not a primary one. It is real and unresolved, resting on one voice rather than
   broad agreement. It is the steady counter-force that keeps this ecology from being reduced to the
-  south's own interior program alone. One house's literature is made of exactly what the other
-  house's own teacher says a good monk must never proclaim. It does not organize the whole world.
-  But the world cannot be described without it. This record finds no link between this gravity and
-  the grace controversy. The two arguments never meet.
+  south's interior program alone. One house's literature is made of exactly what the other
+  house's teacher says a good monk must never proclaim. It does not organize the whole world.
+  But the world cannot be described without it. This record finds no demonstrated link between this
+  gravity and the grace controversy.
 
   Under institutional pressure the gravity shifts rather than holds steady. Martin felt less power
   as bishop than as monk, by his own account. He felt a further loss after a forced communion with
   bishops he distrusted. Office itself, in this literature, registers as a real cost to the saint's
-  own body. Under barbarian pressure the gravity is touched only twice, and thinly. At the north's
-  own ending, it passed from a living saint's own power to a relic's, and to a psalm's.
+  body. Under barbarian pressure the gravity is touched only twice, and thinly. At the north's
+  ending, it passed from a living saint's power to a relic's, and to a psalm's.
 manifestations:
 - "Martin raising the catechumen, 'perceiving by means of the Spirit of God that power was present' (Vita VII) - the founding instance"
 - "'Protected by the sign of the cross, and not by shield or helmet' (Vita IV); exorcism performed prostrate in sackcloth, 'the doors being bolted' (Dial. III.6); blessed threads and straw"

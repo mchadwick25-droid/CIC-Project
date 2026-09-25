@@ -12,12 +12,12 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Documented
   divergence_note: >-
-    Documented as Cassian's own text (Institutes II.3-4, read at its locus for this record) - his
+    Documented as Cassian's own text (Institutes II.3, read at its locus for this record) - his
     own named fault, naming what happens when a community does not wait to learn the elders' own
     system before making rules of its own.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes II.3-4 (npnf211 div iv.iii.ii.iii, file lines 17090-17098): Cassian naming the
+  locus: "Institutes II.3 (npnf211 div iv.iii.ii.iii, file lines 17092-17098): Cassian naming the
     fault of self-appointed authority and self-invented rules"
   license: public-domain
 retrieval:
@@ -53,10 +53,12 @@ relations:
   target: gallic.force.legitimacy-by-reception
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
-"appoint ourselves Abbots before we have"` returns line 17095; read with `sed -n '17088,17098p'`,
-inside `<div4 title="Chapter III/IV..." ... id="iv.iii.ii.iii">` (Institutes II, on the sequence of
-monastic formation). The quoted span is one complete sentence, "And so we see that there is a
-variety..." through "...teaching of our predecessors.", ending at its own period.
+"appoint ourselves Abbots before we have"` returns line 17095; read with `sed -n '17092,17098p'`,
+inside `<div4 title="Chapter III. Of the observance of one uniform rule throughout the whole of
+Egypt, and of the election of those who are set over the brethren." ... id="iv.iii.ii.iii">`
+(Institutes II.3; ch. IV begins at line 17105). The quoted span is one complete sentence, "And so
+we see that there is a variety..." through "...teaching of our predecessors.", ending at its own
+period.
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.

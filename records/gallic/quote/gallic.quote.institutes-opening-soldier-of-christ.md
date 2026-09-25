@@ -13,17 +13,17 @@ confidence:
   formation_confidence: Documented
   divergence_note: >-
     Documented as Cassian's own text (Institutes I.1, read at its locus for this record) - the
-    work's own opening sentence, setting the soldier idiom as the frame for everything that
-    follows about dress and discipline.
+    second sentence of Book I, chapter 1, right after its own brief preface, setting the soldier
+    idiom as the frame for everything that follows about dress and discipline.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.1 (npnf211 div iv.iii.i.i, file lines 16571-16573): the opening sentence of
-    the whole work, on the monk as a soldier of Christ"
+  locus: "Institutes I.1 (npnf211 div iv.iii.i.i, file lines 16571-16573): the second sentence of
+    Book I, chapter 1, right after its own preface, on the monk as a soldier of Christ"
   license: public-domain
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks how the Institutes actually begins"
+  - "participant asks how Book I of the Institutes opens, after its own preface"
   - "participant asks why a monk's dress is described using military language"
   prefer_instead:
   - "participant wants the same idiom used of a fault instead of dress - retrieve gallic.quote.deserter-from-his-service"
@@ -33,9 +33,10 @@ text: >-
 speaker_or_author: gallic.figure.cassian
 license: verbatim
 modern_lens_note: >-
-  This is the very first sentence of the Institutes' own body text, opening a chapter titled "Of
-  the Monk's Girdle." The military comparison is not decoration added later - it is the frame
-  Cassian chooses before he says anything else about a monk's actual dress.
+  This is the second sentence of the Institutes' own Book I, chapter 1, opening a chapter titled
+  "Of the Monk's Girdle," right after one sentence of introductory framing. The military comparison
+  is not decoration added later - it is the frame Cassian chooses before he says anything else
+  about a monk's actual dress.
 modern_rendering: >-
   A monk, then, as a soldier of Christ always ready for battle, ought always to walk with his belt
   fastened around his waist.
@@ -48,9 +49,12 @@ Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cas
 `<div4 title="Chapter I..." ... id="iv.iii.i.i">`, subtitled "Of the Monk's Girdle" - the opening
 chapter of Book I, itself the opening book of the Institutes. The quoted span is one complete
 sentence, "A monk, then, as a soldier of Christ..." through "...walk with his loins girded.",
-ending at its own period; it is the third sentence of the work's own body text, following two
-sentences of Cassian's own introductory framing ("As we are going to speak of the customs and
-rules of the monasteries...").
+ending at its own period; it is the second sentence of Book I, chapter 1, immediately following
+one sentence of Cassian's own introductory framing ("As we are going to speak of the customs and
+rules of the monasteries, how by God's grace can we better begin than with the actual dress of the
+monks..."). Book I, ch. 1 itself comes after the Institutes' own separate Preface (carried in
+gallic.quote.castor-anxious-for-egyptian-institutions and gallic.quote.cassian-adapts-egypt-to-gaul,
+from an earlier batch), so this is not the work's own opening sentence.
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered.

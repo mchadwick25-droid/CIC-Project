@@ -95,34 +95,35 @@ description: >-
   The monk's life as military service, and as combat against the devil and the faults - literal in
   the north, figurative in the south.
 
-  Sulpitius states his own purpose for writing at the outset: to rouse his readers to true
-  knowledge, heavenly warfare, and divine virtue (Vita I). Martin himself supplies the founding
-  scene. Before Caesar, asking his discharge, he says he has served as a soldier long enough, and
-  now asks to become a soldier of God instead - he is Christ's own soldier, and it is not lawful
-  for him to fight (Vita IV). At his funeral, young soldiers who had just sworn their own oath of
-  allegiance to Christ walk in the procession, alongside old men whose service was finished.
+  Sulpitius states his purpose for writing at the outset: to rouse his readers to true knowledge,
+  heavenly warfare, and divine virtue (Vita I). Martin himself supplies the founding scene. Before
+  Caesar, asking his discharge, he says he has served as a soldier long enough, and now asks to
+  become a soldier of God instead - he is Christ's soldier, and it is not lawful for him to fight
+  (Vita IV). At his funeral, young soldiers who had just sworn their oath of allegiance to Christ
+  walk in the procession, alongside old men whose service was finished.
 
-  Cassian opens the entire Institutes with the same idiom, stated as fact rather than metaphor: a
-  monk, as a soldier of Christ always ready for battle, should keep his loins girded (Inst. I.1).
-  The faults that follow are named as combats in sequence - a first struggle, a sixth combat - and
-  the monk worn down by accidie is said to become a runaway from Christ's own service, and a
-  deserter (Inst. X.3). Job, tested by the devil, is Cassian's own picture of God's well-tried
-  athlete (Conf. XIII.14).
+  In the Institutes' Book I, chapter 1, right after a brief preface, Cassian's second sentence
+  states the same idiom: a monk, as a soldier of Christ always ready for battle, should keep his
+  loins girded (Inst. I.1). The faults that follow are named as combats in sequence - a first
+  struggle, a sixth combat - and the monk worn down by accidie is said to become a runaway from
+  Christ's service, and a deserter (Inst. X.3). Job, tested by the devil, is Abbot Chaeremon's
+  picture, given in Cassian's Conferences, of God's well-tried athlete (Conf. XIII.14).
 
-  Vincent supplies the idiom's own antonym. Before he came to Lérins, he says, he was caught up in
-  the many deplorable storms of secular warfare himself - the life he left, not the one he entered
-  (Comm. ch. 1).
+  Vincent supplies the idiom's antonym. Before he entered the monastery, he says, he was caught up
+  in the many deplorable storms of secular warfare himself - the life he left, not the one he
+  entered (Comm. ch. 1).
 
-  This idiom runs evenly across both houses and both registers of this world's own literature. It
-  shapes the Institutes' own structure - dress read as armour, faults as combats - and the Vita's
-  own turning point, and gives both houses a shared vocabulary for a novice's first commitment: an
-  oath sworn, a service entered. But for that same reason it organizes the imagery and structure of
-  formation without being a force other parts of this world depend on independently of it. It is
-  common Christian vocabulary, well attested wherever it appears, rather than this world's own
-  distinct organizing principle - the idiom the virtus and interior-road gravities are carried in,
-  not a rival to either of them. For that reason this record holds it as a supporting gravity, not
-  a primary one, though nothing in this world's own literature contradicts it or shifts it under
-  pressure.
+  This idiom runs evenly across both houses and both registers of this world's literature. It
+  shapes the Institutes' structure - dress read as armour, faults as combats - and the Vita's
+  turning point. It gives both houses a shared vocabulary for a novice's first step: an oath
+  sworn, a service entered.
+
+  For that same reason, though, it shapes formation's imagery rather than driving it. No other
+  part of this world depends on it alone. It is common Christian vocabulary, well attested
+  wherever it appears, not this world's own distinct organizing principle. It is the idiom that
+  carries the virtus and interior-road gravities, not a rival to either one. This record holds it
+  as a supporting gravity, not a primary one. Nothing in this world's literature contradicts it or
+  shifts it under pressure.
 manifestations:
 - "Martin's discharge: 'I am the soldier of Christ: it is not lawful for me to fight,' facing the enemy 'protected by the sign of the cross, and not by shield or helmet' (Vita IV)"
 - "The Institutes' first sentence: 'A monk, then, as a soldier of Christ ever ready for battle, ought always to walk with his loins girded' (I.1) - dress read as armour"
@@ -139,6 +140,6 @@ gallic.quote.martin-offers-to-stand-unarmed, gallic.quote.martin-funeral-process
 gallic.quote.institutes-opening-soldier-of-christ, gallic.quote.deserter-from-his-service, and
 gallic.quote.vincent-tempests-of-secular-warfare.
 
-This gravity's own relations to this world's other gravities and forces are declared in full in
-its own `relations[]` field above, reciprocal edges declared on each target. Canon_cells left
+This gravity's relations to this world's other gravities and forces are declared in full in
+its `relations[]` field above, reciprocal edges declared on each target. Canon_cells left
 empty, matching fleet convention for gravity/force records.

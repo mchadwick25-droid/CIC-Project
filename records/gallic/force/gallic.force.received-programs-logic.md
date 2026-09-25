@@ -15,10 +15,10 @@ confidence:
     Documented - Cassian's own text (Inst. XII.9, XII.14, XII.17, XII.19, XII.33; Conf. XIII.1,
     XIII.18). A real tension is carried here, not resolved: the meaning of Cassian's "co-operates"
     and "precedes" - prevenient grace in Augustine's own sense, or the position Contra Collatorem
-    attacked - is Contested, bound to a disputed chronology (whether Conf. XIII answers Augustine or
-    shares his question); and the application of the label "semi-Pelagian" is Contested, present in
-    this build's files only in the editors' own apparatus (Gibson's headnote at XII.14, "perilously
-    near semi-Pelagianism," is editorial).
+    attacked - is Contested, bound to a disputed chronology (Chadwick vs. Casiday) over whether
+    Conf. XIII answers Augustine or shares his question; and the application of the label
+    "semi-Pelagian" is Contested, present in this build's files only in the editors' own apparatus
+    (Gibson's headnote at XII.14, "perilously near semi-Pelagianism," is editorial).
 sources:
 - source_id: gallic.source.cassian-institutes
   locus: "XII.9 (iv.iii.xii.ix): 'Not I, but the grace of God with me'; XII.14 'not giving my own opinion, but that of the elders'; XII.17 the psalter's words; XII.19 'that genuine faith of the ancient fathers'; XII.33 (iv.iii.xii.xxxiii), the work's closing sentence on grace"
@@ -59,31 +59,31 @@ description: >-
 
   Institutes XII is about pride. At chapter 9 it turns into eleven chapters on grace. A monk who
   feels he is making progress must credit it to God's grace, not to himself. Cassian states the
-  position directly. He names it as inherited, not his own opinion, but the elders' own: effort
-  alone cannot gain perfection, and without God's own grace, no one can ever attain it either. He
-  calls this same teaching the ancient fathers' own genuine faith. It still remains intact among
-  those who received it from them. The work's own closing sentence returns to the point one last
+  position directly. He names it as inherited, not his own opinion, but the elders': perfection
+  cannot be gained without these efforts, yet by these efforts alone, without God's grace, no one
+  can ever attain it. He calls this same teaching the ancient fathers' genuine faith. It still
+  remains intact among those who received it from them. The work's closing sentence returns to the point one last
   time. A monk must not only admit that nothing toward perfect virtue is possible without God's
   help. He must believe that even understanding this much is itself a gift.
 
   Conference XIII arises as a real formation problem, not an abstract argument. Abbot Germanus is
-  troubled at morning prayer by real doubts. Does effort accomplish anything at all? Chaeremon's own
+  troubled at morning prayer by real doubts. Does effort accomplish anything at all? Chaeremon's
   answer ends by naming a limit. How grace and free will actually fit together is more than the mind
   can fully grasp.
 
   Inside daily life, this was not a doctrine argued but a habit of speech taught by the fathers. A
   brother fasted, kept watch, laboured, stayed in his cell, and laid every thought bare to his
   senior. These efforts were commanded, and could not be set aside. But the moment he felt they had
-  accomplished something, he was to say the credit was not his. When brothers grew troubled over the
-  same question at morning prayer, the answer was always the same. The will is always free. God's
-  own grace is always present with it. How both can be true at once is more than reason alone can
-  settle.
+  accomplished something, he was to say the credit was not his. When Germanus grew troubled over
+  this same question at morning prayer, Chaeremon's answer was that the will is always free,
+  and that God's grace is always present with it. How both can be true at once, he said, is more
+  than reason alone can settle.
 
-  This teaching is Cassian's own. Within this world's own three founding voices, no other voice
+  This teaching is Cassian's own. Within this world's three founding voices, no other voice
   independently holds it. Yet it shapes a great deal wherever it appears. It turned one whole
   Conference into a direct answer to a real crisis in formation. It is also the internal teaching
   that a later report, carried to Africa and Rome, would eventually put under outside pressure.
-  Tours has nothing to say about this question at all. Its own corpus simply closed before the
+  Tours has nothing to say about this question at all. Its corpus simply closed before the
   question was ever raised.
 manifestations:
 - "Inst. XII's turn, at ch. 9, from pride to eleven chapters on grace: 'Not I, but the grace of God with me'"

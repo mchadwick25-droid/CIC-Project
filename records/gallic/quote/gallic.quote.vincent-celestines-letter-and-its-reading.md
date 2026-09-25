@@ -53,18 +53,17 @@ modern_lens_note: >-
   his own answer are part of the passage, not added by this record. His closing line states his own
   reading as a fact: novelty, not antiquity, is the one Celestine's letter silences.
 modern_rendering: >-
-  Holy Pope Celestine also speaks in the same way and to the same effect. He wrote a letter to the
-  priests of Gaul. In it he charged them with turning a blind eye to error. By their silence, they
-  had failed in their duty to the ancient faith. They had allowed unholy novelties to spring up. He
-  says: "We are rightly to blame if we encourage error by silence. Therefore rebuke these people.
-  Restrain their freedom to preach." But here someone may be unsure whom he means. Whose freedom to
-  preach as they please does he forbid? Is it the preachers of antiquity, or the inventors of
-  novelty? Let him tell us himself. Let him settle the reader's doubt himself. For he goes on: "If
-  this is the case (that is, if it is as certain people complain to me about your cities and
-  provinces. They complain that by your harmful pretence you cause them to agree to certain
-  novelties.) If this is the case, let novelty stop attacking antiquity." This, then, was the
-  ruling of blessed Celestine. It was not that antiquity should stop overthrowing novelty. It was
-  that novelty should stop attacking antiquity.
+  Holy Pope Celestine also speaks in the same way and with the same meaning. He wrote a letter to
+  the priests of Gaul, charging them with turning a blind eye to error. By keeping silent, they had
+  failed in their duty to the ancient faith and let unholy novelties spring up. In that letter he
+  says: "We deserve blame if we encourage error by our silence. So rebuke these people. Restrain
+  their freedom to preach." But here someone may be unsure whom he means. Whose freedom to preach as
+  they please is he forbidding: the preachers of antiquity, or the inventors of novelty? Let him
+  tell us himself. Let him settle the reader's doubt himself. For he goes on: "If this is the case —
+  and I mean what certain people have complained to me about your cities and provinces. They say
+  that by your harmful pretence you are leading them to agree to certain novelties. If this is the
+  case, let novelty stop attacking antiquity." This, then, was blessed Celestine's ruling: not that
+  antiquity should stop overturning novelty, but that novelty should stop attacking antiquity.
 relations:
 - type: associated-with
   target: gallic.force.contest-over-antiquity

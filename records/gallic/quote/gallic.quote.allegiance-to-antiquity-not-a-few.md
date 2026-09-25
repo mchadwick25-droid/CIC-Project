@@ -17,7 +17,7 @@ confidence:
     the Egyptian fathers rejected sackcloth.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.2 (npnf211 div iv.iii.i.ii, file lines 16667-16671): Cassian's own statement
+  locus: "Institutes I.2 (npnf211 div iv.iii.i.ii, file lines 16668-16672): Cassian's own statement
     that allegiance is owed to antiquity and consent, not to a few individuals' own inventions"
   license: public-domain
 retrieval:
@@ -50,7 +50,7 @@ relations:
   target: gallic.force.legitimacy-by-reception
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
-"unhesitating allegiance and"` returns line 16668; read with `sed -n '16664,16672p'`, inside `<div4
+"unhesitating allegiance and"` returns line 16668; read with `sed -n '16668,16672p'`, inside `<div4
 title="Chapter II..." ... id="iv.iii.i.ii">` (Institutes I.2, on the sackcloth rejected by the
 Egyptian fathers). The quoted span is one complete sentence, "For we ought to give unhesitating
 allegiance..." through "...to those that come after.", ending at its own period.

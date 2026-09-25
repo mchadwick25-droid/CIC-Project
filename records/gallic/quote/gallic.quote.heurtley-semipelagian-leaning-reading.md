@@ -19,7 +19,7 @@ confidence:
     record carries the editor's own reading as his, not as this record's independent finding.
 sources:
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: "Appendix III, Note on Section 85, Page 156 (npnf211 div iii.xxxvii, file lines 14887-14899):
+  locus: "Appendix III, Note on Section 85, Page 156 (npnf211 div iii.xxxvii, file lines 14887-14900):
     the editor's reading of Vincent's own handling of Celestine's letter"
   license: public-domain
 retrieval:
@@ -54,13 +54,13 @@ relations:
   target: gallic.force.contest-over-antiquity
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
-"The manner in which Vincentius deals"` returns line 14887; read with `sed -n '14886,14900p'`,
+"The manner in which Vincentius deals"` returns line 14887; read with `sed -n '14887,14900p'`,
 inside `<div2 title="Appendix III. Note on Section 85, Page 156." ... id="iii.xxxvii">`. The quoted
-span is one continuous passage (`<p id="iii.xxxvii-p5">`), "The manner in which Vincentius deals
-with this letter..." through "...fix it upon the opposite party.", ending at its own period. A
-translator's endnote listing four scholars who share this reading sits mid-sentence, between
-"Semipelagian leaning" and "His 'si ita est,'" and is excluded as apparatus per the fleet's own
-`<note>`-stripping convention - the sentence is continuous in the source once the note is removed.
+span is one continuous passage (`<p id="iii.xxxvii-p5">`) of two sentences, "The manner in which
+Vincentius deals with this letter..." through "...fix it upon the opposite party.", ending at its
+own period. A translator's endnote listing four scholars who share this reading falls between the
+two sentences, right after "Semipelagian leaning." and before "His 'si ita est,'" and is excluded
+as apparatus per the fleet's own `<note>`-stripping convention.
 
 Normalization: line breaks joined with single spaces; the source's own curly quotation marks around
 "si ita est" and "if the case be so" are rendered here as straight double quotes, the same marks in

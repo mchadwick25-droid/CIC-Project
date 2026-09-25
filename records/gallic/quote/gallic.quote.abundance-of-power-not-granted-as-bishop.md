@@ -17,7 +17,7 @@ confidence:
     before. Reported speech at one remove, addressed by Gallus to Sulpitius within the dialogue.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues II.4 (npnf211 div ii.iv.ii.iv, file lines 4038-4041): Gallus telling Sulpitius
+  locus: "Dialogues II.4 (npnf211 div ii.iv.ii.iv, file lines 4038-4043): Gallus telling Sulpitius
     what Martin used to say about having less power as bishop than he remembered having before"
   license: public-domain
 retrieval:
@@ -48,7 +48,7 @@ relations:
   target: gallic.gravity.virtus
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
-"such an abundance"` returns line 4038; read with `sed -n '4034,4042p'`, inside `<div4 ...
+"such an abundance"` returns line 4040; read with `sed -n '4038,4043p'`, inside `<div4 ...
 id="ii.iv.ii.iv">` (Dialogues II, Chapter IV, opening sentence). The quoted span is one complete
 sentence, "I have often noticed this, Sulpitius..." through "...obtained that office.", ending at
 its own period.

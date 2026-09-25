@@ -17,7 +17,7 @@ confidence:
     treated as a private fancy, if it stands against the consent of the fathers.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "ch. 28 [72] (npnf211 div iii.xxix, file lines 14268-14273): Vincent's own statement that
+  locus: "ch. 28 [72] (npnf211 div iii.xxix, file lines 14271-14275): Vincent's own statement that
     rank does not exempt a teacher's opinion from being weighed against the fathers' own consent"
   license: public-domain
 retrieval:
@@ -49,16 +49,15 @@ relations:
   target: gallic.force.legitimacy-by-reception
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
-"But whatsoever a teacher holds"` returns line 14271; read with `sed -n '14260,14274p'`, inside
+"But whatsoever a teacher holds"` returns line 14271; read with `sed -n '14260,14276p'`, inside
 `<div2 title="Chapter XXVIII. In what Way, on collating the consentient opinions of the Ancient
 Masters, the Novelties of Heretics may be detected and condemned." ... id="iii.xxix">` - the
-Commonitory's own Chapter XXVIII, section [72]. The host record's own prior citation of "ch. 22
-[53]" for this passage does not match this file's own division structure (`id="iii.xxix"`, div
-title "Chapter XXVIII"); this record cites the locus the vendored file itself gives. The quoted span
-is one complete clause, "But whatsoever a teacher holds..." through "...common, public, general
-persuasion", closing at the clause's own natural boundary rather than continuing into the source's
-own next clause ("lest, after the sacrilegious custom of heretics and schismatics..."), a separate
-warning about heresy that does not bear on this clause's own point about rank and private opinion.
+Commonitory's own Chapter XXVIII, section [72], confirming the locus the host record's own
+`sources[]` already gives for this passage. The quoted span is one complete clause, "But whatsoever
+a teacher holds..." through "...common, public, general persuasion", closing at the clause's own
+natural boundary rather than continuing into the source's own next clause ("lest, after the
+sacrilegious custom of heretics and schismatics..."), a separate warning about heresy that does not
+bear on this clause's own point about rank and private opinion.
 
 Normalization: line breaks joined with single spaces. No word was added, dropped, substituted, or
 reordered; no terminal punctuation is added after "persuasion" - the source's own sentence continues
