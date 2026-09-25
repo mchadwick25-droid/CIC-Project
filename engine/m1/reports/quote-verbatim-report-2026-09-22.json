@@ -195,13 +195,13 @@
     },
     "cappadocian": {
       "world": "cappadocian",
-      "total_quotes": 20,
-      "verified_count": 19,
+      "total_quotes": 21,
+      "verified_count": 20,
       "failed_count": 1,
       "exact_no_diff_count": 2,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 17,
+        "whitespace": 18,
         "case": 0,
         "punctuation": 4,
         "ellipsis": 1,
@@ -262,15 +262,15 @@
     },
     "gallic": {
       "world": "gallic",
-      "total_quotes": 85,
-      "verified_count": 84,
+      "total_quotes": 102,
+      "verified_count": 101,
       "failed_count": 1,
       "exact_no_diff_count": 0,
       "note_verified_count": 0,
       "class_counts": {
-        "whitespace": 84,
+        "whitespace": 101,
         "case": 5,
-        "punctuation": 22,
+        "punctuation": 26,
         "ellipsis": 8,
         "bracket": 1,
         "verse_number": 0,
@@ -336,8 +336,8 @@
     }
   },
   "totals": {
-    "total_quotes": 339,
-    "verified_count": 332,
+    "total_quotes": 357,
+    "verified_count": 350,
     "failed_count": 7,
     "note_verified_count": 1
   }

@@ -984,12 +984,12 @@ def test_gate_quote_verbatim_via_run_all_skips_residue_and_finds_nothing_fleet_w
 
 def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
     """Confirms letterform normalization changes no existing quote's
-    verdict unexpectedly: 339 quote records fleet-wide, 332 verified both
-    before and after this normalization was added, zero pass->fail flips,
-    zero fail->pass flips. No real quote today carries a long s, thorn,
-    or eth at all. The 332/339 split is pinned here as a permanent
-    regression guard against a future change silently breaking a
-    currently-verified quote."""
+    verdict unexpectedly. No real quote today carries a long s, thorn, or
+    eth at all, so the fleet's own verified count is untouched by this
+    normalization either way. The split below is pinned here as a
+    permanent regression guard against a future change silently breaking
+    a currently-verified quote - re-measure and update both numbers
+    together if the fleet's own quote count legitimately changes."""
     from engine.m1.loader import load_fleet_records, load_world_records
     from engine.m1.registry import formation_world_keys, load_registry
 
@@ -1002,5 +1002,5 @@ def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
             if rec.get("record_type") != "quote":
                 continue
             verdicts[rid] = verify_quote_record(rec, records, fleet).verified
-    assert len(verdicts) == 339, f"fleet quote-record count changed ({len(verdicts)}) - re-measure the pinned baseline above"
-    assert sum(verdicts.values()) == 332, f"fleet verified-quote count changed ({sum(verdicts.values())}) - re-measure the pinned baseline above"
+    assert len(verdicts) == 357, f"fleet quote-record count changed ({len(verdicts)}) - re-measure the pinned baseline above"
+    assert sum(verdicts.values()) == 350, f"fleet verified-quote count changed ({sum(verdicts.values())}) - re-measure the pinned baseline above"
