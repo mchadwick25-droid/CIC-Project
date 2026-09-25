@@ -407,6 +407,259 @@ def test_formation_confidence_field_itself_stays_protected(tmp_path):
 
 
 # ---------------------------------------------------------------------------
+# Widened SPOKEN_VOCAB_PATTERNS (2026-09-25, Mark's ruling: "yes, widen the
+# fleet checks" - see the owning Decision-Log). True positives are drawn
+# from real, still-unfixed fleet text (git-visible on main at the time this
+# test was written); true negatives are drawn from real clean fields on
+# main, chosen specifically because they use the same everyday words
+# ("formation", "primary", "supporting") the new patterns must not trip on.
+# ---------------------------------------------------------------------------
+
+_NEW_SPOKEN_VOCAB_KEYS = {
+    "six-test-vocabulary", "cross-check-label", "gravity-classification-label",
+    "all-caps-section-header", "matrix-cell-code", "build-history-language",
+}
+
+
+def _new_pattern_hits(path: str):
+    surface = next((s for s, roots in clc.SURFACES.items() if any(path.startswith(r + "/") for r in roots)), "records")
+    hits = clc.scan_file(REPO, REPO / path, surface)
+    return [h for h in hits if set(h.patterns) & _NEW_SPOKEN_VOCAB_KEYS]
+
+
+def _gravity_record(name: str, description: str) -> str:
+    return (
+        "---\n"
+        "id: fix.gravity.example\n"
+        "record_type: gravity\n"
+        f"name: {name}\n"
+        f"description: '{description}'\n"
+        "status: draft\n"
+        "---\n"
+    )
+
+
+def test_six_test_name_with_colon_rewrites(tmp_path):
+    # Real shape from don.gravity.rebaptism-boundary-marking.md: each of
+    # the six tests named as its own labelled clause.
+    text = _gravity_record(
+        "Rebaptism as Boundary-Marking Practice",
+        "Repetition: attested across multiple independent sources. Dependency: membership "
+        "status depends on it directly.",
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    by_line = {h.line: h for h in hits}
+    assert "six-test-vocabulary" in by_line[5].patterns
+    assert by_line[5].category == "REWRITE"
+
+
+def test_six_test_name_lowercase_with_test_word_rewrites(tmp_path):
+    # Real shape from desert.gravity.koinonia.md: lowercase test names in a
+    # list, but "the Persistence test" (capitalised, literal word "test"
+    # right after) is what actually trips the pattern.
+    text = _gravity_record(
+        "Koinonia",
+        "Strong within the corpus on every test - repetition, dependency, formation, "
+        "explanatory power - but fails the Persistence test outright.",
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+    assert hits[0].category == "REWRITE"
+
+
+def test_pass_fail_grading_rewrites(tmp_path):
+    text = _gravity_record(
+        "Example Gravity",
+        "Doc_04 SS3.2: PRIMARY, 6/6 tests PASS (strong). Repetition PASS; Interaction PASS.",
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+
+
+def test_author_gravity_risk_rewrites(tmp_path):
+    # Real phrase from don.gravity.church-of-the-martyrs.md.
+    text = _gravity_record(
+        "Church of the Martyrs",
+        "the least Author-Gravity-encumbered Primary in this world. AUTHOR-GRAVITY RISK "
+        "FLAGGED AT GENERATION: Low.",
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "six-test-vocabulary" in hits[0].patterns
+
+
+def test_cross_check_label_rewrites(tmp_path):
+    text = _gravity_record("Example", "No Confidence/Gravity Cross-Check divergence - agrees throughout.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "cross-check-label" in hits[0].patterns
+
+
+def test_bracketed_classification_tag_in_name_field_rewrites(tmp_path):
+    # Real, fleet-wide shape (confirmed live on alx/hal, the fleet's own
+    # exemplar worlds, not just un-re-voiced ones): engine/m4/
+    # citation_cards.py's own _short_name already strips this tag before a
+    # citation card shows it, but engine/m2/builders.py build_prompt()'s
+    # own Gravities-list line (`g.get('name')`) does not - the raw tag
+    # reaches the model's own prompt context unstripped every turn.
+    text = _gravity_record("Divine Pedagogy [SUPPORTING - explanatory framework]", "plain description text here.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    by_line = {h.line: h for h in hits}
+    assert "gravity-classification-label" in by_line[4].patterns
+
+
+def test_confirmed_primary_classification_rewrites(tmp_path):
+    text = _gravity_record("Example", "Confirmed PRIMARY (Doc_04 SS3.3, SS4), the strongest candidate.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "gravity-classification-label" in hits[0].patterns
+
+
+def test_supporting_rather_than_primary_rewrites(tmp_path):
+    text = _gravity_record("Example", "Dependency revealing Supporting rather than Primary status.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "gravity-classification-label" in hits[0].patterns
+
+
+def test_tier_number_rewrites(tmp_path):
+    text = _gravity_record("Example", "Built from Doc_06 entry 23 (Tier 2), a later hagiographic source.")
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "gravity-classification-label" in hits[0].patterns
+
+
+def test_layer_headers_rewrite(tmp_path):
+    # Real shape from don.force.sustained-purity-rebaptism-practice.md.
+    text = (
+        "---\n"
+        "id: fix.force.example\n"
+        "record_type: force\n"
+        "name: Example Force\n"
+        "description: >-\n"
+        "  LAYER 1 -- HISTORICAL EVENT: the purity doctrine operated as follows.\n"
+        "  LAYER 2 -- THE WORLD'S OWN EXPERIENCE: to belong here was to have been washed again.\n"
+        "  LAYER 3 -- FORMATION IMPACT: this is central to the world's own life.\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/force/fix.force.example.md")
+    layer_lines = [h for h in hits if "all-caps-section-header" in h.patterns]
+    assert len(layer_lines) == 3
+
+
+def test_cross_cell_connection_rewrites(tmp_path):
+    text = (
+        "---\n"
+        "id: fix.force.example\n"
+        "record_type: force\n"
+        "name: Example Force\n"
+        "description: >-\n"
+        "  CROSS-CELL CONNECTION (Doc_08 Section 4, Connection 2): reinforces the parallel force.\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/force/fix.force.example.md")
+    assert any("all-caps-section-header" in h.patterns for h in hits)
+
+
+def test_matrix_cell_code_rewrites(tmp_path):
+    # Real shape from don.force.sustained-purity-rebaptism-practice.md and
+    # don.force.caecilianist-victory-selects-survivors.md.
+    for text_body in ("Doc_08 Cell 2B, Force 2B-1.", "Doc_08 Cell 3B, Force 3B-2, the transmission dimension."):
+        text = _gravity_record("Example Gravity", text_body).replace("record_type: gravity", "record_type: force")
+        hits = _hits_for(text, tmp_path, "records/fix/force/fix.force.example.md")
+        assert any("matrix-cell-code" in h.patterns for h in hits), text_body
+
+
+def test_bracketed_matrix_cell_code_rewrites(tmp_path):
+    text = _gravity_record("Example Force", "operates as [2B - ongoing/internal] throughout the window.").replace(
+        "record_type: gravity", "record_type: force"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/force/fix.force.example.md")
+    assert any("matrix-cell-code" in h.patterns for h in hits)
+
+
+def test_build_history_language_rewrites(tmp_path):
+    text = _gravity_record(
+        "Example", "Finding S4 from this build's own review process revised the original assessment."
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert "build-history-language" in hits[0].patterns
+
+
+# --- True negatives: ordinary English on the same vocabulary -----------
+
+def test_ordinary_formation_usage_not_flagged(tmp_path):
+    # Real sentence from pahc's own (clean) world_core.formation_logic:
+    # "Formation" capitalised only because it is sentence-initial, not a
+    # test-battery label.
+    text = (
+        "---\n"
+        "id: fix.core.example\n"
+        "record_type: world_core\n"
+        "formation_logic: 'Household- and correspondence-based pastoral formation. Formation "
+        "here never resolves into one settled office.'\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/world_core/fix.core.example.md")
+    assert hits == []
+
+
+def test_ordinary_primary_and_supporting_prose_not_flagged(tmp_path):
+    text = _gravity_record(
+        "Example",
+        "This was the primary reason households stayed connected, and letters were written in "
+        "support of that claim.",
+    )
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert hits == []
+
+
+def test_numbered_editorial_caution_labels_not_flagged(tmp_path):
+    # Real shape from pahc.core.house-church.md's own `cautions` field -
+    # this world's own invented organizing labels, not a copied
+    # build-template header. The generic "2+ capitalised words" rule this
+    # test guards against was tried and dropped for exactly this false
+    # positive.
+    text = (
+        "---\n"
+        "id: fix.core.example\n"
+        "record_type: world_core\n"
+        "cautions: '1) THE IGNATIUS CONCENTRATION governs every use here. 2) STRAND DISCIPLINE: "
+        "both patterns held, neither wrong.'\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/world_core/fix.core.example.md")
+    assert hits == []
+
+
+def test_ordinary_cross_check_verb_not_flagged(tmp_path):
+    text = _gravity_record("Example", "A reader should cross check this claim against the primary sources.")
+    hits = _new_pattern_hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    assert hits == []
+
+
+def _new_pattern_hits_for(text: str, tmp_path: Path, rel: str):
+    hits = _hits_for(text, tmp_path, rel)
+    return [h for h in hits if set(h.patterns) & _NEW_SPOKEN_VOCAB_KEYS]
+
+
+def test_real_fleet_true_positives_still_match_on_main():
+    # Confirms the patterns fire against the real, currently-unfixed files
+    # on disk (not just synthetic examples) - each is inside an open
+    # re-voicing PR's own scope (desert #547, don #551).
+    assert _new_pattern_hits("records/don/gravity/don.gravity.rebaptism-boundary-marking.md")
+    assert _new_pattern_hits("records/desert/gravity/desert.gravity.koinonia.md")
+    assert _new_pattern_hits("records/don/force/don.force.sustained-purity-rebaptism-practice.md")
+
+
+def test_real_clean_field_on_main_not_flagged():
+    # pahc.core.house-church.md's own `cautions` field (numbered editorial
+    # labels, not build-template headers) stays clean under the widened
+    # patterns.
+    hits = _new_pattern_hits("records/pahc/world_core/pahc.core.house-church.md")
+    assert hits == []
+
+
+# ---------------------------------------------------------------------------
 # Hand-labelled sample: precision/recall (PR A's own required measurement)
 # ---------------------------------------------------------------------------
 
@@ -487,10 +740,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # re-pinned to a still-live r27_enforce assertion in the same file.
     ("engine/m4/tests/test_turn.py", 1124, "REWRITE"),
     ("engine/m4/reports/live-table-battery-monologue-fix-2026-09-05.json", 300, "PROTECTED"),
-    # Refreshed 2026-09-25 (System Health PR removed the ACCEPTED_OPEN
-    # waivers two lines above this one): the same comment block shifted
-    # from 139 to 137, still an iso-date hit.
-    ("engine/m9/enforce.py", 137, "REWRITE"),
+    # Refreshed 2026-09-25 (fleet-checks-widening PR added eleven
+    # m1:readability waivers above this comment block): the same comment
+    # block shifted from 137 to 161, still an iso-date hit.
+    ("engine/m9/enforce.py", 161, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 4464, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 243, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 154, "PROTECTED"),
@@ -500,7 +753,15 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("fixtures/seeded_defects.yaml", 191, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
     ("records/cappadocian/voice_craft/cappadocian.voice.craft.md", 106, "REWRITE"),
-    ("records/fix/voice_craft/fix.craft.vera-voice.md", 29, "REWRITE"),
+    # Refreshed 2026-09-25 (fleet-checks-widening PR): the original
+    # fix.craft.vera-voice.md:29 "REVISED 2026-09-19" line was itself
+    # cleaned as part of that PR (the file's `guard` field was rewritten
+    # for FK/FRE, which obligated removing the file's own pre-existing
+    # commentary too, per CLAUDE.md's "any PR that edits a live file also
+    # removes the commentary already in it"). Re-pinned to a fresh
+    # gravity-classification-label hit, not yet touched by any re-voicing
+    # PR.
+    ("records/alx/force/alx.force.scripture-ongoing.md", 29, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
     ("records/hal/force/hal.force.clerical-precarity.md", 52, "REWRITE"),
     # Refreshed 2026-09-25 (Live-Surface-Cleanup Step 4/Item A prep): the

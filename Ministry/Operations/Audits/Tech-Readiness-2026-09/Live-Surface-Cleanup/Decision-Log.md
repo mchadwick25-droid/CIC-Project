@@ -1124,3 +1124,102 @@ touches each file, rather than swept in its own dedicated pass. This entry is th
 record.
 
 ---
+
+**Entry 12 — 2026-09-25, "yes, widen the fleet checks" (Mark's ruling) and "yes, merge verified
+PRs" (Mark's ruling), same session.**
+
+Root cause this ruling answers: every re-voicing and rendering PR up to this point carried build
+vocabulary and readability slips into spoken text that neither `tools/check_live_commentary.py`
+nor `gate_readability` (`engine/m1/gates.py`) caught on their own — only a per-PR Opus adversarial
+review did. Mark's ruling: *"yes, widen the fleet checks."*
+
+Widened, both mechanically:
+
+- `tools/check_live_commentary.py`'s `SPOKEN_VOCAB_PATTERNS` gained six new patterns, scoped (like
+  the five already there) to a record's own declared SPOKEN fields only: `six-test-vocabulary`
+  (Doc_04's Repetition/Dependency/Formation/Explanatory Power/Persistence/Interaction test names,
+  PASS/FAIL grading, `SIX-TEST`/`N/6 tests`, `AUTHOR-GRAVITY RISK`), `cross-check-label`,
+  `gravity-classification-label` (Primary/Supporting/Tensional as a gravity class, `Tier N`),
+  `all-caps-section-header` (literal build-template headers — `LAYER 1/2/3`, `SIX-TEST SUMMARY`,
+  `CROSS-CELL CONNECTION`, `WHY PRIMARY RATHER THAN SUPPORTING` — not a generic
+  "2+ capitalised words" rule: that generic version was tried first and dropped after it flagged
+  `pahc.core.house-church.md`'s own clean `cautions` field, which numbers its points with
+  invented editorial labels, not copied build-template headers), `matrix-cell-code` (Doc_08's
+  `Cell 2B`/`Force 2B-1`/`[2B - ongoing/internal]` notation), and `build-history-language`
+  (`Finding S4`, "an earlier version," "this build's own," "original assessment" — "Round N" was
+  already caught fleet-wide by the existing `review-round` pattern and is not re-declared). Still
+  report-only (never fails CI — `.github/workflows/ci.yml`'s "Live-surface commentary scan
+  (report-only)" job, unchanged). Fleet hit count from the new patterns alone, current main (PR
+  #547 already merged, desert's own count below is post-merge): 741 across 12 worlds (don 195,
+  lpc 148, witt 128, gallic 81, cappadocian 74, alx 28, desert 22, pahc 20, hal 17, ijc 16, rzg 6,
+  syr 6) — every one pre-existing content the narrower pattern set never saw, not new drift. A
+  widespread, previously-invisible finding among these: gravity/force
+  `name` fields fleet-wide (found even on alx and hal, the fleet's own exemplar worlds) carry a
+  bracketed build-taxonomy tag (`"Divine Pedagogy [SUPPORTING - explanatory framework]"`) that
+  `engine/m4/citation_cards.py`'s own `_short_name` already strips before a citation card shows
+  it, but `engine/m2/builders.py` `build_prompt()`'s own Gravities-list line (`g.get('name')`)
+  does not — the raw tag reaches the model's own prompt context, unstripped, every turn, for
+  every gravity in the fleet. Flagged here as a recommended follow-up (a `build_prompt()` fix, not
+  a per-record rewrite) rather than fixed in this PR, which was scoped to the checks themselves.
+- `gate_readability` (`engine/m1/gates.py`, registered in `gates.GATES`, CI-blocking via
+  `engine.m9.cli check`) widened from four hand-listed fields (`term.quick_meaning`/
+  `plain_meaning`, `honest_limit.statement`, `quote.modern_rendering`, `voice_craft.identity`/
+  `guard`/`flavor_notes[].note`/`characteristic_concerns[]`) to every field
+  `engine/m1/spoken_fields.py`'s own `SPOKEN_FIELDS` registry declares under an
+  `instruction`/`voice-diet`/`evidence-head` role (`fields_with_role`, already built for exactly
+  this reuse) — `gravity.description` and `force.description` by name, plus `world_core`'s four
+  fields, `fleet_voice`'s six, `story.tellable_as`, `demonstration.exchange`,
+  `doctrinal_witness.text`/`positions`, `contested_claim.claim`, `figure.bridge_line`, and
+  `ambient.detail`. `participant-label` fields (a term's `world_word`, a figure's `names`, a
+  quote's `speaker_or_author`/`sources`, a source's `work`, and gravity/force's own `name`) stay
+  ungraded by design — short labels and proper nouns, not composed prose. `quote.text` and
+  `story.text` stay excluded by the same design already in force for `modern_rendering`/
+  `tellable_as`: each is the record's own verbatim/archaic original, never pressured toward a
+  grade level. Second scored threshold added: Flesch Reading Ease, `FRE_FLOOR = 60` — the North
+  Star decision's own already-ruled number (`reference/method/Pass2-decisions/
+  VR_1A_NorthStar_Readability_Target_2026-08-09.md`, "RULED — hard edge": "Any single emitted turn
+  breaching FK <= 10 / FRE >= 60 fails the world"), not an invented one; `engine/m1/fk.py` gained
+  `fre_score` using the identical word/sentence/syllable counts `fk_grade` already computes. The
+  North Star decision's FK-8 band floor stays report-only, not gated, exactly as that decision
+  itself rules ("reported, not failed... FLATTENING, not FK, guards against emptiness"); a
+  sentence-length ceiling (CLAUDE.md's "practical shape" guidance, ~25 words) was considered and
+  NOT added — `engine.m1.cross_world.observe_register_profile` already measures sentence length
+  per spoken field and stays deliberately OBSERVATION-only pending Ruling R6
+  (`Ministry/Features/Conversation-Transparency-Engine/Rulings-Pending.md`), which has not yet
+  been made; gating on it here would pre-empt that open ruling, not honor "don't invent new
+  thresholds."
+
+  Full-fleet run (11 built/admitted/open worlds; `lpc` is not yet in the registry and is not
+  checked by this gate; `fix`, the fixture world, must stay 100% clean and was — six of its own
+  clean fixture records scored over the new ceiling/under the new floor purely because the wider
+  gate now grades fields they were never checked against before; each was shortened in place,
+  meaning unchanged, `fix.craft.vera-voice.md`'s own pre-existing "REVISED 2026-09-19" commentary
+  removed in the same edit per `CLAUDE.md`'s "any PR that edits a live file also removes the
+  commentary already in it," `fix` now scores 0 findings on every registered gate; desert's own
+  count below is measured post-merge of PR #547, which landed while this PR was in progress):
+  alx 149, cappadocian 322, desert 163, don 368, gallic 135, hal 165, ijc 163, pahc 162, rzg 137,
+  syr 155, witt 235 — 2,154 total, none of it new drift, all of it pre-existing content the
+  narrower field set never graded. No record text in a real world was rewritten in this PR — every one of these
+  11 counts is registered as its own dated `ACCEPTED_OPEN` waiver in `engine/m9/enforce.py`
+  (deadline 2026-12-14, the same deadline convention already used for this fleet's other live
+  content-fix waivers), so `engine.m9.cli check` stays clean and CI is not broken by the widening
+  itself. Three worlds' waivers name a re-voicing PR narrowing part of their count for
+  gravity/force description: desert's own PR #547 merged while this PR was in progress and its
+  count above is already measured post-merge; witt's (#545) and don's (#551) are still open and
+  their counts above are still pre-merge. None of the three closes its world's waiver outright,
+  since every other newly-covered field (positions, exchange, claim, bridge_line, detail, the
+  world_core/fleet_voice fields) is still outstanding regardless. The other eight worlds' waivers
+  have no PR narrowing them yet.
+
+  Mark and the managing thread decide, from these counts, when either check moves from report-only
+  toward enforcement narrower than "everything is waived" — nothing here pre-empts that decision.
+
+Second ruling, same session: *"yes, merge verified PRs."* The managing thread may merge a PR
+itself, without asking Mark first, once an independent review has passed, CI is green on the
+current head, and there is no merge conflict. Mark still personally approves: a promotion from
+`main` to `live`, any change to `CLAUDE.md` or `reference/method`, any participant-visible app
+change, and anything a review or the managing thread flags for him directly. This does not change
+who owns driving a PR to green in the first place (`babysit`/`steward` discipline, unchanged) —
+only who clicks merge once it is there.
+
+---

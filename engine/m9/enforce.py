@@ -131,6 +131,30 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:voice-perspective/syr": Waiver(count=1, deadline="2026-12-14", owner="D2 SS1.3(e) - syr's own known voice-perspective gap; syr's build thread"),
     "m9:shelf-row/rzg": Waiver(count=10, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
     "m9:shelf-row/witt": Waiver(count=47, deadline="2027-03-15", owner="CO-5/RF-6: blocked until corpus-map's CM-1 lands - no row_id exists to copy before then and the no-guessing rule forbids inventing one; date is a ceiling, not a real target - revisit when CM-1 lands"),
+    # gate_readability now covers every field engine/m1/spoken_fields.py
+    # declares under an instruction/voice-diet/evidence-head role, not
+    # just term/honest_limit/quote.modern_rendering/voice_craft - so it
+    # scores gravity.description and force.description, plus a second
+    # threshold (FRE >= 60, alongside the existing FK <= 10 ceiling).
+    # None of these eleven counts is new drift - every one is
+    # pre-existing content the narrower gate never graded, surfaced the
+    # day the gate widened to cover it (see the owning Decision-Log for
+    # the ruling and the full fleet numbers). Three worlds have an open
+    # re-voicing PR narrowing part of this count (gravity/force
+    # description only; every other newly-covered field, and the
+    # remaining worlds entirely, still needs its own pass) - named
+    # per-world below rather than assumed closed by a PR still in review.
+    "m1:readability/alx": Waiver(count=149, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; alx's own build thread"),
+    "m1:readability/cappadocian": Waiver(count=322, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; cappadocian's own build thread"),
+    "m1:readability/desert": Waiver(count=163, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; desert's own re-voicing PR (#547) merged and already narrowed the gravity/force description share of this count; the rest (world_core and every other newly-covered field) is desert's own build thread"),
+    "m1:readability/don": Waiver(count=368, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; don's own re-voicing PR (#551) narrows the gravity/force/world_core share of this; the rest (every other newly-covered field) is don's own build thread"),
+    "m1:readability/gallic": Waiver(count=135, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; gallic's own build thread"),
+    "m1:readability/hal": Waiver(count=165, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; hal's own build thread"),
+    "m1:readability/ijc": Waiver(count=163, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; ijc's own build thread"),
+    "m1:readability/pahc": Waiver(count=162, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; pahc's own build thread"),
+    "m1:readability/rzg": Waiver(count=137, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; rzg's own build thread"),
+    "m1:readability/syr": Waiver(count=155, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; not yet re-voiced; syr's own build thread"),
+    "m1:readability/witt": Waiver(count=235, deadline="2026-12-14", owner="pre-existing content, newly graded by the widened field coverage; witt's own re-voicing PR (#545) narrows the gravity/force description share of this; the rest (every other newly-covered field) is witt's own build thread"),
 }
 
 # The five m1:readability/{desert,don,ijc,pahc,syr} waivers registered

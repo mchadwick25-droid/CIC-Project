@@ -181,6 +181,105 @@ SPOKEN_VOCAB_PATTERNS: dict[str, re.Pattern[str]] = {
     "confidence-predicate": re.compile(
         r"\bis\s+(Documented|Widely Accepted|Dominant Modern Reconstruction|Contested|Inferential-Thin)\b"
     ),
+    # Widened 2026-09-25 (Mark's ruling, same date - see the owning
+    # Decision-Log) after every re-voicing/rendering PR so far had only
+    # Opus's own per-PR read catching this: Doc_04's own six-test
+    # vocabulary (Repetition/Dependency/Formation/Explanatory Power/
+    # Persistence/Interaction), PASS/FAIL grading, and "Cross-Check" -
+    # used as a label, a grade, or a named member of the test battery,
+    # never as ordinary English. Confirmed live in un-re-voiced gravity/
+    # force descriptions: records/don/gravity/
+    # don.gravity.rebaptism-boundary-marking.md ("Repetition: Doc_02
+    # SS1..."; "Repetition PASS...Persistence PASS...Interaction PASS"),
+    # records/desert/gravity/desert.gravity.koinonia.md ("on every test -
+    # repetition, dependency, formation, explanatory power - but fails the
+    # Persistence test outright"), records/cappadocian/gravity/
+    # cappadocian.gravity.athens-fishermen.md ("SIX-TEST SUMMARY (Doc_04
+    # SS3.1): strong on Repetition..."). Each sub-pattern anchors to a
+    # label shape (an immediate colon, "test(s)", PASS/FAIL, or the
+    # literal SIX-TEST/6-of-6 marker) specifically so an ordinary sentence
+    # using "formation" or "persistence" as plain English - e.g. pahc's
+    # own formation_logic field, "Formation here never resolves into..." -
+    # never trips it: no colon, no "test", no PASS/FAIL follows.
+    "six-test-vocabulary": re.compile(
+        r"\b(Repetition|Dependency|Formation|Explanatory\s+[Pp]ower|Persistence|Interaction)\s*:|"
+        r"\b(Repetition|Dependency|Formation|Explanatory\s+[Pp]ower|Persistence|Interaction)\s+"
+        r"tests?\b|"
+        r"\b(Repetition|Dependency|Formation|Explanatory\s+[Pp]ower|Persistence|Interaction)\s+"
+        r"(PASS|FAIL)\b|"
+        r"\bSIX-TEST\b|\bsix-test\b|\b[0-6]/6\s+tests?\b|\bAUTHOR-GRAVITY[\s-]RISK\b|"
+        r"\bAuthor-Gravity[\s-](encumbered|risk)\b",
+        re.IGNORECASE,
+    ),
+    "cross-check-label": re.compile(r"\bCross-Check\b"),
+    # Doc_04's own three-way gravity class (Primary/Supporting/Tensional)
+    # and a general "Tier N" ranking, used as a classification label
+    # rather than ordinary English - anchored to a verb of classifying, a
+    # "rather than" contrast between two of the three class names, or a
+    # noun ("gravity"/"gravities"/"status"/"classification") the label
+    # itself governs, so an ordinary sentence using "primary" or
+    # "supporting" (e.g. "the primary reason," "in support of that claim")
+    # never trips it. Confirmed live: don.gravity.rebaptism-boundary-
+    # marking.md ("Doc_04 SS3.2: PRIMARY, 6/6 tests PASS"),
+    # don.gravity.church-of-the-martyrs.md ("Confirmed PRIMARY (Doc_04
+    # SS3.3, SS4)"), desert.gravity.koinonia.md ("Classified Supporting...
+    # within the context Primary gravities establish"),
+    # don.contested_claim.parallel-hierarchy.md ("Dependency revealing
+    # Supporting rather than Primary status").
+    "gravity-classification-label": re.compile(
+        r"\b(Confirmed|[Rr]eclassified|[Cc]lassified(?:\s+as)?)\s+"
+        r"(PRIMARY|Primary|SUPPORTING|Supporting|TENSIONAL|Tensional)\b|"
+        r"\b(PRIMARY|SUPPORTING|TENSIONAL)\b|"
+        r"\b(Primary|Supporting|Tensional)\s+(rather than|status|gravit(y|ies)|classification)\b|"
+        r"\brather than\s+(Primary|Supporting|Tensional)\b|"
+        r"\bTier\s+\d\b"
+    ),
+    # All-caps section headers copied straight out of a construction
+    # document's own layout - Doc_08's LAYER 1/2/3 dimensions and its own
+    # named cross-references, Doc_04's SIX-TEST summary header and its own
+    # classification question. Named literally, one phrase per real header
+    # found live, rather than a generic "2+ capitalised words" rule: a
+    # generic rule also matched a genuinely clean field on first pass -
+    # pahc.core.house-church.md's own `cautions` field numbers its points
+    # with short invented labels ("1) THE IGNATIUS CONCENTRATION governs
+    # ...", "3) DATING HUMILITY: ...") that are this world's own editorial
+    # organization, not a copied build-template header; a literal-phrase
+    # list does not fire on it. Confirmed live: don.force.sustained-
+    # purity-rebaptism-practice.md ("LAYER 1 -- HISTORICAL EVENT", "LAYER
+    # 2 -- WORLD'S OWN EXPERIENCE", "CROSS-CELL CONNECTION (Doc_08 Section
+    # 4, Connection 2)"), don.gravity.church-of-the-martyrs.md ("SIX-TEST
+    # REASONING CARRIED IN FULL").
+    "all-caps-section-header": re.compile(
+        r"\bLAYER\s+[123]\b|"
+        r"\bSIX-TEST\s+(SUMMARY|REASONING)\b|"
+        r"\bCROSS-CELL\s+CONNECTION\b|"
+        r"\bCONFIDENCE/GRAVITY\s+CROSS-CHECK\b|"
+        r"\bWHY\s+(PRIMARY|SUPPORTING|TENSIONAL)\s+RATHER\s+THAN\s+(PRIMARY|SUPPORTING|TENSIONAL)\b|"
+        r"\bINSTITUTIONAL\s+SEPARATION\s+IS\s+REAL\b"
+    ),
+    # Doc_08's own six-cell matrix notation - a bracketed cell code, or
+    # "Cell"/"Force" immediately followed by the matrix's own <row-digit>
+    # <column-letter> shape. Confirmed live: don.force.sustained-purity-
+    # rebaptism-practice.md ("Doc_08 Cell 2B, Force 2B-1"),
+    # don.force.caecilianist-victory-selects-survivors.md ("Doc_08 Cell
+    # 3B, Force 3B-2").
+    "matrix-cell-code": re.compile(
+        r"\bCell\s+\d[A-Z]\b|\bForce\s+\d[A-Z]-\d\b|\[\d[A-Z]\s*-\s*[a-z][a-z/]*\]"
+    ),
+    # Review/build-history narration inside a spoken field specifically -
+    # a leak this project's fleet-voice bar (CLAUDE.md: no AI tells, no
+    # "generic academic phrasing") already forbids on independent grounds,
+    # named here because none of the patterns above catch it. "Round N" is
+    # already caught project-wide by PATTERNS["review-round"] above (any
+    # surface, not just spoken fields) and is not re-declared here.
+    "build-history-language": re.compile(
+        r"\bFinding\s+S\d+\b|"
+        r"\ban earlier (version|draft|assessment)\b|"
+        r"\bthis (build|record)'?s? own (earlier|prior|original)\b|"
+        r"\boriginal assessment\b|"
+        r"\bDoc_0\d\s+later\b",
+        re.IGNORECASE,
+    ),
 }
 
 # A line whose ENTIRE value is a bare date - `sealed_at: '2026-08-20'`,
