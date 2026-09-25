@@ -29,6 +29,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: lpc.limit.411-gesta-unread
+- type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved

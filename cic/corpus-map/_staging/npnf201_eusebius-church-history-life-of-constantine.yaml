@@ -102,6 +102,32 @@ assignments:
     among the movements it lists.
 
     '
+- work: The Church History of Eusebius (Historia Ecclesiastica), Book VIII.13 and IX.6 (the
+    martyrdom of Lucian of Antioch)
+  author: eusebius
+  locus: 'Book VIII, ch. 13.2 (line 44730) and Book IX, ch. 6.3 (line 48001) - Eusebius''s
+    own notices of the martyrdom of Lucian of Antioch, presbyter and Biblical text-critic,
+    at Nicomedia under Maximinus, c. 311-312'
+  atlas_ids:
+  - antiochene-church-third-century
+  role: context
+  confidence: assigned
+  note: 'This world''s census entry names Lucian of Antioch as one of its five voices ("biblical
+    text-critic and martyr in 312, whose pupils, Arius among them, called themselves
+    Lucianists") and cites exactly these two loci (Eusebius VIII.13.2 and IX.6.3) as his primary
+    attestation, but neither had been corpus-mapped before this pass. Verified directly: VIII.13.2
+    (line 44730) names "Lucian... a presbyter of that parish [Antioch], whose entire life was
+    most excellent," martyred at Nicomedia; IX.6.3 (line 48001) gives the fuller account - "a
+    presbyter of the parish at Antioch, and a most excellent man in every respect... brought to
+    the city of Nicomedia... after delivering before the ruler an apology for the doctrine which
+    he professed, was committed to prison and put to death." Book IX''s own endnote cross-references
+    Jerome''s De Viris Illustribus ch. 77 for the same figure - see the separate npnf203 entry
+    added the same pass. `role: context`: Eusebius reports Lucian''s martyrdom and reputation as
+    an outside near-contemporary historian, not Lucian''s own surviving voice (his own works do
+    not survive in any PD English translation - see the dossier''s own §5 floor-question note,
+    which this does not resolve, only corroborate the figure''s historicity).
+
+    '
 - work: Martyrs of Palestine
   author: eusebius
   locus: div2 3.14 — Martyrs of Palestine (between Books VIII and IX)

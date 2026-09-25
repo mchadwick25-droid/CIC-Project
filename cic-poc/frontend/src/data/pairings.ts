@@ -1,10 +1,9 @@
 /**
  * The Table's recommended seatings - the launch tray's guidance data,
  * carried verbatim in substance from the C6 pairing record
- * (Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md). DRAFT
- * status: that document is still pending approval; refining these
- * suggestions is a data edit here, never a code change - exactly the
- * module boundary the launch system's design asked for.
+ * (Ministry/Technology/CiC_Table_Pairings_V1_2026-08-28.md). Refining
+ * these suggestions is a data edit here, never a code change - exactly
+ * the module boundary the launch system's design asked for.
  *
  * P4 (hal + desert) is deliberately NOT offered: the C6 record schedules
  * it for battery-accompanied runs, not first public offering.

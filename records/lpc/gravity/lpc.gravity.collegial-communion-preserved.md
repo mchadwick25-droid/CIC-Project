@@ -30,6 +30,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: lpc.witness.communion-over-separation
+- type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with
   target: lpc.gravity.penitential-discipline
