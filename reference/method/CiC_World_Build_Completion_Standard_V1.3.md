@@ -6,8 +6,8 @@ M; drafted same day, adopted as drafted).** Source: Pass 1 §11
 the Pass 2 blueprint, with what Pass 2 actually established folded in
 throughout. Per §E below: changes to this standard are Change Orders,
 never silent edits; a world freezes against the version in force when
-its build began. The machine gates (`cic-poc/backend/wrs/gates/`) cite
-this document as the requirements source.
+its build began. The machine gates this standard relies on live in
+`engine/m1/gates.py`.
 
 One document, existing before a world is built, checked at freeze,
 every check producing a saved artifact. It resolves the circular freeze

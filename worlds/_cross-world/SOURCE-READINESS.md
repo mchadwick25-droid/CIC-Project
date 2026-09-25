@@ -6,12 +6,13 @@ every candidate world on the Atlas gets a Source Readiness Dossier
 `worlds/_cross-world/dossiers/<world-slug>_Source_Readiness_Dossier.md`,
 ready for whichever build thread eventually needs it. Producing one is not
 tied to a build being scheduled; a world can have a dossier years before
-anyone drafts its Doc_01. The build-side consequence of this is a hard gate:
-no world's Doc_02 (Source Ecology) may begin drafting until its dossier
-exists. If none exists when a build thread reaches Doc_02, it **stops** and
-asks for one rather than starting Doc_02 from a cold search — but by the
-time most worlds reach that point, the dossier should already be sitting
-there waiting, not freshly requested.
+anyone drafts its Doc_01. The source-research thread also owns the
+world's Step 0, Doc_01 and Doc_02, through review until each is approved
+to proceed. The world build starts at Step 3, and only when the handoff
+package is complete; it never redoes Steps 0–2 or the library search. If
+the package is incomplete, the build thread **stops** and asks for what
+is missing. The full rule is in
+`reference/method/CiC_Record_Native_World_Build_Process_V1.7.md`, §2.
 
 ## Why this exists
 
@@ -44,9 +45,9 @@ source-research session, run the same way against a candidate world's
 time-window/region as the proactive-acquisition work `CLAUDE.md`'s "Scaling
 the build" section already describes). It is not written by the build thread
 itself — the whole point is that it reflects the corpus-wide view a
-single-world build thread doesn't have. A build thread that reaches Doc_02
-with no dossier on file should ask for one rather than write its own
-narrower substitute.
+single-world build thread doesn't have. A build thread never writes its own
+narrower substitute: it starts at Step 3 from a complete handoff package,
+and asks the source-research thread for anything missing.
 
 **Coverage target: every candidate on the Atlas, not just the next three
 worlds in line.** Any movement carrying "Possible Future World (on record)"
@@ -96,13 +97,22 @@ file checked — not a general impression:
    unresolved here, the same way this directory's own `NEEDS-RULING.md`
    holds a question rather than deciding it.
 
-## What a build thread does with one
+## How the dossier is used
 
-Read it before starting Doc_02. It is a starting inventory, not a
-substitute for Doc_02's own analytical work — Source Ecology still does the
-ecology reasoning (author gravity, screen risk, per-world source
-architecture) that a dossier doesn't attempt. Cite it as the dossier's own
-findings get folded into the Source Registry, the same way any other
+The source-research thread accounts for all of it in Doc_02. Doc_02's
+Source Registry gives every item in the package a line: every §1 assigned
+work, §2 cross-link and §3 acquisition lead is used, deferred with a
+reason, or out of scope with a reason (a lead not yet vendored is marked
+for acquisition); every §5 open question is named and carried forward,
+not decided; every piece of rendered source material is used or set
+aside with a reason. The Doc_02 review checks that nothing is missing.
+Accounting for every item is not citing every item: a source can be out
+of scope for good reason, as long as the reason is written down.
+
+The dossier does not replace Doc_02's own analytical work. Source Ecology
+still does the ecology reasoning (author gravity, screen risk, per-world
+source architecture) that a dossier doesn't attempt. Cite the dossier as
+its findings get folded into the Source Registry, the same way any other
 already-established fact gets cited rather than silently re-derived.
 
 If a build thread's own later search finds something the dossier missed,
