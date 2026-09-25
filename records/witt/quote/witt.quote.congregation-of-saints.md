@@ -50,12 +50,15 @@ modern_lens_note: >-
   is not indifference to what is taught. It is a claim about which differences actually divide a church
   from the true unity, and which do not.
 modern_rendering: >-
-  We also teach that one holy Church will go on forever. The Church is the whole community of the faithful,
-  the people among whom the good news is taught rightly and the sacraments are given rightly.
+  We also teach that one holy Church will go on forever. The Church is the
+  community of saints, in which the good news is taught rightly and the
+  sacraments are given rightly.
 
-  For the true unity of the Church, it is enough to agree on the teaching of the good news and on how the
-  sacraments are given. It is not necessary for every human custom -- every rite or ceremony people have
-  set up -- to be the same everywhere. As Paul says: one faith, one baptism, one God and Father of all.
+  For the true unity of the Church, it is enough to agree on the teaching of
+  the good news and on how the sacraments are given. Nor is it necessary for
+  human traditions -- that is, rites or ceremonies set up by people -- to be
+  alike everywhere. As Paul says, there is one faith, one baptism, one God and
+  Father of all, and so on.
 relations:
 - type: associated-with
   target: witt.dw.one-holy-church-forever
