@@ -145,6 +145,17 @@ def files_for_entry(entry_id: str) -> set[str] | None:
 
 
 def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path = DB_PATH) -> list[dict]:
+    """Scoped search applies the world's own file set INSIDE the query (a
+    `file IN (...)` clause alongside the MATCH), not as a filter after a
+    capped fleet-wide fetch. The earlier shape ran the bm25-ranked fetch
+    first, capped at limit*5 hits across the WHOLE corpus, and only then
+    dropped everything outside scope - so a world whose own texts rank
+    below other worlds' texts for a given query could lose every one of
+    its real hits before scoping ever saw them ("chalice" --entry hussite
+    returned "no matches" at the default limit despite Hussite Wars
+    containing the word 13 times, and only appeared at --limit 200). With
+    scope applied inside the query, ranking and LIMIT operate only over
+    the real candidate set, so the requested limit means what it says."""
     if not db_path.exists():
         raise SystemExit(f"{db_path} does not exist yet - run with --build first")
     scope = None
@@ -153,18 +164,27 @@ def search(query: str, entry: str | None = None, limit: int = 10, db_path: Path 
         if scope is None:
             raise SystemExit(f"no corpus-map bucket for entry {entry!r} "
                              f"(checked {MAP_DIR / (entry + '.yaml')})")
+        if not scope:
+            return []  # a real bucket with nothing assigned yet - nothing to search, not an error
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
-    rows = conn.execute(
-        "SELECT address, file, title, apparatus, "
-        "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
-        "bm25(passages) AS score "
-        "FROM passages WHERE passages MATCH ? ORDER BY score LIMIT ?",
-        (query, limit * 5 if scope else limit),  # over-fetch when filtering, so scoping doesn't starve results
-    ).fetchall()
+    if scope is None:
+        sql = ("SELECT address, file, title, apparatus, "
+               "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
+               "bm25(passages) AS score "
+               "FROM passages WHERE passages MATCH ? ORDER BY score LIMIT ?")
+        params = (query, limit)
+    else:
+        placeholders = ", ".join("?" * len(scope))
+        sql = ("SELECT address, file, title, apparatus, "
+               "snippet(passages, 3, '[', ']', '...', 12) AS snip, "
+               "bm25(passages) AS score "
+               f"FROM passages WHERE passages MATCH ? AND file IN ({placeholders}) "
+               "ORDER BY score LIMIT ?")
+        params = (query, *sorted(scope), limit)
+    rows = conn.execute(sql, params).fetchall()
     conn.close()
-    out = [dict(r) for r in rows if scope is None or r["file"] in scope]
-    return out[:limit]
+    return [dict(r) for r in rows]
 
 
 def main(argv: list[str] | None = None) -> int:
