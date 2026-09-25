@@ -7,19 +7,24 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 190–312
 **Region(s):** Antioch on the Orontes, and its Syrian hinterland
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** verified 2026-09-13, unchanged since
+**Corpus-map / `cic/texts/` state as of:** 2026-09-25
 
 ## 1. Already assigned
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
 | The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments of the disputation) | malchion | tradition | assigned | ~3,000 words | anf06 |
+| The Church History of Eusebius, Book VII, chs. 27–29 (Paul of Samosata's condemnation, narrated) | eusebius | context | assigned | — | npnf201 |
+| The Church History of Eusebius, Book VIII.13 and IX.6 (martyrdom of Lucian of Antioch) | eusebius | context | assigned | — | npnf201 |
+| Jerome, Lives of Illustrious Men, ch. 77 "Lucianus the presbyter" | jerome | context | assigned | — | npnf203 |
 
-**This is the thinnest bucket the corpus-map holds anywhere.** RULED 2026-08-27: this entry (I.42, c. 190–312) was minted specifically to hold this one work, since the census's only other Antioch entry (`antiochene-exegetical-christianity-chrysostom-ce`, I.13) is Chrysostom-centered and opens eighty years later. This is the whole of the entry's corpus.
+**RULED 2026-08-27: this entry (I.42, c. 190–312) was minted specifically to hold the Malchion letter**, since the census's only other Antioch entry (`antiochene-exegetical-christianity-chrysostom-ce`, I.13) is Chrysostom-centered and opens eighty years later. That letter remains the entry's only `tradition`-role, primary-voice work; the three `context`-role rows added 2026-09-25 (below) are external witnesses, not second primary sources — "thinnest bucket the map holds" is no longer literally true of the row count, but is still true of the primary-voice corpus.
 
 ## 2. Cross-link opportunities
 
-None found. The thinness is real, not a linking oversight.
+**Closed, 2026-09-25 (first pass):** Eusebius's *Church History* (`npnf201_eusebius-church-history-life-of-constantine`), Book VII, chapters 27–29 — his own narrative of Paul of Samosata's condemnation (dating discussion, the roll of bishops assembled at Antioch, and Malchion's role in the disputation), distinct from the synodal epistle extracts in ch. 30 (which overlap the `anf06` Malchion translation already assigned here — the letter survives only via that Eusebius extract, so ch. 30 is not counted as a second witness). Added as `context`: a genuine second, independent near-contemporary voice on this world's one event, not previously cross-linked. Paul's own teaching remains unattested in translation (§5 below); this closes a linking gap, not the floor question.
+
+**Closed, 2026-09-25 (second pass, prompted by a viability write-up):** the census's own entry names Lucian of Antioch as one of this candidate's five voices and cites two specific loci for him — Eusebius *HE* VIII.13.2 and IX.6.3 — that the first pass hadn't checked (it was scoped to the Paul of Samosata material only). Both verified directly against the vendored file: VIII.13.2 (line 44730) and IX.6.3 (line 48001, the fuller account) are Eusebius's own near-contemporary notices of Lucian's martyrdom at Nicomedia, c. 311–312. IX.6's own endnote pointed to a third witness, Jerome's *De Viris Illustribus* ch. 77 — also checked directly (npnf203, line 40990): a short, independent biographical notice confirming Lucian's Scriptural-revision reputation and naming two now-lost works of his own ("On faith," and epistles) that neither Eusebius mentions. All three added as `context` — outside cataloguers' notices of Lucian's historicity and reputation, not his own surviving voice (none of his own works survive in translation).
 
 ## 3. Verified acquisition leads
 

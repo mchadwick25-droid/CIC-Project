@@ -8,13 +8,12 @@ works:
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: context
   confidence: assigned
-  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
-    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
-    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
-    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
-    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
-    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
-    writing to.
+  note: 'CONTEXT row: four entries that are not Gregory''s. The letters are evidence ABOUT
+    these worlds from outside them: monastic discipline in Italy and Sicily, the letters to
+    Brunichild and the Frankish court, Book VI and Book XI''s Responsa launching and steering
+    the mission to Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical
+    patriarch''. Leaving them as `tradition` would have made Gregory a voice of four traditions
+    he was writing to.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
@@ -24,13 +23,12 @@ works:
     I-VIII)
   role: context
   confidence: assigned
-  note: 'CONTEXT row, split off 2026-08-27 from what had been a single `tradition` row on
-    four entries that are not Gregory''s. The letters are evidence ABOUT these worlds from
-    outside them: monastic discipline in Italy and Sicily, the letters to Brunichild and the
-    Frankish court, Book VI and Book XI''s Responsa launching and steering the mission to
-    Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical patriarch''.
-    Leaving them as `tradition` would have made Gregory a voice of four traditions he was
-    writing to.
+  note: 'CONTEXT row: four entries that are not Gregory''s. The letters are evidence ABOUT
+    these worlds from outside them: monastic discipline in Italy and Sicily, the letters to
+    Brunichild and the Frankish court, Book VI and Book XI''s Responsa launching and steering
+    the mission to Kent, and the quarrel with Maurice and John the Faster over the title ''ecumenical
+    patriarch''. Leaving them as `tradition` would have made Gregory a voice of four traditions
+    he was writing to.
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml

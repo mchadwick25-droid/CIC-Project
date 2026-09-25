@@ -17,7 +17,7 @@ confidence:
     Luther "begun to expound," Luther''s own February 27, 1521 letter to Spalatin, and his sending of
     three completed quires on Easter Sunday, three days before his departure for Worms), not a directly
     dated colophon on the work itself. That keeps it just below Documented in this library''s own Cross-Walk
-    usage (Doc_09 witt-S06; Source Registry R18).'
+    usage.'
 sources:
 - source_id: witt.source.luther-magnificat-translated-and-explained
   locus: The editor's introduction's own dating argument - John Frederick's letters, Spalatin's December
@@ -82,9 +82,7 @@ modern_contrast: A modern reader might expect a work written "under danger" to b
 ---
 Converted at B-4 from Doc_09 witt-S06 (witt_Doc_09_Story_Inventory.md SS2). Composition-history detail
 verified verbatim by this authoring pass directly against cic/texts/luther_works-v3-selected_
-various1930.txt, lines 6300-6335 (the editor's introduction to the Magnificat). Source Registry R18
-(Native, Primary for the introduction, B for the text itself per the Registry's own split citation-
-specificity note).
+various1930.txt, lines 6300-6335 (the editor's introduction to the Magnificat).
 
 Register note: close-third-person throughout.
 

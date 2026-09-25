@@ -102,7 +102,7 @@ senses:
 quick_meaning: Songs in our own language, teaching those who cannot read Latin.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.9 (hymn / German singing, Tier 1 ↑ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices, plus the fullest non-founder attestation in the build. Source Registry rows cited: R25, R26, R27, R28, R37, R38, R45, R47. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.9 (hymn / German singing, Tier 1 ↑ from Doc_03's estimate of 2). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none -- both voices, plus the fullest non-founder attestation in the build. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Reported-Experience Status (Doc_06 §5 entry 4.9): reported as our own self-understanding, not assessed for historical accuracy; the hymn's formative work is central by our own account and by the register's reach, while what was actually sung, where, and to what tune is thinly attested -- one late participant, no tune, no parish record.
 

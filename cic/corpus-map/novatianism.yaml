@@ -32,11 +32,10 @@ works:
   role: context
   confidence: assigned
   note: 'FLAG as with the Epistles: both sides of the Donatist controversy argued from this
-    text, and it was written against the Novatianist schism among others. Needs a ruling on
-    antecedent-tradition status. Ruled 2026-08-26: `role: context` for novatianism. The two
-    targets needed DIFFERENT relations, so the row was split - Cyprian is the authority Donatism
-    claimed, and a contemporary opponent of the Novatian schism he lived through. One work,
-    two relations, two rows.'
+    text, and it was written against the Novatianist schism among others. `role: context`
+    for novatianism. The two targets needed DIFFERENT relations, so the row is split - Cyprian
+    is the authority Donatism claimed, and a contemporary opponent of the Novatian schism
+    he lived through. One work, two relations, two rows.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: The Epistles of Cyprian
   author: cyprian
@@ -62,17 +61,17 @@ works:
   confidence: assigned
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
-    in modern scholarship, which is why novatianism appears here - needs a ruling on whether
-    the attribution question should move them. RULED 2026-08-26, under a principle rather
-    than one by one - nine works across six entries were asking the same question, whether
-    a spurious corpus files under the attributed name at all. IT DOES, AND IT ALSO FILES AS
-    WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
+    in modern scholarship, which is why novatianism appears here. On whether the attribution
+    question should move them: this is one of nine works across six entries asking the same
+    underlying question, whether a spurious corpus files under the attributed name at all
+    - resolved under a single principle rather than one by one. IT DOES, AND IT ALSO FILES
+    AS WHAT IT IS. Brief 6.2 says derive from the markup rather than re-attribute from outside
     knowledge, so the transmitted-author shelf stands: that is how the corpus presents it
     and how a reader will look for it. And apocryphal-and-pseudepigraphal-literature is added,
     because a work circulating under a name that is not its author''s is a pseudepigraphon
     by definition. The two together say the whole truth - where it sits, and what it is -
-    without re-attributing anything. Mark can reverse this in one pass if he wants the spurious
-    corpora detached from their attributed authors instead.'
+    without re-attributing anything. The spurious corpora could instead be detached from their
+    attributed authors in a future pass, if that reading is preferred.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - work: Extant Fragments of Dionysius of Alexandria (works and epistles)
   author: dionysius_gr
@@ -93,11 +92,11 @@ works:
   locus: div1 3 — Books II-VII in particular
   role: context
   confidence: assigned
-  note: 'Same work, context row (Mark''s ruling, brief §11a): Eusebius describes these movements
-    from outside and later, and for each of them the History is real evidence, not a passing
-    mention. Books II-V are the principal external frame for the post-apostolic church and
-    preserve otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book
-    VI is the fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
+  note: 'Same work, context row (per brief §11a): Eusebius describes these movements from
+    outside and later, and for each of them the History is real evidence, not a passing mention.
+    Books II-V are the principal external frame for the post-apostolic church and preserve
+    otherwise-lost fragments (Papias, Hegesippus, the Antonine martyr acts). Book VI is the
+    fullest ancient account of Origen and the catechetical school; V-VII cover Pantaenus,
     Clement and Dionysius. Book V.14-19 preserves the anti-Montanist dossier (the Anonymous,
     Apollonius) on which that Contested-Evidentiary entry largely rests. Books VI.43-45 and
     VII preserve Cornelius'' and Dionysius'' letters on Novatian - primary evidence for novatianism.
@@ -106,7 +105,7 @@ works:
     Also assigned to roman-church-third-century: Cornelius was bishop of Rome 251-253, squarely
     inside this world''s own window, and his letters preserved here are primary Roman-church
     material, not merely external testimony to novatianism. Surfaced by a source-research
-    pass on Roman Church Third Century''s (I.33) sourcing gaps, 2026-09-13.
+    pass on Roman Church Third Century''s (I.33) sourcing gaps.
 
     '
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
@@ -118,9 +117,8 @@ works:
   note: 'Novatian''s major work, written while still a Roman presbyter in good standing, before
     the schism - doctrinally the fullest Latin trinitarian statement before Nicaea. Tradition
     for the entry that bears his name; also pre-schism Roman theology in its own right, the
-    same reasoning Caius (above) was re-pointed on 2026-08-26 once roman-church-third-century
-    was added on record. Surfaced by a source-research pass on that world''s (I.33) sourcing
-    gaps, 2026-09-13.
+    same reasoning that holds Caius (above) under roman-church-third-century. Surfaced by
+    a source-research pass on that world''s (I.33) sourcing gaps.
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml

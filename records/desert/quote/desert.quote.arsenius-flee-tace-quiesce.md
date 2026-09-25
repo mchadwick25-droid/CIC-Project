@@ -22,6 +22,9 @@ sources:
   license: public-domain
 text: Arsenius, flee, keep silence, and lead a life of silent contemplation, for these are the fundamental
   causes which prevent a man from committing sin.
+modern_rendering: >-
+  Arsenius, flee. Keep silence. Live a life of silent contemplation. These are the basic causes that
+  keep a person from sinning.
 speaker_or_author: a voice Arsenius reports having heard
 license: verbatim
 modern_lens_note: '"Flee" risks a modern misreading as anxious avoidance - running from a problem rather

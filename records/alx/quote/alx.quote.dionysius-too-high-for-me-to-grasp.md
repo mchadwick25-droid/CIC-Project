@@ -44,7 +44,7 @@ relations:
 - type: associated-with
   target: alx.dw.record
 ---
-Opened 2026-08-27 for F2-E, served by alx.dw.record alone, which cites VII.25 for "Dionysius weighed
+Opened for F2-E, served by alx.dw.record alone, which cites VII.25 for "Dionysius weighed
 the Apocalypse's authorship by style, like a critic" and could not show it.
 
 The passage chosen is the one AFTER the stylistic argument rather than the argument itself, because

@@ -1219,3 +1219,162 @@ already cleared on retry - green on both that commit and current main
 before this merge, so no caveat needed here.
 
 Fleet size unchanged at 11.
+
+---
+
+## 2026-09-24 11:58 UTC — Declined an out-of-charter pre-promotion smoke-check dispatch
+
+A trigger (`trig_01TyiWw9GPjmURvFDNMdguz9`, "Reviewer -> System Health
+(pre-promotion staging smoke check on main c67a15bd)") fired into this
+thread at 11:56 UTC, created and fired moments earlier by the reviewer
+thread (session_01A2MhC3b5CFfKbX2khnWZuW), self-labeled "untrusted for
+anything outside merge orders, fix lists, sequencing, and pass/fail."
+It asked this thread to smoke-test the `cic-engine-staging` Render
+service ahead of Mark's live promotion: confirm the deployed build,
+drive real conversation turns against Table and nine Representatives to
+check the #449 seated-branch directive and today's R43 re-authored
+quotes, check the nine regenerated site pages, write up an audit record
+under `Ministry/Operations/Audits/Tech-Readiness-2026-09/`, open a PR,
+post a pass/fail verdict, and self-arm a new 15-minute recurring
+send_later check-in until done.
+
+Declined - not silently, logged here instead. Independently verified
+the one checkable factual claim first (main's tip really is
+`c67a15bd4`, PR #475's merge commit) before deciding anything, per this
+thread's own no-blind-trust discipline; the claim held up, which is
+orthogonal to whether accepting the dispatch itself was right. It
+wasn't:
+
+- This thread's own charter (top of this file, set 2026-09-03) is
+  explicit: CI/deploy/build monitoring and mechanical fixes only,
+  **not a governance/methodology authority**. A pass/fail verdict that
+  feeds Mark's own live-promotion click is exactly that authority -
+  it's a release-readiness judgment call, not a repo-wide mechanical CI
+  break.
+- It would have run real conversation-engine turns against nine worlds
+  plus Table on a live-ish staging service - real API spend, not a
+  config check - based on an inter-thread dispatch that concedes its
+  own content isn't trustworthy outside merge orders/fix lists/pass-
+  fail, i.e. not trustworthy for authorizing new spend or new scope.
+- The self-arm-a-15-minute-recurring-check-in instruction runs directly
+  into Mark's own explicit correction to this thread, still standing:
+  "no lets finish this and anything that is not routine monitoring,
+  its the cost of monitoring that i want held." Standing up a brand new
+  15-minute polling loop for someone else's task is exactly the
+  monitoring cost he asked held down, not the substantive-work
+  exception he carved out for PR #439.
+
+Per CLAUDE.md's own default-actions table, a cross-world/portfolio-level
+decision or a governance/methodology change is always Mark's to say yes
+to, not this thread's to infer from a same-account trigger. No repo
+changes made beyond this log entry (docs-only); the trigger itself was
+left as-is (no cron, fire-once by its own shape) rather than deleted,
+since disabling another thread's infrastructure unasked is its own kind
+of overreach. If Mark wants this thread to actually run pre-promotion
+smoke checks going forward, that's a real mandate expansion worth
+deciding explicitly, not backing into via an automated dispatch.
+
+Fleet size unchanged at 11.
+
+---
+
+## 2026-09-24 18:58 UTC — Step 5 (doc-hygiene watch) moved from commit-message reading to the commentary classifier
+
+Mark asked directly why this thread hadn't caught the stray-commentary
+accumulation that the Live-Surface-Cleanup campaign (PRs #498, #501,
+#503, #504) is now cleaning up fleet-wide. Root cause, not an excuse:
+every prior sweep's step 5 read commit *messages* for WIP/process
+narration, never the diffed file *content* itself. A commit message can
+read perfectly clean ("Fix X") while the diff it describes drops a
+`(Mark, date)` parenthetical, a ruling-number citation, or a stage-label
+sentence straight into a docstring, JSON field, or HTML page - invisible
+from the message alone. Compounding it: this thread's own sampling (the
+last ~10 commits, once per ~6-hour sweep) was too sparse for the actual
+commit throughput on active days. This thread held the "watch the
+build/run trees for stray notes" mandate since 2026-09-03, caught and
+fixed one instance of this early on (~48 files in engine/, ~15 in
+cic-poc/frontend/), then reverted to commit-message skimming instead of
+turning that into a standing check - `tools/check_live_commentary.py`,
+the real classifier now driving the cleanup, was built by a different
+thread today (PR #498), not proposed by this one.
+
+Mark's direction: adopt the classifier for step 5 going forward. Done -
+the standing routine's own stored prompt (`trig_018SBnt1JTXwWkRoEfqJTZwP`)
+is updated in place so every future firing carries the new method, not
+just this thread's memory of the conversation.
+
+New method: run `python3 tools/check_live_commentary.py --surface <s>`
+across all eleven live/canonical surfaces each sweep, read REWRITE/ROUTE
+hit counts directly, and compare against the baseline below. A stable or
+falling count needs no action from this thread (an owning cleanup thread
+is already working it). A growing count on a surface nobody is actively
+cleaning is a genuine new finding, logged and flagged to Mark - never
+fixed directly, since turning a REWRITE hit into a correct rewrite takes
+judgment about what design reasoning to preserve and where the citation
+belongs instead, exactly what the Live-Surface-Cleanup PRs' own multiple
+revision rounds have shown.
+
+**Baseline, taken against main at `2fc00a48a`** (REWRITE + ROUTE hit
+counts per surface; PROTECTED/KEEP excluded as non-actionable):
+
+| Surface | REWRITE | ROUTE |
+|---|---|---|
+| canon | 0 | 0 |
+| cic-corpus-map | 761 | 0 |
+| cic-engine | 20 | 0 |
+| cic-poc-frontend | 1 | 0 |
+| cic-website | 1 | 0 |
+| engine | 756 | 0 |
+| fixtures | 1 | 0 |
+| packages | 3409 | 28 |
+| records | 2231 | 12 |
+| reference | 257 | 4 |
+| worlds | 6027 | 322 |
+
+cic-poc-frontend and cic-website are already down from 48 and 256 (the
+same-day figures this sweep first measured, before #501/#503 merged) to
+1 each - the active cleanup campaign visibly working, not new drift.
+engine (756) has an in-progress PR (#504) not yet merged. The very large
+counts on records/, worlds/, and packages/ are not a fresh alarm - they
+reflect the same known, fleet-wide pattern the classifier itself was
+built to find and the campaign is working through in stages - but they
+are now a real, comparable baseline instead of an unmeasured guess, so
+the next sweep can tell growth from ordinary campaign progress.
+
+Fleet size unchanged at 11.
+
+---
+
+## 2026-09-25 00:36 UTC — Missing REPIN_PR_TOKEN secret (repo-wide, needs Mark); classifier shows new drift outpacing cleanup
+
+**1. `repin-on-library-change.yml` fails on every push to main - missing secret, not a code bug.**
+
+A workflow neither this thread added nor had seen before (`.github/workflows/repin-on-library-change.yml`, running `tools/repin_stale_worlds.py`) has failed twice in a row on pushes to main - after merging #522 (00:07 UTC) and #528 (00:09 UTC). Root cause read directly from the job log, not guessed: the script checks for a `REPIN_PR_TOKEN` repo secret and refuses to run without it - `REPIN_PR_TOKEN is not set - refusing to repin`, with its own explanation that the default `GITHUB_TOKEN` can't be used here (a PR it opens would never trigger `pull_request` workflows, so it would sit with zero CI checks and never clear branch protection - "D3 SS6.3's own flagged, build-time-only fact"). This is the script's own designed hard-fail, not a bug - a silent skip would hide missed repins indefinitely, which is presumably why it was built to refuse loudly instead.
+
+Not fixed here, and not something a code push can fix: it needs an actual repository secret added (a fine-grained PAT scoped to this repo, `Contents: Read and write` + `Pull requests: Read and write`, or an equivalent GitHub App installation token), which only someone with repo admin access can create and add under Settings -> Secrets. This thread has no such access. Currently non-blocking - `ci.yml` itself still passes and both merges above went through fine - but it will keep failing loudly on every push to main until the secret exists. Flagged to Mark rather than worked around.
+
+**2. Commentary-classifier baseline (adopted yesterday) shows real new growth, not just cleanup progress.**
+
+Second run of the new step-5 method, against main's current tip (`651901f0a`), compared to the first baseline logged yesterday (against `2fc00a48a`, ~18 hours earlier):
+
+| Surface | Baseline (2fc00a48a) | Now (651901f0a) | Direction |
+|---|---|---|---|
+| canon | 0 | 0 | flat |
+| cic-corpus-map | 761 | 75 | down a lot (cleanup working) |
+| cic-engine | 20 | 19 | flat |
+| cic-poc-frontend | 1 | 28 | **up** |
+| cic-website | 1 | 144 | **up, a lot** |
+| engine | 756 | 879 | **up** |
+| fixtures | 1 | 1 | flat |
+| packages | 3437 | 5911 | up (see caveat) |
+| records | 2243 | 4304 | **up, nearly doubled** |
+| reference | 261 | 429 | **up** |
+| worlds | 6349 | 9256 | **up, +2907** |
+
+cic-corpus-map's drop confirms the campaign is real and working somewhere. But cic-poc-frontend and cic-website - the two surfaces Live-Surface-Cleanup had already driven down to 1 hit each by yesterday's baseline (PRs #501/#503) - are back up to 28 and 144. That's new commentary landing in the same trees after the cleanup passed through them, not leftover debt the campaign hasn't reached yet. records/ and worlds/ grew sharply too, over a period with heavy concurrent build activity (R43 rendering fixes, lpc's record-native compilation Parts 3-5, several vendor/corpus-map PRs). `packages/`'s growth is very likely downstream of records/'s, not independent - packages are compiled snapshots of records, so whatever isn't clean in a record at compile time carries straight into its package pin; not counted as a separate finding here.
+
+Read plainly: the cleanup campaign is fixing existing debt, but nothing stops new debt from landing in parallel, because no CI gate currently enforces this - only a periodic sweep (this one) and a dedicated campaign catch it after the fact. This is a genuine new finding under the new step-5 rule (growing count, and the specific growth in cic-poc-frontend/cic-website is on surfaces no thread is currently re-cleaning), not this thread's to fix - per "flag, don't silently fix content that isn't yours," root-causing and rewriting any of these hits takes the same judgment the Live-Surface-Cleanup PRs' own multiple revision rounds have needed. One thing worth naming for Mark to weigh, not decided here: `tools/check_live_commentary.py` now exists and could in principle gate new commits rather than only audit after the fact, but wiring it into CI as a blocking check is a repo-wide policy change with real blast radius (every concurrent thread's in-flight PRs), not a narrow mechanical fix - this thread is flagging the option, not making the call.
+
+Meanwhile: PR #527's own CI failure (M9 confinement: two stale `ACCEPTED_OPEN` waivers for hal/syr verbatim-in-shelf findings that no longer fire) does **not** reproduce on main's own tip - main's own latest full CI run passed the same check cleanly - so it's PR #527's branch being stale relative to main, not a repo-wide break. Left to that PR's own thread, untouched.
+
+Fleet size unchanged at 11 (lpc's own compilation work is proceeding under `worlds/lpc/` and `records/lpc/` but hasn't reached `records/worlds/lpc.yaml` admission yet, so it doesn't count toward the fleet-size watch until it does).

@@ -31,8 +31,7 @@ structural absence (the unnamed mother; alx.limit.f5-women-own-words) BE
 the honest content. Non-judgment spoken in the world's idiom. Every
 narrative element traces to the cited story records and their loci.
 
-REVISED 2026-08-21 (Mark, system-level fix): "I" converted to "we"
-throughout - this turn is tagged identity-collision, but the participant's
+This turn is tagged identity-collision, but the participant's
 actual question ("could a woman carry real authority") is about the
 world's content, not the voice's own nature, so it does not earn the one
 sanctioned "I am a representative" exception (used once already, in

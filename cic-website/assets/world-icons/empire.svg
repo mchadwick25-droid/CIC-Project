@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 15 150 150">
-  <!-- CiC world icon (V1.0 LOCKED, 2026-07-22) - Marius, Apocrisiarius / Deacon of the Letters,
+  <!-- CiC world icon (LOCKED) - Marius, Apocrisiarius / Deacon of the Letters,
        CHURCH AND EMPIRE (Imperial and Juridical Christianity, Rome / Constantinople / Milan, c.312-451).
        ERA 2 template (round-dome bare-headed bust, no monastic cowl - chancery deacon, not a monk).
-       Sixth live world, sixth icon. Verified against the world's own construction record
+       Verified against the world's own construction record
        (ijc_Representative_Permanent_Prompt_Marius.txt) before drawing.
        OBJECT (DOCUMENTED): a leather-strapped scroll-case (capsa) - his own Permanent Prompt introduces
        him as "a deacon, entrusted with carrying letters... between the great sees," and his title is
-       literally "Deacon of the Letters." The case over the object-as-letter alternative (Option A,
-       a single sealed letter) was Mark's call - the case reads as "the one who carries," not just
-       "the one who holds." Strap runs left-waist to right-shoulder, passing behind the case (Mark:
-       extend it "so it looks like it goes around back to his shoulder, but let the arm be outside
-       it") - the case is drawn on top of the strap the whole way so the carrying arm reads as in
+       literally "Deacon of the Letters." The case, over the alternative of a
+       single sealed letter, reads as "the one who carries," not just
+       "the one who holds." Strap runs left-waist to right-shoulder, passing behind the case, extending
+       around to the shoulder with the arm outside it -
+       the case is drawn on top of the strap the whole way so the carrying arm reads as in
        front of it, not wrapped by it.
        DRESS: plain, undyed, ungirded tunic (INFERENCE, same low-risk register as Papnoute's "attire
        plain, no specific garment") + an orarion over the LEFT shoulder (DOCUMENTED for this exact
@@ -20,17 +20,16 @@
        Roman-deacon-specific, partly-legendary Sylvester attribution) was considered and held in
        reserve as Rome-specific - not drawn.
        ROBE: oxblood #7A2E2E - the world's own manifest colour (world_manifest.py), reused as the
-       garment tint. Family comparison (2026-07-22) flagged this as visibly darker/more saturated
-       than the other five robes, and the crossed orarion+strap as the only cross-body diagonal in
-       the family - Mark's call: keep both as-is, reading as a quiet visual echo of the era's own
+       garment tint, visibly darker/more saturated
+       than the other five robes; the crossed orarion+strap is the only cross-body diagonal in
+       the family, read as a quiet visual echo of the era's own
        tensions, not a flaw to correct.
        APPEARANCE (skin #D6B48A, dark hair, clean-shaven): SILENT in the record - Marius speaks as a
        composite across three sees, not one place or person, so no single setting grounds a skin tone
        the way Chloe's Antioch or Theon's Alexandria does. Kept emblematic, INFERENCE flagged, a
        mid-Mediterranean tone between the family's Greek-East and Roman/Bethlehem ends pending the
        eventual demographic-reference artifact (IC-11). Same bare-headed bust/face template as Theon
-       (no hood), since a chancery deacon is not a monk and not a town-teacher.
-       Master `World-Icons/empire.svg`; locked base copy `_working-base/marius_LOCKED_v1_0.svg`. -->
+       (no hood), since a chancery deacon is not a monk and not a town-teacher. -->
   <path d="M18 150 Q16 96 40 84 Q30 60 44 46 Q60 30 76 46 Q90 60 80 84 Q104 96 102 150 Z" fill="#7A2E2E" stroke="#2A2521" stroke-width="2.6" stroke-linejoin="round"/>
   <path d="M46 54 Q46 43 60 41 Q74 43 74 54 Q74 82 60 84 Q46 82 46 54 Z" fill="#D6B48A" stroke="#2A2521" stroke-width="2"/>
   <path d="M47 46 Q60 40 73 46 Q73 43 60 39 Q47 43 47 46 Z" fill="#3A2E22" stroke="#2A2521" stroke-width="1.2" stroke-linejoin="round"/>

@@ -24,18 +24,18 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 | Selections from the Letters of St. Ambrose (with the Sermon Against Auxentius) | ambrose | tradition | assigned | npnf210 |
 | The Confessions (Books V–IX) | augustine | tradition | provisional | npnf101 |
 | The Ecclesiastical History of Theodoret, esp. Book V (Ambrose–Theodosius penance) | theodoret | context | assigned | npnf203 |
+| Vita Ambrosii (Life of Ambrose), chs. III–V (episcopal election; Portian Basilica standoff; Gervasius and Protasius) | paulinus-milan | context | assigned | paulinus-milan_vita-ambrosii_kaniecka1928 |
 
-**Note on the census's own "thin" label:** this is the census's stale sourcing description, not the actual state — 9 Ambrose works plus two external witnesses is a real corpus. The genuine gap is monovocal-ness (essentially one bishop's own voice plus limited outside testimony), not volume.
+**Note on the census's own "thin" label:** this is the census's stale sourcing description, not the actual state — 9 Ambrose works plus three external witnesses is a real corpus. The genuine gap is monovocal-ness (essentially one bishop's own voice plus limited outside testimony), not volume.
 
 ## 2. Cross-link opportunities
 
 - **Closed, 2026-09-13 (PR #180):** Theodoret's *Ecclesiastical History* Book V (the Ambrose–Theodosius penance narrative, c. 449) — already vendored and staged, never linked here before. A near-contemporary external voice on Ambrose's single most famous act.
+- **Closed, 2026-09-25:** Paulinus of Milan's *Vita Ambrosii* — vendored 2026-09-13 (see §3 below, now downloaded) but only ever cross-linked to `imperial-juridical-christianity`, for its infancy bee-swarm legend. This dossier itself had already flagged it as "arguably the more natural home." Added here as `context`: Chapter III (the "Ambrose Bishop" election acclamation) and Chapters IV–V (the Portian Basilica standoff and the finding of Gervasius and Protasius) — Ambrose's own secretary's account of this world's two most central episodes, independent of and earlier than the Theodoret witness above.
 
 ## 3. Verified acquisition leads
 
-| title | author | translator | year | url | rights basis | verified by (method + date) |
-|---|---|---|---|---|---|---|
-| Vita Ambrosii (Life of Ambrose) | Paulinus of Milan | Sr. Mary Simplicia Kaniecka | 1928 | https://archive.org/details/vitasanctiambros00paul | pd-us-by-date | Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed). Queued for `ijc`; flagged 2026-09-13 (PR #180) as also relevant here — Ambrose's own secretary and biographer, arguably the more natural home. Status `not-yet-downloaded`; once vendored, both worlds' corpus-map buckets should carry it. |
+None open. *Vita Ambrosii* (Paulinus of Milan, tr. Kaniecka 1928) — the one lead previously listed here — was vendored 2026-09-13 and is now cross-linked to this world (see §2); no longer an open lead.
 
 ## 4. Checked and closed
 

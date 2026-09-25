@@ -18,6 +18,8 @@ sources:
   locus: Ep. XX to Marcellina (npnf210 lines 41753-41755)
   license: public-domain
 text: 'I said: I cannot surrender the basilica, but I may not fight.'
+modern_rendering: >-
+  I said: I cannot give up the basilica, but I may not fight.
 speaker_or_author: ijc.figure.ambrose
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified for this quote."

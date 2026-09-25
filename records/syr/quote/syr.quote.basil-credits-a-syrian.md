@@ -30,6 +30,14 @@ text: >-
   scriptural sense. This is the meaning of the word; by "was borne" the Syrians, he says,
   understand: it cherished the nature of the waters as one sees a bird cover the eggs with her body
   and impart to them vital force from her own warmth.
+modern_rendering: >-
+  How then did the Spirit of God move upon the waters? The explanation I am about to give
+  you is not my own. It comes from a Syrian, who knew little of this world's wisdom but
+  much of the knowledge of the Truth. He said that the Syriac word was more expressive.
+  Because it was closer to the Hebrew term, it came nearer to the meaning of Scripture.
+  Here is the meaning of the word: by 'was borne,' the Syrians understand that it
+  cherished the nature of the waters -- the way a bird covers her eggs with her body and
+  gives them life from her own warmth.
 speaker_or_author: Basil of Caesarea, in the Hexaemeron
 license: verbatim
 modern_lens_note: >-

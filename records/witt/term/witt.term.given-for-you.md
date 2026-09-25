@@ -64,6 +64,6 @@ senses:
 quick_meaning: 'Two words. They carry the Supper''s whole benefit: forgiveness, given for you.'
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 5.4 ('given for you', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none as quotation of the institution; the 'put yourself into this YOU' development is the founder's own. Source Registry rows cited: R12, R25, R26, R38. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 5.4 ('given for you', Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][RT][DR]. Author Gravity: none as quotation of the institution; the 'put yourself into this YOU' development is the founder's own. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

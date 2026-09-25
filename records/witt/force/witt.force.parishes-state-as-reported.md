@@ -48,7 +48,7 @@ name: The parishes' state as the founder reported it -- the internal force G13 d
 kind: ongoing
 matrix_cell: 2B
 description: 'LAYER 1 (Historical Event). ABSENT AT LAYER 1, and entered as such: this is Layer 2 of a
-  force Doc_02 §13 could not document at Layer 1 -- the parish''s actual state, the territorial force''s
+  force this library could not document at Layer 1 -- the parish''s actual state, the territorial force''s
   own inspecting arm, the visitation protocols of 1527-28 and the Small Catechism''s own 1529 preface,
   none of it vendored. A scholarly tension is carried at full strength: Strauss (1978) read the visitation
   records as evidence that catechetical indoctrination largely failed; Scribner, Kittelson and Karant-Nunn

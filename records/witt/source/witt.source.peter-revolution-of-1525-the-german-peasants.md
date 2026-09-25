@@ -24,4 +24,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 77; WebSearch; 2
 external_ids:
   witt_source_registry_row: 77
 ---
-The Dominant Modern Reconstruction of the Peasants' War, against which R19 and R48 are read. (Source Registry row 77; Confidence B.)
+The Dominant Modern Reconstruction of the Peasants' War. (Source Registry row 77; Confidence B.)

@@ -51,8 +51,7 @@ Modern hearing: 'creed vs Bible' framings. World hearing: one
 inheritance with two forms. The speculative-doctrinal tension's early
 boundary practice.
 
-CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
-and the five world read"; V1.2 birth condition applied to the existing
+CENTER-CELL MAPPING (V1.2 birth condition applied to the existing
 fleet - one story and one term per center cell where they genuinely
 belong, honest empties recorded). Added to C-E: "What did your people actually have about Jesus... How did it reach you?" - the rule of faith is this world's own name for the short summary the apostles handed down. Content unchanged; the added
 cell and this note are the whole edit.

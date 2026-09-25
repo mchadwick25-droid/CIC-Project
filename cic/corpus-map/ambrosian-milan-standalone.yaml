@@ -69,11 +69,11 @@ works:
   locus: div2 4.2 — On the Holy Spirit
   role: tradition
   confidence: assigned
-  note: 'Written for the emperor Gratian, continuing De Fide; pro-Nicene pneumatology drawing
+  note: Written for the emperor Gratian, continuing De Fide; pro-Nicene pneumatology drawing
     on Basil and Didymus. Its opponents are the Pneumatomachians rather than the Homoians
-    proper, so no homoian-arian-christianity id is asserted here - a reviewer could add one
-    by analogy with De Fide. 2026-08-26: pneumatomachian-current added alongside - the party
-    this work argues with now has an entry of its own.'
+    proper, so no homoian-arian-christianity id is asserted here; one could be added by analogy
+    with De Fide. pneumatomachian-current holds this work alongside, for the party it argues
+    with.
   source_file: npnf210_ambrose-select-works-letters.xml
 - work: On the Mysteries (De Mysteriis)
   author: ambrose
@@ -111,6 +111,35 @@ works:
 
     '
   source_file: npnf101_augustine-confessions-letters.xml
+- work: Vita Ambrosii (Life of Ambrose)
+  author: paulinus-milan
+  locus: Chapter III (the 'Ambrose Bishop' election, file line 3199) and Chapters IV-V (the
+    Portian Basilica standoff and the discovery of Gervasius and Protasius, file lines 3516-3654)
+  role: context
+  confidence: assigned
+  note: 'Independently re-checked against ambrosian-milan-standalone''s own dossier (worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md
+    SS3), which already named this exact work as an acquisition lead and flagged it - before
+    it was vendored - as "arguably the more natural home" for Milan rather than ijc: Ambrose''s
+    own secretary, writing at Augustine''s request. Now that it is vendored (2026-09-13, for
+    ijc only), that flag is acted on here. Verified directly against the file at two loci
+    central to this world''s own story, neither previously cited by any world''s build: Chapter
+    III (line 3199) is Paulinus''s own account of the "voice of a child" crying "Ambrose Bishop"
+    that turned the Arian-Catholic election riot into unanimous acclamation - the founding
+    legend of Ambrose''s episcopate, in his own household''s telling. Chapters IV-V (lines
+    3516-3654) narrate the 386 Portian Basilica standoff (Justina''s soldiers sent to besiege
+    the church, then won over to guard it instead) and the discovery of the martyrs Gervasius
+    and Protasius in the basilica now called "Ambrosiana" - the same events this corpus-map
+    already carries as a context row from Theodoret''s Ecclesiastical History (npnf203, Book
+    V), but told here by an eyewitness insider rather than an outside historian writing two
+    generations later. `role: context`, not `tradition`: hagiography written some fifteen
+    to twenty years after Ambrose''s death, openly meant to edify, with legendary material
+    (the child''s voice, miracle cures at the martyrs'' tomb) not marked off from documented
+    events inside the text itself - the same discipline ijc''s own record already applies
+    to this file (Tier 3, attributed tradition, nothing quoted verbatim). The infancy bee-swarm
+    legend (Chapter II) stays an ijc-only row; nothing here duplicates that assignment.
+
+    '
+  source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt
 - work: The Ecclesiastical History of Theodoret
   author: theodoret
   locus: div2 3.8 — esp. Books I-II (Arian controversy), V (Ambrose and Theodosius)
@@ -126,7 +155,7 @@ works:
     Also assigned to ambrosian-milan-standalone: Book V''s Ambrose-Theodosius penance narrative
     is a near-contemporary (c. 449) external account of Ambrose''s own single most famous
     act, a second voice this Confessions-and-NPNF210-only world otherwise lacks entirely.
-    Surfaced by a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps, 2026-09-13.
+    Surfaced through a source-research pass on Ambrosian Milan''s (I.16) sourcing gaps.
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml

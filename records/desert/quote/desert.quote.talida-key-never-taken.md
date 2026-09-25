@@ -35,6 +35,15 @@ text: >-
   this old woman arrived at such a state of impassibility that when I entered into
   her presence and sat down by her side, she stretched out her hands and laid them upon my
   shoulders, in the boldness and freedom which she had acquired in Christ.
+modern_rendering: >-
+  Sixty virgins lived with her, following the path and rule of the ascetic life in
+  purity. They lived a happy life under the teaching of this good old woman, whom they
+  loved and depended on. They poured out such great affection on her that the key was
+  never taken away from any one of them. This was unlike the custom in other religious
+  houses for women. Through her divine teaching, she changed them into a state of
+  incorruption. This old woman reached such a state of dispassion that when I came into
+  her presence and sat down beside her, she stretched out her hands and laid them on my
+  shoulders. She did this with the boldness and freedom she had gained in Christ.
 speaker_or_author: Palladius, on Mother Talida of Antinoe
 license: verbatim
 modern_lens_note: >-

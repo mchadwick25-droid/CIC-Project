@@ -26,9 +26,9 @@ modern_rendering: >-
   three, and their evenings and mornings, existed without a sun, and
   moon, and stars? Could such a person think the first day existed
   without a sky too? Who is foolish enough to suppose that God, like a
-  farmer, planted a garden in Eden, toward the east, and placed in it a
-  tree of life, visible and touchable? Such a person would think that one
-  who tasted its fruit with bodily teeth would obtain life.
+  farmer, planted a garden in Eden, toward the east? Who would think he
+  placed in it a tree of life, visible and touchable, so that one who
+  tasted its fruit with bodily teeth would obtain life?
 speaker_or_author: Origen of Alexandria, On First Principles IV.1.16
 license: verbatim
 modern_lens_note: >-
@@ -45,7 +45,7 @@ relations:
 - type: associated-with
   target: alx.term.allegoria
 ---
-Opened 2026-08-27 for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
+Opened for F2-T, whose three serving terms (allegoria, interpretation, kanon-pisteos) all
 cite loci in vendored files and none could show a sentence.
 
 The cell's second question asks whether Genesis was read the way modern people argue about it. The

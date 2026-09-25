@@ -91,7 +91,7 @@ senses:
 quick_meaning: 'The house where the catechism is taught: father, wife, children, servants, examined weekly.'
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 4.2 (household / 'father of a family', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][RT][DR]. Author Gravity: Luther-only, cross-register, for the mechanism -- confirmed. Source Registry rows cited: R25, R26, R31. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 4.2 (household / 'father of a family', Tier 1, confirmed at Doc_03's own estimate). Register emic. Doc_06 tags: [AS][RT][DR]. Author Gravity: Luther-only, cross-register, for the mechanism -- confirmed. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Reported-Experience Status (Doc_06 §5 entry 4.2): reported as our own self-understanding, not assessed for historical accuracy; the household is formationally central -- our own chosen site -- while whether any household held it is Inferential/Thin. We speak the program as we set it down and keep the two axes apart.
 

@@ -1,7 +1,8 @@
-# Vendored 2026-08-27, supplied by Mark. Fulfils the lead recorded in
-# desert.search.pachomian-rule-schodde-1885, which the earlier search had wrongly
-# marked not_found because it asked only for pre-1929 printed PD translations and
-# then failed to look in the periodical literature.
+# Fulfils the lead recorded in
+# desert.search.pachomian-rule-schodde-1885, which the earlier search
+# had wrongly marked not_found because it asked only for pre-1929
+# printed PD translations and then failed to look in the periodical
+# literature.
 source_file: pachomius_rules-ethiopic_schodde1885.txt
 authors_ruled:
   schodde:

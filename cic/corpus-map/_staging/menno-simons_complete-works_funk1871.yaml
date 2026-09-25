@@ -1,0 +1,17 @@
+source_file: menno-simons_complete-works_funk1871.txt
+
+assignments:
+  - work: "The Complete Works of Menno Simon(s)"
+    author: menno-simons
+    locus: "whole text, 2 volumes in 1"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      Menno Simons's own collected writings, trans. John F. Funk (1871) -
+      the central primary voice of the Dutch Anabaptist wing. Vendored
+      2026-09-24 as part of a pre-Doc_02 source-acquisition pass for this
+      candidate. Not yet split into individual constituent treatises;
+      assigned as one body per the corpus's own large-volume granularity
+      rule.

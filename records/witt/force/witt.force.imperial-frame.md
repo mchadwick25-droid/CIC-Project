@@ -42,7 +42,7 @@ kind: initiating
 matrix_cell: 1A
 description: 'LAYER 1 (Historical Event). An empire of numerous semi-autonomous princes and cities, its
   own political fragmentation part of why a territorial, prince-by-prince settlement rather than a single
-  empire-wide resolution became this world''s eventual legal shape (Doc_01 §7, Documented). The library''s
+  empire-wide resolution became this world''s eventual legal shape. The library''s
   own institutional evidence: the Diets, the Edict of Worms, the Wittenberg council''s own 1522 ordinance,
   and the Confession''s nine signatories -- an Elector, princes, and two city senates (AC 1557-1567).
   The 1517 letter goes to Albrecht, Archbishop of Magdeburg and Mainz; Christian Nobility is addressed

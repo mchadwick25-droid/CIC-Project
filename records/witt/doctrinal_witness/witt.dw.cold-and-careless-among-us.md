@@ -88,21 +88,6 @@ evidence that Saxon congregations were ignorant, cold, or negligent") forward in
 confidence.divergence_note and text, exactly as that bar requires. Not re-opened against the vendored
 files by this record.
 
-CORRECTION (go-live adversarial review, Round 1, 2026-09-19; H-2, HIGH): this record's own `text` field
-originally claimed "we do not have his full answer" to Katharina von Bora's coldness-in-prayer question --
-false. The vendored library carries Luther's own answer verbatim, `cic/texts/luther_table-talk_bell1886.txt`
-lines 3147-3151 ("the devil driveth on his servants continually... but we, indeed, are ice cold therein,
-and negligent"), already verified there by `witt.story.household-and-kate-on-prayer` (`verification_state:
-verified-direct`) and already correctly summarized in `witt.figure.katharina-von-bora`'s own body note
-("answered by her husband with a saying about the devil driving his own servants harder than they drive
-themselves"). Two defects in one field: a false honest-limit (claiming the record is emptier than it is)
-and dropped content (a vivid, fully-sourced piece of this world's own voice, withheld from the
-participant). Fixed by adding the answer in indirect speech, reconciled with the two records that already
-held it correctly rather than editing either of them to match the error; `sources[]` and `relations[]`
-updated to cite `witt.story.household-and-kate-on-prayer` directly, closing the sourcing gap that let the
-false claim stand unchecked (nothing in the build gates checks a negative "we do not have" claim against
-the library; this was found by opening the vendored source, not by reading the record).
-
 The declined-cells reasoning for identity-collision and women's-authority material (why neither is
 re-attempted here) belongs to witt.voice.craft's own B-7 body note, cited by reference above rather than
 restated in a frontmatter field -- no frontmatter field is invented to hold that pointer, per this

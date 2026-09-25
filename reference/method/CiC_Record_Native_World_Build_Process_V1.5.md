@@ -212,7 +212,41 @@ holds it, and it holds nothing else. Concretely:
   resulting sentence has its own subject and verb and carries one whole
   thought of the original (2026-09-23, R40 alx `modern_rendering` pass,
   PR #442) — a fragment is never an acceptable rendering, whatever the
-  grader or the FK score says.**
+  grader or the FK score says.** The builder reads every sentence of the
+  rendering for its own subject and verb before the record leaves
+  authoring; neither the rendering-fidelity grader (it grades meaning, not
+  grammar) nor the FK gate can see a fragment.
+  `engine/m1/sentence_completeness.py` (report-only) lists sentences with
+  no main-clause subject or finite verb as candidates for that read; it
+  misses some and misreads some, so it supports the read and never
+  replaces it. It also flags the source-spoken forms the next paragraph
+  accepts, so the builder reads each flag against that paragraph. Where
+  the fragment rule and readability pull apart, split differently or trim
+  words; never reopen a fragment to lower the FK score.
+  **What the source itself speaks: interjections and answers stay; lists
+  become one sentence; true ellipses get finished.** An acclamation,
+  interjection or elliptical answer that the source itself speaks
+  ("Alas!", "Yes!", "Praise to God.", "Answer: No.") is a whole utterance
+  in modern English and stays as the source speaks it. An inventory or
+  list is rendered as one list sentence, never one item per sentence. A
+  source sentence cut short mid-thought is finished with the verb its
+  structure implies, not carried over as a fragment. A split made during
+  rendering that leaves a clause without its own subject and verb is still
+  a fragment, and is never acceptable.
+- **The register rule governs every `modern_rendering`.** A rendering is
+  everyday modern English. An original word or phrase stays only where it
+  survives plainly in modern English — a reader today would say it and
+  understand it without pause ("Time will fail me if I attempt to
+  recount" stays as written; paraphrasing it away is an error in the
+  other direction). A word that does not survive plainly is translated to
+  its modern sense, including archaic function words and archaic senses of
+  familiar words; a scholar's term the world keeps is glossed on first
+  use, per the register bar above. Worked cases, not a list to check
+  against: "Wherefore" → "Therefore", "disjoin" → "separate", "Ever let"
+  → "Always let", "quickening" in its bring-to-life sense → "bringing him
+  back to life". Each is judged by the principle on the word in its own
+  sentence, never by matching a word list — the same word can survive in
+  one sense and not in another.
 - **The verbatim gate is a birth condition (2026-09-23, item 3 of the P3
   registration brief).** `gate_quote_verbatim` (`engine/m1/gates.py`,
   `engine/m1/quote_verbatim.py`) runs on each quote record as it is
@@ -222,12 +256,25 @@ holds it, and it holds nothing else. Concretely:
   and that edition's own closed apparatus entry in
   `cic/texts/REGISTRY.yaml`, if one exists — not a repair pass run over
   already-authored records after the fact. R35 (Mark, in his own
-  words): *"this is about the build quality, not fix on fix."* The
-  rendering-fidelity gate (item 4, not yet registered) is
-  `modern_rendering`'s own birth condition once it lands — the two
-  gates check the two halves of a quote record (original wording,
-  spoken translation) the same way, at the same point: authoring, not
-  review.
+  words): *"this is about the build quality, not fix on fix."*
+- **The rendering-fidelity gate is a birth condition.** The verbatim gate
+  checks a quote record's original wording; this gate checks its spoken
+  translation, at the same point: authoring, not review. The rendering is
+  translation, not summation: every clause of `text` is present in
+  `modern_rendering`; nothing is added, nothing compressed away. The
+  builder runs `engine/m1/rendering_fidelity.py` on each rendering as it
+  is authored, with two grader models, Haiku 4.5 and Sonnet 4.6; a flag
+  from either counts as a flag. The builder reads each grader's reasoning
+  against the record's `text` (not just its verdict) and revises until
+  both graders read "translation" on two consecutive runs of the same
+  input — one clean run is not enough, since a grader varies run to run.
+  Sonnet 5 replaces Sonnet 4.6 once the account can invoke it and the
+  grader study is re-run. The graders are report-only and never
+  registered in `gates.GATES`: their verdicts inform the builder's read,
+  and the fragment and register rules above win where they disagree.
+  Where a grader keeps objecting after a person has read every clause
+  present, the read stands and the disagreement is recorded in the
+  world's `Open_Gaps_Tracking.md`, not chased with further rewrites.
 - Each step's review reads every spoken field against the sample. A
   sentence the reviewer has to re-read, or has to ask the meaning of,
   fails and is rewritten before the step clears — that question IS the

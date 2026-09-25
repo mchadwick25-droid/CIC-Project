@@ -16,6 +16,7 @@
  * else).
  */
 import type { SourceCard } from '../types/conversation';
+import { END_REFERENCES_HEADING } from '../lib/markCopy';
 import { SourceList } from './SourceList';
 
 interface GeneralReferencesProps {
@@ -27,7 +28,7 @@ export function GeneralReferences({ references }: GeneralReferencesProps) {
   return (
     <details className="turn__general-references">
       <summary className="turn__general-references-label">
-        General references ({references.length})
+        {END_REFERENCES_HEADING} ({references.length})
       </summary>
       {references.map((card) => (
         <div key={card.record_id} className="turn__sources-card">

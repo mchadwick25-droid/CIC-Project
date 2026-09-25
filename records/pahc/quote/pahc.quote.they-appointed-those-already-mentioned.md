@@ -21,6 +21,10 @@ sources:
   license: public-domain
 text: >-
   For this reason, therefore, inasmuch as they had obtained a perfect fore-knowledge of this, they appointed those [ministers] already mentioned, and afterwards gave instructions, that when these should fall asleep, other approved men should succeed them in their ministry.
+modern_rendering: >-
+  For this reason, they appointed the ministers already mentioned. They had full
+  foreknowledge of this. Afterward, they gave instructions: when these men died, other
+  approved men should succeed them in their ministry.
 speaker_or_author: the letter known as First Clement, to the church at Corinth
 license: verbatim
 modern_lens_note: >-

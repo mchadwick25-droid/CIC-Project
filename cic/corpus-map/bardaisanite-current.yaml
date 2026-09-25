@@ -8,12 +8,12 @@ works:
   locus: div2 9.16
   role: tradition
   confidence: assigned
-  note: 'Bardaisan of Edessa (154-222), the first named voice of Edessene Christianity; the
+  note: Bardaisan of Edessa (154-222), the first named voice of Edessene Christianity; the
     dialogue on fate and freedom was penned by his disciple Philippus, which the note records
-    rather than minting a second slug. Bardaisan''s later condemnation is a fact about him
+    rather than minting a second slug. Bardaisan's later condemnation is a fact about him
     the syr world already carries; the work is still Edessene tradition, not outside context.
-    2026-08-26: bardaisanite-current added alongside - the party this work argues with now
-    has an entry of its own.'
+    bardaisanite-current is added alongside, since the party this work argues with now has
+    an entry of its own.
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
 - work: Against Bardaisan (A Discourse Against Bardaisan)
   author: ephraim
@@ -21,7 +21,7 @@ works:
   role: context
   confidence: assigned
   note: 'Same doubt as the "Domnus" entry above: no census bucket exists for Bardaisan/Daisanite
-    Christianity; this floor entry is a best guess needing Mark''s ruling. Re-pointed 2026-08-26
+    Christianity; this floor entry is a best guess that still needs a ruling. This entry points
     to the census entry added on record for this movement.'
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
 - work: Against Bardaisan's 'Domnus'
@@ -32,7 +32,7 @@ works:
   note: Bardaisan and the Daisanites have no census entry of their own, so the anti-Bardaisan
     material has no exact home. Best guess is the "other Gnostic Christianities" floor entry
     - the Chronicle of Edessa file's own notes call Bardesanes one "who promulgated the doctrine
-    of Valentinus" - but Bardaisan's classification as Gnostic is contested, and Mark may
-    prefer a Bardaisan entry of its own or the Syriac world alone. Flagging rather than deciding.
-    Re-pointed 2026-08-26 to the census entry added on record for this movement.
+    of Valentinus" - but Bardaisan's classification as Gnostic is contested, and whether a
+    Bardaisan entry of its own, or the Syriac world alone, would fit better remains an open
+    question. This entry points to the census entry added on record for this movement.
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt

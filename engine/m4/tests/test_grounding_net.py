@@ -80,6 +80,22 @@ def test_coined_quote_under_real_tag_is_withheld():
     assert "not found verbatim" in entry["why"]
 
 
+def test_verbatim_quote_in_curly_marks_passes():
+    text = "As it was sung, “Behold the might of the new song! It has made men out of stones, men out of beasts.” [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
+def test_coined_quote_in_curly_marks_is_withheld():
+    """Curly quotation marks are quotation marks: coined words inside them
+    get the same verbatim check as coined words inside straight ones."""
+    text = "As it was sung, “Behold the wonder of the ancient hymn, made new for us.” [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "withhold"
+    assert "not found verbatim" in entry["why"]
+
+
 def test_quote_with_no_tag_is_withheld_even_if_verbatim():
     text = "As it was sung, 'Behold the might of the new song! It has made men out of stones, men out of beasts.'"
     result = check_turn(text, REPOSITORY)
@@ -145,7 +161,7 @@ def test_scope_completion_never_returns_the_seed_itself():
     assert scope_completion(["fix.gravity.a"], records) == []
 
 
-# ---- the three narrowings (2026-08-23) -------------------------------------
+# ---- the three narrowings ---------------------------------------------------
 # Each of these fired on real live output and deleted prose that invented
 # nothing. Counts are from 17 measured turns / 68 withheld sentences.
 
@@ -233,11 +249,11 @@ def test_an_untagged_sentence_with_no_marker_is_still_never_checked():
     assert sentence["why"] == "no checkable claim - interpretive/connective framing"
 
 
-# ---- truncation (2026-09-19) -----------------------------------------------
+# ---- truncation ---------------------------------------------------------
 # A generation call cut off by Bedrock's own stop mid-tag leaves an opener
 # with no closing "]]" anywhere after it - a shape _TAG's own well-formed
 # grammar can never match, so it used to reach strip_tags' output verbatim.
-# Real case, don's round-1 turn-1 of the 2026-09-19 rzg+don Table round:
+# Real case, don's round-1 turn-1 of an rzg+don Table round:
 # "...never to preach it again [[don.dw.room-for-diss" with nothing after.
 
 _TRUNCATED_REAL_CASE = (
@@ -295,9 +311,9 @@ def test_check_turn_reports_no_truncation_on_an_ordinary_turn():
     assert result["truncated"] is False
 
 
-# M-1 (witt go-live adversarial review, 2026-09-20): the scaffold exemption
-# used to cover a whole sentence the moment any SCAFFOLD_MARKERS phrase
-# appeared anywhere in it - real cases from that live run.
+# The scaffold exemption used to cover a whole sentence the moment any
+# SCAFFOLD_MARKERS phrase appeared anywhere in it - real cases from a live
+# adversarial review.
 
 def test_a_chronological_claim_riding_a_scaffold_phrase_is_no_longer_exempt():
     """The exact defect: 'we cannot speak its own words' at the sentence's
@@ -403,7 +419,7 @@ def test_verdict_for_sentence_withholds_an_unresolvable_tag_with_no_turn_context
     assert "unresolvable" in entry["why"]
 
 
-# R27-A item 2 (Decision-Log.md Entry 55, 2026-09-23): split_into_paragraphs
+# split_into_paragraphs
 # and check_turn_with_paragraph_coverage's own baseline hermetic tests -
 # additive, report-only, never touched by check_turn/apply_net's own live
 # path (this file's own module docstring: real-data verification is

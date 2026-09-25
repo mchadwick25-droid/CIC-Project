@@ -1,0 +1,1361 @@
+{
+  "generated": "2026-09-23T13:05:58.877332+00:00",
+  "worlds_scanned": [
+    "alx",
+    "cappadocian",
+    "desert",
+    "don",
+    "gallic",
+    "hal",
+    "ijc",
+    "pahc",
+    "rzg",
+    "syr",
+    "witt"
+  ],
+  "world_level_known_tradition_candidates": {
+    "alx": {
+      "window": {
+        "start": 150,
+        "end": 400
+      },
+      "candidate_rows": [
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "cappadocian": {
+      "window": {
+        "start": 325,
+        "end": 394
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "desert": {
+      "window": {
+        "start": 320,
+        "end": 430
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "desert.contested.alexandria-continuity",
+            "desert.demo.center-jesus-as-god",
+            "desert.story.antony-secret-burial",
+            "desert.story.sarapion-anthropomorphite",
+            "desert.story.virgin-who-hid-athanasius"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "desert.story.sarapion-anthropomorphite"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "rzg",
+          "other_card_name": "The Reformed Cities",
+          "other_window": {
+            "start": 1519,
+            "end": 1650
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": false,
+          "text_evidence_records": [
+            "desert.story.sarapion-anthropomorphite"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "don": {
+      "window": {
+        "start": 311,
+        "end": 439
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "gallic": {
+      "window": {
+        "start": 360,
+        "end": 450
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "gallic.story.the-three-lentil-beans"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "hal": {
+      "window": {
+        "start": 382,
+        "end": 420
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "hal.dw.authority",
+            "hal.story.rufinus-rupture"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "ijc": {
+      "window": {
+        "start": 312,
+        "end": 451
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "ijc.quote.julius-custom",
+            "ijc.quote.let-the-ancient-customs-prevail",
+            "ijc.quote.sozomen-thessalonica-law",
+            "ijc.story.letter-that-outranked-a-council"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "ijc.quote.compelled-to-come-in",
+            "ijc.story.emperor-builds-another-basilica"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "pahc": {
+      "window": {
+        "start": 70,
+        "end": 200
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "pahc.contested.egypt-exclusion"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "rzg": {
+      "window": {
+        "start": 1519,
+        "end": 1650
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "witt",
+          "other_card_name": "The Catechized Households of Wittenberg",
+          "other_window": {
+            "start": 1517,
+            "end": 1580
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "syr": {
+      "window": {
+        "start": 200,
+        "end": 410
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    "witt": {
+      "window": {
+        "start": 1517,
+        "end": 1580
+      },
+      "candidate_rows": [
+        {
+          "other_world": "alx",
+          "other_card_name": "Alexandrian Christianity",
+          "other_window": {
+            "start": 150,
+            "end": 400
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "cappadocian",
+          "other_card_name": "The Cappadocian Churches",
+          "other_window": {
+            "start": 325,
+            "end": 394
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "desert",
+          "other_card_name": "Desert Fathers and Mothers",
+          "other_window": {
+            "start": 320,
+            "end": 430
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "don",
+          "other_card_name": "The Church of the Martyrs",
+          "other_window": {
+            "start": 311,
+            "end": 439
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "gallic",
+          "other_card_name": "The Monk-Bishops of Gaul",
+          "other_window": {
+            "start": 360,
+            "end": 450
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "hal",
+          "other_card_name": "The Bethlehem Circle",
+          "other_window": {
+            "start": 382,
+            "end": 420
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "ijc",
+          "other_card_name": "Church and Empire",
+          "other_window": {
+            "start": 312,
+            "end": 451
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "pahc",
+          "other_card_name": "The Scattered Households",
+          "other_window": {
+            "start": 70,
+            "end": 200
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        },
+        {
+          "other_world": "rzg",
+          "other_card_name": "The Reformed Cities",
+          "other_window": {
+            "start": 1519,
+            "end": 1650
+          },
+          "symmetric_overlap": true,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [
+            "witt.dw.one-holy-church-forever"
+          ],
+          "proposed_confidence": "Documented"
+        },
+        {
+          "other_world": "syr",
+          "other_card_name": "Syriac Christianity",
+          "other_window": {
+            "start": 200,
+            "end": 410
+          },
+          "symmetric_overlap": false,
+          "asymmetric_no_future_violation": true,
+          "text_evidence_records": [],
+          "proposed_confidence": "Inferential-Thin"
+        }
+      ]
+    }
+  },
+  "battery_defensibility": {
+    "rows": [
+      {
+        "asking_world": "alx",
+        "probe_target_world": "don",
+        "probe_target_card_name": "The Church of the Martyrs",
+        "asking_window": {
+          "start": 150,
+          "end": 400
+        },
+        "target_window": {
+          "start": 311,
+          "end": 439
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "cappadocian",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 325,
+          "end": 394
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "desert",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 320,
+          "end": 430
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "don",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 311,
+          "end": 439
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "gallic",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 360,
+          "end": 450
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "hal",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 382,
+          "end": 420
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "ijc",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 312,
+          "end": 451
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "pahc",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 70,
+          "end": 200
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "rzg",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 1519,
+          "end": 1650
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": false,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "syr",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 200,
+          "end": 410
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": true,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      },
+      {
+        "asking_world": "witt",
+        "probe_target_world": "alx",
+        "probe_target_card_name": "Alexandrian Christianity",
+        "asking_window": {
+          "start": 1517,
+          "end": 1580
+        },
+        "target_window": {
+          "start": 150,
+          "end": 400
+        },
+        "defensible_under_symmetric_a": false,
+        "defensible_under_asymmetric_a": true,
+        "bare_name_present_under_b": true
+      }
+    ],
+    "count_defensible_symmetric_a": 9,
+    "count_defensible_asymmetric_a": 11,
+    "count_bare_name_under_b": 11,
+    "total": 11
+  }
+}

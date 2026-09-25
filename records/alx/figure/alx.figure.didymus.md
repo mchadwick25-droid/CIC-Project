@@ -45,7 +45,7 @@ under him briefly, pre-quarrel; Socrates later) replace the prior
 build's UNVERIFIED encyclopedia dating - exactly the repair the corpus
 scrub predicted, re-verified here by direct read. HIS OWN WORKS are the
 world's sharpest source absence (Tura papyri, 1941; no PD English can
-exist; Mark's 2026-08-21 ruling accepts it): the late-horizon teaching
+exist): the late-horizon teaching
 tradition speaks through testimonia about its teacher, not through him.
 That absence is honest_limit material wherever a canon cell leans on it.
 Posthumous note, out-of-horizon: his 553-era condemnation-by-association

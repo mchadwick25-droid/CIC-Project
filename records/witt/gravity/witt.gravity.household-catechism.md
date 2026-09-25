@@ -94,7 +94,7 @@ description: 'The three parts every Christian must know, prescribed to be taught
   of every father of a family to question and examine his children and servants at least once a week''
   (LC 241-243); ''The Simple Way a Father Should Present Them to His Household'' (SC 45). The candidate
   as generated is scoped deliberately: a claim about the PROGRAM, never a claim that any household actually
-  held it (Doc_04 §3 G4, restated at Round 1 review). SIX-TEST SUMMARY: Repetition passes across catechesis,
+  held it. SIX-TEST SUMMARY: Repetition passes across catechesis,
   sermon (by implication), hymnal preface, conversation, confession, apology, and one participant witness;
   Dependency passes broadly; Formation SPLITS, and this is the document''s central divergence -- passes
   as prescribed program, the most fully specified formation mechanism in the library, down to meal-time
@@ -106,22 +106,21 @@ description: 'The three parts every Christian must know, prescribed to be taught
   for the prescriptive corpus; Widely Accepted for Walter; Inferential-Thin for any household''s actual
   practice; Contested at the scholarly level for how reception should be read at all (the Strauss debate).
   CLASSIFICATION: PRIMARY, on the scope as generated -- the evidence supporting the candidate as scoped
-  (the bulk of the 1529 output plus the confessional pair) is Documented; a reviewer who reads the Framework''s
+  (the bulk of the 1529 output plus the confessional pair) is well attested; a reviewer who reads the Framework''s
   rule as requiring the whole gravity, reception included, would classify this Supporting instead, and
-  this document states that alternative rather than hiding it (Doc_04 §3 G4). CONFIDENCE/GRAVITY CROSS-CHECK:
+  this document states that alternative rather than hiding it. CONFIDENCE/GRAVITY CROSS-CHECK:
   DIVERGENCE, flagged and the build''s highest-stakes -- organizing strength is Primary-grade for the
-  program; evidential confidence is Documented for the program, Inferential-Thin for reception. Not upgraded
+  program; the program itself is well attested, but the evidence for reception is thin. Not upgraded
   across that line; the I/T side is named as outside what the classification covers. Register-and-voice
   spread: 4/4 for the program; Luther-only for the household-father mechanism specifically. Reception-side
-  status: absent -- the single largest reception gap in the build. FORCES-CONNECTION NOTATION (Doc_04
-  §3 G4; Doc_08 §5): generated in response to what replaces the indulgence-confession-sacrament system
+  status: absent -- the single largest reception gap in the build. FORCES-CONNECTION NOTATION: generated in response to what replaces the indulgence-confession-sacrament system
   as the laity''s formation [1B-2]; shifted in audience 1520-1529, from ''the ordinary Christian, who
   cannot read'' to the negligent pastor and the household father, under the territorial church''s own
   inspecting need [2A-3]; intensified by the internal force the founder''s own testimony documents --
   the Large Catechism preface exists, by its own account, because pastors are negligent [2B-3]; is the
   printed household object [1A-3]; held into the confessional corpus, entering the Book of Concord in
-  1580 by reference [3A-1/3B-2, beyond Doc_04]; carries the household''s own daily petition for the prince
-  [1A-1, beyond Doc_04].'
+  1580 by reference [3A-1/3B-2]; carries the household''s own daily petition for the prince
+  [1A-1].'
 manifestations:
 - '"the ordinary Christian, who cannot read the Scriptures, is required to learn and know the Ten Commandments,
   the Creed, and the Lord''s Prayer... these three contain fully and completely everything that is in

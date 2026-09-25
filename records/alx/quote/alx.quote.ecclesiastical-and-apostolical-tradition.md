@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: alx.term.kanon-pisteos
 ---
-Opened 2026-08-27 for F2-T, the second of two: the cell carries two quite different questions and
+The cell carries two quite different questions and
 three serving terms, and one sentence could not honestly answer both.
 
 alx.term.kanon-pisteos cites 'praef. (Rufinus-mediated)' and this is what stands there.

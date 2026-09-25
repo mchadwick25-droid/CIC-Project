@@ -16,7 +16,7 @@ confidence:
     or another table-companion to Aurifaber to Bell to Morley, with an intervening reviser Morley himself
     admits), never independently confirmed by any other witness. It is, at the same time, the only household
     scene in this library with a named, speaking participant on the household''s own side rather than
-    only Luther''s (Doc_09 witt-S08; Source Registry R31).'
+    only Luther''s.'
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: '"I must have patience with Kate my wife... my whole life is nothing but patience" and Katharina
@@ -88,7 +88,7 @@ modern_contrast: A modern reader might expect a founder's household to be either
 Converted at B-4 from Doc_09 witt-S08 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_table-talk_bell1886.txt, lines
 3010-3020 (the patience saying) and 3143-3152 (Katharina's question and Luther's answer). Source
-Registry R31 (Native, Primary).
+Registry (Native, Primary).
 
 Register note: close-third-person throughout; Katharina's own recorded words are quoted directly but
 never elaborated beyond what the source states, per Doc_09 witt-S08's own explicit instruction ("the

@@ -35,31 +35,35 @@ A bishop of an urban African congregation, across this world's full span (258–
 
 ## Part Two — The Held Object
 
-**Disposition: a *libellus pacis* — a certificate of peace, with names written on it.**
+**Disposition [SUPERSEDED 2026-09-24, project lead's decision, OG-1 resolved — see `worlds/lpc/Open_Gaps_Tracking.md` and `lpc_Decision_Log.md`]: a drawstring purse, per the hundred thousand sesterces of `lpcstory004`.**
 
-**DOCUMENTED.** *Ep.* XV, Cyprian to the martyrs and confessors, verified note-stripped in body text: *"I beg you that you will **designate by name in the certificate** those whom you yourselves see, whom you have known, whose penitence you see to be very near to full satisfaction"* — written against certificates reading *"Let such a one be received to communion along with his friends,"* which, he says, *"opens a wide door"* to *"twenty or thirty or more"* unnamed people.
+**DOCUMENTED.** Cyprian, *Epistle* LIX, "To the Numidian Bishops, on the Redemption of Their Brethren from Captivity Among the Barbarians," §3, cited from the letter's own body text (not the ANF edition's 19th-century *Argument*, which carries the same figure as editorial matter, not Cyprian's own words — `lpcstory004`'s own recorded evidentiary discipline): *"We have then sent you a sum of one hundred thousand sesterces, which have been collected here in the Church over which by the Lord's mercy we preside, by the contributions of the clergy and people established with us, which you will there dispense with what diligence you may."*
 
-**Why this object.** It carries **three gravities at once**: G1 (a flock is kept *by name*), G2 (penitential discipline), and **G8, the Tensional gravity this world leaves unresolved** — the certificate is not the bishop's; a confessor wrote it, and he must decide what it is worth. It is also the material of `lpcstory005`. Doc_05 §1.1 gives the world's own voice on it: *"We were not decimated by an enemy at the gate; we were emptied at a table, one certificate at a time."*
+**Why this object.** It carries **two gravities at once**: **G3** (Collegial Communion Preserved Despite Disagreement — this letter is Doc_04's own clearest instance of G3 functioning smoothly and at scale, with no dispute in sight, rather than under strain) and **G1** (Pastoral Office — a metropolitan church acting, by name, for named bishops of another province). `lpcstory004`'s own Formation Ecology Connection is explicit: "A structure is better understood from one instance of it functioning than from three of it being tested." **Correction to this document's own prior characterization:** an earlier draft of this section dismissed the purse as reading "generic almsgiving." That is not accurate to the source — the amount, the named recipients (eight bishops, named individually), and the stated mechanism (collected from clergy and people, sent across provinces, dispensed at the receiving bishops' own discretion) make this a specific, checkable act of collegial obligation, not generic charity. The correction is recorded here rather than silently carried forward.
 
-**Rejected as weaker:** a purse (the hundred thousand sesterces of `lpcstory004` — reads as generic almsgiving); the commemoration record of death-dates (*Ep.* XXXVI, *"take note of their days on which they depart"* — attested, but it is Tertullus's object, not the bishop's).
+**No other Representative in the portfolio holds money or a purse** — distinct on the object axis alone, independent of the silhouette question below.
 
-### OPEN — the silhouette constraint, routed to the project lead
+**Superseded, and why:** the certificate of peace (*libellus pacis*) was this document's original choice — DOCUMENTED, and it carried three gravities (G1, G2, G8) rather than two. It is not rejected on source-fidelity grounds; it remains a true and well-attested object for this world. It is superseded because of the silhouette constraint below, which the purse resolves and the certificate does not. The commemoration record of death-dates (*Ep.* XXXVI) remains rejected as before — attested, but it is Tertullus's object, not the bishop's.
+
+### RESOLVED 2026-09-24 — the silhouette constraint, decided by the project lead
 
 `donatism/Fidelis_Portrait_Prompt.md` records a codex **superseded and rejected** as Fidelis's object on the project lead's own critique: *"Silhouette recognition at icon/table-scene scale does not survive that distinction; two of seven Representatives reading as 'a bishop holding a book' defeats the object system's own purpose."* That constraint bars *"no book, codex, scroll, tablet, or any bound/rolled/flat written-text object of any kind"* and explicitly extends to collisions with **Theon (an opened scroll)** and **Albina (a wax tablet + stylus)**.
 
-**Datus's certificate is a flat written-text object.** At icon scale it reads as a pale rectangle held in two hands. If the constraint governs the portfolio and not only Fidelis's document, four of nine Representatives would hold flat written things. **This was not visible when the object was chosen** — it lives on `main`, which this build's branch predates. The project lead elected to **proceed with the certificate and record the collision** rather than substitute. Alternatives remain live and reversible: the ransom purse (non-textual, no other Representative holds money), or no object, as Fidelis resolved.
+**Datus's certificate was a flat written-text object.** At icon scale it read as a pale rectangle held in two hands — Theon's and Albina's own silhouette. This was raised as `worlds/lpc/Open_Gaps_Tracking.md`'s own OG-1 — genuinely undecided through 2026-09-24, three options open: keep the certificate and record the collision; substitute the ransom purse; drop the object, as Fidelis resolved. **Presented with the three live options directly, the project lead chose the ransom purse.** It resolves the Theon/Albina collision, and unlike dropping the object entirely, it preserves the held-object-vs-empty-hands lever that separates Datus from Fidelis (their sharpest adjacency in the portfolio; see Part Three below). See `lpc_Decision_Log.md`, entry dated 2026-09-24, and `Open_Gaps_Tracking.md`'s OG-1 closing note, for the full record.
 
 ---
 
 ## Part Three — Differentiation against the existing family
 
-- **Fidelis (Donatism) — the sharpest adjacency, and the collision was real.** Same region, overlapping period, both bishops. The first draft was, point for point, the same man. Separated on four levers: **age** (mid-forties, dark-haired, against Fidelis's greying fifty), **the hood** (a bulky hooded silhouette against his bare-headed smooth drape), **palette** (dark tunic under a pale cloak, inverting his light-under-dark), and **the object** (a held document against his open empty hands). **Fidelis's empty open hands are the Donatist emblem** — that world turns on the purity of *the giver's hand* — which makes the certificate an apt contrast but places both images' focus in the same spot.
+- **Fidelis (Donatism) — the sharpest adjacency, and the collision was real.** Same region, overlapping period, both bishops. The first draft was, point for point, the same man. Separated on four levers: **age** (mid-forties, dark-haired, against Fidelis's greying fifty), **the hood** (a bulky hooded silhouette against his bare-headed smooth drape), **palette** (dark tunic under a pale cloak, inverting his light-under-dark), and **the object** (a held purse against his open empty hands). **Fidelis's empty open hands are the Donatist emblem** — that world turns on the purity of *the giver's hand* — which makes a held object (purse or certificate alike) an apt contrast, and the purse keeps that lever without the certificate's now-resolved silhouette collision elsewhere in the portfolio.
 - **Chilo (Cappadocian).** Shares a hooded coarse-wool silhouette. Separated by beard (Datus short and dark; Chilo long, pointed and white), garment colour (grey-taupe against cream), belt (Chilo has one, Datus none) and object. **Judged "different enough" by the project lead, 2026-09-15.** Recorded as a known overlap, not as closed.
-- **Theon (Alexandria).** The other document-holder. Theon points at a papyrus scroll; Datus holds a flat slip open in both hands. See the open constraint above.
+- **Theon (Alexandria) and Albina.** Previously the two other flat-written-text holders, and the reason for the swap above. Theon points at a papyrus scroll; Albina holds a wax tablet and stylus; Datus now holds a drawstring purse — no silhouette collision remains among the three.
 
 ---
 
 ## Part Four — The Gemini Generation Prompt
+
+**[REVISED 2026-09-24 — object updated from the certificate to the ransom purse, per OG-1's resolution. Everything else (pose, face, dress, palette, style lock) is unchanged from the approved 2026-09-15 brief; only the held object and its two paragraphs below differ from the original prompt.]**
 
 > A painterly fine-art oil portrait in the manner of an aged canvas — visible canvas weave and fine craquelure.
 >
@@ -69,21 +73,23 @@ A bishop of an urban African congregation, across this world's full span (258–
 >
 > He wears a hooded African travelling cloak (*birrus*) of coarse woven oatmeal-grey wool — flat, tightly woven cloth with a visible weave. The hood is pushed back onto his shoulders, visible as a folded mass of the same flat woven cloth. Under it, a dull ochre-brown tunic. No ornament, no jewellery, no insignia.
 >
-> In both hands at chest height, turned toward the viewer, a single small flat slip of papyrus held open — one loose sheet, bearing only faint indistinct marks suggesting handwriting.
+> In both hands at chest height, held toward the viewer, a small leather drawstring purse (a *sacculus* — the ordinary money-pouch of Roman daily life, not a decorative or ceremonial object) — plain, worn, unornamented leather, cinched at the neck with its own leather cord, its body visibly full and slightly rounded with the weight of coin inside. He holds it the way a man holds something he is about to send away, not something he is keeping.
 >
 > Solid and fully opaque. No glow, halo or backlight. Wide landscape aspect ratio.
 
-**Exclude:** fleece, shearling, sheepskin, fur, quilted or napped fabric, any modern-looking coat; old, elderly, frail or gaunt appearance; white hair; grey beard; **legible or pseudo-legible writing of any kind**; grey or cool background; full-length figure; codex, bound book, rolled scroll, document case, wax tablet; halo, nimbus, glow, backlight; mitre, crozier, cross, ring, stole, pallium, any vestment; jewellery.
+**Exclude:** fleece, shearling, sheepskin, fur, quilted or napped fabric, any modern-looking coat; old, elderly, frail or gaunt appearance; white hair; grey beard; grey or cool background; full-length figure; **codex, bound book, rolled scroll, document case, wax tablet, papyrus, parchment, or any written-text object of any kind**; **visible coins, spilled coins, or coins outside the purse**; any legible or pseudo-legible writing, marking, or embroidery on the purse; a modern coin purse, wallet, velvet pouch, drawstring gift bag, or any style reading as later than the 3rd–4th century; a jeweled, tasseled, or otherwise ornamented purse; halo, nimbus, glow, backlight; mitre, crozier, cross, ring, stole, pallium, any vestment; jewellery.
 
-**Avoided, and why:** any likeness of Cyprian or Augustine, or attributes evoking them (the Representative speaks for the congregations, not for the two men who wrote about them); a rural or desert setting (Doc_05 §6.9); renunciant/monastic dress register (Albina's and Chilo's, per the 2026-07-24 cross-contamination caution); legible Latin on the certificate (**invented names on a document would be a fabrication in a build whose first rule is never to invent**, so readable pseudo-Latin is out).
+**Avoided, and why:** any likeness of Cyprian or Augustine, or attributes evoking them (the Representative speaks for the congregations, not for the two men who wrote about them); a rural or desert setting (Doc_05 §6.9); renunciant/monastic dress register (Albina's and Chilo's, per the 2026-07-24 cross-contamination caution); visible coins or an itemised sum (Cyprian's letter states the amount in words, not a countable image, and inventing a specific coin count or coinage type the letter doesn't describe would be exactly the fabrication this build's first rule bars); a purse ornate or fine enough to read as a bishop's own wealth rather than the church's collected gift (Doc_04's own grounding is corporate — "collected here … by the contributions of the clergy and people," not one man's money).
+
+**One honesty flag this revision owes the record.** Cyprian's letter states a sum and a mechanism; it does not describe a container. A plain drawstring purse is this brief's own visual stand-in for "a sum of money, sent" — the same kind of necessary, disclosed inference the object system already makes elsewhere (Theon's scroll stands for "a text," not a specific described scroll). It is INFERENCE for the *object's form*, not for the *fact* it represents, which is Documented (*Ep.* LIX §3, quoted in full above).
 
 ---
 
 ## Participant-facing text
 
-**Alt text** (house template, written from the actual image):
+**Alt text** (house template, written from the actual image) **[CONFIRMED 2026-09-24 against the regenerated image — the provisional flag is lifted]:**
 
-> Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small papyrus sheet open in both hands, painted against a warm neutral ground.
+> Datus: a bearded man in his forties with dark greying hair, in a hooded coarse wool cloak over an ochre tunic, holding a small leather purse in both hands, painted against a warm neutral ground.
 
 **Caption** (names the tradition, never describes the image — the binding rule from the 2026-09-03 change order):
 

@@ -302,6 +302,20 @@ Facilitator's mechanism stays exactly what's already shipped: recognize a
 signal, check in, encourage the participant to seek real human help.
 Nothing about it is this workstream's to redesign.
 
+**Stage 7b queue — one item, not started.** `Rulings-Pending.md` R42
+(ruled 2026-09-23) holds one generation-side item until Stage 7b (the
+`CIC_API_STREAMING` engine module) merges: a citation-completeness
+directive asking the voice to tag any sentence that draws on a record
+even when it names no person, number, or quote. Baseline this item
+starts from, R42's own measurement (`Rulings-Pending.md`, `Decision-Log.md`
+Entry 61, 2026-09-23): 14 of 40 hand-read sentences on a 22-probe run
+were true and record-supported but carried no citation tag. `Decision-Log.md`
+Entry 73 (2026-09-24) re-confirmed the hold is still correct as of that
+date (no code reads `CIC_API_STREAMING` yet, no 7b PR merged). Starts
+after 7b merges, as its own item: propose the directive line, re-measure
+the same 22-probe/hand-read method, report the before/after counts and
+cost. No enforcement follows either way.
+
 Stages 6–9 (confidence display, streaming, table completeness, fleet
 cleanup) are specified in full in the Fable design pass's own report —
 ask Mark for it when `Rulings-Pending.md` starts clearing, rather than
