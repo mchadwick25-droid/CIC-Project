@@ -61,7 +61,13 @@ work dates, review-pass or model names, thread references, provenance
 asides in operative fields), saved as an artifact beside the gates
 report. A hit is a field-placement defect fixed at the record layer
 with a dated body note, then recompiled. Record BODIES are never part
-of this read - they are the mandated audit trail and never compile.
+of this read - they never compile. [V1.6: a body may keep the durable
+scholarly reasoning behind its fields (why a claim is scoped as it is,
+which source verifies it, what was checked and found absent); process
+narration (review rounds, PR numbers, thread and model names, "earlier
+draft" history, dated change logs) is not audit trail - it is cleaned
+from the body under CLAUDE.md's own standing rule, as each record is
+touched, not swept in one pass.]
 
 ## C. Representative-freeze — after world-freeze
 

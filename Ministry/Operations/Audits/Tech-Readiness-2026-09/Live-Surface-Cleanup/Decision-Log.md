@@ -1494,3 +1494,44 @@ Full local suite (832 passed), `engine.m1.selftest` (`overall_pass: true`), `eng
 (clean after the don waiver fix), both `engine.m2.cli`/`site_cli staleness-check` (clean),
 `check_live_commentary --surface engine` (zero new hits against `origin/main` on every touched
 file), and `check_paths.py` (0 new unresolved) all reverified on the merged state before pushing.
+
+---
+
+**Entry 17 — Decision 4: "a record body may keep durable scholarly reasoning" (Mark's ruling,
+2026-09-25, verbatim: "a, and remember we are striving for a high scholorly rigor where a
+propheser of church history would be impressed, but not nessessarily 100% perfect").** Two
+separate PRs built from current `main`, per the launch brief:
+
+- **PR 1 (the checker), PR #581** — taught `tools/check_live_commentary.py` the difference between durable
+  scholarly reasoning (KEEP, inside a record body: why a claim is scoped as it is, which source
+  verifies it, what was checked and found absent) and process narration (REWRITE/ROUTE, same as
+  everywhere else this workstream governs: review rounds, PR numbers, thread and model names,
+  "earlier draft" history, dated change logs). Verified across 4 independent Opus adversarial-
+  review rounds, each finding genuine distinct issues, each fixed at the root; round 4's finding
+  drove a real simplification (the record-type-exclusion + world-self-reference mechanism replaced
+  outright by a single marker-required rule for the `open question`/`open gap`/`open item`/
+  `unresolved` weak-token class). Remains report-only, unchanged CI mode. Fleet-wide before/after
+  on `records/`: 5383 hits (REWRITE 3706, ROUTE 313, PROTECTED 1352, KEEP 12) before, 3504 hits
+  (REWRITE 2468, ROUTE 62, PROTECTED 962, KEEP 12) after; every other surface exactly matches the
+  `origin/main` baseline. 158 local tests passing. Full detail in the PR body itself, not
+  duplicated here.
+- **PR 2 (this entry)** — the wording amendments this decision requires, so `CLAUDE.md` and
+  `reference/method/CiC_World_Build_Completion_Standard_V1.3.md` §B agree with the ruling above.
+  `CLAUDE.md`'s "Keep the live/canonical surfaces clean" section gains one narrow exception,
+  scoped to `records/*.md` alone, naming the same KEEP/ROUTE split PR 1 implements. The Completion
+  Standard's own `[V1.3]` file-discipline item (§B) — which read "Record BODIES are never part of
+  this read - they are the mandated audit trail and never compile" — is amended with a `[V1.6:
+  ...]` tag (the next unused version tag in that section's established inline-versioning
+  convention; no `[V1.4]` exists, and `[V1.5]` is a different, already-present amendment elsewhere
+  in the document) narrowing "audit trail" to durable scholarly reasoning specifically, and stating
+  that process narration is cleaned from a record body the same way CLAUDE.md's standing rule
+  cleans every other live file - as each record is touched, never swept in one pass. The
+  Completion Standard's own adoption stamp ("GOVERNING — adopted by Mark, 2026-07-27") is left
+  untouched; this session has no authority to self-certify that stamp, and §E's own rule ("changes
+  to this standard are Change Orders, never silent edits") is why this entry and the PR body both
+  name the change explicitly rather than landing it quietly. Both files touch canonical governing
+  surfaces, so PR 2 is a Mark click, not an auto-mode action - stated in its own PR body.
+
+Neither PR has been merged by this session, per instruction. Both PR numbers and head SHAs
+reported to the managing thread; quiet mode otherwise in force (one report per PR, no other
+messages).
