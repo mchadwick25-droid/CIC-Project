@@ -245,3 +245,86 @@ def test_derivational_form_stays_an_accepted_known_limit():
     assert ungrounded_markers(
         sentence, ["pahc.dw.test-smyrnaeans-only"], repository_records=_DERIVATIONAL_FORM_REPOSITORY
     ) == ["smyrna"]
+
+
+_ALEXANDRIA_NOUN_REPOSITORY = {
+    "pahc.dw.test-alexandria-noun": {
+        "id": "pahc.dw.test-alexandria-noun",
+        "record_type": "doctrinal_witness",
+        "text": "Athanasius returned to Alexandria after the council closed.",
+    },
+}
+
+_ALEXANDRIA_ADJECTIVE_REPOSITORY = {
+    "pahc.dw.test-alexandria-adjective": {
+        "id": "pahc.dw.test-alexandria-adjective",
+        "record_type": "doctrinal_witness",
+        "text": "An Alexandrian delegation carried the letter home.",
+    },
+}
+
+
+def test_alexandria_alexandrian_grounds_each_way():
+    # The one narrow derivational pattern this ground-matching machinery
+    # now bridges: a place name ending in "a" and its own bare-"n"
+    # adjective, in either direction.
+    assert ungrounded_markers(
+        "An Alexandrian bishop signed the letter.",
+        ["pahc.dw.test-alexandria-noun"],
+        repository_records=_ALEXANDRIA_NOUN_REPOSITORY,
+    ) == []
+    assert ungrounded_markers(
+        "Athanasius returned home to Alexandria.",
+        ["pahc.dw.test-alexandria-adjective"],
+        repository_records=_ALEXANDRIA_ADJECTIVE_REPOSITORY,
+    ) == []
+
+
+def test_derivational_bridge_does_not_match_an_unrelated_name():
+    # The narrow "a"/"an" bridge must not turn into a general stemmer:
+    # an unrelated name sharing no root still flags, even though it too
+    # ends in "a".
+    sentence = "Our own bishop wrote to Antioch and to Persia about the dispute."
+    assert ungrounded_markers(
+        sentence, ["pahc.dw.test-smyrnaeans-only"], repository_records=_DERIVATIONAL_FORM_REPOSITORY
+    ) == ["antioch", "persia"]
+
+
+_NUMBER_DIGIT_REPOSITORY = {
+    "ijc.dw.test-number-digit": {
+        "id": "ijc.dw.test-number-digit",
+        "record_type": "doctrinal_witness",
+        "text": "Ammianus counted 137 dead in the square that day.",
+    },
+}
+
+_NUMBER_SPELLED_REPOSITORY = {
+    "ijc.dw.test-number-spelled": {
+        "id": "ijc.dw.test-number-spelled",
+        "record_type": "doctrinal_witness",
+        "text": "Ammianus counted one hundred thirty-seven dead in the square that day.",
+    },
+}
+
+
+def test_number_grounds_each_way_across_digit_and_spelled_form():
+    assert ungrounded_markers(
+        "Ammianus says one hundred thirty-seven people died there.",
+        ["ijc.dw.test-number-digit"],
+        repository_records=_NUMBER_DIGIT_REPOSITORY,
+    ) == []
+    assert ungrounded_markers(
+        "Ammianus says 137 people died there.",
+        ["ijc.dw.test-number-spelled"],
+        repository_records=_NUMBER_SPELLED_REPOSITORY,
+    ) == []
+
+
+def test_number_cross_form_check_does_not_manufacture_ground():
+    # A genuinely different, unsupported number still flags after the
+    # cross-form check - it does not start matching every number.
+    assert ungrounded_markers(
+        "Ammianus says 200 people died there.",
+        ["ijc.dw.test-number-digit"],
+        repository_records=_NUMBER_DIGIT_REPOSITORY,
+    ) == ["200"]

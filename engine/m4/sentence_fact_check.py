@@ -52,12 +52,17 @@ KNOWN LIMITS:
     no proper-noun or number marker of its own, so there is nothing here
     to compare against ground - a different, harder problem than an
     absent name or number.
-  - A different derivational form of a grounded name (an adjective where
-    the ground has the noun, or similar) is not recognized as the same
-    word - `missing_markers`' own documented limit, shared unchanged.
-  - The same fact stated in a different surface form than the ground
-    uses (a digit where the ground spells the number out, or vice
-    versa) is not recognized as the same value.
+  - A different derivational form of a grounded name is recognized as
+    the same word only for the one narrow pattern `missing_markers`'
+    own `_derivational_variants` covers (a place name ending in "a"
+    against its bare-"n" adjective, Alexandria/Alexandrian) - a wider
+    relationship (Smyrna/Smyrnaeans) is still not recognized.
+  - The same fact stated as a digit on one side and its own spelled-out
+    cardinal on the other is recognized as the same value
+    (`missing_markers`' own `_spell_cardinal` cross-form check, up to
+    six digits) - a genuinely different surface convention outside that
+    (an ordinal where the ground has the cardinal, "eighteenth" against
+    "eighteen") is not.
   - The stripped span runs from the literal word "if" to the next
     literal "would"/"would have," not the true grammatical clause
     boundary - a claim sitting between an unrelated "if" and an

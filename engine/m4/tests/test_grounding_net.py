@@ -6,7 +6,7 @@ verification (against the current alx/pahc/ijc packages) is a separate,
 manual step recorded in the session's own commit history, not repeated
 here as a hermetic test.
 """
-from engine.m4.grounding_net import build_figure_lexicon, check_turn, check_turn_with_paragraph_coverage, parse_tagged, scope_completion, split_into_paragraphs, strip_tags, verdict_for_sentence
+from engine.m4.grounding_net import build_figure_lexicon, check_turn, check_turn_with_paragraph_coverage, drop_flagged_sentences, parse_tagged, scope_completion, split_into_paragraphs, strip_tags, verdict_for_sentence
 from engine.m4.grounding_net import _drop_truncated_tail
 
 TERM_RECORD = {
@@ -436,6 +436,29 @@ def test_split_into_paragraphs_ignores_single_newlines():
 
 def test_split_into_paragraphs_falls_back_to_the_whole_text_when_no_blank_line():
     assert split_into_paragraphs("just one paragraph, no blank line at all.") == ["just one paragraph, no blank line at all."]
+
+
+def test_drop_flagged_sentences_removes_only_the_named_sentence_and_its_own_tag():
+    text = "First sentence stays [[a.b.c]]. Second sentence is bad. Third sentence stays too [[d.e.f]]."
+    assert (
+        drop_flagged_sentences(text, {"Second sentence is bad."})
+        == "First sentence stays [[a.b.c]]. Third sentence stays too [[d.e.f]]."
+    )
+
+
+def test_drop_flagged_sentences_drops_a_paragraph_whole_when_every_sentence_in_it_is_flagged():
+    text = "Keep this one [[a.b.c]].\n\nBad sentence one. Bad sentence two."
+    assert drop_flagged_sentences(text, {"Bad sentence one.", "Bad sentence two."}) == "Keep this one [[a.b.c]]."
+
+
+def test_drop_flagged_sentences_returns_empty_string_when_everything_is_flagged():
+    text = "Only sentence, and it is bad."
+    assert drop_flagged_sentences(text, {"Only sentence, and it is bad."}) == ""
+
+
+def test_drop_flagged_sentences_is_a_no_op_when_nothing_matches():
+    text = "Nothing here is flagged [[a.b.c]]."
+    assert drop_flagged_sentences(text, {"Some other sentence entirely."}) == text
 
 
 def test_check_turn_with_paragraph_coverage_matches_check_turn_on_sentences_and_truncation():

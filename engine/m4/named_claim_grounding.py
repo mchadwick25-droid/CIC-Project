@@ -60,10 +60,20 @@ A trailing possessive ('s, or a bare trailing ' on a plural like
 comparing, since engine.prose._WORD keeps the apostrophe as part of the
 word: a sentence saying "Ignatius's letter" and a record naming plain
 "Ignatius" must ground each other. Known, accepted limit: this does not
-resolve a DIFFERENT derivational form of the same name (a record naming
-"Smyrna" does not itself ground a sentence saying "Smyrnaeans") - that
-stays report-only noise, not a false negative this module is scoped to
-fix.
+resolve every DIFFERENT derivational form of the same name (a record
+naming "Smyrna" does not itself ground a sentence saying "Smyrnaeans") -
+that stays report-only noise, not a false negative this module is scoped
+to fix. `_derivational_variants` closes the one specific, narrow pattern
+this project's own false-positive audits actually found live (a place
+name ending in "a" forming its adjective by adding a bare "n" -
+Alexandria/Alexandrian, Edessa/Edessan); every wider derivational
+relationship stays the accepted, unfixed noise above.
+
+A digit and its own spelled-out cardinal are the same value, not two
+different tokens: `missing_markers` grounds "137" against a ground that
+only ever spells "one hundred thirty-seven," and the reverse, via
+`_spell_cardinal` - the same fact stated in a different surface form is
+one grounded value on either side of the check.
 
 Report-only: this module never withholds or edits a turn's text.
 find_named_claim_flags is meant to be called the same unconditional way
@@ -82,6 +92,85 @@ from engine.prose import SPELLED_NUMBERS, all_text, claim_markers, content_words
 
 _WORD = re.compile(r"[a-zA-Z']+")
 _DIGIT = re.compile(r"\b\d+\b")
+
+# A narrow derivational-form bridge, not a general stemmer: a place name
+# ending in "a" forms its adjective by adding a bare "n" - Alexandria ->
+# Alexandrian, Edessa -> Edessan, both real false-positive pairs this
+# ground-matching machinery produced (a sentence naming the noun form
+# against a ground that only ever spells the adjective form, or the
+# reverse). Any other derivational relationship (Smyrna/Smyrnaeans,
+# Nicaea/Nicene) is a different word-formation pattern this narrow rule
+# does not attempt, and stays the report-only noise it already was.
+def _derivational_variants(word: str) -> set[str]:
+    variants: set[str] = set()
+    if word.endswith("an") and len(word) > 3:
+        variants.add(word[:-1])
+    if word.endswith("a") and len(word) > 2:
+        variants.add(word + "n")
+    return variants
+
+
+_ONES_WORDS = [
+    "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+    "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+    "seventeen", "eighteen", "nineteen",
+]
+_TENS_WORDS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+
+
+def _spell_cardinal(n: int) -> list[str]:
+    """The standard English long-form spelling of a non-negative integer,
+    split into the same individual word tokens engine.prose._WORD would
+    find in running prose (no "and", no hyphens, since _WORD does not
+    match a hyphen either) - 137 -> ["one", "hundred", "thirty", "seven"].
+    Outside the supported range this returns [] rather than guessing, so
+    a caller's cross-form check simply finds nothing to compare, never a
+    false ground."""
+    if not (0 <= n < 1_000_000):
+        return []
+    if n == 0:
+        return ["zero"]
+
+    def below_100(x: int) -> list[str]:
+        if x < 20:
+            return [_ONES_WORDS[x]]
+        tens, ones = divmod(x, 10)
+        words = [_TENS_WORDS[tens]]
+        if ones:
+            words.append(_ONES_WORDS[ones])
+        return words
+
+    def below_1000(x: int) -> list[str]:
+        hundreds, rest = divmod(x, 100)
+        words = []
+        if hundreds:
+            words += [_ONES_WORDS[hundreds], "hundred"]
+        if rest:
+            words += below_100(rest)
+        return words
+
+    thousands, rest = divmod(n, 1000)
+    words: list[str] = []
+    if thousands:
+        words += below_1000(thousands) + ["thousand"]
+    if rest:
+        words += below_1000(rest)
+    return words
+
+
+def _spelled_words_for_digit(digit: str) -> set[str]:
+    """A digit's own spelled-out components, minus "one" - the same word
+    content_words()'s own stopword list already drops from every ground
+    (and SPELLED_NUMBERS' own comment already excludes from detection,
+    as the single largest false-positive source measured there): a
+    ground stating "one hundred thirty-seven" never keeps "one" as a
+    content word, so requiring it here would fail the cross-form check
+    on every real match rather than only the ones that deserve it."""
+    try:
+        n = int(digit)
+    except ValueError:
+        return set()
+    return {w for w in _spell_cardinal(n) if w != "one"}
 
 
 def _source_ground(record: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
@@ -198,6 +287,19 @@ def missing_markers(
     two checks can never silently diverge on what counts as "grounded."
     Empty for a sentence naming no checkable marker at all.
 
+    Two cross-form checks run before a marker counts as missing, both
+    narrow and both fixing a real measured false-positive pair rather
+    than a hypothetical one:
+      - a proper noun grounds against its own `_derivational_variants`
+        too (Alexandria/Alexandrian, Edessa/Edessan), not only its exact
+        surface form;
+      - a digit grounds against its own spelled-out form
+        (`_spell_cardinal`) found as a subset of `ground_words`, and a
+        spelled number word grounds against any digit already present in
+        `ground_digits` spelled the same way - the same fact stated as
+        "137" on one side and "one hundred thirty-seven" on the other is
+        one grounded value, not two.
+
     include_sentence_initial_proper_nouns (default False - `ungrounded_
     markers` below keeps claim_markers' own narrower, calibrated default):
     threaded straight through to `claim_markers`. `engine.m4.
@@ -207,11 +309,26 @@ def missing_markers(
     missing: set[str] = set()
     for marker in claim_markers(text, include_sentence_initial_proper_nouns=include_sentence_initial_proper_nouns):
         if marker.startswith("proper-noun:"):
-            missing |= _proper_noun_words(marker) - ground_words
+            for word in _proper_noun_words(marker):
+                if word in ground_words or _derivational_variants(word) & ground_words:
+                    continue
+                missing.add(word)
         elif marker == "number":
             digits, spelled = _number_tokens(text)
-            missing |= digits - ground_digits
-            missing |= spelled - ground_words
+            ground_digit_words: set[str] = set()
+            for d in ground_digits:
+                ground_digit_words |= _spelled_words_for_digit(d)
+            for d in digits:
+                if d in ground_digits:
+                    continue
+                spelled_form = _spelled_words_for_digit(d)
+                if spelled_form and spelled_form <= ground_words:
+                    continue
+                missing.add(d)
+            for w in spelled:
+                if w in ground_words or w in ground_digit_words:
+                    continue
+                missing.add(w)
     return sorted(missing)
 
 

@@ -1221,6 +1221,141 @@ def test_r27_enforce_passes_a_grounded_frame_sentence_inside_a_cited_paragraph_w
     assert voice_event["paragraph_offenses"] == []
 
 
+# sentence_enforce's own required test list - a second, independent
+# flag-gated enforcement from r27_enforce above. sentence_enforce=False
+# (every existing test, including all of r27_enforce's own above) is
+# already proven byte-identical by the full suite passing unchanged;
+# these are the flag-ON cases. "Athanasius of Alexandria opposed the
+# council." is the fixture's own unsupported sentence throughout: _world()'s
+# only record never names either word, so engine.m4.sentence_fact_check.
+# find_unsupported_named_claims flags it regardless of citation tag.
+_UNSUPPORTED_SENTENCE = "Athanasius of Alexandria opposed the council."
+_GROUNDED_SENTENCE = "We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."
+
+
+def test_sentence_enforce_off_by_default_leaves_the_flag_report_only():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_UNSUPPORTED_SENTENCE]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+    )
+    assert len(client.messages.captured_stream_calls) == 1  # never regenerated - the flag is off
+    assert voice_event["text"] == _UNSUPPORTED_SENTENCE  # nothing edited, report-only
+    assert voice_event["fact_check_flags"] and voice_event["fact_check_flags"][0]["sentence"] == _UNSUPPORTED_SENTENCE
+    assert voice_event["sentence_enforcement"] == {
+        "flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": [],
+    }
+
+
+def test_sentence_enforce_regenerates_and_clears_on_a_clean_retry():
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_UNSUPPORTED_SENTENCE], [_GROUNDED_SENTENCE]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # the one allowed regeneration, no more
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["fact_check_flags"] == []
+    assert voice_event["sentence_enforcement"] == {
+        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True, "still_flagged": [], "sentences_dropped": [],
+    }
+
+
+def test_sentence_enforce_drops_only_the_still_flagged_sentence_after_a_failed_retry():
+    paragraph = f"{_GROUNDED_SENTENCE} {_UNSUPPORTED_SENTENCE}"
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[paragraph], [paragraph]],  # the retry repeats the same unsupported sentence
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 2  # one attempt, one regeneration, never a third
+    # The grounded sentence survives, on its own, with no leftover
+    # citation tag, no doubled whitespace, and no trace of the dropped
+    # sentence - never the whole turn blanked, never a Facilitator swap.
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["fact_check_flags"] == []
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["sentence_enforcement"] == {
+        "flagged": [_UNSUPPORTED_SENTENCE], "regenerated": True,
+        "still_flagged": [_UNSUPPORTED_SENTENCE], "sentences_dropped": [_UNSUPPORTED_SENTENCE],
+    }
+
+
+def test_sentence_enforce_keeps_every_other_sentence_when_the_flagged_one_sits_in_the_middle():
+    paragraph = f"{_GROUNDED_SENTENCE} {_UNSUPPORTED_SENTENCE} {_GROUNDED_SENTENCE}"
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[paragraph], [paragraph]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert voice_event["text"] == (
+        "We did not claim to have seen him ourselves. We did not claim to have seen him ourselves."
+    )
+
+
+def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilitator():
+    # The edge this mechanism deliberately does NOT special-case: every
+    # sentence in the turn was the flagged one, so dropping it leaves an
+    # empty answer as an honest side effect of dropping - never via a
+    # deliberate "blank the turn"/Facilitator-substitution fallback the
+    # way r27_enforcement_exhausted's own mechanism works. Proven by
+    # checking r27_enforcement_exhausted stays False here (that field is
+    # this codebase's own signal for the Facilitator-substitution
+    # fallback; sentence_enforce never sets it).
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[[_UNSUPPORTED_SENTENCE], [_UNSUPPORTED_SENTENCE]],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        sentence_enforce=True,
+    )
+    assert voice_event["text"] == ""
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["sentence_enforcement"]["sentences_dropped"] == [_UNSUPPORTED_SENTENCE]
+
+
+def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call():
+    # r27_enforce's own regeneration settles the turn first (wholly_
+    # uncited_paragraph); sentence_enforce then runs its own single
+    # regeneration on top of whatever that left behind - two independent
+    # mechanisms, at most one regeneration each, never a third or fourth
+    # call from either firing twice.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],  # r27: wholly uncited
+            [_UNSUPPORTED_SENTENCE],  # r27's own retry: clean of citation, but names an unsupported claim
+            [_GROUNDED_SENTENCE],  # sentence_enforce's own retry: clean
+        ],
+    )
+    voice_event, _usage = run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 3
+    assert voice_event["r27_enforcement_exhausted"] is False
+    assert voice_event["text"] == "We did not claim to have seen him ourselves."
+    assert voice_event["sentence_enforcement"]["regenerated"] is True
+
+
 # _other_tradition_directive's own honest-limit sentence must never fire
 # unconditionally: a world (e.g. ijc) whose own records already name
 # the tradition asked about must not be made to deny it. Both branches
