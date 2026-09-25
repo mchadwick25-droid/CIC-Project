@@ -22,15 +22,15 @@ sources:
 text: >-
   And silver couches, and pans and vinegar-saucers, and trenchers and bowls; and besides these, vessels of silver and gold, some for serving food, and others for other uses which I am ashamed to name, of easily cleft cedar and thyine wood, and ebony, and tripods fashioned of ivory, and couches with silver feet and inlaid with ivory, and folding-doors of beds studded with gold and variegated with tortoise-shell, and bed-clothes of purple and other colours difficult to produce, proofs of tasteless luxury, cunning devices of envy and effeminacy,—are all to be relinquished, as having nothing whatever worth our pains.
 modern_rendering: >-
-  Silver couches. Pans and vinegar-dishes. Trenchers and bowls. And besides
-  these, vessels of silver and gold, some for serving food, others for
-  other uses which I am ashamed to name, of easily-split cedar and thyine
-  wood, and of ebony. Tripods made of ivory. Couches with silver feet,
-  inlaid with ivory. Folding bed-doors studded with gold and patterned
-  with tortoise-shell. And bedclothes of purple and other colors hard to
-  produce - proofs of tasteless luxury, cunning devices of envy and
-  effeminacy. All these are to be relinquished, as having nothing whatever
-  worth our pains.
+  Silver couches, pans and vinegar-dishes, platters and bowls are all to be
+  given up. So are vessels of silver and gold, some for serving food and
+  others for uses I am ashamed to name. So are vessels of easily split cedar,
+  thyine wood and ebony. So are tripods made of ivory, and couches with silver
+  feet, inlaid with ivory. The same goes for folding bed-doors studded with
+  gold and patterned with tortoise-shell, and for bedclothes of purple and of
+  other colors that are hard to produce. These are proofs of tasteless luxury,
+  cunning devices of envy and effeminacy. They are to be given up because
+  there is nothing at all in them worth our trouble.
 speaker_or_author: Clement of Alexandria, Paedagogus II.3
 license: verbatim
 modern_lens_note: >-

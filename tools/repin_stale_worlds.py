@@ -145,11 +145,20 @@ def open_or_update_pr(info: dict, *, token: str, repo: str, owner: str) -> str:
     return created["html_url"]
 
 
-def main() -> int:
-    token = os.environ.get("REPIN_PR_TOKEN")
+def _early_exit(stale: dict[str, dict], token: str | None) -> int | None:
+    """Decides whether main() should stop before doing any repin work, and
+    with what exit code - or return None to mean "keep going". Split out
+    of main() so the two exit paths (nothing stale; something stale but no
+    token) are each a plain function of their inputs, testable without git
+    or network."""
+    if not stale:
+        print("no stale worlds - nothing to repin")
+        return 0
+
     if not token:
         print(
-            "REPIN_PR_TOKEN is not set - refusing to repin.\n\n"
+            f"{len(stale)} world(s) stale ({', '.join(sorted(stale))}) but REPIN_PR_TOKEN is not "
+            "set - refusing to repin.\n\n"
             "The default GITHUB_TOKEN cannot be used here: a PR it opens never triggers the "
             "pull_request workflow, so it would sit with zero CI checks and never clear branch "
             "protection (D3 SS6.3's own flagged, build-time-only fact). Add a repository secret "
@@ -160,14 +169,21 @@ def main() -> int:
         )
         return 1
 
+    return None
+
+
+def main() -> int:
     repo = os.environ["GITHUB_REPOSITORY"]
     owner = repo.split("/", 1)[0]
 
     _run(["git", "fetch", "origin", "main"])
     stale = _stale_worlds()
-    if not stale:
-        print("no stale worlds - nothing to repin")
-        return 0
+    token = os.environ.get("REPIN_PR_TOKEN")
+
+    early = _early_exit(stale, token)
+    if early is not None:
+        return early
+    assert token is not None  # _early_exit already returned above if it were falsy
 
     failures = []
     for world_key, result in sorted(stale.items()):
