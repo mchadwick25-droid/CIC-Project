@@ -1497,7 +1497,52 @@ file), and `check_paths.py` (0 new unresolved) all reverified on the merged stat
 
 ---
 
-**Entry 17 — Decision 4: "a record body may keep durable scholarly reasoning" (Mark's ruling,
+## Entry 17 — `engine/m4/turn.py` count update (PR building `sentence_enforce`)
+
+Numbered 17: the next free number after Entry 16 above. An earlier draft of this entry, written
+before this branch merged in `main`'s own 81 drifted commits (Entry 16), numbered itself 12 and
+cited PR #574's original finding as "Entry 9" - that PR's entry was itself renumbered to Entry 15
+during the same merge (a genuine numbering collision with the unrelated, pre-existing PR #504
+Entry 9 above), so every reference below points at Entry 15, not the stale "Entry 9."
+
+The same real feature work Entry 15 covers continued: a second, independent flag-gated enforcement
+(`sentence_enforce`, distinct from `r27_enforce`) was added to `engine/m4/turn.py`, and its own
+docstring and tests describe it in contrast to the existing `r27_enforce` mechanism, by name,
+several times - the identical identifier family Entry 15 already found out of scope to clear.
+
+**`engine/m4/turn.py`: 30 REWRITE findings, up from 25 (5 new), all still the same `ruling-identifier`
+pattern, NOT cleared, for the identical reason Entry 15 already gave.** Two rewording passes across
+two review rounds: the first cut a higher draft down by rewording every genuinely new comparison to
+`r27_enforce`'s own behaviour to say "the uncited-claims enforcement" instead of the bare identifier;
+a second pass (a third-round review finding four remaining bare mentions) closed the rest. What
+remains is the parameter declaration itself, the real code conditions that read it
+(`if r27_enforce and hard_offenses:`, `if r27_enforce:`), and the few spots where naming the exact
+flag is unavoidable (a kwarg at a call site) - not new provenance narration. `engine/m4/tests/
+test_turn.py`'s own count moved from 15 to 22 (7 new): the new tests assert against the real, existing
+`r27_enforce`/`r27_enforcement_exhausted` fields (kwargs and dict keys, not prose) to prove the two
+mechanisms compose correctly, including a new test reading the actual captured retry directive to
+confirm the correction carries forward. Two comments also tripped unrelated patterns while this
+entry's own text was still being drafted - a direct quotation of the project lead's own ruling (the
+`marks-word` pattern) and "unresolved" (the `route-cue` pattern, read as an open question rather than
+a decided, still-true design fact) - both reworded before push, so neither rides into either count
+above. Left as-is, same scope decision as Entry 15: a rename is still its own, separate,
+behaviour-adjacent PR. A follow-up round on the same PR (removing a second ground-matching mechanism,
+the digit/spelled number cross-form check) touched only `named_claim_grounding.py`,
+`sentence_fact_check.py`, and their own test files - `turn.py` and `test_turn.py` were untouched, so
+these two counts (30, 22) stand unchanged from this entry's own first pass.
+
+**The new report artifact, `engine/m4/reports/sentence-enforce-live-measure-2026-09-25.json`, adds
+23 findings - all `PROTECTED`, not `REWRITE`, so none need moving or fixing.** `tools/check_live_
+commentary.py`'s own `is_protected` already carves out `engine/*/reports/` via `_is_engine_report`
+(the same exemption Live-Surface-Cleanup's own Entry 11, on `R39`, already names: "`engine/*/reports/`
+is explicitly out of scope per the launch brief"). The file already lives inside that protected zone
+by construction - no move to `Ministry/` or elsewhere is needed, and none was made. `PROTECTED` hits
+are still reported (the tool's own design: visible, not silently absorbed), which is exactly what
+this file's own 23 rows show.
+
+---
+
+**Entry 18 — Decision 4: "a record body may keep durable scholarly reasoning" (Mark's ruling,
 2026-09-25, verbatim: "a, and remember we are striving for a high scholorly rigor where a
 propheser of church history would be impressed, but not nessessarily 100% perfect").** Two
 separate PRs built from current `main`, per the launch brief:
@@ -1535,3 +1580,9 @@ separate PRs built from current `main`, per the launch brief:
 Neither PR has been merged by this session, per instruction. Both PR numbers and head SHAs
 reported to the managing thread; quiet mode otherwise in force (one report per PR, no other
 messages).
+
+*Numbered 18, not 17: this entry's own branch and `main`'s own `sentence_enforce` PR both landed on
+Entry 16 and independently numbered their next entry 17. Since `main`'s own Entry 17 above was
+already merged first, this entry is renumbered to the next free number on merge, per the same
+append-only, no-drift discipline Entry 15/16 already used for an identical collision - content
+otherwise unchanged from what was drafted and reported to the managing thread.*

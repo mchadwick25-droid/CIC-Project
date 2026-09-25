@@ -5071,6 +5071,19 @@ the same thing that doctrine later named." Re-measured after the
 edits: FK grade 7.68, longest sentence 23 words, average 15.1
 words/sentence.
 
+**modern_sense wording ruling, 2026-09-25 (item D1/#548, a separate field
+from the round above's own `distinguishing_claim`).** An independent
+review of #548 found `modern_sense` mislabeled and ungated in
+`spoken_fields.py`; gating it once fixed found `modern_sense` itself at
+FK grade 11.7, above the ceiling of 10. An Opus-drafted rewrite proposed
+"teaching" in place of "doctrine" (same FK grade either way, 7.17); Mark's
+own ruling, in session, 2026-09-25: "the new Trinity wording is fine,"
+naming the approved text exactly: "The developed doctrine that God is
+three persons in one being, all three equal and all three without
+beginning or end. This doctrine took formal shape at Nicaea and after." -
+"doctrine" in both places, not "teaching", matching `distinguishing_claim`'s
+own "the doctrine it now names." Applied verbatim to the record.
+
 **Entry 76 — 2026-09-25. R42's own generation-side follow-up (Entry 73):
 measured, then dropped by direct ruling.** Entry 73 left one open item -
 a proposed report-only directive line asking the voice to tag any
@@ -5752,3 +5765,345 @@ blank or a Facilitator substitution) or fall back to the original draft
 sentence with its own tag stripped, rather than losing the rest of an
 otherwise-good answer over one uncorroborated claim. That enforcement PR
 is Mark's own separate decision to make, not this one's.
+
+**Entry 79 — 2026-09-25.** Sentence-level enforcement (`engine.m4.turn`'s
+new `sentence_enforce`), managing thread's own follow-up work order after
+Entry 78 (PR #574, now merged). **Mark's ruling verbatim (2026-09-25): "a,
+yes to the $3 test run."** Scope, exactly as given: (1) fix the two
+false-positive classes the offline/live measurement in Entry 78 found, at
+their shared root in the ground-matching machinery; (2) build sentence-level
+enforcement, off by default behind a new explicit flag, never
+`CIC_R27_ENFORCE`; (3) one live measurement, $3.00 hard ceiling, the new
+flag on for this run only; (4) this entry.
+
+**A vocabulary note carried forward from Entry 78, unchanged:**
+"unsupported"/"ungrounded" mean a specific name, date, or number absent
+from a world's own compiled ground - never that the named person, place,
+or event is fictional or that the underlying claim is false as history.
+
+**1. The two false-positive classes - both tried, both removed, at the
+shared root (`engine.m4.named_claim_grounding.missing_markers`, called
+by both `ungrounded_markers` and `sentence_fact_check.find_unsupported_
+named_claims` - one implementation, so neither check could fix or
+regress this alone). Mark's own follow-up ruling, verbatim (2026-09-25):
+"a on 578" - remove the digit/spelled cross-form check entirely, the
+same way the derivational bridge was removed, and don't patch the parser
+again.**
+
+- **Digit/spelled number - tried across two rounds of narrowing, then
+  removed, not patched a third time.** The first version compared a bag
+  of a number's own component WORDS against a ground bag (the real bug
+  it shipped with: "seven" matched an unrelated ground number spelled
+  "twenty-seven," because a bag cannot tell the two apart - measured at
+  scale, hundreds of false accepts per world under a 0-999 probe). The
+  second version replaced that with a real cardinal grammar
+  (`_parse_below_hundred`/`_parse_below_thousand`/`_parse_cardinal`)
+  parsing every digit run or spelled-cardinal phrase to its own exact
+  integer value, comparing values rather than words - "and" joining a
+  hundred/thousand block to its own remainder and two adjacent numbers
+  never being summed both had to be special-cased in the grammar itself
+  to keep it from silently composing a value neither side of a claim
+  actually stated. Per this project's own "no fix on a fix," the whole
+  mechanism is removed rather than narrowed further:
+  `_parse_cardinal`/`_parse_below_thousand`/`_parse_below_hundred`/
+  `_numbers_in_text` are gone. A number now grounds only against its own
+  exact surface form - a digit against a digit token, a spelled word
+  against a spelled word, never across the two (`_number_tokens`, the
+  same digit/spelled split the code used before this PR ever touched
+  it). "137" against a ground spelling the same count out, or the
+  reverse, is now a named, accepted false-positive class in both
+  `missing_markers`' own module docstring and `sentence_fact_check`'s
+  own KNOWN LIMITS - it flags; it never grounds a wrong number, and it
+  never silently grounds the right one stated in the other form either.
+- **Derivational form - tried, then removed, not patched again.** The
+  first version of this fix bridged a place name ending in "a" against
+  its own bare-"n" adjective (Alexandria/Alexandrian, Edessa/Edessan).
+  Gating that bridge on a world's own figure lexicon (real people, known
+  from that world's own figure records) was meant to stop it
+  cross-grounding a different person who happens to share the same
+  surface shape - it did not work: Julian/Julia, Hadrian/Hadria,
+  Lucian/Lucia, Domitian/Domitia, Sebastian/Sebastia, Flavian/Flavia,
+  and Claudian/Claudia all still crossed, because none of those names
+  happened to be a figure record in the worlds actually measured. A
+  figure-lexicon gate is a NEGATIVE signal (not a known person) standing
+  in for a POSITIVE one (is a known place) that no world's own compiled
+  repository can supply yet - none carries place records to check
+  against. Per this project's own "no fix on a fix," the bridge is
+  removed entirely, not narrowed a third time: `_derivational_variants`
+  is gone, and a proper noun grounds only against its own exact surface
+  form. Alexandria/Alexandrian is now named plainly as an accepted,
+  unfixed false-positive class - the same status Smyrna/Smyrnaeans
+  already had - in both `missing_markers`' own module docstring and
+  `sentence_fact_check`'s own KNOWN LIMITS. The seven negative-pair
+  tests (Julian/Julia and the other six) are kept, converted from
+  proving a gate works to proving no bridge exists at all - the
+  regression guard against this coming back without a real place-based
+  design.
+
+Both removals carry their own tests: the number check's own parser
+positives are gone; what remains proves the exact-surface-form behavior
+directly - a digit/word mismatch flags each way (`"137"` against a
+spelled ground and the reverse), and two named negative guards pin the
+two cases Mark's own ruling called out by name ("one hundred and
+thirty-seven" against a ground holding 37; "fifteen twenty-seven"
+against a ground holding 42) - plus the pre-existing guards against the
+first version's own bag-of-words bug, unchanged. The derivational
+bridge's own seven negative pairs plus the Alexandria/Alexandrian pair
+itself stay exactly as Entry 79 first left them, still asserting it
+flags rather than asserting it grounds.
+
+**Re-measured offline (no live spend), the exact hand-labeled set and
+corpus scan Entry 78 used, against the current code:**
+
+- **Hand-labeled set: recall unchanged at 4/6** (the same two structural
+  misses Entry 78 named - a characterization with no name/number marker
+  of its own, and a composed claim from individually-grounded pieces -
+  neither is this fix's job). **False positives: 1/56, unchanged from
+  Entry 78's own original measurement, and unchanged again by this
+  round's own further reversion** (`cappadocian`'s "No Alexandrian
+  bishop..." is the one false positive in this labeled set, and it is a
+  derivational-form case, not a number-form one - removing the number
+  check a second time does not move this count). **Precision on this
+  labeled set: 4/5 (80%), Entry 78's own original figure.**
+- **Corpus scan (the same three saved JSON reports): both false-positive
+  classes are back**, as expected once both mechanisms were removed -
+  the derivational flags (already back after this entry's first pass)
+  are joined by the number-form ones. A fresh scan of the same three
+  reports turns up two new instances at scale not seen in Entry 79's
+  first pass, both digit-vs-spelled: `alx`'s "since he was eighteen"
+  (the record's own ground states the age as a digit) and `alx`'s
+  "taught for another twenty years" (same pattern). The two genuine
+  findings Entry 78 already named (`ijc`'s Liberius, `syr`'s *Contra
+  Haereses*) are unaffected either way - neither is a number-form or
+  derivational-form case.
+
+The claim in this entry's own first pass that "hundred and" phrases
+parse to their own correct value across the real corpus no longer
+describes the code: that parser is gone, and no cross-form parsing of
+any kind happens anywhere in this module now. Removed here rather than
+left standing as a description of code that no longer exists.
+
+`check_live_commentary --surface engine` shows 0 new findings in
+`grounding_net.py`, `named_claim_grounding.py`, and `sentence_fact_check.py`
+(the fix files themselves). `turn.py`'s own pre-existing `r27_enforce`
+identifier findings moved from 25 to 30, and the test file's from 15 to
+22, after two rewording passes: every new prose comparison now says "the
+uncited-claims enforcement" rather than the bare identifier - what
+remains is the real parameter declaration, the actual code conditions
+that read it, and the few spots where naming the exact flag is
+unavoidable (a kwarg at a call site, an assertion against the real
+returned field). Logged as a count update in
+`Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-
+Cleanup/Decision-Log.md` Entry 12 (not 10 - that file already carries an
+earlier, pre-`## Entry 1` "Entry 10"), same out-of-scope-to-rename
+reasoning as that program's own Entry 9. The new report artifact,
+`engine/m4/reports/sentence-enforce-live-measure-2026-09-25.json`, adds
+23 more findings, all `PROTECTED` (the checker's own existing
+`engine/*/reports/` carve-out) - no move needed, explained in that same
+Entry 12.
+
+**A correction to Entry 78's own record, updated three times now as the
+fix itself changed shape - reported honestly rather than folded in as a
+silent win.** Of Entry 78's own 4 live false positives: `ijc`'s quoted
+"137" sentence was fixed by the number-value parser while that parser
+existed; now that the parser is removed entirely (section 1 above, this
+round's own ruling), it flags again, exactly as it did before Entry 78's
+own fix - confirmed by direct replay (`Ammianus counted 137 dead in the
+Basilica of Sicininus` against `ijc.quote.ammianus-sicininus-massacre`'s
+own ground, which states the count spelled out, not as a digit). `syr`'s
+"He was an Edessan" was fixed by the derivational bridge while that
+bridge existed; now that the bridge is also removed entirely, it flags
+again the same way. Both are back to their original, still-accepted
+false-positive status, not a new defect. The other 2, both `witt` ("the
+Alexandrians would have stood"; 'no source in our library names
+"Alexandrian Christianity"'), were never derivational-form false
+positives to begin with, regardless of either mechanism's own fate: a
+direct check of `witt`'s own compiled repository (`repository_ground`)
+shows zero occurrences of "alexandria"/"alexandrian"/"alexandrians"
+anywhere in it - the same reason the third sentence in that same probe
+("Alexandria itself appears only once in what we hold") was already,
+correctly, counted as a TRUE positive. All three `witt` Alexandria
+sentences are consistently, correctly flagged, before either fix,
+during each fix's own brief existence, and now after both are removed.
+Entry 78's own classification of two of them as false positives was a
+misreading at the time, not a defect either version of either fix
+introduces or resolves - stated here rather than quietly re-labeled.
+**Net: 0 of Entry 78's own 4 live false positives remain fixed by this
+PR's final state.** Both mechanisms that had briefly fixed two of them -
+the number-value parser, the derivational bridge - were each tried,
+found unsafe on review, and removed per this project's own "no fix on a
+fix," restoring the exact behavior those two findings already had
+before this entry began. Named as two accepted limits, not shipped as
+partial, unsafe fixes.
+
+**2. `sentence_enforce` - the new, independent, flag-gated enforcement.**
+`engine.m4.turn._run_ordinary_voice_turn` gains a second parameter,
+distinct from `r27_enforce` in flag, mechanism, and failure shape,
+threaded through `run_turn` the same way; OFF by default, every existing
+test and caller byte-identical (the full suite passing unchanged with the
+parameter simply absent proves it). Deliberately left unwired past
+`turn.py`'s own two entry points for now - no `CIC_SENTENCE_ENFORCE` env
+var, no `config.py`/`app.py`/`wiring.py`/`table_wiring.py` plumbing to a
+real deploy. That reach is `r27_enforce`'s own, built and staged in an
+earlier, separately-ruled pass; this PR is the same build-then-measure
+stage `sentence_fact_check` itself went through in Entry 78, and whether
+to give it that same reach is the managing thread's own next decision,
+not assumed here.
+
+When `sentence_enforce` is True and `find_unsupported_named_claims` flags
+anything against whichever text `r27_enforce` (if also on) already
+settled: one regeneration, with the flagged sentence(s) named in the
+retry's own directive (`_append_sentence_fact_check_correction`, the same
+append-not-replace channel `_append_r27_correction` already uses - a
+third mechanism was not written). **Composed, not replaced:** when
+`r27_enforce`'s own correction already fired this turn, that same
+correction rides forward into this retry's own directive too - a fresh
+regeneration has no memory of an earlier call's own correction, so
+without carrying it forward this retry could regress a citation fix
+`r27_enforce`'s own retry had already won. A new test
+(`test_sentence_retry_carries_the_r27_correction_forward`) reads the
+actual captured system content sent to the model on this retry and
+confirms both corrections are present, not just the turn's own outcome.
+
+The regenerated answer is checked TWICE, in order. First, when
+`r27_enforce` is on: this retry is a fresh generation that enforcement's
+own pass never saw, so it could just as easily reintroduce a
+`wholly_uncited_paragraph`/`neighbour_named` offense as fix the named
+claim - a hard offense surviving here is `r27_enforce`'s own exhaustion
+(its one-regeneration budget was already spent in the earlier block),
+the identical whole-turn-blank/Facilitator-substitution fallback its own
+second failure already uses. A new test
+(`test_wholly_uncited_paragraph_never_ships_with_r27_enforcement_
+exhausted_false`) proves the invariant directly: such an offense can
+never ship with `r27_enforcement_exhausted` left `False`.
+
+Only when no `r27_enforce` hard offense survives does `sentence_enforce`
+decide for itself. Support the claim or drop it, literally what the
+correction asks for. If a sentence is still flagged after that one
+regeneration, it alone is removed from the answer
+(`engine.m4.grounding_net.drop_flagged_sentences`) - **unless dropping
+every still-flagged sentence would leave nothing behind, in which case
+nothing is dropped: the regenerated answer is kept exactly as it stands,
+flagged sentence and all, and `fact_check_flags` reports the flag still
+standing on it.** Mark's own ruling: never blank the turn, even in that
+edge case - this mechanism's failure mode is never the whole-turn blank
+Entry 77 measured R27 getting wrong (5 of 22 probes wiped entirely), and
+never a Facilitator substitution either. A new test
+(`test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_
+facilitator`) pins the all-flagged case directly: the kept text, the
+flag still reported, `r27_enforcement_exhausted` staying `False`. Every
+other report-only field (`uncited_claims`, `paragraph_offenses`,
+`named_claim_flags`, `fact_check_flags`) is recomputed against whichever
+text this turn ultimately answers with, the same recompute-on-retry
+discipline `r27_enforce`'s own retry already follows. A new,
+always-present `voice_event["sentence_enforcement"]` key
+(`flagged`/`regenerated`/`still_flagged`/`sentences_dropped`) records
+what happened - `sentences_dropped` stays empty and `still_flagged`
+alone shows the standing flag in the all-flagged, nothing-dropped case.
+
+`drop_flagged_sentences` reuses `grounding_net`'s own
+`split_into_paragraphs`/`parse_tagged` - the identical sentence/paragraph
+boundaries every verdict was already computed against, so a flagged
+sentence is matched and removed unambiguously, never by re-splitting the
+text a second, separately-tuned way. Two structural guarantees: a
+paragraph that loses every one of its own sentences is dropped whole, not
+left as an empty blank-line block; a paragraph that keeps at least one
+sentence keeps its own survivors joined by a single space, so a mid-
+paragraph drop leaves no doubled whitespace, no orphaned tag, no broken
+quote span. **A named, honestly-disclosed limit, not fixed here:** a
+sentence that grammatically promised the one just removed (a paragraph
+ending "...three things stand out:" whose own next sentence was the one
+dropped) can still read as an unfinished promise - a semantic dangling
+fragment this string-level operation has no way to see, as distinct from
+the structural one (broken punctuation, an empty paragraph) it does
+prevent. Not observed in this run's own 22 probes (below); tracked, not
+papered over.
+
+**3. LIVE measurement, same 22 probes, current branch, region us-east-1,
+`sentence_enforce=True` for this run only, `r27_enforce` off (its own
+default) - the new mechanism's own first live test.**
+
+**Real cost: $1.5072, under the $3.00 ceiling, all 22 probes ran (no early
+stop).** Full report: `engine/m4/reports/sentence-enforce-live-measure-
+2026-09-25.json`.
+
+**0 true catches, 1 false positive, across 22 probes. The recurring Manz/
+Limmat fabrication (Entry 77's own R27 miss, caught independently three
+times since - #558's run, Entry 77's own run, Entry 78's live run) did
+not appear in this run's own 22 generations at all - there was nothing
+of that shape for this mechanism to prove itself against here.** Draw no
+conclusion about `sentence_enforce`'s own effectiveness from this run;
+see what it actually shows below.
+
+21 of 22 probes generated clean on the first attempt - no flag, no
+regeneration. One did, and re-reading it against the participant's own
+question shows it was wrong to flag: `rzg` B-other-tradition was asked
+"What was your relationship with Alexandrian Christianity?" and answered,
+in part, "Not from Alexandria, not from Rome, not from any unbroken
+succession of teachers - from the text, read and tested aloud." That
+sentence is a rhetorical contrast, not an assertion about Alexandria or
+Rome - it names both places only to deny that either is where `rzg`'s
+own authority comes from, the direct, on-topic answer to the question
+actually asked. "rome" happens to be real ground in `rzg`'s own compiled
+repository and "alexandria" is not, so the sentence flagged on
+"alexandria" the same way a genuine fabrication would. The one allowed
+correction fired; the regenerated answer named the identical sentence
+again (the voice had nothing to change - the sentence was never wrong),
+so it alone was dropped. **This is a false positive with real
+participant-facing cost, not a catch:**
+
+    Our record doesn't mention that Christian tradition.
+
+    What we will tell you is where we stood ourselves. Our own founder
+    said it plainly in 1523: where we have not rightly understood the
+    Scriptures, we will be taught better - but only from the Scriptures
+    themselves. Fifteen hundred years stand between Christ's own life
+    and ours. We hold no living chain, and we do not need one. What we
+    have is the text, and we hold that it is enough on its own terms.
+
+The dropped sentence was the part of the answer that actually named
+Alexandria and addressed the participant's own question directly; what
+remains still answers the question in substance, but the sentence that
+named the tradition asked about by name is gone. Structurally, the drop
+is clean (no dangling fragment, no orphaned clause) - the cost here is
+not a broken sentence, it is losing the most directly responsive part of
+the answer to a false flag. `voice_event["r27_enforcement_exhausted"]`
+stayed `False` throughout this run (`r27_enforce` was off, its own
+default), and every one of the other 21 probes' own `fact_check_flags`
+came back empty - but that is 21 probes that never exercised the
+correction/drop path at all, not 21 probes that proved it safe.
+
+**The open problem this run names, honestly, not fixed here:** a name
+mentioned rhetorically - a contrast, a denial, a hypothetical the
+world's own record never states in those terms - is flagged exactly the
+same way an asserted claim naming that place would be.
+`find_unsupported_named_claims` sees the name, not the grammatical role
+it plays in the sentence around it, and neither `missing_markers` nor
+this entry's own section 1 fixes touch that gap (`sentence_fact_check`'s
+own module docstring, KNOWN LIMITS, now names this class directly). One
+real trigger in 22 probes is not enough to measure how often this
+happens at scale; it is enough to show it happens, and that when it
+does, the cost lands on the participant, not just on review effort.
+
+**Recommendation for the managing thread.** Both ground-matching
+mechanisms section 1 tried are now removed, per Mark's own follow-up
+ruling: false positives on the labeled set stay at 1/56, unchanged from
+Entry 78's own original measurement, not reduced by either attempt -
+and honest re-audit of Entry 78's own 4 live findings shows 0 of them
+fixed by this PR's final state (2 were genuinely fixed for a time by a
+mechanism now removed; the other 2 were never false positives to begin
+with, corrected here rather than silently carried forward). The digit/
+word number-form mismatch and the derivational-form mismatch are both
+named, accepted, unfixed false-positive classes now, the same status,
+not a regression against any baseline this project has actually shipped.
+The enforcement mechanism itself is untested by this run in the way that
+matters most: its one live trigger was a false positive that cost the
+participant the direct answer to their own question, not a caught
+fabrication - 0 true catches, 1 false positive, is not evidence the
+mechanism works, and this entry does not claim it is. Before
+`sentence_enforce` goes anywhere near `r27_enforce`'s own reach (a
+`CIC_SENTENCE_ENFORCE` env var, the `config.py`/`app.py`/`wiring.py`/
+`table_wiring.py` plumbing to a real deploy), the rhetorical-mention
+false-positive class named above needs either a fix or a measured
+sense of how often it fires - neither exists yet. That is the managing
+thread's own next decision to make, not assumed here.

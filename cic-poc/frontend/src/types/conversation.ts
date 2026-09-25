@@ -29,6 +29,13 @@ export interface SourceCard {
   // the click page.
   spoken_rendering?: string | null;
   original_wording?: string | null;
+  // engine/m4/citation_cards.py's own modern_term enrichment (OG-13,
+  // worlds/pahc/Open_Gaps_Tracking.md): present only when record_type is
+  // "modern_term" - the plain-English sense of a modern word the
+  // Facilitator bridged away from the voice, plus the fleet record's own
+  // nuance on how the underlying idea relates to the modern word.
+  modern_sense?: string | null;
+  distinguishing_claim?: string | null;
   // engine/m4/transparency_plan.py attaches the cited record's own
   // confidence envelope verbatim (same object TransparencyAnchor.confidence
   // carries) - optional here because a caller may omit it; a real API
@@ -77,6 +84,11 @@ export interface GlossUsed {
 export interface FacilitatorTurn {
   kind: 'door' | 'threshold' | 'safety' | 'bridge' | 'close';
   text: string;
+  // engine/m4/facilitator_turns.py's bridge_turn (OG-13,
+  // worlds/pahc/Open_Gaps_Tracking.md): present only on a 'bridge' turn -
+  // one SourceCard per modern term the Facilitator just bridged away from
+  // the voice, so the hover card can show its modern_sense.
+  modern_terms?: SourceCard[];
 }
 
 // engine/m4/transparency_plan.py's build_transparency_plan - one complete,

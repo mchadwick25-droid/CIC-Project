@@ -52,12 +52,36 @@ KNOWN LIMITS:
     no proper-noun or number marker of its own, so there is nothing here
     to compare against ground - a different, harder problem than an
     absent name or number.
-  - A different derivational form of a grounded name (an adjective where
-    the ground has the noun, or similar) is not recognized as the same
-    word - `missing_markers`' own documented limit, shared unchanged.
-  - The same fact stated in a different surface form than the ground
-    uses (a digit where the ground spells the number out, or vice
-    versa) is not recognized as the same value.
+  - A different derivational form of a grounded name is never
+    recognized as the same word - a record naming "Smyrna" does not
+    ground a sentence saying "Smyrnaeans," and naming "Alexandria" does
+    not ground "Alexandrian," or the reverse. A bridge for exactly the
+    second pair was tried and removed: the same "-a"/bare-"n" shape also
+    covers real, unrelated people (Julian/Julia, Hadrian/Hadria,
+    Lucian/Lucia, Domitian/Domitia, Sebastian/Sebastia, Flavian/Flavia,
+    Claudian/Claudia), and no world's own compiled repository carries
+    place records yet to gate the bridge on safely. Alexandria/
+    Alexandrian is an accepted, unfixed false-positive class here, the
+    same status Smyrna/Smyrnaeans already has - a place-vs-person design
+    needs its own ruling and its own PR.
+  - The same fact stated as a digit on one side and its own spelled-out
+    cardinal on the other is NOT recognized as the same number - "137"
+    and "one hundred thirty-seven" ground only their own exact surface
+    form (`missing_markers`' own digit-vs-digit, spelled-word-vs-word
+    comparison), never each other. A value-composing cross-form check
+    was tried and removed (`engine.m4.named_claim_grounding`'s own
+    module docstring has the history) - a digit/word form mismatch is an
+    accepted, named false-positive class here, not a defect this module
+    is scoped to fix.
+  - A name mentioned RHETORICALLY - a contrast, a hypothetical, a
+    negation the world's own record never states in those terms ("Not
+    from Alexandria, not from Rome, but from the text itself") - is
+    flagged exactly the same way an asserted claim naming that place
+    would be. This check does not tell the two apart: it sees the name,
+    not the grammatical role it plays in the sentence around it. A
+    rhetorical mention naming a place absent from this world's own
+    ground is a false positive under enforcement, not evidence of
+    fabrication - a real limit this module does not resolve.
   - The stripped span runs from the literal word "if" to the next
     literal "would"/"would have," not the true grammatical clause
     boundary - a claim sitting between an unrelated "if" and an
