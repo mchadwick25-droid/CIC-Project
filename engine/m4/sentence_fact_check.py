@@ -52,15 +52,18 @@ KNOWN LIMITS:
     no proper-noun or number marker of its own, so there is nothing here
     to compare against ground - a different, harder problem than an
     absent name or number.
-  - A different derivational form of a grounded name is recognized as
-    the same word only for the one narrow pattern `missing_markers`'
-    own `_derivational_variants` covers (a place name ending in "a"
-    against its bare-"n" adjective, Alexandria/Alexandrian), and only
-    when neither form is a known person in the world's own figure
-    records - a wider relationship (Smyrna/Smyrnaeans) is still not
-    recognized, and neither is a place/person collision this narrower
-    gate cannot yet tell apart on its own (both forms absent from the
-    figure lexicon, yet still two unrelated names, not one).
+  - A different derivational form of a grounded name is never
+    recognized as the same word - a record naming "Smyrna" does not
+    ground a sentence saying "Smyrnaeans," and naming "Alexandria" does
+    not ground "Alexandrian," or the reverse. A bridge for exactly the
+    second pair was tried and removed: the same "-a"/bare-"n" shape also
+    covers real, unrelated people (Julian/Julia, Hadrian/Hadria,
+    Lucian/Lucia, Domitian/Domitia, Sebastian/Sebastia, Flavian/Flavia,
+    Claudian/Claudia), and no world's own compiled repository carries
+    place records yet to gate the bridge on safely. Alexandria/
+    Alexandrian is an accepted, unfixed false-positive class here, the
+    same status Smyrna/Smyrnaeans already has - a place-vs-person design
+    needs its own ruling and its own PR.
   - The same fact stated as a digit on one side and its own spelled-out
     cardinal on the other is recognized as the same exact value
     (`missing_markers`' own `_numbers_in_text` cross-form check, up to
@@ -100,7 +103,6 @@ already are, adding `voice_event["fact_check_flags"]`. No enforcement
 exists yet."""
 import re
 
-from engine.m4.grounding_net import build_figure_lexicon
 from engine.m4.named_claim_grounding import missing_markers, repository_ground
 from engine.m4.uncited_claims import _is_first_person_no_claim, _is_honest_limit, _is_question
 
@@ -122,16 +124,13 @@ def find_unsupported_named_claims(sentences: list[dict], *, repository_records: 
     "missing"}` - "missing" names the specific word(s)/number(s) not
     found anywhere in the world's own ground."""
     ground_words, ground_numbers = repository_ground(repository_records)
-    figure_names = build_figure_lexicon(repository_records)
     flags = []
     for sent in sentences:
         text = sent["sentence"]
         if _is_question(text) or _is_honest_limit(text.lower()) or _is_first_person_no_claim(text):
             continue
         checkable = _strip_hypothetical_clauses(text)
-        missing = missing_markers(
-            checkable, ground_words, ground_numbers, figure_names, include_sentence_initial_proper_nouns=True
-        )
+        missing = missing_markers(checkable, ground_words, ground_numbers, include_sentence_initial_proper_nouns=True)
         if missing:
             flags.append({
                 "sentence": text, "tags": sent.get("tags") or [],

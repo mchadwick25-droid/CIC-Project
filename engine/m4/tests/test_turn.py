@@ -1313,10 +1313,10 @@ def test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_facilit
     # This mechanism never blanks the turn. Every sentence in this turn
     # is the flagged one, so dropping it would leave nothing behind -
     # instead of dropping (and instead of the whole-turn-blank/
-    # Facilitator-substitution fallback r27_enforcement_exhausted's own
-    # mechanism uses), the regenerated answer is kept exactly as it
-    # stands, flagged sentence and all, and that flag is recorded rather
-    # than silently lost.
+    # Facilitator-substitution fallback the uncited-claims enforcement's
+    # own exhaustion mechanism uses), the regenerated answer is kept
+    # exactly as it stands, flagged sentence and all, and that flag is
+    # recorded rather than silently lost.
     client = FakeBedrockClient(
         safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
         stream_scripts=[[_UNSUPPORTED_SENTENCE], [_UNSUPPORTED_SENTENCE]],
@@ -1356,6 +1356,31 @@ def test_sentence_enforce_and_r27_enforce_compose_without_double_spending_a_call
     assert voice_event["r27_enforcement_exhausted"] is False
     assert voice_event["text"] == "We did not claim to have seen him ourselves."
     assert voice_event["sentence_enforcement"]["regenerated"] is True
+
+
+def test_sentence_retry_carries_the_r27_correction_forward():
+    # Not just that the turn composes correctly (the test above) - the
+    # actual retry call's own directive must contain BOTH corrections,
+    # proven by reading the real captured system content sent to the
+    # model, not inferred from the outcome.
+    client = FakeBedrockClient(
+        safety_response=_safety("NO_SIGNAL"), reader_response=_reader(),
+        stream_scripts=[
+            ["Even a broken priest could not block his grace."],  # r27: wholly uncited
+            [_UNSUPPORTED_SENTENCE],  # r27's own retry: clean of citation, but names an unsupported claim
+            [_GROUNDED_SENTENCE],  # sentence_enforce's own retry: clean
+        ],
+    )
+    run_voice_turn_for_world(
+        voice_client=client, voice_model_id="m", world=_world(),
+        participant_message="who was Jesus", directive=None, session_id="test-session",
+        r27_enforce=True, known_tradition_names=[], sentence_enforce=True,
+    )
+    assert len(client.messages.captured_stream_calls) == 3
+    sentence_retry_system, _messages = client.messages.captured_stream_calls[2]
+    sentence_retry_text = " ".join(block["text"] for block in sentence_retry_system)
+    assert "uncited claims" in sentence_retry_text  # _append_r27_correction's own heading, carried forward
+    assert _UNSUPPORTED_SENTENCE in sentence_retry_text  # _append_sentence_fact_check_correction's own named sentence
 
 
 def test_wholly_uncited_paragraph_never_ships_with_r27_enforcement_exhausted_false():

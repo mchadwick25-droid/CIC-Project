@@ -5768,59 +5768,104 @@ flag on for this run only; (4) this entry.
 from a world's own compiled ground - never that the named person, place,
 or event is fictional or that the underlying claim is false as history.
 
-**1. The two false-positive classes, fixed at the shared root
+**1. The two false-positive classes - one fix landed, one tried and
+removed, both at the shared root
 (`engine.m4.named_claim_grounding.missing_markers`, called by both
 `ungrounded_markers` and `sentence_fact_check.find_unsupported_named_
-claims` - one implementation, so neither check could fix this alone
-without the other silently regressing).**
+claims` - one implementation, so neither check could fix or regress this
+alone).**
 
-- **Derivational form.** A narrow bridge, not a general stemmer:
-  `_derivational_variants` grounds a place name ending in "a" against its
-  own bare-"n" adjective, in either direction - Alexandria/Alexandrian,
-  Edessa/Edessan, the two real pairs Entry 78's own audit found live. A
-  wider relationship (Smyrna/Smyrnaeans) is a different word-formation
-  pattern this rule does not attempt, and stays the accepted, unfixed
-  noise it already was - re-pinned by its own test, unchanged.
-- **Digit/spelled number.** `_spell_cardinal` (a standard English
-  long-form cardinal speller, 0-999,999) lets `missing_markers` ground a
-  digit against a ground that only ever spells the number out, and the
-  reverse - "137" and "one hundred thirty-seven" are one grounded value,
-  not two. "One" is dropped from the comparison on both sides: it is
-  already excluded from `SPELLED_NUMBERS`' own detection (the single
-  largest false-positive source measured there), and `content_words()`'s
-  own stopword list already drops it from every ground, so requiring it
-  here would fail the check on every real match.
+- **Digit/spelled number - landed.** `missing_markers` no longer
+  compares numbers by whether their own component WORDS overlap with a
+  ground bag (the original fix's own real bug: "seven" matched an
+  unrelated ground number spelled "twenty-seven," because a bag cannot
+  tell the two apart - measured at scale, hundreds of false accepts per
+  world under a 0-999 probe). `_numbers_in_text` now parses every
+  contiguous digit run or spelled-cardinal phrase to its own exact
+  integer value via a real cardinal grammar (`_parse_below_hundred`/
+  `_parse_below_thousand`/`_parse_cardinal`), and every comparison is by
+  that value, never by shared words. Two further bugs the grammar fixes
+  directly: "and" only joins a hundred/thousand block to its own
+  remainder ("one hundred and thirty-seven" -> 137, not summed with
+  anything else), and two complete numbers sitting next to each other
+  with nothing joining them parse as two separate values, never one
+  summed value ("fifteen twenty-seven" -> 15 and 27, not 42). New tests
+  pin all three: a ground holding 318 does not ground a sentence saying
+  "100"; a ground holding 730 does not ground "137"; a ground holding 37
+  does not ground "one hundred and thirty-seven"; "fifteen twenty-seven"
+  grounds against a ground holding both 15 and 27 separately, and a
+  sentence naming the wrong summed value (42) still flags.
+- **Derivational form - tried, then removed, not patched again.** The
+  first version of this fix bridged a place name ending in "a" against
+  its own bare-"n" adjective (Alexandria/Alexandrian, Edessa/Edessan).
+  Gating that bridge on a world's own figure lexicon (real people, known
+  from that world's own figure records) was meant to stop it
+  cross-grounding a different person who happens to share the same
+  surface shape - it did not work: Julian/Julia, Hadrian/Hadria,
+  Lucian/Lucia, Domitian/Domitia, Sebastian/Sebastia, Flavian/Flavia,
+  and Claudian/Claudia all still crossed, because none of those names
+  happened to be a figure record in the worlds actually measured. A
+  figure-lexicon gate is a NEGATIVE signal (not a known person) standing
+  in for a POSITIVE one (is a known place) that no world's own compiled
+  repository can supply yet - none carries place records to check
+  against. Per this project's own "no fix on a fix," the bridge is
+  removed entirely, not narrowed a third time: `_derivational_variants`
+  is gone, and a proper noun grounds only against its own exact surface
+  form. Alexandria/Alexandrian is now named plainly as an accepted,
+  unfixed false-positive class - the same status Smyrna/Smyrnaeans
+  already had - in both `missing_markers`' own module docstring and
+  `sentence_fact_check`'s own KNOWN LIMITS. The seven negative-pair
+  tests (Julian/Julia and the other six) are kept, converted from
+  proving a gate works to proving no bridge exists at all - the
+  regression guard against this coming back without a real place-based
+  design.
 
-Both new, narrow tests confirm the bridge does not become a general
-stemmer or a general number-matcher: an unrelated name sharing a root
-letter still flags, and a genuinely different, unsupported count still
-flags after the cross-form check.
+Both fixes carry their own tests: the number grammar's own three named
+regressions above (plus the pre-existing cross-form positives, unchanged
+in shape though not in mechanism), and the derivational bridge's own
+seven negative pairs plus the Alexandria/Alexandrian pair itself, now
+asserting it flags rather than asserting it grounds.
 
 **Re-measured offline (no live spend), the exact hand-labeled set and
-corpus scan Entry 78 used, against the fixed code:**
+corpus scan Entry 78 used, against the current code:**
 
 - **Hand-labeled set: recall unchanged at 4/6** (the same two structural
   misses Entry 78 named - a characterization with no name/number marker
   of its own, and a composed claim from individually-grounded pieces -
-  neither is this fix's job). **False positives: 0/56, down from 1/56**
-  (`cappadocian`'s "No Alexandrian bishop..." now grounds against
-  `cappadocian`'s own "Alexandria's own school..." sentence). **Precision
-  on this labeled set: 4/4 (100%), up from 4/5 (80%).**
-- **Corpus scan (the same three saved JSON reports): clean.** The
-  derivational and digit/spelled flags the scan previously repeated are
-  gone from the output; the two genuine findings Entry 78 already named
-  (`ijc`'s Liberius, `syr`'s *Contra Haereses*) are unaffected, as
-  expected - neither is a derivational or number-form case.
+  neither is this fix's job). **False positives: 1/56, unchanged from
+  Entry 78's own original measurement** (`cappadocian`'s "No Alexandrian
+  bishop..." flags again, now that the bridge that briefly suppressed it
+  is gone - an accepted, disclosed limitation, not a hidden regression).
+  **Precision on this labeled set: 4/5 (80%), back to Entry 78's own
+  figure.**
+- **Corpus scan (the same three saved JSON reports): clean of the
+  number-form class** (the digit/spelled flags the scan previously
+  repeated stay gone); **the derivational flags are back**, as expected
+  once the bridge was removed - the two genuine findings Entry 78
+  already named (`ijc`'s Liberius, `syr`'s *Contra Haereses*) are
+  unaffected either way.
+- **Sweep confirming the number grammar on real corpus text, not just
+  synthetic tests:** every "<number> hundred and <number>" phrase found
+  in `desert`/`don`/`ijc`'s own compiled records (17 occurrences; none in
+  `pahc`) parses to its own correct value - `don`'s recurring "three
+  hundred and ten" (310) and "two hundred and seventy-nine"/"eighty-six"
+  (279/286), `ijc`'s "one hundred and thirty-seven" (137, the Ammianus
+  massacre count) and "One Hundred and Fifty" (150, Canon 28), `desert`'s
+  "three hundred and forty" (340). A false-accept sweep (every value
+  0-999 checked against `witt`/`rzg`/`alx`'s own compiled ground) shows
+  zero false accepts in all three, by construction - two different
+  integers can never compare equal.
 
 `check_live_commentary --surface engine` shows 0 new findings in
 `grounding_net.py`, `named_claim_grounding.py`, and `sentence_fact_check.py`
 (the fix files themselves). `turn.py`'s own pre-existing `r27_enforce`
-identifier findings moved from 25 to 34 (test file 15 to 22), after
-rewording every new prose comparison to say "the uncited-claims
-enforcement" rather than the bare identifier - what remains is the real
-parameter declaration, the actual code conditions that read it, and the
-few spots where naming the exact flag is the only way to say which
-mechanism a sentence means. Logged as a count update in
+identifier findings moved from 25 to 30, and the test file's from 15 to
+22, after two rewording passes: every new prose comparison now says "the
+uncited-claims enforcement" rather than the bare identifier - what
+remains is the real parameter declaration, the actual code conditions
+that read it, and the few spots where naming the exact flag is
+unavoidable (a kwarg at a call site, an assertion against the real
+returned field). Logged as a count update in
 `Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-
 Cleanup/Decision-Log.md` Entry 12 (not 10 - that file already carries an
 earlier, pre-`## Entry 1` "Entry 10"), same out-of-scope-to-rename
@@ -5830,24 +5875,33 @@ reasoning as that program's own Entry 9. The new report artifact,
 `engine/*/reports/` carve-out) - no move needed, explained in that same
 Entry 12.
 
-**A correction to Entry 78's own record, found while re-checking the live
-run's saved sentences against the fixed code, reported honestly rather
-than folded in as a silent win:** of Entry 78's own 4 live false
-positives, only 2 are actually fixed by this change - `syr`'s "He was an
-Edessan" and `ijc`'s quoted "137" sentence, both confirmed resolved by
-direct replay against the saved `final_text`. The other 2, both `witt`
-("the Alexandrians would have stood"; 'no source in our library names
-"Alexandrian Christianity"'), were never derivational-form false
-positives to begin with: a direct check of `witt`'s own compiled
-repository (`repository_ground`) shows zero occurrences of
+**A correction to Entry 78's own record, updated twice now as the fix
+itself changed shape - reported honestly rather than folded in as a
+silent win.** Of Entry 78's own 4 live false positives: `ijc`'s quoted
+"137" sentence is fixed and stays fixed (confirmed by direct replay
+against the saved `final_text` - the number-grammar fix is independent
+of the derivational one and was never touched by its removal). `syr`'s
+"He was an Edessan" was fixed by the derivational bridge while that
+bridge existed; now that the bridge is removed entirely (section 1
+above), it flags again, exactly as it did before Entry 78's own fix -
+back to its original, still-accepted false-positive status, not a new
+defect. The other 2, both `witt` ("the Alexandrians would have stood";
+'no source in our library names "Alexandrian Christianity"'), were never
+derivational-form false positives to begin with, regardless of the
+bridge's own fate: a direct check of `witt`'s own compiled repository
+(`repository_ground`) shows zero occurrences of
 "alexandria"/"alexandrian"/"alexandrians" anywhere in it - the same
 reason the third sentence in that same probe ("Alexandria itself appears
 only once in what we hold") was already, correctly, counted as a TRUE
 positive. All three `witt` Alexandria sentences are consistently,
-correctly flagged, both before and after this fix. Entry 78's own
-classification of two of them as false positives was a misreading at the
-time, not a defect this fix introduces or resolves - stated here rather
-than quietly re-labeled.
+correctly flagged, both before this fix, during the bridge's own brief
+existence, and now after its removal. Entry 78's own classification of
+two of them as false positives was a misreading at the time, not a
+defect any version of this fix introduces or resolves - stated here
+rather than quietly re-labeled. **Net: 1 of Entry 78's own 4 live false
+positives is fixed by this PR's final state** (the number-grammar fix);
+the derivational fix that briefly resolved a second is itself removed,
+named as an accepted limit rather than shipped as a partial, unsafe fix.
 
 **2. `sentence_enforce` - the new, independent, flag-gated enforcement.**
 `engine.m4.turn._run_ordinary_voice_turn` gains a second parameter,
@@ -5868,19 +5922,51 @@ anything against whichever text `r27_enforce` (if also on) already
 settled: one regeneration, with the flagged sentence(s) named in the
 retry's own directive (`_append_sentence_fact_check_correction`, the same
 append-not-replace channel `_append_r27_correction` already uses - a
-third mechanism was not written). Support the claim or drop it,
-literally what the correction asks for. If a sentence is still flagged
-after that one regeneration, it alone is removed from the answer
-(`engine.m4.grounding_net.drop_flagged_sentences`) - never the whole
-turn, never a Facilitator substitution, the exact failure shape Entry 77
-measured R27 getting wrong (5 of 22 probes wiped entirely). Every other
-report-only field (`uncited_claims`, `paragraph_offenses`,
+third mechanism was not written). **Composed, not replaced:** when
+`r27_enforce`'s own correction already fired this turn, that same
+correction rides forward into this retry's own directive too - a fresh
+regeneration has no memory of an earlier call's own correction, so
+without carrying it forward this retry could regress a citation fix
+`r27_enforce`'s own retry had already won. A new test
+(`test_sentence_retry_carries_the_r27_correction_forward`) reads the
+actual captured system content sent to the model on this retry and
+confirms both corrections are present, not just the turn's own outcome.
+
+The regenerated answer is checked TWICE, in order. First, when
+`r27_enforce` is on: this retry is a fresh generation that enforcement's
+own pass never saw, so it could just as easily reintroduce a
+`wholly_uncited_paragraph`/`neighbour_named` offense as fix the named
+claim - a hard offense surviving here is `r27_enforce`'s own exhaustion
+(its one-regeneration budget was already spent in the earlier block),
+the identical whole-turn-blank/Facilitator-substitution fallback its own
+second failure already uses. A new test
+(`test_wholly_uncited_paragraph_never_ships_with_r27_enforcement_
+exhausted_false`) proves the invariant directly: such an offense can
+never ship with `r27_enforcement_exhausted` left `False`.
+
+Only when no `r27_enforce` hard offense survives does `sentence_enforce`
+decide for itself. Support the claim or drop it, literally what the
+correction asks for. If a sentence is still flagged after that one
+regeneration, it alone is removed from the answer
+(`engine.m4.grounding_net.drop_flagged_sentences`) - **unless dropping
+every still-flagged sentence would leave nothing behind, in which case
+nothing is dropped: the regenerated answer is kept exactly as it stands,
+flagged sentence and all, and `fact_check_flags` reports the flag still
+standing on it.** Mark's own ruling: never blank the turn, even in that
+edge case - this mechanism's failure mode is never the whole-turn blank
+Entry 77 measured R27 getting wrong (5 of 22 probes wiped entirely), and
+never a Facilitator substitution either. A new test
+(`test_sentence_enforce_never_blanks_the_whole_turn_or_substitutes_the_
+facilitator`) pins the all-flagged case directly: the kept text, the
+flag still reported, `r27_enforcement_exhausted` staying `False`. Every
+other report-only field (`uncited_claims`, `paragraph_offenses`,
 `named_claim_flags`, `fact_check_flags`) is recomputed against whichever
 text this turn ultimately answers with, the same recompute-on-retry
 discipline `r27_enforce`'s own retry already follows. A new,
 always-present `voice_event["sentence_enforcement"]` key
 (`flagged`/`regenerated`/`still_flagged`/`sentences_dropped`) records
-what happened.
+what happened - `sentences_dropped` stays empty and `still_flagged`
+alone shows the standing flag in the all-flagged, nothing-dropped case.
 
 `drop_flagged_sentences` reuses `grounding_net`'s own
 `split_into_paragraphs`/`parse_tagged` - the identical sentence/paragraph

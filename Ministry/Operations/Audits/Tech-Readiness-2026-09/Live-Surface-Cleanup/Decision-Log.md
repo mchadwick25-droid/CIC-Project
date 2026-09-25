@@ -1188,21 +1188,22 @@ flag-gated enforcement (`sentence_enforce`, distinct from `r27_enforce`) was add
 `r27_enforce` mechanism, by name, several times - the identical identifier family Entry 9 already
 found out of scope to clear.
 
-**`engine/m4/turn.py`: 34 REWRITE findings, up from 25 (9 new), all still the same `ruling-identifier`
-pattern, NOT cleared, for the identical reason Entry 9 already gave.** Every genuinely new comparison
-to `r27_enforce`'s own behaviour was reworded to say "the uncited-claims enforcement" instead of the
-bare identifier, cutting the new-hit count from an earlier, higher draft; what remains after that
-pass is the parameter declaration itself, the real code conditions that read it
+**`engine/m4/turn.py`: 30 REWRITE findings, up from 25 (5 new), all still the same `ruling-identifier`
+pattern, NOT cleared, for the identical reason Entry 9 already gave.** Two rewording passes across two
+review rounds: the first cut a higher draft down by rewording every genuinely new comparison to
+`r27_enforce`'s own behaviour to say "the uncited-claims enforcement" instead of the bare identifier;
+a second pass (a third-round review finding four remaining bare mentions) closed the rest. What
+remains is the parameter declaration itself, the real code conditions that read it
 (`if r27_enforce and hard_offenses:`, `if r27_enforce:`), and the few spots where naming the exact
-flag is the only way to say which of the two mechanisms a sentence means - not new provenance
-narration. `engine/m4/tests/test_turn.py`'s own count moved from 15 to 22 (7 new) for the same
-reason: the new tests assert against the real, existing `r27_enforce`/`r27_enforcement_exhausted`
-fields (kwargs and dict keys, not prose) to prove the two mechanisms compose correctly. Two comments
-also tripped unrelated patterns while this entry's own text was still being drafted - "Mark's
-ruling" (the `marks-word` pattern) and "unresolved" (the `route-cue` pattern, read as an open
-question rather than a decided, still-true design fact) - both reworded before this PR's own push,
-so neither rides into the count above. Left as-is, same scope decision as Entry 9: a rename is
-still its own, separate, behaviour-adjacent PR.
+flag is unavoidable (a kwarg at a call site) - not new provenance narration. `engine/m4/tests/
+test_turn.py`'s own count moved from 15 to 22 (7 new): the new tests assert against the real, existing
+`r27_enforce`/`r27_enforcement_exhausted` fields (kwargs and dict keys, not prose) to prove the two
+mechanisms compose correctly, including a new test reading the actual captured retry directive to
+confirm the correction carries forward. Two comments also tripped unrelated patterns while this
+entry's own text was still being drafted - "Mark's ruling" (the `marks-word` pattern) and
+"unresolved" (the `route-cue` pattern, read as an open question rather than a decided, still-true
+design fact) - both reworded before push, so neither rides into either count above. Left as-is, same
+scope decision as Entry 9: a rename is still its own, separate, behaviour-adjacent PR.
 
 **The new report artifact, `engine/m4/reports/sentence-enforce-live-measure-2026-09-25.json`, adds
 23 findings - all `PROTECTED`, not `REWRITE`, so none need moving or fixing.** `tools/check_live_

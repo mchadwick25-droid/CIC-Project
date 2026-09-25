@@ -264,26 +264,32 @@ _ALEXANDRIA_ADJECTIVE_REPOSITORY = {
 }
 
 
-def test_alexandria_alexandrian_grounds_each_way():
-    # The one narrow derivational pattern this ground-matching machinery
-    # now bridges: a place name ending in "a" and its own bare-"n"
-    # adjective, in either direction.
+def test_alexandria_alexandrian_stays_an_accepted_known_limit():
+    # A derivational bridge for exactly this pair (a place name ending
+    # in "a" against its own bare-"n" adjective) was tried and removed:
+    # the same surface shape also covers real, unrelated people
+    # (Julian/Julia and the other pairs the tests below pin), and no
+    # world's own compiled repository carries place records to gate a
+    # bridge on safely. Alexandria/Alexandrian must flag each way, the
+    # same accepted, unfixed status Smyrna/Smyrnaeans already has - this
+    # test is the regression guard against the bridge quietly coming
+    # back without a real place-based design.
     assert ungrounded_markers(
         "An Alexandrian bishop signed the letter.",
         ["pahc.dw.test-alexandria-noun"],
         repository_records=_ALEXANDRIA_NOUN_REPOSITORY,
-    ) == []
+    ) == ["alexandrian"]
     assert ungrounded_markers(
         "Athanasius returned home to Alexandria.",
         ["pahc.dw.test-alexandria-adjective"],
         repository_records=_ALEXANDRIA_ADJECTIVE_REPOSITORY,
-    ) == []
+    ) == ["alexandria"]
 
 
-def test_derivational_bridge_does_not_match_an_unrelated_name():
-    # The narrow "a"/"an" bridge must not turn into a general stemmer:
-    # an unrelated name sharing no root still flags, even though it too
-    # ends in "a".
+def test_two_different_names_never_ground_each_other():
+    # No derivational bridge exists at all - an unrelated name flags
+    # exactly as any other absent name would, even one that happens to
+    # end in "a" the same way a real bridged pair once did.
     sentence = "Our own bishop wrote to Antioch and to Persia about the dispute."
     assert ungrounded_markers(
         sentence, ["pahc.dw.test-smyrnaeans-only"], repository_records=_DERIVATIONAL_FORM_REPOSITORY
@@ -392,20 +398,107 @@ def test_spelled_seven_does_not_ground_against_an_unrelated_digit_27():
     ) == ["seven"]
 
 
-# The derivational bridge's own narrowing: gated on the world's own
-# figure lexicon so a place-shaped pair (Alexandria/Alexandrian) still
-# grounds, but a person-shaped collision (Julian/Julia, Valerian/Valeria,
-# Hadrian/Hadria - real measured false grounds, since "Julian" is
-# properly derived from "Julius," not "Julia," and the two only collide
-# on the same bare-"n" surface shape) does not, once the "-a" form is
-# confirmed as a known figure rather than a place.
+# _parse_cardinal's own grammar: "and" joins a hundred/thousand block to
+# its own remainder, and two complete numbers sitting next to each other
+# with nothing joining them are never summed into one.
 
-_JULIA_FIGURE_REPOSITORY = {
-    "wit.figure.julia": {
-        "id": "wit.figure.julia",
-        "record_type": "figure",
-        "names": [{"name": "Julia", "tag": "in-world"}],
+_HUNDRED_AND_37_REPOSITORY = {
+    "wit.dw.test-hundred-and-37": {
+        "id": "wit.dw.test-hundred-and-37",
+        "record_type": "doctrinal_witness",
+        "text": "Ammianus counted one hundred and thirty-seven dead in the square that day.",
     },
+}
+
+
+def test_and_joins_a_hundred_block_to_its_remainder():
+    assert ungrounded_markers(
+        "Ammianus says 137 people died there.",
+        ["wit.dw.test-hundred-and-37"],
+        repository_records=_HUNDRED_AND_37_REPOSITORY,
+    ) == []
+    assert ungrounded_markers(
+        "The garrison held three hundred and eighteen men at the wall.",
+        ["wit.dw.test-hundred-and-37"],
+        repository_records=_HUNDRED_AND_37_REPOSITORY,
+    ) == ["three hundred and eighteen"]
+
+
+_GROUND_HOLDS_37_REPOSITORY = {
+    "wit.dw.test-ground-holds-37": {
+        "id": "wit.dw.test-ground-holds-37",
+        "record_type": "doctrinal_witness",
+        "text": "Thirty-seven bishops signed the letter that year.",
+    },
+}
+
+
+def test_ground_containing_37_does_not_ground_one_hundred_and_thirty_seven():
+    # 37 and 137 are different values - "and" must not let a hundred
+    # block's own remainder alone stand in for the whole number.
+    assert ungrounded_markers(
+        "Ammianus says one hundred and thirty-seven people died there.",
+        ["wit.dw.test-ground-holds-37"],
+        repository_records=_GROUND_HOLDS_37_REPOSITORY,
+    ) == ["one hundred and thirty seven"]
+
+
+_FIFTEEN_AND_TWENTYSEVEN_REPOSITORY = {
+    "wit.dw.test-fifteen-27": {
+        "id": "wit.dw.test-fifteen-27",
+        "record_type": "doctrinal_witness",
+        "text": "Fifteen bishops signed first; twenty-seven more signed later.",
+    },
+}
+
+
+def test_adjacent_number_words_are_not_summed_into_one_value():
+    # "fifteen twenty-seven" must not parse as 15+20+7=42 (a value
+    # neither number in the text) - each complete number is its own
+    # value, and a ground holding 15 and 27 separately grounds both.
+    assert ungrounded_markers(
+        "Our own record lists fifteen twenty-seven as the counts that year.",
+        ["wit.dw.test-fifteen-27"],
+        repository_records=_FIFTEEN_AND_TWENTYSEVEN_REPOSITORY,
+    ) == []
+    # A ground that does NOT hold 42 must not ground a sentence naming 42
+    # outright - the summed value is still absent.
+    assert ungrounded_markers(
+        "Our own record says 42 bishops signed that year.",
+        ["wit.dw.test-fifteen-27"],
+        repository_records=_FIFTEEN_AND_TWENTYSEVEN_REPOSITORY,
+    ) == ["42"]
+
+
+_EMPTY_NUMBER_GROUND_REPOSITORY = {
+    "wit.dw.test-empty-numbers": {
+        "id": "wit.dw.test-empty-numbers",
+        "record_type": "doctrinal_witness",
+        "text": "Our own record names no bishops and counts nothing here.",
+    },
+}
+
+
+def test_two_three_is_two_separate_values_not_five():
+    assert ungrounded_markers(
+        "Our own record says two three separately, not one combined count.",
+        ["wit.dw.test-empty-numbers"],
+        repository_records=_EMPTY_NUMBER_GROUND_REPOSITORY,
+    ) == ["three", "two"]
+
+
+# No derivational bridge exists (removed, not narrowed further - see
+# module docstring): every one of these pairs shares the same "-a"/
+# bare-"n" surface shape a bridge once covered, and every one is a real
+# person, not a place - "Julian" is properly derived from "Julius," not
+# "Julia," and the two only collide on spelling. A figure-lexicon gate
+# was tried first and still let every one of these through (none of
+# these names happened to be a figure record in the worlds actually
+# measured) - the regression guard here is the plain absence of any
+# bridge at all, not a gate that depends on what a given world's own
+# figure records happen to contain.
+
+_JULIA_REPOSITORY = {
     "wit.dw.test-julia": {
         "id": "wit.dw.test-julia",
         "record_type": "doctrinal_witness",
@@ -414,42 +507,15 @@ _JULIA_FIGURE_REPOSITORY = {
 }
 
 
-def test_julian_does_not_ground_against_julia_once_julia_is_a_known_figure():
+def test_julian_does_not_ground_against_julia():
     assert ungrounded_markers(
         "The Julian reform of the calendar is not our own record's concern.",
         ["wit.dw.test-julia"],
-        repository_records=_JULIA_FIGURE_REPOSITORY,
+        repository_records=_JULIA_REPOSITORY,
     ) == ["julian"]
 
 
-_VALERIA_FIGURE_REPOSITORY = {
-    "wit.figure.valeria": {
-        "id": "wit.figure.valeria",
-        "record_type": "figure",
-        "names": [{"name": "Valeria", "tag": "in-world"}],
-    },
-    "wit.dw.test-valeria": {
-        "id": "wit.dw.test-valeria",
-        "record_type": "doctrinal_witness",
-        "text": "Valeria's own household kept the old rites in private.",
-    },
-}
-
-
-def test_valerian_does_not_ground_against_valeria_once_valeria_is_a_known_figure():
-    assert ungrounded_markers(
-        "The Valerian persecution struck our own community hardest.",
-        ["wit.dw.test-valeria"],
-        repository_records=_VALERIA_FIGURE_REPOSITORY,
-    ) == ["valerian"]
-
-
-_HADRIA_FIGURE_REPOSITORY = {
-    "wit.figure.hadria": {
-        "id": "wit.figure.hadria",
-        "record_type": "figure",
-        "names": [{"name": "Hadria", "tag": "in-world"}],
-    },
+_HADRIA_REPOSITORY = {
     "wit.dw.test-hadria": {
         "id": "wit.dw.test-hadria",
         "record_type": "doctrinal_witness",
@@ -458,17 +524,101 @@ _HADRIA_FIGURE_REPOSITORY = {
 }
 
 
-def test_hadrian_does_not_ground_against_hadria_once_hadria_is_a_known_figure():
+def test_hadrian_does_not_ground_against_hadria():
     assert ungrounded_markers(
         "The Hadrianic peace changed little for our own community.",
         ["wit.dw.test-hadria"],
-        repository_records=_HADRIA_FIGURE_REPOSITORY,
+        repository_records=_HADRIA_REPOSITORY,
     ) == ["hadrianic"]
 
 
-# Regression coverage: these pairs never matched under the narrow "-a"/
-# "-an" bridge to begin with (none of them fit its exact surface shape),
-# and the figure-lexicon gate above must not change that.
+_LUCIA_REPOSITORY = {
+    "wit.dw.test-lucia": {
+        "id": "wit.dw.test-lucia",
+        "record_type": "doctrinal_witness",
+        "text": "Lucia kept the household faith alive after the edict.",
+    },
+}
+
+
+def test_lucian_does_not_ground_against_lucia():
+    assert ungrounded_markers(
+        "Our own record never names Lucian at all.",
+        ["wit.dw.test-lucia"],
+        repository_records=_LUCIA_REPOSITORY,
+    ) == ["lucian"]
+
+
+_DOMITIA_REPOSITORY = {
+    "wit.dw.test-domitia": {
+        "id": "wit.dw.test-domitia",
+        "record_type": "doctrinal_witness",
+        "text": "Domitia's own household sheltered several believers.",
+    },
+}
+
+
+def test_domitian_does_not_ground_against_domitia():
+    assert ungrounded_markers(
+        "The Domitianic persecution is not described in our own record.",
+        ["wit.dw.test-domitia"],
+        repository_records=_DOMITIA_REPOSITORY,
+    ) == ["domitianic"]
+
+
+_SEBASTIA_REPOSITORY = {
+    "wit.dw.test-sebastia": {
+        "id": "wit.dw.test-sebastia",
+        "record_type": "doctrinal_witness",
+        "text": "Sebastia is not named anywhere in our own account.",
+    },
+}
+
+
+def test_sebastian_does_not_ground_against_sebastia():
+    assert ungrounded_markers(
+        "Our own record never mentions Sebastian's martyrdom at all.",
+        ["wit.dw.test-sebastia"],
+        repository_records=_SEBASTIA_REPOSITORY,
+    ) == ["sebastian"]
+
+
+_FLAVIA_REPOSITORY = {
+    "wit.dw.test-flavia": {
+        "id": "wit.dw.test-flavia",
+        "record_type": "doctrinal_witness",
+        "text": "Flavia gave the ground on which the community met.",
+    },
+}
+
+
+def test_flavian_does_not_ground_against_flavia():
+    assert ungrounded_markers(
+        "The Flavian dynasty is not discussed in our own record.",
+        ["wit.dw.test-flavia"],
+        repository_records=_FLAVIA_REPOSITORY,
+    ) == ["flavian"]
+
+
+_CLAUDIA_REPOSITORY = {
+    "wit.dw.test-claudia": {
+        "id": "wit.dw.test-claudia",
+        "record_type": "doctrinal_witness",
+        "text": "Claudia is mentioned once, in passing, in our own greetings.",
+    },
+}
+
+
+def test_claudian_does_not_ground_against_claudia():
+    assert ungrounded_markers(
+        "The Claudian aqueduct is not named anywhere in our own record.",
+        ["wit.dw.test-claudia"],
+        repository_records=_CLAUDIA_REPOSITORY,
+    ) == ["claudian"]
+
+
+# Regression coverage: these pairs never fit the narrow "-a"/"-an" shape
+# the removed bridge covered, so removing it changes nothing for them.
 
 _ROME_ROMANIA_REPOSITORY = {
     "wit.dw.test-rome": {

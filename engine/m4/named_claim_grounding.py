@@ -69,18 +69,30 @@ A trailing possessive ('s, or a bare trailing ' on a plural like
 "disciples'") is stripped from both the marker and the ground before
 comparing, since engine.prose._WORD keeps the apostrophe as part of the
 word: a sentence saying "Ignatius's letter" and a record naming plain
-"Ignatius" must ground each other. Known, accepted limit: this does not
-resolve every DIFFERENT derivational form of the same name (a record
-naming "Smyrna" does not itself ground a sentence saying "Smyrnaeans") -
-that stays report-only noise, not a false negative this module is scoped
-to fix. `_derivational_variants` closes the one specific, narrow pattern
-this project's own false-positive audits actually found live (a place
-name ending in "a" forming its adjective by adding a bare "n" -
-Alexandria/Alexandrian, Edessa/Edessan), gated on the world's own figure
-lexicon so it cannot cross-ground two different PEOPLE who happen to
-share the same surface shape (Julian/Julia, Valerian/Valeria,
-Hadrian/Hadria - see `_derivational_variants`' own docstring); every
-wider derivational relationship stays the accepted, unfixed noise above.
+"Ignatius" must ground each other. Known, accepted limit, NOT resolved
+here: a different derivational form of the same name (a record naming
+"Smyrna" does not itself ground a sentence saying "Smyrnaeans," and
+naming "Alexandria" does not ground "Alexandrian," or the reverse) is a
+different token this module does not equate - report-only noise, not a
+false negative this module is scoped to fix.
+
+A bridge between exactly this pattern (a place name ending in "a" and
+its own bare-"n" adjective) was tried and removed: the same surface
+shape covers real people too - Julian/Julia, Hadrian/Hadria,
+Lucian/Lucia, Domitian/Domitia, Sebastian/Sebastia, Flavian/Flavia, and
+Claudian/Claudia all fit it without being the same word at all (every
+one is properly derived from a DIFFERENT root spelled with a trailing
+"n" already - Julian from Julius, not Julia - and only collides on this
+surface shape). Gating the bridge on a world's own figure records
+(known people) still let every one of these through, because none of
+them happened to be a figure record in the worlds tested - the gate
+needs a POSITIVE place signal to be safe, and no world's own compiled
+repository carries place records to check against yet. Rather than
+carry a bridge with a known, currently-live false-grounding class,
+Alexandria/Alexandrian is named here as an accepted, unfixed
+false-positive class, the same status Smyrna/Smyrnaeans already has - a
+real place-vs-person design, if built later, needs its own ruling and
+its own PR, not a patch on this one.
 
 Report-only: this module never withholds or edits a turn's text.
 find_named_claim_flags is meant to be called the same unconditional way
@@ -95,60 +107,99 @@ auditable.
 import ast
 import re
 
-from engine.m4.grounding_net import build_figure_lexicon
 from engine.prose import all_text, claim_markers, content_words, short_head
 
 _WORD = re.compile(r"[a-zA-Z']+")
 _DIGIT = re.compile(r"\b\d+\b")
 
-# A narrow derivational-form bridge, not a general stemmer: a place name
-# ending in "a" forms its adjective by adding a bare "n" - Alexandria ->
-# Alexandrian, Edessa -> Edessan, both real false-positive pairs this
-# ground-matching machinery produced (a sentence naming the noun form
-# against a ground that only ever spells the adjective form, or the
-# reverse). Any other derivational relationship (Smyrna/Smyrnaeans,
-# Nicaea/Nicene) is a different word-formation pattern this narrow rule
-# does not attempt, and stays the report-only noise it already was.
-#
-# The surface pattern alone is not enough to tell a place from a person:
-# Julian/Julia, Valerian/Valeria, and Hadrian/Hadria all fit the same
-# bare-"n" shape without being the same word at all (a real measured
-# false-grounding pair - "Julian" is properly derived from "Julius", not
-# "Julia"; the two only collide because both end up spelled with a
-# trailing "n"). `missing_markers` gates this bridge on the world's own
-# figure lexicon (`engine.m4.grounding_net.build_figure_lexicon`) rather
-# than a hand-picked list of place names, which would rot the moment a
-# new world introduces a name this list never anticipated: if either
-# form is already a KNOWN PERSON in this world's own figure records, the
-# bridge does not apply - a real place is never also listed as a figure,
-# so this costs nothing on the pairs it is meant to catch, and blocks
-# exactly the pairs where the "-a" form turns out to be someone's own
-# name instead of a place's.
-def _derivational_variants(word: str) -> set[str]:
-    variants: set[str] = set()
-    if word.endswith("an") and len(word) > 3:
-        variants.add(word[:-1])
-    if word.endswith("a") and len(word) > 2:
-        variants.add(word + "n")
-    return variants
+
+_ONES_VALUES = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
+_TEENS_VALUES = {
+    "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15,
+    "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
+}
+_TENS_VALUES = {
+    "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90,
+}
 
 
-_ONES_WORDS = [
-    "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
-    "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
-    "seventeen", "eighteen", "nineteen",
-]
-_TENS_WORDS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
-_WORD_VALUES: dict[str, int] = {w: i for i, w in enumerate(_ONES_WORDS)}
-_WORD_VALUES.update({w: i * 10 for i, w in enumerate(_TENS_WORDS) if w})
-_NUMBER_WORDS = set(_WORD_VALUES) | {"hundred", "thousand"}
+def _parse_below_hundred(tokens: list[str], i: int) -> tuple[int, int | None]:
+    """(new_i, value 1-99) or (i, None): a tens word with an optional
+    trailing ones word ("twenty" -> 20, "twenty seven" -> 27), or a bare
+    teens/ones word alone ("fifteen" -> 15, "seven" -> 7). Never sums two
+    values that do not compose one number this way: "twenty" followed by
+    "fifteen" stops after "twenty" (20) - a tens word may only be
+    followed by a ONES word, never a teens word, so "fifteen" is left
+    for the next, separate number to claim."""
+    if i >= len(tokens):
+        return i, None
+    w = tokens[i]
+    if w in _TENS_VALUES:
+        j = i + 1
+        if j < len(tokens) and tokens[j] in _ONES_VALUES:
+            return j + 1, _TENS_VALUES[w] + _ONES_VALUES[tokens[j]]
+        return j, _TENS_VALUES[w]
+    if w in _ONES_VALUES:
+        return i + 1, _ONES_VALUES[w]
+    if w in _TEENS_VALUES:
+        return i + 1, _TEENS_VALUES[w]
+    return i, None
+
+
+def _parse_below_thousand(tokens: list[str], i: int) -> tuple[int, int | None]:
+    """(new_i, value 1-999) or (i, None): an "<ones> hundred [and]?
+    [below-hundred]?" block, or - with no "hundred" - a bare below-100
+    value. "and" is consumed only directly between "hundred" and what
+    follows it ("one hundred and thirty seven" -> 137); it never joins
+    two otherwise-separate numbers."""
+    n = len(tokens)
+    if i >= n:
+        return i, None
+    w = tokens[i]
+    if w in _ONES_VALUES:
+        j = i + 1
+        if j < n and tokens[j] == "hundred":
+            hundred_value = _ONES_VALUES[w] * 100
+            k = j + 1
+            if k < n and tokens[k] == "and":
+                k += 1
+            rest_end, rest_val = _parse_below_hundred(tokens, k)
+            if rest_val is not None:
+                return rest_end, hundred_value + rest_val
+            return j + 1, hundred_value
+    return _parse_below_hundred(tokens, i)
+
+
+def _parse_cardinal(tokens: list[str], i: int) -> tuple[int, int | None]:
+    """(new_i, value) or (i, None): the longest well-formed cardinal
+    starting at tokens[i] - an optional "<below-1000> thousand"
+    multiplier, plus an optional "[and]? <below-1000>" remainder. Two
+    complete numbers sitting next to each other with nothing joining
+    them (no "hundred"/"thousand" continuation, no "and") are each their
+    own value, never summed: "fifteen twenty-seven" parses "fifteen"
+    (15) here and leaves "twenty-seven" (27) for the next call."""
+    n = len(tokens)
+    end, val = _parse_below_thousand(tokens, i)
+    if val is None:
+        return i, None
+    if end < n and tokens[end] == "thousand":
+        total = val * 1000
+        j = end + 1
+        if j < n and tokens[j] == "and":
+            j += 1
+        rem_end, rem_val = _parse_below_thousand(tokens, j)
+        if rem_val is not None:
+            return rem_end, total + rem_val
+        return end + 1, total
+    return end, val
 
 
 def _numbers_in_text(text: str) -> list[tuple[str, int]]:
     """Every checkable number in `text`, as (surface, value) pairs: a
-    literal digit run ("137" -> ("137", 137)) or a maximal contiguous
-    run of spelled-cardinal words ("seven hundred thirty" -> ("seven
-    hundred thirty", 730)). The single source both directions of
+    literal digit run ("137" -> ("137", 137)) or the longest well-formed
+    spelled-cardinal phrase starting at each position
+    (`_parse_cardinal` - "one hundred and thirty seven" -> ("one hundred
+    and thirty seven", 137)). The single source both directions of
     missing_markers' own number check read from, so a composed value is
     compared against ground as the one number it actually is, never
     decomposed into individual words checked against an unordered bag -
@@ -156,44 +207,38 @@ def _numbers_in_text(text: str) -> list[tuple[str, int]]:
     check: "seven" counted as grounded because some UNRELATED number in
     the ground happened to be spelled with "seven" as one of its own
     components ("twenty-seven"). A bag of words cannot tell "seven" and
-    "twenty-seven" apart; a parsed value can, and does.
+    "twenty-seven" apart; a parsed value can, and does. A later version
+    of this same check summed every contiguous number word into one
+    total regardless of whether they composed a real cardinal together -
+    "fifteen twenty-seven" read as 15+20+7=42, a value neither number in
+    the text. `_parse_cardinal`'s own grammar (below-hundred, below-
+    thousand, the full cardinal) only ever extends a value when the next
+    word can grammatically continue it; two complete numbers sitting
+    next to each other with nothing joining them are parsed as two
+    separate values, never one summed value.
 
     A phrase never STARTS on a bare "one" (the same reading SPELLED_
     NUMBERS' own comment already names as the single largest false-
     positive source measured for detection: "one" read as a pronoun or
     article, not a quantity) - but "one" already inside an in-progress
-    phrase ("twenty-one", or the "one" that opens "one hundred"
-    immediately after another number word already started the phrase at
-    "hundred") is still counted; a bare multiplier of 1 leaves the total
-    unchanged either way, so starting at "hundred" instead of "one"
-    computes the identical value."""
+    phrase ("twenty-one", or the "one" that opens "one hundred") is still
+    counted, since `_parse_cardinal` only ever reaches it as the second
+    token of a run some OTHER word already started."""
     results: list[tuple[str, int]] = [(m.group(), int(m.group())) for m in _DIGIT.finditer(text)]
     words = _WORD.findall(text)
     lowered = [w.lower() for w in words]
-    i, n = 0, len(lowered)
+    n = len(lowered)
+    i = 0
     while i < n:
-        if lowered[i] not in _NUMBER_WORDS or lowered[i] == "one":
+        if lowered[i] == "one" and (i + 1 >= n or lowered[i + 1] not in ("hundred", "thousand")):
             i += 1
             continue
-        j = i
-        total = 0
-        current = 0
-        surface: list[str] = []
-        while j < n and lowered[j] in _NUMBER_WORDS:
-            w = lowered[j]
-            surface.append(words[j])
-            if w == "hundred":
-                current = (current or 1) * 100
-            elif w == "thousand":
-                total += (current or 1) * 1000
-                current = 0
-            else:
-                current += _WORD_VALUES[w]
-            j += 1
-        value = total + current
-        if value:
-            results.append((" ".join(surface).lower(), value))
-        i = j
+        end, value = _parse_cardinal(lowered, i)
+        if value is None:
+            i += 1
+            continue
+        results.append((" ".join(words[i:end]).lower(), value))
+        i = end
     return results
 
 
@@ -292,7 +337,6 @@ def missing_markers(
     text: str,
     ground_words: set[str],
     ground_numbers: set[int],
-    figure_names: set[str],
     *,
     include_sentence_initial_proper_nouns: bool = False,
 ) -> list[str]:
@@ -303,23 +347,14 @@ def missing_markers(
     two checks can never silently diverge on what counts as "grounded."
     Empty for a sentence naming no checkable marker at all.
 
-    Two cross-form checks run before a marker counts as missing, both
-    narrow and both fixing a real measured false-positive pair rather
-    than a hypothetical one:
-      - a proper noun grounds against its own `_derivational_variants`
-        too (Alexandria/Alexandrian, Edessa/Edessan), gated on
-        `figure_names` so the bridge cannot cross-ground two different
-        people who happen to share the same surface shape (see
-        `_derivational_variants`' own docstring);
-      - a number grounds against its own composed VALUE
-        (`_numbers_in_text`) found anywhere in `ground_numbers`, digit or
-        spelled-out - "137" and "one hundred thirty-seven" are one
-        grounded value, compared exactly, never a bag of components that
-        could belong to a different number entirely.
-
-    figure_names: `engine.m4.grounding_net.build_figure_lexicon`'s own
-    result, computed once by the caller (both callers already have
-    `repository_records`) rather than recomputed on every sentence.
+    A proper noun is compared by its own exact surface form only (see
+    module docstring's own known-limit note on derivational form - tried
+    as a bridge once, removed for cross-grounding real people, not
+    reintroduced here). A number grounds against its own composed VALUE
+    (`_numbers_in_text`) found anywhere in `ground_numbers`, digit or
+    spelled-out - "137" and "one hundred thirty-seven" are one grounded
+    value, compared exactly, never a bag of components that could belong
+    to a different number entirely.
 
     include_sentence_initial_proper_nouns (default False - `ungrounded_
     markers` below keeps claim_markers' own narrower, calibrated default):
@@ -331,13 +366,8 @@ def missing_markers(
     for marker in claim_markers(text, include_sentence_initial_proper_nouns=include_sentence_initial_proper_nouns):
         if marker.startswith("proper-noun:"):
             for word in _proper_noun_words(marker):
-                if word in ground_words:
-                    continue
-                variants = _derivational_variants(word)
-                is_confirmed_person = word in figure_names or variants & figure_names
-                if variants and not is_confirmed_person and variants & ground_words:
-                    continue
-                missing.add(word)
+                if word not in ground_words:
+                    missing.add(word)
         elif marker == "number":
             for surface, value in _numbers_in_text(text):
                 if value not in ground_numbers:
@@ -369,7 +399,7 @@ def ungrounded_markers(text: str, tags: list[str], *, repository_records: dict[s
         ground_numbers |= rec_numbers
     ground_words = {_strip_possessive(w) for w in ground_words}
 
-    return missing_markers(text, ground_words, ground_numbers, build_figure_lexicon(repository_records))
+    return missing_markers(text, ground_words, ground_numbers)
 
 
 def verdict_for_sentence(text: str, tags: list[str], *, repository_records: dict[str, dict]) -> dict:

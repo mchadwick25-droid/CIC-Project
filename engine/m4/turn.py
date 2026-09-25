@@ -832,7 +832,7 @@ def _run_ordinary_voice_turn(
 
     sentence_enforce (engine.m4.sentence_fact_check's own flag-gated
     enforcement, a second and independent mechanism from the
-    uncited-claims enforcement's own r27_enforce flag above - distinct
+    uncited-claims enforcement's own flag above - distinct
     flag, distinct correction text, distinct failure shape): OFF by
     default, same byte-identical-until-opted-in guarantee as that
     enforcement. When True, runs after the uncited-claims enforcement
@@ -855,9 +855,10 @@ def _run_ordinary_voice_turn(
     when the uncited-claims enforcement is on: a wholly_uncited_paragraph
     or neighbour_named offense surviving THIS retry is that
     enforcement's own exhaustion, the identical fallback (whole turn
-    blanked, r27_enforcement_exhausted True, caller substitutes a
-    Facilitator turn) its own second failure above already uses - its
-    own one-regeneration budget was already spent in the block above, so
+    blanked, that enforcement's own exhaustion flag set, caller
+    substitutes a Facilitator turn) its own second failure above already
+    uses - its own one-regeneration budget was already spent in the
+    block above, so
     a hard offense reappearing here does not get a second regeneration
     of its own. The uncited-claims enforcement's own safety guarantee
     sits above sentence_enforce's own preferences: it is checked first,
@@ -1201,9 +1202,10 @@ def _run_ordinary_voice_turn(
             retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
         )
 
-        # RE-CHECKED BY the uncited-claims enforcement, when r27_enforce
-        # is on: this retry is a fresh generation that enforcement's own
-        # pass never saw, so it could just as easily reintroduce a
+        # RE-CHECKED BY the uncited-claims enforcement, when that
+        # enforcement is on: this retry is a fresh generation that
+        # enforcement's own pass never saw, so it could just as easily
+        # reintroduce a
         # wholly_uncited_paragraph or neighbour_named offense as fix the
         # named claim. That enforcement's own safety guarantee (never
         # ship one of those two offenses) sits above sentence_enforce's
@@ -1395,9 +1397,8 @@ def _run_ordinary_voice_turn(
         # this turn's own answer_text still carries as-is. This enforcement's
         # own failure mode never blanks answer_text and never substitutes
         # the Facilitator; the one way this composed turn CAN still end
-        # up blank is the uncited-claims enforcement's own
-        # r27_enforcement_exhausted path above, checked first and outside
-        # this dict's own control.
+        # up blank is the uncited-claims enforcement's own exhaustion
+        # path above, checked first and outside this dict's own control.
         "sentence_enforcement": sentence_enforcement,
     }
     return voice_event, usage_records

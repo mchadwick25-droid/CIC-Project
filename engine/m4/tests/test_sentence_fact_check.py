@@ -142,14 +142,14 @@ def test_clean_turn_returns_no_flags():
     assert find_unsupported_named_claims(sentences, repository_records=_REPOSITORY) == []
 
 
-# A narrow derivational-form bridge (missing_markers' own
-# _derivational_variants) now grounds a place name ending in "a" against
-# its own bare-"n" adjective, in either direction - pinned here the same
-# way test_named_claim_grounding.py's own
-# test_alexandria_alexandrian_grounds_each_way pins the identical shared
-# fix. A wider derivational relationship (Smyrna/Smyrnaeans) is a
-# different word-formation pattern that narrow rule does not attempt, and
-# stays the accepted, unfixed limit it already was.
+# No derivational bridge exists in missing_markers - tried once, removed
+# for cross-grounding real people (Julian/Julia and similar - see
+# engine.m4.named_claim_grounding's own module docstring), not
+# reintroduced here. Pinned the same way
+# test_named_claim_grounding.py's own
+# test_alexandria_alexandrian_stays_an_accepted_known_limit pins the
+# identical shared fact. Smyrna/Smyrnaeans is the same accepted, unfixed
+# status, a different word-formation pattern entirely.
 
 _DERIVATIONAL_REPOSITORY = {
     "cap.core.cappadocian": {
@@ -160,15 +160,16 @@ _DERIVATIONAL_REPOSITORY = {
 }
 
 
-def test_derivational_form_now_grounds_adjective_against_noun():
+def test_derivational_form_alexandria_alexandrian_still_flags():
     # "Alexandria" (noun) is real ground here; "Alexandrian" (adjective)
-    # is the same place name's own derived form and now grounds against
-    # it directly.
+    # is a different token this module does not equate to it - an
+    # accepted, unfixed false-positive class, not a defect this module
+    # is scoped to fix.
     sentence = "No Alexandrian bishop is named attending any synod our own people convened."
     flags = find_unsupported_named_claims(
         [{"sentence": sentence, "tags": []}], repository_records=_DERIVATIONAL_REPOSITORY
     )
-    assert flags == []
+    assert flags and flags[0]["missing"] == ["alexandrian"]
 
 
 _WIDER_DERIVATIONAL_REPOSITORY = {
