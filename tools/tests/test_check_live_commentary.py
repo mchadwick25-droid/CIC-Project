@@ -764,6 +764,389 @@ def test_real_editorial_numbered_labels_not_flagged_as_headers():
 
 
 # ---------------------------------------------------------------------------
+# Decision 4 (2026-09-25): scholarly reasoning (KEEP) vs process narration
+# (REWRITE/ROUTE) inside a record's own body/fields. A fleet-wide survey
+# of every records/ REWRITE and ROUTE hit found two precision bugs
+# (change-history-block sweeping across front-matter field boundaries,
+# route-cue's weak tokens firing on a world's own designed "genuinely
+# unresolved" content) driving the large majority of false positives, and
+# several real, previously-unflagged process-narration shapes (Opus
+# review mentions, build-thread attribution, session ids, commit hashes,
+# bare PR numbers, "previously read/said"/"now reads" edit-history
+# narration). Every test below is a real fleet example, not synthetic,
+# unless noted.
+# ---------------------------------------------------------------------------
+
+def _hits_for_real_file(path: str) -> list[clc.Hit]:
+    surface = next((s for s, roots in clc.SURFACES.items() if any(path.startswith(r + "/") for r in roots)), "records")
+    return clc.scan_file(REPO, REPO / path, surface)
+
+
+def _line_hit(path: str, line: int):
+    return next((h for h in _hits_for_real_file(path) if h.line == line), None)
+
+
+def test_change_history_never_crosses_a_front_matter_field_boundary():
+    # records/lpc/source/lpc.source.bruder-doctrina-christiana-enchiridion-
+    # maurist.md's own `rights_status` field mentions "adversarial review"
+    # with no blank line anywhere in the front matter before it - the old
+    # whole-front-matter paragraph swept the unrelated `confidence.
+    # divergence_note` field's own scholarly reasoning in with it.
+    assert _line_hit("records/lpc/source/lpc.source.bruder-doctrina-christiana-enchiridion-maurist.md", 19) is None
+
+
+def test_change_history_never_crosses_the_front_matter_body_boundary():
+    # records/cappadocian/voice_craft/cappadocian.voice.craft.md's own body
+    # opening ("...post-Round-2 state: both adversarial review rounds'
+    # findings fixed...") sits with no blank line before the closing `---`
+    # or after it - the old blank-line paragraph swept backward into the
+    # front matter's own clean `guard` field.
+    assert _line_hit("records/cappadocian/voice_craft/cappadocian.voice.craft.md", 32) is None
+    # The real trigger line itself must still fire - this is a boundary
+    # fix, not a loss of the true positive it was protecting.
+    hits = _hits_for_real_file("records/cappadocian/voice_craft/cappadocian.voice.craft.md")
+    assert any("change-history-cue" in h.patterns for h in hits)
+    # An independent Opus precision review caught an off-by-one in
+    # _front_matter_end_line: it returned the closing `---` delimiter's
+    # own line number MINUS one, so the delimiter line itself (line 33
+    # here) stayed on the "front matter" side of the clip and kept
+    # getting swept in by the body's own paragraph.
+    assert _line_hit("records/cappadocian/voice_craft/cappadocian.voice.craft.md", 33) is None
+
+
+def test_change_history_still_sweeps_within_the_same_front_matter_field(tmp_path):
+    # A genuine change-history marker inside a field's OWN multi-line
+    # value must still widen to the rest of that same field - the fix is
+    # scoped to field BOUNDARIES, not to turning off widening entirely.
+    text = (
+        "---\n"
+        "id: fix.gravity.example\n"
+        "record_type: gravity\n"
+        "name: Example\n"
+        "description: >-\n"
+        "  CORRECTION: this finding was mis-scoped in an earlier pass. The\n"
+        "  corrected scope is what follows, carried in full for the\n"
+        "  participant-facing record.\n"
+        "classification: Primary\n"
+        "---\n"
+        "body text\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/gravity/fix.gravity.example.md")
+    lines_with_hits = {h.line for h in hits}
+    assert 7 in lines_with_hits and 8 in lines_with_hits
+
+
+def test_change_history_still_sweeps_a_genuine_body_paragraph():
+    # A real all-process-narration body paragraph (no front matter
+    # involved at all) must still widen the same way it always did.
+    hits = _hits_for_real_file("records/don/voice_craft/don.craft.fidelis-voice.md")
+    assert any(h.line == 131 and "change-history-block" in h.patterns for h in hits)
+
+
+def test_route_cue_weak_token_needs_a_process_marker_to_fire_in_records():
+    # Final design, after three rounds of independent Opus precision
+    # review: within records/, a bare "unresolved"/"open question"/"open
+    # gap"/"open item" only counts as ROUTE when the same field/paragraph
+    # also carries a genuine process marker (_PROCESS_MARKER_NEARBY).
+    # Two narrower gates were tried first and each still left real false
+    # positives - a record-type exclusion (honest_limit/contested_claim
+    # only) missed the same emic vocabulary in doctrinal_witness,
+    # demonstration, voice_craft, term, world_core, and force records;
+    # a "this world" self-reference check missed it in first-person
+    # ("we"/"our"/"us") prose, which never says "this world" at all.
+    # honest_limit's own designed "genuinely unresolved" content:
+    assert _line_hit("records/witt/honest_limit/witt.limit.record-thinnest.md", 70) is None
+    assert _line_hit("records/lpc/honest_limit/lpc.limit.rural-punic-berber-life.md", 19) is None
+    # Third-person in-world description with no marker:
+    assert _line_hit("records/ijc/voice_craft/ijc.voice.craft.md", 41) is None
+    assert _line_hit("records/ijc/demonstration/ijc.demo.never-settled.md", 49) is None
+    assert _line_hit("records/desert/term/desert.term.koinonia.md", 49) is None
+    # First-person emic voice, across record types and fields a narrower
+    # record-type-only gate never covered - found only once the front-
+    # matter field-boundary fix (test_front_matter_field_tracking_
+    # survives_a_column_zero_list_item, above) stopped these lines from
+    # accidentally inheriting an unrelated field's own "this world"
+    # mention:
+    no_marker_in_world_voice = [
+        ("records/syr/demonstration/syr.demo.unsettled.md", 40),  # exchange - the Representative's own dialogue
+        ("records/rzg/doctrinal_witness/rzg.witness.what-we-have-not-agreed.md", 30),  # positions
+        ("records/pahc/doctrinal_witness/pahc.witness.what-we-never-settled.md", 36),  # positions
+        ("records/lpc/voice_craft/lpc.craft.datus-voice.md", 40),  # flavor_notes - designed held-tension trait
+        ("records/alx/term/alx.term.pistis.md", 37),  # false_friend
+        ("records/cappadocian/doctrinal_witness/cappadocian.dw.holy-spirit-honored.md", 26),  # sources locus
+        ("records/don/demonstration/don.demo.bagai-unresolved.md", 27),  # sources locus
+        ("records/syr/demonstration/syr.demo.authority.md", 29),  # sources locus
+        ("records/witt/doctrinal_witness/witt.dw.what-we-have-never-settled.md", 25),  # sources locus
+        ("records/desert/world_core/desert.core.desert.md", 40),  # thin_topics
+        ("records/gallic/force/gallic.force.fugitives-fill-the-sees.md", 87),  # manifestations
+    ]
+    for path, line in no_marker_in_world_voice:
+        assert _line_hit(path, line) is None, f"{path}:{line} wrongly flagged"
+
+
+def test_route_cue_weak_token_excluded_on_a_bare_structural_id_reference():
+    # don.gravity.purity-rigor-vs-institutional-reception.md's own
+    # `target: don.demo.bagai-unresolved` - "unresolved" is part of
+    # another record's own id slug, not prose.
+    assert _line_hit("records/don/gravity/don.gravity.purity-rigor-vs-institutional-reception.md", 30) is None
+
+
+def test_route_cue_strong_tokens_unaffected_by_the_weak_token_gating(tmp_path):
+    # TODO/FIXME/"flagged for Mark"/etc. never showed the same false-
+    # positive shape in the fleet survey and must still fire everywhere,
+    # honest_limit/contested_claim included.
+    text = (
+        "---\n"
+        "id: fix.limit.example\n"
+        "record_type: honest_limit\n"
+        "statement: This is unresolved and flagged for Mark to review.\n"
+        "why_sources_cannot_answer: none\n"
+        "nearest_material: none\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/honest_limit/fix.limit.example.md")
+    assert any(h.line == 4 and "route-cue" in h.patterns for h in hits)
+
+
+def test_route_cue_genuine_true_positives_still_match():
+    # Both must actually stay ROUTE, not just "flagged as something" -
+    # desert.force.melitian-rivalry.md:14's own paragraph carries an
+    # explicit process marker ("per Doc08 Round 3 review Finding S1" a
+    # few lines later), which is what keeps it ROUTE under the final
+    # marker-required design.
+    hit = _line_hit("records/desert/force/desert.force.melitian-rivalry.md", 14)
+    assert hit is not None and hit.category == "ROUTE"
+    hit2 = _line_hit("records/lpc/source/lpc.source.augustine-general-correspondence.md", 17)
+    assert hit2 is not None and hit2.category == "ROUTE"
+
+
+def test_route_cue_weak_token_matches_plurals():
+    # An earlier draft's ROUTE_CUES_WEAK added a trailing \b that ROUTE_
+    # CUES_STRONG (and the single ROUTE_CUES this pair replaced) never
+    # had - silently breaking "open items"/"open questions" (plural).
+    # Caught by an independent Opus precision review: worlds/witt/
+    # witt_Doc_09_Story_Inventory.md's own "## 7. Open items for
+    # Open_Gaps_Tracking.md" section header is the most literal ROUTE
+    # cue in the whole fleet and had stopped matching entirely.
+    hit = _line_hit("worlds/witt/witt_Doc_09_Story_Inventory.md", 333)
+    assert hit is not None and hit.category == "ROUTE"
+
+
+def test_route_cue_weak_token_not_suppressed_by_an_unrelated_process_marker_elsewhere_in_the_field():
+    # records/ijc/voice_craft/ijc.voice.craft.md's own `identity` field is
+    # one unbroken block (no blank line) from line 1 to line 64 - a naive
+    # blank-line paragraph around line 41's "unresolved fact of this
+    # world" also swept in a completely unrelated "Doc_01 SS..." citation
+    # 21 lines away, which an earlier draft's process-marker override
+    # then misread as sitting right next to the world-reference and
+    # un-suppressed it. _bounded_paragraph's own field-boundary scoping
+    # (shared with change-history-block) is what fixes this - the
+    # "paragraph" here must stop at the `identity` field's own edges.
+    assert _line_hit("records/ijc/voice_craft/ijc.voice.craft.md", 41) is None
+
+
+def test_route_cue_weak_token_not_suppressed_when_an_open_item_shares_a_paragraph_with_this_world():
+    # don.gravity.ministerial-purity.md's own "OPEN ITEM CARRIED FORWARD,
+    # NOT RESOLVED (Doc_04 SS7...)" sits in the same paragraph as a "this
+    # world's gravity" reference a few lines later - a genuine open item,
+    # not in-world description, and must not be suppressed just because
+    # the phrase "this world" also appears nearby.
+    hit = _line_hit("records/don/gravity/don.gravity.ministerial-purity.md", 173)
+    assert hit is not None and hit.category == "ROUTE"
+
+
+def test_front_matter_field_tracking_survives_a_column_zero_list_item(tmp_path):
+    # A YAML block-sequence item written at the SAME indent as its own
+    # key ("flavor_notes:\n- segment: ...", no leading spaces before the
+    # dash) is valid and common in this codebase (records/lpc/voice_craft/
+    # lpc.craft.datus-voice.md's own `sources:`/`flavor_notes:`). A round-
+    # 2 Opus precision review caught _front_matter_field_lines ending the
+    # field one line early on this exact shape (indent 0 is never greater
+    # than the key's own indent 0), leaving every real line under it
+    # untracked - which broke this PR's own front-matter field-boundary
+    # fix (a naive whole-field "paragraph" spanning past the field's real
+    # end) and, separately, silently dropped SPOKEN_VOCAB_PATTERNS
+    # coverage on spoken fields written this way.
+    text = (
+        "---\n"
+        "id: fix.craft.example\n"
+        "record_type: voice_craft\n"
+        "identity: Example voice\n"
+        "flavor_notes:\n"
+        "- segment: openers\n"
+        "  tag: register\n"
+        "  note: CORRECTION this note's own field must still be tracked here.\n"
+        "guard: none\n"
+        "characteristic_concerns: []\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/voice_craft/fix.craft.example.md")
+    lines_with_hits = {h.line for h in hits}
+    # Line 8 (the "CORRECTION" trigger) and its own field's other lines
+    # (6, 7) must all resolve to the SAME field, not fall through to a
+    # naive whole-front-matter sweep once the trigger fires - checked
+    # indirectly here via change-history-block reaching line 6 (a
+    # sibling line of the same `flavor_notes` entry) but not reaching
+    # line 9 (`guard`, a different field entirely).
+    assert 8 in lines_with_hits
+    guard_hit = next((h for h in hits if h.line == 9), None)
+    assert guard_hit is None
+
+
+def test_pahc_facilitator_brief_no_longer_swept_by_the_column_zero_list_bug():
+    # records/pahc/facilitator_brief/pahc.facilitator_brief.post-
+    # apostolic-house-church.md's own genuine in-world "unresolved
+    # disagreement" lines were wrongly ROUTE'd because the column-0
+    # list-item bug above let field tracking run past its own field and
+    # pick up an unrelated field's "carried forward" 70 lines away.
+    for line in (82, 195, 226):
+        assert _line_hit("records/pahc/facilitator_brief/pahc.facilitator_brief.post-apostolic-house-church.md", line) is None
+
+
+def test_process_marker_nearby_ignores_routine_doc_citations():
+    # _PROCESS_MARKER_NEARBY must NOT treat a bare Doc_0N/SS-section
+    # citation as an open-item marker - gravity/force/figure records cite
+    # these constantly just to say where a claim comes from, and an
+    # earlier draft's broader marker wrongly un-suppressed real in-world
+    # "unresolved" description that happened to sit near one.
+    clean = [
+        ("records/cappadocian/gravity/cappadocian.gravity.precision-reserve.md", 70),
+        ("records/desert/figure/desert.figure.antony.md", 70),
+        ("records/desert/force/desert.force.authority-tension-ongoing.md", 47),
+        ("records/desert/force/desert.force.origenist-controversy.md", 59),
+        ("records/ijc/force/ijc.force.leo-rejects-canon-28.md", 50),
+        ("records/pahc/source/pahc.source.pliny-letters.md", 36),
+        ("records/syr/source/syr.source.diatessaron-arabic-harmony.md", 33),
+    ]
+    for path, line in clean:
+        assert _line_hit(path, line) is None, f"{path}:{line} wrongly flagged"
+
+
+def test_process_marker_nearby_ignores_bare_carried_forward():
+    # rzg.front's own "doctrine... carried forward at one remove through
+    # Theodore Beza" is real in-world history, not a tracked task -
+    # "carried forward" alone must not count as a marker; only "carried
+    # forward" paired with "not resolved" does (ministerial-purity's own
+    # exact phrase, tested above).
+    for line in (124, 213, 322):
+        assert _line_hit("records/rzg/world_front/rzg.front.the-reformed-cities-zurich-and-geneva.md", line) is None
+
+
+def test_route_cue_process_marker_fires_regardless_of_record_type():
+    # A genuine marker makes a contested_claim record ROUTE just as
+    # readily as any other type. don.contested.refusal-of-imperial-
+    # legitimacy.md's own "Doc_08's own Open Item 1 stands unresolved" is
+    # the SAME Open Item 1 that correctly stays ROUTE in the sibling
+    # gravity record - a contested_claim record type must not hide it.
+    hit = _line_hit("records/don/contested_claim/don.contested.refusal-of-imperial-legitimacy.md", 119)
+    assert hit is not None and hit.category == "ROUTE"
+    for line in (41, 43):
+        hit = _line_hit("records/desert/contested_claim/desert.contested.strand-porousness.md", line)
+        assert hit is not None and hit.category == "ROUTE"
+
+
+def test_opus_review_mention_rewrites():
+    hits = _hits_for_real_file("records/hal/voice_craft/hal.voice.craft.md")
+    assert any("opus-review-mention" in h.patterns for h in hits)
+
+
+def test_opus_imperfectum_title_not_flagged_as_opus_review_mention():
+    # records/ijc/search_record/ijc.search.opus-imperfectum-english.md's
+    # own subject is a real patristic work's title (Opus Imperfectum in
+    # Matthaeum), not a review-process mention.
+    hits = _hits_for_real_file("records/ijc/search_record/ijc.search.opus-imperfectum-english.md")
+    assert not any("opus-review-mention" in h.patterns for h in hits)
+
+
+def test_build_thread_mention_rewrites():
+    hits = _hits_for_real_file("records/pahc/voice_craft/pahc.craft.chloe-voice.md")
+    assert any("build-thread-mention" in h.patterns for h in hits)
+
+
+def test_opus_build_thread_and_prior_wording_scoped_to_records_and_worlds_only():
+    # An independent Opus precision review caught all three of these
+    # patterns firing on reference/'s own durable, present-tense METHOD
+    # text and on engine/m9/enforce.py's own structured Waiver(owner=...)
+    # data once they were applied fleet-wide like PATTERNS - a scope
+    # their own fleet survey never covered (records/ only). All three
+    # moved to RECORDS_AND_WORLDS_PATTERNS, applied only under records/
+    # and worlds/.
+    reference_hits = _hits_for_real_file("reference/method/CiC_Adversarial_Review_Standard_Practice.md")
+    assert not any("opus-review-mention" in h.patterns for h in reference_hits)
+    reference_hits2 = _hits_for_real_file("reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_Template_V1.0.md")
+    assert not any("build-thread-mention" in h.patterns for h in reference_hits2)
+    website_hits = _hits_for_real_file("cic-website/atlas-v3.html")
+    assert not any("prior-wording-narration" in h.patterns for h in website_hits)
+    enforce_hits = _hits_for_real_file("engine/m9/enforce.py")
+    assert not any("build-thread-mention" in h.patterns for h in enforce_hits)
+    # The pattern itself still needs to exist and still fire correctly
+    # within its real scope - a scoping fix that accidentally broke the
+    # pattern outright would pass the assertions above for the wrong
+    # reason.
+    assert clc.RECORDS_AND_WORLDS_PATTERNS["build-thread-mention"].search("this build thread's own call")
+
+
+def test_session_id_rewrites():
+    hits = _hits_for_real_file("records/don/search_record/don.search.liber-genealogus.md")
+    assert any("session-id" in h.patterns for h in hits)
+
+
+def test_commit_hash_rewrites():
+    hits = _hits_for_real_file("records/alx/source/alx.source.origen-philocalia.md")
+    assert any("commit-hash" in h.patterns for h in hits)
+
+
+def test_bare_pr_number_rewrites():
+    hits = _hits_for_real_file("records/hal/voice_craft/hal.voice.craft.md")
+    assert any("pr-number" in h.patterns for h in hits)
+
+
+def test_previously_read_or_said_rewrites():
+    hits = _hits_for_real_file("records/desert/doctrinal_witness/desert.dw.never-settled.md")
+    assert any("prior-wording-narration" in h.patterns for h in hits)
+
+
+def test_now_reads_rewrites():
+    hits = _hits_for_real_file("records/desert/term/desert.term.anachoresis.md")
+    assert any(h.line == 129 and "prior-wording-narration" in h.patterns for h in hits)
+
+
+def test_now_read_imperative_not_flagged_as_prior_wording_narration():
+    # witt.term.to-have-a-god-is-to-trust.md's own locus note ("...First
+    # Commandment, now read entire--...") is an instruction to consult the
+    # source in full, not a change-history statement - "now read"
+    # (imperative, no "s") is deliberately not matched, only "now reads".
+    hits = _hits_for_real_file("records/witt/term/witt.term.to-have-a-god-is-to-trust.md")
+    assert not any("prior-wording-narration" in h.patterns for h in hits)
+
+
+def test_an_earlier_drafts_possessive_rewrites():
+    hits = _hits_for_real_file("records/lpc/story/lpc.story.celerinus-writes-to-lucian.md")
+    assert any(h.line == 20 and "prior-wording-narration" in h.patterns for h in hits)
+
+
+def test_clean_scholarly_reasoning_still_unflagged_by_anything():
+    # Ten real fleet lines the survey confirmed carry durable scholarly
+    # reasoning (source verification, absence-of-evidence, claim-scoping)
+    # and matched no pattern at all before this PR - must still match
+    # nothing after it.
+    clean = [
+        ("records/witt/contested_claim/witt.contested.1543-treatise-later-effect.md", 18),
+        ("records/alx/term/alx.term.baptism.md", 45),
+        ("records/desert/facilitator_brief/desert.facilitator_brief.desert-monasticism.md", 128),
+        ("records/don/figure/don.figure.donatus.md", 15),
+        ("records/syr/world_core/syr.core.syriac.md", 98),
+        ("records/hal/term/hal.term.scriptorium.md", 38),
+        ("records/don/contested_claim/don.contested.circumcellion-agonistici.md", 83),
+        ("records/gallic/world_front/gallic.front.gallic-monastic-ascetic-christianity.md", 243),
+        ("records/don/story/don.story.lucilla-consecration-dispute.md", 88),
+        ("records/ijc/demonstration/ijc.demo.woman-authority.md", 54),
+    ]
+    for path, line in clean:
+        assert _line_hit(path, line) is None, f"{path}:{line} newly flagged"
+
+
+# ---------------------------------------------------------------------------
 # Hand-labelled sample: precision/recall (PR A's own required measurement)
 # ---------------------------------------------------------------------------
 

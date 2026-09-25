@@ -157,6 +157,84 @@ PATTERNS: dict[str, re.Pattern[str]] = {
         r"\bat (?:the|that) (?:Era\s+\d+\s+)?(?:same\s+)?(?:gate|Freeze)\b|\bthe Freeze\b",
         re.IGNORECASE,
     ),
+    # Decision 4 (record-body scholarly-reasoning/process-narration split):
+    # session id / commit hash / bare PR number - build-attribution shapes
+    # already established as commentary elsewhere in this project
+    # (engine/m1/gates.py's own now-removed "commit fbb6557" citations,
+    # Decision-Log Entry 10's "PR #432" ruling), checked for false
+    # positives fleet-wide, kept general-surface like every pattern above
+    # (Entry 10's own cleanup already covered engine/ citations of this
+    # exact shape, not records/ alone).
+    # Anchored to the real generated-id shape ("session_01WLxhNbVhjkf1R2
+    # SAh8dxxT" - a digit right after the underscore, then 16+ more mixed-
+    # case/digit characters) rather than a bare "session_[\w]+" - that
+    # bare form collided catastrophically with this project's own real,
+    # load-bearing `session_id`/`session_code`/`session_closed` Python
+    # identifiers throughout engine/api/ (864 false-positive hits on the
+    # engine surface alone before this anchor). No real Python identifier
+    # in this codebase starts with a digit immediately after the
+    # underscore.
+    "session-id": re.compile(r"\bsession_[0-9][A-Za-z0-9]{15,}\b"),
+    "commit-hash": re.compile(r"\bcommit [a-f0-9]{7,}\b"),
+    "pr-number": re.compile(r"\bPR\s*#\d+\b"),
+}
+
+# Decision 4's own three remaining provenance shapes - scoped to records/
+# and worlds/ only (RECORDS_AND_WORLDS_PATTERNS, checked by scan_file's
+# own `in_records_or_worlds` gate), unlike PATTERNS above. An independent
+# Opus precision review caught all three firing on durable, present-tense
+# METHOD text once applied fleet-wide the way PATTERNS is - a scope their
+# own fleet survey never actually covered (records/ only):
+#   - "build thread": reference/'s own method documents describe what
+#     "a build thread" does as a matter of permanent process design
+#     ("A build thread may maintain a separate spreadsheet index",
+#     reference/L3B-World-Build-Methodology/Doc_04_Gravity_Discovery_
+#     Template_V1.0.md) - durable methodology, not narration of one
+#     specific record's own edit history, the same distinction
+#     GENERIC_REVIEWER already draws for "an external reviewer" below.
+#     engine/m9/enforce.py's own `Waiver(owner="...'s own build thread")`
+#     is structured provenance data by design (CLAUDE.md: "a known
+#     fleet-level defect... must be registered as an ACCEPTED_OPEN waiver
+#     with its owning finding"), the same reasoning _STRUCTURED_DATE_
+#     KWARG below already carves out for that Waiver's sibling
+#     `deadline=` field.
+#   - "Opus": the same reference/ method-document shape ("Opus for the
+#     review pass itself", reference/method/CiC_Adversarial_Review_
+#     Standard_Practice.md) states standing model-tier policy, not a
+#     record's own review history.
+#   - "previously read/said"/"now reads": cic-website/'s own participant-
+#     facing historical content narrates a genuine theological
+#     development in these exact terms ("the creed's third article,
+#     which had previously said almost nothing about the Spirit") - a
+#     historical text's own real development, not this record's edit
+#     history, the identical false-positive shape build-history-
+#     language's own anchor already exists to avoid.
+RECORDS_AND_WORLDS_PATTERNS: dict[str, re.Pattern[str]] = {
+    "opus-review-mention": re.compile(r"\bOpus\s+(?:\w[\w-]*\s+){0,2}?(review|pass|round)\b"),
+    "build-thread-mention": re.compile(r"\bbuild thread\b", re.IGNORECASE),
+    # "previously read/said X" / "the sense now reads Y" - a record's own
+    # prior wording being narrated, not a historical text's own
+    # manuscript-tradition variance (which reads "some witnesses read X,
+    # others Y", never "previously read X"). 11/11 live "previously
+    # read/said" hits and both live "now reads" hits found across records/
+    # are this record's own edit history; "now read" (imperative, no "s")
+    # is deliberately NOT matched - witt.term.to-have-a-god-is-to-trust.md's
+    # own locus note reads "...First Commandment, now read entire--..." (an
+    # instruction to consult the source in full, not a change-history
+    # statement) and would be a real false positive. "an earlier draft's..."
+    # (possessive) is the same narration in a shape build-history-language's
+    # own SPOKEN_VOCAB_PATTERNS anchor below does not cover (that one
+    # requires "of this/the record/field/..." right after "version/draft/
+    # assessment"; this is a separate shape, not scoped to declared-spoken
+    # fields, since the real hits are ordinary front-matter and body prose -
+    # records/lpc/story/lpc.story.celerinus-writes-to-lucian.md's own
+    # "widened from an earlier draft's 30640-30720", records/cappadocian/
+    # source/cappadocian.source.julians-measures-against-caesarea.md's own
+    # "An earlier draft's claim that this traces to...").
+    "prior-wording-narration": re.compile(
+        r"\bpreviously (read|said)\b|\bnow reads\b|\ban earlier draft'?s\b",
+        re.IGNORECASE,
+    ),
 }
 
 # Grading and provenance vocabulary inside a record's own SPOKEN fields
@@ -350,12 +428,73 @@ _STRUCTURED_DATE_KWARG = re.compile(r"\bdeadline\s*=\s*[\"']20\d\d-\d\d-\d\d[\"'
 # catch - still gets flagged. Found live in cic/corpus-map/: entries that
 # say a cross-check "has not yet been done" or a claim is "flagged for
 # Mark" carry no other pattern at all and were being silently skipped.
-ROUTE_CUES = re.compile(
-    r"\b(TODO|FIXME|open question|open gap|open item|not yet (resolved|fixed|answered|acquired)|"
-    r"unresolved|still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
+#
+# Split into two tiers (Decision 4's own record-body survey): a 20-sample
+# fleet-wide check of every ROUTE hit found the four tokens below - alone
+# among this whole group - firing 16/20 times (80%) on a world's own
+# durable, designed "this remains genuinely unresolved/open/contested"
+# content, not an engineering to-do: an honest_limit record's entire job is
+# to say a question is open (witt.limit.record-thinnest.md: "...is
+# Contested and unresolved by anything this library holds"; lpc.limit.
+# rural-punic-berber-life.md: "...is a genuine open question..."), and a
+# world's own voice describes a real historical/theological dispute as
+# "unresolved" in its own right (records/ijc/voice_craft/ijc.voice.craft.md:
+# "the contest between Rome, Constantinople, and Milan is a live,
+# unresolved fact of this world"; records/ijc/demonstration/ijc.demo.
+# never-settled.md: "held together as one unresolved we..."; records/
+# desert/term/desert.term.koinonia.md: "...sat in unresolved tension with
+# the elder-model for this world's whole span"). Every genuine ROUTE true
+# positive sampled instead paired one of these words with an explicit
+# process marker in the same breath ("flagged as a genuine open item...
+# per Doc08 Round 3 review Finding S1"; "named as an open question for a
+# future review round"), not the bare word alone. The other ROUTE_CUES
+# tokens showed no comparable false-positive shape in the same sample and
+# stay unconditional.
+ROUTE_CUES_STRONG = re.compile(
+    r"\b(TODO|FIXME|not yet (resolved|fixed|answered|acquired)|"
+    r"still (pending|open)|follow-?up (item|work|needed)|known (gap|issue|defect)|"
     r"needs? (a )?follow-?up|needing (a )?ruling|flagged for (Mark|the project lead)|"
     r"worth reconsidering|has not yet been [a-z-]+|has not yet done\b)",
     re.IGNORECASE,
+)
+#  No trailing \b, matching ROUTE_CUES_STRONG's own lack of one above and
+# the original single ROUTE_CUES this replaced - an independent Opus
+# precision review caught a real regression in an earlier draft of this
+# split that DID add a trailing \b: it silently stopped matching plurals
+# ("open items", "open questions"), dropping 323 genuine ROUTE hits
+# fleet-wide, including the single most literal one on record -
+# worlds/witt/witt_Doc_09_Story_Inventory.md's own "## 7. Open items for
+# Open_Gaps_Tracking.md" section header.
+ROUTE_CUES_WEAK = re.compile(r"\b(open question|open gap|open item|unresolved)", re.IGNORECASE)
+
+# Deliberately NOT a bare "Doc_0N"/"SS\d" citation - a second, independent
+# Opus review caught that first draft firing on completely routine source
+# citations (gravity/force/figure records cite Doc_0N/SS constantly just
+# to say where a claim comes from - "Doc_04 SS3.3", "Doc_01 SS10" - none
+# of that is an open-item marker), which wrongly un-suppressed real
+# in-world "unresolved" description in cappadocian.gravity.precision-
+# reserve.md, desert.figure.antony.md, and others. Same reasoning for
+# bare "carried forward" - rzg.front.the-reformed-cities-zurich-and-
+# geneva.md's own "doctrine... carried forward at one remove through
+# Theodore Beza" is real in-world history, not a tracked task. Narrowed
+# to the actual marker shapes the module's own real ROUTE examples use:
+# a numbered Open Item, a Finding-S citation, a Round-N REVIEW citation
+# (not a bare round number - "review-round" in PATTERNS above already
+# owns bare round numbers), a future-pass/revision note, or "carried
+# forward" specifically paired with "not resolved" (ministerial-purity's
+# own exact phrase, "CARRIED FORWARD, NOT RESOLVED").
+_PROCESS_MARKER_NEARBY = re.compile(
+    r"\bOpen\s+Items?\s+\d+\b|\bFinding\s+S\d+\b|\bRound\s+\d+\s+review\b|"
+    r"\bfuture (pass|revision|review( round)?)\b|\bcarried forward,?\s*not resolved\b",
+    re.IGNORECASE,
+)
+
+# A bare structural reference line (a relation/target id, not prose) -
+# don.gravity.purity-rigor-vs-institutional-reception.md's own "target:
+# don.demo.bagai-unresolved" trips ROUTE_CUES_WEAK on "unresolved" only
+# because that word happens to sit inside another record's own id slug.
+_STRUCTURAL_ID_LINE = re.compile(
+    r"^\s*(target|grounded_in|source_id|canon_question_id|from|story_id|figure|demonstration):\s*\S+\s*$"
 )
 
 # A "round" hit that is not a review round (round-trip, round number, round
@@ -466,7 +605,24 @@ def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | Non
             fields.setdefault(key, set()).add(i)
             continue
         if active_field is not None:
-            if line.strip() == "" or (len(line) - len(line.lstrip(" ")) > active_indent):
+            indent = len(line) - len(line.lstrip(" "))
+            stripped = line.lstrip(" ")
+            # A YAML block-sequence item ("- key: value") written at the
+            # SAME indent as its own key, not indented past it - valid
+            # and common in this codebase (records/lpc/voice_craft/
+            # lpc.craft.datus-voice.md's own `sources:`/`flavor_notes:`,
+            # among ~1,800 files fleet-wide), and the one shape the plain
+            # `indent > active_indent` check below can never see, since a
+            # sibling list item is BY DEFINITION not indented past its
+            # own key. An independent Opus precision review caught this
+            # ending the field one line after it actually started,
+            # leaving every real line under it untracked - which
+            # defeated this Decision 4 PR's own front-matter field-
+            # boundary fix (a naive whole-field paragraph, only
+            # discovered because two DIFFERENT untracked fields'
+            # unrelated text then looked adjacent to each other).
+            is_sibling_list_item = indent == active_indent and stripped.startswith("-") and (len(stripped) == 1 or stripped[1] == " ")
+            if line.strip() == "" or indent > active_indent or is_sibling_list_item:
                 fields[active_field].add(i)
             else:
                 active_field, active_indent = None, -1
@@ -528,6 +684,61 @@ def _paragraph_lines(lines: list[str], line_no: int) -> list[int]:
     while end < n and lines[end].strip() != "":
         end += 1
     return list(range(start, end + 1))
+
+
+def _front_matter_end_line(text: str) -> int | None:
+    """The 1-indexed line number of a record's own closing `---` front-
+    matter delimiter itself, or None if the file has none (not a record,
+    or malformed). Used by scan_file's own change-history-block widening,
+    which must never let a paragraph span cross this boundary in either
+    direction - front matter and body are different documents
+    structurally, and files this compact routinely have no blank line
+    anywhere on either side of it."""
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return None
+    idx = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    # `lines` is 0-indexed; `idx` is the 0-indexed position of the
+    # closing delimiter, one less than its own 1-indexed line number.
+    return idx + 1 if idx is not None else None
+
+
+def _bounded_paragraph(
+    raw_lines: list[str],
+    i: int,
+    line_to_field: dict[int, str],
+    field_lines: dict[str, set[int]],
+    front_matter_end: int | None,
+) -> list[int]:
+    """The lines a trigger on line `i` may widen to, never crossing a
+    front-matter field boundary or the front-matter/body boundary -
+    shared by scan_file's own change-history-block and route-cue-weak
+    widening, both of which independently hit the identical bug before
+    this was factored out: front matter commonly has no blank line
+    separating it from the body that follows, so a naive blank-line-
+    delimited paragraph (_paragraph_lines alone) silently swept forward
+    past the closing `---` and into unrelated body prose. Confirmed live
+    for route-cue-weak specifically: records/ijc/voice_craft/
+    ijc.voice.craft.md's own `characteristic_concerns` field (lines
+    36-43, closing `---` at 44) contains the genuine "unresolved fact of
+    this world" line (41) this pattern is meant to clear; a naive
+    paragraph around it reached 18 lines into the BODY with no blank
+    line to stop it, as far as line 62's own unrelated "Doc_01 SS..."
+    citation - which the process-marker override (added for a different,
+    real fix) then read as if it were sitting right next to the
+    "unresolved" line. Field-scoping the trigger to its own field
+    (`characteristic_concerns`'s own line set alone) is what stops this,
+    the same mechanism change-history-block already relies on."""
+    field = line_to_field.get(i)
+    if field is not None:
+        return sorted(field_lines[field])
+    paragraph = _paragraph_lines(raw_lines, i)
+    if front_matter_end is not None:
+        if i > front_matter_end:
+            paragraph = [ln for ln in paragraph if ln > front_matter_end]
+        else:
+            paragraph = [ln for ln in paragraph if ln <= front_matter_end]
+    return paragraph
 
 
 def _source_record_body_lines(text: str, record_type: str | None) -> set[int]:
@@ -650,8 +861,8 @@ class Hit:
         return f"{self.path}:{self.line}:{self.category} ({','.join(self.patterns)})"
 
 
-def classify_line(line: str, matched: list[str], in_source_record_body: bool = False) -> str:
-    if ROUTE_CUES.search(line):
+def classify_line(line: str, matched: list[str], in_source_record_body: bool = False, route_flagged: bool = False) -> str:
+    if route_flagged:
         return "ROUTE"
     real_matches = [
         name for name in matched
@@ -684,26 +895,98 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
 
     raw_lines = text.splitlines()
 
+    # Decision 4's own extra provenance gates (RECORDS_AND_WORLDS_PATTERNS,
+    # ROUTE_CUES_WEAK's record-type/world-self-reference exclusions) are
+    # scoped to records/ and worlds/ only - see each one's own comment for
+    # why applying them fleet-wide (an earlier draft of this PR did)
+    # caused real regressions the independent Opus review caught.
+    in_records = path.suffix == ".md" and rel.parts[0] == "records"
+    in_records_or_worlds = rel.parts[0] in ("records", "worlds")
+
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
     source_record_body_lines: set[int] = set()
-    if path.suffix == ".md" and rel.parts[0] == "records":
+    field_lines: dict[str, set[int]] = {}
+    record_type: str | None = None
+    if in_records:
         field_lines, record_type = _front_matter_field_lines(text)
         protected_field_lines = _protected_record_field_lines(field_lines, record_type)
         spoken_field_lines = _spoken_field_lines(field_lines, record_type)
         source_record_body_lines = _source_record_body_lines(text, record_type)
 
+    # Reverse of field_lines: which top-level front-matter field (if any) a
+    # given line number belongs to - None for body prose (after the
+    # closing `---`) or a non-record file.
+    line_to_field: dict[int, str] = {}
+    for key, lines in field_lines.items():
+        for ln in lines:
+            line_to_field[ln] = key
+
+    front_matter_end = _front_matter_end_line(text) if in_records else None
+
     change_history_block_lines: set[int] = set()
     for i, line in enumerate(raw_lines, start=1):
         if CHANGE_HISTORY_CUES.search(line):
-            change_history_block_lines.update(_paragraph_lines(raw_lines, i))
+            # Confirmed live: records/lpc/source/lpc.source.bruder-
+            # doctrina-christiana-enchiridion-maurist.md's own
+            # `rights_status` field mentions "adversarial review" and,
+            # with no blank line before it, was sweeping the unrelated
+            # `confidence.divergence_note` field's own scholarly
+            # reasoning ("The exact internal boundary between the two
+            # works is located precisely...") in with it - a durable,
+            # correct evidentiary note, not process narration. See
+            # _bounded_paragraph's own docstring for the full mechanism.
+            change_history_block_lines.update(
+                _bounded_paragraph(raw_lines, i, line_to_field, field_lines, front_matter_end)
+            )
+
+    route_cue_lines: set[int] = set()
+    for i, line in enumerate(raw_lines, start=1):
+        if ROUTE_CUES_STRONG.search(line):
+            route_cue_lines.add(i)
+            continue
+        if ROUTE_CUES_WEAK.search(line):
+            if in_records:
+                if _STRUCTURAL_ID_LINE.match(line):
+                    continue
+                bounded = _bounded_paragraph(raw_lines, i, line_to_field, field_lines, front_matter_end)
+                paragraph_text = "\n".join(raw_lines[j - 1] for j in sorted(bounded))
+                # Within records/, a bare "unresolved"/"open question"/
+                # "open gap"/"open item" needs a genuine process marker
+                # (_PROCESS_MARKER_NEARBY) in the same field/paragraph to
+                # count as ROUTE at all - three rounds of independent
+                # Opus precision review, tried narrower gates first
+                # (record-type exclusion, then a "this world" self-
+                # reference check, then both together), each real and
+                # each still leaving real false positives: a world's own
+                # emic voice calls a genuine historical/theological
+                # dispute "unresolved" in first person ("we"/"our"/"us")
+                # constantly, in every record type, spoken or not -
+                # doctrinal_witness.positions, demonstration.exchange,
+                # voice_craft.flavor_notes, term.false_friend, a source
+                # citation's own locus, world_core.thin_topics, a force's
+                # own manifestations - not just the two record types
+                # (honest_limit/contested_claim) or the third-person
+                # "this world's..." framing either narrower gate assumed
+                # covered it. Every genuine ROUTE true positive sampled
+                # across all three rounds carried an explicit marker
+                # (Open Item N, Finding S N, a Round N review, a future
+                # pass/revision, or "carried forward, not resolved");
+                # every false positive found lacked one - requiring it
+                # is what actually separates the two, not a guess at
+                # which record type or grammatical person a line uses.
+                if not _PROCESS_MARKER_NEARBY.search(paragraph_text):
+                    continue
+            route_cue_lines.add(i)
 
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):
         matched = [name for name, pat in PATTERNS.items() if pat.search(line)]
+        if in_records_or_worlds:
+            matched += [name for name, pat in RECORDS_AND_WORLDS_PATTERNS.items() if pat.search(line)]
         if i in spoken_field_lines:
             matched += [name for name, pat in SPOKEN_VOCAB_PATTERNS.items() if pat.search(line)]
-        if not matched and ROUTE_CUES.search(line):
+        if not matched and i in route_cue_lines:
             matched = ["route-cue"]
         if not matched and i in change_history_block_lines:
             matched = ["change-history-block"]
@@ -712,7 +995,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         if is_protected(rel, i, protected_field_lines):
             category = "PROTECTED"
         else:
-            category = classify_line(line, matched, i in source_record_body_lines)
+            category = classify_line(line, matched, i in source_record_body_lines, i in route_cue_lines)
         hits.append(Hit(surface, rel.as_posix(), i, category, matched, line.strip()))
     return hits
 
