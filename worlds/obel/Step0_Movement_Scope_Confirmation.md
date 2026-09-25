@@ -33,8 +33,14 @@ verbatim: 'yes to all, move forward.'").
 **On the 1815 end date, checked directly rather than assumed:** the same
 Decision-Log entry records that this gate pass "replaced" a "round-1800
 artifact cluster" across several Era 8 entries "with honest 1815 caps."
-Era 8 itself is explicitly scoped as **1650-1815** in the gate's own
-heading ("A1.E8 (1650-1815)"). This means 1815 is **the fleet's own Era 8
+Era 8 itself is explicitly scoped as **1650-1815** in a forward-reference
+note at the close of the immediately preceding Era 7 Frozen entry (2026-
+08-02), naming what came next: "Next: A1.E8 (1650–1815) with its banked
+forward flags... Old Believers at era 8..." (the source's own en-dash
+preserved exactly as printed; this Step 0 does not silently convert it to
+a hyphen when quoting it, though this document's own surrounding prose
+uses a plain hyphen for readability, per this project's own house style
+elsewhere). This means 1815 is **the fleet's own Era 8
 portfolio boundary, not a historical event specific to the Old Believer
 movement's own trajectory** — a fact this Step 0 confirms plainly rather
 than let stand as an implied historical claim. The nearest genuinely
@@ -125,4 +131,9 @@ Representative identity decision, not a portfolio-level or cross-world
 decision (the portfolio-level Era 8 gate decision is being carried
 forward, not remade), not a governance/methodology change, and there is
 no unresolved tension after multiple rounds (this is Round 1). Reviewed
-per the build-cycle discipline; see `obel_Step0_Review_Round1.md`.
+per the build-cycle discipline, together with Doc_01 and Doc_02 as one
+combined Round 1 pass (this world's own thin, single-source-voice stage
+did not warrant three separately spawned review sessions — see that
+review file's own §6 for the reviewer's explicit judgment on whether this
+compression cost anything); see
+`obel_Step0_Doc01_Doc02_Review_Round1.md`.

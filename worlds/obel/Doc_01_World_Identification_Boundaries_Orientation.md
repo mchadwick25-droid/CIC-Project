@@ -124,17 +124,24 @@ the source does not support.
 movement-specific closing point
 
 **This is stated plainly rather than left to imply a false historical
-precision.** Era 8 is fleet-scoped as 1650-1815 (`Ministry/Features/
-Atlas-World-Map/Decision-Log.md`, 2026-08-03, "A1.E8 (1650-1815)"). The
-same Decision-Log entry records that this gate pass "replaced" a
-"round-1800 artifact cluster" across several Era 8 entries "with honest
-1815 caps" — i.e., 1815 is the fleet's own portfolio-level closing year
-for the whole era, applied across multiple movements at the same gate
-pass, not a date independently argued from this movement's own history.
-This document does not re-litigate that portfolio-level decision (outside
-this thread's authority; see the escalation categories in `CLAUDE.md` and
-the build-cycle skill) but states its actual basis rather than imply a
-stronger claim than the record supports.
+precision.** Era 8 is fleet-scoped as 1650-1815, per a forward-reference
+note at the close of the immediately preceding Era 7 Frozen entry
+(`Ministry/Features/Atlas-World-Map/Decision-Log.md`, 2026-08-02):
+"Next: A1.E8 (1650–1815) with its banked forward flags... Old Believers
+at era 8..." — this world is named directly, confirming it was already
+in view when this boundary was set (the source's own en-dash preserved
+exactly as printed in this quotation; this document's own surrounding
+prose uses a plain hyphen for readability). The Era 8 gate's own Frozen
+entry (2026-08-03, "ERA 8 FROZEN by Mark") separately records that this
+gate pass "replaced" a "round-1800 artifact cluster" across several Era 8
+entries "with honest 1815 caps" — i.e., 1815 is the fleet's own
+portfolio-level closing year for the whole era, applied across multiple
+movements at the same gate pass, not a date independently argued from
+this movement's own history. This document does not re-litigate that
+portfolio-level decision (outside this thread's authority; see the
+escalation categories in `CLAUDE.md` and the build-cycle skill) but
+states its actual basis rather than imply a stronger claim than the
+record supports.
 
 Within that boundary, the nearest genuinely Old-Believer-relevant event is
 **Edinoverie's establishment in 1800** — the first formal reconciliation
@@ -470,4 +477,10 @@ every open question this document raises.
   sub-claims of different actual verification levels (the two-fingers
   detail is verified against the vendored file; the name-spelling,
   procession-direction, and prosphora-count details are not, and are now
-  tagged **[Widely Accepted]** instead).
+  tagged **[Widely Accepted]** instead); §2.2 corrected an en-dash/hyphen
+  fidelity slip in a direct quotation from the Decision-Log and corrected
+  this document's own claim that the 1650-1815 date range appears "in the
+  gate's own heading" — it actually appears in a forward-reference note
+  at the close of the PRECEDING Era 7 entry, which this document now
+  cites precisely (and which turns out to name this world directly: "Old
+  Believers at era 8").
