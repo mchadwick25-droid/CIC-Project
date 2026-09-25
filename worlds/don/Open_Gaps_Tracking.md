@@ -785,11 +785,21 @@ The fleet-wide gap item 47 names is not closed by this entry — cappadocian's a
 
 **Final scope corrections, 2026-09-25, applied per Mark's own exact-replacement ruling ("a"):** `worlds/pahc/Open_Gaps_Tracking.md` OG-10's own inserted passage was removed (restoring that paragraph to origin/main's own text) and replaced with a short, separately-placed update paragraph naming don's corrected count; `don.core.donatism.md`'s `cautions`, `don.gravity.ministerial-purity.md`, `don.gravity.rebaptism-boundary-marking.md`, and `don.gravity.circumcellion-agonistici.md` each had one exact wording correction applied to their `description`/`cautions` fields, tightening scope without changing any claim.
 
+### OG-18. `don.quote.the-shores-are-covered`'s own `modern_rendering` dropped the original's causal framing — found by the cross-language rendering report, re-authored, independently verified, and cleared.
+
+Found while grading the fleet's cross-language quotes (`engine/m1/reports/cross-language-rendering-report-2026-09-25.json`): the original text opens "Seeing that the shipwrecked members of certain men have been dashed by the waves of truth upon the sharp rocks..." — one connected sentence, the "Seeing that" clause framing everything that follows as an observation grounding the decree's own point. The `modern_rendering` in place split this into four disconnected sentences and silently dropped the causal framing entirely. Two independent grading passes on the same input — the already-committed 2026-09-23 full-fleet sweep and this report's own first pass — both flagged it "summary," for two different specific reasons (real run-to-run grader variance on the same underlying defect, not two different defects).
+
+**Re-authored and independently verified.** A fresh rendering was drafted (Opus, per this project's own rule that modern-English renderings are Opus's lane) carrying the causal clause explicitly ("For the waves of truth have hurled..."), every other clause of the original, and one thought per sentence (longest 21 words). A second, independent Opus pass — shown only the original and the new candidate, not told anything about the prior defect or asked to defend the draft — checked it clause by clause against the original and returned PASSES, finding all twelve clause-units present, nothing added, no sentence over 25 words, no sentence carrying more than one thought.
+
+**Cleared V1.8's own two-grader pass.** Run against the new rendering: Haiku 4.5 and Sonnet 4.6, two consecutive runs each. All four runs read "translation." Record's own `modern_rendering` updated to the verified text; the record's own body text carries the same finding for a reader who opens the file directly.
+
+Status: RESOLVED, 2026-09-25. Fix applied, independently checked, and cleared V1.8's own grading bar in the same session it was found — not carried forward as an open item.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-17 are disclosed, routed, or
+Relational Safety's own current scope. OG-5 through OG-18 are disclosed, routed, resolved, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
