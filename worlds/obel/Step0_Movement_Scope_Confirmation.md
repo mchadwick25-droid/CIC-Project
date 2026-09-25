@@ -21,13 +21,25 @@
   (1800) named so that a previously near-principled accident became a
   stated reason."
 
-This world was drafted at the Era 8 gate (`Ministry/Features/Atlas-World-
-Map/Decision-Log.md`, 2026-08-03 pass, "A1.E8 CLEARED FOR GATE" entry,
-which lists among that gate's 12 drafts "the Synodal Russian church (Old
-Believers re-scoped as dissent)" — i.e., the Old Believers were drafted
-and kept as their OWN separate entry, VII.7, distinct from the official
-Synodal church's own entry, rather than folded into it) and Frozen the
-same day ("ERA 8 FROZEN by Mark; census 221→233... Mark's ruling,
+**Corrected, Round 2 (independent review Finding 18):** an earlier draft
+of this paragraph misread the Decision-Log as saying this world "was
+drafted at the Era 8 gate," citing the 2026-08-03 "A1.E8 CLEARED FOR
+GATE" entry's list of "12 drafts (VII.18–VII.29)," which includes "the
+Synodal Russian church (Old Believers re-scoped as dissent)." VII.7 (this
+world) is outside that numbered range — the quoted parenthetical
+describes how the *new* Synodal-church entry was scoped relative to an
+entry that already existed, not that VII.7 itself was drafted then. What
+the Decision-Log actually shows: VII.7 **pre-existed** that pass as a
+banked entry. The 2026-08-02 Era 7 Frozen entry records "NOT written:
+VI.24→VII.4, VI.23→VII.7 (era 8's)," and the same entry's own
+forward-reference note names "Old Believers at era 8" among Era 8's
+banked flags (quoted again just below, on the 1815 end date). The
+supported claim is narrower and still true:
+VII.7 is a separate Atlas entry from the Synodal church's own entry,
+already on the books before the pass that drafted the Synodal church's
+entry — not that VII.7 was itself drafted then. This world's Frozen
+status is independently confirmed the same way regardless of this
+correction ("ERA 8 FROZEN by Mark; census 221→233... Mark's ruling,
 verbatim: 'yes to all, move forward.'").
 
 **On the 1815 end date, checked directly rather than assumed:** the same
@@ -70,25 +82,43 @@ clean example that the floor is the Creed and not liturgical correctness":
 > how to make the sign of the cross, how to spell the name of Jesus,
 > which way a procession should walk around a church."
 
-This is independently confirmed against the vendored primary source, not
-taken on the census's own word alone. Avvakum's own voice states the same
-distinction directly, in his own dialogue with the Eastern patriarchs at
+**Corrected in full, Round 2 (independent review Finding 1) — an earlier
+draft of this paragraph claimed the census's absolute phrasing ("no
+question of doctrine arises here at all") was "independently confirmed
+against the vendored primary source." It was not, and the source
+contradicts it.** Avvakum's own dialogue with the Eastern patriarchs at
 the Chudov Monastery (`avvakum_life-of-archpriest-avvakum_harrison-
-mirrlees1924.txt`, p. 120): the patriarchs press him only on which way he
-crosses himself ("thou standest out in thine obstinacy and dost cross
-thyself with two fingers; it is not seemly"), and Avvakum's own reply
-argues the point on the ground of who has kept the old sign of the cross,
-not on any point of the Creed itself. The dispute is fought, on Avvakum's
-own terms, as a question of fidelity to inherited ritual practice and
-legitimate authority to change it — not as a doctrinal disagreement about
-the content of belief. This world clears Article 4's floor test cleanly:
-the Nicene-Constantinopolitan Creed is common ground on both sides of the
-split, tested as belief content, exactly as the floor requires.
+mirrlees1924.txt`, pp. 120-121, corrected locus, Finding 6) is fought
+entirely on the ground of inherited ritual practice and the authority to
+alter it — that narrower claim, scoped to this one exchange, is accurate.
+But twelve pages earlier in the same file (p. 34), Avvakum argues the
+wording of the Nicene Creed's own eighth article directly, in the
+register of divine essence: the Nikonian removal of "the True" from "the
+Lord, the True and Life-giving" empties the Creed, on his own argument,
+of "the essence of God." That is a claim about the Creed's own text and
+content, not about ritual gesture, made by this world's central voice at
+the opening of its own central text.
 
-**This is a ritual schism, not a doctrinal one, and Doc_01's own boundary
-and orientation work states this plainly** — a load-bearing framing this
-Step 0 sets before Doc_01 drafting begins, per the task's own instruction
-not to let it drift into being read as a doctrinal heresy.
+**The corrected, source-supported floor finding:** the schism was not a
+collision between two different confessions of faith — neither side
+charged the other with a new doctrine of God or of Christ, and both
+professed the same Nicene-Constantinopolitan Creed as their own. The
+dispute, across the bulk of the movement's own record, is over corrections
+to inherited practice and the authority to make them. **But the disputed
+corrections included the Creed's own wording, and Avvakum argues that
+particular change in explicitly theological terms.** This world clears
+Constitution Article 4's floor test comfortably, on the Creed's overall
+content and both sides' shared profession of it — but on this accurate,
+qualified statement, not on the census's own absolute one, which this
+Step 0 no longer repeats as independently confirmed. Doc_01 §9 carries
+this correction in full, with both passages quoted, and registers the
+Creed-wording dispute as a `contested_claim` candidate rather than
+suppress it to keep the floor claim clean.
+
+**This is a ritual-and-textual schism, not a doctrinal one in the sense
+of a rival confession of faith — a real distinction, stated at the
+precision the source actually supports.** Doc_01's own boundary and
+orientation work carries this framing forward, corrected.
 
 ## 3. Second screening criterion (individual-revelation test)
 
@@ -113,8 +143,13 @@ this test.
 The movement divided, within this world's own window, between those who
 retained priests (popovtsy) and those who concluded a valid priesthood
 could no longer be had (bezpopovtsy) — a real internal division with
-consequences for ecclesiology, even though (per §2 above) it does not
-touch the Creed itself. Whether this world is single-stranded (built
+consequences for ecclesiology. This is a distinct question from §2's own
+correction: §2 concerns the Creed's own wording in the ritual-and-textual
+dispute specifically, evidenced in Avvakum's own generation; the
+strand question here is about the later, separate ecclesiological
+argument that a valid priesthood could no longer be had at all — neither
+question resolves the other, and this document does not conflate them.
+Whether this world is single-stranded (built
 around the founding-generation, Avvakum-centered voice, with the later
 branching noted as a later development) or strand-plural (requiring full
 Article-21 strand analysis, per the PAHC/IJC precedent) is **not decided
@@ -126,24 +161,28 @@ world's `Open_Gaps_Tracking.md` (entry 1).
 
 ## 5. Disposition
 
-**Status: Draft, Round 1 — pending independent review.** This document
-does not self-assign a disposition ahead of its own review, per the
-build-cycle discipline ("A document never gets marked with any
-disposition on the strength of the document's own author... deciding it
-looks good") — an earlier draft of this section stated "Approved to
-proceed" before that review had actually run, which was itself a process
-error caught and corrected here on self-review, not a disposition this
-document is entitled to claim yet. Reviewed together with Doc_01 and
-Doc_02 as one combined Round 1 pass (this world's own thin,
-single-source-voice stage did not warrant three separately spawned
-review sessions — see that review file's own §6 for the reviewer's
-explicit judgment on whether this compression cost anything); see
-`obel_Step0_Doc01_Doc02_Review_Round1.md` for the actual review result,
-and this document's own revision-history note (added once that review is
-in hand) for the real disposition. **Once review clears this document
-without substantial revision, and no escalation category applies (none
-appear to at this stage: not a Representative identity decision, not a
-portfolio-level or cross-world decision — the portfolio-level Era 8 gate
-decision is being carried forward, not remade — and not a governance/
-methodology change), this build thread will apply "Approved to proceed"
-itself, per CO-022's own self-disposition rule — not before.**
+**Status: Draft, Round 2 — pending re-review.** Round 1 independent
+review (`obel_Step0_Doc01_Doc02_Review_Round1.md`) found this document
+required substantial revision: Finding 1 (the floor claim, corrected
+above, in full); Finding 18 (the Decision-Log misreading, corrected
+above); Finding 19 (a misattributed Decision-Log citation for the Era 8
+window, already corrected in an earlier self-review pass and confirmed
+by the review as fixed); Finding 21 (this section itself had
+self-certified "Approved to proceed" before any review had run — also
+already corrected in the same self-review pass, and confirmed by the
+review as the right fix). Every finding against this document is now
+addressed.
+
+Findings 2 and 20 (shared with Doc_01/Doc_02: a fabricated INTAKE.md
+citation, and three canonical documents built against a specification
+not present in this checkout) meet the governance/methodology escalation
+category and go to Mark directly — not self-dispositioned by this build
+thread. Finding 1 additionally implicates the census's own `floorNote`,
+cited approvingly at a Frozen portfolio gate; correcting the census
+itself is portfolio-level and also goes to Mark, separately from the
+correction to this document, which is within this thread's own
+authority and is made above.
+
+With those two items escalated rather than resolved here, and once this
+revision clears independent re-review, this build thread applies
+"Approved to proceed" itself per CO-022's own self-disposition rule.

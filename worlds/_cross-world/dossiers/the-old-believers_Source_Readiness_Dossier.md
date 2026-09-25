@@ -13,8 +13,14 @@ exists.
 2026-09-25
 **Corpus-map / `cic/texts/` state as of:** 2026-09-25, this same pass (no
 prior Old Believer/Avvakum material existed in either before this pass —
-independently re-checked, per `CLAUDE.md`'s "Scaling the build" section,
-which already recorded that finding as of the same date)
+independently re-checked directly this pass, by title/author scan of
+`cic/corpus-map/WORKS.yaml` and `AUTHOR-IDS.yaml`, §2 below.
+**Corrected, Round 2 (independent review Finding 27): an earlier draft
+of this line attributed this finding to `CLAUDE.md`'s "Scaling the
+build" section, which does not in fact record anything about Old
+Believer or Avvakum material** — that section discusses proactive
+source acquisition in general terms, not this world specifically. The
+finding itself is unaffected; only its citation was wrong, now removed.)
 
 ## 1. Already assigned
 
@@ -22,7 +28,7 @@ Before this pass, nothing. This pass adds:
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
-| The Life of the Archpriest Avvakum by Himself | avvakum | tradition | assigned | whole work, 155pp. | `avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt` |
+| The Life of the Archpriest Avvakum by Himself | avvakum | tradition | assigned | whole work, at least 156pp. (corrected Round 2, Finding 8; the closing passage falls after the printed "155" marker) | `avvakum_life-of-archpriest-avvakum_harrison-mirrlees1924.txt` |
 | Zhitie protopopa Avvakuma, im samim napisannoe (original-language text) | avvakum | tradition | assigned | whole work | `avvakum_zhitie-protopopa-avvakuma-orv_wikisource-transcription-nd.txt` |
 
 ## 2. Cross-link opportunities
@@ -62,15 +68,23 @@ Doc_02 §10 (Missing Voices) for the same finding.
 | `az.lib.ru` (Maksim Moshkov's library) direct access | Named as the Wikisource transcription's own cited source; would let the transcription chain be checked one hop closer to a critical edition | Host not in this session's network egress allowlist (HTTP 403, "Host not in allowlist"). Could not be checked this pass. |
 | `krotov.info` (Повесть о боярыне Морозовой transcription) | A full transcription of the Tale of Boyarynya Morozova, a named figure in this world's own census entry | Host not in this session's network egress allowlist (HTTP 403, "Host not in allowlist"). Could not be checked this pass. |
 | Evfrosin, *Otrazitel'noe pisanie o novoizobretennom puti samoubiistvennykh smertei* (1691) | Named in the census as a genuine internal Old Believer dissent against self-immolation — would be valuable own-voice-against-the-practice material | Only scholarly discussion of the work (pravenc.ru, sedmitza.ru, a 2020s academic article by N. S. Demkova) surfaced this pass, no accessible full-text transcription of the work itself. Not closed as "doesn't exist" — closed as "not found this pass"; a genuine acquisition lead for a future pass, not yet verified. |
-| Поморские ответы (Pomorian Answers, 1723, Semyon Denisov et al.) | Named in the census as a foundational bespopovtsy document | The `ru.wikisource.org` page for this title exists but is a stub (manuscript-listing metadata only, no license field, no transcribed answer text) — not a usable source. `rusneb.ru` (Russian National Electronic Library) hosts scanned editions but as image/catalog pages, not confirmed-downloadable plain text, and `rusneb.ru` was not tested against the network allowlist this pass. Real acquisition lead for a future pass. |
+| Поморские ответы (Pomorian Answers, 1723, primarily **Andrei Denisov**, with Trifon Petrov and Semyon Denisov — corrected Round 2, Finding 11; an earlier draft of this row named Semyon Denisov alone) | Named in the census as a foundational bespopovtsy document | The `ru.wikisource.org` page for this title exists but is a stub (manuscript-listing metadata only, no license field, no transcribed answer text) — not a usable source. `rusneb.ru` (Russian National Electronic Library) hosts scanned editions but as image/catalog pages, not confirmed-downloadable plain text, and `rusneb.ru` was not tested against the network allowlist this pass. Real acquisition lead for a future pass. |
 | Solovetsky petitions (1667, esp. the Fifth Petition) | Named in the census as the monastery's own founding statement of the case | Only secondary discussion and one manuscript-image archive (British Library Endangered Archives Programme, EAP1017-1-9) surfaced — no clean transcription found this pass. Real acquisition lead for a future pass. |
 
 ## 5. Open cross-world questions
 
-- None specific to another sibling world's own territory. This is a
-  self-contained Russian Orthodox schism with no plausible overlap (yet
-  found) with any other built or candidate world in this fleet's own
-  corpus. If a later Greek-East or Balkan Orthodox world's own research
-  turns up Nikon-era Greek-authority material (the Greek patriarchs whose
-  approval Nikon cited), that would be the first genuine cross-link — flag
-  it back here if found.
+- None specific to another sibling world's own territory. **Corrected,
+  Round 2 (independent review Finding 9): an earlier draft of this line,
+  and of §2 above, implied no other Greek East/Orthodoxy-lane world
+  exists in this fleet.** One does:
+  `cappadocian-nicene-pastoral-monastic-tradition` is Built & Live in the
+  same lane. Checked directly against it this revision: fourth-century
+  Cappadocia's own Trinitarian-doctrinal formation register, its
+  different century, empire, and language, and the absence of any
+  figure, text, or controversy shared with this world, together support
+  no plausible overlap — the same conclusion an earlier draft reached
+  without actually naming or checking against the one real comparandum
+  that exists. If a later Greek-East or Balkan Orthodox world's own
+  research turns up Nikon-era Greek-authority material (the Greek
+  patriarchs whose approval Nikon cited), that would be the first
+  genuine cross-link — flag it back here if found.

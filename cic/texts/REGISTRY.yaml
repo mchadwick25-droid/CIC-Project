@@ -2441,15 +2441,28 @@
   supplied_by: Claude (Old Believers world, obel, library-stage source-research pass)
   date_added: '2026-09-25'
   notes: >-
-    Zhitie protopopa Avvakuma, im samim napisannoe - the original-language (Old East
-    Slavic / early modern Russian; ISO 639-3 `orv`) text of Avvakum's autobiography
-    (composed c. 1673 at Pustozersk), vendored as a SECOND WITNESS per the 2026-09-25
-    INTAKE.md ruling that a clean public-domain original can be primary evidence
-    regardless of language, credibility and truth deciding primacy rather than
-    language - never yet independently scan-verified against a specific dated
-    critical print edition, so treated here as second-witness-only, not
-    verbatim-ready, until that verification happens (see this world's Doc_02 for the
-    quotability flag and reasoning). RIGHTS: the underlying work is a 17th-century
+    Zhitie protopopa Avvakuma, im samim napisannoe - a modernized-Russian reading
+    edition (see CORRECTION below on the `orv` tag) of Avvakum's autobiography
+    (composed c. 1673 at Pustozersk), vendored as a SECOND WITNESS per INTAKE.md's
+    actual, real rule (2026-09-02: an original-language text is a second witness
+    only, "never primary evidence for a Representative") - never yet independently
+    scan-verified against a specific dated critical print edition, so treated here
+    as second-witness-only, not verbatim-ready, until that verification happens (see
+    this world's Doc_02 for the quotability flag and reasoning). CORRECTION
+    (2026-09-25, independent Round 1 review of this world's Doc_01/Doc_02, Findings
+    2, 3, 13): an earlier version of this note cited a "2026-09-25 INTAKE.md ruling"
+    that does not exist in INTAKE.md at any date, and mischaracterized it as
+    licensing this file as free-standing primary evidence "regardless of language" -
+    the opposite of INTAKE.md's real, dated rule quoted above. That fabricated
+    citation is removed. Also disclosed, found on the same review: this file
+    carries roughly ninety bracketed modern-Russian editorial glosses interpolated
+    directly into the running text (e.g. `[правое]`, `[потому что]`) - a modern
+    annotated reading edition's own apparatus, not Avvakum's words; any quotation
+    from this file must strip them first. The file is in modernized Russian
+    orthography throughout (no final ъ, no ѣ), so the `orv` (Old East Slavic) tag in
+    its own filename is loose - not renamed this pass, since a rename touches every
+    existing reference to this file; flagged as a disclosed naming exception rather
+    than silently corrected. RIGHTS: the underlying work is a 17th-century
     composition, unambiguously public domain by date in any jurisdiction; this
     specific TRANSCRIPTION is drawn from ru.wikisource.org's own page for this
     title, whose own infobox states `ЛИЦЕНЗИЯ = PD-old` and names az.lib.ru (Maksim
