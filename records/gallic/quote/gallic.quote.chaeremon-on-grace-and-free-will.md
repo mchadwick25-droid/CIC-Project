@@ -42,7 +42,10 @@ modern_lens_note: >-
   "co-operates with our will" rather than replacing it, and yet how the two fit together, he says
   directly, "cannot be fully grasped by the mind and reason of man." The teaching ends in an admitted
   limit to understanding, not a formula that settles the question.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  And so the grace of God always works together with our will for its good. In all things it helps,
+  protects, and defends our will ... For the human mind and reason cannot fully grasp how God works all
+  things in us, and yet everything can be credited to free will.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service

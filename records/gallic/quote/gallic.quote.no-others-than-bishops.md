@@ -40,7 +40,10 @@ modern_lens_note: >-
   formation: it shows that opposition to Martin's kind of holiness did not come only from outside the
   Church but sometimes from inside the episcopate itself, the very office Martin himself had been made
   to hold.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  And oh, what wickedness, worthy of the deepest grief and groans! Some
+  of his slanderers, though very few - some of those who spoke evil of
+  him, I say - were reported to be none other than bishops!
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

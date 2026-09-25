@@ -47,7 +47,14 @@ modern_lens_note: >-
   own point is the opposite: the dead are evidence against the living. He does not pause to mourn each
   death before moving to the smell of pestilence, and "death breathed out death" reads as an indictment
   of what survived the sack, not an elegy for what did not.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  This can be tested quickly by the example of the greatest city in Gaul. It was destroyed three
+  times, captured again and again. Yet when the whole city had been burned to the ground, its
+  wickedness grew even after its destruction. ... Some died of hunger, others from having no clothes.
+  Some wasted away, others were frozen stiff with cold. And so all of them, by different deaths,
+  hurried to the same end. Torn and naked bodies of men and women lay all around. I myself had to
+  endure that sight. ... torn apart by birds and dogs. The stench of the dead brought disease on the
+  living. Death breathed out death.
 relations:
 - type: associated-with
   target: gallic.story.circuses-amid-the-ruins

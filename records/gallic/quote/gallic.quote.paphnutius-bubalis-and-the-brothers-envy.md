@@ -46,7 +46,13 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  because he always loved to live in the desert, as though he had a kind of inborn liking for it. And
+  so, even as a boy, he was so good and full of grace that the famous, great men of that time admired
+  him. They admired his seriousness and his steady, unshaken firmness. He was younger than they were.
+  Yet out of respect for his virtues they ranked him with the Elders, and thought it right to admit him
+  to their order. Then the same envy that once stirred up the brothers of the patriarch Joseph against
+  him took hold of one of his fellow monks. It set that man on fire with a burning, consuming jealousy.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "because he always"` returns line 43004; `grep -n "burning and consuming jealousy"` returns line 43012,

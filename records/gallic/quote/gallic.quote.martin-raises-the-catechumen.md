@@ -60,7 +60,24 @@ modern_lens_note: >-
   corpse, and a wait "without misgiving." The power is "perceived" as present before anything visibly
   changes; the two hours pass in stillness, not spectacle. What the passage stages is not a display of
   power but a posture toward it - present, not summoned.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Hilary had already gone away, and Martin followed in his footsteps. Hilary welcomed him with great
+  joy, and Martin set up a monastery for himself not far from the town. At this time a certain
+  catechumen joined him. He wanted to be taught the teachings and the way of life of this most holy
+  man. But after only a few days, the catechumen grew weak and began to suffer from a violent fever.
+  It happened that Martin had left home at the time. He was away three days, and on his return he
+  found that life had left the catechumen. Death had come so suddenly that he had left this world
+  without being baptized. The body was laid out in public view, and the grieving brothers were paying
+  it the last sad honors. Just then Martin hurried up to them, weeping and crying aloud. Then he laid
+  hold, as it were, of the Holy Spirit with all the strength of his mind. He ordered the others out of
+  the cell where the body lay. He bolted the door and stretched himself full length on the dead limbs
+  of his departed brother. For some time he gave himself to earnest prayer. Through the Spirit of God
+  he sensed that power was present. Then he rose up a little and gazed at the dead man's face. Without
+  doubting, he waited for the outcome of his prayer and of the Lord's mercy. Barely two hours had
+  passed when he saw the dead man begin to stir a little in every limb. He began to tremble, and his
+  eyes opened to see again. Then Martin turned to the Lord and gave thanks in a loud voice, filling
+  the cell with his cries of prayer. Hearing the noise, the men standing at the door rushed straight
+  in. And truly an amazing sight met them. They saw alive the man they had left dead.
 relations:
 - type: associated-with
   target: gallic.story.raising-of-the-catechumen

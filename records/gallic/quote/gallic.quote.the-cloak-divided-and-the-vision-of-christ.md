@@ -66,7 +66,25 @@ modern_lens_note: >-
   the beggar outright - "clothed me with this robe" - and grounds that claim in his own earlier words,
   quoted a second time inside the vision itself. The cloak is the act; the vision is Christ attaching
   his own name to the man who received it.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  So, at one time, he had nothing but his weapons and his plain soldier's clothes. It was the middle
+  of winter, a winter harsher than usual, and the bitter cold was killing many people. He happened to
+  meet at the gate of the city ... a poor man with nothing to wear. The man was begging passers-by to
+  take pity on him, but everyone walked past the wretched man without a glance. Then Martin, that man
+  full of God, saw that this man, shown no pity by the others, had been left to him. But what should
+  he do? He had nothing except the cloak he wore, for he had already given away the rest of his
+  clothes for the same kind of need. So he drew the sword at his side and cut his cloak into two equal
+  halves. He gave one half to the poor man and wrapped himself again in the rest. At this, some of the
+  bystanders laughed, because he now looked unsightly and stood out as only half-dressed. But many
+  with better sense groaned deeply, because they themselves had done nothing like it. They felt this
+  most of all because they had more than Martin. They could have clothed the poor man without
+  stripping themselves bare. The next night, when Martin had given himself up to sleep, he had a
+  vision. He saw Christ dressed in the half of his cloak that he had given the poor man. He gazed at
+  the Lord with the closest attention, and was told to own as his the cloak he had given away. Soon he
+  heard Jesus say in a clear voice to the crowd of angels standing around: "Martin, who is still only
+  a catechumen, clothed me with this cloak." The Lord truly remembered his own words. On earth he had
+  said: "When you did these things to one of the least of these, you did them to me." He declared that
+  he himself had been clothed in that poor man.
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

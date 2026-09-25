@@ -40,7 +40,10 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  So even in his early youth he already showed signs of the man he would become. Even as a boy, he drew
+  the outline of the perfection that would grow in his adult years. If we want to reach his height of
+  virtue, then we must lay the same foundation from the start.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "He
 then$"` returns line 43079 (among other unrelated hits elsewhere in the file); `grep -n "lay the same

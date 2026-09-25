@@ -44,7 +44,12 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  But he rushed back quickly the way he had gone out. In the meantime, I believe, Martin's prayers had
+  driven the demons from his heart. Now he had been brought back to repentance. So he quickly returns
+  and throws himself at Martin's feet. He begs for pardon and confesses his error. At last restored to a
+  better mind, he admits that a demon had been driving him. It was no hard thing for Martin to forgive
+  the man who begged him.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "But
 with rapid steps"` returns line 5323; `grep -n "forgive the suppliant"` returns line 5330. Read with `sed

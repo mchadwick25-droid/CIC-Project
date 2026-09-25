@@ -44,7 +44,15 @@ modern_lens_note: >-
   because no verified tradition had come down about it. The caution and the eventual test (recounted
   later in the same chapter) are of a piece: tradition, not popular opinion, is what would have
   settled the question for him.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  He did this, he said, because he had serious doubts on these matters.
+  No steady tradition about them had come down from ancient times. So
+  for a time he kept away from the place. He had no wish at all to
+  lessen the religious reverence people felt for it, since he was still
+  unsure. But at the same time, he would not lend his authority to the
+  crowd's opinion. He did not want a mere superstition to gain a firmer
+  footing. One day he went out to the place, taking a few brothers with
+  him as companions.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

@@ -47,7 +47,11 @@ modern_lens_note: >-
   The line about four sacks, read against Salvian's own later count of three, is a reminder that even a
   direct eyewitness writing polemic does not always agree with himself - the record keeps that
   inconsistency rather than smoothing it away.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  I have seen with my own eyes men of high birth and high rank who had already been robbed and
+  plundered. Yet their fortunes were less ruined than their morals. Ravaged and stripped as they were,
+  they still had something left of their property, but nothing left of their character. ... The
+  richest city in Gaul was taken by storm no fewer than four times.
 relations:
 - type: associated-with
   target: gallic.story.circuses-amid-the-ruins

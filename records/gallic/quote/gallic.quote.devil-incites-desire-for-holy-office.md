@@ -38,7 +38,11 @@ modern_lens_note: >-
   through disguised, plausible-seeming suggestions rather than open temptation. Moses is not saying
   ordination itself is evil - he is warning that the wish for it can arrive dressed as a wish to do
   good for others, which is exactly what makes it dangerous to a monk trying to test his own motives.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Or else he stirs a man to desire the holy office of the clergy. He
+  hides it under the excuse of building up many people, and of loving
+  spiritual gain. By this he means to draw us away from the humility and
+  strictness of our life.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

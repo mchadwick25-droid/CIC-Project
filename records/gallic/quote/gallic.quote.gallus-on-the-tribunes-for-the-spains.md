@@ -75,7 +75,33 @@ modern_lens_note: >-
   of life and death, aimed at real people who might be condemned "rather on his turning pale from fear...
   than by the faith which he professed." The scene sets up the cost that follows: Martin gets what he
   asks, but only by taking a step, at the ordination of Felix, that he will later call an evil communion.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  I will now come to an event he always kept hidden, because of the times, but could not hide from us.
+  Part of this matter was a true miracle: an angel spoke with him face to face. The Emperor Maximus was
+  no doubt a good man in other ways. But after Priscillian had been put to death, the advice of some
+  priests led him astray. So he used his royal power to protect Ithacius the bishop, who had accused
+  Priscillian, and others of his allies, who need not be named. In this way the emperor stopped anyone
+  from charging Ithacius with getting any man at all condemned to death. Now Martin was forced to go to
+  the court by many serious cases of people who were suffering. There he met the full force of the storm
+  raging at the time. The bishops who had gathered at Treves were kept in that city. They took communion
+  with Ithacius every day and had made common cause with him. They were not expecting news that Martin
+  was coming. When it came, they lost all courage and began to mutter and tremble among themselves.
+  Under their influence, the emperor had already decided to send some tribunes with absolute power into
+  the two Spains. They were to search out heretics and, once they found them, take their lives or their
+  goods. There was no doubt that this storm would also wreck great numbers of truly holy people, since
+  little care was taken to tell one kind of person from another. At such times people were judged by
+  appearances alone. A man was judged a heretic for turning pale with fear, or for wearing certain
+  clothes, rather than by the faith he professed. The bishops knew well that Martin would never approve
+  of such actions. But their consciences were guilty, and they were deeply anxious that when he came, he
+  would refuse communion with them. They knew well that others would follow his example and take the
+  same bold course as so great a man. So they made a plan with the emperor. Court officials would be
+  sent out to meet Martin. He would be forbidden to come any nearer the city unless he declared that he
+  would keep peace with the bishops there. But he cleverly defeated their aim by declaring that he would
+  come among them with the peace of Christ. At last he entered the city by night and went to the church,
+  only to pray. The next day he went to the palace. Besides many other requests he had to present ...
+  his chief request was this: that tribunes with the power of life and death should not be sent into the
+  Spains. For Martin's holy concern was not only to save from danger the true Christians there, whom that
+  campaign would persecute. He wanted to protect even the heretics themselves.
 relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion

@@ -50,7 +50,15 @@ modern_lens_note: >-
   off his servant's boots" himself. The monastic quality the passage names is expressed entirely inside
   ordinary army life, in how one man treats a subordinate, before there is any monastery for him to
   belong to.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  He often acted as if he were the lower one, though he was really the master. It went so far that he
+  usually pulled off his servant's boots and cleaned them with his own hand. They ate their meals
+  together, but it was generally the real master who played the servant. For nearly three years before
+  his baptism he served as a soldier. But he kept completely free of the vices that men of that trade
+  too often fall into. He showed great kindness to his fellow soldiers and held them in remarkable
+  affection. His patience and humility went beyond what seemed humanly possible. There is no need to
+  praise his self-denial. It was so great that, even then, people saw him less as a soldier than as a
+  monk.
 relations:
 - type: associated-with
   target: gallic.story.the-cloak-at-amiens

@@ -49,7 +49,17 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  When the whole service had ended as usual, he stood before all the brothers and made his complaint to
+  Saint Isidore. Isidore was the priest of this desert before Paphnutius himself. He declared that his
+  book had been stolen from his cell. His complaint deeply troubled all the brothers, and the priest
+  most of all. They did not know what to suspect or think first. Everyone was utterly astonished at so
+  new and unheard-of a crime. No one remembered such a thing ever happening in that desert before, and
+  it has never happened since. Then the man who had raised the matter as accuser made a proposal.
+  Everyone should be kept in the church, and chosen men should be sent to search the brothers' cells one
+  by one. The priest gave this task to three of the Elders. They turned over everyone's sleeping
+  quarters. At last they found the book hidden in Paphnutius's cell, among the palm branches they call
+  seira. It was just where the plotter had hidden it.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the whole service"` returns line 43018; `grep -n "just as the plotter"` returns line 43038, `grep -n

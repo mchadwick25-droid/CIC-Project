@@ -38,7 +38,10 @@ modern_lens_note: >-
   Massilian response to it. It is carried here because it is the source apparatus's most direct
   statement of the Marseilles community's resistance to Rome, useful as evidence of the episode but
   not as an emic voice of this world.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Perhaps Gallican independence was never shown more strikingly than in
+  the sturdy way the Massilians clung to their views. They held on even
+  though the authority of the Pope was now brought to bear on them.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

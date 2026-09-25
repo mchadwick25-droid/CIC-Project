@@ -39,7 +39,12 @@ modern_lens_note: >-
   monk should wear. That is itself part of the point: for Cassian, even a detail this minor cannot be
   decided by present taste, only by what long tradition and the consensus of the fathers has already
   settled.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  For we ought to give unhesitating loyalty and unquestioning obedience.
+  We owe it not to the customs and rules that a few people have brought
+  in by their own will. We owe it to those that long antiquity and many
+  holy fathers have passed on, by one shared decision, to those who come
+  after.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

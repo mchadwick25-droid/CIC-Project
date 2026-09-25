@@ -37,7 +37,10 @@ modern_lens_note: >-
   over any individual's private judgment. The same instinct - trusting a gathered, collective judgment
   over a lone voice - sits uneasily beside this world's own suspicion of synods and bishops elsewhere
   in its story.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Then he will take care, by every means, to follow the decrees of an
+  ancient General Council, if any exist. He will prefer them to the
+  rashness and ignorance of a few.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

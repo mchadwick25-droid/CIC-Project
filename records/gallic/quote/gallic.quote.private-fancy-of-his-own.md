@@ -42,7 +42,16 @@ modern_lens_note: >-
   solitary opinion any authority against the consent of all. Read against this world's own uneasy
   relationship with bishops and synods elsewhere, the rule cuts both ways - it distrusts the lone
   voice exactly as much whether that voice sits on a see or not.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  But a teacher may hold something apart from all the rest, or against
+  all the rest. He may be holy and learned. He may be a bishop, a
+  Confessor, a martyr. Even so, whatever he holds this way must be
+  counted as his own private notion. It must be set apart from the
+  authority of the common, public, general belief. Otherwise, like
+  heretics and schismatics in their sacrilegious custom, we would reject
+  the ancient truth of the universal Creed. We would follow the newly
+  invented error of one man, at the gravest risk to our eternal
+  salvation.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

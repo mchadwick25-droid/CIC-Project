@@ -47,7 +47,11 @@ modern_lens_note: >-
   report what happened to him, he "offered himself... as a subject" of it, his continuing life the
   evidence. Martin's reputation, in this telling, grows outward from one restored life becoming visible
   proof, not from an argument made on Martin's behalf.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  So he was brought back to life, and he was baptized at once. He lived for many years afterward. He
+  was the first to offer himself to us as one who had felt Martin's powers, and as a witness that they
+  were real. ... From this time on, the holy man's name became famous. Everyone counted him holy, and
+  so he was also thought powerful and truly like an apostle.
 relations:
 - type: associated-with
   target: gallic.story.raising-of-the-catechumen

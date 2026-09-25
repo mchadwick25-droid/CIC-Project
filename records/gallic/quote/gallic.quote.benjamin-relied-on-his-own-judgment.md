@@ -38,7 +38,11 @@ modern_lens_note: >-
   fasting schedule against what the Elders had handed down. The moral Cassian draws is not about food
   at all: it is that trusting private judgment over inherited tradition is what led, in the end, to
   leaving the desert altogether.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  And you surely remember what kind of end this man's life came to. He
+  stubbornly and persistently relied on his own judgment rather than on
+  the traditions of the Elders. For he left the desert and went back to
+  the empty philosophy of this world and the hollow things of earth.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

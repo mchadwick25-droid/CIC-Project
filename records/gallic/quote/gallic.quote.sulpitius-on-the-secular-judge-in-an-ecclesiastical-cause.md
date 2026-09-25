@@ -43,7 +43,10 @@ modern_lens_note: >-
   jurisdictional - it is "unheard-of" for a secular ruler to judge a church cause at all, regardless of
   the verdict. Martin's plea for the Priscillianists' lives and his objection to the emperor as judge are,
   in Sulpitius's telling, the same principle.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  He insisted that, once the bishops had declared them heretics by their sentence, being driven out of
+  the churches was punishment enough. Besides, he held, it was a foul and unheard-of disgrace for a
+  secular ruler to judge a church case.
 relations:
 - type: associated-with
   target: gallic.story.trier-and-the-ithacian-communion

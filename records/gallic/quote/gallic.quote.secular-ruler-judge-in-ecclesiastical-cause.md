@@ -41,7 +41,11 @@ modern_lens_note: >-
   secular court trying an ecclesiastical case at all was itself the deeper wrong. Both halves matter -
   Martin is not defending the accused as innocent, only denying the emperor's court any standing to
   judge them.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  He held that they had been punished enough: the bishops had sentenced
+  them as heretics, and they had been expelled from the churches. He
+  held, too, that it was a foul indignity, never heard of before, for a
+  secular ruler to judge a church case.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

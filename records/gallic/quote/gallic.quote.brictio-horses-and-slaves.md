@@ -43,7 +43,11 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  For the day before, Martin had rebuked him. The reason was this: before he entered the clergy he had
+  owned nothing. In fact, Martin himself had raised him in the monastery. Yet now he was keeping horses
+  and buying slaves. At that time many people accused him of buying not only boys from barbarian
+  peoples, but good-looking girls as well.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "For he
 had been reproved"` returns line 5299; `grep -n "comely$"` returns line 5304, continuing "appearance." on

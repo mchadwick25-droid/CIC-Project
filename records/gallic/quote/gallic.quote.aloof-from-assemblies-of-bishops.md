@@ -38,7 +38,9 @@ modern_lens_note: >-
   bishops he judged unworthy. The withdrawal from synods is presented as the lasting consequence: not
   a single act of protest but a permanent change in how Martin spent the rest of his life among
   bishops.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  He lived sixteen years after this. But he never again went to a synod,
+  and he carefully kept away from every gathering of bishops.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

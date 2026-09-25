@@ -36,7 +36,9 @@ modern_lens_note: >-
   Vincent introduces this line as Stephen's own rule, written to Africa during the controversy over
   re-baptizing heretics. Vincent uses a Pope's own words to make his larger point: the instinct against
   novelty is not his invention either, but something he can point to in an earlier bishop of Rome.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Let nothing new be brought in - nothing except what has been handed
+  down.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

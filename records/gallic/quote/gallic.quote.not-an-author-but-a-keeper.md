@@ -38,7 +38,12 @@ modern_lens_note: >-
   author but keeper, not teacher but disciple, not leader but follower - each one narrowing the same
   point: a guardian of doctrine adds nothing of his own. The line names, in Vincent's own words, the
   posture this whole world takes toward its own inheritance.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  What has been entrusted to you, not what you have thought up yourself.
+  A matter not of cleverness but of learning; not of private choice but
+  of public tradition. A matter brought to you, not put forth by you. In
+  it you are bound to be not an author but a keeper, not a teacher but a
+  disciple, not a leader but a follower.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

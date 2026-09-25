@@ -58,7 +58,20 @@ modern_lens_note: >-
   that Martin was brave; it is that no battle was needed at all, which he reads as evidence the victory
   was granted rather than won. The passage keeps that reading explicit as the narrator's own, not as a
   claim this record independently verifies.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Then the tyrant flew into a rage at these words. He declared that Martin was leaving the army out of
+  fear of the battle set for the next day, not out of any religious feeling. But Martin was full of
+  courage. The danger put before him made him all the more determined. He cried out: "If what I am
+  doing is put down to cowardice and not to faith, I will stand unarmed in front of the battle line
+  tomorrow. In the name of the Lord Jesus, guarded by the sign of the cross and not by shield or
+  helmet, I will pass safely through the enemy ranks." So he was ordered to be thrown back into
+  prison, set on proving his words true by facing the barbarians unarmed. But the next day the enemy
+  sent envoys to discuss peace. They surrendered themselves and everything they owned. Given all this,
+  who can doubt that this victory was due to the holy man? He was granted this: he would not be sent
+  unarmed into the fight. The good Lord could have kept his own soldier safe, even among the swords
+  and javelins of the enemy. But he did not want Martin's blessed eyes to suffer the pain of watching
+  others die. So he took away any need to fight. Christ needed to win no other victory for his own
+  soldier than this one. The enemy was beaten without bloodshed, and no one had to die.
 relations:
 - type: associated-with
   target: gallic.story.discharge-before-caesar

@@ -39,7 +39,13 @@ modern_lens_note: >-
   quod ab omnibus" - what has been believed everywhere, always, by all. He states it here as a
   working test, not an abstract slogan, and immediately breaks it into three named parts - place,
   time, and consent - that his following chapters apply one at a time.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Also, within the Catholic Church itself, we must take every possible
+  care to hold the faith that has been believed everywhere, always, by
+  all. That is what is truly and most strictly "Catholic." As the name
+  itself and the logic of the thing show, it takes in all, universally.
+  We shall keep this rule if we follow universality, antiquity, and
+  agreement.
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

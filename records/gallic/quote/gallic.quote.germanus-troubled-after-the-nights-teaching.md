@@ -50,7 +50,16 @@ modern_lens_note: >-
   them whispering and shortens the service to ask what is wrong. The doctrine of grace and effort, as
   Cassian records its own beginning, starts as a monk's felt objection to being told his striving cannot
   make him master of the good - not as a position taken up in an argument with people across the sea.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  After a short sleep we came back for the morning service and waited for the old man. Abbot Germanus
+  was troubled by great doubts, because of the discussion the night before. Its force had filled us with
+  the deepest longing for this chastity, which until then we had not known. In it, by adding a single
+  sentence, the blessed old man had broken down the claims of human effort. He added that a man may
+  strive with all his might for a good result, yet still cannot make the good his own. He can have it
+  only as a simple gift of God's generosity, not through the efforts of his own labor. While we were
+  puzzling over this question, the blessed Chaeremon arrived at the cell. He saw that we were whispering
+  together about something. So he cut the prayers and psalms shorter than usual, and asked us what was
+  the matter.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service

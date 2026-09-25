@@ -34,7 +34,8 @@ modern_lens_note: >-
   Conferences: he presents himself as a channel for the fathers' teaching, not its author. It is the
   same posture Vincent takes independently in the Commonitory - "not an author but a keeper" - two
   writers making the identical claim about their own work, in their own words.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  the Institutes, which are not mine but the fathers'
 relations:
 - type: associated-with
   target: gallic.gravity.received-not-invented

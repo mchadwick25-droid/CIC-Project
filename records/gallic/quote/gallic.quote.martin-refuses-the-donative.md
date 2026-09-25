@@ -50,7 +50,14 @@ modern_lens_note: >-
   now asks to "become a soldier to God" - the donative is refused only because it belongs to the old
   service, not because taking it would be wrong in itself. The four short clauses build to the same
   point four times: this is a change of master, stated as plainly as Sulpitius could report it.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Meanwhile the barbarians were pouring into the two parts of Gaul. Julian Caesar gathered an army at
+  the city of the Vaugiones and began to hand out a bonus payment to the soldiers. As was the custom,
+  they were called forward one by one, until it came to Martin's turn. Then he judged it a good moment
+  to ask for his discharge. He did not think it right to take the payment if he was not going to stay
+  in the service. So he said to Caesar: "Up to now I have served you as a soldier. Now let me become a
+  soldier for God. Let the man who is going to serve you take your payment. I am the soldier of
+  Christ. I am not permitted to fight."
 relations:
 - type: associated-with
   target: gallic.story.discharge-before-caesar

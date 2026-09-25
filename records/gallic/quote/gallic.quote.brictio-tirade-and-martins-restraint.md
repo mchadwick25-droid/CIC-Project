@@ -49,7 +49,17 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  These things filled the wretched man with bitter rage. And, I believe, the urging of those demons
+  drove him most of all. He attacked Martin so fiercely that he barely held back from striking him. The
+  holy man, for his part, kept a calm face and a peaceful mind. With gentle words he tried to hold back
+  the unhappy man's madness. But the spirit of evil had such a grip on him that he could not control
+  even his own mind. That mind was a very foolish one even at the best of times. His lips trembled, and
+  his face changed, pale with rage. He poured out sinful words. He claimed he was a holier man than
+  Martin, who had raised him. From his earliest years, he said, he had grown up in the monastery,
+  trained in the Church's holy ways. Martin, he said, had first been stained by a soldier's life, as
+  Martin could not deny. And now, he said, Martin had sunk completely into old age's foolishness. His
+  groundless superstitions and ridiculous fancies about visions had brought him to it.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "The
 miserable man, moved with bitter rage"` returns line 5305; `grep -n "ridiculous fancies about visions"`

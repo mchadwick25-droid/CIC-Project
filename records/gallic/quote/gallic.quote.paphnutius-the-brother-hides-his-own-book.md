@@ -41,7 +41,12 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  This man wanted to spoil his inner beauty with some flaw or stain. So he came up with this devilish
+  trick. He waited for a chance when Paphnutius had left his cell to go to church on Sunday. Then he
+  crept into the cell in secret. Slyly, he hid his own book among the palm branches that Paphnutius used
+  to weave. Sure that his trick was well planned, he went off to church himself, as if his conscience
+  were pure and clean.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "just
 as the plotter"` (used to anchor the chapter generally) and manual read confirm "And this man wanting"

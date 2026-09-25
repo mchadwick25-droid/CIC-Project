@@ -39,7 +39,10 @@ modern_lens_note: >-
   alone but names it with the same authority he elsewhere claims for the apostles themselves - the
   clearest single line in the Vita crediting Martin with an authority that outranks the episcopate
   around him.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  The dignity of the priesthood had bowed in degenerate submission and
+  taken second place to the royal court. But in Martin alone, the
+  authority of the apostles still asserted itself.
 relations:
 - type: associated-with
   target: gallic.gravity.authority-ambivalence

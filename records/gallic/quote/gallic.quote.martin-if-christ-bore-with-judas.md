@@ -51,7 +51,13 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.brictio-in-the-courtyard
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Then the holy man explained, both to him and to all of us, how he had seen demons driving him on. He
+  declared that the insults heaped on him did not move him. In fact, they had hurt the man who spoke
+  them instead. Later, this same Brictio was often accused before Martin of many serious crimes. Yet
+  Martin could not be persuaded to remove him from the priesthood. He did not want to be suspected of
+  taking revenge for the wrong done to himself. And he often repeated this saying: ‘If Christ bore with
+  Judas, why should I not bear with Brictio?’
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 then the holy man explained"` returns line 5330; `grep -n "Brictio?"` returns line 5339, the chapter's

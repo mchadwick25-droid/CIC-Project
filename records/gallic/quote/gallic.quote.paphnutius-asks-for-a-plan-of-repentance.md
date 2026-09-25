@@ -50,7 +50,16 @@ modern_lens_note: >-
 relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  Paphnutius knew his conscience was completely clear. Yet he acted like a man who admitted he was
+  guilty of theft. He gave himself up wholly to making amends, and humbly asked to be given a course of
+  penance. He cared deeply about his modesty and his sense of shame. He feared that if he tried to wipe
+  away the stain of the theft with words, he would also be branded a liar. No one would believe anything
+  except what had been found. He left the church at once, not downcast but trusting in the judgment of
+  God. He wept constantly at his prayers, and fasted three times as often as before. In front of others
+  he lay face down, with complete humility of mind. For almost two weeks he humbled himself like this,
+  in deep sorrow of body and spirit. Early on Saturday and Sunday mornings he came to church, but not to
+  receive Holy Communion. He came to lie face down on its threshold and humbly ask for pardon,
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the inquisitors"` returns line 43039 (this quote's opening sentence begins there); `grep -n "humbly

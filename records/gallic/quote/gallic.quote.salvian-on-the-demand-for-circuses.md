@@ -48,7 +48,13 @@ modern_lens_note: >-
   sharpest line reverses what a reader expects sympathy to sound like - "I thought you most miserable
   when you were suffering destruction, but I see that you are now more miserable when you demand public
   shows." Losing the city, for Salvian, was a lesser loss than this request.
-modern_rendering: PENDING_OPUS_RENDERING
+modern_rendering: >-
+  The few men of rank who survived the destruction asked the emperors for circus games, as the best
+  cure of all for a ruined city. ... Citizens of Trier, do you long for circus games? You have been
+  plundered and captured. You have lived through slaughter and bloodshed, floggings and captivity, and
+  the destruction of your ruined city again and again. What is more pitiful than this stupidity? What
+  is more painful than this folly? I admit I thought you most miserable when you were suffering
+  destruction. But I see that you are more miserable now, when you demand public shows.
 relations:
 - type: associated-with
   target: gallic.story.circuses-amid-the-ruins
