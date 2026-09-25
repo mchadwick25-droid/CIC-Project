@@ -69,14 +69,14 @@ modern_lens_note: >-
   his own name to the man who received it.
 modern_rendering: >-
   At one point, he owned nothing but his weapons and his plain soldier's uniform. It was midwinter,
-  and that winter was harsher than usual - the bitter cold was killing people. At the gate of the city
+  and that winter was harsher than usual - the bitter cold was killing many people. At the gate of the city
   of Amiens, he met a poor man who had no clothes at all. The man was begging everyone who passed to
   take pity on him, but they all walked by without a glance. Martin, that man full of God, realized
   that since no one else showed the man pity, this one was left for him to help. But what could he
   do? He had nothing left but the cloak on his back. He had already given the rest of his clothes away
   for the same kind of need. So he drew the sword at his belt and cut his cloak into two equal halves.
   He gave one half to the poor man, and put the other half back on himself. Some of the bystanders
-  laughed at this, because he now looked ridiculous, only half dressed. But many with better judgment
+  laughed at this, because he now looked shabby and stood out as only half dressed. But many with better judgment
   groaned deeply, because they had done nothing like it themselves. This stung most because they owned
   more than Martin did - they could have clothed the poor man without leaving themselves bare. The
   following night, once Martin had fallen asleep, he had a vision. He saw Christ wearing the half of
@@ -103,16 +103,14 @@ title="Chapter III. Christ appears to St. Martin." ... id="ii.ii.iv">` (line 760
 directly: one continuous passage, from "Accordingly, at a certain period..." through "...clothed in
 that poor man."
 
-Correction (post-PR#579 Opus review): the `text` field previously read "the gate of the city ... a poor
-man," with an ellipsis standing in for "of Amiens." That was wrong. In the source, "of Amiens" sits
-directly in the main translated sentence - "he happened to meet at the gate of the city of Amiens
-<note n="8">...</note> a poor man destitute of clothing" (lines 770-773) - immediately before the
-endnote tag, not inside it. The endnote at that point (note 8) only glosses the underlying Latin place
-name ("Ambianensium civitas") and gives its alternate ancient name ("Samarobriva"); it does not say
-"Amiens" is absent from, or only editorial to, the main text. "The city of Amiens" is Roberts's own
-main-text rendering of Sulpitius's "Ambianensium civitas," and belongs in this record's `text` field
-verbatim, with no ellipsis at that point. The `text` field has been corrected accordingly, matching the
-host record gallic.story.the-cloak-at-amiens's own corrected treatment of the same place-name.
+"Of Amiens" sits directly in the main translated sentence - "he happened to meet at the gate of the
+city of Amiens<note n="8">...</note> a poor man destitute of clothing" (lines 770-773) - immediately
+before the endnote tag, not inside it. The endnote at that point (note 8) only glosses the underlying
+Latin place name ("Ambianensium civitas") and gives its alternate ancient name ("Samarobriva"); it does
+not say "Amiens" is absent from, or only editorial to, the main text. "The city of Amiens" is Roberts's
+own main-text rendering of Sulpitius's "Ambianensium civitas," and belongs in this record's `text`
+field verbatim, with no ellipsis at that point - matching the host record
+gallic.story.the-cloak-at-amiens's own treatment of the same place-name.
 
 Normalization: line breaks joined with single spaces. The source marks the two spoken lines with a dash
 before an opening curly quotation mark; the first is closed with a curly closing mark, the second is
@@ -122,11 +120,9 @@ than the words being what is normalized, consistent with this world's existing q
 same author (gallic.quote.martin-on-the-christ-with-wounds). No word was added, dropped, substituted,
 or reordered.
 
-`modern_rendering` re-authored (post-PR#579 Opus review): the previous rendering carried the same bare
-"..." gap as the old `text` field ("at the gate of the city ... a poor man") and was rejected for it.
-With the `text` field now a complete, continuous verbatim passage, the rendering has been rewritten
-from scratch as continuous natural prose with no ellipsis and no gap of any kind. Every clause of the
-corrected `text` field is rendered; both of Christ's quoted lines appear as direct modern-English
+`modern_rendering` reads as continuous natural prose with no ellipsis and no gap of any kind, matching
+the `text` field's own complete, continuous verbatim passage. Every clause of `text` is rendered; both
+of Christ's quoted lines appear as direct modern-English
 quotations ("catechumen" rendered as "candidate for baptism" - a plain, non-misleading modern
 equivalent; "robe" kept as Roberts's own word in that one line, not silently harmonized with "cloak"
 elsewhere in the narration). Sentences were kept short (one thought each, none past ~25 words) and

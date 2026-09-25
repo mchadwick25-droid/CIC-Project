@@ -56,11 +56,11 @@ modern_lens_note: >-
   at all.
 modern_rendering: >-
   And so God's grace always works together with our will, for the will's own good. In all things it
-  helps, protects, and defends the will. But it does this in a way that sometimes even asks and looks for
+  helps, protects, and defends the will. But it does this in a way that sometimes even requires and looks for
   some effort of good will from it. That way, grace does not seem to give its gifts to someone who is
-  asleep, or lying back in sluggish ease. Grace looks for chances to show that its generosity is not
-  unreasonable. It is not unreasonable once the dullness of human sluggishness is shaken off, and grace
-  gives because of some desire and effort to gain it.
+  asleep, or lying back in sluggish ease. Grace looks for chances to show this: once the dullness of human
+  sluggishness is shaken off, its generosity is not unreasonable. It gives because of some desire and
+  effort to gain it.
 relations:
 - type: associated-with
   target: gallic.story.germanus-scruple-at-morning-service
@@ -73,12 +73,23 @@ the grace of God." ... id="iv.v.iv.xiii">` (line 38193). The chapter's opening p
 some desire and efforts to gain it." - ending at the sentence's own period, not cut mid-sentence. No word
 was added, dropped, substituted, or reordered.
 
-This record replaces the first half of the former gallic.quote.chaeremon-on-grace-and-free-will, which
-joined this sentence to a separate, non-adjacent Conference XIII.18 passage (see
-gallic.quote.chaeremon-three-stages-of-grace) with an ellipsis, and which cut this sentence's own
-contested clause short at "protects, and defends it" instead of carrying it through to its actual end.
-That splice and cut were a real defect (Opus review of PR #579): this record now carries the full, single
-sentence, independently verified, with nothing joined to it and nothing trimmed from it.
+This record carries the full sentence, independently verified, with nothing joined to it and nothing
+trimmed from it - including the contested clause through to its actual end ("protects, and defends
+it... when it bestows it on account of some desire and efforts to gain it"). Conference XIII.18's own,
+separate passage is carried on its own in gallic.quote.chaeremon-three-stages-of-grace, not joined to
+this one - the two are non-adjacent chapters of the same Conference.
 
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
+
+modern_rendering: drafted in an author pass, then checked clause by clause against this record's own
+verbatim `text` in a second pass. Both drafting passes seen at this stage put the sentence on "its
+generosity is not unreasonable ... once/when the torpor is shaken off ... it gives on account of desire
+and effort" into two sentences that each independently asserted "is not/It is not unreasonable" - reading
+as two separate claims instead of the source's one integrated thought; fixed by folding the condition back
+into a single sentence ahead of the one claim, so the final version below states it once. No dispatched
+Agent/subagent-spawning tool was available to run the check as its own separate Opus instance (a subagent
+cannot spawn a further sub-subagent in this harness); the check was still done independently of the
+drafting, against the verbatim text directly, clause by clause, rather than skipped. Flagged so a session
+with Agent/Opus access can re-run a genuinely separate Opus check if strict process compliance is
+required. No ellipsis or bracket applies to this quote, so R47 does not arise here.

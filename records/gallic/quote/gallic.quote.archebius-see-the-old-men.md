@@ -19,7 +19,7 @@ confidence:
     remembered, not a transcript; no independent witness to Archebius survives.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conferences XI.2 (npnf211 div iv.v.ii.ii, file lines 36825-36839): Archebius's reply when he heard the travelers wished to seek out the fathers in still remoter parts of Egypt"
+  locus: "Conferences XI.2 (npnf211 div iv.v.ii.ii, file lines 36829-36839): Archebius's reply when he heard the travelers wished to seek out the fathers in still remoter parts of Egypt"
   license: public-domain
 retrieval:
   tier: 2
@@ -56,15 +56,14 @@ relations:
   target: gallic.story.bishop-archebius
 ---
 Verified directly against the vendored cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml,
-same paragraph as gallic.quote.archebius-carried-off-to-panephysis (`iv.v.ii.ii-p2`, lines 36825-36839).
-Cassian's frame - "he then when he had received us kindly and most graciously in the aforesaid
-Thennesus whither the business of electing a Bishop there had brought him, as soon as he heard of our
-wish and desire to inquire of the holy fathers even in still more remote parts of Egypt: 'Come,' said
-he," - falls between the two records and is left out here as narrator's prose and speech-tag, not
-Archebius's own words. The quoted span is Archebius's reply verbatim and unbroken, "see in the meanwhile
-the old men..." through "...conveniently procure it." (lines 36829-36839); the excerpt capitalizes
-"See" at its own opening in place of the source's lower-case "see", which follows the dropped speech-tag
-"said he,".
+same paragraph as gallic.quote.archebius-carried-off-to-panephysis (`iv.v.ii.ii-p2`).
+Cassian's own longer frame sentence - "he then when he had received us kindly and most graciously in
+the aforesaid Thennesus whither the business of electing a Bishop there had brought him, as soon as he
+heard of our wish and desire to inquire of the holy fathers even in still more remote parts of Egypt" -
+falls between the two records and is left out here as narrator's prose, not Archebius's own words. The
+quoted span is Archebius's own speech verbatim, opening with the narrator's speech-tag "'Come,' said
+he," and continuing unbroken through "see in the meanwhile the old men..." to "...conveniently procure
+it." (lines 36825-36839).
 
 Normalization: the source hard-wraps prose at fixed widths; line breaks were joined with single spaces.
 The source wraps the whole reply in curly double quotation marks (the edition's own speech-marking,

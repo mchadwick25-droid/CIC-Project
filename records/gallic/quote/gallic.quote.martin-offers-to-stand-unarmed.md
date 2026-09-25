@@ -70,8 +70,8 @@ modern_rendering: >-
   who can doubt that this victory was due to the holy man? He was granted this: he would not be sent
   unarmed into the fight. The good Lord could have kept his own soldier safe, even among the swords
   and javelins of the enemy. But he did not want Martin's blessed eyes to suffer the pain of watching
-  others die. So he took away any need to fight. Christ needed to win no other victory for his own
-  soldier than this one. The enemy was beaten without bloodshed, and no one had to die.
+  others die. So he took away any need to fight. For Christ needed no other victory for his own
+  soldier than this: the enemy was beaten without bloodshed, and no one had to die.
 relations:
 - type: associated-with
   target: gallic.story.discharge-before-caesar

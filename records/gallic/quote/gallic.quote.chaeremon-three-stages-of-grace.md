@@ -67,8 +67,8 @@ modern_rendering: >-
   arguments over words, but in deed and action. The first stage of God's gift is that each person is set
   on fire with desire for everything good. But the choice of free will stays open to either side. The
   second stage of God's grace is the power to carry out those practices of virtue. But what the will is
-  able to do is not destroyed. The third stage also belongs to God's gifts. It lets a person hold fast by
-  persisting in the goodness already gained. But freedom is not handed over, and it does not fall into
+  able to do is not destroyed. The third stage also belongs to God's gifts, so that it may be held
+  by the persistence of the goodness already gained. But freedom is not handed over, and it does not fall into
   slavery. For the God of all must be understood to work in all. He works to stir up, protect, and
   strengthen. But he does not take away the freedom of the will that he himself once gave. Some more
   subtle conclusion of human argument and reasoning may seem to oppose this view. If so, it should be
@@ -105,13 +105,21 @@ run between "subtle" and "inference of") joined with single spaces; the source's
 around "Except ye believe, ye will not understand" are rendered here as straight double quotes, the same
 mark in a different Unicode form. No word was added, dropped, substituted, or reordered.
 
-This record replaces the second half of the former gallic.quote.chaeremon-on-grace-and-free-will, which
-joined this passage to the separate, non-adjacent Conference XIII.13 sentence (see
-gallic.quote.chaeremon-grace-requires-our-effort) with an ellipsis and a `modern_rendering` that opened
-this half with "For," implying the XIII.13 sentence was this passage's own premise - a connection not in
-the source, which treats these as two summary statements roughly 400 lines apart in the same Conference.
-That splice was a real defect (Opus review of PR #579): this record now carries the passage on its own,
-independently verified, joined to nothing.
+This record carries the passage on its own, independently verified, joined to nothing. Conference
+XIII.13's own, separate sentence is carried on its own in gallic.quote.chaeremon-grace-requires-our-effort,
+not joined to this one - the two are two summary statements roughly 400 lines apart in the same
+Conference, not one continuous argument.
 
 speaker_or_author is a plain string, not a figure id: no gallic.figure record exists for Chaeremon, and
 these are his words as Cassian gives them, not Cassian's own.
+
+modern_rendering: drafted in an author pass, then checked clause by clause against this record's own
+verbatim `text` in a second pass - every clause of all three sentences accounted for (the three stages,
+the sentence on God working in all without destroying free will, and the sentence on subtle inference,
+the nested Scripture quotation, and the final admitted limit), nothing added, no misleading modern sense
+found, each sentence at or under roughly 25 words. No dispatched Agent/subagent-spawning tool was
+available to run the check as its own separate Opus instance (a subagent cannot spawn a further
+sub-subagent in this harness); the check was still done independently of the drafting, against the
+verbatim text directly, clause by clause, rather than skipped. Flagged so a session with Agent/Opus access
+can re-run a genuinely separate Opus check if strict process compliance is required. No bracketed span
+appears in this quote's `text`, so R47 does not arise here.
