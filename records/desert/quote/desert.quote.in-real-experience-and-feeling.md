@@ -17,6 +17,11 @@ sources:
   locus: "Homily IV, in Mason's English"
   license: public-domain
 text: "Only let a man strive to be a friend of His and well pleasing to Him, and in real experience and feeling he shall truly see the good things of heaven, and the inexpressible delights and infinite riches of Godhead... even the Spirit of the Lord, making Himself for worthy souls their rest, their rejoicing, their delight, and their eternal life."
+modern_rendering: >-
+  Only let a person strive to be God's friend, and to be pleasing to him. Then, in real experience
+  and feeling, that person will truly see the good things of heaven -- the delights too great for
+  words, and the infinite riches of the Godhead. ... The Spirit of the Lord himself becomes, for
+  souls that are worthy, their rest, their joy, their delight, and their eternal life.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "'In real experience and feeling' is the phrase the Messalian charge fastened on: it claims grace is consciously perceived, not merely believed or inferred from sacraments. Whether that is devotion or error was the fourth-century argument, and this record does not settle it. The ellipsis drops a scriptural allusion (1 Cor. 2:9)."

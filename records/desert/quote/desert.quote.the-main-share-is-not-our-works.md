@@ -17,6 +17,9 @@ sources:
   locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII"
   license: public-domain
 text: "...the main share in our salvation is to be ascribed not to the merit of our own works but to heavenly grace..."
+modern_rendering: >-
+  ...the main share in our salvation must be credited not to the merit of our own works,
+  but to grace from heaven...
 speaker_or_author: Abbot Chaeremon, as Cassian reports him in the Conferences
 license: verbatim
 modern_lens_note: "\"Main share\" is doing real work in this sentence. It concedes a share to human effort, which is exactly why Prosper of Aquitaine extracted this Conference as erroneous and why later Western theology treated it as semi-Pelagian."

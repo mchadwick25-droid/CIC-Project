@@ -19,6 +19,6 @@ names:
   - {name: "Fixture Figure A", tag: scholarly}
 dates: {born: null, died: null, floruit: "100 (synthetic)"}
 narratable: true
-bridge_line: "an elder of this gathering, remembered for what he said about the ones who came after"
+bridge_line: "an elder of this gathering, remembered for what he said about those who came later"
 ---
 Single fixture figure, speaker of record for the fixture world's quotes.

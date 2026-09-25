@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in SOURCE-REQUEST-MANIFEST.md (2026-08-20, search: alx.search.clement-anf2); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "anf02", thml_div: "vi.ii"}
 ---
-Rights verified 2026-08-20 from the vendored file's own provenance header:
+Rights verified from the vendored file's own provenance header:
 `<DC.Rights>Public Domain</DC.Rights>` (grep-confirmed). Work presence
 verified directly: DC.Title "Exhortation to the Heathen" at file line 14698;
 the "new song" passage ("It has made men out of stones, men out of beasts")

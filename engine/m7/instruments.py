@@ -170,57 +170,61 @@ _STORY_RECORD_TYPES = frozenset({"story", "quote"})
 _WITNESS_RECORD_TYPES = frozenset({"doctrinal_witness"})
 
 
+def _legacy_anchor_marks(anchors: list[dict]) -> int:
+    """A plan recorded before per-element placement carries sentence-run
+    `anchors` and no `elements`; counted the way
+    the anchor-era renderer drew it - one mark per (placement, family),
+    witness runs placed at their start, story/quote runs at their end.
+    The frontend now shows such a stored turn through its legacy renderer,
+    which places the same families at run ends; this count is the
+    historical record of what those turns carried, not a live render."""
+    placements: set[tuple[int, str]] = set()
+    for a in anchors:
+        record_type = a.get("record_type")
+        if record_type in _WITNESS_RECORD_TYPES:
+            placements.add((a.get("run_start_sentence"), "witness"))
+        elif record_type in _STORY_RECORD_TYPES:
+            placements.add((a.get("run_end_sentence"), "story"))
+    return len(placements)
+
+
 def level1_element_density(s: AuditSession) -> list[dict]:
     """Stage 6d / R17 (Rulings-Pending.md, Decision-Log.md Entry 29): "an M7
     instrument counting Level-1 elements per turn" (Adjusted-Design.md's
-    N2) - the engineering half of a ruling whose actual cap NUMBER is
-    still Mark's to set ("RULING R17 on numbers", Adjusted-Design.md's own
-    wording). Report-only, no findings (principle 10: report-only
-    instruments stay report-only until data earns them a bar) - this
-    measures, it does not enforce. Metrics only, same shape as
-    register_mechanical's own metrics half.
+    N2). Report-only, no findings (principle 10: report-only instruments
+    stay report-only until data earns them a bar) - this measures, it
+    does not enforce. Metrics only, same shape as register_mechanical's
+    own metrics half.
 
     A "Level-1 element" is an inline mark visible directly in the running
-    text, never a Level-2/3 tap-through:
-    - a story/witness citation mark (cic-poc/frontend/src/components/
-      VoiceTurnBody.tsx's StoryMark/WitnessMark, one per same-placement,
-      same-family run) - reproduced here from transparency.anchors by the
-      same run_start_sentence/run_end_sentence/record_type grouping the
-      renderer itself uses (WITNESS_RECORD_TYPES groups by run_start,
-      everything else groups by run_end), not by re-parsing HTML;
-    - a figure mark (one per figures_used entry - already deduped to
-      first occurrence this session, per name_bridge.find_figures_used's
-      own docstring);
-    - a gloss mark (one per glosses entry, same dedup guarantee via
-      term_glosses.find_glosses_used).
+    text, never a Level-2/3 tap-through. Read from transparency.elements
+    (engine.m4.transparency_plan), which is exactly
+    what VoiceTurnBody.tsx's renderFromElements draws - one mark
+    per element, placed at the element:
+    - a citation mark per `quote` or `story` element;
+    - a figure mark per `figure` element;
+    - a gloss mark per `term` element.
+    General references (end_references) are not inline and are not
+    counted. A plan with no `elements` predates per-element placement and
+    is counted from its anchors (_legacy_anchor_marks, with figures_used/
+    glosses for word marks).
 
-    Known limitation, named not hidden: this reproduces the renderer's
-    grouping logic independently rather than sharing code with it (this
-    module is Python, the renderer is TypeScript) - the two could in
-    principle drift. This instrument's numbers are the evidence base for
-    Mark's still-open cap decision; a renderer-side fixture test enforcing
-    whatever number he sets is the other, separate half of R17's own
-    engineering ask.
+    Before the renderer's cap: this counts every candidate, not what
+    survives the cap.
     """
     metrics = []
     for t in s.voice_turns:
         transparency = t.transparency or {}
-        anchors = transparency.get("anchors") or []
-        placements: set[tuple[int, str]] = set()
-        for a in anchors:
-            record_type = a.get("record_type")
-            if record_type in _WITNESS_RECORD_TYPES:
-                family = "witness"
-                placement = a.get("run_start_sentence")
-            elif record_type in _STORY_RECORD_TYPES:
-                family = "story"
-                placement = a.get("run_end_sentence")
-            else:
-                continue  # no inline mark for this family - see StoryMark/WitnessMark's own caller
-            placements.add((placement, family))
-        citation_marks = len(placements)
-        figure_marks = len(t.figures_used)
-        gloss_marks = len(t.glosses)
+        elements = transparency.get("elements")
+        if elements is not None:
+            kinds = [e.get("kind") for e in elements]
+            citation_marks = sum(k in ("quote", "story") for k in kinds)
+            figure_marks = kinds.count("figure")
+            gloss_marks = kinds.count("term")
+        else:
+            citation_marks = _legacy_anchor_marks(transparency.get("anchors") or [])
+            figure_marks = len(t.figures_used)
+            gloss_marks = len(t.glosses)
         sentence_count = len([x for x in re.split(r"(?<=[.!?])\s+", t.text.strip()) if x.strip()])
         metrics.append({
             "seq": t.seq,

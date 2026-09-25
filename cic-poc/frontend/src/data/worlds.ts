@@ -1,80 +1,67 @@
 /**
- * The six seated worlds' front-end-only assets - portrait image and accent
- * color, neither of which the registry carries (records/worlds.yaml has no
- * per-world color; portraits are static files already wired for the old
- * World Selector, reused as-is). Everything else about a world - display
- * name, representative, period, place, thinness statement, doorway description, starter
- * questions - now comes from GET /api/worlds (see hooks/useWorlds.ts),
- * which reads it straight from the compiled package rather than a
- * hand-copied second version of the registry. That second copy is exactly
- * what this file used to be, and exactly what its own comment used to
- * admit: "No /api/worlds endpoint exists yet, so this is baked in at build
- * time... nothing here is invented copy." The endpoint exists now.
+ * The eleven seated worlds' front-end-only assets - portrait image and
+ * accent color, neither of which the registry carries (records/worlds.yaml
+ * has no per-world color; portraits are static files already wired for the
+ * old World Selector, reused as-is). Everything else about a world -
+ * display name, representative, period, place, thinness statement, doorway
+ * description, starter questions - comes from GET /api/worlds (see
+ * hooks/useWorlds.ts), which reads it straight from the compiled package.
  *
- * Accent colors match the ones fixed in the Stage 7.5 design canvas review
- * (2026-08-24): the registry itself names no per-world color, and five of
- * six first-draft picks collided with reserved semantic tokens (lapis,
- * tyrian) or were invented off-palette hues.
+ * Accent colors: the registry itself names no per-world color, so each is
+ * picked here, checked against every other world's own color and the two
+ * reserved semantic tokens (lapis, tyrian) to avoid a collision or an
+ * invented off-palette hue.
  */
 export interface WorldAssets {
   portraitImage: string;
   accentColor: string;
 }
 
-// Display order on the world-list screen, fixed since Stage 7.5 - not the
+// Display order on the world-list screen - not the
 // registry's own file order (which interleaves desert and pahc
 // differently). A world_key GET /api/worlds returns that isn't listed here
 // has no known assets yet and is left off the list rather than shown
-// without a portrait. Eleven formation worlds as of 2026-09-20 (witt added
-// once its own package was admitted; its Representative portrait, Nikolaus,
-// lives in GitHub as nikolaus.jpg, per site-portrait/witt's own now-CLOSED
-// cross_world entry; copied here to match, since this file previously
-// pointed at nikolaus.png, which was never the real file's own extension).
+// without a portrait. witt's Representative portrait, Nikolaus,
+// lives in GitHub as nikolaus.jpg.
 export const WORLD_ORDER = ['alx', 'pahc', 'desert', 'hal', 'syr', 'ijc', 'cappadocian', 'gallic', 'don', 'rzg', 'witt'];
 
-// 2026-09-17 dark-mode change order: every accentColor below was lightened
-// from its original Stage 7.5 light-mode hex (kept in each comment for
-// provenance/hue reasoning) to clear WCAG AA against the app's new dark
-// background (#17130F) in both of its actual uses - as text
-// (.turn__speaker, .arrival__seat-detail) and as a button/swatch fill
-// with dark text on top (.world-card__interview, .arrival__seat-portrait).
-// Script-computed, not eyeballed: every value here measures >=5.3:1 as
-// text on the dark ground and >=5.0:1 for dark surface-text laid on top
-// of it as a fill. Hue and relative saturation preserved from the
-// original pick in each case, only lightness raised.
+// Every accentColor below is a lightened variant of the hue each per-world
+// comment grounds (kept there for provenance/hue reasoning), raised to
+// clear WCAG AA against the app's dark background (#17130F) in both of
+// its actual uses - as text (.turn__speaker, .arrival__seat-detail) and
+// as a button/swatch fill with dark text on top (.world-card__interview,
+// .arrival__seat-portrait). Script-computed, not eyeballed: every value
+// here measures >=5.3:1 as text on the dark ground and >=5.0:1 for dark
+// surface-text laid on top of it as a fill. Hue and relative saturation
+// are preserved from each grounding pick, only lightness raised.
 export const WORLD_ASSETS: Record<string, WorldAssets> = {
-  // was #B45309 (gold-leaf itself - now reserved separately for
-  // --color-representative's own dark-safe value, #DC9A3E, so this needed
-  // to move to stay distinct from it too).
+  // Stays distinct from gold-leaf and from --color-representative's own
+  // reserved dark-safe value (#DC9A3E).
   alx: { portraitImage: '/images/portraits/alexandria.png', accentColor: '#DE670B' },
   pahc: { portraitImage: '/images/portraits/house-churches.png', accentColor: '#439975' },
   desert: { portraitImage: '/images/portraits/desert.png', accentColor: '#9D893B' },
   hal: { portraitImage: '/images/portraits/bethlehem.png', accentColor: '#B77889' },
   syr: { portraitImage: '/images/portraits/syriac.png', accentColor: '#5493A0' },
   ijc: { portraitImage: '/images/portraits/empire.png', accentColor: '#B67D50' },
-  // Seventh world, added 2026-09-01 once Chilo's portrait was locked in.
-  // Light-mode color was #A0522D (a warm sienna/terracotta, echoing the loaf's own baked crust) -
+  // Hue grounded in #A0522D (a warm sienna/terracotta, echoing the loaf's own baked crust) -
   // checked against every color above and the two reserved semantic tokens (--color-tyrian
   // #6B3FA0, the lexicon/transparency apparatus's own pigment; --color-participant/"lapis"
   // #1E40AF) for a distinct hue.
   cappadocian: { portraitImage: '/images/portraits/cappadocian.jpg', accentColor: '#CB7247' },
-  // Eighth world, added 2026-09-13 once Renatus's portrait was locked in.
-  // Light-mode color was #5A6B74 (a cool slate blue-grey, grounded in this world's own repeated
+  // Hue grounded in #5A6B74 (a cool slate blue-grey, this world's own repeated
   // cold-of-Gaul theme) - checked against every color above and the two reserved semantic tokens
   // for a distinct hue and temperature (per gallic_Representative_Portrait_Grounding_Brief.md).
   gallic: { portraitImage: '/images/portraits/gallic.jpg', accentColor: '#798D97' },
-  // Ninth world, re-admitted 2026-09-17. Light-mode color was #6A2525 (a deep oxblood/martyrdom
-  // red, grounded in this world's own martyrs'-graves-read-aloud practice and the Deo laudes
+  // Hue grounded in #6A2525 (a deep oxblood/martyrdom
+  // red, this world's own martyrs'-graves-read-aloud practice and the Deo laudes
   // acclamation) - checked against every color above and the two reserved semantic tokens for a
-  // distinct hue; the nearest neighbor is hal's own muted rose, 16 degrees away in hue, same
-  // margin as the original light-mode pick. Script-computed for this same 2026-09-17 dark-mode
-  // pass (don wasn't live yet when the rest of the fleet went through it): H/S held from the
-  // light-mode value, L raised to 61.8% - the first point clearing both thresholds (>=5.3:1 vs
-  // the dark ground, >=5.07:1 vs --color-surface #1E1913 as dark text on top of it as a fill).
+  // distinct hue; the nearest neighbor is hal's own muted rose, 16 degrees away in hue.
+  // H/S held from the grounding value, L raised to 61.8% - the first point clearing both
+  // thresholds (>=5.3:1 vs the dark ground, >=5.07:1 vs --color-surface #1E1913 as dark
+  // text on top of it as a fill).
   don: { portraitImage: '/images/portraits/donatism.png', accentColor: '#CD6F6F' },
-  // Tenth world, admitted 2026-09-18. No light-mode legacy value - added after the
-  // 2026-09-17 dark-mode-only migration, so computed directly for the dark ground.
-  // Hue/saturation grounded in this world's own repeated austerity/subtraction theme
+  // No light-mode-derived hue for this world; computed directly for the
+  // dark ground. Hue/saturation grounded in this world's own repeated austerity/subtraction theme
   // (the silenced Zurich organ, the plain black gown, worship built around subtraction
   // rather than ornament - Doc_07 SS5's "subtraction, not addition" formation logic) -
   // a restrained, cool charcoal-slate (H=240deg), deliberately the fleet's lowest
@@ -87,12 +74,11 @@ export const WORLD_ASSETS: Record<string, WorldAssets> = {
   // #1E40AF) for hue distance; nearest neighbor is lapis at 14.1deg, low collision risk
   // given the near-fourfold saturation gap between them.
   rzg: { portraitImage: '/images/portraits/theophilus.jpg', accentColor: '#8787A1' },
-  // Eleventh world, admitted 2026-09-20. Reuses the accent color already fixed for this world in
+  // Reuses the accent color already fixed for this world in
   // cic-website/table.html rather than picking a new one - #579C40, a moderate forest green.
-  // Script-computed just now against this file's own two dark-mode thresholds: 5.49:1 vs the dark
+  // Verified against this file's own two dark-mode thresholds: 5.49:1 vs the dark
   // ground #17130F (clears >=5.3:1) and 5.18:1 vs --color-surface #1E1913 as dark text on top of it
-  // as a fill (clears >=5.0:1) - both actually verified here, not assumed from table.html's own
-  // prior use of the same hex value.
+  // as a fill (clears >=5.0:1).
   witt: { portraitImage: '/images/portraits/nikolaus.jpg', accentColor: '#579C40' },
 };
 

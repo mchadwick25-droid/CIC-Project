@@ -80,7 +80,7 @@ modern_contrast: A modern reader may expect a formal hearing with recorded proce
 ---
 Converted at B-4 from Doc_09 witt-S02 (witt_Doc_09_Story_Inventory.md SS2). Quotations verified
 verbatim by this authoring pass directly against cic/texts/luther_table-talk_bell1886.txt, lines
-3432-3465 ("Of Imperial Diets and Assemblies," the Cajetan account). Source Registry R31 (Native,
+3432-3465 ("Of Imperial Diets and Assemblies," the Cajetan account). Source Registry (Native,
 Primary; passages read 3432-3551 per Registry row 31's own verification note).
 
 Register note: close-third-person throughout ("Luther told his students how it had gone"), never

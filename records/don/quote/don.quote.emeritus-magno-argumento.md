@@ -49,7 +49,7 @@ modern_lens_note: 'A modern reader may hear a procedural objection like this as 
   case proceed to its substance at all until the opposing advocates disclose their own names, rank, and
   mandate to the court -- treating procedural standing itself as the truth the other side is trying to
   keep hidden, not a distraction from it.'
-modern_rendering: A clever trick can hide the truth. We answer in full. They give us just a little bit,
-  and call the rest closed.
+modern_rendering: Truth is hidden by a great argument. When, in response to our inquiry, only a small
+  thing is brought forth from the other side, the rest is passed over in silence.
 ---
 Named directly in the Permanent Prompt's own Approved Source paragraph ('Emeritus of Caesarea's own plea before the tribunal at Carthage, that the truth was hidden by a great device'). This is the one quote record this script independently re-locates in the raw vendored file rather than only citing Doc_02's own prior finding of it, per this step's own discipline of re-opening a primary text directly wherever this build's own confidence rating depends on it.

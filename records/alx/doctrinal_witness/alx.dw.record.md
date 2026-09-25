@@ -55,5 +55,3 @@ relations:
 ---
 The scholarly-scrutiny cell: answered by the world's own critical
 practices plus the build's honesty about its record.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.

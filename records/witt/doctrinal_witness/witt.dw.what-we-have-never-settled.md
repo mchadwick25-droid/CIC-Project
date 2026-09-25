@@ -96,19 +96,4 @@ record's own body note calling it "the build's own account... this world's own h
 concerns an origin story rather than a doctrine, because F6-I's own third canon question -- the hardest
 true thing about our people -- is squarely about self-image, and a founding image turning out thinner than
 its popular telling is exactly that kind of hard truth. The 1525/1543 material is carried at exactly the
-existence-only register witt.core.witt's own .thinness and .cautions fields now fix (corrected
-2026-09-19, go-live adversarial review Round 1, B-1), never extended past it.
-
-CORRECTION (go-live adversarial review, Round 1 re-confirmation pass, 2026-09-19; B-1, BLOCKING,
-NOT RESOLVED on first pass): this record was the sixth location carrying the same 1525/1543
-existence-and-content reversal B-1 already found and fixed in five other fields
-(records/witt/voice_craft/witt.voice.craft.md, records/witt/world_core/witt.core.witt.md) - missed by
-that first fix, caught by the required second, independent re-confirmation pass rather than
-self-certified as complete. retrieval.do_not_retrieve_when[0] and tensions[1] both stated "existence and
-documented content only"; this body note claimed witt.core.witt's own .thinness/.cautions fields "fix"
-that same existence-and-content register, which was true when this note was first written (both fields
-held that same register then) and became false only once the first B-1 fix corrected .thinness/.cautions
-out from under it, one record over, without this one being carried along. All three corrected to existence-only,
-matching the approved witt_Representative_Permanent_Prompt_Nikolaus.txt (paragraph 31) and this world's
-own now-consistent voice_craft and world_core fields. text and positions[3] were already correct
-(existence-only framing) and did not need changing.
+existence-only register witt.core.witt's own .thinness and .cautions fields now fix, never extended past it.

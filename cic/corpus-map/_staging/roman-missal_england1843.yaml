@@ -1,0 +1,14 @@
+source_file: roman-missal_england1843.txt
+
+assignments:
+  - work: "The Roman Missal, Translated into the English Language for the Use of the Laity"
+    author: roman-missal
+    locus: "whole volume"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Fills the Step0-flagged gap for a Roman Missal PD English lead.
+      Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
+      source-acquisition pass.

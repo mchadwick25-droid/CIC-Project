@@ -20,6 +20,10 @@ sources:
 text: These things, O Greeks, I Tatian, a disciple of the barbarian philosophy, have composed for you.
   I was born in the land of the Assyrians, having been first instructed in your doctrines, and afterwards
   in those which I now undertake to proclaim.
+modern_rendering: >-
+  I, Tatian, a follower of non-Greek philosophy, have composed these things for you,
+  Greeks. I was born in the land of the Assyrians. I was first instructed in your
+  teachings, and afterward in the ones I now proclaim.
 speaker_or_author: syr.figure.tatian
 license: verbatim
 modern_lens_note: >-

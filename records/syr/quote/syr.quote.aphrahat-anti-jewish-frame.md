@@ -18,6 +18,9 @@ sources:
   locus: XVII.1
   license: public-domain
 text: a reply against the Jews, who blaspheme the people gathered from among the Gentiles
+modern_rendering: >-
+  This is a reply against the Jews, who blaspheme the people gathered from
+  among the Gentiles.
 speaker_or_author: syr.figure.aphrahat
 license: do-not-voice
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'
@@ -37,7 +40,6 @@ voice. Any live turn quoting this text is a violation the quote index can
 catch; that is this record's whole purpose (spec SS4.1: do-not-voice quotes
 ship so a violation is recognizable). Verified verbatim (Dem XVII.1).
 
-CELL ASSIGNED 2026-08-27; the record had none and sat outside coverage.
 F6-T is the outsiders cell - whether this world held that those outside it
 were lost, and whether it was too narrow. A stated frame of "a reply against
 the Jews" is this world's own answer to that question and should be reachable

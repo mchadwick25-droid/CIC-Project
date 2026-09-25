@@ -25,6 +25,13 @@ text: >-
   repressed; to the second Ecclesiastes corresponds, as there everything which is done under the sun
   is declared to be vanity; to the third the Song of Songs, in which the soul soaring above all things
   visible, is actually joined to the word of God by the contemplation of heavenly things.
+modern_rendering: >-
+  The three books of Solomon correspond well to these three kinds of renunciation.
+  Proverbs matches the first renunciation, because in it, desires for carnal things and
+  earthly sins are held in check. Ecclesiastes matches the second, because in it,
+  everything done under the sun is declared to be vanity. The Song of Songs matches the
+  third. In it, the soul rises above everything visible and is joined to the Word of God
+  through the contemplation of heavenly things.
 speaker_or_author: Abbot Paphnutius of Scetis, as Cassian records him
 license: verbatim
 modern_lens_note: >-

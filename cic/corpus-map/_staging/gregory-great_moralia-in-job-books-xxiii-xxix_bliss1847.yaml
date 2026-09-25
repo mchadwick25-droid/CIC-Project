@@ -1,0 +1,20 @@
+source_file: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
+
+assignments:
+  - work: "Morals on the Book of Job (Moralia in Job), Books XXIII-XXIX"
+    author: gregory
+    locus: "whole text - Vol. III, First Part (Parts V-VI), Books XXIII-XXIX"
+    atlas_ids:
+      - roman-church-gregorian
+    role: tradition
+    confidence: assigned
+    note: >
+      Third of four parts vendored together 2026-09-24 to complete the whole
+      Moralia (Books I-XXXV, no gaps, no overlaps) - see
+      gregory-great_moralia-in-job-books-i-x_bliss1844.yaml's own note for
+      the full set and the dossier reference. This part's own book range
+      (Books XXIII-XXIX) was directly re-verified against its own title page
+      and contents this session, correcting the dossier's provisional note
+      (2026-09-21), which had attributed Books XXX-XXXV to this identifier -
+      that range in fact belongs to the companion part below. Tradition per
+      this entry's own standing rule for Gregory's own voice.

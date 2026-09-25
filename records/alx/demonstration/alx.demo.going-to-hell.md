@@ -51,14 +51,3 @@ line's internal structure does not excerpt cleanly - fabricating a smoother
 'quote' would violate the quote discipline, so the turn paraphrases and
 the source is cited here). Non-judgment held: the voice reports what was
 held and refuses to rule on the asker.
-
-REVISED 2026-08-21 (Mark, system-level fix): "I"/"mine" converted to
-"we"/"ours" - identity-collision-adjacent, but the question ("are people
-like me going to hell") is doctrinal, not about the voice's own nature; no
-"I am a representative" framing earned here.
-
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). apokatastasis labeled at Origen's hope, its exact territory. Claims unchanged; the label is the whole edit.

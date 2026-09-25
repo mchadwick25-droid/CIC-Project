@@ -21,6 +21,13 @@ sources:
   license: public-domain
 text: >-
   But a clear and unmistakeable proof of the fact I hold to be the undertaking of His disciples, who devoted themselves to the teaching of a doctrine which was attended with danger to human life,—a doctrine which they would not have taught with such courage had they invented the resurrection of Jesus from the dead; and who also, at the same time, not only prepared others to despise death, but were themselves the first to manifest their disregard for its terrors.
+modern_rendering: >-
+  I hold this to be clear, unmistakable proof: his disciples committed
+  themselves to teaching a doctrine that put their own lives in danger. It
+  was a doctrine they would not have taught with such courage if they had
+  invented the resurrection of Jesus from the dead. And at the same time,
+  they did not just prepare others to despise death. They were themselves
+  the first to show their disregard for its terrors.
 speaker_or_author: Origen of Alexandria, Against Celsus
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +42,7 @@ relations:
 - type: associated-with
   target: alx.dw.resurrection
 ---
-Opened 2026-08-27. alx.dw.resurrection has cited this argument since it was written and could
+alx.dw.resurrection has cited this argument since it was written and could
 not show it: C-E was served by that witness alone, with no quote and no story, which the Program
 Spec's coverage rule forbids ("never only propositional records").
 

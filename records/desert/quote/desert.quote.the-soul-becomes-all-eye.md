@@ -17,6 +17,11 @@ sources:
   locus: "Homily I, on the vision of Ezekiel, in Mason's English"
   license: public-domain
 text: "For the soul that is privileged to be in communion with the Spirit of His light, and is irradiated by the beauty of the unspeakable glory of Him who has prepared her to be a seat and a dwelling for Himself, becomes all light, all face, all eye; and there is no part of her that is not full of the spiritual eyes of light."
+modern_rendering: >-
+  The soul has the privilege of communion with the Spirit of his light. Lit up by the
+  beauty of his unspeakable glory - for he has prepared her to be his own seat and
+  dwelling - she becomes all light, all face, all eye. There is no part of her that is
+  not full of spiritual eyes of light.
 speaker_or_author: "the Macarian Homilies, transmitted under the name of Macarius the Egyptian; author unknown"
 license: verbatim
 modern_lens_note: "'All eye' is not a figure for insight or cleverness. In the allegory it answers the eyes of Ezekiel's living creatures directly: the soul becomes the chariot God rides. The gendered 'her' is the Greek psyche, grammatically feminine, carried through by Mason - not a claim about women."

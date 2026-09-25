@@ -67,10 +67,11 @@ relations:
 - type: associated-with
   target: don.dw.what-we-never-settled
 modern_rendering: >-
-  The waves of truth have thrown these men on the rocks and broken them.
-  Like the Egyptians in the sea, their bodies lie all along the shore.
-  Death is not the end of what they suffer. The waters that took their
-  lives will not even give them a grave.
+  Certain men's shipwrecked members have been dashed by the waves of
+  truth onto the sharp rocks. After the fashion of the Egyptians, the
+  shores are covered with the bodies of the dying. Their punishment is
+  intensified in death itself. Since the avenging waters have wrung
+  their life from them, they fail to find so much as burial.
 ---
 Verified verbatim against the vendored
 `npnf104_augustine-anti-manichaean-anti-donatist.xml`, in the passage

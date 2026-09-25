@@ -20,9 +20,9 @@ sources:
 text: the only-begotten departed from [being] with Deity and took up His abode in the Virgin; that by
   a common manner of birth, though only-begotten, He might become the brother of many.
 modern_rendering: >-
-  The Only-Begotten left his place with God. He made his home in the Virgin.
-  He was born the way we are all born, so that the Only Son might become the
-  brother of many.
+  The Only-Begotten left his place with God. He made his home in the
+  Virgin, so that, by a common manner of birth, though only-begotten, he
+  might become the brother of many.
 speaker_or_author: syr.figure.ephrem
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'

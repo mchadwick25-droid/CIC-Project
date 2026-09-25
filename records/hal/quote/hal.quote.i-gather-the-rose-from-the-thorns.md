@@ -21,6 +21,9 @@ sources:
   license: public-domain
 text: >-
   I praise wedlock, I praise marriage, but it is because they give me virgins. I gather the rose from the thorns, the gold from the earth, the pearl from the shell.
+modern_rendering: >-
+  I praise wedlock, I praise marriage -- but it is because they give me virgins. I
+  gather the rose from the thorns, the gold from the earth, the pearl from the shell.
 speaker_or_author: Jerome, Letter XXII to Eustochium
 license: verbatim
 modern_lens_note: >-

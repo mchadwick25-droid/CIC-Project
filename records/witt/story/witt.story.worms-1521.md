@@ -19,8 +19,7 @@ confidence:
     second, differently-worded "tile roofs" rendering of the journey saying, both reach this library only
     as quoted together, at one remove, inside Bacon's Introduction to the hymns, attributed there to Carlyle's
     transmission - not this library's own Table Talk text. Any use of either Carlyle-transmitted phrase
-    must carry that provenance and disclose that its verbatim authenticity is contested in the wider scholarship
-    (Doc_09 witt-S03; Source Registry R69).
+    must carry that provenance and disclose that its verbatim authenticity is contested in the wider scholarship.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: '"Of Luther''s Journey and Proceedings at the Imperial Diet at Worms, Anno 1520" [Table Talk''s
@@ -117,12 +116,12 @@ modern_contrast: A modern reader almost certainly knows Worms through one senten
   but only one of them is this library's own directly attested wording from Luther's own mouth.
 ---
 Converted at B-4 from Doc_09 witt-S03 (witt_Doc_09_Story_Inventory.md SS2), including that document's
-own Round 1-corrected handling of the "tiles"/"Here I stand" quotation question - carried forward
+own handling of the "tiles"/"Here I stand" quotation question - carried forward
 exactly, not re-litigated. Quotations verified verbatim by this authoring pass directly against
 cic/texts/luther_table-talk_bell1886.txt, lines 3495-3593 ("Of Luther's Journey and Proceedings at the
-Imperial Diet at Worms"). Source Registry R31 (Primary); R69 (the "Here I stand" caution, Secondary, as
+Imperial Diet at Worms"). Source Registry (Primary); (the "Here I stand" caution, Secondary, as
 embedded quotation only, per Registry row 69's own note: "Not licensed for the 'Here I stand' sentence"
-standing at Boundary-Status level via R94).
+standing at Boundary-Status level).
 
 `cic/texts/luther_table-talk_bell1886.txt`
 lines 3563-3593 hold a substantial, quotable, first-person exchange - "God's Word is not my word... I

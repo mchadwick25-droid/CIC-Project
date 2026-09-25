@@ -17,6 +17,35 @@ def _real_repository(world_key: str) -> dict[str, dict]:
     return {r["id"]: r for r in records}
 
 
+def test_resolves_the_real_fleet_modern_term_carrying_its_own_modern_sense():
+    """A modern_term card carries modern_sense and distinguishing_claim as
+    real, sourced content, the same way a quote's own modern_rendering
+    does. _fleet.modern.trinity is the one real modern_term record in the
+    fleet."""
+    from engine.m1.loader import load_fleet_records
+
+    fleet = load_fleet_records()
+    term_id = "_fleet.modern.trinity"
+    assert term_id in fleet, "fixture assumes the fleet's own modern_term record"
+    card = resolve_source_card(term_id, fleet)
+    assert card["record_type"] == "modern_term"
+    assert card["label"] == ", ".join(fleet[term_id]["display_terms"])
+    assert card["modern_sense"] == fleet[term_id]["modern_sense"]
+    assert card["distinguishing_claim"] == fleet[term_id]["distinguishing_claim"]
+    source_ids = {s["source_id"] for s in card["sources"]}
+    assert source_ids == {"_fleet.source.theophilus-to-autolycus", "_fleet.source.tertullian-against-praxeas"}
+
+
+def test_a_modern_term_with_no_display_terms_resolves_to_no_card_not_a_bare_id():
+    """_label's own generic fallback to the raw record id exists because a
+    raw id is still a real, if unlabeled, reference for every other
+    record_type - but a modern_term's own id is internal build vocabulary
+    (e.g. "_fleet.modern.trinity") no participant should ever see. No
+    display_terms means no card at all, not one carrying the id."""
+    repo = {"_fleet.modern.x": {"id": "_fleet.modern.x", "record_type": "modern_term", "modern_sense": "a plain sense"}}
+    assert resolve_source_card("_fleet.modern.x", repo) is None
+
+
 def test_resolves_a_real_term_to_its_real_underlying_source():
     """alx.term.allegoria cites Origen's Philocalia, Clement's
     Stromateis, and Eusebius's Historia Ecclesiastica - real,
@@ -45,12 +74,10 @@ def test_a_record_with_no_sources_resolves_to_an_empty_list_not_a_guess():
 
 
 def test_a_sources_entry_with_no_source_id_and_no_locus_is_dropped_not_shipped_blank():
-    """Mark's own staging report, 2026-09-23: a card labeled "General
-    references (1)" printed five empty bullet items - "* " with nothing
-    after. The renderer's own primary field is `work ?? source_id` - as
-    long as an entry carries a real source_id, that id is the fallback
-    text, never blank. The only shape that leaves nothing to print is an
-    entry with no source_id at all (missing or blanked, upstream of this
+    """The renderer's own primary field is `work ?? source_id` - as long
+    as an entry carries a real source_id, that id is the fallback text,
+    never blank. The only shape that leaves nothing to print is an entry
+    with no source_id at all (missing or blanked, upstream of this
     function, in the citing record's own sources[] list) and no locus of
     its own either - author/work/locus/rights_status all None. Dropped
     here rather than shipped as a blank bullet."""
@@ -169,6 +196,42 @@ def test_gravity_and_force_labels_strip_the_build_taxonomy_bracket_not_the_name(
     repo = _real_repository("alx")
     card = resolve_source_card("alx.gravity.divine-pedagogy", repo)
     assert card["label"] == "Divine Pedagogy"
+
+
+def test_a_leading_build_taxonomy_tag_is_stripped_and_the_names_own_parens_survive():
+    """Two rzg gravity records carry the tag first, not last: the name
+    reads better that way. Both also carry real, unrelated parentheses
+    inside the name itself, which must not be touched."""
+    repo = _real_repository("rzg")
+
+    card = resolve_source_card("rzg.gravity.council-led-authority-vs-consistorial-independence", repo)
+    assert card["label"] == (
+        "Council-Led Civic Authority (Zurich) vs. Consistorial Independence from Civil Control (Geneva)"
+    )
+    assert "TENSIONAL" not in card["label"]
+
+    card = resolve_source_card("rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus", repo)
+    assert card["label"] == (
+        "Zwingli's Own 'Remembrance' Reading of the Supper vs. the Negotiated Spiritual-Presence Consensus"
+    )
+    assert "TENSIONAL" not in card["label"]
+
+
+def test_a_bracket_that_is_not_build_taxonomy_shaped_is_left_alone():
+    """The strip only fires on the fleet's own closed taxonomy vocabulary
+    (PRIMARY/SUPPORTING/TENSIONAL, or a force code like 1A/2B/3A). A name
+    that happens to open or close with an unrelated bracket - invented
+    here, since no real record has this shape - is not a build-taxonomy
+    tag and must survive untouched."""
+    repo = {
+        "fix.gravity.synthetic": {
+            "id": "fix.gravity.synthetic",
+            "record_type": "gravity",
+            "name": "[Cited from a 1611 pamphlet] A Real Name (with real parens) [not a tag]",
+        }
+    }
+    card = resolve_source_card("fix.gravity.synthetic", repo)
+    assert card["label"] == "[Cited from a 1611 pamphlet] A Real Name (with real parens) [not a tag]"
 
 
 def test_contested_claim_doctrinal_witness_and_honest_limit_get_real_labels_not_raw_ids():

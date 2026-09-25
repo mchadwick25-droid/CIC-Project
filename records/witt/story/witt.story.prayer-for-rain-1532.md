@@ -16,8 +16,7 @@ confidence:
     the precise sequence and timing of the rain said to have followed. The account is dated with unusual
     precision for a Table Talk entry - 9 June 1532, stated twice within the passage itself - which speaks
     to the tradition's own care in preserving it, but does not convert a collected reminiscence, reaching
-    this library through Table Talk's own compilers, into a contemporaneous document of the day itself
-    (Doc_09 witt-S12; Source Registry R31).
+    this library through Table Talk's own compilers, into a contemporaneous document of the day itself.
 sources:
 - source_id: witt.source.luther-selections-from-the-table-talk
   locus: '"Of Luther''s Prayer for a gracious Rain," TT lines 3154-3192: the 1532 drought, "Luther called

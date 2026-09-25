@@ -27,6 +27,7 @@ relations:
 - type: associated-with
   target: alx.term.theosis
 text: For He was made man that we might be made God...
+modern_rendering: For he was made man, so that we might be made God...
 speaker_or_author: alx.figure.athanasius
 license: verbatim
 modern_lens_note: >
@@ -39,16 +40,15 @@ modern_lens_note: >
 De incarnatione 54 - the charter line of the world's whole account of
 salvation as theosis (the Greek theopoiethomen stands in the edition's
 own note at the same locus). The single highest-leverage quotable the
-corpus scrub located; re-verified verbatim 2026-08-21. Serves both who-
-Jesus-was (C-I) and the was-Jesus-God translational cell (C-T): the
+corpus scrub located. Serves both who-Jesus-was (C-I) and the
+was-Jesus-God translational cell (C-T): the
 exchange only makes sense if the Word is truly God.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after
-"made God" was invented - the source's sentence continues ("...made
-God ; and He manifested Himself by a body that we might receive the
-idea of the unseen Father; and He endured the insolence of men that we
-might inherit immortality"). Marked with a trailing ellipsis rather than
-restored: this is the record's designed charter-line quotable, and the
-dropped clauses are parallel elaborations (receiving the Father, gaining
-immortality), not content that changes or contradicts the "made God"
-claim this record and its modern_lens_note are built on.
+The text ends with an ellipsis after "made God" rather than continuing
+the source's sentence ("...made God ; and He manifested Himself by a
+body that we might receive the idea of the unseen Father; and He
+endured the insolence of men that we might inherit immortality"): this
+is the record's designed charter-line quotable, and the dropped clauses
+are parallel elaborations (receiving the Father, gaining immortality),
+not content that changes or contradicts the "made God" claim this
+record and its modern_lens_note are built on.

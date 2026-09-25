@@ -1,0 +1,17 @@
+source_file: ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt
+
+assignments:
+  - work: "Letters and Instructions of St. Ignatius Loyola, Vol. I, 1524-1547"
+    author: ignatius-loyola
+    locus: "whole text, a selection of 24 letters"
+    atlas_ids:
+      - the-society-of-jesus
+    role: tradition
+    confidence: assigned
+    note: >
+      A selection of Ignatius's own letters (1524-1547), trans. D.F.
+      O'Leary, ed. A. Goodier, S.J. (1914) - not the full ~7,000-letter
+      corpus. Vendored 2026-09-24 as part of a pre-Doc_02
+      source-acquisition pass for this candidate. A companion Vol. 2 was
+      searched for and not conclusively found - flagged for a future
+      pass.

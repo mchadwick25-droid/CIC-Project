@@ -1,0 +1,18 @@
+source_file: hus_de-ecclesia-the-church_schaff1915.txt
+
+assignments:
+  - work: "De Ecclesia. The Church"
+    author: hus
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      Hus's central ecclesiological treatise, trans. David S. Schaff
+      (1915) - the work whose condemnation at the Council of Constance
+      led directly to his execution in 1415, and the doctrinal spine of
+      the movement this world is built around. Vendored 2026-09-25 as
+      part of a fresh pre-Doc_02 source-acquisition pass for this
+      candidate, which had no prior Source Readiness Dossier or
+      corpus-map presence.

@@ -16,7 +16,7 @@ import { toTurn, type ConversationTurn } from './useConversation';
 function turnsFromAdvance(advance: TableMessageResponse): ConversationTurn[] {
   const appended: ConversationTurn[] = [];
   for (const f of advance.facilitator as FacilitatorTurn[]) {
-    appended.push({ speaker: 'facilitator', text: f.text, kind: f.kind });
+    appended.push({ speaker: 'facilitator', text: f.text, kind: f.kind, modernTerms: f.modern_terms });
   }
   const v = advance.voice as VoiceTurn | null;
   if (v) {

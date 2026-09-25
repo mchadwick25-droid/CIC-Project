@@ -66,6 +66,6 @@ quick_meaning: An inherited condition, not one bad act. No fear, no trust in God
   it.
 distortion_risk: high
 ---
-Built from Doc_06 §5 entry 2.10 (sin / original sin, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: Melanchthon-only as read; the founder's own texts use 'sin' constantly without a single defining locus found in what was read -- a coverage gap. Source Registry rows cited: R26, R37. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
+Built from Doc_06 §5 entry 2.10 (sin / original sin, Tier 2 ↓ from Doc_03's estimate of 1). Register emic. Doc_06 tags: [SC][DR][TC][RT]. Author Gravity: Melanchthon-only as read; the founder's own texts use 'sin' constantly without a single defining locus found in what was read -- a coverage gap. Quotations carried from Doc_06's own script-verified base (§10), not independently re-opened against the vendored files by this authoring pass.
 
 Relations above are this batch's own reading of Doc_06's own Related Terms line for this entry, closed for structural reciprocity by this script's close_reciprocity() (see module docstring, disclosed-scope item 1) -- not Doc_06's own §7 candidate-return-link reconciliation pass, which was not separately re-run here.

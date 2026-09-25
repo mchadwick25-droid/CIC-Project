@@ -44,31 +44,36 @@ relations:
   target: pahc.story.one-eucharist-under-bishop
 name: "Liturgical Practice (Eucharist) as Site of Variation and Convergence [PRIMARY]"
 classification: primary
-description: "Giving thanks over bread and cup - it forms this world more than anything else its
+description: "Giving thanks over bread and cup. It forms this world more than anything else its
   communities do, and its order genuinely varies from house to house. The table is what is constant,
-  not any one shape of it. SIX-TEST SUMMARY: Repetition passes strongly - three independent voices,
-  cross-regional (the Didache, Ignatius, Justin). Dependency passes: communal boundary-marking depends
-  on it (Ignatius's one-eucharist instruction is simultaneously an authority claim and a boundary
-  claim); basic gathering structure depends on it. Formation passes strongly - the central recurring
-  communal ritual. Explanatory power passes strongly - explains real variation in the evidence itself
-  (cup-before-bread vs. institution-narrative forms) and why this world's own sources needed an explicit
-  diversity-first calibration in the first place. Persistence passes across all three regions.
-  Interaction: two of five candidates in demonstrated relationship (authority, boundary-drawing, both
-  inferential - each traced to Ignatius's single 'one eucharist' passage doing double duty as both an
-  authority claim and a boundary claim) - thinner than the network gravity's row, but classification
-  rests on the six-test/Cross-Check results, not matrix connectivity. AUTHOR GRAVITY RISK (Doc_04's own
-  generation-stage rating): Moderate - three independent voices reduce single-source risk, though
-  Justin's fuller description carries its own well-flagged over-generalization risk (the Bradshaw-versus-
-  Ferguson representativeness question this whole build carries: a fuller, more explained account must
-  not be read as more representative simply for being more explained). CONFIDENCE/GRAVITY CROSS-CHECK: the Documented content (a
-  shared eucharist ritual independently attested, in related but non-identical forms, by three
-  geographically-separated voices across the whole window) is what earns Dependency/Explanatory/
-  Formation - not the Contested which-form-is-representative layer, unlike authority and state-pressure.
-  One acknowledged soft spot: the Dependency link to authority (Ignatius's bishop-presided eucharist as
-  an authority-consolidation move) imports one small interpretive step - real, stated, and not disturbing
-  the classification, which rests on the broader existence/variation claim. CROSS-STRAND STATUS:
-  confirmed - independently attested in Strand A (Ignatius) and Strand B (Justin), plus the Didache's
-  separate single-community witness."
+  not any one shape of it.
+
+  Three independent voices from different regions describe it: the Didache, Ignatius, and Justin. Much
+  depends on it. It marks who belongs, and the basic shape of gathering depends on it. Ignatius's call
+  for one eucharist is at once a claim about authority and a claim about boundaries. It is the central
+  ritual the community repeats together. It also explains real variation in the sources themselves.
+  Some give the cup before the bread; others follow the words of the Last Supper. That variation is why
+  this world's sources must be read with their diversity in mind first. The practice appears in all
+  three regions.
+
+  It has fewer links to other patterns than the letter network does. It connects with leadership and
+  with boundary-drawing. Both links come from Ignatius's single passage on 'one eucharist,' which
+  serves as both an authority claim and a boundary claim. But the weight given to this practice rests
+  on the strength of its own evidence, not on how many links it has.
+
+  The risk of leaning on one writer is moderate. Three independent voices lower it. But Justin gives
+  the fullest description, and that brings its own danger. A fuller, better-explained account must not
+  be read as more typical just because it explains more. This is the question of how typical such
+  accounts were, on which Bradshaw and Ferguson take different sides.
+
+  What gives this practice its weight is the documented core. Three writers, far apart from each other
+  and spread across the whole period, independently describe a shared thanksgiving meal in related but
+  not identical forms. Its weight does not rest on the disputed question of which form was typical. In
+  that, it differs from leadership and state pressure. One soft spot is admitted. Reading Ignatius's
+  bishop-led eucharist as a move to secure authority takes one small interpretive step. That step is
+  real and stated. It does not change the conclusion, which rests on the broader fact that the practice
+  existed and varied. It is confirmed independently in Antioch and Asia Minor (Ignatius) and in Rome
+  (Justin). The Didache adds a separate witness from a single community."
 manifestations:
 - "the Didache's cup-before-bread thanksgiving, with no institution narrative at all ('We thank thee, our Father, for the holy vine of David Thy servant')"
 - "Ignatius's instruction that only the bishop-validated eucharist is proper (Smyrnaeans 8; Philadelphians 4's 'one eucharist')"

@@ -9,174 +9,92 @@ Program-Spec §4.2: *"A cell is covered when the records serving it include,
 wherever the sources hold them, the stories that carry the answer and the
 licensed quotes that voice it — never only propositional records."*
 
-Nothing measured that until 2026-08-27. On that day 69 cells across the six
-worlds were served by propositional records alone — a witness or a term
-asserting what the world held, with no licensed quote to say it in the
-world's own words. **All 69 are now closed.** The report is at zero, which
-makes this a standing check rather than a work-list: re-run it after any
-change to records, and anything it prints is new.
+The report is at zero, which makes this a standing check rather than a
+work-list: re-run it after any change to records, and anything it prints is
+new.
 
-**Nothing was ruled UNQUOTABLE in the end.** That verdict exists for a cell
-with no vendored text behind it at all, and no cell reached it — every one
-of the 69 had a voice somewhere in the corpus, though for eleven of them
-nobody could say so without reading first.
+**UNQUOTABLE** exists for a cell with no vendored text behind it at all —
+served by scholarship or consult-only editions only. It is not a failure: it
+means the propositional record is the honest answer available, and nothing
+changes until a text is acquired. A limit that cites a specific locus does
+not qualify for UNQUOTABLE, since a limit can be voiced by the passage it
+points at.
 
-**THE RULING INSTRUMENT WAS WRONG TWICE, AND THE SECOND TIME IS THE
-INSTRUCTIVE ONE.** The first pass called 20 cells NEEDS READING; eight were
-openable, because `_SPECIFIC` wanted a keyword before the number (`ch. 4`,
-`Book II`) and this corpus mostly cites bare ones. It was widened with the
-forms that had been missed — and then missed a fresh set: bare Roman
-numerals (`XXII`, `I–VII`), letter citations (`Ep. XXVIII`, `Epp. 135–139`),
-section marks, pages, lemmas (`s.v. Papa bar Aggai`), structural positions
-(`praef.`, `salutation`). Three more cells were openable all along, one of
-them carrying `Ep. XXVIII (npnf212 line 5099)` — a letter AND a line number,
-as precise as anything in the corpus, read as vague.
-
-**Enumerating specificity cannot work, and that is the finding.** Citation
-grammar is open-ended: every edition brings its own divisions, so the list
-is never finished and each widening only moves the boundary. What can be
-tested is whether the locus points at a PLACE at all, and a place is named
-with a *locator token* — a number, a Roman numeral, a section mark, a page,
-a lemma, a named structural position. Which grammar those tokens sit in is
-the edition's business, not the pattern's. So `cell_voice.py` now runs one
-rule: **specific when it carries a locator token, vague when it carries
-none.** The old vocabulary falls out of it instead of being listed —
-"passim", "the whole collection", "the exile-years letters", "the polemic's
-own harshness" all name bodies of text, and none of them contains a locator.
-
-Two cleverer versions were tried and rejected; the code records why so they
-are not tried again. Listing vague head-nouns (`the … corpus/letters/
-tradition`) fires on the descriptive glosses this corpus attaches to precise
-citations — `Canon XXVIII (the claim contested in the conciliar record)` is
-not vague. Stripping those glosses first fixes that and breaks something
-worse, because parentheses here also carry real loci: `the withdrawal
-narrative (§§3–14)`, `the Ephraim chapter (file line 471)`. Measured over
-all 1,242 loci in the corpus, the one-rule version misrules **one**; each
-of the cleverer ones misruled thirty or more.
-
-**It also reopened four cells that had been reported closed, and all four
-were real work.** Under the old pattern, five cells were LIMIT-ONLY — served
-by an honest_limit alone, and a limit owes no quote. Four of the five turn
-out to cite a specific locus (Clement *Paidagogos* II–III; Jerome *Ep.* 137;
-Aphrahat VI; Ambrose *Ep.* LI), so they ruled OPENABLE on the same precedent
-as ijc F6-E: a limit can be voiced by the passage it points at. Each of the
-four had a quote waiting exactly where its limit was pointing. **A limit
-that cites a locus is not a closed cell — it is an unworked one.**
-
-**The fifth was closed by a stale claim, not by a real absence.** desert
-F2-T's limit carried, as its only source entry, the words *"no vendored
-edition exists for this collection"* — true when written, false from the day
-the Budge *Paradise* was vendored hours earlier the same day. The collection
-answers the cell in the ordinary way, at saying 610. The locus is corrected
-in place and the limit itself stands, because it makes a narrower claim
-(no check for engagement with *difficult* passages as such) that the new
-quote does not touch. **A record's own account of what is available can go
-out of date the moment a file is vendored, and nothing else in the pipeline
-notices.**
-
-**Four loci were corrected rather than copied.** Ambrose's ranking of
-virginity, widowhood and marriage stands at *Concerning Widows* IV.40–41,
-not I.1–2 as the record cited; Clement's free-will argument is put most
-compactly in the chapter headed "The Reason and End of Divine Punishments";
-Justin's "Moses is more ancient" sentence stands at *1 Apol.* 44, not the
-59–60 its witness named; and the baptism material `syr.dw.born-again-endtimes`
-cites at Aphrahat *Demonstration* VI is not in VI (Of Monks) at all — it
-stands at VII.20, in this world's *other* vendored Aphrahat file. In the
-first three cases the argument does run where the record said and only the
-sentence sits elsewhere; the fourth is a wrong work.
+**The check tests one thing: does the locus point at a PLACE.** Citation
+grammar is open-ended — every edition brings its own divisions, so listing
+specific citation forms can never be a finished list, and each widening only
+moves the boundary. A place is named with a *locator token* — a number, a
+Roman numeral, a section mark, a page, a lemma, a named structural position.
+Which grammar those tokens sit in is the edition's business, not the
+pattern's: `cell_voice.py` runs one rule, **specific when it carries a
+locator token, vague when it carries none.** "Passim", "the whole
+collection", "the exile-years letters", "the polemic's own harshness" all
+name bodies of text, and none of them contains a locator — the vocabulary
+falls out of the rule instead of being listed. The rule has to hold against
+descriptive glosses that also carry real loci in parentheses — `Canon XXVIII
+(the claim contested in the conciliar record)` is not vague; `the withdrawal
+narrative (§§3–14)` and `the Ephraim chapter (file line 471)` carry a locus
+*inside* the parenthetical. Stripping glosses before testing breaks on
+exactly those cases; testing the whole string for a locator token does not.
 
 ## The four rulings
 
-The discriminator is empirical, not a guess, and it has now been tested at
-both ends. A record citing a **named locus in a vendored file** had a
-quotable sentence sitting at that locus in **all 35** cells ruled openable —
-Justin *1 Apol.* 67, 1 Clement 42, Origen *Contra Celsum* II.56, Jerome
-*Ep.* XXII.30, Aphrahat *Demonstration* I, Ephrem's *Pearl* I, and the rest.
+The discriminator is empirical: a record citing a **named locus in a
+vendored file** has quotable text sitting at that locus consistently across
+the corpus — Justin *1 Apol.* 67, 1 Clement 42, Origen *Contra Celsum*
+II.56, Jerome *Ep.* XXII.30, Aphrahat *Demonstration* I, Ephrem's *Pearl* I,
+and the rest.
 
-NEEDS READING held up too, but differently: all 11 of those cells had a
-voice waiting, so the ruling never meant "probably nothing here" — it meant
-"nobody can say without looking." Three of the 11 were mis-ruled and
-openable all along. The other eight were genuinely vague and reading them
-paid: `alx.dw.empire` cited "the exile-years letters" and what was actually
-there was the years the letters were *not written*; `syr.dw.remains` cited
-"the archive-derived civic record" and that turned out to be a single dated
-entry naming the four officials who filed it. **A vague locus is often a
-record that has not yet noticed how good its own evidence is.**
+NEEDS READING means something different from a vague ruling: a cell held
+there has a voice waiting, but nobody can say without looking — not
+"probably nothing here." A vague locus is often a record that has not yet
+noticed how good its own evidence is: e.g. a witness citing "the exile-years
+letters" can turn out to mean the years the letters were *not written*; "the
+archive-derived civic record" can turn out to be a single dated entry naming
+the officials who filed it.
 
 | Ruling | Meaning | Whose job |
 |---|---|---|
 | **OPENABLE** | a serving record names a specific locus in a vendored file | corpus work — go and read it |
 | **NEEDS READING** | vendored, but the locus carries no locator token | someone must read before anyone can rule |
-| **UNQUOTABLE** | nothing vendored stands behind it — scholarship or consult-only editions only | a **sourcing** question for a human, not a defect. *No cell ever reached this verdict.* |
+| **UNQUOTABLE** | nothing vendored stands behind it — scholarship or consult-only editions only | a **sourcing** question for a human, not a defect |
 | **LIMIT-ONLY** | served by an honest_limit alone, *and* that limit cites no specific locus | closed. A limit names what is missing; it owes no quote |
 
 A limit that *does* cite a specific locus rules OPENABLE instead, because a
-limit can be voiced by the passage it points at — that is how ijc F6-E and
-desert F2-E were closed, and then all four of the remaining LIMIT-ONLY
-cells. LIMIT-ONLY is for a limit with nowhere to point, and in the end no
-cell stayed there.
-
-**A cell at UNQUOTABLE is not a failure.** It means the propositional record
-is the honest answer available, and nothing changes until a text is
-acquired. Those are the rows worth reading as a fetch list.
-
-## Verified by sample, not asserted
-
-Three OPENABLE rulings were checked by actually reading the cited locus:
-pahc F6-P at Pliny 10.96 (the two *ministrae* examined under torture), hal
-F3-P at Jerome *Ep.* XXII.28 (clergy corruption named from inside his own
-order), and ijc F4-T at *Vita Constantini* IV.61 (Constantine deferring
-baptism to his deathbed, with the editor's own note that he only then became
-a catechumen). All three had quotable text exactly where the ruling said.
+limit can be voiced by the passage it points at. LIMIT-ONLY is for a limit
+with nowhere to point.
 
 ## Discipline for working this list
 
-1. **Open from the locus the record already cites.** All 35 came from a
-   locus its own witness had been citing and could not show. If you find
-   yourself hunting for a better passage, the cell may really be NEEDS
-   READING — and if the probe fails, go to the volume's table of contents
-   before concluding the passage is not there.
+1. **Open from the locus the record already cites.** If you find yourself
+   hunting for a better passage, the cell may really be NEEDS READING — and
+   if the probe fails, go to the volume's table of contents before
+   concluding the passage is not there.
 2. **Keep the qualification inside the sentence.** Origen says "I hold to
    be"; trimming that turns an argument into an assertion. Ephrem's pearl is
    turned on the palm before the conclusion; cutting to the memorable phrase
    loses the seeing that produced it.
-3. **A flaw in the quote can be the reason to keep it.** 1 Clement 42 was
-   opened partly because the ANF editor flags that Clement altered the
-   Isaiah he quotes — a world that claims to work from scripture should be
-   shown doing it, not asserted to have done it.
-4. **Fix cells before hints.** Six desert quotes had been filed under daily
-   life when they answered practice; that was worth more than any hint.
+3. **A flaw in the quote can be the reason to keep it.** 1 Clement 42 is
+   worth opening partly because the ANF editor flags that Clement altered
+   the Isaiah he quotes — a world that claims to work from scripture should
+   be shown doing it, not asserted to have done it.
+4. **Fix cells before hints.** A quote's placement under the wrong hint
+   category is worth less than the cell it actually answers.
 5. **On a vague locus, read for what the record does not know it has.** The
-   eight genuinely-vague cells all yielded, and in most of them the passage
-   that answered the cell was not the one the witness had in mind. The
-   witness says "the exile-years letters" and means the letters; the answer
-   is the year there was no letter.
-6. **A limit that cites a locus is an unworked cell, not a closed one.** All
-   four cells that survived as LIMIT-ONLY into the last round had a quote
-   waiting exactly where their limit was pointing. Voicing a limit does not
-   weaken it: Clement's dining-room inventory is what "we cannot tell you
-   what you would find" was describing.
+   passage that answers a vague cell is often not the one the witness had in
+   mind. A witness says "the exile-years letters" and means the letters; the
+   answer can be the year there was no letter.
+6. **A limit that cites a locus is an unworked cell, not a closed one.**
+   Voicing a limit does not weaken it — it can be exactly what the limit was
+   describing.
 7. **Check a limit's claim about availability against the vendored tree.**
-   desert F2-T stayed closed on the words "no vendored edition exists for
-   this collection", which stopped being true the day the file was
-   vendored — hours earlier, in the same session. Nothing in the pipeline
-   notices when a vendoring falsifies a record's own account of what is
-   available.
+   A limit's claim that "no vendored edition exists for this collection" can
+   stop being true the moment a file is vendored, and nothing in the
+   pipeline notices on its own — recheck it against the current tree before
+   trusting it.
 8. **Verify the quote against the file, not against your reading of it.**
-   Every quote in the last two rounds was checked by substring match on the
-   vendored text, whitespace-normalised, before the record was written.
-   That caught three near-misses: an NPNF editorial footnote sitting inside
-   a Leo sentence, a page-marker inside an Ephrem one, and a section numeral
-   inside an Aphrahat one. Each is disclosed in its record's
-   `divergence_note` rather than silently smoothed.
-
-
-
-## Current state
-
-```
-0 cells served without a quote or story
-```
-
-Every cell in all six worlds is served by at least one quote or story.
-Re-run the report after any change to records; anything it prints is new.
+   Check every quote by substring match on the vendored text,
+   whitespace-normalised, before the record is written. A mismatch can be an
+   editorial footnote, a page marker, or a section numeral sitting inside
+   the quoted span — disclose it in the record's `divergence_note` rather
+   than silently smoothing it.

@@ -41,19 +41,32 @@ name: The Diocletianic persecution (303-305) and the traditio demand [1A - initi
 kind: initiating
 matrix_cell: 1A
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 1A, Force 1A-1): the general persecution of Christians under Diocletian
-  and his colleagues (303-305) included a specific demand that clergy surrender scripture and sacred vessels
-  to the persecuting authorities for destruction. That demand, and the community's divided response to it,
-  is Documented - attested across Doc_01's own founding-boundary reasoning and corroborated by the specific
-  traditio accusations Optatus's own Appendix of Documents preserves (the Acta Purgationis Felicis, 314).
-  LAYER 2 - THE WORLD'S OWN EXPERIENCE: the persecutor did not merely ask for property; he asked for the scriptures
-  themselves, and what a minister did in that moment was not incidental to his own standing afterward. A hand
-  that gave up what it was charged to guard cannot be trusted, later, to give what it claims to give. This
-  is not a judgment reached after the fact but a conviction held to be simply true of what had happened. LAYER
-  3 - FORMATION IMPACT: this force produces the traditor accusation the whole purity doctrine turns on, and
-  establishes the pattern of persecution-as-formative-test that the later, better-attested Macarian repression
-  repeats and intensifies. Without this force the central sacramental-validity question would have no occasion
-  to arise at all.
+  From 303 to 305, Diocletian and his fellow emperors carried out a general persecution of
+  Christians. It included a specific demand. Clergy had to hand over scripture and sacred vessels
+  to the persecuting authorities, to be destroyed.
+
+  That demand is documented, and so is the community's divided response to it. Our account of how
+  this world began rests on both.
+
+  They are also backed up by specific accusations of traditio, the handing over of scripture.
+  Optatus's Appendix of Documents preserves these accusations, in the Acta Purgationis Felicis of
+  314.
+
+  As this world saw it, the persecutor did not just ask for property. He asked for the scriptures
+  themselves. What a minister did in that moment was not a side issue for his standing afterward.
+
+  A hand that gave up what it was charged to guard cannot be trusted, later, to give what it
+  claims to give. This was not a judgment reached after the fact. It was a conviction held to be
+  simply true of what had happened.
+
+  This force produced the charge of being a traditor, one who handed over the scriptures. The
+  whole purity doctrine turns on that charge.
+
+  It also set a pattern: persecution as a test that forms a church. The later Macarian repression
+  repeated that pattern and intensified it, and it is better attested.
+
+  Without this force, the central question about what makes a sacrament valid would never have
+  arisen at all.
 manifestations:
 - the specific demand that clergy surrender scripture and sacred vessels for destruction
 - the community's divided response - some surrendering, some refusing - before any schism existed

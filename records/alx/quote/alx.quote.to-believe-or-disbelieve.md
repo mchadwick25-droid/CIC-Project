@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Now that is in our power, of which equally with its opposite we are masters,—as, say to philosophize or not, to believe or disbelieve. In consequence, then, of our being equally masters of each of the opposites, what depends on us is found possible.
+modern_rendering: >-
+  Now, what is in our power is whatever we are equally master of, along with
+  its opposite. Take, for example, whether to pursue philosophy or not, or
+  whether to believe or to disbelieve. Since we are equally masters of each of
+  these opposites, what depends on us is found to be possible.
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
@@ -37,8 +42,6 @@ relations:
 - type: associated-with
   target: alx.dw.doubt
 ---
-Opened 2026-08-27 for F1-P, served by alx.dw.doubt and alx.term.autexousia with no quote.
-
 THE LOCUS IS CORRECTED RATHER THAN COPIED. Both records cite Stromateis II.15 and IV.24 for the
 free-will argument; the sentence quoted here stands in the chapter the vendored edition heads "The
 Reason and End of Divine Punishments", and the locus says so. The argument does run across the

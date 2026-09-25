@@ -113,6 +113,28 @@ class Settings:
     # widens).
     r27_enforce: bool
 
+    # R38 (Rulings-Pending.md, RULED 2026-09-23) - self-revision at
+    # generation on other_tradition-routed turns, unconditional unlike
+    # r27_enforce above (this is generation, not enforcement: no
+    # withhold, no Facilitator, no flag-gated staging rollout needed
+    # before it can run for real). Default ON - the kill-switch exists
+    # for cost or incident use only, the opposite default sense from
+    # r27_enforce/CIC_R27_ENFORCE, since Mark's own ruling is to ship
+    # this, not stage it behind an off-by-default flag.
+    self_revision_enabled: bool
+
+    # Stage 7b (Decision-Log.md Entry 53, "Shape B"): the engine's own
+    # sentence-buffered streaming module (engine.m4.streaming). OFF by
+    # default, everywhere, same staging discipline as r27_enforce above -
+    # "flag-gated, default off, flipped only after Mark's own staging
+    # look." Streaming does not ship to participants before R27-A's own
+    # enforcement is on (Decision-Log Entry 54/62) - CIC_R27_ENFORCE is
+    # itself off today by ruling (R42), so this flag has no live
+    # deployment path yet regardless of its own value; it exists so the
+    # module can be built and tested against a real setting rather than
+    # a hypothetical one.
+    streaming_enabled: bool
+
     @classmethod
     def from_env(cls) -> "Settings":
         region = os.environ.get("CIC_API_REGION")
@@ -147,4 +169,6 @@ class Settings:
             ),
             anon_daily_turn_limit=int(os.environ.get("CIC_API_ANON_DAILY_TURN_LIMIT", _DEFAULT_ANON_DAILY_TURN_LIMIT)),
             r27_enforce=os.environ.get("CIC_R27_ENFORCE", "") in ("1", "true", "yes"),
+            self_revision_enabled=os.environ.get("CIC_SELF_REVISION", "1") not in ("0", "false", "no"),
+            streaming_enabled=os.environ.get("CIC_API_STREAMING", "") in ("1", "true", "yes"),
         )

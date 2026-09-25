@@ -31,3 +31,44 @@ def test_a_long_enough_admin_token_is_accepted(monkeypatch):
     _env(monkeypatch, CIC_API_ADMIN_TOKEN=token)
     settings = Settings.from_env()
     assert settings.admin_token == token
+
+
+# R38's own kill-switch (Rulings-Pending.md, RULED 2026-09-23) - default
+# ON, the opposite sense from CIC_R27_ENFORCE (default off) above, since
+# self-revision ships as generation, not staged enforcement.
+def test_self_revision_defaults_on_when_the_env_var_is_unset(monkeypatch):
+    _env(monkeypatch)
+    monkeypatch.delenv("CIC_SELF_REVISION", raising=False)
+    assert Settings.from_env().self_revision_enabled is True
+
+
+@pytest.mark.parametrize("value", ["0", "false", "no"])
+def test_self_revision_kill_switch_turns_it_off(monkeypatch, value):
+    _env(monkeypatch, CIC_SELF_REVISION=value)
+    assert Settings.from_env().self_revision_enabled is False
+
+
+def test_self_revision_any_other_value_leaves_it_on(monkeypatch):
+    _env(monkeypatch, CIC_SELF_REVISION="1")
+    assert Settings.from_env().self_revision_enabled is True
+
+
+# Stage 7b's own flag (Decision-Log.md Entry 53) - default off, same
+# staging discipline as CIC_R27_ENFORCE above, not self-revision's
+# default-on kill-switch shape.
+def test_streaming_defaults_off_when_the_env_var_is_unset(monkeypatch):
+    _env(monkeypatch)
+    monkeypatch.delenv("CIC_API_STREAMING", raising=False)
+    assert Settings.from_env().streaming_enabled is False
+
+
+@pytest.mark.parametrize("value", ["1", "true", "yes"])
+def test_streaming_truthy_values_turn_it_on(monkeypatch, value):
+    _env(monkeypatch, CIC_API_STREAMING=value)
+    assert Settings.from_env().streaming_enabled is True
+
+
+@pytest.mark.parametrize("value", ["0", "false", "no", "on", ""])
+def test_streaming_any_other_value_leaves_it_off(monkeypatch, value):
+    _env(monkeypatch, CIC_API_STREAMING=value)
+    assert Settings.from_env().streaming_enabled is False

@@ -25,7 +25,9 @@ speaker_or_author: Huldrych Zwingli
 license: verbatim
 modern_lens_note: A modern reader may hear false modesty ahead of a debate already decided. We hear our
   own founder's own opening confession, before six hundred witnesses, staking everything on the text alone.
-modern_rendering: Everything I have preached rests on Scripture. If I have misread it, correct me - but
-  only from Scripture itself.
+modern_rendering: The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the
+  worthy city of Zurich. They are based on the Scriptures, which are called inspired by God. Where I
+  have not now correctly understood these Scriptures, I will allow myself to be taught better. I will
+  accept that correction only from these Scriptures themselves.
 ---
 Independently re-verified, character-exact, against the vendored file this session, matching the already-established locus this world's own reviewed documents already cite for this exact quotation - not a fresh citation this script invents.

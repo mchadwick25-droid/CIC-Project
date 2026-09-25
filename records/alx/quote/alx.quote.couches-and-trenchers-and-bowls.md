@@ -21,6 +21,17 @@ sources:
   license: public-domain
 text: >-
   And silver couches, and pans and vinegar-saucers, and trenchers and bowls; and besides these, vessels of silver and gold, some for serving food, and others for other uses which I am ashamed to name, of easily cleft cedar and thyine wood, and ebony, and tripods fashioned of ivory, and couches with silver feet and inlaid with ivory, and folding-doors of beds studded with gold and variegated with tortoise-shell, and bed-clothes of purple and other colours difficult to produce, proofs of tasteless luxury, cunning devices of envy and effeminacy,—are all to be relinquished, as having nothing whatever worth our pains.
+modern_rendering: >-
+  There are silver couches, pans and little dishes for vinegar, platters and
+  bowls. Besides these, there are vessels of silver and gold, some for
+  serving food and others for other uses I am ashamed to name. Other vessels
+  are made of cedar that splits easily, of citron wood and of ebony. Some
+  tripods are made of ivory, and some couches have silver feet and ivory
+  inlay. Some beds have folding doors studded with gold and patterned with
+  tortoiseshell. Bedclothes come in purple and in other colors that are hard
+  to produce. All these are proofs of tasteless luxury, crafty inventions of
+  envy and soft living. They must all be given up, because there is nothing
+  at all in them worth our trouble.
 speaker_or_author: Clement of Alexandria, Paedagogus II.3
 license: verbatim
 modern_lens_note: >-
@@ -35,9 +46,8 @@ relations:
 - type: associated-with
   target: alx.limit.material-remains
 ---
-Opened 2026-08-27 for F5-E, which the rewritten classifier moved out of LIMIT-ONLY: alx.limit.material-
-remains is the cell's only serving record, and it cites a specific locus - Paedagogus II-III - so the
-limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.
+alx.limit.material-remains is the cell's only serving record, and it cites a specific locus - Paedagogus
+II-III - so the limit can be voiced by the passage it points at, the same move as ijc F6-E and desert F2-E.
 
 The limit says this world's writings describe souls and books far more than rooms and walls. This is
 the counter-example that proves it: the one place Clement is exhaustive about the material world, he is

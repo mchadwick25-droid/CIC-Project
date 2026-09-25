@@ -21,8 +21,10 @@ from engine.m4 import evidence as ev
 from engine.m4.turn import TurnResult, UnhandledRoutingAction, run_turn
 from engine.m4.uncited_claims import (
     build_uncited_claims_event,
+    conversation_revealed_excerpts,
     known_tradition_names,
     match_named_tradition,
+    tradition_known_in_window,
     world_records_mention_tradition,
 )
 from engine.m4.world_loader import LazyWorldLoader, LoadedWorld
@@ -464,6 +466,7 @@ def handle_message(
     client_msg_id: str | None = None,
     package_cache_dir: Path | None = None,
     r27_enforce: bool = False,
+    self_revision_enabled: bool = True,
 ) -> MessageResult:
     state = project_fresh(session_id, store)
     if not state.exists:
@@ -539,7 +542,8 @@ def handle_message(
     # History replays bridged rounds' participant text as the underlying
     # subject the voice actually received (SS77 applied to session memory,
     # not only the live turn - see replay_transcript's own docstring).
-    history = history_from_transcript(replay_transcript(state, term_ids))
+    replayed = replay_transcript(state, term_ids)
+    history = history_from_transcript(replayed)
 
     turn_no = state.turn_count + 1
 
@@ -556,6 +560,23 @@ def handle_message(
     named_tradition_key = match_named_tradition(text, registry, exclude_world_key=state.world_key)
     other_tradition_evidence_ids = (
         world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
+        if named_tradition_key else None
+    )
+    # R37 (Rulings-Pending.md R37, R37-A, R37-B): the pivot's own licence
+    # for the same named tradition - condition (a) from the registry's own
+    # time_windows, condition (b) from what this conversation actually
+    # said, read from the same replayed transcript the voice's own history
+    # is (what the voice was actually told). state was projected before
+    # this turn's own participant_message was appended, so the question
+    # itself is not counted as a revelation. No other Representative
+    # speaks in an interview, so R37-B's third source is empty here by
+    # construction.
+    other_tradition_known_in_window = (
+        tradition_known_in_window(registry[state.world_key], registry[named_tradition_key])
+        if named_tradition_key else None
+    )
+    other_tradition_revealed = (
+        conversation_revealed_excerpts(replayed, registry[named_tradition_key], speaking_world_key=state.world_key)
         if named_tradition_key else None
     )
 
@@ -579,6 +600,9 @@ def handle_message(
             r27_enforce=r27_enforce,
             known_tradition_names=known_tradition_names(registry, exclude_world_key=state.world_key) if r27_enforce else None,
             other_tradition_evidence_ids=other_tradition_evidence_ids,
+            other_tradition_known_in_window=other_tradition_known_in_window,
+            other_tradition_revealed=other_tradition_revealed,
+            self_revision_enabled=self_revision_enabled,
         )
     except UnhandledRoutingAction:
         # Deleted 2026-08-24, not weakened: this used to catch the raise and

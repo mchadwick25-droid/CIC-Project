@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/alexandria-catechetical.yaml), which assigned six npnf214 works to this world and observed no record here had opened the volume"
 external_ids: {ccel_volume: "npnf214"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Loci verified directly at the lines given.
 
 WHAT IT ANSWERS IN THIS WORLD'S OWN THINNESS STATEMENT. This world's

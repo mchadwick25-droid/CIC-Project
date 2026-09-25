@@ -1,0 +1,21 @@
+source_file: sarpi_history-of-the-council-of-trent_brent1676.txt
+
+assignments:
+  - work: "The History of the Council of Trent"
+    author: sarpi
+    locus: "whole text"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: assigned
+    note: >
+      Paolo Sarpi's contemporary but hostile/critical Venetian narrative
+      of the Council's sessions, English translation attrib. Sir
+      Nathanael Brent (1676) - the closest thing in English to a
+      narrative account of Trent's own debates, since the Council's
+      actual acta/diary survive only in Latin (Theiner's Acta Genuina,
+      untranslated). role: context, not tradition - this is a hostile
+      external narrative, not the Tridentine church's own institutional
+      voice (per this world's own Source Readiness Dossier §3-4, which
+      flags this distinction explicitly). Vendored 2026-09-25 as part of
+      a pre-Doc_02 source-acquisition pass for the-tridentine-church.

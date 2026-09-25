@@ -33,7 +33,7 @@ class SessionState:
     code_hash: str | None = None
     package_manifest_hash: str | None = None
     # The package DIRECTORY this session actually loaded from at open,
-    # alongside its hash (2026-09-04) - optional (older session_started
+    # alongside its hash - optional (older session_started
     # events predate this field), so wiring.py falls back to the registry's
     # current pointer when it's None, same as before this existed. See
     # entrance.py's open_session docstring for why this matters: without
@@ -114,7 +114,19 @@ def _fold(session_id: str, events: list[StoredEvent]) -> SessionState:
                 state.round_turns = 0
                 state.round_speakers = []
         elif event.event_type == "facilitator_turn":
-            state.transcript.append({"speaker": "facilitator", "kind": payload["kind"], "text": payload["text"]})
+            state.transcript.append(
+                {
+                    "speaker": "facilitator",
+                    "kind": payload["kind"],
+                    "text": payload["text"],
+                    # Additive: absent on any facilitator_turn logged
+                    # before bridge_turn started returning this key, and
+                    # on every kind but "bridge" - .get() so an older or
+                    # non-bridge turn still replays, just without the
+                    # modern-term cards a participant already saw live.
+                    "modern_terms": payload.get("modern_terms"),
+                }
+            )
         elif event.event_type == "voice_turn":
             state.transcript.append(
                 {

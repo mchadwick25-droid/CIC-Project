@@ -17,6 +17,11 @@ sources:
   locus: "Conference XIII (Third Conference of Abbot Chaeremon, On the Protection of God), ch. XVIII"
   license: public-domain
 text: "...now He puts into us the very beginnings of salvation, and gives to each the zeal of his free will; and now grants the carrying out of the work, and the perfecting of goodness; and now saves men, even against their will and without their knowledge, from ruin that is close at hand, and a headlong fall..."
+modern_rendering: >-
+  ... now he puts into us the very beginnings of salvation, and gives each person the zeal of their
+  own free will. Now he grants the carrying out of the work, and the perfecting of goodness. Now he
+  saves people, even against their own will and without their knowledge, from a ruin that is close
+  at hand, and a headlong fall...
 speaker_or_author: Abbot Chaeremon, as Cassian reports him in the Conferences
 license: verbatim
 modern_lens_note: "Not a doctrine of irresistible grace and not one of cooperation either - a list of different ways God was observed to act on different people, offered as description rather than system. That is how this world argued: from what was seen to happen, \"led not by chattering words but by experience.\""

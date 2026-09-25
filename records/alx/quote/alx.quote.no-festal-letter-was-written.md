@@ -21,6 +21,11 @@ sources:
   license: public-domain
 text: >-
   Then Georgius entered on the thirtieth of Mechir, and acted with excessive violence. But Athanasius, the Bishop, had fled, and was sought for in the city with much oppression, many being in danger on this account. Therefore no Festal Letter was written
+modern_rendering: >-
+  Then George entered the city on the thirtieth of Mechir and acted with
+  excessive violence. But Athanasius the Bishop had fled and was hunted for
+  in the city with much oppression; many people were put in danger because
+  of it. Therefore no Festal Letter was written.
 speaker_or_author: the Festal Index of the Alexandrian church, year XXIX (356-7)
 license: verbatim
 modern_lens_note: >-
@@ -35,7 +40,7 @@ relations:
 - type: associated-with
   target: alx.dw.empire
 ---
-Opened 2026-08-27 for F3-E, served by alx.dw.empire alone, whose locus reads 'the exile-years
+Opened for F3-E, served by alx.dw.empire alone, whose locus reads 'the exile-years
 letters' - a body of text rather than a place in one, which is why the instrument ruled this cell
 NEEDS READING.
 

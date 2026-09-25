@@ -434,7 +434,7 @@ def test_figures_used_flows_through_and_a_second_mention_this_session_does_not_r
         session_id=session_id, text="who led you", client_msg_id="msg-1",
     )
     assert [f["id"] for f in first.voice["figures_used"]] == ["fix.figure.the-elder"]
-    assert first.voice["figures_used"][0]["bridge_line"] == "an elder of this gathering, remembered for what he said about the ones who came after"
+    assert first.voice["figures_used"][0]["bridge_line"] == "an elder of this gathering, remembered for what he said about those who came later"
 
     second = wiring.handle_message(
         store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
@@ -528,3 +528,59 @@ def test_list_worlds_excludes_the_fixture_and_carries_the_doorway_fields(world_l
     assert pahc["thinness_statement"]
     assert pahc["starters"] and all({"cell", "text"} <= s.keys() for s in pahc["starters"])
     assert "_generated_by" not in pahc
+
+
+# R37 (Rulings-Pending.md R37, R37-A, R37-B), interview: the pivot's own
+# licence reaches the voice's private directive. fix's window is 100-100
+# and don's starts 311, so condition (a) does not hold - only the
+# question's own words, plus what the conversation revealed before it.
+def _voice_directive_text(client, call_index=0):
+    system = client.messages.stream_calls[call_index]["system"]
+    return system[1]["text"] if len(system) > 1 else ""
+
+
+def test_an_other_tradition_ask_about_a_later_tradition_limits_the_pivot_to_the_question(store, usage_store, world_loader, registry):
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    client = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(out_of_scope={"class": "other_tradition"}),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=client, voice_model_id="m", safety_client=client, safety_model_id="m",
+        session_id=session_id, text="what did the Donatists teach", client_msg_id="msg-1",
+    )
+    directive_text = _voice_directive_text(client)
+    assert "arose after your own world's time" in directive_text
+    # The question itself is the baseline, never quoted back as a
+    # revelation.
+    assert "word for word" not in directive_text
+
+
+def test_what_the_participant_said_earlier_reaches_the_directive_verbatim(store, usage_store, world_loader, registry):
+    session_id, _code = wiring.create_session(store=store, world_loader=world_loader, registry=registry, world_key="fix")
+    first = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=first, voice_model_id="m", safety_client=first, safety_model_id="m",
+        session_id=session_id, text="My teacher spoke of the Donatists. Who was Jesus?", client_msg_id="msg-1",
+    )
+    second = FakeBedrockClient(
+        safety_response=safety_response("NO_SIGNAL"),
+        reader_response=reader_response(out_of_scope={"class": "other_tradition"}),
+        stream_chunks=["We did not claim to have seen him ourselves [[fix.witness.who-is-jesus]]."],
+    )
+    wiring.handle_message(
+        store=store, usage_store=usage_store, world_loader=world_loader, registry=registry,
+        voice_client=second, voice_model_id="m", safety_client=second, safety_model_id="m",
+        session_id=session_id, text="what did the Donatists teach", client_msg_id="msg-2",
+    )
+    directive_text = _voice_directive_text(second)
+    assert '- The participant: "My teacher spoke of the Donatists."' in directive_text
+    assert "Who was Jesus?" not in directive_text
+    assert "question's own words and the lines quoted below" in directive_text

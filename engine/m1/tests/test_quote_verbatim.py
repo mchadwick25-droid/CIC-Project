@@ -62,7 +62,7 @@ def test_ellipsis_marks_a_real_elision_and_passes():
 
 
 def test_bracket_wrapped_ellipsis_is_one_marker_not_a_bracket_around_nothing():
-    """Mark's third ruling (2026-09-22, after the #403 triage):
+    """A shape a triage found (#403):
     cappadocian.quote.basil-against-eunomius-ant marks its own elision as
     "[...]" - splitting on bare "..." alone leaves an orphaned literal
     "[" at the end of one segment and "]" at the start of the next."""
@@ -76,7 +76,7 @@ def test_bracket_wrapped_ellipsis_is_one_marker_not_a_bracket_around_nothing():
 
 
 def test_line_wrap_hyphenation_in_source_passes():
-    """Mark's third ruling: a source hyphenating a word across a line
+    """A source hyphenating a word across a line
     break ("eter-\\nnity") is ordinary print typesetting, not a content
     difference - collapsed before matching."""
     r = _verify(
@@ -119,7 +119,7 @@ def test_bracketed_span_that_is_also_literally_in_source_still_passes():
 
 
 def test_inline_verse_number_at_a_sentence_boundary_passes():
-    """Mark's second ruling (2026-09-22): class six. A real shape, seen
+    """Class six (verse_number): a real shape, seen
     across six ANF/NPNF-sourced quotes: 'thus give thanks. 2. First,'
     in the source, 'thus give thanks. First,' in the record."""
     r = _verify(
@@ -217,10 +217,10 @@ def test_resolve_and_verify_a_real_pahc_record():
 
 
 def test_verse_number_ruling_fixes_a_real_previously_failing_record():
-    """pahc.quote.first-concerning-the-cup failed the first fleet sweep
-    (2026-09-22) on exactly the inline-verse-number pattern the second
-    ruling was made to cover ('thus give thanks. 2. First,' in
-    anf07's Didache text). Must pass now."""
+    """pahc.quote.first-concerning-the-cup failed an early fleet sweep on
+    exactly the inline-verse-number pattern class six was made to cover
+    ('thus give thanks. 2. First,' in anf07's Didache text). Must pass
+    now."""
     from engine.m1.loader import load_fleet_records, load_world_records
 
     records = load_world_records("pahc")
@@ -232,7 +232,7 @@ def test_verse_number_ruling_fixes_a_real_previously_failing_record():
 
 
 def test_polycrates_to_victor_omission_is_now_marked_and_verifies():
-    """Until the 2026-09-22 quote-fidelity record-fix pass, this record
+    """Before its own quote-fidelity record-fix pass, this record
     silently dropped ~15 words of real source text ('when He cometh with
     glory from heaven and shall raise again all the saints') with no
     ellipsis - a genuine unmarked-omission defect, not a verse-number
@@ -288,7 +288,7 @@ def test_cappadocian_bracket_wrapped_ellipsis_record_now_verifies():
     assert "ellipsis" in result.classes_used
 
 
-# --- apparatus (fourth round, 2026-09-23) -------------------------------
+# --- apparatus -----------------------------------------------------------
 
 
 def test_soft_hyphen_in_source_passes():
@@ -335,16 +335,75 @@ def test_short_bracketed_digit_is_not_treated_as_apparatus():
 
 
 def test_bare_unwrapped_footnote_digit_is_not_silently_tolerated():
-    """Deliberately NOT part of `apparatus`: a bare digit with no pipe,
-    bracket, or tilde marker of its own (cappadocian.quote.basil-on-
-    common-life's real failure: " 1 is more useful" for a footnote
-    reference with no wrapper) still fails - the fourth-round docstring
-    note explains why a safe, narrow rule for this shape wasn't found."""
+    """Deliberately NOT part of the FLEET-WIDE `apparatus` classes: a bare
+    digit with no pipe, bracket, or tilde marker of its own still fails
+    here - the fourth-round docstring note explains why no safe, narrow
+    FLEET-WIDE rule for this shape was found. cappadocian.quote.basil-on-
+    common-life's own real instance of this exact shape ("common 1 is")
+    is instead resolved as a per-EDITION apparatus entry (REGISTRY.yaml's
+    own bare-footnote-digit-common-is), anchored to the literal
+    surrounding words rather than the bare-digit shape tested here - see
+    test_basil_bare_footnote_digit_apparatus_entry_strips_only_the_marker
+    and its neighbors below."""
     r = _verify(
         "the life of a number lived in common is more useful",
         "the life of a number lived in common 1 is more useful in many ways",
     )
     assert r.verified is False
+
+
+def test_basil_bare_footnote_digit_apparatus_entry_strips_only_the_marker():
+    """The new per-edition entry (REGISTRY.yaml, bare-footnote-digit-
+    common-is) is anchored on both sides to the exact evidenced words
+    ("common" before, "is" after), not a bare-digit shape - it removes
+    exactly the one footnote marker this file is known to carry there."""
+    source = "lived in common 1 is more useful"
+    stripped = strip_edition_apparatus(source, "basil_ascetic-works-longer-shorter-rules_clarke1925.txt")
+    assert stripped == "lived in common is more useful"
+
+
+def test_basil_footnote_digit_apparatus_does_not_mask_a_real_word_difference():
+    """The literal-word anchoring means this entry cannot generalize into
+    a digit-swallower: a different digit at the same position, or a real
+    word substituted for the footnote marker, must both survive
+    untouched - proving a genuine single-word difference at this exact
+    spot would still be caught, not silently masked."""
+    filename = "basil_ascetic-works-longer-shorter-rules_clarke1925.txt"
+    assert strip_edition_apparatus("lived in common 2 is more useful", filename) == "lived in common 2 is more useful"
+    assert strip_edition_apparatus("lived in common wildly is more useful", filename) == "lived in common wildly is more useful"
+    assert strip_edition_apparatus("lived in common 1 is more useful", "some-other-edition.txt") == "lived in common 1 is more useful"
+
+
+def test_basil_common_life_digit_fixed_but_record_still_fails_on_a_separate_ocr_misread():
+    """The digit fix above clears one of this record's own three
+    disclosed divergences (its own body, 2026-09-02) - confirmed
+    directly: the first sentence alone now verifies against the real
+    vendored file. It does NOT flip the whole record to verified,
+    because two separate, already-disclosed issues remain in the rest of
+    the same passage: a stray extraction-artifact quotation mark before
+    "To begin" (not yet its own apparatus entry), and - the one that
+    actually matters here - "Tor just as" for "For just as", a genuine
+    word-level OCR misread. By this module's own ruling, no apparatus
+    mechanism may correct a word substitution, so the record correctly
+    stays unverified and verified-via-authority rather than
+    verified-direct; the digit fix is real and worth keeping, but this
+    one record was never going to newly pass the fleet sweep because of
+    it alone."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+
+    records = load_world_records("cappadocian")
+    fleet = load_fleet_records()
+    rec = records["cappadocian.quote.basil-on-common-life"]
+
+    first_sentence = "I recognise that the life of a number lived in common is more useful in many ways."
+    from engine.m1.quote_verbatim import resolve_vendored_paths
+    paths = resolve_vendored_paths(rec, records, fleet)
+    stripped = strip_edition_apparatus(paths[0].read_text(encoding="utf-8", errors="replace"), paths[0].name)
+    assert verify_quote_text(first_sentence, stripped, source_is_xml=False).verified is True
+
+    result = verify_quote_record(rec, records, fleet)
+    assert result.verified is False
+    assert rec["confidence"]["verification_state"] == "verified-via-authority"
 
 
 def test_alx_soft_hyphen_record_now_verifies():
@@ -376,9 +435,9 @@ def test_desert_pipe_page_marker_records_now_verify():
     desert.quote.pachomius-angel-tablet, and desert.quote.monks-like-
     hyenas all cleared the pipe-plus-digits page marker; desert.quote.
     the-noonday-demon (its own [1]-[6] section numbering) must stay
-    verified throughout - the regression this round caught and fixed.
+    verified throughout - a real regression caught and fixed.
     desert.quote.good-good-i-dont-mind's own bare-digit footnotes
-    (" 163 ", " 164 ") are cleared separately, by item 2's per-edition
+    (" 163 ", " 164 ") are cleared separately, by the per-edition
     apparatus (Palladius) - see test_palladius_bare_digit_footnotes_
     verify_via_edition_apparatus below."""
     from engine.m1.loader import load_fleet_records, load_world_records
@@ -408,11 +467,12 @@ def test_cappadocian_macrina_pipe_and_bracket_locator_record_now_verifies():
     assert result.verified is True, (result.failed_segment, result.nearest_context)
 
 
-# --- note-body fallback (R33, 2026-09-23) -------------------------------
+# --- note-body fallback ---------------------------------------------------
 #
-# Supersedes R28/#423's per-record `source_note_id` field (never merged):
-# the gate itself falls back to every <note> body in the source file once
-# the running text fails, so no record carries a pointer to a note.
+# An earlier draft's per-record `source_note_id` field (never merged, #423)
+# is superseded: the gate itself falls back to every <note> body in the
+# source file once the running text fails, so no record carries a pointer
+# to a note.
 
 
 def test_iter_source_notes_yields_id_and_plain_text_in_order():
@@ -480,8 +540,8 @@ def test_a_quote_matching_only_note_commentary_is_reported_as_note_verified_not_
 
 
 def test_pahc_deaconesses_record_verifies_via_the_note_fallback_with_no_record_field():
-    """pahc.quote.two-female-slaves-who-were-called-deaconesses: R33's own
-    real case. Pliny's letter to Trajan is quoted in full inside
+    """pahc.quote.two-female-slaves-who-were-called-deaconesses: the real
+    case behind this rule. Pliny's letter to Trajan is quoted in full inside
     Eusebius's translator's endnote id iii.viii.xxxiii-p2.2, not in the
     running text. No `source_note_id` field on the record - the gate's
     own fallback finds it, restoring verified-direct."""
@@ -515,7 +575,7 @@ def test_ordinary_running_text_records_are_unaffected_by_the_note_fallback():
         result = verify_quote_record(records[rid], records, fleet)
         assert result.verified is True, (rid, result.failed_segment, result.nearest_context)
         assert result.verified_in == "running_text"
-# --- bracket-locator orphaned-space fix (item 2, fleet-wide, not per-edition) ---
+# --- bracket-locator orphaned-space fix (fleet-wide, not per-edition) ---
 
 
 def test_bracket_locator_before_punctuation_no_longer_leaves_orphaned_space():
@@ -537,7 +597,7 @@ def test_cappadocian_gregory_nyssa_becoming_god_record_now_verifies():
     assert result.verified is True, (result.failed_segment, result.nearest_context)
 
 
-# --- edition-level apparatus (item 2, R33: gate/edition-level, never a record field) ---
+# --- edition-level apparatus (gate/edition-level, never a record field) ---
 
 
 def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
@@ -555,9 +615,8 @@ def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
 
 
 def test_endnote_sequence_strips_only_the_number_the_real_notes_list_expects_next():
-    """The exact risk item 2 names, and R33's own review round 1 finding:
-    an edition-level rule must describe the edition's convention, not one
-    quote's own wording. `endnote-sequence` proves this structurally - a
+    """The exact risk a review found: an edition-level rule must describe
+    the edition's convention, not one quote's own wording. `endnote-sequence` proves this structurally - a
     synthetic source with the real Palladius marker, a clean 1-2-3 notes
     list, and a "5000 monks" phrase placed where the walk is expecting 2,
     not 5000: "5000" survives untouched (it is never the expected next
@@ -675,8 +734,8 @@ def test_ammianus_bare_digit_footnote_verifies_via_edition_apparatus():
 
 
 def test_basil_common_life_record_is_verified_via_authority_not_gate_verified():
-    """cappadocian.quote.basil-on-common-life: F3 (R33 review round 1) -
-    the same span has a genuine OCR word misread ("Tor" for "For"), a
+    """cappadocian.quote.basil-on-common-life: the same span has a genuine
+    OCR word misread ("Tor" for "For"), a
     stray inserted curly quote, a stray column letter, and two more bare
     footnote glyphs - a source-corruption case, the same treatment
     already ruled for the OCR-damaged don/ijc records, not an apparatus
@@ -755,7 +814,7 @@ def test_basil_unbracketed_column_locator_pattern_isolated():
     assert "that which is" in stripped and "written" in stripped
 
 
-# --- gate registration (item 3, R33/R35) --------------------------------
+# --- gate registration -----------------------------------------------------
 
 
 def _quote_record(rid: str, text: str, verification_state: str) -> dict:

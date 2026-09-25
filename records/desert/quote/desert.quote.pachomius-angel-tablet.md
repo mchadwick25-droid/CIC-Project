@@ -17,6 +17,10 @@ sources:
   locus: "ch. XXXII - the angel's own opening instruction, in Clarke's translation"
   license: public-domain
 text: "Thou shalt allow each man to eat and drink according to his strength; and proportionately to the strength of the eaters appoint to them their labours. And prevent no man either from fasting or eating..."
+modern_rendering: >-
+  You shall let each man eat and drink according to his own strength. In proportion to
+  the strength of those eating, assign them their labors. Do not prevent any man, either
+  from fasting or from eating...
 speaker_or_author: "an angel"
 license: verbatim
 modern_lens_note: "No significant modern-lens risk identified: this is administrative rule-language (eating, drinking, labor proportioned to strength), plain in any era."

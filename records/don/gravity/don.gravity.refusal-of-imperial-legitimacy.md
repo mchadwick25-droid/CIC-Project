@@ -61,56 +61,93 @@ relations:
 name: Refusal of imperial and state religious legitimacy [PRIMARY]
 classification: primary
 description: >-
-  Confirmed PRIMARY (Doc_04 SS3.7, SS4). Not a policy but a lived communal stance: the state has no standing
-  to adjudicate who the true church is, and a verdict reached through a state-aligned process is not thereby
-  a church verdict - held across generations under recurring legal jeopardy. Doc_04 tests this candidate AFTER
-  the two Tensional gravities, because T1 is its own directly-dependent internal qualification and reads most
-  clearly once T1 is on the record; it was generated alongside the other organising-force candidates and is
-  a full organising-force candidate, not a third Tensional gravity. AUTHOR-GRAVITY RISK FLAGGED AT GENERATION
-  (Doc_04 SS1, G5): Moderate - the recurring historical episodes are cross-corroborated even by hostile sources
-  reporting their own side's actions, but the interpretive frame rests partly on Doc_04's own synthesis of
-  Doc_01 SS5, anchored by one directly-quoted Donatus retort. SIX-TEST REASONING CARRIED IN FULL (Doc_04 SS3.7).
-  REPETITION - PASS (strong): Doc_01 SS3, which names this as a preliminary gravity candidate - resistance
-  to state-backed religious coercion as a lived, recurring experience rather than a single episode; SS5's
-  Historical Pressures (Constantine's coercive measures 316-321; Julian's 361 toleration and basilica restoration;
-  sustained legal suppression from the 405 Edict) and Historical Catalysts (the Council of Rome 313 and Arles
-  314, both ruling against the Donatist party and both rejected rather than accepted as legitimate verdicts;
-  the 411 Conference); and Doc_01's own six-cell sketch at Cells 2A and 3A. DEPENDENCY - PASS (strong): the
-  martyrs die specifically because of this refusal, the Macarian repression being a direct enforcement action
-  against it; Doc_01 SS2's own 439 ending-boundary is defined by this refusal's object - the Roman-imperial,
-  Catholic-aligned adjudicating power - being removed; and the parallel hierarchy's recurring legal jeopardy
-  over property and recognition stems from the same refusal. FORMATION - PASS (strong): living under recurring
-  legal jeopardy while refusing to concede the state's authority to adjudicate legitimacy is a lived communal
-  stance across generations, not a leadership position asserted once. EXPLANATORY - PASS (strong): explains
-  why the 313 Rome and 314 Arles rulings were rejected rather than accepted as legitimate church verdicts,
-  since accepting them would concede the state-aligned process's own authority; explains the specific shape
-  of Doc_01 SS2's construction-window boundary reasoning; explains the recurring pattern of imperial legislative
-  attention this world's record documents. PERSISTENCE - PASS, WITH THE QUALIFICATION T1 EXISTS TO NAME: Doc_01
-  SS5 itself states the pattern remains refusal-under-pressure on balance, not an absolute refusal at every
-  point or against every target, and three specific documented turns to the same imperial machinery (313,
-  361, the 390s) qualify an otherwise dominant, sustained pattern. Doc_04 does NOT treat this as a Persistence
-  failure - the dominant pattern holds across the whole window - but refuses to smooth it into an unqualified
-  PASS, naming it instead as the specific qualification T1 tests as its own Tensional gravity. INTERACTION
-  - PASS (strong): reinforces the martyr-cult gravity (the martyrs die from, and evidence, this refusal) and
-  the rebaptism gravity (rebaptism of Catholics is the specific practice imperial edicts target); interacts
-  with the parallel hierarchy (imperial legal action targets its clergy and property); is directly qualified
-  by T1, which Doc_04 keeps as a separate record rather than folding into this entry's prose; interacts narrowly
-  with the Circumcellion candidate, the direct object of CTh 16.5.52. WHY PRIMARY RATHER THAN SUPPORTING (Doc_04
-  SS4): this refusal generates its own recurring, lived pattern of legal jeopardy and non-compliance that
-  would not exist without it - a distinct practice-cluster in the sense the Primary criterion requires. CONFIDENCE/GRAVITY
-  CROSS-CHECK - CONSISTENT, WITH ONE FLAGGED DIVERGENCE matching the purity gravity's pattern (Doc_04 SS3.7):
-  episodes Documented, synthesis-level interpretive frame partly Doc_04's own reading. Carried in full in
-  this record's own divergence_note. CROSS-VOICE TEST (Doc_04 SS3.7's own stated result, and SS5): PASSES
-  with the same qualification as the purity and rebaptism gravities - Donatus's quoted retort is a direct
-  utterance attributed to a Donatist voice, not merely a hostile characterisation of Donatist motives, though
-  it reaches this record through Optatus's own hostile narrative frame rather than an unmediated Donatist-authored
-  text. FORCES-CONNECTION (Doc_04 SS3.7; Doc_08 SS5, Force Index row G5): Cell 2A - oscillating imperial religious
-  policy, the direct object of this refusal, sustained across the whole window; Cell 3A - which Doc_04 names
-  the most direct forces-connection of any gravity in that document: the 411 Conference's verdict, the penal
-  legislation that followed, and the Vandal capture of Carthage in 439 together remove the specific power
-  this gravity is defined in refusal of. Doc_01 SS2 states it plainly - 439 marks the removal of the Roman-imperial,
-  Catholic-aligned adjudicating power this world's entire refusal pattern is defined against - so this gravity's
-  own resolution is what closes the construction window.
+  This is a central, defining pattern of this world. It is not a policy. It is a stance the whole
+  community lived. The state has no standing to judge who the true church is. A verdict reached
+  through a process aligned with the state is not, for that reason, a verdict of the church. This
+  movement held that conviction across generations, under repeated threat from the law.
+
+  One tension limits this refusal from within. The movement refused the state's authority, yet
+  turned to it for help at three points. That tension is a separate pattern; this refusal is not
+  itself a tension.
+
+  The risk that this pattern reflects one author's view is moderate. The repeated historical
+  episodes are confirmed from several sides. Even hostile sources report them, describing what
+  their own side did. But the frame that ties them together rests partly on our own synthesis of
+  the pressures and turning points in this world's history. One directly quoted retort by Donatus
+  anchors that frame.
+
+  The pattern recurs strongly. It is resistance to state-backed religious force, lived again and
+  again, not suffered once. The pressures run through the whole period. Constantine applied
+  coercive measures from 316 to 321. Julian granted toleration in 361 and restored the basilicas.
+  Sustained legal suppression followed the Edict of Unity in 405.
+
+  The turning points tell the same story. The Council of Rome in 313 and the Council of Arles in
+  314 both ruled against the Donatist party. The movement rejected both, refusing to accept them
+  as legitimate verdicts. Then came the Conference of 411. Our map of this world's forces points
+  the same way. It shows the shifting imperial religious policy of the whole period. It also shows
+  the forces that ended the period: the verdict of 411, the penal laws that followed, and the
+  Vandal capture of Carthage.
+
+  Other parts of this world depend strongly on this refusal. The martyrs die precisely because of
+  it. The Macarian repression was a direct act of enforcement against it. This world's closing
+  date of 439 is defined by the removal of what the movement refused. That was the Roman imperial
+  power, aligned with the Catholic party, that claimed to judge the church. The rival hierarchy's
+  constant legal danger over property and recognition flows from the same refusal.
+
+  This stance strongly shaped the community over time. Its people lived under repeated legal
+  threat and still refused to grant the state authority over who was the true church. That was a
+  stance held across generations. It was not a position leaders declared once.
+
+  The refusal explains why the rulings of Rome in 313 and Arles in 314
+  were rejected, not accepted as true church verdicts. Accepting them would have granted authority
+  to a process aligned with the state. It explains the exact reasoning behind where this world's
+  time period ends. It also explains the repeated attention imperial lawmakers gave this movement,
+  as this world's record shows.
+
+  The pattern lasts, but with a qualification. Our account of this world's history finds that it
+  remains refusal under pressure on balance. It was not an absolute refusal at every moment or against
+  every target. Three documented turns to the same imperial machinery qualify an otherwise
+  dominant, lasting pattern. They came in 313, in 361, and in the 390s.
+
+  We do not count this as a failure to last. The dominant pattern holds across the whole period.
+  But we will not smooth it into an unqualified success either. Instead, a separate, related
+  tension captures exactly this qualification, as a pattern in its own right.
+
+  This refusal works strongly with the other patterns of this world. It reinforces the cult of the
+  martyrs, who die from this refusal and bear witness to it. It reinforces rebaptism, since the
+  rebaptism of Catholics is the exact practice imperial edicts target. It connects with the rival
+  hierarchy, whose clergy and property imperial legal action targets.
+
+  The separate, related tension directly limits this refusal. That tension is kept as its own,
+  separate pattern. The refusal also touches, narrowly, the Circumcellions, a
+  group that was the direct target of the imperial law Codex Theodosianus 16.5.52.
+
+  Why does this count as central, rather than as a supporting pattern? Because this refusal
+  generates its own lived, recurring pattern of legal danger and non-compliance. That pattern
+  would not exist without it. It forms a distinct cluster of practice, which is exactly what a
+  central pattern requires.
+
+  Our confidence matches the weight we give this pattern, with one flagged gap. That gap mirrors
+  the one in the pattern of ministerial purity. The episodes are documented. The frame that joins
+  them is partly our own reading.
+
+  Does the pattern hold up in a Donatist voice, not only in hostile ones? Yes, with the same
+  qualification that applies to purity and to rebaptism. Donatus's quoted retort is a direct
+  utterance attributed to a Donatist. It is not just an enemy's account of Donatist motives. But
+  it reaches us inside Optatus's hostile narrative. It does not come to us through a text a
+  Donatist wrote directly.
+
+  Two sets of historical forces bear on this refusal. The first is shifting imperial religious
+  policy. That policy is the direct target of the refusal, and it runs across the whole period.
+  Our analysis names this second set the most direct link between a force and a pattern anywhere
+  in this world's history. The verdict of the 411 Conference and the penal laws that followed acted
+  together with the Vandal capture of Carthage in 439. Together, the two remove the very power
+  this refusal is defined against.
+
+  Our account of this world states it plainly. The year 439 marks the removal of the Roman
+  imperial, Catholic-aligned power that claimed to judge the church. The movement's entire pattern
+  of refusal is defined against that power. So the end of what this pattern resists is what closes
+  this world's period.
 manifestations:
 - Donatus's reported retort - Quid est imperatori cum ecclesia? - reaching this record inside Optatus's own
   hostile narrative

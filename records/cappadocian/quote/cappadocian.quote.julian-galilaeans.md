@@ -42,10 +42,9 @@ relations:
 - type: associated-with
   target: cappadocian.dw.a-stranger-weather
 modern_rendering: >-
-  But if they think those writers were wrong about the gods we honor most,
-  let them go teach in the churches of the Galilaeans instead. Let them
-  explain Matthew and Luke there. After all, you Galilaeans obey those
-  books when you order people to stay away from temple worship.
+  But if they think those writers were wrong about the gods we honor most, let them go to
+  the churches of the Galilaeans to expound Matthew and Luke. That is because you
+  Galilaeans obey those books when you order people to stay away from temple worship.
 ---
 Verified verbatim 2026-08-31 directly against the vendored
 julian_letters-1-73_wright1923.txt (Letter 36, the Rescript on Christian

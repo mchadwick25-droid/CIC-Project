@@ -51,24 +51,30 @@ name: 'The confessional-territorial transformation: from protest literature to s
   princes'' signatures, 1530-31 [3A - ending-transforming/external]'
 kind: ending
 matrix_cell: 3A
-description: 'LAYER 1 (Historical Event). ''A movement that argued its case in occasional treatises in
-  1517-1520 had, by 1530, produced a single formal confession subscribed by named princes... a real change
-  in institutional register, from protest literature to settled confession'' (Doc_01 §2.3, Documented
-  as to the documents'' dates and contents; the sharpness of the change is Inferential-Thin). The transformation
-  is gradual, 1522 to 1529 to 1530, not a sudden overwhelm; the world''s form after it is a successor
-  form of itself, not a different community. What is NOT claimed: that this transformation ended anything,
-  or that it was complete by 1545, or anything about 1555 (entered separately at 3A-2). LAYER 2 (World''s
-  Own Experience). The world did not narrate its own change of form; this layer is confined to the voice-change
-  the texts themselves show. A professor''s voice to named readers and ''the German estates'' in 1520;
-  a preacher''s to ''dear friends'' in 1522; a father''s to his household, ''The Simple Way a Father Should
-  Present Them to His Household,'' in 1529; and in 1530, ''the undersigned Elector and Princes'' before
-  ''Imperial Majesty,'' submitting ''the Confession of our preachers and of ourselves,'' speaking of ''our
-  churches'' and a Mass ''retained among us.'' The polemical register''s ''Antichrist'' becomes the confessional
-  register''s ''the Church of Rome.'' LAYER 3 (Formation Impact). The gravities are STATED, not changed,
-  but the ecology''s authority structure and boundary are transformed: the ''fencing'' of 1522-31 becomes
-  the criterion of legitimacy, and the world''s public voice, when it matters most, is princes''. What
-  was transmitted past the window by this form is the confessional pair and the two catechisms, entering
-  the Book of Concord in 1580 by reference.'
+description: '"A movement that argued its case in occasional treatises in 1517-1520 had, by 1530, produced a single formal
+  confession subscribed by named princes... a real change in institutional register, from protest literature to
+  settled confession." The documents'' own dates and contents are well attested, but how sharp the change really
+  felt is harder to pin down.
+
+  The change was gradual, running from 1522 to 1529 to 1530, rather than a sudden overwhelming, and what this
+  world became afterward was a later form of itself, not a different community. This record does not claim that
+  the change ended anything, nor that it was complete by 1545. It claims nothing about 1555, which has its own
+  entry under the absent inputs of 1525 and 1555.
+
+  This world never told the story of its own change of form, so what we can say about its own experience is
+  limited to the change of voice the texts themselves show. In 1520, a professor speaks to named readers and to
+  "the German estates." In 1522, a preacher speaks to "dear friends." In 1529, a father speaks to his household:
+  "The Simple Way a Father Should Present Them to His Household."
+
+  In 1530, "the undersigned Elector and Princes" stand before "Imperial Majesty." There they submit "the
+  Confession of our preachers and of ourselves." They speak of "our churches" and of a Mass "retained among us."
+  The name "Antichrist," used in the fighting writings, becomes "the Church of Rome" in the confession.
+
+  The gravities are stated here, not changed, but the world''s structure of authority and its boundary are
+  transformed. The "fencing" of 1522-31 becomes the test of what is legitimate, and when it matters most, the
+  world''s public voice belongs to princes. Past the period this world''s sources cover, this form carried forward
+  the pair of confessional documents and the two catechisms, which entered the Book of Concord in 1580 by
+  reference.'
 manifestations:
 - '"a movement that argued its case in occasional treatises in 1517-1520 had, by 1530, produced a single
   formal confession subscribed by named princes" (Doc_01 §2.3)'

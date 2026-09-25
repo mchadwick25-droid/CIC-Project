@@ -37,16 +37,11 @@ from engine.m1.spoken_fields import fields_with_role
 # every record type without a per-type field map - and the cost of that is
 # this list: anything NOT named here is treated as something the world said.
 #
-# The four identifier keys at the end were missing, and they were not inert.
-# A dotted id tokenizes into ordinary words: alx.source.origen-philocalia
-# becomes {alx, source, origen, philocalia}. So
-# alx.gravity.scripture-formative "contained" the words origen, clement and
-# athanasius purely because it CITES sources with those names - and a
-# sentence naming Origen scored as grounded in a record that says nothing
-# about him. Measured across the six worlds: 4,203 of 83,511 content words
-# (5.0%) came from identifiers alone, and 518 of those 548 distinct tokens
-# also occur in real prose, so they collide rather than sitting harmlessly
-# unmatched.
+# The four identifier keys at the end matter because a dotted id tokenizes
+# into ordinary words: alx.source.origen-philocalia becomes {alx, source,
+# origen, philocalia}. Left in, a record "contains" every name in every
+# source it cites purely by citing it, so a sentence naming that same name
+# scores as grounded in a record that never actually discusses it.
 #
 # This reaches every lexical score in the system - grounding_ratio's cited
 # side, overlap_coefficient, the M1 cell keyword corpus, M2's demonstration
@@ -55,21 +50,15 @@ from engine.m1.spoken_fields import fields_with_role
 # retrieval hints (retrieve_when) are deliberately NOT here: that field was
 # authored to be matched on.
 #
-# do_not_retrieve_when IS excluded (fixed 2026-09-19, Opus adversarial review
-# finding D1). It was previously reasoned about together with retrieve_when
-# above and left in all_text()'s pool, but reading the real records shows it
-# holds a genuine anti-fabrication guard species alongside its redirect
-# species - e.g. "our vendored evidence does not say [X], and the
-# Representative must not supply it." Leaving that text in all_text() means
-# grounding_ratio's own word-overlap check can score a FABRICATED version of
-# exactly the barred claim as well-grounded, because the guard sentence that
-# forbids the claim necessarily shares the claim's own vocabulary - measured
-# directly: a fabricated "Brictio succeeded Martin as bishop" scored a
-# perfect 1.0 grounding ratio against gallic.story.brictio-in-the-courtyard,
-# whose own do_not_retrieve_when says exactly that this is not attested and
-# must not be invented. This is the same category formation_claim_barred
-# below is already in - a forbidden claim's own text is not "prose that
-# might ground a real answer," it is the opposite.
+# do_not_retrieve_when is excluded because it holds a genuine
+# anti-fabrication guard species alongside its redirect species - e.g. "our
+# vendored evidence does not say [X], and the Representative must not
+# supply it." Leaving that text in all_text() would let grounding_ratio's
+# own word-overlap check score a fabricated version of exactly the barred
+# claim as well-grounded, because the guard sentence that forbids a claim
+# necessarily shares the claim's own vocabulary. This is the same category
+# formation_claim_barred below is already in - a forbidden claim's own text
+# is not "prose that might ground a real answer," it is the opposite.
 NON_PROSE_KEYS = {
     "id", "world_id", "record_type", "schema_version", "status", "register",
     "_path", "_body", "world_word", "license", "narrative_tier",
@@ -77,12 +66,12 @@ NON_PROSE_KEYS = {
     "evidentiary_weight", "formation_confidence",
     "canon_cells", "source_id", "target", "canon_question_id",
     "do_not_retrieve_when",
-    # R11 (Rulings-Pending.md, ruled 2026-09-21): claim_guards is the split
-    # field's own honesty-guard half - a barred claim's own text is exactly
-    # the same "opposite of prose that might ground a real answer" category
-    # do_not_retrieve_when (above) and formation_claim_barred already are,
-    # for the identical reason: a forbidding sentence necessarily shares the
-    # forbidden claim's own vocabulary.
+    # claim_guards is the split field's own honesty-guard half - a barred
+    # claim's own text is exactly the same "opposite of prose that might
+    # ground a real answer" category do_not_retrieve_when (above) and
+    # formation_claim_barred already are, for the identical reason: a
+    # forbidding sentence necessarily shares the forbidden claim's own
+    # vocabulary.
     "claim_guards",
 }
 
@@ -96,8 +85,8 @@ NON_PROSE_KEYS = {
 # mode if it's too narrow). A RETRIEVAL ranking's job is the opposite risk:
 # finding the WRONG record because a query word happened to appear in a
 # caveat about the record rather than in the record's own substance.
-# Measured directly (engine.m4.evidence's Stage A2 fallback, 2026-08-27):
-# pahc.term.ministrae's own `senses.informational` field reads "...women
+# For example, pahc.term.ministrae's own `senses.informational` field
+# reads "...women
 # held service in that church important enough that its interrogator chose
 # them as the ones who would know" - a real sentence, but about Pliny's
 # interrogation, not about why anything was important in the sense a
@@ -123,15 +112,14 @@ NON_PROSE_KEYS = {
 FALLBACK_EXCLUDED_KEYS = {"senses", "divergence_note", "modern_lens_note", "distortion_risk", "false_friend", "do_not_retrieve_when", "retrieve_when", "claim_guards"}
 
 
-# R11's own honesty-guard/redirect classifier (Rulings-Pending.md;
-# Decision-Log.md's Stage 1 D1 measurement and Entries 21-24): the marker
-# set that correctly separated the fleet's 13 genuine guard clauses from
-# 701 ordinary do_not_retrieve_when redirects, keyword-matched against the
-# design doc's own quoted examples. Single source of truth - the migration
-# tool (tools/split_retrieval_guards.py), the Stage 1 measurement
-# (engine/m4/reports/grounding_fooling_measure.py), and the
-# retrieval-negatives-structured gate (engine/m1/gates.py) all import it
-# from here rather than keeping their own copies that could drift apart.
+# The marker set that separates the fleet's genuine anti-fabrication
+# guard clauses from ordinary do_not_retrieve_when redirects,
+# keyword-matched against real examples of each. Single source of truth -
+# the migration tool (tools/split_retrieval_guards.py), the
+# grounding-fooling measurement (engine/m4/reports/
+# grounding_fooling_measure.py), and the retrieval-negatives-structured
+# gate (engine/m1/gates.py) all import it from here rather than keeping
+# their own copies that could drift apart.
 GUARD_MARKERS = ("does not say", "must not supply", "not attested", "do not invent", "does not attest", "no source", "must not")
 
 
@@ -164,9 +152,9 @@ _STOPWORDS = {
     "without", "upon", "across", "toward", "towards", "beyond", "beside",
     "near", "off", "per", "onto", "unto", "along", "around", "behind",
     # Contractions tokenize as single words - the apostrophe is a word
-    # character in _WORD - so every one of these was a CONTENT word until
-    # 2026-08-27, scored as evidence about a cell like any noun. Found by a
-    # live turn: "You've given me two different pictures there. Did your own
+    # character in _WORD - so without this list every one of them would
+    # score as a CONTENT word, evidence about a cell like any noun. Found
+    # by a live turn: "You've given me two different pictures there. Did your own
     # people disagree about this?" routed to F6-P on `people` and `you've`,
     # and to F2-E on `given` and `you've` - not one word that carries the
     # actual ask matched anything, and the voice answered a question about
@@ -246,6 +234,45 @@ def short_head(text: str) -> str:
     return (text or "").split(";")[0].split(" (")[0].strip()
 
 
+# The closed vocabulary a build-taxonomy tag's own bracket content actually
+# starts with, fleet-wide (confirmed by grepping every gravity and force
+# `name` field's own bracket content) - gravity: PRIMARY/SUPPORTING/
+# TENSIONAL, each optionally followed by " - <qualifier>", ", <qualifier>",
+# or a bare comma; force: a taxonomy code (1A, 1B, 2A, 2B, 3A, 3B, each
+# optionally suffixed "-<n>" for a split entry), same optional qualifier
+# shape. Requiring this prefix - rather than treating any bracket as a tag -
+# is what keeps a name's own legitimate bracket or parenthetical content
+# (none exists in the fleet today, but nothing here should assume that
+# stays true) untouched.
+_TAXONOMY_TAG_CONTENT = re.compile(r"^(?:PRIMARY|SUPPORTING|TENSIONAL|[1-3][AB](?:-\d+)?)\b")
+_LEADING_TAXONOMY_TAG = re.compile(r"^\[([^\]]*)\]\s*")
+_TRAILING_TAXONOMY_TAG = re.compile(r"\s*\[([^\]]*)\]\s*$")
+
+
+def strip_name_taxonomy_tag(name: str) -> str:
+    """gravity/force records carry a `name` with a bracketed build
+    taxonomy tag - trailing in almost every case (e.g. "Divine Pedagogy
+    [SUPPORTING - explanatory framework]"), leading in two rzg gravity
+    records whose own name needed the tag first to read naturally (e.g.
+    "[TENSIONAL] Council-Led Civic Authority (Zurich) vs. Consistorial
+    Independence from Civil Control (Geneva)" - note the real, untouched
+    parentheses inside that name). Real and useful to a reviewer, never
+    meant for a participant or a model prompt. Strip it, on whichever
+    side it landed; the plain name underneath is already a good label.
+    Shared by engine.m4.citation_cards's own _short_name (the
+    participant-facing citation-card label) and engine.m2.builders's
+    build_prompt (the compiled Gravities list a model reads), so the tag
+    can't leak from one and not the other."""
+    name = (name or "").strip()
+    leading = _LEADING_TAXONOMY_TAG.match(name)
+    if leading and _TAXONOMY_TAG_CONTENT.match(leading.group(1)):
+        name = name[leading.end():].strip()
+    trailing = _TRAILING_TAXONOMY_TAG.search(name)
+    if trailing and _TAXONOMY_TAG_CONTENT.match(trailing.group(1)):
+        name = name[:trailing.start()].strip()
+    return name
+
+
 def content_words(text: str) -> set[str]:
     words = (w.lower() for w in _WORD.findall(text))
     return {w for w in words if w not in _STOPWORDS and len(w) > 2}
@@ -264,7 +291,7 @@ def sentences(text: str) -> list[str]:
 # identical quote-aware split M4's live net uses - one splitter, owned
 # once, so a demo tagged at compile time and a live turn checked at
 # generation time can never silently disagree about where a sentence ends.
-# Straight single AND double quotes. Double quotes were missing, and the
+# Straight and curly, single and double quotes. Double quotes were missing, and the
 # corpus already holds 249 paired double-quoted spans - so a sentence
 # quoting with " split inside the quotation and the orphan reached a
 # participant on its own. Seen live on alx: `It has made men out of stones,
@@ -272,10 +299,10 @@ def sentences(text: str) -> list[str]:
 # one of our first teachers, called him the New Song:", was withheld for
 # having no tag. A live model quotes with " far more readily than with ',
 # whatever the prompt around it does.
-QUOTE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['"](?=\S)""")
+QUOTE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['"“‘](?=\S)""")
 
 
-QUOTE_CLOSE = re.compile(r"""(?<=\S)['"](?=[\s.,;:!?)]|$)""")
+QUOTE_CLOSE = re.compile(r"""(?<=\S)['"”’](?=[\s.,;:!?)]|$)""")
 
 
 def _quote_balance(text: str) -> int:
@@ -449,15 +476,33 @@ def _is_common_vocab(word: str) -> bool:
     return w in _DOCTRINAL_VOCAB or (w.endswith("s") and w[:-1] in _DOCTRINAL_VOCAB)
 
 
-def _proper_nouns(sentence: str) -> set[str]:
+def _proper_nouns(sentence: str, *, include_sentence_initial: bool = False) -> set[str]:
     """Capitalized words not at the start of a clause - a cheap, no-
     dictionary proxy for named people/places/texts. A colon or semicolon
     starts a new independent clause grammatically, same as a sentence
     boundary, so the word right after one is skipped too - otherwise "...
     argue: I have to be honest" flags "I" as a proper noun for no reason
-    beyond where a colon happened to land."""
+    beyond where a colon happened to land.
+
+    include_sentence_initial (default False, every existing caller
+    unaffected): when True, the sentence's OWN first word is no longer
+    excluded from detection. engine.m4.sentence_fact_check's own module
+    docstring names why it needs this: two of the fabrications it exists
+    to catch ("Athanasius of Alexandria was named among..."; "Alexandria
+    itself appears only once...") name the fabricated entity as the
+    sentence's very first word, and the position-0 exclusion (right for
+    claim_markers' own narrow, per-tag ground) would otherwise make them
+    structurally unflaggable regardless of ground scope. Safe specifically
+    at whole-repository ground scope: an ordinary capitalized word that
+    only coincidentally opens a sentence (not a real name) is either
+    already a stopword/doctrinal-vocab exclusion below, or - being
+    ordinary vocabulary - overwhelmingly likely to also appear elsewhere
+    across an entire compiled repository, so it grounds itself rather
+    than false-flagging; the false-positive risk this exclusion was built
+    to prevent is much narrower here than in the 1-3-record ground
+    claim_markers itself is scored against."""
     words = _WORD.findall(sentence)
-    clause_starts = {0}
+    clause_starts = set() if include_sentence_initial else {0}
     for m in re.finditer(r"[:;]\s*", sentence):
         tail_words = _WORD.findall(sentence[: m.end()])
         if tail_words:
@@ -518,13 +563,21 @@ def _has_enumeration(sentence: str) -> bool:
     return sentence.lower().count("the same ") >= 2
 
 
-def claim_markers(sentence: str) -> list[str]:
+def claim_markers(sentence: str, *, include_sentence_initial_proper_nouns: bool = False) -> list[str]:
     """Positive detection: does this sentence even make a checkable claim?
     Empty result means it's interpretive/values framing - skip it outright,
     rather than firing on everything and trying to exempt framing after the
-    fact (v1's mistake)."""
+    fact (v1's mistake).
+
+    include_sentence_initial_proper_nouns (default False, every existing
+    caller unaffected): threads straight through to _proper_nouns' own
+    parameter of the same purpose - see that function's own docstring for
+    why engine.m4.sentence_fact_check needs it True. Kept as one function
+    with a flag, not a second copy of this one, for the same "one
+    implementation, owned once" reason every other shared primitive in
+    this module already gives."""
     markers = []
-    proper_nouns = _proper_nouns(sentence)
+    proper_nouns = _proper_nouns(sentence, include_sentence_initial=include_sentence_initial_proper_nouns)
     if proper_nouns:
         markers.append(f"proper-noun:{sorted(proper_nouns)}")
     if _has_number(sentence):

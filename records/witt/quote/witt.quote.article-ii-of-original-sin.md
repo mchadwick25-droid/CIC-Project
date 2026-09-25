@@ -51,13 +51,13 @@ modern_lens_note: >-
   witt.quote.article-ix-of-baptism states from baptism's own side.
 modern_rendering: >-
   We also teach this: ever since Adam fell, everyone born the ordinary way is born already carrying sin.
-  They are born without fear of God. They are born without trust in God. Their desires are turned the
-  wrong way. This flaw we are born with is truly sin. Even now it brings condemnation. It brings death
-  without end, on everyone not born again through baptism and the Holy Spirit.
+  They are born without fear of God. They are born without trust in God. They are born with disordered
+  desire. This flaw is truly sin. Even now it condemns. It brings eternal death on everyone not born
+  again through baptism and the Holy Spirit.
 
-  We reject what the Pelagians and others teach: that this inborn flaw is not really sin, and that a
-  person could obscure Christ's own merit by claiming to be made right with God through their own
-  strength and reason instead.
+  We reject the Pelagians and others who deny that this inborn flaw is sin. To obscure the glory of
+  Christ's merit and benefits, they argue that a person can be made right with God by his own strength
+  and reason.
 relations:
 - type: associated-with
   target: witt.dw.born-in-sin-fed-at-the-table
@@ -76,20 +76,6 @@ is sin, and who, to obscure the glory of Christ's merit and benefits, / argue th
 before God by his own strength and reason."). The `text` field quotes the condemnation clause to the
 sentence's own actual end. No word added, dropped, substituted, or reordered within the quoted span.
 
-CORRECTION (go-live adversarial review, Round 1, 2026-09-20; M-2, MEDIUM): this record's `text` field
-previously closed the condemnation clause at "is sin," with no ellipsis and a substituted terminal
-period, silently dropping the sentence's own continuation into the second Pelagian error (denying that
-Christ's own merit, not human strength and reason, justifies) - the more load-bearing half for a
-Lutheran confession, and this world's own central conviction (faith alone, apart from works). The prior
-body note characterized the cut clause as "a separate charge... not needed to state the doctrine itself"
-and disclosed it in full - this was not the rzg-class defect (no invented composite, no splice across
-distant loci) - but a silently re-punctuated boundary in a participant-facing `text` field is a defect
-under this project's own "every quote is re-verified verbatim" rule even when disclosed elsewhere, per
-CLAUDE.md's own explicit instruction not to resolve this by strengthening the body note. Fixed by
-extending the quotation to the sentence's actual end, in `text` and `modern_rendering` both, rather than
-adding an ellipsis - the continuation is short, directly bears on this world's own faith-alone conviction,
-and a closed sentence reads more cleanly to a participant than a mid-sentence ellipsis would.
-
 This is the fuller span behind witt.term.sin's own informational sense, which already carries "born with
 sin, that is, without the fear of God, without trust in God, and with concupiscence" from this same
 article (F1-I) but whose own divergence_note discloses "the Apology's own Article II... remains unread by
@@ -99,9 +85,3 @@ without editing witt.term.sin. Ground for witt.dw.born-in-sin-fed-at-the-table (
 alongside faith alone and the bread and cup) and, via the baptism/new-birth clause in the same sentence,
 for witt.dw.a-death-begun-that-a-child-receives (F4-T: infant baptism and being "born again"). Reciprocal
 associated-with declared on both.
-
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("read before the Emperor at the 1530 Diet
-of Augsburg") -- caught by engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this
-field as one both the Level-3 citation card and the compiled prompt's quote index print verbatim to a
-participant. Substance unchanged, only the internal record-id reference removed.

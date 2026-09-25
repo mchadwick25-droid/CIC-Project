@@ -50,12 +50,15 @@ modern_lens_note: >-
   is not indifference to what is taught. It is a claim about which differences actually divide a church
   from the true unity, and which do not.
 modern_rendering: >-
-  We also teach that one holy Church will go on forever. The Church is the whole community of the faithful,
-  the people among whom the good news is taught rightly and the sacraments are given rightly.
+  We also teach that one holy Church will go on forever. The Church is the
+  community of saints, in which the good news is taught rightly and the
+  sacraments are given rightly.
 
-  For the true unity of the Church, it is enough to agree on the teaching of the good news and on how the
-  sacraments are given. It is not necessary for every human custom -- every rite or ceremony people have
-  set up -- to be the same everywhere. As Paul says: one faith, one baptism, one God and Father of all.
+  For the true unity of the Church, it is enough to agree on the teaching of
+  the good news and on how the sacraments are given. Nor is it necessary for
+  human traditions -- that is, rites or ceremonies set up by people -- to be
+  alike everywhere. As Paul says, there is one faith, one baptism, one God and
+  Father of all, and so on.
 relations:
 - type: associated-with
   target: witt.dw.one-holy-church-forever
@@ -82,8 +85,3 @@ answer different canon questions: this one defines what a church IS, in our own 
 states that OUR OWN teaching does not depart from that universal Church or from Scripture. Reciprocal
 associated-with declared on witt.dw.one-holy-church-forever.
 
-CORRECTION (Phase C recon, 2026-09-19): speaker_or_author's own raw reference to
-"witt.story.diet-of-augsburg-1530" replaced with plain prose ("the 1530 Diet of Augsburg") -- caught by
-engine.m1.cross_world's check_quote_speaker_labels, which correctly flags this field as one both the
-Level-3 citation card and the compiled prompt's quote index print verbatim to a participant. Substance
-unchanged, only the internal record-id reference removed.

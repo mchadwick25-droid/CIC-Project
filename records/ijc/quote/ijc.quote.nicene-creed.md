@@ -25,6 +25,15 @@ text: We believe in one God, the Father Almighty, maker of all things visible an
   salvation came down [from heaven] and was incarnate and was made man. He suffered and the third day he
   rose again, and ascended into heaven. And he shall come again to judge both the quick and the dead. And
   [we believe] in the Holy Ghost.
+modern_rendering: >-
+  We believe in one God, the Father Almighty, maker of all things visible and invisible.
+  And we believe in one Lord Jesus Christ, the Son of God, the only-begotten of his
+  Father, of the substance of the Father, God from God, Light from Light, true God from
+  true God, begotten...not made, of one substance...with the Father. Through him all
+  things were made, both what is in heaven and what is on earth. For us and for our
+  salvation, he came down [from heaven], and became flesh, and was made man. He suffered,
+  and on the third day he rose again, and ascended into heaven. And he will come again to
+  judge both the living and the dead. And [we believe] in the Holy Spirit.
 speaker_or_author: "The Council of Nicaea (325)"
 license: verbatim
 modern_lens_note: >-

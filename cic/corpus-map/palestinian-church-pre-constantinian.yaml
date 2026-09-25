@@ -8,14 +8,13 @@ works:
   locus: div2 6.4
   role: tradition
   confidence: assigned
-  note: 'Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and founder of
-    the Jerusalem library; the letter fragments mention Clement and Origen (transmitted via
-    Eusebius). The Jerusalem entry''s range (325-450) postdates him by a century; Alexandria
-    fits his formation only. Tiny fragments (~1k words); needs a ruling. Re-pointed 2026-08-26:
-    palestinian-church-pre-constantinian (era 1, c. 185-312) was added on record. Works flagged
-    in THREE separate piles turned out to be this one hole - Alexandria was standing in for
-    it on the strength of correspondence with Origen, who himself moved to Caesarea around
-    231.'
+  note: Alexander, bishop of Jerusalem (d. 251), fellow student of Origen and founder of the
+    Jerusalem library; the letter fragments mention Clement and Origen (transmitted via Eusebius).
+    The Jerusalem entry's range (325-450) postdates him by a century; Alexandria fits his
+    formation only. Tiny fragments (~1k words); needs a ruling. palestinian-church-pre-constantinian
+    (era 1, c. 185-312) is the entry this hole was asking for. Works flagged in THREE separate
+    piles turned out to be this one hole - Alexandria was standing in for it on the strength
+    of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Martyrs of Palestine
   author: eusebius
@@ -25,35 +24,35 @@ works:
   note: 'Eyewitness record of the Diocletianic persecution in Palestine, 303-311. A reader
     names it as its own work, so it is listed apart from the History. The doubt: the census
     has no entry for the pre-Constantinian Palestinian church, and no era-1 entry covers the
-    Great Persecution. Parked as context for ijc, whose settlement this persecution immediately
-    precedes and explains; Mark may prefer another home or none. Re-pointed 2026-08-26: palestinian-church-pre-constantinian
-    (era 1, c. 185-312) was added on record. Works flagged in THREE separate piles turned
-    out to be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231.'
+    Great Persecution. This persecution immediately precedes and explains ijc''s own settlement.
+    palestinian-church-pre-constantinian (era 1, c. 185-312) holds it directly. Works flagged
+    in THREE separate piles turned out to be this one hole - Alexandria was standing in for
+    it on the strength of correspondence with Origen, who himself moved to Caesarea around
+    231.'
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - work: The Epistle to Aristides
   author: juliusafricanus
   locus: div2 5.3
   role: tradition
   confidence: assigned
-  note: 'On the harmony of the gospel genealogies - pioneering critical scholarship. Africanus
+  note: On the harmony of the gospel genealogies - pioneering critical scholarship. Africanus
     (3rd-c. Emmaus/Palestine) has no census home; shelved with alexandria-catechetical only
     on the strength of his documented scholarly exchange with Origen (the Susanna correspondence,
-    anf04 div2 6.6-6.7). Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
-    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
-    be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231.'
+    anf04 div2 6.6-6.7). palestinian-church-pre-constantinian (era 1, c. 185-312) is the entry
+    this hole was asking for. Works flagged in THREE separate piles turned out to be this
+    one hole - Alexandria was standing in for it on the strength of correspondence with Origen,
+    who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: The Extant Fragments of the Five Books of the Chronography of Julius Africanus
   author: juliusafricanus
   locus: div2 5.5
   role: tradition
   confidence: assigned
-  note: 'The first Christian universal chronicle, foundation of Eusebius'' chronography. Same
-    missing-home problem; same provisional shelf. Re-pointed 2026-08-26: palestinian-church-pre-constantinian
-    (era 1, c. 185-312) was added on record. Works flagged in THREE separate piles turned
-    out to be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231.'
+  note: The first Christian universal chronicle, foundation of Eusebius' chronography. Same
+    missing-home problem; same provisional shelf. palestinian-church-pre-constantinian (era
+    1, c. 185-312) is the entry this hole was asking for. Works flagged in THREE separate
+    piles turned out to be this one hole - Alexandria was standing in for it on the strength
+    of correspondence with Origen, who himself moved to Caesarea around 231.
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
 - work: Fragment of Maximus of Jerusalem
   author: maximus-of-jerusalem
@@ -61,11 +60,10 @@ works:
   role: tradition
   confidence: needs-ruling
   note: 'Bishop of Jerusalem, A.D. 185-196 per the notice, On the Origin of Evil. No 2nd-century
-    Jerusalem entry exists (the Jerusalem entry begins 325); pahc is a stand-in. The attribution
-    of this large fragment is itself disputed (it circulates with Methodius'' material), which
-    the notice acknowledges. Re-pointed 2026-08-26: palestinian-church-pre-constantinian (era
-    1, c. 185-312) was added on record. Works flagged in THREE separate piles turned out to
-    be this one hole - Alexandria was standing in for it on the strength of correspondence
-    with Origen, who himself moved to Caesarea around 231. STILL `needs-ruling`: the attribution
-    doubt in this note is untouched by a new entry.'
+    Jerusalem entry exists (the Jerusalem entry begins 325); pahc was a stand-in for it. palestinian-church-pre-constantinian
+    (era 1, c. 185-312) fills that hole - the same hole behind several other works in this
+    volume that had been standing in on Alexandria, on the strength of correspondence with
+    Origen, who himself moved to Caesarea around 231. Still `needs-ruling`: the attribution
+    of this large fragment is itself disputed (it circulates with Methodius'' material, per
+    the notice), and that doubt is untouched by the new entry.'
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml

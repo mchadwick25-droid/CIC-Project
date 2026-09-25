@@ -40,9 +40,8 @@ p{margin:0 0 1rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
 /* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row (Mark, 2026-09-19): the nav collapses into a "Menu" dropdown since
-   all four don't fit alongside the rest in one row at this header's own
-   1024px width. */
+   row: the nav collapses into a "Menu" dropdown since all four don't fit
+   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
@@ -51,11 +50,11 @@ p{margin:0 0 1rem}
 /* Centered in the space actually available between the logo and the menu
    button, not naive full-row-width centering (that ignores the wordmark's
    and menu button's own widths and can visually collide with the
-   wordmark) -- Mark, 2026-09-19: "can you center them". Grid's
-   max-content/1fr/max-content sizes the outer two columns to the
-   wordmark's and menu's own content exactly, so the middle column is
-   whatever's genuinely left, with no risk of overlapping either side --
-   only turned on above the width where the whole row fits unwrapped. */
+   wordmark). Grid's max-content/1fr/max-content sizes the outer two
+   columns to the wordmark's and menu's own content exactly, so the
+   middle column is whatever's genuinely left, with no risk of
+   overlapping either side -- only turned on above the width where the
+   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -67,9 +66,8 @@ p{margin:0 0 1rem}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
 /* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
    real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu (Mark, 2026-09-19:
-   "you shouldn't have to click to get it to allow you to move in the hover
-   mode"). The ::before bridges the .5rem visual gap so :hover survives the
+   which drops :hover before the pointer reaches the menu. The ::before
+   bridges the .5rem visual gap so :hover survives the
    crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
@@ -241,11 +239,9 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 
   <div class="page">
     <div class="article">
-      <!-- Kept standalone when the "Who is speaking" section (its original home)
-           was cut in the 2026-09-21 card redesign: this is a safety disclosure,
-           not gap/thinness content, and CLAUDE.md's own safety priority holds
-           regardless of what else moves - see cic-website/traditions/*.html's
-           pre-redesign `who_speaks` section for its prior placement. -->
+      <!-- This is a safety disclosure, not
+           gap/thinness content, and CLAUDE.md's own safety priority holds
+           regardless of what else moves. -->
       <p class="distress">If a conversation touches real distress, a separate, clearly-labeled voice steps in to direct you toward real human support.</p>
 
       <section aria-labelledby="story-title">
@@ -343,8 +339,8 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
       </section>
 
       <!-- Judgment call (flagged in this generator's own report): the glossary
-           and pull-quotes fields are the two world_front units with no section
-           of their own in the old hand-built pages. Rather than two more
+           and pull-quotes fields are the two world_front units with no
+           dedicated section of their own. Rather than two more
            full-width sections, they share one compact strip - pull quotes as
            blockquotes, then a small glossary grid - placed after Sources and
            before the closing Questions section. -->
@@ -353,10 +349,10 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
         <p class="eyebrow">In this world's own words</p>
         <h2 id="glossary-and-quotes-title">A few terms and lines worth knowing</h2>
         <div class="orient-pull-quotes">
-      <blockquote class="orient-pull-quote"><p>So I decided I had to get the truth by questioning two female slaves, the ones called deaconesses. I questioned them under torture. I found nothing but a crude and excessive superstition. So I have put off any further investigation, and I am turning to you for advice.</p><cite>Pliny the Younger, governor of Bithynia, to the emperor Trajan</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>There are two ways: one of life and one of death, and there is a great difference between the two ways. The way of life is this. First, you shall love God, who made you; second, your neighbor as yourself. And whatever you would not want to happen to you, do not do to another.</p><cite>the manual known as the Didache, or the Teaching of the Twelve Apostles</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>I therefore considered it all the more necessary to examine two female slaves, called deaconesses. I did this even with torture, to find out the truth. But I found nothing except a superstition, depraved and immoderate. And so, putting off further inquiry, I have turned to you for advice.</p><cite>Pliny the Younger, governor of Bithynia, to the emperor Trajan</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>There are two ways: one of life and one of death, and there is a great difference between the two ways. The way of life is this. First, you shall love God, who made you; second, your neighbor as yourself. And all the things you would not want to happen to you, you also must not do to another.</p><cite>the manual known as the Didache, or the Teaching of the Twelve Apostles</cite></blockquote>
       <blockquote class="orient-pull-quote"><p>Now about the Thanksgiving - the Eucharist. Give thanks this way. First, over the cup: We thank you, our Father, for the holy vine of David your servant, which you made known to us through Jesus your Servant. To you be the glory forever.</p><cite>the manual known as the Didache</cite></blockquote>
-      <blockquote class="orient-pull-quote"><p>As for us, we keep the exact day, adding nothing and taking nothing away. Great lights of the faith have died here in Asia, and they will rise again on the day the Lord comes. I, Polycrates, the least of you all, follow the tradition of my family. Seven of my relatives were bishops, and I am the eighth. I am sixty-five years old in the Lord, brothers. I have met believers from all over the world, and I have read the whole of Holy Scripture. And I am not frightened by threats. Men greater than I have said: &#39;We ought to obey God rather than men.&#39;</p><cite>Polycrates, bishop of Ephesus, writing to Victor of Rome</cite></blockquote>
+      <blockquote class="orient-pull-quote"><p>As for us, we scrupulously keep the exact day, adding nothing and taking nothing away. For in Asia great luminaries have gone to their rest, who shall rise again on the day the Lord comes. Moreover I also, Polycrates, the least of you all, follow the tradition of my relatives, some of whom I have succeeded. Seven of my relatives were bishops, and I am the eighth, and my relatives always observed the day when the people put away the leaven. I myself, brothers, am sixty-five years old in the Lord. I have met with the brothers in all parts of the world, and have read through all Holy Scripture. I am not frightened by the things which are said to terrify us. For those who are greater than I have said: &#39;We ought to obey God rather than men.&#39;</p><cite>Polycrates, bishop of Ephesus, writing to Victor of Rome</cite></blockquote>
       </div><dl class="orient-glossary">
       <div class="orient-glossary-item"><dt>episkopos</dt><dd>The overseer: the one who watches over a community&#39;s table and its unity. Whether every church should have one such man, or whether the elders share that trust together, is a question still being argued.</dd></div>
       <div class="orient-glossary-item"><dt>presbyteros</dt><dd>The elders who share the governing of a community. In some churches they are a council holding the whole trust themselves; in others they gather around one overseer.</dd></div>

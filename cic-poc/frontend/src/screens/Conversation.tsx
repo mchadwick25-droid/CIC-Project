@@ -1,8 +1,6 @@
 import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
-import { ReadAloudControl } from '../components/ReadAloudControl';
-import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
 import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
@@ -86,7 +84,10 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
             return (
               <div key={i} className="turn turn--facilitator">
                 {facilitatorParagraphs(turn.text).map((paragraph, j) => (
-                  <p key={j}>{paragraph}</p>
+                  <p key={j}>
+                    {paragraph}
+                    {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
+                  </p>
                 ))}
               </div>
             );

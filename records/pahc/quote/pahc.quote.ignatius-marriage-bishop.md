@@ -18,6 +18,10 @@ sources:
   locus: "To Polycarp 5, shorter (middle) recension"
   license: public-domain
 text: "But it becomes both men and women who marry, to form their union with the approval of the bishop, that their marriage may be according to God, and not after their own lust. Let all things be done to the honour of God."
+modern_rendering: >-
+  It is fitting for both men and women who marry to form their union with the bishop's
+  approval, so that their marriage may be according to God, and not after their own lust.
+  Let everything be done to the honor of God.
 speaker_or_author: pahc.figure.ignatius
 license: verbatim
 modern_lens_note: >

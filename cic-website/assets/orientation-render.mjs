@@ -3,8 +3,8 @@
  * output, cic-website/data/worlds/<census_id>.json) -> participant-facing
  * HTML fragments.
  *
- * Website V2 world_front design (approved to proceed 2026-09-19), site
- * cutover stage. This is the ONE place the Orientation-tier content
+ * Website V2 world_front design, approved to proceed, site cutover
+ * stage. This is the ONE place the Orientation-tier content
  * (story/documented_stories/voices/floor_note/legacy/relations_summary/
  * sourcing/read_first) and the Narrative-tier content (who_speaks/quiet/
  * questions/glossary/pull_quotes) turn into HTML, so the Atlas panel

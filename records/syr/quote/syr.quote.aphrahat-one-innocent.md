@@ -19,6 +19,9 @@ sources:
   license: public-domain
 text: Of all those who are begotten, who have put on a body, there is only One innocent, that is our Lord
   Jesus Christ
+modern_rendering: >-
+  Of all who are born, who have taken on a body, there is only one who is innocent -- our
+  Lord Jesus Christ.
 speaker_or_author: syr.figure.aphrahat
 license: verbatim
 modern_lens_note: 'No significant modern-lens vocabulary risk identified for this quote.'

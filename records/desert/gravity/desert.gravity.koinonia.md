@@ -43,7 +43,21 @@ relations:
 - type: illustrated-by
   target: desert.story.angel-hands-the-tablet
 name: "Koinonia - communal rule and common property [SUPPORTING]"
-description: "The Pachomian federation's own name for its linked houses under one written rule and one head - the organizing principle of Strand B's entire social structure. Strong within the Pachomian corpus on every test - repetition, dependency, formation, explanatory power - but fails the Persistence test outright: no equivalent exists in Strand A or C. Confidence is not the limiting factor (Widely Accepted); cross-strand persistence is. Classified Supporting: it organizes a real and major portion of this world's ecology, within the context Primary gravities establish, but does not organize the ecology as a whole. Stands as one pole of the authority-tension gravity (10) against the elder-mediated model (gravity 3). Emerges specifically from the 'replicating Antony's path at scale' sub-problem Doc_01 SS7 names, not from the generating force (martyrdom's unavailability) directly."
+description: "Koinonia was the Pachomian federation's own name for its linked houses, which lived under one written rule and one
+  head. It is the organizing principle of the federation's whole social structure.
+
+
+  Within the Pachomian writings the case is strong on every count. It recurs often, much depends on it, it forms people
+  directly, and it explains a great deal. But it fails outright on one point: it does not persist across this world.
+  Nothing like it exists among the solitary hermits or in the settlements of Nitria, Kellia, and Scetis. The evidence is
+  not the problem, since scholars broadly accept it. What limits it is that it never spreads beyond the federation.
+
+
+  So it organizes a real and major part of this world's life, within the setting that this world's central patterns
+  establish. But it does not organize the whole. It stands at one end of the tension over authority, opposite the model
+  of a living elder's personal example and counsel. It grew specifically from the problem of reproducing Antony's path
+  at scale. It did not grow directly from the force that set this world in motion, the fact that martyrdom was no longer
+  available."
 classification: supporting
 manifestations:
 - "nine men's houses and two women's houses under Pachomius by his death in 346 (federation history, via Rousseau - not carried by either vendored witness, which give population figures, not house counts)"

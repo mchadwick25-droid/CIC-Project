@@ -19,6 +19,10 @@ sources:
   license: public-domain
 text: He, the true, the Sicilian bee, gathering the spoil of the flowers of the prophetic and apostolic
   meadow, engendered in the souls of his hearers a deathless element of knowledge.
+modern_rendering: >-
+  He was the true Sicilian bee. He gathered the spoil of the flowers in
+  the prophetic and apostolic meadow. And he produced in the souls of his
+  listeners a deathless element of knowledge.
 speaker_or_author: alx.figure.clement
 license: verbatim
 modern_lens_note: >

@@ -3,17 +3,69 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: roman-church-gregorian
 works:
+- work: Morals on the Book of Job (Moralia in Job), Books I-X
+  author: gregory
+  locus: whole text - Vol. I, Parts I-II, Books I-X
+  role: tradition
+  confidence: assigned
+  note: 'Gregory''s own massive allegorical commentary on Job, Library of the Fathers series,
+    tr. James Bliss (per the set''s later volumes; this first volume''s own preface leaves
+    the translator anonymous). First of four parts vendored together 2026-09-24 to complete
+    the whole work (Books I-XXXV, no gaps, no overlaps - see the companion three parts'' own
+    notes, same atlas_id, same role/confidence). A verified acquisition lead from roman-church-gregorian_Source_Readiness_Dossier.md
+    §3, closing the census''s own confirmed gap (neither the Dialogues nor the Moralia had
+    been vendored anywhere in this corpus). Tradition per this entry''s own standing rule
+    for Gregory''s own voice.
+
+    '
+  source_file: gregory-great_moralia-in-job-books-i-x_bliss1844.txt
+- work: Morals on the Book of Job (Moralia in Job), Books XI-XXII
+  author: gregory
+  locus: whole text - Vol. II, Parts III-IV, Books XI-XXII
+  role: tradition
+  confidence: assigned
+  note: 'Second of four parts vendored together 2026-09-24 to complete the whole Moralia (Books
+    I-XXXV, no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s
+    own note for the full set and the dossier reference. Tradition per this entry''s own standing
+    rule for Gregory''s own voice.
+
+    '
+  source_file: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
+- work: Morals on the Book of Job (Moralia in Job), Books XXIII-XXIX
+  author: gregory
+  locus: whole text - Vol. III, First Part (Parts V-VI), Books XXIII-XXIX
+  role: tradition
+  confidence: assigned
+  note: 'Third of four parts vendored together 2026-09-24 to complete the whole Moralia (Books
+    I-XXXV, no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s
+    own note for the full set and the dossier reference. This part''s own book range (Books
+    XXIII-XXIX) was directly re-verified against its own title page and contents this session,
+    correcting the dossier''s provisional note (2026-09-21), which had attributed Books XXX-XXXV
+    to this identifier - that range in fact belongs to the companion part below. Tradition
+    per this entry''s own standing rule for Gregory''s own voice.
+
+    '
+  source_file: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
+- work: Morals on the Book of Job (Moralia in Job), Books XXX-XXXV
+  author: gregory
+  locus: whole text - Vol. III, Second Part, Books XXX-XXXV (completing the work)
+  role: tradition
+  confidence: assigned
+  note: 'Fourth and last of four parts vendored together 2026-09-24 to complete the whole
+    Moralia (Books I-XXXV, no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s
+    own note for the full set and the dossier reference. Tradition per this entry''s own standing
+    rule for Gregory''s own voice.
+
+    '
+  source_file: gregory-great_moralia-in-job-books-xxx-xxxv_bliss1850.txt
 - work: Register of the Epistles of St. Gregory the Great (Books I-VIII selection)
   author: gregory
   locus: div2 3.5 — Register of the Epistles, Books I-VIII; continued as Books IX-XIV in npnf213
   role: tradition
   confidence: assigned
-  note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register
-    is placed with the entries its correspondence founds or documents'' - roman-church-gregorian
-    (II.18) now exists, so the Register comes home. This row is the TRADITION row: fourteen
-    years of a bishop administering a city, which is this entry''s own voice and nobody else''s.
-    The four entries the letters describe keep their rows, as `context`, which is what they
-    always were.
+  note: 'roman-church-gregorian (II.18) is the Register''s home. This row is the TRADITION
+    row: fourteen years of a bishop administering a city, which is this entry''s own voice
+    and nobody else''s. The four entries the letters describe keep their rows, as `context`.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
@@ -23,12 +75,9 @@ works:
     I-VIII)
   role: tradition
   confidence: assigned
-  note: 'RE-POINTED 2026-08-27. The old note ended ''no era-3 Roman entry exists, so the Register
-    is placed with the entries its correspondence founds or documents'' - roman-church-gregorian
-    (II.18) now exists, so the Register comes home. This row is the TRADITION row: fourteen
-    years of a bishop administering a city, which is this entry''s own voice and nobody else''s.
-    The four entries the letters describe keep their rows, as `context`, which is what they
-    always were.
+  note: 'roman-church-gregorian (II.18) is the Register''s home. This row is the TRADITION
+    row: fourteen years of a bishop administering a city, which is this entry''s own voice
+    and nobody else''s. The four entries the letters describe keep their rows, as `context`.
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
@@ -37,11 +86,32 @@ works:
   locus: div2 3.4 — The Book of Pastoral Rule
   role: tradition
   confidence: assigned
-  note: 'RULED 2026-08-27: roman-church-gregorian (II.18, c. 560-604) was minted, and the
-    worker''s objection is answered directly - the Pastoral Rule is an episcopal manual, not
-    a monastic one, and now sits with the episcopate rather than with the monastery. Its enormous
-    later reception (Carolingian legislation, Alfred''s translation) stays noted rather than
-    asserted as assignments.
+  note: 'roman-church-gregorian (II.18, c. 560-604) holds this: the Pastoral Rule is an episcopal
+    manual, not a monastic one, so it sits with the episcopate rather than with the monastery.
+    Its enormous later reception (Carolingian legislation, Alfred''s translation) stays noted
+    rather than asserted as assignments.
 
     '
   source_file: npnf212_leo-great-gregory-great.xml
+- work: The Dialogues of Saint Gregory, surnamed the Great (all four Books)
+  author: gregory
+  locus: whole text - Book I (Italian abbots and monks), Book II (the Life of St. Benedict
+    of Nursia), Book III (Italian bishops and martyrs), Book IV (the immortality of the soul)
+  role: tradition
+  confidence: assigned
+  note: 'Gregory''s own hagiographical/theological dialogues, tr. "P.W." (1608), re-ed. Gardner
+    (1911). Vendored 2026-09-24, a verified acquisition lead from roman-church-gregorian_Source_Readiness_Dossier.md
+    §3, re-verified directly against archive.org (explicit NOT_IN_COPYRIGHT) rather than taken
+    on the dossier''s own note alone. Tradition per this entry''s own standing rule for Gregory''s
+    own voice (see the Register and Pastoral Rule rows already here): this is Gregory speaking,
+    not a description of him. Book II is the only surviving Life of St. Benedict of Nursia
+    - confirmed directly against this file''s own contents (Book I ends, "The Second Book",
+    headed "Of the Life and Miracles of St. Bennet", begins immediately after) - and is a
+    real, not yet acted-on, potential cross-link to early-benedictine-italian-monasticism
+    (whose own census entry names Gregory as the author of "the only life of Benedict there
+    is"); left unassigned there per this session''s own scope (Doc_02''s or the project lead''s
+    call, not decided here), and per the dossier''s own open question at §5 about the overlap
+    between these two entries.
+
+    '
+  source_file: gregory-great_dialogues_gardner1911.txt

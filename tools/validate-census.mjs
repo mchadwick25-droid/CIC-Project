@@ -38,6 +38,12 @@ const byId = new Map();
   if (m.era != null && !eraNums.has(m.era)) errs.push(`${m.id}: unknown era ${m.era}`);
   if (m.status === "Built & Live" && !m.entry) errs.push(`${m.id}: Built & Live but no entry block`);
   if (m.shortName && m.shortName.length > 20) warn.push(`${m.id}: shortName >20 chars ("${m.shortName}")`);
+  // Decision 7 (2026-09-25, Mark's ruling "a"): statusWord is plain words at
+  // the source, never a build-stage tag - the "(Era N Step 0)" suffix this
+  // check guards against was dropped fleet-wide from all 220 movements that
+  // carried it, and must not come back.
+  if (m.statusWord && (m.statusWord.includes("Step 0") || m.statusWord.includes("(Era ")))
+    errs.push(`${m.id}: statusWord carries a build-stage tag ("${m.statusWord}") - plain words only`);
 });
 
 // --- edges ---
