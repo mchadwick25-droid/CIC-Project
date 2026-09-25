@@ -14,12 +14,13 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
 | The Epistle of Malchion, in the name of the Synod of Antioch, against Paul of Samosata (with fragments of the disputation) | malchion | tradition | assigned | ~3,000 words | anf06 |
+| The Church History of Eusebius, Book VII, chs. 27–29 (Paul of Samosata's condemnation, narrated) | eusebius | context | assigned | — | npnf201 |
 
-**This is the thinnest bucket the corpus-map holds anywhere.** RULED 2026-08-27: this entry (I.42, c. 190–312) was minted specifically to hold this one work, since the census's only other Antioch entry (`antiochene-exegetical-christianity-chrysostom-ce`, I.13) is Chrysostom-centered and opens eighty years later. This is the whole of the entry's corpus.
+**RULED 2026-08-27: this entry (I.42, c. 190–312) was minted specifically to hold the Malchion letter**, since the census's only other Antioch entry (`antiochene-exegetical-christianity-chrysostom-ce`, I.13) is Chrysostom-centered and opens eighty years later. That letter remains the entry's only `tradition`-role, primary-voice work; the Eusebius row added 2026-09-25 (below) is a second, `context`-role external witness, not a second primary source — "thinnest bucket the map holds" is no longer literally true of the row count, but is still true of the primary-voice corpus.
 
 ## 2. Cross-link opportunities
 
-None found. The thinness is real, not a linking oversight.
+**Closed, 2026-09-25:** Eusebius's *Church History* (`npnf201_eusebius-church-history-life-of-constantine`), Book VII, chapters 27–29 — his own narrative of Paul of Samosata's condemnation (dating discussion, the roll of bishops assembled at Antioch, and Malchion's role in the disputation), distinct from the synodal epistle extracts in ch. 30 (which overlap the `anf06` Malchion translation already assigned here — the letter survives only via that Eusebius extract, so ch. 30 is not counted as a second witness). Added as `context`: a genuine second, independent near-contemporary voice on this world's one event, not previously cross-linked. Paul's own teaching remains unattested in translation (§5 below); this closes a linking gap, not the floor question.
 
 ## 3. Verified acquisition leads
 
