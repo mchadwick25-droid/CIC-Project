@@ -27,8 +27,8 @@ relations:
 claim: Augustine's own writings against Pelagius give a true picture of what Pelagius himself held. Pelagius
   held that a believer's own moral effort, unaided, is enough to obey what God commands. Later writers
   picked up this same dispute. Writers from the Reformation did this. So did modern Catholic and Protestant
-  writers. They used it to argue opposite views on grace and merit. This claim holds one thing. Augustine
-  set the terms of that argument, and he set them correctly.
+  writers. They used it to argue opposite views on grace and merit. This claim holds that Augustine set
+  the terms of that argument, and set them correctly.
 held_against:
 - This world's own build record names, without adjudicating it, a live modern scholarly reassessment of
   'whether the position we argue against is the one Pelagius himself actually held' (records/lpc/term/lpc.term.grace.md,

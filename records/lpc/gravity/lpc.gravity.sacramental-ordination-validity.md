@@ -52,7 +52,7 @@ description: >-
 
   It recurs strongly. It appears in Cyprian's letters on rebaptism. It appears in the ruling of the Council of 256.
   And it appears throughout Augustine's On Baptism. That work argues it at book length. Unlike conciliar authority, it
-  is not confined to one source. Two separate bishops treat it at length, decades apart.
+  is not confined to one source. Two independent bishops treat it at length, decades apart.
 
 
   Other concerns in this world lean on it. Collegial communion is tested hardest here. That is because of two things.

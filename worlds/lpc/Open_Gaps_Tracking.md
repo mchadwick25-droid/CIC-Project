@@ -1696,10 +1696,10 @@ they've changed. Isn't real forgiveness supposed to be unconditional?" — FRE 5
 line is not free-standing dialogue invented for the demonstration record. It is the verbatim
 `participant` turn from the validated Phase Five Boundary Testing transcript
 (`worlds/lpc/Representative/lpc_Rep_Phase5_Boundary_Testing_Round1.md`, item 14, "Sustained
-Engagement — full transcript"), and the record's own body note states the `representative`
-turn that follows it "presses exactly as tested." Rewording the participant line breaks that
-correspondence and makes the body note's own claim false — confirmed directly against the
-transcript file, not just taken on the reviewer's word.
+Engagement — full transcript"), and the record's own body note states this exact line — "the
+harder follow-up (turn 3's own actual scenario sentence)" — "presses exactly as tested."
+Rewording it breaks that correspondence and makes the body note's own claim false — confirmed
+directly against the transcript file, not just taken on the reviewer's word.
 
 The field has been reverted to its exact original wording (byte-identical to before the
 readability pass). This restores correctness but leaves the field failing
