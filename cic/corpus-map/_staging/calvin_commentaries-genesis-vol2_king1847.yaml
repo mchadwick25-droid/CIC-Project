@@ -1,0 +1,18 @@
+# Closes a Verified Acquisition Lead from the Reformed Cities dossier
+# (Atlas VI.2) - see calvin_commentaries-genesis-vol1_king1847.yaml for the
+# same partial-acquisition disclosure against the wider CTS Commentaries
+# series.
+source_file: calvin_commentaries-genesis-vol2_king1847.txt
+
+assignments:
+  - work: "Commentaries on the First Book of Moses, Called Genesis, Vol. II"
+    author: calvin
+    locus: "whole file - Vol. II"
+    atlas_ids:
+      - the-reformed-cities-zurich-and-geneva
+    role: tradition
+    confidence: assigned
+    note: >
+      Completes the two-volume Genesis commentary begun in
+      calvin_commentaries-genesis-vol1_king1847.txt, same edition and
+      vendoring basis.
