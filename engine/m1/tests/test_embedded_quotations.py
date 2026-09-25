@@ -1,11 +1,13 @@
 """Hermetic (no live model call) tests for engine.m1.embedded_quotations:
 field-scoping (spoken fields only, never sources[].locus), the word-count
-floor, the quote record exclusion, and survey_world's aggregation - plus a
+floor, the quote record exclusion, family-aware quote pairing, the
+build-document self-quote tag, and survey_world's aggregation - plus a
 real-record regression pinning OG-10's own worked instance
 (worlds/pahc/Open_Gaps_Tracking.md)."""
 from engine.m1.embedded_quotations import (
     MIN_QUOTED_WORDS,
     find_embedded_quotations,
+    quoted_spans_by_family,
     survey_world,
 )
 
@@ -91,18 +93,75 @@ def test_real_pahc_regression_one_eucharist_under_bishop_og10():
 
 
 def test_fleet_survey_world_counts_match_the_og10_baseline():
-    """Pinned against worlds/pahc/Open_Gaps_Tracking.md OG-10's own table
-    (PR #480's fleet-wide measurement, reproduced here at record-id
-    granularity): record counts per world, not span counts (PR #480's own
-    span totals used a slightly different counting convention). gallic's
-    own count (83) is one below PR #480's original 84 - a known, already
-    investigated one-record discrepancy (a hand-read at the time found a
-    few of PR #480's raw hits were the project's own analytic prose, not a
-    real source quotation), not a regression of this module."""
+    """Pinned against worlds/pahc/Open_Gaps_Tracking.md OG-10's own table:
+    record counts per world (not span counts, which move independently as
+    pairing/self-quote fixes land)."""
     baseline = {
-        "pahc": 14, "syr": 2, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
-        "cappadocian": 3, "don": 11, "rzg": 11, "witt": 48, "gallic": 83,
+        "pahc": 14, "syr": 3, "desert": 5, "hal": 5, "alx": 9, "ijc": 7,
+        "cappadocian": 3, "don": 12, "rzg": 11, "witt": 49, "gallic": 83,
     }
     for world, expected in baseline.items():
         result = survey_world(world)
         assert result["records_with_embedded_quotation"] == expected, world
+
+
+def test_quoted_spans_by_family_never_pairs_a_double_open_with_a_single_close():
+    """A single-quoted sentence with a nested double-quoted phrase inside
+    it (the real shape found in gallic.force.power-displayed-disowned's
+    own description field) must not let the inner double-quote's own
+    close swallow the outer single quote's real close - the outer
+    single-quoted span must still reach its own real end. The inner
+    double-quoted phrase is also, correctly, its own separate span (each
+    family is scanned independently) - not a bug, just a nested quote."""
+    text = "before 'it never became an argument, which is Doc_04's own \"strongest case\" and is not resolved.' after"
+    inners = [s[2] for s in quoted_spans_by_family(text)]
+    assert 'it never became an argument, which is Doc_04\'s own "strongest case" and is not resolved.' in inners
+
+
+def test_quoted_spans_by_family_pairs_double_and_single_independently():
+    text = 'He said "a real double quote here" and also \'a real single quote here\'.'
+    spans = quoted_spans_by_family(text)
+    inners = [s[2] for s in spans]
+    assert "a real double quote here" in inners
+    assert "a real single quote here" in inners
+
+
+def test_a_plural_possessive_apostrophe_is_never_read_as_a_closing_single_quote():
+    """'the fathers' grace' - a bare "s'" possessive with nothing after it
+    but a space - is the one apostrophe shape that can otherwise pass as a
+    real closing single quote (non-space before, space/punctuation after,
+    exactly a real close's own shape)."""
+    text = "'in crying signs' - and the Egyptian fathers' grace shown here was never quoted at all in this sentence of plain prose."
+    spans = quoted_spans_by_family(text)
+    assert len(spans) == 1
+    assert spans[0][2] == "in crying signs"
+
+
+def test_a_span_naming_the_build_apparatus_is_tagged_not_counted_as_an_old_translation():
+    record = {
+        "record_type": "force",
+        "description": 'The finding stands: \'this connects directly to Doc_04\'s own G6 cell and the CLASSIFICATION layer above it, tying formation to structure\'.',
+    }
+    hits = find_embedded_quotations(record)
+    assert len(hits) == 1
+    assert hits[0]["self_quote_of_build_document"] is True
+
+
+def test_survey_world_counts_a_build_document_self_quote_separately_from_old_translations():
+    records = {
+        "w.force.a": {
+            "id": "w.force.a",
+            "record_type": "force",
+            "description": "'this connects to Doc_04 and the CLASSIFICATION layer, tying formation to structure directly'.",
+        },
+        "w.story.b": {
+            "id": "w.story.b",
+            "record_type": "story",
+            "text": 'He writes, "Take ye heed, then, to have but one Eucharist, for there is one flesh."',
+        },
+    }
+    result = survey_world("w", load=lambda _world: records)
+    assert [f["id"] for f in result["findings"]] == ["w.story.b"]
+    assert result["records_with_embedded_quotation"] == 1
+    assert [f["id"] for f in result["self_quote_findings"]] == ["w.force.a"]
+    assert result["records_with_build_document_self_quote"] == 1

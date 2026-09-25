@@ -1,7 +1,6 @@
-"""OG-10 (worlds/pahc/Open_Gaps_Tracking.md; measured fleet-wide in PR #480
-comment 5817505651): does a non-quote record's own spoken text carry an
-embedded old-translation quotation - 8 or more words inside quotation
-marks - with no modern-English rendering of that wording?
+"""OG-10 (worlds/pahc/Open_Gaps_Tracking.md): does a non-quote record's own
+spoken text carry an embedded old-translation quotation - 8 or more words
+inside quotation marks - with no modern-English rendering of that wording?
 The rule that spoken form must be modern English (`reference/method/
 CiC_Record_Native_World_Build_Process_V1.5.md`) is enforced only via
 `record_type == "quote"` branches in `engine/m1/gates.py`: a `quote`
@@ -16,8 +15,8 @@ wrote it.
 REPORT-ONLY. This module does not grade or fail anything (no entry in
 `engine.m1.gates.GATES`) and never rewrites a record - it only finds and
 counts. `worlds/pahc/Open_Gaps_Tracking.md` OG-10 has this module's own
-per-world reproduction of PR #480's fleet-wide count, at record-id
-granularity, plus a proposed mechanism (not yet built - see that entry).
+per-world reproduction, at record-id granularity, plus a proposed
+mechanism (not yet built - see that entry).
 
 SCOPE: every field `engine.m1.spoken_fields.fields_with_role` declares
 `voice-diet` or `evidence-head` for a record's own `record_type` - text
@@ -27,15 +26,25 @@ are excluded entirely (their own `modern_rendering` field, and
 `engine.m1.gates`'s existing quote-specific check, already own this
 question for them).
 
-FIELD-BY-FIELD, NOT WHOLE-RECORD: `engine.m4.grounding_net.
-quoted_span_positions` pairs the nearest open quote with the nearest close
-quote by scanning forward through whatever text it is given - safe within
-one field's own prose, but not across a whole record's unrelated fields
-joined into one blob (an odd quote count in one field can pair its own
-opener with a much later, unrelated field's closer, producing one huge
-false "span"). Walking field by field, the same shape
-`engine.prose.all_text()` itself walks, keeps every pairing inside the
-prose it actually came from.
+FIELD-BY-FIELD, NOT WHOLE-RECORD: pairing quotes by scanning forward
+through a whole record's unrelated fields joined into one blob lets an
+odd quote count in one field pair its own opener with a much later,
+unrelated field's closer, producing one huge false "span". Walking field
+by field, the same shape `engine.prose.all_text()` itself walks, keeps
+every pairing inside the prose it actually came from.
+
+QUOTE-MARK FAMILY, NOT MIXED: a real quotation opens and closes with the
+same mark family (straight or curly double, or straight or curly single)
+- pairing across families (a double open with a single close, or vice
+versa) lets a nested quote-within-a-quote of the OTHER family swallow the
+outer quotation's own real close. `_quoted_spans_by_family` pairs each
+family separately rather than reusing `engine.m4.grounding_net.
+quoted_span_positions`'s own family-blind scan (built for citation-mark
+placement, where a live model's own quoting habits make a cross-family
+pair rare; this module scans hand-authored prose across many styles,
+where it is not rare). It also excludes a possessive apostrophe directly
+after "s" ("the fathers' grace") from ever counting as a close, the one
+apostrophe shape a real closing quote can be confused with.
 
 Usage: `python -m engine.m1.embedded_quotations` - writes
 `engine/m1/reports/embedded-quotations-report-<date>.json` and prints a
@@ -45,17 +54,87 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import date
 from pathlib import Path
 
 from engine.m1.loader import load_world_records
 from engine.m1.quote_verbatim import REPORT_WORLDS
 from engine.m1.spoken_fields import fields_with_role
-from engine.m4.grounding_net import quoted_span_positions
 
 REPORTS_DIR = Path(__file__).resolve().parent / "reports"
 
 MIN_QUOTED_WORDS = 8
+
+# Same shape as engine.prose.QUOTE_OPEN/QUOTE_CLOSE, split one family at a
+# time. The close patterns additionally refuse a mark directly after "s"/
+# "S" - a plural or classical-singular possessive ("the fathers' grace",
+# "Jesus' teaching") is the one real shape that can otherwise pass as a
+# closing single quote (preceded by a non-space character, followed by
+# whitespace or punctuation, exactly what a real close looks like).
+_DOUBLE_OPEN = re.compile(r"""(?:^|[\s:,\-(])["“](?=\S)""")
+_DOUBLE_CLOSE = re.compile(r"""(?<=\S)["”](?=[\s.,;:!?)]|$)""")
+_SINGLE_OPEN = re.compile(r"""(?:^|[\s:,\-(])['‘](?=\S)""")
+_SINGLE_CLOSE = re.compile(r"""(?<=\S)['’](?=[\s.,;:!?)]|$)""")
+
+# A candidate single-close to reject: a plural or classical-singular
+# possessive ("the fathers' grace", "Jesus' teaching") is the one
+# apostrophe shape that otherwise matches _SINGLE_CLOSE exactly (a
+# non-space character before, whitespace after - a real close's own
+# shape). Distinguished from a real close by what follows the space: a
+# possessive continues the same clause into another lowercase word
+# ("grace", "teaching"); a real close is followed by terminal
+# punctuation, a dash, a parenthetical citation, or the end of the
+# field - never a bare lowercase word picking the sentence back up.
+_POSSESSIVE_CLOSE = re.compile(r"[sS]['’]\s+[a-z]")
+
+# A span whose own text names the project's build apparatus rather than
+# quoting a vendored historical source - Doc_0N/G-cell citations and the
+# gravity/force CLASSIFICATION header, the same vocabulary
+# tools/check_live_commentary.py's own SPOKEN_VOCAB_PATTERNS already
+# flags as a leak into a spoken field, found live inside a quoted span
+# while building this module (gallic.force.power-displayed-disowned:
+# "...which is Doc_04 §6's...", gallic.gravity.authority-ambivalence's
+# own SIX-TEST SUMMARY prose). Not an old-translation quotation at all -
+# tagged, not counted as one.
+_BUILD_DOCUMENT_SELF_QUOTE = re.compile(r"\bDoc_0\d\b|\bG\d\b|\bCLASSIFICATION\b")
+
+
+def _find_real_close(text: str, close_re: re.Pattern, start: int) -> re.Match | None:
+    """The nearest close_re match at or after `start` that is not a
+    possessive apostrophe wearing a close's own shape - see
+    _POSSESSIVE_CLOSE's own docstring."""
+    pos = start
+    while True:
+        close_m = close_re.search(text, pos)
+        if not close_m:
+            return None
+        if _POSSESSIVE_CLOSE.match(text, close_m.start() - 1):
+            pos = close_m.end()
+            continue
+        return close_m
+
+
+def _family_spans(text: str, open_re: re.Pattern, close_re: re.Pattern) -> list[tuple[int, int, str]]:
+    spans = []
+    pos = 0
+    while True:
+        open_m = open_re.search(text, pos)
+        if not open_m:
+            return spans
+        close_m = _find_real_close(text, close_re, open_m.end())
+        if not close_m:
+            return spans
+        spans.append((open_m.end() - 1, close_m.end(), text[open_m.end() : close_m.start()]))
+        pos = close_m.end()
+
+
+def quoted_spans_by_family(text: str) -> list[tuple[int, int, str]]:
+    """Every paired quotation in `text`, left to right, double and single
+    families paired independently then merged in document order - see
+    the module docstring's own "QUOTE-MARK FAMILY, NOT MIXED" section."""
+    spans = _family_spans(text, _DOUBLE_OPEN, _DOUBLE_CLOSE) + _family_spans(text, _SINGLE_OPEN, _SINGLE_CLOSE)
+    return sorted(spans, key=lambda s: s[0])
 
 
 def word_count(s: str) -> int:
@@ -91,31 +170,47 @@ def _field_texts(record: dict) -> list[tuple[str, str]]:
 def find_embedded_quotations(record: dict) -> list[dict]:
     """Every quoted span of `MIN_QUOTED_WORDS` or more inside `record`'s
     own spoken fields - empty for a `quote` record (excluded by the
-    caller) or a record with no qualifying span."""
+    caller) or a record with no qualifying span. Each hit carries
+    `self_quote_of_build_document`: True for a span naming the project's
+    own build apparatus (Doc_0N, a G-cell, CLASSIFICATION) rather than
+    quoting a vendored historical source - see the module docstring."""
     hits = []
     for field_key, text in _field_texts(record):
-        for _start, _end, inner in quoted_span_positions(text):
+        for _start, _end, inner in quoted_spans_by_family(text):
             words = word_count(inner)
             if words >= MIN_QUOTED_WORDS:
-                hits.append({"field": field_key, "span": inner, "words": words})
+                hits.append({
+                    "field": field_key,
+                    "span": inner,
+                    "words": words,
+                    "self_quote_of_build_document": bool(_BUILD_DOCUMENT_SELF_QUOTE.search(inner)),
+                })
     return hits
 
 
 def survey_world(world_key: str, load=load_world_records) -> dict:
     records = load(world_key)
     findings = []
+    self_quote_findings = []
     for rid, rec in sorted(records.items()):
         if rec.get("record_type") == "quote":
             continue
         hits = find_embedded_quotations(rec)
-        if hits:
-            findings.append({"id": rid, "record_type": rec.get("record_type"), "spans": hits})
+        old_translation_hits = [h for h in hits if not h["self_quote_of_build_document"]]
+        self_quote_hits = [h for h in hits if h["self_quote_of_build_document"]]
+        if old_translation_hits:
+            findings.append({"id": rid, "record_type": rec.get("record_type"), "spans": old_translation_hits})
+        if self_quote_hits:
+            self_quote_findings.append({"id": rid, "record_type": rec.get("record_type"), "spans": self_quote_hits})
     return {
         "world": world_key,
         "non_quote_records": sum(1 for r in records.values() if r.get("record_type") != "quote"),
         "records_with_embedded_quotation": len(findings),
         "span_count": sum(len(f["spans"]) for f in findings),
         "findings": findings,
+        "records_with_build_document_self_quote": len(self_quote_findings),
+        "self_quote_span_count": sum(len(f["spans"]) for f in self_quote_findings),
+        "self_quote_findings": self_quote_findings,
     }
 
 
@@ -125,6 +220,8 @@ def fleet_report(worlds=REPORT_WORLDS) -> dict:
         "non_quote_records": sum(w["non_quote_records"] for w in per_world.values()),
         "records_with_embedded_quotation": sum(w["records_with_embedded_quotation"] for w in per_world.values()),
         "span_count": sum(w["span_count"] for w in per_world.values()),
+        "records_with_build_document_self_quote": sum(w["records_with_build_document_self_quote"] for w in per_world.values()),
+        "self_quote_span_count": sum(w["self_quote_span_count"] for w in per_world.values()),
     }
     return {"min_quoted_words": MIN_QUOTED_WORDS, "worlds": per_world, "totals": totals}
 
@@ -141,10 +238,15 @@ def main(argv: list[str] | None = None) -> int:
     t = report["totals"]
     print(
         f"embedded-quotations sweep: {t['records_with_embedded_quotation']}/{t['non_quote_records']} "
-        f"non-quote records carry a {MIN_QUOTED_WORDS}+ word embedded quotation, {t['span_count']} spans total"
+        f"non-quote records carry a {MIN_QUOTED_WORDS}+ word embedded quotation, {t['span_count']} spans total "
+        f"(plus {t['records_with_build_document_self_quote']} records / {t['self_quote_span_count']} spans "
+        f"that self-quote the project's own build apparatus, not an old translation - tagged separately)"
     )
     for w in report["worlds"].values():
-        print(f"  {w['world']:12} records={w['records_with_embedded_quotation']:3} spans={w['span_count']:4}")
+        print(
+            f"  {w['world']:12} records={w['records_with_embedded_quotation']:3} spans={w['span_count']:4} "
+            f"self_quote_records={w['records_with_build_document_self_quote']:3} self_quote_spans={w['self_quote_span_count']:4}"
+        )
     print(f"\nfull report written to {args.out}")
     return 0  # report-only: never fails the run on findings
 
