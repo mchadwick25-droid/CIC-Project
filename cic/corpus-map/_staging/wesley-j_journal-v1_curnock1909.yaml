@@ -1,16 +1,3 @@
-# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
-# source-acquisition pass. Revised 2026-09-25 (round 2, post independent
-# review): (1) the round-1 "day-heading OCR misread" claim was invented -
-# independently re-verified against the file this round: the numbers
-# "14."/"15."/"16." are Wesley's own paragraph numbers (§1-§18+) within
-# his single retrospective account of 24 May 1738, not day-of-month
-# headings at all (line 26503 states the date directly in running prose,
-# "What occurred on Wednesday the 24th ... I think best to relate at
-# large," then numbers his own paragraphs from "1." at line 26508
-# onward) - removed, replaced with the accurate account below. (2) the
-# editorial-introduction row's author corrected from wesley-john to
-# curnock-nehemiah (it is Curnock's own editorial voice, not Wesley's,
-# and should never have carried Wesley's own author slug).
 source_file: wesley-j_journal-v1_curnock1909.txt
 
 assignments:
@@ -30,12 +17,11 @@ assignments:
     note: >
       The movement's own founding moment in Wesley's own words, in the
       standard scholarly Curnock edition. Volume I only is vendored (birth
-      through mid-1738, ending 8 June 1738 - Wesley's own later 1738 visit
-      to Herrnhut is NOT in this volume, corrected at independent review;
-      see this world's Doc_01 §7 and Open_Gaps_Tracking.md); Volumes
-      II-VIII, covering the movement's own working decades, are not yet
-      acquired - a binding open item for this world's own Doc_02 and
-      Open_Gaps_Tracking.md.
+      through Wesley's own resolution on Wednesday 7 June 1738 to travel to
+      Germany, line 27667, running through embarkation the following week,
+      line 27863 - Wesley's own later 1738 visit to Herrnhut is NOT in this
+      volume); Volumes II-VIII, covering the movement's own working decades,
+      are not yet acquired.
 
   - work: "The Journal of the Rev. John Wesley, A.M. (Curnock edition), Vol. I
       -- Curnock's own Editorial Introduction"
@@ -49,6 +35,3 @@ assignments:
     note: >
       Editorial (Curnock's own voice, not Wesley's) - useful as
       context/orientation for Doc_02, never citable as Wesley's own words.
-      Author slug corrected from wesley-john at independent review (it
-      had incorrectly carried Wesley's own slug despite this row's note
-      already saying "not Wesley's").

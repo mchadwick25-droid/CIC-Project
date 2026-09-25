@@ -1,9 +1,3 @@
-# Worker: Methodist Revival build thread (meth), 2026-09-25. Step 0/Doc_02
-# source-acquisition pass. Revised 2026-09-25 (round 2, post independent
-# review): Preface locus corrected (it ends at line 258, signature "JOHN
-# WESLEY / London, Oct. 20, 1779" independently re-verified there, not
-# "~370" as round 1 stated - the hymns themselves begin after it, not at
-# 370).
 source_file: wesley-c_hymns-methodists_1780.txt
 
 assignments:
@@ -38,10 +32,9 @@ assignments:
       line loci for individual hymns are Doc_03+ scope, not exhaustively
       isolated here. Long-s normalized throughout this file (see
       REGISTRY.yaml); a handful of stray OCR thorn/eth-shaped glyphs left
-      untouched and disclosed rather than guessed at. **Translation note,
-      added at independent review:** this Collection includes John
-      Wesley's own English translations of German (Moravian/Lutheran)
-      hymns alongside Charles Wesley's own original English compositions -
-      this file is not a purely English-original witness throughout,
-      contrary to what this world's Doc_02 originally claimed; specific
-      translated hymns are not individually isolated this pass.
+      untouched and disclosed rather than guessed at. This Collection
+      includes John Wesley's own English translations of German
+      (Moravian/Lutheran) hymns alongside Charles Wesley's own original
+      English compositions - this file is not a purely English-original
+      witness throughout; specific translated hymns are not individually
+      isolated this pass.

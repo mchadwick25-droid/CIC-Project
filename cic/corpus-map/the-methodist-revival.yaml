@@ -43,9 +43,7 @@ works:
   role: context
   confidence: assigned
   note: 'Editorial (Curnock''s own voice, not Wesley''s) - useful as context/orientation for
-    Doc_02, never citable as Wesley''s own words. Author slug corrected from wesley-john at
-    independent review (it had incorrectly carried Wesley''s own slug despite this row''s
-    note already saying "not Wesley''s").
+    Doc_02, never citable as Wesley''s own words.
 
     '
   source_file: wesley-j_journal-v1_curnock1909.txt
@@ -62,11 +60,10 @@ works:
     later, better-known Methodist hymnals); exact body-text line loci for individual hymns
     are Doc_03+ scope, not exhaustively isolated here. Long-s normalized throughout this file
     (see REGISTRY.yaml); a handful of stray OCR thorn/eth-shaped glyphs left untouched and
-    disclosed rather than guessed at. **Translation note, added at independent review:** this
-    Collection includes John Wesley''s own English translations of German (Moravian/Lutheran)
-    hymns alongside Charles Wesley''s own original English compositions - this file is not
-    a purely English-original witness throughout, contrary to what this world''s Doc_02 originally
-    claimed; specific translated hymns are not individually isolated this pass.
+    disclosed rather than guessed at. This Collection includes John Wesley''s own English
+    translations of German (Moravian/Lutheran) hymns alongside Charles Wesley''s own original
+    English compositions - this file is not a purely English-original witness throughout;
+    specific translated hymns are not individually isolated this pass.
 
     '
   source_file: wesley-c_hymns-methodists_1780.txt
@@ -79,8 +76,7 @@ works:
   role: tradition
   confidence: assigned
   note: 'Genuinely Charles Wesley''s own preached prose voice - the one place in this world''s
-    corpus where his own words survive outside the hymns. Corrects a round-1 misattribution
-    to John''s voice (Doc_02 Independent Review Round 1, P1).
+    corpus where his own words survive outside the hymns.
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
@@ -120,18 +116,17 @@ works:
 - work: Sermons on Several Occasions, Vol. I (Sermons IV-XVI, on scriptural Christianity,
     justification, the witness of the Spirit, the means of grace, and related themes)
   author: wesley-john
-  locus: 'individual sermon headings, independently verified line-by-line this round: Sermon
+  locus: 'individual sermon headings, verified line-by-line against the vendored file: Sermon
     IV line 1670, V line 2282, VI line 2767, VII line 3239, VIII line 3643, IX line 4083,
     X line 4625, XI line 5099, XII line 5571, XIII line 5971, XIV line 6467, XV line 7039,
     XVI (''The Means of Grace'') line 7595, running to the volume''s own end'
   role: tradition
   confidence: provisional
-  note: 'This volume holds Sermons I-XVI of Wesley''s Forty-Four Standard Sermons (not I-XII
-    as round 1 stated - a real counting error, found and corrected at independent review)
-    - Sermon III is Charles''s own (its own row, above), so 15 of these 16 are John''s. The
-    remaining ~29 sermons of the full Forty-Four are in this collection''s later volumes,
-    not vendored (Manifest item G2). Grouped rather than itemized by individual content this
-    pass; sermon-by-sermon quotability review is Doc_03+ scope.
+  note: 'This volume holds Sermons I-XVI of Wesley''s Forty-Four Standard Sermons. Sermon
+    III is Charles''s own (its own row, above), so 15 of these 16 are John''s. The remaining
+    28 sermons of the full Forty-Four are in this collection''s later volumes, not vendored
+    (Manifest item G2). Grouped rather than itemized by individual content this pass; sermon-by-sermon
+    quotability review is Doc_03+ scope.
 
     '
   source_file: wesley-j_sermons-v1_1771.txt
@@ -145,28 +140,30 @@ works:
   role: tradition
   confidence: assigned
   note: 'The movement''s own founding moment in Wesley''s own words, in the standard scholarly
-    Curnock edition. Volume I only is vendored (birth through mid-1738, ending 8 June 1738
-    - Wesley''s own later 1738 visit to Herrnhut is NOT in this volume, corrected at independent
-    review; see this world''s Doc_01 §7 and Open_Gaps_Tracking.md); Volumes II-VIII, covering
-    the movement''s own working decades, are not yet acquired - a binding open item for this
-    world''s own Doc_02 and Open_Gaps_Tracking.md.
+    Curnock edition. Volume I only is vendored (birth through Wesley''s own resolution on
+    Wednesday 7 June 1738 to travel to Germany, line 27667, running through embarkation the
+    following week, line 27863 - Wesley''s own later 1738 visit to Herrnhut is NOT in this
+    volume); Volumes II-VIII, covering the movement''s own working decades, are not yet acquired.
 
     '
   source_file: wesley-j_journal-v1_curnock1909.txt
 - work: Minutes of Several Conversations (the Large Minutes) - Section I, 'The Design of God
     in Sending the Methodist Preachers,' and Section II, 'The Rise of Methodism'
   author: wesleyan-conference
-  locus: 'lines 359-386; the Rise-of-Methodism catechism question begins line 379 and runs
-    through line 386 - note: this reprint''s own OCR misreads the year ''1729'' as ''1/29''
+  locus: 'lines 359-387; the Rise-of-Methodism catechism question begins line 379 and runs
+    through line 387 - note: this reprint''s own OCR misreads the year ''1729'' as ''1/29''
     (line 380), a character-level digit error, not this world''s own claim; the correct year,
     independently well attested (the ''Holy Club'' at Oxford), is 1729'
   role: tradition
   confidence: assigned
   note: 'The connexion''s own catechism-form self-account of its own origin and purpose -
     "messengers sent... to reform the nation, by spreading scriptural holiness over the land."
-    Institutional (Conference) voice, not Wesley''s own first-person voice, though it speaks
-    about him and inherits his own original 1743-89 catechism structure - see this file''s
-    own header note. No opponent voice mixed in.
+    Institutional (Conference) voice, not Wesley''s own first-person voice: the vendored text''s
+    own Advertisement states the Conference "carefully revised the Rules drawn up and left
+    us by our late venerable Father in the Gospel," and the Q&A text itself refers to Wesley
+    in the third person past tense throughout ("the late Mr. Wesley"). It speaks about him
+    and inherits his own original 1743-89 catechism structure, but is not voiced by him directly.
+    No opponent voice mixed in.
 
     '
   source_file: wesley-j_large-minutes_1850.txt
