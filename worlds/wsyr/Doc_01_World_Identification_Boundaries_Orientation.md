@@ -1,8 +1,11 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 3. **ESCALATED, not Approved to proceed** — see
-Step 0's own status line and `Open_Gaps_Tracking.md` item 18 for why. Follows
-Step 0 (`Step0_Movement_Scope_Confirmation.md`,
+**Status:** DRAFT, Revision 4. Escalated after a third review round found
+this document set still required substantial revision at the project's own
+three-round cap; the project lead authorized a fourth round directly (see
+Step 0's own status line and `Open_Gaps_Tracking.md` item 18). This
+revision applies that fourth-round fix; a review round is running to
+confirm it. Follows Step 0 (`Step0_Movement_Scope_Confirmation.md`,
 Revision 2) and an independent Opus adversarial review of Revision 1
 (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
 REVISION REQUIRED). This revision corrects every finding that review
@@ -290,16 +293,23 @@ directly attested in the vendored Ecclesiastical History, Part III:
   anti-Chalcedonian camp, not a rival reading of the Christological formula
   that defines this world's own dispute with Chalcedon — exactly what
   Revision 1's "doctrinally settled movement" framing concealed. **Source
-  note:** the controversy itself is real and documented, but this build's
-  own knowledge of it comes from the 1860 translator's own editorial
-  excursus (explicitly citing the 13th-century chronicler Bar-Hebraeus),
-  not from John of Ephesus's own contemporary narrative — an earlier
-  revision of this document wrongly presented the reported four-day public
-  disputation as something John himself witnessed and reported; John's own
-  narrative in this stretch begins only with Conon's arrest, after the
-  controversy's own background has already been laid out in the
-  translator's voice. See Doc_02 §2 for the exact locus and the
-  correction.
+  note, corrected:** the controversy's own doctrinal background — the
+  Ascunages creed quoted above, the Condobaudite name, and the reported
+  four-day public disputation — is the 1860 translator's own editorial
+  excursus, explicitly citing the 13th-century chronicler Bar-Hebraeus, and
+  should not be cited as John of Ephesus's own words. But John's own
+  narrative, resuming with Conon's arrest (c. line 4580) and continuing for
+  some three hundred lines, is a real, direct, first-hand account of this
+  same controversy: John reports the Tritheites' own attempt to recruit him
+  (they tried to bribe him into consecrating a third bishop for them; he
+  refused and called them heretics), a debate ordered before the patriarch
+  and synod, and — naming him directly — John Philoponus's own role in
+  spreading the error further. An earlier revision of this document
+  wrongly presented the whole controversy, including this material, as
+  something only the translator reports; that overcorrected the original
+  problem (crediting the excursus to John) into its opposite (denying John
+  reports on the controversy at all). See Doc_02 §2 for the exact locus
+  split and the correction.
 - **The Paulite schism** (Book IV). A later split within the movement's
   own hierarchy — the census's own pre-drafted story already flags that
   Jacob Baradaeus's own bishops "fell into quarrels" in his last years,

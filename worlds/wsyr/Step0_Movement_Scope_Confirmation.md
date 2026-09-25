@@ -1,14 +1,16 @@
 # Step 0 — Movement-Scope Confirmation: Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 3. **ESCALATED, not Approved to proceed** — a
-third independent adversarial review round found this document set
-(together with Doc_01 and Doc_02) still required substantial revision
-after two revision rounds, reaching this project's own three-round review
-cap. Per `cic-build-cycle`, this is now an unresolved tension for the
-project lead, not a fourth revision attempt by this build thread. See
-`Open_Gaps_Tracking.md` item 18 and
+**Status:** DRAFT, Revision 4. A third independent adversarial review round
+found this document set (together with Doc_01 and Doc_02) still required
+substantial revision after two revision rounds, reaching this project's
+own three-round review cap; per `cic-build-cycle` this was escalated
+rather than revised a fourth time unilaterally. The project lead reviewed
+the escalation directly and authorized a fourth round (Mark, in chat,
+2026-09-25: "Go ahead and fix the five passages, run round 4") — see
+`Open_Gaps_Tracking.md` item 18 for the record. Revision 4 applies the
+exact, narrowly-specified fix from
 `Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`'s own "Round 3"
-section for the exact, narrowly-specified remaining defect. Prepared as
+section; a fourth review round is running to confirm it. Prepared as
 the first step of the library stage
 (Steps 0-2) for **syriac-orthodox-west-syriac-christianity** (census Atlas ID
 II.2), commissioned directly by the project lead on 2026-09-25 ("world batch

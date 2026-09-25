@@ -1,15 +1,16 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity — Source Ecology
 
-**Status:** DRAFT, Revision 3. **ESCALATED, not Approved to proceed** — a
-third independent review round found this document's own §2 (lines ~25-27,
-~158-160, ~238-240) still overcorrects the Tritheist-material misattribution
-this Revision fixed elsewhere: it now wrongly states John of Ephesus is not
-a source for the Tritheist controversy at all, when his own narrative (per
-the vendored file, c. line 4580 onward) covers it at length. See
-`Open_Gaps_Tracking.md` item 18 and the Review-Artifacts file's own "Round
-3" section for the precise, narrow fix this needs — not applied here per
-this project's own three-round review cap. Follows Doc_01 Revision 2 and an
-independent
+**Status:** DRAFT, Revision 4. A third independent review round found this
+document's own §1/§3/§8 (in Revision 3) still overcorrected the
+Tritheist-material misattribution fixed elsewhere: it wrongly stated John
+of Ephesus is not a source for the Tritheist controversy at all, when his
+own narrative (per the vendored file, c. line 4580 onward — his own
+refusal of the Tritheites' bribes, his own naming of John Philoponus)
+covers it at length. The project lead authorized a fourth revision round
+directly (`Open_Gaps_Tracking.md` item 18); this revision applies that
+fix, independently re-verified against the vendored file before writing
+it. A review round is running to confirm it. Follows Doc_01 Revision 2 and
+an independent
 Opus adversarial review of Revision 1
 (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
 REVISION REQUIRED). This revision corrects every finding that review
@@ -27,14 +28,16 @@ This document performs Step 2 (Source Ecology) per
 
 This world's evidentiary base has an unusual shape: one insider historian
 (John of Ephesus) supplies genuinely rich, personally-witnessed narrative
-material across two separate works, now confirmed to include a real
-internal-schism narrative (the Paulite dispute, Book IV of the
-Ecclesiastical History) that an earlier pass missed entirely by
-understating the file's own contents (§2). The same book also carries a
-Trinitarian/Tritheist controversy (Book I) that is real, documented
-history but is not John's own reporting — it is the 1860 translator's own
-editorial excursus, relaying the 13th-century chronicler Bar-Hebraeus (§2)
-— a distinction worth holding onto precisely, not blurred. Two
+material across two separate works, now confirmed to include real
+internal-controversy material that an earlier pass missed entirely by
+understating the file's own contents (§2): a Trinitarian/Tritheist
+controversy John reports on at real length in his own voice (Book I, from
+Conon's arrest onward), and a later internal schism (the Paulite dispute,
+Book IV). Only the controversy's own doctrinal background — the Ascunages
+creed and the reported four-day disputation — is not John's own words; that
+narrow stretch is the 1860 translator's own editorial excursus, relaying
+the 13th-century chronicler Bar-Hebraeus, and needs to be cited as such (§2
+draws the line precisely, by locus). Two
 theologians (Severus of Antioch and Philoxenus of Mabbug) supply real
 doctrinal argument in their own hand (via translation) — this revision
 corrects Revision 1's claim that this world's doctrinal center of gravity
@@ -162,14 +165,21 @@ against Chalcedon and Eutyches (§2). His separate treatises and homilies
 remain unvendored, a narrower gap than Revision 1 stated.
 
 **John of Ephesus.** Representativeness: unusually high, now confirmed to
-extend to internal-schism material (the Paulite dispute, Book IV) as well
-as persecution narrative and personal portraiture — richer than an earlier
-pass recognized. **Not** the source for the Tritheist/Trinitarian
-controversy in Book I — that material is the translator's own excursus
-(§2), and citing it as John's own reporting would misattribute it.
-Authenticity: high for John's own material. Boundary status: native, with
-the same double-position tension (persecuted bishop / imperial missionary
-agent) already named.
+extend to internal-controversy material as well as persecution narrative
+and personal portraiture — richer than an earlier pass recognized. This
+includes his own direct reporting on the Tritheist controversy (Book I,
+from Conon's arrest onward, c. line 4580): he names himself as a target of
+the Tritheites' own recruitment attempt (they tried to bribe him to
+consecrate a third bishop for them; he refused and called them heretics),
+and later names John Philoponus by name as the one whose writings "first
+led them into error." **What is not his own reporting**, and should not be
+cited as such: the controversy's own doctrinal background immediately
+before that point — Ascunages's own quoted creed and the reported four-day
+public disputation — which is the translator's own editorial excursus,
+explicitly citing the 13th-century chronicler Bar-Hebraeus (§2 draws the
+exact locus line). Authenticity: high for John's own material.
+Boundary status: native, with the same double-position tension (persecuted
+bishop / imperial missionary agent) already named.
 
 **Jacob Baradaeus.** No writing independently confirmed as vendorable this
 session — corrected from Revision 1's stronger claim that no writing of
@@ -244,10 +254,12 @@ boundary-adjacent at all, and his career is entirely inside the window.
 The Chronicle of Joshua the Stylite and the Zachariah Rhetor compilation's
 own continuator material (Books I-II, VII-XII, not yet individually
 assessed) remain open role-classification questions. **Per Doc_01 §6:**
-the Tritheist faction (John Ascunages, John Philoponus — known to this
-build via the Ecclesiastical History's own translator's excursus, not
-John of Ephesus's own reporting; see §2) and the Julianist faction are
-real internal rivals of this world's own mainstream — analogous in kind to
+the Tritheist faction (Ascunages's own founding creed is known to this
+build only via the Ecclesiastical History's translator's excursus; John
+Philoponus's role and John of Ephesus's own opposition to the faction are
+known directly from John's own narrative — see §2 for the exact split) and
+the Julianist faction are real internal rivals of this world's own
+mainstream — analogous in kind to
 how `syr` treated Bardaisan, though unlike Bardaisan they are *internal*
 to the anti-Chalcedonian movement rather than external to it, which is
 exactly

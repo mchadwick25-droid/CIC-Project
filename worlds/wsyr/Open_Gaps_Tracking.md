@@ -59,7 +59,7 @@ when.
    opponent-voice status at all.
 
 5. **Strand-singular finding — withdrawn and reopened, Revision 2, source
-   attribution corrected Revision 3.** Revision 1 found this world
+   attribution corrected Revision 4.** Revision 1 found this world
    strand-singular using a sequential-phases argument borrowed from `ijc`'s
    own reasoning. An independent adversarial review found this misapplied
    `ijc`'s own test (sequential phases are an Article 15 world-merge
@@ -68,15 +68,21 @@ when.
    controversy within the anti-Chalcedonian camp itself (Book I — John
    Ascunages, John Philoponus) and a later Paulite/Jacobite schism within
    Jacob Baradaeus's own hierarchy (Book IV). A second review pass found
-   the Book I controversy material, including the reported four-day public
-   disputation, is the 1860 translator's own editorial excursus (citing
-   the 13th-century chronicler Bar-Hebraeus by name), not John of
-   Ephesus's own contemporary reporting — corrected throughout. Doc_01
-   §6 (Revision 2/3) withdraws the strand-singular disposition and leaves
-   the question open for Doc_02's fuller treatment: whether either
-   divergence is an Article-21 strand, a boundary case (the `syr`/Bardaisan
-   model), or an internal controversy the movement's own mainstream
-   resolved. Not decided by this session.
+   the controversy's own doctrinal background (the Ascunages creed, the
+   Condobaudite name, the reported four-day public disputation) is the
+   1860 translator's own editorial excursus (citing the 13th-century
+   chronicler Bar-Hebraeus by name) and should not be cited as John of
+   Ephesus's own words — but a third review pass found the prior fix had
+   overcorrected into the opposite error (denying John reports on the
+   controversy at all), when in fact John's own narrative, resuming at
+   Conon's arrest, covers the controversy at real length in his own voice
+   (his own refusal of the Tritheites' bribes, a synod debate, and his own
+   naming of John Philoponus). Both corrections now stand together,
+   precisely split by locus (Doc_02 §2). Doc_01 §6 withdraws the
+   strand-singular disposition and leaves the question open for Doc_02's
+   fuller treatment: whether either divergence is an Article-21 strand, a
+   boundary case (the `syr`/Bardaisan model), or an internal controversy
+   the movement's own mainstream resolved. Not decided by this session.
 
 6. **Severus of Antioch's own doctrinal corpus — narrower gap than first
    stated, Revision 2.** Revision 1 called Severus's vendored letters
@@ -253,3 +259,19 @@ when.
     of substantial revision without clearing is itself the "unresolved
     tension the pipeline can't close on its own" escalation category. This
     document set (Step 0, Doc_01, Doc_02) is not yet Approved to proceed.
+
+    **Update:** the project lead reviewed this escalation directly and
+    authorized a fourth revision round, applying the exact fix specified
+    above (Mark, in chat, 2026-09-25: "Go ahead and fix the five passages,
+    run round 4"). Revision 4 applies it — see Doc_01 §6, Doc_02 §1/§3/§8,
+    and this item's own sibling entry (item 5) for the corrected text.
+    Independently re-verified directly against the vendored file before
+    fixing (not merely trusted from the review): John of Ephesus's own
+    narrative, from Conon's arrest (c. line 4580) through the
+    Cononite/Athanasian split, does cover the Tritheist controversy at
+    length in his own voice, including his own refusal of the Tritheites'
+    bribes (c. lines 4625-4640) and his own naming of "John Grammaticus of
+    Alexandria" (John Philoponus's own epithet) as the one who "first led
+    them into error" (c. lines 4777-4790). A fourth, final review round is
+    now running to confirm this fix and close out Steps 0-2's own review
+    cycle.
