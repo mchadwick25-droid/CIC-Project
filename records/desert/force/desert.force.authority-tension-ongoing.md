@@ -21,7 +21,17 @@ sources:
   locus: "the named modern authority this build uses on top of the vendored one-remove witnesses (Palladius, Sozomen) for Rule-content and Lives-incident claims, per this source's own stated role - matching desert.gravity.authority-tension's own citation of this source for the identical claim; not itself the authority Doc_02 SS1.2/SS3 cite, which state the Latin-transmission claim and the office names (housemaster, steward) on their own authority"
 name: "The unresolved, ongoing tension between person-based and office-based authority [2B - ongoing/internal]"
 kind: ongoing
-description: "The Pachomian Rule and its offices - housemaster, steward, as the Latin Rule tradition transmits them (Doc_02 SS1.2, SS3), via Rousseau's consult-only scholarship - coexist historically, in the same decades and broader region, with the sayings tradition's own elder-disciple authority structure - not as an abstract organizational-theory question but as two genuinely different registers of what it means to submit to legitimate spiritual authority. Even Pachomius himself, the founder of the office-based model, is remembered in terms borrowed from elder-authority vocabulary - a father whose personal example, not merely his Rule, forms his community - suggesting this world's own participants did not experience the two models as cleanly opposed doctrines but as two genuinely coexisting, only partially reconciled registers of the same underlying question."
+description: "The Pachomian Rule had its own offices, such as housemaster and steward. These existed side by side with the sayings
+  tradition's own authority of elder over disciple. We know the offices as the Latin Rule tradition passes them on, and
+  as Rousseau's scholarship reports them. Both models lived in the same decades and the same broader region. This was
+  not an abstract question about how to organize a group. It was two genuinely different ways of understanding what it
+  means to obey a legitimate spiritual authority.
+
+
+  Even Pachomius, who founded the office-based model, is remembered in the language of elder authority. He is a father
+  whose personal example, not only his Rule, forms his community. This suggests the people of this world did not feel
+  the two models as cleanly opposed teachings. They lived with both at once, only partly reconciled, as two answers to
+  the same underlying question."
 matrix_cell: 2B
 manifestations:
 - "the sayings tradition's own vocabulary of submission to a named elder's own specific counsel - the compilers' own later arrangement, not a transcript of authority's shape in real time, per that source's own compiler screen"

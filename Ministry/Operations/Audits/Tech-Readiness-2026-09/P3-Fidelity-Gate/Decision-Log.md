@@ -2099,3 +2099,52 @@ serious defect than a check that never ran. Fixing it means a repo
 branch-protection setting change, a portfolio-level/infra decision this
 entry does not make on its own - flagged to Mark rather than actioned
 here.
+
+**Entry 37 — 2026-09-25 (source-form fragment re-author across six
+worlds).** Re-authors the `modern_rendering` values that Entry 29's
+sentence-completeness check flagged as real fragments, under Mark's R44
+ruling of 2026-09-24: "Interjections and answers stay; lists become one
+sentence; true ellipses get finished." (now in the process doc, Phase B).
+One PR per world; only `modern_rendering` changes, every protected field
+byte-identical, confirmed by a front-matter diff. Every rendering authored
+by Opus and graded with Haiku 4.5 and Sonnet 4.6, two runs each.
+
+**Re-authored (7 records, 6 worlds):**
+- alx `couches-and-trenchers-and-bowls` (list): whole short sentences, by
+  Mark's direct ruling for this record on 2026-09-24 ("Option 1"), because
+  the one-sentence list scores FK 41.7 and fails the live readability
+  gate. The closing sentence keeps the source's reason tied to its verb
+  ("They are to be given up because there is nothing at all in them worth
+  our trouble"), per the independent fidelity review. The process doc's "one list sentence" does not yet say what
+  happens when a list cannot pass the readability gate as one sentence;
+  flagged to Mark as a methodology question, not changed here.
+- alx `to-believe-or-disbelieve` (split fragment): re-split with an
+  imperative for the source's "say" to keep FK under 10.
+- cappadocian `basil-on-the-doxology-challenge` (split fragment):
+  "at one point ... and at another ..." rejoined.
+- ijc `he-held-aloof-for-a-short-time` (true ellipsis): finished with the
+  implied subject, "He had held back ...".
+- pahc `first-concerning-the-cup` (split heading): rejoined as one
+  imperative sentence.
+- syr `aphrahat-anti-jewish-frame` (verbless heading, caught only by the
+  larger parser): finished, "This is a reply against the Jews ...", which
+  also restores the source's "against" (the old rendering had "to").
+- witt `congregation-of-saints` (verbless quotation, caught only by the
+  larger parser): "As Paul says, there is one faith ...". Haiku's first
+  objection also found real drift elsewhere in the rendering ("saints"
+  and "etc." dropped, "instituted by men" weakened); fixed in the same
+  field.
+
+**Stays as the source speaks it:** desert "Alas!", ijc "Yes!", don
+"Praise to God.", hal "Hail, Bethlehem, ...", alx "Answer: No." (x2),
+and desert `antony-not-worsted` (the source's own elliptical question).
+The 11 misparses need no change.
+
+**Grader disagreements, recorded in each world's
+`Open_Gaps_Tracking.md`:** syr (Haiku reads the finished heading as
+expansion; Sonnet reads translation) and witt (Haiku reads summary and
+names clauses the rendering carries; Sonnet reads translation). The
+fragment rule wins on syr; the human read of every clause stands on witt.
+
+**Counts (sentence-completeness check, fleet):** 30 flagged sentences
+before, 18 after: the 11 misparses plus the 7 source-spoken forms kept.

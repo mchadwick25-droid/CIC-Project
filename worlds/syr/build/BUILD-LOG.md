@@ -83,3 +83,25 @@ fixes.
 **Review outcome.** One round, independent, cold, adversarial, checking the Latin factual claims directly against the vendored text, the Odes file's own front matter and OCR quality, the rights/acquisition reasoning against `cic/texts/INTAKE.md`'s own rules, and schema/gate/corpus-map-tool correctness. [Verdict and findings recorded once the round lands - see below / this entry's own trailing update.]
 
 **Escalation check.** Performed; no standing category applies. Not a Representative identity decision. Not portfolio/cross-world (world-specific acquisition, not a cross-world policy change). Not governance/methodology (uses this project's own existing INTAKE.md rules, doesn't change them). No unresolved tension between review rounds. The disclosed procedural deviation (this session, not Mark, supplied both files) is a transparency item, not an escalation trigger on its own - flagged plainly in every touched record rather than smoothed over, per this project's own standing discipline against silent process deviation.
+
+---
+
+## Source-form fragment re-author — 2026-09-25
+
+`syr.quote.aphrahat-anti-jewish-frame`: the larger sentence-completeness
+parser (P3 Decision-Log Entry 29) flagged the rendering "A reply to the
+Jews, who blaspheme ..." as verbless. Under Mark's R44 ruling of
+2026-09-24 ("true ellipses get finished"), the heading is finished with
+the subject and verb its structure implies: "This is a reply against the
+Jews, who blaspheme the people gathered from among the Gentiles." This
+also restores the source's own "against"; the prior rendering had "to",
+which softened the source's polemic. Only `modern_rendering` changed;
+every other field is byte-identical. Authored by Opus. Sonnet 4.6 reads
+translation twice; Haiku 4.5 reads expansion, recorded as a standing
+disagreement in `Open_Gaps_Tracking.md` item 14. P3 Decision-Log Entry 37
+carries the fleet-wide record of this pass.
+
+Record-note history moved here from the record body under the standing
+rule that a PR editing a live file also removes its commentary: the
+record's F6-T cell was assigned 2026-08-27, when it had none and sat
+outside coverage.
