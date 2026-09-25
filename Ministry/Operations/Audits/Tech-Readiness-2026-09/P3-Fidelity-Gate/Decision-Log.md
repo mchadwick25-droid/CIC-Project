@@ -2057,3 +2057,45 @@ its own sake. This matches, not contradicts, this world's own prior
 `Ministry/Technology/CiC_Register_Bar_2026-08-29.md`): short sentences
 and everyday words were the explicitly approved style for these
 renderings before this entry, not a defect this entry introduces.
+
+**Entry 36 — 2026-09-25 (Entry 35's rendering fixes left pahc's site
+JSON stale; rebuilt and re-pinned).** Entry 35's record edits (merged
+as PR #531) changed `records/pahc/quote/pahc.quote.ignatius-truly-born.md`
+and `records/pahc/quote/pahc.quote.polycrates-to-victor.md`, and the
+same branch repinned the `pahc`/`alx` packages (`engine.m2.cli`) - but
+never rebuilt `cic-website/data/worlds/post-apostolic-house-church.json`,
+the separate world_front-compiled site JSON (`engine.m2.site_cli`).
+`python -m engine.m2.site_cli staleness-check` on `origin/main` found
+`pahc` stale (`diff: ["narrative"]`); `alx` was not stale (its own site
+JSON has no world_front content touched by Entry 35's fix). This
+surfaced as promotion PR #533's "Site staleness sweep" check failing.
+
+**Fix.** `python -m engine.m2.site_cli build pahc --records-commit
+a9f9f97f --compiler-version cic-m2-site-compiler-2` - `a9f9f97f` is the
+commit that actually made the record content edit (matching this
+project's own established re-pin convention of citing the content
+commit, not a merge commit or the repin commit itself; confirmed
+against the immediately preceding pahc re-pin, `aad6c76f2`, which cited
+its own parent content commit `5a151112` the same way). Compiler
+version held at `cic-m2-site-compiler-2`, unchanged. Verified the
+rebuilt JSON actually carries the fix (Polycrates' added "So" appears;
+Ignatius' legitimate "truly born" is retained while the bracketed
+"[truly] died" supplement stays dropped from the rendering, matching
+Entry 35's record). `engine.m2.site_cli staleness-check` and
+`engine.m2.cli staleness-check` both pass clean across every world;
+`engine/m2/tests/test_site_compiler.py` and
+`test_site_staleness.py` (20 tests) pass.
+
+**Why PR #531's own CI didn't catch this - correction.** It did catch
+it: "Site staleness sweep (world_front-compiled JSON)" ran on the PR's
+final head commit (`49ceae78`, ~1 minute after that commit was pushed)
+and reported `conclusion: failure` - confirmed directly from GitHub's
+check-run API, not inferred. The PR was merged anyway 23 minutes later,
+with that check still red. So this was not a CI blind spot; it was a
+failing, correctly-firing check that did not block the merge - a
+branch-protection gap (this repo does not require "Site staleness
+sweep" to pass before merging to `main`), which is a distinct and more
+serious defect than a check that never ran. Fixing it means a repo
+branch-protection setting change, a portfolio-level/infra decision this
+entry does not make on its own - flagged to Mark rather than actioned
+here.
