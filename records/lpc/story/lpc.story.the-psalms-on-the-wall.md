@@ -1,6 +1,6 @@
 ---
 id: lpc.story.the-psalms-on-the-wall
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: story
 schema_version: 2
 status: draft

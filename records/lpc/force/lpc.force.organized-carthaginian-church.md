@@ -1,6 +1,6 @@
 ---
 id: lpc.force.organized-carthaginian-church
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: force
 schema_version: 2
 status: draft

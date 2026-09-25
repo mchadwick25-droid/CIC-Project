@@ -1,6 +1,6 @@
 ---
 id: lpc.source.lawless-augustine-of-hippo-and-his-monastic-rule
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

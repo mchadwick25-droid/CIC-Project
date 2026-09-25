@@ -1,6 +1,6 @@
 ---
 id: lpc.source.fitzgerald-augustine-through-the-ages
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: lpc.limit.the-silent-century
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: honest_limit
 schema_version: 2
 status: draft

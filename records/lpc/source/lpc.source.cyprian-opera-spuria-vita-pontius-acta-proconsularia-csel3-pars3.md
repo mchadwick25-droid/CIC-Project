@@ -1,6 +1,6 @@
 ---
 id: lpc.source.cyprian-opera-spuria-vita-pontius-acta-proconsularia-csel3-pars3
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

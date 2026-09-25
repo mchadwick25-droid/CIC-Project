@@ -1,6 +1,6 @@
 ---
 id: lpc.source.gassman-late-antique-preacher-in-action-ep29
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

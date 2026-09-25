@@ -1,6 +1,6 @@
 ---
 id: lpc.force.transmission-asymmetric-span-133-year-silence
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: force
 schema_version: 2
 status: draft

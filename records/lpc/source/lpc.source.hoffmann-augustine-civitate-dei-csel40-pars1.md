@@ -1,6 +1,6 @@
 ---
 id: lpc.source.hoffmann-augustine-civitate-dei-csel40-pars1
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

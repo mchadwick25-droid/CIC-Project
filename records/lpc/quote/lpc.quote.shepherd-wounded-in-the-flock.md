@@ -1,6 +1,6 @@
 ---
 id: lpc.quote.shepherd-wounded-in-the-flock
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: quote
 schema_version: 2
 status: draft

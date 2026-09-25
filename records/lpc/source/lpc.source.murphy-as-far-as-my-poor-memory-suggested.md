@@ -1,6 +1,6 @@
 ---
 id: lpc.source.murphy-as-far-as-my-poor-memory-suggested
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

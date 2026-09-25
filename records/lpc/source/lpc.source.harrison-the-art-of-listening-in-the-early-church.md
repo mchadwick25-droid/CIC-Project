@@ -1,6 +1,6 @@
 ---
 id: lpc.source.harrison-the-art-of-listening-in-the-early-church
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

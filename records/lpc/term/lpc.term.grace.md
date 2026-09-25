@@ -1,6 +1,6 @@
 ---
 id: lpc.term.grace
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: term
 schema_version: 2
 status: draft

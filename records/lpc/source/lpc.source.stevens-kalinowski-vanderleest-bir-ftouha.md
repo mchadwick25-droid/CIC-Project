@@ -1,6 +1,6 @@
 ---
 id: lpc.source.stevens-kalinowski-vanderleest-bir-ftouha
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: lpc.source.shaw-sacred-violence
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: lpc.front.latin-pastoral-congregational-christianity
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: world_front
 schema_version: 2
 status: draft

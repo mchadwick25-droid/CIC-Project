@@ -1,6 +1,6 @@
 ---
 id: lpc.quote.ancient-venom-against-my-episcopate
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: quote
 schema_version: 2
 status: draft

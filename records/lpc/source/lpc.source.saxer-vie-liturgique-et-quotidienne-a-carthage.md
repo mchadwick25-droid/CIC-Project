@@ -1,6 +1,6 @@
 ---
 id: lpc.source.saxer-vie-liturgique-et-quotidienne-a-carthage
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

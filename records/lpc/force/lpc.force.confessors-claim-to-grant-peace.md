@@ -1,6 +1,6 @@
 ---
 id: lpc.force.confessors-claim-to-grant-peace
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: force
 schema_version: 2
 status: draft

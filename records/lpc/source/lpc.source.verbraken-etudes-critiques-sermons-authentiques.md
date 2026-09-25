@@ -1,6 +1,6 @@
 ---
 id: lpc.source.verbraken-etudes-critiques-sermons-authentiques
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

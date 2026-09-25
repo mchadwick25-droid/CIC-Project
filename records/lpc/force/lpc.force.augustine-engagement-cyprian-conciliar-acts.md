@@ -1,6 +1,6 @@
 ---
 id: lpc.force.augustine-engagement-cyprian-conciliar-acts
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: force
 schema_version: 2
 status: draft

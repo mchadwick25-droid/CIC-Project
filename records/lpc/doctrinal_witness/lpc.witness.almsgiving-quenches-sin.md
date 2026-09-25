@@ -1,6 +1,6 @@
 ---
 id: lpc.witness.almsgiving-quenches-sin
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: doctrinal_witness
 schema_version: 2
 status: draft

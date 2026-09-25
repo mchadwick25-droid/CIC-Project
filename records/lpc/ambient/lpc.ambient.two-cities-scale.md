@@ -1,6 +1,6 @@
 ---
 id: lpc.ambient.two-cities-scale
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: ambient
 schema_version: 2
 status: draft

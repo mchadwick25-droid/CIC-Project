@@ -1,6 +1,6 @@
 ---
 id: lpc.source.demoustier-ontologie-de-leglise-selon-cyprien
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: source
 schema_version: 2
 status: draft

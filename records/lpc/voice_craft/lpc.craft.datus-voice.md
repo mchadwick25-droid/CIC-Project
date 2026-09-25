@@ -1,6 +1,6 @@
 ---
 id: lpc.craft.datus-voice
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: voice_craft
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: lpc.contested.grace-pelagius-characterization
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: contested_claim
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: lpc.limit.the-outsiders-own-view
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: honest_limit
 schema_version: 2
 status: draft

@@ -1,6 +1,6 @@
 ---
 id: lpc.gravity.sacramental-ordination-validity
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: gravity
 schema_version: 2
 status: draft

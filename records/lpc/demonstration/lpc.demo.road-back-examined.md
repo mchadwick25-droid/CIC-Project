@@ -1,6 +1,6 @@
 ---
 id: lpc.demo.road-back-examined
-world_id: latin-pastoral-congregational-christianity
+world_id: latin-pastoral-congregational
 record_type: demonstration
 schema_version: 2
 status: draft
