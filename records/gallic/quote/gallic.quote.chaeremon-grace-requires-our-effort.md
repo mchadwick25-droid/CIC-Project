@@ -87,5 +87,5 @@ separate pass. An earlier draft put the sentence on "its generosity is not unrea
 torpor is shaken off ... it gives on account of desire and effort" into two sentences that each
 independently asserted "is not/It is not unreasonable" - reading as two separate claims instead of the
 source's one integrated thought; fixed by folding the condition back into a single sentence ahead of the
-one claim, so the final version states it once. No ellipsis or bracket applies to this quote, so R47 does
-not arise here.
+one claim, so the final version states it once. No ellipsis or bracket applies to this quote, so the
+bracket-voicing rule for finishing a true ellipsis does not arise here.

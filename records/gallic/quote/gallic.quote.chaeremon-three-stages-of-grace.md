@@ -117,4 +117,5 @@ modern_rendering: authored against the verbatim `text`, then independently check
 separate pass - every clause of all three sentences accounted for (the three stages, the sentence on God
 working in all without destroying free will, and the sentence on subtle inference, the nested Scripture
 quotation, and the final admitted limit), nothing added, no misleading modern sense, each sentence at or
-under roughly 25 words. No bracketed span appears in this quote's `text`, so R47 does not arise here.
+under roughly 25 words. No bracketed span appears in this quote's `text`, so the bracket-voicing rule
+for finishing a true ellipsis does not arise here.
