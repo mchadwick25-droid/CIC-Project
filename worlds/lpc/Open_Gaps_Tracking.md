@@ -1472,6 +1472,49 @@ OG-3 (Doc_08's own unfixed generator-tooling findings), the four frontend go-liv
 Logged here per CLAUDE.md's own rule that a review outcome or gap-closing event never lives only
 in a conversation thread. Branch `lpc-registry-and-m3-admission`; PR opened alongside this entry.
 
+### OG-21. Three of the four frontend go-live surfaces wired; portrait deployed to both live-serving locations named in OG-12. The fourth surface (the traditions page) is genuinely blocked on a missing `world_front` record, and the new UI accent color has no documented grounding — both disclosed, neither resolved here.
+
+2026-09-25, same session as OG-20. `cic-website/data/world-census.json` (status flipped to
+"Built & Live," `living` corrected from a stale `false` to `true` to match the registry's own
+Article-29-confirmed `living_tradition_flag`, full `entry{}` object added), `cic-poc/frontend/src/data/worlds.ts`
+(added to `WORLD_ORDER`/`WORLD_ASSETS`), and `cic-website/table.html`'s own `WORLDS` array are
+all wired, every field traced to an already-approved source (the registry entry, `lpc_Decision_Log.md`'s
+own ruling, or `world-census.json`'s own existing teaser copy — nothing new invented). Datus's
+portrait, previously committed only to the brand-assets source folder (OG-12), is now copied
+byte-identical to both live-serving locations OG-12 named — `cic-website/assets/portraits/datus.jpg`
+and `cic-poc/frontend/public/images/portraits/datus.jpg` — kept as `.jpg`, matching the same
+already-accepted fleet pattern `rzg`/`witt` use. **This closes the portrait-wiring half of OG-12
+specifically** — its filename-convention half (`.jpg` vs. the README's stated `.png`) is unchanged
+and remains the same already-accepted fleet-wide drift OG-12 named, not newly introduced here.
+
+**Two new items surfaced, neither resolved:**
+
+1. **The UI accent color (`#C269BA`) has no documented thematic grounding**, unlike every
+   sibling world's own accent (each grounded in a cited theme — don's oxblood-red from its own
+   martyrdom motif, gallic's slate-blue from "the cold of Gaul," witt's charcoal from its own
+   austerity/subtraction theme). The one documented color fact about Datus — his "grey-taupe
+   against cream" garment, `Datus_Portrait_Prompt.md`'s own Comparanda note — was tested and
+   rejected: it lands at H=29°, colliding directly with three existing worlds' own hues (`alx`
+   2.8°, `ijc` 2.5°, `cappadocian` 9.5°). `#C269BA` (H=305°) was picked only for being this
+   fleet's own widest open hue gap, lightened to the same script-computed WCAG dark-mode
+   thresholds every recent entry uses (≥5.3:1 against the dark ground, ≥5.0:1 as a fill under
+   dark text) — collision-safe, not fabricated, but genuinely ungrounded. Disclosed in full in
+   a code comment at `cic-poc/frontend/src/data/worlds.ts`'s own `lpc` entry. Flagged for the
+   project lead to replace with a real grounding once one exists.
+2. **The traditions page** (`cic-website/traditions/latin-pastoral-congregational-christianity.html`)
+   was **not** built. `tools/generate_tradition_pages.py` — the only fabrication-free path to
+   this page, since it derives Story/Voices/Documented-stories/Legacy/Sourcing content from a
+   real compiled record rather than free prose — hard-requires two things `lpc` does not have:
+   a `world_front` record (checked directly: `records/lpc/` has no `world_front/` directory at
+   all, unlike every other live world) and a compiled `cic-website/data/worlds/<census_id>.json`
+   from `engine.m2.site_cli build`. Authoring the page by hand instead would mean inventing
+   the page's own substantive content — not attempted. This is real, unstarted
+   content-authoring work (comparable in scope to Doc_07/Doc_09), not a wiring gap, and belongs
+   with the project lead to scope and commission, not self-started inside a frontend-wiring
+   pass.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
