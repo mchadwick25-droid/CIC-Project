@@ -91,13 +91,18 @@ works:
 - work: Church Constitution of the Bohemian and Moravian Brethren (Ratio Disciplinae, 1632/33)
   author: unity-of-the-brethren
   locus: whole volume
-  role: tradition
+  role: context
   confidence: assigned
-  note: 'The Unity of the Brethren''s own institutional constitution, Latin original with
-    English translation, ed. Seifferth (1866). This world''s corpus previously held only Hus''s
-    own 15th-c. writing; this is the first vendored voice from the later Unity generation
-    itself, directly filling the gap the Step0 Revision 2 document''s §4 binding item 2 named
-    (Unity''s own missing primary voice). Vendored 2026-09-25 as part of a post-Step0-Revision-2
+  note: 'The Unity of the Brethren''s own institutional constitution (1632/33), Latin original
+    with English translation, ed. Seifferth (1866). Per Mark''s 2026-09-25 ruling on this
+    world''s own window (c. 1402-1517, moved back from Hus''s own preaching at Bethlehem Chapel,
+    held at 1517 so the later Unity material stays with the separate czech-churches-last-century
+    census entry, 1517-c. 1627), this text falls outside this world''s own temporal window
+    - it is the later Unity generation''s own voice, but not this world''s own tradition voice.
+    role: context, not tradition: useful here as a comparison/ continuation reference (how
+    the movement''s own discipline developed after this world''s own close), not as a floor-test
+    or binding source. Its own proper tradition placement belongs to whichever Doc_02 eventually
+    builds czech-churches-last-century. Vendored 2026-09-25 as part of a post-Step0-Revision-2
     PD source-acquisition pass.
 
     '
