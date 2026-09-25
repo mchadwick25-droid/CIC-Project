@@ -614,14 +614,7 @@ prerequisite rather than only the ones still in dispute.
 
 ---
 
-### OG-14. Re-rendered all 5 of `lpc`'s quote `modern_rendering` fields under the V1.5 rendering-fidelity standard (`engine.m1.rendering_fidelity`'s own "translation, not summation" rule) — independent verification found defects in all 5, not only the ones already flagged.
-
-**Number collision, disclosed rather than silently guessed around:** this entry is filed as
-OG-14 on a branch cut fresh from `origin/main` (which carries only through OG-13). Two other
-open, unmerged `lpc` PRs each independently number their own next entry OG-14 or OG-15 on
-their own branches off the same base. This is not resolved here — it is exactly the kind of
-renumbering PR5 (Open_Gaps_Tracking hygiene) exists to do once merge order is known. Flagged
-here so the collision is visible before that pass, not discovered by it.
+### OG-19. Re-rendered all 5 of `lpc`'s quote `modern_rendering` fields under the V1.5 rendering-fidelity standard (`engine.m1.rendering_fidelity`'s own "translation, not summation" rule). Renumbered from this branch's own original OG-14 to OG-19 (PR #563 round 2), the next free number after PR #557's own OG-17 and PR #562's own OG-18, resolving the cross-branch numbering collision this entry originally disclosed.
 
 **What was checked.** Every `quote` record in `lpc` with a non-empty `modern_rendering` (5 of
 5) was checked clause-by-clause against its own `text` field for the V1.5 standard: a
@@ -634,67 +627,59 @@ draws). The live Haiku grader that module uses could not be run in this build en
 `boto3`/Bedrock access here) — this check was done by direct clause-by-clause reading instead,
 the same discipline the grader formalizes.
 
-**Findings and fixes, all 5 records:**
+**All five `modern_rendering` fields are authored by an Opus subagent**, per CLAUDE.md's own
+rule that any `modern_rendering` is Opus-authored, never Sonnet. Every clause of every
+rendering was independently re-checked by this thread against its own `text` field before
+applying, and FK was independently re-verified directly with `engine.m1.fk.fk_grade` rather
+than trusted from the subagent's own self-estimate.
 
-1. **`lpc.quote.bishop-of-bishops`** — dropped 3 clauses: the qualifying "according to the
-   allowance of his liberty and power"; the entire clause "and can no more be judged by
-   another than he himself can judge another"; and "of preferring us in the government of His
-   Church" (only "judging" survived, not the appointing power). All 3 restored. The first
-   restored draft scored FK 11.5, above the readability gate's ceiling of 10 — revised into
-   shorter sentences (same content, no clause dropped) to FK 6.02.
-2. **`lpc.quote.ancient-venom-against-my-episcopate`** — dropped 2 clauses: "mindful of their
-   conspiracy" (missing entirely) and "sacrilegious machinations with their accustomed craft"
-   (compressed to the contentless "the same way as before"). Both restored. First draft scored
-   FK 18.0 — revised into shorter sentences to FK 6.10.
-3. **`lpc.quote.longing-expectation-is-a-prayer-for-me`** — two defects in the opposite
-   direction from the first two records: "I imagine" (an explicit hedge/supposition in the
-   original) had been rewritten as the stronger, unhedged "I know," and the rendering had
-   *added* "not because you have to," a clause with no basis in the source text at all (a
-   fabrication under the V1.5 standard, not a summary). Fixed by restoring the hedge ("I
-   suppose") and removing the invented clause. FK 6.67.
-4. **`lpc.quote.clamour-and-tears`** — the entire rendering had been recast from Possidius's
-   own third-person narration ("The Catholics... laid hands on him... they demanded it") into
-   first-person plural ("We already knew Augustine's own life and teaching, so we took hold of
-   him..."), which asserts Possidius's own participation in the seizure — a claim the source
-   text, narrating events about "the Catholics" from outside, does not make. Restored to third
-   person, all clauses present. The record's own `divergence_note`, which illustrated the
-   OCR-artifact fix with the old first-person phrasing ("We demanded it..."), was corrected to
-   match ("they demanded it...") for internal consistency — a metadata cross-reference fix,
-   not a change to any protected field. FK 9.86.
-5. **`lpc.quote.shepherd-wounded-in-the-flock`** — not named in this PR's original brief;
-   found on independent verification. Dropped the clause "and I share in the grievous burden
-   of sorrow and mourning" entirely, and compressed "my own integrity and my personal
-   soundness" (two distinct qualities) into the single word "safety." Both restored. FK 5.03.
+**Current state, all 5 records, clauses verified complete against `text`:**
+
+1. **`lpc.quote.bishop-of-bishops`** — carries "according to the allowance of his liberty and
+   power," "can no more be judged by another than he himself can judge another," and "of
+   preferring us in the government of His Church" in full. FK 8.34.
+2. **`lpc.quote.ancient-venom-against-my-episcopate`** — carries "mindful of their conspiracy"
+   and "sacrilegious machinations with their accustomed craft" ("with their usual cunning,"
+   matching "accustomed" without overstating it into "have always used," which implies an
+   unbroken permanent habit the source does not claim). FK 8.42.
+3. **`lpc.quote.longing-expectation-is-a-prayer-for-me`** — carries the source's own hedge,
+   "I imagine" (not the stronger, unhedged "I know"), and adds nothing beyond the source (no
+   invented clause). The long first sentence is split after "who want to hear." into its own
+   sentence beginning "So I am not speaking...", matching the source's own two distinct
+   thoughts rather than running them together. FK 4.42 for the split version — genuinely low
+   for this short a quotation, not a defect; a single-sentence alternative was not used because
+   it re-merges the two thoughts the split exists to separate.
+4. **`lpc.quote.clamour-and-tears`** — stays in Possidius's own third-person narration ("The
+   Catholics... laid hands on him... they demanded it"), not recast into first person. The
+   clause "because all of them, with one accord, wanted this done and carried through" restores
+   the source's own causal "for" and its sense of active desire ("desired"), which an earlier
+   version had lost by splitting the sentence and weakening "desired" to "agreed." The record's
+   own `divergence_note`, which illustrates the OCR-artifact fix, uses the same third-person
+   phrasing ("they demanded it...") for internal consistency. FK 8.99.
+5. **`lpc.quote.shepherd-wounded-in-the-flock`** — carries "I share in the grievous burden of
+   sorrow and mourning" and keeps "my own integrity and my personal soundness" as two distinct
+   qualities. Follows the source's own three sentence breaks: "I wail with those who wail, I
+   weep with those who weep..." is its own sentence, not joined to the previous one with "and."
+   FK 6.02.
+
+**A locus correction, `lpc.quote.longing-expectation-is-a-prayer-for-me`.** The record's own
+`sources[].locus` field said the sermon was "delivered at the matins of the Nativity
+festival." Checked directly against the source (`npnf106...xml`, line ~9398): the sermon's own
+opening says the opposite — at matins, Augustine deferred the very question this sermon now
+resolves ("it was in the matins of the festival of the Lord's Nativity, that I put off the
+question which I had proposed for resolution"). This sermon was delivered some time after
+that matins service, not at it. Fixed in both the `sources[].locus` field and the docstring.
 
 **Protected fields.** Only `modern_rendering` was touched in all 5 records (plus the one
-`divergence_note` cross-reference in `lpc.quote.clamour-and-tears`, noted above).
-`text`, `sources`, `speaker_or_author`, `confidence`, `retrieval`, and every other field are
+`divergence_note` cross-reference in `lpc.quote.clamour-and-tears`, and the one
+`sources[].locus` correction in `lpc.quote.longing-expectation-is-a-prayer-for-me`, both noted
+above). `text`, `speaker_or_author`, `confidence`, `retrieval`, and every other field are
 byte-identical to before this pass — confirmed by diff review, not by intent alone.
 
 **Verification.** `engine.m1.gates.run_all`: all 21 gates clean except the pre-existing,
 out-of-scope `canon-coverage` gaps. `tools/check_live_commentary.py --surface records`: zero
-hits in any of the 5 touched files. FK grade on all 5 final `modern_rendering` fields: 5.03,
-6.02, 6.10, 6.67, 9.86 — all under the readability gate's ceiling of 10.
-
-**Correction: the fixes above were authored directly by this thread, not by Opus, in
-violation of CLAUDE.md's own rule that any `modern_rendering` — "a quote's `modern_rendering`,
-and any re-rendering of it" — is authored by Opus.** Caught by an independent review, not
-self-caught. All 5 renderings above were discarded and re-authored fresh by an Opus subagent,
-working from each record's own `text` field and the same V1.5 standard, with the same 5
-defects named as guardrails against repeating them (not as templates to edit). Every clause of
-every re-authored rendering was independently re-checked against its own `text` field by this
-thread before applying — the subagent's own FK self-estimates were also independently
-re-checked with `engine.m1.fk.fk_grade` directly, since they disagreed with the tool's actual
-output by 1–3 points on 3 of the 5. One addition the subagent's own draft made ("this eager,
-longing expectation of yours") was caught at that check and removed before applying — "eager"
-has no basis in the original's "longing expectation." Two of the five (`longing-expectation-
-is-a-prayer-for-me`, `clamour-and-tears`) needed light re-combining of already-correct
-sentences, not new drafting, to move off an overly choppy first pass. Final FK on all 5,
-re-verified directly: `bishop-of-bishops` 8.34, `ancient-venom-against-my-episcopate` 8.42,
-`longing-expectation-is-a-prayer-for-me` 7.35, `clamour-and-tears` 7.45,
-`shepherd-wounded-in-the-flock` 8.34 — all inside or close to the 8–10 target band, none
-choppy, all under the gate's ceiling of 10. Gates and commentary check re-run clean after
-these final edits.
+hits in any of the 5 touched files. FK grade on all 5 final `modern_rendering` fields: 4.42,
+6.02, 8.34, 8.42, 8.99 — all under the readability gate's ceiling of 10.
 
 ---
 
