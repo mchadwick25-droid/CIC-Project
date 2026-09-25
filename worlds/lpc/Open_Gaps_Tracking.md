@@ -1670,7 +1670,7 @@ Work done this pass:
   copy before then and the no-guessing rule forbids inventing one." lpc cannot receive the
   same waiver — grandfathering is closed, per this same ruling above — so this is not an lpc
   content defect and not fixable from this world's own build thread: it is a fleet-wide
-  engine/corpus-map prerequisite (CM-1 row_id assignment) that has not been built for any
+  engine and corpus-map prerequisite (CM-1 row_id assignment) that has not been built for any
   world yet. Named here as its own unresolved tension the pipeline cannot close on its own,
   for the project lead's own attention, rather than worked around by inventing a row_id or by
   routing around the grandfathering check.
