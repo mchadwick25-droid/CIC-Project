@@ -6598,3 +6598,64 @@ site_cli staleness-check` both pass; `node --check` on the regenerated
 `DATA` script block; `tools/check_paths.py --baseline` 0 new unresolved
 citations; `tools/check_live_commentary.py --surface cic-website` hit
 count unchanged before/after (130 either way - nothing new introduced).
+
+## 2026-09-25 (later) — Cleanup item filed: `statusWord` confirmed dead code, reads nothing on the live Atlas
+
+**Origin.** While fixing the 7 `statusWord` labels this earlier entry's own
+Decision 7 pattern-match had missed (their era number sits inside a longer
+parenthetical - "the record-mandated Era N disposition," "proposed and
+recorded, Era N" - rather than the standalone `(Era N Step 0)` tag Decision
+7 fixed fleet-wide), the question came up directly: does the "no
+visitor-visible change" note on Decision 7's own entry mean this field
+needs wiring up, not just cleaning?
+
+**Traced exhaustively, not assumed.** Both places `atlas-v3.html` renders a
+movement's status:
+
+- The hover tooltip (`tipFor()` → `statusLabel()`) reads
+  `DATA.statusMeta[m.status].shortWord` - one generic string per `status`
+  enum value (e.g. every "Floor Question (register)" movement gets the same
+  "An open theological question", regardless of its own `statusWord`). The
+  comment directly above `statusLabel()` explains why this indirection
+  exists: `status` itself "still carries internal process language...
+  never meant for a participant to read as-is," and `statusMeta` is the
+  fix for that - a different, working fix than `statusWord`.
+- The click panel (`openPanel()`, ~130 lines) never references
+  `m.statusWord` anywhere. Its own "Where this tradition stands" section
+  reads `m.why` instead - checked directly for all 7 movements this entry's
+  own fix touched; all seven are clean, plain narrative prose already, no
+  era or build-process language.
+
+A repo-wide grep for `.statusWord` property access (not just the JSON
+literal) confirms zero matches in `atlas-v3.html` or `cic-poc/frontend`.
+
+**Conclusion: not a bug, nothing to wire up.** `statusWord` is a third,
+orphaned field alongside the two mechanisms (`statusMeta.shortWord`,
+`why`) that already do this job correctly. Every one of the 292 movements
+carries a copy of it in `world-census.json` and `atlas-v3.html`'s embedded
+`DATA`, synced automatically (`engine/m6/census_sync.py:43`'s
+`shortWord`→`statusWord` mapping for built worlds;
+`engine/m6/census_atlas_sync.py:50`'s `STRUCTURAL_FIELDS` for the
+census→Atlas sync) and guarded by `tools/validate-census.mjs` (required key
+at line 34; Decision 7's own regression check at lines 41-46) and by
+`engine/m6/tests/test_census_sync.py`'s assertions - all real, working
+machinery keeping a field alive that nothing downstream reads.
+
+**Not fixed here.** Deleting it is a bigger, structural change than this
+entry's own scope (a 7-label wording fix): it touches the sync module, the
+Atlas generator's field list, the validator, and the test suite, not just
+`world-census.json` content. It's also not a pure mechanical deletion -
+someone should confirm first whether `statusWord` was ever meant to show a
+per-movement detail beyond `statusMeta`'s generic label (in which case the
+fix is wiring it up, not deleting it), which is a design read, not a code
+read.
+
+**Next action:** filed as a cleanup item, not acted on. A future pass
+decides fleet-wide whether to (a) delete `statusWord` from
+`world-census.json`, `atlas-v3.html`'s `DATA`, `census_sync.py`,
+`census_atlas_sync.py`'s `STRUCTURAL_FIELDS`, `validate-census.mjs`, and
+`test_census_sync.py` since nothing reads it, or (b) wire it into
+`openPanel()` or `tipFor()` as the per-movement detail it looks like it was
+meant to be. Either way, `tools/validate-census.mjs` and
+`engine/m6/tests/test_census_sync.py` need updating alongside whichever
+choice is made.
