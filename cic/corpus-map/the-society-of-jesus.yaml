@@ -224,30 +224,33 @@ works:
 
     '
   source_file: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
-- work: Epistolae P. Alphonsi Salmeronis, Vol. II
+- work: Epistolae P. Alphonsi Salmeronis, Tomus Primus (1536-1565)
   author: salmeron
-  locus: whole volume
+  locus: whole volume - Tomus Primus, covering 1536-1565; not Vol. II as the filename and
+    archive.org item title suggest
   role: tradition
   confidence: assigned
-  note: 'Salmeron''s own letters, previously wholly unassessed for this world. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
-    directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+  note: 'Salmeron''s own letters, previously wholly unassessed for this world. The file''s
+    own title page reads "TOMUS PRIMUS 1536-1565". Vendored 2026-09-25 as part of a post-Step0-Revision-2
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
 
     '
   source_file: salmeron_epistolae-v2-lat_1906.txt
-- work: Epistolae P. Alphonsi Salmeronis, Vol. III
+- work: Epistolae P. Alphonsi Salmeronis, Tomus Secundus (1565-1585)
   author: salmeron
-  locus: whole volume
+  locus: whole volume - Tomus Secundus, covering 1565-1585; not Vol. III as the filename suggests
   role: tradition
   confidence: assigned
-  note: 'Salmeron''s own letters, continuing Vol. II (vendored alongside this file). Vendored
-    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
-    primary evidence directly, verified against the vendored file, since it is primary to
-    the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
-    ruling "a."
+  note: 'Salmeron''s own letters, continuing the Tomus Primus volume (vendored alongside this
+    file) - together spanning 1536-1585 in full. The file''s own title page reads "TOMUS SECUNDUS
+    1565-1585". Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
+    pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
+    Latin text can be primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged under
+    Mark''s OCR ruling "a."
 
     '
   source_file: salmeron_epistolae-v3-lat_1906.txt

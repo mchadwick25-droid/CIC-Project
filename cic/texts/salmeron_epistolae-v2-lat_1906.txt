@@ -1,4 +1,7 @@
-Title: Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Vol. II
+Title: Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus
+  Primus, 1536-1565 - not "Vol. II" as the filename and archive.org
+  item title suggest; the title page itself reads "TOMUS PRIMUS
+  1536-1565"
 Creator: Alfonso Salmeron (1515-1585)
 Publisher: Madrid: Monumenta Historica Societatis Jesu, 1906
 Rights: Public Domain

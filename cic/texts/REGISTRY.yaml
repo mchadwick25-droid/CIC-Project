@@ -3069,15 +3069,21 @@
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
-    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Vol. II (MHSI, 1906).
+    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus Primus,
+    covering 1536-1565 (MHSI, 1906) - the file's own title page reads
+    "TOMUS PRIMUS 1536-1565", not "Vol. II" as the filename and
+    archive.org item title (epistolaepalpho02salmgoog) suggest.
     Explicit NOT_IN_COPYRIGHT confirmed on archive.org item
     epistolaepalpho02salmgoog. Latin.
 - filename: salmeron_epistolae-v3-lat_1906.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
   notes: >-
-    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Vol. III (MHSI, 1906).
-    Latin. pd-us-by-date.
+    Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus Secundus,
+    covering 1565-1585 (MHSI, 1906) - the file's own title page reads
+    "TOMUS SECUNDUS 1565-1585", not "Vol. III" as the filename suggests.
+    Together with the Tomus Primus volume, spans Salmeron's own letters
+    1536-1585 in full. Latin. pd-us-by-date.
 - filename: polanco_chronicon-v1-lat_1894.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)
   date_added: '2026-09-25'
@@ -3148,7 +3154,7 @@
     "Secunda Nota est Antiquitas. Bellar. L.iv, c.v, de Notis Ecclesiae"),
     carries Anglican imprimaturs ("IMPRIMATUR... Battely," dated 1687-89),
     and speaks in the first person as "we Protestants." Printed in London
-    for Richard Chiswell, 1687. pd-us-by-date. Opponent voice, not this
+    for Richard Chiswell, 1687-88. pd-us-by-date. Opponent voice, not this
     world's own tradition.
 - filename: pius-v_apostolicarum-epistolarum-lat_1640.txt
   supplied_by: Claude (source-acquisition research thread, post-Step0-Revision-2 PD sweep across all six next-build worlds)

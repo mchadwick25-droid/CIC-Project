@@ -1,4 +1,6 @@
-Title: Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Vol. III
+Title: Epistolae P. Alphonsi Salmeronis, Societatis Jesu, Tomus
+  Secundus, 1565-1585 - not "Vol. III" as the filename suggests; the
+  title page itself reads "TOMUS SECUNDUS 1565-1585"
 Creator: Alfonso Salmeron (1515-1585)
 Publisher: Madrid: Monumenta Historica Societatis Jesu, 1906
 Rights: Public Domain
