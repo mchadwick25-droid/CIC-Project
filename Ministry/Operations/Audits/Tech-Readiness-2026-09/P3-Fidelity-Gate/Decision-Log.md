@@ -2086,11 +2086,16 @@ Entry 35's record). `engine.m2.site_cli staleness-check` and
 `engine/m2/tests/test_site_compiler.py` and
 `test_site_staleness.py` (20 tests) pass.
 
-**Why PR #531's own CI didn't catch this:** the "Site staleness sweep"
-job is real, wired logic (not stubbed) gated on a path filter that does
-include `records/**`, so it likely did run on that PR - the gap is that
-the package repin (`engine.m2.cli`) and the site JSON repin
-(`engine.m2.site_cli`) are two separate, uncoordinated pinning steps
-with no single command or gate that repins both together, so a branch
-can correctly repin one and simply forget the other. Exact CI history
-for PR #531 pending further confirmation.
+**Why PR #531's own CI didn't catch this - correction.** It did catch
+it: "Site staleness sweep (world_front-compiled JSON)" ran on the PR's
+final head commit (`49ceae78`, ~1 minute after that commit was pushed)
+and reported `conclusion: failure` - confirmed directly from GitHub's
+check-run API, not inferred. The PR was merged anyway 23 minutes later,
+with that check still red. So this was not a CI blind spot; it was a
+failing, correctly-firing check that did not block the merge - a
+branch-protection gap (this repo does not require "Site staleness
+sweep" to pass before merging to `main`), which is a distinct and more
+serious defect than a check that never ran. Fixing it means a repo
+branch-protection setting change, a portfolio-level/infra decision this
+entry does not make on its own - flagged to Mark rather than actioned
+here.
