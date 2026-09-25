@@ -41,8 +41,9 @@ exchange:
     blood crying out from the ground. Jacob, persecuted, fled into exile.
     Joseph, persecuted, sold and thrown into a pit. Moses, persecuted, fled to
     Midian. The roll-call goes on past what we tell here: David was persecuted
-    at the hands of Saul, and Jesus was persecuted. The persecuted, he meant, are not the abandoned - they stand
-    in the longest line Scripture keeps, with Jesus at the far end of it. We
+    at the hands of Saul, and Jesus was persecuted. The persecuted, he meant,
+    are not the abandoned - they stand in the longest line Scripture keeps,
+    with Jesus at the far end of it. We
     will not tell you that faith kept the blow away. Our own record shows it
     landing - sometimes turned aside, and sometimes not. What we held instead
     was that God's answer was never exemption. It was presence, and
