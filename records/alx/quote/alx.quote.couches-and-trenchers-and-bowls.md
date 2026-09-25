@@ -24,13 +24,13 @@ text: >-
 modern_rendering: >-
   Silver couches, pans and vinegar-dishes, platters and bowls are all to be
   given up. So are vessels of silver and gold, some for serving food and
-  others for uses I am ashamed to name, and vessels of easily split cedar,
+  others for uses I am ashamed to name. So are vessels of easily split cedar,
   thyine wood and ebony. So are tripods made of ivory, and couches with silver
   feet, inlaid with ivory. The same goes for folding bed-doors studded with
   gold and patterned with tortoise-shell, and for bedclothes of purple and of
   other colors that are hard to produce. These are proofs of tasteless luxury,
-  cunning devices of envy and effeminacy. There is nothing at all in them
-  worth our trouble.
+  cunning devices of envy and effeminacy. They are to be given up because
+  there is nothing at all in them worth our trouble.
 speaker_or_author: Clement of Alexandria, Paedagogus II.3
 license: verbatim
 modern_lens_note: >-

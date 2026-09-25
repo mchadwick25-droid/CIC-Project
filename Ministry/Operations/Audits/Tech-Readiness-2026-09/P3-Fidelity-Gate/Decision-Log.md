@@ -2113,7 +2113,9 @@ by Opus and graded with Haiku 4.5 and Sonnet 4.6, two runs each.
 - alx `couches-and-trenchers-and-bowls` (list): whole short sentences, by
   Mark's direct ruling for this record on 2026-09-24 ("Option 1"), because
   the one-sentence list scores FK 41.7 and fails the live readability
-  gate. The process doc's "one list sentence" does not yet say what
+  gate. The closing sentence keeps the source's reason tied to its verb
+  ("They are to be given up because there is nothing at all in them worth
+  our trouble"), per the independent fidelity review. The process doc's "one list sentence" does not yet say what
   happens when a list cannot pass the readability gate as one sentence;
   flagged to Mark as a methodology question, not changed here.
 - alx `to-believe-or-disbelieve` (split fragment): re-split with an

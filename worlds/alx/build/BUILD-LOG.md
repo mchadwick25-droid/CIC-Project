@@ -217,7 +217,8 @@ of this pass.
   the live readability gate. Mark ruled on 2026-09-24 for this record
   ("Option 1"): whole short sentences, each with its own subject and verb,
   carrying the source's own verb ("are all to be given up. So are ...").
-  FK 9.05.
+  The source's closing reason ("as having nothing whatever worth our
+  pains") stays tied to the verb with "because". FK 8.28.
 - `alx.quote.to-believe-or-disbelieve`: "For example, to philosophize or
   not, to believe or to disbelieve." was a clause split away from its own
   sentence. Rejoining it scores FK 12.0, so it is split differently: the
