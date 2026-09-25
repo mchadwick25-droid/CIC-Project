@@ -5089,3 +5089,88 @@ says, even when it names no person, place, text or number of its own,
 still carries that record's own tag. Only a sentence that adds nothing
 beyond connecting or interpreting what was already said stays
 untagged." Nothing else in the record changed.
+
+All 12 world packages this fleet record feeds (alx, cappadocian, desert,
+don, fix, gallic, hal, ijc, pahc, rzg, syr, witt) were rebuilt and
+re-pinned (`records/worlds/<code>.yaml`). `engine.m2.cli staleness-check`
+and `engine.m2.site_cli staleness-check` both pass clean (site JSON is
+built from each world's own `world_front` record, not `citation_contract`,
+so it was unaffected). Full m1/m2/m4 suite: 729 tests pass.
+
+**Live measurement, same script and method as Entry 61** (`engine/m4/
+reports/g1_precision_sample_measure.py`, 11 worlds x 2 probes = 22 fresh
+probes, current record wording, region us-east-1), against the rebuilt
+packages above. **Real cost: $1.9714, 22 probes, 141 raw offenses
+captured** (report: `g1-precision-sample-measure-2026-09-25.json`) -
+under the $3.00 ceiling.
+
+**Sample of 40, stratified across all 11 worlds proportional to each
+world's own share (same method as Entry 61), hand-read against each
+world's own freshly-compiled repository** (`engine.m2.compiler.
+compile_and_hash`, not assumed from general historical knowledge, the
+same discipline Entry 61 itself insisted on).
+
+**The three counts, before (Entry 61) vs after (this run): 0 -> 4
+unsupported, 14 -> 17 supported but untagged, 26 -> 19 interpretive or
+connective (of 40 each time).**
+
+- **Supported but untagged (17 of 40, up from 14):** the new sentence
+  shows no measurable reduction in this miss rate - if anything it moved
+  the other way, consistent with Entry 60's own finding that a proposed
+  wording change "made no measurable difference to the raw rate." One
+  40-sentence sample from one live run is not enough to call 14 vs 17 a
+  real regression either; both readings are offered plainly, not
+  resolved past what this sample can support.
+- **Unsupported (4 of 40, up from 0) - the important finding, reported
+  in full rather than folded into the tally above:** four sampled
+  sentences asserted a specific, checkable claim this hand-read could
+  not find any support for anywhere in the speaking world's own
+  compiled repository, verified by direct search, not plausibility:
+  *"Some among us thought he was a coward"* (cappadocian, of Eustathius
+  of Sebaste) - the repository documents the Eustathius rupture at
+  length, in his own former friend's own words, but nowhere calls him a
+  coward or names factions who thought so. *"Felix Manz was drowned in
+  the Limmat that same year"* and *"...fines, then imprisonment, and
+  finally, in 1527, execution"* (rzg) - real Reformation history, and
+  Felix Manz himself is named repeatedly in rzg's own repository (the
+  first Anabaptist baptisms, his own break from the reform circle), but
+  no drowning, no river name, no execution, fine, or imprisonment
+  appears anywhere in rzg's compiled text - the world's own record
+  simply does not carry this specific outcome, however true it is of the
+  real historical Felix Manz. *"Alexandria itself appears only once in
+  what we hold, and only in passing - named as one city among several in
+  a list..."* (witt) - "Alexandria" appears zero times, in any spelling
+  or case, anywhere in witt's compiled repository; the ancient-married-
+  clergy claim it was attached to is real and sourced (Melanchthon,
+  Augsburg Confession) but names no cities at all. These are not
+  citation-contract misses (nothing to tag, since the claim itself has
+  no ground) - they are the class of fabrication `engine.m4.
+  named_claim_grounding` (OG-16, `worlds/pahc/Open_Gaps_Tracking.md`)
+  exists to catch, report-only and unenforced today, on real live
+  traffic, independent of anything this entry's own citation-contract
+  question asked. Flagged here in full rather than summarized away; no
+  fix attempted by this entry, per its own scope.
+- **Interpretive or connective (19 of 40, down from 26):** the same
+  shape Entry 61 already described - transitional framing, rhetorical
+  summary, honest-limit scaffolding ("our pages do not tell us...",
+  "the record does not tell us..."), and synthesis connecting
+  already-cited ideas.
+
+**Record-reciter register check: no sign of it.** Every sampled world's
+surrounding prose (not just the flagged sentences) reads as voiced,
+specific narrative, not a citation-heavy list. Five verbatim examples
+across five different worlds: *"The hardest fight we had was the one
+inside our own house"* (cappadocian); *"Basil's own letters about it
+swing between grief and exasperation - the tone of a man who cannot tell
+whether he is being lied to or whether his old teacher simply cannot
+bring himself to say the thing that needs saying"* (cappadocian);
+*"Rufinus and Jerome had been close since their student days - close
+enough that each followed the other into the ascetic life"* (hal); *"The
+wound stayed open"* (alx); *"So the honest answer is this: one root of
+ours runs back through Origen, and after that, silence"* (cappadocian).
+
+**No enforcement flag was touched.** This entry reports the two counts,
+the cost, and the unsupported-claim finding above; the R42 follow-up
+itself is closed by this measurement, per Entry 73's own scope. The
+fabrication finding is a new, separate matter for the managing thread to
+route, not something this entry resolves.
