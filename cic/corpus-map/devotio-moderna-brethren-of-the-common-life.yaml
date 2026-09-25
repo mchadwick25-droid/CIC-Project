@@ -10,8 +10,10 @@ works:
   confidence: assigned
   note: 'The major chronicle of the Windesheim Congregation, ed. Grube (1886), previously
     wholly unrepresented in this world''s vendored corpus. Vendored 2026-09-25 as part of
-    a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own INTAKE.md
-    rule, this Latin/German text is a second witness, never primary evidence for a Representative.
+    a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
 
     '
   source_file: busch_chronicon-windeshemense-lat_grube1886.txt
@@ -22,10 +24,14 @@ works:
   confidence: assigned
   note: 'Gerard Groote''s own surviving letters, Latin original, ed. J. G. R. Acquoy (1857)
     - the movement''s founder in his own voice, not reported through Thomas a Kempis''s later
-    biography. No PD English translation located this pass; Latin original vendored as PRIMARY
-    content, the same treatment this corpus already gives comparable cases (e.g. the Jesuit
-    Constitutions, Nadal''s Adnotationes). Vendored 2026-09-25 as part of a fresh pre-Doc_02
-    source-acquisition pass for this candidate.
+    biography. No PD English translation located this pass. Vendored 2026-09-25 as part of
+    a fresh pre-Doc_02 source-acquisition pass for this candidate. Correction (2026-09-25):
+    originally called "PRIMARY content" here on informal grounds only, ahead of any actual
+    ruling backing that label - a defect caught and flagged the same day. Under Mark''s own
+    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this label now has real
+    backing: a clean public-domain original can be primary evidence when it''s primary to
+    the movement, which this is, regardless of language and independent of whether an English
+    translation exists.
 
     '
   source_file: groote_epistolae-xiv-lat_acquoy1857.txt
@@ -36,8 +42,10 @@ works:
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own
-    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
 
     '
   source_file: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt
@@ -49,8 +57,10 @@ works:
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1905) beyond the already-vendored Imitation of Christ, including his own sermons
     to novices and his life of Lidwina of Schiedam. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Per this project''s own INTAKE.md rule, this Latin text is
-    a second witness, never primary evidence for a Representative.
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text can be primary evidence directly, verified against the vendored file,
+    since it is primary to the movement regardless of language; the scan is clean, not flagged
+    under Mark''s OCR ruling "a."
 
     '
   source_file: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt
@@ -61,8 +71,10 @@ works:
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s own
-    INTAKE.md rule, this Latin text is a second witness, never primary evidence for a Representative.
+    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
+    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
 
     '
   source_file: kempis_opera-omnia-tractatus-lat_pohl1902.txt
@@ -73,9 +85,11 @@ works:
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, this scan dated 1918) beyond the already-vendored Imitation of Christ. Vendored
-    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Per this project''s
-    own INTAKE.md rule, this Latin text is a second witness, never primary evidence for a
-    Representative.
+    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
+    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
+    primary evidence directly, verified against the vendored file, since it is primary to
+    the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
+    ruling "a."
 
     '
   source_file: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt
