@@ -1,0 +1,19 @@
+source_file: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt
+
+assignments:
+  - work: "Lives of the Eastern Saints (X)"
+    author: john-ephesus
+    locus: "one article within a mixed 1926 periodical fascicule - see the file's own header"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Third installment fetched this pass, but this fascicule is a mixed
+      periodical issue: its own contents list (independently verified)
+      shows the John of Ephesus material alongside unrelated articles
+      (an Armenian Synaxarion, Byzantine homilies, a Georgian
+      Synaxarion, Arabic Logia). Vendored whole with the mixed contents
+      disclosed in the file's own header rather than extracted, since
+      the John of Ephesus portion's exact boundary inside the issue was
+      not pinned down.

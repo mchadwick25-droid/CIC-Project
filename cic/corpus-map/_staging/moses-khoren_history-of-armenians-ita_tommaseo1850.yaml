@@ -1,0 +1,16 @@
+source_file: moses-khoren_history-of-armenians-ita_tommaseo1850.txt
+
+assignments:
+  - work: "History of the Armenians"
+    author: moses-khoren
+    locus: "the Mashtots alphabet narrative confirmed present; III.47-54 not cross-checked against this translation's own numbering"
+    atlas_ids:
+      - armenian-christianity-conversion-era
+    role: tradition
+    confidence: assigned
+    note: >
+      Moses's own account of Mashtots inventing the Armenian alphabet -
+      the only public-domain edition, since no PD English translation
+      exists. The translator is Niccolo Tommaseo, per this volume's own
+      metadata - not Cappelletti, sometimes cited elsewhere for this
+      work.

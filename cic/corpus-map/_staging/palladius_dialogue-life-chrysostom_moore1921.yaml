@@ -1,0 +1,15 @@
+source_file: palladius_dialogue-life-chrysostom_moore1921.txt
+
+assignments:
+  - work: "The Dialogue of Palladius Concerning the Life of Chrysostom"
+    author: palladius
+    locus: "whole file"
+    atlas_ids:
+      - antiochene-exegetical-christianity-chrysostom-ce
+    role: tradition
+    confidence: assigned
+    note: >
+      An early (c.408 CE), eyewitness-adjacent defense of Chrysostom by
+      a contemporary bishop - direct primary evidence for this atlas
+      entry's own window (c.350-430). "Widow"/"widowhood" content
+      confirmed present in this file.

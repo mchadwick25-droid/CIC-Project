@@ -1,0 +1,17 @@
+source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+
+assignments:
+  - work: "Lives of the Eastern Saints (I)"
+    author: john-ephesus
+    locus: "whole fascicule"
+    atlas_ids:
+      - syriac-orthodox-west-syriac-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      First installment of John of Ephesus's hagiographic collection -
+      squarely inside this atlas entry's window (451-636). Confirmed
+      substantially on-topic. The exact chapter 49-50 (Jacob and
+      Theodore) boundary an Atlas story cites was not pinpointed across
+      this or the two following fascicules (OCR noise defeated a
+      Roman-numeral chapter search) - a disclosed, open imprecision.

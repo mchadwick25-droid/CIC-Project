@@ -1,0 +1,23 @@
+source_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+
+authors_ruled:
+  capitulatio-partibus-saxoniae:
+    kind: anonymous
+    evidence: >
+      A royal capitulary issued in Charlemagne's name by his chancery,
+      not a personally authored work - even its own MGH editors dispute
+      its exact date and place of issue. A work, not a person.
+    from_file: capitulatio-de-partibus-saxoniae_pertz1881.txt
+
+assignments:
+  - work: "Capitulatio de partibus Saxoniae"
+    author: capitulatio-partibus-saxoniae
+    locus: "whole file"
+    atlas_ids:
+      - carolingian-reform-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      The harsh Saxon capitulary (c. 775-790) directly bound up with the
+      Verden killings and Alcuin's own protest against it - full text
+      confirmed present.

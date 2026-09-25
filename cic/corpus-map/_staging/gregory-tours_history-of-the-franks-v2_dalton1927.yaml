@@ -1,0 +1,21 @@
+source_file: gregory-tours_history-of-the-franks-v2_dalton1927.txt
+
+assignments:
+  - work: "The History of the Franks, Volume II"
+    author: gregory-tours
+    locus: "whole file (Books VI-X plus Dalton's translator's notes)"
+    atlas_ids:
+      - merovingian-gallic-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Gregory of Tours' own history of the Merovingian Gallic church -
+      the central narrative source for this atlas entry's own time
+      window (c.480-620). The Sichar/Chramnesind feud is confirmed
+      present. The specific "Radegund walks out of the palace" passage
+      one Atlas story cites was NOT located in this volume on this
+      pass - only a different, unrelated Radegund-monastery story (a
+      nun named Disciola) was found. Vendored regardless since the
+      volume is genuine and substantially on-topic; that one specific
+      passage's presence stays an open, disclosed gap rather than a
+      silently resolved one.

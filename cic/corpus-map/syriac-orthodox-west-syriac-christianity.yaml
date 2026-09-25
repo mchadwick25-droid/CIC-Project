@@ -39,6 +39,59 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: Lives of the Eastern Saints (I)
+  author: john-ephesus
+  locus: whole fascicule
+  role: tradition
+  confidence: assigned
+  note: 'First installment of John of Ephesus''s hagiographic collection - squarely inside
+    this atlas entry''s window (451-636). Confirmed substantially on-topic. The exact chapter
+    49-50 (Jacob and Theodore) boundary an Atlas story cites was not pinpointed across this
+    or the two following fascicules (OCR noise defeated a Roman-numeral chapter search) -
+    a disclosed, open imprecision.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+- work: Lives of the Eastern Saints (II)
+  author: john-ephesus
+  locus: whole fascicule
+  role: tradition
+  confidence: assigned
+  note: 'Second installment, continuing directly from PO17. Same disclosed chapter 49-50 boundary
+    imprecision noted there applies here too.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po18_brooks1924.txt
+- work: Lives of the Eastern Saints (X)
+  author: john-ephesus
+  locus: one article within a mixed 1926 periodical fascicule - see the file's own header
+  role: tradition
+  confidence: assigned
+  note: 'Third installment fetched this pass, but this fascicule is a mixed periodical issue:
+    its own contents list (independently verified) shows the John of Ephesus material alongside
+    unrelated articles (an Armenian Synaxarion, Byzantine homilies, a Georgian Synaxarion,
+    Arabic Logia). Vendored whole with the mixed contents disclosed in the file''s own header
+    rather than extracted, since the John of Ephesus portion''s exact boundary inside the
+    issue was not pinned down.
+
+    '
+  source_file: john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt
+- work: The Third Part of the Ecclesiastical History of John, Bishop of Ephesus
+  author: john-ephesus
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'John of Ephesus''s own chronicle (a distinct genre from his Lives of the Eastern
+    Saints, already assigned to this same atlas entry from the PO17-19 fascicules), running
+    to 585 CE. This is the real Payne Smith 1860 English translation, at archive.org identifier
+    ecclesiasticalhi00johnuoft, confirmed via its own preface and its own account of Cureton''s
+    1853 Syriac-only publication. A different identifier, thirdpartofeccl00john1860, is sometimes
+    cited for this work but is actually Cureton''s 1853 Syriac-only critical edition (confirmed
+    unusable here by its own garbled non-Latin-script OCR) - do not use it for this work without
+    re-verifying it first.
+
+    '
+  source_file: john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
 - work: The Divine Liturgy of James
   author: liturgy-of-st-james
   locus: div2 12.2

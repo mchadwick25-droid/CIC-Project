@@ -1,0 +1,18 @@
+source_file: john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt
+
+assignments:
+  - work: "In Sanctum Lucianum Martyrem"
+    author: chrysostom
+    locus: "whole file"
+    atlas_ids:
+      - antiochene-church-third-century
+    role: tradition
+    confidence: assigned
+    note: >
+      Chrysostom's own homily on the third-century Antiochene martyr
+      Lucian, confirmed present by exact Latin header ("IN S. MARTYREM
+      LUCIANUM"). A first identifier for this same PG volume
+      (patrologiae_cursus_completus_gr_vol_050) was found completely
+      unusable - Greek-only OCR applied to the whole bilingual page,
+      garbling both languages - do not use that identifier; this file
+      uses a different, legible scan (patrologicursusc0050unse).

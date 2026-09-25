@@ -1,0 +1,18 @@
+source_file: boniface_english-correspondence_kylie1911.txt
+
+assignments:
+  - work: "The English Correspondence of Saint Boniface"
+    author: boniface
+    locus: "whole file"
+    atlas_ids:
+      - anglo-saxon-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Boniface and his Anglo-Saxon correspondents' own letters, including
+      Lioba, abbess of Tauberbischofsheim - direct evidence of English
+      monastic culture and its continental mission field. No separate
+      atlas entry exists for the continental Anglo-Saxon mission itself,
+      so this is filed under the home tradition whose own people and
+      formation it documents. Lioba content confirmed present in this
+      file (spelled "Lioba", not "Leoba" as in some secondary sources).

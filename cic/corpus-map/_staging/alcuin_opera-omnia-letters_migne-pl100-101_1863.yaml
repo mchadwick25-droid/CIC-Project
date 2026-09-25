@@ -1,0 +1,17 @@
+source_file: alcuin_opera-omnia-letters_migne-pl100-101_1863.txt
+
+assignments:
+  - work: "Alcuini Opera Omnia (letters)"
+    author: alcuin
+    locus: "whole file - see the file's own header for the letter-numbering caveat"
+    atlas_ids:
+      - carolingian-reform-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Alcuin's own extensive correspondence, including with Arn of
+      Salzburg. The three specific letters (Dummler nos. 110, 111, 113,
+      796 CE, on not burdening newly-converted Saxons with tithes) were
+      NOT individually pinpointed by number in this earlier-numbered
+      Migne edition - a disclosed gap - but the same substance is
+      confirmed present via this volume's own topical index.

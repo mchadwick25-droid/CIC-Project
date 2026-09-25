@@ -44,3 +44,13 @@ works:
 
     '
   source_file: npnf214_seven-ecumenical-councils.xml
+- work: Relatio Motionis and Disputatio Bizyae
+  author: maximus-confessor
+  locus: whole file
+  role: tradition
+  confidence: assigned
+  note: 'The record of Maximus''s own 655 trial and 656 dispute at Bizya - confirmed present
+    verbatim by its own Latin title phrase.
+
+    '
+  source_file: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt

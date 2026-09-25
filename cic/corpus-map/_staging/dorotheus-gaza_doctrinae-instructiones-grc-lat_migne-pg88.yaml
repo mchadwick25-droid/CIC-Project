@@ -1,0 +1,17 @@
+source_file: dorotheus-gaza_doctrinae-instructiones-grc-lat_migne-pg88.txt
+
+assignments:
+  - work: "Doctrinae Diversae"
+    author: dorotheus-gaza
+    locus: "whole file"
+    atlas_ids:
+      - chalcedonian-monasticism-judean-desert-and-gaza
+    role: tradition
+    confidence: assigned
+    note: >
+      Dorotheus's own instructions - extensively confirmed present in
+      this volume. This entry covers Dorotheus's own material only:
+      this identifier is also associated elsewhere with Barsanuphius
+      and John's Letters to Andrew, but that correspondence is not
+      confirmed present in this vendored copy (see the file's own
+      header), so it is not assigned here.

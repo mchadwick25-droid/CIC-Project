@@ -1,0 +1,15 @@
+source_file: prudentius-troyes_annales-bertiniani_waitz1883.txt
+
+assignments:
+  - work: "Annales Bertiniani"
+    author: prudentius-troyes
+    locus: "a. 844, a. 850"
+    atlas_ids:
+      - carolingian-reform-christianity
+    role: tradition
+    confidence: assigned
+    note: >
+      Prudentius of Troyes's own continuation of the court annals -
+      corroborating evidence alongside Nithard for the same Dhuoda-era
+      context. Both cited years confirmed present, still under
+      Prudentius's own authorship heading.
