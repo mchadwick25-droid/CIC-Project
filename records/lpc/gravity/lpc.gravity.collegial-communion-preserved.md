@@ -48,43 +48,40 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: Collegial Communion Preserved Despite Disagreement
 description: >-
-  Few things mattered more to this world than staying in communion despite real disagreement. Bishops
-  in this world disagree, sometimes sharply. But they work to keep communion rather than break it and
-  build a rival hierarchy.
+  Few things mattered more to this world than staying in communion despite real conflict. Bishops in this world
+  disagree, sometimes sharply. But they work to keep communion. They do not break it and build a rival hierarchy.
 
 
-  The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly:
-  "neither does any of us set himself up as a bishop of bishops... every bishop... has his own proper
-  right of judgment." Augustine's On Baptism argues at length against Cyprian's own ruling on rebaptism.
-  Yet it never treats him as outside communion. Letter 185 addresses the Donatist schism in the same
-  pastoral, corrective tone.
+  The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly: "neither does any
+  of us set himself up as a bishop of bishops... every bishop... has his own proper right of judgment." Augustine's On
+  Baptism argues at length against Cyprian's own ruling on rebaptism. Yet it never treats him as outside communion.
+  Letter 185 addresses the Donatist schism in that same pastoral, corrective tone.
 
 
-  Our own case for this world's coherence across the century between its two bishops rests on this
-  concern. A bishop who
-  disagrees has two paths. He can work to keep communion, or he can break it and set up a parallel
-  hierarchy. Both bishops take the first path. Neither breaks fellowship over the sharpest doctrinal
-  disputes in the record. Neither bishop's writings hold a single counter-example.
+  Our own case for this world's coherence rests on this concern. That coherence spans the century between its two
+  bishops. A bishop who disagrees has two paths. He can work to keep communion. Or he can break it and set up a rival
+  hierarchy. Both bishops take the first path. Neither breaks fellowship, even over the sharpest doctrinal disputes in
+  the record. Neither bishop's writings hold a single case that goes against this.
 
 
-  This explains why Augustine's long, respectful argument with a bishop he disputes reads as a son
-  arguing with a father, not a rejection. It also directly explains the world's boundary against
-  Donatism. The pattern shows in both phases, in how both bishops act, not just in a shared word. It
-  reinforces pastoral office, penitential discipline, conciliar authority, and sacramental validity.
-  Sacramental validity is the doctrinal question where it is tested hardest.
+  This explains something. Augustine's long, respectful argument with a bishop he disputes reads a certain way. It
+  reads as a son arguing with a father, not as a rejection. It also directly explains the world's boundary against
+  Donatism. The pattern shows in both phases. It shows in how both bishops act, not just in a shared word. It
+  reinforces pastoral office, penitential discipline, conciliar authority, and sacramental validity. Sacramental
+  validity is the point of doctrine where it is tested hardest.
 
 
-  The confidence split is disclosed, not resolved. The underlying facts are solidly attested. The 256
-  preface's own words and On Baptism's long argument are directly quoted and checked. But reading them
-  as one concern across both phases, rather than two separate historical facts, is an interpretation.
-  That interpretation stands at Widely Accepted, and the record carries this more cautious rating
-  instead of hiding the split.
+  The confidence split is disclosed, not resolved. The underlying facts are solidly attested. The 256 preface's own
+  words, and On Baptism's long argument, are directly quoted and checked. But there is a choice in how to read them.
+  We read them as one concern across both phases, not as two separate historical facts. That is our own reading, not a
+  plain fact. This reading stands at Widely Accepted. The record carries this careful rating instead of hiding the
+  split.
 
 
-  Every force linked to this concern tested it rather than created it. The organized Carthaginian
-  church gave colleagues who could meet and already disagreed. The Donatist schism tested it at its
-  hardest edge. Augustine's engagement with Cyprian's conciliar acts tested it across the century gap.
-  It held each time. It is this world's own way of adapting, tested three times from three directions.
+  Every force linked to this concern tested it, rather than created it. The organized Carthaginian church gave bishops
+  who could meet and who already disagreed. The Donatist schism tested it at its hardest edge. Augustine's engagement
+  with Cyprian's conciliar acts tested it across the century gap. It held each time. This is this world's own way of
+  adapting. It was tested three times, from three directions.
 manifestations:
 - 'Cyprian''s preface to the Council of 256: "neither does any of us set himself up as a bishop of bishops...
   every bishop... has his own proper right of judgment"'

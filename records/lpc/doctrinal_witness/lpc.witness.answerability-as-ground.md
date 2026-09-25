@@ -45,10 +45,10 @@ positions:
   back for someone who has failed, the font that either gives or withholds until a person comes home,
   the disagreement we carry without breaking over it. Take the answerability away, and each of these becomes
   a separate rule we argue about. Leave it in place, and they are one conviction, seen from several sides.'
-- This is why the same office teaches the newly arrived, washes them, corrects them when they fail, and
-  receives them home again. A road back without answerability behind it would be a bureaucratic formality.
-  A font without it would be a private transaction. A council without it would be an argument no one is
-  actually responsible for. Held together, they are what we actually are.
+- This is why one office teaches new believers. It washes them. It corrects them when they fail. It welcomes
+  them home again. Take answerability away, and the road back becomes empty paperwork. A font without
+  it becomes a private deal. A council without it becomes an argument that answers to no one. Held together,
+  these things are what we actually are.
 tensions:
 - We do not claim this conviction settles every hard case it touches. The very font this answerability
   is supposed to serve, we have answered oppositely, twice, a century and a half apart, and we do not

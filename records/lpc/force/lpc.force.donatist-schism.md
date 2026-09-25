@@ -37,29 +37,28 @@ relations:
 name: The Donatist Schism
 kind: ongoing
 description: >-
-  The Donatist church was dominant across large parts of North African Christian life for most of the
-  century between the two phases. It remained a live pastoral problem throughout Augustine's time as
-  bishop. This is documented.
+  The Donatist church was the dominant church across large parts of North African Christian life. This lasted for most
+  of the century between the two phases. It remained a live pastoral problem throughout Augustine's time as bishop.
+  This is documented.
 
 
-  The Donatists were not strangers to this world, and not heretics of a foreign kind. They were a
-  church in the same towns, with its own bishop in the same see, claiming to be the only true church.
-  For their central practice, they appealed to a ruling by Cyprian, this world's own first bishop.
+  The Donatists were not strangers to this world. They were not heretics of a foreign kind. They were a church in the
+  same towns, with its own bishop in the same see. They claimed to be the only true church. For their central
+  practice, they appealed to a ruling by Cyprian, this world's own first bishop.
 
 
-  In the second phase, no force had more far-reaching effects. It made the validity of sacraments across
-  the church's boundary an urgent question for the institution, not only for individual converts. It
-  tested, at its hardest edge, whether communion could hold despite disagreement, and communion held.
+  In the second phase, no force had more far-reaching effects. It made the validity of sacraments across the church's
+  boundary an urgent question. That question mattered for the whole institution, not only for individual converts. It
+  tested, at its hardest edge, whether communion could hold despite disagreement. Communion held.
 
 
-  It is also the whole reason Augustine argued about the authority of councils at all. The Donatists'
-  appeal to Cyprian's conciliar acts obliged him to argue against a predecessor he could not disown. That
-  prompt came from outside, but the reading and the argument were Augustine's own.
+  It is also the whole reason Augustine argued about the authority of councils at all. The Donatists appealed to
+  Cyprian's conciliar acts. That appeal forced him to argue against a predecessor he could not disown. The prompt came
+  from outside. But the reading and the argument were Augustine's own.
 
 
-  Finally, it was the outside pressure behind Augustine's teaching on coercion. That teaching has to be
-  held in its three phases, not compressed into one. A rival communion is what made the state's newly
-  available power worth using.
+  Finally, it was the outside pressure behind Augustine's teaching on coercion. That teaching has to be read in its
+  three phases, not compressed into one. A rival communion is what made the state's newly available power worth using.
 manifestations:
 - the Donatists' appeal to Cyprian's conciliar acts and his authority on rebaptism, in support of their
   own central practice

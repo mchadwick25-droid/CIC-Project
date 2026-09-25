@@ -42,31 +42,30 @@ relations:
 name: The Recurring Contest Over How to Treat the Failed Member
 kind: ongoing
 description: >-
-  Under Cyprian, the contest was over the lapsed. Under Augustine, it was over ordinary sin after
-  baptism, and over believers tempted by schism. The contest is documented in both periods.
+  Under Cyprian, the contest was over the lapsed. Under Augustine, it was over two things: ordinary sin after baptism,
+  and believers tempted by schism. The contest is documented in both periods.
 
 
-  This was the question that would not go away, felt from inside: what do you owe someone who is
-  yours and has failed? A church that takes everyone back the same afternoon has no door. One that takes
-  no one back has no Master.
+  This was the question that would not go away. It was felt from inside: what do you owe someone who is yours, who has
+  failed? A church that takes everyone back the same afternoon has no door. A church that takes no one back has no
+  Master.
 
 
-  In the first phase, this contest directly produced the church's penitential discipline. In that same
-  phase, it also connects to the question of valid sacraments and ordination across the church's
-  boundary. Both are questions of boundary and return, and Cyprian reasons about them consistently.
+  In the first phase, this contest directly produced the church's penitential discipline. In that same phase, it also
+  connects to a further question. That question is whether sacraments and ordination are valid across the church's
+  boundary. Both are questions of boundary and return. Cyprian reasons about them in the same way each time.
 
 
-  It is only a qualified claim that the contest lasts into the second phase, not an assumed one. The
-  concern does not continue under its own name. What survives is a family resemblance to two separately
-  tested concerns: sacramental validity, and grace and human incapacity. The debate over grace reshapes
-  the old concern; it does not continue it. So that later link is a resemblance only, not a direct
-  connection. This force connects to penitential discipline and sacramental validity, both in the first
-  phase. It does not connect to grace.
+  The claim that the contest lasts into the second phase is only a qualified one, not an assumed one. The concern does
+  not continue under its own name. What survives is a family resemblance to two separately tested concerns:
+  sacramental validity, and grace and human incapacity. The debate over grace reshapes the old concern. It does not
+  continue it. So that later link is a resemblance only, not a direct connection. This force connects to penitential
+  discipline and sacramental validity, both in the first phase. It does not connect to grace.
 
 
-  The Decian edict created the category of the failed member that this contest is about. The confessors'
-  own parallel system sharpened it. Because of that rival system, the contest had to be settled by a
-  formal process, not by the bishop's word alone.
+  The Decian edict created the category of the failed member that this contest is about. The confessors' own rival
+  system sharpened it. Because of that rival system, the contest had to be settled by a formal process. It could not
+  be settled by the bishop's word alone.
 manifestations:
 - the lapsed under Cyprian; ordinary post-baptismal sin and schism-tempted believers under Augustine
 matrix_cell: 2B

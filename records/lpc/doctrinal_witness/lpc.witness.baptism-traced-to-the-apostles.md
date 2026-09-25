@@ -45,22 +45,22 @@ relations:
 - type: associated-with
   target: lpc.limit.apostolic-origin-undefended
 positions:
-- Augustine names two of our practices as apostolic in origin, by name, not only by a
-  general conviction. Not rebaptizing someone already baptized among heretics -- a custom no one could
-  find to have been invented later -- "is rightly believed to have been handed down from the apostles."
+- Augustine names two of our practices as apostolic in origin. He names them by name, not just by a general
+  feeling. Take one case. We do not baptize again someone already baptized among heretics. No one could
+  find that custom born later. It "is rightly believed to have been handed down from the apostles."
 tensions:
 - Baptizing infants rests on the same kind of claim. Held everywhere, not instituted by any council, it
   too "is rightly held to have been handed down by apostolical authority." He does not claim a written
   apostolic text says so for either practice. He argues instead that a custom this old and this
   universal, with no better explanation for where it came from, is rightly believed to have come from
   the apostles themselves.
-text: Did any of our practices actually trace back to the apostles, by name, not just by general conviction?
-  Two of them did, in Augustine's own hands. He would not rebaptize someone who had already been baptized
-  among heretics. That custom, he said, no one could find to have been invented by a later age -- it was
-  "rightly believed to have been handed down from the apostles." He said the same of baptizing infants.
-  Held everywhere and instituted by no council, it too was "rightly held to have been handed down by
-  apostolical authority." Neither claim rests on a written text from an apostle's own hand. Both rest
-  on the same reasoning -- a custom this old, this universal, with no other explanation for its origin,
-  is rightly believed to have come from the apostles.
+text: Did any of our practices trace back to the apostles by name, not just by a general feeling? Two of
+  them did, in Augustine's own hands. He would not baptize again someone already baptized among heretics.
+  No one could find that this custom began in a later age, he said. It was "rightly believed to have been
+  handed down from the apostles." He said the same about baptizing infants. This practice was held everywhere.
+  No council had set it up. It too was "rightly held to have been handed down by apostolical authority."
+  Neither claim rests on a written text from an apostle's own hand. Both rest on the same reasoning. A
+  custom this old, this widespread, with no other explanation for where it came from, is rightly believed
+  to have come from the apostles.
 ---
 Grounded directly in Augustine, On Baptism II.7.10 and IV.24.32 -- both verified against the vendored XML at the line numbers above. lpc.witness.tradition-tested-by-apostolic-warrant covers how Cyprian and Augustine would each test an apostolic-origin claim, in the Stephen/rebaptism dispute specifically; this record covers two other, separate places where Augustine directly names a practice -- non-rebaptism and infant baptism -- as handed down from the apostles. The remaining absence in lpc.limit.apostolic-origin-undefended is catechesis, the road back, and the teaching before the water specifically, not a blanket absence of any traced practice.

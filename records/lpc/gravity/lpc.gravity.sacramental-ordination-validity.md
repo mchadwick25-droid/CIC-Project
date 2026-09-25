@@ -46,48 +46,47 @@ relations:
   target: lpc.witness.baptism-traced-to-the-apostles
 name: Sacramental and Ordination Validity Across the Boundary of the Church
 description: >-
-  Few questions mattered more to this world than whether baptism and ordination given outside the
-  church's boundary were valid. The two bishops answer it in opposite ways.
+  Few questions mattered more to this world than this one. Was baptism and ordination given outside the church's
+  boundary valid? The two bishops answer it in opposite ways.
 
 
-  It recurs strongly: in Cyprian's letters on rebaptism, in the ruling of the Council of 256, and
-  throughout Augustine's On Baptism, which argues it at book length. Unlike conciliar authority, it is
-  not confined to one source. Two independent bishops treat it at length, decades apart.
+  It recurs strongly. It appears in Cyprian's letters on rebaptism. It appears in the ruling of the Council of 256.
+  And it appears throughout Augustine's On Baptism. That work argues it at book length. Unlike conciliar authority, it
+  is not confined to one source. Two separate bishops treat it at length, decades apart.
 
 
-  Other concerns in this world lean on it. Collegial communion is tested hardest here, because the two
-  bishops reach opposite conclusions and communion still holds. The confessor tension is a closely
-  related question about who may grant standing within the community.
+  Other concerns in this world lean on it. Collegial communion is tested hardest here. That is because of two things.
+  The two bishops reach opposite conclusions, and communion still holds. The confessor tension is a closely related
+  question. It asks who may grant standing within the group.
 
 
-  It shapes practice directly. Cyprian's requirement of rebaptism is a working pastoral policy.
-  Augustine's contrary ruling decides whether Donatist clergy are received back in their own orders or
-  ordained again. It explains the whole rupture between Stephen and Cyprian. It is the central subject
-  of an entire treatise by Augustine. It also explains why the Donatists could appeal to Cyprian's own
-  authority for their rebaptism doctrine.
+  It shapes practice directly. Cyprian's rule of rebaptism is a working pastoral policy. Augustine's contrary ruling
+  settles one key thing. Are Donatist clergy received back in their own orders? Or are they ordained again? It
+  explains the whole rupture between Stephen and Cyprian. It is the central subject of an entire treatise by
+  Augustine. It also explains one more thing. The Donatists could appeal to Cyprian's own authority. They used it for
+  their rebaptism doctrine.
 
 
-  The question persists across both phases even as the answer changes. That persistence is itself
-  evidence of how central the question is. It reinforces pastoral office, penitential discipline,
-  collegial communion, and conciliar authority.
+  The question persists across both phases, even as the answer changes. That persistence is itself evidence. It shows
+  how central the question is. It supports pastoral office and penitential discipline. It also supports collegial
+  communion and conciliar authority.
 
 
-  Both positions are solidly attested, directly quoted and checked: On Baptism I.1.2, the 256 preface,
-  and Book III, chapter 2. Neither side of this dispute runs short of evidence.
+  Both positions are solidly attested, directly quoted and checked. They are: On Baptism I.1.2, the 256 preface, and
+  Book III, chapter 2. Neither side of this dispute runs short of evidence.
 
 
-  The Donatist schism, an ongoing outside pressure, makes the question urgent for the institution, not
-  just a matter of individual converts. Augustine's engagement with Cyprian's conciliar acts reopens it
-  across the century gap. It also connects to the recurring contest over the failed member, because
-  Cyprian reasons about both questions consistently.
+  The Donatist schism is an ongoing outside pressure. It makes the question urgent for the church. It is not just a
+  matter for each convert. Augustine's engagement with Cyprian's conciliar acts reopens it. This happens across the
+  century gap. It also connects to the recurring contest. That contest is over the failed member. That is because
+  Cyprian reasons about both questions. He does this the same way.
 
 
-  That last link runs one way only. Penitential discipline reinforces this concern in the first phase,
-  since both are questions about the boundary and about return. But penitential discipline relates to
-  grace and human incapacity differently: it is reshaped by that concern, not continued in it. So this
-  record's own tie to the recurring contest over the failed member is its own, and it belongs to the
-  first phase. It does not depend on the second-phase family resemblance, which runs toward grace and
-  human incapacity instead.
+  That last link runs one way only. Penitential discipline supports this concern in the first phase. Both are
+  questions about the boundary, and about return. But penitential discipline relates to grace and human incapacity. It
+  does not relate the same way. That concern reshapes it; it does not continue it. So this record's own tie is its
+  own. It ties to the recurring contest over the failed member. It belongs to the first phase. It does not depend on
+  the second-phase family resemblance. That resemblance runs toward grace and human incapacity instead.
 manifestations:
 - the Council of 256's ruling on rebaptism
 - On Baptism, Against the Donatists in full, argued at book length (citing I.1.2 and Book III, chapter

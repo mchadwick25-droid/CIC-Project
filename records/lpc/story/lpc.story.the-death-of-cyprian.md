@@ -55,7 +55,7 @@ narrative_tier_justification: 'Contested for the portrait; Inferential-Thin for 
   Pontius; its hagiographic-convention clause describes this story exactly. Doc_09 assigns Tier 3 on the
   convention and against the genus clause, and carries the tension to the project lead as an open item
   rather than resolving it quietly -- unchanged here.'
-tellable_as: How our tradition remembered our first great bishop's death as a life fully given, completed
+tellable_as: How our tradition told of our first great bishop's death as a life fully given, now complete
 text: 'This is how our own tradition remembered the death of our first great bishop -- an account written
   by his own deacon, in the form of a saint''s life, showing what we believed a life fully given to the
   pastoral office could become. We offer it as that portrait, not as a report of what a bystander would

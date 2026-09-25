@@ -51,37 +51,34 @@ relations:
   target: lpc.force.manichaeism-and-pelagian-anthropology
 name: Preaching and Catechesis as the Primary Mode of Formation
 description: >-
-  This concern is real too, though its reach is narrower than the others'. It is the medium through which
-  this world's other central concerns are taught, rather than a force that organizes the world by itself.
-  It clearly recurs, shapes believers, and lasts across both
-  phases. But its links to other concerns, and what it explains, are narrower.
+  This concern is real too. But its reach is narrower than the others'. It works as a channel. This world's other
+  central concerns are taught through it. It is not itself a force that organizes the world. It clearly recurs. It
+  shapes believers. It lasts across both phases. But its links to other concerns are narrower. So is what it explains.
 
 
-  It recurs in Augustine's Sermons and Tractates on John, in the catechetical works, and in Cyprian's De
-  Dominica Oratione. Pastoral office depends on it as its main activity. But nothing else depends on
-  it the way pastoral office, penitential discipline, and collegial communion do. It is the
-  channel through which those concerns are taught and enforced.
+  It recurs in Augustine's Sermons and Tractates on John. It also recurs in the catechetical works. It recurs too in
+  Cyprian's De Dominica Oratione. Pastoral office depends on it as its main role. But nothing else depends on it that
+  way. Pastoral office, penitential discipline, and collegial communion do. It works as the channel. Those concerns
+  are taught and enforced through it.
 
 
-  Its power to shape believers is strong and direct. That is the explicit subject of the catechetical
-  works and the stated purpose of both bishops' preaching. It explains how formation happens more than
-  why any particular crisis occurred. It is attested in both phases, in both bishops' own words. It
-  reinforces pastoral office, penitential discipline, and grace and human incapacity. No relationship
-  has been shown with collegial communion, conciliar authority, sacramental validity, or the confessor
-  tension.
+  Its power to shape believers is strong and direct. That is the clear subject of the catechetical works. It is also
+  the stated purpose of both bishops' preaching. It explains how formation happens. That matters more than why any one
+  crisis occurred. It is attested in both phases, in both bishops' own words. It reinforces pastoral office and
+  penitential discipline. It also reinforces grace and human incapacity. No link has been shown with collegial
+  communion or conciliar authority. None has been shown with sacramental validity or the confessor tension.
 
 
-  The evidence is solidly attested for the existence and basic content of these texts. The specific passages
-  carry the lower citation grade (B), but that is not a thin spot in the evidence.
+  The evidence is solidly attested. It covers the existence and basic content of these texts. The specific passages
+  carry the lower citation grade (B). But that is not a thin spot in the evidence.
 
 
-  It depends on a shared vernacular to teach in: the inherited Latin theological vocabulary. It also
-  connects to every ongoing outside pressure on the world. These are the Valerianic persecution, the
-  plague, the Donatist schism, and the rival systems of Manichaeism and Pelagianism. This concern is the
-  channel through which outside pressure reaches an ordinary believer. That is this world's
-  characteristic response: crisis turned into teaching. The plague is the clearest case. It produced no
-  new concern and no new practice, only a treatise, and that treatise came entirely through preaching
-  and teaching.
+  It depends on a shared language to teach in. That language is the inherited Latin theological vocabulary. It also
+  connects to every ongoing outside pressure on the world. These are the Valerianic persecution, the plague, and the
+  Donatist schism. They are also the rival systems of Manichaeism and Pelagianism. This concern works as a channel.
+  Outside pressure reaches an ordinary believer through it. That is this world's typical response: crisis turned into
+  teaching. The plague is the clearest case. It produced no new concern and no new practice. It only produced a
+  treatise. That treatise came only through preaching and teaching.
 manifestations:
 - 'the Sermons and Tractates on John: Augustine''s vast body of preaching and scripture commentary'
 - the catechetical works, written explicitly for converts and catechumens

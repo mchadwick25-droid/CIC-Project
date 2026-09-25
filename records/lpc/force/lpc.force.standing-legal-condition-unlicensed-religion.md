@@ -27,31 +27,30 @@ relations:
 name: The Standing Legal Condition of an Unlicensed Religion in Romanized Provincial North Africa
 kind: initiating
 description: >-
-  Throughout this world's first phase, Christianity had no legal standing. It lived in a Romanized
-  provincial society with real underlying Punic populations and, inland, Berber ones. Persecution came
-  and went, but the exposure never stopped. This picture is widely accepted.
+  Throughout this world's first phase, Christianity had no legal standing. It lived inside a Romanized provincial
+  society. That society had real underlying Punic peoples, and, inland, Berber ones too. Persecution came and went.
+  But the exposure never stopped. This picture is widely accepted.
 
 
-  It meant that a bishop could be taken, and was. The office carried no protection,
-  and the community had no recourse. What it had was each other, and whatever a man would do for the
-  people in his charge while he still could.
+  It meant that a bishop could be taken away, and one was. The office carried no protection. The community had no
+  recourse. What it had was each other. It also had whatever a man would do for his own people. It had that, for as
+  long as he could.
 
 
-  This condition is why the pastoral office grew as personal answerability rather than as jurisdiction.
-  An office with nothing outside to enforce it is held together by the bond between one man and one
+  This condition is why the pastoral office grew as personal answerability, rather than as legal power. An office with
+  nothing outside to enforce it is held together by one thing. That thing is the bond between one man and one
   congregation.
 
 
-  In the second phase, the condition was removed. We considered whether that shift was itself one of
-  this world's own central concerns, but nothing in this world organizes around the shift itself. It is
-  named here as a force precisely because it is not one of those central concerns. It shaped what the
-  office could be without becoming something the world organizes around.
+  In the second phase, this condition was removed. We asked whether that shift was itself one of this world's own
+  central concerns. But nothing in this world organizes around the shift itself. So it is named here as a force. It is
+  named precisely because it is not one of those central concerns. It shaped what the office could be, without
+  becoming something the world organizes around.
 
 
-  An office with no legal protection is one a sensible man declines. That is why congregations had to
-  override a chosen man's reluctance by acclamation. The same fact also appears at both ends of this
-  world with opposite sign. The later shift from illegal to established religion removes exactly this
-  condition.
+  An office with no legal protection is one a sensible man turns down. That is why congregations had to override a
+  chosen man's reluctance by acclamation. The same fact appears at both ends of this world, with opposite effect. The
+  later shift from illegal to established religion removes exactly this condition.
 manifestations:
 - the continuous legal exposure of an unlicensed religion in a Romanized provincial society with real
   underlying Punic and Berber populations; persecution came only in episodes

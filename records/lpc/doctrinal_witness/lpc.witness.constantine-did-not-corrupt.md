@@ -43,14 +43,14 @@ tensions:
   before God -- he named other Christian emperors, Jovian and Gratian, whom God did not grant the same
   long or peaceful reign, precisely so no one would become a Christian only to court a Constantine's own
   fortune.
-text: Did Constantine corrupt what we were? Augustine does not answer that question directly
-  anywhere in our own record. The nearest he comes is City of God's own argument about why God let Constantine,
-  a worshipper of the true God, gain such earthly power -- not to reward Christian belief with worldly
-  success, but to show that greatness on earth never depended on worshipping the old gods after all.
-  Constantine reigned long, held the empire alone, founded a city bearing no temple to the old gods, and
-  died of old age with his sons to succeed him. But our bishop did not make Constantine's own success
-  the proof of a Christian's standing before God, either. He named other Christian emperors, Jovian and
-  Gratian, whom God did not grant the same long or peaceful reign -- precisely so that no one would become
-  a Christian only to court a Constantine's own fortune.
+text: Did Constantine corrupt what we were? Augustine never answers that question directly, anywhere in
+  our own record. The nearest he comes is a different argument, in City of God. Why did God let Constantine,
+  a worshipper of the true God, gain such earthly power? Not to reward Christian belief with worldly success,
+  Augustine said. It was to show that greatness on earth never depended on worshipping the old gods. Constantine
+  reigned long. He held the empire alone. He founded a city with no temple to the old gods. He died of
+  old age, with his sons to succeed him. But our bishop did not make Constantine's own success the proof
+  of a Christian's standing before God, either. He named other Christian emperors, Jovian and Gratian.
+  God did not grant them the same long or peaceful reign. Augustine named them for a reason -- so that
+  no one would become a Christian only to chase a Constantine's own fortune.
 ---
 Grounded directly in Augustine, City of God V.25 -- verified against the vendored XML at the line numbers above. City of God does not engage "did Constantine corrupt the church" directly; V.25's own argument is about why God granted a Christian emperor earthly prosperity, not about the church's own corruption. This is the nearest material this world's own corpus carries to the question, disclosed as such rather than overstated. The other two sub-questions of F3-E (catacombs, an outsider's own strangeness-perception) remain genuine absences.

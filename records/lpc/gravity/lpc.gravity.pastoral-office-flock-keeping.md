@@ -56,43 +56,43 @@ relations:
   target: lpc.force.vandal-invasion-siege-of-hippo
 name: Pastoral Office as Territorial Flock-Keeping
 description: >-
-  This is the concern everything else in this world turns on. A bishop is personally answerable for
-  a bounded flock, and much of the rest of the world flows from that.
+  This is the concern everything else in this world turns on. A bishop is personally answerable for a bounded flock.
+  Much of the rest of the world flows from that one fact.
 
 
-  It recurs without a break across every primary source for both bishops and both phases. It appears in
-  both bishops' stories of coming to office, in the crisis letters of both phases, and in both
+  It recurs without a break. It appears across every primary source, for both bishops and both phases. It shows up in
+  both bishops' stories of coming to office. It shows up in the crisis letters of both phases. And it shows up in both
   collections of sermons.
 
 
   Other concerns in this world depend on it. Penitential discipline is carried out by a bishop who holds this office.
-  Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who
-  legitimately holds the office. Sacramental validity asks the same question. This world's own formation
-  is pastoral and sacramental before it is juridical. The whole apparatus of teaching and penance exists
-  because a bishop answers personally for his flock.
+  Preaching and catechesis are the office's main activity. Conciliar authority is a theory about who rightly holds the
+  office. Sacramental validity asks that same question. This world forms people through pastoral care and sacrament.
+  It does this before it forms them through law. The whole system of teaching and penance exists for one reason. A
+  bishop answers personally for his flock.
 
 
-  It explains why Cyprian's crisis letters exist at all and why Augustine's sermon collection is so
-  large. It also explains why both bishops' accounts of coming to office are independently attested and
-  treated as formative. It is visible in both Carthage and Hippo, across both phases, in both bishops'
-  own words. It reinforces penitential discipline, collegial communion, preaching and catechesis,
-  sacramental validity, and the confessor tension. Conciliar authority reinforces it weakly. No
-  relationship with grace and human incapacity has been shown.
+  It explains why Cyprian's crisis letters exist at all. It explains why Augustine's sermon collection is so large. It
+  also explains something else. Both bishops' accounts of coming to office are attested on their own. Both are treated
+  as formative. It is visible in both Carthage and Hippo. It shows in both phases, in both bishops' own words. It
+  reinforces penitential discipline, collegial communion, and preaching and catechesis. It also reinforces sacramental
+  validity and the confessor tension. Conciliar authority reinforces it, but only weakly. No link with grace and human
+  incapacity has been shown.
 
 
-  The evidence is solidly attested. Accounts of holding and exercising this office are directly quoted
-  and checked: the preface to the Council of 256, Augustine's own Letters XXXI and CCXIII, and Pontius's
-  narrative. Possidius's Life of Augustine is not counted; that account has not independently been checked
-  beyond identifying the Megalius consecration. So the rating rests on Pontius, the two letters, and the
-  256 preface alone.
+  The evidence is solidly attested. Accounts of holding and exercising this office are directly quoted and checked.
+  They are the preface to the Council of 256. They are also Augustine's own Letters XXXI and CCXIII, and Pontius's
+  narrative. Possidius's Life of Augustine is not counted here. That account has not been checked on its own. The one
+  exception is identifying the Megalius consecration. So the rating rests on Pontius, the two letters, and the 256
+  preface alone.
 
 
-  It is the concern most densely connected to the forces acting on the world. Christianity's standing
-  legal condition as an unlicensed religion means the office has no outside enforcement. Personal bond
-  holds it together. Congregational acclamation shows how a man comes to hold the office. The Decian and
-  Valerianic persecutions make his answerability acute, through the flock's own failure and the bishop's
-  own test. The plague is a pressure the bishop shares rather than judges. The Vandal invasion and siege
-  of Hippo mark where the bond ends: it ends when the bishop does.
+  It is the concern most densely connected to the forces acting on the world. Christianity had no legal standing, as
+  an unlicensed religion. That meant the office had no outside power to enforce it. A personal bond held it together
+  instead. Congregational acclamation shows how a man comes to hold the office. The Decian and Valerianic persecutions
+  make his answerability acute. They do this through the flock's own failure. They also do it through the bishop's own
+  test. The plague is a pressure the bishop shares, rather than judges. The Vandal invasion and siege of Hippo mark
+  where the bond ends. It ends when the bishop does.
 manifestations:
 - '"it is the shepherd that is chiefly wounded in the wound of his flock" (Cyprian, De Lapsis)'
 - Cyprian's own account of holding and exercising this office at the 256 Council preface; Augustine's

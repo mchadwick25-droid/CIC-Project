@@ -30,10 +30,10 @@ sources:
 relations:
 - type: associated-with
   target: lpc.term.schism
-claim: De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called
-  the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension --
-  is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself
-  wrote or revised.
+claim: De Unitate 4-5 survives in one original text. Scholars call one version of chapters 4-5 the 'Primacy
+  Text.' It leans more toward Rome's own primacy than the other version does. This claim holds that the
+  Primacy Text is a later interpolation, not part of what Cyprian himself first wrote. It is not evidence
+  that Cyprian revised his own wording at all.
 held_against:
 - Chapman's own foundational study (1902-03) first identified and argued the interpolation thesis at length,
   but the question he opened has not, on this world's own Registry's own account, been closed by scholarly

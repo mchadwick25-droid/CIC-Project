@@ -32,45 +32,44 @@ name: 'Transmission: Survival on the Institutionally Dominant Side, Through a 19
   Programme'
 kind: ongoing
 description: >-
-  The writings of both Cyprian and Augustine survive in unusually full form. In his own time or later,
-  each man stood on the institutionally dominant side of every dispute he joined. That side was
-  eventually the canonized one.
+  The writings of both Cyprian and Augustine survive in unusually full form. Each man, in his own time or later, stood
+  on the institutionally dominant side of every dispute he joined. That side became the church's official, canonized
+  one.
 
 
-  This project's actual access is narrower. It works mainly from the 19th-century English translation
-  series, the Ante-Nicene Fathers and the Nicene and Post-Nicene Fathers. It also holds critical Latin
-  editions, but uses them far less. Both the survival pattern and the make-up of this working corpus are
-  documented. The named agents of transmission are the Catholic institutional manuscript tradition, the
-  editors and translators of those two series, and this project's own choices about which texts to hold.
+  This project's actual access is narrower than that full record. It works mainly from one 19th-century English
+  translation series: the Ante-Nicene Fathers and the Nicene and Post-Nicene Fathers. It also holds critical Latin
+  editions, but uses them far less. Both the survival pattern and the make-up of this working corpus are documented.
+  Three agents carried out this transmission. They are: the Catholic institutional manuscript tradition, the editors
+  and translators of those two series, and this project's own choices about which texts to hold.
 
 
-  This world was acutely aware of transmission and acted on it. Cyprian gathered his own letters into a
-  dossier and sent it on: "these thirteen letters sent forth at various times declare to you, which I
-  have transmitted to you." He knew his letters were read beyond the person they were written to. He
-  also met textual corruption directly. One letter's "writing and the matter, and even the paper itself,
-  gave me the idea that something had been taken away, or had been changed from the original." He sent
-  it back to be checked against the original.
+  This world was sharply aware of transmission, and acted on that awareness. Cyprian gathered his own letters into one
+  dossier and sent it on: "these thirteen letters sent forth at various times declare to you, which I have transmitted
+  to you." He knew his letters were read beyond the one person they were written to. He also met textual corruption
+  directly. One letter's "writing and the matter, and even the paper itself, gave me the idea that something had been
+  taken away, or had been changed from the original." He sent that letter back, to be checked against the original.
 
 
-  A century and a half later, the same awareness took another form. Near the end of his life, Augustine
-  set out to review his own works "with a certain judicial severity." He marked what displeased him "as
-  with a censor's pen." It was a deliberate act of shaping what would outlast him.
+  A century and a half later, the same awareness took a different form. Near the end of his life, Augustine set out to
+  review his own works "with a certain judicial severity." He marked what displeased him "as with a censor's pen."
+  This was a deliberate act. He was shaping what would outlast him.
 
 
-  What this world could not experience is what came later: the Catholic tradition's own selection of
-  texts, and a 19th-century translation programme.
+  What this world could not experience is what came later. That later part is the Catholic tradition's own selection
+  of texts, and a 19th-century programme of translation.
 
 
-  This has three effects. First, the record is full and one-sided at the same time. Its imbalance does
-  not come from hostile filtering. It comes from the near-total absence of any voice other than a
-  bishop's. Second, the 19th-century editors' material is woven into the text. It has repeatedly been
-  mistaken for the world's own voice, and this project has documented eight local cases. Third,
-  translation shapes what can be found, not only how accurately it reads. A search of original-language
-  headwords cannot find a term that the corpus only ever names in translation.
+  This has three effects. First, the record is full and one-sided at the same time. Its imbalance does not come from
+  hostile filtering. It comes from the near-total absence of any voice other than a bishop's. Second, the 19th-century
+  editors' own words are woven into the text. Those words have repeatedly been mistaken for the world's own voice.
+  This project has found and documented eight local cases. Third, translation shapes what can be found, not only how
+  accurately it reads. A search of original-language headwords cannot find a term that the corpus only ever names in
+  translation.
 
 
-  The same pattern continues across the silence between the two phases. There it shapes the span of the
-  record rather than its content.
+  The same pattern continues across the silence between the two phases. There it shapes the span of the record, rather
+  than its content.
 manifestations:
 - 'Cyprian''s own dossier of thirteen letters, "sent forth at various times... which I have transmitted
   to you"'

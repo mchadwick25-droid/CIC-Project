@@ -27,8 +27,8 @@ dates:
   display: a confessor imprisoned under persecution, condemned to die by hunger and thirst, who replied
     to Celerinus from the same prison, granting peace to Celerinus's own sister and to Numeria and Candida
 narratable: true
-bridge_line: a confessor who answered from a cell where he expected to die of hunger and thirst, granting
-  peace to three women he had never met in person
+bridge_line: a confessor. He answered from a cell where he expected to die of hunger and thirst. He
+  granted peace to three women he had never met in person.
 relations:
 - type: associated-with
   target: lpc.story.celerinus-writes-to-lucian

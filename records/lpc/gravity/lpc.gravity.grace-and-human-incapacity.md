@@ -36,43 +36,42 @@ relations:
   target: lpc.force.corpus-outliving-the-world
 name: Grace and Human Incapacity
 description: >-
-  This concern is real, but it does not run nearly as wide as the others. It organizes a large and
-  extremely well-evidenced part of the world, but only in Augustine's phase. It does not span the whole
-  world the way pastoral office, penitential
-  discipline, collegial communion, and sacramental validity do.
+  This concern is real. But it does not run nearly as wide as the others. It organizes a large, extremely
+  well-evidenced part of the world. But this holds only in Augustine's phase. It does not span the whole world the way
+  pastoral office, penitential discipline, collegial communion, and sacramental validity do.
 
 
-  It comes with a real limit, and it should be said plainly rather than left for a reader to find later.
-  All the evidence comes from one voice, Augustine, in one body of work, the anti-Pelagian corpus. The
-  sheer density of that evidence could otherwise be mistaken for breadth.
+  It comes with a real limit. That limit should be said plainly, not left for a reader to find later. All the evidence
+  comes from one voice, Augustine, in one body of work: the anti-Pelagian corpus. The sheer density of that evidence
+  could otherwise be mistaken for breadth.
 
 
-  It is by far the most textually dense concern in this world. The word "grace" occurs 1,798 times in
-  the thirteen anti-Pelagian works alone. Those works form a sustained project of teaching and argument,
-  prompted by a live controversy. In them Augustine refuses the Pelagian claim that a believer's own
-  moral effort is enough without grace.
+  It is by far the most textually dense concern in this world. The word "grace" occurs 1,798 times in the thirteen
+  anti-Pelagian works alone. Those works form a sustained project of teaching and argument. A live controversy
+  prompted them. In them, Augustine refuses the Pelagian claim. That claim was that a believer's own moral effort is
+  enough, without grace.
 
 
-  It is real and heavily attested, but it stands on its own. Nothing else in this world depends on how
-  it is resolved. It explains why the anti-Pelagian corpus exists and why it is so large. But it does not
-  reach back to Cyprian. The Pelagian controversy came more than a century after him.
+  It is real and heavily attested. But it stands on its own. Nothing else in this world depends on how it is resolved.
+  It explains why the anti-Pelagian corpus exists, and why it is so large. But it does not reach back to Cyprian. The
+  Pelagian controversy came more than a century after him.
 
 
-  So it does not span the whole world: no evidence for it has been found in Cyprian's phase. Within
-  Augustine's phase it is strong. This is a real boundary in time, not a gap in the search. It reshapes
-  penitential discipline by raising a related but distinct question in Augustine's phase. It is a
-  separate question, not a continuation of that concern. It reinforces preaching and catechesis.
+  So it does not span the whole world. No evidence for it has been found in Cyprian's phase. Within Augustine's phase,
+  it is strong. This is a real boundary in time, not a gap in the search. It reshapes penitential discipline. It does
+  this by raising a related but distinct question, in Augustine's phase. It is a separate question, not a continuation
+  of that concern. It reinforces preaching and catechesis.
 
 
-  The corpus's existence and scale are solidly attested. It is held in this project's own library and has
-  been checked independently. The specific passages relied on carry the lower citation grade (B). Within
-  Augustine's own phase, that carries no confidence gap of its own.
+  The corpus's existence and scale are solidly attested. It is held in this project's own library, and has been
+  checked independently. The specific passages relied on carry the lower citation grade (B). Within Augustine's own
+  phase, that carries no gap in confidence of its own.
 
 
-  It has a single origin among the forces, and that is a real finding, not thin analysis. Manichaeism
-  and Pelagianism, as live rival systems, produced it directly and entirely. The survival of Augustine's
-  writings beyond the world carries it out of the world. The forces analysis thus confirms the caution
-  flagged at the start: one outside pressure, one corpus, one phase.
+  It has a single origin among the forces. That is a real finding, not thin analysis. Manichaeism and Pelagianism, as
+  live rival systems, produced it directly and entirely. The survival of Augustine's writings beyond the world carries
+  it out of the world. The forces analysis confirms the caution flagged at the start: one outside pressure, one
+  corpus, one phase.
 manifestations:
 - 'the anti-Pelagian corpus: thirteen works prompted by a live controversy, with 1,798 raw occurrences
   of "grace"'

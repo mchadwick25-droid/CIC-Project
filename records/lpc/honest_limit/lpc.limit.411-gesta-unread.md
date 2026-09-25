@@ -20,12 +20,11 @@ sources:
 relations:
 - type: associated-with
   target: lpc.gravity.conciliar-authority-theory
-statement: A conference was held in 411, between our own bishops and the rival communion's own. It is
-  the largest single gathering of inter-episcopal argument our own later years produced. We rest its date
-  on the ordinary, undisputed record of when it happened. We do not draw on its own transcript of what
-  was actually argued there, bishop by bishop. That transcript has not been validly read in building this
-  record. What it would show about how our own bishops, beyond Cyprian and Augustine themselves, actually
-  argued authority among themselves is not something we can tell you yet.
+statement: A conference was held in 411. Our own bishops met with the rival communion's own bishops. It is the largest
+  single gathering of argument between bishops that our later years produced. We know its date for certain; that part
+  of the record is not in dispute. But we have not read its own transcript, the record of what was actually argued
+  there, bishop by bishop. That transcript has not been validly read in building this record. So we cannot yet tell
+  you how our own bishops, beyond Cyprian and Augustine, actually argued about authority among themselves.
 why_sources_cannot_answer: 'The Gesta Collationis Carthaginiensis -- the acts of the 411 Conference --
   survives in a Migne printing this world''s own construction record names directly: ''has not been validly
   read; two attempts were withdrawn'' (Doc_07_Integrated_Ecology_Analysis.md §7). Doc_07 §8 item 2 independently

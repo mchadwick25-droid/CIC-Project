@@ -61,23 +61,22 @@ horizon: >-
 
 
   What bounds this world is two bishops' ordinary care of an entire local flock. It is not bounded
-  by one continuous institutional story across the century between them.
+  by one unbroken story of institutions across the century between them.
 
 
   This is a world of ordinary pastors and their own congregations. It is not a world of courts, or
-  of councils called to settle jurisdiction across the empire. Nor is it a world of ascetics who
+  of councils called to settle disputes across the empire. Nor is it a world of ascetics who
   withdraw from congregational life. Its way of forming people is pastoral and sacramental before it
   is legal.
 
 
-  Carthage was the metropolitan see of Africa Proconsularis. Through most of this world's span it was
-  the most populous Latin Christian city outside Rome.
+  Carthage was the chief bishop's city of Africa Proconsularis. For most of this world's span, it
+  was the biggest Latin Christian city outside Rome.
 
 
-  Hippo Regius was a substantial port city. In civil terms it is usually placed
-  in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a provincial
-  bishop, answerable within a different provincial structure from Carthage, the primate's see. Even
-  so, he attended the wider African councils that Carthage led.
+  Hippo Regius was a large port city. In civil terms, it usually counted as part of Africa Proconsularis.
+  But in church terms, it was Numidian. So Augustine was a bishop of a different province from
+  Carthage, the primate's own see. Even so, he attended the wider African councils that Carthage led.
 
 
   The world begins with Cyprian's conversion and his rise to be bishop of Carthage (c. 246-249). The
@@ -88,15 +87,15 @@ horizon: >-
 
 
   The century between the two bishops (258-391) is a genuine silence in this world's own record. It
-  is not a general lack of evidence about the period. That century is richly attested, but almost
+  is not a general lack of evidence about the period. That century is well attested, but almost
   entirely through sources that belong to Donatism, not to this world's own surviving voice.
 
 
-  The two bishops' eras form one strand, not two. They share the same emphasis in formation, the
-  same practice, and the same orientation to the world around them. Real and substantial differences
-  in authority do separate them. One is how far a bishop could use coercion against a rival
-  hierarchy. Another is whether a rival consecration was sacramentally valid. A third is their
-  theory of what councils can decide, and that one is held open rather than fully settled.
+  The two bishops' eras form one strand, not two. They share the same emphasis in formation. They
+  share the same practice too, and the same stance toward the world around them. Real differences
+  in authority do separate them, and they matter. One is how far a bishop could force a rival
+  church to submit. Another is whether a rival ordination was valid as a sacrament. A third is
+  their view of what councils can decide, and that one is held open, not fully settled.
 
 
   But none of these differences clearly touches a bishop's ordinary authority over his own flock.
@@ -104,16 +103,16 @@ horizon: >-
 
 
   What makes this one world is not a record that runs unbroken across the gap. It is a fact that
-  this world's own surviving writings let anyone check. Augustine's church describes itself as the
+  this world's own surviving writings let anyone check. Augustine's church calls itself the
   same catholic communion that Cyprian had led. Augustine argues with Cyprian, but never against
   Cyprian's standing.
 
 
   This tradition is still living, but it has no single named heir. Its core is an ordinary bishop's
   territorial, sacramental, congregational care of a local flock. That is close to how most historic
-  Christian communions understand parish or diocesan ministry, wherever they kept the office of
-  bishop or pastor at all. It is ancestral to the Western church before that church divided. It is
-  not a claim that belongs to one see's own line of succession.
+  Christian communions understand parish or diocesan ministry. This holds wherever they kept the
+  office of bishop or pastor at all. It came before the Western church split, and it is part of
+  that church's own root. It is not a claim that belongs to one see's own line of succession.
 
 
   This world is not a movement with a founding break to tell. It experiences itself as the ordinary
@@ -124,13 +123,13 @@ formation_logic: >-
 
 
   Every way of looking at this world arrives at the same shape. There is a rite that ends in
-  restoration, and a pastor who will not stand apart from those who failed. There is a refusal of
+  coming back, and a pastor who will not stand apart from those who failed. There is a refusal of
   any single decisive test, and a graded road back rather than a verdict. There is one named man
   answerable for these particular people. And there is a boundary that disagreement does not breach.
 
 
   Here the rite generates the doctrine, not the other way round. This world's two defining crises
-  are not doctrinal disputes with consequences for worship. They are disputes about rites, argued in
+  are not doctrinal fights with consequences for worship. They are disputes about rites, argued in
   doctrinal terms. The rebaptism controversy is a dispute over how baptism is validly given. The
   lapsed controversy is a dispute over the rite that reconciles penitents.
 
@@ -140,43 +139,42 @@ formation_logic: >-
   the office that performs the rites.
 
 
-  The first of the four is the pastoral office, understood as keeping a flock in one territory. The
-  second is penitential discipline. The third is communion among bishops, kept whole despite
-  disagreement. The fourth is whether sacraments and ordinations stay valid across the boundary with
-  a rival church.
+  The first of the four is the pastoral office. It means keeping a flock in one place. The
+  second is penitential discipline. The third is communion among bishops, kept whole even when
+  they disagree. The fourth is whether sacraments and ordinations stay valid across the boundary
+  with a rival church.
 
 
   Three more concerns support these. They are preaching and teaching those preparing for baptism;
-  theories of what councils can decide; and God's grace set against human inability. One last
+  theories of what councils can decide; and God's grace set against human weakness. One last
   concern pulls against the others. It is the authority the confessors claimed, set against the
   peace the bishop regulated.
 
 
-  Underneath positions that otherwise have nothing in common, one move keeps recurring. This world
+  Below positions that otherwise have nothing in common, one move keeps recurring. This world
   refuses to let any single factor be decisive. Cyprian refuses to let one act under persecution
   settle a person's membership for good. Augustine refuses to let a minister's purity decide whether
   a sacrament is valid. He also refuses to let a believer's unaided will decide where they stand
   before God.
 
 
-  This world's most characteristic structure is an internal rule that keeps disagreement from
-  becoming separation. Cyprian states it while presiding over the council that will decide the
+  This world's clearest feature is an internal rule that keeps disagreement from
+  becoming separation. Cyprian states it while leading the council that will decide the
   sharpest question in the room. His words are these: 'judging no man, nor rejecting any one from
   the right of communion, if he should think differently from us.' A century and a half later,
   Augustine argues at book length that Cyprian's ruling was wrong. He never places him outside.
 
 
-  Penitential discipline here is a working legal system, not a devotional practice. It has an
-  examined entry, graded severity, a defined duration, a competent authority, and a formal act of
-  restoration. And this law exists to bring failed members back. It does not exist to order
+  Penitential discipline here is a working legal system, not private devotion. It has a
+  checked entry and graded severity. It has a defined duration, a competent authority, and a formal
+  act of restoration. And this law exists to bring failed members back. It does not exist to order
   relations between sees and the state, the way the legal life of an imperial church does.
 
 
   Two pressures produced two new kinds of person in a single year. The Decian edict created the
-  lapsed, and in the same administrative stroke it created the confessors' own claim to grant
-  reconciliation. The community had to hold both kinds of person in the room at once. Penitential
-  discipline is its response, and so is the pull between the confessors' authority and the bishop's
-  regulated peace.
+  lapsed. At the same time, it created the confessors' own claim to grant reconciliation. The
+  community had to hold both kinds of person in the room at once. Penitential discipline is its
+  response, and so is the pull between the confessors' authority and the bishop's regulated peace.
 
 
   The system turns crisis into teaching. Persecution produces De Lapsis and an order of penance.
@@ -192,7 +190,7 @@ formation_logic: >-
   ones who have to receive you.
 
 
-  This world argues ferociously: about water, about councils, about grace. But it argues inside a
+  This world argues fiercely: about water, about councils, about grace. But it argues inside a
   bond it will not break, because the bond is the thing it actually believes in.
 thinness: >-
   This is not a hostile-source problem, the way it is for the neighbouring Donatist world. Both

@@ -32,8 +32,8 @@ dates:
     of the Carthaginian people, over the recorded opposition of five presbyters, while still newly baptised;
     banished to Curubis under the Valerianic persecution; executed under the emperor Valerian in 258
 narratable: true
-bridge_line: our bishop, chosen while still a neophyte over his own reluctance, who taught us to care
-  for our enemies during a plague and was executed under Valerian
+bridge_line: our bishop. The people chose him while he was still new to the faith, against his own wishes.
+  He taught us to care for our enemies during a plague. He was executed under the emperor Valerian.
 relations:
 - type: associated-with
   target: lpc.story.election-of-cyprian

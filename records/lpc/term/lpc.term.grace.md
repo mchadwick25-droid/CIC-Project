@@ -46,8 +46,8 @@ retrieval:
   - the participant is asking about grace as a general modern religious pleasantry or as gracefulness,
     or the conversation sits in Cyprian's own phase, where this controversy does not yet exist -- ask
     about a Cyprian-phase term instead
-plain_meaning: For us, grace names the insistence that no one's own effort is ever sufficient on its own.
-  Whatever good a person manages was given to them before they managed it.
+plain_meaning: For us, grace names one plain conviction -- no one's own effort by itself is ever enough.
+  Whatever good a person manages, someone gave it to them first.
 world_word: grace
 distortion_risk: high
 false_friend:

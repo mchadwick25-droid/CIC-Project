@@ -30,8 +30,8 @@ dates:
   display: Cyprian's own deacon, present with him at his banishment to Curubis; wrote The Life and
     Passion of Cyprian after his bishop's execution in 258, the first Christian biography
 narratable: true
-bridge_line: our bishop's own deacon, who stayed with him through exile and wrote, after the execution,
-  the account by which most of what we remember of Cyprian's own life reaches us
+bridge_line: our bishop's own deacon. He stayed with Cyprian through his exile. After the execution, he
+  wrote the account that carries most of what we remember of Cyprian's own life.
 relations:
 - type: associated-with
   target: lpc.story.election-of-cyprian

@@ -36,24 +36,24 @@ relations:
 name: An Already-Organized Carthaginian Church Capable of Sustained Collective Response
 kind: initiating
 description: >-
-  Cyprian inherited a church large and structured enough to hold real internal factions. It could also
-  call councils of dozens of bishops at short notice. The evidence is documented: the councils
-  themselves, and the Felicissimus material in Cyprian's letters.
+  Cyprian inherited a church that was already large. It was organized enough to hold real internal factions. It could
+  call councils of dozens of bishops at short notice. The evidence is documented. It includes the councils themselves.
+  It also includes the Felicissimus material in Cyprian's letters.
 
 
-  From the inside, this was not a gathering that had to be built. It was already standing, with its
-  own men of weight, its own quarrels, and its own ability to meet and decide together.
+  From the inside, this was not a gathering that had to be built. It was already standing. It had its own men of
+  weight. It had its own quarrels. And it had its own way to meet and decide together.
 
 
-  This organization made it possible to keep communion among colleagues who disagreed. That needs
-  colleagues who can actually meet, and who already disagree. It also made a regulated process of penance
-  possible, because an unorganized community could not have run one. And it supplied the council setting
-  where both formulas of conciliar authority were eventually spoken.
+  This structure made it possible to keep communion among peers who disagreed. That takes peers who can actually meet.
+  It also takes peers who already disagree. This structure also made a controlled process of penance possible. A
+  community with no structure could not have run one. And it supplied the council setting. Both formulas of conciliar
+  authority were spoken there, in time.
 
 
-  A church organized enough to hold factions was also organized enough to carry an election against a
-  faction's opposition. And the councils that met and left written acts are what Augustine later read
-  and argued with.
+  A church organized enough to hold factions was organized enough for one more thing. It could carry an election even
+  against a faction's opposition. The councils met and left written acts. Augustine later read those acts and argued
+  with them.
 manifestations:
 - councils of dozens of bishops convened at short notice, including the council of 256
 - the Felicissimus schism, a real internal faction the church was already organized enough to hold

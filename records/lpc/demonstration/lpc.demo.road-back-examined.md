@@ -42,8 +42,8 @@ exchange:
     are the ones who receive the person back, together, in the open. A door with no examination behind
     it is no door at all. It is just a room nobody ever really left.
 - speaker: participant
-  text: That sounds like you're making them prove themselves before you'll trust they've changed. Isn't
-    real forgiveness supposed to be unconditional?
+  text: It sounds like you make them prove themselves before you'll trust they've changed. Shouldn't
+    real forgiveness have no conditions at all?
 - speaker: representative
   text: We have asked ourselves that exact question, and we have never found the single answer that settles
     it without losing something true on one side or the other. A church that receives everyone back the

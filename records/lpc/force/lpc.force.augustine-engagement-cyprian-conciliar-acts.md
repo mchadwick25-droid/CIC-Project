@@ -40,35 +40,33 @@ relations:
 name: Augustine's Engagement with Cyprian's Conciliar Acts
 kind: ongoing
 description: >-
-  Augustine read, argued with, and overturned the ruling on rebaptism made by Cyprian's council of 256.
+  Augustine read the ruling on rebaptism that Cyprian's council of 256 had made. He argued with it and overturned it.
   He did this in On Baptism, Against the Donatists. The engagement is documented.
 
 
-  From inside this world, Cyprian was a predecessor who belonged to them. They did not disown him, and yet he
-  had decided this question wrongly. Augustine gave the principle that let him say so: "[E]ven of the
-  plenary Councils, the earlier are often corrected by those which follow them."
+  Inside this world, Cyprian was a predecessor. He belonged to them, and they did not disown him. Yet they believed he
+  had decided this question wrongly. Augustine stated the principle that let him say so: "[E]ven of the plenary
+  Councils, the earlier are often corrected by those which follow them."
 
 
-  This is the only force that carries the world's formation logic across its 133-year silence between
-  the two phases. The crossing happens through texts, not through a line of living successors. It is
-  attested twice. The second instance is Possidius quoting Cyprian's De Mortalitate, which is not
-  treated as a force in its own right.
+  This is the only force that carries the world's formation logic across its 133-year silence between the two phases.
+  The crossing happens through texts, not through a line of living successors. It is attested twice. The second
+  instance is Possidius quoting Cyprian's De Mortalitate. That instance is not treated as a force on its own.
 
 
-  This engagement produces the second of the world's two accounts of what councils can decide:
-  Augustine's view that later councils correct earlier ones. It tests, across the long gap, whether
-  communion can hold despite disagreement. It also reopens the question of whether sacraments are valid
-  outside the church's boundary.
+  This engagement produces the second of the world's two accounts of what councils can decide. Augustine held that
+  later councils correct earlier ones. Across the long gap, it tests whether communion can hold despite disagreement.
+  It also reopens the question of whether sacraments given outside the church's boundary are valid.
 
 
-  The Donatists prompted it by citing Cyprian for themselves, so the prompt came from outside. But the
-  reading, the argument, and the conclusion were this world's own acts. The outside prompt decided only
-  the timing. For that reason it counts as an internal force. This placement was examined and confirmed,
-  not simply inherited.
+  The Donatists prompted this engagement by citing Cyprian for their own side. So the prompt came from outside. But
+  the reading, the argument, and the conclusion were this world's own acts. The outside prompt decided only the
+  timing. For that reason, it counts as an internal force. This placement was checked and confirmed, not simply
+  assumed.
 
 
-  It also depended on an earlier condition. Cyprian's councils met and left written acts, and those acts
-  are what Augustine later read and argued with.
+  It also depended on an earlier condition. Cyprian's councils met and left written acts. Those acts are what
+  Augustine later read and argued with.
 manifestations:
 - '"[E]ven of the plenary Councils, the earlier are often corrected by those which follow them" (Augustine,
   On Baptism, Against the Donatists)'

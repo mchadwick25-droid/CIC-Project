@@ -26,24 +26,23 @@ relations:
 name: Epidemic Disease -- the Plague of c. 249-262
 kind: ongoing
 description: >-
-  A severe, well-attested pandemic ran through Carthage while Cyprian was bishop. He addressed it
-  directly in his treatise De Mortalitate. The plague is documented.
+  A severe, well-attested plague ran through Carthage while Cyprian was bishop. He addressed it directly in his
+  treatise De Mortalitate. The plague is documented.
 
 
-  It was a pressure no discipline could sort. Persecution at least asked a
-  question a person could answer rightly or wrongly, but the plague asked nothing -- it took the
-  faithful and the lapsed alike.
+  It was a pressure that no discipline could sort out. Persecution at least asked a question. A person could answer
+  that question rightly or wrongly. But the plague asked nothing. It took the faithful and the lapsed alike.
 
 
-  This is the clearest case in this world of a pressure that produced teaching rather than structure. It
-  created no lasting concern the world organizes around, and no practice. It produced a treatise. That
-  makes it the sharpest example of how this world typically responded to crisis: by turning it into
-  teaching, through preaching and catechesis.
+  This is the clearest case in this world of a pressure that produced teaching rather than structure. It created no
+  lasting concern that the world organizes around. It created no practice either. It produced a treatise. That makes
+  it the sharpest example of how this world typically responded to crisis: it turned crisis into teaching, through
+  preaching and catechesis.
 
 
-  This force is deliberately left unconnected to any other force in this world. That is not a weakness
-  in the entry. It is the clearest case of a pressure that shaped what was taught without shaping how
-  the church was built. Recording that absence honestly is better than inventing a link.
+  This force is deliberately left unconnected to any other force in this world. That is not a weakness in the entry.
+  It is the clearest case of a pressure that shaped what was taught, without shaping how the church was built.
+  Recording that absence honestly is better than inventing a link.
 manifestations:
 - De Mortalitate, Cyprian's own treatise directly addressing the plague of c. 249-262
 matrix_cell: 2A

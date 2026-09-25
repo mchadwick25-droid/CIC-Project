@@ -29,8 +29,8 @@ dates:
     his own daughter and revived; ordained presbyter by Cyprian afterward, though he had not wanted to
     survive
 narratable: true
-bridge_line: a man who watched his own wife die with those he had exhorted to martyrdom, was himself left
-  for dead, and did not want to have survived
+bridge_line: a man who watched his own wife die, among those he had urged toward martyrdom. He himself
+  was left for dead, and did not want to have survived.
 relations:
 - type: associated-with
   target: lpc.story.numidicus

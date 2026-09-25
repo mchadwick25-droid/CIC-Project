@@ -47,55 +47,53 @@ relations:
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
 name: 'Conciliar Authority Theory: Egalitarian vs. Hierarchical'
 description: >-
-  This is one of this world's real concerns, though an unusual one to weigh. That two competing theories
-  of conciliar authority existed, in each bishop's own words, is solidly attested. Whether they organized
-  much of the world is a separate question, and the evidence for that is far thinner. We treat this as
-  a secondary concern, disclosed as genuinely uncertain rather than settled.
+  This is one of this world's real concerns. But it is an unusual one to weigh. That two competing theories of
+  conciliar authority existed, in each bishop's own words, is solidly attested. Whether they organized much of the
+  world is a separate question. The evidence for that is far thinner. We treat this as a secondary concern. It is
+  disclosed as genuinely uncertain, not settled.
 
 
-  The concern names two competing theories of conciliar authority. Cyprian's is egalitarian. In the
-  preface to the Council of 256 he says no bishop sets himself up as "a bishop of bishops." Augustine's
-  is hierarchical. In On Baptism he appeals to "the authority of plenary Councils," and the word
-  "plenary" occurs 31 times in that treatise.
+  The concern names two competing theories of conciliar authority. Cyprian's theory is egalitarian. In the preface to
+  the Council of 256, he says no bishop sets himself up as "a bishop of bishops." Augustine's theory is hierarchical.
+  In On Baptism, he appeals to "the authority of plenary Councils." The word "plenary" occurs 31 times in that
+  treatise.
 
 
-  A real limit sits here too, and it should be said plainly. Each theory is attested at only one place in each bishop's
-  writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs within
-  On Baptism but is not restated in any second work of his drawn on here.
+  A real limit sits here too, and it should be said plainly. Each theory is attested at only one place in each
+  bishop's writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's formula recurs within
+  On Baptism. But it is not restated in any second work of his drawn on here.
 
 
-  Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single
-  strand. There is no evidence that ordinary believers, catechumens, or most clergy in either phase
-  were shaped by this question, or even knew of it. It explains the shape of the rebaptism dispute
-  between Cyprian and Stephen, and Augustine's long argument against Cyprian's ruling. It explains
-  nothing else in the wider world. It connects clearly with collegial communion and sacramental
-  validity, and weakly with pastoral office.
+  Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single strand. There
+  is no evidence that ordinary believers, catechumens, or most clergy, in either phase, were shaped by this question.
+  There is no evidence they even knew of it. It explains the shape of the rebaptism dispute between Cyprian and
+  Stephen. It also explains Augustine's long argument against Cyprian's ruling. It explains nothing else in the wider
+  world. It connects clearly with collegial communion and sacramental validity. It connects weakly with pastoral
+  office.
 
 
-  It does not carry across the whole world. Within what has been read, neither bishop's theory is
-  visible outside its one source. This is a limit of the search so far, not a proven absence. It runs
-  thin across the whole span, not confined to one phase. It appears in both phases, at one source each
-  -- between two bishops, at two moments separated by over a century. That sets it apart from grace and
-  human incapacity, which belongs to one phase only.
+  It does not carry across the whole world. Within what has been read, neither bishop's theory is visible outside its
+  one source. This is a limit of the search so far, not a proven absence. It runs thin across the whole span, not
+  confined to one phase. It appears in both phases, at one source each. That is between two bishops, at two moments
+  separated by over a century. This sets it apart from grace and human incapacity, which belongs to one phase only.
 
 
-  The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is
-  solidly attested. The evidence that they organized much of the world is much weaker. How central a
-  concern is, and how confident we can be in the evidence, are two separate things, and here they
-  diverge. So the record stays cautious about how central this actually is. The 411 Gesta, the
-  proceedings of that year, remain unread and have not reopened the question. It remains open.
+  The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is solidly attested.
+  The evidence that they organized much of the world is much weaker. How central a concern is, and how confident we
+  can be in the evidence, are two separate things. Here, they diverge. So the record stays cautious about how central
+  this really is. The 411 Gesta, the proceedings of that year, remain unread. They have not reopened the question. It
+  remains open.
 
 
-  Of everything in this world, this concern connects least to the forces acting on it, and that is
-  stated plainly rather than padded. It links to the council setting of the organized Carthaginian
-  church. It links to the Donatist appeal that supplied the occasion, and to Augustine's engagement
-  with Cyprian's conciliar acts. But each of these reaches it only through someone quoting a text, not
-  through pressure on how the church actually lived. That fits the finding that the question never
-  reached ordinary formation.
+  Of everything in this world, this concern connects least to the forces acting on it. That is stated plainly here,
+  not padded out. It links to the council setting of the organized Carthaginian church. It links to the Donatist
+  appeal that supplied the occasion. It also links to Augustine's engagement with Cyprian's conciliar acts. But each
+  of these reaches it only through someone quoting a text. None reaches it through pressure on how the church actually
+  lived. That fits the finding that this question never reached ordinary formation.
 
 
-  A concern this loosely connected to the pressures acting on the world leaves our own picture of that
-  world incomplete here. That gap is carried, not resolved.
+  A concern this loosely connected to the pressures on the world leaves our own picture of that world incomplete here.
+  That gap is carried, not resolved.
 manifestations:
 - 'Cyprian''s egalitarian formula in the preface to the Council of 256: "neither does any of us set himself
   up as a bishop of bishops"'
