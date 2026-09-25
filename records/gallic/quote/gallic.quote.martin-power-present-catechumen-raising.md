@@ -49,6 +49,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.force.power-displayed-disowned
+- type: associated-with
+  target: gallic.gravity.virtus
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "perceiving by"` returns line 995; `grep -n "he then rose up for a little"` returns line 998.
