@@ -1,0 +1,37 @@
+{
+  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "grader_scope": "single Haiku run; first-pass screen, not a V1.8 two-grader pass",
+  "total_non_english_sourced_quotes": 2,
+  "graded_count": 2,
+  "no_modern_rendering_count": 0,
+  "no_modern_rendering": [],
+  "error_count": 0,
+  "errors": [],
+  "verdict_counts": {
+    "translation": 2,
+    "summary": 0,
+    "expansion": 0,
+    "mixed": 0
+  },
+  "findings": [
+    {
+      "world": "don",
+      "id": "don.quote.deo-laudes",
+      "language": "lat",
+      "source_file": "cil8-supplementum-numidiae_cagnat-schmidt1894.txt",
+      "verdict": "translation",
+      "reasoning": "The original Latin \"DEO LAVDES\" (Deo laudes) translates literally as \"praises to God\" or \"praise to God.\" The modern rendering carries the complete sense of the original: \"DEO\" (to God) and \"LAVDES\" (praises/praise). No clauses are omitted, and nothing is added beyond what the original expresses.",
+      "verification_state": "verified-direct"
+    },
+    {
+      "world": "don",
+      "id": "don.quote.emeritus-magno-argumento",
+      "language": "lat",
+      "source_file": "pl11-zeno-optatus-collatio-carthaginiensis_migne.txt",
+      "verdict": "translation",
+      "reasoning": "The rendering captures all the clauses of the original: (1) \"veritas occultatur magno argumento\" (truth is hidden by a great argument); (2) \"cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" (when in response to our inquiry only a small thing is brought forth from the other side); and (3) \"cetera sileantur\" (the rest is passed over in silence). The structure and sense are preserved in modern English syntax without omission or addition.",
+      "verification_state": "verified-via-authority"
+    }
+  ]
+}
