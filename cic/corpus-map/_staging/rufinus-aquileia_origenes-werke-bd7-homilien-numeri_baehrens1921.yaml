@@ -6,9 +6,14 @@ assignments:
     locus: "preface to Donatus, raw-scan lines ~2370-2400"
     atlas_ids:
       - aquileian-christianity
-    role: tradition
+    role: transmission
     confidence: assigned
     note: >
       Rufinus's own preface, written in Sicily while a Barbarian force
       burned Regium (Reggio) just across the strait, c. 410 CE - directly
-      confirmed present and matching the Atlas story's own framing.
+      confirmed present and matching the Atlas story's own framing. Per
+      README's own definition ("custody, not voice"): the work this
+      preface introduces is Rufinus's Latin translation of Origen's own
+      Homilies on Numbers, not aquileian-christianity's own original
+      composition - Aquileia's role here is preserving and transmitting
+      Origen's voice, not speaking in its own.

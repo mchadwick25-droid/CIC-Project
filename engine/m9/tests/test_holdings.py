@@ -5,12 +5,17 @@ disposition vocabulary stays closed."""
 from engine.m9.holdings import DISPOSITIONS, holdings_for, report
 
 
-def test_gallic_shows_nineteen_not_yet_assessed():
-    """The literal Done bar in Build-Plan.md Stage 2d: "gallic's 19
-    unopened volumes show not-yet-assessed" - a real, checkable number,
-    not an illustrative one."""
+def test_gallic_shows_twenty_not_yet_assessed():
+    """Build-Plan.md Stage 2d's own Done bar pinned this at 19 - a real,
+    checkable number, not an illustrative one - reflecting the fleet's
+    own state at that stage's completion. Bumped to 20 here: vendoring
+    palladius_dialogue-life-chrysostom_moore1921.txt (a new work by an
+    author gallic's own records already name via Palladius's Lausiac
+    History and Paradise material) adds one more real, correctly
+    computed "named, never opened" row for gallic - the mechanism
+    working as designed on new corpus growth, not a defect."""
     rows = holdings_for("gallic")
-    assert sum(1 for r in rows if r["disposition"] == "not yet assessed") == 19
+    assert sum(1 for r in rows if r["disposition"] == "not yet assessed") == 20
 
 
 def test_every_row_carries_a_closed_disposition():
@@ -27,8 +32,8 @@ def test_drawn_on_implies_in_scope():
 
 
 def test_by_design_files_are_never_drawn_on():
-    """webbe/anf10 exist precisely so nothing cites them (Mark's ruling,
-    per gen_corpus_table.py's own DISPOSITION map) - if one shows drawn_on
+    """webbe/anf10 exist precisely so nothing cites them, per
+    gen_corpus_table.py's own DISPOSITION map - if one shows drawn_on
     here, that is a real citation this report should surface, not hide
     behind the "by design" label."""
     rows = holdings_for("gallic")

@@ -10,11 +10,13 @@ works:
   role: tradition
   confidence: assigned
   note: 'Moses''s own account of Mashtots inventing the Armenian alphabet - the only public-domain
-    edition, since no PD English translation exists. The translator is Niccolo Tommaseo, per
-    this volume''s own metadata - not Cappelletti, sometimes cited elsewhere for this work.
+    edition, since no PD English translation exists. The overall Italian translation is by
+    the Armenian Mechitarist monks of San Lazzaro, Venice, per this volume''s own title page
+    - not Niccolo Tommaseo, who is credited only for quoted verse renderings of specific passages
+    within it, and not Cappelletti, sometimes cited elsewhere for this work.
 
     '
-  source_file: moses-khoren_history-of-armenians-ita_tommaseo1850.txt
+  source_file: moses-khoren_history-of-armenians-ita_mechitaristi1850.txt
 - work: 'Moses of Chorene: History of Armenia (extract)'
   author: moses-of-chorene
   locus: div2 9.13

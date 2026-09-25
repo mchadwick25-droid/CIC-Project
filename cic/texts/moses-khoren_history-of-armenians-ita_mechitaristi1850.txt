@@ -3,24 +3,31 @@
           Title: Storia di Mose Corenese (History of the Armenians)
      Creator(s): Moses of Khoren (traditionally 5th c. CE; modern scholarship debates
                   the work's actual date)
-                 Tommaseo, Niccolo (Translator into Italian)
-    Print Basis: Venice, 1850
+                 The Armenian Mechitarist monks of San Lazzaro, Venice
+                  (Italian version, per this scan's own title page: "Versione
+                  Italiana illustrata dai Monaci Armeni Mechitaristi")
+    Print Basis: Venice: Tipografia Armena di San Lazzaro, 1850 (second edition,
+                  "ritoccata quanto allo stile")
          Rights: Public Domain
        Language: ita
    Rights Basis: Published 1850; long out of US copyright. Confirmed directly from the
                   Internet Archive scan (identifier storiadimoscor00mose), fetched and
                   read in full this session.
 Source Collection: Internet Archive (archive.org), identifier storiadimoscor00mose
-   Content note: CORRECTION: the source-gap report credited this translation to
-                  "Cappelletti"; this volume's own Internet Archive metadata credits the
-                  translator as Niccolo Tommaseo. No public-domain English translation
-                  exists (per the report's own note); this Italian rendering is the
+   Content note: The overall Italian translation is credited on this scan's own title
+                  page to the Armenian Mechitarist monks of San Lazzaro, not to Niccolo
+                  Tommaseo - Tommaseo is named only at scattered points in the body
+                  text ("del Sig. Tommaseo", "Trad. del Sig. Tommaseo") where the monks'
+                  own translation quotes his separately-published verse renderings of
+                  specific passages, a citation within the text, not the translator of
+                  the whole. No public-domain English translation exists (per the
+                  original source-gap report's own note); this Italian rendering is the
                   confirmed PD text. Mashtots's own alphabet-invention narrative is
                   genuinely present ("caratteri armeni", "pensò d'inventare caratteri" -
                   raw-scan lines 12671-13500), though this translation's own
-                  book/chapter division was not independently cross-checked against the
-                  report's "III.47-54" reference (drawn from a modern critical edition's
-                  numbering, which may not match this 1850 translation's own division).
+                  book/chapter division was not independently cross-checked against a
+                  modern critical edition's numbering, which may not match this 1850
+                  translation's own division.
      ______________________________________________________________________
 
 NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from

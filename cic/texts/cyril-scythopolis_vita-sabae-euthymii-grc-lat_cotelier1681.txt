@@ -7,27 +7,33 @@
                   translation)
     Print Basis: Paris, 1681 (Ecclesiae Graecae Monumenta)
          Rights: Public Domain
-       Language: grc+lat
+       Language: lat (Greek unrecoverable in OCR - see Content note; SECOND WITNESS ONLY)
    Rights Basis: Published 1681; long out of US copyright. Confirmed directly from the
                   Internet Archive/Google Books scan (identifier bub_gb_1Z5eE88JWfIC),
                   fetched and read in full this session.
 Source Collection: Internet Archive (archive.org), identifier bub_gb_1Z5eE88JWfIC
-   Content note: Same source-gap report as above, citing ch. 83-90 of the Vita Sabae
-                  ("the New Laura is emptied") - the report itself notes Schwartz's
-                  standard 1939 critical edition is still in copyright, making this 1681
-                  Cotelier edition the only public-domain option. CAUTION, disclosed
-                  rather than resolved: this is a 17th-century typeface scan with heavy
-                  OCR corruption (long-s misread throughout, Greek/Latin parallel
-                  columns frequently interleaved wrong by the OCR). Both the Vita
-                  Euthymii (confirmed, "EUTHYMII VITA" header present) and the Vita
-                  Sabae itself (confirmed via "De vita Sabae" and "in Vita S. Sabae"
-                  references) are genuinely present in this volume, but the specific ch.
-                  83-90 New Laura passage was NOT pinpointed - the volume's own back-of-
-                  book index uses page numbers that do not map cleanly to this raw OCR
-                  text's line numbers. Any future quote drawn from this file needs
-                  unusually careful individual eye-verification given the OCR quality;
-                  this is a materially worse source than this corpus's typical vendored
-                  texts.
+   Content note: SECOND WITNESS ONLY. Checked directly: zero Greek-script Unicode
+                  characters appear anywhere in this file. Cyril of Scythopolis wrote in
+                  Greek; this scan's OCR could not read that Greek at all - the parallel
+                  Latin translation is what is genuinely readable, so this file is Latin
+                  apparatus/second-witness material only, never citable on its own as a
+                  Representative's evidence for Cyril's own Greek voice. Same source-gap
+                  report as above, citing ch. 83-90 of the Vita Sabae ("the New Laura is
+                  emptied") - the report itself notes Schwartz's standard 1939 critical
+                  edition is still in copyright, making this 1681 Cotelier edition the
+                  only public-domain option located. CAUTION, disclosed rather than
+                  resolved: this is also a 17th-century typeface scan with heavy OCR
+                  corruption beyond the Greek/Latin split (long-s misread throughout,
+                  Greek/Latin parallel columns frequently interleaved wrong by the OCR).
+                  Both the Vita Euthymii (confirmed, "EUTHYMII VITA" header present) and
+                  the Vita Sabae itself (confirmed via "De vita Sabae" and "in Vita S.
+                  Sabae" references) are genuinely present in this volume's Latin, but
+                  the specific ch. 83-90 New Laura passage was NOT pinpointed - the
+                  volume's own back-of-book index uses page numbers that do not map
+                  cleanly to this raw OCR text's line numbers. Any future quotation drawn
+                  from this file needs unusually careful individual eye-verification
+                  given the OCR quality; this is a materially worse source than this
+                  corpus's typical vendored texts.
      ______________________________________________________________________
 
 NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from

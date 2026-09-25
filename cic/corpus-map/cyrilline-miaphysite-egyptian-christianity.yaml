@@ -6,16 +6,11 @@ works:
 - work: The Ecclesiastical History of Evagrius (A.D. 431-594)
   author: evagrius-scholasticus
   locus: whole file
-  role: tradition
+  role: context
   confidence: assigned
-  note: 'A Chalcedonian Antiochene lawyer-historian''s own narrative of the imperial church,
-    431-594 CE - squarely inside the Justinianic atlas entry''s window (451-622) and containing
-    extensive material on Dioscorus, Alexandria''s deposed miaphysite patriarch (confirmed
-    present, raw-scan line ~1723), an outside/hostile account directly relevant to the Cyrilline/Miaphysite
-    entry''s own founding controversy. A separate 1898 Bidez-Parmentier edition (identifier
-    ecclesiasticalhi00evag) exists; its report-claimed "grc+eng" bilingual status was not
-    independently verified, so this confirmed 1846 all-English Walford translation is used
-    instead.
+  note: 'A Chalcedonian outsider''s account of Dioscorus, Alexandria''s deposed miaphysite
+    patriarch (confirmed present, raw-scan line ~1723) - per README''s own definition, "the
+    view from outside: ... a contemporary opponent," not this entry''s own voice.
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt

@@ -33,9 +33,13 @@ works:
   confidence: provisional
   note: 'Cyril''s own life of Sabas, the founding figure of Judean desert monasticism - the
     only public-domain edition (Schwartz''s 1939 critical edition is still in copyright).
-    CAUTION: 17th-century typeface scan with heavy OCR corruption. The specific ch. 83-90
-    "New Laura is emptied" passage was not pinpointed; confidence set to provisional rather
-    than assigned given both the unpinpointed passage and the source''s own poor OCR quality.
+    SECOND WITNESS ONLY: Cyril wrote in Greek, and this scan''s OCR cannot read the Greek
+    at all (zero Greek-script characters recoverable) - only Cotelier''s Latin translation
+    is readable, so this is Latin apparatus, not Cyril''s own recovered voice. CAUTION: 17th-century
+    typeface scan with heavy OCR corruption beyond the Greek/Latin split. The specific ch.
+    83-90 "New Laura is emptied" passage was not pinpointed; confidence set to provisional
+    rather than assigned given both the unpinpointed passage and the source''s own poor OCR
+    quality.
 
     '
   source_file: cyril-scythopolis_vita-sabae-euthymii-grc-lat_cotelier1681.txt

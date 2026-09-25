@@ -9,7 +9,7 @@
     Print Basis: Paris: Migne, Patrologiae Cursus Completus, Series Graeca, Tomus L,
                   1862
          Rights: Public Domain
-       Language: grc+lat
+       Language: lat (Greek unrecoverable in OCR - see Content note)
    Rights Basis: The Migne Patrologia Graeca series was compiled and printed in the
                   1850s-1860s, over 160 years before this session (2026). Confirmed
                   directly from the Internet Archive scan (identifier
@@ -27,8 +27,13 @@ Source Collection: Internet Archive (archive.org), identifier patrologicursusc00
                   COMPLETELY UNUSABLE - its OCR applied a Greek character recognizer to
                   the whole bilingual page, garbling both the Greek AND the Latin
                   translation into unreadable pseudo-Greek text (0% Latin-alphabet-
-                  legible by direct measurement). This alternate identifier's OCR is
-                  normal quality. Do not use the first identifier for this volume.
+                  legible by direct measurement). Do not use that first identifier for
+                  this volume. This file's own identifier is materially better but is
+                  not itself "normal quality" either: checked directly, zero Greek-script
+                  Unicode characters appear anywhere in this file - the Greek original
+                  Chrysostom actually preached in is not recoverable from this scan at
+                  all, only Fronton du Duc's Latin translation and Migne's own Latin
+                  apparatus are genuinely readable.
      ______________________________________________________________________
 
 NOTE ON THIS TRANSCRIPTION: the source is a raw OCR (djvu) text layer from
