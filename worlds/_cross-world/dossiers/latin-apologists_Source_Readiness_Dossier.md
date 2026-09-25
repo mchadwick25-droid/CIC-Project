@@ -19,7 +19,8 @@ review and a project-lead ruling at the Step 0 (Movement-Scope
 Confirmation) stage — `worlds/latap/Step0_Movement_Scope_Confirmation.md`,
 Revision 6 — which did extensive, source-verified work on sourcing (B1),
 ecology (B2), and built-world uniqueness (B3), including a full,
-independently re-derived word count for all 40 (now 41; see §2) works.
+independently re-derived word count for all 40 (now 43; see §2 and the
+2026-09-25 correction note in §1) works.
 This dossier does not repeat that work. It adds the one thing Step 0
 doesn't do: a corpus-wide sweep for vendored material Step 0 had no reason
 to go looking for, and a check of public-domain acquisition candidates
@@ -27,10 +28,16 @@ against the corpus-map's own live gaps.
 
 ## 1. Already assigned
 
-All 41 works currently on `cic/corpus-map/latin-apologists.yaml`
-(40 before this dossier pass; see §2). Word counts are Step 0's own
-directly-recounted figures (`§3 B1`, div2-boundary text extraction from
-the vendored XML) where it states them.
+All 43 works currently on `cic/corpus-map/latin-apologists.yaml`
+(40 before this dossier pass, 41 after this dossier pass's own §2 fix; two
+more — Cyprian's *An Address to Demetrianus* and *On the Vanity of
+Idols* — were already cross-linked onto the corpus-map file by a separate,
+earlier "Cross-link two apologetic works flagged by their own Source
+Readiness Dossiers" pass, but this table had never been updated to show
+them; corrected 2026-09-25 against a direct re-read of the corpus-map
+file, no new research). Word counts are Step 0's own directly-recounted
+figures (`§3 B1`, div2-boundary text extraction from the vendored XML)
+where it states them.
 
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
@@ -41,6 +48,8 @@ the vendored XML) where it states them.
 | Fragments of Lactantius | lactantius | tradition | assigned | 3,932 words | `anf07_lactantius...xml` |
 | On the Workmanship of God | lactantius | tradition | assigned | 18,840 words | `anf07_lactantius...xml` |
 | The Divine Institutes | lactantius | tradition | assigned | 241,990 words | `anf07_lactantius...xml` |
+| An Address to Demetrianus (Ad Demetrianum) | cyprian | tradition | assigned | — (not separately recounted) | `anf05_hippolytus-cyprian-caius-novatian.xml` |
+| On the Vanity of Idols (Quod Idola Dii Non Sint) | cyprian | transmission | provisional (disputed authorship — compiles Tertullian and Minucius Felix) | — (not separately recounted) | `anf05_hippolytus-cyprian-caius-novatian.xml` |
 | The Passion of the Holy Martyrs Perpetua and Felicitas (English) | passion_of_perpetua | tradition | assigned | 7,299 words | `anf03_tertullian.xml` |
 | **The Passion of the Holy Martyrs Perpetua and Felicitas (Latin/Greek, second witness) — added this pass, §2** | passion_of_perpetua | tradition | assigned | pp. 60–95 of the printed volume | `perpetua-scillitan-martyrs-lat-grc_robinson1891.txt` |
 | A Treatise on the Soul (De Anima) | tertullian | tradition | assigned | 49,399 words | `anf03_tertullian.xml` |
@@ -79,7 +88,11 @@ the vendored XML) where it states them.
 **Corpus total per Step 0's own direct recount: 1,194,575 words** (464,797
 original four authors + 729,778 Tertullian's corpus including the Passion).
 This dossier's own single addition (§2) is a second-witness original-language
-file, not new prose content, so it does not change that figure.
+file, not new prose content, so it does not change that figure. The two
+Cyprian works above were cross-linked by a separate, earlier pass and were
+never part of Step 0's own four-author recount either; their word counts
+are not separately stated anywhere in this build and are not included in
+the 1,194,575 figure.
 
 ## 2. Cross-link opportunities
 

@@ -50,18 +50,19 @@ relations:
 - type: associated-with
   target: cappadocian.dw.confession-not-a-vote
 modern_rendering: >-
-  Not long ago, praying with the congregation, I used the full doxology to God the Father
-  in both of its forms. At one point I said, 'with the Son, together with the Holy
-  Spirit.' At another, 'through the Son, in the Holy Spirit.' Some of those present
-  attacked me for this. They said I was introducing terms that were novel and, at the same
-  time, mutually contradictory. You, however, have expressed a different opinion --
-  chiefly with a view to benefiting them, or, if they are wholly incurable, for the
-  security of those who might fall in with them. You said that some clear instruction
-  ought to be published concerning the force underlying the syllables we use. I will
-  therefore write as briefly as I can. I will try to lay down some agreed principle for
-  the discussion.
+  Not long ago, praying with the congregation, I used the full doxology to God
+  the Father in both of its forms. At one point I said, 'with the Son,
+  together with the Holy Spirit,' and at another, 'through the Son, in the
+  Holy Spirit.' Some of those present attacked me for this. They said I was
+  introducing terms that were novel and, at the same time, mutually
+  contradictory. You, however, have expressed the opinion that some clear
+  instruction ought to be published about the force underlying the syllables
+  we use. Your chief aim is to benefit them. Or, if they are wholly incurable,
+  it is to protect those who might fall in with them. I will therefore write
+  as briefly as I can. I will try to lay down some agreed principle for the
+  discussion.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml. Located via `grep -n 'div1'
 cic/texts/npnf208_basil-letters-select-works.xml`, which surfaces the
 treatise's own top-level boundary at line 8580 ("De Spiritu Sancto.",
@@ -120,7 +121,3 @@ the water, the standing at prayer, the words already sung), this quote
 supplies the missing other half: the charge itself, and the reason the
 treatise was written down at all, at Amphilochius's urging, rather than
 left as a spoken defense.
-
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-English
-translation, never the archaic original; the original stays as the
-record's own text field, shown at Level 3.
