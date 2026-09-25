@@ -5,7 +5,7 @@
                   Pitra, Jean-Baptiste (editor)
      Print Basis: Rome: Typographia Polyglotta S. C. de Propaganda Fide, 1888
           Rights: Public Domain
-        Language: grc
+        Language: lat (Greek unrecoverable in OCR - see Content note)
     Rights Basis: Published 1888; public domain in the United States under the rolling
                   95-year rule (publication + 95; 1930 as of 2026 - see
                   cic/engine/texts_registry.py's own note that the line is
@@ -23,7 +23,16 @@
                   quality is uncorrected throughout, so any quotation drawn from
                   this file needs a visual cross-check against its surrounding
                   text before being relied on for a verbatim claim.
-    Content note: Greek text with Latin apparatus; no English. A second witness for
+    Content note: This scan's OCR engine could not read the Greek script at all -
+                  every line that should be Greek renders as Latin-letter garbage
+                  (checked directly: zero Greek-script Unicode characters anywhere
+                  in this file). Romanos's own kontakia, printed in Greek, are NOT
+                  recoverable from this file and this file offers no cross-check of
+                  them. What IS genuinely readable is Pitra's own Latin prefatory
+                  matter and critical apparatus (e.g. "Sanctus Romanus fuit ex Syria
+                  ortus..." at the biographical introduction) - real content, but
+                  scholarly apparatus about Romanos, not his own poetic voice. Treat
+                  this file as Latin apparatus material only; no English.
                   cross-checking an English rendering of the kontakia, not itself
                   citable as a Representative's evidence.
      __________________________________________________________________
