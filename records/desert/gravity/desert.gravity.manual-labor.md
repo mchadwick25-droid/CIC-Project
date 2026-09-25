@@ -39,7 +39,28 @@ relations:
 - type: associated-with
   target: desert.story.kellia-day
 name: "Manual labor as ascetic discipline [PRIMARY]"
-description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian and caveated, its own editors also reading it as organizationally intermediary, no clean fit to this world's three strands), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself; Doc_04 also notes some tension with a purely contemplative reading of the Evagrian systematization gravity, carried as a soft-tension in the index's Interaction Matrix rather than as a declared relation here. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: "Cheironaxia is hand-work, done both to make a living and as a discipline in its own right, against idleness. This
+  world understood it as the discipline itself, not merely as economic necessity.
+
+
+  Three kinds of evidence support it independently: texts, papyri, and archaeology. The texts include Athanasius and
+  Palladius. The papyri include the Nepheros archive, which comes with caveats. It belongs to the rival Melitian
+  movement. Its own editors read it as falling somewhere between forms of organization. It has no clean fit to any of
+  this world's three groups. The archaeology includes at least one excavated commercial center at Kellia.
+
+
+  The case is strong on every count. It appears in every kind of evidence this world offers. Material survival,
+  almsgiving, and the discipline against idleness all depend on it directly. It was understood as formation in itself.
+  It directly explains the specific evidence for the settlements' economic ties to villages. And it holds across every
+  part of this world. The evidence documents it directly and scholars broadly accept it, with no gap between the two.
+
+
+  It reinforces withdrawal. It also reinforces the pattern of economic ties to villages, which its own evidence partly
+  supplies. The tension carried by that pattern is with withdrawal's rhetoric specifically, not with manual labor
+  itself. Some tension is also noted with a purely contemplative reading of Evagrius's systematic teaching. That is
+  noted only as a soft tension, not declared as a firm relationship. Manual labor grows stronger under the force that
+  set this world in motion, the fact that martyrdom was no longer available. It is a direct, central response to that
+  pressure, not something that merely existed alongside it."
 classification: primary
 manifestations:
 - "Antony working with his hands from the start of his withdrawal (Vita SS3)"
