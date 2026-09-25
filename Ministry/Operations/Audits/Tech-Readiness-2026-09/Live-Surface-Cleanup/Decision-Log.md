@@ -1438,3 +1438,59 @@ a behaviour-adjacent change (a public parameter/env-var rename) touching `engine
 `engine/api/wiring.py`, `engine/api/table_wiring.py`, and every test that references any of these
 names - not a comment or docstring edit, and not zero-behaviour-change. Left as-is; a rename, if
 wanted, needs its own PR with its own review, not folded into a report-only measurement PR.
+
+---
+
+**Entry 16 — PR #561, merging 81 commits of drifted `main` (head `08ad3b73`/`42db5386`).** CI never
+registered a check suite for the round-4 push (confirmed via the check-suites API - `cloudflare`
+completed, `render`/`claude` stuck at `queued` with no update for over an hour, no `github-actions`
+suite created at all), and separately `main` had moved 81 commits ahead, producing a real merge
+conflict (`mergeable_state: dirty`) - both surfaced together, not a CI-kick situation. Resolved via
+a real merge (`git merge origin/main`, a merge commit, no rebase and no empty commit), which
+carries its own legitimate reason to push regardless of the CI-registration gap:
+
+- `records/worlds/alx.yaml` and `don.yaml`: took `origin/main`'s own pins (both worlds had real
+  content changes merged on `main` - alx's #566 rerender, don's #551 re-voicing - this branch's own
+  last rebuild-everything pass predates both).
+- `packages/alx/...manifest.json`: a rename/rename conflict (the same old timestamped path renamed
+  to two different new ones on each side). Resolved by keeping `origin/main`'s own rebuild and
+  dropping this branch's now-superseded one - but the file git left at the kept path still had
+  literal `<<<<<<<`/`=======`/`>>>>>>>` markers embedded in its own JSON content from git's
+  own 3-way content merge of the renamed-both-ways file. `git add`ing it without checking the
+  actual bytes staged a corrupted manifest - caught by `engine.m2.cli staleness-check` throwing a
+  `JSONDecodeError` on load, not by a manual read. Fixed by replacing the file wholesale with
+  `git show origin/main:<path>` rather than trusting git's own merge of that specific blob. A full
+  repo grep for embedded conflict markers after found none remaining.
+- `Ministry/.../Live-Surface-Cleanup/Decision-Log.md`: a genuine numbering collision, not a text
+  conflict to pick a side on. `main`'s own PR #574 added a `## Entry 9` (engine/prose.py and
+  engine/m4/turn.py) without noticing this same file already has an unrelated **Entry 9** (bold
+  style, PR #504 round 1) earlier in its own history, from before this whole workstream's numbering
+  switched from header style to bold after Entry 8's own change order. Renumbered PR #574's entry
+  to Entry 15 in the merge (content untouched, only the number and a one-line note explaining the
+  renumbering) rather than silently letting two different entries both claim "Entry 9" - the
+  append-only, no-drift discipline this program's own root CLAUDE.md asks for.
+
+After the merge, `alx` and `don` were the only two worlds `engine.m2.cli staleness-check` found
+stale (their `main`-side rebuilds used the pre-widening `gate_readability`; compiling them under
+this branch's widened gate produces a different `validation/gates-report.json` - expected, not a
+regression). Rebuilt via `engine.m2.cli build`, repinned, superseded manifests removed. don's own
+`m1:readability` waiver tightened 368 -> 330 (#551's re-voicing genuinely cleared 38 findings this
+gate already covered - `engine.m9.cli check` flagged the stale waiver itself, not a self-caught
+gap). `tools/tests/test_check_live_commentary.py`'s own real-fleet true-positive assertion on
+`don.force.sustained-purity-rebaptism-practice.md` broke the same way - #551 cleared the exact
+build-vocabulary phrase that test pointed at - swapped for a `cappadocian` example (the fleet-wide
+gravity/force `name`-field bracket-tag leak, not yet remediated anywhere, so a more durable choice
+than pointing at a world under active re-voicing).
+
+Final fresh counts, current `main` post-merge: `check_live_commentary`'s six new patterns, 345
+across 12 worlds (cappadocian 81, gallic 81, desert 30, witt 28, don 26, pahc 26, alx 25, ijc 19,
+hal 17, rzg 6, syr 6) - down from 701 before this merge, almost entirely don (226 -> 26) and lpc
+(156 -> 0, fully re-voiced by #562) clearing real content via their own PRs, not anything this PR
+did. `gate_readability`: 2,075 world-level (alx 149, cappadocian 322, desert 163, don 330, gallic
+135, hal 165, ijc 163, pahc 162, rzg 137, syr 155, witt 194) + 9 fleet-level = 2,084 total.
+`gate_readability_floor` (report-only, never blocking): 1,137 observations.
+
+Full local suite (832 passed), `engine.m1.selftest` (`overall_pass: true`), `engine.m9.cli check`
+(clean after the don waiver fix), both `engine.m2.cli`/`site_cli staleness-check` (clean),
+`check_live_commentary --surface engine` (zero new hits against `origin/main` on every touched
+file), and `check_paths.py` (0 new unresolved) all reverified on the merged state before pushing.
