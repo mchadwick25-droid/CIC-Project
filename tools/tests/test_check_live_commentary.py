@@ -737,12 +737,17 @@ def _new_pattern_hits_for(text: str, tmp_path: Path, rel: str):
 
 
 def test_real_fleet_true_positives_still_match_on_main():
-    # Confirms the patterns fire against the real, currently-unfixed files
-    # on disk (not just synthetic examples) - each is inside an open
-    # re-voicing PR's own scope (desert #547, don #551).
+    # Confirms the patterns fire against real, currently-unfixed files on
+    # disk (not just synthetic examples). don.force.sustained-purity-
+    # rebaptism-practice.md's own hit (the original third example here)
+    # was cleared by don's #551 re-voicing PR after this test was written -
+    # exactly the intended outcome, not a false positive - so it was
+    # swapped for cappadocian's own matrix-cell-code example, a fleet-wide
+    # leak (the bracketed build-taxonomy tag on every gravity/force `name`)
+    # not yet remediated in any world.
     assert _new_pattern_hits("records/don/gravity/don.gravity.rebaptism-boundary-marking.md")
     assert _new_pattern_hits("records/desert/gravity/desert.gravity.koinonia.md")
-    assert _new_pattern_hits("records/don/force/don.force.sustained-purity-rebaptism-practice.md")
+    assert _new_pattern_hits("records/cappadocian/force/cappadocian.force.ascetic-ferment.md")
 
 
 def test_real_editorial_numbered_labels_not_flagged_as_headers():
