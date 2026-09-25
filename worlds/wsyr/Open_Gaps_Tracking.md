@@ -275,3 +275,30 @@ when.
     them into error" (c. lines 4777-4790). A fourth, final review round is
     now running to confirm this fix and close out Steps 0-2's own review
     cycle.
+
+    **Round 4 review result:** the five-passage attribution fix held in
+    all five places — no regression to the original Round 1 error, no
+    repeat of the Round 3 overcorrection. It found one further precise
+    defect in two of the five (Doc_02 §3's John of Ephesus entry, Doc_01
+    §6's source note): both mischaracterized what the Tritheites wanted
+    from John. The vendored text (c. lines 4613-4651) says Conon and
+    Eugenius, their only two bishops, had been deposed, leaving them
+    without the third bishop canon law required to consecrate others —
+    they tried to bribe John into joining them *as* that third bishop, not
+    into consecrating one on their behalf; when he refused, they recruited
+    a previously deposed bishop, Theonas, instead. The review also flagged
+    two minor loci imprecisions: the material is Book V, relocated by the
+    1860 translator into this stretch of Book I (not plain "Book I"), and
+    the excursus's own closing line ("We may now, however, return to our
+    author...") sits at c. lines 4575-4577, not 4568. Mark authorized this
+    precise fix directly ("go ahead, apply it," 2026-09-25) rather than
+    opening a fifth review round, since it was independently verifiable
+    against the exact lines the review already cited. Applied to Doc_01
+    §2/§6, Doc_02 (Table A, §2 verification loci, the John of Ephesus
+    author-gravity entry), and the corpus-map staging file — all
+    independently re-verified against the vendored text before writing,
+    not merely trusted from the review. Mechanical checks
+    (`engine.m1.cross_world`, `corpus_map_merge.py --check`,
+    `texts_registry.py`) all pass with no new drift. **Steps 0-2's own
+    review cycle is now closed** — Step 0, Doc_01, and Doc_02 are Approved
+    to proceed (see each document's own status line).

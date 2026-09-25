@@ -1,15 +1,18 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity — Source Ecology
 
-**Status:** DRAFT, Revision 4. A third independent review round found this
-document's own §1/§3/§8 (in Revision 3) still overcorrected the
-Tritheist-material misattribution fixed elsewhere: it wrongly stated John
-of Ephesus is not a source for the Tritheist controversy at all, when his
-own narrative (per the vendored file, c. line 4580 onward — his own
-refusal of the Tritheites' bribes, his own naming of John Philoponus)
-covers it at length. The project lead authorized a fourth revision round
-directly (`Open_Gaps_Tracking.md` item 18); this revision applies that
-fix, independently re-verified against the vendored file before writing
-it. A review round is running to confirm it. Follows Doc_01 Revision 2 and
+**Status:** DRAFT, Revision 5. **Approved to proceed.** A third independent
+review round found this document's own §1/§3/§8 (in Revision 3) still
+overcorrected the Tritheist-material misattribution fixed elsewhere: it
+wrongly stated John of Ephesus is not a source for the Tritheist
+controversy at all, when his own narrative (per the vendored file, c. line
+4580 onward — his own refusal of the Tritheites' bribes, his own naming of
+John Philoponus) covers it at length. The project lead authorized a fourth
+revision round directly (`Open_Gaps_Tracking.md` item 18); a fourth review
+round then found the fix correct everywhere except one wording error (§3's
+John of Ephesus entry mischaracterized what the Tritheites wanted from
+him), which the project lead authorized correcting directly rather than a
+fifth review round. Both fixes independently re-verified against the
+vendored file before writing. Follows Doc_01 Revision 2 and
 an independent
 Opus adversarial review of Revision 1
 (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
@@ -53,7 +56,7 @@ exists (§11).
 | Work | Author | Date/context | Extent vendored | Vendored file | Own-voice / opponent-voice | Quotability | Confidence |
 |---|---|---|---|---|---|---|---|
 | *Lives of the Eastern Saints* | John of Ephesus (c. 507-588) | c. 566-568 | 58 chapters (Syriac + English, PO 17-19) | `john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt` | Own-voice throughout | **Verify locus-by-locus** — mixed Syriac-script/English OCR; ch. 49-50 confirmed clean and quotable | Documented (ch. 49-50 content); file-wide quotability Inferential-Thin pending further checks |
-| *Ecclesiastical History*, Part III | John of Ephesus, **except one c. 100-line stretch of Book I (c. lines 4460-4578), which is the 1860 translator's own editorial excursus, not John's own text — see note** | events to c. 585 | **Books I-VI in translation** (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506; Book I before 5883) | `john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt` | Own-voice, except the noted excursus (the translator's own apparatus, relaying the 13th-century chronicler Bar-Hebraeus) | **Verbatim-ready** for Book III.36-37 (Tralles mission, John's own narrative) and for Book I's own narrative from Conon's arrest onward (c. line 4579), both directly checked as John's own voice; the excursus itself (lines ~4460-4578) is real historical information but is Payne Smith's/Bar-Hebraeus's own material, not quotable as John's | Documented for the loci checked; Widely Accepted for the rest, pending individual verification |
+| *Ecclesiastical History*, Part III | John of Ephesus, **except one c. 100-line stretch (c. lines 4471-4577), which is the 1860 translator's own editorial excursus, not John's own text — see note** | events to c. 585 | **Books I-VI in translation** (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506; Book I before 5883) — the Tritheist-controversy narrative at c. lines 4580-4880 is Book V material the translator relocated into this stretch of Book I | `john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt` | Own-voice, except the noted excursus (the translator's own apparatus, relaying the 13th-century chronicler Bar-Hebraeus) | **Verbatim-ready** for Book III.36-37 (Tralles mission, John's own narrative) and for the Book V/Tritheist-controversy narrative from Conon's arrest onward (c. line 4580), both directly checked as John's own voice; the excursus itself (c. lines 4471-4577) is real historical information but is Payne Smith's/Bar-Hebraeus's own material, not quotable as John's | Documented for the loci checked; Widely Accepted for the rest, pending individual verification |
 | *The Sixth Book of the Select Letters* | Severus of Antioch (c. 459-538) | letters written 512-538 | 123 letters (Parts I-II, complete English translation) | `severus-of-antioch_select-letters-book6-part1_brooks1903.txt`, `...part2_brooks1904.txt` | Own-voice | **Verbatim-ready** for Letter I.1 (directly checked, contains real anti-Chalcedon/anti-Eutyches doctrinal argument — see §11); rest of the collection second-witness pending individual checks | Documented for I.1; Widely Accepted/Inferential-Thin per-letter for the rest |
 | *The Discourses of Philoxenus*, **plus the same volume's own Creed, Confession of Faith, and anti-Nestorian/anti-"two natures" polemical texts** | Philoxenus of Mabbug (c. 440-523) | ascetic homilies undated within 485-519; doctrinal texts undated | 13 discourses **and** the doctrinal texts listed in the volume's own contents (Vol. II translation) | `philoxenus-of-mabbug_discourses_budge1894.txt` | Own-voice | The doctrinal texts' own table-of-contents titles are confirmed present (lines 325-348); their content has not yet been individually read and quote-verified — corrected from Revision 1, which wrongly stated this volume held no Christological material at all | Documented that the titles exist in this vendored file; Inferential-Thin per-passage pending a closer read |
 | *The Chronicle of Joshua the Stylite* | Traditional attribution, uncertain | composed 507, covers 494/5-506 | Whole work | `joshua-the-stylite_chronicle_wright1882.txt` | **Undetermined** — see `Open_Gaps_Tracking.md` item 3; not established as this world's own voice or as context. A new lead this revision: the chronicler praises Flavian II of Antioch (line 3895) — the patriarch Severus replaced in 512 — worth weighing in that determination | Verbatim-ready in the clean English narrative body; footnote apparatus not quotable | Widely Accepted for the events narrated; role classification Contested/open |
@@ -91,21 +94,31 @@ quote record can cite as checked):
     "the 1860 editor's own summary." The correct next step for locating
     this figure in John's own words is those Part II/Chronicle-of-Zuqnin
     fragments, not further searching within Part III.
-  - Book I, c. lines 4460-4578: a Tritheist/Trinitarian controversy within
-    the anti-Chalcedonian party itself, associated with John Ascunages
-    (whose own quoted creed affirms "one nature of Christ the Incarnate
-    Word" but applies a count-by-number-of-persons logic to the Trinity —
-    a Trinitarian dispute, not a rival reading of the movement's own
-    Christological formula) and later defended philosophically by John
-    Philoponus. **This whole stretch, including the reported four-day
-    public disputation, is the 1860 translator's own editorial excursus**,
-    explicitly sourced to the 13th-century chronicler Bar-Hebraeus and
-    closing in the translator's own voice ("We may now, however, return to
-    our author, whose narrative will be found to confirm the above
-    statements of Bar-Hebraeus," c. line 4568) — not John's own
-    eyewitness testimony, and not to be cited as such. John's own
-    narrative resumes at c. line 4579 (Conon's arrest) and is directly
-    quotable from that point.
+  - c. lines 4471-4577: the doctrinal background of a Tritheist/
+    Trinitarian controversy within the anti-Chalcedonian party itself,
+    associated with John Ascunages (whose own quoted creed affirms "one
+    nature of Christ the Incarnate Word" but applies a count-by-number-
+    of-persons logic to the Trinity — a Trinitarian dispute, not a rival
+    reading of the movement's own Christological formula) and later
+    defended philosophically by John Philoponus. **This stretch,
+    including the reported four-day public disputation, is the 1860
+    translator's own editorial excursus**, explicitly sourced to the
+    13th-century chronicler Bar-Hebraeus and closing in the translator's
+    own voice ("We may now, however, return to our author, whose
+    narrative will be found to confirm the above statements of
+    Bar-Hebraeus," c. lines 4575-4577) — not John's own eyewitness
+    testimony, and not to be cited as such.
+  - c. lines 4580-4880: John's own narrative resumes here (Conon's
+    arrest) and continues at real length — Book V material the translator
+    relocated into this stretch of Book I ("Their history is continued in
+    the fifth book... we propose to proceed with it here," c. line 4602).
+    Directly quotable as John's own voice: the Tritheites' own attempt to
+    recruit him as their needed third bishop, which he refused (c. lines
+    4613-4651); a debate ordered before the patriarch and synod (c. lines
+    4686-4690); and his own naming of "John Grammaticus of Alexandria"
+    (John Philoponus's own epithet, per the translator's note at c. line
+    4770) as the one whose writings "first led them into error" (c. lines
+    4777-4790).
   - Direct textual confirmation of "the orthodox party"/"the orthodox" as
     a repeated first-person self-designation (e.g. lines 709, 2807, 2906,
     2966).
@@ -167,11 +180,17 @@ remain unvendored, a narrower gap than Revision 1 stated.
 **John of Ephesus.** Representativeness: unusually high, now confirmed to
 extend to internal-controversy material as well as persecution narrative
 and personal portraiture — richer than an earlier pass recognized. This
-includes his own direct reporting on the Tritheist controversy (Book I,
-from Conon's arrest onward, c. line 4580): he names himself as a target of
-the Tritheites' own recruitment attempt (they tried to bribe him to
-consecrate a third bishop for them; he refused and called them heretics),
-and later names John Philoponus by name as the one whose writings "first
+includes his own direct reporting on the Tritheist controversy (Book V,
+material the 1860 translator relocated into this stretch of Book I "as it
+stands there quite unconnected with the rest," from Conon's arrest onward,
+c. line 4580): he names himself as a target of the Tritheites' own
+recruitment — lacking the third bishop canon law required to consecrate
+others (Conon and Eugenius, their only two bishops, had been deposed),
+they tried to bribe John of Ephesus into joining them as that third
+bishop; he refused and argued they were heretics, and they recruited a
+previously deposed bishop, Theonas, instead (c. lines 4613-4651) — and
+later names "John Grammaticus of Alexandria" (John Philoponus's own
+epithet, per the translator's own note) as the one whose writings "first
 led them into error." **What is not his own reporting**, and should not be
 cited as such: the controversy's own doctrinal background immediately
 before that point — Ascunages's own quoted creed and the reported four-day

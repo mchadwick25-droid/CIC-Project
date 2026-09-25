@@ -1,11 +1,15 @@
 # World (proposed code `wsyr`): Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 4. Escalated after a third review round found
-this document set still required substantial revision at the project's own
-three-round cap; the project lead authorized a fourth round directly (see
-Step 0's own status line and `Open_Gaps_Tracking.md` item 18). This
-revision applies that fourth-round fix; a review round is running to
-confirm it. Follows Step 0 (`Step0_Movement_Scope_Confirmation.md`,
+**Status:** DRAFT, Revision 5. **Approved to proceed.** Escalated after a
+third review round found this document set still required substantial
+revision at the project's own three-round cap; the project lead authorized
+a fourth round directly, then — after a fourth review round found one
+precisely-specified wording error remaining in this document's own §6
+source note (the Tritheites tried to bribe John of Ephesus into joining
+them *as* the third bishop they needed, not into consecrating one for
+them) — authorized that final correction directly rather than a fifth
+review round. Full record: Step 0's own status line and
+`Open_Gaps_Tracking.md` item 18. Follows Step 0 (`Step0_Movement_Scope_Confirmation.md`,
 Revision 2) and an independent Opus adversarial review of Revision 1
 (`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
 REVISION REQUIRED). This revision corrects every finding that review
@@ -280,8 +284,10 @@ temporal sequence.
 simultaneous internal divergence that Revision 1 missed entirely** — both
 directly attested in the vendored Ecclesiastical History, Part III:
 
-- **The Tritheist/Condobaudite controversy** (Book I; see §2 above and
-  Doc_02 §2 for the source-attribution correction below). A faction within
+- **The Tritheist/Condobaudite controversy** (printed within Book I, but
+  John's own narrative portion of it is Book V material the translator
+  relocated there — see §2 above and Doc_02 §2 for the full
+  source-attribution correction below). A faction within
   the anti-Chalcedonian movement itself, led first by John Ascunages and
   then defended philosophically by John Philoponus, agreed with the
   movement's own mainstream that Christ himself is "one nature" — Ascunages's
@@ -296,20 +302,26 @@ directly attested in the vendored Ecclesiastical History, Part III:
   note, corrected:** the controversy's own doctrinal background — the
   Ascunages creed quoted above, the Condobaudite name, and the reported
   four-day public disputation — is the 1860 translator's own editorial
-  excursus, explicitly citing the 13th-century chronicler Bar-Hebraeus, and
-  should not be cited as John of Ephesus's own words. But John's own
-  narrative, resuming with Conon's arrest (c. line 4580) and continuing for
+  excursus (c. lines 4471-4577, closing "We may now, however, return to
+  our author"), explicitly citing the 13th-century chronicler Bar-Hebraeus,
+  and should not be cited as John of Ephesus's own words. But John's own
+  narrative, resuming with Conon's arrest (c. line 4580 — Book V material
+  the translator relocated into this stretch of Book I) and continuing for
   some three hundred lines, is a real, direct, first-hand account of this
-  same controversy: John reports the Tritheites' own attempt to recruit him
-  (they tried to bribe him into consecrating a third bishop for them; he
-  refused and called them heretics), a debate ordered before the patriarch
-  and synod, and — naming him directly — John Philoponus's own role in
-  spreading the error further. An earlier revision of this document
-  wrongly presented the whole controversy, including this material, as
-  something only the translator reports; that overcorrected the original
-  problem (crediting the excursus to John) into its opposite (denying John
-  reports on the controversy at all). See Doc_02 §2 for the exact locus
-  split and the correction.
+  same controversy: John reports the Tritheites' own attempt to recruit
+  him — lacking the third bishop canon law required to consecrate others
+  (their only two bishops, Conon and Eugenius, had been deposed), they
+  tried to bribe John into joining them as that third bishop; he refused
+  and argued they were heretics, and they recruited a previously deposed
+  bishop, Theonas, instead (c. lines 4613-4651) — a debate ordered before
+  the patriarch and synod, and — naming him by his epithet, "John
+  Grammaticus of Alexandria" — John Philoponus's own role in spreading the
+  error further. An earlier revision of this document wrongly presented
+  the whole controversy, including this material, as something only the
+  translator reports; that overcorrected the original problem (crediting
+  the excursus to John) into its opposite (denying John reports on the
+  controversy at all). See Doc_02 §2 for the exact locus split and the
+  correction.
 - **The Paulite schism** (Book IV). A later split within the movement's
   own hierarchy — the census's own pre-drafted story already flags that
   Jacob Baradaeus's own bishops "fell into quarrels" in his last years,
