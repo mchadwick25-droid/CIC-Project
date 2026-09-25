@@ -27,18 +27,17 @@ text: As for us, then, we scrupulously observe the exact day, neither adding nor
   the world, and have read through all Holy Scripture, am not frightened at the things which are said
   to terrify us. For those who are greater than I have said, "We ought to obey God rather than men."
 modern_rendering: >-
-  As for us, we scrupulously keep the exact day, adding nothing and
+  As for us, we keep the exact day with great care, adding nothing and
   taking nothing away. For in Asia great luminaries have gone to their
-  rest, who shall rise again on the day the Lord comes. Moreover I also,
+  rest, and they will rise again on the day the Lord comes. And I too,
   Polycrates, the least of you all, follow the tradition of my
   relatives, some of whom I have succeeded. Seven of my relatives were
-  bishops, and I am the eighth, and my relatives always observed the day
-  when the people put away the leaven. I myself, brothers, am
-  sixty-five years old in the Lord. I have met with the brothers in all
-  parts of the world, and have read through all Holy Scripture. I
-  am not frightened by the things which are said to terrify us. For
-  those who are greater than I have said: 'We ought to obey God rather
-  than men.'
+  bishops, and I am the eighth. My relatives always kept the day when
+  the people put away the leaven. I myself, brothers, am sixty-five
+  years old in the Lord. I have met the brothers in every part of the
+  world, and I have read through all of Holy Scripture. So I am not
+  frightened by the things people say to terrify us. For those greater
+  than I have said: "We ought to obey God rather than men."
 speaker_or_author: Polycrates, bishop of Ephesus, writing to Victor of Rome
 license: verbatim
 modern_lens_note: >-
@@ -90,3 +89,10 @@ dead, and a count of his own family's bishops, and a refusal.
 MODERN RENDERING AUTHORED (2026-08-29, pahc register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
 
 BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+
+MODERN RENDERING REVISED (2026-09-25): "who am sixty-five years old...
+and have fallen in with the brethren... and have read through all Holy
+Scripture" is, in the source, the stated grounds for "am not
+frightened," not a separate list of facts. The rendering now ties them
+with "So" before "I am not frightened," rather than four disconnected
+sentences.

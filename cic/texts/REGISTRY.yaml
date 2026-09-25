@@ -2560,6 +2560,87 @@
     world - the only English translation (Homann, 2003) is in copyright and
     restricted. OCR QUALITY FLAG: title page severely garbled; body clean on
     spot-check.
+- filename: calvin_commentaries-genesis-vol1_king1847.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Commentaries on the First Book of Moses, Called Genesis, Vol. I, John Calvin,
+    trans. Rev. John King (Edinburgh: Calvin Translation Society, 1847). Fetched
+    directly (curl, raw bytes) from Internet Archive, identifier
+    commentariesonfi01calvuoft, "possible-copyright-status": "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API. RIGHTS: public domain by date, an
+    1847 publication. DELIBERATE PARTIAL ACQUISITION: one representative volume-pair
+    of the ~22-volume Calvin Translation Society Commentaries series named in the
+    dossier's lead - the remaining ~20 volumes were not researched or vendored this
+    pass, a real open opportunity for a future session. OCR QUALITY FLAG: a CTS
+    subscription-notice leaf at the head and a handful of illustration/plate leaves
+    at the head and tail OCR as near-total garbage (decorative engraving, not text);
+    the commentary body itself was sampled at multiple points and reads cleanly
+    throughout.
+- filename: calvin_commentaries-genesis-vol2_king1847.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Commentaries on the First Book of Moses, Called Genesis, Vol. II, same edition
+    and vendoring basis as Vol. I above. Internet Archive identifier
+    commentariesonfi02calvuoft, "NOT_IN_COPYRIGHT" confirmed via the item's own
+    metadata API. Completes the Genesis commentary; see Vol. I's own note for the
+    partial-acquisition disclosure against the wider CTS Commentaries series.
+- filename: calvin_letters-vol1_bonnet1858.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Letters of John Calvin, Compiled from the Original Manuscripts and Edited with
+    Historical Notes, Vol. I, John Calvin, ed. Dr. Jules Bonnet (Philadelphia:
+    Presbyterian Board of Publication, 1858) - no individual translator named on
+    this volume's own title page. Fetched directly (curl, raw bytes) from Internet
+    Archive, identifier lettersofjohncal01calv, "possible-copyright-status":
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API. RIGHTS: public
+    domain by date, an 1858 publication. One of a 4-volume set; Vol. III could not
+    be located on archive.org (checked this identifier family, the parallel
+    1855-57 Edinburgh/Constable printing, and Project Gutenberg, which holds only
+    Vols. I-II) - a genuinely open gap, not substituted or fabricated.
+- filename: calvin_letters-vol2_bonnet1858.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Letters of John Calvin, Vol. II, same edition and vendoring basis as Vol. I
+    above. Internet Archive identifier lettersofjohncal02calv, "NOT_IN_COPYRIGHT"
+    confirmed via the item's own metadata API.
+- filename: calvin_letters-vol4_bonnet1858.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    Letters of John Calvin, Vol. IV, same set as Vols. I-II above - Philadelphia:
+    Presbyterian Board of Publication, 1858. TRANSLATOR DIFFERS FROM VOLS. I-II:
+    this volume's own title page names Marcus Robert Gilchrist as translator
+    ("translated from the Latin and French languages by"), where Vols. I-II name
+    no individual translator. Internet Archive identifier lettersofjohncal04calv,
+    "NOT_IN_COPYRIGHT" confirmed via the item's own metadata API. Vol. III of this
+    set remains an open gap - see Vol. I's own note.
+- filename: zwingli_latin-works-correspondence-vol3_heller1929.txt
+  supplied_by: Claude (source-acquisition research thread, closing a Verified Acquisition
+    Lead from the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md §3)
+  date_added: '2026-09-25'
+  notes: >-
+    The Latin Works of Huldreich Zwingli, Vol. III (translated for the late Samuel
+    Macauley Jackson; Clarence Nevin Heller, ed.; Philadelphia: The Heidelberg
+    Press, published under the auspices of the American Society of Church History,
+    1929) - contains "De Vera et Falsa Religione" ("Of True and False Religion")
+    and the Antibolon. Fetched directly (curl, raw bytes) from Internet Archive,
+    identifier latinworkscorres03zwin, "possible-copyright-status" field not yet
+    set by archive.org's own classifier either way. RIGHTS: public domain by date -
+    1929 publication directly confirmed against this volume's own title page and
+    copyright notice, more than 95 years before this session (2026), qualifying
+    under this project's own rolling PD-by-date rule (the threshold is 1930 as of
+    2026, per texts_registry.py's own docstring). A second, independent volume of
+    Zwingli's own voice alongside zwingli_selected-works_jackson1901.txt and
+    zwingli_latin-works-correspondence-vol1_jackson1912.txt.
 - filename: luther_first-principles-reformation_wace-buchheim1885.txt
   supplied_by: Claude (source-acquisition research thread, verified-leads pass for
     lutheran-wittenberg-and-its-congregations)
