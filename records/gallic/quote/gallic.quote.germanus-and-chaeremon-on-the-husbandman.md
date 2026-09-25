@@ -61,8 +61,8 @@ modern_lens_note: >-
 modern_rendering: >-
   Then Germanus: ... The reward of our efforts is perfect chastity, gained by the earnestness of one's
   own toil. It seems absurd to us not to credit it mainly to the labor of the man who makes the effort.
-  Say we see a farmer taking the greatest pains to work the ground. It is foolish not to credit the
-  fruits to his labor.
+  For suppose, for example, that we see a farmer taking the greatest pains to work the ground. It is
+  foolish not to credit the fruits to his labor.
 
   Chaeremon: ... Neither can the farmer, after taking the greatest pains to work the ground, at once
   credit his crops and their rich fruits to his own labor. He finds that his efforts often
