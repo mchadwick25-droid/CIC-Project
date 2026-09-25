@@ -113,8 +113,9 @@ _LANGUAGE_LINE = re.compile(r"Language:\s*(.+)|<DC\.Language>\s*([^<]+)")
 class ApparatusPattern:
     """One named, evidenced marker CONVENTION belonging to a single
     vendored edition - see REGISTRY.yaml's own schema comment for the
-    full discipline (two kinds, `regex` and `endnote-sequence`) and why a
-    per-quote-anchored pattern is exactly what R33 forbids here.
+    full discipline (three kinds, `regex`, `endnote-sequence`, and
+    `letterform`) and why a per-quote-anchored pattern is exactly what
+    R33 forbids here.
 
     kind == "regex" (default): `pattern` is matched with `re.search`
     against the RAW vendored text; the matched span is dropped entirely
@@ -122,12 +123,23 @@ class ApparatusPattern:
 
     kind == "endnote-sequence": `notes_start_pattern` marks where this
     edition's own real numbered endnotes section begins; `pattern` is
-    unused."""
+    unused.
+
+    kind == "letterform": this ONE edition's own OCR misreading of an
+    archaic letterform (e.g. thorn rendered as `])`/`]?` in a specific
+    scan) - `pattern` is matched and REPLACED with `replacement`, never
+    dropped. Deliberately never a fleet-wide rule (Mark's 2026-09-25 OCR/
+    normalization ruling): a scanner's own per-edition misreading is not
+    the same as the systematic long-s/thorn/eth normalization
+    engine.m1.quote_verbatim.normalize_archaic_letterforms already
+    applies globally. Each mapping is verified against the page image
+    before being added here, never guessed from the OCR text alone."""
 
     name: str
     pattern: str = ""
     kind: str = "regex"
     notes_start_pattern: str = ""
+    replacement: str = ""
     evidence: str = ""
 
 
@@ -159,6 +171,7 @@ def _load_entries() -> tuple[TextEntry, ...]:
                 ApparatusPattern(
                     name=a["name"], kind=a.get("kind", "regex"),
                     pattern=a.get("pattern", ""), notes_start_pattern=a.get("notes_start_pattern", ""),
+                    replacement=a.get("replacement", ""),
                     evidence=a.get("evidence", ""),
                 )
                 for a in d.get("apparatus", [])

@@ -8,8 +8,10 @@ from pathlib import Path
 
 from engine.m1.quote_verbatim import (
     TEXTS_DIR,
+    _EDITION_APPARATUS_CACHE,
     collapse_linewrap_hyphens,
     iter_source_notes,
+    normalize_archaic_letterforms,
     resolve_vendored_paths,
     strip_apparatus,
     strip_edition_apparatus,
@@ -19,6 +21,7 @@ from engine.m1.quote_verbatim import (
     verify_quote_record,
     verify_quote_text,
 )
+from cic.engine.texts_registry import ApparatusPattern
 
 
 def _verify(quote: str, source: str, *, xml: bool = False):
@@ -44,6 +47,60 @@ def test_case_difference_passes():
     r = _verify("The Quick Brown Fox", "the quick brown fox jumps")
     assert r.verified is True
     assert "case" in r.classes_used
+
+
+# --- Mark's 2026-09-25 OCR/normalization ruling: archaic letterforms -----
+
+
+def test_long_s_in_the_source_matches_a_modern_s_in_the_quote():
+    r = _verify("the quick brown fox", "ſome text, the quick brown fox jumpſ high")
+    assert r.verified is True
+    assert "long_s" in r.classes_used
+
+
+def test_thorn_in_the_source_matches_modern_th_in_the_quote():
+    r = _verify("the quick brown fox", "some text, þe quick brown fox jumps high")
+    assert r.verified is True
+    assert "thorn" in r.classes_used
+
+
+def test_eth_in_the_source_matches_modern_th_in_the_quote():
+    r = _verify("the quick brown fox", "some text, ðe quick brown fox jumps high")
+    assert r.verified is True
+    assert "eth" in r.classes_used
+
+
+def test_normalization_is_symmetric_thorn_in_the_quote_matches_th_in_the_source():
+    """Mark's ruling: applied to BOTH sides - a record transcribed with
+    the archaic letterform itself (not just a modern rendering of one)
+    still matches a source printed in plain modern "th"."""
+    r = _verify("þe quick brown fox", "some text, the quick brown fox jumps high")
+    assert r.verified is True
+    assert "thorn" in r.classes_used
+
+
+def test_uppercase_thorn_and_eth_are_covered_too():
+    r = _verify("The quick brown fox", "some text, Þe quick brown fox jumps high")
+    assert r.verified is True
+    assert "thorn" in r.classes_used
+    r2 = _verify("The quick brown fox", "some text, Ðe quick brown fox jumps high")
+    assert r2.verified is True
+    assert "eth" in r2.classes_used
+
+
+def test_yogh_is_never_normalized_by_the_global_rule():
+    """Yogh (ȝ) maps to y/gh/z depending on context, so it is per-edition
+    apparatus only (kind: letterform in REGISTRY.yaml), never a blanket
+    substitution here - a quote relying on an unhandled yogh still fails,
+    exactly as before this ruling."""
+    r = _verify("the quick brown fox", "some text, ȝe quick brown fox jumps high")
+    assert r.verified is False
+
+
+def test_a_quote_with_no_archaic_letterforms_carries_none_of_the_new_classes():
+    r = _verify("the quick brown fox", "the quick brown fox jumps high")
+    assert r.verified is True
+    assert r.classes_used == set()
 
 
 def test_punctuation_variant_passes_curly_quotes_and_dashes():
@@ -605,6 +662,39 @@ def test_edition_with_no_apparatus_entry_behaves_exactly_as_today():
     assert strip_edition_apparatus(text, "some-edition-with-no-registry-entry.txt") == text
 
 
+# `kind: letterform` (Mark's OCR/normalization ruling, 2026-09-25) is
+# exercised the same way `endnote-sequence` is below: injected directly
+# into the cache, not through the real registry - this ships the
+# mechanism with a test fixture; the library thread populates real
+# per-edition mappings (e.g. Wyclif's own þ-as-`])` OCR rendering) later,
+# verified against each edition's own page image.
+def test_letterform_apparatus_kind_replaces_never_drops():
+    fake_filename = "test-fixture-edition-with-ocr-thorn-substitute.txt"
+    _EDITION_APPARATUS_CACHE[fake_filename] = (
+        ApparatusPattern(
+            name="ocr-thorn-as-bracket-paren",
+            kind="letterform",
+            pattern=r"\]\)",
+            replacement="th",
+            evidence="synthetic test fixture, not a real edition mapping",
+        ),
+    )
+    text = "some text with a ]) e quick brown fox and a 300 elsewhere"
+    stripped = strip_edition_apparatus(text, fake_filename)
+    assert stripped == "some text with a th e quick brown fox and a 300 elsewhere"
+    assert "300" in stripped  # unrelated content untouched
+    del _EDITION_APPARATUS_CACHE[fake_filename]
+
+
+def test_letterform_apparatus_kind_is_edition_scoped_not_global():
+    """The same OCR pattern on an edition with no matching registry entry
+    is left completely alone - this is a per-EDITION mapping, never a
+    fleet-wide rule (unlike normalize_archaic_letterforms's own long-s/
+    thorn/eth, which IS global)."""
+    text = "some text with a ]) e quick brown fox"
+    assert strip_edition_apparatus(text, "a-different-edition-entirely.txt") == text
+
+
 # `endnote-sequence` is exercised directly here, not through the
 # registry: real-world testing against the actual Palladius file found
 # its own sequence too interleaved with page numbers and chapter numbers
@@ -870,3 +960,30 @@ def test_gate_quote_verbatim_via_run_all_skips_residue_and_finds_nothing_fleet_w
     fleet = load_fleet_records()
     findings = GATES["quote-verbatim"](records, fleet, {})
     assert findings == []
+
+
+def test_the_letterform_normalization_ruling_changes_no_real_fleet_verdict():
+    """Mark's own instruction: confirm no existing quote in the fleet
+    changes verdict unexpectedly, report any that flip. Measured directly
+    (2026-09-25, git worktree diff: origin/main before this ruling vs.
+    this branch after it, every formation-world quote record's own
+    verify_quote_record().verified) - 339 quote records fleet-wide, 332
+    verified both before and after, zero pass->fail flips, zero
+    fail->pass flips to report. No real quote today carries a long s,
+    thorn, or eth at all. The 332/339 split is pinned here as a permanent
+    regression guard against a future change silently breaking a
+    currently-verified quote."""
+    from engine.m1.loader import load_fleet_records, load_world_records
+    from engine.m1.registry import formation_world_keys, load_registry
+
+    registry = load_registry()
+    fleet = load_fleet_records()
+    verdicts: dict[str, bool] = {}
+    for w in formation_world_keys(registry):
+        records = load_world_records(w)
+        for rid, rec in records.items():
+            if rec.get("record_type") != "quote":
+                continue
+            verdicts[rid] = verify_quote_record(rec, records, fleet).verified
+    assert len(verdicts) == 339, f"fleet quote-record count changed ({len(verdicts)}) - re-measure the pinned baseline above"
+    assert sum(verdicts.values()) == 332, f"fleet verified-quote count changed ({sum(verdicts.values())}) - re-measure the pinned baseline above"

@@ -49,6 +49,7 @@ even make a checkable claim," owned once.
 """
 import re
 
+from engine.m1.quote_verbatim import normalize_archaic_letterforms
 from engine.prose import (
     QUOTE_CLOSE,
     QUOTE_OPEN,
@@ -171,6 +172,15 @@ def _quoted_spans(text: str) -> list[str]:
 
 
 def _normalize(text: str) -> str:
+    # Archaic letterforms first (Mark's OCR/normalization ruling,
+    # 2026-09-25 - same mapping engine.m1.quote_verbatim's own verbatim
+    # check applies): otherwise the [^a-z0-9\s] strip below silently
+    # deletes ſ/þ/ð rather than folding them to their modern spelling,
+    # which is a real content loss, not a normalization ("þe" becoming
+    # " e" instead of "the"). Applied to both the quoted span and the
+    # shelf's own record text below, since both call sites route through
+    # this one function - inherently symmetric.
+    text, _classes = normalize_archaic_letterforms(text)
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", text.lower())).strip()
 
 

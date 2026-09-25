@@ -96,6 +96,36 @@ def test_coined_quote_in_curly_marks_is_withheld():
     assert "not found verbatim" in entry["why"]
 
 
+def test_archaic_letterform_in_the_generated_quote_still_matches_a_modern_record():
+    """Mark's 2026-09-25 OCR/normalization ruling, exercised through the
+    real check_turn path, not just _normalize() in isolation: a generated
+    turn quoting with the archaic letterform itself still verifies
+    against a record stored in modern spelling - the shared normalizer
+    m9's own verbatim-in-shelf check uses (_span_in_records -> _normalize)
+    is the same one this whole check runs through."""
+    text = "As it was sung, 'Behold þe might of þe new song! It has made men out of stones, men out of beasts.' [[fix.quote.new-song]]"
+    entry = check_turn(text, REPOSITORY)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
+def test_archaic_letterform_in_the_record_still_matches_a_modern_generated_quote():
+    """The other direction: a record stored WITH the archaic letterform
+    (as a vendored source might carry it) still verifies against a
+    generated quote using modern spelling - genuinely symmetric, not just
+    one-directional tolerance."""
+    archaic_record = {
+        "id": "fix.quote.archaic-thorn",
+        "record_type": "quote",
+        "text": "Behold þe might of þe new song! It has made men out of stones.",
+    }
+    repo = {**REPOSITORY, archaic_record["id"]: archaic_record}
+    text = "As it was sung, 'Behold the might of the new song! It has made men out of stones.' [[fix.quote.archaic-thorn]]"
+    entry = check_turn(text, repo)["sentences"][0]
+    assert entry["verdict"] == "ok"
+    assert "verbatim" in entry["why"]
+
+
 def test_quote_with_no_tag_is_withheld_even_if_verbatim():
     text = "As it was sung, 'Behold the might of the new song! It has made men out of stones, men out of beasts.'"
     result = check_turn(text, REPOSITORY)
