@@ -3,40 +3,50 @@ source_file: john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt
 assignments:
   - work: "Ecclesiastical History, Part III"
     author: john-of-ephesus
-    locus: "whole surviving volume (Book III, and fragments of Books IV-VI via the index); III.36-38 (pp. 229-234) directly verified"
+    locus: "Books I-VI in translation (body headings confirmed at lines 5883, 9233, 12719, 16886, 17506, and before 5883 for Book I); III.36-37 and Book I's Tritheist-controversy material (c. lines 4475-4860) directly verified"
     atlas_ids:
       - syriac-orthodox-west-syriac-christianity
     role: tradition
     confidence: assigned
     note: >
       John's own contemporary account of Justinian- and Justin II-era
-      persecution of the Miaphysite party from the persecuted side, and
-      the only substantial surviving portion of his three-part
-      Ecclesiastical History (Parts I-II survive only in excerpts
-      preserved by others). A primary administrative/political-history
-      counterpart to the Lives' more personal, biographical register.
+      persecution of the Miaphysite party from the persecuted side.
+      Corrected from this file's own Revision 1, which understated this
+      volume's own holdings as "Book III, and fragments of Books IV-VI via
+      the index" - the vendored file in fact carries Books I-VI in
+      translation, confirmed by direct body-heading checks at the line
+      numbers above. This matters substantively: Revision 1's
+      undercounting hid real material from this world's own Doc_01/Doc_02
+      work, specifically:
+      - Book I (c. lines 4475-4860): the Tritheist/Condobaudite
+        controversy - John Ascunages's "one nature, many Godheads"
+        formula, John Philoponus's philosophical defense of it, and a
+        four-day public disputation (John of Ephesus himself a
+        participant) that ended in the Tritheite party's defeat. Real,
+        directly-attested simultaneous internal divergence within the
+        anti-Chalcedonian movement itself - see this world's own Doc_01
+        SS6 for the strand-determination consequences.
+      - Book IV: the later Paulite/Jacobite schism within Jacob
+        Baradaeus's own hierarchy, per this world's own census-sourced
+        documented story and this session's own review pass (not yet
+        independently line-verified by the drafting thread itself as of
+        this note).
+      - Book III.36-37 (not III.38, which opens a different topic):
+        John's own commissioned mission (542 CE) to the pagan hill
+        country of Asia, Caria, Lydia and Phrygia - the Derira temple
+        conversion, imperial funding, the Tralles jurisdiction dispute -
+        directly verified against the file.
 
-      Directly verified against the file (lines 11905-12080): Book
-      III.36-38, John's own commissioned mission (542 CE, under
-      Justinian) to the still-largely pagan hill country of Asia, Caria,
-      Lydia and Phrygia. Confirms: the mountain temple at Derira near
-      Tralles converted into the chief of four new monasteries;
-      twenty-four new churches built in Tralles' territory; imperial
-      funding from Justinian; a jurisdiction dispute with the bishop of
-      Tralles resolved in John's favor by the emperor directly. This is
-      the same John who elsewhere in this world's sources (Lives, ch. 49)
-      is himself a persecuted Miaphysite bishop - the double position the
-      census's own second documented story names directly.
+      The Preface (lines 208-224) states the mission's own "seventy
+      thousand" baptism figure, attributing it not to its own editorial
+      summary but to Part II extracts of John's own work preserved in the
+      Chronicle of Dionysius (per Assemani's Bibliotheca Orientalis, vol.
+      ii) - corrected from this file's own Revision 1, which wrongly
+      called this "the 1860 editor's own summary." The correct next step
+      for locating this figure in John's own words is those Part
+      II/Chronicle-of-Zuqnin fragments (not vendored here), not further
+      searching within this Part III volume.
 
-      The Preface (p. vii, lines 210-224) states the mission's own
-      headline number - "in the space of four years he baptized no less
-      than seventy thousand persons" - and directs the reader to "the
-      230th and following pages" (i.e., this same III.36 passage) for
-      John's own fuller account. This build confirmed the narrative at
-      that locus but did not find the number "seventy thousand" restated
-      within III.36-38 itself as checked; it is the 1860 editor's own
-      summary of John's count, not yet independently pinned to an exact
-      sentence in John's own narrative voice within this volume. Treat
-      as editorially-attested pending a closer pass (it may sit in II.44,
-      which does not survive in this volume, or later in III past the
-      stretch checked here).
+      Also corrected: Revision 1 stated Book II.44 "does not survive in
+      this volume." It does - confirmed around line 9000 ("ninety-nine
+      new churches and twelve monasteries").

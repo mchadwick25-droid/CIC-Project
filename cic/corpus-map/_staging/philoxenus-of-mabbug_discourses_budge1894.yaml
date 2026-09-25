@@ -3,7 +3,7 @@ source_file: philoxenus-of-mabbug_discourses_budge1894.txt
 assignments:
   - work: "The Discourses of Philoxenus"
     author: philoxenus-of-mabbug
-    locus: "whole work (13 discourses, Vol. II translation)"
+    locus: "whole work (13 ascetic Discourses, Vol. II translation) plus the same volume's own Creed, Confession of Faith, and anti-Nestorian/anti-\"two natures\" doctrinal texts (contents page, lines 325-348)"
     atlas_ids:
       - syriac-orthodox-west-syriac-christianity
     role: tradition
@@ -14,9 +14,21 @@ assignments:
       deposed and exiled by Justin I in 519 for that stance - his
       episcopate and his role in the movement sit squarely inside this
       world's own window even though his birth (c. 440) precedes its 451
-      opening. The Discourses themselves are ascetic-spiritual homilies on
-      the monastic life, not Christological polemic - a different genre
-      from his doctrinal letters and florilegia (not vendored here), so a
-      source record citing him for Christological argument specifically
-      should look elsewhere in his corpus, not assume this volume carries
-      it.
+      opening.
+
+      Corrected (this world's Doc_02 Round 2 revision): this note
+      previously stated the Discourses were "ascetic-spiritual homilies...
+      not Christological polemic" and that a source record needing
+      Christological argument "should look elsewhere in his corpus, not
+      assume this volume carries it." That was wrong about the file
+      itself. The SAME vendored volume's own contents page (lines
+      325-348) lists, alongside the thirteen ascetic Discourses: "The
+      Creed of Philoxenus," "A Confession of Faith," "Against Those Who
+      Divide Our Lord," "Against Those Who Maintain Two Natures," "Against
+      Every Nestorian," "Against Nestorius," and "On the Heresies of
+      Mani, Nestorius, and Others" - Philoxenus's own directly
+      Christological/doctrinal writing, bound and translated in this same
+      Budge 1894 Vol. II. Their content has not yet been individually
+      read and quote-verified against the file (a task for whoever next
+      cites them specifically) - only their presence in the vendored
+      file's own contents listing is confirmed as of this note.

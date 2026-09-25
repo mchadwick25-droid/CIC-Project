@@ -7,6 +7,10 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** 451-636 CE
 **Region(s):** Syria, Mesopotamia
 **Dossier author / date:** wsyr library-stage build thread, 2026-09-25
+(Revision 2, following an independent Opus adversarial review of Revision 1
+— `worlds/wsyr/Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md` — that
+corrected several claims in this dossier's own §1 and §3, noted inline
+below)
 **Corpus-map / `cic/texts/` state as of:** this session (2026-09-25) — the
 seven files in Table 1 and the corpus-map assignments in §1 below were
 added by this same session; nothing here predates a checkable commit.
@@ -19,11 +23,11 @@ loci: `worlds/wsyr/Doc_02_Source_Ecology.md` §2 Table A):
 | work | author | role | confidence | approx. scale | source file |
 |---|---|---|---|---|---|
 | Lives of the Eastern Saints | john-of-ephesus | tradition | assigned | 58 chapters, ~1.38 MB OCR | `john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt` |
-| Ecclesiastical History, Part III | john-of-ephesus | tradition | assigned | 1 book + index, ~790 KB OCR | `john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt` |
+| Ecclesiastical History, Part III | john-of-ephesus | tradition | assigned | **Books I-VI in translation** (corrected Revision 2 — a Revision 1 error described this as "1 book + index" and hid real Tritheist-controversy and Paulite-schism material as a result), ~790 KB OCR | `john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt` |
 | Select Letters, Book VI (Parts I-II) | severus-of-antioch | tradition | assigned | 123 letters, ~785 KB OCR combined | `severus-of-antioch_select-letters-book6-part1_brooks1903.txt`, `...part2_brooks1904.txt` |
-| The Discourses of Philoxenus | philoxenus-of-mabbug | tradition | assigned | 13 discourses, ~1.3 MB OCR | `philoxenus-of-mabbug_discourses_budge1894.txt` |
+| The Discourses of Philoxenus, **plus the same volume's own Creed, Confession of Faith, and anti-Nestorian doctrinal texts** (corrected Revision 2 — Revision 1 described this volume as ascetic-only) | philoxenus-of-mabbug | tradition | assigned | 13 discourses + several doctrinal texts, ~1.3 MB OCR | `philoxenus-of-mabbug_discourses_budge1894.txt` |
 | The Chronicle of Joshua the Stylite | joshua-the-stylite | context (open, see below) | provisional | 1 chronicle, ~316 KB OCR | `joshua-the-stylite_chronicle_wright1882.txt` |
-| The Syriac Chronicle known as that of Zachariah of Mitylene | pseudo-zachariah-rhetor | tradition (open, see below) | provisional | 1 compilation, ~718 KB OCR | `zachariah-rhetor_chronicle_hamiltonbrooks1899.txt` |
+| The Syriac Chronicle known as that of Zachariah of Mitylene (**Books III-VI: own-voice, Severus-sympathetic material — corrected Revision 2, reversed from a Revision 1 finding that wrongly called this material Chalcedonian/opponent-voice; Books I-II, VII-XII: unassessed continuator material**) | pseudo-zachariah-rhetor | tradition (open, see below) | provisional | 1 compilation, ~718 KB OCR | `zachariah-rhetor_chronicle_hamiltonbrooks1899.txt` |
 
 **Already in the bucket before this session** (inherited, reviewed at
 Doc_02 §2 Table B, not recreated):
@@ -72,7 +76,7 @@ confirmed against its actual host this session (archive.org, via its own
 | title | author | translator | year | url | rights basis | verified by (method + date) |
 |---|---|---|---|---|---|---|
 | The Sixth Book of the Select Letters of Severus of Antioch, Vol. I (Syriac text) | Severus of Antioch | E. W. Brooks (editor) | 1902 (per the parallel translation volumes' own dating) | https://archive.org/details/selectlettersse00broogoog (and sibling scans — several duplicate archive.org items exist for this volume, not yet disambiguated) | pd-us-by-date | Located via archive.org search, 2026-09-25; metadata fetched, NOT downloaded or vendored this session (original-language Syriac text, lower priority than the translation volumes already vendored — see `cic/texts/INTAKE.md` §"original-language texts" for why this is a real, not merely optional, acquisition path if a future session wants Severus's own Syriac text as primary evidence rather than only in English translation) |
-| Zacharias Scholasticus, *Life of Severus* (Vie de Sévère) | Zacharias Scholasticus of Gaza | M.-A. Kugener (French) | 1907, Patrologia Orientalis 2 | not checked against a specific archive.org identifier this session | pd-us-by-date (likely, not independently confirmed) | Named in the Brooks 1903 Select Letters introduction itself (line ~15 of `severus-of-antioch_select-letters-book6-part1_brooks1903.txt`: "Our knowledge of the early life of Severus is mainly drawn from the biography of him by his friend Zacharias the Scholastic of Gaza... translated into French by M. Nau") as the primary biographical source for Severus's own early life. A real, named, not-yet-verified acquisition lead — Mark should independently confirm the archive.org/PO-volume identifier before this is treated as a cleared lead. |
+| Zacharias Scholasticus, *Life of Severus* (Vie de Sévère) | Zacharias Scholasticus of Gaza | **Corrected Revision 2, uncertain — not confirmed as Kugener.** The Brooks 1903 introduction itself names "M. Nau" as the French translator; a separate Kugener translation of the same Life (Patrologia Orientalis 2, 1907) is also real and well known in the scholarship, but Revision 1 of this dossier wrongly presented the Brooks quote as supporting the Kugener edition specifically. Not disambiguated this session — either or both may be real, independent translations. | Nau: not independently checked. Kugener/PO 2: 1907 | not checked against a specific archive.org identifier for either translator this session | pd-us-by-date (likely, not independently confirmed for either) | Named in the Brooks 1903 introduction as the primary biographical source for Severus's own early life. A real, named, not-yet-verified acquisition lead — Mark should independently confirm which translator/edition and its archive.org identifier before this is treated as a cleared lead. |
 | Severus of Antioch, Cathedral Homilies (selections) | Severus of Antioch | Maurice Brière (French, Patrologia Orientalis, various volumes) | early-to-mid 20th c. | not checked this session | pd-us-by-date (likely for the earliest volumes; needs per-volume date check) | Named here as a real target for Severus's own doctrinal voice (Doc_02 §11 item 8's own gap), not independently verified this session — French translation, not English, which the project's own intake rule (`INTAKE.md`) treats as acceptable primary evidence but a harder verification task for an English-reading build thread. |
 
 ## 4. Checked and closed
@@ -94,7 +98,17 @@ confirmed against its actual host this session (archive.org, via its own
 - **The Chronicle of Joshua the Stylite's own role** (newly assigned this
   session, `context` at `provisional`): the chronicler's own confessional
   allegiance was not established either way this session (Doc_02 §2, §8).
-  A genuinely open characterization question, not a sourcing gap.
+  A genuinely open characterization question, not a sourcing gap. A new
+  lead, Revision 2: the chronicler praises Flavian II of Antioch (line
+  3895 of the vendored file) — the Chalcedonian patriarch Severus replaced
+  in 512 — which may bear on this question; not yet pursued to a
+  conclusion.
+- **The Zachariah Rhetor compilation's own continuator material** (Books
+  I-II, VII-XII, assembled c. 569 by a writer distinct from Zacharias
+  Scholasticus): unassessed for own-voice/opponent-voice status. Books
+  III-VI, Zacharias's own material, were corrected this revision to
+  own-voice/Severus-sympathetic (see §1 above) — the continuator books
+  remain a genuinely open task, not decided by this dossier.
 - **Whether this world and a not-yet-built Egyptian miaphysite world
   should share any corpus-map entries** (e.g., a future vendored Cyril of
   Alexandria doctrinal text, since Severus's own Christology explicitly

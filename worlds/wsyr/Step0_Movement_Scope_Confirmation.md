@@ -1,10 +1,14 @@
 # Step 0 — Movement-Scope Confirmation: Syriac Orthodox (West Syriac) Christianity
 
-**Status:** DRAFT, Revision 1. Prepared as the first step of the library stage
+**Status:** DRAFT, Revision 2. Prepared as the first step of the library stage
 (Steps 0-2) for **syriac-orthodox-west-syriac-christianity** (census Atlas ID
 II.2), commissioned directly by the project lead on 2026-09-25 ("world batch
 c") as "the first miaphysite-family world, and Syriac after Chalcedon," era
-3, 451-636 CE, Syria/Mesopotamia. Not yet independently reviewed. **World
+3, 451-636 CE, Syria/Mesopotamia. Revision 2 follows an independent Opus
+adversarial review of Revision 1
+(`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
+REVISION REQUIRED) and corrects every finding that review confirmed against
+the vendored primary sources directly. Not yet re-reviewed. **World
 file-code proposed:** `wsyr` (parallels `syr`'s own code; no collision found
 against any existing registry code, census id, or corpus-map bucket name).
 
@@ -75,39 +79,84 @@ correct formula for saying the same substantive thing** — full divinity,
 full humanity, united without confusion or division in one person — not over
 whether Christ was fully divine, fully human, or genuinely incarnate.
 
-Every one of Article 4's five commitments is affirmed, in its plain
-historical sense, by Severus's own Christology and by the movement's own
-liturgical and confessional life across this world's whole window: full
-Trinitarian faith (miaphysite theology is not itself in dispute on this
-point — the Chalcedon schism is Christological, not Trinitarian); Christ's
-full, ontological divinity (explicitly, against Eutychian dilution of it);
-Christ's full, genuine humanity (explicitly, against any reading that would
-make the incarnation merely apparent); the death, resurrection and ascension
-(unchallenged by either side of 451); and full Trinitarian worship of the
-Spirit. — **Confidence: Widely Accepted** that this is the correct
-characterization of the historical dispute (Frend 1972; the wider modern
-Christological-reconciliation scholarship, including the 1990s-2000s
-Oriental Orthodox/Eastern Orthodox joint theological commissions, converges
-on describing the historical schism as substantially formulaic rather than
-doctrinal in content — though this document notes, rather than adjudicates,
-that this convergence is itself a modern ecumenical achievement, not
-something either fifth- or sixth-century side would have stated about the
-other).
+**Two separate claims need to be kept apart here, corrected from Revision 1,
+which ran them together under one overstated confidence tag.**
 
-**A working-vocabulary note, carried forward to Doc_01/Doc_02.** "Monophysite"
-(from *monos*, alone/single) is the older, and now widely regarded as
-polemical and inaccurate, label for this movement — it implies exactly the
-Eutychian collapsing-of-natures error Severus himself rejected. "Miaphysite"
-(from *mia*, one/united) is the term modern scholarship uses to name
-Severus's actual position accurately. Neither term is this tradition's own
-historical self-designation; per the task's own floor instruction, this
-build uses the tradition's own name for itself wherever one is directly
-attested, and treats "miaphysite" as the correct *scholarly* descriptor
-where a technical Christological label is unavoidable. — **Confidence:
-Documented** that "miaphysite" is the term of art in current scholarship;
-**flagged for Doc_01/Doc_02** to locate and verify this tradition's own
-attested self-designation(s) in the vendored primary sources, rather than
-assuming a single settled emic term exists.
+**Claim one — that the movement affirmed all five commitments, and
+condemned the errors Article 4 would exclude, by name, in its own words:**
+this is directly attested in the vendored primary sources and is
+**Documented**, not merely inferred from a general characterization of the
+dispute. Severus's own vendored correspondence (Select Letters, Book VI,
+Letter I.1) anathematizes Eutyches by name and rejects any reading of
+Christ's humanity as diminished or absorbed; the same vendored volume of
+Philoxenus of Mabbug (Budge 1894) contains his own "Creed," "Confession of
+Faith," and direct polemic "Against Nestorius" and "Against Every
+Nestorian" — a second native voice independently affirming full,
+un-diminished humanity and divinity against both errors Article 4's own
+five commitments guard against.
+
+**Claim two — that the historical dispute with Chalcedon was
+"substantially formulaic," a disagreement over which technical phrase
+correctly states a claim both sides read the same way:** this is a real
+position in the modern scholarship (associated with Joseph Lebon's
+"verbal monophysitism" thesis, and with the 1989-1990 Vienna agreed
+statements between Oriental Orthodox and Eastern Orthodox theologians, and
+the 1984 Syriac Orthodox-Catholic common declaration) — but it is
+**Contested, not Widely Accepted**, and this document's own review found
+that Revision 1 overstated it. Severus's own vendored letters do not read
+as though he believed Chalcedon's language was harmlessly equivalent to
+his own: Letter I.1 calls Chalcedon's doctrine and Leo's Tome "the life
+blood of the abomination of Nestorius," and Severus explicitly rejects the
+position that accepting Chalcedon amounts to nothing more than a rejection
+of Nestorius and Eutyches — he treated "two natures after the union" as
+functionally Nestorian, not as a difference of emphasis. This document
+does not adopt "substantially formulaic" as its own settled finding;
+it states plainly that this is a modern ecumenical and scholarly judgment
+some serious historians hold and Severus's own fifth/sixth-century
+argument, read on its own terms, resists.
+
+**What this means for the floor test:** claim one is what A1 actually
+requires, and it is solidly established directly from this world's own
+vendored primary sources. Claim two is not required for the floor to clear
+— A1 asks whether the movement's own plain confession affirms Article 4's
+five commitments, not whether its historical dispute with a rival
+reading was substantively empty. The floor clears on claim one alone,
+independent of how claim two is eventually assessed.
+
+**A further complication, not visible until the vendored sources were read
+directly: the movement was not doctrinally uniform even on its own side of
+451.** The vendored Ecclesiastical History, Part III (Book I) documents a
+real internal Tritheist/Condobaudite controversy — a faction, associated
+with John Ascunages and later defended philosophically by John Philoponus,
+that pressed the movement's own "one nature" language toward a
+count-the-persons reading the movement's own mainstream (including John of
+Ephesus himself, a direct participant in a four-day public disputation
+against it) rejected as tending toward three Gods. A separate Julianist
+faction (holding Christ's body was incorruptible from the moment of union)
+was also active within the anti-Chalcedonian camp in this period. Neither
+faction's own theology is being scope-tested here — the movement-level
+floor clears independent of them — but their existence means "the
+movement" cannot be treated as a single undifferentiated voice even on
+Trinitarian/Christological questions internal to its own side of the
+Chalcedon divide; see Doc_01 §6 for the strand-determination consequences.
+
+**A working-vocabulary note, resolved by Doc_02 (corrected from Revision
+1's own flag).** "Monophysite" (from *monos*, alone/single) is the older,
+and now widely regarded as polemical and inaccurate, label for this
+movement — it implies exactly the Eutychian collapsing-of-natures error
+Severus himself rejected. "Miaphysite" (from *mia*, one/united) is the
+term modern scholarship uses to name Severus's actual position accurately,
+but it is not this tradition's own historical self-designation either.
+Doc_02's own direct check of the vendored primary sources found the
+tradition's own attested self-designation: **"the orthodox"/"the party of
+the believers"** (Greek *ὀρθόδοξοι*), used repeatedly in John of Ephesus's
+own narrative voice across both vendored works — the same self-designation,
+naturally enough, either side of a schism over which formula is truly
+Nicene-orthodox might use for itself. "Miaphysite" remains this document's
+own working *scholarly* descriptor for the technical Christological
+position; "the orthodox"/"the party of the believers" is used where this
+tradition's own emic voice is being represented. — **Confidence:
+Documented**, corrected from Revision 1's Inferential-Thin flag.
 
 **A2 (pre-Nicene continuity test).** Not applicable — this movement's whole
 window (451-636) postdates Nicaea (325) and Constantinople (381) by decades
@@ -132,16 +181,15 @@ naming explicitly:
   per `worlds/_cross-world/NEEDS-RULING.md`: a Chalcedonian chronicler
   documenting this world's ground "from the rival side of 451").
 - Per Article 21, whether this movement is strand-singular or strand-plural
-  is a Doc_01 question, not resolved here. A preliminary read: the
-  movement's own voices span a working theologian-in-exile (Severus), an
-  itinerant consecrating bishop (Jacob Baradaeus/"James"), a
-  historian-missionary who was also an imperial agent (John of Ephesus),
-  and Arab federate royal patronage (the Ghassanids) — several distinct
-  social roles, but inside what reads, on this first pass, as one coherent
-  authority structure and one shared theological identity, closer to how
-  Imperial and Juridical Christianity's several figures were found
-  strand-singular than to a genuinely plural case. Doc_01 should test this
-  properly, not inherit this preliminary read as settled.
+  is a Doc_01 question, not resolved here. **Revision 1's preliminary read
+  (strand-singular, on a sequential-phases argument) did not survive
+  Doc_01's own review: it used the wrong Article 21 test (sequential
+  phases are an Article 15 world-merge finding, not a strand test) and
+  missed real, directly-attested simultaneous internal divergence — a
+  Tritheist controversy and a later Paulite/Jacobite schism, both
+  documented in the vendored Ecclesiastical History.** Doc_01 §6 now
+  leaves the strand determination genuinely open rather than asserting a
+  preliminary finding; this document does not restate a disposition here.
 - Per Article 20, thin coverage of ordinary lay believers, of women's own
   voices specifically, and of village-level (as opposed to elite monastic
   and episcopal) religious life is a named limitation of this world's own
@@ -156,18 +204,24 @@ needed.**
 ## 2. Section B — characterization (not a phase-level tiering exercise; see
 S0 above)
 
-**B1 — Sourcing.** Moderate-to-rich, asymmetric in the direction Article 20
-itself names. Strongest asset: John of Ephesus's *Lives of the Eastern
-Saints*, fifty-eight portraits by an insider who personally knew many of his
-subjects — genuinely unusual inside-voice material for this period, now
-vendored and spot-verified against the actual file (see Doc_02). Severus of
-Antioch's own administrative correspondence (Select Letters, Book VI) is
-real working-patriarch material, not secondhand report. Weakest: no directly
-attested first-person text from an ordinary lay believer, a village
-congregation, or (with the partial exception of what Theodora's patrons
-report about her) a woman's own voice. — **Confidence: Widely Accepted**
-that this sourcing profile is asymmetric in the standard way for this
-period; the specific inventory is Doc_02's job, not asserted further here.
+**B1 — Sourcing.** Richer than Revision 1 characterized it. Strongest
+asset: John of Ephesus's *Lives of the Eastern Saints* and *Ecclesiastical
+History*, both now confirmed (Doc_02) to carry not only persecution
+narrative and personal portraiture but real internal-controversy material
+(the Tritheist and Paulite disputes) — genuinely unusual inside-voice
+material for this period. Severus of Antioch's Select Letters and
+Philoxenus of Mabbug's own Creed, Confession, and anti-Nestorian polemic
+(both in the same vendored Philoxenus volume) together give this world two
+independent native doctrinal voices, corrected from Revision 1's
+characterization of the doctrinal sourcing as administrative-only. Weakest:
+no directly attested first-person text from an ordinary lay believer, a
+village congregation, or a woman's own words — corrected from Revision 1's
+"patrons report about her" framing: women appear as subjects of substantial
+third-person narrative material (whole chapters in the Lives), not only as
+patrons reported on by others, but still not as first-person speakers in
+anything vendored this session (see Doc_02 §7). — **Confidence: Widely
+Accepted** that this sourcing profile is asymmetric in the standard way for
+this period; the specific inventory is Doc_02's job.
 
 **B2 — Ecology.** On a first pass, this candidate plausibly supports most of
 the eight co-equal analytical lenses: theological/doctrinal (rich —
@@ -194,16 +248,22 @@ church structure emerges (per `syr`'s own Doc_01 §2); this candidate is a
 formation defined *by* sustained, existential institutional crisis — a
 communion with, for long stretches, no legal right to exist at all. Relative
 to the deferred Cyrilline/Miaphysite Egyptian candidate (named but not built
-in Phase One's own conclusion), the two share a theological family but
-differ in political geography and structural position: Egypt's
-miaphysite church held its own ancient patriarchal throne (Alexandria) and,
-after 451, a largely self-governing territorial base; Syria's had no
-patriarchal seat of its own inside the empire once Severus was driven from
-Antioch in 518, and depended on a foreign-federate (Ghassanid) and
-court-patron (Theodora) support structure Egypt's did not need in the same
-way. This is a real, substantive structural difference, not merely a
-different map location — worth Doc_01 developing properly if and when an
-Egyptian miaphysite world is ever built alongside this one.
+in Phase One's own conclusion), the two share a theological family, and the
+structural contrast is narrower than Revision 1 drew it — corrected here.
+Egypt's own miaphysite patriarch, Theodosius of Alexandria, was himself
+exiled and held at Constantinople under Theodora's own protection from
+536/7 for roughly thirty years (per the vendored Lives), the same kind of
+court-dependent arrangement this world's own hierarchy relied on — Egypt's
+situation was not simply "self-governing" in this period. The real,
+narrower structural difference: Syria's own miaphysite patriarchal
+succession at Antioch, after Severus's 518 exile, continued as an
+unrecognized parallel line (Sergius of Tella, Paul, and later Peter of
+Callinicum and Athanasius Gamolo, into the 630s) rather than as a
+recognized, possessed see — a difference in legal possession of the
+throne, not in whether a patriarchal succession existed at all. This is
+still worth Doc_01 developing properly if and when an Egyptian miaphysite
+world is built, but the contrast is about possession and recognition, not
+about whether Syria had any patriarchal structure.
 
 **B4 — User needs / audience fit.** Honestly noted, not maximized: this
 candidate offers a genuinely distinctive case study in how a community
@@ -252,15 +312,22 @@ or corpus-map bucket filename.
 ## 5. Section A/B disposition and next step
 
 **Disposition: clears Section A (the eligibility floor) directly via A1, no
-waiver needed. Section B characterization supports proceeding.** This
-document recommends Doc_01 (World Identification, Boundaries, Orientation)
-proceed on that basis, carrying forward, as named open items rather than
-resolved questions: the strand-singular/strand-plural determination
-(Article 21, §1 above), this tradition's own attested self-designation(s)
-(§1 above), the Chronicle of Edessa placement question inherited from
+waiver needed, on the corrected two-claim basis in §1 above. Section B
+characterization supports proceeding.** This document recommends Doc_01
+(World Identification, Boundaries, Orientation) proceed on that basis,
+carrying forward, as named open items rather than resolved questions: the
+strand-singular/strand-plural determination (Article 21, §1 above — now
+genuinely open per Doc_01 §6, not a preliminary finding), the Tritheist and
+Julianist internal factions as boundary/strand cases (§1 above), the
+Chronicle of Edessa placement question inherited from
 `worlds/_cross-world/NEEDS-RULING.md`, and the absence of a completed Phase
 Two portfolio survey (§0 above, named for the project lead's own awareness,
 not something this document asks to be resolved before Doc_01 begins).
+This tradition's own attested self-designation, flagged open in Revision 1,
+is resolved (§1 above).
 
-Not yet independently reviewed. Per `cic-build-cycle`, this document is
-drafted (not yet disposed of) until an adversarial review round clears it.
+**Revision 2, not yet independently re-reviewed.** Revision 1 was reviewed
+(`Review-Artifacts/Step0_Doc01_Doc02_Round1_Review.md`, verdict SUBSTANTIAL
+REVISION REQUIRED); this revision corrects every finding that review
+confirmed. Per `cic-build-cycle`, this document remains drafted, not
+disposed of, until a review round clears it.
