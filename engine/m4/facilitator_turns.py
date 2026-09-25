@@ -392,12 +392,10 @@ VOICE_REJECTED = FacilitatorTurn(
 
 
 def voice_rejected_turn(representative_name: str) -> dict:
-    """R27 build item 5's own interview-mode fallback: the interview-mode
-    analog of table_seat_correction_turn above, for the one case
-    engine.m4.turn's seat-identity guard never covers in interview mode -
-    a generated voice turn that hard-failed R27's own paragraph-unit
-    check (wholly_uncited_paragraph or neighbour_named), survived one
-    named regeneration, and still hard-failed
+    """The interview-mode analog of table_seat_correction_turn above, for
+    a generated voice turn that hard-fails the uncited-claims enforcement
+    paragraph-unit check (wholly_uncited_paragraph or neighbour_named),
+    survives one named regeneration, and still hard-fails
     (voice_event["r27_enforcement_exhausted"] is True; that turn's own
     text is deliberately empty, same convention seat_identity_guard_
     exhausted already sets). Interview mode has no other seats to "bring
@@ -414,18 +412,17 @@ def bridge_turn(terms: list[dict], fleet: dict[str, dict] | None = None) -> tupl
     (Program-Spec SS77). Both strings come from the fleet's own modern_term
     record - this function composes nothing.
 
-    fleet (OG-13, worlds/pahc/Open_Gaps_Tracking.md): resolves each fired
-    term's own citation_cards.resolve_source_card - modern_sense, sources,
-    and (a modern_term's own extra field) distinguishing_claim, exactly the
-    same card shape every other cited record already gets - so a caller has
-    something to show as a real, sourced card, not only the prose sentence
-    above. `fleet` is the same dict every caller already has in scope
-    (load_fleet_records()), passed through rather than reloaded here, since
-    a modern_term's own sources[] point at fleet source records
-    (_fleet.source.*), not this world's own repository. Optional and
-    additive: omitting it (every existing caller before this) leaves
-    facilitator_event["modern_terms"] as [] rather than failing - the
-    prose sentence alone is still a complete, correct bridge turn."""
+    fleet resolves each fired term's own citation_cards.resolve_source_card
+    - modern_sense, sources, and (a modern_term's own extra field)
+    distinguishing_claim, exactly the same card shape every other cited
+    record already gets - so a caller has something to show as a real,
+    sourced card, not only the prose sentence above. `fleet` is the same
+    dict every caller already has in scope (load_fleet_records()), passed
+    through rather than reloaded here, since a modern_term's own sources[]
+    point at fleet source records (_fleet.source.*), not this world's own
+    repository. Optional: a caller may omit it, leaving
+    facilitator_event["modern_terms"] as [] - the prose sentence alone is
+    still a complete, correct bridge turn."""
     if not terms:
         raise ValueError("bridge_turn called with no modern_term records - routing only reaches it when a term fired")
     senses = " ".join(t["modern_sense"].strip() for t in terms if t.get("modern_sense"))

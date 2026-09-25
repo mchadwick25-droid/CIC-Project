@@ -304,9 +304,9 @@ def test_a_bridge_turn_hands_the_voice_the_subject_not_the_modern_word():
     facilitator = result.facilitator_events[0]
     assert facilitator["kind"] == "bridge"
     assert fleet[term_id]["modern_sense"] in facilitator["text"]
-    # OG-13 (worlds/pahc/Open_Gaps_Tracking.md): modern_sense now also
-    # rides as its own sourced card, the same shape every other cited
-    # record gets - not only baked into the prose sentence above.
+    # modern_sense also rides as its own sourced card, the same shape
+    # every other cited record gets, not only baked into the prose
+    # sentence above.
     [card] = facilitator["modern_terms"]
     assert card["record_id"] == term_id
     assert card["modern_sense"] == fleet[term_id]["modern_sense"]

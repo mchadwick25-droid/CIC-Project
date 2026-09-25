@@ -1397,11 +1397,12 @@ def run_turn(
         ]
         facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired, fleet)
         # WHAT ELSE THE PARTICIPANT ASKED. The bridge route carries no
-        # directive of its own (engine.m5.routing), so a message that asked
-        # two things - one carrying the modern word, one not - used to reach
-        # the voice as the underlying subject alone, and the second ask was
-        # simply gone. Barring the word is the rule; barring the rest of the
-        # sentence was never part of it. The fired records' own display_terms
+        # directive of its own (engine.m5.routing), so a message that asks
+        # two things - one carrying the modern word, one not - must still
+        # carry the second ask to the voice alongside the underlying
+        # subject, not the underlying subject alone. Barring the word is
+        # the rule; barring the rest of the sentence is not. The fired
+        # records' own display_terms
         # are what gets barred, all of them, not just the spelling that
         # happened to match - so an ask carrying a different inflection of
         # the same term is still kept away from the voice.

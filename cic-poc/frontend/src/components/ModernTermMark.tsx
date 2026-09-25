@@ -19,9 +19,9 @@ interface ModernTermMarkProps {
 export function ModernTermMark({ card }: ModernTermMarkProps) {
   return (
     <InlineBridge
-      label=" ✲"
+      label=" ≈"
       markClassName="citation-mark modern-term-mark"
-      ariaLabel="What this modern word means here"
+      ariaLabel={`What "${card.label}" means here`}
       level2={
         <div className="modern-term-mark__entry">
           <p className="modern-term-mark__title">{card.label}</p>
@@ -29,7 +29,7 @@ export function ModernTermMark({ card }: ModernTermMarkProps) {
           {card.distinguishing_claim && <p className="modern-term-mark__distinguishing">{card.distinguishing_claim}</p>}
         </div>
       }
-      level3Title="What this modern word means here"
+      level3Title={`What "${card.label}" means here`}
       level3={
         <div className="turn__sources-card">
           <p className="turn__sources-label">{card.label}</p>

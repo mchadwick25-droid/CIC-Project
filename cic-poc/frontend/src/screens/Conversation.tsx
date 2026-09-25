@@ -64,7 +64,7 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
                 {facilitatorParagraphs(turn.text).map((paragraph, j) => (
                   <p key={j}>
                     {paragraph}
-                    {j === 0 && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
+                    {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
                   </p>
                 ))}
               </div>

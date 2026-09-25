@@ -133,9 +133,15 @@ def _printable(value) -> bool:
 
 
 def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> dict | None:
-    """None only when record_id isn't in this world's repository at all -
-    every real citation's record_id already resolves, since citations are
-    only ever emitted against ids the grounding net verified exist there.
+    """None when record_id isn't in this world's repository at all - every
+    real citation's record_id already resolves, since citations are only
+    ever emitted against ids the grounding net verified exist there - or
+    when a modern_term record carries no display_terms, since its label
+    has nothing to fall back to but the bare record id (_label's own
+    generic id fallback exists for every OTHER record_type because a raw
+    id is still a real, if unlabeled, reference to look up; a modern
+    term's own id is internal build vocabulary no participant should ever
+    see, so no card is shown at all rather than one carrying it).
 
     A real source_id, even a dangling one that fails to resolve in this
     repository, still leaves the renderer the id itself to print (its own
@@ -154,6 +160,8 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     nothing to print is not a source, so it never leaves this function."""
     record = repository_records.get(record_id)
     if record is None:
+        return None
+    if record.get("record_type") == "modern_term" and not record.get("display_terms"):
         return None
     sources = []
     for entry in record.get("sources") or []:
@@ -180,12 +188,11 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
         card["original_wording"] = record.get("text")
         card["spoken_rendering"] = record.get("modern_rendering")
     if record.get("record_type") == "modern_term":
-        # OG-13 (worlds/pahc/Open_Gaps_Tracking.md): modern_sense was read
-        # only by facilitator_turns.bridge_turn, to compose its own spoken
-        # sentence - never attached anywhere a participant could see it as
-        # its own sourced card. Carried here the same way a quote's own
-        # modern_rendering is: verbatim, additive, never composed by this
-        # function.
+        # Carried onto the card the same way a quote's own modern_rendering
+        # is above: verbatim, additive, never composed by this function -
+        # so a participant can see the term's own sense and nuance as a
+        # real, sourced card, not only hear it inside the Facilitator's
+        # composed bridge sentence.
         card["modern_sense"] = record.get("modern_sense")
         card["distinguishing_claim"] = record.get("distinguishing_claim")
     return card

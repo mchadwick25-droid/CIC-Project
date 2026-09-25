@@ -138,6 +138,16 @@ _CITATION_LABEL_READS = {
     "figure": ["names"],
     "quote": ["speaker_or_author", "sources"],
     "source": ["work"],
+    "modern_term": ["display_terms"],
+}
+
+# Hand-verified against engine/m4/citation_cards.py's resolve_source_card
+# modern_term-only enrichment (OG-13, worlds/pahc/Open_Gaps_Tracking.md) -
+# carried onto the card verbatim, not derived through _LABEL_FIELDS, so
+# tracked as its own read-site rather than folded into the label reads
+# above.
+_MODERN_TERM_CARD_READS = {
+    "modern_term": ["modern_sense", "distinguishing_claim"],
 }
 
 
@@ -155,6 +165,10 @@ def test_head_text_reads_are_all_declared():
 
 def test_citation_label_reads_are_all_declared():
     _assert_all_declared("citation_cards label helpers", _CITATION_LABEL_READS)
+
+
+def test_modern_term_card_reads_are_all_declared():
+    _assert_all_declared("citation_cards.resolve_source_card modern_term enrichment", _MODERN_TERM_CARD_READS)
 
 
 def test_fields_with_role_filters_correctly():

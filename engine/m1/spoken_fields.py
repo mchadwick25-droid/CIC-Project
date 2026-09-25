@@ -130,6 +130,11 @@ SPOKEN_FIELDS: dict[str, dict[str, SpokenField]] = {
     "ambient": {
         "detail": SpokenField("voice-diet", "_chunk_text only"),
     },
+    "modern_term": {
+        "display_terms": SpokenField("participant-label", "citation-card label (comma-joined) via citation_cards._LABEL_FIELDS"),
+        "modern_sense": SpokenField("voice-diet", "spoken verbatim by facilitator_turns.bridge_turn's own composed text; also carried on the citation card"),
+        "distinguishing_claim": SpokenField("participant-label", "citation card only, via citation_cards.resolve_source_card"),
+    },
 }
 
 

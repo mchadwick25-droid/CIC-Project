@@ -240,9 +240,9 @@ def test_bridge_round_speaks_sense_and_updates_gate_directive():
     opening = _open(gate_run, anachronistic_term_ids={term_id})
     assert opening.voices_speak
     assert opening.facilitator_events[0]["kind"] == "bridge"
-    # OG-13: the table route resolves the same modern_terms card(s) the
-    # interview route does (engine.m4.turn's own bridge branch) - both
-    # call facilitator_turns.bridge_turn with the fleet dict now.
+    # The table route resolves the same modern_terms card(s) the interview
+    # route does (engine.m4.turn's own bridge branch) - both call
+    # facilitator_turns.bridge_turn with the fleet dict.
     [card] = opening.facilitator_events[0]["modern_terms"]
     assert card["record_id"] == term_id
     # The gate payload's directive was updated in place, so the caller logs
