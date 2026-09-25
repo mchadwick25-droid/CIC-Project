@@ -647,14 +647,15 @@ V1.6 (its heading read "V1.6 (2026-09-23)"). The converged Build Process addendu
 file to match.
 
 **Action.** `git mv` to `reference/method/CiC_Record_Native_World_Build_Process_V1.7.md`,
-heading set to "V1.7 (2026-09-24)". Inbound citations rewritten in the same commit:
+heading set to "V1.7 (2026-09-25)". Inbound citations rewritten in the same commit:
 `reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md` (2),
 `reference/L3B-World-Build-Methodology/Representative_Permanent_Prompt_Template.txt` (1),
 `tools/check_paths_baseline.txt` (the file's own entries re-keyed).
 
 **Left citing the old name, on purpose:**
 - `worlds/` (14 files — cappadocian, gallic, pahc, witt build notes and review rounds):
-  the addendum's scope excludes `worlds/`. Baselined in `tools/check_paths_baseline.txt`
+  left per CLAUDE.md's doc-hygiene default (flag content that isn't this thread's own,
+  don't touch it). Baselined in `tools/check_paths_baseline.txt`
   for the owning world threads.
 - `engine/m1/sentence_completeness.py` and `engine/m1/embedded_quotations.py` docstrings
   (1 each): `engine/` is out of this change's scope. Not scanned by `check_paths.py` (Markdown only).

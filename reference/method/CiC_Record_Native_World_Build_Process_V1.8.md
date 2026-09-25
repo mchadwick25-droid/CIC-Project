@@ -588,9 +588,7 @@ that passes the grounding check and has no `claim_guards` entry covering
 it. A person decides which get a guard (the budget note under "guards
 and redirects" above applies). The same list feeds Phase D's
 fabrication-press probe, aimed at the Ecology Assessment's thinnest
-evidence. This step applies once
-`engine/m4/reports/grounding_fooling_measure.py` supports a world
-argument.
+evidence.
 
 **The re-proof rule (FLAG-037, fleet-level):** any prompt fix proven in an
 isolated harness MUST be re-proven under the deployed runtime (RAG +
