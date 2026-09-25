@@ -81,6 +81,8 @@ relations:
   target: gallic.figure.sulpitius
 - type: associated-with
   target: gallic.quote.martin-refuses-the-donative
+- type: associated-with
+  target: gallic.gravity.soldier-of-christ
 ---
 Verified against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, same chapter div
 `id="ii.ii.v"` (line 819) as gallic.quote.martin-refuses-the-donative. `grep -n "thrust back into

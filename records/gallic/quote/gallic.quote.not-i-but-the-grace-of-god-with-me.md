@@ -48,6 +48,8 @@ modern_rendering: >-
 relations:
 - type: associated-with
   target: gallic.gravity.grace-and-effort
+- type: associated-with
+  target: gallic.force.received-programs-logic
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n
 "Not I, but the grace of God"` returns line 25041; `grep -n "worketh in us both to will"` returns
