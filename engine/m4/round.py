@@ -213,10 +213,9 @@ def open_table_round(
 
     if action == "safety_turn":
         # Track B non-acute: a dependency dynamic, not a crisis - no
-        # resources and no session freeze, same as the interview. Governed
-        # (Program-Spec SS8, amendment 2026-09-20): the voices are silenced
-        # here exactly as at is_acute_crisis above, not kept speaking
-        # alongside the check the way this branch used to.
+        # resources and no session freeze, same as the interview
+        # (Program-Spec SS8). The voices are silenced here exactly as at
+        # is_acute_crisis above, not kept speaking alongside the check.
         return RoundOpening(
             routing_action=action,
             **common,

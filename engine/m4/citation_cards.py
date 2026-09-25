@@ -17,12 +17,10 @@ Report only, same discipline as everything else in this package: a
 record with no sources[] resolves to an empty list, never a fabricated
 one.
 
-Label resolution (cross-world transparency audit, 2026-08-26): every
-citable record_type gets a real, participant-readable label - before
-this, five record_types (gravity, force, contested_claim,
-doctrinal_witness, honest_limit) had no entry at all here and fell
-through to the bare record id, in every world, for every General
-Reference of those types. And `quote`'s own label printed
+Every citable record_type gets a real, participant-readable label: every
+entry in `_LABEL_FIELDS` below resolves to one, so no General Reference of
+any type falls through to the bare record id in any world. And `quote`'s
+own label printed
 speaker_or_author raw, which the corpus stores two ways (a figure
 record id, or already-readable prose) - a participant saw a real name
 on a world whose quotes happened to be authored as prose, and a
@@ -148,9 +146,9 @@ def resolve_source_card(record_id: str, repository_records: dict[str, dict]) -> 
     a shape the grounding net's own checks don't cover since they verify
     the citing record's id, not the shape of its own sources[] entries -
     and no locus of its own either, so author/work/locus/rights_status
-    are all None too (Mark's own staging report, 2026-09-23: "General
-    references (1)" followed by five empty bullet items - "* " with
-    nothing after). Dropped here, once, for both callers
+    are all None too - the shape that once printed a "General references
+    (1)" heading followed by an empty bullet, "* " with nothing after.
+    Dropped here, once, for both callers
     (resolve_citation_sources and transparency_plan.build_transparency_plan)
     rather than filtered a second time in the frontend - an entry with
     nothing to print is not a source, so it never leaves this function."""
