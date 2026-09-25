@@ -17,7 +17,7 @@ See `worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 | Against the Sabellians | dionysius_rome | tradition | assigned | — | anf07 |
 | The Church History of Eusebius, Books VI.43–45/VII (Cornelius' and Dionysius' letters on Novatian) | eusebius | context | assigned | — | npnf201 |
 | Against the Heresy of One Noetus | hippolytus | tradition | assigned | — | anf05 |
-| Appendix to the Works of Hippolytus (dubious/spurious) | hippolytus | — | needs-ruling | — | anf05 |
+| Appendix to the Works of Hippolytus (dubious/spurious) | hippolytus | tradition | assigned | — | anf05 |
 | Dogmatical and historical fragments of Hippolytus | hippolytus | tradition | assigned | fragments | anf05 |
 | Exegetical fragments of Hippolytus | hippolytus | tradition | assigned | fragments | anf05 |
 | The Refutation of All Heresies (Philosophumena) | hippolytus | tradition | assigned | large | anf05 |
