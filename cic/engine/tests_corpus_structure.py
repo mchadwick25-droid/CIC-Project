@@ -22,11 +22,7 @@ def check(label, ok):
 
 results = []
 
-# --- the real Salvian offsets that found this defect ---------------------
-# cic/texts/salvian_on-the-government-of-god_sanford1930.txt: a stray "<" at
-# 84411 ("...receive their \nrecs. <* \n\nHow then...") used to match forward
-# past three chapter breaks to an unrelated ">" at 139805, deleting 55,394
-# real characters; a second stray "<" at 144235 deleted another 173,069.
+# --- a real vendored .txt volume ------------------------------------------
 salvian_path = TEXTS_DIR / "salvian_on-the-government-of-god_sanford1930.txt"
 salvian_raw = salvian_path.read_text(encoding="utf-8", errors="replace")
 
@@ -37,24 +33,18 @@ salvian_stripped = cs._strip_tags_if_markup(salvian_path, salvian_raw)
 results.append(check("a .txt file is returned byte-identical, not tag-stripped",
                      salvian_stripped == salvian_raw))
 
-# The exact spans the old "<[^>]+>" pattern used to delete, verified still
-# present verbatim.
 lost_span_1 = salvian_raw[84411:139805]
 lost_span_2 = salvian_raw[144235:317304]
-results.append(check("the 55,394-character span the old bug deleted survives",
+results.append(check("a long span spanning several stray '<'/'>' characters survives verbatim",
                      len(lost_span_1) == 55394 and "How then can God be said to neglect" in lost_span_1))
-results.append(check("the 173,069-character span the old bug deleted survives",
+results.append(check("a second such span survives verbatim",
                      len(lost_span_2) == 173069 and "divine wrath is the punishment of the sinner" in lost_span_2))
 
-# passage_units() (corpus_index.py) reuses the same helper - checked directly
-# rather than assuming its caller passes the fix through correctly.
 salvian_units = ci.passage_units(salvian_path)
 results.append(check("passage_units() carries the full untouched text through",
                      len(salvian_units) == 1 and salvian_units[0]["text"] == salvian_raw.strip()))
 
-# --- a generic stray "<" in prose (not the real Salvian file) -------------
-# A minimal synthetic case, independent of any one vendored file, pinning
-# the general rule rather than just this one incident.
+# --- a synthetic stray "<" in prose ----------------------------------------
 generic_txt = Path("a-fake-plain-text-file.txt")
 stray_bracket_prose = (
     "The philosopher wrote: our lives < our expectations, and yet we endure.\n\n"
@@ -63,10 +53,7 @@ stray_bracket_prose = (
 results.append(check("a stray '<' in plain prose deletes nothing, whatever the older '>' is",
                      cs._strip_tags_if_markup(generic_txt, stray_bracket_prose) == stray_bracket_prose))
 
-# --- the file that proves this isn't "skip every no-div-marks file" ------
-# webbe_world-english-bible-british-edition.xml has no <div1-3> markers
-# either, but it IS real USFX markup (<p sfm="ip">, <v id="..." />), which
-# must still be stripped - only .txt is assumed prose, not "no div marks."
+# --- a real .xml volume with no <div1-3> markers, still real markup -------
 webbe_path = TEXTS_DIR / "webbe_world-english-bible-british-edition.xml"
 if webbe_path.exists():
     webbe_raw = webbe_path.read_text(encoding="utf-8", errors="replace")
@@ -86,7 +73,7 @@ results.append(check("a .xml file's real tags are still stripped",
                      "<p" not in cs._strip_tags_if_markup(generic_xml_prose, tagged)
                      and "<i>" not in cs._strip_tags_if_markup(generic_xml_prose, tagged)))
 
-# --- fleet-wide: the fix brings every .txt file's tag-stripping loss to 0 ---
+# --- fleet-wide: every .txt file loses 0 characters to tag-stripping ------
 lossy = []
 for p in cs.volumes():
     if p.suffix != ".txt":

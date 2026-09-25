@@ -78,24 +78,15 @@ def _unescape(text: str) -> str:
 def _strip_tags_if_markup(path: Path, raw: str) -> str:
     """`_TAG` ("<[^>]+>") is only safe to run against text that actually
     contains real markup - it matches from ANY "<" to the NEXT ">", which
-    is correct for a genuine tag (the docstring's own nested <note><p
-    class="endnote">...</p></note> case) but not for OCR'd plain prose,
-    where a stray "<" (scanning noise, a misread quotation mark, an
-    editorial bracket) has no real closing tag of its own. Found live in
-    cic/texts/salvian_on-the-government-of-god_sanford1930.txt: a stray
-    "<" at offset 84411 ("...receive their \\nrecs. <* \\n\\nHow then...")
-    matched forward past three chapter breaks to an unrelated ">" at
-    139805, deleting 55,394 real characters; a second stray "<" at 144235
-    deleted another 173,069. This is this function's ONLY caller reaching
-    the "no <div1-3> markup at all" branch, so the fix belongs here, once,
-    not in every caller: every .txt file in this corpus is plain text with
-    no markup, ever - skip stripping entirely rather than risk it. The one
-    file that reaches this same branch while still being real markup,
-    cic/texts/webbe_world-english-bible-british-edition.xml (real USFX
-    tags - <p sfm="ip">, <v id="..." /> - just never wrapped in a
-    <div1-3>), keeps its tags stripped, by checking the file's own
-    extension rather than assuming ".txt" and "no <div1-3> markers" are
-    the same fact."""
+    is correct for a genuine tag but not for prose, where a stray "<" (OCR
+    noise, a misread quotation mark, an editorial bracket) is text, not
+    the start of a tag, and has no real closing ">" of its own. Shared by
+    both callers below (outline(), and corpus_index.passage_units()),
+    scoped by the file's own extension rather than by "found no <div1-3>
+    markers": every .txt volume in this corpus is plain text, never
+    markup, so it is returned untouched; .xml still gets real tags
+    stripped, since a file can lack <div1-3> markers while still being
+    real markup elsewhere in its own tag set."""
     if path.suffix != ".xml":
         return raw
     return _TAG.sub(" ", raw)
