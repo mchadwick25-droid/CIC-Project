@@ -154,6 +154,67 @@ def _number_tokens(text: str) -> tuple[set[str], set[str]]:
     return digits, spelled
 
 
+def record_ground(rec: dict, repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
+    """(word ground, digit ground) one record contributes on its own: its
+    own `all_text`, plus its `sources[]`' resolved `work` fields (see
+    `_source_ground`). Factored out of `ungrounded_markers` so the same
+    per-record computation can be summed either over just a sentence's
+    own tags (below) or over an entire repository
+    (`repository_ground`, `engine.m4.sentence_fact_check`'s own ground) -
+    one implementation of "what does this record ground," not two."""
+    rec_text = all_text(rec)
+    words = content_words(rec_text)
+    digits = set(_DIGIT.findall(rec_text))
+    src_words, src_digits = _source_ground(rec, repository_records)
+    return words | src_words, digits | src_digits
+
+
+def repository_ground(repository_records: dict[str, dict]) -> tuple[set[str], set[str]]:
+    """(word ground, digit ground) the world's ENTIRE compiled repository
+    supplies - every record's own `record_ground`, unioned, regardless of
+    which record (if any) a given sentence happens to tag. This is the
+    wider scope `engine.m4.sentence_fact_check` needs (a claim can be
+    genuinely supported by the world's own records without the speaking
+    sentence tagging the right one, or tagging anything at all) - not a
+    substitute for `ungrounded_markers`'s own narrower, tag-scoped ground,
+    which stays exactly as calibrated (OG-9) for the already-tagged,
+    already-passing sentences it exists to double-check."""
+    words: set[str] = set()
+    digits: set[str] = set()
+    for rec in repository_records.values():
+        rec_words, rec_digits = record_ground(rec, repository_records)
+        words |= rec_words
+        digits |= rec_digits
+    return {_strip_possessive(w) for w in words}, digits
+
+
+def missing_markers(
+    text: str, ground_words: set[str], ground_digits: set[str], *, include_sentence_initial_proper_nouns: bool = False
+) -> list[str]:
+    """Every proper-noun word and number `claim_markers()` finds in `text`
+    that is not itself present in the given (word, digit) ground - the
+    shared comparison both `ungrounded_markers` (tag-scoped) and
+    `engine.m4.sentence_fact_check` (whole-repository-scoped) run, so the
+    two checks can never silently diverge on what counts as "grounded."
+    Empty for a sentence naming no checkable marker at all.
+
+    include_sentence_initial_proper_nouns (default False - `ungrounded_
+    markers` below keeps claim_markers' own narrower, calibrated default):
+    threaded straight through to `claim_markers`. `engine.m4.
+    sentence_fact_check` passes True - see `engine.prose._proper_nouns`'
+    own docstring for why whole-repository ground scope makes that safe
+    where a 1-3-record tag scope would not be."""
+    missing: set[str] = set()
+    for marker in claim_markers(text, include_sentence_initial_proper_nouns=include_sentence_initial_proper_nouns):
+        if marker.startswith("proper-noun:"):
+            missing |= _proper_noun_words(marker) - ground_words
+        elif marker == "number":
+            digits, spelled = _number_tokens(text)
+            missing |= digits - ground_digits
+            missing |= spelled - ground_words
+    return sorted(missing)
+
+
 def ungrounded_markers(text: str, tags: list[str], *, repository_records: dict[str, dict]) -> list[str]:
     """Every proper-noun word and number claim_markers() finds in `text`
     that does not itself appear in the ground `tags` actually supply (see
@@ -173,23 +234,12 @@ def ungrounded_markers(text: str, tags: list[str], *, repository_records: dict[s
     ground_words: set[str] = set()
     ground_digits: set[str] = set()
     for rec in tagged_records:
-        rec_text = all_text(rec)
-        ground_words |= content_words(rec_text)
-        ground_digits |= set(_DIGIT.findall(rec_text))
-        src_words, src_digits = _source_ground(rec, repository_records)
-        ground_words |= src_words
-        ground_digits |= src_digits
+        rec_words, rec_digits = record_ground(rec, repository_records)
+        ground_words |= rec_words
+        ground_digits |= rec_digits
     ground_words = {_strip_possessive(w) for w in ground_words}
 
-    missing: set[str] = set()
-    for marker in claim_markers(text):
-        if marker.startswith("proper-noun:"):
-            missing |= _proper_noun_words(marker) - ground_words
-        elif marker == "number":
-            digits, spelled = _number_tokens(text)
-            missing |= digits - ground_digits
-            missing |= spelled - ground_words
-    return sorted(missing)
+    return missing_markers(text, ground_words, ground_digits)
 
 
 def verdict_for_sentence(text: str, tags: list[str], *, repository_records: dict[str, dict]) -> dict:

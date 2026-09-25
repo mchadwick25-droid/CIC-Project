@@ -51,7 +51,7 @@ positions:
   actually responsible for. Held together, they are what we actually are.
 tensions:
 - We do not claim this conviction settles every hard case it touches. The very font this answerability
-  is supposed to serve, we have answered oppositely, twice, a century and a third apart, and we do not
+  is supposed to serve, we have answered oppositely, twice, a century and a half apart, and we do not
   resolve which of our own answers was right. Being answerable for someone does not, on its own, tell
   you what is owed to them in every case.
 text: 'We are held together, first, by one plain fact: a particular people has been placed in a particular

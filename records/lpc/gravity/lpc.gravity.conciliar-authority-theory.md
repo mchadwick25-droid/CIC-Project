@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F1-I
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -31,6 +32,8 @@ relations:
 - type: associated-with
   target: lpc.limit.411-gesta-unread
 - type: associated-with
+  target: lpc.witness.tradition-tested-by-apostolic-warrant
+- type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with
   target: lpc.gravity.collegial-communion-preserved
@@ -42,48 +45,62 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
-name: Conciliar Authority Theory (Egalitarian vs. Hierarchical) [SUPPORTING]
-description: 'Doc_04 §3 Candidate 5: the one gravity in this world whose classification Doc_04 itself
-  did not reach on its own six-test evidence -- ''Alone among the eight candidates, this line does not
-  record this document''s own verdict on the evidence'' (Doc_04 §3). Classified SUPPORTING ON THE PROJECT
-  LEAD''S DIRECT RULING OF 2026-09-14, after five consecutive re-classifications across nine review rounds
-  and a named gapped-formation precedent instructing the build to stop revising it further (Doc_04 §7
-  items 7-8). Author Gravity risk flagged at generation: each pole is attested within each bishop''s own
-  single locus. Repetition: passes narrowly and locally -- Cyprian''s egalitarian formula recurs once,
-  at length, in the 256 preface (Row 4); Augustine''s hierarchical formula recurs internally within On
-  Baptism (Row 13, ''plenary'' 31 times) but is not independently restated in a second Augustine-authored
-  work drawn on here. Dependency: passes narrowly -- Doc_01''s own strand-singular finding is the one
-  place in this world''s construction record that depends on this axis at all. Formation: DOES NOT CLEARLY
-  PASS -- this document finds no evidence that ordinary believers, catechumens, or most clergy in either
-  phase were formed by, or even aware of, this specific theoretical question. Explanatory: passes narrowly
-  -- explains the specific shape of the Cyprian/Stephen rebaptism dispute and Augustine''s own extended
-  argument against Cyprian''s ruling, but no other, independent aspect of the wider ecology. PERSISTENCE:
-  DOES NOT PASS AT THE WORLD LEVEL, on a disclosed search bound rather than an unqualified absence --
-  within what this document has validly read, there is no evidence either bishop''s theory was independently
-  visible outside the one locus each is drawn from. THIN ACROSS THE SPAN, NOT BOUNDED WITHIN IT (Doc_04
-  §5''s own distinction from Candidate 7''s phase-boundedness): visible in both phases, at one locus each,
-  ''between two bishops at two moments separated by over a century.'' Interaction: passes narrowly --
-  interacts demonstrably with Candidates 1 (weakly), 3, and 6. CONFIDENCE/GRAVITY CROSS-CHECK -- DIVERGENCE
-  FLAGGED, NOT RESOLVED: evidence for the EXISTENCE of both formulas, in their own words, reaches Documented;
-  the evidential support for their ORGANIZING BREADTH does not reach the same level, this candidate''s
-  six-test profile being narrow at best -- CF V7.4: ''gravity strength and evidential confidence are distinct
-  properties that can diverge.'' Carried forward at Doc_04 §7 Open Item 1 as unresolved, and NOT reopened
-  by the 411 Gesta (unread; §7 Open Item 6) or by nine further review rounds (§7 Open Item 8, a sixth
-  attempt at a cleaner classification, whose own argument Doc_04 records rather than pursues). FORCES-CONNECTION
-  (Doc_08 §5): THE WEAKEST FORCE-CONNECTION IN THE MATRIX, and Doc_08 says so rather than padding it --
-  connected to 1B-1 (the conciliar setting), 2A-3 (the Donatist appeal that supplies the occasion), 2B-4
-  (the engagement itself), but ''every force touching G5 touches it through a third party''s citation
-  of a text, not through a pressure on the world''s own practice'' -- consistent with Doc_04''s own finding
-  that no evidence shows the question reached ordinary formation. Doc_08 §5 quotes the Forces Framework
-  directly: ''a gravity that cannot be connected to the forces acting on the world is a gravity whose
-  ecology is incomplete.'' Carried, not resolved.'
+name: 'Conciliar Authority Theory: Egalitarian vs. Hierarchical'
+description: >-
+  This is one of this world's real concerns, though an unusual one to weigh. That two competing theories
+  of conciliar authority existed, in each bishop's own words, is solidly attested. Whether they organized
+  much of the world is a separate question, and the evidence for that is far thinner. We treat this as
+  a secondary concern, disclosed as genuinely uncertain rather than settled.
+
+
+  The concern names two competing theories of conciliar authority. Cyprian's is egalitarian. In the
+  preface to the Council of 256 he says no bishop sets himself up as "a bishop of bishops." Augustine's
+  is hierarchical. In On Baptism he appeals to "the authority of plenary Councils," and the word
+  "plenary" occurs 31 times in that treatise.
+
+
+  A real limit sits here too, and it should be said plainly. Each theory is attested at only one place in each bishop's
+  writings. Cyprian's formula appears once, at length, in the 256 preface. Augustine's recurs within
+  On Baptism but is not restated in any second work of his drawn on here.
+
+
+  Its reach is narrow in every direction. Only one finding depends on it: that the world forms a single
+  strand. There is no evidence that ordinary believers, catechumens, or most clergy in either phase
+  were shaped by this question, or even knew of it. It explains the shape of the rebaptism dispute
+  between Cyprian and Stephen, and Augustine's long argument against Cyprian's ruling. It explains
+  nothing else in the wider world. It connects clearly with collegial communion and sacramental
+  validity, and weakly with pastoral office.
+
+
+  It does not carry across the whole world. Within what has been read, neither bishop's theory is
+  visible outside its one source. This is a limit of the search so far, not a proven absence. It runs
+  thin across the whole span, not confined to one phase. It appears in both phases, at one source each
+  -- between two bishops, at two moments separated by over a century. That sets it apart from grace and
+  human incapacity, which belongs to one phase only.
+
+
+  The uncertainty here is disclosed, not resolved. That both formulas exist, in their own words, is
+  solidly attested. The evidence that they organized much of the world is much weaker. How central a
+  concern is, and how confident we can be in the evidence, are two separate things, and here they
+  diverge. So the record stays cautious about how central this actually is. The 411 Gesta, the
+  proceedings of that year, remain unread and have not reopened the question. It remains open.
+
+
+  Of everything in this world, this concern connects least to the forces acting on it, and that is
+  stated plainly rather than padded. It links to the council setting of the organized Carthaginian
+  church. It links to the Donatist appeal that supplied the occasion, and to Augustine's engagement
+  with Cyprian's conciliar acts. But each of these reaches it only through someone quoting a text, not
+  through pressure on how the church actually lived. That fits the finding that the question never
+  reached ordinary formation.
+
+
+  A concern this loosely connected to the pressures acting on the world leaves our own picture of that
+  world incomplete here. That gap is carried, not resolved.
 manifestations:
-- the 256 Council preface's own egalitarian formula, "neither does any of us set himself up as a bishop
-  of bishops" (Registry row 4)
-- Augustine's own hierarchical formula in On Baptism II.3, invoking "the authority of plenary Councils"
-  (Registry row 13, the word occurring 31 times within the treatise)
-- the project lead's ruling of 2026-09-14, classifying this candidate Supporting after Doc_04's own six-test
-  assessment did not reach a verdict on the evidence (Doc_04 §3, §7 items 7-8)
+- 'Cyprian''s egalitarian formula in the preface to the Council of 256: "neither does any of us set himself
+  up as a bishop of bishops"'
+- Augustine's hierarchical formula in On Baptism II.3, invoking "the authority of plenary Councils" (the
+  word "plenary" occurs 31 times in the treatise)
 classification: supporting
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 5), matching this record's own body text to Doc_04 §5's careful distinction between this candidate and Candidate 7 (phase-bound) rather than collapsing the two Persistence failures into one shape. relations[] carries the gravity<->gravity edges (G1, G3, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above. See this script's own docstring, 'G5'S OWN JUDGMENT CALL,' for why this record states the project-lead-ruling provenance directly rather than presenting Supporting as this document's own settled verdict.

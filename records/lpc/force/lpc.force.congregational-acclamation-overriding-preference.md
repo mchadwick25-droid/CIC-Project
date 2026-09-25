@@ -5,7 +5,8 @@ record_type: force
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F3-I
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -23,7 +24,9 @@ sources:
   locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
   license: public-domain
 - source_id: lpc.source.possidius-vita-augustini-weiskotten1919
-  locus: see this record's own body text for the specific locus Doc_04/Doc_08 cite
+  locus: 'Vita Augustini ch. VIII, "under compulsion and constraint he yielded and accepted the ordination"
+    -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2142-2143
+    (the phrase is hyphenated across a line wrap in the source file -- "under com-" then "pulsion and constraint")'
   license: public-domain
 relations:
 - type: associated-with
@@ -34,33 +37,43 @@ relations:
   target: lpc.force.organized-carthaginian-church
 name: Congregational Acclamation Overriding a Reluctant Convert's Preference
 kind: initiating
-description: 'Doc_08 Cell 1B, Force 1B-2. LAYER 1 -- HISTORICAL EVENT: Cyprian, a trained rhetorician
-  converted in middle life, was elected bishop by the acclamation of the Carthaginian people within roughly
-  two to three years of conversion, over the recorded opposition of five presbyters. The pattern recurs
-  in the second phase at both of Augustine''s offices: he was seized into the presbyterate at Hippo in
-  391 against his wishes, and at the episcopate Possidius''s Vita ch. VIII records Valerius announcing
-  his intention to the bishops present, the whole Hippo clergy, and all the people; those who heard rejoiced
-  and clamoured eagerly for it; Augustine refused the episcopate while his own bishop lived; and, persuaded
-  by transmarine and African precedent, he yielded under compulsion and constraint (project lead''s ruling,
-  2026-09-16). Documented -- Epistle XXXIX (row 1); Pontius (row 7, Confidence A); Possidius''s Vita chs.
-  IV and VIII (row 192); Doc_01 §2. LAYER 2 -- WORLD''S OWN EXPERIENCE: "your suffrage and God''s judgment,"
-  set against a faction''s "ancient venom." A deacon who knew him put it from outside: "by the judgment
-  of God and the favour of the people, he was chosen to the office of the priesthood and the degree of
-  the episcopate while still a neophyte." LAYER 3 -- FORMATION IMPACT: this force gives G1 its characteristic
-  two-directional shape -- a bishop answerable to the people who placed him as well as for them. A caution
-  carried directly rather than smoothed: the pattern is attested through different figures and different
-  words, not one recurring term -- but at the same office in both phases. CROSS-CELL CONNECTIONS (Doc_08
-  §4): <- Force 1A-2 (shaped by) -- an office with no legal protection is one a sensible man declines,
-  which is why the acclamation pattern has to override reluctance. <- Force 1B-1 (enabled by) -- a church
-  organized enough to hold factions is organized enough to elect over a faction''s opposition.'
+description: >-
+  Cyprian was a trained rhetorician who converted in middle life. Within roughly two to three years of
+  his conversion, the people of Carthage elected him bishop by acclamation. Five presbyters are recorded
+  as opposing him. He called it "your suffrage and God's judgment," set against a faction's "ancient
+  venom." A deacon who knew him described it from outside: "by the judgment of God and the favour of
+  the people, he was chosen to the office of the priesthood and the degree of the episcopate while still
+  a neophyte."
+
+
+  The pattern recurs in the second phase, at both of Augustine's offices. In 391 he was seized into the
+  presbyterate at Hippo against his wishes. For the episcopate, Possidius's Vita, chapter VIII, records
+  the scene. Valerius announced his intention to the bishops present, the whole Hippo clergy, and all
+  the people. Those who heard rejoiced and clamoured eagerly for it. Augustine refused the episcopate
+  while his own bishop lived. Then, persuaded by precedent from overseas and from Africa, he yielded
+  under compulsion and constraint.
+
+
+  The evidence is documented. It comes from Cyprian's Epistle XXXIX, from Pontius, and from Possidius's
+  Vita, chapters IV and VIII.
+
+
+  This force gives the pastoral office its two-way shape. A bishop answers to the people who placed him,
+  as well as for them. One caution is kept rather than smoothed over. The pattern is attested through
+  different people and in different words, not through one recurring term. But it appears at the same
+  office in both phases.
+
+
+  Two conditions shaped it. An office with no legal protection is one a sensible man declines, so the
+  acclamation had to override reluctance. And a church organized enough to hold factions was organized
+  enough to elect a bishop over a faction's opposition.
 manifestations:
-- '"your suffrage and God''s judgment" (Cyprian''s own words on his election, Doc_08 Force 1B-2 Layer
-  2)'
+- '"your suffrage and God''s judgment" (Cyprian''s own words on his election)'
 - '"by the judgment of God and the favour of the people, he was chosen to the office of the priesthood
-  and the degree of the episcopate while still a neophyte" (a deacon''s own outside account, Doc_08 Force
-  1B-2 Layer 2)'
-- 'Possidius, Vita Augustini ch. VIII: Valerius''s own announcement, and Augustine''s own refusal and
-  yielding "under compulsion and constraint" (Registry row 192)'
+  and the degree of the episcopate while still a neophyte" (the outside account of a deacon who knew
+  him)'
+- 'Possidius, Vita Augustini ch. VIII: Valerius''s announcement, and Augustine''s refusal and his yielding
+  "under compulsion and constraint"'
 matrix_cell: 1B
 ---
 Re-derived from the approved Doc_08 §3 Force 1B-2 (Cell 1B, Initiating/Internal). relations[] carries the gravity<->force edge (G1) and the force<->force edges (1A-2, 1B-1) named above.

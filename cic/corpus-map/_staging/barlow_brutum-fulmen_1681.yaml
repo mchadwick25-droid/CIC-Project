@@ -1,0 +1,26 @@
+source_file: barlow_brutum-fulmen_1681.txt
+
+assignments:
+  - work: "Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull against Henry VIII annexed)"
+    author: barlow
+    locus: "whole text (bull text in English and Latin parallel columns, embedded in Barlow's 1681 polemical framing)"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Filed under `barlow`, the vendored file's own compiler/printer slug
+      (the same convention this corpus already uses for a secondary
+      compiler's framing - e.g. `boero` for the Life of Peter Favre) -
+      not a claim that Barlow authored the bulls themselves. What the
+      row actually carries is Pius V's own bull Regnans in Excelsis
+      (1570, excommunicating and deposing Elizabeth I) and Paul III's
+      bull against Henry VIII, printed in English and Latin, word for
+      word, inside Barlow's hostile Anglican polemic (1681). role:
+      tradition rather than context because the bull text itself is
+      reproduced verbatim - the papacy's own binding act, not a
+      paraphrase or narrative about it - even though the surrounding
+      frame is hostile. Narrow (two short bulls) but genuine primary-
+      source window. Vendored 2026-09-25 as part of a pre-Doc_02
+      source-acquisition pass for the-tridentine-church, per this
+      world's own Source Readiness Dossier §3.

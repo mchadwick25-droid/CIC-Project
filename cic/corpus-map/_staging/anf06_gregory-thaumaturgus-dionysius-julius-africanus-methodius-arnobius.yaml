@@ -51,6 +51,27 @@ assignments:
     range by a century.
 
     '
+- work: The Oration and Panegyric Addressed to Origen
+  author: gregory_thau
+  locus: div3 under 3.3 'Acknowledged Writings'
+  atlas_ids:
+  - anatolian-church-third-century
+  role: tradition
+  confidence: assigned
+  note: 'A third row for this work, alongside its alexandria-catechetical (the school''s pedagogy)
+    and cappadocian-nicene-pastoral-monastic-tradition (the later tradition''s forerunner) assignments
+    above - this one is Gregory''s own voice, for his own entry, not evidence about someone
+    else''s school or a later tradition''s inheritance. Verified directly against the file:
+    the endnote dates it "Circa a.d. 238" and says it was delivered "when about to leave for
+    his own country" - Gregory''s farewell to Origen''s school at Caesarea on the eve of his
+    return to Pontus, where he became bishop of Neocaesarea. anatolian-church-third-century
+    (era 1, c. 240-312) is the entry this note was asking for - the gap is regional, not per-author.
+    post-apostolic-house-church ends at 200 and nothing catholic covers Asia Minor between there
+    and Nicaea. Assigned rather than provisional: unlike the Cappadocian row, this is not a
+    later tradition reaching back to claim a forerunner - it is Gregory''s own document, delivered
+    right at the edge of this world''s own window.
+
+    '
 - work: A Declaration of Faith
   author: gregory_thau
   locus: div3 under 3.3 'Acknowledged Writings'

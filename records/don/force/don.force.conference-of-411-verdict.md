@@ -46,20 +46,32 @@ name: The 411 Conference of Carthage's verdict and the penal legislation that fo
 kind: ending
 matrix_cell: 3A
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 3A, Force 3A-1): the imperially-convened 411 Conference of Carthage,
-  Marcellinus presiding, seated 279 Donatist against 286 Catholic bishops and ruled against the Donatist party;
-  the verdict was followed by sustained penal legislation. Documented. Emeritus of Caesarea and the other
-  Donatist bishops present are recorded, per the Gesta Collationis Carthaginiensis, speaking at length on
-  their own side of the exchange, and that text is now vendored - so their own words on the verdict itself
-  are directly readable in this construction's corpus, though not yet read into a specific claim. LAYER 2
-  - THE WORLD'S OWN EXPERIENCE: NOT RECOVERABLE FROM SURVIVING SOURCES as read into this construction so far.
-  This world's record does not preserve a direct account of how its own participants received this specific
-  verdict. What the broader record does state is that a council's verdict, even one this large and formally
-  convened, is not what settles who the true church is - the same conviction held throughout the window, applied
-  here to its sharpest test yet. Reported-Experience Status applied. LAYER 3 - FORMATION IMPACT: this force
-  presses the refusal-of-imperial-legitimacy gravity to its sharpest test and directly reshapes the parallel
-  hierarchy, which now bears the verdict's own legal-institutional consequences. It is also where the Maximianist
-  fracture's own consequences are pressed again, one last time, before the window closes.
+  In 411 the emperor convened a conference at Carthage, with Marcellinus presiding. It seated 279
+  Donatist bishops against 286 Catholic bishops. It ruled against the Donatist party.
+
+  Sustained penal legislation followed the verdict, and the record documents both.
+
+  The Gesta Collationis Carthaginiensis records Emeritus of Caesarea and the other Donatist
+  bishops present speaking at length for their own side. Their own words on the verdict itself
+  survive and can be read directly.
+
+  Whether that same record also preserves an account of how this world's own people received the
+  verdict is not yet known. Only one full act of that transcript has been read so far, and the
+  rest remains to be checked.
+
+  What the wider record does state is a conviction. A council's verdict does not settle who the
+  true church is, even a council this large and this formally convened.
+
+  This world held that conviction throughout its period. Here it met its sharpest test yet.
+
+  This force puts the movement's refusal to grant the state legitimate authority in religion to
+  its sharpest test.
+
+  It also directly reshapes the movement's rival church structure of bishops, basilicas and
+  councils. That structure now bears the verdict's legal and institutional consequences.
+
+  It is also where the consequences of the Maximianist split are pressed again, one last time,
+  before this world's period closes.
 manifestations:
 - 279 Donatist against 286 Catholic bishops seated, Marcellinus presiding, at an imperially-convened conference
 - the verdict against the Donatist party and the sustained penal legislation that followed it

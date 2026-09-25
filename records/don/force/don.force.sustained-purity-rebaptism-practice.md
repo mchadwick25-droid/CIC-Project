@@ -30,19 +30,32 @@ relations:
   target: don.force.felix-accusation-majorinus-consecration
 name: Sustained Purity Doctrine and Rebaptism Practice as Founding Logic
 kind: ongoing
-description: 'Doc_08 Cell 2B, Force 2B-1. LAYER 1 -- HISTORICAL EVENT: the purity doctrine (G1) and its
-  enacted rite (G2) operated as this world''s own established, contested institutional pattern from 311/312
-  through the 411 Conference. Documented, attested both in Augustine''s own primary text (not merely characterized)
-  and in Petilian''s own quoted argument (Doc_04 SS3.1, SS3.2). LAYER 2 -- WORLD''S OWN EXPERIENCE: to
-  belong here was to have been washed again, deliberately, by a hand of unbroken standing -- not a repetition
-  of something already valid but the first true baptism a person ever received. This was not a doctrine
-  held quietly; it was lived, daily, in the concrete choice of which minister''s hands to receive from.
-  LAYER 3 -- FORMATION IMPACT: this is this world''s own central, continuously operating internal force
-  -- it sustains G1 and G2 across the entire window and is what the Maximianist affair (Force 2B-4) specifically
-  tests, without fracturing. CROSS-CELL CONNECTION (Doc_08 Section 4, Connection 2): <- Force 1B-2 --
-  the founding rupture produces the ongoing enacted rite: rebaptism as a repeated, individually-experienced
-  practice is the institutional life of the traditio accusation, sustained across the whole window rather
-  than a single founding act.'
+description: >-
+  From 311/312 through the Conference of 411, the doctrine of ministerial purity and its enacted
+  rite, rebaptism, worked as this world's own established institutional pattern. It was a
+  contested pattern the whole time.
+
+  This pattern is documented directly in Augustine's own writing, which attests it rather than
+  merely characterizing it. Petilian's own argument, quoted in Augustine's reply, attests it too.
+
+  To belong here was to have been washed again, on purpose, by a hand of unbroken standing. This
+  was not a repeat of something already valid. It was the first true baptism a person had ever
+  received.
+
+  No one held this doctrine quietly. It was lived every day, in the concrete choice of which
+  minister's hands to receive from.
+
+  This is this world's own central internal force, and it never stops working. Across the whole
+  period this world covers, it sustains two defining commitments: ministerial purity, and
+  rebaptism as the rite that marks this movement's boundary.
+
+  The Maximianist affair, the movement's own internal split, puts this force to a specific test.
+  The force comes through it without fracturing.
+
+  The force grows out of the founding rupture: the accusation of traditio against Felix of Aptungi
+  and the rival consecration of Majorinus. That rupture produced the ongoing rite. Rebaptism was
+  repeated, and each person experienced it for themselves. It was the institutional life of the
+  traditio accusation. It lasted across the whole period, not as a single founding act.
 manifestations:
 - the concrete, daily, individually-experienced choice of which minister's hands to receive rebaptism
   from

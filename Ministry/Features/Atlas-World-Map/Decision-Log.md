@@ -6538,3 +6538,63 @@ new register: "Reviewed, strong candidate" / "Reviewed, one of several
 candidates" / etc.) — then whoever implements it re-runs
 `tools/check_live_commentary.py --surface cic-website` to confirm the
 fix and update this entry.
+
+## 2026-09-25 (same day) — Decision 7 ruled: the "(Era N Step 0)" tag dropped from `statusWord`; the raw-shorthand outliers stay open
+
+**Mark's ruling on Decision 7 (2026-09-25), verbatim: "a."** Option A -
+plain words at the source: drop the "(Era N Step 0)" build tag from
+every `statusWord` value that carried it, keep the plain assessment.
+This resolves the "(Era N Step 0)" half of the open question above; the
+other raw-shorthand outliers it also names (`[S]`, `c2`, `A3`, `A4`,
+`register`, `WINDOW-SPECIFIED`, `RETAINED`, `BANKED`, `beyondFloor`) are
+**not** touched by this ruling and stay open for a separate decision.
+
+**Fixed at the source, not just the output.** `world-census.json`'s own
+`statusWord` field has no further upstream generator for non-built
+movements - `engine/m6/census_sync.py` only ever writes `statusWord` for
+`status === "Built & Live"` movements (from `statusMeta[status].
+shortWord`), so for the 212 (now 221, see below) non-built movements
+this field was always hand-authored directly in `world-census.json`
+itself; census.json *is* the source for it, confirmed by reading
+`census_sync.py`'s own sync logic rather than assumed. Fixed there, then
+`atlas-v3.html` re-synced from it via the existing generator
+(`engine.m6.census_atlas_sync.sync_atlas` + `engine.m6.atlas_html.
+apply_movement_updates`) - never hand-edited into the Atlas directly.
+
+**220 movements' own `statusWord` carried the tag as originally counted,
+plus one more the fix itself surfaced.** Checked exhaustively (not
+estimated): 212 carried the tag as a whole, standalone parenthetical
+("Researched — strong candidate (Era 3 Step 0)" → "Researched — strong
+candidate"); 8 carried the tag *inside* a parenthetical alongside other
+real content after a "; " separator ("...(Era 7 Step 0; corpus
+verification follow-up named)" → "...(corpus verification follow-up
+named)" - the substantive clause preserved, only the tag itself
+dropped). Adding the new `tools/validate-census.mjs` check below (run
+before considering this done, not after) caught one further case outside
+either pattern: `early-american-unitarians-universalists`'s own
+`statusWord` carried `"(Era 8 gate)"` - the same build-stage reference in
+different words, not literally "Step 0" - fixed the same way (the
+parenthetical dropped, the surrounding clause kept intact). 221
+movements' `statusWord` values changed in total.
+
+**Regression check added**, per this ruling's own instruction:
+`tools/validate-census.mjs` now fails any `statusWord` containing
+`"Step 0"` or `"(Era "` - the same pattern that caught the
+`early-american-unitarians-universalists` case above, so it stays caught
+if either phrasing is ever reintroduced.
+
+**No visitor-visible change.** Confirmed directly: nothing in
+`atlas-v3.html`'s own rendering JavaScript displays `statusWord` at all
+today (the earlier open-question entry's own framing, "rendered directly
+on the public Atlas," was itself imprecise about this - `statusWord`
+lives in the embedded `DATA` object but is not read by any property
+access in the page's own render code, the same structural gap this
+program's own D2 work found for `statusDescription`).
+
+Verified: `node tools/validate-census.mjs` 0 errors; `engine.m6.
+census_atlas_sync.sync_atlas` reports 0 remaining drift against
+`atlas-v3.html`; `engine.m2.cli staleness-check` and `engine.m2.
+site_cli staleness-check` both pass; `node --check` on the regenerated
+`DATA` script block; `tools/check_paths.py --baseline` 0 new unresolved
+citations; `tools/check_live_commentary.py --surface cic-website` hit
+count unchanged before/after (130 either way - nothing new introduced).

@@ -2148,3 +2148,79 @@ fragment rule wins on syr; the human read of every clause stands on witt.
 
 **Counts (sentence-completeness check, fleet):** 30 flagged sentences
 before, 18 after: the 11 misparses plus the 7 source-spoken forms kept.
+
+**Entry 38 — 2026-09-25 (embedded-quotations check, `engine/m1/
+embedded_quotations.py`, registered as a standing report-only check).**
+OG-10 (`worlds/pahc/Open_Gaps_Tracking.md`) named three mechanism
+options for the embedded old-translation quotation gap this module
+finds and counts: (A) a schema extension, (B) extracting each embedded
+quote that matters into its own `quote` record with an Opus rendering,
+(C) registering the existing report-only module as a standing check.
+Mark's ruling, relayed 2026-09-25: **"c+b"** - both C (this entry) and B
+(a separate, batched workstream, not this thread's own work) adopted;
+A (the schema extension) not taken up.
+
+**Registered exactly as `engine/m1/sentence_completeness.py` already is
+(Entry 29 above)**: report-only, not added to `gates.GATES` or
+`gates.run_all`, never fails a build. `python -m engine.m1.
+embedded_quotations` writes `engine/m1/reports/embedded-quotations-
+report-<date>.json` and prints a per-world summary - the same shape
+`sentence_completeness`'s own CLI already uses. No code changed by this
+entry: the module has carried this exact report-only shape since it was
+built (`worlds/pahc/Open_Gaps_Tracking.md` OG-10's own build history);
+this entry is the formal registration, establishing it as a recognized
+standing check for whoever runs a build to invoke and read, the same
+governance step Entry 29 already gave `sentence_completeness`.
+
+Option B (extracting the quotations this module finds into real `quote`
+records, each with its own Opus-authored `modern_rendering`) is
+explicitly not this entry's own work - a separate, batched workstream
+covering the fleet's 198 flagged records, reported when it opens.
+
+**Entry 39 — 2026-09-25 (R46: long-list exception to R44).** Answers the
+methodology question Entry 37 flagged and left open: R44's "one list
+sentence" rule doesn't say what happens when a list cannot pass the
+readability gate as one sentence — the exact case `alx
+couches-and-trenchers-and-bowls` hit (Entry 37: the one-sentence list
+scores FK 41.7 and fails the live readability gate).
+- **R46 (long-list exception to R44)** — Mark's ruling, 2026-09-25,
+  Decision 5, option "a". Mark's approved wording: *"A list stays one
+  sentence unless that sentence would pass about 25 words. Then it splits
+  into a few list sentences grouped as the source groups them (e.g.
+  tableware, furniture, bedding), keeping the source's order and every
+  item. The source's own verdict closes it. There is no filler connective
+  repeated sentence after sentence."* Landed in
+  `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`, Phase
+  B, next to the existing list-rule sentence — rule only, no ruling
+  numbers, dates, attributions or log pointers in that live surface, per
+  Entry 30's own convention for it. Mark's standing bar, restated
+  alongside this ruling: scholarly rigor a professor of church history
+  would be impressed by, not 100% perfection.
+- Re-authoring `alx couches-and-trenchers-and-bowls` under R46 is a
+  separate dispatch, not this entry's - it merged as PR #566, ahead of
+  this rules PR, and carries no Decision-Log entry of its own.
+
+**Entry 40 — 2026-09-25 (R47: ellipsis-finishing takes precedence over
+the bracketed-supplement rule where the two collide).** Settles the
+precedence between "true ellipses get finished" (2026-09-24, in the
+process doc's Phase B) and "the voice never speaks a translator's own
+bracketed supplement" (Entry 35, 2026-09-25): where finishing a true
+ellipsis needs the exact word a vendored edition supplies in brackets,
+using that word is not voicing the translator's own addition, because
+the sentence's own structure requires it — the bracket marks where the
+edition supplied a needed word, not an optional editorial one.
+- **R47 (ellipsis-finishing vs. bracketed supplement)** — Mark's ruling,
+  2026-09-25, Decision 6, option "a". Mark's approved wording: *"Where
+  finishing a true ellipsis needs the very words an edition supplies,
+  the rendering may use them. The words are there because the sentence
+  needs them, not because a translator added them."* Landed in
+  `reference/method/CiC_Record_Native_World_Build_Process_V1.5.md`,
+  Phase B, next to the existing ellipsis-finishing sentence — rule
+  only, no ruling numbers, dates, attributions or log pointers in that
+  live surface, per Entry 30's own convention for it.
+- **Worked case (not itself changed by this entry):** `syr.quote.aphrahat-anti-jewish-frame`'s
+  current rendering, "This is a reply against the Jews, who blaspheme
+  the people gathered from among the Gentiles," stands — its finished
+  "This is" matches the edition's own supplement, per
+  `worlds/syr/Open_Gaps_Tracking.md` #14. No record is touched by this
+  entry; a separate change is coming for it.
