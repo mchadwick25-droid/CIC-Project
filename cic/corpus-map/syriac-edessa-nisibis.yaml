@@ -350,6 +350,25 @@ works:
 
     '
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
+- work: The Church History of Eusebius (Historia Ecclesiastica)
+  author: eusebius
+  locus: div1 3 — I.13 (the Abgar narrative), IV.29 (Tatian and the Diatessaron), IV.30 (Bardesanes
+    the Syrian)
+  role: context
+  confidence: assigned
+  note: 'Three Syriac-relevant notices verified directly against the file: I.13 (lines 9450-9683)
+    reproduces the Abgar-Jesus correspondence and Thaddeus narrative at length, which Eusebius
+    took as genuine from the Edessa archives - the earliest datable witness to the legend''s
+    existence and age, never evidence for its content (this world does not accept the correspondence
+    as genuine, per Doc_01 SS2 - a risk screen already carried on syr.source.eusebius-historia-ecclesiastica,
+    not a defect in the citation itself). IV.30 (line 9461) attests Bardesanes the Syrian
+    Gnostic''s standing at the Edessene court - per Doc_01 SS5.1 the most comparatively reliable
+    ancient witness to him, being early and free of local rivalry. Context, not tradition:
+    Eusebius writes from Caesarea, outside Edessa/Nisibis, describing this world''s own figures
+    and legend from a distance.
+
+    '
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - work: A Canticle of Mar Jacob the Teacher on Edessa
   author: jacob-of-sarug
   locus: div2 9.4
@@ -360,6 +379,21 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: Lives of Illustrious Men (De Viris Illustribus)
+  author: jerome
+  locus: div2 4.3 — the 'Bardesanes the heresiarch' and 'Ephrem the deacon' chapters
+  role: context
+  confidence: assigned
+  note: 'Same catalogue, context row for its two Syriac-relevant chapters, verified directly
+    against the file (line 41542): Jerome states Ephrem "became so distinguished that his
+    writings are repeated publicly in some churches, after the reading of the Scriptures"
+    - independent late-4th-century attestation of his diaconate and reputation. The Bardesanes
+    chapter transmits the heresiological framing Jerome received, read with the same screen.
+    Context, not tradition: Jerome writes at one remove (he read Ephrem in Greek translation),
+    outside the Edessa/Nisibis tradition itself (syr.source.jerome-de-viris).
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: The Liturgy of the Blessed Apostles (Adaeus and Maris)
   author: liturgy-of-addai-and-mari
   locus: div2 12.4
@@ -414,6 +448,25 @@ works:
     before any specific wording should be treated as verified-direct; flagged as real follow-up
     work in syr.source.odes-of-solomon''s own trailing note.'
   source_file: harris_odes-and-psalms-of-solomon_harris1911.txt
+- work: Lausiac History
+  author: palladius
+  locus: 'Chapter XL: Ephraim'
+  role: context
+  confidence: assigned
+  note: 'Verified directly against the vendored file (line 471): "You must have heard particulars
+    about Ephraim, the deacon of the Church of Edessa..." followed by the famine-relief narrative
+    (Ephrem raises money, partitions the porticoes, sets up 300 beds, and nurses Edessa''s
+    famine-stricken before his death). Registered mid-ecology when figure work needed the
+    earliest witness to this tradition: Palladius (writing c. 420, within living memory of
+    Ephrem''s death) and Sozomen III.16 carry the same famine-relief story independently enough
+    to corroborate its age, and Palladius directly attests the "deacon of the Church of Edessa"
+    title (syr.source.palladius- lausiac-history). Context: a devotionally-shaped outsider
+    witness, not Ephrem''s own voice. Cross-build note carried from that record: the same
+    vendored file serves the Alexandria and Desert worlds too; only this Ephraim chapter is
+    licensed material for syr.
+
+    '
+  source_file: palladius_lausiac-history_clarke1918.txt
 - work: The Paradise of Palladius, Book I, ch. lviij (Of the Blessed Man Ephraim)
   author: palladius
   locus: Chapter lviij - the angelic roll, the famine relief, and the vine growing from his
@@ -537,6 +590,23 @@ works:
 
     '
   source_file: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml
+- work: The Ecclesiastical History of Theodoret
+  author: theodoret
+  locus: div2 3.8 — II.26 (the siege of Nisibis and 'the apostolic conversation' of Bishop
+    Jacobus), IV.26 (Of Didymus of Alexandria and Ephraim the Syrian)
+  role: context
+  confidence: assigned
+  note: 'Two Syriac-relevant loci verified directly against the file: II.26 (line 11049) is
+    the chapter "Of the siege of the city of Nisibis, and the apostolic conversation of Bishop
+    Jacobus" - the church''s own remembered story of the 350 siege (Jacob''s prayer, the gnat
+    plague), which places Jacob alive at that siege, one pole of the open 338-vs-350 death-year
+    conflict this world already tracks (world_core caution 10). IV.26 (line 15044) states
+    "at Edessa flourished the admirable Ephraim" - an independent 5th-century witness to Ephrem''s
+    standing, verified verbatim. Context, not tradition: Theodoret writes a century after
+    the events, hagiographically shaping the Nisibis narrative (syr.source.theodoret-historia-ecclesiastica).
+
+    '
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - work: Two Epistles Concerning Virginity
   author: two-epistles-on-virginity
   locus: div2 5.3-5.4

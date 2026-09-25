@@ -15,3 +15,33 @@ assignments:
     they are the outside of"). Julian's own account of his break with
     Constantius and, implicitly, the Christian household that raised
     him - the file's own vendoring note already frames it this way.
+
+- work: Letter to the Athenians (Letter to the Senate and People of Athens)
+  author: julian
+  locus: whole file (Loeb pp. 245-293)
+  atlas_ids:
+  - cappadocian-nicene-pastoral-monastic-tradition
+  role: context
+  confidence: assigned
+  note: >
+    Found by cappadocian.source.julian-letter-to-the-athenians (kind:
+    vendored, evidentiary_weight: load-bearing), already independently
+    verified by that build's own session before vendoring (identity,
+    completeness, Loeb pagination, footnote set), not just re-asserted
+    here. Independently re-confirmed again this session directly against
+    the file: content note at the file's own header states "Julian's own
+    account of his break with Constantius and, implicitly, with the
+    Christian household that raised him" - matching cappadocian's own
+    citation ("Julian's break with the Christian household that raised
+    him", Doc_01 SS4); the file's closing footnote block was counted and
+    confirmed at exactly 39 entries, matching both the header's own claim
+    and the record's own count. `role: context`: this is the old religion's
+    own outside voice pressing on a Christian tradition, the identical
+    role already given for imperial-juridical-christianity above, not
+    Cappadocian material speaking in its own voice. The letter's own
+    footnote 8 names "the castle of Macellum" - confirmed directly in the
+    file - the Cappadocian estate where Julian was held during the same
+    Christian upbringing the letter recounts breaking from; the
+    geographic and formational tie this world's own citation is pointing
+    at, verified from the primary text itself rather than asserted from
+    outside knowledge.
