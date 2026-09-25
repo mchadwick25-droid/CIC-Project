@@ -1721,6 +1721,46 @@ is a governance/methodology question about the gate's own scope, not something d
 
 Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
 
+### OG-26. Fresh M3 live-admission run against the rebuilt package, authorized directly by the project lead in chat with a $3 ceiling: 28/28 pass, real cost $0.449 (2026-09-25).
+
+OG-22 disclosed that the world_core/figure content fixes earlier in this PR superseded the
+package the original 28/28 M3 run (`engine/m3/reports/live-admission-report-lpc-2026-09-25.json`)
+had tested, and that no fresh run had been done against the recompiled package. OG-23 named a
+fresh run against the current package as required before `state: admitted`, pending the project
+lead's own explicit go and dollar ceiling, per this project's own standing discipline.
+
+The project lead gave that go directly in chat: "Give the M3 go-ahead within a $3 ceiling." Run
+command: `python3 -m engine.m3.live_admission_run --region us-east-1 --worlds lpc --max-usd 3.00
+--authorized-by "Mark, direct chat authorization 2026-09-25, $3 ceiling" --out
+engine/m3/reports/live-admission-report-lpc-2026-09-25-rerun.json`, against package
+`packages/lpc/2026-09-25T21-42-23Z` (manifest_hash
+`sha256:1e66d382af1c1efa1a0b504404ec3f5e666417dc02751eae6441c078b5d5ea50`, built from commit
+`3dae48c9` — the fully corrected records, after both readability-rewrite fidelity-fix rounds and
+the new `facilitator_brief` record). Preflight estimate $0.445, actual spend $0.449 — the script's
+own built-in preflight-and-running cost check never came close to the $3 ceiling. **28 of 28
+probes pass, `overall_pass: true`, zero failing probes.**
+
+One correction disclosed here rather than silently fixed: the `--authorized-by` string's own `$3`
+was shell-expanded away by an unescaped `$3` in the command as first run (bash read it as
+positional-parameter `$3`, which was empty), so the report's own `authorized_by` field first
+recorded "Mark, direct chat authorization 2026-09-25,  ceiling" — the dollar figure silently
+dropped from that one text field only. `max_usd: 3.0` itself was recorded correctly throughout
+and the run itself was never affected (the bug was in an audit-label string, not in any cost
+control). Corrected the field directly in the already-written report file rather than re-running
+the billed call a second time to fix a label.
+
+The original 2026-09-25 report is kept alongside this one (this project's own established
+convention, matching how `packages/<world>/` keeps every prior build rather than deleting
+superseded ones) — the `-rerun` suffix names it as the current, package-matching result; the
+original documents the pre-readability-rewrite package's own state and is left as historical
+record, not deleted.
+
+Per Mark's own ruling "a" (OG-23), a passing M3 run does not by itself flip `state: admitted` or
+any go-live surface — that remains the project lead's own separate, later action. Not changed
+here.
+
+Logged here per the same standing rule. Branch `lpc-registry-and-m3-admission`, same PR as OG-20.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
