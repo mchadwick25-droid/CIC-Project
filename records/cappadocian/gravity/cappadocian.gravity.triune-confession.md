@@ -115,8 +115,8 @@ precision-reserve gravity, and the renunciation-order gravity - these fractures 
 Eustathius, the ascetic mentor who became the pneumatological adversary, gives this world's pneumatology its
 own texture of personal grief.
 
-It is produced under the contested inheritance this world begins from - carried here as precondition-for,
-its founding force. Eunomius's own confidence and the pneumatological rupture force it toward precision;
+It is produced under the contested inheritance this world begins from - carried here as enabled-by, its
+founding force. Eunomius's own confidence and the pneumatological rupture force it toward precision;
 the empire's own policy oscillation makes it portable; the Theodosian settlement both consummates it and
 dissolves it as a live contest; canonization then fixes it in place. Eustathius (cappadocian.figure.eustathius)
 is carried as associated-with, load-bearing for this gravity's own sharpening - the same overlap named

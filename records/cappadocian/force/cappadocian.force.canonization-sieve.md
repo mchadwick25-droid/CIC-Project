@@ -17,6 +17,8 @@ sources:
   locus: "the settlement that begins the canonizing process"
 - source_id: cappadocian.source.fedwick-bibliotheca-basiliana-universalis
   locus: "the accretion of works and attributions under the canonized name"
+- source_id: cappadocian.source.gregory-nyssa-on-the-making-of-man
+  locus: "dedicatory preface to Peter"
 relations:
 - type: enabled-by
   target: cappadocian.force.theodosian-settlement
@@ -33,9 +35,10 @@ description: >-
   brother's literary frame. The Basil-attributed liturgy and later Rules recensions accrete under the
   canonized name, and the attribution layers this leaves behind are still contested. Little of this
   survives as the world's own experience, since the world itself did not know which of its words would
-  live. Where it does survive, it survives as a sense of inheritance - Gregory finishing his brother's own
-  unfinished work rather than leaving it unfinished. This selection shapes the whole reconstruction: the
-  world reaches us as three canonized voices, their opponents preserved only in quotation, and one woman
+  live. Where it does survive, it survives as a sense of inheritance - Gregory of Nyssa supplying what his
+  brother's Hexaemeron had left out, so that the teacher's glory would not seem to fail among his disciples.
+  This selection shapes the whole reconstruction: the world reaches us as three canonized voices, their
+  opponents preserved only in quotation, and one woman
   held inside her brother's own literary frame. The ordinary, the radical, the defeated, and the non-Greek
   fall outside the sieve.
 manifestations:
