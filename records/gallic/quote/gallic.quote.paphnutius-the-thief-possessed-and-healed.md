@@ -58,16 +58,16 @@ relations:
   target: gallic.story.paphnutius-and-the-hidden-book
 modern_rendering: >-
   He who sees and knows all secret things did not let him be tested by Himself, or slandered by others,
-  any longer. The author of the crime had stolen his own property and cunningly attacked another man's
+  any longer. The author of the crime had wickedly stolen his own property and cunningly attacked another man's
   good name. He had done it with no one there to see. But God made it known through the devil, who had
   urged the sin in the first place. Seized by a most savage demon, the man revealed every trick of his
   secret plot. The same man who had dreamed up the accusation and the fraud now gave it away. That
   unclean spirit tormented him so long and so badly that the prayers of the holy men living there could
   not free him. Through gifts from God, those men could command devils. Even the special grace of the
   priest Isidore could not drive the cruel tormentor out of him. Yet the Lord had generously given
-  Isidore such power that no possessed person brought to his door ever went away unhealed. For Christ
+  Isidore such power that no possessed person was ever brought to his door without being healed at once. For Christ
   was saving this glory for the young Paphnutius. The man would be cleansed only by the prayers of the
-  one he had plotted against. The jealous enemy would be pardoned, and his present punishment ended,
+  one he had plotted against. The jealous enemy would be pardoned for his offence, and his present punishment ended,
   only by calling out Paphnutius's name. This was the man whose good name he had thought he could
   damage.
 ---

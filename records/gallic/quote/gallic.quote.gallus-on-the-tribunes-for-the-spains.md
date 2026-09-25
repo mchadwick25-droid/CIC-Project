@@ -77,7 +77,7 @@ modern_lens_note: >-
   asks, but only by taking a step, at the ordination of Felix, that he will later call an evil communion.
 modern_rendering: >-
   I will now come to an event he always kept hidden, because of the times, but could not hide from us.
-  Part of this matter was a true miracle: an angel spoke with him face to face. The Emperor Maximus was
+  One part of this matter was miraculous: an angel spoke with him face to face. The Emperor Maximus was
   no doubt a good man in other ways. But after Priscillian had been put to death, the advice of some
   priests led him astray. So he used his royal power to protect Ithacius the bishop, who had accused
   Priscillian, and others of his allies, who need not be named. In this way the emperor stopped anyone
@@ -88,8 +88,8 @@ modern_rendering: >-
   was coming. When it came, they lost all courage and began to mutter and tremble among themselves.
   Under their influence, the emperor had already decided to send some tribunes with absolute power into
   the two Spains. They were to search out heretics and, once they found them, take their lives or their
-  goods. No doubt this storm would also wreck great numbers of truly holy people. Little care was taken
-  to tell one kind of person from another. At such times people were judged by
+  goods. There was no doubt that this storm would also wreck great numbers of truly holy people. Little
+  care would be taken to tell one kind of person from another. At such times people were judged by
   appearances alone. A man was judged a heretic for turning pale with fear, or for wearing certain
   clothes, rather than by the faith he professed. The bishops knew well that Martin would never approve
   of such actions. But their consciences were guilty, and they were deeply anxious that when he came, he

@@ -34,8 +34,9 @@ speaker_or_author: gallic.figure.sulpitius
 license: verbatim
 modern_lens_note: >-
   A modern reader might expect the office to have changed the man. Sulpitius states the opposite as a
-  single balanced sentence: dignity fit for a bishop, held together with the plain "objects" - the
-  ordinary tools and habits - of a monk. Neither role is described as winning out over the other.
+  single balanced sentence: dignity fit for a bishop, held together with the "objects" - in the older
+  sense of aims or purposes, the monk's chosen way of life - and virtues of a monk. Neither role is
+  described as winning out over the other.
 modern_rendering: >-
   Full of both dignity and courtesy, he held the office of bishop fittingly. Yet he did it without
   setting aside a monk's aims and virtues.

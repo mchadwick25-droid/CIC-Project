@@ -59,7 +59,7 @@ modern_rendering: >-
   God. He wept constantly at his prayers, and fasted three times as often as before. In front of others
   he lay face down, with complete humility of mind. For almost two weeks he humbled himself like this,
   in deep sorrow of body and spirit. Early on Saturday and Sunday mornings he came to church, but not to
-  receive Holy Communion. He came to lie face down on its threshold and humbly ask for pardon,
+  receive Holy Communion. He came to lie face down on its threshold and humbly ask for pardon.
 ---
 Verified directly against cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml. `grep -n "And
 when the inquisitors"` returns line 43039 (this quote's opening sentence begins there); `grep -n "humbly

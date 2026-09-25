@@ -42,7 +42,7 @@ relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
 modern_rendering: >-
-  This man wanted to spoil his inner beauty with some flaw or stain. So he came up with this devilish
+  This man wanted to spoil his beauty with some flaw or stain. So he came up with this devilish
   trick. He waited for a chance when Paphnutius had left his cell to go to church on Sunday. Then he
   crept into the cell in secret. Slyly, he hid his own book among the palm branches that Paphnutius used
   to weave. Sure that his trick was well planned, he went off to church himself, as if his conscience

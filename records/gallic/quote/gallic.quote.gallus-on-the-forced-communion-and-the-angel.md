@@ -119,8 +119,8 @@ modern_rendering: >-
   Renew your strength and take up your courage again. Otherwise you will put at risk not only your good
   name now, but your very salvation." So from then on he took great care never to be mixed up in
   communion with the party of Ithacius. But once he cured some of the possessed more slowly than usual,
-  and with less grace. At once he confessed to us in tears that he felt his power had lessened. The cause
-  was the evil of that communion. He had taken part in it for a moment out of necessity, not with his
+  and with less of the grace he usually had. At once he confessed to us in tears that he felt his power
+  had lessened. He said it was because of the evil of that communion. He had taken part in it for a moment out of necessity, not with his
   whole heart. He lived sixteen years after this. But he never again attended a synod, and he
   kept well away from all gatherings of bishops.
 relations:

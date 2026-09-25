@@ -50,8 +50,8 @@ relations:
 - type: associated-with
   target: gallic.story.paphnutius-and-the-hidden-book
 modern_rendering: >-
-  When the whole service had ended as usual, he stood before all the brothers and made his complaint to
-  Saint Isidore. Isidore was the priest of this desert before Paphnutius himself. He declared that his
+  When the whole service had ended as usual, he made his complaint to Saint Isidore in
+  front of all the brothers. Isidore was the priest of this desert before Paphnutius himself. The man declared that his
   book had been stolen from his cell. His complaint deeply troubled all the brothers, and the priest
   most of all. They did not know what to suspect or think first. Everyone was utterly astonished at so
   new and unheard-of a crime. No one remembered such a thing ever happening in that desert before, and
