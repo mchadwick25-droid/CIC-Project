@@ -18,6 +18,7 @@ author: William Harmless
 work: 'Augustine and the Catechumenate (Collegeville: Liturgical Press, 1995; rev. ed. 2014)'
 edition: Liturgical Press, 1995/2014 -- in copyright, never vendored (Source_Acquisition_Manifest.md SS3);
   not a vendoring candidate
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

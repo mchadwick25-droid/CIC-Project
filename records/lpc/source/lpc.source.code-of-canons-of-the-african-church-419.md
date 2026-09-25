@@ -20,6 +20,7 @@ author: The Council of Carthage (419) and the African episcopate under Aurelius 
 work: The Code of Canons of the African Church (Council of Carthage, 419)
 edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/texts/npnf214_seven-ecumenical-councils.xml;
   the Latin original (Bruns's 1839 edition) is separately vendored as row 202
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

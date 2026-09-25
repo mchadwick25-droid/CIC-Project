@@ -24,6 +24,7 @@ work: 'Minor treatises, grouped: An Address to Demetrianus, Exhortation to Marty
   Lord''s Prayer, On the Mortality (De Mortalitate), On the Vanity of Idols, Three Books of Testimonies
   Against the Jews (Ad Quirinum)'
 edition: Ante-Nicene Fathers vol. V, vendored as cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

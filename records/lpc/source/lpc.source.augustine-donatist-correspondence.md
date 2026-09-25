@@ -28,6 +28,7 @@ work: 'Letters -- the Donatist correspondence (11 of the vendored volume''s own 
   is the Catholic opponent in this cluster, the same normalization already applied to his anti-Donatist
   treatises (lpc.source.augustine-on-baptism-against-the-donatists, lpc.source.augustine-answer-to-petilian).'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/. This cluster is documented in the corpus map's own
   staging file (cic/corpus-map/_staging/npnf101_augustine-confessions-letters.yaml) but not yet promoted
   into the main corpus map; promoted to a Registry row and this source record this pass (#557 round 3,

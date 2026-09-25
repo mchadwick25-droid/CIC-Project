@@ -22,6 +22,7 @@ work: Die Prosopographie des afrikanischen Episkopats zur Zeit Cyprians, Quellen
   Archiven und Bibliotheken 12 (Rome, 1909), pp. 247-270
 edition: Now vendored, row 211 (2026-09-08), closing Manifest G8; vendored as cic/texts/vonsoden_prosopographie-afrikanischer-episkopat-deu_1909.txt,
   sliced to the article's own page range
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

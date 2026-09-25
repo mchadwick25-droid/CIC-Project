@@ -20,6 +20,7 @@ author: J. Patout Burns Jr.
 work: 'Cyprian the Bishop, Routledge Early Church Monographs (London: Routledge, hardback 2001 / paperback
   2002)'
 edition: Routledge, 2001/2002 -- consultation-only, never vendored (Source_Acquisition_Manifest.md SS3)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md
   §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that
   rule is not cited for it -- the substantive classification (in-copyright, never vendored, consultation-only)

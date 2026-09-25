@@ -21,6 +21,7 @@ work: 'Sacred Violence: African Christians and Sectarian Hatred in the Age of Au
   University Press, 2011)'
 edition: Cambridge University Press, 2011 -- consultation-only, never vendored (Source_Acquisition_Manifest.md
   SS3)
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only. This row sits above Source_Acquisition_Manifest.md
   §SS3's own stated Confidence-C-or-below membership rule (it is Confidence B, not C-or-below), so that
   rule is not cited for it -- the substantive classification (in-copyright, never vendored, consultation-only)

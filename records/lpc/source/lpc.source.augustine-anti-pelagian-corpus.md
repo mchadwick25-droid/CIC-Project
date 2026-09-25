@@ -22,6 +22,7 @@ work: 'Anti-Pelagian corpus, thirteen works, c. 412-429: On the Merits and Forgi
   and its Origin, On Grace and Free Will, On Rebuke and Grace, On the Predestination of the Saints, On
   the Gift of Perseverance, and Against Two Letters of the Pelagians'
 edition: Nicene and Post-Nicene Fathers, Series I, vol. V, vendored as cic/texts/npnf105_augustine-anti-pelagian-writings.xml
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

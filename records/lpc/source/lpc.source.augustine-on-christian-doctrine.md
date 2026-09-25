@@ -20,6 +20,7 @@ author: Augustine of Hippo
 work: On Christian Doctrine (Books I-IV)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. II, vendored as cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml;
   the Latin original (Bruder's 1838 Maurist-text edition) is separately vendored as row 200
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

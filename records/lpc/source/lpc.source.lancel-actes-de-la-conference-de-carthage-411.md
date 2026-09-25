@@ -35,6 +35,7 @@ edition: 'Lancel''s own Cerf critical edition is in copyright, consultation-only
   public domain on the same by-date basis this corpus already accepts for its other Migne PL volumes,
   and the corpus map now assigns it to this world too (cic/corpus-map/latin-pastoral-congregational-christianity.yaml,
   role: context, confidence: provisional, added 2026-09-13 on the project lead''s own decision).'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

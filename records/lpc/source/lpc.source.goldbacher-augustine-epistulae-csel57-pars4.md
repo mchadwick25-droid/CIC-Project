@@ -25,6 +25,7 @@ relations: []
 author: Alois Goldbacher (editor); Augustine of Hippo (author)
 work: S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars IV (Epistulae CLXXXV-CCLXX), CSEL 57
 edition: 'Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1911; vendored as cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

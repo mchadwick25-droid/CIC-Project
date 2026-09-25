@@ -27,6 +27,7 @@ work: 'Histoire littéraire de l''Afrique chrétienne depuis les origines jusqu'
 edition: Vols. I-III now vendored, rows 206-208 (2026-09-08), closing Manifest G5 in full; vols. IV-VI
   already vendored in the shared corpus under the sibling Donatism build's own former G6; vol. VII not
   requested by either world.
+kind: unvendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

@@ -22,6 +22,7 @@ work: 'Vie liturgique et quotidienne à Carthage vers le milieu du IIIe siècle:
   Istituto di Archeologia Cristiana, 1969; 2nd ed. 1984)'
 edition: Pontificio Istituto di Archeologia Cristiana, 1969/1984 -- in copyright, never vendored (Source_Acquisition_Manifest.md
   SS3); not a vendoring candidate
+kind: unvendored
 rights_status: in-copyright; never vendored, consultation-only, per Source_Acquisition_Manifest.md SS3's
   own stated membership rule -- 'every Native, Confidence-C-or-below Registry row whose Verification Note
   says "in copyright" and "consultation-only" or "not a vendoring candidate" is in this category' -- spanning

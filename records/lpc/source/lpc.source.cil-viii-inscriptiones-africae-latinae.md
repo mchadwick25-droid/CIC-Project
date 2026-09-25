@@ -23,6 +23,7 @@ work: 'Corpus Inscriptionum Latinarum, vol. VIII, Inscriptiones Africae Latinae 
 edition: the Numidia supplement is vendored in the shared corpus as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt,
   discharged 2026-09-01 on the sibling Donatism build's own former G7 request, and directly usable by
   this document
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

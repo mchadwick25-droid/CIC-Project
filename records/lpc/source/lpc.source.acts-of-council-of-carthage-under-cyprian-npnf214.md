@@ -22,6 +22,7 @@ work: The Acts of the Council of Carthage under Cyprian (256 per modern scholars
   own headings date it a.d. 257, twice) -- an npnf214 telling, distinct from row 4's anf05 telling of
   the same council
 edition: Nicene and Post-Nicene Fathers, Series II, vol. XIV, vendored as cic/texts/npnf214_seven-ecumenical-councils.xml
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

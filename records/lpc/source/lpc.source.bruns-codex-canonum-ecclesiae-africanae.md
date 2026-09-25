@@ -25,6 +25,7 @@ author: Hermann Theodor Bruns (editor); the Council of Carthage (419) and the Af
 work: Canones Apostolorum et Conciliorum Saeculorum IV-VII, Pars Prior (Bibliotheca Ecclesiastica) --
   includes the Codex Canonum Ecclesiae Africanae (Council of Carthage, 419)
 edition: 'Berolini: G. Reimeri, 1839; vendored as cic/texts/codex-canonum-ecclesiae-africanae_bruns-pars1-1839.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

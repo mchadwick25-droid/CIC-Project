@@ -20,6 +20,7 @@ author: Augustine of Hippo
 work: Expositions on the Book of Psalms (Enarrationes in Psalmos) (~695,000 words)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. VIII, vendored as cic/texts/npnf108_augustine-exposition-psalms.xml;
   the Latin original (Migne's 1861 printing of the Maurist text) is separately vendored as row 201
+kind: vendored
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated this pass.'

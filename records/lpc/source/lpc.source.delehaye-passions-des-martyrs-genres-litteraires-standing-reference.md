@@ -21,6 +21,7 @@ author: Hippolyte Delehaye, S.J.
 work: 'Les Passions des martyrs et les genres littéraires, Subsidia Hagiographica 13b (Brussels: Société
   des Bollandistes, 1921; 2nd ed. 1966)'
 edition: Now vendored, row 212 (2026-09-08), closing Manifest G9; vendored as cic/texts/delehaye_passions-martyrs-genres-litteraires-fra_1921.txt
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for

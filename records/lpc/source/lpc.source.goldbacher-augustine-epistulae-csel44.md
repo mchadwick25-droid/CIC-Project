@@ -22,6 +22,7 @@ author: Alois Goldbacher (editor); Augustine of Hippo (author)
 work: S. Aureli Augustini Hipponiensis episcopi Epistulae, Pars III (Epistulae CXXIV-CLXXXIV A), CSEL
   44
 edition: 'Vindobonae: F. Tempsky; Lipsiae: G. Freytag, 1904; vendored as cic/texts/augustine_epistulae-124-184a-lat_goldbacher-csel44.txt'
+kind: vendored
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified -- either across Doc_01's own nine adversarial review rounds, or by this build session's
   own direct archive.org fetch-and-verify pass (Source_Acquisition_Manifest.md SS1). Not re-opened for
