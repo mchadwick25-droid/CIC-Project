@@ -56,7 +56,7 @@ root `tools/`; everything else in `tools/` — scripts nothing in CI invokes —
 
 | entry | what it is |
 |---|---|
-| `Sandbox/` | experimental engine changes, in-progress redesigns, and next-version drafts of any kind — not yet part of Live, not settled enough to be Build. Distinct from the existing per-feature design-exploration folders under `Build/Ministry/Features/<name>/Sandbox/`, which stay tied to their own feature's decision log |
+| `Sandbox/` | experimental engine changes, in-progress redesigns, and next-version drafts of any kind — not yet part of Live, not settled enough to be Build. Pure code only, clean like Live — no design notes, decision logs, or process narrative (decided 2026-09-26). Support material for `Sandbox/<project>/` lives in `Build/Ministry/Features/<project>/` instead, the same place every other feature workstream keeps its own design notes and decision log — so promoting out of Sandbox is just moving clean code, never a "strip commentary first" step. Distinct from the existing per-feature design-exploration folders under `Build/Ministry/Features/<name>/Sandbox/`, which stay tied to their own feature's decision log |
 
 ## History
 
