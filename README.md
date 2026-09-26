@@ -32,7 +32,7 @@ of promotion. See "How things move" for the promotion path.
 
 | entry | what it is |
 |---|---|
-| `worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `worlds/<code>/`, indexes/build log/source manifest at `worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Six not-yet-coded worlds (Anabaptist Movements, Lollardy, Lutheran-Wittenberg, Reformed Zurich and Geneva, Society of Jesus, Tridentine Church) stay under `World-Builds/` at their long names until each gets a registry code |
+| `worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `worlds/<code>/`, indexes/build log/source manifest at `worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Six not-yet-coded worlds (Anabaptist Movements, Devotio Moderna and the Brethren of the Common Life, the Hussite and Bohemian Brethren Movement, Lollardy, Society of Jesus, Tridentine Church) stay under `World-Builds/` at their long names until each gets a registry code |
 | `tools/` | repo-level scripts that are not engine modules: the census validator CI runs, the lexicon compliance checker, the path check and the reorganization tooling |
 
 ## Reference — the method and spec library
@@ -59,7 +59,7 @@ of promotion. See "How things move" for the promotion path.
 
 ## How a world is named
 
-The registry code in `records/worlds.yaml` (`alx`, `desert`, `pahc`, `hal`, `syr`,
+The registry code in `records/worlds/<code>.yaml` (`alx`, `desert`, `pahc`, `hal`, `syr`,
 `ijc`, `cappadocian`, `don`, …) is the key everywhere: `records/<code>/`,
 `packages/<code>/`, `worlds/<code>/`. `census_id` joins a world to its
 Atlas entry and to its shelf in `cic/corpus-map/`. Display names appear only as
