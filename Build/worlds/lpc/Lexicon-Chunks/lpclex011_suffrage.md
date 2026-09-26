@@ -56,7 +56,7 @@ Epistle XXXIX (Registry row 1, Confidence A), directly quoted and re-verified at
 
 **No [PV] tag on this term.** Doc_03 rules it out **by name**: *"it does not sit on 'suffrage,' which is a cross-phase pattern rather than a single-phase term."*
 
-**Caution, carried from Doc_03 and load-bearing.** The pattern is attested through **different figures and different words** — and at **the episcopate for both men**, Possidius *Vita* ch. VIII recording popular clamour, refusal and compulsion at Augustine's own (Possidius *Vita* ch. VIII; project lead's ruling, 2026-09-16), with the presbyterate (*Vita* ch. IV) besides — not one recurring term. It is named as a pattern, not presented as a shared vocabulary item.
+**Caution, carried from Doc_03 and load-bearing.** The pattern is attested through **different figures and different words** — and at **the episcopate for both men**, Possidius *Vita* ch. VIII recording popular clamour, refusal and compulsion at Augustine's own (Possidius *Vita* ch. VIII), with the presbyterate (*Vita* ch. IV) besides — not one recurring term. It is named as a pattern, not presented as a shared vocabulary item.
 
 ---
 

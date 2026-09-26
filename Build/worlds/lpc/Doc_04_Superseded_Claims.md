@@ -20,7 +20,7 @@ Nothing here is a live claim. **One narrow finding recorded at §2 is relied on 
 
 **1.5 Supporting, held provisionally under the ambiguous-results provision.** Withdrawn: Round 9 H1/H2 found the provision's antecedent — *"where gravity tests yield ambiguous **results**"* — not satisfied. The six tests yield six determinate verdicts, and the sentence asserting ambiguity was refuted by the clause after its own colon. The provision was made to fit by rendering *"ambiguous results"* as *"ambiguous candidates,"* moving a predicate from results onto candidates.
 
-**Current:** Candidate 5 is classified **Supporting on the project lead's ruling of 2026-09-14**. See `Doc_04_Gravity_Discovery.md` §3.
+**Current:** Candidate 5 is classified **Supporting on a ruling outside the six-test evidence**. See `Doc_04_Gravity_Discovery.md` §3.
 
 ---
 

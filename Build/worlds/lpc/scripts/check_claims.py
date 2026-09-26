@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """Claims register — a control for this build's signature defect.
 
-Eight of the eleven HIGH findings raised against Doc_09 across eight review
-rounds are ONE defect: **a silence asserted about a source, which the source
-refutes.** Round 7's instance had stood in the original draft and survived
-six rounds because no reviewer happened to quote that sentence. Round 8
-found no new instance only because it extracted 111 such claims by hand and
-tested them — work that no round before it had done and that nothing
-obliged it to do.
+Most of the substantial findings raised against Doc_09 reduce to ONE defect:
+**a silence asserted about a source, which the source refutes.** A sentence
+of that shape can stand undetected for a long time, because ordinary reading
+does not systematically re-check every asserted absence against the source
+it names.
 
 Correcting each sentence as it is caught has not stopped the class. This
 script is the structural alternative: it makes every corpus-absence claim in

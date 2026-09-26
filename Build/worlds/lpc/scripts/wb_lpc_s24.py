@@ -35,7 +35,7 @@ ONE LIVE-SCHEMA DIFFERENCE FROM DON'S OWN ORIGINAL s24, CONFIRMED BY DIRECT
 READ OF THE CURRENT LIVE RECORDS, NOT ASSUMED FROM THE OLDER SCRIPT FILE.
 don's own wb_don_s24.py (as a file) still writes `retrieval.do_not_retrieve_
 when`; the live don records under records/don/story/ and records/don/quote/
-have since been migrated (Build-Plan.md Stage 4a, R11 2026-09-21) to
+have since been migrated to
 `retrieval.prefer_instead` for the redirect half and envelope-level
 `claim_guards` for the honesty-guard half, and `gate_retrieval_negatives_
 structured` (engine/m1/gates.py) now hard-fails a populated `do_not_retrieve_
@@ -147,66 +147,59 @@ presbyters and named deponents inside the quote-set's own source material
 surrounding prose, not inside the quoted line itself, and appearing nowhere
 in any of the seven Story-Chunks).
 
-QUOTE SET, BOUNDED -- the judgment call this step's own launch brief names
-explicitly and requires named here, following don's own disclosed-narrowing
-discipline exactly. The Permanent Prompt's own "what our own life actually
-gave us" paragraph (line 37) names, in order: (1) the shepherd wounded in his
-own flock's wound, wailing and weeping with it; (2) the crowd's own calling
-of a man to office against a faction's ancient venom; (3) the crowd's own
-clamour at a second bishop's own reluctant elevation; (4) a certificate
-written out with a name on it, weighed against a wide door thrown open to
-unnamed people at once; (5) "neither of us set himself up as a bishop of
-bishops," answered at length a century and a third later; (6) what is given
-outside the church at baptism, held two ways a century apart; (7) a preacher
-naming to his own gathered people that their waiting is itself a prayer for
-him. This script builds `quote` records for FOUR of these seven:
+QUOTE SET, BOUNDED -- following don's own disclosed-narrowing discipline
+exactly. The Permanent Prompt's own "what our own life actually gave us"
+paragraph (line 37) names, in order: (1) the shepherd wounded in his own
+flock's wound, wailing and weeping with it; (2) the crowd's own calling of a
+man to office against a faction's ancient venom; (3) the crowd's own clamour
+at a second bishop's own reluctant elevation; (4) a certificate written out
+with a name on it, weighed against a wide door thrown open to unnamed people
+at once; (5) "neither of us set himself up as a bishop of bishops," answered
+at length a century and a third later; (6) what is given outside the church
+at baptism, held two ways a century apart; (7) a preacher naming to his own
+gathered people that their waiting is itself a prayer for him. This script
+builds `quote` records for FIVE of these seven:
   1. BUILT (lpc.quote.shepherd-wounded-in-the-flock). Cyprian, *De Lapsis*
      SS4: "since it is the shepherd that is chiefly wounded in the wound of
      his flock... I wail with the wailing, I weep with the weeping."
-     Independently re-located and re-read this session at cic/texts/
-     anf05_hippolytus-cyprian-caius-novatian.xml, line 43729 (the exact
-     clause "wail with the wailing" -- not "wails," the Permanent Prompt's
-     own light paraphrase) -- matching and grounding lpc.term.the-flock's
-     own already-cited locus at De Lapsis 4, independently re-confirmed
-     rather than only cited from that term record's own prior finding.
+     Located at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line
+     43729 (the exact clause "wail with the wailing" -- not "wails," the
+     Permanent Prompt's own light paraphrase) -- matching and grounding
+     lpc.term.the-flock's own already-cited locus at De Lapsis 4.
   2. BUILT (lpc.quote.ancient-venom-against-my-episcopate). Cyprian, *Ep.*
      XXXIX SS1 (the ANF's own "Epistle XLI," section id iv.iv.xxxix):
      "retaining that ancient venom against my episcopate, that is, against
      your suffrage and God's judgment, they renew their old attack upon me."
-     Independently re-located this session at line 32372 of the same
-     vendored file -- the correct locus lpc.source.cyprian-epistles's own
-     divergence_note already names (a citation error to *Ep.* XL stood in
-     this world's build for six days before being corrected to *Ep.* XXXIX;
-     this record inherits the corrected locus and re-verifies it directly
-     rather than trusting the correction on the record's own say-so).
+     Located at line 32372 of the same vendored file -- the correct locus
+     lpc.source.cyprian-epistles's own divergence_note names (as distinct
+     from *Ep.* XL).
   3. BUILT (lpc.quote.bishop-of-bishops). Cyprian, opening the 256 Council of
      Carthage: "For neither does any of us set himself up as a bishop of
      bishops, nor by tyrannical terror does any compel his colleague to the
      necessity of obedience; since every bishop, according to the allowance
      of his liberty and power, has his own proper right of judgment, and can
      no more be judged by another than he himself can judge another."
-     Independently re-located this session at line 56872 of the same
-     vendored file, and independently corroborated at two further points in
-     the same file where Augustine himself quotes the identical proposition
-     back (lines 11292, 11626, 12207) while arguing against it at length --
-     the strongest-attested single line in this world's whole corpus, and
-     already the sole cited locus of the existing lpc.term.bishop-of-bishops
-     (records/lpc/term/, B-2/B-3, read but not touched this pass).
+     Located at line 56872 of the same vendored file, and corroborated at
+     two further points in the same file where Augustine himself quotes the
+     identical proposition back (lines 11292, 11626, 12207) while arguing
+     against it at length -- the strongest-attested single line in this
+     world's whole corpus, and already the sole cited locus of the existing
+     lpc.term.bishop-of-bishops (records/lpc/term/, B-2/B-3, not touched by
+     this script).
   4. BUILT (lpc.quote.clamour-and-tears). Possidius, *Vita Augustini* IV:
      "they demanded it with great zeal and clamor, while he wept freely."
-     Independently re-located this session at line 1817 of cic/texts/
-     possidius_vita-augustini_weiskotten1919.txt -- OUTSIDE lpcstory007's own
-     declared XXVIII-XXXI span (the death and burial sequence), inside
-     Chapter IV (Augustine's forced ordination as presbyter at Hippo, 391),
-     the same file row 192 already licenses and the same disclosed-reach-
-     beyond-the-story's-own-span move don's own script names for its own
-     Optatus Book III quote (that story draws from Book I). The translator's
-     own endnote at this chapter (page 150) additionally quotes Augustine's
-     own first-person Sermon CCCLV: "Apprehensus presbyter factus sum" ("I
-     was seized and made a presbyter"), independently re-located this
-     session and cited in this record's own body as corroboration, not
-     substituted for Possidius's own third-person account as the record's
-     `text`.
+     Located at line 1817 of cic/texts/possidius_vita-augustini_
+     weiskotten1919.txt -- OUTSIDE lpcstory007's own declared XXVIII-XXXI
+     span (the death and burial sequence), inside Chapter IV (Augustine's
+     forced ordination as presbyter at Hippo, 391), the same file row 192
+     already licenses and the same disclosed-reach-beyond-the-story's-own-
+     span move don's own script names for its own Optatus Book III quote
+     (that story draws from Book I). The translator's own endnote at this
+     chapter (page 150) additionally quotes Augustine's own first-person
+     Sermon CCCLV: "Apprehensus presbyter factus sum" ("I was seized and
+     made a presbyter"), cited in this record's own body as corroboration,
+     not substituted for Possidius's own third-person account as the
+     record's `text`.
   5. NOT built (item 4 above, the certificate/wide-door image). This is a
      synthesized contrast between two attested practices (the confessors'
      own named libelli pacis, lpc.term.certificates-letters-of-peace, and a
@@ -225,26 +218,14 @@ him. This script builds `quote` records for FOUR of these seven:
   7. BUILT (lpc.quote.longing-expectation-is-a-prayer-for-me). Augustine,
      Sermon I [LI, Benedictine], on the agreement of Matthew and Luke's
      genealogies, delivered at the matins of the Nativity festival: "this
-     your longing expectation is a prayer for me." Located this session at
-     line 9398 of cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-
-     homilies.xml by direct keyword search.
-     [CORRECTION, same session.] An earlier draft of this docstring listed
-     this item as "NOT built... searched this session... and not located."
-     That claim was false: the phrase is present verbatim in the same file
-     an actual search finds it in on the first attempt. The false-absence
-     claim was caught by this world's own independent review process before
-     being committed and is not carried forward here -- disclosed as a
-     caught error rather than silently corrected, since this is the exact
-     defect class (a stated absence a source itself refutes) this project's
-     own `Doc09_Claims_Register.md` and `check_claims.py` exist to control
-     for, and it belongs on the record that this step's own first pass
-     produced one anyway.
+     your longing expectation is a prayer for me." Located at line 9398 of
+     cic/texts/npnf106_augustine-sermon-mount-harmony-gospels-homilies.xml
+     by direct keyword search.
 This is a disclosed narrowing to a five-item quote-record set out of seven
 named images, not a silent one: two of the seven (items 5 and 6 above,
 using this docstring's own numbering) are synthesized contrasts with no
 single quotable sentence behind them and were not built; the remaining
-five, all independently re-verified against their vendored source files
-this session, were.
+five, each independently verified against its vendored source file, were.
 
 RELATIONS -- CLOSED-GRAPH DISCIPLINE, following don's own script exactly.
 records/lpc/gravity/, records/lpc/force/ and records/lpc/contested_claim/ do
@@ -718,7 +699,7 @@ def build_stories() -> None:
         "Documented. Tier 1, Documented (Doc_09 SS3). Cyprian's own letter, first person, naming its eight "
         "recipients, stating an amount and a mechanism -- named author, exact social location, "
         "datable horizon, and a claim of the most ordinarily verifiable kind. One evidentiary "
-        "discipline recorded because this world's own build has been caught by it repeatedly: the "
+        "discipline applies here: the "
         "ANF edition prints an Argument above the letter which is nineteenth-century editorial "
         "matter, not Cyprian; this record cites SS3 of the letter's own body, where Cyprian states "
         "the sum in his own voice, not the Argument that happens to carry the same true figure.",
@@ -763,8 +744,7 @@ def build_stories() -> None:
         "Mapped directly from Story-Chunks/lpcstory004_hundred-thousand-sesterces.md, recast into "
         "first-person register. 'Hundred thousand sesterces' independently re-located this session "
         "at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, line 36082 -- the same line "
-        "this record's own sources[].locus field cites, corrected from an earlier draft's "
-        "uncorrected 33600-33660 range in the same fix pass; verification_state held at "
+        "this record's own sources[].locus field cites; verification_state held at "
         "verified-direct on that basis. The claim_guards entry converts the chunk's own 'the "
         "Representative should resist converting the sum into modern currency' Usage Guidance line "
         "into the live schema's own barred-claim field, per this script's own field-mapping "

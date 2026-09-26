@@ -59,7 +59,7 @@ record rather than assumed:
     builder could argue Tier 1 here... Which clause governs when they
     point opposite ways is a Construction Framework question, not a
     question this build can settle") -- carried as an open escalation at
-    Doc_09 §8 item 7 and NOT disposed of by the document's own 2026-09-15
+    Doc_09 §8 item 7 and NOT disposed of by the document's own
     Approved-to-proceed disposition ("the escalation at §8 item 7... remains
     open and is not disposed of by this approval"). This is not a [CT]
     term -- it is a genuine, textually-attested, currently-open dispute
@@ -631,8 +631,8 @@ def build_cyprian_death_genre() -> None:
             "witness, because the Acta Proconsularia, the strictly documentary record of the trial "
             "Pontius himself points readers toward, is vendored in Latin only and has not been read in "
             "this build (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent Story Note).",
-            "This world's own Doc_09 was independently reviewed across eight adversarial rounds and "
-            "approved to proceed on 2026-09-15 with this exact question named as an unresolved "
+            "This world's own Doc_09 was independently reviewed and "
+            "approved to proceed with this exact question named as an unresolved "
             "escalation rather than settled by that approval: 'the escalation at §8 item 7 -- which half "
             "of CF V7.4's Tier 3 definition governs when its genus clause and its hagiographic-convention "
             "clause point opposite ways at lpcstory006 -- remains open and is not disposed of by this "

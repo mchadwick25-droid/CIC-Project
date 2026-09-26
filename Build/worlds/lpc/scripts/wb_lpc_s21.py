@@ -12,7 +12,7 @@ inputs, at roughly four times don's own scale (207 Native rows against don's
 55) -- the per-row authoring below is scaled to what each row's own
 Verification Note actually contains, not padded to match don's own prose
 length: `lpc`'s Source_Registry.md is itself far denser for its ~30 primary
-Cyprian/Augustine rows and, from Round 3 onward, far terser for the ~150
+Cyprian/Augustine rows and far terser for the ~150
 recall-test/PRESS secondary-scholarship rows it repeatedly adds ("Not
 currently vendored. In copyright; consultation-only. Flagged for priority
 second-opinion review..." -- often the row's entire Verification Note). This
@@ -38,9 +38,8 @@ INPUTS, mapped to OUTPUTS, precisely:
     physical portions and is Excluded on BOTH: its Scillitan-Martyrs portion
     mirrors row 28 exactly (a second-witness Latin/Greek text of the same
     excluded work), and its Perpetua-and-Felicitas portion is not merely
-    Excluded but ASSIGNED TO A THIRD WORLD ENTIRELY -- `tertullian-s-voice`,
-    on Mark's own prior 2026-08-26 ruling, independently reconfirmed this
-    session -- neither portion is Native to `lpc` on any reading. All five
+    Excluded but ASSIGNED TO A THIRD WORLD ENTIRELY -- `tertullian-s-voice`
+    -- neither portion is Native to `lpc` on any reading. All five
     are deliberately NOT emitted, following the don/cappadocian precedent
     exactly (wb_don_s21.py's own module docstring: "Only rows with Boundary
     Status 'Native' become... records... deliberately NOT emitted...
@@ -187,8 +186,8 @@ itself, applied here to a differently-shaped Registry:
     supplement, not an independent recension).
 
   - discovery_channel: AUTHORED per row, taken from the Registry's own
-    Discovery column and, for the great majority of rows added from Round 2
-    onward, from the row's own Verification Note, since the Registry's own
+    Discovery column and, for the great majority of rows, from the row's own
+    Verification Note, since the Registry's own
     Discovery methodology note states plainly that no per-search
     `records/lpc/search_record/` log was kept and that column reflects the
     corpus map for primary sources and this session's own WebSearch queries
@@ -607,9 +606,9 @@ ROWS: list[dict] = [
         edition="Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as "
                 "cic/texts/npnf101_augustine-confessions-letters.xml",
         rights=RIGHTS_VENDORED_INHERITED,
-        attribution="attributed; deliberately double-placed with the Hieronymian world (Doc_01 SS7), "
-                    "per Mark's own 2026-08-26 split ruling -- 'the exchange contains Jerome's own "
-                    "letters... and Augustine's, which are the Latin pastoral world's.'",
+        attribution="attributed; deliberately double-placed with the Hieronymian world (Doc_01 SS7): "
+                    "the exchange contains Jerome's own letters, filed to the Hieronymian world, and "
+                    "Augustine's, filed here as the Latin pastoral world's own side.",
         discovery="corpus map / cic/corpus-map/latin-pastoral-congregational-christianity.yaml / "
                   "2026-09-01.",
         cite="B", verif="verified-via-authority", weight="corroborating", formation="Widely Accepted",
@@ -617,8 +616,7 @@ ROWS: list[dict] = [
                    "than a boundary breach: the corpus map assigns this cluster tradition to both "
                    "worlds, since a two-sided correspondence has voice on both sides. Not "
                    "independently re-collated line-by-line this session.",
-        body="This world's own side of a two-sided exchange with the Hieronymian world, per Mark's own "
-             "split ruling.",
+        body="This world's own side of a two-sided exchange with the Hieronymian world.",
     ),
     dict(
         row=11, slug="augustine-general-correspondence",
@@ -641,7 +639,7 @@ ROWS: list[dict] = [
                    "('ordinary episcopal correspondence... friendship') and four specifically located "
                    "letters (XXXI, CCXIII, CXXVI, CCXI), all four directly re-verified against "
                    "source. The general characterization of the other 134 is NOT independently "
-                   "checked -- named as an open question for a future review round rather than "
+                   "checked -- named as an open question rather than "
                    "resolved by this row's own say-so, the same shape of reasoning row 3 already "
                    "carries for its own Confidence B. Letter XXXI SS4 and Letter CCXIII SS4 ground "
                    "Doc_01's own ordination account; Letters CXXVI and CCXI ground Doc_02 SS6's "
@@ -906,7 +904,7 @@ ROWS: list[dict] = [
                   "2026-09-01.",
         cite="B", verif="verified-via-authority", weight="corroborating", formation="Widely Accepted",
         divergence="Not independently re-collated this session; not double-assigned to any other "
-                   "world per the corpus map's own note (Mark's own ruling).",
+                   "world per the corpus map's own note.",
         body="Written at Hippo, 413-427, occasioned by the sack of Rome (410) -- Augustine's own "
              "largest work.",
     ),
@@ -3105,8 +3103,7 @@ ROWS: list[dict] = [
         discovery="WebSearch / 2026-09-02.",
         cite="C", verif="named-not-rechecked", weight="corroborating", formation="Widely Accepted",
         divergence="Flagged for priority second-opinion review before it supports any specific "
-                   "claim. The sharpest of Round 11's three PRESS answers -- closes the gender-data-"
-                   "point gap Round 11's own M1 finding named at Doc_02 SS6.",
+                   "claim. Closes the gender-data-point gap named at Doc_02 SS6.",
         body="Licensed for Doc_02 SS6's own Gender/Article 20 discussion directly -- a survey of "
              "Augustine's own theological correspondence with fifteen different named women, of "
              "which SS6 currently names three (Albina, the Nuns of Hippo, and Sermons 280-281 on "
@@ -4403,7 +4400,7 @@ CAUTIONS = (
     "12, 44). 6) THE CONCILIAR-AUTHORITY AXIS (G5) IS HELD OPEN, NOT SETTLED: Cyprian's own "
     "egalitarian, non-coercive theory of inter-episcopal authority and Augustine's own hierarchical, "
     "correctable one are real, substantial differences Doc_01 SS8 item 10 names and does not consider "
-    "fully closed -- Doc_04 Round 9 finds a determinate Framework classification reachable from its "
+    "fully closed -- Doc_04 finds a determinate Framework classification reachable from its "
     "own premises but not yet run, and the strand-singular finding itself carries a disclosed "
     "reopening caveat on exactly this axis (Doc_01 SS4, SS5, SS8 item 10; Doc_07 SS2D, SS8). 7) THE "
     "DE UNITATE TWO-RECENSION QUESTION IS UNRESOLVED: De Unitate 4-5 survives in two recensions, one "
@@ -4524,9 +4521,9 @@ WORLD_ID: `latin-pastoral-congregational-christianity`. This world has no entry 
 
 TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conversion and rise to the episcopate, "c. 246-249" as a single approximate range rather than don's own doubled 311/312 opening; the earlier boundary year is carried in the schema's own single integer, with the fuller two-to-three-year interval and the two bishops' own different conversion-to-office intervals stated in `horizon` instead of collapsed. The 430 close is Augustine's own death during the Vandal siege of Hippo -- Doc_01 SS2 argues it is a real ecological rupture of the same kind that opens this world, not merely a biographical endpoint, and `horizon` carries that argument rather than only the date.
 
-WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1, 2026-09-16, by the project lead) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
+WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
 
-REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice`, on Mark's own prior 2026-08-26 ruling, independently reconfirmed this session -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.
+REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.
 """
 
 

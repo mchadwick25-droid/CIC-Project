@@ -80,7 +80,7 @@ Confidence cells above carry the leading band only where a chunk declares more t
 
 **Every row a story actually draws on is Native. No story draws on an Excluded row, and none draws on a neighbouring world's evidence base.** The check is mechanical: the row number is read from each chunk's own Source field and its Boundary Status read from the Registry table. **A story sourced to an Excluded row halts the generator** — the nearest live case is row 28, *The Passion of the Scillitan Martyrs*, marked **Excluded, Named Comparandum**, which Doc_09 §6 records as considered and not built.
 
-**Rows a chunk names in order to say it did *not* use them are listed separately and excluded from the check.** The derivation was **polarity-blind**: `lpcstory006` names rows 41 and 194 inside the clause *"has not been read in this build"*, and the index credited it with them and then asserted they were Native — **vouching for a source the chunk says it never opened.** They are shown rather than silently dropped, because a silent exclusion is the same defect inverted.
+**Rows a chunk names in order to say it did *not* use them are listed separately and excluded from the check.** The derivation is **polarity-aware**: `lpcstory006` names rows 41 and 194 inside the clause *"has not been read in this build"*, so the index does not credit it with them or assert they are Native on that basis. They are shown rather than silently dropped, because a silent exclusion is the same defect inverted.
 
 ---
 

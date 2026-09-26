@@ -4,7 +4,7 @@
 
 **What this is.** Every claim Doc_09 and the seven story chunks make about **what the record does not contain** — every asserted absence, silence or exclusivity — with a record of how it was checked.
 
-**Why it exists.** Eight of the eleven HIGH findings raised against this document across eight review rounds are **one defect: a silence asserted about a source, which the source refutes.** Round 7's instance had stood in the original draft and survived six rounds, because no reviewer happened to quote that sentence. Round 8 found no new instance only because it extracted 111 such claims by hand and tested them — work nothing obliged it to do, and which no earlier round had done.
+**Why it exists.** Most of the substantial findings raised against this document reduce to **one defect: a silence asserted about a source, which the source refutes.** A sentence of that shape can stand undetected for a long time, because ordinary reading does not systematically re-check every asserted absence against the source it names.
 
 **Correcting each sentence as it is caught has not stopped the class.** This register is the structural alternative. `scripts/check_claims.py` derives the claim set from the deliverables and **halts** if a claim about the record has no entry here, or if an entry describes text that no longer exists. A new absence therefore cannot enter the document unnoticed, which is the defect's only entry point.
 

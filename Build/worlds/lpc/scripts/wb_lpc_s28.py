@@ -248,30 +248,20 @@ interior content the record cannot support:
      of the key, the ring and the annual audit").
 
 ===========================================================================
-POST-DRAFT CORRECTIONS (independent adversarial review)
+CITATION NOTE
 ===========================================================================
 
-Independent review found the mechanical/structural layer and every quote
-checked clean -- no fabrication, no misattribution, no invented detail, no
-false-absence overstatement, no register leak. Two citation-accuracy
-findings, both fixed directly in this script rather than left as a
-follow-up:
-  - MEDIUM: "Epistle XV" was the wrong locus for the certificate-process
-    quote ("I beg you that you will designate by name in the certificate...")
-    in both lpc.witness.answerability-as-ground's and lpc.witness.
-    confessor-claim-vs-regulated-peace's own sources[]. Re-checked directly
-    against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line
-    29946, inside the XML's own div id="iv.iv.x") -- this is Epistle X in
-    this edition, not XV. Corrected in both records. The identical error was
-    found to already exist in the already-merged lpc.demo.road-back-
-    examined.md (B-7/Part 6), inherited from that record's own citation of
-    Voice Construction Section 2A entry 4 -- not introduced by this script,
-    but a real defect nonetheless. Fixed there too, by direct targeted edit
-    (not by re-running wb_lpc_s27.py, which this correction does not
-    otherwise touch).
-  - LOW (this docstring's own citation, immediately above): "Doc_09 §6 item
-    5" corrected to "Doc_09 §7 item 5" -- the key/ring/audit summary phrase
-    is in §7 (Absent Stories), not §6 (Candidates Considered and Not Built).
+The certificate-process quote ("I beg you that you will designate by name
+in the certificate...") in both lpc.witness.answerability-as-ground's and
+lpc.witness.confessor-claim-vs-regulated-peace's own sources[] locates to
+Epistle X, verified directly against
+cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml (line 29946, inside
+the XML's own div id="iv.iv.x") -- this edition's own numbering, not the
+"Epistle XV" numbering some other citations of this same letter use. The
+same locus in the already-merged lpc.demo.road-back-examined.md (B-7/Part 6)
+carries the corrected citation too. The key/ring/audit summary phrase two
+paragraphs above is Doc_09 §7 item 5 (Absent Stories), not §6 (Candidates
+Considered and Not Built).
 
 ===========================================================================
 WORLD_CORE.CAUTIONS CHECK

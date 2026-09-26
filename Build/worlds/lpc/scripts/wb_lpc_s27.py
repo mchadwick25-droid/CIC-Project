@@ -180,7 +180,7 @@ MECHANICAL vs AUTHORED, field by field:
     (10) and gate_voice_craft_prompt_budget's own VOICE_CRAFT_WORD_CEILING
     (900) before being finalized -- see WORD/FK CHECK below; sentences kept
     short and declarative rather than em-dash/colon-chained, the exact
-    defect pahc.craft.chloe-voice's own 2026-09-19 revision log records
+    defect pahc.craft.chloe-voice's own revision log records
     fixing after the fact, avoided here from first draft instead.
   - canon_question_id, tags, exchange (demonstration): AUTHORED per
     GROUNDING DISCLOSURE and CANON QUESTIONS PICKED above -- every

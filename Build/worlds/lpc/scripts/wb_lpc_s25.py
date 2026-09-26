@@ -2,22 +2,20 @@
 (`lpc`) gravity + force records.
 
 WHAT THIS SCRIPT DOES. Converts this world's already-built, already-reviewed
-Gravity Discovery (Doc_04_Gravity_Discovery.md, 11 independent adversarial
-review rounds, Approved to proceed 2026-09-15 with Rounds 5-11 findings
-carried open) and Forces Document (Doc_08_Forces_Document.md, 8 independent
-adversarial review rounds, Approved to proceed 2026-09-15 with four
-portfolio-level items carried open) into record-native `gravity` and `force`
-records under records/lpc/gravity/ and records/lpc/force/, per the live
-schema (engine/m1/schemas.py) and gate battery (engine/m1/gates.py). This is
-the direct lpc equivalent of Build/worlds/don/scripts/wb_don_s25.py's own B-5 pass
--- read in full before this script was written, MECHANICAL-vs-AUTHORED
-docstring discipline and RELATION_PAIRS closed-graph technique both carried
-over directly. engine/m1/schemas.py and engine/m1/gates.py were read
-directly this session (not assumed from don's own script, which is itself
-already a year-plus of drift risk per this step's own launch instruction):
-TYPE_PROPERTIES/COMPLETION_REQUIRED for gravity and force are unchanged from
-what don's script used (name/description/manifestations/classification;
-name/kind/description/manifestations/matrix_cell) -- no schema drift found.
+Gravity Discovery (Doc_04_Gravity_Discovery.md, Approved to proceed with
+escalation items carried open) and Forces Document (Doc_08_Forces_Document.md,
+Approved to proceed with portfolio-level items carried open) into
+record-native `gravity` and `force` records under records/lpc/gravity/ and
+records/lpc/force/, per the live schema (engine/m1/schemas.py) and gate
+battery (engine/m1/gates.py). This is the direct lpc equivalent of
+Build/worlds/don/scripts/wb_don_s25.py's own B-5 pass -- its MECHANICAL-
+vs-AUTHORED docstring discipline and RELATION_PAIRS closed-graph technique
+both carried over directly. TYPE_PROPERTIES/COMPLETION_REQUIRED for gravity
+and force are unchanged from what don's script used
+(name/description/manifestations/classification;
+name/kind/description/manifestations/matrix_cell), checked directly against
+engine/m1/schemas.py and engine/m1/gates.py rather than assumed from don's
+own script -- no schema drift found.
 
 WHAT lpc'S OWN Doc_04/Doc_08 CONFIRM, checked directly rather than assumed
 from a prior summary of either document:
@@ -41,8 +39,8 @@ from a prior summary of either document:
 
 lpc_Force_Index.md IS READ FOR ITS DERIVED TABLES ONLY, PER OG-3'S OWN
 DISCLOSED GAP. Open_Gaps_Tracking.md OG-3 discloses that gen_force_index.py
-(the Index's own generator, a different script from this one) has Round 8
-findings never independently re-reviewed. This script therefore treats the
+(the Index's own generator, a different script from this one) has findings
+against it never independently re-reviewed. This script therefore treats the
 Index's own derived tables (§1 Master Force Table, §3 By Connected Gravity,
 §4 Cross-Cell Connection Map) as a cross-check against Doc_08's own prose --
 useful precisely because the generator computes each relation from Doc_08's
@@ -94,8 +92,8 @@ INPUTS, mapped to OUTPUTS, precisely:
     vendored sources -- every citation to them lives in each record's own
     description/body text as "(Doc_04 §3.1)" etc., never in sources[].
     lpc_Force_Index.md is likewise never cited in sources[] (it is not a
-    source record and, per OG-3, its own generator is disclosed-unreviewed
-    past Round 8) -- read only as the cross-check named above.
+    source record and, per OG-3, its own generator is disclosed-unreviewed)
+    -- read only as the cross-check named above.
 
 THREE DISCLOSED EMPTY-SOURCES CASES, matching don's own F3A-2/F3B-1
 precedent of disclosing rather than forcing an unearned citation:
@@ -265,8 +263,8 @@ ITSELF. Candidate 5 (Conciliar Authority Theory) is the one gravity in this
 world whose classification Doc_04 itself did not reach on its own six-test
 evidence: "Alone among the eight candidates, this line does not record this
 document's own verdict on the evidence" (Doc_04 §3). It is classified
-Supporting on the project lead's direct ruling of 2026-09-14, after five
-consecutive re-classifications across nine review rounds and a named
+Supporting by a ruling outside Doc_04's own six-test evidence, after
+repeated re-classification across several review rounds and a named
 gapped-formation precedent instructing the build to stop revising it
 further (Doc_04 §7 items 7-8). This script carries that classification
 exactly as Doc_04 states it -- "supporting", not re-derived, not upgraded,
@@ -701,8 +699,8 @@ def build_gravities() -> None:
         "Doc_04 §3 Candidate 5: the one gravity in this world whose classification Doc_04 itself did "
         "not reach on its own six-test evidence -- 'Alone among the eight candidates, this line does "
         "not record this document's own verdict on the evidence' (Doc_04 §3). Classified SUPPORTING "
-        "ON THE PROJECT LEAD'S DIRECT RULING OF 2026-09-14, after five consecutive re-classifications "
-        "across nine review rounds and a named gapped-formation precedent instructing the build to "
+        "BY A RULING OUTSIDE DOC_04'S OWN SIX-TEST EVIDENCE, after repeated re-classification "
+        "across several review rounds and a named gapped-formation precedent instructing the build to "
         "stop revising it further (Doc_04 §7 items 7-8). Author Gravity risk flagged at generation: "
         "each pole is attested within each bishop's own single locus. Repetition: passes narrowly and "
         "locally -- Cyprian's egalitarian formula recurs once, at length, in the 256 preface (Row 4); "
@@ -741,7 +739,7 @@ def build_gravities() -> None:
             "up as a bishop of bishops\" (Registry row 4)",
             "Augustine's own hierarchical formula in On Baptism II.3, invoking \"the authority of "
             "plenary Councils\" (Registry row 13, the word occurring 31 times within the treatise)",
-            "the project lead's ruling of 2026-09-14, classifying this candidate Supporting after "
+            "a ruling outside Doc_04's own six-test evidence, classifying this candidate Supporting after "
             "Doc_04's own six-test assessment did not reach a verdict on the evidence (Doc_04 §3, §7 "
             "items 7-8)",
         ],
@@ -754,8 +752,8 @@ def build_gravities() -> None:
              "search bound -- carried at the more conservative Inferential-Thin tier as this record's "
              "own top-line rating rather than the bare-existence Documented tier, per this candidate's "
              "own 'thin across the span, not bounded within it' finding (Doc_04 §5). The classification "
-             "itself (Supporting) is the project lead's own ruling of 2026-09-14, not this document's "
-             "own six-test verdict -- carried exactly as Doc_04 §3 states this, neither upgraded nor "
+             "itself (Supporting) rests on a ruling outside this document's own six-test evidence, not "
+             "this document's own six-test verdict -- carried exactly as Doc_04 §3 states this, neither upgraded nor "
              "downgraded here."),
         src("lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
@@ -812,8 +810,8 @@ def build_gravities() -> None:
             "lpc.source.cyprian-seventh-council-of-carthage",
             "lpc.source.augustine-on-baptism-against-the-donatists"),
         "Re-derived from the approved Doc_04 §3 (Candidate 6), with the 2B-1 asymmetry independently "
-        "re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length "
-        "against a Round 3 argument that had removed the connection on a symmetry that does not "
+        "re-verified against Doc_08 §5's own G6 entry, which examines and confirms it at length, "
+        "rejecting an argument that had removed the connection on a symmetry that does not "
         "exist. relations[] carries the gravity<->gravity edges (G1, G2, G3, G5) and the "
         "gravity<->force edges (2A-3, 2B-1, 2B-4) named above.",
     )
@@ -1051,8 +1049,8 @@ def build_forces() -> None:
         "Possidius's Vita ch. VIII records Valerius announcing his intention to the bishops present, "
         "the whole Hippo clergy, and all the people; those who heard rejoiced and clamoured eagerly "
         "for it; Augustine refused the episcopate while his own bishop lived; and, persuaded by "
-        "transmarine and African precedent, he yielded under compulsion and constraint (project "
-        "lead's ruling, 2026-09-16). Documented -- Epistle XXXIX (row 1); Pontius (row 7, Confidence "
+        "transmarine and African precedent, he yielded under compulsion and constraint. "
+        "Documented -- Epistle XXXIX (row 1); Pontius (row 7, Confidence "
         "A); Possidius's Vita chs. IV and VIII (row 192); Doc_01 §2. LAYER 2 -- WORLD'S OWN EXPERIENCE: "
         "\"your suffrage and God's judgment,\" set against a faction's \"ancient venom.\" A deacon who "
         "knew him put it from outside: \"by the judgment of God and the favour of the people, he was "

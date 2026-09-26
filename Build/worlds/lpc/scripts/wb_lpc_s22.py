@@ -1381,8 +1381,8 @@ def build_tier2_terms() -> list[str]:
         dict(
             confidence=conf("A", "verified-direct", "corroborating", "Documented",
                              "The pattern is attested through different figures and different words "
-                             "-- and at the same office (the episcopate) in both phases, per the "
-                             "project lead's own ruling of 2026-09-16 -- not one recurring term. "
+                             "-- and at the same office (the episcopate) in both phases -- "
+                             "not one recurring term. "
                              "Named as a pattern, not presented as a shared vocabulary item. Carried "
                              "tension, flagged rather than resolved here: Lexicon_Deployment_Index."
                              "md SS3 records that this term carries no [DR] tag although Doc_06 SS4 "
@@ -2159,8 +2159,8 @@ def build_tier2_terms() -> list[str]:
         ),
         "Re-derived from Doc_06 SS2.4 (lpclex019, Tier 2, the one term Doc_03 did not surface -- "
         "'without it, this lexicon describes the confessor-authority tension without naming the "
-        "instrument the tension was conducted with'; added on the project lead's own direction of "
-        "2026-09-15) and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. world_word set "
+        "instrument the tension was conducted with'; added to the roster after Doc_03's own pass) "
+        "and Lexicon-Chunks/lpclex019_certificates-letters-of-peace.md. world_word set "
         "to the singular 'certificate' rather than the chunk's own multi-word Term line, matching "
         "the chunk's own Quick Meaning register and avoiding a false-friend collision with "
         "lpc.term.libelli's own distinct headword. Relations: six terms per this term's own "
