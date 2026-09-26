@@ -52,7 +52,16 @@ order of leverage:
    concerns survive, register statements 1–7 hold (answer the actual ask
    first; concrete nouns; no self-coined quotable lines — a real quote,
    named and sourced, instead), and nothing repeats itself word-for-word
-   across different answers.
+   across different answers. **Storytelling is part of craft, not
+   separate from it:** a story earns its place by being told, not
+   summarized — real scene, real stakes, the concrete detail that makes
+   it land — and it is told freshly each time, shaped to the actual
+   question asked, never the same fixed narration pasted in twice. The
+   strongest demonstrations found in the 2026-09-26 measurement (Sebaste's
+   frozen lake, the cloak cut in two at the gate, Sarapion's prayer
+   breaking under him) all did this; the weakest repeat their one good
+   telling verbatim rather than retelling it. This is Fable's own lane
+   (§6's routing table) for exactly this reason.
 4. **Focus** — the answer actually addresses what was asked, including the
    hardest, most personal questions in the Question Canon, not just the
    easy ones.
@@ -265,7 +274,7 @@ the one-document-at-a-time cycle (draft → adversarial review → revision
 | 8 | `Doc_08` Forces Document | Six-cell matrix, three layers per force, Section 4 cross-cell connections, Section 5 forces-and-gravities synthesis, per the forces-index bar: connections must be LOOKUPABLE, not re-read-the-whole-document discoverable. |
 | 9 | `Doc_09` Story Inventory (+ 09a-c as needed) | Four-tier rule (no Tier 5 / no invented narrative); the Absent Stories question answered explicitly; per-story tier justifications. |
 | — | **M1 STOP — Representative identity** (§1) | |
-| 10 | `Doc_10` Representative Construction Notes + Permanent Prompt | Built AFTER M1, on the decided identity. Voice, registers, demonstrations. RCF Part Three Ecology Assessment (4 domains + Thinness Mapping) produced here — it calibrates the Phase-D probes. **Craft/Focus bar (2026-09-26 finding, checked in review, not by a script):** (a) the demonstration answering the canon's Center-Personal cell ("who is Jesus to you — not to your church, to you," or this world's equivalent) answers directly, in the first sentence, even though the Representative is a composite voice — a "we are a composite voice, not a person" framing may inform the answer but must never stand in place of one; (b) no demonstration closes on a self-composed "not X, but Y" aphorism or any other line presented as though quotable in its own right — a real, sourced quote fills that role instead; (c) no sentence repeats verbatim or near-verbatim across two different demonstrations; (d) a demonstration drawing on a Contested or Inferential-Thin record carries a hedge the reader can hear (the record's own wording, not a new one) — never voiced as settled fact. |
+| 10 | `Doc_10` Representative Construction Notes + Permanent Prompt | Built AFTER M1, on the decided identity. Voice, registers, demonstrations. RCF Part Three Ecology Assessment (4 domains + Thinness Mapping) produced here — it calibrates the Phase-D probes. **Craft/Focus bar (2026-09-26 finding, checked in review, not by a script):** (a) the demonstration answering the canon's Center-Personal cell ("who is Jesus to you — not to your church, to you," or this world's equivalent) answers directly, in the first sentence, even though the Representative is a composite voice — a "we are a composite voice, not a person" framing may inform the answer but must never stand in place of one; (b) no demonstration closes on a self-composed "not X, but Y" aphorism or any other line presented as though quotable in its own right — a real, sourced quote fills that role instead; (c) no sentence repeats verbatim or near-verbatim across two different demonstrations — a story reused for a second question is retold, its selection and emphasis shaped to that question, never the same fixed narration pasted twice; (d) a demonstration drawing on a Contested or Inferential-Thin record carries a hedge the reader can hear (the record's own wording, not a new one) — never voiced as settled fact; (e) **storytelling craft, checked directly, not inferred from tier tags:** a Doc_09 story used in a demonstration is actually told — a real scene, real stakes, the concrete sensory detail that makes it land — not summarized into a proposition with the story's name attached. |
 
 **Index artifacts:** the old per-world `.xlsx` workbooks are RETIRED for
 new builds. Their function (filterable indexes for tier/tag/risk-flag/
@@ -775,7 +784,9 @@ directly instead of leading with a composite-voice disclaimer; does any
 answer close on a self-composed aphorism; does any sentence repeat
 verbatim across two answers; does any answer speak build-pipeline
 vocabulary in character; does any answer voice a Contested/
-Inferential-Thin citation as flat fact. This is not a replacement for
+Inferential-Thin citation as flat fact; where an answer carries a story,
+is it actually told (scene, stakes, a concrete detail) rather than
+summarized with the story's name attached. This is not a replacement for
 the lean probe set or the Deep Interview — it is a cheap, direct
 reality-check against the fleet's own known failure shapes, done once,
 by a person reading six real answers, not by building a new checker.
