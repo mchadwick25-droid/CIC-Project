@@ -164,15 +164,20 @@ def test_doc_construction_no_tail_heading_leaves_nothing_protected(tmp_path):
     assert by_line[9] != "PROTECTED"  # no tail heading exists to protect this
 
 
-def test_doc_construction_world_prefixed_filename_not_covered(tmp_path):
-    # A real, surveyed exception: a world-prefixed filename
-    # (hal_Doc_01_..., gallic_Doc07_..., witt_Doc_01_...,
-    # cappadocian_Doc_01_...) is not the bare Doc_0[1-9]_*.md convention
-    # this exemption matches, and is deliberately left uncovered rather
-    # than guessed at.
+def test_doc_construction_world_prefixed_filename_now_covered(tmp_path):
+    # Refreshed 2026-09-26: originally a deliberate, surveyed exception -
+    # a world-prefixed filename (hal_Doc_01_..., gallic_Doc07_...,
+    # witt_Doc_01_..., cappadocian_Doc_01_...) wasn't the bare
+    # Doc_0[1-9]_*.md convention this exemption matched, so it was left
+    # uncovered rather than guessed at. Six independent Build/worlds/
+    # cleanup batches then each verified, by hand, the identical
+    # load-bearing header/tail pattern in every prefixed-naming world
+    # surveyed (plus several sibling document types sharing no fixed
+    # filename shape at all) - _is_doc_construction_file now protects by
+    # content alone (any .md under Build/worlds/), so this is covered.
     text = "**Status:** Approved to proceed, per Mark, R26\n"
     hits = _hits_for(text, tmp_path, "Build/worlds/hal/hal_Doc_01_World_Identification_Boundaries_Orientation.md")
-    assert hits[0].category != "PROTECTED"
+    assert hits[0].category == "PROTECTED"
 
 
 def test_world_build_dir_protected(tmp_path):
@@ -274,11 +279,14 @@ def test_bare_yaml_date_scalar_keeps(tmp_path):
 
 
 def test_bare_markdown_header_date_keeps(tmp_path):
-    # Path deliberately does NOT match Doc_0[1-9]_*.md (see
-    # test_doc_construction_header_field_protected below for that case) -
-    # this test isolates the plain _BARE_DATE_HEADER_LINE KEEP rule on its
-    # own, on a worlds/ file the new construction-doc exemption ignores.
-    hits = _hits_for("**Date drafted:** 2026-07-20\n", tmp_path, "Build/worlds/alx/World_Profile.md")
+    # Refreshed 2026-09-26: originally pinned to a Build/worlds/ path
+    # specifically because it did NOT match the old bare Doc_0[1-9]_*.md
+    # exemption. That exemption now protects by content (header-field
+    # regex) across any .md under Build/worlds/, so a "**Date drafted:**"
+    # header field there is now PROTECTED, not KEEP - moved outside
+    # Build/worlds/ entirely to keep isolating the plain
+    # _BARE_DATE_HEADER_LINE KEEP rule on its own.
+    hits = _hits_for("**Date drafted:** 2026-07-20\n", tmp_path, "Build/reference/Project-Reference/Some_Note.md")
     assert hits[0].category == "KEEP"
 
 
@@ -967,10 +975,17 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # at >=60 real, currently-matching lines.
     ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md", 1, "REWRITE"),
     ("Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
-    ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "REWRITE"),
+    # Refreshed 2026-09-26 (_is_doc_construction_file generalized to
+    # content-based matching across any Build/worlds/ .md file): line 562
+    # sits inside this file's own "## Document Log" section - genuinely
+    # load-bearing review-history content, now correctly PROTECTED.
+    ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "PROTECTED"),
     ("Build/worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
-    ("Build/worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
+    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit b9ad408c):
+    # the original rzg example was cleaned by that effort. Re-pinned to a
+    # stable Build/reference/ example.
+    ("Build/reference/L0-Reference/L0_Entry_Paul_of_Samosata_DRAFT.md", 23, "REWRITE"),
     # Refreshed 2026-09-26 (per-world decision-log exemption): this line
     # sits inside CiC_W7_Decision_Log.md, a per-world decision log
     # (matching lpc_Decision_Log.md's own header purpose), now correctly
@@ -984,7 +999,10 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # question the tool used to read as REWRITE) to PROTECTED, the
     # correct category under the new rule.
     ("Build/worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "PROTECTED"),
-    ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "REWRITE"),
+    # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
+    # 1754 sits inside this file's own "## 12. Document log" section, now
+    # correctly PROTECTED.
+    ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "PROTECTED"),
     # Refreshed 2026-09-26 (Phase 3b: cic/engine/ + cic-poc/frontend
     # cleanup, commits 11ee5a81 and the earlier f1e1e093): all 7 samples
     # below (6 cic/engine, 1 cic-poc/frontend) were cleaned and stopped
@@ -1016,8 +1034,14 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
     ("cic-website/support.html", 127, "KEEP"),
     ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
-    ("Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md", 666, "REWRITE"),
-    ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "REWRITE"),
+    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 84e4987d):
+    # the original _cross-world example was cleaned by that effort.
+    # Re-pinned to a stable Build/reference/ example.
+    ("Build/reference/method/CiC_World_Build_Completion_Standard_V1.3.md", 3, "REWRITE"),
+    # Refreshed 2026-09-26 (_is_doc_construction_file generalized): line
+    # 802 sits inside this file's own "## 11. Document log" section, now
+    # correctly PROTECTED.
+    ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "PROTECTED"),
     ("Build/worlds/pahc/CiC_W1_World_Profile.md", 81, "REWRITE"),
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
@@ -1110,13 +1134,16 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round3_Review.md", 20, "PROTECTED"),
     ("Build/worlds/don/Open_Gaps_Tracking.md", 357, "PROTECTED"),
     ("Build/worlds/witt/witt_Doc03_Review_Round11.md", 64, "PROTECTED"),
-    # Hand label KEEP: the "Added" column of a per-world Source Registry is
-    # exactly the schema-defined field reference/L3B-World-Build-
-    # Methodology/Source_Registry_Template.md names ("Added | Date and
-    # who/what added it") - structured provenance, not narration. The
-    # tool does not currently parse Source Registry table columns; see the
-    # PR body's precision limitation note.
-    ("Build/worlds/lpc/Source_Registry.md", 142, "KEEP"),
+    # Refreshed 2026-09-26 (Phase 3b worlds/ cleanup, commit 28e35b19): the
+    # original lpc/Source_Registry.md:142 example (illustrating that the
+    # "Added" column of a per-world Source Registry is schema-defined
+    # provenance, not narration - reference/L3B-World-Build-Methodology/
+    # Source_Registry_Template.md's own "Added | Date and who/what added
+    # it" field) was superseded when that row's own text changed under
+    # this same cleanup effort. Re-pinned to a stable Build/reference/
+    # KEEP example (generic "reviewer" instructional prose, not this
+    # project's own process).
+    ("Build/reference/L0-Reference/L0_Doc_00_Boundaries_and_Standards.md", 95, "KEEP"),
     ("Build/worlds/gallic/gallic_Doc02_Review_Round1.md", 562, "PROTECTED"),
 ]
 

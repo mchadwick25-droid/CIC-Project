@@ -593,18 +593,37 @@ def _yaml_scalar_block_lines(field_lines: dict[str, set[int]], line_no: int) -> 
     return [line_no]
 
 
+_REVIEW_DOC_FILENAME_KEYWORDS = (
+    "review",
+    "spotcheck",
+    "checkpoint",
+    "unused_source_verification",
+    "zellcheck",
+)
+
+
 def _is_review_doc(rel: Path) -> bool:
     """worlds/<code>/... review documents (CLAUDE.md places reviews under
-    worlds/ by design). Two real naming conventions found on disk: a
-    dedicated `Review-Artifacts/` directory (alx, cappadocian, don, grkap,
-    ...), or a loose file in the world's own root whose name contains
-    "Review" (desert, gallic, hal, ...). Both covered; neither guessed."""
+    worlds/ by design). A dedicated `Review-Artifacts/` directory (alx,
+    cappadocian, don, grkap, ...), or a loose file in the world's own root
+    whose name signals it's an independent verification pass on an
+    already-drafted document - every real naming convention found on disk
+    so far, each individually confirmed real by reading the file, not
+    guessed from the name alone: "Review" (desert, gallic, hal, ...),
+    "SpotCheck" (gallic, witt), "Critic_Checkpoint...Simulated"
+    (cappadocian), "Unused_Source_Verification" (cappadocian), "ZellCheck"/
+    "ZellFinalCheck" (witt, a per-person-named check pass, same function
+    as a review round). All of these are the review's own evidentiary
+    record of what a document said or a search found at the time of that
+    check, not expected to track the corrected live text afterward - the
+    same reason a `Review-Artifacts/` file is protected."""
     parts = rel.parts
     if len(parts) < 4 or parts[0] != "Build" or parts[1] != "worlds":
         return False
     if "Review-Artifacts" in parts:
         return True
-    return "review" in parts[-1].lower()
+    name = parts[-1].lower()
+    return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS)
 
 
 def _is_world_build_dir(rel: Path) -> bool:
@@ -667,26 +686,41 @@ PROTECTED_HISTORICAL_FILES = {
 PROTECTED_REGISTRY_LOG = "records/WORLDS_REGISTRY_LOG.md"
 
 
-_DOC_CONSTRUCTION_FILENAME_RE = re.compile(r"^Doc_0[1-9]_.+\.md$")
-
-
 def _is_doc_construction_file(rel: Path) -> bool:
-    """Build/worlds/<code>/Doc_0[1-9]_*.md - the nine canonical per-world
-    construction documents CLAUDE.md itself names under "Keep the
-    live/canonical surfaces clean" ("the canonical construction documents
-    (Doc_01-Doc_09 per world..."). Bare, unprefixed filenames only: alx,
-    don, ijc, lpc, rzg and syr use this convention. A world-prefixed
-    variant (hal_Doc_01_..., gallic_Doc07_..., witt_Doc_01_...,
-    cappadocian_Doc_01_...) is a real, surveyed exception - those worlds do
-    not share one uniform filename shape, so extending the match there
-    would be guessing rather than verifying, and is left out rather than
-    assumed to fit."""
+    """Any .md file under Build/worlds/<code>/ - the canonical per-world
+    construction documents and their siblings (Source_Registry.md,
+    Representative Phase/Ecology/Validation/Construction-Notes/Identity-
+    Decision files, Force/Story Index, Claims/Superseded-Claims Register,
+    Coverage-Check, Scope-and-Source-Acquisition-Manifest, ...) CLAUDE.md
+    names under "Keep the live/canonical surfaces clean".
+
+    This was originally filename-gated to bare Doc_0[1-9]_*.md, on the
+    documented grounds that alx/don/ijc/lpc/rzg/syr share that filename
+    shape but hal/gallic/witt/cappadocian's own world-prefixed variants
+    (hal_Doc_01_..., gallic_Doc07_..., witt_Doc_01_...,
+    cappadocian_Doc_01_...) don't, and extending the filename match there
+    would have been guessing rather than verifying. That guess is no
+    longer needed: six independent verification passes (one per
+    Build/worlds/ batch in the 2026-09-26 fleet-wide narrative cleanup),
+    each re-implementing this function's own protected-lines algorithm
+    and diffing it against every real hit by hand before touching
+    anything, confirmed the identical load-bearing Status-header/tail
+    pattern in every prefixed-naming world surveyed (hal, gallic, witt,
+    cappadocian, pahc's own CiC_W1_Doc0N_..._FINAL.md, desert's own
+    CiC_W3_Doc01_...md) AND in every one of the sibling document types
+    named above, none of which share a single fixed filename shape either.
+    Given that much independent confirmation that filename was never the
+    right signal, this now protects by content alone (the header-field and
+    tail-heading checks below, both already narrow and independently
+    verified clean by that same survey) across every file the surface
+    covers, rather than maintaining a filename allowlist that a seventh
+    world would just as easily miss again."""
     parts = rel.parts
     return (
-        len(parts) == 4
+        len(parts) >= 4
         and parts[0] == "Build"
         and parts[1] == "worlds"
-        and bool(_DOC_CONSTRUCTION_FILENAME_RE.match(parts[3]))
+        and rel.suffix == ".md"
     )
 
 
