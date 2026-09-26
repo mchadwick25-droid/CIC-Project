@@ -2,7 +2,7 @@
 
 **World: Gallic Monastic-Ascetic Christianity** (Atlas I.27, era 2, `gallic-monastic-ascetic-christianity`)
 
-**Status: APPROVED TO PROCEED** (self-dispositioned per CO-022, no escalation category applies) after a bounded Round 3 spot-check (Round 1: SUBSTANTIAL REVISION REQUIRED, 28 substantial + 12 cosmetic, addressed in the first revision; Round 2: SUBSTANTIAL REVISION REQUIRED but bounded — 18/28 cleanly fixed, 9 partial, 1 unfixed, plus 18 new findings from the fix round itself, 6 load-bearing; Round 3: 19/21 checklist items PASS, 2 FAIL — both the recurring "fix asserted, not applied" pattern, closed and grep-verified this pass. Full detail at §15.)
+**Status: APPROVED TO PROCEED** (self-dispositioned per CO-022, no escalation category applies). Full review history at §15.
 
 **Governed by:** Formation World Construction Framework V7.4, Part II, Step 2; Constitution Articles 16, 17, 20, 26; Forces Framework V1.1 §4 (Step 2 integration point). Built together with the companion **Source Registry** (`gallic_Source_Registry.md`).
 
