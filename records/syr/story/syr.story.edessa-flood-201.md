@@ -57,11 +57,9 @@ modern_contrast: 'A modern reader might take this chronicle entry as a straightf
   earliest church building was destroyed in the flood carries a real, unresolved
   scholarly dispute this record holds open rather than smoothing over.'
 ---
-Re-derived from syrstory002 (Tier 2; Bauer-vs-Barnard dispute
-carried). The entry verified verbatim against the vendored Cowper
-text. Dating note: Seleucid 513 + November = 201 CE per the
-reviewed Doc_01; the vendored edition's own footnote computes 202
-(era-convention difference), recorded so the discrepancy never
-surprises a reviewer.
+Tier 2; the Bauer-vs-Barnard dispute is carried. The entry is verified
+verbatim against the vendored Cowper text. Dating note: Seleucid 513 +
+November = 201 CE; the vendored edition's own footnote computes 202
+(an era-convention difference).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

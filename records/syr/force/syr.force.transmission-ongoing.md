@@ -48,9 +48,7 @@ manifestations:
 - 'the Ephrem dominance effect: one voice at risk of standing in for a whole world'
 matrix_cell: 2B
 ---
-Re-derived from Doc_08 2B-2 (the required Cell-2B transmission
-entry), including the Round 1 From-Within fix's discipline: the
-choir-performance framing is a documented practice reapplied to
+The choir-performance framing is a documented practice reapplied to
 transmission at DMR confidence, and no inhabited Layer-2 content
 exists for Aphrahat's side (stated absence). Grounds the F2-E
 record-thinness answers and the honest_limit records.

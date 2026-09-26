@@ -46,7 +46,7 @@ retrieval:
 relations:
 - {type: illustrates, target: syr.gravity.diatessaron-normative}
 ---
-Verified verbatim against the vendored file 2026-08-27 at anf02 line
+Verified verbatim against the vendored file at anf02 line
 6972. DISCLOSED: the sentence beginning "Retiring by myself" is the
 continuation of a longer sentence whose earlier clauses list the pagan
 cults Tatian is rejecting; the excerpt starts at a clause boundary and
@@ -63,7 +63,7 @@ plainness rather than through argument about it. Carried as
 `corroborating` rather than load-bearing: it illuminates the harmony's
 maker, it does not establish anything about the harmony.
 
-CELL ASSIGNED 2026-08-27, same omission as its companion record. F2-I asks
+F2-I asks
 "How did you read your scriptures? What did you look for in them?" and this
 is a convert saying what he found in them and why he preferred them to the
 philosophy he was trained in.

@@ -225,114 +225,39 @@ redirect_notes:
   - syr.gravity.heresiological-self-definition
   - syr.figure.bardaisan
 ---
-Authored 2026-09-19, the first facilitator_brief record built in this
-fleet - a pilot for a schema (`engine/m1/schemas.py`) that had never
-before been carried into an actual world build. Migrates the
-curatorial substance of this world's own already-approved-to-proceed
-(2026-07-08), twice-independently-reviewed World Facilitation Brief
-Section B (`worlds/syr/Syriac_Phase6_Facilitator_Coordination_DRAFT.md`,
-B1-B7) into this record-native type, but does NOT carry forward that
-document's own citations (Doc_01, Doc_07, Formation Calibration, Voice
-Construction, Phase Five, etc.) - none of those are M1 records this
-compiler can resolve. Every unit below is grounded instead in a real
-record under `records/syr/` that this session opened and read
-directly, per the same discipline `records/syr/world_front/
-syr.front.syriac-edessa-nisibis.md` already established for this
-world's participant-facing counterpart.
+This record grounds directly in the real records under `records/syr/`,
+per the same discipline `records/syr/world_front/syr.front.syriac-edessa-nisibis.md`
+already established for this world's participant-facing counterpart.
 
-TWO DECISIONS FOLLOWED EXACTLY, NOT RE-DERIVED (per this task's own
-framing). (1) `redirect_notes` holds ordinary content-limit handoff
-guidance for this world's own formation, never crisis/acute-distress
-redirect content (that stays fleet-wide and template-anchored,
-governed outside any world's own voice, per Facilitator-Governance
-V3.6 and this repo's own CLAUDE.md). Of the two candidate topics named
-in this task, the excluded-rivals material (B7's "if a participant
-raises them expecting an informed refutation, [the voice] will
-redirect rather than engage substantively") was chosen over the
-worship-thinness material, because it is the cleaner single-topic fit
-and because worship-thinness already had its own strong, specific
-grounding record (`syr.limit.ritual-sequence`) better used once, in
-`formation_limitations`, rather than split across two fields. (2) B6
-("Representative Introduction Language") has no field in this schema
-and is left out entirely, per instruction - not folded into any other
-field. Its content remains only in the original Phase Six document.
+`redirect_notes` holds ordinary content-limit handoff guidance for this
+world's own formation, never crisis/acute-distress redirect content -
+that stays fleet-wide and template-anchored, governed outside any
+world's own voice, per Facilitator-Governance V3.6 and this repo's own
+CLAUDE.md. It covers the excluded-rivals material (a participant
+raising Bardaisan, Marcion, or Mani expecting an informed refutation
+gets a redirect rather than substantive engagement); worship-thinness
+is covered once, in `formation_limitations`, via `syr.limit.ritual-sequence`.
 
-THE MOST IMPORTANT FINDING OF THIS SESSION, discovered while grounding
-B1/B4/B7 rather than assumed going in: the Phase Six source document's
-own "CONFIRMED PERSIAN anchor" decision - that this Representative's
-"own first-person, lived formation is Aphrahat's side of this world,
-not Ephrem's Roman/Edessene side," knowing Ephrem's side "only as
-report from across the frontier, never as his own memory" - is
-CONTRADICTED by this world's own real, current, already-approved
-voice_craft record (`records/syr/voice_craft/syr.voice.craft.md`,
-`identity` field): "He is drawn from Ephrem's hymnic corpus and
-Aphrahat's dated Demonstrations... No side is weighted as his own
-personal history. No side is treated as foreign to him." The world
-registry (`records/worlds/syr.yaml`) independently confirms this:
-its `doorway_description` names "Ephrem and Aphrahat" together as "our
-great teachers" with no exclusive anchor, and `syr.figure.aphrahat`
-itself is `narratable: false` ("stories 'about Aphrahat' would be
-invention") - Aphrahat is this Representative's primary-source
-material, not a personal identity the voice inhabits to the exclusion
-of Ephrem's.
+`world_identity` states the world's own defining structural character
+(covenant order, authority ambiguity, typological method) without
+asserting which side, Ephrem's or Aphrahat's, this Representative is
+personally anchored in, since the current, real `syr.voice.craft`
+record states neither is weighted as his own personal history and
+neither is treated as foreign to him; `records/worlds/syr.yaml`'s own
+`doorway_description` independently confirms this, naming "Ephrem and
+Aphrahat" together as "our great teachers" with no exclusive anchor.
+`cautions` is grounded the same way, and carries no exclusive-anchor
+expectation-mismatch caution for the same reason. (A related open
+discrepancy - an earlier facilitation document's own Persian-only
+anchor framing - is tracked at `Build/worlds/syr/Open_Gaps_Tracking.md`,
+entry 12, not re-narrated here.)
 
-Given this task's own governing rule - no invented grounding, ever,
-even to make a nice-sounding brief - two pieces of the Phase Six
-source document were therefore deliberately NOT carried forward, since
-carrying them would mean grounding a claim the one real record on
-point actually contradicts, not merely fails to support:
+`participant_type_fit` does not carry an acute-crisis/composed-tone
+mismatch caution: no record under `records/syr/` states or supports
+that specific scenario, so it is left out rather than given a
+fabricated grounding.
 
-1. B1's own anchor framing ("This specific Representative, Mar Yausep,
-   is anchored on the Persian side of that world... He knows of the
-   Roman/Edessene side of this same tradition, but only as report from
-   across the frontier, never as his own memory") is dropped from
-   `world_identity` entirely. `world_identity` here states the world's
-   own defining structural character (covenant order, authority
-   ambiguity, typological method) without asserting which side, if
-   either, this Representative is personally anchored in - because the
-   real record says neither.
-2. B7's own "Expectation mismatch: this is Aphrahat's world, not
-   Ephrem's" caution - named there as "the single most consequential
-   fact about this Representative for calibrating a participant's
-   expectations correctly" - is dropped from `cautions` entirely for
-   the same reason. Carrying it forward would assert the opposite of
-   what `syr.voice.craft` and `records/worlds/syr.yaml` actually say.
-
-This is very likely simply a later, deliberate revision the project
-made between the 2026-07-08 Phase Six approval and this session
-(2026-09-19) - the record-native rebuild plainly post-dates Phase Six
-and integrates both authors rather than choosing one - not a defect in
-either document taken on its own terms. But this record's own job is
-to ground in what the real M1 records say now, not in what an earlier
-approved-to-proceed document said before a later revision changed the
-underlying construction decision. Flagging this explicitly here rather
-than silently resolving it either way, per this project's own
-transparency discipline; the project lead may want this logged in
-`worlds/syr/Open_Gaps_Tracking.md` as a live discrepancy between the
-Phase Six document and the current build, since Phase Six itself still
-reads as if the Persian-only anchor is settled.
-
-A SECOND ITEM DELIBERATELY LEFT OUT, exactly the case this task's own
-instructions anticipated: B4's own aside, explicitly marked in the
-source document as "(Facilitator judgment, not independently sourced
-to a specific prior document: someone in acute crisis over
-institutional betrayal may experience this same steadiness as too
-composed rather than as companionship... This specific mismatch
-scenario is this drafter's own pastoral extrapolation from the sourced
-tone description above, not a finding stated in Voice Construction or
-Phase Five.)" No record under `records/syr/` states or supports this
-specific mismatch scenario - it is one drafter's own pastoral
-judgment call, not a claim any real record makes. It is left out of
-`participant_type_fit` entirely rather than given a fabricated
-grounding, exactly per this task's own governing instruction. A
-facilitator relying on this brief alone should know that this
-specific caution - watch for acute-crisis participants finding the
-voice's steadiness too composed - existed in this world's prior
-facilitation guidance and is not reproduced here for lack of real
-grounding, not because the underlying concern was judged unimportant.
-
-GROUNDING NOTES BY FIELD, briefly (see the report accompanying this
-build for the fuller reasoning behind each choice).
+GROUNDING NOTES BY FIELD, briefly.
 
 `world_identity`: `syr.core.syriac` for the frontier geography and
 window; `syr.gravity.covenant-life` for the qyama as the primary
@@ -397,17 +322,12 @@ gravity carried as lived condition, not crisis).
 (`syr.gravity.authority-ambiguity`, `syr.gravity.covenant-life`) that
 anchor this world's own most distinctive structural character, since
 no record under `records/syr/` documents any actual tested pairing
-with another world (`records/` now holds nine other world directories
-- alx, cappadocian, desert, don, fix, gallic, hal, ijc, pahc - a much
-larger fleet than B5's own "no other confirmed world yet exists to
-pair against" framing assumed at Phase Six's own 2026-07-08 date; that
-framing is accordingly not carried forward as if still current,
-consistent with the same "ground in what the records say now"
-discipline applied above). Nothing in `records/syr/` states that any
-of these nine worlds has actually been tested against this one, so
-this unit stays a structural-contrast reading of this world's own
-gravities, not a claim about an evidenced pairing - the same honest
-scope B5 itself claimed for its own "in general terms only" guidance.
+with another world (`records/` now holds nine other world directories -
+alx, cappadocian, desert, don, fix, gallic, hal, ijc, pahc). Nothing in
+`records/syr/` states that any of these nine worlds has actually been
+tested against this one, so this unit stays a structural-contrast
+reading of this world's own gravities, in general terms only, not a
+claim about an evidenced pairing.
 
 `cautions`: the contested-title item grounded in the 510-colophon
 material already directly attested in `syr.term.mar`'s own `sources`
@@ -417,10 +337,9 @@ material item grounded in `syr.term.anti-jewish-polemic` and
 `syr.core.syriac` caution 4; the dependency/relational-safety item
 grounded directly in `syr.voice.craft`'s own trailing body, which
 explicitly names this same pastoral-warmth/dependency-amplifier risk
-and states it is "carried forward instead as flagged, unresolved
-routing work for the M5 facilitator/safety-layer design" - this
-facilitator_brief record is a natural, though not the only possible,
-home for that routing. (`cautions` entries are plain strings per the
+as routing work needing a home in the M5 facilitator/safety-layer
+design - this facilitator_brief record is a natural, though not the
+only possible, home for that routing. (`cautions` entries are plain strings per the
 schema, with no `grounded_in` field of their own; each one nonetheless
 stays close to what the cited records above actually say, checked
 before writing, not merely topically adjacent to them.)
@@ -447,10 +366,3 @@ world's build (only Bardaisan received Doc_01's Named-Comparandum
 treatment), so the unit's text does not claim any dedicated grounding
 for those two beyond the gravity record's own by-name treatment of
 all three.
-
-VALIDATION (steps 1-4 of this task) is reported in full in the
-handback message accompanying this build, not restated here - this
-body is provenance and grounding notes only, per this project's own
-"keep the live/canonical surfaces clean" rule (no review discussion or
-process narration belongs inline beyond what documents this record's
-own construction, which the paragraphs above already do).

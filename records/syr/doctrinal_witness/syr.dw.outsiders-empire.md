@@ -55,4 +55,4 @@ F3-E: the frontier inversion is this world's distinctive evidential
 answer; the Simeon accusation is verified in the vendored Sozomen
 II.9 text (suspected communication with the Romans).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept.
+Written in short sentences, at the approved register level, with all claims and hedges kept.
