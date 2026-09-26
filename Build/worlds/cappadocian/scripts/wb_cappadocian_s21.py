@@ -200,7 +200,7 @@ from pathlib import Path
 import yaml
 
 HERE = Path(__file__).resolve().parent
-REPO_ROOT = HERE.parents[2]  # .../CIC-Project
+REPO_ROOT = HERE.parents[3]  # .../CIC-Project
 RECORDS_ROOT = REPO_ROOT / "records" / "cappadocian"
 
 WORLD_ID = "nicene-cappadocian"

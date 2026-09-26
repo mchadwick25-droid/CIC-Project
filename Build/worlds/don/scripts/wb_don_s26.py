@@ -327,7 +327,7 @@ from pathlib import Path
 import yaml
 
 HERE = Path(__file__).resolve().parent
-REPO_ROOT = HERE.parents[2]  # .../cic-project
+REPO_ROOT = HERE.parents[3]  # .../cic-project
 RECORDS_ROOT = REPO_ROOT / "records" / "don"
 
 WORLD_ID = "don"

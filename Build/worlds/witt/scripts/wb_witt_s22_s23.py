@@ -130,7 +130,7 @@ from pathlib import Path
 
 import yaml
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 OUT_DIR = REPO_ROOT / "records" / "witt" / "term"
 WORLD_ID = "lutheran-wittenberg-and-its-congregations"
 

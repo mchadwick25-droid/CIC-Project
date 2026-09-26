@@ -44,7 +44,7 @@ import textwrap
 
 import yaml
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
+ROOT = pathlib.Path(__file__).resolve().parents[3]
 MAP = ROOT / "cic" / "corpus-map"
 TARGET_FILE = pathlib.Path(__file__).resolve().parent / "NEEDS-RULING.md"
 

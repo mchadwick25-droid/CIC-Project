@@ -254,7 +254,7 @@ from pathlib import Path
 
 import yaml
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 OUT_ROOT = REPO_ROOT / "records" / "don"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"
 

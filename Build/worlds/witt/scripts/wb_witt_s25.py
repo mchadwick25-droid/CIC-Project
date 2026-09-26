@@ -110,7 +110,7 @@ from pathlib import Path
 
 import yaml
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 GRAVITY_DIR = REPO_ROOT / "records" / "witt" / "gravity"
 FORCE_DIR = REPO_ROOT / "records" / "witt" / "force"
 STORY_DIR = REPO_ROOT / "records" / "witt" / "story"

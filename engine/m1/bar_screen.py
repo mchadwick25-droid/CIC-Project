@@ -19,7 +19,7 @@ Same FK-grade formula `gate_readability` already uses (`engine.m1.fk.
 fk_grade`), so a future ceiling ruling compares like with like.
 
 Usage: `python -m engine.m1.bar_screen <world>` - writes
-`worlds/<world>/build/bar-screen-<date>.json` and prints a summary table.
+`Build/worlds/<world>/build/bar-screen-<date>.json` and prints a summary table.
 """
 from __future__ import annotations
 
@@ -99,7 +99,7 @@ def main(argv: list[str]) -> int:
     world_key = argv[0]
     report = screen_world(world_key)
 
-    out_dir = REPO_ROOT / "worlds" / world_key / "build"
+    out_dir = REPO_ROOT / "Build" / "worlds" / world_key / "build"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"bar-screen-{report['generated']}.json"
     out_path.write_text(json.dumps(report, indent=2, sort_keys=False) + "\n", encoding="utf-8")

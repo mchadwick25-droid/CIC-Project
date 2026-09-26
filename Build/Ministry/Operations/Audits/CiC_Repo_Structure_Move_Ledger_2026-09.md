@@ -271,10 +271,12 @@ Citations rewritten in current documents outside `worlds/`, `records/` and `engi
 ## 2026-09-26 — Live/Build split
 
 `reference/`, `Ministry/`, `worlds/`, `World-Builds/`, and the building-tools subset of
-`tools/` moved under a new top-level `Build/`. Full manifest (one row per immediate child
-directory, following the same nested-path convention as the phase 1/2 manifests — not a
-bare top-level rule): `Build/tools/moves-phase3-live-build-split.tsv`. Narrative, the
-`check_paths.py` bug found and fixed, and the tools-with-root-detection fixes:
+`tools/` moved under a new top-level `Build/`, one manifest row per immediate child
+directory (following the same nested-path convention as the phase 1/2 manifests — not a
+bare top-level rule; the table below is the full mapping, kind by kind). The raw manifest
+itself (and the phase 1/2 manifests) is deleted, not kept — a pure record of an
+already-executed move, fully redundant with this table. Narrative, the `check_paths.py`
+bug found and fixed, and the tools-with-root-detection fixes:
 `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`, 2026-09-26 entry.
 
 | from | to | kind |

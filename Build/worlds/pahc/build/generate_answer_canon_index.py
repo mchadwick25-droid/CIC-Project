@@ -7,7 +7,7 @@ Usage: python3 Build/worlds/pahc/build/generate_answer_canon_index.py
 import pathlib
 import sys
 
-REPO_ROOT = pathlib.Path(__file__).resolve().parents[2]
+REPO_ROOT = pathlib.Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(REPO_ROOT))
 
 from engine.m1.loader import load_world_records, load_fleet_records

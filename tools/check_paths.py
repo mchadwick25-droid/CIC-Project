@@ -37,8 +37,23 @@ TRAIL = ".,;:)'\"`*_"
 LOCAL_ONLY_DIRS = {".git", "node_modules", ".claude"}
 
 
+def retired_top_level_names() -> set[str]:
+    """A retired top-level directory (e.g. `worlds` before the Live/Build split moved it to
+    Build/worlds) must stay a recognized root, or every bare citation into it silently stops
+    being checked at all instead of correctly failing to resolve."""
+    listing = REPO / "tools" / "retired_paths.txt"
+    if not listing.exists():
+        return set()
+    names = set()
+    for line in listing.read_text(encoding="utf-8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line and "/" not in line:
+            names.add(line)
+    return names
+
+
 def top_level_dirs() -> set[str]:
-    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in LOCAL_ONLY_DIRS}
+    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in LOCAL_ONLY_DIRS} | retired_top_level_names()
 
 
 def in_scope(rel: str) -> bool:

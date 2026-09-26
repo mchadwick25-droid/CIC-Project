@@ -13,7 +13,7 @@ snippet so a human can judge whether it's a real label or a false positive
 bare percentage. It also flags Author-Gravity / mediation-risk / Distortion
 Risk language separately, since that's a related but distinct requirement.
 
-Usage: py lexicon_compliance_checker.py <worlds/SomeWorld/Lexicon-Chunks>
+Usage: py lexicon_compliance_checker.py <Build/worlds/SomeWorld/Lexicon-Chunks>
 """
 
 import re

@@ -261,7 +261,7 @@ from pathlib import Path
 import yaml
 
 HERE = Path(__file__).resolve().parent
-REPO_ROOT = HERE.parents[2]
+REPO_ROOT = HERE.parents[3]
 RECORDS_ROOT = REPO_ROOT / "records" / "lpc"
 
 WORLD_ID = "latin-pastoral-congregational-christianity"

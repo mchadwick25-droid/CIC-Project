@@ -7,7 +7,7 @@ Run from the repo root. Writes LEXICON-INDEX.md alongside this script.
 import pathlib
 import sys
 
-REPO_ROOT = pathlib.Path(__file__).resolve().parents[2]
+REPO_ROOT = pathlib.Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(REPO_ROOT))
 
 from engine.m1.loader import load_world_records

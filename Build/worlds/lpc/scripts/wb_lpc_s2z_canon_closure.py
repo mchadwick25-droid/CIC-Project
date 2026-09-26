@@ -196,7 +196,7 @@ from pathlib import Path
 
 import yaml
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 OUT_ROOT = REPO_ROOT / "records" / "lpc"
 
 WORLD_ID = "latin-pastoral-congregational-christianity"

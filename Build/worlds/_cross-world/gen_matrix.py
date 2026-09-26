@@ -7,7 +7,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
 from engine.m1 import canon, cross_world, gates
 from engine.m1.loader import RECORDS_ROOT, load_fleet_records, load_world_records
@@ -16,7 +16,7 @@ from engine.m2.builders import _quote_speaker
 from engine.m2.compiler import compile_world
 from engine.m4.citation_cards import _label
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 # records/worlds.yaml (this file's own former single-file source) was split
 # into records/worlds/<code>.yaml per-world (registry.py's own docstring) -
 # reading it directly here left this script pointed at a file that no

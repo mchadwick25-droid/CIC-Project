@@ -122,10 +122,10 @@ SURFACES: dict[str, tuple[str, ...]] = {
     "cic-engine": ("cic/engine",),
     "cic-corpus-map": ("cic/corpus-map",),
     "records": ("records",),
-    "worlds": ("worlds",),
+    "worlds": ("Build/worlds",),
     "cic-poc-frontend": ("cic-poc/frontend",),
     "cic-website": ("cic-website",),
-    "reference": ("reference",),
+    "reference": ("Build/reference",),
     "fixtures": ("fixtures",),
     "packages": ("packages",),
     "canon": ("canon",),
@@ -556,7 +556,7 @@ def _is_review_doc(rel: Path) -> bool:
     ...), or a loose file in the world's own root whose name contains
     "Review" (desert, gallic, hal, ...). Both covered; neither guessed."""
     parts = rel.parts
-    if len(parts) < 3 or parts[0] != "worlds":
+    if len(parts) < 4 or parts[0] != "Build" or parts[1] != "worlds":
         return False
     if "Review-Artifacts" in parts:
         return True
@@ -565,7 +565,7 @@ def _is_review_doc(rel: Path) -> bool:
 
 def _is_world_build_dir(rel: Path) -> bool:
     parts = rel.parts
-    return len(parts) >= 3 and parts[0] == "worlds" and parts[2] == "build"
+    return len(parts) >= 4 and parts[0] == "Build" and parts[1] == "worlds" and parts[3] == "build"
 
 
 def _is_gaps_ledger(rel: Path) -> bool:
@@ -576,7 +576,7 @@ def _is_gaps_ledger(rel: Path) -> bool:
     exceptions explicitly"). Scanning it would flag the ledger's own
     required shape as if it were leaked commentary."""
     parts = rel.parts
-    return len(parts) >= 2 and parts[0] == "worlds" and parts[-1] == "Open_Gaps_Tracking.md"
+    return len(parts) >= 3 and parts[0] == "Build" and parts[1] == "worlds" and parts[-1] == "Open_Gaps_Tracking.md"
 
 
 # Historical content whose own subject matter is a ruling/verdict, not this

@@ -74,3 +74,10 @@ tools/update_tradition_links.mjs
 tools/render_orientation_cli.mjs
 tools/moves-phase1.tsv
 tools/moves-phase2.tsv
+# Hoarder-house cleanout (2026-09-26): the three move manifests above (and their
+# Build/tools/ copies) were deleted outright, not just relocated - each is a
+# pure record of an already-executed, already-merged move with nothing reading
+# it, fully redundant with Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md.
+Build/tools/moves-phase1.tsv
+Build/tools/moves-phase2.tsv
+Build/tools/moves-phase3-live-build-split.tsv

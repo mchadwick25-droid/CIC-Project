@@ -24,8 +24,8 @@ TEXT_EXT = {".md", ".txt", ".yaml", ".yml", ".py", ".mjs", ".js", ".ts", ".tsx",
 BIN_EXT = {".docx", ".xlsx", ".pdf", ".png", ".jpg", ".jpeg", ".gif", ".zip", ".skill", ".ico", ".sqlite", ".db", ".pptx", ".mp4", ".woff", ".woff2", ".ttf"}
 SKIP = ("/.git/", "/node_modules/", "/cic/texts/", "/packages/", "/Archive/", "/.claude/",
         # Dated history describes the tree as it was; the move ledger maps old to new.
-        "/Ministry/Operations/Audits/", "/Ministry/Operations/Standing/Launch-Prompts/",
-        "/Ministry/Operations/Markup-Queue/",
+        "/Build/Ministry/Operations/Audits/", "/Build/Ministry/Operations/Standing/Launch-Prompts/",
+        "/Build/Ministry/Operations/Markup-Queue/",
         # Hashed or sealed content: a record is copied byte-for-byte into its package and
         # hashed by the manifest, so one changed byte fails the in-image restore; canon/ is
         # seal-checked. Their citations are baselined for the owning threads.
@@ -71,7 +71,7 @@ def main(argv):
         sp = "/" + p.relative_to(repo).as_posix()
         if any(s in sp + "/" for s in SKIP):
             continue
-        if sp.startswith("/Ministry/") and DATED.search(p.name):
+        if sp.startswith("/Build/Ministry/") and DATED.search(p.name):
             continue
         ext = p.suffix.lower()
         if ext in BIN_EXT:

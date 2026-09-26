@@ -275,7 +275,7 @@ jobs:
   # separate, reviewed step (PR C/D) - this job exists to make the count
   # visible on every push, not to gate anything yet. Not gated on the
   # `changes` filter: it reads text across surfaces `changes` doesn't track
-  # (reference/, worlds/, cic-website/), costs about ten seconds, and a
+  # (Build/reference/, Build/worlds/, cic-website/), costs about ten seconds, and a
   # docs-only or records-only commit is exactly the kind that moves these
   # counts.
   live-commentary-scan:

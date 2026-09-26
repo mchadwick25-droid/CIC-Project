@@ -50,7 +50,7 @@ from engine.m1.registry import formation_world_keys, load_registry  # noqa: E402
 SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
 TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
 CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
-RENDER_CLI = REPO_ROOT / "tools" / "render_orientation_cli.mjs"
+RENDER_CLI = REPO_ROOT / "Build" / "tools" / "render_orientation_cli.mjs"
 TEMPLATE_PATH = REPO_ROOT / "cic-website" / "templates" / "tradition.html"
 
 

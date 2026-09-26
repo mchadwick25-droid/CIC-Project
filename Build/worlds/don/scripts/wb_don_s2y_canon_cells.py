@@ -445,7 +445,7 @@ F4-P, F4-T, F5-T -- named and reasoned above), 0 multiple_honest_limit.
 """
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 RECORDS_ROOT = REPO_ROOT / "records" / "don"
 
 # record_type directory -> list of (id, [cells]) to apply. Mechanical

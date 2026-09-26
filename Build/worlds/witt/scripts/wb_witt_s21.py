@@ -209,7 +209,7 @@ from pathlib import Path
 
 import yaml
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 REGISTRY_MD = REPO_ROOT / "World-Builds" / "Lutheran-Wittenberg" / "witt_Source_Registry.md"
 RECORDS_ROOT = REPO_ROOT / "records" / "witt"
 TEXTS_DIR = REPO_ROOT / "cic" / "texts"

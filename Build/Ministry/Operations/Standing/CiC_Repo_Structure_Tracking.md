@@ -718,3 +718,121 @@ pruned in the same pass, mostly older World-Builds/-era citations that now resol
 both sides of the citation moved together).
 
 Every path recorded in `Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`.
+
+---
+
+## 2026-09-26 — Hoarder-house cleanout, round 1: three redundant move manifests deleted
+
+**Context.** Mark's direction, mid-cleanup: not just relocate the non-core material, but
+actually delete genuine dead weight outright — "everything gone that is not the house...
+pulling out all the junk... anything that is not structural." Distinguished up front from
+archiving: real content, meaningful superseded drafts, and anything with audit/provenance
+value still goes to `Archive/`, never deleted; only verified-dead material is.
+
+**Found (junk-hunt investigation, read-only first):** `Build/tools/moves-phase1.tsv`,
+`moves-phase2.tsv`, and `moves-phase3-live-build-split.tsv` — raw citation-rewrite
+manifests from three already-executed, already-merged reorg moves. Verified by grep
+against every `.py`/`.mjs`/`.yml` in the repo: nothing reads them. Fully redundant with
+this file and `CiC_Repo_Structure_Move_Ledger_2026-09.md`, which already narrate and
+table every move. Everything else the same investigation checked (empty directories,
+`.bak`/`.orig`/`.tmp` files, tracked `__pycache__`/`.pyc`) came up clean — this repo
+already had no debris on that axis.
+
+**Not deleted, flagged for a human call instead:** a `don` voice_craft duplicate-file
+situation already flagged unresolved on 2026-09-14 (real `records/` content feeding a
+compiled package — needs the Donatism thread's decision, not a blind delete); 3
+byte-identical SVG pairs in `Brand-Assets/World-Icons/` that look like an intentional
+locked-source/published-copy workflow, not accidental hoarding; ~300 real `.docx`/`.md`
+content pairs in `Build/worlds/pahc/` and `Build/worlds/cappadocian/`, already a known,
+accepted authoring pattern, not debris.
+
+**Action.** Deleted the three manifests outright (not archived — matches the new
+delete-true-junk-outright rule). Added all three to `tools/retired_paths.txt` so a stale
+branch can't resurrect them. Fixed this entry's own cross-reference in the Move Ledger
+(previously pointed at the phase-3 manifest, now describes the mapping inline in the
+table there instead).
+
+**Repo size, tracked before this cleanup began (2026-09-26, session start,
+commit `6fc4d45b`) vs. now:**
+
+| | tracked files | tracked size (git blobs) | working-tree total |
+|---|---|---|---|
+| Before (start of today's cleanup) | 7,032 | 578.7 MB | — not captured |
+| After Phase 1 + 2 + this round | 7,034 | 578.7 MB | 624 MB |
+
+Net file count is flat so far — this phase added more (the rationale log, ledger/tracking
+entries) than it removed (3 small manifests). Expected: the bulk of real size reduction is
+still ahead, in the deferred `records/` narrative pass and any further junk found. `cic/`
+(376 MB, vendored texts) and `Build/` (120 MB) dominate current size and are not
+themselves cleanup targets — `cic/texts/` is the Library's own vendored corpus, real
+content, not debris.
+
+**Path check:** `python tools/check_paths.py --baseline tools/check_paths_baseline.txt`:
+0 new unresolved, 0 retired paths present.
+
+---
+
+## 2026-09-26 — Opus review gate on the Live/Build split: 8 real findings, all fixed
+
+**Context.** Per the project's own model-routing convention, an Opus-model agent reviewed
+commit 501ebb4b (the Live/Build split) for discipline and safety before it was treated as
+done. Verdict: **FAIL on both**, with 8 concrete findings. Verified and fixed all 8 rather
+than disputing any — the gate did its job.
+
+1. **`tools/check_paths.py`'s own blind spot (HIGH).** Its `top_level_dirs()` only
+   recognizes directories that exist *now* — once `worlds/`, `reference/`, `Ministry/`,
+   `World-Builds/` stopped being top-level, any bare citation into them stopped being
+   checked at all, not resolved. The "361 stale entries now resolve" claim in the prior
+   commit message was wrong: they were invisible, not fixed. Fixed by making
+   `top_level_dirs()` also recognize retired top-level names from
+   `tools/retired_paths.txt`. Re-running with the real checker surfaced 621 previously
+   -invisible broken citations (mostly pre-existing drift across `Build/worlds/`,
+   `Build/Ministry/` review artifacts and historical logs, plus a 38-file bare
+   `L4-Templates/...` citation style predating today entirely, and `records/`'s own
+   hash-sealed content) — baselined, matching this project's own established convention
+   for citations that are historical or not this thread's to fix.
+2. **43 `Build/worlds/` scripts with wrong root-detection depth (HIGH).** Every script
+   under the moved `worlds/` tree that computes its own repo root
+   (`Path(__file__).resolve().parents[N]` / `HERE.parents[N]`) needed `N` bumped by
+   one level. Fixed all 43, verified by import (no side effects) that each now resolves
+   to the true repo root. Found and fixed 8 more (`Build/worlds/pahc/build/generate_*.py`
+   ×7, `Build/worlds/desert/build/generate_voice_index.py`) that were **already wrong
+   before today's move** (an inherited copy-paste depth bug, unrelated to the reorg) —
+   fixed properly rather than preserved by a uniform +1.
+3. **`tools/check_live_commentary.py`'s own hardcoded `"worlds"`/`"reference"` (HIGH).**
+   Its `SURFACES` map and three helper functions (`_is_review_doc`, `_is_world_build_dir`,
+   `_is_gaps_ledger`) still checked the bare old prefix, silently scanning nothing for
+   those two surfaces and failing 3 of its own tests. Fixed; test suite back to the same
+   4 pre-existing, unrelated failures (`cic/engine/texts_registry.py` hand-labels,
+   confirmed predating this work).
+4. **Live-zone engine code with stale paths (MEDIUM).** `engine/m1/bar_screen.py` and
+   `engine/m9/cli.py` both wrote to/read from a bare `"worlds"` directory relative to
+   repo root — real functional risk in the Live zone itself, not just tooling. Fixed.
+5. **`Build/tools/generate_tradition_pages.py`'s own cross-reference (MEDIUM).** Pointed
+   at `tools/render_orientation_cli.mjs`'s old location via a split path-join the
+   citation-rewriter can't see across. Fixed; grepped the rest of `engine/`, `Build/tools/`,
+   `Build/worlds/`, both front ends for the same split-path-join pattern — nothing else
+   found.
+6. **`CLAUDE.md`'s live-surface list (MEDIUM).** Lines 52/53/55 still named bare
+   `worlds/`, `reference/`, `Ministry/` as canonical surfaces — a bare-word mention with
+   nothing after it, which no automated tool (by design) would ever flag. Paths fixed to
+   `Build/...`; which directories are *named* canonical is unchanged, that's a governance
+   question left open, not decided here.
+7. **`Build/tools/rewrite_paths.py`'s own stale skip-prefix (LOW).** Same class of bug as
+   #1, in the tool that did today's rewriting: its `SKIP` tuple and a bare
+   `sp.startswith("/Ministry/")` check both still named the old location, meaning a future
+   run would incorrectly rewrite dated-history files it should leave alone. Fixed.
+8. **Small comment/docstring staleness (LOW).** `.github/workflows/ci.yml:278` and
+   `Build/tools/lexicon_compliance_checker.py`'s own usage line. Fixed.
+
+**Not a finding, just concurrent:** the gate flagged that 3 manifest files and
+`retired_paths.txt` changed *during* its review — confirmed for the record: that was the
+separate, explicitly-instructed junk-hunt deletion (previous entry, above this one),
+running concurrently, not part of what the gate was reviewing.
+
+**Verification after fixes:** `python3 -m py_compile` clean on every file touched;
+`check_live_commentary.py`'s test suite back to its 4 known pre-existing failures;
+`check_paths.py --baseline`: 0 new unresolved, 1,027 total accepted (621 added, honestly
+reflecting real pre-existing drift the fixed checker can see again, not new breakage);
+`tools/test_repin_stale_worlds.py`: 3 passed; `engine.m1.bar_screen` / `engine.m9.cli`
+import cleanly.
