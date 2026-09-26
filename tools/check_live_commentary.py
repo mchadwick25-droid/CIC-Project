@@ -623,6 +623,27 @@ def _is_gaps_ledger(rel: Path) -> bool:
     return len(parts) >= 3 and parts[0] == "Build" and parts[1] == "worlds" and parts[-1] == "Open_Gaps_Tracking.md"
 
 
+_DECISION_LOG_FILENAME = re.compile(r"(?i)decision[-_]log\.md$")
+
+
+def _is_decision_log(rel: Path) -> bool:
+    """A per-world (or fleet-level) decision log under Build/worlds/ - e.g.
+    lpc_Decision_Log.md, CiC_W7_Decision_Log.md, LIBRARY-DECISION-LOG.md.
+    Same reasoning as _is_gaps_ledger, just for a sibling kind of ledger:
+    confirmed live against lpc_Decision_Log.md's own header ("This log
+    holds project-lead decisions, escalation resolutions, and revision
+    rationale for this world's build, so the construction documents
+    themselves stay clean, substantive content") - the file exists
+    specifically so dated, review-round, project-lead-attributed history
+    doesn't have to live in the construction documents it explains. Not a
+    construction document itself, so scanning it for the same patterns a
+    construction document is held to would flag its own required shape as
+    leaked commentary, the same mistake _is_gaps_ledger already guards
+    against for the gaps ledger."""
+    parts = rel.parts
+    return len(parts) >= 3 and parts[0] == "Build" and parts[1] == "worlds" and bool(_DECISION_LOG_FILENAME.search(parts[-1]))
+
+
 # Historical content whose own subject matter is a ruling/verdict, not this
 # project's: named explicitly rather than pattern-matched, per the launch
 # brief ("historical content where 'ruling', 'verdict' etc. are the subject
@@ -809,7 +830,7 @@ def is_protected(rel: Path, line_no: int, protected_field_lines: set[int]) -> bo
         return True
     if rel_s in PROTECTED_HISTORICAL_FILES:
         return True
-    if _is_review_doc(rel) or _is_world_build_dir(rel) or _is_gaps_ledger(rel) or _is_engine_report(rel):
+    if _is_review_doc(rel) or _is_world_build_dir(rel) or _is_gaps_ledger(rel) or _is_decision_log(rel) or _is_engine_report(rel):
         return True
     if line_no in protected_field_lines:
         return True

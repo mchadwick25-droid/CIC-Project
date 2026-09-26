@@ -971,7 +971,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     ("Build/worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
-    ("Build/worlds/syr/CiC_W7_Decision_Log.md", 16, "REWRITE"),
+    # Refreshed 2026-09-26 (per-world decision-log exemption): this line
+    # sits inside CiC_W7_Decision_Log.md, a per-world decision log
+    # (matching lpc_Decision_Log.md's own header purpose), now correctly
+    # PROTECTED rather than REWRITE under the new _is_decision_log rule.
+    ("Build/worlds/syr/CiC_W7_Decision_Log.md", 16, "PROTECTED"),
     # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
     # exemption): this line sits in Doc_04's own "## Disposition" section
     # ("Carried open, and not resolved by this approval") - exactly the
@@ -987,13 +991,19 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # matching. Moved to fresh records/ examples, not yet touched by the
     # cleanup program, to keep this table at >=60 real, currently-matching
     # lines.
-    ("records/don/gravity/don.gravity.rebaptism-boundary.md", 124, "REWRITE"),
-    ("records/hal/voice_craft/hal.voice.craft.md", 57, "REWRITE"),
-    ("records/pahc/quote/pahc.quote.they-appointed-the-first-fruits.md", 73, "REWRITE"),
-    ("records/cappadocian/quote/cappadocian.quote.basil-against-delaying-baptism.md", 109, "REWRITE"),
-    ("records/ijc/quote/ijc.quote.constantine-bishop-outside.md", 39, "REWRITE"),
-    ("records/cappadocian/contested_claim/cappadocian.contested.homoian-nicene-reversal.md", 24, "REWRITE"),
-    ("records/ijc/source/ijc.source.canons-constantinople-381.md", 25, "REWRITE"),
+    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
+    # 0cbe76d5..30b1cb93): all 7 samples below were cleaned by that
+    # effort and stopped matching. Moved to fresh Build/reference/
+    # examples, a surface not part of any active or near-term cleanup
+    # pass, to keep this table stable and at >=60 real, currently-
+    # matching lines.
+    ("Build/reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md", 1301, "REWRITE"),
+    ("Build/reference/method/CiC_Representative_Naming_Role_Discipline_2026-09-08.md", 6, "REWRITE"),
+    ("Build/reference/L2C-System-Status/CiC_Pipeline_Decision_Log.md", 174, "REWRITE"),
+    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 137, "REWRITE"),
+    ("Build/reference/method/Pass2-decisions/2026-08-01_M_lean_validation_interview_spend.md", 54, "REWRITE"),
+    ("Build/reference/method/CiC_Record_Native_World_Build_Process_V1.9.md", 627, "REWRITE"),
+    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 200, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
     # stopped matching. cic-website is now clean apart from one known
@@ -1016,7 +1026,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # examples, distinct from the 8 above, to keep this table at >=60
     # real, currently-matching lines.
     ("Build/worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
-    ("Build/worlds/hal/hal_Decision_Log.md", 88, "REWRITE"),
+    # Refreshed 2026-09-26 (per-world decision-log exemption): this line
+    # sits inside hal_Decision_Log.md, a per-world decision log, now
+    # correctly PROTECTED rather than REWRITE under the new
+    # _is_decision_log rule.
+    ("Build/worlds/hal/hal_Decision_Log.md", 88, "PROTECTED"),
     ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
     ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
     ("Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
@@ -1046,7 +1060,11 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("fixtures/seeded_defects.yaml", 213, "PROTECTED"),
     ("fixtures/seeded_defects.yaml", 191, "PROTECTED"),
     ("records/don/source/don.source.npnf104-prolegomena-analysis.md", 26, "PROTECTED"),
-    ("records/cappadocian/voice_craft/cappadocian.voice.craft.md", 106, "REWRITE"),
+    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
+    # 0cbe76d5..30b1cb93): the original cappadocian.voice.craft.md:106 line
+    # was cleaned as part of that effort. Re-pinned to a stable
+    # Build/reference/ example.
+    ("Build/reference/method/CiC_Adversarial_Review_Standard_Practice.md", 25, "REWRITE"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR): the original
     # fix.craft.vera-voice.md:29 "REVISED 2026-09-19" line was itself
     # cleaned as part of that PR (the file's `guard` field was rewritten
@@ -1057,13 +1075,20 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # PR.
     ("records/alx/force/alx.force.scripture-ongoing.md", 29, "REWRITE"),
     ("records/alx/source/alx.source.origen-comm-matthew.md", 22, "PROTECTED"),
-    ("records/hal/force/hal.force.clerical-precarity.md", 52, "REWRITE"),
+    # Refreshed 2026-09-26 (Phase 3b records/ cleanup, commits
+    # 0cbe76d5..30b1cb93): the original hal.force.clerical-precarity.md:52
+    # line was cleaned as part of that effort. Re-pinned to a stable
+    # Build/reference/ example.
+    ("Build/reference/fleet-voice/EXEMPLAR-TRANSCRIPT.md", 146, "REWRITE"),
     # Refreshed 2026-09-25 (Live-Surface-Cleanup Step 4/Item A prep): the
     # original alx.figure.didymus.md:48 line was cleaned by PR #509 and
-    # stopped matching. Re-pinned to a contested_claim divergence_note - a
-    # non-spoken record field explicitly out of scope under the current
-    # (spoken-fields-only) cleanup directive, so it should stay stable.
-    ("records/cappadocian/contested_claim/cappadocian.contested.agennetos-transmission.md", 27, "REWRITE"),
+    # stopped matching.
+    # Refreshed again 2026-09-26 (Phase 3b records/ cleanup, commits
+    # 0cbe76d5..30b1cb93): the re-pinned
+    # cappadocian.contested.agennetos-transmission.md:27 line was itself
+    # cleaned by that effort. Re-pinned to a stable Build/reference/
+    # example.
+    ("Build/reference/Project-Reference/CiC_V7_Upgrade_Reference.md", 134, "REWRITE"),
     ("Build/reference/method/Pass2-decisions/S6.2_length_ceiling_retry_cost_investigation_2026-07-31.md", 14, "REWRITE"),
     # Hand label KEEP: "reviewer" here is generic instructional/methodology
     # prose (what a hypothetical reviewer of OTHER content would miss),
