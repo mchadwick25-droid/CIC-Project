@@ -371,11 +371,13 @@ Build/worlds/ijc/Open_Gaps_Tracking.md: cic-poc/backend/app/world_manifest.py
 Build/worlds/ijc/Open_Gaps_Tracking.md: packages/ijc/2026-09-04T18-49-02Z
 Build/worlds/ijc/Open_Gaps_Tracking.md: packages/ijc/2026-09-09T02-58-39Z
 Build/worlds/ijc/Open_Gaps_Tracking.md: records/worlds.yaml
+Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md: Build/Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/03_WorldBuilds_Validation_Sweep.md
 Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md: packages/ijc/2026-09-04T18-49-02Z
 Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md: records/WORLDS_REGISTRY_LOG.md
 Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md: records/worlds.yaml
 Build/worlds/ijc/Review-Artifacts/Lexicon_Apocrisiarius_Round1_Review.md: records/WORLDS_REGISTRY_LOG.md
 Build/worlds/ijc/Review-Artifacts/Lexicon_Apocrisiarius_Round1_Review.md: records/worlds.yaml
+Build/worlds/ijc/Review-Artifacts/PostAdmission_Source_Finding_Round1_Review.md: Build/Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/03_WorldBuilds_Validation_Sweep.md
 Build/worlds/ijc/Review-Artifacts/PostAdmission_Source_Finding_Round1_Review.md: packages/ijc/2026-09-04T18-49-02Z
 Build/worlds/ijc/Review-Artifacts/PostAdmission_Source_Finding_Round1_Review.md: packages/ijc/2026-09-04T18-49-02Z/manifest.json
 Build/worlds/ijc/Review-Artifacts/PostAdmission_Source_Finding_Round1_Review.md: records/WORLDS_REGISTRY_LOG.md

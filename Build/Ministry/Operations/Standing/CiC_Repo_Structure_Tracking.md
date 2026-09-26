@@ -858,3 +858,19 @@ those as citations into the *new* directory. 11 such false-positive entries base
 not a real break, just two different things sharing the word "Sandbox."
 
 **Path check:** 0 new unresolved, 0 retired paths present, 1,038 total accepted.
+
+---
+
+## 2026-09-26 — CiC_Redesign_Research_2026-07-25/ archived
+
+**Context.** Old-tests/transcripts hunt found this 22-file July 2026 redesign-research
+folder (Pass 1/Pass 2 design research, predating the current engine/records-native
+architecture) as its one real match: historical, superseded, but with genuine
+audit-trail/review value per CLAUDE.md's own protection rule — archive, not delete.
+
+**Action.** `git mv Build/Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25`
+→ `Archive/Redesign-Research-2026-07-25`. Citing files (other Audits/decision-log/Archive
+documents, all dated) left unrewritten per the standing dated-history convention; 2 new
+per-world review-artifact citations under `Build/worlds/ijc/` baselined.
+
+**Path check:** 0 new unresolved, 1,040 total accepted.
