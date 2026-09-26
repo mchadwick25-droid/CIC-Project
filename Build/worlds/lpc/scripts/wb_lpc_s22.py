@@ -10,9 +10,8 @@ Step 6 deliverable is "nineteen self-contained deployment chunks written to
 the L4 template" -- ALL NINETEEN of `lpc`'s own candidate terms (Doc_03's
 eighteen, plus one Doc_06 itself added at SS2.4 -- "certificates",
 `lpclex019`) are already fully-authored, already-reviewed deployment prose,
-independently re-reviewed across three rounds (`Lexicon_Deployment_Index.md`
-SS167-169: "Round 1 returned REVISION REQUIRED... Round 2... Round 3...
-judging the deliverable adequate to proceed to Doc_07"). So this step is
+independently re-reviewed across several rounds (`Lexicon_Deployment_Index.md`
+SS167-169), the last judging the deliverable adequate to proceed to Doc_07. So this step is
 `lpc`'s own B-2 alone: converting nineteen already-settled chunks onto the
 live schema is the whole of the mechanical work, with the same shape of
 authored judgment on top (confidence blocks, register-safe quick_meaning/
