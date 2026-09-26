@@ -443,9 +443,7 @@ def _front_matter_field_lines(text: str) -> tuple[dict[str, set[int]], str | Non
     block-tracking logic (what counts as "still this field's value") is
     written and gets it right exactly once."""
     lines = text.splitlines()
-    if not lines or lines[0].strip() != "---":
-        return {}, None
-    end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    end = _yaml_frontmatter_end(lines)
     if end is None:
         return {}, None
     record_type = None
@@ -530,6 +528,19 @@ def _paragraph_lines(lines: list[str], line_no: int) -> list[int]:
     return list(range(start, end + 1))
 
 
+def _yaml_frontmatter_end(lines: list[str]) -> int | None:
+    """1-indexed line number of the closing `---` of a YAML front-matter
+    block starting at line 1, or None if the file has no such block (no
+    opening `---` at line 1, or no closing `---` found anywhere below it).
+    Factored out of `_source_record_body_lines` (which used to derive this
+    inline) so `_front_matter_field_lines` and the change-history widening
+    in `scan_file` share the exact same detection rather than each
+    re-deriving it."""
+    if not lines or lines[0].strip() != "---":
+        return None
+    return next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+
+
 def _source_record_body_lines(text: str, record_type: str | None) -> set[int]:
     """Every line after a `record_type: source` record's own closing
     front-matter delimiter - its own apparatus prose, where a Source
@@ -541,12 +552,45 @@ def _source_record_body_lines(text: str, record_type: str | None) -> set[int]:
     if record_type != "source":
         return set()
     lines = text.splitlines()
-    if not lines or lines[0].strip() != "---":
-        return set()
-    end = next((i for i in range(1, len(lines)) if lines[i].strip() == "---"), None)
+    end = _yaml_frontmatter_end(lines)
     if end is None:
         return set()
     return set(range(end + 2, len(lines) + 1))
+
+
+def _yaml_scalar_block_lines(field_lines: dict[str, set[int]], line_no: int) -> list[int]:
+    """Widen a change-history cue found inside a YAML front-matter block to
+    just the lines of the single top-level key whose value contains it
+    (`field_lines`, as `_front_matter_field_lines` already computes it),
+    instead of `_paragraph_lines`' blank-line-delimited paragraph.
+
+    Front matter typically has NO blank lines between sibling top-level
+    keys at all (`id:`, `world_id:`, `confidence:`, ...), so a cue inside
+    one field's value (e.g. a `divergence_note: >` block, or a `rights_
+    status:` sentence mentioning "adversarial review") used to sweep every
+    unrelated sibling key into the same flagged "paragraph" - the entire
+    front-matter block, all the way to the next real blank line or EOF.
+    Confirmed live: records/lpc/source/lpc.source.hartel-cyprian-opera-
+    omnia-csel3-standing-reference.md's `rights_status` sentence naming
+    "Doc_01's own nine adversarial review rounds" used to flood all 20
+    sibling front-matter lines (id, world_id, schema_version, sources,
+    relations, ...) as REWRITE.
+
+    A genuine multi-line scalar value stays widened together as one unit:
+    its continuation lines are indented (or blank, while still inside the
+    block), so they never match `_YAML_KEY`'s own top-level (zero-indent)
+    shape and so never act as a sibling-key boundary - only the next real
+    top-level key, a blank line, or the closing `---`/EOF ends the block,
+    exactly as `_front_matter_field_lines` already tracks it.
+
+    Falls back to widening to just `line_no` itself when the cue line
+    isn't inside any recognized top-level key's own block - the front-
+    matter delimiter lines themselves, or a line before the first key -
+    since there is no sibling field to protect against there anyway."""
+    for key_lines in field_lines.values():
+        if line_no in key_lines:
+            return sorted(key_lines)
+    return [line_no]
 
 
 def _is_review_doc(rel: Path) -> bool:
@@ -826,17 +870,33 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
     protected_field_lines: set[int] = set()
     spoken_field_lines: set[int] = set()
     source_record_body_lines: set[int] = set()
+    # Computed for every file, not just records/: cheap (an immediate
+    # return when the file has no leading `---`), and needed fleet-wide
+    # below for change-history widening, not only for records/'s own
+    # PROTECTED-field/spoken-field logic.
+    frontmatter_field_lines, record_type = _front_matter_field_lines(text)
     if path.suffix == ".md" and rel.parts[0] == "records":
-        field_lines, record_type = _front_matter_field_lines(text)
-        protected_field_lines = _protected_record_field_lines(field_lines, record_type)
-        spoken_field_lines = _spoken_field_lines(field_lines, record_type)
+        protected_field_lines = _protected_record_field_lines(frontmatter_field_lines, record_type)
+        spoken_field_lines = _spoken_field_lines(frontmatter_field_lines, record_type)
         source_record_body_lines = _source_record_body_lines(text, record_type)
     protected_field_lines |= _doc_construction_protected_lines(rel, text)
 
+    # A change-history cue inside a YAML front-matter block widens only to
+    # its own top-level key's lines (_yaml_scalar_block_lines) - front
+    # matter has no blank lines between sibling keys, so the ordinary
+    # blank-line paragraph widening would otherwise flood every unrelated
+    # sibling field. A cue outside front matter (the record's own body
+    # prose after the closing `---`, a file with no front matter at all,
+    # plain Markdown, a Python/JS comment, ...) still widens by
+    # _paragraph_lines, unchanged.
+    frontmatter_end = _yaml_frontmatter_end(raw_lines)
     change_history_block_lines: set[int] = set()
     for i, line in enumerate(raw_lines, start=1):
         if CHANGE_HISTORY_CUES.search(line):
-            change_history_block_lines.update(_paragraph_lines(raw_lines, i))
+            if frontmatter_end is not None and i <= frontmatter_end:
+                change_history_block_lines.update(_yaml_scalar_block_lines(frontmatter_field_lines, i))
+            else:
+                change_history_block_lines.update(_paragraph_lines(raw_lines, i))
 
     hits: list[Hit] = []
     for i, line in enumerate(raw_lines, start=1):

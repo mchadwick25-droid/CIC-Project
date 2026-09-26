@@ -418,6 +418,74 @@ def test_change_history_cue_widens_to_whole_paragraph(tmp_path):
     assert 6 not in by_line  # the next paragraph is untouched
 
 
+def test_change_history_cue_in_yaml_frontmatter_does_not_flood_siblings(tmp_path):
+    # Real bug (records/lpc/source/lpc.source.hartel-cyprian-opera-omnia-
+    # csel3-standing-reference.md): front matter has no blank lines between
+    # sibling top-level keys at all, so the ordinary paragraph-based
+    # widening used to sweep every unrelated field (id, world_id,
+    # schema_version, sources, ...) into the same flagged block. A cue
+    # inside one field's own value must widen only to that field's own
+    # lines, never past the next top-level key.
+    text = (
+        "---\n"
+        "id: fix.source.example\n"
+        "world_id: fixture-world\n"
+        "record_type: source\n"
+        "schema_version: 2\n"
+        "status: draft\n"
+        "note: >-\n"
+        "  CORRECTION (cold adversarial review, 2026-08-31): this note\n"
+        "  previously said the wrong edition was vendored.\n"
+        "sources: []\n"
+        "relations: []\n"
+        "---\n"
+        "Body text after front matter.\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/source/fix.source.example.md")
+    by_line = {h.line: h for h in hits}
+    # Only the `note:` field's own lines (its key line, 7, plus its two
+    # continuation lines, 8-9) carry the flood tag - every sibling key
+    # (id, world_id, record_type, schema_version, status, sources,
+    # relations) stays untouched.
+    assert set(by_line) == {7, 8, 9}
+    assert by_line[7].category == "REWRITE"
+    assert by_line[8].category == "REWRITE"
+    assert by_line[9].category == "REWRITE"
+    assert "change-history-cue" in by_line[8].patterns
+    assert "change-history-block" in by_line[7].patterns
+    assert "change-history-block" in by_line[9].patterns
+
+
+def test_change_history_cue_yaml_multiline_scalar_stays_widened_together(tmp_path):
+    # A genuine multi-line scalar value (its continuation lines are
+    # indented, never matching the top-level-key shape, so they never act
+    # as a sibling-key boundary) must still widen as one unit - the cue on
+    # one line pulls in the rest of the same field's prose, not just its
+    # own line.
+    text = (
+        "---\n"
+        "id: fix.dw.example\n"
+        "record_type: doctrinal_witness\n"
+        "divergence_note: >-\n"
+        "  The record originally misdated this event by a year.\n"
+        "  CORRECTION (cold adversarial review, 2026-08-31): the correct\n"
+        "  year, verified directly against the source, is given below.\n"
+        "status: draft\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "records/fix/doctrinal_witness/fix.dw.example.md")
+    by_line = {h.line: h for h in hits}
+    # Lines 4-7 (the `divergence_note:` key line plus its three
+    # continuation lines) all get swept together as one scalar block; the
+    # sibling `id`/`record_type`/`status` lines (2, 3, 8) do not.
+    assert set(by_line) == {4, 5, 6, 7}
+    assert by_line[6].category == "REWRITE"
+    assert "change-history-cue" in by_line[6].patterns
+    assert "change-history-block" in by_line[4].patterns
+    assert "change-history-block" in by_line[5].patterns
+    assert "change-history-block" in by_line[7].patterns
+
+
 def test_change_history_cue_case_sensitivity(tmp_path):
     # CORRECTION/BLOCKING stay case-sensitive (all-caps only), same
     # reasoning as the existing "ruled" pattern - ordinary lowercase
