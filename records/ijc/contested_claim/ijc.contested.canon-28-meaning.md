@@ -54,13 +54,11 @@ presbeia tes times (Percival "prerogative of honour") is carried on
 ijc.term.presbeia. canon_cells: F6-I (what did your people never
 settle - the direct participant-facing home of this contest).
 
-Added at the step-5 review (Opus adversarial pass on
-records/ijc/demonstration, 2026-08-22): a demonstration built from this
+A demonstration built from this
 record (ijc.demo.never-settled) asserts the legates' objection
 without qualification; Percival's own excursus (npnf214:22345-22365)
 reads it as narrower - Paschasinus's own words at Session I already
 conceded Constantinople's rank "next after" Rome, before Lucentius's
-later protest. Added as a held_against item rather than left in the
-build's own apparatus unrecorded; it strengthens the unresolved holding
+later protest. This is held_against material: it strengthens the unresolved holding
 (the objection itself is real and contemporary) rather than weakening
 it.

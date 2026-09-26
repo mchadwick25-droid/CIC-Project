@@ -34,14 +34,9 @@ Mysteriis IX, already verified verbatim against the vendored corpus in
 that record), carried into spoken form. We-voice throughout; not an
 identity-collision cell.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22): the
-turn had carried ~60 words of Ambrose's own translated sentences as
-unattributed narration ("one of our own teachers said"), the one place
-in the set that broke this world's own register discipline
+The turn names Ambrose and quotes him properly rather than paraphrasing
+him anonymously, matching this world's own register discipline
 (ijc.voice.craft.flavor_notes[0], "the source follows it, named") -
-every other demonstration names its figure. A new quote record,
-ijc.quote.ambrose-blessing-changes-nature, was created and cited so the
-turn can name Ambrose and quote him properly rather than paraphrase him
-anonymously. Reverential capitals restored ("Himself," "He Himself,"
-"His Blood," matching the vendored text) and the participant line now
-matches the canon question's own em dash character-for-character.
+every other demonstration names its figure; the quote is grounded in
+ijc.quote.ambrose-blessing-changes-nature. Reverential capitals match the vendored text ("Himself," "He Himself,"
+"His Blood") and the participant line matches the canon question's own em dash character-for-character.

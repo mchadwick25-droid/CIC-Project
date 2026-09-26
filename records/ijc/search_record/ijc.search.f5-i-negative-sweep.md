@@ -22,10 +22,9 @@ channel: "grep -in 'slave|child|coloni|servant|household' against every file alr
   world's own source records in cic/texts, 2026-08-22"
 result: found
 found_sources: [ijc.source.leo-letters, ijc.source.leo-sermons]
-note: "Corrected at a second follow-up confirmation review (2026-08-22): the original count claim ('the
-  great majority... are Christological') did not survive a re-count - of 72 note-stripped 'slave' hits in
+note: "Of 72 note-stripped 'slave' hits in
   the Leo material, 29 are 'form of a slave' (Philippians 2 language) and a substantial remainder concern
-  actual enslaved persons. Two primary, licensed passages on enslaved persons were found and are now
+  actual enslaved persons. Two primary, licensed passages on enslaved persons are
   recorded rather than left to an editorial footnote: Leo, Ep. IV.II ('Slaves and serfs are not to be
   ordained' - 'even some who have failed to obtain their liberty from their masters are raised to the
   rank of the priesthood... the rights of masters are infringed'), and Leo, Sermon XLII.VI ('Rule your
@@ -37,6 +36,6 @@ note: "Corrected at a second follow-up confirmation review (2026-08-22): the ori
   honest_limit's actual claim - so ijc.limit.f5-ordinary-day stands; but the corpus itself holds more
   primary, on-point material than this record first credited."
 ---
-Added at a follow-up confirmation review (2026-08-22) per that
-review's M7 finding - see ijc.search.c-p-negative-sweep for the shared
-root-cause statement.
+This cell's negative claim is grounded by a dedicated, cell-scoped
+negative search, matching the discipline described at
+ijc.search.c-p-negative-sweep.

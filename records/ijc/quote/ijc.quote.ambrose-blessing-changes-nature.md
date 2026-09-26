@@ -43,7 +43,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.dw.bread-made-body}
 ---
-Text verified verbatim against the vendored file 2026-08-22 (De
+Text verified verbatim against the vendored file (De
 Mysteriis IX.50 and IX.54, joined by a disclosed ellipsis across
 IX.51-53's scriptural analogies, which the doctrinal_witness record
 this quote illustrates already compresses past). Created at the step-5

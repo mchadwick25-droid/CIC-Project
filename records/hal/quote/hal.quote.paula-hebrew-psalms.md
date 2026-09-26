@@ -33,17 +33,14 @@ retrieval:
   - "participant asks what the women of the household actually did with their days"
   - "participant asks whether women learned the languages too"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 108; the
+Verified verbatim against the vendored npnf206 (Ep. 108; the
 same passage carries the claim for Eustochium: 'The same accomplishment
 can be seen to this day in her daughter Eustochium'). The women's own
 scholarship in the record's own words - and, in the same breath, an
 epitaph-genre superlative from the same single hand (the passage
 explicitly ranks Paula's attainment above Jerome's own 'partial' one - see
 hal.quote.partially-acquired-hebrew for the pairing). Serves F5-I (the
-women's lives: study was daily practice, not ornament).
+women's lives: study was daily practice, not ornament). The locus, sec.
+27, matches the paired quote record.
 
-Locus corrected per independent review Round 1 (2026-08-21): sec. 26 was
-off by one against the print-edition numbering - now sec. 27, matching
-the paired quote record.
-
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

@@ -43,10 +43,10 @@ concedes: 'What IS secure: the Homoian establishment''s institutional history (i
   difference.'
 divergence_partners: []
 ---
-Rebuilt from the reviewed Doc_04 Candidate 3's Confidence/Gravity
-Cross-Check divergence (carried forward through Doc_05, Doc_08 SS7's
+Derived from Doc_04 Candidate 3's Confidence/Gravity
+Cross-Check divergence (carried through Doc_05, Doc_08 SS7's
 Named Tension, and Doc_09's Validation Layer as a standing unresolved
-item) - here made a first-class record a participant can reach. The
+item), here made a first-class record a participant can reach. The
 same divergence is carried on ijc.gravity.orthodoxy-enforcement's own
 confidence block. canon_cells: F2-E (where is your own record thinnest
 - the Homoian silence is among this world's sharpest answers).

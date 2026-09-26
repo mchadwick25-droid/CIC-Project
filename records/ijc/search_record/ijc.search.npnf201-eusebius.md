@@ -19,9 +19,8 @@ result: found
 found_sources: [ijc.source.eusebius-historia-ecclesiastica, ijc.source.eusebius-vita-constantini]
 note: "Both works confirmed inside cic/texts/npnf201 (VC division at file line 60256; HE X.5 'Copies of Imperial Laws' at 50202; VC I.28 vision at 61185; IV.24 at 66733); rights from the file's own DC.Rights header (Public Domain)."
 ---
-Run as part of step 2 (source ecology). The vendored corpus supplied by
-Mark (2026-08-15) already covered this request; no external acquisition
-needed. Network access to patristic text hosts is blocked in this
-session, so all found-searches in this build are corpus surveys, with
+The vendored corpus already covers this request; no external acquisition
+is needed. Network access to patristic text hosts is blocked in this
+sandbox, so all found-searches in this build are corpus surveys, with
 external web search used only for edition/rights facts about works NOT
 in the corpus.

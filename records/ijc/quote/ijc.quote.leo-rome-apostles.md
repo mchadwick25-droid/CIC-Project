@@ -40,7 +40,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (editorial
+Text verified verbatim against the vendored file (editorial
 notes stripped; addressed to Rome herself on the feast of Peter and
 Paul). The primacy claim in its preached, devotional register: the
 martyr-apostles as the ground of the see's standing - "a wider sway by

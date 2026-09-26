@@ -48,13 +48,11 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.gravity.precision-seeking}
 ---
-Text verified verbatim against the vendored file 2026-08-21 - the
-Creed of 325 proper (not the fuller 381 form). Corrected at review
-(Opus quote-fidelity pass, 2026-08-21): the edition's own square
+Text verified verbatim against the vendored file - the
+Creed of 325 proper (not the fuller 381 form). The edition's own square
 brackets ("[from heaven]", "[we believe]") mark words supplied by the
 translator for English sense that are part of the printed creed itself
-- kept here, brackets included, rather than silently dropped or
-silently unbracketed as the first-pass draft inconsistently did. Only
+- kept here, brackets included. Only
 the interlinear Greek-script glosses and their Latin equivalent
 (after "begotten" and "one substance") are omitted, as apparatus
 rather than quoted text - the single convention this record actually

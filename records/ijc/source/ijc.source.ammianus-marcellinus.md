@@ -34,11 +34,9 @@ discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md
   a fleet cross-world research thread's handoff, acted on and verified directly by this thread"
 external_ids: {}
 ---
-VENDORED 2026-09-13: the fleet's own cross-world research thread
-independently found and verified the Yonge edition on the Internet
-Archive (reachable from this sandbox even where ccel.org/newadvent.org/
-tertullian.org are not) and handed the lead to this thread, which
-fetched, verified, and vendored it directly (see
+The Yonge edition is vendored from the Internet Archive
+(reachable from this sandbox even where ccel.org/newadvent.org/
+tertullian.org are not; see
 cic/engine/texts_registry.py's own ENTRIES note). Book XXVII.3.12-13 -
 the casualty figure this build had previously carried only via
 npnf202's own editorial endnote quoting Ammianus (see

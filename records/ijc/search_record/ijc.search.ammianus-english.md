@@ -17,12 +17,9 @@ query: "Ammianus Marcellinus, Res Gestae 27.3 (the pagan historian's account of 
 channel: "web search for edition and rights facts, 2026-08-21; a copy located and fetched directly from the Internet Archive, 2026-09-13"
 result: found
 found_sources: [ijc.source.ammianus-marcellinus]
-note: "A public-domain English translation exists (Yonge, 1862; also Rolfe's Loeb vol. 3, 1939). VENDORED 2026-09-13: the Yonge edition was located on the Internet Archive (identifier romanhistoryofam00ammiiala) and fetched, verified, and vendored directly - see ijc.source.ammianus-marcellinus and cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt. Book XXVII.3.12-13 is confirmed present and now carries its own verbatim quote record, ijc.quote.ammianus-sicininus-massacre, superseding the prior second-hand route (npnf202's own editorial endnote quoting Ammianus, itself the source of the 137-casualty figure this build carried before now)."
+note: "A public-domain English translation exists (Yonge, 1862; also Rolfe's Loeb vol. 3, 1939). The Yonge edition is vendored from the Internet Archive (identifier romanhistoryofam00ammiiala) - see ijc.source.ammianus-marcellinus and cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt. Book XXVII.3.12-13 is confirmed present and carries its own verbatim quote record, ijc.quote.ammianus-sicininus-massacre, superseding the prior second-hand route (npnf202's own editorial endnote quoting Ammianus, itself the source of the 137-casualty figure this build carried before)."
 ---
-Run as part of step 2 (source ecology). Registered deliberately: the
+Registered deliberately: the
 366 election violence is load-bearing honest-limit/hard-places content
-(F6), and the strongest single witness to it was, until 2026-09-13,
-outside the vendorable base - stated, not smoothed, and now resolved.
-See ijc.source.ammianus-marcellinus's own trailing body for the full
-vendoring account (a fleet cross-world research thread's handoff,
-independently verified by this thread before acting on it).
+(F6). See ijc.source.ammianus-marcellinus's own trailing body for the full
+vendoring account.

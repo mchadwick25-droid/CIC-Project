@@ -59,7 +59,6 @@ honest negatives with this world's actual practices in their place. The
 "decapitated empire"/"light put out" image is from the preface to the
 Ezekiel commentary ('the bright light of all the world was put out, or,
 rather, when the Roman Empire was decapitated'), verified verbatim
-against the vendored text; its source was added per independent review
-Round 1 (2026-08-21), which found it uncited.
+against the vendored text; its source is named in sources[].
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

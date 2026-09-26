@@ -46,7 +46,7 @@ relations:
 - type: associated-with
   target: ijc.limit.f5-ordinary-day
 ---
-Opened 2026-08-27 for F4-E and F5-I together. Both were served without a quote, and both cited
+Opened for F4-E and F5-I together. Both were served without a quote, and both cited
 this same passage - ijc.dw.ancient-custom for "a practice's beginning honestly dated",
 ijc.limit.f5-ordinary-day for "the single congregational interior".
 

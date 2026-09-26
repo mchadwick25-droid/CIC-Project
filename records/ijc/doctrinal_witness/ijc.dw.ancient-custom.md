@@ -69,15 +69,10 @@ honestly-dated innovation - the pairing that keeps the answer from
 being either triumphalist or debunking. All four instances verified
 in the vendored corpus (Canon 6 wording checked at the source record;
 Julius and Augustine at their quote records; Hilary at the volume's
-own introduction, npnf209:3707-3741). Corrected at a second follow-up
-confirmation review (2026-08-22): the Hilary material was previously
-misdescribed as living in "the same manuscript as De Synodis" (it does
-not - De Synodis is a separate work in the volume; the hymn fragments
-share a manuscript with Hilary's own De Mysteriis) and deployed as a
-"counter-datum" to Augustine when the cited passage actually says the
-opposite - Hilary wrote hymns but never succeeded in bringing them into
-public worship, an honor the same source credits to Ambrose. Reworded
-to what the source actually supports, which corroborates rather than
+own introduction, npnf209:3707-3741). The Hilary hymn fragments share a manuscript with Hilary's own De
+Mysteriis, not De Synodis (a separate work in the same volume). Hilary
+wrote hymns but never succeeded in bringing them into public worship, an
+honor the same source credits to Ambrose - this corroborates rather than
 complicates Augustine's claim.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

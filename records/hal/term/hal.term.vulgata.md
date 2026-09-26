@@ -49,8 +49,4 @@ discipline (Doc_01 section 7's corrected reception finding) is carried in
 plain_meaning and false_friend: within the window the text coexisted with,
 and only gradually displaced, the older Latin versions.
 
-CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
-and the five world read"; V1.2 birth condition applied to the existing
-fleet - one story and one term per center cell where they genuinely
-belong, honest empties recorded). Added to C-E: "What did your people actually have about Jesus - writings... How did it reach you?" - the translation labor is this world's literal answer to how the writings reached anyone. Content unchanged; the added
-cell and this note are the whole edit.
+C-E: "What did your people actually have about Jesus - writings... How did it reach you?" - the translation labor is this world's literal answer to how the writings reached anyone.

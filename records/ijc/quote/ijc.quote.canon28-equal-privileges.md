@@ -42,7 +42,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.force.leo-rejects-canon-28}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (the
+Text verified verbatim against the vendored file (the
 edition's inline Greek gloss "(ἴσα πρεσβεῖα)" after "equal privileges"
 omitted from the quotable text; quoted through "rank next after her" -
 the canon continues into jurisdictional specifics). The claim's most

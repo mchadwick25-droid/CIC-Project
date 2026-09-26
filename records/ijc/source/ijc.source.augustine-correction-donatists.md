@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment, which assigned it to this world; no record here had opened npnf104"
 external_ids: {ccel_volume: "npnf104"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). The work's div2 opens at line 19266 inside the div1 "Writings
 in Connection with the Donatist Controversy" (line 9984). Passages
 verified directly at line 19617 (the compulsion argument and Augustine's

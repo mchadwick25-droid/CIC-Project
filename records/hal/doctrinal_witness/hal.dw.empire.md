@@ -53,4 +53,4 @@ catacomb-visit passage from Jerome's Ezekiel commentary, which is not in
 the vendored corpus and stays uncited. Companion quote:
 hal.quote.always-at-his-books (the outsider's actual view).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

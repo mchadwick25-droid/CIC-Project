@@ -61,16 +61,14 @@ modern_contrast: >-
   valence inverts, and this record names that inversion rather than letting the leverage read as
   uniformly admirable.
 ---
-Added at review (Opus historical-accuracy pass, 2026-08-21): the affair
-was previously named only in figure floruit lines and a gravity
-manifestation ("the emperor pressed to withdraw a command, on
-sacramental leverage") that omitted what the command actually was and
-why it was reversed - a real omission the same leverage this world
-elsewhere shows restraining violence (Thessalonica) here shielded. Both
-letters verified directly in the vendored corpus. canon_cells: F6-P
+This record states what the command actually was and
+why it was reversed: the same leverage this world
+elsewhere shows restraining violence (Thessalonica) here shields
+arsonists instead. Both
+letters are verified directly in the vendored corpus. canon_cells: F6-P
 (the people who taught me the faith turned out to be hypocrites - this
 episode is this world's own sharpest instance, in its own hero's own
 conduct) and F3-P (your church used power against those who disagreed -
 here, in support of violence already done, not only against dissent).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

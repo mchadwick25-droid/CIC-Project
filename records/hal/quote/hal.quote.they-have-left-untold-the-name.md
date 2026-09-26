@@ -40,7 +40,7 @@ relations:
 - type: associated-with
   target: hal.limit.martyrdom
 ---
-Opened 2026-08-27 for F6-E, which the rewritten classifier moved out of LIMIT-ONLY: hal.limit.martyrdom
+Opened for F6-E, which the rewritten classifier moved out of LIMIT-ONLY: hal.limit.martyrdom
 is the cell's only serving record and cites Ep. 137 specifically, so the limit can be voiced by the
 passage it points at.
 

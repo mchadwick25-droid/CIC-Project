@@ -79,7 +79,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.church-state-alliance}
 - {type: illustrates, target: ijc.gravity.episcopal-independence}
 ---
-Verified verbatim against the vendored file 2026-08-27 at npnf102 line
+Verified verbatim against the vendored file at npnf102 line
 11054, chapter number read from the markup's own n="24" attribute.
 
 DISCLOSED ELISIONS (superseded by the fix below): the discipline the milan-edict record's review
