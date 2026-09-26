@@ -91,3 +91,37 @@ witness classification for every already-vendored original-language file in
 the corpus - that is a real, separate pass (`cic/corpus-map/`'s own
 `_staging/` entries, one file at a time), tracked as follow-up work, not
 folded silently into this log entry.
+
+---
+
+## 2026-09-24 — lpc's cross-link into the Petschenig Augustine anti-Donatist edition is a project-lead placement decision, not the dossier's own call
+
+**Ruling.** Four of the six assignments in
+`cic/corpus-map/_staging/augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.yaml`
+double-place to `latin-pastoral-congregational-christianity` (lpc) as a
+second `tradition` row, alongside their existing `donatism` assignment:
+De Baptismo, De Unico Baptismo contra Petilianum, Contra Cresconium, and
+Contra Epistulam Parmeniani. Wired in commit `d4512b64` (2026-09-24),
+whose own commit message states this cross-link was one the lpc Source
+Readiness Dossier flagged and Mark authorized.
+
+**Why this needs its own entry, not just the dossier's.**
+`latin-pastoral-congregational-christianity_Source_Readiness_Dossier.md`
+§2 identifies the same-work-different-language pairing pattern and the
+"not presently reachable from this world's own bucket in any other form"
+reasoning for the two English-less works, but the dossier itself states
+that whether to actually double-place is "Doc_02's or the project lead's
+call, not this dossier's." The double-placement is a cross-world
+placement decision - an "Always ask" category - and the record that Mark
+was asked and said yes belongs in a decision log, not folded into the
+dossier's own reasoning as if the dossier had decided it.
+
+**What this entry does not have.** Mark's authorization is known only
+from commit `d4512b64`'s own message ("Mark authorized"); no verbatim
+ruling text survives elsewhere. This entry records that the decision was
+made and by whom it was made, not a quote that doesn't exist - do not
+back-fill one.
+
+**Scope.** Psalmus contra Partem Donati and Contra (Adversus) Fulgentium
+Donatistam, from the same source file, are NOT part of this authorization
+(not named in the dossier's own §2 reasoning) and stay donatism-only.

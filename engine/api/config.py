@@ -107,8 +107,9 @@ class Settings:
     self_revision_enabled: bool
 
     # The engine's own sentence-buffered streaming module
-    # (engine.m4.streaming). Off by default. Streaming does not ship to
-    # participants unless r27_enforce is also on.
+    # (engine.m4.streaming). Off by default. No code path reads this flag
+    # yet - it exists so the module can be built and tested against a
+    # real setting rather than a hypothetical one.
     streaming_enabled: bool
 
     @classmethod

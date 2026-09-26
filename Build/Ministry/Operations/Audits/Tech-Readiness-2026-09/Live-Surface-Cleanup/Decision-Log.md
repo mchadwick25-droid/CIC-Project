@@ -1655,3 +1655,18 @@ Three more are new since Entry 3, not previously logged anywhere in this file:
 - `git diff` over every touched `_staging/*.yaml` file contains no `work:`/`author:`/`locus:`/
   `atlas_ids:`/`role:`/`confidence:` line — verified directly by grepping the diff for those keys
   before writing this entry, not asserted from memory.
+
+**Review-gate correction (same day, before this phase closed).** One file's rewrite went further
+than the pattern above and cut a decision's own attribution with no logged record to fall back
+on: `augustini_scripta-contra-donatistas-pars-i-iii_petschenig1908-1910.yaml`'s header dropped
+"per Mark's explicit authorization" for the lpc double-placement, leaving only "per lpc's own
+dossier reasoning" — but the dossier itself states that whether to double-place is "the project
+lead's call, not this dossier's." Unlike the Cyprian/Didymus-pattern rewrites above, no
+`LIBRARY-DECISION-LOG.md` entry existed yet for this specific placement, so dropping the
+attribution phrase erased the only surviving record that the decision was made and by whom. Fixed
+by adding a proper entry (`LIBRARY-DECISION-LOG.md`, "2026-09-24 — lpc's cross-link into the
+Petschenig Augustine anti-Donatist edition is a project-lead placement decision, not the dossier's
+own call") citing commit `d4512b64`, and repointing the staging file's header at that entry instead
+of the dossier. The four per-row notes already said "(see this file's own header note)" and needed
+no separate edit. `corpus_map_merge.py` re-run after the fix: bucket files unchanged (the header is
+a `#` comment, not a merged data field; the row notes' pointer text was already correct).

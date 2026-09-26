@@ -32,12 +32,11 @@ STATUS: PROTOTYPE. The mechanism works - it reads the corpus, scopes by the
 world's own review, scores against the fleet's cell vocabulary, and returns
 real prose. The results are not yet usable, for three reasons:
 
-  1. Scope is real but nearly empty. The corpus map now scopes by addition,
-     so a world searches the files its Atlas entry assigned - but only
-     `desert-monasticism` has a map file, and it holds two works. Every
-     other world still falls back to the whole corpus and says so on
-     stderr. This fixes itself as the assignment thread works; nothing
-     here needs changing.
+  1. Scope is real and now populated for most worlds. The corpus map scopes
+     by addition, so a world searches the files its Atlas entry assigned;
+     65 of the 68 map files carry at least one work (desert-monasticism
+     alone now holds 27). A world with no map file yet still falls back to
+     the whole corpus and says so on stderr.
 
   2. The cell vocabulary is conversational, not theological. It derives from
      the canon_question texts - "Who was Jesus, to you and your people?" -
