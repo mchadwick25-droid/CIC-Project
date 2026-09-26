@@ -1,27 +1,50 @@
 {
-  "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
   "region": "us-east-1",
-  "grader_scope": "single Haiku run; first-pass screen, not a V1.8 two-grader pass",
+  "grader_scope": "V1.8 two-grader pass: Haiku 4.5 and Sonnet 4.6, two consecutive runs each (4 runs per quote). A flag from either grader on either run would count; 'translation' below means all 4 runs read translation for that quote.",
   "total_non_english_sourced_quotes": 2,
   "graded_count": 2,
+  "clean_count": 2,
   "no_modern_rendering_count": 0,
   "no_modern_rendering": [],
   "error_count": 0,
   "errors": [],
-  "verdict_counts": {
-    "translation": 2,
-    "summary": 0,
-    "expansion": 0,
-    "mixed": 0
-  },
   "findings": [
     {
       "world": "don",
       "id": "don.quote.deo-laudes",
       "language": "lat",
       "source_file": "cil8-supplementum-numidiae_cagnat-schmidt1894.txt",
-      "verdict": "translation",
-      "reasoning": "The original Latin \"DEO LAVDES\" (Deo laudes) translates literally as \"praises to God\" or \"praise to God.\" The modern rendering carries the complete sense of the original: \"DEO\" (to God) and \"LAVDES\" (praises/praise). No clauses are omitted, and nothing is added beyond what the original expresses.",
+      "clean": true,
+      "runs": [
+        {
+          "grader": "haiku-4.5",
+          "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+          "run": 1,
+          "verdict": "translation",
+          "reasoning": "The original Latin \"DEO LAVDES\" (praises to God) is fully captured in the modern rendering \"Praise to God.\" Both convey the same two essential elements: the object of praise (God) and the act of praising, with no clauses omitted or added."
+        },
+        {
+          "grader": "haiku-4.5",
+          "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+          "run": 2,
+          "verdict": "translation",
+          "reasoning": "The original Latin phrase \"DEO LAVDES\" literally means \"praises to God\" or \"praise to God.\" The modern rendering faithfully conveys all the semantic content of the original: the dative \"DEO\" (to God) and \"LAVDES\" (praises/praise). The rendering uses modern English word order and idiom while carrying every clause and claim of the original."
+        },
+        {
+          "grader": "sonnet-4.6",
+          "model_id": "us.anthropic.claude-sonnet-4-6",
+          "run": 1,
+          "verdict": "translation",
+          "reasoning": "The original Latin \"DEO LAVDES\" means \"Praise to God,\" and the modern rendering carries the full meaning of both words without omitting, adding, or compressing any content."
+        },
+        {
+          "grader": "sonnet-4.6",
+          "model_id": "us.anthropic.claude-sonnet-4-6",
+          "run": 2,
+          "verdict": "translation",
+          "reasoning": "The original Latin \"DEO LAVDES\" means \"Praise to God,\" and the modern rendering captures exactly that — every word is accounted for, nothing is added, and nothing is omitted."
+        }
+      ],
       "verification_state": "verified-direct"
     },
     {
@@ -29,8 +52,37 @@
       "id": "don.quote.emeritus-magno-argumento",
       "language": "lat",
       "source_file": "pl11-zeno-optatus-collatio-carthaginiensis_migne.txt",
-      "verdict": "translation",
-      "reasoning": "The rendering captures all the clauses of the original: (1) \"veritas occultatur magno argumento\" (truth is hidden by a great argument); (2) \"cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" (when in response to our inquiry only a small thing is brought forth from the other side); and (3) \"cetera sileantur\" (the rest is passed over in silence). The structure and sense are preserved in modern English syntax without omission or addition.",
+      "clean": true,
+      "runs": [
+        {
+          "grader": "haiku-4.5",
+          "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+          "run": 1,
+          "verdict": "translation",
+          "reasoning": "The rendering carries all the clauses of the original: \"veritas occultatur\" (truth is hidden), \"argumento magno\" (by a great argument), \"cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" (when, in response to our inquiry, only a small thing is brought forth from the other side), and \"cetera sileantur\" (the rest is passed over in silence). The structure is reordered for natural English syntax, but no content is omitted or added."
+        },
+        {
+          "grader": "haiku-4.5",
+          "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+          "run": 2,
+          "verdict": "translation",
+          "reasoning": "The rendering carries all the major clauses of the original: \"Magno argumento veritas occultatur\" (Truth is hidden by a great argument), \"cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" (when, in response to our inquiry, only a small thing is brought forth from the other side), and \"cetera sileantur\" (the rest is passed over in silence). The syntax is reordered naturally for modern English, and \"passed over in silence\" is an appropriate idiomatic rendering of \"sileantur,\" but no clause is dropped or compressed away."
+        },
+        {
+          "grader": "sonnet-4.6",
+          "model_id": "us.anthropic.claude-sonnet-4-6",
+          "run": 1,
+          "verdict": "translation",
+          "reasoning": "Every clause of the Latin original is carried into the modern English rendering: \"Magno argumento veritas occultatur\" → \"Truth is hidden by a great argument\"; \"ut cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" → \"When, in response to our inquiry, only a small thing is brought forth from the other side\"; \"cetera sileantur\" → \"the rest is passed over in silence.\" Nothing is omitted, compressed, or added."
+        },
+        {
+          "grader": "sonnet-4.6",
+          "model_id": "us.anthropic.claude-sonnet-4-6",
+          "run": 2,
+          "verdict": "translation",
+          "reasoning": "Every clause of the Latin original is rendered in the modern English: \"magno argumento veritas occultatur\" → \"Truth is hidden by a great argument\"; \"ut cum ad inquisitionem nostram modicum quid ex parte adversa prolatum sit\" → \"When, in response to our inquiry, only a small thing is brought forth from the other side\"; and \"cetera sileantur\" → \"the rest is passed over in silence.\" Nothing is omitted, added, or compressed."
+        }
+      ],
       "verification_state": "verified-via-authority"
     }
   ]

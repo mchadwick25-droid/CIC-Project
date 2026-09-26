@@ -785,11 +785,25 @@ The fleet-wide gap item 47 names is not closed by this entry — cappadocian's a
 
 **Final scope corrections, 2026-09-25, applied per Mark's own exact-replacement ruling ("a"):** `worlds/pahc/Open_Gaps_Tracking.md` OG-10's own inserted passage was removed (restoring that paragraph to origin/main's own text) and replaced with a short, separately-placed update paragraph naming don's corrected count; `don.core.donatism.md`'s `cautions`, `don.gravity.ministerial-purity.md`, `don.gravity.rebaptism-boundary-marking.md`, and `don.gravity.circumcellion-agonistici.md` each had one exact wording correction applied to their `description`/`cautions` fields, tightening scope without changing any claim.
 
+### OG-18. `don.quote.the-shores-are-covered`'s own `modern_rendering` still split the original's causal sentence into disconnected pieces after an earlier fix — re-authored and independently verified; the V1.8 two-grader clearance is recorded as unverified.
+
+**Corrected provenance, 2026-09-25.** This quote's source is English (the vendored NPNF Augustine volume), so it was correctly out of scope for the cross-language rendering report (`engine/m1/reports/cross-language-rendering-report-2026-09-25.json`, which grades only non-English-sourced quotes) and never appeared in it. An earlier version of this entry wrongly claimed it was "found while grading the fleet's cross-language quotes" and "found independently twice on the same input" — neither is true. The actual sequence:
+
+- The 2026-09-23 full-fleet rendering-fidelity sweep (`engine/m1/reports/rendering-fidelity-report-2026-09-23.json`, a single Haiku 4.5 run) flagged the `modern_rendering` in place at that time — "The waves of truth have thrown these men on the rocks and broken them. Like the Egyptians in the sea, their bodies lie all along the shore..." — as "summary," for dropping "shipwrecked members," condensing the shore-imagery, and losing the explicit denial of burial.
+- That finding was acted on the next day (2026-09-24, commit `5be7b57c`, R43 Group A): the rendering was re-authored to "Certain men's shipwrecked members have been dashed by the waves of truth onto the sharp rocks..." restoring those dropped clauses. R43's own commit records two consecutive "translation" verdicts on this version at the time.
+- That R43-fixed rendering is the one this entry actually concerns. On direct comparison against the original text — not from any saved grading report — it still split the sentence into four disconnected statements and dropped the "Seeing that..." causal clause that frames the whole passage as an observation grounding the decree's own point. No fresh, saved grading pass against this specific text was run before it was replaced, and this entry does not claim one was.
+
+**Re-authored and independently verified.** A fresh rendering was drafted (Opus, per this project's own rule that modern-English renderings are Opus's lane) carrying the causal clause explicitly ("For the waves of truth have hurled..."), every other clause of the original, and one thought per sentence (word counts 17/16/7/20, longest 20). A second, independent Opus pass — shown only the original and the new candidate, not told anything about the prior defect or asked to defend the draft — checked it clause by clause against the original and returned PASSES, finding all twelve clause-units present, nothing added, no sentence over 25 words, no sentence carrying more than one thought.
+
+**V1.8 two-grader clearance: unverified, not reconstructed.** This session represented the new rendering as clearing a V1.8 two-grader pass (Haiku 4.5 + Sonnet 4.6, two runs each, all four reading "translation"). The per-run verdicts and reasoning were not saved to a report and could not be recovered when this entry was corrected. That is unlike `don.quote.deo-laudes` and `don.quote.emeritus-magno-argumento`'s runs from the same session, which are recorded in full in `cross-language-rendering-report-2026-09-25.json`. Rather than reconstruct numbers from memory, this specific clearance is recorded here as unverified. The record's own `modern_rendering` was updated to the new text on the strength of the Opus clause-by-clause check above, independent of the unverified two-grader claim.
+
+Status: RESOLVED, 2026-09-25. The dropped-causal-clause defect is fixed and independently verified by the Opus clause-by-clause check; the V1.8 two-grader clearance specifically is noted above as unverified rather than confirmed. Not carried forward as an open item.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-17 are disclosed, routed, or
+Relational Safety's own current scope. OG-5 through OG-18 are disclosed, routed, resolved, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
