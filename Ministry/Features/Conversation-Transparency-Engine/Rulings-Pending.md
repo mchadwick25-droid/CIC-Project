@@ -233,7 +233,7 @@ Entries 28 and 32. All 10 gap worlds' `voice_craft.guard` now carry the
 addition; package recompile is the one remaining mechanical step.
 Fold-in DONE — 2026-09-24: the requirement is now part of the standing
 build process for future worlds, B-7 row of
-`reference/method/CiC_Record_Native_World_Build_Process_V1.8.md`
+`reference/method/CiC_Record_Native_World_Build_Process_V1.9.md`
 (see `Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
 2026-09-24 entry, item 3.2).
 Note: this is a Representative-voice authoring question — the guard is a

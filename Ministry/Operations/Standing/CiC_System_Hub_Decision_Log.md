@@ -5397,3 +5397,71 @@ paragraph. Relayed by the managing thread.
 quote records clean but repeatedly found distortions introduced by the host rewrites done
 in the same pass. Confining the host edit to the quote's own sentence keeps each
 extraction reviewable against its source, and gives any wider rewrite its own review.
+
+## 2026-09-26 — Build Process V1.9: change order against the Transparency-Engine thread's
+converged addendum, on real measurement
+
+**What prompted this.** A separate program-wide assessment thread ran a standardized,
+real-generation measurement the build-process work had not had access to: the same 6
+canon questions, run live through `engine.m3.generation.LiveModelAnswerer` against all 11
+built worlds (66 real calls, $1.83), every answer independently fact-checked claim-by-claim
+against its own world's records. Result: **1 real defect in ~235 claims (~0.4%, now fixed
+— ijc's Ammianus over-attribution), not the 97–98% the D1 grounding-fooling synthetic test
+implied.** A second check, cross-referencing every citation's own `formation_confidence`
+tag against how confidently the answer voiced it, found ~5–7 confidence-flattening
+instances out of the same ~235 (~2–3%) — real, but modest, and categorically different
+from fabrication. A third pass read all 66 answers directly for register-statement
+compliance and found the fleet's real, worth-fixing gaps are Craft- and Focus-shaped, not
+fabrication-shaped: a composite-voice disclaimer answering *instead of* the canon's
+Center-Personal question in 6 of 11 worlds; a shared self-composed "not X, but Y" closing
+line in 7+ worlds; literal sentence reuse across different answers within don and desert;
+a 2-world pipeline-jargon leak (rzg, witt); readability itself measured genuinely good
+(mean FK 8.44 / FRE 67.32) and simply never checked before.
+
+**Ruling (Mark, 2026-09-26, direct instruction to this thread): "take over the prompt
+build and simplify it down to what is really needed given today's findings — this was
+part of all the old wrong assumptions."** The Build Pipeline Options / V1.6 Addendum
+work (session_01XXD8Ffj9Vh1xbpooX8Qr2M, converged and partly already merged as V1.8 §6's
+model-routing table) sized its heaviest review apparatus — `xhigh` effort on Doc_02/04/09,
+`xhigh` re-confirmation of blocking findings, a proposed new build-time "guard-coverage
+report" engineering task — against the D1 97–98% figure, read as the real fabrication
+rate. It measured something else (the after-the-fact checker's resistance to fabrications
+built to defeat it). This is a change order against that already-converged decision, not
+a quiet edit: named here, reasoned, applied in
+`reference/method/CiC_Record_Native_World_Build_Process_V1.9.md` (renamed from V1.8;
+inbound citations rewritten via `tools/rewrite_paths.py`, `tools/check_paths.py --baseline`
+confirms 0 new unresolved citations).
+
+**What changed, concretely:**
+1. **New §0** states the four aspects a build actually serves — Rigor, Accessibility,
+   Craft, Focus — with Craft named as the keystone: get the construction right (honest
+   hedges, a distinct voice, direct answers, no invented specifics) and rigor mostly
+   follows for free, rather than needing heavy per-step adversarial scrutiny sized to a
+   feared defect rate the real measurement doesn't support.
+2. **§6 effort table**: `xhigh` on Doc_02/04/09 and on every blocking re-confirmation
+   downgraded to `high` (still real, careful review, not `medium`) — reserved `xhigh` for
+   an actual reasoning-edge task or a genuine two-review disagreement, per the published
+   effort curves the pipeline-options thread itself cited (flat for research/recall work).
+3. **Doc_10's quality bar** (Phase A table) gained four concrete, review-checked
+   requirements straight from today's findings: the Center-Personal canon question
+   answers directly, not behind a composite-voice disclaimer; no demonstration closes on
+   a self-composed aphorism; no sentence repeats across demonstrations; a
+   Contested/Inferential-Thin claim keeps an audible hedge.
+4. **Phase D** gained a cheap (~$0.15/world) Craft/Focus spot-check — the same 6
+   standardized questions run once against the new world and read directly against §0's
+   bar — replacing the heavier, not-yet-built "guard-coverage report" idea (D1 Corpus B
+   run per new world) the addendum had queued as a separate engineering task.
+
+**What did not change:** the three human checkpoints; the round cap and cross-model
+reviewer rule (§6 items 10–11, real regardless of the fabrication-rate finding); the
+library-research-first gate; the Sonnet/Opus/Fable lane assignments; anything the
+addendum fixed that was a real bug independent of the fabrication-rate assumption (dead
+`app/`/`wrs/`/`gates/` paths, the V1.5/V1.6 filename mismatch — already resolved before
+this pass) is untouched and still holds.
+
+**Not done here, flagged for whoever owns it next:** the Fable-vs-Opus-5.5 discovery test
+that thread's Part 6 called for is independent of this change order and still worth
+running; the rendering-fidelity gap (55% of graded quotes clean, 61% of all quotes
+ungraded) is real, unaddressed by anything in this entry, and is the actual remaining
+rigor gap this project has — a fleet-wide `modern_rendering` authoring push, not a
+build-process rule change.

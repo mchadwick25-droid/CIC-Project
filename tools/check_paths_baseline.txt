@@ -223,8 +223,8 @@ reference/Redesign-Spec/PHASE-1-LAUNCH.md: records/worlds.yaml
 reference/Redesign-Spec/World-Cards.md: cic-poc/backend/app/world_manifest.py
 reference/Redesign-Spec/World-Cards.md: records/worlds.yaml
 reference/method/CiC_Adversarial_Review_Standard_Practice.md: Ministry/Operations/Audits/CiC_Redesign_Research_2026-07-25/11_...md
-reference/method/CiC_Record_Native_World_Build_Process_V1.8.md: cic-poc/backend/baselines
-reference/method/CiC_Record_Native_World_Build_Process_V1.8.md: cic-poc/backend/wrs
+reference/method/CiC_Record_Native_World_Build_Process_V1.9.md: cic-poc/backend/baselines
+reference/method/CiC_Record_Native_World_Build_Process_V1.9.md: cic-poc/backend/wrs
 reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: engine/records
 reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: records/worlds.yaml
 reference/method/CiC_Voice_Style_Guide_and_Scaling_Plan.md: worlds/Desert-Christianity

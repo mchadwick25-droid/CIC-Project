@@ -1,4 +1,4 @@
-# CiC Record-Native World Build Process — V1.8 (2026-09-25)
+# CiC Record-Native World Build Process — V1.9 (2026-09-26)
 
 **What this document is:** the single end-to-end process for building a NEW
 formation world, from Step-0 scope confirmation through a frozen, deployed,
@@ -35,6 +35,60 @@ participant-facing copy produced during a build lead with making
 experiential Christian formation available; the product is the current
 means, never the mission's definition. The Brand Kit QuickRef governs all
 public wording.
+
+---
+
+## 0. What a build is actually for — four aspects, Craft first
+
+Every step below serves four things a real conversation has to be, in this
+order of leverage:
+
+1. **Rigor** — every claim traces to a real source, and a Contested or
+   Inferential-Thin claim keeps its own hedge rather than being voiced as
+   settled fact.
+2. **Accessibility** — plain-English-first, one idea per sentence, in the
+   CEFR B2 / FK 8–10 range.
+3. **Craft** — a distinct, real voice: the world's own imagery and
+   concerns survive, register statements 1–7 hold (answer the actual ask
+   first; concrete nouns; no self-coined quotable lines — a real quote,
+   named and sourced, instead), and nothing repeats itself word-for-word
+   across different answers.
+4. **Focus** — the answer actually addresses what was asked, including the
+   hardest, most personal questions in the Question Canon, not just the
+   easy ones.
+
+**Craft is the keystone, not one item among four.** A 2026-09-26
+fleet-wide measurement (66 real generated turns, all 11 worlds, the same
+standardized questions, checked claim-by-claim against the records)
+found a **real fabrication rate near 0%** — one confirmed defect, already
+fixed — everywhere the build had actually done its job: records with
+honest confidence tags, guard lines scoped to what a reader could really
+be misled by, and a voice built from its own world's real material. A
+separate, adversarial synthetic test of the same live checker (D1,
+Corpus B/C) found a 97–98% miss rate — a real number, but a different
+one: it measures how easily the after-the-fact checker is fooled by
+fabrications built specifically to fool it, not how often the real
+system fabricates. **Conflating the two overstates the actual problem
+and pulls review effort toward heavy, expensive, per-step adversarial
+scrutiny that the measured defect rate doesn't justify.** Build the
+craft right — accurate hedges, a distinct voice, direct answers, no
+invented specifics — and rigor mostly follows for free; spend review
+budget hunting for what craft alone won't catch (a wrong name attached to
+a real citation, a stale file path, a genuine scope conflict between two
+governing documents), not re-deriving the same defect a script or a
+plain reading would have caught.
+
+The same measurement found the real, worth-fixing gaps this build
+process should watch for, all Craft- or Focus-shaped, none of them
+fabrication: a "composite voice" disclaimer answering *instead of*
+personal Center-cell questions in over half the fleet; a shared
+self-composed "not X, but Y" closing-line habit (register statement 6);
+literal sentence reuse across different answers within the same world;
+a narrow, two-world leak of build-pipeline vocabulary ("vendored," "our
+own build") into in-character speech; and a handful of confidence-tag
+flattenings (a Contested or Inferential-Thin claim voiced as flat fact).
+Doc_10 (below) and Phase D's lean probe set are where a build actually
+catches these — see the notes at each.
 
 ---
 
@@ -211,7 +265,7 @@ the one-document-at-a-time cycle (draft → adversarial review → revision
 | 8 | `Doc_08` Forces Document | Six-cell matrix, three layers per force, Section 4 cross-cell connections, Section 5 forces-and-gravities synthesis, per the forces-index bar: connections must be LOOKUPABLE, not re-read-the-whole-document discoverable. |
 | 9 | `Doc_09` Story Inventory (+ 09a-c as needed) | Four-tier rule (no Tier 5 / no invented narrative); the Absent Stories question answered explicitly; per-story tier justifications. |
 | — | **M1 STOP — Representative identity** (§1) | |
-| 10 | `Doc_10` Representative Construction Notes + Permanent Prompt | Built AFTER M1, on the decided identity. Voice, registers, demonstrations. RCF Part Three Ecology Assessment (4 domains + Thinness Mapping) produced here — it calibrates the Phase-D probes. |
+| 10 | `Doc_10` Representative Construction Notes + Permanent Prompt | Built AFTER M1, on the decided identity. Voice, registers, demonstrations. RCF Part Three Ecology Assessment (4 domains + Thinness Mapping) produced here — it calibrates the Phase-D probes. **Craft/Focus bar (2026-09-26 finding, checked in review, not by a script):** (a) the demonstration answering the canon's Center-Personal cell ("who is Jesus to you — not to your church, to you," or this world's equivalent) answers directly, in the first sentence, even though the Representative is a composite voice — a "we are a composite voice, not a person" framing may inform the answer but must never stand in place of one; (b) no demonstration closes on a self-composed "not X, but Y" aphorism or any other line presented as though quotable in its own right — a real, sourced quote fills that role instead; (c) no sentence repeats verbatim or near-verbatim across two different demonstrations; (d) a demonstration drawing on a Contested or Inferential-Thin record carries a hedge the reader can hear (the record's own wording, not a new one) — never voiced as settled fact. |
 
 **Index artifacts:** the old per-world `.xlsx` workbooks are RETIRED for
 new builds. Their function (filterable indexes for tier/tag/risk-flag/
@@ -710,6 +764,22 @@ of them calls a model. The grader gets the flagged sentences as places
 to look, not verdicts. The R27 precision read found most flags were
 supported but untagged. The grader still reads every transcript in full.
 
+**Craft/Focus spot-check (added 2026-09-26, real cost ~$0.15/world —
+6 live calls at current rates): run the same 6 standardized canon
+questions used in the 2026-09-26 fleet measurement** (`C-P`, `F5-P`,
+`F2-E`, `F6-P`, `F3-E`, `F6-E` — the exact wording is in the System Hub
+Decision Log's own entry for that measurement) **through
+`engine.m3.generation.LiveModelAnswerer` against this world specifically,
+and read all 6 answers directly against §0's bar:** does C-P answer
+directly instead of leading with a composite-voice disclaimer; does any
+answer close on a self-composed aphorism; does any sentence repeat
+verbatim across two answers; does any answer speak build-pipeline
+vocabulary in character; does any answer voice a Contested/
+Inferential-Thin citation as flat fact. This is not a replacement for
+the lean probe set or the Deep Interview — it is a cheap, direct
+reality-check against the fleet's own known failure shapes, done once,
+by a person reading six real answers, not by building a new checker.
+
 **What lean validation honestly gives up, declared in every freeze
 package, never silent:** (1) the second independent trial — single-trial
 means generation-variance issues can slip (the Chloe "who is Jesus" catch
@@ -818,13 +888,21 @@ discretion):**
 
 **Effort per task.** The lanes above are unchanged. Set effort
 explicitly; Claude Opus 5.5 (`claude-opus-5-5`) defaults to `medium`.
+**Revised 2026-09-26** (§0's own measurement): `xhigh` across Doc_02/04/09
+and every blocking re-confirmation was priced for a fabrication rate the
+D1 synthetic test suggested (97–98%); the real, measured rate is near 0%.
+`high` is real, careful review — not a downgrade to `medium` — and stays
+the standing effort for round 1 everywhere. `xhigh` is now reserved for
+where the effort curve actually pays (Anthropic's own published curves:
+flat for research/recall work, real gains only at the edge of what the
+model can reason through) — a genuine reasoning-edge task, not "this
+document happens to come early."
 
 | Work | Model · effort |
 |---|---|
-| Round 1 adversarial review | Opus 5.5 · high |
-| Round 1 on Doc_02, Doc_04, Doc_09 | Opus 5.5 · xhigh |
+| Round 1 adversarial review, every document | Opus 5.5 · high |
 | Targeted recheck, rounds 2–3 | Opus 5.5 · medium |
-| Re-confirming a blocking finding | Opus 5.5 · xhigh, fresh context; max only if two reviews disagree |
+| Re-confirming a blocking finding | Opus 5.5 · high, fresh context; xhigh only if two reviews disagree |
 | Blind grading (Phase D) | Opus 5.5 · medium; high for probes in known hard-to-detect areas |
 | Deep source research, M1 identity research | Opus 5.5 · high |
 | Fable lanes (Doc_03/06 discovery, Doc_04, Doc_08, Doc_09, Doc_10, battery-fail diagnosis) | Fable 5.1 · high (unchanged pending the Fable-vs-Opus discovery test) |
