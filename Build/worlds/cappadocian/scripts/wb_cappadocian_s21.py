@@ -57,7 +57,7 @@ reading and judgment):
     hold rights over"). Every vendored file's rights are independently
     confirmed Public Domain per CAPPADOCIAN_BUILD_LEDGER.md SS9 and
     cic/engine/texts_registry.py -- checked against that registry's actual
-    filenames (grep, 2026-08-31 session) before this script was written, not
+    filenames (grep) before this script was written, not
     assumed from the Source Registry's own prose. No row is left blank;
     gate_rights fails closed on blank, and several rows (unacquired,
     in-copyright, fact-only) required an honest non-blank negative
@@ -209,7 +209,7 @@ SCHEMA_VERSION = 2
 # ---------------------------------------------------------------------------
 # Shared edition strings for vendored NPNF/ANF volumes cited by many rows.
 # Filenames checked directly against cic/engine/texts_registry.py's own
-# ENTRIES tuple (grep, 2026-08-31) before use here -- not copied blind from
+# ENTRIES tuple (grep) before use here -- not copied blind from
 # the Registry's own prose.
 NPNF208 = ("Nicene and Post-Nicene Fathers, 2nd series, vol. 8 (Basil: Letters and Select "
            "Works), ed. Schaff, vendored as cic/texts/npnf208_basil-letters-select-works.xml")
@@ -339,7 +339,7 @@ def build_sources() -> dict[str, str]:
         "B", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "Grounds the Trinitarian-confession, doxology, and bishop-as-public-patron gravity "
         "candidates and the famine narrative (Registry row 5; Doc_01 SS2; Doc_02 SS8 Tier 1). "
-        "File vendored since 2026-08-15, not re-verified against specific loci this session; "
+        "File vendored in an earlier pass, not re-verified against specific loci this session; "
         "the more targeted citations below (canonical letters, the Eustathius-rupture letters, "
         "etc.) carry their own, more specific verification status.")
     ids["basil-canonical-letters-to-amphilochius"] = emit_source(
@@ -911,8 +911,8 @@ def build_sources() -> dict[str, str]:
         "rufinus.xml", "v", "attributed",
         "B", "named-not-rechecked", "corroborating", "Widely Accepted", None,
         "Constantinople 360 (via Socrates HE 2.41, SS2); the Homoian-establishment "
-        "reconstruction; the Julian-persecution episode (row 62). Files present since "
-        "2026-08-15, not re-verified against the specific loci Doc_02 cites this session. "
+        "reconstruction; the Julian-persecution episode (row 62). Files present from an "
+        "earlier pass, not re-verified against the specific loci Doc_02 cites this session. "
         "Correction carried forward: the funeral-crowd claim (Jews and pagans mourning Basil) "
         "is Doc_02 SS8's own attribution to Oration 43 (row 34), not to the church historians.")
     ids["photius-epitome-philostorgius"] = emit_source(
@@ -950,7 +950,7 @@ def build_sources() -> dict[str, str]:
         "Gregory Thaumaturgus, the Canonical Epistle", ANF06, "v", "attributed",
         "B", "named-not-rechecked", "corroborating", "Widely Accepted", None,
         "The third-century founding-memory initiating force (Doc_01 SS4); the Thaumaturgus "
-        "mission (Doc_01 SS1) (row 66). File present since 2026-08-15, not re-verified this "
+        "mission (Doc_01 SS1) (row 66). File present from an earlier pass, not re-verified this "
         "session.")
     ids["gregory-thaumaturgus-address-of-thanksgiving-to-origen"] = emit_source(
         67, "gregory-thaumaturgus-address-of-thanksgiving-to-origen",
@@ -976,7 +976,7 @@ def build_sources() -> dict[str, str]:
         "numbering), preserved inside Cyprian's own corpus", ANF05, "v", "attributed",
         "B", "named-not-rechecked", "corroborating", "Widely Accepted", None,
         "Third-century pre-boundary inheritance evidence (Doc_01 SS1) (row 69). File present "
-        "since 2026-08-15, not re-verified this session. Cite both numberings per Doc_02 "
+        "from an earlier pass, not re-verified this session. Cite both numberings per Doc_02 "
         "SS1.6's own instruction.")
     ids["elder-gregory-of-nazianzus-hypsistarian"] = emit_source(
         70, "elder-gregory-of-nazianzus-hypsistarian",
@@ -1054,8 +1054,8 @@ def build_sources() -> dict[str, str]:
         "Jerome, De viris illustribus (392) -- the earliest external catalogue of what "
         "circulated under Basil, both Gregorys, and Amphilochius' names", NPNF203, "v",
         "attributed", "B", "named-not-rechecked", "corroborating", "Widely Accepted", None,
-        "SS1.6's earliest external catalogue datum (row 76). File present since 2026-08-15, not "
-        "re-verified this session against the specific entries Doc_02 cites. Correction "
+        "SS1.6's earliest external catalogue datum (row 76). File present from an earlier pass, "
+        "not re-verified this session against the specific entries Doc_02 cites. Correction "
         "carried forward: DVI's 'Eustathius' entry is Eustathius of Antioch, not Eustathius of "
         "Sebaste -- do not cite it as covering this world's own Eustathius.")
 
@@ -1073,7 +1073,7 @@ def build_sources() -> dict[str, str]:
         "collective conciliar record)", "Constantinople 381 and its creed", NPNF214, "v",
         "attributed", "B", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "The 381 ecological-break gravity dissolution (Doc_01 SS4a) (row 78). File present "
-        "since 2026-08-15, not re-verified this session.")
+        "from an earlier pass, not re-verified this session.")
     ids["imperial-communion-law-of-381"] = emit_source(
         79, "imperial-communion-law-of-381", "The Roman imperial chancery under Theodosius I "
         "(collective/anonymous legal act)",
@@ -1101,7 +1101,7 @@ def build_sources() -> dict[str, str]:
         81, "origen-philocalia", "Origen (anthologized text); traditionally compiled by Basil "
         "of Caesarea and Gregory of Nazianzus",
         "The Philocalia, the Origen anthology traditionally compiled by Basil and Nazianzen",
-        "Lewis' 1911 translation, vendored (for the Alexandria world, 2026-08-21) as "
+        "Lewis' 1911 translation, vendored (for the Alexandria world) as "
         "cic/texts/origen_philocalia_lewis1911.txt", "v",
         "contested (the traditional Basil-Nazianzen compiling attribution is now Contested in "
         "the scholarship)",

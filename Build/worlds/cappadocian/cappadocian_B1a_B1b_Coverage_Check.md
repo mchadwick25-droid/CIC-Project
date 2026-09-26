@@ -1,6 +1,6 @@
 # Cappadocian — B-1a/B-1b coverage check (R)
 
-**Date:** 2026-08-31. First coverage check under the same discipline the S6.2/HAL
+First coverage check under the same discipline the S6.2/HAL
 precedent (`Archive/Technology-Pass2-2026-08/Pass2/reviews/S6.2_HAL_s21b_coverage.md`)
 established, run against the 116-row `cappadocian_Source_Registry.md` and the
 110 source records B-1 authored at `records/cappadocian/source/*.md`. No
@@ -111,7 +111,7 @@ Key Text at three Tier 1/2 lexicon entries (akatalēpsia, epinoia/energeia,
 epektasis — the last of which is this world's own noun-label for Nyssen's
 "stretching forward" theology, the concept the *Life of Moses* is most
 associated with in the whole patristics field). The G1 Scope and Source
-Acquisition Manifest independently flagged it by name on 2026-08-30 as "a
+Acquisition Manifest independently flagged it by name as "a
 real omission, not a newly discovered gap." Yet it is the *one* item on that
 same manifest gap-list that never received a Source Registry row, while
 every other item on it did (Against Eunomius → row 24; the Small Asketikon
@@ -166,7 +166,7 @@ pass to act on, not acquired now.
 
 **Scope, as this world's actual sourcing history requires:** no live web
 search was possible at any point in this build — every vendored text came
-from Mark's own direct uploads or the builder's prior knowledge
+from the project lead's own direct uploads or the builder's prior knowledge
 (`CAPPADOCIAN_BUILD_LEDGER.md` §9). The realistic discovery-sweep question is
 therefore not "what does the wider literature contain" (Step 3 above already
 covers that, honestly, as unacquired candidates) but narrower and checkable:

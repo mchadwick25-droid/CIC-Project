@@ -20,7 +20,7 @@ Confidence:     Widely Accepted at the narrative level (Cassian's own
                 resolve.
 
 Source:         John Cassian, Conferences XIII.1–3 — the Third
-                Conference of Abbot Chæremon (corrected, Round 1 review
+                Conference of Abbot Chæremon (corrected, the review
                 finding M5 — the prior draft called this "the Second
                 Conference"; the text's own heading names it the Third,
                 and the Second is Conf. XII, "On Chastity. Not
@@ -63,7 +63,7 @@ Do-Not-Retrieve-When: Participant wants the doctrine itself at depth
 
 *Node note:* Marseilles (the southern node). **Cassian's own experience in Egypt**, at Chæremon's cell near Panephysis, written down in Gaul for the "holy brothers" at Lérins; the teaching that follows is Chæremon's, received — but the *question*, and the trouble it caused, is Cassian's and Germanus's own. Written in close third person from inside the world, in Tier 1 register.
 
-*Correction (Round 1 review, annotation moved here from Story Text and Formation Ecology Connection at Round 2 spot-check; the substantive disclosure itself stays in both, as H3 required):* the prior draft's Story Text did not itself disclose the Egyptian setting, though the front-matter did; both loci now carry the disclosure directly (H3).
+*Correction (annotation moved here from Story Text and Formation Ecology Connection at the spot-check; the substantive disclosure itself stays in both, as H3 required):* the prior draft's Story Text did not itself disclose the Egyptian setting, though the front-matter did; both loci now carry the disclosure directly (H3).
 
 ---
 

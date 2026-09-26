@@ -77,7 +77,7 @@ Ecclesial fellowship with spiritual weight — refused to bishops who urged the 
 - John Cassian, *Institutes* II.16 (`iv.iii.ii.xvi`: "suspended from prayer"; "no one has any liberty of praying with him"; "delivered unto Satan"; "dares to hold communion with him in prayer"); III.2 (`iv.iii.iii.ii`: Saturday and Sunday "for the purpose of Holy Communion" — read at Doc_05); III.11 (`iv.iii.iii.xi`: "the Lord's communion" — read at Doc_05) — row 7. *Conferences* XVIII.15 (`iv.vi.ii.xv`: "receive the Holy Communion") — row 10. Direct usage, Marseilles.
 - Vincent of Lérins, *Commonitory* ch. 3 [7] (`iii.iv`: "the communion of the universal faith"); ch. 29 [77] (`iii.xxx`: "the unity of communion and of the faith") — row 13.
 - **Name-the-layer note:** Gibson's footnote at *Conf.* XVIII.15 — "In Gaul it was apparently received daily: Institutes VI. viii." (`iv.vi.ii.xv`) — cites, for daily communion in Gaul, a chapter of the book his own edition omits entirely (`iv.iii.vi`; Doc_05 §3, §10D item 4). It is an editor's claim resting on an unread Latin text, carried as editorial and Inferential/Thin, and not as this world's own statement.
-- Latin lemma: *communionis* attested at Heurtley's Appendix II (`iii.xxxvi`) — editorial layer (Doc_03 7.11, Round 3 R4).
+- Latin lemma: *communionis* attested at Heurtley's Appendix II (`iii.xxxvi`) — editorial layer (Doc_03 7.11, finding R4).
 
 **Author Gravity note:** none — three voices, both nodes; the sacramental frequency in Gaul is the one thing this term cannot state from a Native text as read.
 

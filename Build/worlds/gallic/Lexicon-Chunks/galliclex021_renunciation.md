@@ -76,7 +76,7 @@ A death "to this world and its deeds and desires" of which giving up goods is on
 - John Cassian, *Institutes* IV title and IV.1 (`iv.iii.iv`, `iv.iii.iv.i`: "Of the Institutes of the Renunciants"); IV.34 (`iv.iii.iv.xxxiv`: "the evidence of the cross and of mortification"; "dead to this world"); IV.36 (`.xxxvi`: "of no use if we are again entangled"); IV.4 (`.iv`: "when he has cooled down") — Registry row 7. *Conferences* III.6 (`iv.iv.iv.vi`: the three renunciations; "Get thee out from thy country"; "we make light of all the wealth and goods of this world"); III.10 (`iv.iv.iv.x`: "is of what is not our own"; "not enough of itself to confer perfection"; "the second, which is really and truly a renunciation of what belongs to us") — row 8. Direct usage, Marseilles; Paphnutius's schema is received.
 - Sulpitius Severus, *Life of St. Martin* ch. XXV (`ii.ii.xxvi`: "the allurements of this world and secular burdens were to be abandoned"; "free and unencumbered"); ch. IV (`ii.ii.v`: the discharge) — row 1. The thing without the term, Tours.
 - Salvian, *On the Government of God* VI.6 (Sanford p. 167: "I renounce the devil, his pomps and spectacles and his works"); III.3 (p. 83: "make a show of renouncing their wealth") — row 43, within its Licensed For.
-- Latin lemma: *renuntiantium* attested in Gibson's Prolegomena (`iv.i.ii`), giving the *Institutes*' Latin title — editorial layer (Doc_03 1.11, Round 2 N1).
+- Latin lemma: *renuntiantium* attested in Gibson's Prolegomena (`iv.i.ii`), giving the *Institutes*' Latin title — editorial layer (Doc_03 1.11, finding N1).
 
 **Author Gravity note:** cross-voice — the word and the act are shared across both nodes and a fourth voice; the *threefold* schema is Cassian's alone and framed as Egypt's.
 

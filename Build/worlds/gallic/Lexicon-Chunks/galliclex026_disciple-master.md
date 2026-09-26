@@ -73,7 +73,7 @@ A man formed by living beside a named master and watching what he does — his p
 - Sulpitius Severus, *Life of St. Martin* ch. X (`ii.ii.xi`: "eighty disciples ... after the example of the saintly master"); ch. XXV (`ii.ii.xxvi`: Paulinus "should be made the object of our imitation") — Registry row 1. *Letters* II (`ii.iii.ii`: Clarus "a disciple of Martin's"); III (`ii.iii.iii`: "the death of our master, Martin") — row 2. *Dialogues* III.10 (`ii.iv.iii.x`: "that disciple of Christ, imitating the miracles") — row 3. Direct usage, Tours.
 - John Cassian, *Institutes* IV.40 (`iv.iii.iv.xl`: "from a very few or indeed from one or two only") — row 7. *Conferences* II.15 (`iv.iv.iii.xv`: "the teaching and training of the Elders") — row 8. *Conferences* XI.4 (`iv.v.ii.iv`: "the authority of a teacher will never be strong unless he fixes it in the heart of his hearer by the actual performance of his duty") — row 9. Direct usage, Marseilles; received.
 - Vincent of Lérins, *Commonitory* ch. 22 [53] (`iii.xxiii`: "not a teacher but a disciple, not a leader but a follower") — row 13.
-- Latin lemma: *magister* occurs four times in the volume's apparatus, all in unrelated senses (*magister officiorum*; a colophon name — Doc_03 3.1, Round 3 R5); *discipulus* unverified.
+- Latin lemma: *magister* occurs four times in the volume's apparatus, all in unrelated senses (*magister officiorum*; a colophon name — Doc_03 3.1, finding R5); *discipulus* unverified.
 - Lérins's tutelage chain (Honoratus → Hilary → Salvian and Vincent, for Eucherius's sons) reaches the build through Sanford's Introduction (editorial, no Registry row; Doc_05 §2.1) and is not quoted here.
 
 **Author Gravity note:** none — all three voices, both nodes.

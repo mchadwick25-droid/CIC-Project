@@ -1,6 +1,6 @@
 # Self-Reference Base Fix — Gallic Monastic-Ascetic Christianity
 
-**Date:** 2026-09-13. **Trigger:** the Phase D live Deep Interview finding
+**Trigger:** the Phase D live Deep Interview finding
 (`gallic_PhaseD_LiveDeepInterview_2026-09-13.md`) — under direct
 identity-collision pressure ("which one are you — Martin or Cassian?"),
 the voice broke strict we-voice four times in its closing lines. **The

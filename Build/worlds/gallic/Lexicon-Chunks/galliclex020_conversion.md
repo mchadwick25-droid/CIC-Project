@@ -75,7 +75,7 @@ In the south, the act of entering the monastic life, whether voluntary or "compu
 - John Cassian, *Conferences* III.5 (`iv.iv.iv.v`: "the early days of their conversion were so bright"; "compulsory conversion ... turned it into a voluntary one"); III.7 (`iv.iv.iv.vii`: "in the fervour of the early days of my conversion") — Registry row 8. *Institutes* IV.39 (`iv.iii.iv.xxxix`: "gain a start in conversion") — row 7. Direct usage, Marseilles; Paphnutius's conference is received.
 - Salvian, *On the Government of God* V.10 (Sanford pp. 153–154: "repent of their conversion"; "professing physical continence"; "this is not conversion to God but aversion from him"); III.11 (p. 96: "the conversion of one man does not atone for the sins of the many") — row 43, within its Licensed For.
 - Sulpitius Severus, *Life of St. Martin* ch. V (`ii.ii.vi`: "the robber believed"); ch. XIII (`ii.ii.xiv`: "through his virtues and example that name has prevailed"); ch. XVII (`ii.ii.xviii`: "an unconverted heathen") — row 1. The other referent, Tours.
-- Latin lemma: *conversio* is attested in Gibson's textual footnote at *Conf.* XXIV.1 (`iv.vi.viii.i`: "Petschenig's text reads *conversione*, others *conversatione*") — editorial layer, a section not read (Doc_03 1.10, Round 2 N1).
+- Latin lemma: *conversio* is attested in Gibson's textual footnote at *Conf.* XXIV.1 (`iv.vi.viii.i`: "Petschenig's text reads *conversione*, others *conversatione*") — editorial layer, a section not read (Doc_03 1.10, finding N1).
 
 **Author Gravity note:** cross-voice in referent — the monastic sense is Cassian's and Salvian's (two Marseilles voices); Tours's sense is different, not opposed. The monastic sense's Egyptian frame (Paphnutius) is received.
 

@@ -1,6 +1,6 @@
 # Phase D — Live Deep Interview, Round 2 (fresh questions), Gallic Monastic-Ascetic Christianity
 
-**Date:** 2026-09-13. **Purpose:** an independent, unbiased re-test with six
+**Purpose:** an independent, unbiased re-test with six
 entirely new questions (none reused from the first interview), run against
 the package compiled after the self-reference base fix
 (`gallic_SelfReference_BaseFix_2026-09-13.md`) - `manifest_hash

@@ -1,11 +1,11 @@
 # Gallic Monastic-Ascetic Christianity — B-1a/B-1b coverage check (R)
 
-**Date:** 2026-09-10. Run against the 44-row `gallic_Source_Registry.md` and
+Run against the 44-row `gallic_Source_Registry.md` and
 the 36 source records + 1 world_core record B-1 authored at
 `records/gallic/source/*.md` and `records/gallic/world_core/*.md`, following
 the same discipline the S6.2/HAL precedent
 (`Archive/Technology-Pass2-2026-08/Pass2/reviews/S6.2_HAL_s21b_coverage.md`,
-moved there by the later repo reorganization; path corrected 2026-09-14) and the
+moved there by the later repo reorganization; path since corrected) and the
 Cappadocian build's own `cappadocian_B1a_B1b_Coverage_Check.md` established.
 No Registry row or source record is edited here — findings route to the
 pre-freeze re-sweep, or are simply named for the build thread's own
@@ -69,7 +69,7 @@ Ancient Christianity*.
 | Prosper, *Contra Collatorem* | FOUND (Registry row 32; `gallic.source.prosper-contra-collatorem.md` — named, described, edition-located inside `npnf211`'s own prolegomena; not yet independently vendored, honestly disclosed as "pending discovery" in both the row and the record) |
 | Augustine, *De Praedestinatione Sanctorum* + *De Dono Perseverantiae* | FOUND (Registry rows 15, 16; `gallic.source.augustine-on-predestination.md`, `gallic.source.augustine-on-the-gift-of-perseverance.md`) |
 | Vincent of Lérins, *Commonitorium* | FOUND (Registry row 13; `gallic.source.vincent-commonitory.md`) |
-| Faustus of Riez, *De Gratia* | FOUND (Registry row 24; `gallic.source.faustus-de-gratia.md` — vendored and rights-verified 2026-09-09) |
+| Faustus of Riez, *De Gratia* | FOUND (Registry row 24; `gallic.source.faustus-de-gratia.md` — vendored and rights-verified) |
 | **Philip Rousseau, *Ascetics, Authority, and the Church*** | **MISS** — zero rows in the Registry (grepped the full document), no source record |
 | **Raymond Van Dam, *Leadership and Community in Late Antique Gaul*** | **MISS** — zero rows in the Registry, no source record |
 
@@ -111,7 +111,7 @@ following Cappadocian's own precedent of adding a third item the blind Step
 (California, 1985).** The strongest of the three: independently named by
 the blind Step 1 list *and* already an explicitly open item in this
 world's own build record (`gallic_Doc02_Source_Ecology.md` §13.6,
-unresolved since Round 1). The standard modern social-historical study of
+still unresolved). The standard modern social-historical study of
 exactly this world's setting — episcopal and aristocratic power in
 late-Roman/early post-Roman Gaul — and Doc_02 §9's own social-historical
 stratification finding currently rests only on Mathisen (row 20), a
@@ -184,8 +184,8 @@ heavily adversarially tested should, and here does, leave nothing new for
 a discovery sweep to find.
 
 **Saturation statement.** Given three independent review rounds already
-ran against `gallic_Source_Registry.md` before this sweep began — Round 1,
-a Round 2 substantial-revision pass, and a Round 3 bounded spot-check that
+ran against `gallic_Source_Registry.md` before this sweep began — a first
+pass, a substantial-revision pass, and a bounded spot-check that
 itself caught two false-fix claims — a discovery sweep run after that
 scrutiny should expect at most a small residue, not a fresh pile of misses.
 That is what this sweep found: nothing. The standing limitation this
@@ -209,9 +209,9 @@ Gennadius's seven chapters inside `npnf203` (row 30) and Richardson's
 endnote layer (row 42), the two rows this world's build cites most
 repeatedly across Doc_01, Doc_02, and Doc_04. Both rows' own document log
 already records this exact discipline being applied and corrected twice
-during the Registry's own review rounds (Round 2 N1, Round 3's "ch. XIX
+during the Registry's own review rounds (finding N1, and the "ch. XIX
 exception" correction) — re-reading the same seven chapters' closing
-formulas directly this pass reproduces the Round 3 corrected state exactly
+formulas directly this pass reproduces that corrected state exactly
 (six chapters close on a bare regnal formula; ch. XIX/Sulpitius closes on
 his old age instead), with no further discrepancy found. **No new finding
 of this shape turned up in this pass** — a different result from

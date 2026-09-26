@@ -87,4 +87,4 @@ A gift of God that is also the monk's own holding — proved at the door, requir
 
 ## Final Assembly Instruction
 
-Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. CT tag not applied — the "perseverance of the saints" gap is a Distortion Risk, not a recorded live contest (Doc_06 §3, Doc_03 Round 1 S8). Reported-Experience Status not applicable.
+Completed per `L4-Templates/Deployment_Lexicon_Chunk_Template.md` V1.0. No brackets or builder notes remain. World Meaning checked for analytical-distance markers. CT tag not applied — the "perseverance of the saints" gap is a Distortion Risk, not a recorded live contest (Doc_06 §3, Doc_03 finding S8). Reported-Experience Status not applicable.

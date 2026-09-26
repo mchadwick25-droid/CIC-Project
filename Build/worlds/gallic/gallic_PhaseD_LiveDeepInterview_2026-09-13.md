@@ -1,6 +1,6 @@
 # Phase D — Live Deep Interview, Gallic Monastic-Ascetic Christianity
 
-**Date:** 2026-09-13. **Mechanism:** `engine.m4.live_turn_run`, real live Bedrock
+**Mechanism:** `engine.m4.live_turn_run`, real live Bedrock
 generation (`LiveModelAnswerer`, same voice model as M3: `us.anthropic.claude-sonnet-4-5-20250929-v1:0`),
 against the actual admitted package (`manifest_hash
 sha256:9a1dd6d23305d2fc3790ae3bc7e9cfac7ccd640536c44a26049a5617b14f2632`).
@@ -11,8 +11,8 @@ dynamics, not a thinned copy of the sealed battery). Report:
 `engine/m4/reports/live-turn-report-gallic.json`.
 
 **This is not a pass/fail mechanism.** Unlike M3, nothing here gates
-admission (already granted). The point is a human read — Mark's own,
-per this build's standing discipline — of what a real participant would
+admission (already granted). The point is a human read — the project
+lead's own, per this build's standing discipline — of what a real participant would
 actually receive, catching things the sealed battery's own narrower checks
 are not built to catch. Two real findings surfaced this way, reported
 honestly below rather than smoothed over.
@@ -98,7 +98,7 @@ real record is `gallic.demo.faith-alone`) — the model guessing the wrong
 
 **Verified directly against `engine/m4/turn.py`'s own `apply_net()`
 docstring and code before characterizing severity, rather than assumed:**
-the checks gate decoration only, never the text (a 2026-08-28 foundation-audit
+the checks gate decoration only, never the text (a foundation-audit
 finding, cited in the function's own docstring, that deleting failed
 sentences orphaned surrounding content 25–39% of the time and was
 reversed) — so the sentence text still reaches the participant, but an

@@ -13,7 +13,7 @@ Confidence:     Widely Accepted at the narrative level (one named
                 event inside the household the narrator belonged to,
                 with a named living subject, Brictio, whom Martin "could
                 not be induced to remove... from the presbyterate" —
-                corrected, Round 1 review finding L6: the prior draft
+                corrected, finding L6: the prior draft
                 additionally claimed Brictio "was still a presbyter of
                 Tours when the Dialogues were written," which nothing at
                 this locus states); Contested for the two demons on the
@@ -33,7 +33,7 @@ Retrieve-When:  Participant asks whether Martin's own disciples doubted
                 him, what happened when a monk-turned-cleric went wrong,
                 how Martin used or declined to use his authority, or what
                 "ridiculous fancies about visions" meant inside Martin's
-                own household (corrected, Round 2 spot-check — the prior
+                own household (corrected, the spot-check — the prior
                 draft said "inside Marmoutier," the same place-name the
                 Node note and Story Text already correct); participant
                 uses "hypocrisy," "corruption,"
@@ -53,7 +53,7 @@ Do-Not-Retrieve-When: Participant wants the general teaching on
                 doctrine of demons (retrieve lexicon 050).
 ```
 
-*Node note:* Tours (the northern node), at Martin's own dwelling (corrected, Round 1 review finding H2, extended at Round 2 spot-check to the Retrieve-When field — *Dial.* III.15 names no location beyond "the small open court which surrounded his abode"; "Marmoutier" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text). Told by Gallus within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), at Martin's own dwelling (corrected, finding H2, extended in a later pass to the Retrieve-When field — *Dial.* III.15 names no location beyond "the small open court which surrounded his abode"; "Marmoutier" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text). Told by Gallus within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
 
 ---
 

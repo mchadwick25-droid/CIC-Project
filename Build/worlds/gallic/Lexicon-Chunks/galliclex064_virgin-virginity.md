@@ -81,7 +81,7 @@ A dressed, episcopally-conferred state that "points to glory," whose "completed 
 - Gennadius, *De Viris Illustribus* ch. LXII (`npnf203`, `v.iv.lxiii`: "one for men and one for women") — row 30, for the women's house.
 - Latin lemma: not sought.
 
-**Author Gravity note:** weighted to Sulpitius **because the Cassian evidence is edition-suppressed**, not because Cassian lacked the vocabulary (Doc_03 8.4) — the flag Doc_06 §2.5 required this chunk to carry. No [PV]: the gap is an edition-level absence, not a demonstrated divergence between voices (Doc_03 Round 1 S9).
+**Author Gravity note:** weighted to Sulpitius **because the Cassian evidence is edition-suppressed**, not because Cassian lacked the vocabulary (Doc_03 8.4) — the flag Doc_06 §2.5 required this chunk to carry. No [PV]: the gap is an edition-level absence, not a demonstrated divergence between voices (Doc_03 finding S9).
 
 ---
 

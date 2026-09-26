@@ -48,9 +48,9 @@ Do-Not-Retrieve-When: Participant is asking about the later cult of
                 carries it at its proper strength.
 ```
 
-*Node note:* Tours (the northern node), at Condate, 397 (corrected, Round 2 spot-check — the prior draft added "and then at Tours" for the burial; *Ep.* III never names the city the body was brought to, the same ground H2 already corrected in the Story Text; see Corrections below). Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), at Condate, 397 (corrected, the spot-check — the prior draft added "and then at Tours" for the burial; *Ep.* III never names the city the body was brought to, the same ground H2 already corrected in the Story Text; see Corrections below). Written in close third person from inside the world, in Tier 1 register.
 
-*Corrections (Round 1/Round 2 review, moved here from Story Text so the deployed narrative carries no builder apparatus):* Story Text — the funeral city left unnamed, matching *Ep.* III's own silence on it (H2, extended at Round 2 to the Node note and Tier Justification above and below); "Trier" corrected to the vendored volume's own "Treves" (L2, extended at Round 2 — the prior fix round reached only the Node note and Story Text of gallicstory005, not this chunk).
+*Corrections (moved here from Story Text so the deployed narrative carries no builder apparatus):* Story Text — the funeral city left unnamed, matching *Ep.* III's own silence on it (H2, extended here to the Node note and Tier Justification above and below); "Trier" corrected to the vendored volume's own "Treves" (L2, extended here — the prior fix pass reached only the Node note and Story Text of gallicstory005, not this chunk).
 
 ---
 

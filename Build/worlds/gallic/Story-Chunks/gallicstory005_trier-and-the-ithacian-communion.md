@@ -2,7 +2,7 @@
 
 ```
 Story-Title:    Treves and the Ithacian Communion — the one synod too
-                many (corrected, Round 2 spot-check — the prior title
+                many (corrected, the spot-check — the prior title
                 used the modernized "Trier"; the vendored volume's own
                 translation writes "Treves," see the Node note. The
                 filename slug "gallicstory005_trier-…" is left as a
@@ -15,7 +15,7 @@ Tier:           1
 
 Confidence:     Widely Accepted at the narrative level (one named,
                 socially located author, in two of his own works —
-                corrected, Round 1 review finding M13: the prior draft
+                corrected, finding M13: the prior draft
                 called this "told twice... independently... converging,"
                 overstating what the two texts actually share; *Sacred
                 History* II.50 narrates an earlier phase, Martin's plea
@@ -38,7 +38,7 @@ Source:         Sulpitius Severus, Dialogues III.11–13 (npnf211, divs
                 Confidence B; the narrative text re-read directly at
                 Doc_09) — is a related but distinct episode, not
                 independent corroboration of this chunk's own narrated
-                events (corrected, Round 1 review finding M13). Roberts's
+                events (corrected, finding M13). Roberts's
                 note on the corrupt text at "Andethanna" is editorial,
                 row 17.
 
@@ -63,9 +63,9 @@ Do-Not-Retrieve-When: Participant is asking about Priscillianism as a
                 loss (retrieve gallicstory003 or lexicon 010).
 ```
 
-*Node note:* Tours (the northern node), the event at Treves (corrected, Round 1 review finding L2, extended at Round 2 spot-check to the Story-Title, Confidence, Retrieve-When, and Usage Guidance fields, all of which had also used the modernized "Trier" — the vendored volume's own English translation writes "Treves" throughout) under the emperor Maximus, after Priscillian's execution — the text gives no year, and says only that Martin "lived sixteen years after this." Told in the *Dialogues* by Gallus, "a disciple of Martin's," within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
+*Node note:* Tours (the northern node), the event at Treves (corrected, finding L2, extended in a later pass to the Story-Title, Confidence, Retrieve-When, and Usage Guidance fields, all of which had also used the modernized "Trier" — the vendored volume's own English translation writes "Treves" throughout) under the emperor Maximus, after Priscillian's execution — the text gives no year, and says only that Martin "lived sixteen years after this." Told in the *Dialogues* by Gallus, "a disciple of Martin's," within Sulpitius's frame. Written in close third person from inside the world, in Tier 1 register.
 
-*Correction (Round 1 review, moved here from Story Text at Round 2 spot-check):* the Story Text does not claim *Sacred History* II.50 and *Dialogues* III.11–13 as one converging account; they narrate different phases of the same affair, sharing an author, a setting, and a principle (M13; see the Confidence field above).
+*Correction (moved here from Story Text in a later pass):* the Story Text does not claim *Sacred History* II.50 and *Dialogues* III.11–13 as one converging account; they narrate different phases of the same affair, sharing an author, a setting, and a principle (M13; see the Confidence field above).
 
 ---
 
@@ -95,7 +95,7 @@ What this story does that no gravity entry can: it shows the world's own account
 
 ## Tier Justification
 
-Tier 1 — Documented Historical Narrative — with its caveats. Direct textual attestation within the world's horizon: the *Dialogues* (c. 404–406), by a named, socially located author, told through the mouth of a named disciple who was Martin's companion; and an earlier phase of the same affair set out in Sulpitius's own *Sacred History* II.50, in his own voice, sharing the setting (Treves, Maximus, Ithacius) and Martin's principle without narrating the same events (corrected, Round 1 review finding M13 — the prior draft called this "the same affair set out independently... converging," overstating the overlap between two accounts of two different phases). Datable with reasonable confidence by the text's own internal anchors — Maximus's reign, "after Priscillian had been put to death," and within the last sixteen years of Martin's life (Gallus's own figure, carried as the text gives it, not converted to a year). The narrative claim — a bishop interceding at a usurper's court against the execution of heretics and the dispatch of tribunes, forced into one communion, and withdrawing from synods thereafter — is historically credible, is not itself miraculous, and is the kind of public event a contemporary Gallic aristocrat could know.
+Tier 1 — Documented Historical Narrative — with its caveats. Direct textual attestation within the world's horizon: the *Dialogues* (c. 404–406), by a named, socially located author, told through the mouth of a named disciple who was Martin's companion; and an earlier phase of the same affair set out in Sulpitius's own *Sacred History* II.50, in his own voice, sharing the setting (Treves, Maximus, Ithacius) and Martin's principle without narrating the same events (corrected, finding M13 — the prior draft called this "the same affair set out independently... converging," overstating the overlap between two accounts of two different phases). Datable with reasonable confidence by the text's own internal anchors — Maximus's reign, "after Priscillian had been put to death," and within the last sixteen years of Martin's life (Gallus's own figure, carried as the text gives it, not converted to a year). The narrative claim — a bishop interceding at a usurper's court against the execution of heretics and the dispatch of tribunes, forced into one communion, and withdrawing from synods thereafter — is historically credible, is not itself miraculous, and is the kind of public event a contemporary Gallic aristocrat could know.
 
 The caveats Tier 1 requires: Gallus's account is framed as the disclosure of something Martin "always concealed," i.e. it rests on Martin's own report to his household; the angel's speech and the "diminution of his power" are Martin's own reported experience ("he at once confessed to us with tears"), transmitted by a hagiographer whose corpus is organized by *virtus* (Doc_04 G6) — carried here at Contested strength as the world's own self-understanding, per this build's Reported-Experience discipline, not as historical fact; and Sulpitius's hostility to Ithacius ("no worth or holiness about him," *SH* II.50) is his own perspective. The bare sequence (the plea, the coerced communion, the withdrawal from synods) is carried at narrative-level confidence. This is the same split Donatism's donstory003 applied to Macrobius's omen and vision: a Tier 1 story may carry its author's supernatural framing at lower confidence without dropping to Tier 3, so long as the framing is named as such. Widely Accepted rather than Documented because two works by one author are not "multiple independent sources."
 

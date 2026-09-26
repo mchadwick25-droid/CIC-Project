@@ -48,7 +48,7 @@ Do-Not-Retrieve-When: Participant wants the southern node's version of
 
 *Node note:* Tours (the northern node). Sulpitius's account of the election (the text gives no year; the vendored volume's own editorial introduction places Marmoutier's founding "after 371," Doc_01 §2.1). Written in close third person from inside the world, in Tier 1 register.
 
-*Corrections (Round 1 review, moved here from Story Text at Round 2 spot-check so the deployed narrative carries no builder apparatus):* Story Text — "the monk of Ligugé" removed; *Vita* IX does not name Ligugé as Martin's monastery at the time of the election, and "Ligugé" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text (H2). The claim that the psalm's Latin word for "the avenger" — *defensor* — gave the objecting bishop's own name is withdrawn; that identification is Roberts's own footnote, not Sulpitius's text (M8).
+*Corrections (moved here from Story Text in a later pass so the deployed narrative carries no builder apparatus):* Story Text — "the monk of Ligugé" removed; *Vita* IX does not name Ligugé as Martin's monastery at the time of the election, and "Ligugé" occurs in this world's vendored volume only in Gibson's editorial prolegomena to Cassian, never in Sulpitius's own text (H2). The claim that the psalm's Latin word for "the avenger" — *defensor* — gave the objecting bishop's own name is withdrawn; that identification is Roberts's own footnote, not Sulpitius's text (M8).
 
 ---
 

@@ -72,7 +72,7 @@ A public undertaking of a whole way of life, with its own goal and end and its o
 
 - John Cassian, *Conferences* I.2 (`iv.iv.ii.ii`: "our profession too has its own goal and end") — Registry row 8. *Institutes* I.10 (`iv.iii.i.x`: "the humble character of our profession"); IV.33 (`iv.iii.iv.xxxiii`: "the responsibility of this profession"; "a deserter or lukewarm"); X.3 (`iv.iii.x.iii`: "begins to forget the object of his profession") — row 7. *Conferences* XVIII.7 (`iv.vi.ii.vii`: "renunciation only as a public profession, i.e., before the face of men") — row 10. Direct usage, Marseilles.
 - Sulpitius Severus, *Dialogues* II.11 (`ii.iv.ii.xi`: "having professed himself a monk"; "taken the oath of allegiance in the same service") — row 3. *Life of St. Martin* ch. II (`ii.ii.iii`: "the necessary vows"); ch. XXIII (`ii.ii.xxiv`: Anatolius "under the profession of a monk") — row 1. *Letters* II (`ii.iii.ii`: "both by vow and virtues") — row 2. Direct usage, Tours.
-- Latin lemma: *professio* is attested in the volume only in Gibson's textual footnote to the Preface of *De Incarnatione* (`iv.vii.i`, Registry row 12, an unread work) — editorial layer, sense not this entry's (Doc_03 1.9, Round 2 N2).
+- Latin lemma: *professio* is attested in the volume only in Gibson's textual footnote to the Preface of *De Incarnatione* (`iv.vii.i`, Registry row 12, an unread work) — editorial layer, sense not this entry's (Doc_03 1.9, finding N2).
 
 **Author Gravity note:** none — both nodes, two voices; the "goal and end" of the profession is Abbot Moses's teaching and received (see 034).
 

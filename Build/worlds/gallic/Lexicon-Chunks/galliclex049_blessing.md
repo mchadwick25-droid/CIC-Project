@@ -76,7 +76,7 @@ A power that passes from the saint into oil, thread, straw, a letter, and a name
 
 - Sulpitius Severus, *Life of St. Martin* ch. XVIII (`ii.ii.xix`: threads "plucked from the sackcloth which he wore, wrought frequent miracles upon those who were sick"); ch. XIX (`ii.ii.xx`: "inserted in the bosom of the girl ... a letter of Martin") — Registry row 1. *Letters* II (`ii.iii.ii`: "begged for his blessing according to custom"; "his hand placed on my head") — row 2. *Dialogues* II.8 (`ii.iv.ii.viii`: the virgins "distribute among themselves the very straw on which he had lain"); II.12 (`ii.iv.ii.xii`: "her blessing was by no means to be rejected by a priest"); III.3 (`ii.iv.iii.iii`: "that he might bless it (such is the custom)"; "whose blessing could not possibly perish"; "in the name of Martin, to be quiet"); III.14 (`ii.iv.iii.xiv`: "Save us, O God of Martin") — row 3. Direct usage, Tours.
 - John Cassian: the ordinary sense only (*Inst.* IV.19, "the reward of this blessing") and the liturgical "collect the prayer" (*Conf.* XVIII.11, Gibson's footnote — editorial), Doc_03 6.3.
-- Latin lemma: *benedictione* attested in Gibson's footnote at *Inst.* II.7 (`iv.iii.ii.vii`) — editorial layer, and in the liturgical sense (Doc_03 6.3, Round 3 R4).
+- Latin lemma: *benedictione* attested in Gibson's footnote at *Inst.* II.7 (`iv.iii.ii.vii`) — editorial layer, and in the liturgical sense (Doc_03 6.3, finding R4).
 
 **Author Gravity note:** single-voice (Sulpitius) for the power sense — a real node marker; its historicity is not what this entry asserts (see 010's Reported-Experience Status).
 

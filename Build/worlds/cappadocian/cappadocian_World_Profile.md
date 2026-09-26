@@ -5,7 +5,7 @@
 
 ## Section 1 — World Identity
 
-**World name (as the world would name itself):** the churches of Cappadocia and Pontus that held the faith of Nicaea, from the years after the great persecutions to the death of the last of the great household — years that cost us Eupsychius too, at Caesarea, under the last of the persecuting emperors (c. 325 – c. 394) (scholarly registry label: Cappadocian Christianity, world_id `cappadocian-trinitarian`) — **corrected, light-fix pass, 2026-08-31**: propagated from Doc_01's own correction (the prior "peace after the last martyrs" phrasing was factually wrong — Eupsychius of Caesarea was executed under Julian in 362, inside this world's own span).
+**World name (as the world would name itself):** the churches of Cappadocia and Pontus that held the faith of Nicaea, from the years after the great persecutions to the death of the last of the great household — years that cost us Eupsychius too, at Caesarea, under the last of the persecuting emperors (c. 325 – c. 394) (scholarly registry label: Cappadocian Christianity, world_id `cappadocian-trinitarian`).
 **World code:** cappadocian
 **Temporal scope:** c. 325 – c. 394 (the ecology is richest c. 360–383; the ending is a transformation window, 381–394 — Doc_01)
 **Geographic scope:** Cappadocia (Caesarea, Nazianzus, Nyssa, Tyana, the plateau villages), Pontus along the Iris (Annisa, Neocaesarea, Ibora), Armenia Minor (Sebaste); extension arcs to Athens (education) and Constantinople (the 379–381 mission)

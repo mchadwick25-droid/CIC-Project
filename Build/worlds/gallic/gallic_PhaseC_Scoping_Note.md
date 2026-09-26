@@ -1,6 +1,6 @@
 # Phase C Scoping Note — Gallic Monastic-Ascetic Christianity
 
-**Date:** 2026-09-13. **Status:** Phase C recon complete. Two small, disclosed,
+**Status:** Phase C recon complete. Two small, disclosed,
 precedented fixes made directly (ACCEPTED_OPEN entries in
 `engine/m1/cross_world.py`). The bulk of "deployment wiring" is confirmed
 structurally deferred until after M3 admission, per real fleet precedent —
@@ -10,7 +10,7 @@ surfaced and disclosed, not silently patched.
 ## What the governing process document says, and why it doesn't apply as written
 
 `Build/reference/method/CiC_Record_Native_World_Build_Process_V1.5.md` (moved
-there by the later repo reorganization; path corrected 2026-09-14) §4
+there by the later repo reorganization; path since corrected) §4
 ("Phase C — Deployment wiring") describes: an `app/world_manifest.py` entry,
 two hand-synced frontend points (`SpeakerName` union, `MessageBubble.tsx`
 `REPRESENTATIVE_NAMES`), vector indices built at Docker build time,
@@ -20,7 +20,7 @@ smoke test against a Docker/Render-deployed site.
 
 **None of this exists in the current repository.** `app/` does not exist
 anywhere in this tree; `cic-poc/backend/` (which held the equivalent
-tooling) was deleted 2026-08-28, per the same commit (`bc6601b8`) B-8's own
+tooling) was deleted, per the same commit (`bc6601b8`) B-8's own
 recon already found ("the links moved to cic-engine"). This is the
 identical class of finding B-6, B-7a, B-8, and B-9 each already made for
 their own process-document rows — a row describing infrastructure that no

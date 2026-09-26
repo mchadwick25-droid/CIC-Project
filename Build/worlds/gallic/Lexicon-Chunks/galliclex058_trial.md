@@ -72,7 +72,7 @@ God's proving of love — of a people through a learned teacher's novelty, of a 
 - Vincent of Lérins, *Commonitory* ch. 10 [27–28] (`iii.xi`: "certain excellent persons, and of position in the Church, are often permitted by God to preach novel doctrines"; "a Doctor in the Church, who is believed by his disciples or auditors to teach by revelation"; "the Lord, your God, trieth you"); ch. 17 [42] (`iii.xviii`: "with the Church to receive Teachers, not with Teachers to desert the faith of the Church"); ch. 18 (`iii.xix`: Origen "by far the first place among the Greeks," Tertullian among the Latins) — Registry row 13. Direct usage, Lérins.
 - John Cassian, *Conferences* XIII.14 (`iv.v.iv.xiv`: "How God makes trial of the strength of man's will"; Job "His well tried athlete"; "the Lord your God surely trieth thee, whether thou lovest Him with all thine heart") — row 9. Direct usage, Marseilles.
 - Sulpitius Severus, *Letters* I (`ii.iii.i`: "Martin was indeed tried by that danger, but passed through it with true acceptance") — row 2. *Life* ch. XXIV title (`ii.ii.xxv`: "Martin is tempted by the Wiles of the Devil") — row 1. Direct usage, Tours.
-- Latin lemma: *tentationis periculum* attested at *Inst.* III.10 (`iv.iii.iii.x`) in Gibson's apparatus — editorial layer (Doc_03 7.6, Round 3 R4).
+- Latin lemma: *tentationis periculum* attested at *Inst.* III.10 (`iv.iii.iii.x`) in Gibson's apparatus — editorial layer (Doc_03 7.6, finding R4).
 
 **Author Gravity note:** cross-voice — the word and the proof-text are shared between Vincent and Cassian; the *ecclesial* application is Vincent's own.
 

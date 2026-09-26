@@ -2,7 +2,7 @@
 
 **Status:** Approved to proceed (self-dispositioned per CO-022, together with `gallic_Doc06_Full_Lexicon_Development.md` and the 81 `Lexicon-Chunks/` files as one Step 6 output set) — Round 1 review and fix round complete, Round 2 bounded spot-check complete, its residual findings (a malformed §5b table; an under-captured Key-Source Registry Rows column, worst at 015) fixed and this index regenerated from the corrected chunk data. Not Frozen.
 **World file-code:** `gallic`
-**Built from the 81 chunk files' own front-matter, mechanically extracted, not separately maintained** — per `cic-lexicon-index`'s own instruction that a master index must derive from the chunks themselves. Every count and reciprocity claim below was computed by direct parsing of the 81 chunk files and of Doc_06 §2.7's own table, not asserted; the extraction script's own output is the basis for every number in this document. **Round 1 review (2026-09-10) found three defects in this index's own first draft — a mis-scoped reciprocity diagnosis (§6), a Registry Cross-Reference column that reported Excluded/disclaimed rows as sources (§1), and an Author-Gravity-Risk column that measured node-exclusivity rather than author gravity (§1). A Round 2 bounded spot-check of the fix for those three then found a fourth defect introduced by the fix itself (§5b's check-sheet table missing its Tier column) and a residue in the first defect's own repair (the Key-Source Registry Rows column under-captured multi-row and range mentions, e.g. at 015). This version corrects all four, recomputed from the chunks directly rather than patched.**
+**Built from the 81 chunk files' own front-matter, mechanically extracted, not separately maintained** — per `cic-lexicon-index`'s own instruction that a master index must derive from the chunks themselves. Every count and reciprocity claim below was computed by direct parsing of the 81 chunk files and of Doc_06 §2.7's own table, not asserted; the extraction script's own output is the basis for every number in this document, recomputed directly from the chunks rather than patched by hand.
 
 ---
 
@@ -92,7 +92,7 @@
 | 080 | Theotocos | 3 | – | Y | – | Y | – | – | – | Theotocos, Theotokos, "The mother of God," Christotocos ("the mother of Christ" — Nestorius's word), "In God there is one substance, but three Persons; in Christ two substances, but one Person," Ne... | novelty vs. antiquity, the rule, progress vs. alteration, council / synod, heretic / heresy, Catholic, the deposit | Row 12, Row 13, Row 17, Row 30 | — | No note (Tier 3) |
 | 081 | catechumen | 3 | – | Y | – | Y | Y | – | – | catechumen(s), "begged that he might become a catechumen," "Martin, who is still but a catechumen," "he made them all catechumens," the unbaptized enrolled, the catechumen who died and was raised | heathen / rustics, conversion, virtus / power, bishop / the monk-bishop, soldier of Christ, monk / solitary, the possessed / exorcism, blessing | Row 1, Row 3, Row 17 | — | No note (Tier 3) |
 
-**Column changes from the first draft (Round 1 review S5, S6):** the single "Source Registry Cross-Reference" column is split into "Key-Source Registry Rows" (rows actually cited as evidence — excludes any row mentioned only inside a "not used" / "not licensed" / "Excluded" clause) and "Excluded/Disclaimed Rows Named" (rows the chunk names specifically to say they are *not* drawn on, e.g. Row 43/Salvian on the grace-cluster terms, Row 4/*Dialogue I* on 015, Row 36/RB on 005 and 066). "Author-Gravity-Risk" is now derived from each chunk's own Author Gravity note text (`single-voice` → **Yes**, `weighted` → **Weighted**, `none`/`cross-voice` → **No**, no note at all — every Tier-3 chunk — → **No note (Tier 3)**), not from Doc_06 §2.7's node/AG-note cell.
+**Column changes from the first draft (findings S5, S6):** the single "Source Registry Cross-Reference" column is split into "Key-Source Registry Rows" (rows actually cited as evidence — excludes any row mentioned only inside a "not used" / "not licensed" / "Excluded" clause) and "Excluded/Disclaimed Rows Named" (rows the chunk names specifically to say they are *not* drawn on, e.g. Row 43/Salvian on the grace-cluster terms, Row 4/*Dialogue I* on 015, Row 36/RB on 005 and 066). "Author-Gravity-Risk" is now derived from each chunk's own Author Gravity note text (`single-voice` → **Yes**, `weighted` → **Weighted**, `none`/`cross-voice` → **No**, no note at all — every Tier-3 chunk — → **No note (Tier 3)**), not from Doc_06 §2.7's node/AG-note cell.
 
 ---
 
@@ -141,9 +141,9 @@ Doc_06 §2.2's own reasoning for 010 *virtus* is the only case this build's Step
 
 ---
 
-## 5b. Distortion Risk Presence Check (added, Round 1 review S1)
+## 5b. Distortion Risk Presence Check (added per finding S1)
 
-The Lexicon Framework requires a Distortion Risk section — "at minimum a single-line Modern Hearing / World Hearing pairing" — **at all three tiers**, not only Tier 1/2. Round 1 review found twelve of the thirteen Tier-3 chunks omitted it; all twelve were fixed this round (§6 of `gallic_Doc06_Full_Lexicon_Development.md`) and are re-checked here directly against the chunk files, mechanically, rather than taken on the fix log's own word.
+The Lexicon Framework requires a Distortion Risk section — "at minimum a single-line Modern Hearing / World Hearing pairing" — **at all three tiers**, not only Tier 1/2. Finding S1 found twelve of the thirteen Tier-3 chunks omitted it; all twelve were fixed (§6 of `gallic_Doc06_Full_Lexicon_Development.md`) and are re-checked here directly against the chunk files, mechanically, rather than taken on the fix log's own word.
 
 | # | Term | Tier | Distortion Risk pairing present? | Carries [DR] tag? |
 |---|---|---|---|---|
@@ -239,14 +239,14 @@ The Lexicon Framework requires a Distortion Risk section — "at minimum a singl
 
 **This is not full reciprocity, and this index does not claim it is.**
 
-**Corrected diagnosis (Round 1 review S4 — the first draft's structural explanation covered at most 41% of the gap and named a Tier-2 term as a "Tier-1 hub"):**
+**Corrected diagnosis (finding S4 — the first draft's structural explanation covered at most 41% of the gap and named a Tier-2 term as a "Tier-1 hub"):**
 
 - Of the 233 one-directional edges, the missing back-reference belongs in a **Tier-1** file in **96** cases and in a **Tier-2/3** file in **137** cases — the "drafted before Tier-2/3 existed" structural story covers at most 96 of 233 (41%).
 - **7** one-directional edges run **Tier-1 → Tier-1** (both files existed simultaneously in Step A, so the structural story cannot apply at all): 002→010, 006→005, 007→004, 007→002, 007→008, 009→006, 013→004.
 - **193** of 233 (82%) run from a higher-numbered chunk to a lower-numbered one; **40** run the other way.
 - The largest missing-back-reference targets, by count, across **62 distinct target files**: 032 humility (Tier 2, 15), 013 bishop / the monk-bishop (Tier 1, 12), 006 purity of heart (Tier 1, 11), 004 the Fathers / elders (Tier 1, 10), 008 grace (of God) (Tier 1, 9), 001 monk / solitary (Tier 1, 9), 012 novelty vs. antiquity (Tier 1, 9), 010 virtus / power (Tier 1, 8), 018 junior / novice (Tier 2, 8), 036 thoughts (Tier 2, 7). **032 humility is Tier 2**, not Tier 1 as the first draft's recommendation stated, and is the single largest target in the whole lexicon.
 
-**Corrected recommendation, not applied here:** reconciling this is a bounded, mechanical addition of back-references, but it is not confined to the 13 Tier-1 files — it requires touching **all 62 target files** (Tier-1 and Tier-2/3 alike), concentrated on the terms listed above. Flagged for the Round 1 fix round's own scope decision, per the review's own recommendation, rather than silently applied by this index.
+**Corrected recommendation, not applied here:** reconciling this is a bounded, mechanical addition of back-references, but it is not confined to the 13 Tier-1 files — it requires touching **all 62 target files** (Tier-1 and Tier-2/3 alike), concentrated on the terms listed above. Flagged for a future fix pass's own scope decision, per the review's own recommendation, rather than silently applied by this index.
 
 **One-directional edges, listed in full (not sampled):**
 
@@ -490,10 +490,10 @@ The Lexicon Framework requires a Distortion Risk section — "at minimum a singl
 
 ## 7. Cross-Build Sheet
 
-Per Doc_06 §4's own distortion-risk naming and §5's open items: the cross-world attribution question this lexicon carries is G7's own world-attribution risk (006 purity of heart, 029 discretion, 007 unceasing prayer, and the customs-of-the-monasteries content generally, 005) — this world's southern formation content is received Egyptian content, and the cross-build item (Doc_04 §7, carried to `desert-monasticism`'s maintainer) is that a Representative built on these chunks must speak of purity of heart, discretion, and the twelve psalms as received from Egypt, never as this world's own invention, per Doc_05 §7.2's containment line. No other candidate term in this lexicon was found to require resolution against another world's own claimed vocabulary this pass. Registry row 36 (Rule of Benedict) is the Named Comparandum the Distortion Risk pattern in Doc_06 §4(b) exists to guard against; it is named in 005 and 066 only to say it is **not** drawn on as a source (corrected, Round 1 review S5 — the first draft's §1 table had listed it as a Key-Source row for both).
+Per Doc_06 §4's own distortion-risk naming and §5's open items: the cross-world attribution question this lexicon carries is G7's own world-attribution risk (006 purity of heart, 029 discretion, 007 unceasing prayer, and the customs-of-the-monasteries content generally, 005) — this world's southern formation content is received Egyptian content, and the cross-build item (Doc_04 §7, carried to `desert-monasticism`'s maintainer) is that a Representative built on these chunks must speak of purity of heart, discretion, and the twelve psalms as received from Egypt, never as this world's own invention, per Doc_05 §7.2's containment line. No other candidate term in this lexicon was found to require resolution against another world's own claimed vocabulary this pass. Registry row 36 (Rule of Benedict) is the Named Comparandum the Distortion Risk pattern in Doc_06 §4(b) exists to guard against; it is named in 005 and 066 only to say it is **not** drawn on as a source (corrected, finding S5 — the first draft's §1 table had listed it as a Key-Source row for both).
 
 ---
 
 ## Disposition
 
-**Approved to proceed** (self-dispositioned per CO-022, together with `gallic_Doc06_Full_Lexicon_Development.md`, whose §6 carries the full Round 1 review, Round 1 fix round, and Round 2 spot-check log for this index as for the rest of Step 6). This index's own escalation-category self-assessment: it does not decide a new portfolio-level or cross-world question (§7 restates Doc_04/Doc_05's own items, deciding nothing for another world's maintainer); it derives directly from the chunk files and Doc_06 §2.7's own table, computed mechanically rather than asserted; it does not touch Representative identity; the Related-Terms reciprocity gap (§6) is disclosed with a corrected diagnosis, not smoothed over.
+**Approved to proceed** (self-dispositioned per CO-022, together with `gallic_Doc06_Full_Lexicon_Development.md`, whose §6 carries the full review and fix log for this index as for the rest of Step 6). This index's own escalation-category self-assessment: it does not decide a new portfolio-level or cross-world question (§7 restates Doc_04/Doc_05's own items, deciding nothing for another world's maintainer); it derives directly from the chunk files and Doc_06 §2.7's own table, computed mechanically rather than asserted; it does not touch Representative identity; the Related-Terms reciprocity gap (§6) is disclosed with a corrected diagnosis, not smoothed over.

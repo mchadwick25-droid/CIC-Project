@@ -58,7 +58,7 @@ The founding voices have judgment, but not this one. Martin teaches that "the co
 
 ## Ecological Function
 
-G10's only Tier-2 term (Doc_06 §2.5, §5 item 4): the vocabulary in which Doc_04's weakest and most provisional gravity — "Judgment, imminent and present," Supporting (provisional), "the only gravity the barbarian force attaches to" — is spoken, and the frame through which fiscal and barbarian ruin entered this world's literature (Doc_05 §1.4, §7.3). Doc_05 §10B finds G10 "peripheral in the founding voices"; this term's weight sits in a fourth, later-added voice whose lifespan runs past the window (Doc_03 6.10, Round 2 N8). Dependencies: Antichrist (076, the founding voices' judgment-soon), the world / secular (022, under present judgment), Gaul (068, the ruined province), the religious / servants of God (071, Salvian's class term), lukewarmness (033), conversion (020). A participant who understands this term understands that this world had one voice for the age's dominant catastrophe, and that it heard the catastrophe as a sentence.
+G10's only Tier-2 term (Doc_06 §2.5, §5 item 4): the vocabulary in which Doc_04's weakest and most provisional gravity — "Judgment, imminent and present," Supporting (provisional), "the only gravity the barbarian force attaches to" — is spoken, and the frame through which fiscal and barbarian ruin entered this world's literature (Doc_05 §1.4, §7.3). Doc_05 §10B finds G10 "peripheral in the founding voices"; this term's weight sits in a fourth, later-added voice whose lifespan runs past the window (Doc_03 6.10, finding N8). Dependencies: Antichrist (076, the founding voices' judgment-soon), the world / secular (022, under present judgment), Gaul (068, the ruined province), the religious / servants of God (071, Salvian's class term), lukewarmness (033), conversion (020). A participant who understands this term understands that this world had one voice for the age's dominant catastrophe, and that it heard the catastrophe as a sentence.
 
 ---
 
@@ -79,7 +79,7 @@ A God who never leaves the tiller and is judging *now*, in the flames of the pro
 - Contrast terms in the founding voices: Sulpitius, *Life* ch. XXIV (`ii.ii.xxv`) and *Letters* II (`ii.iii.ii`) — rows 1–2; Vincent, *Commonitory* ch. 1 [2] (`iii.ii`) — row 13; Cassian, *Conferences* XI.6 (`iv.v.ii.vi`) — row 9. See 076.
 - Latin lemma: the two titles are transmitted, not checked against a Latin edition; Sanford's English is the only text read (Doc_03 6.10).
 
-**Author Gravity note:** single-voice (Salvian) — a fourth Native voice outside Doc_02's founding Author Gravity Assessment; *De Gubernatione Dei* (439–450) is inside the window, Salvian's own life is not (Doc_03 6.10, Round 2 N8). G10 is Doc_04's "weakest, provisional" classification and a downgrade "is defensible if Doc_08 finds another gravity for the barbarian force" (Doc_04 §10 item 3) — which would leave this term at Tier 2 unaffected (Doc_06 §5 item 4).
+**Author Gravity note:** single-voice (Salvian) — a fourth Native voice outside Doc_02's founding Author Gravity Assessment; *De Gubernatione Dei* (439–450) is inside the window, Salvian's own life is not (Doc_03 6.10, finding N8). G10 is Doc_04's "weakest, provisional" classification and a downgrade "is defensible if Doc_08 finds another gravity for the barbarian force" (Doc_04 §10 item 3) — which would leave this term at Tier 2 unaffected (Doc_06 §5 item 4).
 
 ---
 

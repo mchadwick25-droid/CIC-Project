@@ -201,9 +201,9 @@ Documented: the *Commonitory*'s 434 date (on its own actual grounds, not a secon
 
 ---
 
-## 13A. Boundary Check, two new leads (2026-09-09 addendum)
+## 13A. Boundary Check, two new leads
 
-Two sources surfaced by a 2026-09-08 source-readiness routine, vendored 2026-09-09 (see G1's own addendum), needed the Boundary Check the Registry's own schema requires before either could be rowed as Native or Excluded — assessed by subject against Doc_01's own window (§2–§4), never by date. Both checks were done by reading the vendored primary text directly, not by reasoning about it.
+Two sources surfaced by a source-readiness routine, since vendored (see G1's own addendum), needed the Boundary Check the Registry's own schema requires before either could be rowed as Native or Excluded — assessed by subject against Doc_01's own window (§2–§4), never by date. Both checks were done by reading the vendored primary text directly, not by reasoning about it.
 
 **Salvian of Marseilles, *On the Government of God* — NATIVE, Documented.** Salvian is not merely a contemporary who happened to live in Cassian's own city. He personally taught at Lérins, and the evidence for this is primary and ancient, not a modern inference:
 

@@ -73,7 +73,7 @@ A grade reached *after* the coenobium, whose whole point is open battle with the
 - Latin lemma: Roberts's "withdrawers" (`iv.vi.ii.vi`) is the volume's only gloss toward *anachoreta* (Doc_03 §10 item 1); the Lérins Latin (rows 26–27) uses *eremum / eremi* repeatedly (bounded grep, Doc_06 §5 item 2), sense not yet read.
 - Not used: *Dialogue* I (row 4, Excluded) — the fullest Tours-side speech on Egypt's hermits sits there and is not drawn on (Doc_04 §2.3).
 
-**Author Gravity note:** none for the word; the coenobite-then-anchorite *rule* is single-voice (Cassian) and received. No Gallic participant in what was read calls himself an anchorite (Doc_03 1.3, Round 2 N10) — the [RT] tag is deliberately withheld.
+**Author Gravity note:** none for the word; the coenobite-then-anchorite *rule* is single-voice (Cassian) and received. No Gallic participant in what was read calls himself an anchorite (Doc_03 1.3, finding N10) — the [RT] tag is deliberately withheld.
 
 ---
 

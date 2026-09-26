@@ -13,7 +13,7 @@ disclosure discipline exactly: Build/worlds/cappadocian/scripts/wb_cappadocian_s
 tooling; read in full before writing this one). No newer precedent exists as
 of this build (recon confirmed via CAPPADOCIAN_BUILD_LEDGER.md plus a fresh
 records/worlds.yaml read: Cappadocian remains the only world that has gone
-through B-1 through B-9 on the live engine/m1-m3 system as of 2026-09-10).
+through B-1 through B-9 on the live engine/m1-m3 system).
 
 INPUTS, mapped to OUTPUTS, precisely:
   - Build/worlds/gallic/gallic_Source_Registry.md
@@ -65,8 +65,8 @@ exactly:
     fields).
   - rights_status: AUTHORED per row via the RIGHTS dict below (six buckets:
     "vv" vendored + independently verified/rights-checked in the same build
-    session that produced this Registry -- rows 24-27, 43, all dated
-    2026-09-09; "v" vendored earlier and not rechecked at the rights level
+    session that produced this Registry -- rows 24-27, 43;
+    "v" vendored earlier and not rechecked at the rights level
     this pass; "na" not yet acquired as an open text; "ic" in-copyright,
     deliberately excluded -- none in this world's 36 Native rows, named for
     completeness with the Cappadocian precedent; "nt" no single specific
@@ -75,7 +75,7 @@ exactly:
     documented absence from a vendored edition -- rows 11 and 31 specifically).
     No row is left blank; gate_rights fails closed on blank.
   - attribution_status: AUTHORED per row. Default "attributed". Row 5 (the
-    Doubtful Letters) carries the Registry's own 2026-08-26 ruling verbatim
+    Doubtful Letters) carries the Registry's own ruling verbatim
     (filed under the attributed name AND as pseudepigraphal literature) --
     the one row in this world's Registry with a real, disclosed authorship
     complication.
@@ -147,7 +147,7 @@ exactly:
     honest sentence wherever a row's formation_confidence, or its own
     SPLIT citation-specificity tier, needs explaining -- e.g. rows 8 and 9
     (the dedication/content confidence splits, and row 9's own withdrawn
-    "doubly evidenced" claim, Registry Round 2 N4); row 3 (the Gennadius
+    "doubly evidenced" claim, Registry finding N4); row 3 (the Gennadius
     "two divisions" discrepancy); row 5 (the pseudepigraphal ruling). Per
     the conf() helper below, this script hard-asserts gate_confidence_
     crosscheck's own rule (Documented + null divergence_note requires
@@ -236,7 +236,7 @@ SALVIAN = ("Salvian of Marseilles, On the Government of God (De Gubernatione Dei
            "Sanford (1930), vendored as cic/texts/salvian_on-the-government-of-god_sanford1930.txt")
 
 RIGHTS = {
-    "vv": ("public-domain; vendored in cic/texts/ 2026-09-09 and independently rights-verified "
+    "vv": ("public-domain; vendored in cic/texts/ and independently rights-verified "
            "(archive.org public-domain/rights metadata directly checked; title, editor, date, "
            "and contents independently re-verified) within the same build session that produced "
            "this world's own Source Registry."),
@@ -368,12 +368,12 @@ def build_sources() -> dict[str, str]:
     ids["sulpitius-doubtful-letters"] = emit_source(
         5, "sulpitius-doubtful-letters", "Sulpitius Severus (attributed)",
         "The Doubtful Letters -- at least eight letters, two to Claudia confirmed", NPNF211, "v",
-        "attributed to Sulpitius by tradition; ruled 2026-08-26 to be filed both under the "
+        "attributed to Sulpitius by tradition; ruled to be filed both under the "
         "attributed name and as pseudepigraphal literature -- genuineness itself is the open "
         "question this attribution status discloses, not merely authorship detail",
         "A", "verified-direct", "corroborating", "Widely Accepted", (
-            "Genuineness contested by tradition (hence 'Doubtful'); this world's own build ruled "
-            "2026-08-26 to carry both the attributed name and the pseudepigraphal-literature "
+            "Genuineness contested by tradition (hence 'Doubtful'); this world's own build rules "
+            "to carry both the attributed name and the pseudepigraphal-literature "
             "classification rather than choosing one, per the Registry's own disclosure "
             "discipline."),
         "Grounds Claudia as this world's elite-women's-correspondence trace (Doc_05 SS1.3, not an "
@@ -409,7 +409,7 @@ def build_sources() -> dict[str, str]:
         "A", "verified-direct", "load-bearing", "Widely Accepted", (
             "Registry's own split rating: A for the dedication text and its own chronology "
             "anchor (completed shortly after Castor's death, 426), C for the fuller content of "
-            "Conferences I-X generally, per the Registry's own Round 1 correction confirming this "
+            "Conferences I-X generally, per the Registry's own correction confirming this "
             "dating clause belongs to Part I, not Part II."),
         "Purity of heart and the archer (Conf. I.4-7, chunk 006), the money-changer (I.20), "
         "Paphnutius on the beginning of a good will (III.19, gallicstory011). Dedication note "
@@ -425,7 +425,7 @@ def build_sources() -> dict[str, str]:
             "editorial (row 17) identification of the dedicatees as Lerins's Honoratus and "
             "Eucherius -- independently corroborated only for Lerins's own existence by Gennadius "
             "(row 30), not for the Cassian-dedication link itself, a claim the Registry's own "
-            "Round 2 fix explicitly WITHDREW after finding it rested on a different abbot a "
+            "correction explicitly withdrew after finding it rested on a different abbot a "
             "decade later -- and C for content generally, except Conference XIII (grace and "
             "human effort, gallicstory013), which this Registry rates higher."),
         "Archebius carried off to a see (Conf. XI.2, gallicstory012); Germanus's scruple and the "
@@ -460,7 +460,7 @@ def build_sources() -> dict[str, str]:
         "B", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "Author-tradition basis; the Leo/Celestine transmission context, independently confirmed "
         "by Gennadius's own text (row 30) -- a genuine upward correction from an earlier "
-        "backwards confidence arrow (Registry Round 2 N8). Existence and corpus-map assignment "
+        "backwards confidence arrow (Registry finding N8). Existence and corpus-map assignment "
         "confirmed via the G1 manifest; the text itself has not been read at any point in this "
         "build.")
 
@@ -570,7 +570,7 @@ def build_sources() -> dict[str, str]:
         "independent-recall gap. Existence and general subject independently verified via live "
         "research; full text not read.")
 
-    # --- Lerins-Marseilles primary voices vendored 2026-09-09 (rows 24-27) --
+    # --- Lerins-Marseilles primary voices (rows 24-27) --
     ids["faustus-de-gratia"] = emit_source(
         24, "faustus-de-gratia", "Faustus of Riez (third abbot of Lerins from c. 433; later "
         "bishop of Riez)",
@@ -581,7 +581,7 @@ def build_sources() -> dict[str, str]:
         "Gennadius's own English-summarized doctrine (row 30) is real content-evidence in hand "
         "even before this text's own vendoring -- prevenient, grace-invites-and-precedes-the-will "
         "theology, complicating a simple grace-vs-free-will reading of the controversy. Vendored "
-        "and rights-verified 2026-09-09; Latin only, the treatise body itself remains unread "
+        "and rights-verified; Latin only, the treatise body itself remains unread "
         "beyond identity/contents verification -- the only English translation (Stucco, Brepols, "
         "2023) is recent and in copyright, so no translation effort has been made.")
     ids["eucherius-de-contemptu-mundi"] = emit_source(
@@ -589,7 +589,7 @@ def build_sources() -> dict[str, str]:
         "De Contemptu Mundi ('The World Contemned')", EUCHERIUS_CONTEMPTU, "vv", "attributed",
         "B", "verified-direct", "load-bearing", "Widely Accepted", None,
         "A third Lerins-insider voice, in English -- Vaughan's 1654 translation. Vendored and "
-        "rights-verified 2026-09-09; the complete 31-page CCEL text was fetched and confirmed "
+        "rights-verified; the complete 31-page CCEL text was fetched and confirmed "
         "complete (front matter through Index of Scripture References) at this Registry's own "
         "construction.")
     ids["eucherius-de-laude-eremi"] = emit_source(
@@ -598,7 +598,7 @@ def build_sources() -> dict[str, str]:
         "B", "named-not-rechecked", "load-bearing", "Widely Accepted", None,
         "The island as a harbour for the shipwrecked; the Egyptian fathers' 'crying signs' "
         "(Doc_04 G2/G6; gallicstory014's own Formation Ecology Connection). Vendored and "
-        "rights-verified 2026-09-09, Latin only; not yet examined beyond location and identity at "
+        "rights-verified, Latin only; not yet examined beyond location and identity at "
         "this Registry's own construction -- the specific rendered phrases used downstream (Doc_04, "
         "Doc_09) were located and read at their own build steps, each carrying Inferential-Thin "
         "wording status of its own, disclosed at those loci, not claimed here.")
@@ -615,8 +615,8 @@ def build_sources() -> dict[str, str]:
             "are independently attested by Gennadius (row 30, ch. LXX: 'his Life of Saint "
             "Honoratus, his predecessor')."),
         "This world's own founding narrative for Lerins -- previously entirely absent from the "
-        "vendored library until this Registry's own build session. Vendored and rights-verified "
-        "2026-09-09, extracted from the full Migne PL 50 volume; also carries at least one "
+        "vendored library until this Registry's own build session. Vendored and rights-verified, "
+        "extracted from the full Migne PL 50 volume; also carries at least one "
         "further short genuine letter of Hilary's, not separately bounded (see the vendored "
         "file's own header).")
 

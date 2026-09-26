@@ -51,24 +51,14 @@ other world's final hex value was his.
 ## What is not decided here
 
 The actual artwork (painterly/fine-art oil style, per the fleet's own
-2026-07-24 style ruling - visible canvas texture, explicitly not
+style ruling - visible canvas texture, explicitly not
 photorealistic; bust-up composition; plain flat background; warm,
 in-dialogue expression) is the project lead's own task, exactly as it was
 for all seven prior portraits. This brief only proposes what a generator or
 an artist would need grounded before drawing: role, object, dress,
 appearance, and the one hard constraint (no likeness of Martin specifically)
 this world's own identity decision already fixed. Once a first draft exists,
-it should be checked against this brief the same way Chilo's five rounds
-were checked against §35 - not assumed correct from the brief alone.
-
-**Correction, after round 1's own review:** the DRESS section originally
-called the tunic "undyed" as though this world's own record used that
-word. It does not. The record documents "novelty of colour or fashion"
-refused (Inst. I.2) and Martin's own garment as camel's hair (Sulpitius,
-*Vita* ch. X, naturally toned, unprocessed) - "undyed" was this brief's
-own inference from those two facts, stated with more confidence than the
-sourcing actually carries. Corrected in place above rather than left
-standing; round 1's own portrait read the robe as a rich, saturated
-brown, closer to a dyed cloth than the flat, homespun, unshowy tone the
-record actually points to - the correction narrows the color guidance
-without changing anything else the brief calls for.
+it should be checked against this brief - not assumed correct from the
+brief alone. The color guidance above calls for a flat, homespun, unshowy
+tone - not a richer, dyed-looking brown - matching the record's own plain,
+unshowy material rather than a costuming guess.

@@ -74,7 +74,7 @@ At Marseilles, what effort cannot claim against a grace that goes first — whil
 - Gennadius, *De Viris Illustribus* ch. LXXXVI (`npnf203`, `v.iv.lxxxvii`: "is not its own desert, but the gift of grace") — row 30, ancient text (post-window insider).
 - Augustine, rows 14–16, context only: Pelagius's condemned thesis that grace is given "according to our merits" is Augustine's report (Doc_03 5.7), not quoted here; row 35 Excluded.
 - **Not used, by licence:** Salvian (row 43).
-- Latin lemma: *meritum* attested in Heurtley's Appendix II (`iii.xxxvi`) quoting Augustine's *De dono persev.* in Latin — editorial layer (Doc_03 5.7, Round 2 N1); Hilary of Arles (row 27) uses *merita* of Honoratus ("sacerdotii merita," Doc_04 G1, Inferential/Thin wording).
+- Latin lemma: *meritum* attested in Heurtley's Appendix II (`iii.xxxvi`) quoting Augustine's *De dono persev.* in Latin — editorial layer (Doc_03 5.7, finding N1); Hilary of Arles (row 27) uses *merita* of Honoratus ("sacerdotii merita," Doc_04 G1, Inferential/Thin wording).
 
 **Author Gravity note:** cross-voice in referent — the two senses do not conflict, because they never meet in one text.
 
