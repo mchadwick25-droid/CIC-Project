@@ -59,10 +59,12 @@ ACCEPTED_OPEN: dict[str, str] = {
     # ijc/alx/pahc/hal's own census `living` flags now match their
     # registry entries (records/worlds/<code>.yaml's own
     # living_tradition_flag), each confirmed against that world's own
-    # construction record. The registry is the source of truth: the
-    # census derives its `living` flag, and its representative name/
-    # title, from records/worlds.yaml - so identity drift between the
-    # Atlas and the room fails the run from here on.
+    # construction record - `living` stays a genuine editorial call on
+    # each side (see engine/m6/census_sync.py), checked for agreement
+    # here, never derived one from the other. The census's representative
+    # name/title, by contrast, is derived directly from records/worlds.yaml
+    # (F-07/F-08) - so identity drift between the Atlas and the room
+    # fails the run from here on.
     "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
@@ -100,7 +102,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # invisible to load_registry() and everything downstream of it, gates
     # and checks alike. Belongs to lpc's own build thread; remove this
     # entry once lpc is registered.
-    "unregistered-world-dir/lpc": "records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; belongs to lpc's own build thread",
+    "unregistered-world-dir/lpc": "2026-09-25 CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
     #
     # required-record-type/witt/* and required-site-json/witt:
     # check_required_record_types_and_site_json's own findings, keyed per
@@ -110,15 +112,15 @@ ACCEPTED_OPEN: dict[str, str] = {
     # has no compiled cic-website/data/worlds/lutheran-wittenberg-and-
     # its-congregations.json - the Website V2 migration has not reached
     # witt yet. Belongs to witt's own build thread.
-    "required-record-type/witt/world_front": "witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-record-type/witt/facilitator_brief": "witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
-    "required-site-json/witt": "witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
+    "required-record-type/witt/world_front": "2026-09-25 CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-record-type/witt/facilitator_brief": "2026-09-25 CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-site-json/witt": "2026-09-25 CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
     # required-record-type/rzg/search_record: rzg (admitted) carries a
     # world_front and a facilitator_brief record and its site JSON is
     # compiled and committed, but it has zero search_record records - the
     # Search feature's own migration has not reached rzg yet. Belongs to
     # rzg's own build thread.
-    "required-record-type/rzg/search_record": "rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
+    "required-record-type/rzg/search_record": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
 }
 
 

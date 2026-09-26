@@ -51,7 +51,7 @@ continuation line below is generic on purpose; flagging this rather than
 silently dropping the bracket unremarked, since it is a real simplification
 of the approved draft, not just a formatting choice.
 
-ACUTE_DISTRESS_CONTINUATION always restores the same redirect sentence
+ACUTE_DISTRESS_CONTINUATION always includes the same redirect sentence
 ACUTE_DISTRESS_RESOURCES and ACUTE_DISTRESS_A2 both carry, so a
 continuation turn is never redirect-free. A warm-sounding continuation
 with no actual redirect sentence would leave every Track A turn in a

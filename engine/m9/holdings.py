@@ -2,7 +2,7 @@
 file, per world, naming whether it is in scope, already named in this
 world's own records, actually drawn on, and its own disposition from a
 closed vocabulary. Report-only, per the stage's own bar ("nothing
-blocks"); gate only once that decision is made.
+blocks"); gate only after R13 (Rulings-Pending.md).
 
 Reuses `engine.m1.cross_world`'s own `corpus_tier`/`BY_DESIGN`/
 `observe_second_hand_sources` rather than duplicating that judgment, and

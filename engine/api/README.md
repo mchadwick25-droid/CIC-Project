@@ -7,7 +7,7 @@ generation, event log, usage log) against a real Bedrock credential. This is
 `/root/.claude/plans/linear-popping-dawn.md` for what's deliberately out of
 scope (SSE streaming, Postgres, rate limiting, deletion workflow, auth
 hardening beyond a session-code header, and the full `Artifact-5`/`Artifact-6`
-production topology, which stays gated on Mark's own stage-7.5 design pass).
+production topology, which is not yet built).
 
 ## Running it
 
@@ -27,16 +27,16 @@ Optional env vars (all have defaults): `CIC_API_VOICE_MODEL_PATTERN` (default
 `./cic_api_events.db`), `CIC_API_USAGE_DB` (default `./cic_api_usage.db`),
 `CIC_API_WORLDS_YAML` (default `records/worlds`, a directory - one file per
 world since the Library Access Gate registry split), `CIC_API_DEFAULT_WORLD_KEY`
-(default `fix`; note that since 2026-08-28 a session must NAME its world —
-`POST /api/session` with no `world_key` is refused, so the default is no
-longer reachable through the API), and `CIC_ENFORCE_ADMISSION` — the
+(default `fix`; note that a session must NAME its world —
+`POST /api/session` with no `world_key` is refused, so the default is not
+reachable through the API), and `CIC_ENFORCE_ADMISSION` — the
 doors-open switch (`"1"` = only admitted/open worlds are listed or seated;
-`"0"` = today's declared deferral, see render.yaml's own comment). The
-2026-08-28 audit found this one shipped-but-undocumented; this list is the
-config surface, so it lives here now.
+`"0"` = today's declared deferral, see render.yaml's own comment). This is
+the config surface for the running service; it lives here so it stays
+documented.
 
-`CIC_API_ANON_CAP_ENABLED` (2026-09-21, Tech-Readiness P1-Security item 3 —
-`engine/api/anon_cap.py`'s own module docstring has the full rationale):
+`CIC_API_ANON_CAP_ENABLED` (`engine/api/anon_cap.py`'s own module
+docstring has the full rationale):
 `"1"` turns on a per-visitor daily cap on session creation and conversation
 turns, on top of `ratelimit.py`'s per-IP burst limiter. **Off in every
 deployment today** (`render.yaml` declares it explicitly as `"0"`, not left
@@ -121,7 +121,7 @@ curl -s localhost:8000/health
   note saying so plainly: the strings are honest and minimal, and they are
   not finished participant-facing text.
 - **Track B does not act on its accumulator.** `safety_state` events are
-  written from 2026-08-24 and the accumulator folds and survives resume, but
+  written and the accumulator folds and survives resume, but
   no threshold reads it — Track B still fires on a single
   `HARMFUL_DYNAMIC_SIGNAL`, and the sealed safety call is still given an
   empty window and an empty accumulator.

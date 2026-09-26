@@ -93,7 +93,7 @@ class Settings:
     anon_daily_session_limit: int
     anon_daily_turn_limit: int
     # OFF by default, everywhere, including a real deploy - flipped only
-    # after a staging look at this item's own live battery. When on, a
+    # after a staging look at this flag's own live battery. When on, a
     # wholly_uncited_paragraph or neighbour_named offense regenerates
     # once, then hands the turn to the Facilitator if it survives that -
     # see engine.m4.turn._run_ordinary_voice_turn's own docstring for the

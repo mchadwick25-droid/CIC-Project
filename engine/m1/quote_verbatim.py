@@ -123,7 +123,9 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # prayer`) - stripping a bare digit globally risks silently swallowing a
 # real number that's part of what a quote actually says elsewhere in the
 # same file, and no safe, narrow rule for telling the two apart has been
-# found yet.
+# found yet. See the fleet report for the six records this still blocks
+# (five apparatus-only, one - `cappadocian.quote.basil-on-work-and-
+# prayer` - already nested-mark-fixed by #413 but blocked here too).
 
 # The rule: fleet-wide principles, since a hundred worlds cannot each be
 # told individually what to say for every quote - never a per-record
