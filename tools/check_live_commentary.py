@@ -34,7 +34,7 @@ exactly one of four verdicts:
               "per Mark", a reviewer's name, a review round, an ISO date
               attached to a change). The reason stays, rewritten in plain
               present tense; the who/when/entry/round moves to
-              Ministry/Operations/Audits/Tech-Readiness-2026-09/
+              Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/
               Live-Surface-Cleanup/Decision-Log.md (or the Decision-Log
               the material already belongs to).
 
@@ -367,7 +367,7 @@ NON_REVIEW_ROUND = re.compile(r"\bround[\s-]?(trip|number|up|down|robin|off)\b",
 # project's own review process - "an external reviewer" (a donor-facing ask
 # to introduce one), "a reviewer checking only for X" (an illustrative
 # worked example of what a reader might miss). Confirmed live in
-# cic-website/support.html:127 and reference/Project-Reference/
+# cic-website/support.html:127 and Build/reference/Project-Reference/
 # CiC_Cleaning_Pattern_Log.md (lines 35, 69, 151, 203, 305): every one of
 # these begins with an indefinite article or "external"/"academic" right
 # before "reviewer", where a genuine provenance citation instead names the
@@ -413,7 +413,7 @@ PATTERNS["change-history-cue"] = CHANGE_HISTORY_CUES
 # docstring on why a baseline would let drift go quiet.
 # ---------------------------------------------------------------------------
 
-# Schema-defined source-provenance fields (reference/Redesign-Spec/
+# Schema-defined source-provenance fields (Build/reference/Redesign-Spec/
 # Artifact-1-Record-Schema.md §4, record type `source`: "author, work,
 # edition, rights_status, attribution_status, discovery channel, external
 # ids") plus `channel` (the equivalent field on `search_record` - verified

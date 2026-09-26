@@ -10,7 +10,7 @@ turn), in the August live-table-battery reports
 (engine/m4/reports/live-table-battery-F1-2026-08-28.json, probe
 L4-no-foreknowledge: "Papnoute (Desert Monasticism): Theon has answered you
 rightly..."). Pre-existing defect class, not a Stage 6 regression - see
-Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md
+Build/Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md
 Entry 47.
 
 This module guards against the Facilitator's own label and every OTHER

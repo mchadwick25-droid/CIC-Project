@@ -1,15 +1,17 @@
 # Church in Conversation — the map
 
 This repository is a modular system in three zones. **Live** is what runs and is
-protected: it changes only by promotion after test and verification. **Sandbox**
-is where modules are built and improved: `main`, deploying to staging. **History**
-is everything superseded, kept and never deleted without instruction. The modules
-are a source library shelved by tradition; worlds, each a self-contained unit that
-loads only when a conversation calls it and speaks only from its own records; the
-atlas; the interview engine; the table engine; the facilitator; and the build and
-audit tooling around them.
+protected: it changes only by promotion after test and verification. **Build**
+is everything that builds or governs the system without being part of what runs
+it — method, records-in-progress, decisions, tooling — kept in one place so the
+root shows only the running program by default. **History** is everything
+superseded, kept and never deleted without instruction. The modules are a source
+library shelved by tradition; worlds, each a self-contained unit that loads only
+when a conversation calls it and speaks only from its own records; the atlas;
+the interview engine; the table engine; the facilitator; and the build and audit
+tooling around them.
 
-Every top-level entry belongs to one of five kinds. Nothing else sits at the root.
+Every top-level entry belongs to one of three kinds. Nothing else sits at the root.
 
 ## Live — what deploys, and what reads it
 
@@ -28,28 +30,25 @@ of promotion. See "How things move" for the promotion path.
 | `cic-poc/` | the participant-facing frontend (interview and table); the proof-of-concept backend it was named for is retired | Render (Docker COPY `frontend/`), CI |
 | `cic-website/` | the public site and the Atlas; `data/world-census.json` is the census | Cloudflare (assets directory), CI |
 
-## Build — the sandbox side
+## Build — everything that builds or governs the system, not itself part of what runs it
+
+Moved under one top-level `Build/` (2026-09-26, Live/Build split) so the root shows only
+the Live zone plus `Archive/` by default. `tools/` splits across this line: the 5 scripts
+CI actually runs (`check_paths.py`, `check_live_commentary.py`,
+`check_no_embedded_world_data.py`, `repin_stale_worlds.py`, `validate-census.mjs`) stay at
+root `tools/`; everything else in `tools/` — scripts nothing in CI invokes — moved to
+`Build/tools/` with the rest below.
 
 | entry | what it is |
 |---|---|
-| `worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `worlds/<code>/`, indexes/build log/source manifest at `worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Six not-yet-coded worlds (Anabaptist Movements, Devotio Moderna and the Brethren of the Common Life, the Hussite and Bohemian Brethren Movement, Lollardy, Society of Jesus, Tridentine Church) stay under `World-Builds/` at their long names until each gets a registry code |
-| `tools/` | repo-level scripts that are not engine modules: the census validator CI runs, the lexicon compliance checker, the path check and the reorganization tooling |
-
-## Reference — the method and spec library
-
-| entry | what it is |
-|---|---|
-| `reference/L0-Reference/` … `reference/L4-Templates/` | the Level system: foundation, architecture, entry, status, operations, shared methodology, world-build methodology (including the closed Phase One World Selection), Representative methodology, encounter methodology, templates. A template exists once, here |
-| `reference/Redesign-Spec/` | the record-native program spec and its artifacts (1–8), the build blueprint, the launch plan |
-| `reference/method/` | the current-era build process, completion standard, register bar, naming and role discipline, voice style guide, adversarial-review practice, and the voice-rebuild decisions the readability target rests on |
-| `reference/Project-Reference/` | the coach's working references: governance standing rules, review checklist, cleaning pattern log |
-| `reference/fleet-voice/` | the exemplar transcript every world's voice is held to |
-
-## Organization
-
-| entry | what it is |
-|---|---|
-| `Ministry/` | decisions, features, funding, communication, organization, scholarly review, audits. `Ministry/Operations/Standing/` holds the standing tracking documents, including the fleet-wide world registry's own decision history (`WORLDS_REGISTRY_LOG.md`, moved out of `records/` 2026-09-24 — CLAUDE.md's "Keep the live/canonical surfaces clean"); `Ministry/Operations/Audits/` the dated one-off analyses and the move ledger; `Ministry/Features/<name>/` each in-development feature |
+| `Build/worlds/` | one home per world, keyed by registry code (phase 2 of the cleanup, 2026-09-15): construction documents (Doc_01–Doc_09, reviews, lexicon and story chunks, the Representative) at `Build/worlds/<code>/`, indexes/build log/source manifest at `Build/worlds/<code>/build/`; `_cross-world/` holds fleet-level build documents and their generators. Six not-yet-coded worlds (Anabaptist Movements, Devotio Moderna and the Brethren of the Common Life, the Hussite and Bohemian Brethren Movement, Lollardy, Society of Jesus, Tridentine Church) stay under `Build/World-Builds/` at their long names until each gets a registry code |
+| `Build/reference/L0-Reference/` … `Build/reference/L4-Templates/` | the Level system: foundation, architecture, entry, status, operations, shared methodology, world-build methodology (including the closed Phase One World Selection), Representative methodology, encounter methodology, templates. A template exists once, here |
+| `Build/reference/Redesign-Spec/` | the record-native program spec and its artifacts (1–8), the build blueprint, the launch plan |
+| `Build/reference/method/` | the current-era build process, completion standard, register bar, naming and role discipline, voice style guide, adversarial-review practice, and the voice-rebuild decisions the readability target rests on |
+| `Build/reference/Project-Reference/` | the coach's working references: governance standing rules, review checklist, cleaning pattern log |
+| `Build/reference/fleet-voice/` | the exemplar transcript every world's voice is held to |
+| `Build/Ministry/` | decisions, features, funding, communication, organization, scholarly review, audits. `Build/Ministry/Operations/Standing/` holds the standing tracking documents, including the fleet-wide world registry's own decision history (`WORLDS_REGISTRY_LOG.md`, moved out of `records/` 2026-09-24 — CLAUDE.md's "Keep the live/canonical surfaces clean"); `Build/Ministry/Operations/Audits/` the dated one-off analyses and the move ledger; `Build/Ministry/Features/<name>/` each in-development feature |
+| `Build/tools/` | the building-tools subset of `tools/`: the reorganization/citation-rewrite tooling, the lexicon compliance checker, and the Church Family Tree (Atlas) page generators |
 
 ## History
 
@@ -71,12 +70,12 @@ display names.
 - Live changes by promotion from `main` to the protected `live` branch (phase 3,
   2026-09-15), after verification on `cic-engine-staging` and Mark's own review.
   Nothing merges to `live` directly — procedure and one-time setup:
-  `Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
-- Hot trees (`worlds/`, `records/`) move only inside a declared freeze window.
+  `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
+- Hot trees (`Build/worlds/`, `records/`) move only inside a declared freeze window.
 - Superseded material moves to `Archive/`; nothing is deleted without instruction.
 - A working file carries no change notes. The record of a change lives in a
   supplemental file: the relevant decision log, `Open_Gaps_Tracking.md`, or
-  `Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`. Every path this
-  cleanup moved is in `Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`.
+  `Build/Ministry/Operations/Standing/CiC_Repo_Structure_Tracking.md`. Every path this
+  cleanup moved is in `Build/Ministry/Operations/Audits/CiC_Repo_Structure_Move_Ledger_2026-09.md`.
 - `tools/check_paths.py` runs in CI and fails on any cited path that no longer
   resolves, or any retired path that reappears (`tools/retired_paths.txt`).

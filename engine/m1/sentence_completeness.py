@@ -1,6 +1,6 @@
 """Does every sentence of a quote record's `modern_rendering` stand as a
 whole sentence - a main clause with its own subject and its own finite
-verb? The process doc's fragment rule (`reference/method/
+verb? The process doc's fragment rule (`Build/reference/method/
 CiC_Record_Native_World_Build_Process_V1.5.md`, Phase B, V1.6): a rendering
 may be split into shorter sentences only where each resulting sentence has
 its own subject and verb and carries one whole thought of the original - a

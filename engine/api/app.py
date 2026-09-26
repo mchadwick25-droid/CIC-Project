@@ -553,7 +553,7 @@ def _build_real_app() -> FastAPI:
     # docstring, engine/api/db_backup.py). Online-backs-up both SQLite
     # stores and uploads to CIC_API_BACKUP_BUCKET when configured; a no-op
     # upload (logged, not fatal) until Mark completes that bucket's own
-    # one-time setup (Ministry/Operations/Standing/
+    # one-time setup (Build/Ministry/Operations/Standing/
     # CiC_Backup_Restore_Runbook.md), same deferred-until-configured
     # pattern as CIC_API_PACKAGE_BUCKET.
     db_backup.start_background_scheduler(

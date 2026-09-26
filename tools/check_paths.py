@@ -23,8 +23,8 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent if HERE.name == "tools" else Path.cwd()
 
 SKIP_DIRS = (".git/", "node_modules/", "cic/texts/", "packages/", "Archive/", ".claude/",
-             "Ministry/Operations/Audits/", "Ministry/Operations/Standing/Launch-Prompts/",
-             "Ministry/Operations/Markup-Queue/")
+             "Build/Ministry/Operations/Audits/", "Build/Ministry/Operations/Standing/Launch-Prompts/",
+             "Build/Ministry/Operations/Markup-Queue/")
 DATED = re.compile(r"(_|-)20\d\d-\d\d-\d\d|Decision[_-]Log|Change_Log|Thread_Launch|Handoff|_Tracking\.md|Task_Board|Move_Ledger")
 PLACEHOLDER = re.compile(r"[<>\[\]{}*…]|\bSomeWorld\b|/code\b|/id\b|/name\b|/file\b|/locus\b|/key\b|/world\b")
 TOKEN = re.compile(r"(?<![\w/.\-@:])((?:[A-Za-z0-9_.\-]+/)+[A-Za-z0-9_.\-]+)")
@@ -44,7 +44,7 @@ def top_level_dirs() -> set[str]:
 def in_scope(rel: str) -> bool:
     if any(rel.startswith(s) or f"/{s}" in rel for s in SKIP_DIRS):
         return False
-    if rel.startswith("Ministry/") and DATED.search(Path(rel).name):
+    if rel.startswith("Build/Ministry/") and DATED.search(Path(rel).name):
         return False
     return True
 

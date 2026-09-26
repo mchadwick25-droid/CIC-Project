@@ -91,7 +91,7 @@ class Waiver:
 # `kind`/`shelf_row` set yet - checks gated on those fields had nothing to
 # resolve against, so they found nothing to report, correctly, not
 # because the library was clean. The kind-only migration is closing that
-# gap one world at a time via `tools/set_source_kind.py`: `gallic` is
+# gap one world at a time via `Build/tools/set_source_kind.py`: `gallic` is
 # migrated first (the
 # worked pattern - it has the fleet's only `kind: absence`-eligible real
 # records to prove the tool handles correctly by skipping them), and each

@@ -8,13 +8,13 @@ ACUTE_DISTRESS_RESOURCES.text below is approved,
 participant-facing text, replacing the earlier placeholder that named 988
 and the Crisis Text Line by number. That placeholder was never actually
 correct against this project's own standing decision
-(`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
+(`Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`,
 CO-022): the Facilitator's crisis redirect names no specific
 organization, hotline, or number ("Option A" of
-`reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`) - a
+`Build/reference/L3D-Encounter-Methodology/CiC_L3D_RelationalSafety_ResourceNaming_Decision_Options.md`) - a
 portfolio-level decision this module's text simply hadn't inherited yet.
 The text below is Option A-compliant, drafted from
-`reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` SS5.1's
+`Build/reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` SS5.1's
 own A1 script.
 
 The `{representative_name}` slot is filled at call time by engine.m4.turn

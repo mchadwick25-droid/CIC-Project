@@ -79,7 +79,7 @@ python -m engine.m5.safety_script_run --region us-east-1 --all
 
 by hand with a real credential, confirm the printed tally, then update
 both `render.yaml` env-var blocks to the run's own `model_id` and log the
-tally's report path in `Ministry/Features/Conversation-Transparency-
+tally's report path in `Build/Ministry/Features/Conversation-Transparency-
 Engine/Decision-Log.md`. If the currently-pinned id and the last tally's
 own `model_id` ever disagree, that is an escalation (Build-Plan.md Stage
 0d's own instruction), not something to quietly repin.

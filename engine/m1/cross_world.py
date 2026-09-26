@@ -9,7 +9,7 @@ can notice that five worlds answer a question one way and the sixth answers
 it another. This module is that missing view.
 
 The line it polices is the one the 2026-08-26 cross-system consistency audit
-drew (worlds/_cross-world/CiC_Cross_System_Consistency_Audit_
+drew (Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_
 2026-08-26.md): a world may differ from its siblings in SUBSTANCE - how many
 terms it holds, how rich its quote corpus is, which cells it can only answer
 with an honest limit - and may never differ in the SHAPE the pipeline moves
@@ -64,7 +64,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # to Mark directly using pahc's own four-option framing; ruling:
     # "Multiple traditions, partial claims" (Roman Catholic + Eastern
     # Orthodoxy). ijc_World_Profile.md SS9 updated PENDING->CONFIRMED;
-    # see worlds/ijc/Open_Gaps_Tracking.md for the full record. F-06 is
+    # see Build/worlds/ijc/Open_Gaps_Tracking.md for the full record. F-06 is
     # now closed across all four of its original instances.
     #
     # alx CLOSED 2026-09-20: census `living` synced true -> matches
@@ -83,14 +83,14 @@ ACCEPTED_OPEN: dict[str, str] = {
     # certain Anglican/episcopal-polity traditions, more loosely any
     # tradition drawing on the Apostolic Fathers), recorded in
     # CiC_W1_World_Profile.md SS9 with a documented tooling-failure/retry
-    # history. See worlds/pahc/Open_Gaps_Tracking.md item 2.
+    # history. See Build/worlds/pahc/Open_Gaps_Tracking.md item 2.
     #
     # hal CLOSED 2026-09-20 by Mark's ruling: false, matching the
     # construction-stage documents' own reasoned "confirmed NO" finding
     # (two named candidates considered and rejected) over the registry's
     # unreviewed true default. records/worlds/hal.yaml's own
     # living_tradition_flag flipped to false to match the census, which
-    # already had this right (worlds/hal/Open_Gaps_Tracking.md item 1).
+    # already had this right (Build/worlds/hal/Open_Gaps_Tracking.md item 1).
     #
     # Corroborated independently 2026-09-21 (website-card-redesign-to-main,
     # PR #351): alx/pahc/ijc's own world_front/world_core build separately
@@ -136,7 +136,7 @@ ACCEPTED_OPEN: dict[str, str] = {
     # 2026-09-16: the deployment wiring these named as deferred (frontend
     # worlds.ts registration, the Fidelis portrait, the traditions page) is
     # done - the approved Fidelis portrait (locked 2026-09-10, sitting
-    # unshipped in Ministry/Communication/Brand-Assets/ until now) shipped
+    # unshipped in Build/Ministry/Communication/Brand-Assets/ until now) shipped
     # to both live-serving asset locations, don registered in
     # cic-poc/frontend/src/data/worlds.ts, and traditions/donatism.html
     # built grounded in this world's own records. Not left stale.
@@ -1244,7 +1244,7 @@ def _register_profile(texts: list[str]) -> dict:
     (spaced-dash density, the <=5-word fragment share), applied here to
     the compiled record layer instead of a live conversation turn, and
     reusing its own `_strip_quoted`: quotes are the tradition's own words,
-    exempt from the plain band (reference/method/
+    exempt from the plain band (Build/reference/method/
     CiC_Register_Bar_2026-08-29.md), never screened at this layer either.
     `median_low` (the lower of the two middle values on an even count)
     rather than an interpolated average - a real record's own word count,

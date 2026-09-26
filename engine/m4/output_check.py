@@ -305,7 +305,7 @@ def _pronoun_findings(text: str) -> list[dict]:
 
 
 # The note-authoring convention itself (R11's own migration - Rulings-
-# Pending.md; tools/split_retrieval_guards.py), measured the same way
+# Pending.md; Build/tools/split_retrieval_guards.py), measured the same way
 # engine/m4/evidence.py's own _PREFER_INSTEAD_CONDITION_STOPWORDS was:
 # "participant is asking whether...", "the Representative must not...",
 # "our vendored evidence..." are the note's own scaffolding, not part of

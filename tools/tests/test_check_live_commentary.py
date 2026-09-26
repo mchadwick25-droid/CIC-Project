@@ -54,27 +54,27 @@ def test_seeded_defects_file_fully_protected(tmp_path):
 
 def test_review_doc_under_worlds_protected_both_conventions(tmp_path):
     text = "Round 1 review Finding S5: per Mark, R26\n"
-    dedicated = _hits_for(text, tmp_path, "worlds/alx/Review-Artifacts/Doc02_Round1_Review.md")
-    loose = _hits_for(text, tmp_path, "worlds/gallic/gallic_Doc02_Review_Round1.md")
+    dedicated = _hits_for(text, tmp_path, "Build/worlds/alx/Review-Artifacts/Doc02_Round1_Review.md")
+    loose = _hits_for(text, tmp_path, "Build/worlds/gallic/gallic_Doc02_Review_Round1.md")
     assert dedicated[0].category == "PROTECTED"
     assert loose[0].category == "PROTECTED"
 
 
 def test_construction_doc_under_worlds_not_protected(tmp_path):
     text = "Per Mark's ruling, R26, this section covers gravity discovery.\n"
-    hits = _hits_for(text, tmp_path, "worlds/alx/Doc_04_Gravity_Discovery.md")
+    hits = _hits_for(text, tmp_path, "Build/worlds/alx/Doc_04_Gravity_Discovery.md")
     assert hits[0].category != "PROTECTED"
 
 
 def test_world_build_dir_protected(tmp_path):
     text = "RULED 2026-09-01 per Mark\n"
-    hits = _hits_for(text, tmp_path, "worlds/rzg/build/bar-screen-2026-09-19.json")
+    hits = _hits_for(text, tmp_path, "Build/worlds/rzg/build/bar-screen-2026-09-19.json")
     assert hits[0].category == "PROTECTED"
 
 
 def test_gaps_ledger_protected(tmp_path):
     text = "Entry 42 (subject: X, 2026-09-01): per Mark's ruling R26\n"
-    hits = _hits_for(text, tmp_path, "worlds/don/Open_Gaps_Tracking.md")
+    hits = _hits_for(text, tmp_path, "Build/worlds/don/Open_Gaps_Tracking.md")
     assert hits[0].category == "PROTECTED"
 
 
@@ -165,7 +165,7 @@ def test_bare_yaml_date_scalar_keeps(tmp_path):
 
 
 def test_bare_markdown_header_date_keeps(tmp_path):
-    hits = _hits_for("**Date drafted:** 2026-07-20\n", tmp_path, "worlds/alx/Doc_01_World_Identification.md")
+    hits = _hits_for("**Date drafted:** 2026-07-20\n", tmp_path, "Build/worlds/alx/Doc_01_World_Identification.md")
     assert hits[0].category == "KEEP"
 
 
@@ -231,7 +231,7 @@ def test_era_frozen_status_phrase_not_flagged_as_era_gate(tmp_path):
 
 
 def test_generic_reviewer_keeps(tmp_path):
-    # cic-website/support.html:127 and reference/Project-Reference/
+    # cic-website/support.html:127 and Build/reference/Project-Reference/
     # CiC_Cleaning_Pattern_Log.md's own real KEEP examples: a generic or
     # hypothetical third-party reviewer, not this project's own review
     # process.
@@ -784,19 +784,19 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # surface pass and stopped matching. Moved to fresh worlds/ examples,
     # not yet touched by the cleanup program (item 4), to keep this table
     # at >=60 real, currently-matching lines.
-    ("worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md", 1, "REWRITE"),
-    ("worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
-    ("worlds/pahc/CiC_W1_World_Profile.md", 562, "REWRITE"),
-    ("worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
-    ("worlds/ijc/Source_Registry.md", 25, "REWRITE"),
-    ("worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
-    ("worlds/syr/CiC_W7_Decision_Log.md", 16, "REWRITE"),
+    ("Build/worlds/rzg/CiC_Reformed_Zurich_Geneva_Doc01_Scope_Confirmations_2026-09-15.md", 1, "REWRITE"),
+    ("Build/worlds/ijc/Post_Admission_Source_Finding_Philostorgius_OpusImperfectum_2026-09-09.md", 279, "REWRITE"),
+    ("Build/worlds/pahc/CiC_W1_World_Profile.md", 562, "REWRITE"),
+    ("Build/worlds/_cross-world/DOWNLOAD-QUEUE.md", 17, "REWRITE"),
+    ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
+    ("Build/worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
+    ("Build/worlds/syr/CiC_W7_Decision_Log.md", 16, "REWRITE"),
     # Hand label ROUTE (genuinely open placement/ruling question, not yet
     # resolved); the tool currently reads this as REWRITE (a false 4-class
     # miss inside the same "needs action" bucket - see the PR body's
     # ROUTE_CUES limitation note).
-    ("worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "ROUTE"),
-    ("worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "REWRITE"),
+    ("Build/worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "ROUTE"),
+    ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "REWRITE"),
     ("cic/engine/texts_registry.py", 74, "REWRITE"),
     ("cic/engine/texts_registry.py", 220, "REWRITE"),
     ("cic/engine/corpus_authors.py", 88, "REWRITE"),
@@ -822,21 +822,21 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # narration of this project's internal review process - the same
     # `reviewer`-pattern gap already hand-labelled for reference/ above.
     ("cic-website/support.html", 127, "KEEP"),
-    ("worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
-    ("worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md", 666, "REWRITE"),
-    ("worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "REWRITE"),
-    ("worlds/pahc/CiC_W1_World_Profile.md", 81, "REWRITE"),
-    ("worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
+    ("Build/worlds/cappadocian/CAPPADOCIAN_BUILD_LEDGER.md", 463, "REWRITE"),
+    ("Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_2026-08-26.md", 666, "REWRITE"),
+    ("Build/worlds/gallic/gallic_Doc03_Lexicon_Candidates.md", 802, "REWRITE"),
+    ("Build/worlds/pahc/CiC_W1_World_Profile.md", 81, "REWRITE"),
+    ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1524, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #506): all 10
     # cic/corpus-map samples in this block were cleaned by that PR's own
     # full surface pass and stopped matching. Moved to 10 more worlds/
     # examples, distinct from the 8 above, to keep this table at >=60
     # real, currently-matching lines.
-    ("worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
-    ("worlds/hal/hal_Decision_Log.md", 88, "REWRITE"),
-    ("worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
-    ("worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
-    ("worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
+    ("Build/worlds/witt/witt_Doc_04_Historical_Gravity.md", 569, "REWRITE"),
+    ("Build/worlds/hal/hal_Decision_Log.md", 88, "REWRITE"),
+    ("Build/worlds/don/scripts/wb_don_s21.py", 450, "REWRITE"),
+    ("Build/worlds/alx/Analysis/Unused_Assigned_Corpus_Finding_2026-09-09.md", 13, "REWRITE"),
+    ("Build/worlds/rzg/Doc_01_World_Identification_Boundaries_Orientation.md", 80, "REWRITE"),
     ("engine/m4/reports/live-table-battery-seat-identity-guard-2026-09-22.json", 5817, "PROTECTED"),
     # Refreshed 2026-09-25 (fleet-checks-widening PR round 2: review
     # findings applied): line 109 shifted to 120 once the eleven
@@ -881,30 +881,30 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     # non-spoken record field explicitly out of scope under the current
     # (spoken-fields-only) cleanup directive, so it should stay stable.
     ("records/cappadocian/contested_claim/cappadocian.contested.agennetos-transmission.md", 27, "REWRITE"),
-    ("reference/method/Pass2-decisions/S6.2_length_ceiling_retry_cost_investigation_2026-07-31.md", 14, "REWRITE"),
+    ("Build/reference/method/Pass2-decisions/S6.2_length_ceiling_retry_cost_investigation_2026-07-31.md", 14, "REWRITE"),
     # Hand label KEEP: "reviewer" here is generic instructional/methodology
     # prose (what a hypothetical reviewer of OTHER content would miss),
     # not a leaked note about this document's own review history - the
     # tool cannot currently tell the two uses of "reviewer" apart. See the
-    # PR body's precision limitation note (reference/Project-Reference/
-    # CiC_Cleaning_Pattern_Log.md and reference/L4-Templates/*).
-    ("reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 151, "KEEP"),
-    ("reference/Redesign-Spec/World-Cards.md", 139, "REWRITE"),
-    ("reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
-    ("reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
-    ("reference/L4-Templates/Representative_Construction_Notes_Template.md", 366, "KEEP"),
-    ("worlds/ijc/Doc_07_Integrated_Ecology_Analysis.md", 5, "KEEP"),
-    ("worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round3_Review.md", 20, "PROTECTED"),
-    ("worlds/don/Open_Gaps_Tracking.md", 357, "PROTECTED"),
-    ("worlds/witt/witt_Doc03_Review_Round11.md", 64, "PROTECTED"),
+    # PR body's precision limitation note (Build/reference/Project-Reference/
+    # CiC_Cleaning_Pattern_Log.md and Build/reference/L4-Templates/*).
+    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 151, "KEEP"),
+    ("Build/reference/Redesign-Spec/World-Cards.md", 139, "REWRITE"),
+    ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
+    ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
+    ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 366, "KEEP"),
+    ("Build/worlds/ijc/Doc_07_Integrated_Ecology_Analysis.md", 5, "KEEP"),
+    ("Build/worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round3_Review.md", 20, "PROTECTED"),
+    ("Build/worlds/don/Open_Gaps_Tracking.md", 357, "PROTECTED"),
+    ("Build/worlds/witt/witt_Doc03_Review_Round11.md", 64, "PROTECTED"),
     # Hand label KEEP: the "Added" column of a per-world Source Registry is
     # exactly the schema-defined field reference/L3B-World-Build-
     # Methodology/Source_Registry_Template.md names ("Added | Date and
     # who/what added it") - structured provenance, not narration. The
     # tool does not currently parse Source Registry table columns; see the
     # PR body's precision limitation note.
-    ("worlds/lpc/Source_Registry.md", 142, "KEEP"),
-    ("worlds/gallic/gallic_Doc02_Review_Round1.md", 562, "PROTECTED"),
+    ("Build/worlds/lpc/Source_Registry.md", 142, "KEEP"),
+    ("Build/worlds/gallic/gallic_Doc02_Review_Round1.md", 562, "PROTECTED"),
 ]
 
 ACTIONABLE = {"REWRITE", "ROUTE"}

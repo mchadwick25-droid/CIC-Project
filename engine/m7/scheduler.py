@@ -4,7 +4,7 @@ separate Render service: Render mounts a Persistent Disk to exactly one
 running service, and cic-engine already has /data mounted there - a
 separate Cron Job service would need its own attachment of that same
 disk, which Render does not support once it's already attached. See
-Ministry/Operations/Standing/CiC_System_Health_Tracking.md, 2026-09-04,
+Build/Ministry/Operations/Standing/CiC_System_Health_Tracking.md, 2026-09-04,
 for the fuller reasoning and the standing duty this closes.
 
 Read-only over the event log (engine.m7.cli.audit's own guarantee, see

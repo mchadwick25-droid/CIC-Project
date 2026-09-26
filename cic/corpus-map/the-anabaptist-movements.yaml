@@ -10,7 +10,7 @@ works:
   confidence: assigned
   note: 'The movement''s own hymnal, an 1846 Lancaster PA printing, still in liturgical use
     among the Amish. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass. Flagged under Mark''s OCR ruling "a" (2026-09-25, worlds/_cross-world/LIBRARY-DECISION-LOG.md)
+    pass. Flagged under Mark''s OCR ruling "a" (2026-09-25, Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md)
     as a garbled scan - stays second witness for scan-quality reasons, not language, until
     a cleaner edition is vendored.
 
@@ -48,7 +48,7 @@ works:
   confidence: assigned
   note: 'The Hutterite Brethren''s own communal chronicle, German original (ed. Wolkan, 1923)
     - Correction (2026-09-25): this note previously called the file PRIMARY content on the
-    grounds that no PD English translation exists. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    grounds that no PD English translation exists. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     an original''s language no longer decides this - scan quality does, and this scan is flagged
     under Mark''s OCR ruling "a" as garbled. It stays second witness for that reason until
     a cleaner edition is vendored, not because it lacks an English translation and not because

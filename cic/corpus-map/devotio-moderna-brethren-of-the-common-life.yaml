@@ -10,7 +10,7 @@ works:
   confidence: assigned
   note: 'The major chronicle of the Windesheim Congregation, ed. Grube (1886), previously
     wholly unrepresented in this world''s vendored corpus. Vendored 2026-09-25 as part of
-    a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text can be primary evidence directly, verified against the vendored file,
     since it is primary to the movement regardless of language; the scan is clean, not flagged
     under Mark''s OCR ruling "a."
@@ -28,7 +28,7 @@ works:
     a fresh pre-Doc_02 source-acquisition pass for this candidate. Correction (2026-09-25):
     originally called "PRIMARY content" here on informal grounds only, ahead of any actual
     ruling backing that label - a defect caught and flagged the same day. Under Mark''s own
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this label now has real
+    2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this label now has real
     backing: a clean public-domain original can be primary evidence when it''s primary to
     the movement, which this is, regardless of language and independent of whether an English
     translation exists.
@@ -43,7 +43,7 @@ works:
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
     as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
     directly, verified against the vendored file, since it is primary to the movement regardless
     of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
 
@@ -57,7 +57,7 @@ works:
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1905) beyond the already-vendored Imitation of Christ, including his own sermons
     to novices and his life of Lidwina of Schiedam. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text can be primary evidence directly, verified against the vendored file,
     since it is primary to the movement regardless of language; the scan is clean, not flagged
     under Mark''s OCR ruling "a."
@@ -72,7 +72,7 @@ works:
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
     as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
     directly, verified against the vendored file, since it is primary to the movement regardless
     of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
 
@@ -86,7 +86,7 @@ works:
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, this scan dated 1918) beyond the already-vendored Imitation of Christ. Vendored
     2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
+    2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
     primary evidence directly, verified against the vendored file, since it is primary to
     the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
     ruling "a."

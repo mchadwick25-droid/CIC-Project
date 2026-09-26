@@ -451,7 +451,7 @@ TYPE_PROPERTIES: dict[str, dict] = {
         # fleet-wide that predates this field - defaults to "technical",
         # its exact current behavior. Authoring rule, drafted here rather
         # than folded into the L4 template (flagged, not this stage's to
-        # edit: reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md)
+        # edit: Build/reference/L4-Templates/Deployment_Lexicon_Chunk_Template.md)
         # - when writing or reviewing a term's world_word, mark a form
         # "ordinary" if it is a common English word or phrase that could
         # plausibly appear in a participant's or the voice's own ordinary

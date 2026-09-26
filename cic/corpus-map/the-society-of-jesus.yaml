@@ -53,7 +53,7 @@ works:
   note: 'Faber''s own spiritual diary - genuine primary Faber material, not a biography quoting
     him. This world''s corpus previously held only the Boero secondary biography for Faber.
     Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under
-    Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text
+    Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text
     can be primary evidence directly, verified against the vendored file, since it is primary
     to the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
     ruling "a."
@@ -104,7 +104,7 @@ works:
   note: 'One volume of the full 12-vol. MHSI critical edition of Ignatius''s ~7,000 letters,
     dwarfing the already-vendored ~24-letter O''Leary/Goodier English selection. Vendored
     2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
+    2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
     primary evidence directly, verified against the vendored file, since it is primary to
     the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
     ruling "a."
@@ -141,7 +141,7 @@ works:
   note: 'Lainez''s own letters and acts (2nd Superior General). Corrects a prior dossier "genuinely
     closed" verdict, which only checked for an English translation - this Latin primary material
     is PD and available. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
+    pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
     Latin text can be primary evidence directly, verified against the vendored file, since
     it is primary to the movement regardless of language; the scan is clean, not flagged under
     Mark''s OCR ruling "a."
@@ -156,7 +156,7 @@ works:
   note: 'Jeronimo Nadal''s own Gospel annotations and meditations, Latin original (1595) -
     a major first-generation Jesuit theological voice. Correction (2026-09-25): this note
     previously called the file PRIMARY content on the grounds that no PD English translation
-    exists. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    exists. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     an original''s language no longer decides this - scan quality does, and this 1595 print
     is flagged under Mark''s OCR ruling "a" as garbled. It stays second witness for that reason
     until a cleaner edition is vendored - still closing the real gap an earlier dossier pass
@@ -171,7 +171,7 @@ works:
   confidence: assigned
   note: 'Nadal''s own letters, distinct from the already-vendored Adnotationes et Meditationes.
     Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under
-    Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text
+    Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text
     can be primary evidence directly, verified against the vendored file, since it is primary
     to the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
     ruling "a."
@@ -185,7 +185,7 @@ works:
   confidence: assigned
   note: 'Nadal''s own commentary explaining the Jesuit Constitutions to the provinces. Vendored
     2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
+    2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
     primary evidence directly, verified against the vendored file, since it is primary to
     the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
     ruling "a."
@@ -202,7 +202,7 @@ works:
   note: 'Ignatius''s own secretary''s historical chronicle. This volume opens "TOMUS QUINTUS
     (1555)" in its own body text - it covers only 1555, not the order''s founding period a
     "Vol. I" label would suggest. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
-    source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    source-acquisition pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text can be primary evidence directly, verified against the vendored file,
     since it is primary to the movement regardless of language; the scan is clean, not flagged
     under Mark''s OCR ruling "a."
@@ -217,7 +217,7 @@ works:
   note: 'Ribadeneira''s original Latin life of Ignatius, commissioned by the 3rd Superior
     General - an early, primary-adjacent biography by someone who knew Ignatius personally.
     Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Flagged
-    under Mark''s OCR ruling "a" (2026-09-25, worlds/_cross-world/LIBRARY-DECISION-LOG.md)
+    under Mark''s OCR ruling "a" (2026-09-25, Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md)
     as a garbled 1572 scan - stays second witness for scan-quality reasons until a cleaner
     edition is vendored. Its genre (an early biography, not Ignatius''s own voice) is a separate,
     independent reason this row is role: context regardless of scan quality.
@@ -232,7 +232,7 @@ works:
   confidence: assigned
   note: 'Salmeron''s own letters, previously wholly unassessed for this world. The file''s
     own title page reads "TOMUS PRIMUS 1536-1565". Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     this Latin text can be primary evidence directly, verified against the vendored file,
     since it is primary to the movement regardless of language; the scan is clean, not flagged
     under Mark''s OCR ruling "a."
@@ -247,7 +247,7 @@ works:
   note: 'Salmeron''s own letters, continuing the Tomus Primus volume (vendored alongside this
     file) - together spanning 1536-1585 in full. The file''s own title page reads "TOMUS SECUNDUS
     1565-1585". Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
+    pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
     Latin text can be primary evidence directly, verified against the vendored file, since
     it is primary to the movement regardless of language; the scan is clean, not flagged under
     Mark''s OCR ruling "a."
@@ -261,7 +261,7 @@ works:
   confidence: assigned
   note: 'The Society''s own governing document, Latin original (1606 Rome printing) - Correction
     (2026-09-25): this note previously called the file PRIMARY content on the grounds that
-    no PD English translation exists. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    no PD English translation exists. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
     an original''s language no longer decides this - scan quality does, and this 1606 print
     is flagged under Mark''s OCR ruling "a" as garbled. It stays second witness for that reason
     until a cleaner edition is vendored - still closing the real gap an earlier dossier pass

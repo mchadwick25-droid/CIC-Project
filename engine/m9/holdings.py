@@ -19,7 +19,7 @@ library-side file under `cic/corpus-map/`, and to have
 `observe_second_hand_sources` read `cic/texts/AUTHORS.md`/
 `cic/corpus-map/AUTHOR-IDS.yaml` directly instead of its own hand-typed
 `AUTHORS` table. That relocation touches data
-`worlds/_cross-world/gen_corpus_table.py` and several worlds' own
+`Build/worlds/_cross-world/gen_corpus_table.py` and several worlds' own
 Review-Artifacts already depend on - real, separate work, deliberately
 not attempted in the same pass as this report, filed as a named
 remainder rather than silently dropped.

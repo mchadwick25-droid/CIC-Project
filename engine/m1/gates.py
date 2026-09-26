@@ -20,7 +20,7 @@ from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, fields_with_r
 
 FK_CEILING = 10
 
-# Same two numbers reference/method/Pass2-decisions/VR_1A_NorthStar_
+# Same two numbers Build/reference/method/Pass2-decisions/VR_1A_NorthStar_
 # Readability_Target_2026-08-09.md sets for per-turn output (FK <= 10,
 # FRE >= 60), applied here to the record fields that output is built
 # from - not a new or invented threshold. That decision's own band floor
@@ -66,7 +66,7 @@ COMPLETION_REQUIRED = {
     "world_core": ["time_window", "horizon", "formation_logic", "thinness", "cautions"],
     "source": ["author", "work", "edition", "rights_status", "attribution_status", "discovery_channel"],
     # distortion_risk added for the glossary/story/quote modern-
-    # vs-world contrast retrofit (reference/Redesign-Spec/Glossary-Story-Quote-
+    # vs-world contrast retrofit (Build/reference/Redesign-Spec/Glossary-Story-Quote-
     # Template.md) - the retrofit's own trigger fires
     # once the retrofit task is sent to
     # all six threads. false_friend and senses.translational are ALSO
@@ -128,7 +128,7 @@ def _world_front_referenced_ids(rec: dict) -> set[str]:
     here, so a typo'd `grounded_in` id validated cleanly (schema only checks
     it's a string) and resolved silently to nothing at compile time. The
     desert pilot's own manual check (not this gate) is what first caught
-    this gap - see worlds/desert/Open_Gaps_Tracking.md.
+    this gap - see Build/worlds/desert/Open_Gaps_Tracking.md.
     """
     ids: set[str] = set()
 
@@ -243,7 +243,7 @@ def gate_narratability(records, fleet, registry) -> list[str]:
 
 def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
     """The two glossary/story/quote retrofit fields COMPLETION_REQUIRED's
-    flat per-type list can't express correctly (reference/Redesign-Spec/Glossary-
+    flat per-type list can't express correctly (Build/reference/Redesign-Spec/Glossary-
     Story-Quote-Template.md SS1) - same discipline as gate_narratability's
     own dedicated nested checks for story, applied here to term:
 
@@ -658,7 +658,7 @@ VOICE_CRAFT_WORD_CEILING = 900
 # After a trim (2127 -> 1399 words - the record originally
 # carried the Permanent Prompt Template's own backstop paragraphs near-
 # verbatim per check 5d, before that instruction's scope was clarified at
-# the source, reference/L3B-World-Build-Methodology/
+# the source, Build/reference/L3B-World-Build-Methodology/
 # Representative_Permanent_Prompt_Template.txt), closing the remaining
 # 499 words would mean cutting real specifics kept deliberately: the
 # concrete images anchoring "place" (school gate, household table,
@@ -1421,7 +1421,7 @@ GATES = {
     "id-convention": gate_id_convention,
     # gate_quote_mark_fidelity: registered now that all 8
     # built worlds' world_front records exist to actually check (content
-    # migration - see worlds/desert/Open_Gaps_Tracking.md and each other
+    # migration - see Build/worlds/desert/Open_Gaps_Tracking.md and each other
     # world's own build - is what this gate was written for). Deferred at
     # the infrastructure stage specifically because validation/gates-
     # report.json (built by engine.m2.validation.build_gates_report, from
