@@ -6,7 +6,7 @@ This log holds the review-round history, revision rationale, and escalation chec
 
 **Disposition vocabulary in use (per `cic-build-cycle`):** Cleared review / Approved to proceed (self-applied by the build thread when no escalation category applies; claims nothing about completeness or closure) / Frozen (never self-assigned by the build thread; the project lead's own act).
 
-**Standing limitation across every entry below, stated once here rather than repeated three times:** every review round recorded in this log was conducted by this same build thread in a separate adversarial analytical pass, not by an independently spawned model instance — no lightweight subagent-spawning tool with model selection was available in this session, and the only alternative (a full, heavyweight Claude Code Remote session) was judged disproportionate for iterative per-document review. See `Step0_Movement_Scope_Confirmation.md` §6 and `Open_Gaps_Tracking.md` item 3 for the full disclosure. Genuine independent review of all three documents remains a standing, owed item.
+**Standing limitation across every entry below, stated once here rather than repeated three times.** This build thread's own toolset never provided a mechanism to spawn a genuinely separate model instance for adversarial review — no lightweight subagent-spawning tool with model selection was available in this session, and the only alternative (a full, heavyweight Claude Code Remote session) was judged disproportionate for iterative per-document review. See `Step0_Movement_Scope_Confirmation.md` §6 and `Open_Gaps_Tracking.md` item 3 for the full disclosure of that limitation as it stood at drafting time. **That limitation is now satisfied, not standing:** the project lead ran three genuinely independent (Opus) review rounds on Doc_01/Doc_02 (`Review-Artifacts/Independent_Review_Round1.md`, `Round2.md`, and a final targeted recheck), all reflected in the entries below and in `meth_Handoff_Manifest.md` item 2–4's own disposition. Every review round recorded before that point in this log was this build thread's own same-thread pass — disclosed as such at the time, not independent.
 
 ---
 
@@ -19,6 +19,19 @@ This log holds the review-round history, revision rationale, and escalation chec
 - **Escalation check:** none of the four categories applies. Two genuine Article 21 strand questions (Wesleyan/Calvinistic; British/American) and the Moravian cross-world relationship are named as real, open items for Doc_01 — not decided here, and naming an open question is not itself an escalation.
 - **Disposition:** Approved to proceed, self-applied.
 
+### 2026-09-25 — Step 0, Independent Review Round 1 (the first genuinely independent review, substantial revision required)
+
+- **Verdict:** substantial revision required (`Review-Artifacts/Independent_Review_Round1.md`): Zinzendorf's own location at the time of Wesley's 1738 visit was wrong (misstated as Herrnhut itself; he had been banished from Saxony in 1736 and was living at Marienborn, where the two actually met in July 1738, before Wesley's own separate August visit to Herrnhut); the census's own current `statusWord` wording had drifted from what this document quoted; the Sermons volume's own sermon count was wrong (sixteen, not twelve) and Sermon III was misattributed to John Wesley rather than Charles; the Countess of Huntingdon's Connexion was described too loosely as "non-Methodist Evangelicals" rather than a genuinely Calvinistic-Methodist institution; A3's own ring of census neighbours omitted six real entries (VII.2, VII.6, VII.20, VIII.1, VIII.2, VIII.34); the V1.8 Step-0-Conclusion docx cross-check (required by V1.8 itself) had not been performed; several `Open_Gaps_Tracking.md` cross-references pointed to the wrong item numbers.
+- **Fixed in the following revision:** all of the above corrected directly; the V1.8 docx check performed and its finding (no portfolio entry exists for this world in that document) stated.
+- **Escalation check:** none of the four categories applies; none of the corrections changes the Section A/B conclusions or the Tier 1 rating.
+- **Disposition:** Approved to proceed, self-applied (superseding the round-1 disposition above).
+
+### 2026-09-25 — Step 0, Independent Review Round 2 (targeted recheck, cleared on substance)
+
+- **Verdict:** cleared on substance (`Review-Artifacts/Independent_Review_Round2.md`). Remaining findings were mechanical: a stray "items 1 and 16" cross-reference (corrected to "1 and 17"); VIII.4 (the Holiness Movement) and VI.26 (the Remonstrants, the source of Wesley's own "Arminian" label) missing from the A3.4 neighbour list; the remaining-sermon count needing correction to 28 (44 − 16), not "~29"; and repeated process-narration wording in the document body, moved to this log.
+- **Fixed directly, without a new substantial-revision round** (this recheck did not find the document substantial, so it does not consume a round under the cap).
+- **Disposition:** Approved to proceed, self-applied — unchanged.
+
 ### 2026-09-25 — Doc_01 (World Identification, Boundaries, and Orientation)
 
 - **Document:** `Doc_01_World_Identification_Boundaries_Orientation.md`.
@@ -26,6 +39,14 @@ This log holds the review-round history, revision rationale, and escalation chec
 - **Real decisions this document makes, not merely carries forward from Step 0 (round 1 account, superseded by the round-2 correction entry below — kept verbatim as the record of what this build thread claimed at the time, not rewritten):** (1) George Whitefield's own Calvinistic Methodism is a separate, contemporary movement, not a strand of this world (§4) — argued on the Framework's own six-question method, corroborated by the census's own scope (no Whitefield source named, no descendant tradition traced through his line). (2) One world, two strands — British (Wesley, then the Wesleyan Conference) and American (Asbury, the Methodist Episcopal Church from 1784) — bridged by Wesley's own authority until 1791 and by shared doctrine/hymnody, separated by a genuinely different authority structure (connexional/no bishop vs. episcopal) and formation-ecology problem (§5). Neither decision required escalation: both are this world's own scope-determination, on this world's own evidence, touching no other census entry's own boundary.
 - **Escalation check (round 1 account, superseded below):** none of the four categories applies. The Moravian relationship (§7) is stated in full and carried to `Open_Gaps_Tracking.md` item 2 as an open question for a future build thread — this document does not decide policy for VII.4, so this does not cross into the portfolio-level category.
 - **Disposition (round 1 account, superseded below):** Approved to proceed, self-applied.
+
+### 2026-09-25 — Doc_01, Independent Review Round 1 (the first genuinely independent review, substantial revision required)
+
+- **Document:** `Doc_01_World_Identification_Boundaries_Orientation.md`.
+- **Verdict:** substantial revision required (`Review-Artifacts/Independent_Review_Round1.md`; full itemized list also at `Open_Gaps_Tracking.md` item 20), forced by four P0 findings: (1) the six-question test at §4 had inverted and miscounted its own scoring, treating a "No" on gravity emergence as evidence *for* separation rather than against it; (2) a false claim that the census "corroborates" reading Whitefield as outside this world's scope; (3) a wrongly self-cleared escalation, treating the whole Whitefield-allocation question as this world's own scope-determination rather than a portfolio-level decision; (4) a fully invented OCR-defect claim at §2 (the Aldersgate entry's own paragraph numbers wrongly described as garbled day-headings — full account, `Open_Gaps_Tracking.md` item 19). Plus P1/P2 findings: an incomplete Moravian relationship account (missing Böhler, the Fetter Lane founding role, the first-Georgia-contact storm passage); an overstated claim that Wesley's own authority extended undiminished to 1791 (the 1787 Whatcoat episode not disclosed); an overstated "genuinely different practical solutions" claim at §5 (itinerancy and the class meeting were British-connexion mechanisms carried to America, not independently invented there).
+- **Fixed in the following revision:** the six-question test re-argued and corrected; the false corroboration and no-escalation claims withdrawn and the question properly escalated (§9); the OCR-defect claim withdrawn; the Moravian account, Whatcoat episode, and §5 formation claim all corrected.
+- **Escalation check:** the Whitefield-allocation question is a genuine portfolio-level/cross-world decision — escalated at §9, not resolved here.
+- **Disposition:** cleared pending Mark's ruling on the Whitefield allocation question — not "Approved to proceed" outright (superseding the round-1 disposition above).
 
 ### 2026-09-25 — Doc_01, round-2 correction (the census-corroboration and no-escalation claims above are withdrawn)
 
@@ -44,6 +65,14 @@ Independent review round 2 (`Review-Artifacts/Independent_Review_Round2.md`) fou
 - **Escalation check:** none of the four categories applies. The holdings-tool gap is reported as a finding for the coach thread/project lead, not resolved here as a change to the governing process itself.
 - **Disposition:** Approved to proceed, self-applied, for all three documents together.
 
+### 2026-09-25 — Doc_02 set, Independent Review Round 1 (the first genuinely independent review, substantial revision required)
+
+- **Documents:** `Doc_02_Source_Ecology.md`, `Source_Registry.md`, `Source_Acquisition_Manifest.md`.
+- **Verdict:** substantial revision required (`Review-Artifacts/Independent_Review_Round1.md`), forced by: the same invented OCR-defect claim Doc_01 §2 corrected; a voice misattribution (Charles Wesley's own Sermon III filed under John's voice); an institutional-voice misclassification (the Large Minutes filed as Wesley's own first-person voice rather than the post-Wesley Conference's); a sermon-count error (Vol. I holds sixteen sermons, not twelve); an unmeasured and wrong Author Gravity claim about Wesley's own corpus dominance (the corpus is in fact dominated by Asbury, 56.6% by word count); a false claim that Manifest items G1–G3 and G5 had all been added to the shared acquisition queue, when only G1 had; and several V1.8 Step 2 outputs missing entirely (per-file quotability flags, a `cic/corpus-map/PAIRS.yaml` entry, a complete cross-world-overlaps list).
+- **Fixed in the following revision:** all of the above corrected; the corpus-map itself regenerated from corrected `_staging/` files (Sermon III to Charles Wesley's own voice, the Large Minutes to an institutional `wesleyan-conference` voice); Author Gravity rewritten against actual word counts; the Manifest's queue claim corrected to name only G1; quotability flags, a `PAIRS.yaml` entry, and the cross-world-overlaps list added.
+- **Escalation check:** none of the four categories applies.
+- **Disposition:** Approved to proceed, self-applied, for all three documents together (superseding the round-1 disposition above).
+
 ### 2026-09-25 — Doc_02 set, round-2 correction (independent review, round 2 targeted recheck)
 
 Independent review round 2 (`Review-Artifacts/Independent_Review_Round2.md`) found this set still substantial, on a narrower list than Doc_01's. Fixed in this revision:
@@ -59,15 +88,35 @@ Independent review round 2 (`Review-Artifacts/Independent_Review_Round2.md`) fou
 
 No new escalation category is triggered by any of the above — these are factual and consistency corrections, not new decisions. Disposition for Doc_02/Registry/Manifest/corpus-map/`PAIRS.yaml`, together, remains **Approved to proceed, self-applied**, now on a corrected basis.
 
+### 2026-09-25 — Doc_01 and Doc_02 set, round-3 (final) cosmetic/consistency pass
+
+Independent Review Round 3, a final targeted recheck, confirmed the substance settled: "nothing left needs the argument re-made... every remaining item is a wording or consistency fix, or a ruling that only Mark can make." Twelve cosmetic/consistency items were named and applied directly, without a new substantial-revision round (the cap remains at 2):
+
+- **This Decision Log's own Summary section corrected** so it agrees with Doc_01 §9 rather than contradicting it: the six-question distinctness finding is argued, not "decided... no escalation required" outright, since it rests on candidate gravities Doc_04 has not yet confirmed and is itself now part of what is escalated (see below).
+- **Doc_01 §9's own internal contradiction resolved by naming a fourth option, Option D:** defer the whole separation question until Doc_04 settles the two dependent gravities. The escalation now explicitly covers both whether to accept §4's separation finding at all, and, if accepted, how to allocate it (A/B/C) — one consistent framing, not two that talked past each other.
+- **Doc_02 §9 item 3 corrected** from "Native (Registry row 13)" to "Pending (Registry row 13)," matching Registry row 13's own already-corrected status.
+- **The Source Readiness Dossier's orphaned reference to the removed `PAIRS.yaml` entry removed.**
+- **Five Asbury citation/locus corrections:** the v2 "established me in the doctrines" quotation's own end-line corrected to 17964; the v3 "heirs to these" quotation's own start-line corrected to 19338; the v1 line 15477 passage re-glossed accurately (a Huntingdon's-Connexion convert turning Baptist, not a Wesleyan member's own departure); the v2 line 8618 Orphan-House visit re-described without the unsupported gloss "pilgrimage."
+- **Asbury's own death-date arithmetic corrected:** his Journal's 7 December 1815 end-date is under four months before his 31 March 1816 death, not "one year."
+- **The "directly attested" claim for Wesley's own recoil-then-adoption of open-air preaching downgraded**, since it rests on a census story marked "primary text not yet read," not an independently verified primary source.
+- **Doc_01's own header wording corrected** to state "cleared pending Mark's ruling" consistently rather than in two different framings, and its own revision/round numbering scheme clarified (draft-revision count vs. substantial-revision cap count are two different, both-stated axes, not a single inconsistent count).
+- **Source_Registry row 13's voice column made consistent** with its own "Pending" Boundary Status.
+- **Further process narration stripped** from Doc_01/Doc_02 body text per a fresh `tools/check_live_commentary.py` run.
+- **§9 Option B's "neither existing neighbor can actually hold it" softened** to the more precise claim the evidence actually supports (neither is *that specific* line, not that neither touches the material at all — §4 itself leans on VII.10's *seiat* and the 1743 Association as real evidence).
+
+No new escalation category is triggered — these are wording/consistency fixes on already-settled substance, confirmed as such by the round-3 review itself. Disposition for Doc_01 remains "cleared pending Mark's ruling" (now on four options, not three); disposition for the Doc_02 set remains **Approved to proceed, self-applied**.
+
 ---
 
 ## Summary: what this build thread decided on its own authority, and what it left open
 
 **Corrected at round 2 (see the Doc_01 round-2 correction entry above — this summary section is a live cheat-sheet, kept current, not a dated historical entry, so it is corrected directly rather than superseded in place):**
 
-**Decided (this world's own scope-determination, no escalation required):** Whitefield's own post-1741 organized Calvinistic Methodism is institutionally and doctrinally distinct from Wesley's connexion, on the Framework's own six-question test (Doc_01 §4) — this specific six-question finding stands and required no escalation. British/American as two strands of one world (Doc_01 §5); the registry code `meth` (no collision); the doorway event and date (24 May 1738, Aldersgate).
+**Decided (this world's own scope-determination, no escalation required):** British/American as two strands of one world (Doc_01 §5); the registry code `meth` (no collision); the doorway event and date (24 May 1738, Aldersgate).
 
-**Escalated, not decided (a genuine portfolio-level/cross-world decision, per `cic-build-cycle`'s own categories):** how Whitefield's own post-1741 institutional legacy should be allocated across this world's own census entry and its neighbors (VII.6, VII.10, a possible new Huntingdon Connexion entry) — Doc_01 §9, three named options, the project lead's own ruling pending. Doc_01 is disposed "cleared pending Mark's ruling on the Whitefield allocation question," not "Approved to proceed" outright, until this is resolved.
+**Argued but not decided by this build thread (Doc_01 §4's own six-question finding):** Whitefield's own post-1741 organized Calvinistic Methodism has real grounds — chiefly authority, with a real but singular doctrinal divergence alongside it — for being read as institutionally distinct from Wesley's connexion. **This finding is not itself escalation-free**, corrected here to agree with Doc_01 §9: it rests on candidate gravities Doc_04 has not yet confirmed, and Doc_01 §9's own escalation to the project lead now covers both whether to accept this separation finding at all (Option D) and, if accepted, how to allocate the resulting distinctness (Options A/B/C) — not, as an earlier account here stated, a settled finding with only the allocation left open.
+
+**Escalated, not decided (a genuine portfolio-level/cross-world decision, per `cic-build-cycle`'s own categories):** whether Doc_01 §4's own separation finding should be accepted at all, and if so, how Whitefield's own post-1741 institutional legacy should be allocated across this world's own census entry and its neighbors (VII.6, VII.10, a possible new Huntingdon Connexion entry) — Doc_01 §9, four named options (A/B/C on allocation, D deferring the whole question until Doc_04 reports), the project lead's own ruling pending. Doc_01 is disposed "cleared pending Mark's ruling on the Whitefield allocation question," not "Approved to proceed" outright, until this is resolved.
 
 **Named as open, not decided (correctly left for a future thread or the project lead):** the Moravian Church at Herrnhut's own eventual relationship-characterization (a future VII.4 build thread's or the project lead's call); Living Tradition Status confirmation (the project lead's own act, later); the Representative-structure question — single-figure or multi-figure, and which strand(s) — reserved for Step 10 per this build's own escalation categories.
 
