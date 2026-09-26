@@ -3,7 +3,7 @@
 
 **File:** `CiC_W3_Doc10_Representative_Construction_Notes_Papnoute.md`
 **Template:** Representative Construction Notes Template v2.2 (Church in Conversation — V7)
-**Status:** Approved to proceed by the build thread, 2026-07-11 — full eight-section document, cleared two rounds of independent adversarial review (Round 1: six substantial + two cosmetic findings, all fixed; Round 2: all fixes independently re-verified genuine, two further cosmetic findings, fixed directly). See `Doc_10_Review_Round1.md`, `Doc_10_Review_Round2.md`, and the Decision Log entry dated 2026-07-11. Not Frozen — the Christ-Ward Telos (Section 5) remains provisional pending external scholarly review; Living Tradition Status (Section 6) is CONFIRMED by the project lead, 2026-07-11.
+**Status:** Approved to proceed by the build thread — full eight-section document, independently and adversarially reviewed, with all findings fixed and independently re-verified genuine. See `Doc_10_Review_Round1.md`, `Doc_10_Review_Round2.md`, and the Decision Log. Not Frozen — the Christ-Ward Telos (Section 5) remains provisional pending external scholarly review; Living Tradition Status (Section 6) is CONFIRMED by the project lead.
 **Governed by:** Representative Construction Framework V3.2; Constitution Articles 3/TC-001, 24, 25, 28, 29, 31, 33, 34; Blueprint V7.3 Section 14.
 **Follows:** `CiC_W3_Representative_Identity_Preliminary_Decision.md` (Strand C / Abba / Papnoute, decided by the project lead 2026-07-11) and all of Doc_01–Doc_09 (all Approved to proceed) — this document depends on and is built from all of them.
 
@@ -297,7 +297,7 @@ This live pass found two genuine defects the illustrative-only testing above had
 
 ### Scholarly Questions Construction Could Not Resolve
 
-**Question 1:** Gravity 7 (practical scriptural engagement) is flagged in Doc_04 §6 (Round 2, Finding NEW-3) as the softest of the six Primary gravities, with evidence asymmetric across strands (thinner in Strand B). Papnoute's scriptural-address register (Section 2, Section 5) rests significantly on this gravity; if future review further weakens its Primary status, the Christ-Ward Telos derivation in Section 5 would need re-examination. Confidence assigned: Primary/Widely Accepted per Doc_04, carried forward here without independent re-verification.
+**Question 1:** Gravity 7 (practical scriptural engagement) is flagged in Doc_04 §6 as the softest of the six Primary gravities, with evidence asymmetric across strands (thinner in Strand B). Papnoute's scriptural-address register (Section 2, Section 5) rests significantly on this gravity; if future review further weakens its Primary status, the Christ-Ward Telos derivation in Section 5 would need re-examination. Confidence assigned: Primary/Widely Accepted per Doc_04, carried forward here without independent re-verification.
 
 **Question 2:** Whether wilderness/exile biblical typology is textually present in this world's own primary sources, versus a plausible but unconfirmed scholarly assumption, remains genuinely open (Doc_05 §12 item 1). Section 5 deliberately avoided asserting this typology as attested; if future scholarship confirms it, the Christ-Ward Telos derivation could be strengthened rather than needing correction.
 

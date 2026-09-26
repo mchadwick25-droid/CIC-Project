@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism**
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 2 review cleared with nothing substantial outstanding; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_04, not a claim of completeness or a project-lead sign-off.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (independently reviewed, nothing substantial outstanding; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_04, not a claim of completeness or a project-lead sign-off.
 
 **Governed by:** Formation World Construction Framework V7.3, Part III (Lexicon Development section) and Step 3; Constitution Article 26; Doc_01 and Doc_02 (both Approved to proceed).
 

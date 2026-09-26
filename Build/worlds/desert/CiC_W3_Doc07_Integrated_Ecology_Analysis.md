@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism**
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 2 review CLEARED, exhaustively verified against this build's Doc_04/Doc_06 pattern of illusory fixes; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_08, not a claim of completeness or a project-lead sign-off.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (independently and exhaustively reviewed; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_08, not a claim of completeness or a project-lead sign-off.
 
 **Governed by:** Formation World Construction Framework V7.3, Step 7; Forces Framework Step 7; Doc_01–Doc_06 (all Approved to proceed).
 
@@ -72,7 +72,7 @@ This world's material record is unusually rich relative to most formation worlds
 
 ---
 
-## 10. Forces carried forward (Forces Framework Step 7) — **heading softened per Round 2 review's optional observation**, to avoid reading as a tenth ecology-derived lens; Forces is treated separately from Sections 1–9's nine lenses throughout this document, per the Framework's own distinction between ecology-derived lenses and the Forces carry-forward to Doc_08
+## 10. Forces carried forward (Forces Framework Step 7) — Forces is treated separately from Sections 1–9's nine lenses throughout this document, per the Framework's own distinction between ecology-derived lenses and the Forces carry-forward to Doc_08
 
 What this world was responding to, what pressed from outside, and what fractured from within — carried forward, not resolved, for Doc_08's formal compilation:
 

@@ -1,14 +1,14 @@
 # Step 0 — Movement-Scope Confirmation: The Reformed Cities — Zurich & Geneva
 
-**Status:** DRAFT, Revision 1. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md`). **This document has not been independently reviewed** — treat every finding below as a considered first pass, not a verified conclusion. **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
+**Status:** DRAFT. Prepared at the project lead's direct request, one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/the-reformed-cities-zurich-and-geneva_Source_Readiness_Dossier.md`). **This document has not been independently reviewed** — treat every finding below as a considered first pass, not a verified conclusion. **Not self-disposed. Not Approved to proceed.** Advisory work product for the project lead's own consideration; no build thread has been opened under `cic-build-cycle`.
 **World file-code:** none assigned — not yet selected.
 **Census reference:** Atlas ID VI.2, `cic-website/data/world-census.json`, status "Pre-Survey Candidate."
-**Date drafted:** 2026-09-15.
+**Date drafted:** 2026-09-15
 **Governed by:** Constitution V2.3 Article 4; `CiC_L3B_Step0_Movement_Scope_Methodology_V1.0.docx` Section A and Section B. Article 4's five commitments, quoted verbatim wherever this document must characterize one: (1) "One God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen." (2) "Jesus Christ as the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten not made, of one Being with the Father." (3) "Jesus Christ as truly human — incarnate of the Holy Spirit and the Virgin Mary, 'became truly human.'" (4) "Christ's death under Pontius Pilate, burial, bodily resurrection on the third day, ascension, and his return in glory to judge the living and the dead." (5) "The Holy Spirit as Lord and giver of life, worshiped and glorified together with the Father and the Son."
 
 ## 0. Purpose and relationship to the existing Step 0 record
 
-Selected directly by Mark from the Era VII survey roster, 2026-09-15, on the same named criteria as its five batch-mates (§0 of the Lutheran Wittenberg sibling document): build strength, contrast and alignment with already-built worlds, diversity across the batch, source quality. Chosen specifically as the magisterial-Swiss counterpart to Lutheran Wittenberg's magisterial-German case — genuinely different in origin, church order, and (per the dossier) internal structure, not a redundant second Protestant world.
+Selected directly by the project lead from the Era VII survey roster, on the same named criteria as its five batch-mates (§0 of the Lutheran Wittenberg sibling document): build strength, contrast and alignment with already-built worlds, diversity across the batch, source quality. Chosen specifically as the magisterial-Swiss counterpart to Lutheran Wittenberg's magisterial-German case — genuinely different in origin, church order, and (per the dossier) internal structure, not a redundant second Protestant world.
 
 ## 1. Candidate identification
 
@@ -36,7 +36,7 @@ Real and disclosed, shared with this batch's Lutheran Wittenberg sibling documen
 
 ### A4 — Hand-selected inclusion: invoked
 
-Mark selected this candidate directly, 2026-09-15, per §0 above.
+The project lead selected this candidate directly, per §0 above.
 
 ### A5 — Interaction with Articles 20, 21, and 23
 

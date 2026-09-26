@@ -2,7 +2,7 @@
 
 WHAT THIS SCRIPT DOES. Converts this world's completed Phase A documents
 (Doc_01 through the World Profile, Validation Layer, and full Representative
-package - all Approved to proceed, handed off by the build thread 2026-09-18)
+package - all Approved to proceed, handed off by the build thread)
 into WRS records under records/rzg/{source,world_core}/, per the live schema
 (engine/m1/schemas.py) and gate battery (engine/m1/gates.py). This is the
 FIRST record-authoring pass for this world; no `rzg` records existed anywhere
@@ -61,8 +61,8 @@ matches cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml's own
 id prefix (`rzg`), the world_id, and the census join all read consistently.
 
 TIME_WINDOW: start 1519, end 1650. Both years are Doc_01's own confirmed,
-unambiguous figures (the census's own already-decided Era 7 Freeze window,
-2026-08-02) - unlike don's own doubled 311/312 opening, there is no
+unambiguous figures (the census's own already-decided Era 7 Freeze window)
+- unlike don's own doubled 311/312 opening, there is no
 disclosed date ambiguity to carry into `horizon` here; the only thing
 `horizon` must state plainly is that 1650 is an administrative
 continues-cap for a still-living tradition, not a historical rupture
@@ -252,10 +252,10 @@ ROWS: list[dict] = [
         cite="B", verif="verified-via-authority", weight="load-bearing", formation="Documented",
         divergence="This row is a collective bucket, not an itemized table of contents - do not cite it as "
                    "though every named component were independently checked (Source_Registry.md row 7's own "
-                   "Comparandum Note). Licensed range updated at Doc_04 Round 1 review to 1522-1527 (the "
+                   "Comparandum Note). Licensed range is 1522-1527 (the "
                    "Refutation's own dated heading extends past the row's originally-stated 1522-1523 "
-                   "range); the Refutation's own 'On Election' section (lines approx. 9591-9762) was "
-                   "independently re-verified against the file directly at that review, distinct from the "
+                   "range); the Refutation's own 'On Election' section (lines approx. 9591-9762) is "
+                   "independently verified against the file directly, distinct from the "
                    "rest of this row's own un-itemized contents.",
         body="Zurich's own reform record, 1522-1527; election/predestination doctrine per Doc_04 SS3.1 - "
              "the 'On Election' passage grounds rzglex001's own Zurich-strand voice. Locus named (whole "
@@ -324,8 +324,7 @@ ROWS: list[dict] = [
                    "doctrinal continuity not independently verified this pass (Doc_02 SS1, SS8). This same "
                    "file's own apparatus (lines 2751, 2869, 2878) quotes the Synod of Dort's 148th Session "
                    "(1 May 1619) verdict approving this Catechism, a real vendored touch-point with Dort "
-                   "distinct from the Zurich/Geneva delegation question (Doc_01 SS7, updated at Doc_02 "
-                   "Round 2 review). Joint authorship traditional, not independently adjudicated - do not "
+                   "distinct from the Zurich/Geneva delegation question (Doc_01 SS7). Joint authorship traditional, not independently adjudicated - do not "
                    "cite this row as settling that question.",
         body="Verified directly against the vendored file at the cited section, per Source_Registry.md's "
              "own Verification Note. Corroborating rather than load-bearing: this world's own boundary is "

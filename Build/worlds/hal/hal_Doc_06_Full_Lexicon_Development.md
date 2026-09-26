@@ -225,7 +225,7 @@
 **Modern Hearing:** Risk of conflating this early, well-documented grammatical training with the later, more contested claims about Hebrew mastery, as though both were equally certain.
 **World Hearing:** Two genuinely different confidence levels — the grammar training is solidly attested; the Hebrew fluency it supposedly enabled is separately, and seriously, contested (Doc_01 §3.1, Doc_02 §4).
 
-**Key Sources:** Jerome's own references to Donatus as "praeceptor" — Documented per Doc_01 Round 1 correction (grammar training, not rhetoric specifically).
+**Key Sources:** Jerome's own references to Donatus as "praeceptor" — Documented (grammar training, not rhetoric specifically).
 
 ---
 
@@ -257,7 +257,7 @@
 **Modern Hearing:** Risk of conflating this with the travelers' hospice, or assuming a modern hospital's institutional scale and staffing.
 **World Hearing:** A genuinely novel act of charitable founding, on a scale this document does not independently verify (Doc_02 §1.5), but real and Rome-based, distinct from any Bethlehem institution.
 
-**Key Sources:** Jerome, Ep. 77.6, verified directly against critical text (Perseus): *"Et primo omnium νοσοκομεῖον instituit, in quo aegrotantes colligeret de plateis"* — Jerome leaves the term in Greek script. **This document corrects an earlier, fabricated version of this citation caught and fixed during Doc_03's addendum review — see `hal_Doc_03_Addendum_Review_Round1.md`/`Round2.md`; the text above is independently re-verified, not carried forward uncritically.**
+**Key Sources:** Jerome, Ep. 77.6, verified directly against critical text (Perseus): *"Et primo omnium νοσοκομεῖον instituit, in quo aegrotantes colligeret de plateis"* — Jerome leaves the term in Greek script.
 
 ---
 
@@ -283,7 +283,7 @@
 
 **Quick Meaning:** The paired men's and women's monastic communities at Bethlehem, organizationally distinct but geographically and functionally linked.
 
-**World Meaning:** Two households, under one project, sharing a place but not a roof: the men directed by the scholar, the women by the widow and then her daughter. **[anachronism caveat, carried from Doc_01 Round 1 Finding C1: "double monastery" as a formal institutional category is more properly a later medieval term; this world's own arrangement is real, but the label applied to it here is convenient modern shorthand, not this world's own technical vocabulary.]**
+**World Meaning:** Two households, under one project, sharing a place but not a roof: the men directed by the scholar, the women by the widow and then her daughter. **[anachronism caveat: "double monastery" as a formal institutional category is more properly a later medieval term; this world's own arrangement is real, but the label applied to it here is convenient modern shorthand, not this world's own technical vocabulary.]**
 
 **Ecological Function:** Organizational bedrock alongside *patrocinium* (Part A entry 6).
 

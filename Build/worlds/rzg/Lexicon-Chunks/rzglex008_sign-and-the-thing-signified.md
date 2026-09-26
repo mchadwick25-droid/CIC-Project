@@ -45,7 +45,7 @@ Exactly that suspicion is a live, unresolved contest this world's own record doe
 
 ## Key Sources
 
-The Consensus Tigurinus, 9th Head of Agreement (`calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt`, lines 768–770, independently re-verified verbatim): "Wherefore, though we distinguish, as we ought, between the signs and the things signified, yet we do not disjoin the reality from the signs." (Leading "Wherefore" restored — corrected at Doc07 Round 1 review, which found it silently dropped here and elsewhere in this world's build, logged in `Open_Gaps_Tracking.md`.) The document's own title page (independently re-verified, Doc_02 §2): "the Ministers of the Church of Zurich" and "John Calvin, Minister of the Church of Geneva."
+The Consensus Tigurinus, 9th Head of Agreement (`calvin-zurich-pastors_consensus-tigurinus-mutual-consent-sacraments_beveridge1844.txt`, lines 768–770, independently re-verified verbatim): "Wherefore, though we distinguish, as we ought, between the signs and the things signified, yet we do not disjoin the reality from the signs." (Leading "Wherefore" included, per `Open_Gaps_Tracking.md`.) The document's own title page (independently re-verified, Doc_02 §2): "the Ministers of the Church of Zurich" and "John Calvin, Minister of the Church of Geneva."
 
 Note: the source's own heading for this Head of Agreement is plural ("THE SIGNS AND THE THINGS SIGNIFIED NOT DISJOINED BUT DISTINCT"); the singular candidate name above is the standard theological shorthand — both forms are carried in this entry's own Aliases.
 

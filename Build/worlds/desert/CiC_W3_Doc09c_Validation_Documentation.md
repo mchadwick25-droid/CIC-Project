@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism**
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 2 review CLEARED the combined Doc_09a/b/c bundle, including an independent recount of this document's own "18 review rounds" claim; no escalation trigger applies). This is a lightweight go-ahead, not a claim of completeness or a project-lead sign-off, and explicitly NOT Frozen — see this document's own §4/§5 findings on unperformed Validation Layer gates.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (the combined Doc_09a/b/c bundle was independently reviewed and cleared, including an independent recount of this document's own "18 review rounds" claim; no escalation trigger applies). This is a lightweight go-ahead, not a claim of completeness or a project-lead sign-off, and explicitly NOT Frozen — see this document's own §4/§5 findings on unperformed Validation Layer gates.
 
 **Governed by:** Formation World Blueprint, Section 17 (Validation Documentation); Construction Framework V7.3, Part VI (Validation & Testing) and Step 9; Doc_01–Doc_08, Doc_09a, Doc_09b (all Approved to proceed or drafted alongside).
 

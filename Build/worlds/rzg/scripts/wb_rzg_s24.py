@@ -111,8 +111,7 @@ STORIES: list[dict] = [
             "primary preface and mandate, not drawn from the interleaved fragment alone."
         ),
         body=(
-            "Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09 "
-            "Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person "
+            "Built from Story-Chunks/rzgstory001_first-zurich-disputation.md (Approved to proceed, Doc_09). AUTHORED: text recasts the chunk's own Story Text into this world's own first-person "
             "register; tellable_as further compresses that into a single spoken-register sentence, a "
             "genuinely separate authored field, not a duplicate. modern_contrast draws on the chunk's own "
             "Usage Guidance and Doc_04's own Disputation-adjacent Distortion Risk framing."
@@ -154,7 +153,7 @@ STORIES: list[dict] = [
         ),
         body=(
             "Built from Story-Chunks/rzgstory002_calvins-journey-to-zurich.md (Approved to proceed, "
-            "Doc_09 Round 2). AUTHORED: text recasts the chunk's own Story Text into this world's own "
+            "Doc_09). AUTHORED: text recasts the chunk's own Story Text into this world's own "
             "first-person register; tellable_as further compresses that into a single spoken-register "
             "sentence, a genuinely separate authored field, not a duplicate. modern_contrast draws on the "
             "chunk's own Formation Ecology Connection (a specific human journey behind an abstract "
@@ -201,8 +200,7 @@ STORIES: list[dict] = [
         ),
         body=(
             "Built from Story-Chunks/rzgstory003_myconius-account-of-zwinglis-death.md (Approved to "
-            "proceed, Doc_09 Round 2 - this chunk was itself added at Round 1 review, correcting a "
-            "false claim that no vendored source narrated Zwingli's own death). AUTHORED: text recasts "
+            "proceed, Doc_09). AUTHORED: text recasts "
             "the chunk's own Story Text into this world's own first-person register; tellable_as further "
             "compresses that into a single spoken-register sentence, a genuinely separate authored field, "
             "not a duplicate. modern_contrast draws on the chunk's own Tier Justification hedges."

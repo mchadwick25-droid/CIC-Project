@@ -3,7 +3,7 @@
 
 **World-code:** `hal`
 **Status:** Draft for project-lead decision. No option below has been selected or acted on.
-**Prepared:** 2026-07-12.
+**Prepared:** 2026-07-12
 **Governed by:** L3C Representative Construction Framework V3.2 Part Four (Identity Determination); Construction Framework V7.3, "A representative voice speaks in this world's own register, weighted by where the world's own documented life actually concentrated"; standing project rule that naming/identity decisions are never self-assigned by a build thread.
 
 ---
@@ -20,7 +20,7 @@
 
 ## 2. The tension this decision must resolve
 
-The Step 0 brief's binding instruction — "the case should be built around that fuller ecology rather than around Jerome as a single scholarly figure" — governed the **world construction** (Docs 01–09), which has been built accordingly: the women anchor two of three Primary gravities, and every document in this build has been reviewed specifically to catch and correct Jerome-centering drift when it appeared (Doc_04's Round 1/2 review of the Marcella strand-tension resolution is the clearest example). That mandate has been substantively honored in the completed ecology.
+The Step 0 brief's binding instruction — "the case should be built around that fuller ecology rather than around Jerome as a single scholarly figure" — governed the **world construction** (Docs 01–09), which has been built accordingly: the women anchor two of three Primary gravities, and every document in this build has been reviewed specifically to catch and correct Jerome-centering drift when it appeared (Doc_04's own resolution of the Marcella strand-tension question is the clearest example). That mandate has been substantively honored in the completed ecology.
 
 **Representative emergence is a separate, later step** (Constitution Article 3/TC-001: built only from the completed ecology, never invented biography), and per the Representative Construction Framework, the Representative "serves the world" — it does not have to be Jerome merely because Jerome is well-attested, but it also is not barred from being Jerome if the completed ecology genuinely supports that choice better than the alternatives. This decision is about which construction choice best serves the *already-built* ecology, not about re-litigating the world-construction mandate.
 

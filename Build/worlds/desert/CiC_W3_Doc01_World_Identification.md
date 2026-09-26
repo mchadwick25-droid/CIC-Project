@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism**
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 2 review cleared with nothing substantial outstanding; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_02, not a claim of completeness or a project-lead sign-off.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (independently reviewed, nothing substantial outstanding; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_02, not a claim of completeness or a project-lead sign-off.
 
 **Governed by:** Formation World Construction Framework V7.3, Part I; Constitution Articles 21 and 22; Step 0 Conclusion (FINAL_v2), World #3 entry.
 
@@ -25,7 +25,7 @@ What makes this a distinct formation world, rather than an undifferentiated exte
 
 ### 2.1 Beginning point: Step 0's inherited floor is "c. 320s onward" — tested against the evidence
 
-Step 0 Conclusion FINAL_v2 sets this world's floor at "c. 320s onward," which corresponds most precisely to Pachomius's founding of the first cenobitic community at Tabennesi in the Thebaid (Upper Egypt). The scholarly range for that founding is c. 318–323, most often placed c. 320; this document uses c. 320 as its working date. **Softened per Round 1 review, Finding 5:** both ~320 and ~323 circulate as genuine scholarly estimates rather than a clean scholarly/popular split, and this document does not overstate the precision of the distinction between them. [Well-established as to the general c. 318–320 range; the specific founding narrative — Pachomius acting on a vision, joined immediately by his brother John and then by additional companions — comes down through hagiographic *Lives* whose historical reliability for specific incident-level detail is independently flagged in Section 10.]
+Step 0 Conclusion FINAL_v2 sets this world's floor at "c. 320s onward," which corresponds most precisely to Pachomius's founding of the first cenobitic community at Tabennesi in the Thebaid (Upper Egypt). The scholarly range for that founding is c. 318–323, most often placed c. 320; this document uses c. 320 as its working date. Both ~320 and ~323 circulate as genuine scholarly estimates rather than a clean scholarly/popular split, and this document does not overstate the precision of the distinction between them. [Well-established as to the general c. 318–320 range; the specific founding narrative — Pachomius acting on a vision, joined immediately by his brother John and then by additional companions — comes down through hagiographic *Lives* whose historical reliability for specific incident-level detail is independently flagged in Section 10.]
 
 This floor is defensible as the point at which Egyptian asceticism becomes a **replicable social form** — an organized, rule-governed community that others could join and that could itself found daughter houses — rather than an individual's idiosyncratic practice. By Pachomius's death in 346, the community he founded had grown to nine houses for men and two for women, with a membership numbering in the low thousands. [Well-established, though "two or three thousand" figures transmitted by the *Lives* should be read as an order-of-magnitude indicator rather than a precise census.]
 

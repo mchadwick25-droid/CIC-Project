@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism**
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 2 review CLEARED the combined Doc_09a/b/c bundle; no escalation trigger applies). This is a lightweight go-ahead, not a claim of completeness or a project-lead sign-off, and explicitly NOT Frozen — see this document's own §5 Freeze Assessment.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (the combined Doc_09a/b/c bundle was independently reviewed and cleared; no escalation trigger applies). This is a lightweight go-ahead, not a claim of completeness or a project-lead sign-off, and explicitly NOT Frozen — see this document's own §5 Freeze Assessment.
 
 **Governed by:** Formation World Blueprint, Section 16 (World Synthesis); Construction Framework V7.3, Step 9; Doc_01–Doc_08 and Doc_09a (all Approved to proceed, except Doc_09a which is drafted alongside this document for combined review).
 

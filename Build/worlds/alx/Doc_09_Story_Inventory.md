@@ -86,7 +86,7 @@ The world-level Part VI categories are run against the cleared construction reco
 | Complexity | **PASS** | tensions/ambiguities preserved — the four Tensional gravities held, not resolved (Arts. 15/16) |
 | Emergence | **PASS** | dimensions interact meaningfully (the cross-gravity interactions, Doc_07 §4; the forces cross-cell connections, Doc_08 §4) |
 | Worship Integration | **PASS** | worship reconstructed as inhabited environment and given its ecological role, not artificially elevated (Doc_05 §3) |
-| Differentiation | **PASS** | distinct from Antioch (hermeneutics/Christology) and the (held-open) Desert world, per Doc_01 §3.4's own adjacent-worlds argument; shared inheritance functions distinctively. (Round 2 correction: the row previously also named "the Syriac world" — struck, as no differentiation argument against it appears anywhere in this world's own cleared record, Doc_01–08; the world's only reference to Syriac is `alex_World_Profile.md`'s citation of the Syriac World Profile as a formatting model, not a differentiation comparandum. The PASS determination is unaffected — Antioch and the Desert world carry it on solid citation.) |
+| Differentiation | **PASS** | distinct from Antioch (hermeneutics/Christology) and the (held-open) Desert world, per Doc_01 §3.4's own adjacent-worlds argument; shared inheritance functions distinctively. The world's only reference to Syriac is `alex_World_Profile.md`'s citation of the Syriac World Profile as a formatting model, not a differentiation comparandum — no differentiation argument against the Syriac world appears anywhere in this world's own cleared record, Doc_01–08. |
 | Author Dominance | **PASS (with standing flag)** | Origen SYSTEMIC and Eusebius HIGH-risk concentrations named and bounded throughout (Doc_02/04/08) — the flag *is* the correct handling, not a defect to resolve |
 | Anachronism | **PASS** | the 553 condemnation not read back into the horizon; the pre-/post-Nicene distinction held; no hindsight or imported assumptions (Article 18) |
 
@@ -102,4 +102,4 @@ The **world-level Validation Layer is complete** for a pre-Representative world:
 
 ---
 
-*End Doc_09 Story Inventory + Validation Layer. Companion: `Story_Index.xlsx`; sibling: `alex_World_Profile.md`. Reviewed (Round 1: CLEARED). Approved to proceed by this build thread, 2026-07-17. **This is the final document of the Doc_01–09 pipeline and this thread's stopping point** — Step 10 (Representative Emergence) is not begun and belongs to the project lead. The world is not frozen.*
+*End Doc_09 Story Inventory + Validation Layer. Companion: `Story_Index.xlsx`; sibling: `alex_World_Profile.md`. Reviewed and cleared on independent adversarial review. Approved to proceed by this build thread. **This is the final document of the Doc_01–09 pipeline and this thread's stopping point** — Step 10 (Representative Emergence) is not begun and belongs to the project lead. The world is not frozen.*

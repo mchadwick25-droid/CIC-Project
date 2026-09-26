@@ -44,23 +44,17 @@ and .flavor_notes below are this compilation's own compressed, schema-
 appropriate rendering, not a claim that the deployed prompt itself has
 been shortened.
 
-REVISION (readability + prompt-budget, root-cause pass): engine.m1.gates'
-gate_readability and gate_voice_craft_prompt_budget both landed on main
-(PR #301, 2026-09-19) after this record was first built, and this world's
-own package was never swept against them - 9 fields over FK_CEILING=10,
-identity+guard+flavor_notes+characteristic_concerns at 1120 words against
-the 900-word VOICE_CRAFT_WORD_CEILING. Every field below rewritten in
-place, same discipline as don's and gallic's own fixes for the identical
-gate (read in full before this pass): long em-dash/colon-joined clauses
-split into short declarative sentences, redundant phrasing cut, every
-named fact, date, city, and doctrinal point kept. guard's own safety-
-critical prohibition (the Track-B categorical "never says anything about
-outside help..." line, this session's own earlier BLOCKING fix) is
+FIELD-LENGTH DISCIPLINE: identity, guard, flavor_notes, and
+characteristic_concerns together must stay under engine.m1.gates'
+gate_readability FK_CEILING and gate_voice_craft_prompt_budget's
+900-word VOICE_CRAFT_WORD_CEILING. Every field below is written to that
+budget: long em-dash/colon-joined clauses split into short declarative
+sentences, redundant phrasing cut, every named fact, date, city, and
+doctrinal point kept. guard's own safety-critical prohibition (the
+Track-B categorical "never says anything about outside help..." line) is
 preserved word-for-word - re-punctuated into short sentences only, no
-instruction reworded, dropped, or added; checked directly, side by side
-against the prior text, before this pass was called done. Result: 1120 ->
-888 words (21% cut), gate_readability and gate_voice_craft_prompt_budget
-both report 0 findings for this record.
+instruction reworded, dropped, or added. gate_readability and
+gate_voice_craft_prompt_budget both report 0 findings for this record.
 """
 from __future__ import annotations
 

@@ -75,17 +75,16 @@ Follow-ups: "Who do you meet when the goods change hands?" · "Does the money ch
 **Thoughts that won't stop** — Unwanted, intrusive thoughts are this world's primary battlefield; it treats them as significant rather than shameful, and as something to be disclosed, not hidden. [Doc_04 G2; lex004]
 *Opening question:* "Did anyone out there struggle with thoughts they couldn't turn off?"
 Follow-ups: "What did they actually do when one kept coming back?" · "Did the strongest among you still have them?" · "Was having the thought treated as a fault, or just as the work?"
-<!-- Opener rephrased 2026-07-16 (Guided Questions thread; see
-CiC_Guided_Questions_Calibration_Results_V0_1.md §4). The previous opener — "I have
-thoughts I can't turn off — dark ones, sometimes" — was tested live and fired the
-relational-safety classifier on click: Papnoute never spoke, and the participant was
-triaged for accepting the house's own invitation. A starter is turn zero, with no prior
-transcript for the classifier's gentlest category to anchor to, so first-person
-present-tense distress phrasing reads as a disclosure. World-framed carries the
-identical content and is not a disclosure. A participant who genuinely wants to
-disclose can still type it themselves — and then the intercept is correct, because then
-it is real. The dropped follow-up ("Does having the thought mean something is wrong with
-me?") was Mark's §7.3 ruling, and is also the turn that sustained the intercept. -->
+<!-- Opener kept world-framed rather than first-person-distress-phrased (see
+CiC_Guided_Questions_Calibration_Results_V0_1.md §4): a first-person, present-tense
+distress phrasing such as "I have thoughts I can't turn off — dark ones, sometimes"
+fires the relational-safety classifier on click, since a starter is turn zero, with no
+prior transcript for the classifier's gentlest category to anchor to, so that phrasing
+reads as a disclosure. World-framed carries the identical content and is not a
+disclosure. A participant who genuinely wants to disclose can still type it
+themselves — and then the intercept is correct, because then it is real. The follow-up
+"Does having the thought mean something is wrong with me?" is dropped for the same
+reason, per the project lead's §7.3 ruling. -->
 
 
 **Wanting to give up** — The tradition names the wish to be somewhere else — restlessness, despondency, the noon-day weariness — among the thoughts it watched most carefully. [lex004 (the eight-fold taxonomy incl. listlessness/despondency, flagged as one teacher's systematization); Permanent Prompt]

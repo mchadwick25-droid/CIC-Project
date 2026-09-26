@@ -3,7 +3,7 @@
 **World #3: Desert Monasticism**
 **World-code:** `desert`
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 3 review CLEARED with an exhaustive, non-sampled trace of the reciprocity graph and chunk parity, after two prior rounds' "completed" claims had not held up under full verification; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_07, not a claim of completeness or a project-lead sign-off.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (independently reviewed with an exhaustive, non-sampled trace of the reciprocity graph and chunk parity; no escalation trigger applies). This is a lightweight go-ahead unblocking Doc_07, not a claim of completeness or a project-lead sign-off.
 
 **Governed by:** Interpretive Lexicon Development Framework V2.1; Formation World Construction Framework V7.3, Part III (Lexicon Development) and Step 6; Constitution Articles 17, 26, 28–30; Doc_01–Doc_05 (all Approved to proceed).
 
@@ -35,7 +35,7 @@
 
 **Key Sources:** Doc_02 §1.1 (Athanasius); Doc_02 §5.1 (Kellia's archaeological corroboration of the settlement pattern withdrawal produced).
 
-**Related Terms:** *Apotagē* (1.2, the entry act into withdrawal); *Xeniteia* (2.1, a related but distinct discipline of estrangement); *Gerōn/Abba/Amma* (1.6, the authority structure withdrawal produces); *Hēsychia* (1.3); *Kellion* (2.7); *Cheirōnaxia/Ergocheiron* (1.7). **(Reciprocity trace completed per Round 2 review, Finding N2 — the earlier Round 1 pass omitted this back-reference despite claiming completion.)**
+**Related Terms:** *Apotagē* (1.2, the entry act into withdrawal); *Xeniteia* (2.1, a related but distinct discipline of estrangement); *Gerōn/Abba/Amma* (1.6, the authority structure withdrawal produces); *Hēsychia* (1.3); *Kellion* (2.7); *Cheirōnaxia/Ergocheiron* (1.7). **(Reciprocity trace complete.)**
 
 ---
 
@@ -101,7 +101,7 @@
 
 **Key Sources:** Doc_02 §1.4 (Evagrius); Doc_02 §1.1 (Athanasius); Doc_02 §1.5 (*Apophthegmata*).
 
-**Related Terms:** *Diakrisis* (1.5); *Apatheia* (2.2, its Evagrian systematized resolution); *Antirrhēsis* (3.1, the specific Evagrian counter-technique); *Theōria* (2.3); *Nēpsis* (2.5). **(Reciprocity trace completed per Round 2 review, Finding N2.)**
+**Related Terms:** *Diakrisis* (1.5); *Apatheia* (2.2, its Evagrian systematized resolution); *Antirrhēsis* (3.1, the specific Evagrian counter-technique); *Theōria* (2.3); *Nēpsis* (2.5). **(Reciprocity trace complete.)**
 
 ---
 
@@ -123,7 +123,7 @@
 
 **Key Sources:** Doc_02 §1.5.
 
-**Related Terms:** *Gerōn/Abba/Amma* (1.6); *Logismoi* (1.4); *Hēsychia* (1.3); *Nēpsis* (2.5); *Penthos* (2.4); *Apophthegma* (1.8). **(Reciprocity trace completed per Round 2 review, Finding N2 — the earlier Round 1 pass omitted this back-reference despite claiming completion.)**
+**Related Terms:** *Gerōn/Abba/Amma* (1.6); *Logismoi* (1.4); *Hēsychia* (1.3); *Nēpsis* (2.5); *Penthos* (2.4); *Apophthegma* (1.8). **(Reciprocity trace complete.)**
 
 ---
 
@@ -145,7 +145,7 @@
 
 **Key Sources:** Doc_02 §1.5, §1.6.
 
-**Related Terms:** *Diakrisis* (1.5); *Koinōnia* (1.9, the contrasting authority model); *Apophthegma* (1.8); *Anachōrēsis* (1.1). **(Reciprocity completed per Round 1 review, Finding C4.)**
+**Related Terms:** *Diakrisis* (1.5); *Koinōnia* (1.9, the contrasting authority model); *Apophthegma* (1.8); *Anachōrēsis* (1.1). **(Reciprocity complete.)**
 
 ---
 
@@ -239,7 +239,7 @@ Every Tier 2 entry below carries Quick Meaning, World Meaning, Ecological Functi
 
 ### 2.2 Apatheia (Passionlessness)
 
-**Tags:** [AS] [TC] [DR] [PV] [CT] **([AS] justified per Round 1 review, Finding C5** — *apatheia* is broadly-shared Greek philosophical vocabulary, the textbook [SC] profile; it is tagged [AS] here because this entry documents specifically the *systematized Evagrian sense*, which Doc_03 §2 treats as desert-concentrated rather than generically Christian, not the term's wider Stoic/philosophical currency.)
+**Tags:** [AS] [TC] [DR] [PV] [CT] **([AS] justified because** *apatheia* is broadly-shared Greek philosophical vocabulary, the textbook [SC] profile; it is tagged [AS] here because this entry documents specifically the *systematized Evagrian sense*, which Doc_03 §2 treats as desert-concentrated rather than generically Christian, not the term's wider Stoic/philosophical currency.)
 
 **Quick Meaning:** Freedom from disordered passion — in Evagrius's systematic scheme, the achieved goal of the practical stage of ascetic life.
 
@@ -255,11 +255,11 @@ Every Tier 2 entry below carries Quick Meaning, World Meaning, Ecological Functi
 
 **Key Sources:** Doc_02 §1.4; Doc_01 §10.
 
-**Related Terms:** *Logismoi* (1.4); *Theōria* (2.3); *Antirrhēsis* (3.1); *Puritas Cordis* (3.2, Cassian's Latin substitution for this term). **(Reciprocity trace completed per Round 2 review, Finding N2.)**
+**Related Terms:** *Logismoi* (1.4); *Theōria* (2.3); *Antirrhēsis* (3.1); *Puritas Cordis* (3.2, Cassian's Latin substitution for this term). **(Reciprocity trace complete.)**
 
 ### 2.3 Theōria (Contemplation)
 
-**Tags:** [AS] [TC] [DR] [PV] **([AS] on the same basis as 2.2 — the systematized Evagrian sense is desert-concentrated, per Round 1 review, Finding C5.)**
+**Tags:** [AS] [TC] [DR] [PV] **([AS] on the same basis as 2.2 — the systematized Evagrian sense is desert-concentrated.)**
 
 **Quick Meaning:** The contemplative stage of Evagrius's systematic scheme, reached only after *apatheia*.
 
@@ -309,7 +309,7 @@ Every Tier 2 entry below carries Quick Meaning, World Meaning, Ecological Functi
 
 **Key Sources:** Doc_02 §1.4, §1.5.
 
-**Related Terms:** *Diakrisis* (1.5); *Logismoi* (1.4); *Hēsychia* (1.3). **(Reciprocity completed per Round 1 review, Finding C4.)**
+**Related Terms:** *Diakrisis* (1.5); *Logismoi* (1.4); *Hēsychia* (1.3). **(Reciprocity complete.)**
 
 ### 2.6 Synaxis (The Gathering)
 
@@ -367,7 +367,7 @@ Every Tier 2 entry below carries Quick Meaning, World Meaning, Ecological Functi
 
 **Quick Meaning:** John Cassian's Latin rendering of *apatheia* (2.2) for a Western audience, anchored in Matthew 5:8 — a deliberate substitution, not a literal translation, made because *apatheia*'s Stoic-sounding claim had become theologically controversial (Doc_03 §1.18).
 
-**Distortion Risk:** *Modern Hearing:* a generic devotional phrase, unmoored from any specific technical content. *World Hearing:* a deliberate, disclosed substitution for *apatheia* (2.2), carrying that term's full technical content while avoiding its Stoic-sounding controversy — belongs to this world's *reception history* via Cassian (writing in the 420s, at the edge of this world's own c. 430 closing boundary) rather than its own core vocabulary. **(Corrected to an actual Modern/World Hearing pairing per Round 1 review, Finding C2.)**
+**Distortion Risk:** *Modern Hearing:* a generic devotional phrase, unmoored from any specific technical content. *World Hearing:* a deliberate, disclosed substitution for *apatheia* (2.2), carrying that term's full technical content while avoiding its Stoic-sounding controversy — belongs to this world's *reception history* via Cassian (writing in the 420s, at the edge of this world's own c. 430 closing boundary) rather than its own core vocabulary.
 
 **Related Terms:** *Apatheia* (2.2).
 

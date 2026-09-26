@@ -2,7 +2,7 @@
 
 **World #3: Desert Monasticism**
 
-**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (Round 2 review CLEARED the combined Doc_09a/b/c bundle; no escalation trigger applies). This is a lightweight go-ahead, not a claim of completeness or a project-lead sign-off, and explicitly NOT Frozen — see Doc_09b §5's own Freeze Assessment.
+**Status:** APPROVED TO PROCEED — applied by the build thread per the One-Document-at-a-Time Build Protocol's disposition rule (the combined Doc_09a/b/c bundle was independently reviewed and cleared; no escalation trigger applies). This is a lightweight go-ahead, not a claim of completeness or a project-lead sign-off, and explicitly NOT Frozen — see Doc_09b §5's own Freeze Assessment.
 
 **Governed by:** Construction Framework V7.3, Part V (Story Inventory Requirement); Story Repository Chunk Template V1.0's four-tier classification (Tier 1–4; no Tier 5 — "generated or illustrative narrative... is not permitted"); Constitution Article 19; Doc_01–Doc_08 (all Approved to proceed).
 
@@ -144,7 +144,7 @@ Per the Story Repository Chunk Template's Absent Story discipline: what might a 
 
 1. Whether additional Tier 2 *Apophthegmata* sayings beyond the three selected here should be added — this inventory is deliberately illustrative rather than exhaustive, consistent with the Story Repository Template's own guidance that depth should be proportional to formation weight, not comprehensiveness for its own sake; a future revision pass could expand this set.
 2. The Pachomian *Lives*' version-priority question (Story 1.3) remains unresolved, carried forward from Doc_01 §10 and Doc_02 §1.2.
-3. ~~The diet element in Story 4.1...~~ **Resolved per Round 1 review, Finding 3** — the unsourced diet element was removed from Story 4.1's Story Text rather than retained with a caveat, per the Story Repository Chunk Template's own rule.
+3. ~~The diet element in Story 4.1...~~ **Resolved** — the unsourced diet element was removed from Story 4.1's Story Text rather than retained with a caveat, per the Story Repository Chunk Template's own rule.
 
 ---
 
