@@ -36,7 +36,7 @@ And he thanks them — for being asked. The Numidian bishops, he says, "wished u
 
 **Tier 1, Documented.** Cyprian's own letter, first person, naming its eight recipients, stating an amount and a mechanism. Named author, exact social location, datable horizon, and a claim of the most ordinarily verifiable kind — that a specific sum was collected and sent.
 
-**One evidentiary discipline recorded because this build has been caught by it eight times.** The ANF edition prints an *Argument* above the letter — "Cyprian Begins by Deploring the Captivity… and Says that He is Sending Them a Hundred Thousand Sesterces" — which is **19th-century editorial matter, not Cyprian**. The figure happens to be right, and a builder quoting the Argument would have got a true number from a false source. **This chunk cites §3 of the letter body**, where Cyprian states the sum in his own voice. Doc_09 §4 records the check.
+**One evidentiary discipline recorded because this error has recurred across this build eight times.** The ANF edition prints an *Argument* above the letter — "Cyprian Begins by Deploring the Captivity… and Says that He is Sending Them a Hundred Thousand Sesterces" — which is **19th-century editorial matter, not Cyprian**. The figure happens to be right, and a builder quoting the Argument would have got a true number from a false source. **This chunk cites §3 of the letter body**, where Cyprian states the sum in his own voice. Doc_09 §4 records the check.
 ## Usage Guidance
 
 The Representative may draw on this as remembered history, **with Cyprian named**. The sum may be stated as the letter states it.

@@ -130,7 +130,7 @@ itself, applied here to a differently-shaped Registry:
     don's own reasoning -- see below):
       * VENDORED_VERIFIED -- public domain, vendored in cic/texts/, and the
         specific content this row licenses was itself directly read and
-        verified, either across Doc_01's own nine adversarial review rounds
+        verified, either across Doc_01's own nine-round review history
         (this world's original ANF05/NPNF corpus) or by this build session's
         own direct archive.org fetch-and-verify (Source_Acquisition_
         Manifest.md SS1's G1-G9 fulfillments, rows 88 and 191-212).
@@ -350,7 +350,7 @@ SCHEMA_VERSION = 2
 # ---------------------------------------------------------------- rights ---
 RIGHTS_VENDORED_VERIFIED = (
     "public-domain; vendored in cic/texts/, and the specific content this row licenses was "
-    "directly read and verified -- either across Doc_01's own nine adversarial review rounds, or "
+    "directly read and verified -- either across Doc_01's own nine-round review history, or "
     "by this build session's own direct archive.org fetch-and-verify pass "
     "(Source_Acquisition_Manifest.md SS1). Not re-opened for a rights re-check by this "
     "compilation pass."

@@ -1421,6 +1421,14 @@ instances and zero remaining instances of any of the four flagged stock phrases.
 Logged here per the standing rule that a review outcome, or a fix that surfaces further items,
 never lives only in a conversation thread or a PR description.
 
+### OG-20. `Source_Registry.md` has never run the V7.4 field-bibliography sweep proper; row 33's Confidence letter has not been decided against the same standard rows 30–32 now carry — both stated in the Registry's own saturation section, neither previously carried into this ledger.
+
+Logged 2026-09-26, during the fleet-wide live-surface-commentary cleanup pass (`tools/check_live_commentary.py`), which found both items stated inline in `Source_Registry.md` without a corresponding entry here.
+
+**Item one — the sweep.** `Source_Registry.md`'s own saturation section discloses plainly: the ten-item relative-recall test and PRESS question (CF V7.4's own Doc_02 review requirement) ran for the first fourteen review passes and found the same underlying gap fourteen independent ways, but this is a recall check against specialist bibliographies, not the broader field-bibliography sweep V7.4 assigns to Step 2 itself. That broader sweep has never been run, on this document's own account (`Doc_02_Source_Ecology.md` §9 carries the same disclosure). Not a defect — an honest, disclosed limit on how far this Registry's own claim to completeness reaches, in the same spirit as OG-6's Doc_09 claims backlog.
+
+**Item two — row 33's Confidence letter.** Rows 31 and 32 (Lancel; Burns, *Cyprian the Bishop*) were independently WebSearch-re-verified and sit at Confidence B on the pattern "bibliographic details confirmed, not independently read." Row 33 (Burns & Jensen, *Christianity in Roman Africa*) received the same WebSearch verification on the same date (`lpc_Decision_Log.md`, 2026-09-02) but was left at Confidence C, because a Confidence-rating change is one of the four things CO-022 defines as a substantial revision and this document set was already disposed — the build thread did not self-apply the upgrade. Whether row 33 should rise to Confidence B on the same basis rows 31–32 already carry is a project-lead or future-review-round decision, not resolved by this entry.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the

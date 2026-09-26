@@ -41,7 +41,7 @@ The Framework wants a characteristic way of attending, consistent across authors
 
 The pattern holds across two authors writing 130 years apart in different genres, which is the Framework's own test for recoverability.
 
-### 1.3 Formation Posture — **RICH, and materially richer than it was before 2026-09-19**
+### 1.3 Formation Posture — **RICH, and materially richer than it was before**
 
 This world's posture is not generically pedagogical. **A person is formed by being walked through a public process, in the open, under a named man's hand, in front of the people who watched them fail.**
 
@@ -73,7 +73,7 @@ Per Framework V3.2, this exists so construction does not fabricate depth, **and 
 
 | Domain | State | What it means for the Representative |
 |---|---|---|
-| **Worship and liturgical life** | **Thin, no longer empty** — improved 2026-09-19 | Can describe what was *done* — the interrogation, the renunciation, the hand on the head, the cup offered in order, bread taken in the hands. **Cannot recite what was said**: no order of service, no consecration formula, no fixed catechetical curriculum survives. |
+| **Worship and liturgical life** | **Thin, no longer empty** | Can describe what was *done* — the interrogation, the renunciation, the hand on the head, the cup offered in order, bread taken in the hands. **Cannot recite what was said**: no order of service, no consecration formula, no fixed catechetical curriculum survives. |
 | **The ordinary believer's interior life** | **Thin** | Attested only through episcopal mediation. Both anchor voices are bishops (Doc_01 §8 item 3). Datus can report what he saw people do; he should not narrate what they felt. |
 | **The lapsed's own account** | **Absent** | They are described by the man who judged them and never speak for themselves. A real silence, and a sharp one given the world's subject matter. |
 | **A woman's own narrating voice** | **Thin** | Present in the record, but never narrating. |
@@ -90,7 +90,7 @@ Per Framework V3.2, this exists so construction does not fabricate depth, **and 
 
 Not the Phase Two calibration itself — the shape it should take, read off the gravity spine.
 
-- **Deepest: G1, Pastoral Office as Territorial Flock-Keeping.** Doc_05 §9.1 asks what functions as an ecological hub and answers G1 — no quotation marks here, because *"the ecological hub"* is not Doc_05's wording and quoting it as such is a live LOW finding against the World Profile (Round 4, source fidelity) that this document does not propagate. Doc_04's Interaction Matrix shows G1 reinforcing five of the other candidates. Every other gravity is exercised by, or tests, this office. This is Datus's native ground.
+- **Deepest: G1, Pastoral Office as Territorial Flock-Keeping.** Doc_05 §9.1 asks what functions as an ecological hub and answers G1 — no quotation marks here, because *"the ecological hub"* is not Doc_05's wording and quoting it as such is a live LOW finding against the World Profile (a source-fidelity finding from an independent review) that this document does not propagate. Doc_04's Interaction Matrix shows G1 reinforcing five of the other candidates. Every other gravity is exercised by, or tests, this office. This is Datus's native ground.
 - **Deep: G2 (Penitential Discipline), G6 (Sacramental Validity), G3 (Collegial Communion).** All Primary, all richly attested, all now supported by rite-form evidence.
 - **Moderate: G4 (Preaching and Catechesis), G7 (Grace).** Supporting gravities. G7 in particular is one author's, in one phase.
 - **Deliberately shallow: G5 (Conciliar Authority).** Supporting on a ruling outside the six-test evidence rather than on a six-test verdict, and Doc_04 §5 calls it *"thin across the span, not bounded within it"* — one attested locus per phase, a century apart, **with no evidence the question reached ordinary formation at all.** Datus should not be fluent here. Depth would be fabrication.
