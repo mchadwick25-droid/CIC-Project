@@ -8,17 +8,16 @@ fragment is never an acceptable rendering, whatever the grader or the FK
 score says.
 
 `rendering_fidelity.py`'s grader cannot see this: it grades meaning, not
-grammar, and passed every fragment the R43 human read later caught (P3
-Decision-Log Entries 20, 25 and 26 - e.g. "Of his Deity, by his miracles
-during the three years after his baptism."). This module checks grammar
-only, never meaning.
+grammar, and passed fragments a human read later caught (e.g. "Of his
+Deity, by his miracles during the three years after his baptism.").
+This module checks grammar only, never meaning.
 
-REPORT-ONLY. Not registered in gates.GATES, and never fails a run. Mark's
-R39, in his own words: "our goal is to generate the right conversation,
-not correct it. it fine to have checks, but idealiy they are not used
-because the engine is generating it correctly." A rendering this check
-flags is read by a person against the fragment rule; the parser's verdict
-is never the ruling on its own.
+REPORT-ONLY. Not registered in gates.GATES, and never fails a run. The
+goal is to generate the right conversation, not correct it after the
+fact - checks exist, but the aim is that they go mostly unused because
+the engine generates it correctly in the first place. A rendering this
+check flags is read by a person against the fragment rule; the parser's
+verdict is never the ruling on its own.
 
 WHAT IS FLAGGED - per sentence, judged on the sentence's MAIN clause (its
 parse root), never on whether some verb appears anywhere in it: a verb
@@ -42,8 +41,8 @@ the ci.yml comment on the m1 test step), so
 `engine/m1/tests/test_sentence_completeness.py` exercises the
 classification rules against hand-built parse trees, and the real parsers
 are exercised by this CLI's own calibration step instead - every run first
-checks them against KNOWN_CASES (the real R43 fragments, their accepted
-fixes, and whole-sentence shapes) and refuses to report if any case
+checks them against KNOWN_CASES (the real fragments a human read caught,
+their accepted fixes, and whole-sentence shapes) and refuses to report if any case
 misclassifies.
 
 A statistical parser misreads some whole sentences (a verb tagged as a
@@ -54,9 +53,8 @@ a dialogue label ("Question:", "Answer:"), which the parser can otherwise
 take as the head of the clause. One parse correction, found on KNOWN_CASES:
 the parser sometimes labels a modal as the subject ("might" in the
 relative-clause case above). A modal is never a subject, so a modal child
-is always read as a finite auxiliary. Measured precision on main at the
-time of writing is in the P3 Fidelity-Gate Decision-Log.md
-(sentence-completeness entry, 2026-09-24); the parser's call is never the
+is always read as a finite auxiliary. Measured precision on main is
+tracked separately from this module; the parser's call is never the
 ruling on its own.
 
 Usage: `python -m engine.m1.sentence_completeness` - writes
@@ -94,10 +92,10 @@ _SENTENCE_BREAK = re.compile(
     rf"(?:(?<=[.!?])|(?<=[.!?]{_CLOSE})|(?<=[.!?]{_CLOSE}{_CLOSE}))\s+(?=[\"'\u201c\u2018(\[]?[A-Z])"
 )
 
-# The real R43 fragments the human read caught (P3 Decision-Log Entries 20,
-# 25, 26), each with the accepted fix, plus whole-sentence shapes the check
-# must never flag. The CLI's calibration step runs these through the real
-# parser before every report.
+# The real fragments a human read caught, each with the accepted fix,
+# plus whole-sentence shapes the check must never flag. The CLI's
+# calibration step runs these through the real parser before every
+# report.
 KNOWN_CASES: tuple[tuple[str, str | None], ...] = (
     ("Of his Deity, by his miracles during the three years after his baptism.", NO_FINITE_VERB),
     ("Of his humanity, during the thirty similar years before his baptism.", NO_FINITE_VERB),

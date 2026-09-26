@@ -1,6 +1,6 @@
 """Two experimental M1 gates, and two superseded ancestors.
 
-Origin (2026-08-21): a record whose citations were real, well-formed and
+Origin: a record whose citations were real, well-formed and
 rights-clean, but whose prose said more than those citations supported -
 found live in alx.demo.someone-like-me, which cited two real records,
 neither of which documented the specific claim it made, while the world's
@@ -216,7 +216,7 @@ def gate_tension_coverage(records, fleet, registry) -> list[str]:
     declares it [TENSIONAL] but whose `relations` carry no `tension-with`
     entry to any other record.
 
-    Checked directly against Doc_04_Gravity_Discovery.md (alx, 2026-08-21):
+    Checked directly against Doc_04_Gravity_Discovery.md (alx):
     of Alexandria's four Tensional gravities, three (learning-community,
     speculative-doctrinal, martyrdom-contemplative) have a `tension-with`
     relation that traces to a genuine competing/reshaping ("C"/"X") entry
@@ -233,8 +233,8 @@ def gate_tension_coverage(records, fleet, registry) -> list[str]:
     `tension-with` target onto teacher-bishop-tension the first time it
     ran - exactly the kind of invented relation this project's no-
     fabrication discipline forbids. This gate reports the same shape of
-    gap instead of blocking on it, so a human (the Doc_04 reviewer, not
-    the gate) decides whether a given zero-tension-with Tensional is a
+    gap instead of blocking on it, so a human checking this world's
+    Doc_04, not the gate, decides whether a given zero-tension-with Tensional is a
     genuine asymmetry like T1 or an actual omission worth fixing.
     """
     findings = []
@@ -264,7 +264,7 @@ def gate_tension_coverage(records, fleet, registry) -> list[str]:
 # honest_limit.why_sources_cannot_answer, and every field on gravity/
 # force/contested_claim/search_record/source are NOT compiled and are
 # legitimate places for build-process language to live - scanning them
-# gate_no_build_attribution ADMITTED 2026-08-21 to engine/m1/gates.py's
+# gate_no_build_attribution moved to engine/m1/gates.py's
 # GATES battery (own defect-catalog entry in fixtures/seeded_defects.yaml,
 # selftest-proven per this file's own admission bar, stated below). No
 # longer here - see gates.py for the implementation and its full history
@@ -278,7 +278,7 @@ def gate_tension_coverage(records, fleet, registry) -> list[str]:
 # honest_limit.why_sources_cannot_answer, and every field on gravity/
 # force/contested_claim/search_record/source are NOT compiled and are
 # legitimate places for build-process language to live - scanning them
-# gate_no_build_attribution ADMITTED 2026-08-21 to engine/m1/gates.py's
+# gate_no_build_attribution moved to engine/m1/gates.py's
 # GATES battery (own defect-catalog entry in fixtures/seeded_defects.yaml,
 # selftest-proven per this file's own admission bar, stated below). No
 # longer here - see gates.py for the implementation and its full history
