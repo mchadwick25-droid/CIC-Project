@@ -475,7 +475,9 @@ def _nearest_context(segment: str, source_full: str, window: int = 30) -> str:
     return source_full[start:end]
 
 
-def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) -> VerifyResult:
+def verify_quote_text(
+    quote_text: str, source_raw: str, *, source_is_xml: bool, apply_letterform_normalization: bool = True
+) -> VerifyResult:
     source_full = strip_xml_markup(source_raw) if source_is_xml else source_raw
     source_full = collapse_linewrap_hyphens(source_full)
     source_full = strip_apparatus(source_full)
@@ -485,9 +487,17 @@ def verify_quote_text(quote_text: str, source_raw: str, *, source_is_xml: bool) 
     # to occur - see _normalize_archaic_letterforms_with_offsets's own
     # docstring and the per-match crediting below.
     source_raw_for_letterforms = source_full
-    source_full, source_offset_map = _normalize_archaic_letterforms_with_offsets(source_full)
+    if apply_letterform_normalization:
+        source_full, source_offset_map = _normalize_archaic_letterforms_with_offsets(source_full)
+    else:
+        # Identity offset map - every position maps to itself, so the
+        # raw-span-crediting logic below still works unchanged; it will
+        # simply never find a letterform class to credit, because neither
+        # side of the comparison was normalized.
+        source_offset_map = list(range(len(source_full)))
     quote_raw_for_letterforms = quote_text
-    quote_text, _ = normalize_archaic_letterforms(quote_text)
+    if apply_letterform_normalization:
+        quote_text, _ = normalize_archaic_letterforms(quote_text)
     raw_segments = [s for s in _ELLIPSIS_RE.split(quote_text) if s.strip()]
     if not raw_segments:
         return VerifyResult(verified=False, failed_segment=quote_text, nearest_context="(quote text is empty)")
@@ -548,7 +558,9 @@ def iter_source_notes(source_raw: str):
         yield note_id, _TAG_RE.sub("", m.group(2))
 
 
-def verify_quote_against_notes(quote_text: str, source_raw: str) -> VerifyResult | None:
+def verify_quote_against_notes(
+    quote_text: str, source_raw: str, *, apply_letterform_normalization: bool = True
+) -> VerifyResult | None:
     """The gate-level fallback: once the running text (notes stripped)
     has failed to verify a quote, try every `<note>` body in the same
     source file in turn - the rare case where a translator's endnote,
@@ -558,7 +570,9 @@ def verify_quote_against_notes(quote_text: str, source_raw: str) -> VerifyResult
     reporting the more informative "nearest context" against the fuller
     running text - is what gets surfaced."""
     for note_id, note_text in iter_source_notes(source_raw):
-        result = verify_quote_text(quote_text, note_text, source_is_xml=False)
+        result = verify_quote_text(
+            quote_text, note_text, source_is_xml=False, apply_letterform_normalization=apply_letterform_normalization
+        )
         if result.verified:
             result.verified_in = "note"
             result.note_id = note_id
@@ -664,7 +678,9 @@ def strip_edition_apparatus(source_raw: str, filename: str) -> str:
     return source_raw
 
 
-def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> VerifyResult:
+def verify_quote_record(
+    quote_record: dict, records: dict, fleet: dict, *, apply_letterform_normalization: bool = True
+) -> VerifyResult:
     paths = resolve_vendored_paths(quote_record, records, fleet)
     if not paths:
         return VerifyResult(verified=False, failed_segment=None, nearest_context="no cic/texts/ file could be resolved from this record's body or its source_id's edition field")
@@ -676,11 +692,13 @@ def verify_quote_record(quote_record: dict, records: dict, fleet: dict) -> Verif
             continue
         source_raw = path.read_text(encoding="utf-8", errors="replace")
         source_raw = strip_edition_apparatus(source_raw, path.name)
-        result = verify_quote_text(quote_text, source_raw, source_is_xml=path.suffix == ".xml")
+        result = verify_quote_text(
+            quote_text, source_raw, source_is_xml=path.suffix == ".xml", apply_letterform_normalization=apply_letterform_normalization
+        )
         result.source_file = str(path.relative_to(REPO_ROOT))
         if result.verified:
             return result
-        note_result = verify_quote_against_notes(quote_text, source_raw)
+        note_result = verify_quote_against_notes(quote_text, source_raw, apply_letterform_normalization=apply_letterform_normalization)
         if note_result is not None:
             note_result.source_file = str(path.relative_to(REPO_ROOT))
             return note_result
