@@ -110,7 +110,7 @@ Twelve tellable stories, one explicitly refused candidate (witt-ABS-01, carried 
 
 **Usage guidance:** The event may be told as historical narrative (Tier 1: author and perspective named — Luther, writing within the same year, from Wittenberg, not Brussels). The ballad's own dramatized details — the martyrs' words at the stake, the specific sequence of the Louvain theologians' proceedings — are Tier 3 and must be framed as the tradition's own commemorative portrait, not narrated as verified reportage. Per Doc_02 §10's own instruction, carried forward unchanged: "the formation ideal... is the evidence, not stanza 11" — the theological claim the hymn makes about what these deaths meant is usable at full confidence; the narrative texture around it is not.
 
-**Registry cross-reference:** R30, Native, Primary. Names corrected 2026-09-15 to "two young monks, named John and Henry," per the vendored text's own wording (the Registry's technical correction record, carried at Doc_02 §7 item 1 and §11).
+**Registry cross-reference:** R30, Native, Primary. The vendored text names the two monks "John and Henry" (Doc_02 §7 item 1 and §11).
 
 ---
 
