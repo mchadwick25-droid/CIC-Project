@@ -61,28 +61,15 @@ contemplative half, Strand-C-concentrated per desert.gravity.evagrian-
 systematization's own scope). The tension field states plainly that the
 contemplative half is not generalized past its own registered scope.
 
-Step4, Round 1 review Finding S2 (adjacent fix): this record's own
-opening claim that "most of us did not argue about God" needed the same
-correction made explicitly to desert.dw.councils and
-desert.quote.antony-arians-serpents, since SS69 records exactly one
-such argument, publicly, at episcopal summons - revised above to state
-both the ordinary refusal and that one recorded public argument, and to
-name desert.quote.antony-nicene-formula as this record's own source for
-the positive formula it now quotes.
-
-Step4, Round 2 review Finding M2: positions[1], written by the fix
-above, still called argument "the exception, called for once" - false
-against SS72-79 ("How he reasoned with divers Greeks and philosophers
-at the outer mountain") and SS80 ("How he confuted the philosophers"),
-both inside the same Vita this record's own sources[] already cites.
-Corrected to acknowledge the philosophical disputations alongside the
-Arian confrontation, matching the correction already made on
-desert.dw.councils for the identical class of overclaim.
+The text states both the ordinary refusal and the one recorded public
+argument (SS69, at episcopal summons), and names
+desert.quote.antony-nicene-formula as this record's own source for the
+positive formula it quotes. positions[1] acknowledges the philosophical
+disputations (SS72-79, SS80) alongside the Arian confrontation, all
+inside the same Vita this record's own sources[] cites, matching
+desert.dw.councils's own scope for the identical claim.
 
 The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). apatheia labeled at the quieting-of-passions line. Claims unchanged; the label is the whole edit.
+apatheia is labeled at the quieting-of-passions line: plain meaning
+first, the world's own word after it as a label.

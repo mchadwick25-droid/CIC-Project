@@ -87,8 +87,7 @@ modern_contrast: >-
   his hearers would have read as the point: he says he saved two lives, and puts hers second, but
   he puts it in.
 ---
-Registered 2026-08-27, on this world opening
-cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
+This record draws on cic/texts/palladius_paradise-v1-syriac_budge1907.txt.
 
 WHY THIS AND NOT A LONGER, BETTER-ATTESTED CHAPTER. Melania the Great's
 chapter is longer and firmer, and desert.quote.melania-to-the-governor

@@ -54,45 +54,27 @@ text: >-
 absent_detail: "This is not a single person's own recorded day but a reconstruction from several independently attested elements; no surviving source narrates one specific day this way. An earlier draft of this account included a general note about spare or limited meals; no specific attested passage could be found to source that detail, and per this build's own rule it was removed rather than kept with a caveat."
 modern_contrast: "A modern reader may hear \"a typical day\" and reach for the contemporary genre of routine-optimization content - a schedule to adopt for its own productivity value. This world's own record frames the same rhythm (Psalms, manual work, the cell) as formation, not efficiency: the labor was itself a discipline as much as a livelihood (desert.gravity.manual-labor), not a productivity technique borrowed from elsewhere."
 ---
-Re-derived from the prior build's cleared Doc_09a Story 4.1, including
-its own Round 1 fix (the unsourced diet element removed rather than
-retained-and-flagged, per the Story Repository Chunk Template's own
-rule) - carried forward as already corrected rather than reintroducing
-the removed element.
+Re-derived from the prior build's cleared Doc_09a Story 4.1, with the
+unsourced diet element removed rather than retained-and-flagged, per
+the Story Repository Chunk Template's own rule - not reintroduced here.
 
-Step4, Round 1 review Finding S3: this record's own body previously
-claimed the weekly synaxis element "is not independently re-sourced to
-a registered record in this build," used to justify retaining an
-element the Tier 4 rule this same field quotes says must be removed if
-unsourced. That claim was false: desert.term.synaxis is a registered,
-cleared, verified-direct term record anchored to vendored Palladius ch.
-VII ("They occupy the church only on Saturday and Sunday"), which this
-record now cites directly (relations[], sources[]) rather than treating
-as absent. The manual-labor element, also previously unsourced despite
-the field's own "every element separately sourced" claim, is sourced to
-Vita SS3 and Palladius ch. VII. Finding M13: "solitude here meant a
-household of one, not a shared cell" overclaimed against
-desert.source.kellia-excavations's own "single cells to multi-room
-hermitages" - corrected to state both configurations. Finding M11: the
-declared relation to desert.gravity.diakrisis was justified as "the
-discipline of a fixed daily rhythm," which that gravity's own
-description (judging rightly between thoughts, practices, and counsels)
-does not support - removed; this record's relations are now limited to
-what its own text actually illustrates.
+The weekly synaxis element is sourced to desert.term.synaxis, a
+registered, cleared, verified-direct term record anchored to vendored
+Palladius ch. VII ("They occupy the church only on Saturday and
+Sunday"), cited directly in relations[] and sources[]. The manual-labor
+element is sourced to Vita SS3 and Palladius ch. VII. The text states
+both configurations desert.source.kellia-excavations attests ("single
+cells to multi-room hermitages"), rather than a household of one alone.
+This record's relations are limited to what its own text actually
+illustrates.
 
-Step4, Round 2 review Finding S8: the Round 1 fix above had written
-"weaving rope or baskets" into the compiled text and "linen-manufacture
-and weaving" into the Palladius locus - "weaving," "rope," and "basket"
-occur zero times in ch. VII, which names only "linen-manufacture."
-desert.gravity.manual-labor's own registered evidence for the identical
-claim is likewise "linen-manufacture," not weaving, rope, or baskets;
-the Round 1 fix note's claim that the two records now matched was
-false. Corrected above to the manual-labor discipline itself, as that
-gravity record's own description states it ("hand-work done both to
-live and as a discipline in its own right"), rather than a specific
-craft the corpus does not attest for this settlement. Also noted: ch.
-VII describes Nitria, not Kellia; the locus above now states this
-explicitly rather than implying the same settlement.
+The compiled text names the manual-labor discipline itself, as
+desert.gravity.manual-labor's own description states it ("hand-work
+done both to live and as a discipline in its own right"), rather than a
+specific craft ("weaving," "rope," "basket") that occurs zero times in
+ch. VII, which names only "linen-manufacture." Ch. VII describes
+Nitria, not Kellia; the locus states this explicitly rather than
+implying the same settlement.
 
 Formation significance: synthesizes desert.gravity.withdrawal and
 desert.gravity.manual-labor, together with desert.term.synaxis's own

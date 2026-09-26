@@ -57,13 +57,12 @@ absent_detail: "The demons-as-beasts imagery is this world's own chosen register
 modern_contrast: "A modern reader may hear a man alone in a tomb, beaten until he cannot speak, refusing care and returning to the same place, and reach for a mental-health frame (a psychiatric crisis, self-harm) rather than this world's own frame. This world's own record holds it as the most extreme instance of spiritual combat against the interior enemy (desert.gravity.spiritual-combat), the same struggle that replaced martyrdom once dying for the faith was no longer possible (desert.force.martyrdom-unavailable) - not a crisis to be treated, but total combat willingly sought. This record does not present it as neutral incident report, and neither should a telling of it."
 ---
 Re-derived from the prior build's cleared Doc_09a Story 3.1. SS8-9 and
-SS12-13 were independently verified directly against the vendored file
-during this build's own Doc_08 Round 1 review (the same passages
-desert.force.martyrdom-unavailable cites); S9 (the beast-form combat and
-Antony's own taunts to the demons) and S10 (the light vision's own
-exchange) were freshly opened and verified directly this session, both
-quoted here close to the vendored file's own wording rather than
-paraphrased from Doc_09a's own less specific telling.
+SS12-13 are verified directly against the vendored file (the same
+passages desert.force.martyrdom-unavailable cites); S9 (the beast-form
+combat and Antony's own taunts to the demons) and S10 (the light
+vision's own exchange) are quoted here close to the vendored file's own
+wording rather than paraphrased from Doc_09a's own less specific
+telling.
 
 S9 carries the beast-form combat and Antony's own taunts; S10 carries
 the light vision.

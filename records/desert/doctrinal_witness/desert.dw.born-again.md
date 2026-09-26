@@ -45,22 +45,13 @@ relations:
 Palladius ch. XLV (Philoromus), verified directly against the vendored
 file this session.
 
-Step5, Round 1 review sweep (Finding S6's own class, applied
-proactively here though not itself named in that finding): the compiled
-text previously left Philoromus unnamed ("one of us, from Galatia...")
-while carrying his own first-person words - the fleet's own strict
-we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4) requires a
-surviving "I" to belong to a named, sourced figure. Corrected above to
-name him.
-
-Step4, Round 3 review Finding S2: `desert.limit.f4-t-born-again-and-
-tithe` had declared "born again" absent from "this corpus's own
-registered vocabulary at all," against this exact passage in a
-registered, vendored source the record had not opened. This record
-supplies the substantive answer, following this build's own established
-practice of converting a false silence into real material where it
-exists rather than only narrowing the claim's wording. The honest_limit
-for F4-T is narrowed in the same fix pass to cover only the genuinely
-absent question (tithing) - see desert.limit.tithe.
+The compiled text names Philoromus while carrying his own first-person
+words, matching the fleet's own strict we-voice discipline
+(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4): a surviving "I" belongs to a
+named, sourced figure. This record supplies the substantive answer to
+whether "born again" occurs in this world's own vocabulary, converting
+a false silence into real material where it exists. The honest_limit
+for F4-T covers only the genuinely absent question (tithing) - see
+desert.limit.tithe.
 
 The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

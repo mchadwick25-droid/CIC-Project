@@ -50,28 +50,16 @@ First-person framing of desert.story.antony-call and desert.story.antony-
 withdrawal, both already independently verified; no new claim beyond
 what those two records already carry.
 
-Step4, Round 1 review Finding C5: "behind a locked door" and "in a
-single afternoon" overclaimed against SS2-3 (two separate church
-visits, not one) and S12 ("he built up the entrance completely" - a
-sealed entrance, not a locked door). Corrected above to match the
-vendored text directly. Finding M9 (tensions field): "this world's own
-account" replaced with first-person phrasing, matching the fix already
-applied to the other affected doctrinal_witness records.
-
-Step4, Round 2 review Finding S4: the C5 fix above had itself invented
-an interval ("within days of each other") the Vita does not state -
-S2 dates the first giving ("not six months after the death of his
+The text matches the vendored text directly: "built up the entrance
+completely" (S12) is a sealed entrance, not a locked door, and the two
+separate church visits (SS2-3) are stated with no interval between them
+- S2 dates the first giving ("not six months after the death of his
 parents"); S3 opens "And again as he went into the church," with no
-interval given, nothing ruling out a longer gap. Removed from `text`,
-`positions[0]`, `sources[0].locus`, and this note; the record now
-states only what the Vita itself supports - two separate visits, no
-stated interval between them.
-
-Step5, Round 1 review Finding S6: this compiled text still opened "An
-outsider, I think, would have found..." - a bare narratorial first
-person with no quoted figure nearby, against the fleet's own strict
-we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
-desert.voice.craft's own flavor_notes). Corrected to "An outsider, we
-think, would have found..."
+interval given. The tensions field uses first-person phrasing,
+matching the register used across doctrinal_witness records. The
+compiled text opens "An outsider, we think, would have found...",
+matching the fleet's own strict we-voice discipline
+(fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
+desert.voice.craft's own flavor_notes).
 
 The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

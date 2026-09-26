@@ -56,16 +56,13 @@ by naming the negative claim honestly (nothing beyond the common
 Scriptures) before answering the more interesting question (how they
 were used) at more length.
 
-Step4, Round 1 review Finding M12: "We did not write commentaries"
-stood against this corpus's own registered Evagrius material (the
-Antirrhetikos, scripture deployed against tempting thoughts) and
-desert.gravity.evagrian-systematization, this world's own systematic-
-author gravity - corrected to acknowledge that exception while keeping
-it applied rather than exegetical. The Apophthegmata locus is also now
-marked Inferential/Thin, per that source's own unconditional bound.
-
-Step4, Round 2 review Finding C7: desert.limit.f1-t-original-sin-
+The text acknowledges this corpus's own registered Evagrius material
+(the Antirrhetikos, scripture deployed against tempting thoughts) and
+desert.gravity.evagrian-systematization, this world's own
+systematic-author gravity, while keeping that exception applied rather
+than exegetical. The Apophthegmata locus is marked Inferential-Thin,
+per that source's own unconditional bound. desert.limit.f1-t-original-sin-
 eucharist-faith names this record in its own nearest_material and
-why_sources_cannot_answer without a reciprocal relation - added.
+why_sources_cannot_answer, with a reciprocal relation.
 
 The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

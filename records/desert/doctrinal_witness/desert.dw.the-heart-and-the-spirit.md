@@ -65,9 +65,8 @@ relations:
 - type: associated-with
   target: desert.dw.grace-and-effort
 ---
-OPENED 2026-08-27, in the reading pass on the file vendored earlier the
-same day. It closes a gap that was total rather than partial: before this
-record, NO record in this world mentioned the Holy Spirit at all, while
+This record closes a gap that was total rather than partial: before
+it, no record in this world mentioned the Holy Spirit at all, while
 F1-I carries "Who or what is the Holy Spirit, to your people?" as a canon
 question. The cell was answered by desert.dw.god, which is about the Son
 and about knowing God by stilling the passions, and which says nothing

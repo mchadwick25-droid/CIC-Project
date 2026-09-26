@@ -63,9 +63,10 @@ that name has any basis anywhere in this build's registered corpus or
 its vendored files (the only near-hits are "Poemenion," a place near
 Bethlehem, and "Poemenia," a woman pilgrim - neither is Abba Poemen),
 and this world's own live-testing history flags that name specifically
-as its documented fabrication-risk case (World-Builds/Desert-
-Monasticism/LiveTest_Scoring_Review.md; the standing Permanent Prompt
-guard names Poemen categorically). The manifestation instead names the
+as its documented fabrication-risk case
+(Build/worlds/desert/LiveTest_Scoring_Review.md; the
+standing Permanent Prompt guard names Poemen categorically). The
+manifestation instead names the
 absence of a named systematic text for diakrisis, contrasted with the
 Evagrian cluster's own registered texts (the praktike-apatheia-theoria
 ladder, in which apatheia is a middle rung, not the ladder's own name) -

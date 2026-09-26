@@ -49,8 +49,8 @@ relations:
 - type: associated-with
   target: desert.story.virgin-who-hid-athanasius
 ---
-UPDATED 2026-08-27 ON THE ARRIVAL OF A VENDORED EDITION. Two changes,
-and the first is a correction.
+Two changes follow from the arrival of a vendored edition, and the
+first is a correction.
 
 THE BRIDGE LINE ASSERTED SOMETHING THE TEXT DOES NOT. It read that Sarah
 was remembered "for telling visiting monks who had come to test her that
@@ -111,26 +111,17 @@ Doc_09a's quoted English, consistent with desert.source.apophthegmata-patrum's
 own hard rule that no vendored, machine-checkable file exists for this
 source and no citation of it may claim verbatim status.
 
-Step3c, Round 2 review Finding C4: the scholarly name's "4th-5th c."
-was an unmarked derivation from desert.source.apophthegmata-patrum's
-own "4th-early 5th c." dating of the tradition generally, with nothing
-in this corpus dating Sarah individually - corrected to match the
-source's own range and marked as derived, consistent with this
-record set's own house style (desert.figure.antony.dates.born,
-desert.figure.evagrius.dates.born). Finding C5: divergence_note
-narrowed desert.source.apophthegmata-patrum's own unconditional
-Inferential/Thin bound ("for ANY claim beyond what the surviving
-sayings themselves state") to the narrated encounter's historicity
-alone - broadened to state both, so this record does not carry a
-narrower bound than its own source requires.
-
-Step3c, Round 3 review Finding C4: the Round 2 fix's own scholarly-name
-entry became a full sentence with its own provenance clause in
-parentheses, unlike every sibling figure record's names[] (a field a
-compiled fragment would print directly). The provenance clause is moved
-to divergence_note above; names[] now carries only the name and range,
-matching "Antony of Egypt (c. 251-356)," "Pachomius of Tabennesi
-(c. 292-346)," and "Evagrius Ponticus (c. 345-399)."
+The scholarly name's "4th-early 5th c." matches desert.source.apophthegmata-patrum's
+own dating of the tradition generally, marked as derived, consistent
+with this record set's own house style (desert.figure.antony.dates.born,
+desert.figure.evagrius.dates.born) - nothing in this corpus dates Sarah
+individually. divergence_note states desert.source.apophthegmata-patrum's
+own unconditional Inferential-Thin bound in full ("for ANY claim beyond
+what the surviving sayings themselves state"), not narrowed to the
+narrated encounter's historicity alone. names[] carries only the name
+and range, matching "Antony of Egypt (c. 251-356)," "Pachomius of
+Tabennesi (c. 292-346)," and "Evagrius Ponticus (c. 345-399)"; the
+provenance clause is in divergence_note above.
 
 Doc_08: desert.force.oral-to-written-shift added as a reciprocal
 relation - this record is that force's own concrete instance of the
