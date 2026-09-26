@@ -1,28 +1,22 @@
 """B-5 (S2.1): Donatism (don) gravity + force records.
 
-WHAT THIS SCRIPT DOES. Converts this world's already-built, already-reviewed
-Gravity Discovery (Doc_04_Gravity_Discovery.md, 3 independent adversarial
-review rounds, Approved to proceed) and Forces Document (Doc_08_Forces_
-Document.md, 2 independent adversarial review rounds, Approved to proceed)
-into record-native `gravity` and `force` records under records/don/gravity/
-and records/don/force/, per the live schema (engine/m1/schemas.py) and gate
-battery (engine/m1/gates.py). This is B-5 of the 9-step record-native build
-pipeline (B-1 through B-9); B-1 (41 sources + world_core), B-1a
-(search_record), B-2/B-3 (21 term records), and B-4 (9 story, 16 figure, 4
-quote records) are already done and committed. Read Build/worlds/don/
-scripts/wb_don_s21.py, wb_don_s22_s23.py, and wb_don_s24.py in full before
-this script was written (not touched by it, not re-run by it) for the
-docstring/code-pattern discipline this script follows, and
+WHAT THIS SCRIPT DOES. Converts this world's Approved-to-proceed Gravity
+Discovery (Doc_04_Gravity_Discovery.md) and Forces Document
+(Doc_08_Forces_Document.md) into record-native `gravity` and `force` records
+under records/don/gravity/ and records/don/force/, per the live schema
+(engine/m1/schemas.py) and gate battery (engine/m1/gates.py). This is B-5 of
+the 9-step record-native build pipeline (B-1 through B-9); B-1 (41 sources +
+world_core), B-1a (search_record), B-2/B-3 (21 term records), and B-4 (9
+story, 16 figure, 4 quote records) are already done and committed. It follows
+the docstring/code-pattern discipline of Build/worlds/don/scripts/wb_don_s21.py,
+wb_don_s22_s23.py, and wb_don_s24.py, and the fleet-precedent worked example
 records/pahc/gravity/pahc.gravity.boundary-drawing.md +
-records/pahc/force/pahc.force.boundary-drawing.md (read in full this
-session) as the one real, complete, fleet-precedent worked example of these
-two record types: gravity and force are deliberately SEPARATE,
-cross-referencing records, never one record covering both, and the six-test
-(gravity) / three-layer (force) discipline lives as prose inside the
-free-text `description` field -- `classification` (gravity) and
-`matrix_cell` (force) are the only structured axes the live schema actually
-provides (engine/m1/schemas.py TYPE_PROPERTIES, confirmed by direct read this
-session, not assumed from a prior summary).
+records/pahc/force/pahc.force.boundary-drawing.md: gravity and force are
+deliberately SEPARATE, cross-referencing records, never one record covering
+both, and the six-test (gravity) / three-layer (force) discipline lives as
+prose inside the free-text `description` field -- `classification` (gravity)
+and `matrix_cell` (force) are the only structured axes the live schema
+actually provides (engine/m1/schemas.py TYPE_PROPERTIES).
 
 WHY THIS WORLD'S OWN RECORD SET IS SHAPED DIFFERENTLY FROM PAHC'S. pahc's own
 worked example is a 1:1 twin: one Tensional gravity and one force describing
@@ -38,38 +32,28 @@ records, cross-referenced by a full relations[] graph built from three
 distinct sources named in Doc_04/Doc_08 themselves (see RELATION_PAIRS
 below), rather than pairing each gravity with one twin force.
 
-**CORRECTION APPLIED, per this step's own launch instruction to check
-directly rather than trust a prior summary.** Doc_04 SS3.4's own Dependency
-test for G4 reads: "PASS (strong), but reveals Supporting rather than Primary
-status" -- G4's Supporting classification rests on the DEPENDENCY test
-specifically (the parallel hierarchy has no independent formative content of
-its own once G1/G2/G3 are removed), not on Formation (Formation itself PASSES
-at "moderate" strength, per the same subsection, for a different reason: it
+**G4's classification ground.** Doc_04 SS3.4's own Dependency test for G4
+reads: "PASS (strong), but reveals Supporting rather than Primary status" --
+G4's Supporting classification rests on the DEPENDENCY test specifically (the
+parallel hierarchy has no independent formative content of its own once
+G1/G2/G3 are removed), not on Formation (Formation itself PASSES at
+"moderate" strength, per the same subsection, for a different reason: it
 "shapes which bishop one answers to... but does not itself generate a
-distinct formative practice-cluster"). This world's own Decision Log records
-that a Representative Phase Seven review chain (`don_Decision_Log.md`, the
-"Round 6" entry under Phase Seven, 2026-09-08/09) once misattributed this
-same classification to Formation grounds and was corrected back to
-Dependency -- this script verified Doc_04's own SS3.4 text directly (not the
-Decision Log's summary of the correction, and not Phase Seven's own document)
-before writing G4's own record, and every reference to this ground below
-cites Doc_04 SS3.4 by section, matching the corrected, current reasoning.
+distinct formative practice-cluster"). Every reference to this ground below
+cites Doc_04 SS3.4 by section.
 
-**A SECOND GRAVITY, NOT NAMED IN THIS STEP'S OWN LAUNCH BRIEF, CONFIRMED
-DIRECTLY AGAINST DOC_04 AND BUILT HERE.** This step's own launch brief lists
-G1, G2, G3, G4, G5, T1, T2 as "everything built so far" and explicitly warns
-this list "may be incomplete." Checked directly against Doc_04 SS1, SS3.5,
-and SS4 (the Classification Summary and its own required index table): Doc_04
-classifies EIGHT candidates, not seven -- D-A (Circumcellion/*Agonistici*
-character and scale) is confirmed **Supporting, scope-qualified to the
-Numidian regional sub-ecology** (Doc_04 SS3.5, SS4), a genuine classified
-gravity that Doc_08 SS5's own inverted table and Force Index both carry
-alongside G1-G5/T1/T2 ("All eight of this world's own classified gravities...
-connect to at least one identified force," Doc_08 SS5). D-B (Tyconius's own
-hermeneutics) and D-C (the Numidian native-social-protest substrate) were
-tested and NOT advanced, or deliberately not tested (Doc_04 SS2, SS4) -- this
-script does not build gravity records for either, matching Doc_04's own
-disposition exactly.
+**A second gravity not named in this world's own build brief, confirmed
+directly against Doc_04 and built here.** Doc_04 SS1, SS3.5, and SS4 (the
+Classification Summary and its own required index table) classify EIGHT
+candidates, not seven -- D-A (Circumcellion/*Agonistici* character and scale)
+is confirmed **Supporting, scope-qualified to the Numidian regional
+sub-ecology** (Doc_04 SS3.5, SS4), a genuine classified gravity that Doc_08
+SS5's own inverted table and Force Index both carry alongside G1-G5/T1/T2
+("All eight of this world's own classified gravities... connect to at least
+one identified force," Doc_08 SS5). D-B (Tyconius's own hermeneutics) and D-C
+(the Numidian native-social-protest substrate) were tested and NOT advanced,
+or deliberately not tested (Doc_04 SS2, SS4) -- this script does not build
+gravity records for either, matching Doc_04's own disposition exactly.
 
 INPUTS, mapped to OUTPUTS, precisely:
   - Doc_04_Gravity_Discovery.md SS1 (Candidate Generation table), SS3
