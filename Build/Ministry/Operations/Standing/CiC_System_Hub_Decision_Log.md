@@ -5465,3 +5465,58 @@ running; the rendering-fidelity gap (55% of graded quotes clean, 61% of all quot
 ungraded) is real, unaddressed by anything in this entry, and is the actual remaining
 rigor gap this project has — a fleet-wide `modern_rendering` authoring push, not a
 build-process rule change.
+
+---
+
+## 2026-09-26 — In-development workstream survey: five candidates evaluated for impact/benefit and API cost, build priority converged
+
+A repo-wide scan for real, in-progress engine/UX improvements (not old, not superseded,
+not already shipped) surfaced seven candidates. One (Website-V2 "remainder") was dropped
+on inspection — its own decision log shows D0→D4 fully shipped and closed 2026-09-17, with
+nothing queued after; it was never actually an open item. The other six were evaluated in
+pairs/singly for impact against the project's goals (rigor, accessibility, safety) and for
+API cost (one-time vs. recurring), then walked through with Mark one item at a time.
+Verified findings, not inferred:
+
+- **Streaming (CTE Stage 7) and Read-Aloud Step 1 are coupled, not independent**:
+  Read-Aloud's own design note names "Stage 7 landing on main" as one of its two blocking
+  verifications, and no `CIC_API_STREAMING`-consuming code exists anywhere yet. Evaluated
+  as one combined workstream. Code + tests exist for both (`engine/m4/streaming.py`,
+  `cic-poc/frontend/src/components/ReadAloudControl.tsx` + siblings) but only on unmerged
+  branches. No recurring API cost — same model calls, just restructured delivery;
+  Read-Aloud itself is free browser-native `speechSynthesis`. Finishing this also unblocks
+  R42 (an already-decided citation-completeness directive currently held pending Stage 7b).
+  **Decision: build this first.**
+- **Atlas → Table integration**: code + tests exist on `claude/world-map-merge-into-main`
+  (112 files, +803/-4501), Tier A/B scope already decided 2026-07-20 ("the Story is the
+  website's exploration surface; Choose a Tradition is the in-app selection surface").
+  Zero API cost — static routing/UX, unrelated to any LLM call. Needs a rebase (was 2
+  commits behind main as of 2026-07-22, likely more now) and building Choose a Tradition
+  against the existing handoff contract. **Decision: queue next, right after
+  Streaming/Read-Aloud.**
+- **`engine/m5/safety_accumulation.py`**: the accumulator itself is built and tested
+  (`engine/m5/tests/test_safety_accumulation.py`), but confirmed NOT wired into
+  `live_calls.call_safety` (`engine/m4/turn.py:139` hardcodes `accumulator={}` every turn,
+  deliberately, per `wiring.py`'s own comment). The proposed threshold
+  (`Build/reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md`
+  §4.3) is explicitly flagged there as "not yet tested against live models or real
+  adversarial phrasing," and the current 33-scenario safety-script corpus is
+  single-message/empty-window, incompatible with testing an accumulating mechanism.
+  **Decision: spin off as its own dedicated safety effort** (rewritten adversarial corpus,
+  Opus-level review given the stakes) — not folded into the routine build queue above.
+- **Library Access Gate increments 6-8**: fully designed
+  (`Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md` §7), zero
+  runtime/participant impact (compile-time/CI only), but genuinely blocked upstream —
+  Decision-Log entry 22 (CO-5) reordered §7 so increments 6/7(shelf_row half)/8 wait on
+  corpus-map's own CM-1/CM-4, neither of which has been built or evaluated as its own
+  workstream. **Decision: leave fully parked** — not worth starting a new, unevaluated
+  workstream (corpus-map CM-1) just to unblock a zero-cost, non-participant-facing item.
+- **Production TTS (ElevenLabs vs. Google Chirp 3 HD)**: no decision, no code anywhere in
+  the repo, no ElevenLabs platform access in the current build environment. The only
+  substantive text is a 2026-07-08 cost-model entry in
+  `Build/Ministry/Funding/CiC_Org_Funding_Decision_Log.md` — "cheaper voice (Chirp 3 HD at
+  ~$30/M characters vs. ElevenLabs' $50–100/M) cuts voice cost roughly 65%, with an explicit
+  quality tradeoff flagged, not yet A/B tested" for this project's specific need
+  (culturally/gender-matched, emotionally expressive per-Representative voices). This is
+  the only **recurring**, usage-scaling cost item among the six. **Decision: defer
+  entirely** — revisit once the zero-cost items above have shipped.
