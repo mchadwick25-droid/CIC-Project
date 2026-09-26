@@ -66,6 +66,115 @@ def test_construction_doc_under_worlds_not_protected(tmp_path):
     assert hits[0].category != "PROTECTED"
 
 
+# ---------------------------------------------------------------------------
+# Doc_0[1-9] construction-doc review-status exemption
+# (_doc_construction_protected_lines / _is_doc_construction_file)
+# ---------------------------------------------------------------------------
+
+def test_doc_construction_header_field_protected(tmp_path):
+    text = (
+        "# Doc_07 -- Integrated Ecology Analysis\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Round 1 review complete; Round 2 bounded spot-check complete\n"
+        "**Produced at:** Construction Step 7, per Mark, 2026-07-27\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 1. Body\n"
+        "Per Mark's ruling, R26, this is ordinary body text.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/alx/Doc_07_Integrated_Ecology_Analysis.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[4] == "PROTECTED"  # **Status:**
+    assert by_line[5] == "PROTECTED"  # **Produced at:**
+    assert by_line[10] != "PROTECTED"  # ordinary body text, well past the header
+
+
+def test_doc_construction_header_narrative_lead_not_protected(tmp_path):
+    # A bold lead that reads as a full sentence (an apostrophe, in this
+    # case) rather than a short field name is real header disclosure
+    # prose, not metadata - it must stay flagged like any other narrative,
+    # even though it sits in the same header block as genuine fields.
+    text = (
+        "# Doc_04 -- Gravity Discovery\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Approved to proceed, per Mark, R26\n"
+        "**Per Mark's own ruling, R26, this candidate is Supporting:** decided directly.\n"
+        "\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/don/Doc_04_Gravity_Discovery.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[4] == "PROTECTED"
+    assert by_line[5] != "PROTECTED"
+
+
+def test_doc_construction_open_items_and_handoff_variants_protected(tmp_path):
+    # Two of the real, surveyed heading variants - "Handoff and Open
+    # Items" (don) and a separate "Document Log" immediately after it
+    # (the actual gallic Doc_07 shape) - each start their own run.
+    text = (
+        "# Doc_03 -- Lexicon Candidate List\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Approved to proceed\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 1. Candidates\n"
+        "Per Mark's ruling, R26, candidate X is included.\n"
+        "\n"
+        "## 6. Handoff and Open Items\n"
+        "Per Mark's ruling, R26, this is carried to Doc_04.\n"
+        "\n"
+        "## 7. Document Log\n"
+        "Round 1 review (Opus, 2026-07-20): per Mark, R26.\n"
+        "\n"
+        "## 8. Appendix\n"
+        "Per Mark's ruling, R26, an appendix note outside the tail block.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/rzg/Doc_03_Lexicon_Candidate_List.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[9] != "PROTECTED"  # "## 1. Candidates" body - ordinary
+    assert by_line[12] == "PROTECTED"  # inside "Handoff and Open Items"
+    assert by_line[15] == "PROTECTED"  # inside "Document Log"
+    assert by_line[18] != "PROTECTED"  # past both, back to ordinary body
+
+
+def test_doc_construction_no_tail_heading_leaves_nothing_protected(tmp_path):
+    # lpc's Doc_08 and syr's Doc_09 shape: no "Open Items"/"Handoff"/
+    # "Document Log"/"Disposition" heading anywhere - nothing to protect,
+    # and nothing should be swept.
+    text = (
+        "# Doc_08 -- Forces Document\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Approved to proceed, per Mark, R26\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 1. Forces\n"
+        "Per Mark's ruling, R26, this is a force finding.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/lpc/Doc_08_Forces_Document.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[4] == "PROTECTED"  # the header field is still protected
+    assert by_line[9] != "PROTECTED"  # no tail heading exists to protect this
+
+
+def test_doc_construction_world_prefixed_filename_not_covered(tmp_path):
+    # A real, surveyed exception: a world-prefixed filename
+    # (hal_Doc_01_..., gallic_Doc07_..., witt_Doc_01_...,
+    # cappadocian_Doc_01_...) is not the bare Doc_0[1-9]_*.md convention
+    # this exemption matches, and is deliberately left uncovered rather
+    # than guessed at.
+    text = "**Status:** Approved to proceed, per Mark, R26\n"
+    hits = _hits_for(text, tmp_path, "Build/worlds/hal/hal_Doc_01_World_Identification_Boundaries_Orientation.md")
+    assert hits[0].category != "PROTECTED"
+
+
 def test_world_build_dir_protected(tmp_path):
     text = "RULED 2026-09-01 per Mark\n"
     hits = _hits_for(text, tmp_path, "Build/worlds/rzg/build/bar-screen-2026-09-19.json")
@@ -165,7 +274,11 @@ def test_bare_yaml_date_scalar_keeps(tmp_path):
 
 
 def test_bare_markdown_header_date_keeps(tmp_path):
-    hits = _hits_for("**Date drafted:** 2026-07-20\n", tmp_path, "Build/worlds/alx/Doc_01_World_Identification.md")
+    # Path deliberately does NOT match Doc_0[1-9]_*.md (see
+    # test_doc_construction_header_field_protected below for that case) -
+    # this test isolates the plain _BARE_DATE_HEADER_LINE KEEP rule on its
+    # own, on a worlds/ file the new construction-doc exemption ignores.
+    hits = _hits_for("**Date drafted:** 2026-07-20\n", tmp_path, "Build/worlds/alx/World_Profile.md")
     assert hits[0].category == "KEEP"
 
 
@@ -791,26 +904,28 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/worlds/ijc/Source_Registry.md", 25, "REWRITE"),
     ("Build/worlds/rzg/Doc_05_Ecological_Reconstruction.md", 177, "REWRITE"),
     ("Build/worlds/syr/CiC_W7_Decision_Log.md", 16, "REWRITE"),
-    # Hand label ROUTE (genuinely open placement/ruling question, not yet
-    # resolved); the tool currently reads this as REWRITE (a false 4-class
-    # miss inside the same "needs action" bucket - see the PR body's
-    # ROUTE_CUES limitation note).
-    ("Build/worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "ROUTE"),
+    # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
+    # exemption): this line sits in Doc_04's own "## Disposition" section
+    # ("Carried open, and not resolved by this approval") - exactly the
+    # load-bearing pipeline-state content that section now protects, so
+    # it moved from a hand-labelled ROUTE (a genuinely open placement
+    # question the tool used to read as REWRITE) to PROTECTED, the
+    # correct category under the new rule.
+    ("Build/worlds/lpc/Doc_04_Gravity_Discovery.md", 259, "PROTECTED"),
     ("Build/worlds/witt/witt_Doc_06_Full_Lexicon_Development.md", 1754, "REWRITE"),
-    ("cic/engine/texts_registry.py", 74, "REWRITE"),
-    ("cic/engine/texts_registry.py", 220, "REWRITE"),
-    ("cic/engine/corpus_authors.py", 88, "REWRITE"),
-    ("cic/engine/tests_corpus_map.py", 52, "REWRITE"),
-    ("cic/engine/corpus_map.py", 75, "REWRITE"),
-    ("cic/engine/texts_registry.py", 11, "REWRITE"),
-    # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #503): the
-    # original 6 cic-poc/frontend samples here were cleaned by that PR
-    # (round 1 and round 2 together) and stopped matching, apart from
-    # FigureBridgeMark.tsx:3 below - a real file citation whose date is
-    # part of the filename, not commentary. The other 5 slots move to
-    # fresh cic/corpus-map examples, not yet touched by the cleanup
-    # program, to keep this table at >=60 real, currently-matching lines.
-    ("cic-poc/frontend/src/components/FigureBridgeMark.tsx", 3, "REWRITE"),
+    # Refreshed 2026-09-26 (Phase 3b: cic/engine/ + cic-poc/frontend
+    # cleanup, commits 11ee5a81 and the earlier f1e1e093): all 7 samples
+    # below (6 cic/engine, 1 cic-poc/frontend) were cleaned and stopped
+    # matching. Moved to fresh records/ examples, not yet touched by the
+    # cleanup program, to keep this table at >=60 real, currently-matching
+    # lines.
+    ("records/don/gravity/don.gravity.rebaptism-boundary.md", 124, "REWRITE"),
+    ("records/hal/voice_craft/hal.voice.craft.md", 57, "REWRITE"),
+    ("records/pahc/quote/pahc.quote.they-appointed-the-first-fruits.md", 73, "REWRITE"),
+    ("records/cappadocian/quote/cappadocian.quote.basil-against-delaying-baptism.md", 109, "REWRITE"),
+    ("records/ijc/quote/ijc.quote.constantine-bishop-outside.md", 39, "REWRITE"),
+    ("records/cappadocian/contested_claim/cappadocian.contested.homoian-nicene-reversal.md", 24, "REWRITE"),
+    ("records/ijc/source/ijc.source.canons-constantinople-381.md", 25, "REWRITE"),
     # Refreshed 2026-09-24 (Live-Surface-Cleanup Step 2, PR #501): the
     # original 6 cic-website samples here were cleaned by that PR and
     # stopped matching. cic-website is now clean apart from one known
@@ -893,7 +1008,12 @@ HAND_LABELS: list[tuple[str, int, str]] = [
     ("Build/reference/Project-Reference/CiC_Cleaning_Pattern_Log.md", 35, "KEEP"),
     ("Build/reference/Redesign-Spec/PHASE-1-LAUNCH.md", 443, "REWRITE"),
     ("Build/reference/L4-Templates/Representative_Construction_Notes_Template.md", 366, "KEEP"),
-    ("Build/worlds/ijc/Doc_07_Integrated_Ecology_Analysis.md", 5, "KEEP"),
+    # Refreshed 2026-09-26 (Doc_0X construction-doc review-status
+    # exemption): this "Date drafted:" header line was hand-labelled KEEP
+    # under the old bare-date rule alone; it is now PROTECTED, the more
+    # specific and correct category, by the new
+    # _doc_construction_protected_lines header-field-line rule.
+    ("Build/worlds/ijc/Doc_07_Integrated_Ecology_Analysis.md", 5, "PROTECTED"),
     ("Build/worlds/cappadocian/Review-Artifacts/UnusedSourceFinding_Round3_Review.md", 20, "PROTECTED"),
     ("Build/worlds/don/Open_Gaps_Tracking.md", 357, "PROTECTED"),
     ("Build/worlds/witt/witt_Doc03_Review_Round11.md", 64, "PROTECTED"),

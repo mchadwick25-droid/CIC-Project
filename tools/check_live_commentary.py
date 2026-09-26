@@ -602,6 +602,145 @@ PROTECTED_HISTORICAL_FILES = {
 PROTECTED_REGISTRY_LOG = "records/WORLDS_REGISTRY_LOG.md"
 
 
+_DOC_CONSTRUCTION_FILENAME_RE = re.compile(r"^Doc_0[1-9]_.+\.md$")
+
+
+def _is_doc_construction_file(rel: Path) -> bool:
+    """Build/worlds/<code>/Doc_0[1-9]_*.md - the nine canonical per-world
+    construction documents CLAUDE.md itself names under "Keep the
+    live/canonical surfaces clean" ("the canonical construction documents
+    (Doc_01-Doc_09 per world..."). Bare, unprefixed filenames only: alx,
+    don, ijc, lpc, rzg and syr use this convention. A world-prefixed
+    variant (hal_Doc_01_..., gallic_Doc07_..., witt_Doc_01_...,
+    cappadocian_Doc_01_...) is a real, surveyed exception - those worlds do
+    not share one uniform filename shape, so extending the match there
+    would be guessing rather than verifying, and is left out rather than
+    assumed to fit."""
+    parts = rel.parts
+    return (
+        len(parts) == 4
+        and parts[0] == "Build"
+        and parts[1] == "worlds"
+        and bool(_DOC_CONSTRUCTION_FILENAME_RE.match(parts[3]))
+    )
+
+
+# A bold field-label opening a line, e.g. "**Status:**", "**Produced
+# at:**", "**World file-code (provisional):**" - deliberately narrow
+# (letters/digits/space/parens/hyphen only between the asterisks and the
+# colon) so it does NOT match a header's own free-prose disclosure
+# paragraphs, which use full sentences and so carry an apostrophe, a
+# comma, or other punctuation this class excludes - e.g. ijc Doc_04's
+# "**Note on this document's own place in this project's methodology:**"
+# or ijc Doc_05's "**Writing-From-Inside note, stated accurately:**".
+# Those stay flagged like any other prose; only a genuine short
+# field-name line is protected.
+_DOC_HEADER_FIELD_RE = re.compile(r"^\*\*[A-Z][\w /()\-]*:\*\*")
+
+# Any heading (## or deeper) that starts or continues this project's own
+# tail administrative block - every wording actually found across the
+# surveyed sample: "Open Items and Handoff" (alx), "Handoff and Open
+# Items" (don), "Open items carried forward [to later steps]" (ijc/witt/
+# rzg), "Open Issues Flagged for Downstream Documents" (hal-style),
+# "Document Log" / "Document log" (gallic, witt, lpc - where the
+# disagreement log and escalation check actually live, one heading after
+# "Open Items"), "Disposition" / "Review and Disposition" (ijc, hal, rzg,
+# lpc). A document with none of these headings (lpc's Doc_08, syr's
+# Doc_09) matches nothing here - correctly: there is no tail block to
+# protect.
+_DOC_TAIL_HEADING_RE = re.compile(r"open items?|handoff|document log|disposition", re.IGNORECASE)
+
+
+def _doc_construction_protected_lines(rel: Path, text: str) -> set[int]:
+    """Line numbers of a Doc_0[1-9] construction document's own inline
+    review-status tracking - decided directly with Mark: this is
+    load-bearing build-cycle pipeline state (`cic-build-cycle`, CLAUDE.md's
+    "Scaling the build"), not narrative drift to be cleaned, and a fuller
+    companion-file migration of it is a separate, later project, not this
+    one. Survey of 8+ files across alx/don/ijc/lpc/rzg/syr, multiple Doc
+    numbers, found no single fixed heading and no fixed two-field header,
+    so this protects at line/heading level rather than by a blanket file
+    or whole-header-block skip - any other narrative in the same file (a
+    header's own free-prose disclosure paragraph, a mid-document aside)
+    stays flagged exactly as before:
+
+    1. A header metadata line matching _DOC_HEADER_FIELD_RE, plus that
+       field's own continuation lines. This repo's actual convention is
+       one field per single, often very long, physical line; continuation
+       handling is defensive, for a field that does wrap. A run stops at
+       the next field-label line, a blank line, or a `---` divider.
+       Bounded to before the file's first `---` divider (found within the
+       first 40 lines - every surveyed file has one there) or, failing
+       that, a defensive 15-line cap.
+    2. The tail administrative block: any heading (## or deeper) matching
+       _DOC_TAIL_HEADING_RE, protected to the next heading of the same or
+       shallower level, or EOF. Two such headings in a row (an "Open
+       Items" section immediately followed by a separate "Document Log"
+       holding the disagreement log and escalation check - the actual
+       gallic Doc_07 shape) each start their own run, so both are
+       covered.
+    """
+    if not _is_doc_construction_file(rel):
+        return set()
+
+    lines = text.splitlines()
+    protected: set[int] = set()
+
+    # 1. Header metadata fields (plus continuation lines).
+    header_end = next(
+        (i for i, line in enumerate(lines[:40]) if line.strip() == "---"),
+        min(15, len(lines)),
+    )
+    i = 0
+    while i < header_end:
+        if _DOC_HEADER_FIELD_RE.match(lines[i]):
+            protected.add(i + 1)
+            # Continuation lines, for a field whose value wraps - this
+            # repo's actual convention is one field per single (often very
+            # long) physical line, so this rarely if ever fires; it stops
+            # at a blank line, a `---` divider, OR any line starting with
+            # "**" - not only one matching the narrow field-label shape.
+            # That second check matters: a header's own free-prose
+            # disclosure paragraph also opens with a bold lead (e.g. ijc
+            # Doc_04's "**Note on this document's own place in this
+            # project's methodology:**"), and must end this field's run
+            # rather than being swept into it - it gets its own, separate
+            # (and correctly negative) test against the field-label regex
+            # on the next outer iteration.
+            j = i + 1
+            while (
+                j < header_end
+                and lines[j].strip() not in ("", "---")
+                and not lines[j].lstrip().startswith("**")
+            ):
+                protected.add(j + 1)
+                j += 1
+            i = j
+        else:
+            i += 1
+
+    # 2. Tail administrative block(s), heading-keyword driven.
+    heading_re = re.compile(r"^(#{2,})\s+(.*)$")
+    headings = []  # (0-indexed line, level, heading text)
+    for idx, line in enumerate(lines):
+        m = heading_re.match(line)
+        if m:
+            headings.append((idx, len(m.group(1)), m.group(2)))
+
+    for pos, (idx, level, htext) in enumerate(headings):
+        if not _DOC_TAIL_HEADING_RE.search(htext):
+            continue
+        end = len(lines)
+        for idx2, level2, _ in headings[pos + 1:]:
+            if level2 <= level:
+                end = idx2
+                break
+        for k in range(idx, end):
+            protected.add(k + 1)
+
+    return protected
+
+
 def _is_engine_report(rel: Path) -> bool:
     """engine/<module>/reports/ - committed battery-run output (JSON
     snapshots of records fed through a gate battery), not authored
@@ -692,6 +831,7 @@ def scan_file(repo: Path, path: Path, surface: str) -> list[Hit]:
         protected_field_lines = _protected_record_field_lines(field_lines, record_type)
         spoken_field_lines = _spoken_field_lines(field_lines, record_type)
         source_record_body_lines = _source_record_body_lines(text, record_type)
+    protected_field_lines |= _doc_construction_protected_lines(rel, text)
 
     change_history_block_lines: set[int] = set()
     for i, line in enumerate(raw_lines, start=1):
