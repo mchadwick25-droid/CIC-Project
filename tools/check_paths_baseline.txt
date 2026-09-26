@@ -22,6 +22,7 @@ Build/Ministry/Features/Funding-Strategy/CiC_Stripe_Setup_Wording_Strategy_Logis
 Build/Ministry/Features/Guided-Questions/CiC_Answer_Bank_SH11_V0_1.md: cic-poc/backend/data/answer_bank
 Build/Ministry/Features/Guided-Questions/Design/CiC_Guided_Questions_Design_Study_V0_1.md: cic-poc/backend/app/world_manifest.py
 Build/Ministry/Features/Guided-Questions/README.md: cic-poc/backend
+Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: Sandbox/D3-Freeze-Check.md
 Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: cic/engine/corpus_map.load
 Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: engine/m4/grounding_net._normalize
 Build/Ministry/Features/Library-Access-Gate/D3-Converged-Design.md: records/worlds.yaml
@@ -35,6 +36,7 @@ Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/engine/c
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: cic/texts/INDEX.sqlite
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: records/worlds.yaml
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D2-Struggle.md: tools/gen_shelf.py
+Build/Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: Sandbox/D3-Converged-Design.md
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: cic/engine/corpus_map.load
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: engine/m1/gates.run_all
 Build/Ministry/Features/Library-Access-Gate/Sandbox/D3-Freeze-Check.md: records/worlds.yaml
@@ -44,9 +46,18 @@ Build/Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-ma
 Build/Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-B-verbatim-match.md: tools/gen_shelf.py
 Build/Ministry/Features/Library-Access-Gate/Sandbox/Q7-measurement-I5-complement-sweep.md: records/worlds.yaml
 Build/Ministry/Features/Website-V2/CiC_Website_Design_V2.md: Build/Ministry/Scholarly-Review/CiC_World1_Brief_for_Reviewers_Source.md
+Build/Ministry/Features/Website-V2/CiC_Website_Design_V2.md: Sandbox/D1-directions/06-hybrid-open-door
+Build/Ministry/Features/Website-V2/CiC_Website_Design_V2.md: Sandbox/D2-struggle/06-hybrid-open-door-review.md
+Build/Ministry/Features/Website-V2/CiC_Website_Design_V2.md: Sandbox/D2-struggle/D3-synthesis-review.md
+Build/Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md: Sandbox/D1-directions/06-hybrid-open-door/homepage.html
+Build/Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md: Sandbox/D2-struggle/D3-synthesis-review.md
 Build/Ministry/Features/Website-V2/CiC_Website_V2_Storyboard.md: cic-website/assets/tour-captures/theon-confidence.png
+Build/Ministry/Features/Website-V2/Research/06-horizontal-scroll-storytelling.md: Sandbox/D2-struggle/05-product-led-clarity-review.md
 Build/Ministry/Features/Website-V2/Sandbox/CiC_Website_V2_D0_Inheritance_Note.md: cic-website/tour.html
 Build/Ministry/Features/Website-V2/Sandbox/D1-directions/05-product-led-clarity/README.md: records/worlds.yaml
+Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/01-editorial-longform-review.md: Sandbox/D1-directions/01-editorial-longform
+Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/02-atlas-first-spatial-defense.md: Sandbox/D2-struggle/02-atlas-first-spatial-review.md
+Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/02-atlas-first-spatial-review.md: Sandbox/D1-directions/02-atlas-first-spatial
 Build/Ministry/Features/Website-V2/Sandbox/D2-struggle/05-product-led-clarity-defense.md: cic-website/assets/tour-captures
 Build/Ministry/Operations/Standing/CiC_GoLive_Pipeline_Status.md: World-Builds/
 Build/Ministry/Operations/Standing/WORLDS_REGISTRY_LOG.md: Build/Ministry/Technology/CiC_Register_Bar_2026-08-29.md

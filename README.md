@@ -1,17 +1,19 @@
 # Church in Conversation — the map
 
-This repository is a modular system in three zones. **Live** is what runs and is
+This repository is a modular system in four zones. **Live** is what runs and is
 protected: it changes only by promotion after test and verification. **Build**
 is everything that builds or governs the system without being part of what runs
 it — method, records-in-progress, decisions, tooling — kept in one place so the
-root shows only the running program by default. **History** is everything
+root shows only the running program by default. **Sandbox** is active
+next-version work: experimental changes and in-progress redesigns not yet part
+of Live and not settled enough to be Build. **History** is everything
 superseded, kept and never deleted without instruction. The modules are a source
 library shelved by tradition; worlds, each a self-contained unit that loads only
 when a conversation calls it and speaks only from its own records; the atlas;
 the interview engine; the table engine; the facilitator; and the build and audit
 tooling around them.
 
-Every top-level entry belongs to one of three kinds. Nothing else sits at the root.
+Every top-level entry belongs to one of four kinds. Nothing else sits at the root.
 
 ## Live — what deploys, and what reads it
 
@@ -49,6 +51,12 @@ root `tools/`; everything else in `tools/` — scripts nothing in CI invokes —
 | `Build/reference/fleet-voice/` | the exemplar transcript every world's voice is held to |
 | `Build/Ministry/` | decisions, features, funding, communication, organization, scholarly review, audits. `Build/Ministry/Operations/Standing/` holds the standing tracking documents, including the fleet-wide world registry's own decision history (`WORLDS_REGISTRY_LOG.md`, moved out of `records/` 2026-09-24 — CLAUDE.md's "Keep the live/canonical surfaces clean"); `Build/Ministry/Operations/Audits/` the dated one-off analyses and the move ledger; `Build/Ministry/Features/<name>/` each in-development feature |
 | `Build/tools/` | the building-tools subset of `tools/`: the reorganization/citation-rewrite tooling, the lexicon compliance checker, and the Church Family Tree (Atlas) page generators |
+
+## Sandbox — active next-version work
+
+| entry | what it is |
+|---|---|
+| `Sandbox/` | experimental engine changes, in-progress redesigns, and next-version drafts of any kind — not yet part of Live, not settled enough to be Build. Distinct from the existing per-feature design-exploration folders under `Build/Ministry/Features/<name>/Sandbox/`, which stay tied to their own feature's decision log |
 
 ## History
 

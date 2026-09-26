@@ -836,3 +836,25 @@ running concurrently, not part of what the gate was reviewing.
 reflecting real pre-existing drift the fixed checker can see again, not new breakage);
 `tools/test_repin_stale_worlds.py`: 3 passed; `engine.m1.bar_screen` / `engine.m9.cli`
 import cleanly.
+
+---
+
+## 2026-09-26 — New top-level Sandbox/ zone added (4th kind)
+
+**Context.** Mark's direction: add a fourth top-level kind for active next-version work
+(experimental engine changes, in-progress redesigns) distinct from Build/ (settled method
+and history) and Live. Existing per-feature `Sandbox/` design-exploration folders under
+`Build/Ministry/Features/<name>/Sandbox/` stay where they are, by his own choice — a
+different thing (feature-specific design exploration tied to that feature's own decision
+log), not consolidated into this one.
+
+**Action.** Created `Sandbox/README.md` (empty otherwise, for now). Updated README.md:
+"three zones" → "four zones", added the `## Sandbox` section and table row.
+
+**Known naming-quirk, baselined not fixed:** the existing `Build/Ministry/Features/Website-V2/Sandbox/`
+folder uses bare relative self-references like `Sandbox/D1-directions/...` meaning "this
+same folder" — creating the new top-level `Sandbox/` made `tools/check_paths.py` treat
+those as citations into the *new* directory. 11 such false-positive entries baselined;
+not a real break, just two different things sharing the word "Sandbox."
+
+**Path check:** 0 new unresolved, 0 retired paths present, 1,038 total accepted.
