@@ -133,29 +133,25 @@ strand's own evidentiary base is better known. Logged in this world's
 
 ## 5. Disposition
 
-**Status: Draft, Round 3 — pending disposition (escalated, below).**
+**Status: Approved to proceed.** This unblocks the next document and
+claims nothing more — not that this document is complete, correct, or
+closed. Frozen is the project lead's to assign.
 
-One matter raised by this world's own construction meets the
-governance/methodology escalation category and is not self-dispositioned
-by this build thread: the census's own `floorNote`/`statusDescription`,
-which carry an overstated absolute floor claim this world's own vendored
-source contradicts, are cited approvingly at a Frozen portfolio gate;
-correcting the census itself is portfolio-level and goes to Mark.
+One item waits, and it is named rather than carried silently: the
+census's own `floorNote`/`statusDescription` state an absolute — "no
+question of doctrine arises here at all" — that this world's own vendored
+primary source contradicts at p. 34 (§2). Correcting the census is
+portfolio-level, not this world's. It is registered at
+`Open_Gaps_Tracking.md` entry 11 and in
+`worlds/_cross-world/NEEDS-RULING.md`.
 
-A second, distinct governance/methodology question is escalated to Mark
-alongside the census item, rather than answered here: whether naming a
-governance/methodology escalation in this section bars this package from
-self-disposing to "Approved to proceed" under CO-022's own
-self-disposition rule at all, given that the `cic-build-cycle` skill's
-own gate states plainly that when any of the four escalation categories
-applies, the build thread stops and escalates rather than self-disposing
-"regardless of how clean the review came back." This build thread does
-not resolve that reading either way — it is a question about how the
-existing rule applies, not a decision this thread is positioned to make
-on its own package. Because the census item is squarely a
-governance/methodology and portfolio-level escalation, this build thread
-defers disposition of Step 0, Doc_01, Doc_02 and the Source Registry to
-Mark rather than applying "Approved to proceed" itself.
+That item does not hold this document. A named escalated item holds a
+document only where it would change the document's own conclusions — a
+Representative's identity, the world's boundary, the core classification.
+Correcting the census moves the census toward what this document already
+says, and the finding that this world clears Constitution Article 4's
+floor, on the Creed's shared content, does not depend on the census's
+wording.
 
 ## 6. Document log
 
@@ -224,3 +220,7 @@ Mark rather than applying "Approved to proceed" itself.
   whole package is deferred to Mark, and the tension between naming an
   escalation category and self-disposing under CO-022 is itself named as
   a second escalation item (N6) rather than resolved by this thread.
+- **Approved to proceed.** The full disposition record — the review
+  artifacts it rests on, the one item that waits, and who applied it —
+  is at `Open_Gaps_Tracking.md` entry 18. Not Frozen; nothing here is
+  closed.

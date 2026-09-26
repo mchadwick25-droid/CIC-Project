@@ -416,3 +416,74 @@ above), which the coordinator has confirmed remains correctly escalated
 as a genuine portfolio-level matter, separate from the stale-checkout
 problem this entry corrects, and is not to be edited by this build
 thread.
+
+**18. (2026-09-26, disposition) Mark ruled the CO-022 escalation question,
+and Step 0, Doc_01, Doc_02 and the Source Registry are now Approved to
+proceed; the census item is the one thing still waiting.** Entry 17 left
+open whether naming a governance/methodology escalation in a Disposition
+section bars a package from self-disposing under CO-022. Mark's ruling,
+2026-09-26: "The document can proceed; only the named item waits. It goes
+to NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't
+change the document's own conclusions. If it does change them (a
+Representative's identity, the world's boundary, the core classification),
+the document waits." Recorded in full at
+`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, 2026-09-26.
+
+Applied here: the one remaining escalation is the census's own
+`floorNote`/`statusDescription` (entry 11 — the absolute "no question of
+doctrine arises here at all" that this world's own vendored source
+contradicts at p. 34, cited approvingly at a Frozen portfolio gate).
+Tested against the ruling, it falls on the first branch: correcting the
+census moves the census *toward* what these documents already say, and
+this world's own conclusion — it clears Constitution Article 4's floor
+comfortably, on the Creed's shared content, and the schism is
+ritual-and-textual rather than a rival confession — does not depend on
+the census's wording. No Representative identity, world boundary or core
+classification turns on it. So the four documents proceed and the census
+item waits, registered here and, because it is portfolio-level and
+touches a Frozen gate artifact, also in
+`worlds/_cross-world/NEEDS-RULING.md`'s hand-maintained tail.
+
+"Approved to proceed" unblocks Doc_03 and claims nothing more. Only Mark
+assigns Frozen, and nothing in this world is closed.
+
+**Two things to hold against this entry.** The disposition was applied by
+the same thread that reviewed the package — the Round 2 review thread —
+so it rests on Mark's ruling above plus the independent confirmation at
+`obel_Step0_Doc01_Doc02_Review_Round2_Recheck.md` §10, not on the
+disposing thread's own view of the documents' quality. And the two-branch
+rule is not yet in the governing process documents (V1.8, and the
+`cic-build-cycle` skill's Disposition and Escalation sections); editing
+those is a coach thread's authority, so the next world will re-derive the
+question until one lands it. Flagged in the decision-log entry.
+
+**19. (2026-09-26, live-surface hygiene) `tools/check_live_commentary.py`
+flags provenance commentary in all four of this world's construction
+documents — pre-existing, fleet-wide, and not fixed here.** The check
+reports roughly 94 REWRITE/ROUTE lines across
+`Step0_Movement_Scope_Confirmation.md`, `Doc_01`, `Doc_02` and
+`obel_Source_Registry.md`: review-round names, ISO dates attached to
+changes, Decision-Log pointers, and "Mark's ruling" attributions, almost
+all of it inside each document's own **Document Log** section. This file
+and the review artifacts are PROTECTED by the checker and are not part of
+the count.
+
+Two things make this an entry rather than an edit. First, the rule and the
+`cic-build-cycle` skill pull opposite ways here: the checker's rule says
+provenance belongs in `Ministry/` and this file, while the skill requires
+a document's disposition be logged with its review outcome, round count
+and artifact paths — which is what the Document Log sections are. Nothing
+has ruled which wins, and stripping them unilaterally would delete build
+history the skill asks for. Second, the same pattern is present across
+`worlds/` generally (`witt`, and others), so this is the
+Live-Surface-Cleanup program's own scope (its Step 1 classifier is what
+reported it; its later passes do the edits), not one world's cleanup.
+
+What was fixed in this pass: only the provenance this pass itself
+introduced. The disposition text in Step 0 §5 and Doc_02 §15 states the
+rule in plain present tense with no ruling date, name, or Decision-Log
+pointer, and the four Document Log disposition lines carry no round
+names or dates — each points here, to entry 18, for the full record.
+The four remaining `marks-word` hits in the construction documents
+(Doc_01 §4, Doc_02 §7, Step 0 §1, Registry R2) are the build thread's
+own INTAKE.md and Decision-Log citations, left as found.

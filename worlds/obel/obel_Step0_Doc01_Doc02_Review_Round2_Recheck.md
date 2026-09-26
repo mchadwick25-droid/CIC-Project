@@ -869,3 +869,57 @@ staging source in its prose fields.
 local commit fixing the four items (`f2f0d78`) was discarded rather than
 pushed: every change in it was already made upstream, and it would have
 re-imposed the second-witness over-correction this correction withdraws.*
+
+---
+
+# 11. Addendum, 2026-09-26 — N6 ruled; the package proceeds
+
+§3's N6 asked whether naming a governance/methodology escalation in a
+Disposition section bars a package from self-disposing under CO-022. I
+put it to Mark rather than answering it. He ruled, 2026-09-26:
+
+> "The document can proceed; only the named item waits. It goes to
+> NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't
+> change the document's own conclusions. If it does change them (a
+> Representative's identity, the world's boundary, the core
+> classification), the document waits."
+
+So the gate is two-branch, and the test is whether the escalated item
+would change the document's own conclusions. Recorded in full at
+`Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`, 2026-09-26.
+
+**Applied.** `obel`'s one remaining escalation is the census's own
+`floorNote`/`statusDescription`. It falls on the first branch: correcting
+the census moves it toward what these documents already say, and the
+conclusion that this world clears Article 4's floor on the Creed's shared
+content does not depend on the census's wording. Step 0, Doc_01, Doc_02
+and the Source Registry are **Approved to proceed**; the census item
+waits at `Open_Gaps_Tracking.md` entries 11 and 18 and in
+`worlds/_cross-world/NEEDS-RULING.md` (item 5, hand-maintained tail,
+below the preservation marker so a regeneration keeps it).
+
+**This recheck's §1 verdict is superseded.** It read "substantial
+revision still required" against four blocking items. All four were
+fixed by the build thread's `7f728693`, confirmed against a current
+checkout at §10, and the last of them — N6 — is now ruled. Nothing in
+§2's table or §3's list is outstanding, with the standing exception that
+§10 withdrew Findings 2, 3 and 20 as stale-checkout artifacts rather than
+closing them.
+
+**One caution that does not go away.** The disposition was applied by
+this review thread, which reviewed the package. That is not the
+self-certification `CLAUDE.md` forbids — the disposing thread is not the
+author — but it is not independent either, and it is the second time in
+this package that role separation has been traded for speed. The
+disposition rests on Mark's ruling plus §10's confirmation, not on this
+thread's view of the documents. A coach thread's periodic verification is
+the thing that would actually close it.
+
+**Still owed to the fleet, by a coach thread.** The two-branch rule is
+not in V1.8 or in the `cic-build-cycle` skill's Disposition and
+Escalation sections, so the next world re-derives the question. `obel` is
+the only world that was parked on this reasoning — checked across
+`worlds/` — so there is no backlog to release, only the rule to land.
+
+*Addendum written 2026-09-26. Nothing in §§1–8 is edited; §§9–11 are
+appended in order.*

@@ -9,7 +9,7 @@ central/northern Muscovite Russia and Siberia; Russian and Church
 Slavonic; a ritual-and-textual (not doctrinal) schism (Doc_01 §9), strand
 determination not yet decided (Doc_01 §6).
 
-**Status: Draft, Round 3 — pending disposition (escalated, Doc_02 §15).**
+**Status: Approved to proceed.** One named item waits — Doc_02 §15.
 
 ---
 
@@ -97,3 +97,7 @@ source.
   own case. That revision history now lives entirely in this Document
   Log and in `Open_Gaps_Tracking.md`, per `CLAUDE.md`'s own rule for
   `worlds/`. R1's dangling "see R-note below" is removed.
+- **Approved to proceed.** The full disposition record — the review
+  artifacts it rests on, the one item that waits, and who applied it —
+  is at `Open_Gaps_Tracking.md` entry 18. Not Frozen; nothing here is
+  closed.

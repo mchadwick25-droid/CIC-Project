@@ -5397,3 +5397,59 @@ paragraph. Relayed by the managing thread.
 quote records clean but repeatedly found distortions introduced by the host rewrites done
 in the same pass. Confining the host edit to the quote's own sentence keeps each
 extraction reviewable against its source, and gives any wider rewrite its own review.
+
+---
+
+## 2026-09-26 — Escalation does not park the document: a named escalated item waits, the document proceeds
+
+**Ruling.** Mark, 2026-09-26: "The document can proceed; only the named item waits. It goes
+to NEEDS-RULING or the world's Open_Gaps file, as long as it doesn't change the document's
+own conclusions. If it does change them (a Representative's identity, the world's boundary,
+the core classification), the document waits."
+
+So the `cic-build-cycle` gate — "If any apply, stop and escalate directly to the project
+lead — do not self-dispose, regardless of how clean the review came back" — is not a
+whole-document hold. It has two branches, and which one applies turns on a test the gate
+never stated:
+
+- **The escalated item does not change the document's own conclusions** → the document
+  proceeds to "Approved to proceed" on the build thread's own self-disposition under
+  CO-022, and the item is registered as a named open item in that world's
+  `Open_Gaps_Tracking.md`, or in `worlds/_cross-world/NEEDS-RULING.md` where it is
+  cross-world. The item waits; the document does not.
+- **The escalated item does change them** — Mark's own three examples: a Representative's
+  identity, the world's boundary, the core classification → the document waits.
+
+**Why it was asked.** The `obel` (Old Believers) package raised it. Its Round 2 independent
+recheck flagged that Step 0 §5 and Doc_02 both named governance/methodology and
+portfolio-level escalations and then announced the thread would self-dispose anyway, which
+read against the gate's plain words; the build thread then parked all four documents on Mark
+rather than answer a question about its own package. Neither reading was obviously wrong,
+which is what made it a real escalation rather than a thread's uncertainty. `obel` is the
+only world that was parked this way — checked across `worlds/` — so there is no fleet-wide
+backlog of documents to release.
+
+**Applied to `obel` the same day.** Its one remaining escalation is the census's own
+`floorNote`/`statusDescription`, which carry an absolute "no question of doctrine arises
+here at all" that this world's own vendored primary source contradicts at p. 34 of the
+Avvakum *Zhitie*, and which were cited approvingly at a Frozen portfolio gate. Tested
+against the ruling: correcting the census moves the census *toward* what these documents
+already say. The documents' own conclusion — the world clears Constitution Article 4's
+floor comfortably, on the Creed's shared content, and the schism is ritual-and-textual
+rather than a rival confession — does not depend on how the census is worded, and no
+Representative identity, world boundary or core classification turns on it. First branch:
+Step 0, Doc_01, Doc_02 and the Source Registry proceed; the census item waits, registered
+in `worlds/obel/Open_Gaps_Tracking.md` and, because it is portfolio-level and touches a
+Frozen gate artifact, also in `NEEDS-RULING.md`'s hand-maintained tail.
+
+**Still owed, and not done here.** The two-branch rule belongs in the governing process
+documents — `reference/method/CiC_Record_Native_World_Build_Process_V1.8.md` and the
+`cic-build-cycle` skill's own Disposition and Escalation sections — so the next world does
+not re-derive it. Editing those is a coach thread's authority, not a build or review
+thread's; flagged here for one. Until it lands, this entry is the ruling of record.
+
+**Recorded by** the `obel` Round 2 review thread, which also applied it to that world's four
+documents. Worth naming for the audit trail: that thread reviewed the package it then
+dispositioned, so the disposition rests on Mark's ruling above plus the independent
+confirmation recorded at `obel_Step0_Doc01_Doc02_Review_Round2_Recheck.md` §10, not on the
+disposing thread's own view of the documents' quality.

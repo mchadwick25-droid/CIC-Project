@@ -2,8 +2,7 @@
 
 **World: The Old Believers** (`the-old-believers`, file-code `obel`)
 
-**Status: Draft, Round 3 (including a correction-of-a-correction applied
-mid-recheck, §16) — pending disposition (escalated, §15).**
+**Status: Approved to proceed.** One named item waits — §15.
 
 **Built together with:** `obel_Source_Registry.md` (the Registry — the
 same pass, per the Source Registry Template V1.0's own instruction not to
@@ -414,23 +413,20 @@ question this world's build has raised.
 
 ---
 
-## 15. Escalation check
+## 15. The one item that waits
 
-One matter raised by this world's own construction meets the
-governance/methodology escalation category and is not self-dispositioned
-by this build thread: the census's own `floorNote`/`statusDescription`,
-which carry an overstated absolute floor claim this world's own vendored
-source contradicts, are cited approvingly at a Frozen portfolio gate;
-correcting the census itself is portfolio-level, and goes to Mark. A
-second, distinct governance/methodology question is escalated to Mark
-alongside it rather than answered here: whether naming a
-governance/methodology escalation in a Disposition section bars this
-package from self-disposing under CO-022 at all (Step 0 §5). An
-initially-suspected third escalation item — a citation that appeared,
-from this worktree's own stale checkout, to be a fabricated INTAKE.md
-ruling — was found, after merging forward from real `origin/main`, to be
-a real, current, already-merged rule this checkout simply predated; not
-a governance question, resolved by the merge (§16).
+The census's own `floorNote`/`statusDescription` state an absolute — "no
+question of doctrine arises here at all" — that this world's own vendored
+primary source contradicts at p. 34 (§1.1; Doc_01 §9). Correcting the
+census is portfolio-level, not this world's. It is registered at
+`Open_Gaps_Tracking.md` entry 11 and in
+`worlds/_cross-world/NEEDS-RULING.md`.
+
+That item does not hold this document. A named escalated item holds a
+document only where it would change the document's own conclusions;
+correcting the census moves it toward what this document already says,
+and none of this document's sourcing conclusions, confidence tiers or
+quotability flags turns on its wording.
 
 ---
 
@@ -518,3 +514,7 @@ a governance question, resolved by the merge (§16).
   invocation corrected to the command actually run. A transcription
   convention (silent OCR repair and smart-quote normalization in
   quotations, disclosed once) is added at §7.
+- **Approved to proceed.** The full disposition record — the review
+  artifacts it rests on, the one item that waits, and who applied it —
+  is at `Open_Gaps_Tracking.md` entry 18. Not Frozen; nothing here is
+  closed.

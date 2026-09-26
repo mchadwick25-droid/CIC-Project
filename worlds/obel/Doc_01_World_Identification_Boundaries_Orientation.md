@@ -3,7 +3,7 @@
 **World: The Old Believers** (Atlas VII.7, era 8, `the-old-believers`,
 file-code `obel`.)
 
-**Status: Draft, Round 3 — pending disposition (escalated, Doc_02 §15).**
+**Status: Approved to proceed.** One named item waits — Doc_02 §15.
 
 **Governed by:** Formation World Construction Framework V7.4, Part I;
 Constitution Articles 4 (Movement-Scope Principle), 17 (Source
@@ -648,3 +648,7 @@ See `Open_Gaps_Tracking.md` for the full, numbered, append-only record.
   world's own build remains escalated as a governance question: the
   INTAKE.md and V1.8 items above were a stale-checkout problem, now
   resolved by merging forward, not an open policy question.
+- **Approved to proceed.** The full disposition record — the review
+  artifacts it rests on, the one item that waits, and who applied it —
+  is at `Open_Gaps_Tracking.md` entry 18. Not Frozen; nothing here is
+  closed.
