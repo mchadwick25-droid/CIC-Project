@@ -31,11 +31,11 @@ Two things about this step's own governing text are named here rather than worke
 
 | Document | Status |
 |----------|--------|
-| Doc_01 — World Identification | COMPLETE (approved to proceed by the project lead, 2026-07-08, Revision Round 3 + cosmetic pass) |
-| Doc_02 — Source Ecology | COMPLETE (approved to proceed by the project lead, 2026-07-08, Revision Round 2 + second-pass propagation fix) |
-| Doc_03 — Lexicon Candidate List | COMPLETE (approved to proceed by the project lead, 2026-07-08, Revision Round 2 + second-pass propagation fix) |
-| Doc_04 — Gravity Discovery | COMPLETE (approved to proceed by the project lead, 2026-07-08, Revision Round 2) |
-| Doc_05 — Ecological Reconstruction (Human, Community, Worship, Organizational, Ministry Ecology lenses) | COMPLETE (approved to proceed by the project lead, 2026-07-08, Revision Round 2 + cosmetic pass) |
+| Doc_01 — World Identification | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
+| Doc_02 — Source Ecology | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
+| Doc_03 — Lexicon Candidate List | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
+| Doc_04 — Gravity Discovery | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
+| Doc_05 — Ecological Reconstruction (Human, Community, Worship, Organizational, Ministry Ecology lenses) | COMPLETE (approved to proceed by the project lead, 2026-07-08) |
 | Doc_06 — Full Interpretive Lexicon — Tier 1 entries at genuine depth | COMPLETE (approved to proceed by the project lead, 2026-07-08; four Tier 1 entries — raza/shrara, qyama, madrasha, Iḥidaya — each carry full World Meaning, Ecological Function, paired Distortion Risk, and Key Sources per the LDF's own Tier 1 discipline) |
 
 **Gate confirmation:** All six inputs confirmed complete before lens work began: **YES.**
@@ -247,4 +247,4 @@ To be formed in this world is to be trained toward one word that already names b
 - [x] Doc_06 Tier 1 entries confirmed at genuine depth before Emotional Ecology (2A) and Philosophical Ecology (2B) lenses were applied
 - [x] Boundary Structures lens (2D) draws on forces work rather than treating the boundary in isolation from external pressure
 
-**Doc_07 completion status:** COMPLETE — independent adversarial review cleared (Round 1: six substantial fixes applied; Round 2: all six independently confirmed correct, one new narrow cosmetic issue found and fixed). Approved to proceed by the project lead, 2026-07-08. This line previously read "pending independent adversarial review," left stale after review actually cleared (contradicting this document's own header, line 5); corrected 2026-07-11 during the World #7 completion audit — no content change, status-language correction only.
+**Doc_07 completion status:** COMPLETE — independent adversarial review cleared. Approved to proceed by the project lead, 2026-07-08.

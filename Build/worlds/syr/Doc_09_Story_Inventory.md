@@ -28,7 +28,7 @@ The four tiers, per the Construction Framework's own text: **Tier 1**, Documente
 
 ## 2. Story-by-Story Summary
 
-**syrstory001 — Ephrem's Death in Famine Relief.** Tier 2, Widely Accepted (core claim)/Contested (operational specifics). Source: Gennadius, *De Viris Illustribus*, Supplement ch. 1. Ephrem organizes famine relief at Edessa near the end of his life and dies soon after, in 373. **Revised at Round 1 independent adversarial review** from an original Tier 1 classification: Gennadius's Supplement, written roughly a century after the event, does not satisfy the Framework's own "close to the world's horizon" test for Tier 1, and the original classification was inconsistent with how this same document tiers comparably- or more-distant sources (Chronicle of Edessa, Theodoret, Jacob of Serugh) lower. See the story chunk's own Tier Justification for the full correction.
+**syrstory001 — Ephrem's Death in Famine Relief.** Tier 2, Widely Accepted (core claim)/Contested (operational specifics). Source: Gennadius, *De Viris Illustribus*, Supplement ch. 1. Ephrem organizes famine relief at Edessa near the end of his life and dies soon after, in 373. Tier 2, not Tier 1: Gennadius's Supplement, written roughly a century after the event, does not satisfy the Framework's own "close to the world's horizon" test for Tier 1 — consistent with how this document tiers comparably- or more-distant sources (Chronicle of Edessa, Theodoret, Jacob of Serugh) lower. See the story chunk's own Tier Justification for the full reasoning.
 
 **syrstory002 — The Flood of 201 and the Destruction of the Church.** Tier 2, Widely Accepted (flood)/Contested (church-destruction detail). Source: Chronicle of Edessa. This world's own earliest institutional trace, carrying a real, named scholarly dispute (Bauer vs. Barnard) over whether the church-destruction detail is original or interpolated.
 
@@ -46,7 +46,7 @@ The four tiers, per the Construction Framework's own text: **Tier 1**, Documente
 
 **syrstory009 — A Morning Gathering of the Qyama at Nisibis.** Tier 4, Inferential/Thin (as required for all Tier 4 material). A composite, unnamed reconstruction of a typical worship gathering, drawing together the qyama vow, the bnat qyama choir performing Ephrem's madrashe, the raza/shrara hermeneutic, the Diatessaron as normative Gospel, and the pre-363 Nisibene combined Nativity-Epiphany calendar — every element sourced individually in the accompanying Source Identification section.
 
-**Tier distribution:** 0 Tier 1, 3 Tier 2, 5 Tier 3, 1 Tier 4. No Tier 5 entries exist or were considered for inclusion. This repository contains no Tier 1 entry (see syrstory001's Round 1 revision, above) — a genuine finding consistent with Doc_02's own conclusion (Section 1) that this world's source ecology is structurally literary and theological rather than narrative-historical, named here rather than compensated for by stretching a thinner claim upward.
+**Tier distribution:** 0 Tier 1, 3 Tier 2, 5 Tier 3, 1 Tier 4. No Tier 5 entries exist or were considered for inclusion. This repository contains no Tier 1 entry (see syrstory001's Tier 2 reasoning, above) — a genuine finding consistent with Doc_02's own conclusion (Section 1) that this world's source ecology is structurally literary and theological rather than narrative-historical, named here rather than compensated for by stretching a thinner claim upward.
 
 ---
 
