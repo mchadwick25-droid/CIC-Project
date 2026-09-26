@@ -409,8 +409,7 @@ def _table_engagement_directive(
 
     DESIGN ENHANCEMENT ("the
     quality of the voice doesn't change... a little increase of pressure
-    to shorten... no hard cap or post conversation monitoring"), revised
-    after independent adversarial review found real gaps:
+    to shorten... no hard cap or post conversation monitoring"):
 
     is_second_pass - a voice's FIRST turn in a round (False, points 6-8)
     keeps the engage-and-answer framing, naming agreement as readily as

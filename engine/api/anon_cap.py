@@ -140,11 +140,11 @@ class DailyVisitorLimiter:
 
     def mint_seeded_token(self, ip: str, secret: str) -> str:
         """Mint a fresh visitor token, seeded from the ip: bucket's CURRENT
-        count rather than starting at zero (2026-09-21, closing a review
-        finding: minting a pristine, zero-count bucket on every cookie-less
-        request let an attacker who never returns a cookie harvest an
-        effectively unlimited supply of fresh daily allowances - delete
-        the cookie, get a new empty-bucket token, repeat). Seeding from the
+        count rather than starting at zero: minting a pristine, zero-count
+        bucket on every cookie-less request would let an attacker who
+        never returns a cookie harvest an effectively unlimited supply of
+        fresh daily allowances - delete the cookie, get a new empty-bucket
+        token, repeat. Seeding from the
         ip bucket bounds the exploit instead of eliminating the mint: an
         attacker who harvests N tokens before the ip: bucket itself caps
         out can still redeem some leftover headroom on each one (the

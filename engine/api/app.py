@@ -40,11 +40,10 @@ _INVALID_SESSION_DETAIL = "invalid session"
 _WORLD_UNAVAILABLE_DETAIL = "world temporarily unavailable"
 _AUTH_PREFIX = "Session "
 
-# The service's one logger (2026-08-28 foundation audit: the service had
-# ZERO logging, and the one place the real Bedrock error was captured it
-# was discarded unbound - a throttling storm was indistinguishable from a
-# credential failure). Session ids are logged; participant text and voice
-# text never are.
+# The service's one logger. Bedrock errors are captured and logged bound
+# to it, so a throttling storm is distinguishable from a credential
+# failure. Session ids are logged; participant text and voice text never
+# are.
 logger = logging.getLogger("cic.api")
 
 
@@ -86,16 +85,11 @@ _MAX_MESSAGE_LENGTH = 4000  # ~800-1000 words - generous for a real participant 
 
 
 class MessageRequest(BaseModel):
-    # 2026-09-21, closing adversarial review of Tech-Readiness P1-Security:
-    # unbounded before this. Nothing anywhere in the request path - not
-    # this model, not engine/m4/turn.py, not the Dockerfile - capped
-    # participant input length; every message is forwarded to Bedrock
-    # TWICE per turn (the safety gate, then voice generation) and stored
-    # verbatim, at up to 40 messages/min per IP. Output was already
-    # bounded (max_tokens on the generation call); input wasn't - textbook
-    # OWASP LLM Top 10 "unbounded consumption," and cheaper for an
-    # attacker to hit than the session-creation path this package's own
-    # anonymous-cap work (item 3) addresses.
+    # Bounds participant input length. Every message is forwarded to
+    # Bedrock TWICE per turn (the safety gate, then voice generation) and
+    # stored verbatim, at up to 40 messages/min per IP. Output is bounded
+    # by max_tokens on the generation call; this bounds input the same
+    # way.
     text: str = Field(max_length=_MAX_MESSAGE_LENGTH)
     client_msg_id: str | None = None
 
@@ -142,16 +136,16 @@ class TranscriptResponse(BaseModel):
 
 
 class RoundCloseReasonsResponse(BaseModel):
-    """Diagnostic-only, table sessions (2026-09-05): every round_closed
-    event's own payload for this session, in round order. Empty for an
-    interview session or a table session with no round closed yet."""
+    """Diagnostic-only, table sessions: every round_closed event's own
+    payload for this session, in round order. Empty for an interview
+    session or a table session with no round closed yet."""
     session_id: str
     rounds: list[dict]
 
 
 class PilotSummaryResponse(BaseModel):
-    """Admin-only (2026-09-05), see wiring.PilotSummary's own docstring for
-    what this deliberately does and doesn't carry."""
+    """Admin-only, see wiring.PilotSummary's own docstring for what this
+    deliberately does and doesn't carry."""
     total_sessions: int
     by_mode: dict[str, int]
     open_sessions: int
@@ -338,9 +332,9 @@ def create_app(
             logger.info("session created session=%s mode=table worlds=%s", session_id, ",".join(req.world_keys))
             return SessionCreateResponse(session_id=session_id, session_code=code, round_cap=table_wiring.round_cap_for("table"))
         if req.world_key is None:
-            # Foundation audit (2026-08-28): POST {} used to fall through to
-            # default_world_key - configured in production as the synthetic
-            # fixture world, which records/worlds.yaml says must never be
+            # POST {} must not fall through to default_world_key -
+            # configured in production as the synthetic fixture world,
+            # which records/worlds.yaml says must never be
             # participant-reachable ("never listed beside them, never
             # admitted"). A session names its world or doesn't open; the
             # frontend always names one, so no real caller changes.
@@ -460,10 +454,10 @@ def create_app(
     @app.get("/api/session/{session_id}/round-close-reasons", response_model=RoundCloseReasonsResponse)
     def get_round_close_reasons_endpoint(session_id: str, request: Request, authorization: str | None = Header(default=None)):
         """Diagnostic-only: gated by the same per-session code as the
-        transcript endpoint above, never a new auth surface. Built
-        2026-09-05 so a real production round's close reason - including
-        the turn selector's own free-text justification on a genuine
-        close - is answerable without a direct read against the store."""
+        transcript endpoint above, never a new auth surface. A real
+        production round's close reason - including the turn selector's
+        own free-text justification on a genuine close - is answerable
+        without a direct read against the store."""
         deps: Deps = request.app.state.deps
         _authenticate(deps.store, session_id, authorization)
         rounds = table_wiring.get_round_close_reasons(deps.store, session_id)
@@ -473,11 +467,11 @@ def create_app(
     def get_pilot_summary_endpoint(
         request: Request, authorization: str | None = Header(default=None), since: str | None = None
     ):
-        """Operator-only (2026-09-05: no way to answer 'how many real
-        pilot sessions exist' or 'is the table round cap firing where it
-        should' from outside the service). `since` is the same ISO-8601
-        prefix filter Store.list_session_ids already defines - unset means
-        every session ever logged."""
+        """Operator-only: answers 'how many real pilot sessions exist' and
+        'is the table round cap firing where it should' from outside the
+        service. `since` is the same ISO-8601 prefix filter
+        Store.list_session_ids already defines - unset means every
+        session ever logged."""
         deps: Deps = request.app.state.deps
         _authenticate_admin(deps.admin_token, authorization)
         summary = wiring.get_pilot_summary(deps.store, since=since)
@@ -531,31 +525,29 @@ def _build_real_app() -> FastAPI:
     full_registry = load_registry(settings.worlds_yaml_path)
 
     # M7's conversation-quality audit existed but depended on someone
-    # remembering to run it by hand - the one real gap in an otherwise-live
-    # pilot data pipeline (System Health thread, 2026-09-04). Started here,
-    # not as a separate Render service: a Cron Job service can't share this
-    # service's already-attached Persistent Disk. Read-only over the event
-    # log, so a bad run can never affect a live conversation.
+    # remembering to run it by hand. Started here, not as a separate
+    # Render service: a Cron Job service can't share this service's
+    # already-attached Persistent Disk. Read-only over the event log, so a
+    # bad run can never affect a live conversation.
     m7_scheduler.start_background_scheduler(
         settings.events_db_path, Path(settings.events_db_path).parent / "m7-audits"
     )
 
-    # Idle-close sweep (2026-09-06): a separate daily background thread,
-    # deliberately not folded into M7's own scheduler above - M7 is
-    # read-only over the event log by design, and this sweep's whole job
-    # is to write session_closed/reason="idle" (engine.m4.idle_close's own
-    # docstring). Reporting-only: never blocks a participant resuming.
+    # Idle-close sweep: a separate daily background thread, deliberately
+    # not folded into M7's own scheduler above - M7 is read-only over the
+    # event log by design, and this sweep's whole job is to write
+    # session_closed/reason="idle" (engine.m4.idle_close's own docstring).
+    # Reporting-only: never blocks a participant resuming.
     idle_close.start_background_scheduler(settings.events_db_path)
 
-    # DB backup sweep (Tech-Readiness Package 2, 2026-09-21): a third
-    # daily background thread, same reason as the two above - a Cron Job
-    # service cannot reach this service's own Persistent Disk (module
-    # docstring, engine/api/db_backup.py). Online-backs-up both SQLite
-    # stores and uploads to CIC_API_BACKUP_BUCKET when configured; a no-op
-    # upload (logged, not fatal) until Mark completes that bucket's own
-    # one-time setup (Build/Ministry/Operations/Standing/
-    # CiC_Backup_Restore_Runbook.md), same deferred-until-configured
-    # pattern as CIC_API_PACKAGE_BUCKET.
+    # DB backup sweep: a third daily background thread, same reason as the
+    # two above - a Cron Job service cannot reach this service's own
+    # Persistent Disk (module docstring, engine/api/db_backup.py).
+    # Online-backs-up both SQLite stores and uploads to
+    # CIC_API_BACKUP_BUCKET when configured; a no-op upload (logged, not
+    # fatal) until that bucket is configured (setup steps in
+    # Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md),
+    # same deferred-until-configured pattern as CIC_API_PACKAGE_BUCKET.
     db_backup.start_background_scheduler(
         settings.events_db_path, settings.usage_db_path, Path(settings.events_db_path).parent / "backups-staging"
     )

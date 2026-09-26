@@ -26,14 +26,13 @@ class MissingConfigError(Exception):
 
 
 class WeakAdminTokenError(Exception):
-    """Raised on a set-but-too-short CIC_API_ADMIN_TOKEN (2026-09-21,
-    closing adversarial review of Tech-Readiness P1-Security). The route
-    this token gates is now rate-limited (engine/api/ratelimit.py,
-    ADMIN_LIMIT), but that limiter's whole job is making a short, weak
-    token infeasible to brute-force in a reasonable time by slowing an
-    attacker down - a token short enough to guess outright makes the
-    limiter irrelevant, not redundant-but-safe. 32 chars is a floor, not
-    a target: `python -c "import secrets; print(secrets.token_urlsafe(32))"`
+    """Raised on a set-but-too-short CIC_API_ADMIN_TOKEN. The route this
+    token gates is rate-limited (engine/api/ratelimit.py, ADMIN_LIMIT),
+    but that limiter's whole job is making a short, weak token infeasible
+    to brute-force in a reasonable time by slowing an attacker down - a
+    token short enough to guess outright makes the limiter irrelevant, not
+    redundant-but-safe. 32 chars is a floor, not a target:
+    `python -c "import secrets; print(secrets.token_urlsafe(32))"`
     comfortably clears it."""
 
 
@@ -55,43 +54,36 @@ class Settings:
     usage_db_path: str
     worlds_yaml_path: Path
     default_world_key: str
-    # THE ADMISSION GATE (stage-10 enforcement; 2026-08-28). The spec is
-    # plain - a world "becomes selectable when it passes Admission" - and
-    # the 2026-08-26 audit's headline finding was that the running engine
-    # never checked: create_session served any `built` world. The gate now
-    # exists; this flag is when it BITES: only admitted/open worlds are
-    # listed or seated, interview and table alike. The code default stays
-    # off (local dev and tests construct their own stages), but the
-    # DEPLOYED value is "1": the doors are open,
-    # the same day all six worlds were admitted - render.yaml carries the
-    # flip and its record; the
-    # declared deferral this flag was born with is ended.
+    # THE ADMISSION GATE: a world "becomes selectable when it passes
+    # Admission." This flag is when that gate BITES: only admitted/open
+    # worlds are listed or seated, interview and table alike. The code
+    # default stays off (local dev and tests construct their own stages),
+    # but the deployed value is "1": the doors are open, and render.yaml
+    # carries that value.
     enforce_admission: bool
-    # Gates /api/admin/pilot-summary (2026-09-05: "how many pilot
-    # id/transcripts have been generated" had no answer from outside the
-    # service - no admin surface existed at all). None (unset) disables the
-    # route entirely rather than defaulting to some guessed secret; a real
+    # Gates /api/admin/pilot-summary. None (unset) disables the route
+    # entirely rather than defaulting to some guessed secret; a real
     # deploy sets its own random value in the Render dashboard, same
     # sync: false pattern as the AWS keys - never committed here.
     admin_token: str | None
-    # WO-2 idle-world unload (2026-09-16): None keeps every resident world
-    # cached for the process's lifetime - LazyWorldLoader's own long-
-    # standing default, unchanged unless a deploy opts in. See that
-    # class's own docstring for why this is a plain idle timeout rather
-    # than full LRU-under-memory-pressure.
+    # Idle-world unload: None keeps every resident world cached for the
+    # process's lifetime - LazyWorldLoader's own long-standing default,
+    # unchanged unless a deploy opts in. See that class's own docstring
+    # for why this is a plain idle timeout rather than full
+    # LRU-under-memory-pressure.
     world_idle_unload_seconds: float | None
-    # WO-1 (2026-09-16): where to cache a package object storage had to
-    # fetch, so a redeploy/restart doesn't re-fetch it. Object storage
-    # itself (bucket, endpoint, credentials) is read directly from env
-    # vars by engine.m4.object_storage, not carried on Settings - that
-    # module already fails loudly if CIC_API_PACKAGE_BUCKET is set
-    # without its endpoint/keys, the same "never guess, fail loudly"
-    # rule region already follows above, so duplicating those fields
-    # here would just be a second place for them to drift.
+    # Where to cache a package object storage had to fetch, so a
+    # redeploy/restart doesn't re-fetch it. Object storage itself (bucket,
+    # endpoint, credentials) is read directly from env vars by
+    # engine.m4.object_storage, not carried on Settings - that module
+    # already fails loudly if CIC_API_PACKAGE_BUCKET is set without its
+    # endpoint/keys, the same "never guess, fail loudly" rule region
+    # already follows above, so duplicating those fields here would just
+    # be a second place for them to drift.
     package_cache_dir: Path
-    # Anonymous per-visitor daily cap (Tech-Readiness P1-Security item 3,
-    # 2026-09-21) - OFF by default everywhere, including a real deploy that
-    # hasn't opted in yet. See engine.api.anon_cap's own module docstring:
+    # Anonymous per-visitor daily cap - OFF by default everywhere,
+    # including a real deploy that hasn't opted in yet. See
+    # engine.api.anon_cap's own module docstring:
     # the mechanism and the two numbers below are the PROPOSED default from
     # that package's report, not yet a decision Mark has made. Flipping
     # this on with no secret set is a hard failure (below), not a silent
@@ -100,39 +92,32 @@ class Settings:
     anon_visitor_secret: str | None
     anon_daily_session_limit: int
     anon_daily_turn_limit: int
-    # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md R36,
-    # 2026-09-23): OFF by default, everywhere, including a real deploy -
-    # Mark flips this after his own staging look at item 5's own live
-    # battery (the reviewer thread's own explicit instruction: "stop for
-    # Mark's staging look before the flag is flipped anywhere"). When on,
-    # a wholly_uncited_paragraph or neighbour_named offense regenerates
+    # OFF by default, everywhere, including a real deploy - flipped only
+    # after a staging look at this item's own live battery. When on, a
+    # wholly_uncited_paragraph or neighbour_named offense regenerates
     # once, then hands the turn to the Facilitator if it survives that -
     # see engine.m4.turn._run_ordinary_voice_turn's own docstring for the
     # full shape. inherited_ungrounded stays report-only regardless of
-    # this flag (R36's own scope decision, not something this flag
-    # widens).
+    # this flag.
     r27_enforce: bool
 
-    # R38 (Rulings-Pending.md, RULED 2026-09-23) - self-revision at
-    # generation on other_tradition-routed turns, unconditional unlike
-    # r27_enforce above (this is generation, not enforcement: no
-    # withhold, no Facilitator, no flag-gated staging rollout needed
-    # before it can run for real). Default ON - the kill-switch exists
-    # for cost or incident use only, the opposite default sense from
-    # r27_enforce/CIC_R27_ENFORCE, since Mark's own ruling is to ship
-    # this, not stage it behind an off-by-default flag.
+    # Self-revision at generation on other_tradition-routed turns,
+    # unconditional unlike r27_enforce above (this is generation, not
+    # enforcement: no withhold, no Facilitator, no flag-gated staging
+    # rollout needed before it can run for real). Default ON - the
+    # kill-switch exists for cost or incident use only, the opposite
+    # default sense from r27_enforce/CIC_R27_ENFORCE: this ships
+    # unconditionally rather than staging behind an off-by-default flag.
     self_revision_enabled: bool
 
-    # Stage 7b (Decision-Log.md Entry 53, "Shape B"): the engine's own
-    # sentence-buffered streaming module (engine.m4.streaming). OFF by
-    # default, everywhere, same staging discipline as r27_enforce above -
-    # "flag-gated, default off, flipped only after Mark's own staging
-    # look." Streaming does not ship to participants before R27-A's own
-    # enforcement is on (Decision-Log Entry 54/62) - CIC_R27_ENFORCE is
-    # itself off today by ruling (R42), so this flag has no live
-    # deployment path yet regardless of its own value; it exists so the
-    # module can be built and tested against a real setting rather than
-    # a hypothetical one.
+    # The engine's own sentence-buffered streaming module
+    # (engine.m4.streaming). OFF by default, everywhere, same staging
+    # discipline as r27_enforce above - flag-gated, default off, flipped
+    # only after a staging look. Streaming does not ship to participants
+    # before r27_enforce's own enforcement is on; CIC_R27_ENFORCE is
+    # itself off today, so this flag has no live deployment path yet
+    # regardless of its own value - it exists so the module can be built
+    # and tested against a real setting rather than a hypothetical one.
     streaming_enabled: bool
 
     @classmethod

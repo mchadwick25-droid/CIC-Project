@@ -1,8 +1,8 @@
-"""client_msg_id idempotency, ENFORCED (2026-08-28 foundation audit: the id
-was recorded in the payload while the dedupe key was minted fresh per call,
-so a retried message ran a second full turn and doubled the spend), plus
-the table advance lock (two overlapping advances used to both run a voice
-turn against the same open round)."""
+"""client_msg_id idempotency, ENFORCED: the id is recorded in the payload
+and the dedupe key is derived from it deterministically rather than
+minted fresh per call, so a retried message cannot run a second full turn
+and double the spend. Plus the table advance lock, so two overlapping
+advances cannot both run a voice turn against the same open round."""
 import threading
 
 from fastapi.testclient import TestClient

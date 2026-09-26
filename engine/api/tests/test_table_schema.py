@@ -19,10 +19,10 @@ def test_round_design_subject_world_framed_as_witness():
     assert _own_world_named("alx", worlds, "Papnoute, what would Theon's people say to that?") is True
     assert _own_world_named("desert", worlds, "Papnoute, what would Theon's people say to that?") is False
 
-    # The stance/behavioral rule lives in the directive channel since the
-    # 2026-09-05 bug fix (engine.m4.turn._build_turn_directive) - _context_prefix
-    # now carries only the pending speech itself, identically regardless of
-    # who the subject is.
+    # The stance/behavioral rule lives in the directive channel
+    # (engine.m4.turn._build_turn_directive) - _context_prefix carries only
+    # the pending speech itself, identically regardless of who the subject
+    # is.
     pending = ["The Participant: " + msg]
     prefix = _context_prefix(pending)
     assert msg in prefix
@@ -218,14 +218,14 @@ def test_table_engagement_directive_subject_second_pass_names_its_target_without
 
 
 def test_table_engagement_directive_forbids_a_fabricated_facilitator_line():
-    """BUG FIX, 2026-09-05, found by the first live proof of this design
-    (not the deterministic tests): a voice's own generated text opened with
-    a fabricated "The Facilitator: ..." line and a "---" separator before
+    """Guards against a voice's own generated text opening with a
+    fabricated "The Facilitator: ..." line and a "---" separator before
     its real answer - the Facilitator is a separate, code-owned voice
     (engine.m4.facilitator_turns), never something a Representative
-    invents. The directive now opens with an explicit prohibition, on
-    every pass and every seat count, before the risky "being brought in"
-    phrasing that likely triggered it even gets a chance to land."""
+    invents. The directive opens with an explicit prohibition, on every
+    pass and every seat count, before the risky "being brought in"
+    phrasing that could otherwise trigger it even gets a chance to
+    land."""
     from engine.api.table_wiring import _table_engagement_directive
 
     for is_second_pass in (False, True):
