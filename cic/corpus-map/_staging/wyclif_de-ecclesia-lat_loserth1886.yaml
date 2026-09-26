@@ -11,12 +11,12 @@ assignments:
     note: >
       Wyclif's own core ecclesiology treatise, ed. Loserth (1886, Wyclif
       Society Latin Works vol. 10). Directly relevant to the movement's
-      central dissent on church authority. Vendored 2026-09-25 as part of
-      a post-Step0-Revision-2 PD source-acquisition pass, from the full
+      central dissent on church authority. Drawn from the full
       33-volume Wyclif Society Latin series on archive.org (only vol. 2,
       the already-vendored Buddensieg Polemical Works, had been checked
-      before this pass). Under Mark's 2026-09-25 ruling
-      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can
-      be primary evidence directly, verified against the vendored file,
-      since it is primary to the movement regardless of language; the
-      scan is clean, not flagged under Mark's OCR ruling "a."
+      before this file). Per the Library's non-English-primary-evidence
+      rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
+      Latin text is primary evidence directly, verified against the
+      vendored file, since it is primary to the movement regardless of
+      language; the scan is clean, not flagged as garbled under the
+      Library's own OCR-quality rule.

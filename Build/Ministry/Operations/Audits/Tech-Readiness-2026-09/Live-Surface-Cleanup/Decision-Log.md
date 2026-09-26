@@ -1539,3 +1539,119 @@ is explicitly out of scope per the launch brief"). The file already lives inside
 by construction - no move to `Ministry/` or elsewhere is needed, and none was made. `PROTECTED` hits
 are still reported (the tool's own design: visible, not silently absorbed), which is exactly what
 this file's own 23 rows show.
+
+---
+
+## Entry 18 — `cic/corpus-map/` re-drift cleanup after the Era VII source-acquisition pass
+
+Entry 3 above took this surface to 0 hits. Since then, the proactive source-acquisition work for
+six Era VII worlds (Lutheran Wittenberg, the Reformed Cities, the Society of Jesus, the Anabaptist
+movements, the Tridentine Church, Lollardy — plus a handful of earlier-era additions) added roughly
+90 new `_staging/*.yaml` files and edited several existing ones, each carrying the same shape of
+provenance narration Entry 3 already cleaned out of the older files: "Vendored `<date>` as part of
+a pre-Doc_02/post-Step0-Revision-2 PD source-acquisition pass," "Under Mark's `<date>` ruling
+(`LIBRARY-DECISION-LOG.md`)," "Correction (`<date>`): this note previously called the file PRIMARY
+content...," "LOCUS CORRECTED `<date>` (was ...)," and a few self-contained change-history
+paragraphs ("A CORRECTION THIS FILE FORCES..."). None of this content is decided-and-gone from
+Entry 3's own work; it is fresh drift the new build campaign introduced afterward, on a surface
+this program had already cleaned once.
+
+`tools/check_live_commentary.py --surface cic-corpus-map` read 270 hits before this pass (254
+REWRITE, 16 ROUTE) and 17 after (4 REWRITE, 13 ROUTE, both categories explained below). Every edit
+touched `note:`/`#` comment prose in `_staging/*.yaml` only, never `work:`/`author:`/`locus:`/
+`atlas_ids:`/`role:`/`confidence:` field values; the 58 generated per-tradition bucket files were
+never hand-edited — `cic/engine/corpus_map_merge.py` regenerated them from the cleaned staging
+files afterward, which is how the same fixes propagated into `donatism.yaml`, `lollardy.yaml`,
+`the-society-of-jesus.yaml`, `the-tridentine-church.yaml`, `devotio-moderna-brethren-of-the-common-
+life.yaml` and the rest without touching them directly (the same discipline Entry 3 followed).
+
+**The recurring rewrite, applied close to a hundred times:** "Vendored `<date>` as part of a
+`<named pass>` source-acquisition pass[, for `<candidate>`]." was cut outright when it carried no
+information beyond itself (the file's presence in the corpus already states that it was acquired);
+where a real, still-true reason followed it in the same sentence (closing a named dossier gap,
+completing a multi-volume set, superseding a worse scan), that reason was kept, restated in plain
+present tense with the date/pass-name dropped. "Under Mark's `<date>` ruling
+(`Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md`), this Latin text can be primary evidence
+directly... the scan is clean, not flagged under Mark's OCR ruling 'a'" → "Per the Library's
+non-English-primary-evidence rule (`LIBRARY-DECISION-LOG.md`), this Latin text is primary evidence
+directly... not flagged as garbled under the Library's own OCR-quality rule" — the still-true rule
+and its effect kept, the ruling's own date and "Mark's" attribution dropped, matching how Entry 3
+treated the equivalent Cyprian/Didymus boundary cases. Several multi-sentence self-corrections
+("Correction (`<date>`): this note previously called the file PRIMARY content...", "LOCUS CORRECTED
+`<date>` (was ...)", `pachomius_rules-ethiopic_schodde1885.yaml`'s "A CORRECTION THIS FILE
+FORCES...") were condensed to the current true state only, the withdrawn history dropped rather
+than narrated — the same treatment Entry 3 gave `codex-theodosianus`'s and `perpetua-scillitan`'s
+own self-correction paragraphs.
+
+**Two false positives, left alone and noted here rather than "fixed."** `luther_works-v2-
+selected_jacobs-spaeth1916.yaml:116` and `luther_works-v3-selected_various1930.yaml:22` (mirrored
+into `lutheran-wittenberg-and-its-congregations.yaml:256,312` by the merge) match the
+`ruling-number` pattern on "R16"/"R18," but both are `witt_Source_Registry.md`'s own row numbers,
+not a project ruling — the same kind of reference `tools/check_live_commentary.py`'s own
+`SOURCE_REGISTRY_REF` exclusion already protects, except that exclusion only fires on "Source
+Registry" with a literal space, and this corpus writes the filename with underscores
+(`witt_Source_Registry.md`), so the regex misses it. The genuine date narration riding alongside
+each ("(2026-09-25 pass)") was still cut; the row citation itself was left exactly as it stood, as
+real, current data about what gap the assignment closes.
+
+**Thirteen ROUTE hits, all genuinely open editorial questions, left in place rather than moved.**
+Per this surface's own established practice from Entry 3 ("a ROUTE item's job here is to stop
+attributing the question to 'Mark'/'a reviewer' and state it plainly, not to answer it"), none of
+these were rewritten into silence or physically relocated — each was already, or is now, a plain,
+unattributed statement of a real unresolved question, which is exactly why the checker's own
+`route-cue` pattern keeps matching it. Six are the same three questions counted twice each (once in
+a `_staging/<volume>.yaml` source, once in its mirror inside a generated bucket file):
+
+- Whether the Clement of Alexandria Stromata context row's Marcion material should also ground a
+  `marcion-marcionism` context assignment (`anf02_hermas-...yaml:128`, mirrored in
+  `valentinian-and-other-gnostic-christianities.yaml:16`) — already listed in Entry 3's own "Left
+  open" section above, under the identical `anf02`/Stromata item.
+- Whether the ANF08 "Excerpts of Theodotus" row belongs in the Valentinian context entry at all,
+  now that the text is confirmed to be the Eclogae Propheticae rather than genuine Valentinian
+  material (`anf08_twelve-patriarchs-...yaml:342`, mirrored in
+  `valentinian-and-other-gnostic-christianities.yaml:30`) — already listed in Entry 3's own "Left
+  open" section, under the identical `anf08` item.
+- Whether the Apostolical Canons and the Apostolic Constitutions should be placed together under
+  one ruling (`npnf214_seven-ecumenical-councils.yaml:532`, mirrored in
+  `imperial-juridical-christianity.yaml:77` and `apocryphal-and-pseudepigraphal-literature.yaml:168`
+  — the work carries both atlas_ids) — already listed in Entry 3's own "Left open" section, under
+  the identical `npnf214`/Apostolical Canons item.
+
+Three more are new since Entry 3, not previously logged anywhere in this file:
+
+- `bell_jews-christians-egypt-meletian-papyri_1924.yaml:29` (mirrored in
+  `desert-monasticism.yaml:77`): whether the Melitian Pageus/Hathor papyrus archive is
+  representative of desert's own mainstream ascetic strands is an open, unverified assumption
+  (Doc_01 open item 1). Already tracked in `Build/worlds/desert/Open_Gaps_Tracking.md` (the "new
+  public-domain source not yet built out" entry on `desert.source.bell-jews-christians-egypt`) —
+  the corpus-map note was reworded to point there directly rather than re-narrate the doubt inline.
+- `calvin_letters-vol1_bonnet1858.yaml:24` (mirrored in
+  `the-reformed-cities-zurich-and-geneva.yaml:89`): Vol. III of Calvin's Letters (Bonnet, 4 vols.)
+  could not be located under any of three checked identifiers. This is the same gap `rzg`'s own
+  `Source_Acquisition_Manifest.md` (item G7) and `Open_Gaps_Tracking.md` (entry 19) already track,
+  though both currently describe the whole 4-volume set as unvendored rather than "I/II/IV vendored,
+  III missing" — a `rzg`-side staleness this program did not fix, since it sits in that world's own
+  build documents, out of this surface's scope. Left as a plain, unattributed statement of fact in
+  the corpus-map itself; flagged here for whoever next touches `rzg`'s own tracking docs.
+- `gregory-great_dialogues_gardner1911.yaml:28` (mirrored in `roman-church-gregorian.yaml:112`):
+  whether the Dialogues Book II (the only surviving Life of St. Benedict) should also be cross-
+  linked to `early-benedictine-italian-monasticism`, per `roman-church-gregorian_Source_Readiness_
+  Dossier.md` §5's own open question about the two entries' overlap. `roman-church-gregorian` has
+  no `Build/worlds/<code>/` home yet (not a built world), so there is no per-world
+  `Open_Gaps_Tracking.md` to receive this — left here per Entry 3's own precedent for exactly this
+  situation ("most of the atlas_ids below are not built worlds... recommend the corpus-map thread
+  ... do the actual filing").
+
+### Validation
+
+- `python3 cic/engine/corpus_map_merge.py --check` → clean; the real run → `698 distinct work(s) →
+  998 assignment(s)` before, `1000 work assignment(s) across 64 Atlas entry(ies)... valid.` after
+  (count differences are pre-existing generated-output vs. staging bookkeeping, not from this
+  pass's own edits — no `work:`/`atlas_ids:`/`role:`/`confidence:` value changed).
+- `tools/check_live_commentary.py --surface cic-corpus-map` → **17 hits** (was 270): 4 REWRITE (both
+  `witt_Source_Registry.md` row-number false positives above), 13 ROUTE (all six distinct open
+  questions above, each once in staging and once in its generated mirror, per the merge).
+- `tools/check_paths.py --baseline tools/check_paths_baseline.txt` → 0 new unresolved.
+- `git diff` over every touched `_staging/*.yaml` file contains no `work:`/`author:`/`locus:`/
+  `atlas_ids:`/`role:`/`confidence:` line — verified directly by grepping the diff for those keys
+  before writing this entry, not asserted from memory.

@@ -8,7 +8,7 @@ assignments:
   - imperial-juridical-christianity
   role: context
   confidence: assigned
-  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly by ijc''s
+  note: 'Used directly by ijc''s
     own build (ijc.source.paulinus-vita-ambrosii, ijc.story.bees-of-milan). Verified directly against
     the file: "CHAPTER II. Birth, Youth, and Early Public Career of Saint Ambrose" (line 3006)
     carries "suddenly a swarm of bees came and covered his face and lips in such a way that they kept
@@ -37,7 +37,7 @@ assignments:
   note: 'Independently re-checked against ambrosian-milan-standalone''s own dossier (Build/worlds/_cross-world/dossiers/ambrosian-milan-standalone_Source_Readiness_Dossier.md
     SS3), which already named this exact work as an acquisition lead and flagged it - before it
     was vendored - as "arguably the more natural home" for Milan rather than ijc: Ambrose''s own
-    secretary, writing at Augustine''s request. Now that it is vendored (2026-09-13, for ijc only),
+    secretary, writing at Augustine''s request. This file is vendored for ijc only;
     that flag is acted on here. Verified directly against the file at two loci central to this
     world''s own story, neither previously cited by any world''s build: Chapter III (line 3199)
     is Paulinus''s own account of the "voice of a child" crying "Ambrose Bishop" that turned the

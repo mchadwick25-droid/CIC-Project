@@ -10,8 +10,7 @@ assignments:
     confidence: assigned
     note: >
       Menno Simons's own collected writings, trans. John F. Funk (1871) -
-      the central primary voice of the Dutch Anabaptist wing. Vendored
-      2026-09-24 as part of a pre-Doc_02 source-acquisition pass for this
-      candidate. Not yet split into individual constituent treatises;
+      the central primary voice of the Dutch Anabaptist wing. Not yet
+      split into individual constituent treatises;
       assigned as one body per the corpus's own large-volume granularity
       rule.

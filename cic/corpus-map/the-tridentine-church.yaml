@@ -21,8 +21,8 @@ works:
     and no full parallel translation. role: tradition because the bull text itself is reproduced
     verbatim in both cases - the papacy''s own binding act, not a paraphrase or narrative
     about it - regardless of which language(s) it''s printed in. Narrow (two short bulls)
-    but genuine primary-source window. Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition
-    pass for the-tridentine-church, per this world''s own Source Readiness Dossier §3.
+    but genuine primary-source window. Closes a gap identified in this world''s own Source
+    Readiness Dossier §3.
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
@@ -38,9 +38,8 @@ works:
     tyranny. role: context, not tradition - useful as an outside opponent''s own testimony
     (e.g. for Doc_04 gravity-discovery work on how the papacy''s own claims to depose princes
     were received and attacked), never as this world''s own composed voice. Distinguished
-    from the tradition row above, which carries only the two bulls'' own verbatim text. Vendored
-    2026-09-25 as part of a pre-Doc_02 source-acquisition pass for the-tridentine-church,
-    per this world''s own Source Readiness Dossier §3.
+    from the tradition row above, which carries only the two bulls'' own verbatim text. Closes
+    a gap identified in this world''s own Source Readiness Dossier §3.
 
     '
   source_file: barlow_brutum-fulmen_1681.txt
@@ -49,8 +48,7 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
-  note: 'Bellarmine devotional work in English translation (Dalton, 19th c.). Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass.
+  note: 'Bellarmine devotional work in English translation (Dalton, 19th c.).
 
     '
   source_file: bellarmine_eternal-happiness-of-the-saints_dalton.txt
@@ -60,8 +58,7 @@ works:
   role: tradition
   confidence: assigned
   note: 'Bellarmine devotional work in English translation (Foxton, 1722), bound with an accompanying
-    essay by Joseph Addison - context, not Bellarmine''s own voice. Vendored 2026-09-25 as
-    part of a post-Step0-Revision-2 PD source-acquisition pass.
+    essay by Joseph Addison - context, not Bellarmine''s own voice.
 
     '
   source_file: bellarmine_joys-of-the-blessed_foxton1722.txt
@@ -70,8 +67,7 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
-  note: 'Bellarmine devotional work in English translation (1925). Vendored 2026-09-25 as
-    part of a post-Step0-Revision-2 PD source-acquisition pass.
+  note: 'Bellarmine devotional work in English translation (1925).
 
     '
   source_file: bellarmine_minds-ascent-to-god_1925.txt
@@ -80,8 +76,7 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
-  note: 'Bellarmine devotional work in English translation (Hall, 1703). Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass.
+  note: 'Bellarmine devotional work in English translation (Hall, 1703).
 
     '
   source_file: bellarmine_souls-ascension-to-god_hall1703.txt
@@ -92,11 +87,11 @@ works:
   confidence: assigned
   note: 'Borromeo''s own Milan synodal acts and pastoral instructions, previously wholly unvendored
     in any form (the only prior English lead, Voelker''s 1976 translation, is access-restricted).
-    No PD English translation exists; this is the 1599 Latin printing. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
-    directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+    No PD English translation exists; this is the 1599 Latin printing. Per the Library''s
+    non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text is primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged as
+    garbled under the Library''s own OCR-quality rule.
 
     '
   source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
@@ -113,8 +108,7 @@ works:
     Battely," dated 1687-89), and speaks in the first person as "we Protestants." role: context,
     not tradition - opponent-voice testimony against Bellarmine''s own Tridentine-side marks-of-the-Church
     argument, useful as evidence of how that argument was received and attacked, never as
-    this world''s own composed voice. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass.
+    this world''s own composed voice.
 
     '
   source_file: bellarmine_notes-of-the-church_1688.txt
@@ -125,9 +119,8 @@ works:
   confidence: assigned
   note: 'The Roman Catechism, commissioned by Trent and promulgated under Pius V, trans. McHugh
     & Callan (1923). This world''s own doctrinal formation text - the catechism its own parish
-    clergy taught from, not a later commentary on it. Vendored 2026-09-25 as part of a pre-Doc_02
-    source-acquisition pass for the-tridentine-church, per this world''s own Source Readiness
-    Dossier §3.
+    clergy taught from, not a later commentary on it. Closes a gap identified in this world''s
+    own Source Readiness Dossier §3.
 
     '
   source_file: council-of-trent_roman-catechism_mchugh-callan1923.txt
@@ -137,7 +130,6 @@ works:
   role: tradition
   confidence: assigned
   note: 'Trent''s own official canons and decrees, trans. Rev. J. Waterworth (preface 1848).
-    Vendored 2026-09-24 as part of a pre-Doc_02 source-acquisition pass for the-society-of-jesus.
     Native/foundational here - this is the-tridentine-church''s own defining conciliar voice,
     role tradition. Double-placed to the-society-of-jesus, where the same text is role context
     instead: this world''s own doctrinal anchor as the Jesuits implemented it, not the Society''s
@@ -152,11 +144,10 @@ works:
   confidence: assigned
   note: 'Pius V''s own apostolic letters, five books - real primary papal correspondence well
     beyond the single Barlow-transmitted bull already vendored. No PD English translation
-    was located. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this
-    Latin text can be primary evidence directly, verified against the vendored file, since
-    it is primary to the movement regardless of language; the scan is clean, not flagged under
-    Mark''s OCR ruling "a."
+    was located. Per the Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text is primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged as
+    garbled under the Library''s own OCR-quality rule.
 
     '
   source_file: pius-v_apostolicarum-epistolarum-lat_1640.txt
@@ -166,11 +157,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'Pole''s own oration as papal legate to the Emperor, printed inside a hostile Protestant
-    framing text. Fills the Step0-flagged gap for a Pole primary-voice PD lead. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Flagged under Mark''s OCR
-    ruling "a" (2026-09-25, Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md) as a garbled black-letter
-    1560 scan - stays second witness for scan-quality reasons until a cleaner edition is vendored,
-    notwithstanding this being English (the OCR ruling gates on scan quality, not language).
+    framing text. Fills the Step0-flagged gap for a Pole primary-voice PD lead. Per the Library''s
+    scan-quality rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is a garbled
+    black-letter 1560 scan - stays second witness for scan-quality reasons until a cleaner
+    edition is vendored, notwithstanding this being English (the rule gates on scan quality,
+    not language).
 
     '
   source_file: pole_seditious-oration_wythers1560.txt
@@ -182,9 +173,7 @@ works:
   confidence: assigned
   note: 'Fills the Step0-flagged gap for a Roman Breviary PD English lead. Reflects the Breviary''s
     later revision through Leo XIII, not a pure 1568/1570 Pius V text - disclosed as a textual-layering
-    point for whoever cites it. One of a 4-volume seasonal set; only this volume vendored
-    this pass. Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass.
+    point for whoever cites it. One of a 4-volume seasonal set; only this volume is vendored.
 
     '
   source_file: roman-breviary_bute1908.txt
@@ -193,8 +182,7 @@ works:
   locus: whole volume
   role: tradition
   confidence: assigned
-  note: 'Fills the Step0-flagged gap for a Roman Missal PD English lead. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass.
+  note: 'Fills the Step0-flagged gap for a Roman Missal PD English lead.
 
     '
   source_file: roman-missal_england1843.txt
@@ -209,7 +197,7 @@ works:
     survive only in Latin (Theiner''s Acta Genuina, untranslated). role: context, not tradition
     - this is a hostile external narrative, not the Tridentine church''s own institutional
     voice (per this world''s own Source Readiness Dossier §3-4, which flags this distinction
-    explicitly). Vendored 2026-09-25 as part of a pre-Doc_02 source-acquisition pass for the-tridentine-church.
+    explicitly).
 
     '
   source_file: sarpi_history-of-the-council-of-trent_brent1676.txt

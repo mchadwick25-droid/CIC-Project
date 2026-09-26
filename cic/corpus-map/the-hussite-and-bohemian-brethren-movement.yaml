@@ -10,8 +10,7 @@ works:
   role: context
   confidence: assigned
   note: 'Secondary history, English, Gillett (1871). Vol. II of a 2-volume set; Vol. I not
-    independently checked or vendored this pass. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass.
+    independently checked or vendored.
 
     '
   source_file: gillett_life-and-times-of-huss-v2_1871.txt
@@ -22,9 +21,8 @@ works:
   confidence: assigned
   note: 'Hus''s central ecclesiological treatise, trans. David S. Schaff (1915) - the work
     whose condemnation at the Council of Constance led directly to his execution in 1415,
-    and the doctrinal spine of the movement this world is built around. Vendored 2026-09-25
-    as part of a fresh pre-Doc_02 source-acquisition pass for this candidate, which had no
-    prior Source Readiness Dossier or corpus-map presence.
+    and the doctrinal spine of the movement this world is built around. This candidate had
+    no prior Source Readiness Dossier or corpus-map presence before this file.
 
     '
   source_file: hus_de-ecclesia-the-church_schaff1915.txt
@@ -35,8 +33,8 @@ works:
   confidence: assigned
   note: 'Hus''s own correspondence, trans. Workman & Pope (1904) - his own voice across his
     career at the university, his preaching at the Bethlehem Chapel, and his final imprisonment
-    and trial at Constance. Vendored 2026-09-25 as part of a fresh pre-Doc_02 source-acquisition
-    pass for this candidate, which had no prior Source Readiness Dossier or corpus-map presence.
+    and trial at Constance. This candidate had no prior Source Readiness Dossier or corpus-map
+    presence before this file.
 
     '
   source_file: hus_letters_workman-pope1904.txt
@@ -46,8 +44,7 @@ works:
   role: context
   confidence: assigned
   note: 'Secondary general history of Bohemia, English, Lutzow (1920, Everyman''s Library),
-    providing broader political/national context for the movement. Vendored 2026-09-25 as
-    part of a post-Step0-Revision-2 PD source-acquisition pass.
+    providing broader political/national context for the movement.
 
     '
   source_file: lutzow_bohemia-historical-sketch_1920.txt
@@ -56,8 +53,7 @@ works:
   locus: whole volume
   role: context
   confidence: assigned
-  note: 'Secondary history, English, Lutzow (1914), of the Hussite wars specifically. Vendored
-    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
+  note: 'Secondary history, English, Lutzow (1914), of the Hussite wars specifically.
 
     '
   source_file: lutzow_hussite-wars_1914.txt
@@ -68,8 +64,7 @@ works:
   confidence: assigned
   note: 'Secondary biography, English, Lutzow (1909). Fills out the institutional/political
     register this thin-sourced world''s corpus otherwise lacked (previously only Hus''s own
-    two vendored works). Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition
-    pass.
+    two vendored works).
 
     '
   source_file: lutzow_life-and-times-of-hus_1909.txt
@@ -80,11 +75,11 @@ works:
   confidence: assigned
   note: 'A major contemporary hostile source on the Hussite wars, by Aeneas Sylvius Piccolomini
     (later Pope Pius II), who observed events at close range. No PD English translation was
-    located; this is the 1592 Latin printing. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
-    this Latin text can be primary evidence directly, verified against the vendored file,
-    since it is primary to the movement regardless of language; the scan is clean, not flagged
-    under Mark''s OCR ruling "a."
+    located; this is the 1592 Latin printing. Per the Library''s non-English-primary-evidence
+    rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged as garbled under the Library''s own OCR-quality
+    rule.
 
     '
   source_file: piccolomini_historia-bohemica-lat_1592.txt
@@ -94,16 +89,14 @@ works:
   role: context
   confidence: assigned
   note: 'The Unity of the Brethren''s own institutional constitution (1632/33), Latin original
-    with English translation, ed. Seifferth (1866). Per Mark''s 2026-09-25 ruling on this
-    world''s own window (c. 1402-1517, moved back from Hus''s own preaching at Bethlehem Chapel,
-    held at 1517 so the later Unity material stays with the separate czech-churches-last-century
-    census entry, 1517-c. 1627), this text falls outside this world''s own temporal window
-    - it is the later Unity generation''s own voice, but not this world''s own tradition voice.
-    role: context, not tradition: useful here as a comparison/ continuation reference (how
-    the movement''s own discipline developed after this world''s own close), not as a floor-test
-    or binding source. Its own proper tradition placement belongs to whichever Doc_02 eventually
-    builds czech-churches-last-century. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass.
+    with English translation, ed. Seifferth (1866). Per this world''s own window (c. 1402-1517,
+    moved back from Hus''s own preaching at Bethlehem Chapel, held at 1517 so the later Unity
+    material stays with the separate czech-churches-last-century census entry, 1517-c. 1627),
+    this text falls outside this world''s own temporal window - it is the later Unity generation''s
+    own voice, but not this world''s own tradition voice. role: context, not tradition: useful
+    here as a comparison/ continuation reference (how the movement''s own discipline developed
+    after this world''s own close), not as a floor-test or binding source. Its own proper
+    tradition placement belongs to whichever Doc_02 eventually builds czech-churches-last-century.
 
     '
   source_file: unity-of-the-brethren_church-constitution_seifferth1866.txt

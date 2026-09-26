@@ -11,11 +11,10 @@ assignments:
     note: >
       Ribadeneira's original Latin life of Ignatius, commissioned by the
       3rd Superior General - an early, primary-adjacent biography by
-      someone who knew Ignatius personally. Vendored 2026-09-25 as part
-      of a post-Step0-Revision-2 PD source-acquisition pass. Flagged
-      under Mark's OCR ruling "a" (2026-09-25,
-      Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md) as a garbled 1572
-      scan - stays second witness for scan-quality reasons until a
-      cleaner edition is vendored. Its genre (an early biography, not
+      someone who knew Ignatius personally. Per the Library's
+      scan-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is a
+      garbled 1572 scan - stays second witness for scan-quality reasons
+      until a cleaner edition is vendored. Its genre (an early biography, not
       Ignatius's own voice) is a separate, independent reason this row
       is role: context regardless of scan quality.

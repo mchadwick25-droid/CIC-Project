@@ -10,15 +10,12 @@ assignments:
     confidence: assigned
     note: >
       The Society's own governing document, Latin original (1606 Rome
-      printing) - Correction (2026-09-25): this note previously called the file
-      PRIMARY content on the grounds that no PD English translation
-      exists. Under Mark's 2026-09-25 ruling
-      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), an original's
-      language no longer decides this - scan quality does, and this
-      1606 print is flagged under Mark's OCR ruling "a" as garbled. It
+      printing). This 1606 print is flagged as garbled under the
+      Library's own OCR-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md). It
       stays second witness for that reason until a cleaner edition is
-      vendored - still closing the real gap an earlier dossier pass
-      flagged, just not yet quotable verbatim.
+      vendored. It closes an identified source gap for this world,
+      though it is not yet quotable verbatim.
 
 authors_ruled:
   society-of-jesus:

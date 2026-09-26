@@ -10,9 +10,9 @@ works:
   confidence: assigned
   note: 'Gregory''s own massive allegorical commentary on Job, Library of the Fathers series,
     tr. James Bliss (per the set''s later volumes; this first volume''s own preface leaves
-    the translator anonymous). First of four parts vendored together 2026-09-24 to complete
-    the whole work (Books I-XXXV, no gaps, no overlaps - see the companion three parts'' own
-    notes, same atlas_id, same role/confidence). A verified acquisition lead from roman-church-gregorian_Source_Readiness_Dossier.md
+    the translator anonymous). First of four parts that together complete the whole work (Books
+    I-XXXV, no gaps, no overlaps - see the companion three parts'' own notes, same atlas_id,
+    same role/confidence). A verified acquisition lead from roman-church-gregorian_Source_Readiness_Dossier.md
     §3, closing the census''s own confirmed gap (neither the Dialogues nor the Moralia had
     been vendored anywhere in this corpus). Tradition per this entry''s own standing rule
     for Gregory''s own voice.
@@ -24,10 +24,10 @@ works:
   locus: whole text - Vol. II, Parts III-IV, Books XI-XXII
   role: tradition
   confidence: assigned
-  note: 'Second of four parts vendored together 2026-09-24 to complete the whole Moralia (Books
-    I-XXXV, no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s
-    own note for the full set and the dossier reference. Tradition per this entry''s own standing
-    rule for Gregory''s own voice.
+  note: 'Second of four parts that together complete the whole Moralia (Books I-XXXV, no gaps,
+    no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s own note for
+    the full set and the dossier reference. Tradition per this entry''s own standing rule
+    for Gregory''s own voice.
 
     '
   source_file: gregory-great_moralia-in-job-books-xi-xxii_bliss1845.txt
@@ -36,13 +36,12 @@ works:
   locus: whole text - Vol. III, First Part (Parts V-VI), Books XXIII-XXIX
   role: tradition
   confidence: assigned
-  note: 'Third of four parts vendored together 2026-09-24 to complete the whole Moralia (Books
-    I-XXXV, no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s
-    own note for the full set and the dossier reference. This part''s own book range (Books
-    XXIII-XXIX) was directly re-verified against its own title page and contents this session,
-    correcting the dossier''s provisional note (2026-09-21), which had attributed Books XXX-XXXV
-    to this identifier - that range in fact belongs to the companion part below. Tradition
-    per this entry''s own standing rule for Gregory''s own voice.
+  note: 'Third of four parts that together complete the whole Moralia (Books I-XXXV, no gaps,
+    no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s own note for
+    the full set and the dossier reference. This part''s own book range is Books XXIII-XXIX,
+    verified directly against its own title page and contents; Books XXX-XXXV belong to the
+    companion part below, not to this identifier. Tradition per this entry''s own standing
+    rule for Gregory''s own voice.
 
     '
   source_file: gregory-great_moralia-in-job-books-xxiii-xxix_bliss1847.txt
@@ -51,9 +50,9 @@ works:
   locus: whole text - Vol. III, Second Part, Books XXX-XXXV (completing the work)
   role: tradition
   confidence: assigned
-  note: 'Fourth and last of four parts vendored together 2026-09-24 to complete the whole
-    Moralia (Books I-XXXV, no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s
-    own note for the full set and the dossier reference. Tradition per this entry''s own standing
+  note: 'Fourth and last of four parts that together complete the whole Moralia (Books I-XXXV,
+    no gaps, no overlaps) - see gregory-great_moralia-in-job-books-i-x_bliss1844.yaml''s own
+    note for the full set and the dossier reference. Tradition per this entry''s own standing
     rule for Gregory''s own voice.
 
     '
@@ -100,7 +99,7 @@ works:
   role: tradition
   confidence: assigned
   note: 'Gregory''s own hagiographical/theological dialogues, tr. "P.W." (1608), re-ed. Gardner
-    (1911). Vendored 2026-09-24, a verified acquisition lead from roman-church-gregorian_Source_Readiness_Dossier.md
+    (1911). A verified acquisition lead from roman-church-gregorian_Source_Readiness_Dossier.md
     §3, re-verified directly against archive.org (explicit NOT_IN_COPYRIGHT) rather than taken
     on the dossier''s own note alone. Tradition per this entry''s own standing rule for Gregory''s
     own voice (see the Register and Pastoral Rule rows already here): this is Gregory speaking,
@@ -109,9 +108,8 @@ works:
     headed "Of the Life and Miracles of St. Bennet", begins immediately after) - and is a
     real, not yet acted-on, potential cross-link to early-benedictine-italian-monasticism
     (whose own census entry names Gregory as the author of "the only life of Benedict there
-    is"); left unassigned there per this session''s own scope (Doc_02''s or the project lead''s
-    call, not decided here), and per the dossier''s own open question at §5 about the overlap
-    between these two entries.
+    is"); left unassigned there because how these two census entries'' own coverage overlaps
+    is not yet resolved (roman-church-gregorian_Source_Readiness_Dossier.md §5).
 
     '
   source_file: gregory-great_dialogues_gardner1911.txt
