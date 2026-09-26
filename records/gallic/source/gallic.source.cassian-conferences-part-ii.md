@@ -14,9 +14,8 @@ confidence:
   divergence_note: 'Registry''s own three-way split: A for the dedication text itself, B for the editorial
     (row 17) identification of the dedicatees as Lerins''s Honoratus and Eucherius -- independently corroborated
     only for Lerins''s own existence by Gennadius (row 30), not for the Cassian-dedication link itself,
-    a claim the Registry''s own Round 2 fix explicitly WITHDREW after finding it rested on a different
-    abbot a decade later -- and C for content generally, except Conference XIII (grace and human effort,
-    gallicstory013), which this Registry rates higher.'
+    which rests on a different abbot a decade later -- and C for content generally, except Conference XIII
+    (grace and human effort, gallicstory013), which this Registry rates higher.'
 sources: []
 relations: []
 author: John Cassian

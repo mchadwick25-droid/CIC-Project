@@ -26,4 +26,4 @@ discovery_channel: builder-direct-read; Source Registry row 25; the passage or t
 external_ids:
   gallic_source_registry_row: 25
 ---
-A third Lerins-insider voice, in English -- Vaughan's 1654 translation. Vendored and rights-verified 2026-09-09; the complete 31-page CCEL text was fetched and confirmed complete (front matter through Index of Scripture References) at this Registry's own construction.
+A third Lerins-insider voice, in English -- Vaughan's 1654 translation. The complete 31-page CCEL text is confirmed complete (front matter through Index of Scripture References).
