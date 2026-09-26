@@ -1,6 +1,6 @@
 # B-9 Scoping Note — Lutheran Wittenberg & Its Congregations (witt)
 
-**Date:** 2026-09-19. **Status:** B-9 scoped and disposed — contributes
+**Status:** B-9 scoped and disposed — contributes
 nothing further beyond B-8, for the same structural reason Cappadocian's
 and Gallic's own B-9 work found (`gallic_B9_Scoping_Note.md`; Cappadocian's
 `CAPPADOCIAN_BUILD_LEDGER.md` §25). Verified independently against witt's

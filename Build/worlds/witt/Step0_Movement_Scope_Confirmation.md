@@ -1,9 +1,8 @@
 # Step 0 — Movement-Scope Confirmation: Lutheran Wittenberg & Its Congregations
 
-**Status:** DRAFT, Revision 1. Prepared at the project lead's direct request (2026-09-15), one of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass the same day (`Build/worlds/_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md`). **This document has not been independently reviewed.** It does not carry the same evidentiary weight as a Step 0 document that has been through this project's own adversarial-review cycle (see e.g. `Build/worlds/latap/Step0_Movement_Scope_Confirmation.md` for what that process produces after five rounds) — treat every finding below as a considered first pass, not a verified conclusion, until a real review round runs against it. **Not self-disposed. Not Approved to proceed.** Advisory work product for Mark's own consideration; no build thread has been opened under `cic-build-cycle`.
+**Status:** DRAFT, Revision 1 — not independently reviewed. One of six candidates selected together for the project's first build run past its existing 70–451 CE window, following a dedicated source-research pass (`Build/worlds/_cross-world/dossiers/lutheran-wittenberg-and-its-congregations_Source_Readiness_Dossier.md`). It does not carry the same evidentiary weight as a Step 0 document that has been through this project's own adversarial-review cycle — treat every finding below as a considered first pass, not a verified conclusion, until a real review round runs against it. **Not self-disposed. Not Approved to proceed.** Advisory work product for further consideration; no build thread has been opened under `cic-build-cycle`.
 **World file-code:** none assigned — not yet selected.
 **Census reference:** Atlas ID VI.1, `cic-website/data/world-census.json`, status "Pre-Survey Candidate."
-**Date drafted:** 2026-09-15.
 **Governed by:** Constitution V2.3 Article 4 (Movement-Scope scoping section); `CiC_L3B_Step0_Movement_Scope_Methodology_V1.0.docx` Section A and Section B. This document quotes the floor's five commitments verbatim from Constitution V2.3 Article 4 wherever it must characterize one: (1) "One God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen." (2) "Jesus Christ as the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten not made, of one Being with the Father." (3) "Jesus Christ as truly human — incarnate of the Holy Spirit and the Virgin Mary, 'became truly human.'" (4) "Christ's death under Pontius Pilate, burial, bodily resurrection on the third day, ascension, and his return in glory to judge the living and the dead." (5) "The Holy Spirit as Lord and giver of life, worshiped and glorified together with the Father and the Son."
 
 ## 0. Purpose and relationship to the existing Step 0 record
@@ -34,7 +33,7 @@ Live and real, disclosed rather than smoothed over — this batch was chosen del
 
 ### A4 — Hand-selected inclusion: invoked
 
-Mark selected this candidate directly from the Era VII survey roster, 2026-09-15, on the named criteria stated in §0 above — not a Step 0 verdict reached independently by this document, but the actual mechanism that placed this candidate under consideration.
+This candidate was selected directly from the Era VII survey roster, on the named criteria stated in §0 above — not a Step 0 verdict reached independently by this document, but the actual mechanism that placed this candidate under consideration.
 
 ### A5 — Interaction with Articles 20, 21, and 23
 
@@ -89,4 +88,4 @@ A candidate case prepared outside both the phase-wide-survey and post-selection-
 
 **Status: DRAFT, Revision 1. Not independently reviewed.** No claim is made here that this document's findings would survive the kind of adversarial-review cycle the Latin Apologists' own Step 0 went through across six revisions — only that the sourcing claims above are each individually host-verified (see the dossier), and the floor/continuity/uniqueness reasoning is a good-faith first pass grounded in that verified material and in uncontested historical fact (Luther's dates, the Augsburg Confession's own text, the Marburg Colloquy's date and subject).
 
-**Recommended next step:** an actual independent adversarial review round, the same process every other Step 0 document in this project's history has gone through before being treated as more than an advisory first pass. No build thread should open on the strength of this document alone.
+**Recommended next step:** an independent adversarial review round. No build thread should open on the strength of this document alone.

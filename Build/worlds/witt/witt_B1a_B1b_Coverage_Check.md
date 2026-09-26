@@ -1,6 +1,6 @@
 # Lutheran Wittenberg & Its Congregations — B-1a/B-1b coverage check (R)
 
-**Date:** 2026-09-19. Run against the 95-row `witt_Source_Registry.md` (Revision
+Run against the 95-row `witt_Source_Registry.md` (Revision
 5, APPROVED TO PROCEED) and the 89 source records + 1 world_core record B-1
 authored at `records/witt/source/*.md` and `records/witt/world_core/*.md`,
 following the same discipline the Cappadocian and Gallic worlds'
@@ -72,20 +72,20 @@ own five-revision history shows this world's build has previously gotten
 wrong at least once, or exact-count claims where an error is easy to make
 and hard to notice:
 
-1. **R20's two loci**, restored at Revision 2 after Revision 1 moved them
-   "one line off" (the Registry's own Round 1/Round 2 dispute): the Weimar
+1. **R20's two loci** — a location the Registry's own history shows was once
+   misplaced "one line off," now corrected: the Weimar
    sermons basis at lines 11732–11735 and Duke George's ban "dated November
    7, 1522" at lines 11737–11738. **CONFIRMED** — `sed` on
    `luther_works-v3-selected_various1930.txt` lines 11730–11740 reproduces
    both exactly at the currently-cited loci.
-2. **R87's footnote text**, corrected at Revision 2 after Revision 1 silently
-   emended it: the file's own OCR reads "Pabats" (not "Pabsts") and "and"
+2. **R87's footnote text** — previously silently emended, now corrected:
+   the file's own OCR reads "Pabats" (not "Pabsts") and "and"
    (not "und," an English conjunction inside an otherwise German/Latin
    phrase). **CONFIRMED** — `sed` on `luther_works-v1-selected_jacobs-spaeth1915.txt`
    lines 343–347 shows "Pabats" and "and" exactly as the Registry's corrected
-   Verification Note states, not the emended form Revision 1 introduced.
-3. **The Large Catechism's saints passage**, corrected at Round 1 S1 after
-   Revision 0 certified a backwards splice: Lawrence is the saint against
+   Verification Note states, not the previously emended form.
+3. **The Large Catechism's saints passage** — previously certified in
+   backwards order, now corrected: Lawrence is the saint against
    fire, Sebastian/Rochio against pestilence (not the reverse). **CONFIRMED**
    — lines 452–456 read exactly in the corrected order.
 4. **Two exact-count claims from Doc_02 SS13**, the kind of claim an error
@@ -216,11 +216,10 @@ inside R63, and the four already-disclosed corpus-map indexing gaps Doc_02
 SS16 item 1 assigns to the coach thread, not this build thread), is in the
 search_record itself.
 
-**Saturation statement.** Given five independent review rounds already ran
-against `witt_Source_Registry.md` before this sweep began — Round 1, Round
-2, a Round 3 bounded spot-check, and two further bounded checks
+**Saturation statement.** `witt_Source_Registry.md` has already been
+through five independent review passes, including two bounded checks
 (`witt_Doc02_Round4_ZellCheck.md`, `witt_Doc02_Round5_ZellFinalCheck.md`)
-that themselves caught a genuinely new defect as late as the fifth pass (an
+that caught a genuinely new defect as late as the last of them (an
 undisclosed evidentiary-basis upgrade in R54) — a discovery sweep run after
 that scrutiny should expect at most a small residue, not a fresh pile of
 misses. That is what this sweep found: nothing, on either the

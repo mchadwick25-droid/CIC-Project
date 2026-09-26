@@ -1,6 +1,6 @@
 # Phase C Scoping Note — Lutheran Wittenberg & Its Congregations (witt)
 
-**Date:** 2026-09-19. **Status:** Phase C recon complete. Two genuine content
+**Status:** Phase C recon complete. Two genuine content
 defects found and fixed directly (both self-inflicted during this build's
 own B-4 and Answer-the-Canon authoring passes). Four small, disclosed,
 precedented `ACCEPTED_OPEN` entries added. The bulk of "deployment wiring"

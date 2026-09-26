@@ -136,8 +136,8 @@ WORLD_ID = "lutheran-wittenberg-and-its-congregations"
 
 # MECHANICAL. Registry row number -> the real witt.source.* id B-1 already
 # minted, read directly off every records/witt/source/*.md file's own
-# external_ids.witt_source_registry_row field (confirmed 89/89 present,
-# 2026-09-19). Never guessed.
+# external_ids.witt_source_registry_row field (89/89 present). Never
+# guessed.
 ROW_TO_ID: dict[int, str] = {
     1: "witt.source.luther-selections-from-luthers-prefaces-to-his",
     2: "witt.source.luther-disputation-on-the-power-and-efficacy",

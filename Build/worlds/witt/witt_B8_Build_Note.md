@@ -1,6 +1,6 @@
 # B-8 Build Note — Lutheran Wittenberg & Its Congregations (witt)
 
-**Date:** 2026-09-19. **Status:** B-8 (S2.8, "Generated views + four parities")
+**Status:** B-8 (S2.8, "Generated views + four parities")
 complete for this world, scoped to what is actually executable for a
 first-ever record-native build, per the identical structural finding
 Cappadocian's and Gallic's own B-8/B-9 work already made and independently

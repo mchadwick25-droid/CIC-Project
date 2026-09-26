@@ -151,12 +151,9 @@ MECHANICAL vs AUTHORED, field by field, for the `source` records:
     because their own text is genuinely printed at length inside a
     vendored file (Bacon's hymns volume) rather than only referenced,
     unlike Erasmus's or the Confutation's own words; a stricter reading
-    could still call these three "unvendored" too, and a human reviewer
-    may reasonably disagree with where this script drew that particular
-    line. This script represents the Registry's own real kind
-    distribution faithfully rather than overriding it to match the
-    brief's simplification; see this build's own final report for the
-    point flagged back to the requester.
+    could still call these three "unvendored" too. This script represents
+    the Registry's own real kind distribution faithfully rather than
+    overriding it to match a simplified brief.
   - attribution_status: MECHANICAL -- "attributed" whenever a named author
     was parsed; a disclosed "anonymous-or-institutional" string otherwise
     (never fabricates a name to force "attributed").
@@ -360,13 +357,12 @@ def build_rights_status(n: int, source_raw: str, licensed_for_raw: str,
                          verification_raw: str, kind: str, files: list[str]) -> str:
     combined = f"{source_raw} {verification_raw}"
     in_copyright = re.search(r"in.copyright", combined, re.I)
-    # Deliberately NOT matching the bare abbreviation "PD" here (dropped
-    # after a real defect this script's own first run produced: row 48's
-    # "PD lead: ... renewal check pending" was mechanically read as a
-    # confirmed "Public domain" claim, when the row's own text is a
-    # disclosed, UNRESOLVED rights question -- G1 Part B's own "genuinely
-    # blocked" / "renewal check pending" language, not a settled PD
-    # finding). Only the unambiguous two-word phrase counts.
+    # Deliberately NOT matching the bare abbreviation "PD" here: row 48's
+    # "PD lead: ... renewal check pending" text would otherwise be
+    # mechanically read as a confirmed "Public domain" claim, when the
+    # row's own text is a disclosed, UNRESOLVED rights question -- G1 Part
+    # B's own "genuinely blocked" / "renewal check pending" language, not
+    # a settled PD finding. Only the unambiguous two-word phrase counts.
     pd = re.search(r"public[ -]domain", combined, re.I)
     if kind == "vendored" and files:
         flist = ", ".join(f"cic/texts/{f}" for f in files)
@@ -647,13 +643,10 @@ def build_world_core(row_to_id: dict[int, str]) -> str:
         # .thinness: World Profile Section 8 (Honest Limits, all six named
         # domains) rendered in-voice, phrasing drawn directly where already
         # voice-tested from the Permanent Prompt paragraph 31.
-        # CORRECTED 2026-09-19 (go-live adversarial review B-1/H-1): .thinness, .cautions, and
-        # thin_topics[peasants/1525, Jews/1543] below previously licensed the Representative's
-        # own voice to state 1525/1543 content ("we can state..."/"existence and content") --
-        # reversing the Standing determination that content is Facilitator-carried, never the
-        # Representative's (Doc_07 SS9/SS12 item 7, Doc_08 SS11 item 7). This script was never
-        # re-run after the compiled-record fix, so it silently still generated the reversed
-        # formula -- kept in sync here so a future re-run does not restore a BLOCKING finding.
+        # .thinness, .cautions, and thin_topics[peasants/1525, Jews/1543] below state only
+        # that the 1525/1543 content exists, never its own argument or wording: content there
+        # is Facilitator-carried, never the Representative's (Doc_07 SS9/SS12 item 7, Doc_08
+        # SS11 item 7).
         "thinness": (
             "We can tell you exactly what a household was to do, morning, table, and night, "
             "and exactly what a father was to ask his children and servants each week -- but "
