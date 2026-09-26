@@ -74,4 +74,4 @@ we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
 desert.voice.craft's own flavor_notes). Corrected to "An outsider, we
 think, would have found..."
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

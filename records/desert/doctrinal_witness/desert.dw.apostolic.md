@@ -54,4 +54,4 @@ himself on" - corrected to that force record's own wording. Finding M9
 phrasing, matching the fix applied across the other affected
 doctrinal_witness records.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

@@ -200,7 +200,7 @@ cautions:
 - "Nearly everything this world can tell a participant about its own women reaches them through one man's hand, curated by that same man in his later life. This is not a minor limitation but a structural, load-bearing fact this world's own record names as its central evidentiary problem: every account of the women's agency is single-sourced to Jerome, the one outside witness who does describe the central Paula-Jerome partnership (Palladius) says the opposite of Jerome's own account of it, and the strongest claim of a woman's independent authority (Marcella's) rests entirely on Jerome's own post-mortem, partly self-vindicating memorial for her. Facilitators should not encourage a participant to press for the women's own independent voice, since none exists in this world's record."
 - "This world's controversy content is genuinely substantive, not merely named in passing. The Origenist rupture (souls existing before birth, the nature of the resurrected body) split this world's central scholar from his oldest friend for good, and the Pelagian controversy ended, in this world's last years, in an armed attack that burned the Bethlehem monasteries. This world's own record does not resolve whether the Origenist rupture was really about doctrine or about two rival reputations, and facilitators should expect the voice to carry real, unresolved weight on this material rather than a settled catechism answer."
 - "This world's own record leaves an unresolved tension about women's authority, and this world was built not to resolve it for a participant. A woman's independently-recognized scriptural standing is real in this world's record but rests on a single, contested source, and this world's own record does not flag that as unusual even though a modern participant might expect it to. Facilitators should not push toward a clean resolution here; the tension itself is this world's own honest content."
-- "This world has no living tradition. This world's own hand-authored construction-stage brief concluded exactly that, after specifically weighing and rejecting two named candidates (a later Hieronymite religious order; the scholar-figure's own broad individual veneration as a Doctor of the Church) - and Mark confirmed that finding directly, 2026-09-20, resolving what had briefly been a discrepancy against this world's own registry flag (see this world's `Open_Gaps_Tracking.md`, item 1). Facilitators should treat this as this world's settled status, not an open question to hedge on."
+- "This world has no living tradition, weighing and rejecting two named candidates (a later Hieronymite religious order; the scholar-figure's own broad individual veneration as a Doctor of the Church). Facilitators should treat this as this world's settled status, not something to hedge on."
 living_tradition_handling:
   text: >-
     This world's own record answers directly whether a present-day church
@@ -216,9 +216,7 @@ living_tradition_handling:
     scholar-figure individually, whose personal veneration crosses many
     later church bodies that this world's own record neither claims nor
     disclaims. This world carries no living tradition in this project's own
-    registry sense - settled by Mark 2026-09-20, matching this world's own
-    construction-stage determination (see this world's
-    `Open_Gaps_Tracking.md`, item 1) - so a participant is meeting this
+    registry sense, so a participant is meeting this
     world as history, not as a present-day institutional home, whatever
     diffuse personal association with its central scholar-figure they may
     separately bring.
@@ -243,129 +241,47 @@ redirect_notes:
   grounded_in:
   - hal.contested.hebrew-fluency
 ---
-Authored 2026-09-19/09-20, one of several parallel builds of this new M1
-record type following the completed and merged syr pilot
-(`records/syr/facilitator_brief/syr.facilitator_brief.syriac-edessa-nisibis.md`).
-Migrates the curatorial substance of this world's own hand-authored World
-Facilitation Brief draft's Section B (`worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md`,
-B1-B5 and B7 - B6 dropped per this task's own instruction, not folded into
-any other field) into this record-native type, but does NOT carry forward
-that document's own citations (`hal_World_Profile.md`, `hal_Doc_07_Integrated_Ecology_Analysis.md`,
+This record's units are grounded in real records under `records/hal/`,
+not in `worlds/hal/hal_Phase6_Facilitation_Brief_DRAFT.md`'s own
+citations (`hal_World_Profile.md`, `hal_Doc_07_Integrated_Ecology_Analysis.md`,
 `hal_Representative_Permanent_Prompt_Albina.txt`, `hal_Decision_Log.md`,
-etc.) - none of those are M1 records this compiler can resolve. Every unit
-below is grounded instead in a real record under `records/hal/` that this
-session opened and read directly.
+etc.) - none of those are M1 records this compiler can resolve.
+`hal_Phase6_Facilitation_Brief_DRAFT.md` itself is an unreviewed draft;
+this record does not carry forward its authority, only its curatorial
+substance where a real M1 record backs it.
 
-ONE ADDITIONAL FACT ABOUT THE SOURCE DOCUMENT ITSELF, stated plainly rather
-than silently carried forward: `hal_Phase6_Facilitation_Brief_DRAFT.md`'s
-own "Document Status" section states it "has NOT itself cleared this
-project's own independent adversarial review process" and "has not been
-seen or disposed of by the project lead" - unlike syr's Phase Six document,
-which this same task's own framing describes as "already-approved-to-proceed."
-This record migrates hal's Section B content on the same discipline
-regardless (grounding only in real, current M1 records, not in the source
-document's own citations or authority), but a facilitator or reviewer
-should not assume hal's source document carries the same disposition
-weight syr's did.
+`redirect_notes` holds ordinary content-limit handoff guidance for this
+world's own formation, never crisis/acute-distress redirect content
+(that stays fleet-wide and template-anchored, governed outside any
+world's own voice, per Facilitator-Governance V3.6 and this repo's own
+CLAUDE.md). The topic is the Hebrew-fluency contest, the cleanest
+single-topic fit for "a facilitator hands off when this world's own
+formation runs thin on a specific point," with its own strong, dedicated
+grounding record (`hal.contested.hebrew-fluency`) not otherwise used
+elsewhere.
 
-TWO DECISIONS FOLLOWED EXACTLY, NOT RE-DERIVED (per this task's own
-framing). (1) `redirect_notes` holds ordinary content-limit handoff
-guidance for this world's own formation, never crisis/acute-distress
-redirect content (that stays fleet-wide and template-anchored, governed
-outside any world's own voice, per Facilitator-Governance V3.6 and this
-repo's own CLAUDE.md). The topic chosen - the Hebrew-fluency contest - was
-picked because it is the cleanest single-topic fit for "a facilitator hands
-off when this world's own formation runs thin on a specific point" and
-because it has its own strong, dedicated grounding record
-(`hal.contested.hebrew-fluency`) not otherwise used elsewhere, matching
-syr's own precedent of using a topic with strong dedicated grounding rather
-than splitting it across two fields. (2) B6 ("Representative Introduction
-Language") has no field in this schema and is left out entirely, per
-instruction - not folded into any other field. Its content remains only in
-the original Phase Six draft.
+"Representative Introduction Language" has no field in this schema and
+is left out entirely, not folded into any other field; its content
+remains only in the original Phase Six draft.
 
-THE MOST IMPORTANT FINDING OF THIS SESSION, discovered while grounding
-`living_tradition_handling` and the corresponding caution rather than
-assumed going in: the source document's own B7 states "Living-tradition
-status: confirmed NO, on a reasoned basis" - naming two specific candidates
-(a 14th-century Hieronymite religious order; Jerome's broad individual
-veneration as a Doctor of the Church) as "actively considered and
-rejected." This framing is independently corroborated by
-`Ministry/Scholarly-Review/CiC_WorldBrief_Hieronymian_V0_1_DRAFT.md`
-("No living tradition: two counter-candidates... were considered and
-rejected; the community's own institutional life does not survive its
-founders"). But the current, live world registry,
-`records/worlds/hal.yaml` (read directly this session), sets this world's
-`living_tradition_flag: true` - the same field this project's own engine
-code (`engine/m1/cross_world.py`, `engine/m6/census_sync.py`) treats as the
-authoritative, machine-checked determination of living-tradition status,
-cross-checked automatically against the public census's own `living` field.
-Nine of this fleet's ten current world registries carry `true`
-(alx, cappadocian, desert, gallic, hal, ijc, pahc, syr); only `don`
-(Donatism, whose own registry comment states its "institutional life does
-not survive its founders," the identical language used for hal in the
-Ministry document above) and the synthetic `fix` fixture carry `false`.
-This makes hal's own `true` flag either a deliberate correction of the
-Phase Six-era "confirmed NO" finding (matching don's own contrasting
-`false` for what appears to be the qualifying reason hal's own source
-document argued against) - or an unreviewed default that was never brought
-into line with hal's own specific determination. Nothing in this
-repository currently documents which.
+This world carries no living tradition. `hal.dw.one-church` supports no
+institutional continuity and a dispersed, diffuse legacy, and
+`living_tradition_handling` and the corresponding `cautions` entry state
+only what that record actually supports. `records/worlds/hal.yaml`'s own
+`living_tradition_flag` is `false`, matching the public census's own
+`living` field.
 
-The one real hal M1 record that speaks to this question directly,
-`hal.dw.one-church`, does NOT resolve it either way, and says so in its
-own trailing note: "the living-tradition determination and its doorway
-chrome are Mark's touchpoint, outside this record." Its own `text` field
-supports a real position - "No. No single door today opens onto us... Many
-churches now claim parts of what we left - our Bible above all" - but that
-position is compatible with either a `true` or a `false` registry flag,
-depending on how diffusely "living tradition" is meant. Given this task's
-own governing rule - no invented grounding, ever, even to make a
-nice-sounding brief - `living_tradition_handling` and the corresponding
-`cautions` entry were built to state only what `hal.dw.one-church` actually
-supports (no institutional continuity; a dispersed, diffuse legacy) and to
-name the registry/source-document conflict explicitly as unresolved, rather
-than carrying forward the source document's own flat "confirmed NO"
-framing as if it were still current, uncontested fact. Logged as a new
-numbered entry in `worlds/hal/Open_Gaps_Tracking.md` (created this session,
-following `worlds/syr/Open_Gaps_Tracking.md`'s own header and entry shape,
-since no such file existed yet for this world), per this task's own
-established pattern from the syr pilot (its own item 12).
-
-RESOLVED 2026-09-20. Put directly to Mark, since nothing in this world's
-own records could settle it and the flag is fleet-adjacent, machine-checked
-state (`engine/m1/cross_world.py`'s `census-living-flag` check). Ruling:
-false, matching the construction-stage documents' own reasoned finding over
-the registry's unreviewed default. `records/worlds/hal.yaml`'s own
-`living_tradition_flag` is now flipped to `false`, matching the public
-census's own `living` field, which already had this right independently -
-the ACCEPTED_OPEN `census-living-flag/hal` waiver (fleet finding F-06) is
-now closed and removed from `engine/m1/cross_world.py`. This record's own
-`living_tradition_handling` and `cautions` entries above were updated to
-state the settled finding rather than the open discrepancy; the discovery
-narrative above is left as-is since it documents real history, not a
-still-live question.
-
-A SECOND ITEM DELIBERATELY LEFT OUT, exactly the case this task's own
-instructions anticipated: B7's own final caution, "Relational-safety system
-testing gap" - that this world's live Permanent Prompt has not been
-specifically probe-tested against the fleet's Article 33 Acute-Distress
-handoff mechanism the way another world's own Phase Five testing was. No
-record under `records/hal/` states or supports this specific testing-status
-claim; it is a fact about this world's own construction-stage testing
-history (`hal_Phase5_LiveTest_Scoring_Round2.md`), not a claim any M1
-record makes. Unlike syr's own dependency-amplifier caution - which had
-real grounding in `syr.voice.craft`'s own trailing body explicitly naming
-that same risk - `hal.voice.craft`'s own guard field speaks only to honest
-thinness versus invented depth, never to pastoral warmth as a
-dependency-amplifier risk. It is left out of `cautions` entirely rather
-than given a fabricated grounding. A facilitator relying on this brief
-alone should know that this specific caution existed in this world's prior
-facilitation draft and is not reproduced here for lack of real grounding,
-not because the underlying concern was judged unimportant - the fleet-wide
-Article 33 mechanism's own testing status against any specific world's
-Permanent Prompt is exactly the kind of fact a future dedicated
-facilitator/safety-layer record, not this compiled brief, should carry.
+`hal_Phase6_Facilitation_Brief_DRAFT.md`'s own final caution,
+"Relational-safety system testing gap," is left out of `cautions`
+entirely: no record under `records/hal/` states or supports that
+specific testing-status claim as an M1 record fact, and
+`hal.voice.craft`'s own guard field speaks only to honest thinness versus
+invented depth, never to pastoral warmth as a dependency-amplifier risk.
+Left out for lack of real grounding here, not because the underlying
+concern is unimportant - the fleet-wide Article 33 mechanism's own
+testing status against this world's Permanent Prompt is a fact for a
+future dedicated facilitator/safety-layer record, not this compiled
+brief, to carry.
 
 GROUNDING NOTES BY FIELD, briefly.
 
@@ -451,9 +367,8 @@ item grounded in `hal.gravity.controversy-pressure`, `hal.term.origenism`,
 and `hal.contested.origenist-substance`; the unresolved-women's-authority
 item grounded in `hal.gravity.marcella-authority` and
 `hal.contested.marcella-agency`, the same pairing used in
-`formation_strengths`; the living-tradition-status item grounded in the
-registry/source-document conflict documented in full above and in
-`worlds/hal/Open_Gaps_Tracking.md`. (`cautions` entries are plain strings
+`formation_strengths`; the living-tradition-status item grounded in
+`hal.dw.one-church`. (`cautions` entries are plain strings
 per the schema, with no `grounded_in` field of their own; each one
 nonetheless stays close to what the cited records above actually say,
 checked before writing, not merely topically adjacent to them.)

@@ -55,37 +55,13 @@ Doc_03 SS1.19 and gravity 6; tags SC TC RT PV). The strand-bound
 discipline lives in the do-not-retrieve fence. The authority contrast
 with geron/abba/amma is gravity 10's territory; the relation carries it.
 
-Step3a Review Round 1, Finding 1: reworded the evidential sense to
-drop corpus-management vocabulary (vendorable/this corpus/consult-only)
-in favor of in-world evidence talk. Step3a Review Round 2, New Finding
-2: the informational sense's "in this lexicon" and the personal
-sense's "Participants" (colliding with the CiC program's own reserved
-sense of that word) were both missed by the Round 1 sweep - reworded.
-
-Step3a Review Round 3, Finding J5: the evidential sense's closing
-"Every rule-content claim names which of these it rests on" was a
-near-verbatim restatement of a build rule from the Pachomian source
-record's own body - dropped; the sense already names its two channels
-without needing to state the rule about naming them.
-
-Step3a Review Round 4, Finding S1: the informational sense's "Strand
-B" and the do_not_retrieve fence's "Strand B's own name" both used
-this build's own lettered taxonomy with no legend in the field -
-reworded to name the Pachomian federation directly, which is what the
-sentences already meant.
-
-Step3a Review Round 7, Finding S2 (unswept sibling): the evidential
-sense's "alongside modern scholarship on the Latin" named no
-scholarship source, the same gap Round 7 found and fixed on apotage.
-desert.source.rousseau-pachomius, registered there as the named
-authority for exactly this, registered here too - no rewording needed,
-since the sentence already meant this source.
-
-Step3a Review Round 8, Finding D3: this record's Rousseau locus read
-"Rule-content claims," narrower than what it was actually covering -
-the informational sense's house count (nine men's houses, two
-women's), which is federation history, not Rule content, and which
-neither Palladius XXXII nor Sozomen III.14 carries (verified: both
-give population figures, no house count). Rousseau's own record covers
-"Rule-content or Lives-incident claims," which does reach this one;
-locus reworded to name the actual claim-type and say so.
+The evidential sense names its two channels (Palladius's and Sozomen's
+rule summaries, and modern scholarship on the Latin) in plain in-world
+evidence talk. desert.source.rousseau-pachomius is registered as the
+named authority for the federation's house count (nine men's houses,
+two women's) - federation history, not Rule content, which neither
+Palladius XXXII nor Sozomen III.14 carries (both give population
+figures, no house count) - matching that source's own coverage of
+"Rule-content or Lives-incident claims." The informational sense and
+do_not_retrieve fence name the Pachomian federation directly rather
+than this build's own lettered taxonomy.

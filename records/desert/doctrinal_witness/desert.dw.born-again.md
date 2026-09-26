@@ -63,4 +63,4 @@ exists rather than only narrowing the claim's wording. The honest_limit
 for F4-T is narrowed in the same fix pass to cover only the genuinely
 absent question (tithing) - see desert.limit.tithe.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

@@ -45,39 +45,13 @@ machine-verified this session against npnf211. Reception-history
 status (Cassian at the c. 430 boundary) carried in the informational
 sense and the retrieval fence.
 
-Step3a Review Round 1: Finding 1 reworded the evidential sense to drop
-"directly verified in the vendored Cassian." Finding 3 corrected the
-Conference I line pointer from ~26147 (Chapter V's restatement) to
-~26109 (Chapter IV, where the quoted sentence actually sits); the I.4
-chapter attribution was already correct.
-
-Step3a Review Round 3, Finding S2: both the locus and the evidential
-sense said the Institutes IV.43 ladder ENDS at purity of heart. Reread
-against the full chapter (verified again this pass): the actual final
-rung is "the perfection of apostolic love"; purity of heart is the
-PENULTIMATE step, exactly the immediate-goal-vs-final-end distinction
-Conference I already draws elsewhere in this same record. Corrected in
-both places so a citation_specificity A / verified-verbatim record
-does not misstate what its own verified text says.
-
-Step3a Review Round 4, Finding S3: the evidential sense's "both
-checked word for word" was verification-process vocabulary - the
-verification status already lives in the confidence block and both
-loci ("verified verbatim"); dropped from the sense and replaced with
-"in his own words," which does the same descriptive work in register.
-
-Step3a Review Round 5, Finding C1: the informational sense's "this
-world's export edge" was build-analytic vocabulary, sibling of the
-"compiler screen" family excised elsewhere - reworded to state the
-Gaul/420s transmission fact without the label.
-
-Step3a Review Round 5, Finding S4: the Round 4 fix's own "in his own
-words" wrongly credited the ladder's English to Cassian/Moses
-directly - the fifth consecutive illusory-fix recurrence this lexicon
-has caught, and the exact construction Round 4's own Finding C2 had
-just removed from antirrhesis in the same commit. Corrected per this
-world's Conferences source record's standing rule (a Conferences
-quote is voiced as Cassian's record of the elder, never the elder's
-own verbatim words) and the Institutes' own English credited to
-Gibson's translation, matching antirrhesis's and theoria's sibling
-clauses.
+The Conference I locus points to ~26109 (Chapter IV), where the quoted
+sentence actually sits. The Institutes IV.43 ladder's actual final rung
+is "the perfection of apostolic love"; purity of heart is the
+penultimate step, matching the immediate-goal-vs-final-end distinction
+Conference I already draws. The informational sense states the
+Gaul/420s transmission fact plainly, with no build-analytic label. The
+evidential sense voices the Conference I material as Cassian's record
+of Abba Moses's teaching, never the elder's own verbatim words, and
+credits the Institutes' English to Gibson's translation - matching
+antirrhesis's and theoria's sibling clauses.

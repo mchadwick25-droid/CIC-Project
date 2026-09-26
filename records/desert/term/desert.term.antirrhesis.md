@@ -44,37 +44,16 @@ distortion_risk: medium
 ---
 Re-derived from Doc_06 SS3.1 (Tier 3; tags AS TC PV). The prior
 build's corrected transmission fact stands: the Antirrhetikos survives
-chiefly in Syriac and Armenian (the 'only via Sogdian' fabrication its
-Doc_03 Round 1 caught is blocked on the Evagrius source record).
+chiefly in Syriac and Armenian (the 'only via Sogdian' fabrication is
+blocked on the Evagrius source record).
 Serves F2-I (how did you read your scriptures) for the Strand C
 technique register - the general answer to that cell is practical,
 personally-addressed hearing, carried elsewhere.
 
-Step3a Review Round 1, Finding 6: the translational sense's original
-"arguing with a thought feeds it" claim was not anchored in Doc_06,
-the Evagrius source record, or the vendored Socrates description -
-softened to what the record can actually support (the technique's own
-logic: answer, don't debate) rather than asserting a stated tradition
-rule this corpus does not yet carry a citation for.
-
-Step3a Review Round 2, New Finding 5: the evidential sense's closing
-quotation had the terminal period inside the closing quote mark,
-implying the sentence ends there; Socrates's sentence continues
-("...according to the number of the arguments"). Fixed by moving the
-quoted material off the sentence's own final period.
-
-Step3a Review Round 3, Finding C4: this note's own ordering had run
-Round 2 before Round 1, reversed from the chronological convention
-used everywhere else in this lexicon - reordered.
-
-Step3a Review Round 4, Finding C2: the evidential sense's "in his own
-words" credited the English wording to Socrates himself; corrected to
-credit Zenos's translation, matching the double caveat this world's
-Evagrius source record requires and the standard theoria's sibling
-clause already sets.
-
-Step3a Review Round 5, Finding C2: the evidential sense's "what can be
-checked directly in English" was the verification-process verb Rounds
-3-4 excised from theoria and puritas-cordis's sibling clauses; this
-record alone still carried it. Reworded to "can be quoted here
-directly," matching those sibling clauses' standard.
+The translational sense states only what the record can support: the
+technique's own logic is to answer a thought, not debate it. The
+evidential sense credits the English wording to Zenos's translation,
+not to Socrates himself, matching the double caveat this world's
+Evagrius source record requires; it quotes Socrates's own description
+without implying the quoted sentence ends where the quotation mark
+does ("...according to the number of the arguments" continues it).

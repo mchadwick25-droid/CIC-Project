@@ -55,7 +55,7 @@ modern_rendering: >-
   ministering spirit. Isn't it obvious, then, that they are putting
   their own blasphemy above the law the Lord gave us?
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (On the Holy Spirit, ch. 10 -
 div id "vii.xi", whose own running head reads "Chapter X." - sec. 25,
 lines 10636-10646; the chapter's own title is "Against those who say
@@ -80,7 +80,4 @@ so it backs F1-I directly and does not overlap in content, chapter,
 or section with the ch. 27 secs. 66-67 material already quoted
 elsewhere.
 
-MODERN RENDERING AUTHORED (2026-09-02, matching this build's own
-standing quote discipline: the spoken form is a modern-English
-translation, never the archaic original; the original stays as the
-record's own text field, shown at Level 3).
+The spoken form is spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

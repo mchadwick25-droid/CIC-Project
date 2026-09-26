@@ -123,4 +123,4 @@ origin story - authority here is given by vision and written down, not
 only earned through personal relationship, the same contrast
 desert.gravity.authority-tension names.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

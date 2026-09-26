@@ -61,5 +61,5 @@ rather than quoted text - the single convention this record actually
 follows. The world's central confessed answer to who Jesus is - the
 words the century's whole enforcement contest was about.
 
-Quote-verbatim gate fix (2026-09-22): the two already-disclosed gloss omissions had no ellipsis mark
-in the `text` field itself - added at both points, so the gap is honestly shown rather than silent.
+The two gloss omissions are each marked with an ellipsis in the `text`
+field itself, so the gap is shown honestly rather than silent.

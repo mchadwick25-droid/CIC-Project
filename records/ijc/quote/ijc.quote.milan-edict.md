@@ -56,5 +56,5 @@ us..." - the truncation itself is a defensible editorial choice (the
 sentence's core clause is complete); the undisclosed punctuation
 substitution was not.
 
-Quote-verbatim gate fix (2026-09-22): the flagged punctuation substitution is corrected - the invented
-period is replaced with a trailing ellipsis, honestly marking the already-judged-defensible truncation.
+The truncation is marked with a trailing ellipsis rather than an
+invented period, honestly marking the defensible truncation.

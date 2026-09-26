@@ -55,8 +55,8 @@ modern_contrast: >-
   names a man who sought the danger out and failed. It says plainly that seeking danger out was
   never the example to follow.
 ---
-Authored 2026-09-19, the pahc `world_front` build. `atlas-v3.html`'s
-own `documentedStories` array for post-apostolic-house-church names
+`atlas-v3.html`'s own `documentedStories` array for
+post-apostolic-house-church names
 three entries: "Ignatius Asks Rome Not to Save Him" (matches
 `pahc.story.ignatius-guarded-journey`), "The Grandsons of Jude Before
 Domitian" (matches `pahc.story.grandsons-before-domitian`), and

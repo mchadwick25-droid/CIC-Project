@@ -75,8 +75,8 @@ note: "NOTHING NEW FOUND SITTING UNOPENED. Every vendored file whose principal
   the same pass and worth naming plainly rather than filing separately and
   silently: Gregory of Nyssa's Life of Moses is cited three times as a Key Text
   in Doc_06 (akatalepsia, epinoia/energeia, epektasis) and was explicitly named
-  as a real, still-open gap in the G1 manifest's own 'honest gaps' list
-  (2026-08-30) -- yet is the ONE item on that same gap list that never received
+  as a real, still-open gap in the G1 manifest's own 'honest gaps' list --
+  yet is the ONE item on that same gap list that never received
   a Source Registry row, while every other item on it did (Against Eunomius ->
   row 24; the Small Asketikon -> row 19; Ad Graecos -> row 54; Eunomius' 383
   confession -> row 59; Epiphanius/Amphilochius -> rows 61/65; Nicaea

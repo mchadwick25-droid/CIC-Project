@@ -49,5 +49,5 @@ the charge that its claim is merely political, and simultaneously the
 clearest exhibit of sanctity being converted into institutional
 standing (the Tensional gravity's Strand A face).
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own space before a comma ("state ,") that
-the record had closed up. No wording changed.
+The text carries the source's own space before the comma ("state ,").
+No wording is changed.

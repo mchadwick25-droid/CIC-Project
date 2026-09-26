@@ -68,4 +68,4 @@ Step4, Round 2 review Finding C7: desert.limit.f1-t-original-sin-
 eucharist-faith names this record in its own nearest_material and
 why_sources_cannot_answer without a reciprocal relation - added.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

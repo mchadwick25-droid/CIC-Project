@@ -56,7 +56,7 @@ text: 'Domitian was told that some of Jesus'' own family were still alive - gran
   mean to be worth his notice, and let them go; and he called off the persecution. They went home and
   became leaders of the churches.'
 ---
-Verified directly against the vendored file 2026-08-27 at anf08 line
+Verified directly against the vendored file at anf08 line
 71558, every element at that locus: the informers, Evocatus, the sum of
 9000 denaria, the thirty-nine plethra, the dues, the hands held out, the
 answer about the kingdom, Domitian's contempt, the release, the end of
@@ -75,9 +75,4 @@ beneath his attention. A world that told only its martyr stories would
 give a participant a false picture of what being a Christian under Rome
 usually was - which was, mostly, being too unimportant to prosecute.
 
-CENTER-CELL MAPPING (2026-08-30, Mark's pilot read: the center cells
-had no story or term to offer - "i don't see the full 3 level
-transparency with glossary terms, stories and quotes"; his approved
-scope: one story and one term per center cell where they genuinely
-belong, not everything that could fit). Added to C-E: the canon's own "Had anyone among you known someone who saw him?" is answered by this record directly - the grandsons of Judas, called the Lord's brother, alive and questioned under Domitian. Content unchanged;
-this note and the added cell are the whole edit.
+This world's center-cell material adds to C-E: the canon's own "Had anyone among you known someone who saw him?" is answered by this record directly - the grandsons of Judas, called the Lord's brother, alive and questioned under Domitian.

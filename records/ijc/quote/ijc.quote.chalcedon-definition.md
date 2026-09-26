@@ -64,7 +64,6 @@ delivered to us" - the truncation is defensible (the sentence's
 doctrinal core is complete); the undisclosed punctuation substitution
 was not.
 
-Quote-verbatim gate fix (2026-09-22): the punctuation substitution the review above flagged as
-needing a fix is corrected now - the invented period is replaced with a trailing ellipsis, honestly
-marking the truncation the review already judged defensible rather than presenting it as a real full
-stop.
+The truncation is marked with a trailing ellipsis rather than an
+invented period, honestly marking a defensible truncation rather than
+presenting it as a real full stop.

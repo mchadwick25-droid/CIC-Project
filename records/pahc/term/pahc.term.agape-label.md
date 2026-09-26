@@ -58,9 +58,8 @@ senses:
     wants.'
 quick_meaning: The love-feast - a shared meal under love's own name. How it relates to the thanksgiving meal is genuinely unsettled.
 ---
-Re-derived from the approved lexicon (Doc_03/Doc_06, term 10, Tier 2,
-CT contest: Historical scope - the corrected form after the cold review
-that found Smyrnaeans 8's inside anchor; the narrower
-same-practice-or-different question stays unresolved, per the corrected
-Doc_02 SS4). Both loci wording-verified against vendored files (anf01;
-npnf201's Pliny note).
+This term is derived from the approved lexicon (Doc_03/Doc_06, term 10,
+Tier 2, CT contest: Historical scope), grounded in Smyrnaeans 8's
+inside anchor; the narrower same-practice-or-different question stays
+unresolved (Doc_02 SS4). Both loci are wording-verified against
+vendored files (anf01; npnf201's Pliny note).

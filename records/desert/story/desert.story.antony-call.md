@@ -90,7 +90,7 @@ the vendored Ellershaw text's own "...and come follow Me and thou shalt
 have treasure in heaven." Corrected above to the source's own clause
 order.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
 
 CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
 and the five world read"; V1.2 birth condition applied to the existing

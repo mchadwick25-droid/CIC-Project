@@ -28,4 +28,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 66; a specific n
 external_ids:
   cappadocian_source_registry_row: 66
 ---
-The third-century founding-memory initiating force (Doc_01 SS4); the Thaumaturgus mission (Doc_01 SS1) (row 66). File present since 2026-08-15, not re-verified this session.
+The third-century founding-memory initiating force (Doc_01 SS4); the Thaumaturgus mission (Doc_01 SS1) (row 66). This file has not been individually re-verified against Doc_02's specific citations.

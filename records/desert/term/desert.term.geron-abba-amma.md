@@ -59,18 +59,6 @@ sense and governs the F6-P cell service (the woman-authority
 identity-collision question) - the honest answer names both the
 reality and the thinness.
 
-Step3a Review Round 2, New Finding 7: the translational sense's
-"modern participant" collided with the CiC program's own reserved
-sense of that word - reworded to "modern hearer," matching the
-register used elsewhere in this lexicon.
-
-Step3a Review Round 7, Finding S3: the evidential sense offered the
-sayings collection's organizing structure itself as evidence without
-naming that the structure is the later compilers' own arrangement -
-the one place in the lexicon where the compiler screen's own work
-product is offered as evidence unscreened. Added the caveat clause.
-
-Step3c: desert.figure.sarah added - the amma thinness this record's
-own evidential sense already names is made concrete there, for the one
-amma this corpus can currently trace to a specific, individually
-verified saying.
+desert.figure.sarah gives concrete grounding to the amma thinness this
+record's own evidential sense names, for the one amma this corpus can
+currently trace to a specific, individually verified saying.

@@ -78,4 +78,4 @@ question each time, matching this build's own practice of reusing strong
 source material across distinct dws without duplicating a single record's
 own text.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.spirit-numbered-with-father-and-son, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.spirit-numbered-with-father-and-son.

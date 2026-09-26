@@ -49,5 +49,5 @@ window, verified in place). The Tome's most-quoted movement - the
 two-natures teaching Chalcedon's Definition takes up, in the letter
 that carried Rome's standing to a council its bishop did not attend.
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own spaces before two punctuation marks
-("lie ," and "other ;") that the record had closed up. No wording changed.
+The text carries the source's own spaces before its two punctuation
+marks ("lie ," and "other ;"). No wording is changed.

@@ -77,4 +77,4 @@ of life have anything for someone like me?") at its most extreme pitch
 - the promise this story makes is not that the struggle ends, but that
 help arrives once the struggle itself has been sufficiently borne.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

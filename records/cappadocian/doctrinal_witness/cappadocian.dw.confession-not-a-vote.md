@@ -74,4 +74,4 @@ documented arc (Nicaea 325 to Constantinople 381), without duplicating
 that force record's own citation weight since the term and story records
 already carry the claim directly.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-the-doxology-challenge, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-on-the-doxology-challenge.

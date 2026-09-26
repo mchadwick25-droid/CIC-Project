@@ -40,29 +40,16 @@ relations:
   target: desert.dw.judgment-and-resurrection
 ---
 Verified verbatim against the vendored file, S69 - immediately
-following the S68 passage desert.quote.antony-arians-serpents cites (a
-narrowed locus as of this same commit; the two quotes are adjacent, not
-overlapping). Added per Step 4 Round 1 review Finding S2, which found
-that record's own body wrongly claimed §69 does not state "a positive
-Trinitarian formula" - it does, in these words, and this record
-supplies it directly rather than leave the claim standing uncorrected
-by omission. §69's own narrative frame (Antony "being summoned by the
+following the S68 passage desert.quote.antony-arians-serpents cites (the
+two quotes are adjacent, not overlapping, and not the same division).
+This record supplies the positive Trinitarian formula §69 states in
+these words. §69's own narrative frame (Antony "being summoned by the
 bishops and all the brethren, he descended from the mountain, and
 having entered Alexandria, he denounced the Arians") shows this was
-public teaching at episcopal summons, not private refusal - see the
-corrected desert.dw.councils for that fuller picture.
+public teaching at episcopal summons, not private refusal - see
+desert.dw.councils for that fuller picture.
 
-Step4, Round 2 review Finding S1: the text above previously read "The
-Son of God..." and "Wherefore," both silently altered from the vendored
-"...that the Son of God..." and "And therefore," and was silently
-truncated before "for the Word was always co-existent with the
-Father," under a body sentence claiming the text had been verified
-verbatim. Character-compared against the file directly this pass and
-corrected above: the opening ellipsis marks the excerpt's start
-mid-clause, "that" and "And therefore" are restored to the vendored
-wording, and the full sentence including its final clause is now
-carried rather than cut. Finding C6: the body's own claim that this
-record and desert.quote.antony-arians-serpents cite "the same division
-(SS68-69)" no longer held once that sibling record's locus was narrowed
-to S68 alone by the same commit - corrected above to state the two
-loci are adjacent, not identical.
+The text field's opening ellipsis marks the excerpt's start mid-clause
+(the vendored wording is "...that the Son of God..." and "And
+therefore"); the full sentence, including its final clause, is carried
+rather than cut.

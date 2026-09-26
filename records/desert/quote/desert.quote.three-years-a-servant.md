@@ -51,7 +51,7 @@ relations:
 - type: associated-with
   target: desert.term.apotage
 ---
-Verified verbatim 2026-08-27 against the vendored file, Part I, p. 682.
+Verified verbatim against the vendored file, Part I, p. 682.
 
 Registered because desert.gravity.koinonia's own manifestations list has
 carried "a three-year probation" since the prior build on the strength of

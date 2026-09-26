@@ -57,5 +57,5 @@ source follows it, named") that broke its own rule. This record gives
 the passage its own citation so the demonstration can name Ambrose and
 quote him properly.
 
-Quote-verbatim gate fix (2026-09-22): the record's own text silently dropped the quotation marks the
-source puts around "This is My Body" (Christ's own reported words). Restored; no wording changed.
+The text carries the quotation marks the source puts around "This is My
+Body" (Christ's own reported words). No wording is changed.

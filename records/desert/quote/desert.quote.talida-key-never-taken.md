@@ -70,7 +70,7 @@ relations:
 - type: associated-with
   target: desert.term.apatheia
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Verified verbatim against the vendored file.
 
 The most useful single passage in this file for this world. It carries an
 amma running a house of sixty under her own teaching, a named informant
@@ -78,7 +78,6 @@ chain, a first-hand scene, an incidental fact about how OTHER women's
 houses were run, and a technical claim about apatheia attached to a
 woman - all in one paragraph.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "for women" was invented - the
-source's sentence continues with a real clause ("and through her divine doctrine she changed them
-into a state of incorruptibility"), silently dropped. Restored; a natural continuation of the same
-point about her teaching, not a change of claim.
+The text field carries the source's sentence in full past "for women," including the clause "and
+through her divine doctrine she changed them into a state of incorruptibility" - a natural
+continuation of the same point about her teaching.

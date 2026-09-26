@@ -41,25 +41,20 @@ relations:
 - type: associated-with
   target: desert.gravity.elder-authority
 ---
-VERBATIM AS OF 2026-08-27, AND SHORTER THAN THE PARAPHRASE IT REPLACES.
-Verified character for character against the newly vendored Budge at line
+Verified character for character against the vendored Budge at line
 2429, §525.
 
-WHAT CHANGED, AND IT IS NOT A FORMALITY. The paraphrase this record
-carried read: "By nature I am a woman, but not by my own thoughts. It is
-I who am the man here, and you who are the women." THE FIRST SENTENCE IS
-NOT IN THIS RECENSION. It belongs to the Greek alphabetical collection
-(Sarah 4), whose only English translations are in copyright and which
-this world therefore cannot vendor - see
-desert.search.greek-alphabetical-pd-english. The paraphrase had been
-carrying a Greek-tradition clause under a licence that could not be
-checked against anything.
+The fuller form of the saying - "By nature I am a woman, but not by my
+own thoughts. It is I who am the man here, and you who are the women" -
+belongs to the Greek alphabetical collection (Sarah 4), whose only
+English translations are in copyright and which this world therefore
+cannot vendor - see desert.search.greek-alphabetical-pd-english. This
+recension carries only the second sentence.
 
-THE LOSS IS REAL AND IS NOT SMOOTHED. The dropped sentence is the half
-that most clearly frames the saying as Sarah's own comment on her sex,
-rather than only a rebuke to the brothers. Without it the line is blunter
-and more ambiguous. That is what the Syriac says. A world that kept the
-fuller wording because it preferred it would be choosing its evidence.
+The loss is real and is not smoothed over. The dropped sentence is the
+half that most clearly frames the saying as Sarah's own comment on her
+sex, rather than only a rebuke to the brothers. Without it the line is
+blunter and more ambiguous. That is what the Syriac says.
 
 The modern_lens_note stands unchanged: "man" and "women" are this world's
 gendered virtue-categories, not a claim about gender identity.
@@ -71,21 +66,12 @@ substance rather than reproducing a specific published translation's
 own English, consistent with desert.figure.sarah's own identical
 discipline for the same saying.
 
-Step4, Round 1 review Finding S10: divergence_note carried only the
-"Widely Accepted" half of desert.source.apophthegmata-patrum's own
-confidence pairing - the unconditional Inferential/Thin bound added
-above, matching desert.figure.sarah's own full statement of it.
+divergence_note carries both halves of desert.source.apophthegmata-patrum's own confidence pairing,
+the "Widely Accepted" half and the unconditional Inferential-Thin bound, matching desert.figure.sarah's
+own full statement of it.
 
-Step4, Round 2 review Finding M8: `sources[].locus` compiles into
-`quotes.json` (`build_quotes_json()` emits `sources` verbatim), which
-this build's own field map for the record type had not previously
-flagged - the locus above previously named two sibling record ids and
-described itself in build-process terms ("in this record's own words
-rather than a verbatim rendering"); reworded to a plain description
-carrying the same information without either.
+`sources[].locus` compiles into `quotes.json` (`build_quotes_json()` emits `sources` verbatim), so it
+is written as a plain description: it does not name a sibling record id, use build-process language,
+or carry a licence-mechanics gloss.
 
-Step4, Round 3 review Finding M6: the M8 fix still left "vendored" and
-a licence-mechanics gloss in this compiled field - reworded above to
-plain description with neither.
-
-MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

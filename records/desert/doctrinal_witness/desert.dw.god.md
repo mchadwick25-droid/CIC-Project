@@ -79,7 +79,7 @@ Corrected to acknowledge the philosophical disputations alongside the
 Arian confrontation, matching the correction already made on
 desert.dw.councils for the identical class of overclaim.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
 
 LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
 pahc read: plain meaning first, the world's own word after it as a
