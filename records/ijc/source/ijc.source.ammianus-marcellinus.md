@@ -13,6 +13,11 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources: []
+claim_guards:
+- never attribute content beyond Book 27.3 (the 366 election riot, the Sicininus
+  casualty figure, the bishopric-wealth remark) - no other passage of the Res Gestae
+  is vendored or verified in this build, including the public-post/synod-travel
+  material at 21.16.18
 author: "Ammianus Marcellinus (c. 330-c. 391), pagan Roman historian"
 work: "Res Gestae, Book 27.3 - the 366 election riot between Damasus's and Ursinus's parties, with a
   casualty figure for the basilica of Sicininus and a remark on the wealth at stake in the Roman
