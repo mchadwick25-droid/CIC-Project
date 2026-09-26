@@ -5563,3 +5563,33 @@ into this cleanup pass. It is real, methodology-level work (a template redesign,
 cleanup) and belongs with the kind of framing-heavy design work this project routes through
 Fable, per its own model-routing convention — not something to rush through agent batches once
 the per-document variation is accounted for.
+
+---
+
+## 2026-09-26 — Two cross-world rulings' attribution, dropped during the small-worlds cleanup batch, recorded here instead of back in the Step0 documents
+
+The Opus review gate on the `worlds/` Phase 3b cleanup pass (see `61475727`) found that the
+2026-09-10 small-worlds batch (`b9ad408c`), in trimming genuine review-round narrative out of
+two pre-Step-0 candidate documents, also dropped the explicit "Mark's ruling (2026-09-10)"
+attribution for two real scoping decisions — leaving only "prepared at the project lead's direct
+request," which describes who commissioned the document, not who made the ruling inside it. Both
+documents (`grkap`, `latap`) are pre-Step-0 candidate assessments with no build thread opened yet
+and no per-world decision log of their own to route this to, so it's recorded here per this
+project's own convention (cross-cutting rulings with no natural per-world home go in this log,
+not back into the canonical document itself).
+
+The two rulings, both dated 2026-09-10:
+
+- **`Build/worlds/latap/Step0_Movement_Scope_Confirmation.md`** — Tertullian is included in this
+  candidate. The formerly separate census entry (Atlas I.17, "Tertullian's Voice") is merged into
+  I.43; the roster grows from four authors to five, the corpus from 464,797 to approximately
+  1,194,575 words. Census I.17 is reassigned to status "Within Another World (A5)."
+- **`Build/worlds/grkap/Step0_Movement_Scope_Confirmation.md`** — Justin is co-owned between
+  Post-Apostolic House-Church (PAHC) and this candidate (Atlas I.35), on the Antony model:
+  attribution held open, PAHC's existing figure record stays a full `emic`/`load-bearing` record,
+  not narrowed to a HAL-style citation.
+
+Both documents themselves still carry their full reasoning and consequences (corpus counts,
+census reassignment, the rewritten sections) — only the explicit "this was Mark's ruling, on this
+date" framing is recorded here rather than restored inline, consistent with keeping the documents'
+own prose to the ruling's substance rather than its provenance narrative.
