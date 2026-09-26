@@ -598,8 +598,11 @@ _REVIEW_DOC_FILENAME_KEYWORDS = (
     "spotcheck",
     "checkpoint",
     "unused_source_verification",
-    "zellcheck",
 )
+# "zellcheck" alone, as a plain substring, does not match
+# "ZellFinalCheck.md" (witt) - "final" sits between "zell" and "check".
+# A separate regex catches both "ZellCheck" and "ZellFinalCheck".
+_ZELL_CHECK_RE = re.compile(r"(?i)zell\w*check")
 
 
 def _is_review_doc(rel: Path) -> bool:
@@ -623,7 +626,7 @@ def _is_review_doc(rel: Path) -> bool:
     if "Review-Artifacts" in parts:
         return True
     name = parts[-1].lower()
-    return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS)
+    return any(keyword in name for keyword in _REVIEW_DOC_FILENAME_KEYWORDS) or bool(_ZELL_CHECK_RE.search(name))
 
 
 def _is_world_build_dir(rel: Path) -> bool:
@@ -734,7 +737,23 @@ def _is_doc_construction_file(rel: Path) -> bool:
 # or ijc Doc_05's "**Writing-From-Inside note, stated accurately:**".
 # Those stay flagged like any other prose; only a genuine short
 # field-name line is protected.
-_DOC_HEADER_FIELD_RE = re.compile(r"^\*\*[A-Z][\w /()\-]*:\*\*")
+_DOC_HEADER_FIELD_RE = re.compile(r"^\*\*([A-Z][\w /()\-]*):\*\*")
+
+# A label the punctuation filter above lets through (no comma or
+# apostrophe) but that is still a changelog entry, not a metadata field -
+# found once _is_doc_construction_file's scope widened past the bare
+# Doc_0X sample it was tuned against: "**Revision 2 (2026-07-09):**"/
+# "**Revision 3...**" (pahc, literal numbered changelog entries -
+# "Revision history:" itself, naming no number, is a real field and stays
+# protected), "**Schema note:**" (gallic, opens "This claim was made
+# falsely twice before it was true..."), "**Filename note:**" (don),
+# "**Terminology note carried forward from this drafting pass:**"
+# (desert), "**Note on...:**" (ijc - the punctuation filter's own worked
+# example in the comment above was itself a false negative for a label
+# with no internal comma).
+_DOC_HEADER_FIELD_NARRATIVE_LABEL_RE = re.compile(
+    r"(?i)^(revision\s+\d|schema note|filename note|terminology note\b|note on\b|correction\b|addendum\b)"
+)
 
 # Any heading (## or deeper) that starts or continues this project's own
 # tail administrative block - every wording actually found across the
@@ -743,11 +762,35 @@ _DOC_HEADER_FIELD_RE = re.compile(r"^\*\*[A-Z][\w /()\-]*:\*\*")
 # rzg), "Open Issues Flagged for Downstream Documents" (hal-style),
 # "Document Log" / "Document log" (gallic, witt, lpc - where the
 # disagreement log and escalation check actually live, one heading after
-# "Open Items"), "Disposition" / "Review and Disposition" (ijc, hal, rzg,
-# lpc). A document with none of these headings (lpc's Doc_08, syr's
-# Doc_09) matches nothing here - correctly: there is no tail block to
-# protect.
-_DOC_TAIL_HEADING_RE = re.compile(r"open items?|handoff|document log|disposition", re.IGNORECASE)
+# "Open Items"), "Disposition" / "Review and Disposition" / "Overall
+# Disposition" (ijc, hal, rzg, lpc, don). A document with none of these
+# headings (lpc's Doc_08, syr's Doc_09) matches nothing here - correctly:
+# there is no tail block to protect.
+#
+# Anchored to where the heading's own title starts (after an optional
+# leading number/"Section N"/"Part N" and an optional "Overall"/"Final"/
+# "General") or ends - not a bare substring search anywhere in the
+# heading. An unanchored version, tuned against the bare Doc_0X sample,
+# over-matched once applied fleet-wide: a heading merely *mentioning* one
+# of these words mid-title - "## 4. Deeper Dynamic Encounter Validation
+# Exchange (addresses Open Item 8)" (syr), "## ADDENDUM (2026-07-19,
+# System Hub) - the Facilitator-handoff mechanism now exists" (pahc),
+# "## 5. Overall Disposition (REWRITTEN per independent review)" (don) -
+# is not itself a tail section, and hid real body narrative underneath it
+# ("Correction made during revision after Round 1 review..." in syr's
+# case).
+_HEADING_NUMBERING_PREFIX_RE = re.compile(
+    r"(?i)^(?:\d+(?:\.\d+)*\.?\s+|section\s+\d+\s*[-—:]\s*|part\s+\d+\s*[-—:]\s*)"
+)
+_DOC_TAIL_HEADING_START_RE = re.compile(
+    r"(?i)^(?:overall\s+|final\s+|general\s+)?(?:open items?|open issues?|handoff|document log|disposition|review and disposition)\b"
+)
+_DOC_TAIL_HEADING_END_RE = re.compile(r"(?i)(?:open items?|handoff|document log|disposition)$")
+
+
+def _is_doc_tail_heading(heading_text: str) -> bool:
+    stripped = _HEADING_NUMBERING_PREFIX_RE.sub("", heading_text).strip()
+    return bool(_DOC_TAIL_HEADING_START_RE.match(stripped) or _DOC_TAIL_HEADING_END_RE.search(stripped))
 
 
 def _doc_construction_protected_lines(rel: Path, text: str) -> set[int]:
@@ -772,7 +815,7 @@ def _doc_construction_protected_lines(rel: Path, text: str) -> set[int]:
        first 40 lines - every surveyed file has one there) or, failing
        that, a defensive 15-line cap.
     2. The tail administrative block: any heading (## or deeper) matching
-       _DOC_TAIL_HEADING_RE, protected to the next heading of the same or
+       _is_doc_tail_heading, protected to the next heading of the same or
        shallower level, or EOF. Two such headings in a row (an "Open
        Items" section immediately followed by a separate "Document Log"
        holding the disagreement log and escalation check - the actual
@@ -792,7 +835,8 @@ def _doc_construction_protected_lines(rel: Path, text: str) -> set[int]:
     )
     i = 0
     while i < header_end:
-        if _DOC_HEADER_FIELD_RE.match(lines[i]):
+        field_match = _DOC_HEADER_FIELD_RE.match(lines[i])
+        if field_match and not _DOC_HEADER_FIELD_NARRATIVE_LABEL_RE.match(field_match.group(1)):
             protected.add(i + 1)
             # Continuation lines, for a field whose value wraps - this
             # repo's actual convention is one field per single (often very
@@ -827,7 +871,7 @@ def _doc_construction_protected_lines(rel: Path, text: str) -> set[int]:
             headings.append((idx, len(m.group(1)), m.group(2)))
 
     for pos, (idx, level, htext) in enumerate(headings):
-        if not _DOC_TAIL_HEADING_RE.search(htext):
+        if not _is_doc_tail_heading(htext):
             continue
         end = len(lines)
         for idx2, level2, _ in headings[pos + 1:]:

@@ -143,6 +143,94 @@ def test_doc_construction_open_items_and_handoff_variants_protected(tmp_path):
     assert by_line[18] != "PROTECTED"  # past both, back to ordinary body
 
 
+def test_doc_construction_heading_mentioning_keyword_midtitle_not_protected(tmp_path):
+    # Opus review-gate finding F1 (2026-09-26): _is_doc_tail_heading must
+    # anchor to where the heading's own title starts or ends, not match
+    # the keyword as a bare substring anywhere in it - a heading merely
+    # *mentioning* "Open Item"/"handoff"/"Disposition" mid-title is not
+    # itself a tail section. Real cases: syr's "## 4. Deeper Dynamic
+    # Encounter Validation Exchange (addresses Open Item 8)" (body
+    # narrative underneath it was hidden by the old unanchored match) and
+    # pahc's "## ADDENDUM (...) - the Facilitator-handoff mechanism now
+    # exists".
+    text = (
+        "# Doc_05 -- Ecological Reconstruction\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Approved to proceed\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 4. Deeper Encounter Exchange (addresses Open Item 8)\n"
+        "Correction made during revision after Round 1 review, per Mark, R26.\n"
+        "\n"
+        "## ADDENDUM (2026-07-19) - the Facilitator-handoff mechanism now exists\n"
+        "Per Mark's ruling, R26, this addendum records a system change.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/syr/Doc_05_Ecological_Reconstruction.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[9] != "PROTECTED"  # body under the "(addresses Open Item 8)" heading
+    assert by_line[12] != "PROTECTED"  # body under the "...handoff..." heading
+
+
+def test_doc_construction_overall_disposition_heading_protected(tmp_path):
+    # A real variant found fleet-wide: a leading modifier word ("Overall")
+    # before the tail keyword still starts a genuine tail section.
+    text = (
+        "# Doc_05 -- Boundary Testing\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Approved to proceed\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 5. Overall Disposition (REWRITTEN per independent review)\n"
+        "Per Mark's ruling, R26, this is the disposition record.\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/don/Doc_05_Boundary_Testing.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[9] == "PROTECTED"
+
+
+def test_doc_construction_narrative_bold_labels_not_protected(tmp_path):
+    # Opus review-gate finding F2 (2026-09-26): a bold label with no
+    # internal comma/apostrophe (so the punctuation filter alone doesn't
+    # exclude it) can still be a changelog entry, not a metadata field -
+    # "Revision N (date):", "Schema note:", "Filename note:",
+    # "Terminology note ...:", "Note on ...:". "Revision history:" (no
+    # number attached) stays a real, protected field.
+    text = (
+        "# Doc_02 -- Source Ecology\n"
+        "## Some World\n"
+        "\n"
+        "**Status:** Round 1 review complete, per Mark, R26\n"
+        "**Revision history:** per Mark, R26, see below\n"
+        "**Revision 2 (2026-07-09):** per Mark, R26, this claim was corrected\n"
+        "**Schema note:** per Mark, R26, this claim was made falsely twice before\n"
+        "**Note on this document's own scope:** per Mark, R26, a scope clarification\n"
+        "\n"
+        "---\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/gallic/gallic_Doc02_Source_Ecology.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line[4] == "PROTECTED"  # Status
+    assert by_line[5] == "PROTECTED"  # Revision history - a real field
+    assert by_line[6] != "PROTECTED"  # Revision 2 (date) - a changelog entry
+    assert by_line[7] != "PROTECTED"  # Schema note - narrative
+    assert by_line[8] != "PROTECTED"  # Note on ... - narrative
+
+
+def test_review_doc_zellfinalcheck_covered(tmp_path):
+    # Opus review-gate finding F3 (2026-09-26): "zellcheck" as a plain
+    # substring does not match "ZellFinalCheck.md" - "final" sits between
+    # "zell" and "check". witt_Doc02_Round5_ZellFinalCheck.md is a real
+    # review-artifact file (a per-person-named check pass) and must be
+    # covered the same as witt_Doc02_Round4_ZellCheck.md.
+    text = "Per Mark's ruling, R26, this Round 5 check reproduces the original defect verbatim.\n"
+    hits = _hits_for(text, tmp_path, "Build/worlds/witt/witt_Doc02_Round5_ZellFinalCheck.md")
+    assert hits[0].category == "PROTECTED"
+
+
 def test_doc_construction_no_tail_heading_leaves_nothing_protected(tmp_path):
     # lpc's Doc_08 and syr's Doc_09 shape: no "Open Items"/"Handoff"/
     # "Document Log"/"Disposition" heading anywhere - nothing to protect,
