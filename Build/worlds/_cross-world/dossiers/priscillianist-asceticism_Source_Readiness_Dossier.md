@@ -16,7 +16,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 | Against Lying (Contra Mendacium) | augustine | tradition (provisional) | npnf103 |
 | The Sacred History (Chronica) | sulpiciusseverus | context (assigned) | npnf211 |
 
-Correction (2026-09-25): this table previously listed Against Lying's role as
+Note: the table above lists Against Lying's role as `tradition`, not
 `context`; the corpus-map (`cic/corpus-map/priscillianist-asceticism.yaml`,
 sourced from `cic/corpus-map/_staging/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.yaml`)
 actually carries it as `role: tradition`, `confidence: provisional` — the

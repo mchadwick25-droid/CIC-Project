@@ -37,7 +37,7 @@
 | Doc_05 — Ecological Reconstruction | COMPLETE |
 | Doc_06 — Full Interpretive Lexicon — Tier 1 entries at genuine depth | COMPLETE — Tier 1 set (episkopos, presbyteros, ekklesia, eucharistia) confirmed per Doc_06 Sections 2 and 4a, each having cleared three independent review rounds including a genuinely cold, file-saved review |
 
-**Gate confirmation:** All six inputs confirmed complete before lens work began: **YES.** Each of Doc_01–06 carries the project lead's own explicit sign-off (recorded in each document's own Project-lead sign-off entry, dated 2026-07-07) — not a status this build thread assigned on his behalf.
+**Gate confirmation:** All six inputs confirmed complete before lens work began: **YES.** Each of Doc_01–06 carries the project lead's own explicit sign-off (recorded in each document's own Project-lead sign-off entry) — not a status this build thread assigned on his behalf.
 
 ---
 

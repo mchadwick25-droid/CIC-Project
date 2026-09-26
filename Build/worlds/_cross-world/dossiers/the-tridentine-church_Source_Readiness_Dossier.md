@@ -7,13 +7,13 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** 1517–1650
 **Region(s):** Rome, Latin Christendom
 **Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-25
-**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — all four §3 leads (as of
-2026-09-15) have now been vendored, headered, registered, and assigned. See
+**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — all four §3 leads
+have now been vendored, headered, registered, and assigned. See
 §1 below for current state.
 
 ## 1. Already assigned
 
-**Updated 2026-09-25 — no longer a fresh candidate.** Four works vendored and
+**No longer a fresh candidate.** Four works vendored and
 assigned to `cic/corpus-map/the-tridentine-church.yaml`:
 
 | work | author | role | confidence | source file |
@@ -25,20 +25,20 @@ assigned to `cic/corpus-map/the-tridentine-church.yaml`:
 
 The Canons/Decrees row stays `provisional`/`context` here pending whichever
 Doc_02 (this world's or the Jesuits') reaches the shared text first to
-confirm which candidate holds "native" register — see §5 below, unchanged
-from the 2026-09-15 pass. The other three are this world's own: the
+confirm which candidate holds "native" register — see §5 below. The other
+three are this world's own: the
 Catechism as its doctrinal formation text (`tradition`), Sarpi as a hostile
 external narrative (`context`), and the Barlow-transmitted papal bulls as
 primary institutional acts despite their hostile framing (`tradition`).
 Census's own sourcing note ("Trent's acta and catechism, the reformed
 liturgical books, Propaganda Fide's archive...") remains partly optimistic —
 Trent's actual acta/diary and the reformed liturgical books were checked in
-the original 2026-09-15 pass and found to have no PD English translation
+the original pass and found to have no PD English translation
 (§4 below); only the acquisition leads actually vendored here are covered.
 
 ## 2. Cross-link opportunities
 
-Resolved as of 2026-09-25 — see §1: the Canons/Decrees are vendored and
+Resolved — see §1: the Canons/Decrees are vendored and
 double-placed to sibling Era VII candidate `the-society-of-jesus` (VI.11),
 consistent with §5's own reasoning below. No other cross-link exists in the
 vendored corpus (every other built world is pre-451 CE patristic).

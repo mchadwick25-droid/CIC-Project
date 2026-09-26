@@ -1,6 +1,6 @@
-> **SUPERSEDED, 2026-08-26 — read `BRIEF-corpus-assignment-thread.md` instead.**
+> **Superseded — read `BRIEF-corpus-assignment-thread.md` instead.**
 >
-> This draft predates Mark's ruling that the corpus map lives *outside* the
+> This draft predates the decision that the corpus map lives *outside* the
 > built worlds (*"lets keep this separate from the built worlds with clear
 > buckets that align"*). Its §0 and §4 tell a thread to land the assignment as
 > a per-world `corpus_review` record — a record type that was built, then
@@ -14,10 +14,10 @@
 
 # Brief: untangling the source ecology by world
 
-**Mark, 2026-08-26:** *"we have to untangle the source documents so each world
-has its set of sources as its sources, so the search is not having to decide
-if this is in the world or not every time... then the search can be content,
-not selecting the right voice."*
+The source documents need to be untangled so each world has its own set of
+sources as its sources, so the search does not have to decide whether
+something belongs to the world every time — then the search can be about
+content, not about selecting the right voice.
 
 Right, and it dissolves the blocker that stopped `corpus_probe.py` being
 useful: scope resolved at query time meant probing `desert` searched Augustine
@@ -29,7 +29,7 @@ of them load-bearing.
 
 ---
 
-## 0. The Atlas is the bucket set — Mark's ruling, and it is the right one
+## 0. The Atlas is the bucket set, and it is the right one
 
 *"use the atlas as the buckets as many authors don't have a place to go... the
 atlas should align with our built worlds so we shouldn't have crossover."*
@@ -148,7 +148,7 @@ Antioch belongs to `pahc`, whether Optatus reaches `ijc` through the Donatist
 controversy. Those should be **reviewable and arguable**, not implicit in a
 directory listing.
 
-`corpus_review` (added 2026-08-26, `engine/m1/schemas.py`) is already the
+`corpus_review` (`engine/m1/schemas.py`) is already the
 place: one record per world, each entry a file with a rank and a reason. Its
 rank vocabulary was written for this exact decision. The thread's output
 should be those rulings plus the extraction manifest, so

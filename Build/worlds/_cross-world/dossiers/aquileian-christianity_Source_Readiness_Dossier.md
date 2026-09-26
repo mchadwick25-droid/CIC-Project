@@ -20,7 +20,7 @@ This remains a genuinely thin world — two works — but both are now primary-v
 
 ## 2. Cross-link opportunities
 
-- **Closed, 2026-09-13 (PR #178):** Jerome's Letters VII–X, addressed directly to Chromatius (the future bishop of Aquileia), the sub-deacon Niceas, the monk Chrysogonus, and an old man of Concordia — already vendored inside the undifferentiated Jerome-letters block (`npnf206`), previously homed only to `hieronymian-ascetic-literary`. Same split-out pattern already used for Letters XXII/CVIII.
+- **Resolved:** Jerome's Letters VII–X, addressed directly to Chromatius (the future bishop of Aquileia), the sub-deacon Niceas, the monk Chrysogonus, and an old man of Concordia — already vendored inside the undifferentiated Jerome-letters block (`npnf206`), previously homed only to `hieronymian-ascetic-literary`. Same split-out pattern already used for Letters XXII/CVIII.
 
 No further cross-link candidates identified this pass.
 

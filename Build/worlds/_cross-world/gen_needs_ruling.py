@@ -180,7 +180,7 @@ def main() -> None:
 
     out.append("\n## Answered since the run\n")
     out.append(
-        f"**{ENTRIES_ADDED} entries added, 2026-08-26 and 08-27.** Fleet-wide flagged works have fallen "
+        f"**{ENTRIES_ADDED} entries added.** Fleet-wide flagged works have fallen "
         f"from **{AT_RUN_END} to {len(works)}** — "
         f"{_article(_pct(len(works)))}{_pct(len(works))}% reduction, and none of it by "
         "deciding anything a worker had refused to decide. Every entry answers the same complaint, raised independently by workers who "
@@ -286,10 +286,10 @@ def main() -> None:
         "Every other one is a refutation. The map says structurally what the corpus is: these "
         "movements reach us almost entirely through the people who argued with them.\n")
     out.append(
-        "\n**Five thin entries, 2026-08-27, and the bar was deliberately lowered to add them.** "
+        "\n**Five thin entries, and the bar was deliberately lowered to add them.** "
         "Every entry above answered a *pile* — eight works for Gaul, seven for Anatolia, fifteen "
         "for the Greek apologists — and five regional gaps were declined on exactly that ground, "
-        "with the declines written down. Mark overrode the bar: *an accurate thin entry beats an "
+        "with the declines written down. The standard here: *an accurate thin entry beats an "
         "inaccurate thick one.* Each of the five says on its own face that it is thin and why.\n\n"
         "- **`latin-apologists`** (I.43, era 1, c. 200–320). The least thin of the five, and it "
         "looked thin only because most of its material was **provisional rather than flagged**: "
@@ -320,13 +320,13 @@ def main() -> None:
         "Lucian, whose pupils became the Arian party. Paul's own teaching stays an unregistered "
         "floor question, and the entry's `floorNote` says so rather than deciding it.\n")
     out.append(
-        "\n**And the ruling the five entries made possible, 2026-08-27.** Lactantius had been "
+        "\n**And the ruling the five entries made possible.** Lactantius had been "
         "flagged on **two** entries at once — `imperial-juridical-christianity` and "
         "`latin-pastoral-congregational-christianity` — because he genuinely faces both ways: a "
         "rhetor teaching at Diocletian's capital who wrote the fullest Latin defence of the faith "
         "during the persecution, and then tutored the son of the emperor who ended it. He was "
         "deliberately held back when the five entries were minted, so that a ruling he was owed "
-        "would not arrive as a side effect of one about somewhere else. Mark ruled him into "
+        "would not arrive as a side effect of one about somewhere else. He is ruled into "
         "`latin-apologists`, where Jerome's line making him Arnobius' pupil puts him.\n\n"
         "**The ruling splits the author, and that is what *per work* means.** Four works move — "
         "the *Divine Institutes* and its three companions, about three hundred thousand words, "

@@ -121,7 +121,7 @@ not-in-copyright/public-domain determination actually fetched and read").
   (`records/syr/figure/syr.figure.tatian.md`, `evidentiary_weight:
   corroborating`, `narratable: false`), and whether his voice is shared on
   the Justin/Antony co-ownership model or stays native to Syriac alone is
-  Mark's call, not this dossier's or Step 0's own to make. Named here so a
+  a project-level call, not this dossier's or Step 0's own to make. Named here so a
   future Doc_02 doesn't have to re-locate where the question lives.
 - **The duplicate census entry noted in `NEEDS-RULING.md`** —
   `cyrilline-miaphysite-egyptian-tradition` vs.

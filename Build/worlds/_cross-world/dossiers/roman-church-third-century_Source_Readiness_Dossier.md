@@ -26,8 +26,8 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 ## 2. Cross-link opportunities
 
-- **Closed, 2026-09-13 (PR #182):** Eusebius's *Church History* Books VI.43–45/VII (Cornelius' letters on Novatian) — Cornelius was bishop of Rome 251–253, squarely in this world's own window; the letters are primary Roman-church material, not merely external testimony to Novatianism. Added to this bucket alongside its existing `novatianism` etc. homes.
-- **Closed, 2026-09-13 (PR #182):** Novatian's own *Treatise Concerning the Trinity* — written while still a Roman presbyter in good standing, before the schism. Added here alongside `novatianism`, matching the precedent already set for Caius (re-pointed 2026-08-26).
+- **Resolved:** Eusebius's *Church History* Books VI.43–45/VII (Cornelius' letters on Novatian) — Cornelius was bishop of Rome 251–253, squarely in this world's own window; the letters are primary Roman-church material, not merely external testimony to Novatianism. Added to this bucket alongside its existing `novatianism` etc. homes.
+- **Resolved:** Novatian's own *Treatise Concerning the Trinity* — written while still a Roman presbyter in good standing, before the schism. Added here alongside `novatianism`, matching the precedent already set for Caius.
 
 No further cross-link candidates identified this pass.
 

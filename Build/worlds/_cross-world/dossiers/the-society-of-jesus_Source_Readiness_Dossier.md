@@ -8,14 +8,14 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Region(s):** Rome, then worldwide
 **Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-24
 **Corpus-map / `cic/texts/` state as of:** 2026-09-24 — the four §3 leads
-below (as of 2026-09-15), Xavier Vol. 2, and three new finds from a deeper
-2026-09-24 pass (Canisius, the Jesuit Constitutions' Latin original,
+below, Xavier Vol. 2, and three new finds from a deeper
+pass (Canisius, the Jesuit Constitutions' Latin original,
 Nadal's own Latin original) have all been vendored, headered, registered,
 and assigned. See §1 below for current state.
 
 ## 1. Already assigned
 
-**Updated 2026-09-24 — no longer a cold start.** Ten works vendored and
+**No longer a cold start.** Ten works vendored and
 assigned to `cic/corpus-map/the-society-of-jesus.yaml`:
 
 | work | author | role | confidence | source file |
@@ -41,7 +41,7 @@ checked for any Canisius material at all.
 
 ## 2. Cross-link opportunities
 
-Resolved as of 2026-09-24 — see §1: the Trent Canons/Decrees are vendored
+Resolved — see §1: the Trent Canons/Decrees are vendored
 and double-placed to the sibling `the-tridentine-church` candidate (VI.22),
 consistent with §5's own reasoning below.
 

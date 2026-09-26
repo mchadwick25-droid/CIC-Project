@@ -1,9 +1,9 @@
 """Generates WANTS-REGISTER.md — sources the fleet already depends on and
 cannot read, ranked by how much depends on them.
 
-WHY. Mark, 2026-08-26: *"currently we are restricted to only open source, but
-that doesnt mean we wont raise funds to purchase other sources in the future
-so a list of other sources and their value would be helpful."*
+WHY. The project is currently restricted to open-source material, but that
+doesn't mean funds won't be raised to purchase other sources in the future,
+so a list of other sources and their value is useful to keep.
 
 Value here is not a guess. Every world already declares its sources, and a
 `source` record whose `edition` names no vendored file is one the build
@@ -87,7 +87,7 @@ def classify(record: dict) -> str:
 def gather_rows() -> tuple[list, list]:
     """Every wanted source, classified, sorted - the data main() renders and
     the same data DOWNLOAD-QUEUE.md's generator draws on, split out
-    2026-09-02 specifically so the queue doesn't have to scrape this
+    so the queue doesn't have to scrape this
     module's own generated markdown table to get at data that already
     exists here as plain dicts. Returns (rows, worlds)."""
     worlds = formation_world_keys()

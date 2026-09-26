@@ -1,6 +1,6 @@
 # Brief: assign the source corpus to the Atlas
 
-**For:** a dedicated thread (Fable) · **Raised by:** Mark, 2026-08-26
+**For:** a dedicated thread (Fable)
 **Supersedes:** `CORPUS-PARTITION-BRIEF.md`, which reached the same conclusion
 by a longer route and assumed six buckets instead of 274.
 
@@ -8,7 +8,7 @@ by a longer route and assumed six buckets instead of 274.
 
 ## 1. The job, in one paragraph
 
-**This is primarily a parsing exercise** — Mark's own framing, and it should
+**This is primarily a parsing exercise**, and that should
 set your posture throughout. The work is mechanical extraction and
 assignment: read what the files say about themselves, place each work, record
 the placement. Historical judgment enters only where placement genuinely
@@ -120,9 +120,9 @@ making sure the material is findable.
 
 ### 5a. A standalone corpus map, outside `records/` entirely — SETTLED
 
-Mark's ruling, 2026-08-26: *"lets keep this separate from the built worlds
-with clear buckets that align, then we can figure out how best to integrate
-this into each world after we do the parsing and organizing."*
+The assignment table stays separate from the built worlds, with clear
+buckets that align to them; how best to integrate it into each world is
+worked out separately, once the parsing and organizing is done.
 
 So the assignment table does **not** live inside any world, and it does not
 live in `records/_fleet/` either — `compile_world()` loads the fleet records
@@ -188,7 +188,7 @@ What it enforces, so you know what will bounce:
 | `author` is a slug in `cic/texts/AUTHORS.md` | §6.2 — derived from the markup, not from your own patristics |
 | the same work twice in ONE entry | a duplicate. The same work in SEVERAL entries is expected and correct (§6.1) — the validator will never complain about that |
 
-Pre-Survey Candidate entries **are** valid targets (Mark, 2026-08-26). 215 of
+Pre-Survey Candidate entries **are** valid targets. 215 of
 the census's 274 movements sit in eras whose Step 0 survey has not run, and
 material plainly belonging to one of them belongs there rather than held back.
 Placing a source is not a claim that the era's survey has run.
@@ -232,8 +232,8 @@ partition silently destroys desert's entire evidential base, and would look
 tidy while doing it.** If your output has one world per author, treat that as
 a bug in the assignment, not a finding about the corpus.
 
-**6.1b — `antecedent` is the third relation, and it is narrow.** Added
-2026-08-26 for the Cyprian/Donatism ruling. A work is `antecedent` to an entry
+**6.1b — `antecedent` is the third relation, and it is narrow.** A work is
+`antecedent` to an entry
 when it is the authority that entry argued *from*, written before the entry
 existed — not its own voice (`tradition`) and not an outside observer's
 (`context`). **The rule: an antecedent assignment requires that the entry's own
@@ -241,7 +241,7 @@ vendored sources argue from the text.** Admiration and descent are not enough,
 or Augustine ends up assigned to every Reformation entry. A *contemporary*
 opponent is `context`, not `antecedent`.
 
-**6.1c — `transmission` is custody, not voice.** Added 2026-08-26. Use it when
+**6.1c — `transmission` is custody, not voice.** Use it when
 the entry's people *preserved* a work that originates outside them and is why
 we still have it — Syriac scribes and a Greek apology, Christian scribes and
 the Jewish pseudepigrapha. **Not** for an opponent quoted *inside* a work of
@@ -275,7 +275,7 @@ Apostolic Constitutions, the conciliar acts, the Testaments of the Twelve
 Patriarchs are things a world sources. They need assignment without being
 forced under an author.
 
-**6.5 — Scripture is out.** Mark's ruling: the Bible is in the corpus only as
+**6.5 — Scripture is out.** The Bible is in the corpus only as
 the authors themselves used it; this project does not interpret it directly.
 `webbe_world-english-bible-british-edition.xml` gets no assignment, and
 neither does `anf10`, a bibliographic index with no text.
@@ -357,19 +357,19 @@ their future corpus.
 
 ---
 
-## 11. Open questions — ALL SETTLED, 2026-08-26
+## 11. Open questions and their answers
 
 Kept with their answers rather than deleted, so the thread can see what was
 decided and why rather than inheriting rules with no reasoning attached.
 
-1. ~~The assignment table's home and shape~~ — **settled 2026-08-26**: a
+1. ~~The assignment table's home and shape~~ — **settled**: a
    standalone `cic/corpus-map/`, one file per Atlas entry, outside `records/`
    entirely. See §5a.
-2. ~~Granularity~~ — **settled 2026-08-26: per work.** Augustine's treatises
+2. ~~Granularity~~ — **settled: per work.** Augustine's treatises
    are assigned individually, not as groups. More entries, and the right call
    for a corpus search that will eventually want loci: a group assignment
    cannot say *which* of forty treatises a passage came from.
-3. ~~Pre-Survey Candidate entries~~ — **settled 2026-08-26: yes, assign to
+3. ~~Pre-Survey Candidate entries~~ — **settled: yes, assign to
    them.** All 274 movements are live targets. Placing a source in an
    unsurveyed era is not a claim that its Step 0 survey has run; it is
    material waiting where it belongs, and 215 of the 274 sit in eras that
@@ -377,15 +377,15 @@ decided and why rather than inheriting rules with no reasoning attached.
 4. **The Pastor of Hermas and the Clementines** — under the attributed name,
    the real one, or their own entity? (7, third bullet.)
 
-*Answered 2026-08-26:* context material carries a `context` marker on the
-world it gives context for, not a bucket of its own (§11a).
+Context material carries a `context` marker on the world it gives context
+for, not a bucket of its own (§11a).
 
 ---
 
 ## 11a. A second corpus: the Pearse "More Fathers" collection
 
-Mark, 2026-08-26, can upload the CCEL/Tertullian-project *More Fathers*
-collection as text or RTF — **not ThML-marked**. It is several hundred files
+The CCEL/Tertullian-project *More Fathers*
+collection can be uploaded as text or RTF — **not ThML-marked**. It is several hundred files
 and far more diverse than ANF/NPNF. Segment it into the same assignment table.
 
 **Its rights profile is already established here.** Seven of the eight
@@ -424,7 +424,7 @@ text:
   GEDSH, Petersen, Drijvers — are in copyright and never vendorable. They stay
   bibliography.
 
-### The appendix: context, never theology — Mark's ruling
+### The appendix: context, never theology
 
 *"the outside sources do add an ecology level we need, but for context not
 theology."* Settled, and the mechanism for it already exists and is unused.
@@ -450,8 +450,7 @@ That is exactly the disposition this material needs:
   perception and social fact.
 - Never a `doctrinal_witness`, never `register: emic`. These voices are not
   the tradition speaking; several are the tradition's opponents.
-- **Assignment: a `context` marker on the world it gives context for.** Mark's
-  ruling, 2026-08-26: *"it carries a context marker for that world."* So
+- **Assignment: a `context` marker on the world it gives context for.** So
   context material takes a normal `atlas_id` — the entry it surrounds — plus
   `role: context`. Libanius and Julian to `imperial-juridical-christianity`,
   whose world they are the outside of; Porphyry to

@@ -11,7 +11,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 ## 1. Already assigned
 
-**Updated 2026-09-25 — no longer a cold start.** `cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml` exists (it did not when this dossier was first written, and did not when this pass began until the cross-reference below found it) and carries 29 work assignments across 11 vendored files, all `role: tradition`:
+**No longer a cold start.** `cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml` exists and carries 29 work assignments across 11 vendored files, all `role: tradition`:
 
 | source file | author | works assigned | confidence | note |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@ None. Era VII is entirely unvendored; there is no existing corpus to cross-link 
 
 ## 3. Verified acquisition leads
 
-**Re-verified directly 2026-09-25** (fetched fresh, not trusted from the 2026-09-15 "verified by" note alone — see `cic/texts/INTAKE.md`). Status column added; "vendored" means already covered by §1 above, under the filename shown there rather than necessarily the URL originally named here.
+**Re-verified directly** (fetched fresh, not trusted from an earlier "verified by" note alone — see `cic/texts/INTAKE.md`). Status column added; "vendored" means already covered by §1 above, under the filename shown there rather than necessarily the URL originally named here.
 
 | title | author | translator/ed. | year | url | rights basis | verified by | status (2026-09-25) |
 |---|---|---|---|---|---|---|---|
@@ -51,7 +51,7 @@ None. Era VII is entirely unvendored; there is no existing corpus to cross-link 
 | Selections from the Table Talk of Martin Luther | Luther | — | — | https://www.gutenberg.org/ebooks/9841 | pd-us-by-date | direct fetch, 2026-09-15 | **Vendored** — under `luther_table-talk_bell1886.txt` |
 | Dr. Martin Luther's Deutsche Geistliche Lieder (The Hymns of Martin Luther) | Luther | Nathan H. Allen & Leonard Woolsey Bacon | — | https://www.gutenberg.org/ebooks/417 | pd-us-by-date | direct fetch, 2026-09-15 | **Vendored** — under `luther_hymns_bacon-allen.txt` |
 
-**Scale, now measurable rather than estimated:** 12 files, 29 corpus-map work assignments. What was a "rough read, not word-extracted" estimate on 2026-09-15 is now an actual vendored corpus spanning three full Philadelphia Edition volumes, both catechisms, Table Talk, the hymnal, *Bondage of the Will*, an alternate early translation of four major treatises, and both the Augsburg Confession and its Apology.
+**Scale, now measurable rather than estimated:** 12 files, 29 corpus-map work assignments — an actual vendored corpus spanning three full Philadelphia Edition volumes, both catechisms, Table Talk, the hymnal, *Bondage of the Will*, an alternate early translation of four major treatises, and both the Augsburg Confession and its Apology.
 
 ## 4. Checked and closed
 

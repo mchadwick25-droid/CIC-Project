@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Discovery helper — D2 from the source-infrastructure blueprint (2026-09-02).
+"""Discovery helper — D2 from the source-infrastructure blueprint.
 
 WHAT THIS IS. A candidate finder, not an acquirer. Give it a want (author,
 title, an optional year window) and it queries the discovery surfaces the

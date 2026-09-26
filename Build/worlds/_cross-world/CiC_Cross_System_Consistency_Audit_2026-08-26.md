@@ -338,7 +338,7 @@ trivial fix. Held as `figure-dates-keys/pahc`.
 
 ### F-05 — four `syr` quotes show a database key where the speaker should be · Live
 
-The 2026-08-26 transparency audit (`0a3ca51`, `eebd08a`) fixed exactly this
+A prior transparency audit (`0a3ca51`, `eebd08a`) fixed exactly this
 class of defect: `speaker_or_author` is authored two ways across the corpus —
 a figure record id, or already-readable prose — and
 `citation_cards._quote_speaker_label` now resolves a figure id through the
@@ -387,15 +387,15 @@ bounded historical reconstruction, not today's church of the same name."* The
 census `living` flag drives the Atlas. Four of six worlds carry opposite
 answers on the two surfaces a participant meets in sequence.
 
-The registry's own comments explain how: the flag is *"PENDING Mark's own
-confirmation"* on `ijc`, *"PROVISIONAL, set toward disclosure"* on `hal`,
-and carried-forward-with-re-confirmation-pending on `alx` and `pahc`. Each
-world set it `true` toward disclosure, correctly and independently — the
-spec's fail-toward-disclosure principle. Nobody told the census, which was
-generated earlier from `world_manifest.py` and still reflects the old
-determinations.
+The registry's own comments recorded different confidence behind the flag:
+pending confirmation on `ijc`, provisional and set toward disclosure on
+`hal`, and carried forward with re-confirmation pending on `alx` and
+`pahc`. Each world set it `true` toward disclosure, correctly and
+independently — the spec's fail-toward-disclosure principle. Nobody told
+the census, which was generated earlier from `world_manifest.py` and still
+reflects the old determinations.
 
-**Disposition:** open, and it is Mark's, not a build thread's. The
+**Disposition:** open — a project-level call, not a build thread's. The
 Living Tradition determination is a named per-world touchpoint (Constitution
 Art. 29; Doc_01 §1). Once ruled, the fix is one field in each file and the
 standing check enforces agreement thereafter. Held as `census-living-flag/*`.
@@ -417,12 +417,12 @@ Four of six. A participant reads "Chloe, Host of the Assembly" on the Atlas
 card, clicks through, and meets "Chloe, Household Leader" at the doorway.
 
 Two of these have a documented reason and two do not. `ijc`'s pair is a
-prefix difference from Mark's own 2026-07-22 ruling ("Apocrisiarius — Deacon
+prefix difference from the decided title ("Apocrisiarius — Deacon
 of the Letters"), where the registry carries the second half only. `desert`'s
 is a gloss difference on the same word. `pahc`'s and `syr`'s are simply
 different titles.
 
-**Disposition:** open, Mark's call — this is participant-facing copy, and
+**Disposition:** open — this is participant-facing copy, and
 picking one of two good phrasings is not a build thread's decision. Held as
 `census-role-label/*`.
 
@@ -433,11 +433,11 @@ picking one of two good phrasings is not a build thread's decision. Held as
 Census `representativeName` is `Mar Yausep`; the registry is `name: Yausep`,
 `role_label: Mar`. Everything downstream of the registry composes the two,
 so the app says "Yausep" as a name and "Mar" as a role, while the Atlas says
-the name is "Mar Yausep." The registry's own comment records the role being
-revised Malpana → Deacon → Mar by Mark's rulings; the census kept the earlier
+the name is "Mar Yausep." The registry's own comment records the role having
+been revised Malpana → Deacon → Mar; the census kept the earlier
 composite.
 
-**Disposition:** open, Mark's call. Held as `census-representative-name/syr`.
+**Disposition:** open. Held as `census-representative-name/syr`.
 
 ---
 
@@ -459,7 +459,7 @@ documented reason, on the world a participant is most likely to meet first
 This one is arguably the *better* convention and the other five should follow
 it. Either way it should be a decision, not an accident.
 
-**Disposition:** open, Mark's call — one convention, applied to all six. Held
+**Disposition:** open — one convention, applied to all six. Held
 as `census-display-name/alx`.
 
 ---
@@ -663,7 +663,7 @@ fixed Stage-7.5 list (alx, pahc, desert, hal, syr, ijc) that is neither
 chronological nor the registry's own file order (alx, desert, pahc, hal, syr,
 ijc). Three orderings of six worlds across three files.
 
-**Disposition:** open, presentation-level, Mark's call. Named here because it
+**Disposition:** open, presentation-level. Named here because it
 is the same root as F-07/F-08/F-09 — participant-facing identity is described
 in more than one place and nothing compares the descriptions.
 
@@ -724,10 +724,10 @@ generic segments are a required floor.
 ### F-20 — the attribution gate guards the model's input, not the participant's screen · Latent · structural
 
 `gate_no_build_attribution` scans exactly the fields `build_prompt()`
-compiles, and its comment defends that scoping carefully and correctly
-against a real 2026-08-21 audit: widening it to every string on those record
-types produced false positives on legitimate commentary, so *"scanning them
-would drown real findings in noise."*
+compiles, and its comment defends that scoping carefully and correctly: an
+earlier audit found that widening it to every string on those record
+types produced false positives on legitimate commentary, scanning them
+would drown real findings in noise.
 
 That reasoning was sound for the surface that existed then — the model's
 system prompt. Since then a second participant-facing surface was built (the
@@ -873,9 +873,8 @@ locatable:
 **Every record in C-I and C-T rests on one source: `athanasius-vita-antonii`.**
 Nothing else reaches either cell.
 
-**Corrected 2026-08-26, on Mark's challenge.** A first draft of this finding
-filed all three unvendored sources under "rights-blocked." That conflates two
-different constraints, and the difference decides who can fix them.
+These three unvendored sources fall under two different constraints, not
+one "rights-blocked" bucket, and the difference decides who can fix them.
 
 `cic/engine/texts_registry.py` — the registry `cic/texts/README.md` is
 generated from — records that **45 of the 46 vendored files were supplied by
@@ -965,7 +964,7 @@ ecology does not support, and the statement reaches a participant as history.
 The fleet-wide form of F-24, and separable from it: F-24 is about a text
 `desert` could not get. This is about text every world already has.
 
-Mark's ruling on scope, 2026-08-26: **Basil and the Gregories are in.** With
+On scope: **Basil and the Gregories are in.** With
 that settled, three of the twenty unread volumes are a real gap, and the
 figures inside them are demonstrably live in the builds already:
 
@@ -1002,9 +1001,9 @@ a gap. The same holds for `anf10`, a bibliographic index with nothing to
 cite.
 
 **Scoping axes, and the one that was deliberately left out.** Corpus scope is
-ranked on two axes — coverage dates and region — added on Mark's rulings of
-2026-08-26. Both **rank and never exclude**, because the standing rule is that
-a resource may be ranked low and never ignored. Geography earns its place: it
+ranked on two axes — coverage dates and region. Both **rank and never
+exclude**, because the standing rule is that a resource may be ranked low
+and never ignored. Geography earns its place: it
 separates `pahc` (Greek Antioch and Asia Minor) from `syr` (Syriac
 Mesopotamia), two worlds that overlap almost entirely in time.
 
@@ -1161,9 +1160,9 @@ across all six worlds and are genuinely uniform:
 
 ## 4. What this thread changed
 
-Per Mark's ruling at thread start — *fix trivial and unambiguous, document the
-rest* — exactly two data values were changed, both contradictions rather than
-judgment calls:
+Per the standing rule for this kind of thread — fix trivial and unambiguous,
+document the rest — exactly two data values were changed, both
+contradictions rather than judgment calls:
 
 | change | file | finding |
 |---|---|---|
@@ -1192,7 +1191,7 @@ whenever their owner says so.
 ## 5. What this thread left behind
 
 `engine/m1/cross_world.py` — the standing check, and the second half of
-Mark's ruling.
+that decision.
 
 It is the fleet-level counterpart to `gates.py`. Every gate in that battery
 runs against one world in isolation, which is why all fifteen are green while
@@ -1244,7 +1243,7 @@ anything had been comparing worlds; nothing was, until now.
 
 ## 6. Open items
 
-For Mark — decisions, not work:
+Project-level decisions, not build-thread work:
 
 1. **Living Tradition determinations** (F-06) — four worlds carry a pending
    or provisional flag, and the Atlas disagrees with all four. This is a

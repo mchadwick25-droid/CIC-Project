@@ -2,7 +2,7 @@
 
 **Status:** planning only. Nothing here is executed — the recommendation below
 is what to do *when the trigger fires*, not now. Hand-written, not generated.
-**Date:** 2026-09-02. Answers the blueprint's own A3 item ("plan git-lfs or a
+Answers the blueprint's own A3 item ("plan git-lfs or a
 texts submodule before the store passes ~1 GB — not urgent").
 
 ## Measured state, today
@@ -78,8 +78,8 @@ Splitting `cic/texts/` into its own repository is not just a `git mv` +
 submodule add. Two things read the raw store today in ways a split would
 break, and both would need to change first:
 
-- **`gate_edition_rights_consistency`** (`engine/m1/gates.py`, added
-  2026-09-02) hard-fails a compile if a `source.edition` names a
+- **`gate_edition_rights_consistency`** (`engine/m1/gates.py`)
+  hard-fails a compile if a `source.edition` names a
   `cic/texts/<file>` path that doesn't exist on disk. If most sessions
   stopped checking out `cic/texts/`, every world's compile would fail this
   gate every time, which is exactly backwards — the gate exists to catch a
@@ -97,7 +97,7 @@ break, and both would need to change first:
 
 Neither of these is done by this plan. They're the concrete precondition
 for actually executing the recommendation above, and they touch gate
-behavior — Mark's call, when the trigger fires, not before.
+behavior — a project-level call, when the trigger fires, not before.
 
 ## The mechanical check
 

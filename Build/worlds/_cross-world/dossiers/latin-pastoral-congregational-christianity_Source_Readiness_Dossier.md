@@ -17,7 +17,7 @@ census (`cic-website/data/world-census.json`) currently lists this world as
 "Construction has not yet begun." That is stale. A full build is already in
 progress at `Build/worlds/lpc/`: Step 0 through Doc_05 (Ecological Reconstruction)
 are drafted, Doc_05 has cleared two independent review rounds and is judged
-by its second reviewer "adequate to proceed to Doc_06," and the world's own
+"adequate to proceed to Doc_06," and the world's own
 Decision Log runs to 928 lines across eleven build-thread entries. This
 dossier was written the way `SOURCE-READINESS.md` directs for a world whose
 "own research already happened" — from the existing `Doc_02_Source_Ecology.md`,
@@ -31,8 +31,8 @@ folded into this document further; see the accompanying session report.
 ## 1. Already assigned
 
 `cic/corpus-map/latin-pastoral-congregational-christianity.yaml` (1,220
-lines, ~90 distinct work entries) is unusually mature — built 2026-08-26,
-independently re-verified through Doc_02's own 30 review rounds, and
+lines, ~90 distinct work entries) is unusually mature — independently
+re-verified through Doc_02's own 30 review rounds, and
 already treated by the world's own Step 0 as "a real, reasoned starting
 inventory," not a first pass. What follows groups those ~90 entries by
 cluster for navigability; it does not attempt to re-transcribe every row
@@ -52,7 +52,7 @@ risk introducing a transcription error the corpus-map itself doesn't have.
 | Augustine — anti-Pelagian (English, NPNF1-05) | eleven treatises, *De gestis Pelagii*, *De praedestinatione sanctorum* / *De dono perseverantiae* (split; also gallic-monastic-ascetic-christianity as the provoked-reply's provoking text) | tradition | assigned (two provisional on the Gallic re-pointing) | `npnf105_augustine-anti-pelagian-writings.xml` |
 | Augustine — pastoral/moral treatises (English, NPNF1-03) | *Of Holy Virginity*, *Of the Work of Monks*, *On Continence*, *On Lying*/*Against Lying* (also priscillianist-asceticism), *On the Good of Marriage/Widowhood*, *On Care to Be Had for the Dead*, *Treatise on Faith and the Creed*, Enchiridion (2nd copy), *Concerning Faith of Things Not Seen* | tradition | assigned | `npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml` |
 | Augustine — Latin critical editions | *City of God* I–XIII / XIV–XXII (Hoffmann, CSEL 40); *Confessions* (Knoll, CSEL 33); *Epistulae* 1–123 / 124–184A / 185–270 (Goldbacher, CSEL 34/44/57); *Enarrationes* (Migne PL 36–37); *Retractationes* (Knoll, CSEL 36); *De Doctrina*/Enchiridion (Bruder 1838) | tradition | assigned | six standalone `augustine_*` files |
-| Conciliar / institutional | *Codex Canonum Ecclesiae Africanae* (419), English (NPNF2-14) and Latin (Bruns); Council of Carthage under Cyprian (256, double-placed with novatianism-adjacent shared inheritance); *Gesta Collationis Carthaginiensis* (411 conference acts, also latin-pastoral per Mark's 2026-09-13 row-65 ruling) | tradition/context | assigned/provisional | `npnf214…`, `codex-canonum…`, `pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` |
+| Conciliar / institutional | *Codex Canonum Ecclesiae Africanae* (419), English (NPNF2-14) and Latin (Bruns); Council of Carthage under Cyprian (256, double-placed with novatianism-adjacent shared inheritance); *Gesta Collationis Carthaginiensis* (411 conference acts, also latin-pastoral per row-65 of the ruling) | tradition/context | assigned/provisional | `npnf214…`, `codex-canonum…`, `pl11-zeno-optatus-collatio-carthaginiensis_migne.txt` |
 | Boundary-adjacent, provisional | Optatus, *Against the Donatists* (English; open placement question, see §6); two anonymous Novatianist-controversy treatises (ANF05); *Codex Theodosianus* (context, imperial legal backdrop) | tradition/context | provisional | `optatus_against-the-donatists.txt`, `anf05…`, `codex-theodosianus_latinlibrary.txt` |
 | Modern scholarship (context, consultation-only) | Delehaye (genre theory), Harnack (Pontius commentary), Monceaux *Histoire littéraire* I–III, von Soden ×2 (letter transmission; prosopography) | context | assigned | six standalone files, all closing named Manifest gaps (see §4) |
 
@@ -65,9 +65,8 @@ not have at all.
 
 ## 2. Cross-link opportunities
 
-**A real, freshly-found opportunity — not yet caught by the build's own 30
-review rounds, because the source didn't exist yet when most of them ran.**
-On 2026-09-14, the sibling Donatism build vendored two Latin critical
+**A real cross-link opportunity, not yet caught by this world's own build.**
+The sibling Donatism build has vendored two Latin critical
 editions directly relevant to this world's own anchor author (Augustine)
 and to a work already sitting in this world's own corpus-map:
 
@@ -113,15 +112,16 @@ existing review record (30 Doc_02 rounds alone), a fresh from-scratch sweep
 of the whole corpus for this world would very likely re-derive work already
 done and independently verified multiple times over; this pass targeted
 only what changed in the corpus *since* that record was last current
-(files added after 2026-09-14, checked by git-log date against the whole
-`cic/texts/` tree) rather than re-running the full search.
+(files added after the sibling Donatism build's own vendoring pass,
+checked by git-log date against the whole `cic/texts/` tree) rather than
+re-running the full search.
 
 ## 3. Verified acquisition leads
 
 None beyond what the world's own Manifest already tracks. `Source_Acquisition_Manifest.md`'s
 G1–G9 candidates are eight of nine closed (each independently fetched,
 opened, and verified by the build thread itself once network access was
-confirmed working, 2026-09-08); the ninth, **G4's remaining CSEL 58**
+confirmed working); the ninth, **G4's remaining CSEL 58**
 (Augustine *Epistulae*, praefatio and indices only — no letter text of its
 own), stays open as a low-value residual the build thread deliberately
 deprioritized. This dossier did not run a fresh acquisition search given

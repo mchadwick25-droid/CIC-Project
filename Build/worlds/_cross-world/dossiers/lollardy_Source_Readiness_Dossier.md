@@ -7,8 +7,8 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 1380–1520
 **Region(s):** England (regions: North Europe)
 **Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-25
-**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — all five §3 leads (as
-of 2026-09-15) have now been vendored, headered, registered, and assigned,
+**Corpus-map / `cic/texts/` state as of:** 2026-09-25 — all five §3 leads
+have now been vendored, headered, registered, and assigned,
 plus the complete three-volume Arnold set (only Vol. III was the originally
 named lead; Vols. I and II were located and vendored alongside it to
 complete the set). See §1 below for current state.
@@ -17,7 +17,7 @@ complete the set). See §1 below for current state.
 
 ## 1. Already assigned
 
-**Updated 2026-09-25 — no longer a fresh candidate.** Seven works vendored
+**No longer a fresh candidate.** Seven works vendored
 and assigned to `cic/corpus-map/lollardy.yaml`:
 
 | work | author | role | confidence | source file |

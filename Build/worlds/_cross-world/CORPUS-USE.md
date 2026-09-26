@@ -158,7 +158,7 @@ Sorted by whether that is a problem. A flat list of unread volumes invites the w
 - `anf10_bibliographic-synopsis-general-index.xml` — bibliographic index (reference only)  
   a bibliographic index, not a text - nothing to cite.
 - `webbe_world-english-bible-british-edition.xml` — World English Bible  
-  Mark's ruling, 2026-08-26: scripture is in the corpus only as the authors themselves used it. This project does not interpret the Bible directly, so nothing should ever cite this file as a source of its own.
+  Scripture is in the corpus only as the authors themselves used it. This project does not interpret the Bible directly, so nothing should ever cite this file as a source of its own.
 
 ### not yet reviewed — 43
 
@@ -211,13 +211,13 @@ No basis recorded either way. Most are plainly out of every world's window or ge
 
 ## Worklist — in scope for a world, with no source record there
 
-Mark's standard, 2026-08-26: *every world should reach every available resource; they can be ranked, but not ignored.* A volume becomes in-scope for a world when its coverage range overlaps that world's `time_window`.
+The standard: every world should reach every available resource; they can be ranked, but not ignored. A volume becomes in-scope for a world when its coverage range overlaps that world's `time_window`.
 
 **The runtime cannot close this gap by ranking.** `engine/m4` never opens a file under `cic/texts/` — retrieval runs entirely over the world's own `compiled/repository.json`. A volume with no source record in a world is invisible at turn time whatever the ranking does, so 'not ignored' has to mean a source record exists (even a low-ranked one), not a retrieval change.
 
 Coverage ranges below are a **first pass asserted for correction**, not derived — a volume's dates cannot be read off the file mechanically. Argue with them.
 
-Geography was added on Mark's ruling and **ranks rather than excludes** — the standard is that a resource may be ranked low and never dropped. Tier 1 is the one derived signal here; tiers 2-4 rest on the asserted COVERAGE and REGIONS tables in `engine/m1/cross_world.py`, which are a first pass for correction.
+Geography **ranks rather than excludes** — the standard is that a resource may be ranked low and never dropped. Tier 1 is the one derived signal here; tiers 2-4 rest on the asserted COVERAGE and REGIONS tables in `engine/m1/cross_world.py`, which are a first pass for correction.
 
 | tier | what it means |
 |---|---|

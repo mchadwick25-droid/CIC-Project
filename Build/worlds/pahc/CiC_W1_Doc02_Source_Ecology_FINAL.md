@@ -64,7 +64,7 @@ Six primary voices anchor this world's evidentiary base. Each is assessed on all
 - **Limitations:** Writing for an outside (imperial) audience, in a genre (apologetic) designed to present Christian practice as maximally respectable to Roman sensibilities — his description of worship may be shaped by that persuasive purpose, not a neutral ethnographic account.
 - **Transmission History:** Textually thinner than his high visibility might suggest — the corpus rests essentially on a single 1364 CE manuscript (Parisinus graecus 450) for most of the First and Second Apologies, partially cross-checked against a 4th-century papyrus scrap. *[Confidence on dating: Widely Accepted, the strongest anchor in this set. Confidence on representativeness of the liturgical description: Contested.]*
 
-### 1.7 Excluded canonical material: the Pastoral Epistles (1–2 Timothy, Titus) — added at Step 9 Validation & Testing (2026-07-08)
+### 1.7 Excluded canonical material: the Pastoral Epistles (1–2 Timothy, Titus)
 
 Not treated as Native evidence for this world. This is stated here explicitly, for reasons specific to this world's own evidentiary method, rather than left as an unstated project-level default excluding canonical New Testament material generally — the gap the Part VI Differentiation Testing pass surfaced (`pahc_Validation_Testing.md`, Finding 8).
 
@@ -76,7 +76,7 @@ Not treated as Native evidence for this world. This is stated here explicitly, f
 
 **What this does not claim.** This is not a claim that the Pastoral Epistles are late, inauthentic, or historically worthless — their own dating question (commonly placed anywhere from genuine Pauline authorship in the 60s CE to pseudonymous composition as late as c. 100–140 CE) is itself contested and not resolved by this document. It is a narrower, world-specific claim: whichever dating is correct, the Pastorals' own genre — apostolic-voice pseudepigrapha oriented toward eventual scriptural status, or genuine apostolic-generation correspondence predating this world's own floor — places them outside this world's own six-primary-voice evidentiary base by this world's own stated criteria, not by an unexamined project-level default. Household-management-as-office-qualification content from 1 Timothy 3 continues to appear in Doc_01 §4 only as secondary-scholarship background illustrating a broader Greco-Roman household-code convention (per Balch, Osiek/MacDonald), never as Native primary evidence for this world's own practice. *[Confidence: the authorial-voice and canon-trajectory distinctions themselves are Documented — a direct reading of how these texts present themselves and were received; the specific composition-dating question for the Pastorals is Contested and not adjudicated here.]*
 
-### 1.8 Aggregate Author Gravity accounting: Ignatius — added at Step 9 Validation & Testing (2026-07-08)
+### 1.8 Aggregate Author Gravity accounting: Ignatius
 
 Section 1.3 above already flags Ignatius's own representativeness as the single most contested question in this world's whole source set, and later documents disclose Ignatius-dependency piecemeal — once per gravity (Doc_04, G01/G04/G05), once per lexicon term (Doc_06's episkopos, presbyterion, the tuned-strings image), once per story (Doc_09's Stories 001, 011, partially 012). No document sums this dependency in one place. This section closes that gap — the Author Dominance finding surfaced at Part VI Validation & Testing (`pahc_Validation_Testing.md`, Section 9).
 

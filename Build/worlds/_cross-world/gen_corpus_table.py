@@ -115,7 +115,7 @@ SUBJECT = {
 # has no standing to make.
 DISPOSITION = {
     "webbe": ("by design",
-              "Mark's ruling, 2026-08-26: scripture is in the corpus only as the authors "
+              "Scripture is in the corpus only as the authors "
               "themselves used it. This project does not interpret the Bible directly, so "
               "nothing should ever cite this file as a source of its own."),
     "anf10": ("by design", "a bibliographic index, not a text - nothing to cite."),
@@ -240,12 +240,12 @@ def main() -> None:
             out.append(f"- `{filename}` — {subject_for(filename)}" + (f"  \n  {why}" if why else ""))
     out.append("")
 
-    # --- the worklist Mark's "ranked, never ignored" standard implies ------
+    # --- the worklist the "ranked, never ignored" standard implies ------
     reg = world_registry.load_registry()
     out.append("\n## Worklist — in scope for a world, with no source record there\n")
     out.append(
-        "Mark's standard, 2026-08-26: *every world should reach every available resource; "
-        "they can be ranked, but not ignored.* A volume becomes in-scope for a world when "
+        "The standard: every world should reach every available resource; "
+        "they can be ranked, but not ignored. A volume becomes in-scope for a world when "
         "its coverage range overlaps that world's `time_window`.\n"
     )
     out.append(
@@ -266,7 +266,7 @@ def main() -> None:
         for f in observe_second_hand_sources(records=records, worlds=W)
     }
     out.append(
-        "Geography was added on Mark's ruling and **ranks rather than excludes** — the "
+        "Geography **ranks rather than excludes** — the "
         "standard is that a resource may be ranked low and never dropped. Tier 1 is the one "
         "derived signal here; tiers 2-4 rest on the asserted COVERAGE and REGIONS tables in "
         "`engine/m1/cross_world.py`, which are a first pass for correction.\n"

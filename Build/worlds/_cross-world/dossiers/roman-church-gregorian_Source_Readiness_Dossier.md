@@ -24,7 +24,7 @@ prior work.
 ## 1. Already assigned
 
 `cic/corpus-map/roman-church-gregorian.yaml` holds three works, all Gregory
-the Great's own voice, all re-pointed here on 2026-08-27 when this entry
+the Great's own voice, all re-pointed here when this entry
 was minted (previously scattered across the four worlds his letters merely
 describe):
 
@@ -65,7 +65,7 @@ carries `Epistolae Selectae (selected letters concerning the African
 Donatist remnant)`, author `gregory-great`, `role: context`,
 `confidence: provisional`, sourced from `gregory-great_epistolae-selectae_turchi1907.txt`
 — a 1907 Latin edition (Turchi, from the *Bibliotheca Sanctorum Patrum*
-series, public domain, vendored 2026-09-07) of Gregory's own letters to and
+series, public domain, vendored) of Gregory's own letters to and
 about the surviving Donatist communities in Africa, roughly 150 years after
 Augustine. Donatism's own note is explicit that this is "Gregory the
 Great's own correspondence... late, outside, administrative description,"

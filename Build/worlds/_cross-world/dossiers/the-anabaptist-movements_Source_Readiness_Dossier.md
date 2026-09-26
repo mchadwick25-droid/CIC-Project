@@ -7,14 +7,14 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** 1525–1650
 **Region(s):** Swiss lands, Moravia, Netherlands
 **Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-24
-**Corpus-map / `cic/texts/` state as of:** 2026-09-24 — the §3 leads below (as of
-2026-09-15) plus the German-original Hutterite Chronicle (found 2026-09-24)
+**Corpus-map / `cic/texts/` state as of:** 2026-09-24 — the §3 leads below
+plus the German-original Hutterite Chronicle
 have all been vendored, headered, registered, and assigned. See §1 below for
 current state.
 
 ## 1. Already assigned
 
-**Updated 2026-09-24 — no longer a fresh-start world.** Five works vendored
+**No longer a fresh-start world.** Five works vendored
 and assigned to `cic/corpus-map/the-anabaptist-movements.yaml`:
 
 | work | author | role | confidence | source file |
@@ -30,7 +30,7 @@ content, not a second witness, since no PD English translation exists (the
 only English edition, Plough 1987, is in copyright and access-restricted;
 checked directly this pass, not assumed). Not yet vendored/closed as dead
 ends: Hubmaier's own treatises, Pilgram Marpeck's writings, Conrad Grebel's
-letters — checked again 2026-09-24 in both English and original German, no
+letters — checked in both English and original German, no
 PD source of any kind exists for any of the three (see §4).
 
 ## 2. Cross-link opportunities

@@ -1,7 +1,6 @@
 # The case for a Gallic monastic entry, c. 360–450
 
-**Raised by:** the corpus assignment run, 2026-08-26 · **For:** Mark, as an Atlas
-decision · **Status:** ACTED ON — Mark ruled option 2, 2026-08-26
+**Status:** Resolved — option 2 (§7) adopted.
 
 > **Outcome.** `gallic-monastic-ascetic-christianity` (I.27, era 2, c. 360–450)
 > was added to the census as **Possible Future World (on record)**, with four

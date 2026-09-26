@@ -1,7 +1,6 @@
 # Source Readiness Dossier — the Atlas's own source library
 
-**Standing rule, added 2026-09-15 (Mark's ruling), widened the same day:**
-every candidate world on the Atlas gets a Source Readiness Dossier
+**Standing rule:** every candidate world on the Atlas gets a Source Readiness Dossier
 *independent of whether or when it builds* — sitting in the library at
 `Build/worlds/_cross-world/dossiers/<world-slug>_Source_Readiness_Dossier.md`,
 ready for whichever build thread eventually needs it. Producing one is not
@@ -21,8 +20,8 @@ acquisition lead, a cross-link between an already-vendored text and a world
 that had never claimed it — came from a dedicated research pass run against
 the whole corpus, not from a build thread's own Doc_02 search. Those passes
 kept finding the same shape of thing: a text sitting fully vendored and
-unread for a world that needed it (Ambrosian Milan's Theodoret Book V, closed
-2026-09-13), or a verified public-domain edition nobody had gone looking for
+unread for a world that needed it (Ambrosian Milan's Theodoret Book V, now
+closed), or a verified public-domain edition nobody had gone looking for
 (Jerusalem's Egeria, Antioch/Chrysostom's Palladius, Roman Church 3rd
 century's Apostolic Tradition — all closed the same week). Every one of those
 worlds could have had that finding *before* its own build started; instead

@@ -21,7 +21,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 Cyril of Jerusalem's Catechetical Lectures are the real anchor here — ~200K words, a genuine central 4th-century catechesis text.
 
-(Table corrected 2026-09-25 against a direct re-read of `cic/corpus-map/jerusalem-liturgical-pilgrimage-christianity.yaml`: the row count and work list were already accurate, but the role/confidence/source-file columns for Alexander of Cappadocia, On Pilgrimages, and The Divine Liturgy of James had gone stale to placeholder dashes, and Cyril's author id was mis-typed as `cyril_jerusalem` rather than the actual `cyril_jer`. No new assignments were added or removed; this is a text-only fix.)
+(Table checked directly against `cic/corpus-map/jerusalem-liturgical-pilgrimage-christianity.yaml`: the row count and work list are accurate; the role/confidence/source-file columns above reflect that file, and Cyril's author id is `cyril_jer`.)
 
 ## 2. Cross-link opportunities
 

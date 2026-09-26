@@ -10,9 +10,9 @@
 # direction - a session went looking for a public-domain edition of
 # something no world had cited yet, verified it against a real host, and
 # recorded it here BEFORE any source record exists. Ammianus Marcellinus
-# 27.3 is the clearest case: confirmed public domain 2026-09-02, and still
-# absent from WANTS-REGISTER.md's own acquirable bucket as of that date,
-# because nothing had cited it yet for the register's own generator to see.
+# 27.3 is the clearest case: confirmed public domain, and still
+# absent from WANTS-REGISTER.md's own acquirable bucket, because nothing
+# had cited it yet for the register's own generator to see.
 #
 # HAND-MAINTAINED, APPEND-ONLY - same discipline as WORKS.yaml. Add a row
 # when a candidate is actually verified against a real host, not when it
@@ -41,18 +41,15 @@ queue:
     year: 1928
     world: "ijc / ambrosian-milan-standalone"
     why: >
-      Independently located by both an Opus adversarial review and a
-      Fable research pass, 2026-09-02, while sorting WANTS-REGISTER.md's
-      "unclassified" bucket for ijc's Paulinus-of-Milan row. Kaniecka's
-      CUA Patristic Studies edition (Latin text with English translation)
-      was originally misfiled as "needs a research pass"; both independent
-      checks found it already exists and is already public domain.
+      Found while sorting WANTS-REGISTER.md's "unclassified" bucket for
+      ijc's Paulinus-of-Milan row. Kaniecka's CUA Patristic Studies edition
+      (Latin text with English translation) had been misfiled as "needs a
+      research pass"; it already exists and is already public domain.
 
-      Also flagged for ambrosian-milan-standalone by a source-research
-      pass on that world's (I.16) sourcing gaps, 2026-09-13: Ambrose's own
-      secretary and biographer is at least as natural a home for this
-      Life as ijc, if not more so - once vendored, both worlds' corpus-map
-      buckets should carry it.
+      Also relevant to ambrosian-milan-standalone's (I.16) sourcing gaps:
+      Ambrose's own secretary and biographer is at least as natural a home
+      for this Life as ijc, if not more so - once vendored, both worlds'
+      corpus-map buckets should carry it.
     url: "https://archive.org/details/vitasanctiambros00paul"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review + Fable research pass, 2026-09-02 (independent, cross-confirmed)"
@@ -67,8 +64,7 @@ queue:
       An initial guess at Brightman's 1896 "Liturgies Eastern and Western"
       as the PD English source for the Liturgy of St. Basil could not be
       confirmed (Brightman keeps the Byzantine material largely in Greek).
-      Neale's earlier translation was found as the real candidate during
-      the same Opus adversarial review, 2026-09-02.
+      Neale's earlier translation is the real candidate.
     url: "https://archive.org/details/liturgiesofssmar00neal"
     rights_basis: pd-us-by-date
     verified_by: "Opus adversarial review, 2026-09-02"
@@ -81,8 +77,8 @@ queue:
     world: ijc
     why: >
       Sat as an "unclassified" WANTS-REGISTER row through an oversight in
-      that register's first sort - flagged by an Opus adversarial review,
-      2026-09-02, then directly verified against two real hosts.
+      that register's first sort, then directly verified against two real
+      hosts.
     url: "https://www.gutenberg.org/files/28587/28587-h/28587-h.htm"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
@@ -96,7 +92,7 @@ queue:
     why: >
       The Chrestus-clause (Claudius 25.4) and Christian-persecution notice
       (Nero 16) sat unclassified pending a PD-edition check. Rolfe's Loeb
-      translation, verified directly, 2026-09-02.
+      translation is verified directly.
     url: "https://archive.org/details/suetonius-loeb"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
@@ -109,8 +105,7 @@ queue:
     world: syr
     why: >
       Sat unclassified in WANTS-REGISTER.md; Harris's edition (the first
-      publication of the recovered manuscript) verified directly,
-      2026-09-02.
+      publication of the recovered manuscript) is verified directly.
     url: "https://archive.org/details/TheOdesAndPsalmsOfSolomon"
     rights_basis: pd-us-by-date
     verified_by: "direct WebSearch verification, 2026-09-02"
@@ -146,11 +141,10 @@ queue:
       Pars I and Pars II in one file, from an archive.org-hosted Google
       Books scan - a different, more complete source than the vol.-3.2-only
       item above. The exact archive.org item identifier, not stated when
-      supplied, is now independently confirmed rather than guessed -
-      confirmed 2026-09-08, independent review Round 24's own M3:
+      supplied, is independently confirmed rather than guessed:
       sthascicaecilic01hartgoog, matched character for character against
-      the vendored file at both ends. Pars III (spuria/indices) fulfilled
-      separately, 2026-09-08 - see the entry immediately below.
+      the vendored file at both ends. Pars III (spuria/indices) is
+      fulfilled separately - see the entry immediately below.
     url: "https://archive.org/details/sthascicaecilic01hartgoog"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, direct file inspection (OCR-quality sampled across the full document), 2026-09-05"
@@ -162,10 +156,9 @@ queue:
     year: 1871
     world: lpc
     why: >
-      Closes lpc's own G1 in full (Pars I-II, entry immediately above,
-      fulfilled 2026-09-05). With this build session's own network access
-      confirmed working for the first time, fetched and independently
-      verified directly rather than requiring Mark's own manual download -
+      Closes lpc's own G1 in full (Pars I-II, entry immediately above).
+      Fetched and independently
+      verified directly rather than requiring a manual download -
       title page, the Vita's own heading, and the bound-in CSEL 4 (Arnobius)
       boundary all directly confirmed and the latter excised before
       vendoring. Registry row 194.
@@ -205,20 +198,15 @@ queue:
       critical apparatus beneath it) - the same gap G1 names for Cyprian,
       here for Augustine's letters. Would also help settle the
       letter-numbering confusion row 46 (Clarke, in-copyright) exists to answer by
-      hand. Narrowed 2026-09-05, after CSEL 57 (Pars IV) was supplied and
-      vendored (queue[12] below, downloaded) - this entry then covered the
-      four still-unacquired volumes. Narrowed again 2026-09-08: 34/1, 34/2,
-      and 44 are now also vendored (queue[10] and queue[11] below, both
-      downloaded) - this entry now covers only CSEL 58 (praefatio and
-      indices, no letter text of its own) -- corrected here, independent
-      review Round 25's own C3, from an earlier draft whose own "see the
-      entry/entries below" pointers, and this entry's own title, resolved
-      only in this seed file and not in the generated
+      hand. CSEL 57 (Pars IV) and 34/1, 34/2, and 44 are now vendored
+      (queue[10]-queue[12] below, all downloaded), so this entry now covers
+      only CSEL 58 (praefatio and indices, no letter text of its own). Its
+      "see the entry/entries below" pointers, and this entry's own title,
+      resolve only in this seed file and not in the generated
       DOWNLOAD-QUEUE.md, which renders only not-yet-downloaded rows and so
       never shows the downloaded entries these pointers named. Volume 58
-      was identified 2026-09-01 at
-      archive.org/details/corpusscriptorum58auguuoft but not independently
-      opened or fetched.
+      is identified at archive.org/details/corpusscriptorum58auguuoft but
+      not independently opened or fetched.
     url: "https://archive.org/details/corpusscriptorum58auguuoft"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search, 2026-09-01 (vol. 58 only)"
@@ -262,13 +250,9 @@ queue:
     why: >
       Fulfills the CSEL-57 portion of lpc's own G4 (see the "remaining
       volume" entry above -- three entries up, above the CSEL 34/1-2 and
-      CSEL 44 entries -- for the one still-open volume). Mark supplied a
+      CSEL 44 entries -- for the one still-open volume). Supplied as a
       compiled docx from an archive.org "Full text" view; the source
-      item's identity is now independently confirmed rather than hedged
-      -- confirmed 2026-09-08, independent review Round 24's own L1
-      (corrected here, Round 25's own L3, from an earlier draft's own "L1
-      and M3," which cited a finding -- Round 24's M3, the Hartel file's
-      own identity confirmation -- unrelated to this identifier):
+      item's identity is independently confirmed rather than hedged:
       archive.org/details/CSEL57, matched character for character
       against the vendored file at both ends.
     url: "https://archive.org/details/CSEL57"
@@ -346,13 +330,13 @@ queue:
     year: 1904
     world: lpc
     why: >
-      lpc's own G7, the sharpest gap its own Round 6 found. The standard
+      lpc's own G7, its sharpest gap. The standard
       study of how Cyprian's letter collection was formed, ordered, and
       transmitted across manuscript families - directly on the problem
       Registry row 46 (Clarke, in-copyright) currently answers only "by
       hand," and the same problem behind this build's own Ep. XL/Epistle
-      XXXIX citation error, caught only at Doc_02's own Round 1 after
-      propagating across two documents and nine Doc_01 review rounds.
+      XXXIX citation error, which propagated across two documents before
+      being caught.
     url: "https://archive.org/details/diecyprianische00unkngoog"
     rights_basis: pd-us-by-date
     verified_by: "lpc build thread, live web search (digitized from Harvard University Library's own copy), 2026-09-02; direct archive.org fetch and file inspection, 2026-09-08"
@@ -527,7 +511,7 @@ queue:
     world: jerusalem-liturgical-pilgrimage-christianity
     why: >
       Surfaced by a source-research pass on Jerusalem Liturgical-Pilgrimage
-      Christianity's (I.15) sourcing gaps, 2026-09-13. Egeria's own diary of
+      Christianity's (I.15) sourcing gaps. Egeria's own diary of
       her pilgrimage to Jerusalem and the Holy Land, including the fullest
       surviving eyewitness account of that church's fourth-century liturgical
       year - the load-bearing gap next to the already-vendored Cyril of
@@ -546,7 +530,7 @@ queue:
     world: antiochene-exegetical-christianity-chrysostom-ce
     why: >
       Surfaced by a cross-link check on Antiochene Exegetical Christianity's
-      (I.13) Chrysostom-centered corpus, 2026-09-13: every existing mention
+      (I.13) Chrysostom-centered corpus: every existing mention
       of Chrysostom/Antioch across the corpus-map's other staging files was
       checked and found already linked or correctly excluded elsewhere - no
       unlinked cross-link opportunity remained, unlike Aquileia's Jerome
@@ -584,7 +568,7 @@ queue:
     world: roman-church-third-century
     why: >
       Surfaced by a source-research pass on Roman Church Third Century's
-      (I.33) sourcing gaps, 2026-09-13. A genuine, unfilled gap, not a
+      (I.33) sourcing gaps. A genuine, unfilled gap, not a
       cross-linking oversight: ANF05's Hippolytus material (1885) predates
       the 1910s Schwartz/Connolly identification of the Apostolic
       Tradition as his, so it was never in scope for that volume and
@@ -603,8 +587,8 @@ queue:
     world: "the-reformed-cities-zurich-and-geneva"
     why: >
       Surfaced by the proactive source-research pass for the Era VII/VI
-      six-world batch, 2026-09-15 (see this world's own Source Readiness
-      Dossier), and vendored the same day ahead of this world's Doc_01.
+      six-world batch (see this world's own Source Readiness
+      Dossier), and vendored ahead of this world's Doc_01.
       The standard cited English edition per the dossier.
     url: "https://archive.org/details/institutesofchrbeve01calv (vol. 1); institutesofchribeve02calv (vol. 2); institutesofchrbeve03calv (vol. 3)"
     rights_basis: pd-us-by-date
@@ -709,8 +693,8 @@ queue:
     world: "lutheran-wittenberg-and-its-congregations"
     why: >
       Surfaced by the proactive source-research pass for the Era VII/VI
-      six-world batch, 2026-09-15 (see this world's own Source Readiness
-      Dossier), and vendored the same day ahead of this world's Doc_01.
+      six-world batch (see this world's own Source Readiness
+      Dossier), and vendored ahead of this world's Doc_01.
     url: "https://www.gutenberg.org/ebooks/31604"
     rights_basis: pd-us-by-date
     verified_by: "direct curl fetch, 2026-09-15 (raw bytes, not WebFetch, to avoid any summarization-model paraphrase touching the wording); Gutenberg's own PD tag and START/END markers confirmed"
@@ -790,9 +774,9 @@ queue:
     year: 1919
     world: "palestinian-ascetic-monasticism-early"
     why: >
-      Surfaced during the source-readiness dossier pass on I.34
-      (2026-09-21). Already named as a candidate by an unrelated prior
-      search - hal's own hal.search.egeria-pilgrimage.md (2026-08-21),
+      Surfaced during the source-readiness dossier pass on I.34.
+      Already named as a candidate by an unrelated prior
+      search - hal's own hal.search.egeria-pilgrimage.md,
       logged there as an open P3 acquisition request scoped to Bethlehem
       context only, "never evidence about this world's own practice." For
       this candidate the fit is closer, not merely adjacent: Egeria's own

@@ -8,10 +8,10 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Region(s):** Swiss lands, then Europe
 **Dossier author / date:** source-research thread, 2026-09-15; updated 2026-09-25
 **Corpus-map / `cic/texts/` state as of:** 2026-09-25 — no longer a cold
-start, and this §1's own prior "None" was already stale by the date it was
-written: a same-day 2026-09-15 vendoring pass had assigned 10 works across
+start, and this §1's own prior "None" was already stale by the time it was
+written: an earlier vendoring pass had already assigned 10 works across
 8 files to `cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml`
-before this dossier was ever read against current `main`. A 2026-09-25
+before this dossier was ever read against current `main`. A further
 pass added 6 more works across 6 more files, closing 4 of this dossier's
 own remaining §3 leads (2 genuinely new works — Zwingli's Latin Works Vol.
 III and the Genesis Commentary — plus additional volumes of two others).
@@ -20,7 +20,7 @@ and §3 for exactly what remains open.
 
 ## 1. Already assigned
 
-**Updated 2026-09-25 — no longer a cold start.** 16 works, across 14
+**No longer a cold start.** 16 works, across 14
 vendored files, assigned to `cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml`:
 
 | work | author | role | confidence | source file |
@@ -42,13 +42,13 @@ vendored files, assigned to `cic/corpus-map/the-reformed-cities-zurich-and-genev
 | Letters of John Calvin, Vol. IV | calvin | tradition | assigned | `calvin_letters-vol4_bonnet1858.txt` |
 | The Latin Works of Zwingli, Vol. III ("Of True and False Religion") | zwingli | tradition | assigned | `zwingli_latin-works-correspondence-vol3_heller1929.txt` |
 
-The first 10 rows (8 files) were vendored 2026-09-15, same day as this
+The first 10 rows (8 files) were vendored around the same time as this
 dossier's original draft, and closed 5 of this §3's own leads plus the
 Consensus Tigurinus item this dossier's own §4 had flagged "genuinely
 open" — that closure was real but never reflected back into this dossier
 until now. The last 6 rows (6 files: the two-volume Genesis Commentary,
 Zwingli's Latin Works Vol. III, and the two remaining Letters volumes)
-were vendored 2026-09-25, closing 3 more of this §3's own leads. See §3
+were vendored in a further pass, closing 3 more of this §3's own leads. See §3
 for the one lead (Letters Vol. III) that remains genuinely open, and §5
 for the world's own separately-tracked Source Registry acquisition gaps
 (Ecclesiastical Ordinances, the Genevan Psalter, Beza, Dentière), which
@@ -64,8 +64,8 @@ the Tricks of the Baptists*) may cross-link against `the-anabaptist-movements`.
 
 ## 3. Verified acquisition leads
 
-Of the 9 leads originally listed here, 5 were closed 2026-09-15, 3 more
-closed 2026-09-25, and 1 remains genuinely open. The Allen translation is
+Of the 9 leads originally listed here, 8 are now closed, and 1 remains
+genuinely open. The Allen translation is
 redundant with an already-vendored edition of the same work and needs no
 further action.
 

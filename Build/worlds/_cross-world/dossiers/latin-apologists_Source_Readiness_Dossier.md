@@ -3,9 +3,8 @@
 See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is and
 why it exists.
 
-**Atlas ID:** I.43 (absorbed I.17, "Tertullian's Voice," by Mark's
-2026-09-10 ruling — see `Build/worlds/latap/Step0_Movement_Scope_Confirmation.md`
-Rev. 6)
+**Atlas ID:** I.43 (absorbed I.17, "Tertullian's Voice" — see
+`Build/worlds/latap/Step0_Movement_Scope_Confirmation.md` Rev. 6)
 **Corpus-map slug:** `latin-apologists`
 **Time window:** c. 197–320 CE
 **Region(s):** Carthage; Rome and Ostia; Sicca in Numidia; Nicomedia and
@@ -19,8 +18,8 @@ review and a project-lead ruling at the Step 0 (Movement-Scope
 Confirmation) stage — `Build/worlds/latap/Step0_Movement_Scope_Confirmation.md`,
 Revision 6 — which did extensive, source-verified work on sourcing (B1),
 ecology (B2), and built-world uniqueness (B3), including a full,
-independently re-derived word count for all 40 (now 43; see §2 and the
-2026-09-25 correction note in §1) works.
+independently re-derived word count for all 40 (now 43; see §2 and §1's
+own correction note) works.
 This dossier does not repeat that work. It adds the one thing Step 0
 doesn't do: a corpus-wide sweep for vendored material Step 0 had no reason
 to go looking for, and a check of public-domain acquisition candidates
@@ -34,7 +33,7 @@ more — Cyprian's *An Address to Demetrianus* and *On the Vanity of
 Idols* — were already cross-linked onto the corpus-map file by a separate,
 earlier "Cross-link two apologetic works flagged by their own Source
 Readiness Dossiers" pass, but this table had never been updated to show
-them; corrected 2026-09-25 against a direct re-read of the corpus-map
+them; corrected against a direct re-read of the corpus-map
 file, no new research). Word counts are Step 0's own directly-recounted
 figures (`§3 B1`, div2-boundary text extraction from the vendored XML)
 where it states them.
@@ -104,8 +103,8 @@ directory listing, not just the volumes Step 0 already used.**
   carries the Latin/Greek critical-edition second witness (Robinson, 1891)
   for the Passion of Perpetua, already vendored and already correctly
   role/confidence-matched to the English witness — but its `atlas_ids`
-  still pointed to `tertullian-s-voice`, the census entry Mark's
-  2026-09-10 ruling merged into this candidate (`Build/worlds/latap/Step0_Movement_Scope_Confirmation.md`
+  still pointed to `tertullian-s-voice`, the census entry merged into this
+  candidate (`Build/worlds/latap/Step0_Movement_Scope_Confirmation.md`
   Rev. 6). Every one of Tertullian's own 32 works in the `anf03`/`anf04`
   staging files was repointed by that ruling's own merge run; this one
   sibling file, holding a different work by a different (transmitted)

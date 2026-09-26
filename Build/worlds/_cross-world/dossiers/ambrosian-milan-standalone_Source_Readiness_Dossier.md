@@ -30,12 +30,12 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 
 ## 2. Cross-link opportunities
 
-- **Closed, 2026-09-13 (PR #180):** Theodoret's *Ecclesiastical History* Book V (the Ambrose–Theodosius penance narrative, c. 449) — already vendored and staged, never linked here before. A near-contemporary external voice on Ambrose's single most famous act.
-- **Closed, 2026-09-25:** Paulinus of Milan's *Vita Ambrosii* — vendored 2026-09-13 (see §3 below, now downloaded) but only ever cross-linked to `imperial-juridical-christianity`, for its infancy bee-swarm legend. This dossier itself had already flagged it as "arguably the more natural home." Added here as `context`: Chapter III (the "Ambrose Bishop" election acclamation) and Chapters IV–V (the Portian Basilica standoff and the finding of Gervasius and Protasius) — Ambrose's own secretary's account of this world's two most central episodes, independent of and earlier than the Theodoret witness above.
+- **Resolved:** Theodoret's *Ecclesiastical History* Book V (the Ambrose–Theodosius penance narrative, c. 449) — already vendored and staged, now linked here. A near-contemporary external voice on Ambrose's single most famous act.
+- **Resolved:** Paulinus of Milan's *Vita Ambrosii* — vendored (see §3 below, now downloaded), and cross-linked here as `context` in addition to `imperial-juridical-christianity` (where it was previously linked only for its infancy bee-swarm legend); this dossier had already flagged it as "arguably the more natural home." Chapter III (the "Ambrose Bishop" election acclamation) and Chapters IV–V (the Portian Basilica standoff and the finding of Gervasius and Protasius) are Ambrose's own secretary's account of this world's two most central episodes, independent of and earlier than the Theodoret witness above.
 
 ## 3. Verified acquisition leads
 
-None open. *Vita Ambrosii* (Paulinus of Milan, tr. Kaniecka 1928) — the one lead previously listed here — was vendored 2026-09-13 and is now cross-linked to this world (see §2); no longer an open lead.
+None open. *Vita Ambrosii* (Paulinus of Milan, tr. Kaniecka 1928) — the one lead previously listed here — is now vendored and cross-linked to this world (see §2); no longer an open lead.
 
 ## 4. Checked and closed
 
