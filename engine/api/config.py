@@ -92,32 +92,23 @@ class Settings:
     anon_visitor_secret: str | None
     anon_daily_session_limit: int
     anon_daily_turn_limit: int
-    # OFF by default, everywhere, including a real deploy - flipped only
-    # after a staging look at this flag's own live battery. When on, a
-    # wholly_uncited_paragraph or neighbour_named offense regenerates
-    # once, then hands the turn to the Facilitator if it survives that -
-    # see engine.m4.turn._run_ordinary_voice_turn's own docstring for the
+    # Off by default. When on, a wholly_uncited_paragraph or
+    # neighbour_named offense regenerates once, then hands the turn to
+    # the Facilitator if it survives that - see
+    # engine.m4.turn._run_ordinary_voice_turn's own docstring for the
     # full shape. inherited_ungrounded stays report-only regardless of
     # this flag.
     r27_enforce: bool
 
-    # Self-revision at generation on other_tradition-routed turns,
-    # unconditional unlike r27_enforce above (this is generation, not
-    # enforcement: no withhold, no Facilitator, no flag-gated staging
-    # rollout needed before it can run for real). Default ON - the
-    # kill-switch exists for cost or incident use only, the opposite
-    # default sense from r27_enforce/CIC_R27_ENFORCE: this ships
-    # unconditionally rather than staging behind an off-by-default flag.
+    # Self-revision at generation on other_tradition-routed turns.
+    # Default on; the kill-switch exists for cost or incident use only.
+    # Unlike r27_enforce above, this is generation, not enforcement - no
+    # withhold, no Facilitator handoff.
     self_revision_enabled: bool
 
     # The engine's own sentence-buffered streaming module
-    # (engine.m4.streaming). OFF by default, everywhere, same staging
-    # discipline as r27_enforce above - flag-gated, default off, flipped
-    # only after a staging look. Streaming does not ship to participants
-    # before r27_enforce's own enforcement is on; CIC_R27_ENFORCE is
-    # itself off today, so this flag has no live deployment path yet
-    # regardless of its own value - it exists so the module can be built
-    # and tested against a real setting rather than a hypothetical one.
+    # (engine.m4.streaming). Off by default. Streaming does not ship to
+    # participants unless r27_enforce is also on.
     streaming_enabled: bool
 
     @classmethod

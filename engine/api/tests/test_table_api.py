@@ -197,8 +197,7 @@ def test_create_table_session_rejects_bad_seat_count_directly(store, world_loade
 def test_selector_presentation_order_is_shuffled_not_the_session_seating(
     monkeypatch, store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Voices always answered in the same presentation order; the fix
-    randomizes that order while everyone still participates.
+    """Presentation order is freshly shuffled per selector call.
     The session's own canonical seating (state.world_keys - what worlds,
     labels, and direct-address detection all read) is untouched; only the
     COPY shown to the turn selector each call is freshly shuffled, so a

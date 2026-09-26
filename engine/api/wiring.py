@@ -543,16 +543,14 @@ def handle_message(
 
     turn_no = state.turn_count + 1
 
-    # Unconditional, never gated behind r27_enforce - this corrects an
-    # existing false statement
-    # (_other_tradition_directive's own fixed honest-limit sentence, said
-    # even when this world's own records already name the tradition
-    # asked about) rather than adding new enforcement. match_named_
-    # tradition works from the raw participant text, independent of
-    # whatever the reader ends up classifying - harmless to compute even
-    # on a turn the reader does not route other_tradition, since
-    # _build_turn_directive only ever reads it when is_other_tradition_
-    # first_ask is also true.
+    # Unconditional, never gated behind r27_enforce: this keeps
+    # _other_tradition_directive's fixed honest-limit sentence from being
+    # said when this world's own records already name the tradition
+    # asked about. match_named_tradition works from the raw participant
+    # text, independent of whatever the reader ends up classifying -
+    # harmless to compute even on a turn the reader does not route
+    # other_tradition, since _build_turn_directive only ever reads it
+    # when is_other_tradition_first_ask is also true.
     named_tradition_key = match_named_tradition(text, registry, exclude_world_key=state.world_key)
     other_tradition_evidence_ids = (
         world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])

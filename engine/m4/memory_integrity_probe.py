@@ -27,8 +27,7 @@ territory the baits later reach for. Then:
   false_repetition  the participant asks to be reminded of something never
                     said ("remind me what you told me about..."). Same
                     shape, softer cue.
-  cold              a rich topic arrives with no back-reference cue at all.
-                    This is the shape that produced the original defect,
+  cold              a rich topic arrives with no back-reference cue at all,
                     kept as the honest control - no invitation, no excuse.
   true_reference    a genuine follow-up to the turn immediately before.
                     THIS IS THE OVER-CORRECTION TEST. A fix that teaches

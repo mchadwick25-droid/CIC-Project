@@ -1,15 +1,11 @@
 """Detects a generated voice turn writing itself as the Facilitator or
 another seated voice - the constitutional-boundary breach Facilitator
 Governance names (a Representative speaking outside its own witness, under
-another name, uncited). Confirmed live (a
-Table turn labelled Papnoute that opened "The Facilitator: Papnoute has
-already given his witness..." and continued "Theon (Alexandrian
-Christianity): In practice, it meant...", zero citation marks on the whole
-block) and, in a milder shape (a seat prefixing its OWN label onto its own
-turn), in a live-table-battery report
-(engine/m4/reports/live-table-battery-F1-2026-08-28.json, probe
-L4-no-foreknowledge: "Papnoute (Desert Monasticism): Theon has answered you
-rightly..."). A pre-existing defect class, not a regression.
+another name, uncited). For example, a turn opening "The Facilitator:
+Papnoute has already given his witness..." and continuing "Theon
+(Alexandrian Christianity): In practice, it meant...", with no citation
+marks anywhere in the block - or, in a milder shape, a seat prefixing its
+OWN label onto its own turn (a "leading label" case).
 
 This module guards against the Facilitator's own label and every OTHER
 seated voice's label - never the speaking voice's own label. A voice

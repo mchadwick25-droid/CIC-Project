@@ -1,5 +1,5 @@
 """engine.m7.session_reader's own event fold - specifically the idle-close
-reopen rule (2026-09-06), which must agree with engine.m4.projection's
+reopen rule, which must agree with engine.m4.projection's
 identical rule (engine/m4/tests/test_projection.py) or the admin
 pilot-summary endpoint (which reads through this module) and the
 participant-facing transcript (which reads through projection) would

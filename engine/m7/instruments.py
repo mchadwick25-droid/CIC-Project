@@ -135,11 +135,11 @@ def register_mechanical(s: AuditSession) -> tuple[list[Finding], list[dict]]:
         stripped = _strip_quoted(t.text)
         m = measure(stripped)
         entry = {"seq": t.seq, "speaker": t.speaker, **m}
-        # Cadence, measured never gated (the register-translation pass,
-        # 2026-08-29: the fragment-poetic register lived in record prose and
-        # was invisible to grade-level numbers - FK sat in-band while the
-        # prose chanted). Spaced em-dashes per 100 words and the share of
-        # sentences of five words or fewer make that drift visible per turn.
+        # Cadence, measured never gated: the fragment-poetic register can
+        # live in record prose while staying invisible to grade-level
+        # numbers - FK sits in-band while the prose chants. Spaced
+        # em-dashes per 100 words and the share of sentences of five words
+        # or fewer make that drift visible per turn.
         words = stripped.split()
         if words:
             entry["dash_per_100w"] = round(100 * stripped.count(" - ") / len(words), 2)
@@ -322,13 +322,11 @@ def offer_rates(s: AuditSession) -> dict:
 
 
 def cross_voice_echo(s: AuditSession) -> list[Finding]:
-    """§3.5's cross-voice half, added 2026-08-28 after the F1 register-reach
-    battery: two DIFFERENT voices in one round sharing long word runs is a
-    distinctiveness defect the within-voice repetition instrument cannot
-    see (the battery's L4 turns opened near-verbatim alike across all
-    three seats; the Gemini outside read named it 'template echo').
-    Deterministic: shared 6-grams across distinct speakers in the same
-    round -> review. Interview sessions have one voice and are skipped."""
+    """§3.5's cross-voice half: two DIFFERENT voices in one round sharing
+    long word runs is a distinctiveness defect the within-voice
+    repetition instrument cannot see. Deterministic: shared 6-grams
+    across distinct speakers in the same round -> review. Interview
+    sessions have one voice and are skipped."""
     findings = []
     by_round: dict[int, list] = {}
     for t in s.voice_turns:
