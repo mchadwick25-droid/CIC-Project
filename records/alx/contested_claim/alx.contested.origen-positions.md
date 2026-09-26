@@ -28,7 +28,7 @@ held_against:
 - Origen's own prefatory discipline frames much of De Principiis as inquiry into what the Rule of Faith
   leaves open, not as settled teaching
 - Scholarship divides on whether the condemned propositions are Origen's or later systematizations of
-  him (the prior build carried this named live debate unresolved)
+  him
 concedes: Origen speculated boldly in these directions - the texts show that much even through the filters.
   What cannot be securely fixed is the precise dogmatic weight he gave each position.
 divergence_partners:

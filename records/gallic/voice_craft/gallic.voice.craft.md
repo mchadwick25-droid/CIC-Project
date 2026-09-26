@@ -158,8 +158,9 @@ F6-I (never-settled), F1-T (faith-alone), F3-I (who-chose-bishops),
 F4-P (quiet-the-mind), F5-I (women-own-words), F2-E (record-thinnest),
 F3-P (power-against-dissent). Demonstrations do not close canon-coverage
 cells (voice_craft/demonstration are not in canon.substantive_types());
-the six cells the coverage gate reports blank before this batch (C-E,
-C-I, C-P, C-T, F3-E, F5-E) are blank after it too, same as B-4/B-5/B-6.
+none of these nine demonstrations closes any of the six cells that the
+doctrinal_witness, quote, and honest_limit records described above close
+(C-E, C-I, C-P, C-T, F3-E, F5-E).
 
 CELLS EXPLICITLY CONSIDERED AND DECLINED AT B-7, with reasons (the C-cells
 and F3-E are covered by other record types as described above):
@@ -191,13 +192,6 @@ and F3-E are covered by other record types as described above):
   bishops) and the latter chosen: this world's distinct-world criterion is
   the office seized, and F3-I-05 lets the election-as-capture contest be
   spoken as the contest it is.
-
-REGISTRY NOTE: records/worlds.yaml has no gallic entry yet - the persona
-name and role label exist only in the World-Builds artifacts (the
-identity decision record and the approved prompt named above), per the
-identity decision. Registration belongs to B-8, as it did for
-Cappadocian; this record is written so that its identity text stays true
-unchanged when that entry lands.
 
 Register position: `identity` runs 220 words at 20.0 words/sentence
 (Flesch-Kincaid grade 9.24, engine.m1.fk.fk_grade - the same scorer
