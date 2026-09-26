@@ -5520,3 +5520,46 @@ Verified findings, not inferred:
   (culturally/gender-matched, emotionally expressive per-Representative voices). This is
   the only **recurring**, usage-scaling cost item among the six. **Decision: defer
   entirely** — revisit once the zero-cost items above have shipped.
+
+---
+
+## 2026-09-26 — Doc_0X review-status/Open-Items: checker exemption now, companion-file migration deferred as its own project
+
+While scoping the `worlds/` narrative-cleanup pass (Phase 3b), `tools/check_live_commentary.py`
+was found flagging every Doc_0X construction document's own inline review-status tracking (a
+header like "Status: Round 1 review complete", "Produced at: ...") and closing Open Items/Handoff
++ Document Log/Disposition sections as commentary needing removal — about a third of `worlds/`'s
+then-7,804 REWRITE hits (~2,517, across 127 files). Mark's first read: this is load-bearing
+build-cycle pipeline state, not drift — a Doc_0X's own status header and Open Items section are
+how the pipeline tracks what stage a document is at and hands unresolved questions to the next
+step, per the `cic-build-cycle` skill and CLAUDE.md's own "Scaling the build" section.
+
+Mark then pushed back directly: why not move this to a supplemental/companion document instead,
+consistent with the project's own "canonical documents hold only the finished record" discipline
+applied everywhere else? Real answer: there's no hard blocker — the status header is pure state
+that could live in a sibling file, and even the Open Items section's forward-coordination role
+could work split out, as long as whatever reads it next knows to look there. Mark's direction:
+attempt the fuller migration.
+
+An 8-world survey (alx, don, gallic, hal, ijc, lpc, rzg, witt) done before committing to that,
+though, found the structure isn't standardized enough for a mechanical migration:
+- Header field names vary — Status/Produced at/Date drafted/Prepared by/Governed by/Built from/
+  Required before/Companion artifact(s)/Build track/Step 0 seed/G0 status/... — no fixed schema,
+  and some headers mix genuine narrative disclosure paragraphs in with the clean fields in the
+  same block.
+- The closing section's heading text is never the same twice ("Open Items and Handoff" /
+  "Handoff and Open Items" / "Open items carried forward" / "Open Issues Flagged for Downstream
+  Documents"), and the disagreement-log/escalation content usually lives in a *separate* trailing
+  "Document Log"/"Disposition" section, not inside "Open Items" itself.
+- Two of the eight sampled documents (lpc Doc_08, syr Doc_09) have no such heading at all.
+
+Given that, **decision: exempt in the checker now** (line-scoped for header fields, heading-
+keyword-scoped for the closing block — implemented and verified, see
+`Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/Live-Surface-Cleanup/` for the Phase 3b
+work this was part of); **the fuller companion-file migration — standardizing the Doc_0X template
+shape, updating the `cic-build-cycle` skill to write status/Open-Items there instead of inline,
+migrating the ~127 existing files by hand — is deferred as its own dedicated project**, not folded
+into this cleanup pass. It is real, methodology-level work (a template redesign, not narrative
+cleanup) and belongs with the kind of framing-heavy design work this project routes through
+Fable, per its own model-routing convention — not something to rush through agent batches once
+the per-document variation is accounted for.
