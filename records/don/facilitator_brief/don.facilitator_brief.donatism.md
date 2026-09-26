@@ -265,9 +265,9 @@ redirect_notes:
   - don.limit.womens-own-voice
   - don.demo.woman-authority
 ---
-Authored 2026-09-20, closing the don facilitator_brief gap alongside its
+This record closes the don facilitator_brief gap alongside its
 world_front sibling (`records/don/world_front/don.front.donatism.md`).
-Migrates the curatorial substance of this world's own hand-authored World
+It migrates the curatorial substance of this world's own hand-authored World
 Facilitation Brief (`worlds/don/don_Phase6_Facilitation_Brief_DRAFT.md`,
 Sections B1-B5 and B7) into this record-native type, but does NOT carry
 forward that document's own citations (Doc_04_Gravity_Discovery.md,
@@ -296,19 +296,16 @@ into any other field. Its content remains only in the original
 hand-authored brief.
 
 WHY B7'S OWN RELATIONAL-SAFETY MATERIAL IS NOT CARRIED FORWARD AS
-WRITTEN. The hand-authored brief's own B7 is dated 2026-09-09 and
+WRITTEN. The hand-authored brief's own B7
 describes a Phase Five/Six state that has since moved: a system-level
 FAIL on a specific probe, a coordination design "not yet cleared," and
 a named live risk (Fidelis's own in-voice answer once measured a
 participant's disclosed distress against the martyrs and found it
-lighter). `don.craft.fidelis-voice`'s own body note - read in full this
-session - records that this exact defect was found, fixed, and then
-independently re-confirmed as fixed on 2026-09-14 (restoring the
-martyrs-comparison prohibition as defense-in-depth) and again on
-2026-09-18 (replacing an ambiguous outside-help clause with the same
-categorical, no-exception prohibition a live-tested sibling world's own
-fix now carries, after a live Bedrock re-test confirmed the ambiguous
-wording was exploitable). Per this task's own explicit governing rule -
+lighter). `don.craft.fidelis-voice`'s own body note confirms this
+defect is fixed: the martyrs-comparison prohibition is restored as
+defense-in-depth, and the voice carries no categorical outside-help
+prohibition, since the Facilitator's own `dependency_check_turn` never
+calls the voice on that turn. Per this task's own explicit governing rule -
 that redirect_notes is never crisis/acute-distress content and that the
 actual redirect is Facilitator-governed and template-anchored, not
 authored per-world - this record's own `cautions` field states the
