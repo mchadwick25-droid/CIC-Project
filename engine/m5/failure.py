@@ -51,10 +51,10 @@ def resolve_gate(
         # Reader fails/times out. A successful safety classification is NOT
         # discarded just because the reader also failed: a reader timeout on
         # the same turn a participant discloses real risk must never silently
-        # erase that finding (fixed 2026-09-19 - the prior version returned
-        # voice_pass_through unconditionally here, which meant a correctly-
+        # erase that finding: returning voice_pass_through unconditionally
+        # here would mean a correctly-
         # classified ACUTE_DISTRESS turn could still reach the voice, live,
-        # if the unrelated reader call happened to time out the same turn).
+        # if the unrelated reader call happened to time out the same turn.
         # Only genuinely reader-dependent rules (system_nature/bridge/etic/
         # ordinary) actually need a reader; safety_turn and check_in_turn do
         # not, so routing on safety alone here is safe, not a guess.

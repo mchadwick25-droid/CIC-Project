@@ -76,7 +76,7 @@ def open_session(
     the shape matches the mode, so this function stays a writer, not a
     second validator.
 
-    package_location(s) (2026-09-04) pins the package DIRECTORY this
+    package_location(s) pins the package DIRECTORY this
     session actually loaded from, alongside the hash it already pinned -
     optional, not part of events.validate()'s required floor, so old
     session_started events written before this field existed still fold

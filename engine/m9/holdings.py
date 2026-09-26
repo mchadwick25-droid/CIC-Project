@@ -2,7 +2,7 @@
 file, per world, naming whether it is in scope, already named in this
 world's own records, actually drawn on, and its own disposition from a
 closed vocabulary. Report-only, per the stage's own bar ("nothing
-blocks"); gate only after R13 (Rulings-Pending.md).
+blocks"); gate only once that decision is made.
 
 Reuses `engine.m1.cross_world`'s own `corpus_tier`/`BY_DESIGN`/
 `observe_second_hand_sources` rather than duplicating that judgment, and
@@ -13,16 +13,14 @@ same technique `texts_registry.citing_records()` already uses fleet-wide
 (catching a citation that lives in a quote record's body prose, not just
 a source record's `edition` field), scoped here to one world.
 
-KNOWN GAP, NOT HIDDEN: Build-Plan.md's own 2d spec also asks to relocate
+KNOWN GAP: Build-Plan.md's own 2d spec also asks to relocate
 COVERAGE/REGIONS/AUTHORS out of `engine/m1/cross_world.py` into a
 library-side file under `cic/corpus-map/`, and to have
 `observe_second_hand_sources` read `cic/texts/AUTHORS.md`/
 `cic/corpus-map/AUTHOR-IDS.yaml` directly instead of its own hand-typed
 `AUTHORS` table. That relocation touches data
 `Build/worlds/_cross-world/gen_corpus_table.py` and several worlds' own
-Review-Artifacts already depend on - real, separate work, deliberately
-not attempted in the same pass as this report, filed as a named
-remainder rather than silently dropped.
+Review-Artifacts already depend on, so it is not done here.
 """
 from __future__ import annotations
 

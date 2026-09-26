@@ -27,8 +27,8 @@ def test_drawn_on_implies_in_scope():
 
 
 def test_by_design_files_are_never_drawn_on():
-    """webbe/anf10 exist precisely so nothing cites them (Mark's ruling,
-    per gen_corpus_table.py's own DISPOSITION map) - if one shows drawn_on
+    """webbe/anf10 exist precisely so nothing cites them (per
+    gen_corpus_table.py's own DISPOSITION map) - if one shows drawn_on
     here, that is a real citation this report should surface, not hide
     behind the "by design" label."""
     rows = holdings_for("gallic")

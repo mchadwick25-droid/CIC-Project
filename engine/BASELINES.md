@@ -14,10 +14,10 @@ tag `pilot-baseline-2026-08-24` carries the same text as the entry below.
 ## `baseline/pilot-2026-08-24` — the voice quality to return to
 
 Commit `8b23f46e` ("Give the four dead routes an answer"). The exact tree
-that produced the 2026-08-24 live routing run on pahc and the three fleet
-runs before it. Mark's own words on this state: *"very very good"*, and
-*"small misalignments are not a major concern for the pilot"*. Return here
-before trusting any later change to how the voice speaks.
+that produced the live routing run on pahc and the three fleet runs before
+it, all assessed as good overall, with only small misalignments and none
+judged a concern for the pilot. Return here before trusting any later
+change to how the voice speaks.
 
 ```
 git checkout baseline/pilot-2026-08-24
@@ -68,5 +68,5 @@ A rebuild that does not reproduce these hashes is not this baseline.
    `engine/m4/events.py` and folded in `engine/m4/projection.py`, and
    appended by nothing — so `SessionState.pressed` is permanently `{}`.
 
-Both are wiring, not turn content; both were proven live on 2026-08-24, and
-both are fixed after this baseline, not in it.
+Both are wiring, not turn content; both were proven live at this baseline's
+state, and both are fixed after it, not in it.

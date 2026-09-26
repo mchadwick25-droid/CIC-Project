@@ -1,11 +1,10 @@
-"""R38 (Rulings-Pending.md, RULED 2026-09-23): self-revision at
-generation, Mark's own chosen fix for the fabrication-riding-a-real-tag
-leak class the Theon/Donatists worked example showed (Decision-Log.md
-Entries 57/59/60). Candidates A and B (lexical-remainder net rules) are
+"""Self-revision at generation is the chosen fix for the
+fabrication-riding-a-real-tag leak class the Theon/Donatists worked
+example showed. Candidates A and B (lexical-remainder net rules) are
 closed - 0/6 precision on honest paraphrase. Candidate C (the live
 support-check reader) stays the documented fallback only; self-revision
-measured 0 of 20 real leaks, at Mark's own "0 or 1 of 20" bar for
-proposing the build (Decision-Log.md Entry 61).
+measured 0 of 20 real leaks, clearing the "0 or 1 of 20" bar set for
+building it.
 
 After the voice drafts its turn, a SECOND voice call - same model, same
 system prompt - is given its own draft plus the exact, full text of
@@ -23,8 +22,8 @@ no routing knowledge of its own, the same "pure, no registry/routing
 context" discipline `engine.m4.uncited_claims.find_uncited_claims`
 already follows.
 
-7b/R30 compatibility: the draft-then-revise pair is one atomic pre-
-stream step. R30's own ruling already holds the opening paragraph until
+7b compatibility: the draft-then-revise pair is one atomic pre-
+stream step. The opening-hold rule already holds the opening paragraph until
 the guard has checked it, then streams from a point already known
 clean - self-revision fits that same shape without a new mechanism,
 since the guard check (and any streaming) never starts on the DRAFT

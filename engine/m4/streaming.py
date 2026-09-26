@@ -1,5 +1,5 @@
-"""The engine-side streaming module (Decision-Log.md Entry 53, "Shape B",
-the design of record for participant-facing streaming): buffers the
+"""The engine-side streaming module ("Shape B", the design of record for
+participant-facing streaming): buffers the
 model's own token stream to sentence boundaries, runs the same
 per-sentence grounding check the whole-turn path already runs on each
 completed sentence, and yields a cleared sentence immediately. A
@@ -11,9 +11,9 @@ never be un-shown, which is exactly why Shape C (raw token streaming
 with retraction) was rejected outright in favor of this one. Nothing
 here is enforced today - a withheld sentence is silently dropped, not
 regenerated - because per-sentence regeneration is its own later,
-already-named stage (R27-A moved into per-sentence mode is Stage 7d,
-not this one), and R27-A's own enforcement (CIC_R27_ENFORCE) is
-currently off by ruling regardless.
+already-named stage (the per-sentence version of this enforcement is
+Stage 7d, not this one), and that enforcement (CIC_R27_ENFORCE) is
+currently off by default regardless.
 
 Deliberately separate from engine.m4.turn._run_ordinary_voice_turn:
 callable, testable, and removable on its own, never woven into the
@@ -43,7 +43,7 @@ buffer is the final sentence, checked and (if it clears) emitted like
 any other - generation actually stopped there, so there is no "next
 chunk" left to wait for.
 
-R30 (Decision-Log, ruled): the opening is held back - buffered and
+The opening is held back - buffered and
 checked against the seat-identity guard - before anything streams at
 all, so a participant can never see a prefix later found to violate it.
 `opening_sentence_count` sentences are buffered this way; a guard
@@ -76,8 +76,9 @@ whole-turn one and calls prepare_voice_turn_inputs on its own, is still
 open - see its PR description); self-
 revision's own draft-then-revise pair (engine.m4.self_revision) - the
 caller runs that first and passes this function whatever it returns,
-exactly as that module's own docstring already specifies for 7b/R30
-compatibility, since nothing here ever sees the pre-revision draft;
+exactly as that module's own docstring already specifies for
+compatibility with holding the opening back, since nothing here ever
+sees the pre-revision draft;
 table-round multi-seat streaming (only ever one seat's own voice turn
 streams; round/selector mechanics are entirely unchanged and untouched
 here); and moving the seat-identity guard itself into genuine
@@ -196,7 +197,7 @@ def stream_voice_turn_sentences(
     "sentence" event, never part of answer_text - per this module's own
     docstring on why streaming holds a stricter bar than the whole-turn
     path. guard_labels=None (every interview call) skips the opening
-    guard-check and R30 hold entirely; the first sentence streams as
+    guard-check and opening-hold entirely; the first sentence streams as
     soon as it clears the grounding check, same as every sentence after
     it."""
     figure_names = build_figure_lexicon(repository_records)
@@ -208,7 +209,7 @@ def stream_voice_turn_sentences(
         )
 
     directive = turn_directive
-    for attempt in range(2):  # the opening's own one allowed regeneration (R30)
+    for attempt in range(2):  # the opening's own one allowed regeneration
         try:
             with _open_stream(
                 client, model_id, system_prompt=system_prompt, directive=directive,

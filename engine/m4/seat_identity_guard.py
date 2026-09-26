@@ -1,23 +1,21 @@
 """Detects a generated voice turn writing itself as the Facilitator or
 another seated voice - the constitutional-boundary breach Facilitator
 Governance names (a Representative speaking outside its own witness, under
-another name, uncited). Confirmed live on cic-engine-staging 2026-09-22 (a
+another name, uncited). Confirmed live (a
 Table turn labelled Papnoute that opened "The Facilitator: Papnoute has
 already given his witness..." and continued "Theon (Alexandrian
 Christianity): In practice, it meant...", zero citation marks on the whole
 block) and, in a milder shape (a seat prefixing its OWN label onto its own
-turn), in the August live-table-battery reports
+turn), in a live-table-battery report
 (engine/m4/reports/live-table-battery-F1-2026-08-28.json, probe
 L4-no-foreknowledge: "Papnoute (Desert Monasticism): Theon has answered you
-rightly..."). Pre-existing defect class, not a Stage 6 regression - see
-Build/Ministry/Features/Conversation-Transparency-Engine/Decision-Log.md
-Entry 47.
+rightly..."). A pre-existing defect class, not a regression.
 
 This module guards against the Facilitator's own label and every OTHER
 seated voice's label - never the speaking voice's own label. A voice
-prefixing its OWN name onto its own turn (the August evidence's "leading
-label" case) is a separate, milder, cosmetic defect, out of this guard's
-scope by Mark's own ruling (Entry 47): it never breaches the isolation
+prefixing its OWN name onto its own turn (the "leading
+label" case above) is a separate, milder, cosmetic defect, out of this guard's
+scope: it never breaches the isolation
 property this guard exists to hold, since the voice is still only ever
 speaking as itself.
 
@@ -30,7 +28,7 @@ a format it was shown). A bare substring occurrence - a voice writing the
 WORD "Facilitator" or another seat's own name in running prose - is not
 the defect and must not be caught; only the attributed dialogue-tag SHAPE
 is. This is a real, accepted tradeoff of the bare "<Name>:" pattern in
-particular (Mark's own spec, Entry 47): a sentence that happens to end
+particular: a sentence that happens to end
 right before a seat's bare name followed by a colon mid-prose ("Ask
 Theon. Theon: he's usually right") would false-positive. Accepted as
 specified rather than narrowed further - the real leaks this guard exists

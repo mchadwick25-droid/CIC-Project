@@ -1,7 +1,7 @@
 """Does the voice claim it already said something it is reading for the
 first time?
 
-WHY THIS EXISTS. A six-turn live run on desert (2026-08-27) answered a
+WHY THIS EXISTS. A six-turn live run on desert answered a
 question about women by opening "Sarah, whose words we already gave you" -
 and the two turns before it were about Jesus. Sarah's saying was in that
 turn's own evidence block, read for the first time; the next turn
@@ -169,11 +169,10 @@ def main() -> int:
     path.write_text(json.dumps(graded, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(graded, indent=2, ensure_ascii=False))
 
-    # H-3 (witt go-live adversarial review, 2026-09-19): _verdict() above
-    # already computes FAILED for exactly the defect this whole battery
-    # exists to catch, but nothing read it back - a reviewer had to scan
-    # the JSON for the string by hand. Wired to the exit code now, the same
-    # way engine.m4.live_turn_run and engine.m4.live_table_run gate on
+    # _verdict() above computes FAILED for exactly the defect this whole
+    # battery exists to catch; wired to the exit code so nothing has to
+    # scan the JSON for the string by hand, the same way
+    # engine.m4.live_turn_run and engine.m4.live_table_run gate on
     # engine.m4.output_check.find_shipped_defects.
     failed = [t for t in graded["turns"] if t["verdict"].startswith("FAILED")]
     if failed:
