@@ -58,13 +58,12 @@ _APPARATUS = re.compile(
     r"chronological table|genealogical tables?|errata|advertisement|"
     r"elucidations?|addenda|memoir|biographical synopsis)\b", re.I)
 
-# `appendix` needs its own rule. Matching it as a prefix marked
+# `appendix` needs its own rule. Matching it as a prefix would mark
 # Pseudo-Tertullian's *Against All Heresies* and npnf214's Trullan canonical
 # appendix as editorial matter - both ancient texts that CCEL merely shelves
-# under an "Appendix" heading. Two workers on the 2026-08-26 assignment run
-# caught it by eye and assigned them anyway. So an appendix is apparatus only
-# when the title is JUST that word (plus numbering or punctuation); an
-# appendix that names a work is a work.
+# under an "Appendix" heading. So an appendix is apparatus only when the
+# title is JUST that word (plus numbering or punctuation); an appendix that
+# names a work is a work.
 _BARE_APPENDIX = re.compile(r"^appendix\b[\s.:;,–—-]*(?:[ivxl]+|\d+)?[\s.:;,]*$", re.I)
 
 

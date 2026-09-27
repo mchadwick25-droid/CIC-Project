@@ -56,7 +56,7 @@ text: >-
   the world, in a dispute he had summoned two councils to settle, in the end
   paid twice and let it lie.
 ---
-Verified directly against the vendored file 2026-08-27: the convening
+Verified directly against the vendored file: the convening
 letter to Aelafius at line 7084 and its text from 7095 ("Already some
 time back, since it was brought to my knowledge that many persons in our
 dominion of Africa had begun to separate from one another with mad
@@ -82,4 +82,4 @@ Nothing else in this world's registry shows that, and a world about
 church and empire that only ever shows emperors yielding to bishops or
 crushing them has a shape its own sources do not support.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

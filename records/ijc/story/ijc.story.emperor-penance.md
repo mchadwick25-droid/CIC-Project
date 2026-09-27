@@ -94,4 +94,4 @@ ijc.story.callinicum-synagogue (hypocrisy in the record's own hero)
 and ijc.dw.women-authority-cost (a woman's authority and its
 cost).
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

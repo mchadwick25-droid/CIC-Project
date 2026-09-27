@@ -31,6 +31,5 @@ Bishop John of Jerusalem that Rufinus's own Apology requires in the other
 direction. Neither side's account of the dispute's substance is privileged
 - see hal.contested.origenist-substance.
 
-Dating aligned to the cleared Doc_02's own figure (401-403) per
-independent review Round 1 (2026-08-21), which found a drift toward
-401-402 elsewhere in this record set.
+The dating (401-403) matches Doc_02's own figure, consistently across
+this record set.

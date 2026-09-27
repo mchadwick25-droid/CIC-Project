@@ -40,12 +40,12 @@ relations:
 - type: associated-with
   target: desert.dw.strangest
 ---
-Opened 2026-08-27 for F3-E, served by desert.dw.strangest alone. The witness cites SS2-3 for
-"giving away a substantial inheritance over two separate church visits" and could not show it.
+This record fills canon cell F3-E. desert.dw.strangest alone serves this cell, citing SS2-3 for
+"giving away a substantial inheritance over two separate church visits" without a quotable line.
 
 The lens note carries the edition's own alternative reading rather than choosing silently between
 them. A cell asking what is hard to believe about this world should not be handed a version of the
 story with its ambiguity quietly resolved.
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own spaces before two punctuation marks
-("acres , productive" and "his sister .") that the record had closed up. No wording changed.
+The text field carries the source's own spaces before two punctuation marks ("acres , productive"
+and "his sister ."), matching the source exactly.

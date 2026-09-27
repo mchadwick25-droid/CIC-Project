@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Widely Accepted
   divergence_note: null
 sources: []
-query: The Liber Genealogus, flagged since 2026-09-01 as "not yet inventoried in the vendored corpus"
+query: The Liber Genealogus, previously not yet inventoried in the vendored corpus
   (Source_Registry.md row 21)
 channel: Sibling research session (session_01WLxhNbVhjkf1R2SAh8dxxT), direct search, 2026-09-08, using
   this project's standard cic/texts/INTAKE.md intake procedure (don_Decision_Log.md)

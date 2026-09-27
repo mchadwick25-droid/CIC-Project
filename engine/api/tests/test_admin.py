@@ -1,10 +1,9 @@
-"""/api/admin/pilot-summary (2026-09-05): the one aggregate, participant-
-content-free view into the whole session log, built because "how many
-real pilot sessions exist" and "is the table round cap firing where it
-should" had no answer from outside the service at all - every existing
-endpoint is either per-session (gated by that session's own auth code) or
-doesn't exist. Auth is its own concern here, not the per-session code
-_authenticate checks elsewhere in this test tree."""
+"""/api/admin/pilot-summary: the one aggregate, participant-content-free
+view into the whole session log - "how many real pilot sessions exist"
+and "is the table round cap firing where it should" have no answer from
+any other endpoint, which is either per-session (gated by that session's
+own auth code) or doesn't exist. Auth is its own concern here, not the
+per-session code _authenticate checks elsewhere in this test tree."""
 import uuid
 
 import pytest

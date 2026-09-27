@@ -65,9 +65,8 @@ relations:
 - type: associated-with
   target: desert.dw.grace-and-effort
 ---
-OPENED 2026-08-27, in the reading pass on the file vendored earlier the
-same day. It closes a gap that was total rather than partial: before this
-record, NO record in this world mentioned the Holy Spirit at all, while
+This record closes a gap that was total rather than partial: before
+it, no record in this world mentioned the Holy Spirit at all, while
 F1-I carries "Who or what is the Holy Spirit, to your people?" as a canon
 question. The cell was answered by desert.dw.god, which is about the Son
 and about knowing God by stilling the passions, and which says nothing
@@ -98,4 +97,4 @@ is unknown. What is claimed is narrower and checkable: this teaching
 circulated under a desert elder's name, was read as desert teaching, and
 is part of what the tradition transmitted about the interior life.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

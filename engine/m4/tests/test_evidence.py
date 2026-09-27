@@ -362,7 +362,7 @@ def test_tier_3_and_unset_tier_are_treated_identically():
     assert scores["fix.term.aaa-low-tier"] == scores["fix.term.explicit-tier-three"]
 
 
-# ---- Stage 4a: R11's riders (Build-Plan.md; Rulings-Pending.md) -----------
+# ---- Stage 4a: the prefer_instead redirect rule's riders (Build-Plan.md) -----------
 
 _REDIRECTABLE = {
     "id": "fix.term.redirectable", "record_type": "term", "canon_cells": ["Z9-Q"],
@@ -749,7 +749,7 @@ def test_the_stemmer_will_not_collapse_short_words():
     assert _stem("belonging") == "belong"
 
 
-# ---- Stage A2: full-text fallback (added 2026-08-25) -----------------------
+# ---- Stage A2: full-text fallback -----------------------
 # Fires only when Stage A finds no cell at all - the gap this closes is real
 # and was found on a live turn (pahc/Chloe, "what was the kingdom of God"):
 # the fleet's own canon vocabulary and every world's own retrieval hints can
@@ -846,7 +846,7 @@ def test_assemble_evidence_fallback_never_fires_once_a_cell_matches():
     assert all(not c.get("fulltext_fallback") for c in evidence["candidates"])
 
 
-# ---- entity routing (Stage A, added 2026-08-27) -------------------------
+# ---- entity routing (Stage A) -------------------------
 # Fixture shaped from the measured failure it exists for: a world whose
 # figure is named in the question but whose name is in no canon question,
 # so every content-word tier is blind to it.
@@ -953,7 +953,7 @@ def test_retrieve_when_is_not_searched_by_the_fulltext_fallback():
     assert "believed" not in searched
 
 
-# ---- short-query single-word tier (added 2026-08-27) --------------------
+# ---- short-query single-word tier --------------------
 SHORT_CANON = {
     **CANON_QUESTIONS,
     "fleet.canon.q-marriage": {
@@ -1033,7 +1033,7 @@ def test_one_word_query_may_match_a_hint_word_but_a_two_word_query_may_not():
                               canon_questions=CANON_QUESTIONS, repository_records=repo)
     assert not [m for m in two if m.get("matched_by") == "single-word-hint"]
 
-# --- cell-scorer weighting (the broad-cell defect, 2026-08-27) ---------------
+# --- cell-scorer weighting (the broad-cell defect) ---------------
 
 def test_a_word_in_many_cells_is_discounted_but_never_silenced():
     """The taper's shape, pinned. A word in few cells is full evidence; one
@@ -1073,7 +1073,7 @@ def test_a_broad_cell_does_not_shut_out_a_specific_one_on_common_words():
     assert "F1-P" in cells, cells
 
 
-# --- follow-ups inherit the prior subject's cells (2026-08-27) --------------
+# --- follow-ups inherit the prior subject's cells --------------
 
 def test_a_question_that_names_its_own_subject_is_not_a_follow_up():
     """The half of the test that stops this firing on real questions: 33 of

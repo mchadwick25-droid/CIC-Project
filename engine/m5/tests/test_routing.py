@@ -140,7 +140,7 @@ def test_later_age_first_ask_passes_to_voice():
 
 
 def test_other_tradition_first_ask_carries_the_structured_class_r26():
-    # Decision-Log.md Entry 50/51 (R26): a structured field, not a reason
+    # A structured field, not a reason
     # string to parse, so engine.m4.turn can wire its own directive
     # addition onto exactly this case without matching free text.
     decision = route(
@@ -206,14 +206,14 @@ def test_safety_none_still_routes_by_reader_rules():
     assert decision.action == "system_nature_turn"
 
 
-# B-2 (witt go-live adversarial review, 2026-09-19): the reader claimed
+# The reader has been found to claim
 # system_nature for "What exactly did your founder write in his 1543 book
 # about Jewish people?" - a message that names no system, bot, script, or
 # "how were you built" shape at all. These are the reproduction and the
 # regression coverage for the deterministic backstop that now catches it.
 
 def test_system_nature_claim_is_not_trusted_without_the_words_for_it():
-    """The exact B-2 reproduction: an ordinary in-window historical
+    """The exact reproduction: an ordinary in-window historical
     question, reader-misclassified as system_nature, must fall through to
     ordinary routing rather than being trusted at face value."""
     decision = route(

@@ -78,22 +78,14 @@ person actually become one of you? Walk me through it.") and F2-I ("How
 did you read your scriptures? What did you look for in them?") are both
 answered directly by this one narrated act.
 
-Step4, Round 1 review Finding M3: "under the guidance of an old man"
-overclaimed against both the Vita ("imitated him in piety," SS3) and
-desert.force.village-ascetic-culture's own registered wording - corrected
-to that force record's own "sought out and modeled himself on."
+The text matches both the Vita ("imitated him in piety," SS3) and
+desert.force.village-ascetic-culture's own registered wording ("sought
+out and modeled himself on"). The Matthew 19:21 clause order matches
+the vendored Ellershaw text's own "...and come follow Me and thou
+shalt have treasure in heaven."
 
-Step4, Round 2 review Finding C1 (flagged again, not fixed in Round 1's
-own pass): the Matthew 19:21 clause order previously read "...and you
-will have treasure in heaven; and come, follow me," reordered against
-the vendored Ellershaw text's own "...and come follow Me and thou shalt
-have treasure in heaven." Corrected above to the source's own clause
-order.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
-
-CENTER-CELL MAPPING (2026-08-30, Mark: "go ahead with the change order
-and the five world read"; V1.2 birth condition applied to the existing
-fleet - one story and one term per center cell where they genuinely
-belong, honest empties recorded). Added to C-P: "Who is Jesus to you - not to your church, to you?" - the Gospel heard as spoken straight to one man is this world's founding answer to exactly that question. Content unchanged; the added
-cell and this note are the whole edit.
+This record answers C-P: "Who is Jesus to you - not to your church, to
+you?" - the Gospel heard as spoken straight to one man is this world's
+founding answer to exactly that question.

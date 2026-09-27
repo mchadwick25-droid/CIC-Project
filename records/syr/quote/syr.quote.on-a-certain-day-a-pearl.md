@@ -45,13 +45,13 @@ relations:
 - type: associated-with
   target: syr.term.raza-shrara
 ---
-Opened 2026-08-27. syr.dw.reading cites the Pearl as "the method performed" and could not
-perform it; F2-T was served by that witness alone, and syr.term.raza-shrara likewise cites these
-hymns for the razê account with no quotable line.
+syr.dw.reading cites the Pearl as "the method performed" without a quotable line; F2-T is served by
+that witness alone, and syr.term.raza-shrara likewise cites these hymns for the razê account with no
+quotable line. This quote fills that gap.
 
 The opening stanza is kept whole rather than excerpted to the memorable phrase, because the
 movement is the point - takes it up, sees mysteries, drinks, sets it on his palm, turns it, finds
 faces on every side, and only then concludes. Cutting to "it proved faces on all sides" would
 leave the conclusion without the seeing that produced it.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

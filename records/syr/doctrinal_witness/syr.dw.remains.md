@@ -58,4 +58,4 @@ F5-E: the Kayaalp discipline from Doc_02 SS6 (baptistery secure;
 five-aisled plan hypothetical) is carried into the tensions field
 as a standing bound.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text is at the approved register level: short sentences, everyday words; every claim, name, quote, and hedge is kept.

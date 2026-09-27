@@ -289,13 +289,12 @@ narrative:
   - pahc.term.two-ways
   - pahc.term.ministrae
 ---
-Authored 2026-09-19: the post-apostolic-house-church `world_front`
-record, the fourth world in the fleet-wide `world_front` rollout
-following the two-world pilot (desert-monasticism, syriac-edessa-nisibis)
-and cappadocian (Website V2 world_front design, approved to proceed
-2026-09-19). Covers `skim`, `orientation`, and `narrative` only, per the
-established scope; `facilitator_brief` is a separate, later record this
-pass does not build.
+This is the post-apostolic-house-church `world_front` record, one of
+the fleet-wide `world_front` rollout following the pilot worlds
+(desert-monasticism, syriac-edessa-nisibis) and cappadocian (Website V2
+world_front design). It covers `skim`, `orientation`, and `narrative`
+only, per the established scope; `facilitator_brief` is a separate,
+later record.
 
 BASE-FIX CONFIRMATION. This session's worktree initially cut from the
 wrong base (HEAD at `e2291dfb`, an unrelated PR merge, with

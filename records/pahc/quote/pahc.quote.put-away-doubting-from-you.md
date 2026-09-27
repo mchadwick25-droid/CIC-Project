@@ -40,18 +40,16 @@ relations:
 - type: associated-with
   target: pahc.witness.prayer-and-struggle
 ---
-Opened 2026-08-27 for F4-P, served by pahc.witness.prayer-and-struggle alone, which cites
+This quote serves F4-P together with pahc.witness.prayer-and-struggle, which cites
 Mandate 9 for "ask without doubting; a slow answer is not a refusal".
 
 The self-accusation is quoted rather than paraphrased because it is the part that does the pastoral
 work: the text puts the participant's own objection in their mouth first.
 
-Quote-verbatim gate fix (2026-09-22): removed stray literal backslashes before quote marks (a YAML
-folded-scalar authoring bug). Corrected the nested-quote mark before "How can" from a straight double
-quote to the source's own apostrophe-class mark; the source's nested quotation never actually closes
-after "against Him?" - it opens again with a second apostrophe-class mark before "Do not" rather than
-closing, so no closing mark is added there either, matching the source exactly rather than inventing
-tidier punctuation. Separately, the record's own period after "tender mercies" was invented - the
-source's sentence continues into further, broader theological reflection (God's not remembering evils,
-a call to cleanse the heart). Marked with a trailing ellipsis rather than restored: the record's gloss
-is specifically about the self-doubt-and-answer exchange, complete at "tender mercies".
+The quote marks match the source exactly. The nested-quote mark before "How can" is the source's
+own apostrophe-class mark; the source's nested quotation never actually closes after "against
+Him?" - it opens again with a second apostrophe-class mark before "Do not" rather than closing,
+so no closing mark is added there either. The quoted sentence ends at "tender mercies," marked
+with a trailing ellipsis: the source's sentence continues into further, broader theological
+reflection (God's not remembering evils, a call to cleanse the heart), but the record's gloss is
+specifically about the self-doubt-and-answer exchange, complete at "tender mercies".

@@ -40,4 +40,4 @@ retrieval:
 ---
 Verified verbatim against the vendored Hallock text (Dem VII.2).
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass, second tranche: the live probe on the first syr pin spoke this quote's original and its archaic edge showed - rendered under Mark's standing quote ruling; original stays as text, shown at Level 3).
+modern_rendering is a modern-English translation of this record's own text field, not a summary; the original stays as text, shown at Level 3.

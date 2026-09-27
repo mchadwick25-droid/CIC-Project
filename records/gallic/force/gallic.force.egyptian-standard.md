@@ -15,9 +15,9 @@ confidence:
     Documented for the southern receptive mode (Cassian's own Institutes Preface; Eucherius, row 26,
     Latin at Inferential/Thin for wording; Gennadius ch. LXII); Widely Accepted for the northern
     comparative mode (one voice, Sulpitius, structurally confirmed by Gennadius ch. XIX) - exactly
-    Doc_04 G2's split rating. Dial. I (row 4) is Excluded and not used. Doc_08 Round 1 finding 5
-    corrected the speaker at Dial. II.5: the concession 'you have conquered' is Postumianus's own,
-    the Egyptian visitor's, to Gallus - the stronger fact for this force. Reported-Experience Status
+    Doc_04 G2's split rating. Dial. I (row 4) is Excluded and not used. At Dial. II.5: the concession
+    'you have conquered' is Postumianus's own, the Egyptian visitor's, to Gallus - the stronger fact
+    for this force. Reported-Experience Status
     applies to Layer 2's northern sentence (one hagiographer) and Lérins sentence (rough OCR).
 sources:
 - source_id: gallic.source.cassian-institutes

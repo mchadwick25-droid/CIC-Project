@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "requested in world-build-docs/ijc/SOURCE-REQUEST-MANIFEST.md (search: ijc.search.npnf201-eusebius); supplied via the vendored CCEL corpus (Mark, 2026-08-15); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf201"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). Translator verified from the file's own DC.Creator header
 (sub="Translator": Arthur Cushman McGiffert, line 55). Work presence
 verified: HE X.5 "Copies of Imperial Laws" (the Licinius/Constantine

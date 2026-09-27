@@ -35,11 +35,11 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.limit.jesus-to-you}
 ---
-Text verified verbatim against the vendored file 2026-08-22. Already
+Text verified verbatim against the vendored file. Already
 named, but not previously given its own citable record, in
 ijc.limit.jesus-to-you's own body as this world's closest approach
 to a direct, personal-register invitation - added at the step-5 review
 so the lament demonstration built from that limit could quote it
 properly rather than paraphrase it.
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep): spoken by ijc.demo.want-to-believe; original stays for Level 3.
+This quote is spoken by ijc.demo.want-to-believe; its rendering follows the register bar, and the original stays as text for Level 3.

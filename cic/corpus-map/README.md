@@ -156,4 +156,4 @@ points at the right passage; that's still on whoever set it, same as
 `locus` itself always was.
 
 The brief that governs this work is
-`worlds/_cross-world/BRIEF-corpus-assignment-thread.md`.
+`Build/worlds/_cross-world/BRIEF-corpus-assignment-thread.md`.

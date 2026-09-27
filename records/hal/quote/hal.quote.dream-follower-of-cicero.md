@@ -32,7 +32,7 @@ retrieval:
   - "participant asks what they made of pagan books and classical learning"
   - "participant asks whether reading the wrong things troubled their conscience"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 22 sec. 30,
+Verified verbatim against the vendored npnf206 (Ep. 22 sec. 30,
 div v.XXII). ATTRIBUTION SHAPE: these are the words of the Judge in
 Jerome's own reported dream - Jerome is the author reporting speech within
 his own dream-vision; the dream as a literally-experienced event is
@@ -44,4 +44,4 @@ caveats. Serves F2-P (the confused-bored-by-the-Bible cell: the dream
 turns exactly on loving polished prose more than scripture's plainness)
 and F1-P (doubt and the divided heart).
 
-MODERN RENDERING AUTHORED (2026-08-29, hal register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3).
+The spoken form is a modern-English translation, not a summary; the original wording stays as text, shown at Level 3.

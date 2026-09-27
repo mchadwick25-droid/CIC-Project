@@ -32,4 +32,4 @@ discovery_channel: builder-direct-read; Source Registry row 27; a named, vendore
 external_ids:
   gallic_source_registry_row: 27
 ---
-This world's own founding narrative for Lerins -- previously entirely absent from the vendored library until this Registry's own build session. Vendored and rights-verified 2026-09-09, extracted from the full Migne PL 50 volume; also carries at least one further short genuine letter of Hilary's, not separately bounded (see the vendored file's own header).
+This world's own founding narrative for Lerins. Extracted from the full Migne PL 50 volume; also carries at least one further short genuine letter of Hilary's, not separately bounded (see the vendored file's own header).

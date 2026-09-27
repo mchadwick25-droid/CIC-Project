@@ -41,13 +41,11 @@ relations:
 - type: associated-with
   target: syr.dw.failures
 ---
-Opened 2026-08-27 for F3-P, served by syr.dw.failures alone, whose one vendored locus reads 'the
-polemic's own harshness' - a body of text, which is why the instrument ruled this NEEDS READING.
+This quote serves F3-P; syr.dw.failures alone grounds that cell, and its one vendored locus reads
+'the polemic's own harshness' - a body of text that needed direct reading rather than citation alone.
 
 Chosen over the harsher lines nearby ('their Will is more hateful than Satan') because the cell asks
 what this world DID with failure, and a sentence in which Ephrem states his method and calls his
 opponents madmen in the same breath shows the thing whole.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): rendering rewritten to the approved sample's level - short sentences, everyday words, translation fidelity kept; original stays as text for Level 3.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. It keeps short sentences, everyday words, and translation fidelity, with the original wording staying as this record's text and shown at Level 3.

@@ -9,11 +9,11 @@ works:
   role: context
   confidence: assigned
   note: 'The major chronicle of the Windesheim Congregation, ed. Grube (1886), previously
-    wholly unrepresented in this world''s vendored corpus. Vendored 2026-09-25 as part of
-    a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
-    this Latin text can be primary evidence directly, verified against the vendored file,
-    since it is primary to the movement regardless of language; the scan is clean, not flagged
-    under Mark''s OCR ruling "a."
+    wholly unrepresented in this world''s vendored corpus. Per the Library''s non-English-primary-evidence
+    rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged as garbled under the Library''s own OCR-quality
+    rule.
 
     '
   source_file: busch_chronicon-windeshemense-lat_grube1886.txt
@@ -24,14 +24,10 @@ works:
   confidence: assigned
   note: 'Gerard Groote''s own surviving letters, Latin original, ed. J. G. R. Acquoy (1857)
     - the movement''s founder in his own voice, not reported through Thomas a Kempis''s later
-    biography. No PD English translation located this pass. Vendored 2026-09-25 as part of
-    a fresh pre-Doc_02 source-acquisition pass for this candidate. Correction (2026-09-25):
-    originally called "PRIMARY content" here on informal grounds only, ahead of any actual
-    ruling backing that label - a defect caught and flagged the same day. Under Mark''s own
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this label now has real
-    backing: a clean public-domain original can be primary evidence when it''s primary to
-    the movement, which this is, regardless of language and independent of whether an English
-    translation exists.
+    biography. No PD English translation located. Per the Library''s non-English-primary-evidence
+    rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is primary content: a clean
+    public-domain original can be primary evidence when it''s primary to the movement, which
+    this is, regardless of language and independent of whether an English translation exists.
 
     '
   source_file: groote_epistolae-xiv-lat_acquoy1857.txt
@@ -41,11 +37,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
-    Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    Herder, 1902-04) beyond the already-vendored Imitation of Christ. Per the Library''s non-English-primary-evidence
+    rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
     directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+    of language; the scan is clean, not flagged as garbled under the Library''s own OCR-quality
+    rule.
 
     '
   source_file: kempis_opera-omnia-sermones-de-compunctione-lat_pohl1902.txt
@@ -56,11 +52,11 @@ works:
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
     Herder, 1905) beyond the already-vendored Imitation of Christ, including his own sermons
-    to novices and his life of Lidwina of Schiedam. Vendored 2026-09-25 as part of a post-Step0-Revision-2
-    PD source-acquisition pass. Under Mark''s 2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md),
-    this Latin text can be primary evidence directly, verified against the vendored file,
-    since it is primary to the movement regardless of language; the scan is clean, not flagged
-    under Mark''s OCR ruling "a."
+    to novices and his life of Lidwina of Schiedam. Per the Library''s non-English-primary-evidence
+    rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
+    directly, verified against the vendored file, since it is primary to the movement regardless
+    of language; the scan is clean, not flagged as garbled under the Library''s own OCR-quality
+    rule.
 
     '
   source_file: kempis_opera-omnia-sermones-ad-novicios-lat_pohl1905.txt
@@ -70,11 +66,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
-    Herder, 1902-04) beyond the already-vendored Imitation of Christ. Vendored 2026-09-25
-    as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s 2026-09-25
-    ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be primary evidence
+    Herder, 1902-04) beyond the already-vendored Imitation of Christ. Per the Library''s non-English-primary-evidence
+    rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text is primary evidence
     directly, verified against the vendored file, since it is primary to the movement regardless
-    of language; the scan is clean, not flagged under Mark''s OCR ruling "a."
+    of language; the scan is clean, not flagged as garbled under the Library''s own OCR-quality
+    rule.
 
     '
   source_file: kempis_opera-omnia-tractatus-lat_pohl1902.txt
@@ -84,12 +80,11 @@ works:
   role: tradition
   confidence: assigned
   note: 'A volume of Kempis''s own minor Latin works (Pohl''s 7-vol. Opera Omnia series, Freiburg:
-    Herder, this scan dated 1918) beyond the already-vendored Imitation of Christ. Vendored
-    2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass. Under Mark''s
-    2026-09-25 ruling (worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin text can be
-    primary evidence directly, verified against the vendored file, since it is primary to
-    the movement regardless of language; the scan is clean, not flagged under Mark''s OCR
-    ruling "a."
+    Herder, this scan dated 1918) beyond the already-vendored Imitation of Christ. Per the
+    Library''s non-English-primary-evidence rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md),
+    this Latin text is primary evidence directly, verified against the vendored file, since
+    it is primary to the movement regardless of language; the scan is clean, not flagged as
+    garbled under the Library''s own OCR-quality rule.
 
     '
   source_file: kempis_opera-omnia-vallis-liliorum-epistulae-lat_pohl1918.txt
@@ -100,8 +95,7 @@ works:
   confidence: assigned
   note: 'Kempis''s own account of the founding and early history of Mount St. Agnes, his own
     monastery near Zwolle - same translator/house (Arthur) as the already-vendored ''Founders
-    of the New Devotion'' (1905). Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD
-    source-acquisition pass.
+    of the New Devotion'' (1905).
 
     '
   source_file: kempis_chronicle-of-mount-st-agnes_arthur1906.txt
@@ -113,8 +107,7 @@ works:
   confidence: assigned
   note: 'Thomas a Kempis''s own biographical account of the movement''s founder (Gerard Groote)
     and his key successor (Florentius Radewin), trans. J. P. Arthur (1905) - the tradition''s
-    own telling of its own origin, not a neutral outside biography. Vendored 2026-09-25 as
-    part of a fresh pre-Doc_02 source-acquisition pass for this candidate.
+    own telling of its own origin, not a neutral outside biography.
 
     '
   source_file: kempis_founders-of-the-new-devotion_arthur1905.txt
@@ -126,8 +119,8 @@ works:
   note: 'Thomas a Kempis''s own devotional classic, trans. William Benham (1886) - the most
     copied Christian book after the Bible, grown out of the movement''s own practice of keeping
     a personal notebook of gathered readings (a rapiarium). This world''s own central text.
-    Vendored 2026-09-25 as part of a fresh pre-Doc_02 source-acquisition pass for this candidate,
-    which had no prior Source Readiness Dossier or corpus-map presence.
+    This candidate had no prior Source Readiness Dossier or corpus-map presence before this
+    file.
 
     '
   source_file: kempis_imitation-of-christ_benham1886.txt
@@ -137,7 +130,6 @@ works:
   role: tradition
   confidence: assigned
   note: 'An additional Kempis devotional work beyond the already-vendored Imitation of Christ.
-    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
 
     '
   source_file: kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt
@@ -148,7 +140,6 @@ works:
   confidence: assigned
   note: 'Zerbolt of Zutphen''s major devotional/method treatise, named by the census as "the
     movement''s method text" but previously wholly unvendored - closes that named gap directly.
-    Vendored 2026-09-25 as part of a post-Step0-Revision-2 PD source-acquisition pass.
 
     '
   source_file: zerbolt_spiritual-ascent_arthur1908.txt

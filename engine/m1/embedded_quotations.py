@@ -1,12 +1,12 @@
-"""OG-10 (worlds/pahc/Open_Gaps_Tracking.md): does a non-quote record's own
+"""OG-10 (Build/worlds/pahc/Open_Gaps_Tracking.md): does a non-quote record's own
 spoken text carry an embedded old-translation quotation - 8 or more words
 inside quotation marks - with no modern-English rendering of that wording?
-The rule that spoken form must be modern English (`reference/method/
+The rule that spoken form must be modern English (`Build/reference/method/
 CiC_Record_Native_World_Build_Process_V1.5.md`) is enforced only via
 `record_type == "quote"` branches in `engine/m1/gates.py`: a `quote`
 record carries its own `modern_rendering` field and is graded on it; every
 other spoken record type (story, gravity, force, term, ...) has no such
-field in its schema at all (`reference/Redesign-Spec/
+field in its schema at all (`Build/reference/Redesign-Spec/
 Artifact-1-Record-Schema.md` SS4), so an archaic quotation folded into one
 of those records' own prose - brackets, editorial interpolations, and all
 - reaches a participant exactly as the vendored 19th-century translation
@@ -15,7 +15,7 @@ wrote it.
 REPORT-ONLY, a registered standing check - the same status `engine.m1.
 sentence_completeness` already carries. This module does not grade or
 fail anything (no entry in `engine.m1.gates.GATES`) and never rewrites a
-record - it only finds and counts. `worlds/pahc/Open_Gaps_Tracking.md`
+record - it only finds and counts. `Build/worlds/pahc/Open_Gaps_Tracking.md`
 OG-10 has this module's own current per-record, per-world counts.
 
 SCOPE: every field `engine.m1.spoken_fields.fields_with_role` declares
@@ -51,7 +51,7 @@ look like a possessive. This is right far more often than not - a
 possessive sitting BETWEEN two separate quotations never becomes a
 candidate close at all, since no open is pending there - but a
 possessive sitting INSIDE a still-open span does end it early, same as
-any other close-shaped mark would. `worlds/pahc/Open_Gaps_Tracking.md`
+any other close-shaped mark would. `Build/worlds/pahc/Open_Gaps_Tracking.md`
 OG-10 has this module's own count of how often that actually happens
 fleet-wide, and records it as a known, accepted limitation rather than a
 second layer of guesswork on top of this rule.

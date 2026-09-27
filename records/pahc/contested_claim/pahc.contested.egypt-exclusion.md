@@ -33,11 +33,7 @@ dependency actually is - Bagnall stays named in the claim's own prose,
 disclosed as this build's unverified dependency. sources[] instead names
 pahc.core.house-church, the record whose caution this one carries
 forward - the same intermediate-record citing convention the rest of the
-fleet already uses (added 2026-08-28, after the live admission run's
-evidence-pressure probe cited this record and M3's source-boundedness
-check found it the only one of the fleet's 40 contested_claim records
-with no grounding chain at all; the fix names this record's real
-internal ground, it does not touch the Bagnall disclosure). This is Step 0/Doc_01's own
+fleet already uses. This is Step 0/Doc_01's own
 settled scoping decision - this record restates and discloses it in
 participant-facing form, and does not propose reopening it. canon_cells
 left empty: no fleet canon question asks participant-facing "why does

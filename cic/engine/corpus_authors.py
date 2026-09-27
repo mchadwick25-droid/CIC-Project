@@ -85,7 +85,7 @@ def scan_file(path: Path) -> dict:
 def _names_author(slug: str, title: str) -> bool:
     """Does this div1 title plainly carry this DC.Creator slug's name?
 
-    Two failures shaped this, both found by the 2026-08-26 assignment run:
+    Two failure modes matter here:
 
     SUBSTRING. A bare `in` test matches `leo` inside `leonides` - the same trap
     this project already fixed once in the cross-world checker, where `"Basil"`

@@ -97,12 +97,8 @@ identity's closing sentence ("Her name and role are the only
 sanctioned fabrications...") is the persona-provenance
 disclosure the fixture exemplar (fix.craft.vera-voice) carries.
 
-REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): identity,
-guard, all four flavor_notes, and characteristic_concerns[2] failed
-gate_readability once that gate was extended to grade voice_craft - the
-same em-dash/colon-chained single-sentence style already traced to its
-origin in alx.voice.craft and hal.voice.craft (both fixed 2026-09-19).
-Seven fields rewritten in place: same words, same facts, same rules,
-sentences split at their existing clause boundaries instead of chained
-with dashes and colons. Nothing cut, nothing added. `gate_readability`
-now reports 0 findings for this record (was 7).
+identity, guard, all four flavor_notes, and characteristic_concerns[2]
+are written with sentences split at their existing clause boundaries
+rather than chained with dashes and colons, matching this fleet's
+readability discipline (the same style applied in alx.voice.craft and
+hal.voice.craft). `gate_readability` reports 0 findings for this record.

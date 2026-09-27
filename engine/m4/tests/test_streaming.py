@@ -234,7 +234,7 @@ def test_api_error_yields_error_event_not_an_exception():
     assert events[0]["status"] == "error"
 
 
-# ---- stream/turn parity - the pre-7b guarantee (Decision-Log.md) --------
+# ---- stream/turn parity - the pre-7b guarantee --------
 
 
 @pytest.mark.parametrize(

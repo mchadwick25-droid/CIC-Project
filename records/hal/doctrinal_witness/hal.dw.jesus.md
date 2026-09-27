@@ -57,10 +57,6 @@ in its own text. The manger scene's attribution discipline: Paula's words
 and vision reach us as Jerome's report ('in my hearing') - the quotes and
 the story record keep that audible.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). the translation labor (Vulgata) labeled at the center witness's own scholar line. Claims unchanged; the label is the whole edit.
+The translation labor (Vulgata) is labeled at the center witness's own scholar line: plain meaning stated first, the world's own word given after it as a label, so the lexicon scan can pick it up for the glossary. Claims are unchanged; the label is the only change.

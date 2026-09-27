@@ -55,35 +55,21 @@ against the vendored Chalcedon acts in that record and its companion
 quote records), carried into spoken form. We-voice throughout; not an
 identity-collision cell.
 
-Corrected at the step-5 review (Opus adversarial pass, 2026-08-22): the
-acclamation was previously enclosed in quotation marks with three
-sentences silently elided, including the anathema - the fuller
-acclamation (ijc.quote.peter-has-spoken) is now quoted with a marked
-ellipsis instead, matching this world's own discipline that a quote is
-either exact or not presented as one. "In the canon's own words"
-falsely flagged a compression as quotation - restated as "its own
-reasoning," with the paraphrase left a paraphrase. Leo's build-coined
-"apostle's grave" line, previously undifferentiated from his own
-verbatim sentence, is now marked as this build's own gloss on what he
-meant, not his wording. One sentence gives Constantinople's own
-positive case, in the contested_claim's own terms
+The acclamation (ijc.quote.peter-has-spoken) is quoted with a marked
+ellipsis, matching this world's own discipline that a quote is
+either exact or not presented as one. Constantinople's reasoning is
+paraphrased as "its own reasoning," left as a paraphrase, not presented
+as quotation. Leo's "apostle's grave" line is marked as this build's own
+gloss on what he meant, not his wording. One sentence gives
+Constantinople's own positive case, in the contested_claim's own terms
 (ijc.contested.canon-28-meaning.claim and .concedes), so the turn does
 not demonstrate only Rome's side of a contest it says is unresolved.
-"At once" is dropped
-from the framing sentence, matching the story record's own correction
+The framing sentence matches the story record's own finding
 that the reception and the canon were separated by three weeks, not
 simultaneous.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). concilium and primatus labeled in the final-authority demo, their exact territory. Claims unchanged; the label is the whole edit.
+concilium and primatus are labeled in the final-authority demo, their exact territory: plain meaning stated first, the world's own word given after it as a label, so the lexicon scan can pick it up for the glossary. Claims are unchanged; the label is the only change.
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling, fleet rollout after his
-pahc read: plain meaning first, the world's own word after it as a
-label, so the lexicon scan can light it into the glossary; register
-bar's own form - "a scholar's term only after its plain meaning, as a
-label"). Tomus labeled at Leo's own letter. Claims unchanged; the label is the whole edit.
+Tomus is labeled at Leo's own letter: plain meaning stated first, the world's own word given after it as a label, so the lexicon scan can pick it up for the glossary. Claims are unchanged; the label is the only change.

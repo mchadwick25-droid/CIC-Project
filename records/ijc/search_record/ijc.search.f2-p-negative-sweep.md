@@ -29,7 +29,6 @@ note: "No ordinary reader's own reflection on the experience of reading scriptur
   encounter. CONSEQUENCE: the honest_limit's claim that this world's writers read scripture as argument,
   not as testimony to what the reading cost them, is confirmed rather than merely asserted."
 ---
-Added at a follow-up confirmation review (2026-08-22) per that
-review's M7 finding - see ijc.search.c-p-negative-sweep for the shared
-root-cause statement (R3-H5's structural fix originally covered only
-the two cells where a false claim had already been caught).
+This cell's negative claim is grounded by a dedicated, cell-scoped
+negative search, matching the discipline described at
+ijc.search.c-p-negative-sweep.

@@ -409,8 +409,7 @@ def _table_engagement_directive(
 
     DESIGN ENHANCEMENT ("the
     quality of the voice doesn't change... a little increase of pressure
-    to shorten... no hard cap or post conversation monitoring"), revised
-    after independent adversarial review found real gaps:
+    to shorten... no hard cap or post conversation monitoring"):
 
     is_second_pass - a voice's FIRST turn in a round (False, points 6-8)
     keeps the engage-and-answer framing, naming agreement as readily as
@@ -725,18 +724,16 @@ def _advance_open_round(
         selector_outcomes = []
     else:
         selector_transcript = "\n\n".join(_attributed_lines(transcript, labels)[-_SELECTOR_TRANSCRIPT_WINDOW:])
-        # Presentation order only (a real observation: "it
-        # always answers in the same order... can we simply randomize the
-        # order with everyone still participating") - a fresh shuffle of this
-        # session's own world_keys, re-rolled on every selector call, never
-        # the canonical state.world_keys itself (worlds, labels, direct
+        # Presentation order only: a fresh shuffle of this session's own
+        # world_keys, re-rolled on every selector call, never the
+        # canonical state.world_keys itself (worlds, labels, direct
         # address, and every other seating-order reader are untouched).
         # LLM list-position primacy is a documented bias; with a genuinely
         # open question the model has no other signal to break the tie on,
-        # so the same seating order every call was quietly deciding who
-        # opens. "Most directly positioned" still wins when a question
-        # really does call for one voice - shuffling only removes the
-        # artifact where nothing else does.
+        # so a fixed seating order would quietly decide who opens.
+        # "Most directly positioned" still wins when a question really
+        # does call for one voice - shuffling only removes the artifact
+        # where nothing else does.
         presentation_order = list(state.world_keys)
         random.shuffle(presentation_order)
         seated_lines = "\n".join(

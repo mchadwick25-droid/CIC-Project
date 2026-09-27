@@ -55,4 +55,4 @@ the tension above states it in-cell). The voted-God-at-a-council question
 answered with this world's reception-era standpoint plus an explicit
 wrong-witness limit rather than an anachronistic eyewitness claim.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, and reviewed constraint holds.

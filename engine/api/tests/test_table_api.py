@@ -197,8 +197,7 @@ def test_create_table_session_rejects_bad_seat_count_directly(store, world_loade
 def test_selector_presentation_order_is_shuffled_not_the_session_seating(
     monkeypatch, store, usage_store, world_loader, registry, alx_world, desert_world, pahc_world
 ):
-    """Voices always answered in the same presentation order; the fix
-    randomizes that order while everyone still participates.
+    """Presentation order is freshly shuffled per selector call.
     The session's own canonical seating (state.world_keys - what worlds,
     labels, and direct-address detection all read) is untouched; only the
     COPY shown to the turn selector each call is freshly shuffled, so a
@@ -720,7 +719,7 @@ def test_usage_records_carry_world_attribution(store, usage_store, world_loader,
     assert {r.world_key for r in by_kind["voice_generation"]} == {"alx"}
 
 
-# --- seat-identity guard (Decision-Log.md Entry 47, 2026-09-22) ---
+# --- seat-identity guard ---
 
 
 def test_seat_identity_guard_regenerates_once_then_ships_the_clean_retry(store, usage_store, world_loader, registry, alx_world, desert_world):
@@ -794,14 +793,13 @@ def test_seat_identity_guard_exhausted_hands_the_turn_to_the_facilitator(store, 
     assert len(projected) == 1 and projected[0].payload["speaker"] == "alx"
 
 
-# --- other-tradition parity with interview (reviewer thread, 2026-09-23) ---
+# --- other-tradition parity with interview ---
 # table_wiring.py never threaded is_other_tradition_first_ask into a
-# selected seat's own directive, so R26/#440/R37/R38 self-revision never
-# fired at the Table even when the gate classified a message
-# other_tradition - a seated voice answering about an absent tradition got
-# only the seat-to-seat clause, never the honest-limit/evidence directive.
-# These pin the fix directly against a real, currently-classified-
-# other_tradition round.
+# selected seat's own directive, so the honest-limit/evidence directive
+# and self-revision never fired at the Table even when the gate
+# classified a message other_tradition - a seated voice answering about
+# an absent tradition got only the seat-to-seat clause. These pin the fix
+# directly against a real, currently-classified-other_tradition round.
 
 
 def _other_tradition_directive_text(client, call_index=0):
@@ -814,8 +812,8 @@ def test_a_table_turn_classified_other_tradition_gets_the_directive(store, usage
     theon = alx_world.frame["representative"]["name"]
     client = _table_client(
         selector_script=[],
-        # Two scripts: alx_sentence carries a tag, so self-revision (R38)
-        # fires on this other_tradition turn too - the draft is call 0
+        # Two scripts: alx_sentence carries a tag, so self-revision fires
+        # on this other_tradition turn too - the draft is call 0
         # regardless, which is all this test checks.
         stream_scripts=[[alx_sentence], ["(revision, no change needed)"]],
         reader=reader_response(out_of_scope={"class": "other_tradition"}),
@@ -861,8 +859,8 @@ def test_a_seat_whose_own_records_mention_the_named_tradition_gets_the_records_b
 
 
 def test_a_seat_whose_own_records_do_not_mention_it_gets_the_fixed_sentence(store, usage_store, world_loader, registry, alx_world, desert_world):
-    # alx's own real records never mention Donatism (Decision-Log.md
-    # Entry 66/#436's own worked example) - the honest-limit branch.
+    # alx's own real records never mention Donatism - the honest-limit
+    # branch.
     alx_sentence, _ = grounded_sentence(alx_world)
     theon = alx_world.frame["representative"]["name"]
     client = _table_client(
@@ -956,7 +954,7 @@ def test_seat_to_seat_engagement_clause_is_unchanged_by_the_other_tradition_dire
     assert "your own records already speak to it" in directive_text
 
 
-# --- round-1 review fixes (reviewer thread, 2026-09-23) ---
+# --- other-tradition directive fixes, second pass ---
 
 
 def test_a_seat_drawn_back_in_the_same_round_does_not_repeat_the_fixed_sentence(
@@ -999,15 +997,13 @@ def test_a_seated_tradition_with_no_evidence_gets_its_own_directive_not_silence(
     # don is the OTHER seat at this table - the fixed sentence would be
     # false (that tradition's own Representative sits right there), and
     # alx's own records never mention Donatism, so there is no evidence
-    # branch either. Round-1 assumed the Table's own seat-to-seat clause
-    # (table_engagement) governed instead and returned None - but this
-    # IS the round's opening turn (the very message naming don), and
-    # table_engagement is never built on an opening turn (only when
-    # other_voice_has_spoken) - so round 1 left the voice completely
-    # ungoverned here. Round-2 review fix: a real seated-tradition
+    # branch either. This is the round's opening turn (the very message
+    # naming don), and table_engagement is never built on an opening turn
+    # (only when other_voice_has_spoken), so the Table's own seat-to-seat
+    # clause does not govern here either. A real seated-tradition
     # directive fires instead, naming don's own card_name and limiting
-    # this seat to what that chair has actually said (R37(b)) - never
-    # the fixed honest-limit sentence, which would be false.
+    # this seat to what that chair has actually said - never the fixed
+    # honest-limit sentence, which would be false.
     alx_sentence, _ = grounded_sentence(alx_world)
     theon = alx_world.frame["representative"]["name"]
     don_card_name = registry["don"]["card_name"]
@@ -1057,18 +1053,18 @@ def test_a_seated_tradition_with_evidence_still_gets_the_records_branch(
     assert "[[ijc.quote.compelled-to-come-in]]" in directive_text
 
 
-# --- R37 (Rulings-Pending.md R37, R37-A, R37-B) ---
-# The pivot's own licence, per seat: condition (a) from THIS seat's own
-# window against the named tradition's; condition (b) from what the
-# Facilitator, the participant, and - R37-B - every other seat actually
-# said. The round's own opening question is never quoted back.
+# --- the pivot's own licence, per seat ---
+# Condition (a) from THIS seat's own window against the named tradition's;
+# condition (b) from what the Facilitator, the participant, and every
+# other seat actually said. The round's own opening question is never
+# quoted back.
 
 
 def test_a_seat_that_could_have_known_the_tradition_is_licensed_under_condition_a(
     store, usage_store, world_loader, registry, alx_world, desert_world
 ):
-    # alx (150-400) on the Donatists (from 311): R37's own worked example,
-    # the pivot licensed under (a).
+    # alx (150-400) on the Donatists (from 311): a worked example of the
+    # pivot licensed under condition (a).
     alx_sentence, _ = grounded_sentence(alx_world)
     theon = alx_world.frame["representative"]["name"]
     client = _table_client(
@@ -1108,8 +1104,9 @@ def test_a_seat_asked_about_a_later_tradition_is_limited_to_the_question(
 def test_what_another_representative_said_reaches_the_next_seat_r37_b(
     store, usage_store, world_loader, registry, alx_world, desert_world
 ):
-    # R37-B: alx names the Donatists in its own turn; desert, drawn in
-    # second, is given that exact sentence, attributed to alx's own label.
+    # Condition (b): alx names the Donatists in its own turn; desert,
+    # drawn in second, is given that exact sentence, attributed to alx's
+    # own label.
     alx_sentence, _ = grounded_sentence(alx_world)
     desert_sentence, _ = grounded_sentence(desert_world)
     theon = alx_world.frame["representative"]["name"]

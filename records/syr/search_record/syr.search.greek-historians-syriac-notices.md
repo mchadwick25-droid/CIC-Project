@@ -25,7 +25,7 @@ found_sources:
 - syr.source.sozomen-historia-ecclesiastica
 - syr.source.socrates-historia-ecclesiastica
 - syr.source.jerome-de-viris
-note: Each locus verified present by direct grep of the vendored files 2026-08-21 (chapter titles and
+note: Each locus is verified present by direct grep of the vendored files (chapter titles and
   passages confirmed).
 ---
 

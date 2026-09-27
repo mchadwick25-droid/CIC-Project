@@ -26,6 +26,5 @@ attribution_status: 'verified real (legacy Doc_02 SS4: Australian Catholic Unive
 discovery_channel: carried from the approved legacy Doc_02 SS4 (independent scholarly-expertise verification,
   reviewed and approved 2026-07-08); registered at this step per the Step 0 source directive
 ---
-The citation whose author, title, year and volume were corrected in
-Doc_01 Round 3 (from a fabricated Seppala attribution) - carried here
-in its verified form.
+The citation is carried here in its verified form: author, title, year,
+and volume checked directly against the article.

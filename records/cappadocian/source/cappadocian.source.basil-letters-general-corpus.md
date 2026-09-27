@@ -28,4 +28,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 5; a specific na
 external_ids:
   cappadocian_source_registry_row: 5
 ---
-Grounds the Trinitarian-confession, doxology, and bishop-as-public-patron gravity candidates and the famine narrative (Registry row 5; Doc_01 SS2; Doc_02 SS8 Tier 1). File vendored since 2026-08-15, not re-verified against specific loci this session; the more targeted citations below (canonical letters, the Eustathius-rupture letters, etc.) carry their own, more specific verification status.
+Grounds the Trinitarian-confession, doxology, and bishop-as-public-patron gravity candidates and the famine narrative (Registry row 5; Doc_01 SS2; Doc_02 SS8 Tier 1). This citation has not been individually re-verified against specific loci; the more targeted citations below (canonical letters, the Eustathius-rupture letters, etc.) carry their own, more specific verification status.

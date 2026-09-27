@@ -34,8 +34,7 @@ works:
     episode at Book 27.3)
   role: context
   confidence: assigned
-  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly
-    by ijc''s own build (ijc.source.ammianus-marcellinus, ijc.quote.ammianus-sicininus-massacre).
+  note: 'Used directly by ijc''s own build (ijc.source.ammianus-marcellinus, ijc.quote.ammianus-sicininus-massacre).
     Verified directly against the file: "It is certain that on one day one hundred and thirty-seven
     dead bodies were found in the Basilica of Sicininus, which is a Christian church" (lines
     23186-23187), matching the quote record''s own verbatim text exactly. This is a pagan
@@ -580,23 +579,22 @@ works:
     line 3006 onward)
   role: context
   confidence: assigned
-  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly
-    by ijc''s own build (ijc.source.paulinus-vita-ambrosii, ijc.story.bees-of-milan). Verified
-    directly against the file: "CHAPTER II. Birth, Youth, and Early Public Career of Saint
-    Ambrose" (line 3006) carries "suddenly a swarm of bees came and covered his face and lips
-    in such a way that they kept entering and coming forth from his mouth alternately" (lines
-    3013-3015), matching the source record''s own claim that the bee-swarm infancy legend
-    is present and confirmed. Nothing from this file is quoted verbatim in ijc''s own build
-    by design (hagiographic legend, narrated rather than quoted, per that world''s own Tier
-    3 discipline for attributed tradition) - the story record tells the episode in its own
-    words rather than citing the translation directly. `role: context`, not `tradition`: written
-    by Ambrose''s own former secretary at Augustine''s request some fifteen to twenty years
-    after Ambrose''s death - a genuine insider''s hagiography, openly written to edify, with
-    legendary material not marked off from documented biography inside the text itself. ijc''s
-    own record holds everything drawn from it to Tier 3 (attributed tradition) at most. No
-    other Atlas entry in the current census plausibly draws on this specific work; not checked
-    exhaustively against the full census beyond ijc, which is the only world this file is
-    used by anywhere in the corpus as of this pass.
+  note: 'Used directly by ijc''s own build (ijc.source.paulinus-vita-ambrosii, ijc.story.bees-of-milan).
+    Verified directly against the file: "CHAPTER II. Birth, Youth, and Early Public Career
+    of Saint Ambrose" (line 3006) carries "suddenly a swarm of bees came and covered his face
+    and lips in such a way that they kept entering and coming forth from his mouth alternately"
+    (lines 3013-3015), matching the source record''s own claim that the bee-swarm infancy
+    legend is present and confirmed. Nothing from this file is quoted verbatim in ijc''s own
+    build by design (hagiographic legend, narrated rather than quoted, per that world''s own
+    Tier 3 discipline for attributed tradition) - the story record tells the episode in its
+    own words rather than citing the translation directly. `role: context`, not `tradition`:
+    written by Ambrose''s own former secretary at Augustine''s request some fifteen to twenty
+    years after Ambrose''s death - a genuine insider''s hagiography, openly written to edify,
+    with legendary material not marked off from documented biography inside the text itself.
+    ijc''s own record holds everything drawn from it to Tier 3 (attributed tradition) at most.
+    No other Atlas entry in the current census plausibly draws on this specific work; not
+    checked exhaustively against the full census beyond ijc, which is the only world this
+    file is used by anywhere in the corpus as of this pass.
 
     '
   source_file: paulinus-milan_vita-ambrosii_kaniecka1928.txt

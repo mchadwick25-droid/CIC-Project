@@ -25,7 +25,7 @@ attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as a vendorable witness for Pachomian rule content at one remove; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf202"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
+Rights verified from the file's own DC.Rights header (Public
 Domain). III.14 division verified at line 31645 ("Of the Holy Men who
 flourished about this time in Egypt... Pachomius..."), rule summary from
 line 31705.
@@ -36,7 +36,7 @@ Palladius ch. XXXII are the two content-bearing vendored witnesses to
 the Rule, both at one remove, both carrying the angel-tablet hagiographic
 frame; Gennadius's notice (npnf203 line 42250) is a third, thinner
 vendored witness - existence and the angelic-dictation frame only, not
-content (count harmonized per Step2 Review Round 1, Finding 13).
+content.
 Any record resting Rule-content claims on them says "as reported by",
 never "as the Rule reads". Dependence screen: where Sozomen tracks
 Socrates, he is not a second witness - corroborating weight only.

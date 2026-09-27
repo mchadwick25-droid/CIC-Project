@@ -105,8 +105,8 @@ def _load_world(
     entry = registry.get(world_key)
     if entry is None:
         raise UnknownWorldError(world_key)
-    # package_location_override (2026-09-04): an in-flight session's own
-    # pinned directory, when it has one (see entrance.py's open_session
+    # package_location_override: an in-flight session's own pinned
+    # directory, when it has one (see entrance.py's open_session
     # docstring) - never the registry's CURRENT pointer for that call, since
     # a repin between this session's open and this turn would otherwise
     # resolve a directory this session never verified against. Old packages
@@ -116,8 +116,8 @@ def _load_world(
     # and for sessions opened before this field existed.
     location = package_location_override or entry["package"]["location"]
     package_dir = REPO_ROOT / location
-    # WO-1 (2026-09-16): package_cache_dir is None for every caller that
-    # doesn't pass one (every test app, and a real deploy with no bucket
+    # package_cache_dir is None for every caller that doesn't pass one
+    # (every test app, and a real deploy with no bucket
     # configured) - ensure_package_local is a no-op in that case, package_dir
     # is used exactly as it always was. Only a real deploy with object
     # storage configured ever takes the fetch path, and only for a world
@@ -172,8 +172,8 @@ def create_session(
     # seal), not of everything create_session appends after it.
     representative = world.frame["representative"]
     # card_name over display_name: see door_turn's own docstring
-    # (Built-World Voice Alignment, Mark's ruling 2026-09-17). Falls back to
-    # display_name only for an entry with no card_name (the fix fixture).
+    # (Built-World Voice Alignment). Falls back to display_name only for
+    # an entry with no card_name (the fix fixture).
     world_name = registry[world_key].get("card_name") or world.frame["display_name"]
     door_event = facilitator_turns.door_turn(
         representative_name=representative["name"],
@@ -255,13 +255,9 @@ def get_transcript(store: Store, session_id: str) -> SessionState:
 @dataclass(frozen=True)
 class PilotSummary:
     """Aggregate, participant-content-free counts over the whole session
-    log (2026-09-05: "how many pilot id/transcripts have been generated"
-    had no answer from outside the service itself - no admin surface
-    existed at all, only per-session lookups gated by that session's own
-    auth code). Never carries transcript text, citation content, or a
-    session_id list - just enough to answer "how many" and "is the table
-    round cap firing where it should," the two questions that prompted
-    this."""
+    log. Never carries transcript text, citation content, or a session_id
+    list - just enough to answer "how many" and "is the table round cap
+    firing where it should," the two questions that prompted this."""
 
     total_sessions: int
     by_mode: dict[str, int]
@@ -377,12 +373,12 @@ def replay_transcript(state: SessionState, anachronistic_term_ids: set) -> list[
     entry whose round routed bridge_turn has its text replaced by the
     underlying subject the voice actually received.
 
-    SS77's "the voice never sees the participant's modern word" was honored
-    on the bridge turn itself and then leaked one turn later: history was
-    built from the transcript's raw participant text, so from the next turn
-    on, the voice read the barred word in its own replayed history (found
-    2026-08-28 while building the Table; fixed for both modes at once - the
-    table's builders consume this same function).
+    SS77's "the voice never sees the participant's modern word" is honored
+    on the bridge turn itself; without this replay it would leak one turn
+    later, since history is built from the transcript's raw participant
+    text, so from the next turn on the voice would read the barred word in
+    its own replayed history. Fixed for both modes at once - the table's
+    builders consume this same function.
 
     The route per participant message comes from the logged gate_decision
     (each participant_message's gate is the next gate_decision after it in
@@ -481,8 +477,8 @@ def handle_message(
 
     # The world pinned at session creation, not the registry's current value -
     # a mid-session recompile can't silently swap what serves an in-flight
-    # session. Both the hash AND the directory are pinned (package_location,
-    # 2026-09-04): a repin changes both in the registry, and resolving only
+    # session. Both the hash AND the directory are pinned (package_location):
+    # a repin changes both in the registry, and resolving only
     # the hash pin against today's (post-repin) directory reliably refuses,
     # since the two no longer describe the same package - see entrance.py's
     # open_session docstring. A hash mismatch (still possible: a session
@@ -499,12 +495,12 @@ def handle_message(
     )
 
     msg_uuid = client_msg_id or str(uuid.uuid4())
-    # Idempotency, ENFORCED (2026-08-28 foundation audit: client_msg_id was
-    # recorded in the payload but the dedupe key - event_uuid - was minted
-    # fresh every call, so a retried message ran a second full turn and
-    # doubled the spend). With a client_msg_id the event_uuid is derived
-    # deterministically, so the same logical message can only ever be one
-    # event - and a replay is refused BEFORE any model call runs.
+    # Idempotency, ENFORCED: client_msg_id is recorded in the payload, and
+    # the dedupe key - event_uuid - is derived from it deterministically
+    # rather than minted fresh every call, so the same logical message can
+    # only ever be one event, a retried message cannot run a second full
+    # turn and double the spend, and a replay is refused BEFORE any model
+    # call runs.
     participant_event_uuid = (
         str(uuid.uuid5(uuid.NAMESPACE_URL, f"cic:{session_id}:{msg_uuid}")) if client_msg_id else str(uuid.uuid4())
     )
@@ -547,30 +543,28 @@ def handle_message(
 
     turn_no = state.turn_count + 1
 
-    # R39's own reviewer-ordered fix (2026-09-23): unconditional, never
-    # gated behind r27_enforce - this corrects an existing false statement
-    # (_other_tradition_directive's own fixed honest-limit sentence, said
-    # even when this world's own records already name the tradition
-    # asked about) rather than adding new enforcement. match_named_
-    # tradition works from the raw participant text, independent of
-    # whatever the reader ends up classifying - harmless to compute even
-    # on a turn the reader does not route other_tradition, since
-    # _build_turn_directive only ever reads it when is_other_tradition_
-    # first_ask is also true.
+    # Unconditional, never gated behind r27_enforce: this keeps
+    # _other_tradition_directive's fixed honest-limit sentence from being
+    # said when this world's own records already name the tradition
+    # asked about. match_named_tradition works from the raw participant
+    # text, independent of whatever the reader ends up classifying -
+    # harmless to compute even on a turn the reader does not route
+    # other_tradition, since _build_turn_directive only ever reads it
+    # when is_other_tradition_first_ask is also true.
     named_tradition_key = match_named_tradition(text, registry, exclude_world_key=state.world_key)
     other_tradition_evidence_ids = (
         world_records_mention_tradition(ev.repository_records_by_id(world.repository), registry[named_tradition_key])
         if named_tradition_key else None
     )
-    # R37 (Rulings-Pending.md R37, R37-A, R37-B): the pivot's own licence
-    # for the same named tradition - condition (a) from the registry's own
-    # time_windows, condition (b) from what this conversation actually
-    # said, read from the same replayed transcript the voice's own history
-    # is (what the voice was actually told). state was projected before
-    # this turn's own participant_message was appended, so the question
-    # itself is not counted as a revelation. No other Representative
-    # speaks in an interview, so R37-B's third source is empty here by
-    # construction.
+    # The pivot's own licence for the same named tradition has two
+    # conditions: (a) from the registry's own time_windows, (b) from what
+    # this conversation actually said, read from the same replayed
+    # transcript the voice's own history is (what the voice was actually
+    # told). state was projected before this turn's own participant_message
+    # was appended, so the question itself is not counted as a revelation.
+    # No other Representative speaks in an interview, so the third
+    # source - another Representative naming the tradition - is empty here
+    # by construction.
     other_tradition_known_in_window = (
         tradition_known_in_window(registry[state.world_key], registry[named_tradition_key])
         if named_tradition_key else None
@@ -605,12 +599,11 @@ def handle_message(
             self_revision_enabled=self_revision_enabled,
         )
     except UnhandledRoutingAction:
-        # Deleted 2026-08-24, not weakened: this used to catch the raise and
-        # hand the participant a note about a test build, because four of
-        # the seven routing actions genuinely had no content. All seven have
-        # content now, so the state that text described cannot occur, and a
-        # graceful degradation path for an impossible state is just a
-        # permanently-false field in the public response schema.
+        # Not caught and softened into a note about a test build: all seven
+        # routing actions have real content now, so the state such a note
+        # would describe cannot occur, and a graceful degradation path for
+        # an impossible state would just be a permanently-false field in
+        # the public response schema.
         #
         # The raise in engine.m4.turn stays as the guard for an EIGHTH
         # routing action someone adds without a branch. Re-raised here so it
@@ -626,25 +619,23 @@ def handle_message(
         # as evidence of what was sent and they may resend.
         raise ProviderCallFailed(str(exc)) from exc
 
-    # What the gate actually said, written whole. This was a hand-built
-    # blank until 2026-08-24 - every key but route and degraded hardcoded
-    # empty, on every gate_decision this build ever logged, so a successful
-    # gate and a failed one were indistinguishable in the record and the
-    # M7 audit had nothing to audit. engine.m4.turn assembles it now, where
-    # the two gate outcomes are; this writes it verbatim rather than
-    # rebuilding a second version that could drift from the first.
+    # What the gate actually said, written whole - engine.m4.turn assembles
+    # it, where the two gate outcomes are; this writes it verbatim rather
+    # than rebuilding a second version that could drift from the first.
+    # Any key silently hardcoded blank would make a successful gate and a
+    # failed one indistinguishable in the record, leaving the M7 audit
+    # nothing to audit.
     gate_payload = result.gate
     events.validate("gate_decision", gate_payload)
     store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="gate_decision", payload=gate_payload)
 
     # THE PRESSED FLAG'S ONLY WRITER. engine.m5.routing rule 5 gives a
     # pressable out_of_scope class its in-world answer on the first ask and
-    # the etic turn on the second - but "second" is read from
-    # SessionState.pressed, which folds from escalation_pressed, which was
-    # declared in engine.m4.events, folded in engine.m4.projection, and
-    # appended by nothing anywhere. `pressed` was therefore permanently {},
-    # every ask was a first ask, and etic_turn was unreachable by any real
-    # session (proven live, pahc, 2026-08-24). This is the missing append.
+    # the etic turn on the second - "second" is read from
+    # SessionState.pressed, which folds from escalation_pressed
+    # (engine.m4.events, folded in engine.m4.projection). Without this
+    # append, `pressed` stays permanently {}, every ask reads as a first
+    # ask, and etic_turn is unreachable by any real session.
     #
     # It fires on the in-world answer, not on the etic turn: what the flag
     # records is that this class has now HAD its first answer, so the next
@@ -692,12 +683,11 @@ def handle_message(
         store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="voice_turn", payload=result.voice_event)
         voice_payload = result.voice_event
 
-        # R27 (Decision-Log.md Entry 51, 2026-09-22), report-only: same
-        # out_of_scope_class already read above for the pressed-flag append,
-        # not re-derived - a voice_with_directive turn routed via
-        # other_tradition is the "own doctrine in another tradition's turn"
-        # shape build_uncited_claims_event's own classify_other_tradition_turn
-        # is built to catch.
+        # Report-only: same out_of_scope_class already read above for the
+        # pressed-flag append, not re-derived - a voice_with_directive turn
+        # routed via other_tradition is the "own doctrine in another
+        # tradition's turn" shape build_uncited_claims_event's own
+        # classify_other_tradition_turn is built to catch.
         uncited_event = build_uncited_claims_event(
             result.voice_event,
             registry=registry,
@@ -707,16 +697,15 @@ def handle_message(
             events.validate("uncited_claims", uncited_event)
             store.append(session_id=session_id, event_uuid=str(uuid.uuid4()), event_type="uncited_claims", payload=uncited_event)
 
-        # R27 build item 5 (Decision-Log.md Entry 56/Rulings-Pending.md
-        # R36, 2026-09-23): the interview-mode analog of
-        # engine.api.table_wiring's own seat_identity_guard_exhausted
-        # handling below - the voice_turn just persisted above already
-        # carries empty text (engine.m4.turn sets it that way), so the
-        # Facilitator's own turn is what a participant actually reads.
-        # "Last one wins" (this function's own established convention
-        # for facilitator_payload) is correct here too: an r27-exhausted
-        # turn is a real generation failure for this turn, which
-        # supersedes any other facilitator_event the same turn produced.
+        # The interview-mode analog of engine.api.table_wiring's own
+        # seat_identity_guard_exhausted handling below - the voice_turn
+        # just persisted above already carries empty text (engine.m4.turn
+        # sets it that way), so the Facilitator's own turn is what a
+        # participant actually reads. "Last one wins" (this function's own
+        # established convention for facilitator_payload) is correct here
+        # too: an r27-exhausted turn is a real generation failure for this
+        # turn, which supersedes any other facilitator_event the same turn
+        # produced.
         if result.voice_event.get("r27_enforcement_exhausted"):
             fallback_event = facilitator_turns.voice_rejected_turn(world.frame["representative"]["name"])
             events.validate("facilitator_turn", fallback_event)

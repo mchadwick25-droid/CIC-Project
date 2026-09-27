@@ -465,24 +465,24 @@ works:
     CXXVIII (Gregory of Nyssa, id v.iii.cxxx), and CXXXV (Amphilochius, id v.iii.cxxxvi)
   role: context
   confidence: assigned
-  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored), whose own
-    verification_state was `named-not-rechecked` - "file present since 2026-08-15, not re-verified
-    this session against the specific entries Doc_02 cites." That review is done here. The
-    record''s own framing ("the earliest external catalogue of what circulated under Basil,
-    both Gregorys, and Amphilochius'' names") is confirmed directly: all four named figures
-    have their own DVI chapters, independently located and read - ch. CXVI on "Basil... bishop
-    of Caesarea in Cappadocia, the city formerly called Mazaca"; ch. CXVII on "Gregory...
-    bishop of Nazianzen, a most eloquent man, and my instructor in the Scriptures" (Jerome''s
-    own personal testimony, not secondhand); ch. CXXVIII on "Gregory... bishop of Nyssa, the
-    brother of Basil of Caesarea"; ch. CXXXV on "Amphilochius... bishop of Iconium". The record''s
-    own carried-forward correction was also independently checked and confirmed accurate:
-    DVI''s separate ch. LXXXV ("Eustathius the bishop") is genuinely about Eustathius of Antioch,
-    not Eustathius of Sebaste - the chapter''s own translator''s note flags exactly this confusion
-    risk directly in the text, so citing ch. LXXXV for this world''s own Eustathius (of Sebaste)
-    would be a real misattribution; not assigned here for that reason. `role: context`: an
-    external, near-contemporary literary catalogue entry about these figures, not their own
-    voice, though ch. CXVII''s "my instructor" line is itself a first-person datum about Jerome''s
-    relationship to Gregory Nazianzen worth keeping visible at review.
+  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored, verification_state:
+    named-not-rechecked): this file had not yet been re-verified against the specific entries
+    Doc_02 cites. That review is done here. The record''s own framing ("the earliest external
+    catalogue of what circulated under Basil, both Gregorys, and Amphilochius'' names") is
+    confirmed directly: all four named figures have their own DVI chapters, independently
+    located and read - ch. CXVI on "Basil... bishop of Caesarea in Cappadocia, the city formerly
+    called Mazaca"; ch. CXVII on "Gregory... bishop of Nazianzen, a most eloquent man, and
+    my instructor in the Scriptures" (Jerome''s own personal testimony, not secondhand); ch.
+    CXXVIII on "Gregory... bishop of Nyssa, the brother of Basil of Caesarea"; ch. CXXXV on
+    "Amphilochius... bishop of Iconium". The record''s own carried-forward correction was
+    also independently checked and confirmed accurate: DVI''s separate ch. LXXXV ("Eustathius
+    the bishop") is genuinely about Eustathius of Antioch, not Eustathius of Sebaste - the
+    chapter''s own translator''s note flags exactly this confusion risk directly in the text,
+    so citing ch. LXXXV for this world''s own Eustathius (of Sebaste) would be a real misattribution;
+    not assigned here for that reason. `role: context`: an external, near-contemporary literary
+    catalogue entry about these figures, not their own voice, though ch. CXVII''s "my instructor"
+    line is itself a first-person datum about Jerome''s relationship to Gregory Nazianzen
+    worth keeping visible at review.
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
@@ -556,23 +556,23 @@ works:
   locus: div1 2, Book II, Chapter XLI (id ii.v.xli) - the Synod of Constantinople, 360 CE
   role: context
   confidence: assigned
-  note: 'Found by cappadocian.source.church-historians-socrates-sozomen-theodoret (kind: vendored),
-    whose own verification_state was `named-not-rechecked` - "files present since 2026-08-15,
-    not re-verified against the specific loci Doc_02 cites this session." That review is done
-    here. The record cites "Constantinople 360 (via Socrates HE 2.41, SS2)" for "the Homoian-establishment
-    reconstruction" - read directly at that exact chapter: it opens on the Acacian party''s
-    Synod at Constantinople after Ariminum, and transcribes the creed itself in full, including
-    its explicit rejection of "ousia" and "hypostasis" language ("we affirm that the Son is
-    like the Father, in such a manner as the sacred Scriptures declare and teach... Let therefore
-    all heresies... be anathema") - the historical Homoian confession of 360 the record''s
-    own framing points to, genuinely present and substantive, not a bare mention. `role: context`:
-    an outside Constantinopolitan lay historian''s narrative, never this world''s own voice,
-    matching the source record''s own explicit framing verbatim ("secondary narrative sources,
-    never this world''s own voice"). The record''s other named claim ("the Julian-persecution
-    episode") is also genuinely present in this volume (Socrates Book II, chs. 11-12, and
-    Sozomen Book III, chs. 3, 5, 17, all on Julian''s measures against Christians) but was
-    not checked against a specific quoted claim, so it is noted rather than separately asserted
-    as verified content.
+  note: 'Found by cappadocian.source.church-historians-socrates-sozomen-theodoret (kind: vendored,
+    verification_state: named-not-rechecked): this file had not yet been re-verified against
+    the specific loci Doc_02 cites. That review is done here. The record cites "Constantinople
+    360 (via Socrates HE 2.41, SS2)" for "the Homoian-establishment reconstruction" - read
+    directly at that exact chapter: it opens on the Acacian party''s Synod at Constantinople
+    after Ariminum, and transcribes the creed itself in full, including its explicit rejection
+    of "ousia" and "hypostasis" language ("we affirm that the Son is like the Father, in such
+    a manner as the sacred Scriptures declare and teach... Let therefore all heresies... be
+    anathema") - the historical Homoian confession of 360 the record''s own framing points
+    to, genuinely present and substantive, not a bare mention. `role: context`: an outside
+    Constantinopolitan lay historian''s narrative, never this world''s own voice, matching
+    the source record''s own explicit framing verbatim ("secondary narrative sources, never
+    this world''s own voice"). The record''s other named claim ("the Julian-persecution episode")
+    is also genuinely present in this volume (Socrates Book II, chs. 11-12, and Sozomen Book
+    III, chs. 3, 5, 17, all on Julian''s measures against Christians) but was not checked
+    against a specific quoted claim, so it is noted rather than separately asserted as verified
+    content.
 
     '
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml

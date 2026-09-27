@@ -116,18 +116,16 @@ ALLOWED_DIFFERENCE_CLASSES: dict[str, str] = {
 # remain: four closed, evidenced forms fold
 # into the new `apparatus` class above -
 # soft hyphen, tilde-digit, pipe-page, bracket-locator - each confirmed
-# against the real vendored file before being added, never guessed. Left
-# UNRESOLVED and explicitly NOT covered by `apparatus` above: a bare,
-# unwrapped footnote digit or symbol with no marker character of its own
-# (` 1 is more useful`, `Paula,276 mother`, `church.1\nAnd`, ` 163 and
-# found`, ` ® But for prayer`) - stripping a bare digit globally risks
-# silently swallowing a real number that's part of what a quote actually
-# says elsewhere in the same file, and no safe, narrow rule for telling
-# the two apart was found. Flagged for a ruling, same as every other
-# candidate class this module has surfaced - not silently added and not
-# silently ignored. See the fleet report for the six records this still
-# blocks (five apparatus-only, one - `cappadocian.quote.basil-on-work-
-# and-prayer` - already nested-mark-fixed by #413 but blocked here too).
+# against the real vendored file before being added, never guessed. Not
+# covered by `apparatus` above: a bare, unwrapped footnote digit or
+# symbol with no marker character of its own (` 1 is more useful`,
+# `Paula,276 mother`, `church.1\nAnd`, ` 163 and found`, ` ® But for
+# prayer`) - stripping a bare digit globally risks silently swallowing a
+# real number that's part of what a quote actually says elsewhere in the
+# same file, and no safe, narrow rule for telling the two apart has been
+# found yet. See the fleet report for the six records this still blocks
+# (five apparatus-only, one - `cappadocian.quote.basil-on-work-and-
+# prayer` - already nested-mark-fixed by #413 but blocked here too).
 
 # The rule: fleet-wide principles, since a hundred worlds cannot each be
 # told individually what to say for every quote - never a per-record

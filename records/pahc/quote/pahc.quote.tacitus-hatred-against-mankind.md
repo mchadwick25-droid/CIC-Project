@@ -71,7 +71,7 @@ relations:
 - type: illustrates
   target: pahc.gravity.state-pressure
 ---
-Verified verbatim 2026-08-27 against the vendored file.
+Text is verified verbatim against the vendored file.
 
 This world had carried Tacitus since the prior build as a
 paraphrase-only row, because no public-domain English was in the corpus.

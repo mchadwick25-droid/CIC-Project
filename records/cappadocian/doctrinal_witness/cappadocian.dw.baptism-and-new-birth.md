@@ -57,4 +57,4 @@ delayed), honestly declining the tithe and end-times variants this
 world's own registered material does not develop rather than padding the
 answer with invented content.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-against-delaying-baptism, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-against-delaying-baptism.

@@ -1,7 +1,7 @@
 """Compiles a world_front record + its referenced records into the
 resolved per-world JSON the participant-facing website reads
 (cic-website/data/worlds/<census_id>.json) - the compiler stage of the
-Website V2 world_front design (approved to proceed 2026-09-19).
+Website V2 world_front design (approved to proceed).
 
 Deliberately its own module, not folded into engine/m2/compiler.py's own
 compile_world(): that function's whole job is producing what reaches the
@@ -172,8 +172,8 @@ _CITE_TEXT_FIELD_BY_TYPE = {
 
 def _resolve_citation(cite_id: str | None, records: dict) -> dict | None:
     """A `narrative.questions[].cite` entry, type-aware. Returns None -
-    dropped from the compiled list, same as an unresolved id - for a
-    record type this citation shape doesn't cover, rather than emit an
+    dropped from the compiled list, same as an id that fails to resolve -
+    for a record type this citation shape doesn't cover, rather than emit an
     entry with a null `text` a template would render as empty."""
     rec = records.get(cite_id) if cite_id else None
     if not rec:

@@ -41,11 +41,10 @@ relations:
 - type: associated-with
   target: pahc.witness.reading-scripture
 ---
-Opened 2026-08-27. pahc.witness.reading-scripture has cited this exact locus since it was
-written and could not show it: F2-I was served by that witness alone, with no quote and no story,
-which the Program Spec's own coverage rule forbids ("a cell is covered when the records serving it
-include, wherever the sources hold them, the stories that carry the answer and the licensed quotes
-that voice it - never only propositional records").
+pahc.witness.reading-scripture cites this exact locus. This quote fills F2-I with a licensed
+quote alongside that witness, per the Program Spec's own coverage rule ("a cell is covered
+when the records serving it include, wherever the sources hold them, the stories that carry
+the answer and the licensed quotes that voice it - never only propositional records").
 
 This is also the single most-cited sentence in the study of early Christian worship, and this world
 had it in a vendored file and could not speak it.

@@ -44,8 +44,7 @@ about: the most systematic interior psychology this world produced rests on one 
 participant's own writing, and a participant who takes this as what the desert believed has taken
 Evagrius for the movement.
 
-Quote-verbatim gate fix (2026-09-22): these are two separate, sequentially numbered chapters (2 and
-3) of the Praktikos, joined with no mark at all in the `text` field - added an ellipsis at the chapter
-boundary. The record's own gloss already treats them as Evagrius's own paired-but-distinct chapters,
-not a single continuous sentence, so this brings the text field in line with what the record already
-claims about its own structure.
+These are two separate, sequentially numbered chapters (2 and 3) of the Praktikos; the `text` field
+marks the chapter boundary with an ellipsis rather than joining them with no mark at all. The
+record's own gloss already treats them as Evagrius's own paired-but-distinct chapters, not a single
+continuous sentence, matching what the text field's punctuation now shows.

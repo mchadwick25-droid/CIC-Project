@@ -103,13 +103,9 @@ def test_fixture_world_battery_still_passes_after_the_fix():
 
 
 class _VoiceCraftCitingAnswerer:
-    """Every probe answered by citing the world's voice_craft record. Until
-    2026-08-28 this shape was EXEMPT (the compiled prompt taught the model
-    to cite that id); the compiler fix removed the teaching, the
-    fleet-parity battery measured zero such citations in 168 live probes,
-    and the exemption was deleted - so this citation must now FAIL
-    admission: if it ever reappears, the gate surfaces it rather than
-    excusing it."""
+    """Every probe answered by citing the world's voice_craft record. This
+    citation must FAIL admission: if it ever appears, the gate surfaces it
+    rather than excusing it."""
 
     def answer(self, cell, probe_text):
         return AnswerResult(text="A plain answer in the voice's own framing.", citations=["w.voice.craft"],
@@ -127,9 +123,8 @@ def test_a_voice_craft_citation_now_fails_admission():
 
 class _AlwaysSearchRecordAnswerer:
     """Every probe answered by citing a sourceless, result-not-found search
-    record - the shape hal's live admission run actually produced on its
-    evidence-pressure probe (f5-e, 2026-08-28): an honest no-evidence
-    answer grounded in the record of the search that established it."""
+    record - an honest no-evidence answer grounded in the record of the
+    search that established it."""
 
     def answer(self, cell, probe_text):
         return AnswerResult(text="Nothing of that survives; the search was made and found nothing.",

@@ -66,26 +66,19 @@ retrieval:
 relations:
 - {type: illustrates, target: pahc.gravity.boundary-drawing}
 ---
-Discovered 2026-09-09 in a supplemental source review: this fragment sits
-inside pahc.source.second-third-century-remains, a source record already
-compiled for this world (registered for its Polycrates/translocal-network
-material) but never checked for content relevant to boundary-drawing (G05).
-Text verified directly against cic/texts/anf08_twelve-patriarchs-clementina-
-apocrypha-edessa-syriac.xml at lines 71176-71206 (the full fragment, title
-through closing sentence), no elisions. ROUND-2 CORRECTION (2026-09-09,
-self-verified against an independent adversarial review): the locus
-originally cited only the fragment's opening (through line 71195, mid-
-sentence) and one internal punctuation mark was silently changed - the
-vendored text's own colon after "two natures" (line 71198) had been typed
-here as a dash. Both fixed; re-diffed character-by-character against the
-vendored file to confirm no other divergence. THE CAVEAT THAT MATTERS MOST
-still stands: this fragment's own transmission note (anf08's endnote 3635)
-names its source as Anastasius of Sinai, not Eusebius - nearly four
-centuries later than the Eusebian chain behind this same source record's
-Polycrates material, and roughly five centuries after Melito's own death.
-This world's own standing discipline (Ignatius's three-way dating dispute,
-the anti-Montanist "Asterius Urbanus" pseudonym rejected) is to name a
-weak attribution chain rather than let a vivid quotation's rhetorical
-force stand in for it. This record does that: used at pahc.gravity.
-boundary-drawing as a named, flagged candidate for a second anti-docetic
-voice, not as secured Repetition-test corroboration.
+This fragment sits inside pahc.source.second-third-century-remains, a
+source record already compiled for this world for its Polycrates/
+translocal-network material, and it also bears on boundary-drawing (G05).
+Text is verified directly against cic/texts/anf08_twelve-patriarchs-
+clementina-apocrypha-edessa-syriac.xml at lines 71176-71206: the full
+fragment, title through closing sentence, no elisions. The caveat that
+matters most: this fragment's own transmission note (anf08's endnote
+3635) names its source as Anastasius of Sinai, not Eusebius - nearly
+four centuries later than the Eusebian chain behind this same source
+record's Polycrates material, and roughly five centuries after Melito's
+own death. This world's own standing discipline (Ignatius's three-way
+dating dispute, the anti-Montanist "Asterius Urbanus" pseudonym rejected)
+is to name a weak attribution chain rather than let a vivid quotation's
+rhetorical force stand in for it. This record does that: used at
+pahc.gravity.boundary-drawing as a named, flagged candidate for a second
+anti-docetic voice, not as secured Repetition-test corroboration.

@@ -41,7 +41,6 @@ senses:
 quick_meaning: 'Mar means ''my lord'': the Syriac title of honor for bishops, saints, and revered teachers.'
 distortion_risk: medium
 ---
-Re-derived from syrlex008 (Tier 3, trimmed to Tier 3 structure in the
-legacy Round 1 fix). No relations by design (general honorific, not
-structurally tied to another entry - the legacy open item notes a
-future link may be added if a genuine structural connection surfaces).
+A Tier 3 entry. No relations by design: a general honorific, not
+structurally tied to another entry - a future link may be added if a
+genuine structural connection surfaces.

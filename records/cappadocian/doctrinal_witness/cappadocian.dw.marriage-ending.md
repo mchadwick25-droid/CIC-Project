@@ -77,16 +77,12 @@ smoothed. The "hell for outsiders" variant this cell also carries is
 honestly left unanswered here rather than forced onto unrelated
 material.
 
-CORRECTED (cold adversarial review, 2026-08-31): this record's own
-"identical standard" claim (Moral Rule LXXIII and its rule 2, both
+The "identical standard" claim (Moral Rule LXXIII and its rule 2) is
 directly checked against the vendored
-basil_ascetic-works-longer-shorter-rules_clarke1925.txt) was originally
-asserted with no citation to back it, and this trailer's own prior
-wording ("that same letter's own earlier Moral Rules") wrongly placed
-the Moralia inside Epistle 188 itself - two separate works within
-Basil's ascetic corpus, not one document with an earlier and later
-section. sources[] now cites cappadocian.source.basil-asketikon-longer-shorter-rules
-directly, and this note states the two-work relationship plainly rather
-than repeating the error.
+basil_ascetic-works-longer-shorter-rules_clarke1925.txt. The Moral Rules
+and Epistle 188 are two separate works within Basil's ascetic corpus,
+not one document with an earlier and later section; sources[] cites
+cappadocian.source.basil-asketikon-longer-shorter-rules directly for the
+Moral Rules.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-canon-on-digamy, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-canon-on-digamy.

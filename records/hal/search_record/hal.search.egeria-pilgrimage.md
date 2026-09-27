@@ -19,4 +19,4 @@ result: not_found
 found_sources: []
 note: "Not in the vendored corpus. Public-domain English exists (M.L. McClure & C.L. Feltoe, The Pilgrimage of Etheria, SPCK 1919) - a candidate acquisition, P3. Scope caution carried from the prior build: Egeria describes the wider pilgrimage world, not Jerome's community specifically - context only, never evidence about this world's own practice."
 ---
-Run 2026-08-21. Logged as an open P3 request in the manifest.
+Logged as an open P3 request in the manifest.

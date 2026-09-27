@@ -61,7 +61,7 @@ relations:
 - type: tension-with
   target: hal.gravity.hebraica-veritas
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 36715.
+Verified verbatim against the vendored file at line 36715.
 DISCLOSED: the NPNF prints a bracketed editorial note by Philip Schaff
 after "not from the Greek, but from the Hebrew", giving Jerome's dates and
 the Vulgate's later standing; it is excised here as nineteenth-century
@@ -72,9 +72,11 @@ Declared `tension-with` hal.gravity.hebraica-veritas rather than
 against, stated at full strength by someone who admired the man he was
 overruling.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "high priest" was invented -
-the source's sentence continues with a semicolon into a further, separate argument (that a sign of
-divinity appearing in the seventy translators, not just scholarly consensus, validates them). Marked
-with a trailing ellipsis rather than restored: the record's gloss is specifically about the
-concession-then-refusal structure, complete at "high priest"; the further argument is a different
-theological point modern_lens_note doesn't address.
+The quote ends at "high priest" marked with a trailing ellipsis: the
+source's sentence continues with a semicolon into a further, separate
+argument (that a sign of divinity appearing in the seventy translators,
+not just scholarly consensus, validates them) - a different theological
+point modern_lens_note doesn't address, so the ellipsis marks the
+truncation honestly rather than restoring it. The record's gloss is
+specifically about the concession-then-refusal structure, complete at
+"high priest".

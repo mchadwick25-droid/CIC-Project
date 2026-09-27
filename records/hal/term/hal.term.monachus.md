@@ -40,10 +40,6 @@ distortion_risk: low
 Re-derived from cleared Doc_06 entry 15 (hal_lex15). Retrieval tier 3
 (ambient vocabulary): low distortion risk, names the structurally present
 but never-individuated men - see hal.core.hieronymian's Absent Stories
-answer (item 1) and hal.force.monastic-template's Nitria notice.
-
-Cross-reference corrected per independent review Round 1 (2026-08-21):
-the prior pointer named a non-existent honest_limit record; there is no
-dedicated honest_limit for this specific absence (F5-I is already covered
-by substantive records), so the pointer now names the real records that
-carry this content.
+answer (item 1) and hal.force.monastic-template's Nitria notice. There is
+no dedicated honest_limit record for this specific absence - F5-I is
+already covered by these substantive records.

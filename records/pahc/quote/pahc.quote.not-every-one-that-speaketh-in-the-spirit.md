@@ -40,9 +40,7 @@ relations:
 - type: associated-with
   target: pahc.term.prophetes
 ---
-Opened 2026-08-27 for F1-E, served by pahc.term.prophetes alone, which cites chs. 11-13 and had
-nothing quotable.
+This quote serves F1-E together with pahc.term.prophetes, which cites chs. 11-13.
 
-Quote-verbatim gate fix (2026-09-22): the record's own period after "false prophet" was invented -
-the source continues into two further, separately-numbered tests (verses 10-11) outside this record's
-own cited locus (XI.8-9). Marked with a trailing ellipsis rather than restored.
+The source continues into two further, separately-numbered tests (verses 10-11) outside this
+record's own cited locus (XI.8-9); marked with a trailing ellipsis rather than restored.

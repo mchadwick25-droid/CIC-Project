@@ -30,5 +30,5 @@ external_ids: {}
 Weight 'contested' is deliberate: the work's central claims are the
 substance of desert.contested.antony-literacy, and this corpus cites it
 as one pole of a live scholarly contest, never as settled authority.
-The 1990/1995 subtitle-only edition correction (prior build Doc_01
-Round 2, N3) is carried so it does not regress.
+The 1990/1995 printing is subtitle-only, not a distinct edition; that
+distinction is carried here so it does not regress.

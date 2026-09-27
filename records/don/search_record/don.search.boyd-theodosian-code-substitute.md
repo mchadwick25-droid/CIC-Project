@@ -24,7 +24,7 @@ found_sources:
 note: 'William K. Boyd, The Ecclesiastical Edicts of the Theodosian Code (Columbia University, 1905),
   identified as a stronger-targeted candidate than continuing to chase the same unlocated critical edition
   -- found inside a bound volume of three unrelated Columbia studies; only Boyd''s own essay is of interest.
-  Confirmed this session (2026-09-01): extensive English narrative history of the Book 16 Title 5 legislation,
+  Confirmed: extensive English narrative history of the Book 16 Title 5 legislation,
   several individual laws quoted verbatim in Latin (e.g. xvi.5.28, xvi.5.41), a citation chain running
   xvi.5.3 through xvi.5.58 including the 405 Edict (xvi.5.38-39). CONFIRMED ABSENT: law 16.5.52 itself
   is not quoted anywhere in the file (Boyd''s own chain runs "...51, 54, 55..." past it without quoting
@@ -32,7 +32,7 @@ note: 'William K. Boyd, The Ecclesiastical Edicts of the Theodosian Code (Columb
   Two other leads surfaced in the same review and correctly NOT pursued: `theodosiancode00unse` (very
   likely Clyde Pharr''s in-copyright 1952 translation) and the seven Gothofredus volumes (a legitimate
   but much older 17th-century edition, a fallback not needed). Remains a valid corroborating secondary
-  source even after the primary critical edition was later found (2026-09-07) -- not superseded, only
+  source alongside the primary critical edition -- not superseded, only
   supplemented.'
 ---
 

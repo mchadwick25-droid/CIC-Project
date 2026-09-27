@@ -36,16 +36,16 @@ added here: hal's own marriage-doctrine witness carries no missing-source
 gap comparable to alx's Latin-only Stromateis absence, so that tag is not
 claimed where the material does not support it.
 
-CORRECTED per independent Opus adversarial review: (1) "we received her
-back to communion" restored to "the church received her back to
-communion" - hal.dw.marriage-ending's own text deliberately splits
-this sentence between two subjects ("the church received her... this
-world honored her"), and the draft had collapsed both onto "we",
-misattributing the church's act of restoration to this circle. (2)
-Removed an invented sacramental specific ("We did not close baptism, the
-bread, or our common life...") that neither hal.dw.marriage-ending
-nor Ep. 77 states; the witness's own method is to answer with Fabiola's
-story rather than a ruling, and the deleted sentence supplied a ruling
-the source does not give.
+The church - not "we" - is named as the one who received Fabiola back
+to communion, while this world honored her afterward; hal.dw.marriage-
+ending's own text deliberately splits this sentence between those two
+subjects, and that split is carried here rather than collapsed onto
+"we".
 
-REGISTER TRANSLATION (2026-08-29, the hal pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English (here mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence the demos' own review notes bind. Record layer, not the prompt (no-fix-on-fix).
+The witness answers with Fabiola's story rather than a ruling: no
+sacramental specific beyond what hal.dw.marriage-ending and Ep. 77
+themselves state is added here, since the source's own method is to
+answer through her story, not through a stated rule about what remained
+open or closed to her.
+
+The spoken field is written in plain modern English (mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint is preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence. This sits at the record layer, not the prompt.

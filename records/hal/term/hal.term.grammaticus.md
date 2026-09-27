@@ -45,7 +45,6 @@ senses:
 quick_meaning: The Latin grammar schooling, under Donatus, that lay behind all the later work.
 distortion_risk: medium
 ---
-Re-derived from cleared Doc_06 entry 12 (hal_lex12), carrying Doc_01's
-Round 1 correction (grammar training under Donatus is what the sources
-support; rhetoric is not attributed to Donatus). The personal sense points
+Derived from Doc_06 entry 12 (hal_lex12): grammar training under Donatus is
+what the sources support; rhetoric is not attributed to Donatus. The personal sense points
 toward the Ciceronian-dream story (hal.story.ciceronian-dream).

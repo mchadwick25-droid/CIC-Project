@@ -49,12 +49,12 @@ results.append(check("every bucket on disk is reproducible from staging",
 # names must actually receive that row.
 #
 # The obvious form of this test - count the buckets a work landed in and
-# compare to one row's id count - was WRONG, and the 2026-08-26 assignment run
-# exposed it. The workers converged on modelling `role` as a property of the
-# (work, entry) pair, so one work is written as SEVERAL rows: Against Heresies
-# has a `tradition` row for Irenaeus' own entry and a `context` row for the
-# entries it describes. It lands in four buckets while no single row names more
-# than two, and that is correct. Test the invariant that actually holds.
+# compare to one row's id count - is wrong: `role` is a property of the
+# (work, entry) pair, so one work can be written as SEVERAL rows. Against
+# Heresies has a `tradition` row for Irenaeus' own entry and a `context` row
+# for the entries it describes. It lands in four buckets while no single row
+# names more than two, and that is correct. Test the invariant that actually
+# holds.
 multi = [r for r in rows if len(r["_atlas_ids"]) > 1]
 missed = [(r["work"], a) for r in multi for a in r["_atlas_ids"]
           if not any(w.get("work") == r["work"] and w.get("source_file") == r["source_file"]

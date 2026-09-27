@@ -1,6 +1,6 @@
 /**
  * A bridge facilitator turn's own modern-term card (OG-13,
- * worlds/pahc/Open_Gaps_Tracking.md) - pinned here the same way
+ * Build/worlds/pahc/Open_Gaps_Tracking.md) - pinned here the same way
  * TableRoom.test.tsx pins its own table-route rendering, so the interview
  * route's own facilitator-turn branch is covered too.
  */

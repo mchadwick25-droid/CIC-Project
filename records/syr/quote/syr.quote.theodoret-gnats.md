@@ -30,12 +30,11 @@ retrieval:
   - "participant asks whether the miracle stories can be believed"
   - "participant asks what outside historians wrote about their holy men"
 ---
-Verified verbatim (NPNF2-03, including the edition's own awkward 'than to that' - kept exactly as printed). Hagiographic-tier framing per syr.story.jacob-deliverance; canon_cells empty (the story carries the cell).
+Verified verbatim (NPNF2-03, including the edition's own awkward 'than to that' - kept exactly as printed). Hagiographic-tier framing per syr.story.jacob-deliverance.
 
-CELL ASSIGNED 2026-08-27; the record had none and sat outside coverage.
 F2-E asks "Isn't most of what's said about you legend, collected centuries
 later?" - a curse that sends gnats, told by an outside historian a century
 afterwards, belongs to the question about legend rather than to any cell
 that would have this world assert it.
 
-MODERN RENDERING AUTHORED (2026-08-29, syr register pass; Mark's standing quote ruling 2026-08-28: spoken form is a modern-English translation, not a summary - the original wording stays as this record's text and is shown at Level 3). Rendered from this record's own text field only; nothing added from the source beyond it.
+modern_rendering is a modern-English translation of this record's own text field, not a summary; nothing is added from the source beyond it. The original wording stays as this record's text and is shown at Level 3.

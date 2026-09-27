@@ -52,10 +52,3 @@ modern_contrast: 'A modern reader often hears this as a directly witnessed marty
 ---
 Re-derived from cleared Doc_09a S5. The 'be it mine to say what I have
 heard' distancing is the letter's own and is kept audible. Serves F6-P.
-
-CORRECTED per independent review Round 1 (2026-08-21): a prior version of
-this text said the conquerors "had made [the basilica] a place of
-refuge" - that designation is from the Orosius/Augustine tradition about
-the sack generally, not from Ep. 127 (the sole cited source), which says
-only that Marcella hoped to find there "either a place of safety... or a
-tomb." Reworded to track the letter's own wording.

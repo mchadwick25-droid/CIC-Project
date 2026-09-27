@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-direct
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: "Direct only for the RULES, and only in the Ethiopic recension vendored 2026-08-27 (pachomius_rules-ethiopic_schodde1885.txt). The LIVES remain at one remove - no public-domain English exists, and the Coptic and Greek recensions are read here only through Palladius, Sozomen, Gennadius and consult-only scholarship. A record citing this source must say which strand it is standing on."
+  divergence_note: "Direct only for the RULES, and only in the Ethiopic recension vendored (pachomius_rules-ethiopic_schodde1885.txt). The LIVES remain at one remove - no public-domain English exists, and the Coptic and Greek recensions are read here only through Palladius, Sozomen, Gennadius and consult-only scholarship. A record citing this source must say which strand it is standing on."
 sources: []
 relations:
 - type: associated-with
@@ -28,8 +28,8 @@ discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS1.2 (
 external_ids: {}
 ---
 Every Rule-content claim in this corpus must still name its actual
-channel, but as of 2026-08-27 there are four channels, not two, and
-the first of them is new:
+channel. There are four channels, not two, and the first of them is
+the newest:
 
   1. "as the Ethiopic Rule reads" - vendored, quotable, direct.
      Schodde 1885. Say the recension every time. It is not Jerome's
