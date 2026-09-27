@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, planNarration, synthesize, audioPathFor, audioDir } from './generate_tree_narration.mjs';
+import { parseArgs, planNarration, synthesize, audioPathFor, audioDir, resolveVoiceId } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -84,6 +84,22 @@ test('synthesize: posts the text to the right voice endpoint and returns audio b
   assert.equal(JSON.parse(capturedInit.body).text, 'Once, in Antioch...');
   assert.ok(Buffer.isBuffer(result));
   assert.equal(result.toString(), 'fake-mp3-bytes');
+});
+
+test('resolveVoiceId: falls back to the default narrator when a movement has no override', () => {
+  const voiceMap = { 'has-override': 'voice-abc', 'blank-override': '' };
+  assert.equal(resolveVoiceId('no-such-id', { voiceMap, defaultVoiceId: 'default-voice' }), 'default-voice');
+  assert.equal(resolveVoiceId('blank-override', { voiceMap, defaultVoiceId: 'default-voice' }), 'default-voice');
+});
+
+test('resolveVoiceId: uses a movement\'s own override voice when one is set', () => {
+  const voiceMap = { 'has-override': 'voice-abc' };
+  assert.equal(resolveVoiceId('has-override', { voiceMap, defaultVoiceId: 'default-voice' }), 'voice-abc');
+});
+
+test('resolveVoiceId: trims whitespace-only overrides down to the fallback', () => {
+  const voiceMap = { spacey: '   ' };
+  assert.equal(resolveVoiceId('spacey', { voiceMap, defaultVoiceId: 'default-voice' }), 'default-voice');
 });
 
 test('synthesize: throws with the response detail when ElevenLabs rejects the request', async () => {

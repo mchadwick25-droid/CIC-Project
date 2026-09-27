@@ -2,10 +2,13 @@
 /**
  * Generate one-time ElevenLabs narration audio for each movement's own
  * longDescription (the "About This Movement" story on its tree/<id>.html
- * page) - Church Family Tree's narration step. One consistent narrator
- * voice across every clip, third-person historical narration matching how
- * longDescription is actually written (never a Representative speaking in
- * character - that's a separate, already-built feature).
+ * page) - Church Family Tree's narration step. Third-person historical
+ * narration matching how longDescription is actually written (never a
+ * Representative speaking in character - that's a separate, already-built
+ * feature). One consistent narrator voice for most movements, with distinct
+ * per-movement overrides for the ones that already have a live built
+ * Representative - see tree-narration-voices.mjs. Atlas narration only;
+ * live-conversation voice is untouched by this script.
  *
  * Output: cic-website/audio/tree/<id>.mp3, one per movement that has a
  * longDescription. Idempotent - a movement already carrying an audio file
@@ -15,6 +18,9 @@
  *
  * Usage:
  *   ELEVENLABS_API_KEY=... ELEVENLABS_VOICE_ID=... node tools/generate_tree_narration.mjs [options]
+ *
+ * ELEVENLABS_VOICE_ID is the default narrator used for every movement that
+ * has no override in tree-narration-voices.mjs.
  *
  * Options:
  *   --dry-run       Report what would be generated; no API calls, no files written.
@@ -26,6 +32,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { voiceOverrides } from './tree-narration-voices.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
@@ -83,6 +90,17 @@ export function planNarration(movements, { only, force, limit, existsFn = fs.exi
 }
 
 /**
+ * The voice id to narrate a given movement with: its own override from
+ * tree-narration-voices.mjs when one has been chosen, else the default
+ * narrator. `voiceMap` is injected so tests never depend on the real,
+ * mostly-still-blank override file.
+ */
+export function resolveVoiceId(movementId, { voiceMap = voiceOverrides, defaultVoiceId }) {
+  const override = voiceMap[movementId];
+  return override && override.trim() ? override.trim() : defaultVoiceId;
+}
+
+/**
  * One ElevenLabs TTS call. `fetchImpl` is injected so tests never make a
  * real network call - production always passes the real global fetch.
  */
@@ -123,15 +141,20 @@ async function run() {
     return;
   }
 
+  const defaultVoiceId = process.env.ELEVENLABS_VOICE_ID;
+  if (!defaultVoiceId) throw new Error('ELEVENLABS_VOICE_ID is not set - pick a default narrator voice in ElevenLabs\' dashboard first.');
+
   if (opts.dryRun) {
-    toGenerate.forEach((m) => console.log(`  would generate: ${m.id} (${m.longDescription.length} chars)`));
+    toGenerate.forEach((m) => {
+      const voiceId = resolveVoiceId(m.id, { defaultVoiceId });
+      const distinct = voiceId !== defaultVoiceId ? ' [distinct voice]' : '';
+      console.log(`  would generate: ${m.id} (${m.longDescription.length} chars)${distinct}`);
+    });
     return;
   }
 
   const apiKey = process.env.ELEVENLABS_API_KEY;
-  const voiceId = process.env.ELEVENLABS_VOICE_ID;
   if (!apiKey) throw new Error('ELEVENLABS_API_KEY is not set - see tools/generate_tree_narration.mjs\'s own usage note.');
-  if (!voiceId) throw new Error('ELEVENLABS_VOICE_ID is not set - pick a narrator voice in ElevenLabs\' dashboard first.');
 
   fs.mkdirSync(audioDir, { recursive: true });
 
@@ -139,6 +162,7 @@ async function run() {
   const failed = [];
   for (const movement of toGenerate) {
     try {
+      const voiceId = resolveVoiceId(movement.id, { defaultVoiceId });
       const audio = await synthesize(movement.longDescription, { apiKey, voiceId });
       fs.writeFileSync(audioPathFor(movement.id), audio);
       succeeded++;
