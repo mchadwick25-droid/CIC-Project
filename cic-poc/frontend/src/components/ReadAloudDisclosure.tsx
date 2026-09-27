@@ -1,10 +1,9 @@
 /**
- * Mark's ruling (2026-09-22, disclosure sentence - design note Q7): a
- * visible one-line note under the conversation bar the first time the
+ * A visible one-line note under the conversation bar the first time the
  * read-aloud control renders in a session - never a tooltip or
  * aria-describedby alone (a participant on touch never sees either).
- * The control's own accessible name (design note Q5) is untouched by
- * this - this is a separate line, not the button's label.
+ * The control's own accessible name is untouched by this - this is a
+ * separate line, not the button's label.
  *
  * "The first time" is tied to the control's first target turn, not to
  * every render: shown while `turnKey` is still whatever it was when this

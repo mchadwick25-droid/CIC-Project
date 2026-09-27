@@ -1,35 +1,26 @@
 /**
- * Read-aloud step 1 (design note: Ministry/Technology/
- * CiC_ReadAloud_Step1_Design_Note.md). ONE global control, in the
- * conversation bar - not a per-turn or per-sentence button. Two reasons,
- * not one:
- *   - R17 already caps how many on-screen transparency elements a turn
- *     may carry (VoiceTurnBody.tsx); this feature adds a second axis of
+ * ONE global control, in the conversation bar - not a per-turn or
+ * per-sentence button. Two reasons, not one:
+ *   - VoiceTurnBody.tsx already caps how many on-screen transparency
+ *     elements a turn may carry; this feature adds a second axis of
  *     on-screen chrome, and the same minimal-elements ethos argues for
  *     one instance for the whole screen, not one per turn.
  *   - A Facilitator turn (Conversation.tsx/TableRoom.tsx) has no speaker
- *     row at all - it is DELIBERATELY unlabeled (CiC_Full_UX_Design_V1_0
- *     .md: "a participant learns to recognize the voice by how it reads,
- *     not by a name tag"). A turn-level button would have to invent a row
- *     that design intentionally left out; a global control never touches
- *     Facilitator markup at all.
+ *     row at all - it is deliberately unlabeled, so a participant learns
+ *     to recognize the voice by how it reads, not by a name tag. A
+ *     turn-level button would have to invent a row that design
+ *     intentionally left out; a global control never touches Facilitator
+ *     markup at all.
  *
  * Always reads the latest completed voice/Facilitator turn (never a
  * participant's own typed text - they just wrote it). Replaying an
- * older turn is out of this step's scope; Q8's usage metric is exactly
- * what would justify building that later.
+ * older turn is out of scope for now.
  *
  * Never auto-plays - the only way this ever speaks is this button's own
  * click. A participant already using a screen reader is therefore never
  * double-spoken: this is simply another button their own reader
  * announces, silent until pressed, same as every other control on the
- * page (design note Q4).
- *
- * Disclosure copy (design note Q7 - what tells a participant "this is
- * your browser reading, not {representative_name} speaking") is drafted
- * in the design note and escalated to Mark, not shipped here. Do not add
- * participant-facing disclosure text to this component until that
- * ruling lands, even behind the flag.
+ * page.
  */
 import { useEffect, useRef, useState } from 'react';
 import { cancelReadAloud, recordReadAloudPlay, speakText } from '../lib/readAloud';

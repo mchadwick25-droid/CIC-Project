@@ -1,14 +1,24 @@
 # Read-Aloud, Step 1 — Design Note
 
-**Status: RULED 2026-09-22, awaiting Stage 7 and a real-browser check.**
-Mark ruled on Q7 — Option A, exactly, shown as a visible line under the bar
-(§7 below, updated). What's still open is not a decision but two
-verifications: the Conversation Transparency Engine thread's Stage 7
-(streaming) landing on `main`, and Mark hearing the control actually speak
-in a real browser against a live `engine/api` backend. The PR
-(`read-aloud-step1` → `main`) stays a draft until both are true.
-`VITE_READ_ALOUD` defaults off everywhere and is not set in any deploy
-config (`render.yaml` checked — no reference to it).
+**Status: RULED 2026-09-22, engine-side verification done 2026-09-27,
+awaiting Mark's own live-audio check.** Mark ruled on Q7 — Option A,
+exactly, shown as a visible line under the bar (§7 below). Two
+verifications were open: the Conversation Transparency Engine thread's
+Stage 7 landing on `main`, and a real-browser check against a live
+`engine/api` backend. On the first: Stage 7b (the engine streaming
+module) merged 2026-09-25; Stage 7c (an SSE endpoint and frontend
+streaming consumer) does not exist yet and, per the 2026-09-27 scoping
+call, is treated as its own separate later step rather than a
+precondition for this one — this feature never depended on live token
+streaming to work (see §2). On the second: this session rebased
+`read-aloud-step1` onto current `main` and drove it end to end in
+headless Chromium against the real `engine/api` dev server (real
+session, real message, real `alx`/Theon reply) — the control appeared,
+spoke the reply sentence-by-sentence, and the disclosure line showed and
+retired correctly. That confirms the wiring; it is not Mark's own ears on
+real audio, which is the one verification left before this ships for
+real participants. `VITE_READ_ALOUD` defaults off everywhere and is not
+set in any deploy config (`render.yaml` checked — no reference to it).
 
 **Origin.** Mark's ruling (2026-09-22): *"start with read-aloud free,
 composite voice on the paid tier... test one step at a time."* This note

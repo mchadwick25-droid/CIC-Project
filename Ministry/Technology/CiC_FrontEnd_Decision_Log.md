@@ -3562,3 +3562,66 @@ directly:** the Conversation Transparency Engine thread's Stage 7
 real browser against a live `engine/api` backend, with what he heard
 recorded. The PR (`read-aloud-step1` → `main`) stays a draft until both
 are true — updated design note and PR description reflect this gate.
+
+---
+
+## 2026-09-27 — Read-aloud, step 1: rebased onto current main, real-browser wiring verified
+
+**Scoping call, converged with Mark first.** Stage 7b (the engine
+streaming module behind `CIC_API_STREAMING`) merged 2026-09-25 as PR
+#542, but Stage 7c (an SSE endpoint plus a frontend streaming consumer)
+does not exist — nothing on `main` calls the 7b module. Read-aloud never
+needed live token streaming to work: it reads `turn.text` only after a
+turn is already complete, so it never touches the citation/glossary/story
+mark-attachment logic that streaming's per-sentence gating (R31) would
+put through a new, harder incremental path. Converged decision: ship
+read-aloud alone now against the existing whole-turn endpoint; treat 7c
+as its own separate later step with its own review, not a precondition
+here.
+
+**Rebase.** `read-aloud-step1`'s three real commits (browser TTS,
+disclosure wiring, `.env.example` doc) were behind ~230 commits of
+unrelated history. Cherry-picked onto current `main` as
+`claude/streaming-read-aloud`; the only real conflicts were an import
+line ordering in `Conversation.tsx`/`TableRoom.tsx` and the anchor
+renderer's flag default, which had flipped (`!== 'off'`, defaults on)
+since this branch was cut — kept main's current semantics, appended the
+read-aloud flag after it.
+
+**Real-browser check, done.** `engine/api/dev_server.py` (the no-spend
+fake-Bedrock dev server) plus the frontend dev server, driven by
+Playwright/headless Chromium against a genuinely restored `alx` package
+(`python -m engine.m2.cli restore` — compiled package bytes aren't in
+git). One real gotcha: `window.speechSynthesis` is a getter-only
+accessor in real Chromium, so a plain `window.speechSynthesis = {...}`
+silently no-ops; `Object.defineProperty` is required to stand in a fake
+implementation. With that fixed: created a real session, sent a real
+message, got a real `alx`/Theon reply, the "Read aloud" control appeared,
+clicking it called `speak()` with the reply split into its two real
+sentences, and the disclosure line ("This reads the words on screen
+aloud...") showed under the bar on the Facilitator's opening turn and
+correctly retired once Theon's reply became the latest turn. No console
+errors. This confirms the wiring end to end; it is not Mark's own ears on
+real audio, which is the one verification still open.
+
+**Live-surface cleanup, same pass.** `tools/check_live_commentary.py
+--surface cic-poc-frontend` flagged process narrative in the files this
+branch touches (`flags.ts`, `ReadAloudControl.tsx`,
+`ReadAloudDisclosure.tsx`, `readAloud.ts`) — ruling dates, design-note
+question numbers, a ruling-number citation (`R17`), Ministry file paths.
+Rewritten to state the underlying engineering reasoning directly instead
+of citing where it came from, per CLAUDE.md's "any PR that edits a
+live/canonical file also removes the commentary already in it." Now
+clean on that surface. `tools/check_paths.py --baseline
+tools/check_paths_baseline.txt` also clean (0 new unresolved citations).
+
+**Verification:** `npm run test` 61/61 passing, `npm run build` clean,
+both re-run after the commentary cleanup. `npm run lint` still can't run
+(no ESLint config committed anywhere in the repo — pre-existing,
+unrelated to this branch).
+
+**What's left:** Mark's own live-audio check in a real browser against a
+real `engine/api` deployment (not the dev server), and a deliberate
+Dockerfile/`render.yaml` change before `VITE_READ_ALOUD` can be turned on
+for any real deployment — neither made here, per the design note's own
+scope boundary.
