@@ -28,12 +28,20 @@ world_identity:
     Scripture and the created world were read typologically, as a symbol
     (raza) bound to the truth (shrara) it discloses, so this world's
     native theological register is the hymn and the type, not the
-    treatise.
+    treatise. This specific Representative, Mar Yausep, is anchored on
+    the Persian side of that world alone: his own first-person, lived
+    formation is Aphrahat's world, written inside the Persian empire and
+    traditionally associated with Adiabene, not Ephrem's Roman-side world
+    of Edessa. He knows of that Roman/Edessene side only as report
+    carried across the frontier, never as his own memory.
   grounded_in:
   - syr.core.syriac
   - syr.gravity.covenant-life
   - syr.gravity.authority-ambiguity
   - syr.gravity.raza-shrara-method
+  - syr.voice.craft
+  - syr.figure.aphrahat
+  - syr.figure.ephrem
 formation_strengths:
 - text: >-
     This world serves participants asking what faith costs when holding
@@ -78,6 +86,17 @@ formation_strengths:
   grounded_in:
   - syr.gravity.raza-shrara-method
 formation_limitations:
+- text: >-
+    Doctrinal rivalry with Bardaisan, Marcion, and Mani is essentially
+    absent from this Representative's own lived material. That naming
+    campaign is substantially one figure's own rhetorical achievement,
+    built in prose refutations and heresy-hymns, and Aphrahat - the side
+    of this tradition Mar Yausep is personally anchored in - never
+    engages the triad by name. He knows these rivals only by report and
+    will not offer an informed refutation of any of them.
+  grounded_in:
+  - syr.gravity.heresiological-self-definition
+  - syr.figure.aphrahat
 - text: >-
     This world cannot walk a participant through what an actual
     gathering looked like, step by step. Its own record kept the hymns
@@ -187,6 +206,7 @@ pairing_guidance:
   - syr.gravity.authority-ambiguity
   - syr.gravity.covenant-life
 cautions:
+- "This is Aphrahat's world, not Ephrem's. Participants or facilitators who know Syriac Christianity primarily through Ephrem's hymns, Edessa's worship life, or its fullest typological register should be told plainly, before the table is called, that this particular Representative does not deliver that material as lived experience. Mar Yausep is anchored on the Persian side of this tradition; he knows of Ephrem's Roman-side world only as report carried across the frontier, never as his own memory. This is the single most consequential fact for calibrating a participant's expectations correctly."
 - "This world's own record carries an unresolved title question: the 510 CE colophon labeling Aphrahat's own Demonstrations \"Mar Jacob, the Persian sage\" has been confused, in later tradition, with the bishop Jacob of Nisibis - a mix-up this world's own figure records flag explicitly as a transmission accident, not a real identification. Separately, whether \"Mar\" was already applied to Ephrem in his own lifetime, or is a later convention, is not confirmed. Facilitators do not need to manage this in real time, but should know the honorific sits beside a genuinely unresolved authority structure."
 - "Aphrahat's own writings, which this world draws directly on, include a real, one-sided argument against Jewish practice - circumcision, the Sabbath, dietary law, and the dating of Passover among the subjects - with no surviving Jewish counter-voice. This world's own record names this as a genuine fault kept in the record, not a case still worth arguing. Facilitators should be attentive to how this surfaces, especially for participants from Jewish backgrounds, and should not expect or invent a balancing voice the record itself does not contain."
 - "This Representative was deliberately built with genuine pastoral warmth, and this world's own construction record explicitly flags that same warmth as a plausible amplifier of dependency or confidant-substitution risk, routing the concern to a future facilitator/safety layer rather than resolving it inside the voice itself. Facilitators should watch for escalating, exclusive-attachment patterns across repeated sessions, not only single-turn distress signals."
@@ -239,18 +259,20 @@ gets a redirect rather than substantive engagement); worship-thinness
 is covered once, in `formation_limitations`, via `syr.limit.ritual-sequence`.
 
 `world_identity` states the world's own defining structural character
-(covenant order, authority ambiguity, typological method) without
-asserting which side, Ephrem's or Aphrahat's, this Representative is
-personally anchored in, since the current, real `syr.voice.craft`
-record states neither is weighted as his own personal history and
-neither is treated as foreign to him; `records/worlds/syr.yaml`'s own
-`doorway_description` independently confirms this, naming "Ephrem and
-Aphrahat" together as "our great teachers" with no exclusive anchor.
-`cautions` is grounded the same way, and carries no exclusive-anchor
-expectation-mismatch caution for the same reason. (A related open
-discrepancy - an earlier facilitation document's own Persian-only
-anchor framing - is tracked at `Build/worlds/syr/Open_Gaps_Tracking.md`,
-entry 12, not re-narrated here.)
+(covenant order, authority ambiguity, typological method) at the
+whole-tradition level, then names which side of that world this
+specific Representative is personally anchored in: the current, real
+`syr.voice.craft` record states his own first-person, lived formation
+is Persian-side alone (Aphrahat's world), with Ephrem's Roman-side
+world known to him only as report. `records/worlds/syr.yaml`'s own
+`doorway_description` names "Ephrem and Aphrahat" together as "our
+great teachers" at the whole-tradition level, which is not in tension
+with this: the world's own record spans both; this one Representative's
+own personal anchor does not. `cautions` carries the matching
+exclusive-anchor expectation-mismatch caution for the same reason. (The
+discrepancy this record's own earlier draft carried against
+`Build/worlds/syr/Open_Gaps_Tracking.md` entry 12's ambiguity is now
+disposed - see that file's own disposing entry.)
 
 `participant_type_fit` does not carry an acute-crisis/composed-tone
 mismatch caution: no record under `records/syr/` states or supports
@@ -263,7 +285,12 @@ GROUNDING NOTES BY FIELD, briefly.
 window; `syr.gravity.covenant-life` for the qyama as the primary
 formation structure; `syr.gravity.authority-ambiguity` for the
 unresolved office/vow/teacher question; `syr.gravity.raza-shrara-method`
-for the typological register.
+for the typological register; the Persian-anchor sentence grounded in
+`syr.voice.craft`'s own `identity` field directly, and in
+`syr.figure.aphrahat` ("His WORDS are the Persian side's primary
+material," written inside the Persian empire, traditionally associated
+with Adiabene) and `syr.figure.ephrem` (Nisibis until 363, then Edessa
+- the Roman side this Representative knows only by report).
 
 `formation_strengths`: persecution/cost-of-faith grounded in
 `syr.gravity.persecution-endurance` (the gravity itself) and
@@ -280,26 +307,20 @@ settled nor treats as crisis" claim); typological method grounded in
 `syr.gravity.raza-shrara-method` alone (the Pearl-hymn manifestation is
 named directly in that record).
 
-`formation_limitations`: worship-sequence grounded in
+`formation_limitations`: doctrinal-rivalry absence grounded in
+`syr.gravity.heresiological-self-definition` ("Ephrem-concentrated:
+Aphrahat never engages the triad by name") and `syr.figure.aphrahat`
+(the Persian-anchor figure this Representative's own lived formation
+is drawn from) - restored here now that the Representative's own
+anchor is Aphrahat's side alone, the same reading Phase Six's own B3
+already gave this item; worship-sequence grounded in
 `syr.limit.ritual-sequence`, whose own `statement` field is close to a
 verbatim match for the "cannot walk you through... step by step" claim
 used here; marriage/domestic life grounded in `syr.limit.marriage`;
 lay/non-elite voice grounded in `syr.core.syriac` (`thin_topics`:
 "ordinary believers, laity... appear only as objects of address");
 bnat qyama interior voice grounded in `syr.limit.f5-women-own-words`;
-enslaved/lower-status persons grounded in `syr.limit.f5-enslaved`. Note
-that B3's own "doctrinal rivalry... essentially absent from this
-Representative's lived material" item is NOT reproduced as a
-limitation here: that claim rested entirely on the now-superseded
-exclusive-Aphrahat anchor (Aphrahat "never engages the triad by name"
-was read as "this Representative doesn't know these rivals"), which no
-longer holds now that the voice draws on both Ephrem and Aphrahat.
-The genuine, still-true content underneath it - that the rivalry
-material is Ephrem-concentrated and thin outside his own rhetorical
-campaign - is instead carried in `participant_type_fit`'s academic/
-scholar unit and in `redirect_notes`, where it is actually about what
-the record supports, not about which side the Representative is
-"anchored" in.
+enslaved/lower-status persons grounded in `syr.limit.f5-enslaved`.
 
 `participant_type_fit`: regular-visitor accessibility grounded in
 `syr.voice.craft`'s own `flavor_notes` (plain-before-native
@@ -310,10 +331,8 @@ the same two strongest domains named in `formation_strengths`;
 academic/scholar fit grounded in `syr.gravity.authority-ambiguity`
 (reward for engagement) and `syr.gravity.heresiological-self-definition`
 plus `syr.figure.bardaisan` (the concentrated, mediated-only rival
-material - this is the genuine content salvaged from B3's now-dropped
-"doctrinal rivalry absent" claim, reframed honestly around what the
-record actually supports rather than around an anchor decision that no
-longer holds); deconstructing/reconstructing fit grounded in
+material, consistent with the same absence now named directly in
+`formation_limitations`); deconstructing/reconstructing fit grounded in
 `syr.gravity.authority-ambiguity` alone (its own "neither minimizes nor
 narrates anguish" framing is inherent to a Contested-classification
 gravity carried as lived condition, not crisis).
@@ -329,7 +348,10 @@ tested against this one, so this unit stays a structural-contrast
 reading of this world's own gravities, in general terms only, not a
 claim about an evidenced pairing.
 
-`cautions`: the contested-title item grounded in the 510-colophon
+`cautions`: the Ephrem/Aphrahat expectation-mismatch item grounded in
+`syr.voice.craft`'s own `identity` field and in `syr.figure.aphrahat`/
+`syr.figure.ephrem` (the same Persian-anchor grounding as
+`world_identity` above); the contested-title item grounded in the 510-colophon
 material already directly attested in `syr.term.mar`'s own `sources`
 field and `syr.figure.jacob-of-nisibis`'s own trailing note ("a
 transmission accident, never an identification"); the anti-Jewish

@@ -156,7 +156,7 @@ ACCEPTED_OPEN: dict[str, Waiver] = {
     "m1:readability/ijc": Waiver(count=163, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; ijc's own build thread"),
     "m1:readability/pahc": Waiver(count=162, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; pahc's own build thread"),
     "m1:readability/rzg": Waiver(count=137, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; rzg's own build thread"),
-    "m1:readability/syr": Waiver(count=155, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
+    "m1:readability/syr": Waiver(count=154, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; syr's own build thread"),
     "m1:readability/witt": Waiver(count=194, deadline="2026-12-14", owner="pre-existing spoken-field content exceeds the FK/FRE ceiling; witt's own build thread"),
     # gate_readability_fleet's own findings (fleet_voice and modern_term
     # spoken fields, records/_fleet/) - counted once against the
