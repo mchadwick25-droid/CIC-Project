@@ -3718,3 +3718,79 @@ for now.
 until the two conversation pieces are in place") - both the single
 conversation and the Table now have real code, real tests, and Mark's own
 verified listen, not just an automated check.
+
+---
+
+## 2026-09-27 (later still) — Church Family Tree narration: 11 built worlds
+get their own distinct voice, Atlas narration only
+
+**Origin.** With both conversation pieces closed (entry above), scoping
+moved to Church Family Tree per Mark's own sequencing. Prior convergence
+in this thread (not yet logged): narrate movement stories now (each
+movement's `longDescription`, the only field with enough real prose;
+eras/rivers deferred - they'd need new writing, not narration of existing
+text); one consistent narrator voice as the default. Built:
+`tools/generate_tree_narration.mjs` (idempotent ElevenLabs TTS batch
+script, resumable, `--dry-run`/`--only`/`--limit`/`--force`), wired into
+`tools/generate_tree_pages.mjs`'s per-movement page template with a
+disclosure line ("Read by a synthesized voice - not a recording, not a
+re-enactment").
+
+**Mark's question, this session:** should the 11 movements with a live
+built Representative (Chloe, Theon, Papnoute, Mar Yausep, Chilo, Albina,
+Renatus, Fidelis, Nikolaus, Theophilus, Marius) get their own distinct
+voice for their Atlas narration, matching the built world, rather than
+sharing the single consistent narrator with the remaining 281?
+
+**Two considerations surfaced before asking, not assumed away:** (1)
+there is no existing "Chloe voice" today to match - live-conversation
+voices are free browser `speechSynthesis`, not a fixed ElevenLabs voice,
+so this creates a new voice identity, it doesn't match one that already
+exists; (2) `longDescription` is third-person documentary narration
+*about* the movement, never the Representative speaking in character -
+a register a distinct voice alone doesn't resolve into "this is Chloe
+telling her own story."
+
+**Mark's answer: give the 11 built worlds their own distinct voices now.**
+Follow-up asked as its own single question per this project's
+one-question-at-a-time discipline: should that new voice also become the
+Representative's live-conversation voice, reopening the free-vs-paid
+question settled in the prior entry? **Mark's answer: no - Atlas
+narration only.** Live conversations keep the free browser voice
+unchanged; the 11 Representatives now have two separate voice identities
+by design (a live free voice for conversation, a future ElevenLabs voice
+for their Atlas story), not a conflict to resolve later.
+
+**Built, this session:** `tools/tree-narration-voices.mjs` - a per-movement
+voice-override map, one entry per built-world movement id, each still
+blank (falls back to the single default narrator) until Mark auditions
+and picks a distinct voice per Representative in ElevenLabs' own
+dashboard. `generate_tree_narration.mjs`'s `resolveVoiceId()` reads a
+movement's own override when set, else the default narrator - the
+remaining 281 movements are entirely unaffected, always the default.
+17 tests total, all passing; `--dry-run` output now marks which
+movements would use a distinct voice.
+
+**Names verified, not assumed** - a dedicated pass cross-checked all 11
+movement-id -> Representative mappings directly against
+`records/worlds/<code>.yaml` and each world's own registry log; the
+working list from earlier session research was entirely correct, zero
+mismatches. One unrelated doc-hygiene flag surfaced in the same pass,
+deliberately not touched here (not this thread's own content, per this
+file's own default-action table): `cappadocian`'s Representative was
+renamed Eumathios -> Chilo on 2026-09-01, but
+`cappadocian_Representative_Construction_Notes_Eumathios.md` and its
+paired Permanent Prompt file still carry the old name in their filenames
+- superseded content never renamed/archived.
+
+### Next action
+
+Mark: pick a distinct ElevenLabs voice per Representative in the
+dashboard (11 picks) plus the one default narrator for everything else
+(12 total), fill the corresponding voice id into
+`tools/tree-narration-voices.mjs`. Still open from the prior scoping:
+storage strategy for ~292 audio files (git-committed vs. object storage)
+before the real generation batch runs; `ELEVENLABS_API_KEY` +
+`ELEVENLABS_VOICE_ID` need adding to this cloud environment. Separately,
+whenever a thread has capacity: the stale Eumathios-named files flagged
+above are a real, small doc-hygiene cleanup, not urgent.
