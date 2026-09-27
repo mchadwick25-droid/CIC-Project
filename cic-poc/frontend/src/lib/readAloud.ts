@@ -5,9 +5,14 @@
  * server-side TTS, and any paid tier are a later, separate step and
  * nothing here reaches toward them.
  *
- * No voice is ever chosen here - SpeechSynthesisUtterance.voice is never
- * assigned, so the browser always speaks in its own default voice for
- * the page's language.
+ * No voice is chosen for a single-Representative interview - the browser's
+ * own default voice for the page's language is fine there, since only one
+ * voice is ever speaking. A Table seats more than one Representative in
+ * the same screen, though, and the browser's single default voice makes
+ * them all sound identical - `pickVoiceForSeat` gives each seated
+ * Representative a distinct voice, deterministically, from whatever the
+ * device actually has (see its own docstring for the honest limits of
+ * that).
  *
  * Text is split into sentences and queued as separate utterances rather
  * than spoken as one long one. Two independent reasons, not one:
@@ -47,8 +52,10 @@ export function splitIntoSentences(text: string): string[] {
  * stop - `cancelReadAloud` handles that path directly (see
  * ReadAloudControl), so a caller doesn't have to guess which of two
  * completion signals actually means "the button should go back to idle."
+ * `voice`, when given, is assigned to every sentence's utterance -
+ * omitted (the interview path), the browser picks its own default.
  */
-export function speakText(text: string, onDone: () => void): void {
+export function speakText(text: string, onDone: () => void, voice?: SpeechSynthesisVoice): void {
   if (!isReadAloudSupported()) {
     onDone();
     return;
@@ -61,12 +68,44 @@ export function speakText(text: string, onDone: () => void): void {
   }
   sentences.forEach((sentence, i) => {
     const utterance = new SpeechSynthesisUtterance(sentence);
+    if (voice) utterance.voice = voice;
     if (i === sentences.length - 1) {
       utterance.onend = onDone;
       utterance.onerror = onDone;
     }
     window.speechSynthesis.speak(utterance);
   });
+}
+
+/**
+ * Assigns each of `seatedWorldKeys` a distinct voice, deterministically,
+ * from whatever `window.speechSynthesis.getVoices()` the device actually
+ * has for the page's language - never a promise of gender or culture
+ * match, since a browser's voice list carries no reliable, structured
+ * signal for either. Filters to voices whose `lang` matches the page's
+ * own language first (falling back to every voice if none match), then
+ * sorts by name so the assignment is stable across calls. Seats are
+ * sorted independently of seating order for the same reason - the same
+ * set of seated worlds always maps to the same voices.
+ *
+ * Devices commonly expose only one usable voice - the common case this
+ * degrades to is every seat sharing that one voice, same as an interview,
+ * not a crash or a broken control. When there are at least as many voices
+ * as seats, no two seats ever share one.
+ */
+export function pickVoiceForSeat(seatedWorldKeys: string[], targetWorldKey: string): SpeechSynthesisVoice | undefined {
+  if (!isReadAloudSupported()) return undefined;
+  const all = window.speechSynthesis.getVoices();
+  if (all.length === 0) return undefined;
+  const pageLang = (typeof document !== 'undefined' && document.documentElement.lang) || 'en';
+  const prefix = pageLang.split('-')[0].toLowerCase();
+  const matching = all.filter((v) => v.lang.toLowerCase().startsWith(prefix));
+  const pool = (matching.length > 0 ? matching : all).slice().sort((a, b) => a.name.localeCompare(b.name));
+
+  const seats = seatedWorldKeys.slice().sort();
+  const seatIndex = seats.indexOf(targetWorldKey);
+  if (seatIndex === -1) return pool[0];
+  return pool[seatIndex % pool.length];
 }
 
 export function cancelReadAloud(): void {

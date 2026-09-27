@@ -22,6 +22,7 @@ import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry } from '../data/worlds';
 import { readAloudEnabled } from '../lib/flags';
+import { pickVoiceForSeat } from '../lib/readAloud';
 
 interface TableRoomProps {
   seatedWorlds: WorldEntry[];
@@ -63,10 +64,17 @@ export function TableRoom({
   // single {representative_name} slot can't name all of them, and the
   // very first spoken turn in every session is the Facilitator's own door
   // turn (useConversation.ts), before any seated voice has spoken at all.
-  // The first seated voice stands in - a documented simplification (design
-  // note Q7 update), not a claim that voice specifically said anything.
+  // The first seated voice stands in - a documented simplification, not a
+  // claim that voice specifically said anything.
   const readAloudRepresentativeName = seatedWorlds[0]?.representativeName ?? '';
-
+  // Distinct voice per seated Representative (best effort - see
+  // pickVoiceForSeat's own docstring for what a device without enough
+  // voices falls back to). undefined for the Facilitator's own turns,
+  // which have no seat to assign one from.
+  const readAloudVoice =
+    latestSpoken && byKey.has(latestSpoken.turn.speaker)
+      ? pickVoiceForSeat(seatedWorlds.map((w) => w.worldKey), latestSpoken.turn.speaker)
+      : undefined;
   return (
     <div className="conversation">
       <div className="conversation__bar">
@@ -78,7 +86,7 @@ export function TableRoom({
             </div>
           )}
           {readAloudAvailable && latestSpoken && (
-            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} voice={readAloudVoice} />
           )}
         </div>
       </div>

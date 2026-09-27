@@ -29,11 +29,15 @@ import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 interface ReadAloudControlProps {
   text: string;
   turnKey: string | number;
+  // Table sessions pass the speaking Representative's own assigned voice
+  // (lib/readAloud.ts's pickVoiceForSeat) so seated voices don't all sound
+  // identical; an interview passes nothing and gets the browser's default.
+  voice?: SpeechSynthesisVoice;
 }
 
 type PlayState = 'idle' | 'playing';
 
-export function ReadAloudControl({ text, turnKey }: ReadAloudControlProps) {
+export function ReadAloudControl({ text, turnKey, voice }: ReadAloudControlProps) {
   const available = useReadAloudAvailability();
   const [state, setState] = useState<PlayState>('idle');
   const lastKeyRef = useRef(turnKey);
@@ -65,7 +69,7 @@ export function ReadAloudControl({ text, turnKey }: ReadAloudControlProps) {
     }
     setState('playing');
     recordReadAloudPlay();
-    speakText(text, () => setState('idle'));
+    speakText(text, () => setState('idle'), voice);
   };
 
   return (

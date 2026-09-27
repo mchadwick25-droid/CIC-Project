@@ -115,4 +115,15 @@ describe('ReadAloudControl - play/stop', () => {
 
     expect(speechSynthesis.cancel).toHaveBeenCalled();
   });
+
+  it("passes a Table seat's assigned voice through to the spoken utterance", () => {
+    const speechSynthesis = stubSupportedWithVoices();
+    const voice = { name: 'Seat Voice', lang: 'en-US' } as SpeechSynthesisVoice;
+    const { container } = render(<ReadAloudControl text="Hello there." turnKey={0} voice={voice} />);
+
+    fireEvent.click(within(container).getByRole('button', { name: 'Read aloud' }));
+
+    const spokenUtterance = speechSynthesis.speak.mock.calls[0][0];
+    expect(spokenUtterance.voice).toBe(voice);
+  });
 });

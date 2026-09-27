@@ -3625,3 +3625,62 @@ real `engine/api` deployment (not the dev server), and a deliberate
 Dockerfile/`render.yaml` change before `VITE_READ_ALOUD` can be turned on
 for any real deployment — neither made here, per the design note's own
 scope boundary.
+
+---
+
+## 2026-09-27 (later) — Read-aloud, step 2: per-Representative voices at a Table
+
+**Scope, converged with Mark.** "Voice for both engines" turned out to
+already be true — read-aloud was already wired into `TableRoom.tsx`
+identically to `Conversation.tsx` from step 1's rebase. The real, open
+problem was narrower: a Table seats 2-3 Representatives, often different
+genders (Chloe, Albina, Mar Yausep are all documented, named figures), but
+the browser's single default voice makes every seat sound the same. Mark
+chose free browser voices, best effort, over a paid composite-voice tier
+scoped to Table sessions only - deterministic assignment from whatever the
+device exposes, degrading honestly to one shared voice when that's all
+there is, no gender-matching claimed since a browser's voice list carries
+no reliable, structured signal for it.
+
+**Built:** `lib/readAloud.ts`'s new `pickVoiceForSeat(seatedWorldKeys,
+targetWorldKey)` filters `speechSynthesis.getVoices()` to the page's
+language (falling back to all voices), sorts them for a stable order, sorts
+the seated world keys independently of seating order, and indexes one into
+the other - so the same seating always maps to the same voices, and two
+seats never share one when there are enough voices to go around.
+`speakText` grew an optional `voice` parameter, assigned to every
+sentence's utterance. `ReadAloudControl` grew an optional `voice` prop
+threaded through. `TableRoom.tsx` computes it per render from the latest
+spoken turn's `speaker` (the seat's own world_key) - `undefined` for the
+Facilitator's own turns, which have no seat to assign one from; the
+interview path (`Conversation.tsx`) is untouched, since one voice was never
+ambiguous there.
+
+**Verified for real**, same discipline as step 1: the no-spend
+`engine/api/dev_server.py` can seat a real Table (real registry, real
+`alx`+`desert` packages, real Facilitator opening turn) but its fake
+Bedrock client only implements the reader/safety tool paths, not Table
+turn-selection, so it 500s trying to pick a second speaker. Routed only
+`POST .../message` through a scripted response naming `desert` as the
+speaker, keeping session creation, seating, and the Facilitator's real turn
+genuinely live. Result: the Facilitator's turn correctly got no voice
+assigned (five sentences, all `voice: null`); Papnoute's (desert) turn got
+"Voice Beta," distinct from what Theon (alx, seat 0) would get. No console
+errors.
+
+**Also cleaned:** a leftover "design note Q7 update" ruling-reference
+comment in `TableRoom.tsx`, caught in the same
+`check_live_commentary.py --surface cic-poc-frontend` pass this thread's
+own earlier files were held to.
+
+**Verification:** `npm run test` 71/71 passing (10 new: voice-assignment
+determinism/fallback/language-filtering in `readAloud.test.ts`, the `voice`
+prop in `ReadAloudControl.test.tsx`, per-seat differentiation and the
+Facilitator's no-voice case in `TableRoom.test.tsx`). `npm run build`
+clean. `check_paths.py --baseline` and `check_live_commentary.py` both
+clean on the touched files.
+
+**What's left:** the same Mark's-own-ears gate step 1 left open, now for a
+Table specifically - and, separately, whatever real device coverage looks
+like in practice (this design's honest fallback is a real limitation, not
+a hidden one, on any device with only one system voice installed).

@@ -11,6 +11,7 @@ import {
   hasSeenReadAloudDisclosure,
   isReadAloudSupported,
   markReadAloudDisclosureSeen,
+  pickVoiceForSeat,
   readAloudDisclosureText,
   recordReadAloudPlay,
   speakText,
@@ -20,14 +21,16 @@ import {
 class FakeUtterance {
   onend: (() => void) | null = null;
   onerror: (() => void) | null = null;
+  voice: unknown = null;
   constructor(public text: string) {}
 }
 
-function stubSpeechSynthesis() {
+function stubSpeechSynthesis(voices: Array<{ name: string; lang: string }> = []) {
   const spoken: FakeUtterance[] = [];
   const speechSynthesis = {
     speak: vi.fn((u: FakeUtterance) => spoken.push(u)),
     cancel: vi.fn(),
+    getVoices: vi.fn(() => voices),
   };
   vi.stubGlobal('speechSynthesis', speechSynthesis);
   vi.stubGlobal('SpeechSynthesisUtterance', FakeUtterance);
@@ -36,6 +39,7 @@ function stubSpeechSynthesis() {
 
 afterEach(() => {
   vi.unstubAllGlobals();
+  document.documentElement.lang = '';
 });
 
 describe('isReadAloudSupported', () => {
@@ -113,6 +117,63 @@ describe('speakText', () => {
       "Please reach out to someone real. You're not being sent away.";
     speakText(safetyText, vi.fn());
     expect(spoken).toHaveLength(4);
+  });
+
+  it('assigns the given voice to every sentence utterance when one is passed', () => {
+    const { spoken } = stubSpeechSynthesis();
+    const voice = { name: 'Fake Voice', lang: 'en-US' };
+    speakText('First one. Second one.', vi.fn(), voice as SpeechSynthesisVoice);
+    expect(spoken.every((u) => u.voice === voice)).toBe(true);
+  });
+
+  it('leaves voice unset (browser default) when none is passed', () => {
+    const { spoken } = stubSpeechSynthesis();
+    speakText('One sentence.', vi.fn());
+    expect(spoken[0].voice).toBeNull();
+  });
+});
+
+describe('pickVoiceForSeat', () => {
+  it('gives two seats different voices when at least two voices exist', () => {
+    stubSpeechSynthesis([
+      { name: 'Alpha', lang: 'en-US' },
+      { name: 'Beta', lang: 'en-US' },
+    ]);
+    const seats = ['alx', 'desert'];
+    const alx = pickVoiceForSeat(seats, 'alx');
+    const desert = pickVoiceForSeat(seats, 'desert');
+    expect(alx).not.toBe(desert);
+  });
+
+  it('is deterministic - the same seating always maps to the same voice per world', () => {
+    stubSpeechSynthesis([
+      { name: 'Alpha', lang: 'en-US' },
+      { name: 'Beta', lang: 'en-US' },
+    ]);
+    const seats = ['alx', 'desert', 'pahc'];
+    expect(pickVoiceForSeat(seats, 'pahc')).toBe(pickVoiceForSeat(seats.slice().reverse(), 'pahc'));
+  });
+
+  it('filters to the page language when more than one is available, falling back to all voices otherwise', () => {
+    stubSpeechSynthesis([
+      { name: 'German One', lang: 'de-DE' },
+      { name: 'English One', lang: 'en-US' },
+    ]);
+    document.documentElement.lang = 'en';
+    expect(pickVoiceForSeat(['alx'], 'alx')?.name).toBe('English One');
+  });
+
+  it('degrades to one shared voice, not a crash, when the device has only one', () => {
+    stubSpeechSynthesis([{ name: 'Only One', lang: 'en-US' }]);
+    const seats = ['alx', 'desert', 'pahc'];
+    expect(seats.map((k) => pickVoiceForSeat(seats, k)?.name)).toEqual(['Only One', 'Only One', 'Only One']);
+  });
+
+  it('returns undefined when the device has no voices at all, or no speech synthesis', () => {
+    stubSpeechSynthesis([]);
+    expect(pickVoiceForSeat(['alx'], 'alx')).toBeUndefined();
+    vi.unstubAllGlobals();
+    expect(pickVoiceForSeat(['alx'], 'alx')).toBeUndefined();
   });
 });
 
