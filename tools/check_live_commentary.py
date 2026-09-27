@@ -377,21 +377,23 @@ _STRUCTURED_DATE_KWARG = re.compile(r"\b[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*[\"']20\d\d
 # than Source_Registry.md's own permanent, never-revised "when this source
 # was first vendored" record - the same distinction between a source
 # record's own permanent `discovery_channel` field and a status field that
-# can go stale. Confirmed live: witt_Source_Registry.md's own "Added"/
-# "Discovery channel/date" columns account for the large majority of that
+# can go stale. Confirmed live: witt/lpc/don/cappadocian's own "Added"/
+# "Discovery channel/date" columns account for the large majority of each
 # file's remaining iso-date hits before this exemption; a genuinely
 # narrative table cell (e.g. Doc_03's own multi-hundred-word evidentiary
 # cells) is never this short, so it is never wrongly swept in by this
-# check even within a Source_Registry.md file itself. lpc/don/cappadocian
-# write the date FIRST in their own provenance cells ("2026-09-02, `lpc`
-# build thread") rather than last, which this regex does not match - those
-# stay flagged (errs safe, not a false negative) rather than silently
-# assumed covered.
-# The leading-text group is optional: a cell can be the bare date alone
-# ("2026-07-14", no leading text at all), not only "text, then a date" -
-# an earlier version of this regex required at least one leading character
-# before the date and so could never match a purely-bare date cell at all.
-_BARE_DATE_TABLE_CELL = re.compile(r"^(?:[\w][\w .,'()/-]{0,39})?,?\s*20\d\d-\d\d-\d\d,?\s*$")
+# check even within a Source_Registry.md file itself.
+# Handles both cell orderings found live: "label, then date" (witt's own
+# "web search, 2026-07-14") and "date, then label" (lpc/don's own "Added"
+# column: "2026-09-01, `lpc` build thread"; cappadocian's "2026-08-31,
+# build thread") - the earlier version only allowed a trailing bare comma
+# after the date, so it could never match the date-first convention at
+# all, leaving lpc/don/cappadocian's own "Added" columns flagged even
+# though they're the identical structured-provenance shape witt's own
+# column already gets exempted for.
+_BARE_DATE_TABLE_CELL = re.compile(
+    r"^(?:[\w][\w .,'()`/-]{0,39})?,?\s*20\d\d-\d\d-\d\d\s*(?:,\s*[\w .,'()`/-]{0,59})?$"
+)
 _SOURCE_REGISTRY_FILENAME = re.compile(r"(?i)(^|_)source_registry\.md$")
 
 

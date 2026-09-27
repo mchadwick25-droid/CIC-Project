@@ -1109,6 +1109,25 @@ def test_source_registry_table_cell_bare_date_keeps(tmp_path):
     assert by_line.get(6, "KEEP") == "KEEP"
 
 
+def test_source_registry_table_cell_date_first_keeps(tmp_path):
+    # lpc/don/cappadocian write the date FIRST in their own "Added" column
+    # ("2026-09-01, `lpc` build thread") rather than last - the cell
+    # exemption must handle both orderings, not just "label, then date".
+    text = (
+        "# Source Registry\n"
+        "\n"
+        "---\n"
+        "\n"
+        "| Row | Source | Confidence | Added |\n"
+        "| 1 | Some Work | A | 2026-09-01, `lpc` build thread |\n"
+        "| 2 | Another Work | B | 2026-08-31, build thread |\n"
+    )
+    hits = _hits_for(text, tmp_path, "Build/worlds/lpc/Source_Registry.md")
+    by_line = {h.line: h.category for h in hits}
+    assert by_line.get(6, "KEEP") == "KEEP"
+    assert by_line.get(7, "KEEP") == "KEEP"
+
+
 def test_bare_date_table_cell_outside_source_registry_still_rewrites(tmp_path):
     # The same short "channel, date" cell shape in a DIFFERENT file
     # (DOWNLOAD-QUEUE.md tracks an ongoing, still-changing verification
