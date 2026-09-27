@@ -61,6 +61,14 @@ relations:
   target: gallic.gravity.received-not-invented
 - type: associated-with
   target: gallic.gravity.named-example
+- type: associated-with
+  target: gallic.quote.germanus-troubled-after-the-nights-teaching
+- type: associated-with
+  target: gallic.quote.germanus-and-chaeremon-on-the-husbandman
+- type: associated-with
+  target: gallic.quote.chaeremon-grace-requires-our-effort
+- type: associated-with
+  target: gallic.quote.chaeremon-three-stages-of-grace
 narrative_tier: 1
 narrative_tier_justification: >-
   Tier 1 - Documented Historical Narrative - stated with care, because this is the story on which the
@@ -91,40 +99,34 @@ text: >-
   came up in Egypt - not in a school, but between two friends at the hour of prayer, at the cell of an
   Egyptian elder near Panephysis, written down afterward in Gaul for the brothers at Lerins.
 
-  They had spent the previous evening, he and Germanus, hearing the old man Chaeremon speak on chastity
-  - a discourse "the force of which had inspired us with the utmost longing for this chastity which was
-  till now unknown to us." Then, "when after a short sleep we returned for morning service and were
-  waiting for the old man, Abbot Germanus was troubled by great scruples." The trouble was one sentence.
-  In the night's teaching "the blessed old man had by the addition of a single sentence broken down the
-  claims of man's exertions, adding that man even though he strive with all his might for a good
-  result, yet cannot become master of what is good unless he has acquired it simply by the gift of
-  Divine bounty and not by the efforts of his own toil."
+  He and Germanus had spent the previous evening hearing the old man Chaeremon speak on chastity, and
+  the teaching left them longing for a purity they had not known before. But it also left Germanus
+  troubled. Sleeping only briefly, they came back for morning prayer still turning over one sentence
+  from the night before: that striving with all one's might is still not enough, on its own, to make a
+  person master of the good - that has to be received as a gift. (See
+  gallic.quote.germanus-troubled-after-the-nights-teaching for Cassian's own account of this.)
 
-  "While then we were puzzling over this question," Cassian writes, "the blessed Chaeremon arrived at
-  the cell, and as he saw that we were whispering together about something, he cut the service of
-  prayers and Psalms shorter than usual, and asked us what was the matter."
+  Chaeremon noticed the two of them whispering and cut the morning service short to ask what was wrong.
 
-  Germanus put it plainly. It seemed to them absurd, he said, "for the reward of our efforts, i.e.,
-  perfect chastity, which is gained by the earnestness of one's own toil, not to be ascribed chiefly to
-  the exertions of the man who makes the effort. For it is foolish, if, when for example, we see a
-  husbandman taking the utmost pains over the cultivation of the ground, we do not ascribe the fruits
-  to his exertions."
+  Germanus put the trouble plainly: it seemed absurd, he said, for the reward of real effort - true
+  chastity, won by hard, sustained toil - not to be credited mainly to the person who put in the work.
+  A farmer who labors hard over his field gets the credit for the harvest; why should chastity be any
+  different?
 
-  Chaeremon took the husbandman and turned him round. "Neither can the husbandman, when he has spent the
-  utmost pains in cultivating the ground, forthwith ascribe the produce of the crops and the rich fruits
-  to his own exertions, as he finds that these are often in vain unless opportune rains and a quiet and
-  calm winter aids them" - and yet, he went on, "the Divine goodness does not grant these rich crops to
-  idle husbandmen who do not till their fields by frequent ploughing." A man "could not by his own
-  strength apply those very efforts which he has earnestly used ... unless the Lord's protection and
-  pity had given him strength." From which, the old man concluded, "the initiative not only of our
-  actions but also of good thoughts comes from God, who inspires us with a good will to begin with, and
-  supplies us with the opportunity of carrying out what we rightly desire" - and "it is for us, humbly
-  to follow day by day the grace of God which is drawing us."
+  Chaeremon turned the farmer's own example back on him. Even the hardest-working farmer cannot claim
+  the harvest by his labor alone - it depends on rain and a mild winter he cannot control, and God
+  does not grant a rich crop to a farmer who never ploughs, either. In the same way, no one could even
+  begin to make the effort chastity demands without God's protection giving them the strength to do it.
+  From this, Chaeremon concluded that both the desire to do good and the chance to act on it come from
+  God first; the human part is simply to follow, day by day, the grace that is already drawing a person
+  forward. (See gallic.quote.germanus-and-chaeremon-on-the-husbandman for Germanus's objection and
+  Chaeremon's full answer.)
 
-  That morning's answer grew into the whole Conference. Later in it Chaeremon would say that "the grace
-  of God always co-operates with our will for its advantage," and, at the end, that "how God works all
-  things in us and yet everything can be ascribed to free will, cannot be fully grasped by the mind and
-  reason of man."
+  That morning's answer grew into the whole Conference. Later in it, Chaeremon returns to the question
+  twice more: that God's grace works together with human will and still asks something of it in return
+  (see gallic.quote.chaeremon-grace-requires-our-effort), and that grace and free will divide the work
+  between them in three stages, in a way he says is more than the human mind can fully grasp (see
+  gallic.quote.chaeremon-three-stages-of-grace).
 absent_detail: >-
   What the old man actually said about chastity the night before - Conference XII - is not in the
   vendored edition, which marks it "Not translated," so the scruple's occasion is known only from this
@@ -139,25 +141,12 @@ modern_contrast: >-
   and rain. The doctrine sat inside the formation life as a question about whether the practices
   accomplish anything, before anyone across the sea reported it as a party's position.
 ---
-Converted at B-4 from the approved Doc_09 chunk gallicstory013_germanus-scruple-at-morning-service.md
-(Tier 1, Marseilles node - Cassian's own experience, in Egypt; Registry rows 9 and 11). Story Text
-carried faithfully; the chunk's post-review corrections respected (M5: the Third Conference of
-Chaeremon; H3: Egyptian setting disclosed in the narrative). "Chaeremon" is spelled without the ligature
-for plain ASCII; the vendored volume prints the ae ligature. Germanus here is Cassian's companion, never
-Germanus of Auxerre (Registry row 44, Excluded, not drawn on). Row 43 (Salvian) is not cited, per its
-exclusion from grace-related material.
+"Chaeremon" is spelled without the ligature for plain ASCII; the vendored volume prints the ae ligature.
+Germanus here is Cassian's own companion, never Germanus of Auxerre.
 
-FEC / GRAVITY LINKAGE (parked for B-5; no gravity/force records exist yet for this world): the chunk's
-own Formation Ecology Connection names this as G3 - the grace-and-effort argument (Supporting at world
-level; Primary within the southern node; node-bound) at the moment the tradition's own text says it
-began - Doc_05 §2.4(v)'s load-bearing finding that "the argument this world became known for is, from
-within, an argument about whether the practices ... accomplish anything," and Doc_08 Force 2B-1's Layer
-1; G7 - the interior road meeting its own limit (the scruple is about purity); G4 - received, not
-invented in the form the argument would always take ("all the Catholic fathers," XIII.18); and G5 in
-its southern medium, a reported conference resting on the fact that Cassian heard Chaeremon.
-
-CONVERTED AT B-5: real relations[] entries added above - illustrates
-gallic.gravity.grace-and-effort; associated-with gallic.gravity.interior-road,
-gallic.gravity.received-not-invented, gallic.gravity.named-example - each connection named above,
-with the reciprocal back-edge (illustrated-by / associated-with) declared on every one of those
-gravity records.
+The narrative's verbatim wording is carried in four quote records, each independently verified
+against the vendored npnf211 file: gallic.quote.germanus-troubled-after-the-nights-teaching
+(Conference XIII.1), gallic.quote.germanus-and-chaeremon-on-the-husbandman (Conference XIII.2-3),
+gallic.quote.chaeremon-grace-requires-our-effort (Conference XIII.13), and
+gallic.quote.chaeremon-three-stages-of-grace (Conference XIII.18) - two separate teachings from two
+non-adjacent chapters of the same Conference, each carried as its own record rather than joined.

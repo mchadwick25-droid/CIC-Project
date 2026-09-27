@@ -70,7 +70,7 @@ def cmd_staleness_check(args: argparse.Namespace) -> int:
 
 
 def cmd_upload(args: argparse.Namespace) -> int:
-    """WO-1 (2026-09-16): pushes an already-built package to object
+    """Pushes an already-built package to object
     storage, so a deploy running the OLD image can still serve it -
     Artifact-2 SS5's "packages are built by CI, uploaded to object
     storage." Manual for now (a human runs this after `build`, the same

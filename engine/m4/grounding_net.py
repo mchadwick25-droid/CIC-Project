@@ -49,6 +49,7 @@ even make a checkable claim," owned once.
 """
 import re
 
+from engine.m1.quote_verbatim import normalize_archaic_letterforms
 from engine.prose import (
     QUOTE_CLOSE,
     QUOTE_OPEN,
@@ -171,6 +172,14 @@ def _quoted_spans(text: str) -> list[str]:
 
 
 def _normalize(text: str) -> str:
+    # Archaic letterforms first (the same mapping engine.m1.quote_verbatim's
+    # own verbatim check applies): otherwise the [^a-z0-9\s] strip below silently
+    # deletes ſ/þ/ð rather than folding them to their modern spelling,
+    # which is a real content loss, not a normalization ("þe" becoming
+    # " e" instead of "the"). Applied to both the quoted span and the
+    # shelf's own record text below, since both call sites route through
+    # this one function - inherently symmetric.
+    text, _classes = normalize_archaic_letterforms(text)
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", text.lower())).strip()
 
 
@@ -435,6 +444,41 @@ _PARAGRAPH_SPLIT = re.compile(r"\n\s*\n")
 def split_into_paragraphs(tagged_text: str) -> list[str]:
     paragraphs = [p for p in _PARAGRAPH_SPLIT.split(tagged_text) if p.strip()]
     return paragraphs or [tagged_text]
+
+
+def drop_flagged_sentences(tagged_text: str, flagged_sentences: set[str]) -> str:
+    """Removes each named sentence's own raw span - tag included - from
+    tagged_text, whole, and rejoins what is left. The one enforcement
+    action a caller may take on a flagged sentence that is not "regenerate
+    the whole turn again": reuses this module's own split_into_paragraphs/
+    parse_tagged, the same sentence/paragraph boundaries every verdict in
+    "sentences" was already computed against, so a sentence named by its
+    own exact `verdict_for_sentence`-produced text (parse_tagged's own
+    "text" field, tags already stripped) is matched and removed
+    unambiguously - no re-splitting, no re-tokenizing, no risk of
+    disagreeing with the net about where one sentence ends and the next
+    begins.
+
+    Two structural guarantees, not left to chance:
+      - a paragraph that loses every one of its own sentences is dropped
+        whole, never left behind as an empty blank-line block;
+      - a paragraph that keeps at least one sentence keeps its own
+        surviving sentences joined by a single space, so removing a
+        sentence from the middle never leaves doubled whitespace or an
+        orphaned closing quote/tag.
+
+    What this does NOT guarantee: a sentence that grammatically promised
+    the one just removed (a paragraph ending "...three things stand out:"
+    whose own next sentence was the one dropped) can still read as an
+    unfinished promise - a semantic dangling fragment this string-level
+    operation has no way to see, as opposed to the structural one
+    (broken punctuation, an empty paragraph) it does prevent."""
+    kept_paragraphs = []
+    for paragraph in split_into_paragraphs(tagged_text):
+        kept_sentences = [sent["raw"] for sent in parse_tagged(paragraph) if sent["text"] not in flagged_sentences]
+        if kept_sentences:
+            kept_paragraphs.append(" ".join(kept_sentences))
+    return "\n\n".join(kept_paragraphs)
 
 
 def check_turn_with_paragraph_coverage(

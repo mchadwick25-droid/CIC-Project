@@ -40,7 +40,7 @@
 # tallied against, not the loose pattern.
 #
 # TWO SERVICES, one blueprint, D3's promotion model (Repo Structure
-# Cleanup phase 3, 2026-09-15 - Ministry/Operations/Standing/
+# Cleanup phase 3, 2026-09-15 - Build/Ministry/Operations/Standing/
 # CiC_Repo_Structure_Tracking.md). `main` is the integration sandbox;
 # `live` is the protected branch production actually deploys from,
 # advanced only by a deliberate, logged promotion (a reviewed PR from
@@ -61,7 +61,7 @@
 # same account cic-website already uses - CIC_API_PACKAGE_BUCKET/
 # _ENDPOINT/_ACCESS_KEY_ID/_SECRET_ACCESS_KEY are all sync: false, unset
 # until Mark completes the one-time R2 setup in
-# Ministry/Operations/Standing/CiC_Object_Storage_Runbook.md. Until then
+# Build/Ministry/Operations/Standing/CiC_Object_Storage_Runbook.md. Until then
 # CIC_API_PACKAGE_BUCKET stays empty and every world loads exactly as it
 # always did, straight off this image's own baked-in packages/ - object
 # storage is a fallback for a world installed since the last deploy, not
@@ -88,7 +88,7 @@
 # retention converts data LOSS into unbounded GROWTH.
 #
 # Backups (Tech-Readiness Package 2, 2026-09-21 -
-# Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md). The disk
+# Build/Ministry/Operations/Standing/CiC_Backup_Restore_Runbook.md). The disk
 # above is the only copy of events.db/usage.db until this is set up - a
 # 1GB Render Disk is not itself a backup target (it IS the primary; a
 # backup that lives beside what it backs up protects against nothing).
@@ -227,6 +227,12 @@ services:
         value: /data/cic_api_usage.db
       - key: CIC_ENFORCE_ADMISSION
         value: "0"
+      # Read-aloud step 1/2 (Build/Ministry/Technology/CiC_ReadAloud_Step1_
+      # Design_Note.md), staging only, for a real-browser listen-through - cic-engine
+      # (prod) does not set this. Free browser speechSynthesis, no new
+      # backend, no recurring cost either way.
+      - key: VITE_READ_ALOUD
+        value: "on"
       # Same pin, same reason, as cic-engine's own CIC_API_SAFETY_MODEL_
       # PATTERN comment above (Stage 0d, Build-Plan.md) - staging validates
       # against the same tallied model production runs, not a floating

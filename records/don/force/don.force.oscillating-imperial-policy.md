@@ -53,22 +53,34 @@ name: Oscillating imperial religious policy [2A - ongoing/external]
 kind: ongoing
 matrix_cell: 2A
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2A, Force 2A-1): imperial religious policy toward this world oscillated
-  across its whole window. The Council of Rome (313, under Pope Miltiades, convened at Constantine's own order)
-  and the Council of Arles (314) both ruled against the Donatist party; Constantine's own coercive measures
-  (316-321) failed in practice and were reversed; Julian granted toleration in 361, including restoration
-  of confiscated basilicas; sustained legal suppression resumed from the 405 Edict of Unity through the 411
-  Conference of Carthage and its aftermath. Documented. LAYER 2 - THE WORLD'S OWN EXPERIENCE: the emperor's
-  favor swung back and forth across this whole span - coercion, then toleration, then suppression again -
-  and this world held itself steady through all of it on one conviction: what has the emperor to do with the
-  church? The state's recognition, or its withdrawal of recognition, never settled who the true church was.
-  It was simply a condition to be lived and formed inside, whichever way it turned. LAYER 3 - FORMATION IMPACT:
-  this force sustains the refusal-of-imperial-legitimacy gravity throughout the window and is the direct external
-  pressure the principled-refusal-against-recourse tension tests - the three qualifying turns to imperial
-  machinery (313, 361, the 390s) each occur at precisely the moments this oscillation briefly offered something
-  to gain. It is also the specific target of the rebaptism rite: successive imperial edicts name rebaptism
-  directly as a legal offence, and the Circumcellion/agonistici candidate is likewise the direct object of
-  specific imperial legislation (Codex Theodosianus 16.5.52).
+  Imperial religious policy toward this world swung back and forth across its whole time window.
+
+  In 313 the Council of Rome ruled against the Donatist party. It met under Pope Miltiades, at
+  Constantine's own order. In 314 the Council of Arles ruled against them too.
+
+  Constantine's own coercive measures of 316-321 failed in practice and were reversed. In 361
+  Julian granted toleration, including the return of confiscated basilicas.
+
+  Sustained legal suppression resumed with the 405 Edict of Unity. It ran through the 411
+  Conference of Carthage and its aftermath — a documented sequence from end to end.
+
+  The emperor's favor swung back and forth across this whole span: coercion, then toleration, then
+  suppression again. Through all of it, this world held steady on one conviction: what has the
+  emperor to do with the church?
+
+  The state could grant its recognition or withdraw it. Neither ever settled who the true church
+  was. It was simply a condition to live and be formed inside, whichever way it turned.
+
+  This force kept this world's refusal of the state's religious authority alive across the whole
+  window. It is also the outside pressure behind a key tension. This world refused state authority
+  on principle, yet turned to it three times in practice.
+
+  Those three turns to imperial machinery came in 313, in 361, and in the 390s. Each came at
+  exactly the moment when the swinging policy briefly offered something to gain.
+
+  The policy also struck directly at this world's rite of rebaptism. Successive imperial edicts
+  named rebaptism as a legal offence. The Circumcellions, also called agonistici, were likewise
+  the direct target of specific imperial law: Codex Theodosianus 16.5.52.
 manifestations:
 - the Council of Rome (313) and the Council of Arles (314), both ruling against the Donatist party
 - Constantine's coercive measures of 316-321, which failed in practice and were reversed

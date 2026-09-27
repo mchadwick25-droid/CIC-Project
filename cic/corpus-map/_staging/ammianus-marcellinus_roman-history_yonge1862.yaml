@@ -9,7 +9,7 @@ assignments:
   - imperial-juridical-christianity
   role: context
   confidence: assigned
-  note: 'Vendored 2026-09-13 by a fleet cross-world research thread and acted on directly by ijc''s
+  note: 'Used directly by ijc''s
     own build (ijc.source.ammianus-marcellinus, ijc.quote.ammianus-sicininus-massacre). Verified
     directly against the file: "It is certain that on one day one hundred and thirty-seven dead
     bodies were found in the Basilica of Sicininus, which is a Christian church" (lines 23186-23187),
@@ -24,5 +24,36 @@ assignments:
     No other Atlas entry in the current census plausibly draws on this specific episode; not
     checked exhaustively against the full census beyond ijc, which is the only world this file is
     used by anywhere in the corpus as of this pass.
+
+    '
+- work: Res Gestae, Book XXII (this edition''s own Ch. XIII-XIV) - the burning of the temple of
+    Apollo at Daphne, the shutting of the great church of Antioch, and the Antiochenes'
+    quarrel with Julian that produced the Misopogon
+  author: ammianus-marcellinus
+  locus: file lines 16172-16243 (the temple fire and church closure at lines 16174-16190; the
+    Misopogon origin at lines 16228-16243)
+  atlas_ids:
+  - antiochene-exegetical-christianity-chrysostom-ce
+  role: context
+  confidence: assigned
+  note: 'Ammianus wintered with Julian''s court at Antioch in 362-363 and narrates it as a
+    participant, not a distant reporter. Verified directly against the file: on the temple of
+    Apollo at Daphne burning down (22 October 362), "this terrible accident inflamed the emperor
+    with such anger, that he instantly ordered investigations of unprecedented severity to be
+    instituted, and the chief church of Antioch to be shut up. For he suspected that the Christians
+    had done it out of envy" (lines 16184-16188); the resulting standoff with the city led Julian
+    to compose "a volume of invectives which he called ''The Antiochean,'' or ''Misopogon''"
+    (lines 16236-16237) - the same episode this world''s own build would recognize as the formative
+    civic memory of church-state hostility in Antioch a generation before Chrysostom''s own ministry
+    there (386-398). A hostile-to-neutral pagan eyewitness''s account of Antioch''s Christian
+    community under real pressure, within this world''s own c. 350-430 window and in its own city -
+    the same register already given to Socrates, Sozomen, Cyril and the conciliar acts on this
+    world''s corpus-map bucket (context/hostile-witness).
+
+    `role: context`, not `tradition`: Ammianus writes as a former soldier and pagan man of letters,
+    sympathetic to Julian and unsparing toward the Antiochenes on both sides; nothing here is this
+    world''s own Christian voice. No other Atlas entry in the current census is checked against
+    this specific episode; the file''s only other current assignment is the unrelated 366 Rome
+    basilica riot (Book XXVII.3, above), for ijc.
 
     '

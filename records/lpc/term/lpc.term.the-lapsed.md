@@ -5,8 +5,11 @@ record_type: term
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F4-I
 relations:
+- type: associated-with
+  target: lpc.limit.the-lapsed-own-account
 - type: associated-with
   target: lpc.term.certificates-letters-of-peace
 - type: associated-with

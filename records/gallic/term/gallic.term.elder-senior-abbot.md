@@ -123,7 +123,7 @@ quick_meaning: >-
   Egyptian father's title; at Tours it is one master with no title at all.
 distortion_risk: high
 ---
-Built from Doc_06 entry 017 (Tier 2, added to §2.5's list at Round 1 review S7; chunk
+Built from Doc_06 entry 017 (Tier 2, on §2.5's list; chunk
 galliclex017_elder-senior-abbot.md; Doc_03 1.7). Register emic. Quotations verified at locus by the
 build's own Doc_06 pass; not re-read here. The Benedictine back-projection named at Doc_06 §4(b) runs
 straight through this term, so distortion_risk is high despite the shared function.

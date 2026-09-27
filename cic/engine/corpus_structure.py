@@ -58,13 +58,12 @@ _APPARATUS = re.compile(
     r"chronological table|genealogical tables?|errata|advertisement|"
     r"elucidations?|addenda|memoir|biographical synopsis)\b", re.I)
 
-# `appendix` needs its own rule. Matching it as a prefix marked
+# `appendix` needs its own rule. Matching it as a prefix would mark
 # Pseudo-Tertullian's *Against All Heresies* and npnf214's Trullan canonical
 # appendix as editorial matter - both ancient texts that CCEL merely shelves
-# under an "Appendix" heading. Two workers on the 2026-08-26 assignment run
-# caught it by eye and assigned them anyway. So an appendix is apparatus only
-# when the title is JUST that word (plus numbering or punctuation); an
-# appendix that names a work is a work.
+# under an "Appendix" heading. So an appendix is apparatus only when the
+# title is JUST that word (plus numbering or punctuation); an appendix that
+# names a work is a work.
 _BARE_APPENDIX = re.compile(r"^appendix\b[\s.:;,–—-]*(?:[ivxl]+|\d+)?[\s.:;,]*$", re.I)
 
 
@@ -73,6 +72,23 @@ def _unescape(text: str) -> str:
                          ("&quot;", '"'), ("&apos;", "'")):
         text = text.replace(entity, char)
     return text
+
+
+def _strip_tags_if_markup(path: Path, raw: str) -> str:
+    """`_TAG` ("<[^>]+>") is only safe to run against text that actually
+    contains real markup - it matches from ANY "<" to the NEXT ">", which
+    is correct for a genuine tag but not for prose, where a stray "<" (OCR
+    noise, a misread quotation mark, an editorial bracket) is text, not
+    the start of a tag, and has no real closing ">" of its own. Shared by
+    both callers below (outline(), and corpus_index.passage_units()),
+    scoped by the file's own extension rather than by "found no <div1-3>
+    markers": every .txt volume in this corpus is plain text, never
+    markup, so it is returned untouched; .xml still gets real tags
+    stripped, since a file can lack <div1-3> markers while still being
+    real markup elsewhere in its own tag set."""
+    if path.suffix != ".xml":
+        return raw
+    return _TAG.sub(" ", raw)
 
 
 def outline(path: Path, max_level: int = 2) -> list[dict]:
@@ -91,7 +107,7 @@ def outline(path: Path, max_level: int = 2) -> list[dict]:
                       _unescape(title_match.group(1)) if title_match else ""))
 
     if not marks:                                  # a plain .txt with no markup
-        words = len(_TAG.sub(" ", raw).split())
+        words = len(_strip_tags_if_markup(path, raw).split())
         return [{"level": 0, "title": path.stem, "words": words,
                  "subtree_words": words, "apparatus": False, "path": "1"}]
 

@@ -82,4 +82,4 @@ identical to it") applied honestly to this world's own ransom/debt/healing
 vocabulary rather than importing hal's own Bridegroom imagery, which
 belongs to a different world's own record, not this one's.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.gregory-nyssa-on-becoming-god, authored to further close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.gregory-nyssa-on-becoming-god.

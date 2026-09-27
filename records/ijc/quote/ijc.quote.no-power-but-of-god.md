@@ -73,7 +73,7 @@ relations:
 - type: associated-with
   target: ijc.quote.eutropius-right-of-refuge
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 53993.
+Verified verbatim against the vendored file at line 53993.
 DISCLOSED: the NPNF prints a variant note and a Greek gloss elsewhere in
 the homily, and a bracketed editorial objection immediately after the
 last sentence quoted; none of that is inside this quotation, and the

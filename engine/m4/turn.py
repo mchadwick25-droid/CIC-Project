@@ -52,17 +52,25 @@ from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 
 from engine.m1.loader import load_fleet_records
-from engine.m4 import crisis_resources, evidence, facilitator_turns, grounding_net
+from engine.m4 import crisis_resources, facilitator_turns, grounding_net
 from engine.m4.generation import stream_voice_turn
 from engine.m4.grounding import find_do_not_voice_violation
 from engine.m4.citation_cards import resolve_citation_sources
 from engine.m4.output_check import check_output
 from engine.m4.seat_identity_guard import find_seat_identity_violation
 from engine.m4.self_revision import self_revise
+from engine.m4.named_claim_grounding import find_named_claim_flags
+from engine.m4.sentence_fact_check import find_unsupported_named_claims
 from engine.m4.uncited_claims import classify_neighbour_named, find_uncited_claims, find_uncited_paragraphs
-from engine.m4.name_bridge import attach_cited_sources, find_figures_used, spoken_name
+from engine.m4.name_bridge import attach_cited_sources, find_figures_used
 from engine.m4.term_glosses import find_glosses_used
 from engine.m4.transparency_plan import build_transparency_plan
+from engine.m4.turn_prep import (
+    R26_HONEST_LIMIT_SENTENCE,
+    _build_turn_directive,
+    _other_tradition_directive,
+    prepare_voice_turn_inputs,
+)
 from engine.m4.world_loader import LoadedWorld
 from engine.m5 import live_calls
 from engine.m5.anachronism import resolve_term_ids, terms_in_message
@@ -72,7 +80,7 @@ from engine.m5.routing import Directive, directive_without_terms
 from engine.m8.usage import UsageRecord, record_usage
 
 
-SESSION_TURN_CAP = 10  # reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
+SESSION_TURN_CAP = 10  # Build/reference/Redesign-Spec/Artifact-6-Operations.md "per-session turn cap" (was DECIDABLE, default 40) - resolved to 10 after the live memory-growth measurement (engine/m8/live_memory_growth_run.py) showed real per-turn cost climbing, not flat, as session history accumulates. Counted in completed VOICE turns (len(history)//2), the same unit that actually drives the cost growth - a session's history is built by engine.api.wiring.history_from_transcript, which only pairs a participant message with a turn that got a real Representative reply, so facilitator-only turns (safety check-ins, system-nature, etc.) do not themselves consume the cap.
 
 
 class UnhandledRoutingAction(NotImplementedError):
@@ -276,318 +284,6 @@ def _gate_decision_payload(*, safety_outcome: CallOutcome, reader_outcome: CallO
     }
 
 
-R26_HONEST_LIMIT_SENTENCE = "Our record doesn't mention that Christian tradition."
-
-
-def _revealed_excerpts_block(revealed_excerpts: list[tuple[str, str]] | None) -> str | None:
-    """The tradition-pivot rule's condition (b) and third-source
-    quoted-lines block: exactly what this
-    conversation has said about the named tradition, speaker by speaker,
-    word for word (engine.m4.uncited_claims.conversation_revealed_
-    excerpts). A separate, labelled block in the private directive - never
-    folded into history, which keeps engine.api.wiring.history_from_
-    transcript's own Facilitator exclusion intact. None when nothing has
-    been said."""
-    if not revealed_excerpts:
-        return None
-    lines = "\n".join(f'- {who}: "{sentence}"' for who, sentence in revealed_excerpts)
-    return (
-        "What this conversation has actually said about that tradition, word for word:\n"
-        f"{lines}\n"
-        "That is everything you have been told about it here. Use nothing beyond these words."
-    )
-
-
-def _pivot_scope_clause(known_in_window: bool | None, *, has_excerpts: bool, seated: bool = False) -> str:
-    """The tradition-pivot rule for the pivot - which part of this world's
-    own record the answer comes from - on a question naming a tradition
-    the record does not cover. known_in_window is engine.m4.uncited_claims.
-    tradition_known_in_window's result (condition (a), under its
-    asymmetric reading); None means the question named no registry
-    tradition at all (e.g. "the Arians"), so nothing establishes the
-    knowledge either way and the text says only that. has_excerpts is
-    condition (b): the quoted-lines block rides alongside. seated: the
-    named tradition's own chair is at this table, and everything it says
-    is itself something this conversation told the voice (the third-source
-    rule), named
-    or not - so its speech is a source alongside the quoted lines, as the
-    seated branch's own text already allows. Neither condition: the
-    question's own words alone. Every branch keeps the
-    rule's standing limit - content about the other tradition never
-    enters the answer from outside the record."""
-    sources = ["the question's own words"]
-    if seated:
-        sources.append("what that chair has said")
-    if has_excerpts:
-        sources.append("the lines quoted below")
-    sources_text = sources[0] if len(sources) == 1 else f"{', '.join(sources[:-1])} and {sources[-1]}"
-    if known_in_window:
-        return (
-            "Your own world could have known of that tradition in its own time, so you may let that knowledge "
-            "guide which part of your own record you answer from. It never lets you say anything about that "
-            "tradition itself beyond what your own records hold and what this conversation has told you."
-        )
-    if known_in_window is False:
-        opening = "That tradition arose after your own world's time, so you cannot have known of it."
-    else:
-        opening = "Nothing establishes that your own world knew of that tradition in its own time."
-    return (
-        f"{opening} Choose which part of your own record to answer from using only {sources_text} - "
-        "never outside knowledge of that tradition."
-    )
-
-
-def _other_tradition_directive(
-    evidence_record_ids: list[str] | None = None,
-    *,
-    tradition_seated: bool = False,
-    tradition_seated_name: str | None = None,
-    repeat_turn: bool = False,
-    known_in_window: bool | None = None,
-    revealed_excerpts: list[tuple[str, str]] | None = None,
-) -> str | None:
-    """The honest-limit rule: a Representative should only
-    know its own sources unless they would have known the sources from
-    another in reality. This is the directive text an other_tradition
-    first ask now carries - see _build_turn_directive's own
-    is_other_tradition_first_ask parameter. The fixed sentence here is
-    engine.m4.uncited_claims.R26_HONEST_LIMIT_SENTENCE, matched exactly
-    (case-insensitive) by that module's own allowed-uncited detection -
-    the two must stay identical by construction, not by convention.
-    Always returns real text when called (never None - see
-    tradition_seated's own note below for why that changed).
-
-    evidence_record_ids (lets a world's own records stand
-    in for the honest limit when they already speak to the question):
-    engine.m4.uncited_claims.world_records_mention_tradition's own
-    result - record ids in THIS world's own package that already,
-    genuinely name the tradition asked about. The honest-limit rule
-    already named this exception ("unless they would have known the sources from
-    another in reality"); only the mechanism was missing until now. Empty
-    or None (the true "never heard of this tradition" case, e.g. alx on
-    Donatism) keeps the fixed honest-limit sentence exactly as it always
-    was - nothing here changes that branch. A nonempty list (e.g. ijc on
-    Donatism, whose own ijc.quote.compelled-to-come-in and
-    ijc.story.emperor-builds-another-basilica already name it) skips the
-    honest-limit sentence entirely, since saying it would be false, and
-    hands the voice those record ids as its own ground instead - cited
-    under the ordinary citation contract, the same as any other turn.
-
-    tradition_seated (the Table-parity fix): the named tradition's own
-    world is SEATED at this table - the fixed honest-limit sentence
-    would be false (this seat's neighbour speaks for that tradition
-    directly, right there), so it is never said regardless of evidence.
-    The evidence branch above still applies if this seat's own records
-    happen to name it (unchanged).
-
-    The first version of this fix returned None here with no evidence,
-    reasoning that the Table's own seat-to-seat clause (table_engagement)
-    already governed. That was wrong, and catching it exposed a real
-    failure it produces, not just a missing belt-and-suspenders:
-    table_engagement is built only when other_voice_has_spoken
-    (_table_engagement_directive's own docstring) - NEVER on a round's
-    true opening turn. The opening turn is exactly the turn that names
-    the seated tradition in the first place, so returning None there
-    left the model completely ungoverned on it. The live battery's own
-    OT3 probe caught the real result: asked about the seated tradition by
-    its card name, the voice answered "we were it" - claiming that
-    tradition's own name and witness as its own, the exact thing the
-    tradition-pivot rule forbids. tradition_seated_name (the seated tradition's own registry
-    card_name, passed through from table_wiring.py so this function
-    never has to know about the registry itself) now carries a real
-    directive instead: this seat may respond only to the bare fact that
-    a tradition under that name is seated here with its own
-    Representative, and to what that chair has actually said in this
-    conversation so far (the tradition-pivot rule's condition (b): "only if
-    it would have known in its own time, or if something was revealed in
-    the facilitator's introduction or user, but limited only to what was
-    told to them in the conversation") - never claiming that tradition's
-    own name, history, or witness as this seat's own.
-
-    repeat_turn (the same Table-parity fix): this seat's own SECOND OR
-    LATER turn within the same round (turn_selector may draw a seat back
-    in - the fixed sentence said once already stays true, but repeating
-    it verbatim every return turn is not what interview's own single-ask
-    shape ever produces). No evidence, not seated: keep the
-    tradition-pivot rule's own knowledge-scope framing ("this is another tradition, answer only
-    from your own records") but drop the "if nothing, say exactly..."
-    clause - it was already said on this seat's first turn this round.
-
-    known_in_window and revealed_excerpts (the tradition-pivot rule): the
-    pivot itself: "only if it would have known
-    in its own time, or if something what revealed in the facilitators
-    introduction or user, but limited only to what was told to them in
-    the conversation" - and the third source, "add or what another representitive
-    revials in the conversation". known_in_window is condition (a);
-    revealed_excerpts is condition (b) with its third source - see
-    _pivot_scope_clause and _revealed_excerpts_block. The no-evidence
-    branches each carry both. The evidence branch carries only the
-    quoted lines: there the world's own records already name the
-    tradition, so the record itself is the ground for the pivot. None of
-    this changes R26_HONEST_LIMIT_SENTENCE or when it is said - under
-    (a) the record still does not mention the tradition, so the sentence
-    stays true."""
-    excerpts_block = _revealed_excerpts_block(revealed_excerpts)
-    if evidence_record_ids:
-        ids_text = ", ".join(f"[[{rid}]]" for rid in evidence_record_ids)
-        text = (
-            "This question asks about another Christian tradition, not your own world - but your own "
-            f"records already speak to it: {ids_text}. Answer from what those records actually say, cited "
-            "as always, under the ordinary citation contract. Never speak as if you know more about that "
-            "other tradition than what your own records give you and what has actually been said in this "
-            "conversation."
-        )
-        return f"{text}\n{excerpts_block}" if excerpts_block else text
-    scope = _pivot_scope_clause(known_in_window, has_excerpts=excerpts_block is not None, seated=tradition_seated)
-    if tradition_seated:
-        name_text = f' under the name "{tradition_seated_name}"' if tradition_seated_name else ""
-        text = (
-            f"This question asks about a Christian tradition seated at this table{name_text}, with its own "
-            "Representative present - not your own world. Never speak for that tradition, and never claim "
-            "its name, history, or witness as your own. You may respond only to the bare fact that it is "
-            "seated here under that name, to what that chair has actually said in this conversation so "
-            "far, and to what anyone else here has said about it - if nobody has, you know nothing more "
-            "about it than its name. Where your own world's records genuinely bear on the question, answer "
-            "from them as always, cited as always, but never let that stand in for the other tradition's "
-            f"own voice. {scope}"
-        )
-    elif repeat_turn:
-        text = (
-            "This question asks about another Christian tradition, not your own world. Answer only from "
-            "what your own world's records actually hold about it, cited as always. Never speak as if you "
-            "know that other tradition's own history or doctrine - only your own, and only what you can "
-            f"cite. {scope}"
-        )
-    else:
-        text = (
-            "This question asks about another Christian tradition, not your own world. Answer only from what "
-            "your own world's records actually hold about it. If your own records say nothing about the "
-            f'tradition named, say exactly: "{R26_HONEST_LIMIT_SENTENCE}" Then answer the rest of the question '
-            "from your own records, cited as always. Never speak as if you know that other tradition's own "
-            f"history or doctrine - only your own, and only what you can cite. {scope}"
-        )
-    return f"{text}\n{excerpts_block}" if excerpts_block else text
-
-
-def _build_turn_directive(
-    directive: Directive | None,
-    figures_already_named: list[str] | None = None,
-    table_engagement: str | None = None,
-    is_other_tradition_first_ask: bool = False,
-    other_tradition_evidence_ids: list[str] | None = None,
-    other_tradition_seated: bool = False,
-    other_tradition_seated_name: str | None = None,
-    other_tradition_repeat_turn: bool = False,
-    other_tradition_known_in_window: bool | None = None,
-    other_tradition_revealed: list[tuple[str, str]] | None = None,
-) -> str | None:
-    """The per-turn half of the voice's system prompt, on its own - the
-    world's compiled prompt is passed separately and unmodified, so that it
-    stays byte-identical across a session and the cache prefix actually
-    holds (see stream_voice_turn's docstring). This text changes every
-    turn, so it must never be concatenated onto the cached half.
-
-    table_engagement (bug fix for Table mode giving
-    independent monologues instead of cross-voice engagement on broad
-    questions): the Table's per-turn behavioral rule - engage what another
-    voice just said, stay in your own witness, keep it compact - belongs
-    HERE, not in the user-message context_prefix it used to live in
-    entirely. That was the actual bug: the ambiguity_options note below
-    already proved this channel wins over a competing pressure sitting in
-    the user turn ("it sits after register statement 1 in the prompt, so it
-    won"); the Table's engagement instruction was sitting in the weaker
-    channel the whole time, ahead of a per-question evidence block that
-    scales with how broad the question is and right before the bare
-    participant message itself - exactly the position the ambiguity_options
-    finding already showed losing. None on every interview call and on a
-    table call's true opening turn (nothing said yet to engage), so both
-    paths are unchanged there. table_wiring.py still builds the pending
-    speech itself into context_prefix (real conversational content, not an
-    instruction) - only the behavioral rule about it moved.
-
-    Returns None only when there is no directive, no table_engagement, and
-    is_other_tradition_first_ask is False (the crisis path), which leaves
-    the call with the world prompt alone - exactly what it sent before.
-    other_tradition_seated (the Table-parity fix): _other_
-    tradition_directive ALWAYS returns real text now, never None - a
-    round's opening turn never gets table_engagement (built only when
-    other_voice_has_spoken, see _table_engagement_directive's own
-    docstring), so an other-tradition-only opening turn with the named
-    tradition seated and no evidence used to reach the model completely
-    ungoverned: nothing told it the tradition it was just asked about is
-    the seat beside it, and the live battery caught the real failure this
-    produces - the voice claimed the seated tradition's own name and
-    witness as its own, exactly what the tradition-pivot rule forbids. There is no genuinely
-    redundant case left to return None for: table_engagement (when it
-    does fire, on a later turn) is a different job entirely (engage what
-    was just said) and composes with this branch rather than
-    duplicating it."""
-    if directive is None and not table_engagement and not is_other_tradition_first_ask:
-        return None
-    # The leading newline is kept from when this text was concatenated onto
-    # the world prompt: system blocks are joined with no separator of their
-    # own, so dropping it would run the heading onto the prompt's last line.
-    # The model must see exactly the bytes it saw before this split.
-    parts = ["\n## This turn's private directive (never shown to the participant)"]
-    if directive is not None:
-        asks_text = "; ".join(a["text"] for a in directive.asks) if directive.asks else "(none extracted)"
-        parts.append(f"Asks, in order: {asks_text}")
-        if directive.register_note:
-            parts.append(f"Register note: {directive.register_note}")
-        if directive.suspend_register_statement_1:
-            parts.append("Register statement 1 is suspended this turn (witness-before-answer licensed).")
-        if directive.ambiguity_options:
-            # NOT "options to offer". That wording instructed the voice to
-            # present a menu, and it sits after register statement 1 in the
-            # prompt, so it won: measured over five questions the first
-            # sentence answered the ask on 2 of 5 turns, and the participant
-            # was handed "I hear two ways to take your question" instead of an
-            # answer. Removing the instruction entirely took that to 5 of 5.
-            # This keeps the reading available to the voice as information and
-            # restates statement 1 rather than overriding it.
-            parts.append(
-                f"The ask could be read these ways: {'; '.join(directive.ambiguity_options)}. "
-                "Answer the most likely reading first, in your opening sentence; then, only if the others "
-                "would change the answer, say briefly what they would change. Never open by listing the readings."
-            )
-        if figures_already_named:
-            # The directive channel is the one measured to win over other
-            # pressures (see the ambiguity_options note above). Three live
-            # probes showed the evidence block's own already-introduced
-            # header losing to a ground record's first-mention opening
-            # ("One of us, Ignatius" reproduced verbatim on turn two) - the
-            # signal belongs here, where the voice actually shapes the turn.
-            parts.append(
-                f"Already introduced in this conversation: {', '.join(figures_already_named)}. "
-                "The participant has met these names. A ground record that presents one of them afresh is "
-                "written for a first mention; this turn is not one - carry the name as someone already "
-                "known ('Ignatius also said...' is the shape), never re-introduced as if new."
-            )
-    if table_engagement:
-        parts.append(table_engagement)
-    if is_other_tradition_first_ask:
-        other_tradition_text = _other_tradition_directive(
-            other_tradition_evidence_ids,
-            tradition_seated=other_tradition_seated,
-            tradition_seated_name=other_tradition_seated_name,
-            repeat_turn=other_tradition_repeat_turn,
-            known_in_window=other_tradition_known_in_window,
-            revealed_excerpts=other_tradition_revealed,
-        )
-        if other_tradition_text:
-            parts.append(other_tradition_text)
-    if len(parts) == 1:
-        # Nothing was actually added. _other_tradition_directive always
-        # returns real text now when called (see
-        # this function's own docstring), so this path is only reachable
-        # when is_other_tradition_first_ask is False and directive/
-        # table_engagement were both falsy too - the header line alone is
-        # not a real directive, return None exactly as the no-directive
-        # path above does.
-        return None
-    return "\n".join(parts)
-
-
 def _append_seat_identity_correction(turn_directive: str | None, offending_prefix: str) -> str:
     """The seat-identity guard's one regeneration: named to the voice, in
     the same private-directive channel
@@ -621,6 +317,26 @@ def _append_r27_correction(turn_directive: str | None, hard_offenses: list[dict]
         f"These sentences from your last answer carried no citation: {named} "
         "Answer again: cite every specific claim to one of your own records with an inline [[record.id]] tag, "
         "or, where your own records are silent, say so plainly instead of stating it without one."
+    )
+    return (turn_directive or "") + correction
+
+
+def _append_sentence_fact_check_correction(turn_directive: str | None, flags: list[dict]) -> str:
+    """sentence_enforce's own one regeneration: the same append-not-
+    replace channel and shape as _append_r27_correction above, naming
+    only the sentence(s) engine.m4.sentence_fact_check.
+    find_unsupported_named_claims flagged this attempt - never the whole
+    turn, and never any other offense class this correction did not name.
+    Asks for exactly the two outcomes sentence_enforce is prepared to
+    accept: support the claim from the world's own sources, or drop it
+    voluntarily, since a second failure drops it involuntarily anyway
+    (see _run_ordinary_voice_turn's own docstring, sentence_enforce)."""
+    named = "; ".join(f'"{f["sentence"]}"' for f in flags)
+    correction = (
+        "\n## Correction (your last answer named something your own sources do not support)\n"
+        f"These sentences from your last answer named a person, place, date, or number your own records do not "
+        f"give: {named} Answer again: support each named claim from your own sources with an inline "
+        "[[record.id]] tag, or drop the unsupported name or number entirely rather than stating it."
     )
     return (turn_directive or "") + correction
 
@@ -709,6 +425,7 @@ def _run_ordinary_voice_turn(
     r27_enforce: bool = False,
     known_tradition_names: list[str] | None = None,
     self_revision_enabled: bool = True,
+    sentence_enforce: bool = False,
 ) -> tuple[dict, list[UsageRecord]]:
     """context_prefix, secondary_context, table_engagement, and
     usage_world_key are the table's additions (Artifact-7 SS3-4, SS7; Stage
@@ -807,6 +524,67 @@ def _run_ordinary_voice_turn(
     caller (which has registry access this function does not) and
     passed straight through.
 
+    sentence_enforce (engine.m4.sentence_fact_check's own flag-gated
+    enforcement, a second and independent mechanism from the
+    uncited-claims enforcement's own flag above - distinct
+    flag, distinct correction text, distinct failure shape): OFF by
+    default, same byte-identical-until-opted-in guarantee as that
+    enforcement. When True, runs after the uncited-claims enforcement
+    above has already settled this turn's own text (whichever net_result
+    that left in place - the first attempt's if that enforcement is off
+    or never tripped, the regenerated one otherwise): if
+    find_unsupported_named_claims flags anything against that text,
+    exactly one regeneration follows, with the flagged sentence(s) named
+    in the retry's own directive (_append_sentence_fact_check_correction,
+    the same append-not-replace channel _append_r27_correction already
+    uses - a third mechanism was not written for this). When the
+    uncited-claims enforcement is also on and its own correction fired
+    this turn, that correction rides forward into this retry's own
+    directive too (composed, not replaced) - a fresh regeneration has no
+    memory of the earlier call's own correction, so without carrying it
+    forward this retry could just as easily regress a citation fix that
+    enforcement's own retry had already won.
+
+    The regenerated answer is re-checked TWICE, in a fixed order. First,
+    when the uncited-claims enforcement is on: a wholly_uncited_paragraph
+    or neighbour_named offense surviving THIS retry is that
+    enforcement's own exhaustion, the identical fallback (whole turn
+    blanked, that enforcement's own exhaustion flag set, caller
+    substitutes a Facilitator turn) its own second failure above already
+    uses - its own one-regeneration budget was already spent in the
+    block above, so
+    a hard offense reappearing here does not get a second regeneration
+    of its own. The uncited-claims enforcement's own safety guarantee
+    sits above sentence_enforce's own preferences: it is checked first,
+    and it can still blank the turn even though sentence_enforce's own
+    failure mode (below) never does.
+
+    Second, only when no r27 hard offense survived: find_unsupported_
+    named_claims runs again. A sentence still flagged is removed from
+    the answer on its own (engine.m4.grounding_net.drop_flagged_
+    sentences) - UNLESS dropping every still-flagged sentence would
+    leave nothing behind, in which case the regenerated answer is kept
+    as it stands, still-flagged sentence(s) and all: sentence_enforce's
+    own failure mode never blanks the turn and never substitutes the
+    Facilitator, even when nothing is left to drop safely. Either way,
+    net_result/answer_text/citations/uncited_claims/paragraph_offenses/
+    named_claim_flags/fact_check_flags are all recomputed against
+    whichever text this turn ultimately answers with - the same
+    recompute-on-retry discipline that enforcement's own retry already
+    follows, so every report-only field on the returned voice_event
+    describes the text a participant actually receives, including a
+    flag deliberately left standing rather than dropped or hidden.
+    Every sentence dropped
+    this way, whether the correction alone already fixed everything, and
+    which sentences (if any) are still flagged and left standing, is
+    recorded on voice_event["sentence_enforcement"] (always present,
+    empty/false on a clean turn or when this flag is off - same shape
+    discipline as seat_identity_violations above). A drop can still
+    leave a sentence that grammatically introduced the one just removed
+    reading as an unfinished promise (drop_flagged_sentences' own
+    docstring names this residual, structural-not-semantic limit); it
+    never leaves a broken sentence or an empty paragraph.
+
     other_tradition_evidence_ids (corrects a false
     honest-limit statement, unconditional - never gated behind
     r27_enforce, since this corrects an existing false statement rather
@@ -828,50 +606,22 @@ def _run_ordinary_voice_turn(
             "- never guess the neighbour_named check's own name list"
         )
     usage_records = []
-    repository_records = evidence.repository_records_by_id(world.repository)
-    thin_topics = evidence.thin_topics_for(repository_records)
-
-    # EVIDENCE ASSEMBLY (design §3, engine.m4.evidence) - deterministic,
-    # no model call, rides in the per-turn user message (never the cached
-    # system prefix - §3.1/§5's own cache-conscious framing). canon_question
-    # records are fleet-shared, not part of any one world's hash-verified
-    # package, so loaded directly the same way engine.m1.gates already
-    # loads them - not yet cached the way LazyWorldLoader caches a world's
-    # own package (compiled/indexes/canon-map.json exists for exactly this
-    # optimization, engine.m2.builders.build_canon_map_json, but nothing
-    # reads it yet - a follow-up, not a correctness gap: this derives the
-    # identical corpus live, just without the compiled cache).
-    canon_questions = load_fleet_records()
-    # The same set that keeps the UI's figure mark first-occurrence-only,
-    # resolved to spoken names and put where the VOICE can see it too
-    # (a pilot read found the session tracked a figure's introduction to
-    # the conversation, but only the screen knew - the voice itself was
-    # never told).
-    figures_already_named = [
-        name
-        for figure in (world.figures.get("figures") or [])
-        if figure.get("id") in (already_bridged_figure_ids or set())
-        and (name := spoken_name(figure))
-    ]
-    turn_evidence = evidence.assemble_evidence(
-        message=participant_message,
-        asks=directive.asks if directive else None,
-        canon_questions=canon_questions,
-        coverage=world.coverage,
-        repository_records=repository_records,
-        thin_topics=thin_topics,
+    # EVIDENCE ASSEMBLY + PRIVATE DIRECTIVE (design §3, engine.m4.evidence;
+    # this function's own docstring for context_prefix/secondary_context/
+    # table_engagement/the other_tradition_* family/correction) - shared
+    # with engine.m4.streaming's sentence-gated path via
+    # engine.m4.turn_prep.prepare_voice_turn_inputs, which this used to do
+    # inline before that path needed the identical sequence.
+    prepared = prepare_voice_turn_inputs(
+        world=world,
+        participant_message=participant_message,
+        directive=directive,
         already_told_ids=already_told_ids,
+        already_bridged_figure_ids=already_bridged_figure_ids,
         history=history,
-        figures_already_named=figures_already_named,
+        context_prefix=context_prefix,
         secondary_context=secondary_context,
-    )
-    evidence_block = evidence.render_evidence_block(turn_evidence)
-    user_message = f"{evidence_block}\n{participant_message}" if turn_evidence["candidates"] else participant_message
-    if context_prefix:
-        user_message = f"{context_prefix}\n\n{user_message}"
-
-    turn_directive = _build_turn_directive(
-        directive, figures_already_named, table_engagement,
+        table_engagement=table_engagement,
         is_other_tradition_first_ask=is_other_tradition_first_ask,
         other_tradition_evidence_ids=other_tradition_evidence_ids,
         other_tradition_seated=other_tradition_seated,
@@ -879,9 +629,13 @@ def _run_ordinary_voice_turn(
         other_tradition_repeat_turn=other_tradition_repeat_turn,
         other_tradition_known_in_window=other_tradition_known_in_window,
         other_tradition_revealed=other_tradition_revealed,
+        correction=correction,
     )
-    if correction:
-        turn_directive = (turn_directive or "") + correction
+    repository_records = prepared.repository_records
+    thin_topics = prepared.thin_topics
+    figures_already_named = prepared.figures_already_named
+    user_message = prepared.user_message
+    turn_directive = prepared.turn_directive
     stream_outcome = stream_voice_turn(
         voice_client, voice_model_id, system_prompt=world.prompt_text,
         turn_directive=turn_directive, message=user_message, history=history,
@@ -996,6 +750,21 @@ def _run_ordinary_voice_turn(
     # small {sentence, class} shape uncited_claims already uses.
     paragraph_offenses = find_uncited_paragraphs(net_result)
 
+    # Report-only (see engine.m4.named_claim_grounding's own module
+    # docstring; the traced regression is Build/worlds/pahc/Open_Gaps_Tracking.md
+    # OG-9). Narrows sentences the ratio test already passed WITH a tag
+    # (the ones that actually reach a participant): does every proper
+    # noun/number the sentence names actually appear in its own tagged
+    # records' ground, not just contribute to a passing aggregate share.
+    named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
+
+    # Report-only (see engine.m4.sentence_fact_check's own module
+    # docstring). Wider than named_claim_flags above: examines every
+    # sentence, tagged or not, regardless of its own tag's verdict, and
+    # grounds each proper noun/number against the world's ENTIRE compiled
+    # repository - not just a sentence's own tag(s).
+    fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
+
     # The uncited-claims rule's flag-gated enforcement, OFF by default
     # (see this function's own docstring for the full shape). r27_enforcement_exhausted
     # and attempts_meta["r27_regenerated"] are always set (False/absent
@@ -1028,6 +797,17 @@ def _run_ordinary_voice_turn(
             )
             retry_uncited_claims = find_uncited_claims(retry_net_result["sentences"])
             retry_paragraph_offenses = find_uncited_paragraphs(retry_net_result)
+            # Recomputed against retry_net_result for the same reason
+            # retry_uncited_claims/retry_paragraph_offenses are: whichever
+            # net_result this turn ultimately answers with is the one
+            # named_claim_flags must describe, report-only field or not -
+            # a stale, pre-retry flag list would misreport a sentence this
+            # turn never actually sent.
+            retry_named_claim_flags = find_named_claim_flags(retry_net_result["sentences"], repository_records=repository_records)
+            # Same recompute-on-retry discipline as retry_named_claim_flags
+            # above, same reason: whichever net_result this turn ultimately
+            # answers with is the one this report-only field must describe.
+            retry_fact_check_flags = find_unsupported_named_claims(retry_net_result["sentences"], repository_records=repository_records)
             retry_refined = [classify_neighbour_named(o, known_tradition_names) for o in retry_uncited_claims]
             retry_hard_offenses = [o for o in retry_paragraph_offenses if o["class"] == "wholly_uncited_paragraph"] + [
                 o for o in retry_refined if o["class"] == "neighbour_named"
@@ -1038,15 +818,122 @@ def _run_ordinary_voice_turn(
                 answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
                 uncited_claims = []
                 paragraph_offenses = []
+                named_claim_flags = []
+                fact_check_flags = []
             else:
                 raw_text = retry_raw_text
                 answer_text, citations, net_result = retry_answer_text, retry_citations, retry_net_result
                 uncited_claims = retry_uncited_claims
                 paragraph_offenses = retry_paragraph_offenses
+                named_claim_flags = retry_named_claim_flags
+                fact_check_flags = retry_fact_check_flags
         else:
             attempts_meta_r27_regenerated = False
     else:
         attempts_meta_r27_regenerated = False
+
+    # sentence_enforce's own flag-gated enforcement, OFF by default (see
+    # this function's own docstring for the full shape). Runs on
+    # whichever net_result the uncited-claims enforcement above already
+    # settled on - the first attempt's if that enforcement is off or
+    # never tripped, the regenerated one otherwise. sentence_dropped/regenerated
+    # are always set (empty/false when sentence_enforce is False or
+    # nothing tripped it), the same always-present-but-usually-empty
+    # shape attempts_meta already uses.
+    sentence_enforcement = {"flagged": [], "regenerated": False, "still_flagged": [], "sentences_dropped": []}
+    if sentence_enforce and fact_check_flags:
+        sentence_enforcement["flagged"] = [f["sentence"] for f in fact_check_flags]
+        sentence_enforcement["regenerated"] = True
+        # Composed, not replaced: when the uncited-claims enforcement
+        # already regenerated once this turn (hard_offenses is only ever
+        # defined - possibly empty - when the uncited-claims enforcement is on), that
+        # same correction rides forward into this retry's own directive
+        # too. A fresh regeneration has no memory of the earlier call's
+        # own correction; without carrying it forward, asking the voice
+        # to fix a named claim could just as easily regress the citation
+        # fix that enforcement's own retry had already won.
+        sentence_retry_directive = turn_directive
+        if r27_enforce and hard_offenses:
+            sentence_retry_directive = _append_r27_correction(sentence_retry_directive, hard_offenses)
+        sentence_retry_directive = _append_sentence_fact_check_correction(sentence_retry_directive, fact_check_flags)
+        retry_outcome = stream_voice_turn(
+            voice_client, voice_model_id, system_prompt=world.prompt_text,
+            turn_directive=sentence_retry_directive,
+            message=user_message, history=history,
+        )
+        if retry_outcome.status != "ok":
+            raise RuntimeError(f"voice generation retry call failed: {retry_outcome.status} {retry_outcome.value}")
+        if rec := _maybe_record_usage(
+            retry_outcome, session_id=session_id, call_kind="voice_generation_retry", model_id=voice_model_id, world_key=usage_world_key
+        ):
+            usage_records.append(rec)
+        retry_raw_text = retry_outcome.value.text
+        retry_answer_text, retry_citations, retry_net_result = apply_net(
+            retry_raw_text, repository_records=repository_records, thin_topics=thin_topics
+        )
+
+        # RE-CHECKED BY the uncited-claims enforcement, when that
+        # enforcement is on: this retry is a fresh generation that
+        # enforcement's own pass never saw, so it could just as easily
+        # reintroduce a
+        # wholly_uncited_paragraph or neighbour_named offense as fix the
+        # named claim. That enforcement's own safety guarantee (never
+        # ship one of those two offenses) sits above sentence_enforce's
+        # own "never blank" preference - sentence_enforce's own
+        # drop-not-blank shape (below) governs an unsupported NAME,
+        # never a citation offense the uncited-claims enforcement exists
+        # to catch. Its own one-regeneration budget was already spent in
+        # the block above; a hard offense surviving THIS retry too is
+        # exhaustion, the identical fallback its own second failure
+        # already uses above.
+        retry_r27_hard_offenses = []
+        if r27_enforce:
+            retry_refined_for_r27 = [
+                classify_neighbour_named(o, known_tradition_names) for o in find_uncited_claims(retry_net_result["sentences"])
+            ]
+            retry_r27_hard_offenses = [
+                o for o in find_uncited_paragraphs(retry_net_result) if o["class"] == "wholly_uncited_paragraph"
+            ] + [o for o in retry_refined_for_r27 if o["class"] == "neighbour_named"]
+
+        if retry_r27_hard_offenses:
+            r27_enforcement_exhausted = True
+            raw_text = ""  # the voice's text is not shown - the caller substitutes a Facilitator turn
+            answer_text, citations, net_result = apply_net("", repository_records=repository_records, thin_topics=thin_topics)
+            uncited_claims = []
+            paragraph_offenses = []
+            named_claim_flags = []
+            fact_check_flags = []
+        else:
+            retry_fact_check_flags = find_unsupported_named_claims(retry_net_result["sentences"], repository_records=repository_records)
+            if retry_fact_check_flags:
+                still_flagged = {f["sentence"] for f in retry_fact_check_flags}
+                sentence_enforcement["still_flagged"] = sorted(still_flagged)
+                dropped_raw_text = grounding_net.drop_flagged_sentences(retry_raw_text, still_flagged)
+                if dropped_raw_text.strip():
+                    # Second failure: never blank the whole turn and
+                    # never substitute the Facilitator (unlike the
+                    # uncited-claims enforcement's own exhaustion above)
+                    # - drop only the sentence(s) still flagged, from the
+                    # regenerated attempt's own raw text, then recompute
+                    # every report-only field against the shortened text
+                    # the same way that enforcement's own retry already
+                    # does.
+                    sentence_enforcement["sentences_dropped"] = sorted(still_flagged)
+                    raw_text = dropped_raw_text
+                else:
+                    # Dropping every still-flagged sentence would leave
+                    # nothing - never blank the turn for that either.
+                    # Keep the regenerated answer as it stands;
+                    # fact_check_flags below still reports the flag(s)
+                    # standing on it rather than silently losing them.
+                    raw_text = retry_raw_text
+            else:
+                raw_text = retry_raw_text
+            answer_text, citations, net_result = apply_net(raw_text, repository_records=repository_records, thin_topics=thin_topics)
+            uncited_claims = find_uncited_claims(net_result["sentences"])
+            paragraph_offenses = find_uncited_paragraphs(net_result)
+            named_claim_flags = find_named_claim_flags(net_result["sentences"], repository_records=repository_records)
+            fact_check_flags = find_unsupported_named_claims(net_result["sentences"], repository_records=repository_records)
 
     # Real, checkable source references (see
     # citation_cards' module docstring) - resolved once here and reused
@@ -1145,6 +1032,19 @@ def _run_ordinary_voice_turn(
         # cross-references this against "uncited_claims" to narrow
         # "own_doctrine_in_other_tradition_turn".
         "paragraph_offenses": paragraph_offenses,
+        # Additive: [] on every clean turn, same discipline as
+        # uncited_claims/paragraph_offenses above (see
+        # engine.m4.named_claim_grounding's own module docstring) -
+        # report-only, no enforcement flag yet.
+        "named_claim_flags": named_claim_flags,
+        # Additive: [] on every clean turn (see engine.m4.sentence_fact_
+        # check's own module docstring). Wider scope than
+        # named_claim_flags: every sentence, not only already-tagged,
+        # already-passing ones. Describes whichever text this turn
+        # ultimately answers with - when sentence_enforce dropped a
+        # sentence below, this is the shortened text's own flag list
+        # (always [] after a drop, since the dropped sentence is gone).
+        "fact_check_flags": fact_check_flags,
         # This enforcement, additive: False unless
         # r27_enforce was on AND the one allowed regeneration still left
         # a hard offense (wholly_uncited_paragraph or neighbour_named)
@@ -1154,6 +1054,22 @@ def _run_ordinary_voice_turn(
         # turn) - the caller substitutes a facilitator_turn, the exact
         # same shape seat_identity_guard_exhausted already uses above.
         "r27_enforcement_exhausted": r27_enforcement_exhausted,
+        # sentence_enforce's own independent enforcement (see this
+        # function's own docstring, sentence_enforce): "flagged" is
+        # fact_check_flags' own sentence list from the attempt that
+        # triggered the one regeneration; "still_flagged" is what
+        # remained after that regeneration - empty on a clean turn or a
+        # correction that fully fixed every flagged sentence.
+        # "sentences_dropped" is usually the same list as "still_flagged",
+        # EXCEPT when dropping every one of them would have left nothing
+        # behind: there, nothing is dropped, "sentences_dropped" stays
+        # empty, and "still_flagged" alone shows the flagged sentence(s)
+        # this turn's own answer_text still carries as-is. This enforcement's
+        # own failure mode never blanks answer_text and never substitutes
+        # the Facilitator; the one way this composed turn CAN still end
+        # up blank is the uncited-claims enforcement's own exhaustion
+        # path above, checked first and outside this dict's own control.
+        "sentence_enforcement": sentence_enforcement,
     }
     return voice_event, usage_records
 
@@ -1191,6 +1107,7 @@ def run_turn(
     other_tradition_known_in_window: bool | None = None,
     other_tradition_revealed: list[tuple[str, str]] | None = None,
     self_revision_enabled: bool = True,
+    sentence_enforce: bool = False,
 ) -> TurnResult:
     """session_id attributes every real call this turn makes (M8: "zero
     unattributed calls") - use engine.m8.usage.SYSTEM_SESSION_ID for a
@@ -1232,12 +1149,13 @@ def run_turn(
     engine.m5.safety_accumulation's own module docstring).
 
     r27_enforce/known_tradition_names (the uncited-claims rule's
-    flag-gated enforcement): threaded straight through to every
-    _run_ordinary_voice_turn call this
+    flag-gated enforcement) and sentence_enforce (sentence_fact_check's
+    own, independent flag-gated enforcement): threaded straight through to
+    every _run_ordinary_voice_turn call this
     function makes (the ordinary path and the bridge route both generate
     a real voice answer that can carry the same offenses) - see that
-    function's own docstring for the full enforcement shape. Both default
-    off/None, byte-identical to before either existed."""
+    function's own docstring for the full enforcement shape of each. All
+    default off/None, byte-identical to before any of them existed."""
     # The gate pass, extracted whole to run_gate (Artifact-7 - a table
     # round gates once per message, then runs several voice turns
     # against the same decision). The locals below keep their old names so
@@ -1372,13 +1290,14 @@ def run_turn(
             for t in (reader_outcome.value.get("modern_terms") or [])
             if t["term_id"] in anachronistic_term_ids and t["term_id"] in fleet
         ]
-        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired)
+        facilitator_event, underlying_subject = facilitator_turns.bridge_turn(fired, fleet)
         # WHAT ELSE THE PARTICIPANT ASKED. The bridge route carries no
-        # directive of its own (engine.m5.routing), so a message that asked
-        # two things - one carrying the modern word, one not - used to reach
-        # the voice as the underlying subject alone, and the second ask was
-        # simply gone. Barring the word is the rule; barring the rest of the
-        # sentence was never part of it. The fired records' own display_terms
+        # directive of its own (engine.m5.routing), so a message that asks
+        # two things - one carrying the modern word, one not - must still
+        # carry the second ask to the voice alongside the underlying
+        # subject, not the underlying subject alone. Barring the word is
+        # the rule; barring the rest of the sentence is not. The fired
+        # records' own display_terms
         # are what gets barred, all of them, not just the spelling that
         # happened to match - so an ask carrying a different inflection of
         # the same term is still kept away from the voice.
@@ -1396,7 +1315,7 @@ def run_turn(
             already_bridged_figure_ids=already_bridged_figure_ids,
             already_bridged_gloss_ids=already_bridged_gloss_ids, history=history,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
-            self_revision_enabled=self_revision_enabled,
+            self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
         )
         return TurnResult(
             routing_action=action, routing_reason=gate_result.routing.reason,
@@ -1422,7 +1341,7 @@ def run_turn(
             other_tradition_known_in_window=other_tradition_known_in_window,
             other_tradition_revealed=other_tradition_revealed,
             r27_enforce=r27_enforce, known_tradition_names=known_tradition_names,
-            self_revision_enabled=self_revision_enabled,
+            self_revision_enabled=self_revision_enabled, sentence_enforce=sentence_enforce,
         )
         return TurnResult(
             routing_action=action,

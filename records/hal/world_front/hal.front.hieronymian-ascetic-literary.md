@@ -321,272 +321,101 @@ narrative:
   - hal.term.renuntiatio
   - hal.term.epitaphium
 ---
-Authored 2026-09-19/09-20: the hieronymian-ascetic-literary `world_front`
-record, the fourth world in the fleet-wide `world_front` rollout following
-the two-world pilot (desert-monasticism, syriac-edessa-nisibis) and
-cappadocian (Website V2 world_front design, approved to proceed
-2026-09-19). Covers `skim`, `orientation`, and `narrative` only, per the
-pilot's own scope; `facilitator_brief` is a separate, later record this
-pass does not build.
+This record covers `skim`, `orientation`, and `narrative` only;
+`facilitator_brief` is a separate record.
 
-WORLD KEY - checked directly, not assumed, per cappadocian's own finding
-that world_id and census_id can diverge. `records/worlds/hal.yaml`
-(`engine.m1.registry.load_registry()`) gives both `world_id:
-hieronymian-ascetic-literary` and `census_id:
-"hieronymian-ascetic-literary"` - the SAME string, confirmed against
-`cic-website/data/world-census.json`'s own movement entry (`"id":
-"hieronymian-ascetic-literary"`) and `atlas-v3.html`'s matching
-`DATA.movements[]` entry. This world's own pattern matches both pilots
-(desert, syriac), not cappadocian's divergence. Registry short code:
-`hal`. This record's own `id` and filename follow the sibling-record
-convention: `<registry-code>.front.<world_id-slug>` -
-`hal.front.hieronymian-ascetic-literary`.
+World_id and census_id are both `hieronymian-ascetic-literary`. Registry
+short code: `hal`.
 
-SOURCING METHOD. Every unit's `grounded_in` names a record this session
-opened and read directly - `records/hal/world_core/hal.core.hieronymian.md`
-for the world-level frame; the four voiced `figure` records' own
-`bridge_line`/`dates`/body notes for `orientation.voices`; `gravity`,
-`force`, and `story` records for the `orientation.story` paragraphs (one
-per gravity, several paired with the force or story that best illustrates
-it); `hal.dw.was-jesus-god`, `hal.quote.ever-let-the-bridegroom-sport-with-you`,
-and `hal.contested.origenist-substance` for `orientation.floor_note`;
-`hal.term.vulgata`, `hal.quote.no-one-preferred-to-the-seventy`, and
-`hal.force.transmission-ending` for `legacy`; `hal.story.rufinus-rupture`,
-`hal.figure.damasus`, and `hal.force.jerome-arrival` for
-`relations_summary`. No unit here restates a claim from
-`cic-website/data/world-census.json` or `atlas-v3.html` without first
-checking it against the record(s) it cites - several claims in that live
-prose (below) did NOT survive that check and were dropped rather than
-carried forward unverified.
+Several claims on the public site are not carried into this record for
+lack of a real record grounding them. (1) `world-census.json`'s own
+`legacy` field claims the Vulgate "became the Bible of the Latin West for
+over a thousand years," that the Council of Trent "declared [it]
+authentic in 1546," and that the pattern of "wealthy women funding,
+hosting, and directing serious biblical scholarship... recurs constantly
+in later Christian history" - no record in `records/hal/` makes any of
+these forward-reception claims; `hal.term.vulgata` states explicitly that
+"the Vulgate['s]... later standard status belongs to centuries after this
+world's close." `legacy` above is deliberately ONE narrow entry, grounded
+only in what `hal.term.vulgata` and `hal.quote.no-one-preferred-to-the-
+seventy` actually support: the translation's reception was still an open
+argument at the point this world's own record ends, not a claim about
+what it later became. (2) `atlas-v3.html`'s cross-world relation entry
+claiming "Jerome heard Gregory of Nazianzus teach [at Constantinople] and
+calls him his teacher" has no support in `records/hal/` (no hal figure,
+source, or force record names Gregory of Nazianzus at all) and is not
+carried into `relations_summary`. (3) `world-census.json`'s claim that
+Origen's "textual scholarship (the Hexapla) is the direct ancestor of
+Jerome's Hebrew-testing project" has no support in `records/hal/` either
+(the Hexapla appears only inside `hal.contested.hebrew-fluency`'s own
+`held_against`, as evidence against Jerome's self-presented fluency, not
+as a claim about influence on his method); only the narrower,
+actually-grounded Origen connection (Jerome and Rufinus both translated
+Origen's work, before their rupture) is carried, per
+`hal.story.rufinus-rupture`. (4) `world-census.json`'s claim that the
+Syriac recension's divergence from the Greek "hardens" a "guarded"
+prophecy into "a flat claim" that Paula died to escape Jerome's "envy and
+evil-eyedness" is real (`hal.quote.paula-escaped-his-envy`'s own
+divergence_note states this exact contrast, verified verbatim against the
+vendored Budge 1907 Syriac text), but sits outside this record's own
+scope (skim/orientation/narrative, not a full quote inventory). (5)
+`orientation.experience_today` is deliberately left absent: the Church of
+the Nativity/UNESCO claim on the public site needs a `verified_on` date
+this record does not carry.
 
-THE SENSITIVE MATERIAL NAMED IN THIS PASS'S OWN SCOPE, handled directly.
-A project-wide review this session found this world's tradition page had
-contradicted itself on whether Paula/Eustochium/Marcella "speak in their
-own words" (they do not, except for one attested-but-lost letter), plus a
-harder question: the single strongest evidence for Marcella's own
-independent scriptural authority (Ep. 127's "recourse was had to her to
-settle it") is itself entirely Jerome's own posthumous, partly
-self-vindicating framing (`hal.contested.marcella-agency`), with a
-Palladius counter-witness naming Jerome's own jealousy toward Paula
-elsewhere in the same record set
-(`hal.contested.paula-jerome-relationship`). This record's own
-`narrative.who_speaks` states the distinction as its opening sentence
-("only one of them speaks in words we can actually check") rather than
-folding it into a later hedge; every one of the four `orientation.voices`
-entries for Paula, Eustochium, and Marcella states explicitly, in its own
-`hedge`, that her portrait is mediated entirely through Jerome's hand, and
-Paula's own hedge names the Palladius counter-account directly rather
-than only Jerome's. `narrative.quiet` closes on
-`hal.limit.f5-women-own-words` for the same reason both prior pilots chose
-the silence their own `orientation.voices`/`story` content had already
-made audible in advance.
+`documented_stories` maps three site entries to existing records:
+"Blaesilla's Funeral and the Crowd That Blamed the Monks" to
+`hal.story.rome-crisis` (384-385), "The Gourd of Oea" to
+`hal.story.oea-gourd` (c. 403), and "Marcella and the Goths in Her House"
+to `hal.story.marcella-death` (410). `title`/`teaser` are written fresh
+against what each record's own `text`/`tellable_as` fields actually say,
+not the site's own prose.
 
-COMPILER-TIME FINDING AND CORRECTION (2026-09-20): `narrative.questions`
-originally paired C-I (`hal.demo.jesus`) with F6-P via
-`hal.demo.woman-authority`, cited against `[hal.gravity.marcella-authority,
-hal.contested.marcella-agency]` - the pairing this pass's own flagged
-sensitivity most directly called for, since F6-P is this world's own
-Tensional-gravity cell and `hal.demo.woman-authority`'s own body note
-already documents that its embedded Marcella quotation was authored under
-the same deference-form discipline this record's own hedge applies.
-Running `engine.m2.site_compiler.compile_world_front()` against a draft of
-this record showed both `cite` entries resolving to a NULL `text` in the
-compiled output (`narrative.questions[1].cite[0].text` and `[1].text`):
-`_narrative()`'s own `cite` handling calls `_resolve_doctrinal_witness()`
-unconditionally, which reads only a `doctrinal_witness` record's `text`
-field - a `gravity` or `contested_claim` record has no such field, so any
-`cite` id that is not itself a `doctrinal_witness` silently compiles to
-null, exactly the same class of gap desert's own pilot first found with
-quote `modern_rendering`. Every prior world's own `narrative.questions`
-`cite` list is, in fact, doctrinal_witness ids only (checked directly
-against desert's, syriac's, and cappadocian's own committed records) -
-this pass's own first draft was the first to cite a non-doctrinal_witness
-record, and the compiler is the reason that convention holds. No
-doctrinal_witness record in this world answers the woman-authority
-question directly (`hal.demo.woman-authority`'s own `sources` field cites
-only `hal.gravity.marcella-authority`, `hal.story.marcella-standing`, and
-`hal.quote.recourse-to-marcella` - never a `dw` record - because none
-exists for it), so inventing a citation to an ill-fitting `dw` record
-purely to satisfy the compiler would misstate what actually grounds that
-demonstration. CORRECTED to F6-P via `hal.demo.suffering`, cited against
-`[hal.dw.suffering]` - a real, properly matching pair (`hal.demo.
-suffering`'s own `sources` field names `hal.dw.suffering` as its own
-answer-ground directly), re-verified by re-running the compile and
-confirming zero null leaves anywhere in the output. This still keeps
-F6-P, this world's own Tensional-gravity-adjacent cell, and still touches
-Marcella's death directly (both `hal.dw.suffering` and `hal.demo.
-suffering` narrate it) - the sharper woman-authority tension itself is
-carried in full by `narrative.who_speaks`, every `orientation.voices`
-hedge, and `narrative.quiet`, none of which depend on this compiler
-mechanic and so needed no correction. The underlying gap (`cite` accepting
-any record id at the schema layer while the compiler silently requires
-doctrinal_witness) is flagged here as a fleet-wide finding for the calling
-session to weigh, matching desert's own pilot precedent for flagging a
-gate/schema gap it is not this pass's own defect to fix.
+13 of 32 hal quote records (40.6%) carry a populated `modern_rendering`
+field. All four `pull_quotes` above
+(`hal.quote.a-follower-of-cicero-and-not-of-christ`,
+`hal.quote.paula-hebrew-psalms`, `hal.quote.detestable-monks`,
+`hal.quote.hail-bethlehem`) carry a real, populated `modern_rendering`.
 
-CLAIMS FOUND ON THE LIVE SITE AND DELIBERATELY NOT CARRIED FORWARD, for
-lack of a real record registering them (checked directly by search across
-`records/hal/` before dropping each one):
-
-1. `world-census.json`'s own `legacy` field claims the Vulgate "became the
-   Bible of the Latin West for over a thousand years," that the Council of
-   Trent "declared [it] authentic in 1546," that Jerome's method is "the
-   ancestor of every later 'back to the sources' movement, including the
-   Renaissance and Reformation scholarship," and that the pattern of
-   "wealthy women funding, hosting, and directing serious biblical
-   scholarship... recurs constantly in later Christian history." No record
-   in `records/hal/` makes any of these forward-reception claims -
-   `hal.term.vulgata` states explicitly that "the Vulgate['s]... later
-   standard status belongs to centuries after this world's close," and
-   `hal.force.transmission-ending` frames the translation's "slow later
-   reception" as proceeding without a mechanism this world's own record
-   ever describes. Matching cappadocian's own caution-7 discipline
-   against smoothing a thin aftermath into settled fact, `legacy` above
-   is deliberately ONE narrow entry, grounded only in what `hal.term.vulgata`
-   and `hal.quote.no-one-preferred-to-the-seventy` actually support: the
-   translation's reception was still an open, unresolved argument at the
-   point this world's own record ends, not a claim about what it later
-   became.
-2. `atlas-v3.html`'s cross-world relation entry (`cappadocian-nicene-
-   pastoral-monastic-tradition` -> `hieronymian-ascetic-literary`) claims
-   "Jerome heard Gregory of Nazianzus teach [at Constantinople] and calls
-   him his teacher." This is the SAME claim cappadocian's own `world_front`
-   pass (2026-09-20) already found and dropped from its own side, for lack
-   of any record supporting it beyond a Jerome source record whose body
-   note states plainly it was "not re-verified this session against the
-   specific entries Doc_02 cites." No record in `records/hal/` makes this
-   claim either (searched directly: no hal figure, source, or force record
-   names Gregory of Nazianzus at all). Not carried into this record's own
-   `relations_summary` - a second, independent confirmation of the same
-   already-flagged cross-world defect, not a new one.
-3. `world-census.json`'s own `relationsSummary` field also claims Origen's
-   "textual scholarship (the Hexapla) is the direct ancestor of Jerome's
-   Hebrew-testing project" (the same claim appears as the `alexandria-
-   catechetical -> hieronymian-ascetic-literary` cross-world relation).
-   Searched directly: no `records/hal/` record names the Hexapla as a
-   methodological ancestor of Jerome's own translation choices (the
-   Hexapla appears only inside `hal.contested.hebrew-fluency`'s own
-   `held_against`, as evidence AGAINST Jerome's self-presented fluency,
-   not as a claim about influence on his method). Dropped from
-   `relations_summary`; only the narrower, actually-grounded Origen
-   connection (Jerome and Rufinus both translated Origen's work, before
-   their rupture) is carried, per `hal.story.rufinus-rupture`.
-4. `world-census.json`'s own `sourcing` field claims the Syriac
-   recension's divergence from the Greek "hardens" a "guarded" prophecy
-   into "a flat claim" that Paula died to escape Jerome's "envy and
-   evil-eyedness" - this claim DOES survive the check
-   (`hal.quote.paula-escaped-his-envy`'s own divergence_note states this
-   exact contrast directly, verified verbatim against the vendored Budge
-   1907 Syriac text), but it is deliberately NOT carried into this
-   record's own `sourcing` or `voices` fields at this pass's own scope
-   (skim/orientation/narrative, not a full quote inventory) - flagging
-   here only that the claim WAS checked and found sound, unlike 1-3 above,
-   for completeness of this pass's own record of what it verified.
-5. `world-census.json`'s own `experienceToday` field (the Church of the
-   Nativity, UNESCO World Heritage listing) is exactly the kind of live
-   claim the schema's own `_EXPERIENCE_TODAY_ENTRY` requires a
-   `verified_on` date for. This pass did not re-verify that URL's current
-   content against today's date, and `orientation.experience_today` is
-   deliberately left absent entirely - the same scope decision both prior
-   pilots made (desert, syriac), stated here as a judgment call in this
-   pass's own final report as well.
-
-DOCUMENTED_STORIES MIGRATION - matches syriac's and cappadocian's own
-finding, not desert's. `atlas-v3.html`'s hieronymian-ascetic-literary
-`documentedStories` array holds three entries ("Blaesilla's Funeral and
-the Crowd That Blamed the Monks," "The Gourd of Oea," "Marcella and the
-Goths in Her House"), and all three matched an existing record directly
-on comparison of date, figures, and content: `hal.story.rome-crisis`
-(384-385), `hal.story.oea-gourd` (c. 403), `hal.story.marcella-death`
-(410). No new story record was authored this session. `title`/`teaser`
-were written fresh against what each record's own `text`/`tellable_as`
-fields actually say, not copied verbatim from the site's own prose (which
-quotes a "Never before has a heathen mother wept for her children as she
-has" line that traces to no `hal.quote` record checked this session, and
-frames Fabiola-style detail this world's own `hal.story.rome-crisis`
-record deliberately holds at a more conservative level of scene detail).
-
-MODERN_RENDERING GAP - a real, live instance of the same fleet-wide defect
-desert's and syriac's own pilots first found. A direct count
-(`grep -L "^modern_rendering:" records/hal/quote/*.md`) finds 13 of 32
-hal quote records (40.6%) carrying a populated `modern_rendering` field -
-between desert's 24% and syriac's 53%, not cappadocian's already-closed
-100%. All four `pull_quotes` chosen above (`hal.quote.a-follower-of-
-cicero-and-not-of-christ`, `hal.quote.paula-hebrew-psalms`,
-`hal.quote.detestable-monks`, `hal.quote.hail-bethlehem`) were verified to
-carry a real, populated `modern_rendering` before selection, and the
-actual compiled output was checked directly (see this pass's own final
-report for the exact command and result) to confirm each resolves to a
-non-null `text`. The underlying gap (19 hal quote records would silently
-null out if ever referenced by a future addition to this world_front's own
-`pull_quotes`) is flagged here as the same fleet-wide finding desert's own
-pilot first raised, not a new defect and not this pass's own to fix.
-
-NAME-DISAMBIGUATION RISK, checked deliberately (the desert/cappadocian
-pattern: Serapion/Sarapion, three Gregorys). This world has two women
-named Paula: the founder (`hal.figure.paula`, Eustochium's mother) and her
-granddaughter "the younger Paula" (`hal.figure.paula-younger`, Eustochium's
-niece, co-author of the lost 416 report). Every reference to the younger
-Paula in this record's own prose (`orientation.story`'s 416-attack
-paragraph, `hal.story.attack-416`'s own documented_stories entry, the
-Eustochium `voices` entry) carries an explicit disambiguating phrase
-("her young niece, also called/named Paula") rather than a bare "Paula."
-`hal.quote.innocent-ravages` - whose own body note states the letter's
-"Paula" is specifically the younger Paula, per the vendored volume's own
-editorial note - was deliberately EXCLUDED from `pull_quotes` for exactly
-this reason: as a bare mode-2 unit, rendered with no surrounding gloss,
-its modern_rendering ("Eustochium and Paula, two holy women, told me
-what happened...") would present an unqualified "Paula" to a participant
+This world has two women named Paula: the founder (`hal.figure.paula`,
+Eustochium's mother) and her granddaughter "the younger Paula"
+(`hal.figure.paula-younger`, Eustochium's niece, co-author of the lost
+416 report). Every reference to the younger Paula in this record's own
+prose carries an explicit disambiguating phrase ("her young niece, also
+called/named Paula") rather than a bare "Paula." `hal.quote.innocent-
+ravages` - whose own body note states the letter's "Paula" is
+specifically the younger Paula - is excluded from `pull_quotes` for
+exactly this reason: as a bare mode-2 unit with no surrounding gloss, its
+modern_rendering would present an unqualified "Paula" to a participant
 with no way to know which one, at the one point in this world's record
 where getting that wrong actually matters (the founder was fourteen years
-dead by 416). This is a deliberate scope narrowing, flagged here as a
-judgment call, not a silent omission - the same material is fully
-disambiguated where it does appear, in `hal.story.attack-416`'s own
-`documented_stories` entry and in `orientation.story`.
+dead by 416). The same material is fully disambiguated where it does
+appear, in `hal.story.attack-416`'s own `documented_stories` entry and in
+`orientation.story`.
 
-CROSS-RECORD CONSISTENCY CHECK (the desert pilot's own flagged pitfall).
-`hal.demo.jesus` was read in full alongside `hal.dw.jesus` (both cited
-above, `narrative.questions` cell C-I) - the demonstration's own exchange
-text matches the doctrinal witness's own text sentence-for-sentence in
-substance (the manger scene, the Bridegroom/physician/Word images, the
-redemption/resurrection close), with the same Jerome-reported-speech frame
-kept audible around the Paula material in both; no drift found.
-`hal.demo.woman-authority` and `hal.demo.women-own-words` were both read
-in full against `hal.gravity.marcella-authority`, `hal.contested.marcella-
-agency`, and `hal.quote.recourse-to-marcella`'s own deference-form
-continuation - both demonstration records already carry the same
-qualification this record's own Marcella `hedge` states, and both
-records' own body notes document a prior Opus adversarial-review
-correction (adding `hal.quote.dispute-to-learn` and `hal.story.marcella-
-standing` to sources; correcting a merged Hebrew-accomplishment claim) -
-no unresolved drift found, no NEW instance of the desert-tracking-file's
-own "sibling record still voices a corrected-away clause" pattern turned
-up in this world. Every `gravity`/`force` record cited above was checked
-against its own `relations[]` siblings for the same reason; none disagreed
-with what this record's own prose says about it.
+`narrative.questions[1]` pairs F6-P with `hal.demo.suffering`, cited
+against `[hal.dw.suffering]` - `hal.demo.suffering`'s own `sources` field
+names `hal.dw.suffering` as its own answer-ground directly. This world's
+`narrative.questions` cite ids are all `doctrinal_witness` records: the
+compiler's `_narrative()` resolves a `cite` id through
+`_resolve_doctrinal_witness()`, which reads only a `doctrinal_witness`
+record's `text` field, so a `gravity` or `contested_claim` id would
+silently compile to null. No `doctrinal_witness` record in this world
+answers the woman-authority question directly (`hal.demo.woman-
+authority`'s own `sources` field cites only `hal.gravity.marcella-
+authority`, `hal.story.marcella-standing`, and `hal.quote.recourse-to-
+marcella` - never a `dw` record, because none exists for it), so this
+pairing uses F6-P instead. This still touches Marcella's death directly
+(both `hal.dw.suffering` and `hal.demo.suffering` narrate it); the
+sharper woman-authority tension itself is carried in full by
+`narrative.who_speaks`, every `orientation.voices` hedge, and
+`narrative.quiet`.
 
-JUDGMENT CALLS, flagged plainly (none rose to the record-vs-record
-contradiction escalation category - none found this session): (a)
 `orientation.voices` uses four of this world's eleven `narratable: true`
-figures (Jerome, Paula, Eustochium, Marcella), not Fabiola, Rufinus,
-Augustine, Damasus, Pammachius, Blaesilla, or the younger Paula -
-matching all three priors' own precedent of voicing the narrowest set
-that actually anchors the world's own story, chosen here specifically
-because these four are the exact figures this pass's own flagged
-sensitivity concerns. (b) `narrative.quiet` names
+figures (Jerome, Paula, Eustochium, Marcella) - the narrowest set that
+actually anchors the world's own story. `narrative.quiet` names
 `hal.limit.f5-women-own-words` rather than this world's other three
-`honest_limit` records (enslaved persons, material remains, martyrdom) -
-chosen because it is the silence `orientation.voices`, `narrative.
-who_speaks`, and this pass's own flagged sensitivity all make loudest,
-the same "closes a thread already opened" reasoning both prior pilots
-used for their own `quiet` choice. (c) `narrative.questions` pairs cell
-C-I (`hal.demo.jesus`) with F6-P (`hal.demo.suffering`) rather than a
-second Center cell - this world has no built `demonstration` for C-T or
-C-E, and F6-P is the cell nearest this world's own Tensional gravity
-material (Marcella's death is narrated directly in both `hal.dw.suffering`
-and `hal.demo.suffering`); see the COMPILER-TIME FINDING note above for
-why the originally-intended `hal.demo.woman-authority` pairing was
-corrected away from, and why the sharper woman-authority tension itself
-is carried elsewhere in this record instead, not dropped. (d) `legacy` is
-deliberately ONE entry, narrower than any prior world's own legacy field,
-per finding 1 above.
+`honest_limit` records (enslaved persons, material remains, martyrdom),
+since it is the silence `orientation.voices` and `narrative.who_speaks`
+make loudest. `legacy` is deliberately ONE entry, narrower than a full
+reception history, per the reasoning above.

@@ -50,6 +50,6 @@ criterion; tags SC DR RT). The do-not-retrieve fence carries Doc_06's
 own anti-retrojection line (the systematized hesychast tradition is
 outside the c. 320-430 window).
 
-Step3a Review Round 4, Finding S2: the evidential sense's "In this
-window" (this build's own periodization parameter) had no antecedent
-within the field - reworded to "In this world's own time."
+The evidential sense states plainly that in this world's own time the
+practice is unsystematized: the later Byzantine hesychast apparatus
+does not belong here.

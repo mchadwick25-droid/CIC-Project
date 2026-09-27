@@ -52,7 +52,7 @@ modern_rendering: >-
   called marriage anymore. It's polygamy - or really, just a limited,
   tolerated form of fornication.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (the div's own XML id is
 "ix.clxxxix", but its printed heading at line 34733 reads "Letter
 CLXXXVIII." - the div id runs one notch ahead of the letter's own
@@ -72,6 +72,4 @@ third marriages during this life (penance terms, and the shift from
 directly, in Basil's own words, matching the specific claim
 cappadocian.dw.marriage-ending makes.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

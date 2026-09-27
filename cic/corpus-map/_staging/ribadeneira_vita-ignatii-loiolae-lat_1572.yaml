@@ -1,0 +1,20 @@
+source_file: ribadeneira_vita-ignatii-loiolae-lat_1572.txt
+
+assignments:
+  - work: "Vita Ignatii Loiolae, Societatis Iesu Fundatoris"
+    author: ribadeneira
+    locus: "whole volume"
+    atlas_ids:
+      - the-society-of-jesus
+    role: context
+    confidence: assigned
+    note: >
+      Ribadeneira's original Latin life of Ignatius, commissioned by the
+      3rd Superior General - an early, primary-adjacent biography by
+      someone who knew Ignatius personally. Per the Library's
+      scan-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is a
+      garbled 1572 scan - stays second witness for scan-quality reasons
+      until a cleaner edition is vendored. Its genre (an early biography, not
+      Ignatius's own voice) is a separate, independent reason this row
+      is role: context regardless of scan quality.

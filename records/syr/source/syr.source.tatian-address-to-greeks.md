@@ -22,7 +22,7 @@ attribution_status: attributed
 discovery_channel: "found by the cross-world corpus assignment (cic/corpus-map/syriac-edessa-nisibis.yaml), which assigned it to this world and observed that no record here had opened anf02 - the world knew Tatian only through Eusebius' notice and through the harmony's shape"
 external_ids: {ccel_volume: "anf02"}
 ---
-Rights verified 2026-08-27 from the file's own DC.Rights header (Public
+Rights are verified from the file's own DC.Rights header (Public
 Domain). Passages verified directly: ch. XLII, the concluding statement
 of authorship, at line 7460; ch. XXIX, the conversion account, at line
 6972.

@@ -39,7 +39,28 @@ relations:
 - type: associated-with
   target: desert.story.kellia-day
 name: "Manual labor as ascetic discipline [PRIMARY]"
-description: "Cheironaxia - hand-work done both to live and as a discipline in its own right, against idleness - understood by this world as the discipline itself, not merely economic necessity. Rests on textual, papyrological, and archaeological evidence independently: Athanasius, Palladius, the Nepheros archive (Melitian and caveated, its own editors also reading it as organizationally intermediary, no clean fit to this world's three strands), and Kellia's excavated commercial infrastructure. Strong on all six tests: attested across every evidence type available to this world; material sustainability, almsgiving, and the discipline against idleness all depend on it directly; it is understood as formation in itself; it directly explains the economic-embeddedness gravity's own point-evidence; and it is cross-strand. Documented/Widely Accepted, no discrepancy. Reinforces withdrawal and the economic-embeddedness gravity its own evidence partly feeds - the tension that gravity carries is with withdrawal's rhetoric specifically, not with this discipline itself; Doc_04 also notes some tension with a purely contemplative reading of the Evagrian systematization gravity, carried as a soft-tension in the index's Interaction Matrix rather than as a declared relation here. Intensifies under the generating force (martyrdom's unavailability): a direct, load-bearing response to that specific historical pressure, not merely coexistence with it."
+description: "Cheironaxia is hand-work, done both to make a living and as a discipline in its own right, against idleness. This
+  world understood it as the discipline itself, not merely as economic necessity.
+
+
+  Three kinds of evidence support it independently: texts, papyri, and archaeology. The texts include Athanasius and
+  Palladius. The papyri include the Nepheros archive, which comes with caveats. It belongs to the rival Melitian
+  movement. Its own editors read it as falling somewhere between forms of organization. It has no clean fit to any of
+  this world's three groups. The archaeology includes at least one excavated commercial center at Kellia.
+
+
+  The case is strong on every count. It appears in every kind of evidence this world offers. Material survival,
+  almsgiving, and the discipline against idleness all depend on it directly. It was understood as formation in itself.
+  It directly explains the specific evidence for the settlements' economic ties to villages. And it holds across every
+  part of this world. The evidence documents it directly and scholars broadly accept it, with no gap between the two.
+
+
+  It reinforces withdrawal. It also reinforces the pattern of economic ties to villages, which its own evidence partly
+  supplies. The tension carried by that pattern is with withdrawal's rhetoric specifically, not with manual labor
+  itself. Some tension is also noted with a purely contemplative reading of Evagrius's systematic teaching. That is
+  noted only as a soft tension, not declared as a firm relationship. Manual labor grows stronger under the force that
+  set this world in motion, the fact that martyrdom was no longer available. It is a direct, central response to that
+  pressure, not something that merely existed alongside it."
 classification: primary
 manifestations:
 - "Antony working with his hands from the start of his withdrawal (Vita SS3)"
@@ -62,51 +83,16 @@ The tension Doc_04 names between gravity 1 and gravity 8 directly is a
 separate, stronger finding, and this record does not manufacture a
 parallel one between gravity 4 and gravity 8.
 
-Step3b Review Round 1, Finding C3: "Kellia's excavated commercial
-buildings" (plural) overstated desert.source.kellia-excavations's own
-wording ("at least one commercial center") - corrected to match.
-Finding S8: no forces-connection notation was stated in this record's
-own text - added.
-
-Step3b Review Round 2, Finding S2: the paragraph above previously
-quoted Doc_04's Interaction-test cell with its second clause dropped,
-stating the truncated remainder "is" the cell and that this record's
-relations "follow that exactly" - the exact defect Round 1's own S3
-named, left standing when Round 1's fix touched only the index's
-matrix cells. Corrected to quote the cell in full and state plainly
-how the matrix's soft-tension* label, not a declared relation, carries
-the second clause. Finding M6: the Nepheros locus carried only the
-first of that source's two mandatory standing cautions - the second
-(organizationally intermediary, no clean fit to this world's three
-strands) added.
-
-Step3b Review Round 3, Finding M3: the Nepheros second caution landed
-in the locus only, not in the substantive field where Nepheros's first
-caution already appears - added to the manifestation too. Finding C3:
-the description rendered Doc_04's Interaction-test cell's second
-clause only by reference to the index; restated in the description
-itself for a reader who does not cross-check the index.
-
-Step3b Review Round 5, Finding M2: the description named Nepheros with
-caution (1) only, the same Repetition-test/evidence-independence claim
-Round 4's S1 charged substantial on withdrawal's sibling sentence -
-added caution (2) here too, matching this record's own manifestations[]
-and locus, which already carry both.
-
-Step3c: the Nepheros organizationally-intermediary complication this
-record's own locus and manifestations carry is now the full
-contested_claim record desert.contested.strand-porousness - reciprocal
-associated-with added.
-
-Doc_08: desert.force.economic-embeddedness-ongoing added as a
-reciprocal relation, per Doc_08's own gravity-force synthesis table.
-
-Doc08, Round 2 review Finding S4: this record's own description already
-carries Doc_04 SS4's forces finding verbatim, but no relation to
-desert.force.martyrdom-unavailable had been declared. Doc_04 SS4's own
-sentence covers five gravities in all (withdrawal, spiritual-combat,
-elder-authority, manual-labor, diakrisis); only desert.gravity.withdrawal
-and desert.gravity.spiritual-combat had already received the relation
-at Doc_08's initial draft. Added here, completing the full five-gravity
-set Doc_04 SS4 actually found (Round 3 review Finding M2: this note's
-own scope corrected).
+desert.source.kellia-excavations's own wording is "at least one
+commercial center," singular, and this record matches it. Both of the
+Nepheros record's mandatory standing cautions (Melitian identity /
+representativeness, and organizationally intermediary with no clean
+fit to this world's three strands) are carried in the description and
+the manifestation, not only in the locus. The Nepheros
+organizationally-intermediary complication is now the full
+contested_claim record desert.contested.strand-porousness, with a
+reciprocal associated-with relation. desert.force.economic-embeddedness-ongoing
+and desert.force.martyrdom-unavailable are both declared as reciprocal
+relations, per Doc_08's own gravity-force synthesis table and Doc_04
+SS4's five-gravity forces finding (withdrawal, spiritual-combat,
+elder-authority, manual-labor, diakrisis).

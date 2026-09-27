@@ -60,15 +60,13 @@ modern_rendering: >-
   name. That is why we never separate the Spirit from union with the
   Father and the Son.
 ---
-Verified verbatim 2026-09-02 directly against the vendored
+Verified verbatim directly against the vendored
 npnf208_basil-letters-select-works.xml (Letter CCXXVI / traditional Ep.
 226, "To the ascetics under him," sec. 3; lines 39744-39753 of the
-vendored file - corrected from an original citation of 39744-39752 after
-an independent adversarial review found the quoted text's own closing
-clause, "with the Father and the Son," actually lands on line 39753, one
-line past an inline endnote anchor that had thrown the count off by one.
-`grep -n -i "eustathius"` located the letter's div block at line 39596
-and its printed number "CCXXVI." at line 39599).
+vendored file. The quoted text's own closing clause, "with the Father
+and the Son," lands on line 39753, one line past an inline endnote
+anchor. `grep -n -i "eustathius"` locates the letter's div block at line
+39596 and its printed number "CCXXVI." at line 39599).
 Normalization applied: NPNF's double space after sentence-final periods
 collapsed to a single space, and inline footnote markers/anchors
 stripped; no wording added, dropped, or reordered.
@@ -87,6 +85,4 @@ boundary Eustathius's own faction would not cross. It closes F3-T by
 showing the rival-boundary claim resting on a real, citable doctrinal
 sentence rather than a generic assertion of orthodoxy.
 
-MODERN RENDERING AUTHORED (2026-09-02): the spoken form is a modern-
-English translation, never the archaic original; the original stays as
-the record's own text field, shown at Level 3.
+The spoken form is a modern-English translation, never the archaic original; the original stays as the record's own text field, shown at Level 3.

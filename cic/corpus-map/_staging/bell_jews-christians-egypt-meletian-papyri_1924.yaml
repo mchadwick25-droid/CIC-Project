@@ -23,10 +23,9 @@ assignments:
       (Hathor, upper Cynopolite nome, 330s-340s) — its own legal and personal
       papers, not later commentary about it, so `role: tradition` on the same
       footing this build gives its other papyrus-archive evidence.
-      `confidence: provisional` because the source record's own
-      divergence_note flags real, unresolved doubt the corpus-map inherits
-      rather than resolves: the community is Melitian (schismatic), not
-      Nicene-communion, and whether it is representative of this world's
-      mainstream ascetic strands is an explicitly unverified working
-      assumption (Doc_01 open item 1) — not yet cited by any quote, story,
-      or doctrinal_witness record, only registered as available.
+      `confidence: provisional`: the community is Melitian (schismatic),
+      not Nicene-communion, and whether it is representative of this
+      world's mainstream ascetic strands is not established (see Doc_01,
+      open item 1, and this world's own Open_Gaps_Tracking.md). Not yet
+      cited by any quote, story, or doctrinal_witness record - registered
+      as available only.

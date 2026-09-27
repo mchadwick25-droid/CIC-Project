@@ -40,7 +40,7 @@ relations:
 - {type: illustrates, target: ijc.gravity.sacramental-institutional-tension}
 - {type: illustrates, target: ijc.gravity.primacy-claiming}
 ---
-Text verified verbatim against the vendored file 2026-08-21 (editorial
+Text verified verbatim against the vendored file (editorial
 notes stripped; addressed to Rome herself on the feast of Peter and
 Paul). The primacy claim in its preached, devotional register: the
 martyr-apostles as the ground of the see's standing - "a wider sway by
@@ -49,5 +49,5 @@ the charge that its claim is merely political, and simultaneously the
 clearest exhibit of sanctity being converted into institutional
 standing (the Tensional gravity's Strand A face).
 
-Quote-verbatim gate fix (2026-09-22): restored the source's own space before a comma ("state ,") that
-the record had closed up. No wording changed.
+The text carries the source's own space before the comma ("state ,").
+No wording is changed.

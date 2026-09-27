@@ -10,13 +10,7 @@ engine.m1.canon.evidence_status_types() (a search record, definitionally
 sourceless: it documents the looking itself, so citing one grounds an
 honest evidence-of-absence claim). Both are real, non-fabricated
 citations; a citation that resolves to neither is a finding. No model
-needed, and none would make it more correct. (A third category -
-voice-scaffold self-attribution - existed 2026-08-26..28 while
-voice_craft compiled as a citable record section; the compiler fix made
-it unreachable and the fleet-parity battery measured exactly that - zero
-scaffold citations in 168 probes - so it was deleted, per the
-foundation audit's own rule about patches outliving their causes. See
-engine/m1/canon.py's tombstone note.)
+needed, and none would make it more correct.
 
 register is NOT mechanical in general - spec module M3 says outright that
 human reading is the instrument for register (spec SS5, threshold

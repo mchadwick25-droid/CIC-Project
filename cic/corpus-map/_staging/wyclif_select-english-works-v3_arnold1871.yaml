@@ -1,0 +1,15 @@
+source_file: wyclif_select-english-works-v3_arnold1871.txt
+
+assignments:
+  - work: "Select English Works of John Wyclif, Vol. III (Miscellaneous Works)"
+    author: wyclif
+    locus: "whole volume"
+    atlas_ids:
+      - lollardy
+    role: tradition
+    confidence: assigned
+    note: >
+      Wyclif's own miscellaneous Middle English works, ed. Thomas Arnold
+      (1871) - the specific lead this world's own Source Readiness
+      Dossier §3 originally named. This completes the set alongside
+      Vols. I and II.

@@ -5,7 +5,8 @@ record_type: term
 schema_version: 2
 status: draft
 register: emic
-canon_cells: []
+canon_cells:
+- F3-I
 relations:
 - type: associated-with
   target: lpc.term.the-flock
@@ -19,8 +20,8 @@ confidence:
   evidentiary_weight: corroborating
   formation_confidence: Documented
   divergence_note: 'The pattern is attested through different figures and different words -- and at the
-    same office (the episcopate) in both phases, per the project lead''s own ruling of 2026-09-16 -- not
-    one recurring term. Named as a pattern, not presented as a shared vocabulary item. Carried tension,
+    same office (the episcopate) in both phases -- not one recurring term. Named as a pattern, not
+    presented as a shared vocabulary item. Carried tension,
     flagged rather than resolved here: Lexicon_Deployment_Index.md SS3 records that this term carries
     no [DR] tag although Doc_06 SS4 names it a sharpest-case distortion (''suffrage'' hears as a modern
     franchise); this script maps distortion_risk from the tag set as recorded, per its own docstring (DISTORTION_RISK

@@ -12,17 +12,6 @@ A file's "drawn on" status is a full-text scan of this world's own
 same technique `texts_registry.citing_records()` already uses fleet-wide
 (catching a citation that lives in a quote record's body prose, not just
 a source record's `edition` field), scoped here to one world.
-
-KNOWN GAP, NOT HIDDEN: Build-Plan.md's own 2d spec also asks to relocate
-COVERAGE/REGIONS/AUTHORS out of `engine/m1/cross_world.py` into a
-library-side file under `cic/corpus-map/`, and to have
-`observe_second_hand_sources` read `cic/texts/AUTHORS.md`/
-`cic/corpus-map/AUTHOR-IDS.yaml` directly instead of its own hand-typed
-`AUTHORS` table. That relocation touches data
-`worlds/_cross-world/gen_corpus_table.py` and several worlds' own
-Review-Artifacts already depend on - real, separate work, deliberately
-not attempted in the same pass as this report, filed as a named
-remainder rather than silently dropped.
 """
 from __future__ import annotations
 

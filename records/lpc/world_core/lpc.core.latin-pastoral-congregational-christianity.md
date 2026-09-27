@@ -52,166 +52,309 @@ relations: []
 time_window:
   start: 246
   end: 430
-horizon: 'The formation of ordinary Latin North African Christianity as territorial, congregational, pastoral
-  life under episcopal office, c. 246-430 CE: Cyprian of Carthage navigating the Decian persecution, plague,
-  and schism as a working bishop (248/249-258), and Augustine of Hippo preaching, catechizing, and administering
-  the sacraments for his own congregation a century later (391/395-430) -- bounded by two bishops'' ordinary
-  care of an entire local flock, not by a single continuous institutional narrative across the century
-  between them (Doc_01 SS1). A world of ordinary pastors and their own congregations, not of courts, councils
-  convened to settle empire-wide jurisdiction, or ascetic withdrawal from congregational life: its formation
-  logic is pastoral and sacramental before it is juridical (Doc_01 SS1). Carthage, the metropolitan see
-  of Africa Proconsularis and the most populous Latin Christian city outside Rome through most of this
-  world''s own span; Hippo Regius, a substantial port city, civilly usually placed in Africa Proconsularis
-  but ecclesiastically Numidian -- Augustine''s own second anchor is a provincial bishop answerable within
-  a different provincial structure than the primatial see whose wider African councils he nonetheless
-  attended (Doc_01 SS2). The beginning point is Cyprian''s own conversion and rise, by congregational
-  acclamation over five presbyters'' recorded opposition, to the episcopate of Carthage (c. 246-249);
-  the close is Augustine''s death at Hippo, 28 August 430, during the Vandal siege of the city -- a real
-  ecological rupture of the same kind that opens this world, not merely a convenient life-span boundary
-  (Doc_01 SS2). The century between the two bishops (258-391) is a genuine documentary silence IN THIS
-  WORLD''S OWN RECORD, not a general absence of evidence about the period: it is richly attested, but
-  almost entirely through sources that are Donatism''s own territory, not this world''s own surviving
-  voice (Doc_01 SS5, SS8; Doc_02 SS7). Strand-singular, on Doc_01 SS5''s own Article 21 finding: the two
-  phases share the same formation emphasis, practice, and ecological orientation, and the real, substantial
-  authority-structure differences between them (a bishop''s coercive capacity relative to a rival hierarchy;
-  a rival consecration''s own sacramental validity; and, the axis Doc_01 SS8 item 10 holds open rather
-  than fully settled, conciliar-authority theory) do not clearly touch a bishop''s own ordinary exercise
-  of authority toward his own flock, which is what this world''s own recurring gravities are actually
-  about. This world''s own Article 3 coherence rests not on continuous self-documentation across the gap
-  but on a checkable, in-world fact its own surviving corpus attests: Augustine''s own church documents
-  itself as the same catholic communion Cyprian had led, arguing with him rather than against his own
-  standing (Doc_01 SS5). Living Tradition Status: CONFIRMED by the project lead, with no single named
-  heir -- this world''s own core content, an ordinary bishop''s territorial, sacramental, congregational
-  care of a local flock, is close to the default self-understanding of the parish or diocesan ministry
-  of most historic Christian communions that retained the office of bishop or pastor at all, ancestral
-  to the Western church before its own divisions rather than a claim particular to one see''s own succession
-  (Doc_01 SS1). This world''s own self-understanding is not a movement with a founding rupture to narrate;
-  it experiences itself as the ordinary church (Doc_07 SS2C).'
-formation_logic: 'What a person is actually being formed into: a member of a body that can hold them through
-  their own failure (Doc_07 SS2I). Every lens converges on the same shape -- a rite that ends in restoration,
-  a pastor who will not stand apart from those who failed, a refusal of any single decisive test, a graded
-  road back rather than a verdict, one named man answerable for these particular people, and a boundary
-  that disagreement does not breach (Doc_07 SS2I). THE MECHANISM IS RITE-GENERATES-DOCTRINE, not the reverse:
-  this world''s two defining crises are not doctrinal disputes with liturgical consequences but rite disputes
-  argued in doctrinal terms -- the rebaptism controversy is a dispute over the valid administration of
-  baptism, the lapsed controversy a dispute over the rite of penitential reconciliation, and three of
-  the four Primary gravities ARE disputes about rites, the fourth the office that administers them (Doc_07
-  SS2A, per Doc_05 SS3.1). THE GRAVITY SPINE (Doc_07 SS2, preliminary characterization, Doc_04''s own
-  six-test assessment): Primary -- G1 Pastoral Office as Territorial Flock-Keeping, G2 Penitential Discipline,
-  G3 Collegial Communion Preserved Despite Disagreement, G6 Sacramental and Ordination Validity Across
-  the Boundary; Supporting -- G4 Preaching and Catechesis, G5 Conciliar Authority Theory, G7 Grace and
-  Human Incapacity; Tensional -- G8 Confessor-Authority vs. Episcopal-Regulated Peace. THE RECURRING MOVE,
-  underneath otherwise unrelated positions: this world characteristically refuses to let a single factor
-  be decisive -- Cyprian refuses to let one act under persecution permanently determine membership; Augustine
-  refuses to let a minister''s purity determine a sacrament''s validity, and refuses to let a believer''s
-  unaided will determine their standing before God (Doc_07 SS2D). THE INTERNAL RULE THAT KEEPS DISAGREEMENT
-  FROM BECOMING SEPARATION (G3) is this world''s most characteristic structure: ''judging no man, nor
-  rejecting any one from the right of communion, if he should think differently from us,'' said by the
-  man presiding over the council that will decide the sharpest question in the room -- and a century and
-  a third later, Augustine argues at book length that that man''s ruling was wrong, and never places him
-  outside (Doc_07 SS2H). PENITENTIAL DISCIPLINE IS A FUNCTIONING LEGAL SYSTEM, not a devotional practice:
-  an examined entry, graded severity, a defined duration, a competent authority, a formal act of restoration
-  -- and this world''s law exists to bring failed members back, not to order relations between sees and
-  the state the way World #6''s own juridical life does (Doc_07 SS2E). TWO PRESSURES PRODUCED TWO NEW
-  CLASSES OF PERSON IN ONE YEAR: the Decian edict created the lapsed and the confessors'' own claim on
-  reconciliation in the same administrative stroke, and G2/G8 are the community''s response to having
-  both in the room at once (Doc_07 SS4). THE SYSTEM METABOLIZES CRISIS INTO TEACHING: persecution produces
-  De Lapsis and a penitential order; plague produces De Mortalitate; the rival communion produces a book-length
-  argument about baptism; Pelagian anthropology produces thirteen works -- every external pressure on
-  record arrives at an ordinary believer transformed into a sermon, a catechesis, or a decision about
-  the table (Doc_07 SS4). THE INTEGRATIVE OBSERVATION: to be formed here was to be somebody''s -- and
-  to discover that this was a stronger fact about you than your own failure was. A named man is answerable
-  for you; the community is answerable for what it does with you when you fail; the road back is walked
-  where the people who watched you fall are the ones who have to receive you. This world argues ferociously
-  -- about water, about councils, about grace -- and it argues INSIDE a bond it will not break, because
-  the bond is the thing it actually believes in (Doc_07 SS6).'
-thinness: 'Not a hostile-source problem the way the sibling Donatism build''s own evidentiary situation
-  is -- both anchor voices speak in their own words, as bishops of the tradition this world''s own construction
-  centers on, not as an opponent''s quotation. This world holds the largest and most direct primary-source
-  base of any confirmed world in the portfolio to date (Doc_02 SS1). The asymmetry here is narrower and
-  different in kind: two named, elite, male, clerical voices carry nearly this entire world''s own surviving
-  record across a 184-year span (Doc_02 SS6). THE SKEW IS NARROWER THAN A BLANKET NEGATIVE WOULD SUGGEST,
-  NOT ABSENT: the non-episcopal clergyman is Pontius, a deacon, whose extended first-person account is
-  the whole subject of this world''s own formation-narrative work; two lay believers'' own letters survive
-  in their own words (Epistles XX and XXI, two confessors writing to each other, neither yet ordained);
-  and named women appear in real narrative weight -- Letter CXXVI to Albina and Letter CCXI to the Nuns
-  of Hippo, plus Sermons 280-281 on Perpetua and Felicitas -- though the Affirmative Duty''s secondary,
-  bounded-reconstruction prong has not yet been exercised on any of the three (Doc_02 SS6, SS9). What
-  remains true: no source anywhere in this world''s own vendored corpus is authored by an ordinary lay
-  believer writing about ordinary congregational life as such, rather than about a specific crisis that
-  drew a bishop''s own attention and thereby survival. NARRATIVE/MYTHIC THINNESS IS A POSITIVE FACT ABOUT
-  THIS WORLD, NOT A GAP IN ITS RECORD: this world has no founding narrative, no origin myth, and remembers
-  itself overwhelmingly through what it taught rather than what it narrated about itself -- a community
-  that understands itself as the ordinary church, doing the ordinary work of pastoring the people in front
-  of it, has no founding rupture to narrate and does not experience itself as needing one (Doc_07 SS2C,
-  SS7). MATERIAL EVIDENCE IS UNEXCAVATED, NOT EMPTY: no site report, inscription catalogue, or excavation
-  record has been independently verified in this build, and this world has no distinctive liturgical epigraphic
-  marker of the kind the sibling Donatism build can point to; but real material evidence is textual --
-  an apse, a raised clergy seating area, steps, and a congregational floor, recovered from a pastoral
-  letter rather than a trench (Doc_02 SS5; Doc_07 SS2G). THE 133-YEAR DOCUMENTARY SILENCE (258-391) IS
-  A GENUINE SILENCE IN THIS WORLD''S OWN RECORD, never to be filled from the neighboring Donatism world
-  whose sources do cover the interval, and never an occasion for meta-commentary about what did or did
-  not survive to be documented (Doc_01 SS5; Doc_02 SS7). THE LITURGICAL MATERIAL HAS NEVER BEEN READ AS
-  LITURGICAL EVIDENCE: the works that argue this world''s two anchor controversies presuppose, without
-  independently describing, the specific rite of administration each argues about -- named as the highest-value
-  unblocked task in the build, not yet done (Doc_02 SS5, SS9; Doc_07 SS8). THE PUNIC- AND BERBER-SPEAKING
-  RURAL SUBSTRATE is named but not resolved: this world''s surviving sources overwhelmingly preserve the
-  literate, Latin-trained episcopal voice, and how deeply the underlying substrate culture shaped ordinary
-  congregational life specifically is not answered by anything identified in this build (Doc_01 SS2; Doc_02
-  SS6). THE 411 GESTA REMAINS SUBSTANTIALLY UNEXPLOITED: a live, recorded primary route to Augustine''s
-  own voice among named Donatist bishops -- he speaks in at least fourteen numbered acts -- sits in this
-  world''s own vendored corpus and bears on the conciliar-authority gravity, but is not yet drawn on by
-  any completed construction document (Registry row 65; Doc_07 SS7, SS8).'
-cautions: '1) TWO-BISHOP MEDIATION IS NOT AUTHOR GRAVITY IN THE DONATIST SENSE, BUT IT IS REAL: both anchor
-  voices are this tradition''s own, in their own words, at enormous length -- what is thin is not the
-  un-hostile record but the NON-EPISCOPAL one, and a reader should not mistake Augustine''s own episcopal
-  dominance for the whole of this world''s own voice (Doc_02 SS2; Doc_07 SS2B). 2) THE CENTURY GAP (258-391)
-  IS DONATISM''S OWN TERRITORY, NOT THIS WORLD''S: never characterize what happened in that interval from
-  this world''s own vendored corpus, which holds nothing dated inside it; the Donatist schism sits among
-  this world''s own Historical Pressures and is Article 23''s future concern for how a Representative
-  characterizes an opponent, never this world''s own voice to borrow (Doc_01 SS7; Doc_02 SS1, SS6). 3)
-  TWO NAMED COMPARANDA GUARD REAL, SPECIFIC TEMPTATIONS, NOT MERELY DATE OR PLACE MISMATCHES: Tertullian''s
-  own corpus (Excluded, row 29) is credited with FORGING the Latin theological vocabulary Cyprian works
-  within and Augustine inherits at one further remove, WITHOUT Tertullian himself being this world''s
-  own voice -- a builder reaching for his own words to characterize Cyprian''s or Augustine''s preaching
-  would be borrowing a different world''s own primary voice; and the Passion of the Scillitan Martyrs
-  (180 CE, Excluded, row 28, mirrored by a second-witness Latin/Greek text at row 204) predates this world''s
-  own boundary by 66 years and is NOT this world''s own primary evidence for characterizing Cyprian''s
-  own congregation, however tempting the corpus map''s own ''direct root of the Carthaginian congregational
-  tradition'' language reads (Doc_01 SS7; Doc_02 SS1). 4) THE STATE-POWER ARC IS THREE PHASES, NOT TWO,
-  AND NEVER A SINGLE STATIC LABEL: Cyprian never solicits state power at all; Augustine''s own relationship
-  develops from an early opinion against any coercion (by his own retrospective account), through a real
-  but narrow solicitation of legal protection argued for but in the event not granted early in his own
-  episcopate, to a later, sustained defence of broader compulsion already in force -- never compress this
-  into ''present but late'' (Doc_01 SS7). 5) A FINE AT CTh XVI.5.21 (392) IS NOT THE SAME PROVISION AS
-  CTh XVI.5.52 (412): the two, and the 401 council Letter 185 SS25 records between them, are three different
-  years under different emperors, easily collapsed into each other -- XVI.5.52''s own graduated Donatist-specific
-  silver-fine schedule belongs to the sibling Donatism build, not this one (Registry rows 12, 44). 6)
-  THE CONCILIAR-AUTHORITY AXIS (G5) IS HELD OPEN, NOT SETTLED: Cyprian''s own egalitarian, non-coercive
-  theory of inter-episcopal authority and Augustine''s own hierarchical, correctable one are real, substantial
-  differences Doc_01 SS8 item 10 names and does not consider fully closed -- Doc_04 Round 9 finds a determinate
-  Framework classification reachable from its own premises but not yet run, and the strand-singular finding
-  itself carries a disclosed reopening caveat on exactly this axis (Doc_01 SS4, SS5, SS8 item 10; Doc_07
-  SS2D, SS8). 7) THE DE UNITATE TWO-RECENSION QUESTION IS UNRESOLVED: De Unitate 4-5 survives in two recensions,
-  one (the ''Primacy Text'') reading more favourably to Roman primacy, and nothing in this world''s own
-  construction record rests on which is prior (Doc_01 SS7; Registry row 3). 8) OPTATUS IS DELIBERATELY
-  DOUBLE-PLACED ON THE CENSUS AND NOT DRAWN ON: Optatus''s Against the Donatists is Catholic-side anti-Donatist
-  polemic, not evidence of this world''s own ordinary pastoral-congregational life the way Cyprian''s
-  and Augustine''s own corpora are -- the placement question is a corpus-map census matter outside this
-  compilation''s own editing authority, not a claim on which world he actually belongs to (Doc_02 SS1;
-  Registry row 27). 9) THE 411 GESTA''S OWN RICH DISCOVERY DOES NOT WIDEN WHAT IT LICENSES: fourteen numbered
-  acts of Augustine speaking among named Donatist bishops are independently counted and quoted, but this
-  world''s own construction still rests the Conference''s own date on its ordinary, undisputed dating,
-  not on any reading of the acts -- available to future work, not yet drawn on (Registry row 65). 10)
-  THE V7.4 FIELD-BIBLIOGRAPHY SWEEP PROPER REMAINS UNRUN: fourteen rounds of a ten-item recall test and
-  PRESS question, each drawing on instruments the prior rounds had not used, returned 0/10 in every round
-  but one -- real, repeated evidence of the sweep''s own cost, not a substitute for running it (Source_Registry.md''s
-  own Saturation statement; Doc_02 SS9 item 6). 11) THIS COMPILATION''S OWN SOURCE OF TRUTH WAS ITSELF
-  UNDER OPEN REVIEW AT THE TIME OF COMPILATION: Source_Registry.md''s own header states it was returned
-  to independent review after its own prior disposition, and that review had not yet returned as of this
-  pass -- this compilation rests on the Registry as it read at that moment, not on a review verdict that
-  had not yet arrived, and any finding that review returns should be checked against these records before
-  they are treated as settled.'
+horizon: >-
+  The formation of ordinary Latin North African Christianity, c. 246-430 CE. Here Christianity is
+  lived as territorial, congregational, pastoral life under a bishop's office. Two bishops hold it together.
+  Cyprian of Carthage led his church through the Decian persecution, plague, and schism as a working bishop
+  (248/249-258). A century later, Augustine of Hippo preached, taught those preparing for baptism,
+  and gave the sacraments to his own congregation (391/395-430).
+
+
+  What bounds this world is two bishops' ordinary care of an entire local flock. It is not bounded
+  by one continuous institutional story across the century between them.
+
+
+  This is a world of ordinary pastors and their own congregations. It is not a world of courts, or
+  of councils called to settle jurisdiction across the empire. Nor is it a world of ascetics who
+  withdraw from congregational life. Its way of forming people is pastoral and sacramental before it
+  is legal.
+
+
+  Carthage was the metropolitan see of Africa Proconsularis. Through most of this world's span it was
+  the most populous Latin Christian city outside Rome.
+
+
+  Hippo Regius was a substantial port city. In civil terms it is usually placed
+  in Africa Proconsularis, but in church terms it was Numidian. So Augustine was a provincial
+  bishop, answerable within a different provincial structure from Carthage, the primate's see. Even
+  so, he attended the wider African councils that Carthage led.
+
+
+  The world begins with Cyprian's conversion and his rise to be bishop of Carthage (c. 246-249). The
+  congregation acclaimed him, over the recorded opposition of five presbyters. The world closes with
+  Augustine's death at Hippo on 28 August 430, during the Vandal siege of the city. That siege was a
+  real break in this world's life, of the same kind as the one that opens it. It is not merely a
+  convenient end to one man's lifespan.
+
+
+  The century between the two bishops (258-391) is a genuine silence in this world's own record. It
+  is not a general lack of evidence about the period. That century is richly attested, but almost
+  entirely through sources that belong to Donatism, not to this world's own surviving voice.
+
+
+  The two bishops' eras form one strand, not two. They share the same emphasis in formation, the
+  same practice, and the same orientation to the world around them. Real and substantial differences
+  in authority do separate them. One is how far a bishop could use coercion against a rival
+  hierarchy. Another is whether a rival consecration was sacramentally valid. A third is their
+  theory of what councils can decide, and that one is held open rather than fully settled.
+
+
+  But none of these differences clearly touches a bishop's ordinary authority over his own flock.
+  That ordinary authority is what this world's recurring concerns are actually about.
+
+
+  What makes this one world is not a record that runs unbroken across the gap. It is a fact that
+  this world's own surviving writings let anyone check. Augustine's church describes itself as the
+  same catholic communion that Cyprian had led. Augustine argues with Cyprian, but never against
+  Cyprian's standing.
+
+
+  This tradition is still living, but it has no single named heir. Its core is an ordinary bishop's
+  territorial, sacramental, congregational care of a local flock. That is close to how most historic
+  Christian communions understand parish or diocesan ministry, wherever they kept the office of
+  bishop or pastor at all. It is ancestral to the Western church before that church divided. It is
+  not a claim that belongs to one see's own line of succession.
+
+
+  This world is not a movement with a founding break to tell. It experiences itself as the ordinary
+  church.
+formation_logic: >-
+  What a person is actually formed into here is a member of a body that can hold them through their
+  own failure.
+
+
+  Every way of looking at this world arrives at the same shape. There is a rite that ends in
+  restoration, and a pastor who will not stand apart from those who failed. There is a refusal of
+  any single decisive test, and a graded road back rather than a verdict. There is one named man
+  answerable for these particular people. And there is a boundary that disagreement does not breach.
+
+
+  Here the rite generates the doctrine, not the other way round. This world's two defining crises
+  are not doctrinal disputes with consequences for worship. They are disputes about rites, argued in
+  doctrinal terms. The rebaptism controversy is a dispute over how baptism is validly given. The
+  lapsed controversy is a dispute over the rite that reconciles penitents.
+
+
+  Eight recurring concerns give this world its shape. This is an early reading of them, not a final
+  one. Four carry the most weight, and three of those four are disputes about rites. The fourth is
+  the office that performs the rites.
+
+
+  The first of the four is the pastoral office, understood as keeping a flock in one territory. The
+  second is penitential discipline. The third is communion among bishops, kept whole despite
+  disagreement. The fourth is whether sacraments and ordinations stay valid across the boundary with
+  a rival church.
+
+
+  Three more concerns support these. They are preaching and teaching those preparing for baptism;
+  theories of what councils can decide; and God's grace set against human inability. One last
+  concern pulls against the others. It is the authority the confessors claimed, set against the
+  peace the bishop regulated.
+
+
+  Underneath positions that otherwise have nothing in common, one move keeps recurring. This world
+  refuses to let any single factor be decisive. Cyprian refuses to let one act under persecution
+  settle a person's membership for good. Augustine refuses to let a minister's purity decide whether
+  a sacrament is valid. He also refuses to let a believer's unaided will decide where they stand
+  before God.
+
+
+  This world's most characteristic structure is an internal rule that keeps disagreement from
+  becoming separation. Cyprian states it while presiding over the council that will decide the
+  sharpest question in the room. His words are these: 'judging no man, nor rejecting any one from
+  the right of communion, if he should think differently from us.' A century and a third later,
+  Augustine argues at book length that Cyprian's ruling was wrong. He never places him outside.
+
+
+  Penitential discipline here is a working legal system, not a devotional practice. It has an
+  examined entry, graded severity, a defined duration, a competent authority, and a formal act of
+  restoration. And this law exists to bring failed members back. It does not exist to order
+  relations between sees and the state, the way the legal life of an imperial church does.
+
+
+  Two pressures produced two new kinds of person in a single year. The Decian edict created the
+  lapsed, and in the same administrative stroke it created the confessors' own claim to grant
+  reconciliation. The community had to hold both kinds of person in the room at once. Penitential
+  discipline is its response, and so is the pull between the confessors' authority and the bishop's
+  regulated peace.
+
+
+  The system turns crisis into teaching. Persecution produces De Lapsis and an order of penance.
+  Plague produces De Mortalitate. The rival communion produces a book-length argument about baptism.
+  Pelagian teaching about human nature produces thirteen works. Every outside pressure on record
+  reaches the ordinary believer transformed. It arrives as a sermon, as teaching, or as a decision
+  about who comes to the table.
+
+
+  To be formed here was to be somebody's, and to discover that this was a stronger fact about you
+  than your own failure. A named man is answerable for you. The community is answerable for what it
+  does with you when you fail. The road back is walked where the people who watched you fall are the
+  ones who have to receive you.
+
+
+  This world argues ferociously: about water, about councils, about grace. But it argues inside a
+  bond it will not break, because the bond is the thing it actually believes in.
+thinness: >-
+  This is not a hostile-source problem, the way it is for the neighbouring Donatist world. Both
+  bishops speak in their own words, as bishops of the tradition at the centre of this world, not
+  as quotations in an opponent's book. This world holds the largest and most direct base of primary
+  sources of any world we have built so far.
+
+
+  The imbalance here is narrower, and different in kind. Two named voices carry nearly this world's
+  entire surviving record, across a span of 184 years. Both are elite, male, and clerical.
+
+
+  The skew is narrower than a blanket statement would suggest, but it is not absent. One voice from
+  outside the bishops' ranks belongs to Pontius, a deacon. His long first-person account stands at
+  the centre of how this world tells the story of a life being formed. Two lay believers' own
+  letters survive in their own words: Epistles XX and XXI. They are two confessors writing to each
+  other, neither yet ordained.
+
+
+  Named women also carry real weight in the story. They appear in Letter CXXVI to Albina, Letter
+  CCXI to the Nuns of Hippo, and Sermons 280-281 on Perpetua and Felicitas. But none of the three
+  has been used to reconstruct, within careful bounds, the women's own side.
+
+
+  What remains true is this. No source in this world's own collection is written by an ordinary lay
+  believer about ordinary congregational life as such. What survives is about a specific crisis, one
+  that drew a bishop's attention and survived because of it.
+
+
+  The thin narrative and mythic record is a positive fact about this world, not a gap in its record.
+  This world has no founding narrative and no origin myth. It remembers itself overwhelmingly
+  through what it taught, not through what it narrated about itself. It understands itself as the
+  ordinary church, doing the ordinary work of pastoring the people in front of it. A community like
+  that has no founding break to narrate, and does not experience itself as needing one.
+
+
+  Material evidence here is unexcavated, not empty. No site report, inscription catalogue, or
+  excavation record has been verified in this build for this world. It also has no distinctive
+  inscription tied to its worship, of the kind the Donatist world can point to. But real material
+  evidence does exist, carried in a text. A pastoral letter describes an apse, a raised seating area
+  for clergy, steps, and a floor for the congregation. That evidence comes from a letter, not a
+  trench.
+
+
+  The 133 years from 258 to 391 are a genuine silence in this world's own record. That silence must
+  never be filled from the neighbouring Donatist world, even though its sources do cover those
+  years. Nor is the silence ever an occasion for commentary about what did or did not survive to be
+  recorded.
+
+
+  We have not yet read the rites themselves as evidence in their own right. The works that argue this
+  world's two defining controversies take for granted the rite each one argues about. They do not
+  describe that rite on its own terms.
+
+
+  The Punic- and Berber-speaking rural substrate is named here but not resolved. This world's
+  surviving sources overwhelmingly preserve the literate, Latin-trained voice of bishops. How deeply
+  that underlying culture shaped ordinary congregational life is a question that nothing identified
+  so far answers.
+
+
+  The recorded acts of the 411 Conference, the Gesta, remain largely untapped. They are a live,
+  recorded route to Augustine's own voice among named Donatist bishops. He speaks in at least
+  fourteen numbered acts. The Gesta sit in this world's own collection, and they bear on the
+  question of what councils can decide. But we have not yet drawn on them.
+cautions: >-
+  1) Resting on two bishops is a real limit, but it is not the Donatist problem. In the Donatist
+  world, nearly the whole record comes through opponents; here, both bishops speak in this
+  tradition's own words, at enormous length. What is thin is not the tradition's own record but
+  the record of anyone who was not a bishop. Do not mistake Augustine's dominance as a bishop for
+  the whole of this world's voice.
+
+
+  2) The century gap (258-391) is Donatism's territory, not this world's. Never describe what
+  happened in those years from this world's own collection, which holds nothing dated inside them.
+  The Donatist schism is one of the historical pressures on this world. How to speak of Donatism as
+  an opponent is governed by a separate rule. It is never this world's own voice to borrow.
+
+
+  3) Two named comparisons guard against real, specific temptations, not just mismatches of date or
+  place. The first is Tertullian, whose writings stand outside this world, though he is credited
+  with forging the Latin theological vocabulary that Cyprian works within. Augustine inherits that
+  vocabulary at one further remove. But Tertullian himself is not this world's voice. Reaching for
+  his words to describe Cyprian's or Augustine's preaching would borrow another world's primary
+  voice.
+
+
+  The second is the Passion of the Scillitan Martyrs (180 CE). It also stands outside this world, as
+  does a second Latin and Greek text of it. It comes 66 years before this world begins. It is not
+  this world's own evidence for describing Cyprian's congregation. That holds however tempting the
+  source catalogue's phrase for it reads: 'direct root of the Carthaginian congregational
+  tradition.'
+
+
+  4) The relationship to state power runs in three phases, not two, and it is never one fixed label.
+  Cyprian never asks for state power at all. Augustine's view develops over time. First, by his own
+  later account, he held an early opinion against any coercion. Then, early in his time as bishop,
+  he sought legal protection in a real but narrow way, arguing for it though in the event it was not
+  granted. Later still, he gave a sustained defence of broader compulsion that was already in force.
+  Never compress this into 'present but late.'
+
+
+  5) Two imperial laws are easily confused. The fine at Codex Theodosianus XVI.5.21 (392) is not the
+  same provision as XVI.5.52 (412). Between them falls the council of 401 that Letter 185, section
+  25, records. These are three different years under different emperors, easily collapsed into one
+  another. The graded schedule of silver fines aimed at Donatists in XVI.5.52 belongs to the
+  Donatist world, not this one.
+
+
+  6) What councils can decide is held open, not settled. Cyprian's theory of authority among bishops
+  is equal and non-coercive. Augustine's is hierarchical, and it holds that a council's judgment can
+  be corrected. These are real, substantial differences, and they are not considered fully closed. A
+  firm answer looks reachable from our own premises, but it has not been settled. The finding
+  that the two bishops form one strand also carries a stated caveat: it could be reopened on exactly
+  this point.
+
+
+  7) The question of De Unitate's two versions is unresolved. Chapters 4-5 of De Unitate survive in
+  two versions. One, the 'Primacy Text', reads more favourably toward Roman primacy. Nothing in our
+  own account here rests on which version came first.
+
+
+  8) Optatus is deliberately listed in more than one place, and is not drawn on. His Against the
+  Donatists is Catholic polemic against the Donatists. It is not evidence of this world's ordinary
+  pastoral and congregational life, the way Cyprian's and Augustine's own writings are. Where he is
+  listed is a corpus-map cataloguing question, outside this compilation's own editing authority. It
+  is not a claim about which world he actually belongs to.
+
+
+  9) The rich record of the 411 Conference does not widen what it can support. In fourteen numbered
+  acts, Augustine speaks among named Donatist bishops, and each act has been counted and quoted. But
+  we still date the Conference by its ordinary, undisputed dating, not by any reading of those acts.
+  The acts are available for later use, but nothing here draws on them yet.
+
+
+  10) The modern scholarly literature on this world has not been fully surveyed. Fourteen rounds of
+  a ten-item test each drew on search tools that earlier rounds had not used. Every round but one
+  returned zero out of ten. That is real, repeated evidence of what a full survey would cost. It is
+  not a substitute for doing it.
+
+
+  11) The record this compilation rests on was itself under independent review while this world was
+  being built, and that review has not yet returned. This compilation rests on the record as it read
+  at that time, not on a verdict that had not yet arrived. Any finding that review later returns
+  should be checked against these records before it is treated as settled.
+
+
+  12) A risk around shame and self-forgiveness sits at this world's table. Its emotional register is
+  the grief of a wounded shepherd who will not stand apart from the people he grieves over. Its
+  teaching on the road back stresses being examined, weighed, and walked toward before being
+  received home.
+
+
+  So a Facilitator's crisis redirect carries a real risk. If it is phrased in a way that echoes
+  'prove yourself first', it could land as confirmation of a participant's shame. What it needs to
+  say instead is closer to this: 'you are held, and this needs more than this conversation can
+  give.' The project's safety rules require that redirect to be warm and unconditional.
+
+
+  In testing, this world's Representative did not make its warmth conditional. But this remains a
+  named point for the Facilitator's own voice at this world's table specifically. It has not been
+  tested against a live Facilitator redirect.
 thin_topics:
 - keywords:
   - ordinary believer
@@ -286,6 +429,6 @@ WORLD_ID: `latin-pastoral-congregational-christianity`. This world has no entry 
 
 TIME_WINDOW: start 246, end 430. Doc_01's own beginning point is Cyprian's conversion and rise to the episcopate, "c. 246-249" as a single approximate range rather than don's own doubled 311/312 opening; the earlier boundary year is carried in the schema's own single integer, with the fuller two-to-three-year interval and the two bishops' own different conversion-to-office intervals stated in `horizon` instead of collapsed. The 430 close is Augustine's own death during the Vandal siege of Hippo -- Doc_01 SS2 argues it is a real ecological rupture of the same kind that opens this world, not merely a biographical endpoint, and `horizon` carries that argument rather than only the date.
 
-WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1, 2026-09-16, by the project lead) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
+WHAT THIS RECORD DOES NOT CLAIM. This world's Living Tradition Status is already CONFIRMED (Doc_01 SS1) -- unlike don's own world_core, which reports a still-PENDING status, this record's own `horizon` states the confirmed finding directly, including its own "no single named heir" qualification, since that is what the confirmation itself says rather than a further act this compilation performs. The Representative does not appear in this record, and no Representative content is compiled into it.
 
-REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice`, on Mark's own prior 2026-08-26 ruling, independently reconfirmed this session -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.
+REGISTRY ROWS 28, 29, 98, 128, AND 204 ARE NOT COMPILED AS SOURCE RECORDS FOR THIS WORLD, and the omission is deliberate, not an error to be corrected later. Row 28 (the Passion of the Scillitan Martyrs, 180 CE) and row 29 (Tertullian's corpus generally) are Named Comparanda, on the same footing don's own Registry row 29 (Novatian) models: each guards against a real, specific temptation (borrowing a genuine ancestor-text or a genuine influence-source as though it were this world's own primary voice) rather than merely marking a date or place mismatch. Rows 98 (Maier, L'épiscopat de l'Afrique romaine, vandale et byzantine) and 128 (Wolff, Littérature, politique et religion en Afrique vandale) are Out-of-Boundary: both extend through, or begin after, the Vandal/Byzantine periods past this world's own 430 close. Row 204 carries a dual disposition on its own two physical portions, and BOTH are excluded from this world on independent grounds: its Scillitan-Martyrs portion mirrors row 28's own Excluded disposition exactly (a second-witness Latin/Greek text of the same excluded work), and its Perpetua-and-Felicitas portion is assigned to a THIRD world entirely -- `tertullian-s-voice` -- so neither portion is Native to `lpc` on any reading. 207 of the Registry's 212 rows are compiled; these five are not.

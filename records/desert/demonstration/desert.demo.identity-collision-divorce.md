@@ -34,12 +34,9 @@ honestly (no source in this corpus addresses remarriage specifically)
 rather than implying the one attested case answers a broader question
 it does not.
 
-Step5, Round 1 review Finding M11: Paul's own reported words had
-dropped the doubled "good, good" both the parent record and the
-vendored ch. XXII carry ("Good, good. I don't mind, truly.") - restored.
-Finding M7: "the one clear instance our own record carries" overclaimed
-against desert.dw.marriage-ending's own body, which names four
-further chapters (VIII, XLIV, LXI, LXVI) where a marriage ends on other
-grounds - narrowed above to "the clearest instance... of a marriage
-ending through unfaithfulness specifically," with the other endings
-acknowledged rather than implied not to exist.
+Paul's own reported words carry the doubled "good, good" both the
+parent record and the vendored ch. XXII carry ("Good, good. I don't
+mind, truly."). The turn states "the clearest instance... of a marriage
+ending through unfaithfulness specifically," acknowledging the other
+endings desert.dw.marriage-ending's own body names (chs. VIII, XLIV,
+LXI, LXVI) rather than implying they do not exist.

@@ -3,7 +3,7 @@
 consumption"). Feature-flagged OFF by default (CIC_API_ANON_CAP_ENABLED) —
 this module is inert dead code in every deployment until Mark turns it on,
 and the cap mechanism/numbers below are the PROPOSED default, not a decided
-one; see Ministry/Operations/Audits/Tech-Readiness-2026-09/P1-Security/
+one; see Build/Ministry/Operations/Audits/Tech-Readiness-2026-09/P1-Security/
 Report.md for the 2-3 options this was chosen from and why.
 
 Why a second, per-visitor mechanism on top of engine/api/ratelimit.py's
@@ -140,11 +140,11 @@ class DailyVisitorLimiter:
 
     def mint_seeded_token(self, ip: str, secret: str) -> str:
         """Mint a fresh visitor token, seeded from the ip: bucket's CURRENT
-        count rather than starting at zero (2026-09-21, closing a review
-        finding: minting a pristine, zero-count bucket on every cookie-less
-        request let an attacker who never returns a cookie harvest an
-        effectively unlimited supply of fresh daily allowances - delete
-        the cookie, get a new empty-bucket token, repeat). Seeding from the
+        count rather than starting at zero: minting a pristine, zero-count
+        bucket on every cookie-less request would let an attacker who
+        never returns a cookie harvest an effectively unlimited supply of
+        fresh daily allowances - delete the cookie, get a new empty-bucket
+        token, repeat. Seeding from the
         ip bucket bounds the exploit instead of eliminating the mint: an
         attacker who harvests N tokens before the ip: bucket itself caps
         out can still redeem some leftover headroom on each one (the

@@ -40,8 +40,9 @@ relations:
 - type: associated-with
   target: desert.dw.apostolic
 ---
-Opened 2026-08-27 for F4-E, served by desert.dw.apostolic alone, which cites SS3-4 for "the
-older ascetic already living near the village before Antony withdrew" and had nothing quotable.
+This quote fills canon cell F4-E. desert.dw.apostolic cites SS3-4 for "the older ascetic already
+living near the village before Antony withdrew," but has nothing quotable there; this record
+supplies that.
 
 The honest weight of the passage is in what it declines to claim. Athanasius is writing a founding
 portrait and could have made Antony first; instead he records a predecessor and leaves him

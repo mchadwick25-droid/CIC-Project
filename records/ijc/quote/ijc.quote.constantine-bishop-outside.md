@@ -36,7 +36,7 @@ retrieval:
 relations:
 - {type: illustrates, target: ijc.contested.bishop-of-those-outside}
 ---
-Text verified verbatim against the vendored file 2026-08-21. Reported
+Text verified verbatim against the vendored file. Reported
 by Eusebius from table-talk ("addressing them in my hearing") in a
 posthumous panegyric - single-source, meaning contested; the full
 contest is ijc.contested.bishop-of-those-outside. The scholarly

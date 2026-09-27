@@ -1,0 +1,13 @@
+source_file: kempis_little-garden-of-roses-and-valley-of-lilies_1867.txt
+
+assignments:
+  - work: "The Little Garden of Roses and Valley of Lilies"
+    author: kempis
+    locus: "whole volume"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      An additional Kempis devotional work beyond the already-vendored
+      Imitation of Christ.

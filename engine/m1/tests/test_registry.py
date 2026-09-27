@@ -37,11 +37,10 @@ def test_a_formation_world_is_not_told_its_touchpoints_are_waived():
 
 
 def test_signoffs_reports_the_worlds_own_actual_registry_state():
-    """L-3 (witt go-live adversarial review, 2026-09-20): `state` used to be
-    hardcoded to the literal string "built" regardless of the world's own
-    real registry state - every admitted or open world's own signoffs.json
-    contradicted itself. Confirmed present in witt's, rzg's, don's and
-    gallic's packages alike before this fix."""
+    """`state` must reflect the world's own real registry state, never a
+    hardcoded literal "built" - every admitted or open world's own
+    signoffs.json has to agree with its actual state (checked against
+    witt's, rzg's, don's and gallic's packages)."""
     from engine.m2.validation import build_signoffs
     import json
     built = json.loads(build_signoffs("witt", is_fixture=False, state="built"))

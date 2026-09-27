@@ -1,0 +1,21 @@
+source_file: borromeo_acta-ecclesiae-mediolanensis-lat_1599.txt
+
+assignments:
+  - work: "Acta Ecclesiae Mediolanensis"
+    author: borromeo
+    locus: "whole volume, incl. the Instructiones Fabricae et Supellectilis Ecclesiasticae"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Borromeo's own Milan synodal acts and pastoral instructions,
+      previously wholly unvendored in any form (the only prior English
+      lead, Voelker's 1976 translation, is access-restricted). No PD
+      English translation exists; this is the 1599 Latin printing.
+      Per the Library's non-English-primary-evidence rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin
+      text is primary evidence directly, verified against the vendored
+      file, since it is primary to the movement regardless of language;
+      the scan is clean, not flagged as garbled under the Library's own
+      OCR-quality rule.

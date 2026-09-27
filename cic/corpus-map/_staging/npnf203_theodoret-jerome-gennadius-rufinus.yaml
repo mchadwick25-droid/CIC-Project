@@ -157,9 +157,9 @@ assignments:
   - cappadocian-nicene-pastoral-monastic-tradition
   role: context
   confidence: assigned
-  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored), whose own
-    verification_state was `named-not-rechecked` - "file present since 2026-08-15, not re-verified
-    this session against the specific entries Doc_02 cites." That review is done here. The record''s
+  note: 'Found by cappadocian.source.jerome-de-viris-illustribus (kind: vendored,
+    verification_state: named-not-rechecked): this file had not yet been re-verified
+    against the specific entries Doc_02 cites. That review is done here. The record''s
     own framing ("the earliest external catalogue of what circulated under Basil, both Gregorys,
     and Amphilochius'' names") is confirmed directly: all four named figures have their own DVI
     chapters, independently located and read - ch. CXVI on "Basil... bishop of Caesarea in Cappadocia,
@@ -224,6 +224,29 @@ assignments:
     as corroborating attestation), not the tradition''s own voice. The same volume''s Origenist-controversy
     material is explicitly flagged by the source record as out of this world''s own horizon
     and is not assigned here.
+
+    '
+- work: Lives of Illustrious Men (De Viris Illustribus), ch. LXXVII "Lucianus the presbyter"
+    (file line 40990)
+  author: jerome
+  locus: div2 5.3, Chapter LXXVII "Lucianus the presbyter"
+  atlas_ids:
+  - antiochene-church-third-century
+  role: context
+  confidence: assigned
+  note: 'This world''s census entry names Lucian of Antioch as one of its five voices and cites
+    exactly this locus (Jerome, De Viris Illustribus ch. 77) as his attestation, but it had not
+    been corpus-mapped before this pass. Verified directly at line 40990-41001: "Lucianus...a
+    man of great talent, presbyter of the church at Antioch, was so diligent in the study of the
+    Scriptures, that even now certain copies of the Scriptures bear the name of Lucian. Works of
+    his, On faith, and short Epistles to various people are extant. He was put to death at
+    Nicomedia for his confession of Christ in the persecution of Maximinus." A third, independent
+    near-contemporary notice of the same figure alongside Eusebius''s two (VIII.13.2, IX.6.3,
+    also added this same pass to npnf201) - confirms the Scriptural-revision reputation and the
+    circulation of his own now-lost works ("On faith," letters), neither of which Eusebius
+    mentions. `role: context`: an outside cataloguer''s biographical notice, not Lucian''s own
+    surviving voice - none of the works Jerome names here survive in translation (see the
+    dossier''s own §5 floor-question note, which this does not resolve).
 
     '
 - work: Gennadius, Lives of Illustrious Men (continuation), ch. "Pachomius the presbyter-monk"

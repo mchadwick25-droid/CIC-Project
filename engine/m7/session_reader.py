@@ -75,8 +75,8 @@ def read_session(store: Store, session_id: str) -> AuditSession | None:
         session.event_count += 1
         session.last_at = ev.created_at
         if session.closed and session.close_reason == "idle" and ev.event_type != "session_closed":
-            # Mirrors engine.m4.projection._fold's identical reopen rule
-            # (2026-09-06): an idle close is reporting-only, and real
+            # Mirrors engine.m4.projection._fold's identical reopen rule:
+            # an idle close is reporting-only, and real
             # activity after one un-marks it - this reader must agree with
             # that fold, or a resumed session would read "closed (idle)"
             # here (engine.api.wiring.get_pilot_summary's own source) while

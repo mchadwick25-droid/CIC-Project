@@ -22,4 +22,4 @@ found_sources:
 - hal.source.jerome-de-viris
 note: "All three located by div id and line number (46229, 50868, 38759). The volume also carries Rufinus's Peri Archon translation prefaces (the rupture's immediate provocation), his Apology to Anastasius, Anastasius's letter to John of Jerusalem concerning Rufinus, and his Commentary on the Apostles' Creed - available for later steps without a new acquisition."
 ---
-Run 2026-08-21. Rights read from the file's own DC.Rights header.
+Rights read from the file's own DC.Rights header.

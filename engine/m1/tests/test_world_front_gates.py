@@ -1,5 +1,5 @@
 """The three world_front gates (Website V2 world_front design, approved to
-proceed 2026-09-19): gate_quote_mark_fidelity (deterministic, fully
+proceed): gate_quote_mark_fidelity (deterministic, fully
 implemented and tested here, but not yet added to GATES/run_all - see its
 own registration comment in gates.py for why: registering ANY new gate
 changes validation/gates-report.json for every already-built world's
@@ -55,7 +55,7 @@ def _world_front(text: str, grounded_in=None) -> dict:
 
 
 def test_quote_mark_gate_is_wired_into_the_live_battery():
-    """Registered 2026-09-20, once all 8 built worlds' world_front records
+    """Registered once all 8 built worlds' world_front records
     existed for it to actually check (see gates.py's own comment at the
     GATES dict) - held back at the infrastructure stage only because
     registering it changes validation/gates-report.json for every

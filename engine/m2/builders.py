@@ -13,6 +13,7 @@ from engine.prose import (
     content_words,
     quote_aware_sentences,
     retrieval_words,
+    strip_name_taxonomy_tag,
 )
 
 from .canonical import canonical_json
@@ -428,7 +429,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # evidence block at all (44 input tokens, turn 1) fabricated the most.
     #
     # ADJACENCY WAS NOT ENOUGH, measured again on the same six-turn shape
-    # 2026-08-27 against a package where every canon cell had a voice.
+    # against a package where every canon cell had a voice.
     # Fabrication fell from 14 uses in 47 to 2 in 27 - but both survivors
     # were [[desert.cautions]], emitted from the section headed "Cautions",
     # which by then DID carry [[desert.core.desert]] beside it. The earlier
@@ -518,7 +519,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     if gravities:
         emit(
             "Gravities",
-            "\n".join(f"- [[{g['id']}]] {g.get('name')}" for g in gravities),
+            "\n".join(f"- [[{g['id']}]] {strip_name_taxonomy_tag(g.get('name') or '')}" for g in gravities),
         )
 
     # Quotes are indexed, not reproduced. Both fabrications in the last
@@ -539,7 +540,7 @@ def build_prompt(records: dict, fleet: dict, registry_entry: dict) -> bytes:
     # full text, for the quotes a turn actually needs.
     #
     # The opening words are labelled as an opening. A voice that quotes
-    # beyond them is caught by the verbatim check the citation contract
+    # beyond them trips the verbatim check the citation contract
     # already runs ("a quote with no tag, or words not found in the tagged
     # record, is not spoken") - so the cost of the excerpt is a withheld
     # sentence, never a misquotation reaching a participant.
@@ -604,7 +605,7 @@ def build_capsule(records: dict, registry_entry: dict) -> bytes:
 # SS3 lists doctrinal_witness as a fourth chunk-feeding (retrieval-block)
 # type. Adding a fourth directory that follows the same one-file-per-record
 # pattern is the minimal, fully-determined resolution of that gap - DECIDABLE
-# (Build-Blueprint.md SS4), not a spec contradiction needing a ruling.
+# (Build-Blueprint.md SS4), never a spec contradiction to work around.
 
 
 def _chunk_text(record: dict) -> str:
@@ -758,7 +759,7 @@ def build_figures_json(records: dict) -> bytes:
 # BUILD PROVENANCE NEVER SHIPS: all world
 # build and active files need to be clean for exactly what they exist
 # to do. The record STORE is the workshop - bodies, search records, and
-# reviewer-facing fields are its mandated audit trail and stay untouched.
+# review-facing fields are its mandated audit trail and stay untouched.
 # The compiled PACKAGE is the instrument, and two kinds of build residue
 # were shipping in it, measured fleet-wide before this change (~250
 # instances):
@@ -771,14 +772,14 @@ def build_figures_json(records: dict) -> bytes:
 #   sharing a word with a search note could surface one as evidence.
 #   Excluded from the package entirely.
 # - why_sources_cannot_answer / modern_lens_note / discovery_channel /
-#   narrative_tier_justification: reviewer- and author-facing prose on
+#   narrative_tier_justification: review- and author-facing prose on
 #   honest_limit, quote, source, and story records (admission-run
 #   citations, authoring cautions, how-this-was-found notes, tier
 #   justifications). The operative content of each record lives in its
 #   other fields; none of these four has a runtime consumer (verified by
 #   grep outside gates/schemas; the fallback already excluded
 #   modern_lens_note by name) and all are stripped at compile.
-# - facilitator_brief rows (added 2026-09-21, website-card-redesign-to-main):
+# - facilitator_brief rows (added for the website-card-redesign-to-main effort):
 #   `audience: facilitator` by the record's own schema - a compiled brief
 #   for the human Facilitator, never a claim the Representative's own voice
 #   speaks from (CLAUDE.md's "Safety comes first": redirect and crisis
@@ -787,7 +788,7 @@ def build_figures_json(records: dict) -> bytes:
 #   applies here with higher stakes - excluded from the package entirely,
 #   same as search_record, until a real Facilitator-surface consumer needs
 #   its own dedicated, audience-checked read path.
-# - world_front rows (added 2026-09-21, website-card-redesign-to-main): each
+# - world_front rows (added for the website-card-redesign-to-main effort): each
 #   one's own divergence_note calls it "a compiled front door over this
 #   world's own already-rated records," and its `export.include_types`
 #   names exactly those already-retrievable atomic types (story, quote,
@@ -801,7 +802,7 @@ def build_figures_json(records: dict) -> bytes:
 # M1 gates still validate everything on the records themselves - this
 # changes what ships, never what is authored or checked.
 #
-# world_front/facilitator_brief added to this set 2026-09-19 (Website V2
+# world_front/facilitator_brief added to this set (Website V2
 # world_front design, approved to proceed) for a sharper reason than build
 # residue: this is the ONE place in the M2 compiler that processes every
 # record type by default (a denylist, not an allowlist like CHUNK_DIR_BY_

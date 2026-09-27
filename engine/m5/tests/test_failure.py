@@ -69,11 +69,11 @@ def test_safety_failure_alone_fails_open_but_still_routes():
 
 
 def test_reader_timeout_never_discards_a_successful_acute_classification():
-    """Regression for the 2026-09-19 fix: a reader-call failure must not
+    """Regression: a reader-call failure must not
     silently erase a successful ACUTE_DISTRESS finding from the safety call
-    on the same turn. Before the fix, resolve_gate returned
-    voice_pass_through unconditionally whenever the reader failed, so the
-    Representative could answer a real crisis message directly if the
+    on the same turn. Returning
+    voice_pass_through unconditionally whenever the reader failed would let the
+    Representative answer a real crisis message directly if the
     unrelated reader call happened to time out."""
     result = resolve_gate(
         safety_outcome=SAFETY_ACUTE, reader_outcome=CallOutcome(status="timeout"), pressed={}, anachronistic_term_ids=set(),

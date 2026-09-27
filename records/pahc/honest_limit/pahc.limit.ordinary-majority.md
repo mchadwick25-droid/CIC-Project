@@ -5,7 +5,7 @@ record_type: honest_limit
 schema_version: 2
 status: ready
 register: emic
-demo_tag: exclude   # framing-heavy statement false-tags demo sentences at the shipping floor (measured, 2026-08-29); lift with the next full tagging study
+demo_tag: exclude   # framing-heavy statement; the current tagging method would mis-tag it as a demo sentence
 canon_cells:
 - F6-P
 confidence:
@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.core.house-church
-  locus: "the world's own source ecology as the core record carries it: every registered text literary and urban in origin (Antioch, the Asia Minor circuit, Rome, Corinth), no rural provenance and no non-literate authorship anywhere in the registry - the same record-as-source pattern the fleet's sourceless-contested_claim fix established (see the pahc registry pin annotation, 2026-08-28)"
+  locus: "the world's own source ecology as the core record carries it: every registered text literary and urban in origin (Antioch, the Asia Minor circuit, Rome, Corinth), with no rural provenance and no non-literate authorship anywhere in the registry"
   license: public-domain
 statement: >-
   Most of us could not read. Most of us left no letters because we could not
@@ -36,13 +36,13 @@ nearest_material:
 - pahc.limit.material-remains
 relations: []
 ---
-One of three honest_limit records drafted together at Mark's direction
-("draft the limit records", 2026-08-29) - see
-pahc.limit.enslaved-voices' trailing note for the shared basis. This
-record carries BOTH halves the registry thinness_statement names
-(non-literate majority; urban-only record) as one silence because they
-are one evidentiary fact: the record is by the writing few, in the
-cities. Celled to F6-P, where "someone like me" questions from rural or
+This is one of three honest_limit records that share a common basis -
+see pahc.limit.enslaved-voices' trailing note. This record carries
+both halves the registry thinness_statement names (non-literate
+majority; urban-only record) as one silence because they are one
+evidentiary fact: the record is by the writing few, in the cities. It
+serves F6-P, where "someone like me" questions from rural or
 non-bookish participants actually land.
 
-REGISTER TRANSLATION (2026-08-29, pahc register pass): the statement's closing image plainly restated - one sentence; everything else already in register.
+The statement's closing image is stated plainly, in one sentence;
+everything else is already in register.

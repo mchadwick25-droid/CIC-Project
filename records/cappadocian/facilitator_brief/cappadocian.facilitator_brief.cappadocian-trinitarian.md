@@ -294,9 +294,7 @@ redirect_notes:
   - cappadocian.figure.eustathius
   - cappadocian.gravity.renunciation-order
 ---
-Authored 2026-09-20, the second facilitator_brief record built in this
-fleet (the syr pilot, `syr.facilitator_brief.syriac-edessa-nisibis`,
-merged first). Migrates the curatorial substance of this world's own
+This record migrates the curatorial substance of this world's own
 hand-authored World Facilitation Brief
 (`worlds/cappadocian/Cappadocian_Facilitation_Brief_v1_0.md`, Section
 B1-B5 and B7) into this record-native type, but does NOT carry forward

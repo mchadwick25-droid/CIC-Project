@@ -22,7 +22,7 @@ attribution_status: "documents attributed to their named senders; the TRANSLATOR
 discovery_channel: "found by the cross-world corpus assignment, which assigned this dossier to this world and observed no record here had opened the file"
 external_ids: {print_basis: "Longmans, Green & Co., 1917"}
 ---
-Rights verified 2026-08-27 from the file's own front matter: "Rights:
+Rights verified from the file's own front matter: "Rights:
 Public Domain", basis "1917 publication date (long out of US
 copyright), and the source page's own footer, confirmed by Mark". The
 appendices' headings are printed in Latin; the introductions and the

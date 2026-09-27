@@ -20,7 +20,6 @@ channel: vendored corpus inspection (Grep/Read over cic/texts), 2026-08-21 - the
 result: found
 found_sources:
 - syr.source.aphrahat-demonstrations-hallock
-note: Rights rest on the transcriber's declaration (1932 translation; accepted by the project lead 2026-08-18)
-  - noted in the source record.
+note: Rights rest on the transcriber's declaration (1932 translation), as noted in the source record.
 ---
 

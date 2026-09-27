@@ -1,0 +1,13 @@
+source_file: gillett_life-and-times-of-huss-v2_1871.txt
+
+assignments:
+  - work: "The Life and Times of John Huss: or the Bohemian Reformation of the Fifteenth Century, Vol. II"
+    author: gillett
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      Secondary history, English, Gillett (1871). Vol. II of a 2-volume
+      set; Vol. I not independently checked or vendored.

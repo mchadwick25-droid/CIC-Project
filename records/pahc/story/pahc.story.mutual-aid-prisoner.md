@@ -88,4 +88,4 @@ Doc_09's own Section 2 states this story's gravity connection is
 either named gravity" - this record does not manufacture a formal
 relation Doc_09 itself declines to assert.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

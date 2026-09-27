@@ -37,7 +37,7 @@ retrieval:
   - "participant asks whether a woman could question a teacher and argue back"
   - "participant asks what study together actually looked like"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 127 sec.
+Verified verbatim against the vendored npnf206 (Ep. 127 sec.
 7; 'them' = the scriptures, from the preceding sentence). Marcella's
 method in Jerome's own admiring report - the disputing-to-learn passage
 that the strand-determination analysis (Doc_01 section 4, Doc_04) read
@@ -45,4 +45,4 @@ closely: by Jerome's own framing she operated inside the same
 recognition-currency as he did. Serves F1-P (room for questioning) and
 F6-P (woman-authority).
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

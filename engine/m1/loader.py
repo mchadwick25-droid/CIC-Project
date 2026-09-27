@@ -67,8 +67,8 @@ def load_world_records(world_key: str, records_root: Path = RECORDS_ROOT) -> dic
 
 @lru_cache(maxsize=4)
 def load_fleet_records(records_root: Path = RECORDS_ROOT) -> dict[str, dict]:
-    """Cached (2026-08-28 foundation audit): parsing the ~95 fleet files
-    measured 57-63ms warm, and the turn path called this THREE times per
+    """Cached: parsing the ~95 fleet files
+    measures 57-63ms warm, and the turn path calls this THREE times per
     participant message - ~190ms of GIL-held CPU per message re-parsing
     identical, image-immutable files. The cache returns one shared dict:
     callers treat it as read-only (every current caller does; the

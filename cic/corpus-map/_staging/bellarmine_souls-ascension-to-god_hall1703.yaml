@@ -1,0 +1,12 @@
+source_file: bellarmine_souls-ascension-to-god_hall1703.txt
+
+assignments:
+  - work: "The Soul's Ascension to God, by the Steps of Creation"
+    author: bellarmine
+    locus: "whole volume"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Bellarmine devotional work in English translation (Hall, 1703).

@@ -107,8 +107,8 @@ class Store:
                     continue  # concurrent writer took this seq - re-read and retry
                 except sqlite3.OperationalError:
                     # busy-timeout expiry under write contention (the 5s
-                    # PRAGMA timeout ran out). Previously uncaught - a raw
-                    # 500 (2026-08-28 foundation audit). Same remedy as a
+                    # PRAGMA timeout ran out) - otherwise a raw uncaught
+                    # 500. Same remedy as a
                     # seq collision: re-read and retry, bounded by the loop.
                     continue
             raise ConcurrentWriteExhausted(f"session {session_id}: {MAX_APPEND_RETRIES} seq collisions in a row")

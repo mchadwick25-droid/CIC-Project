@@ -72,7 +72,7 @@ Three rulings are enforced here rather than left to memory:
       the Testaments are `tradition` in the apocrypha entry and
       `transmission` in `post-apostolic-house-church`, whose scribes kept them.
 
-      `antecedent` was added 2026-08-26 for a relation the first two cannot
+      `antecedent` exists for a relation the first two cannot
       express. The Donatists claimed Cyprian as their charter authority - his
       rebaptism practice, his purity-of-clergy ecclesiology, the Carthage
       council of 256. He is not a Donatist, so `tradition` is false. He died
@@ -145,11 +145,8 @@ def census_ids() -> dict[str, str]:
 # Every *.yaml directly under cic/corpus-map/ that is NOT a per-census-
 # entry bucket. This loader globs the whole directory with no other
 # filter, so a new non-bucket file added here needs a line in this set or
-# it gets silently misread as a malformed bucket - discovered the hard
-# way twice in one session (WORKS.yaml, then AUTHOR-IDS.yaml, both added
-# 2026-09-02) before this collapsed from two near-duplicate `if` branches
-# into one list. A third non-bucket file added later should extend this
-# set, not grow a third branch.
+# it gets silently misread as a malformed bucket. A new non-bucket file
+# should extend this set, not grow a separate branch.
 NON_BUCKET_FILES = {
     "UNATTRIBUTED.yaml",  # a ruling list
     "WORKS.yaml",         # a Work/Expression registry (works_registry.py)
@@ -198,7 +195,7 @@ def validate() -> list[str]:
 
     for atlas_id, doc in load().items():
         where = f"{atlas_id}.yaml"
-        # CM-6 (Library Access Gate D3 SS3, Decision-Log 10): a bucket
+        # CM-6 (Library Access Gate D3 SS3): a bucket
         # carrying `fixture: true` is the M9 selftest's own synthetic data,
         # never a real Atlas entry - exempt from the two checks that assume
         # one (a real census movement id, a real corpus author), and from

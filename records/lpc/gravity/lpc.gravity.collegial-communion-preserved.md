@@ -5,7 +5,8 @@ record_type: gravity
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F3-T
 confidence:
   citation_specificity: A
   verification_state: verified-via-authority
@@ -30,6 +31,8 @@ sources:
   license: public-domain
 relations:
 - type: associated-with
+  target: lpc.witness.communion-over-separation
+- type: associated-with
   target: lpc.gravity.pastoral-office-flock-keeping
 - type: associated-with
   target: lpc.gravity.penitential-discipline
@@ -43,38 +46,51 @@ relations:
   target: lpc.force.donatist-schism
 - type: associated-with
   target: lpc.force.augustine-engagement-cyprian-conciliar-acts
-name: Collegial Communion Preserved Despite Disagreement [PRIMARY]
-description: 'Doc_04 §3 Candidate 3: PRIMARY. Repetition: passes strongly, recurring at the 256 preface
-  (Row 4, ''neither does any of us set himself up as a bishop of bishops... every bishop... has his own
-  proper right of judgment''), throughout On Baptism (Row 13 -- Augustine arguing at length against Cyprian''s
-  own specific ruling while never treating him as outside communion), and in Letter 185''s own pastoral-corrective
-  register (Row 12). Dependency: passes strongly -- Doc_01 §5''s own Article 3 coherence argument for
-  this world''s own coherence across the century-gap is built directly on this gravity: what a bishop
-  does when he disagrees is work to preserve communion, or break communion and build a rival, parallel
-  hierarchy. Candidate 6 (sacramental validity) is the specific doctrinal question on which this gravity
-  is tested hardest. Formation: passes -- shapes how both bishops conduct disagreement; neither breaks
-  fellowship over the sharpest doctrinal disputes in this world''s own record, with no counter-instance
-  in either bishop''s own corpus. Explanatory: passes strongly -- explains why Augustine''s own extensive,
-  respectful engagement with a bishop he disputes reads as filial argument rather than repudiation, and
-  this world''s own boundary against Donatism directly. Persistence: passes -- attested in both phases,
-  through both bishops'' own conduct, not merely a shared word. Interaction: reinforces Candidates 1,
-  2, 5, 6. CONFIDENCE/GRAVITY CROSS-CHECK -- DIVERGENCE FLAGGED, NOT RESOLVED, PER CF V7.4''S OWN RULE:
-  the underlying primary-source facts (the 256 preface''s own words; On Baptism''s own extensive argument)
-  reach Documented, directly quoted and re-verified across Doc_01''s nine rounds; the SYNTHESIS -- that
-  these facts constitute one named, cross-phase gravity, rather than two separate historical facts --
-  is this document''s own reasoning, at Widely Accepted rather than Documented confidence. Flagged rather
-  than resolved, and this record carries the more conservative tier (Widely Accepted) as its own top-line
-  rating rather than smoothing the split away. FORCES-CONNECTION (Doc_08 §5): every force connected to
-  this gravity is a force that TESTED it rather than produced it -- 1B-1 (colleagues who can assemble
-  and already disagree), 2A-3 (tested at its hardest edge, and holds), 2B-4 (tested across the century
-  gap, and holds). This gravity is this world''s own adaptive rule, stress-tested three times from three
-  directions.'
+name: Collegial Communion Preserved Despite Disagreement
+description: >-
+  Few things mattered more to this world than staying in communion despite real disagreement. Bishops
+  in this world disagree, sometimes sharply. But they work to keep communion rather than break it and
+  build a rival hierarchy.
+
+
+  The pattern recurs across both phases. Cyprian's preface to the Council of 256 states it directly:
+  "neither does any of us set himself up as a bishop of bishops... every bishop... has his own proper
+  right of judgment." Augustine's On Baptism argues at length against Cyprian's own ruling on rebaptism.
+  Yet it never treats him as outside communion. Letter 185 addresses the Donatist schism in the same
+  pastoral, corrective tone.
+
+
+  Our own case for this world's coherence across the century between its two bishops rests on this
+  concern. A bishop who
+  disagrees has two paths. He can work to keep communion, or he can break it and set up a parallel
+  hierarchy. Both bishops take the first path. Neither breaks fellowship over the sharpest doctrinal
+  disputes in the record. Neither bishop's writings hold a single counter-example.
+
+
+  This explains why Augustine's long, respectful argument with a bishop he disputes reads as a son
+  arguing with a father, not a rejection. It also directly explains the world's boundary against
+  Donatism. The pattern shows in both phases, in how both bishops act, not just in a shared word. It
+  reinforces pastoral office, penitential discipline, conciliar authority, and sacramental validity.
+  Sacramental validity is the doctrinal question where it is tested hardest.
+
+
+  The confidence split is disclosed, not resolved. The underlying facts are solidly attested. The 256
+  preface's own words and On Baptism's long argument are directly quoted and checked. But reading them
+  as one concern across both phases, rather than two separate historical facts, is an interpretation.
+  That interpretation stands at Widely Accepted, and the record carries this more cautious rating
+  instead of hiding the split.
+
+
+  Every force linked to this concern tested it rather than created it. The organized Carthaginian
+  church gave colleagues who could meet and already disagreed. The Donatist schism tested it at its
+  hardest edge. Augustine's engagement with Cyprian's conciliar acts tested it across the century gap.
+  It held each time. It is this world's own way of adapting, tested three times from three directions.
 manifestations:
-- 'the 256 Council preface''s own words: "neither does any of us set himself up as a bishop of bishops...
-  every bishop... has his own proper right of judgment" (Registry row 4)'
-- Augustine arguing at length against Cyprian's own specific rebaptism ruling throughout On Baptism (Registry
-  row 13), while never treating him as outside communion
-- Letter 185's own pastoral-corrective register toward the Donatist schism (Registry row 12)
+- 'Cyprian''s preface to the Council of 256: "neither does any of us set himself up as a bishop of bishops...
+  every bishop... has his own proper right of judgment"'
+- Augustine arguing at length against Cyprian's rebaptism ruling throughout On Baptism, while never treating
+  him as outside communion
+- Letter 185's pastoral, corrective tone toward the Donatist schism
 classification: primary
 ---
 Re-derived from the approved Doc_04 §3 (Candidate 3). relations[] carries the gravity<->gravity edges (G1, G2, G5, G6) and the gravity<->force edges (1B-1, 2A-3, 2B-4) named above.

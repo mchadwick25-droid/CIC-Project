@@ -58,9 +58,8 @@ classification and pahc.core.house-church's own thinness field
 facing form for the cell that asks this question directly (f6-i-01,
 f6-i-02, f6-i-03).
 
-LEXICON LABEL PASS (2026-08-30, Mark's ruling: "yes it should be give
-thanks over the cup, eucaruest (in purple)" - plain meaning first, the
-world's own word after it as a label, so the lexicon scan can light it
-into the glossary). episkopos, presbyterion, presbyteros, and diakonos labeled in the office witness, the record where who-should-lead is the subject. Register bar's own form: "a scholar's term
-only after its plain meaning, as a label." Claims unchanged; the label
-is the whole edit.
+Lexicon labels give the plain meaning first, with the world's own word
+after it as a label, so the lexicon scan can light it into the
+glossary: episkopos, presbyterion, presbyteros, and diakonos are
+labeled in the office witness, the record where who-should-lead is the
+subject.

@@ -75,41 +75,20 @@ raises, without settling, a question of conceptual affinity.
 Register etic, matching this corpus's other two contested_claim
 records and Alexandria's own contested_claim register convention.
 
-Step3c, Round 2 review Finding S2: this body was not edited when the
-front matter was rebuilt to fix Round 1's Finding S1, and it still
-credited this record's position to "gravity 9's own strand-bound
-Origenist-adjacent concession" - the exact Evagrius claim Round 1 found
-false, which desert.gravity.evagrian-systematization's own Step3c body
-note states plainly does not exist, and which this record's own
-concedes field no longer makes. It also still carried the sentence
-Round 1's Finding M13 charged and STEP3C-INDEX.md wrongly certified as
-removed ("extended to Alexandria on this record's own initiative since
-Doc_01 itself made no such comparison") and oversold the corrected
-concession as "one genuine, narrow point of intellectual contact
-conceded," when concedes itself only raises a disputed question rather
-than conceding a contact. All three corrected above, to match what the
-front matter actually now says: no Evagrius claim; Doc_01/Doc_05/Doc_09b
-already made the comparison; and the concession is a disputed question
-raised, not a point of contact conceded.
-
-Step3c, Round 3 review Finding S2: the sentence above surviving from
-before this record's own front-matter rebuild ("desert.source.evagrius-
-praktikos... attributes his systematized scheme to Greek philosophical
-training under the Cappadocian Fathers") repeated, against this
-record's own sources[], the exact false compound claim
-desert.gravity.evagrian-systematization's own body note was rewritten
-twice to remove - that source record's author field names the
-Cappadocian training as biography and never attributes the scheme to
-it; the causal claim is Doc_07 SS2's, which does not name the
-Cappadocians. Fixed in sources[] above. Finding C1: "Doc_01's world-
-separation logic" mislabeled Doc_01 SS5 (world separation, about this
-world's own closing boundary) for the actual world-distinction argument
-at Doc_01 SS8 - corrected. Finding C2: the body's self-description
-named only two of this record's three sources - evagrius-praktikos's
-own contribution (naming the systematized register's real, non-
-Alexandrian channel) added. Finding C3: "(see below)" pointed at the
-concedes field, which sits above the body, not below it - corrected to
-"(concedes, above)".
+This body carries no Evagrius claim: desert.gravity.evagrian-systematization's
+own body note states plainly that no strand-bound Origenist-adjacent
+concession exists, and this record's own concedes field does not make
+one either. Doc_01/Doc_05/Doc_09b already made the Alexandria
+comparison this record puts into contested_claim form; the concession
+is a disputed question raised, not a point of contact conceded.
+sources[] names desert.source.evagrius-praktikos's own contribution
+(naming the systematized register's real, non-Alexandrian channel)
+accurately: that source record's author field names Cappadocian
+training as biography and does not attribute the scheme to it - the
+causal claim is Doc_07 SS2's, which does not name the Cappadocians.
+"Doc_01's world-distinction argument" cites Doc_01 SS8. The body's
+self-description names all three of this record's sources. "(concedes,
+above)" points at the concedes field correctly.
 
 Doc_08: desert.force.origenist-controversy added as a reciprocal
 relation - the concrete episode held_against[3] describes as an

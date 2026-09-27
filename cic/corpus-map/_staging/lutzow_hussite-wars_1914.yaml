@@ -1,0 +1,13 @@
+source_file: lutzow_hussite-wars_1914.txt
+
+assignments:
+  - work: "The Hussite Wars"
+    author: lutzow
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      Secondary history, English, Lutzow (1914), of the Hussite wars
+      specifically.

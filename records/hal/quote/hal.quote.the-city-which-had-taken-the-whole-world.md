@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: hal.dw.practices
 ---
-Opened 2026-08-27 for F4-T, served by hal.dw.practices alone, which cites this locus for "the
+Opened for F4-T, served by hal.dw.practices alone, which cites this locus for "the
 fall of Rome heard as judgment" and had nothing quotable.
 
 The cell's canon question is "were you born again - is that how you'd put what happened to you?"

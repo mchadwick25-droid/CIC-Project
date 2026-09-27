@@ -45,4 +45,4 @@ monk's own strength - and this is where the corpus says so in Antony's own repor
 voice. It sits inside SS16-43, the long discourse to the monks, which is the largest
 block of first-person teaching the Vita carries.
 
-MODERN RENDERING AUTHORED (2026-08-29, desert register pass; Mark's standing quote ruling: spoken form is a modern-English translation, not a summary - original wording stays as text, shown at Level 3). The desert pass is quotes-only: the world's dw prose and limits already carry the plain register.
+The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

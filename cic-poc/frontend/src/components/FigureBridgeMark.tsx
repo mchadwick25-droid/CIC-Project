@@ -1,7 +1,7 @@
 /**
- * The name/figure bridge's own inline mark (VR_1A_Transparency_Gap_
- * 2026-08-09.md): a figure named in a turn's text, using InlineBridge's
- * shared hover/click (desktop) and tap/tap-through (phone) grammar.
+ * The name/figure bridge's own inline mark: a figure named in a turn's
+ * text, using InlineBridge's shared hover/click (desktop) and
+ * tap/tap-through (phone) grammar.
  *
  * Level 3 leads with what's actually being said here and where it comes
  * from (`sourced_by` - the real primary sources behind this sentence, per

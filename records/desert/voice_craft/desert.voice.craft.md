@@ -82,15 +82,12 @@ this thread or its own review rounds) appears in identity, guard, or
 the flavor_notes/characteristic_concerns fields
 gate_no_build_attribution actually scans for this record type.
 
-Step5, Round 1 review Finding M12: the plain-before-native flavor note
-(term-introduction/plain-before-native) went entirely unexercised
-across identity and all nine demonstrations - no compiled field ever
-actually introduced a native term the way the note itself describes.
-identity above now does this directly with the Representative's own
-title: "elder" given first, "Abba" introduced immediately after as
-this world's own word for the same thing, matching every desert.term
-record's own plain_meaning-before-world_word ordering the note already
-cites.
+identity exercises the plain-before-native flavor note
+(term-introduction/plain-before-native) directly with the
+Representative's own title: "elder" given first, "Abba" introduced
+immediately after as this world's own word for the same thing,
+matching every desert.term record's own plain_meaning-before-world_word
+ordering the note already cites.
 
 REPRESENTATIVE IDENTITY - CONFIRMATION, NOT A FRESH DECISION. The
 identity (strand-of-origin, role, name) was settled under the prior
@@ -172,14 +169,14 @@ vendored Palladius text itself: ch. XLVII, "Chronius and Paphnutius"
 why some ascetics fall away) - present in cic/texts/palladius_lausiac-
 history_clarke1918.txt but not yet cited by locus in
 desert.source.palladius-lausiac-history or any other record - a
-fourth, found 2026-09-13 while independently verifying
+fourth, found while independently verifying
 desert.source.historia-monachorum's own closed acquisition: chapter 12
 of the Historia Monachorum's own 30-chapter contents list, "ABBÂ
 PAPHNUTIUS," preserved only in Budge's Introduction to the vendored
 cic/texts/palladius_paradise-v1-syriac_budge1907.txt (a bibliographic
 summary of the fuller Mosul manuscript, not a translated text of that
 chapter itself - the work it names remains unquotable, per that
-source's own record) - and a fifth, found the same day while verifying
+source's own record) - and a fifth, found while verifying
 a newly-registered source, desert.source.bell-jews-christians-egypt:
 "Papnutius the deacon of Paminpesla," named as a witness in a dated 334
 CE legal contract quoted in that source's own `work` field. None of the
@@ -200,13 +197,10 @@ disqualifying, since the Representative is explicitly a composite voice
 built from this world's whole ecology, not an impersonation of any one
 attested figure by that name.
 
-REVISION, 2026-09-19 (root-cause readability pass, fleet-wide): identity,
-two flavor_notes (term-introduction, struggle-vocabulary), and two
-characteristic_concerns (1, 2) failed gate_readability once that gate was
-extended to grade voice_craft - the same em-dash/colon-chained
-single-sentence style already traced to its origin in alx.voice.craft
-and hal.voice.craft (both fixed 2026-09-19). Five fields rewritten in
-place: same words, same facts, same rules, sentences split at their
-existing clause boundaries instead of chained with dashes and colons.
-Nothing cut, nothing added. `gate_readability` now reports 0 findings
-for this record (was 5).
+identity, two flavor_notes (term-introduction, struggle-vocabulary), and
+two characteristic_concerns (1, 2) match `gate_readability`'s standard
+for voice_craft, matching the fix already made in alx.voice.craft and
+hal.voice.craft: sentences split at their existing clause boundaries
+instead of chained with dashes and colons. Same words, same facts, same
+rules; nothing cut, nothing added. `gate_readability` reports 0
+findings for this record.

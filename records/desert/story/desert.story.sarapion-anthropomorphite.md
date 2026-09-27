@@ -44,8 +44,9 @@ text: >-
   own teachers had ever taught. Then a visiting deacon named Photinus
   arrived from Cappadocia, a man of great learning. Paphnutius asked
   Photinus, in front of the gathered brothers, to explain how the churches
-  of the East understood the words "let us make man in our own image."
-  Photinus explained, at length and from many places in scripture, that the
+  of the East understood the words of Genesis - that God had made man
+  after his own image and likeness. Photinus explained, at length and
+  from many places in scripture, that the
   image of God was not a bodily one, and that nothing so vast and unseen
   could be shaped like a human body. Hearing this, old Sarapion was finally
   persuaded, and agreed with the teaching.
@@ -62,8 +63,8 @@ text: >-
 absent_detail: "What became of Sarapion afterward - whether he found a new way to pray, or whether he was still at Scete the following year when Theophilus reversed course and the community's own learned monks were driven out - is not recorded. Cassian's own account is shaped for a teaching purpose (Conference X's larger subject is the right way to pray), so the scene survives because it served that argument, not as a stand-alone report of Sarapion's own later life."
 modern_contrast: "A modern reader might treat this as a simple story of a man learning a truer idea - correction as pure improvement. This world's own record does not let the story land there. It shows the same correction as a real loss, felt in the body, in the middle of prayer itself. Removing a wrong idea does not always feel like gaining a right one; sometimes it feels like losing the one thing a person had to hold on to."
 ---
-Authored 2026-09-19 for the world_front pilot migration (Website V2
-world_front design, approved to proceed 2026-09-19), reconciling
+Authored for the world_front pilot migration (Website V2
+world_front design, approved to proceed), reconciling
 `cic-website/atlas-v3.html`'s desert-monasticism `documentedStories`
 entry "'They Have Taken Away My God From Me'" against this world's own
 registered records - no existing `records/desert/story/*.md` record
@@ -78,6 +79,12 @@ substantially accurate against the vendored text; this record's own
 `text` field is a fresh B2-register retelling rather than a copy of
 that site prose, since site copy is never source material for a
 canonical record.
+
+The Genesis wording Paphnutius asks about is the vendored translation's
+own "Let us make man after our image and likeness" (id="iv.iv.xi.iii-p2",
+citing Gen. i. 26), not the more familiar "in our own image" - the two
+differ, and this record's own indirect phrasing follows "after...image
+and likeness," matching the vendored translation exactly.
 
 DISAMBIGUATION (see desert.quote.they-have-taken-away-my-god's own body
 note for the full check): this Sarapion is a different named elder from

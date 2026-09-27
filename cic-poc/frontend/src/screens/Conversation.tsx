@@ -1,9 +1,14 @@
 import { Arrival } from '../components/Arrival';
 import { BrandMark } from '../components/BrandMark';
 import { ChatInput } from '../components/ChatInput';
+import { ModernTermMark } from '../components/ModernTermMark';
+import { ReadAloudControl } from '../components/ReadAloudControl';
+import { ReadAloudDisclosure } from '../components/ReadAloudDisclosure';
 import { VoiceTurnBody } from '../components/VoiceTurnBody';
+import { useReadAloudAvailability } from '../hooks/useReadAloudAvailability';
 import type { ConversationTurn } from '../hooks/useConversation';
 import type { WorldEntry, WorldStarter } from '../data/worlds';
+import { readAloudEnabled } from '../lib/flags';
 
 // Up to 3 starters spanning distinct cell tags (basic/identity, personal,
 // critical/etic) rather than the first 3 alphabetically - carried from the
@@ -34,17 +39,38 @@ function facilitatorParagraphs(text: string): string[] {
   return text.split('\n\n').filter(Boolean);
 }
 
+// Read-aloud step 1 always targets the latest completed voice/Facilitator
+// turn - never the participant's own typed text (see ReadAloudControl's
+// own docstring for why this is one global control, not a per-turn one).
+function latestSpokenTurn(turns: ConversationTurn[]): { index: number; turn: ConversationTurn } | null {
+  for (let i = turns.length - 1; i >= 0; i--) {
+    if (turns[i].speaker !== 'participant') return { index: i, turn: turns[i] };
+  }
+  return null;
+}
+
 export function Conversation({ world, turns, sessionCode, closed, isLoading, error, errorRecoverable, onSend, onEnd, onRestart }: ConversationProps) {
+  const latestSpoken = readAloudEnabled ? latestSpokenTurn(turns) : null;
+  const readAloudAvailable = useReadAloudAvailability();
+
   return (
     <div className="conversation">
       <div className="conversation__bar">
         <BrandMark size={16} />
-        {sessionCode && (
-          <div className="conversation__bar-note sans">
-            Not saved to an account — this conversation lives in this tab
-          </div>
-        )}
+        <div className="conversation__bar-right">
+          {sessionCode && (
+            <div className="conversation__bar-note sans">
+              Not saved to an account — this conversation lives in this tab
+            </div>
+          )}
+          {readAloudAvailable && latestSpoken && (
+            <ReadAloudControl text={latestSpoken.turn.text} turnKey={latestSpoken.index} />
+          )}
+        </div>
       </div>
+      {readAloudAvailable && latestSpoken && (
+        <ReadAloudDisclosure representativeName={world.representativeName} turnKey={latestSpoken.index} />
+      )}
 
       <div className="conversation__transcript">
         <Arrival world={world} />
@@ -61,7 +87,10 @@ export function Conversation({ world, turns, sessionCode, closed, isLoading, err
             return (
               <div key={i} className="turn turn--facilitator">
                 {facilitatorParagraphs(turn.text).map((paragraph, j) => (
-                  <p key={j}>{paragraph}</p>
+                  <p key={j}>
+                    {paragraph}
+                    {j === 0 && turn.kind === 'bridge' && turn.modernTerms?.map((card) => <ModernTermMark key={card.record_id} card={card} />)}
+                  </p>
                 ))}
               </div>
             );

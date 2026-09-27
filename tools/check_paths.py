@@ -23,22 +23,43 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent if HERE.name == "tools" else Path.cwd()
 
 SKIP_DIRS = (".git/", "node_modules/", "cic/texts/", "packages/", "Archive/", ".claude/",
-             "Ministry/Operations/Audits/", "Ministry/Operations/Standing/Launch-Prompts/",
-             "Ministry/Operations/Markup-Queue/")
+             "Build/Ministry/Operations/Audits/", "Build/Ministry/Operations/Standing/Launch-Prompts/",
+             "Build/Ministry/Operations/Markup-Queue/")
 DATED = re.compile(r"(_|-)20\d\d-\d\d-\d\d|Decision[_-]Log|Change_Log|Thread_Launch|Handoff|_Tracking\.md|Task_Board|Move_Ledger")
 PLACEHOLDER = re.compile(r"[<>\[\]{}*…]|\bSomeWorld\b|/code\b|/id\b|/name\b|/file\b|/locus\b|/key\b|/world\b")
 TOKEN = re.compile(r"(?<![\w/.\-@:])((?:[A-Za-z0-9_.\-]+/)+[A-Za-z0-9_.\-]+)")
 TRAIL = ".,;:)'\"`*_"
 
 
+# Directories that exist only on some machines (git-ignored, per-session) are
+# never citation roots: if they were, whether `.claude/settings.json` in a
+# decision log counts as a repo path would depend on who runs the check.
+LOCAL_ONLY_DIRS = {".git", "node_modules", ".claude"}
+
+
+def retired_top_level_names() -> set[str]:
+    """A retired top-level directory (e.g. `worlds` before the Live/Build split moved it to
+    Build/worlds) must stay a recognized root, or every bare citation into it silently stops
+    being checked at all instead of correctly failing to resolve."""
+    listing = REPO / "tools" / "retired_paths.txt"
+    if not listing.exists():
+        return set()
+    names = set()
+    for line in listing.read_text(encoding="utf-8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line and "/" not in line:
+            names.add(line)
+    return names
+
+
 def top_level_dirs() -> set[str]:
-    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in {".git", "node_modules"}}
+    return {p.name for p in REPO.iterdir() if p.is_dir() and p.name not in LOCAL_ONLY_DIRS} | retired_top_level_names()
 
 
 def in_scope(rel: str) -> bool:
     if any(rel.startswith(s) or f"/{s}" in rel for s in SKIP_DIRS):
         return False
-    if rel.startswith("Ministry/") and DATED.search(Path(rel).name):
+    if rel.startswith("Build/Ministry/") and DATED.search(Path(rel).name):
         return False
     return True
 

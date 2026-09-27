@@ -39,8 +39,8 @@ relations:
 - type: associated-with
   target: syr.dw.remains
 ---
-Opened 2026-08-27 for F5-E, served by syr.dw.remains alone, whose loci read 'the archive-derived
-civic record', 'the self-dating letters' and 'the manuscript-carried corpus' - bodies of text, which is
-why the instrument ruled this NEEDS READING.
+This quote serves F5-E; syr.dw.remains alone grounds that cell, whose loci read 'the archive-derived
+civic record', 'the self-dating letters' and 'the manuscript-carried corpus' - bodies of text that
+needed direct reading rather than citation alone.
 
 The first of those turned out to name a single dated entry.

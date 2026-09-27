@@ -18,7 +18,7 @@ representative: {name: Marius, role_label: "Deacon of the Letters"}
 state: admitted
 census_id: "imperial-juridical-christianity"
 package:
-  manifest_hash: "sha256:e0fa915745d115e21dfb3211db2847dcde4fae3e35566f921d3e30a8f677dbc1"
-  location: "packages/ijc/2026-09-23T18-17-32Z"
+  manifest_hash: "sha256:2347e9a7c46620ba8d90610ae6aa1cbbe833d09140bcf4352a72de9d380a9852"
+  location: "packages/ijc/2026-09-27T15-46-15Z"
 thinness_statement: "Richest in councils, canons, letters, and the contest over who holds final authority in the church; thinner on ordinary believers' daily lives, women's own words, and the defeated Homoian side's own voice."
 living_tradition_flag: true

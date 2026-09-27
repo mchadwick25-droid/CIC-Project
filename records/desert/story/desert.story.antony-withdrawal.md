@@ -64,29 +64,17 @@ calendar year - the "between the Nile and the Red Sea" description and
 the specific dates are Doc_01 SS2.1's own claims, now cited as such in
 divergence_note rather than left implied to come from the Vita itself.
 
-Step4, Round 1 review Finding M1: the earlier draft's confidence block
-scoped the Doc_01 attribution to the dates only, while the text's own
-"between the river and the sea" geographic claim was left attributed,
-by the sources[] locus, to Vita SS49-50, which does not carry it -
-corrected above. Finding M2: "c. 305/306 emerging" overstated Doc_01
-SS2.1's own "approximately 305" - corrected to "c. 305." Finding M3:
-"apprenticing himself to an old man" exceeded both the Vita ("imitated
-him in piety," Vita SS3) and desert.force.village-ascetic-culture's own
-"sought out and modeled himself on" - corrected to that force record's
-own wording. Finding M18: the F5-P-01 cost reading previously lived
-only in this body note, which no builder or gate reads - folded into
-the compiled text field itself above.
-
-Step4, Round 2 review Finding M10: the M1 fix above corrected the
-confidence block and this body note but left the compiled `text` field
-stating "between the river and the sea" as flat narrative fact, with no
-hedge - the Step3a Round 8 (B2) ruling (a source's or attribution's own
-caveat travels with the compiled field carrying the claim, not only
-with an uncompiled note) applies here as much as to a source record's
-own standing rule. Reworded above to mark the placement as report
-rather than firsthand narration, and to give what the Vita itself
-actually supplies (the three-day journey, the mountain, the spring, the
-palms) alongside it.
+The confidence block attributes "between the river and the sea" and
+the specific dates to Doc_01 SS2.1, not to Vita SS49-50, which does not
+carry them. The text matches both the Vita ("imitated him in piety,"
+Vita SS3) and desert.force.village-ascetic-culture's own wording
+("sought out and modeled himself on"). The compiled `text` field marks
+the placement as report rather than firsthand narration, and gives what
+the Vita itself actually supplies (the three-day journey, the mountain,
+the spring, the palms) alongside it, matching the standing rule that a
+source's or attribution's own caveat travels with the compiled field
+carrying the claim, not only with an uncompiled note. The F5-P-01 cost
+reading is stated in the compiled text field itself.
 
 Formation significance: the paradigm instance of
 desert.gravity.withdrawal as an intensifying practice rather than a
@@ -95,4 +83,4 @@ actually become one of you? Walk me through it.") with the process
 itself, and F5-P-01 ("Did belonging cost you anything - family,
 friends, standing?"), now answered in the compiled text directly.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint kept.
+The text follows the desert register: short sentences, everyday words; every claim, name, quote, hedge, and reviewed constraint is kept.

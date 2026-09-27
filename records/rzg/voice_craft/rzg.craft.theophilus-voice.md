@@ -78,25 +78,11 @@ Built directly from rzg_Representative_Permanent_Prompt_Theophilus.txt (the depl
 
 No build-process language (no ISO dates, no thread references) appears in identity or guard, the two fields gate_no_build_attribution scans for this record type.
 
-REVISION, 2026-09-20 (Program-Spec SS8 amendment, Mark's own ruling: "the
-rule should be never respond, let the facilitator handle it"): the
-categorical outside-help prohibition is removed from `guard`. This
-prohibition was originally the fix for a real, live-tested defect: with
-`engine/m4/turn.py`'s own Track B branch calling the voice alongside the
-Facilitator's `dependency_check_turn`, the voice was caught, live, freely
-gesturing toward outside help on its own during that turn. Rather than
-propagate this same per-world guard line fleet-wide (it was only ever
-added here and to don), Track B now silences the voice entirely, the same
-way Track A already did (`voice_event = None`, no call made) - closing
-the gap for all 11 worlds at once rather than 2. With the voice never
-called on that turn, this record's own prohibition has nothing left to
-guard against. Removing it also dropped `guard`'s own short, simple
-closing sentences, leaving one remaining colon/dash-chained clause
-("The closest it comes to remembering anyone... never a story shaped to
-be venerated") as a larger share of the field - `gate_readability` then
-flagged the whole field at FK 10.5, over the ceiling of 10 (was 7.1
-before this edit, per the 2026-09-19 pass above). Fixed the same way
-every other instance of this exact pattern has been fixed fleet-wide:
+With `engine/m4/turn.py`'s own Track B branch silencing the voice entirely
+during the Facilitator's `dependency_check_turn` (`voice_event = None`, no
+call made, the same way Track A already does), the voice is never called
+on that turn, so `guard` carries no categorical outside-help prohibition
+- it has nothing left to guard against. `guard`'s closing clause is
 re-punctuated at its own existing colon/dash boundaries into three short
 sentences, same words, same facts, nothing cut or added. `gate_readability`
-now reports FK 8.8 for this field, 0 findings for this record.
+reports FK 8.8 for this field, 0 findings for this record.

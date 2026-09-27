@@ -78,4 +78,4 @@ missing (women's own words, enslaved persons' own words) is given its
 own full, dedicated treatment at cappadocian.limit.whose-voice-we-lack
 (F6-I) rather than repeated at length here.
 
-Reciprocal relation added 2026-09-02: cross-references the new verbatim quote record cappadocian.quote.basil-on-work-and-prayer, authored to close this world's own quote-record gap against its sibling worlds. No substantive claim in this record changed.
+This record cross-references the verbatim quote record cappadocian.quote.basil-on-work-and-prayer.

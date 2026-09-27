@@ -185,14 +185,9 @@ class LiveModelAnswerer:
         if stream_outcome.status != "ok":
             raise RuntimeError(f"LiveModelAnswerer: voice generation call failed: {stream_outcome.status} {stream_outcome.value}")
 
-        # ONE owner of the text shape (2026-08-28 foundation audit): this
-        # used to re-implement the net application - deleting withheld
-        # sentences and appending a Fork-2 floor line, both behaviors
-        # engine.m4.turn had measured and REMOVED for real participant
-        # turns - so admission graded a text no participant would ever
-        # read. apply_net is production's own shaper; calling it makes
-        # parity structural rather than asserted: the answer graded here
-        # is byte-for-byte the answer a participant would receive.
+        # apply_net is production's own shaper for the text; calling it
+        # here makes parity structural rather than asserted - the answer
+        # graded is byte-for-byte the answer a participant would receive.
         text, citation_entries, _net_result = apply_net(
             stream_outcome.value.text, repository_records=self.repository_records, thin_topics=self.thin_topics
         )

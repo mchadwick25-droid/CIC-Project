@@ -1,0 +1,14 @@
+source_file: zerbolt_spiritual-ascent_arthur1908.txt
+
+assignments:
+  - work: "The Spiritual Ascent: A Devotional Treatise (De Spiritualibus Ascensionibus)"
+    author: zerbolt
+    locus: "whole volume"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      Zerbolt of Zutphen's major devotional/method treatise, named by
+      the census as "the movement's method text" but previously wholly
+      unvendored - closes that named gap directly.

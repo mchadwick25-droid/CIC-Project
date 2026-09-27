@@ -5,8 +5,8 @@ measured price of downgrading was halved grounded citations") - unlike M5's
 Haiku-class monitoring calls, this is the actual answer the participant
 reads, not a classifier.
 
-ONE call per ordinary turn (LIVE-GENERATION-DESIGN.md, forks signed off
-§9.5, 2026-08-22: Fork 1): a real streaming call for the voice's free-text
+ONE call per ordinary turn (LIVE-GENERATION-DESIGN.md §9.5, Fork 1): a real
+streaming call for the voice's free-text
 answer, which now carries its own grounding inline - the compiled prompt's
 fleet preamble (§5.2) teaches every world's voice to tag each claim-
 bearing sentence with the record id(s) it draws on, before the terminal
@@ -46,10 +46,9 @@ def stream_voice_turn(
 
     system is the structured cache-eligible shape (Program-Spec SS7: "keep
     the Messages-API client shape... the static prefix is cached"), not a
-    plain string - a plain string was stage 5's own gap (caught by stage 6's
-    own usage instrumentation work: nothing was ever asking for a cache
-    write in the first place, so every cache field was trivially zero for
-    the wrong reason). A world's compiled prompt still has to clear
+    plain string - a plain string never asks for a cache write in the first
+    place, so every cache field would read trivially zero. A world's
+    compiled prompt still has to clear
     Anthropic's cache-eligibility floor (~1024 tokens for Sonnet-class) to
     actually engage - a short prompt (like the fixture's) legitimately
     shows cache_engaged=False, and that is a different, honest fact from
@@ -77,14 +76,13 @@ def stream_voice_turn(
         system = [{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}]
         if turn_directive:
             system.append({"type": "text", "text": turn_directive})
-        # timeout: the 2026-08-28 foundation audit found this - the one
-        # call that holds a participant's HTTP request open - was the only
-        # model call in the system with NO bound (SDK default: 600s read),
-        # while the cheap gate calls were bounded at 4s. 90s is ~3x the
-        # worst measured real turn (engine/m8 reports: 10-30s of stream);
-        # it exists to cut hung streams loose, never to cut real answers
-        # short. The APITimeoutError catch below has handled the outcome
-        # since stage 5 - the bound just makes it reachable.
+        # timeout: this is the one call that holds a participant's HTTP
+        # request open. Unlike the cheap gate calls (bounded at 4s), it
+        # would otherwise have no bound (SDK default: 600s read). 90s is
+        # ~3x the worst measured real turn (engine/m8 reports: 10-30s of
+        # stream); it exists to cut hung streams loose, never to cut real
+        # answers short. The APITimeoutError catch below already handles
+        # the outcome - the bound just makes it reachable.
         with client.messages.stream(
             model=model_id, max_tokens=max_tokens, system=system,
             messages=[*(history or []), {"role": "user", "content": message}], timeout=timeout,

@@ -1,0 +1,19 @@
+source_file: pole_seditious-oration_wythers1560.txt
+
+assignments:
+  - work: "The Seditious and Blasphemous Oration of Cardinal Pole"
+    author: pole
+    locus: "whole volume"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Pole's own oration as papal legate to the Emperor, printed inside
+      a hostile Protestant framing text. Fills the Step0-flagged gap for
+      a Pole primary-voice PD lead. Per the Library's scan-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is a
+      garbled black-letter 1560 scan - stays second witness for
+      scan-quality reasons until a cleaner edition is vendored,
+      notwithstanding this being English (the rule gates on scan
+      quality, not language).

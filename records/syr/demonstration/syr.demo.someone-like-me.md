@@ -78,57 +78,17 @@ tradition-bounded (never "Syriac Christianity" - this world's own
 living-tradition flag applies, per syr.voice.craft's own reasoning for
 the same choice). Everything after that single sentence is "we."
 
-REWRITTEN after independent Opus adversarial review found the first
-draft's closing half both invented and false. The draft had claimed the
-boundary was drawn "not against anyone simply asking, or not yet
-believing, or believing something else entirely" - directly contradicted
-by this world's own record: syr.core.syriac caution 4, syr.dw.f3-p-
-failures ("their argument with the Jews - real, local, live - survives
-entirely one-sided... a bitterness the record never balances"), and
-syr.voice.craft.guard itself all name the anti-Jewish material's
-one-sidedness as one of this world's two load-bearing open items - a
-real boundary drawn against people who believed something else. The
-draft also invented a "door" answer, presenting the covenant order
-(qyama) as this world's open entry into ordinary community life, with
-"no elite standing" required. On review this proved wrong on its own
-terms: the qyama is a vowed subset of the congregation, not the door
-into it (syr.term.qyama); its own celibacy requirement was dropped from
-the claim; the cited locus (Demonstration VI) contains no entry
-material at all (syr.contested.qyama-structure: "no rule text,
-enclosure practice, or hierarchy is attested in... Demonstration 6" -
-"a real institution whose inner constitution we mostly cannot see");
-and the corpus's one actual covenant-entry passage (Hallock's
-Demonstration VII SS20-21, cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt)
-describes a steep, self-selecting threshold - marry before baptism or
-turn back, renounce possessions or turn back, disgrace for withdrawal -
-the opposite of what the draft claimed.
-
-Rewritten to keep only what the record actually supports: the named-
-rivals boundary (syr.gravity.heresiological-self-definition, accurate
-and unchanged from the first draft) and, added rather than denied, this
-world's own harder admission about the Jewish people among it - stated
-in the same terms syr.demo.unsettled uses for the same underlying
-fact, so the two turns do not contradict each other. No claim is made
-about how any specific person would have actually been received; the
-turn states that limit explicitly rather than filling it with an
-invented reassurance in either direction.
-
-FIXED (round 2) per a second independent Opus review: the round-1
-rewrite over-corrected. "If you came to us believing something else,
-or nothing at all, we cannot promise you our own record was even-handed"
-extended the honest, attested admission (real hostility toward the
-Jewish people specifically) into an unattested claim about the simply
-unbelieving generally - no syr record shows this world's treatment of
-non-believers one way or the other, and syr.demo.physician's own
-turn states the opposite tendency on that different axis ("whoever
-comes is received"). Honest thinness forbids inventing the harsher
-reading exactly as much as the kinder one. Narrowed to name only what
-is attested (the Jewish people among us, by name) and the closing line
-now explicitly declines to guess in either direction. syr.dw.unsettled
-added to sources for the "no one of our own on record as troubled by
-that at the time" clause, which had been carried near-verbatim without
-its own direct citation (a supported claim, since syr.dw.failures
-was already cited for the same underlying fact - provenance tidiness,
-not a new unsupported claim).
-
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): long sentences split to the approved sample's level; all claims and hedges kept. Exchange re-emitted as block scalars (content otherwise unchanged where no pair applied).
+The turn keeps only what the record actually supports: the named-rivals
+boundary (syr.gravity.heresiological-self-definition) and this world's
+own harder admission about the Jewish people among it, stated in the
+same terms syr.demo.unsettled uses for the same underlying fact, so the
+two turns do not contradict each other. No claim is made about how any
+specific person would have actually been received; the turn states that
+limit explicitly rather than filling it with an invented reassurance in
+either direction. The admission names only what is attested - the
+Jewish people among us, by name - since no syr record shows this
+world's treatment of the simply unbelieving, or non-believers generally,
+one way or the other (syr.demo.physician's own turn states the opposite
+tendency on that different axis: "whoever comes is received"). Honest
+thinness forbids inventing the harsher reading exactly as much as the
+kinder one.

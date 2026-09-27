@@ -53,4 +53,4 @@ is a demonstration-stage requirement in the world's own idiom, noted here
 for the later voice build; this witness supplies the doctrinal substance
 under it.
 
-REGISTER TRANSLATION (2026-08-29, the hal pass of the fleet register ruling - see the ijc records' same-day note): spoken field translated in place to plain modern English (here mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence the demos' own review notes bind. Record layer, not the prompt (no-fix-on-fix).
+The spoken field is written in plain modern English (mostly sentence-splitting - hal's prose was already vivid and concrete); every sourced claim and reviewed constraint is preserved, including the baptized-who-had-fallen scope and the church-as-subject communion sentence. This sits at the record layer, not the prompt.

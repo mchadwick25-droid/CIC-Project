@@ -57,7 +57,7 @@ relations:
 - type: associated-with
   target: desert.gravity.diakrisis
 ---
-Verified verbatim 2026-08-27 against the vendored file at line 36205.
+Verified verbatim against the vendored file at line 36205.
 
 The pairing is the point and is set out in
 desert.source.origen-commentary-matthew: Origen builds the procedure for

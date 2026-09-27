@@ -1,0 +1,16 @@
+source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
+
+assignments:
+  - work: "Confession of Faith and Minister's Manual (Dordrecht Confession, 1632, standalone edition)"
+    author: dordrecht-confession
+    locus: "whole volume"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      A standalone 1890 English publication of the Dordrecht Confession
+      (1632) with the movement's own catechism and sacramental forms -
+      distinct from and independent of the Confession's reproduction
+      inside the already-vendored Martyrs Mirror
+      (van-braght_martyrs-mirror_sohm1886.txt).

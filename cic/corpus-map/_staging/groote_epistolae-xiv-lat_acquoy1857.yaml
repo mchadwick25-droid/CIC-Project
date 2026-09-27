@@ -1,0 +1,20 @@
+source_file: groote_epistolae-xiv-lat_acquoy1857.txt
+
+assignments:
+  - work: "Gerardi Magni Epistolae XIV (Fourteen Letters of Gerard Groote)"
+    author: groote
+    locus: "whole text (fourteen letters, Latin, with editor's scholarly introductions)"
+    atlas_ids:
+      - devotio-moderna-brethren-of-the-common-life
+    role: tradition
+    confidence: assigned
+    note: >
+      Gerard Groote's own surviving letters, Latin original, ed. J. G. R.
+      Acquoy (1857) - the movement's founder in his own voice, not
+      reported through Thomas a Kempis's later biography. No PD English
+      translation located. Per the Library's non-English-primary-evidence
+      rule (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is
+      primary content: a clean public-domain original
+      can be primary evidence when it's primary to the movement, which
+      this is, regardless of language and independent of whether an
+      English translation exists.

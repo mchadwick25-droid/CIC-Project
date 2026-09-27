@@ -8,8 +8,8 @@ inconsistencies: nothing in it can see two worlds at once, so nothing in it
 can notice that five worlds answer a question one way and the sixth answers
 it another. This module is that missing view.
 
-The line it polices is the one the 2026-08-26 cross-system consistency audit
-drew (worlds/_cross-world/CiC_Cross_System_Consistency_Audit_
+The line it polices is the one the fleet's own cross-system consistency
+audit drew (Build/worlds/_cross-world/CiC_Cross_System_Consistency_Audit_
 2026-08-26.md): a world may differ from its siblings in SUBSTANCE - how many
 terms it holds, how rich its quote corpus is, which cells it can only answer
 with an honest limit - and may never differ in the SHAPE the pipeline moves
@@ -47,6 +47,7 @@ CENSUS_PATH = REPO_ROOT / "cic-website" / "data" / "world-census.json"
 APP_WORLDS_TS = REPO_ROOT / "cic-poc" / "frontend" / "src" / "data" / "worlds.ts"
 SITE_TRADITIONS_DIR = REPO_ROOT / "cic-website" / "traditions"
 SITE_TABLE_HTML = REPO_ROOT / "cic-website" / "table.html"
+SITE_DATA_DIR = REPO_ROOT / "cic-website" / "data" / "worlds"
 
 DEFECT = "defect"
 OBSERVATION = "observation"
@@ -55,99 +56,31 @@ OBSERVATION = "observation"
 # this one is known, it is written up, and it is somebody's named next step -
 # not that it is acceptable. See the audit doc for each finding's evidence.
 ACCEPTED_OPEN: dict[str, str] = {
-    # ijc CLOSED 2026-09-20: census `living` synced true -> matches
-    # registry. ijc's own construction record (Doc_01 SS1,
-    # ijc.core.imperial-juridical) had explicitly disclosed `true` as a
-    # fail-safe default pending Mark's own Article 29 confirmation -
-    # unlike alx/pahc below, this one had genuinely never been made. Put
-    # to Mark directly using pahc's own four-option framing; ruling:
-    # "Multiple traditions, partial claims" (Roman Catholic + Eastern
-    # Orthodoxy). ijc_World_Profile.md SS9 updated PENDING->CONFIRMED;
-    # see worlds/ijc/Open_Gaps_Tracking.md for the full record. F-06 is
-    # now closed across all four of its original instances.
-    #
-    # alx CLOSED 2026-09-20: census `living` synced true -> matches
-    # registry, which was already correct - Mark confirmed Article 29
-    # Living Tradition Status in session 2026-07-17 (Coptic Orthodox
-    # Church as primary heir), independently corroborated across Doc_01,
-    # the World Profile, Open_Gaps_Tracking.md OG-1, the Facilitation
-    # Brief, and the M1 record alx.force.chalcedonian-fracture. The
-    # census's false was simply never updated after that confirmation.
-    #
-    # pahc CLOSED 2026-09-20: census `living` synced true -> matches
-    # registry, which was already correct - Mark confirmed Living
-    # Tradition Status in session 2026-07-08, via a direct, deliberated
-    # choice among four options ("Multiple traditions, partial claims":
-    # Roman Catholic and Eastern Orthodox apostolic-succession claims,
-    # certain Anglican/episcopal-polity traditions, more loosely any
-    # tradition drawing on the Apostolic Fathers), recorded in
-    # CiC_W1_World_Profile.md SS9 with a documented tooling-failure/retry
-    # history. See worlds/pahc/Open_Gaps_Tracking.md item 2.
-    #
-    # hal CLOSED 2026-09-20 by Mark's ruling: false, matching the
-    # construction-stage documents' own reasoned "confirmed NO" finding
-    # (two named candidates considered and rejected) over the registry's
-    # unreviewed true default. records/worlds/hal.yaml's own
-    # living_tradition_flag flipped to false to match the census, which
-    # already had this right (worlds/hal/Open_Gaps_Tracking.md item 1).
-    #
-    # Corroborated independently 2026-09-21 (website-card-redesign-to-main,
-    # PR #351): alx/pahc/ijc's own world_front/world_core build separately
-    # resolved the same Living Tradition determinations and found the
-    # compiled census `living` flag already matching the registry for all
-    # three by the time that PR landed on main - two independent paths
-    # reaching the same closure, not a second, competing ruling.
-    # F-07/F-08 CLOSED 2026-08-28 by Mark's identity ruling ("the registry
-    # wins"): the census now derives its representative name/title from
-    # records/worlds.yaml (syr's registry entry took the ruled values Mar
-    # Yausep / Teacher of the Covenant Order), so these five accepted-open
-    # entries are deleted and the checks ENFORCE - identity drift between
-    # the Atlas and the room fails the run from here on.
+    # ijc/alx/pahc/hal's own census `living` flags now match their
+    # registry entries (records/worlds/<code>.yaml's own
+    # living_tradition_flag), each confirmed against that world's own
+    # construction record - `living` stays a genuine editorial call on
+    # each side (see engine/m6/census_sync.py), checked for agreement
+    # here, never derived one from the other. The census's representative
+    # name/title, by contrast, is derived directly from records/worlds.yaml
+    # (F-07/F-08) - so identity drift between the Atlas and the room
+    # fails the run from here on.
     "census-display-name/alx": "F-09 - alx alone sets display_name to the Atlas's friendly short name; the other five carry the census's formal name",
     "id-type-token/doctrinal_witness": "F-03 - pahc uses `pahc.witness.*` where the other five use `<world>.dw.*`; renaming 17 records re-hashes the package, so it belongs to a pahc build thread",
     "id-type-token/voice_craft": "F-03 - pahc uses `pahc.craft.chloe-voice` where the other five use `<world>.voice.craft`",
     "figure-dates-keys/pahc": "F-04 - pahc keys figure.dates as display/note where the other five use born/died/floruit, and the frontend prints the key verbatim, so pahc participants read 'display:' and 'note:' in the UI",
-    "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself). Found 2026-09-01 while wiring the Representative portrait; same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
-    "figure-dates-keys/gallic": "F-04-analogue - all 5 gallic figure records key figure.dates as `display` (one-sentence prose covering contested/hedged dating this world's own sources leave open - e.g. Martin's own dates rest on 'lived sixteen years after the Treves affair by Gallus's own reckoning' and an undated election; Vincent's entry to Lerins is 'undated (c. 425 is a floating convention, Inferential-Thin)' - none of the five reduce cleanly to born/died/floruit without losing the hedge itself). Found 2026-09-13 during Phase C recon; same disclosed-not-fixed disposition as pahc's and cappadocian's own instances, not a mass rewrite improvised under this step - belongs to a gallic build thread.",
+    "figure-dates-keys/cappadocian": "F-04-analogue - all 15 cappadocian figure records key figure.dates as `display` (one-sentence prose covering contested/multi-clause dating - e.g. Basil's own death 'traditionally placed at January 379 or September 378, though the modern redating literature argues for 377 instead' - that doesn't reduce cleanly to born/died/floruit without losing the contested-date nuance itself); same disclosed-not-fixed disposition as pahc's own instance, not a mass rewrite improvised under this step - belongs to a cappadocian build thread.",
+    "figure-dates-keys/gallic": "F-04-analogue - all 5 gallic figure records key figure.dates as `display` (one-sentence prose covering contested/hedged dating this world's own sources leave open - e.g. Martin's own dates rest on 'lived sixteen years after the Treves affair by Gallus's own reckoning' and an undated election; Vincent's entry to Lerins is 'undated (c. 425 is a floating convention, Inferential-Thin)' - none of the five reduce cleanly to born/died/floruit without losing the hedge itself); same disclosed-not-fixed disposition as pahc's and cappadocian's own instances, not a mass rewrite improvised under this step - belongs to a gallic build thread.",
     "quote-speaker-label/syr": "F-05 - four syr quotes name a `syr.source.*` record as speaker_or_author; the label resolvers only unwrap `figure` ids, so the raw record id reaches both the Level-3 card and the compiled prompt's quote index",
     "ui-field-leak/desert": "F-10 - desert.figure.evagrius names a record id (desert.source.evagrius-praktikos) and a build document (Doc_01) inside figure.dates, and desert.figure.pachomius says 'not independently adjudicated by this build' - all three printed verbatim by the doorway's Level-3 panel",
-    # gallic is the fleet's first world registered (B-8, 2026-09-12) at
-    # state: built without also being census-linked and frontend-wired in
-    # the same pass - every prior world's own B-8 happened close enough to
-    # its M3 admission and cic-website/cic-poc wiring that this in-between
-    # window was never actually exercised against these four checks before.
-    # Real, disclosed, structurally expected for a world awaiting M3
-    # admission - NOT a build-thread task to close now, and now fully
-    # closed: the frontend portrait-wiring pair (app-world-assets/gallic,
-    # app-world-order/gallic) closed 2026-09-13 once Renatus's portrait was
-    # locked and cic-poc/frontend/src/data/worlds.ts was updated; the
-    # census link (records/worlds.yaml census_id, world-census.json content
-    # accuracy, the traditions page, the index.html homepage card) closed
-    # the same day; and the status flip itself (world-census.json's
-    # `status` -> "Built & Live", `entry` block populated) closed 2026-09-13
-    # too, after the frontend
-    # card was confirmed to link to a deep link that could not yet resolve
-    # without it - matching Cappadocian's own distinct SS30-SS32 sequence.
-    # All four gallic entries this dict once carried are gone, not left
-    # stale.
+    # A world can legitimately sit at state: built without also being
+    # census-linked and frontend-wired in the same pass - real, disclosed,
+    # and structurally expected while it awaits M3 admission, not a
+    # build-thread task to close early.
     "figure-dates-keys/don": "F-04-analogue - all 24 don figure records key figure.dates as `display`, the same pattern and the same reason as figure-dates-keys/cappadocian above: this world's own dating is pervasively contested or multi-clause (two Marcellinuses roughly a century apart, three Felixes, disputed Passio dating with two vendored authorities disagreeing by over two decades) and does not reduce to born/died/floruit without losing the disclosed uncertainty itself. Same disclosed-not-fixed disposition, found compiling the world rather than wiring a portrait - belongs to a don build thread, not a mass rewrite improvised here.",
-    # app-world-assets/don, app-world-order/don, site-portrait/don CLOSED
-    # 2026-09-16: the deployment wiring these named as deferred (frontend
-    # worlds.ts registration, the Fidelis portrait, the traditions page) is
-    # done - the approved Fidelis portrait (locked 2026-09-10, sitting
-    # unshipped in Ministry/Communication/Brand-Assets/ until now) shipped
-    # to both live-serving asset locations, don registered in
-    # cic-poc/frontend/src/data/worlds.ts, and traditions/donatism.html
-    # built grounded in this world's own records. Not left stale.
-    # census-id/don CLOSED 2026-09-16: opened for the real admitted-but-
-    # not-yet-open gap between don's admission and its open-state flip;
-    # closed the same day once `python -m engine.m6.cli
-    # sync` actually ran against the open state. Not left stale.
-    #
     # figure-dates-keys/{alx,desert,hal,ijc,syr}: NOT a new defect in any
     # of these five worlds' own content - a pure side effect of rzg's own
-    # admission as the fleet's 10th formation world, found by this world's
-    # own go-live test battery, 2026-09-18. check_figure_dates_keys()'s own
+    # admission as the fleet's 10th formation world. check_figure_dates_keys()'s own
     # threshold is a STRICT majority (more than half of all worlds), not
     # "the most common key" - with 9 formation worlds, 'born' at 5/9 cleared
     # it; with rzg's own addition (which uses died/floruit only, no birth
@@ -163,31 +96,31 @@ ACCEPTED_OPEN: dict[str, str] = {
     "figure-dates-keys/hal": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/ijc": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
     "figure-dates-keys/syr": "born/died threshold flip on rzg's own admission (10th world) - see the comment above this block",
-    "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself. Found 2026-09-19 during Phase C recon; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
-    # app-world-assets/witt, app-world-order/witt, and site-portrait/witt
-    # CLOSED 2026-09-20: all three opened 2026-09-19 for the same
-    # frontend-deployment-wiring gap this comment block described as "the
-    # actual remaining work". app-world-assets/app-world-order closed the
-    # same go-live pipeline's own merge pass once cic-poc/frontend/src/data/
-    # worlds.ts actually got its WORLD_ORDER entry and WORLD_ASSETS entry
-    # (witt's accent color reused from cic-website/table.html's own
-    # already-fixed #579C40, contrast independently recomputed against both
-    # dark-mode thresholds rather than assumed). site-portrait/witt CLOSED
-    # 2026-09-20: opened during Phase C recon for the portrait image FILE
-    # this comment block's own prior text named as the one outstanding
-    # piece. The actual file was placed - as nikolaus.jpg, not the .png
-    # this tracking's own earlier notes assumed - into cic-website/assets/
-    # portraits/ (PR #323, "Wire in Nikolaus's portrait") and the
-    # traditions page's own <img src> was updated to match; that closed
-    # the public site's own side. cic-poc/frontend's own separate
-    # live-serving copy and worlds.ts's portraitImage path (which still
-    # pointed at the old .png guess) were the one piece still open after
-    # that PR and have been corrected here to match the real file. Not
-    # left stale.
-    # census-id/witt CLOSED 2026-09-19: opened for the real admitted-but-
-    # not-yet-synced gap right after witt's own admission; closed the same
-    # day once `python -m engine.m6.cli sync` actually ran, the same
-    # day-of pattern don's own census-id/don entry showed. Not left stale.
+    "figure-dates-keys/witt": "F-04-analogue - all 6 witt figure records key figure.dates as `display` (one-sentence prose covering dates this world's own sources leave contested or partial - e.g. Luther's own record gives no birth date and states his death year only as this world's already-established closing boundary; the Brussels martyrs record gives a burning date corrected from a printed heading's own misprint and states plainly that no birth date or age survives for either man) - none of the six reduce cleanly to born/died/floruit without losing the disclosed uncertainty itself; same disclosed-not-fixed disposition as pahc's, cappadocian's, gallic's, and don's own instances, not a mass rewrite improvised under this step - belongs to a witt build thread.",
+    # check_unregistered_world_dirs's own first real finding. records/lpc/
+    # exists but carries no records/worlds/lpc.yaml entry, so lpc is
+    # invisible to load_registry() and everything downstream of it, gates
+    # and checks alike. Belongs to lpc's own build thread; remove this
+    # entry once lpc is registered.
+    "unregistered-world-dir/lpc": "2026-09-25 CI/tooling audit - records/lpc/ has no records/worlds/lpc.yaml entry, so it is invisible to load_registry() and everything downstream of it; owner PR #586",
+    #
+    # required-record-type/witt/* and required-site-json/witt:
+    # check_required_record_types_and_site_json's own findings, keyed per
+    # record type so a future loss of a DIFFERENT required type at witt
+    # can't hide under an already-waived key. witt is admitted but
+    # carries no world_front record and no facilitator_brief record, and
+    # has no compiled cic-website/data/worlds/lutheran-wittenberg-and-
+    # its-congregations.json - the Website V2 migration has not reached
+    # witt yet. Belongs to witt's own build thread.
+    "required-record-type/witt/world_front": "2026-09-25 CI/tooling audit - witt (admitted) carries no world_front record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-record-type/witt/facilitator_brief": "2026-09-25 CI/tooling audit - witt (admitted) carries no facilitator_brief record; Website V2 migration has not reached this world yet; belongs to a witt build thread",
+    "required-site-json/witt": "2026-09-25 CI/tooling audit - witt (admitted) has no compiled cic-website/data/worlds/lutheran-wittenberg-and-its-congregations.json; downstream of the same missing world_front record above; belongs to a witt build thread",
+    # required-record-type/rzg/search_record: rzg (admitted) carries a
+    # world_front and a facilitator_brief record and its site JSON is
+    # compiled and committed, but it has zero search_record records - the
+    # Search feature's own migration has not reached rzg yet. Belongs to
+    # rzg's own build thread.
+    "required-record-type/rzg/search_record": "2026-09-25 CI/tooling audit - rzg (admitted) carries zero search_record records; Search migration has not reached this world yet; belongs to a rzg build thread",
 }
 
 
@@ -212,7 +145,7 @@ COVERAGE = {
     "npnf209": (310, 749), "npnf210": (339, 397), "npnf211": (360, 450), "npnf212": (400, 604),
     "npnf213": (300, 604), "npnf214": (325, 787), "optatus": (320, 400),
     "origen": (185, 254), "palladius": (320, 420),
-    # Added 2026-09-09. These eighteen files (fourteen keys) had NO entry, so
+    # These eighteen files (fourteen keys) had NO entry, so
     # corpus_tier() fell through to "4 - unclassified" and the generated report
     # rendered them under a Tier 4 heading whose legend reads "no time overlap"
     # - asserting a date judgement that had never been made. Philostorgius is
@@ -235,11 +168,11 @@ COVERAGE = {
     "pachomius": (292, 348),
     "philostorgius": (300, 425),      # the History's own span, per the file's Quasten note
     "tacitus": (64, 64),              # the vendored locus is Annals 15.44 alone: the persecution of 64
-    # Added 2026-09-09, source-library-integration merge. 14 more keys (17
+    # Added during the source-library-integration merge. 14 more keys (17
     # vendored files - 2 for the 3 Monceaux tomes sharing one key, - 1 because
     # `optatus_libri-vii-critical_ziwsa1893.txt` shares the pre-existing
     # `optatus` key and needs no new entry) with no COVERAGE entry - the same
-    # defect this file's own 2026-09-09 fix above closed for 14 other keys,
+    # defect the fix above closed for 14 other keys,
     # reopened by this merge if left unfilled. Same first-pass standard:
     # asserted for correction, rank rather than exclude.
     #
@@ -338,7 +271,7 @@ REGIONS = {
     "npnf109": {"syria", "constantinople"}, "npnf110": {"syria", "constantinople"},
     "npnf111": {"syria", "constantinople"}, "npnf112": {"syria", "constantinople"},
     "npnf113": {"syria", "constantinople"}, "npnf114": {"syria", "constantinople"},
-    # Added 2026-09-09 alongside the COVERAGE rows below - a key with coverage
+    # Added alongside the COVERAGE rows below - a key with coverage
     # but no region lands in tier 3 ("same time, different region"), which
     # understates rather than mislabels, but is still wrong where the region
     # is known.
@@ -354,7 +287,7 @@ REGIONS = {
     # religious policy, not a regional witness.
     "philostorgius": {"ecumenical"},
     "tacitus": {"rome"},
-    # Added 2026-09-09, source-library-integration merge, alongside the
+    # Added during the source-library-integration merge, alongside the
     # COVERAGE rows above. Imperial law is ecumenical (empire-wide, not
     # regional); everything else here is Donatist-controversy North African
     # material, per this same file's own atlas_ids assignment to `donatism`
@@ -651,9 +584,98 @@ def check_census_agreement(*, registry, worlds, **_) -> list[Finding]:
     return findings
 
 
+def check_census_registry_state(*, registry, worlds, **_) -> list[Finding]:
+    """A 'Built & Live' census card is what makes a world visible and
+    deep-linkable on the Atlas (App.tsx's findWorldByCensusId, gated on
+    Settings.enforce_admission) - but check_census_link only checks that a
+    claimed census_id EXISTS as a live entry, never that the registry
+    world claiming it has actually reached a state that claim presumes.
+    A card can say Built & Live for a world the registry still calls
+    merely 'built' - live on the Atlas ahead of the very admission gate
+    that is supposed to be what makes a world reachable at all."""
+    findings = []
+    live = _census_live_entries()
+    for w in worlds:
+        cid = registry[w].get("census_id")
+        if not cid or cid not in live:
+            continue  # unset or not a live entry at all - check_census_link's own job
+        state = registry[w].get("state")
+        if state not in ("admitted", "open"):
+            findings.append(_defect(
+                "census-state-ahead-of-registry", w,
+                f"census_id {cid!r} is marked 'Built & Live' in world-census.json but the "
+                f"registry's own state is {state!r}, not admitted/open"))
+    return findings
+
+
+# world_front (Website V2's own per-world compiled-page source),
+# facilitator_brief and search_record are the record types an admitted or
+# open world is expected to carry once it is participant-reachable -
+# nothing before this check ever asked for them. A world can clear M1's
+# fifteen-gate battery (which never mentions Website V2's own record
+# types at all) and reach 'admitted' with no front page ever compiled.
+_REQUIRED_ADMITTED_RECORD_TYPES = ("world_front", "facilitator_brief", "search_record")
+
+
+def check_required_record_types_and_site_json(*, registry, records, worlds, **_) -> list[Finding]:
+    """The compiled Website V2 site JSON (cic-website/data/worlds/
+    <census_id>.json) is that world's own world_front record's compiled
+    output (engine.m2.site_cli.compile_site_json_for_world) - checked
+    here as a second, independent signal from the record-type check
+    above, since a world_front record can exist without ever having been
+    compiled and committed."""
+    findings = []
+    for w in worlds:
+        if registry[w].get("state") not in ("admitted", "open"):
+            continue
+        present = {r.get("record_type") for r in records[w].values()}
+        for record_type in _REQUIRED_ADMITTED_RECORD_TYPES:
+            if record_type not in present:
+                findings.append(_defect("required-record-type", f"{w}/{record_type}", f"admitted/open but carries no {record_type} record"))
+        census_id = registry[w].get("census_id")
+        site_json = (SITE_DATA_DIR / f"{census_id}.json") if census_id else None
+        if site_json is None or not site_json.is_file():
+            findings.append(_defect(
+                "required-site-json", w,
+                f"admitted/open but has no compiled site JSON at cic-website/data/worlds/"
+                f"{census_id or '<no census_id>'}.json"))
+    return findings
+
+
 # --------------------------------------------------------------------------
 # stage 3: the records tree, world against world
 # --------------------------------------------------------------------------
+
+# Directories under records/ that are not a world's own: _fleet holds
+# fleet-shared content with no registry entry of its own by design, and
+# worlds IS records/worlds/, the registry's own storage location, not
+# something registered inside itself.
+_NON_WORLD_RECORD_DIRS = frozenset({"_fleet", "worlds"})
+
+
+def check_unregistered_world_dirs(*, registry, **_) -> list[Finding]:
+    """load_registry() is how every gate and every check in this file
+    discovers which worlds exist at all - registry.py's own docstring
+    calls it "the ONE world registry". A records/<dir> with no matching
+    records/worlds/<code>.yaml is invisible to all of it, not merely
+    unbuilt: not formation_world_keys(), not run_all()'s own `worlds`
+    list, nothing. lpc's own defects went undetected through exactly this
+    gap - a directory of real records that nothing here ever looked at,
+    because nothing here knew it existed. Runs against the real
+    filesystem tree, deliberately independent of `worlds` (which is
+    already registry-derived and so could never see the gap itself)."""
+    findings = []
+    for p in sorted(RECORDS_ROOT.iterdir()):
+        if not p.is_dir() or p.name in _NON_WORLD_RECORD_DIRS:
+            continue
+        if p.name not in registry:
+            findings.append(_defect(
+                "unregistered-world-dir", p.name,
+                f"records/{p.name}/ exists but records/worlds/{p.name}.yaml does not - "
+                "load_registry() is how every gate and cross-world check discovers a "
+                "world, so this directory and everything in it is invisible to all of them"))
+    return findings
+
 
 def check_record_type_directories(*, worlds, **_) -> list[Finding]:
     """Observation, not defect: a world legitimately may hold no records of
@@ -758,8 +780,17 @@ _RECORD_ID = re.compile(r"\b(?:[a-z]{2,8})\.(?:[a-z_]{2,20})\.[a-z0-9][a-z0-9-]{
 # 44 of its 192 source loci. An earlier version of this pattern flagged all
 # three of desert.figure.antony's dates on that basis and reported six leaks
 # where there are three. A build reference has to name a BUILD artifact
-# (`Doc_01 SS2.3`, `Artifact-1`, BUILD-LOG) or talk about the build in prose.
-_BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b20\d{2}-\d{2}-\d{2}\b", re.IGNORECASE)
+# (`Doc_01 SS2.3`, `Artifact-1`, BUILD-LOG) or talk about the build in prose -
+# "this build"/"this session" naming the build itself, or "review round(s)"/
+# "search round(s)" naming the build's own process, the same process language
+# tools/check_live_commentary.py's own RECORDS_AND_WORLDS_PATTERNS polices in
+# these same records/ and worlds/ files, from the other direction (hygiene on
+# text as committed, not leak detection on what a participant is shown).
+_BUILD_REF = re.compile(
+    r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis (?:build|session)\b|"
+    r"\breview rounds?\b|\bsearch rounds?\b|\b20\d{2}-\d{2}-\d{2}\b",
+    re.IGNORECASE,
+)
 
 # Exactly the fields that reach a participant's screen, via
 # engine.m4.citation_cards' label table, engine.m4.name_bridge's figure card
@@ -768,7 +799,7 @@ _BUILD_REF = re.compile(r"\bDoc_\d|\bArtifact-\d|\bBUILD-LOG\b|\bthis build\b|\b
 # attribution scopes itself to build_prompt()'s own field contract:
 # commentary fields are a LEGITIMATE home for build language, and scanning
 # them would bury the real findings.
-# Relocated to engine/m1/spoken_fields.py (PARTICIPANT_FIELDS) 2026-09-19 -
+# Relocated to engine/m1/spoken_fields.py (PARTICIPANT_FIELDS) -
 # one declared spoken-field registry instead of six/seven independent
 # lists; see that module's own docstring. Same values, same behavior.
 _PARTICIPANT_FIELDS = PARTICIPANT_FIELDS
@@ -1033,7 +1064,7 @@ def observe_second_hand_sources(*, records, worlds, **_) -> list[Finding]:
 # "weigh" as a substring, which silently caught rzg's guard on "the felt
 # WEIGHt of either" (honest-thinness prose, no distress-comparison content
 # at all) - a real false positive, not a hypothetical one, found while
-# starting R19's retrofit and confirmed by reading rzg's guard field
+# starting this guard's retrofit and confirmed by reading rzg's guard field
 # directly (records/rzg/voice_craft/rzg.craft.theophilus-voice.md). \b
 # boundaries block a match inside "weight"/"weighted"/"outweigh" while
 # still catching "weigh"/"weighs"/"weighed"/"weighing" as their own words.
@@ -1063,9 +1094,8 @@ def observe_outside_help_guard(*, records, worlds, **_) -> list[Finding]:
     keyword scan, can still miss a world that names the same concern in
     genuinely different words - see _OUTSIDE_HELP_GUARD_SIGNALS' own note
     on the one false positive already found and fixed here). Report-only:
-    nothing here fails a build. The printed world list is filed under R19
-    in Rulings-Pending.md for a real ruling on whether and how to promote
-    this to a gate.
+    nothing here fails a build. Whether and how to promote this to a gate
+    is a separate decision, not yet made.
     """
     findings = []
     for w in worlds:
@@ -1117,7 +1147,7 @@ def _register_profile(texts: list[str]) -> dict:
     (spaced-dash density, the <=5-word fragment share), applied here to
     the compiled record layer instead of a live conversation turn, and
     reusing its own `_strip_quoted`: quotes are the tradition's own words,
-    exempt from the plain band (reference/method/
+    exempt from the plain band (Build/reference/method/
     CiC_Register_Bar_2026-08-29.md), never screened at this layer either.
     `median_low` (the lower of the two middle values on an even count)
     rather than an interpolated average - a real record's own word count,
@@ -1138,8 +1168,8 @@ def _register_profile(texts: list[str]) -> dict:
 
 
 # alx and hal read as the fleet's own best-behaved worlds on every metric
-# below (Rulings-Pending.md R6: "the ceilings proposed will be the fleet's
-# own exemplars, not an arbitrary number") - printed once as the context a
+# below - any proposed ceiling should be measured against the fleet's own
+# exemplars, not an arbitrary number - printed once as the context a
 # proposed ceiling is measured against, not a pass/fail line of their own.
 _EXEMPLAR_WORLDS = ("alx", "hal")
 
@@ -1149,9 +1179,9 @@ def observe_register_profile(*, records, worlds, **_) -> list[Finding]:
     median words, longest sentence, fragment ratio, dash density
     (`_register_profile`, above). OBSERVATION only, exactly like this
     module's other `observe_*` checks: nothing here fails a build. Gate
-    promotion is explicitly blocked on R6 (Rulings-Pending.md) - a real
-    ruling on scope (which fields screen) and on whether numbers ever gate
-    at all, not this stage's to decide.
+    promotion is a separate, not yet made decision on scope (which fields
+    screen) and on whether numbers ever gate at all - not this stage's to
+    decide.
 
     `alx`/`hal` print first, unscored, as the exemplar context a proposed
     ceiling is read against; every world (`alx`/`hal` included) then gets
@@ -1242,9 +1272,12 @@ def observe_corpus_map(*, registry, worlds, **_) -> list[Finding]:
 
 CHECKS = [
     check_registry_shape,
+    check_unregistered_world_dirs,
     check_package_pinned,
     check_census_link,
     check_census_agreement,
+    check_census_registry_state,
+    check_required_record_types_and_site_json,
     check_record_type_directories,
     check_id_type_tokens,
     check_record_world_ids,

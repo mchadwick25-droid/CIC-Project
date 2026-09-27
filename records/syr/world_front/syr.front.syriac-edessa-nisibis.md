@@ -234,15 +234,12 @@ narrative:
   - syr.term.madrasha
   - syr.term.ewangeliyon-da-mhallete
 ---
-Authored 2026-09-19/09-20: the syriac-edessa-nisibis `world_front`
-pilot record (Website V2 world_front design, approved to proceed
-2026-09-19), migrating this world's participant-facing overview
-content into the record-native `world_front` type - the second half
-of the two-world pilot, following desert-monasticism's own
-(`records/desert/world_front/desert.front.desert-monasticism.md`,
-merged). Covers `skim`, `orientation`, and `narrative` only, per this
-pilot's own scope; `facilitator_brief` is a separate, later record
-this pass does not build.
+This is the syriac-edessa-nisibis `world_front` record (Website V2
+world_front design), migrating this world's participant-facing
+overview content into the record-native `world_front` type, alongside
+desert-monasticism's own (`records/desert/world_front/desert.front.desert-monasticism.md`).
+It covers `skim`, `orientation`, and `narrative` only; `facilitator_brief`
+is a separate record.
 
 WORLD KEY. `records/worlds/syr.yaml` (`engine.m1.registry.load_registry()`)
 confirms the short registry code `syr` and `world_id:

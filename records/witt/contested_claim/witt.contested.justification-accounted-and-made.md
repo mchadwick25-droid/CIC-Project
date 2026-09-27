@@ -52,8 +52,8 @@ held_against:
   (McGrath's Iustitia Dei), the position that reads "made righteous" as Christ's own real presence in faith
   rather than a secondary paraphrase of the forensic sense (Mannermaa's Christ Present in Faith), and the
   point at which present-day Lutheran and Catholic bodies addressed the same two wordings together (the
-  1999 Joint Declaration on the Doctrine of Justification) - none cited as a Key Source, all named so a
-  reviewer could see what is missing (Doc_06 SS2.1). This library cannot show which reading, if either, the
+  1999 Joint Declaration on the Doctrine of Justification) - none cited as a Key Source, all named to make
+  what this library lacks visible rather than silently assumed away (Doc_06 SS2.1). This library cannot show which reading, if either, the
   confession's own text means to prioritize; it can only show that the sixteenth-century text states both.
 - >-
   The confession's own argument has a structural lean the double statement does not resolve. Its case for

@@ -27,9 +27,9 @@ attribution_status: attributed
 discovery_channel: "surfaced during this build's step-2 corpus survey (2026-08-21) as the vendorable witness for Evagrius excerpts and the Origenist-controversy sequence; volume supplied with the CCEL corpus (Mark, 2026-08-15-18); rights read from the file's own DC.Rights header"
 external_ids: {ccel_volume: "npnf202"}
 ---
-Rights verified 2026-08-21 from the file's own DC.Rights header (Public
-Domain). Loci corrected to division boundaries per Step2 Review Round 1,
-Finding 9 (chapter division 13377; Evagrius excerpts 13550-13719).
+Rights verified from the file's own DC.Rights header (Public
+Domain). Loci match the division boundaries exactly (chapter division
+13377; Evagrius excerpts 13550-13719).
 
 Why this outside source is registered: (1) it carries the only vendored
 English of Evagrius's own sentences (quoted excerpts inside IV.23),

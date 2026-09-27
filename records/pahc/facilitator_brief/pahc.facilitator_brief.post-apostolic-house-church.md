@@ -261,19 +261,16 @@ redirect_notes:
   - pahc.demo.identity-collision-womens-authority
   - pahc.term.ministrae
 ---
-Authored 2026-09-19, the second facilitator_brief record built in this
-fleet after the syr pilot (`records/syr/facilitator_brief/
-syr.facilitator_brief.syriac-edessa-nisibis.md`), which this record
-matches in field shape and grounding discipline without copying its
-content. Migrates the curatorial substance of this world's own approved
-Phase Six Facilitation Brief (Section A and B1-B7, cleared independent
-review across two dedicated rounds - see Status below) into this
-record-native type, but does NOT carry forward that document's own
-citations (World Profile, Formation Calibration, Ecology Assessment,
-Doc_0X material, Phase Five transcripts) - none of those are M1 records
-this compiler can resolve. Every unit below is grounded instead in a
-real record under `records/pahc/` that this session opened and read
-directly.
+This record matches `records/syr/facilitator_brief/
+syr.facilitator_brief.syriac-edessa-nisibis.md` in field shape and
+grounding discipline, without copying its content. It migrates the
+curatorial substance of this world's own approved Phase Six
+Facilitation Brief (Section A and B1-B7) into this record-native type,
+but does not carry forward that document's own citations (World
+Profile, Formation Calibration, Ecology Assessment, Doc_0X material,
+Phase Five transcripts), since none of those are M1 records this
+compiler can resolve. Every unit below is grounded instead in a real
+record under `records/pahc/`.
 
 TWO DECISIONS FOLLOWED EXACTLY, NOT RE-DERIVED (per this task's own
 framing). (1) `redirect_notes` holds ordinary content-limit handoff
@@ -290,27 +287,10 @@ field. Its content remains only in the original Phase Six document.
 
 B7 SOURCE-VERSION DETERMINATION. `worlds/pahc/
 CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md` (despite its filename)
-already contains the complete Section A and B1-B7 text, confirmed
-current: its own Revision 4 note states Section A/B7 were sent through
-`CiC_W1_Phase6_FacilitationBrief_SectionA_B7_Cold_Review_Round1.md`
-(Qualified Pass, 2 Significant/3 Moderate/3 Minor findings) and "fixed
-directly" in the document body itself, then independently reverified in
-`CiC_W1_Phase6_FacilitationBrief_SectionA_B7_Verification_Round2.md`
-(verdict "Pass, ready for disposition"). Checked directly, not assumed:
-every one of Round 2's per-finding verdicts was cross-read against the
-DRAFT file's own current text and matches exactly - the "two consecutive
-turns" disclosure (Finding 6), the corrected Article 33 clause
-separation with the minors language restored and the trailing ellipsis
-present (Finding 3, including the round's own post-verification cosmetic
-fix), the Living Tradition/contested-standing paragraph (Finding 1), the
-verbatim project-lead quotation in Revision 3 (Finding 2), the
-Transcript-only citation for the "good writing" quotation (Finding 4),
-and the corrected footnote in Section A (Finding 5) are all present in
-the DRAFT file exactly as Round 2 describes them fixed. CONCLUSION: the
-Verification Round 2 file is confirmation only, not a separate
-superseding text - the DRAFT file's own current B7 IS the
-fully-corrected, twice-reviewed version, and was used directly as this
-record's source text. No separate substitution was needed or made.
+contains the complete, current Section A and B1-B7 text - checked
+directly against the DRAFT file's own text, not assumed. It is the
+fully corrected version and is used directly as this record's source
+text; no separate substitution was needed or made.
 
 THE CONTRADICTION FOUND, discovered while grounding `world_identity` and
 `formation_strengths` rather than assumed going in: the Phase Six source
@@ -476,8 +456,8 @@ speculative direction") - neither candidate is named here by world,
 following the same discipline the syr pilot applied to its own B5:
 no record under `records/pahc/` states that this world has actually
 been tested against Syriac or any other specific fleet world, and the
-fleet has grown substantially past the nine-then-ten-world count B5's
-own 2026-07-09 framing assumed. This unit stays a structural-contrast
+fleet has grown substantially past the nine-then-ten-world count B5
+assumed. This unit stays a structural-contrast
 reading of this world's own gravities, not a claim about an evidenced
 pairing.
 

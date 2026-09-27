@@ -84,14 +84,13 @@ exquisite jewels, and more purified than gold"). canon_cells: F6-E (f6-e-02) rei
 force.martyrdom-meaning and pahc.gravity.martyrdom-meaning, the same
 cell both already claim.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
 
-RELATION ADDED 2026-09-19 (pahc `world_front` build): reciprocal
-`associated-with` edge to the new `pahc.story.quintus-recantation`
-(same underlying letter, chs. 4-7, a different passage and a different
-point - reconciling a `documentedStories` entry on the live site with
-no existing story record). Checked directly against that new record
-for consistency: no contradiction found, and this record's own "betrayed
+A reciprocal `associated-with` edge connects this record to
+`pahc.story.quintus-recantation` (same underlying letter, chs. 4-7, a
+different passage and a different point). Checked directly against
+that record for consistency: no contradiction found, and this record's
+own "betrayed
 by someone in his own household, under torture" already agrees with
 the new record's more granular "two young men... one of them,
 tortured."

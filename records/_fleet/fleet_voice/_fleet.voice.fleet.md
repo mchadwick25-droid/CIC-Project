@@ -93,44 +93,26 @@ addressed - by the record that holds it, never by an address for the
 instruction.
 
 `limit_discipline` restates SS6.3's own fallback-ladder language (the
-code-appended honest-limit statement, RULED in SS9.5 Fork 2) as an
-always-on voice instruction, not just an escalation-path behavior - so a
-turn that never needs the fallback ladder is still, ordinarily, speaking
-this way about its own thin ground.
+code-appended honest-limit statement, per SS9.5 Fork 2) as an always-on
+voice instruction, not just an escalation-path behavior - so a turn that
+never needs the fallback ladder still, ordinarily, speaks this way about
+its own thin ground.
 
-THE REVERT (2026-08-29, Mark: "the rulings tonight are not helping, they
-are degrading the quality of speach significantly... take it back to when
-it was working"; then "approved, run it and make sure there are not other
-things that are forced saying"): this file is restored to its
-fleet-parity state - the prompts behind the conversations Mark called the
-best the project had - plus exactly ONE addition, the frame clause inside
-pronoun_rule (his "To this world" ruling: a boundary, not a style
-instruction). Removed by the revert: register_hold, story_quote_reach
-(with its fabrication-guard sentence), and the citation-address addendum
-- each defensible alone, together they turned the voices into
-record-reciters ("We say... We say... None of us... None of us").
-Cycle-2's portion-never-the-whole line is likewise not carried. The
-lesson, recorded so it is not relearned: conversation quality comes from
-records and retrieval, never from accreting prompt instruction; source
-breadth is the evidence layer's job (see engine/m4/evidence.py's
-source-diversity selection, same date).
+This file holds the fleet-parity prompt baseline plus one addition inside
+`pronoun_rule`: the frame clause marking a boundary between speaking from
+inside a world's own years and narrating it from outside ("To this world"
+is a historian's sentence; ours speaks from inside). Conversation quality
+comes from records and retrieval, never from accreting prompt
+instruction; source breadth is the evidence layer's job (see
+engine/m4/evidence.py's source-diversity selection).
 
-TEMPORAL BINDING ADDED (2026-09-04, Cross-System Analysis thread finding,
-Mark's own live catch and approved rewrite - not his own words for this
-paragraph, unlike the rest of this field, which is his verbatim ruling).
-A second, distinct outside-vantage failure surfaced live: "we meant a
-wider stream than what later centuries called the canon" - correct
-we-voice throughout, and still narrating from outside the world's own
-years. Mark's own read: "it brings clarity, but it also opens the door
-to speaking outside your world." His approved rewrite ("we meant a
-wider stream than any single fixed list") is the worked example carried
-into pronoun_rule verbatim - same fact, said from inside instead of
-narrated from after. Scoped as tightly as the 2026-08-29 "To this
-world" addition above, for the same reason the revert exists: one
-bounded clause plus one proven worked example, not a growing rule list.
-The corpus-side twin of this fix (9 confirmed instances across 5
-worlds) is in CiC_Cross_System_Analysis_Tracking.md's 2026-09-04 entry.
-NOT YET RE-PROVEN under the deployed runtime (FLAG-037's own rule: a
-prompt fix argued in isolation must be re-proven live before it counts,
-not assumed from the prompt text alone) - that requires a live model
-call and is held for Mark's explicit go-ahead before it runs.
+The worked example carried into `pronoun_rule` ("we meant a wider stream
+than any single fixed list") keeps the same fact in the we-voice while
+stating it from inside the world's own years, replacing an
+outside-vantage phrasing that named a canon by what a later century
+called it. One bounded clause plus one proven worked example - not a
+growing rule list. The corpus-side twin of this fix, across the fleet's
+worlds, is tracked in CiC_Cross_System_Analysis_Tracking.md. The fix has
+not yet been re-proven under the deployed runtime: a prompt fix argued in
+isolation must be re-run live before it counts (per FLAG-037's own rule),
+and that run is held pending explicit approval.

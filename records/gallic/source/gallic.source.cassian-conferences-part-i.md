@@ -12,9 +12,8 @@ confidence:
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
   divergence_note: 'Registry''s own split rating: A for the dedication text and its own chronology anchor
-    (completed shortly after Castor''s death, 426), C for the fuller content of Conferences I-X generally,
-    per the Registry''s own Round 1 correction confirming this dating clause belongs to Part I, not Part
-    II.'
+    (completed shortly after Castor''s death, 426), C for the fuller content of Conferences I-X generally.
+    This dating clause belongs to Part I, not Part II.'
 sources: []
 relations: []
 author: John Cassian

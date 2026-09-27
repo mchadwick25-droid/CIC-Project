@@ -42,7 +42,7 @@ relations:
 - {type: illustrates, target: ijc.figure.damasus}
 - {type: associated-with, target: ijc.quote.socrates-damasus-election}
 ---
-Text verified verbatim against the vendored file 2026-09-13, from a
+Text verified verbatim against the vendored file from a
 raw djvu OCR scan (two mechanical corrections made against the scan's
 own visible artifacts, not the text itself: "1 2." and "1 4."-style
 paragraph-number splits closed to "12."/"14.", and no other correction

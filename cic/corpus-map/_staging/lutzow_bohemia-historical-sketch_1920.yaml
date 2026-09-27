@@ -1,0 +1,14 @@
+source_file: lutzow_bohemia-historical-sketch_1920.txt
+
+assignments:
+  - work: "Bohemia: An Historical Sketch"
+    author: lutzow
+    locus: "whole volume"
+    atlas_ids:
+      - the-hussite-and-bohemian-brethren-movement
+    role: context
+    confidence: assigned
+    note: >
+      Secondary general history of Bohemia, English, Lutzow (1920,
+      Everyman's Library), providing broader political/national context
+      for the movement.

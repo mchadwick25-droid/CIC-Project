@@ -49,15 +49,15 @@ relations:
 - type: associated-with
   target: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
 ---
-Added at review (Opus canon-structure pass, 2026-08-21) to correct the
-marriage half of ijc.limit.marriage-money, which claimed marriage
-was wholly absent from this world's record. Verified directly against
-the vendored corpus, file lines 38845-38850. The honest_limit is
+Verified directly against
+the vendored corpus, file lines 38845-38850: marriage is not wholly
+absent from this world's record. ijc.limit.marriage-money's own
+honest_limit is
 narrowed to what genuinely remains absent: any account of marriage or
 money from an ordinary household's own perspective, rather than a
 teacher's ranking of the institution. canon_cells: F5-T (what did
 marriage mean among you, and how did you look at money and the poor).
 
-REGISTER TRANSLATION (2026-08-29, Mark's ruling after his live ijc session: the spoken prose had 'regressed back to old english criptic speak'; target register is his side-by-side 'After' column - plain modern English, complete sentences, concrete action before principle). Spoken field translated in place, translation not summary: every sourced claim, name, figure, and honest-limit boundary preserved. Fixed at the record layer, not the prompt - no ban lists, no forced sayings (his standing no-fix-on-fix ruling).
+The spoken field speaks plain modern English - complete sentences, concrete action before principle. It is a translation, not a summary: every sourced claim, name, figure, and honest-limit boundary is preserved. This sits at the record layer, not the prompt.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar" - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): text rewritten to the approved sample's level - short sentences, everyday words; every claim, name, quote, and reviewed constraint kept.
+The text is written at the register bar: short sentences, everyday words; every claim, name, quote, and reviewed constraint holds.

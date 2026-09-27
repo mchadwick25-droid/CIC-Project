@@ -39,9 +39,9 @@ relations:
 - type: associated-with
   target: pahc.witness.jesus-as-god
 ---
-Opened 2026-08-27 for C-T, served by pahc.witness.jesus-as-god alone. That witness says Ignatius
+This quote serves C-T together with pahc.witness.jesus-as-god, which says Ignatius
 "calls Jesus Christ our God again and again - in how he opens his letters and in how he closes
-them" and had no quote to show it.
+them".
 
 One instance is quoted rather than a catalogue, and it is deliberately one from the middle of a
 letter rather than a salutation: the witness's own claim is that the phrase is habitual, and a

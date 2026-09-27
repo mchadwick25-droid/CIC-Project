@@ -109,10 +109,9 @@ assignments:
     confidence: assigned
     note: >
       Found by cappadocian.source.church-historians-socrates-sozomen-theodoret
-      (kind: vendored), whose own verification_state was
-      `named-not-rechecked` - "files present since 2026-08-15, not
-      re-verified against the specific loci Doc_02 cites this session."
-      That review is done here. The record cites "Constantinople 360 (via
+      (kind: vendored, verification_state: named-not-rechecked): this
+      file had not yet been re-verified against the specific loci Doc_02
+      cites. That review is done here. The record cites "Constantinople 360 (via
       Socrates HE 2.41, SS2)" for "the Homoian-establishment
       reconstruction" - read directly at that exact chapter: it opens on
       the Acacian party's Synod at Constantinople after Ariminum, and

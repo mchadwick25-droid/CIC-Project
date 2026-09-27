@@ -1,0 +1,44 @@
+source_file: barlow_brutum-fulmen_1681.txt
+
+assignments:
+  - work: "Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul III's bull against Henry VIII annexed)"
+    author: barlow
+    locus: "the two embedded bull texts only (Regnans in Excelsis in English/Latin parallel columns c. lines 2280-2330; the Paul III bull against Henry VIII in Latin only, with an English index-line summary but no full parallel translation, c. lines 28695-28710) - not Barlow's own surrounding epistle dedicatory, epistle to the reader, or running commentary"
+    atlas_ids:
+      - the-tridentine-church
+    role: tradition
+    confidence: assigned
+    note: >
+      Filed under `barlow`, the vendored file's own compiler/printer slug
+      (the same convention this corpus already uses for a secondary
+      compiler's framing - e.g. `boero` for the Life of Peter Favre) -
+      not a claim that Barlow authored the bulls themselves. What this
+      row carries is Pius V's own bull Regnans in Excelsis (1570,
+      excommunicating and deposing Elizabeth I), printed in genuine
+      English/Latin parallel columns, and Paul III's bull against Henry
+      VIII, printed here in Latin only, with only a brief English
+      index-line summary and no full parallel translation. role:
+      tradition because the bull text itself is reproduced verbatim in
+      both cases - the papacy's own binding act, not a paraphrase or
+      narrative about it - regardless of which language(s) it's printed
+      in. Narrow (two short bulls) but genuine primary-source window.
+      Closes a gap identified in this world's own Source Readiness
+      Dossier §3.
+  - work: "Brutum Fulmen - Barlow's own epistle dedicatory, epistle to the reader, and running commentary"
+    author: barlow
+    locus: "everything in the file outside the two embedded bull texts: Barlow's own dedicatory epistle, his epistle to the reader, and his running marginal/textual commentary"
+    atlas_ids:
+      - the-tridentine-church
+    role: context
+    confidence: assigned
+    note: >
+      This is not this world's own voice: Thomas Barlow (Anglican bishop
+      of Lincoln) writing hostile anti-Catholic polemic in 1681, framing
+      the two embedded bulls as evidence of papal tyranny. role: context,
+      not tradition - useful as an outside opponent's own testimony (e.g.
+      for Doc_04 gravity-discovery work on how the papacy's own claims
+      to depose princes were received and attacked), never as this
+      world's own composed voice. Distinguished from the tradition row
+      above, which carries only the two bulls' own verbatim text.
+      Closes a gap identified in this world's own Source Readiness
+      Dossier §3.

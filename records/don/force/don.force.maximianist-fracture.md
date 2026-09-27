@@ -52,24 +52,39 @@ name: The internal Maximianist fracture (393-398) [2B - ongoing/internal]
 kind: ongoing
 matrix_cell: 2B
 description: >-
-  LAYER 1 - HISTORICAL EVENT (Doc_08 Cell 2B, Force 2B-4): the deacon Maximian broke from the mainstream Donatist
-  hierarchy in 393 over disciplinary and procedural grievances against Primian, bishop of Carthage; a council
-  at Cebarsussi elected Maximian a rival primate; the mainstream party's own much larger council at Bagai
-  (394) condemned the Maximianists and, over 394-398, suppressed them - invoking existing imperial and proconsular
-  anti-heretical legislation against its own dissidents, and receiving the Maximianist clergy back afterward
-  without repeating either ordination or baptism. The affair's consequences remain live in Augustine's own
-  writing as late as c. 405-406 and are pressed again at the 411 Conference. Documented, attested directly
-  in Augustine's own quotation of the Cebarsussi and Bagai sentences. LAYER 2 - THE WORLD'S OWN EXPERIENCE:
-  this world's own councils judged its own dissidents by the same conciliar authority that governs everything
-  else in its institutional life - and when those same councils received the Maximianist clergy back, they
-  did not repeat the rebaptism this world otherwise insists on. The record states this plainly, in the same
-  texts that state the doctrine at its most absolute, and does not treat the two facts as cancelling each
-  other. LAYER 3 - FORMATION IMPACT: this is the direct engine of the purity-rigor-against-institutional-reception
-  tension - the most rigorously and repeatedly directly-quoted internal tension in this world's entire vendored
-  corpus - and it reshapes, without fracturing, the ministerial-purity gravity's own internal consistency.
-  It also supplies the third qualifying instance of the principled-refusal-against-recourse tension, the 390s
-  invocation of imperial legislation against this world's own dissidents, and it is the specific event the
-  411 Conference presses again.
+  In 393 the deacon Maximian broke away from the mainstream Donatist hierarchy. His grievances
+  concerned discipline and procedure, and they were aimed at Primian, bishop of Carthage. A
+  council at Cebarsussi then elected Maximian as a rival primate.
+
+  In 394 the mainstream party held its own, much larger council at Bagai. That council condemned
+  the Maximianists. Over 394-398 the party suppressed them. To do it, the party turned existing
+  imperial and proconsular laws against heretics on its own dissidents.
+
+  Afterward the mainstream party received the Maximianist clergy back. It repeated neither their
+  ordination nor their baptism.
+
+  The consequences were still live in Augustine's own writing as late as about 405-406, and they
+  were pressed again at the 411 Conference. This is attested directly in Augustine's own quotation
+  of the sentences passed at Cebarsussi and at Bagai.
+
+  This world's own councils judged its own dissidents. They used the same conciliar authority that
+  governed everything else in its institutional life. Yet when those councils took the Maximianist
+  clergy back, they did not repeat the rebaptism this world otherwise insists on.
+
+  The record states this plainly. It does so in the same texts that state the doctrine at its most
+  absolute. And it does not treat the two facts as cancelling each other out.
+
+  This affair is the direct engine of one of this world's central tensions. On one side stands
+  strict purity. On the other stands receiving people back into the institution. Of every internal
+  tension in this world's record, none is quoted directly so rigorously, or so often.
+
+  The affair reshapes how the doctrine of ministerial purity holds together. But it does not break
+  that doctrine apart.
+
+  It also supplies the third qualifying case of another tension. This world refuses state
+  authority on principle, yet turns to it in practice. Here the turn was the use of imperial law
+  against its own dissidents in the 390s. And this is the specific event the 411 Conference
+  presses again.
 manifestations:
 - the deacon Maximian's break from Primian of Carthage in 393 over disciplinary and procedural grievances
 - the council at Cebarsussi electing Maximian a rival primate, and the much larger council at Bagai (394)

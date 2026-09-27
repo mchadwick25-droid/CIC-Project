@@ -1,0 +1,20 @@
+source_file: foxe_acts-and-monuments-v3_cattley-townsend1837.txt
+
+assignments:
+  - work: "The Acts and Monuments of John Foxe, Vol. III (Cattley/Townsend edition)"
+    author: foxe
+    locus: "Lollard-era martyrology (William Thorpe's Examination, William Sautre, John Badby, Walter Brute, Sir John Oldcastle)"
+    atlas_ids:
+      - lollardy
+    role: context
+    confidence: assigned
+    note: >
+      Hostile-yet-preserving trial-record material: Thorpe's own 1407
+      Examination "penned with his own hand," Sautre's, Badby's, and
+      Brute's own recorded words under examination, and Oldcastle's
+      history. Fills this world's own Step0-flagged gap - the
+      hostile-trial-record leg of the corpus had no accessible PD source
+      before this. This volume was confirmed by direct
+      full-text search to contain Lollard-era content specifically; it
+      was not checked for Hus/Bohemian content, so it is assigned only
+      here, not to the-hussite-and-bohemian-brethren-movement.

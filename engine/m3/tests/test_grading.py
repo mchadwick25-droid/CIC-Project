@@ -35,11 +35,11 @@ def test_a_citation_to_an_evidence_status_id_passes_but_is_named_as_such():
     """The fleet's third citation category (engine.m1.canon.evidence_status_
     types): a search record is definitionally sourceless - it documents the
     looking itself - so citing one grounds an honest evidence-of-absence
-    claim. Found live (hal, 2026-08-28): the voice answered an evidence-
-    pressure probe with "the richness is in the letters, not in the stones"
-    and cited hal.search.latin-critical-texts (result: not_found) - a real,
-    apt citation the check then called fabricated. Like the scaffold
-    category, passing this way is named, never silent."""
+    claim. For example, a voice answering an evidence-pressure probe with
+    "the richness is in the letters, not in the stones" and citing
+    hal.search.latin-critical-texts (result: not_found) is a real, apt
+    citation, not a fabrication. Like the scaffold category, passing this
+    way is named, never silent."""
     result = source_boundedness_check(
         _transcript(["w.search.absent-thing"]), known_source_ids=set(), evidence_status_ids={"w.search.absent-thing"}
     )

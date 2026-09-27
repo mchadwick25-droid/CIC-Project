@@ -1,0 +1,16 @@
+source_file: ausbund_lancaster1846-deu.txt
+
+assignments:
+  - work: "Ausbund, das ist: etliche schoene christliche Lieder"
+    author: ausbund
+    locus: "whole volume"
+    atlas_ids:
+      - the-anabaptist-movements
+    role: tradition
+    confidence: assigned
+    note: >
+      The movement's own hymnal, an 1846 Lancaster PA printing, still in
+      liturgical use among the Amish. Per the Library's scan-quality rule
+      (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this is a
+      garbled scan - stays second witness for scan-quality reasons, not
+      language, until a cleaner edition is vendored.

@@ -47,8 +47,11 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3]))
 
 from engine.m1 import canon, loader
+from engine.m1.registry import formation_world_keys
 
-WORLDS = ["alx", "pahc", "hal", "syr", "ijc", "desert"]
+# Every formation world, read from the registry rather than hand-kept, so
+# a newly admitted world is covered automatically.
+WORLDS = formation_world_keys()
 
 # A locus is VAGUE when it points at a body of text rather than a place in
 # one. These are the phrasings the corpus actually uses for that.

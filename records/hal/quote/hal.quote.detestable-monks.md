@@ -37,7 +37,7 @@ retrieval:
   - "participant asks whether the fasting went too far and whether anyone died of it"
   - "participant asks whether the neighbours were hostile"
 ---
-Verified verbatim 2026-08-21 against the vendored npnf206 (Ep. 39 sec. 6,
+Verified verbatim against the vendored npnf206 (Ep. 39 sec. 6,
 div v.XXXIX). ATTRIBUTION SHAPE: the Roman funeral crowd's whispers as
 Jerome himself reports them - hostile speech against his own circle,
 preserved by its target. That he recorded the accusation 'killed with
@@ -45,4 +45,4 @@ fasting' at all is the record's own honesty about Blaesilla's death; that
 the wording is his reconstruction of crowd murmur is the genre reality.
 Serves F5-P (what belonging cost) and F6-I (the hardest true thing).
 
-MODERN RENDERING AUTHORED (2026-08-29, bar sweep - see Ministry/Technology/CiC_Register_Bar_2026-08-29.md): this quote is spoken by a demonstration, so its spoken form is rendered at the bar; original stays as text for Level 3.
+This quote is spoken by a demonstration; its spoken form is rendered at the register bar, and the original stays as text for Level 3.

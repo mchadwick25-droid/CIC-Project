@@ -70,4 +70,4 @@ the same cell already claimed by pahc.witness.our-own-failures, which
 covers this identical occasion - reused here since this story is the
 narrative form of that same honest, unresolved answer, not a new claim.
 
-BAR SWEEP (2026-08-29, Mark: "much better thats the bar"): narrative prose rewritten to the approved sample's level - short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.
+The narrative prose follows the project's approved register: short sentences, everyday words; every quotation kept character-exact; all hedges and outside-account framing kept.

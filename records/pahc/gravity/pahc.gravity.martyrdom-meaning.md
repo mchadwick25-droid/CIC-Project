@@ -43,33 +43,35 @@ relations:
   target: pahc.quote.lucian-all-brothers
 name: "Martyrdom as Formation-Shaping Meaning-Response [SUPPORTING, Strand A only]"
 classification: supporting
-description: "In some of this world's communities a death for the name is read as the thing that
-  completes a person's formation, and remembered yearly - not everywhere among them. SIX-TEST SUMMARY:
-  Repetition is weak relative to the Primary/Supporting candidates above it - exactly two data points
-  within this world's Native evidentiary base (Ignatius's own voice; the Martyrdom of Polycarp), both
-  Strand A. Dependency is real but narrower than it first appears: runs mostly INTO authority
-  consolidation and boundary-drawing (Ignatius uses his own impending death to reinforce both), not the
-  reverse; the dies natalis commemoration belongs more to what this world hands off to its successors
-  than to something its own liturgical practice already organizes around. Formation is CLEARLY
-  formation-shaping for the specific individuals in the record - far less certain for the ordinary,
-  non-elite, non-imminently-threatened member. Explanatory power explains Ignatius's own rhetorical
-  shape well; does not explain Strand B material at all - 1 Clement and Hermas show no comparable
-  martyr-piety content. Persistence fails to clear a broad bar - visible in two individuals' own
-  experience, not across regions, communities, or evidence streams. Interaction: demonstrated
-  relationships with authority-consolidation, translocal-network, state-pressure, and boundary-drawing -
-  all four INFERENTIAL per Doc_04's own labeling (each traced to a single shared Ignatian passage doing
-  double duty across several cells at once, not independent corroboration); no demonstrated relationship
-  with liturgical-practice (G07 - the dies natalis commemoration belongs to what this world hands off to
-  successors, not to its own liturgical practice already organizing around it, per this gravity's own
-  Dependency test above). AUTHOR GRAVITY RISK (Doc_04's own generation-stage rating): High, flagged
-  explicitly at generation - within this world's Native evidentiary base, this rests on exactly two data
-  points, both Strand A. CONFIDENCE/GRAVITY CROSS-CHECK: the clearest case of the Cross-Check doing its job - dramatic,
-  quotable, easy to over-read as organizing this whole world's piety, but Repetition and Persistence
-  are both thin and representativeness is Contested/Inferential-Thin; classifying this Primary on the
-  strength of how vivid it reads would be exactly the failure mode the Cross-Check exists to prevent.
-  CROSS-STRAND STATUS: strand-bound - both data points are Strand A; no Strand B equivalent is developed
-  anywhere in this world's evidentiary base (an absence of evidence, not a confirmed absence of the
-  phenomenon in Rome)."
+description: "In some of this world's communities, a death for the name is read as the thing that
+  completes a person's formation, and it is remembered each year. This is not true everywhere among
+  them.
+
+  The evidence is thinner than for the stronger patterns. Inside this world there are exactly two
+  witnesses: Ignatius's own letters and the Martyrdom of Polycarp. Both come from Antioch and Asia
+  Minor. Other patterns do depend on this one, but less than it first seems. The dependence runs mostly
+  one way. Ignatius uses his coming death to strengthen his case for the bishop and for firm boundaries,
+  not the reverse. The yearly remembrance of a martyr's death day, kept as a 'birthday,' belongs more to
+  what this world hands on to later churches. Its own worship is not yet organized around it.
+
+  It clearly shaped the particular people in the record. For an ordinary member, not a leader and not
+  facing death soon, that is far less certain. It explains the shape of Ignatius's writing well. It does
+  not explain the Roman material at all: 1 Clement and Hermas show nothing like this devotion to
+  martyrs. It appears in two people's own experience, not across regions, communities, or kinds of
+  evidence.
+
+  It connects with leadership, the letter network, state pressure, and boundary-drawing. But all four
+  links rest on single Ignatius passages, each used for several links at once. That is not independent
+  confirmation. No link with shared worship is shown, because the yearly remembrance belongs to later
+  churches, not to this world's own worship.
+
+  With only two witnesses, both from Antioch and Asia Minor, the risk that this reflects a few voices rather than
+  common belief is high. That risk was flagged from the start. This is the clearest case where the
+  evidence has to check the impression. The material is dramatic and easy to quote. It is easy to read
+  as the heart of this whole world's piety. But it recurs little and is not seen across places, and how
+  typical it was is disputed and thinly supported. Treating it as central because it reads so vividly
+  would be exactly the mistake to avoid. Both witnesses come from Antioch and Asia Minor, and nothing
+  comparable survives from Rome. That is an absence of evidence, not proof that Rome lacked it."
 manifestations:
 - "Ignatius's own sustained self-presentation as one eager to be 'food for wild beasts' (Romans 4)"
 - "the community at Smyrna collecting Polycarp's bones as 'more precious than the most exquisite jewels' and marking his dies natalis (Martyrdom of Polycarp 18)"
@@ -85,9 +87,7 @@ NOT commend those who volunteered for suffering - martyrdom-readiness
 and death-seeking are not the same thing in this world's own account,
 directly relevant to the fleet canon's own F6-E-02 question.
 
-RELATION ADDED 2026-09-19 (pahc `world_front` build): reciprocal
-`associated-with` edge to the new `pahc.story.quintus-recantation`,
-authored the same pass to reconcile a `documentedStories` entry on the
-live site with no existing story record. This gravity's own
-manifestations[] already named the Quintus material; the new story
-record gives it a first-class narrative home.
+A reciprocal `associated-with` edge connects this gravity to
+`pahc.story.quintus-recantation`. This gravity's own manifestations[]
+already named the Quintus material; the story record gives it a
+first-class narrative home.

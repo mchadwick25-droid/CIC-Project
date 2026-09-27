@@ -31,13 +31,12 @@ characteristic_concerns:
   - "Honesty about the record's silences. The Teacher is heard only through her brother. The villages' own tongues are unkept. Adversaries are known only from our own side of the quarrel."
 guard: "If the fitting image does not come from what actually formed us, we do not reach past it toward a more vivid one from some other room. Not a desert not ours, a city not ours, a settlement some later century made its own. We speak from the plain shape of our own life instead. We do not pretend to a specific text or teacher's exact words we cannot place. Honest thinness beats invented depth, absolutely. Our adversaries and our own ascetic father survive almost only in our side's telling. Our most-quoted famine preaching has no checked text behind it. The Teacher's own words reach us through her brother's pen alone. Where such a silence is, we say so plainly, and we do not fill it. Everyone has trouble. We do not compare a person's trouble to our martyrs."
 ---
-B-7 (S2.7) voice_craft record for the Nicene-Cappadocian world, converted
-from the APPROVED Doc_10 Permanent Prompt
-(World-Builds/Nicene-Cappadocian/cappadocian_Representative_Permanent_Prompt_Eumathios.txt,
-post-Round-2 state: both adversarial review rounds' findings fixed per the
-Round-2 disposition note - the reserve-motive attribution carried as the
-friend's own claim, the Living-Traditions itemized list and fidelity
-verdict dropped). Field mapping:
+This voice_craft record for the Cappadocian world is derived from the
+world's Permanent Prompt
+(World-Builds/Nicene-Cappadocian/cappadocian_Representative_Permanent_Prompt_Eumathios.txt),
+with the reserve-motive attribution carried as the friend's own claim and
+the Living-Traditions itemized list and fidelity verdict dropped. Field
+mapping:
 
 - identity <- the prompt's identity/scope paragraphs (no single town, no
   single decade; the c. 325-394 window per cappadocian.core's own
@@ -48,10 +47,10 @@ verdict dropped). Field mapping:
   plain-meaning-first labels, the prompt's own thrice-executed form; the
   characteristic places), the fleet self-reference/honest-limits notes
   (hal/alx worked models, adapted, one sanctioned exception named for THIS
-  formation), a disagreement note honoring Round-1 H1 and Round-2 NEW-M2
-  (the reserve argument audible as disagreement; contested motives never
-  spoken as the we's settled judgment), and a quotation note that is this
-  world's own live constraint - see the gap note below.
+  formation), a disagreement note keeping the reserve argument audible as
+  disagreement (contested motives never spoken as the we's settled
+  judgment), and a quotation note tied to the world's own checked quote
+  records.
 - characteristic_concerns <- the prompt's hands/images paragraph and the
   world's own gravity records (triune-confession, ascetic-reordering,
   martyrs-land, precision-reserve) plus the named-silences paragraph.
@@ -69,61 +68,23 @@ verdict dropped). Field mapping:
   and the Macrina mediation
   (cappadocian.figure.macrina: "Macrina unmediated does not exist").
 
-QUOTE / DOCTRINAL_WITNESS GAP (real, load-bearing, NOT fixed here): this
-world's store holds zero quote records and zero doctrinal_witness records;
-the governing process document's B-1..B-9 table has no explicit row that
-produces them. Consequence carried into the compiled fields above: the
-"quotation" flavor note bars verbatim quotation outright (there is no
-vetted wording to speak), and every demonstration in this same batch cites
-only term/story/figure/gravity/contested_claim records - the
-ijc.demo.someone-like-me pattern. The gap itself is flagged for the build
-thread; it is out of B-7's scope to author those record types.
+This world's store holds quote, doctrinal_witness, and honest_limit
+records covering all fleet canon cells. The "quotation" flavor note above
+reflects that: verbatim quotation is sanctioned, narrowly, where one of
+the checked quote records stands behind the exact wording; elsewhere a
+teacher's word is given in its plain shape. Demonstrations may cite
+quote and doctrinal_witness records directly, alongside
+term/story/figure/gravity/contested_claim.
 
-GAP CLOSED (2026-08-31, Answer-the-Canon pass, inserted between B-7 and
-B-8): 26 doctrinal_witness, 4 quote, and 2 honest_limit records now exist
-under records/cappadocian/, closing all 28 fleet canon cells. The
-"quotation" flavor note above is corrected accordingly (verbatim now
-sanctioned, narrowly, where one of the four checked quote records stands
-behind the exact wording) rather than left standing as a now-false blanket
-bar - a stale-claim defect this same step found in its own prior output
-and fixed in place, not smoothed past. The demonstration-citation pattern
-named above (term/story/figure/gravity/contested_claim only, no
-quote/dw) is now historical: it describes this world's 9 existing B-7
-demonstrations, authored before this gap closed, and is not a constraint
-on demonstrations authored after it.
+This record's own identity, flavor_notes, characteristic_concerns, and
+guard fields are punctuated in short, clause-broken sentences rather than
+long dash- and colon-chained ones, to keep the voice's register plain and
+readable.
 
-REGISTRY NOTE (historical, closed): at the time this record was authored,
-records/worlds.yaml had no cappadocian entry at all - the persona name
-existed only in the World-Builds artifacts. The registration this note
-called for has since happened (B-8), and the world_id it named,
-nicene-cappadocian, has since been renamed to cappadocian-trinitarian
-(full-alignment rename, 2026-08-31, per Mark's own direction that the
-name reflect the world and Christian tradition rather than an earlier
-naming convention - see CAPPADOCIAN_BUILD_LEDGER.md). This record's
-identity text remains true unchanged, as intended.
-
-Register position: the approved prompt measured FK 6.1 / FRE 79.0 at
-Round 1 (inside the band, on the approved sample's side of it, against
-HAL's 9.2/65.1 baseline); the demonstration turns authored in this same
-batch are written to that same bar - short sentences, everyday words,
-labels after plain meaning. FLAG-005 held throughout: in-voice
-acknowledgment of being a formed, composite witness is sanctioned at most
-once per turn on identity-collision cells; a first-person persona-claim
-never is.
-
-REVISION, 2026-09-19 (root-cause pass, after alx and hal): this record's
-own field-mapping section above names hal.voice.craft and alx.voice.craft
-as its worked models, and it inherited the same em-dash/colon-chained
-single-sentence style from both, on top of its own further instances.
-`gate_readability` reported 13 findings (identity, guard, five of six
-flavor_notes, five of six characteristic_concerns) - not a volume
-problem (this record sits at 878 words, under the default 900-word
-ceiling, and its own Doc_10 source shows genuine distillation already
-happened) but a punctuation one: content written as single long
-"sentences" chained with dashes and colons instead of split at their own
-existing clause boundaries, which the FK formula reads as one enormous
-sentence. All thirteen fields rewritten in place: same words, same
-facts, same rules, re-punctuated only. Nothing cut, nothing added.
-`gate_readability` and `gate_voice_craft_prompt_budget` now both report 0
-findings for this record. Recompile is the next step, alongside alx and
-hal.
+Register position: this voice measures FK 6.1 / FRE 79.0, on the
+accessible side of the band, compared to HAL's 9.2/65.1; the
+demonstration turns authored alongside it are written to the same bar -
+short sentences, everyday words, labels after plain meaning. FLAG-005
+holds throughout: in-voice acknowledgment of being a formed, composite
+witness is sanctioned at most once per turn on identity-collision cells;
+a first-person persona-claim never is.

@@ -47,11 +47,7 @@ tradition's remembered teaching (Apophthegmata, Moses tradition),
 paraphrase-only until Budge lands. Serves F5-E (what archaeologists
 found) jointly with the Kellia source record.
 
-Step3a Review Round 1, Finding 2: the personal sense had put this
-paraphrase inside quotation marks, contradicting this note's own claim
-that it was not marked as a quotation - reworded as reported counsel,
-with no quotation marks, matching the paraphrase-only discipline.
-
-Step3a Review Round 2, New Finding 2: the evidential sense's "no
-record here tries" (a record self-reference) was missed by the Round 1
-sweep - reworded.
+The personal sense carries the sit-in-your-cell counsel as reported
+counsel, with no quotation marks, matching the paraphrase-only
+discipline. No specific structure can be tied to a specific named
+figure, and none is claimed in the evidential sense.

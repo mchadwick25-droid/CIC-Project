@@ -42,7 +42,7 @@ field lets a term record mark specific forms "ordinary"; those alone
 fall back to the OLD citation-anchored rule (fire only inside a sentence
 the turn already cited to this same term record) - scoped per-form, not
 reintroduced project-wide, so it never reopens the zero-fires failure
-the 2026-08-30 ruling fixed. A form the field doesn't name, and every
+this rule fixed. A form the field doesn't name, and every
 term record fleet-wide that predates the field, defaults to "technical"
 - today's exact behavior, unchanged.
 """
@@ -109,7 +109,7 @@ def _form_kind(term_record: dict, form: str) -> str:
 
 
 def _ordinary_form_match(pattern: str, flags: int, text: str, own_cited_sentences: list[str]) -> tuple[int, str] | None:
-    """The pre-2026-08-30 citation-anchored rule, scoped to one form: only
+    """The prior citation-anchored rule, scoped to one form: only
     a match sitting inside a sentence this turn already cited to the
     form's own term record counts. `own_cited_sentences` are that
     record's own citation sentences (already filtered by the caller);

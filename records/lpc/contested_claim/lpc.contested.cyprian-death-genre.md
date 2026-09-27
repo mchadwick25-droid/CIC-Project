@@ -5,7 +5,8 @@ record_type: contested_claim
 schema_version: 2
 status: draft
 register: etic
-canon_cells: []
+canon_cells:
+- F2-E
 confidence:
   citation_specificity: B
   verification_state: verified-via-authority
@@ -50,19 +51,17 @@ held_against:
   the strictly documentary record of the trial Pontius himself points readers toward, is vendored in Latin
   only and has not been read in this build (Doc_09 §6 item 2, §8 item 1; Story-Chunks/lpcstory006, Absent
   Story Note).
-- 'This world''s own Doc_09 was independently reviewed across eight adversarial rounds and approved to
-  proceed on 2026-09-15 with this exact question named as an unresolved escalation rather than settled
-  by that approval: ''the escalation at §8 item 7 -- which half of CF V7.4''s Tier 3 definition governs
-  when its genus clause and its hagiographic-convention clause point opposite ways at lpcstory006 -- remains
-  open and is not disposed of by this approval.'''
+- 'This world''s own Doc_09 names this exact question as an unresolved escalation, not settled: ''the
+  escalation at §8 item 7 -- which half of CF V7.4''s Tier 3 definition governs when its genus clause and
+  its hagiographic-convention clause point opposite ways at lpcstory006 -- remains open.'''
 concedes: 'Pontius meets Tier 1''s own author test on every element CF V7.4 names -- eyewitness deacon,
   identifiable social location, datable with reasonable confidence -- exactly as lpcstory001 and lpcstory002
   are assigned Tier 1 on that same basis, and this world''s own build record states this directly rather
   than obscuring it: ''on the genus clause read alone, this story cannot be Tier 3 at all.'' What is genuinely,
   and explicitly, unresolved is which of CF V7.4''s own two clauses governs when they point in opposite
   directions at one and the same account -- a question this world''s own build record calls ''a Construction
-  Framework question, not a question this build can settle,'' carried to the project lead rather than
-  adjudicated by either the chunk, the story record, or this one. This record does not resolve it either.
+  Framework question, not a question this build can settle,'' and not adjudicated by either the chunk, the
+  story record, or this one. This record does not resolve it either.
   The bare historical facts are not in dispute: Cyprian was certainly executed under Valerian in 258,
   and the account we have of it was written in praise by his own deacon, in a form that patterns deaths
   on Scripture -- both true at once, and neither settles which Tier clause the account itself belongs

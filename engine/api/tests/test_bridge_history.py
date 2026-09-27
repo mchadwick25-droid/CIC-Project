@@ -1,9 +1,8 @@
-"""SS77 applied to session memory (found and fixed 2026-08-28, the Table
-thread): the bridge turn hands the voice the term-free underlying subject,
-and until this fix the NEXT turn's history replayed the participant's raw
-message - the barred modern word reached the voice one turn late. Both
-modes are fixed through one function (engine.api.wiring.replay_transcript),
-and both are pinned here.
+"""SS77 applied to session memory: the bridge turn hands the voice the
+term-free underlying subject. Without this, the NEXT turn's history would
+replay the participant's raw message - the barred modern word reaching the
+voice one turn late. Both modes are covered through one function
+(engine.api.wiring.replay_transcript), and both are pinned here.
 
 What "term-free" asserts: the participant's own sentence (their modern
 framing) never replays to a voice. The substitute is the fleet record's own
@@ -28,7 +27,7 @@ def underlying_subject():
 def test_interview_history_replays_underlying_subject(store, usage_store, world_loader, registry, underlying_subject):
     # No reader flag needed: terms_in_message finds "Trinity" against the
     # fleet record's own display_terms, and the term postdates fix's window,
-    # so routing bridges (the same path the live 2026-08-24 fix proved).
+    # so routing bridges.
     client = FakeBedrockClient(
         safety_response=safety_response("NO_SIGNAL"),
         reader_response=reader_response(),
