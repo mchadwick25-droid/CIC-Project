@@ -3684,3 +3684,37 @@ clean on the touched files.
 Table specifically - and, separately, whatever real device coverage looks
 like in practice (this design's honest fallback is a real limitation, not
 a hidden one, on any device with only one system voice installed).
+
+---
+
+## 2026-09-27 (later still) — PR #626 merged; Mark's own live-audio check, both conversation modes: done
+
+PR #626 merged to `main` (commit `b6839b9e7`); `cic-engine-staging`
+(`https://cic-engine-staging.onrender.com`) auto-deployed with
+`VITE_READ_ALOUD=on`. Mark opened the real deployment in his own browser
+and did the listen-through the design note's own gate required - not the
+sandbox's `espeak-ng` stand-in, a real system voice.
+
+**Verdict, Mark's own words: "rough but understandable... very computer
+generated."** Two things named specifically:
+
+- **"read" pronounced present tense, not past** - a real, structural
+  limitation of browser text-to-speech, not a bug in this code. The word
+  is spelled identically in both tenses; the Web Speech API takes plain
+  text only, with no phonetic or tense hint mechanism, so the engine
+  guesses from context and gets it wrong. Any world whose Representative
+  talks about reading Scripture - most of them - will hit this.
+- General synthesized-voice quality, i.e. the free tier's own known
+  ceiling, confirmed by real listening rather than assumed.
+
+**Ruling, given directly: keep free voices for now; live with the rough
+edges.** Not revisited today. The tradeoff is on record, named plainly, not
+quietly accepted: a paid composite voice (ElevenLabs/Chirp) would fix both
+findings (proper text normalization, no plain-text-only ceiling) at the
+cost of a recurring per-conversation spend this ruling explicitly declines
+for now.
+
+**This closes Mark's own stated condition** ("hold on Church Family Tree
+until the two conversation pieces are in place") - both the single
+conversation and the Table now have real code, real tests, and Mark's own
+verified listen, not just an automated check.
