@@ -482,6 +482,19 @@ question OG-2 reserves. Disposition: **NOT CLEARED, escalated rather than pushed
 round**, per the Round 3 review's own explicit recommendation. Whether/how OG-2 resolves
 determines whether a Round 4 becomes tractable or needs redefining around a new boundary.
 
+**Re-checked 2026-09-27** (`don_Decision_Log.md`, "OG-3... re-investigated 2026-09-27"): the
+narrow originally-named defect (naming "your own historians"/"your thesis") is confirmed
+already fixed and already logged as closed (17/17 across all three rounds); this entry's own
+NOT CLEARED, escalated disposition is re-confirmed accurate for the entangled fallback-leak
+defect specifically — both legacy files re-read verbatim and found unchanged since the
+escalation. **A further fact, found this pass:** `records/worlds/don.yaml` pins don's live
+package to `packages/don/2026-09-26T20-12-04Z`, compiled by `engine/m2` from `records/don/*`,
+not from either legacy file — so this escalation, however accurately described, is filed
+against an artifact the fleet no longer runs. Whether the same regression (or its entangled
+variant) recurs in the M2-compiled prompt is untested and unresolved — genuinely new scope,
+not covered by any test on record. No fix applied, no live retest attempted, no file under
+`records/don/` touched.
+
 ### OG-4. Relational Safety — PROVISIONAL PASS, NARROW SCOPE, not a full PASS; several items genuinely untested.
 Current disposition (`don_Rep_Phase5_Boundary_Testing_Round1.md` §2, per the Round 2 Probe 11
 retest's own independent review): moved off system-level FAIL, but explicitly not to full
