@@ -1805,3 +1805,44 @@ commentary.py` — 157 passed, 16 new across the three commits (141 → 157), ea
 and, for the three dropped proposals, pinning them as dropped so a future change can't quietly
 re-introduce them. `tools/check_paths.py --baseline` — 0 new unresolved, 0 retired. Pushed to
 `claude/gallant-archimedes-jafyg8` at `5f24af2a1`.
+
+**Two named follow-ups, closed the same day (`04b990375`, `13042bee1`–`289b4d980`).** The remaining
+worlds/ scope the pass above deliberately left open: lpc/don/cappadocian's `Source_Registry.md`
+"Added" column writes its date FIRST ("2026-09-01, `lpc` build thread") rather than last, a shape
+the table-cell exemption's regex couldn't match at all (noted as "errs safe" in the prior commit).
+Fixed by widening `_BARE_DATE_TABLE_CELL` to accept an optional trailing label after the date too,
+verified in Python against both orderings before editing the source. Isolated verification against
+the immediately-prior checker state (not the original baseline, to measure this one change alone):
+242 more hits correctly reclassified to KEEP (lpc 130, cappadocian 99, gallic 12, witt 1), 0
+regressions — rows that still flag correctly stay flagged (e.g. lpc row 1 still cites a dated
+Decision-Log correction in its own Verification Note column, a separate, real hit the Added-column
+fix was never meant to touch).
+
+`pahc` — the one world a prior batch deliberately deferred rather than rush, given its dense,
+multi-round correction narrative interleaved with live analytical reasoning — got its own dedicated,
+unhurried pass. 155 → 112 REWRITE+ROUTE hits (43 resolved by editing; the rest individually verified
+as false positives or intentionally preserved, not left unexamined). Five commits: Doc04/05/06's
+round-numbered Interaction Matrix/Forces-table correction saga cut to the reasoning alone;
+Doc07/08/09's dated "tightened at Step 9" wrappers dropped; `Validation_Testing.md` (32→8, the
+single densest file in the sweep, not one of the originally-named six) and `World_Profile.md`
+(13→9) stripped of "Resolved 2026-07-08" scaffolding; Doc03's citation-note tag dropped; one stale
+`HAND_LABELS` entry refreshed. **A real substantive staleness surfaced and fixed in passing**:
+`Validation_Testing.md` still described Doc_08's Cell 3A "External" force definition using a
+geographic reading that Doc_08's own Document Log records as later found inconsistent with Force
+2A-2's own text and withdrawn — corrected to state Doc_08's actual current, non-geographic rule
+(independently confirmed against Doc_08's own current text before push). Left deliberately
+untouched: `CiC_W1_Phase6_Facilitation_Brief_B1-B6_DRAFT.md` (18 hits) — a live, still-undisposed
+draft carrying OG-1's operational Relational Safety disclosure, where "Safety comes first" outranks
+narrative cleanliness and the dated timeline is itself safety-relevant evidence, not process
+trivia — flagged for a human decision rather than edited; `Representative_Identity_Preliminary_
+Decision.md:31`'s CORRECTION block, OG-6's own intentionally-preserved fabrication-catch record;
+`World_Profile.md:517`'s Article 29 Living Tradition confirmation, a required governance record
+analogous to other protected Status fields fleet-wide; and a long tail of `route-cue`/`reviewer`/
+`era-gate` hits confirmed as genuine analytical content or generic-reviewer false positives, not
+forced into edits just to clear the count.
+
+Verified independently before push (not just re-trusting either batch's own claims): `tools/tests/
+test_check_live_commentary.py` — 158 passed; `tools/check_paths.py --baseline` — 0 new unresolved,
+0 retired; both fleet-wide diffs (against the original pre-Phase-3b baseline) show 0 non-actionable-
+to-actionable regressions; the Cell 3A fix spot-checked directly against Doc_08's own current text.
+Pushed to `claude/gallant-archimedes-jafyg8` at `289b4d980`.
