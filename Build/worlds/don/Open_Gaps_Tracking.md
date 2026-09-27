@@ -812,11 +812,19 @@ The fleet-wide gap item 47 names is not closed by this entry — cappadocian's a
 
 Status: RESOLVED, 2026-09-25. The dropped-causal-clause defect is fixed and independently verified by the Opus clause-by-clause check; the V1.8 two-grader clearance specifically is noted above as unverified rather than confirmed. Not carried forward as an open item.
 
+### OG-19. don's first M3 sealed live-admission battery run against its current (2026-09-26-rebuilt) package, 2026-09-27 — 28/28 probes pass, nothing to fix.
+
+Closing this world's own share of the fleet-wide gap named in `Build/Ministry/Operations/Audits/CiC_M2_Migration_Validation_Gap_Audit_2026-09-27.md` — the same gap OG-3's own 2026-09-27 re-investigation (above) first surfaced for don specifically, and which the audit then confirmed as a fleet-wide condition affecting ten of eleven deployed worlds. Every deployed world but rzg (which got its own first post-rebuild run 2026-09-27, `Build/worlds/rzg/Open_Gaps_Tracking.md` item 50) had never had `engine.m3.live_admission_run` (the live-Bedrock-spend, 28-probe sealed admission battery) run against the M2-compiled package it currently pins. `python3 -m engine.m2.cli staleness-check` confirmed `packages/don/2026-09-26T20-12-04Z` clean beforehand.
+
+Run as part of one batch invocation covering alx, cappadocian, desert, and don (gallic split into its own invocation after this one's own `--max-usd $3.00` ceiling stopped before gallic's billed calls — see gallic's own tracking entry, OG-17). Result: **28/28 sealed probes pass**, real cost **$0.72789585** (don's own highest per-probe cost in the batch, consistent with `real_world_costs()`'s own docstring noting don runs near the fleet's high end). Full report: `engine/m3/reports/live-admission-report-batch1-2026-09-27.json` (`worlds.don`).
+
+No probe failed, so there is nothing here for a next thread to fix. **This is a narrower result than OG-3's own still-open question.** OG-3 (and this same session's 2026-09-27 re-investigation of it, above) is about whether the Scholarly-Framework retest regression and the Axido/Fasir naming question recur against the M2-compiled artifact — a targeted, adversarial re-test this run's own sealed battery does not attempt (the M3 battery's checks are `source_boundedness` and `register_coined_aphorism_heuristic`, not a Scholarly-Framework/Axido-Fasir probe). A clean 28/28 sealed-battery pass does not by itself resolve OG-3; OG-3's own NOT CLEARED, escalated disposition stands unchanged. Also logged at `Build/worlds/don/don_Decision_Log.md`, 2026-09-27.
+
 ---
 
 *This file's own scope note, for the next thread that touches it: OG-1 through OG-4 are the
 live, unresolved items that most directly bear on this world's own path to Freeze and on
-Relational Safety's own current scope. OG-5 through OG-18 are disclosed, routed, resolved, or
+Relational Safety's own current scope. OG-5 through OG-19 are disclosed, routed, resolved, or
 surfaced-but-undecided items of varying weight — none blocking, all real. Per CLAUDE.md's own
 rule, entries in this file are append-only and numbered; a merged entry's number does not
 change, and any future cross-reference should cite subject and date, not a bare OG-number
