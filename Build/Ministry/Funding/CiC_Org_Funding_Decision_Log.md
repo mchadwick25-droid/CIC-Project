@@ -355,3 +355,13 @@ worth a plan, not just a hope.
 **Ministry tree triaged** (this PR): early-days strategy drafts to `Archive/Ministry-Early-Days-2026-07/`; five documents kept with supersession banners; FAQ and Letter to Friends kept as source material with their standing status written on them; the Organizational Covenant's Article 2 commitment ("Money Buys Access, Never Voice" — core access stays free, money only widens the Table, never gates or influences) extracted and quoted with full attribution into `CiC_Business_Roadmap_V0_1.md` under "What stays true across every phase"; the Covenant itself moved to `Archive/Ministry-Early-Days-2026-07/Organization/`.
 
 **Next action:** Mark's answer on what the supplement pays for; reviewer thread reads the three wave-1 reports against their standards.
+
+---
+
+## 2026-09-27 — ElevenLabs scoped to Church Family Tree specifically, not the two conversation engines
+
+**Sequencing (Mark's decision):** Church Family Tree (the public Atlas/tradition-pages work) holds until both conversation pieces are in place - the single-conversation interview and the multi-voice Table, both currently mid-build on `claude/streaming-read-aloud`.
+
+**Cost model, narrower than the 2026-07-08 entry's open question.** That entry left "ElevenLabs vs. Google Chirp 3 HD" untested as a *recurring, usage-scaling* cost for per-conversation TTS - and Mark has separately ruled, twice this same build thread, that both conversation engines (interview and Table) stay on the free browser `speechSynthesis` API, not a paid tier. ElevenLabs's actual near-term use is different in kind, not a walk-back of that: Church Family Tree's voice content (whatever gets narrated there) is **one-time and generative** - authored and rendered once, then served as a static asset, not synthesized fresh per participant per conversation. That's a fixed authoring cost, not a cost that scales with usage the way the July workbook's per-user estimate did.
+
+**Not yet decided:** what specifically gets narrated for Church Family Tree, in what quantity (which drives the actual one-time bill), and whether Chirp 3 HD is still worth comparing for this narrower use case now that the shape of the ask has changed. Held until Church Family Tree's own build starts.

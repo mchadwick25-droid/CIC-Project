@@ -3453,3 +3453,234 @@ light-mode hex values. Promote through this project's normal `main` →
 `live` pipeline for `cic-poc/frontend` (confirm with `render.yaml`
 which service/branch that actually is before merging — do not assume
 it matches `cic-website`'s Cloudflare pipeline).
+
+---
+
+## 2026-09-22 — Read-aloud, step 1: RULED, awaiting Stage 7 and a real-browser check
+
+**Origin.** Mark's ruling: *"start with read-aloud free, composite voice
+on the paid tier... test one step at a time."* Full design note:
+`Ministry/Technology/CiC_ReadAloud_Step1_Design_Note.md`. Prototype on
+branch `read-aloud-step1`, behind `VITE_READ_ALOUD` (defaults off, same
+"only the literal string 'on' flips it" discipline as
+`VITE_TRANSPARENCY_ANCHOR_RENDERER`), draft PR open against `main`, not
+merged.
+
+**Shape.** The participant's browser speaks `turn.text` verbatim through
+`window.speechSynthesis` — no new backend, no audio files, no composite or
+character voice (that's the paid-tier step, not this one). One *global*
+control in the conversation bar, not a per-turn button — chosen because a
+Facilitator turn has no speaker row at all (deliberately unlabeled,
+`CiC_Full_UX_Design_V1_0.md`: "talking not texting"), so a turn-level
+button would have added exactly the visual weight that design intentionally
+left out. Always targets the latest completed voice/Facilitator turn;
+replaying an older turn is out of scope for step one. Text is chunked into
+sentences before being queued (`speechSynthesis.speak()` once per
+sentence) both to satisfy "never mid-sentence" and to route around a real
+Chrome bug that silently truncates long single utterances — directly
+relevant here since the crisis-resources safety turns
+(`engine/m4/crisis_resources.py`) are exactly the text this project can
+least afford to cut off. Nothing auto-plays, ever; the control is a plain
+button a screen reader announces like any other.
+
+**Two calls made without asking, documented for Mark to overrule:**
+Play/Stop only, not Play/Pause/Stop (real `speechSynthesis` pause/resume
+is unreliable enough across mobile browsers that a broken pause seemed
+worse than no pause); and the global-header placement over per-turn
+buttons (see above). Both are argued with the rejected alternative in the
+design note, not just asserted.
+
+**What's explicitly NOT decided here — this is the actual ask of Mark:**
+the disclosure sentence telling a participant this is their own browser
+reading, not the Representative speaking. Three drafted options are in
+the design note (Q7); none are wired into any component, even behind the
+flag. This is the one open item that blocks turning `VITE_READ_ALOUD` on
+anywhere real.
+
+**Verification:** `npm test` 46/46 passing (14 new), `npm run build`
+clean. `npm run lint` could not run — no ESLint config exists in this
+checkout at all, a pre-existing gap, not introduced here. Not yet
+verified: the control has not been seen actually speaking in a real
+browser against a live `engine/api` backend (jsdom has no real
+speechSynthesis; the tests stub it) — owed before the flag is ever turned
+on for real.
+
+**Next action:** Mark's ruling on the disclosure sentence (and, if he
+wants to weigh in, the two documented-but-open calls above). Nothing
+merges until then; the PR stays a draft.
+
+---
+
+## 2026-09-22 (later) — Read-aloud, step 1: Mark's ruling on the disclosure sentence, wired in
+
+**Mark's ruling, given directly:** *"Ruling on the disclosure sentence:
+Option A, exactly: 'This reads the words on screen aloud in your device's
+own voice — it isn't {representative_name} speaking.' Show it as a visible
+one-line note under the conversation bar the first time the control
+renders in a session, not as a tooltip or aria-describedby alone (touch
+users never see a tooltip); the button keeps its accessible name. Your two
+documented calls stand: Play/Stop only, one global control in the
+header."* Both open calls from the original entry (Play/Stop, global
+header control) are now settled, not just documented-and-pending.
+
+**Wired in:** `lib/readAloud.ts`'s `readAloudDisclosureText()` holds the
+ruled sentence verbatim (not overridable by a caller — a wording change is
+a change order, same as every other approved participant-facing string
+here). New component `components/ReadAloudDisclosure.tsx` renders it
+directly under `.conversation__bar` in both `Conversation.tsx` and
+`TableRoom.tsx`, gated on the same voice-availability check the control
+itself uses. "The first time... in a session" is implemented as: visible
+while the control's target turn is still the one it was when this
+component mounted, gone for good once a new turn becomes latest — one
+disclosure, not a permanent banner — and remembered across a reload of the
+same tab via `sessionStorage` (`cic_read_aloud_disclosure_seen`), matching
+`lib/sessionStore.ts`'s own established "survive a reload, not a new tab"
+scope.
+
+**One plumbing call made, not a wording decision:** a Table sitting seats
+more than one Representative, and the ruled sentence's single
+`{representative_name}` slot can't name all of them — worse, the very
+first turn in every session (interview or Table) is the Facilitator's own
+door turn, before any seated voice has spoken. `TableRoom.tsx` names the
+first seated voice for this slot — a documented, deterministic
+simplification, not new copy. The interview screen has no such ambiguity
+(one Representative per session, named directly regardless of which turn
+is currently latest — the same way `engine/m4/crisis_resources.py`'s own
+`{representative_name}` slot already resolves this for the Facilitator's
+own safety turns).
+
+**Verification:** `npm test` 52/52 passing (6 more than the prior entry —
+disclosure text/seen-tracking in `lib/readAloud.test.ts`, a new
+`components/ReadAloudDisclosure.test.tsx`). `npm run build` clean. `npm
+run lint` still can't run (pre-existing, unrelated gap). Confirmed
+`render.yaml` carries no reference to `VITE_READ_ALOUD` — the flag is not
+set in any deploy config.
+
+**What's left is not a decision, it's two verifications Mark named
+directly:** the Conversation Transparency Engine thread's Stage 7
+(streaming) landing on `main`, and Mark hearing the control speak in a
+real browser against a live `engine/api` backend, with what he heard
+recorded. The PR (`read-aloud-step1` → `main`) stays a draft until both
+are true — updated design note and PR description reflect this gate.
+
+---
+
+## 2026-09-27 — Read-aloud, step 1: rebased onto current main, real-browser wiring verified
+
+**Scoping call, converged with Mark first.** Stage 7b (the engine
+streaming module behind `CIC_API_STREAMING`) merged 2026-09-25 as PR
+#542, but Stage 7c (an SSE endpoint plus a frontend streaming consumer)
+does not exist — nothing on `main` calls the 7b module. Read-aloud never
+needed live token streaming to work: it reads `turn.text` only after a
+turn is already complete, so it never touches the citation/glossary/story
+mark-attachment logic that streaming's per-sentence gating (R31) would
+put through a new, harder incremental path. Converged decision: ship
+read-aloud alone now against the existing whole-turn endpoint; treat 7c
+as its own separate later step with its own review, not a precondition
+here.
+
+**Rebase.** `read-aloud-step1`'s three real commits (browser TTS,
+disclosure wiring, `.env.example` doc) were behind ~230 commits of
+unrelated history. Cherry-picked onto current `main` as
+`claude/streaming-read-aloud`; the only real conflicts were an import
+line ordering in `Conversation.tsx`/`TableRoom.tsx` and the anchor
+renderer's flag default, which had flipped (`!== 'off'`, defaults on)
+since this branch was cut — kept main's current semantics, appended the
+read-aloud flag after it.
+
+**Real-browser check, done.** `engine/api/dev_server.py` (the no-spend
+fake-Bedrock dev server) plus the frontend dev server, driven by
+Playwright/headless Chromium against a genuinely restored `alx` package
+(`python -m engine.m2.cli restore` — compiled package bytes aren't in
+git). One real gotcha: `window.speechSynthesis` is a getter-only
+accessor in real Chromium, so a plain `window.speechSynthesis = {...}`
+silently no-ops; `Object.defineProperty` is required to stand in a fake
+implementation. With that fixed: created a real session, sent a real
+message, got a real `alx`/Theon reply, the "Read aloud" control appeared,
+clicking it called `speak()` with the reply split into its two real
+sentences, and the disclosure line ("This reads the words on screen
+aloud...") showed under the bar on the Facilitator's opening turn and
+correctly retired once Theon's reply became the latest turn. No console
+errors. This confirms the wiring end to end; it is not Mark's own ears on
+real audio, which is the one verification still open.
+
+**Live-surface cleanup, same pass.** `tools/check_live_commentary.py
+--surface cic-poc-frontend` flagged process narrative in the files this
+branch touches (`flags.ts`, `ReadAloudControl.tsx`,
+`ReadAloudDisclosure.tsx`, `readAloud.ts`) — ruling dates, design-note
+question numbers, a ruling-number citation (`R17`), Ministry file paths.
+Rewritten to state the underlying engineering reasoning directly instead
+of citing where it came from, per CLAUDE.md's "any PR that edits a
+live/canonical file also removes the commentary already in it." Now
+clean on that surface. `tools/check_paths.py --baseline
+tools/check_paths_baseline.txt` also clean (0 new unresolved citations).
+
+**Verification:** `npm run test` 61/61 passing, `npm run build` clean,
+both re-run after the commentary cleanup. `npm run lint` still can't run
+(no ESLint config committed anywhere in the repo — pre-existing,
+unrelated to this branch).
+
+**What's left:** Mark's own live-audio check in a real browser against a
+real `engine/api` deployment (not the dev server), and a deliberate
+Dockerfile/`render.yaml` change before `VITE_READ_ALOUD` can be turned on
+for any real deployment — neither made here, per the design note's own
+scope boundary.
+
+---
+
+## 2026-09-27 (later) — Read-aloud, step 2: per-Representative voices at a Table
+
+**Scope, converged with Mark.** "Voice for both engines" turned out to
+already be true — read-aloud was already wired into `TableRoom.tsx`
+identically to `Conversation.tsx` from step 1's rebase. The real, open
+problem was narrower: a Table seats 2-3 Representatives, often different
+genders (Chloe, Albina, Mar Yausep are all documented, named figures), but
+the browser's single default voice makes every seat sound the same. Mark
+chose free browser voices, best effort, over a paid composite-voice tier
+scoped to Table sessions only - deterministic assignment from whatever the
+device exposes, degrading honestly to one shared voice when that's all
+there is, no gender-matching claimed since a browser's voice list carries
+no reliable, structured signal for it.
+
+**Built:** `lib/readAloud.ts`'s new `pickVoiceForSeat(seatedWorldKeys,
+targetWorldKey)` filters `speechSynthesis.getVoices()` to the page's
+language (falling back to all voices), sorts them for a stable order, sorts
+the seated world keys independently of seating order, and indexes one into
+the other - so the same seating always maps to the same voices, and two
+seats never share one when there are enough voices to go around.
+`speakText` grew an optional `voice` parameter, assigned to every
+sentence's utterance. `ReadAloudControl` grew an optional `voice` prop
+threaded through. `TableRoom.tsx` computes it per render from the latest
+spoken turn's `speaker` (the seat's own world_key) - `undefined` for the
+Facilitator's own turns, which have no seat to assign one from; the
+interview path (`Conversation.tsx`) is untouched, since one voice was never
+ambiguous there.
+
+**Verified for real**, same discipline as step 1: the no-spend
+`engine/api/dev_server.py` can seat a real Table (real registry, real
+`alx`+`desert` packages, real Facilitator opening turn) but its fake
+Bedrock client only implements the reader/safety tool paths, not Table
+turn-selection, so it 500s trying to pick a second speaker. Routed only
+`POST .../message` through a scripted response naming `desert` as the
+speaker, keeping session creation, seating, and the Facilitator's real turn
+genuinely live. Result: the Facilitator's turn correctly got no voice
+assigned (five sentences, all `voice: null`); Papnoute's (desert) turn got
+"Voice Beta," distinct from what Theon (alx, seat 0) would get. No console
+errors.
+
+**Also cleaned:** a leftover "design note Q7 update" ruling-reference
+comment in `TableRoom.tsx`, caught in the same
+`check_live_commentary.py --surface cic-poc-frontend` pass this thread's
+own earlier files were held to.
+
+**Verification:** `npm run test` 71/71 passing (10 new: voice-assignment
+determinism/fallback/language-filtering in `readAloud.test.ts`, the `voice`
+prop in `ReadAloudControl.test.tsx`, per-seat differentiation and the
+Facilitator's no-voice case in `TableRoom.test.tsx`). `npm run build`
+clean. `check_paths.py --baseline` and `check_live_commentary.py` both
+clean on the touched files.
+
+**What's left:** the same Mark's-own-ears gate step 1 left open, now for a
+Table specifically - and, separately, whatever real device coverage looks
+like in practice (this design's honest fallback is a real limitation, not
+a hidden one, on any device with only one system voice installed).
